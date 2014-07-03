@@ -68,8 +68,8 @@ Straight Segments
 To create a straight segment, click* :kbd:`lmb` *at its starting point.
 Then move the mouse cursor,
 without pressing any button - a dashed red line represents the future segment.
-Click* :kbd:`lmb` *again to finalize it.*
-Each straight segment of a stroke will always create one and only one bone\ *, whatever convert algorithm you use (except for the* :guilabel:`Template` *conversion method).
+Click* :kbd:`lmb` again to finalize it.
+Each straight segment of a stroke will always create one and only one bone, whatever convert algorithm you use (except for the* :guilabel:`Template` conversion method).
 
 +-----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+----------------------------------------------------------------------+
 +.. figure:: /images/ManRiggingSketchingDrawingPolyStrokeEx1.jpg                          |.. figure:: /images/ManRiggingSketchingDrawingPolyStrokeEx2.jpg                                   |.. figure:: /images/ManRiggingSketchingDrawingPolyStrokeEx3.jpg       +
@@ -88,13 +88,17 @@ Free Segments
 To create a free (curved) segment, click* and hold\ ** :kbd:`lmb` *at its starting point.
 Then draw your segment by moving the mouse cursor - as in any paint program! Release*
 :kbd:`lmb` *to finalize the segment - you will then be creating a new* straight
-*segment, so if you would rather start a new* free *segment,
-you must immediately re-press* :kbd:`lmb`\ *…
+segment, so if you would rather start a new free segment,
+you must immediately re-press :kbd:`lmb`.
 The free segments of a stroke will create different number of bones, in different manners,
 depending on the conversion method used. The future bones' ends for the current selected
-method are represented by small green dots for each one of those segments,*
-for the selected strokes only\ *.
-   The free segment drawing uses the same* :guilabel:`Manhattan Dist` *setting as the* :doc:`grease pencil tool <3d_interaction/sketching>` *(*\ :guilabel:`User Preferences` *window,* :guilabel:`Edit Methods` *"panel",* :guilabel:`Grease Pencil` *group) to control where and when to add a new point to the segment - so if you feel your free segments are too detailed, raise this value a bit, and if you find them too jagged, lower it.
+method are represented by small green dots for each one of those segments,
+for the selected strokes only.
+The free segment drawing uses the same* :guilabel:`Manhattan Dist`
+setting as the :doc:`grease pencil tool <3d_interaction/sketching>`
+(:guilabel:`User Preferences` *window,* :guilabel:`Edit Methods` "panel", :guilabel:`Grease Pencil` group)
+to control where and when to add a new point to the segment - so if you feel your free segments are too detailed,
+raise this value a bit, and if you find them too jagged, lower it.
 
 +--------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
 +.. figure:: /images/ManRiggingSketchingDrawingFreeStrokeEx1.jpg                             |.. figure:: /images/ManRiggingSketchingDrawingFreeStrokeEx2.jpg                               +
