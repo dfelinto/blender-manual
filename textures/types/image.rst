@@ -385,6 +385,7 @@ Image
 
 In the :guilabel:`Image Sampling` panel we tell Blender which source file to use.
 :guilabel:`Image or Movie Datablock`\ :
+
    :guilabel:`Browse`
       Select an image or video among linked to the .blend file
    :guilabel:`Name field`
@@ -400,6 +401,7 @@ In the :guilabel:`Image Sampling` panel we tell Blender which source file to use
 
 :guilabel:`Source`\ :
     Where the image come from. What kind of source file to use.
+
    :guilabel:`Generated`
        Generated image in Blender.
    :guilabel:`Movie`
@@ -411,6 +413,7 @@ In the :guilabel:`Image Sampling` panel we tell Blender which source file to use
 
 :guilabel:`File for Image or Movie texture`\ :
     See about supported :doc:`Image <data_system/files/formats>` formats.
+
    :guilabel:`Pack image`
       Embed image into current .blend file
    :guilabel:`Path`
@@ -422,6 +425,7 @@ In the :guilabel:`Image Sampling` panel we tell Blender which source file to use
 
 :guilabel:`Input Color Space`
     Color space of the image or movie on disk
+
    :guilabel:`XYZ`
        XYZ space.
    :guilabel:`VD16`
@@ -442,6 +446,7 @@ In the :guilabel:`Image Sampling` panel we tell Blender which source file to use
 
 :guilabel:`Use Alpha`
     Use the alpha channel information from the image or make image fully opaque
+
    :guilabel:`Straight`
        Transparent RGB and alpha pixels are unmodified.
    :guilabel:`Premultiplied`
@@ -449,6 +454,7 @@ In the :guilabel:`Image Sampling` panel we tell Blender which source file to use
 
 :guilabel:`Fields`
     Work with field images.  Video frames consist of two different images (fields) that are merged.  This option ensures that when :guilabel:`Fields` are rendered, the correct field of the image is used in the correct field of the rendering. :guilabel:`MIP Mapping` cannot be combined with :guilabel:`Fields`\ .
+
    :guilabel:`Upper First`
        Order of video fields - upper field first.
    :guilabel:`Lower First`
@@ -464,9 +470,12 @@ In the :guilabel:`Image Sampling` panel we tell Blender which source file to use
 
 For :guilabel:`Generated` source there are the specific options:
 :guilabel:`X` and :guilabel:`Y` size
+
     Width and height of image to be generated.
+
 :guilabel:`Generated Image Type`
     Which kind of image to be generated
+
    :guilabel:`Blank`
        Generate a blank image.
    :guilabel:`UV Grid`
@@ -514,6 +523,7 @@ the horizontal bar has 50% alpha.
 
 :guilabel:`Alpha`
     Options related to transparency
+
    :guilabel:`Use`
        Works with PNG and TGA files since they can save transparency information (Foreground Image with UseAlpha). Where the alpha value in the image is less than 1.0, the object will be partially transparent and stuff behind it will show.
    :guilabel:`Calculate`
@@ -534,6 +544,7 @@ the horizontal bar has 50% alpha.
 
 :guilabel:`Normal Map`
     This tells Blender that the image is to be used to create the illusion of a bumpy surface, with each of the three RGB channels controlling how to fake a shadow from a surface irregularity.  Needs specially prepared input pictures. See :doc:`Bump and Normal Maps <textures/influence/material/bump_and_normal>`\ .
+
    :guilabel:`Normal Map Space`\ :
       :guilabel:`Tangent`\ :
       :guilabel:`Object`\ :
@@ -545,6 +556,7 @@ the horizontal bar has 50% alpha.
 
 :guilabel:`MIP Map`
     `MIP Maps <http://en.wikipedia.org/wiki/Mipmap>`__ are pre-calculated, smaller, filtered Textures for a certain size.  A series of pictures is generated, each half the size of the former one.  This optimizes the filtering process. By default, this option is enabled and speeds up rendering (especially useful in the game engine).  When this option is OFF, you generally get a sharper image, but this can significantly increase calculation time if the filter dimension (see below) becomes large.  Without MIP Maps you may get varying pictures from slightly different camera angles, when the Textures become very small.  This would be noticeable in an animation.
+
    :guilabel:`MIP Map Gaussian filter`
        Used in conjunction with MIP Map, it enables the MIP Map to be made smaller based on color similarities.  In the game engine, you want your textures, especially your MIP Map textures, to be as small as possible to increase rendering speed and frame rate.
 
@@ -567,21 +579,26 @@ the horizontal bar has 50% alpha.
 
 :guilabel:`Filter`
     The filter size used in rendering, and also by the options :guilabel:`MipMap` and :guilabel:`Interpolation`\ . If you notice gray lines or outlines around the textured object, particularly where the image is transparent, turn this value down from 1.0 to 0.1 or so.
+
    :guilabel:`Texture Filter Type`
        Texture filter to use for image sampling.  Just like a *pixel* represents a *pic*\ ture *el*\ ement, a *texel* represents a *tex*\ ture *el*\ ement.  When a texture (2D texture space) is mapped onto a 3D model (3D model space), different algorithms can be used to compute a value for each pixel based on samplings from several texels.
+
       :guilabel:`Box`
           A fast and simple nearest-neighbor interpolation known as Monte Carlo integration
       :guilabel:`EWA`
           **E**\ lliptical **W**\ eighted **A**\ verage — one of the most efficient direct convolution algorithms developed by Paul Heckbert and Ned Greene in the 1980s.  For each texel, EWA samples, weights, and accumulates texels within an elliptical footprint and then divides the result by the sum of the weights.
+
          :guilabel:`Eccentricity`
              Maximum Eccentricity. Higher values give less blur at distant/oblique angles, but is slower
       :guilabel:`FELINE`
           FELINE (\ **F**\ ast **E**\ lliptical **Line**\ s), uses several isotropic probes at several points along a line in texture space to produce an anisotropic filter to reduce aliasing artifacts without considerably increasing rendering time.
+
          :guilabel:`Probes`
              Number of probes to use.  An integer between 1 and 256.
              Further reading: McCormack, J; Farkas, KI; Perry, R; Jouppi, NP (1999) `Simple and Table Feline: Fast Elliptical Lines for Anisotropic Texture Mapping <http://www.hpl.hp.com/techreports/Compaq-DEC/WRL-99-1.pdf>`__\ , WRL
       :guilabel:`Area`
           Area filter to use for image sampling
+
          :guilabel:`Eccentricity`
              Maximum Eccentricity. Higher values give less blur at distant/oblique angles, but is slower
 
@@ -605,6 +622,7 @@ Image Mapping
 In the :guilabel:`Image Mapping` panel,
 we can control how the image is mapped or projected onto the 3D model.
 :guilabel:`Extension`\ :
+
    :guilabel:`Extend`
       Outside the image the colors of the edges are extended
    :guilabel:`Clip`
@@ -613,16 +631,21 @@ we can control how the image is mapped or projected onto the 3D model.
       Clips to cubic-shaped area around the images and sets exterior pixels as transparent.  The same as Clip, but now the 'Z' coordinate is calculated as well.  An alpha value of 0.0 is returned outside a cube-shaped area around the image.
    :guilabel:`Repeat`
       The image is repeated horizontally and vertically
+
       :guilabel:`Repeat`
          X/Y repetition multiplier
+
       :guilabel:`Mirror`
          Mirror on X/Y axes.  This buttons allow you to map the texture as a mirror, or automatic flip of the image, in the corresponding X and/or Y direction.
    :guilabel:`Checker`
       Checkerboards quickly made. You can use the option :guilabel:`size` on the :guilabel:`Mapping` panel as well to create the desired number of checkers.
-      :guilabel:`Even`\ /\ :guilabel:`Odd`
+
+      :guilabel:`Even` / :guilabel:`Odd`
          Set even/odd tiles
+
       :guilabel:`Distance`
          Governs the distance between the checkers in parts of the texture size
-:guilabel:`Crop Minimum`\ /\ :guilabel:`Crop Maximum`
+
+:guilabel:`Crop Minimum` / :guilabel:`Crop Maximum`
    The offset and the size of the texture in relation to the texture space. Pixels outside this space are ignored. Use these to crop, or choose a portion of a larger image to use as the texture.
 

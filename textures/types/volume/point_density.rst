@@ -72,8 +72,10 @@ Turbulence
 ~~~~~~~~~~
 
 Adds directed noise to the density at render time
+
 :guilabel:`Influence`
    Method for driving added turbulent noise
+
    :guilabel:`Static`
       Noise patterns will remain unchanged, faster and suitable for stills.
    :guilabel:`Particle Velocity`

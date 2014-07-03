@@ -26,6 +26,7 @@ Options
    Profile of blend
    :guilabel:`Linear`
       A linear progression
+
 :guilabel:`Quadratic`
    A quadratic progression
 :guilabel:`Easing`

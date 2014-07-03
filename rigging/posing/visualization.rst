@@ -195,6 +195,7 @@ You have three different types of ghosts, sharing more or less the same options:
 
 :guilabel:`Around Current Frame`
    This will display a given number of ghosts before and after the current frame. The ghosts are shaded from opaque at the current frame, to transparent at the most distant frames. It has three options:
+
    :guilabel:`Range`
       This numeric field specifies how many ghosts you'll have on both "sides" (i.e. a value of **5** will give you ten ghosts, five before the current frame, and five after).
    :guilabel:`Step`
@@ -204,6 +205,7 @@ You have three different types of ghosts, sharing more or less the same options:
 
 :guilabel:`In Range`
    This will display the ghosts of the armature's bones inside a given range of frames. The ghosts are shaded from transparent for the first frame, to opaque at the last frame. It has four options:
+
    :guilabel:`Start`
       This numeric field specifies the starting frame of the range (exclusive). Note that unfortunately, it cannot take a null or negative value - which means you can only see ghosts starting from frame **2** included…
    :guilabel:`End`
@@ -290,10 +292,10 @@ And now, the paths options:
       This is the same as the :guilabel:`GStep` for ghosts - it allows you to only display on the path one frame for each *n* ones. Mostly useful when you enable the frame number display (see below), to avoid cluttering the 3D views.
 
 :guilabel:`Frame Numbers`
-   When enabled, a small number appears next to each frame dot on the path, which is of course the number of the corresponding frame…
+   When enabled, a small number appears next to each frame dot on the path, which is of course the number of the corresponding frame.
 :guilabel:`Keyframes`
-
    When enabled, big yellow square dots are drawn on motion paths, materializing the keyframes of their bones (i.e. only the paths of keyed bones at a given frame get a yellow dot at this frame).
+
 :guilabel:`Keyframe Nums`
    When enabled, you'll see the numbers of the displayed keyframes - so this option is obviously only valid when :guilabel:`Show Keys` is enabled.
 

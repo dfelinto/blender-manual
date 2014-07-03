@@ -18,10 +18,13 @@ These are accessible via the :guilabel:`World` context.
 By default a very plain uniform world is present. You can edit it or add a new World.
 
 You have:
+
 :doc:`Background <world/background>`
    The color and texture of the world background, with special settings for mapping coordinates.
+
 :doc:`Mist <world/mist>`
    Add a mist to your scene to enhance the feeling of depth.
+
 :doc:`Stars <world/stars>`
    Randomly covers the background with halo-like dots.
 

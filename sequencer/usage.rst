@@ -83,12 +83,12 @@ or hover your mouse cursor over the Sequence workspace and press :kbd:`shift-A`\
 
 First, let's add a clip:
 
-- A movie clip in the Audio-Video Interleaved format (*.avi file)
-- A movie clip in the Apple QuickTime format (*.mov)
-- A single still image to be repeated for a number of frames (*.jpg, *.png, etc.)
-- A numbered sequence of images (*-0001.jpg, *-0002.jpg, *-0003.jpg, etc, of any image format)
+- A movie clip in the Audio-Video Interleaved format (``*.avi`` file)
+- A movie clip in the Apple QuickTime format (``*.mov``)
+- A single still image to be repeated for a number of frames (``*.jpg``, ``*.png``, etc.)
+- A numbered sequence of images (``*-0001.jpg``, ``*-0002.jpg``, ``*-0003.jpg``, etc, of any image format)
 - One or more images from a directory
-- A Scene in your .blend file.
+- A Scene in your ``.blend`` file.
 
 Blender does not care which of these you use; you can freely mix and match any of them.
 They all become a color-coded strip in the VSE:

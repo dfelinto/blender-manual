@@ -38,20 +38,22 @@ Options
    World panel
 
 
-Horizon Color
-   The RGB color at the horizon
-Zenith Color
-   The RGB color at the zenith (overhead)
+- **Horizon Color**
+  The RGB color at the horizon
+- **Zenith Color**
+  The RGB color at the zenith (overhead)
+
 
 How these colors are interpreted depends on which kind of :guilabel:`Sky` is chosen.
-None Enabled
-   If none of these three buttons is checked, your background will just be plain flat color (using the horizon one).
-Paper Sky
-   If this option is added, the gradient keeps its characteristics, but it is clipped in the image (it stays on a horizontal plane (parallel to x-y plane): what ever the angle of the camera may be, the horizon is always at the middle of the image).
-Blend Sky
-   The background color is blended from horizon to zenith. If only this button is pressed, the gradient runs from the bottom to the top of the rendered image regardless of the camera orientation.
-Real Sky
-   If this option is added, the gradient produced has two transitions, from nadir (same color as zenith) to horizon to zenith; the blending is also dependent on the camera orientation, which makes it more realistic. The horizon color is exactly at the horizon (on the x-y plane), and the zenith color is used for points vertically above and below the camera.
+
+- **None Enabled**
+  If none of these three buttons is checked, your background will just be plain flat color (using the horizon one).
+- **Paper Sky**
+  If this option is added, the gradient keeps its characteristics, but it is clipped in the image (it stays on a horizontal plane (parallel to x-y plane): what ever the angle of the camera may be, the horizon is always at the middle of the image).
+- **Blend Sky**
+  The background color is blended from horizon to zenith. If only this button is pressed, the gradient runs from the bottom to the top of the rendered image regardless of the camera orientation.
+- **Real Sky**
+  If this option is added, the gradient produced has two transitions, from nadir (same color as zenith) to horizon to zenith; the blending is also dependent on the camera orientation, which makes it more realistic. The horizon color is exactly at the horizon (on the x-y plane), and the zenith color is used for points vertically above and below the camera.
 
 
 Textures
@@ -72,18 +74,19 @@ or which it maps to a virtual space around the scene.
 The World textures are accessible in the texture menu (just select :guilabel:`World` first,
 then :guilabel:`Texture`\ .  They are used much like the Materials textures,
 except for a couple of differences. The textures can be mapped according to:
-View
-   The default orientation, aligned with the co-ordinates of the final render
-Global
-   Uses global coordinates
-AngMap
-   Used to wrap a standard hemisphere angular map around the scene in a dome. This can be used for image based lighting with :guilabel:`Ambient Occlusion` set to sky color. You'll generally need a high dynamic range image (HDRI) angular map. (It will look like a weird spherical image).
-Sphere
-   Sphere mapping, similar to that of materials
-Tube
-   Wrap the rectangular texture around in a cylinder, similar to that of materials
-Object
-   Position the texture relative to a specified object's local texture space
+
+- **View**
+  The default orientation, aligned with the co-ordinates of the final render
+- **Global**
+  Uses global coordinates
+- **AngMap**
+  Used to wrap a standard hemisphere angular map around the scene in a dome. This can be used for image based lighting with :guilabel:`Ambient Occlusion` set to sky color. You'll generally need a high dynamic range image (HDRI) angular map. (It will look like a weird spherical image).
+- **Sphere**
+  Sphere mapping, similar to that of materials
+- **Tube**
+  Wrap the rectangular texture around in a cylinder, similar to that of materials
+- **Object**
+  Position the texture relative to a specified object's local texture space
 
 
 .. figure:: /images/25-Manual-World-TexInfluence.jpg
@@ -94,14 +97,15 @@ Object
 
 
 The texture affects color only, but in four different ways:
-Blend
-   Makes the Horizon color appear where the texture is non-zero
-Horizon
-   Affect the color of the horizon
-Zenith Up
-   Affect the zenith color overhead
-Zenith Down
-   Affect the zenith color underneath
+
+- **Blend**
+  Makes the Horizon color appear where the texture is non-zero
+- **Horizon**
+  Affect the color of the horizon
+- **Zenith Up**
+  Affect the zenith color overhead
+- **Zenith Down**
+  Affect the zenith color underneath
 
 If you are disappointed that your camera appears to carry the texture with it rather than
 rotate through the texture,

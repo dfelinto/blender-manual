@@ -43,10 +43,13 @@ to the Blender 2.5x series are the :guilabel:`Repeat` and :guilabel:`Repeat Hist
 To enable or disable Undo,
 go to the :guilabel:`User Preferences` window and click on the :guilabel:`Editing` tab.
 In this section you can set:
+
 :guilabel:`Global Undo`
    This enables Blender to save actions done when you are **not** in :guilabel:`Edit Mode`\ . For example, duplicating Objects, changing panel settings or switching between modes. The default Blender Installation comes with the option *Global Undo* enabled.
+
 :guilabel:`Steps`
    This numeric field indicates how many steps or actions to save. The default value of **32** will allow you to Undo the last thirty-two actions that you performed. You can change this numeric field to the maximum of **64**\ .
+
 :guilabel:`Memory Limit`
    This numeric field allows you to define the maximum amount of memory in Megabytes that the Undo system is allowed to use. The default value of **0** indicates no limit.
 

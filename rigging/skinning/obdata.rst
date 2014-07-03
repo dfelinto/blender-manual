@@ -57,7 +57,7 @@ with the following options - all regarding the "vertex groups" skinning method:
 :guilabel:`With Envelope Weights`
    will create, as with :guilabel:`Name Groups` option, the needed vertex groups. However, it will also weight them according to the bones' envelope settings (i.e. it will assign to each groups the vertices that are inside its bone's influence area, weighted depending on their distance to this bone). This means that if you had defined vertex groups using same names as skinned bones, their content will be completely overridden! *You'll get the same behavior as if you used the envelopes skinning method, but with vertex groups…*
 :guilabel:`Automatic Weights`
-   *Creates, as with* :guilabel:`Envelope Weights` *option, the needed vertex groups, with vertices assigned and weighted using the newer "bone heat" algorithm.
+   Creates, as with :guilabel:`Envelope Weights` option, the needed vertex groups, with vertices assigned and weighted using the newer "bone heat" algorithm.
 
 
 .. figure:: /images/Doc26-rigging-armature-modifier.jpg
@@ -67,7 +67,12 @@ with the following options - all regarding the "vertex groups" skinning method:
    The Armature modifier.
 
 
-This "parenting" method will create an* :doc:`Armature modifier <modifiers/deform/armature>` *in the skinning object's modifiers stack. And so, of course, adding an* :doc:`Armature modifier <modifiers/deform/armature>` *to an object is the second, new skinning method (which also works for curves/surfaces/texts…). Follow the above link to read more about this modifier's specific options. Note that there is a way with new* :guilabel:`Armature` *modifiers to automatically create vertex groups and weight them; see the
+This "parenting" method will create an* :doc:`Armature modifier <modifiers/deform/armature>`
+in the skinning object's modifiers stack.
+And so, of course, adding an* :doc:`Armature modifier <modifiers/deform/armature>` 
+to an object is the second, new skinning method (which also works for curves/surfaces/texts...).
+Follow the above link to read more about this modifier's specific options.
+Note that there is a way with new :guilabel:`Armature` modifiers to automatically create vertex groups and weight them; see the
 FIXME(TODO: Internal Link;
 [[#Vertex Groups|vertex groups method]]
 ) description below.
@@ -77,12 +82,17 @@ FIXME(TODO: Internal Link;
 
    FIXME - warning body below
 
-A single object can have several* :guilabel:`Armature` *modifiers (with e.g. different armatures, or different settings…),* working on top of each other, **or** mixing their respective effects *(depending whether their* :guilabel:`MultiModifier` *option is set, see* :doc:`their description <modifiers/deform/armature#options>` *for more details), and only one "virtual old parenting" one, which will always be at the top of the stack.
+A single object can have several :guilabel:`Armature` modifiers
+(with e.g. different armatures, or different settings...),
+working on top of each other, **or** mixing their respective effects
+(depending whether their* :guilabel:`MultiModifier` option is set,
+see :doc:`their description <modifiers/deform/armature#options>` for more details),
+and only one "virtual old parenting" one, which will always be at the top of the stack.
 
 Note finally that for settings that are  present in both the armature's* :guilabel:`Armature`
 *panel and in the objects'* :guilabel:`Armature` *modifier panel (namely,*
 :guilabel:`Vertex Groups`\ */*\ :guilabel:`VertGroups`\ *,* :guilabel:`Envelopes`\ *,*
-:guilabel:`Quaternion` *and* :guilabel:`B-Bone Rest`\ *),*
+:guilabel:`Quaternion` *and* :guilabel:`B-Bone Rest`),
 the modifier ones always override the armature ones\ *. This means that if, for example,
 you only enable the* :guilabel:`Envelopes` *deformation method of the armature,
 and then skin it with an object using an* :guilabel:`Armature` *modifier,
@@ -97,11 +107,11 @@ Common Options
 There are two armature-global skinning options that are common to both envelopes and vertex
 groups methods:*
 
-:guilabel:`Preserve Volume` *(*\ :guilabel:`Armature` *modifier)
+:guilabel:`Preserve Volume` (:guilabel:`Armature` modifier)
    This affects the way geometry is deformed, especially at bones' joints, when rotating them.
 
-   Without* :guilabel:`Preserve Volume`\ *, rotations at joints tend to scale down the neighboring geometry, up to nearly zero at* **180- ** *from rest position.
-   With* :guilabel:`Preserve Volume`\ *, the geometry is no longer scaled down, but there is a "gap", a discontinuity when reaching* **180- ** *from rest position.
+   Without :guilabel:`Preserve Volume`, rotations at joints tend to scale down the neighboring geometry, up to nearly zero at ``180d`` from rest position.
+   With* :guilabel:`Preserve Volume`, the geometry is no longer scaled down, but there is a "gap", a discontinuity when reaching* ``180d`` from rest position.
 
 +-------------------------------------------------------------------+--------------------------------------------------------------------+---------------------------------------------------------------------+---------------------------------------------------------------------+
 +*\ **Example of** :guilabel:`Quaternion` **option effects.**\ *    |.. figure:: /images/ManRiggingSkinningQuaternionOptExInitState.jpg  |.. figure:: /images/ManRiggingSkinningQuaternionOptExNoQuat100Deg.jpg|.. figure:: /images/ManRiggingSkinningQuaternionOptExNoQuat180Deg.jpg+
@@ -138,7 +148,7 @@ The bones also have some deforming options in their sub-panels
 that you can therefore define independently for each of them*
 
 :guilabel:`Deform`
-   *By disabling this setting (enabled by default), you can completely prevent a bone from deforming the geometry of the skin object.
+   By disabling this setting (enabled by default), you can completely prevent a bone from deforming the geometry of the skin object.
 
 
 Envelope
@@ -156,7 +166,7 @@ Envelopes is the most general skinning method - it works with all available obje
 skinning (meshes, lattices, curves, surfaces and texts).
 It is based on proximity between bones and their geometry,
 each bone having two different areas of influence,
-shown in the* :guilabel:`Envelope` *visualization:
+shown in the* :guilabel:`Envelope` *visualization:*
 
 - The inside area, materialized by the "solid" part of the bone, and controlled by both root and tip radius. Inside this zone, the geometry if fully affected by the bone.
 - The outside area, materialized by the lighter part around the bone, and controlled by the* :guilabel:`Dist` *setting. Inside this zone, the geometry is less and less affected by the bone as it goes away - following a quadratic decay.
@@ -173,15 +183,19 @@ have more influence on the result than one with a low weight… Note that when s
 it has the same effect as disabling the* :guilabel:`Deform` *option.*
 
 :guilabel:`Mult`
-   *Short for 'Multiply'. This option controls how the two deforming methods interact when they are both enabled. By default, when they are both active, all vertices belonging to at least one vertex group are only deformed through the vertex groups method - the other "orphan" vertices being handled by the envelopes one.
-   When you enable this option, the "deformation influence" that  this bone would have on a vertex (based from its envelope settings) is multiplied with this vertex's weight in the corresponding vertex group. In other words, the vertex groups method is further "weighted" by the envelopes method.*
+   Short for 'Multiply'. This option controls how the two deforming methods interact when they are both enabled.
+   By default, when they are both active, all vertices belonging to at least one vertex group are only deformed
+   through the vertex groups method - the other "orphan" vertices being handled by the envelopes one.
+   When you enable this option, the "deformation influence" that this bone would have on a vertex
+   (based from its envelope settings) is multiplied with this vertex's weight in the corresponding vertex group.
+   In other words, the vertex groups method is further "weighted" by the envelopes method.
 
 :guilabel:`Radius`
    *Set the radius for the head and the tail of envelope bones.
 
 
 Curved Bone
-~~~~~~~~~~~*
+~~~~~~~~~~~
 
 :guilabel:`Curved Bones` *(previously known as B-bones) allow you make bones act like bezier curve segments, which results in smoother deformations for longer bones.
 
@@ -191,9 +205,12 @@ See the* :doc:`editing pages <rigging/armatures/editing/properties>` *for how to
 Vertex Groups
 -------------
 
-Vertex groups skinning method is only available for meshes and lattices - the only objects having* :doc:`vertex groups <modeling/meshes/vertex_groups>`\ *! Its principle is very simple: each bone only affects vertices belonging to a vertex group* **having the same name as the bone''. So if you have e.g. a "**\ ``forearm``\ **" bone, it will only affect the "**\ ``forearm``\ **" vertex group of its skin object(s).
+Vertex groups skinning method is only available for meshes and lattices - the only objects having
+:doc:`vertex groups <modeling/meshes/vertex_groups>`\ Its principle is very simple:
+each bone only affects vertices belonging to a vertex group having the same name as the bone.
+So if you have e.g. a " ``forearm`` " bone, it will only affect the ``forearm`` vertex group of its skin object(s).
 
-The influence of one bone on a given vertex is controlled by the weight of this vertex in the relevant group. Thus, the** :doc:`Weight Paint mode <modeling/meshes/weight_paint>` **(**\ :kbd:`ctrl-tab` **with a mesh selected) is most useful here, to easily set/adjust the vertices' weights.
+The influence of one bone on a given vertex is controlled by the weight of this vertex in the relevant group. Thus, the :doc:`Weight Paint mode <modeling/meshes/weight_paint>` (:kbd:`ctrl-tab` with a mesh selected) is most useful here, to easily set/adjust the vertices' weights.
 
 However, you have a few goodies when weight-painting a mesh already parented to (skinning)
 an armature. For these to work, you must:
@@ -218,10 +235,10 @@ To automatically weight multiple bones, you can simply
 
 - ** :kbd:`ctrl-tab` **out of Weight Paint Mode
 - Select the Armature. It should be in Pose mode.  If it isn't, go**  :kbd:`ctrl-tab`
-**- Select multiple bones** :kbd:`shift-lmb` **or hit 'a' ( maybe twice ).
+- **Select multiple bones** :kbd:`shift-lmb` **or hit 'a' ( maybe twice ).
 - Select Mesh again
 - If not in weight paint already, toggle back into** :kbd:`ctrl-tab`
-**- Use the**  :kbd:`W` **menu to automatic weight.  This will weight all the bones you selected in Pose Mode.
+- **Use the**  :kbd:`W` **menu to automatic weight.  This will weight all the bones you selected in Pose Mode.
 
 
 +--------------------------------------------------------------+-----------------------------------------------------------------------+----------------------------------------------------------------------+

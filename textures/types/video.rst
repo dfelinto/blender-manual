@@ -35,13 +35,15 @@ Image
    :guilabel:`Movie`
        See about supported :doc:`Movie <data_system/files/formats#movie_formats>` formats.
    :guilabel:`Image Sequence`
-       See about supported :doc:`Image <data_system/files/formats#image_formats>` formats.
-      To load image sequence in any of the supported image file formats first click on the first frame and then Accept. Then change the Source to Image Sequence, and enter the ending frame number of this sequence.
+      See about supported :doc:`Image <data_system/files/formats#image_formats>` formats.
+      To load image sequence in any of the supported image file formats first click on the first frame and then Accept.
+      Then change the Source to Image Sequence, and enter the ending frame number of this sequence.
 
 More about loading source file for video texture see :doc:`here <textures/types/image#settings>`\ .
 
 :guilabel:`Fields`
     Work with field images. Video frames consist of two different images (fields) that are merged.  This option ensures that when :guilabel:`Fields` are rendered, the correct field of the image is used in the correct field of the rendering.
+
    :guilabel:`Upper First`
        Order of video fields - upper field first.
    :guilabel:`Lower First`
@@ -67,6 +69,7 @@ More about loading source file for video texture see :doc:`here <textures/types/
 For :guilabel:`Movie` source:
 :guilabel:`Use Alpha`
     Use the alpha channel information from the image or make image fully opaque
+
    :guilabel:`Straight`
        Transparent RGB and alpha pixels are unmodified.
    :guilabel:`Premultiplied`

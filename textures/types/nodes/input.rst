@@ -69,8 +69,7 @@ The shape of the curve can be manipulated to vary the output over time in differ
       Set the minimum and maximum bounds of the curve points.
 
 :kbd:`x`\ :Delete curve points. The first and last points cannot be deleted.
-:guilabel:`X and Y`
-   The coordinates of the selected edit point.
+:guilabel:`X and Y` The coordinates of the selected edit point.
 :guilabel:`Sta`\ :Specify the start frame to use.
 :guilabel:`End`\ :Specify the end frame to use.
 
@@ -117,6 +116,7 @@ Image Node
 
 
 The image node can be used to load an external image.
+
 :guilabel:`Browse for image`
    Select an image that already exists in the scene.
 :guilabel:`Datablock name`

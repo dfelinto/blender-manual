@@ -319,8 +319,8 @@ Saving
 If the header menu item Image has an asterisk next to it,
 it means that the image has been changed, but not saved. Use the :guilabel:`Image→Save Image`
 option to save your work with a different name or overwrite the original image.
- .. admonition:: UV
-Textures
+
+ .. admonition:: UV Textures
    :class: note
 
    Since images used as UV Textures are functionally different from other images,

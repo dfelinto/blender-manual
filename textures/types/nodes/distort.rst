@@ -35,6 +35,7 @@ Translate
 
 
 Translate the texture coordinates of an image or texture.
+
 :guilabel:`Offset`
    The amount to offset the coordinates in each of the 3 axes.
 
@@ -49,6 +50,7 @@ Scale
 
 
 Scale the texture coordinates of an image or texture.
+
 :guilabel:`Scale`
    The amount to scale the coordinates in each of the 3 axes.
 

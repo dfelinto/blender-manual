@@ -54,6 +54,7 @@ control the render face size:
 
 The following are available, but currently don't work well.
 It is recommended that you convert these to meshes before rendering.
+
 **Open** :doc:`NURBS Surfaces <modeling/surfaces>`
    Control render faces with U/V :guilabel:`Surface Resolution`\ . Higher numbers give more faces. (Note normal errors).
 **Closed NURBS Surfaces**
