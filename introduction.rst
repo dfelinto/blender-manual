@@ -21,7 +21,8 @@ Blender has a powerful interface, highly optimized for 3D graphics production.
 The large number of buttons and menus might be a bit intimidating at first, but don't worry.
 After a bit of practice it will become familiar and intuitive.
 
-It is highly recommended you read our section on :doc:`The Interface <interface>` carefully to get familiar with both the interface and with the conventions used in the documentation.
+It is highly recommended you read our section on :doc:`The Interface <interface>`
+carefully to get familiar with both the interface and with the conventions used in the documentation.
 
 
 What is Blender?
@@ -61,14 +62,20 @@ Key Features:
    Image being rendered and post-processed
 
 
-- Fully integrated creation suite, offering a broad range of essential tools for the creation of 3D content, including modeling, uv mapping, texturing, rigging, skinning, animation, particle and other simulation, scripting, rendering, compositing, post-production, and game creation;
-- Cross platform, with an OpenGL GUI that is uniform on all platforms (customizable with python scripts), ready to use for all current versions of Windows (XP, Vista, 7), Linux, OS X, FreeBSD, Sun and numerous other operating systems;
+- Fully integrated creation suite, offering a broad range of essential tools for the creation of 3D content,
+  including modeling, uv mapping, texturing, rigging, skinning, animation, particle and other simulation,
+  scripting, rendering, compositing, post-production, and game creation;
+- Cross platform, with an OpenGL GUI that is uniform on all platforms (customizable with python scripts),
+  ready to use for all current versions of Windows (XP, Vista, 7),
+  Linux, OS X, FreeBSD, Sun and numerous other operating systems;
 - High quality 3D architecture enabling fast and efficient creation work-flow;
 - More than 200,000 downloads of each release (users) worldwide;
-- User community support by forums for questions, answers, and critique at http://BlenderArtists.org and news services at http://BlenderNation.com;
+- User community support by forums
+  for questions, answers, and critique at `Blender Artists <http://BlenderArtists.org>`__
+  and news services at `Blender Nation <http://blendernation.com>`__;
 - Small executable size, easy distribution.
 
-You can download the latest version of Blender `here <http://www.blender.org/download/>`__\ .
+You can download the latest version of Blender `here <http://www.blender.org/download/>`__.
 
 
 Blender is a full-featured tool
@@ -81,7 +88,12 @@ Blender is a full-featured tool
 
    Blender Welcome Screen ver 2.68 autumn 2013
 
- Blender makes it possible to perform a wide range of 3d-content-creation-oriented tasks. Therefore it may seem daunting when first trying to grasp the basics. However, with a bit of motivation and the right learning material, it is possible to be productive with Blender after a few hours of practice. If you're reading this wiki, it is a good start, though it serves more as a reference. You also have online video tutorials (free and paid) from specialized websites, and several books in the Blender store.
+Blender makes it possible to perform a wide range of 3d-content-creation-oriented tasks.
+Therefore it may seem daunting when first trying to grasp the basics.
+However, with a bit of motivation and the right learning material,
+it is possible to be productive with Blender after a few hours of practice.
+If you're reading this wiki, it is a good start, though it serves more as a reference.
+You also have online video tutorials (free and paid) from specialized websites, and several books in the Blender store.
 
 Despite everything Blender can do, it remains a tool. Great artists create masterpieces,
 not only by pressing buttons or manipulating brushes,

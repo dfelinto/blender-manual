@@ -32,11 +32,11 @@ called *Save Screenshot* where you can find format settings and a checkbox with 
    :class: nicetip
 
 
-   .. figure:: /images/Manual-Vital-Screenshot-Small-Search-Functionality.jpg
+.. figure:: /images/Manual-Vital-Screenshot-Small-Search-Functionality.jpg
 
-      Search Functionality
+   Search Functionality
 
-    Sometimes, the operating System you are using is designed to use some Shortcuts that the default Blender installation also uses for its functions. In this case, you can use the search functionality present in Blender. (See Fig: Search Functionality). Hit :kbd:`space` and type :guilabel:`Screenshot`\ , in the Search Popup
+   Sometimes, the operating System you are using is designed to use some Shortcuts that the default Blender installation also uses for its functions. In this case, you can use the search functionality present in Blender. (See Fig: Search Functionality). Hit :kbd:`space` and type :guilabel:`Screenshot`\ , in the Search Popup
 
 
 Operating System Screenshots

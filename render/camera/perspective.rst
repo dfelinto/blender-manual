@@ -56,7 +56,7 @@ Three Point Rendering
 
    Normal Three Point Render
 
- When looking at or rendering a picture of a high building from ground level off to one side, and aiming up, using the normal 35mm camera, you get 3 point perspective. If you laid a ruler along the vertical lines, you would see that they converge to a point above the building.
+When looking at or rendering a picture of a high building from ground level off to one side, and aiming up, using the normal 35mm camera, you get 3 point perspective. If you laid a ruler along the vertical lines, you would see that they converge to a point above the building.
 
 The horizontal lines are converging off to one side (the left in this example), and depth
 (receding) lines are converging to a different third point
@@ -79,7 +79,7 @@ Two Point Rendering
 
    Two Point Vertical Render
 
- Normal architectural rendering is called two point rendering; when vertical lines are parallel, and horizontals, if followed out to the side, converge on one point, and receding or depth lines converge to a second point.
+Normal architectural rendering is called two point rendering; when vertical lines are parallel, and horizontals, if followed out to the side, converge on one point, and receding or depth lines converge to a second point.
 
 Architects often like this Two-Point rendering, so that the sides of their buildings are
 completely vertical and don't appear to be falling inward.
@@ -94,7 +94,7 @@ Previously to get a 2-point perspective, you had to aim the camera level to the 
 
    Two Point Horizontal Render
 
- This technique works well for high buildings as well as for normal sized objects.
+This technique works well for high buildings as well as for normal sized objects.
 
 Most of the time, the two vanishing points are horizontal and depth lines,
 with the vertical lines parallel. However,
