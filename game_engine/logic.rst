@@ -1,5 +1,4 @@
 
-
 Logic, Properties and States
 ============================
 

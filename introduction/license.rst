@@ -1,5 +1,4 @@
 
-
 About Free Software and the GPL
 ===============================
 

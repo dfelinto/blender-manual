@@ -1,6 +1,4 @@
 
-
-
 Window Headers
 ==============
 

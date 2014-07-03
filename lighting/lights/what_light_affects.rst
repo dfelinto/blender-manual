@@ -1,6 +1,4 @@
 
-
-
 What the Light Affects
 ======================
 

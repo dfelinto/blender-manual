@@ -1,6 +1,4 @@
 
-
-
 Open Shading Language
 =====================
 

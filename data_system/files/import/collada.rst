@@ -1,6 +1,4 @@
 
-
-
 COLLADA Import and Export
 =========================
 

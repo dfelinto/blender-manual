@@ -1,6 +1,4 @@
 
-
-
 Filter 2D Actuator
 ==================
 

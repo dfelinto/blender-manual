@@ -1,6 +1,4 @@
 
-
-
 WeightVGroup Modifiers
 ======================
 

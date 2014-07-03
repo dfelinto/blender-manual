@@ -1,6 +1,4 @@
 
-
-
 Sensor Editing
 ==============
 

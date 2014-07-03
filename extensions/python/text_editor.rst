@@ -1,6 +1,4 @@
 
-
-
 The Text Editor
 ===============
 

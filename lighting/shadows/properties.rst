@@ -1,6 +1,4 @@
 
-
-
 Common Shadowing Lamps Options
 ==============================
 

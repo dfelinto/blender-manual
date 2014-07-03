@@ -1,6 +1,4 @@
 
-
-
 Selectable Elements
 ===================
 

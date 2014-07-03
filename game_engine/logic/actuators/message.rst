@@ -1,6 +1,4 @@
 
-
-
 Message Actuator
 ================
 

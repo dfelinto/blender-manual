@@ -1,6 +1,4 @@
 
-
-
 Remesh Modifier
 ===============
 

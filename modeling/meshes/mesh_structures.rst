@@ -1,6 +1,4 @@
 
-
-
 Vertices, Edges and Faces
 =========================
 

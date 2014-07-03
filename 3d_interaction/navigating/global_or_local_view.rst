@@ -1,6 +1,4 @@
 
-
-
 Local or Global View
 ====================
 

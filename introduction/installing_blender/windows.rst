@@ -1,6 +1,4 @@
 
-
-
 Installing on Windows
 =====================
 

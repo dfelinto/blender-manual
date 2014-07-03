@@ -1,6 +1,4 @@
 
-
-
 Median Point as Pivot
 =====================
 

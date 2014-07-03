@@ -1,6 +1,4 @@
 
-
-
 FIXME(Template Unsupported: Doc:2.5/Manual/Interface/Configuration/index;
 {{Doc:2.5/Manual/Interface/Configuration/index}}
 )

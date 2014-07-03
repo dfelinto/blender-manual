@@ -1,6 +1,4 @@
 
-
-
 Bounding Box Center as Pivot
 ============================
 

@@ -1,5 +1,4 @@
 
-
 ..    TODO/Review: {{review|Need to change and explain the behavior of the transform orientation. It is toggled between the chosen orientation and the global orientation when transformations are made by shortcuts}} .
 
 

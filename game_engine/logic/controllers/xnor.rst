@@ -1,6 +1,4 @@
 
-
-
 XNOR Controller
 ===============
 

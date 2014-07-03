@@ -1,6 +1,4 @@
 
-
-
 The Console Editor Type
 =======================
 

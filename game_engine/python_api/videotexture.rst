@@ -1,6 +1,4 @@
 
-
-
 The VideoTexture module: bge.texture
 ====================================
 

@@ -1,6 +1,4 @@
 
-
-
 Mirror Reflections
 ==================
 

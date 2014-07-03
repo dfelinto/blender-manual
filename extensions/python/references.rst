@@ -1,6 +1,4 @@
 
-
-
 Blender's Python API
 ====================
 

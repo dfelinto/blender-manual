@@ -1,6 +1,4 @@
 
-
-
 Armature Panels Overview
 ========================
 

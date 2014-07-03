@@ -1,6 +1,4 @@
 
-
-
 Shrink/Fatten Along Normals
 ===========================
 

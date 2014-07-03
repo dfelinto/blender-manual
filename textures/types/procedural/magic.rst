@@ -1,6 +1,4 @@
 
-
-
 Procedural textures: Magic
 ==========================
 

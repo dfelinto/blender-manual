@@ -1,6 +1,4 @@
 
-
-
 Rigid Body Physics Object Type
 ==============================
 

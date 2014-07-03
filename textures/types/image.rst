@@ -1,6 +1,4 @@
 
-
-
 Image Textures
 ==============
 

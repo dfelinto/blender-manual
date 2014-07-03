@@ -1,6 +1,4 @@
 
-
-
 Displacement Maps
 =================
 

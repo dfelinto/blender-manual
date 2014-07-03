@@ -1,6 +1,4 @@
 
-
-
 Bump and Normal Maps
 ====================
 

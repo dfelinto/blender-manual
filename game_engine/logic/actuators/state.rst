@@ -1,6 +1,4 @@
 
-
-
 State Actuator
 ==============
 

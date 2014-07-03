@@ -1,6 +1,4 @@
 
-
-
 Array Modifier
 ==============
 

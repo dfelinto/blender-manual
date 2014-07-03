@@ -1,6 +1,4 @@
 
-
-
 Standalone Player
 =================
 

@@ -1,6 +1,4 @@
 
-
-
 Reducing Noise
 ==============
 

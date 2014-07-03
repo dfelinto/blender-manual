@@ -1,6 +1,4 @@
 
-
-
 ..    TODO/Review: {{review|text=we need command line options for this page, explained and some examples for rendering, opening Blender with debug flag, and how to open Blender for screencasts/screenshots}} .
 
 

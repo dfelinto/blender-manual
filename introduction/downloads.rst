@@ -1,6 +1,4 @@
 
-
-
 Downloadable versions of this manual
 ====================================
 

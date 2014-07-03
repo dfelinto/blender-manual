@@ -1,5 +1,4 @@
 
-
 ..    TODO/Review: {{review
    |text=This page contains information that lies beyond the scope of the Blender manual but its supposed topic still has its justification.
    |fixes=Link to wikipedia for general information on how to structure movies and pictures and rewriting of the page to fit it's topic.

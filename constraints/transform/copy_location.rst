@@ -1,6 +1,4 @@
 
-
-
 Copy Location Constraint
 ========================
 

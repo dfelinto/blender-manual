@@ -1,6 +1,4 @@
 
-
-
 Solidify Modifier
 =================
 

@@ -1,6 +1,4 @@
 
-
-
 FIXME(Template Unsupported: Doc:2.5/Tutorials/Your First Animation/2.Animation;
 {{Doc:2.5/Tutorials/Your First Animation/2.Animation}}
 )

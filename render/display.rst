@@ -1,6 +1,4 @@
 
-
-
 Rendering and Saving Images
 ===========================
 

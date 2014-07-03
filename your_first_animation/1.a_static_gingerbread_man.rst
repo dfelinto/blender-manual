@@ -1,6 +1,4 @@
 
-
-
 FIXME(Template Unsupported: Doc:2.5/Tutorials/Your First Animation/1.A static Gingerbread Man;
 {{Doc:2.5/Tutorials/Your First Animation/1.A static Gingerbread Man}}
 )

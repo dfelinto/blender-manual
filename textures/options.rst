@@ -1,6 +1,4 @@
 
-
-
 Textures common options
 =======================
 

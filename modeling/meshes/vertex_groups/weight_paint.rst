@@ -1,6 +1,4 @@
 
-
-
 Weight Paint in a nutshell
 ++++++++++++++++++++++++++
 

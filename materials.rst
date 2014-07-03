@@ -1,6 +1,4 @@
 
-
-
 Introduction to Materials
 =========================
 

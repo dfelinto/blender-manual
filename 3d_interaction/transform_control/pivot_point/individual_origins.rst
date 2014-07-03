@@ -1,6 +1,4 @@
 
-
-
 Individual Origins as Pivot
 ===========================
 

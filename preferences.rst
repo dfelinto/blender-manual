@@ -1,5 +1,4 @@
 
-
 This chapter explains how to change Blender's default configuration with the :guilabel:`User
 Preferences` editor.
 

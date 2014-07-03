@@ -1,6 +1,4 @@
 
-
-
 Exterior Forces
 ===============
 

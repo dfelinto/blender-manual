@@ -1,6 +1,4 @@
 
-
-
 Limit Rotation Constraint
 =========================
 

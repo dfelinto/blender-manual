@@ -1,6 +1,4 @@
 
-
-
 UV Warp Modifier
 ================
 

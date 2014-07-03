@@ -1,6 +1,4 @@
 
-
-
 Property Actuator
 =================
 

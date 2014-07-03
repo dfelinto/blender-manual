@@ -1,6 +1,4 @@
 
-
-
 NOR Controller
 ==============
 

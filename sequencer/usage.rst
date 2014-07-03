@@ -1,5 +1,4 @@
 
-
 ..    TODO/Review: {{review
    |text=Section "Editing sequences" entirely rewritten, needs an Admin to check and replace these pages. Here is the summary of the rewritten content :
    |fixes=[[Meta:Sanbox/Doc:2.6/Manual/Sequencer|Summary at Meta:Sanbox/Doc:2.6/Manual/Sequencer]]

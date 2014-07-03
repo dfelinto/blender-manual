@@ -1,6 +1,4 @@
 
-
-
 Simulation performance adjustments
 ==================================
 

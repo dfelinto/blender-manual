@@ -1,6 +1,4 @@
 
-
-
 Using Constraints in Animation
 ==============================
 

@@ -1,6 +1,4 @@
 
-
-
 Modeling in Blender
 ===================
 

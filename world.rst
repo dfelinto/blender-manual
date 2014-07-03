@@ -1,5 +1,4 @@
 
-
 ..    TODO/Review: {{review|partial=X|text=missing some words on options that are explain in lighting and no explanation about Gather}} .
 
 

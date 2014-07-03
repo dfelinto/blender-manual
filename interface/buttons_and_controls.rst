@@ -1,6 +1,4 @@
 
-
-
 Buttons and Controls
 ====================
 

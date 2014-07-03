@@ -1,6 +1,4 @@
 
-
-
 Edit Object Actuator
 ====================
 

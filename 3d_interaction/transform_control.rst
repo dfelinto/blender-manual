@@ -1,6 +1,4 @@
 
-
-
 Transform Control
 =================
 

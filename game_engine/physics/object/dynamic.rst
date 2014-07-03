@@ -1,6 +1,4 @@
 
-
-
 Dynamic Physics Object Type
 ===========================
 

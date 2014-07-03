@@ -1,6 +1,4 @@
 
-
-
 Halo Rendering
 ==============
 

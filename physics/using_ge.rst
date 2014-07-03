@@ -1,6 +1,4 @@
 
-
-
 Converting Game Engine Physics
 ==============================
 

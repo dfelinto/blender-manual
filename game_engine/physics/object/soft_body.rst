@@ -1,6 +1,4 @@
 
-
-
 Soft Body Physics Object Type
 =============================
 

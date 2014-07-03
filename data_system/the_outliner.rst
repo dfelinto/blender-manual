@@ -1,6 +1,4 @@
 
-
-
 Outliner window
 ===============
 

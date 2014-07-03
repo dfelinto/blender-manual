@@ -1,6 +1,4 @@
 
-
-
 Cycles Render Engine
 ====================
 

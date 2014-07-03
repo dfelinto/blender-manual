@@ -1,6 +1,4 @@
 
-
-
 Other supported operating systems
 =================================
 

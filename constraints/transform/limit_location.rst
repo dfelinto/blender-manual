@@ -1,6 +1,4 @@
 
-
-
 Limit Location Constraint
 =========================
 

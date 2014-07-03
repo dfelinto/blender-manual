@@ -1,6 +1,4 @@
 
-
-
 Interior Forces
 ===============
 

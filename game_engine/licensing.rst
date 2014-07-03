@@ -1,6 +1,4 @@
 
-
-
 Licensing of Blender Games
 ==========================
 

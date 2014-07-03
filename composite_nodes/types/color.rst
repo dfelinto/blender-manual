@@ -1,5 +1,4 @@
 
-
 ..    TODO/Review: {{review|text=The Gamma Node explanation is a mess
    |copy=X}} .
 

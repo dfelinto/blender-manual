@@ -1,6 +1,4 @@
 
-
-
 Proportional Edit
 =================
 

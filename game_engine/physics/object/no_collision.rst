@@ -1,6 +1,4 @@
 
-
-
 No Collision Physics Object Type
 ================================
 

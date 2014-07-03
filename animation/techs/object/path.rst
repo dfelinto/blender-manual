@@ -1,6 +1,4 @@
 
-
-
 Moving Objects on a Path
 ========================
 

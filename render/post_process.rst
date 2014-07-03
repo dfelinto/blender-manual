@@ -1,6 +1,4 @@
 
-
-
 Post Processed Effects
 ======================
 

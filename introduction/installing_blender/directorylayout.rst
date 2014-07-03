@@ -1,6 +1,4 @@
 
-
-
 Configuration & Data Paths
 ==========================
 

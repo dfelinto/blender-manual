@@ -1,6 +1,4 @@
 
-
-
 Occlude Object Type
 ===================
 

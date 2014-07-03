@@ -1,6 +1,4 @@
 
-
-
 Active Element as Pivot
 =======================
 

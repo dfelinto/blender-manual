@@ -1,5 +1,4 @@
 
-
 ..    TODO/Review: {{review|partial=X|text=missing Ambient Color, Exposure and Range }} .
 
 

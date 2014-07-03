@@ -1,6 +1,4 @@
 
-
-
 Limit Distance Constraint
 =========================
 

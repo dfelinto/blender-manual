@@ -1,6 +1,4 @@
 
-
-
 Inderect Lighting
 -----------------
 

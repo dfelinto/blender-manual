@@ -1,6 +1,4 @@
 
-
-
 .. figure:: /images/Blender25features.jpg
    :width: 650px
    :figwidth: 650px

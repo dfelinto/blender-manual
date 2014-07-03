@@ -1,6 +1,4 @@
 
-
-
 Scene Actuator
 ==============
 

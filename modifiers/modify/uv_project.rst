@@ -1,6 +1,4 @@
 
-
-
 UV Project Modifier
 ===================
 

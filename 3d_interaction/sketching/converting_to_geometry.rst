@@ -1,6 +1,4 @@
 
-
-
 Converting Sketches to Objects
 ==============================
 

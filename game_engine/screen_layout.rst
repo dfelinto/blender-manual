@@ -1,6 +1,4 @@
 
-
-
 Game Logic Screen Layout
 ========================
 

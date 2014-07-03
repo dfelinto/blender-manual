@@ -1,6 +1,4 @@
 
-
-
 Diffuse Shaders
 ===============
 

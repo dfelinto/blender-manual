@@ -1,6 +1,4 @@
 
-
-
 .. admonition:: 2.6 Work in Progress
    :class: nicetip
 

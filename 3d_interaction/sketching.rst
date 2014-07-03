@@ -1,5 +1,4 @@
 
-
 ..    TODO/Review: {{review|fixes= proposed merge with [[Doc:2.6/Manual/3D_interaction/Sketching/Drawing|Drawing]]}} .
 
 

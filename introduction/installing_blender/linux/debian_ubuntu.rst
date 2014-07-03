@@ -1,6 +1,4 @@
 
-
-
 Debian based systems
 --------------------
 

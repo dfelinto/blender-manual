@@ -1,6 +1,4 @@
 
-
-
 Python, a Scripting Language
 ============================
 

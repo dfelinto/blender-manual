@@ -1,6 +1,4 @@
 
-
-
 Mesh Deform Modifier
 ====================
 

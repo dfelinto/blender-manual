@@ -1,6 +1,4 @@
 
-
-
 Basic Manipulations
 ===================
 

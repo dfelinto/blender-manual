@@ -1,6 +1,4 @@
 
-
-
 Supported Formats
 =================
 

@@ -1,5 +1,4 @@
 
-
 ..    TODO/Review: {{review|partial=X|im=some screenshots are correct, but taken from the 2.4|fixes=[[User:Fade/Doc:2.6/Manual/Modeling/Curves/Editing/Advanced|WIP fix here]]}} .
 
 

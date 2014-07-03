@@ -1,6 +1,4 @@
 
-
-
 Texture Blending Modes
 ======================
 

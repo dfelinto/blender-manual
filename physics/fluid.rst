@@ -1,6 +1,4 @@
 
-
-
 Fluid Simulation
 ================
 

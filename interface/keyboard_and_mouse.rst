@@ -1,6 +1,4 @@
 
-
-
 General Usage of Input Devices
 ==============================
 

@@ -1,6 +1,4 @@
 
-
-
 Dynamic Paint Canvas
 ====================
 

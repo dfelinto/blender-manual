@@ -1,6 +1,4 @@
 
-
-
 Newtonian Physics
 =================
 

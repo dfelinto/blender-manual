@@ -1,6 +1,4 @@
 
-
-
 Selecting armature's bones
 ==========================
 
