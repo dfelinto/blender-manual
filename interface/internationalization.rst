@@ -5,7 +5,6 @@
 Blender Internationalization
 ============================
 
-
 From version 2.60, Blender supports international fonts and a range of language options for
 the Interface and Tooltips. To enable it, open the :guilabel:`User Preferences` window,
 :guilabel:`System` tab,

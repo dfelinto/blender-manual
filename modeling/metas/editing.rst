@@ -71,7 +71,6 @@ lightgreen;">green ring</span>
 Negative Influence
 ------------------
 
-
 .. figure:: /images/2.5_Manual-Part-II-MetaObject-Metaball-Negative-Ex.jpg
    :width: 630px
    :figwidth: 630px
@@ -122,7 +121,6 @@ Clear and simple!
 
 Conversion
 ----------
-
 
 .. figure:: /images/MetaConvertToMesh.jpg
    :width: 300px

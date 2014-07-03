@@ -2,7 +2,6 @@
 Curves
 ======
 
-
 .. figure:: /images/Manual-Part-II-LogoFinal.jpg
 
    Bird logo made from Bezier curves.
@@ -28,7 +27,6 @@ Bezier curves are the most commonly used curves for designing letters or logos. 
 Tutorials
 ~~~~~~~~~
 
-
 :doc:`Create the bird logo with Bezier Curves » <ls/modeling/curves/bézier>`
 
 :doc:`Skinning: Making a surface with two or more curves » <ls/modeling/surfaces/skinning>`
@@ -36,7 +34,6 @@ Tutorials
 
 Curve Primitives
 ----------------
-
 
 .. figure:: /images/Modeling_Curves_add-curve-menu.jpg
 
@@ -60,7 +57,6 @@ Blender provides five different curve primitives:
 Bezier Curves
 -------------
 
-
 The main elements used in editing Bezier Curves are the Control Points and Handles. A Segment
 (the actual Curve) is found between two Control Points. In the image below, the Control Points
 can be found in the middle of the pink line while the Handles comprise the extensions from the
@@ -76,7 +72,6 @@ This can be altered by defining a custom :guilabel:`Speed` Ipo.
 
 Editing Bezier Curves
 ~~~~~~~~~~~~~~~~~~~~~
-
 
 A Bezier curve can be edited by moving the locations of the Control Points and Handles.
 
@@ -125,7 +120,6 @@ the :kbd:`V-T` shortcut can be used to toggle between Free and Aligned handle ty
 Curve Properties
 ----------------
 
-
 Curve Properties can be set from the :guilabel:`Object Data` option in the
 :guilabel:`Properties Header` (shown below in blue).
 
@@ -135,7 +129,6 @@ Curve Properties can be set from the :guilabel:`Object Data` option in the
 
 Shape
 ~~~~~
-
 
 .. figure:: /images/Modeling_Curves_shape-panel.jpg
 
@@ -181,7 +174,6 @@ Shape
 
 Geometry
 ~~~~~~~~
-
 
 .. figure:: /images/Modeling_Curves_geometry-panel.jpg
 
@@ -256,7 +248,6 @@ Geometry
 Path Animation
 ~~~~~~~~~~~~~~
 
-
 The Path Animation settings can be used to determine how Objects move along a certain path.
 See the link below for further information.
 
@@ -265,7 +256,6 @@ See the link below for further information.
 
 Active Spline
 ~~~~~~~~~~~~~
-
 
 .. figure:: /images/Modeling_Curves_active-spline-panel.jpg
 
@@ -293,7 +283,6 @@ The :guilabel:`Active Spline` panel becomes available during :guilabel:`Edit mod
 Non-Uniform Rational B-Splines (NURBS)
 --------------------------------------
 
-
 One of the major differences between Bezier Objects and NURBS Objects is that Bezier Curves
 are approximations. For example, a Bezier circle is an *approximation* of a circle,
 whereas a NURBS circle is an *exact* circle.
@@ -306,7 +295,6 @@ The following text will concentrate only on those aspects that are unique to NUR
 Editing NURBS Curves
 ~~~~~~~~~~~~~~~~~~~~
 
-
 A NURBS Curve is edited by moving the location of the Control Points.
 
 - Place a Curve by :kbd:`shift-a` to bring up the Add menu, followed by :menuselection:`Curve --> NURBS curve`\ .
@@ -317,7 +305,6 @@ A NURBS Curve is edited by moving the location of the Control Points.
 
 Active Spline
 ~~~~~~~~~~~~~
-
 
 .. figure:: /images/Modeling_Curves_nurbs-active-spline-panel.jpg
 

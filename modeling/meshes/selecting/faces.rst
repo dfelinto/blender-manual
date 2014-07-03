@@ -2,7 +2,6 @@
 Selecting Faces
 ===============
 
-
 .. figure:: /images/selection-mode_buttons_face-activated.jpg
 
    Activated the Face Select Mode
@@ -12,7 +11,6 @@ Selecting Faces
 
 Face Loops
 ----------
-
 
 .. admonition:: Reference
    :class: refbox
@@ -43,7 +41,6 @@ use the :kbd:`alt-rmb` shortcut.
 
 Ngons in Face Select Mode
 -------------------------
-
 
 .. figure:: /images/face-mode_ngon_visual-problem.jpg
 

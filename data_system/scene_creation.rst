@@ -53,7 +53,6 @@ Blender comes with one default scene, which contains a camera, a lamp, and a box
 Adding a Scene
 --------------
 
-
 You can make a full copy of the current scene, start over with a blank slate,
 or create a scene that has links back to the current scene;
 objects will show up in the new scene, but will actually exist in the old one.

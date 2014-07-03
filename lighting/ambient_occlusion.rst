@@ -38,7 +38,6 @@ which is a whitish yellow sunny kind of color on a bright-but-not-harshly-bright
 Options
 -------
 
-
 .. figure:: /images/Doc26-lighting-ambientOcclusion.jpg
 
    The World panel with ambient color sliders highlighted.
@@ -71,10 +70,8 @@ Ambient occlusion has two main methods of calculation:
 Gather
 ~~~~~~
 
-
 Raytrace
 ________
-
 
 .. figure:: /images/Doc26-lighting-ambientOcclusion-gather.jpg
 
@@ -142,7 +139,6 @@ you want to use the colors of your sky's texture.
 
 Approximate
 ___________
-
 
 .. figure:: /images/Doc26-lighting-ambientOcclusion-gather2.jpg
 

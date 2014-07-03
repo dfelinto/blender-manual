@@ -2,7 +2,6 @@
 Integrator
 ==========
 
-
 The integrator is the rendering algorithm used to compute the lighting.
 Cycles currently supports a path tracing integrator with direct light sampling.
 It works well for various lighting setups,
@@ -18,10 +17,8 @@ and direct light sampling (picking a light source and tracing a ray towards it) 
 Scene Settings
 --------------
 
-
 Sampling
 ________
-
 
 There are two integrator modes that can be used: path tracing and branched path tracing.
 The **path tracing integrator** is a pure path tracer;
@@ -70,7 +67,6 @@ For both integrators the noise pattern can be controlled.
 Bounces
 _______
 
-
 :guilabel:`Max Bounces`
    Maximum number of light bounces. For best quality, this should be set to the maximum. However, in practice, it may be good to set it to lower values for faster rendering. Setting it to maximum 1 bounce results in direct lighting.
 :guilabel:`Min Bounces`
@@ -87,7 +83,6 @@ _______
 Transparency
 ____________
 
-
 :guilabel:`Transparency Max`
    Maximum number of transparency bounces.
 :guilabel:`Transparency Min`
@@ -98,7 +93,6 @@ ____________
 
 Tricks
 ______
-
 
 :guilabel:`No Caustics`
    While in principle path tracing supports rendering of caustics with a sufficient number of samples, in practice it may be inefficient to the point that there is just too much noise. This option makes it possible to disable them entirely.
@@ -121,7 +115,6 @@ ______
 Motion Blur
 ___________
 
-
 Camera and object motion blur rendering can be enabled per scene,
 and affects all render layers. This will take the camera and object motion into account to
 blur objects along 3 points through the previous, current and next frame.
@@ -140,7 +133,6 @@ otherwise you might not get correct or consistent motion.
 Material Settings
 -----------------
 
-
 :guilabel:`Multiple Importance Sample`
    By default objects with emitting materials use both direct and indirect light sampling methods, but in some cases it may lead to less noise overall to disable direct light sampling for some materials. This can be done by disabling the :guilabel:`Multiple Importance Sample` option. This is especially useful on large objects that emit little light compared to other light sources.
 
@@ -150,7 +142,6 @@ Material Settings
 
 World Settings
 --------------
-
 
 :guilabel:`Multiple Importance Sample`
    By default lighting from the world is computed solely with indirect light sampling. However for more complex environment maps this can be too noisy, as sampling the BSDF may not easily find the highlights in the environment map image. By enabling this option, the world background will be sampled as a lamp, with lighter parts automatically given more samples.
@@ -162,7 +153,6 @@ World Settings
 Lamp Settings
 -------------
 
-
 :guilabel:`Multiple Importance Sample`
    By default lamps use only direct light sampling. For area lights and sharp glossy reflections, however, this can be noisy, and enabling this option will enable indirect light sampling to be used in addition to reduce noise.
 
@@ -172,7 +162,6 @@ Lamp Settings
 
 Volume Render Settings
 ----------------------
-
 
 The scene has these settings:
 

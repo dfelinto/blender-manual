@@ -147,7 +147,6 @@ To enable a filter on a specific pass:
 Custom Filters
 --------------
 
-
 .. figure:: /images/Custom_2D_filter.jpg
 
    2D Filters: Custom Filter.

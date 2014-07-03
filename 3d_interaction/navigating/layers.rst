@@ -2,7 +2,6 @@
 Layers
 ======
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -88,7 +87,6 @@ especially lights and particles.
 
 Moving objects between layers
 -----------------------------
-
 
 .. figure:: /images/Manual-3Dinteraction-Navigating-Layers-layer-selection.jpg
 

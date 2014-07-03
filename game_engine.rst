@@ -2,7 +2,6 @@
 Introduction to Game Engine
 ===========================
 
-
 Blender has its own built in Game Engine that allows you to create interactive 3D applications
 or simulations. The major difference between Game Engine and the conventional Blender  system
 is  in the rendering process. In the normal Blender engine,

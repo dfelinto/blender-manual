@@ -36,7 +36,6 @@ The :guilabel:`Sun` lamp has no light falloff settings: it always uses a constan
 Sky & Atmosphere
 ----------------
 
-
 .. figure:: /images/25-Manual-Lighting-Lamps-Sun-SkyAtmoPanel.jpg
    :width: 304px
    :figwidth: 304px
@@ -49,7 +48,6 @@ Various settings for the appearance of the sun in the sky, and the atmosphere th
 
 Shadow
 ------
-
 
 .. figure:: /images/25-Manual-Lighting-Lamps-Sun-ShadPanel.jpg
    :width: 304px

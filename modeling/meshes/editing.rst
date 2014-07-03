@@ -18,7 +18,6 @@ and lattices.
 Types of Tools
 ==============
 
-
 .. figure:: /images/25-Manual-Modeling-Meshes-Tools.jpg
    :width: 130px
    :figwidth: 130px
@@ -62,7 +61,6 @@ The mesh tools are found in various places, and available through shortcuts as w
 
 Accessing Mesh Tools
 ====================
-
 
 Mesh Tools Palette
 ------------------

@@ -2,7 +2,6 @@
 Python API
 ==========
 
-
 This site is currently under development.
 
 To see the full Python API please click on the following link

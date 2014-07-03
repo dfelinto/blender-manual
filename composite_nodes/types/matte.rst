@@ -5,7 +5,6 @@
 Composite Matte Nodes
 =====================
 
-
 These nodes give you the essential tools for working with blue-screen or green-screen footage,
 where live action is shot in front of a blue or green backdrop for replacement by a matte
 painting or virtual background.
@@ -34,7 +33,6 @@ will complicate matters and mandate lower falloff values.
 
 Difference Key Node
 -------------------
-
 
 .. figure:: /images/2.5_Difference_node.jpg
 
@@ -72,7 +70,6 @@ keyed selection and a black and white :guilabel:`Matte` (i.e the alpha mask).
 Simple Example
 ~~~~~~~~~~~~~~
 
-
 .. figure:: /images/Manual-Compositing-Node-DiffKey_ex1.jpg
    :width: 300px
    :figwidth: 300px
@@ -109,7 +106,6 @@ we start decreasing the green until we settle on 55% (shown).
 Chaining Example
 ~~~~~~~~~~~~~~~~
 
-
 .. figure:: /images/Manual-Compositing-DiffKey_ex2.jpg
    :width: 300px
    :figwidth: 300px
@@ -136,7 +132,6 @@ that shade is outside the key's +/- variation tolerances.
 
 Chroma Key Node
 ---------------
-
 
 .. figure:: /images/2.5_ChromaKey_node.jpg
 
@@ -172,7 +167,6 @@ keyed selection and a black and white :guilabel:`Matte` (i.e the alpha mask).
 Color Key
 ---------
 
-
 .. figure:: /images/ColorKey_node.jpg
 
    Color Key node
@@ -186,7 +180,6 @@ the specified will be added to the matte.
 
 Luminance Key Node
 ------------------
-
 
 .. figure:: /images/2.5_Luminance_node.jpg
 
@@ -214,7 +207,6 @@ keyed selection and a black and white :guilabel:`Matte` (i.e the alpha mask).
 
 Example
 ~~~~~~~
-
 
 .. figure:: /images/Manual-Composting-LumaKey_ex.jpg
    :width: 300px
@@ -247,7 +239,6 @@ our model is teleported from Atlanta to aboard a cruise ship docked in Miami.
 Color Spill Node
 ----------------
 
-
 .. figure:: /images/2.5_ColorSpill_node.jpg
 
    Color Spill node
@@ -274,7 +265,6 @@ The outputs of this node are the image with the corrected channels.
 
 Channel Key Node
 ----------------
-
 
 .. figure:: /images/2.5_Channel_key_node.jpg
    :width: 150px

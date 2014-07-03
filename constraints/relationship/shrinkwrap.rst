@@ -17,7 +17,6 @@ when the selected inactive object is a mesh.
 Options
 -------
 
-
 .. figure:: /images/25-Manual-Constraints-Relationship-ShrinkWrap.jpg
    :width: 304px
    :figwidth: 304px

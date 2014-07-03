@@ -4,10 +4,8 @@
 Quick Rendering
 ===============
 
-
 What is rendering?
 ~~~~~~~~~~~~~~~~~~
-
 
 Rendering is the process of creating a 2D image.
 Blender creates this image by taking into account your model and all of your materials,
@@ -19,7 +17,6 @@ textures, lighting and compositing.
 
 Rendering an image using ''Full Render'' - Blender Internal
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 .. admonition:: Reference
    :class: refbox
@@ -46,7 +43,6 @@ To abort or quit the render, press :kbd:`Esc`\ .
 
 Rendering an image using ''OpenGL Render''
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 .. admonition:: Reference
    :class: refbox
@@ -76,7 +72,6 @@ To abort or quit the render, press :kbd:`Esc`\ .
 Adjusting the resolution
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-
 .. figure:: /images/Manual-Starting-Vital-dimensions-panel.jpg
 
    Dimensions panel
@@ -94,7 +89,6 @@ but will also take longer to render.
 Output format and output file
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
 .. figure:: /images/Manual-Starting-Vital-output-panel.jpg
 
    Output panel
@@ -105,7 +99,6 @@ You can also choose an output format and the output location for your rendered i
 
 Saving your image
 ~~~~~~~~~~~~~~~~~
-
 
 .. figure:: /images/Manual-Starting-Vital-save-as.jpg
 
@@ -120,7 +113,6 @@ and then you can search for folders to place your Render.
 
 Rendering an animation using ''Full Render'' - Blender Internal
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 .. admonition:: Reference
    :class: refbox
@@ -158,7 +150,6 @@ To abort or quit rendering the animation, press :kbd:`Esc`\ .
 Rendering an animation using ''OpenGL Render''
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -180,7 +171,6 @@ To abort or quit rendering the animation, press :kbd:`Esc`\ .
 
 Showing Only Rendered Objects
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 .. admonition:: Reference
    :class: refbox
@@ -216,7 +206,6 @@ Note that all of the other options for selective displaying will be disabled.
 
 The purposes of OpenGL Rendering
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 OpenGL rendering allows you to quickly inspect your animatic
 (for things like object movements, alternate angles, etc.),

@@ -29,7 +29,6 @@ The only lamp able to create volumetric effects is the :doc:`Spot lamp <lighting
 Example
 -------
 
-
 +-------------------------------------------------------------------------------------------------------------------------------------+
 +`Blend file of spotlight animation. <http://wiki.blender.org/index.php/Media:Manual - Shadow and Spot - Spotlight Animation.blend>`__+
 +-------------------------------------------------------------------------------------------------------------------------------------+
@@ -42,7 +41,6 @@ FIXME(Tag Unsupported:vimeo;
 
 See also
 ========
-
 
 - :doc:`Mist <world/mist>`
 - :doc:`Smoke <physics/smoke>`

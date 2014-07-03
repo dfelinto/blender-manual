@@ -2,7 +2,6 @@
 Bump and Normal Maps
 ====================
 
-
 Description
 ~~~~~~~~~~~
 

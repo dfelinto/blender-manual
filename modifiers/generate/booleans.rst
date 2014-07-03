@@ -2,7 +2,6 @@
 Boolean Modifier
 ================
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -12,7 +11,6 @@ Boolean Modifier
 
 Introduction
 ------------
-
 
 The :guilabel:`Boolean` Modifier performs operations on meshes that are otherwise too complex
 to achieve with few steps by editing meshes manually, meaning you can achieve good results
@@ -32,7 +30,6 @@ to create a single compound object out of two :guilabel:`Mesh` objects.
 
 Description
 -----------
-
 
 The :guilabel:`Boolean` Modifier applies only for Mesh objects.
 
@@ -65,7 +62,6 @@ will only be shown in the :guilabel:`Object` Mode of the :guilabel:`3D View` Win
 Usage
 -----
 
-
 Using the default Blender install, with the desired mesh Object selected,
 go to the :guilabel:`Properties Window` which is located at the right of your Blender Screen,
 below the Outliner. Click on the Modifiers Context, which is represented by a wrench (see Fig.
@@ -88,7 +84,6 @@ operation for the :guilabel:`Boolean` Modifier at a time.
 
 Options
 -------
-
 
 .. figure:: /images/(Doc_26x_Modifier_Generate_Boolean)_(Boolean_Modifier_Options)_(GBAFN).jpg
 
@@ -113,7 +108,6 @@ Input Box
 
 Operations
 ~~~~~~~~~~
-
 
 :guilabel:`Operation:`
 
@@ -144,7 +138,6 @@ Operations
 
 Materials
 ---------
-
 
 The :guilabel:`Boolean Modifier` preserves the Materials of the participant Meshes,
 including their basic textures and mappings, and the modified mesh will receive its first
@@ -207,7 +200,6 @@ See their captions for more information.
 UV Mappings
 ~~~~~~~~~~~
 
-
 When you map UV Images to your target,
 Blender will add a map for each of the faces of the target.
 When you apply the :guilabel:`Boolean` modifier, Blender will follow the UV maps already
@@ -248,7 +240,6 @@ the resulting mesh. In Figs.
 
 Other Modifiers
 ---------------
-
 
 .. figure:: /images/(Doc_26x_Modifier_Generate_Boolean)_(Error_Message_Boolean_Operation)_(GBAFN).jpg
 
@@ -319,7 +310,6 @@ and another with the resulting topology (Fig. 15).
 Animation
 ---------
 
-
 The Boolean Modifier is a generating modifier,
 but its normal behavior is to be applied to static meshes. You can animate the target,
 the modified mesh or both, but the effects will only be visible when you render the edges of
@@ -328,7 +318,6 @@ the modified mesh and the target to the final image or using recorded OpenGL ani
 
 Concurrent Operations
 ---------------------
-
 
 For the modified meshes, you can only apply one operation at a time, but you can use the same
 target for other modified meshes and use modified meshes as a target for other meshes as well.
@@ -340,7 +329,6 @@ modified meshes pointing to each other, you can cause Blender to crash with clos
 
 Hints
 ~~~~~
-
 
 Be aware that other modifiers and their stack position could cause this modifier to fail in
 certain circumstances. Also, if you make two meshes act as a target for each other (in fact,
@@ -356,7 +344,6 @@ you can cause Blender to stop responding or crash.
 
 Face Normals
 ------------
-
 
 When using the :guilabel:`Boolean` Modifier, Blender will use the face normal directions to calculate the three Boolean operations. The direction of the normals will define the result of the three available calculations (see :doc:`Operations <modifiers/generate/booleans#operations>` in this page); when one of the participants uses a set of inverted normals, you're in fact multiplying the operation by **-1** and inverting the calculation order. You can, at any time, select your modified mesh, enter :guilabel:`Edit` Mode and flip the normals to change the behavior of the :guilabel:`Boolean` modifier. See :doc:`Tips for fixing Normals <modifiers/generate/booleans#tip_for_fixing_mixed_normals>` in this page.
 
@@ -419,7 +406,6 @@ operation.
 Tip for Fixing Mixed Normals
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
 - You can fix mixed normals by recalculating them outside or inside; here we also give you a small hint on how to do this prior to :guilabel:`Boolean` Modifier usage:
 
 
@@ -451,7 +437,6 @@ go to *Normals* and choose *Flip Normals*\ . (See Fig.
 
 Empty or Duplicated Faces
 -------------------------
-
 
 This modifier doesn't work when the modified and/or the target mesh uses empty faces in the
 topology used for calculations.
@@ -486,7 +471,6 @@ trying to apply what was possible.
 
 Open Volumes
 ------------
-
 
 The :guilabel:`Boolean` modifier permits you to use open meshes or non-closed volumes
 (not open faces).
@@ -533,7 +517,6 @@ the shading (smooth/flat) doesn't affect the calculations of the modifier.
 History
 -------
 
-
 Since version 2.62, Blender uses a new Library, the `Carve library <http://carve-csg.com/>`__\ ,
 which should give much improved results. This library is more stable and faster,
 resolving old well-known limitations of our previous library.
@@ -551,7 +534,6 @@ FIXME(Link Type Unsupported: dev;
 
 Useful Links
 ------------
-
 
 - `Carve Developement Home <https://code.google.com/p/carve/>`__ - GPLv2 C++ source at Google Code
 - `Carve library <http://carve-csg.com/>`__ - Homepage for the Carve Library project.

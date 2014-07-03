@@ -2,7 +2,6 @@
 Lamps Raytraced Shadows
 =======================
 
-
 .. figure:: /images/25-Manual-Lighting-Shadow-Ray.jpg
    :width: 310px
    :figwidth: 310px

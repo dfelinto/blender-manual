@@ -2,7 +2,6 @@
 Keyed Particles
 ===============
 
-
 .. figure:: /images/Keyed.jpg
 
    Image 6: Keyed Physics.

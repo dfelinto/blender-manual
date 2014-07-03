@@ -2,7 +2,6 @@
 Scenes
 ======
 
-
 Scenes are a very useful tool for managing your projects. The Cube model in empty space you
 see when you open Blender for the first time is the default Scene.
 You can imagine Scenes to be similar to tabs in your web browser. For example,
@@ -25,10 +24,8 @@ You can select and create scenes with the :guilabel:`Scene selector` in the Info
 Scene configuration
 ===================
 
-
 Adding a new Scene
 ------------------
-
 
 .. figure:: /images/Manual-Part-I-Interface-Scene-AddButton-Dialog25.jpg
 
@@ -80,7 +77,6 @@ To better understand the way Blender works with data, read through :doc:`Blender
 
 A brief example
 ---------------
-
 
 Consider a bar Scene in a film. You initially create the bar as a clean version,
 with everything unbroken and in its proper place.

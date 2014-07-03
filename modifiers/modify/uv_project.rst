@@ -2,7 +2,6 @@
 UV Project Modifier
 ===================
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -26,7 +25,6 @@ It can optionally override the object's face texture.
 
 Options
 -------
-
 
 .. figure:: /images/Uvproject_ui.jpg
 
@@ -56,7 +54,6 @@ Override Image
 
 Usage
 -----
-
 
 General
 ~~~~~~~

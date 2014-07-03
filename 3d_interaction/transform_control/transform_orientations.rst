@@ -5,7 +5,6 @@
 Transform Orientations
 ======================
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -40,7 +39,6 @@ FIXME(TODO: Internal Link;
 Our Demo Cube
 -------------
 
-
 .. figure:: /images/Orientations-BasicSetup.jpg
 
    To demonstrate the various behaviors, we add some colors to the default cube, rotate it -15º along its local z- and x-axes, and we scale its "y" face down.
@@ -56,7 +54,6 @@ Please note two things:
 
 Orientations
 ------------
-
 
 .. figure:: /images/Manual-3D_interaction-Transform_Control-Transform_Orientations-01.Global.jpg
 
@@ -163,7 +160,6 @@ This way you can constrain movement to one View axis with :kbd:`g-x-x`\ .
 
 Custom Orientations
 -------------------
-
 
 .. admonition:: Reference
    :class: refbox

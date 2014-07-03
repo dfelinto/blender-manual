@@ -2,7 +2,6 @@
 Displace Modifier
 =================
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -22,7 +21,6 @@ Y and Z directions simultaneously.
 
 Options
 -------
-
 
 .. figure:: /images/25-Manual-Modifiers-Displace.jpg
 
@@ -87,7 +85,6 @@ Options
 
 See also
 ========
-
 
 - Blender artists post: `Displace modifier tutorial <http://blenderartists.org/forum/showthread.php?t=77026>`__ (September 2006)
 

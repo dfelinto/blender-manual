@@ -5,7 +5,6 @@
 Point Lamp
 ==========
 
-
 .. figure:: /images/25-Manual-Lighting-Lamps-Point.jpg
    :width: 200px
    :figwidth: 200px
@@ -39,7 +38,6 @@ Lamp Options
 
 Shadows
 -------
-
 
 .. figure:: /images/25-Manual-Lighting-Lamps-PointPanel-Noshad.jpg
    :width: 307px

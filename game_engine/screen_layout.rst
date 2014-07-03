@@ -2,7 +2,6 @@
 Game Logic Screen Layout
 ========================
 
-
 The design, construction, debugging and running of a game utilises a wide range of Blender functions. To help with the process, Blender incorporates a suggested screen layout for setting up BGE games. This includes many already-familiar panels but also a new :doc:`Logic Editor <game_engine/logic/editor>` panel (4) concerned solely with the BGE.
 
 The diagram below shows this default Game Logic screen layout,

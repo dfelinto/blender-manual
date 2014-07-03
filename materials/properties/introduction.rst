@@ -2,7 +2,6 @@
 Introduction to Properties
 ==========================
 
-
 Material Properties
 -------------------
 

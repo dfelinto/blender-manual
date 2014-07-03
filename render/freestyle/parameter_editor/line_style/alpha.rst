@@ -2,7 +2,6 @@
 Alpha
 =====
 
-
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Alpha.jpg
    :width: 300px
    :figwidth: 300px
@@ -28,7 +27,6 @@ There are four alpha modifiers available, which can be mixed with the base alpha
 Along Stroke
 ~~~~~~~~~~~~
 
-
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Alpha_Along_Stroke.jpg
    :width: 300px
    :figwidth: 300px
@@ -46,7 +44,6 @@ it applies the selected progression along each stroke.
 
 Distance from Camera
 ~~~~~~~~~~~~~~~~~~~~
-
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Alpha_Distance_From_Camera.jpg
    :width: 300px
@@ -70,7 +67,6 @@ a linear progression or a custom curve, using the distance to the active camera 
 
 Distance from Object
 ~~~~~~~~~~~~~~~~~~~~
-
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Alpha_Distance_From_Object.jpg
    :width: 300px
@@ -97,7 +93,6 @@ a linear progression or a custom curve, using the distance to a given object as 
 
 Material
 ~~~~~~~~
-
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Alpha_Material.jpg
    :width: 300px

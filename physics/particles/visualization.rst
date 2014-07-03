@@ -8,7 +8,6 @@
 Particle Visualization
 ======================
 
-
 With the items in the :guilabel:`Display` and :guilabel:`Render` panel you can set the way the particles will be rendered or depicted in the view ports in various ways. Some option are valid only for the 3D window, the particles then are rendered always as :doc:`Halos <materials/halos>`\ . Some of the options will be rendered as shown in the 3D window.
 
 
@@ -214,7 +213,6 @@ are duplicated sequentially in the place of the particles.
 
 Billboard
 ---------
-
 
 .. figure:: /images/Blender3D_VisualisationPanelBillboard.jpg
 

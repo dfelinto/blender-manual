@@ -2,7 +2,6 @@
 Boids
 =====
 
-
 .. figure:: /images/Boids.jpg
 
    Image 7: Boid Physics.

@@ -5,14 +5,12 @@
 Composite Filter Nodes
 ======================
 
-
 Filters process the pixels of an image to highlight additional details or perform some sort of
 post-processing effect on the image.
 
 
 Filter Node
 -----------
-
 
 .. figure:: /images/Tutorials-NTR-ComFilter.jpg
 
@@ -53,7 +51,6 @@ six blackboards with gobbledy gook. Recommended reading for insomniacs.
 
 Blur Node
 ---------
-
 
 .. figure:: /images/Tutorials-NTR-ComBlur.jpg
 
@@ -133,7 +130,6 @@ An example blend file, in fact the one used to create the image above, `is avail
 Bilateral Blur Node
 -------------------
 
-
 .. figure:: /images/Tutorials-NTR-ComBilateralBlur.jpg
 
    Blur node
@@ -179,7 +175,6 @@ Options
 Examples
 ~~~~~~~~
 
-
 .. figure:: /images/Manual-Compositing_Nodes-BilateralBlur_ex3.jpg
    :width: 250px
    :figwidth: 250px
@@ -203,7 +198,6 @@ Examples
 
 Vector (Motion) Blur Node
 -------------------------
-
 
 .. figure:: /images/Tutorials-NTR-ComVecBlur.jpg
 
@@ -267,7 +261,6 @@ is blurred the least.
 Known Bugs
 ~~~~~~~~~~
 
-
 FIXME(Template Unsupported: Version;
 {{Version|2.44}}
 )
@@ -276,7 +269,6 @@ Does not work when reading from a multilayer OpenEXR sequence set
 
 Dilate/Erode Node
 -----------------
-
 
 .. figure:: /images/Manual-Compositing_Nodes-Dilate_Erode.jpg
 
@@ -295,7 +287,6 @@ thus sharpening it relative to surrounding pixels of the same color.
 
 Example
 ~~~~~~~
-
 
 .. figure:: /images/Manual-Compositing_Nodes-Dilate_ex.jpg
    :width: 300px
@@ -324,7 +315,6 @@ this node blurs areas of an image based on the input zbuffer map/mask.
 Camera Settings
 ~~~~~~~~~~~~~~~
 
-
 .. figure:: /images/Manual-Compositing-Node-Defocus_Camera_settings.jpg
 
    DofDist setting for the camera.
@@ -346,7 +336,6 @@ the focal point is then visible as a yellow cross along the view direction of th
 
 Node Inputs
 ~~~~~~~~~~~
-
 
 .. figure:: /images/Manual-Compositing-Node-Defocus.jpg
 
@@ -406,7 +395,6 @@ FIXME(TODO: Internal Link;
 
 Examples
 ~~~~~~~~
-
 
 .. figure:: /images/Manual-Node-Defocus-example.jpg
    :width: 200px

@@ -10,7 +10,6 @@ These nodes allow you to change the mapping of a texture.
 Rotate
 ------
 
-
 .. figure:: /images/Doc26-textureNodes-rotate.jpg
 
    Rotate node
@@ -27,7 +26,6 @@ Rotate the texture coordinates of an image or texture.
 Translate
 ---------
 
-
 .. figure:: /images/Doc26-textureNodes-translate.jpg
 
    Translate node
@@ -42,7 +40,6 @@ Translate the texture coordinates of an image or texture.
 Scale
 -----
 
-
 .. figure:: /images/Doc26-textureNodes-scale.jpg
 
    Scale node
@@ -56,7 +53,6 @@ Scale the texture coordinates of an image or texture.
 
 At
 --
-
 
 .. figure:: /images/Doc26-textureNodes-at.jpg
 

@@ -2,7 +2,6 @@
 Line Style & Modifiers
 ======================
 
-
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_UI.jpg
    :width: 300px
    :figwidth: 300px

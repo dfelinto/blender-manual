@@ -7,7 +7,6 @@ FIXME(Template Unsupported: Doc:2.5/Manual/Interface/Configuration/index;
 System preferences
 ==================
 
-
 This picture shows the :guilabel:`System` tab in the :guilabel:`User Preferences` editor in
 Blender. Options are explained below.
 
@@ -19,7 +18,6 @@ Blender. Options are explained below.
 
 General
 -------
-
 
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 +:guilabel:`DPI`                                                                                                                                                                 +
@@ -45,7 +43,6 @@ General
 
 Sound
 -----
-
 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 +:guilabel:`Sound`                                                                                                                                                                                           +
@@ -83,15 +80,12 @@ Sound
 Screencast
 ----------
 
-
 ++
 ++
 ++
-
 
 Compute Device
 --------------
-
 
 +-------------------------------------------------------------------------------------------------------------------------------------------------------+
 +:guilabel:`The Options here will set the compute device used by the Cycles Render Engine`                                                              +
@@ -114,7 +108,6 @@ Compute Device
 
 Open GL
 -------
-
 
 +-----------------------------------------------------------------------------------------------------------+
 +:guilabel:`Clip Alpha`                                                                                     +
@@ -146,7 +139,6 @@ Open GL
 
 Window Draw Method
 ------------------
-
 
 +---------------------------------------------------------------------------------------------------------------------+
 +:guilabel:`Window Draw Method`                                                                                       +
@@ -192,7 +184,6 @@ Window Draw Method
 Text Draw Options
 -----------------
 
-
 +--------------------------------------------------------------------------------------------+
 +:guilabel:`Text Draw Options`                                                               +
 +   Enable interface text anti-aliasing.                                                     +
@@ -203,7 +194,6 @@ Text Draw Options
 
 Textures
 --------
-
 
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 +:guilabel:`Limit Size`                                                                                                                                             +
@@ -227,7 +217,6 @@ Textures
 Sequencer/Clip Editor
 ---------------------
 
-
 +--------------------------------------------------------------------------------------------------------------------------------+
 +:guilabel:`Prefetch Frames`                                                                                                     +
 +   Number of frames to render ahead during playback.                                                                            +
@@ -245,7 +234,6 @@ Sequencer/Clip Editor
 
 Solid OpenGL lights
 -------------------
-
 
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------+
 +:guilabel:`Solid OpenGL Lights`                                                                                                                                +
@@ -277,7 +265,6 @@ Solid OpenGL lights
 Color Picker Type
 -----------------
 
-
 +-----------------------------------------------------------------------------------------------------------------------------+
 +:guilabel:`Color Picker Type`                                                                                                +
 +   Choose which type of color dialog you prefer - it will show when clicking :kbd:`lmb` on any color field.                  +
@@ -296,7 +283,6 @@ Color Picker Type
 Custom Weight Paint Range
 -------------------------
 
-
 +----------------------------------------------------------------------------------------------------------------------------------------------+
 +:guilabel:`Custom Weight Paint Range`                                                                                                         +
 +   :guilabel:`Mesh skin weighting` is used to control how much a bone deforms the mesh of a character.                                        +
@@ -309,7 +295,6 @@ Custom Weight Paint Range
 
 International Fonts
 -------------------
-
 
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------+
 +:guilabel:`International Fonts`                                                                                                                              +

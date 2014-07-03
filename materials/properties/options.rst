@@ -2,7 +2,6 @@
 Options
 =======
 
-
 .. figure:: /images/Doc_2.6_Materials_Properties_Options.jpg
 
    Material Options Panel

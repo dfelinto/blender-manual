@@ -11,7 +11,6 @@
 Surfaces
 ========
 
-
 .. figure:: /images/Blender2.5NurbsSurface.jpg
 
    Surface.
@@ -44,7 +43,6 @@ In fact, surfaces are very similar to the results you get when :doc:`extruding a
 
 Finding Surface Tools
 =====================
-
 
 .. figure:: /images/NurbsSurfaceTools.jpg
 
@@ -182,7 +180,6 @@ and higher than **6** or the number of control points on the relevant axis.
 Weight
 ------
 
-
 .. figure:: /images/NurbsSurfaceWeightExample.jpg
    :width: 600px
    :figwidth: 600px
@@ -205,7 +202,6 @@ The :guilabel:`Weight` of any particular control point is visible in the :doc:`T
 
 Preset Weights
 ~~~~~~~~~~~~~~
-
 
 .. figure:: /images/NurbsSurfaceSphere.jpg
    :width: 250px

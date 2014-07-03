@@ -5,7 +5,6 @@
 Stars
 =====
 
-
 Description
 -----------
 
@@ -15,7 +14,6 @@ Not for use with Cycles renderer.
 
 Options
 -------
-
 
 .. figure:: /images/25-Manual-World-StarPanel.jpg
    :width: 298px

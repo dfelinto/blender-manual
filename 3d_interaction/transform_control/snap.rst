@@ -2,7 +2,6 @@
 Snapping
 ========
 
-
 There are two types of snap operations that you can use in Blender. The first type snaps your
 selection or cursor to a given point while the second type is used during transformations
 (translate, rotate, scale) and snaps your selection to elements within the scene.
@@ -54,7 +53,6 @@ This menu provides a number of options to move the cursor or your selection to a
 Transform Snapping
 ------------------
 
-
 The ability to snap Objects and Mesh element to various types of scene elements during a
 transformation is available by toggling the magnet icon (which will turn red)
 in the 3D view's header buttons.
@@ -68,10 +66,8 @@ in the 3D view's header buttons.
 Snapping Modes
 ==============
 
-
 Snap Element
 ------------
-
 
 .. figure:: /images/3D-interaction_Transform-Control_Snap-snap-element.jpg
 
@@ -92,7 +88,6 @@ Snap Element
 
 Snap Target
 -----------
-
 
 .. figure:: /images/3D-interaction_Transform-Control_Snap-snap-target.jpg
 
@@ -122,7 +117,6 @@ These determine what part of the selection snaps to the target objects.
 
 Additional snap options
 ~~~~~~~~~~~~~~~~~~~~~~~
-
 
 +--------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
 +.. figure:: /images/3D-interaction_Transform-Control_Snap-snap-options-object-mode.jpg|.. figure:: /images/3D-interaction_Transform-Control_Snap-snap-options-edit-mode.jpg+

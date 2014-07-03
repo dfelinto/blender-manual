@@ -2,7 +2,6 @@
 Nodes
 =====
 
-
 Materials, lights and backgrounds are all defined using a network of shading nodes.
 These nodes output values, vectors, colors and shaders.
 
@@ -33,7 +32,6 @@ for direct lighting or global illumination.
 [[/Textures|'''Textures''']]
 ----------------------------
 
-
 Each texture type in Cycles corresponds to a node,
 with a texture coordinate and various parameters as input, and a color or value as output.
 No texture datablocks are needed; instead node groups can be used for reusing texture setups.
@@ -51,13 +49,11 @@ and these can be edited in the texture properties.
 [[/More|'''More''']]
 --------------------
 
-
 Nodes for geometric data, texture coordinates,
 layering shaders and non-physically based tricks.
 
 
 [[/OSL|'''Open Shading Language''']]
 ------------------------------------
-
 
 Custom nodes can be written using the Open Shading Language.

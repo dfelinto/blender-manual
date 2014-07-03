@@ -2,7 +2,6 @@
 3D Cursor as Pivot
 ==================
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -38,7 +37,6 @@ There are a few methods to position the 3D cursor.
 Direct placement with the mouse
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
 .. figure:: /images/3D_interaction_Transform-Control_Pivot-Point_3D-cursor_two-view-positioning.jpg
    :width: 300px
    :figwidth: 300px
@@ -51,7 +49,6 @@ Direct placement with the mouse
 
 Using the {{Literal|Snap}} menu
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 .. figure:: /images/3D_interaction_Transform-Control_Pivot-Point_3D-cursor_snap-menu.jpg
 
@@ -83,7 +80,6 @@ When the :guilabel:`Median Point` pivot point is selected,
 
 Numeric input
 ~~~~~~~~~~~~~
-
 
 .. figure:: /images/3D_interaction_Transform-Control_Pivot-Point_3D-cursor_view-properties.jpg
    :width: 285px

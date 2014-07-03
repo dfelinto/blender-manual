@@ -4,7 +4,6 @@
 Recovering from mistakes or problems
 ====================================
 
-
 Blender provides a number of ways for the user to recover from mistakes,
 and reduce the chance of losing their work in the event of operation errors,
 computer failures, or power outages.
@@ -28,7 +27,6 @@ FIXME(TODO: Internal Link;
 
 Options for Actions (User Level)
 --------------------------------
-
 
 .. figure:: /images/Manual-Vitals-Undo-and-Redo-UndoOptions.jpg
 
@@ -57,7 +55,6 @@ In this section you can set:
 Undo
 ~~~~
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -70,7 +67,6 @@ Like most programs, if you want to undo your last action, just press :kbd:`ctrl-
 Redo
 ~~~~
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -82,7 +78,6 @@ To roll back your Undo action, press :kbd:`shift-ctrl-Z`
 
 Redo Last
 ~~~~~~~~~
-
 
 .. admonition:: Reference
    :class: refbox
@@ -124,7 +119,6 @@ the contents of the Pop-Up Window are different, because of your context (Edit M
 Undo History
 ~~~~~~~~~~~~
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -150,7 +144,6 @@ Once you do make a new change, the Undo History is truncated at that point.
 Repeat Last
 ~~~~~~~~~~~
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -174,7 +167,6 @@ the *Monkey* was also duplicated and moved.
 
 Repeat History
 ~~~~~~~~~~~~~~
-
 
 .. admonition:: Reference
    :class: refbox
@@ -203,7 +195,6 @@ but the list contains only repeated actions.  To access Repeat History, use :kbd
 Blender Search
 ~~~~~~~~~~~~~~
 
-
 .. figure:: /images/Manual-Vitals-Undo-Redo-Redo_Last_Spacebar_Menu.jpg
 
    Spacebar search for Redo Last
@@ -222,10 +213,8 @@ using Blender Search :kbd:`Space`\ .
 Options for Files (System Level)
 --------------------------------
 
-
 Save and Auto Save
 ~~~~~~~~~~~~~~~~~~
-
 
 .. figure:: /images/Manual-Vitals-Undo-and-Redo-AutosaveOptions.jpg
 
@@ -258,7 +247,6 @@ for you to regress to a previous version of your work.
 Recovering Auto Saves
 ~~~~~~~~~~~~~~~~~~~~~
 
-
 :guilabel:`Recover Last Session`
    :menuselection:`File --> Recover Last Session` will open the ``quit.blend`` that is saved into the :guilabel:`Temp` directory when you exit Blender. Note that files in your :guilabel:`Temp` directory are deleted when you reboot.
 
@@ -283,7 +271,6 @@ Recovering Auto Saves
 
 Other options
 ~~~~~~~~~~~~~
-
 
 :guilabel:`Recent Files`
    This setting controls how many recent files are listed in the :menuselection:`File --> Open Recent` sub-menu.

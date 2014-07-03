@@ -2,7 +2,6 @@
 Dynamic Physics Object Type
 ===========================
 
-
 Dynamic objects in the :doc:`Game Engine <game_engine>` give/receive collisions, but when they do so they themselves do not rotate in response. So, a Dynamic ball will hit a ramp and slide down, while a Rigid Body ball would begin rotating.
 
 If you do not need the rotational response the Dynamic type can save the extra computation.
@@ -16,7 +15,6 @@ For more documentation, see the :doc:`Top BGE Physics page <game_engine/physics>
 
 Options
 -------
-
 
 FIXME(Template Unsupported: Doc:2.6/Manual/Game_Engine/Physics/PythonAccessToOptions;
 {{Doc:2.6/Manual/Game_Engine/Physics/PythonAccessToOptions}}
@@ -59,7 +57,6 @@ FIXME(Template Unsupported: Doc:2.6/Manual/Game_Engine/Physics/TransformOptions;
 Collision Bounds
 ----------------
 
-
 FIXME(Template Unsupported: Doc:2.6/Manual/Game_Engine/Physics/Collision_Bounds;
 {{Doc:2.6/Manual/Game_Engine/Physics/Collision_Bounds}}
 )
@@ -68,7 +65,6 @@ FIXME(Template Unsupported: Doc:2.6/Manual/Game_Engine/Physics/Collision_Bounds;
 Create Obstacle
 ---------------
 
-
 FIXME(Template Unsupported: Doc:2.6/Manual/Game_Engine/Physics/Create_Obstacle;
 {{Doc:2.6/Manual/Game_Engine/Physics/Create_Obstacle}}
 )
@@ -76,7 +72,6 @@ FIXME(Template Unsupported: Doc:2.6/Manual/Game_Engine/Physics/Create_Obstacle;
 
 All Types
 ---------
-
 
 FIXME(Template Unsupported: Doc:2.6/Manual/Game_Engine/Physics/AllTypes;
 {{Doc:2.6/Manual/Game_Engine/Physics/AllTypes}}

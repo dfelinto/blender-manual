@@ -2,7 +2,6 @@
 Property Actuator
 =================
 
-
 Using the Property actuator you can change the value of a given property once the actuator
 itself is activated.
 

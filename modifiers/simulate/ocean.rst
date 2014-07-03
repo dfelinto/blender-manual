@@ -2,7 +2,6 @@
 Ocean Simulation
 ================
 
-
 Blender's ocean simulation tools take the form of a modifier,
 to simulate and generate a deforming ocean surface, and associated texture,
 used to render the simulation data. Ported from the open source Houdini Ocean Toolkit,
@@ -11,7 +10,6 @@ it is intended to simulate deep ocean waves and foam.
 
 Simulation Internals
 --------------------
-
 
 The simulator itself uses FFT methods to generate 2d grids of sim information internally,
 very similar to 2d texture maps.
@@ -25,7 +23,6 @@ multithreaded with OpenMP to take advantage of multiple cores.
 Ocean Modifier
 ==============
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -35,7 +32,6 @@ Ocean Modifier
 
 Description
 -----------
-
 
 .. figure:: /images/Ocean_modifier.jpg
    :width: 240px
@@ -109,7 +105,6 @@ Wave Options
 
 Sim Data Generation Options
 ---------------------------
-
 
 .. figure:: /images/Ocean_foam_layer_name.jpg
    :width: 240px

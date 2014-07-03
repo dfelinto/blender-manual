@@ -145,7 +145,6 @@ denser pattern by using the Texture controls for repeat or size.
 Layering UV Textures
 ~~~~~~~~~~~~~~~~~~~~
 
-
 .. figure:: /images/Manual-UV-Layer_One.jpg
    :width: 300px
    :figwidth: 300px
@@ -210,7 +209,6 @@ enables you to layer and combine textures in almost any way you can imagine.
 Mix and Match Materials
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-
 .. figure:: /images/Manual-UV-MixMat.jpg
 
 
@@ -257,7 +255,6 @@ but that's another story ...)
 
 Using Alpha Transparency
 ~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 .. figure:: /images/Manual-UV-Alpha.jpg
    :width: 200px
@@ -369,10 +366,8 @@ Input panel.
 Settings
 ========
 
-
 Image
 -----
-
 
 .. figure:: /images/25-Manual-Textures-Image-panel.jpg
    :width: 306px
@@ -608,7 +603,6 @@ the horizontal bar has 50% alpha.
 
 Image Mapping
 -------------
-
 
 .. figure:: /images/25-Manual-Textures-ImageMapping-panel.jpg
    :width: 306px

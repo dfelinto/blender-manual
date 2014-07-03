@@ -2,7 +2,6 @@
 Surface
 =======
 
-
 The surface shader defines the light interaction at the surface of the mesh. One or more
 :abbr:`BSDF (Bidirectional scattering distribution function)`\ s specify if incoming light is
 reflected back, refracted into the mesh, or absorbed.
@@ -14,7 +13,6 @@ allowing any surface to become a light source.
 Terminology
 -----------
 
-
 - **BSDF** stands for bidirectional scattering distribution function. It defines how light is reflected and refracted at a surface.
 - **Reflection**  :abbr:`BSDF (Bidirectional scattering distribution function)`\ s reflect an incoming ray on the same side of the surface.
 - **Transmission**  :abbr:`BSDF (Bidirectional scattering distribution function)`\ s transmit an incoming ray through the surface, leaving on the other side.
@@ -23,7 +21,6 @@ Terminology
 
 BSDF Parameters
 ---------------
-
 
 A major difference from non-physically based renderers is that direct light reflection from
 lamps and indirect light reflection of other surfaces are not decoupled, but rather handled

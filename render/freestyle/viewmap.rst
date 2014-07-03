@@ -25,7 +25,6 @@ There is only one viewmap per render layer. It controls the edge detection param
 Advanced Options
 ----------------
 
-
 .. figure:: /images/Manual-2.6-Render-Freestyle-Advanced_Options.jpg
    :width: 200px
    :figwidth: 200px

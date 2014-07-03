@@ -7,7 +7,6 @@ FIXME(Tag Unsupported:div;
 Assigning a Material
 ====================
 
-
 Materials available in the currently-open Blender file can be investigated by clicking on the Materials button
 
 .. figure:: /images/Manual-Material-MatButton.jpg
@@ -24,7 +23,6 @@ We also give hints about practical material usage.
 
 Creating a new Material
 -----------------------
-
 
 Every time a new Object is created it has no material linked to it.
 You can create a new material for the object by
@@ -156,7 +154,6 @@ FIXME(TODO: Internal Link;
 Reusing Existing Materials
 --------------------------
 
-
 Blender is built to allow you to reuse *anything*\ , including material settings,
 between many objects. Instead of creating duplicate materials,
 you can simply re-use an existing material.
@@ -186,7 +183,6 @@ There are several ways to do this using the Available Materials menu:
 
 Deleting a Material
 -------------------
-
 
 To delete a material, select the material and click X in the Available Materials List entry.
 

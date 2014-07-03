@@ -2,10 +2,8 @@
 Light Attenuation
 =================
 
-
 Description
 -----------
-
 
 .. figure:: /images/25-Manual-Lighting-Falloff-hilite.jpg
    :width: 312px
@@ -23,10 +21,8 @@ There are two main controls for light falloff for :guilabel:`Point` and :guilabe
 Falloff types
 -------------
 
-
 Lin/Quad Weighted
 ~~~~~~~~~~~~~~~~~
-
 
 .. figure:: /images/25-Manual-Lighting-Falloff-linquad.jpg
    :width: 308px
@@ -69,7 +65,6 @@ Where
 
 Quadratic
 _________
-
 
 .. figure:: /images/Manual_-_Light_-_Example_-_Default_Lin-Quad_Weighted.jpg
    :width: 250px
@@ -237,7 +232,6 @@ along with its resultant render output:
 Inverse Square
 ~~~~~~~~~~~~~~
 
-
 .. figure:: /images/Manual_-_Light_-_Example_-_Inverse_Square.jpg
    :width: 300px
    :figwidth: 300px
@@ -255,7 +249,6 @@ to **1.0**\ ), with slight changes.
 
 Inverse Linear
 ~~~~~~~~~~~~~~
-
 
 .. figure:: /images/Manual_-_Light_-_Example_-_Inverse_Linear.jpg
    :width: 300px
@@ -275,7 +268,6 @@ but can be easier to light with.
 Constant
 ~~~~~~~~
 
-
 .. figure:: /images/Manual_-_Light_-_Example_-_Constant.jpg
    :width: 300px
    :figwidth: 300px
@@ -291,7 +283,6 @@ which are so far away that their falloff isn't noticeable.
 
 Sphere
 ------
-
 
 .. figure:: /images/25-Manual-Lighting-Falloff-PointSphere.jpg
    :width: 300px
@@ -335,7 +326,6 @@ option.
 
 Examples
 --------
-
 
 Distance
 ~~~~~~~~
@@ -417,7 +407,6 @@ intensity and the angle between the light source and the surface's normal.
 
 Sphere
 ~~~~~~
-
 
 .. figure:: /images/Manual-Part-V-LampRender-SphereView.jpg
 

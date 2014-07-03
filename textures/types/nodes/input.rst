@@ -5,7 +5,6 @@
 Input Nodes
 ===========
 
-
 Input nodes provide input data for other nodes.
 
 
@@ -76,7 +75,6 @@ The shape of the curve can be manipulated to vary the output over time in differ
 Coordinates
 -----------
 
-
 .. figure:: /images/Doc26-textureNodes-coordinate2.jpg
 
    Coordinates node
@@ -93,7 +91,6 @@ relative to its bounding box as RGB colors:
 Texture Node
 ------------
 
-
 .. figure:: /images/Doc26-textureNodes-texture.jpg
 
    Texture node
@@ -107,7 +104,6 @@ The texture node can be used to load a another node based or non-node based text
 
 Image Node
 ----------
-
 
 .. figure:: /images/Doc26-textureNodes-image.jpg
 

@@ -2,7 +2,6 @@
 Halo Rendering
 ==============
 
-
 .. figure:: /images/Doc-26-Materials-HeloRender-Activate.jpg
    :width: 300px
    :figwidth: 300px
@@ -22,7 +21,6 @@ or when creating a viewable light or fog/atmospherics around an actual light.
 
 Options
 =======
-
 
 .. figure:: /images/25-Manual-Materials-Halos.jpg
    :width: 309px
@@ -193,10 +191,8 @@ a lamp will make it brighter and affect its diffuse color and intensity.
 Examples
 ========
 
-
 Dotmatrix display
 -----------------
-
 
 Let's use a halo material to create a dotmatrix display.
 

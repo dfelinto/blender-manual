@@ -24,7 +24,6 @@ which is a common format for medical volume data such as CT scans.
 Settings
 --------
 
-
 :guilabel:`File Format`
    :guilabel:`Blender Voxel`
        Default binary voxel file format.

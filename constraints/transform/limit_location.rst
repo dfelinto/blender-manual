@@ -2,7 +2,6 @@
 Limit Location Constraint
 =========================
 
-
 Description
 -----------
 
@@ -33,7 +32,6 @@ using the *Transformation Properties* axis locking feature is probably easier!
 
 Options
 -------
-
 
 .. figure:: /images/25-Manual-Constraints-Transform-LimitLoc.jpg
    :width: 302px

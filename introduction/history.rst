@@ -69,7 +69,6 @@ dedicated volunteers from around the world led by Blender's original creator, To
 Video: From Blender 1.60 to 2.50
 --------------------------------
 
-
 FIXME(Tag Unsupported:vimeo;
 <vimeo width="640" height="360">8567074</vimeo>
 )
@@ -77,7 +76,6 @@ FIXME(Tag Unsupported:vimeo;
 
 Version/Revision Milestones
 ===========================
-
 
 .. admonition:: Release Notes
    :class: nicetip
@@ -95,7 +93,6 @@ Version/Revision Milestones
 The start !
 -----------
 
-
 - 1.00 - January 1995: Blender in development at animation studio NeoGeo.
 - 1.23 - January 1998: SGI version published on the web, IrisGL.
 - 1.30 - April 1998: Linux and FreeBSD version, port to OpenGL and X11.
@@ -109,7 +106,6 @@ The start !
 Blender 2.0
 -----------
 
-
 - 2.00 - August 2000: Interactive 3D and real-time engine.
 - 2.10 - December 2000: New engine, physics, and Python.
 - 2.20 - August 2001: Character animation system.
@@ -118,7 +114,6 @@ Blender 2.0
 
 Blender goes Open Source
 ------------------------
-
 
 - **13 October 2002: Blender goes Open Source, 1st Blender Conference**\ .
 - 2.25 - October 2002: `Blender Publisher <http://www.blender.org/download/get-blender/older-versions/>`__ becomes freely available.
@@ -136,7 +131,6 @@ Blender goes Open Source
 
 A Big Leap
 ----------
-
 
 - `2.37 <http://www.blender.org/development/release-logs/blender-237a/>`__ - June 2005: `A big leap <http://www.blender.org/development/release-logs/blender-237a/>`__\ : transformation tools and widgets, softbodies, force fields, deflections, incremental subdivision surfaces, transparent shadows, and multithreaded rendering.
 -
@@ -195,7 +189,6 @@ FIXME(Link Type Unsupported: dev;
 Blender 2.5 - The Recode !
 --------------------------
 
-
 - `2.5x <http://www.blender.org/development/release-logs/blender-250/>`__ - From 2009 to August 2011. This series `release <http://www.blender.org/development/release-logs/blender-250/>`__ 4 pre-version (from Alpha0 - November 2009 - to Beta July 2010) and three stable versions (from 2.57 - April 2011 - to 2.59 - August 2011). It is one of the most important development `project <http://www.blender.org/development/current-projects/blender-25-project/>`__ of blender with a total re-coding of the software with new functions, redesign of internal window manager and event/tool/data handling system, new python API... The final version of this project was Blender 2.59 in August 2011.
 -
 
@@ -219,7 +212,6 @@ FIXME(Link Type Unsupported: dev;
 2.63 - Bmesh - Blender with N-gons
 ----------------------------------
 
-
 -
 
 FIXME(Link Type Unsupported: dev;
@@ -229,7 +221,6 @@ FIXME(Link Type Unsupported: dev;
 
 2.64 - The Open Source VFX release
 ----------------------------------
-
 
 -
 
@@ -241,7 +232,6 @@ FIXME(Link Type Unsupported: dev;
 2.65 - Continuous Improvements
 ------------------------------
 
-
 -
 
 FIXME(Link Type Unsupported: dev;
@@ -251,7 +241,6 @@ FIXME(Link Type Unsupported: dev;
 
 2.66 - Dynamic Topology, Rigid Body Simulation
 ----------------------------------------------
-
 
 -
 
@@ -263,7 +252,6 @@ FIXME(Link Type Unsupported: dev;
 2.67 - Freestyle, 3d printing
 -----------------------------
 
-
 -
 
 FIXME(Link Type Unsupported: dev;
@@ -274,7 +262,6 @@ FIXME(Link Type Unsupported: dev;
 2.68 - Continuous Improvements
 ------------------------------
 
-
 -
 
 FIXME(Link Type Unsupported: dev;
@@ -284,7 +271,6 @@ FIXME(Link Type Unsupported: dev;
 
 2.69 - Continuous Improvements
 ------------------------------
-
 
 -
 

@@ -2,7 +2,6 @@
 WeightVGroup Modifiers
 ======================
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -46,7 +45,6 @@ FIXME(TODO: Internal Link;
 
 Common Settings
 ---------------
-
 
 .. figure:: /images/ManModifiersWeightVG_mask.jpg
    :width: 300px
@@ -103,7 +101,6 @@ the vertex group you are editing (provided it is affected by some modifier, obvi
 Vertex Weight Edit Modifier
 ---------------------------
 
-
 .. figure:: /images/ManModifiersWeightVGEdit.jpg
    :width: 300px
    :figwidth: 300px
@@ -147,7 +144,6 @@ Options
 
 Vertex Weight Mix Modifier
 --------------------------
-
 
 .. figure:: /images/ManModifiersWeightVGMix.jpg
    :width: 300px
@@ -209,7 +205,6 @@ Options
 Vertex Weight Proximity Modifier
 --------------------------------
 
-
 .. figure:: /images/ManModifiersWeightVGProximity.jpg
    :width: 300px
    :figwidth: 300px
@@ -266,7 +261,6 @@ FIXME(TODO: Internal Link;
 
 Examples
 --------
-
 
 Using Distance from a Target Object
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -453,6 +447,5 @@ FIXME(Tag Unsupported:vimeo;
 
 See Also
 --------
-
 
 - The `Development page <http://wiki.blender.org/index.php/User:Mont29/WeightVGroup/Dev>`__\ .

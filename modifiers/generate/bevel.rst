@@ -4,7 +4,6 @@
 Bevel Modifier
 ==============
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -53,7 +52,6 @@ default :guilabel:`Bevel` modifier settings.
 Options
 -------
 
-
 .. figure:: /images/Manual_CZ_BevelModifier_None_IF.jpg
 
    Bevel modifier panel.
@@ -61,7 +59,6 @@ Options
 
 Width
 ~~~~~
-
 
 The :guilabel:`Width` numeric field controls the width/amount of the bevel applied to the base
 mesh. It can range from **0.0** (no bevel applied) to **1.0** (Blender Units).
@@ -93,7 +90,6 @@ Set the number of bevel segments for round edges/verts.
 Only Vertices
 ~~~~~~~~~~~~~
 
-
 The :guilabel:`Only Vertices` button alters the way in which a bevel is applied to the mesh.
 When it is active, only the areas near vertices are beveled; the edges are left unbeveled.
 
@@ -109,7 +105,6 @@ When it is active, only the areas near vertices are beveled; the edges are left 
 
 Limit Method
 ~~~~~~~~~~~~
-
 
 This section of the :guilabel:`Bevel` modifier is used to control where and when a bevel is
 applied to the underlying mesh. The first row of three buttons (mutually exclusive)

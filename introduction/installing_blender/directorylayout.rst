@@ -28,7 +28,6 @@ Here are the default locations for each system:
 OSX
 ~~~
 
-
 FIXME(Tag Unsupported:div;
 <div class="tableNormal">
 '''LOCAL:''' <code>./{{Blender/Version/Current}}/</code><br />
@@ -43,7 +42,6 @@ FIXME(Tag Unsupported:div;
 Windows
 ~~~~~~~
 
-
 FIXME(Tag Unsupported:div;
 <div class="tableNormal">
 '''LOCAL:''' <code>.\{{Blender/Version/Current}}\</code><br />
@@ -55,7 +53,6 @@ FIXME(Tag Unsupported:div;
 
 Unix (Linux/BSD/Solaris)
 ~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 FIXME(Tag Unsupported:div;
 <div class="tableNormal">
@@ -78,7 +75,6 @@ FIXME(Template Unsupported: Blender/Version/Current;
 
 Path Layout
 ===========
-
 
 This is the path layout which is used within the directories described above.
 
@@ -177,7 +173,6 @@ search order: **LOCAL, SYSTEM**
 
 Notes
 =====
-
 
 User Scripts Path
 -----------------

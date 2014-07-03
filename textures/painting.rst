@@ -5,7 +5,6 @@
 Texture Painting
 ================
 
-
 A UV Texture is a picture (image, sequence or movie)
 that is used to color the surface of a mesh.
 The UV Texture is mapped to the mesh through one or more UV maps.
@@ -38,7 +37,6 @@ Texture Paint works in both a 3D window and the UV/Image Editor window. In the 3
 
 Getting Started
 ---------------
-
 
 Once you have unwrapped your model to a UV Map (as explained in previous pages),
 you can begin the texturing process.
@@ -109,7 +107,6 @@ See Texture Mapping Output for more information on bump mapping.
 Brushes Settings
 ----------------
 
-
 Press :kbd:`T` in the UV/Image Editor to show the Toolbar panel. With this panel,
 you can create many brushes, each with unique settings (such as color and width).
 Use the Brush selector to switch between brushes, or to create a new brush.
@@ -137,7 +134,6 @@ color.
 
 Brush
 ~~~~~
-
 
 .. figure:: /images/Doc26-textures-painting-brush.jpg
    :width: 200px
@@ -203,7 +199,6 @@ There are four different types of brushes
 Texture
 ~~~~~~~
 
-
 .. figure:: /images/Doc26-textures-painting-brushTexture.jpg
    :width: 250px
    :figwidth: 250px
@@ -257,7 +252,6 @@ this field changes to indicate the picture image or texture that you are cloning
 Stroke
 ~~~~~~
 
-
 **Stroke Method**
    Allows set the way applying strokes.
    **Airbrush**
@@ -295,10 +289,8 @@ Changing the shape of the curve will make the brush softer or harder.
 Paint options
 -------------
 
-
 Overlay
 ~~~~~~~
-
 
 Allows you to customize the display of curve and texture that applied to the brush.
 
@@ -306,14 +298,12 @@ Allows you to customize the display of curve and texture that applied to the bru
 Appearance
 ~~~~~~~~~~
 
-
 Allows you to customize the color of the brush radius outline,
 as well as specify a custom icon.
 
 
 Saving
 ------
-
 
 If the header menu item Image has an asterisk next to it,
 it means that the image has been changed, but not saved. Use the :guilabel:`Image→Save Image`
@@ -336,7 +326,6 @@ saving your images to a separate file is not necessary.
 
 Using an External Image Editor
 ------------------------------
-
 
 If you use an external program to edit your UV Texture, you must:
 

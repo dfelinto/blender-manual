@@ -4,10 +4,8 @@
 Mirror Editing
 ==============
 
-
 X-Mirror
 --------
-
 
 .. admonition:: Reference
    :class: refbox
@@ -68,7 +66,6 @@ The conditions for X-mirror to work are quite strict, which can make it difficul
 Snap to Symmetry
 ----------------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -113,7 +110,6 @@ imported from other applications are asymmetrical enough that mirror fails too.
 
 Symmetrize Mesh
 ---------------
-
 
 .. admonition:: Reference
    :class: refbox

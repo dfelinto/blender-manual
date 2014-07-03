@@ -43,7 +43,6 @@ To learn more:
 Available Constraints
 ---------------------
 
-
 .. figure:: /images/(Doc_26x_Manual_Constraints_Introduction)_(Adding_Constraint_Menu)_(GBV266FN).jpg
 
    The Constraint Menu
@@ -66,7 +65,6 @@ between the owner and target objects.
 
 Motion Tracking
 ~~~~~~~~~~~~~~~
-
 
 +-------------+
 +Camera Solver+

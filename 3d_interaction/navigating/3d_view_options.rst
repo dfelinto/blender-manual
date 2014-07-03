@@ -2,7 +2,6 @@
 View Shading
 ============
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -60,7 +59,6 @@ You can switch between these draw modes by:
 
 View Properties Panel
 =====================
-
 
 .. admonition:: Reference
    :class: refbox
@@ -187,7 +185,6 @@ Display
 Background Image
 ================
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -216,7 +213,6 @@ There are a few points worth to be noted about background images:
 
 Settings
 --------
-
 
 .. figure:: /images/Background-image.jpg
 
@@ -291,5 +287,4 @@ When the image is loaded, the following settings become available.
 
 Shortcuts
 =========
-
 

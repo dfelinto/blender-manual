@@ -18,7 +18,6 @@ it is possible to translate and zoom a :guilabel:`Buttons` window and its panels
 Perspective and Orthographic Views
 ==================================
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -55,7 +54,6 @@ making it easier to draw and judge proportions.
 Options
 -------
 
-
 .. figure:: /images/Manual-Part-I-3DCameraView-2.5.jpg
 
    Demonstration of camera view.
@@ -88,7 +86,6 @@ If you have a large scene, viewing it through Camera View may not display all of
 Technical Details
 -----------------
 
-
 Perspective definition
 ~~~~~~~~~~~~~~~~~~~~~~
 
@@ -116,7 +113,6 @@ By projecting all points ``P`` of the scene you get the orthographic view.
 Rotating the View
 =================
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -127,7 +123,6 @@ Rotating the View
 
 Description
 -----------
-
 
 .. figure:: /images/Manual-Part-I-3DView2.5.jpg
    :width: 300px
@@ -146,7 +141,6 @@ The :guilabel:`Camera` view shows the current scene as seen from the camera view
 
 Options
 -------
-
 
 You can select the viewing direction for a 3D viewport with the :guilabel:`View` menu entries,
 or by pressing the hotkeys :kbd:`pad3` for "side", :kbd:`pad1` for "front",
@@ -203,7 +197,6 @@ To change the rotation "style", use the :doc:`User Preferences window <preferenc
 Panning the View
 ================
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -225,7 +218,6 @@ you can hold :kbd:`Shift` :kbd:`Alt` while dragging with :kbd:`lmb`\ .
 
 Zooming the View
 ================
-
 
 .. admonition:: Reference
    :class: refbox
@@ -268,7 +260,6 @@ or the shortcut :kbd:`shift-B` then click and drag rectangle to zoom in.
 Dolly the View
 ==============
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -292,7 +283,6 @@ You can dolly back and fourth by holding down :kbd:`Ctrl-Shift` and dragging
 
 Aligning the View
 =================
-
 
 Align View
 ----------
@@ -338,7 +328,6 @@ Press :kbd:`pad/` to return to :guilabel:`Global View`\ .
 Quad View
 =========
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -370,7 +359,6 @@ you will need to split the 3D window into separate windows.
 View Clipping Border
 ====================
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -381,7 +369,6 @@ View Clipping Border
 
 Description
 -----------
-
 
 .. figure:: /images/3D_Interaction-Navigating-3D_view-Region_Clipping.jpg
    :width: 340px
@@ -409,7 +396,6 @@ To delete this clipping, press :kbd:`alt-B` again.
 Example
 -------
 
-
 The *Region/Volume clipping* image shows an example of using the clipping tool with a cube.
 Start by activating the tool with :kbd:`alt-B` (upper left of the image).
 This will generate a dashed cross-hair cursor.
@@ -426,7 +412,6 @@ all of 3D space will become visible again.
 
 View Navigation
 ===============
-
 
 .. admonition:: Reference
    :class: refbox

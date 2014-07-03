@@ -4,7 +4,6 @@
 Translation, Rotation, Scale
 ============================
 
-
 .. admonition:: Reference
    :class: refbox
 

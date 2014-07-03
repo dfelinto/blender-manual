@@ -2,7 +2,6 @@
 Inverse Kinematics
 ==================
 
-
 IK simplifies the animation process,
 and makes it possible to make more advanced animations with lesser effort.
 
@@ -20,7 +19,6 @@ This effort is effectively avoided by use of IK.
 Automatic IK
 ------------
 
-
 Automatic IK is a tool for quick posing, it can be enabled in the tool shelf in the 3D view,
 when in pose mode. When the Auto IK option is enabled, translating a bone will activate
 inverse kinematic and rotate bones higher up to follow the selected bone. By default,
@@ -36,7 +34,6 @@ but it can be useful for quick posing.
 IK Contraints
 -------------
 
-
 IK is mostly done with bone constraints.
 They work by the same method but offer more choices and settings.
 Please refer to these pages for detail about the settings for the contraints:
@@ -48,7 +45,6 @@ Please refer to these pages for detail about the settings for the contraints:
 
 Armature IK Panel
 -----------------
-
 
 This panel is used to select the IK Solver type for the armature. *Standard* or *iTaSC*\ .
 
@@ -69,7 +65,6 @@ FIXME(Link Type Unsupported: dev;
 
 Bone IK Panel
 -------------
-
 
 This panel is used to control how the *Pose Bones* work in the IK chain.
 
@@ -94,7 +89,6 @@ This panel is used to control how the *Pose Bones* work in the IK chain.
 
 Arm Rig Example
 ---------------
-
 
 This arm uses two bones to overcome the twist problem for the forearm.
 IK locking is used to stop the forearm from bending,

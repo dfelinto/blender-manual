@@ -5,7 +5,6 @@
 Warp Modifier
 =============
 
-
 .. figure:: /images/26-Manual-Modifiers-Warp-example01.jpg
 
    Warp modifier

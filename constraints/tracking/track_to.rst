@@ -2,7 +2,6 @@
 Track To Constraint
 ===================
 
-
 Description
 -----------
 
@@ -26,7 +25,6 @@ This constraint shares a close relationship to the :doc:`Inverse Kinematics cons
 
 Options
 -------
-
 
 .. figure:: /images/25-Manual-Constraints-Tracking-TrackTo.jpg
 

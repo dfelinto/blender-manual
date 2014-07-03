@@ -2,7 +2,6 @@
 To Sphere
 =========
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -13,7 +12,6 @@ To Sphere
 
 Description
 -----------
-
 
 The :guilabel:`To Sphere` transformation will give the selection spherical qualities. The
 *Suzanne with increasing sphericity* image below shows the results of applying the
@@ -29,7 +27,6 @@ The :guilabel:`To Sphere` transformation will give the selection spherical quali
 
 Usage
 ~~~~~
-
 
 .. figure:: /images/3D_interaction-Transformations-Advanced-To_Sphere_toolshelf-f6.jpg
    :width: 150px

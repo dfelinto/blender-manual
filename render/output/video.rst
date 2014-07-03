@@ -25,7 +25,6 @@ depending on the given TV set that your audience watches the video on.
 Dimensions Presets
 ------------------
 
-
 .. figure:: /images/Render-Dimensions-Presets.jpg
 
 
@@ -122,7 +121,6 @@ while appearing bright and dynamic on a computer monitor.
 Rendering to fields
 -------------------
 
-
 .. figure:: /images/Manual-Part-XI-Fields02.jpg
 
    Field Rendering result.
@@ -148,7 +146,6 @@ A noticeable jitter of the edges of moving objects would be present.
 
 Options
 ~~~~~~~
-
 
 .. figure:: /images/Render-to-Fields-2.5+.jpg
 
@@ -255,7 +252,6 @@ but some support the Alpha channel as well. Codecs that support RGBA include:
 Advanced Encoding
 ~~~~~~~~~~~~~~~~~
 
-
 .. figure:: /images/Manual-Render-FFMPEG-Video-2.5+.jpg
 
 
@@ -284,7 +280,6 @@ for Blender to be able to call it and use it to compress the video stream.
 
 Video Formats
 _____________
-
 
 +-------------------------------------------------------------+------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 +Name                                                         |Extensions              |Description                                                                                                                                                                                                                                                                                                +
@@ -319,7 +314,6 @@ _____________
 
 Video Codecs
 ____________
-
 
 +-------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 +Name                                                         |Description                                                                                                                                                                                                                +
@@ -374,7 +368,6 @@ ____________
 
 Options
 _______
-
 
 :guilabel:`Bitrate`
    Set the average `bitrate <http://en.wikipedia.org/wiki/Bit_rate>`__ (quality), which is the count of binary digits per frame. See also: `ffmpeg -b:v <http://ffmpeg.org/ffmpeg.html#Description>`__
@@ -470,7 +463,6 @@ Note that you might not want to render directly to a video format. If a problem 
 
 Home-made Render Farm
 ~~~~~~~~~~~~~~~~~~~~~
-
 
 .. figure:: /images/Homemade-Render-Farm.jpg
 

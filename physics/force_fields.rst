@@ -18,7 +18,6 @@ You may limit the effect on particles to a group of objects (see the :doc:`Parti
 Creating a Force Field
 ----------------------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -107,7 +106,6 @@ Here you can specify the shape of the force field
 Field Types
 ===========
 
-
 Force
 -----
 
@@ -144,7 +142,6 @@ The strength of the force is visualized by the spacing of the circles shown.
 
 Vortex Field
 ------------
-
 
 .. figure:: /images/UM_PART_XIII_KST_PI04.jpg
    :width: 100px
@@ -246,7 +243,6 @@ Remember that only procedural texture are truly 3D.
 Examples
 ~~~~~~~~
 
-
 - A single colored texture 0.5/0.0/0.5 creates a force in the direction of the positive y-axis, e.g. hair is orientated to the y-axis.
 - A blend texture with colorband can be used to created a force "plane". E.g. on the left side 0.5/0.5/0.5, on the right side 1.0/0.5/0.5 you have a force plane perpendicular to XY (i.e. parallel to Z). If you use an object for the coordinates, you can use the object to push particles around.
 - An animated wood texture can be used to create a wave like motion.
@@ -254,7 +250,6 @@ Examples
 
 Curve Guide
 -----------
-
 
 .. figure:: /images/CurveGuideForceField.jpg
 
@@ -372,7 +367,6 @@ Drag is a force that works to resist particle motion by slowing it down.
 
 Links
 -----
-
 
 -
 

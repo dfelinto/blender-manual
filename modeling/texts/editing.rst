@@ -4,10 +4,8 @@
 Text Editing
 ============
 
-
 Text Boxes
 ----------
-
 
 .. admonition:: Reference
    :class: refbox
@@ -82,7 +80,6 @@ Any text in higher frames will be re-flowed downward into lower frames.
 Example: Text Flow
 ~~~~~~~~~~~~~~~~~~
 
-
 .. figure:: /images/2.5_Manual-Part-II-Text-Frame-Working-Ex2.jpg
    :width: 300px
    :figwidth: 300px
@@ -116,7 +113,6 @@ When we add another frame and set its width and height, the text will flow into 
 Example: Multiple columns
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
 .. figure:: /images/2.5_Manual-Part-II-Text-Frame-Working-Ex5.jpg
    :width: 400px
    :figwidth: 400px
@@ -132,7 +128,6 @@ something greater or less than the width of the initial frame; see (\ *Text 5*\ 
 
 Assigning Materials
 -------------------
-
 
 .. admonition:: Reference
    :class: refbox

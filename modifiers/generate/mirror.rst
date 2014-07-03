@@ -2,7 +2,6 @@
 Mirror Modifier
 ===============
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -12,7 +11,6 @@ Mirror Modifier
 
 Description
 -----------
-
 
 .. figure:: /images/25-Manual-Modifiers-Mirror-example-Cube.jpg
    :width: 350px
@@ -33,7 +31,6 @@ plane. And last but not least, it can also mirror vertex groups and UV coordinat
 
 Options
 -------
-
 
 .. figure:: /images/25-Manual-Modifiers-Mirror.jpg
 

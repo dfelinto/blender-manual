@@ -5,7 +5,6 @@
 Output Nodes
 ============
 
-
 These node serves a outputs for node textures
 
 

@@ -2,7 +2,6 @@
 About Free Software and the GPL
 ===============================
 
-
 .. figure:: /images/Gnu-logo.jpg
 
 

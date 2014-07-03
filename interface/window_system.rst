@@ -4,7 +4,6 @@
 The Window System
 =================
 
-
 When you start Blender you should see a screen similar to this
 (the splash screen in the center will change with new versions):
 
@@ -26,7 +25,6 @@ Every window you see can be further broken down into separate areas (as describe
 
 The default scene
 -----------------
-
 
 The default scene is separated into five windows and is loaded each time you start Blender or
 a new file. The five windows are:
@@ -52,7 +50,6 @@ As an introduction we will cover a few of the basic elements.
 
 The Info Window (main menu)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 .. figure:: /images/Interface_Window-System_Info-window-shaded.jpg
    :width: 640px
@@ -84,7 +81,6 @@ The Info Window is found at the top of the Default Scene and has the following c
 
 3D Window View
 ~~~~~~~~~~~~~~
-
 
 .. figure:: /images/Icon-library_3D-Window_3D-cursor.jpg
 
@@ -119,7 +115,6 @@ The Info Window is found at the top of the Default Scene and has the following c
 
 3D Window Header
 ~~~~~~~~~~~~~~~~
-
 
 .. figure:: /images/Icon-library_3D-Window_header.jpg
    :width: 640px
@@ -161,7 +156,6 @@ Read more about :doc:`Blender headers » <interface/window_system/headers>`
 Buttons (Properties) Window Header
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
 .. figure:: /images/Icon-library_Properties_header.jpg
 
    Properties Window Header
@@ -180,7 +174,6 @@ besides *Render*\ ) and may be rearranged by dragging the top right corner.
 Outliner Window
 ~~~~~~~~~~~~~~~
 
-
 .. figure:: /images/Icon-library_Outliner-Window_header.jpg
 
    Outliner Window Header
@@ -193,7 +186,6 @@ You can choose what types of elements and how they are displayed in the header.
 
 Timeline Window
 ~~~~~~~~~~~~~~~
-
 
 .. figure:: /images/Icon-library_Timeline-Window_header.jpg
    :width: 640px

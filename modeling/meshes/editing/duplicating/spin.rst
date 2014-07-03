@@ -5,7 +5,6 @@
 Spin
 ====
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -39,7 +38,6 @@ Here are its settings:
 
 Example
 =======
-
 
 .. figure:: /images/Spin1.jpg
    :width: 300px
@@ -80,7 +78,6 @@ the spin will happen immediately. (\ *Spun profile*\ ) shows the result of a suc
 Angle
 -----
 
-
 .. figure:: /images/Spin3.jpg
    :width: 300px
    :figwidth: 300px
@@ -98,7 +95,6 @@ Angle
 Dupli
 -----
 
-
 .. figure:: /images/Spin6.jpg
    :width: 300px
    :figwidth: 300px
@@ -115,7 +111,6 @@ Dupli
 
 Merge Duplicates
 ----------------
-
 
 .. figure:: /images/Spin8.jpg
    :width: 300px

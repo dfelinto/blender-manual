@@ -8,7 +8,6 @@
 Sun: Sky & Atmosphere
 =====================
 
-
 .. figure:: /images/25-Manual-Lighting-Lamps-Sun-SkyAtmoPanel.jpg
    :width: 304px
    :figwidth: 304px
@@ -197,7 +196,6 @@ And now, the effects of various settings (examples created with `this 2.4 .blend
 
 Sky
 ---
-
 
 +--------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+
 +.. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Sky-HorBright0.0.jpg      |.. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Sky-HorBright0.85.jpg+

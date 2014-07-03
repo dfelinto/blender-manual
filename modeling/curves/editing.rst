@@ -14,10 +14,8 @@ selecting and advanced editing are covered in the following pages:
 Curve Display
 -------------
 
-
 Display Options
 ~~~~~~~~~~~~~~~
-
 
 .. figure:: /images/Editing_Curves_curve-display-panel.jpg
 
@@ -36,7 +34,6 @@ When in Edit mode, the Properties Shelf (\ :kbd:`N`\ ) contains options in the
 
 Hiding Elements
 ~~~~~~~~~~~~~~~
-
 
 When in :guilabel:`Edit` mode, you can hide and reveal elements from the display.
 This can be useful in complex models with many elements on the Screen.
@@ -57,7 +54,6 @@ This can be useful in complex models with many elements on the Screen.
 Basic Curve Editing (translation, rotation, scale)
 --------------------------------------------------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -72,7 +68,6 @@ Like other elements in Blender, Curve control points can be grabbed/moved (\ :kb
 Snapping
 --------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -86,7 +81,6 @@ Snapping
 Deforming Tools
 ---------------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -99,7 +93,6 @@ The :guilabel:`To Sphere`\ , :guilabel:`Shear`\ , :guilabel:`Wrap` and :guilabel
 
 Smoothing
 ~~~~~~~~~
-
 
 .. admonition:: Reference
    :class: refbox
@@ -115,7 +108,6 @@ End points are also constrained when smoothing.
 
 Mirror
 ------
-
 
 .. admonition:: Reference
    :class: refbox
@@ -134,7 +126,6 @@ The :guilabel:`Mirror` tool is also available, behaving exactly as with :doc:`me
 Set Bézier Handle Type
 ----------------------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -149,7 +140,6 @@ Handle types are a property of :doc:`Bézier curves. <modeling/curves>` and can 
 
 Extending Curves
 ----------------
-
 
 .. admonition:: Reference
    :class: refbox
@@ -179,7 +169,6 @@ FIXME(TODO: Internal Link;
 Subdivision
 -----------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -198,7 +187,6 @@ Then press :kbd:`F6` to bring up the :guilabel:`Number of Cuts` menu.
 Duplication
 -----------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -214,7 +202,6 @@ The copy is selected and placed in :guilabel:`Grab` mode, so you can move it to 
 
 Joining Curve Segments
 ----------------------
-
 
 .. admonition:: Reference
    :class: refbox
@@ -244,7 +231,6 @@ curves of the same type (i.e. Bézier with Bézier, NURBS with NURBS)
 Separating Curves
 -----------------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -261,7 +247,6 @@ pressing :kbd:`P` will create a new Curve object with no control points.
 
 Deleting Elements
 -----------------
-
 
 .. admonition:: Reference
    :class: refbox
@@ -297,7 +282,6 @@ The :guilabel:`Erase` pop-up menu of curves offers you three options:
 Opening and Closing a Curve
 ---------------------------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -330,7 +314,6 @@ that when a 2D curve is closed, it creates a renderable flat face.
 Switch Direction
 ----------------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -350,10 +333,8 @@ This is mainly useful when using a curve as path, or using the bevel and taper o
 Converting Tools
 ----------------
 
-
 Converting Curve Type
 ~~~~~~~~~~~~~~~~~~~~~
-
 
 .. admonition:: Reference
    :class: refbox
@@ -383,7 +364,6 @@ each group of three NURBS control points become a unique Bézier one
 Convert Curve to Mesh
 ~~~~~~~~~~~~~~~~~~~~~
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -402,7 +382,6 @@ Note that it also keeps the faces and volumes created by closed and extruded cur
 Convert Mesh to Curve
 ~~~~~~~~~~~~~~~~~~~~~
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -418,7 +397,6 @@ but can be converted to have smooth segments as described above.
 
 Curve Parenting
 ---------------
-
 
 .. admonition:: Reference
    :class: refbox
@@ -436,7 +414,6 @@ then :kbd:`Ctrl-rmb` another object and use :kbd:`Ctrl-P` to make a vertex paren
 Hooks
 -----
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -450,7 +427,6 @@ Hooks
 
 Set Goal Weight
 ---------------
-
 
 .. admonition:: Reference
    :class: refbox

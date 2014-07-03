@@ -2,7 +2,6 @@
 Individual Origins as Pivot
 ===========================
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -15,7 +14,6 @@ Individual Origins as Pivot
 
 In Object mode
 --------------
-
 
 .. figure:: /images/3D-Interaction_Transform-Control_Pivot-Point_Individual-Origins-rotation-around-center.jpg
    :width: 300px

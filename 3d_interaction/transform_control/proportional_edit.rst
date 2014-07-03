@@ -2,7 +2,6 @@
 Proportional Edit
 =================
 
-
 Proportional Edit is a way of transforming selected elements (such as vertices)
 while having that transformation affect other nearby elements. For example, having the
 movement of a single vertex cause the movement of unselected vertices within a given range.
@@ -20,7 +19,6 @@ it is very useful when you need to smoothly deform the surface of a dense mesh.
 
 Object mode
 -----------
-
 
 .. admonition:: Reference
    :class: refbox
@@ -47,7 +45,6 @@ the other two cubes follow the movement.
 
 Edit mode
 ---------
-
 
 .. admonition:: Reference
    :class: refbox
@@ -88,7 +85,6 @@ the points surrounding your selection will adjust their positions accordingly.
 
 Options
 ~~~~~~~
-
 
 .. figure:: /images/3D-interaction_Transform-Control_Proportional-Edit-proportional-edit-tool.jpg
    :width: 200px

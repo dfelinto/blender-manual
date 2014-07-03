@@ -25,7 +25,6 @@ once activated you can use the ruler to measure lengths and angles in the scene.
 Usage
 -----
 
-
 .. figure:: /images/View3d_ruler_basic.jpg
 
 
@@ -45,7 +44,6 @@ Here are common steps for using the ruler.
 
 Shortcuts
 ---------
-
 
 - :kbd:`ctrl-lmb` Adds new ruler.
 - :kbd:`lmb` Drag end-points to place them, Hold Ctrl to snap, Hold Shift to measure thickness.

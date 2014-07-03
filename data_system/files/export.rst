@@ -73,5 +73,4 @@ Wavefront (.obj)
 X3D Extensible 3D (.x3d)
 ------------------------
 
-
 ..    Comment: <!--[[File:File_operations_1.jpg|thumb|500px|Click on the ''Export'' from the drop down menu to see the export options]]--> .

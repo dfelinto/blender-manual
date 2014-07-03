@@ -5,14 +5,12 @@
 Composite Distort Nodes
 =======================
 
-
 These nodes distort the image in some fashion, operating either uniformly on the image,
 or by using a mask to vary the effect over the image.
 
 
 Translate Node
 --------------
-
 
 .. figure:: /images/Tutorials-NTR-ComTranslate.jpg
 
@@ -183,7 +181,6 @@ I noticed cool camera shakes while watching the Halo 3 previews.*
 Rotate Node
 -----------
 
-
 .. figure:: /images/Manual-Compositing_Nodes-Rotate.jpg
 
    Rotate node
@@ -195,7 +192,6 @@ Positive values rotate clockwise and negative ones counterclockwise.
 
 Scale Node
 ----------
-
 
 .. figure:: /images/Manual-Compositing_Nodes-Scale.jpg
 
@@ -220,7 +216,6 @@ you must scale the second to match the resolution of the first.
 
 Flip Node
 ~~~~~~~~~
-
 
 .. figure:: /images/Manual-Compositing_Nodes-Flip.jpg
 
@@ -270,7 +265,6 @@ such as a normal pass, which will displace the pixels based on the normal direct
 Example
 ~~~~~~~
 
-
 .. figure:: /images/Manual-Compositing-Nodes-Displace_example.jpg
    :width: 300px
    :figwidth: 300px
@@ -300,7 +294,6 @@ made by the wizard programmer himself, by following this
 Map UV Node
 -----------
 
-
 .. figure:: /images/Manual-Compositing-Node-MapUV.jpg
 
 
@@ -328,7 +321,6 @@ so keep those UV texture outlines around even after all shooting is done.
 
 Examples
 ~~~~~~~~
-
 
 .. figure:: /images/Manual-Compositing-Node-MapUV_ex.jpg
    :width: 300px

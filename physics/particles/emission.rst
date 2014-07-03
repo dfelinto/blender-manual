@@ -8,7 +8,6 @@ The :guilabel:`Emitter` system works just like its name says: it emits/produces 
 Options
 =======
 
-
 .. figure:: /images/Blender3D_ParticleSystem_EmissionSettings-2.5.jpg
 
    Image 2a: Settings for particle Emission.

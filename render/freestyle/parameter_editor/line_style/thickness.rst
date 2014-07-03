@@ -2,7 +2,6 @@
 Thickness
 =========
 
-
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Thickness.jpg
    :width: 300px
    :figwidth: 300px
@@ -44,7 +43,6 @@ There are five thickness modifiers available, which can be mixed with the base t
 Along Stroke
 ~~~~~~~~~~~~
 
-
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Thickness_Along_Stroke.jpg
    :width: 300px
    :figwidth: 300px
@@ -62,7 +60,6 @@ it applies the selected progression along each stroke.
 
 Calligraphy
 ~~~~~~~~~~~
-
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Thickness_Calligraphy.jpg
    :width: 300px
@@ -92,7 +89,6 @@ It generates different thickness based on the orientation of the stroke.
 Distance from Camera
 ~~~~~~~~~~~~~~~~~~~~
 
-
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Thickness_Distance_From_Camera.jpg
    :width: 300px
    :figwidth: 300px
@@ -116,7 +112,6 @@ using the distance to the active camera as the parameter.
 
 Distance from Object
 ~~~~~~~~~~~~~~~~~~~~
-
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Thickness_Distance_From_Object.jpg
    :width: 300px
@@ -144,7 +139,6 @@ using the distance to a given object as parameter.
 
 Material
 ~~~~~~~~
-
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Thickness_Material.jpg
    :width: 300px

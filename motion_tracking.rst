@@ -4,7 +4,6 @@
 Motion Tracking
 ===============
 
-
 Introduction
 ------------
 
@@ -17,7 +16,6 @@ as validated by "Tears of Steel."
 Getting started
 ---------------
 
-
 Motion tracking is available in current SVN Trunk and is included with Blender 2.61 release.
 It's enabled by default for all platforms and can be used "out-of-box".
 
@@ -26,7 +24,6 @@ Here's brief descriptions of motion tracking tools currently available in Blende
 
 Supervised 2D tracking
 ~~~~~~~~~~~~~~~~~~~~~~
-
 
 There's no common algorithm which can be used for all kinds of footage,
 feature points and their motions. Such algorithms can be constructed,
@@ -42,7 +39,6 @@ you can just play with settings and find one which works for you.
 
 Manual lens calibration using grease pencil and/or grid
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 All cameras record distorted video.
 Nothing can be done about this because of the manner in which optical lenses work.
@@ -64,7 +60,6 @@ OpenCV is using the same distortion model, so it shouldn't be a problem.
 Camera motion solving
 ~~~~~~~~~~~~~~~~~~~~~
 
-
 Despite the fact that there's no difference in solving camera motion and object motion from a
 mathematical point of view, only camera solving is currently supported.
 And it still has some limitations,
@@ -75,7 +70,6 @@ These limitations are planned to be solved in the future.
 
 Basic tools for scene orientation and stabilization
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 After solve,
 you need to orient the real scene in the 3D scene for more convenient compositing.
@@ -90,14 +84,12 @@ which can compensate for camera jumps and tilt.
 Basic nodes for compositing scene into real footage
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
 Some new nodes were added to the Compositor to composite scene into footage in easier way.
 So there are nodes for 2D stabilization, distortion and undistortion which are easy to use.
 
 
 Not implemented tools
 ~~~~~~~~~~~~~~~~~~~~~
-
 
 Some tools aren't available in Blender yet, but they are in our TODO list.
 So there's currently no support for such things as rolling shutter filtering,
@@ -108,10 +100,8 @@ But you can try to hack this stuff using currently implemented things.
 Manual
 ------
 
-
 Movie Clip Editor
 ~~~~~~~~~~~~~~~~~
-
 
 Almost all motion tracking tools are concentrated in the Movie Clip Editor.
 Currently it doesn't have any tools which aren't related to motion tracking,
@@ -195,10 +185,8 @@ re-track existing tracks or place new tracks to make solving more accurate.
 Tools available in tracking mode
 ________________________________
 
-
 Marker panel
 ++++++++++++
-
 
 - The :strong:`Add Marker and Move` operator places a new marker at the position of the mouse (which is under the button in this case, not ideal but it's just how things work) and then it can be moved to the needed location. When it's moved to the desired position,
 
@@ -221,7 +209,6 @@ FIXME(Template Unsupported: Shortcut/Mouse;
 Track panel
 +++++++++++
 
-
 - The first row of buttons is used to perform tracking of selected tracks (i.e. following the selected feature from frame to frame). Tracking can happen (in order of buttons):
   - Backward one frame
   - Backward along the sequence
@@ -239,7 +226,6 @@ Track panel
 
 Solve panel
 +++++++++++
-
 
 :strong:`Camera Motion` operator solves the motion of camera using all tracks placed on the footage and two keyframes specified on this panel. There are some requirements:
 
@@ -265,7 +251,6 @@ completely incorrectly initially.
 Cleanup Panel
 +++++++++++++
 
-
 This panel contains a single operator and its settings. This operator cleans up bad tracks:
 tracks which aren't tracked long enough or which failed to reconstruct accurately.
 Threshold values can be specified from sliders below the button. Also,
@@ -280,7 +265,6 @@ several actions can be performed for bad tracks:
 Clip Panel
 ++++++++++
 
-
 This panel currently contains the single operator :kbd:`Set as background` which sets the
 clip currently being edited as the camera background for all visible 3D viewports.
 If there's no visible 3D viewports or the clip editor is open in full screen,
@@ -290,10 +274,8 @@ nothing will happen.
 Properties available in tracking mode
 _____________________________________
 
-
 Grease Pencil Panel
 +++++++++++++++++++
-
 
 It's a standard grease pencil panel where new grease pencil layers and frames can be
 controlled. There's one difference in the behavior of the grease pencil from other areas -
@@ -305,7 +287,6 @@ This makes the stroke easy to notice on all kinds of movies.
 
 Objects Panel
 +++++++++++++
-
 
 .. figure:: /images/Manual_movie_tracking_clip_editor_objects_panel.jpg
    :width: 130px
@@ -336,7 +317,6 @@ refining of camera intrinsics happens when solving camera motion only.
 
 Track Panel
 +++++++++++
-
 
 .. figure:: /images/Manual_movie_tracking_clip_editor_track_panel.jpg
    :width: 130px
@@ -389,7 +369,6 @@ tracks so a whole group of tracks can be selected by color using the Select Grou
 Camera Data Panel
 +++++++++++++++++
 
-
 This panel contains all settings of the camera used for filming the movie which is currently
 being edited in the clip editor.
 
@@ -412,7 +391,6 @@ camera presets are used.
 
 Display Panel
 +++++++++++++
-
 
 This panel contains all settings which control things displayed in the clip editor.
 
@@ -438,10 +416,8 @@ This panel contains all settings which control things displayed in the clip edit
 Tracking Settings Panel
 +++++++++++++++++++++++
 
-
 Common options
 **************
-
 
 This panel contains all settings for the 2D tracking algorithms.
 Depending on which algorithm is used, different settings are displayed,
@@ -479,7 +455,6 @@ and tracking between keyframed image and next image is used.
 KLT tracker options
 *******************
 
-
 The KLT tracker is the algorithm used by default.
 It allows tracking most kinds of feature points and their motion.
 It uses pyramid tracking which works in the following way. The algorithm tracks an image
@@ -505,7 +480,6 @@ texture around that feature point is moving in another direction.
 SAD tracker options
 *******************
 
-
 On each step, the SAD tracker reviews the whole search area and finds the pattern on the
 second image which is most like the pattern which is getting tracking.
 This works pretty quickly, but can fail in several cases. For example, when there's another
@@ -520,7 +494,6 @@ There's one limitation: currently: it works for features of size 16x16 pixels on
 Marker Panel
 ++++++++++++
 
-
 This panel contains numerical settings for marker position,
 pattern and search area dimensions, and offset of anchor point from pattern center.
 All sliders are self-explanatory.
@@ -528,7 +501,6 @@ All sliders are self-explanatory.
 
 Proxy / Timecode Panel
 ++++++++++++++++++++++
-
 
 .. figure:: /images/Manual_movie_tracking_clip_editor_proxy_timecode_panel.jpg
    :width: 130px
@@ -564,7 +536,6 @@ but this location can be set by hand using the :strong:`Proxy Custom Directory` 
 
 Tools available in reconstruction mode
 ______________________________________
-
 
 .. figure:: /images/Manual_movie_tracking_clip_editor_2d_stabilization_panel.jpg
    :width: 130px

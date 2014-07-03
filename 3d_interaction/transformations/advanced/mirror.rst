@@ -2,7 +2,6 @@
 Mirror
 ======
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -13,7 +12,6 @@ Mirror
 
 Description
 -----------
-
 
 .. figure:: /images/3D-interaction_Transformations_Advanced_Mirror_mirror-example.jpg
 
@@ -34,7 +32,6 @@ Note that mirrored duplicates can also be created with a :guilabel:`Mirror modif
 
 Usage
 ~~~~~
-
 
 To mirror a selection along a particular global axis press:
 

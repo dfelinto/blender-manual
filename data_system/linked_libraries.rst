@@ -15,7 +15,6 @@ This saves you from manually re-creating all the different settings.
 General Procedure
 -----------------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -171,7 +170,6 @@ FIXME(TODO: Internal Link;
 
 Reusing Material/Texture Settings
 ---------------------------------
-
 
 .. figure:: /images/Manual-Append-Materials.jpg
    :width: 150px

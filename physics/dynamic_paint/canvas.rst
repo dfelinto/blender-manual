@@ -2,10 +2,8 @@
 Dynamic Paint Canvas
 ====================
 
-
 Main Panel
 ----------
-
 
 .. figure:: /images/GSoC-DynamicPaint-Guide-CanvasMain.jpg
 
@@ -43,7 +41,6 @@ Sub-steps are extra samples between frames, usually required when there is a ver
 Advanced Panel
 --------------
 
-
 .. figure:: /images/GSoC-DynamicPaint-Guide-CanvasAdvanced.jpg
 
    Canvas advanced panel
@@ -62,7 +59,6 @@ Each surface has a "type" that defines what surface is used for. Available types
 Common options
 ~~~~~~~~~~~~~~
 
-
 For each surface type there are special settings to adjust.
 Most types have the settings *Dissolve* and *Brush*\ :
 
@@ -75,7 +71,6 @@ Most types have the settings *Dissolve* and *Brush*\ :
 
 Paint
 ~~~~~
-
 
 .. figure:: /images/DynamicPaint-Guide-PaintSurface.jpg
    :width: 360px
@@ -93,7 +88,6 @@ Some "paint effects" affect wet paint only.
 
 Displace
 ~~~~~~~~
-
 
 .. figure:: /images/DynamicPaint-Guide-DisplaceSurface.jpg
    :width: 360px
@@ -113,7 +107,6 @@ This type of surface outputs intersection depth from brush objects.
 
 Waves
 ~~~~~
-
 
 .. figure:: /images/DynamicPaint-Guide-WavesSurface.jpg
    :width: 360px
@@ -151,7 +144,6 @@ You can use following settings to adjust the motion:
 Weight
 ~~~~~~
 
-
 .. figure:: /images/DynamicPaint-Guide-WeightSurface.jpg
    :width: 360px
    :figwidth: 360px
@@ -172,7 +164,6 @@ It outputs vertex weight groups that can be used by other Blender modifiers and 
 Output Panel
 ------------
 
-
 .. figure:: /images/GSoC-DynamicPaint-Guide-CanvasOutput.jpg
 
    Canvas output panel
@@ -191,7 +182,6 @@ you can define used "UV Layer" and output file saving directory, filenames and i
 
 Effects Panel
 -------------
-
 
 .. figure:: /images/GSoC-DynamicPaint-Guide-CanvasEffects.jpg
 
@@ -217,7 +207,6 @@ movement becomes slower until it stops.
 
 Cache Panel
 -----------
-
 
 .. figure:: /images/GSoC-DynamicPaint-Guide-CanvasCache.jpg
 

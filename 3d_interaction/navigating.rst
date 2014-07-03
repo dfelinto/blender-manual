@@ -36,7 +36,6 @@ The header shows you a menu and the current mode, as explained below.
 View Menu
 ---------
 
-
 .. figure:: /images/2.5_Manual-3D-View-Menu.jpg
    :width: 300px
    :figwidth: 300px
@@ -142,7 +141,6 @@ it will change to the appropriate menu with editing tools.
 Mode List
 ---------
 
-
 .. figure:: /images/2.5_Manual-3D-Mode.jpg
 
    The Mode drop-down list.
@@ -181,7 +179,6 @@ Allows you to change the way 3D objects are displayed in the viewport.
 
 Pivot Point Selector
 --------------------
-
 
 .. figure:: /images/Manual-2.5-PivotSelection.jpg
 

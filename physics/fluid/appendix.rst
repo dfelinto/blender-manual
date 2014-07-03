@@ -4,10 +4,8 @@
 Fluid Appendix
 ==============
 
-
 Limitations & Workarounds
 -------------------------
-
 
 - One domain per blender file (as of Version 2.42), but you can have multiple fluid objects.
 
@@ -53,7 +51,6 @@ Limitations & Workarounds
 See also
 --------
 
-
 ..    TODO/Review: {{WikiTask/Todo|check these links, make sure they are compatible with Blender 2.6}} .
 
 
@@ -66,7 +63,6 @@ See also
 
 External links
 --------------
-
 
 ..    TODO/Review: {{WikiTask/Todo|check these links, make sure they are compatible with Blender 2.6}} .
 

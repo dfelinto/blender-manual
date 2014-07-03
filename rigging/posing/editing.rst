@@ -5,7 +5,6 @@
 Editing Poses
 =============
 
-
 .. figure:: /images/Doc26-rigging-poseTools.jpg
    :width: 100px
    :figwidth: 100px
@@ -47,7 +46,6 @@ Selection in :guilabel:`Pose` mode is very similar to the one in :doc:`Edit mode
 
 Basic Posing
 ------------
-
 
 As previously noted,
 bones' transformations are performed based on the *rest position* of the armature,
@@ -143,7 +141,6 @@ There are also in :guilabel:`Pose` mode a bunch of armature-specific editing opt
 
 Copy/Paste Pose
 ---------------
-
 
 .. admonition:: Reference
    :class: refbox

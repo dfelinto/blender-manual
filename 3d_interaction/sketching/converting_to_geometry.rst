@@ -35,7 +35,6 @@ Pencil` menu popped-up by the :guilabel:`Convert` button in the grease pencil pr
 General Options
 ---------------
 
-
 .. figure:: /images/ManGreasePencilConvertToCurvePanel.jpg
 
    The Convert to Curve options.

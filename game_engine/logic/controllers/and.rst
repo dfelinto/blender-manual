@@ -2,7 +2,6 @@
 AND Controller
 ==============
 
-
 This controller gives a positive (TRUE) output when
 All its inputs are TRUE, and
 The object is in the designated State.

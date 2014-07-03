@@ -2,7 +2,6 @@
 Materials
 =========
 
-
 Materials define the appearance of meshes, curves and other objects.
 They consist of three shaders, defining the appearance of the surface of the mesh,
 the volume inside the mesh, and displacement of the surface of the mesh.
@@ -14,7 +13,6 @@ the volume inside the mesh, and displacement of the surface of the mesh.
 [[/Surface|'''Surface Shader''']]
 ---------------------------------
 
-
 The surface shader defines the light interaction at the surface of the mesh. One or more
 :abbr:`BSDF (Bidirectional scattering distribution function)`\ s specify if incoming light is
 reflected back, refracted into the mesh, or absorbed.
@@ -25,7 +23,6 @@ allowing any surface to become a light source.
 
 [[/Volume|'''Volume Shader''']]
 -------------------------------
-
 
 When the surface shader does not reflect or absorb light, it enters into the volume.
 If no volume shader is specified, it will pass straight through to the other side of the mesh.
@@ -43,7 +40,6 @@ combined with e.g. a glass or glossy shader at the surface.
 [[/Displacement|'''Displacement''']]
 ------------------------------------
 
-
 The shape of the surface and the volume inside it may be altered by displacement shaders.
 This way, textures can then be used to make the mesh surface more detailed.
 
@@ -54,7 +50,6 @@ which is known as bump mapping, or a combination of real and virtual displacemen
 
 Energy Conservation
 -------------------
-
 
 The material system is built with physics-based rendering in mind,
 cleanly separating how a material looks and which rendering algorithm is used to render it.

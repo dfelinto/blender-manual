@@ -2,7 +2,6 @@
 Window Headers
 ==============
 
-
 All windows have a header (the strip with a lighter gray background containing icon buttons).
 We will also refer to the header as the window *ToolBar*\ .  The header may be at the top
 (as with the :guilabel:`Properties Window`\ ) or the bottom (as with the :guilabel:`3D Window`\ )
@@ -20,7 +19,6 @@ All hotkeys you press will now affect the contents of this window.
 Hiding a header
 ---------------
 
-
 .. figure:: /images/Manual-Interface-Window_System-Headers-Hide25.jpg
 
 
@@ -31,7 +29,6 @@ hold and drag with :kbd:`LMB` from the window over the header to hide the latter
 
 Showing a header
 ----------------
-
 
 .. figure:: /images/Manual-Interface-Window_System-Headers-Show25.jpg
 
@@ -56,7 +53,6 @@ thus giving the one to get the header back good camouflage.
 Header position
 ---------------
 
-
 To move a header from top to bottom or the other way round,
 simply :kbd:`RMB` on it and select the appropriate item from the popup menu.
 If the header is at the top, the item text will read "Flip to Bottom",
@@ -72,13 +68,11 @@ and if the header is at the bottom the item text will read "Flip to Top".
 Window type button
 ------------------
 
-
 :kbd:`lmb` clicking on the first icon at the left end of a header allows selection of one of the 16 different window types. Every window frame in Blender may contain any type of window. So if you want 3D views everywhere, just go ahead and change them all.
 
 
 Menus and buttons
 -----------------
-
 
 Most Window Headers, located immediately next to this first "Window Type" Menu button,
 exhibit a set of menus which can be hidden - again with a little minus sign.

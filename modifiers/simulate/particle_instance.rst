@@ -5,7 +5,6 @@
 Particle Instance Modifier
 ==========================
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -39,7 +38,6 @@ and the :guilabel:`ParticleInstance` modifier:
 
 Options
 -------
-
 
 .. figure:: /images/Doc26-particleInstanceModifier.jpg
    :width: 250px
@@ -105,7 +103,6 @@ Display
 
 Using Paths
 ~~~~~~~~~~~
-
 
 :guilabel:`Create Along Paths`
    This option tries to make the underlying mesh object of the :guilabel:`Particle Instance` modifier deform its mesh shape in such a way as to try and match the path traveled by the particles/hair strands of the system associated with it.
@@ -201,7 +198,6 @@ Using Paths
 
 See Also
 --------
-
 
 - :doc:`Particles <physics/particles>`
 

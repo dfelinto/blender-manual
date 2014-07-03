@@ -2,7 +2,6 @@
 Displacement Maps
 =================
 
-
 Description
 ~~~~~~~~~~~
 

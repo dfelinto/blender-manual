@@ -39,7 +39,6 @@ FIXME(Template Unsupported: Doc:2.6/Reference/Nodes/Concepts;
 Accessing and Activating Nodes
 ------------------------------
 
-
 Access the :doc:`Node Editor <materials/nodes/editor>` and enable :guilabel:`Composite Nodes` by clicking on the *Image* icon.
 
 
@@ -75,7 +74,6 @@ You now have your first noodle, a RenderLayer input node threaded to a Composite
 
 Examples
 --------
-
 
 You can do just about anything with images using nodes.
 

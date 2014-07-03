@@ -2,7 +2,6 @@
 Color Ramps
 ===========
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -35,7 +34,6 @@ Blender materials.
 
 Options
 ~~~~~~~
-
 
 .. figure:: /images/Manual-2.5-Material-RampsPanel.jpg
 
@@ -100,7 +98,6 @@ Color and alpha values for each marker can be set by clicking the
 
 Colorbands
 ----------
-
 
 .. admonition:: Reference
    :class: refbox

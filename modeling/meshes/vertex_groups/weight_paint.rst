@@ -2,7 +2,6 @@
 Weight Paint in a nutshell
 ++++++++++++++++++++++++++
 
-
 .. figure:: /images/26-Manual-Modeling-Meshes-weight-paint-example.jpg
 
    Weight Painted Vertex Group
@@ -75,7 +74,6 @@ Thus you can see the referenced areas (drawn in cold/hot colors) and the unrefer
 Brushes
 =======
 
-
 .. figure:: /images/26-Manual-Modeling-Meshes-Weight-Paint-Brush.jpg
 
    The Brush panel in the Tool Shelf
@@ -127,7 +125,6 @@ groups:
 The Brush stroke definition
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
 .. figure:: /images/26-Manual-Modeling-Meshes-weight-paint-stroke.jpg
    :width: 235px
    :figwidth: 235px
@@ -158,7 +155,6 @@ Factor
 The brush Falloff curve
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-
 .. figure:: /images/26-Manual-Modeling-Meshes-weight-paint-curve.jpg
    :width: 235px
    :figwidth: 235px
@@ -172,7 +168,6 @@ extent. The usage should be obvious and intuitive.
 
 The brush appearance
 ~~~~~~~~~~~~~~~~~~~~
-
 
 .. figure:: /images/26-Manual-Modeling-Meshes-weight-paint-appearance.jpg
    :width: 235px
@@ -205,7 +200,6 @@ Blender provides several Brush presets:
 
 Customizing brush color space
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 .. figure:: /images/26-Manual-Modeling-Meshes-weight-paint-custom-colorband.jpg
 
@@ -267,7 +261,6 @@ The following standard selection operations are supported:
 Vertex Selection Masking
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-
 .. figure:: /images/26-Manual-Modeling-Meshes-weight-paint-vertex-select.jpg
 
    Vertex Selection masking
@@ -281,7 +274,6 @@ Note: This option can also be toggled with the :kbd:`v` key:
 
 Face Selection Masking
 ~~~~~~~~~~~~~~~~~~~~~~
-
 
 .. figure:: /images/26-Manual-Modeling-Meshes-weight-paint-face-select.jpg
 
@@ -342,7 +334,6 @@ weight gradient and of course brush strokes.
 Weight Paint Options
 ====================
 
-
 .. figure:: /images/26-Manual-Modeling-Meshes-weight-paint-options.jpg
 
    Weight Paint Options
@@ -382,7 +373,6 @@ be shared across different brushes, as opposed to per-brush.
 
 Weight Paint Tools
 ==================
-
 
 .. figure:: /images/26-Manual-Modeling-Meshes-weight-paint-tools.jpg
 
@@ -434,7 +424,6 @@ Then the mirrored groups with the mirrored weights are automatically created.
 
 Weight Painting for Particles
 =============================
-
 
 .. figure:: /images/Manual-WeightPaint-particles.jpg
 

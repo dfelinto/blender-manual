@@ -14,7 +14,6 @@ transparency, or distance.
 RGB Curves Node
 ---------------
 
-
 .. figure:: /images/Tutorials-NTR-ComRGBCurves.jpg
 
    RGB Curves node
@@ -47,7 +46,6 @@ Here are some common curves you can use to achieve desired effects:
 Options
 ~~~~~~~
 
-
 Fac:
    How much the node should factor in its settings and affect the output.
 Black Level
@@ -72,10 +70,8 @@ This is equivalent to setting linear curves for R, G and B.
 Examples
 ~~~~~~~~
 
-
 Color correction using Curves
 _____________________________
-
 
 .. figure:: /images/Manual-Compo-Color-RGB.jpg
    :width: 320px
@@ -94,7 +90,6 @@ read on for examples of the Darken and Contrast Enhancement curves.
 
 Color correction using Black/White Levels
 _________________________________________
-
 
 .. figure:: /images/Manual-Nodes-Curves-example-colorcorrection-levels.jpg
    :width: 320px
@@ -122,7 +117,6 @@ setting Black and White Levels.
 Effects
 _______
 
-
 .. figure:: /images/Manual-Nodes-RGBCurve-Ex.jpg
    :width: 320px
    :figwidth: 320px
@@ -145,7 +139,6 @@ predict, but can be fun to play with.
 
 Mix Node
 --------
-
 
 .. figure:: /images/Manual-Node-Mix.jpg
 
@@ -211,7 +204,6 @@ Fac
 Examples
 ~~~~~~~~
 
-
 Below are samples of common mix modes and uses, mixing a color or checker with a mask.
 
 
@@ -237,7 +229,6 @@ FIXME(TODO: Internal Link;
 
 Contrast Enhancement using Mix
 ______________________________
-
 
 Here is a small map showing the effects of two other common uses for the RGB Curve:
 **Darken** and **Contrast Enhancement**\ .
@@ -268,7 +259,6 @@ And NOBODY wants a cranky monkey on their hands.
 
 Using Mix to Watermark images
 _____________________________
-
 
 In the old days, a pattern was pressed into the paper mush as it dried,
 creating a mark that identified who made the paper and where it came from.
@@ -314,7 +304,6 @@ using other mix settings and fancier rigs. Feel free to experiment!
 Decoding an Image for your Watermark
 ____________________________________
 
-
 When you see an image that you think might be yours,
 use the node map below to compare it to your stock image (pre-watermarked original).
 In this map, the Mix node is set to Difference,
@@ -338,7 +327,6 @@ In the example above, the mark was clearly visible all the way up to JPEG compre
 Using Dodge and Burn (History Lesson)
 _____________________________________
 
-
 Use the dodge and burn mix methods in combination with a mask to affect only certain areas of
 the image. In the old darkroom days, when, yes,
 I actually spent hours in a small stinky room bathed in soft red light,
@@ -357,7 +345,6 @@ it was very relaxing. I kinda miss those dayz.
 
 Hue Saturation Node
 -------------------
-
 
 .. figure:: /images/Manual-Node-HSV.jpg
 
@@ -385,7 +372,6 @@ and applies a saturation of color effect of a hue to the image:
 Hue/Saturation tips
 ~~~~~~~~~~~~~~~~~~~
 
-
 Some things to keep in mind that might help you use this node better:
 Hues are vice versa.
    A blue image, with a Hue setting at either end of the spectrum (0 or 1), is output as yellow (recall that white, minus blue, equals yellow). A yellow image, with a Hue setting at 0 or 1, is blue.
@@ -406,7 +392,6 @@ Changing the effect over time.
 HSV Example
 ~~~~~~~~~~~
 
-
 .. figure:: /images/Manual-Node-HSV_example.jpg
 
 
@@ -419,7 +404,6 @@ Here, the image taken by a cheap digital camera in poor lighting at night using 
 
 Bright/Contrast
 ---------------
-
 
 .. figure:: /images/Manual-Nodes-BrightContrast.jpg
    :width: 320px
@@ -436,7 +420,6 @@ Contrast
 
 Notes
 ~~~~~
-
 
 .. figure:: /images/Manual-Nodes-BrightClamp.jpg
    :width: 320px
@@ -459,7 +442,6 @@ Map Value or the ColorRamp produces the desired effect.
 
 Gamma
 -----
-
 
 .. figure:: /images/Manual-Nodes-Gamma.jpg
    :width: 320px
@@ -491,7 +473,6 @@ the split viewer shows the before and after effect of applying a gamma correctio
 Invert
 ------
 
-
 .. figure:: /images/Manual-Nodes-Invert.jpg
    :width: 320px
    :figwidth: 320px
@@ -516,7 +497,6 @@ A
 AlphaOver Node
 --------------
 
-
 .. figure:: /images/Tutorials-NTR-AlphaOver.jpg
 
    AlphaOver node
@@ -535,7 +515,6 @@ allowing the background to bleed through.
 
 Examples
 ~~~~~~~~
-
 
 .. figure:: /images/Manual-Compositing-AlphaOver-example.jpg
    :width: 300px
@@ -570,7 +549,6 @@ and will not output any image when one of the sockets is unconnnected.
 
 Strange Halos or Outlines
 ~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 To clarify the premultiplied-alpha button: An alpha channel has a value of between 0 and 1.
 When you make an image transparent (to composite it over another one),
@@ -609,7 +587,6 @@ or straight RGBA image.
 Z-Combine Node
 --------------
 
-
 .. figure:: /images/Tutorials-NTR-ComZCombine.jpg
 
    Z Combine node
@@ -647,7 +624,6 @@ the other having inverted (reversed?) Z-values as inputs, obtained using for eac
 
 Examples
 ~~~~~~~~
-
 
 .. figure:: /images/Manual-Compositing-Z-Offset-example.jpg
    :width: 300px
@@ -714,7 +690,6 @@ The resulting image appears to have the cube on the table.
 Color Balance
 -------------
 
-
 The Color Balance node can adjust the color and values of an image using two different
 correction formulas.
 
@@ -739,7 +714,6 @@ Factor
 Hue Correct
 -----------
 
-
 The Hue Correct node is able to adjust the Hue, Saturation, and Value of an image,
 with an input curve.
 
@@ -752,7 +726,6 @@ curve.
 
 Tone Map
 --------
-
 
 Tone mapping is a technique used in image processing and computer graphics to map one set of
 colors to another in order to approximate the appearance of high dynamic range images in a

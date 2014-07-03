@@ -2,7 +2,6 @@
 Other supported operating systems
 =================================
 
-
 FreeBSD
 -------
 

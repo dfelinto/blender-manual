@@ -2,7 +2,6 @@
 Lamps Textures
 ==============
 
-
 .. figure:: /images/25-Manual-Lighting-Lights-Texture-Panels.jpg
    :width: 307px
    :figwidth: 307px

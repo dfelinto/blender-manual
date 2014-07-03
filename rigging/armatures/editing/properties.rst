@@ -17,7 +17,6 @@ FIXME(TODO: Internal Link;
 Transforming Bones
 ------------------
 
-
 We won't detail here the various transformations of bones, nor things like axis locking, pivot points, and so on, as they are common to most object editing, and already described :doc:`here <3d_interaction/transform_control>` (note however that some options, like snapping, do not seem to work, even though they are available…). The same goes for mirroring, as it's nearly the same as with :doc:`mesh editing <modeling/meshes/tools/transform_deform#mirror>`\ . Just keep in mind that bones' roots and tips behave more or less like meshes' vertices, and bones themselves act like edges in a mesh.
 
 As you know, bones can have two types of relationships: They can be parented,
@@ -40,7 +39,6 @@ Finally, you can edit in the :guilabel:`Transform Properties` panel (\ :kbd:`N`\
 
 Radius and Scaling in Envelope Visualization
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 .. admonition:: Reference
    :class: refbox
@@ -76,7 +74,6 @@ it is advisable to place all the bones first, and only then edit these propertie
 
 ScaleB and Envelope
 ~~~~~~~~~~~~~~~~~~~
-
 
 .. admonition:: Reference
    :class: refbox
@@ -123,7 +120,6 @@ WARNING! If you have more than one bone selected, using this tool crashes Blende
 Bone Direction
 --------------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -154,7 +150,6 @@ their root will become their tip, and vice versa).
 Bone Roll
 ---------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -178,7 +173,6 @@ with bones rolled in all angles… nasty! To address this problem, you have thre
 
 Properties
 ----------
-
 
 .. admonition:: Reference
    :class: refbox
@@ -246,7 +240,6 @@ Layers button
 Bone Rigidity Settings
 ----------------------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -292,7 +285,6 @@ Each bone's ends are mapped to its "virtual" Bézier curve's :doc:`"auto" <model
 
 Chain Editing
 -------------
-
 
 .. admonition:: Reference
    :class: refbox
@@ -345,7 +337,6 @@ Note that relationships with non-selected children are never modified.
 Naming Bones
 ------------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -365,7 +356,6 @@ Let's look at this in detail.
 
 Naming Conventions
 ~~~~~~~~~~~~~~~~~~
-
 
 .. figure:: /images/Ie_bonesname.jpg
    :width: 440px
@@ -411,7 +401,6 @@ This will enable you to use some tools that will probably save you time and effo
 Bone name flipping
 ~~~~~~~~~~~~~~~~~~
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -432,7 +421,6 @@ and remove number extensions if possible.
 
 Auto bone naming
 ~~~~~~~~~~~~~~~~
-
 
 .. admonition:: Reference
    :class: refbox

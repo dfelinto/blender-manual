@@ -14,7 +14,6 @@ one camera in order to generate any images.
 Add a new camera
 ================
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -29,7 +28,6 @@ choose :menuselection:`Add --> Camera`\ .
 
 Change active camera
 ====================
-
 
 .. admonition:: Reference
    :class: refbox
@@ -64,7 +62,6 @@ The active camera, as well as the layers, can be specific to a given view, or gl
 
 Camera Settings
 ===============
-
 
 .. admonition:: Reference
    :class: refbox
@@ -125,7 +122,6 @@ Lens
 Camera Presets
 --------------
 
-
 .. figure:: /images/Manual-Camera-presets-panel.jpg
    :width: 270px
    :figwidth: 270px
@@ -141,7 +137,6 @@ Camera Presets
 
 Depth of Field
 --------------
-
 
 .. figure:: /images/Manual-Camera-dof-panel.jpg
    :width: 270px
@@ -162,7 +157,6 @@ Depth of Field
 
 Display
 -------
-
 
 .. figure:: /images/Manual-Camera-display-panel.jpg
    :width: 270px
@@ -266,7 +260,6 @@ Here you will find some handy ways to navigate and position your camera in your 
 
 Move active camera to view
 --------------------------
-
 
 .. admonition:: Reference
    :class: refbox

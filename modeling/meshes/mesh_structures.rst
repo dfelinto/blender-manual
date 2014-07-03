@@ -2,7 +2,6 @@
 Vertices, Edges and Faces
 =========================
 
-
 In basic meshes, everything is built from three basic structures: *Vertices*\ ,
 *Edges* and *Faces* (we're not talking about curves, NURBS, and so forth here).
 But there is no need to be disappointed: this simplicity still provides us with a wealth of
@@ -11,7 +10,6 @@ possibilities that will be the foundation for all our models.
 
 Vertices
 --------
-
 
 .. figure:: /images/25-Manual-Mesh-Structures-CubeExample.jpg
 
@@ -74,7 +72,6 @@ select three or four suitable vertices and press :kbd:`F`\ .
 Loops
 =====
 
-
 .. figure:: /images/25-Manual-mesh-structures-edge-and-face-loops.jpg
 
    Edge and Face Loops
@@ -111,7 +108,6 @@ Further details on working with Edge Loops can be found in :doc:`Edge Loop Selec
 
 Face Loops
 ----------
-
 
 These are a logical extension of Edge Loops in that they consist of the faces between two Edge
 Loops, as shown in loops ``3`` and ``4`` in (\ *Edge and Face Loops*\ ).

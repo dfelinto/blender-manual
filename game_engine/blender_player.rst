@@ -2,7 +2,6 @@
 Standalone Player
 =================
 
-
 The standalone player allows a Blender game to be run without having to load the Blender
 system. This allows games to be distributed to other users,
 without their requiring a detailed knowledge of Blender

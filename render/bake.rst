@@ -48,7 +48,6 @@ but will have much fewer faces/polygons.
 Options
 =======
 
-
 .. figure:: /images/25-Manual-Render-Bake-AO.jpg
    :width: 329px
    :figwidth: 329px
@@ -58,7 +57,6 @@ Options
 
 Bake Mode
 ---------
-
 
 Full Render
 ~~~~~~~~~~~
@@ -215,7 +213,6 @@ Additional Options
 
 Workflow
 --------
-
 
 - In a 3D View window, select a mesh and enter UV/Face Select mode
 - :doc:`Unwrap the mesh object <textures/mapping/uv>`

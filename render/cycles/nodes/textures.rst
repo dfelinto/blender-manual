@@ -2,10 +2,8 @@
 Texture Nodes
 =============
 
-
 Image Texture
 -------------
-
 
 .. figure:: /images/Manual_cycles_nodes_tex_image.jpg
    :width: 200px
@@ -35,7 +33,6 @@ Use an image file as a texture.
 Environment Texture
 -------------------
 
-
 .. figure:: /images/Manual_cycles_nodes_tex_environment.jpg
    :width: 200px
    :figwidth: 200px
@@ -60,7 +57,6 @@ The environment map is expected to be in Latitude/Longitude or 'latlong' format.
 
 Sky Texture
 -----------
-
 
 .. figure:: /images/Manual_cycles_nodes_tex_sky.jpg
    :width: 200px
@@ -88,7 +84,6 @@ Procedural Sky texture.
 Noise Texture
 -------------
 
-
 .. figure:: /images/Manual_cycles_nodes_tex_noise.jpg
    :width: 200px
    :figwidth: 200px
@@ -114,7 +109,6 @@ Procedural Perlin noise texture, similar to the Clouds texture in Blender Intern
 
 Wave Texture
 ------------
-
 
 .. figure:: /images/Manual_cycles_nodes_tex_wave.jpg
    :width: 200px
@@ -146,7 +140,6 @@ Procedural bands or rings texture with noise distortion.
 Voronoi Texture
 ---------------
 
-
 +-----------------------------------------------------------------+-------------------------------------------------------------+
 +.. figure:: /images/Manual_cycles_nodes_tex_voronoi_intensity.jpg|.. figure:: /images/Manual_cycles_nodes_tex_voronoi_cells.jpg+
 +   :width: 200px                                                 |   :width: 200px                                             +
@@ -172,7 +165,6 @@ Procedural texture producing Voronoi cells.
 
 Musgrave Texture
 ----------------
-
 
 Advanced procedural noise texture. Note that it often needs some adjustments
 (multiplication and addition) in order to see more detail.
@@ -211,7 +203,6 @@ Advanced procedural noise texture. Note that it often needs some adjustments
 Gradient Texture
 ----------------
 
-
 .. figure:: /images/Manual_cycles_nodes_tex_gradient.jpg
    :width: 200px
    :figwidth: 200px
@@ -233,7 +224,6 @@ A gradient texture.
 
 Magic Texture
 -------------
-
 
 .. figure:: /images/Manual_cycles_nodes_tex_magic.jpg
    :width: 200px
@@ -259,7 +249,6 @@ Psychedelic color texture.
 Checker Texture
 ---------------
 
-
 .. figure:: /images/Manual_cycles_nodes_tex_checker.jpg
    :width: 200px
    :figwidth: 200px
@@ -283,7 +272,6 @@ Checkerboard texture.
 
 Brick Texture
 -------------
-
 
 .. figure:: /images/Manual_cycles_nodes_tex_brick.jpg
    :width: 200px

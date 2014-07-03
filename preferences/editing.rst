@@ -14,7 +14,6 @@ These preferences control how several tools will interact with your input.
 Link Materials To
 =================
 
-
 .. figure:: /images/Structure-object-data.jpg
 
    Example for a Mesh
@@ -46,7 +45,6 @@ A material may be linked in two different ways:
 New objects
 ===========
 
-
 :guilabel:`Enter Edit Mode`
    If selected, Edit Mode is automatically activated when you create a new object.
 :guilabel:`Align To`
@@ -58,7 +56,6 @@ New objects
 
 Undo
 ====
-
 
 :guilabel:`Global Undo`
    Works by keeping a full copy of the file in memory (thus needing more memory).
@@ -72,7 +69,6 @@ Undo
 
 Grease Pencil
 =============
-
 
 Grease Pencil permits you to draw in the 3D viewport with a pencil-like tool.
 :guilabel:`Manhattan Distance`
@@ -88,14 +84,12 @@ Grease Pencil permits you to draw in the 3D viewport with a pencil-like tool.
 Playback
 ========
 
-
 :guilabel:`Allow Negative Frame`
    If set, negative framenumbers might be used.
 
 
 Keyframing
 ==========
-
 
 In many situations, animation is controlled by keyframes. The state of a value (e.g. location)
 is recorded in a keyframe and the animation between two keyframes is interpolated by Blender.
@@ -124,7 +118,6 @@ Transform
 Sculpt Overlay Color
 ====================
 
-
 This color selector allows the user to define a color to be used in the inner part of the
 brushes circle when in sculpt mode, and it is placed as an overlay to the brush,
 representing  the focal point of the brush influence.
@@ -136,7 +129,6 @@ located at the top of the tool shelf, when in sculpt mode.
 
 Duplicate Data
 ==============
-
 
 The 'Duplicate Data' check-boxes define what data is copied with a duplicated Object and what
 data remains linked. Any boxes that are checked will have their data copied along with the

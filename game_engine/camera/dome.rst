@@ -2,7 +2,6 @@
 Dome Camera
 ===========
 
-
 This feature allows artists to visualize their interactive projects within an immersive dome
 environment. In order to make it an extensible tool, we are supporting Fulldome,
 Truncated domes (front and rear), Planetariums and domes with spherical mirrors.
@@ -31,7 +30,6 @@ such that the result, when viewed with an orthographic camera, is a fisheye proj
 
 Dome Camera Settings
 ====================
-
 
 .. figure:: /images/Manual-GameEngine-Dome-Panel.jpg
 

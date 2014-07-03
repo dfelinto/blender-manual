@@ -2,7 +2,6 @@
 Strands
 =======
 
-
 The Strand section of the Material editor is specific to the rendering of Hair particles.
 There are two different strand methods available:
 
@@ -28,7 +27,6 @@ Polygon strands:
 
 Strands Shading
 ---------------
-
 
 .. figure:: /images/Doc_2.6_Materials_Properties_Strands.jpg
 
@@ -85,7 +83,6 @@ The options for strand shading are in the :guilabel:`Strands` section of the
 Texturing along the Strand
 --------------------------
 
-
 .. figure:: /images/Doc_2.6_Materials_Texture_Mapping.jpg
 
    Image 4: Fading a strand to alpha…
@@ -110,7 +107,6 @@ hairs tend to get too shiny.
 
 Strand render Simplification
 ----------------------------
-
 
 .. figure:: /images/Blender3D_StrandRenderSimplification.jpg
 

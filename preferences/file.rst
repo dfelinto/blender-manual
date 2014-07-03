@@ -7,7 +7,6 @@ FIXME(Template Unsupported: Doc:2.5/Manual/Interface/Configuration/index;
 File Preferences
 ================
 
-
 The picture shows the file preferences which are explained below.
 
 
@@ -18,7 +17,6 @@ The picture shows the file preferences which are explained below.
 
 File Paths
 ----------
-
 
 When you work on an important project, it is wise to configure it.
 Set default paths for the different file types you will be using.
@@ -79,7 +77,6 @@ Not all of the folders have to be present.
 Save & Load
 -----------
 
-
 :guilabel:`Relative Paths`
       By default, external files use a relative path. This works only when a Blender file is saved.
 :guilabel:`Compress File`
@@ -105,7 +102,6 @@ Save & Load
 
 Auto Save
 ---------
-
 
 :guilabel:`Save Versions`
    Number of versions created for the same file (for backup).

@@ -5,7 +5,6 @@
 Skeleton Sketching
 ==================
 
-
 .. figure:: /images/Doc26-boneSketch.jpg
 
    The Bone Sketching panel in its default (inactive) state.
@@ -49,7 +48,6 @@ FIXME(TODO: Internal Link;
 
 Drawing Chains
 --------------
-
 
 .. figure:: /images/Doc26-boneSketch-strokes.jpg
    :width: 500px

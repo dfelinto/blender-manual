@@ -67,7 +67,6 @@ Exp.
 Global Illumination
 ___________________
 
-
 .. figure:: /images/GIPanel.jpg
 
    Global illumination settings
@@ -109,7 +108,6 @@ Then click "Render" (F12).
 Console output
 ______________
 
-
 Provided the environment allows it, Yafray should output information to the console window
 (in Windows, Blender opens alongside a console window by default. In GNU/Linux, however,
 to view the console output, you'll need to start Blender from the console,
@@ -150,7 +148,6 @@ where Yafray renders the image based on the sample map created in the previous p
 Render window output
 ____________________
 
-
 .. figure:: /images/yafray_samples_shadow.jpg
 
    Greater samples in shadowed areas
@@ -182,7 +179,6 @@ which aren't as exposed to the light).
 The rendered image
 __________________
 
-
 You'll notice how the cube, despite Blender's default gray material being applied,
 has been colored blue.
 This is because the Full method is affected by the "world" color of the scene, which,
@@ -199,10 +195,8 @@ set the world shader to white.
 Notes
 =====
 
-
 Amount of Light
 ~~~~~~~~~~~~~~~
-
 
 .. figure:: /images/Manual-Render-Yafray-BI.jpg
 
@@ -251,7 +245,6 @@ so it can be worth the trouble.
 
 SkyDome
 ~~~~~~~
-
 
 .. figure:: /images/Manual-Yafray-skydome.jpg
    :width: 300px

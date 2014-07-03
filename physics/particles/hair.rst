@@ -45,7 +45,6 @@ Hair can also be used as a basis for the :doc:`Particle Instance modifier <modif
 Options
 =======
 
-
 .. figure:: /images/Blender3D_ParticleSystem_HairSettings-2.5.jpg
 
    Image 4a: Settings for a Hair particle system.
@@ -101,7 +100,6 @@ Hair can be rendered as a Path, Object, or Group. See :doc:`Particle Visualizati
 
 Usage
 =====
-
 
 .. figure:: /images/Blender3D_FurWithParticles-Finished-2.48a.jpg
    :width: 400px

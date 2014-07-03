@@ -4,7 +4,6 @@
 Deforming Geometry
 ==================
 
-
 Push/Pull
 ---------
 
@@ -97,7 +96,6 @@ A cylinder is warped into a semicircular shape
 Shear
 -----
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -146,7 +144,6 @@ press the :kbd:`lmb`\ .
 
 To Sphere
 ---------
-
 
 .. admonition:: Reference
    :class: refbox

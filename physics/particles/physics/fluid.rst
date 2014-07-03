@@ -2,7 +2,6 @@
 Fluid Physics
 =============
 
-
 .. figure:: /images/Fluid.jpg
 
    Image 8: Fluid Physics.

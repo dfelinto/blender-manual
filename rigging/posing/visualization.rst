@@ -81,7 +81,6 @@ ordered here by precedence (i.e. the bone will be of the color of the topmost va
 Coloring from Bone Group
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-
 .. figure:: /images/Doc26-rigging-boneGroups.jpg
    :width: 250px
    :figwidth: 250px
@@ -156,7 +155,6 @@ you are automatically switched to the :guilabel:`Custom Set` option.
 Ghosts
 ------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -229,7 +227,6 @@ or the same frame number in both :guilabel:`GSta` and :guilabel:`GEnd`
 
 Motion Paths
 ------------
-
 
 .. admonition:: Reference
    :class: refbox

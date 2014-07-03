@@ -5,7 +5,6 @@
 Multiresolution Modifier
 ========================
 
-
 .. admonition:: Reference
    :class: refbox
 

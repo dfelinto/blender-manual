@@ -5,7 +5,6 @@
 Lights Common Options
 =====================
 
-
 .. figure:: /images/25-Manual-Lighting-Lights-Properties.jpg
    :width: 312px
    :figwidth: 312px

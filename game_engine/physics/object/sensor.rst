@@ -4,7 +4,6 @@
 Sensor
 ======
 
-
 The object detects static and dynamic objects but not other collisions sensors objects.
 The Sensor is similar to the physics objects that underlie the Near and Radar sensors.
 Like the Near and Radar object it is:

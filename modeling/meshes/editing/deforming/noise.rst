@@ -2,7 +2,6 @@
 Noise
 =====
 
-
 .. admonition:: Reference
    :class: refbox
 

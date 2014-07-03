@@ -4,10 +4,8 @@
 Extrude
 =======
 
-
 Extrude Region
 --------------
-
 
 .. admonition:: Reference
    :class: refbox
@@ -55,7 +53,6 @@ the principles behind :guilabel:`Extrude` are fairly elaborate as discussed belo
 Extrude Individual
 ------------------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -78,7 +75,6 @@ Extrude Individual
 
 Extrude Edges and Vertices Only
 -------------------------------
-
 
 .. admonition:: Reference
    :class: refbox

@@ -2,7 +2,6 @@
 Sensor Editing
 ==============
 
-
 .. figure:: /images/BGE_Sensor_Column.jpg
    :width: 292px
    :figwidth: 292px
@@ -21,7 +20,6 @@ all the sensors in the current Game Logic are displayed.
 
 Column Heading
 --------------
-
 
 .. figure:: /images/BGE_Sensor_Column1.jpg
    :width: 292px
@@ -62,7 +60,6 @@ It is also possible to filter which sensors are viewed using the four heading bu
 
 Object Heading
 --------------
-
 
 .. figure:: /images/BGE_Sensor_Column2.jpg
    :width: 292px

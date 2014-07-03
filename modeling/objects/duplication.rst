@@ -2,7 +2,6 @@
 Duplication
 ===========
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -33,7 +32,6 @@ in the :guilabel:`User Preferences`\ ' (available in the :guilabel:`File` menu)
 Examples
 --------
 
-
 .. figure:: /images/Manual-2.5-Modeling-Duplicate-Example.jpg
    :width: 620px
    :figwidth: 620px
@@ -53,7 +51,6 @@ See above if you want separate copies of the datablocks normally linked.
 
 Linked Duplicates
 =================
-
 
 .. admonition:: Reference
    :class: refbox
@@ -78,7 +75,6 @@ Reference (\ *Duplicate Example*\ ) for the discussions below.
 Examples
 --------
 
-
 .. figure:: /images/Manual-2.5-Modelling-Duplicate-Linked-Example.jpg
    :width: 620px
    :figwidth: 620px
@@ -101,7 +97,6 @@ wheels on a car… anywhere there is repetition or symmetry.
 
 Procedural Duplication
 ======================
-
 
 .. admonition:: Reference
    :class: refbox
@@ -128,7 +123,6 @@ These options are located in the :guilabel:`Object` menu.
 Linked Library Duplication
 ==========================
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -141,7 +135,6 @@ Linked Library Duplication
 
 Hints
 =====
-
 
 - If you want transform properties (i.e. object datablocks) to be "linked", see the page on :doc:`parenting <modeling/objects/groups_and_parenting>`\ .
 - Material Transparency will not display when instancing dupli-groups; this is a known limitation of Blender's view-port.

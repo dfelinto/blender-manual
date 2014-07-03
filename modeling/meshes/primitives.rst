@@ -5,7 +5,6 @@
 Mesh Primitives
 ===============
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -227,7 +226,6 @@ or the `Stanford Bunny <http://en.wikipedia.org/wiki/Stanford_Bunny>`__\ .
 
 Add-ons
 -------
-
 
 .. figure:: /images/25-Manual-Mesh-Structures-script-primitives.jpg
    :width: 600px

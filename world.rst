@@ -5,7 +5,6 @@
 World
 =====
 
-
 .. figure:: /images/25-Manual-World-WorldPanel.jpg
 
    World panel

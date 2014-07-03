@@ -4,7 +4,6 @@
 Area Raytraced Shadows
 ======================
 
-
 .. figure:: /images/25-Manual-Lighting-Lamps-Area-AdapQMC.jpg
    :width: 300px
    :figwidth: 300px
@@ -54,7 +53,6 @@ Sample Generator Types
 
 Technical Details
 -----------------
-
 
 .. figure:: /images/Manual-Part-V-AreaLightConcept.jpg
    :width: 250px

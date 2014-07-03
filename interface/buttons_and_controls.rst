@@ -8,7 +8,6 @@ Buttons and other controls can be found in almost every :doc:`Window <interface/
 Operation Buttons
 -----------------
 
-
 .. figure:: /images/Manual-Part-I-ConceptButtons2_25.jpg
 
    Operation button
@@ -24,7 +23,6 @@ which can be used in the python console or in the text editor when writing scrip
 Toggle Buttons
 --------------
 
-
 .. figure:: /images/Manual-Part-I-ConceptButtons1_1_25.jpg
 
    Toggle buttons
@@ -38,7 +36,6 @@ cases the button is attached to a number button to control the influence of the 
 Radio Buttons
 -------------
 
-
 .. figure:: /images/Manual-Part-I-ConceptButtons1_25.jpg
 
    Radio buttons
@@ -49,7 +46,6 @@ Radio buttons are used to choose from a small selection of "mutually exclusive" 
 
 Number Buttons
 --------------
-
 
 .. figure:: /images/Manual-Part-I-ConceptButtons3_25.jpg
 
@@ -102,7 +98,6 @@ Examples of valid units include:
 
 Menu Buttons
 ------------
-
 
 .. figure:: /images/Manual-Part-I-ConceptButtons4_25.jpg
 
@@ -157,7 +152,6 @@ For example, the Add Modifier button will produce a menu with all of the availab
 
 Color Selector Controls
 -----------------------
-
 
 In Blender, you can choose from **4** types of color pickers; the options are:
    :guilabel:`Circle` (Default), :guilabel:`Square (HS + V)` , :guilabel:`Square (SV + H)` and :guilabel:`Square (HV + S)`
@@ -252,7 +246,6 @@ hovering over the color property.
 
 Cascade Buttons
 ---------------
-
 
 Occasionally, some buttons actually reveal additional buttons. For example, the
 :guilabel:`Ramps` panel has a :guilabel:`Cascade` button called :guilabel:`Ramp` that reveals

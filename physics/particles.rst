@@ -69,7 +69,6 @@ The process for working with standard particles is:
 Creating a Particle System
 ==========================
 
-
 .. figure:: /images/Blender3D_ParticleSystem_CreateNew-2.5.jpg
 
    Image 2: Adding a particle system.
@@ -88,7 +87,6 @@ even when using the same settings.
 
 Types of Particle systems
 -------------------------
-
 
 .. figure:: /images/Blender3D_ParticleSystem_SelectType-2.5.jpg
 
@@ -143,7 +141,6 @@ but options within those sets vary based on the system employed. These sets of c
 
 Links
 =====
-
 
 - `Tutorials <http://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Particle_Systems>`__
 - `Physics Caching and Baking <http://www.blender.org/development/release-logs/blender-246/physics-caching-and-baking/>`__

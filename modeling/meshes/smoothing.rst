@@ -2,7 +2,6 @@
 Mesh Shading
 ============
 
-
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------+----------------------------------------------------------------+
 +.. figure:: /images/25-manual-meshsmooth-example-2rrflat.jpg                                                                                                                                                                  |.. figure:: /images/25-manual-meshsmooth-example-05edgesplit.jpg|.. figure:: /images/25-manual-meshsmooth-example-10edgeloops.jpg+
 +   :width: 200px                                                                                                                                                                                                              |   :width: 200px                                                |   :width: 200px                                                +
@@ -26,7 +25,6 @@ not only its appearance.
 
 Smooth shading
 --------------
-
 
 .. admonition:: Reference
    :class: refbox
@@ -74,7 +72,6 @@ in the same way by selecting edges and clicking the :guilabel:`Flat` button.
 
 Auto Smooth
 -----------
-
 
 .. admonition:: Reference
    :class: refbox

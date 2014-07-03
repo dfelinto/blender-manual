@@ -3,7 +3,6 @@
 Animating the fluid properties
 ==============================
 
-
 A new type of Ipo Curve, :guilabel:`FluidSim`\ , is available for fluid domain objects.
 Unlike most other animatable values in Blender,
 :guilabel:`FluidSim` Ipos cannot be keyframed by simply using the :kbd:`I` key;

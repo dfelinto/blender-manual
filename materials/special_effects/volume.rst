@@ -2,7 +2,6 @@
 Volume Rendering
 ================
 
-
 .. figure:: /images/Doc-26-Materials-VolumeRender-Activate.jpg
    :width: 300px
    :figwidth: 300px
@@ -42,10 +41,8 @@ process since it has to check a lot of points in space and evaluate the density 
 Options
 =======
 
-
 Density
 -------
-
 
 .. figure:: /images/Volumerendering-density.jpg
 
@@ -74,7 +71,6 @@ thick smoke.
 
 Shading
 -------
-
 
 .. figure:: /images/Volumerendering-scattering1.jpg
 
@@ -110,7 +106,6 @@ the more easily it penetrates throughout the volume and to the shadow.
 
 Asymmetry
 ~~~~~~~~~
-
 
 .. figure:: /images/Volumerendering-phase_diagram.jpg
    :width: 300px
@@ -238,7 +233,6 @@ Of course you can always break the rules too!
 Lighting
 --------
 
-
 .. figure:: /images/Doc-26-Materials-VolumeRender-Options-Lighting.jpg
 
    Lighting options
@@ -279,7 +273,6 @@ providing a range of options between fast to render and physically accurate.
 Transparency
 ------------
 
-
 .. figure:: /images/Doc-26-Materials-VolumeRender-Options-Transparency.jpg
 
    Transparency options
@@ -295,7 +288,6 @@ Transparency
 
 Integration
 -----------
-
 
 .. figure:: /images/Doc-26-Materials-VolumeRender-Options-Integration.jpg
 
@@ -317,7 +309,6 @@ Integration
 
 Options
 -------
-
 
 .. figure:: /images/Doc-26-Materials-VolumeRender-Options.jpg
 

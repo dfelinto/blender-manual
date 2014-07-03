@@ -2,7 +2,6 @@
 Local or Global View
 ====================
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -26,7 +25,6 @@ local view.
 
 Examples
 --------
-
 
 In *Global view*\ , all the objects are visible. With the green cube selected, switching to
 *Local view* with :kbd:`Numpad-/`  will center the cube in the :guilabel:`3D View`\ .

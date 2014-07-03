@@ -2,7 +2,6 @@
 Armature Structure
 ==================
 
-
 .. figure:: /images/Manual-Part-I-Quick51.jpg
    :width: 250px
    :figwidth: 250px
@@ -18,7 +17,6 @@ FIXME(TODO: Internal Link;
 
 Chains of Bones
 ---------------
-
 
 .. figure:: /images/ManRiggingChainEx3DViewEditMode.jpg
    :width: 250px

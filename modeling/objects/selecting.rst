@@ -52,7 +52,6 @@ Otherwise it just adds those to the selection. There appears to be no workaround
 Rectangular or Border Select
 ============================
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -76,7 +75,6 @@ To cancel the selection use :kbd:`rmb`\ .
 Example
 -------
 
-
 .. figure:: /images/25-Manual-Object-Selection-Border.jpg
    :width: 610px
    :figwidth: 610px
@@ -99,7 +97,6 @@ Hints
 
 Lasso Select
 ============
-
 
 .. admonition:: Reference
    :class: refbox
@@ -135,7 +132,6 @@ Lasso select adds to the previous selection. For deselection, use :kbd:`ctrl-shi
 Circle Select
 =============
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -146,7 +142,6 @@ Circle Select
 
 Description
 -----------
-
 
 .. figure:: /images/26-Manual-Object-Selection-Circle0.jpg
    :width: 100px
@@ -181,7 +176,6 @@ Each is more adapted to certain operations.
 Select Grouped
 --------------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -192,7 +186,6 @@ Select Grouped
 
 Description
 ~~~~~~~~~~~
-
 
 .. figure:: /images/25-Manual-Object-Selection-Grouped.jpg
 
@@ -244,7 +237,6 @@ Available options are:
 Select linked
 -------------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -255,7 +247,6 @@ Select linked
 
 Description
 ~~~~~~~~~~~
-
 
 .. figure:: /images/25-Manual-Object-Selection-Linked.jpg
 
@@ -293,7 +284,6 @@ Available options are:
 Select All by Type
 ------------------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -304,7 +294,6 @@ Select All by Type
 
 Description
 ~~~~~~~~~~~
-
 
 .. figure:: /images/25-Manual-Object-Selection-Bytype.jpg
 
@@ -330,7 +319,6 @@ Just take your pick.
 Select All by Layer
 -------------------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -341,7 +329,6 @@ Select All by Layer
 
 Description
 ~~~~~~~~~~~
-
 
 .. figure:: /images/25-Manual-Object-Selection-AllByLayer.jpg
 

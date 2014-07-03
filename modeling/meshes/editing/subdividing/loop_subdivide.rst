@@ -5,7 +5,6 @@
 Loop Subdivide
 ==============
 
-
 .. admonition:: Reference
    :class: refbox
 

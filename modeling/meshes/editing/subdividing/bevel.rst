@@ -5,7 +5,6 @@
 Bevel
 =====
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -69,7 +68,6 @@ and scroll the :kbd:`wheel` to increase or decrease the number of segments. (see
 Options
 -------
 
-
 .. figure:: /images/BevelOptions.jpg
 
 
@@ -93,7 +91,6 @@ Options
 
 Examples
 --------
-
 
 .. figure:: /images/Bevel4.jpg
    :width: 300px

@@ -2,7 +2,6 @@
 XNOR Controller
 ===============
 
-
 This controller gives a positive (TRUE) output when
 One (and only one) of its inputs are FALSE, and
 The object is in the designated State.

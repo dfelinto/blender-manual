@@ -4,7 +4,6 @@
 Mirror
 ======
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -26,7 +25,6 @@ the direction of the desired mirror direction.
 
 Axis of symmetry
 ----------------
-
 
 For each transformation orientation,
 you can choose one of its axes along which the mirroring will occur.

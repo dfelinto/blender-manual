@@ -39,7 +39,6 @@ The movement of the owner along the target curve/path may be controlled in two d
 Options
 -------
 
-
 .. figure:: /images/25-Manual-Constraints-Relationship-FollowPath.jpg
    :width: 305px
    :figwidth: 305px

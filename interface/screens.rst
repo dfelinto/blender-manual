@@ -2,7 +2,6 @@
 Screens
 =======
 
-
 .. figure:: /images/Manual-Scene-SR_Layout_Dropdown25.jpg
 
    Layout dropdown
@@ -56,7 +55,6 @@ All changes to windows, as described in :doc:`Window system <interface/window_sy
 
 Configuring your Screens
 ========================
-
 
 Adding a new Screen Type
 ------------------------

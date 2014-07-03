@@ -16,7 +16,6 @@ close and from a distance.
 Settings
 ========
 
-
 .. admonition:: Modifiers on Level of Detail Objects
    :class: note
 
@@ -70,7 +69,6 @@ Below are some example names that the tool will recognize.
 
 Generate
 --------
-
 
 .. figure:: /images/Manual-Level-of-Detail-Generation.jpg
 

@@ -5,7 +5,6 @@
 Basic Selection
 ===============
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -41,7 +40,6 @@ deleting or otherwise working on backside or hidden items.
 
 Selecting Elements in a Region
 ------------------------------
-
 
 .. admonition:: Reference
    :class: refbox

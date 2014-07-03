@@ -5,7 +5,6 @@
 Composite Vector Nodes
 ======================
 
-
 Vector Nodes
 ------------
 
@@ -34,7 +33,6 @@ The resulting colorized output can be easily varied by moving the light source
 Vector Curves Node
 ------------------
 
-
 .. figure:: /images/Manual-Node-Vector.jpg
 
 
@@ -51,7 +49,6 @@ Use this curve to slow things down or speed them up from the original scene.
 
 Map Value Node
 --------------
-
 
 .. figure:: /images/Tutorials-NTR-ComMapValue.jpg
 
@@ -78,7 +75,6 @@ suitable for connecting to a Blur node.
 Using Map Value to Multiply values
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
 .. figure:: /images/Manual-Compositing-Map_multiply.jpg
 
    Using Map Value to multiply
@@ -95,7 +91,6 @@ resulting in an output value between -150 and 150 over a 30-frame sequence.
 
 Normalize
 ---------
-
 
 Normalizing a vector scales its magnitude, or length, to a value of 1,
 but keeps its direction intact.

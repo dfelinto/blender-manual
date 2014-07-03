@@ -10,10 +10,8 @@ These are tools that manipulate faces.
 Creating Faces
 ==============
 
-
 Make Edge/Face
 --------------
-
 
 .. admonition:: Reference
    :class: refbox
@@ -84,7 +82,6 @@ note, unlike creating n-gons, fill supports holes.
 Beauty Fill
 -----------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -112,7 +109,6 @@ Beauty Fill
 
 Grid Fill
 ---------
-
 
 .. admonition:: Reference
    :class: refbox
@@ -155,7 +151,6 @@ Grid Fill
 Convert Quads to Triangles
 --------------------------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -170,7 +165,6 @@ Remember that quads are just a set of two triangles.
 
 Convert Triangles to Quads
 --------------------------
-
 
 .. admonition:: Reference
    :class: refbox
@@ -228,7 +222,6 @@ All the menu entries and hotkey use the settings defined in the :guilabel:`Mesh 
 Solidify
 ========
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -266,7 +259,6 @@ This takes a selection of faces and solidifies them by extruding them uniformly 
 
 Rotate Edges
 ============
-
 
 .. admonition:: Reference
    :class: refbox
@@ -308,7 +300,6 @@ See :doc:`Smoothing <modeling/meshes/smoothing>` for additional information on w
 Flip Direction
 --------------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -324,7 +315,6 @@ which is always perpendicular to the face) of your normals, as only selected one
 
 Recalculate Normals
 -------------------
-
 
 .. admonition:: Reference
    :class: refbox

@@ -2,7 +2,6 @@
 Mist
 ====
 
-
 Description
 -----------
 
@@ -14,7 +13,6 @@ the further the object is away from the camera the less it's alpha value will be
 
 Option
 ------
-
 
 .. figure:: /images/25-Manual-World-MistPanel.jpg
    :width: 305px
@@ -68,7 +66,6 @@ Because :guilabel:`Mist` works by adjusting transparency, this can sometimes cau
 
 Examples
 --------
-
 
 .. figure:: /images/25-Manual-World-Mist-Example1.jpg
 

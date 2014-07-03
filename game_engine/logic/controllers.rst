@@ -17,7 +17,6 @@ The logic blocks for all types of controller may be constructed and changed usin
 Controller Types
 ----------------
 
-
 There are eight types of controller logic brick to carry out the logic process on the input
 signal(s): these are described in the separate pages shown below:
 

@@ -73,7 +73,6 @@ run the map back through that node to re-scale it back to the original before sa
 Selecting Render Passes
 -----------------------
 
-
 .. figure:: /images/Manual-RenderLayer-Panel.jpg
 
 
@@ -171,7 +170,6 @@ elsewhere:
 Recoloring Shadows
 ------------------
 
-
 .. figure:: /images/Manual-Render-RenderPasses-Example2.jpg
    :width: 300px
    :figwidth: 300px
@@ -219,7 +217,6 @@ where Anakin Skywalker already casts the shadow of Darth Vader.)
 Compositing Ambient Occlusion
 -----------------------------
 
-
 .. figure:: /images/Manual-Render-Passes-AO.jpg
    :width: 600px
    :figwidth: 600px
@@ -250,7 +247,6 @@ they have to be added to the diffuse pass before adding the converted AO pass.
 
 Vector Blurring Shadows
 -----------------------
-
 
 .. figure:: /images/Manual-Nodes-VectorBlur-Shadow.jpg
    :width: 600px

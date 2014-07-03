@@ -2,7 +2,6 @@
 Meta Objects
 ============
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -122,7 +121,6 @@ You can clearly see the underlying cubic structure that gives the meta cube its 
 Threshold (Influence)
 ---------------------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -177,7 +175,6 @@ or very high resolutions…
 Meta Structure
 ==============
 
-
 Technical Details
 -----------------
 
@@ -196,7 +193,6 @@ spheres centered at the directing point.
 
 Underlying Structure
 --------------------
-
 
 .. admonition:: Reference
    :class: refbox

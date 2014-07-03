@@ -5,7 +5,6 @@
 Edge (Toon) Rendering
 =====================
 
-
 .. figure:: /images/Manual-Part-XI-Toon01.jpg
    :width: 240px
    :figwidth: 240px
@@ -21,7 +20,6 @@ Blender can add this feature as a post-processing operation.
 
 Options
 -------
-
 
 .. figure:: /images/Manual-Part-XI-Render07.jpg
 
@@ -47,7 +45,6 @@ Before repeating the rendering it is necessary to set some parameters:
 
 Examples
 --------
-
 
 .. figure:: /images/Manual-Part-XI-Toon02.jpg
    :width: 400px

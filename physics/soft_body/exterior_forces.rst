@@ -32,7 +32,6 @@ because every vertex moves with the same speed in the same direction.
 Settings
 ========
 
-
 Soft Body Panel
 ---------------
 

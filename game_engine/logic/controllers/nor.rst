@@ -2,7 +2,6 @@
 NOR Controller
 ==============
 
-
 This controller gives a positive (TRUE) output when
 None of its inputs are TRUE, and
 The object is in the designated State.

@@ -3,10 +3,8 @@
 Control
 =======
 
-
 Description
 -----------
-
 
 Using the Lattice-boltzman method, the fluid is controlled using particles which define local
 force fields and are generated automatically from either a physical simulation or a sequence
@@ -21,7 +19,6 @@ FIXME(Tag Unsupported:youtube;
 
 Examples
 --------
-
 
 In this examples,
 we use the Fluid Control option to control part of the fluid so that it has a certain shape
@@ -44,7 +41,6 @@ we use the Fluid Control option to control part of the fluid so that it has a ce
 
 Options
 -------
-
 
 .. figure:: /images/Fluid_controloptions.jpg
 
@@ -69,7 +65,6 @@ Options
 
 See also
 --------
-
 
 Release notes:
 FIXME(Link Type Unsupported: template;

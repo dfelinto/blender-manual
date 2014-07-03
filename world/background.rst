@@ -5,7 +5,6 @@
 World Background
 ================
 
-
 Description
 -----------
 
@@ -28,7 +27,6 @@ but a very common use of a :guilabel:`World` is to shade a background color.
 
 Options
 ~~~~~~~
-
 
 .. figure:: /images/25-Manual-World-WorldSkyColor.jpg
    :width: 297px

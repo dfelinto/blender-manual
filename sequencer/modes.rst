@@ -93,7 +93,6 @@ contiguous.
 Chroma Vectorscope
 ------------------
 
-
 .. figure:: /images/Manual-VSE-ChromaExample.jpg
    :width: 300px
    :figwidth: 300px

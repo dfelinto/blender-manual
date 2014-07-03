@@ -2,7 +2,6 @@
 Texture Blending Modes
 ======================
 
-
 Blending Modes are different methods of controlling how the texture influences material
 properties. While a blending mode defines the specific operation performed,
 blending factor controls the amount, the overall "strength" of this operation.

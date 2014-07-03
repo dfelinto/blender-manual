@@ -4,10 +4,8 @@
 Fluid Domain
 ============
 
-
 The Domain Object
 -----------------
-
 
 The bounding box of the object serves as the boundary of the simulation.
 **All fluid objects must be in the domain.** Fluid objects outside the domain will not bake.
@@ -33,7 +31,6 @@ This object will be *replaced* by the fluid during the simulation.
 
 Options
 ~~~~~~~
-
 
 .. figure:: /images/Fluid_domainpanel.jpg
 
@@ -134,7 +131,6 @@ FIXME(TODO: Internal Link;
 Domain World
 ------------
 
-
 .. figure:: /images/Fluid_domainworld.jpg
 
    The Domain World options.
@@ -222,7 +218,6 @@ Domain World
 Domain Boundary
 ---------------
 
-
 .. figure:: /images/Blender_fluids_domain_boundary.jpg
    :width: 300px
    :figwidth: 300px
@@ -252,7 +247,6 @@ FIXME(Template Unsupported: Doc:2.6/Manual/Physics/Fluid/split_type;
 Domain Particles
 ----------------
 
-
 .. figure:: /images/Blender_fluids_domain_particles.jpg
    :width: 300px
    :figwidth: 300px
@@ -281,7 +275,6 @@ Here you can add particles to the fluid simulated, to enhance the visual effect.
 Baking
 ------
 
-
 .. figure:: /images/Fluid_domainpanel.jpg
 
    The fluid simulation options with Domain selected
@@ -289,7 +282,6 @@ Baking
 
 Bake Button
 ~~~~~~~~~~~
-
 
 Perform the actual fluid simulation. Blender will continue to work normally,
 except there will be a status bar in the top of the window, next to the render pulldown.
@@ -301,7 +293,6 @@ one for the :guilabel:`Preview` quality), plus one "\ ``.bvel.gz``\ "
 
 Bake directory
 ~~~~~~~~~~~~~~
-
 
 **REQUIRED!**
 
@@ -323,7 +314,6 @@ without a filename-prefix, don't forget the trailing "\ ``/``\ ").
 
 Notes
 ~~~~~
-
 
 **Unique domain**
     Because of the possibility of spanning and linking between scenes, there can only be one domain in an entire .blend file.

@@ -126,7 +126,6 @@ it must only be defined.
 Stroke
 ~~~~~~
 
-
 **Stroke Method**
    Allows set the way applying strokes.
    **Airbrush**
@@ -168,7 +167,6 @@ the brush. In other words, they allow you to edit the Falloff of the brush inten
 Options
 =======
 
-
 .. figure:: /images/Doc-2.6-Materials-VertexPaint-ToolShelf-Options.jpg
    :width: 600px
    :figwidth: 600px
@@ -179,13 +177,11 @@ Options
 Overlay
 -------
 
-
 Allows you to customize the display of curve and texture that applied to the brush.
 
 
 Appearance
 ----------
-
 
 Allows you to customize the color of the brush radius outline,
 as well as specify a custom icon.
@@ -193,7 +189,6 @@ as well as specify a custom icon.
 
 Options
 -------
-
 
 **Normals**
    Applies the Vertex Normal before painting. This does not usually affect painting.

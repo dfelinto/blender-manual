@@ -5,7 +5,6 @@
 Why another Python tutorial?
 ============================
 
-
 This page exists for two reasons.
 
 
@@ -20,7 +19,6 @@ FIXME(TODO: Internal Link;
 
 What is Programming?
 ====================
-
 
 Programming in simple terms is nothing more than manipulating data.
 Operations on the data either modifies it, or create new data.
@@ -70,7 +68,6 @@ expressions and statements at the interpreter prompt **>>>**
 Hello World
 ===========
 
-
 Let's get started with the classical "Hello World" program.
 
 Type the following print statement at the interpreter prompt and press :kbd:`Enter` key.
@@ -115,17 +112,14 @@ By doing so we are repeating the string by the count specified by *number*
 External links
 ==============
 
-
 Webpages
 --------
-
 
 - http://www.sthurlow.com/python/
 
 
 Video Tutorials
 ---------------
-
 
 - If you want to learn Python programming in general, have a look at this tutorials
 

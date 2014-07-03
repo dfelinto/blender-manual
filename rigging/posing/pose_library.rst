@@ -2,10 +2,8 @@
 Pose Library
 ============
 
-
 Intro
 -----
-
 
 The *Pose Library* panel is used to save, apply, and manage different armature poses.
 
@@ -14,7 +12,6 @@ The *Pose Library* panel is used to save, apply, and manage different armature p
 
 Pose Library Panel
 ------------------
-
 
 .. figure:: /images/Doc_Pose_Library.jpg
 
@@ -55,7 +52,6 @@ Pose Library Panel
 
 Editing
 -------
-
 
 3D View, Pose Mode.
 

@@ -5,7 +5,6 @@
 Explode Modifier
 ================
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -58,7 +57,6 @@ because the Particle System Modifier has the information needed to drive the Exp
 
 Options
 -------
-
 
 .. figure:: /images/Doc26-explodeModifier.jpg
 

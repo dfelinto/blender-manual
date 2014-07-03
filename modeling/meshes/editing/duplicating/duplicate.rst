@@ -5,7 +5,6 @@
 Duplicate
 =========
 
-
 .. admonition:: Reference
    :class: refbox
 

@@ -2,7 +2,6 @@
 Copy Scale Constraint
 =====================
 
-
 Description
 -----------
 
@@ -18,7 +17,6 @@ The :guilabel:`Copy Scale` constraint forces its owner to have the same scale as
 
 Options
 -------
-
 
 .. figure:: /images/25-Manual-Constraints-Transform-CopyScale.jpg
    :width: 307px

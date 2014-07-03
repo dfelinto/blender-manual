@@ -22,7 +22,6 @@ and rotation based on location setups.
 Options
 -------
 
-
 .. figure:: /images/25-Manual-Constraints-Transform-Transformation.jpg
    :width: 305px
    :figwidth: 305px

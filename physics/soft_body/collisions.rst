@@ -27,7 +27,6 @@ For a *Soft Body* to collide with another object there are a few prerequisites:
 Examples
 --------
 
-
 +-----------------------------------------------------+-----------------------------------------------------------------------------+------------------------------------------------------+
 +.. figure:: /images/Blender3D_CubePlaneCollision2.gif|.. figure:: /images/Blender3D_CubePlaneCollision3.gif                        |.. figure:: /images/Blender3D_CollidingPlane_CFace.gif+
 +                                                     |                                                                             |                                                      +
@@ -48,7 +47,6 @@ so you can get an idea of how we might optimize it.
 
 Calculating Collisions
 ----------------------
-
 
 +-------------------------------------------------------------------------------+-----------------------------------------------------------------------------------+
 +.. figure:: /images/Blender3D_VertexPlaneCollision.gif                         |.. figure:: /images/Blender3D_VertexPlaneCollision2.gif                            +
@@ -92,7 +90,6 @@ the collision zones are not used.
 
 Good collisions
 ---------------
-
 
 .. figure:: /images/Blender3D_SoftbodySolverParameters-2.49.jpg
 

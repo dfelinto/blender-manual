@@ -2,7 +2,6 @@
 Interior Forces
 ===============
 
-
 .. figure:: /images/Bsod-softbody-theory1.jpg
    :width: 200px
    :figwidth: 200px

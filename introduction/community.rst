@@ -2,7 +2,6 @@
 Getting support: the Blender community
 ======================================
 
-
 Being freely available from the start, even while closed source,
 helped considerably in Blender's adoption. A large,
 stable and active community of users has gathered around Blender since 1998. The community

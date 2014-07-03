@@ -2,7 +2,6 @@
 Displacement
 ============
 
-
 *Implementation not finished yet, marked as
 FIXME(TODO: Internal Link;
 [[../../Experimental_Features|experimental feature]]
@@ -32,7 +31,6 @@ The displacement type options are:
 
 Subdivision
 -----------
-
 
 .. figure:: /images/cycles_manual_materials_displacementbump.jpg
 

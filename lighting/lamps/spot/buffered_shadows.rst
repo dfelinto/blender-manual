@@ -5,7 +5,6 @@
 Spot Buffered Shadows
 =====================
 
-
 .. figure:: /images/25-Manual-Lighting-Shadow-SpotBufShad.jpg
    :width: 310px
    :figwidth: 310px
@@ -47,7 +46,6 @@ For more information on the different shadow generation methods see these links:
 
 "Classical" and "Classic-Halfway"
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 .. figure:: /images/25-Manual-Lighting-Shadow-SpotBufShad.jpg
    :width: 310px
@@ -132,7 +130,6 @@ Here are now the options specific to these generation methods:
 "Irregular"
 ~~~~~~~~~~~
 
-
 .. figure:: /images/25-Manual-Lighting-Lamps-Spot-Buf-Irregular.jpg
    :width: 313px
    :figwidth: 313px
@@ -149,7 +146,6 @@ setting for the object which will receive the transparent shadow. (\ :guilabel:`
 
 Deep generation method
 ~~~~~~~~~~~~~~~~~~~~~~
-
 
 .. figure:: /images/25-Manual-Lighting-Lamps-Spot-Buf-Deep.jpg
    :width: 313px

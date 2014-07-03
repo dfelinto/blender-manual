@@ -2,7 +2,6 @@
 Smooth Modifier
 ===============
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -12,7 +11,6 @@ Smooth Modifier
 
 Description
 -----------
-
 
 .. figure:: /images/25-Manual-Modifiers-Mesh-Smooth-example01.jpg
 

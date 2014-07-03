@@ -5,7 +5,6 @@
 Projection Texture Painting
 ===========================
 
-
 Projection texture painting allows an artist to paint on texture mapped on a 3D model.
 Unlike painting in the image editor,
 projection texture painting is done in the 3D viewport of blender.

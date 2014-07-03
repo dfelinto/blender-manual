@@ -5,7 +5,6 @@
 Composite Convertor Nodes
 =========================
 
-
 As the name implies, these nodes convert the colors or other properties of various data (e.g.
 images) in some way.
 They also split out or re-combine the different color channels that make up an image,
@@ -109,7 +108,6 @@ This node converts an RGB input and outputs a greyscale image.
 Set Alpha Node
 --------------
 
-
 .. figure:: /images/Tutorials-NTR-ComSetAlpha.jpg
 
    Set Alpha node
@@ -179,7 +177,6 @@ transparent, allowing you to layer images on top of one another.
 Using SetAlpha to Colorize a BW Image
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
 .. figure:: /images/Manual-Compositing-SetAlpha_Colorize.jpg
 
    Using Set Alpha to Colorize an Image
@@ -195,7 +192,6 @@ which tells the AlphaOver node not to multiply the alpha values of the two image
 
 ID Mask Node
 ------------
-
 
 .. figure:: /images/Manual-Compositing-Node-IDMask.jpg
 
@@ -231,7 +227,6 @@ node or DOF noodles caused by some objects being close to camera against objects
 Example
 ~~~~~~~
 
-
 .. figure:: /images/Manual-Compositing-Node-IDMask_ex.jpg
    :width: 300px
    :figwidth: 300px
@@ -259,7 +254,6 @@ the mask will not reflect that partially obscured part.
 Math Node
 ---------
 
-
 .. figure:: /images/Manual-Compositing-Node-Math.jpg
 
    Math node
@@ -282,10 +276,8 @@ FIXME(Template Unsupported: Version;
 Examples
 ~~~~~~~~
 
-
 Manual Z-Mask
 _____________
-
 
 .. figure:: /images/Manual-Compositing-Node-Math_MinMax.jpg
    :width: 300px
@@ -314,7 +306,6 @@ so they are chosen for the left side, but the plane (FlyCam) Renderlayer's Z are
 Using Sine Function to Pulsate
 ______________________________
 
-
 .. figure:: /images/Manual-Compositing-Node-Math_Sine.jpg
 
 
@@ -340,7 +331,6 @@ Alter a color channel value to make a color "pulse".
 
 Brightening/Scaling a Channel
 _____________________________
-
 
 .. figure:: /images/Manual-Compositing-Node-Math_Multiply.jpg
 
@@ -439,7 +429,6 @@ Thank a Teacher if you understand this.
 Reality
 _______
 
-
 .. figure:: /images/Manual-Compositing-Node-Math_Quantize-Red.jpg
    :width: 650px
    :figwidth: 650px
@@ -517,7 +506,6 @@ See the global wikipedia for more information on color spaces.
 Separate/Combine RGBA Node
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
 .. figure:: /images/Tutorials-NTR-ComSepRGBA.jpg
 
    Separate RGBA node
@@ -539,7 +527,6 @@ You use this node combine the channels after working on each color channel separ
 
 Examples
 ________
-
 
 .. figure:: /images/Manual-Compositing-Covert-CombineRGBA.jpg
    :width: 200px
@@ -568,7 +555,6 @@ Very fun.
 Separate/Combine HSVA Nodes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
 .. figure:: /images/Tutorials-NTR-ComSepHSVA.jpg
 
    Separate HSVA node
@@ -588,7 +574,6 @@ You could isolate a specific range of colors
 
 Separate/Combine YUVA Node
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 .. figure:: /images/Manual-Compositing_Nodes-Separate_YUVA.jpg
 
@@ -611,7 +596,6 @@ can set a default value for the whole image for that channel using the numeric c
 
 Separate/Combine YCbCrA Node
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 .. figure:: /images/Manual-Compositing_Nodes-Separate_YCbCrA.jpg
 

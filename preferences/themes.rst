@@ -7,7 +7,6 @@ FIXME(Template Unsupported: Doc:2.5/Manual/Interface/Configuration/index;
 Customizing themes
 ==================
 
-
 As has been said previously, Blender is very customizable—some of the settings affect
 interface appearance and colors. These are set under the :guilabel:`Themes` tab.
 

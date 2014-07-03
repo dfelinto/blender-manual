@@ -2,7 +2,6 @@
 Open Shading Language
 =====================
 
-
 Users can now create their own nodes using the [http://code.google.
 com/p/openshadinglanguage/ Open Shading Language] (OSL).
 Note that these nodes will only work for CPU rendering;
@@ -15,7 +14,6 @@ must be installed to compile OSL scripts.
 
 Script Node
 ___________
-
 
 OSL was designed for node-based shading,
 and **each OSL shader corresponds to a node** in a node setup. To add an OSL shader,
@@ -58,7 +56,6 @@ without having to update the script nodes in all files.
 
 Writing Shaders
 _______________
-
 
 For more details on how to write shaders,
 see the [https://github.com/imageworks/OpenShadingLanguage/raw/master/src/doc/osl-languagespec.
@@ -122,7 +119,6 @@ FIXME(Tag Unsupported:span;
 Closures
 ________
 
-
 OSL is different from, for example, RSL or GLSL, in that it does not have a light loop.
 There is no access to lights in the scene,
 and the material must be built from closures that are implemented in the render engine itself.
@@ -134,7 +130,6 @@ The available closures in Cycles correspond to the shader nodes and their socket
 
 BSDF
 ****
-
 
 - ``diffuse(N)``
 - ``oren_nayar(N, roughness)``
@@ -161,14 +156,12 @@ BSDF
 BSSRDF
 ******
 
-
 - ``bssrdf_cubic(N, radius, texture_blur, sharpness)``
 - ``bssrdf_gaussian(N, radius, texture_blur)``
 
 
 Volume
 ******
-
 
 - ``henyey_greenstein(g)``
 
@@ -186,7 +179,6 @@ FIXME(Template Unsupported: NewIn;
 Other
 *****
 
-
 - ``emission()``
 - ``ambient_occlusion()``
 - ``holdout()``
@@ -195,7 +187,6 @@ Other
 
 Attributes
 __________
-
 
 Some object, particle and mesh attributes are available to the built-in getattribute()
 function. UV maps and vertex colors can be retrieved using their name.
@@ -255,7 +246,6 @@ Other attributes are listed below:
 
 Trace
 _____
-
 
 We support the trace(point pos, vector dir, ...) function, to trace rays from the OSL shader.
 The "shade" parameter is not supported currently,

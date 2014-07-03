@@ -2,7 +2,6 @@
 Curve Modifier
 ==============
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -24,7 +23,6 @@ the curve endings.
 
 Options
 -------
-
 
 .. figure:: /images/25-Manual-Modifiers-Curve.jpg
 

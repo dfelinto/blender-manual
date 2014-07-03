@@ -2,7 +2,6 @@
 Armature Modifier
 =================
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -28,7 +27,6 @@ For more details on armatures usage, see :doc:`this chapter <rigging>`\ .
 
 Options
 -------
-
 
 .. figure:: /images/25-Manual-Modifiers-Armature.jpg
 

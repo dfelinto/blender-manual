@@ -5,7 +5,6 @@
 Soft Body settings
 ==================
 
-
 :guilabel:`Soft Body`
    This creates the soft body modifier on the selected object
 :guilabel:`Render`
@@ -32,7 +31,6 @@ Soft Body
 
 Soft Body Cache
 ---------------
-
 
 .. admonition:: Start- and Endframe
    :class: note

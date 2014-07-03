@@ -8,7 +8,6 @@
 Types of Material Nodes
 =======================
 
-
 This section is organized by type of node, which are grouped based on similar functions:
 
 

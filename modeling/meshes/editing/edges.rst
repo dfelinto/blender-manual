@@ -4,7 +4,6 @@
 Make Edge/Face
 ==============
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -26,7 +25,6 @@ mesh.
 Mark Seam and Clear Seam
 ------------------------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -40,7 +38,6 @@ Seams are a way to create separations, "islands", in UV maps. See the :doc:`UVTe
 
 Mark Sharp and Clear Sharp
 --------------------------
-
 
 .. admonition:: Reference
    :class: refbox
@@ -56,7 +53,6 @@ The :guilabel:`Sharp` flag is used by the :doc:`EdgeSplit modifier <modifiers/ge
 Adjust Bevel Weight
 -------------------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -71,7 +67,6 @@ This edge property (a value between **0.0** and **1.0**\ ) is used by the :doc:`
 Crease SubSurf
 --------------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -85,7 +80,6 @@ This edge property (a value between **0.0** and **1.0**\ ) is used by the :doc:`
 
 Edge Slide
 ==========
-
 
 .. admonition:: Reference
    :class: refbox
@@ -196,7 +190,6 @@ in different edge loops.
 Rotate Edge
 ===========
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -237,7 +230,6 @@ selected the common edge shown in (\ *Selected edge rotated CW and CCW.*\ ).
 
 Delete Edge Loop
 ================
-
 
 .. admonition:: Reference
    :class: refbox
@@ -282,7 +274,6 @@ there would be an empty band of deleted faces all the way around the sphere inst
 Collapse
 ========
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -313,7 +304,6 @@ removing the face loop it ran through.
 Edge Split
 ==========
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -341,7 +331,6 @@ Edge Split
 
 Bridge Edge Loops
 =================
-
 
 .. admonition:: Reference
    :class: refbox

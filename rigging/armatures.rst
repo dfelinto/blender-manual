@@ -7,13 +7,11 @@
 Armatures
 =========
 
-
 An "armature" is a type of object used for :doc:`rigging <rigging>`\ . Armature object borrows many ideas from real life skeletons.
 
 
 Your first armature
 -------------------
-
 
 In order to see what we're talking about, let's try to add the default armature in Blender.
 
@@ -46,7 +44,6 @@ Open a default scene, then:
 The armature object
 -------------------
 
-
 As you can see, an armature is like any other object type in Blender:
 
 - It has a center, a position, a rotation and a scale factor.
@@ -66,7 +63,6 @@ you usually get the current "pose" of the armature
 
 Armature chapter overview
 -------------------------
-
 
 In the "Armatures" section, we will only talk about armatures themselves,
 and specifically we will talk about:

@@ -2,10 +2,8 @@
 Pivot Point
 ===========
 
-
 Pivot Point selector
 --------------------
-
 
 .. admonition:: Reference
    :class: refbox

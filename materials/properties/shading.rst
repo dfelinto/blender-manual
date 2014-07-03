@@ -2,7 +2,6 @@
 Shading
 =======
 
-
 In the separate :guilabel:`Shading` tab six more options are available:
 
 

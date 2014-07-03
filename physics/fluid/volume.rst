@@ -2,13 +2,11 @@
 Controlling the fluid volume
 ============================
 
-
 To control the volume of the fluid simulation, you can set objects in the scene to add or absorb fluid within the :doc:`Fluid Domain <physics/fluid/domain>`\ .
 
 
 Inflow
 ------
-
 
 .. figure:: /images/Blender_fluids_inflow.jpg
    :width: 300px
@@ -38,7 +36,6 @@ FIXME(Template Unsupported: Doc:2.6/Manual/Physics/Fluid/animated_mesh_export;
 
 Outflow
 -------
-
 
 .. figure:: /images/Blender_fluids_outflow.jpg
    :width: 300px

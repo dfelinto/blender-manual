@@ -2,10 +2,8 @@
 Drivers
 =======
 
-
 Drivers
 -------
-
 
 .. figure:: /images/Doc_Animation_Driver_FCurve.jpg
 
@@ -28,7 +26,6 @@ Most the settings for the drivers :doc:`F-Curves <animation/editors/graph/fcurve
 Drivers Panel
 -------------
 
-
 .. figure:: /images/Doc_Animation_Panel_Drivers.jpg
 
    Graph Editor: Drivers: Drivers Panel.
@@ -42,7 +39,6 @@ will determine the value of the *Driver Value*\ .
 
 Driver Settings
 _______________
-
 
 :guilabel:`Update Dependencies`
    This will force an update for the Driver Value dependencies.
@@ -100,7 +96,6 @@ _______________
 Driver Variables
 ________________
 
-
 :guilabel:`Name`
    Name to use for scripted expressions/functions.
    No spaces or dots are allowed and must start with a letter.
@@ -151,10 +146,8 @@ ________________
 Workflow
 --------
 
-
 Adding Drivers
 ______________
-
 
 To control a property with a driver, find the property you want to add driver to.
 
@@ -178,7 +171,6 @@ FIXME(Template Unsupported: Shortcut/Mouse;
 
 Transform Driver
 ________________
-
 
 This example shows you how rotate a cube mesh by moving another cube left or right in the 3D
 view.
@@ -212,13 +204,11 @@ Now when you move the *Cube* left or right in the 3D View, *Cube.001* should rot
 Examples
 --------
 
-
 Some Driver Examples.
 
 
 Driver Expression
 _________________
-
 
 Here are some examples using the scripted expression Expr to set the Driver Value.
 
@@ -230,7 +220,6 @@ Here are some examples using the scripted expression Expr to set the Driver Valu
 
 Orbit a point
 +++++++++++++
-
 
 Here two drivers have been added to the Cube, X Location and Y Location.
 
@@ -252,7 +241,6 @@ The scripted expressions are being used to set the object location.
 
 Driver Namespace
 ++++++++++++++++
-
 
 There is a list of built in driver functions and properties.
 These can be displayed via the python console.
@@ -297,7 +285,6 @@ which can then be used in the expression **driverFunc(frame)**\ .
 Shape Key Driver
 ________________
 
-
 This example is a Shape Key Driver. The driver was added to the shape key Value.
 
 
@@ -322,7 +309,6 @@ See :doc:`Shape Keys <animation/basics/shape_keys>` for more info.
 
 Drivers And Multiple Relative Shape Keys
 ----------------------------------------
-
 
 The following screenshots illustrate combining shape keys, bones, and
 drivers to make multiple chained relative shape keys sharing a single
@@ -407,13 +393,11 @@ the needs of your animation.
 Troubleshooting
 ---------------
 
-
 Some common problems people may run in to when using drivers.
 
 
 Scripted Expression
 ___________________
-
 
 .. figure:: /images/Doc_Drivers_Auto_Run_B.jpg
 
@@ -445,14 +429,12 @@ or set *Auto Run Python Scripts* in *User Preferences > File > Auto Execution*\ 
 Rotational Properties are Radians
 _________________________________
 
-
 Parts of the User Interface may use different units of measurements for angles, rotation.
 In the Graph Editor while working with Drivers, all angles are Radians.
 
 
 Intra-armature Bone Drivers Can Misbehave
 _________________________________________
-
 
 There is a `well known limitation <https://developer.blender.org/T40301>`__
 with drivers on bones that refer to another bone in the same armature.  Their values can be
@@ -465,7 +447,6 @@ number or because you're skipping already-rendered frames).
 See Also
 --------
 
-
 - :doc:`Animation <animation>`
 - :doc:`Graph Editor <animation/editors/graph>`
 - :doc:`F-Curves <animation/editors/graph/fcurves>`
@@ -474,7 +455,6 @@ See Also
 
 Links
 -----
-
 
 - `Python <http://www.python.org>`__ and its `documentation <http://www.python.org/doc>`__\ .
 - `functions.wolfram.com <http://functions.wolfram.com/>`__

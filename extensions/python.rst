@@ -2,10 +2,8 @@
 Blender 2.6, Python Manual
 ==========================
 
-
 Introduction
 ------------
-
 
 Welcome to the Blender 2.6 Python Manual.
 

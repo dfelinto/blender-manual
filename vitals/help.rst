@@ -4,7 +4,6 @@
 Help system
 ===========
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -28,7 +27,6 @@ Other new features like:
 
 General Web-based Help Options
 ------------------------------
-
 
 .. admonition:: Browser and Internet Connection
    :class: nicetip
@@ -55,7 +53,6 @@ General Web-based Help Options
 Programming Options
 -------------------
 
-
 - `Python 2.6X API Reference <http://www.blender.org/documentation/blender_python_api_2_61_3/>`__ - Python application programming interface (API) that Blender and :doc:`Python <introduction/installing_blender/python>` use to communicate with each other. Useful for the Blender Game Engine, Customizing, and other scripting.
 
 
@@ -78,7 +75,6 @@ To read the Text, switch to the Blender :guilabel:`Text Editor` Window, using th
 
 Diagnostics Options
 -------------------
-
 
 .. figure:: /images/Manual-Vitals-Help-Search-Info.jpg
 
@@ -119,7 +115,6 @@ To read the Text, switch to the Blender :guilabel:`Text Editor` Window, using th
 Legacy Version Support
 ----------------------
 
-
 - :guilabel:`FCurve/Driver fix` - Sometimes, when you load .blend's made from older versions of Blender (2.56 and previous), the Function Curves and Shapekey Drivers will not function correctly due to updates in the animation system. Selecting this option updates the FCurve/Driver data paths.
 
 
@@ -128,7 +123,6 @@ Legacy Version Support
 
 Splash Screen
 -------------
-
 
 .. figure:: /images/Manual-Vitals-Help-Search-Splash.jpg
 
@@ -150,14 +144,12 @@ They are presented as the same links you will find at the :guilabel:`Help` Menu.
 Other Help Options
 ==================
 
-
 Here we explain the two new features added for Blender,
 :guilabel:`Blender Search` and the recoded :guilabel:`Tooltips`\ .
 
 
 Blender Search
 --------------
-
 
 .. admonition:: Reference
    :class: refbox
@@ -198,7 +190,6 @@ the small Pop Up Window for the Blender Search will stay blank.
 
 Tooltips
 --------
-
 
 .. figure:: /images/Manual-Vitals-Help-Tooltip-Render-Engine.jpg
 

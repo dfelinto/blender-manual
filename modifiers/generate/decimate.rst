@@ -2,7 +2,6 @@
 Decimate Modifier
 =================
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -35,7 +34,6 @@ you to visualize your changes in :guilabel:`Edit mode`\ .
 Options
 -------
 
-
 .. figure:: /images/25-Manual-Modifiers-Decimate.jpg
 
    decimate modifier
@@ -51,7 +49,6 @@ Options
 
 Examples
 --------
-
 
 Simple plane
 ~~~~~~~~~~~~

@@ -2,7 +2,6 @@
 Video Textures
 ==============
 
-
 .. figure:: /images/Doc-26-Manual-Textures-Video-Example.jpg
    :width: 700px
    :figwidth: 700px
@@ -16,10 +15,8 @@ Video Textures
 Options
 -------
 
-
 Image
 ~~~~~
-
 
 .. figure:: /images/Doc-26-Manual-Textures-Video-Imagepanel.jpg
    :width: 400px

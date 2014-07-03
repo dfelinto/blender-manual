@@ -5,7 +5,6 @@
 Cloth Simulation
 ================
 
-
 +--------------------------------------+-------------------------------------------------+--------------------------------------+
 +.. figure:: /images/Cloth-example1.jpg|.. figure:: /images/Cloth-oncarvedwood.jpg       |.. figure:: /images/Cloth-example2.jpg+
 +   :width: 150px                      |   :width: 150px                                 |   :width: 150px                      +
@@ -27,7 +26,6 @@ all of which is under your control.
 
 Description
 -----------
-
 
 A piece of cloth is any mesh, open or enclosed, that has been designated as cloth. The
 :guilabel:`Cloth` panels are located in the :guilabel:`Physics` sub-context and consist of
@@ -125,7 +123,6 @@ Damping
 Pinning
 -------
 
-
 .. figure:: /images/Clothscreeny2.jpg
    :width: 200px
    :figwidth: 200px
@@ -181,7 +178,6 @@ there are several items that have to be set up and working together:
 
 Collision Settings
 ------------------
-
 
 .. figure:: /images/Cloth_collisionpanel.jpg
    :width: 200px
@@ -257,7 +253,6 @@ and in the 3D View header, select :guilabel:`Object` → :guilabel:`Convert Obj
 Cloth - Object collisions
 -------------------------
 
-
 .. figure:: /images/Manual-Panel-Collision.jpg
    :width: 200px
    :figwidth: 200px
@@ -286,7 +281,6 @@ soft bodies, and cloth).
 Mesh Object Modifier Stack
 --------------------------
 
-
 .. figure:: /images/Manual-Simulation-Cloth-ColliderStack.jpg
    :width: 200px
    :figwidth: 200px
@@ -310,7 +304,6 @@ Cache settings for cloth are the same as with other dynamic systems. See :doc:`P
 
 Bake Collision
 --------------
-
 
 .. figure:: /images/Manual-Simulation-Cloth-CollisionBake.jpg
    :width: 200px
@@ -452,7 +445,6 @@ Cloth with Dynamic Paint using animated vertex groups: `Regression blend file <h
 Using Cloth for Softbodies
 --------------------------
 
-
 .. figure:: /images/Cloth-Sb1.jpg
    :width: 200px
    :figwidth: 200px
@@ -470,7 +462,6 @@ Blend file for the example image: `Using Cloth for softbodies <http://wiki.blend
 
 Cloth with Wind
 ---------------
-
 
 .. figure:: /images/Cloth-flag2.jpg
    :width: 200px

@@ -13,7 +13,6 @@ Each effect enhances your content in some way or allows professional-quality tra
 Add
 ---
 
-
 .. figure:: /images/Manual-VSE-Lighting-Example.gif
 
    Can you hear the thunder?
@@ -42,7 +41,6 @@ and is controlled the same way by feeding the Factor input.
 Subtract Effect
 ---------------
 
-
 .. figure:: /images/Manual-VSE-Subtract.jpg
    :width: 300px
    :figwidth: 300px
@@ -60,7 +58,6 @@ since red and green make yellow.
 Cross and Gamma Cross
 ---------------------
 
-
 .. figure:: /images/Manual-VSE-Cross.jpg
 
 
@@ -73,7 +70,6 @@ resulting in a smooth transition that is easier on the eye.
 
 Fade to Black
 ~~~~~~~~~~~~~
-
 
 .. figure:: /images/Manual-VSE-Cross-Fade.jpg
    :width: 300px
@@ -96,7 +92,6 @@ Use the dominant color in the second strip to introduce the second strip.
 
 Multiply
 --------
-
 
 .. figure:: /images/Manual-VSE-Multiply.jpg
    :width: 300px
@@ -131,7 +126,6 @@ With uniform colors
 
 Alpha Over, Under, and Over Drop
 --------------------------------
-
 
 .. figure:: /images/Manual-VSE-Alpha.jpg
    :width: 300px
@@ -247,7 +241,6 @@ crossing from the base image to the glowing one.
 Transform
 ---------
 
-
 .. figure:: /images/Manual-VSE-Transform_ex.gif
 
 
@@ -298,7 +291,6 @@ position the next strip under the original at a point where you want motion to c
 Creating a Slow-Motion Effect
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
 .. figure:: /images/Manual-VSE-Speed-slomo-2.jpg
    :width: 300px
    :figwidth: 300px
@@ -327,7 +319,6 @@ That's it! Set your render to animate (in this example) all 550 frames.
 
 Keyframing the Speed Control
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 .. figure:: /images/Speed-Control-keyframe-Frame-number.jpg
 
@@ -371,7 +362,6 @@ the strip will last exactly 5 minutes.
 Multicam Selector
 -----------------
 
-
 Ever wanted to do multicam editing with Blender? Now you can and it is mindbogglingly easy:
 
 
@@ -395,7 +385,6 @@ do some fine tuning by selecting the outer handles of two neighboring multicam f
 
 Adjustment Layer
 ----------------
-
 
 The adjustment layer strip works like a regular input file strip except for the fact,
 that it considers all strips below it as it's input.

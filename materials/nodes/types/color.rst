@@ -2,10 +2,8 @@
 Material Color Nodes
 ====================
 
-
 MixRGB
 ------
-
 
 .. figure:: /images/26-Manual-Material-Color-Node-Mix.jpg
 
@@ -65,7 +63,6 @@ Not one, not two, but count 'em, sixteen mixing choices include:
 Inputs
 ~~~~~~
 
-
 :guilabel:`Fac`
    The amount of mixing of the bottom socket is selected by the Factor input field (Fac:). A factor of zero does not use the bottom socket, whereas a value of 1.0 makes full use. In Mix mode, 50:50 (0.50) is an even mix between the two, but in Add mode, 0.50 means that only half of the second socket's influence will be applied.
 :guilabel:`Color 1`
@@ -77,7 +74,6 @@ Inputs
 Outputs
 ~~~~~~~
 
-
 :guilabel:`Color`
     Value of the color, combined by the node.
 
@@ -85,14 +81,12 @@ Outputs
 Controls
 ~~~~~~~~
 
-
 :guilabel:`Clamp`
     Clamp result of the node to 0...1 range.
 
 
 RGB Curves
 ----------
-
 
 .. figure:: /images/26-Manual-Material-Color-Node-Curves.jpg
 
@@ -119,7 +113,6 @@ set the curve so that a little red does not show at all, but a lot of red does.
 Inputs
 ~~~~~~
 
-
 :guilabel:`Fac`\ :
     Factor. The degree of node's influence in node tree. The value can be provided by another node or set manually. Value range - from «-1» (inverted effect) to «1».
 :guilabel:`Color`
@@ -135,7 +128,6 @@ Outputs
 
 Controls
 ~~~~~~~~
-
 
 .. figure:: /images/26-Manual-Material-Color-Node-Curves-Channels.jpg
 
@@ -215,7 +207,6 @@ Here are some common curves you can use to achieve desired effects:
 Invert
 ------
 
-
 .. figure:: /images/26-Manual-Material-Color-Node-Invert.jpg
 
    Invert node
@@ -226,7 +217,6 @@ This node simply inverts the input values and colors.
 
 Inputs
 ~~~~~~
-
 
 :guilabel:`Fac`\ :
     Factor. The degree of node's influence in node tree. The value can be provided by another node or set manually.
@@ -244,7 +234,6 @@ Outputs
 Hue Saturation Value
 --------------------
 
-
 .. figure:: /images/26-Manual-Material-Color-Node-HSV.jpg
 
    Hue Saturation Value node
@@ -255,7 +244,6 @@ Use this node to adjust the Hue, Saturation, and Value of an input.
 
 Inputs
 ~~~~~~
-
 
 :guilabel:`Fac`
     Factor. The degree of node's influence in node tree. The value can be provided by another node or set manually.
@@ -273,7 +261,6 @@ Inputs
 
 Outputs
 ~~~~~~~
-
 
 :guilabel:`Color`
     Value of the color, combined by the node.

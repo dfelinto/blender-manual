@@ -2,7 +2,6 @@
 Weight Tools
 ============
 
-
 .. figure:: /images/26-Manual-Modeling-Meshes-weight-paint-tools.jpg
 
    Weight Paint Tools
@@ -47,7 +46,6 @@ which keep their weight values untouched.
 Operator parameters
 +++++++++++++++++++
 
-
 .. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-normalize-all.jpg
 
    Normalize All Options
@@ -61,7 +59,6 @@ Please note: Currently this tool normalizes ALL vertex groups except the locked 
 
 Normalize
 =========
-
 
 .. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-normalize.jpg
 
@@ -79,7 +76,6 @@ None
 Mirror
 ======
 
-
 .. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-mirror.jpg
 
    Normalize All Options
@@ -93,7 +89,6 @@ The mirror only takes place within the selected Vertex Group.
 
 Operator parameters
 +++++++++++++++++++
-
 
 .. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-mirror-options.jpg
 
@@ -124,7 +119,6 @@ Topology Mirror
 Invert
 ======
 
-
 .. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-invert.jpg
 
    Invert
@@ -145,7 +139,6 @@ Note: Please see how the parameter settings change the behavior.
 Operator parameters
 +++++++++++++++++++
 
-
 .. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-invert-operator.jpg
 
    Mirror Options
@@ -163,7 +156,6 @@ Note: Locked vertex Groups are not affected.
 
 Clean
 =====
-
 
 .. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-clean.jpg
 
@@ -183,7 +175,6 @@ Weights are shown in Black.
 Operator parameters
 +++++++++++++++++++
 
-
 .. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-clean-operator.jpg
 
    Mirror Options
@@ -200,7 +191,6 @@ Keep Single
 Levels
 ======
 
-
 .. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-levels.jpg
 
    Invert
@@ -214,7 +204,6 @@ Note: No weight will ever be set to values above 1.0 or below 0.0 regardless of 
 
 Operator parameters
 +++++++++++++++++++
-
 
 .. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-levels-operator.jpg
 
@@ -302,7 +291,6 @@ And I want to use this edge loop for blending the left side to the right side of
 Operator parameters
 +++++++++++++++++++
 
-
 .. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-blend-operator.jpg
 
    Blend Options
@@ -322,7 +310,6 @@ object. However you can change the tool's behavior in the operator redo panel (s
 
 Prepare the copy
 ----------------
-
 
 .. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-transfer-wrong.jpg
 
@@ -431,7 +418,6 @@ Limit
 
 Weight Gradient (wip)
 =====================
-
 
 .. figure:: /images/WeightGradient_266.jpg
    :width: 200px

@@ -2,10 +2,8 @@
 Axis Locking
 ============
 
-
 Description
 -----------
-
 
 .. figure:: /images/3D_interaction-Transform_Control-Axis_locking-axis-locking.jpg
    :width: 150px
@@ -19,7 +17,6 @@ Description
 
 Usage
 ~~~~~
-
 
 A locked axis will display in a brighter color than an unlocked axis.
 For example in the image to the right,
@@ -36,10 +33,8 @@ This example can be achieved in two ways:
 Axis locking types
 ------------------
 
-
 Axis locking
 ~~~~~~~~~~~~
-
 
 .. admonition:: Reference
    :class: refbox
@@ -56,7 +51,6 @@ scale or rotate in a single dimension.
 
 Plane locking
 ~~~~~~~~~~~~~
-
 
 .. admonition:: Reference
    :class: refbox
@@ -84,7 +78,6 @@ always constrained around one axis.
 
 Axis locking modes
 ~~~~~~~~~~~~~~~~~~
-
 
 .. figure:: /images/3D_interaction-Transform_Control-Axis_locking-locking-modes.jpg
    :width: 340px

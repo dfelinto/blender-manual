@@ -8,7 +8,6 @@ Overview
 Sculpt Mode
 ===========
 
-
 Sculpt mode is selected from the mode menu of the :guilabel:`3D View` header.
 
 Once sculpt mode is activated the :guilabel:`Toolbar` of the :guilabel:`3D View` will change
@@ -103,7 +102,6 @@ Sculpting with the Multires Modifier
 Sculpt Properties Panel
 =======================
 
-
 This panel appears in the tool palette on the left side of the 3D viewport.
 
 
@@ -183,7 +181,6 @@ and :guilabel:`Airbrush`\ strokes:
 Curve Menu
 ----------
 
-
 The :guilabel:`Curve` section allows you to use a curve control to the right to modify the
 intensity of the brush from its centre (left part of the curve) towards its borders
 (right part of the curve).
@@ -228,7 +225,6 @@ or create a new one by selecting the :guilabel:`New` button
 
 Symmetry Menu
 -------------
-
 
 Mirror the brush strokes across the selected local axes.
 Note that if you want to alter the directions the axes point in,
@@ -278,7 +274,6 @@ You can also set Blender to use the current brush for :guilabel:`Vertex Paint` m
 Hiding and Revealing Mesh
 =========================
 
-
 It is sometimes useful to isolate parts of a mesh to sculpt on. To hide a part of a mesh,
 press :kbd:`H` then click & drag around the part you want to hide.
 To reveal a hidden part of a mesh,
@@ -295,7 +290,6 @@ To reveal all hidden parts, just hit :kbd:`alt-H`\ .
 
 Keyboard Shortcuts
 ==================
-
 
 These shortcuts may be customized under File > User preferences > Input > 3D View > Sculpt
 Mode.

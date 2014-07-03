@@ -15,7 +15,6 @@ In Blender, the only templating tool is the bone sketching one (Etch-a-ton, desc
 Using Bone Sketching
 --------------------
 
-
 .. admonition:: Reference
    :class: refbox
 

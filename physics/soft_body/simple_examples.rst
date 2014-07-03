@@ -2,13 +2,11 @@
 Simple examples
 ===============
 
-
 some simple examples showing the power of softbody physics.
 
 
 bouncing cube
 -------------
-
 
 change your start and end frames to 1 and 150.
 
@@ -64,7 +62,6 @@ you can now bake the simulation, give the cube materials and textures and render
 
 result
 ------
-
 
 the rendered bouncing cube:
 

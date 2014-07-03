@@ -4,7 +4,6 @@
 Subdivision Surfaces ("Subsurf") Modifier
 =========================================
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -52,7 +51,6 @@ Another way to subdivide is with the :doc:`MultiResolution Modifier <modifiers/g
 
 Options
 -------
-
 
 .. figure:: /images/25-Manual-Modifiers-Subsurf.jpg
 
@@ -124,7 +122,6 @@ but use a higher quality version when rendering.
 Order of the Modifier Stack
 ---------------------------
 
-
 .. figure:: /images/Manual-Modifiers-Generate-Subsurf_OrderOfExecution.jpg
 
    Notice that the Armature Modifier before the Subsurf comes out much better in this case. Also, the Mirror before the Subsurf is clearly correct compared to the other way around.
@@ -141,7 +138,6 @@ Subsurf rounds off edges, and often this is not what you want. There are several
 
 Weighted Creases
 ~~~~~~~~~~~~~~~~
-
 
 .. admonition:: Reference
    :class: refbox
@@ -174,7 +170,6 @@ you have to increase the weight of all the surrounding edges.
 Edge Loops
 ~~~~~~~~~~
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -199,7 +194,6 @@ to control the sharpness/smoothness of the resultant mesh.
 
 Combination
 ~~~~~~~~~~~
-
 
 .. figure:: /images/Subsurf2x4.jpg
 
@@ -288,7 +282,6 @@ or of manually merging some vertices (\ :kbd:`Alt-m`\ ).
 
 Performance Considerations
 --------------------------
-
 
 Great levels of Subsurf demands more video memory, and a faster graphics card.
 Blender could potentially crash if your level of Subsurf surpasses your system memory.

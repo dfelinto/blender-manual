@@ -21,7 +21,6 @@ and spot lamps also provide other functionality such as "volumetric" halos.
 Lamp options
 ------------
 
-
 .. figure:: /images/25-Manual-Lighting-Lamps-Spot-LampOptions.jpg
    :width: 307px
    :figwidth: 307px
@@ -46,7 +45,6 @@ Lamp options
 
 Shadows
 -------
-
 
 .. figure:: /images/25-Manual-Lighting-Lamps-Spot-RayPanel.jpg
    :width: 306px

@@ -2,7 +2,6 @@
 Median Point as Pivot
 =====================
 
-
 .. admonition:: Reference
    :class: refbox
 

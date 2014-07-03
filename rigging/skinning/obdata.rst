@@ -134,7 +134,6 @@ groups methods:*
 Bone Deform Options
 -------------------
 
-
 .. figure:: /images/Man2.5RiggingEditingBoneCxtDeformPanel.jpg
    :width: 250px
    :figwidth: 250px
@@ -152,7 +151,6 @@ that you can therefore define independently for each of them*
 
 Envelope
 ~~~~~~~~
-
 
 .. figure:: /images/ManRiggingEnvelopePrinciples3DViewEditMode.jpg
    :width: 200px

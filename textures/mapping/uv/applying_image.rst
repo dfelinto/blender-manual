@@ -95,7 +95,6 @@ the Proper way and the Quick Way:
 Use UV Coordinates
 ~~~~~~~~~~~~~~~~~~
 
-
 .. figure:: /images/Doc26-textures-uv-coords.jpg
 
    A texture setup to map using its UV coordinates
@@ -121,7 +120,6 @@ Full details of using Image textures are on the :doc:`Image Textures <textures/t
 
 Face Textures
 ~~~~~~~~~~~~~
-
 
 .. figure:: /images/Doc26-textures-uv-layout-facetex.jpg
 
@@ -171,7 +169,6 @@ Editor window Image}} menu to :guilabel:`Replace` the current image with an exis
 
 New Images
 ~~~~~~~~~~
-
 
 .. figure:: /images/Doc26-textures-uv-layout-testGrid.jpg
    :width: 200px

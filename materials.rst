@@ -2,7 +2,6 @@
 Introduction to Materials
 =========================
 
-
 A material defines the artistic qualities of the substance that an object is made of.
 In its simplest form, you can use materials to show the substance an object is made of,
 or to "paint" the object with different colors. Usually,
@@ -95,7 +94,6 @@ depends on many inter-related settings:
 
 Using Materials
 ---------------
-
 
 .. admonition:: Check your Render
    :class: nicetip

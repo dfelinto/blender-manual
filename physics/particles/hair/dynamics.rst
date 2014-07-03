@@ -10,7 +10,6 @@ To enable hair physics, click the check box beside :guilabel:`Hair Dynamics`\ .
 Settings
 ========
 
-
 Material
 --------
 

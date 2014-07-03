@@ -2,7 +2,6 @@
 Selecting armature's bones
 ==========================
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -28,7 +27,6 @@ you can select a bone's end or body the same way regardless of the bone visualiz
 
 Selecting bones' ends
 ---------------------
-
 
 To select bones' ends you have the standard selection methods.
 
@@ -62,7 +60,6 @@ To select bones' ends you have the standard selection methods.
 Inverse selection
 ~~~~~~~~~~~~~~~~~
 
-
 As stated above, you have to remember that these selection tools are for bones' ends only,
 not the bones' bodies.
 
@@ -85,7 +82,6 @@ when the selection status of bones' ends is inverted, a new set of bones is sele
 Selecting connected bones' ends
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
 Another example is: when you select the root of a bone connected to its parent,
 you also implicitly select the tip of its parent (and vice versa).
 
@@ -95,7 +91,6 @@ the tip of the parent bone is the "same thing" as the root of its children bones
 
 Selecting Bones
 ---------------
-
 
 By :kbd:`rmb`\ -clicking on a bone's body, you will select it
 (and hence you will implicitly select its root and tip).
@@ -132,7 +127,6 @@ or :menuselection:`Select --> Extend Select Child` (\ :kbd:`ctrl-]`\ ).
 
 Deselecting connected bones
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 There is a subtlety regarding connected bones.
 

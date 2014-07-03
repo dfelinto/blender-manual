@@ -103,7 +103,6 @@ FIXME(TODO: Internal Link;
 Edge Marks
 ~~~~~~~~~~
 
-
 .. figure:: /images/Manual-Part26-freestyle-mark-freestyle-edge.jpg
 
    Select and mark Freestyle edges.
@@ -153,7 +152,6 @@ What are edge marks not good for?
 
 Selection by Face Marks
 -----------------------
-
 
 .. figure:: /images/Manual-Part26-freestyle-mark-freestyle-face.jpg
 

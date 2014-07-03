@@ -44,7 +44,6 @@ This is all related to the topic discussed at length in the :doc:`2.49 BSoD trac
 Options
 -------
 
-
 .. figure:: /images/25-Manual-Constraints-Tracking-LockedTrack.jpg
    :width: 304px
    :figwidth: 304px

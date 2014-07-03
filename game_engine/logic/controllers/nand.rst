@@ -2,7 +2,6 @@
 NAND Controller
 ===============
 
-
 This controller **activates** all connected actuators if
 
 - the game object is in the designated state

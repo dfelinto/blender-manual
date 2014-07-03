@@ -26,7 +26,6 @@ The :guilabel:`Select` menu (3D view headers) is even simpler than for curves…
 Every Nth
 ---------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -41,7 +40,6 @@ This is the same option as for :doc:`curve selection <modeling/curves/editing#ev
 Control Point Row
 -----------------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -55,7 +53,6 @@ This option works a bit like :doc:`edge loop selection <modeling/meshes/selectin
 
 More and Less
 -------------
-
 
 .. admonition:: Reference
    :class: refbox
@@ -89,7 +86,6 @@ from the basics of surface editing to more advanced topics, like retopology.
 Basic Surface Editing (translation, rotation, scale)
 ----------------------------------------------------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -106,7 +102,6 @@ You also have in :guilabel:`Edit` mode an extra option when using these basic ma
 Advanced Transform Tools
 ------------------------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -120,7 +115,6 @@ The :guilabel:`To Sphere`\ , :guilabel:`Shear`\ , :guilabel:`Wrap` and :guilabel
 NURBS Control Points Settings
 -----------------------------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -133,7 +127,6 @@ We saw in a :doc:`previous page <modeling/surfaces#weight>` that NURBS control p
 
 Adding or Extruding
 -------------------
-
 
 .. admonition:: Reference
    :class: refbox
@@ -206,7 +199,6 @@ reached the final shape for your model.
 Opening or Closing a Surface
 ----------------------------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -231,7 +223,6 @@ To toggle the cyclic property of a surface along one axis, use :kbd:`C` and choo
 
 Duplication
 -----------
-
 
 .. admonition:: Reference
    :class: refbox
@@ -259,7 +250,6 @@ at once won't work; you'll have to do it one after the other…
 Deleting Elements
 -----------------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -285,7 +275,6 @@ The :guilabel:`Erase` pop-up menu of surfaces offers you two options:
 Example
 ~~~~~~~
 
-
 +---------------------------------------------+
 +.. figure:: /images/NurbsDeletingSegments.jpg+
 +   :width: 600px                             +
@@ -300,7 +289,6 @@ In (\ *Before*\ ) a row of control points has been selected by initially selecti
 
 Joining or Merging Surfaces
 ---------------------------
-
 
 .. admonition:: Reference
    :class: refbox
@@ -349,7 +337,6 @@ Examples
 Subdivision
 -----------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -392,7 +379,6 @@ as for the :guilabel:`NURBS Tube` or :guilabel:`NURBS Donut` primitives.
 Switch Direction
 ----------------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -408,7 +394,6 @@ Mainly useful when using a curve as path, or the bevel and taper options…
 
 Other Specials Options
 ----------------------
-
 
 .. admonition:: Reference
    :class: refbox
@@ -434,7 +419,6 @@ using the surface resolutions in both directions to create faces, edges and vert
 
 Retopology
 ----------
-
 
 Snapping surface components is the same as is with meshes and curves. See :doc:`Retopology <modeling/meshes/editing/retopo>` for more information.
 

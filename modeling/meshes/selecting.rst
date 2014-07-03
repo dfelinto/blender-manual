@@ -13,10 +13,8 @@ First we will go through these modes and after that a look is taken at basic sel
 Selection Modes
 ---------------
 
-
 Select Mode Header Widgets
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 .. figure:: /images/25-Manual-Modeling-Meshes-Selection-mode-buttons.jpg
    :width: 190px
@@ -54,7 +52,6 @@ the pivot point to another location, so some tools are more or less applicable i
 
 Select Mode Pop-up
 ~~~~~~~~~~~~~~~~~~
-
 
 .. admonition:: Reference
    :class: refbox

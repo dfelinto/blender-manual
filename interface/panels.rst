@@ -2,7 +2,6 @@
 Panels
 ======
 
-
 .. figure:: /images/Manual-Interface-Panels-PropertiesPanels-25.jpg
 
    Part of the properties window

@@ -273,7 +273,6 @@ For video playback, you definitively want to set it to True.
 Checking video status
 ~~~~~~~~~~~~~~~~~~~~~
 
-
 Video source classes (such as VideoFFMpeg) have an attribute ``status``\ .
 If video is playing, its value is 2, if it's stopped, it's 3. So in our example:
 ::

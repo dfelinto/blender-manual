@@ -14,7 +14,6 @@ Interface configuration lets you change how UI elements are displayed and how th
 Display
 =======
 
-
 :guilabel:`Tooltips`
    When enabled, a tooltip will appear when your mouse pointer is over a control. This tip explains the function of what's under the pointer, gives the associated hotkey (if any) and the Python function that refers to it.
 :guilabel:`Object Info`
@@ -39,7 +38,6 @@ Display
 
 View manipulation
 =================
-
 
 :guilabel:`Cursor Depth`
    Use the depth under the mouse when placing the cursor.
@@ -71,14 +69,12 @@ View manipulation
 Manipulator
 ===========
 
-
 Permits configuration of the 3D transform manipulator  which is used to drag,
 rotate and resize objects (Size, Handle size).
 
 
 Menus
 =====
-
 
 :guilabel:`Open on Mouse Over`
    Select this to have the menu open by placing the mouse pointer over the entry instead of clicking on it.

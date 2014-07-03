@@ -5,13 +5,11 @@
 Keyframe Visualization
 ======================
 
-
 There are some important visualization features in the 3D views that can help animation.
 
 
 Keyframe Visualization
 ----------------------
-
 
 When the current frame is a keyframe for the current active object, the name of this object
 (shown in the bottom left corner of the 3D views) turns yellow.
@@ -24,7 +22,6 @@ When the current frame is a keyframe for the current active object, the name of 
 
 Motion Paths
 ------------
-
 
 .. admonition:: Reference
    :class: refbox
@@ -67,7 +64,6 @@ and a blue glow around the current frame.
 
 Options
 ~~~~~~~
-
 
 .. figure:: /images/Doc26-animation-keyframes-visualization-motionPath-panel.jpg
    :width: 200px

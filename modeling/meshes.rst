@@ -4,7 +4,6 @@
 Edit Mode
 =========
 
-
 Entering Edit Mode
 ------------------
 
@@ -59,7 +58,6 @@ or most recently selected, object.
 Visualization
 -------------
 
-
 .. figure:: /images/25-manual-editmode-cubeselect-1.jpg
 
    One cube selected
@@ -97,7 +95,6 @@ if enough vertices or edges are selected to define a face, that face is also hig
 Tool Shelf
 ----------
 
-
 .. figure:: /images/25-manual-editmode-meshtools-split.jpg
 
    The Tool Shelf panel in edit mode (panel split in two parts for layout reasons)
@@ -121,7 +118,6 @@ For further information on panels see the :doc:`Reference panels <ce/panels>` se
 
 Properties Shelf
 ----------------
-
 
 .. figure:: /images/25-manual-editmode-properties-split.jpg
 

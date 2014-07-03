@@ -5,7 +5,6 @@
 Raytraced Shadows
 =================
 
-
 .. figure:: /images/25-Manual-Lighting-Lamps-Sun-ShadPanel.jpg
    :width: 304px
    :figwidth: 304px

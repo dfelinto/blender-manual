@@ -2,7 +2,6 @@
 Armature Panels Overview
 ========================
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -24,7 +23,6 @@ in :guilabel:`Properties` window, :guilabel:`Object data` context:
 {{Literal|Skeleton}} panel (all modes)
 --------------------------------------
 
-
 .. figure:: /images/Man2.5RiggingEditingObjectDataPropertyCxtSkeletonPanel.jpg
    :width: 250px
    :figwidth: 250px
@@ -37,7 +35,6 @@ in :guilabel:`Properties` window, :guilabel:`Object data` context:
 
 {{Literal|Display}} panel (all modes)
 -------------------------------------
-
 
 .. figure:: /images/Man2.5RiggingEditingObjectDataPropertyCxtDisplayPanel.jpg
    :width: 250px
@@ -54,7 +51,6 @@ in :guilabel:`Properties` window, :guilabel:`Object data` context:
 {{Literal|Bone groups}} panel (pose mode)
 -----------------------------------------
 
-
 .. figure:: /images/Man2.5RiggingEditingObjectDataPropertyCxtBonesGroupsPanel.jpg
    :width: 250px
    :figwidth: 250px
@@ -67,7 +63,6 @@ in :guilabel:`Properties` window, :guilabel:`Object data` context:
 
 {{Literal|Pose Library}} panel ({{Literal|Pose}} mode)
 ------------------------------------------------------
-
 
 .. figure:: /images/Man2.5RiggingEditingObjectDataPropertyCxtPoseLibraryPanel.jpg
    :width: 250px
@@ -82,7 +77,6 @@ in :guilabel:`Properties` window, :guilabel:`Object data` context:
 {{Literal|Ghost}} panel (all modes)
 -----------------------------------
 
-
 .. figure:: /images/Man2.5RiggingEditingObjectDataPropertyCxtGhostPanel.jpg
    :width: 250px
    :figwidth: 250px
@@ -95,7 +89,6 @@ in :guilabel:`Properties` window, :guilabel:`Object data` context:
 
 {{Literal|iTaSC parameters}} panel (all modes)
 ----------------------------------------------
-
 
 .. figure:: /images/Man2.5RiggingEditingObjectDataPropertyCxtiTaSCparametersPanel.jpg
    :width: 250px
@@ -110,7 +103,6 @@ in :guilabel:`Properties` window, :guilabel:`Object data` context:
 {{Literal|Motion Paths}} panel ({{Literal|Pose}} mode)
 ------------------------------------------------------
 
-
 .. figure:: /images/Man2.5RiggingEditingObjectDataPropertyCxtMotionPathsPanel.jpg
    :width: 250px
    :figwidth: 250px
@@ -124,7 +116,6 @@ in :guilabel:`Properties` window, :guilabel:`Object data` context:
 {{Literal|Custom Properties}} panel (all modes)
 -----------------------------------------------
 
-
 .. figure:: /images/Man2.5RiggingEditingObjectDataPropertyCxtCustomPropertiesPanel.jpg
    :width: 250px
    :figwidth: 250px
@@ -137,7 +128,6 @@ in :guilabel:`Properties` window, :guilabel:`Object data` context:
 
 Bone Panels Overview
 ====================
-
 
 .. admonition:: Reference
    :class: refbox
@@ -160,7 +150,6 @@ in :guilabel:`Properties` window, :guilabel:`Bone` context:
 {{Literal|Relations}} panel (edit mode)
 ---------------------------------------
 
-
 .. figure:: /images/Man2.5RiggingEditingBoneCxtRelationsPanel.jpg
    :width: 250px
    :figwidth: 250px
@@ -174,7 +163,6 @@ in :guilabel:`Properties` window, :guilabel:`Bone` context:
 {{Literal|Display}} panel (object mode)
 ---------------------------------------
 
-
 .. figure:: /images/Man2.5RiggingEditingBoneCxtDisplayPanel.jpg
    :width: 250px
    :figwidth: 250px
@@ -187,7 +175,6 @@ in :guilabel:`Properties` window, :guilabel:`Bone` context:
 
 {{Literal|Deform}} panel (all modes)
 ------------------------------------
-
 
 .. figure:: /images/Man2.5RiggingEditingBoneCxtDeformPanel.jpg
    :width: 250px
@@ -206,7 +193,6 @@ in :guilabel:`Properties` window, :guilabel:`Bone` context:
 {{Literal|Custom Properties}} panel (all modes)
 -----------------------------------------------
 
-
 .. figure:: /images/Man2.5RiggingEditingObjectDataPropertyCxtCustomPropertiesPanel.jpg
    :width: 250px
    :figwidth: 250px
@@ -219,7 +205,6 @@ in :guilabel:`Properties` window, :guilabel:`Bone` context:
 
 {{Literal|Transform}} panel (edit and pose mode)
 ------------------------------------------------
-
 
 .. figure:: /images/Man2.5RiggingEditingBoneCxtTransformPanel.jpg
    :width: 250px
@@ -243,7 +228,6 @@ in :guilabel:`Properties` window, :guilabel:`Bone` context:
 {{Literal|Transform Locks}} panel (pose mode)
 ---------------------------------------------
 
-
 .. figure:: /images/Man2.5RiggingEditingBoneCxtTranformLocksPanel.jpg
    :width: 250px
    :figwidth: 250px
@@ -256,7 +240,6 @@ in :guilabel:`Properties` window, :guilabel:`Bone` context:
 
 {{Literal|Inverse Kinematics}} panel (pose mode)
 ------------------------------------------------
-
 
 .. figure:: /images/Man2.5RiggingEditingBoneCxtInverseKinematicsPanel.jpg
    :width: 250px

@@ -10,7 +10,6 @@
 Non-Linear Animation Editor
 ===========================
 
-
 The NLA editor can manipulate and repurpose actions,  without the tedium of keyframe handling.
 Its often used to make broad, significant changes to a scene's animation, with relative ease.
 It can also repurpose, and 'layer' actions, which make it easier to organize,
@@ -19,7 +18,6 @@ and version-control your animation.
 
 Tracks
 ------
-
 
 Tracks are the layering system of the NLA.  At its most basic level,
 it can help organize strips.  But it also
@@ -33,7 +31,6 @@ last.
 Strips
 ------
 
-
 There's three kinds of strips - Action, Transition, and Meta.
 Actions contain the actual keyframe data,
 Transitions will perform calculations between Actions,
@@ -42,7 +39,6 @@ and Meta will group strips together as a whole.
 
 Creating Action Strips
 ______________________
-
 
 Any action used by the NLA first must be turned into an Action strip.  This is done so by clicking the
 
@@ -67,7 +63,6 @@ Any action used by the NLA first must be turned into an Action strip.  This is d
 Creating Transition Strips
 __________________________
 
-
 Select two or more strips on the same track, and go to
 
 .. admonition:: Reference
@@ -85,7 +80,6 @@ Select two or more strips on the same track, and go to
 
 Grouping Strips into Meta Strips
 ________________________________
-
 
 If you find yourself moving a lot of strips together, you can group them into a Meta strip.
 A meta strip can be moved and duplicated like a normal strip.
@@ -116,7 +110,6 @@ A meta strip still contains the underlying strips. You can ungroup a Meta strip.
 
 Editing Strips
 --------------
-
 
 The contents of Action strips can be edited, but you must be in 'Tweak Mode' to do so.
 
@@ -175,7 +168,6 @@ Note the default key for this is Tab.
 
 Re-Instancing Strips
 --------------------
-
 
 The contents' of one Action strip can be instanced multiple times.  To instance another strip,
 select
@@ -254,7 +246,6 @@ This represents the 'object data' of the strip.  Much like the transform values 
 
 Evaluation
 ~~~~~~~~~~
-
 
 This determines the degree of influence the strip has, and over what time.
 

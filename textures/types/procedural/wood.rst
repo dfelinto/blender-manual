@@ -2,7 +2,6 @@
 Procedural textures: Wood
 =========================
 
-
 .. figure:: /images/25-Manual-Textures-Procedural-Wood.jpg
    :width: 307px
    :figwidth: 307px

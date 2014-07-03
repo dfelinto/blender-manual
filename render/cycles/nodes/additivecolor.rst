@@ -2,7 +2,6 @@
 Cycles Additive Materials
 =========================
 
-
 If you used game engines or other renderers. You know about Additive Blending for materials.
 
 Also, the same material is in 3dMax.

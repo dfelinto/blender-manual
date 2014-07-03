@@ -18,7 +18,6 @@ clip.
 Workflow
 ========
 
-
 Generally, you do a lot of intermediate renders of different frames in your animation to check
 for timing, lighting, placement, materials, and so on. At some point,
 you are ready to make a final render of the complete animation for publication.
@@ -78,7 +77,6 @@ Frame Sequence Approach
 
 Frame Sequence Workflow
 -----------------------
-
 
 - First prepare your animation.
 - In the :guilabel:`Dimensions` panel, choose the render size, Pixel Aspect Ratio, and the Range of Frames to use, as well as the frame rate, which should already be set.

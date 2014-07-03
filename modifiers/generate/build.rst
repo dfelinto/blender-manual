@@ -5,7 +5,6 @@
 Build Modifier
 ==============
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -26,7 +25,6 @@ mode` by selecting :guilabel:`Sort Faces` from the :guilabel:`Search Menu`
 
 Options
 -------
-
 
 .. figure:: /images/build_modifier_animated.gif
    :width: 285px

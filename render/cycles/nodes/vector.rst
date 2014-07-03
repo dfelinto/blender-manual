@@ -4,22 +4,17 @@
 Vector Nodes
 ============
 
-
 Vector Transform
 ----------------
-
 
 Vector Curves
 -------------
 
-
 Normal
 ------
 
-
 Normal Map
 ----------
-
 
 Bump
 

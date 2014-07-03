@@ -2,7 +2,6 @@
 Message Sensor
 ==============
 
-
 .. figure:: /images/BGE_Sensor_Message.jpg
    :width: 300px
    :figwidth: 300px

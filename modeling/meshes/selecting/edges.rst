@@ -2,7 +2,6 @@
 Selecting Edges
 ===============
 
-
 .. figure:: /images/selection-mode_buttons_edge-activated.jpg
 
    Buttons for the selection modes
@@ -12,7 +11,6 @@ Edges can be selected in much the same way as vertices and faces - by right-clic
 
 Edge Loops
 ----------
-
 
 .. admonition:: Reference
    :class: refbox
@@ -44,7 +42,6 @@ Note, that if you want to select a loop while being in vertex select mode, you s
 
 Edge Rings
 ----------
-
 
 .. admonition:: Reference
    :class: refbox

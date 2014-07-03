@@ -2,7 +2,6 @@
 Touch sensor
 ============
 
-
 .. figure:: /images/BGE_Sensor_Touch.jpg
    :width: 300px
    :figwidth: 300px

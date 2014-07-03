@@ -6,13 +6,11 @@
 Smoke Domain
 ============
 
-
 Like the Fluid Sim, most of the settings are found when the Domain Object is selected.
 
 
 Creating the Domain
 -------------------
-
 
 Before you can add smoke to your scene you need to define the area where the smoke simulation
 takes place. In Blender physics this is called a domain. A good idea is to choose a cube for
@@ -50,7 +48,6 @@ we will return to the new settings that popped up later on.
 Generic options
 ---------------
 
-
 :guilabel:`Resolution`
    How detailed the smoke is. A resolution of 32 will bake in a few seconds, while a resolution of 100 can take up to a half hour on most PC's.
 :guilabel:`Time Scale`
@@ -80,13 +77,11 @@ Generic options
 Smoke Groups options
 --------------------
 
-
 ..    TODO/Review: {{WikiTask/Todo}} .
 
 
 Smoke High Resolution options
 -----------------------------
-
 
 The High Resolution option lets you simulate at low resolution and then uses noise techniques
 to enhance the resolution without actually computing it. This allows animators to set up a low
@@ -114,7 +109,6 @@ Turbulence for Fluid Simulation]'
 
 Smoke Field Weights options
 ---------------------------
-
 
 Determines how much various forces and force fields affect the smoke.
 

@@ -11,7 +11,6 @@ These may need to be manipulated numerically, reset, or applied.
 Transform Properties Panel
 ==========================
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -25,7 +24,6 @@ The :guilabel:`Transform Properties` section in the :guilabel:`View Properties` 
 
 Options in Object mode
 ----------------------
-
 
 .. figure:: /images/Transform-properties-panel.jpg
 

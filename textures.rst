@@ -5,7 +5,6 @@
 Introduction to Textures
 ========================
 
-
 In CGI, texture mapping is a method to add detail to surfaces by projecting images and
 patterns onto those surfaces.
 The projected images and patterns can be set to affect not only color, but also specularity,
@@ -28,7 +27,6 @@ In Blender, :guilabel:`Texture`\ s can be:
 
 Material Textures
 -----------------
-
 
 The material settings that we've seen so far produce smooth, *uniform* objects,
 but such objects aren't particularly true to reality,
@@ -91,7 +89,6 @@ Materials Textures fall into three primary categories:
 World Textures
 --------------
 
-
 ..    TODO/Review: {{WikiTask/Inprogress|10|just started}} .
 
 
@@ -105,7 +102,6 @@ World Textures
 
 Description
 ~~~~~~~~~~~
-
 
 The world buttons let you set up the shading of your scene in general.
 It can provide ambient colour, and special effects such as mist,
@@ -142,7 +138,6 @@ Paper
 
 Brush Textures
 --------------
-
 
 ..    TODO/Review: {{WikiTask/Inprogress|10|just started}} .
 

@@ -5,7 +5,6 @@
 Vertex Connect
 ==============
 
-
 .. admonition:: Reference
    :class: refbox
 

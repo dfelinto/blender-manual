@@ -2,7 +2,6 @@
 System
 ======
 
-
 The :guilabel:`System` tab at the Render context of the Properties Window, let the game
 developer specify options about the system performance regarding to frame discards and
 restrictions about frame renderings, the key to stop the Blender Game Engine,
@@ -11,7 +10,6 @@ and whether to maintain geometry in the internal memory of the Graphic card.
 
 Options
 -------
-
 
 .. figure:: /images/(Doc_26x_Manual_Game_Engine_Performance_System)_(System_Tab_BGE_Render_Context)_(GBAFN).jpg
 

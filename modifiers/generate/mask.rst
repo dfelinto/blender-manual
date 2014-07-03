@@ -2,7 +2,6 @@
 Mask Modifier
 =============
 
-
 .. admonition:: Reference
    :class: refbox
 

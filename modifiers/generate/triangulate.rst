@@ -2,7 +2,6 @@
 Triangulate Modifier
 ====================
 
-
 .. admonition:: Reference
    :class: refbox
 

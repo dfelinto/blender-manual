@@ -114,7 +114,6 @@ a Motion Blur render takes that many times more time than a non-Motion Blur one.
 Hints
 =====
 
-
 If Motion Blur is active, even if nothing is moving in the scene,
 Blender actually 'jitters' the camera a little between an 'intermediate' frame and the next.
 This implies that, even if Anti-Aliasing is off, the resulting images have nice Anti-Aliasing.

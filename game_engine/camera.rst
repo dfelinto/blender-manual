@@ -77,7 +77,6 @@ To reverse it, just select the camera and :kbd:`ctrl-pad0` again.
 Camera Lens Shift
 -----------------
 
-
 In the Blender interface,
 there is an option to shift the camera view on the x/y plane of the view. It is comparable to
 lens shift in video projectors that usually shift the image up along the Y axis.

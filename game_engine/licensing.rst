@@ -2,7 +2,6 @@
 Licensing of Blender Games
 ==========================
 
-
 The licensing of games created for distribution using the Blender Game Engine and the
 Standalone Player is complicated by Blender's status as open-source software.
 This page aims to describe the problems, and present some possible solutions.

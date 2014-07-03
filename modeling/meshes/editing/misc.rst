@@ -5,7 +5,6 @@
 Miscellaneous Editing Tools
 ===========================
 
-
 Sort Elements
 -------------
 

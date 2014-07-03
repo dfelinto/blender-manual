@@ -2,7 +2,6 @@
 What the Light Affects
 ======================
 
-
 .. figure:: /images/25-Manual-Lighting-Lamps-Affects.jpg
    :width: 308px
    :figwidth: 308px

@@ -5,7 +5,6 @@
 Exposure and Range
 ==================
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -30,7 +29,6 @@ Using an exponential correction formula, this now can be nicely corrected.
 
 Options
 -------
-
 
 .. figure:: /images/Doc26-world-exposure.jpg
 

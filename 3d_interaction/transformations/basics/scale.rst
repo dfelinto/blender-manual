@@ -2,7 +2,6 @@
 Scale
 =====
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -53,10 +52,8 @@ Snapping and the different types of Pivot Point.
 Usage
 -----
 
-
 Scaling using the keyboard shortcut
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 - Use :kbd:`RMB` to select the elements you want to scale.
 - Tap :kbd:`s` once to enter scale mode.
@@ -93,7 +90,6 @@ moving the mouse in the desired direction e.g.
 Fine Tuning The Scaling
 _______________________
 
-
 :doc:`Precise control <3d_interaction/transform_control/precision>` can be had over scaling through the use of the :kbd:`shift` and :kbd:`ctrl` keys to limit scaling to discrete amounts. You can also enter a :doc:`numerical value <3d_interaction/transform_control/numeric_input>` in Blender Units (BU) to specify the amount of scaling after after initiating a scale transformation.
 
 
@@ -116,7 +112,6 @@ _______________________
 
 Scaling with the 3D Transform Manipulator
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 .. figure:: /images/Icon-library_3D-Window_3D-transform-scale-manipulator.jpg
    :width: 100px
@@ -142,7 +137,6 @@ and blue triad is selected). Set the manipulator type to scale
 
 Scaling with the Properties Panel
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 .. figure:: /images/3D_interaction-Transformations-Basic-Scale-scale_properties_panel.jpg
    :width: 180px

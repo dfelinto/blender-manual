@@ -18,7 +18,6 @@ rotation or scaling of the parent also affects the children.
 Parenting objects
 =================
 
-
 .. figure:: /images/26-Manual-Modeling-Objects-Parenting-SetParentPopUp.jpg
 
    Set Parent To pop-up menu
@@ -170,7 +169,6 @@ If you want to follow along with the above description here is the blend file us
 Armature Deform Parent
 ----------------------
 
-
 An Armature in Blender can be thought of as similar to the armature of a real skeleton,
 and just like a real skeleton an Armature can consist of many bones.  These bones can be moved
 around and anything that they are attached to or associated with will move and deform in a
@@ -264,7 +262,6 @@ vertices of an object will result in those vertices also being transformed.
 Armature Deform Parenting - Example Of Use
 ------------------------------------------
 
-
 What follows is a simple example of how to setup Armature Deform Parenting so that you end up
 with an Armature whose Bones can Influence the mesh of a Child Object when the Armature is in
 Pose Mode.
@@ -347,7 +344,6 @@ FIXME(Tag Unsupported:ol;
 Armature Deform Parent With Empty Groups
 ----------------------------------------
 
-
 The Armature Deform With Empty Groups parenting method works in almost the same way as
 Armature Deform parenting with one difference.  That difference is that when you parent a
 Child Object to an Armature Object the names of the bones in the armature are copied to the
@@ -414,7 +410,6 @@ See figure 22.
 
 Armature Deform With Automatic Weights
 --------------------------------------
-
 
 Armature Deform With Automatic Weights parenting feature does everything Armature Deform With Empty Groups does with one extra thing.  That extra thing is that unlike Armature Deform With Empty Groups which leaves the automatically created Vertex Groups empty with no vertices assigned to them;  Armature Deform With Automatic Weight will try to calculate how much Influence Weight a particular Armature Bone would have on a certain collection of vertices based on the distance from those vertices to a particular Armature Bone.
 
@@ -495,7 +490,6 @@ If you find that a Child Object is deforming strangely when the Armature Bones a
 
 Armature Deform With Envelope Weights
 -------------------------------------
-
 
 Works in a similar way to Armature Deform With Automatic Weights in that it will create Vertex Groups on the Child Objects that have names matching those of the Parent Object Armature Bones.  The created Vertex Groups will then be assigned Influence Weights.  The major difference is in the way those Influence Weights are calculated.
 
@@ -581,7 +575,6 @@ You can also alter the bone radius by selecting the tail or head of the bone you
 Bone Parent
 -----------
 
-
 Bone parenting allows you to make a certain bone in an armature the Parent Object of another object. This means that when transforming an armature the Child Object will only move if the specific bone it is the Child Object of moves.  See figure 34.
 
 
@@ -599,7 +592,6 @@ Now transforming that bone in Pose Mode will result in the Child Objects also tr
 
 Bone Parenting - Example Of Use
 -------------------------------
-
 
 FIXME(Tag Unsupported:ol;
 <ol>
@@ -680,7 +672,6 @@ the child/children will move as well.
 Vertex Parent from Object Mode
 ______________________________
 
-
 Vertex parenting can be performed from object mode,
 This is done like regular object parenting,
 Press :kbd:`ctrl-P` in object mode and select :guilabel:`Vertex` or :guilabel:`Vertex
@@ -712,7 +703,6 @@ and avoid the tedious effort of establishing each parent-child vertex relationsh
 Options
 -------
 
-
 Move child
 ~~~~~~~~~~
 
@@ -725,7 +715,6 @@ Use the :guilabel:`Outliner` view to verify that the child object is still paren
 
 Remove relationship/Clear Parent
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 .. figure:: /images/25-Manual-Modeling-Objects-Parenting-ClearParentPopUp.jpg
 
@@ -748,7 +737,6 @@ The menu contains:
 Parenting Example
 -----------------
 
-
 .. figure:: /images/25-Manual-Modeling-Objects-Parenting-Exampel1.jpg
 
    Parenting Example
@@ -770,7 +758,6 @@ as we'll see in later chapters; it is used extensively with advanced animations.
 
 Hints
 -----
-
 
 .. figure:: /images/25-Manual-Modeling-Objects-Parenting-Exampel2-Outliner.jpg
 
@@ -795,7 +782,6 @@ press  :kbd:`p`  then select one of the following.
 Options
 -------
 
-
 .. figure:: /images/25-Manual-Modeling-Objects-Parenting-Exampel-SuzDissect.jpg
 
    Suzanne dissected neatly
@@ -811,7 +797,6 @@ Options
 
 Grouping objects
 ================
-
 
 .. figure:: /images/25-Manual-Modeling-Objects-Parenting-Exampel-GroupedObj.jpg
 
@@ -852,7 +837,6 @@ Removing Groups
 
 Select Grouped
 --------------
-
 
 .. admonition:: Reference
    :class: refbox

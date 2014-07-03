@@ -2,7 +2,6 @@
 Installing on Windows
 =====================
 
-
 Download
 --------
 
@@ -45,7 +44,6 @@ Keep in mind that installing Blender requires Administrator rights.
 Welcome screen
 --------------
 
-
 .. figure:: /images/(Doc_26x_Manual_Introduction_Installing_Blender_Windows)_(01_Welcome_Screen)_(GNWindows_7_B266FN).jpg
 
    First screen of the installation
@@ -56,7 +54,6 @@ The Welcome is the first screen of the installation process. Click Next to conti
 
 License agreement
 -----------------
-
 
 .. figure:: /images/(Doc_26x_Manual_Introduction_Installing_Blender_Windows)_(02_License_Agreement)_(GNWindows_7_B266FN).jpg
 
@@ -69,10 +66,8 @@ The License agreement must be accepted before the installation will continue.
 Installation options
 --------------------
 
-
 Program options
 ~~~~~~~~~~~~~~~
-
 
 .. figure:: /images/(Doc_26x_Manual_Introduction_Installing_Blender_Windows)_(03_Installation_Options)_(GNWindows_7_B266FN).jpg
 
@@ -83,7 +78,6 @@ Select any desired options.
 Location
 ~~~~~~~~
 
-
 .. figure:: /images/(Doc_26x_Manual_Introduction_Installing_Blender_Windows)_(04_Program_Options)_(GNWindows_7_B266FN).jpg
 
 
@@ -93,13 +87,11 @@ Here you can choose the directory where Blender will be installed.
 Installing
 ~~~~~~~~~~
 
-
 .. figure:: /images/(Doc_26x_Manual_Introduction_Installing_Blender_Windows)_(05_Location)_(GNWindows_7_B266FN).jpg
 
 
 Installed
 =========
-
 
 .. figure:: /images/(Doc_26x_Manual_Introduction_Installing_Blender_Windows)_(06_Installing)_(GNWindows_7_B266FN).jpg
 
@@ -110,7 +102,6 @@ And there you go! A fresh installation of Blender 2.5. After enabling or disabli
 
 Portable Install
 ================
-
 
 If you want to run Blender off a USB key so that you can use it wherever you go,
 download the .zip version and extract it to a USB key. You may want to avoid storing animation

@@ -145,7 +145,6 @@ Render Passes (Combined, Z, Vec, etc.) are discussed on :doc:`the next page <ren
 Examples
 ========
 
-
 Rendering only certain objects
 ------------------------------
 

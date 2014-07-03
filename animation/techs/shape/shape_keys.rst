@@ -2,10 +2,8 @@
 Shape Keys
 ==========
 
-
 Introduction
 ------------
-
 
 :guilabel:`Shape Keys` are used on Objects like :guilabel:`Mesh`\ , :guilabel:`Curve`\ , :guilabel:`Surface`\ , :guilabel:`Lattice`\ .
 They are used to deform the object vertices into a new shape.
@@ -32,7 +30,6 @@ then moving the object vertices to a new position.
 
 Shape Keys Panel
 ----------------
-
 
 .. admonition:: Reference
    :class: refbox
@@ -110,7 +107,6 @@ Shape Keys Panel
 Relative Shape Keys
 ___________________
 
-
 Relative shape keys deform from a selected shape key.
 By default all relative shape keys deform from the first shape key called the Basis shape key.
 
@@ -141,7 +137,6 @@ By default all relative shape keys deform from the first shape key called the Ba
 
 Absolute Shape Keys
 ___________________
-
 
 Absolute shape keys deform from the previous and to the next shape key.
 They are mainly used to deform the object into different shapes over time.
@@ -202,7 +197,6 @@ They are mainly used to deform the object into different shapes over time.
 Workflow For Relative Shape Keys
 --------------------------------
 
-
 This example shows you how to make a cube mesh transform in to a sphere.
 
 
@@ -221,7 +215,6 @@ This example shows you how to make a cube mesh transform in to a sphere.
 
 Workflow For Absolute Shape Keys
 --------------------------------
-
 
 - Select the default Cube.
 - Switch to Edit Mode.
@@ -345,7 +338,6 @@ there is a good chance that you need to Reset Timing.
 Shape Key Operators
 -------------------
 
-
 3D View > Edit Mode > Header > Mesh > Vertices > Shape Propagate
    Apply selected vertex locations to all other shape keys.
 
@@ -355,7 +347,6 @@ Shape Key Operators
 
 See Also
 --------
-
 
 - :doc:`2.4 Shape Keys <animation/techs/shape/shape_keys>`
 - :doc:`2.4 Editing Shape Keys <animation/techs/shape/shape_keys/editing>`

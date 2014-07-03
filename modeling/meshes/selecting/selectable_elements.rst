@@ -27,7 +27,6 @@ You have two ways to switch between select modes:
 Select Mode popup
 ~~~~~~~~~~~~~~~~~
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -59,7 +58,6 @@ so some tools are more or less applicable in some modes.
 
 Select Mode header widgets
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 .. admonition:: Reference
    :class: refbox

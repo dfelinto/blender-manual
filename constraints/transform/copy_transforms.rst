@@ -2,7 +2,6 @@
 Copy Transforms Constraint
 ==========================
 
-
 Description
 -----------
 
@@ -12,7 +11,6 @@ target.
 
 Options
 -------
-
 
 .. figure:: /images/25-Manual-Constraints-Transform-CopyTransforms.jpg
    :width: 304px

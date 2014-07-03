@@ -2,7 +2,6 @@
 Python Scripting Mode
 =====================
 
-
 The Python Scripting mode offers full programmability for line stylization.
 In this control mode, all stylization operations are written as Python scripts referred to as
 style modules in the Freestyle terminology. The input to a style module is a view map (i.e.,
@@ -48,7 +47,6 @@ the Blender Python API reference manual for the full detail of style module cons
 Writing Style Modules
 ---------------------
 
-
 A style module is a piece of code responsible for the stylization of Freestyle line drawing.
 The input of a style module is a set of feature edges called view map (ViewMap).
 The output is a set of stylized lines also referred to as strokes.  A style module is
@@ -86,7 +84,6 @@ The active set is updated by the operators.
 Selection
 ~~~~~~~~~
 
-
 The selection operator goes through every element of the active set and keeps only the ones
 satisfying a certain predicate.  The Operators.select() method takes as the argument a unary
 predicate that works on any Interface1D that represents a 1D element. For example:
@@ -114,7 +111,6 @@ as well as functions.
 
 Chaining
 ~~~~~~~~
-
 
 The chaining operators act on the set of active ViewEdge objects and determine the topology of
 the future strokes. The idea is to implement an iterator to traverse the ViewMap graph by
@@ -160,7 +156,6 @@ the active set is set to the Chains that have just been constructed.
 Splitting
 ~~~~~~~~~
 
-
 The splitting operation is used to refine the topology of each Chain.
 Splitting is performed either sequentially or recursively.  Sequential splitting
 (Operators::sequentialSplit()) in its basic form,
@@ -204,7 +199,6 @@ Chains shorter than 5 units won't be split anymore.
 Sorting
 ~~~~~~~
 
-
 The sorting operator (Operators::sort()) arranges the stacking order of active 1D elements. It
 takes as argument a binary predicate used as a "smaller than" operator to order two 1D
 elements.
@@ -227,7 +221,6 @@ we would use the sorting operator to insure that the most "important" lines are 
 
 Stroke creation
 ~~~~~~~~~~~~~~~
-
 
 Finally, the stroke creation operator (Operators::create())
 takes the active set of Chains as input and build Strokes.  The operator takes two arguments.
@@ -255,7 +248,6 @@ and assigning to it a constant thickness of 2 units and a dark gray constant col
 
 User control on the pipeline definition
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 Style module writing offers different types of user control,
 even though individual style modules have a fixed pipeline structure.

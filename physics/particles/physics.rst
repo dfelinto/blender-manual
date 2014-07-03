@@ -2,7 +2,6 @@
 Particle Physics
 ================
 
-
 .. figure:: /images/Physic_types.jpg
 
    Image 1: Physics types.
@@ -37,7 +36,6 @@ the settings in the Physics panel.
 
 Velocity
 ========
-
 
 .. figure:: /images/Initial_velocity.jpg
 
@@ -74,7 +72,6 @@ Emitter Object
 
 Rotation
 ========
-
 
 .. figure:: /images/Rotation.jpg
 

@@ -2,7 +2,6 @@
 Action Actuator
 ===============
 
-
 .. figure:: /images/BGE_Actuator_Action.jpg
    :width: 292px
    :figwidth: 292px

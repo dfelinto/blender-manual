@@ -2,7 +2,6 @@
 Debian based systems
 --------------------
 
-
 Installing Blender on Debian based systems and its derivatives (Ubuntu, Mint and others),
 is very easy and straightforward.
 Most Debian distributions come with the apt-get package manager, which is powerful and solves
@@ -22,7 +21,6 @@ using the default install system, which is easy and fast.
 Screenshot Install
 ------------------
 
-
 There are many different distributions based on Debian based Linux systems available to the users, and some of them use different Window managers and ways of installing software such as Blender, we can't add all of the different ways to this page.  The most common way to install Blender on Debian based systems is below in :doc:`text format <introduction/installing_blender/linux/debian_ubuntu#general_instructions_.28text.29>`\ .  For the majority of users the instructions above should suffice, with little or no changes in the steps required to install Blender.
 
 
@@ -34,7 +32,6 @@ There are many different distributions based on Debian based Linux systems avail
 
 Ubuntu (step by step)
 ~~~~~~~~~~~~~~~~~~~~~
-
 
 - Clicking in the Ubuntu dash, search for the terminal typing the search word **terminal**
 
@@ -179,7 +176,6 @@ Ubuntu (step by step)
 
 Debian (step by step)
 ~~~~~~~~~~~~~~~~~~~~~
-
 
 .. admonition:: You must have administrative rights to install packages on your system
    :class: nicetip
@@ -336,7 +332,6 @@ Debian (step by step)
 General Instructions (text)
 ---------------------------
 
-
 .. admonition:: You must have administrative rights to install packages on your system
    :class: nicetip
 
@@ -398,7 +393,6 @@ uname -a
 Hints
 -----
 
-
 - Installing newest Blender version into ``/opt`` or ``/usr/local``
 
 You can also install Blender into ``/opt`` or ``/usr/local`` by moving the
@@ -419,7 +413,6 @@ be aware that you will have to cleanup the old blender folders everytime you upd
 
 Drivers for 3D Graphic Cards
 ----------------------------
-
 
 To run 3D software packages such as Blender, your system will need several specialized
 software libraries which interpret 3D drawing commands from Blender into drawing commands for
@@ -477,7 +470,6 @@ support for their closed source drivers and cards.
 SoftwareGL Mode
 ---------------
 
-
 .. admonition:: Hardware or Software OpenGL Mode
    :class: nicetip
 
@@ -503,7 +495,6 @@ SoftwareGL Mode
 
 Cycles Rendering
 ----------------
-
 
 Cycles is the new rendering engine in development for Blender, at first,
 it was a project for realtime visualization,
@@ -552,7 +543,6 @@ Nvidia installed in your Linux based system.
 Solving problems
 ----------------
 
-
 Most Linux distributions when installed properly, works flawlessly with Blender.
 Minor problems are found depending on the distribution and its configuration.
 If Blender doesn't work, you may have to see your specific Linux distribution documentation
@@ -563,7 +553,6 @@ The most common cause of problems are shown here with possible solutions:
 
 Shortcut Conflicts
 ~~~~~~~~~~~~~~~~~~
-
 
 Many Linux distributions default to
 FIXME(Template Unsupported: Shortcut/Keypress;
@@ -583,7 +572,6 @@ Super key (In most keyboards, printed as *Windows* Key)
 
 Desktop Effects
 ~~~~~~~~~~~~~~~
-
 
 Sometimes, effects and composition such as compiz , metacity, clutter,
 depending on your system,
@@ -654,7 +642,6 @@ for your Debian based system and make all of the available resources ready for y
 Intel Graphic Cards
 ~~~~~~~~~~~~~~~~~~~
 
-
 Intel is currently the largest supplier of Integrated 3D Graphics chips in the world that go
 inside Laptop machines and Server boards.
 
@@ -670,7 +657,6 @@ issues you may have.
 
 Compiling Blender
 -----------------
-
 
 If you want to build Blender from source code so you can get the latest greatest features of
 Blender, you can follow the official instruction.  Building Blender from source is not
@@ -694,7 +680,6 @@ connect you to irc through your web browser:
 
 Useful links
 ------------
-
 
 If you want to get versions of Blender which are more up to date as they are built from a
 current snapshot of the Blender SVN trunk periodically,

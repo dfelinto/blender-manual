@@ -57,10 +57,8 @@ or image with the VSE open, it will render the clips for the VSE instead of the 
 Using the Sequence Editor
 =========================
 
-
 Adding Strips
 -------------
-
 
 .. figure:: /images/VseAddMenu.jpg
 
@@ -213,7 +211,6 @@ Add an audio track when you are trying to time your video/animation to an audio 
 Adding Effects
 --------------
 
-
 .. figure:: /images/Manual-VSE-SFX.jpg
 
    Available Built-in Effects
@@ -271,7 +268,6 @@ you can press :guilabel:`C`\ hange to switch effects on a selected Effects strip
 
 Adding Plugin Effects
 ~~~~~~~~~~~~~~~~~~~~~
-
 
 FIXME(Template Unsupported: Warning/Not Yet Implemented;
 {{Warning/Not Yet Implemented|VSE plugins are not working in Blender 2.6 currently…}}
@@ -650,7 +646,6 @@ Separate Images to Strips
 
 Editing Strips
 ~~~~~~~~~~~~~~
-
 
 - :kbd:`Rmb` in the middle of the strip selects the **entire** strip; holding it down (or pressing :kbd:`G`\ rab) and then moving the mouse drags a strip around.
 

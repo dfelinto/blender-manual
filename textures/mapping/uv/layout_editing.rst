@@ -249,7 +249,6 @@ to select connected UVs, not border select because UVs from both will be selecte
 Combining UV Maps
 -----------------
 
-
 .. figure:: /images/Manual-UV-Unwrap-Bad.jpg
    :width: 300px
    :figwidth: 300px
@@ -386,7 +385,6 @@ or patience, or, in some rare cases, are actually happy with our results.
 
 Refining the Layout
 ===================
-
 
 Refinement comes into play when we finally look at our character,
 and realize that we need more detail in a particular spot. For example,

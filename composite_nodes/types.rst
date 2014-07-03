@@ -5,7 +5,6 @@
 Types of Composite Nodes
 ========================
 
-
 This section is organized by type of nodes, which are grouped based on similar functions:
 
 

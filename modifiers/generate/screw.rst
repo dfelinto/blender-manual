@@ -2,7 +2,6 @@
 Screw Modifier
 ==============
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -31,7 +30,6 @@ object rather than to the screw axis.
 
 Options
 -------
-
 
 .. figure:: /images/25-Manual-Modifiers-Screw.jpg
 

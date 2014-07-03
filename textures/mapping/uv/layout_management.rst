@@ -20,7 +20,6 @@ earlier version of your model with intact UVs.
 Workflow
 --------
 
-
 - :kbd:`RMB` Select the target mesh (to which you want to copy the UV Map)
 - :kbd:`shift` select the source mesh (that contains the intact UV map)
 - :menuselection:`Object menu --> Make Links... --> Transfer UV Layouts` (Shortcut: :kbd:`Ctrl-l` ...)
@@ -30,7 +29,6 @@ The target Mesh will now have a UV map that matches the original mesh.
 
 Multiple UV Maps
 ================
-
 
 .. figure:: /images/Manual-UV-Fashion.jpg
    :width: 300px
@@ -70,7 +68,6 @@ while other faces map to the second texture.
 
 UV Textures List
 ================
-
 
 .. figure:: /images/Manual-UV-Editing-Mesh-panel.jpg
 

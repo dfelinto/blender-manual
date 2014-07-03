@@ -2,7 +2,6 @@
 Radar Sensor
 ============
 
-
 .. figure:: /images/BGE_Sensor_Radar.jpg
    :width: 300px
    :figwidth: 300px

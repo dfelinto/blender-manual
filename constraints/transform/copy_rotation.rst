@@ -8,7 +8,6 @@ The :guilabel:`Copy Rotation` constraint forces its owner to match the rotation 
 Options
 -------
 
-
 .. figure:: /images/25-Manual-Constraints-Transform-CopyRot.jpg
    :width: 307px
    :figwidth: 307px

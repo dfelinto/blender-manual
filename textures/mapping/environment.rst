@@ -5,7 +5,6 @@
 Environment Maps
 ================
 
-
 Environment maps take a render of the 3D scene and apply it to a texture,
 to use for faking reflections. If you want to achieve a very realistic result,
 raytraced reflections are a good solution.
@@ -41,7 +40,6 @@ they create the visual complexity that the eye expects to see from shiny reflect
 
 Options
 -------
-
 
 .. admonition:: Important
    :class: note

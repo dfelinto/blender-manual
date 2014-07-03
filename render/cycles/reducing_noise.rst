@@ -2,7 +2,6 @@
 Reducing Noise
 ==============
 
-
 When performing a final render, it is important to reduce noise as much as possible.
 Here we'll discuss a number of tricks that, while breaking the laws of physics,
 are particularly important when rendering animations within a reasonable time.
@@ -11,7 +10,6 @@ Click to enlarge the example images to see the noise differences well.
 
 Path Tracing
 ~~~~~~~~~~~~
-
 
 Cycles uses path tracing with next event estimation,
 which is not good at rendering all types of light effects, like caustics, but has the
@@ -44,7 +42,6 @@ FIXME(TODO: Internal Link;
 
 Where Noise Comes From
 ~~~~~~~~~~~~~~~~~~~~~~
-
 
 To understand where noise can come from, take for example this scene.
 When we trace a light ray into the specified location, this is what the diffuse shader "sees".
@@ -86,7 +83,6 @@ Below is an example of using Filter Glossy and Smooth Light Falloff.
 Bounces
 ~~~~~~~
 
-
 In reality light will bounce a huge number of times due to the speed of light being very high.
 In practice more bounces will introduce more noise, and it might be good to use something like
 the Limited Global Illumination preset that uses **fewer bounces for different shader
@@ -114,7 +110,6 @@ surface.
 Caustics and Filter Glossy
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
 Caustics are a well-known source of noise, causing fireflies. They happen because the renderer has difficulty finding specular highlights viewed through a soft glossy or diffuse reflection. There is a
 FIXME(TODO: Internal Link;
 [[../Integrator#Tricks|No Caustics]]
@@ -139,7 +134,6 @@ The above images show default settings, no caustics, and filter glossy set to 1.
 Light Falloff
 ~~~~~~~~~~~~~
 
-
 In reality light in a vacuum will always fall off at a rate of 1/(distance^2).
 However as distance goes to zero,
 this value goes to infinity and we can get very bright spots in the image.
@@ -163,7 +157,6 @@ FIXME(TODO: Internal Link;
 
 Sample as Lamp
 ~~~~~~~~~~~~~~
-
 
 Materials with emission shaders can be configured to be
 FIXME(TODO: Internal Link;
@@ -192,7 +185,6 @@ FIXME(TODO: Internal Link;
 
 Glass and Transparent Shadows
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 With caustics disabled, glass will miss shadows,
 and with filter glossy they might be too soft.
@@ -223,7 +215,6 @@ and on the right the render with the trick.
 Window Lights
 ~~~~~~~~~~~~~
 
-
 When rendering a daylight indoor scene where most of the light is coming in through a window
 or door opening, it is difficult for the integrator to find its way to them.
 We can replace the opening with a plane with an emission shader,
@@ -246,7 +237,6 @@ with the second render using a mesh light positioned in the window.
 
 Clamp Fireflies
 ~~~~~~~~~~~~~~~
-
 
 Ideally with all the previous tricks, fireflies would be eliminated, but they could still happen. For that, **the intensity that any individual light ray sample will contribute to a pixel can be clamped** to a maximum value with the integrator
 FIXME(TODO: Internal Link;

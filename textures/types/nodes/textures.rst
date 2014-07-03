@@ -19,7 +19,6 @@ Common Options
 Voronoi
 -------
 
-
 .. figure:: /images/Doc26-textureNodes-voronoi.jpg
 
    Voronoi node
@@ -30,7 +29,6 @@ See :doc:`Here <textures/types/procedural/voronoi>`
 
 Blend
 -----
-
 
 .. figure:: /images/Doc26-textureNodes-blend.jpg
 
@@ -43,7 +41,6 @@ See :doc:`Here <textures/types/procedural/blend>`
 Magic
 -----
 
-
 .. figure:: /images/Doc26-textureNodes-magic.jpg
 
    Magic node
@@ -55,7 +52,6 @@ See :doc:`Here <textures/types/procedural/magic>`
 Marble
 ------
 
-
 .. figure:: /images/Doc26-textureNodes-marble.jpg
 
    Marble node
@@ -66,7 +62,6 @@ See :doc:`Here <textures/types/procedural/marble>`
 
 Clouds
 ------
-
 
 .. figure:: /images/Doc26-textureNodes-cloud.jpg
 
@@ -92,7 +87,6 @@ See :doc:`Here <textures/types/procedural/wood>`
 Musgrave
 --------
 
-
 .. figure:: /images/Doc26-textureNodes-musgrave.jpg
 
    Musgrave
@@ -103,7 +97,6 @@ See :doc:`Here <textures/types/procedural/musgrave>`
 
 Noise
 -----
-
 
 .. figure:: /images/Doc26-textureNodes-noise.jpg
 
@@ -116,7 +109,6 @@ See :doc:`Here <textures/types/procedural/noise>`
 Stucci
 ------
 
-
 .. figure:: /images/Doc26-textureNodes-stucci.jpg
 
    Stucci
@@ -127,7 +119,6 @@ See :doc:`Here <textures/types/procedural/stucci>`
 
 Distorted Noise
 ---------------
-
 
 .. figure:: /images/Doc26-textureNodes-distortedNoise.jpg
 

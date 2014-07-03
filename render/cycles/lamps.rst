@@ -2,7 +2,6 @@
 Lamps
 =====
 
-
 Next to lighting from the background and any object with an emission shader,
 lamps are another way to add light into the scene.
 The difference is that they are not directly visible in the rendered image,
@@ -21,7 +20,6 @@ and can be more easily managed as objects of their own type.
 Point Lamp
 ----------
 
-
 Point lamps emit light equally in all directions.
 By setting the :guilabel:`Size` larger than zero, they become spherical lamps,
 which give softer shadows and shading. The strength of point lamps is specified in Watts.
@@ -29,7 +27,6 @@ which give softer shadows and shading. The strength of point lamps is specified 
 
 Spot Lamp
 ---------
-
 
 Spot lamps emit light in a particular direction, inside a cone.
 By setting the :guilabel:`Size` larger than zero, they can cast softer shadows and shading.
@@ -40,13 +37,11 @@ while the blend parameter can soften the edges of the cone.
 Area Lamp
 ---------
 
-
 Area lamps emit light from a square or rectangular area with a Lambertian distribution.
 
 
 Sun Lamp
 --------
-
 
 Sun lamps emit light in a given direction. Their position is not taken into account;
 they are always located outside of the scene, infinitely far away,

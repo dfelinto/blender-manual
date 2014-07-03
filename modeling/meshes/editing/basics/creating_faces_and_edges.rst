@@ -5,7 +5,6 @@
 Make Edge/Face
 ==============
 
-
 .. admonition:: Reference
    :class: refbox
 

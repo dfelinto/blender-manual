@@ -2,7 +2,6 @@
 Procedural textures: Clouds
 ===========================
 
-
 .. figure:: /images/25-Manual-Textures-Procedural-Clouds.jpg
    :width: 307px
    :figwidth: 307px
@@ -22,7 +21,6 @@ user to select which algorithm is used to generate the texture.
 
 Options
 -------
-
 
 :guilabel:`Greyscale`
    The standard noise, gives an intensity

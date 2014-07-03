@@ -2,7 +2,6 @@
 Stroke
 ======
 
-
 .. figure:: /images/Manual-2.6-Render-Freestyle-Stroke_UI.jpg
    :width: 300px
    :figwidth: 300px
@@ -18,7 +17,6 @@ dashed pattern, etc.
 
 Chaining
 --------
-
 
 By default all retrieved lines from the line set are chained together.
 There are two basic chaining methods:
@@ -74,7 +72,6 @@ FIXME(TODO: Internal Link;
 Selection
 ---------
 
-
 .. figure:: /images/Manual-2.6-Render-Freestyle-Selection_Length_UI.jpg
    :width: 300px
    :figwidth: 300px
@@ -113,7 +110,6 @@ You can choose between three types of line caps:
 
 Dashed Line
 -----------
-
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Dashes_UI.jpg
    :width: 300px

@@ -2,7 +2,6 @@
 Anti-Aliasing
 =============
 
-
 A computer generated image is made up of pixels;
 each pixel can of course only be a single color. In the rendering process the rendering engine
 must therefore assign a single color to each pixel on the basis of what object is shown in
@@ -102,7 +101,6 @@ this will give an extra sharpening result.
 
 Examples
 ========
-
 
 .. figure:: /images/Manual-Part-XI-AA02.jpg
    :width: 630px

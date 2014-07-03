@@ -2,7 +2,6 @@
 Menus
 =====
 
-
 .. figure:: /images/Manual-Interface-Menus-SpacebarMenu25.jpg
 
    The [Space]-menu
@@ -33,7 +32,6 @@ This helps in knowing what hotkeys work at what times.
 
 Collapsing Menus
 ________________
-
 
 Sometimes its helpful to gain some extra horizontal space in the header by collapsing menus,
 this can be accessed from the header context menu,

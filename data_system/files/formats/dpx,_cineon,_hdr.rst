@@ -2,7 +2,6 @@
 DPX and Cineon
 ==============
 
-
 Cineon is Kodak's standard for film scanning, 10 bits/channel and logarithmic.
 DPX has been derived from Cineon as the ANSI/SMPTE industry standard.
 DPX supports 16 bits color/channel, linear as well as logarithmic.
@@ -22,7 +21,6 @@ so for now we assume it's compliant for professional usage.
 
 Radiance HDR
 ============
-
 
 Radiance is a suite of tools for lighting simulation originally written by Greg Ward.
 Since Radiance had the first (and for a long time the only) HDR image format,

@@ -5,7 +5,6 @@
 Render engines
 ==============
 
-
 - Blender Internal
 - :doc:`Cycles <render/cycles>`
 
@@ -100,7 +99,6 @@ Other services are paid subscriptions or pay-as-you-go services.
 
 Render Workbench Integration
 ----------------------------
-
 
 .. figure:: /images/Manual-Render-Pipeline.jpg
    :width: 320px

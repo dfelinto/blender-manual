@@ -5,7 +5,6 @@
 Drawing With Grease Pencil
 ==========================
 
-
 - Enable the :guilabel:`Grease Pencil` by clicking :guilabel:`Draw, Line, Poly or Erase` from the Toolshelf (\ :kbd:`T`\ ). A new layer will be automatically added for you to draw on.
 - A new layer can be added from the :guilabel:`Grease Pencil Properties panel`\ . This panel can also be used to customise the color, opacity and thickness of the pencil lines. Changes to these settings will affect all strokes on the current layer.
 
@@ -26,7 +25,6 @@ Drawing With Grease Pencil
 
 Drawing
 -------
-
 
 The Toolshelf provides a number of options for drawing with the :guilabel:`Grease Pencil`
 which are detailed below. The Toolshelf can be seen in the screenshot :guilabel:`Grease Pencil
@@ -60,7 +58,6 @@ Tool Shelf and Properties Panel` above.
 Sketching Sessions
 ~~~~~~~~~~~~~~~~~~
 
-
 A Sketching Session allows for rapid sketching with the :guilabel:`Grease Pencil` when
 multiple strokes are desired. With this option set,
 a sketching session starts when a :guilabel:`Grease Pencil` stroke is made.
@@ -77,10 +74,8 @@ started.
 Shared Grease Pencil Settings
 -----------------------------
 
-
 Drawing Settings
 ~~~~~~~~~~~~~~~~
-
 
 .. figure:: /images/3D-interaction_Sketching_Drawing_grease-pencil-drawing-settings-panel.jpg
 
@@ -130,7 +125,6 @@ they can be altered in  :menuselection:`User Preferences window --> Editing --> 
 
 Additional Notes For Tablet Users
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 - The thickness of a stroke at a particular point is affected by the pressure used when drawing that part of the stroke.
 - The "eraser" end of the stylus can be used to erase strokes.

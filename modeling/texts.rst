@@ -5,7 +5,6 @@
 Text Objects
 ============
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -64,7 +63,6 @@ For optimum resource usage, only characters that are being used consume memory
 
 Editing Text
 ============
-
 
 .. admonition:: Reference
    :class: refbox
@@ -129,7 +127,6 @@ as interactive response will slow down.
 Special Characters
 ~~~~~~~~~~~~~~~~~~
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -179,7 +176,6 @@ Some examples are given below:
 Convert text to text object
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
 .. figure:: /images/ConvertTextToTextObject.jpg
    :width: 250px
    :figwidth: 250px
@@ -213,7 +209,6 @@ FIXME(TODO: Internal Link;
 Text Selection
 --------------
 
-
 .. figure:: /images/2.5_Manual-Part-II-Modelling-Text-Create-Ex.jpg
    :width: 200px
    :figwidth: 200px
@@ -234,10 +229,8 @@ and not much more…
 Formatting Text
 ===============
 
-
 Fonts
 -----
-
 
 .. admonition:: Reference
    :class: refbox
@@ -251,7 +244,6 @@ The :guilabel:`Font` panel has several options for changing the look of characte
 
 Loading and Changing Fonts
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 .. figure:: /images/2.5_Manual-Part-II-Text-Load-Ex.jpg
 
@@ -378,7 +370,6 @@ Underline
 Character
 ~~~~~~~~~
 
-
 .. figure:: /images/2.5_Manual-Part-II-Text-Bold-Ex.jpg
    :width: 300px
    :figwidth: 300px
@@ -472,7 +463,6 @@ FIXME(TODO: Internal Link;
 Shape
 =====
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -522,7 +512,6 @@ or :guilabel:`Beveled` in the :guilabel:`Geometry` Panel.
 
 Textures
 --------
-
 
 .. figure:: /images/TextTextureSettings.jpg
 

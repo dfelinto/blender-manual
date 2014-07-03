@@ -2,13 +2,11 @@
 Description
 -----------
 
-
 Network renderer from inside Blender
 
 
 Goals
 ~~~~~
-
 
 - Transparency
 - Flexibility
@@ -17,17 +15,14 @@ Goals
 Instructions
 ------------
 
-
 As of version 2.6, network rendering needs to be enabled under User Preferences → Addons.
 
 
 GUI
 ~~~
 
-
 Master
 ______
-
 
 On one machine, start a Master server.
 
@@ -49,7 +44,6 @@ The old one can be viewed using the following url scheme http[s]://master_ip_add
 Slave(s)
 ________
 
-
 On other machines, start render slaves
 
 - Start Blender, then switch Render Engine to Network Render.
@@ -61,7 +55,6 @@ On other machines, start render slaves
 
 Client
 ______
-
 
 To send a job to the cluster, from your workstation:
 
@@ -83,7 +76,6 @@ It is possible to run Master, Client and slave on one System.
 Command Line
 ~~~~~~~~~~~~
 
-
 - Configure master as described previously. Instead of clicking "Start Service" save the file (i.e.: master.blend).
 - Do the same with the slave setting (i.e.: slave.blend).
 - Use background rendering to start the master and slaves like so:
@@ -99,7 +91,6 @@ They're only there to prevent some warnings.
 Extra
 ~~~~~
 
-
 Full multilayer render results are used,
 so the final results should be exactly the same as a local render.
 You don't have to specify this as the output in the original file;
@@ -112,7 +103,6 @@ Testers are invited to contact **theeth** via [irc://irc.freenode.net/blendercod
 Settings
 --------
 
-
 .. figure:: /images/NetRender_Engine.jpg
 
    NetRender as a Render Engine
@@ -124,7 +114,6 @@ This is where you select Network Render to access NetRender features.
 
 Master
 ~~~~~~
-
 
 .. figure:: /images/NetRender_Master.jpg
 
@@ -146,7 +135,6 @@ Master
 
 Slave
 ~~~~~
-
 
 .. figure:: /images/NetRender_Slave.jpg
 
@@ -170,7 +158,6 @@ Slave
 
 Client
 ~~~~~~
-
 
 .. figure:: /images/NetRender_Client.jpg
 
@@ -219,7 +206,6 @@ Client
 Physics Baking Jobs
 -------------------
 
-
 Physics baking is a recently added feature in Netrender.
 It supports dispatching baking jobs for each point cache used in a scene
 (on a modifier or particle system).
@@ -242,7 +228,6 @@ Baking other type of physics (like fluids) should eventually be supported.
 
 Version Control Jobs
 --------------------
-
 
 .. figure:: /images/Netrender_subversion.jpg
 
@@ -275,7 +260,6 @@ The Refresh button will try to guess those settings to the best of its knowledge
 Notes and Known Bugs
 --------------------
 
-
 - No shared network space is required between nodes.
 - You can dispatch many different files; all results can be retrieved independently. (Save the file after the dispatch if you want to close it and retrieve later.)
 - There is very little network error management, so if you close the master first, stuff will break. Same if you enter an invalid address.
@@ -286,7 +270,6 @@ Notes and Known Bugs
 
 Load Balancing
 --------------
-
 
 Primary balancing is performed by calculating usage of the cluster every 10s for each job,
 averaged over time. The next job dispatched is the one with lowest usage
@@ -300,13 +283,11 @@ On top of that, there's a set of exceptions and first priority rules:
 Exceptions
 ~~~~~~~~~~
 
-
 - A single job cannot use more than N% of total slaves, unless it's the only job. That prevents a slow job from starving faster ones. This is set at 75% for now, but should be customizable.
 
 
 First Priorities (criteria)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 - Less than N frames dispatched (prioritize new jobs). The goal of this is to catch errors early.
 - More than N minutes list last dispatch. To prevent high-priority jobs from starving others.
@@ -314,7 +295,6 @@ First Priorities (criteria)
 
 To do
 -----
-
 
 - Send job from memory
 - Don't depend on render engine choice for visibility
@@ -328,13 +308,11 @@ To do
 Technical Details
 -----------------
 
-
 *Out of date, read the code and put info here.*
 
 
 Feature List
 ~~~~~~~~~~~~
-
 
 - support paths instead of files
 - client-server-slave: restrict job to specific nodes
@@ -356,7 +334,6 @@ Feature List
 
 API Feature Wishlist
 ~~~~~~~~~~~~~~~~~~~~
-
 
 This is a list of blender code I would need to make netrender better. Some of them are bugs,
 some are features that should (hopefully) eventually be there.

@@ -2,7 +2,6 @@
 Camera View
 ===========
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -27,7 +26,6 @@ camera view to be rendered.
 
 Render Border
 -------------
-
 
 .. figure:: /images/3D-interaction_Navigating_Camera-View-render-border-toggle.jpg
 

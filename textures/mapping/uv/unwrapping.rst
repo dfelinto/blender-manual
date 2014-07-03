@@ -44,7 +44,6 @@ These are described more fully in the next sections.
 Getting Started
 ===============
 
-
 .. figure:: /images/Manual-uvunwrapping-25x-screenlayout.jpg
    :width: 320px
    :figwidth: 320px
@@ -62,7 +61,6 @@ or edge selection mode.
 
 Workflow
 --------
-
 
 .. figure:: /images/Manual-25-uv-unwrap-method.jpg
 
@@ -179,7 +177,6 @@ Cube mapping projects s mesh onto six separate planes, creating 6 UV islands. In
 Cylinder and Sphere
 -------------------
 
-
 .. figure:: /images/Doc26-textures-uv-sphereProjection.jpg
    :width: 250px
    :figwidth: 250px
@@ -252,10 +249,8 @@ and unwrap them using the Reset menu option.
 Advanced Mapping
 ================
 
-
 Unwrapping Using Seams
 ----------------------
-
 
 .. figure:: /images/Doc26-textures-uv-unwrap-seam-simple.jpg
    :width: 300px
@@ -294,7 +289,6 @@ The workflow is the following:
 
 Marking Seams
 ~~~~~~~~~~~~~
-
 
 .. figure:: /images/Doc26-textures-uv-unwrap-seams.jpg
    :width: 250px
@@ -351,7 +345,6 @@ using different approaches in different areas of your mesh.
 Unwrap
 ~~~~~~
 
-
 .. figure:: /images/Doc26-textures-uv-unwrap-unwrap.jpg
    :width: 300px
    :figwidth: 300px
@@ -397,7 +390,6 @@ They can be selected in the tool setting in the tool panel in the 3D View.
 
 Smart UV Project
 ----------------
-
 
 .. figure:: /images/Doc26-textures-uv-unwrap-smartProject.jpg
    :width: 250px

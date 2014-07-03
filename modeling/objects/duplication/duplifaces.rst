@@ -2,7 +2,6 @@
 DupliFaces
 ==========
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -21,7 +20,6 @@ DupliFaces
 
 Basic usage
 -----------
-
 
 .. figure:: /images/Manual-2.5-Dupliface-Example01-1Start.jpg
 
@@ -56,7 +54,6 @@ but neither is rendered.
 Scale
 -----
 
-
 .. figure:: /images/Manual-2.5-Dupliface-Example01-3ScaleEnabled.jpg
 
    Scale enabled
@@ -76,7 +73,6 @@ the size of the duplicated object will change accordingly.
 
 Limitations / Considerations
 ----------------------------
-
 
 The positioning of the duplicated geometry relative to the face is dependent upon the position
 of the child objects relative to the duplicator's origin.  This can lead to some visual

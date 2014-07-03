@@ -2,7 +2,6 @@
 Maintain Volume Constraint
 ==========================
 
-
 Description
 -----------
 
@@ -12,7 +11,6 @@ ratio of its original volume.
 
 Option
 ------
-
 
 .. figure:: /images/25-Manual-Constraints-Transform-MaintainVol.jpg
    :width: 303px
@@ -31,7 +29,6 @@ Option
 
 See also
 --------
-
 
 - `Harkyman on the development of the Maintain Volume constraint <http://www.harkyman.com/2010/03/16/maintaining-bone-volume-a-new-constraint/>`__\ , March 2010
 

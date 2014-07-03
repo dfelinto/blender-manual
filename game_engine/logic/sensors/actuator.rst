@@ -2,7 +2,6 @@
 Actuator sensor
 ===============
 
-
 .. figure:: /images/BGE_Sensor_Actuator.jpg
    :width: 300px
    :figwidth: 300px

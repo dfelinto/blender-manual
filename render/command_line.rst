@@ -251,10 +251,8 @@ Silently register .blend extension, then exit (Windows only)
 Examples
 ========
 
-
 Render a picture
 ----------------
-
 
 - blender -b file.blend -o //file -F JPEG -x 1 -f 1
 
@@ -286,7 +284,6 @@ Render a picture
 
 Render a movie
 --------------
-
 
 - blender -b file.blend -x 1 -o //file -F MOVIE -s 003 -e 005 -a
 
@@ -347,14 +344,12 @@ CYCLES
 Platforms
 =========
 
-
 How to actually execute Blender from the command line depends on the platform and where you
 have installed Blender. Here are basic instructions for the different platforms.
 
 
 Windows
 _______
-
 
 Open the Command Prompt, go to the directory where Blender is installed,
 and then run the blender command.
@@ -366,7 +361,6 @@ and then run the blender command.
 
 Mac OS X
 ________
-
 
 Open the Terminal application, go to the directory where Blender is installed,
 and run the executable within the app bundle, with commands like this:
@@ -390,7 +384,6 @@ If you then open a new terminal, the following command will work:
 
 Linux
 _____
-
 
 Open a terminal, then go to the directory where Blender is installed,
 and run the blender command like this.

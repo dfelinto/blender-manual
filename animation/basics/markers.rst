@@ -5,7 +5,6 @@
 Markers
 =======
 
-
 Markers are used to denote frames at which something significant happens - it could be that a
 character's animation starts, the camera changes position, or a door opens, for example.
 Markers can be given names to make them more meaningful at a quick glance.
@@ -39,17 +38,14 @@ including:
 Pose markers
 ------------
 
-
 There is another type of markers, called "pose markers", which are specific to the armatures and the *Action Editor* window. They are related to the pose libraries, and are discussed in detail :doc:`here <rigging/posing/pose_library>`\ .
 
 
 Visualization
 =============
 
-
 Standard
 --------
-
 
 .. figure:: /images/Manual-Animation-Timeline-Markers.jpg
 
@@ -66,7 +62,6 @@ If they have a name, this is shown to their right, in white when the marker is s
 Sequencer
 ---------
 
-
 .. figure:: /images/Sequencer-markers.jpg
    :width: 186px
    :figwidth: 186px
@@ -80,7 +75,6 @@ The *Video Sequence Editor* just adds a vertical dashed line to each marker
 
 3D View
 -------
-
 
 .. figure:: /images/ManAnimationMarkers3DViewEx.jpg
 
@@ -96,7 +90,6 @@ near the active object's name, when you are at their frame
 Creating and Editing Markers
 ============================
 
-
 Unfortunately, there is no common shortcuts and menu for marker's editing, across the
 different window types that supports them… So in the refboxes of each action described below,
 I put the most-common shortcut and menu entry, with the known exceptions between brackets.
@@ -104,7 +97,6 @@ I put the most-common shortcut and menu entry, with the known exceptions between
 
 Creating Markers
 ----------------
-
 
 .. admonition:: Reference
    :class: refbox
@@ -125,7 +117,6 @@ This can be especially useful to mark the beats in some music.
 
 Selecting Markers
 -----------------
-
 
 .. admonition:: Reference
    :class: refbox
@@ -151,7 +142,6 @@ and border (de)select them with* :kbd:`B`\ *…
 Naming Markers
 --------------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -167,7 +157,6 @@ typing the name, and pressing the OK button.
 
 Moving Markers
 --------------
-
 
 .. admonition:: Reference
    :class: refbox
@@ -190,7 +179,6 @@ markers will move in steps corresponding to one second - so if you have set your
 Duplicating Markers
 -------------------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -211,7 +199,6 @@ the names of the duplicated markers are not altered at all
 
 Deleting Markers
 ----------------
-
 
 .. admonition:: Reference
    :class: refbox

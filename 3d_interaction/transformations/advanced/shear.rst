@@ -2,7 +2,6 @@
 Shear
 =====
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -13,7 +12,6 @@ Shear
 
 Description
 -----------
-
 
 .. figure:: /images/3D_interaction-Transformations-Advanced-Shear_toolshelf-f6.jpg
    :width: 150px
@@ -35,7 +33,6 @@ Everything that is "below" the horizontal axis will move in the opposite directi
 
 Usage
 ~~~~~
-
 
 Select the elements you want to operate on and activate the :guilabel:`Shear` transform
 function. The :guilabel:`Shear` option can be invoked from the

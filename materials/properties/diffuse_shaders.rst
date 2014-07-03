@@ -2,7 +2,6 @@
 Diffuse Shaders
 ===============
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -20,7 +19,6 @@ but Blender also has other shaders for various special effects.
 Common Options
 --------------
 
-
 All diffuse shaders have the following options:
  **Color**
    Select the base *diffuse color* of the material.
@@ -32,7 +30,6 @@ All diffuse shaders have the following options:
 
 Technical Details
 -----------------
-
 
 Light striking a surface and then re-irradiated via a Diffusion phenomenon will be scattered, i.e., re-irradiated in all directions isotropically. This means that the camera will see the same amount of light from that surface point no matter what the *incident viewing angle* is. It is this quality that makes diffuse light *viewpoint independent*\ . Of course, the amount of light that strikes the surface depends on the incident light angle. If most of the light striking a surface is reflected diffusely, the surface will have a matte appearance (\ *Light re-irradiated in the diffusion phenomenon.*\ ).
 
@@ -49,7 +46,6 @@ Light striking a surface and then re-irradiated via a Diffusion phenomenon will 
 
 Lambert
 -------
-
 
 .. admonition:: Reference
    :class: refbox
@@ -84,7 +80,6 @@ Default is 0.8, to allow other objects to be brighter.
 
 Oren-Nayar
 ----------
-
 
 .. admonition:: Reference
    :class: refbox
@@ -170,7 +165,6 @@ Options
 Minnaert
 --------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -210,7 +204,6 @@ Options
 
 Fresnel
 -------
-
 
 .. admonition:: Reference
    :class: refbox

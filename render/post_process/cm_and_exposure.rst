@@ -5,7 +5,6 @@
 Color Management
 ================
 
-
 `OpenColorIO <http://opencolorio.org/>`__ is now integrated into Blender, along with a redesign of the color management system. Previously Blender only supported two color spaces, linear and sRGB; now many more are supported, with finer control over which color transformations should be used.
 
 
@@ -59,7 +58,6 @@ The scene properties have these settings:
 Render
 ~~~~~~
 
-
 Besides this, there is also an **artistic choice** to be made for renders. Partially that's
 because display devices can't display the full spectrum of colors and only have limited
 brightness, so we can squeeze the colors to fit in the gamut of the device.
@@ -103,7 +101,6 @@ Such settings would be only used temporarily and not get used for final renders.
 Sequencer
 ~~~~~~~~~
 
-
 :guilabel:`Sequencer Color Space`
    The color space that the sequencer operates in. By default the sequencer operates in sRGB space like it did in previous versions, but it can also be set to work in Linear space like the Compositing nodes, or another color space. Different color spaces will give different results for color correction, cross fades, and other operations.
 
@@ -117,7 +114,6 @@ Sequencer
 
 Image Files
 -----------
-
 
 The other place to keep color management in mind is when **loading and saving image files**\ .
 File formats such as PNG or JPEG will typically store colors in a color space ready for
@@ -211,7 +207,6 @@ though it may need a few more tweaks to be usable in production.
 Compatibility
 -------------
 
-
 Compatibility with existing files should mostly be preserved.
 Files that had color management enabled should be entirely compatible, while older files with
 the color management option disabled are mostly compatible but different for vertex colors and
@@ -220,7 +215,6 @@ viewport colors.
 
 See Also
 --------
-
 
 - `Developer Documentation <http://wiki.blender.org/index.php/User:Nazg-gul/ColorManagement>`__
 - `User:Sobotka/Color_Management <http://wiki.blender.org/index.php/User:Sobotka/Color_Management>`__

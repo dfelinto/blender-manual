@@ -4,7 +4,6 @@
 The Constraints Stack
 =====================
 
-
 .. figure:: /images/25-Manual-Constraints-Example-Stack.jpg
    :width: 200px
    :figwidth: 200px

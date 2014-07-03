@@ -5,7 +5,6 @@
 Composite Output Nodes
 ======================
 
-
 At any point, you may want to see or save the working image in progress,
 especially right after some operation by a node. Simply create another thread from the image
 output socket of the node to an Output node to see a mini-picture.
@@ -18,7 +17,6 @@ and you should only use one anyway.
 
 Viewer
 ------
-
 
 .. figure:: /images/Tutorials-NTR-ComViewer.jpg
 
@@ -34,7 +32,6 @@ Plug it in wherever you would like to see an image or value-map in your node-tre
 Using the UV/Image Editor Window
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
 The :guilabel:`Viewer` node allows results to be displayed in the UV/Image Editor.
 The image is facilitated by selecting the :guilabel:`IM:Viewer Node` on the window's header.
 The UV/Image Editor will display the image from the currently selected viewer node.
@@ -49,7 +46,6 @@ Holding :kbd:`Lmb` in the Image display allows you to sample the values.
 
 Composite
 ---------
-
 
 .. figure:: /images/Tutorials-NTR-ComCompositeOut.jpg
 
@@ -72,7 +68,6 @@ panel. Otherwise, unpredictable results may occur.
 Saving your Composite Image
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
 The RENDER button renders a single frame or image.
 Save your image using :kbd:`f3` or the :guilabel:`File→Save Image` menu.
 The image will be saved using the image format settings on the Render panel.
@@ -91,7 +86,6 @@ use an AVI or Quicktime format, and use the :guilabel:`ANIM` button and its sett
 SplitViewer Node
 ----------------
 
-
 .. figure:: /images/Manual-Compositing_Nodes-SplitViewer.jpg
 
    SplitViewer node
@@ -107,7 +101,6 @@ node to compare the end of one scene with the beginning of another to ensure the
 
 File Output Node
 ----------------
-
 
 .. figure:: /images/Manual-Compositing_Nodes-File_Output.jpg
 
@@ -141,7 +134,6 @@ you can save intermediate images automatically. Neat, huh?
 
 Levels Node
 -----------
-
 
 The Levels Node takes an image as an input,
 and can output a 1D value based on the levels of an image.

@@ -2,7 +2,6 @@
 DupliVerts
 ==========
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -31,10 +30,8 @@ the petals in a flower).
 DupliVerts as an Arranging Tool
 -------------------------------
 
-
 Setup
 ~~~~~
-
 
 .. figure:: /images/Manual-2.5-Dupliverts-Example01-1start.jpg
 
@@ -85,7 +82,6 @@ objects.
 
 Orientation
 ~~~~~~~~~~~
-
 
 .. figure:: /images/Manual-2.5-Dupliverts-Example01-3Orientation.jpg
 

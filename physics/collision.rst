@@ -2,7 +2,6 @@
 Collisions
 ==========
 
-
 :doc:`Particles <physics/particles>`\ , :doc:`Soft Bodies <physics/soft_body>` and :doc:`Cloth objects <physics/cloth>` may collide with mesh objects. :doc:`Boids <physics/particles/physics/boids>` try to avoid :guilabel:`Collision` objects.
 
 
@@ -26,7 +25,6 @@ selected`\ .
 
 Options
 =======
-
 
 .. figure:: /images/Blender3D_2.58_CollisionPanel-2.49.jpg
 
@@ -84,7 +82,6 @@ Force Field Interaction
 Examples
 --------
 
-
 .. figure:: /images/UM_PART_XIII_KST_PI10.jpg
 
    Image 2: Deflected Particles.
@@ -96,7 +93,6 @@ and deflected by a mesh cube:
 
 Hints
 -----
-
 
 - Make sure that the normals of the mesh surface are facing towards the particles/points for correct deflection.
 - :guilabel:`Hair` particles react directly to force fields, so if you use a force field with a short range you don't need necessarily collision.

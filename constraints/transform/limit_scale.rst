@@ -2,7 +2,6 @@
 Limit Scale Constraint
 ======================
 
-
 Description
 -----------
 
@@ -39,7 +38,6 @@ using the :guilabel:`Transformation Properties` axis locking feature is probably
 
 Options
 -------
-
 
 .. figure:: /images/25-Manual-Constraints-Transform-LimitScale.jpg
    :width: 296px

@@ -2,7 +2,6 @@
 Mouse sensor
 ============
 
-
 .. figure:: /images/BGE_Sensor_Mouse1.jpg
    :width: 300px
    :figwidth: 300px

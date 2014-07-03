@@ -5,7 +5,6 @@
 Modifiers
 =========
 
-
 .. admonition:: Reference
    :class: refbox
 

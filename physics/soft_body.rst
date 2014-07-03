@@ -2,7 +2,6 @@
 Soft Bodies
 ===========
 
-
 .. figure:: /images/Blender3D_HiddenTextSoftbody.jpg
    :width: 600px
    :figwidth: 600px
@@ -28,7 +27,6 @@ edit intermediate results and run the simulation from there.
 
 Typical scenarios for using Soft Bodies
 ---------------------------------------
-
 
 .. figure:: /images/Blender3D_WindConeSoftbody.jpg
    :width: 300px
@@ -172,7 +170,6 @@ Tips
 
 Links
 -----
-
 
 - `Developer Notes <http://mosebjorn.altervista.org/>`__
 - `Swinging of a chain <http://blenderartists.org/forum/showthread.php?t=114723>`__

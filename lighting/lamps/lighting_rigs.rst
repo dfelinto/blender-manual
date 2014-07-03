@@ -26,7 +26,6 @@ Anyway, enough about camera angles; this is about lighting.
 Environment or Ambient Only
 ---------------------------
 
-
 .. figure:: /images/27x-Manual-Lighting-Rigs-EL.jpg
    :width: 300px
    :figwidth: 300px
@@ -52,7 +51,6 @@ Ambient light illuminates, in a perfectly balanced, shadeless way, without casti
 
 Single Rig
 ----------
-
 
 .. figure:: /images/27x-Manual-Lighting-Rigs-01.jpg
    :width: 300px
@@ -94,7 +92,6 @@ Do not use this rig for big open spaces or to show all aspects of a model.
 
 Two-Point Rig
 -------------
-
 
 .. figure:: /images/27x-Manual-Lighting-Rigs-02.jpg
    :width: 300px
@@ -144,7 +141,6 @@ There are multiple thesis on this rig, and you will use one of two:
 Studio rig
 ~~~~~~~~~~
 
-
 .. figure:: /images/27x-Manual-Lighting-Rigs-03a-Studio.jpg
    :width: 300px
    :figwidth: 300px
@@ -183,7 +179,6 @@ you may have to pull the sidelights back to be more positioned like the two-poin
 Standard Rig
 ~~~~~~~~~~~~
 
-
 .. figure:: /images/27x-Manual-Lighting-Rigs-03b-Standart.jpg
    :width: 300px
    :figwidth: 300px
@@ -217,7 +212,6 @@ others, while making sure all three work together as a team.
 
 Four-point Rig
 --------------
-
 
 .. figure:: /images/27x-Manual-Lighting-Rigs-04.jpg
    :width: 300px

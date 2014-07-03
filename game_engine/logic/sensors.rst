@@ -2,7 +2,6 @@
 Sensors
 =======
 
-
 Sensors are the logic bricks that cause the logic to do anything.
 Sensors give an output when something happens, e.g.
 a trigger event such as a collision between two objects, a key pressed on the keyboard,

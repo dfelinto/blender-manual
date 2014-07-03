@@ -2,7 +2,6 @@
 Remesh Modifier
 ===============
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -14,7 +13,6 @@ Remesh Modifier
 
 Description
 -----------
-
 
 The Remesh modifier is a tool for generating new mesh topology based on an input surface.
 The output follows the surface curvature of the input, but its topology contains only quads.
@@ -28,7 +26,6 @@ The output follows the surface curvature of the input, but its topology contains
 Usage
 ~~~~~
 
-
 In the modifier panel, add a Remesh modifier. (This modifier is only available for meshes.)
 The input mesh should have some thickness to it; if the input is completely flat,
 add a solify modifier above the remesh modifier.
@@ -36,7 +33,6 @@ add a solify modifier above the remesh modifier.
 
 Mode
 ____
-
 
 There are three basic modes available in the remesh modifier: Blocks, Smooth and Sharp.
 
@@ -58,7 +54,6 @@ cone and the top point of the cone are accurately reproduced in Sharp mode.
 Octree Depth and Scale
 ______________________
 
-
 The Octree Depth sets the resolution of the output.
 Low values will generate larger faces relative the input,
 higher values generate a denser output.
@@ -76,7 +71,6 @@ lower values effectively decrease the output resolution.
 Disconnected Pieces
 ___________________
 
-
 To filter out small disconnected pieces of the output, enabled Remove Disconnected and set the
 threshold to control how small a disconnected component must be to be removed.
 
@@ -91,7 +85,6 @@ threshold to control how small a disconnected component must be to be removed.
 Sharpness
 _________
 
-
 In Sharp mode,
 set the Sharpness value to control how closely the output follows sharp edges in the input
 (use lower values to filter out noise).
@@ -99,7 +92,6 @@ set the Sharpness value to control how closely the output follows sharp edges in
 
 Demo Videos
 ~~~~~~~~~~~
-
 
 FIXME(Tag Unsupported:div;
 <div style="text-align: center !important;">

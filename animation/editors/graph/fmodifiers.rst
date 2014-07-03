@@ -28,7 +28,6 @@ Go to the Graph Editor.....make sure the f-curves properties panel is visible
 Types of Modifiers
 ------------------
 
-
 Generator
 ~~~~~~~~~
 
@@ -139,7 +138,6 @@ like camera shake.
 
 Python
 ~~~~~~
-
 
 Limits
 ~~~~~~

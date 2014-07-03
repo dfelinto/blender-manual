@@ -8,7 +8,6 @@ Here are some links to external data regarding Freestyle.
 Videos
 ------
 
-
 FIXME(Tag Unsupported:youtube;
 <youtube>IY1L76WwOHg</youtube>
 )
@@ -23,7 +22,6 @@ FIXME(Tag Unsupported:youtube;
 
 Video Tutorials
 ---------------
-
 
 FIXME(Tag Unsupported:youtube;
 <youtube>ON9Sod3GUEg</youtube>

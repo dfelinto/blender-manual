@@ -2,10 +2,8 @@
 Dynamic Paint Brush
 ===================
 
-
 Main Panel
 ----------
-
 
 .. figure:: /images/GSoC-DynamicPaint-Guide-BrushMain.jpg
 
@@ -34,7 +32,6 @@ From the first brush panel you can define how brush affects canvas color surface
 
 Source Panel
 ------------
-
 
 .. figure:: /images/DynamicPaint-Guide-Brush_Source.jpg
 
@@ -125,7 +122,6 @@ Particle System
 Velocity Panel
 --------------
 
-
 .. figure:: /images/DynamicPaint-Guide-Brush-Velocity.jpg
 
    Velocity panel
@@ -157,7 +153,6 @@ Smudge settings
 
 Waves Panel
 -----------
-
 
 .. figure:: /images/DynamicPaint-Guide-Brush-Waves.jpg
 

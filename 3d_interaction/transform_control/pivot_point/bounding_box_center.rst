@@ -2,7 +2,6 @@
 Bounding Box Center as Pivot
 ============================
 
-
 .. admonition:: Reference
    :class: refbox
 

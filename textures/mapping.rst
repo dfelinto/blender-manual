@@ -5,7 +5,6 @@
 Texture Mapping
 ===============
 
-
 Textures need mapping coordinates, to determine how they are applied to the object.
 The mapping specifies how the texture will ultimately wrap itself to the object.
 
@@ -15,7 +14,6 @@ a 2D image texture could be configured to wrap itself around a cylindrical shape
 
 Coordinates
 -----------
-
 
 .. figure:: /images/25-Manual-Textures-Mapping-Coord.jpg
    :width: 207px
@@ -69,7 +67,6 @@ FIXME(TODO: Internal Link;
 Projection
 ----------
 
-
 .. figure:: /images/25-Manual-Textures-Mapping-Proj.jpg
    :width: 210px
    :figwidth: 210px
@@ -93,7 +90,6 @@ Projection
 Inheriting coordinates from the parent object
 ---------------------------------------------
 
-
 :guilabel:`From Dupli`
 
     Duplis instanced from vertices, faces, or particles, inherit texture coordinates from their parent.
@@ -103,7 +99,6 @@ Inheriting coordinates from the parent object
 
 Coordinate Offset, Scaling and Transformation
 ---------------------------------------------
-
 
 .. figure:: /images/25-Manual-Textures-Mapping-Offset.jpg
 

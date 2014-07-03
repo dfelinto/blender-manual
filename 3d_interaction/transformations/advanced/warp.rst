@@ -2,7 +2,6 @@
 Warp
 ====
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -31,7 +30,6 @@ the Pivot Point is not taken into account and the results are view dependent.
 Usage
 -----
 
-
 .. figure:: /images/3D-interaction_Transformation_Advanced_Warp_warp-mesh.jpg
    :width: 350px
    :figwidth: 350px
@@ -54,7 +52,6 @@ and altering the Angle slider provided that no other actions take place between 
 
 Cursor position and view
 ~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 The location of the 3D cursor can be used to alter the results of the :guilabel:`Warp`
 transformation. As can be seen from the example in this section, the :guilabel:`Warp` radius
@@ -81,7 +78,6 @@ to the same Suzanne mesh when in different views. A 3D render is also provided f
 
 Example
 -------
-
 
 .. figure:: /images/3D-interaction_Transformation_Advanced_Warp_warp-text.jpg
 

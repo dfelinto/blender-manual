@@ -5,7 +5,6 @@
 Spot Volumetric Effects
 =======================
 
-
 .. figure:: /images/25-Manual-Lighting-Lamps-Spot-HaloOptions.jpg
    :width: 310px
    :figwidth: 310px
@@ -43,7 +42,6 @@ Spot Volumetric Effects
 
 See Also
 --------
-
 
 - :doc:`Shadows <lighting/shadows>`
 - :doc:`Spot Lamp <lighting/lamps/spot>`

@@ -2,7 +2,6 @@
 Specular Shaders
 ================
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -39,7 +38,6 @@ metals tend to have colored highlights).
 
 Technical Details
 ~~~~~~~~~~~~~~~~~
-
 
 .. figure:: /images/Manual-Part-III-MatGen03.jpg
 
@@ -82,7 +80,6 @@ the same law as the light reflection…
 CookTorr
 --------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -112,7 +109,6 @@ Options
 
 Phong
 -----
-
 
 .. admonition:: Reference
    :class: refbox
@@ -148,7 +144,6 @@ Options
 
 Blinn
 -----
-
 
 .. admonition:: Reference
    :class: refbox
@@ -218,7 +213,6 @@ Options
 
 WardIso
 -------
-
 
 .. admonition:: Reference
    :class: refbox

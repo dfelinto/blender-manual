@@ -14,7 +14,6 @@ and better details than Vertex Painting can provide.
 UVs Explained
 =============
 
-
 .. figure:: /images/Manual-UV-boxprecut.jpg
    :width: 180px
    :figwidth: 180px
@@ -83,7 +82,6 @@ to the Equator.)
 
 Half-Sphere Example
 -------------------
-
 
 .. figure:: /images/Manual-UV-3D_Space_vs_UV_Space.jpg
    :width: 600px

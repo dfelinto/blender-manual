@@ -78,7 +78,6 @@ license you can write the license in a text window.
 Demonstration
 =============
 
-
 FIXME(Tag Unsupported:youtube;
 <youtube>OzGZ_ssrmsQ</youtube>
 )
@@ -86,7 +85,6 @@ FIXME(Tag Unsupported:youtube;
 
 Exercise
 ========
-
 
 Copy the text below in the Text Editor.
 

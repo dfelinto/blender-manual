@@ -13,10 +13,8 @@ We will find answers from dev's if we do not know them and provide an answer her
 Geometry
 ========
 
-
 How can I generate a mesh object using the API?
 -----------------------------------------------
-
 
 Download this code example
 [https://svn.blender.org/svnroot/bf-extensions/contrib/py/api-doc/Script_GeneratePyramidMesh.py
@@ -25,7 +23,6 @@ Download this code example
 
 How do I apply a modifier using the API?
 ----------------------------------------
-
 
 ::
 
@@ -50,7 +47,6 @@ following code shows one way of doing it.
 How do I get the world coordinates of a control vertex of a BezierCurve?
 ------------------------------------------------------------------------
 
-
 ::
 
 
@@ -72,10 +68,8 @@ How do I get the world coordinates of a control vertex of a BezierCurve?
 How do I select/deselect the control points of a Curve
 ------------------------------------------------------
 
-
 Method 1
 ~~~~~~~~
-
 
 .. figure:: /images/Manual-Part20-scripting-faq-select-curve-control-point-method-1.jpg
    :width: 480px
@@ -94,7 +88,6 @@ Method 1
 Method 2
 ~~~~~~~~
 
-
 .. figure:: /images/Manual-Part20-scripting-faq-select-curve-control-point-method-2.jpg
    :width: 480px
    :figwidth: 480px
@@ -112,7 +105,6 @@ Method 2
 Materials
 =========
 
-
 How to link a mesh/object to a material?
 ----------------------------------------
 
@@ -122,8 +114,6 @@ TODO
 Customization
 =============
 
-
 How do I automate custom hotkeys?
 ---------------------------------
-
 

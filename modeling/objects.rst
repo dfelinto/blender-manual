@@ -5,7 +5,6 @@
 Object Mode
 ===========
 
-
 .. figure:: /images/Manual-2.5-Part-II-ObjectMode-Selected-Ex.jpg
    :width: 300px
    :figwidth: 300px
@@ -19,7 +18,6 @@ The geometry of a scene is constructed from one or more Objects: For example Lam
 
 Types of Objects
 ================
-
 
 +------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 +:doc:`Meshes <modeling/meshes>`           |Meshes are objects composed of Polygonal Faces, Edges and/or Vertices, and can be edited extensively with Blender's mesh editing tools.                                                                                  +
@@ -115,7 +113,6 @@ Transform → Origin`  (press :kbd:`T` to open panel):
 Erase Objects
 =============
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -129,7 +126,6 @@ Erases or deletes selected objects.
 
 Join Objects
 ============
-
 
 .. admonition:: Reference
    :class: refbox

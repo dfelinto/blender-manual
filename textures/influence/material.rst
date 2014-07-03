@@ -2,7 +2,6 @@
 Material Textures Influence
 ===========================
 
-
 Not only can textures affect the color of a material,
 they can also affect many of the other properties of a material. The different aspects of a
 material that a texture influences are controlled in the :guilabel:`Influence` panel.
@@ -15,7 +14,6 @@ material that a texture influences are controlled in the :guilabel:`Influence` p
 
 Surface and Wire materials
 --------------------------
-
 
 .. figure:: /images/25-Manual-Textures-Influence-Surface.jpg
    :width: 308px
@@ -75,7 +73,6 @@ ________
 Other Controls
 ~~~~~~~~~~~~~~
 
-
 :guilabel:`Blend`
    Blending operation to perform. See :doc:`Texture Blending Modes <textures/influence/material/blending_modes>` for details.
 :guilabel:`RGB to intensity`
@@ -106,7 +103,6 @@ Other Controls
 Volume materials
 ----------------
 
-
 .. figure:: /images/25-Manual-Textures-Influence-Volume.jpg
    :width: 308px
    :figwidth: 308px
@@ -133,7 +129,6 @@ Special texture options for :guilabel:`Volume` materials
 
 Halo materials
 --------------
-
 
 .. figure:: /images/25-Manual-Textures-Influence-Halo.jpg
    :width: 308px

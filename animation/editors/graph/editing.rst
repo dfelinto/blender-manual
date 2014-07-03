@@ -2,7 +2,6 @@
 Graph Editor - Editing
 ======================
 
-
 Tools and menus for the :doc:`F-Curves <animation/editors/graph/fcurves>` in the *Graph Editor*\ .
 
 By default, when new channels are added, the *Graph Editor* sets them to *Edit Mode*\ .
@@ -12,13 +11,11 @@ Selected channels can be locked by pressing :kbd:`tab`\ .
 Basic Tools
 -----------
 
-
 These are some basic tools to modify the curves and keyframes.
 
 
 Transformations
 _______________
-
 
 .. figure:: /images/Doc_Graph_Active_Keyframe_Panel.jpg
 
@@ -42,7 +39,6 @@ you can set values in the *Active Keyframe* of the Properties Region.
 Selection
 _________
 
-
 *Select Keyframe* :kbd:`RMB`
 
 *Toggle Select* multiple keyframes :kbd:`Shift-RMB`
@@ -59,7 +55,6 @@ _________
 Editing
 _______
 
-
 *Duplicate selected keyframes* :kbd:`Shift-D`
 
 *Add keyframe to active curve* :kbd:`Ctrl-LMB`
@@ -75,7 +70,6 @@ _______
 
 Curves and Keyframes
 ____________________
-
 
 *Set Keyframe Extrapolation* :kbd:`Shift-E`
     *Constant Extrapolation*
@@ -101,7 +95,6 @@ See :doc:`F-Curves <animation/editors/graph/fcurves>` for more info.
 View Tools
 __________
 
-
 *View All* :kbd:`Home`
 
 *View Selected* :kbd:`Numpad-.`
@@ -120,13 +113,11 @@ __________
 More Tools
 ----------
 
-
 Some other tools used to modify the the curves and keyframes.
 
 
 Transform Snapping
 __________________
-
 
 When transforming keyframes with :kbd:`G`\ , :kbd:`R`\ , :kbd:`S`\ ,
 the transformation can be snapped to increments.
@@ -164,7 +155,6 @@ Keyframes can be snapped to different properties by using the *Snap Keys* tool.
 Mirror
 ______
 
-
 Selected keyframes can be mirrored over different properties using the the *Mirror Keys*
 tool.
 
@@ -184,7 +174,6 @@ tool.
 Clean Keyframes
 _______________
 
-
 *Clean Keyframes* resets the keyframe tangents to their auto-clamped shape, if they have been modified.
 
 *Clean Keyframes* :kbd:`O`
@@ -201,7 +190,6 @@ _______________
 
 Smoothing
 _________
-
 
 (\ :kbd:`Alt-O` or :menuselection:`Key --> Smooth Keys`\ )
 There is also an option to smooth the selected curves , but beware: its algorithm seems to be
@@ -221,7 +209,6 @@ seem to be never modified by this tool.
 
 Sampling and Baking Keyframes
 _____________________________
-
 
 :guilabel:`Sample Keyframes` :kbd:`Shift-O`
    Sampling a set a keyframes replaces interpolated values with a new keyframe for each frame.
@@ -243,13 +230,11 @@ _____________________________
 Header Menus
 ------------
 
-
 *Graph Editor* header menus.
 
 
 View Menu
 _________
-
 
 Apart from the standard options like zoom-in/out, maximize window, center view on cursor,
 etc., this menu gathers various other options.
@@ -306,7 +291,6 @@ etc., this menu gathers various other options.
 Select Menu
 ___________
 
-
 :guilabel:`Select All` :kbd:`A`
    In edit mode, select/deselect all keyframes.
    In locked mode, select/deselect all visible channels.
@@ -353,7 +337,6 @@ ___________
 Marker Menu
 ___________
 
-
 *Add Marker* :kbd:`M`
 
 *Duplicate Marker* :kbd:`Shift-D`
@@ -374,7 +357,6 @@ ___________
 
 Channel Menu
 ____________
-
 
 *Delete Channels* :kbd:`X` or :kbd:`Delete`
 
@@ -419,7 +401,6 @@ ____________
 
 Key Menu
 ________
-
 
 *Transform*
     *Grab/Move* :kbd:`G`

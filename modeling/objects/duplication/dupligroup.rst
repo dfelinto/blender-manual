@@ -2,7 +2,6 @@
 DupliGroup
 ==========
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -15,7 +14,6 @@ DupliGroup
 
 Basic Usage
 -----------
-
 
 - Create a number of objects and group them by
    - selecting them all,
@@ -35,7 +33,6 @@ See :doc:`Appending and Linking <data_system/linked_libraries>` to understand ho
 
 Example
 ~~~~~~~
-
 
 - Link a group from another file into your scene, as described in :doc:`Appending and Linking <data_system/linked_libraries>`\ .
 

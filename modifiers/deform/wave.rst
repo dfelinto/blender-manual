@@ -2,7 +2,6 @@
 Wave Modifier
 =============
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -23,7 +22,6 @@ surfaces and texts, with a few restrictions for non-\ *mesh* objects:
 
 Options
 -------
-
 
 .. figure:: /images/25-Manual-Modifiers-Wave.jpg
 

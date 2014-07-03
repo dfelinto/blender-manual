@@ -5,7 +5,6 @@
 Action Editor
 =============
 
-
 Blender 2.5 simplifies the system by making Actions the generic containers for F-Curves.
 Actions can contain any number of F-Curves, and can be attached to any data block.As long as
 the RNA data paths stored in the Action's F-Curves can be found on that data block,

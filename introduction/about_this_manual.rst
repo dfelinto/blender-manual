@@ -2,7 +2,6 @@
 About this manual
 =================
 
-
 This manual is a mediawiki implementation that is written by a world-wide collaboration of volunteer
 FIXME(Link Type Unsupported: dev;
 [[Dev:Ref/Release_Notes/Source_code/Contributors|authors]]
@@ -28,7 +27,6 @@ Blender *and* developing fully animated productions:
 Audience
 ========
 
-
 This manual is written for a very broad audience,
 to answer the question "I want to *do something*\ ; how do I do it using Blender?" all the way
 to "what is the latest change in the way to sculpt a mesh?"
@@ -50,7 +48,6 @@ FIXME(TODO: Internal Link;
 
 Learning CG and Blender
 =======================
-
 
 .. figure:: /images/Manual-Introduction-Learning.jpg
    :width: 400px

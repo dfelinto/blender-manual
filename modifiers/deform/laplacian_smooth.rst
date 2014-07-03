@@ -2,7 +2,6 @@
 Laplacian Smooth and Shape Enhanced Modifier
 ============================================
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -12,7 +11,6 @@ Laplacian Smooth and Shape Enhanced Modifier
 
 Description
 -----------
-
 
 The :guilabel:`Laplacian Smooth` and :guilabel:`Shape Enhanced` modifier allows you to reduce
 noise on a mesh's surface with minimal changes to its shape, and exaggerates a shape using a
@@ -36,7 +34,6 @@ generate families of shapes by changing a single parameter.
 
 Options
 -------
-
 
 .. figure:: /images/Apinzonf_Diagram_Modifier_Panel.jpg
    :width: 369px
@@ -206,7 +203,6 @@ Options
 Hints
 -----
 
-
 Meshes with a great number of vertices, more than ten thousand (10,000),
 may take several minutes for processing; you can use small portions of the mesh for testing
 before executing the modifier on the entire model.
@@ -214,7 +210,6 @@ before executing the modifier on the entire model.
 
 Examples
 --------
-
 
 +-------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------+
 +.. figure:: /images/Apinzonf_GSOC_2012_Diagram_repeat0.jpg                                                         |.. figure:: /images/Apinzonf_Shape_Enhanced_Camel.jpg                                                              +
@@ -228,7 +223,6 @@ Examples
 
 See Also
 --------
-
 
 - :doc:`Smooth Modifier <modifiers/deform/smooth>`
 

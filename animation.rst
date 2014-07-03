@@ -2,10 +2,8 @@
 Animation
 =========
 
-
 Introduction
 ------------
-
 
 Animation is making an object move or change shape over time.
 Objects can be animated in many ways:
@@ -83,7 +81,6 @@ Even if you never used Blender before.
 Animation Basics
 ~~~~~~~~~~~~~~~~
 
-
 :doc:`Actions <animation/basics/actions>`
    Actions are used to record the animation of objects and properties.
 :doc:`Drivers <animation/basics/drivers>`
@@ -101,7 +98,6 @@ Animation Basics
 Animation Editors
 ~~~~~~~~~~~~~~~~~
 
-
 :doc:`Timeline <animation/editors/timeline>`
    The Timeline Editor is a quick editor to set and control the time frame.
    This also has some tools for animation.
@@ -115,7 +111,6 @@ Animation Editors
 
 Categories
 ~~~~~~~~~~
-
 
 :doc:`Modifiers <modifiers_and_deformation>`
    Modifiers are automatic operations that affect an object in a non-destructive way.
@@ -142,7 +137,6 @@ Categories
 
 See Also
 --------
-
 
 - :doc:`Manual#Animation <animation>`
 

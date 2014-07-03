@@ -2,7 +2,6 @@
 Simple Deform Modifier
 ======================
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -12,7 +11,6 @@ Simple Deform Modifier
 
 Description
 -----------
-
 
 .. figure:: /images/25-Manual-Modifiers-Simpledeform.jpg
 

@@ -113,7 +113,6 @@ the bpy module provides functionality to access and modify data.
 Examples
 ========
 
-
 bpy.context
 -----------
 
@@ -128,7 +127,6 @@ Note
 
 Try it out!
 ~~~~~~~~~~~
-
 
 **bpy.context.mode**
    Will print the current 3D View mode (Object, Edit, Sculpt etc.,)
@@ -222,7 +220,6 @@ That's a lot of data.
 
 Try it out!
 ~~~~~~~~~~~
-
 
 .. figure:: /images/Manual-Part-XX-Manual-Extensions-Python-Console-Example-bpy-data.jpg
    :width: 600px

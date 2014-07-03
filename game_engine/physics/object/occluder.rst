@@ -2,7 +2,6 @@
 Occlude Object Type
 ===================
 
-
 If an Occlude type object is between the camera and another object,
 that other object will not be rasterized (calculated for rendering). It is
 "\ `culled <http://www.thefreedictionary.com/culled>`__\ " because it is
@@ -54,7 +53,6 @@ FIXME(Tag Unsupported:span;
 Details
 -------
 
-
 As far as Physics is concerned, this type is equivalent to Rigid Object "No collision".  The
 reason why the Occluder mode is mutually exclusive with other physics mode is to emphasize
 the fact that occluders should be specifically designed for that purpose and not every mesh
@@ -88,7 +86,6 @@ there is no performance decrease compared to regular view frustrum culling.
 
 Recommendations
 ---------------
-
 
 Occlusion culling is most useful when the occluders are large objects (buildings, mountains,
 ...) that hide many complex objects in an unpredictable way. However,

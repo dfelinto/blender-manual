@@ -5,7 +5,6 @@
 F-Curves
 ========
 
-
 Once you have created keyframes for something, you can edit their corresponding curves.
 In Blender 2.5, IPO Curves have been replaced by F-Curves, however,
 editing these curves is essentially still the same.
@@ -13,7 +12,6 @@ editing these curves is essentially still the same.
 
 The concept of Interpolation
 ----------------------------
-
 
 When something is "animated," it changes over time. In Blender,
 animating an object means changing one of its properties, such as its X location,
@@ -203,7 +201,6 @@ You can set the type of handle to use for the curve points :kbd:`V`
 
 Direction of time
 -----------------
-
 
 Although F-curves are very similar to :doc:`Bézier curves <modeling/curves#béziers>`\ , there are some important differences.
 

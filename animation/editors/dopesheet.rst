@@ -5,7 +5,6 @@
 The Dopesheet
 =============
 
-
 .. figure:: /images/Manual-dopesheet-overview.jpg
    :width: 400px
    :figwidth: 400px
@@ -22,7 +21,6 @@ It gives the animator a 'birds-eye-view' of every thing occurring within a scene
 
 Dope Sheet Modes
 ----------------
-
 
 .. figure:: /images/Manual-dopesheet-modes.jpg
 
@@ -43,7 +41,6 @@ There are four basic views for the Dopesheet.These all view different contexts o
 
 Interface
 ---------
-
 
 The :guilabel:`Action Editor` interface is somewhat similar to the :guilabel:`FCurve Editor`
 one, it is divided in three areas:
@@ -88,7 +85,6 @@ FIXME(TODO: Internal Link;
 
 View Menu
 ~~~~~~~~~
-
 
 .. figure:: /images/Doc26-actionEditor-sliders.jpg
 

@@ -4,7 +4,6 @@
 Installing on Mac
 =================
 
-
 Installing Blender on a Mac is very easy.
 There are pre-compiled versions for 32 and 64 Bit Macs using Intel Processors.
 Once you know your platform and processor :
@@ -40,7 +39,6 @@ Once you know your platform and processor :
 Adding Blender to Applications
 ------------------------------
 
-
 .. figure:: /images/Manual-Introduction-Installing-Mac-Places.jpg
 
    Places and Applications on Mac
@@ -61,7 +59,6 @@ Move the Unzipped Blender Folder to the Applications.
 
 Adding Blender to your Dock
 ---------------------------
-
 
 To add Blender to your dock, you can do the following:
 

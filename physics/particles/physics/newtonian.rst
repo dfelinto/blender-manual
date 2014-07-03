@@ -12,7 +12,6 @@ according to any given integrator chosen by the animator.
 Forces
 ------
 
-
 .. figure:: /images/Newtonan.jpg
 
    Image 5: Newtonian Physics.

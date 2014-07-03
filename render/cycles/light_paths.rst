@@ -2,10 +2,8 @@
 Light Paths
 ===========
 
-
 Ray Types
 ---------
-
 
 Ray types can be divided into four categories:
 
@@ -31,7 +29,6 @@ The Light Path node can be used to find out the type of ray the shading is being
 Bounce Control
 --------------
 
-
 The maximum number of light bounces can be controlled manually.
 While ideally this should be infinite,
 in practice a smaller number of bounces may be sufficient,
@@ -50,7 +47,6 @@ A common source of noise is caustics, which are diffuse bounces followed by a gl
 
 Transparency
 ------------
-
 
 The transparent :abbr:`BSDF (Bidirectional scattering distribution function)` shader is given
 special treatment. When a ray passes through it, light passes straight on,
@@ -74,7 +70,6 @@ ray.
 
 Ray Visibility
 --------------
-
 
 Objects can be set to be invisible to particular ray types:
 

@@ -24,7 +24,6 @@ compared to the traditional method:
 Options
 -------
 
-
 .. figure:: /images/25-Manual-Constraints-Relationship-ChildOf.jpg
    :width: 307px
    :figwidth: 307px
@@ -81,7 +80,6 @@ also for combinations of rotated and non-uniform scaled parents.
 
 Examples
 --------
-
 
 +-----------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 +.. figure:: /images/ManConstraintsChildOfObjectsEx01NoCst.jpg                            |.. figure:: /images/ManConstraintsChildOfObjectsEx02CstAdded.jpg                                                                                                                                                                  +

@@ -2,7 +2,6 @@
 Keying Sets
 ===========
 
-
 .. figure:: /images/Doc_kia_Cube02.jpg
 
    Timeline Keying Sets.
@@ -20,7 +19,6 @@ To select and use a Keying Set, set the *Active Keying Set* in the :doc:`Timelin
 
 Keying Set Panel
 ----------------
-
 
 This panel is used to add, select, manage *Absolute Keying Sets*\ .
 
@@ -64,7 +62,6 @@ This panel is used to add, select, manage *Absolute Keying Sets*\ .
 
 Active Keying Set Panel
 -----------------------
-
 
 This panel is used to add properties to the active Keying Set.
 
@@ -120,7 +117,6 @@ This panel is used to add properties to the active Keying Set.
 Adding Properties
 -----------------
 
-
 Some ways to add properties to keying sets.
 
 :kbd:`rmb` the property in the *User Interface*\ , then select *Add Single to Keying Set* or *Add All to Keying Set*\ . This will add the properties to the active keying set, or to a new keying set if none exist.
@@ -131,7 +127,6 @@ to add *Add All to Keying Set*\ .
 
 See Also
 --------
-
 
 - :doc:`Timeline Header - V Keyframe Control <animation/editors/timeline#v_keyframe_control>`
 

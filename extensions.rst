@@ -11,7 +11,6 @@ Unlike many programs you may be familiar with, Blender is not monolithic and sta
 Addons
 ------
 
-
 Addons are scripts you can enable to gain extra functionality within Blender,
 they can be enabled from the user preferences.
 
@@ -38,7 +37,6 @@ Apart from addons there are also scripts you can use to extend Blenders function
 
 Saving your own scripts
 -----------------------
-
 
 File location
 ~~~~~~~~~~~~~

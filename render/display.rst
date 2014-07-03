@@ -36,7 +36,6 @@ Rendered images can be saved by clicking on the Image menu and using the save op
 Animation Playback
 ==================
 
-
 The 'Play' button in the render panel will play back your rendered animation in a new window.
 
 You can also drop images or movie files in a running animation player.

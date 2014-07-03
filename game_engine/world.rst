@@ -5,7 +5,6 @@
 World Physics
 =============
 
-
 .. figure:: /images/BGE_World.jpg
    :width: 292px
    :figwidth: 292px
@@ -59,7 +58,6 @@ Mist can greatly enhance the illusion of depth in your rendering. To create mist
 
 Game Physics
 ------------
-
 
 The Game Physics located in the World panel determine the type of physical rules that govern the game engine scene, and the gravity value to be used. Based on the physics engine selected, in physics simulations in the game engine, Blender will automatically move :guilabel:`Actors` in the downward (-Z) direction. After you arrange the actors and they move as you wish, you can then bake this computed motion into fixed Ipo curves (see :doc:`Logic actors <game_engine/physics/object_type>` for more info).
 

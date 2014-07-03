@@ -2,7 +2,6 @@
 Transparency
 ============
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -113,7 +112,6 @@ this is all because of the Index of Refraction of glass.
 Options
 -------
 
-
 .. figure:: /images/Manual-2.5-Material-RaytracedTransp-Panel.jpg
 
    The Transparency Panel.
@@ -148,10 +146,8 @@ FIXME(TODO: Internal Link;
 Examples
 --------
 
-
 Index of Refraction
 ~~~~~~~~~~~~~~~~~~~
-
 
 .. figure:: /images/Manual-2.5-Material-RaytracedTransp-IOR-Examples.jpg
 
@@ -163,7 +159,6 @@ Index of Refraction
 
 Fresnel
 ~~~~~~~
-
 
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+
 +.. figure:: /images/Manual-2.5-Material-RayTraceTransp-FresnelExampel.jpg                                                                                                                                                                                                                                                                               |.. figure:: /images/Manual-2.5-Material-RayTraceTransp-FresnelExampelZTransp.jpg +
@@ -190,7 +185,6 @@ value or decreasing the :guilabel:`Alpha` value.
 
 Depth
 ~~~~~
-
 
 .. figure:: /images/Manual-2.5-Material-Transp-3GlassesExample.jpg
    :width: 640px
@@ -219,10 +213,8 @@ transparent objects is often an interesting alternative.
 Hints
 =====
 
-
 Transparent shadows
 -------------------
-
 
 +--------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
 +.. figure:: /images/Manual25-Material-TranspShadow-Example-NoTraSha.jpg                     |.. figure:: /images/Manual25-Material-TranspShadow-Example-EnvLight.jpg  +

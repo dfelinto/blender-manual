@@ -36,7 +36,6 @@ FIXME(TODO: Internal Link;
 Interface
 ---------
 
-
 .. figure:: /images/2.5_Manual-Part-II-curvesDeform_parentMenu.jpg
 
    Make Parent menu.
@@ -154,7 +153,6 @@ and how to control the thickness along the path.
 
 Extrusion
 ---------
-
 
 .. admonition:: Reference
    :class: refbox

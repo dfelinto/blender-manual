@@ -7,7 +7,6 @@
 Cache
 =====
 
-
 .. figure:: /images/Blender3D_ParticleSystem_CacheSettings-2.5.jpg
 
    Image 4: Cache panel for particles.
@@ -25,7 +24,6 @@ Cache
 Caching
 -------
 
-
 - As animation is played, each physics system writes each frame to disk, between the simulation start and end frames. These files are stored in folders with prefix "\ ``blendcache``\ ", next to the .blend file. Note that for the cache to fill up, one has to start playback before or on the frame that the simulation starts.
 - The cache is cleared automatically on changes - but not on all changes, so it may be necessary to free it manually e.g. if you change a force field.
 - If it is impossible to write in the subdirectory there will be no caching.
@@ -35,7 +33,6 @@ Caching
 
 Baking
 ------
-
 
 - The system is protected against changes after baking.
 - The :guilabel:`Bake` result is cleared also with :kbd:`ctrl-B` for all selected objects or click on :guilabel:`Free Bake` for a singular particle system.

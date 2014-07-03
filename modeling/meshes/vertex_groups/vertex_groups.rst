@@ -27,7 +27,6 @@ However in this section we will focus on manually created (user-defined) Vertex 
 Typical usage scenarios for Vertex groups
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
 - **Skinning an armature**
 
 If you want to animate your mesh and make it move, you will define an armature which consists of a bunch of bones. Vertex Groups are used to associate parts of the Mesh to Bones of the Armature, where you can specify an influence :guilabel:`weight` in the range [0.0 ... 1.0] for each vertex in the Vertex Group.
@@ -47,7 +46,6 @@ Consider modeling a Lego block. The most simple brick consists of a base and a s
 
 Creating Vertex Groups
 ~~~~~~~~~~~~~~~~~~~~~~
-
 
 .. figure:: /images/26-Manual-Modeling-Meshes-vertex-group-panel-empty.jpg
    :width: 264px
@@ -94,7 +92,6 @@ If you have two or more groups in the list, then you can change the active group
 Deleting vertex Groups
 ~~~~~~~~~~~~~~~~~~~~~~
 
-
 .. figure:: /images/26-Manual-Modeling-Meshes-vertex-group-panel-dg.jpg
    :width: 264px
    :figwidth: 264px
@@ -135,7 +132,6 @@ thus all corresponding function buttons become disabled for locked Vertex Groups
 Working with Content of Vertex Groups
 -------------------------------------
 
-
 .. figure:: /images/26-Manual-Modeling-Meshes-vertex-group-panel-one.jpg
    :width: 264px
    :figwidth: 264px
@@ -161,7 +157,6 @@ value that gets assigned to the selected verts when you press the Assign Button.
 
 Assigning verts to a Group
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 .. figure:: /images/26-Manual-Modeling-Meshes-vertex-group-panel-assign.jpg
    :width: 264px
@@ -241,7 +236,6 @@ You can find ungrouped vertices as follows:
 Keyboard Shortcuts
 ~~~~~~~~~~~~~~~~~~
 
-
 .. figure:: /images/26-Manual-Modeling-Meshes-vertex-group-popup.jpg
    :width: 264px
    :figwidth: 264px
@@ -270,7 +264,6 @@ Blender:
 
 Vertex Group Management
 -----------------------
-
 
 .. figure:: /images/26-Manual-Modeling-Meshes-vertex-group-pulldown.jpg
    :width: 213px
@@ -310,7 +303,6 @@ The following functions operate only on the lock state settings:
 
 Hints
 -----
-
 
 - Multiple objects sharing the same mesh data have the peculiar property that the group names are stored on the object, but the weights in the mesh. This allows you to name groups differently on each object, but take care because removing a vertex group will remove the group from all objects sharing this mesh.
 

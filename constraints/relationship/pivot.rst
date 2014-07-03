@@ -10,7 +10,6 @@
 Pivot Constraint
 ================
 
-
 Description
 -----------
 
@@ -21,7 +20,6 @@ It was originally intended for foot rigs.
 
 Options
 -------
-
 
 .. figure:: /images/25-Manual-Constraints-Relationship-Pivot.jpg
    :width: 302px
@@ -48,7 +46,6 @@ Options
 Example
 -------
 
-
 FIXME(Tag Unsupported:youtube;
 <youtube>sncFstaycIo</youtube>
 )
@@ -56,7 +53,6 @@ FIXME(Tag Unsupported:youtube;
 
 See also
 ========
-
 
 - `Blender Artists Forum: Head-Tail pivot Constrain proposal (with Video and .blend) <http://blenderartists.org/forum/showthread.php?t=186169&page=1>`__\ , the thread where the constraint was first proposed
 

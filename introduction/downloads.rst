@@ -2,7 +2,6 @@
 Downloadable versions of this manual
 ====================================
 
-
 While the official documentation is created and maintained in this wiki,
 which always contains the latest contributions,
 it could be useful for someone to have a downloadable form of the wiki manual content

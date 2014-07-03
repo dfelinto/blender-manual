@@ -5,7 +5,6 @@
 Constraints Common Interface
 ============================
 
-
 .. figure:: /images/25-Manual-Constraints-Subpanel-3parts.jpg
    :width: 303px
    :figwidth: 303px
@@ -25,7 +24,6 @@ that is split into three parts:
 
 Constraints Header
 ------------------
-
 
 .. figure:: /images/25-Manual-Constraints-Subpanel-header.jpg
    :width: 406px
@@ -56,7 +54,6 @@ The "X" control
 
 Constraints Settings
 --------------------
-
 
 .. figure:: /images/25-Manual-Constraints-Subpanel-body.jpg
    :width: 303px
@@ -130,7 +127,6 @@ to visualize the various spaces specificities…).
 
 Influence
 ---------
-
 
 .. figure:: /images/25-Manual-Constraints-Subpanel-influence.jpg
    :width: 303px

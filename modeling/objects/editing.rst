@@ -13,7 +13,6 @@ Information about some additional possibilities are described in :doc:`Manipulat
 Object Mode
 -----------
 
-
 .. figure:: /images/Icon-library_3D-Window_header-mode-selection.jpg
 
    Object Mode button
@@ -47,7 +46,6 @@ Below are listed different types of creation and deletion tools.
 Add
 ---
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -74,7 +72,6 @@ We may add one of those primitives:
 
 Duplicate
 ---------
-
 
 .. admonition:: Reference
    :class: refbox
@@ -116,7 +113,6 @@ containing meshes and curves.
 Delete
 ------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -137,7 +133,6 @@ Below are listed different types of transformation.
 Translate
 ---------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -151,7 +146,6 @@ Y and/or Z coordinates of object's :guilabel:`Origin point` relative to center o
 
 Rotate
 ------
-
 
 .. admonition:: Reference
    :class: refbox
@@ -167,7 +161,6 @@ No parts of each object are changing their position relative to other parts of t
 
 Scale
 -----
-
 
 .. admonition:: Reference
    :class: refbox

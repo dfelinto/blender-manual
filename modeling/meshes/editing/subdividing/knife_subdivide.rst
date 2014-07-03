@@ -5,7 +5,6 @@
 Knife Tool
 ==========
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -139,7 +138,6 @@ for knife trail crossings.
 Knife Project
 =============
 
-
 Knife projection is a non-interactive tool where you can use objects to cookie-cut into the
 mesh rather than hand drawing the line.
 
@@ -155,7 +153,6 @@ Now tab into edit mode and press "knife project".
 
 Examples
 --------
-
 
 .. figure:: /images/Knife_project_text_before.jpg
    :width: 300px

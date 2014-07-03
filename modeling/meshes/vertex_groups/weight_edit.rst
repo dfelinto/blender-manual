@@ -2,7 +2,6 @@
 Weight Editing
 ==============
 
-
 .. figure:: /images/26-Manual-Modeling-Meshes-vertex-weights-panel-overview.jpg
    :width: 235px
    :figwidth: 235px
@@ -159,7 +158,6 @@ Delete a weight from a Group
 The Function bar
 ~~~~~~~~~~~~~~~~
 
-
 .. figure:: /images/26-Manual-Modeling-Meshes-vertex-weight-editor-functions.jpg
    :width: 235px
    :figwidth: 235px
@@ -183,7 +181,6 @@ Copy
 
 About locked Vertex Groups
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 .. figure:: /images/26-Manual-Modeling-Meshes-vertex-weight-editor-locked.jpg
    :width: 235px

@@ -75,7 +75,6 @@ by selecting them and using the shortcut :kbd:`F`\ , to create a face.
 Unsubdivide
 -----------
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -96,10 +95,8 @@ unexpected results may occur.
 Merging
 -------
 
-
 Merging Vertices
 ~~~~~~~~~~~~~~~~
-
 
 .. admonition:: Reference
    :class: refbox
@@ -135,7 +132,6 @@ it can to preserve edges and faces only partly involved in the reunion.
 AutoMerge Editing
 ~~~~~~~~~~~~~~~~~
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -151,7 +147,6 @@ as soon as a vertex moves closer to another one than the :guilabel:`Limit` setti
 
 Remove Doubles
 ~~~~~~~~~~~~~~
-
 
 .. admonition:: Reference
    :class: refbox

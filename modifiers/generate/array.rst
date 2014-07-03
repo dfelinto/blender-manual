@@ -2,7 +2,6 @@
 Array Modifier
 ==============
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -14,7 +13,6 @@ Array Modifier
 
 Description
 -----------
-
 
 .. figure:: /images/Dev_Array_Multi_Dimension.jpg
    :width: 250px
@@ -37,7 +35,6 @@ to create complex 3 dimensional constructs.
 
 Options
 -------
-
 
 .. figure:: /images/CZ_ArrayModifier_IF.jpg
 
@@ -128,7 +125,6 @@ Options
 Hints
 -----
 
-
 Offset Calculation
 ~~~~~~~~~~~~~~~~~~
 
@@ -143,10 +139,8 @@ giving an array of objects neatly spaced along the X axis with a constant **0.1B
 Examples
 --------
 
-
 Mechanical
 ~~~~~~~~~~
-
 
 +--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+
 +.. figure:: /images/Blender_Array_Bridge.jpg                                                      |.. figure:: /images/Dev-ArrayModifier-track01.jpg                                                      +
@@ -175,7 +169,6 @@ Mechanical
 Fractal
 ~~~~~~~
 
-
 +--------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------+
 +.. figure:: /images/Dev_Array_Multi_Dimension.jpg                                     |.. figure:: /images/Dev-ArrayModifier-Fractal01.jpg                                                 +
 +   :width: 300px                                                                      |   :width: 300px                                                                                    +
@@ -194,7 +187,6 @@ Fractal
 
 Organic
 ~~~~~~~
-
 
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 +.. figure:: /images/Dev_Array_Fractal_example.jpg                                                                                                                                                                                                                      |.. figure:: /images/Dev-ArrayModifier-Spiral01.jpg                                                                                                                                   +
@@ -215,7 +207,6 @@ Organic
 
 Tutorials
 ---------
-
 
 - `Neal Hirsig's Array Modifier Screencast on Vimeo <http://vimeo.com/46061877>`__
 - :doc:`Creating A Double Helix With Modifiers <ls/modifiers/a_double_helix>`
