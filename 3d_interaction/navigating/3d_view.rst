@@ -9,10 +9,11 @@ most of the other windows have similar functions. For example,
 it is possible to translate and zoom a :guilabel:`Buttons` window and its panels.
 
 
-.. admonition:: Mouse Buttons and Numpad
-   :class: nicetip
+.. tip:: Mouse Buttons and Numpad
 
-   If you have a mouse with less than three buttons or a keyboard without numpad, please refer to the :doc:`Keyboard and Mouse <interface/keyboard_and_mouse>` page of the manual to learn how to use them with Blender.
+   If you have a mouse with less than three buttons or a keyboard without numpad,
+   please refer to the :doc:`Keyboard and Mouse <interface/keyboard_and_mouse>`
+   page of the manual to learn how to use them with Blender.
 
 
 Perspective and Orthographic Views
@@ -289,6 +290,7 @@ Align View
 
 These options allow you to align and orient the view in different ways.
 They are found in the :guilabel:`View Menu`
+
    :guilabel:`Align View to Selected` menu
       These options align your view with specified local axes of the selected object or, in :guilabel:`Edit` mode, with the normal of the selected face.
 

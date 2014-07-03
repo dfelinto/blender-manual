@@ -17,24 +17,29 @@ Blender Screenshots
    Save Screenshot Option
 
 
-:kbd:`ctrl-F3` will take a screenshot of your Blender window and then open the Blender :guilabel:`File Browser` window, allowing you to specify the name and location of the screenshot. In the example image at the right, the PNG format will be the output of the screenshot taken (settings are the same as the ones available to save render results).
+:kbd:`ctrl-F3` will take a screenshot of your Blender window and then open the Blender :guilabel:`File Browser` window,
+allowing you to specify the name and location of the screenshot.
+In the example image at the right, the PNG format will be the output of the screenshot taken
+(settings are the same as the ones available to save render results).
 When the Blender :guilabel:`File Browser` window opens for you, at the left, there is a tab
 called *Save Screenshot* where you can find format settings and a checkbox with the option
 *Full Screen*\ .
 
-- Check the Option to save the entire Blender window (full width and height of the Blender window you are using when you call the command).
+- Check the Option to save the entire Blender window
+  (full width and height of the Blender window you are using when you call the command).
 - Uncheck the box to save only your active window (where your mouse is located when you call the command).
 
 
-.. admonition:: Keyboard Shortcut Conflicts
-   :class: nicetip
+.. tip:: Keyboard Shortcut Conflicts
 
+   .. figure:: /images/Manual-Vital-Screenshot-Small-Search-Functionality.jpg
 
-.. figure:: /images/Manual-Vital-Screenshot-Small-Search-Functionality.jpg
+      Search Functionality
 
-   Search Functionality
-
-   Sometimes, the operating System you are using is designed to use some Shortcuts that the default Blender installation also uses for its functions. In this case, you can use the search functionality present in Blender. (See Fig: Search Functionality). Hit :kbd:`space` and type :guilabel:`Screenshot`\ , in the Search Popup
+      Sometimes, the operating System you are using is designed to use some
+      Shortcuts that the default Blender installation also uses for its functions.
+      In this case, you can use the search functionality present in Blender.
+      (See Fig: Search Functionality). Hit :kbd:`space` and type :guilabel:`Screenshot`, in the Search Popup.
 
 
 Operating System Screenshots
