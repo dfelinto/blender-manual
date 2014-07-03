@@ -17,7 +17,7 @@ Description
 The :guilabel:`Laplacian Smooth` and :guilabel:`Shape Enhanced` modifier allows you to reduce
 noise on a mesh's surface with minimal changes to its shape, and exaggerates a shape using a
 Laplacian smoothing modifier in the reverse direction using a single parameter,
- :math:`factor` , that supports negative and positive values:
+The :guilabel:`factor` , that supports negative and positive values:
 **negative for enhancement** and **positive for smoothing**\ .
 
 The :guilabel:`Shape enhanced` method exaggerates a shape using a Laplacian smoothing operator
