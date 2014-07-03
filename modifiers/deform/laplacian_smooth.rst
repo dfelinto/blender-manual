@@ -217,7 +217,7 @@ Examples
 +   :figwidth: 150px                                                                                                |   :figwidth: 240px                                                                                                +
 +                                                                                                                   |                                                                                                                   +
 +   Femme front view                                                                                                |   Camel Enhanced                                                                                                  +
-+    `Femme Front blend file <http://wiki.blender.org/index.php/Media:Apinzonf_GSOC_2012_Media_femme_front.blend>`__|    `Cube Smooth blend file <http://wiki.blender.org/index.php/Media:Apinzonf_GSOC_2012_Media_cube_smooth.blend>`__+
++   `Femme Front blend file <http://wiki.blender.org/index.php/Media:Apinzonf_GSOC_2012_Media_femme_front.blend>`__ |   `Cube Smooth blend file <http://wiki.blender.org/index.php/Media:Apinzonf_GSOC_2012_Media_cube_smooth.blend>`__ +
 +-------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------+
 
 
