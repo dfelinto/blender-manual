@@ -1,0 +1,12 @@
+
+Cleanup:
+
+- Replace all instances of 'nicetip' with the '.. tip::' directive.
+- Lots of indentation warnings.
+- Replace some unnecessary tables with bullets - eg: 'render/output/video.rst:220'
+
+
+Conventions:
+- Choose a way to reference UI elements, ':guilabel:' is used all over, but may want to just use bold/italic.
+- lots of lines over 120 length (low priority)
+
