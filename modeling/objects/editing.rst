@@ -49,7 +49,7 @@ Add
 ---
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Menu:     :guilabel:`Main` → :guilabel:`Add`
@@ -77,14 +77,14 @@ Duplicate
 ---------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Menu:     *Object → Duplicate Objects*
    | Hotkey:   :kbd:`Shift-D`
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Menu:     *Object → Duplicate Linked*
@@ -99,7 +99,7 @@ Join
 ----
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Menu:     *Object → Join*
@@ -118,7 +118,7 @@ Delete
 ------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Menu:     *Object → Delete... → Delete*
@@ -139,7 +139,7 @@ Translate
 ---------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Menu:     *Object → Transform → Grab/Move*
@@ -154,7 +154,7 @@ Rotate
 ------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Menu:     *Object → Transform → Rotate*
@@ -170,7 +170,7 @@ Scale
 -----
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Menu:     *Object → Transform → Scale*

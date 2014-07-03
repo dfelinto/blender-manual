@@ -5,7 +5,7 @@ Displace Modifier
 =================
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     Any mode
@@ -64,7 +64,7 @@ Options
          The UV coordinate layer from which to take texture coordinates.
           If the object has no UV coordinates, it uses the :guilabel:`Local` coordinate system. If this field is blank, but there is an UV coordinate layer available (e.g. just after adding the first UV layer to the mesh), it will be overwritten with the currently active UV layer.
 
- .. admonition:: Note
+.. admonition:: Note
    :class: note
 
    Since UV coordinates are specified per face, the UV texture coordinate system currently determines the UV coordinate for each vertex from the first face encountered which uses that vertex; any other faces using that vertex are ignored. This may lead to artifacts if the mesh has non-contiguous UV coordinates.

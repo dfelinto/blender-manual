@@ -41,7 +41,7 @@ Modifier itself has two different types:
     Makes object apply paint on the canvas.
 
 
- .. admonition:: Note
+.. admonition:: Note
    :class: note
 
    You can also enable brush and canvas simultaneously. In that case same object's "brush" doesn't influence it's "canvas", but can still interact with other objects in the scene.

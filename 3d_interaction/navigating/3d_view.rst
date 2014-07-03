@@ -11,7 +11,7 @@ most of the other windows have similar functions. For example,
 it is possible to translate and zoom a :guilabel:`Buttons` window and its panels.
 
 
- .. admonition:: Mouse Buttons and Numpad
+.. admonition:: Mouse Buttons and Numpad
    :class: nicetip
 
    If you have a mouse with less than three buttons or a keyboard without numpad, please refer to the :doc:`Keyboard and Mouse <interface/keyboard_and_mouse>` page of the manual to learn how to use them with Blender.
@@ -21,7 +21,7 @@ Perspective and Orthographic Views
 ==================================
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     All modes
@@ -119,7 +119,7 @@ Rotating the View
 =================
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     All modes
@@ -169,7 +169,7 @@ or use :kbd:`pad4` and :kbd:`pad6` (or :kbd:`ctrl-alt-wheel`\ )
 to rotate the scene around the Z global axis from your current point of view.
 
 
- .. admonition:: Hotkeys
+.. admonition:: Hotkeys
    :class: note
 
    Remember that most hotkeys affect **the active window** (the one that has focus), so check that the mouse cursor is in the area you want to work in before your use the hotkeys.
@@ -206,7 +206,7 @@ Panning the View
 ================
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     All modes
@@ -229,7 +229,7 @@ Zooming the View
 ================
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     All modes
@@ -251,7 +251,7 @@ To zoom a :guilabel:`Buttons` window,
 hold :kbd:`CTRL-MMB` and move your mouse up and down.
 
 
- .. admonition:: If You Get Lost…
+.. admonition:: If You Get Lost…
    :class: note
 
    If you get lost in 3D space, which is not uncommon, two hotkeys will help you: :kbd:`home` changes the view so that you can see all objects (\ :menuselection:`View --> View All` menu entry), while :kbd:`pad.` zooms the view to the currently selected objects when in perspective mode (\ :menuselection:`View --> View Selected` menu entry).
@@ -271,7 +271,7 @@ Dolly the View
 ==============
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     All modes
@@ -341,7 +341,7 @@ Quad View
 =========
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     All modes
@@ -373,7 +373,7 @@ View Clipping Border
 ====================
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     All modes
@@ -430,7 +430,7 @@ View Navigation
 ===============
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     All modes

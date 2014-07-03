@@ -5,7 +5,7 @@ Fluid Simulation
 ================
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Object` mode / :guilabel:`Edit mode` (Mesh)
@@ -55,7 +55,7 @@ In general, you follow these steps:
 - :doc:`Bake the simulation <physics/fluid/domain>` (eventually, revise as necessary and bake repeatedly).
 
 
- .. admonition:: Baking is done on the Domain object!
+.. admonition:: Baking is done on the Domain object!
    :class: nicetip
 
    When you calculate the fluid simulation, **you bake the simulation on the domain object**\ .

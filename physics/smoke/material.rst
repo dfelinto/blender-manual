@@ -66,7 +66,7 @@ Now you should be able to render single frames. You can choose to color your smo
 by turning "Emmision Color" back on.
 
 
- .. admonition:: To see the smoke more clearly
+.. admonition:: To see the smoke more clearly
    :class: nicetip
 
    Under the world tab, chose a very dark color for the horizon.

@@ -103,7 +103,7 @@ Good collisions
 If the collision you have set up is not behaving properly, you can try the following:
 
 
- .. admonition:: The best way
+.. admonition:: The best way
    :class: nicetip
 
    Add :guilabel:`Loop Cuts` to your Soft Body object in strategic areas that you know are most likely to be involved in a collision.

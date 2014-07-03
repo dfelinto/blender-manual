@@ -7,7 +7,7 @@ Retopologizing
 ==============
 
 
- .. admonition:: Note
+.. admonition:: Note
    :class: note
 
    In Blender 2.5, the Retopo tool has been replaced by improved mesh snapping functionality. This page will change as retopology tools are updated in newer versions of Blender

@@ -19,7 +19,7 @@ clear the cache for all selected objects with :kbd:`ctrl-B` → :guilabel:`Free
 selected`\ .
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Object` Mode

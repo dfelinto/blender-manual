@@ -5,7 +5,7 @@ View Shading
 ============
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     All modes
@@ -64,7 +64,7 @@ View Properties Panel
 =====================
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     All modes
@@ -102,7 +102,7 @@ View
    Adjust the minimum and maximum distances to be visible for the view-port.
 
 
- .. admonition:: Notice
+.. admonition:: Notice
    :class: note
 
 
@@ -190,7 +190,7 @@ Background Image
 ================
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     All modes
@@ -285,7 +285,7 @@ When the image is loaded, the following settings become available.
    The horizontal and vertical offset of the background image in the view (by default, it is centered on the origin), in Blender units.
 
 
- .. admonition:: Use Lo-Res Proxy
+.. admonition:: Use Lo-Res Proxy
    :class: nicetip
 
    To improve PC performance when using background images you may have to use lower-resolution proxies. If your monitor resolution is 800×600, then the background image, full screen, without zooming, only needs to be 800×600. If your reference image is 2048×2048, then your computer is grinding away throwing away pixels. Try instead to take that 2k×2k image, and scale it down (using Blender, or Gimp) to, for example, 512×512. You will have sixteen times the performance, with no appreciable loss of quality or exactness. Then, as you refine your model, you can increase the resolution.

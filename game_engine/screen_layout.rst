@@ -65,7 +65,7 @@ The :doc:`Logic Editor <game_engine/logic/editor>` is where the :doc:`logic, pro
 
 **5) Properties**
 
- .. admonition:: Two Meanings for the Same Word
+.. admonition:: Two Meanings for the Same Word
    :class: nicetip
 
    Note that the name "Property" has two different uses in Blender terminology - firstly in the wider use of the Property Display Panel as described here, and secondly as the term used for specific Game Engine logic variables which are also called "properties".

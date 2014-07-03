@@ -77,7 +77,7 @@ Unsubdivide
 -----------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
@@ -102,7 +102,7 @@ Merging Vertices
 ~~~~~~~~~~~~~~~~
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
@@ -137,7 +137,7 @@ AutoMerge Editing
 ~~~~~~~~~~~~~~~~~
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
@@ -154,7 +154,7 @@ Remove Doubles
 ~~~~~~~~~~~~~~
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode

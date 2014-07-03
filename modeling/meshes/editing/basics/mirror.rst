@@ -10,7 +10,7 @@ X-Mirror
 --------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
@@ -70,7 +70,7 @@ Snap to Symmetry
 ----------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
@@ -116,7 +116,7 @@ Symmetrize Mesh
 ---------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode

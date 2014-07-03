@@ -107,7 +107,7 @@ Creating Markers
 ----------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     all modes
@@ -128,7 +128,7 @@ Selecting Markers
 -----------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     all modes
@@ -153,7 +153,7 @@ Naming Markers
 --------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     all modes
@@ -170,7 +170,7 @@ Moving Markers
 --------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     all modes
@@ -192,7 +192,7 @@ Duplicating Markers
 -------------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     all modes
@@ -214,7 +214,7 @@ Deleting Markers
 ----------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     all modes

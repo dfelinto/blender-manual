@@ -15,13 +15,13 @@ It can provide ambient color, and special effects such as mist,
 but a very common use of a :guilabel:`World` is to shade a background color.
 
 
- .. admonition:: Background Image in Render
+.. admonition:: Background Image in Render
    :class: note
 
    To use an image as your render background, see :doc:`BackBuf images specified in the Output Panel <render>`
 
 
- .. admonition:: Background Image in 3D
+.. admonition:: Background Image in 3D
    :class: note
 
    To use an image as a background image in your 3D view, for example as a reference when doing a model, see :doc:`using a Background Image <3d_interaction/navigating/3d_view_options>`

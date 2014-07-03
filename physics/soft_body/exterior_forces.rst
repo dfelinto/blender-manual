@@ -116,7 +116,7 @@ Imagine the vertex is connected with it's target through a spring (\ *Image 2b*\
    When you paint the values in vertex-groups (using :guilabel:`WeightPaint` mode), you can use the :guilabel:`G Min` and :guilabel:`G Max` to fine-tune (clamp) the weight values. The lowest vertex-weight (blue) will become :guilabel:`G Min`\ , the highest value (red) becomes :guilabel:`G Max` (please note that the blue-red color scale may be altered by User Preferences).
 
 
- .. admonition:: For now all is applied to single vertices
+.. admonition:: For now all is applied to single vertices
    :class: nicetip
 
    For now we have discussed vertex movement independent of each other, similar to particles. Every object without :guilabel:`Goal` would collapse completely if a non uniform force is applied. Now we will move to the next step, the forces that keep the structure of the object and make the Soft Body to a real Body.

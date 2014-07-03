@@ -17,7 +17,7 @@ they behave a bit as if all object copies of the group were children of the empt
 So you have all the editing options of objects (you can move/scale/rotate them, etc.).
 
 
- .. admonition:: Groups and Metas
+.. admonition:: Groups and Metas
    :class: note
 
    There seems to be a bug with :guilabel:`Meta` objects in group proxies: their meshes are invisible; only the circles are drawn…

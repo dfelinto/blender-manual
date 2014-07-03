@@ -34,7 +34,7 @@ Shape Keys Panel
 ----------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     All modes

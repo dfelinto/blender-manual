@@ -29,7 +29,7 @@ All sensors have a set of common buttons, fields and menus. They are organized a
     Deletes the sensor.
 
 
- .. admonition:: Note about triggers
+.. admonition:: Note about triggers
    :class: note
 
    If a controller does not get trigger by any connected sensor (regardless of the sensors' state) it will not be activated at all.

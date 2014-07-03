@@ -43,7 +43,7 @@ Warp
 ----
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
@@ -99,7 +99,7 @@ Shear
 -----
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
@@ -149,7 +149,7 @@ To Sphere
 ---------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` modes

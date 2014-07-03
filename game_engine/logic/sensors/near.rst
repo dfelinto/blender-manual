@@ -33,7 +33,7 @@ Notes:
 2) Objects must have "Actor" enabled to be detected.
 
 
- .. admonition:: Note about soft bodies
+.. admonition:: Note about soft bodies
    :class: note
 
     The :guilabel:`Near` sensor can not detect soft bodies. This is a limitation in Bullet, the physics library used by the Game Engine.

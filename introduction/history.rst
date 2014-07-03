@@ -80,7 +80,7 @@ Version/Revision Milestones
 ===========================
 
 
- .. admonition:: Release Notes
+.. admonition:: Release Notes
    :class: nicetip
 
    To see release notes for each version, you can click on the version number.

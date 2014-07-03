@@ -24,13 +24,13 @@ A TRUE pulse is sent on collision and the FALSE pulse is sent once the objects a
 in contact.
 
 
- .. admonition:: Touch sensor has been removed in 2.69
+.. admonition:: Touch sensor has been removed in 2.69
    :class: note
 
     The :guilabel:`Touch` sensor is no longer available in v2.69 or later. The :doc:`Collision Sensor <game_engine/logic/sensors/collision>` now provides the same functionality.
 
 
- .. admonition:: Note about soft bodies
+.. admonition:: Note about soft bodies
    :class: note
 
     The :guilabel:`Touch` sensor can not detect collisions with soft bodies. This is a limitation in Bullet, the physics library used by the Game Engine.

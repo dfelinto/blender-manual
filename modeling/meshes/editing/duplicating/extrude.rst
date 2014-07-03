@@ -10,7 +10,7 @@ Extrude Region
 --------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
@@ -57,7 +57,7 @@ Extrude Individual
 ------------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
@@ -81,7 +81,7 @@ Extrude Edges and Vertices Only
 -------------------------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode, Vertex and Edge

@@ -35,7 +35,7 @@ directly after starting Blender and then a short while later after opening a fil
 the relevant messages.
 
 
- .. admonition:: Closing the Blender Console Window
+.. admonition:: Closing the Blender Console Window
    :class: nicetip
 
    The Blender :guilabel:`Console Window` must remain open while Blender is running.  Closing the :guilabel:`Console Window` will also close Blender, and unsaved work would be lost.  To turn off the console without closing Blender, toggle the console state to off via re-selecting Toggle System Console option from the drop-down menu :menuselection:`Window --> Toggle System Console`\ .

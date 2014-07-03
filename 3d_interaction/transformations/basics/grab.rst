@@ -7,7 +7,7 @@ Grab/Move
 =========
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Object` Mode, :guilabel:`Edit` Mode, and :guilabel:`Pose` Mode for the 3D View; :guilabel:`UV/Image Editor` Tools, :guilabel:`Sequence Editor`\ ,

@@ -17,7 +17,7 @@ Settings
 ========
 
 
- .. admonition:: Modifiers on Level of Detail Objects
+.. admonition:: Modifiers on Level of Detail Objects
    :class: note
 
    Any level of detail objects that have a modifier do not display correctly in the game engine. You will need to apply any modifiers for level of detail objects to appear correctly. A fix for this is being looked into.

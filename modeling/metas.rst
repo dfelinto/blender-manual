@@ -5,7 +5,7 @@ Meta Objects
 ============
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Object` or :guilabel:`Edit` modes
@@ -125,7 +125,7 @@ Threshold (Influence)
 ---------------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Object` or :guilabel:`Edit` modes
@@ -200,7 +200,7 @@ Underlying Structure
 --------------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode

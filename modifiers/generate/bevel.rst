@@ -6,7 +6,7 @@ Bevel Modifier
 ==============
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     Object mode
@@ -70,7 +70,7 @@ This value is in fact the "backing up" of the two new edges relatively to the or
 (beveled) one, along the two concerned faces.
 
 
- .. admonition:: Note
+.. admonition:: Note
    :class: note
 
    When using Metric or Imperial units the :guilabel:`Width` value has a unit. E.g. when 1 Blenderunit is 1m a useful value is between 0cm and 100cm. When it seems that decreasing the :guilabel:`Width` has no effect anymore check if the unit changed to m instead of cm.

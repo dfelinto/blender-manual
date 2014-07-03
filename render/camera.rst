@@ -16,7 +16,7 @@ Add a new camera
 ================
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Object` mode
@@ -32,7 +32,7 @@ Change active camera
 ====================
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Object` mode
@@ -67,7 +67,7 @@ Camera Settings
 ===============
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Object` mode
@@ -115,7 +115,7 @@ Lens
       Sets the clipping limits. Only objects within the limits are rendered. If :guilabel:`Limits` in the :guilabel:`Display` panel is enabled, the clip bounds will be visible as two yellow connected dots on the camera line of sight.
 
 
- .. admonition:: Note
+.. admonition:: Note
    :class: note
 
    The :guilabel:`3D View` window contains settings similar to the camera, such as :guilabel:`Orthographic`\ /\ :guilabel:`Perspective` and :guilabel:`Clip Start`\ /\ :guilabel:`Clip End`\ . These settings have no effect on the camera rendering, and only change the view settings when *not* in :guilabel:`Camera` view. These settings are accessed through the :menuselection:`View` menu of the :guilabel:`3D View`\ .
@@ -259,7 +259,7 @@ Camera Navigation
 Here you will find some handy ways to navigate and position your camera in your scene.
 
 
- .. admonition:: Note
+.. admonition:: Note
    :class: note
 
    Remember that the active "camera" might be any kind of object. So these actions can be used e.g. to position and aim a lamp…
@@ -269,7 +269,7 @@ Move active camera to view
 --------------------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Object` mode

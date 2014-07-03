@@ -21,7 +21,7 @@ more extensive range of effects available with the Blender renderer
 (see Doc:2.6/Manual/World|World)
 
 
- .. admonition:: Tip
+.. admonition:: Tip
    :class: nicetip
 
 

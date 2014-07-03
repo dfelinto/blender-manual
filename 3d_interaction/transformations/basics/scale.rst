@@ -5,7 +5,7 @@ Scale
 =====
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Object` and :guilabel:`Edit` modes
@@ -105,7 +105,7 @@ _______________________
 - Press :kbd:`s`\ , type in a number and press :kbd:`enter` to confirm.
 
 
- .. admonition:: Orientation dependent scaling
+.. admonition:: Orientation dependent scaling
    :class: nicetip
 
    By default, all scaling happens around a Global Orientation. You can change the scaling orientation by pressing the axis key twice. For example, pressing :kbd:`s`\ , :kbd:`x`\ , :kbd:`x` will by default set scaling to occur around the local orientation.

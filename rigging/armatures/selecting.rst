@@ -5,7 +5,7 @@ Selecting armature's bones
 ==========================
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit mode`

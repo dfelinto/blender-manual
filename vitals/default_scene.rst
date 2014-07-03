@@ -7,7 +7,7 @@ Setting the default Scene
 =========================
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     All modes
@@ -46,7 +46,7 @@ Restoring the Default Scene to Factory Settings
 ===============================================
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     All modes
@@ -60,7 +60,7 @@ Preferences` back to the original :guilabel:`Factory Settings`\ . To save the ch
 :kbd:`ctrl-u` and your Factory Settings will be saved as the default Scene for Blender.
 
 
- .. admonition:: User Preferences Window
+.. admonition:: User Preferences Window
    :class: note
 
    For more information about the Editor Window for User Preferences or how to clean your preferences manually, please read the chapter about :doc:`User Preferences <preferences>`

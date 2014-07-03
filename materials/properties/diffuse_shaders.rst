@@ -5,7 +5,7 @@ Diffuse Shaders
 ===============
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     All Modes
@@ -43,7 +43,7 @@ Light striking a surface and then re-irradiated via a Diffusion phenomenon will 
    Light re-irradiated in the diffusion phenomenon.
 
 
- .. admonition:: Shader Names
+.. admonition:: Shader Names
    :class: nicetip
 
    Some shaders' names may sound odd - they are traditionally named after the people who first introduced the models on which they are based.
@@ -53,7 +53,7 @@ Lambert
 -------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     All Modes
@@ -88,7 +88,7 @@ Oren-Nayar
 ----------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     All Modes
@@ -127,7 +127,7 @@ Toon
 ----
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     All Modes
@@ -173,7 +173,7 @@ Minnaert
 --------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     All Modes
@@ -214,7 +214,7 @@ Fresnel
 -------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     All Modes

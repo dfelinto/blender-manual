@@ -89,7 +89,7 @@ Material are as follows:
     Delete this material (see Deleting a Material).
 
 
- .. admonition:: Naming materials
+.. admonition:: Naming materials
    :class: nicetip
 
     It's a very good idea to give your materials clear names so you can keep track of them, especially when they're linked to multiple objects. Try to make your names descriptive of the material, not its function (e.g. "Yellow Painted" rather than "Kitchen Table Color")
@@ -176,7 +176,7 @@ There are several ways to do this using the Available Materials menu:
    List of available materials
 
 
- .. admonition:: Searching for Materials
+.. admonition:: Searching for Materials
    :class: nicetip
 
    The search field at the bottom of the material list allows you to search the names in the list.  For example, by entering "wood" all existent materials are filtered so that only materials containing "wood" are displayed in the list.

@@ -28,7 +28,7 @@ Screenshot Install
 There are many different distributions based on Debian based Linux systems available to the users, and some of them use different Window managers and ways of installing software such as Blender, we can't add all of the different ways to this page.  The most common way to install Blender on Debian based systems is below in :doc:`text format <introduction/installing_blender/linux/debian_ubuntu#general_instructions_.28text.29>`\ .  For the majority of users the instructions above should suffice, with little or no changes in the steps required to install Blender.
 
 
- .. admonition:: You must have administrative rights to install packages on your system
+.. admonition:: You must have administrative rights to install packages on your system
    :class: nicetip
 
      You have to be the *root/admin* user of your system, or have yourself in the *sudoers* list, or contact the system administrator to ask for administrative rights and a proper system password to install Blender and it's package dependencies, or follow the procedures on this page.
@@ -183,7 +183,7 @@ Debian (step by step)
 ~~~~~~~~~~~~~~~~~~~~~
 
 
- .. admonition:: You must have administrative rights to install packages on your system
+.. admonition:: You must have administrative rights to install packages on your system
    :class: nicetip
 
      You have to be the *root/admin* user of your system, or have yourself in the *sudoers* list, or contact the system administrator to ask for administrative rights and a proper system password to install Blender and it's package dependencies, or follow the procedures on this page.
@@ -339,7 +339,7 @@ General Instructions (text)
 ---------------------------
 
 
- .. admonition:: You must have administrative rights to install packages on your system
+.. admonition:: You must have administrative rights to install packages on your system
    :class: nicetip
 
      You have to be the *root/admin* user of your system, or have yourself in the *sudoers* list, or contact the system administrator to ask for administrative rights and a proper system password to install Blender and it's package dependencies, or follow the procedures on this page.
@@ -480,7 +480,7 @@ SoftwareGL Mode
 ---------------
 
 
- .. admonition:: Hardware or Software OpenGL Mode
+.. admonition:: Hardware or Software OpenGL Mode
    :class: nicetip
 
      There are 2 different ways of starting Blender.  The first way is in Hardware Accelerated OpenGL mode, in this mode if your graphics card has Hardware support for OpenGL drawing commands Blender will use it.  Blender will perform much more quickly when it is run in Hardware Accelerated OpenGL Mode.  To start Blender in Hardware Accelerated OpenGL Mode type the following command at the terminal:
@@ -601,7 +601,7 @@ desktop effects prior to use 3D software or use another window manager without d
 enabled.
 
 
- .. admonition:: Desktop effects and 3D Packages
+.. admonition:: Desktop effects and 3D Packages
    :class: nicetip
 
    As a general rule, the best usage scenario for Blender (as with any other production 3D package software), is to have all possible system resources free, available and ready for use, and it means you will have the best possible experience using your system without desktop effects.

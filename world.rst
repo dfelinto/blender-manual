@@ -31,7 +31,7 @@ You have:
 While these world settings offers a simple way of adding effects to a scene, :doc:`compositing nodes <composite_nodes>` are often preferred, though more complex to master, for the additional control and options they offer.  For example, filtering the Z value (distance from camera) or normals (direction of surfaces) through compositing nodes can further increase the depth and spacial clarity of a scene.
 
 
- .. admonition:: Note
+.. admonition:: Note
    :class: note
 
    Some of the settings under the World panel in Blender affect lighting so you find them under the :doc:`Lighting <lighting>` chapter (see :doc:`Ambient Light <lighting/environment>`\ , :doc:`Exposure <render/exposure>` and :doc:`Ambient Occlusion <lighting/ambient_occlusion>`\ ).  When using a :guilabel:`Sun Lamp` options for :guilabel:`Sky & Atmosphere` are available in the :guilabel:`Lamp` menu.

@@ -3,7 +3,7 @@ Laplacian Deform
 ================
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     Any mode
@@ -28,7 +28,7 @@ differential coordinates captures the local geometric information how curvature 
 of a vertex based on its neighbors.
 
 
- .. admonition:: Note
+.. admonition:: Note
    :class: note
 
    You must define a :guilabel:`Anchors Vertex Group`\ . Without a vertex group modifier does nothing.

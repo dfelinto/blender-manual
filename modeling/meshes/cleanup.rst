@@ -11,7 +11,7 @@ Fill Holes
 ----------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
@@ -32,7 +32,7 @@ Split Non-Planar Faces
 ----------------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
@@ -47,7 +47,7 @@ Delete Loose Geometry
 ---------------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
@@ -61,7 +61,7 @@ Degenerate Dissolve
 -------------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode

@@ -63,7 +63,7 @@ It is recommended that you convert these to meshes before rendering.
    Control with :guilabel:`Surface Resolution` controls. Higher gives more render faces. (Note that the large flat surfaces have few render faces to displace).
 
 
- .. admonition:: Displace Modifier
+.. admonition:: Displace Modifier
    :class: note
 
    If you want more control over your displacement, you'll probably want to use the :doc:`Displace Modifier <modifiers/deform/displace>`\ . This feature has lots of different options so that you can customize the displacement exactly to your liking.

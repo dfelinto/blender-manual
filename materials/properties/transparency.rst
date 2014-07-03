@@ -5,7 +5,7 @@ Transparency
 ============
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     All Modes
@@ -101,7 +101,7 @@ you will notice that the background is upside-down and distorted:
 this is all because of the Index of Refraction of glass.
 
 
- .. admonition:: Enable Raytracing
+.. admonition:: Enable Raytracing
    :class: note
 
 

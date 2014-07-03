@@ -5,7 +5,7 @@ Array Modifier
 ==============
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     Object mode
@@ -68,7 +68,7 @@ Options
    The number of duplicates to use for :guilabel:`Fixed Count`\ .
 
 
- .. admonition:: Notes
+.. admonition:: Notes
    :class: note
 
 

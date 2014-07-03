@@ -5,7 +5,7 @@ Editing Bones
 =============
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit mode`
@@ -47,7 +47,7 @@ Add Menu
 ~~~~~~~~
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit mode`
@@ -69,7 +69,7 @@ Extrusion
 ~~~~~~~~~
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit mode`
@@ -135,7 +135,7 @@ Mouse Clicks
 ~~~~~~~~~~~~
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit mode`
@@ -219,7 +219,7 @@ Fill between joints
 ~~~~~~~~~~~~~~~~~~~
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit mode`
@@ -306,7 +306,7 @@ Duplication
 ~~~~~~~~~~~
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit mode`
@@ -356,7 +356,7 @@ Standard deletion
 ~~~~~~~~~~~~~~~~~
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit mode`
@@ -393,7 +393,7 @@ Merge
 ~~~~~
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit mode`
@@ -438,7 +438,7 @@ Subdividing Bones
 -----------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit mode`

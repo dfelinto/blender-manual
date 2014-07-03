@@ -82,7 +82,7 @@ Is this ok [y/N]:y
 This will install the missing SDL library package.
 
 
- .. admonition:: Case Matters
+.. admonition:: Case Matters
    :class: nicetip
 
      It is important that you type SDL and not sdl, case matters.
@@ -118,7 +118,7 @@ If the output of the above command starts with '/bin/cat: ELF 64-bit' you are us
 version of Fedora Linux and need to download a 64 bit version of Blender.
 
 
- .. admonition:: 32 bit on a 64 bit platform
+.. admonition:: 32 bit on a 64 bit platform
    :class: nicetip
 
      If you are using a 64 bit version of Fedora Linux you can also use the 32 bit version of Blender, but doing so will mean you cannot use more than 4 gigabytes of memory, and the 32 bit version of Blender will run more slowly on a 64 bit Fedora Linux platform.
@@ -231,7 +231,7 @@ Executing Blender In Hardware Or Software OpenGL Mode
 -----------------------------------------------------
 
 
- .. admonition:: Hardware or Software OpenGL Mode
+.. admonition:: Hardware or Software OpenGL Mode
    :class: nicetip
 
      There are 2 different ways of starting Blender.  The first way is in Hardware Accelerated OpenGL mode, in this mode if your graphics card has Hardware support for OpenGL drawing commands Blender will use it.  Blender will perform much more quickly when it is run in Hardware Accelerated OpenGL Mode.  To start Blender in Hardware Accelerated OpenGL Mode type the following command at the terminal:
@@ -262,7 +262,7 @@ the Gnome Shell Window Manager.
 What follows is a list of the major conflicting keyboard shortcuts and how to change them.
 
 
- .. admonition:: Gnome Shell Window Manager Keyboard Shortcuts
+.. admonition:: Gnome Shell Window Manager Keyboard Shortcuts
    :class: nicetip
 
      Annoyingly the Gnome Shell Window Manager people have a habit of changing the way you alter the keyboard shortcut assignment.  If you find that methods mentioned no longer work, please do a google search and you will find how to do it.  The following commands work for Fedora 17/18 when using Gnome Shell Window Manager.

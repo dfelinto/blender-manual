@@ -17,7 +17,7 @@ General Procedure
 -----------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     All Modes
@@ -98,7 +98,7 @@ Some more loading option buttons (in the :guilabel:`File Browser` header) includ
    By default, an object is loaded into your file at the location it is at in the source file. To reposition the object to your cursor when it loads, enable this button.
 
 
- .. admonition:: Finding What was Loaded
+.. admonition:: Finding What was Loaded
    :class: nicetip
 
    If the loaded object is not visible, consider using :guilabel:`At Cursor` or :guilabel:`AutoSel`\ . If you use :guilabel:`AutoSel`\ , remember there are Snap tools to put your cursor on the object (\ :kbd:`shift-S-4` (\ :guilabel:`Cursor → Selection`\ )), and Center your view on it (\ :kbd:`C` (\ :guilabel:`View` → :guilabel:`Align View` → :guilabel:`Center View to Cursor`\ )). Note that these tools do not work if the object is on an unselected layer, since objects on unselected layers are invisible.
@@ -119,7 +119,7 @@ Once you navigate to the file, select the "\ ``Wheel``\ "
 You can import a copy of it, or merely link to it.
 
 
- .. admonition:: Linking
+.. admonition:: Linking
    :class: nicetip
 
    If you link to it, and later modify it in the source file, it will be shown "as-is" (modified) in your current file the next time you open it up.
@@ -139,7 +139,7 @@ FIXME(TODO: Internal Link;
 ).
 
 
- .. admonition:: Using Appended/Linked Mesh Data
+.. admonition:: Using Appended/Linked Mesh Data
    :class: nicetip
 
 
@@ -187,7 +187,7 @@ FIXME(Link Type Unsupported: dev;
 ).
 
 
- .. admonition:: Blender Extension: Library
+.. admonition:: Blender Extension: Library
    :class: note
 
    There is also a fantastic Python script called `Blender Library <http://wiki.blender.org/index.php/Extensions:2.4/Py/Scripts/Manual/System/Blend library>`__ that over-arches all of your files and allows you to construct a master library. This script displays a preview and helps you organize your Blender work. Highly recommended; search `www.blendernation.com <http://www.BlenderNation.com>`__ for "Blender Library", it is also stored on the `Blender Wiki Scripts section <http://wiki.blender.org/index.php/Extensions:2.4/Py/Scripts/Manual/System/Blend library>`__\ .
@@ -207,7 +207,7 @@ When you dive into the file, there will be a :guilabel:`NodeTree` option.
 :kbd:`lmb` on the one you want and then :kbd:`lmb` .
 
 
- .. admonition:: FIXME(Link Type Unsupported: http;
+.. admonition:: FIXME(Link Type Unsupported: http;
 [[http://verse.blender.org Verse]]
 )
    :class: note
@@ -243,7 +243,7 @@ A restricted layer is shown with a black dot in it.
 Use :kbd:`ctrl-lmb` on a button to restrict or unrestrict that layer.
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     Object Mode

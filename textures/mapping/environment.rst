@@ -29,7 +29,7 @@ of the image are mapped onto an object using the :guilabel:`Refl` input coordina
 they create the visual complexity that the eye expects to see from shiny reflections.
 
 
- .. admonition:: Note
+.. admonition:: Note
    :class: note
 
 
@@ -44,7 +44,7 @@ Options
 -------
 
 
- .. admonition:: Important
+.. admonition:: Important
    :class: note
 
 
@@ -79,7 +79,7 @@ Options in dropdown menu:
     Does the same as :guilabel:`Free Data`\ , but with all environment maps in the scene. This is a useful shortcut when using recursive environment maps (when the :guilabel:`Depth` is greater than 0).
 
 
- .. admonition:: Note
+.. admonition:: Note
    :class: note
 
 

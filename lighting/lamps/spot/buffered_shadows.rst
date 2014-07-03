@@ -83,7 +83,7 @@ Here are now the options specific to these generation methods:
 
    The :guilabel:`Size` resolution is not altered to compensate for the change in size of the spotlight, so the quality of the shadows degrades. If you want to keep the generated shadows the same quality, as you increase the spot shape :guilabel:`Size` value, you also need to increase the buffer :guilabel:`Size` value.
 
- .. admonition:: The above basically boils down to
+.. admonition:: The above basically boils down to
    :class: note
 
     If you have a spotlight that is large you will need to have a larger buffer :guilabel:`Size` to keep the shadows good quality. The reverse is true also - the quality of the generated shadows will usually improve (up to a point) as the :guilabel:`Spot` lamp covers a smaller area.
@@ -180,7 +180,7 @@ The following settings are common to all buffered shadow generation method.
     Having overly large :guilabel:`Bias` values not only places shadows further away from their casting objects, but can also cause objects that are very small to not cast any shadow at all. At that point altering :guilabel:`Bias`\ , :guilabel:`Shadow Buffer Size` or :guilabel:`Spot Size` values, among other things, may be required to fix the problem.
 
 
- .. admonition:: Finer Bias tuning
+.. admonition:: Finer Bias tuning
    :class: note
 
     You can now refine the :guilabel:`Bias` value independently for each :doc:`Material <materials>`\ , using the :guilabel:`Bias` slider (\ :guilabel:`Material` menu, :guilabel:`Shadow` panel). This value is a factor by which the :guilabel:`Bias` value of each :guilabel:`Spot` buffered shadows lamp is multiplied, each time its light hits an object using this material. The **0.0** and **1.0** values are equivalent - they do not alter the lamp's :guilabel:`Bias` original value.

@@ -7,7 +7,7 @@ Modifiers
 =========
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     Any mode

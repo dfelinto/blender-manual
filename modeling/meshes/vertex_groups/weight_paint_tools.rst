@@ -29,7 +29,7 @@ All tools also work with Vertex Selection Masking and Face Selection masking.
 In these modes the tools operate only on selected verts or faces.
 
 
- .. admonition:: About the Blend tool
+.. admonition:: About the Blend tool
    :class: nicetip
 
    The Blend tool only works when "Vertex selection masking for painting" is enabled. Otherwise the tool button is grayed out.
@@ -110,7 +110,7 @@ Topology Mirror
    Mirror for meshes which are not 100% symmetric (approximate mirror).
 
 
- .. admonition:: Mirror to opposite bone
+.. admonition:: Mirror to opposite bone
    :class: nicetip
 
    If you want to create a mirrored weight group for the opposite bone (of a symmetric character), then you can do this:
@@ -405,7 +405,7 @@ Replace
 - Empty: Only copy a weight to the active object if the vertex has not yet had a weight set in the group.
 - **All**\ : delete all previous content of the target vertex group before copying the group from the source object.
 
- .. admonition:: Caveat!
+.. admonition:: Caveat!
    :class: nicetip
 
    If a vertex group is contained in 2 or more of the selected objects, then the result depends on the order in which the selected objects are processed. However, the order of processing cannot be influenced.

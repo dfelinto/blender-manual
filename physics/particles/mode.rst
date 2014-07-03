@@ -15,7 +15,7 @@ Ways to use Particle Mode
 -------------------------
 
 
- .. admonition:: Only Frames Baked to Memory are Editable!
+.. admonition:: Only Frames Baked to Memory are Editable!
    :class: nicetip
 
    If you cannot edit the particles, check that you are not baking to a :doc:`Disk Cache <physics/particles/cache_and_bake>`\ .
@@ -68,7 +68,7 @@ To be able to clearly see what you are working on:
  in the header of the 3D window. This will display key points along the particle path.
 
 
- .. admonition:: Brush Size
+.. admonition:: Brush Size
    :class: nicetip
 
    Press :kbd:`F` to resize the brush while working
@@ -91,7 +91,7 @@ Selecting Points
 You may also use the :guilabel:`Select` Menu.
 
 
- .. admonition:: Selections
+.. admonition:: Selections
    :class: nicetip
 
    Selections are extremely useful for modifying only the particles that you want. Hover over a particle path and press :kbd:`L` to link-select it, hover over the next and press :kbd:`L` to add that path to the selection. To remove a path, hold shift and press :kbd:`L`\ . To Deselect all press :kbd:`A`\ .
@@ -100,7 +100,7 @@ You may also use the :guilabel:`Select` Menu.
    shift+click to add/remove a point from the selection
 
 
- .. admonition:: Beware of Undo!
+.. admonition:: Beware of Undo!
    :class: nicetip
 
    Using :guilabel:`Undo` in :guilabel:`Particle Mode` can have strange results. Remember to save often!

@@ -17,7 +17,7 @@ the game is rendered and displayed.
 Mostly this is controlled using the Properties panel of the camera(s) used in the game.
 
 
- .. admonition:: Render Engine
+.. admonition:: Render Engine
    :class: nicetip
 
    Make sure that the render engine is set to Blender Game when attempting to set these controls - otherwise this description will not tally with what you see!

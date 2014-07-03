@@ -145,7 +145,7 @@ For example, the Add Modifier button will produce a menu with all of the availab
    Modifier options
 
 
- .. admonition:: Unlinked objects
+.. admonition:: Unlinked objects
    :class: note
 
 

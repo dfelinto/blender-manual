@@ -22,13 +22,13 @@ FIXME(TODO: Internal Link;
 ) section above) to twist the "curved" object around it. Unfortunately, the other :guilabel:`Radius` property is not used (it would have been possible, for example, to make it control the size of the "curved" object…).
 
 
- .. admonition:: A Tip
+.. admonition:: A Tip
    :class: nicetip
 
    Try to position your object over the curve immediately after you have added it, before adding the curve deform. This gives the best control over how the deformation works.
 
 
- .. admonition:: Use modifiers!
+.. admonition:: Use modifiers!
    :class: note
 
    The :guilabel:`Curve Deform` relationship is now also a modifier, called :doc:`Curve <modifiers/deform/curve>`\ . The :guilabel:`Curve` modifier function acts the same as its counterpart, except that when the modifier is used, the "dominant axis" is set inside its properties - and the :guilabel:`Track X`\ /\ :guilabel:`Y`\ /\ :guilabel:`Z` buttons no longer have an effect on it. And you have some goodies, like the possibility, if "curving" a mesh, to only curve one of its vertex groups…
@@ -124,7 +124,7 @@ Let's make a simple example:
 - Now if you select the Monkey (\ :kbd:`rmb`\ ), and move it (\ :kbd:`G`\ ), in the Y-direction (the dominant axis by default), the monkey will deform nicely along the curve.
 
 
- .. admonition:: A Tip
+.. admonition:: A Tip
    :class: nicetip
 
    If you press :kbd:`mmb` (or one of the :kbd:`X`\ /\ :kbd:`Y`\ /\ :kbd:`Z` keys) while moving the Monkey you will constrain the movement to one axis only.
@@ -133,7 +133,7 @@ Let's make a simple example:
 - In (\ *Monkey deformations*\ ), you can see the Monkey at different positions along the curve. To get a cleaner view over the deformation I have activated :guilabel:`SubSurf` with :guilabel:`Subdiv` to **2**\ , and :guilabel:`Set Smooth` on the Monkey mesh (\ :kbd:`F9` to get :guilabel:`Editing` context).
 
 
- .. admonition:: A Tip
+.. admonition:: A Tip
    :class: nicetip
 
    Moving the Monkey in directions other than the dominant axis will create some odd deformations. Sometimes this is what you want to achieve, so you'll need to experiment and try it out!
@@ -157,7 +157,7 @@ Extrusion
 ---------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Object` or :guilabel:`Edit` mode

@@ -27,7 +27,7 @@ Blender releases between 2.34 and 2.
 engine selector menu on the Info header.
 
 
- .. admonition:: Render Pipeline
+.. admonition:: Render Pipeline
    :class: note
 
    When Yafaray is used, it is inserted into the pipeline before any compositor or sequencer actions, because it is the renderer, and the compositor and sequencer work on rendered images. The image data given to Yafray is the scene objects, materials, lights, etc. Yafray does not know nor care about render layers and cannot feed Blender's node compositor or sequencer effects, since it takes a completely different approach and cannot produce the different render layers that the Blender internal renderer can. Yafaray renders frames based on Blender scene data.
@@ -118,7 +118,7 @@ usually by typing "blender" into a terminal emulator window).
 If you switch to the console after the render is completed, you should
 (provided the "cache" option's enabled) notice something similar to this:
 
- .. admonition:: Console output
+.. admonition:: Console output
    :class: note
 
 

@@ -146,7 +146,7 @@ Copy/Paste Pose
 ---------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Pose` mode

@@ -5,7 +5,7 @@ Rotate
 ======
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Object` and :guilabel:`Edit` modes
@@ -92,7 +92,7 @@ ________________________
 - Press :kbd:`r`\ ,\ :kbd:`r` to enable Trackball rotation.
 
 
- .. admonition:: Orientation dependant rotations
+.. admonition:: Orientation dependant rotations
    :class: nicetip
 
    By default, all rotations happen around a Global Orientation. You can change the rotation orientation by pressing the axis key twice. For example, pressing :kbd:`r`\ , :kbd:`x`\ , :kbd:`x` will by default set rotation to occur around the local orientation.

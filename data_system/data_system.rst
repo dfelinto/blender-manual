@@ -19,7 +19,7 @@ Objects can contain multiple materials which can contain many textures.
 It is also possible to create links between different objects.
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     All Modes, Any Window
@@ -36,7 +36,7 @@ and then you will see the overall structure of a file: :guilabel:`Action`\ ,
 :kbd:`lmb` selecting any datablock type, :guilabel:`Mesh`\ , for example, will give you a listing of the meshes used in the file, along with how many users there are for each one. For example, if you had a car mesh, and used that car mesh for six cars in a parking lot scene, the :guilabel:`Mesh` listing would show the Car and then the number 6.
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Data Select Browser`

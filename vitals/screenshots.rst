@@ -7,7 +7,7 @@ Blender Screenshots
 ===================
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     All modes
@@ -28,7 +28,7 @@ called *Save Screenshot* where you can find format settings and a checkbox with 
 - Uncheck the box to save only your active window (where your mouse is located when you call the command).
 
 
- .. admonition:: Keyboard Shortcut Conflicts
+.. admonition:: Keyboard Shortcut Conflicts
    :class: nicetip
 
 

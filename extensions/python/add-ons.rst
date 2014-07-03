@@ -78,7 +78,7 @@ done. The extra functionality of the Add-on is now integrated into Blender and c
 To disable the functionality again, uncheck the box. To get more information on a certain Add-on you can press the arrow at the left of the entry and any additional information that is available will be shown. If the Add-On does not activate when enabled, check the :doc:`Console window <interface/window_system/console_window>` for any errors that may have occurred when loading.
 
 
- .. admonition:: Saving Add-On Preferences
+.. admonition:: Saving Add-On Preferences
    :class: nicetip
 
    If you want an Add-On to be enabled everytime you start Blender, you will need to save your :doc:`User Preferences <preferences>`\ .

@@ -48,7 +48,7 @@ may have up to 10.000 children for each particle
 The size of your memory and your patience are your practical boundaries.
 
 
- .. admonition:: Incompatibility with Prior Versions
+.. admonition:: Incompatibility with Prior Versions
    :class: note
 
    There are many differences between the "old" particle system that was used up to and including version 2.45, and the "new" particle system. There are many things possible now that could not be done with the old system. The new system is incompatible to the old system, though Blender tries to convert old particle systems, which works only to some extent. The old system is most like the new :guilabel:`Emitter` system (keep reading to find out what that is). If you are using an old version of Blender 2.45 and previous, :doc:`click here to access the old documentation <physics/particles/blender_2.45_particles>`\ .

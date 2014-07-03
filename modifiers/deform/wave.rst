@@ -5,7 +5,7 @@ Wave Modifier
 =============
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Object` mode
@@ -101,7 +101,7 @@ FIXME(TODO: Internal Link;
    The actual width of each pulse: the higher the value the narrower the pulse. The actual width of the area in which the single pulse is apparent is given by ``4/Narrowness``\ . That is, if :guilabel:`Narrowness` is **1** the pulse is **4** units wide, and if :guilabel:`Narrowness` is **4** the pulse is **1** unit wide.
 
 
- .. admonition:: Warning
+.. admonition:: Warning
    :class: note
 
    All the values described above must be multiplied with the corresponding :guilabel:`Scale` values of the object to get the real dimensions.  For example, if the value of :guilabel:`Scale Z` is **2** and the value of :guilabel:`Height` of the waves is **1**\ , it gives us final waves with a height of **2 BU**\ !

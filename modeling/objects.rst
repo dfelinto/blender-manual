@@ -117,7 +117,7 @@ Erase Objects
 =============
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` or :guilabel:`Object` mode
@@ -132,7 +132,7 @@ Join Objects
 ============
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Object` mode

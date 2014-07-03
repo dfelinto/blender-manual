@@ -106,7 +106,7 @@ To create an image within Blender, you have to first create a :doc:`New Blank <t
 After you have created your image, you can modify it using Blender's built-in :doc:`Texture Paint <textures/painting>` or any external image painting program.
 
 
- .. admonition:: See Texture in 3D View but does not Render
+.. admonition:: See Texture in 3D View but does not Render
    :class: note
 
    You may be able to see the texture in Textured display mode in the 3D View; this is all that is required to have textures show up in Blender's Game Engine. Rendering, however, requires a material. You must have a :guilabel:`Face Textures` material assigned to the mesh for it to render using the UV Texture. In the Material settings, ADD NEW material to a selected object and enable :guilabel:`Face Textures`\ .

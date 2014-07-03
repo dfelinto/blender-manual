@@ -5,7 +5,7 @@ Mirror
 ======
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Object` and :guilabel:`Edit` modes

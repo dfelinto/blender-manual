@@ -54,7 +54,7 @@ Thus you no longer need to apply your modifiers before exporting.
 That is now done automatically in the background.
 
 
- .. admonition:: Preview/Render mode
+.. admonition:: Preview/Render mode
    :class: note
 
    Some Modifiers provide a Preview mode and a Render mode with different mesh settings. We now support both modes when applying the modifiers.
@@ -76,7 +76,7 @@ When this option is enabled then all children of the selected objects will also 
 regardless of their selection state.
 
 
- .. admonition:: Example
+.. admonition:: Example
    :class: note
 
    You now can select only(!) an armature, then in the exporter enable "include children" then all rigged meshes attached to the armature will also be exported.
@@ -90,7 +90,7 @@ When this option is enabled, then all armatures related to the selected objects 
 exported regardless of their selection state.
 
 
- .. admonition:: Example
+.. admonition:: Example
    :class: note
 
    You now can just select your objects, then in the exporter enable "include armatures" then the armature data is also exported.
@@ -100,7 +100,7 @@ Include Shape keys
 __________________
 
 
- .. admonition:: Shape keys
+.. admonition:: Shape keys
    :class: note
 
    This option also includes the application of Shape keys! So now you can export your meshes with the current shape key configuration baked in.
@@ -134,7 +134,7 @@ Until now blender did only export material based image textures.
 The new option allows to directly export render results.
 
 
- .. admonition:: Texture export needs materials
+.. admonition:: Texture export needs materials
    :class: note
 
    For using surface textures, you will still have to create a material for each texture face. Then all you need to do is assign your images to the correct faces of your mesh. And finally when your object looks as you expect, just export it with "Include UV Textures". See also the "Copy" option below.

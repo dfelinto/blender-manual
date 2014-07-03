@@ -17,7 +17,7 @@ Cache
 :guilabel:`Emitter` systems use a unified system for caching and baking (together with softbody and cloth). The results of the simulation are automatically cached to disk when the animation is played, so that the next time it runs, it can play again quickly by reading in the results from the disk. If you :guilabel:`Bake` the simulation the cache is protected and you will be asked when you're trying to change a setting that will make a recalculating necessary.
 
 
- .. admonition:: Beware of the :guilabel:`Start` and :guilabel:`End` Settings
+.. admonition:: Beware of the :guilabel:`Start` and :guilabel:`End` Settings
    :class: nicetip
 
    The simulation is only calculated for the positive frames in-between the :guilabel:`Start` and :guilabel:`End` frames of the :guilabel:`Bake` panel, whether you bake or not. So if you want a simulation longer than 250 frames you have to change the :guilabel:`End` frame!

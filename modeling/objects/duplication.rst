@@ -5,7 +5,7 @@ Duplication
 ===========
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` and :guilabel:`Object` modes
@@ -57,7 +57,7 @@ Linked Duplicates
 =================
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Object` mode
@@ -105,7 +105,7 @@ Procedural Duplication
 ======================
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Object mode` and :guilabel:`Edit mode`
@@ -131,7 +131,7 @@ Linked Library Duplication
 ==========================
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Menu:     :guilabel:`File` → :guilabel:`Link Append`

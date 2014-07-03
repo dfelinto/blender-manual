@@ -238,7 +238,7 @@ Playback Menu
        While playing, updates the *Video Sequence Editor*\ .
 
 
- .. admonition:: Image Editors
+.. admonition:: Image Editors
    :class: note
 
    Not sure what is updated, maybe gif images or, image sequence.
@@ -383,7 +383,7 @@ ________________________
       Note that *Auto Keyframe* only works for transform properties (objects and bones), in the 3D views (i.e. you cant use it e.g. to animate the colors of a material in the Properties window…).
 
 
- .. admonition:: Layered
+.. admonition:: Layered
    :class: note
 
    Todo.

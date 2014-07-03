@@ -38,7 +38,7 @@ to show the new language. Note that some language translations are not yet compl
 The progress of each translation is indicated in the drop-down menu.
 
 
- .. admonition:: Tip
+.. admonition:: Tip
    :class: nicetip
 
    Since the majority of tutorials are done with an English User Interface, it may be useful to keep the User Interface in English and only translate the tooltips, but it's important to note that the Blender User Interface translation, user manuals translation and development, together with community work, could develop a strong Blender user base, promoting Blender and localized Blender jobs!

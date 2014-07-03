@@ -94,7 +94,7 @@ Browser window. This window is very handy for scrolling through your hard disk a
 file or directory.
 
 
- .. admonition:: PathSpecs
+.. admonition:: PathSpecs
    :class: note
 
    The path specification for the location can be absolute *On Microsoft-Windows include a normal or mapped drive letter (e.g. "F:")*\ , a breadcrumb notation (e.g. "./" and "../" and "//" (the blend file location). Forward slashes (Unix-style) or backslashes (Windows-style) are acceptable on either platform. If omitted, the file is saved in the current working directory blender was started from.

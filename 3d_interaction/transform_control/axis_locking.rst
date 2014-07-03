@@ -43,7 +43,7 @@ Axis locking
 ~~~~~~~~~~~~
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Object` and :guilabel:`Edit` modes (translate, rotate, scale, extrude)
@@ -60,7 +60,7 @@ Plane locking
 ~~~~~~~~~~~~~
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Object` and :guilabel:`Edit` modes (translate, scale)

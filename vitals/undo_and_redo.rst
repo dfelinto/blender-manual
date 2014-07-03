@@ -58,7 +58,7 @@ Undo
 ~~~~
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     All modes
@@ -71,7 +71,7 @@ Redo
 ~~~~
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     All modes
@@ -84,7 +84,7 @@ Redo Last
 ~~~~~~~~~
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     All modes
@@ -115,7 +115,7 @@ the contents of the Pop-Up Window are different, because of your context (Edit M
    Redo Last - Rotation ( Object Mode, 60 degrees ) _________ Redo Last - Scale ( Edit Mode, Resize face )
 
 
- .. admonition:: Operations using Redo Last
+.. admonition:: Operations using Redo Last
    :class: nicetip
 
    Some operations produce particularly useful results if you tweak their parameters with the :kbd:`F6` Menu. Take, for example, adding a Circle. If you reduce the Vertex count to 3, you get a perfect equilateral triangle.
@@ -125,7 +125,7 @@ Undo History
 ~~~~~~~~~~~~
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     All modes
@@ -151,7 +151,7 @@ Repeat Last
 ~~~~~~~~~~~
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     All modes
@@ -176,7 +176,7 @@ Repeat History
 ~~~~~~~~~~~~~~
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     All modes
@@ -194,7 +194,7 @@ It works in the same way as the Undo History, explained above,
 but the list contains only repeated actions.  To access Repeat History, use :kbd:`F3`\ .
 
 
- .. admonition:: There are two separate Histories for Blender
+.. admonition:: There are two separate Histories for Blender
    :class: note
 
    Blender uses two separate Histories, one dedicated for the :guilabel:`Edit` Mode, and one dedicated for the :guilabel:`Object` Mode.
@@ -213,7 +213,7 @@ You can always access all of the explained options for user actions,
 using Blender Search :kbd:`Space`\ .
 
 
- .. admonition:: Important Note
+.. admonition:: Important Note
    :class: note
 
    When you quit Blender, the complete list of user actions will be lost, even if you save your file before quitting.
@@ -249,7 +249,7 @@ for you to regress to a previous version of your work.
    Checking this box tells Blender to *automatically* save a backup copy of your work-in-progress to the Temp directory (refer to the :guilabel:`File` panel in the :guilabel:`User Preferences` window for its location). This will also enable the :guilabel:`Timer(mins)` control which specifies the number of minutes between each Auto Save. The default value of the Blender installation is **5** (5 minutes). The minimum is **1**\ , and the Maximum is **60** (Save at every one hour).The Auto Saved files are named using a random number and have a ``.blend`` extension.
 
 
- .. admonition:: Compress Files
+.. admonition:: Compress Files
    :class: nicetip
 
    The option to Compress files will try to compact your files whenever Blender is saving them. Large Scenes, dense Meshes, big Textures or lots of elements in your Scene will result in a big ``.blend`` being created. This option could slow down Blender when you quit, or under normal operation when Blender is saving your backup files. In fact, using this option you will trade processor time for file space.
@@ -275,7 +275,7 @@ Recovering Auto Saves
    :menuselection:`File --> Recover Auto Save...` allows you to open the Auto Saved file. After loading the Auto Saved version, you may save it over the current file in your working directory as a normal ``.blend`` file.
 
 
- .. admonition:: Important Note
+.. admonition:: Important Note
    :class: note
 
    When recovering an Auto Saved file, you will lose any changes made since the last :guilabel:`Auto Save` was performed.Only **one** Auto Saved file exists for each project (i.e. Blender does not keep older versions - hence you won't be able to go back more than a few minutes with this tool).

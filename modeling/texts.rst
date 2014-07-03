@@ -7,7 +7,7 @@ Text Objects
 ============
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode (\ :guilabel:`Text`\ )
@@ -67,7 +67,7 @@ Editing Text
 ============
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
@@ -131,7 +131,7 @@ Special Characters
 ~~~~~~~~~~~~~~~~~~
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
@@ -240,7 +240,7 @@ Fonts
 -----
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
@@ -271,7 +271,7 @@ The :guilabel:`File Browser` window will give all valid fonts a capital F icon,
 as seen in *Loading a Type 1 font file.*
 
 
- .. admonition:: Unix note
+.. admonition:: Unix note
    :class: note
 
    Fonts are typically located under ``/usr/lib/fonts``\ , or some variant like ``/usr/lib/X11/fonts``\ , but not always. They may be in other locations as well, such as ``/usr/share/local`` or ``/usr/local/share``\ , and possibly related sub-trees.
@@ -474,7 +474,7 @@ Shape
 =====
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Object` or :guilabel:`Edit` modes

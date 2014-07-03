@@ -5,7 +5,7 @@ Precision
 =========
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Object` and :guilabel:`Edit` modes
@@ -50,7 +50,7 @@ clicking the manipulator handle and then holding the shortcut key for precision 
 :doc:`Read more about the Transform Manipulator » <3d_interaction/transform_control/manipulators>`
 
 
- .. admonition:: Combining with other controls
+.. admonition:: Combining with other controls
    :class: nicetip
 
    All of the precision controls detailed on the page can be combined with the :doc:`Axis Locking <3d_interaction/transform_control/axis_locking>` controls and used with the different :doc:`Pivot Points <3d_interaction/transform_control/pivot_point>`\ .
@@ -95,7 +95,7 @@ Scale transformations
 Holding :kbd:`ctrl` will cause size changes in increments of 0.1 BU.
 
 
- .. admonition:: Snapping modes
+.. admonition:: Snapping modes
    :class: note
 
    Note that if you have a :doc:`Snap Element <3d_interaction/transform_control/snap#snap_element>` option enabled, holding :kbd:`ctrl` will cause the selection to snap to the nearest element.

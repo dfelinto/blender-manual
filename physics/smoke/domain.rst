@@ -20,7 +20,7 @@ that because you can scale it to the view of your camera later on. In our case w
 the default cube bigger by hitting :kbd:`S` and dragging the mouse.
 
 
- .. admonition:: Don't edit the domain's vertices!
+.. admonition:: Don't edit the domain's vertices!
    :class: note
 
    If you want a bigger domain, scale the object. Changing it in edit mode will lead to your smoke appearing more than once during rendering, like a repeating texture.

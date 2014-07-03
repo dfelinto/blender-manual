@@ -25,7 +25,7 @@ its logic conditions are met, and b) the object is currently in the specified St
 States are set up and edited in the object's Controller settings (for details see below).
 
 
- .. admonition:: Tip
+.. admonition:: Tip
    :class: nicetip
 
 

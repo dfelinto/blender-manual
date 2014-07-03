@@ -5,7 +5,7 @@ Opening Files
 =============
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     All modes

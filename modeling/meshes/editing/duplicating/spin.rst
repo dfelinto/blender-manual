@@ -7,7 +7,7 @@ Spin
 ====
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
@@ -138,7 +138,7 @@ some vertices were missed and you will need to weld them manually. Or, worse,
 too many vertices will have been merged.
 
 
- .. admonition:: Merging two vertices in one
+.. admonition:: Merging two vertices in one
    :class: note
 
    To merge (weld) two vertices together, select both of them by :kbd:`shift-rmb` clicking on them. Press :kbd:`S` to start scaling and hold down :kbd:`ctrl` while scaling to scale the points down to 0 units in the X, Y and Z axis. :kbd:`lmb` to complete the scaling operation and click the :guilabel:`Remove Doubles` button in the :guilabel:`Buttons` window, :guilabel:`Editing` context (also available with :menuselection:`[W] --> Remove Doubles`\ ).

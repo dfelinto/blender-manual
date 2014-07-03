@@ -5,7 +5,7 @@ Shear
 =====
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Object` and :guilabel:`Edit` modes
@@ -74,7 +74,7 @@ the :guilabel:`Pivot Point` is set to the 3D cursor which is located above the m
 horizontal axis.
 
 
- .. admonition:: Shear transform magnitude
+.. admonition:: Shear transform magnitude
    :class: nicetip
 
    The magnitude of the :guilabel:`Shear` transform applied to the selected elements is directly proportional to the distance from the horizontal axis. i.e. the further from the axis, the greater the movement.

@@ -9,7 +9,7 @@ Not only can textures affect the color of a material,
 they can also affect many of the other properties of a material. The different aspects of a
 material that a texture influences are controlled in the :guilabel:`Influence` panel.
 
- .. admonition:: Note
+.. admonition:: Note
    :class: note
 
    Texture options for :guilabel:`Surface` and :guilabel:`Wire` materials and in some cases also for :guilabel:`Volume` and :guilabel:`Halo` materials.

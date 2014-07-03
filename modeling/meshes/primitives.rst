@@ -7,7 +7,7 @@ Mesh Primitives
 ===============
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Object` mode
@@ -34,7 +34,7 @@ Options included in more than one primitive are:
    Sets the starting length for :guilabel:`Cylinder` and :guilabel:`Cone`\ .
 
 
- .. admonition:: Note about planar primitives
+.. admonition:: Note about planar primitives
    :class: note
 
    You can make a planar mesh three-dimensional by moving one or more of the vertices out of its plane (applies to :guilabel:`Plane`\ , :guilabel:`Circle` and :guilabel:`Grid`\ ).  A simple circle is actually often used as a starting point to create even the most complex of meshes.
@@ -95,7 +95,7 @@ Increasing the number of segments and rings makes the surface of the UV sphere s
    Number of horizontal segments. These are like Earth's parallels.
 
 
- .. admonition:: Note
+.. admonition:: Note
    :class: note
 
    If you specify a six segment, six ring UVsphere you'll get something which, in top view, is a hexagon (six segments), with five rings plus two points at the poles. Thus, one ring fewer than expected, or one more, if you count the poles as rings of radius 0.
@@ -116,7 +116,7 @@ vertices than a UV sphere.
    The radius of the sphere.
 
 
- .. admonition:: Note
+.. admonition:: Note
    :class: note
 
    It is possible to add an icosphere subdivided 500 times. Adding such a dense mesh is a sure way to cause a program crash. An icosphere subdivided 10 times would have 5,242,880 triangles, so be very careful about this!

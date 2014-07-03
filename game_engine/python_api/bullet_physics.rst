@@ -28,7 +28,7 @@ Python script example:
    print dir(PhysicsConstraints)
 
 
- .. admonition:: Note about parameter settings
+.. admonition:: Note about parameter settings
    :class: note
 
     Since this API is not well documented, it can be unclear what kind of values to use for setting parameters. In general, damping settings should be in the range of 0 to 1 and stiffness settings should not be much higher than about 10.

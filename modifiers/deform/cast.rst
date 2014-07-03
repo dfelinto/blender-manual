@@ -7,7 +7,7 @@ Cast Modifier
 =============
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     Any mode
@@ -23,13 +23,13 @@ and what other programs call "Spherify" or "Spherize", but, as written above,
 it is not limited to casting to a sphere.
 
 
- .. admonition:: Hint
+.. admonition:: Hint
    :class: note
 
    The :doc:`Smooth modifier <modifiers/deform/smooth>` is a good companion to :guilabel:`Cast`\ , since the cast shape sometimes needs smoothing to look nicer or even to fix shading artifacts.
 
 
- .. admonition:: Important
+.. admonition:: Important
    :class: note
 
    For performance, this modifier works only with local coordinates. If the modified object looks wrong, you may need to apply the object's rotation (\ :kbd:`ctrl-A`\ ), especially when casting to a cylinder.

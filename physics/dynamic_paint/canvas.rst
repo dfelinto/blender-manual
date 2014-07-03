@@ -107,7 +107,7 @@ Displace
 This type of surface outputs intersection depth from brush objects.
 
 
- .. admonition:: Tip
+.. admonition:: Tip
    :class: nicetip
 
    If the displace output seems too rough it usually helps to add a "Smooth" modifier after Dynamic Paint in the modifier stack.
@@ -144,7 +144,7 @@ You can use following settings to adjust the motion:
     Adjusts the force that pulls water back to "zero level".
 
 
- .. admonition:: Tip
+.. admonition:: Tip
    :class: nicetip
 
    In some cases the wave motion gets very unstable around brush. It usually helps to reduce wave speed, brush "wave factor" or even the resolution of mesh/surface.
@@ -165,7 +165,7 @@ This is a special surface type only available for vertex format.
 It outputs vertex weight groups that can be used by other Blender modifiers and tools.
 
 
- .. admonition:: Tip
+.. admonition:: Tip
    :class: nicetip
 
    It's usually preferred to use "proximity" based brushes for weight surfaces to allow smooth falloff between weight values.

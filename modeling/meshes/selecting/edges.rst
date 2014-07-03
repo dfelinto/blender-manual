@@ -16,7 +16,7 @@ Edge Loops
 ----------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     Edit Mode (Mesh)
@@ -38,7 +38,7 @@ Note, that if you want to select a loop while being in vertex select mode, you s
    An edge loop
 
 
- .. admonition:: :kbd:`alt` on Linux
+.. admonition:: :kbd:`alt` on Linux
    :class: note
 
    :kbd:`alt` is on some Linux distros caught by the windows manager. If you see the above shortcut not working, make sure that blender can properly recognize the usage of :kbd:`alt`\ .
@@ -48,7 +48,7 @@ Edge Rings
 ----------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     Edit Mode (Mesh)
@@ -66,7 +66,7 @@ Or use :kbd:`Alt-Ctrl-RMB` on an edge.
    An Edge Ring
 
 
- .. admonition:: Convert selection to whole faces
+.. admonition:: Convert selection to whole faces
    :class: note
 
    If the edge ring selection happened in Edge Select Mode, switching to Face Select Mode will erase the selection.

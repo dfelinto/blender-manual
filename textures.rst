@@ -96,7 +96,7 @@ World Textures
 ..    TODO/Review: {{WikiTask/Inprogress|10|just started}} .
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     All Modes

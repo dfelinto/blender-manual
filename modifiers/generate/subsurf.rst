@@ -6,7 +6,7 @@ Subdivision Surfaces ("Subsurf") Modifier
 =========================================
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     Any Mode
@@ -84,7 +84,7 @@ approximation of your model when interacting with it in 3D,
 but use a higher quality version when rendering.
 
 
- .. admonition:: View less than or equal to Render
+.. admonition:: View less than or equal to Render
    :class: nicetip
 
    Be careful not to set the :guilabel:`View` higher than the :guilabel:`Render` setting, or else your preview would display higher quality than your render.
@@ -144,7 +144,7 @@ Weighted Creases
 ~~~~~~~~~~~~~~~~
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit Mode` (Mesh)
@@ -176,7 +176,7 @@ Edge Loops
 ~~~~~~~~~~
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit Mode` (Mesh)

@@ -5,7 +5,7 @@ Skin Modifier
 =============
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     Any mode
@@ -55,7 +55,7 @@ Example
 
 - Select the cube. :kbd:`Tab` into edit mode and :menuselection:`[Alt][M] --> At Center` to merge all vertices at one point. :kbd:`E` then :kbd:`Z` to extrude the vertex along the Z axis.
 
- .. admonition:: Skin Node Set Flag
+.. admonition:: Skin Node Set Flag
    :class: note
 
    One of the mesh's vertices must be set to :guilabel:`Root`\ .  If you by accident delete the default root vertex, select a vertex, hit the :guilabel:`Skin Node Set Flag` button, and in the :guilabel:`Mesh Tools` menu set the new vertex to root.

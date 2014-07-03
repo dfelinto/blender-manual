@@ -75,7 +75,7 @@ You can use the Add menu in the header,
 or hover your mouse cursor over the Sequence workspace and press :kbd:`shift-A`\ .
 
 
- .. admonition:: Clips can be Huge
+.. admonition:: Clips can be Huge
    :class: note
 
    A three minute quicktime .mov file can be 140Megs. Loading it, even over a high-speed LAN can take some time. Don't assume your computer or Blender has locked up if nothing happens for awhile.
@@ -121,7 +121,7 @@ the window pane will switch back to VSE, and the strip will be rubber-banded to 
 You cannot load multiple movies at the same time by right-clicking them;
 no movies load if you right click them. Right-clicking only works for images.
 
- .. admonition:: Error: The selected file is not a movie or FFMPEG support not compiled in!
+.. admonition:: Error: The selected file is not a movie or FFMPEG support not compiled in!
    :class: note
 
    means that the file is not a movie that Blender can recognize, or **you selected with the wrong button**\ . You get this error message because you *right*\ -clicked on a movie file, OR you don't have a codec that can decode the avi file. If it's the latter, find a codec so you can play the file outside of Blender, and then you will be able to load it. If it's the former, you must left-click to select movies.
@@ -140,7 +140,7 @@ you will want to scale it by :kbd:`Rmb`\ -clicking on either the start or end ar
 and dragging left or right. As you move, the frame number updates to say where the arrow is.
 Click :kbd:`Lmb` to validate, or :kbd:`Rmb` to cancel the modification.
 
- .. admonition:: Dealing with Different Sizes
+.. admonition:: Dealing with Different Sizes
    :class: nicetip
 
 
@@ -164,19 +164,19 @@ whose name has been scrunched in the strip display,
 but is clearly spelled out in the information strip.
 
 
- .. admonition:: 9999 frames go by (IMAGE strips only!)
+.. admonition:: 9999 frames go by (IMAGE strips only!)
    :class: note
 
    Ok, so that was a very obscure reference to a song about 99 balloons, but we really have not anticipated how fast Blender has moved into mainstream video editing. Unfortunately, we initially reserved 4 digits for the filename of each video image sequence set. While that provides for up to 400 seconds of video (about 5 minutes US), with Blender moving into movies, you need to break up IMAGE strips into 4 digits only, and others 5 digits (10000-19999), (20000-29999), etc. Important: that only affects IMAGE strips at the moment. All the other strip types work fine with up to 300,000 frames (approximately 3 hours, read: Ben Hur :) ).
 
 
- .. admonition:: Codecs
+.. admonition:: Codecs
    :class: note
 
    You must have a codec on your machine that can decode the avi file. Blender does not control these. For example, the XviD codec is available from www.xvid.org
 
 
- .. admonition:: FFMPEG Support
+.. admonition:: FFMPEG Support
    :class: note
 
    If you are using a Blender build with FFMPEG support, you will be able to load audio and video strips together; select Movie+Audio(HD) and when you drop the strip, the strip will split into an audio and video channel strips.
@@ -257,7 +257,7 @@ Note: The only exception is the Color Generator effect. It does not depend on a 
 you can add and position it independent of any other strip.
 Change the length as you would any strip.
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     Sequence, Effects Strip Selected
@@ -466,7 +466,7 @@ As usual, the View Menu controls what and how you view in the workspace.
 
 Use this when working arranging a lot of strips and you want to use all of your screen to work.
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     Sequence
@@ -665,7 +665,7 @@ Editing Strips
   - Dragging the right arrow to the left shortens the clip; any original images at the tail are ignored. Use this to quickly clip off a rolldown.
   - Dragging the right arrow right extends the clip. For movies and images sequences, more of the animation is used until exhausted. Extending a clip beyond its end results in Blender making a copy of the last image. Use this for transitions out of this clip.
 
- .. admonition:: Multiple selection
+.. admonition:: Multiple selection
    :class: note
 
    You can select several (handles of) strips by :kbd:`shift-Rmb`\ -clicking: when you'll hit :kbd:`G`\ , everything that's selected will move with your mouse - this means that, for example, you can at the same time move a strip, shorten two others, and extend a forth one.
@@ -679,7 +679,7 @@ K cuts them in two. Use Cut to trim off roll-ups or lead-ins, or roll-downs or e
 ("C" was already taken for Change).
 
 
- .. admonition:: Note on the 'cut'
+.. admonition:: Note on the 'cut'
    :class: note
 
     When you 'cut' a strip, you don't really make a cut like it was with the 'old editing' on real film. In fact, you make a copy of the strip: the end of the original one is 'winded' to the cut point, as with the beginning of the new copy.
@@ -702,7 +702,7 @@ K cuts them in two. Use Cut to trim off roll-ups or lead-ins, or roll-downs or e
    This is at the heart of nearly every editor solution, and that's quite handy!
 
 
- .. admonition:: Action Stops
+.. admonition:: Action Stops
    :class: note
 
    When extending the start beyond the beginning or end after the ending, keep in mind that only the last image copies, so when viewed, action will stop on that frame. Start your transition (fade, cross) a little early while action is still happening so that the stop action is not that noticeable (unless, of course, you want it to be, like the 80's drama sitcoms).

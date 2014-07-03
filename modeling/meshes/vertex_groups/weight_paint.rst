@@ -16,7 +16,7 @@ Weight Paint in a nutshell
 - You assign weights to the vertices of the Object by painting on it with weight brushes. Starting to paint on a mesh automatically adds weights to the active Vertex Group (a new Vertex Group is created if needed).
 
 
- .. admonition:: Useful Keyboard Shortcuts
+.. admonition:: Useful Keyboard Shortcuts
    :class: nicetip
 
     The shortcuts can speed up your weight painting:
@@ -260,7 +260,7 @@ The following standard selection operations are supported:
 - :kbd:`ctrl-I` - Invert selection (\ :guilabel:`Inverse`\ ).
 
 
- .. admonition:: Selecting Deform Groups
+.. admonition:: Selecting Deform Groups
    :class: nicetip
 
    When you are doing weight painting for deform bones (with an Armature), you can select a deform group by selecting the corresponding bone. However, this Vertex Group selection mode is disabled when Selection Masking is active!

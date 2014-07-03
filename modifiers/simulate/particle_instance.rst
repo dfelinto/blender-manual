@@ -7,7 +7,7 @@ Particle Instance Modifier
 ==========================
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     Any mode
@@ -186,7 +186,7 @@ Using Paths
    `Example Blend file <http://wiki.blender.org/index.php/Media:Manual - Particle Instance Modifier - Strand Mesh Deform.blend>`__
 
 
- .. admonition:: Note
+.. admonition:: Note
    :class: note
 
 

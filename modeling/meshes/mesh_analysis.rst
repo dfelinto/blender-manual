@@ -87,7 +87,7 @@ Sharp Edges
 Similar to wall-thickness, sharp edges can form shapes that are too thin to be able to print.
 
 
- .. admonition:: Warning
+.. admonition:: Warning
    :class: note
 
 

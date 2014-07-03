@@ -36,7 +36,7 @@ Various things that are calculated in a standard render include:
 - *Is there any* **specularity**\ *?* Are objects with textures such as metal shiny at all?
 
 
- .. admonition:: Renderer Rewrite
+.. admonition:: Renderer Rewrite
    :class: note
 
    Starting with Blender 2.42, the render engine was rewritten. See :doc:`Unified Renderer <render>` if you are using an old version of Blender.

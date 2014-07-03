@@ -5,7 +5,7 @@ Warp
 ====
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Object` and :guilabel:`Edit` modes
@@ -75,7 +75,7 @@ to the same Suzanne mesh when in different views. A 3D render is also provided f
    The left side of this image shows how the Warp transform is influenced by the location of the cursor. The right hand side shows the influence of the current view.
 
 
- .. admonition:: Warping text
+.. admonition:: Warping text
    :class: note
 
    If you want to warp text, you will need to convert it from a Text Object to Mesh by pressing :kbd:`alt-c` and selecting the :guilabel:`Mesh from Curve/Meta/Surf/Text` option.

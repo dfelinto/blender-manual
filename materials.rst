@@ -99,7 +99,7 @@ Using Materials
 ---------------
 
 
- .. admonition:: Check your Render
+.. admonition:: Check your Render
    :class: nicetip
 
     When designing materials (and textures and lighting), frequently check the rendered appearance of your scene, using your chosen render engine/shader settings. The appearance might be quite different from that shown in the texture display in the 3D panel.

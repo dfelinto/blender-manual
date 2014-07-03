@@ -30,7 +30,7 @@ Smooth shading
 --------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` and :guilabel:`Object` mode
@@ -78,7 +78,7 @@ Auto Smooth
 -----------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Panel:    :guilabel:`Properties` (\ :guilabel:`Object Data` context)

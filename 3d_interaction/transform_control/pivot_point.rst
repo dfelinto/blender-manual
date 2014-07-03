@@ -9,7 +9,7 @@ Pivot Point selector
 --------------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Object mode` and :guilabel:`Edit mode`

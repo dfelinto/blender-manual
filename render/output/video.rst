@@ -165,7 +165,7 @@ Options
    Disables the half-frame time step between fields (\ :guilabel:`x`\ ).
 
 
- .. admonition:: Setting up the correct field order
+.. admonition:: Setting up the correct field order
    :class: note
 
 
@@ -184,7 +184,7 @@ Options
    Doing this simple test will save you *hours* of wasted rendering time…
 
 
- .. admonition:: Fields and Composite Nodes
+.. admonition:: Fields and Composite Nodes
    :class: note
 
 
@@ -241,7 +241,7 @@ but some support the Alpha channel as well. Codecs that support RGBA include:
 +-----------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 +:guilabel:`QuickTime`  |Apple's Quicktime .mov file. The Quicktime codec dialog is available when this codec is installed and this format is initially chosen. See :doc:`Quicktime Encoding <render/output_options#quicktime>`\ .                                                                     +
 +                       |                                                                                                                                                                                                                                                                              +
-+                       | .. admonition:: Reads GIF if QuickTime is Installed                                                                                                                                                                                                                          +
++                       |.. admonition:: Reads GIF if QuickTime is Installed                                                                                                                                                                                                                          +
 +                       |   :class: note                                                                                                                                                                                                                                                               +
 +                       |                                                                                                                                                                                                                                                                              +
 +                       |   Blender can read GIF files on Windows and Mac platforms with                                                                                                                                                                                                               +
@@ -401,7 +401,7 @@ _______
       (Undocumented in ffmpeg)
 
 
- .. admonition:: Standards
+.. admonition:: Standards
    :class: note
 
    Codecs cannot encode off-the-wall video sizes, so stick to the XY sizes used in the presets for standard TV sizes.

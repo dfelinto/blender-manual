@@ -65,7 +65,7 @@ you can modify the image using the Texture Paint mode:
 - In the UV/Image Editor window, switch the editing context from View to Paint (shown to the right).
 
 
- .. admonition:: Square Power of 2
+.. admonition:: Square Power of 2
    :class: note
 
    Texture paint is very fast and responsive when working in the 3D window and when your image is sized as a square where the side lengths are a power of two, e.g. 256x256, 512x512, 1024x1024, etc.
@@ -320,7 +320,7 @@ If the header menu item Image has an asterisk next to it,
 it means that the image has been changed, but not saved. Use the :guilabel:`Image→Save Image`
 option to save your work with a different name or overwrite the original image.
 
- .. admonition:: UV Textures
+.. admonition:: UV Textures
    :class: note
 
    Since images used as UV Textures are functionally different from other images,

@@ -39,7 +39,7 @@ Display Panel
 =============
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Object`\ , :guilabel:`Edit` and :guilabel:`Pose` modes
@@ -156,7 +156,7 @@ Shaped Bones
 ------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Object` and :guilabel:`Pose` modes
@@ -237,7 +237,7 @@ Armature Layers
 ===============
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Object`\ , :guilabel:`Edit` and :guilabel:`Pose` modes
@@ -281,7 +281,7 @@ Bone Layers
 ===========
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Object`\ , :guilabel:`Edit` and :guilabel:`Pose` modes
@@ -312,7 +312,7 @@ Hiding Bones
 ============
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` and :guilabel:`Pose` modes

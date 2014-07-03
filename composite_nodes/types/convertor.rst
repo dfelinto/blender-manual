@@ -149,7 +149,7 @@ viewer's mind. The node map below shows how to do this using the Set Alpha node.
 In the example above, the alpha channel of the swirl image is ignored. Instead, a :doc:`time node <composite_nodes/types/input#time_node>` introduces a factor from 0.00 to 1.00 over 60 frames, or about 2 seconds, to the Set Alpha node. Note that the time curve is exponentially-shaped, so that the overall blackness will fade in slowly and then accelerate toward the end. The Set Alpha node does not need an input image; instead the flat (shadeless) black color is used. The Set Alpha Node uses the input factor and color to create a black image that has an alpha set which goes from 0.00 to 1.00 over 60 frames, or completely transparent to completely opaque. Think of alpha as a multiplier for how vivid you can see that pixel. These two images are combined by our trusty AlphaOver node completely (a :guilabel:`Fac`\ tor of 1.00) to produce the composite image. The SetAlpha node will thus, depending on the frame being rendered, produce a black image that has some degree of transparency. Set up and Animate, and you have an image sequence that fades to black over a 2-second period.
 
 
- .. admonition:: No Scene information used
+.. admonition:: No Scene information used
    :class: note
 
    This example node map does not use the RenderLayer. To produce this 2 second animation, no blender scene information was used. This is an example of using Blender's powerful compositing abilities separate from its modeling and animation capabilities. (A Render Layer could be substituted for the Image layer, and the "fade-network" effect will still produce the same effect)
@@ -209,7 +209,7 @@ The mask is opaque where the object is, and transparent where the object isn't.
 If the object is partially transparent, the alpha mask matches the object's transparency.
 This post-process function fills in the jaggies with interpolated values.
 
- .. admonition:: Object Index
+.. admonition:: Object Index
    :class: note
 
    Object indices are only output from a RenderLayers node or stored in a multilayer OpenEXR format image.
@@ -394,7 +394,7 @@ values between 0.16 and 0.33 get fixed to 0.2;
 colorband values between 0.33 and 0.5 get quantized to 0.4,
 and so on up to values between 0.83 and 1.0 get mapped to 1.0.
 
- .. admonition:: Function f(x)
+.. admonition:: Function f(x)
    :class: note
 
    An algebraic function is made up of primitive mathematical operations (add, subtract, multiply, sine, cosine, etc) that operate on an input value to provide a desired output value.

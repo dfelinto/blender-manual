@@ -22,13 +22,13 @@ Pencil` menu popped-up by the :guilabel:`Convert` button in the grease pencil pr
 - :guilabel:`Bezier Curve` will create Bezier curves, with free "aligned" handles (i.e. also behaving like polylines).
 
 
- .. admonition:: Why "polyline-like" curves?
+.. admonition:: Why "polyline-like" curves?
    :class: note
 
    To get by default curves following exactly the grease pencil strokes. If you want a smoothed curve, just edit it to get auto handles (for Bezier), or raise its order (for NURBS).
 
 
- .. admonition:: Converting to Mesh
+.. admonition:: Converting to Mesh
    :class: note
 
    If you want to convert your sketch to a mesh, simply choose first :guilabel:`NURBS`\ , and then convert the created curve to a mesh…

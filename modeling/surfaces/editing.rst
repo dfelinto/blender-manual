@@ -28,7 +28,7 @@ Every Nth
 ---------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
@@ -43,7 +43,7 @@ Control Point Row
 -----------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
@@ -58,7 +58,7 @@ More and Less
 -------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
@@ -91,7 +91,7 @@ Basic Surface Editing (translation, rotation, scale)
 ----------------------------------------------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
@@ -108,7 +108,7 @@ Advanced Transform Tools
 ------------------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
@@ -122,7 +122,7 @@ NURBS Control Points Settings
 -----------------------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
@@ -136,7 +136,7 @@ Adding or Extruding
 -------------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
@@ -208,7 +208,7 @@ Opening or Closing a Surface
 ----------------------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
@@ -221,7 +221,7 @@ As in :doc:`curves <modeling/curves/editing#opening_and_closing_a_curve>`\ , sur
 To toggle the cyclic property of a surface along one axis, use :kbd:`C` and choose either :guilabel:`cyclic U` or :guilabel:`cyclic V` from the :doc:`Toggle pop-up menu <modeling/surfaces>`\ . The corresponding surface's outer edges will join together to form a "closed" surface.
 
 
- .. admonition:: Inner and Outer
+.. admonition:: Inner and Outer
    :class: note
 
    Surfaces have an "inner" and "outer" face, the first being black whereas the latter is correctly shaded - there does not seem to be any "double sided" shading option for surfaces…). When you close a surface in one or two directions, you might get an entirely black object! In this case, just
@@ -234,7 +234,7 @@ Duplication
 -----------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
@@ -261,7 +261,7 @@ Deleting Elements
 -----------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
@@ -303,7 +303,7 @@ Joining or Merging Surfaces
 ---------------------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
@@ -351,7 +351,7 @@ Subdivision
 -----------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
@@ -374,7 +374,7 @@ Spin
 ----
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
@@ -394,7 +394,7 @@ Switch Direction
 ----------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
@@ -411,7 +411,7 @@ Other Specials Options
 ----------------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode

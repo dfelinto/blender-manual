@@ -46,7 +46,7 @@ So now we can do all sorts of things that depends on the viewing angle
 And the best thing about it is that you can manipulate the direction interactively.
 
 
- .. admonition:: One caveat
+.. admonition:: One caveat
    :class: note
 
    The normal is evaluated per face, not per pixel. So you need enough faces, or else you don't get a smooth result

@@ -19,7 +19,7 @@ In some contexts Vertex Groups can also be automatically generated (i.e. for rig
 However in this section we will focus on manually created (user-defined) Vertex Groups.
 
 
- .. admonition:: Vertex groups only apply to Mesh and Lattice Objects
+.. admonition:: Vertex groups only apply to Mesh and Lattice Objects
    :class: note
 
    Any other Object type has no vertices, hence it can not have Vertex Groups.
@@ -68,7 +68,7 @@ border (3). Initially the group is named ``Group``
 (see next image).
 
 
- .. admonition:: New Groups are always empty
+.. admonition:: New Groups are always empty
    :class: nicetip
 
    You have to explicitly assign verts to the group as shown below.
@@ -182,7 +182,7 @@ Note that weight Assignment is not available for locked Vertex Groups.
 The Assign button is grayed out in that case.
 
 
- .. admonition:: Assign is additive
+.. admonition:: Assign is additive
    :class: nicetip
 
    The :guilabel:`Assign` button only adds the currently selected vertices to the active group.  Vertices already assigned to the group are not removed from the group.
@@ -224,7 +224,7 @@ You can quickly select all assigned vertices of a group:
 - When you :kbd:`lmb` click the :guilabel:`Deselect` button instead, then the vertices assigned to the active group will be deselected in the 3D Viewport.
 
 
- .. admonition:: Selecting/Deselecting is additive
+.. admonition:: Selecting/Deselecting is additive
    :class: nicetip
 
    If you already have verts selected in the 3D View, then selecting the verts of a group will add the verts but also keep the already-selected verts selected. Vice versa, deselecting the verts of a vertex group will only deselect the verts assigned to the group and keep all other verts selected.

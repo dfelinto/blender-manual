@@ -5,7 +5,7 @@ Specular Shaders
 ================
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     All Modes
@@ -15,7 +15,7 @@ Specular Shaders
 Specular shaders create the bright highlights that one would see on a glossy surface, mimicking the reflection of light sources. Unlike :doc:`diffuse shading <materials/properties/diffuse_shaders>`\ , specular reflection is *viewpoint dependent*\ . According to Snell's Law, light striking a specular surface will be reflected at an angle which mirrors the incident light angle (with regard to the surface's normal), which makes the viewing angle very important.
 
 
- .. admonition:: Not a Mirror!
+.. admonition:: Not a Mirror!
    :class: nicetip
 
    It is important to stress that the *specular reflection* phenomenon discussed here is not the reflection we would see in a mirror, but rather the light highlights we would see on a glossy surface. To obtain true mirror-like reflections you would need to use the internal raytracer. Please refer to section :doc:`RENDERING <render>` of this manual.
@@ -85,7 +85,7 @@ CookTorr
 --------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     All Modes
@@ -116,7 +116,7 @@ Phong
 -----
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     All Modes
@@ -142,7 +142,7 @@ Options
    Size of the specular highlight.
 
 
- .. admonition:: Planet Atmosphere
+.. admonition:: Planet Atmosphere
    :class: nicetip
 
     Because of its fuzziness, this shader is good for atmosphere around a planet. Add a sphere around the planet, slightly larger than the planet. For its material, use a phong specular shader. Set it to a very low alpha (.05), zero diffuse, low hardness (5) but high specularity (1).
@@ -152,7 +152,7 @@ Blinn
 -----
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     All Modes
@@ -186,7 +186,7 @@ Toon
 ----
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     All Modes
@@ -211,7 +211,7 @@ Options
 **Smooth**
    Softness of the highlight's edge.
 
- .. admonition:: Alternative Method
+.. admonition:: Alternative Method
    :class: nicetip
 
 
@@ -222,7 +222,7 @@ WardIso
 -------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     All Modes

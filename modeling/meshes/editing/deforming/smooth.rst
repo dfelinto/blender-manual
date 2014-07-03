@@ -5,7 +5,7 @@ Smooth
 ======
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
@@ -48,7 +48,7 @@ Laplacian Smooth
 ----------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
@@ -61,13 +61,13 @@ Laplacian smooth is uses an alternative smoothing algorithm that better preserve
 mesh shape. Laplacian smooth exists as a mesh operation and as a non-destructive modifier.
 
 
- .. admonition:: Note
+.. admonition:: Note
    :class: note
 
    The :doc:`Smooth modifier <modifiers/deform/smooth>`\ , which can be limited to a :guilabel:`Vertex Group`\ , is a non-destructive alternative to the smooth tool.
 
 
- .. admonition:: Real Smoothing versus Shading Smoothing
+.. admonition:: Real Smoothing versus Shading Smoothing
    :class: note
 
    Do not mistake this tool with the shading smoothing options described at :doc:`this page <modeling/meshes/smoothing>`\ , they do not work the same! This tool modifies the mesh itself, to reduce its sharpness, whereas :guilabel:`Set Smooth`\ /\ :guilabel:`AutoSmooth` and co. only control the way the mesh is shaded, creating an *illusion* of softness - but without modifying the mesh at all…

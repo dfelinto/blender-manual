@@ -5,7 +5,7 @@ Volume
 ======
 
 
- .. admonition:: Experimental feature
+.. admonition:: Experimental feature
    :class: note
 
    Volume rendering is currently a work in progress. Check the Limitations at the bottom of this page too.

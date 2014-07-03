@@ -20,7 +20,7 @@ There can be only a single fluid simulation domain object in the scene.
 This object will be *replaced* by the fluid during the simulation.
 
 
- .. admonition:: Baking is done on the Domain object
+.. admonition:: Baking is done on the Domain object
    :class: nicetip
 
    When you calculate the fluid simulation, **you bake the simulation on the domain object**\ . For this reason all the baking options are visible only when selecting the Domain Object.
@@ -64,7 +64,7 @@ FIXME(TODO: Internal Link;
        Note that the amount of required memory quickly increases: a resolution of 32 requires ca. 4MB, 64 requires ca. 30MB, while 128 already needs more than 230MB. Make sure to set the resolution low enough, depending on how much memory you have, to prevent Blender from crashing or freezing. Remember also that many operating systems limit the amount of memory that can be allocated by a single *process*\ , such as Blender, even if the *machine* contains much more than this. Find out what limitations apply to your machine.
 
 
- .. admonition:: Resolution and Real-size of the Domain
+.. admonition:: Resolution and Real-size of the Domain
    :class: note
 
    Be sure to set the resolution appropriate to the real-world size of the domain (see the *Realworld-size* in the
@@ -103,7 +103,7 @@ FIXME(TODO: Internal Link;
        It is the simulation ending time (in seconds).
 
 
- .. admonition:: Start and end times have nothing to do with how many frames are baked
+.. admonition:: Start and end times have nothing to do with how many frames are baked
    :class: nicetip
 
    If you set *Start* time to 3.0, and *End* time to 4.0, you will simulate 1 second of fluid motion. That one second of fluid motion will be spread across however-many frames are set in the :guilabel:`Anim` panel (\ :guilabel:`Scene` context → :guilabel:`Render` sub-context → :guilabel:`Anim` and :guilabel:`Output` panel).
@@ -147,7 +147,7 @@ Domain World
    Note that the simulator is not suitable for non-fluids, such as materials that do not "flow". Simply setting the viscosity to very large values will not result in rigid body behavior, but might cause instabilities.
 
 
- .. admonition:: Viscosity varies
+.. admonition:: Viscosity varies
    :class: note
 
    The default values in Blender are considered typical for those types of fluids and "look right" when animated. However, actual viscosity of some fluids, especially sugar-laden fluids like chocolate syrup and honey, depend highly on temperature and concentration. Oil viscosity varies by SAE rating. Glass at room temperature is basically a solid, but glass at 1500 degrees Celsius flows (nearly) like water.

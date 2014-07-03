@@ -196,7 +196,7 @@ Not one, not two, but count 'em, *sixteen* mixing choices include:
 :guilabel:`Hue`
     The RGB values of both pixels are converted to HSV values.  The hue of both pixels are blended, and the value and saturation of the base image is combined with the blended hue and converted back to RGB.
 
- .. admonition:: Color Channels
+.. admonition:: Color Channels
    :class: note
 
    There are two ways to express the channels that are combined to result in a color: RGB or HSV. RGB stands for the Red/Green/Blue pixel format, and HSV stands for the Hue/Saturation/Value pixel format.
@@ -306,7 +306,7 @@ Of course, if you *want* people to notice your mark, don't scale it so much,
 or make it a contrasting color. There are also many other ways,
 using other mix settings and fancier rigs. Feel free to experiment!
 
- .. admonition:: Additional uses
+.. admonition:: Additional uses
    :class: note
 
    You can also use this technique, using settings that result in visible effects, in title sequences to make the words appear to be cast on the water's surface, or as a special effect to make words appear on the possessed girl's forearm. yuk.
@@ -398,7 +398,7 @@ Changing the effect over time.
    The Hue and Saturation values are set in the node by the slider, but you can feed a Time input into the Factor to bring up (or down) the effect change over time.
 
 
- .. admonition:: Tinge
+.. admonition:: Tinge
    :class: note
 
    This HSV node simply shifts hues that are already there. To colorize a gray image, or to ADD color to an image, use a mix node to add in a static color from an RGB input node with your image.
@@ -672,7 +672,7 @@ painted on glass and placed on the left and right at different Z positions; mini
 moves to the right created the illusion of depth as Bambi moved through the forest.
 
 
- .. admonition:: Valid Input
+.. admonition:: Valid Input
    :class: note
 
    Z Input Sockets do not accept fixed values; they must get a vector set (see Map Value node). Image Input Sockets will not accept a color, since it does not have UV coordinates.
@@ -706,7 +706,7 @@ The 3D cursor is about 15 units away from camera. We Z-in the image at a locatio
 thus inserting it in-between the cube and the ball.
 The resulting image appears to have the cube on the table.
 
- .. admonition:: Invisible Man Effect
+.. admonition:: Invisible Man Effect
    :class: note
 
    If you choose a foreground image which has a higher Alpha than the background, and then mix the Z-combine with a slightly magnified background, the outline of the transparent area will distort the background, enough to make it look like you are seeing part of the background through an invisible yet Fresnel-lens object.

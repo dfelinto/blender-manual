@@ -13,7 +13,7 @@ Transform Properties Panel
 ==========================
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` and :guilabel:`Object` modes
@@ -53,7 +53,7 @@ rotation and/or scaling. These fields change the object's center and then affect
 of all of its *vertices* and faces.
 
 
- .. admonition:: Note
+.. admonition:: Note
    :class: note
 
    center

@@ -14,7 +14,7 @@ dynamic way that changes over time (as the clip progresses). In this way,
 you use composition nodes to both assemble video clips together, and enhance them.
 
 
- .. admonition:: Term: Image
+.. admonition:: Term: Image
    :class: note
 
    We use the term *Image* to refer to a single picture, a picture in a numbered sequence of images, or a frame of a movie clip. A node layout processes one image at a time, no matter what kind of input you provide.

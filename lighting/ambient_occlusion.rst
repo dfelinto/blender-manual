@@ -56,7 +56,7 @@ Ambient Occlusion is composited during the render. Two blending modes are availa
    Ambient occlusion is multiplied over the shading, making things darker.
 
 
- .. admonition:: Note
+.. admonition:: Note
    :class: note
 
    If :guilabel:`Multiply` is chosen, there must be other light sources; otherwise the scene will be pitch black. In the other two cases the scene is lit even if no explicit light is present, just from the AO effect. Although many people like to use AO alone as a quick shortcut to light a scene, the results it gives will be muted and flat, like an overcast day. In most cases, it is best to light a scene properly with Blender's standard lamps, then use AO on top of that, set to "\ :guilabel:`Multiply`\ ", for the additional details and contact shadows.
@@ -119,7 +119,7 @@ you want to use the colors of your sky's texture.
          A factor to reduce AO sampling on fast-moving pixels. As it uses the :guilabel:`Vec` render pass, that must also be enabled (see :doc:`render passes page <render/post_process/passes>`\ ).
 
 
- .. admonition:: About QMC
+.. admonition:: About QMC
    :class: note
 
    See also the :doc:`raytraced shadows page <lighting/shadows/raytraced_properties#what_is_quasi-monte_carlo?>` for more info about the  Quasi-Monte Carlo sampling method.

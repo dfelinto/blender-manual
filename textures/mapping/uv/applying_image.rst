@@ -114,7 +114,7 @@ click "UseAlpha" in the Map Image panel.
 Full details of using Image textures are on the :doc:`Image Textures <textures/types/image>` page.
 
 
- .. admonition:: Material is Required for Rendering
+.. admonition:: Material is Required for Rendering
    :class: note
 
    You can perform UV Texturing on a mesh within Blender without assigning a material, and you will even see it in your 3D View in textured viewport mode. However, when you render, you will just get a default gray if the object does not have a Material assigned. You will get a black if you do not load an image. If you do not create a texture that uses the image, or enable :guilabel:`Face Texture`\ , your object will render according to the procedural material settings.

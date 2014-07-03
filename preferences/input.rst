@@ -50,7 +50,7 @@ You can change the preset you are using by doing one of the following:
 - Selecting the configuration from the :guilabel:`User Preferences Input` window.
 
 
- .. admonition:: Note
+.. admonition:: Note
    :class: note
 
    Note that either of the above options will only change the preset for the current file. If you select :menuselection:`File --> New` or :menuselection:`File --> Open`\ , the default preset will be re-loaded.
@@ -103,7 +103,7 @@ Mouse
    The time for a double click (in ms).
 
 
- .. admonition:: Note
+.. admonition:: Note
    :class: note
 
    If you're using a graphic tablet instead of mouse, and pressure doesn't work properly, try to place the mouse pointer to Blender window and then unplug/replug your graphic tablet. This might help.

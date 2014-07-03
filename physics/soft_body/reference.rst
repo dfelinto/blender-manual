@@ -35,7 +35,7 @@ Soft Body Cache
 ---------------
 
 
- .. admonition:: Start- and Endframe
+.. admonition:: Start- and Endframe
    :class: note
 
    The :guilabel:`Start` and :guilabel:`End` settings in the :guilabel:`Collision` panel are not only valid for the baking, but for all Soft Body simulations. So if your animation lasts longer than 250 frames, you have to increase the :guilabel:`End` value.

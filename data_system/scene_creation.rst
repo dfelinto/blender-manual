@@ -62,7 +62,7 @@ Use this linking feature when, for example, the original scene contains the set,
 and the new scene is to contain the actors or props.
 
 
- .. admonition:: Starting Over
+.. admonition:: Starting Over
    :class: note
 
    If you start with a new scene, be sure to add a camera and lights first!

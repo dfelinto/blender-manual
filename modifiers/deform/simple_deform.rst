@@ -5,7 +5,7 @@ Simple Deform Modifier
 ======================
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     All modes
@@ -57,7 +57,7 @@ Options
    - Translated to control the origin of deformation.
    - Scaled to change the deform factor.
 
- .. admonition:: Note
+.. admonition:: Note
    :class: note
 
    When the object controlling the origin (the one in the :guilabel:`Origin` field) is a child of the deformed object, this creates a cyclic dependency in Blender's data system (the DAG - "dependency graph"?). The workaround is to create a new empty and attach both objects to it.

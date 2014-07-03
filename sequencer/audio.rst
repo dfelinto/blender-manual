@@ -33,7 +33,7 @@ changing the audio file will not affect playback,
 and you will have to re-open the file so that Blender re-reads the file.
 
 
- .. admonition:: Hiss, Crackle and Pop
+.. admonition:: Hiss, Crackle and Pop
    :class: note
 
    Some audiophile users report that Hiss is introduced sometimes if Audio RAM is used. There must be some decoding or sampling going on, that does not occur when Audio HD is used, that introduces some playback noise. If you hear pops and crackles, usually that is a sign that your hardware cannot keep up in real-time playback. They will not be present in your final rendered animation output (but they may show up in Game mode).

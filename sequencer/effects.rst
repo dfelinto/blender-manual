@@ -124,7 +124,7 @@ With uniform colors
    Multiplying a color with a 'normal' image allows you to soften some hues of this one (and so - symmetrically - to enhance the others). For example, if you have a brown pixel RGB(\ **0.50**\ , **0.29**\ , **0.05**\ ), and you multiply it with a cyan filter (uniform color RGB(\ **0.0**\ , **1.0**\ , **1.0**\ ), you'll get a color RGB(\ **0.0**\ , **0.29**\ , **0.5**\ ). Visually, the result is to kill the reds and bring up (by 'symmetry' - the real values remain unchanged!) the blues an greens. Physically, it is the same effect as shining a cyan light onto a chocolate bar. Emotionally, vegetation becomes more lush, water becomes more Caribbean and inviting, skies become friendlier.
 
 
- .. admonition:: Note
+.. admonition:: Note
    :class: note
 
    This effect reduces the global luminosity of the picture (the result will always be smaller than the smallest operand). If one of the image is all white, the result is the other picture; if one of the image is all black, the result is all black!

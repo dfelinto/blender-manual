@@ -5,7 +5,7 @@ Curve Modifier
 ==============
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Object` mode
@@ -84,7 +84,7 @@ Let's make a simple example:
 
 - Now if you select the Monkey (\ :kbd:`Rmb`\ ), and move it (\ :kbd:`G`\ ), in the Y-direction, the monkey will deform nicely along the curve.
 
- .. admonition:: A Tip
+.. admonition:: A Tip
    :class: nicetip
 
    If you press :kbd:`Mmb` while moving the Monkey you will constrain the movement to one axis only.

@@ -61,7 +61,7 @@ Note that a vertex does not necessarily have to be associated to any vertex grou
 In that case the Vertex Weights Panel is not displayed.
 
 
- .. admonition:: The active Vertex
+.. admonition:: The active Vertex
    :class: nicetip
 
    That is the most recently selected vertex. This vertex is always highlighted so that you can see it easily in the mesh. If the active Vertex does not have weights, or there is no active vertex selected at the moment, then the Vertex Weights Panel disappears.
@@ -177,7 +177,7 @@ Copy
    Copies all weights defined for the active Vertex to all selected Verts. Thus all previously defined weights are overwritten.
 
 
- .. admonition:: The filter setting is respected
+.. admonition:: The filter setting is respected
    :class: nicetip
 
    Note that both functions only work on the Vertex Groups currently displayed in the Weights Table. So if for example only the :guilabel:`Deform weights` are displayed, then Normalize and Copy only affect the Deform bones.
@@ -203,7 +203,7 @@ Whenever a Weight Group is locked, all data changing functions get disabled:
 - Paste to selected verts.
 
 
- .. admonition:: The filter setting is respected
+.. admonition:: The filter setting is respected
    :class: nicetip
 
    If you have for example all deform weight groups unlocked and all other vertex groups locked, then you can safely select :guilabel:`Deform` from the Filter row and use all available functions from the Weight table again.

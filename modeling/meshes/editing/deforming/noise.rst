@@ -5,14 +5,14 @@ Noise
 =====
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
    | Panel:    :kbd:`Mesh Tools` panel (\ :guilabel:`Editing` context)
 
 
- .. admonition:: Note
+.. admonition:: Note
    :class: note
 
    :guilabel:`Noise` is an old feature. The :doc:`Displace Modifier <modifiers/deform/displace>` is a non-destructive alternative to the Noise tool and is a more flexible way to realize these sort of effects. The key advantages of the modifier are that it can be canceled at any moment, you can precisely control how much and in which direction the displacement is applied, and much more….

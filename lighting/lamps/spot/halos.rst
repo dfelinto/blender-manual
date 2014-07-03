@@ -26,7 +26,7 @@ Spot Volumetric Effects
     If :guilabel:`Step` is set to a value of **0**\ , then no volumetric shadow will be generated.
     Unlike most other controls, as the :guilabel:`Step` value increases, the quality of volumetric shadows decreases (but take less time to render), and *vice versa*\ .
 
- .. admonition:: :guilabel:`Step` values
+.. admonition:: :guilabel:`Step` values
    :class: nicetip
 
     A value of **8** for :guilabel:`Halo Step` is usually a good compromise between speed and accuracy.
@@ -36,7 +36,7 @@ Spot Volumetric Effects
     For example, having a :guilabel:`Spot` light with null or very low light :guilabel:`Energy` settings but a very high halo :guilabel:`Intensity` setting can result in a dark/black halo, which would not happen in the real world. Just be aware of this possibility when using halos with the internal renderer.
 
 
- .. admonition:: Note
+.. admonition:: Note
    :class: note
 
     The halo effect can be greatly enhanced when using buffered shadows: when the halo's :guilabel:`Step` is not null, they can create "volumetric shadows". See the page about :guilabel:`Spot` :doc:`Buffered Shadows <lighting/lamps/spot/buffered_shadows>` for more information.

@@ -3,7 +3,7 @@ Laplacian Smooth and Shape Enhanced Modifier
 ============================================
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     Any mode

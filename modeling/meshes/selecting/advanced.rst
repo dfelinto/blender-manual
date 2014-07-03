@@ -39,7 +39,7 @@ Select Similar
 --------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
@@ -108,7 +108,7 @@ Edge Loops and Vertex Loops
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode → :guilabel:`Vertex` or :guilabel:`Edge` select mode
@@ -126,7 +126,7 @@ or the :guilabel:`Edge Loop Select` option of the :guilabel:`Edge Specials` menu
 (\ :kbd:`ctrl-E`\ ).
 
 
- .. admonition:: :guilabel:`Vertex` mode
+.. admonition:: :guilabel:`Vertex` mode
    :class: note
 
    In :guilabel:`Vertex` select mode, you can also select edge loops, by using the same hotkeys, *and clicking on the edges* (not on the vertices).
@@ -148,7 +148,7 @@ Face Loops
 ~~~~~~~~~~
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode → :guilabel:`Face` or :guilabel:`Vertex` select modes
@@ -189,7 +189,7 @@ Edge Ring
 ~~~~~~~~~
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode → :guilabel:`Edge` select mode
@@ -205,7 +205,7 @@ or the :guilabel:`Edge Ring Select` option of the :guilabel:`Edge Specials` menu
 (\ :kbd:`ctrl-E`\ ).
 
 
- .. admonition:: :guilabel:`Vertex` mode
+.. admonition:: :guilabel:`Vertex` mode
    :class: note
 
    In :guilabel:`Vertex` select mode, you can use the same hotkeys when *clicking on the edges* (not on the vertices), but this will directly select the corresponding face loop…
@@ -226,7 +226,7 @@ Path Selection
 ~~~~~~~~~~~~~~
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
@@ -248,7 +248,7 @@ Loop Inner-Region
 ~~~~~~~~~~~~~~~~~
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode → :guilabel:`Edge` select mode
@@ -284,7 +284,7 @@ Boundary Loop
 ~~~~~~~~~~~~~
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode → :guilabel:`Edge` select mode

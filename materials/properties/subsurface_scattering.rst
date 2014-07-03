@@ -64,7 +64,7 @@ If you use a very large radius value for a color,
 its light is evenly distributed over the whole object.
 
 
- .. admonition:: Note about scatter radius
+.. admonition:: Note about scatter radius
    :class: note
 
    Because of the way this scattering is calculated, when using large radius values, you will notice fringing artifacts that appear as the complementary color to the predominant color of the scattering. Above, you see in the last image a bluish band in the illuminated area. This is an unfortunate limitation. A way to lessen this effect is use multiple passes with different scatter radii, and average them.

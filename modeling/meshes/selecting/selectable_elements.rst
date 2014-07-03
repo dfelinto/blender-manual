@@ -30,7 +30,7 @@ Select Mode popup
 ~~~~~~~~~~~~~~~~~
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
@@ -63,7 +63,7 @@ Select Mode header widgets
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
@@ -83,7 +83,7 @@ Using the buttons you can also enter "\ **mixed**\ " or "combined" mode by
 edges and/or faces at the same time!
 
 
- .. admonition:: Note
+.. admonition:: Note
    :class: note
 
    The "Mode Selection" buttons are only visible for meshes in :guilabel:`Edit` mode.

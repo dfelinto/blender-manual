@@ -3,7 +3,7 @@ Triangulate Modifier
 ====================
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     Object mode

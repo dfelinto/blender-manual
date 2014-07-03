@@ -6,7 +6,7 @@ Make Edge/Face
 ==============
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
@@ -28,7 +28,7 @@ Mark Seam and Clear Seam
 ------------------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode (\ :guilabel:`Vertex` or :guilabel:`Edge` select modes)
@@ -43,7 +43,7 @@ Mark Sharp and Clear Sharp
 --------------------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode (\ :guilabel:`Vertex` or :guilabel:`Edge` select modes)
@@ -58,7 +58,7 @@ Adjust Bevel Weight
 -------------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode (\ :guilabel:`Vertex` or :guilabel:`Edge` select modes)
@@ -73,7 +73,7 @@ Crease SubSurf
 --------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode (\ :guilabel:`Vertex` or :guilabel:`Edge` select modes)
@@ -88,7 +88,7 @@ Edge Slide
 ==========
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode (\ :guilabel:`Vertex` or :guilabel:`Edge` select modes)
@@ -198,7 +198,7 @@ Rotate Edge
 ===========
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode (\ :guilabel:`Vertex` or :guilabel:`Edge` select modes)
@@ -240,7 +240,7 @@ Delete Edge Loop
 ================
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode (\ :guilabel:`Vertex` or :guilabel:`Edge` select modes)
@@ -251,7 +251,7 @@ Delete Edge Loop
 :guilabel:`Delete Edge Loop` allows you to delete a selected edge loop if it is between two other edge loops. This will create one face-loop where two previously existed.
 
 
- .. admonition:: Note
+.. admonition:: Note
    :class: note
 
    The :guilabel:`Edge Loop` option is very different to the :guilabel:`Edges` option, even if you use it on edges that look like an edge loop. Deleting an edge loop merges the surrounding faces together to preserve the surface of the mesh. By deleting a chain of edges, the edges are removed, deleting the surrounding faces as well. This will leave holes in the mesh where the faces once were.
@@ -284,7 +284,7 @@ Collapse
 ========
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
@@ -315,7 +315,7 @@ Edge Split
 ==========
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
@@ -344,7 +344,7 @@ Bridge Edge Loops
 =================
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode

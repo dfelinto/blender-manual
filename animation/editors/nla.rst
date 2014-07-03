@@ -52,7 +52,7 @@ Any action used by the NLA first must be turned into an Action strip.  This is d
 
  next to the action listed in the NLA.  Alternatively, you can go to
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Menu:     Add → Action
@@ -71,7 +71,7 @@ __________________________
 
 Select two or more strips on the same track, and go to
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Menu:     Add → Transition
@@ -91,7 +91,7 @@ ________________________________
 If you find yourself moving a lot of strips together, you can group them into a Meta strip.
 A meta strip can be moved and duplicated like a normal strip.
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Menu:     Add → Add Meta-Strips
@@ -108,7 +108,7 @@ A meta strip can be moved and duplicated like a normal strip.
 
 A meta strip still contains the underlying strips. You can ungroup a Meta strip.
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Menu:     Add → Remove Meta-Strips
@@ -122,7 +122,7 @@ Editing Strips
 The contents of Action strips can be edited, but you must be in 'Tweak Mode' to do so.
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Menu:     View → Enter Tweak Mode
@@ -182,7 +182,7 @@ The contents' of one Action strip can be instanced multiple times.  To instance 
 select
 a strip, go to
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Menu:     Edit→ Duplicate Strips
@@ -206,7 +206,7 @@ Strip Properties
 
 Strip properties can be accessed via the NLA header.
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Menu:     View→ Properties

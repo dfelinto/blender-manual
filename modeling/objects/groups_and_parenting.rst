@@ -563,7 +563,7 @@ You can also alter the bone radius by selecting the tail or head of the bone you
    Figure 33 - [Properties Editor > Bone Context > Deform Panel > Radius Section] head and tail fields highlighted.
 
 
- .. admonition:: Note
+.. admonition:: Note
    :class: nicetip
 
 
@@ -703,7 +703,7 @@ relationships,
 and avoid the tedious effort of establishing each parent-child vertex relationship separately.
 
 
- .. admonition:: Note
+.. admonition:: Note
    :class: note
 
    It is in fact a sort of "reversed" :doc:`hook <modifiers/deform/hooks>`
@@ -854,7 +854,7 @@ Select Grouped
 --------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Object mode`

@@ -54,7 +54,7 @@ Rectangular or Border Select
 ============================
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Object mode` and :guilabel:`Edit mode`
@@ -102,7 +102,7 @@ Lasso Select
 ============
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Object mode` and :guilabel:`Edit mode`
@@ -137,7 +137,7 @@ Circle Select
 =============
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Object mode` and :guilabel:`Edit mode`
@@ -183,7 +183,7 @@ Select Grouped
 --------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Object mode`
@@ -246,7 +246,7 @@ Select linked
 -------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Object` mode
@@ -295,7 +295,7 @@ Select All by Type
 ------------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Object` mode
@@ -332,7 +332,7 @@ Select All by Layer
 -------------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Object` mode
@@ -369,7 +369,7 @@ available:
    The layer on which the objects are.
 
 
- .. admonition:: Selection of Objects
+.. admonition:: Selection of Objects
    :class: nicetip
 
    Rather than using the :guilabel:`Select All by Layer` option, it might be more efficient to make the needed layers visible and use :kbd:`A` on them. This method also allows objects to be deselected.

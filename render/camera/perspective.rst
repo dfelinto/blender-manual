@@ -40,7 +40,7 @@ During the Renaissance, the concept of using vanishing points in art evolved.
 Blender offers a few tricks of its own to let you do the same.
 
 
- .. admonition:: Note
+.. admonition:: Note
    :class: note
 
    To follow sections below you will need to know how to adjust :doc:`Camera Settings <render/cameras#camera_settings>`
@@ -176,7 +176,7 @@ Y were zero, the building would have appeared off camera,
 in the upper left-hand corner of the passpartout.
 
 
- .. admonition:: Parallel Horizontal Edges
+.. admonition:: Parallel Horizontal Edges
    :class: nicetip
 
    You can use the lines of the passpartout as a guide in rotating the camera to determine when the horizontal edges are parallel.

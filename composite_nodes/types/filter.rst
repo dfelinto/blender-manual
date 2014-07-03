@@ -224,7 +224,7 @@ method is the Compositor node Vector Blur.
 
 To use, connect the appropriate passes from a Render Result node.
 
- .. admonition:: Note
+.. admonition:: Note
    :class: note
 
    Make sure to enable the Speed (called Vec) pass in the Render Layers panel for the render layer you wish to perform motion blur on.
@@ -244,7 +244,7 @@ and thus create nice looking masks. You can find this new option as 'min speed'.
 This minimum speed is in pixel units.
 A value of just 3 will already clearly separate the background from foreground.
 
- .. admonition:: Hint
+.. admonition:: Hint
    :class: note
 
    You can make vector blur results a little smoother by passing the Speed pass through a blur node (but note that this can make strange results, so it's only really appropriate for still images with lots of motion blur).

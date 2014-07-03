@@ -158,7 +158,7 @@ Ghosts
 ------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Pose` mode
@@ -232,7 +232,7 @@ Motion Paths
 ------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Pose` mode

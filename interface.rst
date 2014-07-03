@@ -46,7 +46,7 @@ Just open Blender again and click on :guilabel:`Recover Last Session` in the Spl
 You also have this option in the main menu via :menuselection:`File --> Recover Last Session`\ .
 
 
- .. admonition:: Temporary .blend file
+.. admonition:: Temporary .blend file
    :class: note
 
    Every time Blender exits, it saves the current data in a temporary .blend file. When you recover your last session, Blender will load the data from that file.

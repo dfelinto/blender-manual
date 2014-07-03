@@ -10,7 +10,7 @@ Text Boxes
 ----------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Object` or :guilabel:`Edit` modes
@@ -52,7 +52,7 @@ In order for the frame to become visible,
 the frame's :guilabel:`Width` must be greater than **0.0**\ .
 
 
- .. admonition:: Note
+.. admonition:: Note
    :class: note
 
    Technically the height is never actually **0.0** because the font itself always contributes height.
@@ -135,7 +135,7 @@ Assigning Materials
 -------------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode

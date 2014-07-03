@@ -20,7 +20,7 @@ Creating a Force Field
 ----------------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Object` Mode
@@ -39,7 +39,7 @@ The fields have many options in common,
 these common options are explained for the :guilabel:`Spherical` field.
 
 
- .. admonition:: Note
+.. admonition:: Note
    :class: note
 
 

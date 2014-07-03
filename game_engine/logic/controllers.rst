@@ -43,7 +43,7 @@ false means the controller's conditions are not met and nothing will happen. Ple
 the individual controller pages for a more detailed description of each controller.
 
 
- .. admonition:: Note
+.. admonition:: Note
    :class: note
 
    It is assumed that more than one sensor is connected to the controller. For only one sensor, consult the "All" line.

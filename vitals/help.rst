@@ -6,7 +6,7 @@ Help system
 ===========
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     All modes
@@ -31,7 +31,7 @@ General Web-based Help Options
 ------------------------------
 
 
- .. admonition:: Browser and Internet Connection
+.. admonition:: Browser and Internet Connection
    :class: nicetip
 
    Some forms of Help start up your web browser and access the Blender Foundation's web servers. In order to do this, you must have configured a default web browser for your Operating System, and have a connection to the Internet.
@@ -160,7 +160,7 @@ Blender Search
 --------------
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     All modes

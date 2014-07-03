@@ -14,7 +14,7 @@ geometry in some way.
 - :doc:`Screw <modeling/meshes/editing/duplicating/screw>`\ .
 
 
- .. admonition:: Multiple Viewports
+.. admonition:: Multiple Viewports
    :class: note
 
    When you use one of the duplication tools in the :guilabel:`Mesh Tools` panel, Blender cannot guess which view you want to work in - if you have more than one opened, of course… As the view is often important for these tools, once you have activated one, your cursor turns into a sort of question mark - click with it inside the window you want to use.

@@ -5,7 +5,7 @@ DupliVerts
 ==========
 
 
- .. admonition:: Reference
+.. admonition:: Reference
    :class: refbox
 
    | Mode:     :guilabel:`Object` mode
@@ -24,7 +24,7 @@ the spikes in a club, the thorns of a sea-urchin, the tiles in a wall,
 the petals in a flower).
 
 
- .. admonition:: Download example .blend file
+.. admonition:: Download example .blend file
    :class: note
 
    You can download a file with the examples described on this page.  In `this .blend <http://wiki.blender.org/index.php/:File:Manual-2.5-DupliVerts-Examples.blend>`__\ , the first example, a monkey parented to a circle is on layer 1; while a tentacle parented to an icosphere is on layer 2.  The files was made using Blender 2.55.1 (r33567).
@@ -120,7 +120,7 @@ Output of various orientations:
    Positive Z, up X
 
 
- .. admonition:: Note
+.. admonition:: Note
    :class: note
 
    The axes of an object can be made visible in the :guilabel:`Object`\ → :guilabel:`Display` panel.
