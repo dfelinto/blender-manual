@@ -47,8 +47,8 @@ Direct placement with the mouse
 - Using :kbd:`lmb` in the 3D area will place the 3D cursor directly under your mouse pointer. For accuracy you should use two perpendicular orthogonal 3D views, i.e. any combination of top (\ :kbd:`pad7`\ ), front (\ :kbd:`pad1`\ ) and side (\ :kbd:`pad3`\ ). That way you can control the positioning along two axes in one view and determine depth in the second view.
 
 
-Using the {{Literal|Snap}} menu
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Using the Snap Menu
+~~~~~~~~~~~~~~~~~~~
 
 .. figure:: /images/3D_interaction_Transform-Control_Pivot-Point_3D-cursor_snap-menu.jpg
 

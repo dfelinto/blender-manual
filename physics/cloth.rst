@@ -149,7 +149,7 @@ vertex group you want to use, and the stiffness you want it at.
    This is jumping ahead and not clear and not true at this point.
    --[[User:Roger|Roger]] 18:42, 27 April 2008 (UTC)
 
-   Finally, use the {{Literal|Timeline}} window Play button,
+   Finally, use the Timeline window Play button,
    or press {{Shortcut|alt|A}} in the 3D View to run the simulation.
    Your cloth will fall and interact with Deflection objects as it would in the real world.
    <!--this is jumping ahead and not clear and not true at this point.

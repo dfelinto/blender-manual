@@ -351,10 +351,10 @@ FIXME(TODO: Internal Link;
    {{Literal|Ad}}vanced, {{Literal|Bn}} for boundary, and {{Literal|Par}}ticle)
    of more advanced options, that often are fine set at the defaults.
 
-   {{Literal|St}}andard
+   Standard
    :The settings in this set are already been described above…
 
-   {{Literal|Ad}}vanced
+   Advanced
    :Gravity vector
    ::Strength and direction of the gravity acceleration and any lateral (x,y plane) force. The main component should be along the negative z-axis (in <code>m.s<sup>-2</sup></code>).
    ::''Please Note:'' All of the x,y,z values should not be zero, or the fluid won't flow! Imagine a droplet floating in the nothingness of deep space… It must be some small number in at least one direction.

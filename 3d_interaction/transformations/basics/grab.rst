@@ -9,7 +9,7 @@ Grab/Move
    :class: refbox
 
    | Mode:     :guilabel:`Object` Mode, :guilabel:`Edit` Mode, and :guilabel:`Pose` Mode for the 3D View; :guilabel:`UV/Image Editor` Tools, :guilabel:`Sequence Editor`\ ,
-   :guilabel:`Dopesheet`\ , and :guilabel:`Graph Editor` for other specific types of Grab/Move operations.
+   |           :guilabel:`Dopesheet`\ , and :guilabel:`Graph Editor` for other specific types of Grab/Move operations.
    | Menu:     Context Sensitive, Object Based → :guilabel:`Transform` → :guilabel:`Grab/Move`
    | Hotkey:   :kbd:`g` or combinations for specific Axis constraint
 
@@ -138,9 +138,12 @@ choice widget group.
 Other Editor Windows
 --------------------
 
-For the other Editor Windows, like {{Literal|UV/Image Editor}} Tools,
-{{Literal|Sequence Editor}},
-{{Literal|Dopesheet}}, and {{Literal|Graph Editor}}, the Grab/Move Operations are used to move Objects or elements based in their context, but, differently from the 3D View, you will see only two axis, '''X''' and '''Y''' normally, and  altough we are explainning the Grab/Move in the '''3D Interaction''' section, those Objects and elements are shown in a 3D Interface. Blender will simply constrain the movement of a third possible axis.
+For the other Editor Windows, like UV/Image Editor Tools, Sequence Editor, Dopesheet, and Graph Editor,
+the Grab/Move Operations are used to move Objects or elements based in their context, but,
+differently from the 3D View, you will see only two axis, **X** and **Y** normally,
+and although we are explaining the Grab/Move in the **3D Interaction** section,
+those Objects and elements are shown in a 3D Interface.
+Blender will simply constrain the movement of a third possible axis.
 Most of the shortcuts used in the 3D View,
 are also used when interacting with those Editor Windows.
 This is also true for all of the other transformations, like rotate and scale.
@@ -151,15 +154,17 @@ Python Scripting
 
 You can also use Python Scripting in Blender to Grab/Move Objects or elements to a specific
 location, either using the Python interactive console,
-or running a Python script in the {{Literal|Text}} Editor Window.
+or running a Python script in the Text Editor Window.
 
 
-Getting the location vector for current object
-   bpy.context.scene.objects.active.location
+Getting the location vector for current object ``bpy.context.scene.objects.active.location``
 Returns you the location vector for the active object in the scene.One can assign a different
 value to the location vector to change the position of the object.
 
-Operator for translating active object and its syntax
+Operator for translating active object and its syntax:
+
+.. code-block:: python
+
    bpy.ops.transform.translate(value=(<DX>, <DY>, <DZ>), constraint_axis=(<bool>, <bool>,<bool>), constraint_orientation='<ORIENTATION NAME>', mirror=<bool>, proportional='<ENABLE?DISABLE>', proportional_edit_falloff='<FALLOFF TYPE>', proportional_size=<INT>, snap=<bool>, snap_target='<SNAP TARGET>', snap_point=<x,y,z>, snap_align=<bool>, snap_normal=<x,y,z>, texture_space=<bool>, release_confirm=<bool>)
 
 
