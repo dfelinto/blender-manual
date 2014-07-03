@@ -86,9 +86,19 @@ Options
 The numeric sliders control how the light is scattered:
 
 :guilabel:`IOR`
-   The :guilabel:`Index Of Refraction` value determines the falloff of incident light.  Higher values means that light falls off faster.  The effect is quite subtle and changes the distribution function only a little bit.  By the examination of many different materials, values of **1.3** to **1.5** have been found to work well for most materials.  If you know the exact material you are trying to simulate, see :doc:`our IOR table <materials/properties/raytraced_transparency#ior_values_for_common_materials>`\ .
+   The :guilabel:`Index Of Refraction` value determines the falloff of incident light.
+   Higher values means that light falls off faster.
+   The effect is quite subtle and changes the distribution function only a little bit.
+   By the examination of many different materials, values of **1.3** to **1.5**
+   have been found to work well for most materials.  If you know the exact material you are trying to simulate,
+   see :doc:`our IOR table <materials/properties/raytraced_transparency#ior_values_for_common_materials>`\ .
+
 :guilabel:`Scale`
-   The scale of your object, in Blender units, across which you want the scattering effect to take place.  Scale :guilabel:`1.0` means **1** Blender unit equals **1** millimeter, scale **0.001** means **1** Blender unit equals **1** meter.  If you want to work out what scale value to use in your scene, just use the formula: (size in blender units)/(real world size in millimeters)=scale.
+   The scale of your object, in Blender units, across which you want the scattering effect to take place.
+   Scale :guilabel:`1.0` means **1** Blender unit equals **1** millimeter,
+   scale **0.001** means **1** Blender unit equals **1** meter.
+   If you want to work out what scale value to use in your scene,
+   just use the formula: (size in blender units)/(real world size in millimeters)=scale.
 
 
 .. figure:: /images/Manual-25-Material-SSS-Swatch.jpg
@@ -99,11 +109,14 @@ The numeric sliders control how the light is scattered:
 
 
 :guilabel:`Scattering Color` (Albedo)
-    Albedo is the probability that light will survive a scattering event. If you think of scattering as a filter, this is the height of the filter. It is multiplied by the surface color. In practice, this is unintuitive. It should be the same as the surface color, however changing this value has unintuitive results on the scattering effect:
+   Albedo is the probability that light will survive a scattering event.
+   If you think of scattering as a filter, this is the height of the filter. It is multiplied by the surface color. In practice, this is unintuitive. It should be the same as the surface color, however changing this value has unintuitive results on the scattering effect:
 
-   - The darker the color the more light is scattered. A value of 1 will produce no scattering effect.
+   The darker the color the more light is scattered. A value of 1 will produce no scattering effect.
 
-    So if you set it to green, the lit areas of the object will appear as green, and green is scattered only a little. Therefore the darker areas will appear in red and blue.  You can compensate the different scattering by setting a larger radius for the color.
+   So if you set it to green, the lit areas of the object will appear as green, and green is scattered only a little.
+   Therefore the darker areas will appear in red and blue.
+   You can compensate the different scattering by setting a larger radius for the color.
 :guilabel:`RGB Radius`
    This is not in fact the radius of the subsurface scattering, but the average path length between scattering events.  As the light travels through the object it bounces around then emerges from the surface at some other point. This value corresponds to the average length the light travels between each bounce.  The longer the path length is, the further the light is allowed to scatter.
    This is the main source of a material's perceived "scatter color." A material like skin will have a higher red radius than green and blue. Subsurface scattering is the diffusion of light beneath the surface. You control how far the light spreads to achieve a specific result.
@@ -115,11 +128,20 @@ The numeric sliders control how the light is scattered:
       How much the surface texture is blurred along with the shading.
 :guilabel:`Scattering Weight` :
    :guilabel:`Front`
-      Factor to increase or decrease the front scattering. When light enters through the front of the object, how much is absorbed or added? (Normally **1.0** or **100%**\ ).
+      Factor to increase or decrease the front scattering.
+      When light enters through the front of the object, how much is absorbed or added? (Normally **1.0** or **100%**).
    :guilabel:`Back`
-      Factor to increase or decrease the back scattering. Light hitting an object from behind can go all the way through the object and come out on the front of the object. This happens mostly on thin objects, like hands and ears.
+      Factor to increase or decrease the back scattering. Light hitting an object from behind can go all the way
+      through the object and come out on the front of the object. This happens mostly on thin objects,
+      like hands and ears.
+
 :guilabel:`Error`
-   This parameter controls how precisely the algorithm samples the surrounding points. Leaving it at **0.05** should give images without artifacts. It can be set higher to speed up rendering, potentially with errors. Setting it at **1.0** is a good way to quickly get a preview of the look, with errors.
+   This parameter controls how precisely the algorithm samples the surrounding points.
+   Leaving it at **0.05** should give images without artifacts. It can be set higher to speed up rendering,
+   potentially with errors.
+
+   Setting it at **1.0** is a good way to quickly get a preview of the look, with errors.
+
 
 
 Developing your own SSS material
@@ -169,5 +191,3 @@ See also
 
 - `Development Release Log: Subsurface Scattering <http://www.blender.org/development/release-logs/blender-244/subsurface-scattering/>`__
 - `Ben Simonds: Three Layer SSS in Blender Demystified <http://bensimonds.com/2010/05/31/three-layer-sss-in-blender-demystified/>`__
-
-

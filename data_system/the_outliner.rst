@@ -12,7 +12,7 @@ Use it to find things in your scene.
 For example, suppose you sneeze while moving an object; your mouse flies off your desk
 (gesundheit!) and the object is hurled somewhere off screen into space.
 Simply use the outliner to find it; select it,
-and move back to your 3D window to snap it back to your cursor (\ :kbd:`shift-S` 
+and move back to your 3D window to snap it back to your cursor (\ :kbd:`shift-S` 
 :guilabel:`→ Selection → Cursor`\ ).
 
 Another more practical example is to evaluate the impact of a change on related :doc:`datablocks <data_system/datablocks>`\ . Suppose you are looking at your ``TableTop`` object, and it doesn't look right, the ``Wood`` material doesn't look right; you want it to look more like mahogany. Since the same material can be used by many meshes, you're not sure how many things will change color when you change the material. Using the :guilabel:`Outliner`\ , you could find that material and trace the links that it has to every mesh in your scene.
@@ -69,13 +69,13 @@ Selecting and activating
 ------------------------
 
 Single selection doesn't require any pre-selection: just work directly with :kbd:`lmb`
-(and/or :kbd:`rmb` - contextual menu, see below) *inside* the name/icon area.
+(and/or :kbd:`rmb` - contextual menu, see below) *inside* the name/icon area.
 
 When you select an object in the list this way,
 it is selected and becomes the active object in all other 3D Views.
 Use this feature to find objects in your 3D View, select them in the :guilabel:`Outliner`\ ,
 then zoom to them with :kbd:`pad.` or if you don't have a numpad,
-snap and center your cursor on them via :kbd:`shift-S` 
+snap and center your cursor on them via :kbd:`shift-S` 
 :guilabel:`→ Cursor → Selection`\ , and then :kbd:`C`\ .
 
 
@@ -85,7 +85,11 @@ snap and center your cursor on them via :kbd:`shift-S` 
 
 
 Activating a datablock
-   *Activate* the datablock with :kbd:`lmb` on the *icon* of the datablock. Activating the datablock will automatically switch to the relevant mode. For example, activating the mesh data of the cube will select the cube and enter :guilabel:`Edit mode` while activating the object data of the cube will select the cube and enter :guilabel:`Object mode` (see right).
+   *Activate* the datablock with :kbd:`lmb` on the *icon* of the datablock.
+   Activating the datablock will automatically switch to the relevant mode.
+   For example, activating the mesh data of the cube will select the cube
+   and enter :guilabel:`Edit mode` while activating the object data of the
+   cube will select the cube and enter :guilabel:`Object mode` (see right).
 
 
 .. figure:: /images/Manual-2-56-PartIII-Outliner-Window-Column-Icons.jpg
@@ -94,7 +98,8 @@ Activating a datablock
 
 
 Toggle pre-selection of a group of datablocks
-   Useful when you want to select/deselect a whole bunch of datablocks. For this you must prepare the selection using, to your liking:
+   Useful when you want to select/deselect a whole bunch of datablocks.
+   For this you must prepare the selection using, to your liking:
 
    - :kbd:`rmb` or :kbd:`lmb`\ ,
    - :kbd:`shift-rmb` or :kbd:`shift-lmb`\ ,
@@ -110,7 +115,8 @@ Toggle pre-selection of a group of datablocks
 
 
 Context menu
-   Show the context menu for a datablock with :kbd:`rmb` on the icon or name. Depending on the type of the pre-selected datablock(s), you will have all or part of the following options:
+   Show the context menu for a datablock with :kbd:`rmb` on the icon or name.
+   Depending on the type of the pre-selected datablock(s), you will have all or part of the following options:
 
    - :guilabel:`Select`\ .
    - :guilabel:`Deselect`\ .
@@ -148,7 +154,11 @@ are only available for objects:
    Restrict visibility
 
 
-   Toggle visibility by clicking the "eye" icon for the object on the right-hand side of the :guilabel:`Outliner`\ . Useful for complex scenes when you don't want to assign the object to another layer. This will only work on visible layers - an object on an invisible layer will still be invisible regardless of what the :guilabel:`Outliner` says. :kbd:`V` will toggle this property for any objects that are pre-selected in the :guilabel:`Outliner`\ .
+   Toggle visibility by clicking the "eye" icon for the object on the right-hand side of the :guilabel:`Outliner`.
+   Useful for complex scenes when you don't want to assign the object to another layer.
+   This will only work on visible layers - an object on an invisible layer will still
+   be invisible regardless of what the :guilabel:`Outliner` says. :kbd:`V`
+   will toggle this property for any objects that are pre-selected in the :guilabel:`Outliner`.
 
 
 **Selectability**
@@ -159,7 +169,10 @@ are only available for objects:
    Restrict selection
 
 
-   Toggle selectability by clicking the "arrow" icon. This is useful for if you have placed something in the scene and don't want to accidentally select it when working on something else. :kbd:`S` will toggle this property for any objects that are pre-selected in the :guilabel:`Outliner`\ .
+   Toggle selectability by clicking the "arrow" icon. This is useful for if you have placed something in the scene
+   and don't want to accidentally select it when working on something else.
+   :kbd:`S` will toggle this property for any objects that are pre-selected in the :guilabel:`Outliner`.
+
 
 
 **Rendering**
@@ -169,8 +182,9 @@ are only available for objects:
 
    Restrict renderability
 
-
-   Toggle rendering by clicking the "camera" icon. This will still keep the object visible in the scene, but it will be ignored by the renderer. :kbd:`R` will toggle this property for any objects that are pre-selected in the :guilabel:`Outliner`\ .
+   Toggle rendering by clicking the "camera" icon. This will still keep the object visible in the scene,
+   but it will be ignored by the renderer.
+   :kbd:`R` will toggle this property for any objects that are pre-selected in the :guilabel:`Outliner`\ .
 
 
 Searching
@@ -211,7 +225,8 @@ FIXME(TODO: Internal Link;
 [[Doc:Doc:2.5/Manual/3D interaction/Navigating/Layers|layers buttons]]
 ) to make objects on a layer visible in the 3D window.
 
-- :guilabel:`Selected` - Lists only the object(s) currently selected in the 3D window. You can select multiple objects by :kbd:`shift-rmb`\ -clicking.
+- :guilabel:`Selected` - Lists only the object(s) currently selected in the 3D window.
+  You can select multiple objects by :kbd:`shift-rmb`\ -clicking.
 - :guilabel:`Active` - Lists only the active (often last selected) object.
 - :guilabel:`Same Types` - Lists only those objects in the current scene that are of the same types as those selected in the 3d window.
 - :guilabel:`Groups` - Lists only :doc:`Groups <modeling/objects/groups_and_parenting>` and their members.

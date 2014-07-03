@@ -195,7 +195,12 @@ Not one, not two, but count 'em, *sixteen* mixing choices include:
 
 
 Alpha
-   Click the :guilabel:`Alpha` button to make the mix node use the Alpha (transparency) values of the second (bottom) node. If enabled, the resulting image will have an Alpha channel that reflects both images' channels. Otherwise, (when not enabled, light green) the output image will mix the colors by considering what effect the Alpha channel has of the base (top input socket) image. The Alpha channel of the output image is not affected.
+   Click the :guilabel:`Alpha` button to make the mix node use the Alpha (transparency) values of the second (bottom)
+   node. If enabled, the resulting image will have an Alpha channel that reflects both images' channels. Otherwise,
+   (when not enabled, light green)
+   the output image will mix the colors by considering what effect the Alpha channel has of the base
+   (top input socket) image. The Alpha channel of the output image is not affected.
+
 
 Fac
    The amount of mixing of the bottom socket is selected by the Factor input field (\ :guilabel:`Fac:`\ ). A factor of zero does not use the bottom socket, whereas a value of 1.0 makes full use. In Mix mode, 50:50 (0.50) is an even mix between the two, but in Add mode, .50 means that only half of the second socket's influence will be applied.
@@ -360,7 +365,13 @@ This node takes an input image and runs the color of the image
 (and the light it reflects and radiates) 'up' through a factor (0.0-1.0)
 and applies a saturation of color effect of a hue to the image:
 :guilabel:`Hue:`
-    The **Hue** slider specifies how much to shift the hue of the image. Hue 0.5 (in the middle) does not shift the hue or affect the color of the image. As Hue shifts left, the colors shift as more cyan is added; a blue image goes bluer, then greener, then yellow. A red image goes violet, then purple, blue, and finally teal.  Shifting right (increasing Hue from 0.5 to 1.0) introduces reds and greens. A blue image goes purple, plum, red, orange, and then yellow. A red image goes golden, olive, green, and cyan.
+    The **Hue** slider specifies how much to shift the hue of the image. Hue 0.5 (in the middle)
+    does not shift the hue or affect the color of the image. As Hue shifts left,
+    the colors shift as more cyan is added; a blue image goes bluer, then greener, then yellow.
+    A red image goes violet, then purple, blue, and finally teal.  Shifting right (increasing Hue from 0.5 to 1.0)
+    introduces reds and greens. A blue image goes purple, plum, red, orange, and then yellow.
+    A red image goes golden, olive, green, and cyan.
+
 :guilabel:`Sat:`
     **Saturation** affect the amount of pigment in the image.  A saturation of 0 actually *removes* hues from the color, resulting in a black-and-white grayscale image. A saturation of 1.0 blends in the hue, and 2.0 doubles the amount of pigment and brings out the colors.
 :guilabel:`Val:`

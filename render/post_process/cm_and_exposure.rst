@@ -47,7 +47,13 @@ A computer monitor works differently from a digital cinema project or HDTV.
 The scene properties have these settings:
 
 :guilabel:`Device`
-    The device that the image is being viewed on. Most computer monitors are configured for the sRGB color space, and so when working on a computer usually this option should just be left to the default. It would typically be changed when viewing the image on another display device connected to the computer, or when writing out image files intended to be displayed on another device. Rec709 is commonly used for HDTVs, while XYZ and DCI-P3 are common for digital projectors. Color management can be disabled by setting the device to None.
+   The device that the image is being viewed on. Most computer monitors are configured for the sRGB color space,
+   and so when working on a computer usually this option should just be left to the default.
+   It would typically be changed when viewing the image on another display device connected to the computer,
+   or when writing out image files intended to be displayed on another device. Rec709 is commonly used for HDTVs,
+   while XYZ and DCI-P3 are common for digital projectors.
+   Color management can be disabled by setting the device to None.
+
 
 
 .. figure:: /images/Blender2.64_color_mgt_display.jpg

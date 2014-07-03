@@ -85,6 +85,11 @@ The shape of the area light can be set to :guilabel:`Square` or :guilabel:`Recta
 .. admonition:: Shape Tips
    :class: note
 
-    Choosing the appropriate shape for your :guilabel:`Area` light will enhance the believability of your scene. For example, you may have an indoor scene and would like to simulate light entering through a window. You could place a :guilabel:`Rectangular` area lamp in a window (vertical) or from neons (horizontal) with proper ratios for :guilabel:`Size X` and :guilabel:`Size Y`\ . For the simulation of the light emitted by a TV screen a vertical :guilabel:`Square` area lamp would be better in most cases.
+   Choosing the appropriate shape for your :guilabel:`Area` light will enhance the believability of your scene.
+   For example, you may have an indoor scene and would like to simulate light entering through a window.
+   You could place a :guilabel:`Rectangular` area lamp in a window (vertical) or from neons (horizontal)
+   with proper ratios for :guilabel:`Size X` and :guilabel:`Size Y`. For the simulation of the light emitted by a
+   TV screen a vertical :guilabel:`Square` area lamp would be better in most cases.
+
 
 

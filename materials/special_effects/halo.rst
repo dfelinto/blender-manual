@@ -64,7 +64,14 @@ Halo Panel
     The :guilabel:`Add` slider determine how much the halo colors are 'added to', rather than mixed with, the colors of the objects behind and together with other halos. By increasing Add, the Halo will appear to light up objects that move behind it or through the Halo field.
 
 **Texture**
-    Gives halo a texture. By default, textures are applied to objects with Object coordinates and reflects on the halos by affecting their color, as a whole, on the basis of the color of the vertex originating the halo. Enable this feature to have the texture take effect *within* the halo, and hence to have it with varying colors or transparencies; this will map the whole texture to *every* halo.  This technique proves very useful when you want to create a realistic rain effect using particle systems, or similar.
+   Gives halo a texture. By default,
+   textures are applied to objects with Object coordinates and reflects on the halos by affecting their color,
+   as a whole, on the basis of the color of the vertex originating the halo.
+   Enable this feature to have the texture take effect *within* the halo,
+   and hence to have it with varying colors or transparencies; this will map the whole texture to *every* halo.
+   This technique proves very useful when you want to create a realistic rain effect using particle systems,
+   or similar.
+
 **Vertex Normal**
     Use the vertex normal to specify the dimension of the halo
 **Extreme Alpha**
@@ -72,7 +79,8 @@ Halo Panel
 **Shaded**
     Lets halo receive light and shadows from external objects
 
-       When shaded is enabled, the Halo will be affected by local light; a lamp will make it brighter and affect its diffuse color and intensity.
+       When shaded is enabled, the Halo will be affected by local light;
+       a lamp will make it brighter and affect its diffuse color and intensity.
 **Soft**
     Softens the edges of the halos at intersections with other geometry
 

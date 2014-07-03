@@ -630,7 +630,11 @@ With Bone parenting if you have parented a bone to some Child Objects and you se
    :width: 800px
    :figwidth: 800px
 
-   Figure 37 - [Single Armature Bone which has a Child Object cube parented to it using Bone parenting.  1st picture shows the position of the cube and armature before the bone is moved in Edit Mode.  2nd picture shows the position of the cube and armature after the bone was selected in Edit Mode, moved and switched back into Pose Mode.  Notice that the Child Object moves to the new location of the Pose Bone.
+   Figure 37 - [Single Armature Bone which has a Child Object cube parented to it using Bone parenting.
+   1st picture shows the position of the cube and armature before the bone is moved in Edit Mode.
+   2nd picture shows the position of the cube and armature after the bone was selected in Edit Mode,
+   moved and switched back into Pose Mode.  Notice that the Child Object moves to the new location of the Pose Bone.
+
 
 
 Bone Relative parenting works differently;  If you move a Parent Bone in Edit Mode, when you switch back to Pose Mode, the Child Objects will not move to the new location of the Pose Bone.  See figure 38.
@@ -640,7 +644,12 @@ Bone Relative parenting works differently;  If you move a Parent Bone in Edit Mo
    :width: 800px
    :figwidth: 800px
 
-   Figure 38 - [Single Armature Bone which has a Child Object cube parented to it using Bone Relative parenting.  1st picture shows the position of the cube and armature before the bone is moved in Edit Mode.  2nd picture shows the position of the cube and armature after the bone was selected in Edit Mode, moved and switched back into Pose Mode.  Notice that the Child Object does not move to the new location of the Pose Bone.
+   Figure 38 - [Single Armature Bone which has a Child Object cube parented to it using Bone Relative parenting.
+   1st picture shows the position of the cube and armature before the bone is moved in Edit Mode.
+   2nd picture shows the position of the cube and armature after the bone was selected in Edit Mode,
+   moved and switched back into Pose Mode.
+   Notice that the Child Object does not move to the new location of the Pose Bone.
+
 
 
 Vertex Parent
@@ -731,7 +740,13 @@ The menu contains:
    Frees the children from the parent, and *keeps* the location, rotation, and size given to them by the parent.
 
 :guilabel:`Clear Parent Inverse`
-   Places the children with respect to the parent as if they were placed in the Global reference. This effectively clears the parent's transformation from the children. For example, if the parent is moved 10 units along the X axis and :guilabel:`Clear Parent Inverse` is invoked, any selected children are freed and moved -10 units back along the X axis. The "Inverse" only uses the last transformation; if the parent moved twice, 10 units each time for a total of 20 units, then the "Inverse" will only move the child back 10 units, not 20.
+   Places the children with respect to the parent as if they were placed in the Global reference.
+   This effectively clears the parent's transformation from the children. For example,
+   if the parent is moved 10 units along the X axis and :guilabel:`Clear Parent Inverse` is invoked,
+   any selected children are freed and moved -10 units back along the X axis.
+   The "Inverse" only uses the last transformation; if the parent moved twice,
+   10 units each time for a total of 20 units, then the "Inverse" will only move the child back 10 units, not 20.
+
 
 
 Parenting Example
@@ -829,7 +844,7 @@ Restricting Group Contents via Layers
    The cluster of layer buttons attached to each group determines from which layers the group objects will be included when duplicated. If your group contains objects on layers 10, 11 and 12, but you disable the layer 12 button in the group controls, duplicates of that group (using the :doc:`Dupligroup <modeling/objects/duplication/dupligroup>` feature) will only show the portions of the group that reside in layers 10 and 11.
 
 Appending or Linking Groups
-   To append a group from another .blend file, consult :doc:`this page <data_system/linked_libraries>`\ . In summary, :guilabel:`File` → :guilabel:`Append or Link` → ``filename`` → :guilabel:`Group` → ``groupname``\ .
+   To append a group from another .blend file, consult :doc:`this page <data_system/linked_libraries>`\ . In summary, :guilabel:`File` → :guilabel:`Append or Link` → ``filename`` → :guilabel:`Group` → ``groupname``\ .
 
 Removing Groups
    To remove a object from a group, under the object context button, open the "Groups" pane. Find the name of the group from which you wish to remove the object, and click the x to the right of the group name.

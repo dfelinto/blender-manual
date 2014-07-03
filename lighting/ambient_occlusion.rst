@@ -57,7 +57,13 @@ Ambient Occlusion is composited during the render. Two blending modes are availa
 .. admonition:: Note
    :class: note
 
-   If :guilabel:`Multiply` is chosen, there must be other light sources; otherwise the scene will be pitch black. In the other two cases the scene is lit even if no explicit light is present, just from the AO effect. Although many people like to use AO alone as a quick shortcut to light a scene, the results it gives will be muted and flat, like an overcast day. In most cases, it is best to light a scene properly with Blender's standard lamps, then use AO on top of that, set to "\ :guilabel:`Multiply`\ ", for the additional details and contact shadows.
+   If :guilabel:`Multiply` is chosen, there must be other light sources; otherwise the scene will be pitch black.
+   In the other two cases the scene is lit even if no explicit light is present, just from the AO effect.
+   Although many people like to use AO alone as a quick shortcut to light a scene,
+   the results it gives will be muted and flat, like an overcast day. In most cases,
+   it is best to light a scene properly with Blender's standard lamps, then use AO on top of that,
+   set to "\ :guilabel:`Multiply`\ ", for the additional details and contact shadows.
+
 
 
 The :guilabel:`Gather` panel contains settings for the ambient occlusion quality.
@@ -131,8 +137,19 @@ you want to use the colors of your sky's texture.
    :guilabel:`Constant Jittered`
       The historical sample method, more prone to "bias" artifacts…
       :guilabel:`Bias`
-         The angle (in radians) the hemisphere will be made narrower (i.e. the hemisphere will no longer be a real hemisphere: its section will no longer be a semicircle, but an arc of a circle of "\ *pi* ``- Bias``\ " radians).
-         The bias setting allows you to control how smooth "smooth" faces will appear in AO rendering. Since AO occurs on the original faceted mesh, it is possible that the AO light makes faces visible even on objects with "smooth" on. This is due to the way AO rays are shot, and can be controlled with the :guilabel:`Bias` slider. Note that while it might even happen with QMC sampling methods, it is much more visible with the :guilabel:`Constant Jittered` one - and anyway, you have no :guilabel:`Bias` option for QMC.
+         The angle (in radians) the hemisphere will be made narrower (i.e.
+         the hemisphere will no longer be a real hemisphere: its section will no longer be a semicircle,
+         but an arc of a circle of "\ *pi* ``- Bias``\ " radians).
+
+
+         The bias setting allows you to control how smooth "smooth" faces will appear in AO rendering.
+         Since AO occurs on the original faceted mesh,
+         it is possible that the AO light makes faces visible even on objects with "smooth" on.
+         This is due to the way AO rays are shot, and can be controlled with the :guilabel:`Bias` slider.
+         Note that while it might even happen with QMC sampling methods,
+         it is much more visible with the :guilabel:`Constant Jittered` one - and anyway,
+         you have no :guilabel:`Bias` option for QMC.
+
 
 
 +----------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------+

@@ -274,7 +274,13 @@ Counterclockwise effect.
 .. admonition:: Vectors that aren't parallel with Blender Axis
    :class: note
 
-   The high sensibility for the vector doesn't apply to vectors that give the Screw Tool a starting angle (Ex: any non-parallel vector), meaning Blender won't need to clamp the values to stabilize a direction for the extrusion, as the inclination of the vector will be clear for Blender and you will have the full degree of freedom to change the vectors. Our example is important because it only changes the direction of the profile without the tilt and/or bending effect, as there is only one direction for the extrusion, parallel to one of the Blender Axes
+   The high sensibility for the vector doesn't apply to vectors that give the Screw Tool a starting angle (Ex:
+   any non-parallel vector),
+   meaning Blender won't need to clamp the values to stabilize a direction for the extrusion, as the inclination of
+   the vector will be clear for Blender and you will have the full degree of freedom to change the vectors. Our
+   example is important because it only changes the direction of the profile without the tilt and/or bending effect,
+   as there is only one direction for the extrusion, parallel to one of the Blender Axes
+
 
 
 Bending the Profiles using the Spring Example

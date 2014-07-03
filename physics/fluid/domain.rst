@@ -58,7 +58,12 @@ FIXME(TODO: Internal Link;
 +------------------------------------------+-------------------------------------------+
 
 
-       Note that the amount of required memory quickly increases: a resolution of 32 requires ca. 4MB, 64 requires ca. 30MB, while 128 already needs more than 230MB. Make sure to set the resolution low enough, depending on how much memory you have, to prevent Blender from crashing or freezing. Remember also that many operating systems limit the amount of memory that can be allocated by a single *process*\ , such as Blender, even if the *machine* contains much more than this. Find out what limitations apply to your machine.
+       Note that the amount of required memory quickly increases: a resolution of 32 requires ca. 4MB,
+       64 requires ca. 30MB, while 128 already needs more than 230MB. Make sure to set the resolution low enough,
+       depending on how much memory you have, to prevent Blender from crashing or freezing. Remember also that many
+       operating systems limit the amount of memory that can be allocated by a single *process*\ , such as Blender,
+       even if the *machine* contains much more than this. Find out what limitations apply to your machine.
+
 
 
 .. admonition:: Resolution and Real-size of the Domain

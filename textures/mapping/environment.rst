@@ -64,7 +64,12 @@ as you can see in *Reflecting plane EnvMap settings.*\ :
 :guilabel:`Image File`
     When saved as an image file, environment maps can be loaded from disk. This option allows the fastest rendering with environment maps, and also gives the ability to modify or use the environment map in an external application.
 
-   When using planar reflections, if the camera is the only moving object and you have a reflecting plane, the Empty must move too and you must use :guilabel:`Anim` environment map. If the reflecting object is small and the Empty is in its center, the environment map can be :guilabel:`Static`\ , even if the object itself rotates since the Empty does not move. If, on the other hand, the Object translates the Empty should follow it and the environment map be of :guilabel:`Anim` type.
+   When using planar reflections, if the camera is the only moving object and you have a reflecting plane,
+   the Empty must move too and you must use :guilabel:`Anim` environment map.
+   If the reflecting object is small and the Empty is in its center, the environment map can be :guilabel:`Static`,
+   even if the object itself rotates since the Empty does not move. If, on the other hand,
+   the Object translates the Empty should follow it and the environment map be of :guilabel:`Anim` type.
+
 
 Options in dropdown menu:
 

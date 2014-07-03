@@ -81,7 +81,7 @@ Selecting Points
 - All: :kbd:`A`\ .
 - Linked: Move the mouse over a keypoint and press :kbd:`L`\ .
 - Border select: :kbd:`B`\ .
-- First/last: :kbd:`W` → :guilabel:`Select First`\ /\ :guilabel:`Select Last`\ .
+- First/last: :kbd:`W` → :guilabel:`Select First`\ /\ :guilabel:`Select Last`\ .
 
 You may also use the :guilabel:`Select` Menu.
 
@@ -107,8 +107,8 @@ Moving keypoints or particles
 - To move selected keypoints press :kbd:`G`\ , or use one of the various other methods to grab vertices.
 - To move a particle root you have to turn off :guilabel:`Keep` :guilabel:`Root` in the :guilabel:`Tool Bar`\ .
 - You can do many of the things like with vertices, including scaling, rotating and removing (complete particles or single keys).
-- You may not duplicate or extrude keys or particles, but you can subdivide particles which adds new keypoints (\ :kbd:`W` → :guilabel:`Subdivide`\ /\ :kbd:`pad2`\ ).
-- Alternatively you can rekey a particle (\ :kbd:`W` → :guilabel:`Rekey`\ /\ :kbd:`pad1`\ ) and choose the number of keys.
+- You may not duplicate or extrude keys or particles, but you can subdivide particles which adds new keypoints (\ :kbd:`W` → :guilabel:`Subdivide`\ /\ :kbd:`pad2`\ ).
+- Alternatively you can rekey a particle (\ :kbd:`W` → :guilabel:`Rekey`\ /\ :kbd:`pad1`\ ) and choose the number of keys.
 
 How smoothly the hair and particle paths are displayed depends on the :guilabel:`Path Steps`
 setting in the :guilabel:`Tool Bar`\ . Low settings produce blocky interpolation between points,
@@ -120,7 +120,7 @@ Mirroring particles
 
 - If you want to create an X-Axis symmetrical haircut you have to do following steps:
   - Select all particles with :kbd:`A`\ .
-  - Mirror the particles with :kbd:`ctrl-M`\ , or use the :guilabel:`Particle` → :guilabel:`Mirror` menu.
+  - Mirror the particles with :kbd:`ctrl-M`\ , or use the :guilabel:`Particle` → :guilabel:`Mirror` menu.
   - Turn on :guilabel:`X-Axis Mirror Editing` in the :guilabel:`Particle` menu.
 
 It may happen that after mirroring two particles occupy nearly the same place.
@@ -201,7 +201,12 @@ Common Options:
     Scales the segments until the last keypoint reaches the brush.
 
 :guilabel:`Weight`
-    This is especially useful for softbody animations, because the weight defines the softbody :guilabel:`Goal`\ . A keypoint with a weight of 1 won't move at all, a keypoint with a weight of 0 subjects fully to softbody animation. This value is scaled by the :guilabel:`GMin`\ -\ :guilabel:`GMax` range of softbody goals...    Comment: <!-- Not more true, I think: '''Weight is only drawn for the complete hair (i.e. with the value of the tip), not for each keypoint, so it's a bit difficult to paint'''.--> .
+   This is especially useful for softbody animations, because the weight defines the softbody :guilabel:`Goal`.
+   A keypoint with a weight of 1 won't move at all,
+   a keypoint with a weight of 0 subjects fully to softbody animation.
+   This value is scaled by the :guilabel:`GMin`\ -\ :guilabel:`GMax` range of softbody goals...    Comment:
+   <!-- Not more true, I think: '''Weight is only drawn for the complete hair (i.e. with the value of the tip),
+   not for each keypoint, so it's a bit difficult to paint'''.--> .
 
 
 Options

@@ -136,9 +136,16 @@ Shape
 
 
 :guilabel:`2D and 3D Curves`
-   By default, new curves are set to be 3D, which means that Control Points can be placed anywhere in 3D space. Curves can also be set to 2D which constrain the Control Points to the Curve's local XY axis.
+   By default, new curves are set to be 3D, which means that Control Points can be placed anywhere in 3D space.
+   Curves can also be set to 2D which constrain the Control Points to the Curve's local XY axis.
+
 :guilabel:`Resolution`
-   The *resolution* property defines the number of points that are computed between every pair of Control Points. Curves can be made more or less smooth by increasing and decreasing the resolution respectively. The :guilabel:`Preview U` setting determines the resolution in the 3D viewport while the :guilabel:`Render U` setting determines the Curve's render resolution. If :guilabel:`Render U` is set to zero (0), then the :guilabel:`Preview U` setting is used for both the 3D viewport and render resolution.
+   The *resolution* property defines the number of points that are computed between every pair of Control Points.
+   Curves can be made more or less smooth by increasing and decreasing the resolution respectively.
+   The :guilabel:`Preview U` setting determines the resolution in the 3D viewport while the :guilabel:`Render U` setting
+   determines the Curve's render resolution. If :guilabel:`Render U` is set to zero (0),
+   then the :guilabel:`Preview U` setting is used for both the 3D viewport and render resolution.
+
 
 
 .. figure:: /images/Modeling_Curves_shape-resolution.jpg
@@ -225,7 +232,8 @@ Geometry
 :guilabel:`Fill Caps`
    Seals the ends of a beveled Curve.
 :guilabel:`Map Taper`
-   For Curves using a Taper Object and with modifications to the :guilabel:`Start/End Bevel Factor` the :guilabel:`Map Taper` option will apply the taper to the beveled part of the Curve (not the whole Curve).
+   For Curves using a Taper Object and with modifications to the :guilabel:`Start/End Bevel Factor`
+   the :guilabel:`Map Taper` option will apply the taper to the beveled part of the Curve (not the whole Curve).
 
 
 .. figure:: /images/Modeling_Curves_geometry-map-taper.jpg
@@ -234,7 +242,12 @@ Geometry
 
 
 :guilabel:`Start Bevel Factor` and :guilabel:`End Bevel Factor`
-   These options determine where to start the Bevel operation on the Curve being beveled. Increasing the :guilabel:`Start Bevel Factor` to 0.5 will start beveling the Curve 50% of the distance from the start of the Curve (in effect shortening the Curve). Decreasing the :guilabel:`End Bevel Factor` by 0.25 will start beveling the Curve 25% of the distance from the end of the Curve (again, shortening the Curve).
+   These options determine where to start the Bevel operation on the Curve being beveled.
+   Increasing the :guilabel:`Start Bevel Factor` to 0.5 will start beveling the Curve 50% of the distance from the start
+   of the Curve (in effect shortening the Curve).
+   Decreasing the :guilabel:`End Bevel Factor` by 0.25 will start beveling the Curve 25% of the distance from the end
+   of the Curve (again, shortening the Curve).
+
 
 
 .. figure:: /images/Modeling_Curves_geometry-bevel-start-end-factor.jpg

@@ -42,8 +42,13 @@ The constraint type
 
 The name field
    Here you can give your constraint a more meaningful name than the default one.
-    This control has another *important* purpose: it turns red when the constraint is not functional (as in *A constraint header*\ ). As most constraints need a second "target" object to work (see below), when just added, they are in "red state", as Blender cannot guess which object or bone to use as target. This can also happen when you choose an invalid set of settings, e.g. with a :doc:`Track To constraint <constraints/tracking/track_to>` of which the :guilabel:`To` and :guilabel:`Up` vectors are both set to the same axis.
-    As noted above, constraints in "red state" are ignored during the stack evaluation.
+   This control has another *important* purpose: it turns red when the constraint is not functional
+   (as in *A constraint header*\ ). As most constraints need a second "target" object to work (see below),
+   when just added, they are in "red state", as Blender cannot guess which object or bone to use as target.
+   This can also happen when you choose an invalid set of settings, e.g. with a :doc:`Track To constraint
+   <constraints/tracking/track_to>` of which the :guilabel:`To` and :guilabel:`Up`
+   vectors are both set to the same axis.
+   As noted above, constraints in "red state" are ignored during the stack evaluation.
 
 The "up"/"down" buttons
    As seen above, these allow you to move a constraint up/down in the stack.

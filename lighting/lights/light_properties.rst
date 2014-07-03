@@ -39,7 +39,14 @@ Lamp
 
 
 :guilabel:`Distance`
-   The :guilabel:`Dist` field indicates the number of Blender Units (BU) at which the intensity of the current light source will be half of its intensity. Objects less than the number of BU away from the lamp will get more light, while objects further away will receive less light. Certain settings and lamp falloff types affect how the :guilabel:`Distance` field is interpreted, meaning that it will not always react the same; see the page about :doc:`light falloff <lighting/lights/light_attenuation>`\ .
+   The :guilabel:`Dist` field indicates the number of Blender Units (BU)
+   at which the intensity of the current light source will be half of its intensity.
+   Objects less than the number of BU away from the lamp will get more light,
+   while objects further away will receive less light.
+   Certain settings and lamp falloff types affect how the :guilabel:`Distance` field is interpreted,
+   meaning that it will not always react the same;
+   see the page about :doc:`light falloff <lighting/lights/light_attenuation>`\ .
+
 
 - The :guilabel:`Sun` and :guilabel:`Hemi` Lamps are another class of Lamps which uses a constant falloff. Those lamps don't have a :guilabel:`Dist` field, and are often called "Base Lighting Lamps".
 

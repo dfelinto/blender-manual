@@ -104,9 +104,9 @@ this is all because of the Index of Refraction of glass.
 
    To get ray-traced transparency, you need to:
 
-   - enable ray tracing in your Render settings.  This is done in the Render context  → Shading Panel. Ray tracing is enabled by default.
+   - enable ray tracing in your Render settings.  This is done in the Render context  → Shading Panel. Ray tracing is enabled by default.
    - set your Alpha value to something other than 1.0.
-   - in order for the background material to receive light passing through your transparent object, :guilabel:`Receive Transparent` must be turned on for that material in the Material → Shadow panel.
+   - in order for the background material to receive light passing through your transparent object, :guilabel:`Receive Transparent` must be turned on for that material in the Material → Shadow panel.
 
 
 Options
@@ -131,7 +131,13 @@ FIXME(TODO: Internal Link;
 :guilabel:`Limit`
     Materials thicker than this are not transparent. This is used to control the threshold after which the filter color starts to come into play.
 :guilabel:`Depth`
-    Sets the maximum number of transparent surfaces a single ray can travel through. There is no typical value. Transparent objects outside the :guilabel:`Depth` range will be rendered pitch black if viewed through the transparent object that the :guilabel:`Depth` is set for.  In other words, if you notice black areas on the surface of a transparent object, the solution is probably to increase its :guilabel:`Depth` value (this is a common issue with ray tracing transparent objects).  You may also need to turn on transparent shadows on the background object.
+   Sets the maximum number of transparent surfaces a single ray can travel through. There is no typical value.
+   Transparent objects outside the :guilabel:`Depth` range will be rendered pitch black if viewed through the
+   transparent object that the :guilabel:`Depth` is set for.  In other words,
+   if you notice black areas on the surface of a transparent object,
+   the solution is probably to increase its :guilabel:`Depth` value
+   (this is a common issue with ray tracing transparent objects).
+   You may also need to turn on transparent shadows on the background object.
 
 :guilabel:`Gloss`
     Settings for the glossiness of the material.
@@ -203,7 +209,7 @@ But not only that, at every point on a surface, some of the light can be reflect
 or mirrored off the surface in various directions.
 This results in multiple rays needing to be calculated for each point
 (often referred to as a **tree of rays**\ [http://www.cs.unc.edu/~rademach/xroads-RT/RTarticle.
-html]). In each of the rendered images above there are 640×400=256 000 pixels.
+html]). In each of the rendered images above there are 640×400=256 000 pixels.
 By increasing :guilabel:`Depth`\ , at least one tree of rays is added to each pixel.
 
 Be kind to your computer. Carefully placing objects in a scene to avoid overlapping

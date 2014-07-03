@@ -124,7 +124,12 @@ Options
 Example
 ~~~~~~~
 
-An example blend file, in fact the one used to create the image above, `is available here. <http://wiki.blender.org/index.php/Media:Manual-Node-Blur.blend>`__ The .blend file takes one image from the RenderLayer "Blurs" and blurs it while offsetting it (Translate) and then combining it (AlphaOver) to build up the progressive sequence of blurs. Play with the Value and Multiply nodes to change the amount of blurring that each algorithm does.
+An example blend file, in fact the one used to create the image above,
+`is available here. <http://wiki.blender.org/index.php/Media:Manual-Node-Blur.blend>`__
+The .blend file takes one image from the RenderLayer "Blurs" and blurs it while offsetting it (Translate)
+and then combining it (AlphaOver) to build up the progressive sequence of blurs.
+Play with the Value and Multiply nodes to change the amount of blurring that each algorithm does.
+
 
 
 Bilateral Blur Node
@@ -376,10 +381,21 @@ FIXME(TODO: Internal Link;
 
 
 :guilabel:`fStop`
-   This is the most important parameter to control the amount of focal blur: it simulates the aperture *f* of a real lens(' iris) - without modifying the luminosity of the picture, however! As in a real camera, the *smaller* this number is, the more-open the lens iris is, and the *shallower* the depth-of-field will be. The default value 128 is assumed to be infinity: everything is in perfect focus. Half the value will double the amount of blur. This button is not available if :guilabel:`No zbuffer` is enabled.
+   This is the most important parameter to control the amount of focal blur:
+   it simulates the aperture *f* of a real lens(' iris) - without modifying the luminosity of the picture,
+   however! As in a real camera, the *smaller* this number is, the more-open the lens iris is,
+   and the *shallower* the depth-of-field will be. The default value 128 is assumed to be infinity:
+   everything is in perfect focus. Half the value will double the amount of blur.
+   This button is not available if :guilabel:`No zbuffer` is enabled.
 
 :guilabel:`Maxblur`
-   Use this to limit the amount of blur of the most out of focus parts of the image. The value is the maximum blur radius allowed. This can be useful since the actual blur process can sometimes be very slow. (The more blur, the slower it gets.) So, setting this value can help bring down processing times, like for instance when the world background is visible, which in general tends to be the point of maximum blur (not always true, objects very close to the lens might be blurred even more). The default value of 0 means there is no limit to the maximum blur amount.
+   Use this to limit the amount of blur of the most out of focus parts of the image.
+   The value is the maximum blur radius allowed.
+   This can be useful since the actual blur process can sometimes be very slow. (The more blur, the slower it gets.)
+   So, setting this value can help bring down processing times,
+   like for instance when the world background is visible, which in general tends to be the point of maximum blur
+   (not always true, objects very close to the lens might be blurred even more).
+   The default value of 0 means there is no limit to the maximum blur amount.
 
 :guilabel:`BThreshold`
    The defocus node is not perfect: some artifacts may occur.
@@ -404,7 +420,9 @@ FIXME(TODO: Internal Link;
 
 
 :guilabel:`Samples`
-   Only visible when :guilabel:`Preview` is set. Sets the amount of samples to use to sample the image. The higher, the smoother the image, but also the longer the processing time. For preview, the default of 16 samples should be sufficient and is also the fastest.
+   Only visible when :guilabel:`Preview` is set. Sets the amount of samples to use to sample the image. The higher,
+   the smoother the image, but also the longer the processing time. For preview,
+   the default of 16 samples should be sufficient and is also the fastest.
 
 :guilabel:`No zbuffer`
    Sometimes you might want to have more control to blur the image. For instance,
@@ -424,7 +442,14 @@ FIXME(TODO: Internal Link;
    (e.g. time node/value node/etc).
 
 :guilabel:`Zscale`
-   Only visible when :guilabel:`No zbuffer` enabled. When :guilabel:`No zbuffer` is used, the input is used directly to control the blur radius. And since usually the value of a texture is only in the numeric range 0.0 to 1.0, its range is too narrow to control the blur properly. This parameter can be used to expand the range of the input (or for that matter, narrow it as well, by setting it to a value less than one). So for :guilabel:`No zbuffer`\ , this parameter therefore then becomes the main blur control (similar to :guilabel:`fStop` when you *do* use a zbuffer).
+   Only visible when :guilabel:`No zbuffer` enabled. When :guilabel:`No zbuffer` is used,
+   the input is used directly to control the blur radius.
+   And since usually the value of a texture is only in the numeric range 0.0 to 1.0,
+   its range is too narrow to control the blur properly. This parameter can be used to expand the range of the input
+   (or for that matter, narrow it as well, by setting it to a value less than one). So for :guilabel:`No zbuffer`\ ,
+   this parameter therefore then becomes the main blur control
+   (similar to :guilabel:`fStop` when you *do* use a zbuffer).
+
 
 
 Examples
@@ -464,19 +489,27 @@ Hints
    If you really want to achieve this effect, quite satisfactorily, here's how:
 
    - Split up your scene into "nearby" and "far" objects, and render them in two passes.
-   - Now, combine the two the two results, each with their own "defocus" nodes driven by the same Time node, but with one of them inverted. (e.g. using a "Map Value" node with a Size of -1.)  As the defocus of one increases, the defocus on the other decreases at the same rate, creating a smooth transition.
+   - Now, combine the two the two results, each with their own "defocus" nodes driven by the same Time node,
+     but with one of them inverted. (e.g. using a "Map Value" node with a Size of -1.)  As the defocus of one increases,
+     the defocus on the other decreases at the same rate, creating a smooth transition.
+
 
 **Aliasing at Low f-Stop Values**
-   At very low values, less than 5, the node will start to remove any oversampling and bring the objects at DoFDist very sharply into focus. If the object is against a constrasting background, this may lead to visible stairstepping (aliasing) which OSA is designed to avoid. If you run into this problem:
+   At very low values, less than 5,
+   the node will start to remove any oversampling and bring the objects at DoFDist very sharply into focus.
+   If the object is against a constrasting background, this may lead to visible stairstepping (aliasing)
+   which OSA is designed to avoid. If you run into this problem:
 
-   - Do your own OSA by rendering at twice the intended size and then scaling down, so that adjacent pixels are blurred togther
+   - Do your own OSA by rendering at twice the intended size and then scaling down,
+     so that adjacent pixels are blurred togther
    - Use the blur node with a setting of 2 for x and y
    - Set DoFDist off by a little, so that the object in focus is blurred by the tiniest bit.
    - Use a higher f-Stop, which will start the blur,
-   and then use the Z socket to a Map Value to a Blur node to enhance the blur effect.
+     and then use the Z socket to a Map Value to a Blur node to enhance the blur effect.
    - Rearrange the objects in your scene to use a lower-contrast background
 
 **No ZBuffer**
-   A final word of warning, since there is no way to detect if an actual zbuffer is connected to the node, be VERY careful with the "\ :guilabel:`No ZBuffer`\ " switch. If the :guilabel:`Zscale` value happens to be large, and you forget to set it back to some low value, the values may suddenly be interpreted as huge blur-radius values that will cause processing times to explode.
-
-
+   A final word of warning, since there is no way to detect if an actual zbuffer is connected to the node,
+   be VERY careful with the :guilabel:`No ZBuffer` switch. If the :guilabel:`Zscale` value happens to be large,
+   and you forget to set it back to some low value,
+   the values may suddenly be interpreted as huge blur-radius values that will cause processing times to explode.

@@ -27,9 +27,19 @@ FIXME(TODO: Internal Link;
 
 :guilabel:`Samples`
    Number of extra samples taken (samples x samples).
-    This slider sets the maximum number of samples that both :guilabel:`Constant QMC` and :guilabel:`Adaptive QMC` will use to do their shadow calculations. The maximum value is **16** - the real number of samples is actually the square of it, so setting a sample value of **3** really means ``3``\ :sup:`2` ``=`` **9** samples will be taken.
+    This slider sets the maximum number of samples that both :guilabel:`Constant QMC` and :guilabel:`Adaptive QMC`
+    will use to do their shadow calculations.
+    The maximum value is **16** - the real number of samples is actually the square of it,
+    so setting a sample value of **3** really means ``3``\ :sup:`2` ``=`` **9** samples will be taken.
 :guilabel:`Soft Size`
-   Light size for ray shadow sampling.  This slider determines the size of the fuzzy/diffuse/penumbra area around the edge of a shadow. :guilabel:`Soft Size` only determines the width of the soft shadow size, not how graded and smooth the shadow is. If you want a wide shadow which is also soft and finely graded, you must also set the number of samples in the :guilabel:`Samples` field higher than **1**\ ; otherwise this field has no visible effect and the shadows generated will not have a soft edge. The maximum value for :guilabel:`Soft Size` is **100.0**\ .
+   Light size for ray shadow sampling.
+   This slider determines the size of the fuzzy/diffuse/penumbra area around the edge of a shadow.
+   :guilabel:`Soft Size` only determines the width of the soft shadow size, not how graded and smooth the shadow is.
+   If you want a wide shadow which is also soft and finely graded,
+   you must also set the number of samples in the :guilabel:`Samples` field higher than **1**;
+   otherwise this field has no visible effect and the shadows generated will not have a soft edge.
+   The maximum value for :guilabel:`Soft Size` is **100.0**.
+
 
    Below is a table of renders with different :guilabel:`Soft Size` and :guilabel:`Samples` settings showing the effect of various values on the softness of shadow edges:
 

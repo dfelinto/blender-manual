@@ -31,6 +31,12 @@ Initial velocity
 .. admonition:: The direction of Surface Normals makes a big difference!
    :class: nicetip
 
-   Blender uses the orientation of the Surface Normals to determine what is "inside of" the Fluid object and what is "outside". You want all of the normals to face *outside* (in :guilabel:`Edit mode`\ , use :kbd:`ctrl-N` or press :kbd:`Space` and choose :guilabel:`Edit` → :guilabel:`Normals` → :guilabel:`Calculate Outside`\ ). If the normals face the wrong way, you'll be rewarded with a "gigantic flood of water" because Blender will think that the volume of the object is outside of its mesh! This applies regardless of the :guilabel:`Volume init` type setting.
+   Blender uses the orientation of the Surface Normals to determine what is "inside of" the Fluid object and what is
+   "outside". You want all of the normals to face *outside* (in :guilabel:`Edit mode`\ , use :kbd:`ctrl-N` or press
+   :kbd:`Space` and choose :guilabel:`Edit`?? :guilabel:`Normals`?? :guilabel:`Calculate Outside`\ ).
+   If the normals face the wrong way, you'll be rewarded with a "gigantic flood of water" because Blender will think
+   that the volume of the object is outside of its mesh! This applies regardless of the :guilabel:`Volume init` type
+   setting.
+
 
 

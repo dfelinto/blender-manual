@@ -103,7 +103,13 @@ Some more loading option buttons (in the :guilabel:`File Browser` header) includ
 .. admonition:: Finding What was Loaded
    :class: nicetip
 
-   If the loaded object is not visible, consider using :guilabel:`At Cursor` or :guilabel:`AutoSel`\ . If you use :guilabel:`AutoSel`\ , remember there are Snap tools to put your cursor on the object (\ :kbd:`shift-S-4` (\ :guilabel:`Cursor → Selection`\ )), and Center your view on it (\ :kbd:`C` (\ :guilabel:`View` → :guilabel:`Align View` → :guilabel:`Center View to Cursor`\ )). Note that these tools do not work if the object is on an unselected layer, since objects on unselected layers are invisible.
+   If the loaded object is not visible, consider using :guilabel:`At Cursor` or :guilabel:`AutoSel`\ .
+   If you use :guilabel:`AutoSel`\ , remember there are Snap tools to put your cursor on the object
+   (\ :kbd:`shift-S-4` (\ :guilabel:`Cursor ? Selection`\ )), and Center your view on it (\ :kbd:`C`
+   (\ :guilabel:`View`?? :guilabel:`Align View`?? :guilabel:`Center View to Cursor`\ )).
+   Note that these tools do not work if the object is on an unselected layer,
+   since objects on unselected layers are invisible.
+
 
 
 Reusing Objects (Meshes, Curves, Cameras, Lights, …)
@@ -191,7 +197,13 @@ FIXME(Link Type Unsupported: dev;
 .. admonition:: Blender Extension: Library
    :class: note
 
-   There is also a fantastic Python script called `Blender Library <http://wiki.blender.org/index.php/Extensions:2.4/Py/Scripts/Manual/System/Blend library>`__ that over-arches all of your files and allows you to construct a master library. This script displays a preview and helps you organize your Blender work. Highly recommended; search `www.blendernation.com <http://www.BlenderNation.com>`__ for "Blender Library", it is also stored on the `Blender Wiki Scripts section <http://wiki.blender.org/index.php/Extensions:2.4/Py/Scripts/Manual/System/Blend library>`__\ .
+   There is also a fantastic Python script called
+   `Blender Library <http://wiki.blender.org/index.php/Extensions:2.4/Py/Scripts/Manual/System/Blend library>`__
+   that over-arches all of your files and allows you to construct a master library.
+   This script displays a preview and helps you organize your Blender work.
+   Highly recommended; search `www.blendernation.com <http://www.BlenderNation.com>`__ for "Blender Library",
+   it is also stored on the `Blender Wiki Scripts section
+   <http://wiki.blender.org/index.php/Extensions:2.4/Py/Scripts/Manual/System/Blend library>`__.
 
 
 Reusing Node Layouts

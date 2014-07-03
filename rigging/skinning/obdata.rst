@@ -54,7 +54,13 @@ with the following options - all regarding the "vertex groups" skinning method:
 :guilabel:`With Empty Groups`
    will create, if they don't already exist, empty groups, one for each bone in the skinned armature, with these bones' names. Choose this option if you have already created (and weighted…) all the vertex groups the mesh requires.
 :guilabel:`With Envelope Weights`
-   will create, as with :guilabel:`Name Groups` option, the needed vertex groups. However, it will also weight them according to the bones' envelope settings (i.e. it will assign to each groups the vertices that are inside its bone's influence area, weighted depending on their distance to this bone). This means that if you had defined vertex groups using same names as skinned bones, their content will be completely overridden! *You'll get the same behavior as if you used the envelopes skinning method, but with vertex groups…*
+   will create, as with :guilabel:`Name Groups` option, the needed vertex groups. However,
+   it will also weight them according to the bones' envelope settings (i.e.
+   it will assign to each groups the vertices that are inside its bone's influence area,
+   weighted depending on their distance to this bone).
+   This means that if you had defined vertex groups using same names as skinned bones, their content will be
+   completely overridden! *You'll get the same behavior as if you used the envelopes skinning method,
+   but with vertex groups?*
 :guilabel:`Automatic Weights`
    Creates, as with :guilabel:`Envelope Weights` option, the needed vertex groups, with vertices assigned and weighted using the newer "bone heat" algorithm.
 

@@ -56,8 +56,14 @@ Options
    - First, the vertex groups you want to mirror must be named following the usual left/right pattern (i.e. suffixed by something like "\ ``.R``\ ", "\ ``.right``\ ", "\ ``.L``\ ", et cetera).
    - Next, you must have the "mirrored" groups already existing (i.e. same names suffixed by the "other side") *and completely empty* (no vertex assigned to it), else it won't work.
 
-      Usually, the mirrored copies of the vertices of a group remain in this group. Once this option is activated, all groups following the rules described above will only be valid on the original object - the mirrored copy will put these same vertices into the "mirror" group. Very handy with armatures, for example: you just model half of your object, carefully rig it with half of your armature, and just let the :guilabel:`Mirror` modifier build the other half. Just be sure to put your :guilabel:`Armature` modifier(s) after the :guilabel:`Mirror` one.
-      A final word about multi-axes mirror: in these cases, the "direct", "first level" copies get the mirrored groups, the copies of copies ("second level") get the original groups, et cetera.
+     Usually, the mirrored copies of the vertices of a group remain in this group. Once this option is activated,
+     all groups following the rules described above will only be valid on the original object - the mirrored copy
+     will put these same vertices into the "mirror" group. Very handy with armatures, for example:
+     you just model half of your object, carefully rig it with half of your armature,
+     and just let the :guilabel:`Mirror` modifier build the other half.
+     Just be sure to put your :guilabel:`Armature` modifier(s) after the :guilabel:`Mirror` one.
+
+     A final word about multi-axes mirror: in these cases, the "direct", "first level" copies get the mirrored groups, the copies of copies ("second level") get the original groups, et cetera.
 
 :guilabel:`Textures`
    The :guilabel:`U` and :guilabel:`V` options allows you to mirror, respectively, the U and V texture coordinates. The values are "mirrored" around the **0.5** value, i.e. if you have a vertex with UV coordinates of (\ **0.3**\ , **0.85**\ ), its mirror copy will have UV coordinates of (\ **0.7**\ , **0.15**\ ) with both buttons enabled.

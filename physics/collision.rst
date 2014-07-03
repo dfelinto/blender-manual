@@ -12,7 +12,7 @@ Collisions
 
 If you change the deflection settings for an object you have to recalculate the particle,
 softbody or cloth system (\ :guilabel:`Free Cache`\ ), this is not done automatically. You can
-clear the cache for all selected objects with :kbd:`ctrl-B` → :guilabel:`Free cache
+clear the cache for all selected objects with :kbd:`ctrl-B` → :guilabel:`Free cache
 selected`\ .
 
 
@@ -69,14 +69,19 @@ Outside and inside is defined by the face normal, depicted as blue arrow in (\ *
 :guilabel:`Damping Factor`
    Damping during a collision.
 
-*Softbody* collisions are difficult to get perfect. If one of the objects move too fast, the soft body will penetrate the mesh. See also the section about :doc:`Soft Bodies <physics/soft_body>`\ .
+*Softbody* collisions are difficult to get perfect. If one of the objects move too fast,
+the soft body will penetrate the mesh. See also the section about :doc:`Soft Bodies <physics/soft_body>`\ .
+
 
 
 Force Field Interaction
 -----------------------
 
 :guilabel:`Absorption`
-   A deflector can also deflect effectors. You can specify some collision/deflector objects which deflect a specific portion of the effector force using the :guilabel:`Absorption` value. 100% absorption results in no force getting through the collision/deflector object at all. If you have 3 collision object behind each other with e.g. 10%, 43% and 3%, the absorption ends up at around 50%  (\ ``100×(1-0.1)×(1-0.43)×(1-0.03)``\ ).
+   A deflector can also deflect effectors. You can specify some collision/deflector objects which deflect a specific
+   portion of the effector force using the :guilabel:`Absorption` value. 100% absorption results in no force getting
+   through the collision/deflector object at all. If you have 3 collision object behind each other with e.g.
+   10%, 43% and 3%, the absorption ends up at around 50% (``100×(1-0.1)×(1-0.43)×(1-0.03)``).
 
 
 Examples

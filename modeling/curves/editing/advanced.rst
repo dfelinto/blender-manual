@@ -161,11 +161,21 @@ Extrusion
    | Panel:    :guilabel:`Curve and Surface` (\ :guilabel:`Editing` context, :kbd:`F9`\ )
 
 
-Ah! The extrusion! Probably the most interesting tool of the curves for modeling, especially with the bevel/taper/\ :guilabel:`Tilt`\ /\ :guilabel:`Radius` options… Note that this has nothing to do with the :guilabel:`Extrude` (\ :kbd:`E`\ ) command, described in the :doc:`previous page <modeling/curves/editing#adding_new_segments>`\ !
+Ah! The extrusion! Probably the most interesting tool of the curves for modeling, especially with the bevel/taper/\
+:guilabel:`Tilt`\ /\ :guilabel:`Radius` options? Note that this has nothing to do with the :guilabel:`Extrude`
+(\ :kbd:`E`\ ) command, described in the :doc:`previous page <modeling/curves/editing#adding_new_segments>`\ !
+
 
 We will see the different settings, depending on their scope of action:
 :guilabel:`Width`
-   This controls the position of the extruded "border" of the curve, relative to the curve itself. With closed 2D curves (see below), it is quite simple to understand - with a :guilabel:`Width` greater than **1.0**\ , the extruded volume is wider, with a :guilabel:`Width` of **1.0**\ , the border tightly follows the curve, and with a :guilabel:`Width` lower than **1.0**\ , the volume is narrower… The same principle remains for open 2D and 3D curves, but the way the "outside" and "inside" of the curve is determined seems a bit odd…
+   This controls the position of the extruded "border" of the curve, relative to the curve itself.
+   With closed 2D curves (see below),
+   it is quite simple to understand - with a :guilabel:`Width` greater than **1.0**, the extruded volume is wider,
+   with a :guilabel:`Width` of **1.0**\ , the border tightly follows the curve,
+   and with a :guilabel:`Width` lower than **1.0**,
+   the volume is narrower? The same principle remains for open 2D and 3D curves,
+   but the way the "outside" and "inside" of the curve is determined seems a bit odd?
+
    It has the same effect with extruded "bevel" objects…
 
 :guilabel:`Tilt`
@@ -180,7 +190,11 @@ Simple Extrusion
 Let's first see the "simple" extrusion of curves, without additional bevel/taper objects.
 
 :guilabel:`Extrude`
-   This controls the width (or height) of the extrusion. The real size is of course dependent on the scale of the underlying object, but with a scale of one, an :guilabel:`Extrusion` of **1.0** will extrude the curve one BU in both directions, along the axis perpendicular to the curve's plane (see below for specifics of 3D curves…).
+   This controls the width (or height) of the extrusion.
+   The real size is of course dependent on the scale of the underlying object, but with a scale of one,
+   an :guilabel:`Extrusion` of **1.0** will extrude the curve one BU in both directions,
+   along the axis perpendicular to the curve's plane (see below for specifics of 3D curves?).
+
    If set to **0.0**\ , there is no "simple" extrusion!
 
 :guilabel:`Bevel Depth`
@@ -196,16 +210,30 @@ Let's first see the "simple" extrusion of curves, without additional bevel/taper
 We have three sub-classes of results, depending on whether the curve is open or closed or 3D:
 
 Open 2D Curve
-   The extrusion will create a "wall" or "ribbon" following the curve shape. If using a :guilabel:`Bevel Depth`\ , the wall becomes a sort of slide or gutter. Note the direction of this bevel is sometimes strange and unpredictable, often the reverse of what you would get with the same curve closed… You can inverse this direction by :doc:`switching the direction <modeling/curves/editing#switch_direction>` of the curve.
-   This allows you, e.g., to quickly simulate a marble rolling down a complex slide, by combining an extruded beveled curve, and a sphere with a :guilabel:`Follow Path` constraint set against this curve…
+   The extrusion will create a "wall" or "ribbon" following the curve shape. If using a :guilabel:`Bevel Depth`\ ,
+   the wall becomes a sort of slide or gutter.
+   Note the direction of this bevel is sometimes strange and unpredictable, often the reverse of what you would get
+   with the same curve closed? You can inverse this direction by :doc:`switching the direction
+   <modeling/curves/editing#switch_direction>` of the curve.
+
+   This allows you, e.g., to quickly simulate a marble rolling down a complex slide,
+   by combining an extruded beveled curve,
+   and a sphere with a :guilabel:`Follow Path` constraint set against this curve?
 
 Closed 2D Curve
-   This is probably the most useful situation, as it will quickly create a volume, with (by default) two flat and parallel surfaces filling the two sides of the extruded "wall". You can remove one or both of these faces by disabling the :guilabel:`Back` and/or :guilabel:`Front` toggle buttons next to the :guilabel:`3D` one.
+   This is probably the most useful situation, as it will quickly create a volume, with (by default)
+   two flat and parallel surfaces filling the two sides of the extruded "wall". You can remove one or both of these
+   faces by disabling the :guilabel:`Back` and/or :guilabel:`Front` toggle buttons next to the :guilabel:`3D` one.
+
    The optional bevel will always be "right-oriented" here, allowing you to smooth out the "edges" of the volume.
 
 3D Curve
-   Here the fact that the curve is closed or not has no importance - you will never get a volume with an extruded 3D curve, only a wall or ribbon, like with open 2D curves.
-   However, there is one more feature with 3D curves: the :guilabel:`Tilt` of the control points (see above). It will make the ribbon twist around the curve … to create a Möbius strip, for example!
+   Here the fact that the curve is closed or not has no importance - you will never get a volume with an extruded 3D
+   curve, only a wall or ribbon, like with open 2D curves.
+
+   However, there is one more feature with 3D curves: the :guilabel:`Tilt` of the control points (see above).
+   It will make the ribbon twist around the curve ? to create a M?bius strip, for example!
+
 
 
 Advanced Extrusion
@@ -245,8 +273,14 @@ using *the local Y axis* for width control. Note also that:
 - Only the first curve in a :guilabel:`TaperOb` is evaluated, even if you have several separated segments.
 - The scaling starts at the first control-point on the left and moves along the curve to the last control-point on the right.
 - Negative scaling, (negative local Y on the taper curve) is possible as well. However, rendering artifacts may appear.
-- It scales the width of normal extrusions based on evaluating the taper curve, which means sharp corners on the taper curve will not be easily visible. You'll have to heavily level up the resolution (\ :guilabel:`DefResolU`\ ) of the base curve.
-- With closed curves, the taper curve in :guilabel:`TaperOb` acts along the whole curve (perimeter of the object), not just the length of the object, and varies the extrusion depth. In these cases, you want the relative height of the :guilabel:`TaperOb` Taper curve at both ends to be the same, so that the cyclic point (the place where the endpoint of the curve connects to the beginning) is a smooth transition.
+- It scales the width of normal extrusions based on evaluating the taper curve,
+  which means sharp corners on the taper curve will not be easily visible.
+  You'll have to heavily level up the resolution (\ :guilabel:`DefResolU`\ ) of the base curve.
+- With closed curves, the taper curve in :guilabel:`TaperOb` acts along the whole curve (perimeter of the object),
+  not just the length of the object, and varies the extrusion depth. In these cases,
+  you want the relative height of the :guilabel:`TaperOb`
+  Taper curve at both ends to be the same, so that the cyclic point
+  (the place where the endpoint of the curve connects to the beginning) is a smooth transition.
 
 Last but not least, with 3D "spinal" curves, the :guilabel:`Tilt` of the control points can
 control the twisting of the extruded "bevel" along the curve!
@@ -268,7 +302,11 @@ We now have a pipe.
 Add a third curve while in :guilabel:`Object` mode and call it "\ ``TaperCurve``\ ".
 Adjust the left control-point by raising it up about 5 units.
 
-Now return to the :guilabel:`Editing` :doc:`context <interface/contexts>`\ , and edit the first curve's :guilabel:`TaperOb` field in :doc:`Curve and Surface <ce/panels/editing/curves/curve_and_surface>` panel to reference the new taper curve which we called "\ ``TaperCurve``\ ". When you hit enter the taper curve is applied immediately, with the results shown in (\ *Taper extruded curve*\ ).
+Now return to the :guilabel:`Editing` :doc:`context <interface/contexts>`\ ,
+and edit the first curve's :guilabel:`TaperOb` field in
+:doc:`Curve and Surface <ce/panels/editing/curves/curve_and_surface>` panel to reference the new taper curve
+which we called "\ ``TaperCurve``\ ". When you hit enter the taper curve is applied immediately,
+with the results shown in (\ *Taper extruded curve*\ ).
 
 
 +-------------------------------------------------------------+-------------------------------------------------------------------+

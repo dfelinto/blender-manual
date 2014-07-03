@@ -117,7 +117,12 @@ Blender also provides Options regarding the automatic normalizing of all affecte
 groups:
 
 :guilabel:`Auto Normalize`
-   Ensures that all deforming vertex groups add up to 1 while painting. When this option is turned off, then all weights of a vertex can have any value between 0.0 and 1.0. However, when Vertex Groups are used as Deform Groups for character animation then Blender always interprets the weight values relative to each other. That is, Blender always does a normalization over all deform bones. Hence in practice it is not necessary to maintain a strict normalization and further normalizing weights should not affect animation at all.
+   Ensures that all deforming vertex groups add up to 1 while painting. When this option is turned off,
+   then all weights of a vertex can have any value between 0.0 and 1.0. However, when Vertex Groups are used as
+   Deform Groups for character animation then Blender always interprets the weight values relative to each other.
+   That is, Blender always does a normalization over all deform bones. Hence in practice it is not necessary to
+   maintain a strict normalization and further normalizing weights should not affect animation at all.
+
 :guilabel:`Multi-Paint`
    Paint on all selected Vertex Groups simultaneously. This option is only useful in the context of Armatures, where you can select multiple Vertex Groups by selecting multiple Pose bones.
 

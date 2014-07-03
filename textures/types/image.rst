@@ -107,7 +107,12 @@ After you have created your image, you can modify it using Blender's built-in :d
 .. admonition:: See Texture in 3D View but does not Render
    :class: note
 
-   You may be able to see the texture in Textured display mode in the 3D View; this is all that is required to have textures show up in Blender's Game Engine. Rendering, however, requires a material. You must have a :guilabel:`Face Textures` material assigned to the mesh for it to render using the UV Texture. In the Material settings, ADD NEW material to a selected object and enable :guilabel:`Face Textures`\ .
+   You may be able to see the texture in Textured display mode in the 3D View;
+   this is all that is required to have textures show up in Blender's Game Engine. Rendering, however,
+   requires a material.
+   You must have a :guilabel:`Face Textures` material assigned to the mesh for it to render using the UV Texture.
+   In the Material settings, ADD NEW material to a selected object and enable :guilabel:`Face Textures`.
+
 
 
 Examples
@@ -574,12 +579,14 @@ the horizontal bar has 50% alpha.
 +-----------------------------------------------------------------+----------------------------------------------------------------+
 
 :guilabel:`Interpolation`
-    This option interpolates the pixels of an image.  This becomes visible when you enlarge the picture. By default, this option is on.  Turn this option OFF to keep the individual pixels visible and if they are correctly anti-aliased.  This last feature is useful for regular patterns, such as lines and tiles; they remain 'sharp' even when enlarged considerably.  When you enlarge this 10x10 pixel Image
+   This option interpolates the pixels of an image.
+   This becomes visible when you enlarge the picture. By default, this option is on.  Turn this option OFF to keep the individual pixels visible and if they are correctly anti-aliased.  This last feature is useful for regular patterns, such as lines and tiles; they remain 'sharp' even when enlarged considerably.  When you enlarge this 10x10 pixel Image
 
 .. figure:: /images/Manual-PartIV-Linien.jpg
 
 
-, the difference with and without :guilabel:`Interpolation` is clearly visible.  Turn this image off if you are using digital photos to preserve crispness.
+the difference with and without :guilabel:`Interpolation` is clearly visible.
+Turn this image off if you are using digital photos to preserve crispness.
 
 :guilabel:`Filter`
     The filter size used in rendering, and also by the options :guilabel:`MipMap` and :guilabel:`Interpolation`\ . If you notice gray lines or outlines around the textured object, particularly where the image is transparent, turn this value down from 1.0 to 0.1 or so.

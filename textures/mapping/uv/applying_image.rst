@@ -115,7 +115,12 @@ Full details of using Image textures are on the :doc:`Image Textures <textures/t
 .. admonition:: Material is Required for Rendering
    :class: note
 
-   You can perform UV Texturing on a mesh within Blender without assigning a material, and you will even see it in your 3D View in textured viewport mode. However, when you render, you will just get a default gray if the object does not have a Material assigned. You will get a black if you do not load an image. If you do not create a texture that uses the image, or enable :guilabel:`Face Texture`\ , your object will render according to the procedural material settings.
+   You can perform UV Texturing on a mesh within Blender without assigning a material,
+   and you will even see it in your 3D View in textured viewport mode. However, when you render,
+   you will just get a default gray if the object does not have a Material assigned.
+   You will get a black if you do not load an image. If you do not create a texture that uses the image,
+   or enable :guilabel:`Face Texture`\ , your object will render according to the procedural material settings.
+
 
 
 Face Textures
@@ -194,11 +199,16 @@ Panel`\ :
    :guilabel:`UV Grid`
       Creates a checkerboard pattern with a colored + in each square.
    :guilabel:`Color Grid`
-      Creates a UV Test Grid, which is useful for testing how UVs have been mapped, and to reduce stretching. There are two types available, which can be set after the image has been created.
+      Creates a UV Test Grid, which is useful for testing how UVs have been mapped, and to reduce stretching.
+      There are two types available, which can be set after the image has been created.
+
    :guilabel:`Blank`
       Generates a blank image of the specified color.
 :guilabel:`32 bit`
-   Creates a 32 bit image. This is a larger file size, but holds much more color information than the standard 8 bit image. For close ups and large gradients, it may be better to use a 32 bit image.
+   Creates a 32 bit image. This is a larger file size,
+   but holds much more color information than the standard 8 bit image. For close ups and large gradients,
+   it may be better to use a 32 bit image.
+
 
 
 Using the Test Grid

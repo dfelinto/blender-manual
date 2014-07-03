@@ -141,8 +141,17 @@ Normally it works pretty well with the default options.
       Size = ((Min + Max)/2) × :guilabel:`Ball Size`\ .
 
 :guilabel:`Ball Size`
-   Default 0.49 BU or fraction of the length of attached edges. The edge length is computed based on the algorithm you choose. You know how when someone stands too close to you, and feel uncomfortable? We call that our "personal space", and this setting is the factor that is multiplied by the spring length. It is a spherical distance (radius) within which, if another vertex of the same mesh enters, the vertex starts to deflect in order to avoid a self-collision.
-   Set this value to the fractional distance between vertices that you want them to have their own "space". Too high of a value will include too many vertices all the time and slow down the calculation. Too low of a level will let other vertices get too close and thus possibly intersect because there won't be enough time to slow them down.
+   Default 0.49 BU or fraction of the length of attached edges.
+   The edge length is computed based on the algorithm you choose. You know how when someone stands too close to you,
+   and feel uncomfortable? We call that our "personal space",
+   and this setting is the factor that is multiplied by the spring length. It is a spherical distance (radius)
+   within which, if another vertex of the same mesh enters,
+   the vertex starts to deflect in order to avoid a self-collision.
+
+   Set this value to the fractional distance between vertices that you want them to have their own "space".
+   Too high of a value will include too many vertices all the time and slow down the calculation. Too low of a level
+   will let other vertices get too close and thus possibly intersect because there won't be enough time to slow them
+   down.
 
 :guilabel:`Stiffness`
    Default 1.0. How elastic that ball of personal space is.

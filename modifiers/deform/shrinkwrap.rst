@@ -64,7 +64,8 @@ Options
 
 
    :guilabel:`Projection`
-      This will project vertices along a chosen axis until they touch the shrink target. Vertices that never touch the shrink target are left in their original position. This implies that, depending on the settings of this option and the relative positions of the two objects, the modified object might sometimes remain undeformed. This is not a bug; just "play" with the settings (especially the :guilabel:`Negative`\ /\ :guilabel:`Positive` ones), or move one of the objects around…
+      This will project vertices along a chosen axis until they touch the shrink target.
+      Vertices that never touch the shrink target are left in their original position. This implies that, depending on the settings of this option and the relative positions of the two objects, the modified object might sometimes remain undeformed. This is not a bug; just "play" with the settings (especially the :guilabel:`Negative`\ /\ :guilabel:`Positive` ones), or move one of the objects around…
       This method is the hardest to master, as it might sometimes give unexpected results… It adds quite a few extra options:
  :guilabel:`Subsurf Levels`
    This applies a (temporary) :guilabel:`Catmull-Clark` subsurf to the modified object, before computing the wrap when using Projection mode.

@@ -163,7 +163,11 @@ Blinn is a more 'physical' specular shader, often used with the Oren-Nayar diffu
 It can be more controllable because it adds a fourth option, an *index of refraction* (IOR),
 to the aforementioned three.
 `James F. Blinn <http://en.wikipedia.org/wiki/Jim_Blinn>`__
-   worked at NASA's Jet Propulsion Laboratory and became widely known for his work on Carl Sagan's TV documentary *Cosmos*\ .  The model he described in his 1977 paper `Models of Light Reflection for Computer Synthesized Pictures <http://research.microsoft.com/pubs/73852/p192-blinn.pdf>`__ (PDF) included changes in specular intensity with light direction and more accurately positioned highlights on a surface.
+   worked at NASA's Jet Propulsion Laboratory and became widely known for his work
+   on Carl Sagan's TV documentary *Cosmos*.
+   The model he described in his 1977 paper
+   `Models of Light Reflection for Computer Synthesized Pictures <http://research.microsoft.com/pubs/73852/p192-blinn.pdf>`__
+   (PDF) included changes in specular intensity with light direction and more accurately positioned highlights on a surface.
 
 Options
 ~~~~~~~

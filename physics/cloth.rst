@@ -246,7 +246,7 @@ Mesh Objects Collide
 
 If your colliding object is not a mesh object, such as a NURBS surface, or text object,
 you must convert it to a mesh object. To do so, select the object in object mode,
-and in the 3D View header, select :guilabel:`Object` → :guilabel:`Convert Object Type`
+and in the 3D View header, select :guilabel:`Object` → :guilabel:`Convert Object Type`
 (\ :kbd:`alt-C`\ ), and select :guilabel:`Mesh` from the popup menu.
 
 
@@ -275,7 +275,11 @@ soft bodies, and cloth).
 .. admonition:: Beware
    :class: note
 
-   There are three different :guilabel:`Collision` panels, all found in the :guilabel:`Physics` sub-context. The first (by default), a tab beside the :guilabel:`Fields` panel, is the one needed here. The second panel, a tab in the :guilabel:`Soft Body` group, concern softbodies (and so has nothing to do with cloth). And we have already seen the last one, by default a tab beside the :guilabel:`Cloth` panel.
+   There are three different :guilabel:`Collision` panels, all found in the :guilabel:`Physics` sub-context.
+   The first (by default), a tab beside the :guilabel:`Fields` panel, is the one needed here. The second panel,
+   a tab in the :guilabel:`Soft Body` group, concern softbodies (and so has nothing to do with cloth).
+   And we have already seen the last one, by default a tab beside the :guilabel:`Cloth` panel.
+
 
 
 Mesh Object Modifier Stack
@@ -384,10 +388,10 @@ let's delete the default cube and add a plane. I scaled mine up along the Y axis
 but you don't have to do this. In order to get some good floppy and flexible fabric,
 you'll need to subdivide it several times. I did it 8 times for this example.
 So :kbd:`Tab` into :guilabel:`Edit mode`\ ,
-and press :kbd:`W` → :guilabel:`Subdivide multi`\ , and set it to 8.
+and press :kbd:`W` → :guilabel:`Subdivide multi`\ , and set it to 8.
 
 Now, we'll make this cloth by going to the :guilabel:`Object` context
-(\ :kbd:`f7`\ ) → :guilabel:`Physics` sub-context.
+(\ :kbd:`f7`\ ) → :guilabel:`Physics` sub-context.
 Scroll down until you see the :guilabel:`Cloth` panel, and press the :guilabel:`Cloth` button.
 Now, a lot of settings will appear, most of which we'll ignore for now.
 

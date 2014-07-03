@@ -86,7 +86,12 @@ simulation.
    Use Velocities for automatic step sizes.
 
 :guilabel:`Error Limit`
-   Rules the overall quality of the solution delivered. Default 0.1. The most critical setting that says how precise the solver should check for collisions. Start with a value that is 1/2 the average edge length. If there are visible errors, jitter, or over-exaggerated responses, decrease the value. The solver keeps track of how "bad" it is doing and the :guilabel:`Error Limit` causes the solver to do some "adaptive step sizing".
+   Rules the overall quality of the solution delivered. Default 0.1.
+   The most critical setting that says how precise the solver should check for collisions.
+   Start with a value that is 1/2 the average edge length. If there are visible errors, jitter,
+   or over-exaggerated responses, decrease the value. The solver keeps track of how "bad" it is doing and the
+   :guilabel:`Error Limit` causes the solver to do some "adaptive step sizing".
+
 
 :guilabel:`Fuzzy`
    Simulation is faster, but less accurate.
@@ -116,7 +121,7 @@ that will make a recalculating necessary.
 .. admonition:: Beware of the :guilabel:`Start` and :guilabel:`End` settings
    :class: nicetip
 
-   The simulation is only calculated for the frames in-between the :guilabel:`Start` and :guilabel:`End` frames (\ :guilabel:`Bake` panel), even if you don't actually bake the simulation! So if you want a simulation longer than the default setting of 250 frames you have the change the :guilabel:`End` frame.
+   The simulation is only calculated for the frames in-between the :guilabel:`Start` and :guilabel:`End` frames (:guilabel:`Bake` panel), even if you don't actually bake the simulation! So if you want a simulation longer than the default setting of 250 frames you have the change the :guilabel:`End` frame.
 
 
 - Caching:

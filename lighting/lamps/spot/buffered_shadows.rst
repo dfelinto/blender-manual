@@ -72,7 +72,7 @@ Here are now the options specific to these generation methods:
 
     As an example, if you have a :guilabel:`Size` with a value of **1024**\ , you are indicating that the shadow data will be written to a buffer which will have a square resolution of **1024×1024** pixels/samples from the selected spotlight.
 
-    The higher the value of :guilabel:`Size`\ , the higher resolution and accuracy of the resultant shadows, assuming all other properties of the light and scene are the same, although more memory and processing time would be used. The reverse is also true - if the :guilabel:`Size` value is lowered, the resultant shadows can be of lower quality, but would use less memory and take less processing time to calculate.
+    The higher the value of :guilabel:`Size`\ , the higher resolution and accuracy of the resultant shadows, assuming all other properties of the light and scene are the same, although more memory and processing time would be used. The reverse is also true - if the :guilabel:`Size` value is lowered, the resultant shadows can be of lower quality, but would use less memory and take less processing time to calculate.
 
     As well as the :guilabel:`Size` value affecting the quality of generated shadows, another property of :guilabel:`Spot` lamps that affects the quality of their buffered shadows is the angle of the spotlights lighted area (given in the :guilabel:`Spot Shape` panel's :guilabel:`Size` field).
 
@@ -93,7 +93,12 @@ Here are now the options specific to these generation methods:
 
    :guilabel:`Box`
        The buffered shadows will be anti-aliased using the "box" filtering method.
-       This is the original filter used in Blender. It is relatively low quality and is used for low resolution renders, as it produces very sharp anti-aliasing. When this filter is used, it only takes into account oversampling data which falls within a single pixel, and doesn't take into account surrounding pixel samples. It is often useful for images which have sharply angled elements and horizontal/vertical lines.
+       This is the original filter used in Blender.
+       It is relatively low quality and is used for low resolution renders, as it produces very sharp anti-aliasing.
+       When this filter is used,
+       it only takes into account oversampling data which falls within a single pixel,
+       and doesn't take into account surrounding pixel samples.
+       It is often useful for images which have sharply angled elements and horizontal/vertical lines.
 
    :guilabel:`Tent`
        The buffered shadows will be anti-aliased using the "tent" filtering method.

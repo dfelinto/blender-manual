@@ -171,7 +171,12 @@ Soft Body Edges
    Checks for edges of the softbody mesh colliding.
 
 :guilabel:`Face`
-   Checks for any portion of the face of the softbody mesh colliding (compute intensive!). While :guilabel:`CFace` enabled is great, and solves lots of collision errors, there doesn't seem to be any dampening settings for it, so parts of the softbody object near a collision mesh tend to "jitter" as they bounce off and fall back, even when there's no motion of any meshes. Edge collision has dampening, so that can be controlled, but Deflection dampening value on a collision object doesn't seem to affect the face collision.
+   Checks for any portion of the face of the softbody mesh colliding (compute intensive!).
+   While :guilabel:`CFace` enabled is great, and solves lots of collision errors,
+   there doesn't seem to be any dampening settings for it,
+   so parts of the softbody object near a collision mesh tend to "jitter" as they bounce off and fall back,
+   even when there's no motion of any meshes. Edge collision has dampening, so that can be controlled,
+   but Deflection dampening value on a collision object doesn't seem to affect the face collision.
 
 
 Soft Body Self Collision

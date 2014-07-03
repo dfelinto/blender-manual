@@ -23,7 +23,9 @@ providing advanced hollywood-style effects for a professional looking video.
    Video Sequence Editor in Sequence display mode
 
 
-The Video Sequence Editor has a header (where the menu and view modes are shown) and a workspace, and works in one of several view modes. The Marker menu allows you to add markers in the VSE. Markers are shared across animation editors. See :doc:`Markers <animation/markers>`
+The Video Sequence Editor has a header (where the menu and view modes are shown) and a workspace,
+and works in one of several view modes. The Marker menu allows you to add markers in the VSE.
+Markers are shared across animation editors. See :doc:`Markers <animation/markers>`
 
 The sequencer workspace is horizontally striped into channels and each video strip will go in
 a horizontal channel. Each channel is numbered on the left-hand side, starting from 0
@@ -75,7 +77,9 @@ or hover your mouse cursor over the Sequence workspace and press :kbd:`shift-A`\
 .. admonition:: Clips can be Huge
    :class: note
 
-   A three minute quicktime .mov file can be 140Megs. Loading it, even over a high-speed LAN can take some time. Don't assume your computer or Blender has locked up if nothing happens for awhile.
+   A three minute quicktime .mov file can be 140Megs.
+   Loading it, even over a high-speed LAN can take some time.
+   Don't assume your computer or Blender has locked up if nothing happens for awhile.
 
 
 First, let's add a clip:
@@ -108,10 +112,19 @@ When adding a Movie or Movie+Audio\ :kbd:`Lmb` LEFT CLICK to put the name of the
 the text box at the top; this selects a **single** file (like a movie)
 
 In the case of (numbered) image **sequences**\ , you have a choice:
-**Directory**\ : :kbd:`Rmb` right-click on a directory name, and all files in that directory will be brought in as part of the image, in sort order, one image per frame
-**Range**\ : Navigate into the directory and right-click and drag over a range of names to highlight multiple files. You can page down and continue right-click-dragging to add more to the selection
-**Batch**\ : Shift-right-click selected non-related stills for batch processing; each image will be one frame, in sort order, and can be a mix of file types (jpg, png, exr, etc.)
-**All**\ : Press :guilabel:`A` to select/deselect All files in the directory.
+
+- **Directory**:
+  :kbd:`Rmb` right-click on a directory name,
+  and all files in that directory will be brought in as part of the image,
+  in sort order, one image per frame
+- **Range**:
+  Navigate into the directory and right-click and drag over a range of names to highlight multiple files.
+  You can page down and continue right-click-dragging to add more to the selection
+- **Batch**:
+  Shift-right-click selected non-related stills for batch processing; each image will be one frame, in sort order,
+  and can be a mix of file types (jpg, png, exr, etc.)
+- **All**:
+  Press :guilabel:`A` to select/deselect All files in the directory.
 
 When you click the :guilabel:`Select <whatever>` button,
 the window pane will switch back to VSE, and the strip will be rubber-banded to your mouse.
@@ -121,7 +134,12 @@ no movies load if you right click them. Right-clicking only works for images.
 .. admonition:: Error: The selected file is not a movie or FFMPEG support not compiled in!
    :class: note
 
-   means that the file is not a movie that Blender can recognize, or **you selected with the wrong button**\ . You get this error message because you *right*\ -clicked on a movie file, OR you don't have a codec that can decode the avi file. If it's the latter, find a codec so you can play the file outside of Blender, and then you will be able to load it. If it's the former, you must left-click to select movies.
+   means that the file is not a movie that Blender can recognize, or **you selected with the wrong button**.
+   You get this error message because you *right*\ -clicked on a movie file,
+   OR you don't have a codec that can decode the avi file. If it's the latter,
+   find a codec so you can play the file outside of Blender, and then you will be able to load it.
+   If it's the former, you must left-click to select movies.
+
 
 
 In order to add items to the VSE, left-click for movies, left-click for single images,
@@ -183,7 +201,8 @@ but is clearly spelled out in the information strip.
 .. admonition:: FFMPEG Support
    :class: note
 
-   If you are using a Blender build with FFMPEG support, you will be able to load audio and video strips together; select Movie+Audio(HD) and when you drop the strip, the strip will split into an audio and video channel strips.
+   If you are using a Blender build with FFMPEG support, you will be able to load audio and video strips together;
+   select Movie+Audio(HD) and when you drop the strip, the strip will split into an audio and video channel strips.
 
 
 Add Scene
@@ -212,7 +231,8 @@ Add Audio
 ~~~~~~~~~
 
 The VSE can incorporate an audio channel which you can hear as you scrub.
-Add an audio track when you are trying to time your video/animation to an audio track, or vice versa. Please refer to :doc:`the Audio Sequences section <sequencer/audio>` for more information.
+Add an audio track when you are trying to time your video/animation to an audio track, or vice versa.
+Please refer to :doc:`the Audio Sequences section <sequencer/audio>` for more information.
 
 
 Adding Effects
@@ -322,7 +342,11 @@ Edit Strip Panel
 :guilabel:`Type`
    Displays the type of strip selected.
 :guilabel:`Blend Mode`
-    By default, a strip Replaces the output image of any lower-level strips. However, many other blending modes are available based on the strip type. For example, Alpha-Over automatically overlays the image on top of a lower level strip. Autoblending modes remove the need for separate effect strips. Blend percent controls how much of an effect the strip exerts, even over time.
+   By default, a strip Replaces the output image of any lower-level strips. However,
+   many other blending modes are available based on the strip type. For example,
+   Alpha-Over automatically overlays the image on top of a lower level strip.
+   Autoblending modes remove the need for separate effect strips.
+   Blend percent controls how much of an effect the strip exerts, even over time.
 
 :guilabel:`Opacity`
    Set the opacity of the strip.
@@ -333,7 +357,9 @@ Edit Strip Panel
 :guilabel:`Channel`
    Changes the channel number, or row, of the strip.
 :guilabel:`Start Frame`
-   Changes the starting frame number of the strip, which is the same as grabbing and moving the strip. Tip: when you add a strip, I like to just drop it and then use this field to place it at the frame I want, rather that trying to drag and drop in exactly the right place.
+   Changes the starting frame number of the strip, which is the same as grabbing and moving the strip.
+   Tip: when you add a strip, I like to just drop it and then use this field to place it at the frame I want,
+   rather that trying to drag and drop in exactly the right place.
 :guilabel:`Length`
    Specify the number of frames to use for the strip.
 
@@ -396,7 +422,9 @@ Enables you to quickly set common image pre-processing options.
    Converts input to float data.
 
 :guilabel:`Use Color Balance`
-   Provides three filters to adjust coloration: Lift, Gamma, and Gain. Each pass can have a positive, or inverted effect by clicking the appropriate button. Set the amount of the effect by setting the color swatch; white (RGB 1,1,1) has no effect.
+   Provides three filters to adjust coloration: Lift, Gamma, and Gain. Each pass can have a positive,
+   or inverted effect by clicking the appropriate button.
+   Set the amount of the effect by setting the color swatch; white (RGB 1,1,1) has no effect.
 
 
 Proxy Strip Properties Panel
@@ -438,7 +466,8 @@ Scene
 Specify the scene to be linked to the current scene strip.
 
 :guilabel:`Sequencer`
-   Process the render (and composited) result through the video sequence editor pipeline, if sequencer strips exist. This is the same function as in the render settings.
+   Process the render (and composited) result through the video sequence editor pipeline,
+   if sequencer strips exist. This is the same function as in the render settings.
 :guilabel:`Camera Override`
    Change the camera that will be used.
 

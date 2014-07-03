@@ -14,15 +14,19 @@ FIXME(TODO: Internal Link;
 [[#Options_for_Actions_.28User_Level.29|User Level]]
 ) (Relating to :guilabel:`Actions`\ )
 
-- For your actions, there are options like :guilabel:`Undo`\ , :guilabel:`Redo` and an :guilabel:`Undo History`\ , used to roll back from mistakes under normal operation, or return back to a specific action.
-- Blender also has new features like :guilabel:`Repeat` and :guilabel:`Repeat History`\ , and the new :guilabel:`Redo Last` which you can use in conjunction with the options listed.
+- For your actions, there are options like :guilabel:`Undo`\ , :guilabel:`Redo` and an :guilabel:`Undo History`\ ,
+  used to roll back from mistakes under normal operation, or return back to a specific action.
+- Blender also has new features like :guilabel:`Repeat` and :guilabel:`Repeat History`,
+  and the new :guilabel:`Redo Last` which you can use in conjunction with the options listed.
 
-At the
-FIXME(TODO: Internal Link;
-[[#Options for Files .28System Level.29|System Level]]
-) (Relating to :guilabel:`Files`\ )
+At the FIXME(TODO: Internal Link; [[#Options for Files .28System Level.29|System Level]])
+(Relating to :guilabel:`Files`)
 
-- There are options to save your files like :guilabel:`Auto Save` that saves your file automatically over time, and :guilabel:`Save on Quit`\ , which saves your Blender file automatically when you exit Blender. Note: In addition to these functions being enabled by default, the :guilabel:`Save on Quit` functionality cannot be disabled.
+- There are options to save your files like
+:guilabel:`Auto Save` that saves your file automatically over time, and :guilabel:`Save on Quit`\ ,
+which saves your Blender file automatically when you exit Blender.
+Note: In addition to these functions being enabled by default,
+the :guilabel:`Save on Quit` functionality cannot be disabled.
 
 
 Options for Actions (User Level)
@@ -189,7 +193,8 @@ but the list contains only repeated actions.  To access Repeat History, use :kbd
 .. admonition:: There are two separate Histories for Blender
    :class: note
 
-   Blender uses two separate Histories, one dedicated for the :guilabel:`Edit` Mode, and one dedicated for the :guilabel:`Object` Mode.
+   Blender uses two separate Histories, one dedicated for the :guilabel:`Edit` Mode,
+   and one dedicated for the :guilabel:`Object` Mode.
 
 
 Blender Search
@@ -229,7 +234,8 @@ Blender can use an :guilabel:`Autosave` function. The :guilabel:`File` tab of th
 for you to regress to a previous version of your work.
 
 :guilabel:`Save on Quit`
-   The function :guilabel:`Save on Quit` is enabled by default in Blender. Blender will always save your files when you quit the application under normal operation.
+   The function :guilabel:`Save on Quit` is enabled by default in Blender.
+   Blender will always save your files when you quit the application under normal operation.
 
 :guilabel:`Save Versions`
    This option tells Blender to keep the indicated number of saved versions of your file in your current working
@@ -253,14 +259,21 @@ for you to regress to a previous version of your work.
 .. admonition:: Compress Files
    :class: nicetip
 
-   The option to Compress files will try to compact your files whenever Blender is saving them. Large Scenes, dense Meshes, big Textures or lots of elements in your Scene will result in a big ``.blend`` being created. This option could slow down Blender when you quit, or under normal operation when Blender is saving your backup files. In fact, using this option you will trade processor time for file space.
+   The option to Compress files will try to compact your files whenever Blender is saving them. Large Scenes,
+   dense Meshes, big Textures or lots of elements in your Scene will result in a big ``.blend`` being created.
+   This option could slow down Blender when you quit,
+   or under normal operation when Blender is saving your backup files. In fact,
+   using this option you will trade processor time for file space.
+
 
 
 Recovering Auto Saves
 ~~~~~~~~~~~~~~~~~~~~~
 
 :guilabel:`Recover Last Session`
-   :menuselection:`File --> Recover Last Session` will open the ``quit.blend`` that is saved into the :guilabel:`Temp` directory when you exit Blender. Note that files in your :guilabel:`Temp` directory are deleted when you reboot.
+   :menuselection:`File --> Recover Last Session` will open the ``quit.blend``
+   that is saved into the :guilabel:`Temp` directory when you exit Blender.
+   Note that files in your :guilabel:`Temp` directory are deleted when you reboot.
 
 
 .. figure:: /images/Manual-Vitals-Undo-Display_File_Date.jpg
@@ -268,17 +281,29 @@ Recovering Auto Saves
    Blender File Browser
 
 
-- A Tip: When recovering files, you will navigate to your temporary folder. It is important, when browsing, to enable the detailed list view. Otherwise, you will not be able to figure out the dates of the auto-saved .blends. (See Figure: Blender File Browser )
+.. tip::
+
+   When recovering files, you will navigate to your temporary folder.
+   It is important, when browsing, to enable the detailed list view.
+   Otherwise, you will not be able to figure out the dates of the auto-saved .blends.
+   (See Figure: Blender File Browser)
 
 
 :guilabel:`Recover Auto Save`
-   :menuselection:`File --> Recover Auto Save...` allows you to open the Auto Saved file. After loading the Auto Saved version, you may save it over the current file in your working directory as a normal ``.blend`` file.
+   :menuselection:`File --> Recover Auto Save...` allows you to open the Auto Saved file.
+   After loading the Auto Saved version,
+   you may save it over the current file in your working directory as a normal ``.blend`` file.
+
 
 
 .. admonition:: Important Note
    :class: note
 
-   When recovering an Auto Saved file, you will lose any changes made since the last :guilabel:`Auto Save` was performed.Only **one** Auto Saved file exists for each project (i.e. Blender does not keep older versions - hence you won't be able to go back more than a few minutes with this tool).
+   When recovering an Auto Saved file, you will lose any changes made since the last :guilabel:`Auto Save` was
+   performed.Only **one** Auto Saved file exists for each project
+   (i.e. Blender does not keep older versions -
+   hence you won't be able to go back more than a few minutes with this tool).
+
 
 
 Other options
@@ -288,5 +313,7 @@ Other options
    This setting controls how many recent files are listed in the :menuselection:`File --> Open Recent` sub-menu.
 
 :guilabel:`Save Preview Images`
-   Previews of images and materials in the :guilabel:`File Browser` window are created on demand. To save these previews into your ``.blend`` file, enable this option (at the cost of increasing the size of your .blend file).
+   Previews of images and materials in the :guilabel:`File Browser` window are created on demand.
+   To save these previews into your ``.blend`` file, enable this option
+   (at the cost of increasing the size of your .blend file).
 

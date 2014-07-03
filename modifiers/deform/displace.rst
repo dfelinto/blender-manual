@@ -36,8 +36,10 @@ Options
     If :guilabel:`VGroup` is empty, the modifier affects all vertices equally.
 
 :guilabel:`Midlevel`
-   The texture value which will be treated as no displacement by the modifier. Texture values below this value will result in negative displacement along the selected direction, while texture values above this value will result in positive displacement. This is achieved by the equation ``(displacement) = (texture value) - Midlevel``\ .
-    Recall that color/luminosity values are typically between **0.0** and **1.0** in Blender, and not between **0** and **255**\ .
+   The texture value which will be treated as no displacement by the modifier.
+   Texture values below this value will result in negative displacement along the selected direction, while texture values above this value will result in positive displacement.
+   This is achieved by the equation ``(displacement) = (texture value) - Midlevel``.
+   Recall that color/luminosity values are typically between **0.0** and **1.0** in Blender, and not between **0** and **255**\ .
 
 :guilabel:`Direction`
    The direction along which to displace the vertices.
@@ -58,10 +60,13 @@ Options
 
       :guilabel:`UV Layer`
          The UV coordinate layer from which to take texture coordinates.
-          If the object has no UV coordinates, it uses the :guilabel:`Local` coordinate system. If this field is blank, but there is an UV coordinate layer available (e.g. just after adding the first UV layer to the mesh), it will be overwritten with the currently active UV layer.
+          If the object has no UV coordinates, it uses the :guilabel:`Local` coordinate system.
+          If this field is blank, but there is an UV coordinate layer available
+          (e.g. just after adding the first UV layer to the mesh),
+          it will be overwritten with the currently active UV layer.
 
-.. admonition:: Note
-   :class: note
+
+.. note::
 
    Since UV coordinates are specified per face, the UV texture coordinate system currently determines the UV coordinate for each vertex from the first face encountered which uses that vertex; any other faces using that vertex are ignored. This may lead to artifacts if the mesh has non-contiguous UV coordinates.
 
@@ -69,7 +74,12 @@ Options
    - :guilabel:`Object` - take the texture coordinates from another object's coordinate system (specified by the :guilabel:`Object` field).
 
       :guilabel:`Object`
-         The object from which to take texture coordinates. Moving the object will therefore alter the coordinates of the texture mapping.  Take note that moving the original object will **also** result in a texture coordinate update.  As such, if you need to maintain a displacement coordinate system while moving the object to which the displacement is set, you will also have to move the related object at the same rate and direction.
+         The object from which to take texture coordinates.
+         Moving the object will therefore alter the coordinates of the texture mapping.
+         Take note that moving the original object will **also** result in a texture coordinate update.  As such, if
+         you need to maintain a displacement coordinate system while moving the object to which the displacement is
+         set, you will also have to move the related object at the same rate and direction.
+
          If this field is blank, the :guilabel:`Local` coordinate system is used.
 
 
@@ -79,7 +89,9 @@ Options
    - :guilabel:`Local` - take the texture coordinates from the object's local coordinate system.
 
 :guilabel:`Strength`
-   The strength of the displacement. After offsetting by the :guilabel:`Midlevel` value, the displacement will be multiplied by the :guilabel:`Strength` value to give the final vertex offset. This is achieved by the equation ``(vertex_offset) = (displacement) × Strength``\ .
+   The strength of the displacement. After offsetting by the :guilabel:`Midlevel` value,
+   the displacement will be multiplied by the :guilabel:`Strength` value to give the final vertex offset.
+   This is achieved by the equation ``(vertex_offset) = (displacement) × Strength``.
    A negative strength can be used to invert the effect of the modifier.
 
 

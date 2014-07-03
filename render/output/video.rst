@@ -153,7 +153,12 @@ Options
 
 
 :guilabel:`Fields`
-       Enable field rendering. When the :guilabel:`Fields` button in the :guilabel:`Render` Panel is pressed (\ *Post Processing* section), Blender prepares each frame in two passes. On the first it renders only the even lines, then it *advances in time by half a time step* and renders all the odd lines. This produces odd results on a PC screen (\ *Field Rendering result.*\ ) but will show correctly on a TV set.
+   Enable field rendering. When the :guilabel:`Fields` button in the :guilabel:`Render` Panel is pressed
+   (\ *Post Processing* section), Blender prepares each frame in two passes.
+   On the first it renders only the even lines,
+   then it *advances in time by half a time step* and renders all the odd lines.
+   This produces odd results on a PC screen *(Field Rendering result)*. but will show correctly on a TV set.
+
 
 :guilabel:`Upper First / Lower First`
    Toggles between rendering the even and odd frames first.

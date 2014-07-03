@@ -45,7 +45,12 @@ Sample Generator Types
       Emphasizes the intensity of shadows in the area fully within the shadow rays. The light transition between fully shadowed areas and fully lit areas changes more quickly (i.e. a sharp shadow gradient). You need :guilabel:`Samples` values equal to or greater than **2** to see any influence of this button.
 
    :guilabel:`Dither`
-      Applies a sampling over the borders of the shadows, similar to the way anti-aliasing is applied by the :guilabel:`OSA` button on the borders of an object. It artificially softens the borders of shadows; when :guilabel:`Samples` is set very low, you can expect poor results, so :guilabel:`Dither` is better used with medium :guilabel:`Samples` values. It is not useful at all with high :guilabel:`Samples` values, as the borders will already appear soft.
+      Applies a sampling over the borders of the shadows,
+      similar to the way anti-aliasing is applied by the :guilabel:`OSA` button on the borders of an object.
+      It artificially softens the borders of shadows; when :guilabel:`Samples` is set very low,
+      you can expect poor results, so :guilabel:`Dither` is better used with medium :guilabel:`Samples` values.
+      It is not useful at all with high :guilabel:`Samples` values, as the borders will already appear soft.
+
 
    :guilabel:`Jitter`
       Adds noise to break up the edges of solid shadow samples, offsetting them from each other in a pseudo-random way. Once again, this option is not very useful when you use high :guilabel:`Samples` values where the drawback is that noise generates quite visible graininess.

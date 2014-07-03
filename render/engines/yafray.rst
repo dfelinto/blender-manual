@@ -30,7 +30,13 @@ engine selector menu on the Info header.
 .. admonition:: Render Pipeline
    :class: note
 
-   When Yafaray is used, it is inserted into the pipeline before any compositor or sequencer actions, because it is the renderer, and the compositor and sequencer work on rendered images. The image data given to Yafray is the scene objects, materials, lights, etc. Yafray does not know nor care about render layers and cannot feed Blender's node compositor or sequencer effects, since it takes a completely different approach and cannot produce the different render layers that the Blender internal renderer can. Yafaray renders frames based on Blender scene data.
+   When Yafaray is used, it is inserted into the pipeline before any compositor or sequencer actions,
+   because it is the renderer, and the compositor and sequencer work on rendered images.
+   The image data given to Yafray is the scene objects, materials, lights, etc.
+   Yafray does not know nor care about render layers and cannot feed Blender's node compositor or sequencer effects,
+   since it takes a completely different approach and cannot produce the different render layers that the Blender
+   internal renderer can. Yafaray renders frames based on Blender scene data.
+
 
 
 To use Yafaray with Blender's compositor, render the image using Yafray, and then use the

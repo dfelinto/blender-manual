@@ -57,17 +57,32 @@ Enable ray-traced reflections
 
 Color swatch
    Color of mirrored reflection
-    By default, an almost perfectly reflective material like chrome, or a mirror object, will reflect the exact colors of its surrounding. But some other equally reflective materials tint the reflections with their own color. This is the case for well-polished copper and gold, for example. In order to replicate this within Blender, you have to set the Mirror Color accordingly. To set a mirror color, simply click the color swatch in the mirror panel and select a color.
+    By default, an almost perfectly reflective material like chrome, or a mirror object,
+    will reflect the exact colors of its surrounding.
+    But some other equally reflective materials tint the reflections with their own color.
+    This is the case for well-polished copper and gold, for example. In order to replicate this within Blender,
+    you have to set the Mirror Color accordingly. To set a mirror color,
+    simply click the color swatch in the mirror panel and select a color.
 :guilabel:`Fresnel`
-   Sets the power of the Fresnel effect. The Fresnel effect controls how reflective the material is, depending on the angle between the surface normal and the viewing direction. Typically, the larger the angle, the more reflective a material becomes (this generally occurs on the outline of objects).
+   Sets the power of the Fresnel effect. The Fresnel effect controls how reflective the material is,
+   depending on the angle between the surface normal and the viewing direction. Typically, the larger the angle,
+   the more reflective a material becomes (this generally occurs on the outline of objects).
 :guilabel:`Blend`
    A controlling factor to adjust how the blending happens between the reflective and non-reflective areas.
 :guilabel:`Depth`
-   Maximum allowed number of light inter-reflections.  If your scene contains many reflective objects and/or if the camera zooms in on such a reflective object, you will need to increase this value if you want to see surrounding reflections in the reflection of the reflected object (!). In this case, a Depth of 4 or 5 is typically a good value.
+   Maximum allowed number of light inter-reflections.
+   If your scene contains many reflective objects and/or if the camera zooms in on such a reflective object, you will
+   need to increase this value if you want to see surrounding reflections in the reflection of the reflected object (!).
+   In this case, a Depth of 4 or 5 is typically a good value.
 :guilabel:`Max Dist`
-   Maximum distance of reflected rays away from camera (Z-Depth) in Blender units.  Reflections further than this range fade out to reduce compute time.
+   Maximum distance of reflected rays away from camera (Z-Depth) in Blender units.
+   Reflections further than this range fade out to reduce compute time.
+
 :guilabel:`Fade to`
-   The color that rays with no intersection within the :guilabel:`Max Distance` take.  :guilabel:`Material` color can be best for indoor scenes, :guilabel:`Sky` color (World settings) for outdoor scenes.
+   The color that rays with no intersection within the :guilabel:`Max Distance` take.
+   :guilabel:`Material` color can be best for indoor scenes, :guilabel:`Sky` color (World settings)
+   for outdoor scenes.
+
 
 
 .. figure:: /images/Manual-2.5-Material-RayMirror-example.jpg
@@ -76,7 +91,13 @@ Color swatch
 
 
 :guilabel:`Gloss`
-   In paint, a high-gloss finish is very smooth and shiny.  A flat, or low gloss, finish disperses the light and gives a very blurry reflection.  Also, uneven or waxed-but-grainy surfaces (such as car paint) are not perfect and therefore slightly need a Gloss < 1.0.  In the example to the right, the left mirror has a Gloss of 0.98, the middle is Gloss = 1.0, and the right one has Gloss of 0.90.  Use this setting to make a realistic reflection, all the way up to a completely foggy mirror.  You can also use this value to mimic depth of field in mirrors.
+   In paint, a high-gloss finish is very smooth and shiny.  A flat, or low gloss,
+   finish disperses the light and gives a very blurry reflection.  Also, uneven or waxed-but-grainy surfaces
+   (such as car paint) are not perfect and therefore slightly need a Gloss < 1.0.  In the example to the right,
+   the left mirror has a Gloss of 0.98, the middle is Gloss = 1.0, and the right one has Gloss of 0.90.
+   Use this setting to make a realistic reflection, all the way up to a completely foggy mirror.
+   You can also use this value to mimic depth of field in mirrors.
+
    :guilabel:`Amount`
       The shininess of the reflection.  Values < 1.0 give diffuse, blurry reflections and activate the settings below.
    :guilabel:`Threshold`
@@ -92,7 +113,13 @@ Color swatch
 
    :guilabel:`Anisotropic`
       The shape of the reflection, from 0.0 (circular) to 1.0 (fully stretched along the tangent).  If the :guilabel:`Tangent Shading` is on, Blender automatically renders blurry reflections as anisotropic reflections.
-       When Tangent is switched on, the *Anisotropic* slider controls the strength of this anisotropic reflection, with a range of 1.0 (default) being fully anisotropic and 0.0 being fully circular, as is when tangent shading on the material is switched off. Anisotropic ray-traced reflection uses the same tangent vectors as for tangent shading, so you can modify the angle and layout the same way, with the auto-generated tangents, or based on the mesh's UV co-ordinates.
+      When Tangent is switched on, the *Anisotropic* slider controls the strength of this anisotropic reflection,
+      with a range of 1.0 (default) being fully anisotropic and 0.0 being fully circular,
+      as is when tangent shading on the material is switched off.
+      Anisotropic ray-traced reflection uses the same tangent vectors as for tangent shading,
+      so you can modify the angle and layout the same way, with the auto-generated tangents,
+      or based on the mesh's UV co-ordinates.
+
 
 
 Examples

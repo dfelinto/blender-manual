@@ -17,7 +17,10 @@ The owner is always evaluated in the global (world) space:
 
 The movement of the owner along the target curve/path may be controlled in two different ways:
 
-- The most simple is to define the number of frames of the movement, in the Path Animation panel of the Object Data context, via the numeric field Frames, and its start frame via the constraint's Offset option (by default, start frame: 1 [= offset of 0)], duration: 100).
+- The most simple is to define the number of frames of the movement,
+  in the Path Animation panel of the Object Data context,
+  via the numeric field Frames, and its start frame via the constraint's Offset option
+  (by default, start frame: 1 [= offset of 0)], duration: 100).
 - The second way, much more precise and powerful, is to define a :guilabel:`Evaluation Time` interpolation curve for the :guilabel:`Target` path (in the :guilabel:`Graph Editor`\ .  See the :doc:`animation chapter <animation>` to learn more about Fcurves.
 - If you don't want your owner to move along the path, you can give to the target curve a flat :guilabel:`Speed` FCurve (its value will control the position of the owner along the path).
 
@@ -27,7 +30,12 @@ The movement of the owner along the target curve/path may be controlled in two d
 .. admonition:: :guilabel:`Follow Path` and :guilabel:`Clamp To`
    :class: note
 
-    Do not confuse these two constraints. Both of them constraint the location of their owner along a curve, but :guilabel:`Follow Path` is an "animation-only" constraint, inasmuch that the position of the owner along the curve is determined by the time (i.e. current frame), whereas the :doc:`Clamp To <constraints/tracking/clamp_to>` :guilabel:`constraint` determines the position of its owner along the curve using one of its location properties' values.
+   Do not confuse these two constraints. Both of them constraint the location of their owner along a curve,
+   but :guilabel:`Follow Path` is an "animation-only" constraint,
+   inasmuch that the position of the owner along the curve is determined by the time (i.e. current frame),
+   whereas the :doc:`Clamp To <constraints/tracking/clamp_to>` :guilabel:`constraint` determines the position of its
+   owner along the curve using one of its location properties' values.
+
 
 
 .. admonition:: Note
@@ -54,7 +62,8 @@ Options
 
 
 :guilabel:`Target`
-   This constraint uses one target, which *must be a curve object*\ , and is not functional (red state) when it has none.
+   This constraint uses one target, which *must be a curve object*,
+   and is not functional (red state) when it has none.
 
 :guilabel:`Curve Radius`
    Objects scale by the curve radius. See :doc:`Curve Editing <modeling/curves/editing/advanced>`
@@ -63,11 +72,15 @@ Options
 :guilabel:`Offset`
    The number of frames to offset from the "animation" defined by the path (by default, from frame **1**\ ).
 :guilabel:`Follow Curve`
-   If this option is not activated, the owner's rotation isn't modified by the curve; otherwise, it's affected depending on the following options:
+   If this option is not activated, the owner's rotation isn't modified by the curve; otherwise,
+   it's affected depending on the following options:
    :guilabel:`Forward`
-      The axis of the object that has to be aligned with the forward direction of the path (i.e. tangent to the curve at the owner's position).
+      The axis of the object that has to be aligned with the forward direction of the path
+      (i.e. tangent to the curve at the owner's position).
    :guilabel:`Up`
       The axis of the object that has to be aligned (as much as possible) with the world Z axis.
-       In fact, with this option activated, the behavior of the owner shares some properties with the one caused by a :doc:`Locked Track constraint <constraints/tracking/locked_track>`\ , with the path as "axle", and the world Z axis as "magnet".
+       In fact, with this option activated, the behavior of the owner shares some properties with
+       the one caused by a :doc:`Locked Track constraint <constraints/tracking/locked_track>`\ ,
+       with the path as "axle", and the world Z axis as "magnet".
 
 
