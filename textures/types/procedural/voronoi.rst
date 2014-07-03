@@ -29,8 +29,16 @@ Distance Metric
    - :guilabel:`Distance Squared`
    - :guilabel:`Actual Distance`
 
-   The :guilabel:`Minkovsky` setting has a user definable value (the :guilabel:`Exponent` button) which determines the Minkovsky exponent (\ ``e``\ ) of the distance function ``(x``\ :sup:`e` ``+ y``\ :sup:`e` ``+ z``\ :sup:`e`\ ``)``\ :sup:`1/e`\ . A value of one produces the :guilabel:`Manhattan` distance metric, a value less than one produces stars (at **0.5**\ , it gives a :guilabel:`Minkovsky 1/2`\ ), and higher values produce square cells (at **4.0**\ , it gives a :guilabel:`Minkovsky 4`\ , at **10.0**\ , a :guilabel:`Chebychev`\ ). So nearly all Distance Settings are basically the same - variations of :guilabel:`Minkowsky`\ .
-    You can get irregularly-shaped rounded cells with the :guilabel:`Actual Distance`\ /\ :guilabel:`Distance Squared` options.
+   The :guilabel:`Minkovsky` setting has a user definable value (the :guilabel:`Exponent` button)
+   which determines the Minkovsky exponent (\ ``e``\ ) of the distance function ``
+   (x``\ :sup:`e` ``+ y``\ :sup:`e` ``+ z``\ :sup:`e`\ ``)``\ :sup:`1/e`\ .
+   A value of one produces the :guilabel:`Manhattan` distance metric, a value less than one produces stars
+   (at **0.5**\ , it gives a :guilabel:`Minkovsky 1/2`\ ), and higher values produce square cells (at **4.0**\ ,
+   it gives a :guilabel:`Minkovsky 4`\ , at **10.0**\ , a :guilabel:`Chebychev`\ ).
+   So nearly all Distance Settings are basically the same - variations of :guilabel:`Minkowsky`.
+
+   You can get irregularly-shaped rounded cells with the
+   :guilabel:`Actual Distance` / :guilabel:`Distance Squared` options.
 
 +-------------------------------------------+------------------------------------------+-------------------------------------------------------+
 +.. figure:: /images/VoronoyMinkovsky0.5.jpg|.. figure:: /images/VoronoyMinkovsky1.jpg |.. figure:: /images/VoronoiMinkovsky2.jpg              +

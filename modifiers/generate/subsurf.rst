@@ -116,7 +116,15 @@ but use a higher quality version when rendering.
 :guilabel:`Edit Cage Mode`
    To view and edit the results of the subdivision ("isolines") while you're editing the mesh, you must enable the :guilabel:`Editing Cage` mode by clicking in the inverted triangle button in the modifier panel header (next to the arrows for moving the modifier up and down the stack). This lets you grab the points as they lie in their new subdivided locations, rather than on the original mesh.
 
-   Notice the comparison of screenshots to the right. With the edit cage off, some vertices are buried under the subsurfed mesh. With dense vertex configurations, you might have to even click the "Eye" icon so that you can see these vertices. The "edit cage on" version does not suffer from this problem. It does, however, have its own disadvantage---it can look *too* nice. Notice the three quads running in the middle of Suzanne's ear. You can only tell how crooked they are in the "edit cage off" version. When you are modelling, you will more often want to see your mesh deformities in their full ugliness---so you can apply your skills until it is sheer prettiness.
+   Notice the comparison of screenshots to the right. With the edit cage off,
+   some vertices are buried under the subsurfed mesh. With dense vertex configurations,
+   you might have to even click the "Eye" icon so that you can see these vertices.
+   The "edit cage on" version does not suffer from this problem. It does, however,
+   have its own disadvantage---it can look *too* nice. Notice the three quads running in the middle of Suzanne's ear.
+   You can only tell how crooked they are in the "edit cage off" version. When you are modelling, you will more often
+   want to see your mesh deformities in their full ugliness---so you can apply your skills until it is sheer
+   prettiness.
+
 
 
 Order of the Modifier Stack

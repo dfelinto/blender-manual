@@ -60,10 +60,26 @@ from* the currently selected Scene to the new one, and how much will be *shared*
    Creates an empty Scene like the previous option but also copies the Render Settings from the original Scene into the new one.
 
 :guilabel:`Link Objects`
-   Is the shallowest form of copying available.  This option creates the new Scene with the same contents as the currently selected Scene. However, instead of copying the Objects, the new Scene contains *links to* the Objects in the old Scene at the Object level. Therefore, changes in the *new* Scene will result in the same changes to the *original* Scene because the Objects used are *literally* the same Objects. The reverse is also true (changes in the *old* Scene will cause the same changes in the *new* Scene).
+   Is the shallowest form of copying available.
+   This option creates the new Scene with the same contents as the currently selected Scene.
+   However, instead of copying the Objects,
+   the new Scene contains *links to* the Objects in the old Scene at the Object level. Therefore, changes in the
+   *new* Scene will result in the same changes to the *original* Scene because the Objects used are *literally* the
+   same Objects. The reverse is also true
+   (changes in the *old* Scene will cause the same changes in the *new* Scene).
 
 :guilabel:`Link Object Data`
-   Creates new, duplicate copies of all of the Objects in the currently selected Scene, but each one of those duplicate Objects will have *links to* the ObData (meshes, materials and so on) of the corresponding Objects in the original Scene. This means that you can change the position, orientation and size of the Objects in the new Scene without affecting other Scenes, but any modifications to the ObData (meshes, materials *etc*\ ) will also affect other Scenes. This is because a *single instance of* the "ObData" is now being shared by all of the Objects in all of the Scenes that link to it. If you want to make changes to an Object in the new Scene independently of the Objects in the other Scenes, you will have to manually make the object in the new Scene a "single-user" copy by :kbd:`LMB` the number in the :guilabel:`Object Data` panel of the Properties Window. More information at the :doc:`Window Type <interface/window_types>` page. This has the effect of making a new independent copy of the ObData.
+   Creates new, duplicate copies of all of the Objects in the currently selected Scene,
+   but each one of those duplicate Objects will have *links to* the ObData (meshes, materials and so on)
+   of the corresponding Objects in the original Scene. This means that you can change the position,
+   orientation and size of the Objects in the new Scene without affecting other Scenes,
+   but any modifications to the ObData (meshes, materials *etc*) will also affect other Scenes. This is because a
+   *single instance of* the "ObData" is now being shared by all of the Objects in all of the Scenes that link to it.
+   If you want to make changes to an Object in the new Scene independently of the Objects in the other Scenes, you
+   will have to manually make the object in the new Scene a "single-user" copy by :kbd:`LMB` the number in the
+   :guilabel:`Object Data` panel of the Properties Window.
+   More information at the :doc:`Window Type <interface/window_types>` page.
+   This has the effect of making a new independent copy of the ObData.
 
 
 .. figure:: /images/Manual-Interface-Scenes-mk_singleuser.jpg

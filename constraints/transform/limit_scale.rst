@@ -47,13 +47,22 @@ Options
 
 
 :guilabel:`Minimum`\ /\ :guilabel:`Maximum` :guilabel:`X`\ , :guilabel:`Y`\ , :guilabel:`Z`
-   These buttons enable the lower boundary for the scale of the owner along respectively the X, Y and Z axes of the chosen :guilabel:`Space`\ .
-    The :guilabel:`Min` and :guilabel:`Max` numeric fields to their right control the value of their lower and upper boundaries, respectively.
-    Note that if a min value is higher than its corresponding max value, the constraint behaves as if it had the same value as the max one.
+   These buttons enable the lower boundary for the scale of the owner along respectively the X,
+   Y and Z axes of the chosen :guilabel:`Space`\ .
+   The :guilabel:`Min` and :guilabel:`Max` numeric fields to their right control the value of their lower and upper
+   boundaries, respectively.
+   Note that if a min value is higher than its corresponding max value,
+   the constraint behaves as if it had the same value as the max one.
+
 
 :guilabel:`For Transform`
-   We saw that by default, even though visually constrained, and except for the negative values, the owner can still have scales out of bounds (as shown by the :guilabel:`Transform Properties` panel). Well, when you enable this button, this is no longer possible - the owner transform properties are also limited by the constraint.
-    Note however that the constraint does not directly modify the scale values: you have to scale its owner one way or another for this to take effect.
+   We saw that by default, even though visually constrained, and except for the negative values,
+   the owner can still have scales out of bounds (as shown by the :guilabel:`Transform Properties` panel). Well,
+   when you enable this button,
+   this is no longer possible - the owner transform properties are also limited by the constraint.
+   Note however that the constraint does not directly modify the scale values:
+   you have to scale its owner one way or another for this to take effect.
+
 
 :guilabel:`Convert`
    This constraint allows you to choose in which space to evaluate its owner's transform properties.

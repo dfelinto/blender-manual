@@ -120,7 +120,13 @@ The :guilabel:`Proportional Editing` mode menu is on the :guilabel:`3D View` hea
 
 
 :guilabel:`Connected` (\ :kbd:`alt-o`\ )
-   Rather than using a radius only, the proportional falloff spreads via connected geometry. This means that you can proportionally edit the vertices in a finger of a hand without affecting the other fingers. While the other vertices are physically close (in 3D space), they are far away following the topological edge connections of the mesh. The icon will have a grey center when :guilabel:`Connected` is active. This mode is only available in :guilabel:`Edit mode`\ .
+   Rather than using a radius only, the proportional falloff spreads via connected geometry. This means that you can
+   proportionally edit the vertices in a finger of a hand without affecting the other fingers.
+   While the other vertices are physically close (in 3D space),
+   they are far away following the topological edge connections of the mesh.
+   The icon will have a grey center when :guilabel:`Connected` is active.
+   This mode is only available in :guilabel:`Edit mode`.
+
 
 :guilabel:`Falloff`
    While you are editing, you can change the curve profile used by either using the :menuselection:`Mesh --> Proportional Falloff` submenu, using the toolbar icon (\ *Falloff menu*\ ), or by pressing :kbd:`shift-o` to toggle between the various options.

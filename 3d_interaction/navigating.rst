@@ -2,7 +2,8 @@
 ..    TODO/Review: {{review
    |text=
    wrong place
-   : In 2.4 this page is here Manual/3D interaction/Navigating/3D View Options|fixes=[[User:Fade/Doc:2.6/Manual/3D_interaction/Navigating/3D_View_Options|X]]
+   : In 2.4 this page is here Manual/3D interaction/Navigating/3D View Options|
+   fixes=[[User:Fade/Doc:2.6/Manual/3D_interaction/Navigating/3D_View_Options|X]]
    }} .
 
 
@@ -55,7 +56,8 @@ View Menu
    - :doc:`Transform Orientations <3d_interaction/transform_control/transform_orientations>`
 
 :guilabel:`Tool Shelf`
-   Toggles the :guilabel:`Tool Shelf` (\ :kbd:`T`\ ), which appears on the left side of the 3d view, and allows you to perform various operations, depending on the type of object selected, and the mode you are in.
+   Toggles the :guilabel:`Tool Shelf` (\ :kbd:`T`\ ), which appears on the left side of the 3d view,
+   and allows you to perform various operations, depending on the type of object selected, and the mode you are in.
 
 :doc:`Camera <3d_interaction/navigating/camera_view>` (\ :kbd:`pad0`\ )
    Switches the view to the current camera view.
@@ -78,7 +80,10 @@ View Menu
    These commands change the projection of the 3D view
 
 :doc:`Navigation Menu <3d_interaction/navigating/3d_view>`
-   This sub-menu contains commands for rotating and panning the view. Using these commands through the menu is not that efficient. However, like all Blender menus, the much more convenient keyboard shortcuts are listed next to the commands.
+   This sub-menu contains commands for rotating and panning the view.
+   Using these commands through the menu is not that efficient. However, like all Blender menus,
+   the much more convenient keyboard shortcuts are listed next to the commands.
+
 
 :doc:`Align View <3d_interaction/navigating/3d_view>`
    This submenu allows you to align the 3D view in certain ways.
@@ -99,7 +104,11 @@ View Menu
    Makes all of the display layers visible.
 
 :doc:`Global View/Local View <3d_interaction/navigating/3d_view>` (\ :kbd:`pad/`\ )
-   Global view shows all of the 3D objects in the scene. Local view only displays the selected objects. This helps if there are many objects in the scene, that may be in the way. Accidentally pressing :kbd:`pad/` can happen rather often if you're new to Blender, so if a bunch of the objects in your scene seem to have mysteriously vanished, try turning off local view.
+   Global view shows all of the 3D objects in the scene. Local view only displays the selected objects.
+   This helps if there are many objects in the scene, that may be in the way.
+   Accidentally pressing :kbd:`pad/` can happen rather often if you're new to Blender,
+   so if a bunch of the objects in your scene seem to have mysteriously vanished, try turning off local view.
+
 
 :doc:`View Selected <3d_interaction/navigating/3d_view>` (\ :kbd:`pad.`\ )
    Zooms the 3D view to encompass all the *selected* objects.
@@ -214,7 +223,10 @@ Layer Selector
 --------------
 
 Layers are well documented in the :doc:`Layers page <3d_interaction/navigating/layers#description>`\ .
-Toggling layer visibility is covered in the section on :doc:`viewing layers <3d_interaction/navigating/layers#viewing_layers>` and :doc:`moving objects between layers <3d_interaction/navigating/layers#moving_objects_between_layers>` is also discussed in this page.
+Toggling layer visibility is covered in the section on :doc:`viewing layers
+<3d_interaction/navigating/layers#viewing_layers>` and :doc:`moving objects between layers
+<3d_interaction/navigating/layers#moving_objects_between_layers>` is also discussed in this page.
+
 
 
 Lock to Scene

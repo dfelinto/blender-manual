@@ -135,7 +135,16 @@ Think of them as A(ngle of bones), L(ength of bones) and D(efinition of stroke).
 
 
 :guilabel:`S` and :guilabel:`N` text fields, "auto" button
-   These control how the new bones are named. By default, they just take the same names as the originals from the template - except for the final number, increased as needed. However, if the template bones have "\ ``&s``\ " somewhere in their name, this "placeholder" will be replaced in the "templated" bones' names by the content of the :guilabel:`S` text field ("S" for "side"). Similarly, a "\ ``&n``\ " placeholder will be replaced by the :guilabel:`N` field content ("N" for "number"). If you enable the small "auto" button, the :guilabel:`N` field content is auto-generated, producing a number starting from nothing, and increased each time you press the :guilabel:`Convert` button, and the "\ ``&s``\ " placeholder is replaced by the side of the bone (relative to the local X axis: "\ ``r``\ " for negative X values, "\ ``l``\ " for positive ones).
+   These control how the new bones are named. By default,
+   they just take the same names as the originals from the template - except for the final number,
+   increased as needed. However, if the template bones have ``&s`` somewhere in their name,
+   this "placeholder" will be replaced in the "templated" bones' names by the content of the :guilabel:`S` text field
+   ("S" for "side"). Similarly, a ``&n`` placeholder will be replaced by the :guilabel:`N` field content
+   ("N" for "number"). If you enable the small "auto" button, the :guilabel:`N` field content is auto-generated,
+   producing a number starting from nothing, and increased each time you press the :guilabel:`Convert` button,
+   and the ``&s`` placeholder is replaced by the side of the bone (relative to the local X axis:
+   ``r`` for negative X values, ``l`` for positive ones).
+
 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ++--------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------++

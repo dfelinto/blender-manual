@@ -33,7 +33,14 @@ The movement of the owner along the target curve/path may be controlled in two d
 .. admonition:: Note
    :class: note
 
-   Note that you also need to keyframe Evaluation Time for the Path. Select the path, go to the path properties, set the overall frame to the first frame of the path (e.g. frame 1), set the value of Evaluation time to the first frame of the path (e.g. 1), right click on Evaluation time, select create keyframe, set the overall frame to the last frame of the path (e.g. frame 100), set the value of Evaluation time to the last frame of the path (e.g. 100), right click on Evaluation time, select create keyframe. ..    Comment: <!-- from http://overshoot.tv/node/1123 paragraph needs cleanup but this definitely needs to be in the documentation --> .
+   Note that you also need to keyframe Evaluation Time for the Path. Select the path, go to the path properties,
+   set the overall frame to the first frame of the path (e.g. frame 1),
+   set the value of Evaluation time to the first frame of the path (e.g. 1), right click on Evaluation time,
+   select create keyframe, set the overall frame to the last frame of the path (e.g. frame 100),
+   set the value of Evaluation time to the last frame of the path (e.g. 100), right click on Evaluation time,
+   select create keyframe. ..    Comment: <!-- from http://overshoot.tv/node/1123 paragraph needs cleanup but this
+   definitely needs to be in the documentation --> .
+
 
 
 Options

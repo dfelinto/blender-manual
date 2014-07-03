@@ -71,7 +71,12 @@ will give you full control over your transformation
 
 
 :kbd:`mmb`
-   Constrain the move to the X, Y or Z axis automatically, according to the position of the mouse pointer in the 3D View. After pressing the :kbd:`g` key, if the :kbd:`mmb` is pressed, a visual option to constrain the translation will be available, showing the three axis in the 3D View space. The axis of choice to confirm the operation, will depend on the axis about which the :kbd:`mmb` is released. At any point during th eoperation, the chosen axis can be changed by hitting :kbd:`X`\ , :kbd:`Y`\ , :kbd:`Z` on the keyboard.
+   Constrain the move to the X, Y or Z axis automatically,
+   according to the position of the mouse pointer in the 3D View. After pressing the :kbd:`g` key,
+   if the :kbd:`mmb` is pressed, a visual option to constrain the translation will be available,
+   showing the three axis in the 3D View space. The axis of choice to confirm the operation,
+   will depend on the axis about which the :kbd:`mmb` is released. At any point during th eoperation,
+   the chosen axis can be changed by hitting :kbd:`X`, :kbd:`Y`, :kbd:`Z` on the keyboard.
 
 :kbd:`rmb` or :kbd:`esc`
    Cancel the move, and return the object or data to its original location.
@@ -105,7 +110,14 @@ the amount of the transformation in small or predefined steps.
     Intuitively this is the combination of the :kbd:`Ctrl` and the :kbd:`Shift` operations individually. This option will move the object with high precission along with the snapping constraint.
 
 :kbd:`X/Y/Z + <Decimal Number>`
-   This option will limit the transformation to the specified axis and the decimal number specified will be the magnitude of the translation along that axis. This decimal number which is being entered will be displayed at the bottom left corner of the 3D view window. Hitting backspace during the number entry will remove the numerical specification option but the object will be in the same axis.The number can be retyped to specify the translation.At any point of time, axis can be changed by hitting x/y/z key. You can also use this to move to a specific location or increase distance for the object location.
+   This option will limit the transformation to the specified axis and the decimal number specified will be the
+   magnitude of the translation along that axis.
+   This decimal number which is being entered will be displayed at the bottom left corner of the 3D view window.
+   Hitting backspace during the number entry will remove the numerical specification option but the object will be in
+   the same axis.The number can be retyped to specify the translation.At any point of time,
+   axis can be changed by hitting x/y/z key.
+   You can also use this to move to a specific location or increase distance for the object location.
+
 
 Orientations
 ------------

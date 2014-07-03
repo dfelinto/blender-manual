@@ -21,7 +21,9 @@ textures, and even all your user interface window settings.
 
    FIXME - warning body below
 
-Blender expects that you know what you are doing! When you load a file, you are **not** asked to save unsaved changes to the scene you were previously working on, completing the file load dialog is regarded as being enough confirmation that you didn't do this by accident.
+Blender expects that you know what you are doing! When you load a file,
+you are **not** asked to save unsaved changes to the scene you were previously working on,
+completing the file load dialog is regarded as being enough confirmation that you didn't do this by accident.
 
 **Make sure that you save your files.**
 

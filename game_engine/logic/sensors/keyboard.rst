@@ -9,13 +9,16 @@ Keyboard Sensor
    Keyboard sensor
 
 
-The :guilabel:`Keyboard` sensor is for detecting keyboard input. It can also save keyboard input to a :doc:`String property <game_engine/logic/properties#property_types>`\ .
+The :guilabel:`Keyboard` sensor is for detecting keyboard input.
+It can also save keyboard input to a :doc:`String property <game_engine/logic/properties#property_types>`\ .
 
 See :doc:`Sensor Common Options <game_engine/logic/sensors/common_options>` for common options.
 
 Special Options:
 **Key**
-   This field detects presses on a named key. Press the button with no label and a key to assign that key to the sensor. This is the active key, which will trigger the TRUE pulse. Click the button and then click outside of the button to deassign the key.
+   This field detects presses on a named key. Press the button with no label and a key to assign that key to the sensor.
+   This is the active key, which will trigger the TRUE pulse.
+   Click the button and then click outside of the button to deassign the key.
 
 A FALSE pulse is given when the key is released.
 

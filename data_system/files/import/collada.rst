@@ -70,7 +70,8 @@ regardless of their selection state.
 .. admonition:: Example
    :class: note
 
-   You now can select only(!) an armature, then in the exporter enable "include children" then all rigged meshes attached to the armature will also be exported.
+   You now can select only(!) an armature,
+   then in the exporter enable "include children" then all rigged meshes attached to the armature will also be exported.
 
 
 Include Armatures
@@ -123,8 +124,10 @@ The new option allows to directly export render results.
 .. admonition:: Texture export needs materials
    :class: note
 
-   For using surface textures, you will still have to create a material for each texture face. Then all you need to do is assign your images to the correct faces of your mesh. And finally when your object looks as you expect, just export it with "Include UV Textures". See also the "Copy" option below.
-
+   For using surface textures, you will still have to create a material for each texture face.
+   Then all you need to do is assign your images to the correct faces of your mesh.
+   And finally when your object looks as you expect, just export it with "Include UV Textures".
+   See also the "Copy" option below.
 
 Copy
 ____

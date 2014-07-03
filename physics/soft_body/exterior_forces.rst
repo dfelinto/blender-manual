@@ -106,8 +106,19 @@ The vertex tries to reach it's target position with a certain, adjustable intens
 
 Imagine the vertex is connected with it's target through a spring (\ *Image 2b*\ ).
 :guilabel:`Default`
-   This parameter defines how strong the influence of this spring is. A strength of 1 means, that the vertex will not move as Soft Body at all, instead keep its original position. 0 :guilabel:`Goal` (or no :guilabel:`Goal`\ ) means, that the vertex moves only according to Soft Body simulation. If no vertex group is used/assigned, this numeric field is the default goal weight for all vertices. If a vertex group is present and assigned, this button instead shows an popup selector button that allows you to choose the name of the goal vertex group. If you use a vertex group the weight of a vertex defines its goal.
-   Often :doc:`weight painting <modeling/meshes/weight_paint>` is used to adjust the weight comfortably. For non-mesh objects the :guilabel:`Weight` parameter of their vertices/controlpoints is used instead (\ :kbd:`W` in :guilabel:`Edit mode`\ , or use the :guilabel:`Transform Properties` panel). The weight of :guilabel:`Hair` particles can also be painted in :doc:`Particle Mode <physics/particles/mode>`\ .
+   This parameter defines how strong the influence of this spring is. A strength of 1 means,
+   that the vertex will not move as Soft Body at all, instead keep its original position. 0 :guilabel:`Goal`
+   (or no :guilabel:`Goal`\ ) means, that the vertex moves only according to Soft Body simulation.
+   If no vertex group is used/assigned, this numeric field is the default goal weight for all vertices.
+   If a vertex group is present and assigned,
+   this button instead shows an popup selector button that allows you to choose the name of the goal vertex group.
+   If you use a vertex group the weight of a vertex defines its goal.
+
+   Often :doc:`weight painting <modeling/meshes/weight_paint>` is used to adjust the weight comfortably.
+   For non-mesh objects the :guilabel:`Weight` parameter of their vertices/controlpoints is used instead
+   (:kbd:`W` in :guilabel:`Edit mode`, or use the :guilabel:`Transform Properties` panel).
+   The weight of :guilabel:`Hair` particles can also be painted in :doc:`Particle Mode <physics/particles/mode>`.
+
 
 :guilabel:`Minimum`\ /\ :guilabel:`Maximum`
    When you paint the values in vertex-groups (using :guilabel:`WeightPaint` mode), you can use the :guilabel:`G Min` and :guilabel:`G Max` to fine-tune (clamp) the weight values. The lowest vertex-weight (blue) will become :guilabel:`G Min`\ , the highest value (red) becomes :guilabel:`G Max` (please note that the blue-red color scale may be altered by User Preferences).

@@ -61,7 +61,16 @@ altering rather than the :guilabel:`ParticleInstance` modifier settings.
    Even though most of the time the :guilabel:`Object` field will have the name of an object with a particle system, this is not mandatory, you can enter an object's name which does not have a particle system, and it will be accepted by the :guilabel:`Object` field, as there do not appear to be any checks made to make sure the object's name entered into this field is "valid".
 
 :guilabel:`Particle System`
-   The :guilabel:`Particle System` field is used to select which particle system number to apply the :guilabel:`ParticleInstance` modifier to, when the mesh which has the particle system on it has more than one of these. The :guilabel:`Particle System` field can have a value between **1** and **10**\ .  It is possible to select any of the ten particle system numbers, however a check will **not** be made with the underlying particle emitting object specified previously in the :guilabel:`Object` field. If you select a particle system number which does not exist on the particle emitting object, then the particles on the emitting mesh will keep their normal particle shapes - no warning will be given that the chosen particle system does not exist on a particular particle emitting mesh.
+   The :guilabel:`Particle System` field is used to select which particle system number to apply the
+   :guilabel:`ParticleInstance` modifier to,
+   when the mesh which has the particle system on it has more than one of these.
+   The :guilabel:`Particle System` field can have a value between **1** and **10**\ .
+   It is possible to select any of the ten particle system numbers, however a check will **not** be made with the
+   underlying particle emitting object specified previously in the :guilabel:`Object` field.
+   If you select a particle system number which does not exist on the particle emitting object, then the particles on
+   the emitting mesh will keep their normal particle shapes - no warning will be given that the chosen particle
+   system does not exist on a particular particle emitting mesh.
+
    As an example, below is a single plane mesh with two areas (the first area shown in red and the second in white), with different particle systems applied to each area. The left side using a :guilabel:`ParticleInstance` modifier which has the shape of a sphere and the right side having a :guilabel:`ParticleInstance` modifier which has the shape of a cube.
 
 

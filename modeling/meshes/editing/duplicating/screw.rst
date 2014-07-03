@@ -158,18 +158,39 @@ you can hit :kbd:`Ctrl-Z` at any time in :guilabel:`Edit Mode`\ .
 
 
 :guilabel:`Center`
-    These numeric fields specify the center of the spin. When the tool is called for the first time, it will copy the **X**\ , **Y** and **Z** location (Global Coordinates) of the cursor presently in the 3D View to start the operation. You can specify the cursor coordinates using the Transform Panel in 3D View, using shortcut :kbd:`T` to toggle the Panel, and typing in the 3D Cursor Location coordinates, but, unlike in previous Blender Versions (prior to 2.5x), now you can adjust those coordinates interactively and specify another place for the spin center during the interactive session. (See Fig. 7 - Screw Interactive Panel - Mesh Tools Panel (Edit Mode))
+   These numeric fields specify the center of the spin. When the tool is called for the first time,
+   it will copy the **X**, **Y** and **Z** location (Global Coordinates)
+   of the cursor presently in the 3D View to start the operation.
+   You can specify the cursor coordinates using the Transform Panel in 3D View,
+   using shortcut :kbd:`T` to toggle the Panel, and typing in the 3D Cursor Location coordinates, but,
+   unlike in previous Blender Versions (prior to 2.5x), now you can adjust those coordinates interactively and
+   specify another place for the spin center during the interactive session.
+   (See Fig. 7 - Screw Interactive Panel - Mesh Tools Panel (Edit Mode))
+
 
 :guilabel:`Steps`
 
-    This numeric field specifies how many extrusion(s) will be done for each **360- ** turn. The steps are evenly distributed by dividing **360º** by the number of steps given. The minimum value is **3**\ ; the maximum is **256** (See Fig. 7)
+   This numeric field specifies how many extrusion(s) will be done for each **360- ** turn.
+   The steps are evenly distributed by dividing **360?** by the number of steps given. The minimum value is **3**\ ;
+   the maximum is **256** (See Fig. 7)
 
-:guilabel:`Turns`\ :
+:guilabel:`Turns`:
 
-    This numeric field specifies how many turns will be executed. Blender will add a new full **360- ** turn for each incremental number specified here. The minimum value is **1**\ ; the maximum is **256**\ . (See Fig. 7)
+   This numeric field specifies how many turns will be executed.
+   Blender will add a new full **360- ** turn for each incremental number specified here.
+   The minimum value is **1**\ ; the maximum is **256**\ . (See Fig. 7)
 
 :guilabel:`Axis`
-    These **3** numeric fields vary from **-1.0** to **1.0** and are clamped above those limits. These values correspond to angular vectors from **-90** to **90** degrees. Depending on the position where you started your cursor location and Object operation in the viewport and its axis positions in Global View space and coordinates, Blender will give the proper Axis vector a value of **1**\ , giving the angular vector of the profile a starting direction and giving the extrusions a starting direction based on your view.  Blender will let you adjust your axis angular vectors and you can tweak your object such that you can revert the direction of the screw operation (by reverting the angular vector of the height), meaning you can revert the clockwise and counterclockwise direction of some operations, and also adjust the angular vectors of your profile, bending it accordingly. (See Fig. 7)
+   These **3** numeric fields vary from **-1.0** to **1.0** and are clamped above those limits.
+   These values correspond to angular vectors from **-90** to **90** degrees. Depending on the position where you
+   started your cursor location and Object operation in the viewport and its axis positions in Global View space and
+   coordinates, Blender will give the proper Axis vector a value of **1**\ , giving the angular vector of the profile
+   a starting direction and giving the extrusions a starting direction based on your view.  Blender will let you
+   adjust your axis angular vectors and you can tweak your object such that you can revert the direction of the screw
+   operation (by reverting the angular vector of the height),
+   meaning you can revert the clockwise and counterclockwise direction of some operations,
+   and also adjust the angular vectors of your profile, bending it accordingly. (See Fig. 7)
+
 
 
 Examples

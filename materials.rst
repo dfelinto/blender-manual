@@ -18,9 +18,15 @@ or linen.
    Various basic materials (single, multiple material, transparency, vertex paint).
 
 
-The basic (un-textured) Blender  material is uniform across each face of an object (although the various pixels of each face of the object may appear differently because of lighting effects). However, different faces of the object may use different materials (see :doc:`Multiple Materials <materials/multiple_materials>`\ ).
+The basic (un-textured) Blender  material is uniform across each face of an object
+(although the various pixels of each face of the object may appear differently because of lighting effects). However,
+different faces of the object may use different materials
+(see :doc:`Multiple Materials <materials/multiple_materials>`).
 
-In Blender, materials can (optionally) have associated textures. Textures :guilabel:`describe` the substance: e.g. :guilabel:`polished` brass, :guilabel:`dirty` glass or :guilabel:`embroidered` linen. The :doc:`Textures <textures>` chapter describes how to add textures to materials.
+In Blender, materials can (optionally) have associated textures. Textures :guilabel:`describe` the substance: e.g.
+:guilabel:`polished` brass, :guilabel:`dirty` glass or :guilabel:`embroidered` linen.
+The :doc:`Textures <textures>` chapter describes how to add textures to materials.
+
 
 
 How Materials Work
@@ -32,7 +38,7 @@ control those interactions.
 A deep understanding of the engine will help you to get the most from it.
 
 The rendered image you create with Blender is a projection of the scene onto an imaginary
-surface called the *viewing plane*\ .
+surface called the *viewing plane*.
 The viewing plane is analogous to the film in a traditional camera,
 or the rods and cones in the human eye, except that it receives simulated light,
 not real light.
@@ -45,7 +51,7 @@ backwards through that point on the viewing plane and the focal point
 at which point we can determine what light would strike that point.
 
 The surface properties and incident light angle tell us how much of that light would be
-reflected back along the incident viewing angle (\ *Rendering engine basic principle.*\ ).
+reflected back along the incident viewing angle *(Rendering engine basic principle)*.
 
 
 .. figure:: /images/Manual-Part-III-MatGen01.jpg
@@ -98,7 +104,9 @@ Using Materials
 .. admonition:: Check your Render
    :class: nicetip
 
-    When designing materials (and textures and lighting), frequently check the rendered appearance of your scene, using your chosen render engine/shader settings. The appearance might be quite different from that shown in the texture display in the 3D panel.
+    When designing materials (and textures and lighting), frequently check the rendered appearance of your scene,
+    using your chosen render engine/shader settings.
+    The appearance might be quite different from that shown in the texture display in the 3D panel.
 
 
 As stated above, the material settings usually determine the surface properties of the object.
@@ -108,9 +116,14 @@ object in your scene.
 
    First, you can set the :doc:`Properties <materials/properties/introduction>` in the various Material panels.
 
-   Second, you can use :doc:`Nodes <materials/nodes>`\ ; a graphical nodes editor is available.
+   Second, you can use :doc:`Nodes <materials/nodes>`; a graphical nodes editor is available.
 
-   Last, you can directly set the color of object surfaces using various special effects. Strictly speaking, these are not materials at all, but they are included here because they affect the appearance of your objects.  These include :doc:`Vertex Painting <materials/special_effects/vertex_paint>`\ , :doc:`Wire Rendering <materials/special_effects/wire>`\ , :doc:`Volume Rendering <materials/special_effects/volume>`\ , and :doc:`Halo Rendering <materials/special_effects/halo>`\ .
+   Last, you can directly set the color of object surfaces using various special effects. Strictly speaking,
+   these are not materials at all, but they are included here because they affect the appearance of your objects.
+   These include :doc:`Vertex Painting <materials/special_effects/vertex_paint>`,
+   :doc:`Wire Rendering <materials/special_effects/wire>`,
+   :doc:`Volume Rendering <materials/special_effects/volume>`,
+   and :doc:`Halo Rendering <materials/special_effects/halo>`.
 
 The exact effect of Material settings can be affected by a number of system settings.
 First and foremost is the Render Engine used - Cycles and the Blender Render Engine

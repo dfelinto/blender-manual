@@ -93,15 +93,29 @@ Options in dropdown menu:
    - For irregular reflections, there's no hard and fast rule, you will probably need to experiment and hope that the inaccuracy doesn't matter.
 
 :guilabel:`Ignore Layers`
-    The layers to exclude from the environment map creation. Since environment maps work by rendering the scene from the location of the :guilabel:`Ob:` object, you will need to exclude the actual reflecting surface from the environment map, otherwise it will occlude other objects that should be reflected on the surface itself.
+    The layers to exclude from the environment map creation.
+    Since environment maps work by rendering the scene from the location of the :guilabel:`Ob:` object,
+    you will need to exclude the actual reflecting surface from the environment map,
+    otherwise it will occlude other objects that should be reflected on the surface itself.
 
-    Eg. If you are rendering an environment map from the center of a sphere, all the environment map will show by default is the inside of the sphere. You will need to move the sphere to a separate layer, then exclude that layer from the environment map render, so that the environment map will show (and hence reflect) all the objects outside the sphere.
+    Eg. If you are rendering an environment map from the center of a sphere,
+    all the environment map will show by default is the inside of the sphere.
+    You will need to move the sphere to a separate layer, then exclude that layer from the environment map render,
+    so that the environment map will show (and hence reflect) all the objects outside the sphere.
+
 
 
 :guilabel:`Resolution`
-    The resolution of the cubic environment map render. Higher resolutions will give a sharper texture (reflection), but will be slower to render.
+   The resolution of the cubic environment map render. Higher resolutions will give a sharper texture (reflection),
+   but will be slower to render.
+
 :guilabel:`Depth`
-    The number of recursive environment map renders. If there are multiple reflecting objects using environment maps in the scene, some may appear solid, as they won't render each other's reflections. In order to show reflections within reflections, the environment maps need to be made multiple times, recursively, so that the effects of one environment map can be seen in another environment map. See Examples.
+   The number of recursive environment map renders.
+   If there are multiple reflecting objects using environment maps in the scene, some may appear solid,
+   as they won't render each other's reflections. In order to show reflections within reflections,
+   the environment maps need to be made multiple times, recursively,
+   so that the effects of one environment map can be seen in another environment map. See Examples.
+
 
 :guilabel:`Clipping Start/End`
    The clipping boundaries of the virtual camera when rendering the environment map. Sets the minimum and maximum distance from the camera that will be visible in the map.

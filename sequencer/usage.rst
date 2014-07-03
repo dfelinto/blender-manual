@@ -164,13 +164,20 @@ but is clearly spelled out in the information strip.
 .. admonition:: 9999 frames go by (IMAGE strips only!)
    :class: note
 
-   Ok, so that was a very obscure reference to a song about 99 balloons, but we really have not anticipated how fast Blender has moved into mainstream video editing. Unfortunately, we initially reserved 4 digits for the filename of each video image sequence set. While that provides for up to 400 seconds of video (about 5 minutes US), with Blender moving into movies, you need to break up IMAGE strips into 4 digits only, and others 5 digits (10000-19999), (20000-29999), etc. Important: that only affects IMAGE strips at the moment. All the other strip types work fine with up to 300,000 frames (approximately 3 hours, read: Ben Hur :) ).
+   Ok, so that was a very obscure reference to a song about 99 balloons,
+   but we really have not anticipated how fast Blender has moved into mainstream video editing. Unfortunately,
+   we initially reserved 4 digits for the filename of each video image sequence set.
+   While that provides for up to 400 seconds of video (about 5 minutes US), with Blender moving into movies,
+   you need to break up IMAGE strips into 4 digits only, and others 5 digits (10000-19999), (20000-29999), etc.
+   Important: that only affects IMAGE strips at the moment. All the other strip types work fine with up to 300,
+   000 frames (approximately 3 hours, read: Ben Hur :) ).
 
 
 .. admonition:: Codecs
    :class: note
 
-   You must have a codec on your machine that can decode the avi file. Blender does not control these. For example, the XviD codec is available from www.xvid.org
+   You must have a codec on your machine that can decode the avi file. Blender does not control these. For example,
+   the XviD codec is available from www.xvid.org
 
 
 .. admonition:: FFMPEG Support

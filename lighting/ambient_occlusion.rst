@@ -89,7 +89,14 @@ you want to use the colors of your sky's texture.
 :guilabel:`Sampling`
 
    :guilabel:`Samples`
-      The number of rays used to detect if an object is occluded. Higher numbers of samples give smoother and more accurate results, at the expense of slower render times. The default value of **5** is usually good for previews. The actual number of rays shot out is the square of this number (i.e. :guilabel:`Samples` at **5** means **25** rays). Rays are shot at the hemisphere according to a random pattern (determined by the sample methods described above); this causes differences in the occlusion pattern of neighboring pixels unless the number of shot rays is big enough to produce good statistical data.
+      The number of rays used to detect if an object is occluded.
+      Higher numbers of samples give smoother and more accurate results, at the expense of slower render times.
+      The default value of **5** is usually good for previews.
+      The actual number of rays shot out is the square of this number (i.e.
+      :guilabel:`Samples` at **5** means **25** rays). Rays are shot at the hemisphere according to a random pattern
+      (determined by the sample methods described above); this causes differences in the occlusion pattern of
+      neighboring pixels unless the number of shot rays is big enough to produce good statistical data.
+
 
 +--------------------------------------------------------+--------------------------------------------------------+---------------------------------------------------------+
 +.. figure:: /images/Manual-AmbientOcclusion-3Samples.jpg|.. figure:: /images/Manual-AmbientOcclusion-6Samples.jpg|.. figure:: /images/Manual-AmbientOcclusion-12Samples.jpg+

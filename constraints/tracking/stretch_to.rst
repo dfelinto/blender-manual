@@ -53,19 +53,23 @@ Options
       When using a Bone :guilabel:`Target`\ , you can choose where along this bone the target point lies.
 
 :guilabel:`Rest Length`
-   This numeric field sets the rest distance between the owner and its target, i.e. the distance at which there is no deformation (stretching) of the owner.
-
+   This numeric field sets the rest distance between the owner and its target, i.e.
+   the distance at which there is no deformation (stretching) of the owner.
    :guilabel:`Reset`
-      When clicked, this small button will recalculate the :guilabel:`Rest Length` value, so that it corresponds to the actual distance between the owner and its target (i.e. the distance before this constraint is applied).
-
+      When clicked, this small button will recalculate the :guilabel:`Rest Length` value,
+      so that it corresponds to the actual distance between the owner and its target (i.e.
+      the distance before this constraint is applied).
 :guilabel:`Volume Variation`
-   This numeric field controls the amount of "volume" variation proportionally to the stretching amount. Note that the **0.0** value is not allowed, if you want to disable the volume feature, use the :guilabel:`None` button (see below).
-
+   This numeric field controls the amount of "volume" variation proportionally to the stretching amount.
+   Note that the **0.0** value is not allowed, if you want to disable the volume feature,
+   use the :guilabel:`None` button (see below).
 :guilabel:`Volume`
-   These buttons control which of the X and/or Z axes should be affected (scaled up/down) to preserve the virtual volume while stretching along the Y axis.
-    If you enable the :guilabel:`NONE` button, the volumetric features are disabled.
-
+   These buttons control which of the X and/or Z axes should be affected (scaled up/down)
+   to preserve the virtual volume while stretching along the Y axis.
+   If you enable the :guilabel:`NONE` button, the volumetric features are disabled.
 :guilabel:`Plane`
-   These buttons are equivalent to the *Up* ones of the :doc:`Track To constraint <constraints/tracking/track_to>`\ : they control which of the X or Z axes should be maintained (as much as possible) aligned with the global Z axis, while tracking the target with the Y axis.
+   These buttons are equivalent to the *Up* ones of the :doc:`Track To constraint <constraints/tracking/track_to>`\ :
+   they control which of the X or Z axes should be maintained (as much as possible) aligned with the global Z axis,
+   while tracking the target with the Y axis.
 
 

@@ -75,7 +75,10 @@ The rendered image will contain everything within the orange dotted line.
 Zooming in and out is possible in this view, but to change the viewpoint,
 you have to move or rotate the camera.
 
-If you have a large scene, viewing it through Camera View may not display all of the Objects in the scene. One possibility may be that the :doc:`clipping distance <render/camera#camera_settings>` of the camera is too low. The camera will only show objects that fall within the clipping range.
+If you have a large scene, viewing it through Camera View may not display all of the Objects in the scene.
+One possibility may be that the :doc:`clipping distance <render/camera#camera_settings>` of the camera is too low.
+The camera will only show objects that fall within the clipping range.
+
 
 :doc:`Read more about Render perspectives » <render/camera/perspective>`
 
@@ -202,7 +205,7 @@ Panning the View
    :class: refbox
 
    | Mode:     All modes
-   | Menu:     :guilabel:`View` → :guilabel:`Navigation`
+   | Menu:     :guilabel:`View` → :guilabel:`Navigation`
    | Hotkey:   :kbd:`shift-Mmb` / :kbd:`ctrl-pad2` / :kbd:`ctrl-pad4` / :kbd:`ctrl-pad6` / :kbd:`ctrl-pad8` / :kbd:`shift-alt-Lmb`
 
 
@@ -224,7 +227,7 @@ Zooming the View
    :class: refbox
 
    | Mode:     All modes
-   | Menu:     :guilabel:`View` → :guilabel:`Navigation`
+   | Menu:     :guilabel:`View` → :guilabel:`Navigation`
    | Hotkey:   :kbd:`ctrl-mmb` / :kbd:`wheel` / :kbd:`pad+` / :kbd:`pad-`
 
 

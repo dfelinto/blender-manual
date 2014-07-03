@@ -232,10 +232,22 @@ for you to regress to a previous version of your work.
    The function :guilabel:`Save on Quit` is enabled by default in Blender. Blender will always save your files when you quit the application under normal operation.
 
 :guilabel:`Save Versions`
-   This option tells Blender to keep the indicated number of saved versions of your file in your current working directory when you manually save a file. These files will have the extension: ``.blend1``\ , ``.blend2``\ , etc., with the number increasing to the number of versions you specify. Older files will be named with a higher number. e.g. With the default setting of **2**\ , you will have three versions of your file: ``*.blend`` (your last save), ``*.blend1`` (your second last save) and ``*.blend2`` (your third last save).
+   This option tells Blender to keep the indicated number of saved versions of your file in your current working
+   directory when you manually save a file. These files will have the extension: ``.blend1``, ``.blend2``, etc.,
+   with the number increasing to the number of versions you specify. Older files will be named with a higher number.
+   e.g. With the default setting of **2**\ , you will have three versions of your file: ``*.blend`` (your last save),
+   ``*.blend1`` (your second last save) and ``*.blend2`` (your third last save).
+
 
 :guilabel:`Auto Save Temporary Files`
-   Checking this box tells Blender to *automatically* save a backup copy of your work-in-progress to the Temp directory (refer to the :guilabel:`File` panel in the :guilabel:`User Preferences` window for its location). This will also enable the :guilabel:`Timer(mins)` control which specifies the number of minutes between each Auto Save. The default value of the Blender installation is **5** (5 minutes). The minimum is **1**\ , and the Maximum is **60** (Save at every one hour).The Auto Saved files are named using a random number and have a ``.blend`` extension.
+   Checking this box tells Blender to *automatically* save a backup copy of your work-in-progress to the Temp
+   directory (refer to the :guilabel:`File` panel in the :guilabel:`User Preferences` window for its location).
+   This will also enable the :guilabel:`Timer
+   (mins)` control which specifies the number of minutes between each Auto Save.
+   The default value of the Blender installation is **5** (5 minutes). The minimum is **1**,
+   and the Maximum is **60**
+   (Save at every one hour).The Auto Saved files are named using a random number and have a ``.blend`` extension.
+
 
 
 .. admonition:: Compress Files

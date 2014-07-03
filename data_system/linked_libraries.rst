@@ -19,13 +19,13 @@ General Procedure
    :class: refbox
 
    | Mode:     All Modes
-   | Menu:     :guilabel:`File` → :guilabel:`Append or Link`
+   | Menu:     :guilabel:`File` → :guilabel:`Append or Link`
    | Hotkey:   :kbd:`shift-F1`
 
 
 The main menu in Blender is located in the :guilabel:`Info` window
 (by default the header located at the top of your screen). From that menu,
-all you have to do is use :guilabel:`File` → :guilabel:`Append or Link`\ ,
+all you have to do is use :guilabel:`File` → :guilabel:`Append or Link`\ ,
 or press :kbd:`shift-F1` in your active window.
 The active window will change to a :guilabel:`File Browser`
 (the :guilabel:`Window type` icon looks like a manila folder) selector window. Use this window
@@ -59,7 +59,7 @@ Appending library objects into your current project
 The following procedure appends an object with all its linked data, such as mesh data,
 materials, textures, …, to the current .blend file.
 
-- Select :guilabel:`File` → :guilabel:`Append or Link`\ .
+- Select :guilabel:`File` → :guilabel:`Append or Link`\ .
 - Locate and select the file that contains the object you want to append (often a "library" file).
 - Navigate to the :guilabel:`Object` section of the file.
 - Select one object from the list using :kbd:`lmb`\ , multiple objects via :kbd:`rmb`\ , and/or a range of objects by dragging :kbd:`rmb`\ .
@@ -68,8 +68,8 @@ materials, textures, …, to the current .blend file.
 - :kbd:`lmb` on :guilabel:`Load Library` or press :kbd:`Enter` or :kbd:`mmb` directly on the data to append.
 
 Of course, you can append or link many other things besides objects:
-all the :guilabel:`ObData` - cameras, curves, groups, lamps, materials, meshes,
-etc. - and even **an entire scene**\ … Note that there is a **big** difference between
+all the :guilabel:`ObData` - cameras, curves, groups, lamps, materials, meshes,
+etc. - and even **an entire scene**\ … Note that there is a **big** difference between
 adding the object and the object data, such as mesh.
 If you append a :guilabel:`Mesh` datablock,
 you are only bringing in the data about that particular instance of mesh,
@@ -87,19 +87,23 @@ Click :guilabel:`Load Library` to append or link the object into your current .b
 Some more loading option buttons (in the :guilabel:`File Browser` header) include:
 
 :guilabel:`AutoSel`
-   When an object is loaded, it is not active or selected; it just plops into your .blend file. Often, right after loading, you will want to do something with it, like scale it or move it. Enable this button and the imported object will be selected, just as if you magically :kbd:`rmb`\ -clicked on it. This button saves the step of finding the object and selecting it.
-
+   When an object is loaded, it is not active or selected; it just plops into your .blend file. Often,
+   right after loading, you will want to do something with it, like scale it or move it.
+   Enable this button and the imported object will be selected, just as if you magically :kbd:`rmb` -clicked on it.
+   This button saves the step of finding the object and selecting it.
 :guilabel:`Active Layer`
-   Blender has 20 layers to divide up a large scene, and each object resides on some layer(s). By default, an object is loaded into your file directly into the layer(s) it resides on in the source file. To only load the object to the current active layer that you are working on, enable this button.
-
+   Blender has 20 layers to divide up a large scene, and each object resides on some layer(s). By default,
+   an object is loaded into your file directly into the layer(s) it resides on in the source file.
+   To only load the object to the current active layer that you are working on, enable this button.
 :guilabel:`At Cursor`
-   By default, an object is loaded into your file at the location it is at in the source file. To reposition the object to your cursor when it loads, enable this button.
+   By default, an object is loaded into your file at the location it is at in the source file.
+   To reposition the object to your cursor when it loads, enable this button.
 
 
 .. admonition:: Finding What was Loaded
    :class: nicetip
 
-   If the loaded object is not visible, consider using :guilabel:`At Cursor` or :guilabel:`AutoSel`\ . If you use :guilabel:`AutoSel`\ , remember there are Snap tools to put your cursor on the object (\ :kbd:`shift-S-4` (\ :guilabel:`Cursor → Selection`\ )), and Center your view on it (\ :kbd:`C` (\ :guilabel:`View` → :guilabel:`Align View` → :guilabel:`Center View to Cursor`\ )). Note that these tools do not work if the object is on an unselected layer, since objects on unselected layers are invisible.
+   If the loaded object is not visible, consider using :guilabel:`At Cursor` or :guilabel:`AutoSel`\ . If you use :guilabel:`AutoSel`\ , remember there are Snap tools to put your cursor on the object (\ :kbd:`shift-S-4` (\ :guilabel:`Cursor → Selection`\ )), and Center your view on it (\ :kbd:`C` (\ :guilabel:`View` → :guilabel:`Align View` → :guilabel:`Center View to Cursor`\ )). Note that these tools do not work if the object is on an unselected layer, since objects on unselected layers are invisible.
 
 
 Reusing Objects (Meshes, Curves, Cameras, Lights, …)
@@ -196,7 +200,7 @@ Reusing Node Layouts
 To reuse noodles (node layouts), open the original (source)
 file and create a Group for the set of nodes that you think you want to reuse.
 When you want to import that node group into your current file, :kbd:`lmb` on
-:guilabel:`File` → :guilabel:`Append` or :kbd:`lmb` on :guilabel:`File` →
+:guilabel:`File` → :guilabel:`Append` or :kbd:`lmb` on :guilabel:`File` →
 :guilabel:`Link` from the :guilabel:`Info` window header (or press :kbd:`F1` for
 :guilabel:`Append` or :kbd:`ctrl-alt-O` for :guilabel:`Link`\ ), and navigate to the file.
 When you dive into the file, there will be a :guilabel:`NodeTree` option.

@@ -281,7 +281,15 @@ and a soft appearance.
 :guilabel:`Normal input`
    Normal used for shading; if nothing is connected the default shading normal is used.
 :guilabel:`Texture Blur input`
-   How much of the texture will be blurred along with the lighting, mixing the texture at the incoming and outgoing points on the surface. Note that the right choice depends on the texture. Consider for example a texture created from a photograph of skin, in this cases the colors will already be pre-blurred and texture blur could be set to 0. Even for hand painted textures no or minimal blurring might be appropriate, as a texture artist would likely paint in softening already, one would usually not even know what an unblurred skin texture looks like, we always see it blurred. For a procedural texture on the other hand this option would likely have a higher value.
+   How much of the texture will be blurred along with the lighting,
+   mixing the texture at the incoming and outgoing points on the surface.
+   Note that the right choice depends on the texture.
+   Consider for example a texture created from a photograph of skin,
+   in this cases the colors will already be pre-blurred and texture blur could be set to 0.
+   Even for hand painted textures no or minimal blurring might be appropriate,
+   as a texture artist would likely paint in softening already,
+   one would usually not even know what an unblurred skin texture looks like, we always see it blurred.
+   For a procedural texture on the other hand this option would likely have a higher value.
 :guilabel:`BSSRDF output`
    :abbr:`BSSRDF (Bidirectional subsurface scattering distribution function)` shader.
 

@@ -374,14 +374,18 @@ Hue/Saturation tips
 
 Some things to keep in mind that might help you use this node better:
 Hues are vice versa.
-   A blue image, with a Hue setting at either end of the spectrum (0 or 1), is output as yellow (recall that white, minus blue, equals yellow). A yellow image, with a Hue setting at 0 or 1, is blue.
+   A blue image, with a Hue setting at either end of the spectrum (0 or 1), is output as yellow (recall that white,
+   minus blue, equals yellow). A yellow image, with a Hue setting at 0 or 1, is blue.
 Hue and Saturation work together.
-   So, a Hue of .5 keeps the blues the same shade of blue, but the saturation slider can deepen or lighten the intensity of that color.
+   So, a Hue of .5 keeps the blues the same shade of blue,
+   but the saturation slider can deepen or lighten the intensity of that color.
 Gray & White are neutral hues.
-   A gray image, where the RGB values are equal, has no hue. Therefore, this node can only affect it with the :guilabel:`Val` slider. This applies for all shades of gray, from black to white; wherever the values are equal.
+   A gray image, where the RGB values are equal, has no hue. Therefore,
+   this node can only affect it with the :guilabel:`Val` slider. This applies for all shades of gray,
+   from black to white; wherever the values are equal.
 Changing the effect over time.
-   The Hue and Saturation values are set in the node by the slider, but you can feed a Time input into the Factor to bring up (or down) the effect change over time.
-
+   The Hue and Saturation values are set in the node by the slider,
+   but you can feed a Time input into the Factor to bring up (or down) the effect change over time.
 
 .. admonition:: Tinge
    :class: note

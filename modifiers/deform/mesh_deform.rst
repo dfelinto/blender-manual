@@ -46,9 +46,18 @@ the calculations it needs, to properly map the deform mesh cage to the deformed 
     When :guilabel:`Unbind` is clicked, the *deform mesh cage* will keep its current shape; it will not reset itself back to its original start shape. If you need its original shape, you will have to save a copy of it before you alter it. The deformed object will, however, reset back to its original shape that it had before it was bound to the deform mesh cage.
 
 :guilabel:`Precision`
-   The :guilabel:`Precision` numeric slider field controls the accuracy with which the deform mesh cage alters the deformed object, when the points on the cage are moved.
-    The range of values for the :guilabel:`Precision` field can range from **2** to **10**\ , the default being **5**\ . Raising this value higher can greatly increase the time it takes the :guilabel:`Mesh Deform` modifier to complete its binding calculations, but it will get more accurate cage mapping to the deformed object. This rise in calculation time can make Blender stop responding until it has calculated what it needs to. As well as making Blender not respond, raising the :guilabel:`Precision` value high and then trying to :guilabel:`Bind` on a very complex deform mesh cage and/or deformed object can use large amounts of memory and in extreme cases crash Blender.  To be safe, save your blend file before proceeding!
-    This setting becomes unavailable once a cage has been bound.
+   The :guilabel:`Precision` numeric slider field controls the accuracy with which the deform mesh cage alters the
+   deformed object, when the points on the cage are moved.
+   The range of values for the :guilabel:`Precision` field can range from **2** to **10**\ ,
+   the default being **5**. Raising this value higher can greatly increase the time it takes the :guilabel:`Mesh
+   Deform` modifier to complete its binding calculations,
+   but it will get more accurate cage mapping to the deformed object.
+   This rise in calculation time can make Blender stop responding until it has calculated what it needs to.
+   As well as making Blender not respond, raising the :guilabel:`Precision` value high and then trying to
+   :guilabel:`Bind` on a very complex deform mesh cage and/or deformed object can use large amounts of memory and in
+   extreme cases crash Blender.  To be safe, save your blend file before proceeding!
+   This setting becomes unavailable once a cage has been bound.
+
 
 :guilabel:`Dynamic`
    The :guilabel:`Dynamic` button indicates to the :guilabel:`Mesh Deform` modifier that it should also take into account deformations and changes to the underlying deformed object which were not a direct result of deform mesh cage alteration.

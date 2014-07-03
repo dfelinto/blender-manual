@@ -282,7 +282,13 @@ When the image is loaded, the following settings become available.
 .. admonition:: Use Lo-Res Proxy
    :class: nicetip
 
-   To improve PC performance when using background images you may have to use lower-resolution proxies. If your monitor resolution is 800×600, then the background image, full screen, without zooming, only needs to be 800×600. If your reference image is 2048×2048, then your computer is grinding away throwing away pixels. Try instead to take that 2k×2k image, and scale it down (using Blender, or Gimp) to, for example, 512×512. You will have sixteen times the performance, with no appreciable loss of quality or exactness. Then, as you refine your model, you can increase the resolution.
+   To improve PC performance when using background images you may have to use lower-resolution proxies.
+   If your monitor resolution is 800?600, then the background image, full screen, without zooming,
+   only needs to be 800?600. If your reference image is 2048?2048,
+   then your computer is grinding away throwing away pixels. Try instead to take that 2k?2k image, and scale it down
+   (using Blender, or Gimp) to, for example, 512?512. You will have sixteen times the performance,
+   with no appreciable loss of quality or exactness. Then, as you refine your model, you can increase the resolution.
+
 
 
 Shortcuts

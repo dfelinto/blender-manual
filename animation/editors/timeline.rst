@@ -19,7 +19,8 @@ is shown by default at the bottom of the screen.
 The *Timeline* is not much of an editor, but more of a information and control window.
 
 Here you can have an overview of the animation part of your scene
-   What is the current time frame, either in frames or in seconds, where are the keyframes of the active object, the start and end frames of your animation, markers, etc...
+   What is the current time frame, either in frames or in seconds, where are the keyframes of the active object,
+   the start and end frames of your animation, markers, etc...
 
 The *Timeline* has *Player Controls*\ , to play, pause the animation,
 and to skip though parts of the scene.
@@ -201,50 +202,39 @@ Frame Menu
 Playback Menu
 -------------
 
-*Audio Scrubbing*
-       If your animation has sound, this option plays bits of the sound wave while you move the time cursor with LMB or keyboard <- arrows →.
-
-*Audio Muted*
-       Mute the sound from Sequence Editors.
-
-*AV-sync*
-       Play back and sync with audio clock, dropping frames if frame display is too slow.
-       See :doc:`Header Controls <animation/editors/timeline#header_controls>` **IV** Synchronize Playback for more info.
-
-*Frame Dropping*
-       Play back dropping frames if frames are too slow.
-       See :doc:`Header Controls <animation/editors/timeline#header_controls>` **IV** Synchronize Playback for more info.
-
-*Clip Editors*
-       While playing, updates the *Movie Clip Editor*\ .
-
-*Node Editors*
-       While playing, updates the Node properties for the *Node Editor*\ .
-
-*Sequencer Editors*
-       While playing, updates the *Video Sequence Editor*\ .
-
+- *Audio Scrubbing*
+  If your animation has sound,
+  this option plays bits of the sound wave while you move the time cursor with LMB or keyboard arrows.
+- *Audio Muted*
+  Mute the sound from Sequence Editors.
+- *AV-sync*
+  Play back and sync with audio clock, dropping frames if frame display is too slow.
+  See :doc:`Header Controls <animation/editors/timeline#header_controls>` **IV** Synchronize Playback for more info.
+- *Frame Dropping*
+  Play back dropping frames if frames are too slow.
+  See :doc:`Header Controls <animation/editors/timeline#header_controls>` **IV** Synchronize Playback for more info.
+- *Clip Editors*
+  While playing, updates the *Movie Clip Editor*.
+- *Node Editors*
+  While playing, updates the Node properties for the *Node Editor*.
+- *Sequencer Editors*
+  While playing, updates the *Video Sequence Editor*.
 
 .. admonition:: Image Editors
    :class: note
 
-   Not sure what is updated, maybe gif images or, image sequence.
+   TODO Not sure what is updated, maybe gif images or, image sequence.
 
-
-*Image Editors*
-       // Todo.
-
-*Property Editors*
-       When the animation is playing, this will update the property values in the UI.
-
-*Animation Editors*
-       While playing, updates the *Timeline*\ , *Dope Sheet*\ , *Graph Editor*\ , *Video Sequence Editor*\ .
-
-*All 3D View Editors*
-       While playing, updates the *3D View* and the the *Timeline*\ .
-
-*Top-Left 3D Editor*
-       While playing, updates the *Timeline* if *Animation Editors* and *All 3D View Editors* disabled.
+- *Image Editors*
+  Todo
+- *Property Editors*
+  When the animation is playing, this will update the property values in the UI.
+- *Animation Editors*
+  While playing, updates the *Timeline*\ , *Dope Sheet*\ , *Graph Editor*\ , *Video Sequence Editor*\ .
+- *All 3D View Editors*
+  While playing, updates the *3D View* and the the *Timeline*\ .
+- *Top-Left 3D Editor*
+  While playing, updates the *Timeline* if *Animation Editors* and *All 3D View Editors* disabled.
 
 
 Header Controls

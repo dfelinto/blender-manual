@@ -46,11 +46,18 @@ How these colors are interpreted depends on which kind of :guilabel:`Sky` is cho
 - **None Enabled**
   If none of these three buttons is checked, your background will just be plain flat color (using the horizon one).
 - **Paper Sky**
-  If this option is added, the gradient keeps its characteristics, but it is clipped in the image (it stays on a horizontal plane (parallel to x-y plane): what ever the angle of the camera may be, the horizon is always at the middle of the image).
+  If this option is added, the gradient keeps its characteristics, but it is clipped in the image
+  (it stays on a horizontal plane (parallel to x-y plane): what ever the angle of the camera may be,
+  the horizon is always at the middle of the image).
 - **Blend Sky**
-  The background color is blended from horizon to zenith. If only this button is pressed, the gradient runs from the bottom to the top of the rendered image regardless of the camera orientation.
+  The background color is blended from horizon to zenith. If only this button is pressed,
+  the gradient runs from the bottom to the top of the rendered image regardless of the camera orientation.
 - **Real Sky**
-  If this option is added, the gradient produced has two transitions, from nadir (same color as zenith) to horizon to zenith; the blending is also dependent on the camera orientation, which makes it more realistic. The horizon color is exactly at the horizon (on the x-y plane), and the zenith color is used for points vertically above and below the camera.
+  If this option is added, the gradient produced has two transitions, from nadir (same color as zenith)
+  to horizon to zenith; the blending is also dependent on the camera orientation, which makes it more realistic.
+  The horizon color is exactly at the horizon (on the x-y plane),
+  and the zenith color is used for points vertically above and below the camera.
+
 
 
 Textures

@@ -86,13 +86,28 @@ Soft Body Goal
 --------------
 
 :guilabel:`Use Goal`
-   Soft Body Goal acts like a pin on a chosen set of vertices; controlling how much of an effect soft body has on them. Enabling this tells Blender to use the position / animated position of a vertex in the simulation. Animating the vertices can be done in all the usual ways before the Soft Body simulation is applied. The *goal* is the desired end-position for vertices. How a softbody tries to achieve this goal can be defined using stiffness forces and damping.
+   Soft Body Goal acts like a pin on a chosen set of vertices;
+   controlling how much of an effect soft body has on them.
+   Enabling this tells Blender to use the position / animated position of a vertex in the simulation.
+   Animating the vertices can be done in all the usual ways before the Soft Body simulation is applied.
+   The *goal* is the desired end-position for vertices.
+   How a softbody tries to achieve this goal can be defined using stiffness forces and damping.
 
 :guilabel:`Default`
-   If no vertex group is used, this numeric field is the default goal weight for all vertices. If a vertex group is present and assigned, this button instead shows an popup selector button that allows you to choose the name of the goal vertex group. A :guilabel:`Goal` value of 1.0 means no Soft Body simulation, the vertex stays at its original (animated) position. When setting :guilabel:`Goal` to 0.0, the object is only influenced by physical laws. By setting goal values between 0.0 and 1.0, you can blend between having the object affected only by the animation system, and having the object affected only by the soft body effect.
+   If no vertex group is used, this numeric field is the default goal weight for all vertices.
+   If a vertex group is present and assigned,
+   this button instead shows an popup selector button that allows you to choose the name of the goal vertex group.
+   A :guilabel:`Goal` value of 1.0 means no Soft Body simulation, the vertex stays at its original (animated)
+   position. When setting :guilabel:`Goal` to 0.0, the object is only influenced by physical laws.
+   By setting goal values between 0.0 and 1.0,
+   you can blend between having the object affected only by the animation system,
+   and having the object affected only by the soft body effect.
 
-:guilabel:`Minimum`\ /\ :guilabel:`Maximum`
-   When you paint the values in vertex-groups (using :guilabel:`Weight Paint` mode), you can use the :guilabel:`G Min` and :guilabel:`G Max` to fine-tune (clamp) the weight values. The lowest vertex-weight (blue) will become :guilabel:`G Min`\ , the highest value (red) becomes :guilabel:`G Max` (please note that the blue-red color scale may be altered by User Preferences).
+:guilabel:`Minimum` / :guilabel:`Maximum`
+   When you paint the values in vertex-groups (using :guilabel:`Weight Paint` mode),
+   you can use the :guilabel:`G Min` and :guilabel:`G Max` to fine-tune (clamp) the weight values.
+   The lowest vertex-weight (blue) will become :guilabel:`G Min`\ , the highest value (red) becomes :guilabel:`G Max`
+   (please note that the blue-red color scale may be altered by User Preferences).
 
 :guilabel:`Stiffness`
    The spring stiffness for :guilabel:`Goal`\ . A low value creates very weak springs (more flexible "attachment" to the goal), a high value creates a strong spring (a stiffer "attachment" to the goal).
@@ -111,17 +126,23 @@ Soft Body Edges
    The edges in a Mesh Object can act as springs as well, like threads in fabric.
 
 :guilabel:`Pull`
-   The spring stiffness for edges (how much the edges are stretched). A low value means very weak springs (a very elastic material), a high value is a strong spring (a stiffer material) that resists being pulled apart. 0.5 is latex, 0.9 is like a sweater, 0.999 is a highly-starched napkin or leather.
+   The spring stiffness for edges (how much the edges are stretched). A low value means very weak springs
+   (a very elastic material), a high value is a strong spring (a stiffer material) that resists being pulled apart.
+   0.5 is latex, 0.9 is like a sweater, 0.999 is a highly-starched napkin or leather.
 :guilabel:`Push`
-   How much the Softbody resist being scrunched together, like a compression spring. Low values for fabric, high values for inflated objects and stiff material.
+   How much the Softbody resist being scrunched together, like a compression spring. Low values for fabric,
+   high values for inflated objects and stiff material.
 :guilabel:`Damp`
    The friction for edge springs. High values (max of 50) dampen the edge stiffness effect and calm down the cloth.
 :guilabel:`Plastic`
    Plasticity, permanent deformation of the object.
 :guilabel:`Bending`
-   This option creates virtual connections between a vertex and the one after the next. This includes diagonal edges. Damping applies also to these connections.
+   This option creates virtual connections between a vertex and the one after the next. This includes diagonal edges.
+   Damping applies also to these connections.
 :guilabel:`Length`
-   The edges can shrink or been blown up. This value is given in percent, 0 disables this function. 100% means no change, the body keeps 100% of his size.
+   The edges can shrink or been blown up. This value is given in percent, 0 disables this function.
+   100% means no change, the body keeps 100% of his size.
+
 
 :guilabel:`Stiff Quads`
    For quad faces, the diagonal edges are used as springs. This stops quad faces to collapse completely on collisions (what they would do otherwise).
@@ -131,7 +152,15 @@ Soft Body Edges
 
 :guilabel:`Aerodynamics`
    :guilabel:`Simple`
-      If you turn on :guilabel:`Aero` the force is not confined to the vertices, but has an effect also on the edges. The angle and the relative speed between medium and edge is used to calculate the force on the edge. This force results that vertices with little connecting edges (front of a plane) fall faster than vertices with more connecting edges (middle of a plane). If all vertices have the same amount of edges in a direction they fall with equal speed. An edge moving in its own direction feels no force, and an edge moving perpendicular to its own direction feels maximum force (think of a straw moving through air). Try it with an :guilabel:`Factor` of 30 at first.
+      If you turn on :guilabel:`Aero` the force is not confined to the vertices, but has an effect also on the edges.
+      The angle and the relative speed between medium and edge is used to calculate the force on the edge.
+      This force results that vertices with little connecting edges (front of a plane)
+      fall faster than vertices with more connecting edges (middle of a plane).
+      If all vertices have the same amount of edges in a direction they fall with equal speed.
+      An edge moving in its own direction feels no force,
+      and an edge moving perpendicular to its own direction feels maximum force
+      (think of a straw moving through air). Try it with an :guilabel:`Factor` of 30 at first.
+
    :guilabel:`Lift Force`
       Use an aerodynamic model that is closer to physical laws and looks more interesting. Disable for a more muted simulation.
    :guilabel:`Factor`

@@ -103,7 +103,7 @@ FIXME(TODO: Internal Link;
 .. admonition:: Start and end times have nothing to do with how many frames are baked
    :class: nicetip
 
-   If you set *Start* time to 3.0, and *End* time to 4.0, you will simulate 1 second of fluid motion. That one second of fluid motion will be spread across however-many frames are set in the :guilabel:`Anim` panel (\ :guilabel:`Scene` context → :guilabel:`Render` sub-context → :guilabel:`Anim` and :guilabel:`Output` panel).
+   If you set *Start* time to 3.0, and *End* time to 4.0, you will simulate 1 second of fluid motion. That one second of fluid motion will be spread across however-many frames are set in the :guilabel:`Anim` panel (\ :guilabel:`Scene` context → :guilabel:`Render` sub-context → :guilabel:`Anim` and :guilabel:`Output` panel).
 
    This means, for example, that if you have Blender set to make 250 frames at 25 fps, the fluid
    will look like it had already been flowing for 3 seconds at the start of the simulation,
@@ -138,8 +138,24 @@ Domain World
 
 *Viscosity*
    The "thickness" of the fluid and actually the force needed to move an object of a certain surface area through it at a certain speed. You can either enter a value directly or use one of the presets in the drop down (such as honey, oil, or water).
-   For manual entry, please note that the normal real-world viscosity (the so-called dynamic viscosity) is measured in Pascal-seconds (Pa.s), or in Poise units (P, equal to 0.1 Pa.s, pronounced "\ *pwaz*\ ", from the Frenchman Jean-Louis Poiseuille, who discovered the laws on "the laminar flow of viscous fluids"), and commonly centiPoise units (cP, equal to 0.001 Pa.s, "\ *sentipwaz*\ "). Blender, on the other hand, uses the kinematic viscosity (which is dynamic viscosity in Pa.s, divided by the density in kg.m\ :sup:`-3`\ , unit ``m``\ :sup:`2`\ ``.s``\ :sup:`-1`\ ). The table below gives some examples of fluids together with their dynamic and kinematic viscosities.
-   Manual entries are specified by a floating point number and an exponent. These floating point and exponent entry fields (scientific notation) simplify entering very small or large numbers. The viscosity of water at room temperature is 1.002 cP, ou 0.001002 Pa.s; the density of water is about 1000 kg.m\ :sup:`-3`\ , which gives us a kinematic viscosity of 0.000001002 m\ :sup:`2`\ .s\ :sup:`-1` - so the entry would be 1.002 times 10 to the minus six (\ ``1.002×10``\ :sup:`-6` in scientific notation). Hot Glass and melting iron is a fluid, but very thick; you should enter something like ``1.0×10``\ :sup:`0` (= 1.0) as its kinematic viscosity (indicating a value of ``1.0×10``\ :sup:`6` cP).
+
+   For manual entry, please note that the normal real-world viscosity (the so-called dynamic viscosity)
+   is measured in Pascal-seconds (Pa.s), or in Poise units (P, equal to 0.1 Pa.s, pronounced "\ *pwaz*\ ",
+   from the Frenchman Jean-Louis Poiseuille, who discovered the laws on "the laminar flow of viscous fluids"),
+   and commonly centiPoise units (cP, equal to 0.001 Pa.s, "\ *sentipwaz*\ "). Blender, on the other hand,
+   uses the kinematic viscosity (which is dynamic viscosity in Pa.s, divided by the density in kg.m\ :sup:`-3`\ ,
+   unit ``m``\ :sup:`2`\ ``.s``\ :sup:`-1`\ ).
+   The table below gives some examples of fluids together with their dynamic and kinematic viscosities.
+
+   Manual entries are specified by a floating point number and an exponent.
+   These floating point and exponent entry fields (scientific notation)
+   simplify entering very small or large numbers. The viscosity of water at room temperature is 1.002 cP,
+   ou 0.001002 Pa.s; the density of water is about 1000 kg.m\ :sup:`-3`\ , which gives us a kinematic viscosity of
+   0.000001002 m\ :sup:`2`\ .s\ :sup:`-1` - so the entry would be 1.002 times 10 to the minus six (\ ``1.
+   002?10``\ :sup:`-6` in scientific notation). Hot Glass and melting iron is a fluid, but very thick;
+   you should enter something like ``1.0?10``\ :sup:`0` (= 1.0) as its kinematic viscosity
+   (indicating a value of ``1.0?10``\ :sup:`6` cP).
+
    Note that the simulator is not suitable for non-fluids, such as materials that do not "flow". Simply setting the viscosity to very large values will not result in rigid body behavior, but might cause instabilities.
 
 
