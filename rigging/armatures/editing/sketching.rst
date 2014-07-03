@@ -36,14 +36,20 @@ FIXME(TODO: Internal Link;
 [[#Converting to Bones|Converting these strokes into real chains of bones]]
 ), using different methods.
 
-**The point of view is important**\ , as it determines the future bones' roll angle\ *: the Z axis of a future bone will be aligned with the view Z axis of the 3D view in which you draw its "parent" stroke (unless you use the* :guilabel:`Template` *converting method…). Strokes are drawn in the current view plane passing through the 3D cursor, but you can create somewhat "3D" strokes using the* :guilabel:`Adjust`\ *drawing option in different views (see below).
+**The point of view is important**, as it determines the future bones' roll angle:
+the Z axis of a future bone will be aligned with the view Z axis of the 3D view in
+which you draw its "parent" stroke (unless you use the* :guilabel:`Template` converting method…).
+Strokes are drawn in the current view plane passing through the 3D cursor,
+but you can create somewhat "3D" strokes using the* :guilabel:`Adjust` drawing option in different views (see below).
 
-If you enable the small* :guilabel:`Quick Sketch` *option, the two steps are merged into one: once you have finalized the drawing of a stroke (see
-FIXME(TODO: Internal Link;
-[[#Drawing Chains|below]]
-)), it is immediately converted to bones (using the current active method) and deleted. This option makes bone sketching quick and efficient, but you lose all the advanced stroke editing possibilities…*
+If you enable the small* :guilabel:`Quick Sketch` option, the two steps are merged into one:
+once you have finalized the drawing of a stroke (see FIXME(TODO: Internal Link; [[#Drawing Chains|below]])),
+it is immediately converted to bones (using the current active method) and deleted.
+This option makes bone sketching quick and efficient, but you lose all the advanced stroke editing possibilities.
 
-**Sketches are not saved into Blender files**\ *, so you can't interrupt a sketching session without losing all your work! Note also that the* sketching is common to the whole Blender session\ *, i.e. there is only one set of strokes (one sketch) in Blender, and not one per armature, or even per file…
+**Sketches are not saved into Blender files**, so you can't interrupt a sketching session without losing all your work!
+Note also that the* sketching is common to the whole Blender session, i.e.
+there is only one set of strokes (one sketch) in Blender, and not one per armature, or even per file…
 
 
 Drawing Chains
@@ -59,7 +65,13 @@ Drawing Chains
    A mixed stroke, with one straight segment between two free ones, right to left.
 
 
-So, each stroke you draw will be a chain of bones, oriented from the starting point (the reddest or most orange part of the stroke) to its end (its whitest part). A stroke is made of several* segments\ *, delimited by small black dots -* there will be at least one bone per segment *(except with the* :guilabel:`Template` *conversion method, see* :doc:`next page <rigging/armatures/editing/templating>`\ *), so all black points represents future bones' ends. There are two types of segments, which can be mixed together:
+So, each stroke you draw will be a chain of bones, oriented from the starting point
+(the reddest or most orange part of the stroke) to its end (its whitest part).
+A stroke is made of several segments, delimited by small black dots - there will be at least one bone per segment
+(except with the* :guilabel:`Template` conversion method,
+see :doc:`next page <rigging/armatures/editing/templating>`),
+so all black points represents future bones' ends.
+There are two types of segments, which can be mixed together:
 
 
 Straight Segments
@@ -85,15 +97,13 @@ Each straight segment of a stroke will always create one and only one bone, what
 Free Segments
 ~~~~~~~~~~~~~
 
-To create a free (curved) segment, click* and hold\ ** :kbd:`lmb` *at its starting point.
-Then draw your segment by moving the mouse cursor - as in any paint program! Release*
-:kbd:`lmb` *to finalize the segment - you will then be creating a new* straight
-segment, so if you would rather start a new free segment,
-you must immediately re-press :kbd:`lmb`.
+To create a free (curved) segment, click* and hold :kbd:`lmb` at its starting point.
+Then draw your segment by moving the mouse cursor - as in any paint program! Release
+:kbd:`lmb` to finalize the segment - you will then be creating a new straight segment,
+so if you would rather start a new free segment, you must immediately re-press :kbd:`lmb`.
 The free segments of a stroke will create different number of bones, in different manners,
-depending on the conversion method used. The future bones' ends for the current selected
-method are represented by small green dots for each one of those segments,
-for the selected strokes only.
+depending on the conversion method used. The future bones' ends for the current selected method are
+represented by small green dots for each one of those segments, for the selected strokes only.
 The free segment drawing uses the same* :guilabel:`Manhattan Dist`
 setting as the :doc:`grease pencil tool <3d_interaction/sketching>`
 (:guilabel:`User Preferences` *window,* :guilabel:`Edit Methods` "panel", :guilabel:`Grease Pencil` group)
@@ -117,41 +127,44 @@ raise this value a bit, and if you find them too jagged, lower it.
 +--------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
 
 
-You finalize a whole stroke by clicking* :kbd:`rmb`\ *. You can cancel the stroke you are drawing by hitting* :kbd:`Esc`\ *. You can also snap strokes to underlying meshes by holding* :kbd:`ctrl` *while drawing. By the way, the* :guilabel:`Peel Objects` *button at the bottom of the* :guilabel:`Bone Sketching` *panel is the "same thing" as the "monkey" button of the snapping header bar controls shown when* :guilabel:`Volume` *snap element is selected - see the* :doc:`snap to mesh <3d_interaction/manipulation/snapping#snap_element>` *page for details.
+You finalize a whole stroke by clicking* :kbd:`rmb`. You can cancel the stroke you are drawing by hitting :kbd:`Esc`.
+You can also snap strokes to underlying meshes by holding* :kbd:`ctrl` while drawing. By the way,
+the :guilabel:`Peel Objects` *button at the bottom of the* :guilabel:`Bone Sketching` panel is the same thing as the
+"monkey" button of the snapping header bar controls shown when* :guilabel:`Volume` snap element is selected - see the
+:doc:`snap to mesh <3d_interaction/manipulation/snapping#snap_element>` page for details.
 
 
 Selecting Strokes
 -----------------
 
 A stroke can be selected (materialized by a solid red-to-white line), or not
-(shown as a orange-to-white line) - see (*\ Strokes example\ *) above. As usual,
-you select a stroke by clicking* :kbd:`rmb` *on it,
+(shown as a orange-to-white line) - see (Strokes example) above. As usual,
+you select a stroke by clicking* :kbd:`rmb` on it,
 you add one to/remove one from the current selection with a* :kbd:`shift-rmb` *click,
-and* :kbd:`A` *(de)selects all strokes…
+and* :kbd:`A` (de)selects all strokes…
 
 
 Deleting
 --------
 
-Hitting* :kbd:`X` *or clicking on the* :guilabel:`Delete` *button (*\ :guilabel:`Bone Sketching` *panel) deletes the selected strokes (be careful, no warning/confirmation pop-up menu here…). See also the
-FIXME(TODO: Internal Link;
-[[#Gestures|gesture description below]]
-).
+Hitting* :kbd:`X` or clicking on the :guilabel:`Delete` button (:guilabel:`Bone Sketching` panel)
+deletes the selected strokes (be careful, no warning/confirmation pop-up menu here).
+See also the FIXME(TODO: Internal Link; [[#Gestures|gesture description below]]).
 
 
 Modifying Strokes
 -----------------
 
-You can adjust, or "redraw" your strokes by enabling the* :guilabel:`Overdraw Sketching` *option
-of the* :guilabel:`Bone Sketching` *panel. This will modify the behavior of the strokes drawing
-(i.e.* :kbd:`lmb` *clicks and/or hold): when you draw, you won't create a new stroke,
+You can adjust, or "redraw" your strokes by enabling the :guilabel:`Overdraw Sketching` *option
+of the* :guilabel:`Bone Sketching` panel. This will modify the behavior of the strokes drawing
+(i.e. :kbd:`lmb` clicks and/or hold): when you draw, you won't create a new stroke,
 but rather modify the nearest one.
-The part of the old stroke that will be replaced by the new one are drawn in gray.*
-This option does not take into account stroke selection\ *, i.e.
+The part of the old stroke that will be replaced by the new one are drawn in gray.
+This option does not take into account stroke selection, i.e.
 all strokes can be modified this way,
 not just the selected ones… Note also that even if it is enabled,
 when you draw too far away from any other existing stroke, you won't modify any of them,
-but rather create a new one, as if* :guilabel:`Overdraw Sketching` *was disabled.
+but rather create a new one, as if* :guilabel:`Overdraw Sketching` was disabled.
 
 
 +-------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------+
@@ -173,10 +186,8 @@ Gestures
 
 There quite a few things about strokes editing that are only available through gestures.
 Gestures are started by clicking and holding
-FIXME(Template Unsupported: Shortcut/Keypress;
-{{Shortcut/Keypress|shift}}
-)+*\ :kbd:`lmb`
-*(when you are not already drawing a stroke…), and materialized by blue-to-white lines.
+FIXME(Template Unsupported: Shortcut/Keypress; {{Shortcut/Keypress|shift}}) :kbd:`lmb`
+(when you are not already drawing a stroke), and materialized by blue-to-white lines.
 A gesture can affect several strokes at once.
 
 There is no direct way to cancel a gesture once you've started "drawing" it.
@@ -197,7 +208,7 @@ something that the gesture system would never recognize!
 Cut
 ~~~
 
-To* **cut** *a segment (i.e. add a new black dot inside it, making two segments out of one),
+To* **cut** a segment (i.e. add a new black dot inside it, making two segments out of one),
 "draw" a straight line crossing the chosen segment where you want to split it.
 
 
@@ -213,7 +224,7 @@ To* **cut** *a segment (i.e. add a new black dot inside it, making two segments 
 Delete
 ~~~~~~
 
-To* **delete** *a stroke, draw a "V" crossing the stroke to delete twice.
+To* **delete** a stroke, draw a "V" crossing the stroke to delete twice.
 
 +-----------------------------------------------------------+-----------------------------------------------------------+
 +.. figure:: /images/ManRiggingSketchingDeleteGestureEx1.jpg|.. figure:: /images/ManRiggingSketchingDeleteGestureEx2.jpg+
@@ -227,7 +238,7 @@ To* **delete** *a stroke, draw a "V" crossing the stroke to delete twice.
 Reverse
 ~~~~~~~
 
-To* **reverse** *a stroke (i.e. the future chain of bones will be reversed),
+To **reverse** a stroke (i.e. the future chain of bones will be reversed),
 draw a "C" crossing twice the stroke to reverse.
 
 +------------------------------------------------------------+------------------------------------------------------------+
@@ -242,16 +253,23 @@ draw a "C" crossing twice the stroke to reverse.
 Converting to Bones
 -------------------
 
-Once you have one or more selected strokes, you can convert them to bones, using either the* :guilabel:`Convert` *button of the* :guilabel:`Bone Sketching` *panel, or the corresponding gesture (see
-FIXME(TODO: Internal Link;
-[[#Gestures|above]]
-)). Each selected stroke will generate a chain of bones, oriented from its reddest end to its whitest one. Note that converting a stroke does not delete it.
+Once you have one or more selected strokes, you can convert them to bones, using either the* :guilabel:`Convert`
+button of the :guilabel:`Bone Sketching` panel, or the corresponding gesture
+(see FIXME(TODO: Internal Link;[[#Gestures|above]])).
+Each selected stroke will generate a chain of bones, oriented from its reddest end to its whitest one.
+Note that converting a stroke does not delete it.
 
-There are four different conversion methods - three "simple" ones, and one more advanced and complex,* :guilabel:`Template`\ *, that reuses bones from the same armature or from another one as a template for the strokes to convert, and which is detailed in* :doc:`the next page <rigging/armatures/editing/templating>`\ *. Anyway, remember that* straight segments are always converted to one and only one bone'' (except for the :guilabel:`Template` conversion method), and that the future bones' ends are shown as green dots on selected free segments.
+There are four different conversion methods - three "simple" ones, and one more advanced and complex,
+:guilabel:`Template`, that reuses bones from the same armature or from another
+one as a template for the strokes to convert, and which is detailed in 
+:doc:`the next page <rigging/armatures/editing/templating>`.
+Anyway, remember that* straight segments are always converted to one and only one bone
+(except for the :guilabel:`Template` conversion method),
+and that the future bones' ends are shown as green dots on selected free segments.
 
-Remember also that the roll rotation of the created bones has been set during their "parent"
-stroke drawing (except for the :guilabel:`Template` conversion method)
-- their Z axis will be aligned with the view Z axis of the active 3D view at draw time.
+Remember also that the roll rotation of the created bones has been set during their "parent" stroke drawing
+(except for the :guilabel:`Template` conversion method) - their Z axis will be aligned with the view
+Z axis of the active 3D view at draw time.
 
 
 Fixed
