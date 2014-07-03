@@ -1,5 +1,4 @@
 
-
 Getting support: the Blender community
 ======================================
 
@@ -19,8 +18,7 @@ FIXME(Tag Unsupported:div;
 
 FIXME(Tag Unsupported:div;
 <div style="width:47%; float:left; text-align:justify; padding-top:10px; padding-bottom:15px;"><p>[[Image:(Doc_26x_Manual_Introduction_Community)_(Blender_Foundation_Logo)_(GNVAFN).png]]</p>
-The Development Community, centered around the [http://www.blender.
-org/ Blender Foundation site]. Here you will find the home of the development projects,
+The Development Community, centered around the `Blender Foundation site <http://www.blender.org>`__. Here you will find the home of the development projects,
 the Functionality and Documentation Boards, the CVS repository with Blender sources,
 all documentation sources, and related public discussion forums.
 Developers contributing code to Blender itself, Python scripters, documentation writers,
@@ -55,27 +53,31 @@ A constantly updated list of Blender resources can be found at the above mention
 IRC chat channels
 -----------------
 
+For immediate online feedback there are three IRC chat channels permanently open on ``irc.freenode.net``.
+You can join these with your favorite IRC client:
 
-For immediate online feedback there are three IRC chat channels permanently open on
-irc.freenode.net. You can join these with your favorite IRC client:
+- `#blender ``irc://irc.freenode.net/blender``
+  Community support channel
+- `#blenderchat ``irc://irc.freenode.net/blenderchat``
+  for general discussion of blender
+- `#blenderqa ``irc://irc.freenode.net/blenderqa``
+  for asking questions on Blender usage
+- `#gameblender ``irc://irc.freenode.net/gameblender``
+  for discussion on issues related to game creation with Blenders included game engine
 
-
-- `#blender <irc://irc.freenode.net/blender>`__ Community support channel
-- `#blenderchat <irc://irc.freenode.net/blenderchat>`__ for general discussion of blender
-- `#blenderqa <irc://irc.freenode.net/blenderqa>`__ for asking questions on Blender usage
-- `#gameblender <irc://irc.freenode.net/gameblender>`__ for discussion on issues related to game creation with Blenders included game engine
 
 **For developers there is also :**
 
-
-- `#blendercoders <irc://irc.freenode.net/blendercoders>`__ for developers to ask questions and discuss development issues, as well as a meeting each Sunday at 4 pm Netherlands time
-- `#blenderpython <irc://irc.freenode.net/blenderpython>`__ for discussion of the python API and script development
-- `#blenderwiki <irc://irc.freenode.net/blenderwiki>`__ for questions related to editing the wiki
+- `#blendercoders ``irc://irc.freenode.net/blendercoders``
+  for developers to ask questions and discuss development issues, as well as a meeting each Sunday at 4 pm Netherlands time
+- `#blenderpython ``irc://irc.freenode.net/blenderpython``
+  for discussion of the python API and script development
+- `#blenderwiki ``irc://irc.freenode.net/blenderwiki``
+  for questions related to editing the wiki
 
 
 Who uses Blender?
 =================
-
 
 The Blender community is made up of people from all over the world,
 with novice and professional graphic artists, occasional users and commercial houses.
