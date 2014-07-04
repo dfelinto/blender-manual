@@ -27,17 +27,17 @@ Blender uses a "Font System" to manage mapping "letter codes → objects represe
 views". This implies that not only does the font system have its own *built-in* font,
 but it can use external fonts too, including *PostScript Type 1*,
 *OpenType* and *TrueType* fonts. And last but not least,
-it can use any objects existing in the current .blend file as letters…
+it can use any objects existing in the current .blend file as letters...
 
 Texts in Bender allow you to create/render 2D or 3D text, shaded as you want,
 with various advanced layout options (like justifying and frames), as we will see below.
 By default, letters are just flat filled surfaces, exactly like any closed 2D curve.
-But you can of course extrude them… And texts can follow other curves.
+But you can of course extrude them... And texts can follow other curves.
 
 Of course, once you are happy with the shape of your text, you can convert it
 (with :kbd:`alt-C`, in :guilabel:`Object` mode), either to a curve,
 or directly to a mesh,
-allowing you to use all the powerful features of these types of objects on it…
+allowing you to use all the powerful features of these types of objects on it...
 
 (*Text Examples*) shows some examples of various fonts in action, including the "blue" font that has been applied to a curve path.
 
@@ -51,7 +51,7 @@ the slower the object will respond interactively.
 
 As you can see when you switch between :guilabel:`Object` and :guilabel:`Edit` modes,
 the :guilabel:`Font` panel remains the same. This means that its settings can be applied
-equally in both modes … and this implies that you cannot apply them to just a part of the
+equally in both modes ... and this implies that you cannot apply them to just a part of the
 mesh. So font, size, and so on, are common to all letters in a :guilabel:`Text` object.
 There is just one exception:
 the :guilabel:`Bold` / :guilabel:`Italic`  buttons control properties specific to each letter
@@ -84,7 +84,7 @@ FIXME(TODO: Internal Link;
 ) - note however that most Blender hotkeys you know in :guilabel:`Edit` mode do not exist for texts! The second place is the :guilabel:`Button` window (:guilabel:`Editing` context, :kbd:`F9`), especially the :guilabel:`Font` panel.
 
 The menu of the 3D view header has nearly no use,
-and there is no :guilabel:`Specials` menu… You have no transform nor mirror tools, and so on.
+and there is no :guilabel:`Specials` menu... You have no transform nor mirror tools, and so on.
 However, you can apply to texts the same modifiers as for curves.
 
 Editing :guilabel:`Text` is similar to using a standard text editor but is not as
@@ -220,7 +220,7 @@ or :kbd:`Page Up` / :kbd:`Page Down` and :kbd:`Home` / :kbd:`End` keys.
 
 Hold :kbd:`shift` while using the arrow keys to select a part of the text.
 You can use it to specify different materials, the normal/bold/italic state,
-and not much more…
+and not much more...
 
 
 Formatting Text
@@ -308,7 +308,7 @@ Objects as Fonts
 You can also "create" your own "font" inside Blender! This is quite a complex process,
 so let's detail it:
 
-- First, you must create your chars. Each char is an object *of any type* (mesh, curve, meta…). They all must have a name following the schema: ``common prefix`` followed by the ``char name`` (e.g. "\ ``ft.a`` ", "\ ``ft.b`` ", etc.).
+- First, you must create your chars. Each char is an object *of any type* (mesh, curve, meta...). They all must have a name following the schema: ``common prefix`` followed by the ``char name`` (e.g. "\ ``ft.a`` ", "\ ``ft.b`` ", etc.).
 - Then, for the :guilabel:`Text` object, you must enable the :guilabel:`Dupli Verts` button (:guilabel:`Object` context - :kbd:`F7` -, :guilabel:`Anim Settings` panel).
 - Back in :guilabel:`Editing` context (:kbd:`F9`), in the :guilabel:`Font` panel, fill the :guilabel:`Ob Family` field with the *common prefix* of your "font" objects.
 
@@ -456,7 +456,7 @@ Offset
    Well, these settings control the X and Y offset of the text, regarding its "normal" positioning. Note that with
 FIXME(TODO: Internal Link;
 [[#Text Boxes|frames]]
-), it applies to all frames' content…
+), it applies to all frames' content...
 
 
 Shape

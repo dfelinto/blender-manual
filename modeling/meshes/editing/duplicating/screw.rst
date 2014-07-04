@@ -67,7 +67,7 @@ Limitations
 There are strict conditions about your profile selection when you want to use this tool.
 You must have at least one open line or open profile,
 giving Blender the starting Vector for extrusion, angular vector and height. (e.g.
-a simple edge, a half circle, etc…).
+a simple edge, a half circle, etc...).
 You need only to ensure that at least one reference line has two "free" ends.
 If two open Lines are given, Blender won't determine which of them is the vector,
 and will then show you an error message,
@@ -159,7 +159,7 @@ you can hit :kbd:`Ctrl-Z` at any time in :guilabel:`Edit Mode`.
 
 :guilabel:`Center`
    These numeric fields specify the center of the spin. When the tool is called for the first time,
-   it will copy the **X**, **Y** and **Z** location (Global Coordinates)
+   it will copy the ``X``, ``Y`` and ``Z`` location (Global Coordinates)
    of the cursor presently in the 3D View to start the operation.
    You can specify the cursor coordinates using the Transform Panel in 3D View,
    using shortcut :kbd:`T` to toggle the Panel, and typing in the 3D Cursor Location coordinates, but,
@@ -170,21 +170,21 @@ you can hit :kbd:`Ctrl-Z` at any time in :guilabel:`Edit Mode`.
 
 :guilabel:`Steps`
 
-   This numeric field specifies how many extrusion(s) will be done for each **360- ** turn.
-   The steps are evenly distributed by dividing **360?** by the number of steps given. The minimum value is **3**;
-   the maximum is **256** (See Fig. 7)
+   This numeric field specifies how many extrusion(s) will be done for each ``360`` turn.
+   The steps are evenly distributed by dividing ``360`` by the number of steps given. The minimum value is ``3``;
+   the maximum is ``256`` (See Fig. 7)
 
 :guilabel:`Turns`:
 
    This numeric field specifies how many turns will be executed.
-   Blender will add a new full **360- ** turn for each incremental number specified here.
-   The minimum value is **1**; the maximum is **256**. (See Fig. 7)
+   Blender will add a new full ``360`` turn for each incremental number specified here.
+   The minimum value is ``1``; the maximum is ``256``. (See Fig. 7)
 
 :guilabel:`Axis`
-   These **3** numeric fields vary from **-1.0** to **1.0** and are clamped above those limits.
-   These values correspond to angular vectors from **-90** to **90** degrees. Depending on the position where you
+   These ``3`` numeric fields vary from ``-1.0`` to ``1.0`` and are clamped above those limits.
+   These values correspond to angular vectors from ``-90`` to ``90`` degrees. Depending on the position where you
    started your cursor location and Object operation in the viewport and its axis positions in Global View space and
-   coordinates, Blender will give the proper Axis vector a value of **1**, giving the angular vector of the profile
+   coordinates, Blender will give the proper Axis vector a value of ``1``, giving the angular vector of the profile
    a starting direction and giving the extrusions a starting direction based on your view.  Blender will let you
    adjust your axis angular vectors and you can tweak your object such that you can revert the direction of the screw
    operation (by reverting the angular vector of the height),
@@ -207,11 +207,11 @@ The Spring example
 - Open Blender and delete the default Cube.
 - Change from perspective to orthographic view using shortcut :kbd:`NumPad-5`.
 - Change your view from *User Ortho* to *Front Ortho*, using the shortcut :kbd:`Numpad-1`. You will see the X (red) and Z (blue) coordinate lines.
-- In case you have moved your cursor by clicking anywhere in the screen, again place your cursor at the Center, using the shortcut :kbd:`Shift-S` choosing *Cursor to Center* or the Transform Panel, placing your cursor at (**0,0,0**) typing directly into the Cursor 3D Location.
+- In case you have moved your cursor by clicking anywhere in the screen, again place your cursor at the Center, using the shortcut :kbd:`Shift-S` choosing *Cursor to Center* or the Transform Panel, placing your cursor at ``(0, 0, 0)`` typing directly into the Cursor 3D Location.
 - Add a circle using shortcut :kbd:`Shift-A` and choosing → Mesh → Circle.
-- Rotate this circle using the shortcut :kbd:`R-X` and typing **90** and :kbd:`Enter`.
+- Rotate this circle using the shortcut :kbd:`R-X` and typing ``90`` and :kbd:`Enter`.
 - Apply the Rotation using :kbd:`CTRL-A` and choosing *Rotation*
-- Grab and move this circle to the left **3** Blender Units  on the **X** Axis; you can use the shortcut :kbd:`CTRL` while grabbing with the mouse using the standard transform widgets (clicking on the red arrow shown with the object and grabbing while using shortcut :kbd:`CTRL` until the down left info in the 3D View marks **D. -3.0000 (3.0000) Global** ), or press the shortcut :kbd:`G-X` and typing **-3** and :kbd:`Enter`. You can use the Transform Panel (toggled with the shortcut :kbd:`T` , and type **-3** and :kbd:`Enter` in the Location too. (See the Fig. 8 - Circle placed at X -3,0,0).
+- Grab and move this circle to the left ``3`` Blender Units  on the ``X`` Axis; you can use the shortcut :kbd:`CTRL` while grabbing with the mouse using the standard transform widgets (clicking on the red arrow shown with the object and grabbing while using shortcut :kbd:`CTRL` until the down left info in the 3D View marks ``D. -3.0000 (3.0000) Global`` ), or press the shortcut :kbd:`G-X` and typing ``-3`` and :kbd:`Enter`. You can use the Transform Panel (toggled with the shortcut :kbd:`T` , and type ``-3`` and :kbd:`Enter` in the Location too. (See the Fig. 8 - Circle placed at X -3,0,0).
 - You will have to scale your circle using the shortcut :kbd:`S` and typing **.5**, then :kbd:`Enter`.
 - Now enter :guilabel:`Edit Mode` using shortcut :kbd:`Tab`.
 - De-select all vertices using the shortcut :kbd:`A`.

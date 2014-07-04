@@ -20,7 +20,7 @@ shown in the :guilabel:`Constraints` panel.
 - So the next constraint evaluated is the :guilabel:`Child Of` one, which is currently reduced.
 - Finally, the size of our cube is bounded by the :guilabel:`Limit Scale` last constraint.
 
-   So here, the size of the cube is first controlled by the target of the :guilabel:`Child Of` constraint, within the limits allowed by the next :guilabel:`Limit Scale` constraint… As with modifiers, order is crucial!
+   So here, the size of the cube is first controlled by the target of the :guilabel:`Child Of` constraint, within the limits allowed by the next :guilabel:`Limit Scale` constraint... As with modifiers, order is crucial!
 
 You can move a constraint up and down the stack by using the small up/down arrow buttons that
 are drawn in its header, to the right of the constraint name.
@@ -34,7 +34,7 @@ Adding/Removing a Constraint
 ----------------------------
 
 To add a constraint, you can, in the :guilabel:`Constraints` panel,
-click on the… :guilabel:`Add Constraint` button! A menu shows up,
+click on the... :guilabel:`Add Constraint` button! A menu shows up,
 listing all available constraints for the current active object
 (or bone in :guilabel:`Pose` mode
 (in which case the constraint will show up in the bone constraints menu).
@@ -52,6 +52,6 @@ click on the "X" button of the header of the constraint you want to delete,
 in the :guilabel:`Constraints` panel.
 You can also remove all constraints from the selected object(s),
 using the :menuselection:`Object --> Constraints --> Clear Object Constraints`
-(or :menuselection:`Pose --> Constraints --> Clear Pose Constraints…` or hit :kbd:`ctrl-alt-C`).
+(or :menuselection:`Pose --> Constraints --> Clear Pose Constraints...` or hit :kbd:`ctrl-alt-C`).
 
 

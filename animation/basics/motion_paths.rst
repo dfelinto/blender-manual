@@ -95,7 +95,7 @@ Options
       This is the same thing as the :guilabel:`GStep` for ghosts - it allows you the only materialize on the path one frame each *n* ones. Mostly useful when you enable the frame number display (see below), to avoid cluttering the 3D views.
 
 :guilabel:`Frame Numbers`
-   When enabled, a small number appears next to each frame dot on the path, which is of course the number of the corresponding frame…
+   When enabled, a small number appears next to each frame dot on the path, which is of course the number of the corresponding frame...
 :guilabel:`Keyframes`
    When enabled, big yellow square dots are drawn on motion paths, materializing the keyframes of their bones (i.e. only the paths of keyed bones at a given frame get a yellow dot at this frame).
 :guilabel:`Keyframe Numbers`

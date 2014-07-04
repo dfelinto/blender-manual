@@ -20,7 +20,7 @@ control it through its :guilabel:`Skeleton Sketching` panel in the :guilabel:`Tr
 panel`, which you can open with :kbd:`n`. Use mouse (:kbd:`lmb` to draw strokes,
 and :kbd:`rmb` for gestures. Showing its tool panel won't enable sketching - *you must
 tick the checkbox next to* :guilabel:`Skeleton Sketching` *to start drawing bone chains*
-(otherwise, you remain in the standard :guilabel:`Edit` mode…).
+(otherwise, you remain in the standard :guilabel:`Edit` mode...).
 
 Sketching is done in two steps:
 
@@ -38,7 +38,7 @@ FIXME(TODO: Internal Link;
 
 **The point of view is important**, as it determines the future bones' roll angle:
 the Z axis of a future bone will be aligned with the view Z axis of the 3D view in
-which you draw its "parent" stroke (unless you use the* :guilabel:`Template` converting method…).
+which you draw its "parent" stroke (unless you use the* :guilabel:`Template` converting method...).
 Strokes are drawn in the current view plane passing through the 3D cursor,
 but you can create somewhat "3D" strokes using the* :guilabel:`Adjust` drawing option in different views (see below).
 
@@ -49,7 +49,7 @@ This option makes bone sketching quick and efficient, but you lose all the advan
 
 **Sketches are not saved into Blender files**, so you can't interrupt a sketching session without losing all your work!
 Note also that the* sketching is common to the whole Blender session, i.e.
-there is only one set of strokes (one sketch) in Blender, and not one per armature, or even per file…
+there is only one set of strokes (one sketch) in Blender, and not one per armature, or even per file...
 
 
 Drawing Chains
@@ -83,15 +83,15 @@ without pressing any button - a dashed red line represents the future segment.
 Click* :kbd:`lmb` again to finalize it.
 Each straight segment of a stroke will always create one and only one bone, whatever convert algorithm you use (except for the* :guilabel:`Template` conversion method).
 
-+-----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+----------------------------------------------------------------------+
-+.. figure:: /images/ManRiggingSketchingDrawingPolyStrokeEx1.jpg                          |.. figure:: /images/ManRiggingSketchingDrawingPolyStrokeEx2.jpg                                   |.. figure:: /images/ManRiggingSketchingDrawingPolyStrokeEx3.jpg       +
-+   :width: 200px                                                                         |   :width: 200px                                                                                  |   :width: 200px                                                      +
-+   :figwidth: 200px                                                                      |   :figwidth: 200px                                                                               |   :figwidth: 200px                                                   +
-+                                                                                         |                                                                                                  |                                                                      +
-+   The first segment has been started ([lmb] click) and the mouse moved to its end point.|   The first segment has been finalized by a second [lmb] click, which also started a new segment…|   Repeating these steps, we now have a four-segment polygonal stroke.+
-+-----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+----------------------------------------------------------------------+
-+                                                                                                                                                                                                                                                                   +
-+-----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+----------------------------------------------------------------------+
++-----------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------+
++.. figure:: /images/ManRiggingSketchingDrawingPolyStrokeEx1.jpg                          |.. figure:: /images/ManRiggingSketchingDrawingPolyStrokeEx2.jpg                                     |.. figure:: /images/ManRiggingSketchingDrawingPolyStrokeEx3.jpg       +
++   :width: 200px                                                                         |   :width: 200px                                                                                    |   :width: 200px                                                      +
++   :figwidth: 200px                                                                      |   :figwidth: 200px                                                                                 |   :figwidth: 200px                                                   +
++                                                                                         |                                                                                                    |                                                                      +
++   The first segment has been started ([lmb] click) and the mouse moved to its end point.|   The first segment has been finalized by a second [lmb] click, which also started a new segment...|   Repeating these steps, we now have a four-segment polygonal stroke.+
++-----------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------+
++                                                                                                                                                                                                                                                                     +
++-----------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------+
 
 
 Free Segments
@@ -110,21 +110,21 @@ setting as the :doc:`grease pencil tool <3d_interaction/sketching>`
 to control where and when to add a new point to the segment - so if you feel your free segments are too detailed,
 raise this value a bit, and if you find them too jagged, lower it.
 
-+--------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
-+.. figure:: /images/ManRiggingSketchingDrawingFreeStrokeEx1.jpg                             |.. figure:: /images/ManRiggingSketchingDrawingFreeStrokeEx2.jpg                               +
-+   :width: 300px                                                                            |   :width: 300px                                                                              +
-+   :figwidth: 300px                                                                         |   :figwidth: 300px                                                                           +
-+                                                                                            |                                                                                              +
-+   While drawing a first free segment ([lmb] click and drag).                               |   The first free segment finalized (releasing [lmb]).                                        +
-+--------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
-+.. figure:: /images/ManRiggingSketchingDrawingFreeStrokeEx3.jpg                             |.. figure:: /images/ManRiggingSketchingDrawingFreeStrokeEx4.jpg                               +
-+   :width: 300px                                                                            |   :width: 300px                                                                              +
-+   :figwidth: 300px                                                                         |   :figwidth: 300px                                                                           +
-+                                                                                            |                                                                                              +
-+   If you now move the mouse without pressing [lmb] again, you'll create a straight segment…|   But if you immediately click again and drag [lmb], you'll instead start a new free segment.+
-+--------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
-+Drawing free segments example.                                                                                                                                                             +
-+--------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
++.. figure:: /images/ManRiggingSketchingDrawingFreeStrokeEx1.jpg                               |.. figure:: /images/ManRiggingSketchingDrawingFreeStrokeEx2.jpg                               +
++   :width: 300px                                                                              |   :width: 300px                                                                              +
++   :figwidth: 300px                                                                           |   :figwidth: 300px                                                                           +
++                                                                                              |                                                                                              +
++   While drawing a first free segment ([lmb] click and drag).                                 |   The first free segment finalized (releasing [lmb]).                                        +
++----------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
++.. figure:: /images/ManRiggingSketchingDrawingFreeStrokeEx3.jpg                               |.. figure:: /images/ManRiggingSketchingDrawingFreeStrokeEx4.jpg                               +
++   :width: 300px                                                                              |   :width: 300px                                                                              +
++   :figwidth: 300px                                                                           |   :figwidth: 300px                                                                           +
++                                                                                              |                                                                                              +
++   If you now move the mouse without pressing [lmb] again, you'll create a straight segment...|   But if you immediately click again and drag [lmb], you'll instead start a new free segment.+
++----------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
++Drawing free segments example.                                                                                                                                                               +
++----------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
 
 
 You finalize a whole stroke by clicking* :kbd:`rmb`. You can cancel the stroke you are drawing by hitting :kbd:`Esc`.
@@ -141,7 +141,7 @@ A stroke can be selected (materialized by a solid red-to-white line), or not
 (shown as a orange-to-white line) - see (Strokes example) above. As usual,
 you select a stroke by clicking* :kbd:`rmb` on it,
 you add one to/remove one from the current selection with a* :kbd:`shift-rmb` *click,
-and* :kbd:`A` (de)selects all strokes…
+and* :kbd:`A` (de)selects all strokes...
 
 
 Deleting
@@ -162,7 +162,7 @@ but rather modify the nearest one.
 The part of the old stroke that will be replaced by the new one are drawn in gray.
 This option does not take into account stroke selection, i.e.
 all strokes can be modified this way,
-not just the selected ones… Note also that even if it is enabled,
+not just the selected ones... Note also that even if it is enabled,
 when you draw too far away from any other existing stroke, you won't modify any of them,
 but rather create a new one, as if* :guilabel:`Overdraw Sketching` was disabled.
 
@@ -178,7 +178,7 @@ but rather create a new one, as if* :guilabel:`Overdraw Sketching` was disabled.
 +-------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------+
 
 
-Finally, note that there is no undo/redo for sketch drawing…
+Finally, note that there is no undo/redo for sketch drawing...
 
 
 Gestures
@@ -199,7 +199,7 @@ something that the gesture system would never recognize!
 +--------------------------------------------------------------+--------------------------------------------------------------+--------------------------------------------------------------+
 +.. figure:: /images/ManRiggingSketchingCancelingGestureEx1.jpg|.. figure:: /images/ManRiggingSketchingCancelingGestureEx2.jpg|.. figure:: /images/ManRiggingSketchingCancelingGestureEx3.jpg+
 +                                                              |                                                              |                                                              +
-+   Damn! I didn't want to cut this stroke here!               |   Let's doodle a bit…                                        |   Phew! That was close, but the stroke is still in one piece…+
++   Damn! I didn't want to cut this stroke here!               |   Let's doodle a bit...                                      |   Phew! That was close, but the stroke is still in one piece.+
 +--------------------------------------------------------------+--------------------------------------------------------------+--------------------------------------------------------------+
 +                                                                                                                                                                                            +
 +--------------------------------------------------------------+--------------------------------------------------------------+--------------------------------------------------------------+

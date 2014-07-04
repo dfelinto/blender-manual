@@ -255,7 +255,7 @@ Here you will find some handy ways to navigate and position your camera in your 
 .. admonition:: Note
    :class: note
 
-   Remember that the active "camera" might be any kind of object. So these actions can be used e.g. to position and aim a lamp…
+   Remember that the active "camera" might be any kind of object. So these actions can be used e.g. to position and aim a lamp...
 
 
 Move active camera to view
@@ -299,7 +299,7 @@ that are used to manipulate any object:
 
 **Vertical Pan or Pitch:** This is just a rotation along the local X-axis. Press :kbd:`R` to enter object rotation mode, then :kbd:`X` twice (the first press selects the *global* axis - pressing the same letter a second time selects the *local* axis - this works with any axis; see the :doc:`axis locking page <3d_interaction/transform_control/axis_locking>`).
 
-**Horizontal Pan or Yaw:** This corresponds to a rotation around the camera's local Y axis… Yes, that's it, press :kbd:`R`, and then :kbd:`Y` twice!
+**Horizontal Pan or Yaw:** This corresponds to a rotation around the camera's local Y axis... Yes, that's it, press :kbd:`R`, and then :kbd:`Y` twice!
 
 **Dolly:** To dolly the camera, press :kbd:`G` then :kbd:`mmb` (or  :kbd:`Z` twice).
 
@@ -309,7 +309,7 @@ that are used to manipulate any object:
 Aiming the camera in Flymode
 ----------------------------
 
-When you are in :guilabel:`Camera` view, the :doc:`fly mode <3d_interaction/navigating#fly_mode>` actually moves your active camera…
+When you are in :guilabel:`Camera` view, the :doc:`fly mode <3d_interaction/navigating#fly_mode>` actually moves your active camera...
 
 
 FIXME(Tag Unsupported:youtube;

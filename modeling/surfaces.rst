@@ -19,7 +19,7 @@ Surfaces
 Curves are 2D objects, and surfaces are their 3D extension. Note however that in Blender,
 you only have NURBS surfaces, no Bézier (you have the :guilabel:`Bezier` knot type, though;
 see below), nor polygonal (but for these, you have meshes!).
-Even though curves and surfaces share the same object type (with texts also…),
+Even though curves and surfaces share the same object type (with texts also...),
 they are not the same thing; for example,
 you cannot have in the same object both curves and surfaces.
 
@@ -34,11 +34,11 @@ doesn't have volume; it is infinitely thin.
 If it had a volume the surface would have a thickness (its third dimension). Hence,
 it's only a 2D object, and has only two interpolation dimensions or axes or coordinates
 (if you know a bit of math, think of non-euclidean geometry - well,
-surfaces are just non-euclidean 2D planes…). To take a more "real life" example,
+surfaces are just non-euclidean 2D planes...). To take a more "real life" example,
 you can roll a sheet of paper to create a cylinder; well, even if it "draws" a volume,
-the sheet itself will remain a (nearly…) 2D object!
+the sheet itself will remain a (nearly...) 2D object!
 
-In fact, surfaces are very similar to the results you get when :doc:`extruding a curve <modeling/curves/editing/advanced>` (by the way, I think it should be possible to convert an extruded curve to a surface, at least when only made of NURBS - but Blender cannot do it currently…).
+In fact, surfaces are very similar to the results you get when :doc:`extruding a curve <modeling/curves/editing/advanced>` (by the way, I think it should be possible to convert an extruded curve to a surface, at least when only made of NURBS - but Blender cannot do it currently...).
 
 
 Finding Surface Tools
@@ -49,7 +49,7 @@ Finding Surface Tools
    Surface Tools.
 
 
-The panels of the :guilabel:`Editing` context are the same as for :doc:`curves <modeling/curves>`, just with fewer options… And as usual, you have the :guilabel:`Select` and :guilabel:`Surface` menus in the 3D view headers, and the :guilabel:`Specials` (:kbd:`W`) pop-up one.
+The panels of the :guilabel:`Editing` context are the same as for :doc:`curves <modeling/curves>`, just with fewer options... And as usual, you have the :guilabel:`Select` and :guilabel:`Surface` menus in the 3D view headers, and the :guilabel:`Specials` (:kbd:`W`) pop-up one.
 
 
 Visualization
@@ -74,9 +74,9 @@ Blender internally treats NURBS surfaces and NURBS curves completely differently
 several attributes that separate them but the most important is that a NURBS curve has a
 single interpolation axis (U) and a NURBS surface has two interpolation axes (U and V).
 
-However, you can have "2D" surfaces made of curves (using the :doc:`extrusion tools <modeling/curves/editing/advanced>`, or, to a lesser extent, the filling of closed 2D curves. And you can have "1D" curves made of surfaces, like a NURBS surface with only one row (either in U or V direction) of control points produces only a curve…
+However, you can have "2D" surfaces made of curves (using the :doc:`extrusion tools <modeling/curves/editing/advanced>`, or, to a lesser extent, the filling of closed 2D curves. And you can have "1D" curves made of surfaces, like a NURBS surface with only one row (either in U or V direction) of control points produces only a curve...
 
-Visually you can tell which is which by entering :guilabel:`Edit` mode and looking at the 3D window's header: either the header shows "\ :guilabel:`Surface` " or "\ :guilabel:`Curve` " as one of the menu choices. Also, you can :doc:`extrude <modeling/curves/editing/advanced>` a whole NURBS surface curve to create a surface, but you can't with a simple NURBS curve (we talk here about the "standard" :guilabel:`Extrude` tool, the one activated with the :guilabel:`E` shortcut, not the quite-specific curve extrusion tools - yes, I know, it's not easy to follow…).
+Visually you can tell which is which by entering :guilabel:`Edit` mode and looking at the 3D window's header: either the header shows "\ :guilabel:`Surface` " or "\ :guilabel:`Curve` " as one of the menu choices. Also, you can :doc:`extrude <modeling/curves/editing/advanced>` a whole NURBS surface curve to create a surface, but you can't with a simple NURBS curve (we talk here about the "standard" :guilabel:`Extrude` tool, the one activated with the :guilabel:`E` shortcut, not the quite-specific curve extrusion tools - yes, I know, it's not easy to follow...).
 
 
 Control Points, Rows and Grid
@@ -88,11 +88,11 @@ replaced by "rows" and the overall "grid".
 
 A "row" is a set of control points forming one "line" in one interpolation direction (a bit similar to :doc:`edge loops <modeling/meshes/mesh_structures#edge_loops_and_face_loops>` for meshes). So you have "U-rows" and "V-rows" in a NURBS surface. The key point is that *all rows of a given type (U or V) have the same number of control points*. Each control point belongs to exactly one U-row and one V-row.
 
-All this forms a "grid", or "cage", the shape of which controls the shape of the NURBS surface. A bit like a :doc:`lattice <modifiers/deform/lattice>` …
+All this forms a "grid", or "cage", the shape of which controls the shape of the NURBS surface. A bit like a :doc:`lattice <modifiers/deform/lattice>` ...
 
 This is very important to grasp: you cannot add a single control point to a NURBS surface;
 you have to add a whole U- or V-row at once (in practice,
-you will usually use the Extrude tool, or perhaps the Duplicate one, to add those…),
+you will usually use the Extrude tool, or perhaps the Duplicate one, to add those...),
 containing exactly the same number of points as the others. This also means that you will only
 be able to "merge" different pieces of surfaces if at least one of their rows match together.
 
@@ -100,7 +100,7 @@ be able to "merge" different pieces of surfaces if at least one of their rows ma
 Surface Resolution
 ------------------
 
-Just like :doc:`NURBS curves <modeling/curves#nurbs>`, :guilabel:`Resolution` controls the detail of the surface. The higher the :guilabel:`Resolution` the more detailed and smoother the surface is. The lower the :guilabel:`Resolution` the rougher the surface. However, here you have two resolution settings, one for each interpolation axis (U and V). Note that unlike with curves, you have only one resolution (the :guilabel:`Resol U` and :guilabel:`V` fields, in the :guilabel:`Curve Tools` panel)…
+Just like :doc:`NURBS curves <modeling/curves#nurbs>`, :guilabel:`Resolution` controls the detail of the surface. The higher the :guilabel:`Resolution` the more detailed and smoother the surface is. The lower the :guilabel:`Resolution` the rougher the surface. However, here you have two resolution settings, one for each interpolation axis (U and V). Note that unlike with curves, you have only one resolution (the :guilabel:`Resol U` and :guilabel:`V` fields, in the :guilabel:`Curve Tools` panel)...
 
 
 +-----------------------------------------------+-----------------------------------------------+
@@ -136,7 +136,7 @@ This makes working with surfaces quite easy.
 Knots
 -----
 
-Just like with :doc:`NURBS curves <modeling/curves#knots>`, NURBS surfaces have two knot vectors, one for each U and V axis. Here again, they can be one of :guilabel:`Uniform`, :guilabel:`Endpoint`, or :guilabel:`Bezier`, with the same properties as for curves. And as with curves, only open surfaces (in the relevant direction) are affected by this setting…
+Just like with :doc:`NURBS curves <modeling/curves#knots>`, NURBS surfaces have two knot vectors, one for each U and V axis. Here again, they can be one of :guilabel:`Uniform`, :guilabel:`Endpoint`, or :guilabel:`Bezier`, with the same properties as for curves. And as with curves, only open surfaces (in the relevant direction) are affected by this setting...
 
 
 .. figure:: /images/Manual-Part-II-Surfaces-Endpoint-U-Ex.jpg
@@ -197,7 +197,7 @@ If all the control points have the same :guilabel:`Weight` then each effectively
 other out. It is the difference in the weights that cause the surface to move towards or away
 from a control point.
 
-The :guilabel:`Weight` of any particular control point is visible in the :doc:`Transform Properties panel <ce/panels/transform_properties/curve_mode>` (:kbd:`N`), *in the* :guilabel:`W` *field* (and not the :guilabel:`Weight` field…).
+The :guilabel:`Weight` of any particular control point is visible in the :doc:`Transform Properties panel <ce/panels/transform_properties/curve_mode>` (:kbd:`N`), *in the* :guilabel:`W` *field* (and not the :guilabel:`Weight` field...).
 
 
 Preset Weights
@@ -216,7 +216,7 @@ or cylinders, you must set to specific values the weights of the control points 
 which are provided as presets in the :guilabel:`Curve Tools` panel (lower right corner).
 This is not intuitive, and you should read more on NURBS before trying this.
 
-We saw with 1D :doc:`NURBS curves <ling/curves#preset_weights>` how to create a circle; let's see how to create a sphere with 2D surfaces. It is the same principle - you'll note that the four different weights needed for creating a sphere (**1.0**, **0.707** = ``sqrt(0.5)``, **0.354** = ``sqrt(2)/4``, and **0.25**) are the four presets available in the :doc:`Curve Tools <ce/panels/editing/curves/curve_tools>` panel…
+We saw with 1D :doc:`NURBS curves <ling/curves#preset_weights>` how to create a circle; let's see how to create a sphere with 2D surfaces. It is the same principle - you'll note that the four different weights needed for creating a sphere (**1.0**, **0.707** = ``sqrt(0.5)``, **0.354** = ``sqrt(2)/4``, and **0.25**) are the four presets available in the :doc:`Curve Tools <ce/panels/editing/curves/curve_tools>` panel...
 
 
 Primitives
@@ -244,6 +244,6 @@ There are also two preset NURBS surface curves (with only one control point on e
 +   NURBS curve primitives.                  +
 +--------------------------------------------+
 
-Note how a circle NURBS surface is never filled, unlike its "real" curve counterpart…
+Note how a circle NURBS surface is never filled, unlike its "real" curve counterpart...
 
 

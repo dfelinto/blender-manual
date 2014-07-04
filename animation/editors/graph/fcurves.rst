@@ -53,7 +53,7 @@ then, at frame **5** we get a value of **2**.
 The same goes for all intermediate frames: with just two points,
 you get a smooth growth from **0** to **10** along the **25 frames**.
 Obviously, if you'd like the frame **15** to have a value of **9**,
-you'd have to add another control point (or keyframe)…
+you'd have to add another control point (or keyframe)...
 
 
 Settings

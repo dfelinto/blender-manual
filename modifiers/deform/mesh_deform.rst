@@ -61,7 +61,7 @@ the calculations it needs, to properly map the deform mesh cage to the deformed 
 
 :guilabel:`Dynamic`
    The :guilabel:`Dynamic` button indicates to the :guilabel:`Mesh Deform` modifier that it should also take into account deformations and changes to the underlying deformed object which were not a direct result of deform mesh cage alteration.
-   With the :guilabel:`Dynamic` button activated, other mesh altering features (such as other modifiers and shape keys) are taken into account when binding a deform mesh cage to the deformed object, increasing deformation quality. It is deactivated by default to save memory and processing time when binding…
+   With the :guilabel:`Dynamic` button activated, other mesh altering features (such as other modifiers and shape keys) are taken into account when binding a deform mesh cage to the deformed object, increasing deformation quality. It is deactivated by default to save memory and processing time when binding...
    Like with :guilabel:`Precision`, this setting is unavailable once a cage has been bound.
 
 

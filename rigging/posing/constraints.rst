@@ -12,9 +12,9 @@ Applying Constraints to Bones
 
 As bones behave like objects in :guilabel:`Pose` mode, they can also be constrained. This is
 why the :guilabel:`Constraints` panel is shown in both :guilabel:`Object` and
-:guilabel:`Editing` contexts in this mode… This panel contains the constraints *of the active
+:guilabel:`Editing` contexts in this mode... This panel contains the constraints *of the active
 bone* (its name is displayed at the top of the panel,
-in the :guilabel:`To Bone:…` static text field).
+in the :guilabel:`To Bone:...` static text field).
 
 Constraining bones can be used to control their degree of freedom in their pose transformations,
 using e.g. the :guilabel:`Limit` constraints.

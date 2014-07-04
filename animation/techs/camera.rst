@@ -16,7 +16,7 @@ which you can see e.g. in the first part of the Lord of the Ring: the *transtrav
 Basically, the idea is to combine a forward zoom with a backward traveling (or conversely),
 both controlled such as the point of interest keeps its scale in the image,
 while its environment scales up or down,
-depending whether it is nearer or more far from the camera…
+depending whether it is nearer or more far from the camera...
 
 Create a scene with a ground, and some objects laying on it.
 
@@ -32,7 +32,7 @@ Insert another keyframe for its position, and adjust its focal length until your
 have the same visual dimensions as at the beginning. Add a key to both attributes.
 
 This won't give you a fully perfect transtrav - to get such one,
-you would have to dive into trigonometric maths… But the result is visually quite satisfying.
+you would have to dive into trigonometric maths... But the result is visually quite satisfying.
 
 
 FIXME(Tag Unsupported:vimeo;

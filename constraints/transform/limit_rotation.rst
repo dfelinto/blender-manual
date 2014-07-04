@@ -24,7 +24,7 @@ within the limit threshold (unless you enabled the :guilabel:`For Transform` opt
 see below).
 
 Setting equal the min and max values of an axis,
-locks the owner's rotation around that axis… Although this is possible,
+locks the owner's rotation around that axis... Although this is possible,
 using the :guilabel:`Transformation Properties` axis locking feature is probably easier.
 
 This transform does not constrain the bone if it is manipulated by the IK solver.
@@ -51,11 +51,11 @@ Options
    Note that:
 
    - If a min value is higher than its corresponding max value, the constraint behaves as if it had the same value as the max one.
-   - Unlike the :doc:`Limit Location constraint <constraints/transform/limit_location>`, you cannot enable separately lower or upper limits…
+   - Unlike the :doc:`Limit Location constraint <constraints/transform/limit_location>`, you cannot enable separately lower or upper limits...
 
 :guilabel:`For Transform`
    We saw that by default, even though visually constrained, the owner can still have rotations out of bounds (as shown by the :guilabel:`Transform Properties` panel). Well, when you enable this button, this is no more possible - the owner transform properties are also limited by the constraint.
-   Note however that the constraint does not directly modifies the rotation values: you have to rotate one way or the other its owner, for this to take effect…
+   Note however that the constraint does not directly modifies the rotation values: you have to rotate one way or the other its owner, for this to take effect...
 
 :guilabel:`Convert`
    This constraint allows you to chose in which space evaluate its owner's transform properties.

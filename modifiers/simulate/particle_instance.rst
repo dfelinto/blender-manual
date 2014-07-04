@@ -56,7 +56,7 @@ altering rather than the :guilabel:`ParticleInstance` modifier settings.
 
 
 :guilabel:`Object`
-   The :guilabel:`Object` field, associates this :guilabel:`ParticleInstance` modifier with another object (usually an object having a particle system…). This indicates that when the object named in this field emits particles, those particles will have the mesh shape of the current :guilabel:`ParticleInstance` modifier's mesh.
+   The :guilabel:`Object` field, associates this :guilabel:`ParticleInstance` modifier with another object (usually an object having a particle system...). This indicates that when the object named in this field emits particles, those particles will have the mesh shape of the current :guilabel:`ParticleInstance` modifier's mesh.
    If for example a sphere has a :guilabel:`ParticleInstance` modifier added to it, when the :guilabel:`Object` field of this modifier is filled in with the name of an object that emits particles, those particle will be sphere shaped.
    Even though most of the time the :guilabel:`Object` field will have the name of an object with a particle system, this is not mandatory, you can enter an object's name which does not have a particle system, and it will be accepted by the :guilabel:`Object` field, as there do not appear to be any checks made to make sure the object's name entered into this field is "valid".
 
@@ -201,7 +201,7 @@ Using Paths
 
 
 ..    Comment: <!--
-   {{Note|Note|Thanks to [[User:Soylentgreen|Soylentgreen]] for explaining how the {{Literal|Path}} button works - without his help, I would still have been completely lost… -- [[User:Terrywallwork|Terrywallwork]] -- 6th Nov 2008.}}
+   {{Note|Note|Thanks to [[User:Soylentgreen|Soylentgreen]] for explaining how the {{Literal|Path}} button works - without his help, I would still have been completely lost... -- [[User:Terrywallwork|Terrywallwork]] -- 6th Nov 2008.}}
    --> .
 
 

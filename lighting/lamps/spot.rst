@@ -72,7 +72,10 @@ Spot Shape
 
 :guilabel:`Size`
 
-   The size of the outer cone of a :guilabel:`Spot`, which largely controls the circular area a :guilabel:`Spot` light covers. This slider in fact controls the angle at the top of the lighting cone, and can be between **1.0- ** and **180.0- **.
+   The size of the outer cone of a :guilabel:`Spot`,
+   which largely controls the circular area a :guilabel:`Spot` light covers.
+   This slider in fact controls the angle at the top of the lighting cone,
+   and can be between ``1.0- `` and ``180.0``.
 
 
 +------------------------------------------------------------+------------------------------------------------------------+

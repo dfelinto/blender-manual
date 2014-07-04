@@ -95,9 +95,9 @@ Hiding Elements
 ---------------
 
 As in :guilabel:`Object` mode, you can hide the selected meta(s),
-and then reveal what was hidden. This is very handy for cleaning your views up a bit… Note
+and then reveal what was hidden. This is very handy for cleaning your views up a bit... Note
 that the two red and green rings always remain visible in :guilabel:`Edit` mode,
-as well as the select circle (in :guilabel:`Object` mode…).
+as well as the select circle (in :guilabel:`Object` mode...).
 
 To hide the current selection, use :kbd:`H`,
 the :guilabel:`Hide` toggle button in the :guilabel:`MetaBall tools`,
@@ -131,7 +131,7 @@ Conversion
 
 You can only convert metas to meshes,
 but here you have the option to keep the original :guilabel:`Meta` object (i.e.
-create a new :guilabel:`Mesh` one, instead of a "real" conversion…).
+create a new :guilabel:`Mesh` one, instead of a "real" conversion...).
 Note that the resolution used for the new mesh is the :guilabel:`Wiresize` one,
 not the :guilabel:`Rendersize` one.
 
@@ -148,7 +148,7 @@ producing something very similar to having several metas inside the same object.
 
 A family is defined by the left part of an object's name (the one before the dot). Remember,
 an object's name is the one in the "\ :guilabel:`OB` " field, in most panels,
-**not** the "\ :guilabel:`MB` " field, which is the meta datablock's name… For example,
+**not** the "\ :guilabel:`MB` " field, which is the meta datablock's name... For example,
 the *family* part of "\ ``MetaPlane.001`` " is "\ ``MetaPlane`` ".
 Each meta object in the same "family" is associated with one another as discussed below.
 

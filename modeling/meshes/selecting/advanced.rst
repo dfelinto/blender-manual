@@ -18,7 +18,10 @@ The select menu in edit mode contains additional tool for selecting components:
    Selects vertices that are multiples of N.
 :guilabel:`Select Sharp Edges`
 
-   This option will select all edges that are between two faces forming an angle less than a given value, which is asked you *via* a small pop-up dialog. The lower is this angle limit, the sharper will be the selected edges. At **180- **, **all** "manifold" (see below) edges will be selected.
+   This option will select all edges that are between two faces forming an angle less than a given value,
+   which is asked you *via* a small pop-up dialog.
+   The lower is this angle limit, the sharper will be the selected edges.
+   At ``180``, **all** "manifold" (see below) edges will be selected.
 
 :guilabel:`Linked Flat Faces` (:kbd:`Ctrl-Shift-Alt-F`)
    Select connected faces based on a threshold of the angle between them. This is useful for selecting faces that are planar.
@@ -203,7 +206,7 @@ or the :guilabel:`Edge Ring Select` option of the :guilabel:`Edge Specials` menu
 .. admonition:: :guilabel:`Vertex` mode
    :class: note
 
-   In :guilabel:`Vertex` select mode, you can use the same hotkeys when *clicking on the edges* (not on the vertices), but this will directly select the corresponding face loop…
+   In :guilabel:`Vertex` select mode, you can use the same hotkeys when *clicking on the edges* (not on the vertices), but this will directly select the corresponding face loop...
 
 
 .. figure:: /images/Manual-Part-II-EdgeFace-LoopingEdge-Algors-Select.jpg

@@ -31,7 +31,7 @@ Selecting Bones
 
 Selection in :guilabel:`Pose` mode is very similar to the one in :doc:`Edit mode <rigging/armatures/selecting>`, with a few specificities:
 
-- You can only select *whole bones* in :guilabel:`Pose` mode, not roots/tips…
+- You can only select *whole bones* in :guilabel:`Pose` mode, not roots/tips...
 
 
 .. figure:: /images/Doc26-rigging-selectGrouped.jpg
@@ -61,7 +61,7 @@ in :guilabel:`Pose` mode, each bone has a scale of **1.0**, and null rotation an
 
    An example of locally-Y-axis locked rotation, with two bones selected.
    Note that the two green lines materializing the axes are centered on the armature's center,
-   and not each bone's root…
+   and not each bone's root...
 
 
 Moreover, the local space for these actions is the bone's own one
@@ -69,7 +69,7 @@ Moreover, the local space for these actions is the bone's own one
 This is especially important when using axis locking - for example,
 there is no specific "bone roll" tool in :guilabel:`Pose` mode,
 as you can rotate around the bone's main axis just by locking on the local Y axis
-(:kbd:`R-Y-Y`)… This also works with several bones selected;
+(:kbd:`R-Y-Y`)... This also works with several bones selected;
 each one is locked to its own local axis!
 
 When you pose your armature,
@@ -99,12 +99,12 @@ Once you have transformed some bones, if you want to return to their rest positi
 just clear their transformations
 (usual :kbd:`alt-G` / :kbd:`alt-R` / :kbd:`alt-S` shortcuts,
 or :menuselection:`Pose --> Clear Transform --> Clear User Transform`, :kbd:`W-num5`, to clear
-everything at once… - commands also available in the :menuselection:`Pose --> Clear Transform` sub-menu).
+everything at once... - commands also available in the :menuselection:`Pose --> Clear Transform` sub-menu).
 
 Note that in :guilabel:`Envelope` visualization, :kbd:`Alt-S` does not clear the scale,
 but rather scales the :guilabel:`Distance` influence area of the selected bones (also
 available through the :menuselection:`Pose --> Scale Envelope Distance` menu entry - only effective in
-:guilabel:`Envelope` visualization, even though it is always available…).
+:guilabel:`Envelope` visualization, even though it is always available...).
 
 Conversely, you may define the current pose as the new rest position (i.e.
 "apply" current transformations to the :guilabel:`Edit` mode),
@@ -137,7 +137,7 @@ There are several tools for editing poses in an animation.
    Creates a suitable breakdown pose on the current frame
 
 
-There are also in :guilabel:`Pose` mode a bunch of armature-specific editing options/tools, like :doc:`auto-bones naming <rigging/armatures/editing/properties#naming_bones>`, :doc:`properties switching/enabling/disabling <rigging/armatures/editing/properties#properties>`, etc., that we already described in the armature editing pages - follow the links above…
+There are also in :guilabel:`Pose` mode a bunch of armature-specific editing options/tools, like :doc:`auto-bones naming <rigging/armatures/editing/properties#naming_bones>`, :doc:`properties switching/enabling/disabling <rigging/armatures/editing/properties#properties>`, etc., that we already described in the armature editing pages - follow the links above...
 
 
 Copy/Paste Pose
@@ -172,26 +172,26 @@ Here are important points:
 - This tool works at the Blender session level, which means you can use it across armatures, scenes, and even files. However, the pose buffer is not saved, so you lose it when you close Blender.
 - There is only one pose buffer.
 - Only the selected bones are taken into account during copying (i.e. you copy only selected bones' pose).
-- During pasting, on the other hand, bone selection has no importance. The copied pose is applied on a per-name basis (i.e. if you had a "\ ``forearm`` " bone selected when you copied the pose, the "\ ``forearm`` " bone of the current posed armature will get its pose when you paste it - and if there is no such named bone, nothing will happen…).
+- During pasting, on the other hand, bone selection has no importance. The copied pose is applied on a per-name basis (i.e. if you had a "\ ``forearm`` " bone selected when you copied the pose, the "\ ``forearm`` " bone of the current posed armature will get its pose when you paste it - and if there is no such named bone, nothing will happen...).
 - What is copied and pasted is in fact the position/rotation/scale of each bone, in its own space. This means that the resulting pasted pose might be very different from the originally copied one, depending on:
   - The rest position of the bones, and
   - The current pose of their parents.
 
-+----------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
-+**Examples of pose copy/paste.**                                                              |+-------------------------------------------------------------+--------------------------------------------------------------+                                                                          +
-+                                                                                              |+.. figure:: /images/ManRiggingPosingCopyPoseExRestArmaOrg.jpg|.. figure:: /images/ManRiggingPosingCopyPoseExRestArmaDest.jpg+                                                                          +
-+                                                                                              |+                                                             |                                                              +                                                                          +
-+                                                                                              |+   The rest position of our original armature.               |   The rest position of our destination armature.             +                                                                          +
-+                                                                                              |+-------------------------------------------------------------+--------------------------------------------------------------+                                                                          +
-+----------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
-+.. figure:: /images/ManRiggingPosingCopyPoseExPose1ArmaOrg.jpg                                |.. figure:: /images/ManRiggingPosingCopyPoseExPastedPose1ArmaDest.jpg                                                         |.. figure:: /images/ManRiggingPosingCopyPoseExPastedMirrPose1ArmaDest.jpg+
-+                                                                                              |                                                                                                                              |                                                                         +
-+   The first copied pose (note that only forearm and finger2_a are selected and hence copied)…|   …pasted on the destination armature…                                                                                       |   …and mirror-pasted on the destination armature.                       +
-+----------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
-+.. figure:: /images/ManRiggingPosingCopyPoseExPose2ArmaOrg.jpg                                |.. figure:: /images/ManRiggingPosingCopyPoseExPastedPose2ArmaDest.jpg                                                         |.. figure:: /images/ManRiggingPosingCopyPoseExPastedMirrPose2ArmaDest.jpg+
-+                                                                                              |                                                                                                                              |                                                                         +
-+   The same pose as above is copied, but this time with all bones selected, …                 |   …pasted on the destination armature…                                                                                       |   …and mirror-pasted on the destination armature.                       +
-+----------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
++------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
++**Examples of pose copy/paste.**                                                                |+-------------------------------------------------------------+--------------------------------------------------------------+                                                                          +
++                                                                                                |+.. figure:: /images/ManRiggingPosingCopyPoseExRestArmaOrg.jpg|.. figure:: /images/ManRiggingPosingCopyPoseExRestArmaDest.jpg+                                                                          +
++                                                                                                |+                                                             |                                                              +                                                                          +
++                                                                                                |+   The rest position of our original armature.               |   The rest position of our destination armature.             +                                                                          +
++                                                                                                |+-------------------------------------------------------------+--------------------------------------------------------------+                                                                          +
++------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
++.. figure:: /images/ManRiggingPosingCopyPoseExPose1ArmaOrg.jpg                                  |.. figure:: /images/ManRiggingPosingCopyPoseExPastedPose1ArmaDest.jpg                                                         |.. figure:: /images/ManRiggingPosingCopyPoseExPastedMirrPose1ArmaDest.jpg+
++                                                                                                |                                                                                                                              |                                                                         +
++   The first copied pose (note that only forearm and finger2_a are selected and hence copied)...|   ...pasted on the destination armature...                                                                                   |   ...and mirror-pasted on the destination armature.                     +
++------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
++.. figure:: /images/ManRiggingPosingCopyPoseExPose2ArmaOrg.jpg                                  |.. figure:: /images/ManRiggingPosingCopyPoseExPastedPose2ArmaDest.jpg                                                         |.. figure:: /images/ManRiggingPosingCopyPoseExPastedMirrPose2ArmaDest.jpg+
++                                                                                                |                                                                                                                              |                                                                         +
++   The same pose as above is copied, but this time with all bones selected, ...                 |   ...pasted on the destination armature...                                                                                   |   ...and mirror-pasted on the destination armature.                     +
++------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
 
 
 Effects of Bones Relationships
@@ -273,7 +273,7 @@ possible ones below - but this should anyway give you a good idea of the problem
 
 - When several bones of the same "family" are selected, *only the "most parent" ones are really transformed* - the descendants are just handled through the parent relationship process, as if they were not selected (see *Scaling bones, some of them related* - the third tip bone, outlined in yellow, was only scaled down through the parent relationship, exactly as the unselected ones, even though it is selected and active. Otherwise, it should have been twice smaller!).
 - When connected and unconnected bones are selected, and you start a grab operation, only the unconnected bones are affected.
-- When a child connected hinge bone is in the selection, and the "most parent" selected one is connected, when you hit :kbd:`G`, nothing happens - Blender remains in grab operation, which of course has no effect on a connected bone. This might be a bug, in fact, as I see no reason for this behavior…
+- When a child connected hinge bone is in the selection, and the "most parent" selected one is connected, when you hit :kbd:`G`, nothing happens - Blender remains in grab operation, which of course has no effect on a connected bone. This might be a bug, in fact, as I see no reason for this behavior...
 
 So, when posing a chain of bones, you should always edit its elements from the root bone to the tip bone. This process is known as **forward kinematics**, or FK. We will see in a :doc:`later page <rigging/posing/inverse_kinematics>` that Blender features another pose method, called **inverse kinematics**, or IK, which allows you to pose a whole chain just by moving its tip.
 

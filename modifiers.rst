@@ -30,7 +30,7 @@ Modify
 
 The :guilabel:`Modify` group of modifiers are tools a bit similar to the :guilabel:`Deform
 Modifiers` (see below), but which do not directly affect the shape of the object;
-rather they affect some other data, like vertex groups…
+rather they affect some other data, like vertex groups...
 
 :doc:`Mesh Cache <modifiers/modify/mesh_cache>`
    Apply animated mesh data (from external file) to a mesh.
@@ -137,7 +137,7 @@ the attributes of these modifiers are accessible in separate panels.
 :doc:`Explode <modifiers/simulate/explode>`
    Blows up your mesh using a particle system.
 :doc:`Fluid <physics/fluid>`
-   The object is part of a fluid simulation… The modifier added when you designate a mesh as Fluid.
+   The object is part of a fluid simulation... The modifier added when you designate a mesh as Fluid.
 :doc:`Particle Instance <modifiers/simulate/particle_instance>`
    Makes an object act similar to a particle but using the mesh shape instead.
 :doc:`Particle System <physics/particles>`
@@ -145,7 +145,7 @@ the attributes of these modifiers are accessible in separate panels.
 :doc:`Smoke <physics/smoke>`
    Simulates realistic smoke.
 :doc:`Soft Body <physics/soft_body>`
-   The object is soft, elastic… Modifier added when you designate a mesh as Softbody.
+   The object is soft, elastic... Modifier added when you designate a mesh as Softbody.
 :doc:`Ocean <modifiers/simulate/ocean>`
    Quickly creates a realistic, animated ocean.
 

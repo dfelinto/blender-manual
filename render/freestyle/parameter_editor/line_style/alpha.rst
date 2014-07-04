@@ -108,7 +108,7 @@ You can use various properties of the materials, among which some are multi-comp
 give RGB results). In that case, the mean value will be used.
 
 :guilabel:`Mapping`
-   Either a linear progression (from **0.0** to **1.0**, which may be inverted with the :guilabel:`Invert` option), or a custom mapping curve. Note the linear non-inverted option is equivalent to "do nothing", as original values from materials are already in the [0.0, 1.0] range…
+   Either a linear progression (from **0.0** to **1.0**, which may be inverted with the :guilabel:`Invert` option), or a custom mapping curve. Note the linear non-inverted option is equivalent to "do nothing", as original values from materials are already in the [0.0, 1.0] range...
 
 If used with the :guilabel:`Split by Material` option in the :guilabel:`Stroke` tab,
 the result will not be blurred between materials along the strokes.

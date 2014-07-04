@@ -242,7 +242,7 @@ But if you disable this "lock" button,
 you then can specify different active layers and camera, specific to this view.
 This might be useful if you don't want to have your working areas (views)
 cluttered with the whole scene, and still have an ancillary complete view
-(which is unlocked with e.g. all layers shown…).
+(which is unlocked with e.g. all layers shown).
 Or to have several views with different active cameras. Remember that you can use
 (:kbd:`ctrl-pad0` to make the active object the active camera.
 

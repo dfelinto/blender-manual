@@ -49,7 +49,7 @@ Just to give you more shadow options (and further confuse the issue),
 lamps and materials can be set to respectively **only** cast and receive shadows,
 and not light the diffuse/specular aspects of the object. Also,
 render layers can turn on/off the shadow pass,
-and their output may or may not contain shadow information…
+and their output may or may not contain shadow information...
 
 
 Lamps: Ray-traced Shadows

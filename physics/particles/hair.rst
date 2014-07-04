@@ -105,7 +105,7 @@ Usage
    :width: 400px
    :figwidth: 400px
 
-   Image 4b: Particle systems may get hairy…
+   Image 4b: Particle systems may get hairy...
 
 
 - `Fur Tutorial <http://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Furry>`__, which produced (*Image 4b*). It deals especially with short hair.

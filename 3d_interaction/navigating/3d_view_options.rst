@@ -33,7 +33,7 @@ and the type of work you are currently doing, you can switch between several dra
    :doc:`Read more about System Configuration » <preferences/system>`
 
 :guilabel:`Wireframe`
-   Objects only consist of lines that make their shapes recognizable (e.g. the edges of meshes or surfaces…).
+   Objects only consist of lines that make their shapes recognizable (e.g. the edges of meshes or surfaces).
 
 :guilabel:`Bounding Box`
    Objects aren't drawn at all. Instead, this mode shows only the rectangular boxes that correspond to each object's size and shape.
@@ -108,7 +108,7 @@ View
 
    A large clipping range will allow you to see both near and far objects, but reduces the depth precision.
 
-   To avoid this...
+   To avoid this:
 
    - increase the near clipping when working on large scenes.
    - decrease the far clipping when objects are not viewed at a distance.
@@ -159,7 +159,7 @@ Display
 :guilabel:`Outline Selected`
    If disabled, the pink outline around your selected objects in :guilabel:`Solid` / :guilabel:`Shaded` / :guilabel:`Textured` draw types will no longer be displayed.
 :guilabel:`All Object Origins`
-   If enabled, the center dot of objects will always be visible, even for non-selected ones (by default, unselected centers might be hidden by geometry in solid/shaded/textured shadings…).
+   If enabled, the center dot of objects will always be visible, even for non-selected ones (by default, unselected centers might be hidden by geometry in solid/shaded/textured shadings).
 :guilabel:`Relationship Lines`
    Controls whether the dashed parenting, constraining, hooking, etc., lines are drawn.
 :guilabel:`All Edges`
@@ -195,7 +195,7 @@ Background Image
 
 A background picture in your 3D view is very helpful in many situations:
 modeling is obviously one, but it is also useful when painting (e.g.
-you can have reference pictures of faces when painting textures directly on your model…),
+you can have reference pictures of faces when painting textures directly on your model...),
 or animation (when using a video as background), etc.
 
 
@@ -206,7 +206,7 @@ or animation (when using a video as background), etc.
 There are a few points worth to be noted about background images:
 
 - They are specific to their window (i.e. you can have different backgrounds for each of your 3D views, e.g.
-  top/front/side images for relevant views…).
+  top/front/side images for relevant views...).
 - *They are only available for* :guilabel:`Top` *,* :guilabel:`Side` *and* :guilabel:`Front`
   *(and their complementary versions) orthographic views!*
   The picture remains the same when you switch between these six views.

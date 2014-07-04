@@ -43,7 +43,7 @@ The picture *Beveled square* shows a square which has beveled corners.
 
 Although the two pictures show 2D squares,
 the Blender :guilabel:`Bevel` modifier can work on both 2D and 3D meshes of almost any shape,
-not just squares and cubes…
+not just squares and cubes...
 
 The picture *Default bevel* shows a Blender 3D cube with a bevel applied using just the
 default :guilabel:`Bevel` modifier settings.

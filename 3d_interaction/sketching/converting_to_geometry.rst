@@ -43,12 +43,12 @@ General Options
 
 
 Stroke's width will be used to set the curve's control points' radii and weights
-(**not** NURBS weights, but those used e.g. as goal by the softbody simulation…).
+(**not** NURBS weights, but those used e.g. as goal by the softbody simulation...).
 The default behavior is to get strokes' width
 (as defined in its settings - and which might have been modulated by the pen pressure),
 to multiply it by a given constant (0.1), and to assign it directly to weights.
 Radii get the same value scaled by the :guilabel:`Radius Fac` factor (e.g.
-with a **10.0** factor, a stroke width of **3** will give radii of **3.0** …).
+with a **10.0** factor, a stroke width of **3** will give radii of **3.0** ...).
 
 :guilabel:`Normalize Weight` (enabled by default) will scale weights value so that they tightly fit into the ``[0.0, 1.0]`` range.
 
@@ -93,7 +93,7 @@ you will only have a subset of those options available
    This control let you choose how timing data are used.
 
    :guilabel:`No Timing`
-      Just create the curve, without any animation data (hence all following options will be hidden)…
+      Just create the curve, without any animation data (hence all following options will be hidden)...
    :guilabel:`Linear`
       The path animation will be a linear one.
    :guilabel:`Original`

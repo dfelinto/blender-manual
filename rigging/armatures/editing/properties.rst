@@ -17,7 +17,7 @@ FIXME(TODO: Internal Link;
 Transforming Bones
 ------------------
 
-We won't detail here the various transformations of bones, nor things like axis locking, pivot points, and so on, as they are common to most object editing, and already described :doc:`here <3d_interaction/transform_control>` (note however that some options, like snapping, do not seem to work, even though they are available…). The same goes for mirroring, as it's nearly the same as with :doc:`mesh editing <modeling/meshes/tools/transform_deform#mirror>`. Just keep in mind that bones' roots and tips behave more or less like meshes' vertices, and bones themselves act like edges in a mesh.
+We won't detail here the various transformations of bones, nor things like axis locking, pivot points, and so on, as they are common to most object editing, and already described :doc:`here <3d_interaction/transform_control>` (note however that some options, like snapping, do not seem to work, even though they are available...). The same goes for mirroring, as it's nearly the same as with :doc:`mesh editing <modeling/meshes/tools/transform_deform#mirror>`. Just keep in mind that bones' roots and tips behave more or less like meshes' vertices, and bones themselves act like edges in a mesh.
 
 As you know, bones can have two types of relationships: They can be parented,
 and in addition connected. Parented bones behave in :guilabel:`Edit` mode exactly as if they
@@ -56,13 +56,13 @@ When bones are displayed using :guilabel:`Octahedron`, :guilabel:`Stick` or :gui
 +                                                                                                |   :width: 300px                                                                                    |   :width: 300px                                                 +
 +                                                                                                |   :figwidth: 300px                                                                                 |   :figwidth: 300px                                              +
 +                                                                                                |                                                                                                    |                                                                 +
-+                                                                                                |   A single selected bone…                                                                          |   …Scaled in Octahedron visualization.                          +
++                                                                                                |   A single selected bone...                                                                        |   ...Scaled in Octahedron visualization.                        +
 +------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------+
 +.. figure:: /images/ManRiggingBoneScalingExEditModeEnvelope1.jpg                                |.. figure:: /images/ManRiggingBoneScalingExEditModeEnvelope2.jpg                                                                                                      +
 +   :width: 300px                                                                                |   :width: 300px                                                                                                                                                      +
 +   :figwidth: 300px                                                                             |   :figwidth: 300px                                                                                                                                                   +
 +                                                                                                |                                                                                                                                                                      +
-+   A single selected bone…                                                                      |   …Scaled in Envelope visualization - its length remains the same, but its ends' radius are bigger.                                                                  +
++   A single selected bone...                                                                    |   ...Scaled in Envelope visualization - its length remains the same, but its ends' radius are bigger.                                                                +
 +------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------+
 
 
@@ -98,7 +98,7 @@ In :guilabel:`Envelope` visualization, it allows you to edit the influence of th
 
 In the other visualizations, it allows you to edit the "bone size".
 This seems to only have a visible effect in :guilabel:`B-Bone` visualization, but is available
-also with :guilabel:`Octahedron` and :guilabel:`Stick` …  This tool in this situation has
+also with :guilabel:`Octahedron` and :guilabel:`Stick` ...  This tool in this situation has
 another specific behavior: While with other transform tools,
 the "local axes" means the object's axes, here they are the bone's own axes
 (when you lock to a local axis, by pressing the relevant key twice,
@@ -154,17 +154,17 @@ Bone Roll
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
-   | Menu:     :menuselection:`Armature --> Bone Roll --> …`
+   | Menu:     :menuselection:`Armature --> Bone Roll --> ...`
    | Hotkey:   :kbd:`ctrl-R`, :kbd:`ctrl-N`
 
 
 In :guilabel:`Edit` mode, you have options dedicated to the control of the bone roll rotation
 (i.e. the rotation around the Y axis of the bone). Each time you add a new bone,
 its default roll is so that its Z axis is as perpendicular to the current 3D view as possible.
-And each time you transform a bone, Blender tries to determine its best roll…
+And each time you transform a bone, Blender tries to determine its best roll...
 
 But this might lead to an unclear armature,
-with bones rolled in all angles… nasty! To address this problem, you have three options:
+with bones rolled in all angles... nasty! To address this problem, you have three options:
 
 - :menuselection:`Armature --> Bone Roll --> Set Roll` (:kbd:`ctrl-R`) will start a roll-specific rotation, which behaves like any other transform operations (i.e. move the mouse and :kbd:`lmb` click to validate, or type a numeric value and hit enter - or :kbd:`rmb` click or hit :kbd:`Esc` to cancel everything).
 - :menuselection:`Armature --> Bone Roll --> Clear Roll (Z-Axis Up)` (or :kbd:`ctrl-N-1`:menuselection:`popup --> Recalculate Bone Roll Angles --> Clear Roll (Z-Axis Up)`) will reset the selected bone roll so that their Z axis is as much as possible aligned with the global Z axis.
@@ -179,7 +179,7 @@ Properties
 
    | Mode:     :guilabel:`Edit` mode
    | Panel:    :guilabel:`Armature Bones` (:guilabel:`Editing` context, :kbd:`F9`)
-   | Menu:     :menuselection:`Armature --> Bone Settings --> …`
+   | Menu:     :menuselection:`Armature --> Bone Settings --> ...`
    | Hotkey:   :kbd:`shift-W`, :kbd:`ctrl-shift-W`, :kbd:`alt-W`
 
 
@@ -201,7 +201,7 @@ through the three pop-up menus :guilabel:`Toggle Setting`
 (:kbd:`ctrl-shift-W` or :menuselection:`Armature --> Bone Settings --> Enable a Setting`),
 and :guilabel:`Disable Setting`
 (:kbd:`alt-W` or :menuselection:`Armature --> Bone Settings --> Disable a Setting`)
-- all three have the same entries, their respective effect should be obvious…
+- all three have the same entries, their respective effect should be obvious...
 
 :guilabel:`BO`
    The bone name field, see FIXME(TODO: Internal Link; [[#Naming Bones|below]]).
@@ -262,7 +262,7 @@ so you can't visualize the effects of these settings.
    An armature in Pose mode, B-Bone visualization: Bone.003 has one segment, Bone.004 has four, and Bone.005 has sixteen.
 
 
-We saw in :doc:`this page <rigging/armatures/bones>` that bones are made of small rigid segments mapped to a "virtual" Bézier curve. The :guilabel:`Segm` numeric field allows you to set the number of segments inside a given bone - by default, it is **1**, which gives a standard rigid bone! The higher this setting (max **32**), the smoother the bone, but the heavier the pose calculations…
+We saw in :doc:`this page <rigging/armatures/bones>` that bones are made of small rigid segments mapped to a "virtual" Bézier curve. The :guilabel:`Segm` numeric field allows you to set the number of segments inside a given bone - by default, it is **1**, which gives a standard rigid bone! The higher this setting (max **32**), the smoother the bone, but the heavier the pose calculations...
 
 Each bone's ends are mapped to its "virtual" Bézier curve's :doc:`"auto" <modeling/curves#editing_bezier_curves>` handle. Therefore, you can't control their direction, but you can change their "length" using the :guilabel:`In` and :guilabel:`Out` numeric fields, to control the "root handle" and "tip handle" of the bone, respectively. These values are proportional to the default length, which of course automatically varies depending on bone length, angle with previous/next bones in the chain, and so on.
 
@@ -284,7 +284,7 @@ Chain Editing
 
    | Mode:     :guilabel:`Edit` mode
    | Panel:    :guilabel:`Armature Bones` (:guilabel:`Editing` context, :kbd:`F9`)
-   | Menu:     :menuselection:`Armature --> Parent --> …`
+   | Menu:     :menuselection:`Armature --> Parent --> ...`
    | Hotkey:   :kbd:`ctrl-P`, :kbd:`alt-P`
 
 
@@ -295,7 +295,7 @@ and if so, if it should be connected to it.
 
 To parent and/or connect bones, you can:
 
-- In a 3D view, select the bone and *then* its future parent, and hit :kbd:`ctrl-P` (or :menuselection:`Armature --> Parent --> Make Parent…`). In the small :guilabel:`Make Parent` menu that pops up, choose :guilabel:`Connected` if you want the child to be connected to its parent, else click on :guilabel:`Keep Offset`. If you have selected more than two bones, they will all be parented to the last selected one. If you only select one already-parented bone, or all selected bones are already parented to the last selected one, your only choice is to connect them, if not already done. If you select only one non-parented bone, you'll get the :guilabel:`Need selected bone(s)` error message…
+- In a 3D view, select the bone and *then* its future parent, and hit :kbd:`ctrl-P` (or :menuselection:`Armature --> Parent --> Make Parent...`). In the small :guilabel:`Make Parent` menu that pops up, choose :guilabel:`Connected` if you want the child to be connected to its parent, else click on :guilabel:`Keep Offset`. If you have selected more than two bones, they will all be parented to the last selected one. If you only select one already-parented bone, or all selected bones are already parented to the last selected one, your only choice is to connect them, if not already done. If you select only one non-parented bone, you'll get the :guilabel:`Need selected bone(s)` error message...
 
    *With this method, the newly-children bones won't be scaled nor rotated - they will just be translated if you chose to connect them to their parent's tip.*
 
@@ -321,7 +321,7 @@ To parent and/or connect bones, you can:
 
 To disconnect and/or free bones, you can:
 
-- In a 3D view, select the desired bones, and hit :kbd:`alt-P` (or :menuselection:`Armature --> Parent --> Clear Parent…`). In the small :guilabel:`Clear Parent` menu that pops up, choose :guilabel:`Clear Parent` to completely free all selected bones, or :guilabel:`Disconnect Bone` if you just want to break their connections.
+- In a 3D view, select the desired bones, and hit :kbd:`alt-P` (or :menuselection:`Armature --> Parent --> Clear Parent...`). In the small :guilabel:`Clear Parent` menu that pops up, choose :guilabel:`Clear Parent` to completely free all selected bones, or :guilabel:`Disconnect Bone` if you just want to break their connections.
 - In the :guilabel:`Buttons` window, :guilabel:`Armature Bones` panel, for each selected bone, you can select no parent in the :guilabel:`Parent` drop-down list of its sub-panel, to free it completely. If you just want to disconnect it from its parent, disable the :guilabel:`Con` button.
 
 Note that relationships with non-selected children are never modified.
@@ -363,7 +363,7 @@ but also to tell Blender when any two of them are counterparts.
 In case your armature can be mirrored in half (i.e. it's bilaterally symmetrical),
 it's worthwhile to stick to a left/right naming convention.
 This will enable you to use some tools that will probably save you time and effort
-(like the :guilabel:`X-Axis Mirror` editing tool we saw above…).
+(like the :guilabel:`X-Axis Mirror` editing tool we saw above...).
 
 
 - First you should give your bones meaningful base-names, like ``leg``, ``arm``, ``finger``, ``back``, ``foot``, etc.
@@ -427,8 +427,8 @@ The three :guilabel:`AutoName` entries of the :guilabel:`Armature` and :guilabel
 (:kbd:`W`) menus allows you to automatically add a suffix to all selected bones, *based
 on the position of their root relative to the armature center and its local coordinates* :
 
-- :guilabel:`AutoName Left-Right` will add the ``.L`` suffix to all bones *with a positive X-coordinate root*, and the ``.R`` suffix to all bones *with a negative X-coordinate root*. If the root is exactly at **0.0** on the X-axis, the X-coordinate of the tip is used. If both ends are at **0.0** on the X-axis, the bone will just get a period suffix, with no L/R (as Blender cannot decide whether it is a left or right bone…).
-- :guilabel:`AutoName Front-Back` will add the ``.Bk`` suffix to all bones *with a positive Y-coordinate root*, and the ``.Fr`` suffix to all bones *with a negative Y-coordinate root*. The same as with :guilabel:`AutoName Left-Right` goes for **0.0** Y-coordinate bones…
-- :guilabel:`AutoName Top-Bottom` will add the ``.Top`` suffix to all bones *with a positive Z-coordinate root*, and the ``.Bot`` suffix to all bones *with a negative Z-coordinate root*. The same as with :guilabel:`AutoName Left-Right` goes for **0.0** Z-coordinate bones…
+- :guilabel:`AutoName Left-Right` will add the ``.L`` suffix to all bones *with a positive X-coordinate root*, and the ``.R`` suffix to all bones *with a negative X-coordinate root*. If the root is exactly at **0.0** on the X-axis, the X-coordinate of the tip is used. If both ends are at **0.0** on the X-axis, the bone will just get a period suffix, with no L/R (as Blender cannot decide whether it is a left or right bone...).
+- :guilabel:`AutoName Front-Back` will add the ``.Bk`` suffix to all bones *with a positive Y-coordinate root*, and the ``.Fr`` suffix to all bones *with a negative Y-coordinate root*. The same as with :guilabel:`AutoName Left-Right` goes for **0.0** Y-coordinate bones...
+- :guilabel:`AutoName Top-Bottom` will add the ``.Top`` suffix to all bones *with a positive Z-coordinate root*, and the ``.Bot`` suffix to all bones *with a negative Z-coordinate root*. The same as with :guilabel:`AutoName Left-Right` goes for **0.0** Z-coordinate bones...
 
 

@@ -13,7 +13,7 @@ long strands or groovy moving particles. Basically the particles have no dynamic
 interpolated from one system to the next at drawtime.
 Because you have so much control over these kind of systems, you may use it
 
-For example, for machines handling fibers (animation of a loom, …). In (Image 3),
+For example, for machines handling fibers (animation of a loom, ...). In (Image 3),
 the strands flow from the bottom system (First keyed)
 to the second keyed system in the middle,
 and from that to the top system that has None-Physics.

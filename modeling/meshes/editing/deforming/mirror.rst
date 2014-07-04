@@ -40,7 +40,7 @@ Pivot point
 :doc:`Pivot points <3d_interaction/transform_control/pivot_point>` must be set first. Pivot points will become the center of symmetry. If the widget is turned on it will always show where the pivot point is.
 
 
-On (*Mirror around the* :guilabel:`Individual Centers` *…*) the pivot point default to **median point of the selection of vertices** in :guilabel:`Edit` mode. This is a special case of the :guilabel:`Edit` mode as explained on the :doc:`pivot point page <3d_interaction/transform_control/pivot_point>`.
+On (*Mirror around the* :guilabel:`Individual Centers` *...*) the pivot point default to **median point of the selection of vertices** in :guilabel:`Edit` mode. This is a special case of the :guilabel:`Edit` mode as explained on the :doc:`pivot point page <3d_interaction/transform_control/pivot_point>`.
 
 
 .. figure:: /images/MirrorTool1.jpg
@@ -57,7 +57,7 @@ On (*Mirror around the* :guilabel:`Individual Centers` *…*) the pivot point de
    Mesh after mirrored along X axis
 
 
-On (*Mirror around the* :guilabel:`3D Cursor` *…*)
+On (*Mirror around the* :guilabel:`3D Cursor` *...*)
 the pivot point is the :guilabel:`3D Cursor`,
 the transformation orientation is :guilabel:`Local`, a.k.a. the Object space,
 and the axis of transformation is X.

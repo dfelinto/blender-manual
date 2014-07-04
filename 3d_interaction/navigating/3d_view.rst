@@ -254,7 +254,7 @@ To zoom a :guilabel:`Buttons` window,
 hold :kbd:`CTRL-MMB` and move your mouse up and down.
 
 
-.. admonition:: If You Get Lost…
+.. admonition:: If You Get Lost
    :class: note
 
    If you get lost in 3D space, which is not uncommon, two hotkeys will help you:

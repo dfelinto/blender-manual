@@ -42,7 +42,7 @@ and you will have to re-open the file so that Blender re-reads the file.
    They will not be present in your final rendered animation output (but they may show up in Game mode).
 
    Also,
-   static hiss seems to occur whenever two or more audio strips are overlapping in the timeline…
+   static hiss seems to occur whenever two or more audio strips are overlapping in the timeline...
 
 
 Audio Mixing in the VSE

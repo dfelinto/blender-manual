@@ -146,7 +146,7 @@ From the :guilabel:`File` menu, you can also open files with the following tools
 :guilabel:`Open Recent`
    Lists recently used files. Click on one to load it in.
 :guilabel:`Recover Last Session`
-   This will load the ``quit.blend`` file Blender automatically saves just before exiting. So this option enables you to recover your last work session, e.g. if you closed Blender by accident…
+   This will load the ``quit.blend`` file Blender automatically saves just before exiting. So this option enables you to recover your last work session, e.g. if you closed Blender by accident...
 :guilabel:`Recover Auto Save`
    This will open an automatically saved file to recover it.
 

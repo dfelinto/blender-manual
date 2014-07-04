@@ -93,7 +93,7 @@ Save & Load
 :guilabel:`Filter File Extensions`
    By activating this, file dialog windows will only show appropriate files (i.e. ``.blend`` files when loading a complete :guilabel:`Blender` setting). The selection of file types may be changed in the file dialog window.
 :guilabel:`Hide Dot File/Datablocks`
-   Hide file which start with "\ **.** *" on file browsers (in Linux and Apple systems, "\ **.** *" files are hidden).
+   Hide file which start with ``.`` on file browsers (in Linux and Apple systems, ``.`` files are hidden).
 :guilabel:`Hide Recent Locations`
    Hides the :guilabel:`Recent` panel of the :guilabel:`File Browser` window which displays recently accessed folders.
 :guilabel:`Show Thumbnails`

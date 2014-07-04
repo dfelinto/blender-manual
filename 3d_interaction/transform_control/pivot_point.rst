@@ -31,6 +31,6 @@ The pages linked below describe each :guilabel:`Pivot Point` mode in more detail
 - :doc:`Bounding Box Center <3d_interaction/transform_control/pivot_point/bounding_box_center>`
 
 Note that even if the above examples use meshes, the same rules apply for other types (curves,
-surfaces…) as well.
+surfaces...) as well.
 
 

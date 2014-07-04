@@ -18,7 +18,7 @@ It offers four joint types: hinge type, ball-and-socket type, cone-twist, and ge
 
 The joint point and axes are defined and fixed relative to the owner.
 The target moves as if it were stuck to the center point of a stick,
-the other end of the stick rotating around the joint/pivot point…
+the other end of the stick rotating around the joint/pivot point...
 
 This constraint is of no use in most "standard" static or animated projects. However,
 you can use its results outside of the BGE, through the :menuselection:`Game --> Record Animation` menu entry

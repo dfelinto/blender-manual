@@ -12,7 +12,7 @@ along the line joining their original position to the Average position of the po
 All translations are of same value, and are controlled by the mouse.
 It results in something that looks a bit like the scale effect, but much more deforming.
 
-Note that unlike the preceding ones, you can :doc:`lock <3d_interaction/transform_control/axis_locking>` this transformation on axis - even though this has no real interest (except perhaps with a "plane locking"…).
+Note that unlike the preceding ones, you can :doc:`lock <3d_interaction/transform_control/axis_locking>` this transformation on axis - even though this has no real interest (except perhaps with a "plane locking"...).
 
 
 .. figure:: /images/ShrinkFlatten1.jpg
@@ -51,7 +51,7 @@ Warp
 
 The :guilabel:`Warp` transformation is useful in very specific cases.
 It works by warping the selected elements around the 3D cursor (always the 3D cursor;
-it does not take into account the pivot point setting…). It is also view-dependent.
+it does not take into account the pivot point setting...). It is also view-dependent.
 The points that line up vertically with the cursor will remain in place. Each point's distance
 to the cursor's **horizontal position** corresponds to the radius it will be from the cursor
 after the tool has been activated. The tool will then wrap the point around the cursor.
@@ -105,7 +105,7 @@ Shear
 
 
 The :guilabel:`Shear` transformation applies a shearing on your selection of elements
-(in :guilabel:`Edit` mode, vertices/edges/control points/…). Like the other transform tools,
+(in :guilabel:`Edit` mode, vertices/edges/control points/...). Like the other transform tools,
 it uses the view space, and is centered on the pivot point:
 the shear occurs along the view's x-axis passing through the pivot point.
 Everything that is "above" this axis (i.e. has a positive y-axis position) will move (shear)
@@ -174,7 +174,7 @@ First, start with a :doc:`Cube <modeling/meshes/primitives#cube>`.
 - Make sure all the vertices of the cube are selected by pressing :kbd:`A` twice. Then, go to the :guilabel:`Editing` context by pressing :kbd:`F9`. You should be able to see the :guilabel:`Mesh Tools` panel now.
 - Subdivide the cube by pressing the :guilabel:`Subdivide` button in the :guilabel:`Mesh Tools` panel, or with :menuselection:`[W] --> Subdivide`. You can do this as many times as you want; the more you subdivide, the smoother your sphere will be.
 - Now, press :kbd:`shift-alt-S` and move your mouse left or right to interactively control the proportion of "spherification" (or directly type a value, like "1.000" to achieve the same effect as below) - preferably using the :guilabel:`Median Point` pivot point!
-- Alternatively, you can use the :guilabel:`To Sphere` button (in the :guilabel:`Mesh Tools` panel). Select "100" to make your sphere. Note that you *should not move the 3D cursor* - or you won't get a sphere, but a piece of sphere…
+- Alternatively, you can use the :guilabel:`To Sphere` button (in the :guilabel:`Mesh Tools` panel). Select "100" to make your sphere. Note that you *should not move the 3D cursor* - or you won't get a sphere, but a piece of sphere...
 
 
 .. figure:: /images/ToSphereBefore.jpg

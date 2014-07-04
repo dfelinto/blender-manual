@@ -45,7 +45,7 @@ Velocity
 The initial velocity of particles can be set through different parameters,
 based on the type of the particle system (see Particle System tab).
 If the particle system type is Emitter or Hair,
-then the following parameters give the particle an initial velocity in the direction of…
+then the following parameters give the particle an initial velocity in the direction of...
 
 
 Emitter Geometry

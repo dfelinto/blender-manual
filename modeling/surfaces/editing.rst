@@ -13,7 +13,7 @@ Surface selection in :guilabel:`Edit` mode is very similar to :doc:`NURBS curve 
 Select Menu
 ===========
 
-The :guilabel:`Select` menu (3D view headers) is even simpler than for curves…
+The :guilabel:`Select` menu (3D view headers) is even simpler than for curves...
 
    All these options have the same meaning and behavior as in :doc:`Object mode <modeling/objects/selecting>` (and the specificities of :guilabel:`Border Select` in :guilabel:`Edit` mode have already been discussed :doc:`here <modeling/meshes/selecting>`).
 
@@ -34,7 +34,7 @@ Every Nth
    | Hotkey:   None
 
 
-This is the same option as for :doc:`curve selection <modeling/curves/editing#every_nth>`. However, the behavior of the :guilabel:`N` ("selection step") parameter in the 2D of a NURBS surface "cage" seems quite difficult to understand…
+This is the same option as for :doc:`curve selection <modeling/curves/editing#every_nth>`. However, the behavior of the :guilabel:`N` ("selection step") parameter in the 2D of a NURBS surface "cage" seems quite difficult to understand...
 
 
 Control Point Row
@@ -79,7 +79,7 @@ Surface Editing
 ===============
 
 Surface editing has even fewer tools and options than its curve counterpart - and has many
-common points with it… So this page covers (or tries to cover) all the subjects,
+common points with it... So this page covers (or tries to cover) all the subjects,
 from the basics of surface editing to more advanced topics, like retopology.
 
 
@@ -90,7 +90,7 @@ Basic Surface Editing (translation, rotation, scale)
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
-   | Menu:     :menuselection:`Surface --> Transform --> Grab/Move, Rotate, Scale, …`
+   | Menu:     :menuselection:`Surface --> Transform --> Grab/Move, Rotate, Scale, ...`
    | Hotkey:   :kbd:`G` / :kbd:`R` / :kbd:`S`
 
 
@@ -145,7 +145,7 @@ ready to drag the new extruded surface to its destination.
 There are two things very important to understand:
 
 - Surfaces are **2D** objects - so you can't extrude anything *inside* a surface (e.g. "inner" row); it wouldn't make any sense!
-- The control "grid" *must remain "squarish"*, which means that you can only extrude a whole row, not parts of rows here and there…
+- The control "grid" *must remain "squarish"*, which means that you can only extrude a whole row, not parts of rows here and there...
 
 To summarize, the :guilabel:`Extrude` tool will only work when one and only one whole border
 row is selected - otherwise nothing happens.
@@ -153,7 +153,7 @@ row is selected - otherwise nothing happens.
 As for curves, you cannot create a new surface in your object out of nowhere, by just :kbd:`ctrl-lmb` -clicking with nothing selected. However, unlike for curves, there is no "cut" option allowing you to separate a surface into several parts, so you only can create a new surface by
 FIXME(TODO: Internal Link;
 [[#Duplication|copying]]
-) an existing one (:kbd:`shift-D`), or adding a new one (:guilabel:`Add` menu…).
+) an existing one (:kbd:`shift-D`), or adding a new one (:guilabel:`Add` menu...).
 
 
 Examples
@@ -215,10 +215,10 @@ To toggle the cyclic property of a surface along one axis, use :kbd:`C` and choo
 .. admonition:: Inner and Outer
    :class: note
 
-   Surfaces have an "inner" and "outer" face, the first being black whereas the latter is correctly shaded - there does not seem to be any "double sided" shading option for surfaces…). When you close a surface in one or two directions, you might get an entirely black object! In this case, just
+   Surfaces have an "inner" and "outer" face, the first being black whereas the latter is correctly shaded - there does not seem to be any "double sided" shading option for surfaces...). When you close a surface in one or two directions, you might get an entirely black object! In this case, just
    FIXME(TODO: Internal Link;
    [[#Switch Direction|switch the "direction"]]
-   ) of your surface…
+   ) of your surface...
 
 
 Duplication
@@ -236,7 +236,7 @@ Well, as with meshes and curves, this command just duplicates the selection. As 
 the copy is selected and placed in :guilabel:`Grab` mode, so you can move it to another place.
 
 However, with surfaces there are some selections that can't be duplicated,
-in which case they will just be placed in :guilabel:`Grab` mode… In fact,
+in which case they will just be placed in :guilabel:`Grab` mode... In fact,
 only selections forming *a single valid sub-grid* are copyable; let's see this in practice:
 
 - You can copy a single control point. From it, you will be able to "extrude" a "surface curve" along the U axis, and then extrude this unique U-row along the V axis to create a real new surface.
@@ -244,7 +244,7 @@ only selections forming *a single valid sub-grid* are copyable; let's see this i
 - You can copy a single whole sub-grid.
 
 Note that trying to duplicate several valid "sub-grids" (even being single points)
-at once won't work; you'll have to do it one after the other…
+at once won't work; you'll have to do it one after the other...
 
 
 Deleting Elements
@@ -266,7 +266,7 @@ The :guilabel:`Erase` pop-up menu of surfaces offers you two options:
    - Whole rows, and only whole rows must be selected.
    - Only rows along the same axis must be selected (i.e. you can't delete both U- and V-rows at the same time).
 
-   Also remember that NURBS order cannot be higher than its number of control points in a given axis, so it might decrease when you delete some control points… Of course, when only one row remains, the surface becomes a "surface curve"; when only one point remains, there is no more visible surface; and when all points are deleted, the surface itself is deleted.
+   Also remember that NURBS order cannot be higher than its number of control points in a given axis, so it might decrease when you delete some control points... Of course, when only one row remains, the surface becomes a "surface curve"; when only one point remains, there is no more visible surface; and when all points are deleted, the surface itself is deleted.
 
 :guilabel:`All`
    As with meshes or curves, this deletes everything in the object!
@@ -301,7 +301,7 @@ Joining or Merging Surfaces
 Just like :doc:`curves <modeling/curves/editing#joining_or_merging_curves>`, merging two surfaces requires that a single edge, a border row of control points, from two separate surfaces are selected. This means that the surfaces must be part of the same object. For example, you can't join two surfaces while in :guilabel:`Object` mode - but you can of course, as with any objects of the same type,
 FIXME(TODO: Internal Link;
 [[#Joining Objects|join two or more {{Literal|Surface}} objects]]
-) into one object (:kbd:`ctrl-J`) - they just won't be "linked" or merged in a single one… Yes, it's a bit confusing!
+) into one object (:kbd:`ctrl-J`) - they just won't be "linked" or merged in a single one... Yes, it's a bit confusing!
 
 This command is equivalent to creating edges or :kbd:`F` aces for meshes
 (hence its shortcut), and so it only works in :guilabel:`Edit` mode.
@@ -310,10 +310,10 @@ The selection must contains only border rows of the same resolution
 else Blender will try to do its best to guess what to merge with what, or the merge will fail
 (either silently, or stating that "\ ``Resolution doesn't match`` " if rows with
 different number of points are selected, or that there is "\ ``Too few selections to
-merge`` " if you only selected points in one surface…).
+merge`` " if you only selected points in one surface...).
 
 So to avoid problems, you should always only select border rows with the same number of
-points… Note that you can join a border U-row of one surface with a border V-row of another
+points... Note that you can join a border U-row of one surface with a border V-row of another
 one, Blender will automatically "invert" the axis of one surface for them to match correctly.
 
 NURBS surface curves are often used to create objects like hulls, as they define cross sections all along the object, and you just have to "skin" them as described above to get a nice, smooth and harmonious shape. See :doc:`this tutorial <ls/modeling/surfaces/skinning>` for a detailed workflow.
@@ -389,7 +389,7 @@ Switch Direction
 
 This command will "reverse" the direction of any curve with at least one selected element (i.
 e. the start point will become the end one, and *vice versa*).
-Mainly useful when using a curve as path, or the bevel and taper options…
+Mainly useful when using a curve as path, or the bevel and taper options...
 
 
 Other Specials Options
@@ -403,7 +403,7 @@ Other Specials Options
    | Hotkey:   :kbd:`W`
 
 
-The :guilabel:`Specials` menu contains exactly the same additional options as for :doc:`curves <modeling/curves/editing#other_specials_options>` - but I suppose :guilabel:`Set Radius` and :guilabel:`Smooth Radius` have nothing to do here…
+The :guilabel:`Specials` menu contains exactly the same additional options as for :doc:`curves <modeling/curves/editing#other_specials_options>` - but I suppose :guilabel:`Set Radius` and :guilabel:`Smooth Radius` have nothing to do here...
 
 
 Conversion
@@ -426,7 +426,7 @@ Snapping surface components is the same as is with meshes and curves. See :doc:`
 Misc Editing
 ------------
 
-You have some of the same options as with meshes, or in :guilabel:`Object` mode. You can :doc:`separate <modeling/objects/groups_and_parenting#separating_objects>` a given surface (:kbd:`P`), make other selected objects :doc:`children <modeling/objects/groups_and_parenting#parenting_objects>` of one or three control points (:kbd:`ctrl-P` - note however that parenting to three control points has a strange behavior with curves…), or :doc:`add hooks <modifiers/deform/hooks>` to control some points with other objects.
+You have some of the same options as with meshes, or in :guilabel:`Object` mode. You can :doc:`separate <modeling/objects/groups_and_parenting#separating_objects>` a given surface (:kbd:`P`), make other selected objects :doc:`children <modeling/objects/groups_and_parenting#parenting_objects>` of one or three control points (:kbd:`ctrl-P` - note however that parenting to three control points has a strange behavior with curves...), or :doc:`add hooks <modifiers/deform/hooks>` to control some points with other objects.
 
 The :guilabel:`Mirror` tool is also available, behaving exactly as with :doc:`mesh vertices <modeling/meshes/tools#mirror>`.
 

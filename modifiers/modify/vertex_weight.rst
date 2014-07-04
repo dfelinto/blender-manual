@@ -73,7 +73,7 @@ Note that influence only affects weights, adding/removing of vertices to/from ve
    This is a standard texture ID control. When set, it reveals other settings:
 
    :guilabel:`Texture Coordinates`
-      How the texture is mapped to the mesh… You have four choices:
+      How the texture is mapped to the mesh... You have four choices:
 
       - :guilabel:`Local`: use local vertices coordinates.
       - :guilabel:`Global`: use the vertices coordinates in the global space.
@@ -81,13 +81,13 @@ Note that influence only affects weights, adding/removing of vertices to/from ve
       - :guilabel:`UV`: use an UV layer's coordinates.
 
    :guilabel:`Use Channel`
-      Which channel to use as weight factor source (intensity, RGB, HSV, alpha - the options are quite self-explanatory, I guess…).
+      Which channel to use as weight factor source (intensity, RGB, HSV, alpha - the options are quite self-explanatory, I guess...).
 
    :guilabel:`Object`
-      The object to be used as reference for :guilabel:`Object` mapping…
+      The object to be used as reference for :guilabel:`Object` mapping...
 
    :guilabel:`UV Layer`
-      The UV layer to be used for :guilabel:`UV` mapping…
+      The UV layer to be used for :guilabel:`UV` mapping...
 
 
 Viewing Modified Weights
@@ -281,7 +281,7 @@ You will likely have to adjust the linear mapping of the weights produced by the
 :guilabel:`Vertex Weight Proximity` modifier. To do so, edit :guilabel:`Lowest Dist` and
 :guilabel:`Highest Dist` so that the first corresponds to the distance between your target
 object and the vertices you want to have lowest weight,
-and similarly with the second and highest weight…
+and similarly with the second and highest weight...
 
 Now add a :guilabel:`Wave` modifier, set it to your liking,
 and use the same vertex group to control it.
@@ -340,7 +340,7 @@ and that's it! Your nice mountains just shrink to a flat plane near the curve ci
 
 As in the previous example,
 you can insert a :guilabel:`Vertex Weight Edit` modifier before the :guilabel:`Displace` one,
-and play with the :guilabel:`Custom Curve` mapping to get a larger/narrower "valley"…
+and play with the :guilabel:`Custom Curve` mapping to get a larger/narrower "valley"...
 
 
 +----------------------------------------------------------------+---------------------------------------------------------------+---------------------------------------------------------------+
@@ -377,8 +377,8 @@ Using a Texture and the Mapping Curve
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Here we are going to create a sort of strange alien wave (yes,
-another example with the :guilabel:`Wave` modifier… but it's a highly visual one;
-it's easy to see the vertex group effects on it…).
+another example with the :guilabel:`Wave` modifier... but it's a highly visual one;
+it's easy to see the vertex group effects on it...).
 
 So as above, add a **100×100** grid. This time, add a vertex group,
 but without assigning any vertex to it - we'll do this dynamically.
@@ -394,10 +394,10 @@ they all have a default weight of **0.0**, which is replaced by the second defau
 
 Now, select or create a masking texture - here I chose a default :guilabel:`Magic` one.
 The values of this texture will control how much of the "second weight" (**1.0**)
-replaces the "first weight" (**0.0**)… In other words, they are taken as weight values!
+replaces the "first weight" (**0.0**)... In other words, they are taken as weight values!
 
 You can then select which texture coordinates and channel to use.
-Leave the mapping to the default :guilabel:`Local` option, and play with the various channels…
+Leave the mapping to the default :guilabel:`Local` option, and play with the various channels...
 
 
 +--------------------------------------------------------------+--------------------------------------------------------+---------------------------------------------------------------+
@@ -422,7 +422,7 @@ By default, it's a one-to-one linear mapping - in other words,
 it does nothing! Change it to something like in (*A customized mapping curve*),
 which maps ``[0.0, 0.5]`` to ``[0.0, 0.25]`` and ``[0.5,
 1.0]`` to ``[0.75, 1.0]``, thus producing nearly only weights below **0.25**,
-and above **0.75** : this creates great "walls" in the waves…
+and above **0.75** : this creates great "walls" in the waves...
 
 
 +--------------------------------------------------------------+--------------------------------------------------------+------------------------------------------------------------+

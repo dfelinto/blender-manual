@@ -5,7 +5,7 @@
 Skinning to Shapes
 ==================
 
-We saw in the :doc:`previous page <rigging/skinning/objects>` how to link (parent) whole objects to armature bones - a way to control the transform properties of this object via a rig. However, armatures are much more powerful: they can deform the *shape* of an object (i.e. affect its ObData datablock - its vertices or control points…).
+We saw in the :doc:`previous page <rigging/skinning/objects>` how to link (parent) whole objects to armature bones - a way to control the transform properties of this object via a rig. However, armatures are much more powerful: they can deform the *shape* of an object (i.e. affect its ObData datablock - its vertices or control points...).
 
 In this case, the child object is parented (skinned) to the whole armature,
 so that each of its bones controls a part of the "skin" object's geometry.
@@ -188,8 +188,8 @@ in* :guilabel:`Edit` *mode only, defaults to* **1.0**),
 that controls the global influence of the bone over the deformed object,
 when using the envelopes method.
 It is only useful for the parts of geometry that are "shared",
-influenced by more than one bone (generally, at the joints…) - a bone with a high weight will
-have more influence on the result than one with a low weight… Note that when set to* **0.0**,
+influenced by more than one bone (generally, at the joints...) - a bone with a high weight will
+have more influence on the result than one with a low weight... Note that when set to* **0.0**,
 it has the same effect as disabling the* :guilabel:`Deform` option.
 
 :guilabel:`Mult`
@@ -277,7 +277,7 @@ with a fine tuning of each bone's influence using these vertex weights.
 Quite useful when you want to have a smooth joint. For example, when you skin an elbow,
 the upperarm vertex group contains the vertices of this part at full weight (** *1.0* **),
 and when reaching the elbow area, these weights decrease progressively to** *0.0'* when
-reaching the forearm zone - and vice versa for the forearm group weights… Of course,
+reaching the forearm zone - and vice versa for the forearm group weights... Of course,
 this is a very raw example - skinning a realistic joint is a big job,
 as you have to carefully find good weights for each vertex,
 to have the most realistic behavior when bending - and this is not an easy thing!

@@ -41,7 +41,7 @@ executing:
    Available in all select modes, it will place the remaining vertex at the 3D Cursor.
 
 :guilabel:`Collapse`
-   This is a special option, as it might let "live" more than one vertex. In fact, you will have as much remaining vertices as you had "islands" of selection (i.e. groups of linked selected vertices). The remaining vertices will be positioned at the center of their respective "islands". It is also available *via* the :menuselection:`Mesh --> Edges --> Collapse` menu option…
+   This is a special option, as it might let "live" more than one vertex. In fact, you will have as much remaining vertices as you had "islands" of selection (i.e. groups of linked selected vertices). The remaining vertices will be positioned at the center of their respective "islands". It is also available *via* the :menuselection:`Mesh --> Edges --> Collapse` menu option...
 
 Merging vertices of course also deletes some edges and faces. But Blender will do everything
 it can to preserve edges and faces only partly involved in the reunion.
@@ -206,7 +206,7 @@ If you split a face, the original face itself will be deleted,
 but its edges and vertices remain unchanged. And so on.
 
 Note that the "copy" is left exactly at the same position as the original, so you must move it
-(:kbd:`G`) to see it clearly…
+(:kbd:`G`) to see it clearly...
 
 
 Separate
@@ -346,7 +346,7 @@ Add Hook
    | Hotkey:   :kbd:`ctrl-H`
 
 
-Adds a :doc:`Hook Modifier <modifiers/deform/hooks>` (using either a new empty, or the current selected object) linked to the selection. Note that even if it appears in the history menu, this action cannot be undone in :guilabel:`Edit` mode - probably because it involves other objects…
+Adds a :doc:`Hook Modifier <modifiers/deform/hooks>` (using either a new empty, or the current selected object) linked to the selection. Note that even if it appears in the history menu, this action cannot be undone in :guilabel:`Edit` mode - probably because it involves other objects...
 
 
 Blend From Shape, Propagate Shapes

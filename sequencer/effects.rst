@@ -107,7 +107,7 @@ and **1.0** always gives a result between **0.0** and **1.0**
 (with the 'traditional' representation with three bytes - like RGB(**124**, **255**,
 **56**) -, the multiplications give far too high results - like RGB(**7316**, **46410**,
 **1848**) -, that have to be 'brought back', normalised - just by dividing them by
-**256** ! - to 'go back' to range of **0** to **255** …).
+**256** ! - to 'go back' to range of **0** to **255** ...).
 
 This effect has two main usages:
 

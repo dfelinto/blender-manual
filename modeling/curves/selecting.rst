@@ -7,15 +7,15 @@ Curve Selection
 
 Curve selection in :guilabel:`Edit` mode is much less complex than with meshes! Mainly this is
 because you have only one selectable element type, the control points
-(no select mode needed here…). These points are a bit more complex than simple vertices,
-however, especially for Béziers, as there is the central vertex, and its two handles…
+(no select mode needed here...). These points are a bit more complex than simple vertices,
+however, especially for Béziers, as there is the central vertex, and its two handles...
 
 The basic tools are the same as with :doc:`meshes <modeling/meshes/selecting/basics>`, so you can select a simple control point with a :kbd:`lmb` -click, add to current selection with :kbd:`shift-lmb` -clicks, :kbd:`B` order-select, and so on.
 
 One word about the Bézier control points: when you select the main central vertex,
 the two handles are automatically selected too, so you can grab it as a whole,
 without creating an angle in the curve. However, when you select a handle,
-only this vertex is selected, allowing you to modify this control vector…
+only this vertex is selected, allowing you to modify this control vector...
 
 :kbd:`L` (or :kbd:`ctrl-L`) will add to the selection the cursor's nearest control point, and all the linked ones, i.e. all points belonging to the same curve. Note that for Bézier, using :kbd:`L` with a handle selected will select the whole control point and all the linked ones.
 
@@ -66,7 +66,7 @@ Select/Deselect First/Last
 
 These commands will toggle the selection of the first or last control point(s) of the curve(s)
 in the object. This is useful to quickly find the start of a curve (e.g.
-when using it as path…).
+when using it as path...).
 
 
 Select Next/Previous
@@ -100,7 +100,7 @@ These two options are complementary and similar to :doc:`those for meshes <model
 
 The algorithm is the same as with meshes, but results are more easy to understand:
 
-- :guilabel:`More`: for each selected control point, select **all** its linked points (i.e. one or two…).
+- :guilabel:`More`: for each selected control point, select **all** its linked points (i.e. one or two...).
 - :guilabel:`Less`: for each selected control point, if **all** points linked to this point are selected, keep this one selected. Otherwise, de-select it.
 
 This implies two points:

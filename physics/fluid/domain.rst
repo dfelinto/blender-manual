@@ -201,7 +201,7 @@ Domain World
 
    So, either the values in the tables are wrong (one way or the other),
    or the law to pass from dynamic viscosity to kinematic viscosity is just a "trick",
-   an approximation, only working with fluids around water viscosity…
+   an approximation, only working with fluids around water viscosity...
 
    Don't know, I'm not a physicist, but there definitively something wrong here,
    so if someone who knows better about this matter could check and correct it, it would be nice!
@@ -374,12 +374,12 @@ Notes
    of more advanced options, that often are fine set at the defaults.
 
    Standard
-   :The settings in this set are already been described above…
+   :The settings in this set are already been described above...
 
    Advanced
    :Gravity vector
    ::Strength and direction of the gravity acceleration and any lateral (x,y plane) force. The main component should be along the negative z-axis (in <code>m.s<sup>-2</sup></code>).
-   ::''Please Note:'' All of the x,y,z values should not be zero, or the fluid won't flow! Imagine a droplet floating in the nothingness of deep space… It must be some small number in at least one direction.
+   ::''Please Note:'' All of the x,y,z values should not be zero, or the fluid won't flow! Imagine a droplet floating in the nothingness of deep space... It must be some small number in at least one direction.
 
    --> .
 

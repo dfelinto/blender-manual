@@ -25,7 +25,7 @@ and have 5 PCs of roughly equal processing power,
 you can allocate PC#1 to produce frames 1-40, PC#2 to frames 41-80, and so on.
 If one PC is slower than the others, simply allocate fewer frames to that PC.
 To do LAN renders, map the folder containing the .blend file
-(in which you should have packed your external data, like the textures, …)
+(in which you should have packed your external data, like the textures, ...)
 as a shareable drive. Start Blender on each PC and open the .blend file.
 Change the Start and End frame counts on that PC, but do not save the .blend file.
 Start Rendering. If you use relative paths for your output pathspec,

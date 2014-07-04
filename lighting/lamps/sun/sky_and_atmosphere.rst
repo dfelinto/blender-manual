@@ -21,7 +21,7 @@ For example, when the Sun is high, the sky is blue (and the horizon, somewhat wh
 When the Sun is near the horizon, the sky is dark blue/purple, and the horizon turns orange.
 The dispersion of the atmosphere is also more visible when it is a bit foggy:
 the farther away an object is,
-the more "faded" in light gray it is… Go out into the countryside on a nice hot day,
+the more "faded" in light gray it is... Go out into the countryside on a nice hot day,
 and you will see.
 
 To enable this effect, you have to use a :guilabel:`Sun` light source. If, as usual,
@@ -36,7 +36,7 @@ Now, there are two important angles for the :guilabel:`Sky/Atmosphere` effect:
 the "incidence" angle (between the light direction and the X-Y plane),
 which determines the "hour" of the day (as you might expect,
 the default rotation - straight down - is "mid-day",
-a light pointing straight up is "midnight", and so on…).
+a light pointing straight up is "midnight", and so on...).
 And the rotation around the Z axis determines the position of the sun around the camera.
 
 
@@ -130,7 +130,7 @@ Atmosphere
 ----------
 
 :guilabel:`Atmosphere`
-   This button enables the atmosphere settings. It will not modify the background, but it tries to simulate the effects of an atmosphere: scattering of the sunlight in the atmosphere, its attenuation, …
+   This button enables the atmosphere settings. It will not modify the background, but it tries to simulate the effects of an atmosphere: scattering of the sunlight in the atmosphere, its attenuation, ...
 
 :guilabel:`Intensity`
 
@@ -364,10 +364,10 @@ and :guilabel:`Sun Bright` to **2.0**.
 Hints and limitations
 =====================
 
-To always have the :guilabel:`Sun` pointing at the camera center, you can use a :doc:`TrackTo constraint <constraints/tracking/track_to>` on the sun object, with the camera as target, and :guilabel:`-Z` as the "To" axis (use either :guilabel:`X` or :guilabel:`Y` as "Up" axis). This way, to modify height/position of the sun in the rendered picture, you just have to move it; orientation is automatically handled by the constraint. Of course, if your camera itself is moving, you should also add e.g. a :doc:`Copy Location constraint <constraints/transform/copy_location>` to your :guilabel:`Sun` lamp, with the camera as target - and the :guilabel:`Offset` option activated… This way, the sun light won't change as the camera moves around.
+To always have the :guilabel:`Sun` pointing at the camera center, you can use a :doc:`TrackTo constraint <constraints/tracking/track_to>` on the sun object, with the camera as target, and :guilabel:`-Z` as the "To" axis (use either :guilabel:`X` or :guilabel:`Y` as "Up" axis). This way, to modify height/position of the sun in the rendered picture, you just have to move it; orientation is automatically handled by the constraint. Of course, if your camera itself is moving, you should also add e.g. a :doc:`Copy Location constraint <constraints/transform/copy_location>` to your :guilabel:`Sun` lamp, with the camera as target - and the :guilabel:`Offset` option activated... This way, the sun light won't change as the camera moves around.
 
 If you use the default :guilabel:`Add` mixing type,
-you should use a very dark-blue world color, to get correct "nights"…
+you should use a very dark-blue world color, to get correct "nights"...
 
 This effect works quite well with a :guilabel:`Hemi` lamp, or some ambient occlusion,
 to fill in the :guilabel:`Sun` shadows.

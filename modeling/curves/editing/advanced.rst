@@ -5,7 +5,7 @@
 Curve Deform
 ============
 
-:guilabel:`Curve Deform` provides a simple but efficient method of defining a deformation on a mesh. By parenting a mesh object to a curve, you can deform the mesh up or down the curve by moving the mesh along, or orthogonal to, the dominant axis. This is a most useful tool to make an object follow a complex path, like e.g. a sheet of paper inside a printer, a film inside a camera, the water of a canal…
+:guilabel:`Curve Deform` provides a simple but efficient method of defining a deformation on a mesh. By parenting a mesh object to a curve, you can deform the mesh up or down the curve by moving the mesh along, or orthogonal to, the dominant axis. This is a most useful tool to make an object follow a complex path, like e.g. a sheet of paper inside a printer, a film inside a camera, the water of a canal...
 
 The :guilabel:`Curve Deform` works on a (global) dominant axis, X, Y, or Z.
 This means that when you move your mesh in the dominant direction,
@@ -18,7 +18,7 @@ the curve endings.
 If the "curve path" is :guilabel:`3D`, the :guilabel:`Tilt` value of its control points will be used (see the
 FIXME(TODO: Internal Link;
 [[#Extrusion|Extrusion]]
-) section above) to twist the "curved" object around it. Unfortunately, the other :guilabel:`Radius` property is not used (it would have been possible, for example, to make it control the size of the "curved" object…).
+) section above) to twist the "curved" object around it. Unfortunately, the other :guilabel:`Radius` property is not used (it would have been possible, for example, to make it control the size of the "curved" object...).
 
 
 .. admonition:: A Tip
@@ -30,7 +30,7 @@ FIXME(TODO: Internal Link;
 .. admonition:: Use modifiers!
    :class: note
 
-   The :guilabel:`Curve Deform` relationship is now also a modifier, called :doc:`Curve <modifiers/deform/curve>`. The :guilabel:`Curve` modifier function acts the same as its counterpart, except that when the modifier is used, the "dominant axis" is set inside its properties - and the :guilabel:`Track X` / :guilabel:`Y` / :guilabel:`Z` buttons no longer have an effect on it. And you have some goodies, like the possibility, if "curving" a mesh, to only curve one of its vertex groups…
+   The :guilabel:`Curve Deform` relationship is now also a modifier, called :doc:`Curve <modifiers/deform/curve>`. The :guilabel:`Curve` modifier function acts the same as its counterpart, except that when the modifier is used, the "dominant axis" is set inside its properties - and the :guilabel:`Track X` / :guilabel:`Y` / :guilabel:`Z` buttons no longer have an effect on it. And you have some goodies, like the possibility, if "curving" a mesh, to only curve one of its vertex groups...
 
 
 Interface
@@ -41,7 +41,7 @@ Interface
    Make Parent menu.
 
 
-When parenting an object (mesh, curve, meta, …) to a curve (:kbd:`ctrl-P`),
+When parenting an object (mesh, curve, meta, ...) to a curve (:kbd:`ctrl-P`),
 you will be presented with a menu (:guilabel:`Make Parent` *menu*).
 
 By selecting :guilabel:`Curve Deform`, you enable the curve deform function on the mesh object.
@@ -114,7 +114,7 @@ Let's make a simple example:
   - Select the Monkey (:kbd:`rmb`).
   - In the :guilabel:`Editing` context (:kbd:`F9`), :guilabel:`Modifiers` panel, add a :guilabel:`Curve` modifier.
   - Type the name of the curve (should be "\ ``Curve`` ") in the :guilabel:`Ob` field of the modifier, and optionally change the dominant axis to :guilabel:`Y`.
-- Or you can choose the old, deprecated method (note that it creates a "virtual" modifier…):
+- Or you can choose the old, deprecated method (note that it creates a "virtual" modifier...):
   - Select the Monkey (:kbd:`rmb`), and then shift select the curve (:kbd:`shift-rmb`).
   - Press :kbd:`ctrl-P` to open up the :guilabel:`Make Parent` menu.
   - Select :guilabel:`Curve Deform` (:guilabel:`Make Parent` *menu*).
@@ -177,12 +177,12 @@ We will see the different settings, depending on their scope of action:
    the volume is narrower? The same principle remains for open 2D and 3D curves,
    but the way the "outside" and "inside" of the curve is determined seems a bit odd?
 
-   It has the same effect with extruded "bevel" objects…
+   It has the same effect with extruded "bevel" objects...
 
 :guilabel:`Tilt`
    This setting - unfortunately, you can never see its value anywhere in Blender - controls the "twisting angle" around the curve for each point - so it is only relevant with 3D curves!
    You set it using the :guilabel:`Tilt` transform tool (:kbd:`T`, or :menuselection:`Curve --> Transform --> Tilt`), and you can reset it to its default value (i.e. perpendicular to the original curve plane) with :kbd:`alt-T` (or :menuselection:`Curve --> Control Points --> Clear Tilt`).
-   With NURBS, the tilt is always smoothly interpolated. However, with Bézier, you can choose the interpolation algorithm to use in the :guilabel:`Tilt Interpolation` drop-down list of the :guilabel:`Curve Tools` panel (you will find the classical :guilabel:`Linear`, :guilabel:`Cardinal`, :guilabel:`B Spline` and :guilabel:`Ease` options…).
+   With NURBS, the tilt is always smoothly interpolated. However, with Bézier, you can choose the interpolation algorithm to use in the :guilabel:`Tilt Interpolation` drop-down list of the :guilabel:`Curve Tools` panel (you will find the classical :guilabel:`Linear`, :guilabel:`Cardinal`, :guilabel:`B Spline` and :guilabel:`Ease` options...).
 
 
 Simple Extrusion
@@ -199,14 +199,14 @@ Let's first see the "simple" extrusion of curves, without additional bevel/taper
    If set to **0.0**, there is no "simple" extrusion!
 
 :guilabel:`Bevel Depth`
-   This will add a bevel to the extrusion. See below for its effects…
+   This will add a bevel to the extrusion. See below for its effects...
    Note that the bevel makes the extrusion wider and higher.
    If set to **0.0**, there is no bevel (max value: **2.0**).
 
 :guilabel:`Bev Resol`
    Controls the resolution of the bevel created by a :guilabel:`Bevel Depth` higher than zero.
    If set the **0** (the default), the bevel is a simple "flat" surface.
-   Higher values will smooth, round off the bevel, similar to the resolution settings of the curve itself…
+   Higher values will smooth, round off the bevel, similar to the resolution settings of the curve itself...
 
 We have three sub-classes of results, depending on whether the curve is open or closed or 3D:
 
@@ -248,7 +248,7 @@ To enable this type of extrusion, you have to type a valid curve object name in 
 extrusion. The "bevel" curve will control the cross section of the extruded object.
 Whether the :guilabel:`BevOb` curve is 2D or 3D has no importance, but if it is closed,
 it will create a "tube-like" extrusion;
-otherwise you will get a sort of gutter or slide object…
+otherwise you will get a sort of gutter or slide object...
 
 The object is extruded along the whole length of all internal curves. By default,
 the width of the extrusion is constant, but you have two ways to control it,
@@ -258,7 +258,7 @@ The :guilabel:`Radius` of the points is set using the :guilabel:`Shrink/Fatten R
 transform tool (:kbd:`alt-S`, or :menuselection:`Curve --> Transform --> Shrink/Fatten Radius`),
 or with the :guilabel:`Set Radius` entry in the :guilabel:`Specials` menu (:kbd:`W`).
 Here again,
-you unfortunately cannot visualize anywhere the :guilabel:`Radius` of a given control point…
+you unfortunately cannot visualize anywhere the :guilabel:`Radius` of a given control point...
 
 The :guilabel:`Radius` allows you to directly control the width of the extrusion along the
 "spinal" curve. As for :guilabel:`Tilt` (see above),

@@ -26,7 +26,7 @@ into the limit area will appear to do nothing until the internal coordinates are
 the limit threshold (unless you enabled the *For Transform* option, see below).
 
 Setting equal the min and max values of an axis,
-locks the owner's movement along that axis… Although this is possible,
+locks the owner's movement along that axis... Although this is possible,
 using the *Transformation Properties* axis locking feature is probably easier!
 
 
@@ -51,7 +51,7 @@ Options
 
 :guilabel:`For Transform`
    We saw that by default, even though visually constrained, the owner can still have coordinates out of bounds (as shown by the *Transform Properties* panel). Well, when you enable this button, this is no longer possible - the owner's transform properties are also limited by the constraint.
-   Note however that the constraint does not directly modify the coordinates: you have to grab its owner one way or another for this to take effect…
+   Note however that the constraint does not directly modify the coordinates: you have to grab its owner one way or another for this to take effect...
 
 :guilabel:`Convert`
    This constraint allows you to choose in which space to evaluate its owner's transform properties.

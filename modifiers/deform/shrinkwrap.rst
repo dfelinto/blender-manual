@@ -30,7 +30,7 @@ Something of a view-independent :doc:`retopo tool <modeling/meshes/editing/retop
 .. admonition:: Note
    :class: note
 
-   For those who found the :guilabel:`Shrinkwrap` modifier pretty useful, but would like it to move empties or object's positions … have a look at the :doc:`Shrinkwrap constraint <constraints/relationship/shrinkwrap>` !
+   For those who found the :guilabel:`Shrinkwrap` modifier pretty useful, but would like it to move empties or object's positions ... have a look at the :doc:`Shrinkwrap constraint <constraints/relationship/shrinkwrap>` !
 
 
 Options
@@ -68,8 +68,8 @@ Options
       This implies that, depending on the settings of this option and the relative positions of the two objects,
       the modified object might sometimes remain undeformed.
       This is not a bug; just "play" with the settings
-      (especially the :guilabel:`Negative` / :guilabel:`Positive` ones), or move one of the objects around…
-      This method is the hardest to master, as it might sometimes give unexpected results… It adds quite a few extra options:
+      (especially the :guilabel:`Negative` / :guilabel:`Positive` ones), or move one of the objects around...
+      This method is the hardest to master, as it might sometimes give unexpected results... It adds quite a few extra options:
    :guilabel:`Subsurf Levels`
       This applies a (temporary) :guilabel:`Catmull-Clark` subsurf to the modified object, before computing the wrap when using Projection mode.
    :guilabel:`Subsurf Limit`

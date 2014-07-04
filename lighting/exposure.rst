@@ -39,7 +39,7 @@ Options
    The exponential curvature, with **0.0** being linear, and **1.0** being curved.
 
 :guilabel:`Range`
-   The range of input colors that are mapped to visible colors (**0.0** - **1.0**).
+   The range of input colors that are mapped to visible colors ``(0.0 - 1.0)``.
 
 So without :guilabel:`Exposure` we will get a linear correction of all color values:
 
@@ -52,8 +52,8 @@ Examples
 
 With a linear correction every color value will get changed,
 which is probably not what we want. :guilabel:`Exposure` brightens the darker pixels,
-so that the darker parts of the image won't be changed at all (:guilabel:`Range` *:* **2.0** *,*
-:guilabel:`Exposure` *:* **0.3**).
+so that the darker parts of the image won't be changed at all
+(:guilabel:`Range` : ``2.0``, :guilabel:`Exposure` : ``0.3``).
 
 
 +----------------------------------------------------------+----------------------------------------------------------------------+

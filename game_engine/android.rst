@@ -1,5 +1,5 @@
 ..    TODO/Review: {{review
-   |text=This sub-section needs some review & formatting…
+   |text=This sub-section needs some review & formatting...
    }} .
 
 

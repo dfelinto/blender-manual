@@ -57,19 +57,19 @@ Appending library objects into your current project
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The following procedure appends an object with all its linked data, such as mesh data,
-materials, textures, …, to the current .blend file.
+materials, textures, ..., to the current .blend file.
 
 - Select :guilabel:`File` → :guilabel:`Append or Link`.
 - Locate and select the file that contains the object you want to append (often a "library" file).
 - Navigate to the :guilabel:`Object` section of the file.
 - Select one object from the list using :kbd:`lmb`, multiple objects via :kbd:`rmb`, and/or a range of objects by dragging :kbd:`rmb`.
 - Repeat the above for each kind of object you wish to append or link. Parents and armatures (all modifier objects) must be selected separately.
-- Set desired options that are shown in the header (:guilabel:`At Cursor`, :guilabel:`Active Layer`, …).
+- Set desired options that are shown in the header (:guilabel:`At Cursor`, :guilabel:`Active Layer`, ...).
 - :kbd:`lmb` on :guilabel:`Load Library` or press :kbd:`Enter` or :kbd:`mmb` directly on the data to append.
 
 Of course, you can append or link many other things besides objects:
 all the :guilabel:`ObData` - cameras, curves, groups, lamps, materials, meshes,
-etc. - and even **an entire scene** … Note that there is a **big** difference between
+etc. - and even **an entire scene** ... Note that there is a **big** difference between
 adding the object and the object data, such as mesh.
 If you append a :guilabel:`Mesh` datablock,
 you are only bringing in the data about that particular instance of mesh,
@@ -112,15 +112,14 @@ Some more loading option buttons (in the :guilabel:`File Browser` header) includ
 
 
 
-Reusing Objects (Meshes, Curves, Cameras, Lights, …)
-----------------------------------------------------
+Reusing Objects (Meshes, Curves, Cameras, Lights, ...)
+------------------------------------------------------
 
-Let's suppose you created a wheel in one .
+Let's suppose you created a wheel in one.
 blend file and want to reuse it for your current project.
 The physical model of the wheel would be a mesh, and probably comprised of a tire and rim.
-Hopefully you named this mesh something reasonable, like, oh, I don't know,
-"\ ``Wheel`` ". The wheel may be colored and thus have some materials assigned to it
-(like rubber and chrome).
+Hopefully you named this mesh something reasonable, like, oh, I don't know, ``Wheel``.
+The wheel may be colored and thus have some materials assigned to it (like rubber and chrome).
 
 Once you navigate to the file, select the "\ ``Wheel`` "
 (in the :guilabel:`Object` s datablocks) and it will be imported into your current file.

@@ -92,7 +92,7 @@ A common table has a top and four legs. Model one leg,
 and then make linked duplicates three times for each of the remaining legs.
 If you later make a change to the mesh, all the legs will still match.
 Linked duplicates also apply to a set of drinking glasses,
-wheels on a car… anywhere there is repetition or symmetry.
+wheels on a car... anywhere there is repetition or symmetry.
 
 
 Procedural Duplication

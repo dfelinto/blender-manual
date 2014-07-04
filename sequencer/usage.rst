@@ -297,7 +297,7 @@ Adding Plugin Effects
 ~~~~~~~~~~~~~~~~~~~~~
 
 FIXME(Template Unsupported: Warning/Not Yet Implemented;
-{{Warning/Not Yet Implemented|VSE plugins are not working in Blender 2.6 currently…}})
+{{Warning/Not Yet Implemented|VSE plugins are not working in Blender 2.6 currently...}})
 
 .. Comment: <!--[[File:Manual-VSE-Plugins.png|right]]
    Sequence Plugins are special little routines written by special programmers in the C language
@@ -368,7 +368,7 @@ Use :guilabel:`FilterY` if the strip is from broadcast video and has even or odd
 fields. Enhance the color saturation through the :guilabel:`Mul` tiply field.
 Play a strip backwards by enabling :guilabel:`Reverse Frames`.
 Tell Blender to display every nth frame by entering a :guilabel:`Strobe` value. Finally,
-when using MPEG video (VCD, DVD, XVid, DivX, …),
+when using MPEG video (VCD, DVD, XVid, DivX, ...),
 an image is built up over the course of a few frames; use the :guilabel:`Preseek` field to
 tell Blender to look backward and compose the image based on the n previous frames (e.g.
 **15** for Mpeg2 DVD).

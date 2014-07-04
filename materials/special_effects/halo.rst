@@ -209,7 +209,7 @@ Let's use a halo material to create a dotmatrix display.
 - To begin, add a grid with the dimensions 32x16. Then add a camera and adjust your scene so that you have a nice view of the billboard.
 
 
-- Use a 2D image program to create some red text on a black background, using a simple and bold font (if you are a lazy lizard [I hope this not offensive, I just like how it sounds!], you can just save the picture below on your hard drive…). *Dot matrix image texture.* shows an image 512 pixels wide by 64 pixels high, with some black space at both sides.
+- Use a 2D image program to create some red text on a black background, using a simple and bold font (if you are a lazy lizard [I hope this not offensive, I just like how it sounds!], you can just save the picture below on your hard drive...). *Dot matrix image texture.* shows an image 512 pixels wide by 64 pixels high, with some black space at both sides.
 
 
 

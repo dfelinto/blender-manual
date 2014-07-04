@@ -14,7 +14,7 @@ through lower and upper bounds.
 
    FIXME - warning body below
 
- This constraint does not tolerate negative scale values (those you might use to mirror an object…): when you add it to an object or bone, even if no axis limit is enabled, nor the :guilabel:`For Transform` button, as soon as you scale your object, all negative scale values are instantaneously inverted to positive ones… And the boundary settings can only take strictly positive values.
+ This constraint does not tolerate negative scale values (those you might use to mirror an object...): when you add it to an object or bone, even if no axis limit is enabled, nor the :guilabel:`For Transform` button, as soon as you scale your object, all negative scale values are instantaneously inverted to positive ones... And the boundary settings can only take strictly positive values.
 
 It is interesting to note that even though the constraint limits the visual and rendered scale
 of its owner, its owner's data block still allows (by default)

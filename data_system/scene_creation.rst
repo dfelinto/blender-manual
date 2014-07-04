@@ -116,9 +116,9 @@ Just open the scene where these objects are,
 use :kbd:`ctrl-L` → :guilabel:`To Scene...`,
 and choose the scene where you want your objects to appear.
 Those will be linked to the original objects; to make them single user (independent,
-unlinked…) in a given scene go to that scene, select them and use :kbd:`U`.
+unlinked...) in a given scene go to that scene, select them and use :kbd:`U`.
 You will be presented with a few options that allow you to free up the datablocks (Object,
-Material, Texture…) that you want.
+Material, Texture...) that you want.
 
 
 Removing a scene from the file

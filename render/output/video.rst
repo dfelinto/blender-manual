@@ -182,7 +182,7 @@ Options
    Prepare one version with odd field order and another with even field order,
    and look at them on a television screen.
    The one with the right field order will look smooth and the other one horrible.
-   Doing this simple test will save you *hours* of wasted rendering time…
+   Doing this simple test will save you *hours* of wasted rendering time...
 
 
 .. admonition:: Fields and Composite Nodes

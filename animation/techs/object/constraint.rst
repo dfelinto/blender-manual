@@ -26,14 +26,14 @@ We should also mention the classical :doc:`Child Of constraint <constraints/rela
 Back to our simple :guilabel:`Copy Location` example,
 you can have two different behaviors of this constraint:
 
-- When its :guilabel:`Offset` button is disabled (the default), the location of the owner is "absolutely" controlled by the constraint's target, which means nothing (except other constraints below in the stack…) will be able to control the owner's position. Not even the object's animation curves.
-- However, when the :guilabel:`Offset` button is enabled, the location of the owner is "relatively" controlled by the constraint's target. This means that location's properties of the owner are offset from the location of the target. And these owner's location properties can be controlled e.g. by its :guilabel:`Loc…` curves (or actions, or NLA…)!
+- When its :guilabel:`Offset` button is disabled (the default), the location of the owner is "absolutely" controlled by the constraint's target, which means nothing (except other constraints below in the stack...) will be able to control the owner's position. Not even the object's animation curves.
+- However, when the :guilabel:`Offset` button is enabled, the location of the owner is "relatively" controlled by the constraint's target. This means that location's properties of the owner are offset from the location of the target. And these owner's location properties can be controlled e.g. by its :guilabel:`Loc...` curves (or actions, or NLA...)!
 
 
 Example
 ~~~~~~~
 
-Let's use the :guilabel:`Copy Location` constraint and its :guilabel:`Offset` button. For example, you can make your owner (let's call it ``moon``) describe perfect circles centered on the ``(0.0, 0.0, 0.0)`` point (using e.g. pydriven :guilabel:`LocX` / :guilabel:`LocY` animation curves, see :doc:`this page <animation/editors/graph/drivers#drivers>`), and then make it copy the location of a target (called, I don't know… ``earth``, for example) - with the :guilabel:`Offset` button enabled. Congratulation, you just modeled a satellite in a (simplified) orbit around its planet… Just do the same thing with its planet around its star (which you might call ``sun``, what do you think?), and why not, for the star around its galaxy…
+Let's use the :guilabel:`Copy Location` constraint and its :guilabel:`Offset` button. For example, you can make your owner (let's call it ``moon``) describe perfect circles centered on the ``(0.0, 0.0, 0.0)`` point (using e.g. pydriven :guilabel:`LocX` / :guilabel:`LocY` animation curves, see :doc:`this page <animation/editors/graph/drivers#drivers>`), and then make it copy the location of a target (called, I don't know... ``earth``, for example) - with the :guilabel:`Offset` button enabled. Congratulation, you just modeled a satellite in a (simplified) orbit around its planet... Just do the same thing with its planet around its star (which you might call ``sun``, what do you think?), and why not, for the star around its galaxy...
 
 Here is a small animation of a "solar" system created using (among a few others)
 the technique described above:
@@ -43,7 +43,7 @@ FIXME(Tag Unsupported:vimeo;
 )
 
 Note that the this "solar" system is not realistic at all (wrong scale,
-the "earth" is rotating in the wrong direction around the "sun", …).
+the "earth" is rotating in the wrong direction around the "sun", ...).
 
 You can download the  the .blend file (`download here <http://wiki.blender.org/index.php/File:ManAnimationTechsUsingConstraintsExSolarSys.blend>`__) used to create this animation.
 
@@ -63,7 +63,7 @@ FIXME(TODO: Internal Link;
 
 FIXME(TODO: Internal Link;
 [[#Example|"solar system" example above]]
-), I used it to first stick the camera to the "moon", then to the "earth", and finally to nothing, using two :guilabel:`Copy Location` constraints with :guilabel:`Offset` set, and their :guilabel:`Influence` cross-fading together…
+), I used it to first stick the camera to the "moon", then to the "earth", and finally to nothing, using two :guilabel:`Copy Location` constraints with :guilabel:`Offset` set, and their :guilabel:`Influence` cross-fading together...
 
 - More anecdotal, you can also, for some constraints using an armature's bone as target, animate where along this bone (between root and tip) lays the real target point (**0.0** means "full-root", and **1.0**, "full-tip").
 

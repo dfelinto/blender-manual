@@ -20,7 +20,7 @@ So you have all the editing options of objects (you can move/scale/rotate them, 
    :class: note
 
    There seems to be a bug with :guilabel:`Meta` objects in group proxies:
-   their meshes are invisible; only the circles are drawn…
+   their meshes are invisible; only the circles are drawn...
 
 
 Visualization

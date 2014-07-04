@@ -86,7 +86,7 @@ ________
 
 
 The :guilabel:`Raytrace` method gives the more accurate, but also the more noisy results.
-You can get a nearly noiseless image, but at the cost of render time… It is the only option if
+You can get a nearly noiseless image, but at the cost of render time... It is the only option if
 you want to use the colors of your sky's texture.
 
 :guilabel:`Attenuation`
@@ -136,7 +136,7 @@ you want to use the colors of your sky's texture.
 
 
    :guilabel:`Constant Jittered`
-      The historical sample method, more prone to "bias" artifacts…
+      The historical sample method, more prone to "bias" artifacts...
 
       :guilabel:`Bias`
          The angle (in radians) the hemisphere will be made narrower (i.e.
@@ -182,10 +182,10 @@ You have two complementary options to reduce this problem:
 :guilabel:`Passes`
    Set the number of pre-processing passes, between **0** (no pre-processing) to **10**. Keeping the pre-processing passes high will increase render time but will also clear some artifacts and over-occlusions.
 :guilabel:`Error`
-   This is the tolerance factor for approximation error (i.e. the max allowed difference between approximated result and fully computed result). The lower, the slower the render, but the more accurate the results… Ranges between **0.0** and **10.0**, defaults to **0.250**.
+   This is the tolerance factor for approximation error (i.e. the max allowed difference between approximated result and fully computed result). The lower, the slower the render, but the more accurate the results... Ranges between **0.0** and **10.0**, defaults to **0.250**.
 
 :guilabel:`Pixel Cache`
-   When enabled, it will keep values of computed pixels to interpolate it with its neighbors. This further speeds up the render, generally without visible loss in quality…
+   When enabled, it will keep values of computed pixels to interpolate it with its neighbors. This further speeds up the render, generally without visible loss in quality...
 
 :guilabel:`Correction`
    A correction factor to reduce over-occlusion. Ranges between **0.0** (no correction) to **1.0**.
@@ -195,7 +195,7 @@ Common Settings
 ~~~~~~~~~~~~~~~
 
 :guilabel:`Falloff`
-   When activated, the distance to the occluding objects will influence the "depth" of the shadow. This means that the further away the occluding geometry is, the lighter its "shadow" will be. This effect only occurs when the :guilabel:`Strength` factor is higher than **0.0**. It mimics  light dispersion in the atmosphere…
+   When activated, the distance to the occluding objects will influence the "depth" of the shadow. This means that the further away the occluding geometry is, the lighter its "shadow" will be. This effect only occurs when the :guilabel:`Strength` factor is higher than **0.0**. It mimics  light dispersion in the atmosphere...
 
    :guilabel:`Strength`
       Controls the attenuation of the shadows enabled with :guilabel:`Use Falloff`. Higher values give a shorter shadow, as it falls off more quickly (corresponding to a more foggy/dusty atmosphere). Ranges from **0.0** (default, no falloff) to **10.0**.

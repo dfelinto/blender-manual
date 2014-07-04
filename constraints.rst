@@ -146,7 +146,7 @@ These are "misc" constraints.
 +-------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
 +:doc:`Pivot <constraints/relationship/pivot>`                      |Allows the owner to rotate around a target object.                                                                       +
 +-------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-+:doc:`Rigid Body Joint <constraints/relationship/rigid_body_joint>`|Creates a rigid joint (like a hinge…) between the owner and the "target" (child object).                                 +
++:doc:`Rigid Body Joint <constraints/relationship/rigid_body_joint>`|Creates a rigid joint (like a hinge) between the owner and the "target" (child object).                                  +
 +-------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
 +:doc:`Script <constraints/relationship/script>`                    |Uses a Python script as constraint.                                                                                      +
 +-------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+

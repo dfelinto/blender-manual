@@ -29,6 +29,4 @@ ColorRamp
 ---------
 
 Math
-
 ----
-

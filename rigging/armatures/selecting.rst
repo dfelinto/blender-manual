@@ -75,7 +75,7 @@ when the selection status of bones' ends is inverted, a new set of bones is sele
 +                   |   :width: 300px                                              |   :width: 300px                                                                                                             +
 +                   |   :figwidth: 300px                                           |   :figwidth: 300px                                                                                                          +
 +                   |                                                              |                                                                                                                             +
-+                   |   Two bones selected.                                        |   The result of the inverse selection ([ctrl][I]): the bones' ends selection has been inverted, and not the bones selection…+
++                   |   Two bones selected.                                        |   The result of the inverse selection :kbd:`ctrl-i` the bones ends selection has been inverted, and not the bones selection.+
 +-------------------+--------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------+
 
 

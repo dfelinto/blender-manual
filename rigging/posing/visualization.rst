@@ -172,7 +172,7 @@ If you are a bit familiar with traditional cartoon creation,
 you might know that drawing artists use tracing paper heavily,
 to see several frames preceding the one they are working on.
 This allows them to visualize the overall movement of their character,
-without having to play it back… Well,
+without having to play it back... Well,
 Blender features something very similar for armatures in :guilabel:`Pose` mode: the "ghosts".
 
 
@@ -198,13 +198,13 @@ You have three different types of ghosts, sharing more or less the same options:
    :guilabel:`Step`
       This numeric field specifies whether you have a ghost for every frame (the default **1** value), or one each two frames, each three frames, etc.
    :guilabel:`Selected Only`
-      When enabled, you will only see the ghosts of selected bones (otherwise, every bone in the armatures has ghosts…)
+      When enabled, you will only see the ghosts of selected bones (otherwise, every bone in the armatures has ghosts...)
 
 :guilabel:`In Range`
    This will display the ghosts of the armature's bones inside a given range of frames. The ghosts are shaded from transparent for the first frame, to opaque at the last frame. It has four options:
 
    :guilabel:`Start`
-      This numeric field specifies the starting frame of the range (exclusive). Note that unfortunately, it cannot take a null or negative value - which means you can only see ghosts starting from frame **2** included…
+      This numeric field specifies the starting frame of the range (exclusive). Note that unfortunately, it cannot take a null or negative value - which means you can only see ghosts starting from frame **2** included...
    :guilabel:`End`
       This numeric field specifies the ending frame of the range, and cannot take a value below :guilabel:`GSta` one.
    :guilabel:`Step`
@@ -216,7 +216,7 @@ You have three different types of ghosts, sharing more or less the same options:
 
 
 Finally, these ghosts are also active when playing the animation (:kbd:`alt-A`)
-- this is only useful with the :guilabel:`Around Current Frame` option, of course…
+- this is only useful with the :guilabel:`Around Current Frame` option, of course...
 
 Note also that there is no "global switch" to disable this display feature - to do so,
 you have to either set :guilabel:`Ghost` to **0**
@@ -233,7 +233,7 @@ Motion Paths
 
    | Mode:     :guilabel:`Pose` mode
    | Panel:    :guilabel:`Visualisations`
-   | Menu:     :menuselection:`Pose --> Motion Paths --> …`
+   | Menu:     :menuselection:`Pose --> Motion Paths --> ...`
    | Hotkey:   :kbd:`W-num3`, :kbd:`W-num4`
 
 
@@ -301,9 +301,9 @@ And now, the paths options:
 :guilabel:`Calculate`
    :guilabel:`Start` / :guilabel:`End`
       These are the start/end frames of the range in which motion paths are drawn. *You have to* :guilabel:`Calculate Paths` *again when you modify this setting*, to update the paths in the 3D views.
-      Note that unlike with ghosts, the start frame is *inclusive* (i.e. if you set :guilabel:`PSta` to **1**, you'll really see the frame **1** as starting point of the paths…).
+      Note that unlike with ghosts, the start frame is *inclusive* (i.e. if you set :guilabel:`PSta` to **1**, you'll really see the frame **1** as starting point of the paths...).
 
    :guilabel:`Bake Location`
-      By default, you get the tips' paths. By changing this setting to Tails, you'll get the paths of the bone's roots (remember that in Blender UI, bones' roots are called "heads"…). *You have to* :guilabel:`Calculate Paths` *again when you modify this setting*, to update the paths in the 3D views.
+      By default, you get the tips' paths. By changing this setting to Tails, you'll get the paths of the bone's roots (remember that in Blender UI, bones' roots are called "heads"...). *You have to* :guilabel:`Calculate Paths` *again when you modify this setting*, to update the paths in the 3D views.
 
 

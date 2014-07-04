@@ -11,7 +11,6 @@ Camera Data
 :guilabel:`View Vector`
    A Camera space vector from the camera to the shading point.
 :guilabel:`View Z Depth`
-
 :guilabel:`View Distance`
    Distance from the camera to the shading point.
 

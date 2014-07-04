@@ -140,8 +140,8 @@ If at least one bone is selected, :kbd:`ctrl-lmb` -clicking adds a new bone.
 About the new bone's tip:
 
 - after you :kbd:`ctrl-lmb` -clicked it becomes the active element in the armature,
-- it appears to be right where you clicked, but…
-- …(as in mesh editing) it will be on the plane parallel to the view and passing through the 3D cursor.
+- it appears to be right where you clicked, but...
+- ...(as in mesh editing) it will be on the plane parallel to the view and passing through the 3D cursor.
 
 The position of the root and the parenting of the new bone depends on the active element:
 
@@ -418,7 +418,7 @@ differently depending in which chain is the edited bone
 +   :width: 300px                                                                              |   :width: 300px                                                                                                                                                                                                                                                                      +
 +   :figwidth: 300px                                                                           |   :figwidth: 300px                                                                                                                                                                                                                                                                   +
 +                                                                                              |                                                                                                                                                                                                                                                                                      +
-+   Bone.004 has been rotated, and hence the tip of Bone.006 was moved to the root of Bone.003.|   The tip of Bone.006 has been translated, and hence the root of Bone.003 was moved to the tip of Bone.006…                                                                                                                                                                          +
++   Bone.004 has been rotated, and hence the tip of Bone.006 was moved to the root of Bone.003.|   The tip of Bone.006 has been translated, and hence the root of Bone.003 was moved to the tip of `Bone.006`                                                                                                                                                                         +
 +----------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
@@ -476,7 +476,7 @@ You can prevent a bone from being transformed in :guilabel:`Edit mode` in severa
 X-Axis Mirror Editing
 ---------------------
 
-Another very useful tool is the :guilabel:`X-Axis Mirror` editing option (:guilabel:`Tool panel` > :guilabel:`Armature Options`, while Armature is selected in :guilabel:`Edit Mode`), working a bit like the same :doc:`mesh editing tool <modeling/meshes/tools/transform_deform#mirror_editing>`. When you have pairs of bones of the same name with just a different "side suffix" (e.g. ``.R`` / ``.L``, or ``_right`` / ``_left`` …), once this option is enabled, each time you transform (move/rotate/scale…) a bone, its "other side" counterpart will be transformed accordingly, through a *symmetry along the armature local X axis*. As most rigs have at least one axis of symmetry (animals, humans, …), it's an easy way to spare you half of the editing work! See also :doc:`next page <rigging/armatures/editing/properties#naming_bones>` for more on naming bones.
+Another very useful tool is the :guilabel:`X-Axis Mirror` editing option (:guilabel:`Tool panel` > :guilabel:`Armature Options`, while Armature is selected in :guilabel:`Edit Mode`), working a bit like the same :doc:`mesh editing tool <modeling/meshes/tools/transform_deform#mirror_editing>`. When you have pairs of bones of the same name with just a different "side suffix" (e.g. ``.R`` / ``.L``, or ``_right`` / ``_left`` ...), once this option is enabled, each time you transform (move/rotate/scale...) a bone, its "other side" counterpart will be transformed accordingly, through a *symmetry along the armature local X axis*. As most rigs have at least one axis of symmetry (animals, humans, ...), it's an easy way to spare you half of the editing work! See also :doc:`next page <rigging/armatures/editing/properties#naming_bones>` for more on naming bones.
 
 
 Separating Bones in a new Armature

@@ -24,7 +24,7 @@ Limitations & Workarounds
 - Blender freezes after clicking :guilabel:`BAKE`. Pressing :kbd:`Esc` makes it work again after a while - this can happen if the resolution is too high and memory is swapped to hard disk, making everything horribly slow. Reducing the resolution should help in this case.
 
 
-- Blender crashes after clicking :guilabel:`BAKE` - this can happen if the resolution is really high and more than 2GB are allocated, causing Blender to crash. Reduce the resolution. Many operating systems limit the total amount of memory that can be allocated by a *process*, such as Blender, even if the *machine* has more memory installed. Sux…
+- Blender crashes after clicking :guilabel:`BAKE` - this can happen if the resolution is really high and more than 2GB are allocated, causing Blender to crash. Reduce the resolution. Many operating systems limit the total amount of memory that can be allocated by a *process*, such as Blender, even if the *machine* has more memory installed. Sux...
 
 
 - The meshes should be closed, so if some parts of e.g. a fluid object are not initialized as fluid in the simulation, check that all parts of connected vertices are closed meshes. Unfortunately, the Suzanne (monkey) mesh in Blender is not a closed mesh (the eyes are separate).
@@ -58,7 +58,7 @@ See also
 - `Tutorial 2: The Next Step <http://wiki.blender.org/index.php/User:N t/SummerOfCode2005/Fluid Animation/Tutorial 2>`__
 - `Tutorial 1&2 Gui Changes for newer builds <http://wiki.blender.org/index.php/User:N t/SummerOfCode2005/Fluid Animation/Tutorial Changes>`__
 - :doc:`Another BSoD fluid tutorial <ls/physics/bsod/fluid>`
-- `Developer documentation (implementation, dependencies, …) <http://wiki.blender.org/index.php/User:N t/SummerOfCode2005/Fluid Animation/Development>`__
+- `Developer documentation (implementation, dependencies, ...) <http://wiki.blender.org/index.php/User:N t/SummerOfCode2005/Fluid Animation/Development>`__
 
 
 External links

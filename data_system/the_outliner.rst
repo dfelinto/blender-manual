@@ -253,7 +253,7 @@ the outline is expanded one level.
 This was done for the "\ ``Ratchet in Middle`` " scene. As you can see,
 this scene has some "\ ``World`` " material settings, a "\ ``Camera`` ",
 an "\ ``Empty`` ",
-a "\ ``HandleFixed`` " object… All objects that were added to the scene.
+a "\ ``HandleFixed`` " object... All objects that were added to the scene.
 
 By clicking the plus-sign next to "\ ``ratchetgear``,
 we can see that it has some motion described by the "\ ``Animation`` " entry;

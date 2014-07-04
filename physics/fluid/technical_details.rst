@@ -26,7 +26,7 @@ and it might still not work properly,
 no matter which of the three algorithms above you're using. Therefore,
 to achieve "the effect that you really want",
 you'll need to resort to strategies very similar to what filmmakers have been doing
-(quite successfully…) in "analogue" movies for many years: "\ *fake it!* "
+(quite successfully...) in "analogue" movies for many years: "\ *fake it!* "
 
 A good fluid simulation is a *very important* part, but not the *only* part,
 of achieving a satisfactory image.
@@ -40,7 +40,7 @@ and hope that nobody will notice the difference between a 100m and a 1m wave (th
 Texture the wave front with lots of noise and clouds affecting the color. Add lots of smoke
 (mist) emitters on the various surfaces that the wave hits, timing each of them to emit at the
 moment of impact in a direction incident to the surface and collision. Animate cars and trash
-(and drowning people…) to float and bob on the wave front using the baked mesh. Use a string
+(and drowning people...) to float and bob on the wave front using the baked mesh. Use a string
 of mist emitters pointing up positioned at the wave crest to simulate the mist that blows off
 the top of the crest into the air. Consider exactly where you want to put the camera,
 whether you want to use a zoom lens or a wide angle, and so on
@@ -76,7 +76,7 @@ Adaptive Grids],
 [http://www10.informatik.uni-erlangen.de/~sinithue/public/phd/nthuerey_050607_tr1rtlbm.
 avi Interactive Animations]. Thanks to Chris Want for organizing the Blender-SoC projects, and
 to Jonathan Merrit for mentoring this one! And of course thanks to Google for starting the
-whole thing… SoC progress updates were posted here:
+whole thing... SoC progress updates were posted here:
 `SoC-Blenderfluid-Blog at PlanetSoC <http://www.planetsoc.com/blog/51>`__.
 
 The solver itself was developed by Nils Thuerey with the help and supervision of the following

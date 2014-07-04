@@ -212,7 +212,12 @@ There are three ways control how rules are evaluated.
 :guilabel:`Random`
    A random rule is selected for each boid.
 :guilabel:`Fuzzy`
-   Uses fuzzy logic to evaluate rules. Rules are gone through top to bottom. Only the first rule that effect above fuzziness threshold is evaluated. The value should be considered how hard the boid will try to respect a given rule (a value of 1.000 means the Boid will always stick to it, a value of 0.000 means it will never). If the boid meets more than one conflicting condition at the same time, it will try to fulfill all the rules according to the respective weight of each.
+   Uses fuzzy logic to evaluate rules. Rules are gone through top to bottom.
+   Only the first rule that effect above fuzziness threshold is evaluated.
+   The value should be considered how hard the boid will try to respect a given rule
+   (a value of 1.000 means the Boid will always stick to it, a value of 0.000 means it will never).
+   If the boid meets more than one conflicting condition at the same time,
+   it will try to fulfill all the rules according to the respective weight of each.
 
 Please note that a given boid will try as much as it can to comply to each of the rules he is
 given, but it is more than likely that some rule will take precedence on other in some cases.

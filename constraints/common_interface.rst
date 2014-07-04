@@ -40,7 +40,7 @@ A small arrow
    This control allows you to show/hide the constraint's settings.
 
 The constraint type
-   This is just static text showing you what this constraint is…
+   This is just static text showing you what this constraint is...
 
 The name field
    Here you can give your constraint a more meaningful name than the default one.
@@ -78,7 +78,7 @@ The target
 
 Most constraints need another "target" object or bone to "guide" them.
 You select which by selecting its name in the :guilabel:`Target` field.
-Except for a few cases, you can use any type of object (camera, mesh, empty…);
+Except for a few cases, you can use any type of object (camera, mesh, empty...);
 its object origin will be the target point.
 
 When you type in the :guilabel:`OB` field a mesh or lattice name,
@@ -95,7 +95,7 @@ In some constraints, when you use a bone as target,
 another :guilabel:`Head/Tail` numeric field will also appear,
 that allows you to select where along the bone the target point will lay, from root
 (**0.0**) to tip (**1.0**) (remember that currently, in Blender UI,
-bones' roots are called "heads", and bones' tips, "tails"…).
+bones' roots are called "heads", and bones' tips, "tails"...).
 
 
 The Constraint Space ({{Literal|Space}})
@@ -134,12 +134,12 @@ depending on whether the element (owner or target) is a regular object, or a bon
    as it always uses the "visual" transform properties (i.e. as you see them in the 3D views).
 
 Understanding the Constraint Space effects is not really easy
-(unless you are a geometry genius…).
+(unless you are a geometry genius...).
 The best thing to do is to experiment with their different combinations, using e.g.
 two empties (as they materialize clearly their axes),
 and a :guilabel:`Copy Rotation` constraint
 (as rotations are the most demonstrative transformations,
-to visualize the various spaces specificities…).
+to visualize the various spaces specificities...).
 
 
 Influence

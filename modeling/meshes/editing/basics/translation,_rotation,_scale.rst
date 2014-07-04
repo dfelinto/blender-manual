@@ -9,7 +9,7 @@ Translation, Rotation, Scale
 
    | Mode:     :guilabel:`Edit` mode
    | Panel:    :guilabel:`Mesh Tools` (:guilabel:`Editing` context)
-   | Menu:     :menuselection:`Mesh --> Transform --> Grab/Move, Rotate, Scale, …`
+   | Menu:     :menuselection:`Mesh --> Transform --> Grab/Move, Rotate, Scale, ...`
    | Hotkey:   :kbd:`G` / :kbd:`R` / :kbd:`S`
 
 

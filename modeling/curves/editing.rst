@@ -59,7 +59,7 @@ Basic Curve Editing (translation, rotation, scale)
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
-   | Menu:     :menuselection:`Curve --> Transform --> Grab/Move, Rotate, Scale, …`
+   | Menu:     :menuselection:`Curve --> Transform --> Grab/Move, Rotate, Scale, ...`
    | Hotkey:   :kbd:`G` / :kbd:`R` / :kbd:`S`
 
 
@@ -265,7 +265,7 @@ The :guilabel:`Erase` pop-up menu of curves offers you three options:
 
 :guilabel:`Segment`
    This option is somewhat the opposite to the preceding one, as it will cut the curve, without removing any control points, by erasing one selected segment.
-   This option always removes *only one segment* (the last "selected" one), even when several are in the selection. So to delete all segments in your selection, you'll have to repetitively use the same erase option…
+   This option always removes *only one segment* (the last "selected" one), even when several are in the selection. So to delete all segments in your selection, you'll have to repetitively use the same erase option...
 
 :guilabel:`All`
    As with meshes, this deletes everything in the object!

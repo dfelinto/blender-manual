@@ -41,7 +41,7 @@ Options
    :guilabel:`Vertex Group`
       The name of a vertex group of the object, the weights of which will be used to determine the influence of this :guilabel:`Armature` modifier's result when mixing it with the results from other :guilabel:`Armature` ones. Only meaningful when having at least two of these modifiers on the same object, with :guilabel:`Multi Modifier` activated.
    :guilabel:`Multi Modifier`
-      Use the same data as a previous (:guilabel:`Armature` ?) modifier as input. This allows you to use several armatures to deform the same object, all based on the "non-deformed" data (i.e. this avoid having the second :guilabel:`Armature` modifier deform the result of the first one…). The results of the :guilabel:`Armature` modifiers are then mixed together, using the weights of the :guilabel:`VGroup` vertex groups as "mixing guides".
+      Use the same data as a previous (:guilabel:`Armature` ?) modifier as input. This allows you to use several armatures to deform the same object, all based on the "non-deformed" data (i.e. this avoid having the second :guilabel:`Armature` modifier deform the result of the first one...). The results of the :guilabel:`Armature` modifiers are then mixed together, using the weights of the :guilabel:`VGroup` vertex groups as "mixing guides".
 
 :guilabel:`Bind To`
    Method to bind the armature to the mesh.

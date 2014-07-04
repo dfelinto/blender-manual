@@ -82,7 +82,7 @@ of centimeter scale): if you throw it against a wall of raw stones
 and you will likely quickly lose it! On the other hand,
 if you throw it against a smooth concrete wall (with a roughness of, say, a millimeter scale),
 you can quite easily anticipate its bounce, which follow (more or less!)
-the same law as the light reflection…
+the same law as the light reflection.
 
 
 CookTorr

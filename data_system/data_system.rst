@@ -42,7 +42,7 @@ and then you will see the overall structure of a file: :guilabel:`Action`,
    | Hotkey:   :kbd:`F` - Fake User
 
 
-:kbd:`rmb` selecting certain kinds of datablocks (:guilabel:`Material` s, :guilabel:`Image` s, :guilabel:`Texture` s…) and pressing :kbd:`F` will assign a "fake user" to those datablocks. With a fake user in place, Blender will keep those datablocks in the file, even if they have no "real user". Datablocks without a user, real or fake, are not saved in the .blend file. Pressing :kbd:`F` again toggles the fake user assignment. Performing this action is the same as clicking the :guilabel:`F` button next to material/image/… names.
+:kbd:`rmb` selecting certain kinds of datablocks (:guilabel:`Material` s, :guilabel:`Image` s, :guilabel:`Texture` s...) and pressing :kbd:`F` will assign a "fake user" to those datablocks. With a fake user in place, Blender will keep those datablocks in the file, even if they have no "real user". Datablocks without a user, real or fake, are not saved in the .blend file. Pressing :kbd:`F` again toggles the fake user assignment. Performing this action is the same as clicking the :guilabel:`F` button next to material/image/... names.
 
 
 Outliner and OOPS Schematic

@@ -17,7 +17,7 @@ often used to simulate real physical phenomena, such as:
 
 :doc:`Hair <physics/particles/hair>` is a subset of the particle system, and can be used for strand-like objects, such as hair, fur, grass, quills, etc.
 
-:doc:`Soft Bodies <physics/soft_body>` are useful for everything that tends to bend, deform, in reaction to forces like gravity or wind, or when colliding with other objects… It can be used for skin, rubber, and even clothes, even though there is separate :doc:`Cloth Simulation <physics/cloth>` specific for cloth-like objects.
+:doc:`Soft Bodies <physics/soft_body>` are useful for everything that tends to bend, deform, in reaction to forces like gravity or wind, or when colliding with other objects... It can be used for skin, rubber, and even clothes, even though there is separate :doc:`Cloth Simulation <physics/cloth>` specific for cloth-like objects.
 
 :doc:`Rigid Bodies <physics/rigid_body>` can simulate dynamic objects that are fairly rigid.
 

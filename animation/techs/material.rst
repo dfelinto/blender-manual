@@ -18,7 +18,7 @@ a video screen lighting up, the surface of a river or lake, a light lighting up
 
 The possibilities are nearly unlimited. For example,
 you could keyframe the :guilabel:`Glossiness` of raytraced reflection/transparency,
-which would enable the simulation of condensation spreading over a mirror or window…).
+which would enable the simulation of condensation spreading over a mirror or window...).
 
 
 Example
@@ -39,8 +39,8 @@ Manage to have three different length between the first and last keyframes,
 and enable the :guilabel:`Cyclic` extend mode (:kbd:`E-pad2`). This way,
 with the three curves cycling over various periods, you'll get a never-the-same color
 animation! Unless you want to get a "time-tileable" animation, in which case you should manage
-to get exactly the same color at start and end… You can also create an :guilabel:`Emit`
-Fcurve, e.g. to create a fade in/out…
+to get exactly the same color at start and end... You can also create an :guilabel:`Emit`
+Fcurve, e.g. to create a fade in/out...
 
 Now, let's add a bit of fun in this plain colored background.
 Add a texture to the material and, in the :guilabel:`Texture` sub-context,
@@ -56,7 +56,7 @@ Finally, animate the Z offset of the mapping of both channels
 (define a first :guilabel:`OfsZ` Fcurve,
 and use the copy/paste buttons to exactly copy it to the second texture channel's curve).
 Here again, you can either have two different values for start and end,
-or the same if you want a cyclic animation…
+or the same if you want a cyclic animation...
 
 Usually, you will create a slow, linear variation of the Z offset (i.e.
 a straight curve with low gradient), e.g.

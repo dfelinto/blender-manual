@@ -65,7 +65,7 @@ Coordinates
   This is very useful when creating certain special effects that depend on viewing angle.
 - :guilabel:`Reflection`
   Uses the direction of the reflection vector as coordinates.
-  This is useful for adding reflection maps — you will need this input when Environment Mapping.
+  This is useful for adding reflection maps — you will need this input when Environment Mapping.
 - :guilabel:`Stress`
   Uses the difference of edge length compared to original coordinates of the mesh.
   This is useful, for example, when a mesh is deformed by modifiers.
@@ -147,6 +147,6 @@ Coordinate Offset, Scaling and Transformation
      Blender extends the plan ("slice") along the relevant third axis.
 
 So, all this is a bit hard to understand and master. Fortunately,
-you do not have to change these settings often, except for some special effects… Anyway,
+you do not have to change these settings often, except for some special effects... Anyway,
 the only way to get used to them is to practice!
 

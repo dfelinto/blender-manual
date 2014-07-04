@@ -91,7 +91,7 @@ Creating and Editing Markers
 ============================
 
 Unfortunately, there is no common shortcuts and menu for marker's editing, across the
-different window types that supports them… So in the refboxes of each action described below,
+different window types that supports them... So in the refboxes of each action described below,
 I put the most-common shortcut and menu entry, with the known exceptions between brackets.
 
 
@@ -136,7 +136,7 @@ and border-select them with* :kbd:`ctrl-B` *(as usual,* :kbd:`lmb` *to select,*
 The corresponding options are found in the* Select *menu of these windows.
 
 In the* Timeline *and* Audio *windows, you can (de)select all markers with* :kbd:`A` *,
-and border (de)select them with* :kbd:`B` *…
+and border (de)select them with* :kbd:`B` *...
 
 
 Naming Markers
@@ -194,7 +194,7 @@ the new ones are automatically placed in grab mode, so you can move them where
 
 Note that unlike most other duplications in Blender,
 the names of the duplicated markers are not altered at all
-(no "* ``.001`` *" numeric counter append…).
+(no "* ``.001`` *" numeric counter append...).
 
 
 Deleting Markers

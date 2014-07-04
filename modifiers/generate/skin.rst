@@ -31,17 +31,14 @@ Options
    Create an armature for your object.
 :guilabel:`Branch Smoothing`
    Smooth the intersection vertices.
-
 :guilabel:`Selected Vertices`
 :guilabel:`Mark Loose`
    Mark the selected vertices as loosing points.
    Loosing defines points which merge their faces with each other to fill gaps.
 :guilabel:`Clear Loose`
    Take the Loose away. The initial behavior.
-
 :guilabel:`Mark Root`
    Defines the root points of the object. These are the center of the object.
-
 :guilabel:`Equalize Radii`
    Makes the skin radii of selected vertices equal on each axis.
 

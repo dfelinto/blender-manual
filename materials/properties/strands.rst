@@ -85,12 +85,12 @@ Texturing along the Strand
 
 .. figure:: /images/Doc_2.6_Materials_Texture_Mapping.jpg
 
-   Image 4: Fading a strand to alpha…
+   Image 4: Fading a strand to alpha...
 
 
 .. figure:: /images/Blender3D_StrandRenderFade.jpg
 
-   Image 5: …And the render result.
+   Image 5: ...And the render result.
 
 
 Strands can be textured along the strand, i.e. from root to tip. To do that you have to select

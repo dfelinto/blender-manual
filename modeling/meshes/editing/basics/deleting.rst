@@ -123,7 +123,7 @@ executing:
    Available in all select modes, it will place the remaining vertex at the 3D Cursor.
 
 :guilabel:`Collapse`
-   This is a special option, as it might let "live" more than one vertex. In fact, you will have as many remaining vertices as you had "islands" of selection (i.e. groups of linked selected vertices). The remaining vertices will be positioned at the center of their respective "islands". It is also available *via* the :menuselection:`Mesh --> Edges --> Collapse` menu option…
+   This is a special option, as it might let "live" more than one vertex. In fact, you will have as many remaining vertices as you had "islands" of selection (i.e. groups of linked selected vertices). The remaining vertices will be positioned at the center of their respective "islands". It is also available *via* the :menuselection:`Mesh --> Edges --> Collapse` menu option...
 
 Merging vertices of course also deletes some edges and faces. But Blender will do everything
 it can to preserve edges and faces only partly involved in the reunion.

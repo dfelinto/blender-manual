@@ -78,12 +78,12 @@ to create separated objects sharing the same :guilabel:`ObData` datablocks (mesh
 materials, etc.). Note that if you select :guilabel:`Link Objects`,
 in fact you copy nearly nothing,
 as :guilabel:`Object` datablocks are parent of all :guilabel:`ObData` datablocks:
-nearly all modifications (object location, mesh geometry, …)
+nearly all modifications (object location, mesh geometry, ...)
 in a scene will be reflected in the other ones linked this way as well.
 As for :guilabel:`Link ObData`, it creates a "real" copy of the objects,
 but not of their child datalocks: the locations,
 scales and rotations of the objects will be specific to a scene,
-but neither their forms nor their materials, textures, …, will be
+but neither their forms nor their materials, textures, ..., will be
 (as defined by :guilabel:`ObData` datablocks).
 
 
@@ -104,7 +104,7 @@ Copying and Linking other Datablocks
 
 When an :guilabel:`ObData` datablock is used (linked) by more than one object,
 a small button with its number of linked objects (users) shows up next to its name,
-in its settings window (:guilabel:`Editing` context for meshes, curves, cameras, …,
+in its settings window (:guilabel:`Editing` context for meshes, curves, cameras, ...,
 :guilabel:`Shading` context, :guilabel:`Material` sub-context for materials, etc.).
 If you click on it, you create a copy of this datablock for the current object.
 

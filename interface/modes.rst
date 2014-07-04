@@ -24,7 +24,7 @@ Modes might affect many things in Blender:
 
 - They can modify the panels and/or controls available in some :guilabel:`Buttons` windows' contexts.
 - They can modify the behavior of whole windows, like e.g. the :guilabel:`UV/Image Editor` window (and obviously, :guilabel:`3D View` s!).
-- They can modify the available header tools (menus and/or menu entries, as well as other controls…). For example, in the :guilabel:`3D View` window, the :guilabel:`Object` menu in :guilabel:`Object` mode changes to a :guilabel:`Mesh` menu in :guilabel:`Edit` mode (with an active mesh object!), and a :guilabel:`Paint` menu in :guilabel:`Vertex Paint` mode…
+- They can modify the available header tools (menus and/or menu entries, as well as other controls...). For example, in the :guilabel:`3D View` window, the :guilabel:`Object` menu in :guilabel:`Object` mode changes to a :guilabel:`Mesh` menu in :guilabel:`Edit` mode (with an active mesh object!), and a :guilabel:`Paint` menu in :guilabel:`Vertex Paint` mode...
 
 
 +--------------------------------------------+------------------------------+-------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -53,10 +53,10 @@ Modes might affect many things in Blender:
 Notes about modes shortcuts:
 
 - :kbd:`tab` toggles :guilabel:`Edit` mode.
-- :kbd:`ctrl-tab` switches between the :guilabel:`Weight Paint` (meshes)/\ :guilabel:`Pose` (armatures) modes, and the other current one (by default, the :guilabel:`Object` mode). However, the same shortcut has other, internal meanings in some modes (e.g. in :guilabel:`Sculpt` mode, it is used to select the current brush)…
+- :kbd:`ctrl-tab` switches between the :guilabel:`Weight Paint` (meshes)/\ :guilabel:`Pose` (armatures) modes, and the other current one (by default, the :guilabel:`Object` mode). However, the same shortcut has other, internal meanings in some modes (e.g. in :guilabel:`Sculpt` mode, it is used to select the current brush)...
 
 As you can see, using shortcuts to switch between modes can become quite tricky,
-especially with meshes…
+especially with meshes...
 
 We won't detail further more modes' usages here. Most of them are tackled in the :doc:`modeling chapter <modeling>`, as they are mainly related to this topic. The :guilabel:`Particle` mode is discussed in the :doc:`particle section <physics/particles/mode>`, and the :guilabel:`Pose` and :guilabel:`Edit` modes for armatures, in the :doc:`rigging one <rigging>`.
 
