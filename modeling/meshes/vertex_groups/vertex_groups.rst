@@ -4,7 +4,7 @@ Vertex Groups
 
 :guilabel:`Vertex Groups` are mainly used to tag the vertices belonging to parts of a Mesh Object or Lattice. Think of the legs of a chair or the hinges of a door, or hands, arms, limbs, head, feet, etc. of a character. In addition you can assign different :guilabel:`weight values` (in the range [0.0,1.0] to the vertices within a Vertex Group (hence Vertex Groups are sometimes also named :guilabel:`Weight Groups` ).
 
-Vertex Groups are most commonly used for Armatures (See :doc:`Skinning Mesh Objects <rigging/skinning/obdata>`\ ). But they are also used in many other areas of Blender, like for example:
+Vertex Groups are most commonly used for Armatures (See :doc:`Skinning Mesh Objects <rigging/skinning/obdata>`). But they are also used in many other areas of Blender, like for example:
 
 
 - Shape keys
@@ -27,21 +27,24 @@ However in this section we will focus on manually created (user-defined) Vertex 
 Typical usage scenarios for Vertex groups
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- **Skinning an armature**
+**Skinning an armature**
+   If you want to animate your mesh and make it move, you will define an armature which consists of a bunch of bones.
+   Vertex Groups are used to associate parts of the Mesh to Bones of the Armature, where you can specify an influence
+   :guilabel:`weight` in the range [0.0 ... 1.0] for each vertex in the Vertex Group.
 
-If you want to animate your mesh and make it move, you will define an armature which consists of a bunch of bones. Vertex Groups are used to associate parts of the Mesh to Bones of the Armature, where you can specify an influence :guilabel:`weight` in the range [0.0 ... 1.0] for each vertex in the Vertex Group.
+**Working with Modifiers**
+   Many modifiers contain the ability to control the modifier influence on each vertex separately.
+   This is also done via Vertex Groups and the weight values associated to the vertices.
 
-- **Working with Modifiers**
+**Quickly select/edit/hide parts of a mesh**
+   By defining mesh regions with Vertex Groups you can easily select entire parts of your mesh with 3 clicks and work
+   on them in isolation without having to create separate objects. With the hide function you can even remove a vertex
+   group from the view (for later unhide).
 
- Many modifiers contain the ability to control the modifier influence on each vertex separately. This is also done via Vertex Groups and the weight values associated to the vertices.
-
-- **Quickly select/edit/hide parts of a mesh**
-
-By defining mesh regions with Vertex Groups you can easily select entire parts of your mesh with 3 clicks and work on them in isolation without having to create separate objects. With the hide function you can even remove a vertex group from the view (for later unhide).
-
-- **Cull out and duplicate parts of a mesh**
-
-Consider modeling a Lego block. The most simple brick consists of a base and a stud (the bump to connect the bricks together). To create a four-stud block, you would want to be able to easily select the stud vertices, and, still in :guilabel:`Edit mode`\ , duplicate them and position them where you want them.
+**Cull out and duplicate parts of a mesh**
+   Consider modeling a Lego block. The most simple brick consists of a base and a stud (the bump to connect the bricks
+   together). To create a four-stud block, you would want to be able to easily select the stud vertices, and, still in
+   :guilabel:`Edit mode`, duplicate them and position them where you want them.
 
 
 Creating Vertex Groups
@@ -65,13 +68,11 @@ border (3). Initially the group is named ``Group``
 (see next image).
 
 
-.. admonition:: New Groups are always empty
-   :class: nicetip
+.. tip:: New Groups are always empty
 
    You have to explicitly assign verts to the group as shown below.
 
-
- `Vertex Group Panel with one Group in Object mode <http://wiki.blender.org/index.php/File:26-Manual-Modeling-Meshes-vertex-group-panel-one.png-om>`__
+   `Vertex Group Panel with one Group in Object mode <http://wiki.blender.org/index.php/File:26-Manual-Modeling-Meshes-vertex-group-panel-one.png-om>`__
 
 Group Name
 ++++++++++
@@ -83,7 +84,7 @@ Active Group
 ++++++++++++
 
 When a Vertex Group is created,
-then it is also automatically marked as the :guilabel:`Active Group`\ .
+then it is also automatically marked as the :guilabel:`Active Group`.
 This is indicated by setting the background of the panel entry to a light blue color.
 If you have two or more groups in the list, then you can change the active group by
 :kbd:`lmb` on the corresponding entry in the Vertex Group panel.
@@ -146,10 +147,10 @@ The first row contains 4 buttons for maintaining the Assign- and Select- status 
 the active Vertex Group:
 
 
-- **Assign**\ : To assign the Selected vertices to the Group with the weight as defined in the "Weight:" input field (see below)
-- **Remove**\ : To Remove the selected vertices from the Group (and thus also delete their weight values)
-- **Select**\ : To Select all vertices contained in the Group
-- **Deselect**\ : To deselect all verts contained in the group
+- **Assign** : To assign the Selected vertices to the Group with the weight as defined in the "Weight:" input field (see below)
+- **Remove** : To Remove the selected vertices from the Group (and thus also delete their weight values)
+- **Select** : To Select all vertices contained in the Group
+- **Deselect** : To deselect all verts contained in the group
 
 Below this row of buttons you see a numeric "Weight:" input field where you specify the weight
 value that gets assigned to the selected verts when you press the Assign Button.
@@ -278,17 +279,28 @@ icon on the right panel border.
 
 The following functions of the Pulldown Menu operate on the assigned vertices:
 
-:guilabel:`Sort Vertex Groups`\ :Sorts Vertex Groups Alphabetically
-:guilabel:`Copy Vertex Group`\ :Add a Copy of the active Vertex Group as a new Group. The new group will be named like the original group with "_copy" appended at the end of its name. And it will contain associations to exactly the same verts with the exact same weights as in the source vertex group.
-:guilabel:`Copy Vertex Groups to Linked`\ :Copy Vertex Groups of this Mesh to all linked Objects which use the same mesh data (all users of the data).
-:guilabel:`Copy Vertex Group to Selected`\ :Copy all Vertex Groups to other Selected Objects provided they have matching indices (typically this is true for copies of the mesh which are only deformed and not otherwise edited).
-:guilabel:`Mirror Vertex Group`\ :Mirror all Vertex Groups, flip weights and/or names, editing only selected vertices, flipping when both sides are selected; otherwise copy from unselected. Note
-   this function will be reworked (and fully documented) in a future release.
-:guilabel:`Remove from All Groups` (not available for locked groups)
-   Unassign the selected Vertices from all groups. After this operation has been performed, the verts will no longer be contained in any vertex group.
-:guilabel:`Clear Active group` (not available for locked groups)
-   Remove all assigned vertices from the active Group. The group is made empty. Note that the vertices may still be assigned to other Vertex Groups of the Object.
-:guilabel:`Delete All Groups`
+:guilabel:`Sort Vertex Groups`:
+   Sorts Vertex Groups Alphabetically
+:guilabel:`Copy Vertex Group`:
+   Add a Copy of the active Vertex Group as a new Group.
+   The new group will be named like the original group with "_copy" appended at the end of its name.
+   And it will contain associations to exactly the same verts with the exact same weights as in the source vertex group.
+:guilabel:`Copy Vertex Groups to Linked`:
+   Copy Vertex Groups of this Mesh to all linked Objects which use the same mesh data (all users of the data).
+:guilabel:`Copy Vertex Group to Selected`:
+   Copy all Vertex Groups to other Selected Objects provided they have matching indices
+   (typically this is true for copies of the mesh which are only deformed and not otherwise edited).
+:guilabel:`Mirror Vertex Group`:
+   Mirror all Vertex Groups, flip weights and/or names, editing only selected vertices,
+   flipping when both sides are selected; otherwise copy from unselected.
+   Note this function will be reworked (and fully documented) in a future release.
+:guilabel:`Remove from All Groups`:
+   (not available for locked groups) Unassign the selected Vertices from all groups.
+   After this operation has been performed, the verts will no longer be contained in any vertex group.
+:guilabel:`Clear Active group` (not available for locked groups):
+   Remove all assigned vertices from the active Group. The group is made empty.
+   Note that the vertices may still be assigned to other Vertex Groups of the Object.
+:guilabel:`Delete All Groups`:
    Remove all Vertex Groups from the Object.
 
 The following functions operate only on the lock state settings:
@@ -304,5 +316,7 @@ The following functions operate only on the lock state settings:
 Hints
 -----
 
-- Multiple objects sharing the same mesh data have the peculiar property that the group names are stored on the object, but the weights in the mesh. This allows you to name groups differently on each object, but take care because removing a vertex group will remove the group from all objects sharing this mesh.
+- Multiple objects sharing the same mesh data have the peculiar property that the group names are stored on the
+  object, but the weights in the mesh. This allows you to name groups differently on each object, but take care
+  because removing a vertex group will remove the group from all objects sharing this mesh.
 

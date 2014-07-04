@@ -36,8 +36,8 @@ you would be able to lay it flat on a tabletop.
 As you are looking down at the box on the table,
 we could say that U is the left-right direction, is V is the up-down direction.
 This image is thus in two dimensions (2D). We use **U** and **V** to refer to these
-"texture-space coordinates" instead of the normal **X** and **Y**\ , which are always used
-(along with **Z**\ ) to refer to "3D space."
+"texture-space coordinates" instead of the normal **X** and **Y**, which are always used
+(along with **Z**) to refer to "3D space."
 
 When the box is reassembled, a certain UV location on the paper is transferred to an (X,Y,Z)
 location on the box.
@@ -97,7 +97,7 @@ This difference is caused by the 'stretching' (technically called mapping) of th
 (XYZ) onto a 2D plane (i.e the UV map).
 
 If a 3D object has a UV map, then, in addition to the 3D-coordinates X, Y, and Z,
-each point on the object will have corresponding U and V coordinates. (\ :guilabel:`P` in the
+each point on the object will have corresponding U and V coordinates. (:guilabel:`P` in the
 image above is an example of how a point on a 3D object might be mapped onto a 2D image.)
 
 

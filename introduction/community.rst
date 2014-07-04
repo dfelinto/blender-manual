@@ -6,7 +6,7 @@ Being freely available from the start, even while closed source,
 helped considerably in Blender's adoption. A large,
 stable and active community of users has gathered around Blender since 1998. The community
 showed its support for Blender in 2002 when they helped raise €100,000 in seven weeks to
-enable Blender to go Open Source under the `GNU GPL <http://www.gnu.org/copyleft/gpl.html>`__\ .
+enable Blender to go Open Source under the `GNU GPL <http://www.gnu.org/copyleft/gpl.html>`__.
 
 The community spans two widely overlapping sites:
 
@@ -68,7 +68,7 @@ You can join these with your favorite IRC client:
 **For developers there is also :**
 
 - `#blendercoders ``irc://irc.freenode.net/blendercoders``
-  for developers to ask questions and discuss development issues, as well as a meeting each Sunday at 4 pm Netherlands time
+  for developers to ask questions and discuss development issues, as well as a meeting each Sunday at 4 pm Netherlands time
 - `#blenderpython ``irc://irc.freenode.net/blenderpython``
   for discussion of the python API and script development
 - `#blenderwiki ``irc://irc.freenode.net/blenderwiki``

@@ -23,7 +23,7 @@ To understand this option properly, you need to understand how Blender works wit
 Almost everything in Blender is organized in a hierarchy of Datablocks.
 A Datablock can be thought of as containers for certain pieces of information. For example,
 the Object Datablock contains information about the Object's location while the Object Data
-(\ :guilabel:`ObData`\ )  datablock contains information about the mesh.
+(:guilabel:`ObData`)  datablock contains information about the mesh.
 
 
 A material may be linked in two different ways:
@@ -71,6 +71,7 @@ Grease Pencil
 =============
 
 Grease Pencil permits you to draw in the 3D viewport with a pencil-like tool.
+
 :guilabel:`Manhattan Distance`
    The minimum number of pixels the mouse has to move horizontally or vertically before the movement is recorded.
 :guilabel:`Euclidian Distance`
@@ -93,12 +94,14 @@ Keyframing
 
 In many situations, animation is controlled by keyframes. The state of a value (e.g. location)
 is recorded in a keyframe and the animation between two keyframes is interpolated by Blender.
+
 :guilabel:`Visual Keying`
    Use Visual keying automatically for constrained objects.
 :guilabel:`Only Insert Needed`
    When enabled, new keyframes will be created only when needed.
 :guilabel:`Auto Keyframing`
    Automatic keyframe insertion for Objects and Bones. Auto Keyframe is not enabled by default.
+
    :guilabel:`Only Insert Available`
       Automatic keyframe insertion in available curves.
 :guilabel:`New F-Curve Defaults`

@@ -21,7 +21,7 @@ This object will be *replaced* by the fluid during the simulation.
 .. admonition:: Baking is done on the Domain object
    :class: nicetip
 
-   When you calculate the fluid simulation, **you bake the simulation on the domain object**\ . For this reason all the baking options are visible only when selecting the Domain Object.
+   When you calculate the fluid simulation, **you bake the simulation on the domain object**. For this reason all the baking options are visible only when selecting the Domain Object.
 
    For baking options, please refer to
    FIXME(TODO: Internal Link;
@@ -38,15 +38,14 @@ Options
 
 
 *Bake* button
-    For baking options please refer to
-FIXME(TODO: Internal Link;
-[[#Baking|the baking section]]
-) in this page.
+   For baking options please refer to FIXME(TODO: Internal Link; [[#Baking|the baking section]]) in this page.
 
 *Resolution*
 
-    *Render resolution*
-       The granularity at which the actual fluid simulation is performed. This is probably the most important setting for the simulation as it determines the amount of details in the fluid, the memory and disk usage as well as computational time.
+   *Render resolution*
+      The granularity at which the actual fluid simulation is performed.
+      This is probably the most important setting for the simulation as it
+      determines the amount of details in the fluid, the memory and disk usage as well as computational time.
 
 
 +------------------------------------------+-------------------------------------------+
@@ -58,11 +57,11 @@ FIXME(TODO: Internal Link;
 +------------------------------------------+-------------------------------------------+
 
 
-       Note that the amount of required memory quickly increases: a resolution of 32 requires ca. 4MB,
-       64 requires ca. 30MB, while 128 already needs more than 230MB. Make sure to set the resolution low enough,
-       depending on how much memory you have, to prevent Blender from crashing or freezing. Remember also that many
-       operating systems limit the amount of memory that can be allocated by a single *process*\ , such as Blender,
-       even if the *machine* contains much more than this. Find out what limitations apply to your machine.
+      Note that the amount of required memory quickly increases: a resolution of 32 requires ca. 4MB,
+      64 requires ca. 30MB, while 128 already needs more than 230MB. Make sure to set the resolution low enough,
+      depending on how much memory you have, to prevent Blender from crashing or freezing. Remember also that many
+      operating systems limit the amount of memory that can be allocated by a single *process*, such as Blender,
+      even if the *machine* contains much more than this. Find out what limitations apply to your machine.
 
 
 
@@ -70,45 +69,46 @@ FIXME(TODO: Internal Link;
    :class: note
 
    Be sure to set the resolution appropriate to the real-world size of the domain (see the *Realworld-size* in the
-   FIXME(TODO: Internal Link;
-   [[#Domain Wold|Domain Wold panel]]
-   )). If the domain is not cubic, the resolution will be taken for the longest side. The resolutions along the other sides will be reduced according to their lengths (therefore, a non-cubic domain will need less memory than a cubic one, resolutions being the same).
+   FIXME(TODO: Internal Link; [[#Domain Wold|Domain Wold panel]])).
+   If the domain is not cubic, the resolution will be taken for the longest side.
+   The resolutions along the other sides will be reduced according to their lengths
+   (therefore, a non-cubic domain will need less memory than a cubic one, resolutions being the same).
 
 
-    *Preview resolution*
+   *Preview resolution*
 
-       This is the resolution at which the preview surface meshes will be generated. So it does not influence the actual simulation. Even if "there is nothing to see" in the preview, there might be a thin fluid surface that cannot be resolved in the preview.
+      This is the resolution at which the preview surface meshes will be generated. So it does not influence the actual simulation. Even if "there is nothing to see" in the preview, there might be a thin fluid surface that cannot be resolved in the preview.
 
 *Display quality*
 
-    How to display a baked simulation in the 3d view (menu *Viewport Display*\ ) and for rendering (menu *Render Display*\ ):
+   How to display a baked simulation in the 3d view (menu *Viewport Display*) and for rendering (menu *Render Display*):
 
 
-   - *Geometry*\ : use the original geometry (before simulation).
-   - *Preview*\ : use the preview mesh.
-   - *Final*\ : use the final high definition mesh.
+   - *Geometry* : use the original geometry (before simulation).
+   - *Preview* : use the preview mesh.
+   - *Final* : use the final high definition mesh.
 
-    When no baked data is found, the original mesh will be displayed by default.
+   When no baked data is found, the original mesh will be displayed by default.
 
-    After you have baked a domain, it is displayed (usually) in the Blender window as the preview mesh. To see the size and scope of the original domain box, select :guilabel:`Geometry` in the left dropdown.
+   After you have baked a domain, it is displayed (usually) in the Blender window as the preview mesh. To see the size and scope of the original domain box, select :guilabel:`Geometry` in the left dropdown.
 
 *Time*
 
-    *Start*
-       It is the simulation start time (in seconds).
+   *Start*
+      It is the simulation start time (in seconds).
 
-       This option makes the simulation computation in Blender start later in the simulation. The domain deformations and fluid flow prior to the start time are not saved.
+      This option makes the simulation computation in Blender start later in the simulation. The domain deformations and fluid flow prior to the start time are not saved.
 
-       For example, if you wanted the fluid to appear to already have been flowing for 4 seconds before the actual first frame of data, you would enter 4.0 here.
+      For example, if you wanted the fluid to appear to already have been flowing for 4 seconds before the actual first frame of data, you would enter 4.0 here.
 
-    *End*
-       It is the simulation ending time (in seconds).
+   *End*
+      It is the simulation ending time (in seconds).
 
 
 .. admonition:: Start and end times have nothing to do with how many frames are baked
    :class: nicetip
 
-   If you set *Start* time to 3.0, and *End* time to 4.0, you will simulate 1 second of fluid motion. That one second of fluid motion will be spread across however-many frames are set in the :guilabel:`Anim` panel (\ :guilabel:`Scene` context → :guilabel:`Render` sub-context → :guilabel:`Anim` and :guilabel:`Output` panel).
+   If you set *Start* time to 3.0, and *End* time to 4.0, you will simulate 1 second of fluid motion. That one second of fluid motion will be spread across however-many frames are set in the :guilabel:`Anim` panel (:guilabel:`Scene` context → :guilabel:`Render` sub-context → :guilabel:`Anim` and :guilabel:`Output` panel).
 
    This means, for example, that if you have Blender set to make 250 frames at 25 fps, the fluid
    will look like it had already been flowing for 3 seconds at the start of the simulation,
@@ -121,16 +121,15 @@ FIXME(TODO: Internal Link;
 
 
 *Generate Speed Vector*
-    If this button is clicked, no speed vectors will be exported. So by default, speed vectors are generated and stored on disk. They can be used to compute image based motion blur with the compositing nodes.
+   If this button is clicked, no speed vectors will be exported.
+   So by default, speed vectors are generated and stored on disk.
+   They can be used to compute image based motion blur with the compositing nodes.
 
 *Reverse fluid frames*
-    The simulation is calculated backward
+   The simulation is calculated backward
 
 *Bake* directory
-    For baking options please refer to
-FIXME(TODO: Internal Link;
-[[#Baking|the baking section]]
-) in this page.
+   For baking options please refer to FIXME(TODO: Internal Link; [[#Baking|the baking section]]) in this page.
 
 
 Domain World
@@ -142,26 +141,30 @@ Domain World
 
 
 *Viscosity*
-   The "thickness" of the fluid and actually the force needed to move an object of a certain surface area through it at a certain speed. You can either enter a value directly or use one of the presets in the drop down (such as honey, oil, or water).
+   The "thickness" of the fluid and actually the force needed to move an object of a certain surface area through it
+   at a certain speed. You can either enter a value directly or use one of the presets in the drop down (such as
+   honey, oil, or water).
 
    For manual entry, please note that the normal real-world viscosity (the so-called dynamic viscosity)
-   is measured in Pascal-seconds (Pa.s), or in Poise units (P, equal to 0.1 Pa.s, pronounced "\ *pwaz*\ ",
+   is measured in Pascal-seconds (Pa.s), or in Poise units (P, equal to 0.1 Pa.s, pronounced "\ *pwaz* ",
    from the Frenchman Jean-Louis Poiseuille, who discovered the laws on "the laminar flow of viscous fluids"),
-   and commonly centiPoise units (cP, equal to 0.001 Pa.s, "\ *sentipwaz*\ "). Blender, on the other hand,
-   uses the kinematic viscosity (which is dynamic viscosity in Pa.s, divided by the density in kg.m\ :sup:`-3`\ ,
-   unit ``m``\ :sup:`2`\ ``.s``\ :sup:`-1`\ ).
+   and commonly centiPoise units (cP, equal to 0.001 Pa.s, "\ *sentipwaz* "). Blender, on the other hand,
+   uses the kinematic viscosity (which is dynamic viscosity in Pa.s, divided by the density in kg.m\ :sup:`-3`,
+   unit ``m``:sup:`2` ``.s``:sup:`-1`).
    The table below gives some examples of fluids together with their dynamic and kinematic viscosities.
 
    Manual entries are specified by a floating point number and an exponent.
    These floating point and exponent entry fields (scientific notation)
    simplify entering very small or large numbers. The viscosity of water at room temperature is 1.002 cP,
-   ou 0.001002 Pa.s; the density of water is about 1000 kg.m\ :sup:`-3`\ , which gives us a kinematic viscosity of
-   0.000001002 m\ :sup:`2`\ .s\ :sup:`-1` - so the entry would be 1.002 times 10 to the minus six (\ ``1.
-   002?10``\ :sup:`-6` in scientific notation). Hot Glass and melting iron is a fluid, but very thick;
-   you should enter something like ``1.0?10``\ :sup:`0` (= 1.0) as its kinematic viscosity
-   (indicating a value of ``1.0?10``\ :sup:`6` cP).
+   ou 0.001002 Pa.s; the density of water is about 1000 kg.m\ :sup:`-3`, which gives us a kinematic viscosity of
+   0.000001002 m\ :sup:`2`.s\ :sup:`-1` - so the entry would be 1.002 times 10 to the minus six (``1.
+   002?10``:sup:`-6` in scientific notation). Hot Glass and melting iron is a fluid, but very thick;
+   you should enter something like ``1.0?10``:sup:`0` (= 1.0) as its kinematic viscosity
+   (indicating a value of ``1.0?10``:sup:`6` cP).
 
-   Note that the simulator is not suitable for non-fluids, such as materials that do not "flow". Simply setting the viscosity to very large values will not result in rigid body behavior, but might cause instabilities.
+   Note that the simulator is not suitable for non-fluids, such as materials that do not "flow".
+   Simply setting the viscosity to very large values will not result in rigid body behavior,
+   but might cause instabilities.
 
 
 .. admonition:: Viscosity varies
@@ -208,7 +211,7 @@ Domain World
 
 
 +---------------------------------+--------------------------+---------------------------------+--------------------------------------------------------------+
-+Blender Viscosity Unit Conversion|Fluid                     |dynamic viscosity (in cP)        |kinematic viscosity (Blender, in m\ :sup:`2`\ .s\ :sup:`-1`\ )+
++Blender Viscosity Unit Conversion|Fluid                     |dynamic viscosity (in cP)        |kinematic viscosity (Blender, in m\ :sup:`2`.s\ :sup:`-1`)    +
 +---------------------------------+--------------------------+---------------------------------+--------------------------------------------------------------+
 +Water (20- C)                    |1.002×10\ :sup:`0` (1.002)|1.002×10\ :sup:`-6` (0.000001002)                                                               +
 +---------------------------------+--------------------------+---------------------------------+--------------------------------------------------------------+
@@ -229,11 +232,11 @@ Domain World
 
 *Optimization*
 
-    *Gridlevel*
-       How many adaptive grid levels to be used during simulation - setting this to -1 will perform automatic selection.
+   *Gridlevel*
+      How many adaptive grid levels to be used during simulation - setting this to -1 will perform automatic selection.
 
-    *Compressibility*
-       If you have problems with large standing fluid regions at high resolution, it might help to reduce this number (note that this will increase computation times).
+   *Compressibility*
+      If you have problems with large standing fluid regions at high resolution, it might help to reduce this number (note that this will increase computation times).
 
 
 Domain Boundary
@@ -255,13 +258,13 @@ FIXME(Template Unsupported: Doc:2.6/Manual/Physics/Fluid/split_type;
 
 *Surface*
 
-    *Surface Smoothing*
-       Amount of smoothing to be applied to the fluid surface. 1.0 is standard, 0 is off, while larger values increase the amount of smoothing.
+   *Surface Smoothing*
+      Amount of smoothing to be applied to the fluid surface. 1.0 is standard, 0 is off, while larger values increase the amount of smoothing.
 
-    *Subdivisions*
-       Allows the creation of high-res surface meshes directly during the simulation (as opposed to doing it afterwards like a subdivision modifier). A value of 1 means no subdivision, and each increase results in one further subdivision of each fluid voxel. The resulting meshes thus quickly become large, and can require large amounts of disk space. Be careful in combination with large smoothing values - this can lead to long computation times due to the surface mesh generation.
+   *Subdivisions*
+      Allows the creation of high-res surface meshes directly during the simulation (as opposed to doing it afterwards like a subdivision modifier). A value of 1 means no subdivision, and each increase results in one further subdivision of each fluid voxel. The resulting meshes thus quickly become large, and can require large amounts of disk space. Be careful in combination with large smoothing values - this can lead to long computation times due to the surface mesh generation.
 
-    *Hide fluid surface*
+   *Hide fluid surface*
 
 
 
@@ -307,8 +310,8 @@ Bake Button
 Perform the actual fluid simulation. Blender will continue to work normally,
 except there will be a status bar in the top of the window, next to the render pulldown.
 Pressing :kbd:`Esc` or the "x" next to the status bar will abort the simulation.
-Afterwards two "\ ``.bobj.gz``\ " (one for the :guilabel:`Final` quality,
-one for the :guilabel:`Preview` quality), plus one "\ ``.bvel.gz``\ "
+Afterwards two "\ ``.bobj.gz`` " (one for the :guilabel:`Final` quality,
+one for the :guilabel:`Preview` quality), plus one "\ ``.bvel.gz`` "
 (for the :guilabel:`Final` quality) will be in the selected output directory for each frame.
 
 
@@ -321,47 +324,45 @@ Directory and file prefix to store baked surface meshes.
 
 This is similar to the animation output settings, only selecting a file is a bit special:
 when you select any of the previously generated surface meshes (e.g.
-"\ ``test1_fluidsurface_final_0132.bobj.gz``\ "), the prefix will be automatically set
-("\ ``test1_``\ " in this example).
+"\ ``test1_fluidsurface_final_0132.bobj.gz`` "), the prefix will be automatically set
+("\ ``test1_`` " in this example).
 This way the simulation can be done several times with different settings,
 and allows quick changes between the different sets of surface data.
 
-The default value is "\ ``/tmp/``\ ", which is probably *not* what you want. Choose an
+The default value is "\ ``/tmp/`` ", which is probably *not* what you want. Choose an
 appropriate directory-name and file prefix so that these files will be stored in an
 appropriate location *and* named in such a way that two different fluid-simulations won't
 conflict with one another (if you're intending to specify only a directory-name here, i.e.
-without a filename-prefix, don't forget the trailing "\ ``/``\ ").
+without a filename-prefix, don't forget the trailing "\ ``/`` ").
 
 
 Notes
 ~~~~~
 
 **Unique domain**
-    Because of the possibility of spanning and linking between scenes, there can only be one domain in an entire .blend file.
+   Because of the possibility of spanning and linking between scenes, there can only be one domain in an entire .blend file.
 
 **Selecting a Baked Domain**
-    After a domain has been baked, it changes to the fluid mesh. To re-select the domain so that you can bake it again after you have made changes, go to any frame and select (\ :kbd:`Rmb`\ ) the fluid mesh. Then you can click the :guilabel:`BAKE` button again to recompute the fluid flows inside that domain.
+   After a domain has been baked, it changes to the fluid mesh. To re-select the domain so that you can bake it again after you have made changes, go to any frame and select (:kbd:`Rmb`) the fluid mesh. Then you can click the :guilabel:`BAKE` button again to recompute the fluid flows inside that domain.
 
 **Baking always starts at Frame #1:**
    The fluid simulator disregards the :guilabel:`Sta` setting in the :guilabel:`Anim` panel, it will always bake from frame 1.
    If you wish the simulation to start later than frame 1, you must key the fluid objects in your domain to be inactive until the frame you desire to start the simulation. See
-FIXME(TODO: Internal Link;
-[[#Animating Fluid Property Changes|below]]
-) for more information.
+   FIXME(TODO: Internal Link; [[#Animating Fluid Property Changes|below]]) for more information.
 
 **Baking always ends at the** :guilabel:`End` **Frame set in the** :guilabel:`Anim` **panel:**
    If your frame-rate is 25 frames per second, and ending time is 4.0 seconds, then you should (if your start time is 0) set your animation to end at frame ``4.0 × 25 =`` 100.
 
 **Freeing the previous baked solutions**
-    Deleting the content of the "Bake" directory is a destructive way to achieve this. Be careful if more than one simulation uses the same bake directory (be sure they use different filenames, or they will overwrite one another)!
+   Deleting the content of the "Bake" directory is a destructive way to achieve this. Be careful if more than one simulation uses the same bake directory (be sure they use different filenames, or they will overwrite one another)!
 
 **Reusing Bakes**
-    Manually entering (or searching for) a previously saved (baked) computational directory and filename mask will switch the fluid flow and mesh deformation to use that which existed during the old bake. Thus, you can re-use baked flows by simply pointing to them in this field.
+   Manually entering (or searching for) a previously saved (baked) computational directory and filename mask will switch the fluid flow and mesh deformation to use that which existed during the old bake. Thus, you can re-use baked flows by simply pointing to them in this field.
 
 **Baking processing time**
-    Baking takes a **lot** of compute power (hence time). Depending on the scene, it might be preferable to bake overnight.
+   Baking takes a **lot** of compute power (hence time). Depending on the scene, it might be preferable to bake overnight.
 
-    If the mesh has modifiers, the rendering settings are used for exporting the mesh to the fluid solver. Depending on the setting, calculation times and memory use might exponentially increase. For example, when using a moving mesh with :guilabel:`Subsurf` as an obstacle, it might help to decrease simulation time by switching it off, or to a low subdivision level. When the setup/rig is correct, you can always increase settings to yield a more realistic result.
+   If the mesh has modifiers, the rendering settings are used for exporting the mesh to the fluid solver. Depending on the setting, calculation times and memory use might exponentially increase. For example, when using a moving mesh with :guilabel:`Subsurf` as an obstacle, it might help to decrease simulation time by switching it off, or to a low subdivision level. When the setup/rig is correct, you can always increase settings to yield a more realistic result.
 
 
 ..    Comment: <!--

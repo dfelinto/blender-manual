@@ -89,16 +89,16 @@ while color TV sets reconstruct color from Crominances (and from luminance).
 Construction of the YCrCb values from the RGB ones takes two steps
 (the constants *in italics* depend on the system: PAL or NTSC):
 
-First, the Gamma correction (\ *g* varies: 2.2 for NTSC, 2.8 for PAL):
+First, the Gamma correction (*g* varies: 2.2 for NTSC, 2.8 for PAL):
 
-- R' = R\ :sup:`1/`\ *g*\ :*G' = G\ :sup:`1/`\ *g*
-- B' = B\ :sup:`1/`\ *g*
+- R' = R\ :sup:`1/` *g* :*G' = G\ :sup:`1/` *g*
+- B' = B\ :sup:`1/` *g*
 
 Then, the conversion itself:
 
 - Y = 0.299R' + 0.587G' + 0.114B'
-- Cr = *a*\ :sub:`1`\ (R' - Y) + *b*\ :sub:`1`\ (B' - Y)
-- Cb = *a*\ :sub:`2`\ (R' - Y) + *b*\ :sub:`2`\ (B' - Y)
+- Cr = *a* :sub:`1` (R' - Y) + *b* :sub:`1` (B' - Y)
+- Cb = *a* :sub:`2` (R' - Y) + *b* :sub:`2` (B' - Y)
 
 Whereas a standard 24 bit RGB picture has 8 bits for each channel, to keep bandwidth down,
 and considering that the human eye is more sensitive to luminance than to chrominance,
@@ -154,7 +154,7 @@ Options
 
 :guilabel:`Fields`
    Enable field rendering. When the :guilabel:`Fields` button in the :guilabel:`Render` Panel is pressed
-   (\ *Post Processing* section), Blender prepares each frame in two passes.
+   (*Post Processing* section), Blender prepares each frame in two passes.
    On the first it renders only the even lines,
    then it *advances in time by half a time step* and renders all the odd lines.
    This produces odd results on a PC screen *(Field Rendering result)*. but will show correctly on a TV set.
@@ -163,7 +163,7 @@ Options
 :guilabel:`Upper First / Lower First`
    Toggles between rendering the even and odd frames first.
 :guilabel:`Still`
-   Disables the half-frame time step between fields (\ :guilabel:`x`\ ).
+   Disables the half-frame time step between fields (:guilabel:`x`).
 
 
 .. admonition:: Setting up the correct field order
@@ -218,12 +218,12 @@ Most codecs can only compress the RGB or YUV color space,
 but some support the Alpha channel as well. Codecs that support RGBA include:
 
 - animation (quicktime)
-- PNG *TIFF *Pixlet - not loss-less, and may be only available on Apple Mac.
+- PNG TIFF Pixlet - not loss-less, and may be only available on Apple Mac.
 - `Lagarith Loss-less Video Codec <http://lags.leetcode.net/codec.html>`__
 
 
 +-----------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-+:guilabel:`AVI Codec`  |AVI codec compression. Available codecs are operating-system dependent. When an AVI codec is initially chosen, the codec dialog is automatically launched. The codec can be changed directly using the :guilabel:`Set Codec` button which appears (\ *AVI Codec settings.*\ ).+
++:guilabel:`AVI Codec`  |AVI codec compression. Available codecs are operating-system dependent. When an AVI codec is initially chosen, the codec dialog is automatically launched. The codec can be changed directly using the :guilabel:`Set Codec` button which appears (*AVI Codec settings.*).    +
 +-----------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 +:guilabel:`AVI Jpeg`   |AVI but with Jpeg compression. Lossy, smaller files but not as small as you can get with a Codec compression algorithm. Jpeg compression is also the one used in the DV format used in digital camcorders.                                                                    +
 +-----------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -234,13 +234,13 @@ but some support the Alpha channel as well. Codecs that support RGBA include:
 +                       |[[Dev:Source/Render/Frameserver|frames upon request]]                                                                                                                                                                                                                         +
 +                       |) as part of a render farm. The port number is specified in the OpenGL User Preferences panel.                                                                                                                                                                                +
 +-----------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-+:guilabel:`H.264`      |Encodes movies with the H.264 codec. See :doc:`Advanced Encoding <render/output_options#advanced_encoding>`\ .                                                                                                                                                                +
++:guilabel:`H.264`      |Encodes movies with the H.264 codec. See :doc:`Advanced Encoding <render/output_options#advanced_encoding>`.                                                                                                                                                                  +
 +-----------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-+:guilabel:`MPEG`       |Encodes movies with the MPEG codec. See :doc:`Advanced Encoding <render/output_options#advanced_encoding>`\ .                                                                                                                                                                 +
++:guilabel:`MPEG`       |Encodes movies with the MPEG codec. See :doc:`Advanced Encoding <render/output_options#advanced_encoding>`.                                                                                                                                                                   +
 +-----------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-+:guilabel:`Ogg Theora` |Encodes movies with the Theora codec as Ogg files. See :doc:`Advanced Encoding <render/output_options#advanced_encoding>`\ .                                                                                                                                                  +
++:guilabel:`Ogg Theora` |Encodes movies with the Theora codec as Ogg files. See :doc:`Advanced Encoding <render/output_options#advanced_encoding>`.                                                                                                                                                    +
 +-----------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-+:guilabel:`QuickTime`  |Apple's Quicktime .mov file. The Quicktime codec dialog is available when this codec is installed and this format is initially chosen. See :doc:`Quicktime Encoding <render/output_options#quicktime>`\ .                                                                     +
++:guilabel:`QuickTime`  |Apple's Quicktime .mov file. The Quicktime codec dialog is available when this codec is installed and this format is initially chosen. See :doc:`Quicktime Encoding <render/output_options#quicktime>`.                                                                       +
 +                       |                                                                                                                                                                                                                                                                              +
 +                       |.. admonition:: Reads GIF if QuickTime is Installed                                                                                                                                                                                                                           +
 +                       |   :class: note                                                                                                                                                                                                                                                               +
@@ -250,7 +250,7 @@ but some support the Alpha channel as well. Codecs that support RGBA include:
 +                       |   [[http://www.apple.com/quicktime/download QuickTime]]                                                                                                                                                                                                                      +
 +                       |   ) installed. The GIF capabilities (as well as flattened PSD, flattened PDF on Mac, and others) come along with QuickTime.                                                                                                                                                  +
 +-----------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-+:guilabel:`Xvid`       |Encodes movies with the Xvid codec. See :doc:`Advanced Encoding <render/output_options#advanced_encoding>`\ .                                                                                                                                                                 +
++:guilabel:`Xvid`       |Encodes movies with the Xvid codec. See :doc:`Advanced Encoding <render/output_options#advanced_encoding>`.                                                                                                                                                                   +
 +-----------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
@@ -260,11 +260,11 @@ Advanced Encoding
 .. figure:: /images/Manual-Render-FFMPEG-Video-2.5+.jpg
 
 
-If the  :guilabel:`H.264`\ , :guilabel:`MPEG`\ , :guilabel:`Ogg Theora`\ ,
+If the  :guilabel:`H.264`, :guilabel:`MPEG`, :guilabel:`Ogg Theora`,
 or :guilabel:`Xvid` codecs are chosen, an :guilabel:`Encoding` panel becomes available.
 This has settings for encoding these file types, and other formats using FFmpeg.
 
-`FFmpeg <http://ffmpeg.org>`__\ , short for Fast Forward Moving Pictures Expert Group, is a collection of free and open source software libraries that can record, convert and stream digital audio and video in numerous formats. It includes libavcodec, an audio/video codec library used by several other projects, and libavformat, an audio/video container mux and demux library.
+`FFmpeg <http://ffmpeg.org>`__, short for Fast Forward Moving Pictures Expert Group, is a collection of free and open source software libraries that can record, convert and stream digital audio and video in numerous formats. It includes libavcodec, an audio/video codec library used by several other projects, and libavformat, an audio/video container mux and demux library.
 
 
 Video Settings
@@ -274,7 +274,7 @@ Here you choose which video codec you want to use, and compression settings.
 With all of these compression choices, there is a tradeoff between file size,
 compatibility across platforms, and playback quality.
 
-When you view the :doc:`System Console <interface/window_system/console_window>`\ , you can see some of the output of the encoding process. You will see even more output if you execute Blender as *blender -d* .
+When you view the :doc:`System Console <interface/window_system/console_window>`, you can see some of the output of the encoding process. You will see even more output if you execute Blender as *blender -d* .
 
 You can use the presets, DV, SVCD, DVD, etc.
 which choose optimum settings for you for that type of output,
@@ -378,13 +378,18 @@ _______
    Set the average `bitrate <http://en.wikipedia.org/wiki/Bit_rate>`__ (quality), which is the count of binary digits per frame. See also: `ffmpeg -b:v <http://ffmpeg.org/ffmpeg.html#Description>`__
 
 :guilabel:`Rate`
-   The bitrate control also includes a :guilabel:`Minimum` and a :guilabel:`Maximum`\ .
+   The bitrate control also includes a :guilabel:`Minimum` and a :guilabel:`Maximum`.
 
    :guilabel:`Buffer`
       The `decoder bitstream buffer <http://en.wikipedia.org/wiki/Video_buffering_verifier>`__ size.
 
 :guilabel:`GOP Size`
-    The number of pictures per `Group of Pictures <http://en.wikipedia.org/wiki/Group_of_pictures>`__\ . Set to 0 for "intra_only", which disables `inter-frame <http://en.wikipedia.org/wiki/Inter-frame>`__ video. From ffmpeg docs: "For streaming at very low bitrate application, use a low frame rate and a small GOP size. This is especially true for RealVideo where the Linux player does not seem to be very fast, so it can miss frames"
+   The number of pictures per `Group of Pictures <http://en.wikipedia.org/wiki/Group_of_pictures>`__.
+   Set to 0 for "intra_only", which disables `inter-frame <http://en.wikipedia.org/wiki/Inter-frame>`__ video.
+   From ffmpeg docs: "For streaming at very low bitrate application, use a low frame rate and a small GOP size.
+   This is especially true for RealVideo where the Linux player does not seem to be very fast,
+   so it can miss frames"
+
 
 :guilabel:`Autosplit Output`
    If your video is HUGE and exceeds 2Gig, enable Autosplit Output. The main control over output filesize is the GOP, or keyframe interlace. A higher number generally leads to a smaller file, but needs a higher-powered device to replay it.
@@ -449,17 +454,17 @@ Choosing which format to use depends on what you are going to do with the image.
 If you are animating a movie and are not going to do any post-processing or special effects on
 it, use either **AVI-JPEG** or **AVI Codec** and choose the XviD open codec.
 If you want to output your movie with sound that you have loaded into the VSE,
-use **FFMPEG**\ .
+use **FFMPEG**.
 
 If you are going to do post-processing on your movie,
 it is best to use a frame set rendered as **OpenEXR** images; if you only want one file,
-then choose **AVI Raw**\ . While AVI Raw is huge,
+then choose **AVI Raw**. While AVI Raw is huge,
 it preserves the exact quality of output for post-processing. After post-processing
 (compositing and/or sequencing), you can compress it down.
 You don't want to post-process a compressed file, because the compression artifacts might
 throw off what you are trying to accomplish with the post-processing.
 
-Note that you might not want to render directly to a video format. If a problem occurs while rendering, you have to re-render all frames from the beginning. If you first render out a set of static images (such as the default PNG, or the higher-quality OpenEXR), you can stitch them together with an Image Strip in the :doc:`Video Sequence Editor (VSE) <sequencer/usage>`\ . This way, you can easily:
+Note that you might not want to render directly to a video format. If a problem occurs while rendering, you have to re-render all frames from the beginning. If you first render out a set of static images (such as the default PNG, or the higher-quality OpenEXR), you can stitch them together with an Image Strip in the :doc:`Video Sequence Editor (VSE) <sequencer/usage>`. This way, you can easily:
 
 - Restart the rendering from the place (the frame) where the problem occurred.
 - Try out different video options in seconds, rather than minutes or hours.

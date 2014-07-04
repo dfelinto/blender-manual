@@ -17,7 +17,7 @@ X-Mirror
 The :guilabel:`X-mirror` option of the :guilabel:`Mesh Options` panel allows you edit both
 "sides" of your mesh in a single action. When you transform an element (vertex, edge or face),
 if there is its *exact X-mirrored counterpart* (in local space),
-it will be transformed accordingly, *through a symmetry along the local X axis*\ .
+it will be transformed accordingly, *through a symmetry along the local X axis*.
 
 
 Topology Mirror
@@ -42,7 +42,7 @@ example the :guilabel:`Topology Mirror` option will often not work.
 For an example of how to use :guilabel:`Topology Mirror` open up a new Blender scene,
 then delete Blender's default cube and add a Monkey Object to the 3D Viewport.
 
-Press the TAB Key to put the Monkey Object into :guilabel:`Edit Mode`\ .
+Press the TAB Key to put the Monkey Object into :guilabel:`Edit Mode`.
 
 With the :guilabel:`X Mirror` option disabled move one of the Monkey Object's vertices
 slightly.

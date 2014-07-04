@@ -12,7 +12,7 @@ along the line joining their original position to the Average position of the po
 All translations are of same value, and are controlled by the mouse.
 It results in something that looks a bit like the scale effect, but much more deforming.
 
-Note that unlike the preceding ones, you can :doc:`lock <3d_interaction/transform_control/axis_locking>` this transformation on axis - even though this has no real interest (except perhaps with a "plane locking"…).
+Note that unlike the preceding ones, you can :doc:`lock <3d_interaction/transform_control/axis_locking>` this transformation on axis - even though this has no real interest (except perhaps with a "plane locking"…).
 
 
 .. figure:: /images/ShrinkFlatten1.jpg
@@ -69,7 +69,7 @@ A cylinder is warped into a semicircular shape
 
 
 - Switch to top view and move the mesh away from the 3D cursor. This distance defines the radius of the warp.
-- Place the mesh in :guilabel:`Edit` mode (\ :kbd:`tab`\ ) and press :kbd:`A` to select all vertices. Press :kbd:`shift-W` to activate the warp transform tool. Move the mouse left or right to interactively define the amount of warp.
+- Place the mesh in :guilabel:`Edit` mode (:kbd:`tab`) and press :kbd:`A` to select all vertices. Press :kbd:`shift-W` to activate the warp transform tool. Move the mouse left or right to interactively define the amount of warp.
 
 
 .. figure:: /images/WarpTool1.jpg
@@ -118,7 +118,7 @@ move the mouse left to right to interactively control the shearing.
 To make the effect work on the vertical axis instead of the horizontal one,
 click the :kbd:`mmb` and then move the mouse up or down.
 Alternatively enter a numerical value from 0 to infinity. To finish with the tool,
-press the :kbd:`lmb`\ .
+press the :kbd:`lmb`.
 
 
 .. figure:: /images/Shear1.jpg
@@ -149,7 +149,7 @@ To Sphere
    :class: refbox
 
    | Mode:     :guilabel:`Edit` modes
-   | Panel:    :guilabel:`Mesh Tools` (\ :guilabel:`Editing` context)
+   | Panel:    :guilabel:`Mesh Tools` (:guilabel:`Editing` context)
    | Menu:     :menuselection:`Mesh/Curve/Surface --> Transform --> To Sphere`
    | Hotkey:   :kbd:`shift-alt-S`
 
@@ -168,13 +168,13 @@ or type in a value from 0 to 1 to manually control it.
 Example
 ~~~~~~~
 
-First, start with a :doc:`Cube <modeling/meshes/primitives#cube>`\ .
+First, start with a :doc:`Cube <modeling/meshes/primitives#cube>`.
 
 - Press :kbd:`tab` to switch into :guilabel:`Edit` mode.
-- Make sure all the vertices of the cube are selected by pressing :kbd:`A` twice. Then, go to the :guilabel:`Editing` context by pressing :kbd:`F9`\ . You should be able to see the :guilabel:`Mesh Tools` panel now.
-- Subdivide the cube by pressing the :guilabel:`Subdivide` button in the :guilabel:`Mesh Tools` panel, or with :menuselection:`[W] --> Subdivide`\ . You can do this as many times as you want; the more you subdivide, the smoother your sphere will be.
-- Now, press :kbd:`shift-alt-S` and move your mouse left or right to interactively control the proportion of "spherification" (or directly type a value, like "1.000" to achieve the same effect as below) - preferably using the :guilabel:`Median Point` pivot point!
-- Alternatively, you can use the :guilabel:`To Sphere` button (in the :guilabel:`Mesh Tools` panel). Select "100" to make your sphere. Note that you *should not move the 3D cursor* - or you won't get a sphere, but a piece of sphere…
+- Make sure all the vertices of the cube are selected by pressing :kbd:`A` twice. Then, go to the :guilabel:`Editing` context by pressing :kbd:`F9`. You should be able to see the :guilabel:`Mesh Tools` panel now.
+- Subdivide the cube by pressing the :guilabel:`Subdivide` button in the :guilabel:`Mesh Tools` panel, or with :menuselection:`[W] --> Subdivide`. You can do this as many times as you want; the more you subdivide, the smoother your sphere will be.
+- Now, press :kbd:`shift-alt-S` and move your mouse left or right to interactively control the proportion of "spherification" (or directly type a value, like "1.000" to achieve the same effect as below) - preferably using the :guilabel:`Median Point` pivot point!
+- Alternatively, you can use the :guilabel:`To Sphere` button (in the :guilabel:`Mesh Tools` panel). Select "100" to make your sphere. Note that you *should not move the 3D cursor* - or you won't get a sphere, but a piece of sphere…
 
 
 .. figure:: /images/ToSphereBefore.jpg

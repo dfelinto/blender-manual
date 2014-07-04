@@ -26,15 +26,15 @@ Cube.location.x is recorded to Channel X Location.
 
 
 :guilabel:`Actions`
-    Record and contain animation data.
+   Record and contain animation data.
 :guilabel:`Groups`
-    Are groups of channels.
+   Are groups of channels.
 :guilabel:`Channels`
-    Record properties.
+   Record properties.
 :guilabel:`F-Curves`
-    Are used to interpolate the difference between the keyframes.
+   Are used to interpolate the difference between the keyframes.
 :guilabel:`Keyframes`
-    Are used to set the values of properties.
+   Are used to set the values of properties.
 
 
 F-Curve Interpolation
@@ -49,9 +49,9 @@ The keyframes are set values by the user.
 
 The *F-Curve* is used to interpolate the difference between the keyframes.
 
-The *F-Curve* has different types of interpolation and also :doc:`F-Curve Modifiers <animation/editors/graph/fmodifiers>`\ .
+The *F-Curve* has different types of interpolation and also :doc:`F-Curve Modifiers <animation/editors/graph/fmodifiers>`.
 
-Most the settings for the :doc:`F-Curve <animation/editors/graph/fcurves>` are found in the :doc:`Graph Editor <animation/editors/graph>`\ .
+Most the settings for the :doc:`F-Curve <animation/editors/graph/fcurves>` are found in the :doc:`Graph Editor <animation/editors/graph>`.
 
 
 Basic Animation
@@ -67,20 +67,20 @@ Insert Keyframes
 This example shows you how to animate a cubes location, rotation, and scale.
 
 
-- First, in the *Timeline*\ , or other animation editors, set the frame to 1.
-- With the *Cube* selected in *Object Mode*\ , press :kbd:`I` in the 3D View.
-- From the *Insert Keyframe Menu* select *LocRotScale*\ .
+- First, in the *Timeline*, or other animation editors, set the frame to 1.
+- With the *Cube* selected in *Object Mode*, press :kbd:`I` in the 3D View.
+- From the *Insert Keyframe Menu* select *LocRotScale*.
 -    This will record the location, rotation, and scale, for the *Cube* on frame 1.
 - Set the frame to 100.
-- Use Grab/Move :kbd:`G`\ , Rotate :kbd:`R`\ , Scale :kbd:`S`\ , to transform the cube.
-- Press :kbd:`I` in the 3D View. From the *Insert Keyframe Menu* select *LocRotScale*\ .
+- Use Grab/Move :kbd:`G`, Rotate :kbd:`R`, Scale :kbd:`S`, to transform the cube.
+- Press :kbd:`I` in the 3D View. From the *Insert Keyframe Menu* select *LocRotScale*.
 
 
 .. figure:: /images/Doc_Actions_Insert_Keyframe_00.jpg
    :width: 500px
    :figwidth: 500px
 
-   3. 6. Insert Keyframes.
+   Insert Keyframes.
 
 
 To test the animation, press :kbd:`Alt-A` to play.
@@ -120,7 +120,7 @@ They are used to record multiple properties at the same time.
 There are some built in keying sets, 'LocRotScale', and also custom keying sets can be made.
 
 To use the keying set, first select a keying set from the *Timeline* header,
-or the *Keying Sets Panel*\ .
+or the *Keying Sets Panel*.
 
 Now when you press :kbd:`I` in the 3D view,
 blender will add keyframes for all the properties in the active keying set.
@@ -150,44 +150,44 @@ Insert Keyframes :kbd:`I` will add a keyframes for the set of properties.
 Properties have different colors and menu items for different states.
 
 Gray - Property is not animated with Keyframes or Drivers.
-    Insert Keyframes :kbd:`I`\ .
-    Insert Single Keyframe.
-    Add Drivers.
-    Add Single Driver.
-    Paste Driver.
+   Insert Keyframes :kbd:`I`.
+   Insert Single Keyframe.
+   Add Drivers.
+   Add Single Driver.
+   Paste Driver.
 
 Purple - Property value is controlled with a Driver.
-    Delete Drivers.
-    Delete Single Driver.
-    Copy Driver.
-    Paste Driver.
+   Delete Drivers.
+   Delete Single Driver.
+   Copy Driver.
+   Paste Driver.
 
 Green - Property has Channel with Keyframes.
-    Insert Keyframes :kbd:`I`\ .
-    Insert Single Keyframe.
-    Clear Keyframes :kbd:`Alt-Shift-I`
-    Clear Single Keyframes.
+   Insert Keyframes :kbd:`I`.
+   Insert Single Keyframe.
+   Clear Keyframes :kbd:`Alt-Shift-I`
+   Clear Single Keyframes.
 
 Yellow - Property has Keyframes on the current Frame.
-    Replace Keyframes :kbd:`I`\ .
-    Replace Single Keyframe.
-    Delete Keyframes :kbd:`Alt-I`\ .
-    Delete Single Keyframe.
-    Clear Keyframes :kbd:`Alt-Shift-I`
-    Clear Single Keyframes.
+   Replace Keyframes :kbd:`I`.
+   Replace Single Keyframe.
+   Delete Keyframes :kbd:`Alt-I`.
+   Delete Single Keyframe.
+   Clear Keyframes :kbd:`Alt-Shift-I`
+   Clear Single Keyframes.
 
 Each property also has some Keying Set options.
-    Add All to Keying Set :kbd:`K`\ .
-    Add Single to Keying Set.
-    Remove from Keying Set.
+   Add All to Keying Set :kbd:`K`.
+   Add Single to Keying Set.
+   Remove from Keying Set.
 
 
 Editing
 ~~~~~~~
 
 3D View.
-    Insert Keyframes on current frame :kbd:`I`
-    Delete Keyframes on current frame :kbd:`Alt-I`
+   Insert Keyframes on current frame :kbd:`I`
+   Delete Keyframes on current frame :kbd:`Alt-I`
 
 
 Working with Actions
@@ -201,7 +201,7 @@ Working with Actions
 When you first animate an object by adding keyframes,
 blender creates an *Action* to record the data.
 
-*Actions* can be managed with the *Action Browser* in the :doc:`DopeSheet <animation/editors/dopesheet>` *Action Editor* header, or the properties region of the :doc:`NLA Editor <animation/editors/nla>`\ .
+*Actions* can be managed with the *Action Browser* in the :doc:`DopeSheet <animation/editors/dopesheet>` *Action Editor* header, or the properties region of the :doc:`NLA Editor <animation/editors/nla>`.
 
 If you are making multiple actions for the same object,
 press the **F** button for each action,

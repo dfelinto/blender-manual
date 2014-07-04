@@ -30,13 +30,13 @@ Render Output
 Available options for OpenEXR render output are:
 
 **Half**
-    Saves images in a custom 16 bits per channel floating point format. This reduces the actual "bit depth" to 10 bits, with a 5 bits power value and 1 bit sign.
+   Saves images in a custom 16 bits per channel floating point format. This reduces the actual "bit depth" to 10 bits, with a 5 bits power value and 1 bit sign.
 
 **Zbuf**
-    Save the depth information. In Blender this now is written in floats too, denoting the exact distance from the camera in "Blender unit" values.
+   Save the depth information. In Blender this now is written in floats too, denoting the exact distance from the camera in "Blender unit" values.
 
 **Preview**
-    On rendering animations (or single frames via command line), Blender saves the same image also as a JPEG, for quick preview or download.
+   On rendering animations (or single frames via command line), Blender saves the same image also as a JPEG, for quick preview or download.
 
 **Compression** (this button is below the Image menu button, default set to "None")
 

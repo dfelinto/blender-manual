@@ -40,6 +40,7 @@ Options
 
 :guilabel:`Targets`
    This constraint uses one target, and is not functional (red state) when it has none.
+
    :guilabel:`Bone`
       When :guilabel:`Target` is an armature, a new field for a bone is displayed.
    :guilabel:`Head/Tail`
@@ -48,10 +49,10 @@ Options
       When :guilabel:`Target` is a mesh, a new field is display where a vertex group can be selected.
 
 :guilabel:`To`
-   The tracking local axis (\ :guilabel:`Y` by default), i.e. the owner's axis to point at the target.
+   The tracking local axis (:guilabel:`Y` by default), i.e. the owner's axis to point at the target.
    The negative options force the relevant axis to point away from the target.
 :guilabel:`Up`
-   The "upward-most" local axis (\ :guilabel:`Z` by default), i.e. the owner's axis to be aligned (as much as possible)
+   The "upward-most" local axis (:guilabel:`Z` by default), i.e. the owner's axis to be aligned (as much as possible)
    with the global Z axis (or target Z axis, when the :guilabel:`Target` button is enabled).
 :guilabel:`Target Z`
    By default, the owner's :guilabel:`Up` axis is (as much as possible) aligned with the global Z axis,
@@ -66,4 +67,4 @@ Options
 
    FIXME - warning body below
 
- If you choose the same axis for :guilabel:`To` and :guilabel:`Up`\ , the constraint will not be functional anymore (red state).
+ If you choose the same axis for :guilabel:`To` and :guilabel:`Up`, the constraint will not be functional anymore (red state).

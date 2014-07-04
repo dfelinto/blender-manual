@@ -23,7 +23,7 @@ Description
 Shearing is a form of movement where parallel surfaces move past one another.
 During this transform,
 movement of the selected elements will occur along the horizontal axis of the current view.
-The axis location will be defined by the :guilabel:`Pivot Point`\ .
+The axis location will be defined by the :guilabel:`Pivot Point`.
 Everything that is "above" this axis will move (Shear)
 in the same direction as your mouse pointer (but always parallel to the horizontal axis).
 Everything that is "below" the horizontal axis will move in the opposite direction.
@@ -37,10 +37,10 @@ Usage
 Select the elements you want to operate on and activate the :guilabel:`Shear` transform
 function. The :guilabel:`Shear` option can be invoked from the
 :menuselection:`Object/Mesh/Curve/Surface --> Transform --> Shear` menu option or by pressing
-:kbd:`shift-ctrl-alt-s`\ . The amount of movement given to the selection can be determined
+:kbd:`shift-ctrl-alt-s`. The amount of movement given to the selection can be determined
 interactively by moving the mouse or by typing a number.
 Pressing :kbd:`Enter` will confirm the transformation. The confirmed transformation can
-be further edited by pressing F6 or by going into the Toolshelf (\ :kbd:`T`\ ) and altering
+be further edited by pressing F6 or by going into the Toolshelf (:kbd:`T`) and altering
 the Offset slider provided that no other actions take place between the :guilabel:`Shear`
 transform confirmation and accessing the slider.
 

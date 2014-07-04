@@ -34,7 +34,7 @@ Options
 :guilabel:`Preview`
    Set the level of subdivisions to use in the viewport.
 :guilabel:`Sculpt`
-   Set the number of subdivisions to use in :guilabel:`Sculpt Mode`\ .
+   Set the number of subdivisions to use in :guilabel:`Sculpt Mode`.
 :guilabel:`Render`
    Set the number of subdivisions to use when rendering.
 
@@ -43,7 +43,7 @@ Options
 :guilabel:`Delete Higher`
    Deletes all subdivision levels that are higher than the current one.
 :guilabel:`Reshape`
-   Copies vertex coordinates from another mesh. To use, select a different mesh with matching topology and vertex coordinates, then :kbd:`Shift` select the mesh and click :guilabel:`Reshape`\ . The mesh will take the shape of the other one.
+   Copies vertex coordinates from another mesh. To use, select a different mesh with matching topology and vertex coordinates, then :kbd:`Shift` select the mesh and click :guilabel:`Reshape`. The mesh will take the shape of the other one.
 :guilabel:`Apply Base`
    Modifies the mesh to match the form of the subdivided mesh.
 

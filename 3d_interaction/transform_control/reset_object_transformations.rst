@@ -10,7 +10,7 @@ Clear Object transformations
 
    | Mode:     :guilabel:`Object` mode
    | Menu:     :menuselection:`Object --> Clear --> Clear Location/Clear Scale/Clear Rotation/Clear Origin`
-   | Hotkey:   :kbd:`alt-G`\ , :kbd:`alt-S`\ , :kbd:`alt-R`\ , :kbd:`alt-O`
+   | Hotkey:   :kbd:`alt-G`, :kbd:`alt-S`, :kbd:`alt-R`, :kbd:`alt-O`
 
 
 Description
@@ -84,7 +84,7 @@ Apply Options
    Apply (set) the rotation and scale of the selection. Do the above two applications simultaneously.
 
 **Apply Visual Transform** :kbd:`ctrl-a`
-   Apply (set) the result of a constraint and apply this back to the Object's location, rotation and scale. See the following post for more detailed discussion: `Apply visual transform <http://projects.blender.org/tracker/index.php?func=detail&group_id=9&atid=498&aid=24616>`__\ .
+   Apply (set) the result of a constraint and apply this back to the Object's location, rotation and scale. See the following post for more detailed discussion: `Apply visual transform <http://projects.blender.org/tracker/index.php?func=detail&group_id=9&atid=498&aid=24616>`__.
 
 **Make Duplicate Real** :kbd:`shift-ctrl-a`
    Make any duplicates attached to this Object real so that they can be edited.

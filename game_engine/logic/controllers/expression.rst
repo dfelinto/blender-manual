@@ -5,7 +5,7 @@ Expression Controller
 This controller evaluates a user written expression, and gives a positive (TRUE) output when
 The result of the expression is TRUE, and
 The object is in the designated State.
-   For all other conditions the controller gives a negative (FALSE) output.
+For all other conditions the controller gives a negative (FALSE) output.
 
 
 .. figure:: /images/BGE_Controller_Expression.jpg
@@ -26,8 +26,8 @@ Variables
 You can use:
 
 
-- **sensors names**\ ,
-- **properties**\ : assign a game property to an object and use it in a controller expression.
+- **sensors names**,
+- **properties** : assign a game property to an object and use it in a controller expression.
 
 These cannot contain blank spaces.
 
@@ -69,13 +69,13 @@ Use:
 
 If the controller evaluates ``expression`` to True:
 
-- if ``pulse_if_expression_is_true`` is ``True``\ , the controller sends a positive pulse to the connected actuators.
-- if ``pulse_if_expression_is_true`` is ``False``\ , the controller sends a negative pulse to the connected actuators.
+- if ``pulse_if_expression_is_true`` is ``True``, the controller sends a positive pulse to the connected actuators.
+- if ``pulse_if_expression_is_true`` is ``False``, the controller sends a negative pulse to the connected actuators.
 
 If the controller evaluates ``expression`` to False:
 
-- if ``pulse_if_expression_is_false`` is ``True``\ , the controller sends a positive pulse to the connected actuators.
-- if ``pulse_if_expression_is_false`` is ``False``\ , the controller sends a negative pulse to the connected actuators.
+- if ``pulse_if_expression_is_false`` is ``True``, the controller sends a positive pulse to the connected actuators.
+- if ``pulse_if_expression_is_false`` is ``False``, the controller sends a negative pulse to the connected actuators.
 
 
 Examples

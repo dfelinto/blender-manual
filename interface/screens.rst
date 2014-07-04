@@ -11,7 +11,7 @@ Blender's flexibility with windows lets you create customized working environmen
 different tasks such as modeling, animating, and scripting.
 It is often useful to quickly switch between different environments within the same file.
 
-To do each of these major creative steps, Blender has a set of pre-defined *screens*\ ,
+To do each of these major creative steps, Blender has a set of pre-defined *screens*,
 that show you the types of windows you need to get the job done quickly and efficiently.
 *Screens* are essentially pre-defined window layouts.
 If you are having trouble finding a particular screen,
@@ -37,10 +37,10 @@ you can use the search function at the bottom of the list (pictured right).
 Blender sorts these screen layouts for you automatically in alphabetical and/or numerical
 order. The list is available in the :guilabel:`Info Window` header that is at the top of the
 layout for preset screens. This is often confused for a menu bar by those new to Blender;
-however it is simply a window showing only its :guilabel:`header`\ .
+however it is simply a window showing only its :guilabel:`header`.
 
-To change to the next alphabetically listed screen press :kbd:`ctrl-right`\ ;
-to change to the previous screen, press :kbd:`ctrl-left`\ .
+To change to the next alphabetically listed screen press :kbd:`ctrl-right`;
+to change to the previous screen, press :kbd:`ctrl-left`.
 
 
 .. figure:: /images/Manual-Part-I-ConceptScreens25.jpg
@@ -50,7 +50,7 @@ to change to the previous screen, press :kbd:`ctrl-left`\ .
 
 By default, each screen layout 'remembers' the last :doc:`scene <interface/scenes>` it was used on. Selecting a different layout will switch to the layout **and** jump to that scene.
 
-All changes to windows, as described in :doc:`Window system <interface/window_system>` and :doc:`Window types <interface/window_types>`\ , are saved within one screen. If you change your windows in one screen, other screens won't be affected.
+All changes to windows, as described in :doc:`Window system <interface/window_system>` and :doc:`Window types <interface/window_types>`, are saved within one screen. If you change your windows in one screen, other screens won't be affected.
 
 
 Configuring your Screens
@@ -114,7 +114,7 @@ your workflow as this will help increase your productivity. Some examples could 
    **2-Lighting**
           3D windows for moving lights, UV/Image Window for displaying Render Result, Properties window for rendering and lamp properties and controls
    **3-Material**
-          Properties window for Material settings, 3D window for selecting objects, Outliner, Library script (if used), Node Editor (if using :doc:`Node based materials <materials/nodes>`\ )
+          Properties window for Material settings, 3D window for selecting objects, Outliner, Library script (if used), Node Editor (if using :doc:`Node based materials <materials/nodes>`)
    **4-UV Layout**
           UV/Image Editor Window, 3D Window for seaming and unwrapping mesh
    **5-Painting**

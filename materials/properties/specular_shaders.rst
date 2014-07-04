@@ -9,25 +9,33 @@ Specular Shaders
    | Panel:    Shading/Material Context → Specular
 
 
-Specular shaders create the bright highlights that one would see on a glossy surface, mimicking the reflection of light sources. Unlike :doc:`diffuse shading <materials/properties/diffuse_shaders>`\ , specular reflection is *viewpoint dependent*\ . According to Snell's Law, light striking a specular surface will be reflected at an angle which mirrors the incident light angle (with regard to the surface's normal), which makes the viewing angle very important.
+Specular shaders create the bright highlights that one would see on a glossy surface,
+mimicking the reflection of light sources. Unlike :doc:`diffuse shading <materials/properties/diffuse_shaders>`,
+specular reflection is *viewpoint dependent*.
+According to Snell's Law, light striking a specular surface will be reflected at an angle which mirrors the
+incident light angle (with regard to the surface's normal), which makes the viewing angle very important.
 
 
-.. admonition:: Not a Mirror!
-   :class: nicetip
+.. tip:: Not a Mirror!
 
-   It is important to stress that the *specular reflection* phenomenon discussed here is not the reflection we would see in a mirror, but rather the light highlights we would see on a glossy surface. To obtain true mirror-like reflections you would need to use the internal raytracer. Please refer to section :doc:`RENDERING <render>` of this manual.
+   It is important to stress that the *specular reflection*
+   phenomenon discussed here is not the reflection we would see in a mirror,
+   but rather the light highlights we would see on a glossy surface.
+   To obtain true mirror-like reflections you would need to use the internal raytracer.
+   Please refer to section :doc:`RENDERING <render>` of this manual.
 
 
 Common Options
 --------------
 
 Each specular shader share the following common options:
+
 **Specular color**
    The color of the specular highlight
 **Intensity**
    The intensity, or brightness of the specular highlight. This has a range of [0-1].
 **Ramp**
-   Allows you to set a range of specular colors for :guilabel:`Material`\ , and define how the range will vary over a surface. See :doc:`Ramps <materials/properties/ramps>` for details.
+   Allows you to set a range of specular colors for :guilabel:`Material`, and define how the range will vary over a surface. See :doc:`Ramps <materials/properties/ramps>` for details.
 
 As a result, a material has at least two different colors, a diffuse, and a specular one.
 The specular color is normally set to pure white
@@ -97,8 +105,10 @@ CookTorr
 CookTorr (Cook-Torrance)
 is a basic specular shader that is most useful for creating shiny plastic surfaces.
 It is a slightly optimized version of Phong.
-Robert L. Cook (LucasFilm) and Kenneth E. Torrance (Cornell University)
-   In their 1982 paper `A Reflectance Model for Computer Graphics <http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.83.7263&rep=rep1&type=pdf>`__ (PDF), they described "a new reflectance model for rendering computer synthesized images" and applied it to the simulation of metal and plastic.
+Robert L. Cook (LucasFilm) and Kenneth E. Torrance (Cornell University) In their 1982 paper
+`A Reflectance Model for Computer Graphics <http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.83.7263&rep=rep1&type=pdf>`__ (PDF),
+they described "a new reflectance model for rendering computer synthesized images"
+and applied it to the simulation of metal and plastic.
 
 Options
 ~~~~~~~
@@ -127,7 +137,9 @@ Phong
 Phong is a basic shader that's very similar to CookTorr,
 but is better for skin and organic surfaces.
 `Bui Tuong Phong <http://en.wikipedia.org/wiki/Bui_Tuong_Phong>`__ (1942-1975)
-   was a Vietnamese-born computer graphics pioneer that developed the first algorithm for simulating specular phenomenon.  `His model <http://en.wikipedia.org/wiki/Phong_reflection_model>`__ included components not only for specular lighting, but also diffuse and ambient lighting.
+was a Vietnamese-born computer graphics pioneer that developed the first algorithm for simulating specular phenomenon.
+`His model <http://en.wikipedia.org/wiki/Phong_reflection_model>`__
+included components not only for specular lighting, but also diffuse and ambient lighting.
 
 Options
 ~~~~~~~
@@ -139,7 +151,7 @@ Options
 .. admonition:: Planet Atmosphere
    :class: nicetip
 
-    Because of its fuzziness, this shader is good for atmosphere around a planet. Add a sphere around the planet, slightly larger than the planet. For its material, use a phong specular shader. Set it to a very low alpha (.05), zero diffuse, low hardness (5) but high specularity (1).
+   Because of its fuzziness, this shader is good for atmosphere around a planet. Add a sphere around the planet, slightly larger than the planet. For its material, use a phong specular shader. Set it to a very low alpha (.05), zero diffuse, low hardness (5) but high specularity (1).
 
 
 Blinn
@@ -163,11 +175,11 @@ Blinn is a more 'physical' specular shader, often used with the Oren-Nayar diffu
 It can be more controllable because it adds a fourth option, an *index of refraction* (IOR),
 to the aforementioned three.
 `James F. Blinn <http://en.wikipedia.org/wiki/Jim_Blinn>`__
-   worked at NASA's Jet Propulsion Laboratory and became widely known for his work
-   on Carl Sagan's TV documentary *Cosmos*.
-   The model he described in his 1977 paper
-   `Models of Light Reflection for Computer Synthesized Pictures <http://research.microsoft.com/pubs/73852/p192-blinn.pdf>`__
-   (PDF) included changes in specular intensity with light direction and more accurately positioned highlights on a surface.
+worked at NASA's Jet Propulsion Laboratory and became widely known for his work
+on Carl Sagan's TV documentary *Cosmos*.
+The model he described in his 1977 paper
+`Models of Light Reflection for Computer Synthesized Pictures <http://research.microsoft.com/pubs/73852/p192-blinn.pdf>`__
+(PDF) included changes in specular intensity with light direction and more accurately positioned highlights on a surface.
 
 Options
 ~~~~~~~

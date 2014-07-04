@@ -13,7 +13,7 @@ Object Mode
    1 - Solid shading, 2 - Wireframe shading.
 
 
-The geometry of a scene is constructed from one or more Objects: For example Lamps, Curves, Surfaces, Cameras, Meshes, and the basic objects ("primitives") described in "\ :doc:`Mesh Primitives <modeling/meshes/primitives>`\ ".
+The geometry of a scene is constructed from one or more Objects: For example Lamps, Curves, Surfaces, Cameras, Meshes, and the basic objects ("primitives") described in "\ :doc:`Mesh Primitives <modeling/meshes/primitives>` ".
 
 
 Types of Objects
@@ -65,20 +65,20 @@ For making other changes to the geometry of editable objects,
 you should use :guilabel:`Edit mode` (see picture).
 
 
-Once you've added a basic object, you remain in :guilabel:`Object Mode`\ .
+Once you've added a basic object, you remain in :guilabel:`Object Mode`.
 In earlier versions of Blender,
 you were automatically switched into :guilabel:`Edit mode` if the Object was a Mesh,
 a Curve or a Surface.
 
 You can switch between :guilabel:`Object Mode` and :guilabel:`Edit Mode` by pressing
-:kbd:`TAB`\ .
+:kbd:`TAB`.
 
 The object's wireframe should now appear orange.
-This means that the object is now selected and active (see picture *Selected object*\ ).
+This means that the object is now selected and active (see picture *Selected object*).
 
-The (\ *Selected object*\ )
+The (*Selected object*)
 image shows both the solid view and wireframe view of the default cube.
-To switch between wireframe and solid view, press :kbd:`Z`\ .
+To switch between wireframe and solid view, press :kbd:`Z`.
 
 
 Object Centers
@@ -137,7 +137,7 @@ Join Objects
 
 Joins all selected objects to one single object. Must be of the same type.
 Origin point is obtained from the previously *active* object.
-Performing a join is equivalent to adding new objects while in :guilabel:`Edit mode`\ .
+Performing a join is equivalent to adding new objects while in :guilabel:`Edit mode`.
 The non-active objects are deleted. Only the active object remains.
 This only works with editable objects, like meshes and curves.
 

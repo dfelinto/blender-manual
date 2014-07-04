@@ -40,20 +40,20 @@ In general, you follow these steps:
 
 
 - set the :doc:`simulation domain <physics/fluid/domain>` (the portion of the scene where the fluid will flow),
-- set the :doc:`fluid source(s) <physics/fluid/fluid_object>`\ , and specify its material, viscosity, and initial velocity,
+- set the :doc:`fluid source(s) <physics/fluid/fluid_object>`, and specify its material, viscosity, and initial velocity,
 - eventually, set other :doc:`objects to control the volume <physics/fluid/volume>` of the fluid (inlets and outlets),
 - eventually, set other objects related to the fluid, like:
-  - :doc:`obstacles <physics/fluid/obstacle>`\ ,
+  - :doc:`obstacles <physics/fluid/obstacle>`,
   - :doc:`particles <physics/fluid/particle>` floating on the fluid,
-  - :doc:`fluid control <physics/fluid/control>`\ , to shape part of the fluid in the desired form,
-- eventually, :doc:`animate the fluid properties <physics/fluid/animation>`\ ,
+  - :doc:`fluid control <physics/fluid/control>`, to shape part of the fluid in the desired form,
+- eventually, :doc:`animate the fluid properties <physics/fluid/animation>`,
 - :doc:`Bake the simulation <physics/fluid/domain>` (eventually, revise as necessary and bake repeatedly).
 
 
 .. admonition:: Baking is done on the Domain object!
    :class: nicetip
 
-   When you calculate the fluid simulation, **you bake the simulation on the domain object**\ .
+   When you calculate the fluid simulation, **you bake the simulation on the domain object**.
 
    For this reason:
 
@@ -68,6 +68,6 @@ To know more about simulating fluids in Blender you can read:
 
 
 - some :doc:`useful hint <physics/fluid/hints>` about the simulation,
-- some :doc:`technical details <physics/fluid/technical_details>`\ , to learn how to do a more realistic fluid simulation,
+- some :doc:`technical details <physics/fluid/technical_details>`, to learn how to do a more realistic fluid simulation,
 - the :doc:`fluids appendix <physics/fluid/appendix>` to learn limitations and workarounds, and some additional links.
 

@@ -2,7 +2,9 @@
 Buttons and Controls
 ====================
 
-Buttons and other controls can be found in almost every :doc:`Window <interface/window_types>` of the Blender interface. The different types of controls are described below.
+Buttons and other controls can be found in almost every :doc:`Window <interface/window_types>` of the Blender
+interface. The different types of controls are described below.
+
 
 
 Operation Buttons
@@ -13,7 +15,7 @@ Operation Buttons
    Operation button
 
 
-These are buttons that perform an operation when clicked with :kbd:`lmb`\ .
+These are buttons that perform an operation when clicked with :kbd:`lmb`.
 They can be identified by their gray color in the default Blender scheme.
 
 Pressing :kbd:`ctrl-C` over these buttons copies their python command into the clipboard
@@ -58,20 +60,20 @@ Number buttons are handled in several ways:
 
 
 - To change the value in steps, click :kbd:`lmb` on the small triangles on the sides of the button.
-- To change the value in a wider range, hold down :kbd:`lmb` and drag the mouse to the left or right. If you hold :kbd:`ctrl` after holding down :kbd:`lmb`\ , the value is changed in discrete steps; if you hold :kbd:`shift` instead, you'll have finer control over the values.
+- To change the value in a wider range, hold down :kbd:`lmb` and drag the mouse to the left or right. If you hold :kbd:`ctrl` after holding down :kbd:`lmb`, the value is changed in discrete steps; if you hold :kbd:`shift` instead, you'll have finer control over the values.
 - :kbd:`enter` or :kbd:`lmb` lets you enter the value by hand.
 
 When entering values by hand, pressing :kbd:`home` or :kbd:`end` will move the
 cursor to the beginning or the end of the range.
 Pressing :kbd:`esc` will cancel editing.
-You can copy the value of a button by hovering over it and pressing :kbd:`ctrl-C`\ .
-Similarly you can paste a copied value with :kbd:`ctrl-V`\ .
+You can copy the value of a button by hovering over it and pressing :kbd:`ctrl-C`.
+Similarly you can paste a copied value with :kbd:`ctrl-V`.
 
 
 Expressions
 ~~~~~~~~~~~
 
-You can also enter expressions such as ``3*2`` instead of ``6``\ . or ``5/10+3``\ .
+You can also enter expressions such as ``3*2`` instead of ``6``. or ``5/10+3``.
 Even constants like ``pi`` (3.142) or functions like ``sqrt(2)`` (square root of 2)
 may be used.
 
@@ -116,7 +118,7 @@ Linking a Material to an Object will assign that material to the selected Object
 
 
 - The first button (with an icon of the DataBlock type) opens a menu that lets you select the DataBlock to link by clicking :kbd:`lmb` on the requested item. This list has a search box at the bottom.
-- The second button displays the name of the linked DataBlock and lets you edit it after clicking :kbd:`lmb`\ .
+- The second button displays the name of the linked DataBlock and lets you edit it after clicking :kbd:`lmb`.
 - The "+" button duplicates the current DataBlock and applies it.
 - The "X" button clears the link.
 
@@ -142,7 +144,7 @@ For example, the Add Modifier button will produce a menu with all of the availab
    :class: note
 
 
-   Unlinked data is *not* **lost until you quit Blender**\ . This is a powerful Undo feature.
+   Unlinked data is *not* **lost until you quit Blender**. This is a powerful Undo feature.
    If you delete an object the material assigned to it becomes unlinked, but is still there! You
    just have to re-link it to another object or supply it with a "Fake User" (i.e.
    by clicking that option in the corresponding DataBlock in the datablock-view of the Outliner).
@@ -157,10 +159,12 @@ In Blender, you can choose from **4** types of color pickers; the options are:
    :guilabel:`Circle` (Default), :guilabel:`Square (HS + V)` , :guilabel:`Square (SV + H)` and :guilabel:`Square (HV + S)`
 
 
-For more information about how to select the type of color picker, please go to the :doc:`System <preferences/system>` preferences page.
+For more information about how to select the type of color picker,
+please go to the :doc:`System <preferences/system>` preferences page.
 
 
-   All of the Color picker types have the common :guilabel:`RGB`\ , :guilabel:`HSV` and :guilabel:`Hex` options to show values.
+
+   All of the Color picker types have the common :guilabel:`RGB`, :guilabel:`HSV` and :guilabel:`Hex` options to show values.
    Optionally, depending on the operation, another slider for Alpha control is added at the bottom of the color picker.
 
 
@@ -204,7 +208,7 @@ For more information about how to select the type of color picker, please go to 
 +.. figure:: /images/(Doc_26x_Manual_Preferences_System)_(Color_Picker_SV_PLUS_H)_(GBAFN).jpg                                    +
 +                                                                                                                                +
 +   Fig. 4 - Color Picker                                                                                                        +
-+    Square (SV + H)                                                                                                             +
++   Square (SV + H)                                                                                                              +
 +                                                                                                                                +
 +                                                                                                                                +
 +   :guilabel:`Square (SV + H)`                                                                                                  +
@@ -219,7 +223,7 @@ For more information about how to select the type of color picker, please go to 
 +.. figure:: /images/(Doc_26x_Manual_Preferences_System)_(Color_Picker_HV_PLUS_S)_(GBAFN).jpg                       +
 +                                                                                                                   +
 +   Fig. 5 - Color Picker                                                                                           +
-+    Square (HV + S)                                                                                                +
++   Square (HV + S)                                                                                                 +
 +                                                                                                                   +
 +                                                                                                                   +
 +   :guilabel:`Square (HV + S)`                                                                                     +
@@ -250,7 +254,7 @@ Cascade Buttons
 Occasionally, some buttons actually reveal additional buttons. For example, the
 :guilabel:`Ramps` panel has a :guilabel:`Cascade` button called :guilabel:`Ramp` that reveals
 additional buttons dealing with colorbanding.
-See *Colorband before* and *Colorband after*\ .
+See *Colorband before* and *Colorband after*.
 
 
 +-------------------------------------------------------------------+------------------------------------------------------------------+
@@ -273,7 +277,7 @@ See *Colorband before* and *Colorband after*\ .
 +   :guilabel:`Add` (Button)                                                                                       +
 +      Clicking on this button will add a stop to your custom weight paint map.                                    +
 +      The stops are added from the last selected stop to the next one, from left to right and                     +
-+       they will be placed in the middle of both stops.                                                           +
++      they will be placed in the middle of both stops.                                                            +
 +                                                                                                                  +
 +                                                                                                                  +
 +   :guilabel:`Delete` (Button)                                                                                    +
@@ -287,7 +291,7 @@ See *Colorband before* and *Colorband after*\ .
 +   :guilabel:`Numeric Field`                                                                                      +
 +      Whenever the user adds a color stop to the custom weight paint range, the color stop will receive an index. +
 +      This field shows the indexes added (clicking in the arrows until the counter stops), and allows             +
-+       the user to select the color stop from the list. The selected color stop will be shown with a dashed line. +
++      the user to select the color stop from the list. The selected color stop will be shown with a dashed line.  +
 +                                                                                                                  +
 +                                                                                                                  +
 +   :guilabel:`Interpolation Options`                                                                              +

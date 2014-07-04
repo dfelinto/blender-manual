@@ -12,7 +12,9 @@ Constraints Common Interface
    The three parts of a constraint interface
 
 
-As with :doc:`modifiers <modifiers>`\ , an object (or bone, see the :doc:`rigging chapter <rigging>` for details) can use several constraints at once. Hence, these constraints are organized in a stack which controls their order of evaluation (from top to bottom).
+As with :doc:`modifiers <modifiers>`, an object (or bone, see the :doc:`rigging chapter <rigging>` for details)
+can use several constraints at once.
+Hence, these constraints are organized in a stack which controls their order of evaluation (from top to bottom).
 
 All constraints share a common basic interface, packed up in a sort of sub-panel,
 that is split into three parts:
@@ -43,7 +45,7 @@ The constraint type
 The name field
    Here you can give your constraint a more meaningful name than the default one.
    This control has another *important* purpose: it turns red when the constraint is not functional
-   (as in *A constraint header*\ ). As most constraints need a second "target" object to work (see below),
+   (as in *A constraint header*). As most constraints need a second "target" object to work (see below),
    when just added, they are in "red state", as Blender cannot guess which object or bone to use as target.
    This can also happen when you choose an invalid set of settings, e.g. with a :doc:`Track To constraint
    <constraints/tracking/track_to>` of which the :guilabel:`To` and :guilabel:`Up`
@@ -92,7 +94,7 @@ then the constraint will use this bone's *root* as target.
 In some constraints, when you use a bone as target,
 another :guilabel:`Head/Tail` numeric field will also appear,
 that allows you to select where along the bone the target point will lay, from root
-(\ **0.0**\ ) to tip (\ **1.0**\ ) (remember that currently, in Blender UI,
+(**0.0**) to tip (**1.0**) (remember that currently, in Blender UI,
 bones' roots are called "heads", and bones' tips, "tails"…).
 
 
@@ -107,19 +109,29 @@ The Target Space drop-down list is on the left side. Both lists have the same op
 depending on whether the element (owner or target) is a regular object, or a bone:
 
 :guilabel:`Local Space`
-   The object's properties are evaluated in its own local space, i.e. based on its rest position (without taking into account its parents' transformations in its chain, or its armature object's transformation).
+   The object's properties are evaluated in its own local space,
+   i.e. based on its rest position
+   (without taking into account its parents transformations in its chain, or its armature object's transformation).
 
 :guilabel:`Local With Parent` (bones only)
-   The bone properties are evaluated in its own local space, *including* the transformations due to a possible parent relationship (i.e. due to the chain's transformations above the bone).
+   The bone properties are evaluated in its own local space,
+   *including* the transformations due to a possible parent relationship
+   (i.e. due to the chain's transformations above the bone).
 
 :guilabel:`Pose Space` (bones only)
-   The bone properties are evaluated in the armature object local space (i.e. independently from the armature transformations in :guilabel:`Object` mode). Hence, if the armature object has null transformations, :guilabel:`Pose Space` will have the same effect as :guilabel:`World Space`\ …
+   The bone properties are evaluated in the armature object local space
+   (i.e. independently from the armature transformations in :guilabel:`Object` mode).
+   Hence, if the armature object has null transformations,
+   :guilabel:`Pose Space` will have the same effect as :guilabel:`World Space`.
 
 :guilabel:`Local (Without Parent) Space` (objects only)
-   The object properties are evaluated in its own local space, *without* the transformations due to a possible parent relationship.
+   The object properties are evaluated in its own local space,
+   *without* the transformations due to a possible parent relationship.
 
 :guilabel:`World Space` (default setting)
-   Here the object's or bone's properties are evaluated in the global coordinate system. This is the easiest to understand and most natural behavior, as it always uses the "visual" transform properties (i.e. as you see them in the 3D views).
+   Here the object's or bone's properties are evaluated in the global coordinate system.
+   This is the easiest to understand and most natural behavior,
+   as it always uses the "visual" transform properties (i.e. as you see them in the 3D views).
 
 Understanding the Constraint Space effects is not really easy
 (unless you are a geometry genius…).
@@ -148,6 +160,7 @@ you can have several constraints all working together on the same owner's proper
 Note that if a constraint has a full influence on a given property, all other constraints
 above in the stack working on that same property will have no effect at all.
 
-But the best thing with influence is that you can animate it with an Fcurve - see :doc:`the constraints page of the animation chapter <animation/techs/object/constraint>` for more details about this.
+But the best thing with influence is that you can animate it with an Fcurve - see
+:doc:`the constraints page of the animation chapter <animation/techs/object/constraint>` for more details about this.
 
 

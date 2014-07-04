@@ -25,7 +25,7 @@ We will look at each one individually.
 
  **1) Game Property Area**
 
-Game properties are like variables in other programming languages. They are used to save and access data associated with an object. Several types of properties are available. Properties are declared by clicking the Add Game Property button in this area. For a more in-depth look at the content, layout and available operations in this area, see :doc:`Properties <game_engine/logic/properties>`\ .
+Game properties are like variables in other programming languages. They are used to save and access data associated with an object. Several types of properties are available. Properties are declared by clicking the Add Game Property button in this area. For a more in-depth look at the content, layout and available operations in this area, see :doc:`Properties <game_engine/logic/properties>`.
 
 
  **2) Object Name**
@@ -54,15 +54,15 @@ To delete a link between two nodes, :kbd:`Lmb` drag between the two nodes.
 
  **4) Sensor Area**
 
-This column contains a list of all sensors owned by the active object (and any other selected objects). New sensors for the active object are created using the "Add Sensor" button.  For a more in-depth look at the content, layout and available operations in this area, see :doc:`Sensors <game_engine/logic/sensors>`\ .
+This column contains a list of all sensors owned by the active object (and any other selected objects). New sensors for the active object are created using the "Add Sensor" button.  For a more in-depth look at the content, layout and available operations in this area, see :doc:`Sensors <game_engine/logic/sensors>`.
 
 
  **5) Controller Area**
 
-This column contains a list of all controllers owned by the active object (and any other selected objects). New controllers for the active object are created using the "Add Controller" button, together with the creation of states for the active object. For a more in-depth look at the content, layout, and available operations in this area,  see :doc:`Controllers <game_engine/logic/controllers>`\ .
+This column contains a list of all controllers owned by the active object (and any other selected objects). New controllers for the active object are created using the "Add Controller" button, together with the creation of states for the active object. For a more in-depth look at the content, layout, and available operations in this area,  see :doc:`Controllers <game_engine/logic/controllers>`.
 
 
  **6) Actuator Area**
-This column contains a list of all actuators owned by the active object (and any other selected objects). New actuators for the active object are created using the "Add Actuator" button.  For a more in-depth look at the content, layout, and available operations in this area, see :doc:`Actuators <game_engine/logic/actuators>`\ .
+This column contains a list of all actuators owned by the active object (and any other selected objects). New actuators for the active object are created using the "Add Actuator" button.  For a more in-depth look at the content, layout, and available operations in this area, see :doc:`Actuators <game_engine/logic/actuators>`.
 
 

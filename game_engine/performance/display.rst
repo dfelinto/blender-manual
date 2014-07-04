@@ -20,7 +20,7 @@ Options
 
 **Animation Frame Rate**
    This numeric field/slider specify the maximum frame rate at which the game will run.
-Minimum is **1**\ , maximum is **120**\ .
+Minimum is **1**, maximum is **120**.
 
 **Debug Properties**
    When checked, if a property was previously checked to be debugged during the game, the values of this property will be shown with the :doc:`Framerate and Profile <game_engine/performance/display/framerate_and_profile>` contents.
@@ -29,7 +29,7 @@ Minimum is **1**\ , maximum is **120**\ .
    When checked, this will show values for each of the calculations Blender is doing while the game is running, plus the properties marked to be debugged. Each of the values are explained at the :doc:`Framerate and Profile <game_engine/performance/display/framerate_and_profile>` page.
 
 **Physics visualization**
-    Shows a visualization of phisycs bounds and interactions (like hulls and collision shapes), and their interaction.
+   Shows a visualization of phisycs bounds and interactions (like hulls and collision shapes), and their interaction.
 
 **Deprecation Warnings**
    Every time when the game developer uses a deprecated functionality (which in some cases are outdated or crippled OpenGL Graphic cards functions), the system will emit warnings about the deprecated function.
@@ -38,17 +38,17 @@ Minimum is **1**\ , maximum is **120**\ .
    Wether to show or not the mouse cursor when the game is running.
 
 **Framing**
-There are three types of framing available for the Blender Game Engine, *Letterbox*\ ,
-*Extend* and *Scale*\ :
+There are three types of framing available for the Blender Game Engine, *Letterbox*,
+*Extend* and *Scale* :
 
-*Letterbox*\ :
-    Show the entire viewport of the game in display window, using horizontal and/or vertical bars when needed.
+*Letterbox* :
+   Show the entire viewport of the game in display window, using horizontal and/or vertical bars when needed.
 
-*Extend*\ :
-    Show the entire viewport of the game in display window, viewing more horizontally or vertically.
+*Extend* :
+   Show the entire viewport of the game in display window, viewing more horizontally or vertically.
 
-*Scale*\ :
-    Stretch or Squeeze the viewport to fill the display window.
+*Scale* :
+   Stretch or Squeeze the viewport to fill the display window.
 
 **Color Bar**
    This will let the game developer choose the bar colors when using the **Letterbox** Framing mode.

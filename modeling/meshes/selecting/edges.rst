@@ -21,7 +21,7 @@ Edge Loops
 
 
 Edge loops can be selected by first selecting an edge (vertex or edge selection mode),
-and then going to :menuselection:`Select --> Edge Loop`\ . The shortcut :kbd:`alt-rmb` on an edge
+and then going to :menuselection:`Select --> Edge Loop`. The shortcut :kbd:`alt-rmb` on an edge
 (either vertex or edge select mode) is a quicker and more powerful way of doing so.
 More powerful, because you can add/remove loops from an existing selection if you press
 :kbd:`Shift` too.
@@ -37,7 +37,7 @@ Note, that if you want to select a loop while being in vertex select mode, you s
 .. admonition:: :kbd:`alt` on Linux
    :class: note
 
-   :kbd:`alt` is on some Linux distros caught by the windows manager. If you see the above shortcut not working, make sure that blender can properly recognize the usage of :kbd:`alt`\ .
+   :kbd:`alt` is on some Linux distros caught by the windows manager. If you see the above shortcut not working, make sure that blender can properly recognize the usage of :kbd:`alt`.
 
 
 Edge Rings
@@ -52,7 +52,7 @@ Edge Rings
 
 
 Edge Rings are selected similarly.
-Based on the selection of an edge go to :menuselection:`Select --> Edge Ring`\ .
+Based on the selection of an edge go to :menuselection:`Select --> Edge Ring`.
 Or use :kbd:`Alt-Ctrl-RMB` on an edge.
 
 

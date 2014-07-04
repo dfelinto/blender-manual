@@ -9,7 +9,7 @@ Subdivision Surfaces ("Subsurf") Modifier
 
    | Mode:     Any Mode
    | Panel:    Modifiers > Add > Generate > Subdivision Surface
-   | Hotkey:   Using the regular #s, not keypad #s: :kbd:`ctrl-0`\ ,  :kbd:`ctrl-1`\ ,  :kbd:`ctrl-2`\ ,  :kbd:`ctrl-3`\ ,  :kbd:`ctrl-4`\ ,   :kbd:`ctrl-5`\ . Note, this only affects the :guilabel:`View` value while leaving :guilabel:`Render` at 2 (see below).
+   | Hotkey:   Using the regular #s, not keypad #s: :kbd:`ctrl-0`,  :kbd:`ctrl-1`,  :kbd:`ctrl-2`,  :kbd:`ctrl-3`,  :kbd:`ctrl-4`,   :kbd:`ctrl-5`. Note, this only affects the :guilabel:`View` value while leaving :guilabel:`Render` at 2 (see below).
 
 
 .. figure:: /images/SubsurfSmoothingDemoGrid-HiRes.jpg
@@ -19,7 +19,7 @@ Subdivision Surfaces ("Subsurf") Modifier
    Click to zoom; Subsurfs levels 0 to 3, without and with Smooth Shading. This was rendered from: `SubsurfDemo.blend <http://wiki.blender.org/index.php/Media:SubsurfDemo.blend>`__
 
 
-Subdivision Surface (\ :guilabel:`Subsurf` in short)
+Subdivision Surface (:guilabel:`Subsurf` in short)
 is a method of subdividing the faces of a mesh to give a smooth appearance,
 to enable modeling of complex smooth surfaces with simple, low-vertex meshes. This allows high
 resolution mesh modeling without the need to save and maintain huge amounts of data and gives
@@ -40,13 +40,13 @@ There are two algorithms available: Simple
 (subdivides  mesh) and the default `Catmull-Clark <http://en.wikipedia.org/wiki/Catmull%E2%80%93Clark_subdivision_surface>`__ (subdivides and
 smooths mesh).
 
-Keep in mind that this is a different operation than its companion, :doc:`Smooth Shading <modeling/meshes/smoothing>`\ . You can see the difference between the two in the grid image to the right.
+Keep in mind that this is a different operation than its companion, :doc:`Smooth Shading <modeling/meshes/smoothing>`. You can see the difference between the two in the grid image to the right.
 
 
 MultiResolution Modifier
 ------------------------
 
-Another way to subdivide is with the :doc:`MultiResolution Modifier <modifiers/generate/multiresolution>`\ . This differs from Subsurf in that MultiRes allows you to edit the mesh at several subdivision levels without losing information at the other levels. It is slightly more complicated to use, but more powerful.
+Another way to subdivide is with the :doc:`MultiResolution Modifier <modifiers/generate/multiresolution>`. This differs from Subsurf in that MultiRes allows you to edit the mesh at several subdivision levels without losing information at the other levels. It is slightly more complicated to use, but more powerful.
 
 
 Options
@@ -57,24 +57,24 @@ Options
    Modifier's panel
 
 
-:guilabel:`Subsurf` is a :doc:`modifier <modifiers>`\ . To add it to a mesh, press :guilabel:`Add Modifier` and select :guilabel:`Subdivision Surface` from the list.
+:guilabel:`Subsurf` is a :doc:`modifier <modifiers>`. To add it to a mesh, press :guilabel:`Add Modifier` and select :guilabel:`Subdivision Surface` from the list.
 
 :guilabel:`Type`
    This toggle button allows you to choose the subdivision algorithm:
+
    :guilabel:`Catmull-Clark`
-      The default option, subdivides and smooths the surfaces. According to `its Wikipedia page <http://en.wikipedia.org/wiki/Catmull%E2%80%93Clark_subdivision_surface>`__\ , the "arbitrary-looking formula was chosen by Catmull and Clark based on the aesthetic appearance of the resulting surfaces rather than on a mathematical derivation."
+      The default option, subdivides and smooths the surfaces. According to `its Wikipedia page <http://en.wikipedia.org/wiki/Catmull%E2%80%93Clark_subdivision_surface>`__, the "arbitrary-looking formula was chosen by Catmull and Clark based on the aesthetic appearance of the resulting surfaces rather than on a mathematical derivation."
    :guilabel:`Simple`
-      Only subdivides the surfaces, without any smoothing (similar to :kbd:`W` → :guilabel:`Subdivide`\ , in :guilabel:`Edit mode`\ ).  Can be used, for example, to increase base mesh resolution when using displacement maps or textured emitters with indirect lighting.
+      Only subdivides the surfaces, without any smoothing (similar to :kbd:`W` → :guilabel:`Subdivide`, in :guilabel:`Edit mode`).  Can be used, for example, to increase base mesh resolution when using displacement maps or textured emitters with indirect lighting.
 
 :guilabel:`Subdivisions`
    Recursively adds more geometry. For some detailed examples of the numbers, see the
-FIXME(TODO: Internal Link;
-[[#Performance_Considerations|Performance Considerations]]
-) section.
+   FIXME(TODO: Internal Link; [[#Performance_Considerations|Performance Considerations]]) section.
+
    :guilabel:`View`
       Affects the display resolution for the 3D views only.
    :guilabel:`Render`
-      Affects the subdivision level used during rendering. For the internal :guilabel:`Blender Render`\ , the status line at the top of the :guilabel:`Render Result` will tell you the current Frame, then after that the number of the final, generated vertices and faces. This can give you a clue at the overall performance impact of all Modifiers.
+      Affects the subdivision level used during rendering. For the internal :guilabel:`Blender Render`, the status line at the top of the :guilabel:`Render Result` will tell you the current Frame, then after that the number of the final, generated vertices and faces. This can give you a clue at the overall performance impact of all Modifiers.
 
 The right combination of these settings will allow you to keep a fast and lightweight
 approximation of your model when interacting with it in 3D,
@@ -92,11 +92,11 @@ but use a higher quality version when rendering.
    Subdivide UVs on and off -- see the `.blend <http://wiki.blender.org/index.php/Media:Manual-Modifiers-Generate-Subsurf-SubdivideUVsExample.blend>`__ for the source of this image.
 
 
-:guilabel:`Options`\ :
+:guilabel:`Options`:
    :guilabel:`Subdivide UVs`
-       When enabled, the UV maps will also be subsurfed (i.e. Blender will add "virtual" coordinates for all sub-faces created by this modifier). The easiest way to understand its effects is to view `Manual-Modifiers-Generate-Subsurf-SubdivideUVsExample.blend <http://wiki.blender.org/index.php/Media:Manual-Modifiers-Generate-Subsurf-SubdivideUVsExample.blend>`__\ .
+      When enabled, the UV maps will also be subsurfed (i.e. Blender will add "virtual" coordinates for all sub-faces created by this modifier). The easiest way to understand its effects is to view `Manual-Modifiers-Generate-Subsurf-SubdivideUVsExample.blend <http://wiki.blender.org/index.php/Media:Manual-Modifiers-Generate-Subsurf-SubdivideUVsExample.blend>`__.
    :guilabel:`Optimal Display`
-       Restricts the wireframe display to only show a warped mesh cage edges, rather than the subdivided result, to help visualization. Without this, Edit Mode can look cluttered with lines that are not really there.
+      Restricts the wireframe display to only show a warped mesh cage edges, rather than the subdivided result, to help visualization. Without this, Edit Mode can look cluttered with lines that are not really there.
 
 
 .. figure:: /images/SubsurfEditCageOff.jpg
@@ -135,7 +135,7 @@ Order of the Modifier Stack
    Notice that the Armature Modifier before the Subsurf comes out much better in this case. Also, the Mirror before the Subsurf is clearly correct compared to the other way around.
 
 
-The :doc:`Evaluation order <modifiers/the_stack>` of Modifiers is often significant, but especially so in the case of the Subsurf. The key to deciding your Modifier stack order is to picture the changes at each step, perhaps by temporarily Apply'ing the Modifiers, or perhaps by simply tinkering with the order until things come out right. To see the file behind these screenshots, you can look at `Manual-Modifiers-Generate-Subsurf_OrderOfExecution.blend <http://wiki.blender.org/index.php/Media:Manual-Modifiers-Generate-Subsurf_OrderOfExecution.blend>`__\ .
+The :doc:`Evaluation order <modifiers/the_stack>` of Modifiers is often significant, but especially so in the case of the Subsurf. The key to deciding your Modifier stack order is to picture the changes at each step, perhaps by temporarily Apply'ing the Modifiers, or perhaps by simply tinkering with the order until things come out right. To see the file behind these screenshots, you can look at `Manual-Modifiers-Generate-Subsurf_OrderOfExecution.blend <http://wiki.blender.org/index.php/Media:Manual-Modifiers-Generate-Subsurf_OrderOfExecution.blend>`__.
 
 
 Control
@@ -153,7 +153,7 @@ Weighted Creases
    | Mode:     :guilabel:`Edit Mode` (Mesh)
    | Panel:    3D View → :guilabel:`Transform Properties`
    | Menu:     :guilabel:`Mesh` → :guilabel:`Edges` → :guilabel:`Crease Subsurf`
-   | Hotkey:   :kbd:`N` (\ :guilabel:`Transform Properties` Panel)
+   | Hotkey:   :kbd:`N` (:guilabel:`Transform Properties` Panel)
 
 
 .. figure:: /images/SubsurfWithCrease.jpg
@@ -166,7 +166,7 @@ Weighted edge creases for subdivision surfaces allows you to change the way
 
 
 The crease weight of selected edges can be changed using :guilabel:`Transform Properties`
-(\ :kbd:`N`\ ) and change the Median Transform slider.
+(:kbd:`N`) and change the Median Transform slider.
 A higher value makes the edge "stronger" and more resistant to subsurf.
 Another way to remember it is that the weight refers to the edge's sharpness.
 Edges with a higher weight will be deformed less by subsurf.
@@ -192,11 +192,11 @@ Edge Loops
 
 The Subsurf modifier demonstrates why good, clean topology is so important.
 As you can see in the figure, the Subsurf modifier has a drastic effect on a default Cube.
-Until you add in additional Loops (with :kbd:`Ctrl-r`\ ),
+Until you add in additional Loops (with :kbd:`Ctrl-r`),
 the shape is almost unrecognizable.
 A mesh with a deliberate topology has good placement of Edge Loops,
 which allow the placement of more Loops (or removal of Loops,
-with :menuselection:`[x] --> Edge Loop`\ )
+with :menuselection:`[x] --> Edge Loop`)
 to control the sharpness/smoothness of the resultant mesh.
 
 
@@ -241,25 +241,25 @@ shares the overall normal orientation of that original face.
 
 Abrupt normal changes can produce ugly black gouges (See:
 *Solid view of subsurfed meshes with inconsistent normals (top) and consistent normals
-(bottom)*\ ), even though these flipped normals are not an issue for the shape itself (See:
-*Side view of subsurfed meshes*\ ).
+(bottom)*), even though these flipped normals are not an issue for the shape itself (See:
+*Side view of subsurfed meshes*).
 
 
 A quick way to fix this (one which works 90% of the time)
 is to use Blender's "Make Normals Consistent" operation: In Edit Mode,
-select all with :kbd:`a`\ ,
+select all with :kbd:`a`,
 then hit :kbd:`Ctrl-n` to recalculate the normals to point outside.
-If you still have some ugly black gouges after a :kbd:`Ctrl-n`\ ,
+If you still have some ugly black gouges after a :kbd:`Ctrl-n`,
 you will have to manually flip some normals. To do this (still in Edit Mode),
 look in the :kbd:`n` Properties Panel, on the right,
 in the :guilabel:`Mesh Display` subsection (it is roughly the 3rd up from the bottom).
 There you can turn on the little cyan "Face Normals" sticks
 (as seen in our pictures to the right),
 and you can change their size to be more appropriate for the scale of your mesh.
-If you then go around your mesh in :guilabel:`Face Select` mode (\ :kbd:`Ctrl-Tab`\ ,
-:kbd:`f`\ ) selecting bad faces,
-you can then use the :menuselection:`Specials --> Flip Normals` functionality (shortcut: :kbd:`w`\ ,
-:kbd:`n`\ ) to fix them. Smoothing out normals is good for the mesh,
+If you then go around your mesh in :guilabel:`Face Select` mode (:kbd:`Ctrl-Tab`,
+:kbd:`f`) selecting bad faces,
+you can then use the :menuselection:`Specials --> Flip Normals` functionality (shortcut: :kbd:`w`,
+:kbd:`n`) to fix them. Smoothing out normals is good for the mesh,
 and it's good for the soul.
 
 Note that one problem that will prevent Blender from automatically recalculate normals
@@ -273,7 +273,7 @@ Generally, this means that "out" cannot be computed.
    A "Non-Manifold" mesh.
 
 
-(\ *A "Non-Manifold" mesh*\ ) shows a very simple example of a "Non-Manifold" mesh. In general a non-manifold mesh occurs when you have internal faces or edges that are unexpectedly open.
+(*A "Non-Manifold" mesh*) shows a very simple example of a "Non-Manifold" mesh. In general a non-manifold mesh occurs when you have internal faces or edges that are unexpectedly open.
 
 A non-manifold mesh is not a problem for conventional meshes,
 but can give rise to ugly artifacts when subsurfed. Also, it does not allow decimation,
@@ -281,11 +281,11 @@ so it is better to avoid them as much as possible.
 
 To locate the non-Manifold components, you can be in either :guilabel:`Vertex Select` mode or
 :guilabel:`Edge Select` mode and deselect all vertices. Now,
-either go to :menuselection:`Select --> Non Manifold` or hit :kbd:`Ctrl-Alt-Shift-m`\ . Sometimes,
+either go to :menuselection:`Select --> Non Manifold` or hit :kbd:`Ctrl-Alt-Shift-m`. Sometimes,
 it can take some clever work to make these areas Manifold,
 but with determination and creativity you will be able to figure it out.
-Sometimes it is only a matter of Removing Doubles (\ :kbd:`w`\ ,\ :kbd:`r`\ )
-or of manually merging some vertices (\ :kbd:`Alt-m`\ ).
+Sometimes it is only a matter of Removing Doubles (:kbd:`w`,\ :kbd:`r`)
+or of manually merging some vertices (:kbd:`Alt-m`).
 
 
 Performance Considerations

@@ -21,13 +21,13 @@ Dimensions
    See :doc:`Video Output <render/output/video>` for details on pixel aspect ratio.
 
 :guilabel:`Border`
-   You can render just a portion of the view instead of rendering the entire frame. While in Camera View, enable :guilabel:`Border` and press :kbd:`ctrl-B`\ , then drag a rectangle to define the area you want to render. :kbd:`ctrl-alt-B` is the shortcut to disable the border.
-   Note that this disables the :guilabel:`Save Buffers` option in :guilabel:`Performance` and :guilabel:`Full Sample` option in :guilabel:`Anti-Aliasing`\ .
+   You can render just a portion of the view instead of rendering the entire frame. While in Camera View, enable :guilabel:`Border` and press :kbd:`ctrl-B`, then drag a rectangle to define the area you want to render. :kbd:`ctrl-alt-B` is the shortcut to disable the border.
+   Note that this disables the :guilabel:`Save Buffers` option in :guilabel:`Performance` and :guilabel:`Full Sample` option in :guilabel:`Anti-Aliasing`.
 
    Enabling :guilabel:`Crop` will crop the rendered image to the :guilabel:`Border` size, instead of rendering a black region around it.
 
 :guilabel:`Frame Range`
-   Set the :guilabel:`Start` and :guilabel:`End` frames for :doc:`Rendering Animations <render/animations>`\ . :guilabel:`Step` controls the number of frames to advance by for each frame in the timeline.
+   Set the :guilabel:`Start` and :guilabel:`End` frames for :doc:`Rendering Animations <render/animations>`. :guilabel:`Step` controls the number of frames to advance by for each frame in the timeline.
 
 :guilabel:`Frame Rate`
    For an :doc:`Animation <render/animations>` the frame rate, or how many frames will be displayed per second, which, by default, is 24 frames per second, the standard for animation. Use 29.97 frames per second for USA television.
@@ -95,7 +95,7 @@ file or directory.
 .. admonition:: PathSpecs
    :class: note
 
-   The path specification for the location can be absolute *On Microsoft-Windows include a normal or mapped drive letter (e.g. "F:")*\ , a breadcrumb notation (e.g. "./" and "../" and "//" (the blend file location). Forward slashes (Unix-style) or backslashes (Windows-style) are acceptable on either platform. If omitted, the file is saved in the current working directory blender was started from.
+   The path specification for the location can be absolute *On Microsoft-Windows include a normal or mapped drive letter (e.g. "F:")*, a breadcrumb notation (e.g. "./" and "../" and "//" (the blend file location). Forward slashes (Unix-style) or backslashes (Windows-style) are acceptable on either platform. If omitted, the file is saved in the current working directory blender was started from.
 
 
 File Type
@@ -113,7 +113,7 @@ There are many image formats out there for many different uses.
 A format stores an image in a *loss-less* or lossy format; with lossy formats you suffer
 some image degradation but save disk space because the image is saved using fewer bytes.
 A loss-less format preserves the image exactly, pixel for pixel.
-You can break formats down into *static* images and movie *clips*\ .
+You can break formats down into *static* images and movie *clips*.
 
 Within either category there are standards (static formats and clip codecs)
 which may be proprietary standards (developed and controlled by one company),
@@ -135,17 +135,17 @@ For example, if Jpeg is selected, you can specify a compression level (Quality:9
 Higher quality takes more disk space,
 but results in a better looking picture with less compression encoding artifacts.
 
-The default image type is :guilabel:`Targa`\ , but,
+The default image type is :guilabel:`Targa`, but,
 since the image is stored in a buffer and then saved, it is possible to change the image file
-type after the rendering and before saving using this menu. (\ **Attention**\ :
+type after the rendering and before saving using this menu. (**Attention** :
 this is only valid for static images, not when rendering animations!).
 
 
 Channels
 ~~~~~~~~
 
-Blender renders color (\ :guilabel:`RGB`\ ) images by default, but Black and White
-(\ :guilabel:`BW`\ ) and color with Alpha Channel (\ :guilabel:`RGBA`\ ) are also possible.  Beware:
+Blender renders color (:guilabel:`RGB`) images by default, but Black and White
+(:guilabel:`BW`) and color with Alpha Channel (:guilabel:`RGBA`) are also possible.  Beware:
 unless the Extensions button of the Output panel is set,
 Blender does *not* automatically add extensions to filenames, hence any :guilabel:`.tga` or
 :guilabel:`.png` extension must be explicitly written in the File Save window.

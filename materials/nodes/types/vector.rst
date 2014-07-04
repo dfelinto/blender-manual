@@ -31,11 +31,11 @@ The resulting colorized output can be easily varied by moving the light source
 The (face) normal is the direction of the face in relation to the camera.
 You can use it to do the following:
 
-- Use this node to create a fixed direction → output :guilabel:`Normal`\ .
-- Calcuate the :guilabel:`Dot`\ -Product with the :guilabel:`Normal`\ -Input. The :guilabel:`Dot`\ -Product is a scalar value (a number).
-  - If two normals are pointing in the same direction the :guilabel:`Dot`\ -Product is 1.
-  - If they are perpendicular the :guilabel:`Dot`\ -Product is zero (0).
-  - If they are antiparallel (facing directly away from each other) the :guilabel:`Dot`\ -Product is -1. *And you never thought you would use the Vector Calculus class you took in college - shame on you!*
+- Use this node to create a fixed direction → output :guilabel:`Normal`.
+- Calcuate the :guilabel:`Dot` -Product with the :guilabel:`Normal` -Input. The :guilabel:`Dot` -Product is a scalar value (a number).
+  - If two normals are pointing in the same direction the :guilabel:`Dot` -Product is 1.
+  - If they are perpendicular the :guilabel:`Dot` -Product is zero (0).
+  - If they are antiparallel (facing directly away from each other) the :guilabel:`Dot` -Product is -1. *And you never thought you would use the Vector Calculus class you took in college - shame on you!*
 
 So now we can do all sorts of things that depends on the viewing angle
 (like electron scanning microscope effect).
@@ -52,16 +52,16 @@ Inputs
 ~~~~~~
 
 :guilabel:`Normal`
-    3D-direction of the face in relation to the camera. The value can be provided by another node or set manually.
+   3D-direction of the face in relation to the camera. The value can be provided by another node or set manually.
 
 
 Outputs
 ~~~~~~~
 
 :guilabel:`Normal`
-    Fixed 3D-direction, combined by the node.
+   Fixed 3D-direction, combined by the node.
 :guilabel:`Dot`
-    Scalar value (a number), combined by the node.
+   Scalar value (a number), combined by the node.
 
 
 Controls
@@ -73,7 +73,7 @@ Controls
 
 
 *Interactive node preview*
-    Allows click and drag on the sphere in node center to set the direction of the normal.
+   Allows click and drag on the sphere in node center to set the direction of the normal.
 
 
 Mapping Node
@@ -94,14 +94,14 @@ Inputs
 ~~~~~~
 
 :guilabel:`Vector`
-    The input vector (3D-direction in relation to the camera) of some the coordinates' mapping. The value can be provided by another node or set manually.
+   The input vector (3D-direction in relation to the camera) of some the coordinates' mapping. The value can be provided by another node or set manually.
 
 
 Outputs
 ~~~~~~~
 
 :guilabel:`Vector`
-    The output vector, combined by the node.
+   The output vector, combined by the node.
 
 
 Controls
@@ -117,15 +117,16 @@ If you want to use the clamping options, try enabling Min and Max.
 
 
 Vector type selector
-    Type of vector that the mapping transforms.
+   Type of vector that the mapping transforms.
+
    :guilabel:`Texture`
-       Transform a texture by inverse mapping the texture coordinates.
+      Transform a texture by inverse mapping the texture coordinates.
    :guilabel:`Point`
-       Transform a point.
+      Transform a point.
    :guilabel:`Vector`
-       Transform a direction vector.
+      Transform a direction vector.
    :guilabel:`Normal`
-       Transform a normal vector with unit length.
+      Transform a normal vector with unit length.
 
 
 .. figure:: /images/26-Manual-Material-Vector-Node-Mapping-Controls-Transforms.jpg
@@ -134,11 +135,11 @@ Vector type selector
 
 
    :guilabel:`Location`
-       Transform position vector.
+      Transform position vector.
    :guilabel:`Rotation`
-       Transform rotation vector.
+      Transform rotation vector.
    :guilabel:`Scale`
-       Transform scale vector.
+      Transform scale vector.
 
 
 .. figure:: /images/26-Manual-Material-Vector-Node-Mapping-Controls-Clipping.jpg
@@ -147,9 +148,9 @@ Vector type selector
 
 
    :guilabel:`Min`
-       Minimum clipping value.
+      Minimum clipping value.
    :guilabel:`Max`
-       Maximum clipping value.
+      Maximum clipping value.
 
 
 Vector Curves
@@ -170,17 +171,17 @@ Use the :guilabel:`X` to delete the selected (white) point.
 Inputs
 ~~~~~~
 
-:guilabel:`Fac`\ :
-    Factor. The degree of node's influence in node tree. The value can be provided by another node or set manually.
+:guilabel:`Fac`:
+   Factor. The degree of node's influence in node tree. The value can be provided by another node or set manually.
 :guilabel:`Vector`
-    The input vector (3D-direction in relation to the camera). The value can be provided by another node or set manually.
+   The input vector (3D-direction in relation to the camera). The value can be provided by another node or set manually.
 
 
 Outputs
 ~~~~~~~
 
 :guilabel:`Vector`
-    The output vector, combined by the node.
+   The output vector, combined by the node.
 
 
 Controls
@@ -192,13 +193,14 @@ Controls
 
 
 Channel selector
-    Allows to select appropriate curve channel.
+   Allows to select appropriate curve channel.
+
    :guilabel:`X`
-       Curve of X-direction.
+      Curve of X-direction.
    :guilabel:`Y`
-       Curve of Y-direction.
+      Curve of Y-direction.
    :guilabel:`Z`
-       Curve of Z-direction.
+      Curve of Z-direction.
 
 
 .. figure:: /images/26-Manual-Material-Vector-Node-Curves-Controls.jpg
@@ -224,17 +226,17 @@ Channel selector
 
 
 :guilabel:`Reset View`
-    Resets view of the cuve.
+   Resets view of the cuve.
 :guilabel:`Vector Handle`
-    Vector type of curve point's handle.
+   Vector type of curve point's handle.
 :guilabel:`Auto Handle`
-    Automatic type of curve point's handle.
+   Automatic type of curve point's handle.
 :guilabel:`Extend Horizontal`
-    Extends the curve horizontal.
+   Extends the curve horizontal.
 :guilabel:`Extend Extrapolated`
-    Extends the curve extrapolated.
+   Extends the curve extrapolated.
 :guilabel:`Reset Curve`
-    Resets the curve in default (removes all added curve's points).
+   Resets the curve in default (removes all added curve's points).
 
 
 .. figure:: /images/26-Material-Color-Node-Curves-Clipping-Buticon.jpg

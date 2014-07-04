@@ -2,7 +2,7 @@
 Filter 2D Actuator
 ==================
 
-:guilabel:`2D Filter`\ s are image filtering actuators, that apply on final render of objects.
+:guilabel:`2D Filter` s are image filtering actuators, that apply on final render of objects.
 
 
 **Filter 2D Type**
@@ -66,7 +66,7 @@ And for disabling this filter:
 
 - Add appropriate Sensor(s) and Controller(s).
 - Add a :guilabel:`2D Filter` Actuator.
-- Select :guilabel:`Motion Blur`\ .
+- Select :guilabel:`Motion Blur`.
 - Toggle :guilabel:`Enable` button to go to disabled mode.
 
 You can enable Motion Blur filter using a :guilabel:`Python` controller:
@@ -81,7 +81,7 @@ render.disableMotionBlur()
 .. admonition:: Note
    :class: note
 
-   Your graphic hardware and OpenGL driver must support accumulation buffer (\ ``glAccum`` function).
+   Your graphic hardware and OpenGL driver must support accumulation buffer (``glAccum`` function).
 
 
 Built-In 2D Filters
@@ -113,34 +113,34 @@ so your hardware must support shaders.
    2D Filters: Sobel.
 
 
-:guilabel:`Blur`\ , :guilabel:`Sharpen`\ , :guilabel:`Dilation`\ , :guilabel:`Erosion`\ , :guilabel:`Laplacian`\ , :guilabel:`Sobel`\ , :guilabel:`Prewitt`\ , :guilabel:`Gray Scale`\ , :guilabel:`Sepia` and :guilabel:`Invert` are built-in filters. These filters can be set to be available in some passes.
+:guilabel:`Blur`, :guilabel:`Sharpen`, :guilabel:`Dilation`, :guilabel:`Erosion`, :guilabel:`Laplacian`, :guilabel:`Sobel`, :guilabel:`Prewitt`, :guilabel:`Gray Scale`, :guilabel:`Sepia` and :guilabel:`Invert` are built-in filters. These filters can be set to be available in some passes.
 
 To use a filter you should:
 
 - Create appropriate sensor(s) and controller(s).
 - Create a :guilabel:`2D Filter` actuator.
-- Select your filter, for example :guilabel:`Blur`\ .
+- Select your filter, for example :guilabel:`Blur`.
 - Set the pass number that the filter will be applied.
 
 To remove a filter on a specific pass:
 
 - Create appropriate sensor(s) and controller(s).
 - Create a :guilabel:`2D Filter` actuator.
-- Select :guilabel:`Remove Filter`\ .
+- Select :guilabel:`Remove Filter`.
 - Set the pass number you want to remove the filter from it.
 
 To disable a filter on a specific pass:
 
 - Create appropriate sensor(s) and controller(s).
 - Create a :guilabel:`2D Filter` actuator.
-- Select :guilabel:`Disable Filter`\ .
+- Select :guilabel:`Disable Filter`.
 - Set the pass number you want to disable the filter on it.
 
 To enable a filter on a specific pass:
 
 - Create appropriate sensor(s) and controller(s)
 - Create a :guilabel:`2D Filter` actuator.
-- Select :guilabel:`Enable Filter`\ .
+- Select :guilabel:`Enable Filter`.
 - Set the pass number you want to enable the filter on it.
 
 

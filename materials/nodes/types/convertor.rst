@@ -13,7 +13,7 @@ ColorRamp Node
    ColorRamp node
 
 
-The ColorRamp Node is used for mapping values to colors with the use of a gradient. It works exactly the same way as a :doc:`Colorband for textures and materials <materials/properties/ramps>`\ , using the Factor value as a slider or index to the color ramp shown, and outputting a color value and an alpha value from the output sockets.
+The ColorRamp Node is used for mapping values to colors with the use of a gradient. It works exactly the same way as a :doc:`Colorband for textures and materials <materials/properties/ramps>`, using the Factor value as a slider or index to the color ramp shown, and outputting a color value and an alpha value from the output sockets.
 
 By default,
 the ColorRamp is added to the node map with two colors at opposite ends of the spectrum.
@@ -30,17 +30,17 @@ Alpha setting, and interpolation type.
 Inputs
 ~~~~~~
 
-:guilabel:`Fac`\ :
-    Factor. The degree of node's influence in node tree. The value can be provided by another node or set manually.
+:guilabel:`Fac`:
+   Factor. The degree of node's influence in node tree. The value can be provided by another node or set manually.
 
 
 Outputs
 ~~~~~~~
 
 :guilabel:`Color`
-    Value of the color, combined by the node.
+   Value of the color, combined by the node.
 :guilabel:`Alpha`
-    Value of the alpha, combined by the node.
+   Value of the alpha, combined by the node.
 
 
 Controls
@@ -49,19 +49,19 @@ Controls
 .. figure:: /images/26-Material-Convertor-Node-ColorRamp-Addpoint-Buticon.jpg
 
 
-    Add a new mark to the center of the colorband with the default color (neutral gray).
+   Add a new mark to the center of the colorband with the default color (neutral gray).
 
 
 .. figure:: /images/26-Material-Convertor-Node-ColorRamp-Deletepoint-Buticon.jpg
 
 
-    Remove the currently selected mark from the colorband.
+   Remove the currently selected mark from the colorband.
 
 
 .. figure:: /images/26-Material-Convertor-Node-ColorRamp-Flip-Buticon.jpg
 
 
-    Flip the colorband.
+   Flip the colorband.
 
 
 .. figure:: /images/26-Manual-Material-Convertor-Node-ColorRamp-Interpolation.jpg
@@ -70,7 +70,8 @@ Controls
 
 
 :guilabel:`Interpolation`
-    Various modes of interpolation between marker's values can be chosen in the Interpolation menu:
+   Various modes of interpolation between marker's values can be chosen in the Interpolation menu:
+
    :guilabel:`Ease`
       Ease by quadratic equation.
    :guilabel:`Cardinal`
@@ -95,13 +96,13 @@ Controls
 .. figure:: /images/26-Material-Convertor-Node-ColorRamp-Numberpoint-Buticon.jpg
 
 
-    The number of the active mark.
+   The number of the active mark.
 
 
 .. figure:: /images/26-Material-Convertor-Node-ColorRamp-Pospoint-Buticon.jpg
 
 
-    :guilabel:`Pos`\ .  The position of the active color mark in the colorband (range 0.0–1.0).  The position of the color marks can also be changed by :kbd:`lmb` dragging them in the colorband.
+   :guilabel:`Pos`.  The position of the active color mark in the colorband (range 0.0–1.0).  The position of the color marks can also be changed by :kbd:`lmb` dragging them in the colorband.
 
 
 .. figure:: /images/26-Manual-Material-Convertor-Node-ColorSwatch.jpg
@@ -110,10 +111,10 @@ Controls
 
 
 Color :guilabel:`Selector`
-    Allows set color and alpha values for each marker.
+   Allows set color and alpha values for each marker.
 
 
-See more details about node controls' functions :doc:`here <materials/properties/ramps>`\ .
+See more details about node controls' functions :doc:`here <materials/properties/ramps>`.
 
 
 RGB to BW Node
@@ -130,15 +131,15 @@ This node converts a color image to black-and-white.
 Inputs
 ~~~~~~
 
-:guilabel:`Color`\ :
-    Input color value. Includes a color swatch, allowing you to select the color directly on the node.
+:guilabel:`Color`:
+   Input color value. Includes a color swatch, allowing you to select the color directly on the node.
 
 
 Outputs
 ~~~~~~~
 
 :guilabel:`Value`
-    Black-and-white value of the input color, converted by the node.
+   Black-and-white value of the input color, converted by the node.
 
 
 Math Node
@@ -159,26 +160,27 @@ Inputs
 ~~~~~~
 
 :guilabel:`Value`
-    Input value 1 (upper). The value can be provided by another node or set manually.
+   Input value 1 (upper). The value can be provided by another node or set manually.
 :guilabel:`Value`
-    Input value 2 (lower). The value can be provided by another node or set manually.
+   Input value 2 (lower). The value can be provided by another node or set manually.
 
 
 Outputs
 ~~~~~~~
 
 :guilabel:`Value`
-    Output value, converted by the node.
+   Output value, converted by the node.
 
 
 Controls
 ~~~~~~~~
 
 :guilabel:`Clamp`
-    Clamps the result between 0 and 1.
+   Clamps the result between 0 and 1.
 
 :guilabel:`Operation`
-    Selector the math function for conversion.
+   Selector the math function for conversion.
+
    :guilabel:`Add`
       Add the two inputs
    :guilabel:`Subtract`
@@ -235,37 +237,38 @@ Inputs
 ~~~~~~
 
 :guilabel:`Vector`
-    Input vector 1 (upper). The value can be provided by another node or set manually.
+   Input vector 1 (upper). The value can be provided by another node or set manually.
 :guilabel:`Vector`
-    Input vector 2 (lower). The value can be provided by another node or set manually.
+   Input vector 2 (lower). The value can be provided by another node or set manually.
 
 
 Outputs
 ~~~~~~~
 
 :guilabel:`Vector`
-    Output vector, converted by the node.
+   Output vector, converted by the node.
 :guilabel:`Value`
-    Output value, converted by the node.
+   Output value, converted by the node.
 
 
 Controls
 ~~~~~~~~
 
 :guilabel:`Operation`
-    Selector the math function for conversion.
+   Selector the math function for conversion.
+
    :guilabel:`Add`
-       Adding input 1 and 2.
+      Adding input 1 and 2.
    :guilabel:`Subtract`
-       Subtracting input 1 and 2.
+      Subtracting input 1 and 2.
    :guilabel:`Average`
-       Averaging input 1 and 2.
+      Averaging input 1 and 2.
    :guilabel:`Dot Product`
-       Algebraic operation that takes two equal-length sequences of vectors 1 and 2 and returns a single number. Result - scalar.
+      Algebraic operation that takes two equal-length sequences of vectors 1 and 2 and returns a single number. Result - scalar.
    :guilabel:`Cross Product`
-       Geometric binary operation on two vectors 1 and 2 in three-dimensional space. It results in a vector which is perpendicular to both and therefore normal to the plane containing them. Result - vector.
+      Geometric binary operation on two vectors 1 and 2 in three-dimensional space. It results in a vector which is perpendicular to both and therefore normal to the plane containing them. Result - vector.
    :guilabel:`Normalize`
-       Normalizing input 1 and 2.
+      Normalizing input 1 and 2.
 
 
 Squeeze Value Node
@@ -287,18 +290,18 @@ Inputs
 ~~~~~~
 
 :guilabel:`Value`
-    Any numeric value. The value can be provided by another node or set manually.
+   Any numeric value. The value can be provided by another node or set manually.
 :guilabel:`Width`
-    Determines the curve between sharp S-shaped (width = 1) and stretched (Width = 0.1). Negative values reverse the course. The value can be provided by another node or set manually.
+   Determines the curve between sharp S-shaped (width = 1) and stretched (Width = 0.1). Negative values reverse the course. The value can be provided by another node or set manually.
 :guilabel:`Center`
-    The center of the output value range. This input value is replaced by the output value of 0.5. The value can be provided by another node or set manually.
+   The center of the output value range. This input value is replaced by the output value of 0.5. The value can be provided by another node or set manually.
 
 
 Outputs
 ~~~~~~~
 
 :guilabel:`Value`
-    A value between 0 and 1, converted by the node.
+   A value between 0 and 1, converted by the node.
 
 
 Separate RGB Node
@@ -317,18 +320,18 @@ Inputs
 ~~~~~~
 
 :guilabel:`Image`
-    Input color value. Includes a color swatch, allowing you to select the color directly on the node.
+   Input color value. Includes a color swatch, allowing you to select the color directly on the node.
 
 
 Outputs
 ~~~~~~~
 
 :guilabel:`R`
-    Value of the red color channel, separated out by the node.
+   Value of the red color channel, separated out by the node.
 :guilabel:`G`
-    Value of the green color channel, separated out by the node.
+   Value of the green color channel, separated out by the node.
 :guilabel:`B`
-    Value of the blue color channel, separated out by the node.
+   Value of the blue color channel, separated out by the node.
 
 
 Combine RGB Node
@@ -346,18 +349,18 @@ Inputs
 ~~~~~~
 
 :guilabel:`R`
-    Input value of red color channel. The value can be provided by another node or set manually.
+   Input value of red color channel. The value can be provided by another node or set manually.
 :guilabel:`G`
-    Input value of green color channel. The value can be provided by another node or set manually.
+   Input value of green color channel. The value can be provided by another node or set manually.
 :guilabel:`B`
-    Input value of blue color channel. The value can be provided by another node or set manually.
+   Input value of blue color channel. The value can be provided by another node or set manually.
 
 
 Outputs
 ~~~~~~~
 
 :guilabel:`Image`
-    Output value of the color, combined by the node.
+   Output value of the color, combined by the node.
 
 
 Separate HSV Node
@@ -386,18 +389,18 @@ Inputs
 ~~~~~~
 
 :guilabel:`Color`
-    Input color value. Includes a color swatch, allowing you to select the color directly on the node.
+   Input color value. Includes a color swatch, allowing you to select the color directly on the node.
 
 
 Outputs
 ~~~~~~~
 
 :guilabel:`H`
-    Value of the hue color channel, separated out by the node (in some way, choose a «color» of the rainbow).
+   Value of the hue color channel, separated out by the node (in some way, choose a «color» of the rainbow).
 :guilabel:`S`
-    Value of the saturation color channel, separated out by the node (the *quantity* of hue in the color (from desaturate - shade of gray - to saturate - brighter colors)).
+   Value of the saturation color channel, separated out by the node (the *quantity* of hue in the color (from desaturate - shade of gray - to saturate - brighter colors)).
 :guilabel:`V`
-    Value of the value color channel, separated out by the node (the **luminosity** of the color (from 'no light' - black - to 'full light' - 'full' color, or white if Saturation is 0.0)).
+   Value of the value color channel, separated out by the node (the **luminosity** of the color (from 'no light' - black - to 'full light' - 'full' color, or white if Saturation is 0.0)).
 
 
 Combine HSV Node
@@ -415,17 +418,17 @@ Inputs
 ~~~~~~
 
 :guilabel:`H`
-    Input value of hue color channel. The value can be provided by another node or set manually.
+   Input value of hue color channel. The value can be provided by another node or set manually.
 :guilabel:`S`
-    Input value of saturation color channel. The value can be provided by another node or set manually.
+   Input value of saturation color channel. The value can be provided by another node or set manually.
 :guilabel:`V`
-    Input value of value color channel. The value can be provided by another node or set manually.
+   Input value of value color channel. The value can be provided by another node or set manually.
 
 
 Outputs
 ~~~~~~~
 
 :guilabel:`Color`
-    Output value of the color, combined by the node.
+   Output value of the color, combined by the node.
 
 

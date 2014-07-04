@@ -39,7 +39,7 @@ Display Panel
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     :guilabel:`Object`\ , :guilabel:`Edit` and :guilabel:`Pose` modes
+   | Mode:     :guilabel:`Object`, :guilabel:`Edit` and :guilabel:`Pose` modes
    | Panel:    :guilabel:`Display` :guilabel:`Object Data` context
 
 
@@ -115,7 +115,7 @@ This visualization shows the curves of "smooth" multi-segmented bones; see the :
 Envelope bone
 ~~~~~~~~~~~~~
 
-This visualization materializes the bone deformation influence. More on this in the :doc:`bone page <rigging/armatures/bones#bones_influence>`\ .
+This visualization materializes the bone deformation influence. More on this in the :doc:`bone page <rigging/armatures/bones#bones_influence>`.
 
 
 Attributes
@@ -125,7 +125,7 @@ Attributes
    When enabled, the name of each bone is drawn.
 
 :guilabel:`Colors`
-   This is only relevant for :guilabel:`Pose` mode, and is described in detail :doc:`there <rigging/posing/visualization>`\ .
+   This is only relevant for :guilabel:`Pose` mode, and is described in detail :doc:`there <rigging/posing/visualization>`.
 
 
 :guilabel:`Axes`
@@ -135,10 +135,9 @@ Attributes
    When enabled, the bones of the armature will always be drawn on top of the solid objects (meshes, surfaces, …) - i.e. they will always be visible and selectable (this is the same option as the one found in the :guilabel:`Display` panel of the :guilabel:`Object data` context. Very useful when not in :guilabel:`Wireframe` mode.
 
 :guilabel:`Shapes`
-   When enabled, the default standard bone shape is replaced, in :guilabel:`Object` and :guilabel:`Pose` modes, by the shape of a chosen object (see
-FIXME(TODO: Internal Link;
-[[#Shaped Bones|below]]
-) for details).
+   When enabled, the default standard bone shape is replaced,
+   in :guilabel:`Object` and :guilabel:`Pose` modes,
+   by the shape of a chosen object (see FIXME(TODO: Internal Link; [[#Shaped Bones|below]]) for details).
 
 :guilabel:`Delay Refresh`
    When enabled, the bone doesn't deform its children when manipulating the bone in pose mode.
@@ -156,7 +155,7 @@ Shaped Bones
 
 Blender allows you to give to each bone of an armature a specific shape
 (in :guilabel:`Object` and :guilabel:`Pose` modes), using another object as "template".
-First of all, you have to enable the :guilabel:`Shapes` button (\ :guilabel:`Armature` panel).
+First of all, you have to enable the :guilabel:`Shapes` button (:guilabel:`Armature` panel).
 
 
 .. figure:: /images/Man2.5RiggingEditingBoneCxtDisplayPanel.jpg
@@ -173,7 +172,7 @@ Attributes
    When enabled, bone is displayed in wireframe mode regardles of the viewport drawing mode. Useful for non-obstructive custom bone chains.
 
 :guilabel:`Hide`
-   Bone is not visible when not in :guilabel:`Edit mode`\ .
+   Bone is not visible when not in :guilabel:`Edit mode`.
 
 :guilabel:`Custom Shape`
    Object that defines the custom shape of the selected bone.
@@ -184,8 +183,8 @@ Attributes
 
 To assign a custom shape to a bone, you have to:
 
-- Switch to :guilabel:`Pose` mode (\ :kbd:`ctrl-Tab`\ ).
-- Select the relevant bone (\ :kbd:`rmb` click on it).
+- Switch to :guilabel:`Pose` mode (:kbd:`ctrl-Tab`).
+- Select the relevant bone (:kbd:`rmb` click on it).
 - Go to the :guilabel:`Display` panel :guilabel:`Custom Shape` field and select the 3D object previously created in the scene; in this example we are using a cube and a cone. Tou can optionally set the :guilabel:`At` field to another bone.
 
 
@@ -230,7 +229,7 @@ Armature Layers
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     :guilabel:`Object`\ , :guilabel:`Edit` and :guilabel:`Pose` modes
+   | Mode:     :guilabel:`Object`, :guilabel:`Edit` and :guilabel:`Pose` modes
    | Panel:    :guilabel:`Skeleton` panel, :guilabel:`Object data` context
 
 
@@ -255,7 +254,7 @@ Only bones in active layers will be visible/editable - but they will always be e
 (de)activate a layer, you have several options, depending in which mode you are in:
 
 - In all modes, use the row of small buttons at the top of the :guilabel:`Display Options` group, :guilabel:`Armature` panel. If you want to enable/disable several layers at once, as usual, hold :kbd:`shift` while clicking…
-- In :guilabel:`Edit` and :guilabel:`Pose` modes, you can also do this from the :guilabel:`3D View`\ s, either by using the menu (\ :menuselection:`Armature --> Switch Armature Layers` or :menuselection:`Pose --> Switch Armature Layers`\ ), or the :kbd:`shift-M` shortcut, to display a small pop-up dialog containing the same buttons as described above (here again, you can use :kbd:`shift-lmb` clicks to (de)select several layers at once).
+- In :guilabel:`Edit` and :guilabel:`Pose` modes, you can also do this from the :guilabel:`3D View` s, either by using the menu (:menuselection:`Armature --> Switch Armature Layers` or :menuselection:`Pose --> Switch Armature Layers`), or the :kbd:`shift-M` shortcut, to display a small pop-up dialog containing the same buttons as described above (here again, you can use :kbd:`shift-lmb` clicks to (de)select several layers at once).
 
 
 Protected Layers
@@ -272,7 +271,7 @@ Bone Layers
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     :guilabel:`Object`\ , :guilabel:`Edit` and :guilabel:`Pose` modes
+   | Mode:     :guilabel:`Object`, :guilabel:`Edit` and :guilabel:`Pose` modes
    | Panel:    :guilabel:`Relations` panel :guilabel:`Bone` context
 
 
@@ -291,8 +290,8 @@ layers - note that as with objects, bones can lay in several layers at once,
 just use the usual :kbd:`shift-lmb` clicks… First of all,
 you have to select the chosen bone(s)!
 
-- In the :guilabel:`Button` window, use the "layer buttons" of each selected bone "sub-panel" (\ :guilabel:`Armature Bones` panel) to control in which layer(s) it lays.
-- In the :guilabel:`3D View` window, use the menu (\ :menuselection:`Armature --> Move Bone To Layer` or :menuselection:`Pose --> Move Bone To Layer`\ ) or hit :kbd:`M` to show the usual pop-up layers dialog. Note that this way, *you assign the same layers to all selected bones*\ .
+- In the :guilabel:`Button` window, use the "layer buttons" of each selected bone "sub-panel" (:guilabel:`Armature Bones` panel) to control in which layer(s) it lays.
+- In the :guilabel:`3D View` window, use the menu (:menuselection:`Armature --> Move Bone To Layer` or :menuselection:`Pose --> Move Bone To Layer`) or hit :kbd:`M` to show the usual pop-up layers dialog. Note that this way, *you assign the same layers to all selected bones*.
 
 
 Hiding Bones
@@ -316,7 +315,7 @@ You do not have to use bone layers to show/hide some bones. As with objects,
 vertices or control points, you can use the :kbd:`H` key:
 
 - :kbd:`H` will hide the selected bone(s).
-- :kbd:`shift-H` will hide all bones *but the selected one(s)*\ .
+- :kbd:`shift-H` will hide all bones *but the selected one(s)*.
 - :kbd:`alt-H` will show all hidden bones.
 
 You can also use the :guilabel:`Hide` check button of the :guilabel:`Display` panel,

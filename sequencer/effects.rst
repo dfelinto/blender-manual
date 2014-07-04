@@ -104,10 +104,10 @@ The :guilabel:`Multiply` effect multiplies two colours.
 Blender uses values between **0.0** and **1.0** for the colours,
 he doesn't have to normalise this operation, the multiplication of two terms between **0.0**
 and **1.0** always gives a result between **0.0** and **1.0**
-(with the 'traditional' representation with three bytes - like RGB(\ **124**\ , **255**\ ,
-**56**\ ) -, the multiplications give far too high results - like RGB(\ **7316**\ , **46410**\ ,
-**1848**\ ) -, that have to be 'brought back', normalised - just by dividing them by
-**256**\ ! - to 'go back' to range of **0** to **255**\ …).
+(with the 'traditional' representation with three bytes - like RGB(**124**, **255**,
+**56**) -, the multiplications give far too high results - like RGB(**7316**, **46410**,
+**1848**) -, that have to be 'brought back', normalised - just by dividing them by
+**256** ! - to 'go back' to range of **0** to **255** …).
 
 This effect has two main usages:
 
@@ -116,9 +116,9 @@ With a mask
 
 With uniform colors
    Multiplying a color with a 'normal' image allows you to soften some hues of this one
-   (and so - symmetrically - to enhance the others). For example, if you have a brown pixel RGB(\ **0.50**\ ,
-   **0.29**\ , **0.05**\ ), and you multiply it with a cyan filter (uniform color RGB(\ **0.0**\ , **1.0**\ ,
-   **1.0**\ ), you'll get a color RGB(\ **0.0**\ , **0.29**\ , **0.5**\ ). Visually,
+   (and so - symmetrically - to enhance the others). For example, if you have a brown pixel RGB(**0.50**,
+   **0.29**, **0.05**), and you multiply it with a cyan filter (uniform color RGB(**0.0**, **1.0**,
+   **1.0**), you'll get a color RGB(**0.0**, **0.29**, **0.5**). Visually,
    the result is to kill the reds and bring up (by 'symmetry' - the real values remain unchanged!)
    the blues an greens. Physically, it is the same effect as shining a cyan light onto a chocolate bar. Emotionally,
    vegetation becomes more lush, water becomes more Caribbean and inviting, skies become friendlier.
@@ -148,20 +148,20 @@ the areas of the image where there isn't anything solid are transparent;
 they have an alpha value of 0. If you use a movie strip, that movie has an alpha value of 1
 (completely opaque).
 
-So, you can use the :guilabel:`Alpha Over`\ /\ :guilabel:`Alpha Under` effect to composite the CGI
+So, you can use the :guilabel:`Alpha Over` / :guilabel:`Alpha Under` effect to composite the CGI
 Scene on top of your movie.
 The result is your model doing whatever as if it was part of the movie.
 The Factor curve controls how much the foreground is mixed over the background,
 fading in the foreground on top of the background. The colors of transparent foreground image
 areas is ignored and does not change the color of the background.
 
-Select two strips (\ :kbd:`shift-Rmb`\ ):
+Select two strips (:kbd:`shift-Rmb`):
 
-- With :guilabel:`Alpha Over`\ , the strips are layered up in the order selected; the first strip selected is the background, and the second one goes *over* the first one selected. The :guilabel:`Fac`\ tor controls *the transparency of the foreground*\ , i.e. a :guilabel:`Fac` of **0.0** will only show the background, and a :guilabel:`Fac` of **1.0** will completely override the background with the foreground (except in the transparent areas of this one, of course!)
-- With :guilabel:`Alpha Under`\ , this is the contrary: the first strip selected is the foreground, and the second one, the background. Moreover, the :guilabel:`Fac`\ tor controls *the transparency of the background*\ , i.e. a :guilabel:`Fac` of **0.0** will only show the foreground (the background is completely transparent), and a :guilabel:`Fac` of **1.0** will give the same results as with :guilabel:`Alpha Over`\ .
+- With :guilabel:`Alpha Over`, the strips are layered up in the order selected; the first strip selected is the background, and the second one goes *over* the first one selected. The :guilabel:`Fac` tor controls *the transparency of the foreground*, i.e. a :guilabel:`Fac` of **0.0** will only show the background, and a :guilabel:`Fac` of **1.0** will completely override the background with the foreground (except in the transparent areas of this one, of course!)
+- With :guilabel:`Alpha Under`, this is the contrary: the first strip selected is the foreground, and the second one, the background. Moreover, the :guilabel:`Fac` tor controls *the transparency of the background*, i.e. a :guilabel:`Fac` of **0.0** will only show the foreground (the background is completely transparent), and a :guilabel:`Fac` of **1.0** will give the same results as with :guilabel:`Alpha Over`.
 
 
-- :guilabel:`Alpha Over Drop` is between the two others: as with :guilabel:`Alpha Under`\ , the first strip selected will be the foreground, but as with :guilabel:`Alpha Over`\ , the :guilabel:`Fac`\ tor controls the transparency of this foreground.
+- :guilabel:`Alpha Over Drop` is between the two others: as with :guilabel:`Alpha Under`, the first strip selected will be the foreground, but as with :guilabel:`Alpha Over`, the :guilabel:`Fac` tor controls the transparency of this foreground.
 
 The example shows layering of AlphaOver effects. The very bottom channel is red,
 and an arrow is on top of that. Those two are AlphaOver to Channel 3.
@@ -235,11 +235,11 @@ Glow
 
 This effect makes parts of an image glow brighter by working on the luminance channel of an
 image. The :guilabel:`Glow` is the superposition of the base image and a modified version,
-where some areas (brighter than the :guilabel:`Threshold:`\ ) are blurred.
-With the :guilabel:`Glow` strip properties, you control this :guilabel:`Threshold:`\ ,
-the maximum luminosity that can be added (\ :guilabel:`Clamp:`\ ),
-a :guilabel:`Boost factor:` for it, the size of the blur (\ :guilabel:`Blur distance:`\ ),
-and its :guilabel:`Quality:`\ . The :guilabel:`Only boost` button allows you to only show/use
+where some areas (brighter than the :guilabel:`Threshold:`) are blurred.
+With the :guilabel:`Glow` strip properties, you control this :guilabel:`Threshold:`,
+the maximum luminosity that can be added (:guilabel:`Clamp:`),
+a :guilabel:`Boost factor:` for it, the size of the blur (:guilabel:`Blur distance:`),
+and its :guilabel:`Quality:`. The :guilabel:`Only boost` button allows you to only show/use
 the 'modified' version of the image, without the base one. To "animate" the glow effect,
 mix it with the base image using the Gamma Cross effect,
 crossing from the base image to the glowing one.
@@ -265,12 +265,23 @@ enable the :guilabel:`Frame locked` button and define a curve in the Ipo Window
 
 With the :guilabel:`Transform` strip selected,
 uses the properties panel to adjust the settings of this effect:
+
 :guilabel:`(x,y)Scale (Start,End):`
-   To adjust the scale (size). :guilabel:`xScale Start` defines the start width, :guilabel:`xScale End` the end width, :guilabel:`yScale Start` the start height, and :guilabel:`yScale End` the end height. The values higher than **1.0** will scale up the picture, while values lower than **1.0** will scale it down.
+   To adjust the scale (size). :guilabel:`xScale Start` defines the start width,
+   :guilabel:`xScale End` the end width, :guilabel:`yScale Start` the start height,
+   and :guilabel:`yScale End` the end height.
+   The values higher than **1.0** will scale up the picture,
+   while values lower than **1.0** will scale it down.
 :guilabel:`(x,y) (Start,End):`
-   To adjust the position (shifting). :guilabel:`x Start` defines the horizontal start position, :guilabel:`x End`\ , the end one; positive values shift the image to the right, negative values, to the left. :guilabel:`y Start` defines the vertical start position, :guilabel:`y End`\ , the end one; positive values shift the picture to the top, negative values, to the bottom.
+   To adjust the position (shifting).
+   :guilabel:`x Start` defines the horizontal start position, :guilabel:`x End`,
+   the end one; positive values shift the image to the right, negative values, to the left.
+   :guilabel:`y Start` defines the vertical start position, :guilabel:`y End`,
+   the end one; positive values shift the picture to the top, negative values, to the bottom.
 :guilabel:`rot (Start,End):`
-   The rotation is in degrees (\ **360** for a full turn) and is counter-clockwise. To make an image spin clockwise, make the end value lower than the start one (e.g. start it at 360 and go down from there).
+   The rotation is in degrees (**360** for a full turn) and is counter-clockwise.
+   To make an image spin clockwise,
+   make the end value lower than the start one (e.g. start it at 360 and go down from there).
 
 
 Color
@@ -336,7 +347,7 @@ To get even finer control over your clip timing,
 you can use curves!  While it is possible to keyframe the Speed factor,
 usually you want to keyframe the Frame number directly.
 
-Uncheck *Stretch to input strip length* and uncheck *Use as speed*\ .
+Uncheck *Stretch to input strip length* and uncheck *Use as speed*.
 You now have a Frame number field which you can keyframe.
 If you want the strip to animate **at all** you will have to insert some keyframes,
 otherwise it will look like a still.  In most cases you will want to use the Graph editor view

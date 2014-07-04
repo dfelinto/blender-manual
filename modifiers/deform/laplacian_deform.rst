@@ -29,7 +29,7 @@ of a vertex based on its neighbors.
 .. admonition:: Note
    :class: note
 
-   You must define a :guilabel:`Anchors Vertex Group`\ . Without a vertex group modifier does nothing.
+   You must define a :guilabel:`Anchors Vertex Group`. Without a vertex group modifier does nothing.
 
 
 Options

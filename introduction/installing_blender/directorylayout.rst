@@ -92,19 +92,19 @@ search order: **LOCAL, USER**
 defaults & session info
 search order: **LOCAL, USER**
 
-- ``./config/``\ **startup.blend**
+- ``./config/`` **startup.blend**
 
 default file to load on startup.
 
-- ``./config/``\ **userpref.blend**
+- ``./config/`` **userpref.blend**
 
 default preferences to load on startup.
 
-- ``./config/``\ **bookmarks.txt**
+- ``./config/`` **bookmarks.txt**
 
 file selector bookmarks.
 
-- ``./config/``\ **recent-files.txt**
+- ``./config/`` **recent-files.txt**
 
 recent file menu list.
 

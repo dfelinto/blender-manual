@@ -6,9 +6,9 @@ As previously stated, there are multiple types of lighting in Blender, like indi
 
 
 - :doc:`Light Properties <lighting/lights/light_properties>` - settings common to all lamps.
-- :doc:`Light Attenuation <lighting/lights/light_attenuation>`\ .
+- :doc:`Light Attenuation <lighting/lights/light_attenuation>`.
 - :doc:`Textures <lighting/lights/textures>` - how to apply texture(s) to lamps.
-- :doc:`What Light Affects <lighting/lights/what_light_affects>`\ .
+- :doc:`What Light Affects <lighting/lights/what_light_affects>`.
 - :doc:`Lights In Other Contexts <lighting/lights/lights_in_other_contexts>` - lamp-related setting in other contexts.
 
 

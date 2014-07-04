@@ -109,8 +109,10 @@ Limit Method
 This section of the :guilabel:`Bevel` modifier is used to control where and when a bevel is
 applied to the underlying mesh. The first row of three buttons (mutually exclusive)
 controls the algorithm used, and might add some extra options.
+
 :guilabel:`None`
-   This button will apply the :guilabel:`Bevel` modifier to the whole underlying mesh, without any way to prevent the bevel on some edges/vertices.
+   This button will apply the :guilabel:`Bevel` modifier to the whole underlying mesh,
+   without any way to prevent the bevel on some edges/vertices.
 
 
 .. figure:: /images/Manual_CZ_BevelModifier_Angle_IF.jpg
@@ -120,7 +122,13 @@ controls the algorithm used, and might add some extra options.
 
 :guilabel:`Angle`
 
-   This button will only bevel edges where faces make sharp angles. When selected, it displays the :guilabel:`Angle` numeric field, used to set the angle above which an edge will be beveled (it is in fact the complementary angle, i.e. ``180- -(angle between faces)``\ ). When the angle between meeting faces is less than the angle in the slider box, a bevel on those specific edges will not be applied. Similarly, when the angle between two edges is less than this limit, the vertex is not beveled.
+   This button will only bevel edges where faces make sharp angles. When selected,
+   it displays the :guilabel:`Angle` numeric field, used to set the angle above which an edge will be beveled
+   (it is in fact the complementary angle, i.e. ``180 - (angle between faces)``).
+   When the angle between meeting faces is less than the angle in the slider box,
+   a bevel on those specific edges will not be applied. Similarly,
+   when the angle between two edges is less than this limit, the vertex is not beveled.
+
 
 
 .. figure:: /images/Manual_CZ_BevelModifier_Weight_IF.jpg
@@ -129,7 +137,10 @@ controls the algorithm used, and might add some extra options.
 
 
 :guilabel:`Weight`
-   Use bevel weights to determine how much bevel is applied; apply them separately in vert/edge select mode. See :doc:`Here <modeling/meshes/editing/edges>` about adjusting bevel weights. The three options specify what edge weight to use for weighting a vertex.
+   Use bevel weights to determine how much bevel is applied; apply them separately in vert/edge select mode.
+   See :doc:`Here <modeling/meshes/editing/edges>` about adjusting bevel weights.
+   The three options specify what edge weight to use for weighting a vertex.
+
    :guilabel:`Average`
       Uses the average bevel weight at the vertex
    :guilabel:`Sharpest`

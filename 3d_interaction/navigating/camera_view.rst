@@ -33,7 +33,7 @@ Render Border
 
 
 While in camera view,
-you can define a :guilabel:`Render Border` by pressing :kbd:`Ctrl-B`\ .
+you can define a :guilabel:`Render Border` by pressing :kbd:`Ctrl-B`.
 This will allow you to draw out a dotted orange rectangle within the camera view.
 Your renders will now be limited to the part of scene visible within the render border.
 This can be very useful for reducing render times. The border can be disabled by disabling the

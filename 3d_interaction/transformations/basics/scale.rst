@@ -33,9 +33,9 @@ the scale will continue in the negative direction and flip the element.
 There are multiple ways to scale an element which include:
 
 
-- The keyboard shortcut (\ :kbd:`S`\ )
+- The keyboard shortcut (:kbd:`S`)
 - The 3D manipulator widget
-- The Properties menu (\ :kbd:`N`\ )
+- The Properties menu (:kbd:`N`)
 
 Basic scale usage and common options are described below. For additional information, you may
 wish to read the Transform Control and Orientation pages which provide more information about
@@ -71,18 +71,18 @@ The amount of scaling will be displayed in the bottom left hand corner of the 3D
 Constraining the scaling axis (axis locking)
 ____________________________________________
 
-Scaling can be constrained to a particular axis or axes through the use of :doc:`Axis Locking <3d_interaction/transform_control/axis_locking>`\ . To constrain scaling, the following shortcuts can be used:
+Scaling can be constrained to a particular axis or axes through the use of :doc:`Axis Locking <3d_interaction/transform_control/axis_locking>`. To constrain scaling, the following shortcuts can be used:
 
 
-- :kbd:`s`\ , :kbd:`X`\ : Scale only along the **X Axis**
-- :kbd:`s`\ , :kbd:`Y`\ : Scale only along the **Y Axis**
-- :kbd:`s`\ , :kbd:`Z`\ : Scale only along the **Z Axis**
+- :kbd:`s`, :kbd:`X`: Scale only along the **X Axis**
+- :kbd:`s`, :kbd:`Y`: Scale only along the **Y Axis**
+- :kbd:`s`, :kbd:`Z`: Scale only along the **Z Axis**
 
 Axis locking can also be enabled by pressing the :kbd:`MMB` after enabling scaling and
 moving the mouse in the desired direction e.g.
 
 
-- :kbd:`s`\ , move the mouse along the X axis, :kbd:`MMB`\ : Scale only along the **X Axis**
+- :kbd:`s`, move the mouse along the X axis, :kbd:`MMB`: Scale only along the **X Axis**
 
 :doc:`Read more about Axis Locking » <3d_interaction/transform_control/axis_locking>`
 
@@ -96,13 +96,13 @@ _______________________
 - Hold :kbd:`ctrl` down while scaling to scale the selected element in degree 0.1 BU increments.
 - Hold :kbd:`shift` down while scaling to scale the selected element in very fine increments.
 - Hold :kbd:`shift-ctrl` down while scaling to scale the selected element in 0.01 BU increments.
-- Press :kbd:`s`\ , type in a number and press :kbd:`enter` to confirm.
+- Press :kbd:`s`, type in a number and press :kbd:`enter` to confirm.
 
 
 .. admonition:: Orientation dependent scaling
    :class: nicetip
 
-   By default, all scaling happens around a Global Orientation. You can change the scaling orientation by pressing the axis key twice. For example, pressing :kbd:`s`\ , :kbd:`x`\ , :kbd:`x` will by default set scaling to occur around the local orientation.
+   By default, all scaling happens around a Global Orientation. You can change the scaling orientation by pressing the axis key twice. For example, pressing :kbd:`s`, :kbd:`x`, :kbd:`x` will by default set scaling to occur around the local orientation.
 
 
 :doc:`Read more about Precision Control » <3d_interaction/transform_control/precision>`
@@ -128,9 +128,9 @@ and blue triad is selected). Set the manipulator type to scale
 .. figure:: /images/3D_interaction-Transformations-Basic-Scale-scale_manipulator_header.jpg
 
 
-- Select your element with :kbd:`RMB`\ .
-- Use :kbd:`LMB` and drag any of the three colored axes on the scaling manipulator to scale your object along that axis. You can also use :kbd:`shift`\ , :kbd:`ctrl` or numeric input with the 3D manipulator widget for further control.
-- Your changes will be applied when you release :kbd:`LMB` or press :kbd:`SPACE` or :kbd:`ENTER`\ . Your changes will be cancelled if you press :kbd:`RMB` or :kbd:`ESC`\ .
+- Select your element with :kbd:`RMB`.
+- Use :kbd:`LMB` and drag any of the three colored axes on the scaling manipulator to scale your object along that axis. You can also use :kbd:`shift`, :kbd:`ctrl` or numeric input with the 3D manipulator widget for further control.
+- Your changes will be applied when you release :kbd:`LMB` or press :kbd:`SPACE` or :kbd:`ENTER`. Your changes will be cancelled if you press :kbd:`RMB` or :kbd:`ESC`.
 
 :doc:`Read more about the 3D Transform Manipulator » <3d_interaction/transform_control/manipulators>`
 
@@ -145,7 +145,7 @@ Scaling with the Properties Panel
    Scale transform properties panel.
 
 
-Scale values can also be specified in the Properties panel (\ :kbd:`n`\ )
+Scale values can also be specified in the Properties panel (:kbd:`n`)
 by altering the amount value in the scaling slider of the Transform panel.
 Scaling along particular axes can be enabled or disabled by toggling the padlock icon.
 

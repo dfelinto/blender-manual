@@ -36,7 +36,7 @@ Usage
 To mirror a selection along a particular global axis press:
 
 
-:kbd:`ctrl-M`\ , followed by :kbd:`x`\ , :kbd:`y` or :kbd:`z`\ .
+:kbd:`ctrl-M`, followed by :kbd:`x`, :kbd:`y` or :kbd:`z`.
 
 
 The image :guilabel:`Mirroring a selection` shows the results of this action after a mesh
@@ -47,10 +47,10 @@ element has been duplicated.
 
 In Mesh mode, you can mirror the selection on the currently selected Transform Orientation by
 pressing the appropriate axis key a second time. For example,
-if the Transform Orientation is set to :guilabel:`Normal`\ , pressing:
+if the Transform Orientation is set to :guilabel:`Normal`, pressing:
 
 
-:kbd:`ctrl-m`\ , followed by :kbd:`x` and then :kbd:`x` again
+:kbd:`ctrl-m`, followed by :kbd:`x` and then :kbd:`x` again
 
 
 will mirror the selection along the X-axis of the :guilabel:`Normal Orientation.`

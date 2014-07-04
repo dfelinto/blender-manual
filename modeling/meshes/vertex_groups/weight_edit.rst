@@ -31,7 +31,7 @@ However we can identify 2 implicit categories of Vertex Groups:
 The {{literal|Deform Groups}}
 +++++++++++++++++++++++++++++
 
-These Vertex groups are sometimes also named :guilabel:`Weight Groups`\ .
+These Vertex groups are sometimes also named :guilabel:`Weight Groups`.
 They are used for defining the weight tables of Armature bones.
 All Deform Groups of an Object are strictly related to each other via their weight values.
 
@@ -47,13 +47,13 @@ The {{literal|Other Groups}}
 All other usages of Vertex Groups are summarized into the :guilabel:`Other` category.
 These vertex groups can be found within Shape keys, Modifiers, etc...
 There is really no good name for this category,
-so we kept it simple and named it :guilabel:`Other`\ .
+so we kept it simple and named it :guilabel:`Other`.
 
 
 The Weight Table
 ~~~~~~~~~~~~~~~~
 
-The Weight Table shows all weights associated to the :guilabel:`active vertex`\ .
+The Weight Table shows all weights associated to the :guilabel:`active vertex`.
 Note that a vertex does not necessarily have to be associated to any vertex groups.
 In that case the Vertex Weights Panel is not displayed.
 

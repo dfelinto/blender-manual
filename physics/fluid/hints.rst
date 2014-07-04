@@ -33,5 +33,5 @@ Some useful hints about fluid simulation in Blender:
 
 
 
-- If you're having trouble, or something isn't working as you think it should - let me know: send the .blend file and a problem description to ``nils at thuerey dot de``\ . Please check these wiki pages and the `blenderartists-forum <http://blenderartists.org/forum/>`__ before sending a mail!
+- If you're having trouble, or something isn't working as you think it should - let me know: send the .blend file and a problem description to ``nils at thuerey dot de``. Please check these wiki pages and the `blenderartists-forum <http://blenderartists.org/forum/>`__ before sending a mail!
 

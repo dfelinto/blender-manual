@@ -26,8 +26,8 @@ local view.
 Examples
 --------
 
-In *Global view*\ , all the objects are visible. With the green cube selected, switching to
-*Local view* with :kbd:`Numpad-/`  will center the cube in the :guilabel:`3D View`\ .
+In *Global view*, all the objects are visible. With the green cube selected, switching to
+*Local view* with :kbd:`Numpad-/`  will center the cube in the :guilabel:`3D View`.
 If a scene has thousands of objects visible, this feature can potentially speed interactivity
 up because only the objects you selected will be visible.
 

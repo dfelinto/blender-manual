@@ -55,22 +55,22 @@ but it is useful to emphasize shapes of surfaces,
 or as a cheap way to get an effect that looks a bit like indirect lighting.
 
 
-- :guilabel:`Factor`\ : The strength of the ambient occlusion; value 1.0 is like a white world shader.
-- :guilabel:`Distance`\ : Distance from shading point to trace rays. A shorter distance emphasizes nearby features, while longer distances make it also take objects further away into account.
+- :guilabel:`Factor`: The strength of the ambient occlusion; value 1.0 is like a white world shader.
+- :guilabel:`Distance`: Distance from shading point to trace rays. A shorter distance emphasizes nearby features, while longer distances make it also take objects further away into account.
 
 Lighting from ambient occlusion is only applied to diffuse reflection BSDFs;
 glossy or transmission BSDFs are not affected.
 Transparency of surfaces will be taken into account, i.e.
 a half-transparent surface will only half occlude.
 
-An alternative method of using Ambient Occlusion on a per-shader basis is to use the :doc:`Ambient Occlusion shader <render/cycles/nodes/shaders#ambient_occlusion>` (\ *non-shader AO node still to be implemented*\ ).
+An alternative method of using Ambient Occlusion on a per-shader basis is to use the :doc:`Ambient Occlusion shader <render/cycles/nodes/shaders#ambient_occlusion>` (*non-shader AO node still to be implemented*).
 
 
 Settings
 --------
 
-- :guilabel:`Multiple Importance Sample`\ : Enabling this will sample the background texture such that lighter parts are favored, producing less noise in the render. It is almost always a good idea to enable this when using an image texture to light the scene, otherwise noise can take a very long time to converge.
-- :guilabel:`Map Resolution`\ : Sets the resolution of the 'Multiple Importance Sample' map. Higher values may produce less noise when using high-res images, but will take up more memory and render slightly slower.
+- :guilabel:`Multiple Importance Sample`: Enabling this will sample the background texture such that lighter parts are favored, producing less noise in the render. It is almost always a good idea to enable this when using an image texture to light the scene, otherwise noise can take a very long time to converge.
+- :guilabel:`Map Resolution`: Sets the resolution of the 'Multiple Importance Sample' map. Higher values may produce less noise when using high-res images, but will take up more memory and render slightly slower.
 
 Below is a comparison between Multiple Importance Sample Off and On - both images rendered for
 25 seconds (Off: 1500 samples, On: 1000 samples)

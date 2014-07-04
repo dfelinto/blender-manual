@@ -12,7 +12,7 @@ There are three ways to establish the image used by the UV Texture:
 
 
 - Paint a flat image in the UV/Image Editor onto the currently selected UV Texture, using its UV map to transfer the colors to the faces of the mesh.
-- Paint the mesh in the 3D View, and let Blender use the currently selected UV map to update the UV Texture (see "\ :doc:`Projection Painting <textures/painting/projection>`\ ").
+- Paint the mesh in the 3D View, and let Blender use the currently selected UV map to update the UV Texture (see "\ :doc:`Projection Painting <textures/painting/projection>` ").
 - Use any image-editing (paint) program to create an image. In the UV/Image Editor, select the UV Texture and load the image. Blender will then use that texture's UV map to transfer the colors to the faces of the mesh
 
 Blender features a built-in paint mode called Texture Paint which is designed specifically to
@@ -32,7 +32,7 @@ GIMP is a full-featured image manipulation program that is also open-source.
 Since a mesh can have layers of UV Textures, there may be many images that color the mesh.
 However, each UV Texture only has one image.
 
-Texture Paint works in both a 3D window and the UV/Image Editor window. In the 3D window in Texture Paint mode, you paint directly on the mesh by :doc:`projecting onto the UVs <textures/painting/projection>`\ .
+Texture Paint works in both a 3D window and the UV/Image Editor window. In the 3D window in Texture Paint mode, you paint directly on the mesh by :doc:`projecting onto the UVs <textures/painting/projection>`.
 
 
 Getting Started
@@ -121,7 +121,7 @@ Name your brush by clicking on the name field and entering any name you wish,
 such as "Red Air" for a red airbrush. To toss out a brush,
 click the brush delete :guilabel:`X` button next to its name.
 If you want to keep this brush around for the next time you run Blender,
-click the :guilabel:`F`\ ake user button next to the brush delete X button.
+click the :guilabel:`F` ake user button next to the brush delete X button.
 
 If you have a tablet pen with pressure sensitivity,
 toggle the small "P" button next to the opacity, size,
@@ -151,16 +151,16 @@ ________________
 
 There are four different types of brushes
    :guilabel:`Draw`
-       the normal brush; paints a swath of color
+      the normal brush; paints a swath of color
 
    :guilabel:`Soften`
-       blends edges between two colors
+      blends edges between two colors
 
    :guilabel:`Smear`
-       when you click, takes the colors under the cursor, and blends them in the direction you move the mouse. Similar to the "smudge" tool of *Gimp*\ .
+      when you click, takes the colors under the cursor, and blends them in the direction you move the mouse. Similar to the "smudge" tool of *Gimp*.
 
    :guilabel:`Clone`
-       copies the colors from the image specified (Tex.Dirt in the example), to the active image. The background image is shown when this brush is selected; use the :guilabel:`B`\ lend slider to control how prominent the background image is.
+      copies the colors from the image specified (Tex.Dirt in the example), to the active image. The background image is shown when this brush is selected; use the :guilabel:`B` lend slider to control how prominent the background image is.
 
 :guilabel:`Enable Pressure Sensitivity`
    The icon to the right of the following three settings will enable or disable tablet pressure sensitivity to control how strong the effect is.
@@ -233,7 +233,7 @@ this field changes to indicate the picture image or texture that you are cloning
       Random applying of texture.
 
 :guilabel:`Angle`
-    This is the rotation angle of the texture brush. It can be changed interactively via :kbd:`ctrl-F` in the 3D view. While in the interactive rotation you can enter a value numerically as well. Can be set to:
+   This is the rotation angle of the texture brush. It can be changed interactively via :kbd:`ctrl-F` in the 3D view. While in the interactive rotation you can enter a value numerically as well. Can be set to:
 
    :guilabel:`User`
       Directly input the angle value.
@@ -254,29 +254,36 @@ Stroke
 
 **Stroke Method**
    Allows set the way applying strokes.
+
    **Airbrush**
       Flow of the brush continues as long as the mouse click is held, determined by the :guilabel:`Rate` setting. If disabled, the brush only modifies the color when the brush changes its location.
+
       **Rate**
          Interval between paints for airbrush
+
    **Space**
-       Creates brush stroke as a series of dots, whose spacing is determined by the :guilabel:`Spacing` setting.
+      Creates brush stroke as a series of dots, whose spacing is determined by the :guilabel:`Spacing` setting.
+
       **Spacing**
          Represents the percentage of the brush diameter. Limit brush application to the distance specified by spacing.
    **Dots**
       Apply paint on each mouse move step
    **Jitter**
       Jitter the position of the brush while painting
+
 **Smooth stroke**
    Brush lags behind mouse and follows a smoother path. When enabled, the following become active:
+
    **Radius**
       Sets the minimun distance from the last point before stroke continues.
    **Factor**
       Sets the amount of smoothing.
+
 **Input Samples**
    Average multiple input samples together to smooth the brush stroke.
 
 :guilabel:`Wrap`
-    wraps your paint to the other side of the image as your brush moves off the OTHER side of the canvas (any side, top/bottom, left/right). Very handy for making seamless textures.
+   wraps your paint to the other side of the image as your brush moves off the OTHER side of the canvas (any side, top/bottom, left/right). Very handy for making seamless textures.
 
 
 Curve
@@ -320,7 +327,7 @@ The image format for saving is independent of the format for rendering.
 The format for saving a UV image is selected in the header of the Save Image window,
 and defaults to PNG (.png).
 
-If Packing is enabled in the window header, or if you manually :guilabel:`Image→Pack Image`\ ,
+If Packing is enabled in the window header, or if you manually :guilabel:`Image→Pack Image`,
 saving your images to a separate file is not necessary.
 
 

@@ -7,10 +7,10 @@ Action Constraint
 
 The :guilabel:`Action` constraint is powerful. It allows you control an :doc:`Action <animation/editors/dopesheet/action>` using the transformations of another object.
 
-The underlying idea of the :guilabel:`Action` constraint is very similar to the one behind the :doc:`Drivers <animation/editors/graph/drivers>`\ , except that the former uses a whole action (i.e. a bunch a Fcurves of the same type), while the latter controls a single Fcurve of their "owner"…
+The underlying idea of the :guilabel:`Action` constraint is very similar to the one behind the :doc:`Drivers <animation/editors/graph/drivers>`, except that the former uses a whole action (i.e. a bunch a Fcurves of the same type), while the latter controls a single Fcurve of their "owner"…
 
 Note that even if the constraint accepts the :guilabel:`Mesh` action type,
-only the :guilabel:`Object`\ ,
+only the :guilabel:`Object`,
 :guilabel:`Pose` and :guilabel:`Constraint` types are really working,
 as constraints can only affect objects' or bones' transform properties,
 and not meshes' shapes… . Also note that only the object transformation (location, rotation,
@@ -23,9 +23,9 @@ As an example, let's assume you have defined an :guilabel:`Object` action
 and have mapped it on your owner through an :guilabel:`Action` constraint,
 so that moving the target in the ``[0.0,
 2.0]`` range along its X axis maps the action content on the owner in the ``[0,
-100]`` frame range. This will mean that when the target's X property is **0.0**\ ,
+100]`` frame range. This will mean that when the target's X property is **0.0**,
 the owner will be as if in frame **0** of the linked action;
-with the target's X property at **1.0**\ ,
+with the target's X property at **1.0**,
 the owner will be as if in frame **50** of the linked action, etc.
 
 
@@ -42,17 +42,17 @@ Options
 :guilabel:`Target`
    This constraint uses one target, and is not functional (red state) when it has none.
 
-:guilabel:`Bone`\ :
+:guilabel:`Bone`:
    When target is an armature object, use this field to select the target bone.
 
 :guilabel:`Transform Channel`
-    This drop-down list controls which transform property (location, rotation or scale along/around one of its axes) from the target to use as "action driver".
+   This drop-down list controls which transform property (location, rotation or scale along/around one of its axes) from the target to use as "action driver".
 
 :guilabel:`Target Space`
-    This constraint allows you to choose in which space to evaluate its target's transform properties.
+   This constraint allows you to choose in which space to evaluate its target's transform properties.
 
 :guilabel:`To Action`
-    Select the name of the action you want to use.
+   Select the name of the action you want to use.
 
  .. warning::
 
@@ -61,11 +61,11 @@ Options
  Even though it might not be in red state (UI refresh problems…), this constraint is obviously not functional when this field does not contain a valid action.
 
 :guilabel:`Object Action`
-   **Bones only**\ , when enabled, this option will make the constrained bone use the "object" part of the linked action, instead of the "same-named pose" part. This allows you to apply the action of an object to a bone.
+   **Bones only**, when enabled, this option will make the constrained bone use the "object" part of the linked action, instead of the "same-named pose" part. This allows you to apply the action of an object to a bone.
 
-:guilabel:`Target Range` :guilabel:`Min`\ /\ :guilabel:`Max`
-    The lower and upper bounds of the driving transform property value.
-    By default, both values are set to **0.0**
+:guilabel:`Target Range` :guilabel:`Min` / :guilabel:`Max`
+   The lower and upper bounds of the driving transform property value.
+   By default, both values are set to **0.0**
 
  .. warning::
 
@@ -76,12 +76,12 @@ Options
    - When using a rotation property as "driver", these values are "mapped back" to the ``[-180.0- , 180.0- [`` range.
    - When using a scale property as "driver", these values are limited to null or positive values.
 
-:guilabel:`Action Range` :guilabel:`Start`\ /\ :guilabel:`End`
-    The starting and ending frames of the action to be mapped.
-    Note that:
+:guilabel:`Action Range` :guilabel:`Start` / :guilabel:`End`
+   The starting and ending frames of the action to be mapped.
+   Note that:
 
    - These values must be strictly positive.
-   - By default, both values are set to **0**\ , which disables the mapping (i.e. the owner just gets the properties defined at frame **0** of the linked action…).
+   - By default, both values are set to **0**, which disables the mapping (i.e. the owner just gets the properties defined at frame **0** of the linked action…).
 
 
 Notes

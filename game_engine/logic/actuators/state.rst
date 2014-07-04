@@ -26,15 +26,17 @@ Special Options:
 
 
 **Operation**
+
 Menu to select the state operation required.
-   :guilabel:`Change State`
-    Change from the current state to the state specified.
-   :guilabel:`Remove State`
-    Removes the specified states from the active states (deactivates them).
-   :guilabel:`Add State`
-    Adds the specified states to the active states (activates them).
-   :guilabel:`Set State`
-    Moves from the current state to the state specified, deactivating other added states.
+
+:guilabel:`Change State`
+   Change from the current state to the state specified.
+:guilabel:`Remove State`
+   Removes the specified states from the active states (deactivates them).
+:guilabel:`Add State`
+   Adds the specified states to the active states (activates them).
+:guilabel:`Set State`
+   Moves from the current state to the state specified, deactivating other added states.
 
 
 Usage Notes

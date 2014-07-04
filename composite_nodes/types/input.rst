@@ -37,7 +37,10 @@ Render Layers Node
 This node is the starting place to getting a picture of your scene into the compositing node
 map.
 
-This node inputs an image from a scene within your blend file. Select the scene and the active render layer from the yellow selection list at the bottom of the node. Blender uses the active camera for that scene to create an image of the objects specified in the :doc:`RenderLayer <render/post_process/layers>`\ .
+This node inputs an image from a scene within your blend file.
+Select the scene and the active render layer from the yellow selection list at the bottom of the node.
+Blender uses the active camera for that scene to create an image of the objects specified in the
+:doc:`RenderLayer <render/post_process/layers>`.
 
 The :guilabel:`Image` is input into the map, along with the following data:
 
@@ -176,7 +179,13 @@ We chose a Size value of 0.05 to see Z values ranging from 0 to 20 (20 is 1/0.05
 Using the Speed Socket
 ~~~~~~~~~~~~~~~~~~~~~~
 
-Even though things may be animated in our scene, a single image or frame from the animation does not portray any motion; the image from the frame is simply where things are at that particular time. However, from the :guilabel:`Render Layers` node, Blender puts out a vector set that says how particular pixels are moving, or will move, to the next frame. You use this socket to create a :doc:`blurring effect. Find out more by clicking here <ls/composite_nodes/types/filter/vector_blur>`\ .
+Even though things may be animated in our scene,
+a single image or frame from the animation does not portray any motion;
+the image from the frame is simply where things are at that particular time. However,
+from the :guilabel:`Render Layers` node, Blender puts out a vector set that says how particular pixels are moving,
+or will move, to the next frame. You use this socket to create a :doc:`blurring effect.
+Find out more by clicking here <ls/composite_nodes/types/filter/vector_blur>`.
+
 
 
 Image node
@@ -194,7 +203,9 @@ Image node
    Image node
 
 
-The :guilabel:`Image` node injects any image :doc:`format that is supported by Blender <render/output>`\ . Besides inputting the actual image, this node can also input :guilabel:`Alpha` and depth (\ :guilabel:`Z`\ ) values if the image has them. If the image is a MultiLayer format, all saved render passes are input. Use this node to input:
+The :guilabel:`Image` node injects any image :doc:`format that is supported by Blender <render/output>`.
+Besides inputting the actual image, this node can also input :guilabel:`Alpha` and depth (:guilabel:`Z`) values
+if the image has them. If the image is a MultiLayer format, all saved render passes are input. Use this node to input:
 
 - A single image from a file (such as a JPG picture)
 - Part or all of an animation sequence (such as the 30th to 60th frame)
@@ -215,7 +226,7 @@ These images can be e.g. previously rendered images, matte paintings, a picture 
 whatever. Blender really doesn't care.
 
 If the image is part of a sequence,
-manually click the Image Type selector to the right of the name, and select *Sequence*\ .
+manually click the Image Type selector to the right of the name, and select *Sequence*.
 Additional controls will allow you to define how much of the sequence to pull in
 (see Animations below). If the file is a video file, these controls will automatically appear.
 
@@ -231,19 +242,23 @@ default values are supplied (1.0 for A, 0.0 for Z).
 
 - Alpha/Transparency Channel
   - If a transparency channel is detected, the :guilabel:`Alpha` output socket will supply it.
-  - If it does not have an Alpha channel (e.g. JPG images), Blender will supply one, setting the whole image to completely opaque (an Alpha of 1.00, which will show in a :guilabel:`Viewer` node as white - if connected to the :guilabel:`Image` input socket).
+  - If it does not have an Alpha channel (e.g. JPG images),
+    Blender will supply one, setting the whole image to completely opaque
+    (an Alpha of 1.00, which will show in a :guilabel:`Viewer`
+    node as white - if connected to the :guilabel:`Image` input socket).
 - Z/depth Channel
   - If a Z (depth) channel is detected, the :guilabel:`Z` output socket will supply it.
-  - If it does not have a Z channel (e.g. JPG or PNG images), Blender will supply one, setting the whole image to be at the camera (a depth of 0.00). To view the Z-depth channel, use the Map Value to ColorRamp noodle given above in the Render Layer input node, in the
-
-FIXME(TODO: Internal Link;
-[[#Using the Z value Socket|{{Literal|Render Layer}} input node]]
-).
+  - If it does not have a Z channel (e.g. JPG or PNG images),
+    Blender will supply one, setting the whole image to be at the camera (a depth of 0.00).
+    To view the Z-depth channel, use the Map Value to ColorRamp noodle given above in the Render Layer input node,
+    in the FIXME(TODO: Internal Link; [[#Using the Z value Socket|{{Literal|Render Layer}} input node]]).
 
 .. admonition:: Formats
    :class: note
 
-   Blender supports many image formats. Currently only the OpenEXR image format stores RGB (color), A (alpha), and Z (depth) buffer information in a single file, if enabled.
+   Blender supports many image formats.
+   Currently only the OpenEXR image format stores RGB (color), A (alpha), and Z (depth)
+   buffer information in a single file, if enabled.
 
 
 Saving/Retrieving Render Passes
@@ -269,7 +284,7 @@ Image Size
 ~~~~~~~~~~
 
 Size matters - Pay attention to image resolution and color depth when mixing and matching
-images. Aliasing (rough edges), color *flatness*\ ,
+images. Aliasing (rough edges), color *flatness*,
 or distorted images can all be traced to mixing inappropriate resolutions and color depths.
 
 The compositor can mix images with any size,
@@ -277,11 +292,12 @@ and will only perform operations on pixels where images have an overlap.
 When nodes receive inputs with differently sized Images, these rules apply:
 
 - The first/top Image input socket defines the output size.
-- The composite is centered by default, unless a translation has been assigned to a buffer using a :guilabel:`Translate` node.
+- The composite is centered by default,
+  unless a translation has been assigned to a buffer using a :guilabel:`Translate` node.
 
 So each node in a composite can operate on different sized images, as defined by its inputs.
 Only the :guilabel:`Composite` output node has a fixed size,
-as defined by the :guilabel:`Scene buttons` (Format Panel - :kbd:`f10`\ ).
+as defined by the :guilabel:`Scene buttons` (Format Panel - :kbd:`f10`).
 The :guilabel:`Viewer` node always shows the size from its input, but when not linked
 (or linked to a value) it shows a small 320x256 pixel image.
 
@@ -328,18 +344,27 @@ For example, if your images were called "credits-0001.png", "credits-0002.png" t
 "credits-0300.png" and you wanted to start picking up with frame 20, you'd put 20 here.
 
 To have the movie/sequence start over and repeat when it is done,
-press the :guilabel:`Cycl`\ ic button. For example, if you were compositing a fan into a room,
+press the :guilabel:`Cycl` ic button. For example, if you were compositing a fan into a room,
 and the fan animation lasted 30 frames, the animation would start over at frame 31, 61, 91,
 and so on, continuously looping. As you scrub from frame to frame,
 to see the actual video frame used for the current frame of animation,
-press the auto button to the right of the :guilabel:`Cycl`\ ic button.
+press the auto button to the right of the :guilabel:`Cycl` ic button.
 
 
 Generated Images
 ~~~~~~~~~~~~~~~~
 
-`Using the Nodes to modify a painting in progress in the UV/Image window <http://wiki.blender.org/index.php/File:Manual-Compositing-Node-Image-Generagedjpg>`__
-Blender features :doc:`Texture Paint <textures/paint/painting_the_texture>` which works in the UV/Image Editor, that allows you to paint on the fly, and the image is kept in memory or saved. If sync lock is enabled (the lock icon in the header), changes are broadcast throughout Blender as soon as you lift the mouse button. One of the places that the image can go is to the Image Input node. The example shows a painting session going on in the right-hand UV/Image Editor window for the painting "Untitled". Create this image via Image→New in the UV/Image Editor. Refer to the texture paint section of the user maual for more info on using Texture Paint.
+`Using the Nodes to modify a painting in progress in the
+UV/Image window <http://wiki.blender.org/index.php/File:Manual-Compositing-Node-Image-Generagedjpg>`__
+Blender features :doc:`Texture Paint <textures/paint/painting_the_texture>` which works in the UV/Image Editor,
+that allows you to paint on the fly, and the image is kept in memory or saved.
+If sync lock is enabled (the lock icon in the header),
+changes are broadcast throughout Blender as soon as you lift the mouse button.
+One of the places that the image can go is to the Image Input node.
+The example shows a painting session going on in the right-hand UV/Image Editor window for the painting "Untitled".
+Create this image via Image?New in the UV/Image Editor.
+Refer to the texture paint section of the user maual for more info on using Texture Paint.
+
 
 In the left-hand window, the Image input node was used to select that "Untitled" image.
 Notice that the Image type icon is blank, indicating that it is pulling in a Generated image.
@@ -354,10 +379,18 @@ Changes to either the painting or the post-pro noodle are dynamic and real-time.
 Notes
 ~~~~~
 
-**No Frame Stretching or Compression:** If the input animation (avi or frame set) was encoded at a frame rate that is *different* from your current settings, the resultant animation will appear to run faster or slower. Blender Nodes do not adjust input video frame rates. Use the scale control inside the :doc:`Video Sequence Editor <sequencer>` to stretch or compress video to the desired speed, and input it here. You can incorporate "Slow-Mo" into your video. To do so, :guilabel:`ANIM`\ ate a video segment at 60 frames per second, and input it via this node, using Render settings that have an animation frame rate of the normal 30 fps; the resulting video will be played at half speed. Do the opposite to mimic Flash running around at hyperspeed.
+**No Frame Stretching or Compression:**
+If the input animation (avi or frame set) was encoded at a frame rate that is *different* from your current settings,
+the resultant animation will appear to run faster or slower. Blender Nodes do not adjust input video frame rates. Use
+the scale control inside the :doc:`Video Sequence Editor <sequencer>` to stretch or compress video to the desired
+speed, and input it here. You can incorporate "Slow-Mo" into your video. To do so,
+:guilabel:`ANIM` ate a video segment at 60 frames per second, and input it via this node,
+using Render settings that have an animation frame rate of the normal 30 fps;
+the resulting video will be played at half speed. Do the opposite to mimic Flash running around at hyperspeed.
+
 
 AVI (Audio Video Interlaced)
-files are encoded and often compressed using a routine called a *Codec*\ . You must have a
+files are encoded and often compressed using a routine called a *Codec*. You must have a
 codec installed on your machine and available to Blender that understands and is able to read
 the file, in order for Blender to be able to de-code and extract frames from the file. If you
 get the error message **FFMPEG or unsupported video format** when trying to load
@@ -436,7 +469,7 @@ Cyan was chosen because that is the color of the Monkey at that time,
 but you can just as easily choose any color. The image below shows frame 30,
 when we have almost faded completely.
 
-To fade **in**\ , change the Mix node and plug the image sequence into the bottom socket,
+To fade **in**, change the Mix node and plug the image sequence into the bottom socket,
 and specify a flat color for the top socket.
 
 
@@ -476,7 +509,7 @@ To use Blender to get this effect, build on the Cut and Fade splices discussed a
 In the above example, showing frame 27, we have adjusted some parameters to show you the power
 of Blender and how to use its Nodes to achieve just the blended crossover effect you desire:
 
-- Postfeed: Even though there were only 15 frames of animation in the Toucan strip, the cutover (top Time node) does not occur until frame 30. Blender continues to put out the last frame of an animation, *automatically extending it for you*\ , for frames out of the strip's range.
+- Postfeed: Even though there were only 15 frames of animation in the Toucan strip, the cutover (top Time node) does not occur until frame 30. Blender continues to put out the last frame of an animation, *automatically extending it for you*, for frames out of the strip's range.
 - Prefeed: Even though the swirl does not start playing until frame 34, Blender supplies the first frame of it for Frames 31 through 33. In fact, it supplies this image all the way back to frame 1.
 - Partial Fade: Notice the second 'wink' Time node. Like a real wink, it does not totally fade to black; only about 75%. When transitioning between scenes where you want some visual carryover, use this effect because there is not a break in perceptual sequence.
 
@@ -517,7 +550,7 @@ is selected and introduced through the value and/or color socket.
 .. admonition:: Note
    :class: note
 
-   **You cannot edit the textures themselves in the node window**\ . To use this node, create and edit the texture in the normal texture buttons, then select the texture from the menu button on the node.
+   **You cannot edit the textures themselves in the node window**. To use this node, create and edit the texture in the normal texture buttons, then select the texture from the menu button on the node.
 
 
 You can change the :guilabel:`Offset` and a :guilabel:`Scale`
@@ -527,7 +560,7 @@ thus affecting how the texture is applied to the image. For animation,
 note that this is a vector input socket, because the XYZ values are needed.
 
 Texture nodes can output a straight black-and-white :guilabel:`Value` image
-(don't mistake this for alpha) and an image (\ :guilabel:`Color`\ ).
+(don't mistake this for alpha) and an image (:guilabel:`Color`).
 
 
 Example
@@ -604,7 +637,7 @@ Time node
    Time node
 
 
-The Time node generates a :guilabel:`fac`\ tor value (from 0.00 to 1.00)
+The Time node generates a :guilabel:`fac` tor value (from 0.00 to 1.00)
 (that changes according to the curve drawn) as time progresses through your movie (frames).
 
 The :guilabel:`Start` and :guilabel:`End` NumButtons specify the range of time the values
@@ -630,7 +663,7 @@ doing so is easily overlooked in your node map and can be very confusing
 .. admonition:: Time is Relative
    :class: note
 
-   In Blender, time is measured in frames. The actual duration of a time span depends on how fast those frames whiz by (frame rate). You set the frame rate in your animation settings (\ :doc:`Scene Context <ce/buttons/scene_context>` F10 ). Common settings range from 5 seconds per frame for slideshows (0.2 fps), to 30 fps for US movies.
+   In Blender, time is measured in frames. The actual duration of a time span depends on how fast those frames whiz by (frame rate). You set the frame rate in your animation settings (:doc:`Scene Context <ce/buttons/scene_context>` F10 ). Common settings range from 5 seconds per frame for slideshows (0.2 fps), to 30 fps for US movies.
 
 
 Time Node Examples
@@ -645,7 +678,15 @@ the following time controls are made:
    A) No Effect B) Slow Down C) Freeze D) Accelerate E) Reverse
 
 
-Common uses for this include a :doc:`"fade to black" <composite_nodes/types/convertor#using_setalpha_to_fade_to_black>`\ , wherein the accelerate time curve (typically exponentially-shaped) feeds a mix value that mixes a constant black color in, so that the blackness accelerates and eventually darkens the image to total black. Other good uses include an increasing soften (blur-out or -in) effect, or :doc:`fade-in <composite_nodes/types/convertor#using_setalpha_to_fade_in_a_title>` a background or foreground, instead of just jumping things into or out of the scene.
+Common uses for this include a
+:doc:`"fade to black" <composite_nodes/types/convertor#using_setalpha_to_fade_to_black>`,
+wherein the accelerate time curve (typically exponentially-shaped)
+feeds a mix value that mixes a constant black color in,
+so that the blackness accelerates and eventually darkens the image to total black.
+Other good uses include an increasing soften (blur-out or -in) effect,
+or :doc:`fade-in <composite_nodes/types/convertor#using_setalpha_to_fade_in_a_title>` a background or foreground,
+instead of just jumping things into or out of the scene.
+
 
 You can even imagine hooking up one blur to a background renderlayer,
 another inverted blur to a foreground renderlayer, and time-feeding both.
@@ -673,5 +714,3 @@ Whew! Rearranging slide and changing the timing was clunky but doable by moving 
 The *Node* way is to create an image input, one for each slide image.
 Using the Image input and Time nodes connected to an AlphaOver mixer is much simpler, clearer,
 and easier to maintain.
-
-

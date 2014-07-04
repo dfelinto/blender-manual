@@ -19,10 +19,10 @@ Option
    Maintain Volume panel
 
 
-:guilabel:`Free` :guilabel:`X`\ /\ :guilabel:`Y`\ /\ :guilabel:`Z`
+:guilabel:`Free` :guilabel:`X` / :guilabel:`Y` / :guilabel:`Z`
    The free-scaling axis of the object.
 :guilabel:`Volume`
-   The bone's rest volume.  Default is ``1.0``\ .
+   The bone's rest volume.  Default is ``1.0``.
 :guilabel:`Space`
    This constraint allows you to choose in which space to evaluate its owner's transform properties.
 
@@ -30,6 +30,6 @@ Option
 See also
 --------
 
-- `Harkyman on the development of the Maintain Volume constraint <http://www.harkyman.com/2010/03/16/maintaining-bone-volume-a-new-constraint/>`__\ , March 2010
+- `Harkyman on the development of the Maintain Volume constraint <http://www.harkyman.com/2010/03/16/maintaining-bone-volume-a-new-constraint/>`__, March 2010
 
 

@@ -137,9 +137,9 @@ Levels Node
 
 The Levels Node takes an image as an input,
 and can output a 1D value based on the levels of an image.
-It can read the input's :guilabel:`Combined RGB`\ , :guilabel:`Red`\ , :guilabel:`Green`\ ,
-:guilabel:`Blue`\ , or :guilabel:`Luminance` channels.
+It can read the input's :guilabel:`Combined RGB`, :guilabel:`Red`, :guilabel:`Green`,
+:guilabel:`Blue`, or :guilabel:`Luminance` channels.
 
 It can output a :guilabel:`Mean` value, or average of values,
-or a :guilabel:`Standard deviation`\ , which measures the diversity of values.
+or a :guilabel:`Standard deviation`, which measures the diversity of values.
 

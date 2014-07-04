@@ -28,6 +28,7 @@ Physics settings are visible when using the game engine for rendering. Game phys
 
 **Force Field**
    Controls force field settings.
+
    **Force**
       Upward spring force when inside the physics distance area.
    **Distance**

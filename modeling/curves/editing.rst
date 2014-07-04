@@ -22,10 +22,11 @@ Display Options
    Curve Display panel
 
 
-When in Edit mode, the Properties Shelf (\ :kbd:`N`\ ) contains options in the
+When in Edit mode, the Properties Shelf (:kbd:`N`) contains options in the
 :guilabel:`Curve Display` panel for how curves are displayed in the 3D viewport.
 
-:guilabel:`Handles`\ :Toggles the display of Bezier handles while in edit mode. This does not affect the appearance of the curve itself.
+:guilabel:`Handles`
+   Toggles the display of Bezier handles while in edit mode. This does not affect the appearance of the curve itself.
 :guilabel:`Normals`
    Toggles the display of Curve Normals.
 :guilabel:`Normal Size`
@@ -39,13 +40,13 @@ When in :guilabel:`Edit` mode, you can hide and reveal elements from the display
 This can be useful in complex models with many elements on the Screen.
 
 :guilabel:`Hide Selected elements`
-   Use :kbd:`H`\ , or the :menuselection:`Curve --> Show/Hide --> Hide Selected` menu option from the 3D window header.
+   Use :kbd:`H`, or the :menuselection:`Curve --> Show/Hide --> Hide Selected` menu option from the 3D window header.
 
 :guilabel:`Show Hidden elements`
-   Use :kbd:`alt-H`\ , or the :menuselection:`Curve --> Show/Hide --> Show Hidden` menu option from the 3D window header.
+   Use :kbd:`alt-H`, or the :menuselection:`Curve --> Show/Hide --> Show Hidden` menu option from the 3D window header.
 
 :guilabel:`Hide Unselected elements`
-   Use :kbd:`shift-H`\ , or the :menuselection:`Curve --> Show/Hide --> Hide Unselected` menu option from the 3D window header.
+   Use :kbd:`shift-H`, or the :menuselection:`Curve --> Show/Hide --> Hide Unselected` menu option from the 3D window header.
 
 
 ----
@@ -59,10 +60,10 @@ Basic Curve Editing (translation, rotation, scale)
 
    | Mode:     :guilabel:`Edit` mode
    | Menu:     :menuselection:`Curve --> Transform --> Grab/Move, Rotate, Scale, …`
-   | Hotkey:   :kbd:`G`\ /\ :kbd:`R`\ /\ :kbd:`S`
+   | Hotkey:   :kbd:`G` / :kbd:`R` / :kbd:`S`
 
 
-Like other elements in Blender, Curve control points can be grabbed/moved (\ :kbd:`G`\ ), rotated (\ :kbd:`R`\ ) or scaled (\ :kbd:`S`\ ) as described in the :doc:`Basic Transformations <3d_interaction/transformations/basics>` section. When in :guilabel:`Edit` mode, :doc:`proportional editing <3d_interaction/transform_control/proportional_edit>` is also available for transformation actions.
+Like other elements in Blender, Curve control points can be grabbed/moved (:kbd:`G`), rotated (:kbd:`R`) or scaled (:kbd:`S`) as described in the :doc:`Basic Transformations <3d_interaction/transformations/basics>` section. When in :guilabel:`Edit` mode, :doc:`proportional editing <3d_interaction/transform_control/proportional_edit>` is also available for transformation actions.
 
 
 Snapping
@@ -72,7 +73,7 @@ Snapping
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
-   | Panel:    :guilabel:`Curve Tools` (\ :guilabel:`Editing` context)
+   | Panel:    :guilabel:`Curve Tools` (:guilabel:`Editing` context)
 
 
 :doc:`Mesh snapping <modeling/meshes/snapping>` also works with curve components. Both control points and their handles will be affected by snapping, except for within itself (other components of the active curve). Snapping works with 2D curves but points will be constrained to the local XY axes.
@@ -88,7 +89,7 @@ Deforming Tools
    | Menu:     :menuselection:`Curve --> Transform`
 
 
-The :guilabel:`To Sphere`\ , :guilabel:`Shear`\ , :guilabel:`Wrap` and :guilabel:`Push/Pull` transform tools are described in the :doc:`Transformations <3d_interaction/transformations>` sections. The two other tools, :guilabel:`Tilt` and :guilabel:`Shrink/Fatten Radius` are related to :doc:`Curve Extrusion <modeling/curves/editing/advanced>`\ .
+The :guilabel:`To Sphere`, :guilabel:`Shear`, :guilabel:`Wrap` and :guilabel:`Push/Pull` transform tools are described in the :doc:`Transformations <3d_interaction/transformations>` sections. The two other tools, :guilabel:`Tilt` and :guilabel:`Shrink/Fatten Radius` are related to :doc:`Curve Extrusion <modeling/curves/editing/advanced>`.
 
 
 Smoothing
@@ -117,7 +118,7 @@ Mirror
    | Hotkey:   :kbd:`ctrl-M`
 
 
-The :guilabel:`Mirror` tool is also available, behaving exactly as with :doc:`mesh vertices <modeling/meshes/editing/deforming/mirror>`\ ,
+The :guilabel:`Mirror` tool is also available, behaving exactly as with :doc:`mesh vertices <modeling/meshes/editing/deforming/mirror>`,
 
 
 ----
@@ -157,13 +158,13 @@ A new segment will only be added if a single vertex, or handle,
 at one end of the curve is selected. If two or more control points are selected,
 a new Bézier closed curve is started.
 
-Unlike mesh editing, you cannot create a new curve inside the edited object by :kbd:`ctrl-lmb`\ -clicking without any control points selected. to do so, you can cut an existing curve in two parts (by
+Unlike mesh editing, you cannot create a new curve inside the edited object by :kbd:`ctrl-lmb` -clicking without any control points selected. to do so, you can cut an existing curve in two parts (by
 FIXME(TODO: Internal Link;
 [[#Deleting Elements|deleting a segment]]
 )),
 FIXME(TODO: Internal Link;
 [[#Duplication|copying]]
-) an existing one (\ :kbd:`shift-D`\ ), or add a new one through the menu.
+) an existing one (:kbd:`shift-D`), or add a new one through the menu.
 
 
 Subdivision
@@ -173,7 +174,7 @@ Subdivision
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
-   | Panel:    :guilabel:`Curve Tools` (\ :guilabel:`Editing` context)
+   | Panel:    :guilabel:`Curve Tools` (:guilabel:`Editing` context)
    | Menu:     :menuselection:`Curve --> Segments --> Subdivide`
    | Hotkey:   :kbd:`w`
 
@@ -213,7 +214,7 @@ Joining Curve Segments
 
 Two open curves can be combined into one by creating a segment between the two curves.
 To join two separated curves,
-select one end control point from each curve then press :kbd:`F`\ .
+select one end control point from each curve then press :kbd:`F`.
 The two curves are joined by a segment to become a single curve.
 
 
@@ -240,7 +241,7 @@ Separating Curves
 
 
 Curve objects that are made of multiple distinct curves can be separated into their own
-objects by selecting the desired segments and pressing :kbd:`P`\ . Note,
+objects by selecting the desired segments and pressing :kbd:`P`. Note,
 if there is only one curve in a Curve object,
 pressing :kbd:`P` will create a new Curve object with no control points.
 
@@ -295,7 +296,7 @@ Only curves with at least one selected control point will be closed/open.
 The shape of the closing segment is based on the start and end handles for Bézier curves,
 and as usual on adjacent control points for NURBS.
 The only time a handle is adjusted after closing is if the handle is an :guilabel:`Auto` one.
-(\ *Open curve*\ ) and (\ *Closed curve*\ ) is the same Bézier curve open and closed.
+(*Open curve*) and (*Closed curve*) is the same Bézier curve open and closed.
 
 This action only works on the original starting control-point or the last control-point added.
 Deleting a segment(s) doesn't change how the action applies;
@@ -318,12 +319,12 @@ Switch Direction
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
-   | Menu:     :menuselection:`Curve --> Segments --> Switch Direction`\ , :menuselection:`Specials --> Switch Direction`
+   | Menu:     :menuselection:`Curve --> Segments --> Switch Direction`, :menuselection:`Specials --> Switch Direction`
    | Hotkey:   :menuselection:`[W] --> [pad2]`
 
 
 This command will "reverse" the direction of any curve with at least one selected element (i.
-e. the start point will become the end one, and *vice versa*\ ).
+e. the start point will become the end one, and *vice versa*).
 This is mainly useful when using a curve as path, or using the bevel and taper options.
 
 
@@ -405,7 +406,7 @@ Curve Parenting
    | Hotkey:   :kbd:`Ctrl-P`
 
 
-You can make other selected objects :doc:`children <modeling/objects/groups_and_parenting#parenting_objects>` of one or three control points :kbd:`ctrl-P`\ , as with mesh objects.
+You can make other selected objects :doc:`children <modeling/objects/groups_and_parenting#parenting_objects>` of one or three control points :kbd:`ctrl-P`, as with mesh objects.
 
 Select either 1 or 3 control points,
 then :kbd:`Ctrl-rmb` another object and use :kbd:`Ctrl-P` to make a vertex parent.

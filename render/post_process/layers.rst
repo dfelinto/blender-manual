@@ -19,7 +19,7 @@ What are Render Layers *really* used for?  Blender's node-based compositing syst
 In Nodes, when you add an Input Node of type *RenderLayers,* and select the Scene,
 you bring in whatever information you've specified for that RenderLayer.
 This node becomes a source for the rendering pipeline products you've specified
-*(see below)*\ , as applied to the objects in the qualifying layer(s).  Each of these products
+*(see below)*, as applied to the objects in the qualifying layer(s).  Each of these products
 then "flow out of" that node toward their appointed destinations in the node graph you've
 constructed.
 
@@ -79,6 +79,7 @@ Scene Layers Settings
 ---------------------
 
 There are three sets of scene layer buttons:
+
 :guilabel:`Scene`
    These mirror the layer buttons in the 3d view header, and tell which scene layers are visible when rendering.
 :guilabel:`Layer`
@@ -88,8 +89,8 @@ There are three sets of scene layer buttons:
 :guilabel:`Mask Layers`
    The image rendered is from the objects that are between the selected layer(s) and the Z-mask layers. In the example, the cube is on layers 2 and 3, and the grass in on layer 1. In the render layer which we have arbitrarily chosen to call "zmask", as shown in the picture above, layer 1 is selected and layer 3 is designated as the Z-mask (as indicated by the black dot). Therefore, only that part of Layer 1 which is in front of the object on layer 3 (the cube) is rendered.
 
-You can select that layer by :kbd:`Lmb`\ clicking the button. To select multiple layers,
-:kbd:`shift-Lmb` click.  (The dot in the button in this case turns *dark gray.*\ )
+You can select that layer by :kbd:`Lmb` clicking the button. To select multiple layers,
+:kbd:`shift-Lmb` click.  (The dot in the button in this case turns *dark gray.*)
 
 
 .. admonition:: Layer Sets AND each other
@@ -103,10 +104,11 @@ Overrides
 
 The Light and Material selector boxes allow you to override materials and lights per layer,
 applying them to all objects in the Render Layer.
+
 :guilabel:`Light`
-    Enter the name of a light group, and the scene will be lit with only those lights. Usually, you use this to speed up draft renders of a scene that has complicated lighting, by entering the name of a small group of key lights.
+   Enter the name of a light group, and the scene will be lit with only those lights. Usually, you use this to speed up draft renders of a scene that has complicated lighting, by entering the name of a small group of key lights.
 :guilabel:`Material`
-    Overrides all material settings to use the name of the Material entered. Use this to speed up draft renders. Use the default material to check basic lighting.
+   Overrides all material settings to use the name of the Material entered. Use this to speed up draft renders. Use the default material to check basic lighting.
 
 
 Include Options
@@ -118,6 +120,7 @@ this set of buttons allow you to select which major products to render:
 
 :guilabel:`Z-mask`
    Only render what's in front of the solid z values.
+
    :guilabel:`Negate`
       Only render what's Behind the solid z values.
 :guilabel:`AllZ`
@@ -133,13 +136,13 @@ this set of buttons allow you to select which major products to render:
 :guilabel:`Edge`
    If Edge is enable in the Output panel, objects in this Render Layer are given an outline edge. Turning on Edge pulls in the Edge settings from the Output tab, and adds an outline to the objects. Edges also have to be enabled on the Output tab.
 :guilabel:`Strand`
-    Strands are strings of static particles that are colored as part of the material settings; they look like strands of hair or grass.
+   Strands are strings of static particles that are colored as part of the material settings; they look like strands of hair or grass.
 
 
 Passes
 ------
 
-Render Passes (Combined, Z, Vec, etc.) are discussed on :doc:`the next page <render/post_process/passes>`\ .
+Render Passes (Combined, Z, Vec, etc.) are discussed on :doc:`the next page <render/post_process/passes>`.
 
 
 Examples

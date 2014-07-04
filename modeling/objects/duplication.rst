@@ -15,18 +15,18 @@ Description
 
 This will create a visually-identical copy of the selected object(s). The copy is created at
 the same position as the original object and you are automatically placed in :guilabel:`Grab`
-mode. Reference (\ *Duplicate Example*\ ) for the discussions below.
+mode. Reference (*Duplicate Example*) for the discussions below.
 
-This copy is a new object, which "\ **shares**\ " some datablocks with the original object
+This copy is a new object, which "\ **shares** " some datablocks with the original object
 (by default, all the Materials, Textures, and Ipos), but which has copied others,
 like the mesh, for example.
 This is why this form of duplication is sometimes called "shallow link",
 because not all datablocks are shared; some of them are "hard copied"!
 
 Note that you can choose which types of datablock will be linked or copied when duplicating:
-in the :guilabel:`User Preferences`\ ' (available in the :guilabel:`File` menu)
+in the :guilabel:`User Preferences` ' (available in the :guilabel:`File` menu)
 :guilabel:`Editing` "tab", activate those types of datablocks you want to really copy in the
-:guilabel:`Duplicate Data` list — the others will just be linked.
+:guilabel:`Duplicate Data` list — the others will just be linked.
 
 
 Examples
@@ -63,13 +63,13 @@ Linked Duplicates
 Description
 -----------
 
-You also have the choice of creating a *Linked Duplicate* rather than a *Duplicate*\ ;
+You also have the choice of creating a *Linked Duplicate* rather than a *Duplicate*;
 this is called a deep link.
 This will create a new object with **all** of its data linked to the original object.
-If you modify one of the linked objects in :guilabel:`Edit mode`\ ,
+If you modify one of the linked objects in :guilabel:`Edit mode`,
 all linked copies are modified. Transform properties (object datablocks) still remain copies,
 not links, so you still can rotate, scale, and move freely without affecting the other copy.
-Reference (\ *Duplicate Example*\ ) for the discussions below.
+Reference (*Duplicate Example*) for the discussions below.
 
 
 Examples
@@ -82,7 +82,7 @@ Examples
    The object Cone.001 was linked duplicated.  Though both these cones are separate objects with unique names, the single mesh named Cone, highlighted in the Outliner, is shared by both.
 
 
-The left cone is a :guilabel:`Linked Duplicate` of the middle cone (using :kbd:`alt-D`\ ).
+The left cone is a :guilabel:`Linked Duplicate` of the middle cone (using :kbd:`alt-D`).
 
 - As a vertex is is moved in :guilabel:`Edit mode` in one object, the same vertex is moved in the original cone as well.  The mesh data are links, not copies.
 - In contrast, if one of these two cones is rotated or rescaled in object mode, the other remains unchanged.  The transform properties are copied, not linked.
@@ -115,7 +115,7 @@ These options are located in the :guilabel:`Object` menu.
 
 :doc:`Faces <modeling/objects/duplication/duplifaces>` :This creates an instance of all children of this object on each face (for mesh objects only).
 
-:doc:`Group <modeling/objects/duplication/dupligroup>` :This creates an instance of the group with the transformation of the object. Group duplicators can be animated using actions, or can get a :doc:`Proxy <data_system/linked_libraries#proxy_objects>`\ .
+:doc:`Group <modeling/objects/duplication/dupligroup>` :This creates an instance of the group with the transformation of the object. Group duplicators can be animated using actions, or can get a :doc:`Proxy <data_system/linked_libraries#proxy_objects>`.
 
 :doc:`Frames <modeling/objects/duplication/dupliframes>` :For animated objects, this creates an instance on every frame. As you'll see on this topic's subpage, this is also a *very* powerful technique for arranging objects and for modeling them.
 
@@ -136,7 +136,7 @@ Linked Library Duplication
 Hints
 =====
 
-- If you want transform properties (i.e. object datablocks) to be "linked", see the page on :doc:`parenting <modeling/objects/groups_and_parenting>`\ .
+- If you want transform properties (i.e. object datablocks) to be "linked", see the page on :doc:`parenting <modeling/objects/groups_and_parenting>`.
 - Material Transparency will not display when instancing dupli-groups; this is a known limitation of Blender's view-port.
 
 

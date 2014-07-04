@@ -70,7 +70,8 @@ Ambient Occlusion
 Bakes ambient occlusion as specified in the World panels. Ignores all lights in the scene.
 
 :guilabel:`Normalized`
-    Normalize without using material's settings.
+   Normalize without using material's settings.
+
 ..    Comment: <!-- [[File:25-Manual-Render-Bake-Shadow.png|thumb|330px|{{Literal|Shadow}}]]]] --> .
 
 
@@ -98,16 +99,17 @@ Normals
 ~~~~~~~
 
 Bakes tangent and camera-space normals (amongst many others) to an RGB image.
-:guilabel:`Normal Space`
-    Normals can be baked in different spaces:
 
-    :guilabel:`Camera space`
+:guilabel:`Normal Space`
+   Normals can be baked in different spaces:
+
+   :guilabel:`Camera space`
       Default method.
-    :guilabel:`World space`
+   :guilabel:`World space`
       Normals in world coordinates, dependent on object transformation and deformation.
-    :guilabel:`Object space`
+   :guilabel:`Object space`
       Normals in object coordinates, independent of object transformation, but dependent on deformation.
-    :guilabel:`Tangent space`
+   :guilabel:`Tangent space`
       Normals in tangent space coordinates, independent of object transformation and deformation. This is the new default, and the right choice in most cases, since then the normal map can be used for animated objects too.
 
 For materials the same spaces can be chosen as well, in the image texture options,
@@ -135,8 +137,9 @@ Displacement
 Similar to baking normal maps,
 displacement maps can also be baked from a high-res object to an unwrapped low-res object,
 using the :guilabel:`Selected to Active` option.
+
 :guilabel:`Normalized`
-    Normalize to the distance.
+   Normalize to the distance.
 
 When using this in conjunction with a subsurf and displacement modifier within Blender, it's
 necessary to temporarily add a heavy subsurf modifier to the 'low res' model before baking.
@@ -184,25 +187,26 @@ Additional Options
 ------------------
 
 :guilabel:`Clear`
-    If selected, clears the image to selected background color (default is black) before baking render.
+   If selected, clears the image to selected background color (default is black) before baking render.
 :guilabel:`Margin`
-    Baked result is extended this many pixels beyond the border of each UV "island," to soften seams in the texture.
+   Baked result is extended this many pixels beyond the border of each UV "island," to soften seams in the texture.
 
 :guilabel:`Split`
-    :guilabel:`Fixed`
-       Slit quads predictably (0,1,2) (0,2,3).
-    :guilabel:`Fixed alternate`
-       Slit quads predictably (1,2,3) (1,3,0).
-    :guilabel:`Automatic`
-       Split quads to give the least distortion while baking.
+   :guilabel:`Fixed`
+      Slit quads predictably (0,1,2) (0,2,3).
+   :guilabel:`Fixed alternate`
+      Slit quads predictably (1,2,3) (1,3,0).
+   :guilabel:`Automatic`
+      Split quads to give the least distortion while baking.
 
 :guilabel:`Select to Active`
-    Enable information from other objects to be baked onto the active object.
+   Enable information from other objects to be baked onto the active object.
+
    :guilabel:`Distance`
-       Controls how far a point on another object can be away from the point on the active object. Only needed for :guilabel:`Selected to Active`\ .
-       A typical use case is to make a detailed, high poly object, and then bake it's normals onto an object with a low polygon count. The resulting normal map can then be applied to make the low poly object look more detailed.
+      Controls how far a point on another object can be away from the point on the active object. Only needed for :guilabel:`Selected to Active`.
+      A typical use case is to make a detailed, high poly object, and then bake it's normals onto an object with a low polygon count. The resulting normal map can then be applied to make the low poly object look more detailed.
    :guilabel:`Bias`
-       Bias towards further away from the object (in blender units)
+      Bias towards further away from the object (in blender units)
 
 
 .. admonition:: Mesh Must be Visible in Render
@@ -217,9 +221,9 @@ Workflow
 - In a 3D View window, select a mesh and enter UV/Face Select mode
 - :doc:`Unwrap the mesh object <textures/mapping/uv>`
 - In a UV/Image Editor window, either create a new image or open an existing one. If your 3D view is in textured display mode, you should now see the image mapped to your mesh. Ensure that all faces are selected.
-- In the Bake panel at the bottom of the :guilabel:`Render menu`\ , bake your desired type of image (\ :guilabel:`Full Render` etcetera.)
+- In the Bake panel at the bottom of the :guilabel:`Render menu`, bake your desired type of image (:guilabel:`Full Render` etcetera.)
 - When rendering is complete, Blender replaces the image with the Baked image.
 - Save the image.
-- Apply the image to the mesh as a UV texture. For displacement and normal maps, refer to :doc:`Bump and Normal Maps <textures/influence/material/bump_and_normal>`\ . For full and texture bakes, refer to :doc:`Textures <textures>`\ .
+- Apply the image to the mesh as a UV texture. For displacement and normal maps, refer to :doc:`Bump and Normal Maps <textures/influence/material/bump_and_normal>`. For full and texture bakes, refer to :doc:`Textures <textures>`.
 - Refine the image using the process described below, or embellish with :doc:`Texture Paint <textures/uv/painting_the_texture>` or an external image editor.
 

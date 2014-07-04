@@ -32,22 +32,22 @@ Selecting UVs
 Selection tools are available in the :guilabel:`Select Menu` and Header bar,
 and the shortcuts listed below:
 
-:guilabel:`Border Select` ; :kbd:`B`
+:guilabel:`Border Select` ; :kbd:`B`
    Use the box lasso to select UV coordinates.
 
-:guilabel:`Select/Deselect All` ; :kbd:`A`
+:guilabel:`Select/Deselect All` ; :kbd:`A`
    Selects or de-selects all UV coordinates. When initially unwrapping, you will want to select All UVs to rotate, scale, and move them around.
 
-:guilabel:`Linked UVs`\ :kbd:`ctrl-L`
+:guilabel:`Linked UVs`:kbd:`ctrl-L`
    This menu item selects all UVs that are part of the same UV map. Recall that a map is made for every submesh and seamed part of the mesh, and is analogous to a piece of cloth. Selecting :guilabel:`Linked UVs` works similarly to the command in 3D View. It will select all UVs that are 'connected' to currently selected UVs.
 
-:guilabel:`Pinned UVs` ; :kbd:`shift-P`
+:guilabel:`Pinned UVs` ; :kbd:`shift-P`
    You can pin UVs so they don't move between multiple unwrap operations. This menu item selects them all. See Pinning
 
-:guilabel:`Border Select Pinned` ; :kbd:`shift-B`
+:guilabel:`Border Select Pinned` ; :kbd:`shift-B`
    Use the box lasso to select only pinned UV coordinates.
 
-:guilabel:`Unlink Selection` ; :kbd:`alt-L`
+:guilabel:`Unlink Selection` ; :kbd:`alt-L`
    Cuts apart the selected UVs from the map. Only those UVs which belong to fully selected faces remain selected following this command. As the name implies, this is particularly useful to unlink faces and move them elsewhere. The hotkey is analogous to the mesh Separate command.
 
 
@@ -59,7 +59,7 @@ in the 3D view to sync with their corresponding elements in the UV editor.
 This is off by default.
 These two modes have very different results when transforming components in the UV editor.
 
-When SyncSelection is **Off**\ :
+When SyncSelection is **Off** :
 Only selected faces are displayed in the UV editor,
 and the following selection modes are available:
 
@@ -89,7 +89,7 @@ and the following selection modes are available:
    :guilabel:`Disabled`
       Disables Sticky Selection. When you move a UV in this mode, each face owns its own UVs, allowing them to be separated.
 
-When :guilabel:`Sync Selection`\ is **On** the following can be selected:
+When :guilabel:`Sync Selection` is **On** the following can be selected:
 
 - :guilabel:`Vertex`
 - :guilabel:`Edge`
@@ -126,11 +126,11 @@ The UV editor has a 2D cursor.
 Its position can be changed by :kbd:`lmb` clicking in the UV editor.
 You can also manually adjust its position in the Properties Panel.
 The range by default is from 0 to 256 starting from the lower left corner.
-By enabling :guilabel:`Normalized` under :guilabel:`Coordinates`\ ,
+By enabling :guilabel:`Normalized` under :guilabel:`Coordinates`,
 the range changes from 0 to 1.
 
 The 2D Cursor can be snapped to nearest pixels or to selected elements,
-by selecting :guilabel:`UVs Menu` under :guilabel:`Snap`\ .
+by selecting :guilabel:`UVs Menu` under :guilabel:`Snap`.
 
 The Pivot Point can be changed to:
 
@@ -148,7 +148,7 @@ Proportional Editing is available in UV editing. The controls are the same as in
 Snapping
 --------
 
-Snapping in UV is also similar to :doc:`Snapping in 3D <3d_interaction/transform_control/snap>`\ , but only snapping to UVs works, however, the :guilabel:`Snap to Pixels` option in the :guilabel:`UVs Menu` will force the UVs to snap to the pixels of an image if loaded.
+Snapping in UV is also similar to :doc:`Snapping in 3D <3d_interaction/transform_control/snap>`, but only snapping to UVs works, however, the :guilabel:`Snap to Pixels` option in the :guilabel:`UVs Menu` will force the UVs to snap to the pixels of an image if loaded.
 
 Additional tools can be found in the :guilabel:`UVs Menu` under the :guilabel:`Snap` Submenu:
 
@@ -165,7 +165,7 @@ Weld and Align
 
 the :guilabel:`Weld` tool, :kbd:`W-1` will move selected UVs to their average position
 
-:guilabel:`Align`\ , :kbd:`W-2`\ ,\ :kbd:`W-3`\ , and :kbd:`W-4`\ will line up selected UVs on the X axis, Y axis, or automatically chosen axis.
+:guilabel:`Align`, :kbd:`W-2`,\ :kbd:`W-3`, and :kbd:`W-4` will line up selected UVs on the X axis, Y axis, or automatically chosen axis.
 
 
 Mirror
@@ -174,14 +174,14 @@ Mirror
 Components can be mirrored on the Y axis or the X axis. You can select :guilabel:`Mirror X`
 and :guilabel:`Mirror Y` from the :guilabel:`Snap` sub menu in the :guilabel:`UV` menu.
 
-You can also use the hotkey :kbd:`ctrl-M` then enter :kbd:`X` or :kbd:`Y`\ ,
+You can also use the hotkey :kbd:`ctrl-M` then enter :kbd:`X` or :kbd:`Y`,
 or hold the :kbd:`mmb` and drag in the mirror direction.
 
 
 Stitch
 ------
 
-:guilabel:`Stitch`\ , :kbd:`V`\ , will join selected UVs that share Vertices. You set the tool to limit stitching by distance in the Tool Settings, by activating :guilabel:`Use Limit` and adjusting the :guilabel:`Limit Distance`
+:guilabel:`Stitch`, :kbd:`V`, will join selected UVs that share Vertices. You set the tool to limit stitching by distance in the Tool Settings, by activating :guilabel:`Use Limit` and adjusting the :guilabel:`Limit Distance`
 
 
 Minimize Stretch
@@ -211,10 +211,10 @@ so that parts of a UV layout stay the same shape, and/or in the same place.
 
 Pinning is done selecting a UV,
 then by selecting :guilabel:`Pin` from the :guilabel:`UVs` menu,
-or the shortcut :kbd:`P`\ .
+or the shortcut :kbd:`P`.
 You can :guilabel:`Unpin a UV` with the shorctut :kbd:`Alt-P`
 
-Pinning is most effective when using the Unwrap method of UV mapping, for organic objects. An example is when you are modeling a symmetrical object using the :doc:`Mirror Modifier <modifiers/generate/mirror>`\ . Some of the UVs on the mirror axis may be shared across the mirrored counterparts. You could pin the UVs that correspond to the midline, then align them on the X axis, and they will stay in that location.
+Pinning is most effective when using the Unwrap method of UV mapping, for organic objects. An example is when you are modeling a symmetrical object using the :doc:`Mirror Modifier <modifiers/generate/mirror>`. Some of the UVs on the mirror axis may be shared across the mirrored counterparts. You could pin the UVs that correspond to the midline, then align them on the X axis, and they will stay in that location.
 
 Pinning also work great with the Live Unwrap tool. If you pin two or more UVs,
 with Live Unwrap on, dragging pinned UVs will interactively unwrap the model.
@@ -242,7 +242,7 @@ each UV unwrap is its own linked set of coordinates.
 You can lay them on top of one another, and they will onionskin
 (the bottom one will show through the top one). To grab only one though,
 :kbd:`rmb` select one of the UV coordinates,
-and use :guilabel:`Select`\ →\ :guilabel:`Linked UVs` (\ :kbd:`ctrl-L`\ )
+and use :guilabel:`Select` →\ :guilabel:`Linked UVs` (:kbd:`ctrl-L`)
 to select connected UVs, not border select because UVs from both will be selected.
 
 
@@ -345,14 +345,14 @@ and painting could thus be different for each side of the face, which is more re
 Average Island Scale
 --------------------
 
-Using the :guilabel:`Average Island Scale` tool, shortcut :kbd:`ctrl-A`\ ,
+Using the :guilabel:`Average Island Scale` tool, shortcut :kbd:`ctrl-A`,
 will scale each UV island so that they are all approximately the same scale.
 
 
 Packing Islands
 ---------------
 
-The :guilabel:`Pack Islands` tool, shortcut :kbd:`ctrl-P`\ , will uniformly scale,
+The :guilabel:`Pack Islands` tool, shortcut :kbd:`ctrl-P`, will uniformly scale,
 then individually transform each Island so that they fill up the UV space as much as possible.
 This is an important tool for efficiently making use of the texture space.
 

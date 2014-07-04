@@ -19,11 +19,11 @@ Bands are generated based on the sine, saw, or triangular formulae and noise tur
 Options
 -------
 
-:guilabel:`Soft`\ /\ :guilabel:`Sharp`\ /\ :guilabel:`Sharper`
+:guilabel:`Soft` / :guilabel:`Sharp` / :guilabel:`Sharper`
    Three presets for soft to more clearly defined :guilabel:`Marble`
-:guilabel:`Sin`\ /\ :guilabel:`Saw`\ /\ :guilabel:`Tri`
+:guilabel:`Sin` / :guilabel:`Saw` / :guilabel:`Tri`
    Shape of wave to produce bands
-:guilabel:`Soft`\ /\ :guilabel:`Hard`
+:guilabel:`Soft` / :guilabel:`Hard`
    The noise function works with two methods.
 :guilabel:`Size`
    The dimensions of the noise table

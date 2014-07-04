@@ -18,8 +18,8 @@ Example
 
 We will begin with a very simple example - the default cube.
 
-- To judge the effect of the external forces you should at first turn off the :guilabel:`Goal`\ , so that the vertices are not retracted to their original position.
-- Press :kbd:`alt-A`\ .
+- To judge the effect of the external forces you should at first turn off the :guilabel:`Goal`, so that the vertices are not retracted to their original position.
+- Press :kbd:`alt-A`.
 
 What happens? The cube moves in negative Z-direction.
 Each of it's eight vertices is affected by a global, constant force - the gravitation.
@@ -53,7 +53,7 @@ Force Fields
 
 To create other forces you have to use another object,
 often :guilabel:`Empty` objects are used for that.
-You can use some of the forces on Soft Body vertices as on :guilabel:`Particles`\ .
+You can use some of the forces on Soft Body vertices as on :guilabel:`Particles`.
 Soft Bodies react only to:
 
 - :guilabel:`Spherical`
@@ -92,8 +92,8 @@ A goal is a shape that a soft body object tries to conform to.
 You have to confine the movement of vertices in certain parts of the mesh, e.g.
 to attach a Soft Body object at other objects. This is done with the :guilabel:`Vertex Group`
 (target). The target position is the original position of the vertex, like it would result
-from the "normal" animation of an object including :guilabel:`Shape Keys`\ ,
-:guilabel:`Hooks` and :guilabel:`Armatures`\ .
+from the "normal" animation of an object including :guilabel:`Shape Keys`,
+:guilabel:`Hooks` and :guilabel:`Armatures`.
 The vertex tries to reach it's target position with a certain, adjustable intensity.
 
 
@@ -104,11 +104,12 @@ The vertex tries to reach it's target position with a certain, adjustable intens
    Image 2b: Shock absorber description.
 
 
-Imagine the vertex is connected with it's target through a spring (\ *Image 2b*\ ).
+Imagine the vertex is connected with it's target through a spring (*Image 2b*).
+
 :guilabel:`Default`
    This parameter defines how strong the influence of this spring is. A strength of 1 means,
    that the vertex will not move as Soft Body at all, instead keep its original position. 0 :guilabel:`Goal`
-   (or no :guilabel:`Goal`\ ) means, that the vertex moves only according to Soft Body simulation.
+   (or no :guilabel:`Goal`) means, that the vertex moves only according to Soft Body simulation.
    If no vertex group is used/assigned, this numeric field is the default goal weight for all vertices.
    If a vertex group is present and assigned,
    this button instead shows an popup selector button that allows you to choose the name of the goal vertex group.
@@ -120,8 +121,8 @@ Imagine the vertex is connected with it's target through a spring (\ *Image 2b*\
    The weight of :guilabel:`Hair` particles can also be painted in :doc:`Particle Mode <physics/particles/mode>`.
 
 
-:guilabel:`Minimum`\ /\ :guilabel:`Maximum`
-   When you paint the values in vertex-groups (using :guilabel:`WeightPaint` mode), you can use the :guilabel:`G Min` and :guilabel:`G Max` to fine-tune (clamp) the weight values. The lowest vertex-weight (blue) will become :guilabel:`G Min`\ , the highest value (red) becomes :guilabel:`G Max` (please note that the blue-red color scale may be altered by User Preferences).
+:guilabel:`Minimum` / :guilabel:`Maximum`
+   When you paint the values in vertex-groups (using :guilabel:`WeightPaint` mode), you can use the :guilabel:`G Min` and :guilabel:`G Max` to fine-tune (clamp) the weight values. The lowest vertex-weight (blue) will become :guilabel:`G Min`, the highest value (red) becomes :guilabel:`G Max` (please note that the blue-red color scale may be altered by User Preferences).
 
 
 .. admonition:: For now all is applied to single vertices

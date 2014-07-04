@@ -27,9 +27,9 @@ and you will see.
 To enable this effect, you have to use a :guilabel:`Sun` light source. If, as usual,
 the *position* of the lamp has no importance, its *rotation* is crucial:
 it determines which hour it is. As a starting point,
-you should reset rotation of your :guilabel:`Sun` (with :kbd:`alt-R`\ , or typing **0**
-in each of the three :guilabel:`Rotation` fields :guilabel:`X`\ /\ :guilabel:`Y`\ /\ :guilabel:`Z` in
-the :guilabel:`Transform Properties` panel - :kbd:`N`\ ). This way,
+you should reset rotation of your :guilabel:`Sun` (with :kbd:`alt-R`, or typing **0**
+in each of the three :guilabel:`Rotation` fields :guilabel:`X` / :guilabel:`Y` / :guilabel:`Z` in
+the :guilabel:`Transform Properties` panel - :kbd:`N`). This way,
 you'll have a nice mid-day sun (in the tropics).
 
 Now, there are two important angles for the :guilabel:`Sky/Atmosphere` effect:
@@ -50,8 +50,8 @@ And the rotation around the Z axis determines the position of the sun around the
 In fact, to have a good idea of where the sun is in your world,
 relative to the camera in your 3D view, you should always try to have the dashed "light line"
 of the lamp crossing the center of the camera (its "focal" point), as shown in
-(\ *The dashed "light line" of the* :guilabel:`Sun` *lamp crossing the camera focal point*\ ).
-This way, in camera view (\ :kbd:`pad0`\ , center window in the example picture),
+(*The dashed "light line" of the* :guilabel:`Sun` *lamp crossing the camera focal point*).
+This way, in camera view (:kbd:`pad0`, center window in the example picture),
 you will see where the "virtual" sun created by this effect will be.
 
 It is important to understand that the *position* of the sun has no importance for the
@@ -62,11 +62,11 @@ The position just might help you in your scene design.
 Options
 =======
 
-:guilabel:`Sun & Sky Presets`\ :
+:guilabel:`Sun & Sky Presets`:
 
-- :guilabel:`Classic`\ :
-- :guilabel:`Desert`\ :
-- :guilabel:`Mountain`\ :
+- :guilabel:`Classic`:
+- :guilabel:`Desert`:
+- :guilabel:`Mountain`:
 
 
 Sky
@@ -76,7 +76,11 @@ Sky
    This button enables the sky settings: it will create a "sky", with a "sun" if visible, and mix it with the background as defined in :guilabel:`World` settings.
 
 :guilabel:`Turbidity`
-   This is a general parameter that affects sun view, sky and atmosphere; it's an atmosphere parameter where low values describe clear sky, and high values shows more foggy sky. In general, low values give a clear, deep blue sky, with "little" sun; high values give a more reddish sky, with a big halo around the sun. Note that this parameter is one which can really modify the "intensity" of the sun lighting. See examples below.
+   This is a general parameter that affects sun view, sky and atmosphere;
+   it's an atmosphere parameter where low values describe clear sky, and high values shows more foggy sky.
+   In general, low values give a clear, deep blue sky, with "little" sun; high values give a more reddish sky,
+   with a big halo around the sun.
+   Note that this parameter is one which can really modify the "intensity" of the sun lighting. See examples below.
 
 
 Here are its specific controls:
@@ -88,51 +92,51 @@ Here are its specific controls:
           Controls how much the sky and sun effect is applied to the World background.
 
 :guilabel:`Color space`
-    These buttons allows you to select which color space the effect uses, with the following choices:
+   These buttons allows you to select which color space the effect uses, with the following choices:
 
    - :guilabel:`CIE`
    - :guilabel:`REC709`
    - :guilabel:`SMPTE`
    - :guilabel:`Exposure`
 
-          This numeric field allows you to modify the exposure of the rendered Sky and Sun (\ **0.0** for no correction).
+          This numeric field allows you to modify the exposure of the rendered Sky and Sun (**0.0** for no correction).
 
 :guilabel:`Horizon`
 
 - :guilabel:`Brightness`
 
-          Controls brightness of colors at the horizon. Its value should be in the range **0.0** to **10.0**\ ; values near zero means no horizontal brightness, and large values for this parameter increase horizon brightness. See examples below.
+          Controls brightness of colors at the horizon. Its value should be in the range **0.0** to **10.0**; values near zero means no horizontal brightness, and large values for this parameter increase horizon brightness. See examples below.
 
 - :guilabel:`Spread`
 
-          Controls spread of light at the horizon. Its value should be in the range **0.0** to **10.0**\ ; values low in the range result in less spread of light at horizon, and values high in the range result in horizon light spread in through all the sky.
+          Controls spread of light at the horizon. Its value should be in the range **0.0** to **10.0**; values low in the range result in less spread of light at horizon, and values high in the range result in horizon light spread in through all the sky.
 
 :guilabel:`Sun`
 
 - :guilabel:`Brightness`
 
-          Controls the sun brightness. Its value should be in the range **0.0** to **10.0**\ ; with low values the sky has no sun and with high values the sky only has sun.
+          Controls the sun brightness. Its value should be in the range **0.0** to **10.0**; with low values the sky has no sun and with high values the sky only has sun.
 
 - :guilabel:`Size`
 
-          Controls the size of sun. Its values should be in the range **0.0** to **10.0**\ , but note that low values result in large sun size, and high values result in small sun size. Note that the overall brightness of the sun remains constant (set by :guilabel:`Brightness`\ ), so the larger the sun (the smaller :guilabel:`Size`\ ), the more it "vanishes" in the sky, and *vice versa*\ .
+          Controls the size of sun. Its values should be in the range **0.0** to **10.0**, but note that low values result in large sun size, and high values result in small sun size. Note that the overall brightness of the sun remains constant (set by :guilabel:`Brightness`), so the larger the sun (the smaller :guilabel:`Size`), the more it "vanishes" in the sky, and *vice versa*.
 
 - :guilabel:`Back Light`
 
-          For "Back Scatter Light", result on sun's color, high values result in more light around the sun. Its values range is **-1.0** to **1.0**\ . Negative values result in less light around sun.
+          For "Back Scatter Light", result on sun's color, high values result in more light around the sun. Its values range is **-1.0** to **1.0**. Negative values result in less light around sun.
 
 
 Atmosphere
 ----------
 
 :guilabel:`Atmosphere`
-    This button enables the atmosphere settings. It will not modify the background, but it tries to simulate the effects of an atmosphere: scattering of the sunlight in the atmosphere, its attenuation, …
+   This button enables the atmosphere settings. It will not modify the background, but it tries to simulate the effects of an atmosphere: scattering of the sunlight in the atmosphere, its attenuation, …
 
 :guilabel:`Intensity`
 
 - :guilabel:`Sun`
 
-          Sets sun intensity. Its values are in range **0.0** to **10.0**\ . High values result in  bluer light on far objects.
+          Sets sun intensity. Its values are in range **0.0** to **10.0**. High values result in  bluer light on far objects.
 
 - :guilabel:`Distance`
 
@@ -146,7 +150,7 @@ Atmosphere
 
 - :guilabel:`Extinction`
 
-          This factor can be use to decrease the effect of extinction light from objects in the scene. Like :guilabel:`Inscattering` factor, this parameter should be **1.0** but you can change it; low values result in less light extinction. Its value is in the range **0.0** to **1.0**\ .
+          This factor can be use to decrease the effect of extinction light from objects in the scene. Like :guilabel:`Inscattering` factor, this parameter should be **1.0** but you can change it; low values result in less light extinction. Its value is in the range **0.0** to **1.0**.
 
 
 Examples
@@ -168,13 +172,13 @@ First, let's see what happens when we modify the orientation of the sun:
 +                                                                                                                                                            |                                                                            +
 +   Sun slightly above the horizon (start of twilight).                                                                                                      |   Sun slightly below the horizon (end of twilight).                        +
 +------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------+
-+Variations in :guilabel:`Sun` orientation, :guilabel:`Sun Size` to **5.0**\ , all other settings to default.                                                                                                                             +
++Variations in :guilabel:`Sun` orientation, :guilabel:`Sun Size` to **5.0**, all other settings to default.                                                                                                                               +
 +------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------+
-+`The 2.4 .blend file of these examples <http://wiki.blender.org/index.php/Media:Manual-Lighting-Lamps-Sun-SkyAtmosphere-Examples-SunOrientation.blend>`__\ .                                                                             +
++`The 2.4 .blend file of these examples <http://wiki.blender.org/index.php/Media:Manual-Lighting-Lamps-Sun-SkyAtmosphere-Examples-SunOrientation.blend>`__.                                                                               +
 +------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------+
 
 
-And now, the effects of various settings (examples created with `this 2.4 .blend file <http://wiki.blender.org/index.php/Media:Manual-Lighting-Lamps-Sun-SkyAtmosphere-Examples-Settings.blend>`__\ ):
+And now, the effects of various settings (examples created with `this 2.4 .blend file <http://wiki.blender.org/index.php/Media:Manual-Lighting-Lamps-Sun-SkyAtmosphere-Examples-Settings.blend>`__):
 
 
 +-----------------------------------------------------------------------------+-----------------------------------------------------------------------------+
@@ -278,15 +282,15 @@ Sky
 +                                                                                                                   |                                                                                  +
 +   Back Light: 0.33.                                                                                               |   Back Light: 1.0.                                                               +
 +-------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
-+Variations in :guilabel:`Back Light` parameter, :guilabel:`Sun Bright` to **2.5**\ , all other settings to default.                                                                                   +
++Variations in :guilabel:`Back Light` parameter, :guilabel:`Sun Bright` to **2.5**, all other settings to default.                                                                                     +
 +-------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
 
 
 Atmosphere
 ----------
 
-For all renders below, :guilabel:`Hor.Bright` is set to **0.2**\ ,
-and :guilabel:`Sun Bright` to **2.0**\ .
+For all renders below, :guilabel:`Hor.Bright` is set to **0.2**,
+and :guilabel:`Sun Bright` to **2.0**.
 
 
 +------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
@@ -360,7 +364,7 @@ and :guilabel:`Sun Bright` to **2.0**\ .
 Hints and limitations
 =====================
 
-To always have the :guilabel:`Sun` pointing at the camera center, you can use a :doc:`TrackTo constraint <constraints/tracking/track_to>` on the sun object, with the camera as target, and :guilabel:`-Z` as the "To" axis (use either :guilabel:`X` or :guilabel:`Y` as "Up" axis). This way, to modify height/position of the sun in the rendered picture, you just have to move it; orientation is automatically handled by the constraint. Of course, if your camera itself is moving, you should also add e.g. a :doc:`Copy Location constraint <constraints/transform/copy_location>` to your :guilabel:`Sun` lamp, with the camera as target - and the :guilabel:`Offset` option activated… This way, the sun light won't change as the camera moves around.
+To always have the :guilabel:`Sun` pointing at the camera center, you can use a :doc:`TrackTo constraint <constraints/tracking/track_to>` on the sun object, with the camera as target, and :guilabel:`-Z` as the "To" axis (use either :guilabel:`X` or :guilabel:`Y` as "Up" axis). This way, to modify height/position of the sun in the rendered picture, you just have to move it; orientation is automatically handled by the constraint. Of course, if your camera itself is moving, you should also add e.g. a :doc:`Copy Location constraint <constraints/transform/copy_location>` to your :guilabel:`Sun` lamp, with the camera as target - and the :guilabel:`Offset` option activated… This way, the sun light won't change as the camera moves around.
 
 If you use the default :guilabel:`Add` mixing type,
 you should use a very dark-blue world color, to get correct "nights"…

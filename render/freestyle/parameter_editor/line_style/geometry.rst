@@ -39,7 +39,7 @@ geometry. It has two sets of independent options/effects:
 
 
 :guilabel:`Start` and :guilabel:`End`
-   These two options add the given amount of offset to the start (or end) point of the stroke, along the (2D) normal at those points. The effect is blended over the whole stroke, so if you, for example, set only :guilabel:`Start` to **50**\ , the start of the stroke is offset 50 pixels along its normal, the middle of the stroke, 25 pixels along its own normal, and the end point isn't moved.
+   These two options add the given amount of offset to the start (or end) point of the stroke, along the (2D) normal at those points. The effect is blended over the whole stroke, so if you, for example, set only :guilabel:`Start` to **50**, the start of the stroke is offset 50 pixels along its normal, the middle of the stroke, 25 pixels along its own normal, and the end point isn't moved.
 
 :guilabel:`X` and :guilabel:`Y`
    These two options simply add a constant horizontal and/or vertical offset to the whole stroke.
@@ -59,6 +59,7 @@ The :guilabel:`2D Transform` modifier applies two-dimensional scaling and/or rot
 stroke backbone geometry. Scale is applied before rotation.
 
 The center (pivot point) of these 2D transformations can be:
+
 :guilabel:`Stroke Center`
    The median point of the stroke.
 :guilabel:`Stroke Start`
@@ -66,9 +67,9 @@ The center (pivot point) of these 2D transformations can be:
 :guilabel:`Stroke End`
    The end point of the stroke.
 :guilabel:`Stroke Point Parameter`
-   The :guilabel:`Stroke Point Parameter` factor controls where along the stroke the pivot point is (\ **0.0** means start point; **1.0** end point).
+   The :guilabel:`Stroke Point Parameter` factor controls where along the stroke the pivot point is (**0.0** means start point; **1.0** end point).
 :guilabel:`Absolute 2D Point`
-   The :guilabel:`Pivot X` and :guilabel:`Pivot Y` allows you to define the position of the pivot point in the final render (from the bottom left corner). **WARNING**\ : Currently, you have to take into account the *real* render size, i.e. resolution **and** resolution percentage!
+   The :guilabel:`Pivot X` and :guilabel:`Pivot Y` allows you to define the position of the pivot point in the final render (from the bottom left corner). **WARNING** : Currently, you have to take into account the *real* render size, i.e. resolution **and** resolution percentage!
 
 :guilabel:`Scale X` and :guilabel:`Scale Y`
    The scaling factors, in their respective axes.
@@ -140,7 +141,7 @@ of free-hand drawing to capture the silhouette of objects with a simple shape su
 ellipses and squares.
 
 :guilabel:`Shape`
-   Which base shapes to use for this blueprint: :guilabel:`Circles`\ , :guilabel:`Ellipses` or :guilabel:`Squares`\ .
+   Which base shapes to use for this blueprint: :guilabel:`Circles`, :guilabel:`Ellipses` or :guilabel:`Squares`.
 
 :guilabel:`Rounds`
    How many rounds are generated, as if the pen draws the same stroke several times (i.e. how many times the process is repeated).
@@ -210,7 +211,7 @@ The :guilabel:`Perlin Noise 1D` modifier adds one-dimensional Perlin noise to th
 
 :guilabel:`Angle`
 
-   In which direction the noise is applied (\ **0.0- ** is fully horizontal).
+   In which direction the noise is applied (**0.0- ** is fully horizontal).
 
 
 Perlin Noise 2D

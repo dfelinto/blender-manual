@@ -34,7 +34,7 @@ completing the file load dialog is regarded as being enough confirmation that yo
 Using the File Browser and Folder Navigation
 --------------------------------------------
 
-To load a Blender file from disk, press :kbd:`F1`\ . The :guilabel:`File Browser` window,
+To load a Blender file from disk, press :kbd:`F1`. The :guilabel:`File Browser` window,
 as shown above, will open.
 
 The upper text box displays the current directory path,
@@ -54,7 +54,7 @@ Side Panel
 ----------
 
 The panel on the left displays different ways to find files and several options.
-To load a file, select it with :kbd:`lmb` and then press :kbd:`enter`\ ,
+To load a file, select it with :kbd:`lmb` and then press :kbd:`enter`,
 or click the :guilabel:`Open File` button.
 A file can also be loaded by simply clicking :kbd:`mmb` over its name.
 
@@ -79,8 +79,8 @@ Recent
 ~~~~~~
 
 This is a list of recently accessed folders. You can control how many folders appear in this
-list by going to the :guilabel:`File` tab of the user :guilabel:`Preferences`\ ,
-in the box labeled :guilabel:`Recent Files`\ .
+list by going to the :guilabel:`File` tab of the user :guilabel:`Preferences`,
+in the box labeled :guilabel:`Recent Files`.
 
 
 Open Options
@@ -89,7 +89,7 @@ Open Options
 Inside each .blend file, Blender saves the user interface - the screen layouts. By default,
 this saved UI is loaded, overriding any user defaults or current screen layouts that you have.
 If you want to work on the blend file using your current defaults, start a fresh Blender,
-then open the file browser (\ :kbd:`F1`\ ). Turn off the :guilabel:`Load UI` button,
+then open the file browser (:kbd:`F1`). Turn off the :guilabel:`Load UI` button,
 and then open the file.
 
 

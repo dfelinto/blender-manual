@@ -24,13 +24,13 @@ Parenting objects
 
 
 To parent objects, select at least two objects (select the *Child Objects* first,
-and select the *Parent Object* last), and press :kbd:`ctrl-P`\ . The  :guilabel:`Set
+and select the *Parent Object* last), and press :kbd:`ctrl-P`. The  :guilabel:`Set
 Parent To` dialog will pop up allowing you to select from one of several possible different
 parenting types. Selecting one of the entries in :guilabel:`Set Parent To` confirms,
 and the child/children to parent relationship is created.
 
 The last object selected will be the *Active Object* (outlined in light orange),
-and will also be the *Parent Object*\ .
+and will also be the *Parent Object*.
 If you selected multiple objects before selecting the parent,
 they will all be children of the parent and will be at the same level of the hierarchy
 (they are "siblings").
@@ -49,7 +49,7 @@ moving/rotating/scaling. In other words,
 the direction of influence is from parent to child and not child to parent.
 
 In general when using the :kbd:`ctrl-P` or [3D View Editor Header > Object Menu > Parent
-Menu] entires to parent objects, the *Child Objects* can only have one *Parent Object*\ .
+Menu] entires to parent objects, the *Child Objects* can only have one *Parent Object*.
 If a *Child Object* already has a *Parent Object* and you give it another parent then
 Blender will automatically remove the previous parent relationship.
 
@@ -82,13 +82,13 @@ FIXME(Tag Unsupported:ul;
 Object Parent
 -------------
 
-*Object Parent* is the most general form of parenting that Blender supports.  If will take selected objects and make the last selected object the *Parent Object*\ , while all other selected objects will be *Child Objects*\ .
+*Object Parent* is the most general form of parenting that Blender supports.  If will take selected objects and make the last selected object the *Parent Object*, while all other selected objects will be *Child Objects*.
 
 
 Object (Keep Transform) Parent
 ------------------------------
 
-*Object (Keep Transform) Parent* works in a very similar way to *Object Parent* the major difference is in whether the *Child Objects* will remember any previous transformations applied to them from the previous *Parent Object*\ .
+*Object (Keep Transform) Parent* works in a very similar way to *Object Parent* the major difference is in whether the *Child Objects* will remember any previous transformations applied to them from the previous *Parent Object*.
 
 Since explaining this in an easy to understand technical way is hard,
 lets instead use an example to demonstrate.
@@ -146,8 +146,8 @@ removed, because "EmptyB" has not had its scale altered.
 
 This is often the required behaviour, but it is also sometimes useful that if you change your
 *Parent Object* that the *Child Object* keep any previous transformations it got from the
-old *Parent Object*\ ;  If instead when changing the *Parent Object* of the Monkey from
-"EmptyA" to "EmptyB" we had chosen parenting type *Object (Keep Transform)*\ , the Monkey
+old *Parent Object*;  If instead when changing the *Parent Object* of the Monkey from
+"EmptyA" to "EmptyB" we had chosen parenting type *Object (Keep Transform)*, the Monkey
 would keep its scale information it obtained from the old parent "EmptyA" when it is assigned
 to the new parent "EmptyB";  See Figure 4.
 
@@ -684,7 +684,7 @@ ______________________________
 Vertex parenting can be performed from object mode,
 This is done like regular object parenting,
 Press :kbd:`ctrl-P` in object mode and select :guilabel:`Vertex` or :guilabel:`Vertex
-(Triangle)`\ .
+(Triangle)`.
 
 The nearest vertices will be used from each object which is typically what you would want.
 
@@ -717,7 +717,7 @@ Move child
 
 You can *move* a child object to its parent by clearing its origin.
 The relationship between the parent and child isn't affected.
-Select the child object and press :kbd:`alt-O`\ .
+Select the child object and press :kbd:`alt-O`.
 By confirming the dialog the child object will snap to the parent's location.
 Use the :guilabel:`Outliner` view to verify that the child object is still parented.
 
@@ -733,6 +733,7 @@ Remove relationship/Clear Parent
 You can *remove* a parent-child relationship via :kbd:`alt-P`
 
 The menu contains:
+
 :guilabel:`Clear Parent`
    If the parent in the group is selected nothing is done. If a child or children are selected they are disassociated from the parent, or freed, and they return to their *original* location, rotation, and size.
 
@@ -757,13 +758,13 @@ Parenting Example
    Parenting Example
 
 
-The active object, in yellow (cube ``A``\ ),
-will be made the parent of all the other object(s) in the group (orange cube ``B``\ ).
+The active object, in yellow (cube ``A``),
+will be made the parent of all the other object(s) in the group (orange cube ``B``).
 The center(s) of all children object(s)
 are now linked to the center of the parent by a dashed line; see image
-(\ *Parenting Example*\ ).
-The parent object is cube "\ ``A``\ " and the child object is cube "\ ``B``\ ".
-The link is labeled "\ ``L``\ ".
+(*Parenting Example*).
+The parent object is cube "\ ``A`` " and the child object is cube "\ ``B`` ".
+The link is labeled "\ ``L`` ".
 
 At this point, grabbing, rotating,
 and scaling transformations to the parent will do the same to the children.
@@ -779,7 +780,7 @@ Hints
    Outliner view
 
 
-There is another way to see the parent-child relationship in groups and that is to use the :guilabel:`Outliner` view of the :doc:`Outliner window <data_system/the_outliner>`\ . Image (\ :guilabel:`Outliner` *view*\ ) is an example of what the :guilabel:`Outliner` view looks like for the (\ *Parenting Example*\ ). Cube "\ ``A``\ "'s object name is "\ ``Cube_Parent``\ " and cube "\ ``B``\ " is "\ ``Cube_Child``\ ".
+There is another way to see the parent-child relationship in groups and that is to use the :guilabel:`Outliner` view of the :doc:`Outliner window <data_system/the_outliner>`. Image (:guilabel:`Outliner` *view*) is an example of what the :guilabel:`Outliner` view looks like for the (*Parenting Example*). Cube "\ ``A`` "'s object name is "\ ``Cube_Parent`` " and cube "\ ``B`` " is "\ ``Cube_Child`` ".
 
 
 Separating Objects
@@ -822,7 +823,7 @@ Group objects together without any kind of transformation relationship.
 Use groups to just logically organize your scene,
 or to facilitate one-step appending or linking between files or across scenes.
 Objects that are part of a group always shows as light green when selected; see image
-(\ *Grouped objects*\ ).
+(*Grouped objects*).
 
 
 Options
@@ -838,13 +839,13 @@ Creating a Group
 
 
 Naming a Group
-   All groups that an object has been assigned to are listed in the :guilabel:`Object Properties Panel`\ 's :guilabel:`Relations` panel.  To rename a group, simply click in the groups name field.
-    To name groups in the :guilabel:`Outliner` window, select :guilabel:`Groups` as the outliner display from the header combo box, and :kbd:`ctrl-lmb` click on the group name. The name will change to an editable field; make your changes and press :kbd:`enter`\ .
+   All groups that an object has been assigned to are listed in the :guilabel:`Object Properties Panel` 's :guilabel:`Relations` panel.  To rename a group, simply click in the groups name field.
+   To name groups in the :guilabel:`Outliner` window, select :guilabel:`Groups` as the outliner display from the header combo box, and :kbd:`ctrl-lmb` click on the group name. The name will change to an editable field; make your changes and press :kbd:`enter`.
 Restricting Group Contents via Layers
    The cluster of layer buttons attached to each group determines from which layers the group objects will be included when duplicated. If your group contains objects on layers 10, 11 and 12, but you disable the layer 12 button in the group controls, duplicates of that group (using the :doc:`Dupligroup <modeling/objects/duplication/dupligroup>` feature) will only show the portions of the group that reside in layers 10 and 11.
 
 Appending or Linking Groups
-   To append a group from another .blend file, consult :doc:`this page <data_system/linked_libraries>`\ . In summary, :guilabel:`File` → :guilabel:`Append or Link` → ``filename`` → :guilabel:`Group` → ``groupname``\ .
+   To append a group from another .blend file, consult :doc:`this page <data_system/linked_libraries>`. In summary, :guilabel:`File` → :guilabel:`Append or Link` → ``filename`` → :guilabel:`Group` → ``groupname``.
 
 Removing Groups
    To remove a object from a group, under the object context button, open the "Groups" pane. Find the name of the group from which you wish to remove the object, and click the x to the right of the group name.

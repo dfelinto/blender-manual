@@ -9,7 +9,7 @@ The video and image files can be loaded from the internet using an URL instead o
 In addition, you can apply filters on the images before sending them to the GPU,
 allowing video effect: blue screen, color band, gray, normal map.
 ``VideoTexture`` uses FFmpeg to load images and videos.
-All the formats and codecs that FFmpeg supports are supported by ``VideoTexture``\ ,
+All the formats and codecs that FFmpeg supports are supported by ``VideoTexture``,
 including but not limited to:
 
 - AVI
@@ -25,7 +25,7 @@ including but not limited to:
 Changes to VideoTexture in Blender 2.6
 --------------------------------------
 
-The ``VideoTexture`` module is now simply called ``bge.texture``\ .
+The ``VideoTexture`` module is now simply called ``bge.texture``.
 
 
 How it works
@@ -48,10 +48,10 @@ you must have objects with textures applied appropriately.
 
 Imagine you want to have a television showing live broadcast programs in the game. You will
 create a television object and UV-apply a different texture at the place of the screen,
-for example "\ ``tv.png``\ ". What this texture looks like is not important;
+for example "\ ``tv.png`` ". What this texture looks like is not important;
 probably you want to make it dark grey to simulate power-off state.
 When the television must be turned on, you create a dynamic texture from a video capture card
-and use it instead of ``tv.png``\ : the TV screen will come to life.
+and use it instead of ``tv.png``: the TV screen will come to life.
 
 You have two ways to define textures that ``VideoTexture`` can grab:
 
@@ -85,7 +85,7 @@ retrieve the object reference:
    if not hasattr(GameLogic, 'video'):
 
 
-The check on "\ ``video``\ " attribute is just a trick to make sure we create the texture
+The check on "\ ``video`` " attribute is just a trick to make sure we create the texture
 only once.
 
 
@@ -100,8 +100,8 @@ Find material
 
 ``VideoTexture.materialID()`` is a handy function to retrieve the object material that is using ``video.png`` as texture. This method will work with Blender material and UV texture. In case of UV texture, it grabs the internal material corresponding to the faces that are assigned to this texture. In case of Blender material, it grabs the material that has an image texture channel matching the name as first channel.
 
-The "\ ``IM``\ " prefix indicates that we're searching for a texture name but we can also
-search for a material by giving the "\ ``MA``\ " prefix. For example,
+The "\ ``IM`` " prefix indicates that we're searching for a texture name but we can also
+search for a material by giving the "\ ``MA`` " prefix. For example,
 if we want to find the material called ``VideoMat`` on this object, the code becomes:
 ::
 
@@ -118,10 +118,10 @@ Create texture
    The game object.
 
 ``materialID``
-   Material index as returned by ``VideoTexture.materialID()``\ , 0 = first material by default.
+   Material index as returned by ``VideoTexture.materialID()``, 0 = first material by default.
 
 ``textureID``
-   Texture index in case of multi-texture channel, 0 = first channel by default.
+   Texture index in case of multi-texture channel, 0 = first channel by default.
    In case of UV texture, this parameter should always be 0.
 
 ``textureObj``
@@ -137,7 +137,7 @@ Create texture
 Make texture persistent
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Note that we have assigned the object to a ``GameLogic`` "\ ``video``\ "
+Note that we have assigned the object to a ``GameLogic`` "\ ``video`` "
 attribute that we create for the occasion.
 The reason is that the ``Texture`` object must be persistent across the game scripts.
 A local variable would be deleted at the end of the script and the GPU texture deleted at the
@@ -149,7 +149,7 @@ Create a source
 
 Now we have a ``Texture`` object but it can't do anything because it does not have
 any source. We must create a source object from one of the possible sources available in
-``VideoTexture``\ :
+``VideoTexture``:
 
 ``VideoFFmpeg``
    Moving pictures.
@@ -210,24 +210,24 @@ Setup the source
 The ``VideoFFmpeg`` source has several attributes to control the movie playback:
 
 ``range``
-   [start,stop] (\ *floats*\ ).
+   [start,stop] (*floats*).
    Set the start and stop time of the video playback, expressed in seconds from beginning. By default the entire video.
 
 ``repeat``
-   (\ *integer*\ ).
+   (*integer*).
    Number of video replay, -1 for infinite.
 
 ``framerate``
-   (\ *float*\ ).
+   (*float*).
    Relative frame rate, <1.0 for slow, >1.0 for fast.
 
 ``scale``
-   (\ *bool*\ ).
+   (*bool*).
    Set to True to activate fast nearest neighbour scaling algorithm.
    Texture width and height must be a power of 2. If the video picture size is not a power of 2, rescaling is required. By default ``VideoTexture`` uses the precise but slow ``gluScaleImage()`` function. Best is to rescale the video offline so that no scaling is necessary at runtime!
 
 ``flip``
-   (\ *bool*\ ).
+   (*bool*).
    Set to True if the image must be vertically flipped.
    FFmpeg always delivers the image upside down, so this attribute is set to True by default.
 
@@ -273,7 +273,7 @@ For video playback, you definitively want to set it to True.
 Checking video status
 ~~~~~~~~~~~~~~~~~~~~~
 
-Video source classes (such as VideoFFMpeg) have an attribute ``status``\ .
+Video source classes (such as VideoFFMpeg) have an attribute ``status``.
 If video is playing, its value is 2, if it's stopped, it's 3. So in our example:
 ::
 
@@ -345,9 +345,9 @@ You can replace with another other file that you want to run the demo.
 Here is a `demo <http://www.graphicall.org/ftp/ben2610/VideoTextureDemo2videoMix.blend>`__
 that demonstrates the use of the ``ImageMix`` source.
 ``ImageMix`` is a source that needs sources,
-which can be any other ``Texture`` source, like ``VideoFFmpeg``\ ,
-``ImageFFmpeg`` or ``ImageRender``\ . You set them with ``setSource
-()`` and their relative weight with ``setWeight()``\ .
+which can be any other ``Texture`` source, like ``VideoFFmpeg``,
+``ImageFFmpeg`` or ``ImageRender``. You set them with ``setSource
+()`` and their relative weight with ``setWeight()``.
 Pay attention that the weight is a short number between 0 and 255,
 and that the sum of all weights should be 255.
 ``ImageMix`` makes a mix of all the sources according to their weights.

@@ -28,6 +28,7 @@ Options
 
 :guilabel:`Targets`
    This constraint uses one target, and is not functional (red state) when it has none.
+
    :guilabel:`Bone`
       When :guilabel:`Target` is an armature, a new field for a bone is displayed.
    :guilabel:`Vertex Group`
@@ -42,10 +43,10 @@ Options
 :guilabel:`Offset`
    This numeric field allows you to offset the "floor" plane from the target's center, by the given number of Blender Units. Use it e.g. to account for the distance from a foot bone to the surface of the foot's mesh.
 
-:guilabel:`Max`\ /\ :guilabel:`Min`
+:guilabel:`Max` / :guilabel:`Min`
    This set of (mutually exclusive) buttons controls which plane will be the "floor". The buttons' names correspond indeed to the *normal* to this plane (e.g. enabling :guilabel:`Z` means "XY plane", etc.)
-    By default, these normals are aligned with the *global* axes. However, if you enable :guilabel:`Use Rotation` (see above), they will be aligned with the *local target's axes*\ .
-    As the constraint does not only define an uncrossable plane, but also a side of it which is forbidden to the owner, you can choose which side by enabling either the positive or negative normal axis… E.g, by default (\ :guilabel:`Z`\ ), the owner is stuck in the positive Z coordinates.
+   By default, these normals are aligned with the *global* axes. However, if you enable :guilabel:`Use Rotation` (see above), they will be aligned with the *local target's axes*.
+   As the constraint does not only define an uncrossable plane, but also a side of it which is forbidden to the owner, you can choose which side by enabling either the positive or negative normal axis… E.g, by default (:guilabel:`Z`), the owner is stuck in the positive Z coordinates.
 
 :guilabel:`Space`
    This constraint allows you to choose in which space to evaluate its owner's and target's transform properties.

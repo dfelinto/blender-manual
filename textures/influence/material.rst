@@ -30,7 +30,7 @@ _______
 :guilabel:`Color`
    Amount texture affect the basic color or RGB value of the material
 :guilabel:`Alpha`
-   Influences the opacity of the material. See :doc:`Use Alpha for Object Transparency <ls/textures/use_alpha_for_object_transparency>`\ . Also use :guilabel:`Z Transparency` for light and if combining multiple channels.
+   Influences the opacity of the material. See :doc:`Use Alpha for Object Transparency <ls/textures/use_alpha_for_object_transparency>`. Also use :guilabel:`Z Transparency` for light and if combining multiple channels.
 :guilabel:`Translucency`
    Influences the Translucency amount.
 
@@ -67,7 +67,7 @@ ________
 :guilabel:`Warp`
    :guilabel:`Warp` allows textures to influence/distort the texture coordinates of a next texture channel. The distortion remains active over all subsequent channels, until a new Warp has been set. Setting the factor at zero cancels out the effect.
 :guilabel:`Displace`
-   Influences the Displacement of vertices, for using :doc:`Displacement Maps <textures/influence/material/displacement>`\ .
+   Influences the Displacement of vertices, for using :doc:`Displacement Maps <textures/influence/material/displacement>`.
 
 
 Other Controls
@@ -90,14 +90,15 @@ Other Controls
 - The :guilabel:`Emit` value is normally 0. With a texture mapped to :guilabel:`Emit` you will get maximal effect, because :guilabel:`DVar` is 1 by default. If you set :guilabel:`DVar` to 0 no texture will have any effect.
 
 
-- If you want transparent material, and use a texture mapped to :guilabel:`Alpha`\ , nothing happens with the default settings, because the :guilabel:`Alpha` value in the :guilabel:`Material` panel is 1. So you have to set :guilabel:`DVar` to 0 to get transparent material (and of course :guilabel:`Z Transparency` also). This is a common problem for beginners. Or do it the other way round - set :guilabel:`Alpha` to 0 and leave :guilabel:`Dvar` on 1. Of course the texture is used inverted then.
+- If you want transparent material, and use a texture mapped to :guilabel:`Alpha`, nothing happens with the default settings, because the :guilabel:`Alpha` value in the :guilabel:`Material` panel is 1. So you have to set :guilabel:`DVar` to 0 to get transparent material (and of course :guilabel:`Z Transparency` also). This is a common problem for beginners. Or do it the other way round - set :guilabel:`Alpha` to 0 and leave :guilabel:`Dvar` on 1. Of course the texture is used inverted then.
 
 :guilabel:`Bump Mapping`
    Settings for bump mapping.
    :guilabel:`Method`
-   :guilabel:`Best Quality`\ , :guilabel:`Default`\ , :guilabel:`Compatible`\ , :guilabel:`Original`
+   :guilabel:`Best Quality`, :guilabel:`Default`, :guilabel:`Compatible`, :guilabel:`Original`
    :guilabel:`Space`
-      :guilabel:`Texture Space`\ , :guilabel:`Object Space`\ , :guilabel:`View Space`
+
+      :guilabel:`Texture Space`, :guilabel:`Object Space`, :guilabel:`View Space`
 
 
 Volume materials
@@ -111,6 +112,7 @@ Volume materials
 
 
 Special texture options for :guilabel:`Volume` materials
+
 :guilabel:`Density`
    Causes the texture to affect the volume's density.
 :guilabel:`Emission`
@@ -138,6 +140,7 @@ Halo materials
 
 
 Special texture options for :guilabel:`Halo` materials
+
 :guilabel:`Size`
    Amount the texture affects ray mirror.
 :guilabel:`Hardness`

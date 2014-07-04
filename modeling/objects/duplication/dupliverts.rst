@@ -11,7 +11,7 @@ DupliVerts
 
 :guilabel:`Duplication Vertices` or :guilabel:`DupliVerts` is the duplication of a base object at the location of the vertices of a mesh. In other words, when using :guilabel:`DupliVerts` on a mesh, an instance of the base object is placed on every vertex of the mesh.
 
-There are actually two approaches to modeling using :guilabel:`DupliVerts`\ .
+There are actually two approaches to modeling using :guilabel:`DupliVerts`.
 They can be used as an arranging tool,
 allowing us to model geometrical arrangements of objects (e.g. the columns of a Greek temple,
 the trees in a garden, an army of robot soldiers, the desks in a classroom).
@@ -24,7 +24,7 @@ the petals in a flower).
 .. admonition:: Download example .blend file
    :class: note
 
-   You can download a file with the examples described on this page.  In `this .blend <http://wiki.blender.org/index.php/:File:Manual-2.5-DupliVerts-Examples.blend>`__\ , the first example, a monkey parented to a circle is on layer 1; while a tentacle parented to an icosphere is on layer 2.  The files was made using Blender 2.55.1 (r33567).
+   You can download a file with the examples described on this page.  In `this .blend <http://wiki.blender.org/index.php/:File:Manual-2.5-DupliVerts-Examples.blend>`__, the first example, a monkey parented to a circle is on layer 1; while a tentacle parented to an icosphere is on layer 2.  The files was made using Blender 2.55.1 (r33567).
 
 
 DupliVerts as an Arranging Tool
@@ -38,7 +38,7 @@ Setup
    A monkey head and a circle
 
 
-All you need is a base object (e.g. the *tree* or the *column*\ )
+All you need is a base object (e.g. the *tree* or the *column*)
 and a pattern mesh with its vertices following the pattern you have in mind.  In this section,
 we will use a simple scene for the following part.  We'll be using a monkey head located at
 the origin of the coordinate system as our base object and a circle at the same location as
@@ -50,7 +50,7 @@ our parent mesh.
    Dupliverted monkeys
 
 
-First, in :guilabel:`Object mode`\ ,
+First, in :guilabel:`Object mode`,
 select the base object and :kbd:`Shift-RMB` to add the circle to the selection
 (order is very important here),
 and  :kbd:`Ctrl-P` to parent the base object to the circle.  Now,
@@ -58,13 +58,13 @@ the circle is the parent of the monkey; if you move the circle, the monkey will 
 
 
 With only the circle selected, enable :guilabel:`Duplication vertices` in the
-:guilabel:`Object` panel→ :guilabel:`Duplication`\ → :guilabel:`Verts`\ .
+:guilabel:`Object` panel→ :guilabel:`Duplication` → :guilabel:`Verts`.
 A monkey head should be placed at every vertex of the circle.
 
 The original monkey head at the center and the parent mesh are still shown in the 3D view but
 neither will be rendered.  If the placement and rotation of your monkey head is odd,
-you might need to clear its rotation (\ :kbd:`Alt-R`\ ), scale :kbd:`Alt-S`\ ,
-location :kbd:`Alt-G`\ , and origin :kbd:`Alt-O`\ .
+you might need to clear its rotation (:kbd:`Alt-R`), scale :kbd:`Alt-S`,
+location :kbd:`Alt-G`, and origin :kbd:`Alt-O`.
 
 
 Rearranging
@@ -75,7 +75,7 @@ all changes will also affect the shape of all duplicate objects.
 You can also select the parent mesh to modify the arrangement of the duplicates;
 adding vertices will also add more base objects.
 Note that the base objects will inherit changes made to the parent mesh in object mode, but
-not in edit mode — so scaling the circle up in object mode will enlarge the monkey head,
+not in edit mode — so scaling the circle up in object mode will enlarge the monkey head,
 while scaling the circle up in edit mode will only increase the distance between the base
 objects.
 
@@ -94,7 +94,7 @@ This will rotate all base objects according to the vertex normals of the parent 
 
 
 To change the orientation of the duplicated objects, select the base object and in the
-:guilabel:`Object`\ → :guilabel:`Relations extras` panel change the :guilabel:`Tracking Axes`\ .
+:guilabel:`Object` → :guilabel:`Relations extras` panel change the :guilabel:`Tracking Axes`.
 
 Output of various orientations:
 
@@ -117,8 +117,8 @@ Output of various orientations:
 .. admonition:: Note
    :class: note
 
-   The axes of an object can be made visible in the :guilabel:`Object`\ → :guilabel:`Display` panel.
-   To display the vertex normals of the parent mesh, tab into edit mode and enable this function in :guilabel:`Properties` (\ :kbd:`N`\ )→ :guilabel:`Display` panel where you can also resize the displayed normals as necessary.
+   The axes of an object can be made visible in the :guilabel:`Object` → :guilabel:`Display` panel.
+   To display the vertex normals of the parent mesh, tab into edit mode and enable this function in :guilabel:`Properties` (:kbd:`N`)→ :guilabel:`Display` panel where you can also resize the displayed normals as necessary.
 
 
 DupliVerts as a Modeling Tool
@@ -151,16 +151,16 @@ was adapted to the vertex normals of the parent mesh
 
 As in the previous example, the shape and proportions of the arrangement can now be tweaked.
 
-To turn all duplicates into real objects, simply select the icosphere and :guilabel:`Object`\ →
-:guilabel:`Apply`\ → :guilabel:`Make Duplicates Real` (\ :kbd:`Ctrl-Shift-A`\ ).
+To turn all duplicates into real objects, simply select the icosphere and :guilabel:`Object` →
+:guilabel:`Apply` → :guilabel:`Make Duplicates Real` (:kbd:`Ctrl-Shift-A`).
 To make the icosphere and the tentacle a single object,
-make sure they are all selected and go to :guilabel:`Object`\ → :guilabel:`Join`
-(\ :kbd:`Ctrl-J`\ ).
+make sure they are all selected and go to :guilabel:`Object` → :guilabel:`Join`
+(:kbd:`Ctrl-J`).
 
 
 See also
 --------
 
-Other duplication methods are listed :doc:`here <modeling/objects/duplication>`\ .
+Other duplication methods are listed :doc:`here <modeling/objects/duplication>`.
 
 

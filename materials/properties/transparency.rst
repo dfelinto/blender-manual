@@ -32,13 +32,13 @@ Common Options
 The following property controls are available for all transparency options:
 
 **Alpha**
-    Sets the transparency of the material by setting all pixels in the alpha channel to the given value.
+   Sets the transparency of the material by setting all pixels in the alpha channel to the given value.
 **Fresnel**
      Sets the power of the Fresnel effect. The Fresnel effect controls how transparent the material is, depending on the angle between the surface normal and the viewing direction. Typically, the larger the angle, the more opaque a material becomes (this generally occurs on the outline of the object).
 **Specular** -
-    Controls the alpha/falloff for the specular color.
+   Controls the alpha/falloff for the specular color.
 **Blend**
-    Controls the blending between transparent and non-transparent areas. Only used if Fresnel is greater than 0.
+   Controls the blending between transparent and non-transparent areas. Only used if Fresnel is greater than 0.
 
 
 Mask
@@ -57,7 +57,7 @@ This is useful for making textures of solid or semi-transparent objects from pho
 reference material - a mask is made with alpha opaque for pixels within the object,
 and transparent for pixels outside the object.
 
-See :doc:`Mask Transparency <materials/properties/mask_transparency>`\ .
+See :doc:`Mask Transparency <materials/properties/mask_transparency>`.
 
 
 Z Buffer
@@ -120,16 +120,17 @@ Options
 In addition to the common options given above, the following property controls are available:
 
 :guilabel:`IOR`
-    Index of Refraction.  Sets how much a ray traveling through the material will be refracted, hence producing a distorted image of its background.  See
-FIXME(TODO: Internal Link;
-[[#IOR values for Common Materials|IOR values for Common Materials]]
-) below.
+   Index of Refraction.  Sets how much a ray traveling through the material will be refracted,
+   hence producing a distorted image of its background.  See
+   FIXME(TODO: Internal Link; [[#IOR values for Common Materials|IOR values for Common Materials]]) below.
 :guilabel:`Filter`
-    Amount of filtering for transparent ray trace. The higher this value, the more the base color of the material will show. The material will still be transparent but it will start to take on the color of the material. Disabled (0.0) by default.
+   Amount of filtering for transparent ray trace. The higher this value,
+   the more the base color of the material will show. The material will still be transparent but it will start to take on the color of the material. Disabled (0.0) by default.
 :guilabel:`Falloff`
-    How fast light is absorbed as it passes through the material. Gives 'depth' and 'thickness' to glass.
+   How fast light is absorbed as it passes through the material. Gives 'depth' and 'thickness' to glass.
 :guilabel:`Limit`
-    Materials thicker than this are not transparent. This is used to control the threshold after which the filter color starts to come into play.
+   Materials thicker than this are not transparent.
+   This is used to control the threshold after which the filter color starts to come into play.
 :guilabel:`Depth`
    Sets the maximum number of transparent surfaces a single ray can travel through. There is no typical value.
    Transparent objects outside the :guilabel:`Depth` range will be rendered pitch black if viewed through the
@@ -140,13 +141,14 @@ FIXME(TODO: Internal Link;
    You may also need to turn on transparent shadows on the background object.
 
 :guilabel:`Gloss`
-    Settings for the glossiness of the material.
+   Settings for the glossiness of the material.
+
    :guilabel:`Amount`
-       The clarity of the refraction. Set this to something lower than zero to get a blurry refraction.
+      The clarity of the refraction. Set this to something lower than zero to get a blurry refraction.
    :guilabel:`Threshold`
-       Threshold for adaptive sampling. If a sample contributes less than this amount (as a percentage), sampling is stopped.
+      Threshold for adaptive sampling. If a sample contributes less than this amount (as a percentage), sampling is stopped.
    :guilabel:`Samples`
-       Number of cone samples averaged for blurry refraction.
+      Number of cone samples averaged for blurry refraction.
 
 
 Examples
@@ -160,7 +162,7 @@ Index of Refraction
    Influence of the IOR of an Object on the distortion of the background: spheres of Water, Glass and Diamond (top to bottom).
 
 
-(\ *Influence of the IOR of an Object on the distortion of the background: spheres of Water, Glass  and Diamond (top to bottom).*\ ). There are different values for typical materials: Air is **1.000** (no refraction), Alcohol is **1.329**\ , Glass is **1.517**\ , Plastic is **1.460**\ , Water is **1.333** and Diamond is **2.417**\ .
+(*Influence of the IOR of an Object on the distortion of the background: spheres of Water, Glass  and Diamond (top to bottom).*). There are different values for typical materials: Air is **1.000** (no refraction), Alcohol is **1.329**, Glass is **1.517**, Plastic is **1.460**, Water is **1.333** and Diamond is **2.417**.
 
 
 Fresnel
@@ -171,7 +173,7 @@ Fresnel
 +   :width: 320px                                                                                                                                                                                                                                                                                                                                        |   :width: 320px                                                                 +
 +   :figwidth: 320px                                                                                                                                                                                                                                                                                                                                     |   :figwidth: 320px                                                              +
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+
-+16 pieces of glass rotated in various directions demonstrate the angle-dependent Fresnel effect with ray-traced (left) and alpha buffered transparency (right).  Note that the major difference is the lack of IOR effect in the latter case.  (Download `.blend <http://wiki.blender.org/index.php/:File:Manual25-Material-FresnelExample.blend>`__\ .)                                                                                  +
++16 pieces of glass rotated in various directions demonstrate the angle-dependent Fresnel effect with ray-traced (left) and alpha buffered transparency (right).  Note that the major difference is the lack of IOR effect in the latter case.  (Download `.blend <http://wiki.blender.org/index.php/:File:Manual25-Material-FresnelExample.blend>`__.)                                                                                    +
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+
 +.. figure:: /images/Manual-2.5-Material-RayTraceTransp-FresnelSettings.jpg                                                                                                                                                                                                                                                                              |.. figure:: /images/Manual-2.5-Material-RayTraceTransp-FresnelSettingsZTransp.jpg+
 +   :width: 320px                                                                                                                                                                                                                                                                                                                                        |   :width: 320px                                                                 +
@@ -196,7 +198,7 @@ Depth
    :width: 640px
    :figwidth: 640px
 
-   A simple scene with three glasses on a surface, and three lamps.  Depth was set to 4, 8, 12, and 14, resulting in render times of 24 sec, 34 sec, 6 min, and 11 min respectively. (Download `.blend <http://wiki.blender.org/index.php/:File:Manual25-Material-3GlassesExample.blend>`__\ .)
+   A simple scene with three glasses on a surface, and three lamps.  Depth was set to 4, 8, 12, and 14, resulting in render times of 24 sec, 34 sec, 6 min, and 11 min respectively. (Download `.blend <http://wiki.blender.org/index.php/:File:Manual25-Material-3GlassesExample.blend>`__.)
 
 
 Increasing :guilabel:`Depth` also considerably increases render time.
@@ -208,9 +210,9 @@ Light rays thus have to pass through four surfaces for each glass.
 But not only that, at every point on a surface, some of the light can be reflected,
 or mirrored off the surface in various directions.
 This results in multiple rays needing to be calculated for each point
-(often referred to as a **tree of rays**\ [http://www.cs.unc.edu/~rademach/xroads-RT/RTarticle.
+(often referred to as a **tree of rays** [http://www.cs.unc.edu/~rademach/xroads-RT/RTarticle.
 html]). In each of the rendered images above there are 640×400=256 000 pixels.
-By increasing :guilabel:`Depth`\ , at least one tree of rays is added to each pixel.
+By increasing :guilabel:`Depth`, at least one tree of rays is added to each pixel.
 
 Be kind to your computer. Carefully placing objects in a scene to avoid overlapping
 transparent objects is often an interesting alternative.
@@ -253,7 +255,7 @@ in the :guilabel:`Material` context → :guilabel:`Shadow` panel. The shadow's b
 dependent on the :guilabel:`Alpha` value of the shadow casting material.
 
 Alternatives to transparent ray-traced shadows can be found in the :guilabel:`World` context,
-namely the :guilabel:`Ambient Occlusion`\ , :guilabel:`Environment Lighting`\ ,
+namely the :guilabel:`Ambient Occlusion`, :guilabel:`Environment Lighting`,
 and :guilabel:`Gather` panels.  Alternatively, a texture can be used to control the
 :guilabel:`Intensity` value of the shadow-receiving material.
 

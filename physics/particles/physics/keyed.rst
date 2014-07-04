@@ -43,7 +43,7 @@ Keys
 
 
 :guilabel:`Key Targets`
-    You have to enter the name of the object which bears the target system and if there are multiple particle systems the number of the system.
+   You have to enter the name of the object which bears the target system and if there are multiple particle systems the number of the system.
 
    Click the :kbd:`+` to add a key, then select the object.
 
@@ -57,7 +57,7 @@ Timing
 ------
 
 :guilabel:`Use Timing`
-    Timing works together with the Time slider for the other keyed systems in a chain. The Time slider allows to define a fraction of particle lifetime for particle movement.
+   Timing works together with the Time slider for the other keyed systems in a chain. The Time slider allows to define a fraction of particle lifetime for particle movement.
 
 An example:
 let's assume that you have two keyed systems in a chain and a third system as target.

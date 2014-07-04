@@ -5,7 +5,7 @@ Armature Panels Overview
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     :guilabel:`Object mode`\ , :guilabel:`Edit mode` and :guilabel:`Pose mode`
+   | Mode:     :guilabel:`Object mode`, :guilabel:`Edit mode` and :guilabel:`Pose mode`
    | Panel:    All in :guilabel:`Properties` window, :guilabel:`Object data` property
 
 
@@ -132,7 +132,7 @@ Bone Panels Overview
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     :guilabel:`Object mode`\ , :guilabel:`Edit mode` and :guilabel:`Pose mode`
+   | Mode:     :guilabel:`Object mode`, :guilabel:`Edit mode` and :guilabel:`Pose mode`
    | Panel:    All in :guilabel:`Properties` window, :guilabel:`Bone` property
 
 

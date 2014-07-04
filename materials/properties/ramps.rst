@@ -9,11 +9,11 @@ Color Ramps
    | Panel:    Context :guilabel:`Shading` → sub-context :guilabel:`Material` → :guilabel:`Ramps`
 
 
-In many real life situations — like skin or metals —
+In many real life situations — like skin or metals —
 the color of diffuse and specular reflections can differ slightly,
 based on the amount of energy a surface receives or on the light angle of incidence. The
 :guilabel:`Ramp Shader` options in Blender allow you to set a range of colors for a
-:guilabel:`Material`\ , and define how the range will vary over a surface,
+:guilabel:`Material`, and define how the range will vary over a surface,
 and how it blends with the 'actual color'
 (typically from a material or as output of a texture).
 
@@ -47,8 +47,8 @@ In Blender 2.5, the separate :guilabel:`Ramp` panels for the :guilabel:`Diffuse`
 
  button.
 
-By default the Ramp panel opens with two colors; the first stop (\ :guilabel:`0`\ )
-is black and transparent (Alpha=0) and the second stop (\ :guilabel:`1`\ ) is white and opaque
+By default the Ramp panel opens with two colors; the first stop (:guilabel:`0`)
+is black and transparent (Alpha=0) and the second stop (:guilabel:`1`) is white and opaque
 (Alpha=1).
 
 The position of the color stop markers can be altered by either (1) dragging the stop marker in the colorband or (2) by changing the :guilabel:`Pos` value in the
@@ -73,12 +73,13 @@ Color and alpha values for each marker can be set by clicking the
 
 **Input**
    The input menu contains the following options for defining the gradient:
+
    **Shader**
-      The value as delivered by the material's shader (\ :guilabel:`Lambert`\ , :guilabel:`CookTorr`\ ) defines the color.  Here the amount of light doesn't matter for color, only the direction of the light.
+      The value as delivered by the material's shader (:guilabel:`Lambert`, :guilabel:`CookTorr`) defines the color.  Here the amount of light doesn't matter for color, only the direction of the light.
    **Energy**
-      As :guilabel:`Shader`\ , now also lamp energy, color, and distance are taken into account.  This makes the material change color when more light shines on it.
+      As :guilabel:`Shader`, now also lamp energy, color, and distance are taken into account.  This makes the material change color when more light shines on it.
    **Normal**
-      The surface normal, relative to the camera, is used for the :guilabel:`Ramp Shader`\ .  This is possible with a texture as well, but added for convenience.
+      The surface normal, relative to the camera, is used for the :guilabel:`Ramp Shader`.  This is possible with a texture as well, but added for convenience.
    **Result**
       While all three previous options work per lamp, this option only works after shading calculations.  This allows full control over the entire shading, including 'Toon' style results.  Using alpha values here is most useful for tweaking a finishing touch to a material.
 
@@ -89,11 +90,11 @@ Color and alpha values for each marker can be set by clicking the
 
 
 **Blend**
-   A list of the various :doc:`blending modes <materials/nodes/types/color>` available for blending the ramp shader with the color from :guilabel:`Input`\ .
+   A list of the various :doc:`blending modes <materials/nodes/types/color>` available for blending the ramp shader with the color from :guilabel:`Input`.
 
 
 **Factor**
-   This slider denotes the overall factor of the ramp shader with the color from :guilabel:`Input`\ .
+   This slider denotes the overall factor of the ramp shader with the color from :guilabel:`Input`.
 
 
 Colorbands
@@ -141,7 +142,7 @@ _______
 
 The :guilabel:`Colorswatch` right of the :guilabel:`Position` slider displays the color of the
 active mark.  :kbd:`lmb` click it to display a color picker in which values for color
-(\ :guilabel:`RGB`\ ) and transparency (\ :guilabel:`Alpha`\ ) can be set.
+(:guilabel:`RGB`) and transparency (:guilabel:`Alpha`) can be set.
 
 
 .. figure:: /images/Manual-2.5-Material-Ramps-InterpolationMenu.jpg
@@ -151,6 +152,7 @@ active mark.  :kbd:`lmb` click it to display a color picker in which values for 
 
 **Interpolation**
    Various modes of interpolation between marker's values can be chosen in the Interpolation menu:
+
    **Ease**
       Ease by quadratic equation.
    **Cardinal**

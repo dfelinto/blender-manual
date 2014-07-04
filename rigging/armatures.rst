@@ -7,7 +7,8 @@
 Armatures
 =========
 
-An "armature" is a type of object used for :doc:`rigging <rigging>`\ . Armature object borrows many ideas from real life skeletons.
+An "armature" is a type of object used for :doc:`rigging <rigging>`.
+Armature object borrows many ideas from real life skeletons.
 
 
 Your first armature
@@ -15,7 +16,7 @@ Your first armature
 
 In order to see what we're talking about, let's try to add the default armature in Blender.
 
-(Note that armature editing details are explained in the :doc:`armatures editing section <rigging/armatures/editing>`\ ).
+(Note that armature editing details are explained in the :doc:`armatures editing section <rigging/armatures/editing>`).
 
 Open a default scene, then:
 
@@ -38,6 +39,7 @@ Open a default scene, then:
 +                                                                      |   :figwidth: 500px                                  +
 +                                                                      |                                                     +
 +                                                                      |   The default armature                              +
++                                                                      |                                                     +
 +----------------------------------------------------------------------------------------------------------------------------+
 
 
@@ -47,16 +49,16 @@ The armature object
 As you can see, an armature is like any other object type in Blender:
 
 - It has a center, a position, a rotation and a scale factor.
-- It has an ObData datablock, that can be edited in :guilabel:`Edit mode`\ .
+- It has an ObData datablock, that can be edited in :guilabel:`Edit mode`.
 - It can be linked to other scenes, and the same armature data can be reused on multiple objects.
 - All animation you do in :guilabel:`Object mode` is only working on the whole object, not the armature's bones (use the :guilabel:`Pose mode` to do this).
 
 As armatures are designed to be posed, either for a static or animated scene,
 they have a specific state, called "rest position". This is the armature's default "shape",
-the default position/rotation/scale of its bones, as set in :guilabel:`Edit mode`\ .
+the default position/rotation/scale of its bones, as set in :guilabel:`Edit mode`.
 
-In :guilabel:`Edit mode`\ , you will always see your armature in rest position,
-whereas in :guilabel:`Object` and :guilabel:`Pose mode`\ ,
+In :guilabel:`Edit mode`, you will always see your armature in rest position,
+whereas in :guilabel:`Object` and :guilabel:`Pose mode`,
 you usually get the current "pose" of the armature
 (unless you enable the :guilabel:`Rest Position` button of the :guilabel:`Armature` panel).
 

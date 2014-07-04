@@ -3,7 +3,7 @@
 Animating the fluid properties
 ==============================
 
-A new type of Ipo Curve, :guilabel:`FluidSim`\ , is available for fluid domain objects.
+A new type of Ipo Curve, :guilabel:`FluidSim`, is available for fluid domain objects.
 Unlike most other animatable values in Blender,
 :guilabel:`FluidSim` Ipos cannot be keyframed by simply using the :kbd:`I` key;
 you must manually set values by clicking in the Ipo window. In order to set a keyframe, you
@@ -15,7 +15,7 @@ to set the keyframe to the desired location in the Ipo window.
    :class: nicetip
 
    Note that you do not have to be exact on where you click; we recommend that after you set the control point,
-   open the :guilabel:`Transform Properties` panel (\ :kbd:`N`\ ) and round the X value to a whole frame number,
+   open the :guilabel:`Transform Properties` panel (:kbd:`N`) and round the X value to a whole frame number,
    and then set the Y value that you wish.
 
 
@@ -34,16 +34,16 @@ The fluid domain has several channels that control the fluid over time:
    possibly appearing thinner.
 
 
-:guilabel:`GravX`\ /\ :guilabel:`GravY`\ /\ :guilabel:`GravZ`
+:guilabel:`GravX` / :guilabel:`GravY` / :guilabel:`GravZ`
    The XYZ vector for gravity changes; aka inertia of the fluid itself
    (think drinking a cup of coffee while driving NASCAR at Talladega, or sipping an espresso on the autobahn,
    or watering the plants on the Space Shuttle).
    Changes in these curves make the fluid slosh around due to external forces.
 
-The :guilabel:`Fluid`\ , :guilabel:`Obstacle`\ , :guilabel:`Inflow`\ ,
+The :guilabel:`Fluid`, :guilabel:`Obstacle`, :guilabel:`Inflow`,
 :guilabel:`Outflow` and :guilabel:`Particle` objects can use the following channels:
 
-:guilabel:`VelX`\ /\ :guilabel:`VelY`\ /\ :guilabel:`VelZ`
+:guilabel:`VelX` / :guilabel:`VelY` / :guilabel:`VelZ`
    Spurts of water from the garden hose can be simulated via these curves,
    to mimic changes in pressure and/or direction.
    It also can be used to simulate the effect of wind on a stream of water, for example.
@@ -54,15 +54,15 @@ The :guilabel:`Fluid`\ , :guilabel:`Obstacle`\ , :guilabel:`Inflow`\ ,
    (designated as an :guilabel:`Inflow`, or :guilabel:`Outflow`, etc.) resumes its effect.
    Crossing down to 0.0 and then at some point, back up, re-establishes the effect and the resulting fluid sim.
    Use this for dripping, or any kind of intermittent inflow.
-   This active status also works for objects designated as :guilabel:`Outflow` and :guilabel:`Obstacle`\ ,
+   This active status also works for objects designated as :guilabel:`Outflow` and :guilabel:`Obstacle`,
    so you can also simulate (for example) a drain plugging up.
 
 
 You can also control the force settings of :guilabel:`Control` objects:
 
-:guilabel:`AttrForceStr`\ , :guilabel:`AttrForceRa`
+:guilabel:`AttrForceStr`, :guilabel:`AttrForceRa`
    These curves control the values of the attraction force settings.
 
-:guilabel:`VelForceStr`\ , :guilabel:`VelForceRa`
+:guilabel:`VelForceStr`, :guilabel:`VelForceRa`
    These curves control the values of the velocity force settings.
 

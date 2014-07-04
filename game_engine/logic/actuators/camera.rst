@@ -32,6 +32,6 @@ Special Options:
       Maximum distance for the camera to follow the Game Object
 
 **Damping**
-       Strength of the constraint that drives the camera behind the target. Range: 0 to 10. The higher the parameter, the quicker the camera will adjust to be inside the constrained range (of min, max and height).
+      Strength of the constraint that drives the camera behind the target. Range: 0 to 10. The higher the parameter, the quicker the camera will adjust to be inside the constrained range (of min, max and height).
 
 

@@ -34,7 +34,8 @@ Options
 
 :guilabel:`Selected Vertices`
 :guilabel:`Mark Loose`
-   Mark the selected vertices as loosing points. Loosing defines points which merge their faces with each other to fill gaps.
+   Mark the selected vertices as loosing points.
+   Loosing defines points which merge their faces with each other to fill gaps.
 :guilabel:`Clear Loose`
    Take the Loose away. The initial behavior.
 
@@ -48,12 +49,13 @@ Options
 Example
 -------
 
-- Select the cube. :kbd:`Tab` into edit mode and :menuselection:`[Alt][M] --> At Center` to merge all vertices at one point. :kbd:`E` then :kbd:`Z` to extrude the vertex along the Z axis.
+- Select the cube. :kbd:`Tab` into edit mode and :menuselection:`[Alt][M] --> At Center`
+  to merge all vertices at one point. :kbd:`E` then :kbd:`Z` to extrude the vertex along the Z axis.
 
 .. admonition:: Skin Node Set Flag
    :class: note
 
-   One of the mesh's vertices must be set to :guilabel:`Root`\ .  If you by accident delete the default root vertex, select a vertex, hit the :guilabel:`Skin Node Set Flag` button, and in the :guilabel:`Mesh Tools` menu set the new vertex to root.
+   One of the mesh's vertices must be set to :guilabel:`Root`.  If you by accident delete the default root vertex, select a vertex, hit the :guilabel:`Skin Node Set Flag` button, and in the :guilabel:`Mesh Tools` menu set the new vertex to root.
 
 
 .. figure:: /images/Skin-header-00.jpg
@@ -72,8 +74,8 @@ Example
 External links
 ==============
 
-- `Skin Modifier Development at Blender Nation <http://www.blendernation.com/2011/03/11/skin-modifier-development/>`__ — An early demonstration of the skin modifier by Nicholas Bishop (March 2011)
-- Ji, Zhongping; Liu, Ligang; Wang, Yigang (2010). `B-Mesh: A Fast Modeling System for Base Meshes of 3D Articulated Shapes <http://www.math.zju.edu.cn/ligangliu/CAGD/Projects/BMesh/>`__\ , Computer Graphics Forum 29(7), pp. 2169-2178. — The work this modifier is based on (\ `direct link to PDF <http://www.math.zju.edu.cn/ligangliu/CAGD/Projects/BMesh/Paper/BMesh.pdf>`__\ )
+- `Skin Modifier Development at Blender Nation <http://www.blendernation.com/2011/03/11/skin-modifier-development/>`__ — An early demonstration of the skin modifier by Nicholas Bishop (March 2011)
+- Ji, Zhongping; Liu, Ligang; Wang, Yigang (2010). `B-Mesh: A Fast Modeling System for Base Meshes of 3D Articulated Shapes <http://www.math.zju.edu.cn/ligangliu/CAGD/Projects/BMesh/>`__, Computer Graphics Forum 29(7), pp. 2169-2178. — The work this modifier is based on (`direct link to PDF <http://www.math.zju.edu.cn/ligangliu/CAGD/Projects/BMesh/Paper/BMesh.pdf>`__)
 - `Related thread on Blender artists <http://blenderartists.org/forum/showthread.php?209551-B-mesh-modeling-tools-papers-better-than-zsfere>`__
 
 

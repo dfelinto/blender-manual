@@ -23,7 +23,7 @@ In the example image at the right, the PNG format will be the output of the scre
 (settings are the same as the ones available to save render results).
 When the Blender :guilabel:`File Browser` window opens for you, at the left, there is a tab
 called *Save Screenshot* where you can find format settings and a checkbox with the option
-*Full Screen*\ .
+*Full Screen*.
 
 - Check the Option to save the entire Blender window
   (full width and height of the Blender window you are using when you call the command).
@@ -74,8 +74,8 @@ On some Linux distributions (such as Ubuntu) and window managers,
 you can press :kbd:`Print Screen` to capture the screen to a file.
 For other distributions or window managers you may require additional software.
 Examples of such software include, but are not limited to:
-`xvidcap <http://xvidcap.sourceforge.net/>`__\ , `scrot <http://freshmeat.net/projects/scrot/>`__
-and `recordMyDesktop <http://recordmydesktop.sourceforge.net/about.php>`__\ .
+`xvidcap <http://xvidcap.sourceforge.net/>`__, `scrot <http://freshmeat.net/projects/scrot/>`__
+and `recordMyDesktop <http://recordmydesktop.sourceforge.net/about.php>`__.
 Consult your distribution's manual or software repository for more information.
 
 

@@ -23,13 +23,13 @@ FIXME(TODO: Internal Link;
 [[#Effects of Bones Relationships|detailed below]]
 ).
 
-- The "transform center" of a given bone (i.e. its default pivot point, when it is the only selected one) is *its root*\ . Note by the way that some pivot point options seem to not work properly - in fact, except for the :guilabel:`3D Cursor` one, all others appear to always use the median point of the selection (and not e.g. the active bone's root when :guilabel:`Active Object` is selected, etc.).
+- The "transform center" of a given bone (i.e. its default pivot point, when it is the only selected one) is *its root*. Note by the way that some pivot point options seem to not work properly - in fact, except for the :guilabel:`3D Cursor` one, all others appear to always use the median point of the selection (and not e.g. the active bone's root when :guilabel:`Active Object` is selected, etc.).
 
 
 Selecting Bones
 ---------------
 
-Selection in :guilabel:`Pose` mode is very similar to the one in :doc:`Edit mode <rigging/armatures/selecting>`\ , with a few specificities:
+Selection in :guilabel:`Pose` mode is very similar to the one in :doc:`Edit mode <rigging/armatures/selecting>`, with a few specificities:
 
 - You can only select *whole bones* in :guilabel:`Pose` mode, not roots/tips…
 
@@ -39,9 +39,9 @@ Selection in :guilabel:`Pose` mode is very similar to the one in :doc:`Edit mode
    The Select Grouped pop-up menu.
 
 
-- You can select bones based on their group and/or layer, through the :guilabel:`Select Grouped` pop-up menu (\ :kbd:`shift-G`\ ):
-  - To select all bones belonging to the same group(s) as the selected ones, use the :guilabel:`In Same Group` entry (\ :kbd:`shift-G-num1`\ ).
-  - To select all bones belonging to the same layer(s) as the selected ones, use the :guilabel:`In Same Layer` entry (\ :kbd:`shift-G-num2`\ ).
+- You can select bones based on their group and/or layer, through the :guilabel:`Select Grouped` pop-up menu (:kbd:`shift-G`):
+  - To select all bones belonging to the same group(s) as the selected ones, use the :guilabel:`In Same Group` entry (:kbd:`shift-G-num1`).
+  - To select all bones belonging to the same layer(s) as the selected ones, use the :guilabel:`In Same Layer` entry (:kbd:`shift-G-num2`).
 
 
 Basic Posing
@@ -50,9 +50,9 @@ Basic Posing
 As previously noted,
 bones' transformations are performed based on the *rest position* of the armature,
 which is its state as defined in :guilabel:`Edit` mode. This means that in rest position,
-in :guilabel:`Pose` mode, each bone has a scale of **1.0**\ , and null rotation and position
+in :guilabel:`Pose` mode, each bone has a scale of **1.0**, and null rotation and position
 (as you can see it in the :guilabel:`Transform Properties` panel, in the 3D views,
-:kbd:`N`\ ).
+:kbd:`N`).
 
 
 .. figure:: /images/Doc26-rigging-pose-localRotate.jpg
@@ -69,7 +69,7 @@ Moreover, the local space for these actions is the bone's own one
 This is especially important when using axis locking - for example,
 there is no specific "bone roll" tool in :guilabel:`Pose` mode,
 as you can rotate around the bone's main axis just by locking on the local Y axis
-(\ :kbd:`R-Y-Y`\ )… This also works with several bones selected;
+(:kbd:`R-Y-Y`)… This also works with several bones selected;
 each one is locked to its own local axis!
 
 When you pose your armature,
@@ -97,8 +97,8 @@ Rest Pose
 
 Once you have transformed some bones, if you want to return to their rest position,
 just clear their transformations
-(usual :kbd:`alt-G`\ /\ :kbd:`alt-R`\ /\ :kbd:`alt-S` shortcuts,
-or :menuselection:`Pose --> Clear Transform --> Clear User Transform`\ , :kbd:`W-num5`\ , to clear
+(usual :kbd:`alt-G` / :kbd:`alt-R` / :kbd:`alt-S` shortcuts,
+or :menuselection:`Pose --> Clear Transform --> Clear User Transform`, :kbd:`W-num5`, to clear
 everything at once… - commands also available in the :menuselection:`Pose --> Clear Transform` sub-menu).
 
 Note that in :guilabel:`Envelope` visualization, :kbd:`Alt-S` does not clear the scale,
@@ -110,7 +110,7 @@ Conversely, you may define the current pose as the new rest position (i.e.
 "apply" current transformations to the :guilabel:`Edit` mode),
 using the :menuselection:`Pose --> Apply Pose as Restpose` menu entry
 (or :kbd:`ctrl-A` and confirm the pop-up dialog). **When you do so,
-the skinned objects/geometry is also reset to its default, undeformed state**\ ,
+the skinned objects/geometry is also reset to its default, undeformed state**,
 which generally means you'll have to skin it again.
 
 Whereas in :guilabel:`Edit` mode, you always see your armature in its rest position,
@@ -119,24 +119,25 @@ you see it by default in its *pose position* (i.e.
 as it was transformed in the :guilabel:`Pose` mode).
 If you want to see it in the rest position in all modes,
 enable the :guilabel:`Rest Position` button in the :guilabel:`Armature` panel
-(\ :guilabel:`Editing` context, :kbd:`F9`\ ).
+(:guilabel:`Editing` context, :kbd:`F9`).
 
 
 In-Betweens
 -----------
 
 There are several tools for editing poses in an animation.
-:guilabel:`Relax Pose` (\ :menuselection:`Pose --> In-Betweens --> Relax Pose` or :kbd:`alt-E`\ )
-   Relax pose is somewhat related to the above topic - but it is only useful with keyframed bones (see the :doc:`animation chapter <animation>`\ ). When you edit such a bone (and hence take it "away" from its "keyed position"), using this command will progressively "bring it back" to its "keyed position", with smaller and smaller steps as it comes near it.
 
-:guilabel:`Push Pose` (\ :menuselection:`Pose --> In-Betweens --> Relax Pose` or :kbd:`ctrl-E`\ )
+:guilabel:`Relax Pose` (:menuselection:`Pose --> In-Betweens --> Relax Pose` or :kbd:`alt-E`)
+   Relax pose is somewhat related to the above topic - but it is only useful with keyframed bones (see the :doc:`animation chapter <animation>`). When you edit such a bone (and hence take it "away" from its "keyed position"), using this command will progressively "bring it back" to its "keyed position", with smaller and smaller steps as it comes near it.
+
+:guilabel:`Push Pose` (:menuselection:`Pose --> In-Betweens --> Relax Pose` or :kbd:`ctrl-E`)
    Push pose exaggerates the current pose.
 
-:guilabel:`Breakdowner` (\ :menuselection:`Pose --> In-Betweens --> Pose Breakdowner` or :kbd:`shift-E`\ )
+:guilabel:`Breakdowner` (:menuselection:`Pose --> In-Betweens --> Pose Breakdowner` or :kbd:`shift-E`)
    Creates a suitable breakdown pose on the current frame
 
 
-There are also in :guilabel:`Pose` mode a bunch of armature-specific editing options/tools, like :doc:`auto-bones naming <rigging/armatures/editing/properties#naming_bones>`\ , :doc:`properties switching/enabling/disabling <rigging/armatures/editing/properties#properties>`\ , etc., that we already described in the armature editing pages - follow the links above…
+There are also in :guilabel:`Pose` mode a bunch of armature-specific editing options/tools, like :doc:`auto-bones naming <rigging/armatures/editing/properties#naming_bones>`, :doc:`properties switching/enabling/disabling <rigging/armatures/editing/properties#properties>`, etc., that we already described in the armature editing pages - follow the links above…
 
 
 Copy/Paste Pose
@@ -147,7 +148,7 @@ Copy/Paste Pose
 
    | Mode:     :guilabel:`Pose` mode
    | Panel:    :guilabel:`3D View` header
-   | Menu:     :menuselection:`Pose --> Copy Current Pose`\ , :menuselection:`Pose --> Paste Pose`\ , :menuselection:`Pose --> Paste Flipped Pose`
+   | Menu:     :menuselection:`Pose --> Copy Current Pose`, :menuselection:`Pose --> Paste Pose`, :menuselection:`Pose --> Paste Flipped Pose`
 
 
 .. figure:: /images/Doc26-rigging-copyPastePose.jpg
@@ -159,7 +160,7 @@ Blender allows you to copy and paste a pose, either through the :guilabel:`Pose`
 directly using the three "copy/paste" buttons found at the right part of the 3D views header:
 
 :menuselection:`Pose --> Copy Current Pose`
-    to copy the current pose of selected bones into the pose buffer.
+   to copy the current pose of selected bones into the pose buffer.
 :menuselection:`Pose --> Paste Pose`
    paste the buffered pose to the currently posed armature.
 :menuselection:`Pose --> Paste Flipped Pose`
@@ -171,7 +172,7 @@ Here are important points:
 - This tool works at the Blender session level, which means you can use it across armatures, scenes, and even files. However, the pose buffer is not saved, so you lose it when you close Blender.
 - There is only one pose buffer.
 - Only the selected bones are taken into account during copying (i.e. you copy only selected bones' pose).
-- During pasting, on the other hand, bone selection has no importance. The copied pose is applied on a per-name basis (i.e. if you had a "\ ``forearm``\ " bone selected when you copied the pose, the "\ ``forearm``\ " bone of the current posed armature will get its pose when you paste it - and if there is no such named bone, nothing will happen…).
+- During pasting, on the other hand, bone selection has no importance. The copied pose is applied on a per-name basis (i.e. if you had a "\ ``forearm`` " bone selected when you copied the pose, the "\ ``forearm`` " bone of the current posed armature will get its pose when you paste it - and if there is no such named bone, nothing will happen…).
 - What is copied and pasted is in fact the position/rotation/scale of each bone, in its own space. This means that the resulting pasted pose might be very different from the originally copied one, depending on:
   - The rest position of the bones, and
   - The current pose of their parents.
@@ -272,9 +273,9 @@ possible ones below - but this should anyway give you a good idea of the problem
 
 - When several bones of the same "family" are selected, *only the "most parent" ones are really transformed* - the descendants are just handled through the parent relationship process, as if they were not selected (see *Scaling bones, some of them related* - the third tip bone, outlined in yellow, was only scaled down through the parent relationship, exactly as the unselected ones, even though it is selected and active. Otherwise, it should have been twice smaller!).
 - When connected and unconnected bones are selected, and you start a grab operation, only the unconnected bones are affected.
-- When a child connected hinge bone is in the selection, and the "most parent" selected one is connected, when you hit :kbd:`G`\ , nothing happens - Blender remains in grab operation, which of course has no effect on a connected bone. This might be a bug, in fact, as I see no reason for this behavior…
+- When a child connected hinge bone is in the selection, and the "most parent" selected one is connected, when you hit :kbd:`G`, nothing happens - Blender remains in grab operation, which of course has no effect on a connected bone. This might be a bug, in fact, as I see no reason for this behavior…
 
-So, when posing a chain of bones, you should always edit its elements from the root bone to the tip bone. This process is known as **forward kinematics**\ , or FK. We will see in a :doc:`later page <rigging/posing/inverse_kinematics>` that Blender features another pose method, called **inverse kinematics**\ , or IK, which allows you to pose a whole chain just by moving its tip.
+So, when posing a chain of bones, you should always edit its elements from the root bone to the tip bone. This process is known as **forward kinematics**, or FK. We will see in a :doc:`later page <rigging/posing/inverse_kinematics>` that Blender features another pose method, called **inverse kinematics**, or IK, which allows you to pose a whole chain just by moving its tip.
 
 
 Note that this feature is somewhat extended/completed by the :doc:`pose library <rigging/posing/pose_library>` tool.

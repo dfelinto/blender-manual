@@ -16,7 +16,7 @@ The :guilabel:`Laplacian Smooth` and :guilabel:`Shape Enhanced` modifier allows 
 noise on a mesh's surface with minimal changes to its shape, and exaggerates a shape using a
 Laplacian smoothing modifier in the reverse direction using a single parameter,
 The :guilabel:`factor` , that supports negative and positive values:
-**negative for enhancement** and **positive for smoothing**\ .
+**negative for enhancement** and **positive for smoothing**.
 
 The :guilabel:`Shape enhanced` method exaggerates a shape using a Laplacian smoothing operator
 in the reverse direction.
@@ -43,10 +43,10 @@ Options
 
 
 :guilabel:`Repeat`
-   Repetitions allow you to run the Laplacian smoothing and Shape Enhancement multiple times. Each repetition causes the flow curvature of the mesh to be recalculated again, and as a result it removes more noise at every new iteration in Laplacian smoothing cases (positive factor) using a small :guilabel:`Factor` < **1.0**\ . In a Shape Enhancement case (negative Factor) multiple iterations can magnify the noise.
+   Repetitions allow you to run the Laplacian smoothing and Shape Enhancement multiple times. Each repetition causes the flow curvature of the mesh to be recalculated again, and as a result it removes more noise at every new iteration in Laplacian smoothing cases (positive factor) using a small :guilabel:`Factor` < **1.0**. In a Shape Enhancement case (negative Factor) multiple iterations can magnify the noise.
 
-- :guilabel:`Repeat`\ : **0** Disables the modifier and no repetition is made.
-- :guilabel:`Repeat`\ : **1** to **200** Number of repetitions to be done by the modifier. Be careful with large numbers of vertices, because it will take a lot of time to execute all iterations.
+- :guilabel:`Repeat`: **0** Disables the modifier and no repetition is made.
+- :guilabel:`Repeat`: **1** to **200** Number of repetitions to be done by the modifier. Be careful with large numbers of vertices, because it will take a lot of time to execute all iterations.
 
 
 +---------------------------------------------------------------+---------------------------------------------------------------+---------------------------------------------------------------+----------------------------------------------------------------+
@@ -71,13 +71,13 @@ Options
 
 
 :guilabel:`Lambda factor`
-   The Lambda factor ranges from **-1000.0** to **1000.0**\ ; this factor controls the amount of displacement of every vertex along the curvature flow.
+   The Lambda factor ranges from **-1000.0** to **1000.0**; this factor controls the amount of displacement of every vertex along the curvature flow.
 
 
-- :guilabel:`Lambda factor`\ : **-1000.0** to **0.0** Using a Lambda factor you can enhance the shape, preserving desirable geometry.
-- :guilabel:`Lambda factor`\ : **0.0** Disables the modifier and no smoothing or enhancing is done.
-- :guilabel:`Lambda factor`\ : **0.0** to **5.0** Using a small Lambda factor, you can remove noise from the shape without affecting desirable geometry.
-- :guilabel:`Lambda factor`\ : **5.0** to **1000.0** Using a large Lambda factor you get smoothed versions of the shape at the cost of losing fine geometry details.
+- :guilabel:`Lambda factor`: **-1000.0** to **0.0** Using a Lambda factor you can enhance the shape, preserving desirable geometry.
+- :guilabel:`Lambda factor`: **0.0** Disables the modifier and no smoothing or enhancing is done.
+- :guilabel:`Lambda factor`: **0.0** to **5.0** Using a small Lambda factor, you can remove noise from the shape without affecting desirable geometry.
+- :guilabel:`Lambda factor`: **5.0** to **1000.0** Using a large Lambda factor you get smoothed versions of the shape at the cost of losing fine geometry details.
 
 
 +-----------------------------------------------------------------+-----------------------------------------------------------------+------------------------------------------------------------------+------------------------------------------------------------------+
@@ -104,10 +104,10 @@ Options
 :guilabel:`Lambda border`
    The Lambda border ranges from **-1000.0** to **1000.0** . Borders are treated differently. There is no way to calculate the curvature flow on them. For this reason the Lambda factor just smooths or enhances them.
 
-- :guilabel:`Lambda border`\ : **-1000.0** to **0.0** Enhance the borders.
-- :guilabel:`Lambda border`\ : **0.0** Disables the modifier and no smoothing on the borders is done.
-- :guilabel:`Lambda border`\ : **0.0** to **10.0** Smooths the borders.
-- :guilabel:`Lambda border`\ : **10.0** to **1000.0** Collapses the borders in a small circle.
+- :guilabel:`Lambda border`: **-1000.0** to **0.0** Enhance the borders.
+- :guilabel:`Lambda border`: **0.0** Disables the modifier and no smoothing on the borders is done.
+- :guilabel:`Lambda border`: **0.0** to **10.0** Smooths the borders.
+- :guilabel:`Lambda border`: **10.0** to **1000.0** Collapses the borders in a small circle.
 
 
 +-----------------------------------------------------------------+-----------------------------------------------------------------+-----------------------------------------------------------------+------------------------------------------------------------------+
@@ -131,7 +131,7 @@ Options
 +-----------------------------------------------------------------+-----------------------------------------------------------------+-----------------------------------------------------------------+------------------------------------------------------------------+
 
 
-:guilabel:`X`\ , :guilabel:`Y`\ , :guilabel:`Z`
+:guilabel:`X`, :guilabel:`Y`, :guilabel:`Z`
    Toggle buttons to enable/disable hard constraints in the X, Y and/or Z axis directions.
 
 

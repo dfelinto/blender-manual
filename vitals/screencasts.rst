@@ -17,7 +17,7 @@ The default settings will generate a screencast consisting of a series of PNG im
 every 50 ms and stored in the :guilabel:`/tmp` folder. If you want to record a video, set the
 :guilabel:`Output` to one of the :guilabel:`Movie File Formats` supported by your system
 listed in the :guilabel:`Output panel` format menu.
-If you are unsure what video codecs your system supports, select :guilabel:`AVI JPEG`\ .
+If you are unsure what video codecs your system supports, select :guilabel:`AVI JPEG`.
 
 
 .. figure:: /images/Manual-Vitals-Screencast-Small-User-Preferences-System.jpg
@@ -33,13 +33,13 @@ The FPS for video Screencasts and time between each Screenshot for an image seri
 .. admonition:: Audio support
    :class: note
 
-   Blender Screencast doesn't support audio recordings, so you will have to do it manually using other software, e.g. `Audacity <http://audacity.sourceforge.net/>`__\ , in conjunction with Blender.
+   Blender Screencast doesn't support audio recordings, so you will have to do it manually using other software, e.g. `Audacity <http://audacity.sourceforge.net/>`__, in conjunction with Blender.
 
 
 When you start Blender Screencasts, the header of the :guilabel:`Info Window` will change,
 and it will show you a button for stopping your capture.
 
-Below, we show the normal header of the :guilabel:`Info Window`\ ,
+Below, we show the normal header of the :guilabel:`Info Window`,
 when in normal Blender operation (See Fig: Info Window - Header - Normal Operation),
 and with the Stop button for the Screencast, when in Screencast Mode. (See Fig:
 Info Window - Header - Capture Stop Button).
@@ -61,7 +61,7 @@ Info Window - Header - Capture Stop Button).
 .. admonition:: The only way to stop the Screencast
    :class: note
 
-   Pressing the Stop button in the header of the Info Window is the only way to stop the Screencast capture. If you press :kbd:`esc`\ , the shortcut will only work for operations performed in the Blender :guilabel:`User Interface`\ , (it will stop animations, playbacks and so on...), but will not work to stop :guilabel:`Screencasts`\ .
+   Pressing the Stop button in the header of the Info Window is the only way to stop the Screencast capture. If you press :kbd:`esc`, the shortcut will only work for operations performed in the Blender :guilabel:`User Interface`, (it will stop animations, playbacks and so on...), but will not work to stop :guilabel:`Screencasts`.
 
 
 .. figure:: /images/Manual-Vitals-Screencast-Frame-Range-Sufix.jpg
@@ -69,7 +69,7 @@ Info Window - Header - Capture Stop Button).
    Dimensions Panel - Frame Range
 
 
-The frames are stored using a suffix added to their file name, where the suffix is composed of the numbers present in the fields for *start* and *end frames*\ , defined in the Frame Range of the Dimensions panel, :doc:`Render context <interface/contexts>`\ . (See Fig: Dimensions Panel - Frame Range - highlighted in yellow)
+The frames are stored using a suffix added to their file name, where the suffix is composed of the numbers present in the fields for *start* and *end frames*, defined in the Frame Range of the Dimensions panel, :doc:`Render context <interface/contexts>`. (See Fig: Dimensions Panel - Frame Range - highlighted in yellow)
 
 .. admonition:: Important:
    :class: nicetip
@@ -77,7 +77,7 @@ The frames are stored using a suffix added to their file name, where the suffix 
    The configuration of the End frame, present in the Frame Range of the Dimensions Panel, **will not** stop your capture automatically. You will always have to stop the Screencast manually, using the Stop button.
 
 
-The Videos are generated internally in the same manner as the :guilabel:`Screenshots`\ ,
+The Videos are generated internally in the same manner as the :guilabel:`Screenshots`,
 using the width and height of the Window you are working in.
 If you choose to capture to a Video file,
 Blender will have to pass those frames to a Video codec.
@@ -97,7 +97,7 @@ Blender Window Dimension
 There is a way to match the Blender Window dimensions with the Output Video File,
 achieving standard dimensions for the output of the Blender Screencast. (I.e. NTSC, HD,
 Full HD, etc).
-You can control the width and height of your Blender Window, starting Blender from a Command Line. To learn more about starting Blender from a command line, see the page about :doc:`Blender Console Window <interface/window_system/console_window>`\ .
+You can control the width and height of your Blender Window, starting Blender from a Command Line. To learn more about starting Blender from a command line, see the page about :doc:`Blender Console Window <interface/window_system/console_window>`.
 
 
 Addon: {{Literal|3D View:Screencast Keys}}
@@ -105,11 +105,11 @@ Addon: {{Literal|3D View:Screencast Keys}}
 
 The community based Addon :guilabel:`3D View:Screencast Keys` will show you the keys,
 combination of keys pressed and mouse clicks on the left bottom corner of your 3D screen every
-time you press a key or mouse button when capturing :guilabel:`Screencasts`\ .
+time you press a key or mouse button when capturing :guilabel:`Screencasts`.
 The community Addon comes with the default installation of Blender.
 The Image below shows the community Addon with its Tab Open. (See Fig: 3D View:
 Screencast Keys - Addon). To enable the Addon,
-open the :guilabel:`User Preferences` Editor Window :kbd:`ctrl-alt-u`\ ,
+open the :guilabel:`User Preferences` Editor Window :kbd:`ctrl-alt-u`,
 go to the :guilabel:`Addons` Tab, and go to the *3D View* Addons. Just click on the checkbox
 (Highlighted in yellow) to enable the Addon.
 
@@ -155,6 +155,6 @@ on the Properties panel.
 .. admonition:: New Community Addon
    :class: nicetip
 
-   There is also currently an Addon for Blender 2.5/2.6 which will take a screenshot of any area you like at the click of a button, and proceed to upload it directly to `Pasteall <http://www.pasteall.org/pic/.>`__\ . The Addon currently has no development page, but it will be linked to here when it's finished.
+   There is also currently an Addon for Blender 2.5/2.6 which will take a screenshot of any area you like at the click of a button, and proceed to upload it directly to `Pasteall <http://www.pasteall.org/pic/.>`__. The Addon currently has no development page, but it will be linked to here when it's finished.
 
 

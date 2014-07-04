@@ -28,8 +28,9 @@ and fly from objects with negative Spherical fields.
 The objects have to share one common layer to have effect.
 It is not necessary to render this common layer, so you may use invisible influences.
 
-Boids can different physics depending on whether they are in the air, or on land
-(on collision object)
+Boids can different physics depending on whether they are in the air,
+or on land (on collision object)
+
 :guilabel:`Allow Flight`
    Allow boids to move in the air.
 :guilabel:`Allow Land`
@@ -64,7 +65,7 @@ Boids can different physics depending on whether they are in the air, or on land
    How strong a force must be to start effecting a boid on land.
 
 :guilabel:`Banking`
-    Amount of rotation around velocity vector on turns. Banking of (1.0 == natural banking).
+   Amount of rotation around velocity vector on turns. Banking of (1.0 == natural banking).
 :guilabel:`Pitch`
    Amount of rotation around side vector.
 :guilabel:`Height`
@@ -143,13 +144,16 @@ The rules are by default parsed from top-list to bottom-list
 and the \order can be modified using the little arrows buttons on the right side.
 
 The list of rules available are:
+
 :guilabel:`Goal`
    Seek goal (objects with Spherical fields and positive Strength)
+
    :guilabel:`Predict`
       Predict target's movements
 
 :guilabel:`Avoid`
    Avoid "predators" (objects with Spherical fields and negative Strength)
+
    :guilabel:`Predict`
       Predict target's movements
    :guilabel:`Fear Factor`
@@ -157,6 +161,7 @@ The list of rules available are:
 
 :guilabel:`Avoid Collision`
    Avoid objects with activated Deflection
+
    :guilabel:`Boids`
       Avoid collision with other boids
    :guilabel:`Deflectors`
@@ -172,6 +177,7 @@ The list of rules available are:
 
 :guilabel:`Follow Leader`
    Follows a leader object instead of a boid
+
    :guilabel:`Distance`
       Distance behind leader to follow
    :guilabel:`Line`
@@ -179,6 +185,7 @@ The list of rules available are:
 
 :guilabel:`Average Speed`
    Maintain average velocity.
+
    :guilabel:`Speed`
       Percentage of maximum speed
    :guilabel:`Wander`
@@ -188,6 +195,7 @@ The list of rules available are:
 
 :guilabel:`Fight`
    Move toward nearby boids
+
    :guilabel:`Fight Distance`
       Attack boids at a maximum of this distance
    :guilabel:`Flee Distance`
@@ -198,6 +206,7 @@ Rule Evaluation
 ~~~~~~~~~~~~~~~
 
 There are three ways control how rules are evaluated.
+
 :guilabel:`Average`
    All rules are averaged.
 :guilabel:`Random`

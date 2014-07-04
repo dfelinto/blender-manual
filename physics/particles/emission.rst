@@ -19,6 +19,7 @@ Options
 
 
 The buttons in the :guilabel:`Emission` panel control the way particles are emitted over time:
+
 :guilabel:`Amount`
    The maximum amount of parent particles used in the simulation.
 :guilabel:`Start`
@@ -30,12 +31,12 @@ The buttons in the :guilabel:`Emission` panel control the way particles are emit
    The lifetime (in frames) of the particles.
 :guilabel:`Random`
    A random variation of the lifetime of a given particle.
-   The shortest possible lifetime is *Lifetime* ``×(1-``\ *Rand*\ ``)``\ .
+   The shortest possible lifetime is *Lifetime* ``×(1-`` *Rand* ``)``.
    Values above 1.0 are not allowed.
    For example with the default :guilabel:`Lifetime` value of 50 a :guilabel:`Random` setting of 0.5
-   will give you particles with lives ranging from 50 frames to ``50×(1.0-0.5)``\ =25 frames, and with a
+   will give you particles with lives ranging from 50 frames to ``50×(1.0-0.5)`` =25 frames, and with a
    :guilabel:`Random` setting of 0.75 you'll get particles with lives ranging from 50 frames to
-   ``50×(1.0-0.75)``\ =12.5 frames.
+   ``50×(1.0-0.75)`` =12.5 frames.
 
 
 Emission Location
@@ -69,25 +70,25 @@ For Faces and Volume, additional options appear:
    i.e. small elements emit less particles than large elements, so that the particle density is even.
 
 :guilabel:`Jittered`
-    Particles are placed at jittered intervals on the emitter elements.
+   Particles are placed at jittered intervals on the emitter elements.
 
    :guilabel:`Particles/Face`
-       Number of emissions per face (0 = automatic).
+      Number of emissions per face (0 = automatic).
    :guilabel:`JitteringAmount`
-       Amount of jitter applied to the sampling.
+      Amount of jitter applied to the sampling.
 
 :guilabel:`Random`
-    Particles are emitted from random locations in the emitter's elements.
+   Particles are emitted from random locations in the emitter's elements.
 
 :guilabel:`Grid`
-    Particles are set in a 3d grid and particles near/in the elements are kept.
+   Particles are set in a 3d grid and particles near/in the elements are kept.
 
    :guilabel:`Invert Grid`
       Invert what is considered the object and what is not.
    :guilabel:`Hexagonal`
       Uses a hexagonal shaped grid instead of a rectangular one.
    :guilabel:`Resolution`
-       Resolution of the grid.
+      Resolution of the grid.
    :guilabel:`Random`
       Add a random offset to grid locations.
 

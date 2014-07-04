@@ -8,21 +8,21 @@ Objects come in many forms, shapes and sizes, so Blender has many different tool
 help you make your model quickly and efficiently:
 
 :doc:`Objects <modeling/objects>`
-    Working with objects as a whole
+   Working with objects as a whole
 :doc:`Meshes <modeling/meshes>`
-    Working with the mesh that defines the shape of an object
+   Working with the mesh that defines the shape of an object
 :doc:`Curves <modeling/curves>`
-    Using Curves to model and control objects
+   Using Curves to model and control objects
 :doc:`Surfaces <modeling/surfaces>`
-    Modeling a NURBS surface
+   Modeling a NURBS surface
 :doc:`Text <modeling/texts>`
-    Textual tools for putting words in 3D space
+   Textual tools for putting words in 3D space
 :doc:`Meta Objects <modeling/metas>`
-    Globs and Globules
+   Globs and Globules
 :doc:`Duplications <modeling/objects/duplication>`
-    Duplicating Objects
+   Duplicating Objects
 :doc:`Modeling Scripts <modeling/scripts>`
-    Since Blender functionality is extensible via Python, there are a number of very useful scripts that assist you in modeling.
+   Since Blender functionality is extensible via Python, there are a number of very useful scripts that assist you in modeling.
 
 Many people use "box modeling" which starts with a basic cube,
 and proceeds with extruding faces and moving vertices to create a larger,

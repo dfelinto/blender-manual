@@ -5,9 +5,9 @@
 Introduction
 ============
 
-In this section will be described tools for editing objects in :guilabel:`Object Mode`\ .
+In this section will be described tools for editing objects in :guilabel:`Object Mode`.
 
-Information about some additional possibilities are described in :doc:`Manipulation in 3D <3d_interaction/transform_control>`\ .
+Information about some additional possibilities are described in :doc:`Manipulation in 3D <3d_interaction/transform_control>`.
 
 
 Object Mode
@@ -18,9 +18,9 @@ Object Mode
    Object Mode button
 
 
-By default new files opens with enabled :guilabel:`Object Mode`\ .
+By default new files opens with enabled :guilabel:`Object Mode`.
 To enable it you may in :guilabel:`3D View window → Header` click :guilabel:`Object Mode
-button` (see picture :guilabel:`Object Mode button`\ )
+button` (see picture :guilabel:`Object Mode button`)
 
 All edition tools works only with selected objects. See :doc:`Selecting Objects <modeling/objects/selecting>` for more information.
 
@@ -55,19 +55,19 @@ Add
 
 We may add one of those primitives:
 
-- **Mesh**\ : Plane, Cube, Circle, UV Sphere, Icosphere, Cylinder, Cone, Grid, Monkey, Torus.
-- **Curve**\ : Bezier, Circle, NURBS Curve, NURBS Circle, Path.
-- **Surface**\ : NURBS Curve, NURBS Circle, NURBS Surface, NURBS Cylinder, NURBS Sphere, NURBS Torus.
-- **Metaball**\ : Ball, Capsule, Plane, Ellipsoid, Cube.
-- **Text**\ .
-- **Armature**\ : Single Bone.
-- **Lattice**\ .
-- **Empty**\ : Plane Axis, Arrows, Single Arrow, Circle, Cube, Sphere, Cone, Image.
-- **Speaker**\ .
-- **Camera**\ .
-- **Lamp**\ : Point, Sun, Spot, Hemi, Area.
-- **Force Field**\ : Force, Wind, Vortex, Magnetic, Harmonic, Charge, Lennard-Jones, Texture, Curve Guide, Boid, Turbulence, Drag, Smoke Flow.
-- **Group Instance**\ : (user defined groups of objects).
+- **Mesh** : Plane, Cube, Circle, UV Sphere, Icosphere, Cylinder, Cone, Grid, Monkey, Torus.
+- **Curve** : Bezier, Circle, NURBS Curve, NURBS Circle, Path.
+- **Surface** : NURBS Curve, NURBS Circle, NURBS Surface, NURBS Cylinder, NURBS Sphere, NURBS Torus.
+- **Metaball** : Ball, Capsule, Plane, Ellipsoid, Cube.
+- **Text**.
+- **Armature** : Single Bone.
+- **Lattice**.
+- **Empty** : Plane Axis, Arrows, Single Arrow, Circle, Cube, Sphere, Cone, Image.
+- **Speaker**.
+- **Camera**.
+- **Lamp** : Point, Sun, Spot, Hemi, Area.
+- **Force Field** : Force, Wind, Vortex, Magnetic, Harmonic, Charge, Lennard-Jones, Texture, Curve Guide, Boid, Turbulence, Drag, Smoke Flow.
+- **Group Instance** : (user defined groups of objects).
 
 
 Duplicate
@@ -104,7 +104,7 @@ Join
 
 Joining makes one single object from all selected objects. Objects must be of the same type.
 Origin point is obtained from the previously *active* object.
-Performing a join is equivalent to adding new objects while in :guilabel:`Edit mode`\ .
+Performing a join is equivalent to adding new objects while in :guilabel:`Edit mode`.
 The non-active objects are deleted (their meshes were taken by active object).
 Only the active object remains. This only works with editable objects,
 containing meshes and curves.
@@ -117,7 +117,7 @@ Delete
    :class: refbox
 
    | Menu:     *Object → Delete... → Delete*
-   | Hotkey:   :kbd:`X`\ , :kbd:`D` or :kbd:`Delete`\ , :kbd:`D`
+   | Hotkey:   :kbd:`X`, :kbd:`D` or :kbd:`Delete`, :kbd:`D`
 
 
 Deletion erases selected objects.

@@ -19,17 +19,17 @@ Special Options:
 **Action Playback Type**
 
    :guilabel:`Play`
-       Play ipo once from start to end when a TRUE pulse is received.
+      Play ipo once from start to end when a TRUE pulse is received.
    :guilabel:`Ping Pong`
-       Play ipo once from start to end when a TRUE pulse is received. When the end is reached play ipo once from end to start when a TRUE pulse is received.
+      Play ipo once from start to end when a TRUE pulse is received. When the end is reached play ipo once from end to start when a TRUE pulse is received.
    :guilabel:`Flipper`
-       Play ipo once from start to end when a TRUE pulse is received. (Plays backwards when a FALSE pulse is received).
+      Play ipo once from start to end when a TRUE pulse is received. (Plays backwards when a FALSE pulse is received).
    :guilabel:`Loop End`
-       Play ipo continuously from end to start when a TRUE pulse is received.
+      Play ipo continuously from end to start when a TRUE pulse is received.
    :guilabel:`Loop Start`
-       Play ipo continuously from start to end when a TRUE pulse is received.
+      Play ipo continuously from start to end when a TRUE pulse is received.
    :guilabel:`Property`
-       Uses a property to define what frame is displayed.
+      Uses a property to define what frame is displayed.
 
 **Action**
    Select the action to use

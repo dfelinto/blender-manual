@@ -29,13 +29,13 @@ Options
    Halo panels
 
 
-To enable :guilabel:`Halos`\ ,
+To enable :guilabel:`Halos`,
 press the :guilabel:`Halo` button in the :guilabel:`Material` menu's top panel.
 
-As you will see in the 3D View, the mesh faces are no longer rendered. Instead just the vertex is rendered, since that is where each halo will originate. Halos can be hard to find in a crowded scene, so name it well for easy location in :doc:`the outliner <data_system/the_outliner>`\ .
+As you will see in the 3D View, the mesh faces are no longer rendered. Instead just the vertex is rendered, since that is where each halo will originate. Halos can be hard to find in a crowded scene, so name it well for easy location in :doc:`the outliner <data_system/the_outliner>`.
 
-In the properties window, where we normally find the :guilabel:`Diffuse`\ ,
-:guilabel:`Specular`\ , and :guilabel:`Shading` panels,
+In the properties window, where we normally find the :guilabel:`Diffuse`,
+:guilabel:`Specular`, and :guilabel:`Shading` panels,
 we now see panels relative to the :guilabel:`Halo` characteristics:
 
 
@@ -43,16 +43,16 @@ Halo Panel
 ----------
 
 **Alpha**
-    The transparency
+   The transparency
 **Color Swatch**
-    The color of the halo itself
+   The color of the halo itself
 **Seed**
-    If non-zero, randomizes the ring dimension and line location. To use, give any (integer) number to start the random-number generator.
+   If non-zero, randomizes the ring dimension and line location. To use, give any (integer) number to start the random-number generator.
 
 **Size**
-    Sets the dimension of the halo
+   Sets the dimension of the halo
 **Hardness**
-    Sets the hardness of the halo. Similar to specular hardness
+   Sets the hardness of the halo. Similar to specular hardness
 
 
 .. figure:: /images/Manual-Materials-HaloAdd.jpg
@@ -61,7 +61,7 @@ Halo Panel
 
 
 **Add**
-    The :guilabel:`Add` slider determine how much the halo colors are 'added to', rather than mixed with, the colors of the objects behind and together with other halos. By increasing Add, the Halo will appear to light up objects that move behind it or through the Halo field.
+   The :guilabel:`Add` slider determine how much the halo colors are 'added to', rather than mixed with, the colors of the objects behind and together with other halos. By increasing Add, the Halo will appear to light up objects that move behind it or through the Halo field.
 
 **Texture**
    Gives halo a texture. By default,
@@ -73,16 +73,16 @@ Halo Panel
    or similar.
 
 **Vertex Normal**
-    Use the vertex normal to specify the dimension of the halo
+   Use the vertex normal to specify the dimension of the halo
 **Extreme Alpha**
-    Boosts alpha
+   Boosts alpha
 **Shaded**
-    Lets halo receive light and shadows from external objects
+   Lets halo receive light and shadows from external objects
 
-       When shaded is enabled, the Halo will be affected by local light;
-       a lamp will make it brighter and affect its diffuse color and intensity.
+      When shaded is enabled, the Halo will be affected by local light;
+      a lamp will make it brighter and affect its diffuse color and intensity.
 **Soft**
-    Softens the edges of the halos at intersections with other geometry
+   Softens the edges of the halos at intersections with other geometry
 
 In addition, several other special effects are available.
 To enable some or all of these effects, set the number of points/rings,
@@ -122,7 +122,7 @@ the Halo will appear to light up objects that move behind it or through the Halo
 
 To set the number of rings, lines, and star points independently,
 once they are enabled with the relative Toggle Button,
-use the Num Buttons :guilabel:`Rings:`\ , :guilabel:`Lines:` and :guilabel:`Star:`\ .
+use the Num Buttons :guilabel:`Rings:`, :guilabel:`Lines:` and :guilabel:`Star:`.
 Rings and lines are randomly placed and oriented, to change their pattern you can change the
 :guilabel:`Seed:` Num Button which sets the random numbers generator seed.
 
@@ -131,16 +131,17 @@ Flare Panel
 -----------
 
 Enabling Flare Renders the halo as a lens flare
+
 **Size**
-    Sets the factor by which the flare is larger than the halo
+   Sets the factor by which the flare is larger than the halo
 **Boost**
-    Give the flare extra strength.
+   Give the flare extra strength.
 **Seed**
-    Specifies an offset in the flare seed table
+   Specifies an offset in the flare seed table
 **Subflares**
-    Sets the number of subflares
+   Sets the number of subflares
 **Subsize**
-    Sets the dimensions of the subflares, dots, and circles
+   Sets the dimensions of the subflares, dots, and circles
 
 
 Lens Flares
@@ -148,23 +149,23 @@ Lens Flares
 
 Our eyes have been trained to believe that an image is real if it shows
 artifacts that result from the mechanical process of photography.
-*Motion blur*\ ,
-*Depth of Field*\ , and *lens flares*
+*Motion blur*,
+*Depth of Field*, and *lens flares*
 are just three
 examples of these artifacts. The first two are discussed in the
-*chapter_rendering*\ ; the latter can be produced with
+*chapter_rendering*; the latter can be produced with
 special halos.
 A simulated lens flare tells the viewer that the image was created with a
 camera, which makes the viewer think that it is authentic.
 
 We create lens flares in Blender from a mesh object using first the :guilabel:`Halo` button
 and then the :guilabel:`Flare` options in the :guilabel:`Shaders` Panel of the material
-settings. Try turning on :guilabel:`Rings` and :guilabel:`Lines`\ ,
+settings. Try turning on :guilabel:`Rings` and :guilabel:`Lines`,
 but keep the colors for these settings
 fairly subtle. Play with the :guilabel:`Flares:` number and :guilabel:`Fl.
 seed:` settings until you arrive at something that is pleasing to the eye.
 You might need to play with :guilabel:`Boost:` for a stronger effect
-(\ *Lens Flare settings*\ ).
+(*Lens Flare settings*).
 
 Note that this tool does not simulate the physics of photons traveling through a glass lens;
 it's just a eye candy.
@@ -217,7 +218,7 @@ Let's use a halo material to create a dotmatrix display.
    Dot matrix image texture.
 
 
-- Add a material for the billboard, and set it to the type :guilabel:`Halo`\ . Set the :guilabel:`HaloSize` to 0.06 and when you render the scene you should see a grid of white spots.
+- Add a material for the billboard, and set it to the type :guilabel:`Halo`. Set the :guilabel:`HaloSize` to 0.06 and when you render the scene you should see a grid of white spots.
 
 
 - Add a Texture, then change to the Texture Buttons and make it an image texture. When you load your picture and render again you should see some red tinted dots in the grid.
@@ -239,7 +240,7 @@ You can now animate the texture to move over the billboard,
 using the :guilabel:`ofsX` value in the :guilabel:`Texture` panel of the MaterialButtons.
 (You could use a higher resolution for the grid,
 but if you do you will have to adjust the size of the halos by shrinking them,
-or they will overlap. (\ *Dot Matrix display*\ ).
+or they will overlap. (*Dot Matrix display*).
 
 
 .. admonition:: Note about material indices

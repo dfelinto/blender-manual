@@ -188,20 +188,27 @@ ________________________________
 Marker panel
 ++++++++++++
 
-- The :strong:`Add Marker and Move` operator places a new marker at the position of the mouse (which is under the button in this case, not ideal but it's just how things work) and then it can be moved to the needed location. When it's moved to the desired position,
+- The :strong:`Add Marker and Move` operator places a new marker at the position of the mouse
+  (which is under the button in this case, not ideal but it's just how things work)
+  and then it can be moved to the needed location. When it's moved to the desired position,
+  FIXME(Template Unsupported: Shortcut/Mouse; {{Shortcut/Mouse|lmb}}) can be used to finish placing the new marker.
+  Also, :kbd:`Enter` and :kbd:`Space` can be used to finish placing the marker.
+  But it's faster to use :kbd:`Ctrl-lmb` to place markers directly on the footage.
+  This shortcut will place the marker in the place you've clicked.
+  One more feature here: until you've released the mouse button,
+  you can adjust the marker position by moving the mouse and using
+  the track preview widget to control how accurately the marker is placed.
 
-FIXME(Template Unsupported: Shortcut/Mouse;
-{{Shortcut/Mouse|lmb}}
-) can be used to finish placing the new marker. Also, :kbd:`Enter` and :kbd:`Space` can be used to finish placing the marker.
-    But it's faster to use :kbd:`Ctrl-lmb` to place markers directly on the footage. This shortcut will place the marker in the place you've clicked. One more feature here: until you've released the mouse button, you can adjust the marker position by moving the mouse and using the track preview widget to control how accurately the marker is placed.
+- The :strong:`Detect Features` operator detects all possible features on the current
+  frame and places markers at these features.  This operator doesn't take into account other frames,
+  so it can place markers on features which belong to moving objects, and if camera is turning away from this shot,
+  no markers would be placed on frames after the camera moved away.
 
-- The :strong:`Detect Features` operator detects all possible features on the current frame and places markers at these features. This operator doesn't take into account other frames, so it can place markers on features which belong to moving objects, and if camera is turning away from this shot, no markers would be placed on frames after the camera moved away.
-
-    There are several properties for this operator:
-       :strong:`Placement` is used to control where to place markers. By default, they'll be added through the whole frame, but you can also outline some areas with interesting features with grease pencil and place markers only inside the outlined area. That's how the "Inside Grease Pencil" placement variant works. You can also outline areas of no interest (like trees, humans and so) and place markers outside of these areas. That's how the "Outside Grease Pencil" placement variant works.
-       :strong:`Margin` controls the distance from the image boundary for created markers. If markers are placed too close to the image boundary, they'll fail to track really quickly and they should be deleted manually. To reduce the amount of manual clean-up, this parameter can be used.
-       :strong:`Trackability` limits minimal trackability for placing markers. This value comes from the feature detection algorithm and basically it means: low values means most probably this feature would fail to track very soon, high value means it's not much such track. Amount of markers to be added can be controlled with this value.
-       :strong:`Distance` defines the minimal distance between placed markers. It's needed to prevent markers from being placed too close to each other (such placement can confuse the camera solver).
+   There are several properties for this operator:
+      :strong:`Placement` is used to control where to place markers. By default, they'll be added through the whole frame, but you can also outline some areas with interesting features with grease pencil and place markers only inside the outlined area. That's how the "Inside Grease Pencil" placement variant works. You can also outline areas of no interest (like trees, humans and so) and place markers outside of these areas. That's how the "Outside Grease Pencil" placement variant works.
+      :strong:`Margin` controls the distance from the image boundary for created markers. If markers are placed too close to the image boundary, they'll fail to track really quickly and they should be deleted manually. To reduce the amount of manual clean-up, this parameter can be used.
+      :strong:`Trackability` limits minimal trackability for placing markers. This value comes from the feature detection algorithm and basically it means: low values means most probably this feature would fail to track very soon, high value means it's not much such track. Amount of markers to be added can be controlled with this value.
+      :strong:`Distance` defines the minimal distance between placed markers. It's needed to prevent markers from being placed too close to each other (such placement can confuse the camera solver).
 
 - :strong:`Delete Track` is a quite self-explaining operator which deletes all selected tracks.
 
@@ -215,8 +222,8 @@ Track panel
   - Forward along the whole sequence
   - Forward one frame
 
-    This operator depends on settings from the Tracking Settings panel, which will be described later.
-    If during sequence tracking the algorithm fails to track some markers, they'll be disabled and tracking will continue for the rest of the markers. If the algorithm fails when tracking frame-by-frame, the marker is not disabled, and the most likely position of the feature on the next frame is used.
+   This operator depends on settings from the Tracking Settings panel, which will be described later.
+   If during sequence tracking the algorithm fails to track some markers, they'll be disabled and tracking will continue for the rest of the markers. If the algorithm fails when tracking frame-by-frame, the marker is not disabled, and the most likely position of the feature on the next frame is used.
 
 - :strong:`Clear After` deletes all tracked and keyframed markers after the current frame for all selected tracks.
 - :strong:`Clear Before` deletes all tracked and keyframed markers before the current frame for all selected tracks.
@@ -308,7 +315,7 @@ New objects can be added using :kbd:`+` and the active object can be deleted wit
 Text entry at the bottom of this panel is used to rename the active object.
 
 If some tracks were added and tracked to the wrong object, they can be copied to another
-object using :menuselection:`Track --> Copy Tracks` and :menuselection:`Track --> Paste Tracks`\ .
+object using :menuselection:`Track --> Copy Tracks` and :menuselection:`Track --> Paste Tracks`.
 
 The usage for all kind of objects (used for camera and object tracking) is the same:
 track features, set camera data, solve motion. Camera data is sharing between all objects and
@@ -403,7 +410,7 @@ This panel contains all settings which control things displayed in the clip edit
 - :strong:`Disabled Tracks` makes it possible to hide all tracks which are disabled on the current frame. This helps to make view more clear, to see if tracking is happening accurately enough.
 - :strong:`Bundles` makes sense after solving the movie clip, and it works in the following way: the solved position of each track gets projected back to the movie clip and displayed as a small point. The color of the point depends on the distance between the projected coordinate and the original coordinate: if they are close enough, the point is green, otherwise it'll be red. This helps to find tracks which weren't solved nicely and need to be tweaked.
 - :strong:`Track Names and Status` displays information such as track name and status of the track (if it's keyframed, disabled, tracked or estimated). Names and status for selected tracks are displayed.
-- :strong:`Compact Markers`\ . The way in which markers are displayed (black outline and yellow foreground color) makes tracks visible on all kind of footage (both dark and light). But sometimes it can be annoying and this option will make the marker display more compactly - the outline is replaced by dashed black lines drawn on top of the foreground, so that marker areas are only 1px thick.
+- :strong:`Compact Markers`. The way in which markers are displayed (black outline and yellow foreground color) makes tracks visible on all kind of footage (both dark and light). But sometimes it can be annoying and this option will make the marker display more compactly - the outline is replaced by dashed black lines drawn on top of the foreground, so that marker areas are only 1px thick.
 - :strong:`Grease pencil` controls if grease pencil strokes are allowed to be displayed and made.
 - :strong:`Mute` changes displaying on movie frame itself with black square, It helps to find tracks which are tracked inaccurately or which weren't tracked at all.
 - :strong:`Grid` (available in distortion mode only) displays a grid which is originally orthographic, but os affected by the distortion model. This grid can be used for manual calibration - distorted lines of grids are equal to straight lines in the footage.
@@ -562,11 +569,11 @@ A single extra track needs to be set for this, and it works in the following way
 On first frame of the movie, this track is connected with the median point of the tracks from
 list above and angle between horizon and this segment is ket constant through the whole
 footage. The amount of rotation applied to the footage can be controlled by :strong:`Rotation
-Influence`\ .
+Influence`.
 
 If the camera jumps a lot, there'll be noticeable black areas near image boundaries.
 To get rid of these black holes, there's the :strong:`Autoscale` option,
 which finds smallest scale factor which, when applied to the footage,
 would eliminate all the black holes near the image boundaries.
-There's an option to control the maximal scale factor, (\ :strong:`Maximal Scale`\ ),
-and the amount of scale applied to the footage (\ :strong:`Scale Influence`\ ).
+There's an option to control the maximal scale factor, (:strong:`Maximal Scale`),
+and the amount of scale applied to the footage (:strong:`Scale Influence`).

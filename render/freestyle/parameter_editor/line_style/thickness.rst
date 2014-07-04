@@ -16,6 +16,7 @@ In this tab you control the thickness of your strokes.
 
 :guilabel:`Thickness Position`
    Control the position of stroke thickness from the original (backbone) stroke geometry. There are four choices:
+
    :guilabel:`Center`
       The thickness is evenly split to the left and right side of the stroke geometry.
    :guilabel:`Inside`
@@ -26,7 +27,7 @@ In this tab you control the thickness of your strokes.
       This allows you to specify the relative position by a number between **0.0** (inside) and **1.0** (outside), in the :guilabel:`Thickness Ratio` numeric field just below.
 
 The thickness position options are applied only to strokes of edge types
-:guilabel:`Silhouette` and :guilabel:`Border`\ ,
+:guilabel:`Silhouette` and :guilabel:`Border`,
 since these are the only edge types defined in terms of the object boundary.
 Strokes of other edge types are always drawn using the :guilabel:`Center` option.
 
@@ -55,7 +56,7 @@ linear progression or a custom curve, mapped along each stroke's length. In othe
 it applies the selected progression along each stroke.
 
 :guilabel:`Mapping`
-   Either a linear progression (from **0.0** to **1.0**\ , which may be inverted with the :guilabel:`Invert` option), or a custom mapping curve.
+   Either a linear progression (from **0.0** to **1.0**, which may be inverted with the :guilabel:`Invert` option), or a custom mapping curve.
 
 
 Calligraphy
@@ -76,7 +77,7 @@ It generates different thickness based on the orientation of the stroke.
    The angle (orientation) of the virtual drawing tool, from the vertical axis of the picture. For example, an angle of **0.0- ** mimics a pen aligned with the vertical axis, hence the thickest strokes will be the vertical ones, and the thinnest, the horizontal ones.
 
 :guilabel:`Min Thickness` and :guilabel:`Max Thickness`
-   The minimum and maximum generated thickness (as explained above, minimum is used when the stroke's direction is perpendicular to the main :guilabel:`Orientation`\ , and maximum, when aligned with it).
+   The minimum and maximum generated thickness (as explained above, minimum is used when the stroke's direction is perpendicular to the main :guilabel:`Orientation`, and maximum, when aligned with it).
 
 
 .. figure:: /images/Toycar_Calligraphy.jpg
@@ -101,10 +102,15 @@ either a linear progression or a custom curve,
 using the distance to the active camera as the parameter.
 
 :guilabel:`Mapping`
-   Either a linear progression (from **0.0** to **1.0**\ , which may be inverted with the :guilabel:`Invert` option), or a custom mapping curve.
+   Either a linear progression (from **0.0** to **1.0**, which may be inverted with the :guilabel:`Invert` option), or a custom mapping curve.
 
 :guilabel:`Range Min` and :guilabel:`Range Max`
-   The limits of the mapping from "distance to camera" to "thickness in mapping". If the current point of the stroke is at :guilabel:`Range Min` or less from the active camera, it will take the start thickness of the mapping, and conversely, if it is at :guilabel:`Range Max` or more from the camera, it will take the end thickness of the mapping. These values are in the current scene's units, not in pixels!
+   The limits of the mapping from "distance to camera" to "thickness in mapping".
+   If the current point of the stroke is at :guilabel:`Range Min` or less from the active camera,
+   it will take the start thickness of the mapping, and conversely,
+   if it is at :guilabel:`Range Max` or more from the camera, it will take the end thickness of the mapping.
+   These values are in the current scene's units, not in pixels!
+
 
 :guilabel:`Fill Range by Selection`
    Set the min/max range values from the distances between the current selected objects and the camera.
@@ -128,7 +134,7 @@ using the distance to a given object as parameter.
    The object to measure distance from.
 
 :guilabel:`Mapping`
-   Either a linear progression (from **0.0** to **1.0**\ , which may be inverted with the :guilabel:`Invert` option), or a custom mapping curve.
+   Either a linear progression (from **0.0** to **1.0**, which may be inverted with the :guilabel:`Invert` option), or a custom mapping curve.
 
 :guilabel:`Range Min` and :guilabel:`Range Max`
    The limits of the mapping from "distance to object" to "alpha in mapping". If the current point of the stroke is at :guilabel:`Range Min` or less from the target, it will take the start thickness of the mapping, and conversely, if it is at :guilabel:`Range Max` or more from the target, it will take the end thickness of the mapping. These values are in the current scene's units, not in pixels!
@@ -154,7 +160,7 @@ You can use various properties of the materials, among which some are multi-comp
 give RGB results). In that case, the mean value will be used.
 
 :guilabel:`Mapping`
-   Either a linear progression (from **0.0** to **1.0**\ , which may be inverted with the :guilabel:`Invert` option), or a custom mapping curve. Note the linear non-inverted option is equivalent to "do nothing", as original values from materials are already in the [0.0, 1.0] range…
+   Either a linear progression (from **0.0** to **1.0**, which may be inverted with the :guilabel:`Invert` option), or a custom mapping curve. Note the linear non-inverted option is equivalent to "do nothing", as original values from materials are already in the [0.0, 1.0] range…
 
 If used with the :guilabel:`Split by Material` option in the :guilabel:`Stroke` tab,
 the result will not be blurred between materials along the strokes.

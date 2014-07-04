@@ -6,7 +6,7 @@ Armature Structure
    :width: 250px
    :figwidth: 250px
 
-   The very basic armature of the :doc:`Gingerbread Man tutorial <your_first_animation/2.animating_the_gingerbread_man>`\ .
+   The very basic armature of the :doc:`Gingerbread Man tutorial <your_first_animation/2.animating_the_gingerbread_man>`.
 
 
 Armatures mimic real skeletons. They are made out of bones, which are (by default) rigid elements. But you have more possibilities than with real skeletons: In addition to the "natural" rotation of bones, you can also translate and even scale them! And your bones do not have to be connected to each other; they can be completely free if you want. However, the most natural and useful setups imply that some bones are related to others, forming so-called "chains of bones", which create some sort of "limbs" in your armature, as detailed
@@ -34,13 +34,13 @@ you create a "chains of bones". These chains can be ramified. For example,
 five fingers attached to a single "hand" bone.
 
 Bones are chained by linking the tip of the parent to the root of the child.
-Root and tip can be *connected*\ , i.e. they are always exactly at the same point;
-or they can be *free*\ , like in a standard parent-child object relationship.
+Root and tip can be *connected*, i.e. they are always exactly at the same point;
+or they can be *free*, like in a standard parent-child object relationship.
 
 A given bone can be the parent of several children,
 and hence be part of several chains at the same time.
 
-The bone at the beginning of a chain is called its *root bone*\ ,
+The bone at the beginning of a chain is called its *root bone*,
 and the last bone of a chain is the *tip bone*
 (don't confuse them with similar names of bones' ends!).
 
@@ -50,7 +50,7 @@ Chains of bones are a particularly important topic in :doc:`posing <rigging/posi
 Editing Bones Relationships
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-This is detailed in the :doc:`editing pages <rigging/armatures/editing/properties#chain_editing>`\ , but let us have a quick look at this important feature.
+This is detailed in the :doc:`editing pages <rigging/armatures/editing/properties#chain_editing>`, but let us have a quick look at this important feature.
 
 
 .. figure:: /images/Man2.5RiggingEditingBoneCxtRelationsPanel.jpg

@@ -20,24 +20,24 @@ Spot Volumetric Effects
 :guilabel:`Intensity`
    The :guilabel:`Intensity` slider controls how intense/dense the volumetric effect is that is generated from the light source. The lower the value of the :guilabel:`Intensity` slider, the less visible the volumetric effect is, while higher :guilabel:`Intensity` values give a much more noticeable and dense volumetric effect.
 :guilabel:`Step`
-   This field can have a value between **0** and **12**\ . It is used to determine whether this :guilabel:`Spot` will cast volumetric shadows, and what quality those volumetric shadows will have.
-    If :guilabel:`Step` is set to a value of **0**\ , then no volumetric shadow will be generated.
-    Unlike most other controls, as the :guilabel:`Step` value increases, the quality of volumetric shadows decreases (but take less time to render), and *vice versa*\ .
+   This field can have a value between **0** and **12**. It is used to determine whether this :guilabel:`Spot` will cast volumetric shadows, and what quality those volumetric shadows will have.
+   If :guilabel:`Step` is set to a value of **0**, then no volumetric shadow will be generated.
+   Unlike most other controls, as the :guilabel:`Step` value increases, the quality of volumetric shadows decreases (but take less time to render), and *vice versa*.
 
 .. admonition:: :guilabel:`Step` values
    :class: nicetip
 
-    A value of **8** for :guilabel:`Halo Step` is usually a good compromise between speed and accuracy.
+   A value of **8** for :guilabel:`Halo Step` is usually a good compromise between speed and accuracy.
 
 
-    Blender only simulates volumetric lighting in :guilabel:`Spot` lamps when using its internal renderer. This can lead to some strange results for certain combinations of settings for the light's :guilabel:`Energy` and the halo's :guilabel:`Intensity`\ .
-    For example, having a :guilabel:`Spot` light with null or very low light :guilabel:`Energy` settings but a very high halo :guilabel:`Intensity` setting can result in a dark/black halo, which would not happen in the real world. Just be aware of this possibility when using halos with the internal renderer.
+   Blender only simulates volumetric lighting in :guilabel:`Spot` lamps when using its internal renderer. This can lead to some strange results for certain combinations of settings for the light's :guilabel:`Energy` and the halo's :guilabel:`Intensity`.
+   For example, having a :guilabel:`Spot` light with null or very low light :guilabel:`Energy` settings but a very high halo :guilabel:`Intensity` setting can result in a dark/black halo, which would not happen in the real world. Just be aware of this possibility when using halos with the internal renderer.
 
 
 .. admonition:: Note
    :class: note
 
-    The halo effect can be greatly enhanced when using buffered shadows: when the halo's :guilabel:`Step` is not null, they can create "volumetric shadows". See the page about :guilabel:`Spot` :doc:`Buffered Shadows <lighting/lamps/spot/buffered_shadows>` for more information.
+   The halo effect can be greatly enhanced when using buffered shadows: when the halo's :guilabel:`Step` is not null, they can create "volumetric shadows". See the page about :guilabel:`Spot` :doc:`Buffered Shadows <lighting/lamps/spot/buffered_shadows>` for more information.
 
 
 See Also

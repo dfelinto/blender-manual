@@ -20,7 +20,8 @@ Menu for parenting operation required.
 
 
 **Set Parent**
-Make this object to be current object's parent
+   Make this object to be current object's parent
+
    :guilabel:`Parent Object`
       Name of parent object
    :guilabel:`Compound'`
@@ -29,7 +30,8 @@ Make this object to be current object's parent
       Make this object ghost while parented
 
 **Remove Parent**
-Remove all parents of current object
+   Remove all parents of current object
+
    :guilabel:`Parent Object`
       Name of parent object
 

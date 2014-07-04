@@ -13,7 +13,7 @@ independent copy of your Scene or a new copy that links to your original Scene i
 ways.
 
 You can select and create scenes with the :guilabel:`Scene selector` in the Info window header
-(the bar at the top of most Blender layouts, see *Screen and Scene selectors*\ ).
+(the bar at the top of most Blender layouts, see *Screen and Scene selectors*).
 
 
 .. figure:: /images/Manual-Part-I-ConceptScreens25.jpg
@@ -37,11 +37,11 @@ You can add a new scene by clicking
 .. figure:: /images/Manual-Part-I-Interface-Screens-AddView-Button25.jpg
 
 
- in the Scene selector option. When you create a new scene, you can choose between five options to control its contents (\ *Add Scene menu*\ ).
+ in the Scene selector option. When you create a new scene, you can choose between five options to control its contents (*Add Scene menu*).
 
 To choose between these options,
 you need to clearly understand the difference between "Objects" and "Object Data".
-Each Blender graphic element (Mesh, Lamp, Curve, *etc.*\ ) is composed from two parts:
+Each Blender graphic element (Mesh, Lamp, Curve, *etc.*) is composed from two parts:
 an Object and Object Data (also known as ObData).
 The Object holds information about the position, rotation and size of a particular element.
 The ObData holds information about meshes, material lists and so on.
@@ -121,5 +121,5 @@ You can delete a scene by using the :guilabel:`Delete datablock` button (
 .. figure:: /images/Manual-Part-I-Interface-Screens-DeleteView-Button25.jpg
 
 
-) from the Scene selector option (see *Screen and Scene selectors*\ ).
+) from the Scene selector option (see *Screen and Scene selectors*).
 

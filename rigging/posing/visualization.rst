@@ -24,7 +24,7 @@ Colors
 
 In :guilabel:`Pose` mode, the bones can have different colors,
 following two different processes, controlled by the :guilabel:`Color` button
-(\ :guilabel:`Armature` panel, :guilabel:`Editing` context, :kbd:`F9`\ ):
+(:guilabel:`Armature` panel, :guilabel:`Editing` context, :kbd:`F9`):
 
 - When it is disabled, bones are colored based on their "state" (i.e. if they use constraints, if they are posed, etc.).
 - When it is enabled, bones are colored depending on which bone group they belong to (or as above if they belong to no group).
@@ -45,37 +45,37 @@ ordered here by precedence (i.e. the bone will be of the color of the topmost va
 
 **FIXME(Tag Unsupported:span;
 <span style="color:#6767A5">Purple</span>
-)**\ : The :doc:`Stride Root bone <animation/techs/armatures/stride>`\ .
+)** : The :doc:`Stride Root bone <animation/techs/armatures/stride>`.
 
 -
 
 **FIXME(Tag Unsupported:span;
 <span style="color:#B69667">Orange</span>
-)**\ : A bone with a targetless Solver constraint.
+)** : A bone with a targetless Solver constraint.
 
 -
 
 **FIXME(Tag Unsupported:span;
 <span style="color:#B6B666">Yellow</span>
-)**\ : A bone with an :doc:`IK Solver constraint <constraints/tracking/ik_solver>`\ .
+)** : A bone with an :doc:`IK Solver constraint <constraints/tracking/ik_solver>`.
 
 -
 
 **FIXME(Tag Unsupported:span;
 <span style="color:#67B68B">Green</span>
-)**\ : A bone with any other kind of constraint.
+)** : A bone with any other kind of constraint.
 
 -
 
 **FIXME(Tag Unsupported:span;
 <span style="color:#80A5B6">Blue</span>
-)**\ : A bone that is posed (i.e. has keyframes).
+)** : A bone that is posed (i.e. has keyframes).
 
 -
 
 **FIXME(Tag Unsupported:span;
 <span style="color:#959595">Gray</span>
-)**\ : Default state.
+)** : Default state.
 
 
 Coloring from Bone Group
@@ -91,11 +91,11 @@ Coloring from Bone Group
 The bone groups panel is available in the Object data editor for an armature.
 Bone groups facilitate the colouring (theming) of multiple bones.
 Bone groups are managed mostly in the :guilabel:`Buttons` window, :guilabel:`Editing` context
-(\ :kbd:`F9`\ ).
+(:kbd:`F9`).
 
 To create a new bone group,
 click on the :guilabel:`Add Group` button in the :guilabel:`Bone Groups:` buttons set
-(\ :guilabel:`Link and Materials` panel). Once created,
+(:guilabel:`Link and Materials` panel). Once created,
 you can use the top row of controls to select another group in the drop-down list
 ("arrows" button), rename the current group (text field), or delete it ("X" button).
 
@@ -114,7 +114,7 @@ To assign a selected bone to a given bone group you can do one of the following:
 
 
 In the 3D views, using the :menuselection:`Pose --> Bone Groups` menu entries,
-and/or the :guilabel:`Bone Groups` pop-up menu (\ :kbd:`ctrl-G`\ ), you can:
+and/or the :guilabel:`Bone Groups` pop-up menu (:kbd:`ctrl-G`), you can:
 
 :guilabel:`Assign to New Group`
    Assigns selected bones to a new bone group
@@ -134,12 +134,12 @@ and/or the :guilabel:`Bone Groups` pop-up menu (\ :kbd:`ctrl-G`\ ), you can:
 
 
 You can also assign a "color theme" to a group (each bone will have these colors).
-Remember you have to enable the :guilabel:`Colors` button (\ :guilabel:`Armature` panel)
+Remember you have to enable the :guilabel:`Colors` button (:guilabel:`Armature` panel)
 to see these colors. Use the :guilabel:`Bone Color Set` drop-down list to select:
 
-- The default (gray) colors (\ :guilabel:`Default Colors`\ ).
-- One of the twenty Blender presets (\ :guilabel:`nn - Theme Color Set`\ ), common to all groups.
-- A custom set of colors (\ :guilabel:`Custom Set`\ ), which is specific to each group.
+- The default (gray) colors (:guilabel:`Default Colors`).
+- One of the twenty Blender presets (:guilabel:`nn - Theme Color Set`), common to all groups.
+- A custom set of colors (:guilabel:`Custom Set`), which is specific to each group.
 
 Below this list, you have three color swatches and a button.
 
@@ -187,7 +187,7 @@ The ghosts are simply black drawings (more or less opaque)
 of the bones' outlines as they are at certain frames.
 
 The ghosts settings are found in the :guilabel:`Visualisations` panel
-(\ :guilabel:`Editing` context, :kbd:`F9`\ ), only available in :guilabel:`Pose` mode.
+(:guilabel:`Editing` context, :kbd:`F9`), only available in :guilabel:`Pose` mode.
 You have three different types of ghosts, sharing more or less the same options:
 
 :guilabel:`Around Current Frame`
@@ -215,7 +215,7 @@ You have three different types of ghosts, sharing more or less the same options:
    Oddly, the shading of ghosts is reversed compared to :guilabel:`In Range` - from opaque for the first keyframe, to transparent for the last keyframe.
 
 
-Finally, these ghosts are also active when playing the animation (\ :kbd:`alt-A`\ )
+Finally, these ghosts are also active when playing the animation (:kbd:`alt-A`)
 - this is only useful with the :guilabel:`Around Current Frame` option, of course…
 
 Note also that there is no "global switch" to disable this display feature - to do so,
@@ -234,7 +234,7 @@ Motion Paths
    | Mode:     :guilabel:`Pose` mode
    | Panel:    :guilabel:`Visualisations`
    | Menu:     :menuselection:`Pose --> Motion Paths --> …`
-   | Hotkey:   :kbd:`W-num3`\ , :kbd:`W-num4`
+   | Hotkey:   :kbd:`W-num3`, :kbd:`W-num4`
 
 
 .. figure:: /images/ManRiggingPosingMotionPathsEx.jpg
@@ -247,13 +247,13 @@ Motion Paths
 This feature allows you to visualize as curves the paths of bones' ends (either their tips,
 by default, or their roots).
 
-Before we look at its options (all regrouped in the same :guilabel:`Visualisations` panel, in the :guilabel:`Editing` context, :kbd:`F9`\ ), let's first see how to display/hide these paths. Unlike
+Before we look at its options (all regrouped in the same :guilabel:`Visualisations` panel, in the :guilabel:`Editing` context, :kbd:`F9`), let's first see how to display/hide these paths. Unlike
 FIXME(TODO: Internal Link;
 [[#Ghosts|ghosts]]
 ), you have to do it manually - and you have to first select the bones you want to show/hide the motion paths. Then,
 
-- To show the paths (or update them, if needed), click on the :guilabel:`Calculate Path` button of the :guilabel:`Visualisations` panel, or, in the 3D views, select the :menuselection:`Pose --> Motion Paths --> Calculate Paths` menu entry (or use the :guilabel:`Specials` pop-up menu, :kbd:`W-num3`\ ).
-- To hide the paths, click on the :guilabel:`Clear Paths` button, or, in the 3D views, do :menuselection:`Pose --> Motion Paths --> Clear All Paths`\ , or :kbd:`W-num4`\ .
+- To show the paths (or update them, if needed), click on the :guilabel:`Calculate Path` button of the :guilabel:`Visualisations` panel, or, in the 3D views, select the :menuselection:`Pose --> Motion Paths --> Calculate Paths` menu entry (or use the :guilabel:`Specials` pop-up menu, :kbd:`W-num3`).
+- To hide the paths, click on the :guilabel:`Clear Paths` button, or, in the 3D views, do :menuselection:`Pose --> Motion Paths --> Clear All Paths`, or :kbd:`W-num4`.
 
 Remember: only selected bones and their paths are affected by these actions!
 
@@ -262,7 +262,7 @@ and a slightly blueish gray for selected ones.
 Each frame is materialized by a small white dot on the paths.
 
 As with ghosts, the paths are automatically updated when you edit your poses/keyframes,
-and they are also active during animation playback (\ :kbd:`alt-A`\ ,
+and they are also active during animation playback (:kbd:`alt-A`,
 only useful when the :guilabel:`Around Current Frame` option is enabled).
 
 
@@ -299,11 +299,11 @@ And now, the paths options:
    For bone motion paths, search whole Action for keyframes instead of in group with matching name only (is slower)
 
 :guilabel:`Calculate`
-   :guilabel:`Start`\ /\ :guilabel:`End`
-      These are the start/end frames of the range in which motion paths are drawn. *You have to* :guilabel:`Calculate Paths` *again when you modify this setting*\ , to update the paths in the 3D views.
-      Note that unlike with ghosts, the start frame is *inclusive* (i.e. if you set :guilabel:`PSta` to **1**\ , you'll really see the frame **1** as starting point of the paths…).
+   :guilabel:`Start` / :guilabel:`End`
+      These are the start/end frames of the range in which motion paths are drawn. *You have to* :guilabel:`Calculate Paths` *again when you modify this setting*, to update the paths in the 3D views.
+      Note that unlike with ghosts, the start frame is *inclusive* (i.e. if you set :guilabel:`PSta` to **1**, you'll really see the frame **1** as starting point of the paths…).
 
    :guilabel:`Bake Location`
-      By default, you get the tips' paths. By changing this setting to Tails, you'll get the paths of the bone's roots (remember that in Blender UI, bones' roots are called "heads"…). *You have to* :guilabel:`Calculate Paths` *again when you modify this setting*\ , to update the paths in the 3D views.
+      By default, you get the tips' paths. By changing this setting to Tails, you'll get the paths of the bone's roots (remember that in Blender UI, bones' roots are called "heads"…). *You have to* :guilabel:`Calculate Paths` *again when you modify this setting*, to update the paths in the 3D views.
 
 

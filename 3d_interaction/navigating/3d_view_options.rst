@@ -40,9 +40,9 @@ and the type of work you are currently doing, you can switch between several dra
 
 You can switch between these draw modes by:
 
-- Using the :guilabel:`Draw type` drop-down list in the 3D views' header (see *A 3D view's draw mode button*\ ).
+- Using the :guilabel:`Draw type` drop-down list in the 3D views' header (see *A 3D view's draw mode button*).
 - Pressing :kbd:`D` to pop-up the :guilabel:`Draw mode` menu.
-- Using the :kbd:`Z`\ -based shortcuts as detailed below:
+- Using the :kbd:`Z` -based shortcuts as detailed below:
 
 +-------------------------------------+-------------------------------------------------------------------------+
 +**Draw modes and Z-based shortcuts.**                                                                          +
@@ -82,10 +82,10 @@ View
 
 
 :guilabel:`Lens`
-    Control the focal length of the 3d view camera in millimeters, unlike a :doc:`rendering camera <render/camera>`
+   Control the focal length of the 3d view camera in millimeters, unlike a :doc:`rendering camera <render/camera>`
 
 :guilabel:`Lock to Object`
-   By entering the name of an object in the :guilabel:`Object` field, you lock your view to this object, i.e. it will always be at the center of the view (the only exception is the active camera view, :kbd:`pad0`\ ).
+   By entering the name of an object in the :guilabel:`Object` field, you lock your view to this object, i.e. it will always be at the center of the view (the only exception is the active camera view, :kbd:`pad0`).
    If the locked object is an armature, you can further center the view on one of its bones by entering its name in the :guilabel:`Bone` field.
 
 :guilabel:`Lock to Cursor`
@@ -102,11 +102,11 @@ View
    :class: note
 
 
-    .. warning::
+   .. warning::
 
       FIXME - warning body below
 
-    A large clipping range will allow you to see both near and far objects, but reduces the depth precision.
+   A large clipping range will allow you to see both near and far objects, but reduces the depth precision.
 
    To avoid this...
 
@@ -157,7 +157,7 @@ Display
 :guilabel:`Only Render`
    Displays only items that will be rendered.
 :guilabel:`Outline Selected`
-   If disabled, the pink outline around your selected objects in :guilabel:`Solid`\ /\ :guilabel:`Shaded`\ /\ :guilabel:`Textured` draw types will no longer be displayed.
+   If disabled, the pink outline around your selected objects in :guilabel:`Solid` / :guilabel:`Shaded` / :guilabel:`Textured` draw types will no longer be displayed.
 :guilabel:`All Object Origins`
    If enabled, the center dot of objects will always be visible, even for non-selected ones (by default, unselected centers might be hidden by geometry in solid/shaded/textured shadings…).
 :guilabel:`Relationship Lines`
@@ -166,7 +166,7 @@ Display
    When wire overlay is enabled in the :guilabel:`Object` context, this options forces all of the wireframe to be displayed in the viewport.
 :guilabel:`Grid Floor`
    If disabled, you have no grid in other views than the orthographic top/front/side ones.
-:guilabel:`X Axis`\ , :guilabel:`Y Axis`\ , :guilabel:`Z Axis`
+:guilabel:`X Axis`, :guilabel:`Y Axis`, :guilabel:`Z Axis`
    Control which axes are shown in other views than the orthographic top/front/side ones.
 :guilabel:`Lines`
    Controls the number of lines that make the grid in non-top/front/side orthographic views, in both directions.
@@ -199,14 +199,17 @@ you can have reference pictures of faces when painting textures directly on your
 or animation (when using a video as background), etc.
 
 
- .. warning::
+.. warning::
 
    FIXME - warning body below
 
 There are a few points worth to be noted about background images:
 
-- They are specific to their window (i.e. you can have different backgrounds for each of your 3D views, e.g. top/front/side images for relevant views…).
-- *They are only available for* :guilabel:`Top`\ *,* :guilabel:`Side` *and* :guilabel:`Front` *(and their complementary versions) orthographic views!* The picture remains the same when you switch between these six views.
+- They are specific to their window (i.e. you can have different backgrounds for each of your 3D views, e.g.
+  top/front/side images for relevant views…).
+- *They are only available for* :guilabel:`Top` *,* :guilabel:`Side` *and* :guilabel:`Front`
+  *(and their complementary versions) orthographic views!*
+  The picture remains the same when you switch between these six views.
 - Their size is related to the window's zooming factor (i.e. they grow big when you zoom in, etc.).
 - You can use video files and animated sequences.
 
@@ -220,7 +223,7 @@ Settings
 
 
 Blender manages this feature through the :guilabel:`Background Image` menu on the view
-properties panel (\ :kbd:`N`\ ). The option box at the top of this panel toggles the
+properties panel (:kbd:`N`). The option box at the top of this panel toggles the
 :guilabel:`Background Image` feature on/off. By default, there is only space for one image.
 The settings can be accessed by :kbd:`LMB` the white triangle.
 
@@ -236,7 +239,8 @@ When the image is loaded, the following settings become available.
       Use an image file
 
       :guilabel:`Source File`
-         Represents the actual file that is linked to the current datablock. Supported formats include bmp, gif, jpg, png, tga, and tif.
+         Represents the actual file that is linked to the current datablock.
+         Supported formats include bmp, gif, jpg, png, tga, and tif.
 
    :guilabel:`Sequence`
       a sequence of numbered image files
@@ -262,7 +266,7 @@ When the image is loaded, the following settings become available.
    :guilabel:`Generated`
       Use a image generated in Blender:
 
-      :guilabel:`Width`\ , :guilabel:`Height`
+      :guilabel:`Width`, :guilabel:`Height`
          Set the width and height if the image in pixels
       :guilabel:`Blank`
          Generates a blank image
@@ -272,11 +276,18 @@ When the image is loaded, the following settings become available.
          Creates a colored grid for testing UV mappings
 
 :guilabel:`Opacity`
-   This slider controls the transparency of the background image (from **0.0** - fully opaque - to **1.0** - fully transparent).
+   This slider controls the transparency of the background image
+   (from **0.0** - fully opaque - to **1.0** - fully transparent).
 :guilabel:`Size`
-   Controls the size, or scale, of the picture in the 3D view (in Blender units). This is a scalar value so that width and height of the background image are each multiplied by the value to determine the size at which the background image is displayed. If one wishes to change the proportions of the image, it must be done in an impage processing program, such as GIMP.
-:guilabel:`X Offset`\ , :guilabel:`Y Offset`
-   The horizontal and vertical offset of the background image in the view (by default, it is centered on the origin), in Blender units.
+   Controls the size, or scale, of the picture in the 3D view (in Blender units).
+   This is a scalar value so that width and height of the background image are each multiplied by the value to
+   determine the size at which the background image is displayed.
+   If one wishes to change the proportions of the image, it must be done in an impage processing program,
+   such as GIMP.:guilabel:`X Offset`, :guilabel:`Y Offset`
+
+   The horizontal and vertical offset of the background image in the view (by default, it is centered on the origin),
+   in Blender units.
+
 
 
 .. admonition:: Use Lo-Res Proxy

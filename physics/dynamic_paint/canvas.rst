@@ -60,13 +60,13 @@ Common options
 ~~~~~~~~~~~~~~
 
 For each surface type there are special settings to adjust.
-Most types have the settings *Dissolve* and *Brush*\ :
+Most types have the settings *Dissolve* and *Brush* :
 
 *Dissolve*
-    used to make the surface smoothly return to its original state during a defined time period
+   used to make the surface smoothly return to its original state during a defined time period
 
 *Brush Group*
-    used to define a specific object group to pick brush objects from
+   used to define a specific object group to pick brush objects from
 
 
 Paint
@@ -119,20 +119,21 @@ This surface type produces simulated wave motion. Like displace,
 wave surface also uses brush intersection depth to define brush strength.
 
 You can use following settings to adjust the motion:
+
 *Open Borders*
-    Allows waves to pass through mesh "edges" instead of reflecting from them.
+   Allows waves to pass through mesh "edges" instead of reflecting from them.
 
 *Timescale*
-    Directly adjusts simulation speed without affecting simulation outcome. Lower values make simulation go slower and otherwise.
+   Directly adjusts simulation speed without affecting simulation outcome. Lower values make simulation go slower and otherwise.
 
 *Speed*
-    Affects how fast waves travel on the surface. This setting is also corresponds to the size of the simulation. Half the speed equals surface double as large.
+   Affects how fast waves travel on the surface. This setting is also corresponds to the size of the simulation. Half the speed equals surface double as large.
 
 *Damping*
-    Reduces the wave strength over time. Basically adjusts how fast wave disappears.
+   Reduces the wave strength over time. Basically adjusts how fast wave disappears.
 
 *Spring*
-    Adjusts the force that pulls water back to "zero level".
+   Adjusts the force that pulls water back to "zero level".
 
 
 .. admonition:: Tip
@@ -192,14 +193,15 @@ This is a special feature for "Paint" type surface.
 It generates animated movement on canvas surface.
 
 Currently there are 3 effects available:
+
 *Spread*
-    Paint slowly spreads to surrounding points eventually filling all connected areas.
+   Paint slowly spreads to surrounding points eventually filling all connected areas.
 
 *Drip*
-    Paint moves in specific direction specified by Blender force fields, gravity and velocity with user defined influences.
+   Paint moves in specific direction specified by Blender force fields, gravity and velocity with user defined influences.
 
 *Shrink*
-    Painted area slowly shrinks until disappears completely.
+   Painted area slowly shrinks until disappears completely.
 
 For spread and drip effects, only "wet paint" is affected, so as the paint dries,
 movement becomes slower until it stops.

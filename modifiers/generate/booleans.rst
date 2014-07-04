@@ -15,7 +15,7 @@ Introduction
 The :guilabel:`Boolean` Modifier performs operations on meshes that are otherwise too complex
 to achieve with few steps by editing meshes manually, meaning you can achieve good results
 with little to no effort to make mesh operations like Unions, Differences and Intersections.
-The :guilabel:`Boolean` modifier uses one of three Boolean operations (\ :guilabel:`Difference`
+The :guilabel:`Boolean` modifier uses one of three Boolean operations (:guilabel:`Difference`
 (negation), :guilabel:`Union` (conjunction), and :guilabel:`Intersect` (disjunction))
 to create a single compound object out of two :guilabel:`Mesh` objects.
 
@@ -38,7 +38,14 @@ creates a complete topology in the faces it's being used. This means that this m
 only work properly for the intersection of faces of the two meshes that will result in another
 closed loop of edges (filled with faces), creating a new resulting face topology.
 
-The Boolean modifier is non-destructive for the target; it uses the topology of the target to make the calculations, but you will still have the target in the scene. In normal conditions, using face normals pointed outside, when you apply the Boolean modifier operation, the modified mesh will receive changes in topology, and you will have to move the target to see the resulting mesh. The only exception is when you are using inverted normals; in this case, depending on the calculations, you will also change the topology of the target. You can see one example of a target being modified in the :doc:`Materials <modifiers/generate/booleans#materials>` section in this page, see Fig. 7 and 8.
+The Boolean modifier is non-destructive for the target; it uses the topology of the target to make the calculations,
+but you will still have the target in the scene. In normal conditions, using face normals pointed outside,
+when you apply the Boolean modifier operation, the modified mesh will receive changes in topology,
+and you will have to move the target to see the resulting mesh.
+The only exception is when you are using inverted normals;
+in this case, depending on the calculations, you will also change the topology of the target.
+You can see one example of a target being modified in the
+:doc:`Materials <modifiers/generate/booleans#materials>` section in this page, see Fig. 7 and 8.
 
 You can add this Modifier in any of the Blender Modes,
 including some other Modes of different Blender screens, but the results of the mesh operation
@@ -56,7 +63,10 @@ will only be shown in the :guilabel:`Object` Mode of the :guilabel:`3D View` Win
 .. admonition:: This is a dynamic real-time modifier!
    :class: nicetip
 
-   If you have marked your Objects to show the Edges (in Properties Window, Object Properties context, Display Tab, click *Wire*\ ), you will see the Edge creation process while you're moving your Objects, but, depending on your mesh topology, you can also enable X-Ray and Transparency and see the topology being created in real time!
+   If you have marked your Objects to show the Edges
+   (in Properties Window, Object Properties context, Display Tab, click *Wire*),
+   you will see the Edge creation process while you're moving your Objects, but, depending on your mesh topology,
+   you can also enable X-Ray and Transparency and see the topology being created in real time!
 
 
 Usage
@@ -72,7 +82,7 @@ Modifier` Button and Blender will show you a list of all of the available Modifi
 You can also click on the *Add Modifier* Button and use :kbd:`N` to add the
 :guilabel:`Boolean` Modifier,
 or use Blender search with the shortcut :kbd:`space` and type "Add Modifier" ,
-click on *Add Modifier* and press :kbd:`N`\ .
+click on *Add Modifier* and press :kbd:`N`.
 
 When you add the :guilabel:`Boolean` Modifier for an Object,
 Blender will need a second Object to perform the operation. You can use open or closed Meshes,
@@ -92,7 +102,7 @@ Options
 
 Input Box
 
-   In this Input Box you can give your Modifier a name. Blender default is *Boolean*\ .
+   In this Input Box you can give your Modifier a name. Blender default is *Boolean*.
 
 
 - The Camera Button toggles the Modifier result to be visible during rendering, and the Eye toggles the Modifier result to be visible in the real-time session (with the effect shown only in :guilabel:`Object` Mode of the :guilabel:`3D View` Window.)
@@ -100,7 +110,7 @@ Input Box
 - The **X** is used to remove the modifier from the object.
 
 :guilabel:`Apply`
-   This Button applies the operation to the modified mesh and only works in :guilabel:`Object` Mode of the :guilabel:`3D View` Window. If you click on this Button in :guilabel:`Edit` Mode, Blender will present you with the standard message for modifiers, ``Modifiers Cannot be applied in Edit Mode``\ .
+   This Button applies the operation to the modified mesh and only works in :guilabel:`Object` Mode of the :guilabel:`3D View` Window. If you click on this Button in :guilabel:`Edit` Mode, Blender will present you with the standard message for modifiers, ``Modifiers Cannot be applied in Edit Mode``.
 
 :guilabel:`Copy`
    Clicking in this Button will make Blender copy the Modifier, giving it a dot and a numeric suffix using three digits with a counter starting from 001 (e.g. Boolean.001).
@@ -112,28 +122,28 @@ Operations
 :guilabel:`Operation:`
 
    :guilabel:`Difference`
-    The modified mesh is subtracted from the target mesh.
+   The modified mesh is subtracted from the target mesh.
 
 - If the target Mesh uses inverted normals, Blender will Intersect the modified mesh.
 - If the modified Mesh uses inverted normals, Blender will add both meshes (Union).
 - If both Meshes use inverted normals, Blender will Intersect the target Mesh.
 
    :guilabel:`Union`
-    The target mesh is added to the modified mesh.
+   The target mesh is added to the modified mesh.
 
 - If the target Mesh uses inverted normals, Blender will Intersect the target Mesh.
 - If the modified Mesh uses inverted normals, Blender will subtract the target Mesh.
 - If both Meshes use inverted normals, Blender will Intersect the modified Mesh.
 
    :guilabel:`Intersect`
-    The target mesh is subtracted from the modified mesh.
+   The target mesh is subtracted from the modified mesh.
 
 - If the target Mesh uses inverted normals, Blender will subtract the target Mesh.
 - If the modified Mesh uses inverted normals, Blender will intersect the target Mesh.
 - If both Meshes use inverted normals, Blender will add both meshes (Union).
 
 :guilabel:`Object`
-    The name of the target object. Must be a mesh.
+   The name of the target object. Must be a mesh.
 
 
 Materials
@@ -264,7 +274,7 @@ the calculations can't be done and/or the modifier cannot execute.
 When the modifier cannot execute,
 it will show the message  ``"Cannot execute boolean operation"``  (see Fig. 13),
 and when the modifier cannot be applied to the mesh,
-Blender will show the message  ``"Modifier is disabled, Skipping Apply."``\ .
+Blender will show the message  ``"Modifier is disabled, Skipping Apply."``.
 In this case, you either have to remove some modifiers or apply the necessary ones.
 
 The most common case is when you add or copy a :guilabel:`Boolean` modifier to use the
@@ -298,13 +308,15 @@ and another with the resulting topology (Fig. 15).
    Fig. 15 - The resulting topology. The Subsurf added to the target was taken into account
 
 
-- As you can see, the added (not applied) subsurf to the target was taken into consideration. The topology of the Icosphere with subsurf (Level 2) was completely transferred to the modified mesh.
+- As you can see, the added (not applied) subsurf to the target was taken into consideration.
+  The topology of the Icosphere with subsurf (Level 2) was completely transferred to the modified mesh.
 
 
 .. admonition:: The target topology determines the resulting topology
    :class: nicetip
 
-    The target topology determines the results of the Boolean Modifier operation. It means that any modifier added to the target which modifies its topology will affect the resulting mesh of the operation.
+   The target topology determines the results of the Boolean Modifier operation.
+   It means that any modifier added to the target which modifies its topology will affect the resulting mesh of the operation.
 
 
 Animation
@@ -339,7 +351,7 @@ you can cause Blender to stop responding or crash.
 .. admonition:: The best usage scenario for sequential operations
    :class: nicetip
 
-    The best way to work with this modifier when you need to make lots of sequential operations of the same modifier is to define the target at the time you need to apply the changes to the topology.
+   The best way to work with this modifier when you need to make lots of sequential operations of the same modifier is to define the target at the time you need to apply the changes to the topology.
 
 
 Face Normals
@@ -418,15 +430,15 @@ To show the normals of the faces, you can open the Transform Panel, find the Mes
 and click on the small cube without the orange dot.  (See Fig.
 22 - Mesh Display in the Transform Panel.
 ) You can also change the height of the axis that points the direction of the normal.
-The default is '\ *0.10*\ .
+The default is '\ *0.10*.
 
 When some normal directions are mixed pointing inwards and outwards, you can recalculate them
-to the inside using :kbd:`Shift-CTRL-n` and to outside using :kbd:`CTRL-n`\ .
+to the inside using :kbd:`Shift-CTRL-n` and to outside using :kbd:`CTRL-n`.
 If the normals still get mixed due to Mesh complexities, you can change to Face selection Mode
-while in :guilabel:`Edit` Mode using :kbd:`CTRL-Tab` and choosing *Face Mode*\ . Then
+while in :guilabel:`Edit` Mode using :kbd:`CTRL-Tab` and choosing *Face Mode*. Then
 select the faces that are pointing in the wrong direction using :kbd:`Shift-RMB` and use
 the *Mesh* Menu entry in the Header of the :guilabel:`3D View` Window,
-go to *Normals* and choose *Flip Normals*\ . (See Fig.
+go to *Normals* and choose *Flip Normals*. (See Fig.
 16 - Recalculate and Flip Normals in Mesh Menu Entry - 3D View.)
 
 
@@ -517,7 +529,7 @@ the shading (smooth/flat) doesn't affect the calculations of the modifier.
 History
 -------
 
-Since version 2.62, Blender uses a new Library, the `Carve library <http://carve-csg.com/>`__\ ,
+Since version 2.62, Blender uses a new Library, the `Carve library <http://carve-csg.com/>`__,
 which should give much improved results. This library is more stable and faster,
 resolving old well-known limitations of our previous library.
 

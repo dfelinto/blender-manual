@@ -41,11 +41,11 @@ there is a person whose job is to measure the distance from the camera to the ac
 to ensure that the focus is set perfectly.
 
 The more that an object is out of its depth
-(the perfect value for this depth is called *focal plane*\ ), the blurrier it is. In fact, the
+(the perfect value for this depth is called *focal plane*), the blurrier it is. In fact, the
 depth of field is the range on both sides of the focal plane in which the blurriness of the
 objects is considered to be low enough to be imperceptible. In Blender, this distance is
 called the :guilabel:`Dof Dist` or "Depth of Field Distance" and is set in the
-:guilabel:`Editing` context (\ :kbd:`f9`\ ) for the camera. Alternatively,
+:guilabel:`Editing` context (:kbd:`f9`) for the camera. Alternatively,
 you can have the camera automatically stay focused on an object,
 by entering the name of the object in the :guilabel:`Dof Ob` field.
 
@@ -91,7 +91,7 @@ is infinite and all objects are always in focus. However, for artistic reasons,
 we want our main characters to be in focus, and everything else a little blurry,
 so that our audience does not focus on distracting things in the background. Also,
 it is easier to discern the main actors when they are in focus, and everything else isn't. So,
-we have to create an effect, or **Depth of Field Effect**\ ,
+we have to create an effect, or **Depth of Field Effect**,
 to composite our images and post-process them to achieve realistic-looking results.
 
 

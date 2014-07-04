@@ -39,6 +39,6 @@ them please refer to one of the two main Blender sites:
 
 - `www.blender.org <http://www.blender.org>`__
 - `www.blenderartists.org <http://www.blenderartists.org/>`__
-- `Python extensions on this wiki <http://wiki.blender.org/index.php/Extensions:Py/Scripts>`__\ .
+- `Python extensions on this wiki <http://wiki.blender.org/index.php/Extensions:Py/Scripts>`__.
 
 

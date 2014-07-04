@@ -92,7 +92,7 @@ Let's break down the above statement.
    print("'Hello \n World'")
 
 
-In Python, a string literal can be multiplied by a *number*\ .
+In Python, a string literal can be multiplied by a *number*.
 By doing so we are repeating the string by the count specified by *number*
 
 - number * string literal

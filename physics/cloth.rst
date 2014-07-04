@@ -34,7 +34,7 @@ in that all cloth is assumed to have the same density, or mass per square unit.
 
 Cloth is commonly modeled as a mesh grid primitive, or a cube, but can also be, for example, a teddy bear. However, Blender's :doc:`Softbody system <physics/soft_body>` provides better simulation of closed meshes; Cloth is a specialized simulation of fabrics.
 
-Once the object is designated as Cloth, a Cloth :doc:`modifier <modifiers>` will be added to the object's modifier stack automatically. As a :doc:`modifier <modifiers>` then, it can interact with other modifiers, such as :guilabel:`Armature` and :guilabel:`Smooth`\ . In these cases, the ultimate shape of the mesh is computed in accordance with the order of the modifier stack. For example, you should smooth the cloth *after* the modifier computes the shape of the cloth.
+Once the object is designated as Cloth, a Cloth :doc:`modifier <modifiers>` will be added to the object's modifier stack automatically. As a :doc:`modifier <modifiers>` then, it can interact with other modifiers, such as :guilabel:`Armature` and :guilabel:`Smooth`. In these cases, the ultimate shape of the mesh is computed in accordance with the order of the modifier stack. For example, you should smooth the cloth *after* the modifier computes the shape of the cloth.
 
 So you edit the Cloth settings in two places: use the F7 Physics buttons to edit the
 properties of the cloth and use the Modifier stack to  edit the Modifier properties related to
@@ -83,7 +83,7 @@ Creating Cloth Simulations
 ==========================
 
 This section discusses how to use those options to get the effect you want.
-First, enable :guilabel:`Cloth`\ . Set up for the kind of cloth you are simulating.
+First, enable :guilabel:`Cloth`. Set up for the kind of cloth you are simulating.
 You can choose one of the presets to have a starting point.
 
 As you can see, the heavier the fabric,
@@ -130,7 +130,7 @@ Pinning
    Cloth in action.
 
 
-The first thing you need when pinning cloth is a :doc:`Vertex Group <modeling/meshes/vertex_groups>`\ . There are several ways of doing this including using the Weight Paint tool to paint the areas you want to pin (see the :doc:`Weight paint <modeling/meshes/weight_paint>` section of the manual).
+The first thing you need when pinning cloth is a :doc:`Vertex Group <modeling/meshes/vertex_groups>`. There are several ways of doing this including using the Weight Paint tool to paint the areas you want to pin (see the :doc:`Weight paint <modeling/meshes/weight_paint>` section of the manual).
 
 Once you have a vertex group set, things are pretty straightforward; all you have to do is
 press the :guilabel:`Pinning of cloth` button in the :guilabel:`Cloth` panel and select which
@@ -164,7 +164,7 @@ In most cases, a piece of cloth does not just hang there in 3D space,
 it collides with other objects in the environment. To ensure proper simulation,
 there are several items that have to be set up and working together:
 
-- The :guilabel:`Cloth` object must be told to participate in :guilabel:`Collision`\ s.
+- The :guilabel:`Cloth` object must be told to participate in :guilabel:`Collision` s.
 - Optionally (but recommended) tell the cloth to collide with itself.
 - Other objects must be visible to the :guilabel:`Cloth` object *via* shared layers.
 - The other objects must be mesh objects.
@@ -188,6 +188,7 @@ Collision Settings
 
 Now you must tell the :guilabel:`Cloth` object that you want it to participate in collisions.
 For the cloth object, locate the :guilabel:`Cloth Collision` panel, shown to the right:
+
 :guilabel:`Enable Collisions`
    :kbd:`Lmb` click this to tell the cloth object that it needs to move out of the way.
 
@@ -198,7 +199,7 @@ For the cloth object, locate the :guilabel:`Cloth Collision` panel, shown to the
 :guilabel:`Repel`
    Repulsion force to apply when cloth is close to colliding.
 :guilabel:`Repel Distance`
-Maximum distance to apply repulsion force. Must be greater than minimum distance.
+   Maximum distance to apply repulsion force. Must be greater than minimum distance.
 :guilabel:`Friction`
    A coefficient for how slippery the cloth is when it collides with the mesh object. For example, silk has a lower coefficient of friction than cotton.
 
@@ -217,7 +218,7 @@ Real cloth cannot permeate itself, so you normally want the cloth to self-collid
 :guilabel:`Distance`
    If you encounter problems, you could also change the :guilabel:`Min Distance` value for the self-collisions. The best value is 0.75; for fast things you better take 1.0. The value 0.5 is quite risky (most likely many penetrations) but also gives some speedup.
 
-Regression blend file: `Cloth selfcollisions <http://wiki.blender.org/index.php/Media:Cloth-regression-selfcollisions.blend>`__\ .
+Regression blend file: `Cloth selfcollisions <http://wiki.blender.org/index.php/Media:Cloth-regression-selfcollisions.blend>`__.
 
 
 Shared Layers
@@ -247,7 +248,7 @@ Mesh Objects Collide
 If your colliding object is not a mesh object, such as a NURBS surface, or text object,
 you must convert it to a mesh object. To do so, select the object in object mode,
 and in the 3D View header, select :guilabel:`Object` → :guilabel:`Convert Object Type`
-(\ :kbd:`alt-C`\ ), and select :guilabel:`Mesh` from the popup menu.
+(:kbd:`alt-C`), and select :guilabel:`Mesh` from the popup menu.
 
 
 Cloth - Object collisions
@@ -337,7 +338,7 @@ Editing the cached simulation=
 
 The cache contains the shape of the mesh at each frame. You can edit the cached simulation,
 after you've baked the simulation and pressed the :guilabel:`Bake Editing` button.
-Just go to the frame you want to fix and :kbd:`Tab` into :guilabel:`Edit mode`\ .
+Just go to the frame you want to fix and :kbd:`Tab` into :guilabel:`Edit mode`.
 There you can move your vertices using all of Blender's mesh shaping tools. When you exit,
 the shape of the mesh will be recorded for that frame of the animation.
 If you want Blender to resume the simulation using the new shape going forward,
@@ -351,7 +352,7 @@ If you add, delete, extrude, or remove vertices in the mesh, Blender will take t
 the starting shape of the mesh back to the *first frame* of the animation,
 replacing the original shape you started with,
 up to the frame you were on when you edited the mesh. Therefore,
-if you change the content of a mesh, when you :kbd:`Tab` out of :guilabel:`Edit mode`\ ,
+if you change the content of a mesh, when you :kbd:`Tab` out of :guilabel:`Edit mode`,
 you should unprotect and clear the cache ..    Comment: <!--''From next frame'' ???--> . so that Blender will
 make a consistent simulation.
 
@@ -371,7 +372,7 @@ If you encounter some problems with collision detection, there are two ways to f
 - If none of the methods help, you can easily edit the cached/baked result in :guilabel:`Edit mode` afterwards.
 
 
-- My Cloth is torn by the deforming mesh - he "Hulks Out": Increase its structural stiffness (\ :guilabel:`StructStiff` setting, :guilabel:`Cloth` panel), very high, like 1000.
+- My Cloth is torn by the deforming mesh - he "Hulks Out": Increase its structural stiffness (:guilabel:`StructStiff` setting, :guilabel:`Cloth` panel), very high, like 1000.
 
 
 .. admonition:: :guilabel:`Subsurf` modifier
@@ -387,16 +388,16 @@ To start with cloth, the first thing you need, of course, is some fabric. So,
 let's delete the default cube and add a plane. I scaled mine up along the Y axis,
 but you don't have to do this. In order to get some good floppy and flexible fabric,
 you'll need to subdivide it several times. I did it 8 times for this example.
-So :kbd:`Tab` into :guilabel:`Edit mode`\ ,
-and press :kbd:`W` → :guilabel:`Subdivide multi`\ , and set it to 8.
+So :kbd:`Tab` into :guilabel:`Edit mode`,
+and press :kbd:`W` → :guilabel:`Subdivide multi`, and set it to 8.
 
 Now, we'll make this cloth by going to the :guilabel:`Object` context
-(\ :kbd:`f7`\ ) → :guilabel:`Physics` sub-context.
+(:kbd:`f7`) → :guilabel:`Physics` sub-context.
 Scroll down until you see the :guilabel:`Cloth` panel, and press the :guilabel:`Cloth` button.
 Now, a lot of settings will appear, most of which we'll ignore for now.
 
 That's all you need to do to set your cloth up for animating,
-but if you hit :kbd:`alt-A`\ , your lovely fabric will just drop very un-spectacularly.
+but if you hit :kbd:`alt-A`, your lovely fabric will just drop very un-spectacularly.
 That's what we'll cover in the next two sections about pinning and colliding.
 
 
@@ -421,29 +422,29 @@ Smoothing of Cloth
 Now, if you followed this from the previous section,
 your cloth is probably looking a little blocky. In order to make it look nice and smooth like
 the picture you need to apply a :guilabel:`Smooth` and/or :guilabel:`Subsurf` modifier in the
-:guilabel:`Modifiers` panel under the :guilabel:`Editing` context (\ :kbd:`f9`\ ). Then,
+:guilabel:`Modifiers` panel under the :guilabel:`Editing` context (:kbd:`f9`). Then,
 in the same context, find the :guilabel:`Links and Materials` panel
-(the same one you used for vertex groups) and press :guilabel:`Set Smooth`\ .
+(the same one you used for vertex groups) and press :guilabel:`Set Smooth`.
 
-Now, if you hit :kbd:`alt-A`\ , things are starting to look pretty nice, don't you think?
+Now, if you hit :kbd:`alt-A`, things are starting to look pretty nice, don't you think?
 
 
 Cloth on armature
 -----------------
 
-Cloth deformed by armature and also respecting an additional collision object: `Regression blend file <http://wiki.blender.org/index.php/Media:Cloth-regression-armature.blend>`__\ .
+Cloth deformed by armature and also respecting an additional collision object: `Regression blend file <http://wiki.blender.org/index.php/Media:Cloth-regression-armature.blend>`__.
 
 
 Cloth with animated vertex groups
 ---------------------------------
 
-Cloth with animated pinned vertices: `Regression blend file <http://wiki.blender.org/index.php/Media:Cloth_anim_vertex.blend>`__\ . UNSUPPORTED: Starting with a goal of 0 and increasing it, but still having the vertex not pinned will not work (e.g. from goal = 0 to goal = 0.5).
+Cloth with animated pinned vertices: `Regression blend file <http://wiki.blender.org/index.php/Media:Cloth_anim_vertex.blend>`__. UNSUPPORTED: Starting with a goal of 0 and increasing it, but still having the vertex not pinned will not work (e.g. from goal = 0 to goal = 0.5).
 
 
 Cloth with Dynamic Paint
 ------------------------
 
-Cloth with Dynamic Paint using animated vertex groups: `Regression blend file <http://wiki.blender.org/index.php/Media:Cloth_dynamic_paint.blend>`__\ . UNSUPPORTED: Starting with a goal of 0 and increasing it, but still having the vertex not pinned will not work (e.g. from goal = 0 to goal = 0.5) because the necessary "goal springs" cannot be generated on the fly.
+Cloth with Dynamic Paint using animated vertex groups: `Regression blend file <http://wiki.blender.org/index.php/Media:Cloth_dynamic_paint.blend>`__. UNSUPPORTED: Starting with a goal of 0 and increasing it, but still having the vertex not pinned will not work (e.g. from goal = 0 to goal = 0.5) because the necessary "goal springs" cannot be generated on the fly.
 
 
 Using Cloth for Softbodies
@@ -459,9 +460,9 @@ Using Cloth for Softbodies
 Cloth can also be used to simulate softbodies.
 It's for sure not its main purpose but it works nonetheless.
 The example image uses standard :guilabel:`Rubber` material, no fancy settings,
-just :kbd:`alt-A`\ .
+just :kbd:`alt-A`.
 
-Blend file for the example image: `Using Cloth for softbodies <http://wiki.blender.org/index.php/Media:Cloth-sb1.blend>`__\ .
+Blend file for the example image: `Using Cloth for softbodies <http://wiki.blender.org/index.php/Media:Cloth-sb1.blend>`__.
 
 
 Cloth with Wind
@@ -474,6 +475,6 @@ Cloth with Wind
    Flag with wind applied.
 
 
-Regression blend file for Cloth with wind and self collisions (also the blend for the image above): `Cloth flag with wind and selfcollisions <http://wiki.blender.org/index.php/Media:Cloth-flag2.blend>`__\ .
+Regression blend file for Cloth with wind and self collisions (also the blend for the image above): `Cloth flag with wind and selfcollisions <http://wiki.blender.org/index.php/Media:Cloth-flag2.blend>`__.
 
 

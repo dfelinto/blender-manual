@@ -51,6 +51,7 @@ Options
    A value between **-1** and **1** to change whether the wireframes are generated inside or outside the original mesh. Set to zero, :guilabel:`Offset` will center the wireframes around the original edges.
 :guilabel:`Vertex Group`
    Restrict the modifier to only this vertex group.
+
    :guilabel:`Invert`
       Inverts the vertex group weights.
 
@@ -63,7 +64,9 @@ Options
 
 
 :guilabel:`Crease Edges`
-   This option is intended for usage with the :doc:`Subdivision Surface <modifiers/generate/subsurf>` modifier. Enable this option to crease edges on their junctions and prevent large curved intersections.
+   This option is intended for usage with the :doc:`Subdivision Surface <modifiers/generate/subsurf>` modifier.
+   Enable this option to crease edges on their junctions and prevent large curved intersections.
+
    :guilabel:`Crease Weight`
       Define how much crease (between **0** = no and **1** = full) the junctions should receive.
 :guilabel:`Even Thickness`

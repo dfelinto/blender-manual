@@ -77,15 +77,11 @@ Available camera settings change depending on the selected Dome Type:
    4 is the default. This is the tesselation level of the mesh. (Not available in Cube Map mode).
 
 :guilabel:`Angle`
-    Sets the field of view of the dome in degrees, from 90 to 250. (Available in Fisheye and Truncated modes).
+   Sets the field of view of the dome in degrees, from 90 to 250. (Available in Fisheye and Truncated modes).
 
 :guilabel:`Tilt`
    Set the camera rotation in the horizontal axis. Available in Fisheye and Truncated modes).
-
-
-FIXME(TODO: Internal Link;
-[[#Warp_Data_Mesh|Warp Data]]
-)
+   FIXME(TODO: Internal Link; [[#Warp_Data_Mesh|Warp Data]])
    Use a custom warp mesh data file.
 
 
@@ -194,10 +190,10 @@ File template::
 
 
 First line is the image type the mesh is support to be applied to:
-**2** = **rectangular**\ , **1** = **radial**\ Next line has the mesh dimensions in
+**2** = **rectangular**, **1** = **radial** Next line has the mesh dimensions in
 pixelsRest of the lines are the nodes of the mesh.
 
-Each line is compund of **x** **y** **u** **v** **i**\ (x,y)
+Each line is compund of **x** **y** **u** **v** **i** (x,y)
 are the normalised screen coordinates(u,v)
 texture coordinatesi a multiplicative intensity factor
 
@@ -220,7 +216,7 @@ software package(requires full version).
 Example files
 ~~~~~~~~~~~~~
 
-`Spherical Mirror Dome 4x3 <http://wiki.blender.org/uploads/8/81/Dev-GameEngine-Dome-Standard_4x3.data>`__\ , `Truncated Dome 4x3 <http://wiki.blender.org/uploads/9/9b/Dev-GameEngine-Dome-Truncated_4x3.data>`__\ , `Sample Fullscreen File 4x3 <http://wiki.blender.org/uploads/d/d4/Dev-GameEngine-Dome-Sample-FullScreen_4x3.data>`__\ , `Sample Fullbuffer File 4x3 <http://wiki.blender.org/uploads/3/3d/Dev-GameEngine-Dome-Sample-FullBuffer_4x3.data>`__\ .
+`Spherical Mirror Dome 4x3 <http://wiki.blender.org/uploads/8/81/Dev-GameEngine-Dome-Standard_4x3.data>`__, `Truncated Dome 4x3 <http://wiki.blender.org/uploads/9/9b/Dev-GameEngine-Dome-Truncated_4x3.data>`__, `Sample Fullscreen File 4x3 <http://wiki.blender.org/uploads/d/d4/Dev-GameEngine-Dome-Sample-FullScreen_4x3.data>`__, `Sample Fullbuffer File 4x3 <http://wiki.blender.org/uploads/3/3d/Dev-GameEngine-Dome-Sample-FullBuffer_4x3.data>`__.
 
 
 .. admonition:: Note

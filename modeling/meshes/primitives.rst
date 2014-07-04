@@ -25,17 +25,18 @@ Blender comes with a number of "primitive" mesh shapes that you can start modeli
 
 
 Options included in more than one primitive are:
+
 :guilabel:`Radius`
-   Sets the starting size for :guilabel:`Circle`\ , :guilabel:`Cylinder`\ , :guilabel:`Cone`\ , :guilabel:`UVSphere` and :guilabel:`IcoSphere`\ .
+   Sets the starting size for :guilabel:`Circle`, :guilabel:`Cylinder`, :guilabel:`Cone`, :guilabel:`UVSphere` and :guilabel:`IcoSphere`.
 
 :guilabel:`Depth`
-   Sets the starting length for :guilabel:`Cylinder` and :guilabel:`Cone`\ .
+   Sets the starting length for :guilabel:`Cylinder` and :guilabel:`Cone`.
 
 
 .. admonition:: Note about planar primitives
    :class: note
 
-   You can make a planar mesh three-dimensional by moving one or more of the vertices out of its plane (applies to :guilabel:`Plane`\ , :guilabel:`Circle` and :guilabel:`Grid`\ ).  A simple circle is actually often used as a starting point to create even the most complex of meshes.
+   You can make a planar mesh three-dimensional by moving one or more of the vertices out of its plane (applies to :guilabel:`Plane`, :guilabel:`Circle` and :guilabel:`Grid`).  A simple circle is actually often used as a starting point to create even the most complex of meshes.
 
 
 Plane
@@ -63,18 +64,20 @@ Circle
 A standard circle is comprised of *n* vertices. The number of vertices and radius can be
 specified in the context panel in the :guilabel:`Tool Shelf` which appears when the circle is
 created.
+
 :guilabel:`Vertices`
-   The number of vertices that define the circle. The more vertices the circle contains, the smoother its contour will be; see (\ *"Circles" obtained with various settings*\ ).  In contrast, a circle with only 3 vertices is actually a triangle — the circle is actually the standard way of adding polygons such as triangles, pentagons, et cetera.
+   The number of vertices that define the circle. The more vertices the circle contains, the smoother its contour will be; see (*"Circles" obtained with various settings*).  In contrast, a circle with only 3 vertices is actually a triangle — the circle is actually the standard way of adding polygons such as triangles, pentagons, et cetera.
 
 :guilabel:`Radius`
    Sets the radius of the circle.
 
 :guilabel:`Fill Type`
    Set how the circle will be filled
+
    :guilabel:`Triangle Fan`
       Fill with triangular faces which share a vertex in the middle.
    :guilabel:`Ngon`
-       fill with a single ngon
+      fill with a single ngon
    :guilabel:`Nothing`
       Do not fill. Creates only the outer ring of vertices
 
@@ -168,10 +171,10 @@ Torus
 -----
 
 A doughnut-shaped primitive created by rotating a circle around an axis.
-The overall dimensions are defined by the :guilabel:`Major` and :guilabel:`Minor Radius`\ .
+The overall dimensions are defined by the :guilabel:`Major` and :guilabel:`Minor Radius`.
 The number of vertices (in segments) can be different for the circles and is specified in the
 context panel in the :guilabel:`Tool Shelf` with both radii
-(\ :guilabel:`Major Segments` and :guilabel:`Minor Segments`\ ).
+(:guilabel:`Major Segments` and :guilabel:`Minor Segments`).
 
 :guilabel:`Major Radius`
    Radius from the origin to the center of the cross sections
@@ -202,15 +205,15 @@ the object is created; the higher the resolution, the more vertices are created.
 Example objects that can be created out of grids include landscapes
 (with the proportional editing tool or :guilabel:`Displace` modifier)
 and other organic surfaces. You can also obtain a grid when you create a plane and then use a
-subdivide modifier in :guilabel:`Edit mode`\ .  However,
-there is a :guilabel:`Landscape` add-on available in the :guilabel:`User Preferences`\ .
+subdivide modifier in :guilabel:`Edit mode`.  However,
+there is a :guilabel:`Landscape` add-on available in the :guilabel:`User Preferences`.
 
 :guilabel:`X Subdivisions`
    The number of spans in the x  direction. Minimum of 3, creating two face loops.
 :guilabel:`Y Subdivisions`
    The number of spans in the y  direction.
 :guilabel:`Size`
-    The length of the sides of the grid.
+   The length of the sides of the grid.
 
 
 Monkey
@@ -221,7 +224,7 @@ Egg". It creates a monkey's head once you press the :guilabel:`Monkey` button.
 The Monkey's name is "Suzanne" and is Blender's mascot.
 Suzanne is very useful as a standard test mesh,
 much like the `Utah Tea Pot <http://en.wikipedia.org/wiki/Utah_teapot>`__
-or the `Stanford Bunny <http://en.wikipedia.org/wiki/Stanford_Bunny>`__\ .
+or the `Stanford Bunny <http://en.wikipedia.org/wiki/Stanford_Bunny>`__.
 
 
 Add-ons
@@ -236,16 +239,16 @@ Add-ons
 
 In addition to the basic geometric primitives, Blender has a constantly increasing number of
 script generated meshes to offer as pre-installed add-ons.  These become available when
-enabled in the :guilabel:`User Preferences`\ ' :guilabel:`Add-ons` section
-(filter by :guilabel:`Add Mesh`\ ).  Only a few are mentioned here:
+enabled in the :guilabel:`User Preferences` ' :guilabel:`Add-ons` section
+(filter by :guilabel:`Add Mesh`).  Only a few are mentioned here:
 
 `Landscape <http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Add Mesh/ANT Landscape>`__
-   Adds a landscape primitive.  Many parameters and filters appear in the :guilabel:`Tool Shelf`\ .
+   Adds a landscape primitive.  Many parameters and filters appear in the :guilabel:`Tool Shelf`.
 
 `Pipe Joints <http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Add Mesh/Add Pipe Joints>`__
-    Adds one of five different pipe joint primitives.  Radius, angle, and other parameters can be changed in the :guilabel:`Tool Shelf`\ .
+   Adds one of five different pipe joint primitives.  Radius, angle, and other parameters can be changed in the :guilabel:`Tool Shelf`.
 
 `Gears <http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Add Mesh/Add Gear>`__
-    Adds a gear or a `worm <http://en.wikipedia.org/wiki/Worm_drive>`__ with many parameters to control the shape in the :guilabel:`Tool Shelf`\ .
+   Adds a gear or a `worm <http://en.wikipedia.org/wiki/Worm_drive>`__ with many parameters to control the shape in the :guilabel:`Tool Shelf`.
 
 

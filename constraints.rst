@@ -5,9 +5,9 @@
 Constraints
 ===========
 
-Constraints are a way of connecting *transform properties* (position, rotation and scale) between objects. Constraints are in a way the object counterpart of the :doc:`modifiers <modifiers>`\ , which work on the object *data* (i.e. meshes, curves, etc.).
+Constraints are a way of connecting *transform properties* (position, rotation and scale) between objects. Constraints are in a way the object counterpart of the :doc:`modifiers <modifiers>`, which work on the object *data* (i.e. meshes, curves, etc.).
 
-All constraints share a basic :doc:`common interface <constraints/common_interface>`\ , again with many similarities with the modifiers' one.
+All constraints share a basic :doc:`common interface <constraints/common_interface>`, again with many similarities with the modifiers' one.
 
 
 Use of Constraints
@@ -22,7 +22,7 @@ in global space), or relatively to other objects.
 Also note that constraints internally work using 4x4 transformation matrices only.
 When you use settings for specific rotation or scaling constraining,
 this information is being derived from the matrix only,
-not from settings in a :guilabel:`Bone` or :guilabel:`Object`\ . Especially for combining
+not from settings in a :guilabel:`Bone` or :guilabel:`Object`. Especially for combining
 rotations with non-uniform or negative scaling this can lead to unpredictable behavior.
 
 
@@ -58,7 +58,7 @@ There are several types of constraints. We can classify them into four families:
 
 
 There are constraints that works with their *owner* object and others that need a second
-object (the *target*\ ) to work, sometimes of a specific type (e.g. a curve).
+object (the *target*) to work, sometimes of a specific type (e.g. a curve).
 In this case targeted constraints are shown as a dark blue dashed line drawn in the 3D view
 between the owner and target objects.
 

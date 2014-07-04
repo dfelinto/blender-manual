@@ -8,7 +8,7 @@ That's why we have evolved the 'golden rule':
    **Keep one hand on the mouse and the other on the keyboard**
 
 The most frequently used keys are grouped so that they can be reached by the left hand in
-standard position (index finger on :kbd:`F`\ ) on the English keyboard layout.
+standard position (index finger on :kbd:`F`) on the English keyboard layout.
 This assumes that you use the mouse with your right hand.
 
 
@@ -56,19 +56,19 @@ This manual uses the following conventions to describe user input:
 
 - Hotkey letters are shown in this manual like they appear on a keyboard; for example,
 
-   :kbd:`G` - refers to the lowercase ``''g''``\ .
+   :kbd:`G` - refers to the lowercase ``''g''``.
 
 
-   :kbd:`shift`\ ,\ :kbd:`ctrl` and :kbd:`alt` are generally specified as modifier keys
+   :kbd:`shift`,\ :kbd:`ctrl` and :kbd:`alt` are generally specified as modifier keys
 
 
    :kbd:`ctrl-W` or :kbd:`shift-alt-A` - indicates that these keys should be pressed simultaneously
 
 
-   :kbd:`pad0` to :kbd:`pad9`\ , :kbd:`pad+` - and so on refer to the keys on the separate numeric keypad.
-Other keys are referred to by their names, such as :kbd:`esc`\ , :kbd:`tab`\ ,
-:kbd:`f1` to :kbd:`f12`\ .
-Of special note are the arrow keys, :kbd:`left`\ , :kbd:`right` and so on.
+   :kbd:`pad0` to :kbd:`pad9`, :kbd:`pad+` - and so on refer to the keys on the separate numeric keypad.
+Other keys are referred to by their names, such as :kbd:`esc`, :kbd:`tab`,
+:kbd:`f1` to :kbd:`f12`.
+Of special note are the arrow keys, :kbd:`left`, :kbd:`right` and so on.
 
 
 Mouse Button Emulation

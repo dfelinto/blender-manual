@@ -20,7 +20,7 @@ For a *Soft Body* to collide with another object there are a few prerequisites:
 
 - Both objects have to share a layer, but the layer does not necessarily have to be visible.
 - The collision object has to be a mesh object.
-- You have to activate the option :guilabel:`Collision` in the :guilabel:`Collision` panel of the :guilabel:`Physics` sub-context (\ *Image 1*\ ) for the collision object. The collision object may also be a Soft Body.
+- You have to activate the option :guilabel:`Collision` in the :guilabel:`Collision` panel of the :guilabel:`Physics` sub-context (*Image 1*) for the collision object. The collision object may also be a Soft Body.
 - If you use modifiers such as :guilabel:`Array` and :guilabel:`Mirror` you have to activate :guilabel:`EV.M.Stack` to ensure that collision calculation is based on the modified object. The sequence of :guilabel:`Modifiers` is not important.
 
 
@@ -34,12 +34,12 @@ Examples
 +-----------------------------------------------------+-----------------------------------------------------------------------------+------------------------------------------------------+
 
 
-A cube colliding with a plane works pretty well (\ *Image 2a*\ ),
-but a plane falls right through a cube that it is supposed to collide with (\ *Image 2b*\ ). Why
+A cube colliding with a plane works pretty well (*Image 2a*),
+but a plane falls right through a cube that it is supposed to collide with (*Image 2b*). Why
 is that? Because the default method of calculation only checks to see if the four vertices of
 the plane collides with the cube as the plane is pulled down by gravity. You can activate
 :guilabel:`CFace` to enable collision between the face of the plane and the object instead
-(\ *Image 2c*\ ), but this type of calculation takes much longer.
+(*Image 2c*), but this type of calculation takes much longer.
 
 Let's have a closer look at the collision calculation,
 so you can get an idea of how we might optimize it.
@@ -60,16 +60,16 @@ Soft Body simulation is by default done on a per vertex basis. If the vertices o
 Body do not collide with the collision object there will be no interaction between the two
 objects.
 
-In (\ *Image 3a*\ ), you can see a vertex colliding with a plane.
-If a vertex penetrates the zone between :guilabel:`Outer` and :guilabel:`Inner`\ ,
+In (*Image 3a*), you can see a vertex colliding with a plane.
+If a vertex penetrates the zone between :guilabel:`Outer` and :guilabel:`Inner`,
 it is repulsed by a force in the direction of the face normal.
 The position that a vertex finally ends up in is dependent on the forces that act upon it.
 In the example gravity and the repulsion force of the face balance out. The speed at which the
 vertex is pulled out of the collision zone is influenced by the :guilabel:`Choke` parameter
-(\ *Image 4*\ ).
+(*Image 4*).
 
 Now lets see what happens if we make vertices heavier and let them travel at a faster speed.
-In (\ *Image 3b*\ ), you can see vertices traveling at different speeds.
+In (*Image 3b*), you can see vertices traveling at different speeds.
 The two on the far right (5 and 6)
 are traveling so fast that they pass right through the collision zone
 (this is because of the default solver precision - which we can fix later). You will notice
@@ -83,7 +83,7 @@ zone. The first three vertices collide OK.
 
 
 You can set up your collision so that edges and even faces are included in the collision
-calculation (\ *Image 3d*\ ). The collision is then calculated differently.
+calculation (*Image 3d*). The collision is then calculated differently.
 It is checked whether the edge or face intersects with the collision object,
 the collision zones are not used.
 
@@ -108,7 +108,7 @@ If the collision you have set up is not behaving properly, you can try the follo
 - The Soft Body object must have more subdivisions than the collision object.
 - Check the direction of the face normals.
 - If the collision object has sharp spikes they might penetrate the Soft Body.
-- The resolution of the solver must match the speed at which Soft Body vertices are traveling. Lower the parameter :guilabel:`Error Lim` and carefully increase :guilabel:`Min S`\ .
+- The resolution of the solver must match the speed at which Soft Body vertices are traveling. Lower the parameter :guilabel:`Error Lim` and carefully increase :guilabel:`Min S`.
 - :guilabel:`Outer` and :guilabel:`Inner` should be large enough, but zones of opposite faces should not overlap, or you have forces in opposite directions.
 - If you use strong forces you should use large zones.
 - Set :guilabel:`Choke` to a high enough value (all the way up if necessary) if you have difficulties with repelled vertices.
@@ -121,7 +121,7 @@ however this may be difficult if you are using an animated mesh.
 Self Collision
 ==============
 
-:guilabel:`Self Collision` is working only if you have activated :guilabel:`Use Edges`\ .
+:guilabel:`Self Collision` is working only if you have activated :guilabel:`Use Edges`.
 
 When enabled,
 allows you to control how Blender will prevent the Soft Body from intersecting with itself.
@@ -135,10 +135,10 @@ Normally it works pretty well with the default options.
       The :guilabel:`Ball Size` directly sets the ball size (in BU).
    :guilabel:`Av` ("average")
       The average length of all edges attached to the vertex is calculated and then multiplied with the :guilabel:`Ball Size` setting. Works well with evenly distributed vertices.
-   :guilabel:`Min`\ /\ :guilabel:`Max`
-      The ball size is as large as the smallest/largest spring length of the vertex multiplied with the :guilabel:`Ball Size`\ .
+   :guilabel:`Min` / :guilabel:`Max`
+      The ball size is as large as the smallest/largest spring length of the vertex multiplied with the :guilabel:`Ball Size`.
    :guilabel:`AvMiMax` ("average min/max")
-      Size = ((Min + Max)/2) × :guilabel:`Ball Size`\ .
+      Size = ((Min + Max)/2) × :guilabel:`Ball Size`.
 
 :guilabel:`Ball Size`
    Default 0.49 BU or fraction of the length of attached edges.
@@ -159,6 +159,6 @@ Normally it works pretty well with the default options.
 :guilabel:`Damping`
    Default 0.5. How the vertex reacts. A low value just slows down the vertex as it gets too close. A high value repulses it.
 
-Collisions with other objects are set in the (other) :doc:`Collision panel <physics/collision>`\ . To collide with another object they have to share at least one common layer.
+Collisions with other objects are set in the (other) :doc:`Collision panel <physics/collision>`. To collide with another object they have to share at least one common layer.
 
 

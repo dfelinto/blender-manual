@@ -25,7 +25,7 @@ General Procedure
 
 The main menu in Blender is located in the :guilabel:`Info` window
 (by default the header located at the top of your screen). From that menu,
-all you have to do is use :guilabel:`File` → :guilabel:`Append or Link`\ ,
+all you have to do is use :guilabel:`File` → :guilabel:`Append or Link`,
 or press :kbd:`shift-F1` in your active window.
 The active window will change to a :guilabel:`File Browser`
 (the :guilabel:`Window type` icon looks like a manila folder) selector window. Use this window
@@ -33,22 +33,22 @@ to navigate your hard drive and network-mapped drives through folders and subfol
 the .blend file that has the object you want to reuse. When you click on a .blend file
 (indicated by the orange square box next to its name),
 Blender will go into that file and show you the list of datablock types within it:
-:guilabel:`Scenes`\ , :guilabel:`Objects`\ , :guilabel:`Materials`\ , :guilabel:`Textures`\ ,
-:guilabel:`Meshes`\ , etc.
+:guilabel:`Scenes`, :guilabel:`Objects`, :guilabel:`Materials`, :guilabel:`Textures`,
+:guilabel:`Meshes`, etc.
 Clicking on any one of them will display the specific instances of that type.
 
 
 Folder and File Organization
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-We suggest creating a folder called ``/lib`` or ``/library``\ .
+We suggest creating a folder called ``/lib`` or ``/library``.
 Under that library,
 create a set of folders for each kind of thing you might want to access and re-use later on,
-such as ``materials``\ , ``textures`` and ``meshes``\ .
+such as ``materials``, ``textures`` and ``meshes``.
 Create subfolders under each of those as your library grows. For example,
 under the ``meshes`` folder,
-you might want to create folders for ``people``\ , ``spaceships``\ ,
-``furniture``\ , ``buildings``\ , etc. Then,
+you might want to create folders for ``people``, ``spaceships``,
+``furniture``, ``buildings``, etc. Then,
 when you have a .blend file that contains a chair mesh, for example,
 all you have to do is copy that file into the ``furniture`` folder.
 
@@ -59,17 +59,17 @@ Appending library objects into your current project
 The following procedure appends an object with all its linked data, such as mesh data,
 materials, textures, …, to the current .blend file.
 
-- Select :guilabel:`File` → :guilabel:`Append or Link`\ .
+- Select :guilabel:`File` → :guilabel:`Append or Link`.
 - Locate and select the file that contains the object you want to append (often a "library" file).
 - Navigate to the :guilabel:`Object` section of the file.
-- Select one object from the list using :kbd:`lmb`\ , multiple objects via :kbd:`rmb`\ , and/or a range of objects by dragging :kbd:`rmb`\ .
+- Select one object from the list using :kbd:`lmb`, multiple objects via :kbd:`rmb`, and/or a range of objects by dragging :kbd:`rmb`.
 - Repeat the above for each kind of object you wish to append or link. Parents and armatures (all modifier objects) must be selected separately.
-- Set desired options that are shown in the header (\ :guilabel:`At Cursor`\ , :guilabel:`Active Layer`\ , …).
+- Set desired options that are shown in the header (:guilabel:`At Cursor`, :guilabel:`Active Layer`, …).
 - :kbd:`lmb` on :guilabel:`Load Library` or press :kbd:`Enter` or :kbd:`mmb` directly on the data to append.
 
 Of course, you can append or link many other things besides objects:
 all the :guilabel:`ObData` - cameras, curves, groups, lamps, materials, meshes,
-etc. - and even **an entire scene**\ … Note that there is a **big** difference between
+etc. - and even **an entire scene** … Note that there is a **big** difference between
 adding the object and the object data, such as mesh.
 If you append a :guilabel:`Mesh` datablock,
 you are only bringing in the data about that particular instance of mesh,
@@ -103,10 +103,10 @@ Some more loading option buttons (in the :guilabel:`File Browser` header) includ
 .. admonition:: Finding What was Loaded
    :class: nicetip
 
-   If the loaded object is not visible, consider using :guilabel:`At Cursor` or :guilabel:`AutoSel`\ .
-   If you use :guilabel:`AutoSel`\ , remember there are Snap tools to put your cursor on the object
-   (\ :kbd:`shift-S-4` (\ :guilabel:`Cursor ? Selection`\ )), and Center your view on it (\ :kbd:`C`
-   (\ :guilabel:`View`?? :guilabel:`Align View`?? :guilabel:`Center View to Cursor`\ )).
+   If the loaded object is not visible, consider using :guilabel:`At Cursor` or :guilabel:`AutoSel`.
+   If you use :guilabel:`AutoSel`, remember there are Snap tools to put your cursor on the object
+   (:kbd:`shift-S-4` (:guilabel:`Cursor ? Selection`)), and Center your view on it (:kbd:`C`
+   (:guilabel:`View`?? :guilabel:`Align View`?? :guilabel:`Center View to Cursor`)).
    Note that these tools do not work if the object is on an unselected layer,
    since objects on unselected layers are invisible.
 
@@ -119,11 +119,11 @@ Let's suppose you created a wheel in one .
 blend file and want to reuse it for your current project.
 The physical model of the wheel would be a mesh, and probably comprised of a tire and rim.
 Hopefully you named this mesh something reasonable, like, oh, I don't know,
-"\ ``Wheel``\ ". The wheel may be colored and thus have some materials assigned to it
+"\ ``Wheel`` ". The wheel may be colored and thus have some materials assigned to it
 (like rubber and chrome).
 
-Once you navigate to the file, select the "\ ``Wheel``\ "
-(in the :guilabel:`Object`\ s datablocks) and it will be imported into your current file.
+Once you navigate to the file, select the "\ ``Wheel`` "
+(in the :guilabel:`Object` s datablocks) and it will be imported into your current file.
 You can import a copy of it, or merely link to it.
 
 
@@ -160,7 +160,7 @@ FIXME(TODO: Internal Link;
    which would allow it to be seen. You can verify this by looking in the :guilabel:`Outliner`
    window and switching it to :guilabel:`OOPS Schematic` view
    (you may need to have the :guilabel:`Displays Scene datablock` button selected in its header).
-   In the OOPS Schematic picture you can see that "\ ``Wheel``\ " is not linked to any
+   In the OOPS Schematic picture you can see that "\ ``Wheel`` " is not linked to any
    object.
 
 
@@ -188,10 +188,18 @@ Reusing Material/Texture Settings
    Material preview in Image Browser.
 
 
-Some materials, like glass or chrome, can be very tricky to get "just right". The `Blender Foundation <http://www.blender.org/blenderorg/blender-foundation>`__ has released, for example, a `Materials CD <http://www.blender.org/download/resources/#c2511>`__\ , which is available for free to download from their site. Using the .blend files on that CD, you can import common materials, like glass, chrome, wood and bananas. This feature saves you a lot of time, as it often means you don't have to be fiddling with all the little buttons and sliders just to re-create a material. I call out the Banana material because it is a great example of using simple procedural materials with a ColorRamp, and a procedural texture, to give a very realistic look. When you navigate to the file, and select :guilabel:`Material`\ s, the browser will show you a sphere sample of that material to help you visualize the texture that goes with the name. For more information on using the :guilabel:`Image Browser`\ , see
-FIXME(Link Type Unsupported: dev;
-[[Dev:Ref/Release Notes/Vitals/File operations|the release notes]]
-).
+Some materials, like glass or chrome, can be very tricky to get "just right".
+The `Blender Foundation <http://www.blender.org/blenderorg/blender-foundation>`__ has released, for example,
+a `Materials CD <http://www.blender.org/download/resources/#c2511>`__,
+which is available for free to download from their site. Using the .blend files on that CD,
+you can import common materials, like glass, chrome, wood and bananas. This feature saves you a lot of time,
+as it often means you don't have to be fiddling with all the little buttons and sliders just to re-create a material.
+I call out the Banana material because it is a great example of using simple procedural materials with a ColorRamp,
+and a procedural texture, to give a very realistic look. When you navigate to the file,
+and select :guilabel:`Material` s,
+the browser will show you a sphere sample of that material to help you visualize the texture that goes with the name.
+For more information on using the :guilabel:`Image Browser`,
+see FIXME(Link Type Unsupported: dev; [[Dev:Ref/Release Notes/Vitals/File operations|the release notes]]).
 
 
 .. admonition:: Blender Extension: Library
@@ -214,15 +222,13 @@ file and create a Group for the set of nodes that you think you want to reuse.
 When you want to import that node group into your current file, :kbd:`lmb` on
 :guilabel:`File` → :guilabel:`Append` or :kbd:`lmb` on :guilabel:`File` →
 :guilabel:`Link` from the :guilabel:`Info` window header (or press :kbd:`F1` for
-:guilabel:`Append` or :kbd:`ctrl-alt-O` for :guilabel:`Link`\ ), and navigate to the file.
+:guilabel:`Append` or :kbd:`ctrl-alt-O` for :guilabel:`Link`), and navigate to the file.
 When you dive into the file, there will be a :guilabel:`NodeTree` option.
 :kbd:`lmb` on it and the list of node groups in that file will be listed.
 :kbd:`lmb` on the one you want and then :kbd:`lmb` .
 
 
-.. admonition:: FIXME(Link Type Unsupported: http;
-[[http://verse.blender.org Verse]]
-)
+.. admonition:: FIXME(Link Type Unsupported: http; [[http://verse.blender.org Verse]])
    :class: note
 
    Verse is an amazing OpenSource collaboration tool that integrates with Blender. Verse enables multiple people to work on, link, and share objects and modifications in Blender files in real time.
@@ -264,9 +270,9 @@ Use :kbd:`ctrl-lmb` on a button to restrict or unrestrict that layer.
 
 
 To make a proxy object for yourself, establish a link to the source object as described above.
-With that linked copy selected (\ :kbd:`rmb`\ ) and in view (you can see it in the 3D View),
+With that linked copy selected (:kbd:`rmb`) and in view (you can see it in the 3D View),
 press :kbd:`ctrl-alt-P` and confirm the :guilabel:`Make Proxy` dialog.
-The object will be named with the original name plus a "\ ``_proxy``\ " suffix.
+The object will be named with the original name plus a "\ ``_proxy`` " suffix.
 You may now move and modify the proxy. When selected, it will look like a local object
 (outlined in orange).
 
@@ -283,7 +289,7 @@ Armatures and Multiple instances
 --------------------------------
 
 Development of this feature is a work in progress; in Blender 2.43 and CVS
-(as of 29 April 2007), a proxy object controls *all instances of a group*\ .
+(as of 29 April 2007), a proxy object controls *all instances of a group*.
 It is not yet possible to have one proxy per group instance. In particular,
 it is not yet possible to have one proxy armature per group instance.  One partially effective
 remedy to use file append rather than file link for multiple instance duplication.
@@ -291,6 +297,6 @@ File append will not be updated with update to the origination file.
 
 If you are using a POSIX compliant file system, you can work around the one proxy object per
 group limitation with the cheap hack documented at
-`Linked Lib Animation Madness <http://freefactory.org/posts/linked-lib-animation-madness>`__\ .
+`Linked Lib Animation Madness <http://freefactory.org/posts/linked-lib-animation-madness>`__.
 
 

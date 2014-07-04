@@ -4,9 +4,9 @@ Introduction
 
 Using Blender, you create a world that exists in four dimensions:
 
-- Left-right, commonly called the "\ *x*\ " axis.
-- Forward-backward, commonly called the "\ *y*\ " axis.
-- Up-down, commonly called the "\ *z*\ " axis.
+- Left-right, commonly called the "\ *x* " axis.
+- Forward-backward, commonly called the "\ *y* " axis.
+- Up-down, commonly called the "\ *z* " axis.
 - Time-sensitive, through animated objects, materials, and motion captured in frames.
 
 The problem is that you have a two-dimensional computer screen in front of you! Your mouse can

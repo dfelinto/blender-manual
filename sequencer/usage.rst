@@ -32,7 +32,7 @@ a horizontal channel. Each channel is numbered on the left-hand side, starting f
 (you can't put anything thing in this special one!) and going up.
 Stripes toward the bottom are more dominant, which we'll get to in a minute.
 In the x direction, seconds of animation or frames of animation
-(\ :kbd:`Ctrl-T` to choose) are used as the measure of time
+(:kbd:`Ctrl-T` to choose) are used as the measure of time
 (seconds 1 through 7 are shown). You can scale the time using the zoom keys or mouse actions
 (see the Reference for more info).
 
@@ -71,7 +71,7 @@ The Add menu is the main menu you will be using to add content to the VSE. In ge
 you load up your strips, create strips of special transition effects,
 and then animate out your sequence by selecting "Do Sequence" and clicking the Anim button.
 You can use the Add menu in the header,
-or hover your mouse cursor over the Sequence workspace and press :kbd:`shift-A`\ .
+or hover your mouse cursor over the Sequence workspace and press :kbd:`shift-A`.
 
 
 .. admonition:: Clips can be Huge
@@ -111,7 +111,7 @@ Add Movies or Images
 When adding a Movie or Movie+Audio\ :kbd:`Lmb` LEFT CLICK to put the name of the file into
 the text box at the top; this selects a **single** file (like a movie)
 
-In the case of (numbered) image **sequences**\ , you have a choice:
+In the case of (numbered) image **sequences**, you have a choice:
 
 - **Directory**:
   :kbd:`Rmb` right-click on a directory name,
@@ -135,7 +135,7 @@ no movies load if you right click them. Right-clicking only works for images.
    :class: note
 
    means that the file is not a movie that Blender can recognize, or **you selected with the wrong button**.
-   You get this error message because you *right*\ -clicked on a movie file,
+   You get this error message because you *right* -clicked on a movie file,
    OR you don't have a codec that can decode the avi file. If it's the latter,
    find a codec so you can play the file outside of Blender, and then you will be able to load it.
    If it's the former, you must left-click to select movies.
@@ -151,7 +151,7 @@ and click to break the rubberband and drop the strip in place
 When you add an image, Blender makes it into a 50-frame strip,
 which means that image will be in your video for two seconds (at 25 fps - PAL).
 Aside from re-positioning it,
-you will want to scale it by :kbd:`Rmb`\ -clicking on either the start or end arrow,
+you will want to scale it by :kbd:`Rmb` -clicking on either the start or end arrow,
 and dragging left or right. As you move, the frame number updates to say where the arrow is.
 Click :kbd:`Lmb` to validate, or :kbd:`Rmb` to cancel the modification.
 
@@ -267,7 +267,7 @@ you may not be able to move it;
 you have to move the source strips in order to affect the effect strip.
 
 To use an effect that combines or makes a transition between (or composites) two strips,
-you must :guilabel:`B`\ ox select or shift-right-click two of them.
+you must :guilabel:`B` ox select or shift-right-click two of them.
 When you add the effect strip, it will be placed in a channel above the two in Grab mode
 (click to drop it on a channel).
 Its duration will be the overlap between the two strips as a maximum.
@@ -289,17 +289,17 @@ Change the length as you would any strip.
 
 
 If you picked the wrong effect from the menu, you can always change it by selecting the strip
-(\ :kbd:`Rmb`\ ) and using the Strip→Change Effect selection. Or,
-you can press :guilabel:`C`\ hange to switch effects on a selected Effects strip.
+(:kbd:`Rmb`) and using the Strip→Change Effect selection. Or,
+you can press :guilabel:`C` hange to switch effects on a selected Effects strip.
 
 
 Adding Plugin Effects
 ~~~~~~~~~~~~~~~~~~~~~
 
 FIXME(Template Unsupported: Warning/Not Yet Implemented;
-{{Warning/Not Yet Implemented|VSE plugins are not working in Blender 2.6 currently…}}
-)
-..    Comment: <!--[[File:Manual-VSE-Plugins.png|right]]
+{{Warning/Not Yet Implemented|VSE plugins are not working in Blender 2.6 currently…}})
+
+.. Comment: <!--[[File:Manual-VSE-Plugins.png|right]]
    Sequence Plugins are special little routines written by special programmers in the C language
    as a dynamic load library (.DLL). A DLL can be loaded at any time (dynamically)
    as it is needed, so it "plugs in" to Blender. (In case you wondered:
@@ -320,7 +320,7 @@ Strip Properties
 ----------------
 
 The properties for the strip are examined and set in the properties panel,
-shortcut :kbd:`N`\ .
+shortcut :kbd:`N`.
 
 
 - Edit Strip - change properties of the strip
@@ -338,7 +338,7 @@ Edit Strip Panel
 ~~~~~~~~~~~~~~~~
 
 :guilabel:`Name`
-    You can name or rename your strips here.
+   You can name or rename your strips here.
 :guilabel:`Type`
    Displays the type of strip selected.
 :guilabel:`Blend Mode`
@@ -351,7 +351,7 @@ Edit Strip Panel
 :guilabel:`Opacity`
    Set the opacity of the strip.
 :guilabel:`Mute`
-    Hides the strip so that it does not participate in the final image computation
+   Hides the strip so that it does not participate in the final image computation
 :guilabel:`Lock`
    Prevents the strip from being moved.
 :guilabel:`Channel`
@@ -365,8 +365,8 @@ Edit Strip Panel
 
 Use the :guilabel:`Convert to Premul` button if a strip has an Alpha (transparency) channel.
 Use :guilabel:`FilterY` if the strip is from broadcast video and has even or odd interlacing
-fields. Enhance the color saturation through the :guilabel:`Mul`\ tiply field.
-Play a strip backwards by enabling :guilabel:`Reverse Frames`\ .
+fields. Enhance the color saturation through the :guilabel:`Mul` tiply field.
+Play a strip backwards by enabling :guilabel:`Reverse Frames`.
 Tell Blender to display every nth frame by entering a :guilabel:`Strobe` value. Finally,
 when using MPEG video (VCD, DVD, XVid, DivX, …),
 an image is built up over the course of a few frames; use the :guilabel:`Preseek` field to
@@ -396,7 +396,7 @@ This is here you can edit/update the path of the file used by a strip. Very usef
 moved it one way or the other - this avoid you deleting and re-creating the strip!
 
 You have two text fields for path, the first being the path of the parent directory
-(\ :guilabel:`Path`\ ), and the second the file name itself.
+(:guilabel:`Path`), and the second the file name itself.
 
 
 Filter
@@ -406,7 +406,7 @@ Enables you to quickly set common image pre-processing options.
 :guilabel:`Strobe`
 
 :guilabel:`Flip`
-    X flips (reverses) the image left-to-right, Y reverses top-to-bottom.
+   X flips (reverses) the image left-to-right, Y reverses top-to-bottom.
 :guilabel:`Backwards`
    Reverses strip image sequence
 :guilabel:`De-Interlace`
@@ -455,8 +455,7 @@ Here you can specify the Sound Strip's file path and file name.
    Set the volume of the Sound file.
 :guilabel:`Attenuation/dB`
    Attenuation in decibels
-:guilabel:`Trim Duration
-   Start/End`
+:guilabel:`Trim Duration Start/End`
    Offset the start and end of a sound strip.
 
 
@@ -478,12 +477,13 @@ Adjusting the View
 Use these shortcuts to adjust the sequence area of the VSE:
 Pan :kbd:`mmb`
 Zoom :kbd:`wheel`
-Vertical Scroll use :kbd:`Shift-wheel`\ , or drag on the left scroll bar.
-Horizontal Scroll use :kbd:`ctrl-wheel`\ , or drag on the lower scroll ;bar.
+Vertical Scroll use :kbd:`Shift-wheel`, or drag on the left scroll bar.
+Horizontal Scroll use :kbd:`ctrl-wheel`, or drag on the lower scroll ;bar.
 Scale View Vertically, drag on the circles on the vertical scroll bar.
 Scale View Horizontally, drag on the circles on the horizontal scroll bar.
 
 As usual, the View Menu controls what and how you view in the workspace.
+
 :guilabel:`Properties Panel`
    The Properties Panel contains options for the the way the preview is displayed.
 :guilabel:`View all Sequences` :kbd:`home`
@@ -537,7 +537,7 @@ The icons in the header allow to change the view of the VSE. By default,
 only the sequencer is displayed. The second button displays only the Preview window,
 and the third button displays both the Sequencer and the Preview.
 
-When the preview is enabled, you have several options to change what type pf preview to display. They are explained in the :doc:`Display Modes Page <sequencer/modes>`\ .
+When the preview is enabled, you have several options to change what type pf preview to display. They are explained in the :doc:`Display Modes Page <sequencer/modes>`.
 
 
 Scene Preview
@@ -587,7 +587,7 @@ The Select Menu helps you select strips in different ways.
 :guilabel:`Strips to the Left`
    Select all strips to the left of the currently selected strip.
 :guilabel:`Strips to the Right`
-    Select all strips to the right of the currently selected strip.
+   Select all strips to the right of the currently selected strip.
 :guilabel:`Select Surrounding Handles` :kbd:`alt-ctrl-Rmb`
    Select both handles of the strip, plus the neighboring handles on the immediately adjoining strips. Select with this method to move a strip that is between to others without affecting the selected strip's length.
 :guilabel:`Left Handle` :kbd:`alt-Rmb`
@@ -595,7 +595,7 @@ The Select Menu helps you select strips in different ways.
 :guilabel:`Right Handle` :kbd:`ctrl-Rmb`
    Select the right handle of the currently selected strip.
 :guilabel:`Linked`
-    Select all strips linked to the currently selected strip
+   Select all strips linked to the currently selected strip
 :guilabel:`Select All` :kbd:`A`
    Selects all the strips loaded.
 :guilabel:`Select Inverse`
@@ -683,22 +683,22 @@ Separate Images to Strips
 Editing Strips
 ~~~~~~~~~~~~~~
 
-- :kbd:`Rmb` in the middle of the strip selects the **entire** strip; holding it down (or pressing :kbd:`G`\ rab) and then moving the mouse drags a strip around.
+- :kbd:`Rmb` in the middle of the strip selects the **entire** strip; holding it down (or pressing :kbd:`G` rab) and then moving the mouse drags a strip around.
 
 
-- :kbd:`Rmb` on the left arrow of the strip selects the **start** frame offset for that strip; holding it down (or pressing :kbd:`G`\ rab and then moving the mouse left/right changes the start frame within the strip by the number of frames you move it:
+- :kbd:`Rmb` on the left arrow of the strip selects the **start** frame offset for that strip; holding it down (or pressing :kbd:`G` rab and then moving the mouse left/right changes the start frame within the strip by the number of frames you move it:
   - If you have a 20-image sequence strip, and drag the left arrow to the right by 10 frames, the strip will start at image 11 (images 1 to 10 will be skipped). Use this to clip off a rollup or useless lead-in.
   - Dragging the left arrow left will create a lead-in (copies) of the first frame for as many frames as you drag it. Use this when you want some frames for transitions to the this clip.
 
 
-- :kbd:`Rmb` on the right arrow of the strip selects the **end** frame of the strip; holding it down (or pressing :kbd:`G`\ rab) and then moving the mouse changes the ending frame within the strip:
+- :kbd:`Rmb` on the right arrow of the strip selects the **end** frame of the strip; holding it down (or pressing :kbd:`G` rab) and then moving the mouse changes the ending frame within the strip:
   - Dragging the right arrow to the left shortens the clip; any original images at the tail are ignored. Use this to quickly clip off a rolldown.
   - Dragging the right arrow right extends the clip. For movies and images sequences, more of the animation is used until exhausted. Extending a clip beyond its end results in Blender making a copy of the last image. Use this for transitions out of this clip.
 
 .. admonition:: Multiple selection
    :class: note
 
-   You can select several (handles of) strips by :kbd:`shift-Rmb`\ -clicking: when you'll hit :kbd:`G`\ , everything that's selected will move with your mouse - this means that, for example, you can at the same time move a strip, shorten two others, and extend a forth one.
+   You can select several (handles of) strips by :kbd:`shift-Rmb` -clicking: when you'll hit :kbd:`G`, everything that's selected will move with your mouse - this means that, for example, you can at the same time move a strip, shorten two others, and extend a forth one.
 
 
 - STRIP EXTEND. With a number of Image strips selected, pressing :kbd:`E` enters EXTEND mode. All selected strip handles to the "mouse side" of the current frame indicator will transform together, allowing you to essentially extend the strips that fall exactly on the current frame marker and having all others adjust to compensate.
@@ -712,19 +712,19 @@ K cuts them in two. Use Cut to trim off roll-ups or lead-ins, or roll-downs or e
 .. admonition:: Note on the 'cut'
    :class: note
 
-    When you 'cut' a strip, you don't really make a cut like it was with the 'old editing' on real film. In fact, you make a copy of the strip: the end of the original one is 'winded' to the cut point, as with the beginning of the new copy.
+   When you 'cut' a strip, you don't really make a cut like it was with the 'old editing' on real film. In fact, you make a copy of the strip: the end of the original one is 'winded' to the cut point, as with the beginning of the new copy.
 
    For example, imagine that you have a strip of **50** frames,
    and that you want to delete the first ten ones.
-   You have to go to the **11**\ :sup:`th` frame, and hit :kbd:`K`\ ;
+   You have to go to the **11** :sup:`th` frame, and hit :kbd:`K`;
    the cut 'divides' your strip in two parts. You now can select the first small part
-   (frames **1** to **10**\ ), and delete it hitting :kbd:`X`\ .
+   (frames **1** to **10**), and delete it hitting :kbd:`X`.
 
-   You might think that you have really erased the frames **1** to **10**\ ,
-   but there are still there, 'winded', as in a film reel, under your frame **11**\ :
+   You might think that you have really erased the frames **1** to **10**,
+   but there are still there, 'winded', as in a film reel, under your frame **11** :
    you just have deleted one of the two copies of your strip created by the 'cut'.
    And you can at any time get your 'lost' frames back
-   (just :kbd:`Rmb`\ -click on the left arrow of the strip,
+   (just :kbd:`Rmb` -click on the left arrow of the strip,
    then :kbd:`G` grab it to the left to display the desired number of frames again (or to
    the right to 'hide' more frames - this is another way to remove frames at the beginning/end of
    a strip!).

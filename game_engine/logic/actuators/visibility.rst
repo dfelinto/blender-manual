@@ -15,6 +15,7 @@ The Visibility actuator allows the user to change the visibility of objects duri
 See :doc:`Actuator Common Options <game_engine/logic/actuators/common_options>` for common options.
 
 Special Options:
+
 **Visible**
    Toggle checkbox to toggle visibility
 **Occlusion**

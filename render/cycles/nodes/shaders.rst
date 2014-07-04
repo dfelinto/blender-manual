@@ -13,7 +13,8 @@ _______
 Lambertian and Oren-Nayar diffuse reflection.
 
 :guilabel:`Color input`
-   Color of the surface, or physically speaking, the probability that light is reflected or transmitted for each wavelength.
+   Color of the surface, or physically speaking,
+   the probability that light is reflected or transmitted for each wavelength.
 :guilabel:`Roughness input`
    Surface roughness; 0.0 gives standard Lambertian reflection, higher values activate the Oren-Nayar BSDF.
 :guilabel:`Normal input`
@@ -60,7 +61,7 @@ ______
 Glossy reflection with microfacet distribution, used for materials such as metal or mirrors.
 
 :guilabel:`Distribution`
-   Microfacet distribution to use. :guilabel:`Sharp` results in perfectly sharp reflections like a mirror, while :guilabel:`Beckmann`\ , :guilabel:`GGX` and :guilabel:`Ashikhmin-Shirley` can use the :guilabel:`Roughness` input for blurry reflections.
+   Microfacet distribution to use. :guilabel:`Sharp` results in perfectly sharp reflections like a mirror, while :guilabel:`Beckmann`, :guilabel:`GGX` and :guilabel:`Ashikhmin-Shirley` can use the :guilabel:`Roughness` input for blurry reflections.
 :guilabel:`Color input`
    Color of the surface, or physically speaking, the probability that light is reflected for each wavelength.
 :guilabel:`Roughness input`
@@ -90,7 +91,7 @@ The tangents used for shading are derived from the active UV map. If no UV map i
 they are automatically generated using a sphere mapping based on the mesh bounding box.
 
 :guilabel:`Distribution`
-   Microfacet distribution to use. :guilabel:`Sharp` results in perfectly sharp reflections like a mirror, while :guilabel:`Beckmann`\ , :guilabel:`GGX` and :guilabel:`Ashikhmin-Shirley` can use the :guilabel:`Roughness` input for blurry reflections.
+   Microfacet distribution to use. :guilabel:`Sharp` results in perfectly sharp reflections like a mirror, while :guilabel:`Beckmann`, :guilabel:`GGX` and :guilabel:`Ashikhmin-Shirley` can use the :guilabel:`Roughness` input for blurry reflections.
 :guilabel:`Color input`
    Color of the surface, or physically speaking, the probability that light is reflected for each wavelength.
 :guilabel:`Roughness input`
@@ -98,7 +99,6 @@ they are automatically generated using a sphere mapping based on the mesh boundi
 :guilabel:`Anisotropy input`
    Amount of anisotropy in the reflection; 0.0 gives a round highlight. Higher values give elongated highlights orthogonal to the tangent direction; negative values give highlights shaped along the tangent direction.
 :guilabel:`Rotation input`
-
    Rotation of the anisotropic tangent direction. Value 0.0 equals 0- rotation, 0.25 equals 90- and 1.0 equals 360- = 0- . This can be used to texture the tangent direction.
 
 :guilabel:`Normal input`
@@ -126,9 +126,7 @@ creating cartoon light effects.
 :guilabel:`Color input`
    Color of the surface, or physically speaking, the probability that light is reflected for each wavelength.
 :guilabel:`Size input`
-
    Parameter between 0.0 and 1.0 that gives a angle of reflection between 0- and 90- .
-
 :guilabel:`Smooth input`
    This value specifies an angle over which a smooth transition from full to no reflection happens.
 :guilabel:`Normal input`
@@ -148,7 +146,7 @@ ___________
 Transparent :abbr:`BSDF (Bidirectional scattering distribution function)` without refraction, passing straight through the surface, as if there were no geometry there. Useful with alpha maps, for example. This shader
 FIXME(TODO: Internal Link;
 [[../../Light_Paths#Transparency|affects light paths somewhat differently]]
-) than other :abbr:`BSDF (Bidirectional scattering distribution function)`\ s. Note that only pure white transparent shaders are completely transparent.
+) than other :abbr:`BSDF (Bidirectional scattering distribution function)` s. Note that only pure white transparent shaders are completely transparent.
 
 :guilabel:`Color input`
    Color of the surface, or physically speaking, the probability for each wavelength that light is blocked or passes straight through the surface.
@@ -230,13 +228,13 @@ Velvet
 ______
 
 Velvet reflection shader for materials such as cloth.
-It is meant to be used together with other shaders (such as a *Diffuse Shader*\ )
+It is meant to be used together with other shaders (such as a *Diffuse Shader*)
 and isn't particularly useful on it's own.
 
 :guilabel:`Color input`
    Color of the surface, or physically speaking, the probability that light is reflected for each wavelength.
 :guilabel:`Sigma input`
-   Variance of the normal distribution, controlling the sharpness of the peak - can be thought of as a kind of *roughness*\ .
+   Variance of the normal distribution, controlling the sharpness of the peak - can be thought of as a kind of *roughness*.
 :guilabel:`Normal input`
    Normal used for shading; if nothing is connected the default shading normal is used.
 :guilabel:`BSDF output`
@@ -270,8 +268,13 @@ and a soft appearance.
 
 :guilabel:`Falloff`
    Lighting distance falloff function.
-    **Cubic** is a sharp falloff useful for many simple materials. The function is (radius - x)\ :sup:`3`
-    **Gaussian** gives a smoother falloff following a normal distribution, which is particularly useful for more advanced materials that use measured data that was fitted to one or more such Gaussian functions. The function is e\ :sup:`-8x`\ :sup:`2`\ :sup:`/radius`\ :sup:`2`\ , such that the radius roughly matches the maximum falloff distance. To match a given measured variance v, set radius = sqrt(16*v).
+   **Cubic** is a sharp falloff useful for many simple materials. The function is (radius - x)\ :sup:`3`
+   **Gaussian** gives a smoother falloff following a normal distribution,
+   which is particularly useful for more advanced materials that use measured
+   data that was fitted to one or more such Gaussian functions.
+   The function is e\ :sup:`-8x`:sup:`2`:sup:`/radius`:sup:`2`,
+   such that the radius roughly matches the maximum falloff distance.
+   To match a given measured variance v, set radius = sqrt(16*v).
 :guilabel:`Color input`
    Color of the surface, or physically speaking, the probability that light is reflected for each wavelength.
 :guilabel:`Scale input`
@@ -307,7 +310,9 @@ Lambertian emission, to be used for material and lamp surface outputs.
 :guilabel:`Color input`
    Color of the emitted light.
 :guilabel:`Strength input`
-   Strength of the emitted light. For point and area lamps, the unit is Watts. For materials, a value of 1.0 will ensure that the object in the image has the exact same color as the :guilabel:`Color` input, i.e. make it 'shadeless'.
+   Strength of the emitted light. For point and area lamps, the unit is Watts.
+   For materials, a value of 1.0 will ensure that the object in the image has
+   the exact same color as the :guilabel:`Color` input, i.e. make it 'shadeless'.
 :guilabel:`Emission output`
    Emission shader.
 
@@ -398,4 +403,3 @@ where the :guilabel:`Fac` input may, for example, be connected to a Blend Weight
 .. figure:: /images/Manual_cycles_nodes_bsdf_mixrender.jpg
 
    A mix of a glossy and a diffuse shader makes a nice ceramic material.
-

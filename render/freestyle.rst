@@ -14,21 +14,21 @@ The two operating modes - :doc:`Python Scripting <render/freestyle/python>` and 
    :width: 600px
    :figwidth: 600px
 
-   A cartoon scene from `OHA Studio <http://oha-studios.com/>`__ (\ `the .blend file <http://download.blender.org/demo/test/freestyle_demo_file.blend.zip>`__\ ). © Mechanimotion Entertainment.
+   A cartoon scene from `OHA Studio <http://oha-studios.com/>`__ (`the .blend file <http://download.blender.org/demo/test/freestyle_demo_file.blend.zip>`__). © Mechanimotion Entertainment.
 
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Demo-BluePrint.jpg
    :width: 600px
    :figwidth: 600px
 
-   Blueprint render of Martin M-130 from 1935 by LightBWK. CC0. WARNING: HEAVY FILE! DESIGNED FOR STRESS TEST BLENDER TO THE LIMITS & MAY CRASH BLENDER. (\ `File:M-130Blueprint.zip <http://wiki.blender.org/index.php/File:M-130Blueprint.zip>`__\ )
+   Blueprint render of Martin M-130 from 1935 by LightBWK. CC0. WARNING: HEAVY FILE! DESIGNED FOR STRESS TEST BLENDER TO THE LIMITS & MAY CRASH BLENDER. (`File:M-130Blueprint.zip <http://wiki.blender.org/index.php/File:M-130Blueprint.zip>`__)
 
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Demo-HVACPreViz.jpg
    :width: 600px
    :figwidth: 600px
 
-   HVAC Pre-Viz by Lee Posey. CC0 (\ `File:HVACPreViz.zip <http://wiki.blender.org/index.php/File:HVACPreViz.zip>`__\ )
+   HVAC Pre-Viz by Lee Posey. CC0 (`File:HVACPreViz.zip <http://wiki.blender.org/index.php/File:HVACPreViz.zip>`__)
 
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Demo-KitchenSet.jpg

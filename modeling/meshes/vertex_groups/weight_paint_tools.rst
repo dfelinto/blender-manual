@@ -145,7 +145,7 @@ Operator parameters
 
 
 Subset
-   Restrict the tool to a subset. See above (\ :guilabel:`The Subset Option`\ ) about how subsets are defined.
+   Restrict the tool to a subset. See above (:guilabel:`The Subset Option`) about how subsets are defined.
 Add Weights
    Add verts that have no weight before inverting (these weights will all be set to 1.0)
 Remove Weights
@@ -168,7 +168,7 @@ This tool is useful for clearing your weight groups of very low (or zero-) weigh
 In the example shown, I used a cutoff value of 0.139 (see operator options below)
 so all blue parts (left side) are cleaned out (right side).
 
-Note, the images use the :guilabel:`Show Zero weights`\ =Active option so that unreferenced
+Note, the images use the :guilabel:`Show Zero weights` =Active option so that unreferenced
 Weights are shown in Black.
 
 
@@ -181,7 +181,7 @@ Operator parameters
 
 
 Subset
-   Restrict the tool to a subset. See above (\ :guilabel:`The Subset Option`\ ) for how subsets are defined.
+   Restrict the tool to a subset. See above (:guilabel:`The Subset Option`) for how subsets are defined.
 Limit
    This is the minimum weight value that will be kept in the Group. Weights below this value will be removed from the group.
 Keep Single
@@ -211,7 +211,7 @@ Operator parameters
 
 
 Subset
-   Restrict the tool to a subset. See above (\ :guilabel:`The Subset Option`\ ) for how subsets are defined.
+   Restrict the tool to a subset. See above (:guilabel:`The Subset Option`) for how subsets are defined.
 Offset
    A value from the range [-1.0,1.0]) to be added to all weights in the Vertex Group.
 Gain
@@ -378,11 +378,11 @@ Defaults are marked in boldface:
 Group:
 
 - Active: Only copy to the Active Group in the active Object. This option only works when the active Object has an active Vertex Group set. Otherwise the Weight transfer will not do anything.
-- **All**\ : Copy all Vertex groups from the selected objects to the Active Object.
+- **All** : Copy all Vertex groups from the selected objects to the Active Object.
 
 Method:
 
-- **Nearest vertex In face**\ : to be documented
+- **Nearest vertex In face** : to be documented
 - Nearest Face: to be documented
 - Nearest vertex: to be documented
 - Vertex Index (verbatim copy, works only for meshes with identical index count)
@@ -390,7 +390,7 @@ Method:
 Replace
 
 - Empty: Only copy a weight to the active object if the vertex has not yet had a weight set in the group.
-- **All**\ : delete all previous content of the target vertex group before copying the group from the source object.
+- **All** : delete all previous content of the target vertex group before copying the group from the source object.
 
 .. admonition:: Caveat!
    :class: nicetip
@@ -411,7 +411,7 @@ Operator parameters
 +++++++++++++++++++
 
 Subset
-   Restrict the tool to a subset. See above (\ :guilabel:`The Subset Option`\ ) for how subsets are defined.
+   Restrict the tool to a subset. See above (:guilabel:`The Subset Option`) for how subsets are defined.
 Limit
    Maximum number of weights allowed on each vertex (default:4)
 

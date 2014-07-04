@@ -23,7 +23,7 @@ more complex and fantastic materials can be created since we now have greater co
 Just in case you're not (yet) familiar with the concepts:  when you create a system of nodes
 (otherwise known as a "noodle"), you're describing a data-processing pipeline of sorts,
 where data "flows from" nodes which describe various *sources,*
- "flows through" nodes which represent various processing and filtering stages,
+"flows through" nodes which represent various processing and filtering stages,
 and finally "flows into" nodes which represent outputs or destinations.
 You can connect the nodes to one another in many different ways, and you can adjust "knobs,
 " or parameters, that control the behavior of each node.
@@ -39,16 +39,14 @@ we are just not getting what we are looking for? What if we want to control the 
 tightly or add more complexity? Here is where nodes come in.
 
 
-Making this node map is accomplished by working in a :doc:`Node Editor window <materials/nodes/editor>`\ . This section covers:
+Making this node map is accomplished by working in a :doc:`Node Editor window <materials/nodes/editor>`. This section covers:
 
 - Enabling Material Nodes.
 - The Node Editor window, its basic controls, and working with nodes.
 - The specific types of nodes available for materials.
 
 
-FIXME(Template Unsupported: Doc:2.6/Reference/Nodes/Concepts;
-{{Doc:2.6/Reference/Nodes/Concepts}}
-)
+FIXME(Template Unsupported: Doc:2.6/Reference/Nodes/Concepts; {{Doc:2.6/Reference/Nodes/Concepts}})
 
 
 Accessing The Node Editor
@@ -80,13 +78,13 @@ tree. Most of the panels we normally find in the material menu are now gone.
 
 
 If you switch to the :guilabel:`Compositing` screen
-(\ :kbd:`Ctrl-left` if you are on the default screen)
+(:kbd:`Ctrl-left` if you are on the default screen)
 you'll find a :guilabel:`Node Editor` on the top half of the screen.
 When you enabled material nodes,
 a material node and an output node were automatically added to the node editor.
 
 You can also split the 3D view in the default screen in two and change one into a
-:guilabel:`Node Editor`\ .
+:guilabel:`Node Editor`.
 
 
 +-------------------------------------------------------------------+----------------------------------------------------------+
@@ -100,7 +98,7 @@ It is important to note that you can add a new material
 add an already created material or append a material from another blender file,
 and also use the material that you used to create the node tree.
 
-Here, we added a new material in the :guilabel:`Node editor` (\ *Material.001*\ ),
+Here, we added a new material in the :guilabel:`Node editor` (*Material.001*),
 and as we did, we can access the properties of this material in the material's menu.
 
 

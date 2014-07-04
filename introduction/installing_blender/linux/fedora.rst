@@ -72,7 +72,7 @@ To install that missing SDL library type the following command in the terminal w
 yum install SDL
 
 Once the above command is typed, the yum package manager will ask for confirmation,
-type y at the terminal and press :kbd:`Enter`\ :
+type y at the terminal and press :kbd:`Enter`:
 
 Is this ok [y/N]:y
 
@@ -88,7 +88,7 @@ This will install the missing SDL library package.
 You can now close the terminal as you will no longer need it.
 
 Now that you have all the library dependencies installed to run Blender you can go to the
-`Blender Download Website <http://www.blender.org/download/get-blender/>`__\ .
+`Blender Download Website <http://www.blender.org/download/get-blender/>`__.
 
 From the download page you can now choose the correct version of Blender to download for your
 particular hardware configuration.
@@ -149,7 +149,7 @@ In the file browser dialog box make sure the option 'Save File' is selected.
 Then click the OK button.
 This will download the Blender software to your Downloads directory.
 
-With your web browser window still selected press :kbd:`CTRL+SHIFT+Y`\ .
+With your web browser window still selected press :kbd:`CTRL+SHIFT+Y`.
 This will open your browser download window.
 Right click on the Blender entry and select Open.
 
@@ -263,7 +263,7 @@ What follows is a list of the major conflicting keyboard shortcuts and how to ch
 ALT+Left Mouse Button
 ~~~~~~~~~~~~~~~~~~~~~
 
-:kbd:`ALT+LMB` is a common keyboard shortcut used by Blender.  It is also used by the Window Manager in Gnome Shell to move windows around.  Because of this conflict using this keyboard shortcut to do edge loop selection does work as expected.  To fix this issue you need to tell the Gnome Shell Window Manager not to use the keyboard short :kbd:`ALT+LMB`\ .  A common fix for this is to tell the Gnome Shell Window Manager to instead use :kbd:`SUPER+LMB`\ .  The :kbd:`SUPER` key is also often called the :kbd:`Windows` key.
+:kbd:`ALT+LMB` is a common keyboard shortcut used by Blender.  It is also used by the Window Manager in Gnome Shell to move windows around.  Because of this conflict using this keyboard shortcut to do edge loop selection does work as expected.  To fix this issue you need to tell the Gnome Shell Window Manager not to use the keyboard short :kbd:`ALT+LMB`.  A common fix for this is to tell the Gnome Shell Window Manager to instead use :kbd:`SUPER+LMB`.  The :kbd:`SUPER` key is also often called the :kbd:`Windows` key.
 
 To have Gnome Shell Window Manager use the :kbd:`SUPER` key rather than :kbd:`ALT`
 key when moving windows on the desktop, type the following command in a terminal window:

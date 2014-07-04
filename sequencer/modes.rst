@@ -74,7 +74,7 @@ This mode is good for:
 
 +------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
 +.. figure:: /images/Manual-VSE-Luma_waveform_ex1.jpg                                                                          |.. figure:: /images/Manual-VSE-Luma_waveform_ex2.jpg                             |Examples of :guilabel:`VSE` :guilabel:`Luma` Previews.                                                                                                +
-+                                                                                                                              |                                                                                 |Note that the pictures (first green frame, at the top) are only 50px high, to limit the number of curves displayed in the :guilabel:`Luma waveform`\ !+
++                                                                                                                              |                                                                                 |Note that the pictures (first green frame, at the top) are only 50px high, to limit the number of curves displayed in the :guilabel:`Luma waveform` ! +
 +   'Simple' picture.                                                                                                          |   A 'real' picture.                                                             |                                                                                                                                                      +
 +   The various horizontal lines in the Luma waveform match the uniform-color lines of the picture.                            |   The curves are quite visible.                                                 |                                                                                                                                                      +
 +   Note that the 'grey 20%' one-pixel width line (inside the yellow strip) is represented in the Luma waveform by a grey line.|   We found a luma of 80-100% for the sky,                                       |                                                                                                                                                      +
@@ -123,7 +123,7 @@ Color calibration is a matter of taste and depends on what you want.
 Use this display to check for too much color saturation.
 While over-saturated images look great for op-art and computer displays,
 they stink when shown on the big screen TV.
-Use the :guilabel:`Alt-A`\ nimation key to scrub the video;
+Use the :guilabel:`Alt-A` nimation key to scrub the video;
 this display will update with a new/revised map for each frame.
 Just like watching the Image preview to see what it looks like,
 watch the Chroma Vectorscope to watch for color use.

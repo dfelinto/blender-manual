@@ -18,11 +18,11 @@ The select menu in edit mode contains additional tool for selecting components:
    Selects vertices that are multiples of N.
 :guilabel:`Select Sharp Edges`
 
-   This option will select all edges that are between two faces forming an angle less than a given value, which is asked you *via* a small pop-up dialog. The lower is this angle limit, the sharper will be the selected edges. At **180- **\ , **all** "manifold" (see below) edges will be selected.
+   This option will select all edges that are between two faces forming an angle less than a given value, which is asked you *via* a small pop-up dialog. The lower is this angle limit, the sharper will be the selected edges. At **180- **, **all** "manifold" (see below) edges will be selected.
 
-:guilabel:`Linked Flat Faces` (\ :kbd:`Ctrl-Shift-Alt-F`\ )
+:guilabel:`Linked Flat Faces` (:kbd:`Ctrl-Shift-Alt-F`)
    Select connected faces based on a threshold of the angle between them. This is useful for selecting faces that are planar.
-:guilabel:`Select Non Manifold` (\ :kbd:`Ctrl-Shift-Alt-M`\ )
+:guilabel:`Select Non Manifold` (:kbd:`Ctrl-Shift-Alt-M`)
    Selects vertices that are not completely bound by geometry, including border edges, floating edges, and orphan vertices. Only available in Vertex and Edge mode.
 :guilabel:`Interior Faces`
    Select faces where all edges have more than 2 faces.
@@ -49,37 +49,37 @@ Select components that have similar attributes to the ones selected,
 based on a threshold that can be set in tool properties after activating the tool.
 Tool options change depending on the selection mode:
 
-:guilabel:`Vertex Selection Mode`\ :
+:guilabel:`Vertex Selection Mode`:
    :guilabel:`Normal`
       Selects all vertices that have normals pointing in similar directions to those currently selected.
    :guilabel:`Amount of Adjacent Faces`
       Selects all vertices that have the same number of faces connected to them.
    :guilabel:`Vertex Groups`
-      Selects all vertices in the same :doc:`vertex group <modeling/meshes/vertex_groups>`\ .
+      Selects all vertices in the same :doc:`vertex group <modeling/meshes/vertex_groups>`.
    :guilabel:`Amount of connecting edges`
       Selects all vertices that have the same number of edges connected to them.
 
 
-:guilabel:`Edge Selection Mode`\ :
+:guilabel:`Edge Selection Mode`:
    :guilabel:`Length`
       Selects all edges that have a similar length as those already selected.
    :guilabel:`Direction`
       Selects all edges that have a similar direction (angle) as those already selected.
    :guilabel:`Amount of Faces Around an Edge`
-       Selects all edges that belong to the same number of faces.
+      Selects all edges that belong to the same number of faces.
    :guilabel:`Face Angles`
       Selects all edges that are between two faces forming a similar angle, as with those already selected.
    :guilabel:`Crease`
-       Selects all edges that have a similar :guilabel:`Crease` value as those already selected. The :guilabel:`Crease` value is a setting used by the :doc:`Subsurf Modifier <modifiers/generate/subsurf>`\ .
+      Selects all edges that have a similar :guilabel:`Crease` value as those already selected. The :guilabel:`Crease` value is a setting used by the :doc:`Subsurf Modifier <modifiers/generate/subsurf>`.
    :guilabel:`Bevel`
       Selects all edges that have the same :guilabel:`Bevel Weight` as those already selected.
    :guilabel:`Seam`
-      Selects all edges that have the same :guilabel:`Seam` state as those already selected. :guilabel:`Seam` is a true/false setting used in :doc:`UV-texturing <textures/mapping/uv>`\ .
+      Selects all edges that have the same :guilabel:`Seam` state as those already selected. :guilabel:`Seam` is a true/false setting used in :doc:`UV-texturing <textures/mapping/uv>`.
    :guilabel:`Sharpness`
-      Selects all edges that have the same :guilabel:`Sharp` state as those already selected. :guilabel:`Sharp` is a true/false setting (a flag) used by the :doc:`EdgeSplit Modifier <modifiers/generate/edge_split>`\ .
+      Selects all edges that have the same :guilabel:`Sharp` state as those already selected. :guilabel:`Sharp` is a true/false setting (a flag) used by the :doc:`EdgeSplit Modifier <modifiers/generate/edge_split>`.
 
 
-:guilabel:`Face Selection Mode`\ :
+:guilabel:`Face Selection Mode`:
    :guilabel:`Material`
       Selects all faces that use the same material as those already selected.
    :guilabel:`Image`
@@ -118,9 +118,9 @@ a line end to end, passing through the edge under the mouse pointer.
 Holding :kbd:`alt-shift` while clicking adds to the current selection.
 
 Edge loops can also be selected based on an existing edge selection,
-using either :menuselection:`Select --> Edge Loop`\ ,
+using either :menuselection:`Select --> Edge Loop`,
 or the :guilabel:`Edge Loop Select` option of the :guilabel:`Edge Specials` menu
-(\ :kbd:`ctrl-E`\ ).
+(:kbd:`ctrl-E`).
 
 
 .. admonition:: :guilabel:`Vertex` mode
@@ -175,7 +175,7 @@ The loop extends perpendicular from the edge that was selected.
 
 
 A face loop can also be selected in :guilabel:`Vertex` select mode.
-Technically :kbd:`ctrl-alt-rmb` will select an :guilabel:`Edge Ring`\ ,
+Technically :kbd:`ctrl-alt-rmb` will select an :guilabel:`Edge Ring`,
 however in :guilabel:`Vertex` select mode, selecting an :guilabel:`Edge Ring` implicitly
 selects a :guilabel:`Face Loop` since selecting opposite edges of a face implicitly selects
 the entire face.
@@ -192,12 +192,12 @@ Edge Ring
    | Hotkey:   :kbd:`ctrl-alt-rmb` or :kbd:`ctrl-E` → :menuselection:`Select --> Edge Ring`
 
 
-In :guilabel:`Edge` select mode, holding :kbd:`ctrl-alt` while selecting an edge selects a sequence of edges that are not connected, but on opposite sides to each other continuing along a :doc:`face loop <modeling/meshes/mesh_structures>`\ .
+In :guilabel:`Edge` select mode, holding :kbd:`ctrl-alt` while selecting an edge selects a sequence of edges that are not connected, but on opposite sides to each other continuing along a :doc:`face loop <modeling/meshes/mesh_structures>`.
 
 As with edge loops, you can also select edge rings based on current selection,
-using either :menuselection:`Select --> Edge Ring`\ ,
+using either :menuselection:`Select --> Edge Ring`,
 or the :guilabel:`Edge Ring Select` option of the :guilabel:`Edge Specials` menu
-(\ :kbd:`ctrl-E`\ ).
+(:kbd:`ctrl-E`).
 
 
 .. admonition:: :guilabel:`Vertex` mode
@@ -211,7 +211,7 @@ or the :guilabel:`Edge Ring Select` option of the :guilabel:`Edge Specials` menu
    A selected edge loop, and a selected edge ring.
 
 
-In (\ *A selected edge loop, and a selected edge ring*\ ),
+In (*A selected edge loop, and a selected edge ring*),
 the same edge was clicked on but two different "groups of edges" were selected,
 based on the different commands.
 One is based on edges during computation and the other is based on faces.
@@ -284,7 +284,7 @@ Boundary Loop
    | Hotkey:   :kbd:`ctrl-E` → :menuselection:`Select Boundary Loop`
 
 
-:guilabel:`Select Boundary Loop` is the "logical inverse" of :guilabel:`Select Loop Inner-Region`\ , based on all regions currently selected, it selects only the edges at the border of these regions. It can operate in any select mode, but will always switch to :guilabel:`Edge` select mode when run.
+:guilabel:`Select Boundary Loop` is the "logical inverse" of :guilabel:`Select Loop Inner-Region`, based on all regions currently selected, it selects only the edges at the border of these regions. It can operate in any select mode, but will always switch to :guilabel:`Edge` select mode when run.
 
 All this is much more simple to illustrates with examples:
 

@@ -35,14 +35,16 @@ scene does not change when the Game Engine is started.
 Camera Object
 -------------
 
-The Camera object in the Game Engine follows much the same structure as the conventional Blender camera  - see :doc:`Camera <render/camera>` for details of how to set up, manipulate and select a camera. The following sections show some of the special facilities available in BGE cameras.
+The Camera object in the Game Engine follows much the same structure as the conventional Blender camera - see
+:doc:`Camera <render/camera>` for details of how to set up,
+manipulate and select a camera. The following sections show some of the special facilities available in BGE cameras.
 
 
 Parent Camera to Object
 -----------------------
 
 The camera will follow the object. First select the camera and then select the object.
-Next :kbd:`ctrl-P` → :guilabel:`Make Parent`\ .
+Next :kbd:`ctrl-P` → :guilabel:`Make Parent`.
 
 Note that if your object has any rotations then the camera will also have those rotations.
 To avoid this use "Parent to Vertex" (see below).
@@ -52,12 +54,12 @@ Parent to Vertex
 ----------------
 
 The easiest way to accomplish this is to select your object and :kbd:`Tab` to
-:guilabel:`Edit mode`\ .
+:guilabel:`Edit mode`.
 Now select the vertex and :kbd:`Tab` back to :guilabel:`Object` mode.
 
 Next, without any objects selected, select the camera and, holding the :kbd:`Shift` key,
-select the object. :kbd:`Tab` into :guilabel:`Edit mode`\ ,
-and :kbd:`ctrl-P` and choose :guilabel:`Make vertex parent`\ .
+select the object. :kbd:`Tab` into :guilabel:`Edit mode`,
+and :kbd:`ctrl-P` and choose :guilabel:`Make vertex parent`.
 
 Now the camera will follow the object and it will maintain its rotation,
 while the object rotates.
@@ -85,17 +87,17 @@ when you put the beamer on a table it does not project half of the image on the 
 
 Unfortunately, this parameter is not taken in account by the Game Engine.
 
-To manipulate the projection we can then directly modify the camera projection matrix in
-Python.
+To manipulate the projection we can then directly modify the camera projection matrix in Python.
 
-::
+.. code-block:: python
 
    import bge
    scene = bge.logic.getCurrentScene()
    cam = scene.active_camera
    # get projection matrix
    camatrix = cam.projection_matrix
-   #modifying the camera projection matrix by modifying the x and y terms of the 3rd row to obtain a shift of the rendered area
+   # modifying the camera projection matrix by modifying the x and y terms
+   # of the 3rd row to obtain a shift of the rendered area
    camatrix[2][0] = 2*shiftx
    camatrix[2][1] = 2*shitfy
    cam.projection_matrix = camatrix
@@ -107,5 +109,3 @@ for shifting the view up half a screen shifty is set to 0.5.
 Note that a camera's projection_matrix attribute may not be set until after initialization
 scripts are executed and running this code immediately after the game starts will mess up the
 projection matrix.
-
-

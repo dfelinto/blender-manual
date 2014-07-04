@@ -7,7 +7,9 @@
 Scene Management Structure
 ==========================
 
-Scene management and library appending/linking is based on Blender's :doc:`Library and Data System <data_system>`\ , so it is a good idea to read that manual page first if you're not familiar with the basics of that system.
+Scene management and library appending/linking is based on Blender's :doc:`Library and Data System <data_system>`,
+so it is a good idea to read that manual page first if you're not familiar with the basics of that system.
+
 
 Blender can be used to create something as simple as a single scene or image,
 or scaled up to an entire movie. A movie is usually comprised of three acts:
@@ -25,10 +27,19 @@ Each sequence, or shot, usually lasts a few seconds.
 .. admonition:: Sequence shot
    :class: note
 
-   Sometimes, a single shot lasts several minutes: its a "sequence shot", which might even be a complete scene on its own. Technique hard to master if you don't want your audience to fall asleep!
+   Sometimes, a single shot lasts several minutes: its a "sequence shot",
+   which might even be a complete scene on its own.
+   Technique hard to master if you don't want your audience to fall asleep!
 
 
-A single Blender file is organized and set up to be able to contain an entire movie. Each .blend file can contain multiple scenes. A scene is a bunch of objects, organized into layers. As you progress through the creative process, you use a set of window :doc:`screen layouts <data_system/scene_creation>` specifically designed to help you work efficiently through the creative process: model the objects and create the props, clothe the actors and dress the set (assign materials), define the action (animation), render the video, and produce the movie. You can tailor these screen layouts, and create custom layouts, to match your working preferences.
+A single Blender file is organized and set up to be able to contain an entire movie. Each .
+blend file can contain multiple scenes. A scene is a bunch of objects, organized into layers.
+As you progress through the creative process, you use a set of window
+:doc:`screen layouts <data_system/scene_creation>`
+specifically designed to help you work efficiently through the creative process:
+model the objects and create the props, clothe the actors and dress the set (assign materials), define the action
+(animation), render the video, and produce the movie. You can tailor these screen layouts, and create custom layouts,
+to match your working preferences.
 
 
 Planning Your Timeline
@@ -50,6 +61,6 @@ This timeline allows for cutting out 700 frames, picking the best 1800 frames
 .. admonition:: Multiple Cameras
    :class: note
 
-   You can have multiple cameras in a scene, used for different shots, and select which one is active when rendering the shot. Press [Ctrl + 0] to switch to the camera you wish to use at a point in time.
-
-
+   You can have multiple cameras in a scene, used for different shots,
+   and select which one is active when rendering the shot. Press :kbd:`ctrl-0`
+   to switch to the camera you wish to use at a point in time.

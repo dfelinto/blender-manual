@@ -46,13 +46,13 @@ config`` folder in Linux is hidden. The location may also be different depending
 choices for setting up your operating system and Blender.
 
 You can also create a personnal folder containing new addons and configure your files path in
-the :guilabel:`File` panel of the :guilabel:`User Preferences`\ .
+the :guilabel:`File` panel of the :guilabel:`User Preferences`.
 To create a personnal script folder:
 
 - Create an empty folder (i.e. 'script_addon_2-6x')
 - Add one folder named 'addons'. It has to named like this for Blender to recognize it.
 - Put your new addons in this 'addons' folder.
-- open the :guilabel:`File` panel of the :guilabel:`User Preferences`\ .
+- open the :guilabel:`File` panel of the :guilabel:`User Preferences`.
 - Fill the :guilabel:`Scripts` entry with the path to your script folder (i.e. 'script_addon_2-6x').
 
 For information on the location of blender directories
@@ -77,7 +77,7 @@ To disable the functionality again, uncheck the box. To get more information on 
 .. admonition:: Saving Add-On Preferences
    :class: nicetip
 
-   If you want an Add-On to be enabled everytime you start Blender, you will need to save your :doc:`User Preferences <preferences>`\ .
+   If you want an Add-On to be enabled everytime you start Blender, you will need to save your :doc:`User Preferences <preferences>`.
 
 
 Development guidelines

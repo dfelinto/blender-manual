@@ -11,7 +11,7 @@ When a sensor is activated, it sends out a positive pulse, and when it is deacti
 it sends out a negative pulse.
 The controllers' job is to check and combine these pulses to trigger the proper response.
 
-The logic blocks for all types of controller may be constructed and changed using the :doc:`Logic Editor <game_engine/logic/editor>`\ ; details of this process are given in the :doc:`Controller Editing <game_engine/logic/controllers/editing>` page.
+The logic blocks for all types of controller may be constructed and changed using the :doc:`Logic Editor <game_engine/logic/editor>`; details of this process are given in the :doc:`Controller Editing <game_engine/logic/controllers/editing>` page.
 
 
 Controller Types

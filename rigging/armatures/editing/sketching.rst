@@ -17,7 +17,7 @@ whole chains of bones at once.
 
 Skeleton Sketching is obviously only available in :guilabel:`Edit` mode, in the 3D views. You
 control it through its :guilabel:`Skeleton Sketching` panel in the :guilabel:`Transform
-panel`\ , which you can open with :kbd:`n`\ . Use mouse (\ :kbd:`lmb` to draw strokes,
+panel`, which you can open with :kbd:`n`. Use mouse (:kbd:`lmb` to draw strokes,
 and :kbd:`rmb` for gestures. Showing its tool panel won't enable sketching - *you must
 tick the checkbox next to* :guilabel:`Skeleton Sketching` *to start drawing bone chains*
 (otherwise, you remain in the standard :guilabel:`Edit` mode…).
@@ -295,7 +295,7 @@ Adaptative
 
 With this method, each free segment of the selected strokes will create as many bones as
 necessary to follow its shape closely enough - this "closely enough" parameter being set by
-the :guilabel:`Thres`\ hold numeric field; higher values giving more bones,
+the :guilabel:`Thres` hold numeric field; higher values giving more bones,
 following more closely the segments' shape.
 So the more twisted a free segment, the more bones it will generate.
 
@@ -335,7 +335,7 @@ Retarget
 Retarget template bone chain to stroke.
 
 :guilabel:`Template`
-   Template armature that will be retargeted to the stroke. This is a more complex topic, detailed in its :doc:`own page <rigging/armatures/editing/templating>`\ .
+   Template armature that will be retargeted to the stroke. This is a more complex topic, detailed in its :doc:`own page <rigging/armatures/editing/templating>`.
 
 
 :guilabel:`Retarget roll mode`

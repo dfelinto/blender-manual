@@ -29,14 +29,14 @@ Usage
 With hotkeys
 ~~~~~~~~~~~~
 
-Press :kbd:`g`\ , :kbd:`r` or :kbd:`s` and then hold either :kbd:`ctrl`\ ,
-:kbd:`shift` or :kbd:`ctrl-shift`\ .
+Press :kbd:`g`, :kbd:`r` or :kbd:`s` and then hold either :kbd:`ctrl`,
+:kbd:`shift` or :kbd:`ctrl-shift`.
 
 
 With the Transform Manipulator
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Hold :kbd:`ctrl`\ ,
+Hold :kbd:`ctrl`,
 :kbd:`shift` or :kbd:`ctrl-shift` and click on the appropriate manipulator handle.
 Then move the mouse in the desired direction. The reverse action will also work i.e.
 clicking the manipulator handle and then holding the shortcut key for precision control.
@@ -47,7 +47,7 @@ clicking the manipulator handle and then holding the shortcut key for precision 
 .. admonition:: Combining with other controls
    :class: nicetip
 
-   All of the precision controls detailed on the page can be combined with the :doc:`Axis Locking <3d_interaction/transform_control/axis_locking>` controls and used with the different :doc:`Pivot Points <3d_interaction/transform_control/pivot_point>`\ .
+   All of the precision controls detailed on the page can be combined with the :doc:`Axis Locking <3d_interaction/transform_control/axis_locking>` controls and used with the different :doc:`Pivot Points <3d_interaction/transform_control/pivot_point>`.
 
 
 Holding CTRL
@@ -88,7 +88,9 @@ Holding :kbd:`ctrl` will cause size changes in increments of 0.1 BU.
 .. admonition:: Snapping modes
    :class: note
 
-   Note that if you have a :doc:`Snap Element <3d_interaction/transform_control/snap#snap_element>` option enabled, holding :kbd:`ctrl` will cause the selection to snap to the nearest element.
+   Note that if you have a :doc:`Snap Element <3d_interaction/transform_control/snap#snap_element>` option enabled,
+   holding :kbd:`ctrl` will cause the selection to snap to the nearest element.
+
    :doc:`Read more about Snapping » <3d_interaction/transform_control/snap>`
 
 
@@ -109,7 +111,7 @@ Grab/move transformations
 For grab/move operations at the default zoom level, holding :kbd:`ctrl-shift` will cause
 your selection to move by increments of 1/10 Blender Units. Holding :kbd:`ctrl-shift` at
 any zoom level will cause the transformation increments to always be 1/10 of the increment if
-you were only holding :kbd:`ctrl`\ .
+you were only holding :kbd:`ctrl`.
 
 
 Rotation transformations

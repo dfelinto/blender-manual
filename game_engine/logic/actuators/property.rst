@@ -18,20 +18,21 @@ Special Options:
 
 
 **Mode**
+
 :guilabel:`Assign`
    the :guilabel:`Property` target property will become equal to the set :guilabel:`Value` once the actuator is activated
 :guilabel:`Add`
-   adds :guilabel:`Value` to the value of the property :guilabel:`Property` once the actuator is activated (enter a negative value to decrease). For :guilabel:`Bool`\ , a value other than 0 (also negative) is counted as True.
+   adds :guilabel:`Value` to the value of the property :guilabel:`Property` once the actuator is activated (enter a negative value to decrease). For :guilabel:`Bool`, a value other than 0 (also negative) is counted as True.
 :guilabel:`Copy`
    copies a property from another object to a property of the actuator owner once the actuator is activated.
 :guilabel:`Toggle`
    switches 0 to 1 and any other number than 0 to 0 once the actuator is activated. Useful for on/off switches.
 
 **Property**
-    The target property that this actuator will change
+   The target property that this actuator will change
 
 **Value**
-    The value to be used to change the property
+   The value to be used to change the property
 
 
 Example

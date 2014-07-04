@@ -26,7 +26,7 @@ and it might still not work properly,
 no matter which of the three algorithms above you're using. Therefore,
 to achieve "the effect that you really want",
 you'll need to resort to strategies very similar to what filmmakers have been doing
-(quite successfully…) in "analogue" movies for many years: "\ *fake it!*\ "
+(quite successfully…) in "analogue" movies for many years: "\ *fake it!* "
 
 A good fluid simulation is a *very important* part, but not the *only* part,
 of achieving a satisfactory image.
@@ -69,7 +69,7 @@ Acknowledgements
 
 The integration of the fluid simulator was done as a Google Summer-of-Code project. More
 information about the solver can be found at
-`www.ntoken.com <http://graphics.ethz.ch/~thuereyn/ntoken3/Publications.html>`__\ .
+`www.ntoken.com <http://graphics.ethz.ch/~thuereyn/ntoken3/Publications.html>`__.
 These Animations were created with the solver before its integration into blender:
 [http://www10.informatik.uni-erlangen.de/~sinithue/public/phd/nthuerey_050731_sgposter.avi
 Adaptive Grids],
@@ -77,7 +77,7 @@ Adaptive Grids],
 avi Interactive Animations]. Thanks to Chris Want for organizing the Blender-SoC projects, and
 to Jonathan Merrit for mentoring this one! And of course thanks to Google for starting the
 whole thing… SoC progress updates were posted here:
-`SoC-Blenderfluid-Blog at PlanetSoC <http://www.planetsoc.com/blog/51>`__\ .
+`SoC-Blenderfluid-Blog at PlanetSoC <http://www.planetsoc.com/blog/51>`__.
 
 The solver itself was developed by Nils Thuerey with the help and supervision of the following
 people: U. Ruede, T. Pohl, C. Koerner, M. Thies, M. Oechsner and T.

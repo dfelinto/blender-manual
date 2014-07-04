@@ -30,6 +30,7 @@ Stanford (.ply)
 ---------------
 
 `See Here <http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Import-Export/Stanford_PLY>`__
+
 :guilabel:`Apply Modifiers`
    Bakes down the modifier stack by applying them.
 :guilabel:`UV's`
@@ -44,6 +45,7 @@ Stl (.stl)
 ----------
 
 `See Here <http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Import-Export/STL>`__
+
 :guilabel:`Ascii`
    Saves the file in ASCII file format.
 
@@ -52,6 +54,7 @@ Autodesk® 3DS Max® (.3ds)
 -------------------------
 
 `See Here <http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Import-Export/3DS_MAX_Scene_Interchange>`__
+
 :guilabel:`Selection Only`
    Export selected objects only
 :guilabel:`Forward`

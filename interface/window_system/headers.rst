@@ -3,8 +3,8 @@ Window Headers
 ==============
 
 All windows have a header (the strip with a lighter gray background containing icon buttons).
-We will also refer to the header as the window *ToolBar*\ .  The header may be at the top
-(as with the :guilabel:`Properties Window`\ ) or the bottom (as with the :guilabel:`3D Window`\ )
+We will also refer to the header as the window *ToolBar*.  The header may be at the top
+(as with the :guilabel:`Properties Window`) or the bottom (as with the :guilabel:`3D Window`)
 of a window's area. The picture below shows the header of the 3D window:
 
 

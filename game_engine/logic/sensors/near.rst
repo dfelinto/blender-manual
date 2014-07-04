@@ -16,14 +16,15 @@ themselves. It can filter objects with properties, like the :guilabel:`Collision
 See :doc:`Sensor Common Options <game_engine/logic/sensors/common_options>` for common options.
 
 Special Options:
+
 **Property**
-    This field can be used to limit the sensor to look for only those objects with this property.
+   This field can be used to limit the sensor to look for only those objects with this property.
 
 **Distance**
-    The number of blender units it will detect objects within.
+   The number of blender units it will detect objects within.
 
 **Reset**
-    The distance the object needs to be to reset the sensor (send a FALSE pulse).
+   The distance the object needs to be to reset the sensor (send a FALSE pulse).
 
 Notes:
 1) The Near sensor can detect objects "through" other objects (walls etc).
@@ -33,6 +34,6 @@ Notes:
 .. admonition:: Note about soft bodies
    :class: note
 
-    The :guilabel:`Near` sensor can not detect soft bodies. This is a limitation in Bullet, the physics library used by the Game Engine.
+   The :guilabel:`Near` sensor can not detect soft bodies. This is a limitation in Bullet, the physics library used by the Game Engine.
 
 

@@ -21,7 +21,12 @@ using the default install system, which is easy and fast.
 Screenshot Install
 ------------------
 
-There are many different distributions based on Debian based Linux systems available to the users, and some of them use different Window managers and ways of installing software such as Blender, we can't add all of the different ways to this page.  The most common way to install Blender on Debian based systems is below in :doc:`text format <introduction/installing_blender/linux/debian_ubuntu#general_instructions_.28text.29>`\ .  For the majority of users the instructions above should suffice, with little or no changes in the steps required to install Blender.
+There are many different distributions based on Debian based Linux systems available to the users,
+and some of them use different Window managers and ways of installing software such as Blender,
+we can't add all of the different ways to this page.  The most common way to install Blender on Debian based systems
+is below in :doc:`text format <introduction/installing_blender/linux/debian_ubuntu#general_instructions_.28text.29>`.
+For the majority of users the instructions above should suffice,
+with little or no changes in the steps required to install Blender.
 
 
 .. admonition:: You must have administrative rights to install packages on your system
@@ -42,7 +47,7 @@ Ubuntu (step by step)
 
 
 - Clicking in the *Terminal* icon, type the command **sudo apt-get update** in the prompt.
-- Type the password when asked and press :kbd:`Enter`\ .
+- Type the password when asked and press :kbd:`Enter`.
 
 
 .. figure:: /images/(Doc_26x_Debian_Ubuntu)_(Terminal_Ubuntu_Update)_(GNV1210FN).jpg
@@ -61,7 +66,7 @@ Ubuntu (step by step)
 
 - Reboot your system, even if not asked.
 - When the system is ready, open the terminal again.
-- Type in the terminal **sudo apt-get install blender**\ ,
+- Type in the terminal **sudo apt-get install blender**,
 - Type the password when asked and press :kbd:`Enter`
 
 
@@ -88,7 +93,7 @@ Ubuntu (step by step)
    6 - Blender and its dependencies Installed
 
 
-- Now, you can search for Blender using the Ubuntu dash and typing the search word **blender**\ .
+- Now, you can search for Blender using the Ubuntu dash and typing the search word **blender**.
 - Click in Blender,
 - If Blender is working, now you can download the newest pre-compiled Blender version.
 
@@ -100,8 +105,8 @@ Ubuntu (step by step)
 
 - Blender 2.63 is the pre-compiled version used in Ubuntu 12.10.
 - Now, we have to use the **uname - a** command in the terminal and see if the system is a 32 or 64 bit.
-- If the command prints **i686**\ , your system is using a 32 bit Linux version.
-- If the command prints **x86_64**\ , your system is using a 64 bit Linux version.
+- If the command prints **i686**, your system is using a 32 bit Linux version.
+- If the command prints **x86_64**, your system is using a 64 bit Linux version.
 
 
 .. figure:: /images/(Doc_26x_Debian_Ubuntu)_(Ubuntu_12-10_Blender_263_Pre_Compiled)_(GNV1210FN).jpg
@@ -180,7 +185,8 @@ Debian (step by step)
 .. admonition:: You must have administrative rights to install packages on your system
    :class: nicetip
 
-     You have to be the *root/admin* user of your system, or have yourself in the *sudoers* list, or contact the system administrator to ask for administrative rights and a proper system password to install Blender and it's package dependencies, or follow the procedures on this page.
+     You have to be the *root/admin* user of your system, or have yourself in the *sudoers* list,
+     or contact the system administrator to ask for administrative rights and a proper system password to install Blender and it's package dependencies, or follow the procedures on this page.
 
 
 - Clicking in the applications menu, search for the **Terminal** in the **Acessories** entry.
@@ -192,7 +198,7 @@ Debian (step by step)
 
 
 - Clicking in the *Terminal* icon, type the command **sudo apt-get update** in the prompt.
-- Type the password when asked and press :kbd:`Enter`\ .
+- Type the password when asked and press :kbd:`Enter`.
 
 
 .. figure:: /images/(Doc_26x_Debian_Ubuntu)_(Debian_Terminal_Update)_(GNV606FN).jpg
@@ -211,7 +217,7 @@ Debian (step by step)
 
 - Reboot your system, even if not asked.
 - When the system is ready, open the terminal again.
-- Type in the terminal **sudo apt-get install blender**\ ,
+- Type in the terminal **sudo apt-get install blender**,
 - Type the password when asked and press :kbd:`Enter`
 
 
@@ -252,8 +258,8 @@ Debian (step by step)
 
 - Blender 2.49b is the pre-compiled version used in Debian 6.06.
 - Now, we have to use the **uname - a** command in the terminal and see if the system is a 32 or 64 bit.
-- If the command prints **i686**\ , your system is using a 32 bit Linux version.
-- If the command prints **x86_64**\ , your system is using a 64 bit Linux version.
+- If the command prints **i686**, your system is using a 32 bit Linux version.
+- If the command prints **x86_64**, your system is using a 64 bit Linux version.
 
 
 .. figure:: /images/(Doc_26x_Debian_Ubuntu)_(Debian_606_Blender_249_Pre_Compiled)_(GNV606FN).jpg
@@ -338,8 +344,8 @@ General Instructions (text)
      You have to be the *root/admin* user of your system, or have yourself in the *sudoers* list, or contact the system administrator to ask for administrative rights and a proper system password to install Blender and it's package dependencies, or follow the procedures on this page.
 
 
-- **Those instructions were tested for Blender 2.65 using Debian 6.0, Ubuntu 12.04 and 12.10**\ .
-- In some Debian based systems, you don't have the sudo command enabled by default, so you will have to type **su**\ , and type the system password to be logged as *root* first and type **apt-get update** after, then you can continue by entering the following the commands:
+- **Those instructions were tested for Blender 2.65 using Debian 6.0, Ubuntu 12.04 and 12.10**.
+- In some Debian based systems, you don't have the sudo command enabled by default, so you will have to type **su**, and type the system password to be logged as *root* first and type **apt-get update** after, then you can continue by entering the following the commands:
 
 
 - With the default install, open your terminal by clicking the terminal icon for your Linux terminal or console of your system.
@@ -370,12 +376,10 @@ sudo apt-get install blender
 - Now you will probably have a working Blender version installed and its dependencies.  You can search for the newly installed Blender version in your system menus, or by using your system's search feature, or by using the command line.  You should test to see if it will run correctly.  If Blender is running correctly (even if it's an outdated version), then you're ready to download the latest Blender version.
 
 
-- Blender is provided in 2 different formats, a 32bit version of Blender and 64bit version of Blender.  Prior to downloading a particular version of Blender, you need to know which version of Blender you need.  To find out type the following command in your Linux terminal:
-
-uname -a
+- Blender is provided in 2 different formats, a 32bit version of Blender and 64bit version of Blender.  Prior to downloading a particular version of Blender, you need to know which version of Blender you need.  To find out type the following command in your Linux terminal: ``uname -a``
 
 
-- If your system prints a message on the console screen showing **i686**\ , you have a 32 bit system, if your system prints a message on the console screen showing **x86_64**\ , then you have a 64 bit system. Now, you can download an appropriate Blender version for your system.  If your system is 32 bit you must download the 32 bit version of Blender.  If your system is 64 bit, then you can download the 64 bit version of Blender.  Also note that 64 bit platforms can also run 32 bit versions of Blender but this will mean you will not be able to access any memory in your system above 4 gigabytes, and 32 bit version of Blender will perform more slowly on 64 bit platforms.
+- If your system prints a message on the console screen showing **i686**, you have a 32 bit system, if your system prints a message on the console screen showing **x86_64**, then you have a 64 bit system. Now, you can download an appropriate Blender version for your system.  If your system is 32 bit you must download the 32 bit version of Blender.  If your system is 64 bit, then you can download the 64 bit version of Blender.  Also note that 64 bit platforms can also run 32 bit versions of Blender but this will mean you will not be able to access any memory in your system above 4 gigabytes, and 32 bit version of Blender will perform more slowly on 64 bit platforms.
 
 
 - Go to the `blender.org download website <http://www.blender.org/download>`__ and download the correct Blender Linux version for your system.  To Download Blender there is a column on the website marked with *Suits most recent Linux distributions* on Blender.org's website.
@@ -520,7 +524,7 @@ capable graphics card or processing card and appropriate drivers.
 As a General rule, if you have installed appropriate drivers and your graphics card or
 processing card is capable of using an array of processors to speed rendering with Cycles, you
 will be able to enable them by opening Blender User preferences Window with shortcut
-:kbd:`CTRL-ALT-U`\ .  In the *System* tab, you will find the *Compute Device* buttons.
+:kbd:`CTRL-ALT-U`.  In the *System* tab, you will find the *Compute Device* buttons.
 These buttons are enabled automatically if you have a graphics card or a processing card and
 appropriate drivers.
 
@@ -577,7 +581,7 @@ Sometimes, effects and composition such as compiz , metacity, clutter,
 depending on your system,
 are resource hungry and heavy to use in conjunction with 3D package software.
 
-Some Debian based distributions like Ubuntu, enables desktop effects *out of the box*\ ,
+Some Debian based distributions like Ubuntu, enables desktop effects *out of the box*,
 while others,
 uses a lightweight window manager which uses less resources from your system and graphic card.
 

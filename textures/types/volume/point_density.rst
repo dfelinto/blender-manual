@@ -33,13 +33,15 @@ Options
    :guilabel:`Standard`
    :guilabel:`Smooth`
    :guilabel:`Soft`
-      :guilabel:`Softness`
+   :guilabel:`Softness`
+
    :guilabel:`Constant`
       Density is constant within lookup radius.
+
    :guilabel:`Root`
    :guilabel:`Particle Age`
    :guilabel:`Particle Velocity`
-      :guilabel:`Velocity Scale`
+   :guilabel:`Velocity Scale`
 
 
 :guilabel:`Falloff Curve`
@@ -53,16 +55,19 @@ Options
 
 :guilabel:`Color Source`
    Data to derive the color results from
+
    :guilabel:`Constant`
       Constant color
    :guilabel:`Particle Age`
       Lifetime mapped as 0.0 - 1.0 intensity.
    :guilabel:`Particle Speed`
       Particle speed (absolute magnitude of velocity) mapped as 0.0-1.0 intensity.
+
       :guilabel:`Scale`
          Multiplier to bring particle speed within an acceptable range.
    :guilabel:`Particle Velocity`
       XYZ velocity mapped to RGB colors.
+
       :guilabel:`Scale`
          Multiplier to bring particle speed within an acceptable range.
 

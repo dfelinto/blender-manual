@@ -28,7 +28,7 @@ Audience
 ========
 
 This manual is written for a very broad audience,
-to answer the question "I want to *do something*\ ; how do I do it using Blender?" all the way
+to answer the question "I want to *do something*; how do I do it using Blender?" all the way
 to "what is the latest change in the way to sculpt a mesh?"
 
 This manual is a worldwide collaborative effort using time donated to the cause.

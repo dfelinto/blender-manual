@@ -19,7 +19,7 @@ The main advantage to using curves instead of polygonal meshes is that curves ar
 less data and so can produce excellent results using less memory and storage space at modeling
 time. However, this procedural approach to surfaces can increase demands at render time.
 
-Certain modeling techniques, such as :doc:`extruding a profile along a path <modeling/curves/editing/advanced#curve_extrusion>`\ , are possible only using curves. On the other hand, when using curves, vertex-level control is more difficult and if fine control is necessary, :doc:`mesh editing <modeling/meshes/editing>` may be a better modeling option.
+Certain modeling techniques, such as :doc:`extruding a profile along a path <modeling/curves/editing/advanced#curve_extrusion>`, are possible only using curves. On the other hand, when using curves, vertex-level control is more difficult and if fine control is necessary, :doc:`mesh editing <modeling/meshes/editing>` may be a better modeling option.
 
 Bezier curves are the most commonly used curves for designing letters or logos. They are also widely used in animation, both as :doc:`paths <animation/techs/object/path>` for objects to move along and as :doc:`F-curves <animation/editors/graph/fcurves>` to change the properties of objects as a function of time.
 
@@ -42,6 +42,7 @@ Curve Primitives
 
 In Object mode, the :guilabel:`Add Curve` menu,
 Blender provides five different curve primitives:
+
 :guilabel:`Bezier Curve`
    Adds an open 2D Bezier curve with two control points.
 :guilabel:`Bezier Circle`
@@ -75,15 +76,15 @@ Editing Bezier Curves
 
 A Bezier curve can be edited by moving the locations of the Control Points and Handles.
 
-- Add a Curve by :kbd:`shift-a` to bring up the :guilabel:`Add` menu, followed by :menuselection:`Curve --> Bezier`\ .
-- Press :kbd:`TAB` to enter :guilabel:`Edit mode`\ .
+- Add a Curve by :kbd:`shift-a` to bring up the :guilabel:`Add` menu, followed by :menuselection:`Curve --> Bezier`.
+- Press :kbd:`TAB` to enter :guilabel:`Edit mode`.
 - Select one of the Control Points and move it around. Use :kbd:`LMB` to confirm the new location of the Control Point, or use :kbd:`RMB` to cancel.
 - Now select one of the Handles and move it around. Notice how this changes the curvature of the curve.
 
 To add more Control Points
 
 - Select at least two adjacent Control Points.
-- Press :kbd:`W` and select :guilabel:`Subdivide`\ .
+- Press :kbd:`W` and select :guilabel:`Subdivide`.
 - Optionally, you can press :kbd:`F6` immediately after the subdivision to modify the number of subdivisions.
 
 Note that while in :guilabel:`Edit mode` you cannot directly select a Segment. To do so,
@@ -275,7 +276,7 @@ Active Spline
    Curves Active Spline panel.
 
 
-The :guilabel:`Active Spline` panel becomes available during :guilabel:`Edit mode`\ .
+The :guilabel:`Active Spline` panel becomes available during :guilabel:`Edit mode`.
 
 :guilabel:`Cyclic`
    Closes the Curve.
@@ -285,7 +286,7 @@ The :guilabel:`Active Spline` panel becomes available during :guilabel:`Edit mod
    :guilabel:`Tilt`
       Alters how the tilt of a segment is calculated.
    :guilabel:`Radius`
-      Alters how the radius of a Beveled Curve is calculated. The effects are easier to see after Shrinking/Fattening a control point :kbd:`alt-s`\ .
+      Alters how the radius of a Beveled Curve is calculated. The effects are easier to see after Shrinking/Fattening a control point :kbd:`alt-s`.
    :guilabel:`Smooth`
       Smooths the normals of the Curve
 
@@ -310,10 +311,10 @@ Editing NURBS Curves
 
 A NURBS Curve is edited by moving the location of the Control Points.
 
-- Place a Curve by :kbd:`shift-a` to bring up the Add menu, followed by :menuselection:`Curve --> NURBS curve`\ .
-- Press :kbd:`TAB` to enter :guilabel:`Edit mode`\ .
+- Place a Curve by :kbd:`shift-a` to bring up the Add menu, followed by :menuselection:`Curve --> NURBS curve`.
+- Press :kbd:`TAB` to enter :guilabel:`Edit mode`.
 - Select one of the Control Points and move it around. Use :kbd:`LMB` to confirm the new location of the Control Point, or use :kbd:`RMB` to cancel.
-- If you want to add additional Control Points, select both of them, press :kbd:`W` and select :guilabel:`Subdivide`\ . Press :kbd:`F6` immediately after to determine how many subdivisions to make.
+- If you want to add additional Control Points, select both of them, press :kbd:`W` and select :guilabel:`Subdivide`. Press :kbd:`F6` immediately after to determine how many subdivisions to make.
 
 
 Active Spline
@@ -324,7 +325,7 @@ Active Spline
    NURBS Active Spline panel.
 
 
-One of the characteristics of a NURBS object is the *knot vector*\ . This is a sequence of
+One of the characteristics of a NURBS object is the *knot vector*. This is a sequence of
 numbers used to determine the influence of the control points on the curve.
 While you cannot edit the knot vectors directly, you can influence them through the
 :guilabel:`Endpoint` and :guilabel:`Bezier` options in the Active Spline panel. Note that the
@@ -368,7 +369,7 @@ Path
 ----
 
 
-As mentioned above, Curves are often used as :doc:`paths <animation/techs/object/path>`\ . Any curve can be used as a Path if the :guilabel:`Path Animation` option is selected.
+As mentioned above, Curves are often used as :doc:`paths <animation/techs/object/path>`. Any curve can be used as a Path if the :guilabel:`Path Animation` option is selected.
 
 The Path option available from the :guilabel:`Add Curve` menu is identical to a 3D NURBS
 curve, except that you do not have access to the :guilabel:`Active Spline` panel.

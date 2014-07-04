@@ -213,7 +213,7 @@ Gradient Texture
 A gradient texture.
 
 :guilabel:`Type`
-   The gradient can be :guilabel:`Linear`\ , :guilabel:`Quadratic`\ , :guilabel:`Easing`\ , :guilabel:`Diagonal`\ , :guilabel:`Spherical`\ , :guilabel:`Quadratic Sphere` or :guilabel:`Radial`\ .
+   The gradient can be :guilabel:`Linear`, :guilabel:`Quadratic`, :guilabel:`Easing`, :guilabel:`Diagonal`, :guilabel:`Spherical`, :guilabel:`Quadratic Sphere` or :guilabel:`Radial`.
 :guilabel:`Vector input`
    Texture coordinate to sample texture at; defaults to Generated texture coordinates if the socket is left unconnected.
 :guilabel:`Color output`

@@ -24,9 +24,9 @@ Also, you can choose the environment color source (white, sky color, sky texture
 and the light energy.
 
 :guilabel:`Energy`
-    Defines the strength of environment light.
+   Defines the strength of environment light.
 :guilabel:`Environment Color`
-    Defines where the color of the environment light comes from.
+   Defines where the color of the environment light comes from.
 
 Using both settings simultaneously produces better global lighting.
 

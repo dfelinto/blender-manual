@@ -91,7 +91,7 @@ The numeric sliders control how the light is scattered:
    The effect is quite subtle and changes the distribution function only a little bit.
    By the examination of many different materials, values of **1.3** to **1.5**
    have been found to work well for most materials.  If you know the exact material you are trying to simulate,
-   see :doc:`our IOR table <materials/properties/raytraced_transparency#ior_values_for_common_materials>`\ .
+   see :doc:`our IOR table <materials/properties/raytraced_transparency#ior_values_for_common_materials>`.
 
 :guilabel:`Scale`
    The scale of your object, in Blender units, across which you want the scattering effect to take place.
@@ -123,7 +123,7 @@ The numeric sliders control how the light is scattered:
 
 :guilabel:`Blend` :
    :guilabel:`Color`
-      This controls how much the R, G, B option modulates the diffuse color and textures. Note that even with this option set to **0.0**\ , the R, G, B option still influences the scattering behavior.
+      This controls how much the R, G, B option modulates the diffuse color and textures. Note that even with this option set to **0.0**, the R, G, B option still influences the scattering behavior.
    :guilabel:`Texture`
       How much the surface texture is blurred along with the shading.
 :guilabel:`Scattering Weight` :
@@ -182,7 +182,7 @@ Skin
 +                                                                                                     |                                                        |                                                        |                                                        |                                                        +
 +   1                                                                                                 |   2                                                    |   3                                                    |   4                                                    |   5                                                    +
 +-----------------------------------------------------------------------------------------------------+--------------------------------------------------------+--------------------------------------------------------+--------------------------------------------------------+--------------------------------------------------------+
-+Increasing SSS scale (\ `.blend <http://wiki.blender.org/index.php/:File:MH-SSS-head-001.blend>`__\ )                                                                                                                                                                                                                                    +
++Increasing SSS scale (`.blend <http://wiki.blender.org/index.php/:File:MH-SSS-head-001.blend>`__)                                                                                                                                                                                                                                        +
 +-----------------------------------------------------------------------------------------------------+--------------------------------------------------------+--------------------------------------------------------+--------------------------------------------------------+--------------------------------------------------------+
 
 

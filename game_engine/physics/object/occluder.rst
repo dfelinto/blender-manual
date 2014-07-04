@@ -3,16 +3,18 @@ Occlude Object Type
 ===================
 
 If an Occlude type object is between the camera and another object,
-that other object will not be rasterized (calculated for rendering). It is
-"\ `culled <http://www.thefreedictionary.com/culled>`__\ " because it is
-"\ `occluded <http://www.thefreedictionary.com/occluded>`__\ ".
+that other object will not be rasterized (calculated for rendering).
+It is `culled <http://www.thefreedictionary.com/culled>`__\ "
+because it is `occluded <http://www.thefreedictionary.com/occluded>`__.
 
 The overall process (also known as "o-culling") disregards, by default,
-anything outside of the `View Frustum <http://en.wikipedia.org/wiki/Viewing_frustum>`__\ ,
+anything outside of the `View Frustum <http://en.wikipedia.org/wiki/Viewing_frustum>`__,
 meaning you don't have to worry about anything outside the view's rectangular border.
 Inside this border, you might want to do additional culling.
 
-In this demo .blend, `BGE-Physics-Objects-Occluder.blend <http://wiki.blender.org/index.php/Media:BGE-Physics-Objects-Occluder.blend>`__\ , you will see:
+In this demo .blend,
+`BGE-Physics-Objects-Occluder.blend <http://wiki.blender.org/index.php/Media:BGE-Physics-Objects-Occluder.blend>`__,
+you will see:
 
 - A messed-up, subdivided Cube named "Cube".
 - Another one behind a "Physics Type: Occlude" plane, named "Cube.BG".
@@ -20,15 +22,18 @@ In this demo .blend, `BGE-Physics-Objects-Occluder.blend <http://wiki.blender.or
 
 Now observe what happens to the profiling stats for each of the following (in order):
 
-- Hit :kbd:`p` as the scene is. It hums along at a fairly slow rate. On my system the Rasterizer step takes 130ms. The framerate will finally jump up once the "Cube" object has completely moved out of the view frustum.
-
-FIXME(Tag Unsupported:span;
-<span style="color: #E7007A">??? - It's as if the Occluder doesn't do anything while the Cube is behind it.</span>
+- Hit :kbd:`p` as the scene is. It hums along at a fairly slow rate. On my system the Rasterizer step takes 130ms.
+  The framerate will finally jump up once the "Cube" object has completely moved out of the view frustum.
+  FIXME(Tag Unsupported:span;
+  <span style="color: #E7007A">??? - It's as if the Occluder doesn't do anything while the Cube is behind it.</span>
 )
 
-- Delete the "Cube.OffCamera" object above, and notice that there is no improvement in speed. This is the view frustum culling working for you - it does not matter if that object exists or not.
-- Hit :kbd:`z` to view wireframe. Notice that in the 3D Viewport you can see "Cube.BG", but once you hit :kbd:`p`\ , it is not there.
-- Make the "Occluder" object take up the whole camera's view with :kbd:`s-x-5`\ . You will see a huge leap in framerate, since almost nothing is being Rasterized. On my system the Rasterizer step drops to 5ms.
+- Delete the "Cube.OffCamera" object above,
+  and notice that there is no improvement in speed.
+  This is the view frustum culling working for you - it does not matter if that object exists or not.
+- Hit :kbd:`z` to view wireframe. Notice that in the 3D Viewport you can see "Cube.BG", but once you hit :kbd:`p`, it is not there.
+- Make the "Occluder" object take up the whole camera's view with :kbd:`s-x-5`. You will see a huge leap in framerate,
+  since almost nothing is being Rasterized. On my system the Rasterizer step drops to 5ms.
 - Try a run with :menuselection:`World properties --> Physics --> Occlusion Culling` disabled. It will be slow again.
 - Reenable :menuselection:`World properties --> Physics --> Occlusion Culling` and run it one more time to prove to yourself that your speed is back.
 - Change the Occluder to "Physics Type: Static". Notice that it is back to the original slowness.
@@ -45,9 +50,8 @@ TODO
 ----
 
 
-FIXME(Tag Unsupported:span;
-<span style="color: #E7007A">Incorporate some of the [[Dev:Ref/Release_Notes/2.49/Game_Engine#BGE_Scenegraph_improvement|2.49 Release Notes]] Details.</span>
-)
+FIXME(Tag Unsupported:span; Incorporate some of the
+[[Dev:Ref/Release_Notes/2.49/Game_Engine#BGE_Scenegraph_improvement|2.49 Release Notes]] Details.)
 
 
 Details
@@ -104,10 +108,15 @@ There are situations where occlusion culling will not bring any benefit:
 
 
 - If the occluders are large and hides many complex objects but in a very predictable way.
-  - Example: a house full of complex objects. Although occlusion culling will perform well in this case, you will get better performance by implementing a specific logic that hides/unhides the objects; for instance making the objects visible only when the camera enters the house).
+
+  - Example: a house full of complex objects. Although occlusion culling will perform well in this case,
+    you will get better performance by implementing a specific logic that hides/unhides the objects;
+    for instance making the objects visible only when the camera enters the house).
 
 
 - Occluders can be visible graphic objects but beware that too many faces will make the ZDepth buffer creation slow.
-  - For example, a terrain is not a good candidate for occlusion: too many faces and too many overlap. Occluder can be invisible objects placed inside more complex objects (ex: "in the walls" of a building with complex architecture). Occluders can have "holes" through which you will see objects.
 
-
+  - For example, a terrain is not a good candidate for occlusion: too many faces and too many overlap.
+    Occluder can be invisible objects placed inside more complex objects
+    (ex: "in the walls" of a building with complex architecture).
+    Occluders can have "holes" through which you will see objects.

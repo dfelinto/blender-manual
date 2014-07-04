@@ -25,13 +25,13 @@ All diffuse shaders have the following options:
  **Intensity**
    The shader's brightness, or more accurately, the amount of incident light energy that is actually diffusely reflected towards the camera.
 **Ramp**
-   Allows you to set a range of colors for the :guilabel:`Material`\ , and define how the range will vary over a surface. See :doc:`Color Ramps <materials/properties/ramps>` for details.
+   Allows you to set a range of colors for the :guilabel:`Material`, and define how the range will vary over a surface. See :doc:`Color Ramps <materials/properties/ramps>` for details.
 
 
 Technical Details
 -----------------
 
-Light striking a surface and then re-irradiated via a Diffusion phenomenon will be scattered, i.e., re-irradiated in all directions isotropically. This means that the camera will see the same amount of light from that surface point no matter what the *incident viewing angle* is. It is this quality that makes diffuse light *viewpoint independent*\ . Of course, the amount of light that strikes the surface depends on the incident light angle. If most of the light striking a surface is reflected diffusely, the surface will have a matte appearance (\ *Light re-irradiated in the diffusion phenomenon.*\ ).
+Light striking a surface and then re-irradiated via a Diffusion phenomenon will be scattered, i.e., re-irradiated in all directions isotropically. This means that the camera will see the same amount of light from that surface point no matter what the *incident viewing angle* is. It is this quality that makes diffuse light *viewpoint independent*. Of course, the amount of light that strikes the surface depends on the incident light angle. If most of the light striking a surface is reflected diffusely, the surface will have a matte appearance (*Light re-irradiated in the diffusion phenomenon.*).
 
 .. figure:: /images/Manual-Part-III-MatGen02.jpg
 
@@ -97,15 +97,17 @@ Oren-Nayar
 
 Oren-Nayar takes a somewhat more 'physical' approach to the diffusion phenomena as it takes
 into account the amount of microscopic roughness of the surface.
-`Michael Oren <http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/o/Oren:Michael.html>`__ and `Shree K. Nayar <http://en.wikipedia.org/wiki/Shree_K._Nayar>`__
-   Their `reflectance model <http://en.wikipedia.org/wiki/Oren%E2%80%93Nayar_reflectance_model>`__\ , developed in the early 1990s, is a generalization of Lambert's law now widely used in computer graphics.
+`Michael Oren <http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/o/Oren:Michael.html>`__ and
+`Shree K. Nayar <http://en.wikipedia.org/wiki/Shree_K._Nayar>`__
+Their `reflectance model <http://en.wikipedia.org/wiki/Oren%E2%80%93Nayar_reflectance_model>`__,
+developed in the early 1990s, is a generalization of Lambert's law now widely used in computer graphics.
 
 
 Options
 ~~~~~~~
 
 **Roughness**
-    The roughness of the surface, and hence, the amount of diffuse scattering.
+   The roughness of the surface, and hence, the amount of diffuse scattering.
 
 
 .. figure:: /images/Manual-2.5-Material-Shader-Oren-Nayar-Settings.jpg
@@ -185,14 +187,15 @@ Higher darkness values will darken the center of an object
 (where it points towards the viewer).
 Lower darkness values will lighten the edges of the object, making it look somewhat velvet.
 `Marcel Minnaert <http://en.wikipedia.org/wiki/Marcel_Minnaert>`__ (1893-1970)
-   was a Belgian astronomer interested in the effects of the atmosphere on light and images who in 1954 published a book entitled *The Nature of Light and Color in the Open Air*\ .
+was a Belgian astronomer interested in the effects of the atmosphere on light and images who in 1954 published a book
+entitled *The Nature of Light and Color in the Open Air*.
 
 
 Options
 ~~~~~~~
 
 **Dark**
-    The darkness of the 'lit' areas (higher) or the darkness of the edges pointing away from the light source (lower).
+   The darkness of the 'lit' areas (higher) or the darkness of the edges pointing away from the light source (lower).
 
 
 .. figure:: /images/Manual-2.5-Material-Shader-Minnaert-Settings.jpg
@@ -231,16 +234,16 @@ e. from the direction of the light source.
 Areas pointing directly towards the light source appear darker;
 areas perpendicular to the incoming light become brighter.
 `Augustin-Jean Fresnel <http://en.wikipedia.org/wiki/Augustin-Jean_Fresnel>`__ (1788-1827)
-   was a French physicist who contributed significantly to the establishment of the theory of wave optics.
+was a French physicist who contributed significantly to the establishment of the theory of wave optics.
 
 
 Options
 ~~~~~~~
 
 **Fresnel**
-    Power of the Fresnel effect, 5.0 is max.
+   Power of the Fresnel effect, 5.0 is max.
 **Factor**
-    Blending factor of the Fresnel factor to blend in, 5.0 is max.
+   Blending factor of the Fresnel factor to blend in, 5.0 is max.
 
 
 .. figure:: /images/Manual-2.5-Material-Shader-Fresnel-Settings.jpg

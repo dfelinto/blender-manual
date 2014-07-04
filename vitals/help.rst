@@ -16,7 +16,7 @@ Blender has a range of built-in and web-based Help options.
 
 The built in help options include:
 
-- A Menu with all of the Help Options including the Web based ones. Some of them are also present in the :guilabel:`Splash Screen`\ .
+- A Menu with all of the Help Options including the Web based ones. Some of them are also present in the :guilabel:`Splash Screen`.
 
 Other new features like:
 
@@ -61,11 +61,11 @@ Programming Options
    Operator Cheat Sheet
 
 
-- :guilabel:`Operator Cheat Sheet` - Creates the ``OperatorList.txt`` file, which you can access in the :guilabel:`Text Editor`\ . You can also use Blender Search to generate the file. The text will list the available Python operators. At the time we were writing this part of the Manual (Blender 2.61), Blender had 1245 Operators.
+- :guilabel:`Operator Cheat Sheet` - Creates the ``OperatorList.txt`` file, which you can access in the :guilabel:`Text Editor`. You can also use Blender Search to generate the file. The text will list the available Python operators. At the time we were writing this part of the Manual (Blender 2.61), Blender had 1245 Operators.
 
 While Blender is generating this list, the :guilabel:`Info Window` will change,
 showing a message for the operation (See Fig: Info Window - Operator Cheat Sheet ).
-To read the Text, switch to the Blender :guilabel:`Text Editor` Window, using the :doc:`Window type Selector <interface/window_types>`\ , and then, clicking on the button *Browse Text to be Linked* of the Text Editor, your text block will be shown in the Editor. The file will be in your list of Text files, named as *OperatorsList.txt*\ , if the file is  already generated, Blender will add a numeric suffix for the subsequent ones.
+To read the Text, switch to the Blender :guilabel:`Text Editor` Window, using the :doc:`Window type Selector <interface/window_types>`, and then, clicking on the button *Browse Text to be Linked* of the Text Editor, your text block will be shown in the Editor. The file will be in your list of Text files, named as *OperatorsList.txt*, if the file is  already generated, Blender will add a numeric suffix for the subsequent ones.
 
 
 .. figure:: /images/Manual-Vitals-Help-Info-Operator-Cheat-Sheet.jpg
@@ -81,15 +81,15 @@ Diagnostics Options
    Blender Search - System Info
 
 
-- :guilabel:`System Info` - Creates a ``system-info`` file, which you can access  in the Blender :guilabel:`Text Editor`\ . The text lists various key properties of your system and Blender, which can be useful in diagnosing problems. When you click on this Option, Blender will verify your installation, will change the :guilabel:`Info Window` for a while when generating the file ( See: Info Window - Info.txt ). You can also use Blender Search to generate the file.
+- :guilabel:`System Info` - Creates a ``system-info`` file, which you can access  in the Blender :guilabel:`Text Editor`. The text lists various key properties of your system and Blender, which can be useful in diagnosing problems. When you click on this Option, Blender will verify your installation, will change the :guilabel:`Info Window` for a while when generating the file ( See: Info Window - Info.txt ). You can also use Blender Search to generate the file.
 
-To read the Text, switch to the Blender :guilabel:`Text Editor` Window, using the :doc:`Window type Selector <interface/window_types>`\ , and then, clicking on the button *Browse Text to be Linked* of the Text Editor, your text block will be shown in the Editor. The file will be in your list of Text files, named as *system-info.txt*\ , if the file is  already generated, Blender will add a numeric suffix for the subsequent ones.
+To read the Text, switch to the Blender :guilabel:`Text Editor` Window, using the :doc:`Window type Selector <interface/window_types>`, and then, clicking on the button *Browse Text to be Linked* of the Text Editor, your text block will be shown in the Editor. The file will be in your list of Text files, named as *system-info.txt*, if the file is  already generated, Blender will add a numeric suffix for the subsequent ones.
 
 
 - The text file is created with **4** different sections: Blender, Python, Directories and OpenGL, which we will explain below:
   - **Blender:** This section of the info.txt shows you the Blender version, flags used when Blender was compiled, day and time when Blender was compiled, build system, and the path in which Blender is running.
   - **Python:** The Python version you are using, showing the paths of the Python programming language paths.
-  - **Directories:** The Blender directories setup for ``scripts``\ , ``user scripts``\ , ``datafiles``\ , ``config``\ , ``scripts (internal)``\ , ``autosave`` directory and ``temp dir``\ . Those directories are configured using the  :doc:`User Preferences <preferences/file>` Editor Window.
+  - **Directories:** The Blender directories setup for ``scripts``, ``user scripts``, ``datafiles``, ``config``, ``scripts (internal)``, ``autosave`` directory and ``temp dir``. Those directories are configured using the  :doc:`User Preferences <preferences/file>` Editor Window.
   - **OpenGL:** This section will show you the version of OpenGL that you are using for Blender, the name of the manufacturer, version, vendor and a list with your card capabilities or OpenGL software capabilities.
 
 
@@ -98,7 +98,7 @@ To read the Text, switch to the Blender :guilabel:`Text Editor` Window, using th
    Info Window - Info.txt
 
 
-- :guilabel:`Toggle System Console` - Reveals the command window that contains Blender's :guilabel:`stdout` messages. Can be very useful for figuring out how the UI works, or what is going wrong if you encounter a problem. Even more information is available here, if you invoke Blender as :guilabel:`blender -d`\ . This menu item only shows up on Windows.
+- :guilabel:`Toggle System Console` - Reveals the command window that contains Blender's :guilabel:`stdout` messages. Can be very useful for figuring out how the UI works, or what is going wrong if you encounter a problem. Even more information is available here, if you invoke Blender as :guilabel:`blender -d`. This menu item only shows up on Windows.
   - In all Operating Systems, to see this information, simply run :guilabel:`blender` from the command-line.
   - On Linux, if you ran Blender from the GUI, you can see the output in :guilabel:`~/.xsession-errors`
   - On Mac OS X, you can open Console.app (in the Utilities folder in Applications) and check the Log there.
@@ -129,10 +129,10 @@ Splash Screen
    Splash Screen Search
 
 
-:guilabel:`Splash Screen` - This displays the image where you can identify package and version. At the top-right corner, you can see the Version and SVN (Subversion) revision (See Fig: Blender Splash Screen). For example, in our Splash Screen, you can see the version **2.66.0** and the revision number **r54697**\ . This can be useful to give to support personnel when diagnosing a problem. You can also use Blender Search to Show the Splash Screen or click in the Small Blender Logo present in the :guilabel:`Info Window`
+:guilabel:`Splash Screen` - This displays the image where you can identify package and version. At the top-right corner, you can see the Version and SVN (Subversion) revision (See Fig: Blender Splash Screen). For example, in our Splash Screen, you can see the version **2.66.0** and the revision number **r54697**. This can be useful to give to support personnel when diagnosing a problem. You can also use Blender Search to Show the Splash Screen or click in the Small Blender Logo present in the :guilabel:`Info Window`
 
 There are some Internet Based Help options that are also present in the Blender
-:guilabel:`Splash Screen`\ .
+:guilabel:`Splash Screen`.
 They are presented as the same links you will find at the :guilabel:`Help` Menu.
 
 
@@ -145,7 +145,7 @@ Other Help Options
 ==================
 
 Here we explain the two new features added for Blender,
-:guilabel:`Blender Search` and the recoded :guilabel:`Tooltips`\ .
+:guilabel:`Blender Search` and the recoded :guilabel:`Tooltips`.
 
 
 Blender Search
@@ -163,14 +163,14 @@ Blender Search
    Blender Search - Render
 
 
-The Blender Search feature, called :guilabel:`Blender Search`\ ,
+The Blender Search feature, called :guilabel:`Blender Search`,
 is a new functionality added by the Blender recode
 (from 2.4x series to 2.5x series and so on).
-The Internal name of the feature is *Operator Search*\ .
+The Internal name of the feature is *Operator Search*.
 When you hit :kbd:`space` from your keyboard,
 Blender will present you with a small Pop Up Window,
 no matter which Blender Window your Mouse pointer is located
-(except the :guilabel:`Text Editor` Window and :guilabel:`Python console`\ ),
+(except the :guilabel:`Text Editor` Window and :guilabel:`Python console`),
 and a field for you to type in.
 Just type what you need and Blender will present you a list of available options.
 You can click on the appropriate function for you, or search through them using your keyboard,
@@ -185,7 +185,7 @@ the small Pop Up Window for the Blender Search will stay blank.
 
 
 - How it works:
-  - Every Blender Internal Operator can use a defined name, some of them are predefined names for the user. For example, the :guilabel:`Render` command is a named Python call, the appropriate Operator is  ``Python: bpy.ops.render.render()`` , but for the user, it is called Render. All of those *user* names that were previously attributed for Python operators can searched for using :guilabel:`Blender Search`\ .
+  - Every Blender Internal Operator can use a defined name, some of them are predefined names for the user. For example, the :guilabel:`Render` command is a named Python call, the appropriate Operator is  ``Python: bpy.ops.render.render()`` , but for the user, it is called Render. All of those *user* names that were previously attributed for Python operators can searched for using :guilabel:`Blender Search`.
 
 
 Tooltips

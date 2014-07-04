@@ -12,7 +12,7 @@ Blender will add those new faces for you,
 but you may need to do additional mapping or editing. In this fashion,
 you can use the UV Texture image to guide additional geometry changes.
 
-This section covers techniques for Mapping Uvs. The next sections cover :doc:`Editing UVs <textures/mapping/uv/layout_editing>`\ , followed by methods of :doc:`Managing UV Layouts <textures/mapping/uv/layout_management>`\ , and :doc:`Applying Images to UVs <textures/mapping/uv/applying_image>`\ .
+This section covers techniques for Mapping Uvs. The next sections cover :doc:`Editing UVs <textures/mapping/uv/layout_editing>`, followed by methods of :doc:`Managing UV Layouts <textures/mapping/uv/layout_management>`, and :doc:`Applying Images to UVs <textures/mapping/uv/applying_image>`.
 
 
 About UVs
@@ -51,9 +51,9 @@ Getting Started
    UV Editing screen layout
 
 
-By default, meshes are not created with UVs. First you must map the faces, then you can :doc:`edit them <textures/mapping/uv/layout_editing>`\ . The process of unwrapping your model is done within Edit Mode in the 3D View window. This process creates one or more UV Islands in the :doc:`UV/Image Editor window <ce/windows/uv-image>`\ .
+By default, meshes are not created with UVs. First you must map the faces, then you can :doc:`edit them <textures/mapping/uv/layout_editing>`. The process of unwrapping your model is done within Edit Mode in the 3D View window. This process creates one or more UV Islands in the :doc:`UV/Image Editor window <ce/windows/uv-image>`.
 
-To begin, choose the :guilabel:`UV Editing` :doc:`screen layout <data_system/scene_creation#screen_layouts>` from the selection list at the top of your screen in the User Preferences window header. This sets one of the panes to show you the UV/Image Editor window (\ :kbd:`Shift+f10`\ ), and  the other pane to the 3D window (\ :kbd:`Shift+f5`\ ).
+To begin, choose the :guilabel:`UV Editing` :doc:`screen layout <data_system/scene_creation#screen_layouts>` from the selection list at the top of your screen in the User Preferences window header. This sets one of the panes to show you the UV/Image Editor window (:kbd:`Shift+f10`), and  the other pane to the 3D window (:kbd:`Shift+f5`).
 
 Enter edit mode, as all unwrapping is done in Edit mode. You can be in vertex, face,
 or edge selection mode.
@@ -76,8 +76,10 @@ The process is:
 - Select all of the mesh components
 - Select a UV mapping method from the UV Unwrap menu
 - Adjust the unwrap settings
-- Add a test image to see if there will be any distortion. See :doc:`Applying Images to UVs <textures/mapping/uv/applying_image>`
-- Adjust UVs in the UV editor. See :doc:`Editing UVs <textures/mapping/uv/layout_editing>`
+- Add a test image to see if there will be any distortion.
+  See :doc:`Applying Images to UVs <textures/mapping/uv/applying_image>`
+- Adjust UVs in the UV editor.
+  See :doc:`Editing UVs <textures/mapping/uv/layout_editing>`
 
 
 Mapping Types
@@ -90,46 +92,39 @@ The more advanced methods can be used with more complex models, and have more sp
 
 Basic:
 
-FIXME(TODO: Internal Link;
-[[#Cube|Cube]]
-)
+   FIXME(TODO: Internal Link; [[#Cube|Cube]])
+
    Maps the mesh onto the faces of a cube, which is then unfolded.
 
-FIXME(TODO: Internal Link;
-[[#Cylinder and Sphere|Sphere]]
-)
+   FIXME(TODO: Internal Link; [[#Cylinder and Sphere|Sphere]])
+
    Projects the UVs onto a spherical shape. Useful only for spheres or spherical shapes, like eyes, planets, etc.
 
-FIXME(TODO: Internal Link;
-[[#Cylinder and Sphere|Cylinder]]
-)
+   FIXME(TODO: Internal Link; [[#Cylinder and Sphere|Cylinder]])
+
    Projects UVs onto a cylindrical surface.
 
-FIXME(TODO: Internal Link;
-[[#Project From View|Project from View]]
-)
+   FIXME(TODO: Internal Link; [[#Project From View|Project from View]])
+
    Takes the current view in the 3D viewport and flattens it as it appears.
 
 Advanced:
 
-FIXME(TODO: Internal Link;
-[[#Unwrapping using Seams|Unwrap]]
-)
+   FIXME(TODO: Internal Link; [[#Unwrapping using Seams|Unwrap]])
+
    Useful for organic shapes. Smooths the mesh into a flat surface by cutting along seams.
 
-FIXME(TODO: Internal Link;
-[[#Smart Uv Project|Smart UV Project]]
-)
+   FIXME(TODO: Internal Link; [[#Smart Uv Project|Smart UV Project]])
+
    Breaks the mesh into islands based on an angle threshold.
 
-FIXME(TODO: Internal Link;
-[[#Lightmap|Lightmap Pack]]
-)
+   FIXME(TODO: Internal Link; [[#Lightmap|Lightmap Pack]])
+
    Separates each face and packs them onto the UV grid.
 
-FIXME(TODO: Internal Link;
-[[#Follow Active Quads|Follow Active Quads]]
-)
+   FIXME(TODO: Internal Link;
+   [[#Follow Active Quads|Follow Active Quads]])
+
    Follow UV from active quads along continuous face loops.
 
 You can also
@@ -156,7 +151,9 @@ should be set (in Blender units) to encompass the object.
 The following settings are common for the Cube, Cylinder, and Sphere mappings:
 
 :guilabel:`Correct Aspect`
-   Map UVs taking image aspect ratios into consideration. If an image has already been mapped to the texture space that is non-square, the projection will take this into account and distort the mapping to appear correct.
+   Map UVs taking image aspect ratios into consideration.
+   If an image has already been mapped to the texture space that is non-square,
+   the projection will take this into account and distort the mapping to appear correct.
 :guilabel:`Clip to Bounds`
    Any UVs that lie outside the 0 to 1 range will be clipped to that range by being moved to the UV space border it is closest to.
 :guilabel:`Scale to Bounds`
@@ -168,7 +165,9 @@ Cube
 ----
 
 
-Cube mapping projects s mesh onto six separate planes, creating 6 UV islands. In the UV editor, these will appear overlapped, but can be moved. See :doc:`Editing UVs <textures/mapping/uv/layout_editing>`\ .
+Cube mapping projects s mesh onto six separate planes, creating 6 UV islands.
+In the UV editor, these will appear overlapped, but can be moved.
+See :doc:`Editing UVs <textures/mapping/uv/layout_editing>`.
 
 :guilabel:`Cube Size`
    Set the size of the cube to be projected onto.
@@ -213,6 +212,7 @@ map of the earth as the UV image will give a very nice planet mapping onto the s
 
 :guilabel:`Align`
    Select which axis is up
+
    :guilabel:`Polar ZX`
       Polar 0 is on the x axis
    :guilabel:`Polar ZY`
@@ -298,8 +298,8 @@ Marking Seams
 
 
 To add an edge to a seam,
-simply select the edge and :kbd:`ctrl-E` :guilabel:`Mark Seam`\ .
-To take an edge out of a seam, select it, :kbd:`ctrl-E` and :guilabel:`Clear Seam`\ .
+simply select the edge and :kbd:`ctrl-E` :guilabel:`Mark Seam`.
+To take an edge out of a seam, select it, :kbd:`ctrl-E` and :guilabel:`Clear Seam`.
 
 In the example to the right, the back-most edge of the cylinder was selected as the seam
 (to hide the seam), and the default unwrap calculation was used.
@@ -354,10 +354,10 @@ Unwrap
 
 Begin by selecting all faces to be unwrapped in the 3D View. With our faces selected,
 it is now time to unwrap them. In the 3D View,
-select :guilabel:`Mesh`\ →UV Unwrap or :kbd:`U` and select Unwrap.
+select :guilabel:`Mesh` →UV Unwrap or :kbd:`U` and select Unwrap.
 
 You can also do this from the UV/Image Editor window with command :guilabel:`UVs→Unwrap` or
-command :kbd:`E`\ . This method will unwrap all of the faces and reset previous work. The
+command :kbd:`E`. This method will unwrap all of the faces and reset previous work. The
 UVs menu will appear in the UV/Image Editor window after unwrapping has been performed once.
 
 The :guilabel:`Face→Unwrap→Unwrap` option unwraps the faces of the object to provide the
@@ -449,7 +449,7 @@ then go into :guilabel:`Edit Mode` and activate the tool.
 :guilabel:`Share Tex Space`
    This is useful if mapping more than one mesh. It attempts to fit all of the objects' faces in the UV bounds without overlapping.
 :guilabel:`New UV Layer`
-   If mapping multiple meshes, this option creates a new UV layer for each mesh. See :doc:`Managing the Layout <textures/mapping/uv/layout_management>`\ .
+   If mapping multiple meshes, this option creates a new UV layer for each mesh. See :doc:`Managing the Layout <textures/mapping/uv/layout_management>`.
 :guilabel:`New Image`
    Assigns new images for every mesh, but only one if :guilabel:`Shared Tex Space` is enabled.
 
@@ -471,6 +471,7 @@ Note that it does not respect the image size,
 so you may have to scale them all down a bit to fit the image area.
 
 Edge Length Mode:
+
 :guilabel:`Even`
    Space all UVs evenly.
 :guilabel:`Length`

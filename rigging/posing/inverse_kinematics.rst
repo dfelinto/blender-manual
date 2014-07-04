@@ -23,9 +23,9 @@ Automatic IK is a tool for quick posing, it can be enabled in the tool shelf in 
 when in pose mode. When the Auto IK option is enabled, translating a bone will activate
 inverse kinematic and rotate bones higher up to follow the selected bone. By default,
 the length of the IK chain is as long as there are parent bones,
-and this length can be modified with :kbd:`Shift`  :kbd:`pgup`\ ,
-:kbd:`Shift`  :kbd:`pgdown`\ , or :kbd:`Shift`  :kbd:`wheelup`\ ,
-:kbd:`Shift`  :kbd:`wheeldown`\ .
+and this length can be modified with :kbd:`Shift`  :kbd:`pgup`,
+:kbd:`Shift`  :kbd:`pgdown`, or :kbd:`Shift`  :kbd:`wheelup`,
+:kbd:`Shift`  :kbd:`wheeldown`.
 
 This is a more limited feature than using an IK constraint, which can be configured,
 but it can be useful for quick posing.
@@ -46,7 +46,7 @@ Please refer to these pages for detail about the settings for the contraints:
 Armature IK Panel
 -----------------
 
-This panel is used to select the IK Solver type for the armature. *Standard* or *iTaSC*\ .
+This panel is used to select the IK Solver type for the armature. *Standard* or *iTaSC*.
 
 
 .. figure:: /images/Doc_IK_Armature_IK_Panel.jpg
@@ -75,16 +75,16 @@ This panel is used to control how the *Pose Bones* work in the IK chain.
 
 
 *Lock*
-    Disallow movement around the axis.
+   Disallow movement around the axis.
 
 *Stiffness*
-    Stiffness around the axis. Influence disabled if using *Lock*\ .
+   Stiffness around the axis. Influence disabled if using *Lock*.
 
 *Limit*
-    Limit movement around the axis, specifide by the sliders.
+   Limit movement around the axis, specifide by the sliders.
 
 *Stretch*
-    Stretch influence to IK target. 0.000 is the same as disabled.
+   Stretch influence to IK target. 0.000 is the same as disabled.
 
 
 Arm Rig Example
@@ -92,7 +92,7 @@ Arm Rig Example
 
 This arm uses two bones to overcome the twist problem for the forearm.
 IK locking is used to stop the forearm from bending,
-but the forearm can still be twisted manually by pressing :kbd:`r-y-y` in *Pose Mode*\ ,
+but the forearm can still be twisted manually by pressing :kbd:`r-y-y` in *Pose Mode*,
 or by using other constraints.
 
 

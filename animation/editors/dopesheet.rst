@@ -36,7 +36,7 @@ There are four basic views for the Dopesheet.These all view different contexts o
 :doc:`Shape Key Editor <animation/editors/dopesheet/shapekey>`
    :guilabel:`ShapeKey Editor` is dedicated to the :guilabel:`Shape` Ipo datablocks. It uses/edits the same action datablock as the previous mode. It seems to be an old and useless thing, as the :guilabel:`Action Editor` mode handles :guilabel:`Shape` channels very well, and this mode adds nothing…
 :doc:`Grease Pencil <animation/editors/dopesheet/greasepencil>`
-   :guilabel:`Grease Pencil` is dedicated to the :doc:`grease pencil tool's <3d_interaction/sketching/layers_and_animation>` keyframes - for each grease pencil layer, you have a strip along which you can grab its keys, and hence easily re-time your animated sketches. As it is just another way to see and edit the grease pencil data, this mode uses no datablock (and hence has nothing to do with actions…). Note that you'll have as much top-level grease pencil channels as you have sketched windows (3D views, :guilabel:`UV/Image Editor`\ , etc.)
+   :guilabel:`Grease Pencil` is dedicated to the :doc:`grease pencil tool's <3d_interaction/sketching/layers_and_animation>` keyframes - for each grease pencil layer, you have a strip along which you can grab its keys, and hence easily re-time your animated sketches. As it is just another way to see and edit the grease pencil data, this mode uses no datablock (and hence has nothing to do with actions…). Note that you'll have as much top-level grease pencil channels as you have sketched windows (3D views, :guilabel:`UV/Image Editor`, etc.)
 
 
 Interface
@@ -66,7 +66,7 @@ The left "list-tree"
    This part shows the action's channel "headers" and their hierarchy. Basically, there are:
 
    - "Top-level" channels, which represent whole FCurve datablocks (so there's one for :guilabel:`Object` one, one for :guilabel:`Shape` one, etc.). They gather *all* keyframes defined in their underlying FCurve datablock.
-   - "Mid-level" channels, which seem currently to have no use (there's one per top-level channel, they are all named :guilabel:`FCurves`\ , and have no option at all…).
+   - "Mid-level" channels, which seem currently to have no use (there's one per top-level channel, they are all named :guilabel:`FCurves`, and have no option at all…).
    - "Low-level" channels, which represent individual FCurve , with their own keyframes (fortunately, only keyed Ipos are shown!).
 
    Each level can be expended/collapsed by the small arrow to the left of its "parent" channel.
@@ -106,9 +106,9 @@ View Menu
 :guilabel:`Show Seconds`
    Whether to show the time in the X-axis as frames or as seconds
 
-:guilabel:`Set Preview Range`\ :kbd:`P`
-   Interactively define frame range used for playback. Allow you to define a temporary preview range to use for the :kbd:`alt-A` realtime playback (this is the same thing as the :guilabel:`Pr` option of the :doc:`Timeline window header <animation/timeline#header_controls>`\ ).
-:guilabel:`Clear Preview Range`\ :kbd:`alt-P`
+:guilabel:`Set Preview Range`:kbd:`P`
+   Interactively define frame range used for playback. Allow you to define a temporary preview range to use for the :kbd:`alt-A` realtime playback (this is the same thing as the :guilabel:`Pr` option of the :doc:`Timeline window header <animation/timeline#header_controls>`).
+:guilabel:`Clear Preview Range`:kbd:`alt-P`
    Clears the preview range
 :guilabel:`Auto-Set Preview Range`
    Automatically sets the preview range to playback the whole action.
@@ -123,4 +123,4 @@ See :doc:`FCurve Editing <animation/editors/graph/fcurves/editing>`
 Marker Menu
 ~~~~~~~~~~~
 
-See the :doc:`Markers page <animation/markers>`\ .
+See the :doc:`Markers page <animation/markers>`.

@@ -25,14 +25,14 @@ Various things that are calculated in a standard render include:
 
 
 - *Where are* **shadows** *cast?*
-- *How is* **ambient** *light in the environment blocked (*\ **occluded**\ *) by objects in the scene?*
+- *How is* **ambient** *light in the environment blocked (* **occluded** *) by objects in the scene?*
 - *How is light* **reflected** *off mirrored surfaces?* Like shadows, lines are calculated, except this time they come from the camera and bounce off mirrored surfaces, so that when these lines hit an object, the engine calculates that this is what the camera should see.
-- *How is light bent (*\ **refracted**\ *) as is passes through transparent objects?* Does it go straight through? Does it bend? If so, at what depth in the object?
+- *How is light bent (* **refracted** *) as is passes through transparent objects?* Does it go straight through? Does it bend? If so, at what depth in the object?
 - *What designated* **objects** *are in the scene, and what is their outline?* Should the object appear blurred, or should it appear in sharp focus?
-- *How fast is something moving (*\ **velocity**\ *)?* Should it appear blurred given our frame rate or is it slow enough to still be focused on properly?
-- *How far away from the camera are objects' surfaces (*\ **Z-depth**\ *)?* Can the object's surfaces be seen at all, or are they being blocked by another object's geometry?
+- *How fast is something moving (* **velocity** *)?* Should it appear blurred given our frame rate or is it slow enough to still be focused on properly?
+- *How far away from the camera are objects' surfaces (* **Z-depth** *)?* Can the object's surfaces be seen at all, or are they being blocked by another object's geometry?
 - *Does an object have a* **normal** *vector (bumpmap)?* Do shadows and apparent geometry need to be calculated for any objects?
-- *Is there any* **specularity**\ *?* Are objects with textures such as metal shiny at all?
+- *Is there any* **specularity** *?* Are objects with textures such as metal shiny at all?
 
 
 .. admonition:: Renderer Rewrite
@@ -91,7 +91,7 @@ the **Shadow** pass will be blank; there's simply nothing to show you.
 If you have not enabled *Ambient Occlusion* in your World environment settings,
 the **AO** pass will be blank, even if you select it here.
 
-To save time and disk space, you have to tell Blender each of the passes to render in the Render Layers panel (which we first introduced on :doc:`the previous page <render/post_process/layers>`\ ):
+To save time and disk space, you have to tell Blender each of the passes to render in the Render Layers panel (which we first introduced on :doc:`the previous page <render/post_process/layers>`):
 
 
 +----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -224,7 +224,7 @@ Compositing Ambient Occlusion
 
 AO is a geometry-based dirt shader, making corners darker.
 It is separately enabled in the World settings and computed as a separate pass. When enabled,
-it has one of three Modes (\ *Add, Subtract, Both*\ ), and variable *Energy* level
+it has one of three Modes (*Add, Subtract, Both*), and variable *Energy* level
 (which changes the intensity of the shading).
 The third variable is the amount of Ambient light that the material receives.
 If it does not receive any, then ambient occlusion does not affect it.

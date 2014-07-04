@@ -44,7 +44,7 @@ Direct placement with the mouse
    Positioning the 3D cursor with two orthogonal views.
 
 
-- Using :kbd:`lmb` in the 3D area will place the 3D cursor directly under your mouse pointer. For accuracy you should use two perpendicular orthogonal 3D views, i.e. any combination of top (\ :kbd:`pad7`\ ), front (\ :kbd:`pad1`\ ) and side (\ :kbd:`pad3`\ ). That way you can control the positioning along two axes in one view and determine depth in the second view.
+- Using :kbd:`lmb` in the 3D area will place the 3D cursor directly under your mouse pointer. For accuracy you should use two perpendicular orthogonal 3D views, i.e. any combination of top (:kbd:`pad7`), front (:kbd:`pad1`) and side (:kbd:`pad3`). That way you can control the positioning along two axes in one view and determine depth in the second view.
 
 
 Using the Snap Menu
@@ -55,14 +55,14 @@ Using the Snap Menu
    The Snap menu.
 
 
-The :guilabel:`Snap` menu (\ :kbd:`Shift-S` or :menuselection:`Object/Mesh --> Snap`\ )
+The :guilabel:`Snap` menu (:kbd:`Shift-S` or :menuselection:`Object/Mesh --> Snap`)
 will allow you to snap the cursor in the following ways:
 
 
-- :guilabel:`Cursor to Selected`\ : snaps the cursor to the currently selected vertex, edge or face. In :guilabel:`Object` mode this option will snap the cursor to the center of the currently selected Object.
-- :guilabel:`Cursor to Center`\ : snaps the cursor to the origin point of the grid (location 0,0).
-- :guilabel:`Cursor to Grid`\ : snaps the cursor to the nearest **visible** part of the grid.
-- :guilabel:`Cursor to Active`\ : snaps the cursor to the *active* (last selected) object, edge, face or vertex.
+- :guilabel:`Cursor to Selected`: snaps the cursor to the currently selected vertex, edge or face. In :guilabel:`Object` mode this option will snap the cursor to the center of the currently selected Object.
+- :guilabel:`Cursor to Center`: snaps the cursor to the origin point of the grid (location 0,0).
+- :guilabel:`Cursor to Grid`: snaps the cursor to the nearest **visible** part of the grid.
+- :guilabel:`Cursor to Active`: snaps the cursor to the *active* (last selected) object, edge, face or vertex.
 
 The :guilabel:`Cursor to Selected` option is also affected by the number of elements in the
 selection and the current pivot point.  For example,
@@ -89,6 +89,6 @@ Numeric input
 
 
 The 3D cursor can also be positioned by entering Numeric location values into the :guilabel:`3D
-cursor` panel of the :guilabel:`Properties` shelf (\ :kbd:`N`\ ).
+cursor` panel of the :guilabel:`Properties` shelf (:kbd:`N`).
 
 

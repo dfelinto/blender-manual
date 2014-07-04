@@ -20,9 +20,9 @@ The :guilabel:`Stucci` texture is based on noise functions.
 Options
 -------
 
-:guilabel:`Plastic`\ /\ :guilabel:`Wall In`\ /\ :guilabel:`Wall out`
+:guilabel:`Plastic` / :guilabel:`Wall In` / :guilabel:`Wall out`
    Plastic is the standard Stucci, whilst the "walls" is where Stucci gets it name. This is a typical wall structure with holes or bumps.
-:guilabel:`Soft`\ /\ :guilabel:`Hard`
+:guilabel:`Soft` / :guilabel:`Hard`
    There are two methods available for working with Noise
 :guilabel:`Size`
    Dimension of the Noise table

@@ -303,7 +303,7 @@ inevitably the director changes their mind. "Man, I really wish he looked more r
 Who did makeup, anyway?" comes the remark.
 While you can do quite a bit of coloring in post production, there are limits. Well, now this
 little node comes along and you have the power to **re-texture your objects** *after* **they
-have been rendered**\ . Yes, you read that right; it's not a typo and I'm not crazy. At least,
+have been rendered**. Yes, you read that right; it's not a typo and I'm not crazy. At least,
 not today.
 
 Using this node (and having saved the UV map in a multilayer OpenEXR format image sequence), you can apply new flat image textures to all objects (or individual objects if you used the very cool :doc:`ID Mask Node <composite_nodes/types/convertor#id_mask_node>` to enumerate your objects) in the scene.
@@ -379,7 +379,7 @@ Use this node to simulate distortions that real camera lenses produce.
    This simulates chromatic aberration, where different wavelengths of light refract slightly differently, creating a rainbow colored fringe.
 
 :guilabel:`Projector`
-   Enable or disable slider projection mode. When on, distortion is only applied horizontally. Disables :guilabel:`Jitter` and :guilabel:`Fit`\ .
+   Enable or disable slider projection mode. When on, distortion is only applied horizontally. Disables :guilabel:`Jitter` and :guilabel:`Fit`.
 :guilabel:`Jitter`
    Adds jitter to the distortion. Faster, but noisier.
 :guilabel:`Fit`

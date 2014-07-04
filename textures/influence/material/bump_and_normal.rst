@@ -19,7 +19,7 @@ Although the terms :guilabel:`Normal Map` and :guilabel:`Bump Map` are often use
 synonymously, there are certain differences.
 
 **Bump maps**
-   These are textures that store an **intensity**\ , the relative height of pixels from the viewpoint of the camera.
+   These are textures that store an **intensity**, the relative height of pixels from the viewpoint of the camera.
    The pixels seem to be moved by the required distance in the direction of the face normals.
    (The "bump" consists only of a displacement, which takes place along the existing, and unchanged,
    normal-vector of the face.) You may either use greyscale pictures or the intensity values of a RGB-Texture
@@ -34,7 +34,7 @@ synonymously, there are certain differences.
    often from higher resolution geometry than the geometry you're applying the map to.
 
 
-    Normal maps in Blender store a normal as follows:
+   Normal maps in Blender store a normal as follows:
 
    - Red maps from (0-255) to X (-1.0 - 1.0)
    - Green maps from (0-255) to Y (-1.0 - 1.0)
@@ -77,8 +77,8 @@ section<textures/mapping>` for more information on applying a texture to a mesh'
 Bump and Normal Maps is:
 
 
-- When using a Bump map, map the texture to :guilabel:`Normal` and enable :guilabel:`No RGB`\ .
-- When using a Normal map, map the texture to :guilabel:`Normal`\ .
+- When using a Bump map, map the texture to :guilabel:`Normal` and enable :guilabel:`No RGB`.
+- When using a Normal map, map the texture to :guilabel:`Normal`.
 
 The coordinate systems of the two objects must match. For example, if you bake using a UV map of the high-poly model,
 you must UV map the low poly model and line up its UV coordinates to match the outline of the high-poly image

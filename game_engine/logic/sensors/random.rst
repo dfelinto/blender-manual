@@ -18,8 +18,14 @@ Special Options:
 
 :guilabel:`Seed`
 This field to enter the initial seed for the random number algorithm. (Range 0-1000).
-Notes -
-    1)  0 is not random, but is useful for testing and debugging purposes.
-    2)  If you run several times with the same Seed, the sequence of intervals you get will be the same in each run, although the intervals will be randomly distibuted.
+
+
+.. note::
+
+   0 is not random, but is useful for testing and debugging purposes.
+
+.. note::
+   If you run several times with the same Seed, the sequence of intervals you get will be the same in each run,
+   although the intervals will be randomly distibuted.
 
 

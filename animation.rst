@@ -19,14 +19,15 @@ In this chapter we will cover the first two,
 but the basics given here are actually vital for understanding the following chapters as well.
 
 Three methods are normally used in animation software to make a 3D object move:
-**Key frames**
-    Complete positions are saved for units of time (frames). An animation is created by interpolating an object fluidly through the frames. The advantage of this method is that it allows you to work with clearly visualized units. The animator can work from one position to the next and can change previously created positions, or move them in time.
-**Animation Curves**
-    Curves are interpolated from keyframes, and can be drawn for each XYZ component for location, rotation, and size, as well as any other attribute in Blender. These form the graphs for the movement, with time set out horizontally and the value set out vertically. The advantage of this method is that it gives you precise control over the results of the movement.
-**Path**
-    A curve is drawn in 3D space, and the Object is constrained to follow it according to a given time function of the position along the path.
 
-The first two systems in Blender are completely integrated in a single one, the :doc:`F-Curve system <animation/fcurves>`\ .
+**Key frames**
+   Complete positions are saved for units of time (frames). An animation is created by interpolating an object fluidly through the frames. The advantage of this method is that it allows you to work with clearly visualized units. The animator can work from one position to the next and can change previously created positions, or move them in time.
+**Animation Curves**
+   Curves are interpolated from keyframes, and can be drawn for each XYZ component for location, rotation, and size, as well as any other attribute in Blender. These form the graphs for the movement, with time set out horizontally and the value set out vertically. The advantage of this method is that it gives you precise control over the results of the movement.
+**Path**
+   A curve is drawn in 3D space, and the Object is constrained to follow it according to a given time function of the position along the path.
+
+The first two systems in Blender are completely integrated in a single one, the :doc:`F-Curve system <animation/fcurves>`.
 
 In Blender 2.5x, everything can now be animated. Previously,
 only certain datablock had the ability to be keyframed. Now users have the ability to animate
@@ -44,9 +45,7 @@ General Principles and Tools
 
 The Graph Editor
 
-FIXME(TODO: Internal Link;
-[[User:Tnboma/Doc:2.5/Manual/Animation/Graph Editor|Using the Graph Editor]]
-)
+FIXME(TODO: Internal Link; [[User:Tnboma/Doc:2.5/Manual/Animation/Graph Editor|Using the Graph Editor]])
    :doc:`F-Curves <animation/fcurves>`
    :doc:`Editing Curves <animation/editors/graph/fcurves>`
    :doc:`F-Curve Modifiers <animation/editors/fmodifiers>`
@@ -66,7 +65,9 @@ Animating Deformation
    :doc:`Shape Keys <animation/techs/shape/shape_keys>`
    :doc:`Deforming by a Lattice <animation/basic/deformation/lattice>`
    :doc:`Deforming with Hooks <modifiers/deform/hooks>`
-      See also :doc:`Hooks <modifiers/deform/hooks>` - Uses a modifier as a way to change the shape of a mesh. Sorta like sticking a fish hook in a mesh and pulling. Uses the principles discussed in Shape Keys.
+   See also :doc:`Hooks <modifiers/deform/hooks>` -
+   Uses a modifier as a way to change the shape of a mesh. Sorta like sticking a fish hook in a mesh and pulling.
+   Uses the principles discussed in Shape Keys.
 
 Drivers
    :doc:`Drivers <animation/editors/graph/drivers>`

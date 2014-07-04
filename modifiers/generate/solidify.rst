@@ -36,6 +36,7 @@ Options
    A value between **0** and **2** to clamp offsets to avoid self intersection.
 :guilabel:`Vertex Group`
    Restrict the modifier to only this vertex group.
+
    :guilabel:`Invert`
       Inverts the previous selection.
 
@@ -49,6 +50,7 @@ Options
 
 :guilabel:`Crease`
    These options are intended for usage with the :doc:`Subdivision Surface <modifiers/generate/subsurf>` modifier.
+
    :guilabel:`Inner`
       Assign a crease to the inner edges.
    :guilabel:`Outer`

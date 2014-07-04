@@ -20,7 +20,7 @@ then the vertices of the mesh, not the faces, appear one after another.
 By default, faces (or vertices) appear in the order in which they are stored in memory
 (by default, the order of creation). The face/vertex order can be altered in :guilabel:`Edit
 mode` by selecting :guilabel:`Sort Faces` from the :guilabel:`Search Menu`
-:kbd:`Space`\ .
+:kbd:`Space`.
 
 
 Options

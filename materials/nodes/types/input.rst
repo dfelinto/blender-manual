@@ -69,13 +69,13 @@ Controls
 ~~~~~~~~
 
 :guilabel:`Material` field
-    You can browse and select materials here.
+   You can browse and select materials here.
 :guilabel:`Diffuse` toggle
-    Turn on/off Diffuse Color.
+   Turn on/off Diffuse Color.
 :guilabel:`Specular` toggle
-    Turns on/off Specularity calculation.
+   Turns on/off Specularity calculation.
 :guilabel:`Invert Normal` toggle
-    Inverts the material input normal when activated (which, of course, is a combination of the 3D normal given to it by the 3D object plus the normal input point).
+   Inverts the material input normal when activated (which, of course, is a combination of the 3D normal given to it by the 3D object plus the normal input point).
 
 
 .. admonition:: Normal Override
@@ -129,21 +129,21 @@ Input
 ~~~~~
 
 :guilabel:`Color`
-    Includes a color swatch, allowing you to select the color directly on the node.
+   Includes a color swatch, allowing you to select the color directly on the node.
 :guilabel:`Mirror Color`
-    Color of mirrored reflection.
+   Color of mirrored reflection.
 :guilabel:`Ambient`
-    Amount of global ambient color the material receives.
+   Amount of global ambient color the material receives.
 :guilabel:`Emit`
-    Amount of light to emit.
+   Amount of light to emit.
 :guilabel:`SpecTra`
-    Alpha for the specular color.
+   Alpha for the specular color.
 :guilabel:`Ray Mirror`
-    Amount of reflectiveness of the object.
+   Amount of reflectiveness of the object.
 :guilabel:`Alpha`
-    Transparency of the material by setting all pixels in the alpha channel to the given value.
+   Transparency of the material by setting all pixels in the alpha channel to the given value.
 :guilabel:`Translucency`
-    Amount of diffuse shading on the back side
+   Amount of diffuse shading on the back side
 
 
 Output
@@ -255,18 +255,18 @@ Input
 ~~~~~
 
 :guilabel:`Vector`
-    Uses for map the texture to a specific geometric space.
+   Uses for map the texture to a specific geometric space.
 
 
 Outputs
 ~~~~~~~
 
 :guilabel:`Value`
-    Straight black-and-white value of the texture, combined by the node.
+   Straight black-and-white value of the texture, combined by the node.
 :guilabel:`Color`
-    Texture color output, combined by the node.
+   Texture color output, combined by the node.
 :guilabel:`Normal`
-    Direction of normal texture, combined by the node.
+   Direction of normal texture, combined by the node.
 
 In the example to the right, a cloud texture, as it would appear to a viewer,
 is added to a base purple material, giving a velvet effect.
@@ -289,10 +289,11 @@ This node is used to change a material's Normal response to lighting conditions.
 Use this node to feed the Normal vector input on the Material node,
 to see how the material will look (i.e. shine, or reflect light)
 under different lighting conditions. Your choices are:
+
 :guilabel:`Global`
    Global position of the surface.
 :guilabel:`Local`
-    Local position of the surface.
+   Local position of the surface.
 :guilabel:`View`
    Viewed position of the surface.
 :guilabel:`Orco`
@@ -312,7 +313,7 @@ under different lighting conditions. Your choices are:
 .. admonition:: Note
    :class: note
 
-   These are exactly the same settings as in the :doc:`Mapping <textures/mapping>` panel for :doc:`Textures <textures>`\ , though a few settings - like :guilabel:`Stress` or :guilabel:`Tangent` - are missing here. Normally you would use this node as input for a
+   These are exactly the same settings as in the :doc:`Mapping <textures/mapping>` panel for :doc:`Textures <textures>`, though a few settings - like :guilabel:`Stress` or :guilabel:`Tangent` - are missing here. Normally you would use this node as input for a
    FIXME(TODO: Internal Link;
    [[#Texture Node|Texture Node]]
    ).

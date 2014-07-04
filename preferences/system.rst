@@ -26,18 +26,18 @@ General
 +   During normal usage, most Blender users might prefer to zoom screen elements pressing :kbd:`ctrl` and dragging :kbd:`mmb` left and right over a panel to resize its contents,+
 +   or use the :kbd:`Numpad-+` and :kbd:`Numpad--` to zoom in and out the contents.                                                                                              +
 +   Pressing :kbd:`home` (Show All) will reset the zooming at the screen/panel focused by the mouse pointer.                                                                     +
-+    Minimum: **48** , Maximum: **128** , Default:\ **72**                                                                                                                       +
++   Minimum: **48** , Maximum: **128** , Default:\ **72**                                                                                                                        +
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 +:guilabel:`Frame Server Port`                                                                                                                                                   +
 +   TCP/IP port used in conjunction with the IP Address of the machine for frameserver rendering. Used when working with distributed rendering.                                  +
 +   Avoid changing this port value unless it is conflicting with already existing service ports used by your Operating System and/or softwares.                                  +
 +   Always consult your operating system documentation and services or consult your system administrator before changing this value.                                             +
-+    Minimum: **0** , Maximum: **32727** , Default: **8080**                                                                                                                     +
++   Minimum: **0** , Maximum: **32727** , Default: **8080**                                                                                                                      +
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 +:guilabel:`Console Scrollback`                                                                                                                                                  +
 +   The number of lines, buffered in memory of the console window.                                                                                                               +
 +   Useful for debugging purposes and command line rendering.                                                                                                                    +
-+    Minimum: **32** , Maximum: **32768** , Default:\ **256**                                                                                                                    +
++   Minimum: **32** , Maximum: **32768** , Default: **256**                                                                                                                      +
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
@@ -67,7 +67,7 @@ Sound
 +      *Stereo* (Default) , :guilabel:`4 Channels` , :guilabel:`5.1 Surround` , :guilabel:`7.1 Surround`                                                                                                     +
 +   :guilabel:`Mixing Buffer`                                                                                                                                                                                +
 +      Set the number of samples used by the audio mixing buffer. Available options are:                                                                                                                     +
-+       :guilabel:`512` , :guilabel:`1024` , *2048* (Default), :guilabel:`4096` , :guilabel:`8192`\ , :guilabel:`16384`\ , and :guilabel:`32768`                                                             +
++       :guilabel:`512` , :guilabel:`1024` , *2048* (Default), :guilabel:`4096` , :guilabel:`8192`, :guilabel:`16384`, and :guilabel:`32768`                                                                 +
 +   :guilabel:`Sample Rate`                                                                                                                                                                                  +
 +      Set the audio sample rate. Available options are:                                                                                                                                                     +
 +      *44.1 Khz* (Default), :guilabel:`48 Khs` , :guilabel:`96 Khz` and :guilabel:`192Khz`                                                                                                                  +
@@ -92,17 +92,18 @@ Compute Device
 +                                                                                                                                                       +
 +                                                                                                                                                       +
 +   :guilabel:`None`                                                                                                                                    +
-+      When set to :guilabel:`None` or the only option is :guilabel:`None`\ :                                                                           +
++      When set to :guilabel:`None` or the only option is :guilabel:`None`:                                                                             +
 +      your CPU will be used as a computing device for Cycles Render Engine                                                                             +
 +                                                                                                                                                       +
 +                                                                                                                                                       +
 +   When there are other Options for compute device such as:                                                                                            +
-+   :guilabel:`CUDA` / :guilabel:`OpenCL`\ :sup:`1`\ .                                                                                                  +
++                                                                                                                                                       +
++   :guilabel:`CUDA` / :guilabel:`OpenCL`:sup:`1`.                                                                                                      +
 +      If the system has a compatible CUDA enabled graphics card and appropriate device drivers installed.                                              +
 +      When one or both of the options are available, the user will be able to choose whether to use CPU or other computing device for Cycles Rendering.+
 +                                                                                                                                                       +
 +                                                                                                                                                       +
-+:guilabel:`OpenCL''`\ :sup:`1`  is unsupported, please refer to the :doc:`Cycles <render/cycles>` Render engine page                                   +
++:guilabel:`OpenCL''`:sup:`1`  is unsupported, please refer to the :doc:`Cycles <render/cycles>` Render engine page                                     +
 +-------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
@@ -195,23 +196,23 @@ Text Draw Options
 Textures
 --------
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-+:guilabel:`Limit Size`                                                                                                                                             +
-+   Limit the maximum resolution for pictures used in textured display to save memory.                                                                              +
-+   The limit options are specified in a square of pixels, (e.g.: the option 256 means a texture of 256x256 pixels)                                                 +
-+   This is useful for game engineers, whereas the texture limit matches paging blocks of the textures in the target graphic card memory .                          +
-+   Available Options are:                                                                                                                                          +
-+    *Off* (No limit - Default) , :guilabel:`128` , :guilabel:`256` , :guilabel:`512` , :guilabel:`1024` , :guilabel:`2048` , :guilabel:`4096` , :guilabel:`8192`\ .+
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-+:guilabel:`Time Out`                                                                                                                                               +
-+   Time since last access of a GL texture in seconds, after which it is freed. Set to 0 to keep textures allocated.                                                +
-+   Minimum: **0** , Maximum: **3600** , Default: **120**                                                                                                           +
-+                                                                                                                                                                   +
-+                                                                                                                                                                   +
-+:guilabel:`Collection Rate`                                                                                                                                        +
-+   Number of seconds between each run of the GL texture garbage collector.                                                                                         +
-+   Minimum: **0** , Maximum: **3600** , Default: **120**                                                                                                           +
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------+
++:guilabel:`Limit Size`                                                                                                                                       +
++   Limit the maximum resolution for pictures used in textured display to save memory.                                                                        +
++   The limit options are specified in a square of pixels, (e.g.: the option 256 means a texture of 256x256 pixels)                                           +
++   This is useful for game engineers, whereas the texture limit matches paging blocks of the textures in the target graphic card memory .                    +
++   Available Options are:                                                                                                                                    +
++   *Off* (No limit - Default) , :guilabel:`128`, :guilabel:`256`, :guilabel:`512`, :guilabel:`1024`, :guilabel:`2048`, :guilabel:`4096`, :guilabel:`8192`.   +
++-------------------------------------------------------------------------------------------------------------------------------------------------------------+
++:guilabel:`Time Out`                                                                                                                                         +
++   Time since last access of a GL texture in seconds, after which it is freed. Set to 0 to keep textures allocated.                                          +
++   Minimum: **0** , Maximum: **3600** , Default: **120**                                                                                                     +
++                                                                                                                                                             +
++                                                                                                                                                             +
++:guilabel:`Collection Rate`                                                                                                                                  +
++   Number of seconds between each run of the GL texture garbage collector.                                                                                   +
++   Minimum: **0** , Maximum: **3600** , Default: **120**                                                                                                     +
++-------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 Sequencer/Clip Editor
@@ -237,7 +238,7 @@ Solid OpenGL lights
 
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------+
 +:guilabel:`Solid OpenGL Lights`                                                                                                                                +
-+   :guilabel:`Solid OpenGL Lights`  are used to light the 3D Window, mostly during :guilabel:`Solid view`\ . Lighting is constant and position "world" based.  +
++   :guilabel:`Solid OpenGL Lights`  are used to light the 3D Window, mostly during :guilabel:`Solid view`. Lighting is constant and position "world" based.    +
 +   There are three virtual light sources, also called OpenGL auxiliary lamps, used to illuminate 3D View scenes, which will not display in renders.            +
 +                                                                                                                                                               +
 +                                                                                                                                                               +

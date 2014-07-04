@@ -2,10 +2,10 @@
 Graph Editor - Editing
 ======================
 
-Tools and menus for the :doc:`F-Curves <animation/editors/graph/fcurves>` in the *Graph Editor*\ .
+Tools and menus for the :doc:`F-Curves <animation/editors/graph/fcurves>` in the *Graph Editor*.
 
-By default, when new channels are added, the *Graph Editor* sets them to *Edit Mode*\ .
-Selected channels can be locked by pressing :kbd:`tab`\ .
+By default, when new channels are added, the *Graph Editor* sets them to *Edit Mode*.
+Selected channels can be locked by pressing :kbd:`tab`.
 
 
 Basic Tools
@@ -62,32 +62,32 @@ _______
 *Insert keyframes to the Time Cursor* :kbd:`I`
 
 *Copy Keyframes* :kbd:`Ctrl-C`
-    Copy the selected keyframes to memory.
+   Copy the selected keyframes to memory.
 
 *Paste Keyframes* :kbd:`Ctrl-V`
-    Paste keyframes from memory to the current frame for selected curves.
+   Paste keyframes from memory to the current frame for selected curves.
 
 
 Curves and Keyframes
 ____________________
 
 *Set Keyframe Extrapolation* :kbd:`Shift-E`
-    *Constant Extrapolation*
-    *Linear Extrapolation*
-    *Make Cyclic (F-Modifier)*
-    *Clear Cyclic (F-Modifier)*
+   *Constant Extrapolation*
+   *Linear Extrapolation*
+   *Make Cyclic (F-Modifier)*
+   *Clear Cyclic (F-Modifier)*
 
 *Set Keyframe Interpolation* :kbd:`T`
-    *Constant*
-    *Linear*
-    *Bezier*
+   *Constant*
+   *Linear*
+   *Bezier*
 
 *Set Keyframe Handle Type* :kbd:`V`
-    *Free*
-    *Vector*
-    *Aligned*
-    *Automatic*
-    *Auto Clamped*
+   *Free*
+   *Vector*
+   *Aligned*
+   *Automatic*
+   *Auto Clamped*
 
 See :doc:`F-Curves <animation/editors/graph/fcurves>` for more info.
 
@@ -119,7 +119,7 @@ Some other tools used to modify the the curves and keyframes.
 Transform Snapping
 __________________
 
-When transforming keyframes with :kbd:`G`\ , :kbd:`R`\ , :kbd:`S`\ ,
+When transforming keyframes with :kbd:`G`, :kbd:`R`, :kbd:`S`,
 the transformation can be snapped to increments.
 
 Snap Transformation to 1.0 :kbd:`Ctrl`
@@ -129,18 +129,18 @@ Divide Transformation by 10.0 :kbd:`Shift`
 Keyframes can be snapped to different properties by using the *Snap Keys* tool.
 
 *Snap Keys* :kbd:`Shift-S`
-    :guilabel:`Current Frame`
-       Snap the selected keyframes to the *Time Cursor*\ .
-    :guilabel:`Cursor Value`
-       Snap the selected keyframes to the *Cursor*\ .
-    :guilabel:`Nearest Frame`
-       Snap the selected keyframes to their nearest frame individually.
-    :guilabel:`Nearest Second`
-       Snap the selected keyframes to their nearest second individually, based on the *FPS* of the scene.
-    :guilabel:`Nearest Marker`
-       Snap the selected keyframes to their nearest marker individually.
-    :guilabel:`Flatten Handles`
-       Flatten the *Bezier* handles for the selected keyframes.
+   :guilabel:`Current Frame`
+      Snap the selected keyframes to the *Time Cursor*.
+   :guilabel:`Cursor Value`
+      Snap the selected keyframes to the *Cursor*.
+   :guilabel:`Nearest Frame`
+      Snap the selected keyframes to their nearest frame individually.
+   :guilabel:`Nearest Second`
+      Snap the selected keyframes to their nearest second individually, based on the *FPS* of the scene.
+   :guilabel:`Nearest Marker`
+      Snap the selected keyframes to their nearest marker individually.
+   :guilabel:`Flatten Handles`
+      Flatten the *Bezier* handles for the selected keyframes.
 
 
 +-----------------------------------+-------------------------------------------------------------------+-------------------------------------------------------------------+
@@ -159,16 +159,16 @@ Selected keyframes can be mirrored over different properties using the the *Mirr
 tool.
 
 *Mirror Keys* :kbd:`Shift-M`
-    :guilabel:`By Times Over Current Frame`
-       Mirror horizontally over the *Time Cursor*\ .
-    :guilabel:`By Values over Cursor Value`
-       Mirror vertically over the *Cursor*\ .
-    :guilabel:`By Times over Time 0`
-       Mirror horizontally over frame 0.
-    :guilabel:`By Values over Value 0`
-       Mirror vertically over value 0.
-    :guilabel:`By Times over First Selected Marker`
-       Mirror horizontally the over the first selected *Marker*\ .
+   :guilabel:`By Times Over Current Frame`
+      Mirror horizontally over the *Time Cursor*.
+   :guilabel:`By Values over Cursor Value`
+      Mirror vertically over the *Cursor*.
+   :guilabel:`By Times over Time 0`
+      Mirror horizontally over frame 0.
+   :guilabel:`By Values over Value 0`
+      Mirror vertically over value 0.
+   :guilabel:`By Times over First Selected Marker`
+      Mirror horizontally the over the first selected *Marker*.
 
 
 Clean Keyframes
@@ -191,7 +191,7 @@ _______________
 Smoothing
 _________
 
-(\ :kbd:`Alt-O` or :menuselection:`Key --> Smooth Keys`\ )
+(:kbd:`Alt-O` or :menuselection:`Key --> Smooth Keys`)
 There is also an option to smooth the selected curves , but beware: its algorithm seems to be
 to divide by two the distance between each keyframe and the average linear value of the curve,
 without any setting, which gives quite a strong smoothing! Note that the first and last keys
@@ -240,52 +240,52 @@ Apart from the standard options like zoom-in/out, maximize window, center view o
 etc., this menu gathers various other options.
 
 :guilabel:`Properties` :kbd:`N`
-    Opens the properties panel on the right side of the graph editor.
+   Opens the properties panel on the right side of the graph editor.
 
 :guilabel:`Realtime Updates`
-    When transforming keyframes, changes to the animation data are flushed to other views.
+   When transforming keyframes, changes to the animation data are flushed to other views.
 
 :guilabel:`Show Frame Number Indicator`
-    Show frame number beside the current frame indicator line.
+   Show frame number beside the current frame indicator line.
 
 :guilabel:`Show Cursor`
-    Shows the 2d cursor.
+   Shows the 2d cursor.
 
 :guilabel:`Show Sliders`
-    Show sliders beside F-Curve channels.
+   Show sliders beside F-Curve channels.
 
 :guilabel:`Show Group Colors`
-    Draw groups and channels with colors matching their corresponding groups.
+   Draw groups and channels with colors matching their corresponding groups.
 
 :guilabel:`AutoMerge Keyframes`
-    Automatically merge nearby keyframes.
+   Automatically merge nearby keyframes.
 
 :guilabel:`Use High Quality Drawing`
-    Draw F-Curves using Anti-Aliasing and other fancy effects (disable for better performance).
+   Draw F-Curves using Anti-Aliasing and other fancy effects (disable for better performance).
 
 :guilabel:`Show Handles`
-    Show handles of Bezier control points.
+   Show handles of Bezier control points.
 
 :guilabel:`Only Selected Curve Keyframes`
-    Only keyframes of selected F-Curves are visible and editable.
+   Only keyframes of selected F-Curves are visible and editable.
 
 :guilabel:`Only Selected Keyframe handles`
-    Only show and edit handles of selected keyframes.
+   Only show and edit handles of selected keyframes.
 
 :guilabel:`Show Seconds`
-    Show timing in seconds not frames.
+   Show timing in seconds not frames.
 
-:guilabel:`Set Preview Range`\ , :guilabel:`Clear Preview Range` (\ :kbd:`ctrl-P`\ , :kbd:`alt-P`\ )
-    These entries allow you to define/clear a temporary preview range to use for the :kbd:`alt-A` realtime playback (this is the same thing as the :guilabel:`Pr` option of the :doc:`Timeline window header <animation/timeline#header_controls>`\ ).
+:guilabel:`Set Preview Range`, :guilabel:`Clear Preview Range` (:kbd:`ctrl-P`, :kbd:`alt-P`)
+   These entries allow you to define/clear a temporary preview range to use for the :kbd:`alt-A` realtime playback (this is the same thing as the :guilabel:`Pr` option of the :doc:`Timeline window header <animation/timeline#header_controls>`).
 
 :guilabel:`Auto-Set Preview Range` :kbd:`Ctrl-alt-P`
-    Automatically set Preview Range based on range of keyframes.
+   Automatically set Preview Range based on range of keyframes.
 
 :guilabel:`View All` :kbd:`Home`
-    Reset viewable area to show full keyframe range.
+   Reset viewable area to show full keyframe range.
 
 :guilabel:`View Selected` :kbd:`pad-.`
-    Reset viewable area to show selected keyframe range.
+   Reset viewable area to show selected keyframe range.
 
 
 Select Menu
@@ -344,7 +344,7 @@ ___________
 *Duplicate Marker to Scene*
 
 *Delete Marker* :kbd:`X` or :kbd:`Delete`
-    Note, make sure no channels are selected.
+   Note, make sure no channels are selected.
 
 *Rename Marker* :kbd:`Ctrl-M`
 
@@ -365,36 +365,36 @@ ____________
 *Ungroup Channels* :kbd:`Alt-G`
 
 *Toggle Channel Settings* :kbd:`Shift-W`
-    *Protect*
-    *Mute*
+   *Protect*
+   *Mute*
 
 *Enable Channel Settings* :kbd:`Shift-Ctrl-W`
-    *Protect*
-    *Mute*
+   *Protect*
+   *Mute*
 
 *Disable Channel Settings* :kbd:`Alt-W`
-    *Protect*
-    *Mute*
+   *Protect*
+   *Mute*
 
 *Toggle Channel Editability* :kbd:`Tab`
 
 *Set Visibilty* :kbd:`V`
 
 *Extrapolation Mode* :kbd:`Shift-E`
-    *Constant Extrapolation*
-    *Linear Extrapolation*
-    *Make Cyclic (F-Modifiers)*
-    *Clear Cyclic (F-Modifiers)*
+   *Constant Extrapolation*
+   *Linear Extrapolation*
+   *Make Cyclic (F-Modifiers)*
+   *Clear Cyclic (F-Modifiers)*
 
 *Expand Channels* :kbd:`Numpad-+`
 
 *Collapse Channels* :kbd:`Numpad--`
 
 *Move...*
-    *To Top* :kbd:`Shift-PageUp`
-    *Up* :kbd:`PageUp`
-    *Down* :kbd:`PageDown`
-    *To Bottom* :kbd:`Shift-PageDown`
+   *To Top* :kbd:`Shift-PageUp`
+   *Up* :kbd:`PageUp`
+   *Down* :kbd:`PageDown`
+   *To Bottom* :kbd:`Shift-PageDown`
 
 *Revive Disabled F-Curves*
 
@@ -403,25 +403,25 @@ Key Menu
 ________
 
 *Transform*
-    *Grab/Move* :kbd:`G`
-    *Extend* :kbd:`E`
-    *Rotate* :kbd:`R`
-    *Scale* :kbd:`S`
+   *Grab/Move* :kbd:`G`
+   *Extend* :kbd:`E`
+   *Rotate* :kbd:`R`
+   *Scale* :kbd:`S`
 
 *Snap* :kbd:`Shift-S`
-    *Current Frame*
-    *Cursor Value*
-    *Nearest Frame*
-    *Nearest Second*
-    *Nearest Marker*
-    *Flatten Handles*
+   *Current Frame*
+   *Cursor Value*
+   *Nearest Frame*
+   *Nearest Second*
+   *Nearest Marker*
+   *Flatten Handles*
 
 *Mirror* :kbd:`Shift-M`
-    *By Times over Current Frame*
-    *By Values over Current Value*
-    *By Times over Time=0*
-    *By Values over Value=0*
-    *By Times over First Selected Marker*
+   *By Times over Current Frame*
+   *By Values over Current Value*
+   *By Times over Time=0*
+   *By Values over Value=0*
+   *By Times over First Selected Marker*
 
 *Insert Keyframes* :kbd:`I`
 
@@ -436,16 +436,16 @@ ________
 *Delete Keyframes* :kbd:`X` or :kbd:`Delete`
 
 *Handle Type* :kbd:`V`
-    *Free*
-    *Vector*
-    *Aligned*
-    *Automatic*
-    *Auto Clamped*
+   *Free*
+   *Vector*
+   *Aligned*
+   *Automatic*
+   *Auto Clamped*
 
 *Interpolation Mode* :kbd:`T`
-    *Constant*
-    *Linear*
-    *Bezier*
+   *Constant*
+   *Linear*
+   *Bezier*
 
 *Clean Keyframes* :kbd:`O`
 

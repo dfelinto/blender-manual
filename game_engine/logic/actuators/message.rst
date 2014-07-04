@@ -26,13 +26,15 @@ Special Options:
 
 **To**
    Object to broadcast to. Leave blank if broadcast to all (or sending to another scene).
-**Subject**\ :Subject of message. Useful if sending certain types of message, such as "end-game", to a message sensor listening for "end game"→AND→Quit Game actuator
+**Subject**
+   Subject of message. Useful if sending certain types of message, such as "end-game",
+   to a message sensor listening for "end game"→AND→Quit Game actuator
 **Body**
-    Body of message sent (only read by Python*).
+   Body of message sent (only read by Python*).
 **Text**
-       User specified text in body.
+      User specified text in body.
 **Property**
-       User specified property.
+      User specified property.
 
 
 **Usage Notes**

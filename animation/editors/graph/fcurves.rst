@@ -22,12 +22,12 @@ As mentioned, Blender's fundamental unit of time is the "frame",
 which usually lasts just a fraction of a second, depending on the *frame rate* of the scene.
 
 As animation is composed of incremental changes spanning multiple frames,
-usually these properties ARE NOT manually modified *frame by frame*\ , because:
+usually these properties ARE NOT manually modified *frame by frame*, because:
 
 - it would take ages!
 - it would be very difficult to get smooth variations of the property (unless you compute mathematical functions and type a precise value for each frame, which would be crazy).
 
-This is why nearly all direct animation is done using **interpolation**\ .
+This is why nearly all direct animation is done using **interpolation**.
 
 The idea is simple: you define a few Key Frames, which are multiple frames apart.
 Between these keyframes, the properties' values are computed (interpolated)
@@ -43,16 +43,16 @@ by Blender and filled in. Thus, the animators' workload is significantly reduced
 
 For example, if you have:
 
-- a control point of value **0** at frame **0**\ ,
-- another one of value **10** at frame **25**\ ,
+- a control point of value **0** at frame **0**,
+- another one of value **10** at frame **25**,
 - linear interpolation,
 
-then, at frame **5** we get a value of **2**\ .
+then, at frame **5** we get a value of **2**.
 
 
 The same goes for all intermediate frames: with just two points,
-you get a smooth growth from **0** to **10** along the **25 frames**\ .
-Obviously, if you'd like the frame **15** to have a value of **9**\ ,
+you get a smooth growth from **0** to **10** along the **25 frames**.
+Obviously, if you'd like the frame **15** to have a value of **9**,
 you'd have to add another control point (or keyframe)…
 
 
@@ -66,9 +66,12 @@ extension behavior, and the type of handles.
 Interpolation Mode
 ~~~~~~~~~~~~~~~~~~
 
-You have three choices (\ :kbd:`T`\ , or :menuselection:`Curve --> Interpolation Mode`\ ):
+You have three choices (:kbd:`T`, or :menuselection:`Curve --> Interpolation Mode`):
+
 :guilabel:`Constant`
-   There is no interpolation at all. The curve holds the value of its last keyframe, giving a discrete (stairway) "curve". Usually only used during the initial "blocking" stage in pose-to-pose animation workflows.
+   There is no interpolation at all. The curve holds the value of its last keyframe,
+   giving a discrete (stairway) "curve".
+   Usually only used during the initial "blocking" stage in pose-to-pose animation workflows.
 
 
 .. figure:: /images/Doc26-fcurve-constant.jpg
@@ -107,7 +110,7 @@ in which case they are always shown as if constant interpolated, whatever option
 Extrapolation
 ~~~~~~~~~~~~~
 
-(\ :kbd:`Shift-E`\ , or :menuselection:`Channel --> Extrapolation Mode`\ )
+(:kbd:`Shift-E`, or :menuselection:`Channel --> Extrapolation Mode`)
 
 Extrapolation defines the behavior of a curve before the first and after the last keyframes.
 
@@ -202,10 +205,10 @@ You can set the type of handle to use for the curve points :kbd:`V`
 Direction of time
 -----------------
 
-Although F-curves are very similar to :doc:`Bézier curves <modeling/curves#béziers>`\ , there are some important differences.
+Although F-curves are very similar to :doc:`Bézier curves <modeling/curves#béziers>`, there are some important differences.
 
 For obvious reasons,
-**a property represented by a Curve cannot have more than one value at a given time**\ ,
+**a property represented by a Curve cannot have more than one value at a given time**,
 hence:
 
 

@@ -14,12 +14,12 @@ Panels
 
 Panels generally appear in the :guilabel:`Properties Window` (Buttons Window in Version 2.4x),
 which can be found on the right hand side of the default screen layout
-(see *Part of the Properties window*\ ).
+(see *Part of the Properties window*).
 
 Panels are also found on the :guilabel:`Tool shelf` and the :guilabel:`Properties shelf` which
-are toggleable parts of a 3D Window. To display the :guilabel:`Tool shelf`\ ,
-use :menuselection:`View --> Tool` or press :kbd:`T`\ . To display the :guilabel:`Properties shelf`\ ,
-use :menuselection:`View --> Properties` or press :kbd:`N`\ .  See *Shelves in a 3D Window*\ .
+are toggleable parts of a 3D Window. To display the :guilabel:`Tool shelf`,
+use :menuselection:`View --> Tool` or press :kbd:`T`. To display the :guilabel:`Properties shelf`,
+use :menuselection:`View --> Properties` or press :kbd:`N`.  See *Shelves in a 3D Window*.
 
 
 The :guilabel:`Properties Window` includes the header which allows you to choose from several :doc:`Contexts. <interface/contexts>` Each :guilabel:`Context` will have a different number and type of Panels. For example, the :guilabel:`Render Context` will have panels that allow you to alter the dimensions and anti-aliasing of the render output, while the :guilabel:`Materials Context` will have panels that allow you to set color, transparency, texture, etc.

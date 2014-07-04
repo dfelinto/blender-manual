@@ -9,7 +9,7 @@ Create a Flow Object
 
 Once you have defined the volume that will contain smoke,
 we'll add an object from which the smoke will be emitted. Add another cube and make sure it's
-inside the domain cube :kbd:`shift-A`\ :menuselection:`popup --> Mesh --> Cube`\ ;
+inside the domain cube :kbd:`shift-A`:menuselection:`popup --> Mesh --> Cube`;
 3D view must be selected).
 
 While in edit mode go to physics and add smoke to the small cube, too. This time chose Flow.
@@ -59,7 +59,9 @@ Settings
 :guilabel:`Multiplier`
    Multiplier to adjust velocity passed to smoke.
 
+
 **Initial Values**
+
 :guilabel:`Absolute Density`
    Only allow given density value in emitter area.
 :guilabel:`Density`

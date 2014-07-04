@@ -2,7 +2,8 @@
 Transform Control
 =================
 
-Transform controls can be used to modify and control the effects of the available :doc:`transformations. <3d_interaction/transformations>`
+Transform controls can be used to modify and control the effects of the available
+:doc:`transformations. <3d_interaction/transformations>`
 
 The following pages detail the available control options:
 

@@ -45,7 +45,7 @@ If you have reliable friends, this is a way for you to work together.
 Remote Renderfarms
 ------------------
 
-Fourth, you can use a render farm service. These services, like `BURP <http://burp.boinc.dk/>`__\ ,
+Fourth, you can use a render farm service. These services, like `BURP <http://burp.boinc.dk/>`__,
 are run by an organization. You email them your file,
 and then they distribute it out across their PCs for rendering.
 BURP is mentioned because it is free,

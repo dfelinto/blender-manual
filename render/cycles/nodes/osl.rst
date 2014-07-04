@@ -38,17 +38,17 @@ under:
 
 
 +--------+-----------------------------------------------------------------------------------------------+
-+Linux   |``/home/$user/.config/blender/``\ *Version Number*\ ``/shaders/``                              +
++Linux   |``/home/$user/.config/blender/`` *Version Number* ``/shaders/``                                +
 +--------+-----------------------------------------------------------------------------------------------+
-+Windows |``C:\Users\$user\AppData\Roaming\Blender Foundation\Blender\``\ *Version Number*\ ``\shaders\``+
++Windows |``C:\Users\$user\AppData\Roaming\Blender Foundation\Blender\`` *Version Number* ``\shaders\``  +
 +--------+-----------------------------------------------------------------------------------------------+
-+Mac OS X|``/Users/$user/Library/Application Support/Blender/``\ *Version Number*\ ``/shaders/``         +
++Mac OS X|``/Users/$user/Library/Application Support/Blender/`` *Version Number* ``/shaders/``           +
 +--------+-----------------------------------------------------------------------------------------------+
 
 
-(Replace *Version Number* with the release number of your current Blender installation, e.g. *2.65* or *2.66*\ .)
+(Replace *Version Number* with the release number of your current Blender installation, e.g. *2.65* or *2.66*.)
 
-For use in production, we suggest to **use a node group to wrap shader script nodes**\ ,
+For use in production, we suggest to **use a node group to wrap shader script nodes**,
 and link that into other .blend files.
 This makes it easier to make changes to the node afterwards as sockets are added or removed,
 without having to update the script nodes in all files.
@@ -125,7 +125,7 @@ and the material must be built from closures that are implemented in the render 
 This is more limited, but also makes it possible for the render engine to do optimizations and
 ensure all shaders can be importance sampled.
 
-The available closures in Cycles correspond to the shader nodes and their sockets; for more details on what they do and the meaning of the parameters, see the :doc:`shader nodes manual <render/cycles/nodes/shaders>`\ .
+The available closures in Cycles correspond to the shader nodes and their sockets; for more details on what they do and the meaning of the parameters, see the :doc:`shader nodes manual <render/cycles/nodes/shaders>`.
 
 
 BSDF

@@ -6,7 +6,7 @@ Layers
    :class: refbox
 
    | Mode:     :guilabel:`Object` mode
-   | Panel:    :guilabel:`Relations` (\ :guilabel:`Object` context)
+   | Panel:    :guilabel:`Relations` (:guilabel:`Object` context)
    | Menu:     :menuselection:`Object --> Move to Layer...`
    | Hotkey:   :kbd:`M`
 
@@ -17,10 +17,16 @@ and does not want lights for one object to affect nearby objects.
 For this and other reasons below, objects can be placed into one or more "layers".
 Using object layers, you can:
 
-- Selectively display objects from certain layers in your 3D view, by selecting those layers in the :guilabel:`3D View` header bar. This allows you to speed up interface redrawing, reduce virtual-world clutter, and help improve your workflow.
-- Control :doc:`which lights illuminate an object <lighting/lights/what_light_affects>`\ , by making a light illuminate only the objects on its own layer(s).
-- Control which forces affect which :doc:`particle systems <physics/particles>`\ , since particles are only affected by forces and effects on the same layer.
-- Control which layers are rendered (and hence, which objects), and which properties/channels are made available for compositing by using :doc:`render layers <render/post_process/layers>`\ .
+- Selectively display objects from certain layers in your 3D view,
+  by selecting those layers in the :guilabel:`3D View` header bar. This allows you to speed up interface redrawing,
+  reduce virtual-world clutter, and help improve your workflow.
+- Control :doc:`which lights illuminate an object <lighting/lights/what_light_affects>`,
+  by making a light illuminate only the objects on its own layer(s).
+- Control which forces affect which :doc:`particle systems <physics/particles>`,
+  since particles are only affected by forces and effects on the same layer.
+- Control which layers are rendered (and hence, which objects),
+  and which properties/channels are made available for compositing by using
+  :doc:`render layers <render/post_process/layers>`.
 
 Armatures can also become very complex, with different types of bones, controllers, solvers,
 custom shapes, and so on. Since armatures are usually located close together,
@@ -39,18 +45,20 @@ influence on the drawing order and are there (except for the special functions l
 mainly to allow you to organize your scene.
 
 When rendering, Blender only renders the selected layers.
-If all your lights are on a layer that is *not selected*\ ,
+If all your lights are on a layer that is *not selected*,
 you won't see anything in your render except for objects lit by ambient lighting.
 
-:doc:`Groups and Parenting <modeling/objects/groups_and_parenting>` are other ways to logically group related sets of objects. Please refer to the relevant sections for more information.
+:doc:`Groups and Parenting <modeling/objects/groups_and_parenting>`
+are other ways to logically group related sets of objects.
+Please refer to the relevant sections for more information.
 
 
 Viewing layers
 --------------
 
 Blender provides twenty layers whose visibility can be toggled with the small unlabeled
-buttons in the header (see *3D Viewport layer buttons*\ ). To select a single layer,
-click the appropriate button with :kbd:`lmb`\ ; to select more than one,
+buttons in the header (see *3D Viewport layer buttons*). To select a single layer,
+click the appropriate button with :kbd:`lmb`; to select more than one,
 use :kbd:`shift-lmb` - doing this on an already active layer will deselect it.
 
 
@@ -72,7 +80,9 @@ You can select or deselect all Scene Layer buttons at once by pressing the :kbd:
 Locking to the scene
 --------------------
 
-By default, the lock button directly to the right of the layer buttons is enabled. This means that changes to the viewed layers affect all other 3D Views locked to the scene - see the :doc:`navigating the 3D view options page <3d_interaction/navigating>` for more information.
+By default, the lock button directly to the right of the layer buttons is enabled.
+This means that changes to the viewed layers affect all other 3D Views locked to the scene - see the :doc:`navigating
+the 3D view options page <3d_interaction/navigating>` for more information.
 
 
 Multiple Layers
@@ -114,7 +124,7 @@ in the :guilabel:`Object` context.
 
 
 You will then see the layer buttons in the :guilabel:`Relations` panel - as before the object
-can be displayed on more than one layer by clicking :kbd:`shift-lmb`\ .
+can be displayed on more than one layer by clicking :kbd:`shift-lmb`.
 
 
 Example of object layer arrangement
@@ -144,5 +154,3 @@ you might have the following objects on your layers:
 - Other big props that might clog up the scene.
 - Props WIP.
 - Additional lighting.
-
-

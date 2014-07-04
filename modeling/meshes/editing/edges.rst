@@ -12,7 +12,7 @@ Make Edge/Face
    | Hotkey:   :kbd:`F`
 
 
-It will create an edge or some faces, depending on your selection. We have already discussed this tool in the :doc:`editing basics page <modeling/meshes/editing/basics#edge_and_face_creation>`\ .
+It will create an edge or some faces, depending on your selection. We have already discussed this tool in the :doc:`editing basics page <modeling/meshes/editing/basics#edge_and_face_creation>`.
 
 
 Set Edge Attributes
@@ -28,7 +28,7 @@ Mark Seam and Clear Seam
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     :guilabel:`Edit` mode (\ :guilabel:`Vertex` or :guilabel:`Edge` select modes)
+   | Mode:     :guilabel:`Edit` mode (:guilabel:`Vertex` or :guilabel:`Edge` select modes)
    | Menu:     :menuselection:`Mesh --> Edges --> Mark Seam/Clear Seam` (or the same options in :guilabel:`Edge Specials` menu)
    | Hotkey:   :kbd:`ctrl-E-pad1` and :kbd:`ctrl-E-pad2`
 
@@ -42,12 +42,12 @@ Mark Sharp and Clear Sharp
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     :guilabel:`Edit` mode (\ :guilabel:`Vertex` or :guilabel:`Edge` select modes)
+   | Mode:     :guilabel:`Edit` mode (:guilabel:`Vertex` or :guilabel:`Edge` select modes)
    | Menu:     :menuselection:`Mesh --> Edges --> Mark Seam/Clear Seam` (or the same options in :guilabel:`Edge Specials` menu)
    | Hotkey:   :kbd:`ctrl-E-pad1` and :kbd:`ctrl-E-pad2`
 
 
-The :guilabel:`Sharp` flag is used by the :doc:`EdgeSplit modifier <modifiers/generate/edge_split>`\ , which is part of the smoothing technics. As seams, it is a property of edges, and these commands set or unset it for selected ones.
+The :guilabel:`Sharp` flag is used by the :doc:`EdgeSplit modifier <modifiers/generate/edge_split>`, which is part of the smoothing technics. As seams, it is a property of edges, and these commands set or unset it for selected ones.
 
 
 Adjust Bevel Weight
@@ -56,12 +56,12 @@ Adjust Bevel Weight
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     :guilabel:`Edit` mode (\ :guilabel:`Vertex` or :guilabel:`Edge` select modes)
+   | Mode:     :guilabel:`Edit` mode (:guilabel:`Vertex` or :guilabel:`Edge` select modes)
    | Menu:     :menuselection:`Mesh --> Edges --> Adjust Bevel Weight`
    | Hotkey:   :kbd:`ctrl-shift-E`
 
 
-This edge property (a value between **0.0** and **1.0**\ ) is used by the :doc:`Bevel modifier <modifiers/generate/bevel>` to control the bevel intensity of the edges. This command enters an interactive mode (a bit like transform tools), where by moving the mouse (or typing a value with the keyboard) you can set the (average) bevel weight of selected edges.
+This edge property (a value between **0.0** and **1.0**) is used by the :doc:`Bevel modifier <modifiers/generate/bevel>` to control the bevel intensity of the edges. This command enters an interactive mode (a bit like transform tools), where by moving the mouse (or typing a value with the keyboard) you can set the (average) bevel weight of selected edges.
 
 
 Crease SubSurf
@@ -70,12 +70,12 @@ Crease SubSurf
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     :guilabel:`Edit` mode (\ :guilabel:`Vertex` or :guilabel:`Edge` select modes)
+   | Mode:     :guilabel:`Edit` mode (:guilabel:`Vertex` or :guilabel:`Edge` select modes)
    | Menu:     :menuselection:`Mesh --> Edges --> Crease SubSurf`
    | Hotkey:   :kbd:`shift-E`
 
 
-This edge property (a value between **0.0** and **1.0**\ ) is used by the :doc:`Subsurf modifier <modifiers/generate/subsurf>` to control the sharpness of the edges in the subdivided mesh. This command enters an interactive mode (a bit like transform tools), where by moving the mouse (or typing a value with the keyboard) you can set the (average) crease value of selected edges. To clear the crease edge property, enter a value of **-1**\ .
+This edge property (a value between **0.0** and **1.0**) is used by the :doc:`Subsurf modifier <modifiers/generate/subsurf>` to control the sharpness of the edges in the subdivided mesh. This command enters an interactive mode (a bit like transform tools), where by moving the mouse (or typing a value with the keyboard) you can set the (average) crease value of selected edges. To clear the crease edge property, enter a value of **-1**.
 
 
 Edge Slide
@@ -84,7 +84,7 @@ Edge Slide
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     :guilabel:`Edit` mode (\ :guilabel:`Vertex` or :guilabel:`Edge` select modes)
+   | Mode:     :guilabel:`Edit` mode (:guilabel:`Vertex` or :guilabel:`Edge` select modes)
    | Menu:     :menuselection:`Mesh --> Edges --> Slide Edge` (or the same option in :guilabel:`Edge Specials` menu)
    | Hotkey:   :menuselection:`[ctrl][E] --> [pad6]`
 
@@ -92,8 +92,8 @@ Edge Slide
 Slides one or more edges across adjacent faces with a few restrictions involving the selection
 of edges (i.e. the selection must make sense, see below.)
 
-:guilabel:`Even`\ :kbd:`E`
-   Forces the edge loop to match the shape of the adjacent edge loop. You can flip to the opposite vertex using :kbd:`F`\ . Use :kbd:`Alt-wheel` to change the control edge.
+:guilabel:`Even`:kbd:`E`
+   Forces the edge loop to match the shape of the adjacent edge loop. You can flip to the opposite vertex using :kbd:`F`. Use :kbd:`Alt-wheel` to change the control edge.
 :guilabel:`Flip` :kbd:`F`
    When Even mode is active, this flips between the two adjacent edge loops the active edge loop will match
 
@@ -104,7 +104,7 @@ which is displayed in the 3D View footer and in the :guilabel:`Tool Shelf`
 (after confirmation).
 A numerical value between ``-1`` and ``1`` can be entered for precision.
 
-In *Proportional* mode, :kbd:`wheel`\ ,
+In *Proportional* mode, :kbd:`wheel`,
 or :kbd:`←` and :kbd:`→` changes the selected edge for calculating a proportion.
 Unlike *Percentage* mode, *Proportional*
 
@@ -172,8 +172,9 @@ Limitations & Workarounds
 
 There are restrictions on the type of edge selections that can be operated upon.
 Invalid selections are:
+
 Loop crosses itself
-   This means that the tool could not find any suitable faces that were adjacent to the selected edge(s). (\ *Loop crosses*\ ) is an example that shows this by selecting two edges that share the same face. A face cannot be adjacent to itself.
+   This means that the tool could not find any suitable faces that were adjacent to the selected edge(s). (*Loop crosses*) is an example that shows this by selecting two edges that share the same face. A face cannot be adjacent to itself.
 
 Multiple edge loops
    The selected edges are not in the same edge loop, which means they don't have a common edge. You can minimize this error by always selecting edges end to end or in a "Chain". If you select multiple edges just make sure they are connected. This will decrease the possibility of getting looping errors.
@@ -193,7 +194,7 @@ Rotate Edge
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     :guilabel:`Edit` mode (\ :guilabel:`Vertex` or :guilabel:`Edge` select modes)
+   | Mode:     :guilabel:`Edit` mode (:guilabel:`Vertex` or :guilabel:`Edge` select modes)
    | Menu:     :menuselection:`Mesh --> Edges --> Rotate Edge CW / Rotate Edge CCW`
    | Hotkey:   :menuselection:`[ctrl][E] --> Rotate Edge CW`   and :menuselection:`[ctrl][E] --> Rotate Edge CCW`
 
@@ -221,11 +222,11 @@ or on two selected vertices or two selected faces that implicitly share an edge 
 Using Face Selection
 --------------------
 
-To rotate an edge based on faces you must select two faces, (\ *Adjacent selected faces*\ ),
+To rotate an edge based on faces you must select two faces, (*Adjacent selected faces*),
 otherwise Blender notifies you with an error message, "\ ``ERROR:
-Could not find any select edges that can be rotated``\ ". Using either :guilabel:`Rotate
+Could not find any select edges that can be rotated`` ". Using either :guilabel:`Rotate
 Edge CW` or :guilabel:`Rotate Edge CCW` will produce exactly the same results as if you had
-selected the common edge shown in (\ *Selected edge rotated CW and CCW.*\ ).
+selected the common edge shown in (*Selected edge rotated CW and CCW.*).
 
 
 Delete Edge Loop
@@ -234,7 +235,7 @@ Delete Edge Loop
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     :guilabel:`Edit` mode (\ :guilabel:`Vertex` or :guilabel:`Edge` select modes)
+   | Mode:     :guilabel:`Edit` mode (:guilabel:`Vertex` or :guilabel:`Edge` select modes)
    | Menu:     :menuselection:`Mesh --> Delete --> Edge Loop`
    | Hotkey:   :menuselection:`[X]/[Del] --> [g]`
 
@@ -253,7 +254,7 @@ Example
 
 The selected edge loop on the UV Sphere has been deleted and the faces have been merged with
 the surrounding edges. If the edges had been deleted by choosing :guilabel:`Edges` from the
-(\ :guilabel:`Erase` *Menu*\ )
+(:guilabel:`Erase` *Menu*)
 there would be an empty band of deleted faces all the way around the sphere instead.
 
 
@@ -312,7 +313,7 @@ Edge Split
    | Hotkey:   :menuselection:`[Ctrl][E] --> Edge Split`
 
 
-:guilabel:`Edge split` is similar to the rip tool. When two or more touching interior edges, or a border edge is selected when using :guilabel:`Edge split`\ , a hole will be created, and the selected edges are duplicated to form the border of the hole
+:guilabel:`Edge split` is similar to the rip tool. When two or more touching interior edges, or a border edge is selected when using :guilabel:`Edge split`, a hole will be created, and the selected edges are duplicated to form the border of the hole
 
 
 .. figure:: /images/EdgeSplit1.jpg

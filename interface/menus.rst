@@ -13,19 +13,19 @@ Additionally, a menu with access to all :guilabel:`Blender` commands is availabl
 :kbd:`Space` (shown in the picture). Simply start typing the name of the command you
 need and let the search function of the menu do the rest.
 When the list is sufficiently narrowed, :kbd:`LMB` on the desired command or highlight
-it with :kbd:`down` and :kbd:`up` and select with :kbd:`Return`\ .
+it with :kbd:`down` and :kbd:`up` and select with :kbd:`Return`.
 
 If you miss the old tool box menu from version 2.4x,
 you can add something similar with the :guilabel:`3D View: Dynamic Spacebar Menu` Add-On which
-can be installed from the :guilabel:`Add-Ons` tab of the :guilabel:`Preferences window`\ .
+can be installed from the :guilabel:`Add-Ons` tab of the :guilabel:`Preferences window`.
 
 :doc:`Read more about installing Add-Ons » <preferences/addons>`
 
 Some menus are context sensitive in that they are only available under certain situations.
-For example, the :guilabel:`specials menu` (\ :kbd:`W` hotkey)
+For example, the :guilabel:`specials menu` (:kbd:`W` hotkey)
 is only available in a 3D window while :guilabel:`Edit Mode` is active.
 
-While you are using :guilabel:`Blender`\ ,
+While you are using :guilabel:`Blender`,
 be aware of what mode is activated and what type of object is selected.
 This helps in knowing what hotkeys work at what times.
 

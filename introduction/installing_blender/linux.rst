@@ -30,8 +30,8 @@ print the machine hardware name.
 
 - Enter the command ``uname -m``
 
-If you have a 32-bit system, ``uname -m`` will return a value of ``i686``\ .
-A 64-bit system will return a value of ``x86_64``\ .
+If you have a 32-bit system, ``uname -m`` will return a value of ``i686``.
+A 64-bit system will return a value of ``x86_64``.
 
 
 Distribution releases
@@ -54,10 +54,10 @@ manager. If it doesn't, download the appropriate version of Blender for Linux fr
 `Blender download page <http://www.blender.org/download/get-blender/>`__
 and unpack the archive to a location of your choice.
 
-This will create a directory named ``blender-VERSION-linux-glibcVERSION-ARCH``\ ,
+This will create a directory named ``blender-VERSION-linux-glibcVERSION-ARCH``,
 where ``VERSION`` is the Blender release version, ``glibcVERSION`` is the
 version of glibc required and ``ARCH`` is your computer architecture
-(\ ``i686`` or ``x86_64``\ ).
+(``i686`` or ``x86_64``).
 In this directory you will find the ``blender`` binary.
 
 To run Blender,

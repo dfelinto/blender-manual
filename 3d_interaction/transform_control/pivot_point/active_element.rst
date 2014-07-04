@@ -14,7 +14,7 @@ Active Element as Pivot
 
 The *active* element can be an Object, vertex, edge or a face. The active element is the
 last one to be selected and will be shown in a lighter orange color when in :guilabel:`Object
-mode` and white when in :guilabel:`Edit mode`\ .
+mode` and white when in :guilabel:`Edit mode`.
 With :guilabel:`Active element as Pivot` set to active,
 all transformations will occur relative to the active element.
 
@@ -31,7 +31,7 @@ all transformations will occur relative to the active element.
 In Object mode
 --------------
 
-When in :guilabel:`Object mode`\ ,
+When in :guilabel:`Object mode`,
 rotation and scaling happen around the active Object's center.
 This is shown by the figure to the below where the active Object (the cube)
 remains in the same location (note its position relative to the 3D cursor)

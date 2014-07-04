@@ -2,12 +2,12 @@
 Selectable Elements
 ===================
 
-As we have seen in the :doc:`mesh structure page <modeling/meshes/mesh_structures>`\ , meshes are made of different element types (even though they are all inter-related: in a way, they are different "views", "representations", of the same basic data…), "vertices", "edges" and "faces".
+As we have seen in the :doc:`mesh structure page <modeling/meshes/mesh_structures>`, meshes are made of different element types (even though they are all inter-related: in a way, they are different "views", "representations", of the same basic data…), "vertices", "edges" and "faces".
 
 Hence, you can select different parts of a mesh using one of these three types.
 There is one key point to understand here: *when you select a type of element (e.g.
 some edges), you* **implicitly** *select the other types of corresponding elements (e.g.
-all vertices defining those edges, as well as faces fully defined by these same edges)*\ .
+all vertices defining those edges, as well as faces fully defined by these same edges)*.
 This is very important, as some tools only work on vertices, edges and/or faces:
 if you use a "face" tool with a selection of vertices,
 only the faces defined by these vertices will be affected.
@@ -35,7 +35,7 @@ Select Mode popup
 
 
 In :guilabel:`Edit` mode there are three different select modes for meshes; see
-(\ :guilabel:`Select Mode` *menu*\ ).
+(:guilabel:`Select Mode` *menu*).
 
 
 .. figure:: /images/Manual-Part-II-EditModeMenu_2.5.jpg
@@ -44,14 +44,14 @@ In :guilabel:`Edit` mode there are three different select modes for meshes; see
 
 
 :menuselection:`Select Mode --> Vertices`
-   Press :kbd:`ctrl-tab` and select :guilabel:`Vertices` from the popup menu, or press :kbd:`ctrl-tab`\ :kbd:`pad1`\ . The selected vertices are drawn in yellow and unselected vertices are drawn in a pink colour.
+   Press :kbd:`ctrl-tab` and select :guilabel:`Vertices` from the popup menu, or press :kbd:`ctrl-tab`:kbd:`pad1`. The selected vertices are drawn in yellow and unselected vertices are drawn in a pink colour.
 :menuselection:`Select Mode --> Edges`
-   Press :kbd:`ctrl-tab` and select :guilabel:`Edges` from the popup menu, or press :kbd:`ctrl-tab`\ :kbd:`pad2`\ . In this mode the vertices are not drawn. Instead the selected edges are drawn in yellow and unselected edges are drawn in a black colour.
+   Press :kbd:`ctrl-tab` and select :guilabel:`Edges` from the popup menu, or press :kbd:`ctrl-tab`:kbd:`pad2`. In this mode the vertices are not drawn. Instead the selected edges are drawn in yellow and unselected edges are drawn in a black colour.
 :menuselection:`Select Mode --> Faces`
-   Press :kbd:`ctrl-tab` and select :guilabel:`Faces` from the popup menu, or press :kbd:`ctrl-tab`\ :kbd:`pad3`\ . In this mode the faces are drawn with a selection point in the middle which is used for selecting a face. Selected faces are drawn in yellow with the selection point in orange, unselected faces are drawn in black.
+   Press :kbd:`ctrl-tab` and select :guilabel:`Faces` from the popup menu, or press :kbd:`ctrl-tab`:kbd:`pad3`. In this mode the faces are drawn with a selection point in the middle which is used for selecting a face. Selected faces are drawn in yellow with the selection point in orange, unselected faces are drawn in black.
 
-Almost all modification tools are available in all three modes. So you can :guilabel:`Rotate`\ ,
-:guilabel:`Scale`\ , :guilabel:`Extrude`\ , etc. in all modes.
+Almost all modification tools are available in all three modes. So you can :guilabel:`Rotate`,
+:guilabel:`Scale`, :guilabel:`Extrude`, etc. in all modes.
 Of course rotating and scaling a *single* vertex will not do anything useful,
 so some tools are more or less applicable in some modes.
 
@@ -72,9 +72,9 @@ Select Mode header widgets
 
 
 You can also enter the different modes by selecting one of the three buttons in the toolbar;
-see (\ :guilabel:`Edit` *mode select buttons*\ ).
+see (:guilabel:`Edit` *mode select buttons*).
 
-Using the buttons you can also enter "\ **mixed**\ " or "combined" mode by
+Using the buttons you can also enter "\ **mixed** " or "combined" mode by
 :kbd:`shift-lmb` clicking the buttons. This will allow you to select vertices,
 edges and/or faces at the same time!
 
@@ -89,7 +89,7 @@ Selected elements after switching select mode
 ---------------------------------------------
 
 When switching modes in an "ascendant" way (i.e. from simpler to more complex), from
-:guilabel:`Vertices` to :guilabel:`Edges` and from :guilabel:`Edges` to :guilabel:`Faces`\ ,
+:guilabel:`Vertices` to :guilabel:`Edges` and from :guilabel:`Edges` to :guilabel:`Faces`,
 the selected parts will still be selected if they form a complete set in the new mode.
 For example, if all four edges in a face are selected,
 switching from :guilabel:`Edges` mode to :guilabel:`Faces` mode will keep the face selected.
@@ -99,8 +99,8 @@ Hence, switching in a "descendant" way (i.e. from more complex to simpler),
 all elements defining the "high-level" element (like a face) will be selected
 (the four vertices or edges of a quadrangle, for example).
 
-See (\ :guilabel:`Vertices` *mode example*\ ), (\ :guilabel:`Edges` *mode example*\ ),
-(\ :guilabel:`Faces` *mode example*\ ) and (\ *Mixed mode example*\ )
+See (:guilabel:`Vertices` *mode example*), (:guilabel:`Edges` *mode example*),
+(:guilabel:`Faces` *mode example*) and (*Mixed mode example*)
 for examples of the different modes.
 
 

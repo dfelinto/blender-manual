@@ -21,12 +21,14 @@ Options
 
 :guilabel:`Target`
    This constraint uses one target, and is not functional (red state) when it has none.
+
    :guilabel:`Bone`
-      If :guilabel:`Target` is an :guilabel:`Armature`\ , a new field is displayed offering the optional choice to set an individual bone as :guilabel:`Target`\ .
+      If :guilabel:`Target` is an :guilabel:`Armature`, a new field is displayed offering the optional choice to set an individual bone as :guilabel:`Target`.
+
       :guilabel:`Head/Tail`
-         If a :guilabel:`Bone` is set as :guilabel:`Target`\ , a new field is displayed offering the optional choice of where along this bone the target point lies.
+         If a :guilabel:`Bone` is set as :guilabel:`Target`, a new field is displayed offering the optional choice of where along this bone the target point lies.
    :guilabel:`Vertex Group`
-      If :guilabel:`Target` is a :guilabel:`Mesh`\ , a new field is displayed offering the optional choice to set a :guilabel:`Vertex Group` as target.
+      If :guilabel:`Target` is a :guilabel:`Mesh`, a new field is displayed offering the optional choice to set a :guilabel:`Vertex Group` as target.
 :guilabel:`Space`
    This constraint allows you to choose in which space to evaluate its owner's and target's transform properties.
 

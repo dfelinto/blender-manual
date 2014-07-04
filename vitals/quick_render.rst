@@ -11,7 +11,7 @@ Rendering is the process of creating a 2D image.
 Blender creates this image by taking into account your model and all of your materials,
 textures, lighting and compositing.
 
-- There are two main types of rendering engines built inside Blender, one for *Full render*\ , and other for *OpenGL render*\ . This page shows you basic information about rendering Images. For a deeper understanding about the *Full Render* Engine built inside Blender, called :guilabel:`Blender Internal`\ , consult the section about :doc:`Rendering with Blender Internal <render>`\ .
+- There are two main types of rendering engines built inside Blender, one for *Full render*, and other for *OpenGL render*. This page shows you basic information about rendering Images. For a deeper understanding about the *Full Render* Engine built inside Blender, called :guilabel:`Blender Internal`, consult the section about :doc:`Rendering with Blender Internal <render>`.
 - There is also a section in this wiki manual dedicated to the new :doc:`Cycles <render/cycles>` Render Engine, built into Blender since Version 2.61.
 
 
@@ -35,10 +35,10 @@ options:
 
 - Press :kbd:`f12`
 - Go to :menuselection:`Properties Window --> Render context --> Render panel` and press the :guilabel:`Image` button
-- Go to :menuselection:`Render --> Render Image` from the header of the :guilabel:`Info Window` (see: *Header of the Info Window*\ )
-- Using Blender Search: press :kbd:`space`\ , type Render and click on :guilabel:`Render`\ .
+- Go to :menuselection:`Render --> Render Image` from the header of the :guilabel:`Info Window` (see: *Header of the Info Window*)
+- Using Blender Search: press :kbd:`space`, type Render and click on :guilabel:`Render`.
 
-To abort or quit the render, press :kbd:`Esc`\ .
+To abort or quit the render, press :kbd:`Esc`.
 
 
 Rendering an image using ''OpenGL Render''
@@ -62,11 +62,11 @@ To start an *OpenGL render* you can use any of the following options:
    Search functionality
 
 
-- Click on *OpenGL Render Active Viewport*\ , in the header of the 3D Window, using the small button showing a *Camera* (together with a small image showing a *slate*\ ) in the header of the 3D View
+- Click on *OpenGL Render Active Viewport*, in the header of the 3D Window, using the small button showing a *Camera* (together with a small image showing a *slate*) in the header of the 3D View
 - Go to :menuselection:`Render --> OpenGL Render Image` from the header of the :guilabel:`Info Window` (see: *Header of the Info Window* Image)
-- Using Blender Search: press :kbd:`space`\ , type *Render* and click on :guilabel:`OpenGL Render`\ .
+- Using Blender Search: press :kbd:`space`, type *Render* and click on :guilabel:`OpenGL Render`.
 
-To abort or quit the render, press :kbd:`Esc`\ .
+To abort or quit the render, press :kbd:`Esc`.
 
 
 Adjusting the resolution
@@ -79,7 +79,7 @@ Adjusting the resolution
 
 The :guilabel:`Dimensions panel` of the :guilabel:`Render context` allows you to change the
 resolution.
-The default installation of Blender is set initially  to **50%** of **1920 x 1080**\ ,
+The default installation of Blender is set initially  to **50%** of **1920 x 1080**,
 resulting in a **960** x **540** Image. (Highlighted in yellow,
 in Dimensions Panel Image.)
 Higher resolutions and high percentage scales will show more detail,
@@ -94,7 +94,7 @@ Output format and output file
    Output panel
 
 
-You can also choose an output format and the output location for your rendered image or animation. By default they are saved in a temporary folder (/tmp), using an absolute path. You can set up your file paths using instructions in the :doc:`File setup chapter <preferences/file>`\ ; however you can change this to a different folder by clicking the folder icon in the :guilabel:`Output panel`\ . You can also choose the type of image or movie format for your work from the Menu Button.
+You can also choose an output format and the output location for your rendered image or animation. By default they are saved in a temporary folder (/tmp), using an absolute path. You can set up your file paths using instructions in the :doc:`File setup chapter <preferences/file>`; however you can change this to a different folder by clicking the folder icon in the :guilabel:`Output panel`. You can also choose the type of image or movie format for your work from the Menu Button.
 
 
 Saving your image
@@ -129,13 +129,13 @@ Rendering an animation using ''Full Render'' - Blender Internal
 Rendering an animation is simple; the :guilabel:`Frame Range` (Highlighted in red,
 in Dimensions Panel Image)
 in the Output Panel is used to define the **number of frames** your animation will render.
-The **time** is defined by the *Frames Per Second*\ , defined in the :guilabel:`Frame Rate`
+The **time** is defined by the *Frames Per Second*, defined in the :guilabel:`Frame Rate`
 (Highlighted in blue, in Dimensions Panel Image) drop-down list.
 The default is set to **24 FPS** and **250** frames.
 
 A quick example to understand those numbers:
 
-- The Panel shows that the animation will start at frame **1** and end at frame **250**\ , and the FPS setting is set to **24**\ , so, the standard Blender installation will give you approximately **10** (ten) seconds of animation (250 / 24 = 10.41 sec).
+- The Panel shows that the animation will start at frame **1** and end at frame **250**, and the FPS setting is set to **24**, so, the standard Blender installation will give you approximately **10** (ten) seconds of animation (250 / 24 = 10.41 sec).
 
 To render an animation using *Full Render* with the :guilabel:`Blender Internal` Engine,
 you can use any of the following options:
@@ -144,7 +144,7 @@ you can use any of the following options:
 - Go to :menuselection:`Properties Window --> Render context --> Render panel` and press the :guilabel:`Animation` button or
 - Go to :menuselection:`Render --> Render animation` from the header of the :guilabel:`Info Window`  (see: *Header of the Info Window* Image)
 
-To abort or quit rendering the animation, press :kbd:`Esc`\ .
+To abort or quit rendering the animation, press :kbd:`Esc`.
 
 
 Rendering an animation using ''OpenGL Render''
@@ -157,16 +157,16 @@ Rendering an animation using ''OpenGL Render''
    | Hotkey:   Undefined -You can add one for your :doc:`Keymap » <preferences/input>`
 
 
-To Render an animation using *OpenGL Render*\ , you can use any of the following options:
+To Render an animation using *OpenGL Render*, you can use any of the following options:
 
 
 .. figure:: /images/Manual-Vitals-Starting-Small-OpenGL-Render-buttons.jpg
 
 
-- Click on the small button showing a *slate* (together with a small image showing a *camera*\ ) in the header of the 3D View
+- Click on the small button showing a *slate* (together with a small image showing a *camera*) in the header of the 3D View
 - Go to :menuselection:`Render --> OpenGL Render animation` from the header of the :guilabel:`Info Window`  (see: *Header of the Info Window* Image)
 
-To abort or quit rendering the animation, press :kbd:`Esc`\ .
+To abort or quit rendering the animation, press :kbd:`Esc`.
 
 
 Showing Only Rendered Objects
@@ -237,5 +237,5 @@ And then here is the *Full Render* using Blender Internal render engine:
 
 You can use OpenGL to render both images and animations,
 and change dimensions using the same instructions explained above. As with a normal render,
-you can abort it with :kbd:`Esc`\ .
+you can abort it with :kbd:`Esc`.
 

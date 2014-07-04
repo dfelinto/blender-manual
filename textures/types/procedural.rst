@@ -51,7 +51,7 @@ Each noise-based Blender texture (with the exception of Voronoi and simple noise
 :guilabel:`Noise Basis` setting that allows the user to select which algorithm is used to
 generate the texture. This list includes the original Blender noise algorithm.
 The :guilabel:`Noise Basis` settings makes the procedural textures extremely flexible
-(especially :guilabel:`Musgrave`\ ).
+(especially :guilabel:`Musgrave`).
 
 The :guilabel:`Noise Basis` governs the structural appearance of the texture :
 
@@ -82,8 +82,8 @@ The :guilabel:`Noise Basis` governs the structural appearance of the texture :
 +   Voronoi F4                                                                                                                                 +
 +-------------------------------------------------+-------------------------------------------+------------------------------------------------+
 
-There are two more possible settings for :guilabel:`Noise Basis`\ ,
-which are relatively similar to :guilabel:`Blender Original`\ :
+There are two more possible settings for :guilabel:`Noise Basis`,
+which are relatively similar to :guilabel:`Blender Original`:
 Improved Perlin and Original Perlin
 
 
@@ -91,7 +91,7 @@ Nabla
 ~~~~~
 
 Almost all procedural textures in Blender use derivatives for calculating normals for texture
-mapping (with as exception :guilabel:`Blend` and :guilabel:`Magic`\ ).
+mapping (with as exception :guilabel:`Blend` and :guilabel:`Magic`).
 This is important for Normal and Displacment Maps.
 The strength of the effect is controlled with the :guilabel:`Nabla` Number Button.
 

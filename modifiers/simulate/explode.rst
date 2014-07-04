@@ -64,7 +64,7 @@ Options
 
 
 :guilabel:`Vertex group`
-    If a mesh that has an Explode Modifier on it also has vertex groups assigned to it then this field will allow the selection of one of those vertex groups.  This will indicate to the Explode Modifier that it should take into account the weight values assigned to areas of the selected vertex group.
+   If a mesh that has an Explode Modifier on it also has vertex groups assigned to it then this field will allow the selection of one of those vertex groups.  This will indicate to the Explode Modifier that it should take into account the weight values assigned to areas of the selected vertex group.
 :guilabel:`Protect`
    Clean vertex group edges. Depending on the weights assigned to that vertex group; either completely protect those faces from being affected by the Explode Modifier (which would happen if the faces had a weight value of 1) or completely remove protection from those faces (which would happen if the faces had a weight value 0).
 

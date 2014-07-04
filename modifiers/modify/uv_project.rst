@@ -6,7 +6,7 @@ UV Project Modifier
    :class: refbox
 
    | Mode:     Any mode
-   | Panel:    :guilabel:`Modifiers` (\ :guilabel:`Generate`\ )
+   | Panel:    :guilabel:`Modifiers` (:guilabel:`Generate`)
 
 
 .. figure:: /images/Uvproject.jpg
@@ -30,10 +30,10 @@ Options
 
 
 :guilabel:`UV layer`
-    Which UV layer to modify. Defaults to the active rendering layer.
+   Which UV layer to modify. Defaults to the active rendering layer.
 
 :guilabel:`Image`
-    The image associated with this modifier. Not required; you can just project a UV for use elsewhere. *Override Image*\ , below, defines how the image is used.
+   The image associated with this modifier. Not required; you can just project a UV for use elsewhere. *Override Image*, below, defines how the image is used.
 
 Override Image
 
@@ -41,15 +41,15 @@ Override Image
    - When false, the modifier is limited to faces with the Image as their Face Texture.
 
 :guilabel:`Projectors`
-    Up to ten projector objects are supported. Each face will choose the closest and aligned projector with its surface normal.
-    Projections emit from the -Z axis (i.e. straight down a camera or lamp).
-    If the projector is a camera, the projection will adhere to its perspective/orthographic setting.
+   Up to ten projector objects are supported. Each face will choose the closest and aligned projector with its surface normal.
+   Projections emit from the -Z axis (i.e. straight down a camera or lamp).
+   If the projector is a camera, the projection will adhere to its perspective/orthographic setting.
 
 :guilabel:`Objects`
-    Specify the projector Object
+   Specify the projector Object
 
 :guilabel:`Aspect X/Y and Scale X/Y`
-    These allow simple manipulation of the image. Only apply when a camera is used as projector Object.
+   These allow simple manipulation of the image. Only apply when a camera is used as projector Object.
 
 
 Usage
@@ -64,7 +64,7 @@ and also for creating decals to break up repetition.
 The modifier's Image property is not generally used: instead,
 a Texture mapped to the UV layer that the modifier targets is added to the object's Material.
 This allows you to prevent the image from repeating by setting *Texture → Image Mapping →
-Extension* to *Clip*\ .
+Extension* to *Clip*.
 
 
 Perspective Cameras

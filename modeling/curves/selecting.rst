@@ -10,14 +10,14 @@ because you have only one selectable element type, the control points
 (no select mode needed here…). These points are a bit more complex than simple vertices,
 however, especially for Béziers, as there is the central vertex, and its two handles…
 
-The basic tools are the same as with :doc:`meshes <modeling/meshes/selecting/basics>`\ , so you can select a simple control point with a :kbd:`lmb`\ -click, add to current selection with :kbd:`shift-lmb`\ -clicks, :kbd:`B`\ order-select, and so on.
+The basic tools are the same as with :doc:`meshes <modeling/meshes/selecting/basics>`, so you can select a simple control point with a :kbd:`lmb` -click, add to current selection with :kbd:`shift-lmb` -clicks, :kbd:`B` order-select, and so on.
 
 One word about the Bézier control points: when you select the main central vertex,
 the two handles are automatically selected too, so you can grab it as a whole,
 without creating an angle in the curve. However, when you select a handle,
 only this vertex is selected, allowing you to modify this control vector…
 
-:kbd:`L` (or :kbd:`ctrl-L`\ ) will add to the selection the cursor's nearest control point, and all the linked ones, i.e. all points belonging to the same curve. Note that for Bézier, using :kbd:`L` with a handle selected will select the whole control point and all the linked ones.
+:kbd:`L` (or :kbd:`ctrl-L`) will add to the selection the cursor's nearest control point, and all the linked ones, i.e. all points belonging to the same curve. Note that for Bézier, using :kbd:`L` with a handle selected will select the whole control point and all the linked ones.
 
 
 Select Menu
@@ -29,8 +29,11 @@ the 3D views header. Let's detail them.
 :guilabel:`Random...`
 :guilabel:`Inverse`
 :guilabel:`Select/Deselect All`
+
 :guilabel:`Border Select`
-   All these options have the same meaning and behavior as in :doc:`Object mode <modeling/objects/selecting>` (and the specifics of :guilabel:`Border Select` in :guilabel:`Edit` mode have already been discussed :doc:`here <modeling/meshes/selecting>`\ ).
+   All these options have the same meaning and behavior as in :doc:`Object mode <modeling/objects/selecting>`
+   (and the specifics of :guilabel:`Border Select` in :guilabel:`Edit` mode have already been discussed
+   :doc:`here <modeling/meshes/selecting>`).
 
 
 Every Nth
@@ -57,7 +60,7 @@ Select/Deselect First/Last
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
-   | Menu:     :menuselection:`Select --> Select/Deselect First`\ , :menuselection:`Select --> Select/Deselect Last`
+   | Menu:     :menuselection:`Select --> Select/Deselect First`, :menuselection:`Select --> Select/Deselect Last`
    | Hotkey:   None
 
 
@@ -73,7 +76,7 @@ Select Next/Previous
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
-   | Menu:     :menuselection:`Select --> Select Next`\ , :menuselection:`Select --> Select Previous`
+   | Menu:     :menuselection:`Select --> Select Next`, :menuselection:`Select --> Select Previous`
    | Hotkey:   None
 
 
@@ -90,17 +93,17 @@ More and Less
 
    | Mode:     :guilabel:`Edit` mode
    | Menu:     :menuselection:`Select --> More/Less`
-   | Hotkey:   :kbd:`ctrl-pad+`\ /\ :kbd:`ctrl-pad-`
+   | Hotkey:   :kbd:`ctrl-pad+` / :kbd:`ctrl-pad-`
 
 
-These two options are complementary and similar to :doc:`those for meshes <modeling/meshes/selecting/advanced#less_and_more>`\ . Their purpose, based on the currently selected control points, is to reduce or enlarge this selection.
+These two options are complementary and similar to :doc:`those for meshes <modeling/meshes/selecting/advanced#less_and_more>`. Their purpose, based on the currently selected control points, is to reduce or enlarge this selection.
 
 The algorithm is the same as with meshes, but results are more easy to understand:
 
-- :guilabel:`More`\ : for each selected control point, select **all** its linked points (i.e. one or two…).
-- :guilabel:`Less`\ : for each selected control point, if **all** points linked to this point are selected, keep this one selected. Otherwise, de-select it.
+- :guilabel:`More`: for each selected control point, select **all** its linked points (i.e. one or two…).
+- :guilabel:`Less`: for each selected control point, if **all** points linked to this point are selected, keep this one selected. Otherwise, de-select it.
 
 This implies two points:
 
-- First, when **all** control points of a curve are selected, nothing will happen (as for :guilabel:`Less`\ , all linked points are always selected, and of course, :guilabel:`More` can't add any). Conversely, the same goes when no control points are selected.
+- First, when **all** control points of a curve are selected, nothing will happen (as for :guilabel:`Less`, all linked points are always selected, and of course, :guilabel:`More` can't add any). Conversely, the same goes when no control points are selected.
 - Second, these tools will never "go outside" of a curve (they will never "jump" to another curve in the same object).

@@ -2,14 +2,14 @@
 Line Set
 ========
 
-A line set selects, among the lines (edges) detected by Freestyle, which ones will be rendered using its attached :doc:`line style <render/freestyle/parameter_editor/line_style>`\ , through various methods.
+A line set selects, among the lines (edges) detected by Freestyle, which ones will be rendered using its attached :doc:`line style <render/freestyle/parameter_editor/line_style>`, through various methods.
 
 
 .. figure:: /images/Manual-2.6-Render-freestyle-BasicEdgeTypeSelectionEx.jpg
    :width: 600px
    :figwidth: 600px
 
-   Examples of some basic edge types by LightBWK (\ `File:EdgeType.zip <http://wiki.blender.org/index.php/File:EdgeType.zip>`__\ )
+   Examples of some basic edge types by LightBWK (`File:EdgeType.zip <http://wiki.blender.org/index.php/File:EdgeType.zip>`__)
 
 
 Selection by Visibility
@@ -28,21 +28,21 @@ There are three choices for selecting edges by visibility.
    :width: 600px
    :figwidth: 600px
 
-   Proof of concept of visible and hidden edges by LightBWK (\ `Sample .blend <http://wiki.blender.org/index.php/File:HiddenCreaseEdgeMark.zip>`__\ )
+   Proof of concept of visible and hidden edges by LightBWK (`Sample .blend <http://wiki.blender.org/index.php/File:HiddenCreaseEdgeMark.zip>`__)
 
 
 :guilabel:`QI Range`
-   QI stands for *Quantitative Invisibility*\ . Lines occluded by a number of surfaces in the given range are rendered.
+   QI stands for *Quantitative Invisibility*. Lines occluded by a number of surfaces in the given range are rendered.
 
 :guilabel:`Start` and :guilabel:`End`
-   Only with :guilabel:`QI Range`\ , min/max number of occluding surfaces for a line to be rendered.
+   Only with :guilabel:`QI Range`, min/max number of occluding surfaces for a line to be rendered.
 
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-QI_Range.jpg
    :width: 600px
    :figwidth: 600px
 
-   QI Range proof of concept demo, Start: 3, End: 7, by LightBWK (\ `Sample .blend <http://wiki.blender.org/index.php/File:QI-Range.zip>`__\ )
+   QI Range proof of concept demo, Start: 3, End: 7, by LightBWK (`Sample .blend <http://wiki.blender.org/index.php/File:QI-Range.zip>`__)
 
 
 Selection by Edge Types
@@ -57,14 +57,14 @@ Edge types can also be excluded from calculation by pressing the :guilabel:`X` n
    Draws silhouettes around your closed objects; it is often good for organic objects (like Suzanne & Sphere), and bad for sharp edges, like a box. It can't render open mesh objects like open cylinders and flat planes. The output is affected by the :guilabel:`Kr Derivative Epsilon` viewmap setting.
 
 :guilabel:`Crease`
-   Shows only edges whose adjacent faces form an angle greater than the defined viewmap's :guilabel:`Crease Angle`\ .
+   Shows only edges whose adjacent faces form an angle greater than the defined viewmap's :guilabel:`Crease Angle`.
 
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-CreaseConcept.jpg
    :width: 600px
    :figwidth: 600px
 
-   Crease Angle proof of concept for 121º by LightBWK ( `the .blend file <http://wiki.blender.org/index.php/File:CreaseAngle.zip>`__\ )
+   Crease Angle proof of concept for 121º by LightBWK ( `the .blend file <http://wiki.blender.org/index.php/File:CreaseAngle.zip>`__)
 
 
 :guilabel:`Border`
@@ -72,9 +72,7 @@ Edge types can also be excluded from calculation by pressing the :guilabel:`X` n
 
 :guilabel:`Edge Marks`
    Renders marked edges. See
-FIXME(TODO: Internal Link;
-[[#Edge Marks|below]]
-) for details.
+   FIXME(TODO: Internal Link; [[#Edge Marks|below]]) for details.
 
 :guilabel:`Contour`
    Draws the outer edges and inner open border.
@@ -91,7 +89,7 @@ FIXME(TODO: Internal Link;
 
 
 :guilabel:`Suggestive Contour`
-   Draws some lines which would form the contour of the mesh if the viewport was shifted. Depends on your viewmap settings for :guilabel:`Kr Derivative Epsilon` and :guilabel:`Sphere Radius` (further information: `File:Manual-2.6-Render-Freestyle-PrincetownLinestyle.pdf <http://wiki.blender.org/index.php/File:Manual-2.6-Render-Freestyle-PrincetownLinestyle.pdf>`__\ ).
+   Draws some lines which would form the contour of the mesh if the viewport was shifted. Depends on your viewmap settings for :guilabel:`Kr Derivative Epsilon` and :guilabel:`Sphere Radius` (further information: `File:Manual-2.6-Render-Freestyle-PrincetownLinestyle.pdf <http://wiki.blender.org/index.php/File:Manual-2.6-Render-Freestyle-PrincetownLinestyle.pdf>`__).
 
 :guilabel:`Material Boundary`
    Draws lines where two materials meet on the same object. Must be activated in the viewmap settings.
@@ -115,13 +113,13 @@ Edge Marks
 
 In edit mode you can mark "Freestyle Edges" in the same manner you can mark "Seams" for UV
 unwrapping or "Sharp" for edge split.
-These marked edges are available to render when you select :guilabel:`Edge Mark`\ .
+These marked edges are available to render when you select :guilabel:`Edge Mark`.
 
 This is done as follows:
 
 - Select your mesh and tab into :guilabel:`Edit` mode.
 - Select the edges you want to be marked.
-- Press :kbd:`crtl-E` and select :guilabel:`Mark Freestyle Edge`\ .
+- Press :kbd:`crtl-E` and select :guilabel:`Mark Freestyle Edge`.
 
 Edge marks are useful when you want to draw lines along particular mesh edges.
 The examples below explain the use of edge marks.
@@ -147,7 +145,7 @@ What are edge marks good for?
 
 What are edge marks not good for?
 
-- Round outer edges (use instead :guilabel:`Contour`\ /\ :guilabel:`External Contour`\ /\ :guilabel:`Silhouette`\ ).
+- Round outer edges (use instead :guilabel:`Contour` / :guilabel:`External Contour` / :guilabel:`Silhouette`).
 
 
 Selection by Face Marks
@@ -162,7 +160,7 @@ To set a face mark:
 
 - Select a mesh and tab into :guilabel:`Edit` mode.
 - Select the faces you want to be marked.
-- Press :kbd:`ctrl-F` and select :guilabel:`Mark Freestyle Face`\ .
+- Press :kbd:`ctrl-F` and select :guilabel:`Mark Freestyle Face`.
 
 Face marks are useful for removing lines from certain areas of a mesh.
 
@@ -183,7 +181,7 @@ On the right is a render without face marks activated.
 
 The line selection can be controlled via inclusion and faces options:
 
-:guilabel:`Inclusive`\ /\ :guilabel:`Exclusive`
+:guilabel:`Inclusive` / :guilabel:`Exclusive`
    Whether to include or exclude edges matching defined face mark conditions from the line set.
 
 :guilabel:`One Face`
@@ -216,7 +214,7 @@ You can include or exclude objects for line calculation, based on their belongin
 :guilabel:`Group`
    The name of the object group to use.
 
-:guilabel:`Inclusive`\ /\ :guilabel:`Exclusive`
+:guilabel:`Inclusive` / :guilabel:`Exclusive`
    Whether to include or exclude lines from those objects in this line set.
 
 

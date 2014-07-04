@@ -31,8 +31,8 @@ they create the visual complexity that the eye expects to see from shiny reflect
    :class: note
 
 
-   It's useful to remember here that the true goal of this technique is *believability*\ ,
-   not *accuracy*\ . The eye doesn't need a physically accurate simulation of the light's travel;
+   It's useful to remember here that the true goal of this technique is *believability*,
+   not *accuracy*. The eye doesn't need a physically accurate simulation of the light's travel;
    it just needs to be lulled into believing that the scene is real by seeing the complexity it
    expects. The most unbelievable thing about most rendered images is the sterility,
    not the inaccuracy.
@@ -55,14 +55,14 @@ Options
 
 
 Blender allows three types of environment maps,
-as you can see in *Reflecting plane EnvMap settings.*\ :
+as you can see in *Reflecting plane EnvMap settings.* :
 
 :guilabel:`Static`
-    The map is only calculated once during an animation or after loading a file.
+   The map is only calculated once during an animation or after loading a file.
 :guilabel:`Animated`
-    The map is calculated each time a rendering takes place. This means moving Objects are displayed correctly in mirroring surfaces.
+   The map is calculated each time a rendering takes place. This means moving Objects are displayed correctly in mirroring surfaces.
 :guilabel:`Image File`
-    When saved as an image file, environment maps can be loaded from disk. This option allows the fastest rendering with environment maps, and also gives the ability to modify or use the environment map in an external application.
+   When saved as an image file, environment maps can be loaded from disk. This option allows the fastest rendering with environment maps, and also gives the ability to modify or use the environment map in an external application.
 
    When using planar reflections, if the camera is the only moving object and you have a reflecting plane,
    the Empty must move too and you must use :guilabel:`Anim` environment map.
@@ -74,11 +74,11 @@ as you can see in *Reflecting plane EnvMap settings.*\ :
 Options in dropdown menu:
 
 :guilabel:`Clear Environment Map`
-    Clears the currently rendered environment map from memory. This is useful to refresh a :guilabel:`Static` environment maps and you have changed things in your scene since the last time the environment map was rendered. :guilabel:`Anim` environment maps do this automatically on every render.
+   Clears the currently rendered environment map from memory. This is useful to refresh a :guilabel:`Static` environment maps and you have changed things in your scene since the last time the environment map was rendered. :guilabel:`Anim` environment maps do this automatically on every render.
 :guilabel:`Save Environment Map`
-    Saves the currently stored static environment map to disk as an image file. This can be loaded again with :guilabel:`Load`\ .
+   Saves the currently stored static environment map to disk as an image file. This can be loaded again with :guilabel:`Load`.
 :guilabel:`Clear All Environment Maps`
-    Does the same as :guilabel:`Free Data`\ , but with all environment maps in the scene. This is a useful shortcut when using recursive environment maps (when the :guilabel:`Depth` is greater than 0).
+   Does the same as :guilabel:`Free Data`, but with all environment maps in the scene. This is a useful shortcut when using recursive environment maps (when the :guilabel:`Depth` is greater than 0).
 
 
 .. admonition:: Note
@@ -90,7 +90,7 @@ Options in dropdown menu:
 
 
 :guilabel:`Viewpoint Object`
-    Environment maps are created from the perspective of a specified object. The location of this object will determine how 'correct' the reflection looks, though different locations are needed for different reflecting surfaces. Usually, an Empty is used as this object.
+   Environment maps are created from the perspective of a specified object. The location of this object will determine how 'correct' the reflection looks, though different locations are needed for different reflecting surfaces. Usually, an Empty is used as this object.
 
 
    - For planar reflections, the object should be in a location mirrored from the camera, on the other side of the plane of reflection (see Examples). This is the most accurate usage of Environment maps.
@@ -98,15 +98,15 @@ Options in dropdown menu:
    - For irregular reflections, there's no hard and fast rule, you will probably need to experiment and hope that the inaccuracy doesn't matter.
 
 :guilabel:`Ignore Layers`
-    The layers to exclude from the environment map creation.
-    Since environment maps work by rendering the scene from the location of the :guilabel:`Ob:` object,
-    you will need to exclude the actual reflecting surface from the environment map,
-    otherwise it will occlude other objects that should be reflected on the surface itself.
-
-    Eg. If you are rendering an environment map from the center of a sphere,
-    all the environment map will show by default is the inside of the sphere.
-    You will need to move the sphere to a separate layer, then exclude that layer from the environment map render,
-    so that the environment map will show (and hence reflect) all the objects outside the sphere.
+   The layers to exclude from the environment map creation.
+   Since environment maps work by rendering the scene from the location of the :guilabel:`Ob:` object,
+   you will need to exclude the actual reflecting surface from the environment map,
+   otherwise it will occlude other objects that should be reflected on the surface itself.
+ 
+   Eg. If you are rendering an environment map from the center of a sphere,
+   all the environment map will show by default is the inside of the sphere.
+   You will need to move the sphere to a separate layer, then exclude that layer from the environment map render,
+   so that the environment map will show (and hence reflect) all the objects outside the sphere.
 
 
 
@@ -130,24 +130,27 @@ Environment Map Sampling
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 :guilabel:`Filter`
-    :guilabel:`Box`
+   :guilabel:`Box`
       Box Filter
-    :guilabel:`EWA`
+   :guilabel:`EWA`
       Elliptical Weighted Average — one of the most efficient direct convolution algorithms developed by Paul Heckbert and Ned Greene in the 1980s. For each texel, EWA samples, weights, and accumulates texels within an elliptical footprint and then divides the result by the sum of the weights.
-       :guilabel:`Eccentricity`
+
+      :guilabel:`Eccentricity`
          Maximum eccentricity (higher gives less blur at distant/oblique angles, but is also slower)
-    :guilabel:`FELINE`
+   :guilabel:`FELINE`
       FELINE (Fast Elliptical Lines), uses several isotropic probes at several points along a line in texture space to produce an anisotropic filter to reduce aliasing artifacts without considerably increasing rendering time.
+
       :guilabel:`Probes`
          Maximum number of samples (higher gives less blur at distant/oblique angles, but is also slower)
-    :guilabel:`Area`
-      ...
-       :guilabel:`Eccentricity`
+
+   :guilabel:`Area`
+
+      :guilabel:`Eccentricity`
          Maximum eccentricity (higher gives less blur at distant/oblique angles, but is also slower)
 
 
 :guilabel:`Filter Size`
-    The amount of blurring applied to the texture. Higher values will blur the environment map to fake blurry reflections.
+   The amount of blurring applied to the texture. Higher values will blur the environment map to fake blurry reflections.
 
 :guilabel:`Minimum Filter Size`
    Use Filter Size as a minimal filter value in pixels
@@ -172,10 +175,10 @@ onto which it is being mapped.
 +-----------------------------------------------------------------------+-----------------------------------------------+
 
 
-The following images show the effect of the :guilabel:`Depth`\ .
+The following images show the effect of the :guilabel:`Depth`.
 The first render has depth set to 0. This means the environment map on the plane has rendered
 before the environment map of the sphere, so the sphere's reflection isn't shown.
-By raising the :guilabel:`Depth`\ , the environment map is rendered recursively,
+By raising the :guilabel:`Depth`, the environment map is rendered recursively,
 in order to get reflections of reflections.
 
 +-----------------------------------------------+----------------------------------------------------------+
@@ -192,7 +195,7 @@ Limitations
 -----------
 
 Because environment maps are calculated from the exact location of the :guilabel:`Viewpoint
-Object`\ 's object center, and not from actual reflecting surface,
+Object` 's object center, and not from actual reflecting surface,
 they can often be inaccurate, especially with spheres. In the following image, the rectangular
 prism and the smaller spheres are touching the sides of the large reflecting sphere,
 but because the environment map is calculated from the center of the sphere,

@@ -25,9 +25,9 @@ By default the node output a linear transition from 0 to 1 from frame 1 to 250.
 The shape of the curve can be manipulated to vary the output over time in different ways.
 
 
-:kbd:`+`\ :Zoom in.
-:kbd:`-`\ :Zoom out
-:guilabel:`Tools`\ :
+:kbd:`+`:Zoom in.
+:kbd:`-`:Zoom out
+:guilabel:`Tools`:
 
    :guilabel:`Reset View`
       Resets curve view
@@ -60,16 +60,16 @@ The shape of the curve can be manipulated to vary the output over time in differ
    :guilabel:`Reset Curve`
       Resets shape of curve to original linear shape.
 
-:guilabel:`Clipping Options`\ :
+:guilabel:`Clipping Options`:
    :guilabel:`Use Clipping`
       Forces curve points to stay between specified values.
    :guilabel:`Min X/Y and Max X/Y`
       Set the minimum and maximum bounds of the curve points.
 
-:kbd:`x`\ :Delete curve points. The first and last points cannot be deleted.
+:kbd:`x`:Delete curve points. The first and last points cannot be deleted.
 :guilabel:`X and Y` The coordinates of the selected edit point.
-:guilabel:`Sta`\ :Specify the start frame to use.
-:guilabel:`End`\ :Specify the end frame to use.
+:guilabel:`Sta`:Specify the start frame to use.
+:guilabel:`End`:Specify the end frame to use.
 
 
 Coordinates

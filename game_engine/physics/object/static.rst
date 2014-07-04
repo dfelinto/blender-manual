@@ -8,16 +8,19 @@ It will, however, give collision reactions. Objects will bounce off of Static Ob
 and rotational inertia will transfer to objects capable of rotating (that is,
 Rigid Body Objects will spin in response, though Dynamic Objects will not).
 
-Note that none of this prevents you from transforming the Static Objects with :doc:`Logic Bricks <game_engine/logic>` or Python code. The visual objects will correctly move and their physics representation will update in the engine as well.
+Note that none of this prevents you from transforming the Static Objects with
+:doc:`Logic Bricks <game_engine/logic>` or Python code.
+The visual objects will correctly move and their physics representation will update in the engine as well.
 
 Another important note is that the default
 FIXME(TODO: Internal Link;
 [[#Collision_Bounds|Collision Bounds]]
 ) is a Triangle Mesh, meaning it is higher in computational requirements but also in detail. This in turn means the "Radius" option has no effect by default.
 
-In the example game demo, :doc:`Frijoles <ls/frijoles>`\ , the Static type is represented by the "Arena" object that holds all the moving bits.
+In the example game demo, :doc:`Frijoles <ls/frijoles>`,
+the Static type is represented by the "Arena" object that holds all the moving bits.
 
-For more documentation, see the :doc:`Top BGE Physics page <game_engine/physics>`\ .
+For more documentation, see the :doc:`Top BGE Physics page <game_engine/physics>`.
 
 
 Options

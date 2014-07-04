@@ -24,7 +24,7 @@ Cache
 Caching
 -------
 
-- As animation is played, each physics system writes each frame to disk, between the simulation start and end frames. These files are stored in folders with prefix "\ ``blendcache``\ ", next to the .blend file. Note that for the cache to fill up, one has to start playback before or on the frame that the simulation starts.
+- As animation is played, each physics system writes each frame to disk, between the simulation start and end frames. These files are stored in folders with prefix "\ ``blendcache`` ", next to the .blend file. Note that for the cache to fill up, one has to start playback before or on the frame that the simulation starts.
 - The cache is cleared automatically on changes - but not on all changes, so it may be necessary to free it manually e.g. if you change a force field.
 - If it is impossible to write in the subdirectory there will be no caching.
 - The cache can be freed per physics system with a button in the panels, or with the :kbd:`ctrl-B` shortcut key to free it for all selected objects.

@@ -23,7 +23,7 @@ Usage
    After the tool is activated, move the cursor over a desired edge. The cut to be made is marked with a magenta colored line as you move the mouse over the various edges. The to-be-created edge loop stops at the poles (tris and ngons) where the existing face loop terminates.
 
 **Sliding the new edge loop**
-   Once an edge is chosen via :kbd:`lmb`\ , you can move the mouse along the edge to determine where the new edge loop will be placed. This is identical to the :doc:`Edge Slide tool <modeling/meshes/editing/edges#edge_slide>`\ . Clicking :kbd:`lmb` again confirms and makes the cut at the pre-visualized location, or clicking :kbd:`rmb` forces the cut to exactly 50%. This step is skipped when using multiple edge loops (see below)
+   Once an edge is chosen via :kbd:`lmb`, you can move the mouse along the edge to determine where the new edge loop will be placed. This is identical to the :doc:`Edge Slide tool <modeling/meshes/editing/edges#edge_slide>`. Clicking :kbd:`lmb` again confirms and makes the cut at the pre-visualized location, or clicking :kbd:`rmb` forces the cut to exactly 50%. This step is skipped when using multiple edge loops (see below)
 
 
 .. figure:: /images/Doc26-loopCut-before.jpg
@@ -57,9 +57,9 @@ Options are only available while the tool is in use, and are displayed in the 3d
 :guilabel:`Flip` :kbd:`F`
    When Even is enabled, this flips the target edge loop to match. (See :doc:`Edge Slide tool <modeling/meshes/editing/edges#edge_slide>` for details)
 
-:guilabel:`Number of Cuts` :kbd:`wheel` or :kbd:`pad+`\ /\ :kbd:`pad-`
-   After activating the tool, but before confirming initial loop location, you can increase and decrease the number of cuts to create, by entering a number with the keyboard, scrolling :kbd:`wheel` or using :kbd:`pad+` and :kbd:`pad-`\ .
-   Note that when creating multiple loops, these cuts are uniformly distributed in the original face loop, and *you will not be able to control their positions*\ .
+:guilabel:`Number of Cuts` :kbd:`wheel` or :kbd:`pad+` / :kbd:`pad-`
+   After activating the tool, but before confirming initial loop location, you can increase and decrease the number of cuts to create, by entering a number with the keyboard, scrolling :kbd:`wheel` or using :kbd:`pad+` and :kbd:`pad-`.
+   Note that when creating multiple loops, these cuts are uniformly distributed in the original face loop, and *you will not be able to control their positions*.
 
 
 .. figure:: /images/Doc26-loopCut-multicut.jpg
@@ -81,7 +81,7 @@ Options are only available while the tool is in use, and are displayed in the 3d
    causing them to be shifted outwards or inwards by a given percentage,
    similar to the :guilabel:`Subdivide Smooth` command. When not using smoothing,
    new vertices for the new edge loop are placed exactly on the pre-existing edges. This keeps subdivided faces flat,
-   but can distort geometry, particularly when using :doc:`Subdivision Surfaces <modifiers/generate/subsurf>`\ .
+   but can distort geometry, particularly when using :doc:`Subdivision Surfaces <modifiers/generate/subsurf>`.
    Smoothing can help maintain the curvature of a surface once it is subdivided.
 
 

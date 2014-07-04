@@ -22,24 +22,24 @@ This is in direct contrast to point-like artificial lights which produce sharp b
 Lamp options
 ------------
 
-:guilabel:`Distance`\ , :guilabel:`Energy` and :guilabel:`Color`
-   These settings are common to most types of lamps, and are described in :doc:`Light Properties <lighting/lights/light_properties>`\ .
+:guilabel:`Distance`, :guilabel:`Energy` and :guilabel:`Color`
+   These settings are common to most types of lamps, and are described in :doc:`Light Properties <lighting/lights/light_properties>`.
 
    Note that the :guilabel:`Distance` setting is much more sensitive and important for :guilabel:`Area` lamps than for others; usually any objects within the range of :guilabel:`Distance` will be blown out and overexposed. For best results, set the :guilabel:`Distance` to just below the distance to the object that you want to illuminate.
 
 :guilabel:`Gamma`
-    Amount to gamma correct the brightness of illumination. Higher values give more contrast and shorter falloff.
+   Amount to gamma correct the brightness of illumination. Higher values give more contrast and shorter falloff.
 
-    The :guilabel:`Area` lamp doesn't have light falloff settings. It uses an "inverse quadratic" attenuation law. The only way to control its falloff is to use the :guilabel:`Distance` and/or :guilabel:`Gamma` settings.
+   The :guilabel:`Area` lamp doesn't have light falloff settings. It uses an "inverse quadratic" attenuation law. The only way to control its falloff is to use the :guilabel:`Distance` and/or :guilabel:`Gamma` settings.
 
-:guilabel:`This Layer Only`\ , :guilabel:`Negative`\ , :guilabel:`Specular` and :guilabel:`Diffuse`
-   These settings control what the lamp affects, as described in :doc:`What Light Affects <lighting/lights/what_light_affects>`\ .
+:guilabel:`This Layer Only`, :guilabel:`Negative`, :guilabel:`Specular` and :guilabel:`Diffuse`
+   These settings control what the lamp affects, as described in :doc:`What Light Affects <lighting/lights/what_light_affects>`.
 
 
 Shadows
 -------
 
-Area light ray-traced shadows are described here: :doc:`Raytraced Shadows <lighting/lamps/area/raytraced_shadows>`\ .
+Area light ray-traced shadows are described here: :doc:`Raytraced Shadows <lighting/lamps/area/raytraced_shadows>`.
 
 When an :guilabel:`Area` light source is selected,
 the :guilabel:`Shadow` panel has the following default layout:
@@ -59,7 +59,7 @@ the :guilabel:`Shadow` panel has the following default layout:
 Area Shape
 ----------
 
-The shape of the area light can be set to :guilabel:`Square` or :guilabel:`Rectangle`\ .
+The shape of the area light can be set to :guilabel:`Square` or :guilabel:`Rectangle`.
 
 
 .. figure:: /images/25-Manual-Lighting-Lamps-Area-Square.jpg
@@ -76,10 +76,10 @@ The shape of the area light can be set to :guilabel:`Square` or :guilabel:`Recta
    Rectangle options
 
 
-:guilabel:`Square`\ /\ :guilabel:`Rectangular`
-    Emit light from either a square or a rectangular area
-:guilabel:`Size`\ /\ :guilabel:`Size X`\ /\ :guilabel:`Size Y`
-    Dimensions for the :guilabel:`Square` or :guilabel:`Rectangle`
+:guilabel:`Square` / :guilabel:`Rectangular`
+   Emit light from either a square or a rectangular area
+:guilabel:`Size` / :guilabel:`Size X` / :guilabel:`Size Y`
+   Dimensions for the :guilabel:`Square` or :guilabel:`Rectangle`
 
 
 .. admonition:: Shape Tips

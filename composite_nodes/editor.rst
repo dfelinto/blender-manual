@@ -31,7 +31,7 @@ additional settings appear in the Header and the Properties Panel:
 
 
 :guilabel:`Backdrop Channels`
-   Set the image to be displayed with :guilabel:`Color`\ , :guilabel:`Color and Alpha`\ , or just :guilabel:`Alpha`\ .
+   Set the image to be displayed with :guilabel:`Color`, :guilabel:`Color and Alpha`, or just :guilabel:`Alpha`.
 
 
 .. figure:: /images/26-Manual-Compositing-Node-Header-Zoom-Offset.jpg
@@ -62,7 +62,7 @@ Perfomance for Compositing Nodes in Node Editor
 :guilabel:`Render`
    Set quality when rendering in Node Editor.
 :guilabel:`Edit`
-    Set quality when editing in Node Editor
+   Set quality when editing in Node Editor
 :guilabel:`Chunksi`
    Max size of a title (smaller values give better distribution of multiple threads, but more overhead).
 :guilabel:`OpenCL`

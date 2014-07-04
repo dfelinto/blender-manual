@@ -18,8 +18,8 @@ Maximizing a window
 
 You can maximize a window frame to fill the whole application window with the :guilabel:`View`
 → :guilabel:`Toggle Full Screen` menu entry. To return to normal size,
-use again :guilabel:`View` → :guilabel:`Toggle Full Screen`\ .
-A quicker way to achieve this is to use :kbd:`shift-space`\ ,
+use again :guilabel:`View` → :guilabel:`Toggle Full Screen`.
+A quicker way to achieve this is to use :kbd:`shift-space`,
 :kbd:`ctrl-down` or :kbd:`ctrl-up` to toggle between maximized and framed windows.
 NOTE: The window your mouse is currently hovering over is the one that will be maximized using
 the keyboard shortcuts.
@@ -76,7 +76,7 @@ If you press :kbd:`esc` before releasing the mouse, the operation will be aborte
 Changing window size
 --------------------
 
-You can resize window frames by dragging their borders with :kbd:`Lmb`\ . Simply move your
+You can resize window frames by dragging their borders with :kbd:`Lmb`. Simply move your
 mouse cursor over the border between two frames until it changes to a double-headed arrow,
 and then click and drag.
 
@@ -108,7 +108,7 @@ you can also arrange its contents in the same way discussed so far (split and re
 and tune them as needed), and so on.
 
 There is, though, another way to get an extra window: *File* → *User Preferences...*
-(or :kbd:`ctrl-alt-u`\ ) pops a new window also,
+(or :kbd:`ctrl-alt-u`) pops a new window also,
 with the *User Preferences* window in its only frame.
 You can then proceed the same way with this window.
 

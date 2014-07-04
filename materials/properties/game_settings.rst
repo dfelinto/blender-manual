@@ -16,7 +16,8 @@ Game Settings
 
  This panel contains properties that control how the object surfaces that use the material are rendered in real time by the Blender Game Engine.
 
-Game settings are visible when using the game engine for rendering. Material physics usage is described :doc:`here <materials/properties/physics>`\ .
+Game settings are visible when using the game engine for rendering.
+Material physics usage is described :doc:`here <materials/properties/physics>`.
 
 
 **Backface Cull**  (default On)

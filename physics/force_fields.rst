@@ -5,7 +5,7 @@
 Force Fields
 ============
 
-Force Fields offer a way to add extra movement to dynamic systems. :doc:`Particles <physics/particles>`\ , :doc:`Soft Bodies <physics/soft_body>`\ , `Rigid Bodies <http://wiki.blender.org/index.php/User:Sergof/GSoC2012/Documentation>`__ and :doc:`Cloth objects <physics/cloth>` can all be affected by forces fields. Force Fields automatically affect everything. To remove a simulation or particle system from their influence, simply turn down the influence of that type of Force Field in its Field Weights panel.
+Force Fields offer a way to add extra movement to dynamic systems. :doc:`Particles <physics/particles>`, :doc:`Soft Bodies <physics/soft_body>`, `Rigid Bodies <http://wiki.blender.org/index.php/User:Sergof/GSoC2012/Documentation>`__ and :doc:`Cloth objects <physics/cloth>` can all be affected by forces fields. Force Fields automatically affect everything. To remove a simulation or particle system from their influence, simply turn down the influence of that type of Force Field in its Field Weights panel.
 
 
 - All types of objects and particles can generate fields, but only curve object can bear :guilabel:`Curve Guides` fields.
@@ -41,13 +41,13 @@ these common options are explained for the :guilabel:`Spherical` field.
    :class: note
 
 
-   After changing the fields (\ :guilabel:`Fields` panel) or deflection
-   (\ :guilabel:`Collision` panel) settings, you have to recalculate the particle,
-   softbody or cloth system (\ :guilabel:`Free Cache`\ ), this is not done automatically. You can
-   clear the cache for all selected objects with :kbd:`ctrl-B` → :guilabel:`Free cache
-   selected`\ .
+   After changing the fields (:guilabel:`Fields` panel) or deflection
+   (:guilabel:`Collision` panel) settings, you have to recalculate the particle,
+   softbody or cloth system (:guilabel:`Free Cache`), this is not done automatically. You can
+   clear the cache for all selected objects with :kbd:`ctrl-B` → :guilabel:`Free cache
+   selected`.
 
-   :guilabel:`Particles` react to all kind of :guilabel:`Force Fields`\ , :guilabel:`Soft Bodies` only to :guilabel:`Spherical`\ /\ :guilabel:`Wind`\ /\ :guilabel:`Vortex` (they react on :guilabel:`Harmonic` fields but not in a useful way).
+   :guilabel:`Particles` react to all kind of :guilabel:`Force Fields`, :guilabel:`Soft Bodies` only to :guilabel:`Spherical` / :guilabel:`Wind` / :guilabel:`Vortex` (they react on :guilabel:`Harmonic` fields but not in a useful way).
 
 
 Common Field Settings
@@ -58,7 +58,7 @@ Settings unique to a field type are described below.
 Curve Guide and Texture Fields have very different options.
 
 :guilabel:`Shape`
-   The field is either a :guilabel:`Point`\ , with omnidirectional influence, or a :guilabel:`Plane`\ , constant in the XY-plane, changes only in Z direction.
+   The field is either a :guilabel:`Point`, with omnidirectional influence, or a :guilabel:`Plane`, constant in the XY-plane, changes only in Z direction.
 
 :guilabel:`Strength`
    The strength of the field effect. This can be positive or negative to change the direction that the force operates in. A force field's strength is scaled with the force object's scale, allowing you to scale up and down scene, keeping the same effects.
@@ -95,7 +95,7 @@ Here you can specify the shape of the force field
    :guilabel:`Fall-off` can be set to apply only in the direction of the positive Z Axis, negative Z Axis, or both.
 
 :guilabel:`Power` (Power)
-   How the power of the force field changes with the distance from the force field. If ``r`` is the distance from the center of the object, the force changes with ``1/r``\ :sup:`Power`\ . A :guilabel:`Fall-off` of 2 changes the force field with ``1/r``\ :sup:`2`\ , which is the falloff of gravitational pull.
+   How the power of the force field changes with the distance from the force field. If ``r`` is the distance from the center of the object, the force changes with ``1/r``:sup:`Power`. A :guilabel:`Fall-off` of 2 changes the force field with ``1/r``:sup:`2`, which is the falloff of gravitational pull.
 
 :guilabel:`Max Distance`
    Makes the force field only take effect within a specified maximum radius (shown by an additional circle around the object).
@@ -114,7 +114,7 @@ The :guilabel:`Force` field is the simplest of the fields. It gives a constant f
 Newtonian particles are attracted to a field with negative strength,
 and are blown away from a field with positive strength.
 
-For :doc:`Boids <physics/particles/physics>` a field with positive strength can be used as a *Goal*\ , a field with negative strength can be used as *Predator*\ . Whether :guilabel:`Boids` seek or fly goals/predators depends on the :guilabel:`Physics` settings of the Boids.
+For :doc:`Boids <physics/particles/physics>` a field with positive strength can be used as a *Goal*, a field with negative strength can be used as *Predator*. Whether :guilabel:`Boids` seek or fly goals/predators depends on the :guilabel:`Physics` settings of the Boids.
 
 
 .. figure:: /images/UM_PART_XIII_KST_PI03.jpg
@@ -176,7 +176,7 @@ This force field is really special if you assign it to particles.
    Causes every point to be affected by multiple springs.
 
 Normally every particle of the field system influences every particle of the target system.
-Not with :guilabel:`Harmonic`\ ! Here every target particle is assigned to a field particle.
+Not with :guilabel:`Harmonic` ! Here every target particle is assigned to a field particle.
 So particles will move to the place of other particles, thus forming shapes.
 [http://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Particles_forming_Shapes Tutorial:
 Particles forming Shapes].
@@ -256,14 +256,14 @@ Curve Guide
    Image 4a: A Curve Guide field.
 
 
-:guilabel:`Curve` objects can be the source of a :guilabel:`Curve Guide` field. You can guide particles along a certain path, they don't affect Softbodys. A typical scenario would be to move a red blood cell inside a vein, or to animate the particle flow in a motor. You can use :guilabel:`Curve Guide`\ s also to shape certain hair strands - though this may no longer be used as often now because we have the :doc:`Particle Mode <physics/particles/mode>`\ . Since you can animate curves as Softbody or any other usual way, you may build very complex animations while keeping great control and keeping the simulation time to a minimum.
+:guilabel:`Curve` objects can be the source of a :guilabel:`Curve Guide` field. You can guide particles along a certain path, they don't affect Softbodys. A typical scenario would be to move a red blood cell inside a vein, or to animate the particle flow in a motor. You can use :guilabel:`Curve Guide` s also to shape certain hair strands - though this may no longer be used as often now because we have the :doc:`Particle Mode <physics/particles/mode>`. Since you can animate curves as Softbody or any other usual way, you may build very complex animations while keeping great control and keeping the simulation time to a minimum.
 
 The option :guilabel:`Curve Follow` does not work for particles.
 Instead you have to set :guilabel:`Angular Velocity`
 (in the :guilabel:`Physics` panel of the :guilabel:`Particle` sub-context)
-to :guilabel:`Spin` and leave the rotation constant (i.e. don't turn on :guilabel:`Dynamic`\ ).
+to :guilabel:`Spin` and leave the rotation constant (i.e. don't turn on :guilabel:`Dynamic`).
 
-:guilabel:`Curve Guide`\ s affect all particles on the same layer, independently from their distance to the curve. If you have several guides in a layer, their fields add up to each other (the way you may have learned it in your physics course). But you can limit their influence radius:
+:guilabel:`Curve Guide` s affect all particles on the same layer, independently from their distance to the curve. If you have several guides in a layer, their fields add up to each other (the way you may have learned it in your physics course). But you can limit their influence radius:
 
 :guilabel:`Minimum Distance`
    The distance from the curve, up to where the force field is effective with full strength. If you have a :guilabel:`Fall-off` of 0 this parameter does nothing, because the field is effective with full strength up to :guilabel:`MaxDist` (or the infinity). :guilabel:`MinDist` is shown with a circle at the endpoints of the curve in the 3D window.
@@ -273,16 +273,16 @@ to :guilabel:`Spin` and leave the rotation constant (i.e. don't turn on :guilabe
    Fraction of particle life time, that is not used for the curve.
 
 :guilabel:`Fall-off`
-   This setting governs the strength of the guide between :guilabel:`MinDist` and :guilabel:`MaxDist`\ . A :guilabel:`Fall-off` of 1 means a linear progression.
+   This setting governs the strength of the guide between :guilabel:`MinDist` and :guilabel:`MaxDist`. A :guilabel:`Fall-off` of 1 means a linear progression.
 
 A particle follows a :guilabel:`Curve Guide` during it's lifetime,
 the velocity depends from it's lifetime and the length of the path.
 
 :guilabel:`Additive`
-   If you use :guilabel:`Additive`\ , the speed of the particles is also evaluated depending on the :guilabel:`Fall-off`\ .
+   If you use :guilabel:`Additive`, the speed of the particles is also evaluated depending on the :guilabel:`Fall-off`.
 :guilabel:`Weights`
    Use Curve weights to influence the particle influence along the curve.
-:guilabel:`Maximum Distance`\ /\ :guilabel:`Use Max`
+:guilabel:`Maximum Distance` / :guilabel:`Use Max`
    The maximum influence radius. Shown by an additional circle around the curve object.
 
 The other settings govern the form of the force field along the curve.
@@ -301,7 +301,8 @@ The other settings govern the form of the force field along the curve.
    `Animation <http://www.vimeo.com/1866538>`__
 
 
-With the drop down box :guilabel:`Kink`\ , you can vary the form of the force field:
+With the drop down box :guilabel:`Kink`, you can vary the form of the force field:
+
 :guilabel:`Curl`
    The radius of the influence depends on the distance of the curve to the emitter.
 :guilabel:`Radial`
@@ -314,7 +315,7 @@ With the drop down box :guilabel:`Kink`\ , you can vary the form of the force fi
    A one dimensional, standing wave.
 
 It is not so easy to describe the resulting shapes, I hope it's shown clearly enough in
-(\ *Image 4b*\ ).
+(*Image 4b*).
 
 :guilabel:`Frequency`
    The frequency of the offset.

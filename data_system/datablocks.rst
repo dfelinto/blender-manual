@@ -70,17 +70,17 @@ Select :guilabel:`ADD NEW` to make a copy of the current scene.
 Select :guilabel:`Full Copy` from the list that opened to make a copy.
 The current scene will be **fully** copied to the new scene.
 
-Instead of copying **everything**\ ,
-you can link datablocks by selecting :guilabel:`Link Objects`\ ,
+Instead of copying **everything**,
+you can link datablocks by selecting :guilabel:`Link Objects`,
 to use the same :guilabel:`Object` datablocks linked into the two scenes,
-or :guilabel:`Link ObData`\ ,
+or :guilabel:`Link ObData`,
 to create separated objects sharing the same :guilabel:`ObData` datablocks (meshes, curves,
-materials, etc.). Note that if you select :guilabel:`Link Objects`\ ,
+materials, etc.). Note that if you select :guilabel:`Link Objects`,
 in fact you copy nearly nothing,
 as :guilabel:`Object` datablocks are parent of all :guilabel:`ObData` datablocks:
 nearly all modifications (object location, mesh geometry, …)
 in a scene will be reflected in the other ones linked this way as well.
-As for :guilabel:`Link ObData`\ , it creates a "real" copy of the objects,
+As for :guilabel:`Link ObData`, it creates a "real" copy of the objects,
 but not of their child datalocks: the locations,
 scales and rotations of the objects will be specific to a scene,
 but neither their forms nor their materials, textures, …, will be
@@ -92,7 +92,7 @@ Copying and Linking Object Datablocks
 
 Full copy
    :kbd:`shift-D` is used to make normal copy of the selected objects.
-   The object and some of it's child datablocks will really be duplicated, the other children are just linked; you can define the attributes to be duplicated in :guilabel:`User Preferences` → :guilabel:`Edit Methods`\ , button group :guilabel:`Duplicate with object:`\ .
+   The object and some of it's child datablocks will really be duplicated, the other children are just linked; you can define the attributes to be duplicated in :guilabel:`User Preferences` → :guilabel:`Edit Methods`, button group :guilabel:`Duplicate with object:`.
 
 Linked copy
    :kbd:`alt-D` makes a linked copy.
@@ -104,7 +104,7 @@ Copying and Linking other Datablocks
 
 When an :guilabel:`ObData` datablock is used (linked) by more than one object,
 a small button with its number of linked objects (users) shows up next to its name,
-in its settings window (\ :guilabel:`Editing` context for meshes, curves, cameras, …,
+in its settings window (:guilabel:`Editing` context for meshes, curves, cameras, …,
 :guilabel:`Shading` context, :guilabel:`Material` sub-context for materials, etc.).
 If you click on it, you create a copy of this datablock for the current object.
 

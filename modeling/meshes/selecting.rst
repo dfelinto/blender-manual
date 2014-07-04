@@ -39,7 +39,7 @@ Using the buttons you can also use more than one selection mode at a time by
    In this mode the faces are drawn with a selection point in the middle which is used for selecting a face. Selected faces and their selection point are drawn in orange, unselected faces are drawn in black, and the active or last selected face is highlighted in white.
 
 Almost all modification tools are available in all three mesh selection modes.
-So you can :guilabel:`Rotate`\ , :guilabel:`Scale`\ , :guilabel:`Extrude`\ , etc. in all modes. Of
+So you can :guilabel:`Rotate`, :guilabel:`Scale`, :guilabel:`Extrude`, etc. in all modes. Of
 course rotating and scaling a *single* vertex will not do anything useful without setting
 the pivot point to another location, so some tools are more or less applicable in some modes.
 
@@ -47,7 +47,7 @@ the pivot point to another location, so some tools are more or less applicable i
 .. admonition:: Note
    :class: note
 
-   The three selection mode buttons are only visible in :guilabel:`Edit mode`\ . The colors of selected, unselected and active components depend entirely on the current theme. Black, orange and white are from the default theme.
+   The three selection mode buttons are only visible in :guilabel:`Edit mode`. The colors of selected, unselected and active components depend entirely on the current theme. Black, orange and white are from the default theme.
 
 
 Select Mode Pop-up
@@ -70,20 +70,20 @@ Select Mode Pop-up
 You can also choose a selection mode with the pop-up menu
 
 :menuselection:`Select Mode --> Vertices`
-   Press :kbd:`ctrl-tab` and select :guilabel:`Vertices` from the pop-up menu, or press :kbd:`ctrl-tab`\ :kbd:`1`\ .
+   Press :kbd:`ctrl-tab` and select :guilabel:`Vertices` from the pop-up menu, or press :kbd:`ctrl-tab`:kbd:`1`.
 
 :menuselection:`Select Mode --> Edges`
-   Press :kbd:`ctrl-tab` and select :guilabel:`Edges` from the pop-up menu, or press :kbd:`ctrl-tab`\ :kbd:`2`\ .
+   Press :kbd:`ctrl-tab` and select :guilabel:`Edges` from the pop-up menu, or press :kbd:`ctrl-tab`:kbd:`2`.
 
 :menuselection:`Select Mode --> Faces`
-   Press :kbd:`ctrl-tab` and select :guilabel:`Faces` from the pop-up menu, or press :kbd:`ctrl-tab`\ :kbd:`3`\ .
+   Press :kbd:`ctrl-tab` and select :guilabel:`Faces` from the pop-up menu, or press :kbd:`ctrl-tab`:kbd:`3`.
 
 
 Switching select mode
 ~~~~~~~~~~~~~~~~~~~~~
 
 When switching modes in an "ascendant" way (i.e. from simpler to more complex), from
-:guilabel:`Vertices` to :guilabel:`Edges` and from :guilabel:`Edges` to :guilabel:`Faces`\ ,
+:guilabel:`Vertices` to :guilabel:`Edges` and from :guilabel:`Edges` to :guilabel:`Faces`,
 the selected parts will still be selected if they form a complete element in the new mode.
 
 For example, if all four edges in a face are selected,
@@ -98,8 +98,8 @@ By holding :kbd:`ctrl` when selecting a higher selection mode,
 all elements touching the current selection will be added,
 even if the selection does not form a complete higher element.
 
-See (\ :guilabel:`Vertices` *mode example*\ ), (\ :guilabel:`Edges` *mode example*\ ),
-(\ :guilabel:`Faces` *mode example*\ ) and (\ *Mixed mode example*\ )
+See (:guilabel:`Vertices` *mode example*), (:guilabel:`Edges` *mode example*),
+(:guilabel:`Faces` *mode example*) and (*Mixed mode example*)
 for examples of the different modes.
 
 
@@ -135,9 +135,9 @@ These are described in more detail in the following pages.
    Deselect alternating faces, to create a checker like pattern.
 :guilabel:`Select Sharp Edges`
 
-   This option will select all edges that are between two faces forming an angle less than a given value, which is asked you *via* a small pop-up dialog. The lower is this angle limit, the sharper will be the selected edges. At **180- **\ , **all** "manifold" (see below) edges will be selected.
+   This option will select all edges that are between two faces forming an angle less than a given value, which is asked you *via* a small pop-up dialog. The lower is this angle limit, the sharper will be the selected edges. At **180- **, **all** "manifold" (see below) edges will be selected.
 
-:guilabel:`Linked Flat Faces` (\ :kbd:`Ctrl-Shift-Alt-F`\ )
+:guilabel:`Linked Flat Faces` (:kbd:`Ctrl-Shift-Alt-F`)
    Select connected faces based on a threshold of the angle between them. This is useful for selecting faces that are planar.
 :guilabel:`Interior Faces`
    Select faces where all edges have more than 2 faces.
@@ -148,7 +148,7 @@ These are described in more detail in the following pages.
 :guilabel:`Select Faces by Sides`
    Selects all faces that have a specified number of edges.
 
-:guilabel:`Select Non Manifold` (\ :kbd:`Ctrl-Shift-Alt-M`\ )
+:guilabel:`Select Non Manifold` (:kbd:`Ctrl-Shift-Alt-M`)
    Selects vertices that are not completely bound by geometry, including border edges, floating edges, and orphan vertices. Only available in Vertex mode.
 
 :guilabel:`Loose`

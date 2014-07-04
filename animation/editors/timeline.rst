@@ -22,10 +22,10 @@ Here you can have an overview of the animation part of your scene
    What is the current time frame, either in frames or in seconds, where are the keyframes of the active object,
    the start and end frames of your animation, markers, etc...
 
-The *Timeline* has *Player Controls*\ , to play, pause the animation,
+The *Timeline* has *Player Controls*, to play, pause the animation,
 and to skip though parts of the scene.
 
-It also has some tools for *Keyframes*\ , *Keying Sets*\ , and *Markers*\ .
+It also has some tools for *Keyframes*, *Keying Sets*, and *Markers*.
 
 
 Timeline Elements
@@ -44,12 +44,12 @@ The *Time Cursor* is the green line, its used to set and display the current tim
 The *Time Cursor* can be set or moved to a new position by pressing or holding
 :kbd:`lmb` in the Timeline window.
 
-The current frame or second can be displayed on the *Time Cursor*\ ,
+The current frame or second can be displayed on the *Time Cursor*,
 check the View menu for settings.
 
 The *Time Cursor* can be moved in steps by pressing :kbd:`Arrow Left` or
-:kbd:`Arrow Right`\ , or in steps of 10 frames by pressing :kbd:`Shift-Arrow up` or
-:kbd:`Shift-Arrow Down`\ .
+:kbd:`Arrow Right`, or in steps of 10 frames by pressing :kbd:`Shift-Arrow up` or
+:kbd:`Shift-Arrow Down`.
 
 
 Keyframes
@@ -57,10 +57,10 @@ Keyframes
 
 For the active and selected objects, keyframes are displayed as a yellow line.
 
-For *Armatures*\ , the object keyframes and the pose bones keyframes are drawn.
+For *Armatures*, the object keyframes and the pose bones keyframes are drawn.
 
-*Only Selected Channels* can be enabled. *Timeline > View > Only Selected Channels*\ .
-For *Armatures*\ , this will draw the object keyframes,
+*Only Selected Channels* can be enabled. *Timeline > View > Only Selected Channels*.
+For *Armatures*, this will draw the object keyframes,
 and the keyframes for the active and selected pose bones.
 
 
@@ -100,16 +100,16 @@ The main *Timeline* area displays the animation frames over time.
    Timeline Main Area
 
 
-The *Timeline* can be panned by holding :kbd:`mmb`\ ,
+The *Timeline* can be panned by holding :kbd:`mmb`,
 then dragging the area left or right.
 
-You can zoom the *Timeline* by using :kbd:`ctrl-mmb`\ , the mouse :kbd:`wheel`\ ,
+You can zoom the *Timeline* by using :kbd:`ctrl-mmb`, the mouse :kbd:`wheel`,
 or pressing the :kbd:`-` and :kbd:`+` keys on the numpad.
 
 By default, the *Playback/Rendering Range* (Frame Start 1 to Frame End 200)
 is a lighter shade of gray.
 The start and end frame can be set to the *Time Cursor* by pressing :kbd:`S` or
-:kbd:`E`\ .
+:kbd:`E`.
 The *Playback Range* can also be set by pressing :kbd:`P` then drawing a box.
 
 
@@ -122,18 +122,18 @@ View Menu
 The *View Menu* controls what you see, and what it looks like.
 
 *Toggle Full Screen*
-    Maximize or minimize the *Timeline* window. :kbd:`ctrl-Arrow Up` or :kbd:`ctrl-Arrow Down`
+   Maximize or minimize the *Timeline* window. :kbd:`ctrl-Arrow Up` or :kbd:`ctrl-Arrow Down`
 
 *Duplicate Area into New Window*
-    This creates a new OS window, and sets the editor window to the *Timeline*\ .
+   This creates a new OS window, and sets the editor window to the *Timeline*.
 
 *Bind Camera to Markers*
-    This is used switch cameras during animation.
-    It binds the active camera to the selected markers.
-    First select a camera. Then select the marker(s). Then use the function. :kbd:`Ctrl-B`
+   This is used switch cameras during animation.
+   It binds the active camera to the selected markers.
+   First select a camera. Then select the marker(s). Then use the function. :kbd:`Ctrl-B`
 
 *Cache*
-    This will display the baked *Cache Steps* for the active object.
+   This will display the baked *Cache Steps* for the active object.
 
 
 .. figure:: /images/K_Doc_Timeline_Cache.jpg
@@ -142,21 +142,21 @@ The *View Menu* controls what you see, and what it looks like.
 
 
    *Show Cache*
-       Show all enabled types.
+      Show all enabled types.
 
-   *Softbody*\ , *Particles*\ , *Cloth*\ , *Smoke*\ , *Dynamic Paint*\ , *Rigid Body*\ .
+   *Softbody*, *Particles*, *Cloth*, *Smoke*, *Dynamic Paint*, *Rigid Body*.
 
 *Only Selected Channels*
-    For *Armatures*\ , this will draw the object keyframes, and the keyframes for the active and selected pose bones.
+   For *Armatures*, this will draw the object keyframes, and the keyframes for the active and selected pose bones.
 
 *Show Frame Number Indicator*
-    This will draw the current frame or seconds on the *Time Cursor*\ .
+   This will draw the current frame or seconds on the *Time Cursor*.
 
 *View All*
-    Maximize the *Timeline* area based on the Animation Range. :kbd:`home`
+   Maximize the *Timeline* area based on the Animation Range. :kbd:`home`
 
 *Show Seconds*
-    Show time in seconds for the *Timeline* and the the *Time Cursor* based on the FPS. :kbd:`Ctrl-T`
+   Show time in seconds for the *Timeline* and the the *Time Cursor* based on the FPS. :kbd:`Ctrl-T`
 
 
 Marker Menu
@@ -167,36 +167,36 @@ Jump to Previous Marker
 Jump to Next Marker
 
 Grab/Move Marker
-    Grab/Move the selected markers. :kbd:`G`
+   Grab/Move the selected markers. :kbd:`G`
 
 Rename Marker
-    Rename the active marker. :kbd:`Ctrl-M`
+   Rename the active marker. :kbd:`Ctrl-M`
 
 Delete Marker
-    Delete selected markers. :kbd:`X`
+   Delete selected markers. :kbd:`X`
 
 Duplicate Marker to Scene...
-    Duplicate the selected markers to another scene.
+   Duplicate the selected markers to another scene.
 
 Duplicate Marker
-    Duplicate the selected markers. :kbd:`Shift-D`
+   Duplicate the selected markers. :kbd:`Shift-D`
 
 Add Marker
-    Add marker to the current frame. :kbd:`M`
+   Add marker to the current frame. :kbd:`M`
 
 
 Frame Menu
 ----------
 
 *Auto-Keyframing Mode*
-    This controls how the Auto Keyframe mode works.
-    Only one mode can be used at a time.
+   This controls how the Auto Keyframe mode works.
+   Only one mode can be used at a time.
 
    *Add & Replace*
-       Add or Replace existing keyframes.
+      Add or Replace existing keyframes.
 
    *Replace*
-       Only Replace existing keyframes.
+      Only Replace existing keyframes.
 
 
 Playback Menu
@@ -230,9 +230,9 @@ Playback Menu
 - *Property Editors*
   When the animation is playing, this will update the property values in the UI.
 - *Animation Editors*
-  While playing, updates the *Timeline*\ , *Dope Sheet*\ , *Graph Editor*\ , *Video Sequence Editor*\ .
+  While playing, updates the *Timeline*, *Dope Sheet*, *Graph Editor*, *Video Sequence Editor*.
 - *All 3D View Editors*
-  While playing, updates the *3D View* and the the *Timeline*\ .
+  While playing, updates the *3D View* and the the *Timeline*.
 - *Top-Left 3D Editor*
   While playing, updates the *Timeline* if *Animation Editors* and *All 3D View Editors* disabled.
 
@@ -254,31 +254,31 @@ The Timeline header controls.
 _____________________
 
    Use Preview Range
-       This is an alternative range used to preview animations.
-       This works for the UI playback, this will not work for rendering an animation.
+      This is an alternative range used to preview animations.
+      This works for the UI playback, this will not work for rendering an animation.
 
    Lock Time Cursor to Playback Range
-       This limits the *Time Cursor* to the *Playback Range*\ .
+      This limits the *Time Cursor* to the *Playback Range*.
 
 
 '''II''' Frame Control
 ______________________
 
    Start Frame
-       The start frame of the animation / playback range.
+      The start frame of the animation / playback range.
 
    End Frame
-       The end frame of the animation / playback range.
+      The end frame of the animation / playback range.
 
    Current Frame
-       The current frame of the animation / playback range.
-       Also the position of the *Time Cursor*\ .
+      The current frame of the animation / playback range.
+      Also the position of the *Time Cursor*.
 
 
 '''III''' Player Control
 ________________________
 
-    These button are used to set, play, rewind, the *Time Cursor*\ .
+   These button are used to set, play, rewind, the *Time Cursor*.
 
 
 .. figure:: /images/K_Doc_Timeline_Player_Controls.jpg
@@ -287,27 +287,27 @@ ________________________
 
 
    *Jump to start*
-       This sets the cursor to the start of frame range. :kbd:`shift-ctrl-Arrow Down` or :kbd:`shift-Arrow Left`
+      This sets the cursor to the start of frame range. :kbd:`shift-ctrl-Arrow Down` or :kbd:`shift-Arrow Left`
 
    *Jump to previous keyframe*
-       This sets the cursor to the previous keyframe. :kbd:`Arrow Down`
+      This sets the cursor to the previous keyframe. :kbd:`Arrow Down`
 
    *Rewind*
-       This plays the animation sequence in reverse. :kbd:`shift-alt-A`
-       When playing the play buttons switch to a pause button.
+      This plays the animation sequence in reverse. :kbd:`shift-alt-A`
+      When playing the play buttons switch to a pause button.
 
    *Play*
-       This plays the animation sequence. :kbd:`alt-A`
-       When playing the play buttons switch to a pause button.
+      This plays the animation sequence. :kbd:`alt-A`
+      When playing the play buttons switch to a pause button.
 
    *Jump to next keyframe*
-       This sets the cursor to the next keyframe. :kbd:`Arrow Up`
+      This sets the cursor to the next keyframe. :kbd:`Arrow Up`
 
    *Jump to end*
-       This sets the cursor to the end of frame range. :kbd:`shift-ctrl-Arrow Up` or :kbd:`shift-Arrow Right`
+      This sets the cursor to the end of frame range. :kbd:`shift-ctrl-Arrow Up` or :kbd:`shift-Arrow Right`
 
    *Pause*
-       This stops the animation. :kbd:`alt-A`
+      This stops the animation. :kbd:`alt-A`
 
 
 '''IV''' Synchronize Playback
@@ -320,18 +320,18 @@ _____________________________
 
 
    When you play an animation, the FPS is displayed at the top left of the 3D View.
-   If the scene is detailed and playback is slower than the set :doc:`Frame Rate <render/output/video#dimensions_presets>`\ , these options are used to synchronize the playback.
+   If the scene is detailed and playback is slower than the set :doc:`Frame Rate <render/output/video#dimensions_presets>`, these options are used to synchronize the playback.
 
    *No Sync*
-       Do not sync, play every frame.
+      Do not sync, play every frame.
 
    *Frame Dropping*
-       Drop frames if playback is too slow.
-       This enables *Frame Dropping* from the *Playback Menu*\ .
+      Drop frames if playback is too slow.
+      This enables *Frame Dropping* from the *Playback Menu*.
 
    *AV-sync*
-       Sync to audio clock, dropping frames if playback is slow.
-       This enables *AV-sync* and *Frame Dropping* from the *Playback Menu*\ .
+      Sync to audio clock, dropping frames if playback is slow.
+      This enables *AV-sync* and *Frame Dropping* from the *Playback Menu*.
 
 
 '''V''' Keyframe Control
@@ -343,14 +343,14 @@ ________________________
 
 
    *Auto Keyframe*
-       The "Record" red-dot button enables something called *Auto Keyframe*\ : It will add and/or replace existing keyframes for the active object when you transform it in the 3D view.
+      The "Record" red-dot button enables something called *Auto Keyframe* : It will add and/or replace existing keyframes for the active object when you transform it in the 3D view.
 
-       For example, when enabled, first set the *Time Cursor* to the desired frame, then move an object in the 3d view, or set a new value for a property in the UI.
+      For example, when enabled, first set the *Time Cursor* to the desired frame, then move an object in the 3d view, or set a new value for a property in the UI.
 
-       When you set a new value for the properties, blender will add keyframes on the current frame for the transform properties.
+      When you set a new value for the properties, blender will add keyframes on the current frame for the transform properties.
 
       *Auto Keying Set* - Optional if Auto Keyframe enabled.
-          *Auto Keyframe* will insert new keyframes for the properties in the active *Keying Set*\ .
+          *Auto Keyframe* will insert new keyframes for the properties in the active *Keying Set*.
 
       Note that *Auto Keyframe* only works for transform properties (objects and bones), in the 3D views (i.e. you cant use it e.g. to animate the colors of a material in the Properties window…).
 
@@ -376,21 +376,21 @@ ________________________
 
 
    *Active Keying Set*
-       *Keying Sets* are a set of keyframe channels in one.
+      *Keying Sets* are a set of keyframe channels in one.
 
-       They are made so the user can record multiple properties at the same time.
+      They are made so the user can record multiple properties at the same time.
 
-       With a keying set selected, when you insert a keyframe, blender will add keyframes for the properties in the active *Keying Set*\ .
+      With a keying set selected, when you insert a keyframe, blender will add keyframes for the properties in the active *Keying Set*.
 
-       There are some built in keying sets, 'LocRotScale', and also custom keying sets.
+      There are some built in keying sets, 'LocRotScale', and also custom keying sets.
 
-       Custom keying sets can be defined in the in the panels *Properties > Scene > Keying Sets + Active Keying Set*\ .
+      Custom keying sets can be defined in the in the panels *Properties > Scene > Keying Sets + Active Keying Set*.
 
    Insert Keyframes
-       Insert keyframes on the current frame for the properties in the active *Keying Set*\ .
+      Insert keyframes on the current frame for the properties in the active *Keying Set*.
 
    Delete Keyframes
-       Delete keyframes on the current frame for the properties in the active *Keying Set*\ .
+      Delete keyframes on the current frame for the properties in the active *Keying Set*.
 
 
 User Preferences
@@ -401,7 +401,7 @@ Some related user preferences from the **Editing** tab.
 *Playback*
       *Allow Negative Frames*
           Time Cursor can be set to negative frames with mouse or keyboard.
-          When using *Use Preview Range*\ , this also allows playback.
+          When using *Use Preview Range*, this also allows playback.
 *Keyframing*
       *Visual Keying*
           When an object is using constraints, the objects property value doesnt actually change.
@@ -411,7 +411,7 @@ Some related user preferences from the **Editing** tab.
       *Auto Keyframing*
           Enable *Auto Keyframe* by default for new scenes.
       *Show Auto Keying Warning*
-          Displays a warning at the top right of the *3D View*\ , when moving objects, if *Auto Keyframe* is on.
+          Displays a warning at the top right of the *3D View*, when moving objects, if *Auto Keyframe* is on.
       *Only Insert Available*
           With *Auto Keyframe* enabled, this will only add keyframes to channel F-Curves that already exist.
 

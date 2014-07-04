@@ -76,20 +76,20 @@ Material are as follows:
  - Available Materials
    See Reusing Existing Materials below.
 **Name**
-    Like other datablocks, Blender will automatically set the name of the new material to Material, Material.001 and so on. You can change this by over-typing with your own choice of name.
+   Like other datablocks, Blender will automatically set the name of the new material to Material, Material.001 and so on. You can change this by over-typing with your own choice of name.
 
 **Number of Users**
-    Specifies the number of meshes which use this material.
+   Specifies the number of meshes which use this material.
 **F**  - Fake User;
    If lit, this material will always be saved within the Blender file, even if it has no meshes which use it (see Deleting a Material).
 **X**
-    Delete this material (see Deleting a Material).
+   Delete this material (see Deleting a Material).
 
 
 .. admonition:: Naming materials
    :class: nicetip
 
-    It's a very good idea to give your materials clear names so you can keep track of them, especially when they're linked to multiple objects. Try to make your names descriptive of the material, not its function (e.g. "Yellow Painted" rather than "Kitchen Table Color")
+   It's a very good idea to give your materials clear names so you can keep track of them, especially when they're linked to multiple objects. Try to make your names descriptive of the material, not its function (e.g. "Yellow Painted" rather than "Kitchen Table Color")
 
 
 **Nodes**
@@ -108,8 +108,8 @@ Material are as follows:
    Link material to object or to object's data
 
 
-    The Link pop-up menu has two choices, Data and Object. These two menu choices determine whether the material is linked to the object or to the data, (in this case) the mesh (or curve, nurbs, etc.). The Data menu item determines that this material will be linked to the mesh's datablock which is linked to the object's datablock. The Object menu item determines that the material will be linked to the object's data block directly.
-    This has consequences of course. For example, different objects may share the same mesh datablock. Since this datablock defines the shape of the object, any change in edit mode will be reflected on all of those objects. Moreover, anything linked to that mesh datablock will be shared by every object that shares that mesh. So, if the material is linked to the mesh, every object will share it.
+   The Link pop-up menu has two choices, Data and Object. These two menu choices determine whether the material is linked to the object or to the data, (in this case) the mesh (or curve, nurbs, etc.). The Data menu item determines that this material will be linked to the mesh's datablock which is linked to the object's datablock. The Object menu item determines that the material will be linked to the object's data block directly.
+   This has consequences of course. For example, different objects may share the same mesh datablock. Since this datablock defines the shape of the object, any change in edit mode will be reflected on all of those objects. Moreover, anything linked to that mesh datablock will be shared by every object that shares that mesh. So, if the material is linked to the mesh, every object will share it.
    On the other hand, if the material is linked directly to the object datablock, the objects can have different materials and still share the same mesh. Short explanation: If connected to the object, you can have several instances of the same obData using different materials. If linked to mesh data, you can't. See :doc:`Data System <data_system/data_system>` for more information.
 
 
@@ -117,13 +117,13 @@ Material are as follows:
 
    This menu has four options which define how the object is to be rendered:
 **Surface**
-    Material applied to object planes.
+   Material applied to object planes.
 **Wire**
      Material applied to wires following the object edges
 **Volume**
-    Material applied to the object volume.
+   Material applied to the object volume.
 **Halos**
-    Material applied to halos around each object vertex.
+   Material applied to halos around each object vertex.
 
 
 FIXME(TODO: Internal Link;
@@ -154,7 +154,7 @@ FIXME(TODO: Internal Link;
 Reusing Existing Materials
 --------------------------
 
-Blender is built to allow you to reuse *anything*\ , including material settings,
+Blender is built to allow you to reuse *anything*, including material settings,
 between many objects. Instead of creating duplicate materials,
 you can simply re-use an existing material.
 There are several ways to do this using the Available Materials menu:
@@ -178,7 +178,7 @@ There are several ways to do this using the Available Materials menu:
    The search field at the bottom of the material list allows you to search the names in the list.  For example, by entering "wood" all existent materials are filtered so that only materials containing "wood" are displayed in the list.
 
 
-   :guilabel:`Multiple Objects -`  In the 3D View, with :kbd:`ctrl-L` you can quickly link all selected objects to the material (and other aspects) of the :doc:`active object <modeling/objects/selecting#selections_and_the_active_object>`\ . Very useful if you need to set a large number of objects to the same material; just select all of them, then the object that has the desired material, and :kbd:`ctrl-L` link them to that "parent". (See Tip on Linking Data in Creating about data linking.)
+   :guilabel:`Multiple Objects -`  In the 3D View, with :kbd:`ctrl-L` you can quickly link all selected objects to the material (and other aspects) of the :doc:`active object <modeling/objects/selecting#selections_and_the_active_object>`. Very useful if you need to set a large number of objects to the same material; just select all of them, then the object that has the desired material, and :kbd:`ctrl-L` link them to that "parent". (See Tip on Linking Data in Creating about data linking.)
 
 
 Deleting a Material

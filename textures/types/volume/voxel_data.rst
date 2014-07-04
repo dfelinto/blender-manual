@@ -26,15 +26,15 @@ Settings
 
 :guilabel:`File Format`
    :guilabel:`Blender Voxel`
-       Default binary voxel file format.
+      Default binary voxel file format.
    :guilabel:`8 bit RAW`
-       8 bit grayscale binary data.
+      8 bit grayscale binary data.
    :guilabel:`Image Sequence`
-       Generate voxels from a sequence of image slices.
+      Generate voxels from a sequence of image slices.
    :guilabel:`Smoke`
-       Render voxels from a Blender smoke simulation.
+      Render voxels from a Blender smoke simulation.
 
-:guilabel:`Source Path`\ :The external source data file to use for 8 bit Raw data and Blender Voxel formats
+:guilabel:`Source Path`:The external source data file to use for 8 bit Raw data and Blender Voxel formats
 
 :guilabel:`Domain Object (Smoke)`
    Object used as the smoke simulation domain
@@ -49,26 +49,26 @@ Settings
    :guilabel:`Velocity`
       Use smoke velocity as texture data.
 
-:guilabel:`Resolution`\ :Resolution of the voxel grid when using 8 bit Raw data.
+:guilabel:`Resolution`:Resolution of the voxel grid when using 8 bit Raw data.
 
 :guilabel:`Interpolation`
    :guilabel:`Nearest Neighbor`
-       No interpolation, fast but blocky and low quality.
+      No interpolation, fast but blocky and low quality.
    :guilabel:`Linear`
-       Good smoothness and speed.
+      Good smoothness and speed.
    :guilabel:`Quadratic`
-       Mid-range quality and speed.
+      Mid-range quality and speed.
    :guilabel:`Cubic Catmull-Rom`
-       Smoothed high quality interpolation, but slower.
+      Smoothed high quality interpolation, but slower.
 
 
 :guilabel:`Extension`
    :guilabel:`Extend`
-       Extend by repeating edge pixels of the image.
+      Extend by repeating edge pixels of the image.
    :guilabel:`Clip`
-       Clip to image size and set exterior pixels as transparent.
+      Clip to image size and set exterior pixels as transparent.
    :guilabel:`Repeat`
-       Cause the image to repeat horizontally and vertically.
+      Cause the image to repeat horizontally and vertically.
 
 :guilabel:`Intensity`
    Multiplier for intensity values

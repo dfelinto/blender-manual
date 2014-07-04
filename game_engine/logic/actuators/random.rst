@@ -34,11 +34,12 @@ which is useful for test purposes.
 
 
 :guilabel:`Float Neg. Exp.`
-Values drop off exponentially with the specified half-life time.
+   Values drop off exponentially with the specified half-life time.
+
    **Property**
-       Float property to  receive value
+      Float property to  receive value
    **Half-Life Time**
-       Half-life time (Range 0.00 -10000.00)
+      Half-life time (Range 0.00 -10000.00)
 
 
 .. figure:: /images/BGE_Actuator_Random_Float_Normal.jpg
@@ -49,13 +50,14 @@ Values drop off exponentially with the specified half-life time.
 
 
 :guilabel:`Float normal`
-Random numbers from a normal distribution.
+   Random numbers from a normal distribution.
+
    **Property**
-       Float property to  receive value
+      Float property to  receive value
    **Mean**
-       Mean of normal distribution (Range -10000.00 to +10000.00)
+      Mean of normal distribution (Range -10000.00 to +10000.00)
    **SD**
-       Standard deviation of normal distribution (Range 0.00 to +10000.00)
+      Standard deviation of normal distribution (Range 0.00 to +10000.00)
 
 
 .. figure:: /images/BGE_Actuator_Random_Float_Uniform.jpg
@@ -66,9 +68,10 @@ Random numbers from a normal distribution.
 
 
 :guilabel:`Float uniform`
-Random values selected uniformly between maximum and minimum.
+   Random values selected uniformly between maximum and minimum.
+
    **Property**
-       Float property to  receive value
+      Float property to  receive value
    **Min**
       Minimum value (Range -10000.00 to +10000.00)
    **Max**
@@ -83,11 +86,12 @@ Random values selected uniformly between maximum and minimum.
 
 
 :guilabel:`Float constant`
-Returns a constant value.
+   Returns a constant value.
+
    **Property**
-       Float property to  receive value
+      Float property to  receive value
    **Value**
-       Value (Range 0.00 to +1.00)
+      Value (Range 0.00 to +1.00)
 
 
 .. figure:: /images/BGE_Actuator_Random_Int_Poisson.jpg
@@ -98,11 +102,12 @@ Returns a constant value.
 
 
 :guilabel:`Int Poisson`
-Random numbers from a Poisson distribution.
+   Random numbers from a Poisson distribution.
+
    **Property**
-       Integer property to  receive value
+      Integer property to  receive value
    **Mean**
-       Mean of Poisson distribution (Range 0.01 to +100.00)
+      Mean of Poisson distribution (Range 0.01 to +100.00)
 
 
 .. figure:: /images/BGE_Actuator_Random_Int_Uniform.jpg
@@ -113,9 +118,10 @@ Random numbers from a Poisson distribution.
 
 
 :guilabel:`Int uniform`
-Random values selected uniformly between maximum and minimum.
+   Random values selected uniformly between maximum and minimum.
+
    **Property**
-       Integer property to  receive value
+      Integer property to  receive value
    **Min**
       Minimum value (Range -1000 to +1000)
    **Max**
@@ -130,11 +136,12 @@ Random values selected uniformly between maximum and minimum.
 
 
 :guilabel:`Int constant`
-Returns a constant value.
+   Returns a constant value.
+
    **Property**
-       Integer property to  receive value
+      Integer property to  receive value
    **Value**
-       Value (Range 0.00 to +1.00)
+      Value (Range 0.00 to +1.00)
 
 
 .. figure:: /images/BGE_Actuator_Random_Bool_Bernoulli.jpg
@@ -145,9 +152,10 @@ Returns a constant value.
 
 
 :guilabel:`Bool Bernoulli`
-Returns a random distribution with specified ratio of TRUE pulses.
+   Returns a random distribution with specified ratio of TRUE pulses.
+
    **Property**
-       Boolean property to  receive value
+      Boolean property to  receive value
    **Chance**
       Proportion of TRUE responses required.
 
@@ -160,9 +168,10 @@ Returns a random distribution with specified ratio of TRUE pulses.
 
 
 :guilabel:`Bool uniform`
-A 50/50 chance of obtaining True/False.
+   A 50/50 chance of obtaining True/False.
+
    **Property**
-       Boolean property to  receive value
+      Boolean property to  receive value
 
 
 .. figure:: /images/BGE_Actuator_Random_Bool_Constant.jpg
@@ -173,10 +182,11 @@ A 50/50 chance of obtaining True/False.
 
 
 :guilabel:`Bool constant`
-Returns a constant value.
+   Returns a constant value.
+
    **Property**
-       Boolean property to  receive value
+      Boolean property to  receive value
    **Value**
-       Value (True or False)
+      Value (True or False)
 
 

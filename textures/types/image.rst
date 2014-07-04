@@ -10,7 +10,7 @@ not only as a simple "decal".
 
 When the Texture Type :guilabel:`Image or Movie` is selected, three new panels present
 themselves allowing us to control most aspects of how image textures are applied:
-:guilabel:`Image`\ , :guilabel:`Image Sampling`\ , and :guilabel:`Image Mapping`\ .
+:guilabel:`Image`, :guilabel:`Image Sampling`, and :guilabel:`Image Mapping`.
 
 
 About Image Based Texturing
@@ -69,7 +69,7 @@ Workflow
 
 The process consists of the following steps.
 
-- Create the Mesh. :doc:`Unwrap <textures/mapping/uv/unwrapping>` it into one or more :doc:`UV Layouts <textures/mapping/uv/layout_management>`\ .
+- Create the Mesh. :doc:`Unwrap <textures/mapping/uv/unwrapping>` it into one or more :doc:`UV Layouts <textures/mapping/uv/layout_management>`.
 - Create one or more Materials for the Mesh.
 - Create one or more images for each UV Layout and aspect of the texture. Either
   - paint directly on the mesh using Texture Paint in the 3D window,
@@ -89,7 +89,7 @@ To use an image as the color and alpha (transparency) of the texture, you can cr
 in an external paint program and tell the UV/Image Editor to Open that file as the texture,
 or you can create a New image and save it as the texture.
 
-If you want to start off by creating an image using an external paint program, you will want to save an outline of your UV faces by using the :guilabel:`Save UV Face Layout` tool located in the UVs menu. This is discussed :doc:`here <textures/mapping/uv/applying_image#saving_an_outline_of_your_uv_layout>`\ .
+If you want to start off by creating an image using an external paint program, you will want to save an outline of your UV faces by using the :guilabel:`Save UV Face Layout` tool located in the UVs menu. This is discussed :doc:`here <textures/mapping/uv/applying_image#saving_an_outline_of_your_uv_layout>`.
 
 
 Creating an Image Texture
@@ -231,7 +231,7 @@ you should now be able to recreate this image.
 
 You can also assign :doc:`multiple materials <materials/multiple_materials>` to the mesh based on which faces you want to be procedural and which you want to be texture-mapped. Just don't UV map the faces you want to be procedural.
 
-You can use UV Textures and VertexPaint (\ :kbd:`V` in the 3D View window) simultaneously,
+You can use UV Textures and VertexPaint (:kbd:`V` in the 3D View window) simultaneously,
 if both are enabled in the Material settings.
 The vertex colors are used to modulate the brightness or color of the UV image texture:
 
@@ -291,7 +291,7 @@ Transparent areas of the UV Image show as black.
 
 The top right ball has had a pink vertex color applied to the vertical band of faces
 (in the 3D View window, select the faces in UV Paint mode, switch to Vertex Paint mode,
-pick a pink color, and :guilabel:`Paint→Set Vertex Colors`\ ).
+pick a pink color, and :guilabel:`Paint→Set Vertex Colors`).
 The finger is mapped to the middle vertical band of faces,
 and VCol and Face Textures are enabled.
 The texture is mapped to Alpha black and multiplies the base material alpha value which is 1.
@@ -382,7 +382,7 @@ Image
 
 
 In the :guilabel:`Image Sampling` panel we tell Blender which source file to use.
-:guilabel:`Image or Movie Datablock`\ :
+:guilabel:`Image or Movie Datablock`:
 
    :guilabel:`Browse`
       Select an image or video among linked to the .blend file
@@ -397,20 +397,20 @@ In the :guilabel:`Image Sampling` panel we tell Blender which source file to use
    :guilabel:`X`
       Unlink this image or movie.
 
-:guilabel:`Source`\ :
-    Where the image come from. What kind of source file to use.
+:guilabel:`Source`:
+   Where the image come from. What kind of source file to use.
 
    :guilabel:`Generated`
-       Generated image in Blender.
+      Generated image in Blender.
    :guilabel:`Movie`
-       Movie file.
+      Movie file.
    :guilabel:`Image Sequence`
-       Multiple image files as a sequence.
+      Multiple image files as a sequence.
    :guilabel:`Single Image`
-       Single image file.
+      Single image file.
 
-:guilabel:`File for Image or Movie texture`\ :
-    See about supported :doc:`Image <data_system/files/formats>` formats.
+:guilabel:`File for Image or Movie texture`:
+   See about supported :doc:`Image <data_system/files/formats>` formats.
 
    :guilabel:`Pack image`
       Embed image into current .blend file
@@ -422,41 +422,41 @@ In the :guilabel:`Image Sampling` panel we tell Blender which source file to use
       Reloads the file.  Useful when an image has been rework in an external application.
 
 :guilabel:`Input Color Space`
-    Color space of the image or movie on disk
+   Color space of the image or movie on disk
 
    :guilabel:`XYZ`
-       XYZ space.
+      XYZ space.
    :guilabel:`VD16`
-       The simple video conversion from a gamma 2.2 sRGB space.
+      The simple video conversion from a gamma 2.2 sRGB space.
    :guilabel:`sRGB`
-       Standart RGB display space.
+      Standart RGB display space.
    :guilabel:`Raw`
-       Raw space.
+      Raw space.
    :guilabel:`Non-Color`
-       Color space used for images which contains non-color data (i.e. normal maps).
+      Color space used for images which contains non-color data (i.e. normal maps).
    :guilabel:`Linear ACES`
-       ACES linear space.
+      ACES linear space.
    :guilabel:`Linear`
-       709 (full range). Blender native linear space.
+      709 (full range). Blender native linear space.
 
    :guilabel:`View as Render`
-       Apply render part of display transformation when displaying this image on the screen.
+      Apply render part of display transformation when displaying this image on the screen.
 
 :guilabel:`Use Alpha`
-    Use the alpha channel information from the image or make image fully opaque
+   Use the alpha channel information from the image or make image fully opaque
 
    :guilabel:`Straight`
-       Transparent RGB and alpha pixels are unmodified.
+      Transparent RGB and alpha pixels are unmodified.
    :guilabel:`Premultiplied`
-       Transparent RGB pixels of an image are multiplied by the image's alpha value.
+      Transparent RGB pixels of an image are multiplied by the image's alpha value.
 
 :guilabel:`Fields`
-    Work with field images.  Video frames consist of two different images (fields) that are merged.  This option ensures that when :guilabel:`Fields` are rendered, the correct field of the image is used in the correct field of the rendering. :guilabel:`MIP Mapping` cannot be combined with :guilabel:`Fields`\ .
+   Work with field images.  Video frames consist of two different images (fields) that are merged.  This option ensures that when :guilabel:`Fields` are rendered, the correct field of the image is used in the correct field of the rendering. :guilabel:`MIP Mapping` cannot be combined with :guilabel:`Fields`.
 
    :guilabel:`Upper First`
-       Order of video fields - upper field first.
+      Order of video fields - upper field first.
    :guilabel:`Lower First`
-       Order of video fields - lower field first.
+      Order of video fields - lower field first.
 
 
 .. figure:: /images/26-Manual-Textures-Image-panel-Generated.jpg
@@ -469,19 +469,19 @@ In the :guilabel:`Image Sampling` panel we tell Blender which source file to use
 For :guilabel:`Generated` source there are the specific options:
 :guilabel:`X` and :guilabel:`Y` size
 
-    Width and height of image to be generated.
+   Width and height of image to be generated.
 
 :guilabel:`Generated Image Type`
-    Which kind of image to be generated
+   Which kind of image to be generated
 
    :guilabel:`Blank`
-       Generate a blank image.
+      Generate a blank image.
    :guilabel:`UV Grid`
-       Generated grid to test UV mappings.
+      Generated grid to test UV mappings.
    :guilabel:`Color Grid`
-       Generated improved UV grid to test UV mappings.
+      Generated improved UV grid to test UV mappings.
 :guilabel:`Float Buffer`
-    Generate floating point buffer.
+   Generate floating point buffer.
 
 
 About specific options for **movie** and **image sequence** source see :doc:`here <textures/types/video>`
@@ -520,17 +520,17 @@ the horizontal bar has 50% alpha.
 +-----------------------------------------------------------------------------------------------+-----------------------------------------------+
 
 :guilabel:`Alpha`
-    Options related to transparency
+   Options related to transparency
 
    :guilabel:`Use`
-       Works with PNG and TGA files since they can save transparency information (Foreground Image with UseAlpha). Where the alpha value in the image is less than 1.0, the object will be partially transparent and stuff behind it will show.
+      Works with PNG and TGA files since they can save transparency information (Foreground Image with UseAlpha). Where the alpha value in the image is less than 1.0, the object will be partially transparent and stuff behind it will show.
    :guilabel:`Calculate`
-       Calculate an alpha based on the RGB values of the Image. Black (0,0,0) is transparent, white (1,1,1) opaque. Enable this option if the image texture is a mask. Note that mask images can use shades of gray that translate to semi-transparency, like ghosts, flames, and smoke/fog.
+      Calculate an alpha based on the RGB values of the Image. Black (0,0,0) is transparent, white (1,1,1) opaque. Enable this option if the image texture is a mask. Note that mask images can use shades of gray that translate to semi-transparency, like ghosts, flames, and smoke/fog.
    :guilabel:`Invert`
-       Reverses the alpha value. Use this option if the mask image has white where you want it transparent and vice-versa.
+      Reverses the alpha value. Use this option if the mask image has white where you want it transparent and vice-versa.
 
 :guilabel:`Flip X/Y Axis`
-    Rotates the image 90 degrees counterclockwise when rendered.
+   Rotates the image 90 degrees counterclockwise when rendered.
 
 
 .. figure:: /images/25-Manual-Textures-ImageSampling-panel.jpg
@@ -547,14 +547,14 @@ the horizontal bar has 50% alpha.
    See :doc:`Bump and Normal Maps <textures/influence/material/bump_and_normal>`.
 
 
-   :guilabel:`Normal Map Space`\ :
-      :guilabel:`Tangent`\ :
-      :guilabel:`Object`\ :
-      :guilabel:`World`\ :
-      :guilabel:`Camera`\ :
+   :guilabel:`Normal Map Space`:
+      :guilabel:`Tangent`:
+      :guilabel:`Object`:
+      :guilabel:`World`:
+      :guilabel:`Camera`:
 
 :guilabel:`Derivative Map`
-    Use red and green as derivative values.
+   Use red and green as derivative values.
 
 :guilabel:`MIP Map`
    `MIP Maps <http://en.wikipedia.org/wiki/Mipmap>`__ are pre-calculated, smaller,
@@ -567,7 +567,7 @@ the horizontal bar has 50% alpha.
 
 
    :guilabel:`MIP Map Gaussian filter`
-       Used in conjunction with MIP Map, it enables the MIP Map to be made smaller based on color similarities.  In the game engine, you want your textures, especially your MIP Map textures, to be as small as possible to increase rendering speed and frame rate.
+      Used in conjunction with MIP Map, it enables the MIP Map to be made smaller based on color similarities.  In the game engine, you want your textures, especially your MIP Map textures, to be as small as possible to increase rendering speed and frame rate.
 
 
 +-----------------------------------------------------------------+----------------------------------------------------------------+
@@ -589,29 +589,29 @@ the difference with and without :guilabel:`Interpolation` is clearly visible.
 Turn this image off if you are using digital photos to preserve crispness.
 
 :guilabel:`Filter`
-    The filter size used in rendering, and also by the options :guilabel:`MipMap` and :guilabel:`Interpolation`\ . If you notice gray lines or outlines around the textured object, particularly where the image is transparent, turn this value down from 1.0 to 0.1 or so.
+   The filter size used in rendering, and also by the options :guilabel:`MipMap` and :guilabel:`Interpolation`. If you notice gray lines or outlines around the textured object, particularly where the image is transparent, turn this value down from 1.0 to 0.1 or so.
 
    :guilabel:`Texture Filter Type`
-       Texture filter to use for image sampling.  Just like a *pixel* represents a *pic*\ ture *el*\ ement, a *texel* represents a *tex*\ ture *el*\ ement.  When a texture (2D texture space) is mapped onto a 3D model (3D model space), different algorithms can be used to compute a value for each pixel based on samplings from several texels.
+      Texture filter to use for image sampling.  Just like a *pixel* represents a *pic* ture *el* ement, a *texel* represents a *tex* ture *el* ement.  When a texture (2D texture space) is mapped onto a 3D model (3D model space), different algorithms can be used to compute a value for each pixel based on samplings from several texels.
 
       :guilabel:`Box`
           A fast and simple nearest-neighbor interpolation known as Monte Carlo integration
       :guilabel:`EWA`
-          **E**\ lliptical **W**\ eighted **A**\ verage — one of the most efficient direct convolution algorithms developed by Paul Heckbert and Ned Greene in the 1980s.  For each texel, EWA samples, weights, and accumulates texels within an elliptical footprint and then divides the result by the sum of the weights.
+          **E** lliptical **W** eighted **A** verage — one of the most efficient direct convolution algorithms developed by Paul Heckbert and Ned Greene in the 1980s.  For each texel, EWA samples, weights, and accumulates texels within an elliptical footprint and then divides the result by the sum of the weights.
 
          :guilabel:`Eccentricity`
-             Maximum Eccentricity. Higher values give less blur at distant/oblique angles, but is slower
+            Maximum Eccentricity. Higher values give less blur at distant/oblique angles, but is slower
       :guilabel:`FELINE`
-          FELINE (\ **F**\ ast **E**\ lliptical **Line**\ s), uses several isotropic probes at several points along a line in texture space to produce an anisotropic filter to reduce aliasing artifacts without considerably increasing rendering time.
+          FELINE (**F** ast **E** lliptical **Line** s), uses several isotropic probes at several points along a line in texture space to produce an anisotropic filter to reduce aliasing artifacts without considerably increasing rendering time.
 
          :guilabel:`Probes`
-             Number of probes to use.  An integer between 1 and 256.
-             Further reading: McCormack, J; Farkas, KI; Perry, R; Jouppi, NP (1999) `Simple and Table Feline: Fast Elliptical Lines for Anisotropic Texture Mapping <http://www.hpl.hp.com/techreports/Compaq-DEC/WRL-99-1.pdf>`__\ , WRL
+            Number of probes to use.  An integer between 1 and 256.
+            Further reading: McCormack, J; Farkas, KI; Perry, R; Jouppi, NP (1999) `Simple and Table Feline: Fast Elliptical Lines for Anisotropic Texture Mapping <http://www.hpl.hp.com/techreports/Compaq-DEC/WRL-99-1.pdf>`__, WRL
       :guilabel:`Area`
           Area filter to use for image sampling
 
          :guilabel:`Eccentricity`
-             Maximum Eccentricity. Higher values give less blur at distant/oblique angles, but is slower
+            Maximum Eccentricity. Higher values give less blur at distant/oblique angles, but is slower
 
    :guilabel:`Filter Size`
       The filter size used by MIP Map and Interpolation
@@ -631,7 +631,7 @@ Image Mapping
 
 In the :guilabel:`Image Mapping` panel,
 we can control how the image is mapped or projected onto the 3D model.
-:guilabel:`Extension`\ :
+:guilabel:`Extension`:
 
    :guilabel:`Extend`
       Outside the image the colors of the edges are extended

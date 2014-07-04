@@ -11,7 +11,6 @@ Snap
 
 ----
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -21,7 +20,7 @@ Snap
 
 The :guilabel:`Snap` menu
 (also available from the 3D header in both :guilabel:`Object` and :guilabel:`Edit` mode
-(\ :menuselection:`Object --> Snap` and :menuselection:`Mesh --> Snap`\ ).
+(:menuselection:`Object --> Snap` and :menuselection:`Mesh --> Snap`).
 This menu provides a number of options to move the cursor or your selection to a defined point
 (the cursor, selection or the grid).
 
@@ -32,7 +31,7 @@ This menu provides a number of options to move the cursor or your selection to a
 
 
 :guilabel:`Selection to Grid`
-    Snaps the currently selected object(s) to the nearest grid point.
+   Snaps the currently selected object(s) to the nearest grid point.
 
 :guilabel:`Selection to Cursor`
    Snaps the currently selected object(s) to the cursor location.
@@ -75,7 +74,10 @@ Snap Element
 
 
 :guilabel:`Volume`
-   Snaps to regions within the volume of the first Object found below the mouse cursor. Unlike the other options, this one controls the depth (i.e. Z-coordinates in current view space) of the transformed element. By toggling the button that appears to the right of the snap target menu (see below), target objects will be considered as a whole when determining the volume center.
+   Snaps to regions within the volume of the first Object found below the mouse cursor. Unlike the other options,
+   this one controls the depth (i.e. Z-coordinates in current view space) of the transformed element.
+   By toggling the button that appears to the right of the snap target menu (see below),
+   target objects will be considered as a whole when determining the volume center.
 :guilabel:`Face`
    Snap to the surfaces of faces in mesh objects. Useful for retopologizing.
 :guilabel:`Edge`
@@ -83,7 +85,10 @@ Snap Element
 :guilabel:`Vertex`
    Snap to vertices of mesh objects.
 :guilabel:`Increment`
-   Snap to grid points. When in Orthographic view, the snapping increment changes depending on zoom level. Please note: in this context the grid does not mean the visual grid cue displayed. Snapping will use the resolution of the displayed grid, but all transformations are relative to the initial position (before the snap operation).
+   Snap to grid points. When in Orthographic view, the snapping increment changes depending on zoom level.
+   Please note: in this context the grid does not mean the visual grid cue displayed.
+   Snapping will use the resolution of the displayed grid,
+   but all transformations are relative to the initial position (before the snap operation).
 
 
 Snap Target
@@ -94,8 +99,8 @@ Snap Target
    Snap Target menu.
 
 
-Snap target options become active when either :guilabel:`Vertex`\ , :guilabel:`Edge`\ ,
-:guilabel:`Face`\ , or :guilabel:`Volume` is selected as the snap element.
+Snap target options become active when either :guilabel:`Vertex`, :guilabel:`Edge`,
+:guilabel:`Face`, or :guilabel:`Volume` is selected as the snap element.
 These determine what part of the selection snaps to the target objects.
 
 :guilabel:`Active`
@@ -129,32 +134,26 @@ As seen by the red highlighted areas in the image above,
 additional controls are available to alter snap behaviour. These options vary between mode
 (Object and Edit) as well as Snap Element. The four options available are:
 
-
 -
 
 .. figure:: /images/3D-interaction_Transform-Control_Snap-snap-options-align-rotation.jpg
 
-
- Align rotation with the snapping target.
+   Align rotation with the snapping target.
 
 -
 
 .. figure:: /images/3D-interaction_Transform-Control_Snap-snap-options-project-elements.jpg
 
-
- Project individual elements on the surface of other objects.
+   Project individual elements on the surface of other objects.
 
 -
 
 .. figure:: /images/3D-interaction_Transform-Control_Snap-snap-options-snap-itself.jpg
 
-
- Snaps elements to its own mesh.
+   Snaps elements to its own mesh.
 
 -
 
 .. figure:: /images/3D-interaction_Transform-Control_Snap-snap-options-objects-whole.jpg
 
-
- Consider Objects as whole when finding volume center.
-
+   Consider Objects as whole when finding volume center.

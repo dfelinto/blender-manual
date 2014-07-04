@@ -43,7 +43,7 @@ The Blender User Interface is based on 3 principles:
 - **Non Blocking** : Tools and interface options do not block the user from any other parts of Blender. Blender doesn't pop up requesters that require the user to fill in data before things execute.
 - **Non Modal** : User input should remain as consistent and predictable as possible without changing commonly used methods (mouse, keyboard) on the fly.
 
-The User Interface has been reorganized. Old *Buttons Windows* are now **Properties**\ .
+The User Interface has been reorganized. Old *Buttons Windows* are now **Properties**.
 Properties present data to users. Everything you see in the Properties can be animated,
 driven, and freely changed by the user. This means there are no tools here.
 These go to the new **Toolbar** of the different editors (like 3D view).
@@ -107,7 +107,7 @@ it is easier for the developer to integrate scripts in the Blender interface
    :figwidth: 300px
 
 
-Furthermore, Blender 2.5 includes a new **Keymap Editor**\ .
+Furthermore, Blender 2.5 includes a new **Keymap Editor**.
 Hotkey/mouse definitions are grouped together in 'key maps'.
 For each editor in Blender as well as for all modes or modal tools like transform,
 there are multiple key maps.  Customizing the keys is done by making a local copy of the
@@ -124,7 +124,7 @@ Everything is animatable!
 In Blender 2.5 every property can be animated,
 from the output image size to the modifiers options. Now you can set keys in every editor:
 3D view, video sequence editor, Node editor (material, texture, composite)...
-This new system is called *Animato*\ .
+This new system is called *Animato*.
 
 
 FIXME(Link Type Unsupported: dev;

@@ -21,7 +21,7 @@ there are literally hundreds of addons written by many people:
 - Officially supported addons are bundled with Blender.
 - Other **Testing** addons are included in development builds but not official releases, many of them work reliably and are very useful but are not ensured to be stable for release.
 
-An Overview of all addons is available in this wiki in the `Scripts Catalog <http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts>`__ and in the `Extensions tracker <https://projects.blender.org/projects/bf-extensions/>`__\ .
+An Overview of all addons is available in this wiki in the `Scripts Catalog <http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts>`__ and in the `Extensions tracker <https://projects.blender.org/projects/bf-extensions/>`__.
 
 
 Scripts
@@ -41,20 +41,20 @@ Saving your own scripts
 File location
 ~~~~~~~~~~~~~
 
-All scripts are loaded from the ``scripts`` folder of the :doc:`local, system and user paths <introduction/installing_blender/directorylayout>`\ .
+All scripts are loaded from the ``scripts`` folder of the :doc:`local, system and user paths <introduction/installing_blender/directorylayout>`.
 
-You can setup an addittional search path for scripts in :doc:`User preferences <preferences/file#file_paths>` (\ :guilabel:`User Preferences` → :guilabel:`File Paths`\ ).
+You can setup an addittional search path for scripts in :doc:`User preferences <preferences/file#file_paths>` (:guilabel:`User Preferences` → :guilabel:`File Paths`).
 
 
 Installation
 ~~~~~~~~~~~~
 
-Addons are conveniently installed through Blender in the :guilabel:`User Preferences` →
+Addons are conveniently installed through Blender in the :guilabel:`User Preferences` →
 :guilabel:`Addons` window. Click the :guilabel:`Install from File...` button and select the
 ``.py`` or ``.zip`` file.
 
-To manually install scripts or addons place them in the ``addons``\ ,
-``modules``\ ,
+To manually install scripts or addons place them in the ``addons``,
+``modules``,
 ``presets`` or ``startup`` directory according to their type.
 See the description above.
 

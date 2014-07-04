@@ -12,7 +12,7 @@ There are two different strand methods available:
 Strand Primitives:
 
    - Are more memory efficient and faster, to make rendering of large amounts of fur and grass possible. For good performance, the render steps button should be lowered (e.g. 2 should be good enough fur), since the result will be a smoothed curve anyway. You need 1 to 2 render steps less than steps in the 3D window. Also, using more render parts helps to reduce memory usage.
-   - Have a distance of vision reduction (in the :guilabel:`Render` panel under :guilabel:`Child Simplification`\ ) for children from faces.
+   - Have a distance of vision reduction (in the :guilabel:`Render` panel under :guilabel:`Child Simplification`) for children from faces.
    - May be faded out towards the tip without an additional texture.
    - Are not ray traced. So they are not visible through ray-transparent materials or in a ray mirror (you can use *Environment Mapping* for that).
    - Have shape problems if they are rendered with a greater width.
@@ -61,7 +61,7 @@ The options for strand shading are in the :guilabel:`Strands` section of the
    Calculates the light as if the strands were very thin and round. This makes the hair appear brighter and shinier. Disabling the "Tangent Shading" option will still render nicely, but resembles more solid strands, as though made of metal or wood.
 
 :guilabel:`Shape`
-   This slider allows you to control the interpolation. Default (0.0) is a linear interpolation between :guilabel:`Root` and :guilabel:`Tip`\ . A negative value will make the strand narrower (spiky), a positive value will make it fatter.
+   This slider allows you to control the interpolation. Default (0.0) is a linear interpolation between :guilabel:`Root` and :guilabel:`Tip`. A negative value will make the strand narrower (spiky), a positive value will make it fatter.
 
 
 .. figure:: /images/Blender3D_StrandShapes.jpg
@@ -71,7 +71,7 @@ The options for strand shading are in the :guilabel:`Strands` section of the
    To fade out along the width of the strand. This works only for Strand Primitives. 0.0 is no fading at all, 1.0 linear fading out.
 
 :guilabel:`UV Layer`
-   You can texture polygon strands with a UV-Texture. Fill in the name of the UV-Set (not the texture) here. You also have to load the texture in the :guilabel:`Shading` context, :guilabel:`Texture` and :guilabel:`Material` sub-contexts (\ :guilabel:`Mapping`\ : :guilabel:`UV`\ ; you may use every :guilabel:`Influence` setting you like - especially the alpha value; see *Image 3*\ ).
+   You can texture polygon strands with a UV-Texture. Fill in the name of the UV-Set (not the texture) here. You also have to load the texture in the :guilabel:`Shading` context, :guilabel:`Texture` and :guilabel:`Material` sub-contexts (:guilabel:`Mapping`: :guilabel:`UV`; you may use every :guilabel:`Influence` setting you like - especially the alpha value; see *Image 3*).
 
 :guilabel:`Surface Diffuse`
    Computes the strand normal, taking the normal at the surface into account. This eases the coloring and lighting of hair a lot, especially for Strand Primitives. Essentially hair reacts similar to ordinary surfaces and don't show exaggerated strong and large specular highlights.
@@ -97,7 +97,7 @@ Strands can be textured along the strand, i.e. from root to tip. To do that you 
 :guilabel:`Strand/Particle` in the :guilabel:`Coordinates` drop-down in the
 :guilabel:`Mapping` panel of the :guilabel:`Material` sub-context.
 
-Pretty much the most important setting is shown in (\ *Image 4*\ ),
+Pretty much the most important setting is shown in (*Image 4*),
 how to fade the tip of a strand to alpha to make nice, fuzzy-looking hair.
 Normally you would use a linear blend texture for this.
 
@@ -113,8 +113,8 @@ Strand render Simplification
    Image 5: Strand render child simplification.
 
 
-If you use Strand Primitives (\ :guilabel:`Strand render` button)
-and have activated :guilabel:`Interpolated Children`\ ,
+If you use Strand Primitives (:guilabel:`Strand render` button)
+and have activated :guilabel:`Interpolated Children`,
 the :guilabel:`Child Simplification` option appears.
 The strand render has options to remove child strands as the object's faces become smaller.
 
@@ -129,6 +129,7 @@ The strand render has options to remove child strands as the object's faces beco
 
 :guilabel:`Viewport`
    This removes strands on faces that are outside of the viewport.
+
    :guilabel:`Rate`
       Controls how fast these are removed.
 

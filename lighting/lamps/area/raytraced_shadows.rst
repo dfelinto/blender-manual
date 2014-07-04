@@ -11,22 +11,22 @@ Area Raytraced Shadows
    Adaptive QMC settings
 
 
-The :guilabel:`Area` light source can only cast ray-traced shadows. The ray-traced shadows settings of this lamp are mostly shared with other lamps, as described in :doc:`Raytraced Properties <lighting/shadows/raytraced_properties>`\ . However, there are some specifics with this lamp, which are detailed below:
+The :guilabel:`Area` light source can only cast ray-traced shadows. The ray-traced shadows settings of this lamp are mostly shared with other lamps, as described in :doc:`Raytraced Properties <lighting/shadows/raytraced_properties>`. However, there are some specifics with this lamp, which are detailed below:
 
 
 Shadow Samples
 --------------
 
 :guilabel:`Samples`
-   This have the same role as with other lamps, but when using a :guilabel:`Rectangle` :guilabel:`Area` lamp, you have two samples settings: :guilabel:`Samples X` and :guilabel:`Samples Y`\ , for the two axes of the area plane.
-    Note also that when using the :guilabel:`Constant Jittered` sample generator method, this is more or less equivalent to the number of virtual lamps in the area. With QMC sample generator methods, it behaves similarly to with :guilabel:`Lamp` or :guilabel:`Spot` lamps.
+   This have the same role as with other lamps, but when using a :guilabel:`Rectangle` :guilabel:`Area` lamp, you have two samples settings: :guilabel:`Samples X` and :guilabel:`Samples Y`, for the two axes of the area plane.
+   Note also that when using the :guilabel:`Constant Jittered` sample generator method, this is more or less equivalent to the number of virtual lamps in the area. With QMC sample generator methods, it behaves similarly to with :guilabel:`Lamp` or :guilabel:`Spot` lamps.
 
 
 Sample Generator Types
 ----------------------
 
-:guilabel:`Adaptive QMC`\ ;\ :guilabel:`Constant QMC`
-   These common setting are described in :doc:`Shadow Properties <lighting/shadows/properties>`\ .
+:guilabel:`Adaptive QMC`;\ :guilabel:`Constant QMC`
+   These common setting are described in :doc:`Shadow Properties <lighting/shadows/properties>`.
 
 
 .. figure:: /images/25-Manual-Lighting-Lamps-Area-ContJitt.jpg
@@ -37,9 +37,9 @@ Sample Generator Types
 
 
 :guilabel:`Constant Jittered`
-    The :guilabel:`Area` lamp has a third sample generator method, :guilabel:`Constant Jittered`\ , which is more like simulating an array of lights. It has the same options as the old one: :guilabel:`Umbra`\ , :guilabel:`Dither` and :guilabel:`Jitter`\ .
+   The :guilabel:`Area` lamp has a third sample generator method, :guilabel:`Constant Jittered`, which is more like simulating an array of lights. It has the same options as the old one: :guilabel:`Umbra`, :guilabel:`Dither` and :guilabel:`Jitter`.
 
-    The following three parameters are only available when using the :guilabel:`Constant Jittered` sample generator method, and are intended to artificially boost the "soft" shadow effect, with possible loss in quality:
+   The following three parameters are only available when using the :guilabel:`Constant Jittered` sample generator method, and are intended to artificially boost the "soft" shadow effect, with possible loss in quality:
 
    :guilabel:`Umbra`
       Emphasizes the intensity of shadows in the area fully within the shadow rays. The light transition between fully shadowed areas and fully lit areas changes more quickly (i.e. a sharp shadow gradient). You need :guilabel:`Samples` values equal to or greater than **2** to see any influence of this button.
@@ -66,17 +66,17 @@ Technical Details
    Principles behind the Area light
 
 
-The (\ *Principles behind the* :guilabel:`Area` *light*\ )
+The (*Principles behind the* :guilabel:`Area` *light*)
 picture helps to understand how the soft shadows are simulated.
 
-``(a)`` is the :guilabel:`Area` light as defined in Blender. If its shape is :guilabel:`Square`\ , then the softness of the shadow is defined by the number of light :guilabel:`Samples` in each direction of the shape. For example, ``(b)`` illustrates the equivalent case of an :guilabel:`Area` light (\ :guilabel:`Square` shape), with :guilabel:`Samples` set at **3** on the :guilabel:`Shadow and Spot` panel.
+``(a)`` is the :guilabel:`Area` light as defined in Blender. If its shape is :guilabel:`Square`, then the softness of the shadow is defined by the number of light :guilabel:`Samples` in each direction of the shape. For example, ``(b)`` illustrates the equivalent case of an :guilabel:`Area` light (:guilabel:`Square` shape), with :guilabel:`Samples` set at **3** on the :guilabel:`Shadow and Spot` panel.
 
 The :guilabel:`Area` lamp is then considered as a grid with a resolution of three in each
 direction, and with a light "dupliverted" at each node for a total of nine lights.
 
-In case ``(a)``\ , the energy (\ ``E``\ ) is ``E/1``\ , and in case
-``(b)``\ , the energy of each individual pseudo-light is equal to ``E/
-(Nbr of lights)``\ . Each pseudo-light produces a faint shadow
+In case ``(a)``, the energy (``E``) is ``E/1``, and in case
+``(b)``, the energy of each individual pseudo-light is equal to ``E/
+(Nbr of lights)``. Each pseudo-light produces a faint shadow
 (proportional to its energy), and the overlay of the shadows produces the soft shadow
 (it is darker where the individual shadows overlap, and lighter everywhere else).
 
@@ -96,7 +96,7 @@ you are strongly encouraged to use the :guilabel:`Size` button(s) instead.
 
 If your computer isn't very fast,
 when using the :guilabel:`Constant Jittered` sample generator method,
-you could find it useful to set a low :guilabel:`Samples` value (like **2**\ )
-and activate :guilabel:`Umbra`\ , :guilabel:`Dither`\ ,
+you could find it useful to set a low :guilabel:`Samples` value (like **2**)
+and activate :guilabel:`Umbra`, :guilabel:`Dither`,
 and/or :guilabel:`Jitter` in order to simulate slightly softer shadows. However,
 these results will never be better than the same lighting with high :guilabel:`Samples` values.

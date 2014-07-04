@@ -151,42 +151,43 @@ The way the output image is produced is selected in the drop-down menu. The size
 The alpha and Z channels are mixed as well.
 
 Not one, not two, but count 'em, *sixteen* mixing choices include:
+
 :guilabel:`Mix`
-    The background pixel is covered by the foreground using alpha values.
+   The background pixel is covered by the foreground using alpha values.
 :guilabel:`Add`
-    The pixels are added together. *Fac* controls how much of the second socket to add in. Gives a bright result.
-    The "opposite" to :guilabel:`Subtract` mode.
+   The pixels are added together. *Fac* controls how much of the second socket to add in. Gives a bright result.
+   The "opposite" to :guilabel:`Subtract` mode.
 :guilabel:`Subtract`
-    Pixels are subtracted from one another. Gives a dark result.
-    The "opposite" to :guilabel:`Add` mode.
+   Pixels are subtracted from one another. Gives a dark result.
+   The "opposite" to :guilabel:`Add` mode.
 :guilabel:`Multiply`
-    Returns a darker result than either pixel in most cases (except if one of them equals white=1). Completely white layers do not change the background at all. Completely black layers give a black result.
-    The "opposite" to :guilabel:`Screen` mode.
+   Returns a darker result than either pixel in most cases (except if one of them equals white=1). Completely white layers do not change the background at all. Completely black layers give a black result.
+   The "opposite" to :guilabel:`Screen` mode.
 :guilabel:`Screen`
-    Both pixel values are inverted, multiplied by each other, then the result is inverted again. This returns a brighter result than both input pixels in most cases (except if one of them equals 0). Completely black layers do not change the background at all (and vice versa); completely white layers give a white result.
-    The "opposite" of :guilabel:`Multiply` mode.
+   Both pixel values are inverted, multiplied by each other, then the result is inverted again. This returns a brighter result than both input pixels in most cases (except if one of them equals 0). Completely black layers do not change the background at all (and vice versa); completely white layers give a white result.
+   The "opposite" of :guilabel:`Multiply` mode.
 :guilabel:`Overlay`
-    A combination of :guilabel:`Screen` and :guilabel:`Multiply` mode, depending on the base color.
+   A combination of :guilabel:`Screen` and :guilabel:`Multiply` mode, depending on the base color.
 :guilabel:`Divide`
-    The background pixel (top socket) is divided by the second one: if this one is white (= 1.0), the first one isn't changed; the darker the second one, the brighter is the result (division by 0.5 - median gray - is same as multiplication by 2.0); if the second is black (= 0.0, zero-division is impossible!), Blender doesn't modify the background pixel.
+   The background pixel (top socket) is divided by the second one: if this one is white (= 1.0), the first one isn't changed; the darker the second one, the brighter is the result (division by 0.5 - median gray - is same as multiplication by 2.0); if the second is black (= 0.0, zero-division is impossible!), Blender doesn't modify the background pixel.
 :guilabel:`Difference`
-    Both pixels are subtracted from one another, and the absolute value is taken. So the result shows the distance between both parameters, black stands for equal colors, white for opposite colors (one is black, the other white). The result looks a bit strange in many cases. This mode can be used to invert parts of the base image, and to compare two images (results in black if they are equal).
+   Both pixels are subtracted from one another, and the absolute value is taken. So the result shows the distance between both parameters, black stands for equal colors, white for opposite colors (one is black, the other white). The result looks a bit strange in many cases. This mode can be used to invert parts of the base image, and to compare two images (results in black if they are equal).
 :guilabel:`Darken`
-    Both pixels are compared to each other, and the smaller one is taken. Completely white layers do not change the background at all, and completely black layers give a black result.
+   Both pixels are compared to each other, and the smaller one is taken. Completely white layers do not change the background at all, and completely black layers give a black result.
 :guilabel:`Lighten`
-    Both parameters are compared to each other, and the larger one is taken. Completely black layers do not change the image at all and white layers give a white result.
+   Both parameters are compared to each other, and the larger one is taken. Completely black layers do not change the image at all and white layers give a white result.
 :guilabel:`Dodge`
-    Brightens the one socket by the gradient in the other socket. Results in lighter areas of the image where the gradient is whiter. Use the Fac to control how much the gradient affects the other socket.
+   Brightens the one socket by the gradient in the other socket. Results in lighter areas of the image where the gradient is whiter. Use the Fac to control how much the gradient affects the other socket.
 :guilabel:`Burn`
-    Darkens one socket based on the gradient fed to the other socket. Results in darker images, since the image is *burned* onto the paper, er ... image (showing my age).
+   Darkens one socket based on the gradient fed to the other socket. Results in darker images, since the image is *burned* onto the paper, er ... image (showing my age).
 :guilabel:`Color`
-    Adds a color to a pixel, tinting the overall whole with the color. Use this to increase the tint of an image.
+   Adds a color to a pixel, tinting the overall whole with the color. Use this to increase the tint of an image.
 :guilabel:`Value`
-    The RGB values of both pixels are converted to HSV values. The values of both pixels are blended, and the hue and saturation of the base image is combined with the blended value and converted back to RGB.
+   The RGB values of both pixels are converted to HSV values. The values of both pixels are blended, and the hue and saturation of the base image is combined with the blended value and converted back to RGB.
 :guilabel:`Saturation`
-    The RGB values of both pixels are converted to HSV values.  The saturation of both pixels are blended, and the hue and value of the base image is combined with the blended saturation and converted back to RGB.
+   The RGB values of both pixels are converted to HSV values.  The saturation of both pixels are blended, and the hue and value of the base image is combined with the blended saturation and converted back to RGB.
 :guilabel:`Hue`
-    The RGB values of both pixels are converted to HSV values.  The hue of both pixels are blended, and the value and saturation of the base image is combined with the blended hue and converted back to RGB.
+   The RGB values of both pixels are converted to HSV values.  The hue of both pixels are blended, and the value and saturation of the base image is combined with the blended hue and converted back to RGB.
 
 .. admonition:: Color Channels
    :class: note
@@ -203,7 +204,7 @@ Alpha
 
 
 Fac
-   The amount of mixing of the bottom socket is selected by the Factor input field (\ :guilabel:`Fac:`\ ). A factor of zero does not use the bottom socket, whereas a value of 1.0 makes full use. In Mix mode, 50:50 (0.50) is an even mix between the two, but in Add mode, .50 means that only half of the second socket's influence will be applied.
+   The amount of mixing of the bottom socket is selected by the Factor input field (:guilabel:`Fac:`). A factor of zero does not use the bottom socket, whereas a value of 1.0 makes full use. In Mix mode, 50:50 (0.50) is an even mix between the two, but in Add mode, .50 means that only half of the second socket's influence will be applied.
 
 
 Examples
@@ -218,25 +219,25 @@ Below are samples of common mix modes and uses, mixing a color or checker with a
 Some explanation of the mixing methods above might help you use the Mix node effectively:
 
 - *Add* - adding blue to blue keeps it blue, but adding blue to red makes purple. White already has a full amount of blue, so it stays white. Use this to shift a color of an image. Adding a blue tinge makes the image feel colder.
-- *Subtract*\ : Taking Blue away from white leaves Red and Green, which combined make Yellow (and you never thought you'd need a color wheel again, eh?). Taking Blue away from Purple leaves Red. Use this to de-saturate an image. Taking away yellow makes an image bluer and more depressing.
-- *Multiply*\ : Black (0.00) times anything leaves black. Anything times White (1.00) is itself. Use this to mask out garbage, or to colorize a black-and-white image.
-- *Hue*\ : Shows you how much of a color is in an image, ignoring all colors except what is selected: makes a monochrome picture (style 'Black & Hue').
-- *Mix*\ : Combines the two images, averaging the two.
-- *Lighten*\ : Like bleach, makes your whites whiter. Use with a mask to lighten up a little.
-- *Difference*\ : Kinda cute in that it takes out a color. The color needed to turn Yellow into White is Blue. Use this to compare two verrry similar images to see what had been done to one to make it the other; sorta like a change log for images. You can use this to see a
+- *Subtract* : Taking Blue away from white leaves Red and Green, which combined make Yellow (and you never thought you'd need a color wheel again, eh?). Taking Blue away from Purple leaves Red. Use this to de-saturate an image. Taking away yellow makes an image bluer and more depressing.
+- *Multiply* : Black (0.00) times anything leaves black. Anything times White (1.00) is itself. Use this to mask out garbage, or to colorize a black-and-white image.
+- *Hue* : Shows you how much of a color is in an image, ignoring all colors except what is selected: makes a monochrome picture (style 'Black & Hue').
+- *Mix* : Combines the two images, averaging the two.
+- *Lighten* : Like bleach, makes your whites whiter. Use with a mask to lighten up a little.
+- *Difference* : Kinda cute in that it takes out a color. The color needed to turn Yellow into White is Blue. Use this to compare two verrry similar images to see what had been done to one to make it the other; sorta like a change log for images. You can use this to see a
 
 FIXME(TODO: Internal Link;
 [[#Using_Mix_to_Watermark_images|watermark]]
 ) you have placed in an image for theft detection.
 
-- *Darken*\ , with the colors set here, is like looking at the world through rose-colored glasses (sorry, I just couldn't resist).
+- *Darken*, with the colors set here, is like looking at the world through rose-colored glasses (sorry, I just couldn't resist).
 
 
 Contrast Enhancement using Mix
 ______________________________
 
 Here is a small map showing the effects of two other common uses for the RGB Curve:
-**Darken** and **Contrast Enhancement**\ .
+**Darken** and **Contrast Enhancement**.
 You can see the effect each curve has independently,
 and the combined effect when they are **mixed** equally.
 
@@ -251,7 +252,7 @@ To cure an overexposure, you must both darken the image and enhance the contrast
 Other paint programs usually provide a slider type of control, but Blender,
 ah the fantastic Blender, provides a user-definable curve to provide precise control.
 
-In the top RGB curve, *Darken*\ , only the right side of the curve was lowered; thus,
+In the top RGB curve, *Darken*, only the right side of the curve was lowered; thus,
 any X input along the bottom results in a geometrically less Y output. The *Enhance
 Contrast* RGB 'S' curve scales the output such that middle values of X change dramatically;
 namely, the middle brightness scale is expanded,
@@ -303,7 +304,9 @@ using other mix settings and fancier rigs. Feel free to experiment!
 .. admonition:: Additional uses
    :class: note
 
-   You can also use this technique, using settings that result in visible effects, in title sequences to make the words appear to be cast on the water's surface, or as a special effect to make words appear on the possessed girl's forearm. yuk.
+   You can also use this technique, using settings that result in visible effects,
+   in title sequences to make the words appear to be cast on the water's surface,
+   or as a special effect to make words appear on the possessed girl's forearm. yuk.
 
 
 Decoding an Image for your Watermark
@@ -364,26 +367,28 @@ Use the saturation slider of this node to "bring out" the colors of a washed-out
 This node takes an input image and runs the color of the image
 (and the light it reflects and radiates) 'up' through a factor (0.0-1.0)
 and applies a saturation of color effect of a hue to the image:
+
 :guilabel:`Hue:`
-    The **Hue** slider specifies how much to shift the hue of the image. Hue 0.5 (in the middle)
-    does not shift the hue or affect the color of the image. As Hue shifts left,
-    the colors shift as more cyan is added; a blue image goes bluer, then greener, then yellow.
-    A red image goes violet, then purple, blue, and finally teal.  Shifting right (increasing Hue from 0.5 to 1.0)
-    introduces reds and greens. A blue image goes purple, plum, red, orange, and then yellow.
-    A red image goes golden, olive, green, and cyan.
+   The **Hue** slider specifies how much to shift the hue of the image. Hue 0.5 (in the middle)
+   does not shift the hue or affect the color of the image. As Hue shifts left,
+   the colors shift as more cyan is added; a blue image goes bluer, then greener, then yellow.
+   A red image goes violet, then purple, blue, and finally teal.  Shifting right (increasing Hue from 0.5 to 1.0)
+   introduces reds and greens. A blue image goes purple, plum, red, orange, and then yellow.
+   A red image goes golden, olive, green, and cyan.
 
 :guilabel:`Sat:`
-    **Saturation** affect the amount of pigment in the image.  A saturation of 0 actually *removes* hues from the color, resulting in a black-and-white grayscale image. A saturation of 1.0 blends in the hue, and 2.0 doubles the amount of pigment and brings out the colors.
+   **Saturation** affect the amount of pigment in the image.  A saturation of 0 actually *removes* hues from the color, resulting in a black-and-white grayscale image. A saturation of 1.0 blends in the hue, and 2.0 doubles the amount of pigment and brings out the colors.
 :guilabel:`Val:`
-    **Value** affects the overall amount of the color in the image. Increasing values make an image lighter; decreaing values shift an image darker.
+   **Value** affects the overall amount of the color in the image. Increasing values make an image lighter; decreaing values shift an image darker.
 :guilabel:`Fac:`
-    **Factor** determines how much this node affects the image. A factor of 0 means that the input image is not affected by the Hue and Saturation settings. A factor of 1 means they rule, with .5 being a mix.
+   **Factor** determines how much this node affects the image. A factor of 0 means that the input image is not affected by the Hue and Saturation settings. A factor of 1 means they rule, with .5 being a mix.
 
 
 Hue/Saturation tips
 ~~~~~~~~~~~~~~~~~~~
 
 Some things to keep in mind that might help you use this node better:
+
 Hues are vice versa.
    A blue image, with a Hue setting at either end of the spectrum (0 or 1), is output as yellow (recall that white,
    minus blue, equals yellow). A yellow image, with a Hue setting at 0 or 1, is blue.
@@ -585,7 +590,7 @@ and you have to hit 'convert pre-mult'. This is only an issue in semi transparen
 and edges usually. The issue normally occurs in Nodes when you have combined, with alpha,
 two images, and then wish to combine that image with yet another image.
 The previously combined image was previously multiplied (pre-mult)
-and needs to be converted as such (hence, *Convert PreMul*\ ).
+and needs to be converted as such (hence, *Convert PreMul*).
 
 If you don't pay attention and multiply twice,
 you will get a white or clear halo around your image where they meet,
@@ -708,19 +713,19 @@ Color Balance
 The Color Balance node can adjust the color and values of an image using two different
 correction formulas.
 
-The :guilabel:`Lift, Gammma, Gain` formula uses :guilabel:`Lift`\ , :guilabel:`Gamma`\ , and
+The :guilabel:`Lift, Gammma, Gain` formula uses :guilabel:`Lift`, :guilabel:`Gamma`, and
 :guilabel:`Gain` calculations to adjust an image.\ :guilabel:`Lift` increases the value of dark
 colors, :guilabel:`Gamma` will adjust midtones, and :guilabel:`Gain` adjusts highlights.
 
-The :guilabel:`Offset, Power, Slope` formula uses :guilabel:`Offset`\ , :guilabel:`Power`\ ,
-and :guilabel:`Slope`\ :
-out = (i*s+o)^p,
+The :guilabel:`Offset, Power, Slope` formula uses :guilabel:`Offset`, :guilabel:`Power`,
+and :guilabel:`Slope`: ``out = (i*s+o)^p``
+
 where:
-   :guilabel:`out` = the color graded pixel code value
-   :guilabel:`i` = the input pixel code value (0=black, 1=white)
-   :guilabel:`s` = slope (any number 0 or greater, nominal value is 1.0)
-   :guilabel:`o` = offset (any number, nominal value is 0)
-   :guilabel:`p` = power (any number greater than 0, nominal value is 1.0)
+- :guilabel:`out` = the color graded pixel code value
+- :guilabel:`i` = the input pixel code value (0=black, 1=white)
+- :guilabel:`s` = slope (any number 0 or greater, nominal value is 1.0)
+- :guilabel:`o` = offset (any number, nominal value is 0)
+- :guilabel:`p` = power (any number greater than 0, nominal value is 1.0)
 
 Factor
    Controls the amount of influence the node exerts on the output image

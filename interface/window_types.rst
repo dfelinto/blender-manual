@@ -10,8 +10,8 @@ Window Types
 
 
 The :guilabel:`Blender` interface is divided up into many rectangular :guilabel:`Window
-Frames`\ . Each :guilabel:`Window Frame` may contain different types of information,
-depending upon the :guilabel:`Window Type`\ .
+Frames`. Each :guilabel:`Window Frame` may contain different types of information,
+depending upon the :guilabel:`Window Type`.
 
 Each :guilabel:`Window Frame` operates independently of the others,
 and you can have the same :guilabel:`Window Type` in many frames. For example, you may have
@@ -26,7 +26,7 @@ are working on. You can also arrange some :guilabel:`Window Frames` to display w
 :guilabel:`Window Types` are broken up by functionality:
 
 
-- :doc:`The 3D View <3d_interaction/navigating>`\ - Show a graphical view of your scene.
+- :doc:`The 3D View <3d_interaction/navigating>` - Show a graphical view of your scene.
 - :doc:`The Timeline <animation/timeline>` - Control animation playback.
 -
 
@@ -46,8 +46,8 @@ FIXME(TODO: Internal Link;
 - :doc:`User Preferences <preferences>` - Customize :guilabel:`Blender` to your work style and computer.
 - :doc:`The Info Window <interface/window_system#the_info_window_.28main_menu.29>` - Provides information and options for managing files, windows and engines.
 - :doc:`The File Browser <data_system/files/open>` - Organize, load and save files (most times invoked automatically, when needed).
-- :doc:`The Console <extensions/python/console>` - Directly use python in :guilabel:`Blender`\ .
+- :doc:`The Console <extensions/python/console>` - Directly use python in :guilabel:`Blender`.
 
 You can select the :guilabel:`Window Type` by clicking the :guilabel:`Window Header's`
-*leftmost* button. A pop-up menu displays showing the available :guilabel:`Window Types`\ .
+*leftmost* button. A pop-up menu displays showing the available :guilabel:`Window Types`.
 

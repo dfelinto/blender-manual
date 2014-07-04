@@ -20,9 +20,9 @@ Forces
 :guilabel:`Brownian`
    Specify the amount of Brownian motion. Brownian motion adds random motion to the particles based on a Brownian noise field. This is nice to simulate small, random wind forces.
 :guilabel:`Drag`
-    A force that reduces particle velocity in relation to it's speed and size (useful in order to simulate Air-Drag or Water-Drag).
+   A force that reduces particle velocity in relation to it's speed and size (useful in order to simulate Air-Drag or Water-Drag).
 :guilabel:`Damp`
-    Reduces particle velocity (deceleration, friction, dampening).
+   Reduces particle velocity (deceleration, friction, dampening).
 
 
 Collision
@@ -38,6 +38,7 @@ Integration
 -----------
 
 ..    Comment: <!--[[File:Integrators.png|frame|right|Image 2: Integrators types.]]--> .
+
 Integrators are a set of mathematical methods available to calculate the movement of
 particles. The following guidelines will help to choose a proper integrator,
 according to the behavior aimed at by the animator.
@@ -57,5 +58,6 @@ according to the behavior aimed at by the animator.
 :guilabel:`Timestep`
    The simulation time step per frame.
 :guilabel:`Subframes`
-   Subframes to simulate for improved stability and finer granularity in simulations. Use higher values for faster moving particles.
+   Subframes to simulate for improved stability and finer granularity in simulations.
+   Use higher values for faster moving particles.
 

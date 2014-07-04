@@ -6,7 +6,7 @@ UV Warp Modifier
    :class: refbox
 
    | Mode:     Any mode
-   | Panel:    :guilabel:`Modifiers` (\ :guilabel:`Generate`\ )
+   | Panel:    :guilabel:`Modifiers` (:guilabel:`Generate`)
 
 
 .. figure:: /images/Uvwarp.jpg
@@ -35,7 +35,7 @@ Options
 - **Vertex Group**
   The vertex group can be used to scale the influence of the transformation per-vertex.
 - **UV Map**
-    Which FIXME(TODO: Internal Link; [[UV map]]) to modify. Defaults to the active rendering layer.
+   Which FIXME(TODO: Internal Link; [[UV map]]) to modify. Defaults to the active rendering layer.
 
 
 Usage

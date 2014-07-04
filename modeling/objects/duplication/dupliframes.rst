@@ -26,8 +26,8 @@ Examples
    Settings for the object
 
 
-Add a :guilabel:`Monkey`\ .  In the :guilabel:`Object` menu under :guilabel:`Duplication` enable
-:guilabel:`Frames` and disable :guilabel:`Speed`\ .
+Add a :guilabel:`Monkey`.  In the :guilabel:`Object` menu under :guilabel:`Duplication` enable
+:guilabel:`Frames` and disable :guilabel:`Speed`.
 
 
 .. admonition:: Speed
@@ -44,7 +44,7 @@ Add a :guilabel:`Monkey`\ .  In the :guilabel:`Object` menu under :guilabel:`Dup
 
 
 To parent the monkey to the Bezier circle, first select the monkey then the curve
-(so that the curve is the active object) and :kbd:`Ctrl-P`\ .
+(so that the curve is the active object) and :kbd:`Ctrl-P`.
 Select the monkey and :kbd:`Alt-O` to reset its origin.
 
 
@@ -56,17 +56,17 @@ Select the monkey and :kbd:`Alt-O` to reset its origin.
 
 
 You can now change the orientation of the monkey by either rotating it
-(either in :guilabel:`Edit mode` or :guilabel:`Object mode`\ )
+(either in :guilabel:`Edit mode` or :guilabel:`Object mode`)
 or by changing the :guilabel:`Tracking Axes` under :guilabel:`Animation Hacks`
 (with the monkey selected).  The arrangement of monkeys can, of course,
 be further enhanced by editing the curve.
 
 
 To transform all monkeys into real objects,
-first :kbd:`Ctrl-Shift-A` to :guilabel:`Make Duplicates Real`\ .
+first :kbd:`Ctrl-Shift-A` to :guilabel:`Make Duplicates Real`.
 All monkeys are now real objects, but still linked copies.  To change this,
-:guilabel:`Object`\ →\ :guilabel:`Make Single User`\ →\ :guilabel:`Object&Data` then choose
-:guilabel:`All`\ .
+:guilabel:`Object` →\ :guilabel:`Make Single User` →\ :guilabel:`Object&Data` then choose
+:guilabel:`All`.
 
 
 .. admonition:: Note

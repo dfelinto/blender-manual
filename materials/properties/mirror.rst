@@ -57,12 +57,12 @@ Enable ray-traced reflections
 
 Color swatch
    Color of mirrored reflection
-    By default, an almost perfectly reflective material like chrome, or a mirror object,
-    will reflect the exact colors of its surrounding.
-    But some other equally reflective materials tint the reflections with their own color.
-    This is the case for well-polished copper and gold, for example. In order to replicate this within Blender,
-    you have to set the Mirror Color accordingly. To set a mirror color,
-    simply click the color swatch in the mirror panel and select a color.
+   By default, an almost perfectly reflective material like chrome, or a mirror object,
+   will reflect the exact colors of its surrounding.
+   But some other equally reflective materials tint the reflections with their own color.
+   This is the case for well-polished copper and gold, for example. In order to replicate this within Blender,
+   you have to set the Mirror Color accordingly. To set a mirror color,
+   simply click the color swatch in the mirror panel and select a color.
 :guilabel:`Fresnel`
    Sets the power of the Fresnel effect. The Fresnel effect controls how reflective the material is,
    depending on the angle between the surface normal and the viewing direction. Typically, the larger the angle,
@@ -87,7 +87,7 @@ Color swatch
 
 .. figure:: /images/Manual-2.5-Material-RayMirror-example.jpg
 
-   Suzanne in the Fun House (\ `.blend <http://wiki.blender.org/index.php/:File:Manual-2.5-Material-MonkeyMirror.blend>`__\ )
+   Suzanne in the Fun House (`.blend <http://wiki.blender.org/index.php/:File:Manual-2.5-Material-MonkeyMirror.blend>`__)
 
 
 :guilabel:`Gloss`
@@ -108,7 +108,7 @@ Color swatch
 
 .. figure:: /images/Manual-2.5-Material-RayMirror-AnisotropicExample.jpg
 
-   Anisotropic tangent reflecting spheres with anisotropic set to 0.0, 0.75, 1.0. (\ `.blend <http://wiki.blender.org/index.php/:File:Manual-2.5-Material-Mirror-anisotropic-example.blend>`__\ )
+   Anisotropic tangent reflecting spheres with anisotropic set to 0.0, 0.75, 1.0. (`.blend <http://wiki.blender.org/index.php/:File:Manual-2.5-Material-Mirror-anisotropic-example.blend>`__)
 
 
    :guilabel:`Anisotropic`
@@ -144,7 +144,7 @@ This is the Fresnel effect: having a surface sharing reflective and non-reflecti
 according to the viewing angle and the surface normal.
 
 In *Demonstration of Fresnel effect with values equal to (from top to bottom) 0.0,
-2.5 and 5.0*\ , this behavior is  demonstrated for a perfectly reflective Material
+2.5 and 5.0*, this behavior is  demonstrated for a perfectly reflective Material
 (Mirror Reflectivity 1.0).
 
 Fresnel 0.0 stands for a perfect mirror Material, while Fresnel 5.

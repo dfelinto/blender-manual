@@ -21,7 +21,7 @@ Snap
 
 The :guilabel:`Snap` menu
 (also available from the 3D header in both :guilabel:`Object` and :guilabel:`Edit` mode
-(\ :menuselection:`Object --> Snap` and :menuselection:`Mesh --> Snap`\ ).
+(:menuselection:`Object --> Snap` and :menuselection:`Mesh --> Snap`).
 This menu provides a number of options to move the cursor or your selection to a defined point
 (the cursor, selection or the grid).
 
@@ -32,7 +32,7 @@ This menu provides a number of options to move the cursor or your selection to a
 
 
 :guilabel:`Selection to Grid`
-    Snaps the currently selected object(s) to the nearest grid point.
+   Snaps the currently selected object(s) to the nearest grid point.
 
 :guilabel:`Selection to Cursor`
    Snaps the currently selected object(s) to the cursor location.
@@ -94,8 +94,8 @@ Snap Target
    Snap Target menu.
 
 
-Snap target options become active when either :guilabel:`Vertex`\ , :guilabel:`Edge`\ ,
-:guilabel:`Face`\ , or :guilabel:`Volume` is selected as the snap element.
+Snap target options become active when either :guilabel:`Vertex`, :guilabel:`Edge`,
+:guilabel:`Face`, or :guilabel:`Volume` is selected as the snap element.
 These determine what part of the selection snaps to the target objects.
 
 :guilabel:`Active`
@@ -134,29 +134,25 @@ additional controls are available to alter snap behaviour. These options vary be
 
 .. figure:: /images/3D-interaction_Transform-Control_Snap-snap-options-align-rotation.jpg
 
-
- Align rotation with the snapping target.
+   Align rotation with the snapping target.
 
 -
 
 .. figure:: /images/3D-interaction_Transform-Control_Snap-snap-options-project-elements.jpg
 
-
- Project individual elements on the surface of other objects.
+   Project individual elements on the surface of other objects.
 
 -
 
 .. figure:: /images/3D-interaction_Transform-Control_Snap-snap-options-snap-itself.jpg
 
-
- Snaps elements to its own mesh.
+   Snaps elements to its own mesh.
 
 -
 
 .. figure:: /images/3D-interaction_Transform-Control_Snap-snap-options-objects-whole.jpg
 
-
- Consider Objects as whole when finding volume center.
+   Consider Objects as whole when finding volume center.
 
 
 Multiple Snap Targets

@@ -30,13 +30,13 @@ Activating the tool brings up the File Browser Window with options for saving th
 
 
 :guilabel:`All UVs`
-    if disabled, then only the UV faces selected will be outlined
+   if disabled, then only the UV faces selected will be outlined
 :guilabel:`Modified`
    Export UVs from the modified mesh.
 :guilabel:`Format`
-    Select the type of image file to save (.png, .eps, .svg)
+   Select the type of image file to save (.png, .eps, .svg)
 :guilabel:`Size`
-    select the size of the image in pixels. The image be square.
+   select the size of the image in pixels. The image be square.
 :guilabel:`Fill Opacity`
    Set the opacity of the fill
 
@@ -119,7 +119,7 @@ Full details of using Image textures are on the :doc:`Image Textures <textures/t
    and you will even see it in your 3D View in textured viewport mode. However, when you render,
    you will just get a default gray if the object does not have a Material assigned.
    You will get a black if you do not load an image. If you do not create a texture that uses the image,
-   or enable :guilabel:`Face Texture`\ , your object will render according to the procedural material settings.
+   or enable :guilabel:`Face Texture`, your object will render according to the procedural material settings.
 
 
 
@@ -135,7 +135,7 @@ An alternate way is to set up a Face Textures Material as shown. To do so,
 with the buttons window displayed, press :kbd:`f5` to display the Shader Buttons.
 In the Buttons window, Material settings, click :guilabel:`ADD NEW` material.
 
-On the Options panel, enable :guilabel:`Face Textures`\ . This way is quick,
+On the Options panel, enable :guilabel:`Face Textures`. This way is quick,
 but bypasses the normal rendering system for fast results,
 but results which do not respect transparency and proper shading.
 
@@ -148,9 +148,9 @@ Loading and Saving Images
 
 In the UV editor, you can assign certain faces certain textures. To do so,
 first you need an image to work with.
-In the :guilabel:`Image Menu` you can open an image file with the :guilabel:`File Browser`\ .
+In the :guilabel:`Image Menu` you can open an image file with the :guilabel:`File Browser`.
 If you have images in the file already, that you want to use,
-click the :guilabel:`Browse` button in the :guilabel:`Header`\ ,
+click the :guilabel:`Browse` button in the :guilabel:`Header`,
 or make a new texture by clicking the :guilabel:`New` button.
 
 In a team environment, or if you are using an external paint program to edit the image while
@@ -184,7 +184,7 @@ New Images
 
 When you select :guilabel:`New Image` you are presented with several options. This
 :guilabel:`Generated` image can also be modified afterward in the :guilabel:`Properties
-Panel`\ :
+Panel`:
 
 :guilabel:`Image Name`
    Set the name if the generated image
@@ -196,12 +196,12 @@ Panel`\ :
    Adds an alpha channel to the image
 :guilabel:`Generated Type`
    The type of image to generate:
+
    :guilabel:`UV Grid`
       Creates a checkerboard pattern with a colored + in each square.
    :guilabel:`Color Grid`
       Creates a UV Test Grid, which is useful for testing how UVs have been mapped, and to reduce stretching.
       There are two types available, which can be set after the image has been created.
-
    :guilabel:`Blank`
       Generates a blank image of the specified color.
 :guilabel:`32 bit`
@@ -243,7 +243,7 @@ Image Settings
 ~~~~~~~~~~~~~~
 
 When an image has been loaded or created in the UV editor,
-an additional section appears in the :guilabel:`Properties Panel`\ .
+an additional section appears in the :guilabel:`Properties Panel`.
 The first row of buttons allow you to:
 
 - :guilabel:`Browse` for an image
@@ -259,6 +259,7 @@ Select the image type in the :guilabel:`Source` menu. Each has different options
    Generates a new image:
 
    :guilabel:`Width` and :guilabel:`Height` of image in pixels
+
    :guilabel:`Blank`
       Creates a Blank image
    :guilabel:`UV grid`
@@ -294,9 +295,9 @@ Saving Images
 
 Images can be saved to external files if they were created or edited in Blender with tools in
 the :guilabel:`Image` menu. If images are already files, use the :guilabel:`Save` command
-(\ :kbd:`Alt-S`\ ). You can also :guilabel:`Save As` (\ :kbd:`f3`\ )
+(:kbd:`Alt-S`). You can also :guilabel:`Save As` (:kbd:`f3`)
 if the image was generated or you want to save as a different name.
-Using :guilabel:`Save as Copy`\ , (\ :kbd:`f3`\ ) will save the file to a specified name,
+Using :guilabel:`Save as Copy`, (:kbd:`f3`) will save the file to a specified name,
 but will keep the old one open in the Image editor.
 
 Modifying your Image Texture
@@ -307,8 +308,8 @@ To modify your new Texture, you can:
 
 - :doc:`Render Bake <render/bake>` an image based on how the mesh looks
   - The Render Bake feature provides several tools to replace the current image based on a render of :doc:`Vertex Paint <materials/vertex_paint>` colors, Normals (bumps), Procedural materials, textures and lighting, and ambient occlusion.
-- Paint using :doc:`Texture Paint <textures/painting>`\ .
-  - Use the UV/Image Editor menu *Image*\ →\ *New*\ . Then start painting your mesh with
+- Paint using :doc:`Texture Paint <textures/painting>`.
+  - Use the UV/Image Editor menu *Image* →\ *New*. Then start painting your mesh with
 - Use external software to create an image
   - Using your favorite image painting program, you could use an exported UV layout to create a texture. Then save your changes, and back in Blender, use the Image→Open menu command to load it as your UV image for the mesh in Face Select Mode for the desired (and active) UV Texture layer. Using the :guilabel:`Edit Externally` tool in the :guilabel:`Image` menu, Blender will open an image editor, as specified in the :guilabel:`User Preferences` and load in the image to be edited.
 - Use the "projection painting" feature of recent versions of Blender
@@ -343,7 +344,7 @@ the old version of the image is what will be used. To update,
 you will have to re-pack or reload.
 
 To pack an image, select :guilabel:`Pack Image` from the :guilabel:`Image` menu. To Unpack,
-select this option again and select :guilabel:`Remove Pack`\ .
+select this option again and select :guilabel:`Remove Pack`.
 
 The File→Append function automatically goes into .
 blend files and shows you the image textures packed in it.

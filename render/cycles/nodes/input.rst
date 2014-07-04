@@ -57,7 +57,7 @@ Geometry
 --------
 
 Geometric information about the current shading point.
-All vector coordinates are in *World Space*\ . For volume shaders,
+All vector coordinates are in *World Space*. For volume shaders,
 only the position and incoming vector are available.
 
 :guilabel:`Position`

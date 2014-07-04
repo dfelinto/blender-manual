@@ -21,7 +21,7 @@ often used to simulate real physical phenomena, such as:
 
 :doc:`Rigid Bodies <physics/rigid_body>` can simulate dynamic objects that are fairly rigid.
 
-:doc:`Fluids <physics/fluid>`\ , which include liquids and gasses, can be simulated, including :doc:`Smoke <physics/smoke>`\ .
+:doc:`Fluids <physics/fluid>`, which include liquids and gasses, can be simulated, including :doc:`Smoke <physics/smoke>`.
 
 :doc:`Force Fields <physics/force_fields>` can modify the behavior of simulations.
 
@@ -33,13 +33,13 @@ Gravity is a global setting that is applied the same to all physics systems in a
 which can be found in the scene tab. This value is generally fine left at its default value,
 at -9.810 in the Z axis, which is the force of gravity in the real world.
 Lowering this value would simulate a lower or higher force of gravity. Gravity denoted g,
-measurement [m×s\ :sup:`-2`\ ]).
+measurement [m×s\ :sup:`-2` ]).
 
-Gravity is practically same around whole **Earth**\ .
-South and North poles have g = 9.832 m×s\ :sup:`-2`\ , on the equator g = 9.
-780 m×s\ :sup:`-2`\ .
+Gravity is practically same around whole **Earth**.
+South and North poles have g = 9.832 m×s\ :sup:`-2`, on the equator g = 9.
+780 m×s\ :sup:`-2`.
 For detail computing of falling in :guilabel:`Prague` or :guilabel:`Boston` use 9.81373.
-For rendering scenes from **Moon** use value 6 times smaller, e.g. 1.622 m×s\ :sup:`-2`\ .
+For rendering scenes from **Moon** use value 6 times smaller, e.g. 1.622 m×s\ :sup:`-2`.
 The most popular and probably not colonized **Mars** has g = 3.69.
 
 

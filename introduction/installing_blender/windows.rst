@@ -6,7 +6,7 @@ Download
 --------
 
 You can obtain the latest stable version of Blender for Windows from the
-`Blender download page <http://www.blender.org/download/get-blender/>`__\ .
+`Blender download page <http://www.blender.org/download/get-blender/>`__.
 
 
 Version
@@ -21,13 +21,13 @@ Blender, especially on systems with large amounts of RAM.
 To identify whether your Windows Vista or Windows 7 computer is 32- or 64-bit, you can:
 
 
-- Click the Windows Icon start button, right click the **Computer** options and then click **Properties**\ .
+- Click the Windows Icon start button, right click the **Computer** options and then click **Properties**.
 - The system type (32- or 64-bit) will be displayed under the **System** option.
 
 If you are using Windows XP:
 
 
-- Click **Start**\ .
+- Click **Start**.
 - Right-click **My Computer**
 - Click **Properties.**
 - If you are using the 64-bit version of Windows XP, *x64 Edition* will be displayed under the **System** option.

@@ -28,15 +28,18 @@ Options
 
 :guilabel:`Target`
    This constraint uses one target, and is not functional (red state) when it has none.
-   :guilabel:`Bone`
-      If :guilabel:`Target` is an :guilabel:`Armature`\ , a new field is displayed offering the optional choice to set an individual bone as :guilabel:`Target`\ .
-      :guilabel:`Head/Tail`
-         If a :guilabel:`Bone` is set as :guilabel:`Target`\ , a new field is displayed offering the optional choice of where along this bone the target point lies.
-   :guilabel:`Vertex Group`
-      If :guilabel:`Target` is a :guilabel:`Mesh`\ , a new field is displayed offering the optional choice to set a :guilabel:`Vertex Group` as target.
 
-:guilabel:`X`\ , :guilabel:`Y`\ , :guilabel:`Z`
+   :guilabel:`Bone`
+      If :guilabel:`Target` is an :guilabel:`Armature`, a new field is displayed offering the optional choice to set an individual bone as :guilabel:`Target`.
+
+      :guilabel:`Head/Tail`
+         If a :guilabel:`Bone` is set as :guilabel:`Target`, a new field is displayed offering the optional choice of where along this bone the target point lies.
+   :guilabel:`Vertex Group`
+      If :guilabel:`Target` is a :guilabel:`Mesh`, a new field is displayed offering the optional choice to set a :guilabel:`Vertex Group` as target.
+
+:guilabel:`X`, :guilabel:`Y`, :guilabel:`Z`
    These buttons control which axes (i.e. coordinates) are constrained - by default, all three ones are.
+
    :guilabel:`Invert`
       The :guilabel:`Invert` buttons invert their respective preceding coordinates.
 

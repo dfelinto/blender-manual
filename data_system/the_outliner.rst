@@ -12,10 +12,10 @@ Use it to find things in your scene.
 For example, suppose you sneeze while moving an object; your mouse flies off your desk
 (gesundheit!) and the object is hurled somewhere off screen into space.
 Simply use the outliner to find it; select it,
-and move back to your 3D window to snap it back to your cursor (\ :kbd:`shift-S` 
-:guilabel:`→ Selection → Cursor`\ ).
+and move back to your 3D window to snap it back to your cursor (:kbd:`shift-S` 
+:guilabel:`→ Selection → Cursor`).
 
-Another more practical example is to evaluate the impact of a change on related :doc:`datablocks <data_system/datablocks>`\ . Suppose you are looking at your ``TableTop`` object, and it doesn't look right, the ``Wood`` material doesn't look right; you want it to look more like mahogany. Since the same material can be used by many meshes, you're not sure how many things will change color when you change the material. Using the :guilabel:`Outliner`\ , you could find that material and trace the links that it has to every mesh in your scene.
+Another more practical example is to evaluate the impact of a change on related :doc:`datablocks <data_system/datablocks>`. Suppose you are looking at your ``TableTop`` object, and it doesn't look right, the ``Wood`` material doesn't look right; you want it to look more like mahogany. Since the same material can be used by many meshes, you're not sure how many things will change color when you change the material. Using the :guilabel:`Outliner`, you could find that material and trace the links that it has to every mesh in your scene.
 
 
 Outliner view
@@ -49,7 +49,7 @@ Selecting the outliner window type
 
 
 Choose a window and :kbd:`lmb` on its current :guilabel:`Window type` button
-(left-most icon in its header), and :kbd:`lmb` on :guilabel:`Outliner`\ .
+(left-most icon in its header), and :kbd:`lmb` on :guilabel:`Outliner`.
 
 
 Using the Outliner
@@ -60,7 +60,7 @@ left of a name to expand the current datablock and see what other datablocks it 
 If the row is already expanded, the icon to the left will be a minus-sign.
 Clicking the minus-sign will collapse subordinate objects beneath the row.
 
-You can select datablocks in the :guilabel:`Outliner`\ ,
+You can select datablocks in the :guilabel:`Outliner`,
 but this won't necessarily select the datablock in the scene.
 To select the datablock in the scene, you have to activate it.
 
@@ -73,10 +73,10 @@ Single selection doesn't require any pre-selection: just work directly with :kbd
 
 When you select an object in the list this way,
 it is selected and becomes the active object in all other 3D Views.
-Use this feature to find objects in your 3D View, select them in the :guilabel:`Outliner`\ ,
+Use this feature to find objects in your 3D View, select them in the :guilabel:`Outliner`,
 then zoom to them with :kbd:`pad.` or if you don't have a numpad,
 snap and center your cursor on them via :kbd:`shift-S` 
-:guilabel:`→ Cursor → Selection`\ , and then :kbd:`C`\ .
+:guilabel:`→ Cursor → Selection`, and then :kbd:`C`.
 
 
 .. figure:: /images/Manual-2-56-PartIII-Outliner-Activate-Datablock.jpg
@@ -101,8 +101,8 @@ Toggle pre-selection of a group of datablocks
    Useful when you want to select/deselect a whole bunch of datablocks.
    For this you must prepare the selection using, to your liking:
 
-   - :kbd:`rmb` or :kbd:`lmb`\ ,
-   - :kbd:`shift-rmb` or :kbd:`shift-lmb`\ ,
+   - :kbd:`rmb` or :kbd:`lmb`,
+   - :kbd:`shift-rmb` or :kbd:`shift-lmb`,
    - :kbd:`rmb` and drag or :kbd:`lmb` and drag,
 
    all *outside* the name/icon area. Those pre-selected have their line in a lighter color.
@@ -118,9 +118,9 @@ Context menu
    Show the context menu for a datablock with :kbd:`rmb` on the icon or name.
    Depending on the type of the pre-selected datablock(s), you will have all or part of the following options:
 
-   - :guilabel:`Select`\ .
-   - :guilabel:`Deselect`\ .
-   - :guilabel:`Delete`\ .
+   - :guilabel:`Select`.
+   - :guilabel:`Deselect`.
+   - :guilabel:`Delete`.
    - :guilabel:`Unlink` - To unlink a datablock from its "owner" (e.g., a material from its mesh).
    - :guilabel:`Make Local` - To create a "local" duplicate of this datablock.
 
@@ -184,21 +184,21 @@ are only available for objects:
 
    Toggle rendering by clicking the "camera" icon. This will still keep the object visible in the scene,
    but it will be ignored by the renderer.
-   :kbd:`R` will toggle this property for any objects that are pre-selected in the :guilabel:`Outliner`\ .
+   :kbd:`R` will toggle this property for any objects that are pre-selected in the :guilabel:`Outliner`.
 
 
 Searching
 ---------
 
 You can search the file for datablocks,
-either by using the :guilabel:`Search` menu in the header of the :guilabel:`Outliner`\ ,
+either by using the :guilabel:`Search` menu in the header of the :guilabel:`Outliner`,
 or by using one of the following hotkeys:
 
-- :kbd:`F` - :guilabel:`Find`\ .
-- :kbd:`ctrl-F` - :guilabel:`Find (case sensitive)`\ .
-- :kbd:`alt-F` - :guilabel:`Find complete`\ .
-- :kbd:`ctrl-alt-F` - :guilabel:`Find complete (case sensitive)`\ .
-- :kbd:`shift-F` - :guilabel:`Find again`\ .
+- :kbd:`F` - :guilabel:`Find`.
+- :kbd:`ctrl-F` - :guilabel:`Find (case sensitive)`.
+- :kbd:`alt-F` - :guilabel:`Find complete`.
+- :kbd:`ctrl-alt-F` - :guilabel:`Find complete (case sensitive)`.
+- :kbd:`shift-F` - :guilabel:`Find again`.
 
 Matching datablocks will be automatically selected.
 
@@ -212,7 +212,7 @@ Filtering the display
 
 
 The window header has a field to let you select what the outliner should show in the outline.
-By default, the outliner shows :guilabel:`All Scenes`\ .
+By default, the outliner shows :guilabel:`All Scenes`.
 You can select to show only the current scene, datablocks that have been selected,
 objects that are on currently selected layers, etc. These selects are to help you *narrow the
 list* of objects so that you can find things quickly and easily.
@@ -226,7 +226,7 @@ FIXME(TODO: Internal Link;
 ) to make objects on a layer visible in the 3D window.
 
 - :guilabel:`Selected` - Lists only the object(s) currently selected in the 3D window.
-  You can select multiple objects by :kbd:`shift-rmb`\ -clicking.
+  You can select multiple objects by :kbd:`shift-rmb` -clicking.
 - :guilabel:`Active` - Lists only the active (often last selected) object.
 - :guilabel:`Same Types` - Lists only those objects in the current scene that are of the same types as those selected in the 3d window.
 - :guilabel:`Groups` - Lists only :doc:`Groups <modeling/objects/groups_and_parenting>` and their members.
@@ -246,26 +246,26 @@ Example
 
 
 The outline example shows that the .blend file has three scenes:
-"\ ``Ratchet in Middle``\ ", "\ ``Ratchet on Outside``\ ",
-and "\ ``Ratchet Out White``\ ".
+"\ ``Ratchet in Middle`` ", "\ ``Ratchet on Outside`` ",
+and "\ ``Ratchet Out White`` ".
 By clicking on the little plus-sign to the left of the name,
 the outline is expanded one level.
-This was done for the "\ ``Ratchet in Middle``\ " scene. As you can see,
-this scene has some "\ ``World``\ " material settings, a "\ ``Camera``\ ",
-an "\ ``Empty``\ ",
-a "\ ``HandleFixed``\ " object… All objects that were added to the scene.
+This was done for the "\ ``Ratchet in Middle`` " scene. As you can see,
+this scene has some "\ ``World`` " material settings, a "\ ``Camera`` ",
+an "\ ``Empty`` ",
+a "\ ``HandleFixed`` " object… All objects that were added to the scene.
 
-By clicking the plus-sign next to "\ ``ratchetgear``\ ,
-we can see that it has some motion described by the "\ ``Animation``\ " entry;
-that it was based on a "\ ``Circle``\ " mesh,
-and that it is the parent of "\ ``HandleFixed.002``\ ",
-which is in turn the parent of "\ ``Plane.003``\ ", and so on.
+By clicking the plus-sign next to "\ ``ratchetgear``,
+we can see that it has some motion described by the "\ ``Animation`` " entry;
+that it was based on a "\ ``Circle`` " mesh,
+and that it is the parent of "\ ``HandleFixed.002`` ",
+which is in turn the parent of "\ ``Plane.003`` ", and so on.
 
 
 The neat thing is: if you select any of these datablocks here,
 they will be selected in the 3D window as well, as far as this is possible.
 Pressing :kbd:`pad.`
- with your mouse cursor in any 3D Window will center and align the view to that object.
+with your mouse cursor in any 3D Window will center and align the view to that object.
 Very handy. Also, pressing :kbd:`X` will delete it,
 as well as all the other hotkeys that operate on the currently selected object.
 

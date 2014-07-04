@@ -23,7 +23,7 @@ Add a new camera
 
 
 In :guilabel:`Object` mode simply press :kbd:`shift-A` and in the popup menu,
-choose :menuselection:`Add --> Camera`\ .
+choose :menuselection:`Add --> Camera`.
 
 
 Change active camera
@@ -44,20 +44,20 @@ Change active camera
 
 
 The *active* camera is the camera that is currently being used for rendering and camera view
-(\ :kbd:`pad0`\ ).
+(:kbd:`pad0`).
 Select the camera you would like to make active and press :kbd:`ctrl-pad0` (by doing so,
 you also switch the view to camera view). In order to render,
 each scene **must** have a camera.
 
 The active camera is the one with the filled "up" triangle on top seen in the 3D viewport,
-for example, the left camera in (\ *Active camera (left one)*\ ).
+for example, the left camera in (*Active camera (left one)*).
 
 
  .. warning::
 
    FIXME - warning body below
 
-The active camera, as well as the layers, can be specific to a given view, or global (locked) to the whole scene - see :doc:`this part of the 3D view options page <3d_interaction/navigating/3d_view_options#lock_to_scene>`\ .
+The active camera, as well as the layers, can be specific to a given view, or global (locked) to the whole scene - see :doc:`this part of the 3D view options page <3d_interaction/navigating/3d_view_options#lock_to_scene>`.
 
 
 Camera Settings
@@ -114,7 +114,7 @@ Lens
 .. admonition:: Note
    :class: note
 
-   The :guilabel:`3D View` window contains settings similar to the camera, such as :guilabel:`Orthographic`\ /\ :guilabel:`Perspective` and :guilabel:`Clip Start`\ /\ :guilabel:`Clip End`\ . These settings have no effect on the camera rendering, and only change the view settings when *not* in :guilabel:`Camera` view. These settings are accessed through the :menuselection:`View` menu of the :guilabel:`3D View`\ .
+   The :guilabel:`3D View` window contains settings similar to the camera, such as :guilabel:`Orthographic` / :guilabel:`Perspective` and :guilabel:`Clip Start` / :guilabel:`Clip End`. These settings have no effect on the camera rendering, and only change the view settings when *not* in :guilabel:`Camera` view. These settings are accessed through the :menuselection:`View` menu of the :guilabel:`3D View`.
 
    See the :doc:`3D view options page <3d_interaction/navigating/3d_view_options#view_properties_panel>` for more details.
 
@@ -147,12 +147,12 @@ Depth of Field
 
 - :guilabel:`Depth of Field` object
 
-      When using :doc:`Depth of Field <render/camera/depth_of_field>`\ , the linked object will determine the focal point. Linking an object will deactivate the distance parameter.
+      When using :doc:`Depth of Field <render/camera/depth_of_field>`, the linked object will determine the focal point. Linking an object will deactivate the distance parameter.
 
 
 - :guilabel:`Distance`
 
-      Distance to the focal point. It is shown as a yellow cross on the camera line of sight. :guilabel:`Limits` must be enabled to see the cross. It is used in combination with the :doc:`Defocus Compositing Node <composite_nodes/types/filter#defocus>`\ .
+      Distance to the focal point. It is shown as a yellow cross on the camera line of sight. :guilabel:`Limits` must be enabled to see the cross. It is used in combination with the :doc:`Defocus Compositing Node <composite_nodes/types/filter#defocus>`.
 
 
 Display
@@ -172,7 +172,7 @@ Display
 
 - :guilabel:`Mist`
 
-      Toggles viewing of the mist limits on and off. The limits are shown as two connected white dots on the camera line of sight. The mist limits and other options are set in the :guilabel:`World` panel, in the :doc:`Mist section <world/mist>`\ .
+      Toggles viewing of the mist limits on and off. The limits are shown as two connected white dots on the camera line of sight. The mist limits and other options are set in the :guilabel:`World` panel, in the :doc:`Mist section <world/mist>`.
 
 
 .. figure:: /images/Manual-Camera-camera-view.jpg
@@ -202,7 +202,7 @@ Display
       Size of the camera icon in the 3D view. This setting has no effect on the render output of a camera, and is only a cosmetic setting. The camera icon can also be scaled using the standard Scale :kbd:`S` transform key.
 
 
-- :guilabel:`Passepartout`\ , :guilabel:`Alpha`
+- :guilabel:`Passepartout`, :guilabel:`Alpha`
 
       This mode darkens the area outside of the camera's field of view, based on the :guilabel:`Alpha` setting.
 
@@ -288,18 +288,18 @@ while remaining in camera view. Controls are exactly the same as when normally m
 Roll, Pan, Dolly, and Track
 ---------------------------
 
-To perform these camera moves, the camera must first be *selected*\ ,
+To perform these camera moves, the camera must first be *selected*,
 so that it becomes the active object (while viewing through it,
-you can :kbd:`rmb`\ -click on the solid rectangular edges to select it).
+you can :kbd:`rmb` -click on the solid rectangular edges to select it).
 The following actions also assume that you are in camera view
-(\ :kbd:`pad0`\ )! Having done so, you can now manipulate the camera using the same commands
+(:kbd:`pad0`)! Having done so, you can now manipulate the camera using the same commands
 that are used to manipulate any object:
 
 **Roll:** Press :kbd:`R` to enter object rotation mode. The default will be to rotate the camera in its local Z-axis (the axis orthogonal to the camera view), which is the definition of a camera "roll".
 
-**Vertical Pan or Pitch:** This is just a rotation along the local X-axis. Press :kbd:`R` to enter object rotation mode, then :kbd:`X` twice (the first press selects the *global* axis - pressing the same letter a second time selects the *local* axis - this works with any axis; see the :doc:`axis locking page <3d_interaction/transform_control/axis_locking>`\ ).
+**Vertical Pan or Pitch:** This is just a rotation along the local X-axis. Press :kbd:`R` to enter object rotation mode, then :kbd:`X` twice (the first press selects the *global* axis - pressing the same letter a second time selects the *local* axis - this works with any axis; see the :doc:`axis locking page <3d_interaction/transform_control/axis_locking>`).
 
-**Horizontal Pan or Yaw:** This corresponds to a rotation around the camera's local Y axis… Yes, that's it, press :kbd:`R`\ , and then :kbd:`Y` twice!
+**Horizontal Pan or Yaw:** This corresponds to a rotation around the camera's local Y axis… Yes, that's it, press :kbd:`R`, and then :kbd:`Y` twice!
 
 **Dolly:** To dolly the camera, press :kbd:`G` then :kbd:`mmb` (or  :kbd:`Z` twice).
 

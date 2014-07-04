@@ -36,13 +36,13 @@ Simple Motion
 
 
 :guilabel:`Loc`
-    The object jumps the number of blender units entered, in each of the three axes,each time a pulse is received.
+   The object jumps the number of blender units entered, in each of the three axes,each time a pulse is received.
 
 :guilabel:`Rot`
-    The object rotates by the specified amount, in each of the three axes, each time a pulse is received. One revolution is represented by the value 7.2 (i.e. 0.02 for one degree).
+   The object rotates by the specified amount, in each of the three axes, each time a pulse is received. One revolution is represented by the value 7.2 (i.e. 0.02 for one degree).
 
 :guilabel:`L`
-    Coordinates specified are Global (gray) or Local (White).
+   Coordinates specified are Global (gray) or Local (White).
 
 
 .. admonition:: Servo Control
@@ -64,27 +64,27 @@ Servo Control
 Servo control is a powerful way to achieve motion in way which mimics the movement of objects
 in the physical world. It consists in a servo controller that adjusts the force on the object
 in order to achieve a given speed. Uses the Proportional - Integral - Derivative (PID)
-equations of motion :guilabel:`See Ref.`\ .
+equations of motion :guilabel:`See Ref.`.
 
 :guilabel:`Reference Ob`
    Specifies the object which the actuator owner uses as a reference for movement, for moving platforms for example. If empty it will use world reference.
 
 :guilabel:`Linear V`
-    The target linear velocity, in each of the three axes, which the object will try and achieve.
+   The target linear velocity, in each of the three axes, which the object will try and achieve.
 
 :guilabel:`L`
-    Coordinates specified are Global (gray) or Local (White).
+   Coordinates specified are Global (gray) or Local (White).
 
 :guilabel:`X, Y, Z`
-    Sets maximum and minimum limits for the force applied to the object. If disabled (i.e. X,Y or Z buttons are gray) the force applied is unlimited.
+   Sets maximum and minimum limits for the force applied to the object. If disabled (i.e. X,Y or Z buttons are gray) the force applied is unlimited.
 
 :guilabel:`Proportional Coefficient`
-    Set the Proportional Coefficient. This controls the reaction  to differences between the actual and target linear velocity.
+   Set the Proportional Coefficient. This controls the reaction  to differences between the actual and target linear velocity.
 
 :guilabel:`Integral Coefficient`
-    Set the Integral Coefficient. This controls the reaction  to the sum of errors so far in this move.
+   Set the Integral Coefficient. This controls the reaction  to the sum of errors so far in this move.
 
 :guilabel:`Derivative Coefficient`
-    Set the Derivative Coefficient. This controls the reaction
+   Set the Derivative Coefficient. This controls the reaction
 
 

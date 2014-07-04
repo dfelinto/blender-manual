@@ -259,27 +259,27 @@ Render a picture
 
 - '''-b'''
 
-       Load blender without an interface
+      Load blender without an interface
 
 - '''file.blend'''
 
-       File .blend to render
+      File .blend to render
 
 - '''-o //file'''
 
-       Directory + Target image file
+      Directory + Target image file
 
 - '''-F JPEG'''
 
-       JPEG image format
+      JPEG image format
 
 - '''-x 1'''
 
-       Ensures an extension .jpg to the file name
+      Ensures an extension .jpg to the file name
 
 - '''-f 1'''
 
-       Render frame 1
+      Render frame 1
 
 
 Render a movie
@@ -290,7 +290,7 @@ Render a movie
 
 - '''-b'''
 
-       Load blender without an interface
+      Load blender without an interface
 
 - '''file.blend'''
 
@@ -302,15 +302,15 @@ Render a movie
 
 - '''-o //file'''
 
-       Directory + Target image file
+      Directory + Target image file
 
 - '''-F MOVIE'''
 
-       This saves a .AVI movie with low compression
+      This saves a .AVI movie with low compression
 
 - '''-s 003 -e 005 -a'''
 
-       Set start frame to 003 and end frame to 005. '''''Important:''''' ''You can use -s or -e, but if they're not in order, they'll not work!''
+      Set start frame to 003 and end frame to 005. '''''Important:''''' ''You can use -s or -e, but if they're not in order, they'll not work!''
 
 
 Launch Blender with a specified engine

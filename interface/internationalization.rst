@@ -19,11 +19,11 @@ This displays three new settings:
 
 
 *Language*
-    drop-down menu where you can select your preferred language.
+   drop-down menu where you can select your preferred language.
 *Interface*
-    to translate the User Interface itself (e.g. controls and menus).
+   to translate the User Interface itself (e.g. controls and menus).
 *Tooltips*
-    to translate tooltips.
+   to translate tooltips.
 
 
 .. figure:: /images/Interface-Internationalization-russian.jpg

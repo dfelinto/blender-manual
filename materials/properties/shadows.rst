@@ -43,10 +43,10 @@ The following options affect the material that receives shadows:
 
 
 **Receive**
-    Allows this material to receive full-intensity shadows (Fig. 3).
+   Allows this material to receive full-intensity shadows (Fig. 3).
 
 **Receive Transparent**
-    Allows this material to receive shadows whose intensity is modified by the transparency and color of the shadow-casting object (Fig. 4).
+   Allows this material to receive shadows whose intensity is modified by the transparency and color of the shadow-casting object (Fig. 4).
 
 
 .. figure:: /images/Doc_2.6_Materials_Properties_Shadow3.jpg
@@ -66,16 +66,16 @@ The following options affect the material that casts shadows:
 
 
 **Cast Only**
-    Material appears transparent, but it still casts shadows  (Fig. 5).
+   Material appears transparent, but it still casts shadows  (Fig. 5).
 
 **Casting Alpha**
-    ??
+   ??
 
 **Shadows Only**
-    Material appears transparent except for where it receives shadows from other objects, and  also it retains its own transparency (Fig. 6). Note the faint image of the partly-transparent post.
+   Material appears transparent except for where it receives shadows from other objects, and  also it retains its own transparency (Fig. 6). Note the faint image of the partly-transparent post.
 
 **Shadow and Distance**
-    ???
+   ???
 
 
 .. figure:: /images/Doc_2.6_Materials_Properties_Shadow5.jpg
@@ -94,18 +94,18 @@ Buffered Shadow Options
 In addition to the shadow options described above, there are further material properties which control buffered shadow features. See section on :doc:`Spot Buffered Shadows <lighting/lamps/spot/buffered_shadows>` for further discussion of these techniques.
 
 **Cast Buffer Shadow**
-    Casts shadows from shadow buffer lamps.
+   Casts shadows from shadow buffer lamps.
 
 **Buffer Bias**
-    Multiplication factor for Buffer shadows (0 = ignore)
+   Multiplication factor for Buffer shadows (0 = ignore)
 
 **Auto Ray Bias** -
-    Prevent raytraced shadow errors on surfaces with smooth shaded normals.
+   Prevent raytraced shadow errors on surfaces with smooth shaded normals.
 
 **Ray Bias**
-    Bias value to be used.
+   Bias value to be used.
 
 **Cast Approximate**
-    Allow this material to cast shadows when using approximate ambient occlusion.
+   Allow this material to cast shadows when using approximate ambient occlusion.
 
 

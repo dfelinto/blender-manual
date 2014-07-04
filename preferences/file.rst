@@ -71,7 +71,7 @@ the installation directory of Blender:
 - ...
 - startup
 - templates
-Not all of the folders have to be present.
+  Not all of the folders have to be present.
 
 
 Save & Load
@@ -82,7 +82,7 @@ Save & Load
 :guilabel:`Compress File`
    Compress ``.blend`` file when saving.
 :guilabel:`Load UI`
-   Default setting is to load the Window layout (the :doc:`Screens <interface/screens>`\ ) of the saved file. This can be changed individually when loading a file from the :guilabel:`Open Blender File` panel of the :guilabel:`File Browser` window.
+   Default setting is to load the Window layout (the :doc:`Screens <interface/screens>`) of the saved file. This can be changed individually when loading a file from the :guilabel:`Open Blender File` panel of the :guilabel:`File Browser` window.
 
 
 .. figure:: /images/Manual-Interface-Configuration-File-filefilter-25.jpg
@@ -93,11 +93,11 @@ Save & Load
 :guilabel:`Filter File Extensions`
    By activating this, file dialog windows will only show appropriate files (i.e. ``.blend`` files when loading a complete :guilabel:`Blender` setting). The selection of file types may be changed in the file dialog window.
 :guilabel:`Hide Dot File/Datablocks`
-   Hide file which start with "\ **.**\ *" on file browsers (in Linux and Apple systems, "\ **.**\ *" files are hidden).
+   Hide file which start with "\ **.** *" on file browsers (in Linux and Apple systems, "\ **.** *" files are hidden).
 :guilabel:`Hide Recent Locations`
    Hides the :guilabel:`Recent` panel of the :guilabel:`File Browser` window which displays recently accessed folders.
 :guilabel:`Show Thumbnails`
-   Displays a thumbnail of images and movies when using the :guilabel:`File Browser`\ .
+   Displays a thumbnail of images and movies when using the :guilabel:`File Browser`.
 
 
 Auto Save
@@ -106,7 +106,7 @@ Auto Save
 :guilabel:`Save Versions`
    Number of versions created for the same file (for backup).
 :guilabel:`Recent Files`
-   Number of files displayed in :menuselection:`File --> Open Recent`\ .
+   Number of files displayed in :menuselection:`File --> Open Recent`.
 :guilabel:`Save Preview Images`
    Previews of images and materials in the :guilabel:`File Browser` window are created on demand. To save these previews into your ``.blend`` file, enable this option (at the cost of increasing the size of your ``.blend`` file).
 :guilabel:`Auto Save Temporary File`

@@ -10,12 +10,12 @@ the rig you start with depends on what you want to convey in your scene.
 Lighting can be very confusing, and the defaults do not give good results. Further,
 very small changes can have a dramatic effect on the mood and colors. At major studios,
 lighting is an entire step and specialty. Well,
-let's get out of the darkness of confusion and let me en\ *light*\ en you.
+let's get out of the darkness of confusion and let me en\ *light* en you.
 
 In all the lighting rigs,
 the default camera is always positioned nearly **15** degrees off dead-on, about **25 BU**
 (Blender Units) back and **9 BU** to the side of the subject, at eye level,
-and uses a long lens (\ **80mm**\ ). Up close, a **35mm** lens will distort the image.
+and uses a long lens (**80mm**). Up close, a **35mm** lens will distort the image.
 A long lens takes in more of the scene.
 A dead-on camera angle is too dramatic and frames too wide a scene to take in.
 So now you know; next time you go to a play, sit off-center and you won't miss the action
@@ -33,7 +33,7 @@ Environment or Ambient Only
    Environment (Ambient) lighting only.
 
 
-In the :guilabel:`World` context, there is a panel :guilabel:`Environment Lighting`\ ,
+In the :guilabel:`World` context, there is a panel :guilabel:`Environment Lighting`,
 where you enable environment or ambient lighting of your scene. Ambient light is the scattered
 light that comes from sunlight being reflected off every surface it hits, hitting your object,
 and traveling to camera.
@@ -46,7 +46,7 @@ and traveling to camera.
    Ambient occlusion.
 
 
-Ambient light illuminates, in a perfectly balanced, shadeless way, without casting shadows. You can vary the intensity of the ambient light across your scene via :doc:`ambient occlusion <lighting/ambient_occlusion>`\ . The ambient color is a sunny white.
+Ambient light illuminates, in a perfectly balanced, shadeless way, without casting shadows. You can vary the intensity of the ambient light across your scene via :doc:`ambient occlusion <lighting/ambient_occlusion>`. The ambient color is a sunny white.
 
 
 Single Rig
@@ -68,13 +68,13 @@ in this case **10 BU** in front and **10 BU** high, just like a stage,
 it shines down at about a **40** degrees angle. We use quadratic attenuation.
 
 You can make the spot wider by increasing :guilabel:`Size Spot Shape` and softening the edge
-by increasing :guilabel:`Blend Spot Shape`\ , and parent it to the main actor,
+by increasing :guilabel:`Blend Spot Shape`, and parent it to the main actor,
 so that the spot follows him as he moves around. Objects close to the main actor will
 naturally be more lit and your viewer will pay attention to them.
 
 Moving this spot directly overhead and pointing down gives the interrogation effect.
 At the opposite end of the show-off emotional spectrum is one soft candlelight
-(\ :guilabel:`Point` lamp, short falloff :guilabel:`Distance`\ , yellow light)
+(:guilabel:`Point` lamp, short falloff :guilabel:`Distance`, yellow light)
 placed really up close to the subject, dramatizing the fearful "lost in the darkness" effect.
 
 Somewhere in the macabre spectrum is a hard spot on the floor shining upward. For fun,
@@ -107,19 +107,19 @@ lighting rig provides a balanced illumination of untextured objects hanging out 
 space. This rig is used in real studios for lighting a product, especially a glossy one.
 
 Both lights are almost the same but do different things. Both emulate very wide,
-soft light by being :guilabel:`Hemi`\ . In real life,
+soft light by being :guilabel:`Hemi`. In real life,
 these lights bounce light off the inside of a silver umbrella.
 
 Notice how we use low :guilabel:`Energy` to bring out the dimensionality of the sphere;
 I can't stress that enough. Hard, bright lights actually flatten it and make you squint.
-Soft lights allow your eye to focus. We disable specular for right :guilabel:`Hemi`\ ,
+Soft lights allow your eye to focus. We disable specular for right :guilabel:`Hemi`,
 so we don't get that shiny forehead or nose.
 
 The lamp on the left however, lets it be known that it is there by enabling specular;
 specular flare is that bright spot that is off center above midline on the sphere.
 
 Use this rig to give even illumination of a scene, where there is no main focus.
-The :guilabel:`Hemi`\ 's will light up background objects and props,
+The :guilabel:`Hemi` 's will light up background objects and props,
 so :guilabel:`Environment Lighting` is not that important.
 At the opposite end of the lighting spectrum, two narrow :guilabel:`Spot` lights at higher
 power with a hard edge gives a "This is the Police, come out with your hands up" kind of look,
@@ -228,12 +228,12 @@ even producing an intentional glare on the top of their head,
 telling you there is a sun up there. Notice it is colored yellow,
 which balances out the blue sidelights.
 
-Changing the key light to a :guilabel:`Spot`\ , select :guilabel:`Inverse Square`\ , disable
+Changing the key light to a :guilabel:`Spot`, select :guilabel:`Inverse Square`, disable
 :guilabel:`Specular` and pure white light combines with and softens the top sun flare while
 illuminating the face, resulting in a bright sunshine effect.
 Two lights above means sharper shadows as well,
 so you might want to adjust the side fill lights. In this picture,
-they are still :guilabel:`Hemi`\ , disable :guilabel:`Specular`\ .
+they are still :guilabel:`Hemi`, disable :guilabel:`Specular`.
 
 Use this rig when the camera will be filming from behind the characters,
 looking over their shoulder or whatnot, because the sun provides the backlight there.
@@ -259,6 +259,6 @@ here is what I suggest you do:
 - Then start "killing" lights (e.g. moving them to an unused layer); regress all the way back to one light, make sure it's smooth, then add them in one by one. As they add together, reduce power in the tested ones so they merge cleanly, or consider not adding it at all, or, especially, reduce the energy of the lamp you just introduced.
 - You can also set lights to only light objects on a layer, so again, if some of the gray spheres have weirdness, check for that as well. Again, you may have done some of this accidentally, so sometimes deleting the light and re-adding it with defaults helps you reset to a known-good situation.
 - Negative lights can be very tricky, and make your model blotchy, so pay special attention to your use of those special lights. Shadow-only lights can throw off the look of the scene as well. Overly textured lights can make your scene have random weird colors. Don't go too far off a slight tinge of blue or yellow or shades of white, or your material may show blue in the :guilabel:`Material` context but render green, and you will be very confused.
-- Look at your environment settings :guilabel:`World` context: :guilabel:`Horizon`\ , :guilabel:`Zenith`\ , and :guilabel:`Environment Lighting`\ .
+- Look at your environment settings :guilabel:`World` context: :guilabel:`Horizon`, :guilabel:`Zenith`, and :guilabel:`Environment Lighting`.
 
 

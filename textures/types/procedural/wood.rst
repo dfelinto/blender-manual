@@ -18,11 +18,11 @@ Procedural textures: Wood
 Options
 -------
 
-:guilabel:`Sin`\ /\ :guilabel:`Saw`\ /\ :guilabel:`Tri`
+:guilabel:`Sin` / :guilabel:`Saw` / :guilabel:`Tri`
    Shape of wave to produce bands
-:guilabel:`Bands`\ /\ :guilabel:`Rings`\ /\ :guilabel:`Band Noise`\ /\ :guilabel:`Ring Noise`
+:guilabel:`Bands` / :guilabel:`Rings` / :guilabel:`Band Noise` / :guilabel:`Ring Noise`
    Set the bands to either straight or ring-shaped, with or without turbulence
-:guilabel:`Soft`\ /\ :guilabel:`Hard`
+:guilabel:`Soft` / :guilabel:`Hard`
    There are two methods available for the Noise function
 :guilabel:`Size`
    Dimension of the Noise table

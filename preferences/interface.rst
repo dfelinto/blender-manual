@@ -21,7 +21,7 @@ Display
 :guilabel:`Large Cursors`
    Use large mouse cursors when available.
 :guilabel:`View Name`
-   Display the name and type of the current view in the top left corner of the 3D window. For example: :guilabel:`User Persp` or :guilabel:`Top Ortho`\ .
+   Display the name and type of the current view in the top left corner of the 3D window. For example: :guilabel:`User Persp` or :guilabel:`Top Ortho`.
 :guilabel:`Playback FPS`
    Show the frames per second screen refresh rate while an animation is played back. It appears in the viewport corner, displaying red if the frame rate set can't be reached.
 :guilabel:`Global Scene`
@@ -54,7 +54,7 @@ View manipulation
 :guilabel:`Smooth View`
    Length of time the animation takes when changing the view with the numpad (Top/Side/Front/Camera...). Reduce to zero to remove the animation.
 :guilabel:`Rotation Angle`
-   Rotation step size in degrees, when :kbd:`pad4`\ , :kbd:`pad6`\ , :kbd:`pad8`\ , or :kbd:`pad2` are used to rotate the 3D view.
+   Rotation step size in degrees, when :kbd:`pad4`, :kbd:`pad6`, :kbd:`pad8`, or :kbd:`pad2` are used to rotate the 3D view.
 
 
 2D Viewports
@@ -80,7 +80,7 @@ Menus
    Select this to have the menu open by placing the mouse pointer over the entry instead of clicking on it.
 :guilabel:`Menu Open Delay`
 :guilabel:`Top Level`
-   Time delay in 1/10 second before a menu opens (\ :guilabel:`Open on Mouse Over` needs to be enabled).
+   Time delay in 1/10 second before a menu opens (:guilabel:`Open on Mouse Over` needs to be enabled).
 :guilabel:`Sub Level`
-   Same as above for sub menus (for example: :menuselection:`File --> Open Recent`\ ).
+   Same as above for sub menus (for example: :menuselection:`File --> Open Recent`).
 

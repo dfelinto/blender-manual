@@ -39,12 +39,13 @@ Options
    Factor to adjust the influence of the modifiers deformation, useful for blending in/out from the cache data.
 :guilabel:`Deform Mode`
    This setting defaults to 'Overwrite' which will replace the vertex locations with those in the cache file.
-However you may want to use shape-keys, for example, and mix them with the mesh-cache. In this case you can select the 'Deform' option which integrates deformations with the mesh-cache result.
-*Note - this feature is limited to making smaller, isolated edits and won't work for re-posing limbs, for example.*
+   However you may want to use shape-keys, for example, and mix them with the mesh-cache. In this case you can select the 'Deform' option which integrates deformations with the mesh-cache result.
+   *Note - this feature is limited to making smaller, isolated edits and won't work for re-posing limbs, for example.*
 :guilabel:`Interpolation`
    None or Linear which will blend between frames; use linear when the frames in the cache file don't match up exactly with the frames in the blend file.
 
 Time Mapping:
+
 :guilabel:`Time Mode`
    Select how time is calculated.
 
@@ -66,7 +67,8 @@ Axis transformation for the input coordinates.
 
 :guilabel:`Forward/Up Axis`
    The axis for forward and up used in the source file.
-*Often different applications have different axis defaults for up/down front/back, so it's common to have to switch these on import.*
+   *Often different applications have different axis defaults for up/down front/back,
+   so it's common to have to switch these on import.*
 :guilabel:`Flip Axis`
    In rare cases you may also need to flip the coordinates on an axis.
 

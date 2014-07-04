@@ -2,7 +2,10 @@
 Game Logic Screen Layout
 ========================
 
-The design, construction, debugging and running of a game utilises a wide range of Blender functions. To help with the process, Blender incorporates a suggested screen layout for setting up BGE games. This includes many already-familiar panels but also a new :doc:`Logic Editor <game_engine/logic/editor>` panel (4) concerned solely with the BGE.
+The design, construction, debugging and running of a game utilises a wide range of Blender functions.
+To help with the process, Blender incorporates a suggested screen layout for setting up BGE games.
+This includes many already-familiar panels but also a new
+:doc:`Logic Editor <game_engine/logic/editor>` panel (4) concerned solely with the BGE.
 
 The diagram below shows this default Game Logic screen layout,
 together with the appropriate options for game setup/debug/running
@@ -47,17 +50,21 @@ and a range of Properties for the BGE renderer properties (see below)
 **3) Game**
 This menu gives various options for conditions for running the Game Engine.
 Note that this menu is only available when the render engine is set to Blender Game.
-   :guilabel:`Start Game`\ : Run game in Game Engine (shortcut p or :kbd:`shift-P` when the mouse cursor is over the 3D View window).
-   :guilabel:`Show Debug Properties`\ : Show properties marked for debugging while game runs
-   :guilabel:`Show framerate and profile` :Show framerate and profiling information while game runs
-   :guilabel:`Show Physics visualization`\ : show a vizualisation of physics bounds and interactions
-   :guilabel:`Deprecation warnings` : Print warnings when using deprecated features in the python API
-   :guilabel:`Record animation` : Record animation to F-curves
-   :guilabel:`Auto Start` : Automatically start game at load time
+
+- :guilabel:`Start Game`: Run game in Game Engine (shortcut p or :kbd:`shift-P` when the mouse cursor is over the 3D View window).
+- :guilabel:`Show Debug Properties`: Show properties marked for debugging while game runs
+- :guilabel:`Show framerate and profile` :Show framerate and profiling information while game runs
+- :guilabel:`Show Physics visualization`: show a vizualisation of physics bounds and interactions
+- :guilabel:`Deprecation warnings` : Print warnings when using deprecated features in the python API
+- :guilabel:`Record animation` : Record animation to F-curves
+- :guilabel:`Auto Start` : Automatically start game at load time
 
 
 **4) Logic Editor panel**
-The :doc:`Logic Editor <game_engine/logic/editor>` is where the :doc:`logic, properties and states <game_engine/logic>` are set up to control the behaviour of the objects in the game. (The Logic Editor panel can also be  displayed by selecting Logic Editor in the Display Editor menu, by pressing :kbd:`shift-F2`\ , or by pressing :kbd:`ctrl-right`\ ).
+The :doc:`Logic Editor <game_engine/logic/editor>` is where the
+:doc:`logic, properties and states <game_engine/logic>` are set up to control the behaviour of the objects in the game.
+(The Logic Editor panel can also be  displayed by selecting Logic Editor in the Display Editor menu,
+by pressing :kbd:`shift-F2`, or by pressing :kbd:`ctrl-right`).
 
 
 **5) Properties**
@@ -65,7 +72,9 @@ The :doc:`Logic Editor <game_engine/logic/editor>` is where the :doc:`logic, pro
 .. admonition:: Two Meanings for the Same Word
    :class: nicetip
 
-   Note that the name "Property" has two different uses in Blender terminology - firstly in the wider use of the Property Display Panel as described here, and secondly as the term used for specific Game Engine logic variables which are also called "properties".
+   Note that the name "Property" has two different uses in Blender terminology -
+   firstly in the wider use of the Property Display Panel as described here,
+   and secondly as the term used for specific Game Engine logic variables which are also called "properties".
 
 
 The Property panel of the screen is selected as usual from the main Information menu.

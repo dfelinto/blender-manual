@@ -83,7 +83,7 @@ visualize the rotation of a particle you should choose visualization type Axis i
 Visualization panel and increase the Draw Size.
 
 :guilabel:`Initial Rotation Mode`
-    Sets the initial rotation of the particle by aligning the x-axis in the direction of:
+   Sets the initial rotation of the particle by aligning the x-axis in the direction of:
 
    :guilabel:`None`
       the global x-axis.
@@ -91,34 +91,39 @@ Visualization panel and increase the Draw Size.
       Orient to the emitter's surface normal, the objects Y axis points outwards.
    :guilabel:`Normal-Tangent`
       As with normal, orient the Y axis to the surface normal.
-Also orient the X axis to the tangent for control over the objects rotation about the normal. requires UV coordinates, the UV rotation effects the objects orientation, currently uses the active UV layer.
-This allow deformation without the objects rotating in relation to their surface.
+      Also orient the X axis to the tangent for control over the objects rotation about the normal.
+      requires UV coordinates, the UV rotation effects the objects orientation, currently uses the active UV layer.
+      This allow deformation without the objects rotating in relation to their surface.
    :guilabel:`Velocity`
-       the particle's initial velocity.
+      the particle's initial velocity.
    :guilabel:`Global X/Global Y/Global Z`
-       one of the global axes
+      one of the global axes
    :guilabel:`Object X/Object Y/Object Z`
-       one of the emitter object axes.
+      one of the emitter object axes.
 
    :guilabel:`Random`
-       Randomizes rotation.
+      Randomizes rotation.
 
 :guilabel:`Dynamic`
-    If enabled, only initializes particles to the wanted rotation and angular velocity and let's physics handle the rest. Particles then change their angular velocity if they collide with other objects (like in the real world due to friction between the colliding surfaces). Otherwise the angular velocity is predetermined at all times (i.e. set rotation to dynamic/constant).
+   If enabled, only initializes particles to the wanted rotation and angular velocity and let's physics handle the rest.
+   Particles then change their angular velocity if they collide with other objects
+   (like in the real world due to friction between the colliding surfaces).
+   Otherwise the angular velocity is predetermined at all times (i.e. set rotation to dynamic/constant).
 
 :guilabel:`Phase`
-    Initial rotation phase
+   Initial rotation phase
 :guilabel:`Random`
    Rand allows a random variation of the Phase.
 
 :guilabel:`Angular Velocity`
-    The magnitude of angular velocity, the dropdown specifies the axis of angular velocity to be
+   The magnitude of angular velocity, the dropdown specifies the axis of angular velocity to be
+
    :guilabel:`None`
-       a zero vector (no rotation).
+      a zero vector (no rotation).
    :guilabel:`Spin`
-       the particles velocity vector.
+      the particles velocity vector.
    :guilabel:`Random`
-    a random vector.
+      a random vector.
 
 If you use a Curve Guide and want the particles to follow the curve,
 you have to set Angular Velocity to Spin and leave the rotation on Constant (i.e.
@@ -157,7 +162,7 @@ to groom vegetation and/or ecosystems using Object, Group or Billboard types of 
 Field Weights
 =============
 
-The Field Weight Panel allows you to control how much influence each type of external force field, or effector, has on the particle system. Force fields are external forces that give dynamic systems motion. The force fields types are detailed on the :doc:`Force Field Page <physics/force_fields>`\ .
+The Field Weight Panel allows you to control how much influence each type of external force field, or effector, has on the particle system. Force fields are external forces that give dynamic systems motion. The force fields types are detailed on the :doc:`Force Field Page <physics/force_fields>`.
 
 :guilabel:`Effector Group`
    Limit effectors to a specified group. Only effectors in this group will have an effect on the current system.
@@ -178,5 +183,5 @@ allowing them to affect other dynamic systems, or even, each other.
 :guilabel:`Amount`
    Set how many of the particles act as force fields. 0 means all of them are effectors.
 
-You can give particle systems up to 2 force fields. By default they do not have any. Choose an effector type from the dropdowns to enable them. Settings are described on the :doc:`Force Field Page <physics/force_fields>`\ .
+You can give particle systems up to 2 force fields. By default they do not have any. Choose an effector type from the dropdowns to enable them. Settings are described on the :doc:`Force Field Page <physics/force_fields>`.
 

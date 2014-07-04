@@ -11,7 +11,7 @@ the colour of the vertex is modified according to the rules of the 'brush'. The 
 visible planes and edges attached to the vertex are then modified with a gradient to the color
 of the other connected vertices. (Note that the color of non-visible faces are not modified).
 
-Vertex colors can be painted by first going into Edit Mode, then switching to :guilabel:`Vertex Paint Mode`\ ; however, it will not show up in the render unless you check "Vertex Color Paint" in the Materials  `Options <http://wiki.blender.org/index.php/User:Sculptorjim/Materials/Properties/Options>`__ Panel.
+Vertex colors can be painted by first going into Edit Mode, then switching to :guilabel:`Vertex Paint Mode`; however, it will not show up in the render unless you check "Vertex Color Paint" in the Materials  `Options <http://wiki.blender.org/index.php/User:Sculptorjim/Materials/Properties/Options>`__ Panel.
 
 
 .. figure:: /images/Doc_2.6_Materials_VertexPaint0.jpg
@@ -107,7 +107,7 @@ it must only be defined.
       Random applying of texture.
 
 :guilabel:`Angle`
-    This is the rotation angle of the texture brush. It can be changed interactively via :kbd:`ctrl-F` in the 3D view. While in the interactive rotation you can enter a value numerically as well. Can be set to:
+   This is the rotation angle of the texture brush. It can be changed interactively via :kbd:`ctrl-F` in the 3D view. While in the interactive rotation you can enter a value numerically as well. Can be set to:
 
    :guilabel:`User`
       Directly input the angle value.
@@ -128,12 +128,16 @@ Stroke
 
 **Stroke Method**
    Allows set the way applying strokes.
+
    **Airbrush**
-      Flow of the brush continues as long as the mouse click is held, determined by the :guilabel:`Rate` setting. If disabled, the brush only modifies the color when the brush changes its location.
+      Flow of the brush continues as long as the mouse click is held, determined by the :guilabel:`Rate` setting.
+      If disabled, the brush only modifies the color when the brush changes its location.
+
       **Rate**
          Interval between paints for airbrush
    **Space**
-       Creates brush stroke as a series of dots, whose spacing is determined by the :guilabel:`Spacing` setting.
+      Creates brush stroke as a series of dots, whose spacing is determined by the :guilabel:`Spacing` setting.
+
       **Spacing**
          Represents the percentage of the brush diameter. Limit brush application to the distance specified by spacing.
    **Dots**
@@ -142,6 +146,7 @@ Stroke
       Jitter the position of the brush while painting
 **Smooth stroke**
    Brush lags behind mouse and follows a smoother path. When enabled, the following become active:
+
    **Radius**
       Sets the minimun distance from the last point before stroke continues.
    **Factor**
@@ -195,10 +200,10 @@ Options
 **Spray**
    Continues painting for as long as the mouse is held.
 
-**Unified Settings**\ :
-**Size**
-   All brushes use the same size.
-**Strength**
-   All brushes use the same strength.
+**Unified Settings**
+   **Size**
+      All brushes use the same size.
+   **Strength**
+      All brushes use the same strength.
 
 

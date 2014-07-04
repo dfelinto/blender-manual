@@ -14,7 +14,7 @@ But for rendering the animation, the baked data must be on disk. And before you 
 you need to save your Blendfile.
 
 Next select the domain cube and go to the physics tab where you open the Smoke Cache section.
-Give your cache a file name by entering it into the text box and hitting :kbd:`enter`\ .
+Give your cache a file name by entering it into the text box and hitting :kbd:`enter`.
 By hitting Bake your simulation data is computed and stored to disk. Notice that the
 scrubbing-bug in the timeline is gone now? At this point you should be able to render the
 animation.

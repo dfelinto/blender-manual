@@ -5,7 +5,10 @@
 Stretch To Constraint
 =====================
 
-The :guilabel:`Stretch To` constraint causes its owner to rotate and scale its Y axis towards its target. So it has the same tracking behavior as the :doc:`Track To constraint <constraints/tracking/track_to>`\ . However, it assumes that the Y axis will be the tracking and stretching axis, and doesn't give you the option of using a different one.
+The :guilabel:`Stretch To` constraint causes its owner to rotate and scale its Y axis towards its target.
+So it has the same tracking behavior as the :doc:`Track To constraint <constraints/tracking/track_to>`.
+However, it assumes that the Y axis will be the tracking and stretching axis,
+and doesn't give you the option of using a different one.
 
 It also optionally has some raw volumetric features,
 so the owner can squash down as the target moves closer,
@@ -30,7 +33,7 @@ Options
 
 
 :guilabel:`Target` (Mesh Object Type)
-    This constraint uses one target, and is not functional (red state) when it has none.
+   This constraint uses one target, and is not functional (red state) when it has none.
 
    :guilabel:`Vertex Group`
       When :guilabel:`Target` is a mesh, a new field is display where a vertex group can be selected.
@@ -44,17 +47,18 @@ Options
 
 
 :guilabel:`Target` (Armature Object Type)
-    This constraint uses one target, and is not functional (red state) when it has none.
+   This constraint uses one target, and is not functional (red state) when it has none.
 
    :guilabel:`Bone`
       When :guilabel:`Target` is an armature, a new field for a bone is displayed.
 
    :guilabel:`Head/Tail`
-      When using a Bone :guilabel:`Target`\ , you can choose where along this bone the target point lies.
+      When using a Bone :guilabel:`Target`, you can choose where along this bone the target point lies.
 
 :guilabel:`Rest Length`
    This numeric field sets the rest distance between the owner and its target, i.e.
    the distance at which there is no deformation (stretching) of the owner.
+
    :guilabel:`Reset`
       When clicked, this small button will recalculate the :guilabel:`Rest Length` value,
       so that it corresponds to the actual distance between the owner and its target (i.e.
@@ -68,7 +72,7 @@ Options
    to preserve the virtual volume while stretching along the Y axis.
    If you enable the :guilabel:`NONE` button, the volumetric features are disabled.
 :guilabel:`Plane`
-   These buttons are equivalent to the *Up* ones of the :doc:`Track To constraint <constraints/tracking/track_to>`\ :
+   These buttons are equivalent to the *Up* ones of the :doc:`Track To constraint <constraints/tracking/track_to>`:
    they control which of the X or Z axes should be maintained (as much as possible) aligned with the global Z axis,
    while tracking the target with the Y axis.
 

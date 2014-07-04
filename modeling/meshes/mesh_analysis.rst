@@ -86,7 +86,7 @@ Similar to wall-thickness, sharp edges can form shapes that are too thin to be a
    :class: note
 
 
-    .. warning::
+   .. warning::
 
       FIXME - warning body below
 

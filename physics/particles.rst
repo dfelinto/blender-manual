@@ -11,14 +11,14 @@ and other things such as dust or magic spells.
 :doc:`Hair <physics/particles/hair>` type particles are a subset of regular particles. Hair systems form strands that can represent hair, fur, grass and bristles.
 
 You see particles as a :guilabel:`Particle` modifier,
-but all settings are done in the :guilabel:`Particle tab`\ .
+but all settings are done in the :guilabel:`Particle tab`.
 
 
 .. figure:: /images/Blender3D_FurExample_2.49.jpg
    :width: 300px
    :figwidth: 300px
 
-   Image 1: Some fur made from particles (\ `Blend file <http://wiki.blender.org/index.php/Media:Blender3D FurExample 2.49.blend>`__\ ).
+   Image 1: Some fur made from particles (`Blend file <http://wiki.blender.org/index.php/Media:Blender3D FurExample 2.49.blend>`__).
 
 
 Particles generally flow out from their mesh into space.
@@ -31,16 +31,16 @@ Their movement can be affected by many things, including:
 - Interaction with other objects like collisions.
 - Partially intelligent members of a flock (herd, school, …), that react to other members of their flock, while trying to reach a target or avoid predators.
 - Smooth motion with softbody physics (only :guilabel:`Hair` particle systems).
-- Or even manual transformation with :doc:`Lattices <modifiers/deform/lattice>`\ .
+- Or even manual transformation with :doc:`Lattices <modifiers/deform/lattice>`.
 
 Particles may be rendered as:
 
 - :doc:`Halos <materials/halos>` (for Flames, Smoke, Clouds).
 - Meshes which in turn may be animated (e.g. fish, bees, …). In these cases, each particle "carries" another object.
-- :doc:`Strands <materials/properties/strands>` (for :doc:`Hair, Fur, Grass <physics/particles/hair>`\ ); the complete way of a particle will be shown as a strand. These strands can be manipulated in the 3D window (combing, adding, cutting, moving, etc).
+- :doc:`Strands <materials/properties/strands>` (for :doc:`Hair, Fur, Grass <physics/particles/hair>`); the complete way of a particle will be shown as a strand. These strands can be manipulated in the 3D window (combing, adding, cutting, moving, etc).
 
 Every object may carry many particle systems. Each particle system may contain up to 100.
-000 particles. Certain particle types (\ :guilabel:`Hair` and :guilabel:`Keyed`\ )
+000 particles. Certain particle types (:guilabel:`Hair` and :guilabel:`Keyed`)
 may have up to 10.000 children for each particle
 (children move and emit more or less like their respective parents).
 The size of your memory and your patience are your practical boundaries.
@@ -107,10 +107,10 @@ and you can change between these two with the :guilabel:`Type` drop-down list:
    This parallels the old system to the greatest extent. In such a system, particles are emitted from the selected object from the :guilabel:`Start` frame to the :guilabel:`End` frame and have a certain lifespan.
 
 :doc:`Hair <physics/particles/hair>`
-   This system type is rendered as strands and has some very special properties: it may be edited in the 3D window in realtime and you can also animate the strands with :doc:`Cloth Simulation <physics/cloth>`\ .
+   This system type is rendered as strands and has some very special properties: it may be edited in the 3D window in realtime and you can also animate the strands with :doc:`Cloth Simulation <physics/cloth>`.
 
 The settings in the :guilabel:`Particle System` panel are partially different for each system
-type. For example, in *Image 3* they are shown for only system type :guilabel:`Emitter`\ .
+type. For example, in *Image 3* they are shown for only system type :guilabel:`Emitter`.
 
 
 Common Options

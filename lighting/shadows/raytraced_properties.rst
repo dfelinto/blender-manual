@@ -9,28 +9,27 @@ Lamps Raytraced Shadows
    Ray shadowing options for lamps
 
 
-Most lamp types (\ :doc:`Lamp <lighting/lamps/lamp>`\ , :doc:`Spot <lighting/lamps/spot>` and :doc:`Sun <lighting/lamps/sun>`\ ) share the same options for the ray-traced shadows generation, which are described below. Note that the :doc:`Area <lighting/lamps/area>` lamp, even though using most of these options, have some specifics described in its :doc:`own ray-traced shadows page <lighting/lamps/area/raytraced_shadows>`\ .
+Most lamp types (:doc:`Lamp <lighting/lamps/lamp>`, :doc:`Spot <lighting/lamps/spot>` and :doc:`Sun <lighting/lamps/sun>`) share the same options for the ray-traced shadows generation, which are described below. Note that the :doc:`Area <lighting/lamps/area>` lamp, even though using most of these options, have some specifics described in its :doc:`own ray-traced shadows page <lighting/lamps/area/raytraced_shadows>`.
 
 :guilabel:`Ray Shadow`
    The :guilabel:`Ray Shadow` button enables the light source to generate ray-traced shadows.
-    When the :guilabel:`Ray Shadow` button is selected, another set of options is made available, those options being:
+   When the :guilabel:`Ray Shadow` button is selected, another set of options is made available, those options being:
 Shadow sample generator type
    Method for generating shadow samples: Adaptive QMC is fastest, Constant QMC is less noisy but slower.
-    This allows you to choose which algorithm is to be used to generate the samples that will serve to compute the ray-traced shadows (for now, mainly two variants of Quasi-Monte Carlo, see
-FIXME(TODO: Internal Link;
-[[#What is Quasi-Monte Carlo?|below]]
-)):
+   This allows you to choose which algorithm is to be used to generate the samples that will serve to compute the ray-traced shadows (for now, mainly two variants of Quasi-Monte Carlo, see
+   FIXME(TODO: Internal Link; [[#What is Quasi-Monte Carlo?|below]])):
+
    :guilabel:`Constant QMC`
       The :guilabel:`Constant QMC` method is used to calculate shadow values in a very uniform, evenly distributed way. This method results in very good calculation of shadow value but it is not as fast as using the :guilabel:`Adaptive QMC` method; however, :guilabel:`Constant QMC` is more accurate.
    :guilabel:`Adaptive QMC`
-      The :guilabel:`Adaptive QMC` method is used to calculate shadow values in a slightly less uniform and distributed way. This method results in good calculation of shadow value but not as good as :guilabel:`Constant QMC`\ . The advantage of using :guilabel:`Adaptive QMC` is that it is in general much quicker while being not much worse than :guilabel:`Constant QMC` in terms of overall results.
+      The :guilabel:`Adaptive QMC` method is used to calculate shadow values in a slightly less uniform and distributed way. This method results in good calculation of shadow value but not as good as :guilabel:`Constant QMC`. The advantage of using :guilabel:`Adaptive QMC` is that it is in general much quicker while being not much worse than :guilabel:`Constant QMC` in terms of overall results.
 
 :guilabel:`Samples`
    Number of extra samples taken (samples x samples).
-    This slider sets the maximum number of samples that both :guilabel:`Constant QMC` and :guilabel:`Adaptive QMC`
-    will use to do their shadow calculations.
-    The maximum value is **16** - the real number of samples is actually the square of it,
-    so setting a sample value of **3** really means ``3``\ :sup:`2` ``=`` **9** samples will be taken.
+   This slider sets the maximum number of samples that both :guilabel:`Constant QMC` and :guilabel:`Adaptive QMC`
+   will use to do their shadow calculations.
+   The maximum value is **16** - the real number of samples is actually the square of it,
+   so setting a sample value of **3** really means ``3``:sup:`2` ``=`` **9** samples will be taken.
 :guilabel:`Soft Size`
    Light size for ray shadow sampling.
    This slider determines the size of the fuzzy/diffuse/penumbra area around the edge of a shadow.
@@ -73,7 +72,7 @@ FIXME(TODO: Internal Link;
 
 
 :guilabel:`Threshold`
-   Threshold for Adaptive Sampling.  This field is used with the :guilabel:`Adaptive QMC` shadow calculation method. The value is used to determine if the :guilabel:`Adaptive QMC` shadow sample calculation can be skipped based on a threshold of how shadowed an area is already. The maximum :guilabel:`Threshold` value is **1.0**\ .
+   Threshold for Adaptive Sampling.  This field is used with the :guilabel:`Adaptive QMC` shadow calculation method. The value is used to determine if the :guilabel:`Adaptive QMC` shadow sample calculation can be skipped based on a threshold of how shadowed an area is already. The maximum :guilabel:`Threshold` value is **1.0**.
 
 
 What is Quasi-Monte Carlo?

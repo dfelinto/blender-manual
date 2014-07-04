@@ -23,13 +23,15 @@ Pencil` menu popped-up by the :guilabel:`Convert` button in the grease pencil pr
 .. admonition:: Why "polyline-like" curves?
    :class: note
 
-   To get by default curves following exactly the grease pencil strokes. If you want a smoothed curve, just edit it to get auto handles (for Bezier), or raise its order (for NURBS).
+   To get by default curves following exactly the grease pencil strokes.
+   If you want a smoothed curve, just edit it to get auto handles (for Bezier), or raise its order (for NURBS).
 
 
 .. admonition:: Converting to Mesh
    :class: note
 
-   If you want to convert your sketch to a mesh, simply choose first :guilabel:`NURBS`\ , and then convert the created curve to a mesh…
+   If you want to convert your sketch to a mesh,
+   simply choose first :guilabel:`NURBS`, and then convert the created curve to a mesh.
 
 
 General Options
@@ -41,12 +43,12 @@ General Options
 
 
 Stroke's width will be used to set the curve's control points' radii and weights
-(\ **not** NURBS weights, but those used e.g. as goal by the softbody simulation…).
+(**not** NURBS weights, but those used e.g. as goal by the softbody simulation…).
 The default behavior is to get strokes' width
 (as defined in its settings - and which might have been modulated by the pen pressure),
 to multiply it by a given constant (0.1), and to assign it directly to weights.
 Radii get the same value scaled by the :guilabel:`Radius Fac` factor (e.g.
-with a **10.0** factor, a stroke width of **3** will give radii of **3.0**\ …).
+with a **10.0** factor, a stroke width of **3** will give radii of **3.0** …).
 
 :guilabel:`Normalize Weight` (enabled by default) will scale weights value so that they tightly fit into the ``[0.0, 1.0]`` range.
 
@@ -55,7 +57,9 @@ you can directly control the radius and weight of the created curve, which can a
 the width of an extrusion, or the size of an object through a :guilabel:`Follow Path`
 constraint or :guilabel:`Curve` modifier!
 
-:guilabel:`Link Strokes` (enabled by default) will create a single spline (i.e. curve element) from all strokes in active grease pencil layer. This especially useful if you want to use the curve as a path. All the strokes are linked in the curve by "zero weights/radii" sections.
+:guilabel:`Link Strokes` (enabled by default) will create a single spline (i.e. curve element)
+from all strokes in active grease pencil layer. This especially useful if you want to use the curve as a path.
+All the strokes are linked in the curve by "zero weights/radii" sections.
 
 
 Timing
@@ -65,26 +69,29 @@ Grease pencil now stores "dynamic" data, i.e. how fast they were drawn.
 When converting to curve,
 those data can be used to create an :guilabel:`Evaluate Time` F-Curve (in other words,
 a path animation), that can be used e.g. to control another object's position along that curve
-(\ :guilabel:`Follow Path` constraint, or, trough a driver, :guilabel:`Curve` modifier).
+(:guilabel:`Follow Path` constraint, or, trough a driver, :guilabel:`Curve` modifier).
 So this allows you to reproduce your drawing movements.
 
 
- .. warning::
+.. warning::
 
    FIXME - warning body below
 
 All those "timing" options need :guilabel:`Link Stroke` to be enabled - else they would not make much sense!
 
 
- .. warning::
+.. warning::
 
    FIXME - warning body below
 
-Please note that if you use this tool with older grease pencil's strokes (i.e. some without any timing data), you will only have a subset of those options available (namely, only linear progression along the curve over a specified range of frames…).
+Please note that if you use this tool with older grease pencil's strokes (i.e. some without any timing data),
+you will only have a subset of those options available
+(namely, only linear progression along the curve over a specified range of frames).
 
 
 :guilabel:`Timing Mode`
    This control let you choose how timing data are used.
+
    :guilabel:`No Timing`
       Just create the curve, without any animation data (hence all following options will be hidden)…
    :guilabel:`Linear`
@@ -95,7 +102,7 @@ Please note that if you use this tool with older grease pencil's strokes (i.e. s
       The path animation will reflect to original timing, but the "gaps" will get custom values. This is especially useful if you have very large pauses between some of your strokes, and would rather like to have "reasonable" ones!
 
 :guilabel:`Frame Range`
-   The "length" of the created path animation, in frames. In other words, the highest value of :guilabel:`Evaluation Time`\ .
+   The "length" of the created path animation, in frames. In other words, the highest value of :guilabel:`Evaluation Time`.
 
 :guilabel:`Start Frame`
    The starting frame of the path animation.
@@ -127,5 +134,5 @@ FIXME(Tag Unsupported:youtube;
 )
 
 
-And the blend file : `File:ManGreasePencilConvertToCurveDynamicExample.blend <http://wiki.blender.org/index.php/file:ManGreasePencilConvertToCurveDynamicExample.blend>`__
-
+And the blend file:
+`File:ManGreasePencilConvertToCurveDynamicExample.blend <http://wiki.blender.org/index.php/file:ManGreasePencilConvertToCurveDynamicExample.blend>`__

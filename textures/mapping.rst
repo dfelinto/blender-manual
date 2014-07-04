@@ -34,6 +34,7 @@ Coordinates
   this is an easy way to place a small image at a given point on the object
   (see the FIXME(TODO: Internal Link; [[#Position a Decal on a Mesh|example below]])).
   This object can also be animated, to move a texture around or through a surface.
+
   - :guilabel:`Object`
     Select the name of an object.
 - :guilabel:`Generated`
@@ -46,6 +47,7 @@ Coordinates
   This mapping is especially useful when using 2D images as textures,
   as seen in :doc:`UV Mapping <textures/mapping/uv>`.
   You can use multiple textures with one set of UV coordinates.
+
   - :guilabel:`Layer`
     Select your UV layer to use it for mapping.
 - :guilabel:`Strand/Particle`
@@ -104,7 +106,7 @@ Inheriting coordinates from the parent object
 
 :guilabel:`From Dupli`
 
-    Duplis instanced from vertices, faces, or particles, inherit texture coordinates from their parent.
+   Duplis instanced from vertices, faces, or particles, inherit texture coordinates from their parent.
 
 **Todo: explaination**
 
@@ -127,22 +129,22 @@ Coordinate Offset, Scaling and Transformation
 
 
 - :guilabel:`Size`
-  These buttons allow you to change the mapping of axes between the texture's own coordinate system,
-  and the mapping system you choose (Generated, UV, etcetera.)
-  More precisely, to each axis of the texture corresponds one of four choices,
-  that allow you to select to which axis in the mapping system it maps! This implies several points:
+   These buttons allow you to change the mapping of axes between the texture's own coordinate system,
+   and the mapping system you choose (Generated, UV, etcetera.)
+   More precisely, to each axis of the texture corresponds one of four choices,
+   that allow you to select to which axis in the mapping system it maps! This implies several points:
 
-  - For 2D textures (such as images), only the first two rows are relevant, as they have no Z data.
-  - You can rotate a 2D picture a quarter turn by setting the first row (i.e. X texture axis) to Y,
-    and the second row (Y texture axis) to X.
-  - When you map no texture axis (i.e. the three "void" buttons are set),
-    you'll get a solid uniform texture, as you use zero dimension (i.e. a dot, or pixel) of it
-    (and then Blender extends or repeats this point's color along all axes.)
-  - When you only map one texture axis (i.e. two "void" buttons are enabled)
-    you'll get a "striped" texture, as you only use one dimension (i.e. a line of pixel) of it,
-    (and then Blender stretches this line along the two other axes).
-  - The same goes, for 3D textures (i.e. procedural ones), when one axis is mapped to nothing,
-    Blender extends the plan ("slice") along the relevant third axis.
+   - For 2D textures (such as images), only the first two rows are relevant, as they have no Z data.
+   - You can rotate a 2D picture a quarter turn by setting the first row (i.e. X texture axis) to Y,
+     and the second row (Y texture axis) to X.
+   - When you map no texture axis (i.e. the three "void" buttons are set),
+     you'll get a solid uniform texture, as you use zero dimension (i.e. a dot, or pixel) of it
+     (and then Blender extends or repeats this point's color along all axes.)
+   - When you only map one texture axis (i.e. two "void" buttons are enabled)
+     you'll get a "striped" texture, as you only use one dimension (i.e. a line of pixel) of it,
+     (and then Blender stretches this line along the two other axes).
+   - The same goes, for 3D textures (i.e. procedural ones), when one axis is mapped to nothing,
+     Blender extends the plan ("slice") along the relevant third axis.
 
 So, all this is a bit hard to understand and master. Fortunately,
 you do not have to change these settings often, except for some special effects… Anyway,

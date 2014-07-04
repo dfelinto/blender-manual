@@ -17,8 +17,8 @@ vertices together.
 This way you can simulate the shapes that an object would take on in reality if it had volume,
 was filled with something, and was acted on by real forces.
 
-Soft Bodies can interact with other objects (\ *Collision*\ ). They can interact with themselves
-(\ *Self Collision*\ ).
+Soft Bodies can interact with other objects (*Collision*). They can interact with themselves
+(*Self Collision*).
 
 The result of the Soft Body simulation can be converted to a static object.
 You can also *bake edit* the simulation, i.e.
@@ -40,7 +40,7 @@ Soft Bodies are well suited for:
 - Elastic objects with or without collision.
 - Flags, fabric reacting to forces.
 - Certain modeling tasks, like a cushion or a table cloth over an object.
-- Blender has another simulation system for clothing (see :doc:`Clothes <physics/cloth>`\ ). But you can sometimes use Soft Bodies for certain parts of clothing, like wide sleeves.
+- Blender has another simulation system for clothing (see :doc:`Clothes <physics/cloth>`). But you can sometimes use Soft Bodies for certain parts of clothing, like wide sleeves.
 - Hair (as long as you minimize collision).
 - Animation of swinging ropes, chains and the like.
 
@@ -64,12 +64,12 @@ To activate the Soft Body simulation for an object:
 - Activate the :guilabel:`Soft Body` button.
 
 A lot of options appear.
-For a reference of all the settings see :doc:`this page <physics/soft_body/reference>`\ .
+For a reference of all the settings see :doc:`this page <physics/soft_body/reference>`.
 
 
-- You start a Soft Body simulation with :kbd:`alt-A`\ .
-- You pause the simulation with :kbd:`Space`\ , continue with :kbd:`alt-A`\ .
-- You stop the simulation with :kbd:`Esc`\ .
+- You start a Soft Body simulation with :kbd:`alt-A`.
+- You pause the simulation with :kbd:`Space`, continue with :kbd:`alt-A`.
+- You stop the simulation with :kbd:`Esc`.
 
 
 Simulation Quality
@@ -81,7 +81,7 @@ simulation.
 :guilabel:`Min Step`
    Minimum simulation steps per frame. Increase this value, if the Soft Body misses fast moving collision objects.
 :guilabel:`Max Step`
-   Maximum simulation steps per frame. Normally the number of simulation steps is set dynamically (with the :guilabel:`Error Limit`\ ) but you have probably a good reason to change it.
+   Maximum simulation steps per frame. Normally the number of simulation steps is set dynamically (with the :guilabel:`Error Limit`) but you have probably a good reason to change it.
 :guilabel:`Auto-Step`
    Use Velocities for automatic step sizes.
 
@@ -100,6 +100,7 @@ simulation.
 
 
 **Diagnostics**
+
 :guilabel:`Print Performance to Console`
    Prints on the console how the solver is doing.
 :guilabel:`Estimate Matrix`
@@ -125,7 +126,7 @@ that will make a recalculating necessary.
 
 
 - Caching:
-  - As animation is played, each physics system writes each frame to disk, between the simulation start and end frames. These files are stored in folders with prefix "\ ``blendcache``\ ", next to the .blend file.
+  - As animation is played, each physics system writes each frame to disk, between the simulation start and end frames. These files are stored in folders with prefix "\ ``blendcache`` ", next to the .blend file.
   - The cache is cleared automatically on changes - but not on all changes, so it may be necessary to free it manually, e.g. if you change a force field. Note that for the cache to fill up, one has to start playback before or on the frame that the simulation starts.
   - If you are not allowed to write to the required sub-directory caching will not take place.
   - The cache can be freed per physics system with a button in the panels, or with the :kbd:`ctrl-B` shortcut key to free it for all selected objects.
@@ -166,9 +167,9 @@ Tips
 ----
 
 
-- Soft Bodies work especially well if the objects have an even vertex distribution. You need enough vertices for good collisions. You change the deformation (the stiffness) if you add more vertices in a certain region (see the animation of *Image 1b*\ ).
+- Soft Bodies work especially well if the objects have an even vertex distribution. You need enough vertices for good collisions. You change the deformation (the stiffness) if you add more vertices in a certain region (see the animation of *Image 1b*).
 - The calculation of collisions may take a long time. If something is not visible, why calculate it?
-- To speed up the collision calculation it is often useful to collide with an additional, simpler, invisible, somewhat larger object (see the example to *Image 1a*\ ).
+- To speed up the collision calculation it is often useful to collide with an additional, simpler, invisible, somewhat larger object (see the example to *Image 1a*).
 - Use Soft Bodies only where it makes sense. If you try to cover a body mesh with a tight piece of cloth and animate solely with Soft Body, you will have no success. Self collision of Soft Body hair may be activated, but that is a path that you have to wander alone. We will deal with :doc:`Collisions <physics/soft_body/collisions>` in detail later.
 - Try and use a :guilabel:`Lattice` or a :guilabel:`Curve Guide` Soft Body instead of the object itself. This may be magnitudes faster.
 

@@ -6,7 +6,7 @@ DupliGroup
    :class: refbox
 
    | Mode:     :guilabel:`Object` mode
-   | Panel:    :guilabel:`Object` → :guilabel:`Duplication` → :guilabel:`Group`
+   | Panel:    :guilabel:`Object` → :guilabel:`Duplication` → :guilabel:`Group`
 
 
 :guilabel:`Duplication Group` or :guilabel:`DupliGroup` allows you to create an instance of a group for each instance of another object.
@@ -17,11 +17,11 @@ Basic Usage
 
 - Create a number of objects and group them by
    - selecting them all,
-   - :kbd:`Ctrl-G`\ , and
-   - eventually rename your group in :guilabel:`Object` → :guilabel:`Groups`
+   - :kbd:`Ctrl-G`, and
+   - eventually rename your group in :guilabel:`Object` → :guilabel:`Groups`
 - Create a DupliGroup by
-   - adding another object (\ :kbd:`Shift-A`\ ), say an :guilabel:`Empty`\ ,
-   - in :guilabel:`Object` → :guilabel:`Duplication` enable :guilabel:`Group`\ , and
+   - adding another object (:kbd:`Shift-A`), say an :guilabel:`Empty`,
+   - in :guilabel:`Object` → :guilabel:`Duplication` enable :guilabel:`Group`, and
    - select the name of your newly created group in the selection box that appears.
 
 
@@ -34,16 +34,16 @@ See :doc:`Appending and Linking <data_system/linked_libraries>` to understand ho
 Example
 ~~~~~~~
 
-- Link a group from another file into your scene, as described in :doc:`Appending and Linking <data_system/linked_libraries>`\ .
+- Link a group from another file into your scene, as described in :doc:`Appending and Linking <data_system/linked_libraries>`.
 
 From here, you can use the easy way or the hard way:
 
 - The easy way:
-   - Select :guilabel:`Add` → :guilabel:`Group Instance` → ``[name of group you just linked]``\ .
+   - Select :guilabel:`Add` → :guilabel:`Group Instance` → ``[name of group you just linked]``.
 - The hard way:
-   - Select :guilabel:`Add` → :guilabel:`Empty`\ , and select the empty that you added.
-   - Switch to the :guilabel:`Object` context, and in the :guilabel:`Duplication` panel, click :guilabel:`Group`\ .
-   - In the dropdown box that appears next to :guilabel:`Group:`\ , pick the group that you linked.
+   - Select :guilabel:`Add` → :guilabel:`Empty`, and select the empty that you added.
+   - Switch to the :guilabel:`Object` context, and in the :guilabel:`Duplication` panel, click :guilabel:`Group`.
+   - In the dropdown box that appears next to :guilabel:`Group:`, pick the group that you linked.
 
 At this point, an instance of the group will appear. You can duplicate the empty,
 and the DupliGroup settings will be preserved for each empty. This way,

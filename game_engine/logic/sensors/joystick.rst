@@ -17,10 +17,11 @@ The exact layout of the joystick controls will depend on the make and model of j
 See :doc:`Sensor Common Options <game_engine/logic/sensors/common_options>` for common options.
 
 Special Options:
+
 **Index**
-    Specifies which joystick to use.
+   Specifies which joystick to use.
 **All Events**
-    Sensor triggers for all events on this joystick's current type
+   Sensor triggers for all events on this joystick's current type
 
 
 .. figure:: /images/BGE_Sensor_Joystick_Event.jpg
@@ -31,7 +32,7 @@ Special Options:
 
 
 **Event Type**
-    A menu to select which joystick event to use
+   A menu to select which joystick event to use
 
 
 .. figure:: /images/BGE_Sensor_Joystick_SingAxis.jpg
@@ -43,6 +44,7 @@ Special Options:
 
    :guilabel:`Single Axis`
       Detect movement in a single joystick Axis.
+
       :guilabel:`Axis Number`
          1 = Horizontal axis (left/right)
          2 = Vertical axis (forward/back)
@@ -61,6 +63,7 @@ Special Options:
 
    :guilabel:`Hat`
       Detect movement of a specific hat control on the joystick.
+
       :guilabel:`Hat number`
           Specifies which hat to use (max. 2)
       :guilabel:`Hat Direction`
@@ -80,8 +83,8 @@ Special Options:
       :guilabel:`Axis Threshold`
          Threshold at which joystick fires (Range 0 - 32768)
       :guilabel:`Axis Direction` specifies the direction to use:
-           (Axis Number = 1)  Joystick Left, Right, Up, Down
-           (Axis Number = 2)  Paddle upper (Left); paddle Lower (Right); Joystick twist left (Up) Joystick twist right (Down)
+          (Axis Number = 1) Joystick Left, Right, Up, Down
+          (Axis Number = 2) Paddle upper (Left); paddle Lower (Right); Joystick twist left (Up) Joystick twist right (Down)
 
 
 .. figure:: /images/BGE_Sensor_Joystick1.jpg

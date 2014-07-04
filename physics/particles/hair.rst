@@ -21,11 +21,11 @@ control points with an interpolation, the segments.
 Styling
 -------
 
-The next step is to style the hair. You can change the look of base hairs by changing the :doc:`Physics Settings <physics/particles/physics>`\ .
+The next step is to style the hair. You can change the look of base hairs by changing the :doc:`Physics Settings <physics/particles/physics>`.
 
-A more advanced way of changing the hair appearance is to use :doc:`Children <physics/particles/children>`\ . This adds child hairs to the original ones, and has settings for giving them different types of shapes.
+A more advanced way of changing the hair appearance is to use :doc:`Children <physics/particles/children>`. This adds child hairs to the original ones, and has settings for giving them different types of shapes.
 
-You can also interactively style hairs in :doc:`Particle Mode <physics/particles/mode>`\ . In this mode, the particle settings become disabled, and you can comb, trim, lengthen, etc. the hair curves.
+You can also interactively style hairs in :doc:`Particle Mode <physics/particles/mode>`. In this mode, the particle settings become disabled, and you can comb, trim, lengthen, etc. the hair curves.
 
 
 Animating
@@ -37,9 +37,9 @@ Hair can now be made dynamic using the cloth solver. This is covered in the :doc
 Rendering
 ---------
 
-Blender can render hairs in several different ways. Materials have a Strand section, which is covered in the materials section in the :doc:`Strands Page <materials/properties/strands>`\ .
+Blender can render hairs in several different ways. Materials have a Strand section, which is covered in the materials section in the :doc:`Strands Page <materials/properties/strands>`.
 
-Hair can also be used as a basis for the :doc:`Particle Instance modifier <modifiers/simulate/particle_instance>`\ , which allows you to have a mesh be deformed along the curves, which is useful for thicker strands, or things like grass, or feathers, which may have a more specific look.
+Hair can also be used as a basis for the :doc:`Particle Instance modifier <modifiers/simulate/particle_instance>`, which allows you to have a mesh be deformed along the curves, which is useful for thicker strands, or things like grass, or feathers, which may have a more specific look.
 
 
 Options
@@ -60,13 +60,13 @@ Emission
 --------
 
 :guilabel:`Amount`
-   Set the amount of hair strands. Use as little particles as possible, especially if you plan to use softbody animation later. But you need enough particles to have good control. For a "normal" haircut I found some thousand (very roughly 2000) particles to give enough control. You may need a lot more particles if you plan to cover a body with fur. Volume will be produced later with :guilabel:`Children`\ .
+   Set the amount of hair strands. Use as little particles as possible, especially if you plan to use softbody animation later. But you need enough particles to have good control. For a "normal" haircut I found some thousand (very roughly 2000) particles to give enough control. You may need a lot more particles if you plan to cover a body with fur. Volume will be produced later with :guilabel:`Children`.
 
 
 Hair Dynamics
 -------------
 
-Settings for adding movement to hair see :doc:`Hair Dynamics <physics/particles/hair/dynamics>`\ .
+Settings for adding movement to hair see :doc:`Hair Dynamics <physics/particles/hair/dynamics>`.
 
 
 Display
@@ -78,7 +78,7 @@ Display
    Draw just the end points if the hairs.
 
 :guilabel:`Steps`
-    The number of segments (control points minus 1) of the hair strand. In between the control points the segments are interpolated. The number of control points is important:
+   The number of segments (control points minus 1) of the hair strand. In between the control points the segments are interpolated. The number of control points is important:
 
 - for the softbody animation, because the control points are animated like vertices, so more control points mean longer calculation times.
 - for the interactive editing, because you can only move the control points (but you may recalculate the number of control points in :guilabel:`Particle` Mode).
@@ -89,7 +89,7 @@ Display
 Children
 --------
 
-See :doc:`Children <physics/particles/children>`\ .
+See :doc:`Children <physics/particles/children>`.
 
 
 Render
@@ -108,9 +108,9 @@ Usage
    Image 4b: Particle systems may get hairy…
 
 
-- `Fur Tutorial <http://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Furry>`__\ , which produced (\ *Image 4b*\ ). It deals especially with short hair.
+- `Fur Tutorial <http://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Furry>`__, which produced (*Image 4b*). It deals especially with short hair.
 
 
-- `Blender Hair Basics <http://www.youtube.com/watch?v=kpLaxqemFU0>`__\ , a thorough overview of all of the hair particle settings.
+- `Blender Hair Basics <http://www.youtube.com/watch?v=kpLaxqemFU0>`__, a thorough overview of all of the hair particle settings.
 
 

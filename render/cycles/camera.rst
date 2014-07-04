@@ -80,7 +80,7 @@ Depth of Field
 :guilabel:`Aperture Blades`
    If this setting is 3 or more, a polygonal-shaped aperture will be used instead of a circle, which will affect the shape of out of focus highlights in the rendered image.
 :guilabel:`Aperture Rotation`
-   Rotation of the :guilabel:`Aperture Blades`\ .
+   Rotation of the :guilabel:`Aperture Blades`.
 
 :guilabel:`Focal Distance`
    Distance at which objects are in perfect focus. Alternatively, an object can be specified whose distance from the camera will be used.

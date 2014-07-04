@@ -24,7 +24,8 @@ Menu specifying type of constraint required.
 
 
 **Force Field Constraint**
-Create a force field buffer zone along one axis of the object.
+   Create a force field buffer zone along one axis of the object.
+
    :guilabel:`Damping`
         Damping factor of the Fh spring force (Range 0.0 - 1.0)
    :guilabel:`Distance`
@@ -43,7 +44,7 @@ Create a force field buffer zone along one axis of the object.
         Property/Material that triggers the Force Field constraint (blank for ALL Properties/Materials)
    :guilabel:`Per`
       Persistence button
-       When on, force field constraint always looks at Property/Material; when off, turns itself off if it can't find the Property/Material.
+      When on, force field constraint always looks at Property/Material; when off, turns itself off if it can't find the Property/Material.
    :guilabel:`Time`
         Number of frames for which constraint remains active
    :guilabel:`RotDamp`

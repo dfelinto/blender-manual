@@ -86,7 +86,7 @@ In normal English, "to skin" means 'to peel off skin', but here it is just the r
 around an armature.
 
 :doc:`Linking Objects to Bones <rigging/skinning/objects>`
-   How to parent a bone to an object, so that the bone controls that object. This type of linking is used to simulate mechanical linkage (for example, `Newton's cradle <http://en.wikipedia.org/wiki/Newton_Pendulum|>`__\ ) or where the parts of the mesh are not deformed when the armature moves, as in case of modeling an insect body, crab, etc.
+   How to parent a bone to an object, so that the bone controls that object. This type of linking is used to simulate mechanical linkage (for example, `Newton's cradle <http://en.wikipedia.org/wiki/Newton_Pendulum|>`__) or where the parts of the mesh are not deformed when the armature moves, as in case of modeling an insect body, crab, etc.
 
 :doc:`Skinning to Objects' Shapes <rigging/skinning/obdata>`
    How to attach the armature so that each of its bones controls a specific part of the "skin" object's geometry. This type of linkage is used when the object surface flexes when the armature moves, such as bulging of biceps when the arm is folded.
@@ -100,7 +100,7 @@ around an armature.
 
 Posing means shaping and arranging the objects in your scene in a particular way to create an
 interesting composition. For example,
-look at the body language of `The Thinker <http://en.wikipedia.org/wiki/The_Thinker>`__\ ,
+look at the body language of `The Thinker <http://en.wikipedia.org/wiki/The_Thinker>`__,
 or think of a scorpion raising its tail to strike.
 
 Poses are also used to create animation. For example,

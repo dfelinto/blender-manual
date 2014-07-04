@@ -20,7 +20,7 @@ So from this example, if the Driver Value is 2.0 the property will be 0.5.
 
 The Driver Value is determined by Driver Variables or a Scripted Expression.
 
-Most the settings for the drivers :doc:`F-Curves <animation/editors/graph/fcurves>` are found in the :doc:`Graph Editor <animation/editors/graph>`\ .
+Most the settings for the drivers :doc:`F-Curves <animation/editors/graph/fcurves>` are found in the :doc:`Graph Editor <animation/editors/graph>`.
 
 
 Drivers Panel
@@ -34,7 +34,7 @@ Drivers Panel
 This panel is located in the :doc:`Graph Editor <animation/editors/graph>` with the mode set to Drivers.
 
 The drivers panel is for setting up *Driver Variables* or a *Scripted Expression* which
-will determine the value of the *Driver Value*\ .
+will determine the value of the *Driver Value*.
 
 
 Driver Settings
@@ -157,11 +157,11 @@ FIXME(Template Unsupported: Shortcut/Mouse;
 ) the property and select one of the following options.
 
 :guilabel:`Add Drivers`
-    This will add drivers to the set of properties related to the selected one.
-    For example, it will add drivers to X, Y, and Z for Rotation.
+   This will add drivers to the set of properties related to the selected one.
+   For example, it will add drivers to X, Y, and Z for Rotation.
 
 :guilabel:`Add Single Driver`
-    This will add a single driver to the selected property.
+   This will add a single driver to the selected property.
 
 
 .. figure:: /images/Doc_Add_Driver2.jpg
@@ -174,23 +174,23 @@ ________________
 
 This example shows you how rotate a cube mesh by moving another cube left or right in the 3D
 view.
-First make sure you are in the *Front Orthographic View* :kbd:`Num1`\ ,
-:kbd:`Num5`\ .
+First make sure you are in the *Front Orthographic View* :kbd:`Num1`,
+:kbd:`Num5`.
 
 
 - In *Object Mode* select then *Duplicate* :kbd:`Shift-D` the default Cube.
--    Move the cube to a new location. You should have two mesh objects, *Cube* and *Cube.001*\ .
+-    Move the cube to a new location. You should have two mesh objects, *Cube* and *Cube.001*.
 - With *Cube.001* selected as the active object, *Add Single Driver* to the *Rotation Y* property.
-- Open the *Graph Editor*\ , set the mode to *Drivers*\ .
+- Open the *Graph Editor*, set the mode to *Drivers*.
 -    *Show Only Selected* is useful disabled for drivers, marked in green.
-- Open the Properties Region :kbd:`N`\ , go to the *Drivers Panel*\ .
+- Open the Properties Region :kbd:`N`, go to the *Drivers Panel*.
 -    You may need to select the driver *Y Euler Rotation* :kbd:`LMB` for the *Drivers Panel* to appear.
-- Set the driver *Type* to *Sum Values*\ .
+- Set the driver *Type* to *Sum Values*.
 - Set the driver variable *var* settings.
--    Set *Type* to *Transform Channel*\ .
--    Set *Ob/Bone ID-block* to *Cube*\ .
--    Set *Transform Type* to *X Location*\ .
--    Set *Transform Space* to *World Space*\ .
+-    Set *Type* to *Transform Channel*.
+-    Set *Ob/Bone ID-block* to *Cube*.
+-    Set *Transform Type* to *X Location*.
+-    Set *Transform Space* to *World Space*.
 
 
 .. figure:: /images/Doc_Drivers_TD_Workflow.jpg
@@ -227,14 +227,14 @@ The scripted expressions are being used to set the object location.
 
 :guilabel:`X Location Expr`
    **0+(sin(frame/8)*4)**
-       **(frame/8)**\ : is the current frame of the animation, divided by 8 to slow the orbit down.
-       **(sin( )*4)**\ : This returns the sine of (frame/8), then multiplies by 4 for a bigger circle.
-       **0+**\ : is used to control the X Location offset of the orbit.
+      **(frame/8)** : is the current frame of the animation, divided by 8 to slow the orbit down.
+      **(sin( )*4)** : This returns the sine of (frame/8), then multiplies by 4 for a bigger circle.
+      **0+** : is used to control the X Location offset of the orbit.
 :guilabel:`Y Location Expr`
    **0+(cos(frame/8)*4)**
-       **(frame/8)**\ : is the current frame of the animation, divided by 8 to slow the orbit down.
-       **(cos( )*4)**\ : This returns the cosine of (frame/8), then multiplies by 4 for a bigger circle.
-       **0+**\ : is used to control the Y Location offset of the orbit.
+      **(frame/8)** : is the current frame of the animation, divided by 8 to slow the orbit down.
+      **(cos( )*4)** : This returns the cosine of (frame/8), then multiplies by 4 for a bigger circle.
+      **0+** : is used to control the Y Location offset of the orbit.
 
 **frame** is the same as bpy.context.scene.frame_current.
 
@@ -268,7 +268,7 @@ These can be displayed via the python console.
 
 
 This script will add a function to the driver namespace,
-which can then be used in the expression **driverFunc(frame)**\ .
+which can then be used in the expression **driverFunc(frame)**.
 
 ::
 
@@ -412,8 +412,8 @@ ___________________
 By default blender will not auto run python scripts.
 
 If using a *Scripted Expression* Driver Type,
-you will have to open the file as *Trusted Source*\ ,
-or set *Auto Run Python Scripts* in *User Preferences > File > Auto Execution*\ .
+you will have to open the file as *Trusted Source*,
+or set *Auto Run Python Scripts* in *User Preferences > File > Auto Execution*.
 
 
 .. figure:: /images/Doc_Drivers_Auto_Run_C.jpg
@@ -450,11 +450,11 @@ See Also
 - :doc:`Animation <animation>`
 - :doc:`Graph Editor <animation/editors/graph>`
 - :doc:`F-Curves <animation/editors/graph/fcurves>`
-- :doc:`Extending Blender with python <extensions/python>`\ .
+- :doc:`Extending Blender with python <extensions/python>`.
 
 
 Links
 -----
 
-- `Python <http://www.python.org>`__ and its `documentation <http://www.python.org/doc>`__\ .
+- `Python <http://www.python.org>`__ and its `documentation <http://www.python.org/doc>`__.
 - `functions.wolfram.com <http://functions.wolfram.com/>`__

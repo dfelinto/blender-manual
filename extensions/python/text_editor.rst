@@ -7,9 +7,9 @@ Blender has a :guilabel:`Text Editor` among its windows types, accessible via th
 .. figure:: /images/Manual-Part-XV-textButton.jpg
 
 
-) of the :guilabel:`Window type` menu, or via :kbd:`shift-f11`\ .
+) of the :guilabel:`Window type` menu, or via :kbd:`shift-f11`.
 
-The newly opened Text window is grey and empty, with a very simple toolbar (\ *Text Toolbar*\ ).
+The newly opened Text window is grey and empty, with a very simple toolbar (*Text Toolbar*).
 
 
 .. figure:: /images/Manual-Part-XX-Manual-Extensions-Python-Text-editor-Default-Toolbar.jpg
@@ -57,11 +57,11 @@ The following keyboard commands apply:
 To delete a text buffer just press the :guilabel:`X` button next to the buffer's name,
 just as you do for materials, etc.
 
-The most notable keystroke is :kbd:`alt-P` which makes the content of the buffer being parsed by the internal Python interpreter built into Blender. The next page will present an example of Python scripting. Before going on it is worth noticing that Blender comes with a fully functional Python interpreter built in, and with a lots of Blender-specific modules, as described in the :doc:`API references <extensions/python/references>`\ .
+The most notable keystroke is :kbd:`alt-P` which makes the content of the buffer being parsed by the internal Python interpreter built into Blender. The next page will present an example of Python scripting. Before going on it is worth noticing that Blender comes with a fully functional Python interpreter built in, and with a lots of Blender-specific modules, as described in the :doc:`API references <extensions/python/references>`.
 
 The :guilabel:`Text Editor` has now also some dedicated Python scripts,
 which add some useful writing tools, like a class/function/variable browser, completion… You
-can access them through the :guilabel:`Text` → :guilabel:`Text Plugins` menu entry.
+can access them through the :guilabel:`Text` → :guilabel:`Text Plugins` menu entry.
 
 
 Other usages for the Text window
@@ -117,7 +117,7 @@ Copy the text below in the Text Editor.
    bpy.ops.mesh.primitive_cube_add(location=(x, y, z))
 
 
-Execute the script with :kbd:`ALT-P`\ .
+Execute the script with :kbd:`ALT-P`.
 
 You can see the result of running the above script in this video.
 

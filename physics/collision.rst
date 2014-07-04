@@ -2,18 +2,18 @@
 Collisions
 ==========
 
-:doc:`Particles <physics/particles>`\ , :doc:`Soft Bodies <physics/soft_body>` and :doc:`Cloth objects <physics/cloth>` may collide with mesh objects. :doc:`Boids <physics/particles/physics/boids>` try to avoid :guilabel:`Collision` objects.
+:doc:`Particles <physics/particles>`, :doc:`Soft Bodies <physics/soft_body>` and :doc:`Cloth objects <physics/cloth>` may collide with mesh objects. :doc:`Boids <physics/particles/physics/boids>` try to avoid :guilabel:`Collision` objects.
 
 
 - The objects need to share at least one common layer to have effect.
-- You may limit the effect on particles to a group of objects (in the :doc:`Field Weights panel <physics/particles/physics>`\ ).
+- You may limit the effect on particles to a group of objects (in the :doc:`Field Weights panel <physics/particles/physics>`).
 - *Deflection* for softbody objects is difficult, they often penetrate the colliding objects.
 - :guilabel:`Hair` particles ignore deflecting objects (but you can animate them as softbodies which take deflection into account).
 
 If you change the deflection settings for an object you have to recalculate the particle,
-softbody or cloth system (\ :guilabel:`Free Cache`\ ), this is not done automatically. You can
+softbody or cloth system (:guilabel:`Free Cache`), this is not done automatically. You can
 clear the cache for all selected objects with :kbd:`ctrl-B` → :guilabel:`Free cache
-selected`\ .
+selected`.
 
 
 .. admonition:: Reference
@@ -64,13 +64,13 @@ Soft Body and Cloth Interaction
 :guilabel:`Inner`
    Size of the inner collision zone (padding distance).
 
-Outside and inside is defined by the face normal, depicted as blue arrow in (\ *Image 1b*\ ).
+Outside and inside is defined by the face normal, depicted as blue arrow in (*Image 1b*).
 
 :guilabel:`Damping Factor`
    Damping during a collision.
 
 *Softbody* collisions are difficult to get perfect. If one of the objects move too fast,
-the soft body will penetrate the mesh. See also the section about :doc:`Soft Bodies <physics/soft_body>`\ .
+the soft body will penetrate the mesh. See also the section about :doc:`Soft Bodies <physics/soft_body>`.
 
 
 

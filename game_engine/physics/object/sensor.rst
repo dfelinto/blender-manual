@@ -64,5 +64,5 @@ Settings
 Collision Bounds
 ----------------
 
-See :doc:`Here <game_engine/physics/object_type>`\ .
+See :doc:`Here <game_engine/physics/object_type>`.
 

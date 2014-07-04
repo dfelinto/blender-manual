@@ -9,8 +9,8 @@ Subdivide
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
-   | Panel:    :guilabel:`Mesh Tools` (\ :guilabel:`Editing` context)
-   | Menu:     :menuselection:`Mesh --> Edges --> Subdivide`\ , :menuselection:`Specials --> Subdivide/Subdivide Smooth`
+   | Panel:    :guilabel:`Mesh Tools` (:guilabel:`Editing` context)
+   | Menu:     :menuselection:`Mesh --> Edges --> Subdivide`, :menuselection:`Specials --> Subdivide/Subdivide Smooth`
    | Hotkey:   :menuselection:`[W] --> [pad1]/[pad2]`
 
 
@@ -55,12 +55,17 @@ These options are available in the :guilabel:`Tool Panel` after running the tool
 
 :guilabel:`Corner Cut Type`
    This drop-down menu controls the way quads with only two adjacent selected edges are subdivided
+
    :guilabel:`Fan`
       the quad is sub-divided in a fan of four triangles, the common vertex being the one opposite to the selected edges.
    :guilabel:`Innervert`
-      (i.e. "inner vertex"), The selected edges are sub-divided, then an edge is created between the two new vertices, creating a small triangle. This edge is also sub-divided, and the "inner vertex" thus created is linked by another edge to the one opposite to the original selected edges. All this results in a quad sub-divided in a triangle and two quad.
+      (i.e. "inner vertex"), The selected edges are sub-divided,
+      then an edge is created between the two new vertices, creating a small triangle.
+      This edge is also sub-divided, and the "inner vertex" thus created is linked by another edge to the one opposite
+      to the original selected edges. All this results in a quad sub-divided in a triangle and two quad.
    :guilabel:`Path`
-      First an edge is created between the two opposite ends of the selected edges, dividing the quad in two triangles. Then, the same goes for the involved triangle as described above.
+      First an edge is created between the two opposite ends of the selected edges,
+      dividing the quad in two triangles. Then, the same goes for the involved triangle as described above.
    :guilabel:`Straight Cut`
       Currently non functioning...
 

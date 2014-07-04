@@ -24,7 +24,7 @@ When Blender is started on a Windows operating system,
 the :guilabel:`Console Window` is first created as a separate window on the desktop.
 Assuming that the right start-up conditions are met, the main Blender window should also
 appear and the :guilabel:`Console Window` will then be toggled off.
-To display the console again, go to :menuselection:`Window --> Toggle System Console`\ .
+To display the console again, go to :menuselection:`Window --> Toggle System Console`.
 
 The screenshot on the right shows the Blender :guilabel:`Console Window` on Windows XP
 directly after starting Blender and then a short while later after opening a file along with
@@ -34,7 +34,7 @@ the relevant messages.
 .. admonition:: Closing the Blender Console Window
    :class: nicetip
 
-   The Blender :guilabel:`Console Window` must remain open while Blender is running.  Closing the :guilabel:`Console Window` will also close Blender, and unsaved work would be lost.  To turn off the console without closing Blender, toggle the console state to off via re-selecting Toggle System Console option from the drop-down menu :menuselection:`Window --> Toggle System Console`\ .
+   The Blender :guilabel:`Console Window` must remain open while Blender is running.  Closing the :guilabel:`Console Window` will also close Blender, and unsaved work would be lost.  To turn off the console without closing Blender, toggle the console state to off via re-selecting Toggle System Console option from the drop-down menu :menuselection:`Window --> Toggle System Console`.
 
    Note the Blender :guilabel:`Console Window` can look very similar to MS-DOS,
    so make sure that you are closing the correct window if an instance of MS-DOS is open.
@@ -63,7 +63,7 @@ Blender :guilabel:`Console Window` text will most likely be hidden on the Termin
 This screenshot shows Blender started from a Linux Terminal/\ :guilabel:`Console Window` and the
 resulting console text being printed to it. This example shows that when Blender was started
 it was unable to access a library related to the Pulseaudio sound server. When Blender closed,
-it saved the recovery file to */tmp/quit.blend*\ .
+it saved the recovery file to */tmp/quit.blend*.
 
 
 MacOS
@@ -77,12 +77,12 @@ MacOS
 
 
 The process in MacOS is very similar to the one described for Linux.
-MacOS uses "files" with the .app extension called *applications*\ .
+MacOS uses "files" with the .app extension called *applications*.
 These files are actually folders that appear as files in Finder. In order to run Blender you
 will have specify that path to the Blender executable inside this folder,
 to get all output printed to the terminal.
 You can start a terminal from Applications → Utilities.
-The path to the executable in the .app folder is *./blender.app/Contents/MacOS/blender*\ .
+The path to the executable in the .app folder is *./blender.app/Contents/MacOS/blender*.
 
 If you have Blender installed in the Applications folder, the following command could be used,
 adapted to the particular Blender version:
@@ -97,7 +97,7 @@ Some messages simply inform the user what Blender is doing, but have no real imp
 Other messages can indicate serious errors that will most likely prevent Blender carrying out a particular task and
 may even make Blender non-responsive or shut down completely. The :guilabel:`Blender Console Window` messages can
 also originate internally from within the Blender code or from external sources such as :doc:`Python scripts
-<extensions/python/add-ons>`\ .
+<extensions/python/add-ons>`.
 
 
 Common messages

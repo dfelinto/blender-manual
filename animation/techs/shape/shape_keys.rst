@@ -5,7 +5,7 @@ Shape Keys
 Introduction
 ------------
 
-:guilabel:`Shape Keys` are used on Objects like :guilabel:`Mesh`\ , :guilabel:`Curve`\ , :guilabel:`Surface`\ , :guilabel:`Lattice`\ .
+:guilabel:`Shape Keys` are used on Objects like :guilabel:`Mesh`, :guilabel:`Curve`, :guilabel:`Surface`, :guilabel:`Lattice`.
 They are used to deform the object vertices into a new shape.
 
 
@@ -18,10 +18,10 @@ There are two types of Shape Keys.
 
 :guilabel:`Relative`
    Which are relative to the Basis or selected shape key.
-    They are mainly used as, for limb joints, muscles, or Facial Animation.
+   They are mainly used as, for limb joints, muscles, or Facial Animation.
 :guilabel:`Absolute`
    Which are relative to the previous and next shape key.
-    They are mainly used to deform the objects into different shapes over time.
+   They are mainly used to deform the objects into different shapes over time.
 
 The shape key data, the deformation of the objects vertices,
 is usually modified in the 3D View by selecting a shape key,
@@ -35,7 +35,7 @@ Shape Keys Panel
    :class: refbox
 
    | Mode:     All modes
-   | Panel:    :guilabel:`Properties`\ , :guilabel:`Object Data`\ , :guilabel:`Shape Keys`
+   | Panel:    :guilabel:`Properties`, :guilabel:`Object Data`, :guilabel:`Shape Keys`
 
 
 .. figure:: /images/Doc_Shape_Keys3.jpg
@@ -72,20 +72,20 @@ Shape Keys Panel
 
    :guilabel:`Transfer Shape Key`
       Transfer the active 'Shape Key' from a different object.
-       Select two objects, the active Shape Key is copied to the active object.
+      Select two objects, the active Shape Key is copied to the active object.
 
    :guilabel:`Join as Shapes`
       Transfer the 'Current Shape' from a different object.
-       Select two objects, the Shape is copied to the active object.
+      Select two objects, the Shape is copied to the active object.
 
    :guilabel:`Mirror Shape Key`
       If your mesh is nice and symmetrical, in :guilabel:`Object` Mode, you can mirror the shape keys on the X axis.
-       This wont work unless the mesh vertices are perfectly symmetrical.
-       Use the :menuselection:`Mesh --> Symmetrize` function in :guilabel:`Edit` Mode.
+      This wont work unless the mesh vertices are perfectly symmetrical.
+      Use the :menuselection:`Mesh --> Symmetrize` function in :guilabel:`Edit` Mode.
 
    :guilabel:`Mirror Shape Key (Topology)`
       This is the same as :guilabel:`Mirror Shape Key` though it detects the mirrored vertices based on the topology of the mesh.
-       The mesh vertices dont have to be perfectly symmetrical for this one to work.
+      The mesh vertices dont have to be perfectly symmetrical for this one to work.
 
    :guilabel:`New Shape From Mix`
       Add a new shape key with the current deformed shape of the object.
@@ -98,10 +98,10 @@ Shape Keys Panel
 
 :guilabel:`Show Active`
    Show the shape of the active shape key in the 3D View.
-    *Show Active* is enabled while the object is in *Edit Mode*\ , unless the setting below is enabled.
+   *Show Active* is enabled while the object is in *Edit Mode*, unless the setting below is enabled.
 
 :guilabel:`Edit Mode`
-   Modify the shape key settings while the object is in *Edit mode*\ .
+   Modify the shape key settings while the object is in *Edit mode*.
 
 
 Relative Shape Keys
@@ -149,15 +149,16 @@ They are mainly used to deform the object into different shapes over time.
 
 :guilabel:`Reset Timing`
    Reset the timing for absolute shape keys.
-    For example, if you have the shape keys, Basis, Key_1, Key_2, in that order.
-    Reset Timing will loop the shapekeys, and set the shape key frames to +0.1.
-       Basis 0.1
-       Key_1 0.2
-       Key_2 0.3
-    Evaluation Time will show this as frame*100.
-       Basis 10.0
-       Key_1 20.0
-       Key_2 30.0
+   For example, if you have the shape keys, Basis, Key_1, Key_2, in that order.
+
+   Reset Timing will loop the shapekeys, and set the shape key frames to +0.1.
+      Basis 0.1
+      Key_1 0.2
+      Key_2 0.3
+   Evaluation Time will show this as frame*100.
+      Basis 10.0
+      Key_1 20.0
+      Key_2 30.0
 
 :guilabel:`Name`
    Name of the active shape key.
@@ -173,12 +174,13 @@ They are mainly used to deform the object into different shapes over time.
 
 :guilabel:`Evaluation Time`
    This is used to control the shape key influence.
-    For example, if you have the shape keys, Basis, Key_1, Key_2, in that order,and you reset timing.
-       Basis 10.0
-       Key_1 20.0
-       Key_2 30.0
-    You can control the shape key influence with Evaluation Time.
-    Here keyframes have been used to control Evaluation Time for animation.
+
+   For example, if you have the shape keys, Basis, Key_1, Key_2, in that order,and you reset timing.
+      Basis 10.0
+      Key_1 20.0
+      Key_2 30.0
+   You can control the shape key influence with Evaluation Time.
+   Here keyframes have been used to control Evaluation Time for animation.
 
 
 .. figure:: /images/Doc_Shape_Keys_Evaluation.jpg
@@ -190,8 +192,8 @@ They are mainly used to deform the object into different shapes over time.
 
 :guilabel:`Slurph`
    Quote 2.66 "Create a delay (in frames) in applying key positions, first vertex goes first."
-    As far as i can tell this doesnt anything in 2.66. Im not sure what it used to do in 2.4x.
-    :doc:`2.4 Slurph <animation/techs/shape/shape_keys/editing#editing_shape_properties>`
+   As far as i can tell this doesnt anything in 2.66. Im not sure what it used to do in 2.4x.
+   :doc:`2.4 Slurph <animation/techs/shape/shape_keys/editing#editing_shape_properties>`
 
 
 Workflow For Relative Shape Keys
@@ -200,11 +202,11 @@ Workflow For Relative Shape Keys
 This example shows you how to make a cube mesh transform in to a sphere.
 
 
-- In *Object Mode* add two shape keys via the *Shape Key Panel*\ .
+- In *Object Mode* add two shape keys via the *Shape Key Panel*.
 -    *Basis* is the rest shape. *Key 1* will be the new shape.
-- With *Key 1* selected, switch to *Edit Mode*\ .
-- Press :kbd:`Shift-Alt-S` *To Sphere*\ , move the mouse right, then :kbd:`lmb`\ .
-- Switch to *Object Mode*\ .
+- With *Key 1* selected, switch to *Edit Mode*.
+- Press :kbd:`Shift-Alt-S` *To Sphere*, move the mouse right, then :kbd:`lmb`.
+- Switch to *Object Mode*.
 - Set the *Value* for *Key 1* to see the transformation between the shape keys.
 
 
@@ -230,7 +232,7 @@ Workflow For Absolute Shape Keys
 
 
 - Select the top face.
-- Extrude up :kbd:`e` :kbd:`1` :kbd:`LMB`\ .
+- Extrude up :kbd:`e` :kbd:`1` :kbd:`LMB`.
 
 
 .. figure:: /images/Doc_Absolute_SK_Workflow_3.jpg
@@ -239,7 +241,7 @@ Workflow For Absolute Shape Keys
 
 
 - Select a side face on the top half. (the one at x=1 if possible)
-- Extrude out :kbd:`e` :kbd:`1` :kbd:`LMB`\ .
+- Extrude out :kbd:`e` :kbd:`1` :kbd:`LMB`.
 - Switch back to Object Mode.
 
 
@@ -269,7 +271,7 @@ Workflow For Absolute Shape Keys
 
 
 - Select shape key Basis to edit the first shape key.
-- Select the extruded size face and :kbd:`s` :kbd:`0`\ :kbd:`.`\ :kbd:`5` :kbd:`LMB`\ , then :kbd:`g` :kbd:`x` :kbd:`-`\ :kbd:`1` :kbd:`LMB`\ .
+- Select the extruded size face and :kbd:`s` :kbd:`0`:kbd:`.`:kbd:`5` :kbd:`LMB`, then :kbd:`g` :kbd:`x` :kbd:`-`:kbd:`1` :kbd:`LMB`.
 
 
 - Switch to Object Mode.

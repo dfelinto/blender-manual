@@ -13,7 +13,7 @@ Scene Linear Color Space
 
 For correct results, different color spaces are needed for rendering,
 display and storage of images.
-Rendering and compositing is best done in **scene linear color space**\ ,
+Rendering and compositing is best done in **scene linear color space**,
 which corresponds more closely to nature, and makes computations more physically accurate.
 
 
@@ -41,7 +41,7 @@ These settings are found in the scene tab, under the :guilabel:`Color Management
 Display
 ~~~~~~~
 
-Correct display of renders requires a **conversion to the display device color space**\ ,
+Correct display of renders requires a **conversion to the display device color space**,
 which can be configured here.
 A computer monitor works differently from a digital cinema project or HDTV.
 The scene properties have these settings:
@@ -93,10 +93,10 @@ Such settings would be only used temporarily and not get used for final renders.
       Intended for inspecting the image but not for final export. Raw gives the image without any color space conversion, while Log gives a more "flat" view of the image without very dark or light areas.
 
 :guilabel:`Exposure`
-    Multiplier for the image brightness applied before color space conversion.
+   Multiplier for the image brightness applied before color space conversion.
 
 :guilabel:`Gamma`
-    Extra gamma correction applied after color space conversion. Note that the default sRGB or Rec709 color space conversions already include a gamma correction of approximately 2.2 (except the Raw and Log views), so this would be applied in addition to that.
+   Extra gamma correction applied after color space conversion. Note that the default sRGB or Rec709 color space conversions already include a gamma correction of approximately 2.2 (except the Raw and Log views), so this would be applied in addition to that.
 
 :guilabel:`RGB Curves`
    Curves to control image colors before color space conversion.
@@ -121,7 +121,7 @@ Sequencer
 Image Files
 -----------
 
-The other place to keep color management in mind is when **loading and saving image files**\ .
+The other place to keep color management in mind is when **loading and saving image files**.
 File formats such as PNG or JPEG will typically store colors in a color space ready for
 display, not in a linear space. When they are, for example, used as textures in renders,
 they need to be converted to linear first, and when saving renders for display on the web,
@@ -172,7 +172,7 @@ however, these bake the exposure effects into the rendered image,
 as opposed the techniques explained on this page,
 which affect the color space of rendered images.
 
-See :doc:`Exposure <lighting/exposure>`\ , for details.
+See :doc:`Exposure <lighting/exposure>`, for details.
 
 
 OpenColorIO Configuration
@@ -184,29 +184,29 @@ The reference linear color space used is the linear color space with Rec.
 709 chromaticities and D65 white point.
 
 However OpenColorIO was also designed to give a consistent user experience across
-`multiple applications <http://opencolorio.org/CompatibleSoftware.html>`__\ ,
+`multiple applications <http://opencolorio.org/CompatibleSoftware.html>`__,
 and for this a single shared configuration file can be used. Blender will use the standard
 OCIO environment variable to read an OpenColorIO configuration other than the default Blender
 one. More information about how to set up such a workflow can be found on the
-`OpenColorIO website <http://opencolorio.org/>`__\ .
+`OpenColorIO website <http://opencolorio.org/>`__.
 
 We currently use the following color space roles:
 
 
-- *scene_linear*\ : color space used for rendering, compositing, and storing all float precision images in memory.
-- *default_sequencer*\ : default color space for sequencer, *scene_linear* if not specified
-- *default_byte*\ : default color space for byte precision images and files, *texture_paint* if not specified.
-- *default_float*\ : default color space for float precision images and files, *scene_linear* if not specified.
+- *scene_linear* : color space used for rendering, compositing, and storing all float precision images in memory.
+- *default_sequencer* : default color space for sequencer, *scene_linear* if not specified
+- *default_byte* : default color space for byte precision images and files, *texture_paint* if not specified.
+- *default_float* : default color space for float precision images and files, *scene_linear* if not specified.
 
 The standard Blender configuration also includes some support for
 `ACES <http://www.oscars.org/science-technology/council/projects/aces.html>`__
-(\ `code and documentation <https://github.com/ampas/aces-dev>`__\ ),
+(`code and documentation <https://github.com/ampas/aces-dev>`__),
 even though we have a different linear color space.
 It's possible to load and save EXR files with the Linear ACES color space,
 and the RRT view transform can be used to view images with their standard display transform.
 However the ACES gamut is larger than the Rec. 709 gamut,
 so for best results an ACES specific configuration file should be used.
-OpenColorIO provides an `ACES configuration <http://opencolorio.org/configurations/index.html>`__\ ,
+OpenColorIO provides an `ACES configuration <http://opencolorio.org/configurations/index.html>`__,
 though it may need a few more tweaks to be usable in production.
 
 

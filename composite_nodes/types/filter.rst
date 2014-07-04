@@ -20,8 +20,9 @@ Filter Node
 The Filter node implements various common image enhancement filters.
 The supported filters are, if not obvious,
 named after the mathematical genius who came up with them:
+
 :guilabel:`Soften`
-    Slightly blurs the image.
+   Slightly blurs the image.
 :guilabel:`Sharpen`
    Increases the contrast, especially at edges
 :guilabel:`Laplace`
@@ -43,7 +44,7 @@ named after the mathematical genius who came up with them:
    The Filter node has seven modes, shown here.
 
 
-The :guilabel:`Soften`\ , :guilabel:`Laplace`\ , :guilabel:`Sobel`\ ,
+The :guilabel:`Soften`, :guilabel:`Laplace`, :guilabel:`Sobel`,
 :guilabel:`Prewitt` and :guilabel:`Kirsch` all perform edge-detection
 (in slightly different ways) based on vector calculus and set theory equations that would fill
 six blackboards with gobbledy gook. Recommended reading for insomniacs.
@@ -88,10 +89,11 @@ makes the Blur node gamma-correct the image before blurring it.
 The difference between them is how they handle sharp edges and smooth gradients and preserve
 the highs and the lows. In particular
 (and you may have to closely examine the full-resolution picture to see this):
-   :guilabel:`Flat` just blurs everything uniformly
-   :guilabel:`Tent` preserves the high and the lows better making a linear falloff
-   :guilabel:`Quadratic` and CatRom keep sharp-contrast edges crisp
-   :guilabel:`Cubic` and :guilabel:`Mitch` preserve the highs but give almost a out-of-focus blur while smoothing sharp edges
+
+- :guilabel:`Flat` just blurs everything uniformly
+- :guilabel:`Tent` preserves the high and the lows better making a linear falloff
+- :guilabel:`Quadratic` and CatRom keep sharp-contrast edges crisp
+- :guilabel:`Cubic` and :guilabel:`Mitch` preserve the highs but give almost a out-of-focus blur while smoothing sharp edges
 
 
 Directional Blur Node
@@ -142,18 +144,18 @@ Bilateral Blur Node
 
 The bilateral blur node performs a high quality adaptive blur on the source image.
 It can be used for various purposes like:
-    smoothing results from blenders raytraced ambient occlusion
-    smoothing results from various unbiased renderers,
-    to fake some performance-heavy processes, like blurry refractions/reflections, soft shadows,
-    to make non-photorealistic compositing effects.
+smoothing results from blenders raytraced ambient occlusion
+smoothing results from various unbiased renderers,
+to fake some performance-heavy processes, like blurry refractions/reflections, soft shadows,
+to make non-photorealistic compositing effects.
 
 
 Inputs
 ~~~~~~
 
 Bilateral blur has 2 inputs:
-    :guilabel:`Image`\ , for the image to be blurred.
-    :guilabel:`Determinator`\ , which is non-obligatory, and is used only if connected.
+   :guilabel:`Image`, for the image to be blurred.
+   :guilabel:`Determinator`, which is non-obligatory, and is used only if connected.
 
 
 if only 1st input is connected,
@@ -251,13 +253,13 @@ A value of just 3 will already clearly separate the background from foreground.
 Examples
 ~~~~~~~~
 
-An in-depth look at how to use the Vector Blur node :doc:`can be found here <ls/composite_nodes/types/filter/vector_blur>`\ .
+An in-depth look at how to use the Vector Blur node :doc:`can be found here <ls/composite_nodes/types/filter/vector_blur>`.
 
 As far as we know, this node represents a [http://www.blender.
 org/development/release-logs/blender-242/vector-blur/ new approach to calculating motion
 blur]. Use vector blur in compositing with confidence instead of motion blur. In face,
 when compositing images, it is necessary to use vector blur since there isn't "real" motion.
-In this `example blend file <http://download.blender.org/demo/test/driven_hand_blur.blend>`__\ ,
+In this `example blend file <http://download.blender.org/demo/test/driven_hand_blur.blend>`__,
 you will find a rigged hand reaching down to pick up a ball. Based on how the hand is moving
 (those vectors), the image is blurred in that direction. The fingers closest to the camera
 (the least Z value) are blurred more, and those farther away (the forearm)
@@ -333,7 +335,7 @@ which is shorthand for Depth of Field Distance.
 Use this camera parameter to set the focal plane of the camera
 (objects Depth of Field Distance away from the camera are in focus).
 Set :guilabel:`Distance` in the main :guilabel:`Camera` edit panel;
-the button is right below the :guilabel:`Depth of Field`\ .
+the button is right below the :guilabel:`Depth of Field`.
 
 To make the focal point visible, enable the camera :guilabel:`Limits` option,
 the focal point is then visible as a yellow cross along the view direction of the camera.
@@ -446,7 +448,7 @@ FIXME(TODO: Internal Link;
    the input is used directly to control the blur radius.
    And since usually the value of a texture is only in the numeric range 0.0 to 1.0,
    its range is too narrow to control the blur properly. This parameter can be used to expand the range of the input
-   (or for that matter, narrow it as well, by setting it to a value less than one). So for :guilabel:`No zbuffer`\ ,
+   (or for that matter, narrow it as well, by setting it to a value less than one). So for :guilabel:`No zbuffer`,
    this parameter therefore then becomes the main blur control
    (similar to :guilabel:`fStop` when you *do* use a zbuffer).
 
@@ -460,7 +462,7 @@ Examples
    :figwidth: 200px
 
 
-In this `blend file example <http://wiki.blender.org/uploads/7/79/Doftest.blend>`__\ , the ball
+In this `blend file example <http://wiki.blender.org/uploads/7/79/Doftest.blend>`__, the ball
 array image is blurred as if it was taken by a camera with a f-stop of 2.8 resulting in a
 farily narrow depth of field centered on 7.5 blender units from the camera.
 As the balls receed into the distance, they get blurrier.

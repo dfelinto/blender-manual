@@ -51,7 +51,7 @@ but you should be aware
 that this is the case since it's not necessarily obvious.
 
 
-- Running a script in the text editor *(ok, this is obvious!)*\ .
+- Running a script in the text editor *(ok, this is obvious!)*.
 - Rendering with FreeStyle - *FreeStyle uses scripts to control line styles*
 - Running the Game-Engine.
 
@@ -74,7 +74,7 @@ Setting Defaults
 ~~~~~~~~~~~~~~~~
 
 In the **File** section of the user-preferences there is the toggle **Auto-Run Python
-Scripts**\ .
+Scripts**.
 
 This means the **Trusted Source** option in the file-selector will be enabled by default,
 and scripts can run when blend files are loaded without using the file selector.

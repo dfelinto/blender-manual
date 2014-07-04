@@ -75,7 +75,7 @@ Misc
 ----
 
 
-- `FreeStyle Users' improvement suggestions <http://docs.google.com/document/d/1LaeF1gY3PCOm54Wv4Ll56Dygf6HSLxGXYlGL-WE0w_4/edit?usp=sharing>`__\ .
+- `FreeStyle Users' improvement suggestions <http://docs.google.com/document/d/1LaeF1gY3PCOm54Wv4Ll56Dygf6HSLxGXYlGL-WE0w_4/edit?usp=sharing>`__.
 
 
 - `FreeStyle integration into Blender blog <http://freestyleintegration.wordpress.com/>`__

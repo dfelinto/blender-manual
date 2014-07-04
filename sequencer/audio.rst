@@ -35,7 +35,12 @@ and you will have to re-open the file so that Blender re-reads the file.
 .. admonition:: Hiss, Crackle and Pop
    :class: note
 
-   Some audiophile users report that Hiss is introduced sometimes if Audio RAM is used. There must be some decoding or sampling going on, that does not occur when Audio HD is used, that introduces some playback noise. If you hear pops and crackles, usually that is a sign that your hardware cannot keep up in real-time playback. They will not be present in your final rendered animation output (but they may show up in Game mode).
+   Some audiophile users report that Hiss is introduced sometimes if Audio RAM is used.
+   There must be some decoding or sampling going on, that does not occur when Audio HD is used,
+   that introduces some playback noise. If you hear pops and crackles,
+   usually that is a sign that your hardware cannot keep up in real-time playback.
+   They will not be present in your final rendered animation output (but they may show up in Game mode).
+
    Also,
    static hiss seems to occur whenever two or more audio strips are overlapping in the timeline…
 
@@ -66,7 +71,7 @@ Animating Audio Track Properties
 --------------------------------
 
 You want to set a value somewhere between 0.0 and 1.0, and the volume becomes that percent; 0.
-6 is 60%. You can add a gain to the volume through the strip properties (\ :kbd:`N`\ ).
+6 is 60%. You can add a gain to the volume through the strip properties (:kbd:`N`).
 You can make a curve by having multiple points, to vary the volume over its length.
 Press :kbd:`tab` to edit the curve, just like any old bezier F-curve.
 
@@ -99,7 +104,7 @@ The advantage of using Blender's sequence editor lies in the easier synchronizat
 by sequencing frames and sound in the same application.
 
 To enable audio synchronisation after importing an audio track,
-select the :guilabel:`Scene` button (\ :kbd:`f10`\ )
+select the :guilabel:`Scene` button (:kbd:`f10`)
 in the buttons window then choose the :guilabel:`Sound Block` Button (small blue sine wave).
 In here you'll see the :guilabel:`Sync` and :guilabel:`Scrub` tools.
 

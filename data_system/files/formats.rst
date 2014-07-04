@@ -14,7 +14,7 @@ High Dynamic Range Graphics
 Blender's image input/output system transparently support regular 32 bits graphics
 (4 x 8 bits) or floating point images storing 128 bits per pixel (4 x 32 bits).
 
-On reading High Dynamic Range Images (\ `HDRI <http://http://en.wikipedia.org/wiki/HDRI>`__\ ),
+On reading High Dynamic Range Images (`HDRI <http://http://en.wikipedia.org/wiki/HDRI>`__),
 even when they're for example 3 x 10 bits,
 the pixels are always converted internally to RGBA float values. Optionally,
 like while displaying the image in the UV Image editor,

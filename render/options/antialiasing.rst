@@ -8,23 +8,23 @@ must therefore assign a single color to each pixel on the basis of what object i
 that pixel. This often leads to poor results, especially at sharp boundaries,
 or where thin lines are present, and it is particularly evident for oblique lines.
 
-To overcome this problem, which is known as *Aliasing*\ ,
+To overcome this problem, which is known as *Aliasing*,
 it is possible to resort to an Anti-Aliasing technique. Basically,
 each pixel is 'oversampled', by rendering it as if it were 5 pixels or more,
 and assigning an 'average' color to the rendered pixel.
 
 The buttons to control Anti-Aliasing, or OverSampling (OSA),
-are below the rendering button in the :guilabel:`Render` Panel (\ *Render Panel.*\ ).
+are below the rendering button in the :guilabel:`Render` Panel (*Render Panel.*).
 
 
 Options
 =======
 
 :guilabel:`Anti-Aliasing` check box
-    Enables oversampling
+   Enables oversampling
 
 5 / 8 / 11 / 16
-    The number of samples to use. The values 5, 8, 11, 16 are preset numbers in specific sample patterns; a higher value produces better edges, but slows down the rendering.
+   The number of samples to use. The values 5, 8, 11, 16 are preset numbers in specific sample patterns; a higher value produces better edges, but slows down the rendering.
 
 By default, we use in Blender a fixed "Distributed Jitter" table. The samples within a pixel
 are distributed and jittered in a way that guarantees two characteristics:
@@ -32,7 +32,7 @@ are distributed and jittered in a way that guarantees two characteristics:
 - Each sample has equal distances to its neighbor samples
 - The samples cover all sub-pixel positions equally, both horizontally and vertically
 
-    The images below show Blender sample patterns for 5, 8, 11 and 16 samples. To show that the distribution is equalized over multiple pixels, the neighbor pixel patterns were drawn as well. Note that each pixel has an identical pattern.
+   The images below show Blender sample patterns for 5, 8, 11 and 16 samples. To show that the distribution is equalized over multiple pixels, the neighbor pixel patterns were drawn as well. Note that each pixel has an identical pattern.
 
 
 +-----------------------------------------------------+-----------------------------------------------------+------------------------------------------------------+------------------------------------------------------+

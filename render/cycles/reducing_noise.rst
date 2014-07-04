@@ -86,7 +86,7 @@ Bounces
 In reality light will bounce a huge number of times due to the speed of light being very high.
 In practice more bounces will introduce more noise, and it might be good to use something like
 the Limited Global Illumination preset that uses **fewer bounces for different shader
-types**\ . Diffuse surfaces typically can get away with fewer bounces,
+types**. Diffuse surfaces typically can get away with fewer bounces,
 while glossy surfaces need a few more,
 and transmission shaders such as glass usually need the most.
 
@@ -189,7 +189,7 @@ Glass and Transparent Shadows
 With caustics disabled, glass will miss shadows,
 and with filter glossy they might be too soft.
 We can make a glass shader that will **use a Glass BSDF when viewed directly,
-and a Transparent BSDF when viewed indirectly**\ . The Transparent BSDF can be used for
+and a Transparent BSDF when viewed indirectly**. The Transparent BSDF can be used for
 transparent shadows to find light sources straight through surfaces,
 and will give properly-colored shadows, but without the caustics.
 The Light Path node is used to determine when to use which of the two shaders.

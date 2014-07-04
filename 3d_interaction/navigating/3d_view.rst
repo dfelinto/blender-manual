@@ -68,9 +68,9 @@ Rendering is in perspective by default. If you need to create an orthographic re
 select the camera, go to the :guilabel:`Object Data` context and press the
 :guilabel:`Orthographic` button in the :guilabel:`Lens` panel.
 
-The :menuselection:`View --> Camera` menu entry sets the 3D view to camera mode (\ :kbd:`pad0`\ ).
+The :menuselection:`View --> Camera` menu entry sets the 3D view to camera mode (:kbd:`pad0`).
 The scene is then displayed as it will be rendered later
-(see *Demonstration of camera view*\ ).
+(see *Demonstration of camera view*).
 The rendered image will contain everything within the orange dotted line.
 Zooming in and out is possible in this view, but to change the viewpoint,
 you have to move or rotate the camera.
@@ -94,11 +94,11 @@ Perspective definition
 ~~~~~~~~~~~~~~~~~~~~~~
 
 A *perspective* view is geometrically constructed by taking a scene in 3D and placing an
-observer at point ``O``\ . The 2D perspective scene is built by placing a plane (e.g.
-a sheet of paper) where the 2D scene is to be drawn in front of point ``O``\ ,
+observer at point ``O``. The 2D perspective scene is built by placing a plane (e.g.
+a sheet of paper) where the 2D scene is to be drawn in front of point ``O``,
 perpendicular to the viewing direction.
 For each point ``P`` in the 3D scene a ``PO`` line is drawn,
-passing by ``O`` and ``P``\ . The intersection point ``S`` between
+passing by ``O`` and ``P``. The intersection point ``S`` between
 this ``PO`` line and the plane is the perspective projection of that point.
 By projecting all points ``P`` of the scene you get a perspective view.
 
@@ -107,10 +107,10 @@ Orthographic definition
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 In an *orthographic* projection,
-you have a viewing direction but not a viewing point ``O``\ . The line is then drawn
+you have a viewing direction but not a viewing point ``O``. The line is then drawn
 through point ``P`` so that it is parallel to the viewing direction. The intersection
 ``S`` between the line and the plane is the orthographic projection of the point
-``P``\ .
+``P``.
 By projecting all points ``P`` of the scene you get the orthographic view.
 
 
@@ -135,7 +135,7 @@ Description
    A 3D viewport's View menu.
 
 
-Blender provides four default viewing directions: :guilabel:`Side`\ , :guilabel:`Front`\ ,
+Blender provides four default viewing directions: :guilabel:`Side`, :guilabel:`Front`,
 :guilabel:`Top` and :guilabel:`Camera` view.
 Blender uses a right-angled "Cartesian" coordinate system with the Z axis pointing upwards.
 "Side" corresponds to looking along the X axis, in the negative direction,
@@ -161,14 +161,15 @@ button mouse` option is select in the :guilabel:`User Preferences` you can press
 
 To change the viewing angle in discrete steps, use :kbd:`pad8` and :kbd:`pad2`
 (which correspond to vertical :kbd:`mmb` dragging, from any viewpoint),
-or use :kbd:`pad4` and :kbd:`pad6` (or :kbd:`ctrl-alt-wheel`\ )
+or use :kbd:`pad4` and :kbd:`pad6` (or :kbd:`ctrl-alt-wheel`)
 to rotate the scene around the Z global axis from your current point of view.
 
 
 .. admonition:: Hotkeys
    :class: note
 
-   Remember that most hotkeys affect **the active window** (the one that has focus), so check that the mouse cursor is in the area you want to work in before your use the hotkeys.
+   Remember that most hotkeys affect **the active window** (the one that has focus),
+   so check that the mouse cursor is in the area you want to work in before your use the hotkeys.
 
 
 TrackBall/Turntable
@@ -177,9 +178,9 @@ TrackBall/Turntable
 By default, when you rotate the view as described above,
 you are using the **turntable** method.
 For some users this is intuitive and for others it is not. If you feel you are having
-difficulties with this style of 3D window rotation you can switch to the "\ **trackball**\ "
+difficulties with this style of 3D window rotation you can switch to the "\ **trackball** "
 style. With the trackball style you are rotating the scene as though you are rolling your hand
-across a "\ **trackball**\ "
+across a "\ **trackball** "
 
 The :guilabel:`Turntable` style is fashioned more like a record player where you have two axes
 of rotation available,
@@ -195,7 +196,15 @@ Of course you can always switch between the styles depending on what you are wor
    View rotation.
 
 
-To change the rotation "style", use the :doc:`User Preferences window <preferences>`\ . Click on the :guilabel:`Input` button and you will see an option for choosing the Orbit style. There are two additional checkboxes for controlling the display in the 3D window in the :guilabel:`Interface` tab in the :guilabel:`User Preferences`\ . :guilabel:`Auto Perspective` will automatically switch to perspective whenever the view is rotated using :kbd:`mmb`\ . :guilabel:`Rotate Around Selection` will rotate the view around the center of the current selection. If there is no selection at that moment (e.g. if you used :kbd:`A` to deselect everything), the last selection will be used anyway.
+To change the rotation "style", use the :doc:`User Preferences window <preferences>`.
+Click on the :guilabel:`Input` button and you will see an option for choosing the Orbit style.
+There are two additional checkboxes for controlling the display in the 3D window in the :guilabel:`Interface` tab in
+the :guilabel:`User Preferences`.
+:guilabel:`Auto Perspective` will automatically switch to perspective whenever the view is rotated using :kbd:`mmb`.
+:guilabel:`Rotate Around Selection` will rotate the view around the center of the current selection.
+If there is no selection at that moment (e.g. if you used :kbd:`A` to deselect everything),
+the last selection will be used anyway.
+
 
 
 Panning the View
@@ -213,11 +222,11 @@ Description
 -----------
 
 To pan the view, hold down :kbd:`Shift` and drag :kbd:`mmb` in the 3D Viewport.
-For discrete steps, use the hotkeys :kbd:`ctrl-pad8`\ , :kbd:`ctrl-pad2`\ ,
+For discrete steps, use the hotkeys :kbd:`ctrl-pad8`, :kbd:`ctrl-pad2`,
 :kbd:`ctrl-pad4` and :kbd:`ctrl-pad6` as with rotating (note:
-you can replace :kbd:`Ctrl` by :kbd:`Shift`\ ).
+you can replace :kbd:`Ctrl` by :kbd:`Shift`).
 For those without a middle mouse button,
-you can hold :kbd:`Shift` :kbd:`Alt` while dragging with :kbd:`lmb`\ .
+you can hold :kbd:`Shift` :kbd:`Alt` while dragging with :kbd:`lmb`.
 
 
 Zooming the View
@@ -234,13 +243,13 @@ Zooming the View
 Description
 -----------
 
-You can zoom in and out by holding down :kbd:`Ctrl` and dragging :kbd:`mmb`\ .
-The hotkeys are :kbd:`pad+` and :kbd:`pad-`\ .
+You can zoom in and out by holding down :kbd:`Ctrl` and dragging :kbd:`mmb`.
+The hotkeys are :kbd:`pad+` and :kbd:`pad-`.
 The :menuselection:`View --> Navigation` sub-menu holds these functions too as well.
 Refer to the 3D viewport's :guilabel:`View` menu image above for more information.
 
 If you have a wheel mouse, you can perform all of the actions in the 3D viewport that you
-would do with :kbd:`pad+` and :kbd:`pad-` by rotating the :kbd:`wheel`\ .
+would do with :kbd:`pad+` and :kbd:`pad-` by rotating the :kbd:`wheel`.
 To zoom a :guilabel:`Buttons` window,
 hold :kbd:`CTRL-MMB` and move your mouse up and down.
 
@@ -248,7 +257,11 @@ hold :kbd:`CTRL-MMB` and move your mouse up and down.
 .. admonition:: If You Get Lost…
    :class: note
 
-   If you get lost in 3D space, which is not uncommon, two hotkeys will help you: :kbd:`home` changes the view so that you can see all objects (\ :menuselection:`View --> View All` menu entry), while :kbd:`pad.` zooms the view to the currently selected objects when in perspective mode (\ :menuselection:`View --> View Selected` menu entry).
+   If you get lost in 3D space, which is not uncommon, two hotkeys will help you:
+   :kbd:`home` changes the view so that you can see all objects (:menuselection:`View --> View All` menu entry),
+   while :kbd:`pad.` zooms the view to the currently selected objects when in perspective mode
+   (:menuselection:`View --> View Selected` menu entry).
+
 
 
 Zoom Border
@@ -282,7 +295,7 @@ well in many cases but sometimes you want to move the view-point to a different 
 is what Dolly supports, allowing you to transport the view from one place to another.
 
 You can dolly back and fourth by holding down :kbd:`Ctrl-Shift` and dragging
-:kbd:`mmb`\ .
+:kbd:`mmb`.
 
 
 Aligning the View
@@ -295,7 +308,9 @@ These options allow you to align and orient the view in different ways.
 They are found in the :guilabel:`View Menu`
 
    :guilabel:`Align View to Selected` menu
-      These options align your view with specified local axes of the selected object or, in :guilabel:`Edit` mode, with the normal of the selected face.
+      These options align your view with specified local axes of the selected object or, in :guilabel:`Edit` mode,
+      with the normal of the selected face.
+
 
       :guilabel:`Top` :kbd:`shift-pad7`
       :guilabel:`Bottom` :kbd:`shift-ctrl-pad7`
@@ -304,13 +319,14 @@ They are found in the :guilabel:`View Menu`
       :guilabel:`Right` :kbd:`shift-pad3`
       :guilabel:`Left` :kbd:`shift-ctrl-pad3`
 
-   :guilabel:`Center Cursor and View All` (\ :kbd:`shift-C`\ )
+   :guilabel:`Center Cursor and View All` (:kbd:`shift-C`)
       moves the cursor back to the origin **and** zooms in/out so that you can see everything in your scene.
-   :guilabel:`Align Active Camera to View`\ , :kbd:`ctrl-alt-pad0`
+   :guilabel:`Align Active Camera to View`, :kbd:`ctrl-alt-pad0`
       Gives your active camera the current viewpoint
-   :guilabel:`View selected`\ , :kbd:`pad.`
-      Focuses view on currently selected object/s by centering them in the viewport, and zooming in until they fill the screen.
-   :guilabel:`Center view to cursor`\ , :kbd:`alt-home`
+   :guilabel:`View selected`, :kbd:`pad.`
+      Focuses view on currently selected object/s by centering them in the viewport,
+      and zooming in until they fill the screen.
+   :guilabel:`Center view to cursor`, :kbd:`alt-home`
       Centers view to 3D-cursor
 
 :guilabel:`View Selected`
@@ -323,11 +339,11 @@ Local and Global View
 =====================
 
 You can toggle between :guilabel:`Local` and :guilabel:`Global` view by selecting the option
-from the :guilabel:`View Menu` or using the shortcut :kbd:`pad/`\ .
+from the :guilabel:`View Menu` or using the shortcut :kbd:`pad/`.
 Local view isolates the selected object or objects,
 so that they are the only ones visible in the viewport.
 This is useful for working on objects that are obscured by other ones, or have heavy geometry.
-Press :kbd:`pad/` to return to :guilabel:`Global View`\ .
+Press :kbd:`pad/` to return to :guilabel:`Global View`.
 
 
 Quad View
@@ -389,10 +405,11 @@ Once clipping is used, you will only see whats inside a volume you've defined.
 Tools such as paint, sculpt, selection, transform-snapping etc.
 will also ignore geometry outside the clipping bounds.
 
-Once activated with :kbd:`alt-B`\ , you have to draw a rectangle with the mouse,
+Once activated with :kbd:`alt-B`, you have to draw a rectangle with the mouse,
 in the wanted 3D view. The created clipping volume will then be:
 
-- A right-angled `parallelepiped <http://en.wikipedia.org/wiki/Parallelepiped>`__ (of infinite length) if your view is orthographic.
+- A right-angled `parallelepiped <http://en.wikipedia.org/wiki/Parallelepiped>`__
+  (of infinite length) if your view is orthographic.
 - A rectangular-based pyramid (of infinite height) if your view is in perspective.
 
 To delete this clipping, press :kbd:`alt-B` again.
@@ -411,7 +428,7 @@ the view and you will see that only what is inside the pyramidal volume is visib
 All the editing tools still function as normal but only within the pyramidal clipping volume.
 
 The dark gray area is the clipping volume itself.
-Once clipping is deactivated with another :kbd:`alt-B`\ ,
+Once clipping is deactivated with another :kbd:`alt-B`,
 all of 3D space will become visible again.
 
 
@@ -438,7 +455,9 @@ or you apparently cannot move the camera any nearer. As an example,
 try to navigate to a very distant object in the view with traditional methods
 (explained above) and see what you can get.
 
-With  :doc:`Walk mode <3d_interaction/navigating/3d_view/navigation_modes#walk_mode>` and :doc:`Fly mode <3d_interaction/navigating/3d_view/navigation_modes#fly_mode>` you move, pan and tilt, and dolly the camera around without any of those limitations.
+With  :doc:`Walk mode <3d_interaction/navigating/3d_view/navigation_modes#walk_mode>` and
+:doc:`Fly mode <3d_interaction/navigating/3d_view/navigation_modes#fly_mode>` you move, pan and tilt,
+and dolly the camera around without any of those limitations.
 
 
 .. figure:: /images/3D_Interaction-Navigating-3D_view-Navigation_Mode.jpg
@@ -448,6 +467,8 @@ With  :doc:`Walk mode <3d_interaction/navigating/3d_view/navigation_modes#walk_m
    View Navigation.
 
 
-In the :doc:`User Preferences window <preferences>` select the navigation mode you want to use as default when invoking the View Navigation operator. Alternatively you can call the individual modes from the View Navigation menu.
+In the :doc:`User Preferences window <preferences>`
+select the navigation mode you want to use as default when invoking the View Navigation operator.
+Alternatively you can call the individual modes from the View Navigation menu.
 
 

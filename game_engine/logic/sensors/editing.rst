@@ -73,7 +73,8 @@ sensors for every selected object appear in the list,
 but this may be modified by the column heading filters.
 
 At the head of each displayed object sensor list, two entries appear:
+
 **Name**
-    The name of the object.
+   The name of the object.
 **Add Sensor**
-    When clicked, a menu appears with the available sensor types. Selecting an entry adds a new sensor to the object. See :doc:`Sensors <game_engine/logic/sensors>` for a list of available sensor types.
+   When clicked, a menu appears with the available sensor types. Selecting an entry adds a new sensor to the object. See :doc:`Sensors <game_engine/logic/sensors>` for a list of available sensor types.

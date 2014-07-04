@@ -27,7 +27,7 @@ Options
 :guilabel:`Color`
    The noise gives an RGB value
 :guilabel:`Noise`
-   :guilabel:`Soft` or :guilabel:`Hard`\ , changes contrast and sharpness
+   :guilabel:`Soft` or :guilabel:`Hard`, changes contrast and sharpness
 :guilabel:`Size`
    The dimension of the Noise table
 :guilabel:`Depth`

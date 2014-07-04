@@ -11,7 +11,7 @@ Interior Forces
 
 To create a connection between the vertices of a Soft Body object there have to be forces that
 hold the vertices together. These forces are effective along the edges in a mesh,
-the connections between the vertices. The forces act like a spring. (\ *Image 1a*\ )
+the connections between the vertices. The forces act like a spring. (*Image 1a*)
 illustrates how a 3×3 grid of vertices (a mesh plane in Blender)
 are connected in a Soft Body simulation.
 
@@ -31,9 +31,9 @@ but would change your mesh topology drastically.
 
 Luckily, Blender allows us to define additional *virtual* connections.
 On one hand we can define virtual connections between the diagonal edges of a quad face
-(\ :guilabel:`Stiff Quads`\ , *Image 1b*\ ), on the other hand we can define virtual connections
+(:guilabel:`Stiff Quads`, *Image 1b*), on the other hand we can define virtual connections
 between a vertex and any vertices connected to it's neighbours
-(\ :guilabel:`Bending Stiffness`\ ). In other words, the amount of bend that is allowed between a
+(:guilabel:`Bending Stiffness`). In other words, the amount of bend that is allowed between a
 vertex and any other vertex that is separated by two edge connections.
 
 
@@ -46,11 +46,16 @@ The characteristics of edges are set with the :guilabel:`Soft Body Edge` propert
    Allow the edges in a Mesh Object to act like springs.
 
 :guilabel:`Pull`
-   The spring stiffness for edges (how much the edges are allowed to stretch). A low value means very weak springs (a very elastic material), a high value is a strong spring (a stiffer material) that resists being pulled apart. 0.5 is latex, 0.9 is like a sweater, 0.999 is a highly-starched napkin or leather. The Soft Body simulation tends to get unstable if you use a value of 0.999, so you should lower this value a bit if that happens.
+   The spring stiffness for edges (how much the edges are allowed to stretch). A low value means very weak springs
+   (a very elastic material), a high value is a strong spring (a stiffer material) that resists being pulled apart.
+   0.5 is latex, 0.9 is like a sweater, 0.999 is a highly-starched napkin or leather.
+   The Soft Body simulation tends to get unstable if you use a value of 0.999,
+   so you should lower this value a bit if that happens.
 :guilabel:`Push`
-   How much the Softbody resist being scrunched together, like a compression spring. Low values for fabric, high values for inflated objects and stiff material.
+   How much the Softbody resist being scrunched together,
+   like a compression spring. Low values for fabric, high values for inflated objects and stiff material.
 :guilabel:`Damp`
-   The friction for edge springs. High values (max of 50) dampen the :guilabel:`Push`\ /\ :guilabel:`Pull` effect and calm down the cloth.
+   The friction for edge springs. High values (max of 50) dampen the :guilabel:`Push` / :guilabel:`Pull` effect and calm down the cloth.
 :guilabel:`Plastic`
    Permanent deformation of the object after a collision. The vertices take a new position without applying the modifier.
 :guilabel:`Bending`
@@ -67,7 +72,7 @@ The characteristics of edges are set with the :guilabel:`Soft Body Edge` propert
 Preventing Collapse
 -------------------
 
-To show the effect of the different edge settings we will use two cubes (blue: only quads, red: only tris) and let them fall without any goal onto a plane (how to set up collision is shown on the page :doc:`Collisions <physics/soft_body/collisions>`\ ).
+To show the effect of the different edge settings we will use two cubes (blue: only quads, red: only tris) and let them fall without any goal onto a plane (how to set up collision is shown on the page :doc:`Collisions <physics/soft_body/collisions>`).
 
 
 +--------------------------------------------------------+--------------------------------------------------------+--------------------------------------------------------+
@@ -79,7 +84,7 @@ To show the effect of the different edge settings we will use two cubes (blue: o
 +--------------------------------------------------------+--------------------------------------------------------+--------------------------------------------------------+
 
 
-In (\ *Image 3*\ ), the default settings are used (without :guilabel:`Stiff Quads`\ ).
+In (*Image 3*), the default settings are used (without :guilabel:`Stiff Quads`).
 The "quad only" cube will collapse completely, the cube composed of tris keeps it's shape,
 though it will deform temporarily because of the forces created during collision.
 
@@ -93,7 +98,7 @@ though it will deform temporarily because of the forces created during collision
 +-----------------------------------------------------------+-----------------------------------------------------------+-----------------------------------------------------------+
 
 
-In (\ *Image 4*\ ), :guilabel:`Stiff Quads` is activated (for both cubes).
+In (*Image 4*), :guilabel:`Stiff Quads` is activated (for both cubes).
 Both cubes keep their shape, there is no difference for the red cube,
 because it has no quads anyway.
 
@@ -109,9 +114,9 @@ because it has no quads anyway.
 
 
 The second method to stop an object from collapsing is to change it's :guilabel:`Bending
-Stiffness`\ . This includes the diagonal edges (Damping also applies to these connections).
+Stiffness`. This includes the diagonal edges (Damping also applies to these connections).
 
-In (\ *Image 5*\ ), :guilabel:`Be` is activated with a strength setting of 1.
+In (*Image 5*), :guilabel:`Be` is activated with a strength setting of 1.
 Now both cubes are more rigid.
 
 
@@ -126,10 +131,8 @@ Now both cubes are more rigid.
 
 Bending stiffness can also be used if you want to make a subdivided plane more plank like.
 Without :guilabel:`Be` the faces can freely rotate against each other like hinges
-(\ *Image 6b*\ ).
-There would be no change in the simulation if you activated :guilabel:`Stiff Quads`\ ,
+(*Image 6b*).
+There would be no change in the simulation if you activated :guilabel:`Stiff Quads`,
 because the faces are not deformed at all in this example.
 
 Bending stiffness on the other hand prevents the plane from being - well - bent.
-
-

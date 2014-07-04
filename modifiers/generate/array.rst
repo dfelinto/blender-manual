@@ -47,20 +47,20 @@ Options
 
 
 :guilabel:`Fit Type` menu
-   Controls how the length of the array is determined. There are three choices, activating respectively the display of the :guilabel:`Curve`\ , :guilabel:`Length` or :guilabel:`Count` setting:
+   Controls how the length of the array is determined. There are three choices, activating respectively the display of the :guilabel:`Curve`, :guilabel:`Length` or :guilabel:`Count` setting:
 
-   - :guilabel:`Fit Curve` - Generates enough copies to fit within the length of the curve object specified in :guilabel:`Curve`\ .
-   - :guilabel:`Fit Length` - Generates enough copies to fit within the fixed length given by :guilabel:`Length`\ .
-   - :guilabel:`Fixed Count` - Generates the number of copies specified in :guilabel:`Count`\ .
+   - :guilabel:`Fit Curve` - Generates enough copies to fit within the length of the curve object specified in :guilabel:`Curve`.
+   - :guilabel:`Fit Length` - Generates enough copies to fit within the fixed length given by :guilabel:`Length`.
+   - :guilabel:`Fixed Count` - Generates the number of copies specified in :guilabel:`Count`.
 
 :guilabel:`Curve`
-   The Curve object to use for :guilabel:`Fit Curve`\ .
+   The Curve object to use for :guilabel:`Fit Curve`.
 
 :guilabel:`Length`
-   The length to use for :guilabel:`Fit Length`\ .
+   The length to use for :guilabel:`Fit Length`.
 
 :guilabel:`Count`
-   The number of duplicates to use for :guilabel:`Fixed Count`\ .
+   The number of duplicates to use for :guilabel:`Fixed Count`.
 
 
 .. admonition:: Notes
@@ -72,10 +72,10 @@ Options
    - Applying the scale with the :guilabel:`Apply Scale` button can be useful for each one.
 
 
-:guilabel:`Constant Offset`\ , :guilabel:`X`\ , :guilabel:`Y`\ , :guilabel:`Z`
+:guilabel:`Constant Offset`, :guilabel:`X`, :guilabel:`Y`, :guilabel:`Z`
    Adds a constant translation component to the duplicate object's offset. X, Y and Z constant components can be specified.
 
-:guilabel:`Relative Offset`\ , :guilabel:`X`\ , :guilabel:`Y`\ , :guilabel:`Z`
+:guilabel:`Relative Offset`, :guilabel:`X`, :guilabel:`Y`, :guilabel:`Z`
 
 
 .. figure:: /images/Dev-Array-Scale_eg.jpg
@@ -83,7 +83,7 @@ Options
    Relative offset example.
 
 
-   Adds a translation equal to the object's bounding box size along each axis, multiplied by a scaling factor, to the offset. X, Y and Z scaling factors can be specified. See *Relative offset example*\ .
+   Adds a translation equal to the object's bounding box size along each axis, multiplied by a scaling factor, to the offset. X, Y and Z scaling factors can be specified. See *Relative offset example*.
 
 
 :guilabel:`Object Offset`
@@ -94,32 +94,32 @@ Options
    Object offset example.
 
 
-   Adds a transformation taken from an object (relative to the current object) to the offset. See *Object offset example*\ . It is good practice to use an Empty object centered or near to the initial object. E.g. by rotating this Empty a circle or helix of objects can be created.
+   Adds a transformation taken from an object (relative to the current object) to the offset. See *Object offset example*. It is good practice to use an Empty object centered or near to the initial object. E.g. by rotating this Empty a circle or helix of objects can be created.
 
 
 :guilabel:`Merge`
-   If enabled, vertices in each copy will be merged with vertices in the next copy that are within the given :guilabel:`Distance`\ .
+   If enabled, vertices in each copy will be merged with vertices in the next copy that are within the given :guilabel:`Distance`.
 
 :guilabel:`First Last`
-   If enabled **and** :guilabel:`Merge` is enabled, vertices in the first copy will be merged with vertices in the last copy (this is useful for circular objects; see (\ *First Last merge example*\ )).
+   If enabled **and** :guilabel:`Merge` is enabled, vertices in the first copy will be merged with vertices in the last copy (this is useful for circular objects; see (*First Last merge example*)).
 
 +------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+
 +.. figure:: /images/Dev-ArrayModifier-FirstLastDiscontinuity01.jpg                                                |.. figure:: /images/Dev-ArrayModifier-FirstLastMerge01.jpg                                                       +
 +------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+
-+Subsurf discontinuity caused by not merging vertices between first and last copies (\ :guilabel:`First Last` off).|Subsurf discontinuity eliminated by merging vertices between first and last copies (\ :guilabel:`First Last` on).+
++Subsurf discontinuity caused by not merging vertices between first and last copies (:guilabel:`First Last` off).  |Subsurf discontinuity eliminated by merging vertices between first and last copies (:guilabel:`First Last` on).  +
 +------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+
 +:guilabel:`First Last` merge example.                                                                                                                                                                                               +
 +------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+
 
 
 :guilabel:`Distance`
-   Controls the merge distance for :guilabel:`Merge`\ .
+   Controls the merge distance for :guilabel:`Merge`.
 
 :guilabel:`Start cap`
-   The mesh object to be used as a start cap. A single copy of this object will be placed at the "beginning" of the array - in fact, as if it was in position **-1**\ , i.e. one "array step" before the first "regular" array copy. Of course, if :guilabel:`Merge` is activated, and the :guilabel:`Start cap` is near enough to the first copy, they will be merged.
+   The mesh object to be used as a start cap. A single copy of this object will be placed at the "beginning" of the array - in fact, as if it was in position **-1**, i.e. one "array step" before the first "regular" array copy. Of course, if :guilabel:`Merge` is activated, and the :guilabel:`Start cap` is near enough to the first copy, they will be merged.
 
 :guilabel:`End cap`
-   The mesh object to be used as an end cap. A single copy of this object will be placed at the "end" of the array - in fact, as if it was in position **n+1**\ , i.e. one "array step" after the last "regular" array copy. And as :guilabel:`Start cap`\ , it can be merged with the last copy…
+   The mesh object to be used as an end cap. A single copy of this object will be placed at the "end" of the array - in fact, as if it was in position **n+1**, i.e. one "array step" after the last "regular" array copy. And as :guilabel:`Start cap`, it can be merged with the last copy…
 
 
 Hints
@@ -129,9 +129,9 @@ Offset Calculation
 ~~~~~~~~~~~~~~~~~~
 
 The transformation applied from one copy to the next is calculated as the sum of the three
-different components (\ :guilabel:`Relative`\ , :guilabel:`Constant` and :guilabel:`Object`\ ),
+different components (:guilabel:`Relative`, :guilabel:`Constant` and :guilabel:`Object`),
 all of which can be enabled/disabled independently of the others. This allows, for example,
-a relative offset of **(1, 0, 0)** and a constant offset of **(0.1, 0, 0)**\ ,
+a relative offset of **(1, 0, 0)** and a constant offset of **(0.1, 0, 0)**,
 giving an array of objects neatly spaced along the X axis with a constant **0.1BU**
 (Blender Units) between them, whatever the original object's size.
 

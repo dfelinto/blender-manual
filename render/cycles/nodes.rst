@@ -10,7 +10,7 @@ These nodes output values, vectors, colors and shaders.
 --------------------------
 
 An important concept to understand when building node setups is that of the **shader
-socket**\ . The output of all surface and volume shaders is a shader,
+socket**. The output of all surface and volume shaders is a shader,
 describing lighting interaction at the surface or of the volume,
 rather than the color of the surface.
 

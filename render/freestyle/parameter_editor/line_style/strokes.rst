@@ -20,12 +20,13 @@ Chaining
 
 By default all retrieved lines from the line set are chained together.
 There are two basic chaining methods:
+
 :guilabel:`Plain`
    The default chaining method; it creates simple chains.
 
 :guilabel:`Sketchy`
-
    This chaining option allows for generating chains of feature edges with sketchy multiple strokes. Basically, it generates :guilabel:`Round` strokes instead of a single one. It is only really useful if you use some random-driven modifiers in the line style!
+
 :guilabel:`Rounds`
    It specifies the number of rounds in sketchy strokes.
 
@@ -62,11 +63,9 @@ You can split up chains of Freestyle lines by checking one of the following:
 :guilabel:`2D Length`
    Splits chains when they are longer than the given value.
 
-:guilabel:`D1`\ /\ :guilabel:`G1`\ /\ :guilabel:`D2`\ /\ :guilabel:`G2`\ /\ :guilabel:`D3`\ /\ :guilabel:`G3`
+:guilabel:`D1` / :guilabel:`G1` / :guilabel:`D2` / :guilabel:`G2` / :guilabel:`D3` / :guilabel:`G3`
    Splits the chains using the given dashed pattern ("D" stands for "dash", "G" stands for "gap"; see also
-FIXME(TODO: Internal Link;
-[[#Dashed Line|below]]
-)).
+   FIXME(TODO: Internal Link; [[#Dashed Line|below]])).
 
 
 Selection
@@ -80,7 +79,7 @@ Selection
 
 
 You can also choose to only select (i.e. render)
-chains longer than :guilabel:`Min 2D Length` and/or shorter than :guilabel:`Max 2D Length`\ .
+chains longer than :guilabel:`Min 2D Length` and/or shorter than :guilabel:`Max 2D Length`.
 
 
 Caps

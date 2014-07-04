@@ -33,12 +33,14 @@ Options
 
 :guilabel:`Target`
    This constraint uses one target, and is not functional (red state) when it has none.
+
    :guilabel:`Bone`
-      If :guilabel:`Target` is an :guilabel:`Armature`\ , a new field is displayed offering the optional choice to set an individual bone as :guilabel:`Target`\ .
+      If :guilabel:`Target` is an :guilabel:`Armature`, a new field is displayed offering the optional choice to set an individual bone as :guilabel:`Target`.
+
       :guilabel:`Head/Tail`
-         If a :guilabel:`Bone` is set as :guilabel:`Target`\ , a new field is displayed offering the optional choice of where along this bone the target point lies.
+         If a :guilabel:`Bone` is set as :guilabel:`Target`, a new field is displayed offering the optional choice of where along this bone the target point lies.
    :guilabel:`Vertex Group`
-      If :guilabel:`Target` is a :guilabel:`Mesh`\ , a new field is displayed offering the optional choice to set a :guilabel:`Vertex Group` as target.
+      If :guilabel:`Target` is a :guilabel:`Mesh`, a new field is displayed offering the optional choice to set a :guilabel:`Vertex Group` as target.
 
 :guilabel:`Distance`
    This numeric field sets the limit distance, i.e. the radius of the constraining sphere.
@@ -47,6 +49,7 @@ Options
 
 :guilabel:`Clamp Region`
    The :guilabel:`Limit Mode` drop-down menu allows you to choose how to use the sphere defined by the :guilabel:`Distance` setting and target's center:
+
    :guilabel:`Inside` (default)
       The owner is constrained *inside* the sphere.
    :guilabel:`Outside`

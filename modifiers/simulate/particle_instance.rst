@@ -9,7 +9,7 @@ Particle Instance Modifier
    :class: refbox
 
    | Mode:     Any mode
-   | Panel:    :guilabel:`Modifiers` (\ :guilabel:`Editing` context, :kbd:`F9`\ )
+   | Panel:    :guilabel:`Modifiers` (:guilabel:`Editing` context, :kbd:`F9`)
 
 
 When a :guilabel:`ParticleInstance` modifier is added to an object, that object will be used
@@ -64,7 +64,7 @@ altering rather than the :guilabel:`ParticleInstance` modifier settings.
    The :guilabel:`Particle System` field is used to select which particle system number to apply the
    :guilabel:`ParticleInstance` modifier to,
    when the mesh which has the particle system on it has more than one of these.
-   The :guilabel:`Particle System` field can have a value between **1** and **10**\ .
+   The :guilabel:`Particle System` field can have a value between **1** and **10**.
    It is possible to select any of the ten particle system numbers, however a check will **not** be made with the
    underlying particle emitting object specified previously in the :guilabel:`Object` field.
    If you select a particle system number which does not exist on the particle emitting object, then the particles on
@@ -178,7 +178,7 @@ Using Paths
 +------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-   Once all the extra edge loops around cylinder are removed so that there is only the top and bottom vertices left, meaning that the cylinder doesn't have enough geometry to bend, in that case it cannot follow the path of the particle, so it just goes from the start way point **1** to the ending way point **4**\ .
+   Once all the extra edge loops around cylinder are removed so that there is only the top and bottom vertices left, meaning that the cylinder doesn't have enough geometry to bend, in that case it cannot follow the path of the particle, so it just goes from the start way point **1** to the ending way point **4**.
    The :guilabel:`ParticleInstance` modifier :guilabel:`Path` button works for hair (strand) particles as well as with keyed particles. In this case the mesh of the :guilabel:`ParticleInstance` modifier will follow the length and profile of the hair strands paths.
    Below is a screenshot showing the effect of the :guilabel:`Path` button on hair:
 

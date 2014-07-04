@@ -14,7 +14,7 @@ the volume inside the mesh, and displacement of the surface of the mesh.
 ---------------------------------
 
 The surface shader defines the light interaction at the surface of the mesh. One or more
-:abbr:`BSDF (Bidirectional scattering distribution function)`\ s specify if incoming light is
+:abbr:`BSDF (Bidirectional scattering distribution function)` s specify if incoming light is
 reflected back, refracted into the mesh, or absorbed.
 
 Emission defines how light is emitted from the surface,
@@ -60,7 +60,7 @@ In order for materials to work well with global illumination, they should be,
 speaking in terms of physics, energy conserving.
 That means they cannot reflect more light than comes in.
 This property is not strictly enforced, but if colors are in the range 0.0 to 1.0, and
-:abbr:`BSDF (Bidirectional scattering distribution function)`\ s are only mixed together with the
+:abbr:`BSDF (Bidirectional scattering distribution function)` s are only mixed together with the
 Mix Shader node, this will automatically be true.
 
 It is however possible to break this,

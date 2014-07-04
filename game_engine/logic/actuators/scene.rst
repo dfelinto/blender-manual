@@ -27,20 +27,18 @@ The actuator has eight modes:
 
 
 **Restart**
-    Restarts the current scene, everything in the scene is reset
+   Restarts the current scene, everything in the scene is reset
 **Set Scene**
-    Changes scene to selected one
+   Changes scene to selected one
 **Set Camera**
-    Changes which camera is used
+   Changes which camera is used
 **Add OverlayScene**
-    This adds an other scene, and draws it on top of the current scene. It is good for interfacing: keeping the health bar, ammo meter, speed meter in an overlay scene makes them always visible.
+   This adds an other scene, and draws it on top of the current scene. It is good for interfacing: keeping the health bar, ammo meter, speed meter in an overlay scene makes them always visible.
 **Add BackgroundScene**
-    This is the opposite of an overlay scene, it is drawn behind the current scene
+   This is the opposite of an overlay scene, it is drawn behind the current scene
 **Remove Scene**
-    Removes a scene.
+   Removes a scene.
 **Suspend Scene**
-    Pauses a scene
+   Pauses a scene
 **Resume Scene**
-    Resumes a paused scene.
-
-
+   Resumes a paused scene.

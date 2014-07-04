@@ -22,6 +22,6 @@ and how it interacts with materials.
    Prevents the lamp from producing :doc:`diffuse light <materials/properties/diffuse_shaders>` (it doesn't really "light" things).
 
 :guilabel:`Specular`
-   Prevents the lamp from producing :doc:`specular highlights <materials/properties/specular_shaders>`\ .
+   Prevents the lamp from producing :doc:`specular highlights <materials/properties/specular_shaders>`.
 
 

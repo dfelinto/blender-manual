@@ -22,12 +22,12 @@ are laid on a plane, which is often not the desired behavior of a path.
 To turn a standard curve three-dimensional, enable its :guilabel:`3D` button,
 in the same :guilabel:`Curve and Surface` editing panel.
 
-One last curve property that is important for a path is its *direction*\ , which is,
+One last curve property that is important for a path is its *direction*, which is,
 for three-dimensional ones, materialized by its small arrows.
 You can switch it with the :menuselection:`Curve --> Segments --> Switch Direction` menu entry
-(or :kbd:`W-pad2`\ ).
+(or :kbd:`W-pad2`).
 
-For more on editing path/curves, see the :doc:`modeling chapter <modeling/curves>`\ .
+For more on editing path/curves, see the :doc:`modeling chapter <modeling/curves>`.
 
 {{Note|Shapes on Curves|If you would rather like to have your object's *shape* follow a path (like e.g. a sheet of paper inside a printer), you should use the :doc:`Curve Modifier <modifiers/deform/curve>`
 
@@ -40,7 +40,7 @@ They used a different method (deprecated, but still available), based on parenti
 
 To use this method, select the object that will follow the path,
 then :kbd:`Shift` select the curve,
-and use :kbd:`ctrl-P` to bring up the parenting menu. Choose :guilabel:`Follow Path`\ .
+and use :kbd:`ctrl-P` to bring up the parenting menu. Choose :guilabel:`Follow Path`.
 The object will now be animated along the path.
 
 The settings for the path animation are in the :guilabel:`Path Animation` panel of the Curve
@@ -55,7 +55,7 @@ properties panel.
 :guilabel:`Radius`
    Causes the curve path child to be scaled by the set curve radius. See :doc:`Curve Extruding <modeling/curves/editing/advanced>`
 :guilabel:`Offset Children`
-   Causes the animation to be offset by the curve path child's time offset value, which can be found in its :guilabel:`Animation Hacks` section of the :guilabel:`Object Panel`\ .
+   Causes the animation to be offset by the curve path child's time offset value, which can be found in its :guilabel:`Animation Hacks` section of the :guilabel:`Object Panel`.
 
 
 The Follow Path Constraint
@@ -65,14 +65,14 @@ The :guilabel:`Follow Path` constraint implements the most "classical" technique
 the owner object will walk the whole path only once, starting at frame one,
 and over **100** frames. You can set a different starting frame in the :guilabel:`Offset`
 field of the constraint panel, and change the length (in frames)
-of the path using its :guilabel:`Frames` property (\ :guilabel:`Curve and Surface` panel).
+of the path using its :guilabel:`Frames` property (:guilabel:`Curve and Surface` panel).
 
 But you can have a much more precise control over your object's movement along its path by
 keyframing or defining a :guilabel:`Speed` animation curve for the path's :guilabel:`Evaluation
 Time` attribute. This curve maps the current frame to a position along the path,
 from **0.0** (start point) to **1.0** (end point).
 
-For more details and examples, see the :doc:`Follow Path constraint page <constraints/relationship/follow_path>`\ .
+For more details and examples, see the :doc:`Follow Path constraint page <constraints/relationship/follow_path>`.
 
 
 The Clamp To Constraint
@@ -88,6 +88,6 @@ So to animate the movement of your owner along its target path, you have to anim
 This implies that here, the length of the path have no more any effect - and that by default,
 the object is static somewhere on the path!
 
-For more details and examples, see the :doc:`Clamp To constraint page <constraints/tracking/clamp_to>`\ .
+For more details and examples, see the :doc:`Clamp To constraint page <constraints/tracking/clamp_to>`.
 
 

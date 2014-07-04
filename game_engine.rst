@@ -20,7 +20,15 @@ and incorporates facilities for  user interaction during the rendering process.
 The Blender Game Engine oversees a game loop, which processes logic, sound,
 physics and rendering simulations in sequential order. The engine is written in C++.
 
-By default, the user has access to a powerful, high level, Event Driven :doc:`Logic Editor <game_engine/logic/editor>` which is comprised of a seriers of specialised components called "Logic Bricks". The :doc:`Logic Editor <game_engine/logic/editor>` provides deep interaction with the simulation, and its functionality can be extended through Python scripting. It is designed to abstract the complex engine features into a simple user interface, which does not require experience with Programming. An overview of the :doc:`Logic Editor <game_engine/logic/editor>` can be found in the :doc:`Game Logic Screen Layout <game_engine/screen_layout>`
+By default, the user has access to a powerful, high level, Event Driven
+:doc:`Logic Editor <game_engine/logic/editor>`
+which is comprised of a seriers of specialised components called "Logic Bricks".
+The :doc:`Logic Editor <game_engine/logic/editor>` provides deep interaction with the simulation,
+and its functionality can be extended through Python scripting.
+It is designed to abstract the complex engine features into a simple user interface,
+which does not require experience with Programming. An overview of the :doc:`Logic Editor <game_engine/logic/editor>`
+can be found in the :doc:`Game Logic Screen Layout <game_engine/screen_layout>`
+
 
 The Game Engine is closely integrated with the existing code base of Blender, which permits
 quick transitions between the traditional modelling featureset and game-specific functionality

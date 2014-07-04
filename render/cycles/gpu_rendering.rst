@@ -31,7 +31,7 @@ CUDA
 
 
 NVidia :abbr:`CUDA (Compute Unified Device Architecture)` is supported for :abbr:`GPU (Graphics
-processing unit)` rendering with **NVidia graphics cards**\ .
+processing unit)` rendering with **NVidia graphics cards**.
 We support graphics cards starting from GTX 4xx (computing capability 2.0).
 Computing capability 1.x cards are no longer supported,
 but you may still be able to compile experimental builds with a limited feature set
@@ -102,7 +102,7 @@ but a completely smooth interaction can't be guaranteed, especially on heavy sce
 This is a limitation of graphics cards for which no true solution exists,
 though we might be able to improve this somewhat in the future.
 
-If possible, it is best to install more than one :abbr:`GPU (Graphics processing unit)`\ ,
+If possible, it is best to install more than one :abbr:`GPU (Graphics processing unit)`,
 using one for display and the other(s) for rendering.
 
 

@@ -73,9 +73,10 @@ actuators for every selected object appear in the list,
 but this may be modified by the column heading filters.
 
 At the head of each displayed object sensor list, two entries appear:
+
 **Name**
-    The name of the object.
+   The name of the object.
 **Add**
-    When clicked, a menu appears with the available actuator types. Selecting an entry adds a new actuator to the object. See `Actuators <http://wiki.blender.org/index.php/User:Sculptorjim/Game Engine/Logic/Actuators/Overview>`__ for list of available actuator types.
+   When clicked, a menu appears with the available actuator types. Selecting an entry adds a new actuator to the object. See `Actuators <http://wiki.blender.org/index.php/User:Sculptorjim/Game Engine/Logic/Actuators/Overview>`__ for list of available actuator types.
 
 

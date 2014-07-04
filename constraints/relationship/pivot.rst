@@ -30,6 +30,7 @@ Options
 
 :guilabel:`Target`
    The object to be used as a pivot point
+
    :guilabel:`Bone`
       When :guilabel:`Target` is an armature, a new field for a bone is displayed.
    :guilabel:`Head/Tail`
@@ -39,8 +40,8 @@ Options
 
 :guilabel:`Pivot Offset`
    Offset of pivot from target
-:guilabel:`Pivot When`\ :
-:guilabel:`Always`\ , :guilabel:`Z Rot`\ , :guilabel:`Y Rot`\ , ...
+:guilabel:`Pivot When`:
+:guilabel:`Always`, :guilabel:`Z Rot`, :guilabel:`Y Rot`, ...
 
 
 Example
@@ -54,6 +55,6 @@ FIXME(Tag Unsupported:youtube;
 See also
 ========
 
-- `Blender Artists Forum: Head-Tail pivot Constrain proposal (with Video and .blend) <http://blenderartists.org/forum/showthread.php?t=186169&page=1>`__\ , the thread where the constraint was first proposed
+- `Blender Artists Forum: Head-Tail pivot Constrain proposal (with Video and .blend) <http://blenderartists.org/forum/showthread.php?t=186169&page=1>`__, the thread where the constraint was first proposed
 
 

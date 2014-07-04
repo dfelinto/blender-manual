@@ -16,7 +16,10 @@ you use composition nodes to both assemble video clips together, and enhance the
 .. admonition:: Term: Image
    :class: note
 
-   We use the term *Image* to refer to a single picture, a picture in a numbered sequence of images, or a frame of a movie clip. A node layout processes one image at a time, no matter what kind of input you provide.
+   We use the term *Image* to refer to a single picture,
+   a picture in a numbered sequence of images,
+   or a frame of a movie clip.
+   A node layout processes one image at a time, no matter what kind of input you provide.
 
 
 .. figure:: /images/Manual-Compositing-SimpleNoodle.jpg
@@ -39,7 +42,8 @@ FIXME(Template Unsupported: Doc:2.6/Reference/Nodes/Concepts;
 Accessing and Activating Nodes
 ------------------------------
 
-Access the :doc:`Node Editor <materials/nodes/editor>` and enable :guilabel:`Composite Nodes` by clicking on the *Image* icon.
+Access the :doc:`Node Editor <materials/nodes/editor>` and enable
+:guilabel:`Composite Nodes` by clicking on the *Image* icon.
 
 
 .. figure:: /images/Manual-Compositing-Node_Header.jpg
@@ -69,7 +73,9 @@ button area and activate the :guilabel:`Compositing` button located below the
 This tells Blender to composite the final image by running it through the composition node map.
 
 
-You now have your first noodle, a RenderLayer input node threaded to a Composite output node. From here, you can add and connect many :doc:`types of compositing nodes <composite_nodes/types>`\ , in a sort of map layout, to your heart's content (or physical memory constraints, whichever comes first).
+You now have your first noodle, a RenderLayer input node threaded to a Composite output node.
+From here, you can add and connect many :doc:`types of compositing nodes <composite_nodes/types>`,
+in a sort of map layout, to your heart's content (or physical memory constraints, whichever comes first).
 
 
 Examples
@@ -85,9 +91,8 @@ You can change the mood of an image:
 
 - To make an image 'feel' colder, a blue tinge is added.
 - To convey a flashback or memory, the image may be softened.
-- To convey hatred and frustration, add a red tinge or enhance the red. The film 'Sin City' is the most extreme example of this I have ever seen.
+- To convey hatred and frustration, add a red tinge or enhance the red.
+  The film 'Sin City' is the most extreme example of this I have ever seen.
 - A startling event may be sharpened and contrast-enhanced.
 - A happy feeling - you guessed it - add yellow (equal parts red and green, no blue) for bright and sunny.
 - Dust and airborne dirt is often added as a cloud texture over the image to give a little more realism.
-
-

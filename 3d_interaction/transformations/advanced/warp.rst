@@ -15,15 +15,15 @@ Warp
    warp tool options
 
 
-In :guilabel:`Edit mode`\ , the :guilabel:`Warp` transformation takes selected elements and
+In :guilabel:`Edit mode`, the :guilabel:`Warp` transformation takes selected elements and
 warps them around the 3D cursor by a certain angle.
 Note that this transformation is always dependent on the location of the 3D cursor.
 The Pivot Point is not taken into account.
 The results of the :guilabel:`Warp` transformation are also view dependent.
 
-In :guilabel:`Object mode`\ , the :guilabel:`Warp` transformation takes the selected Objects and
+In :guilabel:`Object mode`, the :guilabel:`Warp` transformation takes the selected Objects and
 causes them to move in an orbit-like fashion around the 3D cursor.
-Similar to :guilabel:`Edit mode`\ ,
+Similar to :guilabel:`Edit mode`,
 the Pivot Point is not taken into account and the results are view dependent.
 
 
@@ -42,10 +42,10 @@ Usage
 Select the elements you want to operate on and activate the :guilabel:`Warp` transform
 function. The :guilabel:`Warp` option can be invoked from the
 :menuselection:`Object/Mesh/Curve/Surface --> Transform --> Warp` menu option or by pressing
-:kbd:`shift-w`\ . The amount of warping given to the selection can be determined
+:kbd:`shift-w`. The amount of warping given to the selection can be determined
 interactively by moving the mouse or by typing a number.
 Pressing :kbd:`Enter` will confirm the transformation. The confirmed transformation can
-be further edited by pressing :kbd:`F6` or by going into the Toolshelf (\ :kbd:`T`\ )
+be further edited by pressing :kbd:`F6` or by going into the Toolshelf (:kbd:`T`)
 and altering the Angle slider provided that no other actions take place between the
 :guilabel:`Warp` transform confirmation and accessing the slider.
 

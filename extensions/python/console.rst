@@ -47,13 +47,14 @@ at the prompt and execute it.
 
 
 Following is a quick overview of the output
-'\ **C'**
+
+**C'**
    Quick access to bpy.context
-'\ **D'**
+**D'**
    Quick access to bpy.data
-'\ **__builtins__'**
+**__builtins__'**
    Python Built-ins (Classes, functions, variables)
-'\ **bpy'**
+**bpy'**
    Top level Blender Python API module.
 
 

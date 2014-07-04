@@ -8,8 +8,8 @@ Text Objects
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     :guilabel:`Edit` mode (\ :guilabel:`Text`\ )
-   | Panel:    :guilabel:`Curve and Surface`\ , :guilabel:`Font` and :guilabel:`Char` (\ :guilabel:`Editing` context, :kbd:`F9`\ )
+   | Mode:     :guilabel:`Edit` mode (:guilabel:`Text`)
+   | Panel:    :guilabel:`Curve and Surface`, :guilabel:`Font` and :guilabel:`Char` (:guilabel:`Editing` context, :kbd:`F9`)
    | Menu:     :menuselection:`Add --> Text`
    | Hotkey:   :kbd:`F9`
 
@@ -25,7 +25,7 @@ Text Objects
 
 Blender uses a "Font System" to manage mapping "letter codes → objects representing them in 3D
 views". This implies that not only does the font system have its own *built-in* font,
-but it can use external fonts too, including *PostScript Type 1*\ ,
+but it can use external fonts too, including *PostScript Type 1*,
 *OpenType* and *TrueType* fonts. And last but not least,
 it can use any objects existing in the current .blend file as letters…
 
@@ -35,11 +35,11 @@ By default, letters are just flat filled surfaces, exactly like any closed 2D cu
 But you can of course extrude them… And texts can follow other curves.
 
 Of course, once you are happy with the shape of your text, you can convert it
-(with :kbd:`alt-C`\ , in :guilabel:`Object` mode), either to a curve,
+(with :kbd:`alt-C`, in :guilabel:`Object` mode), either to a curve,
 or directly to a mesh,
 allowing you to use all the powerful features of these types of objects on it…
 
-(\ *Text Examples*\ ) shows some examples of various fonts in action, including the "blue" font that has been applied to a curve path.
+(*Text Examples*) shows some examples of various fonts in action, including the "blue" font that has been applied to a curve path.
 
 
 Notes
@@ -54,7 +54,7 @@ the :guilabel:`Font` panel remains the same. This means that its settings can be
 equally in both modes … and this implies that you cannot apply them to just a part of the
 mesh. So font, size, and so on, are common to all letters in a :guilabel:`Text` object.
 There is just one exception:
-the :guilabel:`Bold`\ /\ :guilabel:`Italic`  buttons control properties specific to each letter
+the :guilabel:`Bold` / :guilabel:`Italic`  buttons control properties specific to each letter
 (this is a way to use up to four different fonts in a text).
 
 For optimum resource usage, only characters that are being used consume memory
@@ -81,7 +81,7 @@ Editing Text
 Editing text is quite different from other object types in Blender, and happens mainly in two areas. First, the 3D view, of course, where you type your text, and have a few shortcuts, e.g. for applying
 FIXME(TODO: Internal Link;
 [[#Bold, Italics and Underline|styles]]
-) - note however that most Blender hotkeys you know in :guilabel:`Edit` mode do not exist for texts! The second place is the :guilabel:`Button` window (\ :guilabel:`Editing` context, :kbd:`F9`\ ), especially the :guilabel:`Font` panel.
+) - note however that most Blender hotkeys you know in :guilabel:`Edit` mode do not exist for texts! The second place is the :guilabel:`Button` window (:guilabel:`Editing` context, :kbd:`F9`), especially the :guilabel:`Font` panel.
 
 The menu of the 3D view header has nearly no use,
 and there is no :guilabel:`Specials` menu… You have no transform nor mirror tools, and so on.
@@ -89,6 +89,7 @@ However, you can apply to texts the same modifiers as for curves.
 
 Editing :guilabel:`Text` is similar to using a standard text editor but is not as
 full-featured and has some differences:
+
 Exit :guilabel:`Edit` mode
    :kbd:`Tab` doesn't insert a tab character in the text, but rather enters and exits :guilabel:`Edit` mode, as with other object types.
 Copy
@@ -98,25 +99,21 @@ Cut and Copy
 Paste
    To paste text from the buffer, use :kbd:`ctrl-V` or the :kbd:`Paste` button in the tool shelf.
 Delete all text
-   To completely erase or delete all text, use :kbd:`ctrl-Backspace`\ .
+   To completely erase or delete all text, use :kbd:`ctrl-Backspace`.
 Home/End
    :kbd:`Home` and :kbd:`End` move the cursor to the beginning and end of a line respectively.
 Next/Previous word
-   To move the cursor on a word's boundary, use :kbd:`ctrl-←` or :kbd:`ctrl-→`\ .
+   To move the cursor on a word's boundary, use :kbd:`ctrl-←` or :kbd:`ctrl-→`.
 
-The text buffer does not communicate with the desktop. It only works within Blender. To insert text from outside Blender, see
-FIXME(TODO: Internal Link;
-[[#Inserting Text|Inserting text]]
-) below.
+The text buffer does not communicate with the desktop. It only works within Blender.
+To insert text from outside Blender, see FIXME(TODO: Internal Link; [[#Inserting Text|Inserting text]]) below.
 
 
 Inserting Text
 --------------
 
 You can insert text in three different ways: from the internal text buffer (
-FIXME(TODO: Internal Link;
-[[#Editing Text|Editing Text]]
-)), or from a text file.
+FIXME(TODO: Internal Link; [[#Editing Text|Editing Text]])), or from a text file.
 
 To load text from a text file, use the :menuselection:`Text --> Paste File` tool.
 This will bring up a :guilabel:`File Browser` window for navigating to a valid UTF-8 file.
@@ -140,37 +137,37 @@ There are a few special characters that are available using the :kbd:`alt` key o
 Here is a summary of these characters:
 
 +---------------+------------------------------+---------------+-------------------------------+
-+:kbd:`alt-C`\ :|Copyright (©)                 |:kbd:`alt-R`\ :|Registered trademark (®)       +
++:kbd:`alt-C`:  |Copyright (©)                 |:kbd:`alt-R`:|Registered trademark (®)         +
 +---------------+------------------------------+---------------+-------------------------------+
-+:kbd:`alt-G`\ :|Degrees (- )                  |:kbd:`alt-X`\ :|Multiply symbol (×)            +
++:kbd:`alt-G`:  |Degrees (- )                  |:kbd:`alt-X`:|Multiply symbol (×)              +
 +---------------+------------------------------+---------------+-------------------------------+
-+:kbd:`alt-S`\ :|German "ss" (ß)               |:kbd:`alt-F`\ :|Currency sign (¤)              +
++:kbd:`alt-S`:  |German "ss" (ß)               |:kbd:`alt-F`:|Currency sign (¤)                +
 +---------------+------------------------------+---------------+-------------------------------+
-+:kbd:`alt-L`\ :|British Pound (£)             |:kbd:`alt-Y`\ :|Japanese Yen (¥)               +
++:kbd:`alt-L`:  |British Pound (£)             |:kbd:`alt-Y`:|Japanese Yen (¥)                 +
 +---------------+------------------------------+---------------+-------------------------------+
-+:kbd:`alt-1`\ :|Superscript 1 (¹)             |:kbd:`alt-2`\ :|Superscript 2 (²)              +
++:kbd:`alt-1`:  |Superscript 1 (¹)             |:kbd:`alt-2`:|Superscript 2 (²)                +
 +---------------+------------------------------+---------------+-------------------------------+
-+:kbd:`alt-3`\ :|Superscript 3 (³)             |:kbd:`alt-.`\ :|Circle                         +
++:kbd:`alt-3`:  |Superscript 3 (³)             |:kbd:`alt-.`:|Circle                           +
 +---------------+------------------------------+---------------+-------------------------------+
-+:kbd:`alt-?`\ :|Spanish question mark (¿)     |:kbd:`alt-!`\ :|Spanish exclamation mark (¡)   +
++:kbd:`alt-?`:  |Spanish question mark (¿)     |:kbd:`alt-!`:|Spanish exclamation mark (¡)     +
 +---------------+------------------------------+---------------+-------------------------------+
-+:kbd:`alt-<`\ :|Left double quotation mark («)|:kbd:`alt->`\ :|Right double quotation mark (»)+
++:kbd:`alt-<`:  |Left double quotation mark («)|:kbd:`alt->`:|Right double quotation mark (»)  +
 +---------------+------------------------------+---------------+-------------------------------+
 
 
 All the characters on your keyboard should work, including stressed vowels and so on.
 If you need special characters (such as accented chars, which are not there on a US keyboard)
 you can produce many of them using a combination of two other characters. To do so,
-type the main char, press :kbd:`alt-backspace`\ ,
+type the main char, press :kbd:`alt-backspace`,
 and then press the desired "modifier" to produce the special character.
 Some examples are given below:
 
 
-+-----------------------------------------------+-+-----------------------------------------------+-+------------------------------------------------+-+
-+:kbd:`A`\ , :kbd:`alt-Backspace`\ , :kbd:`~`\ :|ã|:kbd:`A`\ , :kbd:`alt-Backspace`\ , :kbd:`'`\ :|á|:kbd:`A`\ , :kbd:`alt-Backspace`\ , :kbd:`\``\ :|à+
-+-----------------------------------------------+-+-----------------------------------------------+-+------------------------------------------------+-+
-+:kbd:`A`\ , :kbd:`alt-Backspace`\ , :kbd:`O`\ :|å|:kbd:`E`\ , :kbd:`alt-Backspace`\ , :kbd:`"`\ :|ë|:kbd:`O`\ , :kbd:`alt-Backspace`\ , :kbd:`/`\ : |ø+
-+-----------------------------------------------+-+-----------------------------------------------+-+------------------------------------------------+-+
++-----------------------------------------+-+-----------------------------------------+-+------------------------------------------+-+
++:kbd:`A`, :kbd:`alt-Backspace`, :kbd:`~`:|ã|:kbd:`A`, :kbd:`alt-Backspace`, :kbd:`'`:|á|:kbd:`A`, :kbd:`alt-Backspace`, :kbd:`\``:|à+
++-----------------------------------------+-+-----------------------------------------+-+------------------------------------------+-+
++:kbd:`A`, :kbd:`alt-Backspace`, :kbd:`O`:|å|:kbd:`E`, :kbd:`alt-Backspace`, :kbd:`"`:|ë|:kbd:`O`, :kbd:`alt-Backspace`, :kbd:`/`: |ø+
++-----------------------------------------+-+-----------------------------------------+-+------------------------------------------+-+
 
 
 Convert text to text object
@@ -181,7 +178,7 @@ Convert text to text object
    :figwidth: 250px
 
 
-An easy way to get text into Blender is to type it in :doc:`The Text Editor <extensions/python/text_editor>`\ . It is suggested to do this with a :doc:`split window <interface/window_system/arranging_frames#splitting_a_window>` as you will be able to see the 3D view port and text editor at the same time. In the :guilabel:`Text Editor` select *Text > Create Text Block*\ . Then begin typing. When finished, select *Edit >> Text to 3D Object >> One Object* or *One Object per Line* depending on your needs. It is also possible to load a text file via *Text >> Open Text Block* which can be useful for importing large amounts of text at once.
+An easy way to get text into Blender is to type it in :doc:`The Text Editor <extensions/python/text_editor>`. It is suggested to do this with a :doc:`split window <interface/window_system/arranging_frames#splitting_a_window>` as you will be able to see the 3D view port and text editor at the same time. In the :guilabel:`Text Editor` select *Text > Create Text Block*. Then begin typing. When finished, select *Edit >> Text to 3D Object >> One Object* or *One Object per Line* depending on your needs. It is also possible to load a text file via *Text >> Open Text Block* which can be useful for importing large amounts of text at once.
 
 
 3D Mesh
@@ -193,7 +190,7 @@ FIXME(TODO: Internal Link;
 ), but you will lose the ability to edit the text itself. To do this, go to
 FIXME(TODO: Internal Link;
 [[Object Mode]]
-) and select your Text Object. Press :kbd:`Alt-C` and select *Mesh From Curve/Meta/Surf/Text*\ . Now you can return to
+) and select your Text Object. Press :kbd:`Alt-C` and select *Mesh From Curve/Meta/Surf/Text*. Now you can return to
 FIXME(TODO: Internal Link;
 [[Edit Mode]]
 ) and manually edit the vertices. They are usually a bit messy, so it may be useful to use a *Limited Dissolve* deletion or *Remesh* Object :doc:`Modifier <modifiers>` at a low threshold to clean up your mesh.
@@ -218,8 +215,8 @@ Text Selection
 
 In :guilabel:`Edit` mode, your text has a white cursor, and as in any text editor,
 it determines where new chars will be inserted! You move this cursor with the arrow keys
-(\ :kbd:`→`\ /\ :kbd:`↓`\ /\ :kbd:`←`\ /\ :kbd:`↑`\ )
-or :kbd:`Page Up`\ /\ :kbd:`Page Down` and :kbd:`Home`\ /\ :kbd:`End` keys.
+(:kbd:`→` / :kbd:`↓` / :kbd:`←` / :kbd:`↑`)
+or :kbd:`Page Up` / :kbd:`Page Down` and :kbd:`Home` / :kbd:`End` keys.
 
 Hold :kbd:`shift` while using the arrow keys to select a part of the text.
 You can use it to specify different materials, the normal/bold/italic state,
@@ -236,7 +233,7 @@ Fonts
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
-   | Panel:    :guilabel:`Font` (\ :guilabel:`Editing` context, :kbd:`F9`\ )
+   | Panel:    :guilabel:`Font` (:guilabel:`Editing` context, :kbd:`F9`)
 
 
 The :guilabel:`Font` panel has several options for changing the look of characters.
@@ -252,11 +249,11 @@ Loading and Changing Fonts
 
 Blender comes with a *built-in* font by default and is displayed in each of the four font
 style choosers.
-The *built-in* font is always present and shows in this list as "\ ``Bfont``\ ".
+The *built-in* font is always present and shows in this list as "\ ``Bfont`` ".
 The first icon contains a drop-down list displaying currently loaded fonts.
 Select one for each font style.
 
-To load a different :guilabel:`Font`\ , click one of the :kbd:`Load` buttons in the
+To load a different :guilabel:`Font`, click one of the :kbd:`Load` buttons in the
 :guilabel:`Font` panel and navigate to a *valid* font.
 The :guilabel:`File Browser` window will give all valid fonts a capital F icon,
 as seen in *Loading a Type 1 font file.*
@@ -265,11 +262,11 @@ as seen in *Loading a Type 1 font file.*
 .. admonition:: Unix note
    :class: note
 
-   Fonts are typically located under ``/usr/lib/fonts``\ , or some variant like ``/usr/lib/X11/fonts``\ , but not always. They may be in other locations as well, such as ``/usr/share/local`` or ``/usr/local/share``\ , and possibly related sub-trees.
+   Fonts are typically located under ``/usr/lib/fonts``, or some variant like ``/usr/lib/X11/fonts``, but not always. They may be in other locations as well, such as ``/usr/share/local`` or ``/usr/local/share``, and possibly related sub-trees.
 
 
 If you select a font that Blender can't understand,
-you will get the error "\ ``Not a valid font``\ ".
+you will get the error "\ ``Not a valid font`` ".
 
 Remember the same font will be applied to all chars with same style in a text,
 but that a separate font is required for each style. For example,
@@ -277,7 +274,7 @@ you will need to load an *Italics* font in order to make characters or words ita
 the font is loaded you can apply that font "Style" to the selected characters or the whole
 object. In all,
 you would need to load a minimum of four different types of fonts to represent each style
-(\ **Normal**\ , **Italics**\ , **Bold**\ , **Bold-Italics**\ ).
+(**Normal**, **Italics**, **Bold**, **Bold-Italics**).
 
 It is important to understand that Blender does not care what font you load for "normal",
 "bold", etc., styles. This is how you can have up to four different fonts in use in the same
@@ -302,7 +299,7 @@ Size and Shear
 
 
 :guilabel:`Shear`
-   Controls the inclination of the whole text. Even if this seems similar to italics style, *this is not the same thing*\ !
+   Controls the inclination of the whole text. Even if this seems similar to italics style, *this is not the same thing* !
 
 
 Objects as Fonts
@@ -311,12 +308,12 @@ Objects as Fonts
 You can also "create" your own "font" inside Blender! This is quite a complex process,
 so let's detail it:
 
-- First, you must create your chars. Each char is an object *of any type* (mesh, curve, meta…). They all must have a name following the schema: ``common prefix`` followed by the ``char name`` (e.g. "\ ``ft.a``\ ", "\ ``ft.b``\ ", etc.).
-- Then, for the :guilabel:`Text` object, you must enable the :guilabel:`Dupli Verts` button (\ :guilabel:`Object` context - :kbd:`F7` -, :guilabel:`Anim Settings` panel).
-- Back in :guilabel:`Editing` context (\ :kbd:`F9`\ ), in the :guilabel:`Font` panel, fill the :guilabel:`Ob Family` field with the *common prefix* of your "font" objects.
+- First, you must create your chars. Each char is an object *of any type* (mesh, curve, meta…). They all must have a name following the schema: ``common prefix`` followed by the ``char name`` (e.g. "\ ``ft.a`` ", "\ ``ft.b`` ", etc.).
+- Then, for the :guilabel:`Text` object, you must enable the :guilabel:`Dupli Verts` button (:guilabel:`Object` context - :kbd:`F7` -, :guilabel:`Anim Settings` panel).
+- Back in :guilabel:`Editing` context (:kbd:`F9`), in the :guilabel:`Font` panel, fill the :guilabel:`Ob Family` field with the *common prefix* of your "font" objects.
 
 Now, each time a char in your text matches the *suffix part* of a "font" object's name,
-this object is duplicated on this char. *The original chars remain visible*\ . The objects are
+this object is duplicated on this char. *The original chars remain visible*. The objects are
 duplicated so that their center is positioned at the *lower right corner* of the
 corresponding chars.
 
@@ -334,7 +331,7 @@ With the :doc:`curve modifier <modifiers/deform/curve>` you can let text follow 
    Text on curve.
 
 
-In (\ *Text on curve*\ ) you can see a text deformed by a curve (a 2D Bézier circle).
+In (*Text on curve*) you can see a text deformed by a curve (a 2D Bézier circle).
 
 To apply the curve modifier, the text object first has to be converted to a mesh,
 using :kbd:`ALT-C` and click mesh.
@@ -353,7 +350,9 @@ Underline
 ~~~~~~~~~
 
 :guilabel:`Underline`
-   Toggled with the :guilabel:`Underline` button before typing. Text can also be set to Underlined by selecting it then using the :kbd:`Bold` button in the Tool Shelf.
+   Toggled with the :guilabel:`Underline` button before typing.
+   Text can also be set to Underlined by selecting it then using the :kbd:`Bold` button in the Tool Shelf.
+
    :guilabel:`Position`
       This allows you to shift vertically the position of the underline.
    :guilabel:`Thickness`
@@ -393,7 +392,7 @@ FIXME(TODO: Internal Link;
 ).
 
 To apply the Bold/Italics/Underline attribute to a set of characters, you either turn on
-:guilabel:`Bold`\ /\ :guilabel:`Italics`\ /\ :guilabel:`Underline` prior to typing characters,
+:guilabel:`Bold` / :guilabel:`Italics` / :guilabel:`Underline` prior to typing characters,
 or highlight (select) first and then toggle Bold/Italics/Underline.
 
 
@@ -433,7 +432,7 @@ Align
 :guilabel:`Right`
    Aligns text to right of frames when using them, else uses the center point of the :guilabel:`Text` object as the ending point of the text (which grows to the left).
 :guilabel:`Justify`
-   Only flushes a line when it is **terminated** by a wordwrap (\ **not** by :kbd:`Enter`\ ), it uses *whitespace* instead of *character spacing* (kerning) to fill lines.
+   Only flushes a line when it is **terminated** by a wordwrap (**not** by :kbd:`Enter`), it uses *whitespace* instead of *character spacing* (kerning) to fill lines.
 :guilabel:`Flush`
    **Always** flushes the line, even when it's still being entered; it uses character spacing (kerning) to fill lines.
 
@@ -445,7 +444,7 @@ Spacing
 :guilabel:`Character`
    A factor by which space between each character is scaled in width
 :guilabel:`Word`
-   A factor by which whitespace between words is scaled in width. You can also control it by pressing :kbd:`alt-←` or :kbd:`alt-→` to decrease/increase spacing by steps of **0.1**\ .
+   A factor by which whitespace between words is scaled in width. You can also control it by pressing :kbd:`alt-←` or :kbd:`alt-→` to decrease/increase spacing by steps of **0.1**.
 :guilabel:`Line`
    A factor by which the vertical space between lines is scaled.
 
@@ -467,7 +466,7 @@ Shape
    :class: refbox
 
    | Mode:     :guilabel:`Object` or :guilabel:`Edit` modes
-   | Panel:    :guilabel:`Curve and Surface` (\ :guilabel:`Editing` context, :kbd:`f9`\ )
+   | Panel:    :guilabel:`Curve and Surface` (:guilabel:`Editing` context, :kbd:`f9`)
 
 
 As you can see in the :guilabel:`Curve and Surface` panel,
@@ -527,6 +526,6 @@ Textures
 Geometry
 ========
 
-Text objects have all the :doc:`curves extrusion features <modeling/curves/editing/advanced#extrusion>`\ .
+Text objects have all the :doc:`curves extrusion features <modeling/curves/editing/advanced#extrusion>`.
 
 

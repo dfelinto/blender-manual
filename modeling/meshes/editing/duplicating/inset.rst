@@ -13,7 +13,7 @@ Inset
 This tool takes the currently selected faces and creates an inset of them,
 with adjustable thickness and depth. The tool is modal, such that when you activate it,
 you may adjust the thickness with your mouse position. You may also adjust the depth of the
-inset during the modal operation by holding :kbd:`ctrl`\ .
+inset during the modal operation by holding :kbd:`ctrl`.
 
 
 +----------------------------------------------+---------------------------------------------+
@@ -38,7 +38,7 @@ Options
 
 
 :guilabel:`Boundary`
-    Determines whether open edges will be inset or not.
+   Determines whether open edges will be inset or not.
 :guilabel:`Offset Even`
    Scale the offset to give more even thickness.
 :guilabel:`Offset Relative`

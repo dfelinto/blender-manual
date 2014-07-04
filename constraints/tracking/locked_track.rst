@@ -7,11 +7,11 @@
 Locked Track Constraint
 =======================
 
-The :guilabel:`Locked Track` constraint is a bit tricky to explain, both graphically and textually. Basically, it is a :doc:`Track To constraint <constraints/tracking/track_to>`\ , but with a locked axis, i.e. an axis that cannot rotate (change its orientation). Hence, the owner can only track its target by rotating around this axis, and unless the target is in the plane perpendicular to the locked axis, and crossing the owner, this owner cannot really point at its target.
+The :guilabel:`Locked Track` constraint is a bit tricky to explain, both graphically and textually. Basically, it is a :doc:`Track To constraint <constraints/tracking/track_to>`, but with a locked axis, i.e. an axis that cannot rotate (change its orientation). Hence, the owner can only track its target by rotating around this axis, and unless the target is in the plane perpendicular to the locked axis, and crossing the owner, this owner cannot really point at its target.
 
 Let's take the best real world equivalent: a compass.
 It can rotate to point in the general direction of its target (the magnetic North,
-or a neighbor magnet), but it can't point *directly at it*\ ,
+or a neighbor magnet), but it can't point *directly at it*,
 because it spins like a wheel on an axle.
 If a compass is sitting on a table and there is a magnet directly above it,
 the compass can't point to it. If we move the magnet more to one side of the compass,
@@ -38,7 +38,7 @@ and :guilabel:`Locked Track` can spin the owner around that axle to a secondary 
 
 This constraints also works very well for 2D billboarding.
 
-This is all related to the topic discussed at length in the :doc:`2.49 BSoD tracking tutorial <ls/animation/armatures/bsod/tracking>`\ .
+This is all related to the topic discussed at length in the :doc:`2.49 BSoD tracking tutorial <ls/animation/armatures/bsod/tracking>`.
 
 
 Options
@@ -55,16 +55,16 @@ Options
    This constraint uses one target, and is not functional (red state) when it has none.
 
 :guilabel:`To`
-   The tracking local axis (\ :guilabel:`Y` by default), i.e. the owner's axis to point at the target. The negative options force the relevant axis to point away from the target.
+   The tracking local axis (:guilabel:`Y` by default), i.e. the owner's axis to point at the target. The negative options force the relevant axis to point away from the target.
 
 :guilabel:`Lock`
-   The locked local axis (\ :guilabel:`Z` by default), i.e. the owner's axis which cannot be re-oriented to track the target.
+   The locked local axis (:guilabel:`Z` by default), i.e. the owner's axis which cannot be re-oriented to track the target.
 
 
  .. warning::
 
    FIXME - warning body below
 
- If you choose the same axis for *To* and *Lock*\ , the constraint will no longer be functional (red state).
+ If you choose the same axis for *To* and *Lock*, the constraint will no longer be functional (red state).
 
 

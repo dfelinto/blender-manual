@@ -16,7 +16,7 @@ and the newest High Definition Media Interface (HDMI) formats.
 ColorRamp Node
 --------------
 
-The ColorRamp Node is used for mapping values to colors with the use of a gradient. It works exactly the same way as a :doc:`colorband for textures and materials <materials/properties/ramps>`\ , using the Factor value as a slider or index to the color ramp shown, and outputting a color value and an alpha value from the output sockets.
+The ColorRamp Node is used for mapping values to colors with the use of a gradient. It works exactly the same way as a :doc:`colorband for textures and materials <materials/properties/ramps>`, using the Factor value as a slider or index to the color ramp shown, and outputting a color value and an alpha value from the output sockets.
 
 By default,
 the ColorRamp is added to the node map with two colors at opposite ends of the spectrum.
@@ -65,7 +65,7 @@ The example map below shows how to use the Color Ramp node to do this:
 
 
 In the map above, a black and white swirl image, which is lacking an alpha channel,
-is fed into the ColorRamp node as a :guilabel:`Fac`\ tor. (Technically,
+is fed into the ColorRamp node as a :guilabel:`Fac` tor. (Technically,
 we should have converted the image to a value using the RGB-to-BW node, buy hey,
 this works just as well since we are using a BW image as input.)
 
@@ -143,7 +143,7 @@ viewer's mind. The node map below shows how to do this using the Set Alpha node.
    Fade To Black
 
 
-In the example above, the alpha channel of the swirl image is ignored. Instead, a :doc:`time node <composite_nodes/types/input#time_node>` introduces a factor from 0.00 to 1.00 over 60 frames, or about 2 seconds, to the Set Alpha node. Note that the time curve is exponentially-shaped, so that the overall blackness will fade in slowly and then accelerate toward the end. The Set Alpha node does not need an input image; instead the flat (shadeless) black color is used. The Set Alpha Node uses the input factor and color to create a black image that has an alpha set which goes from 0.00 to 1.00 over 60 frames, or completely transparent to completely opaque. Think of alpha as a multiplier for how vivid you can see that pixel. These two images are combined by our trusty AlphaOver node completely (a :guilabel:`Fac`\ tor of 1.00) to produce the composite image. The SetAlpha node will thus, depending on the frame being rendered, produce a black image that has some degree of transparency. Set up and Animate, and you have an image sequence that fades to black over a 2-second period.
+In the example above, the alpha channel of the swirl image is ignored. Instead, a :doc:`time node <composite_nodes/types/input#time_node>` introduces a factor from 0.00 to 1.00 over 60 frames, or about 2 seconds, to the Set Alpha node. Note that the time curve is exponentially-shaped, so that the overall blackness will fade in slowly and then accelerate toward the end. The Set Alpha node does not need an input image; instead the flat (shadeless) black color is used. The Set Alpha Node uses the input factor and color to create a black image that has an alpha set which goes from 0.00 to 1.00 over 60 frames, or completely transparent to completely opaque. Think of alpha as a multiplier for how vivid you can see that pixel. These two images are combined by our trusty AlphaOver node completely (a :guilabel:`Fac` tor of 1.00) to produce the composite image. The SetAlpha node will thus, depending on the frame being rendered, produce a black image that has some degree of transparency. Set up and Animate, and you have an image sequence that fades to black over a 2-second period.
 
 
 .. admonition:: No Scene information used
@@ -170,7 +170,7 @@ In the above example, a Time curve provides the Alpha value to the input socket.
 The current RenderLayer, which has the title in view, provides the image. As before,
 the trusty AlphaOver node mixes (using the alpha values)
 the background swirl and the alphaed title to produce the composite image.
-Notice the :guilabel:`ConvertPre`\ -Multiply button is NOT enabled; this produces a composite
+Notice the :guilabel:`ConvertPre` -Multiply button is NOT enabled; this produces a composite
 where the title lets the background image show through where even the background image is
 transparent, allowing you to layer images on top of one another.
 
@@ -186,7 +186,7 @@ In the example above, notice how the blue tinge of the render input colors the s
 In the example map to the right,
 use the :guilabel:`Alpha` value of the SetAlpha node to give a desired degree of colorization.
 Thread the input image and the Set Alpha node into an AlphaOver node to colorize any black and
-white image in this manner. Note the :guilabel:`ConvertPre`\ -Multiply button is enabled,
+white image in this manner. Note the :guilabel:`ConvertPre` -Multiply button is enabled,
 which tells the AlphaOver node not to multiply the alpha values of the two images together.
 
 
@@ -270,7 +270,7 @@ radians between 0 and 2*pi for one complete cycle.
 FIXME(Template Unsupported: Version;
 {{Version|2.44}}
 )
-**Known bug**\ : the Top socket must get the image if the bottom socket is left as a value.
+**Known bug** : the Top socket must get the image if the bottom socket is left as a value.
 
 
 Examples
@@ -490,7 +490,7 @@ Combine/Separate Nodes
 All of these node do essentially the same thing: they split out an image into
 (or recombine an image from) its composite color channels. Each format supports the Alpha
 (transparency) channel.
-The standard way of representing color in an image is called a *color space*\ .
+The standard way of representing color in an image is called a *color space*.
 There are several color spaces supported:
 
 - RGB: Red-Green-Blue traditional primary colors, also broadcast directly to most computer monitors

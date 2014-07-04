@@ -11,9 +11,9 @@ Sculpt Mode
 Sculpt mode is selected from the mode menu of the :guilabel:`3D View` header.
 
 Once sculpt mode is activated the :guilabel:`Toolbar` of the :guilabel:`3D View` will change
-to sculpt mode specific panels.  The panels in the toolbar will be :guilabel:`Brush`\ ,
-:guilabel:`Texture`\ , :guilabel:`Tool`\ , :guilabel:`Symmetry`\ , :guilabel:`Stroke`\ ,
-:guilabel:`Curve`\ , :guilabel:`Appearance`\ , and :guilabel:`Options`\ .
+to sculpt mode specific panels.  The panels in the toolbar will be :guilabel:`Brush`,
+:guilabel:`Texture`, :guilabel:`Tool`, :guilabel:`Symmetry`, :guilabel:`Stroke`,
+:guilabel:`Curve`, :guilabel:`Appearance`, and :guilabel:`Options`.
 Also a red circle will appear that follows the location of the cursor in the 3d view.
 
 
@@ -44,7 +44,7 @@ and options.
 :guilabel:`Blob`
    Pushes mesh outward or inward into a spherical shape with settings to control the amount of pinching at the edge of the sphere.
 
-:guilabel:`Clay` (\ :kbd:`C`\ )
+:guilabel:`Clay` (:kbd:`C`)
    Similar to the :guilabel:`Draw` brush, but includes settings to adjust the plane on which the brush acts.
 
 :guilabel:`Clay Strips`
@@ -53,29 +53,29 @@ and options.
 :guilabel:`Crease`
    Creates sharp indents or ridges by pushing or pulling the mesh, while pinching the vertices together.
 
-:guilabel:`Draw` (\ :kbd:`D`\ )
+:guilabel:`Draw` (:kbd:`D`)
    Moves vertices inward or outward, based the average normal of the vertices contained within the drawn brush stroke.
 
 :guilabel:`Fill`
    The :guilabel:`Fill` brush works like the Flatten brush, but only brings vertices below the brush plane upwards.  The inverse of the Scrape brush is to :guilabel:`Deepen` by pushing vertices above the plane downward.
 
-:guilabel:`Flatten` (\ :kbd:`T`\ )
+:guilabel:`Flatten` (:kbd:`T`)
    The :guilabel:`Flatten` brush finds an 'area plane' located by default at the average height above/below the vertices within the brush area.  The vertices are then pulled towards this plane.  The inverse of the Flatten brush is the :guilabel:`Contrast` brush which pushes vertices up or down away from the brush plane.
 
-:guilabel:`Grab` (\ :kbd:`G`\ )
+:guilabel:`Grab` (:kbd:`G`)
    :guilabel:`Grab` is used to drag a group of points around. Unlike the other brushes, :guilabel:`Grab` does not modify different points as the brush is dragged across the model. Instead, :guilabel:`Grab` selects a group of vertices on mousedown, and pulls them to follow the mouse. The effect is similar to moving a group of vertices in :guilabel:`Edit mode` with proportional-editing enabled, except that :guilabel:`Grab` can make use of other Sculpt Mode options (like textures and symmetry).
 
-:guilabel:`Inflate` (\ :kbd:`I`\ )
-   Similar to :guilabel:`Draw`\ , except that vertices in :guilabel:`Inflate` mode are displaced in the direction of their own normals.
+:guilabel:`Inflate` (:kbd:`I`)
+   Similar to :guilabel:`Draw`, except that vertices in :guilabel:`Inflate` mode are displaced in the direction of their own normals.
 
-:guilabel:`Layer` (\ :kbd:`L`\ )
-   This brush is similar to :guilabel:`Draw`\ , except that the height of the displacement layer is capped. This creates the appearance of a solid layer being drawn. This brush does not draw on top of itself; a brush stroke intersects itself. Releasing the mouse button and starting a new stroke will reset the depth and paint on top of the previous stroke.
+:guilabel:`Layer` (:kbd:`L`)
+   This brush is similar to :guilabel:`Draw`, except that the height of the displacement layer is capped. This creates the appearance of a solid layer being drawn. This brush does not draw on top of itself; a brush stroke intersects itself. Releasing the mouse button and starting a new stroke will reset the depth and paint on top of the previous stroke.
 
 :guilabel:`Nudge`
    Moves vertices in the direction of the brush stroke.
 
-:guilabel:`Pinch` (\ :kbd:`P`\ )
-   :guilabel:`Pinch` pulls vertices towards the center of the brush. The inverse setting is :guilabel:`Magnify`\ , in which vertices are pushed away from the center of the brush.
+:guilabel:`Pinch` (:kbd:`P`)
+   :guilabel:`Pinch` pulls vertices towards the center of the brush. The inverse setting is :guilabel:`Magnify`, in which vertices are pushed away from the center of the brush.
 
 :guilabel:`Rotate`
    Rotates vertices within the brush in the direction the cursor is moved.
@@ -83,7 +83,7 @@ and options.
 :guilabel:`Scrape`
    The :guilabel:`Scrape` brush works like the Flatten brush, but only brings vertices above the plane downwards.  The inverse of the Scrape brush is to :guilabel:`Peak` by pushing vertices above the plane up away from the plane.
 
-:guilabel:`Smooth` (\ :kbd:`S`\ )
+:guilabel:`Smooth` (:kbd:`S`)
    As the name suggests, eliminates irregularities in the area of the mesh within the brush's influence by smoothing the positions of the vertices.
 
 :guilabel:`Snake Hook`
@@ -112,7 +112,7 @@ Brush Menu
    This option controls the radius of the brush, measured in pixels. :kbd:`F` in the 3D view allows you to change the brush size interactively by dragging the mouse and then left clicking (the texture of the brush should be visible inside the circle). Typing a number then enter while in :kbd:`F` sizing allows you to enter the size numerically. Brush size can be affected by enabling the pressure sensitivity icon, if a supported tablet is being used.
 
 :guilabel:`Strength`
-   :guilabel:`Strength` controls how much each application of the brush affects the model. For example, higher values cause the :guilabel:`Draw` brush to add depth to the model more quickly, and cause the :guilabel:`Smooth` brush to smooth the model more quickly. This setting is not available for :guilabel:`Grab`\ , :guilabel:`Snake Hook`\ , or :guilabel:`Rotate`\ .
+   :guilabel:`Strength` controls how much each application of the brush affects the model. For example, higher values cause the :guilabel:`Draw` brush to add depth to the model more quickly, and cause the :guilabel:`Smooth` brush to smooth the model more quickly. This setting is not available for :guilabel:`Grab`, :guilabel:`Snake Hook`, or :guilabel:`Rotate`.
 
 If the range of strengths doesn't seem to fit the model (for example,
 if even the lowest strength setting still makes too large of a change on the model)
@@ -164,8 +164,8 @@ Stroke Menu
 :guilabel:`Airbrush`
    Flow of the brush continues as long as the mouse click is held, determined by the :guilabel:`Rate` setting. If disabled, the brush only modifies the model when the brush changes its location. This option is not available for the :guilabel:`Grab` brush.
 
-The following parameters are available for the :guilabel:`Dots`\ , :guilabel:`Space`\ ,
-and :guilabel:`Airbrush`\ strokes:
+The following parameters are available for the :guilabel:`Dots`, :guilabel:`Space`,
+and :guilabel:`Airbrush` strokes:
 
 :guilabel:`Smooth stroke`
    Brush lags behind mouse and follows a smoother path. When enabled, the following become active:
@@ -201,10 +201,10 @@ or create a new one by selecting the :guilabel:`New` button
    :guilabel:`Tiled`
       The :guilabel:`Tile` option tiles the texture across the screen, so moving the brush appears to move separately from the texture. The :guilabel:`Tile` option is most useful with tileable images, rather than procedural textures.
    :guilabel:`3D`
-       The :guilabel:`3D` option allows the brush to take full advantage of procedural textures. This mode uses vertex coordinates rather than the brush location to determine what area of the texture to use.
+      The :guilabel:`3D` option allows the brush to take full advantage of procedural textures. This mode uses vertex coordinates rather than the brush location to determine what area of the texture to use.
 
 :guilabel:`Angle`
-    This is the rotation angle of the texture brush. It can be changed interactively via :kbd:`ctrl-F` in the 3D view. While in the interactive rotation you can enter a value numerically as well. Can be set to:
+   This is the rotation angle of the texture brush. It can be changed interactively via :kbd:`ctrl-F` in the 3D view. While in the interactive rotation you can enter a value numerically as well. Can be set to:
 
    :guilabel:`User`
       Directly input the angle value.
@@ -229,6 +229,7 @@ Symmetry Menu
 Mirror the brush strokes across the selected local axes.
 Note that if you want to alter the directions the axes point in,
 you must rotate the model in :guilabel:`Edit` Mode, not :guilabel:`Object` Mode.
+
 :guilabel:`Feather`
    Reduces the strength of the stroke where it overlaps the planes of symmetry.
 :guilabel:`Radial`
@@ -246,9 +247,9 @@ Options Menu
       Shows the brush shape in the viewport.
 Unified Settings:
 
-    ;\ :guilabel:`Size`
+   ;\ :guilabel:`Size`
       Forces the brush size to be shared across brushes.
-    ;\ :guilabel:`Strength`
+   ;\ :guilabel:`Strength`
       Forces the brush strength to be shared across brushes.
 :guilabel:`Lock`
    These three buttons allow you to block any modification/deformation of your model along selected local axes, while you are sculpting it.
@@ -278,7 +279,7 @@ It is sometimes useful to isolate parts of a mesh to sculpt on. To hide a part o
 press :kbd:`H` then click & drag around the part you want to hide.
 To reveal a hidden part of a mesh,
 press :kbd:`shift-H` then click & drag around the part you want to reveal.
-To reveal all hidden parts, just hit :kbd:`alt-H`\ .
+To reveal all hidden parts, just hit :kbd:`alt-H`.
 
 
 .. figure:: /images/Hide_before_and_after.jpg
@@ -312,7 +313,7 @@ Mode.
 +----------------------------------------------------------------+-------------------------------------------------------------+
 +Interactively rotate brush texture                              |:kbd:`ctrl-F`                                                +
 +----------------------------------------------------------------+-------------------------------------------------------------+
-+Brush direction toggle (\ :guilabel:`Add`\ /\ :guilabel:`Sub`\ )|:kbd:`Ctrl` pressed while sculpting                          +
++Brush direction toggle (:guilabel:`Add` / :guilabel:`Sub`)      |:kbd:`Ctrl` pressed while sculpting                          +
 +----------------------------------------------------------------+-------------------------------------------------------------+
 +Set stroke method (airbrush, anchored, ..)                      |:kbd:`A`                                                     +
 +----------------------------------------------------------------+-------------------------------------------------------------+
@@ -358,9 +359,9 @@ Mode.
 +----------------------------------------------------------------+-------------------------------------------------------------+
 +Set texture angle type                                          |:kbd:`R`                                                     +
 +----------------------------------------------------------------+-------------------------------------------------------------+
-+Translate/scale/rotate stencil texture                          |:kbd:`RMB`\ , :kbd:`shift-RMB`\ , :kbd:`ctrl-RMB`            +
++Translate/scale/rotate stencil texture                          |:kbd:`RMB`, :kbd:`shift-RMB`, :kbd:`ctrl-RMB`                +
 +----------------------------------------------------------------+-------------------------------------------------------------+
-+Translate/scale/rotate stencil mask                             |:kbd:`alt-RMB`\ , :kbd:`alt-shift-RMB`\ , :kbd:`alt-ctrl-RMB`+
++Translate/scale/rotate stencil mask                             |:kbd:`alt-RMB`, :kbd:`alt-shift-RMB`, :kbd:`alt-ctrl-RMB`    +
 +----------------------------------------------------------------+-------------------------------------------------------------+
 
 

@@ -50,8 +50,8 @@ There are two inputs to this node.
 - The first is an input :guilabel:`Image` that is to be keyed.
 - The :guilabel:`Key Color` can be input as an RGB value or selected using the color picker by clicking on the :guilabel:`Key Color` box to bring up the color dialog, then clicking on the eye dropper tool and selecting a color.
 
-The selectable color spaces are :guilabel:`RGB` (default), :guilabel:`HSV`\ , :guilabel:`YUV`\ ,
-and :guilabel:`YCbCr`\ .
+The selectable color spaces are :guilabel:`RGB` (default), :guilabel:`HSV`, :guilabel:`YUV`,
+and :guilabel:`YCbCr`.
 
 You can adjust the tolerance of each color in the colorspace individually so that you can have
 more red variance or blue variance in what you would allow to be transparent.
@@ -61,8 +61,8 @@ Any more unevenness and you risk cutting into the foreground image.
 When the :guilabel:`Falloff` value is high, pixels that are close to the :guilabel:`Key Color`
 are more transparent than pixels that are not as close to the :guilabel:`Key Color`
 (but still considered close enough to be keyed).  When the :guilabel:`Falloff` value is low,
-it does not matter how close the pixel color (\ :guilabel:`Image`\ )
-is to the :guilabel:`Key Color`\ , it is transparent.
+it does not matter how close the pixel color (:guilabel:`Image`)
+is to the :guilabel:`Key Color`, it is transparent.
 
 The outputs of this node are the :guilabel:`Image` with an alpha channel adjusted for the
 keyed selection and a black and white :guilabel:`Matte` (i.e the alpha mask).
@@ -145,6 +145,7 @@ This is useful for compositing images that have been shot in front of a green or
 There is one input to this node, the :guilabel:`Image` that is to be keyed.
 
 Control this node using:
+
 :guilabel:`Green` / :guilabel:`Blue` buttons
    Basic selection of what color the background is supposed to be.
 
@@ -173,8 +174,8 @@ Color Key
 
 
 The color key node creates a matte based on a specified color of the input image.
-The sliders represent threshold values for :guilabel:`Hue`\ , :guilabel:`Saturation`\ ,
-and :guilabel:`Value`\ . Higher values in this node's context mean a wider range of colors from
+The sliders represent threshold values for :guilabel:`Hue`, :guilabel:`Saturation`,
+and :guilabel:`Value`. Higher values in this node's context mean a wider range of colors from
 the specified will be added to the matte.
 
 

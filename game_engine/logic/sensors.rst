@@ -9,7 +9,7 @@ or a timer for a timed event going off. When a sensor is triggered,
 a positive pulse is sent to all controllers that are linked to it.
 
 
-The logic blocks for all types of sensor may be constructed and changed using the `Logic Editor <http://wiki.blender.org/index.php/User:Sculptorjim/Game Engine/Logic/Editor>`__\ ; details of this process are given in the `Sensor Editing <http://wiki.blender.org/index.php/User:Sculptorjim/Game Engine/Logic/Sensors/Editing >`__ page.
+The logic blocks for all types of sensor may be constructed and changed using the `Logic Editor <http://wiki.blender.org/index.php/User:Sculptorjim/Game Engine/Logic/Editor>`__; details of this process are given in the `Sensor Editing <http://wiki.blender.org/index.php/User:Sculptorjim/Game Engine/Logic/Sensors/Editing >`__ page.
 
 
 The following types of sensor are currently available:

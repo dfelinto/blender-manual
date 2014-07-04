@@ -21,7 +21,7 @@ Make Edge/Face
    | Hotkey:   :kbd:`F`
 
 
-This will create an edge or some faces, depending on your selection. It is detailed in the :doc:`Basic Editing page <modeling/meshes/editing/basics#edge_and_face_creation>`\ .
+This will create an edge or some faces, depending on your selection. It is detailed in the :doc:`Basic Editing page <modeling/meshes/editing/basics#edge_and_face_creation>`.
 
 
 Fill
@@ -38,7 +38,7 @@ Fill
 
 
 The :guilabel:`Fill` option will create *triangular* faces from any group of selected edges
-or vertices, *as long as they form one or more complete perimeters*\ .
+or vertices, *as long as they form one or more complete perimeters*.
 
 
 .. figure:: /images/Fill1.jpg
@@ -170,7 +170,7 @@ Convert Triangles to Quads
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
-   | Panel:    :guilabel:`Mesh Tools` (\ :guilabel:`Editing` context)
+   | Panel:    :guilabel:`Mesh Tools` (:guilabel:`Editing` context)
    | Menu:     :menuselection:`Mesh --> Faces --> Convert Triangles to Quads`
    | Hotkey:   :kbd:`alt-J`
 
@@ -180,8 +180,8 @@ shared edge to create a quad, based on a threshold.
 This tool can be performed on a selection of multiple triangles.
 
 This same action can be done on a selection of 2 tris,
-by selecting them and using the shortcut :kbd:`F`\ , to create a face, or by selecting the
-shared edge and dissolving it with the shortcut :menuselection:`[X] --> Dissolve`\ .
+by selecting them and using the shortcut :kbd:`F`, to create a face, or by selecting the
+shared edge and dissolving it with the shortcut :menuselection:`[X] --> Dissolve`.
 
 To create a quad, this tool needs at least two adjacent triangles.
 If you have an even number of selected triangles,
@@ -207,7 +207,7 @@ which means some triangles could remain.
 All the menu entries and hotkey use the settings defined in the :guilabel:`Mesh Tools` panel:
 
 :guilabel:`Max Angle`
-   This values (between **0** and **180**\ ) controls the threshold for this tool to work on adjacent triangles. With a threshold of **0.0**\ , it will only join adjacent triangles that form a perfect rectangle (i.e. right-angled triangles sharing their hypotenuses). Larger values are required for triangles with a shared edge that is small, relative to the size of the other edges of the triangles.
+   This values (between **0** and **180**) controls the threshold for this tool to work on adjacent triangles. With a threshold of **0.0**, it will only join adjacent triangles that form a perfect rectangle (i.e. right-angled triangles sharing their hypotenuses). Larger values are required for triangles with a shared edge that is small, relative to the size of the other edges of the triangles.
 
 :guilabel:`Compare UVs`
    When enabled, it will prevent union of triangles that are not also adjacent in the active UV map. Note that this seems to be the only option working…
@@ -230,7 +230,7 @@ Solidify
    | Hotkey:   :menuselection:`[ctrl][F] --> Solidify`
 
 
-This takes a selection of faces and solidifies them by extruding them uniformly to give volume to a non-manifold surface. This is also available as a :doc:`Modifier <modifiers/generate/solidify>`\ . After using the tool, you can set the offset distance in the Tool Palette.
+This takes a selection of faces and solidifies them by extruding them uniformly to give volume to a non-manifold surface. This is also available as a :doc:`Modifier <modifiers/generate/solidify>`. After using the tool, you can set the offset distance in the Tool Palette.
 
 :guilabel:`Thickness`
    Amount to offset the newly created surface. Positive values offset the surface inward relative to the normals. Negative values offset outward.
@@ -305,11 +305,11 @@ Flip Direction
 
    | Mode:     :guilabel:`Edit` mode
    | Menu:     :menuselection:`Mesh --> Normals --> Flip` or :menuselection:`Specials --> Flip Normals`
-   | Hotkey:   :menuselection:`[W] --> Flip Normals`\ }
+   | Hotkey:   :menuselection:`[W] --> Flip Normals` }
 
 
 Well, it will just reverse the normals direction of all selected faces.
-Note that this allows you to precisely control the direction (\ **not the orientation**\ ,
+Note that this allows you to precisely control the direction (**not the orientation**,
 which is always perpendicular to the face) of your normals, as only selected ones are flipped.
 
 

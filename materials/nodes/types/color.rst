@@ -75,14 +75,14 @@ Outputs
 ~~~~~~~
 
 :guilabel:`Color`
-    Value of the color, combined by the node.
+   Value of the color, combined by the node.
 
 
 Controls
 ~~~~~~~~
 
 :guilabel:`Clamp`
-    Clamp result of the node to 0...1 range.
+   Clamp result of the node to 0...1 range.
 
 
 RGB Curves
@@ -113,17 +113,17 @@ set the curve so that a little red does not show at all, but a lot of red does.
 Inputs
 ~~~~~~
 
-:guilabel:`Fac`\ :
-    Factor. The degree of node's influence in node tree. The value can be provided by another node or set manually. Value range - from «-1» (inverted effect) to «1».
+:guilabel:`Fac`:
+   Factor. The degree of node's influence in node tree. The value can be provided by another node or set manually. Value range - from «-1» (inverted effect) to «1».
 :guilabel:`Color`
-    Input color value. The value can be provided by another node or set manually. Includes a color swatch, allowing you to select the color directly on the node.
+   Input color value. The value can be provided by another node or set manually. Includes a color swatch, allowing you to select the color directly on the node.
 
 
 Outputs
 ~~~~~~~
 
 :guilabel:`Color`
-    Value of the color, combined by the node.
+   Value of the color, combined by the node.
 
 
 Controls
@@ -135,15 +135,16 @@ Controls
 
 
 Channel selector
-    Allows to select appropriate curve channel.
+   Allows to select appropriate curve channel.
+
    :guilabel:`C`
-       Composite curve.
+      Composite curve.
    :guilabel:`R`
-       Red channel curve.
+      Red channel curve.
    :guilabel:`G`
-       Green channel curve.
+      Green channel curve.
    :guilabel:`B`
-       Blue channel curve.
+      Blue channel curve.
 
 
 .. figure:: /images/26-Manual-Material-Color-Node-Curves-Controls.jpg
@@ -169,17 +170,17 @@ Channel selector
 
 
 :guilabel:`Reset View`
-    Resets view of the cuve.
+   Resets view of the cuve.
 :guilabel:`Vector Handle`
-    Vector type of curve point's handle.
+   Vector type of curve point's handle.
 :guilabel:`Auto Handle`
-    Automatic type of curve point's handle.
+   Automatic type of curve point's handle.
 :guilabel:`Extend Horizontal`
-    Extends the curve horizontal.
+   Extends the curve horizontal.
 :guilabel:`Extend Extrapolated`
-    Extends the curve extrapolated.
+   Extends the curve extrapolated.
 :guilabel:`Reset Curve`
-    Resets the curve in default (removes all added curve's points).
+   Resets the curve in default (removes all added curve's points).
 
 
 .. figure:: /images/26-Material-Color-Node-Curves-Clipping-Buticon.jpg
@@ -218,17 +219,17 @@ This node simply inverts the input values and colors.
 Inputs
 ~~~~~~
 
-:guilabel:`Fac`\ :
-    Factor. The degree of node's influence in node tree. The value can be provided by another node or set manually.
+:guilabel:`Fac`:
+   Factor. The degree of node's influence in node tree. The value can be provided by another node or set manually.
 :guilabel:`Color`
-    Input color value. The value can be provided by another node or set manually. Includes a color swatch, allowing you to select the color directly on the node.
+   Input color value. The value can be provided by another node or set manually. Includes a color swatch, allowing you to select the color directly on the node.
 
 
 Outputs
 ~~~~~~~
 
 :guilabel:`Color`
-    Value of the color, combined by the node.
+   Value of the color, combined by the node.
 
 
 Hue Saturation Value
@@ -246,23 +247,23 @@ Inputs
 ~~~~~~
 
 :guilabel:`Fac`
-    Factor. The degree of node's influence in node tree. The value can be provided by another node or set manually.
+   Factor. The degree of node's influence in node tree. The value can be provided by another node or set manually.
 :guilabel:`Hue`
-    Input hue value of color. The value can be provided by another node or set manually.
+   Input hue value of color. The value can be provided by another node or set manually.
 :guilabel:`Saturation`
-    Input saturation value of color . The value can be provided by another node or set manually.
+   Input saturation value of color . The value can be provided by another node or set manually.
 :guilabel:`Value`
-    Input HSV-Value of color. The value can be provided by another node or set manually.
+   Input HSV-Value of color. The value can be provided by another node or set manually.
 :guilabel:`Fac`
-    Factor. The degree of node's influence in node tree. The value can be provided by another node or set manually.
+   Factor. The degree of node's influence in node tree. The value can be provided by another node or set manually.
 :guilabel:`Color`
-    Input color value. The value can be provided by another node or set manually. Includes a color swatch, allowing you to select the color directly on the node.
+   Input color value. The value can be provided by another node or set manually. Includes a color swatch, allowing you to select the color directly on the node.
 
 
 Outputs
 ~~~~~~~
 
 :guilabel:`Color`
-    Value of the color, combined by the node.
+   Value of the color, combined by the node.
 
 

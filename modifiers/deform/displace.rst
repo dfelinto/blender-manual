@@ -29,21 +29,21 @@ Options
 
 :guilabel:`Texture`
    The name of the texture from which the displacement for each vertex is derived.
-    If this field is empty, the modifier defaults to 1.0 (white).
+   If this field is empty, the modifier defaults to 1.0 (white).
 
 :guilabel:`Vertex Group`
    The name of a vertex group which is used to control the influence of the modifier.
-    If :guilabel:`VGroup` is empty, the modifier affects all vertices equally.
+   If :guilabel:`VGroup` is empty, the modifier affects all vertices equally.
 
 :guilabel:`Midlevel`
    The texture value which will be treated as no displacement by the modifier.
    Texture values below this value will result in negative displacement along the selected direction, while texture values above this value will result in positive displacement.
    This is achieved by the equation ``(displacement) = (texture value) - Midlevel``.
-   Recall that color/luminosity values are typically between **0.0** and **1.0** in Blender, and not between **0** and **255**\ .
+   Recall that color/luminosity values are typically between **0.0** and **1.0** in Blender, and not between **0** and **255**.
 
 :guilabel:`Direction`
    The direction along which to displace the vertices.
-    Can be one of the following:
+   Can be one of the following:
 
    - :guilabel:`X` - displace along local X axis.
    - :guilabel:`Y` - displace along local Y axis.
@@ -53,7 +53,7 @@ Options
 
 :guilabel:`Texture Coordinates`
    The texture coordinate system to use when retrieving values from the texture for each vertex.
-    Can be one of the following:
+   Can be one of the following:
 
 
    - :guilabel:`UV` - take texture coordinates from face UV coordinates.
@@ -68,7 +68,10 @@ Options
 
 .. note::
 
-   Since UV coordinates are specified per face, the UV texture coordinate system currently determines the UV coordinate for each vertex from the first face encountered which uses that vertex; any other faces using that vertex are ignored. This may lead to artifacts if the mesh has non-contiguous UV coordinates.
+   Since UV coordinates are specified per face, the UV texture coordinate system currently determines the UV
+   coordinate for each vertex from the first face encountered which uses that vertex;
+   any other faces using that vertex are ignored.
+   This may lead to artifacts if the mesh has non-contiguous UV coordinates.
 
 
    - :guilabel:`Object` - take the texture coordinates from another object's coordinate system (specified by the :guilabel:`Object` field).

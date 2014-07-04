@@ -15,7 +15,7 @@ designed to simulate the light coming from a heavily clouded or otherwise unifor
 In other words, it is a light which is shed, uniformly,
 by a glowing dome surrounding the scene.
 
-Similar to the :guilabel:`Sun` lamp, the :guilabel:`Hemi`\ 's location is unimportant,
+Similar to the :guilabel:`Sun` lamp, the :guilabel:`Hemi` 's location is unimportant,
 while its orientation is key.
 
 The :guilabel:`Hemi` lamp is represented with four arcs,
@@ -35,10 +35,10 @@ Options
 
 
 :guilabel:`Energy` and :guilabel:`Color`
-   These settings are common to most types of lamps, and are described in :doc:`Light Properties <lighting/lights/light_properties>`\ .
+   These settings are common to most types of lamps, and are described in :doc:`Light Properties <lighting/lights/light_properties>`.
 
-:guilabel:`Layer`\ , :guilabel:`Negative`\ ,\ :guilabel:`Specular`\ , and :guilabel:`Diffuse`
-   These settings control what the lamp affects, as described in :doc:`What Light Affects <lighting/lights/what_light_affects>`\ .
+:guilabel:`Layer`, :guilabel:`Negative`,\ :guilabel:`Specular`, and :guilabel:`Diffuse`
+   These settings control what the lamp affects, as described in :doc:`What Light Affects <lighting/lights/what_light_affects>`.
 
 The :guilabel:`Hemi` lamp has no light falloff settings: it always uses a constant attenuation
 (i.e. no attenuation).

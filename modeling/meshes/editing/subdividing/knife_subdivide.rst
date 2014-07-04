@@ -9,7 +9,7 @@ Knife Tool
    :class: refbox
 
    | Mode:     :guilabel:`Edit` mode
-   | Panel:    :guilabel:`Mesh Tools` (\ :guilabel:`Editing` context, :kbd:`F9`\ )
+   | Panel:    :guilabel:`Mesh Tools` (:guilabel:`Editing` context, :kbd:`F9`)
    | Hotkey:   :kbd:`K` or :kbd:`shift-K`
 
 
@@ -22,7 +22,7 @@ For example, if you wish to cut a hole in the front of a sphere,
 you select only the front edges, and then draw a line over the selected edges with the mouse.
 The tool is interactive, and works on primary edges,
 selected either implicitly by selecting all,
-or explicitly by box-selecting or :kbd:`shift-rmb`\ -clicking a few edges.
+or explicitly by box-selecting or :kbd:`shift-rmb` -clicking a few edges.
 
 Use :kbd:`shift-K` or the Select tool in the tool panel to force the knife tool to work
 only on a selection and in cut-through mode (see below).
@@ -31,10 +31,10 @@ only on a selection and in cut-through mode (see below).
 Usage
 -----
 
-When you press :kbd:`K` (or :kbd:`shift-K`\ ), the Knife tool becomes active.
+When you press :kbd:`K` (or :kbd:`shift-K`), the Knife tool becomes active.
 
 Drawing the cut line
-   When using :guilabel:`Knife Subdivide`\ , the cursor changes to an icon of a scalpel and the header changes to display options for the tool. You can draw connected straight lines by clicking :kbd:`lmb`\ .
+   When using :guilabel:`Knife Subdivide`, the cursor changes to an icon of a scalpel and the header changes to display options for the tool. You can draw connected straight lines by clicking :kbd:`lmb`.
 
 
 .. figure:: /images/Knife1.jpg
@@ -61,7 +61,7 @@ Drawing the cut line
 Options
 -------
 
-**New cut**\ :kbd:`E`
+**New cut** :kbd:`E`
    Begins a new cut. This allows you to define multiple distinct cut lines. If multiple cuts have been defined, they are recognized as new snapping points.
 
 
@@ -81,9 +81,9 @@ Options
 
 **Midpoint snap** :kbd:`Ctrl`
    Hold to snap the cursor to the midpoint of edges
-**Ignore snap**\ :kbd:`Shift`
+**Ignore snap** :kbd:`Shift`
    Hold to make the tool ignore snapping.
-**Angle constrain**\ :kbd:`C`
+**Angle constrain** :kbd:`C`
    Hold to constrain the cut vector to the view in 45 degree increments.
 
 
@@ -101,7 +101,7 @@ Options
    Result of constraining cut angle
 
 
-**Cut through**\ :kbd:`Z`
+**Cut through** :kbd:`Z`
    Allow the cut tool to cut through to obscured faces, instead of only the visible ones.
 
 

@@ -24,7 +24,7 @@ responsibilities that are designed to protect your freedoms and the freedoms of 
 - If you modify the code and distribute the modified version, you must license your modifications under the GPL and make the source code of your changes available. (You may not use GPL'd code as part of a proprietary program.)
 - You may not restrict the licensing of the program beyond the terms of the GPL. (You may not turn a GPL'd program into a proprietary product.)
 
-For more on the GPL, check the `GNU Project Web site <http://www.gnu.org>`__\ .
+For more on the GPL, check the `GNU Project Web site <http://www.gnu.org>`__.
 
 Note:
 The GPL only applies to the blender application and **not** the artwork you create with it;

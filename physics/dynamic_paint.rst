@@ -31,10 +31,10 @@ Types
 Modifier itself has two different types:
 
 :doc:`Canvas <physics/dynamic_paint/canvas>`
-    Makes object receive paint from Dynamic Paint brushes.
+   Makes object receive paint from Dynamic Paint brushes.
 
 :doc:`Brush <physics/dynamic_paint/brush>`
-    Makes object apply paint on the canvas.
+   Makes object apply paint on the canvas.
 
 
 .. admonition:: Note

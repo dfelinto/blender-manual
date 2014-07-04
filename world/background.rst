@@ -76,7 +76,7 @@ or which it maps to a virtual space around the scene.
 
 
 The World textures are accessible in the texture menu (just select :guilabel:`World` first,
-then :guilabel:`Texture`\ .  They are used much like the Materials textures,
+then :guilabel:`Texture`.  They are used much like the Materials textures,
 except for a couple of differences. The textures can be mapped according to:
 
 - **View**

@@ -2,7 +2,8 @@
 Assigning a Texture
 ===================
 
-This page just shows how to add a texture to a slot. The textures' commons options are explained :doc:`here <textures/options>`\ .
+This page just shows how to add a texture to a slot.
+The textures' commons options are explained :doc:`here <textures/options>`.
 
 
 Choosing the Texture context
@@ -28,7 +29,7 @@ Choosing the Texture data type
    Texture panel with buttons for Material, World, and Brush textures highlighted
 
 
-The three buttons :guilabel:`Material`\ , :guilabel:`World`\ ,
+The three buttons :guilabel:`Material`, :guilabel:`World`,
 :guilabel:`Brush` at the top of the texture panel indicate the texture data type, that is,
 the kind of texture that is being edited.
 
@@ -51,7 +52,7 @@ Textures Slots
 
 
 The list below these buttons represent the :guilabel:`Stack` of textures that we can manage.
-It can have up to eighteen :guilabel:`Texture Slots`\ :
+It can have up to eighteen :guilabel:`Texture Slots`:
 
 
 - Tick or untick a texture to enable/disable it.

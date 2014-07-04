@@ -43,8 +43,8 @@ Soft Body Cache
 
 :guilabel:`Cache Name`
    Specify the name of the cache.
-:guilabel:`Start`\ /\ :guilabel:`End`
-   First and last frame of the simulation. Always valid, not only for *baking*\ .
+:guilabel:`Start` / :guilabel:`End`
+   First and last frame of the simulation. Always valid, not only for *baking*.
 :guilabel:`Cache Step`
    Number of frames between cache steps.
 
@@ -106,14 +106,14 @@ Soft Body Goal
 :guilabel:`Minimum` / :guilabel:`Maximum`
    When you paint the values in vertex-groups (using :guilabel:`Weight Paint` mode),
    you can use the :guilabel:`G Min` and :guilabel:`G Max` to fine-tune (clamp) the weight values.
-   The lowest vertex-weight (blue) will become :guilabel:`G Min`\ , the highest value (red) becomes :guilabel:`G Max`
+   The lowest vertex-weight (blue) will become :guilabel:`G Min`, the highest value (red) becomes :guilabel:`G Max`
    (please note that the blue-red color scale may be altered by User Preferences).
 
 :guilabel:`Stiffness`
-   The spring stiffness for :guilabel:`Goal`\ . A low value creates very weak springs (more flexible "attachment" to the goal), a high value creates a strong spring (a stiffer "attachment" to the goal).
+   The spring stiffness for :guilabel:`Goal`. A low value creates very weak springs (more flexible "attachment" to the goal), a high value creates a strong spring (a stiffer "attachment" to the goal).
 
 :guilabel:`Damping`
-   The friction for :guilabel:`Goal`\ . Higher values dampen the effect of the goal on the soft body.
+   The friction for :guilabel:`Goal`. Higher values dampen the effect of the goal on the soft body.
 
 :guilabel:`Vertex Group`
    Use a vertex group to specify goal weights.
@@ -182,7 +182,7 @@ Soft Body Edges
 Soft Body Self Collision
 ------------------------
 
-:guilabel:`Self Collision` is working only if you have activated :guilabel:`Use Edges`\ .
+:guilabel:`Self Collision` is working only if you have activated :guilabel:`Use Edges`.
 
 :guilabel:`Self Collision`
    When enabled, allows you to control how Blender will prevent the Soft Body from intersecting with itself. Every vertex is surrounded with an elastic virtual ball. Vertices may not penetrate the balls of other vertices. If you want a good result you may have to adjust the size of these balls. Normally it works pretty well with the default options.
@@ -191,10 +191,10 @@ Soft Body Self Collision
    The :guilabel:`Ball Size` directly sets the ball size (in BU).
 :guilabel:`Averavge` ("average")
    The average length of all edges attached to the vertex is calculated and then multiplied with the :guilabel:`Ball Size` setting. Works well with evenly distributed vertices.
-:guilabel:`Minimal`\ /\ :guilabel:`Maximal`
-   The ball size is as large as the smallest/largest spring length of the vertex multiplied with the :guilabel:`Ball Size`\ .
+:guilabel:`Minimal` / :guilabel:`Maximal`
+   The ball size is as large as the smallest/largest spring length of the vertex multiplied with the :guilabel:`Ball Size`.
 :guilabel:`AvMiMax`
-   Size = ((Min + Max)/2) × :guilabel:`Ball Size`\ .
+   Size = ((Min + Max)/2) × :guilabel:`Ball Size`.
 
 
 :guilabel:`Size`
@@ -208,7 +208,7 @@ Soft Body Self Collision
 :guilabel:`Dampening`
    Default 0.5. How the vertex reacts. A low value just slows down the vertex as it gets too close. A high value repulses it.
 
-Collisions with other objects are set in the (other) :doc:`Collision panel <physics/collision>`\ . To collide with another object they have to share at least one common layer.
+Collisions with other objects are set in the (other) :doc:`Collision panel <physics/collision>`. To collide with another object they have to share at least one common layer.
 
 
 Soft Body Solver
@@ -220,7 +220,7 @@ These settings determine the accurateness of the simulation.
    Minimum simulation steps per frame. Increase this value, if the Soft Body misses fast moving collision objects.
 
 :guilabel:`Max Step`
-   Maximum simulation steps per frame. Normally the number of simulation steps is set dynamically (with the :guilabel:`Error Limit`\ ) but you have probably a good reason to change it.
+   Maximum simulation steps per frame. Normally the number of simulation steps is set dynamically (with the :guilabel:`Error Limit`) but you have probably a good reason to change it.
 
 :guilabel:`Auto-Step`
    helps the Solver figure out how much work it needs to do based on how fast things are moving.

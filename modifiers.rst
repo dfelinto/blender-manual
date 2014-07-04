@@ -47,6 +47,7 @@ Generate
 
 The :guilabel:`Generate` group of modifiers are constructive tools that either change the
 general appearance of or automatically add new geometry to an object.
+
 :doc:`Array <modifiers/generate/array>`
    Create an array out of your basic mesh and similar (repeating) shapes.
 :doc:`Bevel <modifiers/generate/bevel>`
@@ -86,6 +87,7 @@ Deform
 
 The :guilabel:`Deform` group of modifiers only change the shape of an object,
 and are available for meshes, and often texts, curves, surfaces and/or lattices.
+
 :doc:`Armature <modifiers/deform/armature>`
    Use bones to deform and animate your object.
 :doc:`Cast <modifiers/deform/cast>`
@@ -124,8 +126,10 @@ modifiers are automatically added to the modifiers stack whenever a :guilabel:`P
 System` or :guilabel:`Physics` simulation is enabled, and their only role is to define the
 place in the modifiers stack used as base data by the tool they represent.  Generally,
 the attributes of these modifiers are accessible in separate panels.
+
 :doc:`Cloth <physics/cloth>`
-   Simulates the properties of a piece of cloth. It is inserted in the modifier stack when you designate a mesh as Cloth.
+   Simulates the properties of a piece of cloth.
+   It is inserted in the modifier stack when you designate a mesh as Cloth.
 :doc:`Collision <physics/collision>`
    Simulates a collision between objects.
 :doc:`Dynamic Paint <physics/dynamic_paint>`

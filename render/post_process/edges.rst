@@ -27,7 +27,7 @@ Options
 
 
 :guilabel:`Edge`
-    This makes Blender search for edges in your rendering and add an 'outline' to them.
+   This makes Blender search for edges in your rendering and add an 'outline' to them.
 
 
 .. figure:: /images/Manual-Part-XI-Render08.jpg
@@ -38,9 +38,9 @@ Options
 Before repeating the rendering it is necessary to set some parameters:
 
 :guilabel:`Threshold`
-    The threshold of the angle between faces for drawing edges, from 0 to 255. A value of 10 would just give outline of object against the background, whereas higher settings start to add outlines on surface edges, starting with sharper angles. At maximum intensity, Edge will even faintly display geometry subsurf edge lines in areas of imperfect smoothing.
+   The threshold of the angle between faces for drawing edges, from 0 to 255. A value of 10 would just give outline of object against the background, whereas higher settings start to add outlines on surface edges, starting with sharper angles. At maximum intensity, Edge will even faintly display geometry subsurf edge lines in areas of imperfect smoothing.
 :guilabel:`Color / R/G/B`
-    The color of the rendered edges (black by default). Click on the swatch to see the color picker
+   The color of the rendered edges (black by default). Click on the swatch to see the color picker
 
 
 Examples

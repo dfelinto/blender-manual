@@ -17,6 +17,7 @@ engine. It can be set up to only send a pulse upon a message with a specific sub
 See :doc:`Sensor Common Options <game_engine/logic/sensors/common_options>` for common options.
 
 Special Options:
+
 **Subject**
    Specifies the message that must be received to trigger the sensor (this can be left blank).
 

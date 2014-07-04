@@ -19,7 +19,12 @@ Transform Properties Panel
    | Hotkey:   :kbd:`N`
 
 
-The :guilabel:`Transform Properties` section in the :guilabel:`View Properties` panel allows you to view and manually/numerically control the position, rotation, and other properties of an object, in :guilabel:`Object` mode. In :guilabel:`Edit` mode, it mainly allows you to enter precise coordinates for a vertex, or median position for a group of vertices (including an edge/face). As each type of object has a different set of options in its :guilabel:`Transform Properties` panel in :guilabel:`Edit` mode, see their respective descriptions in the :doc:`Modeling chapter <modeling>`\ .
+The :guilabel:`Transform Properties` section in the :guilabel:`View Properties` panel allows you to view and
+manually/numerically control the position, rotation, and other properties of an object, in :guilabel:`Object` mode.
+In :guilabel:`Edit` mode, it mainly allows you to enter precise coordinates for a vertex,
+or median position for a group of vertices (including an edge/face). As each type of object has a different set of
+options in its :guilabel:`Transform Properties` panel in :guilabel:`Edit` mode,
+see their respective descriptions in the :doc:`Modeling chapter <modeling>`.
 
 
 Options in Object mode
@@ -30,17 +35,17 @@ Options in Object mode
    Transform Properties panel in Object mode.
 
 
-:guilabel:`Location X`\ , :guilabel:`Location Y`\ , :guilabel:`Location Z`
+:guilabel:`Location X`, :guilabel:`Location Y`, :guilabel:`Location Z`
    The object's center location in global coordinates.
 
-:guilabel:`Rotation X`\ , :guilabel:`Rotation Y`\ , :guilabel:`Rotation Z`
+:guilabel:`Rotation X`, :guilabel:`Rotation Y`, :guilabel:`Rotation Z`
    The object's orientation, relative to the global axes and its own center.
 
-:guilabel:`Scale X`\ , :guilabel:`Scale Y`\ , :guilabel:`Scale Z`
+:guilabel:`Scale X`, :guilabel:`Scale Y`, :guilabel:`Scale Z`
    The object's scale, relative to its center, in local coordinates (i.e. the :guilabel:`Scale X` value represents the scale along the local X-axis). Each object (cube, sphere, etc.), when created, has a scale of one blender unit in each local direction. To make the object bigger or smaller, you scale it in the desired dimension.
 
-:guilabel:`Dimensions X`\ , :guilabel:`Dimensions Y`\ , :guilabel:`Dimensions Z`
-   The object's basic dimensions (in blender units) from one outside edge to another, as if measured with a ruler. For multi-faceted surfaces, these fields give the dimensions of the bounding box (aligned with the local axes - think of a cardboard box just big enough to hold the object).
+:guilabel:`Dimensions X`, :guilabel:`Dimensions Y`, :guilabel:`Dimensions Z`
+   The object's basic dimensions (in blender units) from one outside edge to another, as if measured with a ruler. For multi-faceted surfaces, these fields give the dimensions of the bounding box (aligned with the local axes - think of a cardboard box just big enough to hold the object).
 
 ..    Comment: <!-- ;{{Literal|Link Scale}}
    :If this toggle-button is activated the relation (proportion) between the X, Y and Z values in the {{Literal|Scale}} and the {{Literal|Dim}} fields is always preserved. Changing one value will change all the others as well with the same multiplication-factor. --> .
@@ -56,7 +61,7 @@ of all of its *vertices* and faces.
    center
 
 
-Some fields have extra functionality or features, such as scroll regions. When attempting to edit these types of fields it is easier to use {\ :kbd:`shift-lmb` instead of just :kbd:`lmb`\ . After you have edited a field click outside of the field's edit area or press :kbd:`enter` to confirm the changes. Changes will be reflected in the display window immediately. To cancel, hit :kbd:`Esc`\ . For further descriptions of the other features of an edit field see :doc:`The Interface <interface>` section.
+Some fields have extra functionality or features, such as scroll regions. When attempting to edit these types of fields it is easier to use {\ :kbd:`shift-lmb` instead of just :kbd:`lmb`. After you have edited a field click outside of the field's edit area or press :kbd:`enter` to confirm the changes. Changes will be reflected in the display window immediately. To cancel, hit :kbd:`Esc`. For further descriptions of the other features of an edit field see :doc:`The Interface <interface>` section.
 
 
 Transform Properties Locking

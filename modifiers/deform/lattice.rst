@@ -55,7 +55,7 @@ Hints
 -----
 
 Why would you use a lattice to deform a mesh instead of deforming the mesh itself in
-:guilabel:`Edit mode`\ ? There are a couple of reasons for that:
+:guilabel:`Edit mode` ? There are a couple of reasons for that:
 
 - First of all: it's easier. Since your mesh could have a zillion vertices, scaling, grabbing and moving them could be a hard task. Instead, if you use a nice simple lattice your job is simplified to moving just a couple of vertices.
 - It's nicer. The deformation you get looks a lot better!
@@ -66,7 +66,7 @@ Why would you use a lattice to deform a mesh instead of deforming the mesh itsel
 Example/Tutorial(s)
 -------------------
 
-There are example tutorials for 2.4 versions in the :doc:`Tutorials <ls>` section. A 2.6 tutorial shows how to :doc:`shape a fork <ls/modifiers/lattice/shaping_a_fork>`\ .
+There are example tutorials for 2.4 versions in the :doc:`Tutorials <ls>` section. A 2.6 tutorial shows how to :doc:`shape a fork <ls/modifiers/lattice/shaping_a_fork>`.
 
 
 Particles and Lattices

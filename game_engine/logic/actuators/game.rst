@@ -25,16 +25,17 @@ Special Options:
 
 
 **Game**
+
 :guilabel:`Load bge.logic.globalDict`
-    Load :guilabel:`bge.logic.globalDict` from .bgeconf.
+   Load :guilabel:`bge.logic.globalDict` from .bgeconf.
 :guilabel:`Save bge.logic.globalDict`
-    Save :guilabel:`bge.logic.globalDict` to .bgeconf.
+   Save :guilabel:`bge.logic.globalDict` to .bgeconf.
 :guilabel:`Quit Game`
    Once the actuator is activated, the blenderplayer exits the runtime.
 :guilabel:`Restart Game`
-    Once the actuator is activated, the blenderplayer restarts the game (reloads from file).
+   Once the actuator is activated, the blenderplayer restarts the game (reloads from file).
 :guilabel:`Start Game From File`
-    Once the actuator is activated, the blenderplayer starts the .blend file from the path specified.
+   Once the actuator is activated, the blenderplayer starts the .blend file from the path specified.
 
    :guilabel:`File`
       Path to the .blend file to load.

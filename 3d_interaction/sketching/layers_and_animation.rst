@@ -53,7 +53,7 @@ by comparing movement from different frames.
 Usage Notes:
 
 - Onion-skinning is enabled per layer by clicking on the :guilabel:`Onion Skin` button in the grease pencil properties panel.
-- The :guilabel:`Frames` field, directly under the :guilabel:`Onion Skin` button, controls how many frames will be drawn. When :guilabel:`Frames` is **0**\ , only the drawing on either side of the current frame will be visible. Otherwise, this field specifies the maximum number of frames on either side of the current frame that will result in a neighboring drawing.
+- The :guilabel:`Frames` field, directly under the :guilabel:`Onion Skin` button, controls how many frames will be drawn. When :guilabel:`Frames` is **0**, only the drawing on either side of the current frame will be visible. Otherwise, this field specifies the maximum number of frames on either side of the current frame that will result in a neighboring drawing.
 
 
 Adjusting Timing of Sketches
@@ -64,7 +64,7 @@ editing of the timings of the drawings.
 This is especially useful for animators blocking out shots,
 where the ability to re-time blocking is one of the main purposes of the whole exercise.
 
-- In an :guilabel:`Dope Sheet` window, change the mode selector (found beside the menus) to :guilabel:`Grease Pencil` (by default, it should be set to :guilabel:`DopeSheet`\ ).
+- In an :guilabel:`Dope Sheet` window, change the mode selector (found beside the menus) to :guilabel:`Grease Pencil` (by default, it should be set to :guilabel:`DopeSheet`).
 - At this point, the :guilabel:`DopeSheet` should now display a few "channels" with some "keyframes" on them. These "channels" are the layers, and the "keyframes" are the frames at which the layer has a sketch defined. They can be manipulated like any other data in the :guilabel:`DopeSheet` can be.
 
 
@@ -83,8 +83,8 @@ Copying Sketches
 ----------------
 
 It is possible to copy sketches from a layer/layers to other layers in the :guilabel:`Action
-Editor`\ , using the "Copy"/"Paste" buttons in the header. This works in a similar way as the
-copy/paste tools for keyframes in the :guilabel:`Action Editor`\ .
+Editor`, using the "Copy"/"Paste" buttons in the header. This works in a similar way as the
+copy/paste tools for keyframes in the :guilabel:`Action Editor`.
 
 Sketches can also be copied from one screen (or view) to another using these tools.
 It is important to keep in mind that keyframes will only be pasted into selected layers,

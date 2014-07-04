@@ -102,7 +102,7 @@ Options
    When enabled, you'll see the numbers of the displayed keyframes - so this option is obviously only valid when :guilabel:`Show Keys` is enabled.
 
 :guilabel:`Cache`
-   :guilabel:`From`\ /\ :guilabel:`To`
+   :guilabel:`From` / :guilabel:`To`
       These are the start/end frames of the range in which motion paths are drawn. You cannot modify this range without deleting the motion path first.
    :guilabel:`Calculate Paths/ Update Paths`
       If no paths have been calculated, Calculate Paths will create a new motion path in cache. In the pop up box, select the frame range to calculate.

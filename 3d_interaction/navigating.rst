@@ -45,7 +45,7 @@ View Menu
 
 
 :guilabel:`Properties Panel`
-   Toggles the :guilabel:`Properties` side panel (\ :kbd:`N`\ ), which allows you to tweak many 3D view settings:
+   Toggles the :guilabel:`Properties` side panel (:kbd:`N`), which allows you to tweak many 3D view settings:
 
    - :doc:`Transform <modeling/objects/editing>`
    - :doc:`Grease Pencil <3d_interaction/sketching>`
@@ -56,27 +56,27 @@ View Menu
    - :doc:`Transform Orientations <3d_interaction/transform_control/transform_orientations>`
 
 :guilabel:`Tool Shelf`
-   Toggles the :guilabel:`Tool Shelf` (\ :kbd:`T`\ ), which appears on the left side of the 3d view,
+   Toggles the :guilabel:`Tool Shelf` (:kbd:`T`), which appears on the left side of the 3d view,
    and allows you to perform various operations, depending on the type of object selected, and the mode you are in.
 
-:doc:`Camera <3d_interaction/navigating/camera_view>` (\ :kbd:`pad0`\ )
+:doc:`Camera <3d_interaction/navigating/camera_view>` (:kbd:`pad0`)
    Switches the view to the current camera view.
 
-:doc:`Viewing angles <3d_interaction/navigating/3d_view>`\ :
+:doc:`Viewing angles <3d_interaction/navigating/3d_view>`:
    These commands change the view to the default Top/Bottom, Front/Back, or Left/Right views.
 
-   - :guilabel:`Top` (\ :kbd:`pad7`\ )
-   - :guilabel:`Bottom` (\ :kbd:`ctrl-pad7`\ )
-   - :guilabel:`Front` (\ :kbd:`pad1`\ )
-   - :guilabel:`Back` (\ :kbd:`ctrl-pad1`\ )
-   - :guilabel:`Right` (\ :kbd:`pad3`\ )
-   - :guilabel:`Left` (\ :kbd:`ctrl-pad3`\ )
+   - :guilabel:`Top` (:kbd:`pad7`)
+   - :guilabel:`Bottom` (:kbd:`ctrl-pad7`)
+   - :guilabel:`Front` (:kbd:`pad1`)
+   - :guilabel:`Back` (:kbd:`ctrl-pad1`)
+   - :guilabel:`Right` (:kbd:`pad3`)
+   - :guilabel:`Left` (:kbd:`ctrl-pad3`)
 
-:doc:`Cameras Menu <3d_interaction/navigating/camera_view>`\ :
+:doc:`Cameras Menu <3d_interaction/navigating/camera_view>`:
    :guilabel:`Set Active object as camera`
    :guilabel:`Active camera`
 
-:doc:`Perspective/Orthographic View <3d_interaction/navigating/3d_view#perspective_and_orthographic_projection>`\ (\ :kbd:`pad5`\ )
+:doc:`Perspective/Orthographic View <3d_interaction/navigating/3d_view#perspective_and_orthographic_projection>` (:kbd:`pad5`)
    These commands change the projection of the 3D view
 
 :doc:`Navigation Menu <3d_interaction/navigating/3d_view>`
@@ -94,30 +94,30 @@ View Menu
    - :guilabel:`View Selected`
    - :guilabel:`Center View to cursor`
 
-:doc:`Clipping Border... <3d_interaction/navigating/3d_view#view_clipping_border>` (\ :kbd:`alt-B`\ )
+:doc:`Clipping Border... <3d_interaction/navigating/3d_view#view_clipping_border>` (:kbd:`alt-B`)
    Allows you to define a clipping border to limit the 3D view display to a portion of 3D space.
 
-:doc:`Zoom Border... <3d_interaction/navigating/3d_view>` (\ :kbd:`shift-B`\ )
+:doc:`Zoom Border... <3d_interaction/navigating/3d_view>` (:kbd:`shift-B`)
    Allows you to define the area you want to zoom into.
 
-:doc:`Show all Layers <3d_interaction/navigating/layers>` (\ :kbd:`~`\ )
+:doc:`Show all Layers <3d_interaction/navigating/layers>` (:kbd:`~`)
    Makes all of the display layers visible.
 
-:doc:`Global View/Local View <3d_interaction/navigating/3d_view>` (\ :kbd:`pad/`\ )
+:doc:`Global View/Local View <3d_interaction/navigating/3d_view>` (:kbd:`pad/`)
    Global view shows all of the 3D objects in the scene. Local view only displays the selected objects.
    This helps if there are many objects in the scene, that may be in the way.
    Accidentally pressing :kbd:`pad/` can happen rather often if you're new to Blender,
    so if a bunch of the objects in your scene seem to have mysteriously vanished, try turning off local view.
 
 
-:doc:`View Selected <3d_interaction/navigating/3d_view>` (\ :kbd:`pad.`\ )
+:doc:`View Selected <3d_interaction/navigating/3d_view>` (:kbd:`pad.`)
    Zooms the 3D view to encompass all the *selected* objects.
       :doc:`Read more about Zooming the 3D View » <3d_interaction/navigating/3d_view#zooming_the_view>`
 
-:doc:`View All <3d_interaction/navigating/3d_view>` (\ :kbd:`home`\ )
+:doc:`View All <3d_interaction/navigating/3d_view>` (:kbd:`home`)
    Zooms the 3D view to encompass *all* the objects in the current scene.
 
-:doc:`Play Back Animation <animation>` (\ :kbd:`alt-A`\ )
+:doc:`Play Back Animation <animation>` (:kbd:`alt-A`)
    Plays back the animation from the current frame.
 
 :doc:`Duplicate area in new window <interface/window_system/arranging_frames>`
@@ -126,7 +126,7 @@ View Menu
 :doc:`Quad View <interface/window_system/arranging_frames>`
    Toggles a four pane 3D view, each showing a different angle of the scene.
 
-:doc:`Toggle Full Screen <interface/window_system/arranging_frames>`\ (\ :kbd:`ctrl-up`\ )
+:doc:`Toggle Full Screen <interface/window_system/arranging_frames>` (:kbd:`ctrl-up`)
    Maximizes the :guilabel:`3D View` window to fill the full screen area.
 
 
@@ -222,7 +222,7 @@ These handy selectors allow you to rotate or move objects by grabbing
 Layer Selector
 --------------
 
-Layers are well documented in the :doc:`Layers page <3d_interaction/navigating/layers#description>`\ .
+Layers are well documented in the :doc:`Layers page <3d_interaction/navigating/layers#description>`.
 Toggling layer visibility is covered in the section on :doc:`viewing layers
 <3d_interaction/navigating/layers#viewing_layers>` and :doc:`moving objects between layers
 <3d_interaction/navigating/layers#moving_objects_between_layers>` is also discussed in this page.
@@ -244,7 +244,7 @@ This might be useful if you don't want to have your working areas (views)
 cluttered with the whole scene, and still have an ancillary complete view
 (which is unlocked with e.g. all layers shown…).
 Or to have several views with different active cameras. Remember that you can use
-(\ :kbd:`ctrl-pad0` to make the active object the active camera.
+(:kbd:`ctrl-pad0` to make the active object the active camera.
 
 :doc:`Read more about Scenes » <data_system/scenes>`
 

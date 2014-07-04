@@ -41,7 +41,7 @@ Blender Settings
 ----------------
 
 - Increase the MEM Cache Limit in the User Preferences System & OpenGL tab.
-- Upgrade to an `optimized Blender build <http://www.graphicall.org>`__\ , especially if you have a modern chip that supports SSE2 - render times are **30% faster** using an optimized build.
+- Upgrade to an `optimized Blender build <http://www.graphicall.org>`__, especially if you have a modern chip that supports SSE2 - render times are **30% faster** using an optimized build.
 - Switch to an Orthographic camera, and render your own "parts" of the scene as separate images, and then paste those parts together in GIMP. An old trick in making your own panorama with a real camera is to take three or so pictures of a very wide (beach sunset) scene, where you take one picture, rotate to the right, snap another, then another, and when you get the pictures developed, you overlap them to make a very wide landscape image. Do the same in Blender: render out one shot to a file, then move the camera to look at a different area of the scene, and render that shot. Each shot will be of a smaller area and thus take in fewer polygons/faces. Be sure that when you position your camera that you snap overlapping shots, so that you can then match them up. If you don't want to use GIMP, you can use compositing nodes and the Translate node to match them up in Blender.
 - Minimize the render window (and Blender if rendering to an internal window). ATI users report dramatic speedup on a per frame basis, which adds up over the frame range.
 - Use the Big Render script to render sub-sections of the overall image, and then paste them together.
@@ -81,22 +81,22 @@ Render Settings
 
 - :doc:`Output Panel <render/output>`
   - Disable :guilabel:`Edge` rendering.
-  - :guilabel:`Save Buffers`\ .
-  - Render to an :doc:`Image Editor <ce/windows/uv-image>` window, not a popup. :doc:`Render Window <render/display>`\ .
-  - Use multiple :guilabel:`Threads` on a multi-core CPU (with multiple :guilabel:`Parts`\ ).
+  - :guilabel:`Save Buffers`.
+  - Render to an :doc:`Image Editor <ce/windows/uv-image>` window, not a popup. :doc:`Render Window <render/display>`.
+  - Use multiple :guilabel:`Threads` on a multi-core CPU (with multiple :guilabel:`Parts`).
 - :doc:`Render Layers Panel <render/post_process/layers>`
   - Render only the Layers of interest.
   - Render with all lights set to one simple spot (enter its name in the :guilabel:`Light:` field).
   - Render with one material override (enter its name in the Mat: field).
-  - Disable unnecessary Render Passes, such as :guilabel:`Z`\ , or only render the pass of interest, such as :guilabel:`Diffuse`\ .
+  - Disable unnecessary Render Passes, such as :guilabel:`Z`, or only render the pass of interest, such as :guilabel:`Diffuse`.
 - :doc:`Render Panel <render/options>`
-  - Turn off :guilabel:`Shadows`\ .
-  - Turn off :guilabel:`Environment Mapping`\ .
-  - Turn off :guilabel:`Panoramic Rendering`\ .
-  - Turn off :guilabel:`Raytracing`\ .
+  - Turn off :guilabel:`Shadows`.
+  - Turn off :guilabel:`Environment Mapping`.
+  - Turn off :guilabel:`Panoramic Rendering`.
+  - Turn off :guilabel:`Raytracing`.
   - Turn off SSS Subsurface Scattering.
-  - Turn off or lower oversampling/aliasing :guilabel:`OSA`\ .
-  - Turn off or lower :guilabel:`Motion Blur`\ .
+  - Turn off or lower oversampling/aliasing :guilabel:`OSA`.
+  - Turn off or lower :guilabel:`Motion Blur`.
   - Render in Parts. This will also allow you to render HUGE images on a weak PC. On a multi-core PC, it will assign a thread to each part as well.
   - Increase the octree resolution.
   - Render at a percentage size of your final resolution (like 25%).
@@ -112,18 +112,18 @@ Render Settings
 - :doc:`Format Panel <render/output>`
   - Render at a lower resolution. Smaller pictures take less time to render.
   - Choose a faster CODEC or CODEC settings.
-  - Render in black and white (\ :guilabel:`BW` button).
-  - If using FFMPEG, do not activate :guilabel:`Multiplex audio`\ .
-  - If using FFMPEG, :guilabel:`Autosplit Output` (\ :guilabel:`Video` panel button).
-  - Render only RGB if you just need color; the A channel (\ :guilabel:`RGBA` button) takes more memory and is unused when saving a movie file.
+  - Render in black and white (:guilabel:`BW` button).
+  - If using FFMPEG, do not activate :guilabel:`Multiplex audio`.
+  - If using FFMPEG, :guilabel:`Autosplit Output` (:guilabel:`Video` panel button).
+  - Render only RGB if you just need color; the A channel (:guilabel:`RGBA` button) takes more memory and is unused when saving a movie file.
 
 
 Multi-Pass Compositing
 ----------------------
 
 Another strategy that can be used to address the problem of long (re-)render times is to
-structure your workflow from the ground up so that you make aggressive use of *compositing,*
- as described in the "Post-Production" section.  In this approach,
+structure your workflow from the ground up so that you make aggressive use of *compositing*,
+as described in the "Post-Production" section.  In this approach,
 you break down each shot into components that can be rendered separately,
 then you combine those separately-rendered elements to achieve the finished clip.
 For instance:
@@ -137,26 +137,26 @@ This is a very familiar idea.  Modern sound recordings, for example,
 always use a "multi-track" approach.
 Individual components of the song are captured separately and in isolation,
 then the components are "mixed" together.
-The "final mix" then goes through additional processing stages, called *mastering,*
- to produce the finished product(s).  (In fact, the features and design of modern
+The "final mix" then goes through additional processing stages, called *mastering*,
+to produce the finished product(s).  (In fact, the features and design of modern
 sound-processing software are directly comparable to that of Blender's node-based compositor.)
 
 There are compelling advantages to this approach:
 
 - You have options.  If something is "not quite right," you don't necessarily have to start over from scratch.
-- In practice, the deadline-killer is *re-*\ rendering, which ordinarily must be done (in its entirety) just because "'one little thing' about the shot is wrong."  Compositing helps to avoid this, because (ideally...) only the specific parts that are found to be in error must be repeated. (Or, maybe, the error can be blocked out with a "garbage matte" and a corrected version can be inserted in its place.  No one will ever know!)
+- In practice, the deadline-killer is *re-* rendering, which ordinarily must be done (in its entirety) just because "'one little thing' about the shot is wrong."  Compositing helps to avoid this, because (ideally...) only the specific parts that are found to be in error must be repeated. (Or, maybe, the error can be blocked out with a "garbage matte" and a corrected version can be inserted in its place.  No one will ever know!)
 - It's also possible that you find yourself saying, "okay, that's *almost* what I wanted, but now I'd like to *add* this and maybe *take away* that." A compositing-based approach enables you to do just that, and furthermore, to do so *non-destructively.* In other words, having generated the "addition" (or the "mask") as a separate channel of information, you can now fine-tune its influence in the overall "mix," or even change your mind and remove it altogether, all without permanently altering anything.
-- By and large, these stages work *two-*\ dimensionally, manipulating what is by that time "a raster bitmap with R, G, B, Alpha *(transparency...)* and Z-Depth information," so they're consistently fast.
+- By and large, these stages work *two-* dimensionally, manipulating what is by that time "a raster bitmap with R, G, B, Alpha *(transparency...)* and Z-Depth information," so they're consistently fast.
 - Since each discrete rendering task has been simplified, the computer can carry them out using much fewer resources.
 - The tasks can be distributed among several different computers ... even less-powerful ones (like the two older machines that are sitting in your closet right now because you can't get rid of them).
-- "After all, the scene doesn't actually have to be *physically perfect,* to be *convincing.*\ " A compositing-based approach lets you take full advantage of this.  You can focus your attention (and Blender's) upon those specific aspects of the scene which will actually make a noticeable difference.  It is possible to save a considerable amount of time by consciously choosing to exclude less-important aspects which (although "technically correct") probably won't be noticed.
+- "After all, the scene doesn't actually have to be *physically perfect,* to be *convincing.* " A compositing-based approach lets you take full advantage of this.  You can focus your attention (and Blender's) upon those specific aspects of the scene which will actually make a noticeable difference.  It is possible to save a considerable amount of time by consciously choosing to exclude less-important aspects which (although "technically correct") probably won't be noticed.
 
 Of course, this approach is not without its own set of trade-offs.  You must devise a workable
 asset-management system for keeping track of exactly what material you have, where it is,
 whether it is up-to-date, and exactly how to re-create it.  You must understand and use the
 "library linking" features of Blender to allow you to refer to objects, nodes, materials,
 textures and scenes in a carefully-organized collection of other files.
-You need to have a very clear notion, *in advance,*
- of exactly what the finished shot must consist of and what the task breakdown must be.
+You need to have a very clear notion, *in advance*,
+of exactly what the finished shot must consist of and what the task breakdown must be.
 You must be a scrupulous note-taker and record-keeper.  But sometimes this is the best way,
 if not the *only* way, to accomplish a substantial production.
