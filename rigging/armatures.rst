@@ -29,18 +29,12 @@ Open a default scene, then:
 - press :kbd:`Del NumPad` to see the armature at maximum zoom
 
 
-+----------------------------------------------------------------------+-----------------------------------------------------+
-+`Toolbox: Add » Armature » Single Bone                                |                                                     +
-+ <http://wiki.blender.org/index.php/File:ManRiggingAddArmature2.5>`__ |                                                     +
-+                                                                      |                                                     +
-+                                                                      |                                                     +
-+                                                                      |.. figure:: /images/ManRiggingDefaultArmature2.5.jpg +
-+                                                                      |   :width: 500px                                     +
-+                                                                      |   :figwidth: 500px                                  +
-+                                                                      |                                                     +
-+                                                                      |   The default armature                              +
-+                                                                      |                                                     +
-+----------------------------------------------------------------------------------------------------------------------------+
+.. figure:: /images/ManRiggingDefaultArmature2.5.jpg
+   :width: 500px
+   :figwidth: 500px
+
+   The default armature
+   `Toolbox: Add » Armature » Single Bone <http://wiki.blender.org/index.php/File:ManRiggingAddArmature2.5>`__
 
 
 The armature object
