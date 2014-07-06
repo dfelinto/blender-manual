@@ -24,7 +24,8 @@ Options
    Enables oversampling
 
 5 / 8 / 11 / 16
-   The number of samples to use. The values 5, 8, 11, 16 are preset numbers in specific sample patterns; a higher value produces better edges, but slows down the rendering.
+   The number of samples to use. The values 5, 8, 11, 16 are preset numbers in specific sample patterns;
+   a higher value produces better edges, but slows down the rendering.
 
 By default, we use in Blender a fixed "Distributed Jitter" table. The samples within a pixel
 are distributed and jittered in a way that guarantees two characteristics:
@@ -32,7 +33,9 @@ are distributed and jittered in a way that guarantees two characteristics:
 - Each sample has equal distances to its neighbor samples
 - The samples cover all sub-pixel positions equally, both horizontally and vertically
 
-   The images below show Blender sample patterns for 5, 8, 11 and 16 samples. To show that the distribution is equalized over multiple pixels, the neighbor pixel patterns were drawn as well. Note that each pixel has an identical pattern.
+The images below show Blender sample patterns for 5, 8, 11 and 16 samples.
+To show that the distribution is equalized over multiple pixels, the neighbor pixel patterns were drawn as well.
+Note that each pixel has an identical pattern.
 
 
 +-----------------------------------------------------+-----------------------------------------------------+------------------------------------------------------+------------------------------------------------------+
@@ -43,7 +46,7 @@ are distributed and jittered in a way that guarantees two characteristics:
 
 
 :guilabel:`Full Sample`
-      For every anti-aliasing sample, save the entire Render Layer results. This solves anti-aliasing issues with compositing.
+   For every anti-aliasing sample, save the entire Render Layer results. This solves anti-aliasing issues with compositing.
 
 
 Filtering
@@ -59,8 +62,8 @@ into account that some samples are very close to the edge of a pixel,
 and therefore could influence the color of the neighbor pixel(s) as well.
 
 Filter menu: Set The filter type to use to 'average' the samples:
-|\ :guilabel:`Box`
-|The original filter used in Blender, relatively low quality. For the Box Filter, you can see that only the samples within the pixel itself are added to the pixel's color. For the other filters, the formula ensures that a certain amount of the sample color gets distributed over the other pixels as well.
+| :guilabel:`Box`
+| The original filter used in Blender, relatively low quality. For the Box Filter, you can see that only the samples within the pixel itself are added to the pixel's color. For the other filters, the formula ensures that a certain amount of the sample color gets distributed over the other pixels as well.
 
 +------------------------------+----------------------------------------------------------------------------+
 +:guilabel:`Box`               |A low-quality box-shaped curve (see above)                                  +
@@ -154,5 +157,4 @@ Examples
    :figwidth: 630px
 
    AA 8, Mitchell-Netravali filter
-
 

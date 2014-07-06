@@ -454,9 +454,7 @@ Offset
 
 :guilabel:`X offset` and :guilabel:`Y offset`
    Well, these settings control the X and Y offset of the text, regarding its "normal" positioning. Note that with
-FIXME(TODO: Internal Link;
-[[#Text Boxes|frames]]
-), it applies to all frames' content...
+   FIXME(TODO: Internal Link; [[#Text Boxes|frames]]), it applies to all frames' content...
 
 
 Shape
