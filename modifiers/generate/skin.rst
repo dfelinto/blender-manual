@@ -32,6 +32,7 @@ Options
 :guilabel:`Branch Smoothing`
    Smooth the intersection vertices.
 :guilabel:`Selected Vertices`
+   TODO
 :guilabel:`Mark Loose`
    Mark the selected vertices as loosing points.
    Loosing defines points which merge their faces with each other to fill gaps.
