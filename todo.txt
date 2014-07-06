@@ -2,10 +2,8 @@
 Cleanup:
 
 - Replace all instances of 'nicetip' with the '.. tip::' directive.
-- Lots of indentation warnings.
 - Replace some unnecessary tables with bullets - eg: 'render/output/video.rst:220'
-- Theres a lot of instances of '\ ,'  '\ ('  '\ /\'
-  we can remove the '\ ', (note, do this later since they dont cause probles at the moment)
+- FIXME(Link Type Unsupported: ... we have a lot of these, could automate fixes.
 
 
 Conventions:
