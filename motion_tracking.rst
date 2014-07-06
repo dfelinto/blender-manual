@@ -1,6 +1,4 @@
 
-..    TODO/Review: {{review|split=X}} .
-
 Motion Tracking
 ***************
 
@@ -205,10 +203,24 @@ Marker panel
   no markers would be placed on frames after the camera moved away.
 
    There are several properties for this operator:
-      :strong:`Placement` is used to control where to place markers. By default, they'll be added through the whole frame, but you can also outline some areas with interesting features with grease pencil and place markers only inside the outlined area. That's how the "Inside Grease Pencil" placement variant works. You can also outline areas of no interest (like trees, humans and so) and place markers outside of these areas. That's how the "Outside Grease Pencil" placement variant works.
-      :strong:`Margin` controls the distance from the image boundary for created markers. If markers are placed too close to the image boundary, they'll fail to track really quickly and they should be deleted manually. To reduce the amount of manual clean-up, this parameter can be used.
-      :strong:`Trackability` limits minimal trackability for placing markers. This value comes from the feature detection algorithm and basically it means: low values means most probably this feature would fail to track very soon, high value means it's not much such track. Amount of markers to be added can be controlled with this value.
-      :strong:`Distance` defines the minimal distance between placed markers. It's needed to prevent markers from being placed too close to each other (such placement can confuse the camera solver).
+
+      Placement
+         is used to control where to place markers. By default, they'll be added through the whole frame, but you can
+         also outline some areas with interesting features with grease pencil and place markers only inside the
+         outlined area. That's how the "Inside Grease Pencil" placement variant works. You can also outline areas of
+         no interest (like trees, humans and so) and place markers outside of these areas. That's how the "Outside
+         Grease Pencil" placement variant works.
+      Margin
+         controls the distance from the image boundary for created markers. If markers are placed too close to the
+         image boundary, they'll fail to track really quickly and they should be deleted manually. To reduce the
+         amount of manual clean-up, this parameter can be used.
+      Trackability
+         limits minimal trackability for placing markers. This value comes from the feature detection algorithm and
+         basically it means: low values means most probably this feature would fail to track very soon, high value
+         means it's not much such track. Amount of markers to be added can be controlled with this value.
+      Distance
+         defines the minimal distance between placed markers. It's needed to prevent markers from being placed too
+         close to each other (such placement can confuse the camera solver).
 
 - :strong:`Delete Track` is a quite self-explaining operator which deletes all selected tracks.
 
@@ -216,25 +228,37 @@ Marker panel
 Track panel
 """""""""""
 
-- The first row of buttons is used to perform tracking of selected tracks (i.e. following the selected feature from frame to frame). Tracking can happen (in order of buttons):
+- The first row of buttons is used to perform tracking of selected tracks
+  (i.e. following the selected feature from frame to frame).
+  Tracking can happen (in order of buttons):
+
   - Backward one frame
   - Backward along the sequence
   - Forward along the whole sequence
   - Forward one frame
 
    This operator depends on settings from the Tracking Settings panel, which will be described later.
-   If during sequence tracking the algorithm fails to track some markers, they'll be disabled and tracking will continue for the rest of the markers. If the algorithm fails when tracking frame-by-frame, the marker is not disabled, and the most likely position of the feature on the next frame is used.
+   If during sequence tracking the algorithm fails to track some markers,
+   they'll be disabled and tracking will continue for the rest of the markers.
+   If the algorithm fails when tracking frame-by-frame, the marker is not disabled,
+   and the most likely position of the feature on the next frame is used.
 
-- :strong:`Clear After` deletes all tracked and keyframed markers after the current frame for all selected tracks.
-- :strong:`Clear Before` deletes all tracked and keyframed markers before the current frame for all selected tracks.
-- :strong:`Clear` clears all markers except the current one from all selected tracks.
-- :strong:`Join` operator joins all selected tracks into one. Selected tracks shouldn't have common tracked or keyframed markers at the same frame.
+Clear After
+   deletes all tracked and keyframed markers after the current frame for all selected tracks.
+Clear Before
+   deletes all tracked and keyframed markers before the current frame for all selected tracks.
+Clear
+   clears all markers except the current one from all selected tracks.
+Join
+   operator joins all selected tracks into one.
+   Selected tracks shouldn't have common tracked or keyframed markers at the same frame.
 
 
 Solve panel
 """""""""""
 
-:strong:`Camera Motion` operator solves the motion of camera using all tracks placed on the footage and two keyframes specified on this panel. There are some requirements:
+**Camera Motion** operator solves the motion of camera using all tracks placed
+on the footage and two keyframes specified on this panel. There are some requirements:
 
 
 - There should be at least 8 common tracks on the both of the selected keyframes.
@@ -370,7 +394,11 @@ features in the background vs. foreground and so on). Color also can be used for
 tracks so a whole group of tracks can be selected by color using the Select Grouped operator.
 
 
-- :strong:`Marker Tip 1:`  To select good points for tracking, use points in the middle of the footage timeline and track backwards and forwards from there. This will provide a greater chance of the marker and point staying in the camera shot.
+.. tip::
+
+   To select good points for tracking, use points in the middle of the footage timeline
+   and track backwards and forwards from there.
+   This will provide a greater chance of the marker and point staying in the camera shot.
 
 
 Camera Data Panel
@@ -385,15 +413,27 @@ coefficients and principal point aren't included into presets and should be fill
 camera presets are used.
 
 
-- :strong:`Focal Length` is self-explanatory; it's the focal length with which the movie was shot. It can be set in millimeters or pixels. In most cases focal length is given in millimeters, but sometimes (for example in some tutorials on the Internet) it's given in pixels. In such cases it's possible to set it directly in the known unit.
-- :strong:`Sensor Width` is the width of the CCD sensor in the camera. This value can be found in camera specifications.
-- :strong:`Pixel Aspect Ratio` is the  pixel aspect of the CCD sensor. This value can be found in camera specifications, but can also be guessed. For example, you know that the footage should be 1920x1080, but the images themselves are 1280x1080. In this case, the pixel aspect is:
-
-:math:`1920 / 1280 = 1.5`
-
-
-- :strong:`Optical Center` is the optical center of the lens used in the camera. In most cases it's equal to the image center, but it can be different in some special cases. Check camera/lens specifications in such cases. To set the optical center to the center of image, there's a :kbd:`Center` button below the sliders.
-- :strong:`Undistortion K1, K2 and K3` are coefficients used to compensate for lens distortion when the  movie was shot. Currently these values can be tweaked by hand only (there are no calibration tools yet) using tools available in Distortion mode. Basically, just tweak K1 until solving is most accurate for the known focal length (but also take grid and grease pencil into account to prevent "impossible" distortion).
+Focal Length
+   is self-explanatory; it's the focal length with which the movie was shot.
+   It can be set in millimeters or pixels. In most cases focal length is given in millimeters, but sometimes (for
+   example in some tutorials on the Internet) it's given in pixels. In such cases it's possible to set it directly in
+   the known unit.
+Sensor Width
+   is the width of the CCD sensor in the camera. This value can be found in camera specifications.
+Pixel Aspect Ratio
+   is the  pixel aspect of the CCD sensor.
+   This value can be found in camera specifications,
+   but can also be guessed. For example, you know that the footage should be 1920x1080,
+   but the images themselves are 1280x1080. In this case, the pixel aspect is: ``1920 / 1280 = 1.5``
+Optical Center
+   is the optical center of the lens used in the camera. In most cases it's equal to the image center,
+   but it can be different in some special cases. Check camera/lens specifications in such cases.
+   To set the optical center to the center of image, there's a :kbd:`Center` button below the sliders.
+Undistortion K1, K2 and K3
+   are coefficients used to compensate for lens distortion when the  movie was shot. Currently these values can be
+   tweaked by hand only (there are no calibration tools yet) using tools available in Distortion mode. Basically, just
+   tweak K1 until solving is most accurate for the known focal length (but also take grid and grease pencil into
+   account to prevent "impossible" distortion).
 
 
 Display Panel
@@ -402,22 +442,60 @@ Display Panel
 This panel contains all settings which control things displayed in the clip editor.
 
 
-- :strong:`R, G, B` and :strong:`B/W` buttons at the top of this panel are used to control color channels used for frame preview and to make the whole frame gray scale. It's needed because the tracking algorithm works with gray-scale images and it's not always obvious to see which channels disabled will increase contrast of feature points and reduce noise.
-- :strong:`Pattern` can be used to disable displaying of rectangles which correspond to pattern areas of tracks. In some cases it helps to make the clip view cleaner to check how good tracking is.
-- :strong:`Search` can be used to disable displaying of rectangles which correspond to search areas of tracks. In some cases it helps to make the clip view cleaner to check how good tracking is. Only search areas for selected tracks will be displayed.
-- :strong:`Pyramid` makes the highest pyramid level be visible. Pyramids are defined later in the Tracking Settings panel section, but basically it helps to determine how much a track is allowed to move from one frame to another.
-- :strong:`Track Path` and :strong:`Length` control displaying of the paths of tracks. The ways tracks are moving can be visible looking at only one frame. It helps to determine if a track jumps from its position or not.
-- :strong:`Disabled Tracks` makes it possible to hide all tracks which are disabled on the current frame. This helps to make view more clear, to see if tracking is happening accurately enough.
-- :strong:`Bundles` makes sense after solving the movie clip, and it works in the following way: the solved position of each track gets projected back to the movie clip and displayed as a small point. The color of the point depends on the distance between the projected coordinate and the original coordinate: if they are close enough, the point is green, otherwise it'll be red. This helps to find tracks which weren't solved nicely and need to be tweaked.
-- :strong:`Track Names and Status` displays information such as track name and status of the track (if it's keyframed, disabled, tracked or estimated). Names and status for selected tracks are displayed.
-- :strong:`Compact Markers`. The way in which markers are displayed (black outline and yellow foreground color) makes tracks visible on all kind of footage (both dark and light). But sometimes it can be annoying and this option will make the marker display more compactly - the outline is replaced by dashed black lines drawn on top of the foreground, so that marker areas are only 1px thick.
-- :strong:`Grease pencil` controls if grease pencil strokes are allowed to be displayed and made.
-- :strong:`Mute` changes displaying on movie frame itself with black square, It helps to find tracks which are tracked inaccurately or which weren't tracked at all.
-- :strong:`Grid` (available in distortion mode only) displays a grid which is originally orthographic, but os affected by the distortion model. This grid can be used for manual calibration - distorted lines of grids are equal to straight lines in the footage.
-- :strong:`Manual Calibration` (available in distortion mode only) applies the distortion model for grease pencil strokes. This option also helps to perform manual calibration.  A more detailed description of this process will be added later.
-- :strong:`Stable` (available in reconstruction mode only). This option makes the displayed frame be affected by the 2D stabilization settings. It's only a preview option, which doesn't actually change the footage itself.
-- :strong:`Lock to Selection` makes the editor display selected tracks at the same screen position along the whole footage during playback or tracking. This option helps to control the tracking process and stop it when the track is starting to slide off or when it jumped.
-- :strong:`Display Aspect Ratio` changes the aspect ratio for displaying only. It does not affect the tracking or solving process.
+R, G, B
+   and :strong:`B/W` buttons at the top of this panel are used to control color channels used for frame preview and to
+   make the whole frame gray scale. It's needed because the tracking algorithm works with gray-scale images and it's
+   not always obvious to see which channels disabled will increase contrast of feature points and reduce noise.
+Pattern
+   can be used to disable displaying of rectangles which correspond to pattern areas of tracks. In some cases it helps
+   to make the clip view cleaner to check how good tracking is.
+Search
+   can be used to disable displaying of rectangles which correspond to search areas of tracks.
+   In some cases it helps to make the clip view cleaner to check how good tracking is.
+   Only search areas for selected tracks will be displayed.
+Pyramid
+   makes the highest pyramid level be visible. Pyramids are defined later in the Tracking Settings panel section, but
+   basically it helps to determine how much a track is allowed to move from one frame to another.
+Track Path
+   and :strong:`Length` control displaying of the paths of tracks. The ways tracks are moving can be visible looking
+   at only one frame. It helps to determine if a track jumps from its position or not.
+Disabled Tracks
+   makes it possible to hide all tracks which are disabled on the current frame. This helps to make view more clear,
+   to see if tracking is happening accurately enough.
+Bundles
+   makes sense after solving the movie clip, and it works in the following way: the solved position of each track gets
+   projected back to the movie clip and displayed as a small point. The color of the point depends on the distance
+   between the projected coordinate and the original coordinate: if they are close enough, the point is green,
+   otherwise it'll be red. This helps to find tracks which weren't solved nicely and need to be tweaked.
+Track Names and Status
+   displays information such as track name and status of the track (if it's keyframed, disabled, tracked or
+   estimated). Names and status for selected tracks are displayed.
+Compact Markers
+   The way in which markers are displayed (black outline and yellow foreground color) makes tracks visible on all kind
+   of footage (both dark and light). But sometimes it can be annoying and this option will make the marker display
+   more compactly - the outline is replaced by dashed black lines drawn on top of the foreground, so that marker areas
+   are only 1px thick.
+Grease pencil
+   controls if grease pencil strokes are allowed to be displayed and made.
+Mute
+   changes displaying on movie frame itself with black square, It helps to find tracks which are tracked inaccurately
+   or which weren't tracked at all.
+Grid
+   (available in distortion mode only) displays a grid which is originally orthographic, but os affected by the
+   distortion model. This grid can be used for manual calibration - distorted lines of grids are equal to straight
+   lines in the footage.
+Manual Calibration
+   (available in distortion mode only) applies the distortion model for grease pencil strokes. This option also helps
+   to perform manual calibration.  A more detailed description of this process will be added later.
+Stable
+   (available in reconstruction mode only). This option makes the displayed frame be affected by the 2D stabilization
+   settings. It's only a preview option, which doesn't actually change the footage itself.
+Lock to Selection
+   makes the editor display selected tracks at the same screen position along the whole footage during playback or
+   tracking. This option helps to control the tracking process and stop it when the track is starting to slide off or
+   when it jumped.
+Display Aspect Ratio
+   changes the aspect ratio for displaying only. It does not affect the tracking or solving process.
 
 
 Tracking Settings Panel
@@ -430,7 +508,8 @@ This panel contains all settings for the 2D tracking algorithms.
 Depending on which algorithm is used, different settings are displayed,
 but there are a few that are common for all tracker settings:
 
-:strong:`Adjust Frames` controls which patterns get tracked; to be more precise, the pattern from which frame is getting tracked. Here's an example which should make things clearer.
+**Adjust Frames** controls which patterns get tracked; to be more precise,
+the pattern from which frame is getting tracked. Here's an example which should make things clearer.
 
 The tracker algorithm receives two images inside the search area and the position of a point
 to be tracked in the first image.
@@ -443,20 +522,35 @@ The second image is always from a frame at which the position of marker isn't kn
 can be sent to the tracker. Most commonly used combinations:
 
 
-- An image created from a frame on which the track was keyframed. This configuration prevents sliding from the original position (because the position which best corresponds to the original pattern is returned by the tracker), but it can lead to small jumps and can lead to failures when the feature point is deformed due to camera motion (perspective transformation, for example). Such a configuration is used if :strong:`Adjust Frames` is set to 0.
-
-
-- An image created from the current frame is sent as first image to the tracker. In this configuration the pattern is tracking between two neighboring frames. It allows dealing with cases of large transformations of the feature point but can lead to sliding from the original position, so it should be controlled. Such a configuration is used if :strong:`Adjust Frames` is set to 1.
+- An image created from a frame on which the track was keyframed.
+  This configuration prevents sliding from the original position
+  (because the position which best corresponds to the original pattern is returned by the tracker),
+  but it can lead to small jumps and can lead to failures when the feature point is deformed due to camera motion
+  (perspective transformation, for example). Such a configuration is used if :strong:`Adjust Frames` is set to 0.
+- An image created from the current frame is sent as first image to the tracker.
+  In this configuration the pattern is tracking between two neighboring frames.
+  It allows dealing with cases of large transformations of the feature point
+  but can lead to sliding from the original position, so it should be controlled.
+  Such a configuration is used if **Adjust Frames** is set to 1.
 
 If :strong:`Adjust Frames` is greater than 1, the behavior of tracker is:
 keyframes for tracks are creating every :strong:`Adjust Frames` frames,
 and tracking between keyframed image and next image is used.
 
-:strong:`Speed` can be used to control the speed of sequence tracking. This option doesn't affect the quality of tracking; it just helps to control if tracking happens accurately. In most  cases tracking happens much faster than real time, and it's difficult to notice when a track began to slide out of position. In such cases :strong:`Speed` can be set to Double or Half to add some delay between tracking two frames, so slide-off would be noticed earlier and the tracking process can be cancelled to adjust positions of tracks.
-
-:strong:`Frames Limit` controls how many frames can be tracked when the Track Sequence operator is called. So, each Track Sequence operation would track maximum :strong:`Frames Limit` frames. This also helps to notice slide-off of tracks and correct them.
-
-:strong:`Margin` can be used disable tracks when they become too close to the image boundary. This slider sets "too close" in pixels.
+Speed
+   can be used to control the speed of sequence tracking.
+   This option doesn't affect the quality of tracking; it just helps to control if tracking happens accurately.
+   In most  cases tracking happens much faster than real time, and it's difficult to notice when a track began
+   to slide out of position. In such cases **Speed** can be set to Double or Half to add some delay between
+   tracking two frames, so slide-off would be noticed earlier and the tracking process can be cancelled to
+   adjust positions of tracks.
+Frames Limit
+   controls how many frames can be tracked when the Track Sequence operator is called.
+   So, each Track Sequence operation would track maximum **Frames Limit** frames.
+   This also helps to notice slide-off of tracks and correct them.
+Margin
+   can be used disable tracks when they become too close to the image boundary.
+   This slider sets "too close" in pixels.
 
 
 KLT tracker options
@@ -493,7 +587,8 @@ This works pretty quickly, but can fail in several cases. For example, when ther
 feature point which looks like the tracking feature point in the search area. In this case,
 SAD will tend to jump off track from one feature to another.
 
-:strong:`Correlation` defines the threshold value for correlation between two patterns which is still considered successful tracking. 0 means there's no correlation at all, 1 means correlation is full.
+**Correlation** defines the threshold value for correlation between two patterns which is still
+considered successful tracking. 0 means there's no correlation at all, 1 means correlation is full.
 
 There's one limitation: currently: it works for features of size 16x16 pixels only.
 
@@ -525,7 +620,8 @@ The first four options are used to define which resolutions of proxy images shou
 Currently it's possible to build images 25%, 50%, 75% and 100% of the original image size.
 Proxy size of 100% can be used for movies which contain broken frames which can't be decoded.
 
-:strong:`Build Undistorted` means that the proxy builder also creates images from undistorted original images for the sizes set above. This helps provide faster playback of undistorted footage.
+:strong:`Build Undistorted` means that the proxy builder also creates images from undistorted original images for the
+sizes set above. This helps provide faster playback of undistorted footage.
 
 Generated proxy images are encoding using JPEG,
 and the quality of the JPEG codec is controlled with the :strong:`Quality` slider.
@@ -534,11 +630,17 @@ By default, all generated proxy images are storing to the <path of original
 footage>/BL_proxy/<clip name> folder,
 but this location can be set by hand using the :strong:`Proxy Custom Directory` option.
 
-:kbd:`Rebuild Proxy` will regenerate proxy images for all sizes set above and regenerate all timecodes which can be used later.
+:kbd:`Rebuild Proxy` will regenerate proxy images for all sizes set above and
+regenerate all timecodes which can be used later.
 
-:strong:`Use Timecode Index` can (and better be used) for movie files. Basically, timecode makes frame search faster and more accurate. Depending on your camera and codec, different timecodes can give better result.
+:strong:`Use Timecode Index` can (and better be used) for movie files.
+Basically, timecode makes frame search faster and more accurate.
+Depending on your camera and codec, different timecodes can give better result.
 
-:strong:`Proxy Render Size` defines which proxy image resolution is used for display. If :strong:`Render Undistorted` is set, then images created from undistorted frames are used. If there's no generated proxies,  render size is set to "No proxy, full render", and render undistorted is enabled, undistortion will happen automatically on frame draw.
+:strong:`Proxy Render Size` defines which proxy image resolution is used for display.
+If :strong:`Render Undistorted` is set, then images created from undistorted frames are used.
+If there's no generated proxies,  render size is set to "No proxy, full render",
+and render undistorted is enabled, undistortion will happen automatically on frame draw.
 
 
 Tools available in reconstruction mode
@@ -577,3 +679,4 @@ which finds smallest scale factor which, when applied to the footage,
 would eliminate all the black holes near the image boundaries.
 There's an option to control the maximal scale factor, (:strong:`Maximal Scale`),
 and the amount of scale applied to the footage (:strong:`Scale Influence`).
+
