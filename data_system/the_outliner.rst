@@ -1,9 +1,9 @@
 
 Outliner window
-===============
+***************
 
 Description
------------
+===========
 
 The :guilabel:`Outliner` window is used for easily navigating a complex scene.
 The Outliner gives you a 2D representation of your complicated 3D world.
@@ -19,7 +19,7 @@ Another more practical example is to evaluate the impact of a change on related 
 
 
 Outliner view
-~~~~~~~~~~~~~
+-------------
 
 .. figure:: /images/Manual-2-56-PartIII-Outliner-Window.jpg
 
@@ -41,7 +41,7 @@ In the outliner, you can:
 
 
 Selecting the outliner window type
-==================================
+**********************************
 
 .. figure:: /images/Manual-2-56-PartIII-Outliner-Window-Type.jpg
 
@@ -53,7 +53,7 @@ Choose a window and :kbd:`lmb` on its current :guilabel:`Window type` button
 
 
 Using the Outliner
-==================
+******************
 
 Each row in the :guilabel:`Outliner` shows a datablock. You can click the plus-sign to the
 left of a name to expand the current datablock and see what other datablocks it contains.
@@ -66,7 +66,7 @@ To select the datablock in the scene, you have to activate it.
 
 
 Selecting and activating
-------------------------
+========================
 
 Single selection doesn't require any pre-selection: just work directly with :kbd:`lmb`
 (and/or :kbd:`rmb` - contextual menu, see below) *inside* the name/icon area.
@@ -141,7 +141,7 @@ Expanding/collapsing everything
 
 
 Toggling object-level restrictions
-----------------------------------
+==================================
 
 The three following options, in the right side of the :guilabel:`Outliner` window,
 are only available for objects:
@@ -188,7 +188,7 @@ are only available for objects:
 
 
 Searching
----------
+=========
 
 You can search the file for datablocks,
 either by using the :guilabel:`Search` menu in the header of the :guilabel:`Outliner`,
@@ -204,7 +204,7 @@ Matching datablocks will be automatically selected.
 
 
 Filtering the display
----------------------
+=====================
 
 .. figure:: /images/Manual-2-56-PartIII-Outliner-Display-Mode.jpg
 
@@ -238,7 +238,7 @@ FIXME(TODO: Internal Link;
 
 
 Example
--------
+=======
 
 .. figure:: /images/Manual-2-56-PartIII-Outliner-Scene-Example.jpg
 

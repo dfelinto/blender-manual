@@ -5,7 +5,7 @@ FIXME(Template Unsupported: Doc:2.6/Reference/Nodes/Node Editor;
 
 
 Buttons for work with Compositing nodes
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------
 
 .. figure:: /images/26-Manual-Compositing-Node-Header-Additionally.jpg
 
@@ -13,13 +13,13 @@ Buttons for work with Compositing nodes
 
 
 Free Unused Button
-__________________
+^^^^^^^^^^^^^^^^^^
 
 This button frees up memory space when you have a very complex node map. Recommended.
 
 
 Backdrop
-________
+^^^^^^^^
 
 Use the active viewer node output as a backdrop. When enabled,
 additional settings appear in the Header and the Properties Panel:
@@ -46,13 +46,13 @@ additional settings appear in the Header and the Properties Panel:
 
 
 Auto Render
-___________
+^^^^^^^^^^^
 
 Re-render and composite changed layer when edits to the 3d scene are made.
 
 
 Perfomance for Compositing Nodes in Node Editor
------------------------------------------------
+===============================================
 
 .. figure:: /images/26-Manual-Compositing-Node-Panel-Perfomance.jpg
 

@@ -1,6 +1,6 @@
 
 The VideoTexture module: bge.texture
-====================================
+************************************
 
 The ``VideoTexture`` module allows you to manipulate textures during the game.
 Several sources for texture are possible: video files, image files, video capture,
@@ -23,13 +23,13 @@ including but not limited to:
 
 
 Changes to VideoTexture in Blender 2.6
---------------------------------------
+======================================
 
 The ``VideoTexture`` module is now simply called ``bge.texture``.
 
 
 How it works
-------------
+============
 
 The principle is simple: first you identify an existing texture by object and name,
 then you create a new texture with dynamic content and swap the two textures in the GPU.
@@ -41,7 +41,7 @@ The present page is a guide to the ``VideoTexture`` module with simple examples.
 
 
 Game preparation
-----------------
+================
 
 Before you can use the thing ``VideoTexture`` module,
 you must have objects with textures applied appropriately.
@@ -64,7 +64,7 @@ etc.
 
 
 First example
--------------
+=============
 
 Let's assume that we have a game object with one or more faces assigned to a material/image on
 which we want to display a video.
@@ -90,7 +90,7 @@ only once.
 
 
 Find material
-~~~~~~~~~~~~~
+-------------
 
 ::
 
@@ -110,7 +110,7 @@ if we want to find the material called ``VideoMat`` on this object, the code bec
 
 
 Create texture
-~~~~~~~~~~~~~~
+--------------
 
 ``VideoTexture.Texture`` is the class that creates the ``Texture`` object that loads the dynamic texture on the GPU. The constructor takes one mandatory and three optional arguments:
 
@@ -135,7 +135,7 @@ Create texture
 
 
 Make texture persistent
-~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------
 
 Note that we have assigned the object to a ``GameLogic`` "\ ``video`` "
 attribute that we create for the occasion.
@@ -145,7 +145,7 @@ same time. ``GameLogic`` module object is a handy place to store persistent obje
 
 
 Create a source
-~~~~~~~~~~~~~~~
+---------------
 
 Now we have a ``Texture`` object but it can't do anything because it does not have
 any source. We must create a source object from one of the possible sources available in
@@ -205,7 +205,7 @@ And then assign (and reassign) the source during the game:
 
 
 Setup the source
-~~~~~~~~~~~~~~~~
+----------------
 
 The ``VideoFFmpeg`` source has several attributes to control the movie playback:
 
@@ -245,7 +245,7 @@ In case the video dimensions are already a power of 2, it has no effect.
 
 
 Play the video
-~~~~~~~~~~~~~~
+--------------
 
 We are now ready to play the video:
 ::
@@ -271,7 +271,7 @@ For video playback, you definitively want to set it to True.
 
 
 Checking video status
-~~~~~~~~~~~~~~~~~~~~~
+---------------------
 
 Video source classes (such as VideoFFMpeg) have an attribute ``status``.
 If video is playing, its value is 2, if it's stopped, it's 3. So in our example:
@@ -283,7 +283,7 @@ If video is playing, its value is 2, if it's stopped, it's 3. So in our example:
 
 
 Advanced work flow
-~~~~~~~~~~~~~~~~~~
+------------------
 
 True argument in ``Texture.refresh()`` method simply invalidates the image buffer
 after sending it to the GPU so that on next frame, a new image will be loaded from the source.
@@ -335,7 +335,7 @@ identify the texture by the texture slot where it is defined, here 2
 
 
 Advanced demos
---------------
+==============
 
 Here is a `demo <http://www.graphicall.org/ftp/ben2610/VideoTextureDemo2video.blend>`__
 that demonstrates the use of two videos alternatively on the same texture.

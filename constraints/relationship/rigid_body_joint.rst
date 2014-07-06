@@ -6,10 +6,10 @@
 
 
 Rigid Body Joint Constraint
-===========================
+***************************
 
 Description
------------
+===========
 
 The :guilabel:`Rigid Body Joint` constraint is very special. Basically, it is used by the
 physical part of the Blender Game Engine to simulate a joint between its owner and its target.
@@ -30,7 +30,7 @@ For a demo file that shows some of the different types, see: `BGE-Physics-RigidB
 
 
 Options
--------
+=======
 
 .. figure:: /images/25-Manual-Constraints-Relationship-RigidBodyJoint.jpg
    :width: 304px

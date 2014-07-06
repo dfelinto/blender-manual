@@ -1,6 +1,6 @@
 
 Bullet physics Python API
-=========================
+*************************
 
 Bullet Physics provides collision detection and rigid body dynamics for the Blender Game
 Engine. It takes some settings from Blender that previously were designed for the former

@@ -1,6 +1,6 @@
 
 Property Editing
-================
+****************
 
 Logic Properties are created and edited using the  panel on the left of the Logic Editor
 Panel. The top menu provides a list of the available property types.

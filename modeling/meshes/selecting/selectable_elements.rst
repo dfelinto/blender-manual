@@ -1,6 +1,6 @@
 
 Selectable Elements
-===================
+*******************
 
 As we have seen in the :doc:`mesh structure page <modeling/meshes/mesh_structures>`, meshes are made of different element types (even though they are all inter-related: in a way, they are different "views", "representations", of the same basic data...), "vertices", "edges" and "faces".
 
@@ -19,13 +19,13 @@ FIXME(TODO: Internal Link;
 
 
 Select Modes
-------------
+============
 
 You have two ways to switch between select modes:
 
 
 Select Mode popup
-~~~~~~~~~~~~~~~~~
+-----------------
 
 .. admonition:: Reference
    :class: refbox
@@ -57,7 +57,7 @@ so some tools are more or less applicable in some modes.
 
 
 Select Mode header widgets
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------
 
 .. admonition:: Reference
    :class: refbox
@@ -86,7 +86,7 @@ edges and/or faces at the same time!
 
 
 Selected elements after switching select mode
----------------------------------------------
+=============================================
 
 When switching modes in an "ascendant" way (i.e. from simpler to more complex), from
 :guilabel:`Vertices` to :guilabel:`Edges` and from :guilabel:`Edges` to :guilabel:`Faces`,

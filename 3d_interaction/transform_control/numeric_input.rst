@@ -1,6 +1,6 @@
 
 Numeric input
-=============
+*************
 
 .. figure:: /images/3D_interaction-Transform_Control-Numeric_Input_numeric-input-header.jpg
    :width: 300px
@@ -20,7 +20,7 @@ Negative numbers and decimals can be entered by pressing the minus (:kbd:`-`) an
 
 
 Translation
------------
+===========
 
 To move Objects, vertices, faces or edges select the element,
 press :kbd:`G` and then type a number. By default and with no other key presses,
@@ -51,7 +51,7 @@ setting of the 3D window header.
 
 
 Rotation
---------
+========
 
 To specify a value for clockwise rotation, press :kbd:`R`,
 :kbd:`0` -\ :kbd:`9`, then :kbd:`Enter` to confirm.
@@ -61,7 +61,7 @@ clockwise rotation is equivalent to -90 degrees of counter-clockwise rotation.
 
 
 Scaling
--------
+=======
 
 Objects, faces and edges can be scaled by pressing :kbd:`S`,
 :kbd:`0` -\ :kbd:`9`, then :kbd:`Enter` to confirm.,
@@ -74,7 +74,7 @@ pressing :kbd:`S`, :kbd:`0`:kbd:`.`:kbd:`5`,
 
 
 Numeric input via the Properties shelf
---------------------------------------
+======================================
 
 .. figure:: /images/3D_interaction-Transform_Control-Numeric_Input_properties-panel.jpg
    :width: 300px

@@ -1,6 +1,6 @@
 
 Color
-=====
+*****
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Color.jpg
    :width: 300px
@@ -16,7 +16,7 @@ In this tab you control the color of your strokes.
 
 
 Modifiers
----------
+=========
 
 There are four color modifiers available, which can be mixed with the base color using the usual methods (see for example the :doc:`Mix compositing node <composite_nodes/types/color#mix_node>` for further discussion of this topic). As with other modifier stacks in Blender, they are applied from top to bottom.
 
@@ -25,7 +25,7 @@ There are four color modifiers available, which can be mixed with the base color
 
 
 Along Stroke
-~~~~~~~~~~~~
+------------
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Color_Along_Stroke.jpg
    :width: 300px
@@ -42,7 +42,7 @@ The only settings here are those of the standard Blender color ramp!
 
 
 Distance from Camera
-~~~~~~~~~~~~~~~~~~~~
+--------------------
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Color_Distance_From_Camera.jpg
    :width: 300px
@@ -64,7 +64,7 @@ The other settings are those of the standard Blender color ramp!
 
 
 Distance from Object
-~~~~~~~~~~~~~~~~~~~~
+--------------------
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Color_Distance_From_Object.jpg
    :width: 300px
@@ -89,7 +89,7 @@ The other settings are those of the standard Blender color ramp!
 
 
 Material
-~~~~~~~~
+--------
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Color_Material.jpg
    :width: 300px

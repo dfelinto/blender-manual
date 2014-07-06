@@ -3,7 +3,7 @@
 
 
 Vertex Tools
-============
+************
 
 This page covers many of the tools in the :menuselection:`Mesh --> Vertices` menu.
 These are tools that work primarily on vertex selections, however,
@@ -11,10 +11,10 @@ some also work with edge or face selections.
 
 
 Merging
-=======
+*******
 
 Merging Vertices
-----------------
+================
 
 .. admonition:: Reference
    :class: refbox
@@ -48,7 +48,7 @@ it can to preserve edges and faces only partly involved in the reunion.
 
 
 AutoMerge Editing
------------------
+=================
 
 .. admonition:: Reference
    :class: refbox
@@ -64,7 +64,7 @@ as soon as a vertex moves closer to another one than the :guilabel:`Limit` setti
 
 
 Remove Doubles
---------------
+==============
 
 .. admonition:: Reference
    :class: refbox
@@ -84,10 +84,10 @@ Remove Doubles is a useful tool to simplify a mesh by merging vertices that are 
 
 
 Separating
-==========
+**********
 
 Rip
----
+===
 
 .. admonition:: Reference
    :class: refbox
@@ -104,7 +104,7 @@ borders of the faces of the other side of the rip.
 
 
 Examples
-~~~~~~~~
+--------
 
 .. figure:: /images/Doc26-rip-before.jpg
    :width: 300px
@@ -149,7 +149,7 @@ Examples
 
 
 Limitations
-~~~~~~~~~~~
+-----------
 
 Rip will only work when edges and/or vertices are selected.
 Using the tool when a face is selected (explicitly or implicitly), will return an error
@@ -159,7 +159,7 @@ it will also fail with message "\ ``No proper selection or faces include`` ".
 
 
 Rip Fill
---------
+========
 
 .. admonition:: Reference
    :class: refbox
@@ -188,7 +188,7 @@ it fills in the gap with geometry.
 
 
 Split
------
+=====
 
 .. admonition:: Reference
    :class: refbox
@@ -210,7 +210,7 @@ Note that the "copy" is left exactly at the same position as the original, so yo
 
 
 Separate
---------
+========
 
 .. admonition:: Reference
    :class: refbox
@@ -224,7 +224,7 @@ This will separate the selection in another mesh object, as described :doc:`here
 
 
 Vertex Connect
-==============
+**************
 
 .. admonition:: Reference
    :class: refbox
@@ -260,7 +260,7 @@ splitting the face into two new faces.
 
 
 Vertex Slide
-============
+************
 
 .. admonition:: Reference
    :class: refbox
@@ -307,7 +307,7 @@ There are three options available by holding the following keys:
 
 
 Smooth
-======
+******
 
 .. admonition:: Reference
    :class: refbox
@@ -322,7 +322,7 @@ This will apply once the :doc:`Smooth Tool <modeling/meshes/editing/deforming/sm
 
 
 Make Vertex Parent
-==================
+******************
 
 .. admonition:: Reference
    :class: refbox
@@ -336,7 +336,7 @@ This will parent the other selected object(s) to the vertices/edges/faces select
 
 
 Add Hook
-========
+********
 
 .. admonition:: Reference
    :class: refbox
@@ -350,7 +350,7 @@ Adds a :doc:`Hook Modifier <modifiers/deform/hooks>` (using either a new empty, 
 
 
 Blend From Shape, Propagate Shapes
-==================================
+**********************************
 
 .. admonition:: Reference
    :class: refbox

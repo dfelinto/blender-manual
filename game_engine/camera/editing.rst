@@ -1,6 +1,6 @@
 
 Camera Editing
-==============
+**************
 
 .. figure:: /images/BGE_Camera_Properties.jpg
    :width: 300px
@@ -26,7 +26,7 @@ The features in each panel will be described in detail below.
 
 
 Embedded Player
----------------
+===============
 
 .. figure:: /images/BGE_Camera_Properties_Game.jpg
    :width: 300px
@@ -39,7 +39,7 @@ Embedded Player
 
 
 Standalone Player
------------------
+=================
 
 .. figure:: /images/BGE_Camera_Properties_Standalone.jpg
    :width: 300px
@@ -81,7 +81,7 @@ This panel provides information for the Standalone Game Player which allows game
 
 
 Stereo
-------
+======
 
 .. figure:: /images/BGE_Camera_Properties_Stereo.jpg
    :width: 300px
@@ -102,7 +102,7 @@ by implication, that stereo displays will use to render images in the standalone
 
 
 Shading
--------
+=======
 
 .. figure:: /images/BGE_Camera_Properties_Shading.jpg
    :width: 300px
@@ -125,7 +125,7 @@ However the constraints of real-time display mean that only some of the faciliti
 
 
 Performance
------------
+===========
 
 .. figure:: /images/BGE_Camera_Properties_Performance.jpg
    :width: 300px
@@ -143,7 +143,7 @@ Performance
 
 
 Display
--------
+=======
 
 .. figure:: /images/BGE_Camera_Properties_Display.jpg
    :width: 300px

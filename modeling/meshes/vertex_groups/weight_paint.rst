@@ -1,6 +1,6 @@
 
 Weight Paint in a nutshell
-++++++++++++++++++++++++++
+""""""""""""""""""""""""""
 
 .. figure:: /images/26-Manual-Modeling-Meshes-weight-paint-example.jpg
 
@@ -36,7 +36,7 @@ Weight Paint in a nutshell
 
 
 Weight Paint Mode
-=================
+*****************
 
 Vertex Groups can potentially have a very large number of associated vertices and thus a large
 number of weights (one weight per assigned vertex). :guilabel:`Weight Painting` is a method to
@@ -52,7 +52,7 @@ And since painting is always associated with color, we also need to define ...
 
 
 The weighting Color Code
-------------------------
+========================
 
 Weights are visualized by using a cold/hot color system, such that areas of low influence
 (with weights close to 0.0) are drawn in blue (cold) and areas of high influence
@@ -78,7 +78,7 @@ Thus you can see the referenced areas (drawn in cold/hot colors) and the unrefer
 
 
 Brushes
-=======
+*******
 
 .. figure:: /images/26-Manual-Modeling-Meshes-Weight-Paint-Brush.jpg
 
@@ -93,7 +93,7 @@ See below for the available brush presets and to create custom presets.
 
 
 The main brush properties
-+++++++++++++++++++++++++
+"""""""""""""""""""""""""
 
 The most important and frequently modified properties are:
 
@@ -117,7 +117,7 @@ The most important and frequently modified properties are:
 
 
 Normalize Options
-+++++++++++++++++
+"""""""""""""""""
 
 Blender also provides Options regarding the automatic normalizing of all affected Vertex
 groups:
@@ -134,7 +134,7 @@ groups:
 
 
 The Brush stroke definition
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 .. figure:: /images/26-Manual-Modeling-Meshes-weight-paint-stroke.jpg
    :width: 235px
@@ -164,7 +164,7 @@ Factor
 
 
 The brush Falloff curve
-~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------
 
 .. figure:: /images/26-Manual-Modeling-Meshes-weight-paint-curve.jpg
    :width: 235px
@@ -178,7 +178,7 @@ extent. The usage should be obvious and intuitive.
 
 
 The brush appearance
-~~~~~~~~~~~~~~~~~~~~
+--------------------
 
 .. figure:: /images/26-Manual-Modeling-Meshes-weight-paint-appearance.jpg
    :width: 235px
@@ -196,7 +196,7 @@ Custom icon
 
 
 Brush presets
-~~~~~~~~~~~~~
+-------------
 
 Blender provides several Brush presets:
 
@@ -210,7 +210,7 @@ Blender provides several Brush presets:
 
 
 Customizing brush color space
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------
 
 .. figure:: /images/26-Manual-Modeling-Meshes-weight-paint-custom-colorband.jpg
 
@@ -225,7 +225,7 @@ You find the customizer in the User Properties section, in the System Tab.
 
 
 Selection Masking
-=================
+*****************
 
 If you have a complex mesh,
 it is sometimes not easy to paint on all vertices in Weight Paint mode.
@@ -250,7 +250,7 @@ and :guilabel:`Vertex selection masking` (right icon).
 
 
 Details about selecting
-+++++++++++++++++++++++
+"""""""""""""""""""""""
 
 The following standard selection operations are supported:
 
@@ -270,7 +270,7 @@ The following standard selection operations are supported:
 
 
 Vertex Selection Masking
-~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------
 
 .. figure:: /images/26-Manual-Modeling-Meshes-weight-paint-vertex-select.jpg
 
@@ -284,7 +284,7 @@ Note: This option can also be toggled with the :kbd:`v` key:
 
 
 Face Selection Masking
-~~~~~~~~~~~~~~~~~~~~~~
+----------------------
 
 .. figure:: /images/26-Manual-Modeling-Meshes-weight-paint-face-select.jpg
 
@@ -301,7 +301,7 @@ tool to those faces, very similar to Vertex selection masking.
 
 
 Hide/Unhide Faces
-+++++++++++++++++
+"""""""""""""""""
 
 You also can hide selected faces as in Edit Mode with the keyboard Shortcut :kbd:`H`,
 then paint on the remaining visible faces and finally unhide the hidden faces again by using
@@ -309,7 +309,7 @@ then paint on the remaining visible faces and finally unhide the hidden faces ag
 
 
 Hide/Unhide Vertices
-++++++++++++++++++++
+""""""""""""""""""""
 
 You cannot directly hide selected faces in vertex mask selection mode.
 However you can use a trick:
@@ -323,7 +323,7 @@ Now the verts belonging to the hidden Faces will remain hidden.
 
 
 The Clipping Border
-+++++++++++++++++++
+"""""""""""""""""""
 
 To constrain the paint area further you can use the *Clipping Border*.
 Press :kbd:`alt-B` and :kbd:`lmb` -drag a rectangular area.
@@ -343,7 +343,7 @@ weight gradient and of course brush strokes.
 
 
 Weight Paint Options
-====================
+********************
 
 .. figure:: /images/26-Manual-Modeling-Meshes-weight-paint-options.jpg
 
@@ -384,7 +384,7 @@ be shared across different brushes, as opposed to per-brush.
 
 
 Weight Paint Tools
-==================
+******************
 
 .. figure:: /images/26-Manual-Modeling-Meshes-weight-paint-tools.jpg
 
@@ -398,7 +398,7 @@ The weight paint tools are full described in the :doc:`Weight Paint Tools <model
 
 
 Weight Painting for Bones
-=========================
+*************************
 
 This is probably the most often used application of weight painting. When a bone moves, vertices around the joint should move as well, but just a little, to mimic the stretching of the skin around the joint. Use a "light" weight (10-40%) paint on the vertices around the joint so that they move a little when the bone rotates. While there are ways to automatically assign weights to an armature (see the :doc:`Armature section <rigging>`), you can do this manually. To do this from scratch, refer to the process below. To modify automatically assigned weights, jump into the middle of the process where noted:
 
@@ -435,7 +435,7 @@ Then the mirrored groups with the mirrored weights are automatically created.
 
 
 Weight Painting for Particles
-=============================
+*****************************
 
 .. figure:: /images/Manual-WeightPaint-particles.jpg
 

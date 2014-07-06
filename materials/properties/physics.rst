@@ -8,7 +8,7 @@ FIXME(TODO: Internal Link;
 
 
 Game Physics
-============
+************
 
 .. figure:: /images/2.6-Materials-Properties-Game-Physics-Settings.jpg
 

@@ -1,6 +1,6 @@
 
 Dynamic Physics Object Type
-===========================
+***************************
 
 Dynamic objects in the :doc:`Game Engine <game_engine>` give/receive collisions,
 but when they do so they themselves do not rotate in response.
@@ -19,7 +19,7 @@ For more documentation, see the :doc:`Top BGE Physics page <game_engine/physics>
 
 
 Options
--------
+=======
 
 FIXME(Template Unsupported: Doc:2.6/Manual/Game_Engine/Physics/PythonAccessToOptions;
 {{Doc:2.6/Manual/Game_Engine/Physics/PythonAccessToOptions}}
@@ -60,7 +60,7 @@ FIXME(Template Unsupported: Doc:2.6/Manual/Game_Engine/Physics/TransformOptions;
 
 
 Collision Bounds
-----------------
+================
 
 FIXME(Template Unsupported: Doc:2.6/Manual/Game_Engine/Physics/Collision_Bounds;
 {{Doc:2.6/Manual/Game_Engine/Physics/Collision_Bounds}}
@@ -68,7 +68,7 @@ FIXME(Template Unsupported: Doc:2.6/Manual/Game_Engine/Physics/Collision_Bounds;
 
 
 Create Obstacle
----------------
+===============
 
 FIXME(Template Unsupported: Doc:2.6/Manual/Game_Engine/Physics/Create_Obstacle;
 {{Doc:2.6/Manual/Game_Engine/Physics/Create_Obstacle}}
@@ -76,7 +76,7 @@ FIXME(Template Unsupported: Doc:2.6/Manual/Game_Engine/Physics/Create_Obstacle;
 
 
 All Types
----------
+=========
 
 FIXME(Template Unsupported: Doc:2.6/Manual/Game_Engine/Physics/AllTypes;
 {{Doc:2.6/Manual/Game_Engine/Physics/AllTypes}}

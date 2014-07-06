@@ -3,7 +3,7 @@
 
 
 Area Lamp
-=========
+*********
 
 The :guilabel:`Area` lamp simulates light originating from a surface (or surface-like)
 emitter. For example, a TV screen, your supermarket's neon lamps, a window,
@@ -20,7 +20,7 @@ This is in direct contrast to point-like artificial lights which produce sharp b
 
 
 Lamp options
-------------
+============
 
 :guilabel:`Distance`, :guilabel:`Energy` and :guilabel:`Color`
    These settings are common to most types of lamps, and are described in :doc:`Light Properties <lighting/lights/light_properties>`.
@@ -37,7 +37,7 @@ Lamp options
 
 
 Shadows
--------
+=======
 
 Area light ray-traced shadows are described here: :doc:`Raytraced Shadows <lighting/lamps/area/raytraced_shadows>`.
 
@@ -57,7 +57,7 @@ the :guilabel:`Shadow` panel has the following default layout:
 
 
 Area Shape
-----------
+==========
 
 The shape of the area light can be set to :guilabel:`Square` or :guilabel:`Rectangle`.
 

@@ -3,7 +3,7 @@
 
 
 Composite Convertor Nodes
-=========================
+*************************
 
 As the name implies, these nodes convert the colors or other properties of various data (e.g.
 images) in some way.
@@ -14,7 +14,7 @@ and the newest High Definition Media Interface (HDMI) formats.
 
 
 ColorRamp Node
---------------
+==============
 
 The ColorRamp Node is used for mapping values to colors with the use of a gradient. It works exactly the same way as a :doc:`colorband for textures and materials <materials/properties/ramps>`, using the Factor value as a slider or index to the color ramp shown, and outputting a color value and an alpha value from the output sockets.
 
@@ -51,7 +51,7 @@ Use the A: button to define the Alpha value of the selected color for each color
 
 
 Using ColorRamp to create an Alpha Mask
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------
 
 A powerful but often overlooked feature of the ColorRamp is to create an Alpha Mask,
 or a mask that is overlaid on top of another image, and, like a mask,
@@ -83,7 +83,7 @@ lighting flashes.
 
 
 Using ColorRamp to Colorize an Image
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------
 
 The real power of ColorRamp is that multiple colors can be added to the color spectrum.
 This example compositing map takes a boring BW image and makes it a flaming swirl!
@@ -100,13 +100,13 @@ Where the image is fully white, ColorRamp chooses red.
 
 
 RGB to BW Node
---------------
+==============
 
 This node converts an RGB input and outputs a greyscale image.
 
 
 Set Alpha Node
---------------
+==============
 
 .. figure:: /images/Tutorials-NTR-ComSetAlpha.jpg
 
@@ -129,7 +129,7 @@ the Alpha factor can be set by feeding its socket.
 
 
 Using SetAlpha to Fade to Black
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------
 
 To transition the audience from one scene or shot to another,
 a common technique is to "fade to black". As its name implies,
@@ -153,7 +153,7 @@ In the example above, the alpha channel of the swirl image is ignored. Instead, 
 
 
 Using SetAlpha to Fade In a Title
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------
 
 To introduce your animation,
 you will want to present the title of your animation over a background.
@@ -175,7 +175,7 @@ where the title lets the background image show through where even the background
 transparent, allowing you to layer images on top of one another.
 
 Using SetAlpha to Colorize a BW Image
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------
 
 .. figure:: /images/Manual-Compositing-SetAlpha_Colorize.jpg
 
@@ -191,7 +191,7 @@ which tells the AlphaOver node not to multiply the alpha values of the two image
 
 
 ID Mask Node
-------------
+============
 
 .. figure:: /images/Manual-Compositing-Node-IDMask.jpg
 
@@ -225,7 +225,7 @@ node or DOF noodles caused by some objects being close to camera against objects
 
 
 Example
-~~~~~~~
+-------
 
 .. figure:: /images/Manual-Compositing-Node-IDMask_ex.jpg
    :width: 300px
@@ -252,7 +252,7 @@ the mask will not reflect that partially obscured part.
 
 
 Math Node
----------
+=========
 
 .. figure:: /images/Manual-Compositing-Node-Math.jpg
 
@@ -274,10 +274,10 @@ FIXME(Template Unsupported: Version;
 
 
 Examples
-~~~~~~~~
+--------
 
 Manual Z-Mask
-_____________
+^^^^^^^^^^^^^
 
 .. figure:: /images/Manual-Compositing-Node-Math_MinMax.jpg
    :width: 300px
@@ -304,7 +304,7 @@ so they are chosen for the left side, but the plane (FlyCam) Renderlayer's Z are
 
 
 Using Sine Function to Pulsate
-______________________________
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: /images/Manual-Compositing-Node-Math_Sine.jpg
 
@@ -330,7 +330,7 @@ Alter a color channel value to make a color "pulse".
 
 
 Brightening/Scaling a Channel
-_____________________________
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: /images/Manual-Compositing-Node-Math_Multiply.jpg
 
@@ -344,7 +344,7 @@ there is also a Brighten/Contrast node that might give simpler control over brig
 
 
 Quantize/Restrict Color Selection
-_________________________________
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 In this example, we want to restrict the color output to only 256 possible values.
 Possible use of this is to see what the image will look like on an 8-bit cell phone display.
@@ -365,7 +365,7 @@ give more possible values to the predominant colors in the image.
 
 
 Theory
-~~~~~~
+------
 
 `Two Approaches to Quantizing to 6 values <http://wiki.blender.org/index.php/File:Manual-Compositing-Node-Math_ColorBand>`__
 
@@ -427,7 +427,7 @@ Thank a Teacher if you understand this.
 
 
 Reality
-_______
+^^^^^^^
 
 .. figure:: /images/Manual-Compositing-Node-Math_Quantize-Red.jpg
    :width: 650px
@@ -455,7 +455,7 @@ otherwise set manually, just to error-proof your work.
 
 
 Summary
-_______
+^^^^^^^
 
 Normally, an output render consists of 32- or 24-bit color depth,
 and each pixel can be one of millions of possible colors.
@@ -485,7 +485,7 @@ You can use this noodle to quantize any channel; alpha, speed (vector), z-values
 
 
 Combine/Separate Nodes
-----------------------
+======================
 
 All of these node do essentially the same thing: they split out an image into
 (or recombine an image from) its composite color channels. Each format supports the Alpha
@@ -504,7 +504,7 @@ There are several color spaces supported:
 See the global wikipedia for more information on color spaces.
 
 Separate/Combine RGBA Node
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------
 
 .. figure:: /images/Tutorials-NTR-ComSepRGBA.jpg
 
@@ -526,7 +526,7 @@ You use this node combine the channels after working on each color channel separ
 
 
 Examples
-________
+^^^^^^^^
 
 .. figure:: /images/Manual-Compositing-Covert-CombineRGBA.jpg
    :width: 200px
@@ -553,7 +553,7 @@ Very fun.
 
 
 Separate/Combine HSVA Nodes
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 .. figure:: /images/Tutorials-NTR-ComSepHSVA.jpg
 
@@ -573,7 +573,7 @@ You could isolate a specific range of colors
 
 
 Separate/Combine YUVA Node
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------
 
 .. figure:: /images/Manual-Compositing_Nodes-Separate_YUVA.jpg
 
@@ -595,7 +595,7 @@ can set a default value for the whole image for that channel using the numeric c
 
 
 Separate/Combine YCbCrA Node
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------
 
 .. figure:: /images/Manual-Compositing_Nodes-Separate_YCbCrA.jpg
 
@@ -625,7 +625,7 @@ but I can't. So, you'll have to figure this node out on your own.
 
 
 Alpha Convert
--------------
+=============
 
 ...
 

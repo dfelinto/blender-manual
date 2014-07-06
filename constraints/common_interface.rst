@@ -3,7 +3,7 @@
 
 
 Constraints Common Interface
-============================
+****************************
 
 .. figure:: /images/25-Manual-Constraints-Subpanel-3parts.jpg
    :width: 303px
@@ -25,7 +25,7 @@ that is split into three parts:
 
 
 Constraints Header
-------------------
+==================
 
 .. figure:: /images/25-Manual-Constraints-Subpanel-header.jpg
    :width: 406px
@@ -60,7 +60,7 @@ The "X" control
 
 
 Constraints Settings
---------------------
+====================
 
 .. figure:: /images/25-Manual-Constraints-Subpanel-body.jpg
    :width: 303px
@@ -74,7 +74,7 @@ there are two points that are common to many constraints, so we will detail them
 
 
 The target
-~~~~~~~~~~
+----------
 
 Most constraints need another "target" object or bone to "guide" them.
 You select which by selecting its name in the :guilabel:`Target` field.
@@ -99,7 +99,7 @@ bones' roots are called "heads", and bones' tips, "tails"...).
 
 
 The Constraint Space ({{Literal|Space}})
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------
 
 For many constraints you can choose in which space it is evaluated/applied.
 In the Space drop-down lists, the right side one is the space that the owner is evaluated in
@@ -143,7 +143,7 @@ to visualize the various spaces specificities...).
 
 
 Influence
----------
+=========
 
 .. figure:: /images/25-Manual-Constraints-Subpanel-influence.jpg
    :width: 303px

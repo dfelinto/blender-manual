@@ -1,6 +1,6 @@
 
 Armature visualization
-======================
+**********************
 
 We have 4 basic bone visualization: Octahedral, Stick, B-Bone, Envelope and Wire:
 
@@ -34,7 +34,7 @@ We have 4 basic bone visualization: Octahedral, Stick, B-Bone, Envelope and Wire
 
 
 Display Panel
-=============
+*************
 
 .. admonition:: Reference
    :class: refbox
@@ -55,7 +55,7 @@ found in the :guilabel:`Display` panel of the :guilabel:`Object data` context.
 
 
 Bone types
-----------
+==========
 
 .. figure:: /images/ManRiggingOctahedronEx3DViewEditMode.jpg
    :width: 250px
@@ -67,7 +67,7 @@ Bone types
 
 
 Octahedral bone
-~~~~~~~~~~~~~~~
+---------------
 
 This is the default visualization, well suited for most of editing tasks. It materializes:
 
@@ -85,7 +85,7 @@ This is the default visualization, well suited for most of editing tasks. It mat
 
 
 Stick bone
-~~~~~~~~~~
+----------
 
 This is the simplest and most non-intrusive visualization.
 It just materializes bones by sticks of constant (and small) thickness,
@@ -100,7 +100,7 @@ so it gives you no information about root and tip, nor bone size or roll angle.
 
 
 B-Bone bone
-~~~~~~~~~~~
+-----------
 
 This visualization shows the curves of "smooth" multi-segmented bones; see the :doc:`bone page <rigging/armatures/bones#bones_rigidity>` for details.
 
@@ -113,13 +113,13 @@ This visualization shows the curves of "smooth" multi-segmented bones; see the :
 
 
 Envelope bone
-~~~~~~~~~~~~~
+-------------
 
 This visualization materializes the bone deformation influence. More on this in the :doc:`bone page <rigging/armatures/bones#bones_influence>`.
 
 
 Attributes
-----------
+==========
 
 :guilabel:`Names`
    When enabled, the name of each bone is drawn.
@@ -144,7 +144,7 @@ Attributes
 
 
 Shaped Bones
-------------
+============
 
 .. admonition:: Reference
    :class: refbox
@@ -166,7 +166,7 @@ First of all, you have to enable the :guilabel:`Shapes` button (:guilabel:`Armat
 
 
 Attributes
-~~~~~~~~~~
+----------
 
 :guilabel:`Wireframe`
    When enabled, bone is displayed in wireframe mode regardles of the viewport drawing mode. Useful for non-obstructive custom bone chains.
@@ -224,7 +224,7 @@ with their center at their lower-Y end, and an overall Y length of **1.0** BU.
 
 
 Armature Layers
-===============
+***************
 
 .. admonition:: Reference
    :class: refbox
@@ -247,7 +247,7 @@ hide or show one or several layers, etc.
 
 
 Showing/hiding bone layers
---------------------------
+==========================
 
 Only bones in active layers will be visible/editable - but they will always be effective
 (i.e move objects or deform geometry), whether in an active layer or not. To
@@ -258,7 +258,7 @@ Only bones in active layers will be visible/editable - but they will always be e
 
 
 Protected Layers
-----------------
+================
 
 You can lock a given bone layer for all :doc:`proxies <data_system/linked_libraries#proxy_objects>` of your armature, i.e. all bones in this layer won't be editable. To do so, in the :guilabel:`Skeleton` panel, :kbd:`ctrl-lmb` click on the relevant button, the layer lock will be enabled.
 
@@ -266,7 +266,7 @@ Protected layers in proxy are restored to proxy settings on file reload and undo
 
 
 Bone Layers
-===========
+***********
 
 .. admonition:: Reference
    :class: refbox
@@ -283,7 +283,7 @@ Bone Layers
 
 
 Moving bones between layers
----------------------------
+===========================
 
 Obviously, you have to be in :guilabel:`Edit` or :guilabel:`Pose` modes to move bones between
 layers - note that as with objects, bones can lay in several layers at once,
@@ -295,7 +295,7 @@ you have to select the chosen bone(s)!
 
 
 Hiding Bones
-============
+************
 
 .. admonition:: Reference
    :class: refbox

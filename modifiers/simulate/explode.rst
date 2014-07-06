@@ -3,7 +3,7 @@
 
 
 Explode Modifier
-================
+****************
 
 .. admonition:: Reference
    :class: refbox
@@ -47,7 +47,7 @@ button to see the animation:
 
 
 Stacking Order Importance
--------------------------
+=========================
 
 This modifier is highly affected by its position within the modifier stacking order.  If it is
 applied before a Particle System modifier it will not be affected by particles and therefore
@@ -56,7 +56,7 @@ because the Particle System Modifier has the information needed to drive the Exp
 
 
 Options
--------
+=======
 
 .. figure:: /images/Doc26-explodeModifier.jpg
 

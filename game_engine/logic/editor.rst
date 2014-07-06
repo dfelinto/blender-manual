@@ -1,6 +1,6 @@
 
 Logic Editor
-============
+************
 
 The Logic Editor provides the main method of setting up and editing the game logic for the
 various actors (i.e. objects) that make up the game.  The logic for the objects which are

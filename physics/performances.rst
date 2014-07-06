@@ -1,15 +1,15 @@
 
 Simulation performance adjustments
-==================================
+**********************************
 
 OpenMP (Mac OSX)
-----------------
+================
 
 How to use the distributed applescript to optimize simulation performance on OSX
 
 
 Suboptimal baking performance
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------
 
 Often you will encounter suboptimal baking performance with openMP (OMP)
 multithreaded simulations, especially fluids.
@@ -23,7 +23,7 @@ to a low number instead of letting OMP just use all available cores.
 
 
 Solution
-~~~~~~~~
+--------
 
 For OSX openMP-enabled Blender you can now use a delivered applescript to tune the
 OMP-threads used. This makes usage of the terminal obsolete.
@@ -36,7 +36,7 @@ This is the same what openMP would pull without the environment variable set.
 
 
 Steps to use the applescript
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------
 
 - In your Blenderfolder open the "set_simulation_threads" applescript
 

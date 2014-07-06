@@ -3,7 +3,7 @@
 
 
 Point Density Texture
-=====================
+*********************
 
 Point density renders a given point cloud (object vertices or particle system) as a 3D volume,
 using a user-defined radius for the points. Internally,
@@ -17,7 +17,7 @@ can be visualized using a color/alpha ramp gradient.
 
 
 Options
--------
+=======
 
 :guilabel:`Particle System`
    Particle System, Generate point density from a particle system.
@@ -73,7 +73,7 @@ Options
 
 
 Turbulence
-~~~~~~~~~~
+----------
 
 Adds directed noise to the density at render time
 

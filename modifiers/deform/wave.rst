@@ -1,6 +1,6 @@
 
 Wave Modifier
-=============
+*************
 
 .. admonition:: Reference
    :class: refbox
@@ -10,7 +10,7 @@ Wave Modifier
 
 
 Description
------------
+===========
 
 The :guilabel:`Wave` modifier adds an ocean-like motion to the Z coordinate of the object's
 vertices/control points. This modifier is available for meshes, lattices, curves,
@@ -21,7 +21,7 @@ surfaces and texts, with a few restrictions for non-\ *mesh* objects:
 
 
 Options
--------
+=======
 
 .. figure:: /images/25-Manual-Modifiers-Wave.jpg
 
@@ -104,7 +104,7 @@ Options
 
 
 Technical Details and Hints
----------------------------
+===========================
 
 The relationship of the above values is described here:
 

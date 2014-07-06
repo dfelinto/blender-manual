@@ -1,6 +1,6 @@
 
 Camera
-======
+******
 
 The Game Engine camera is in many ways similar to the Camera in the normal Blender Render
 system, and is created, parameterized and manipulated in similar ways.
@@ -25,7 +25,7 @@ you must select the camera and press :kbd:`pad0` before starting the Game Engine
 
 
 Default Camera
---------------
+==============
 
 The default camera view is taken from the latest 3D viewport view,
 at a distance equivalent to the viewer. This means that if the normal 3D view is active the
@@ -33,7 +33,7 @@ scene does not change when the Game Engine is started.
 
 
 Camera Object
--------------
+=============
 
 The Camera object in the Game Engine follows much the same structure as the conventional Blender camera - see
 :doc:`Camera <render/camera>` for details of how to set up,
@@ -41,7 +41,7 @@ manipulate and select a camera. The following sections show some of the special 
 
 
 Parent Camera to Object
------------------------
+=======================
 
 The camera will follow the object. First select the camera and then select the object.
 Next :kbd:`ctrl-P` → :guilabel:`Make Parent`.
@@ -51,7 +51,7 @@ To avoid this use "Parent to Vertex" (see below).
 
 
 Parent to Vertex
-----------------
+================
 
 The easiest way to accomplish this is to select your object and :kbd:`Tab` to
 :guilabel:`Edit mode`.
@@ -66,7 +66,7 @@ while the object rotates.
 
 
 Object as a Camera
-------------------
+==================
 
 Any object may also become a camera with whatever properties are set for the object.
 
@@ -77,7 +77,7 @@ To reverse it, just select the camera and :kbd:`ctrl-pad0` again.
 
 
 Camera Lens Shift
------------------
+=================
 
 In the Blender interface,
 there is an option to shift the camera view on the x/y plane of the view. It is comparable to

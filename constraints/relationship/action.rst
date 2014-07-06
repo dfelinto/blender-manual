@@ -3,7 +3,7 @@
 
 
 Action Constraint
-=================
+*****************
 
 The :guilabel:`Action` constraint is powerful. It allows you control an :doc:`Action <animation/editors/dopesheet/action>` using the transformations of another object.
 
@@ -30,7 +30,7 @@ the owner will be as if in frame **50** of the linked action, etc.
 
 
 Options
--------
+=======
 
 .. figure:: /images/25-Manual-Constraints-Relationship-Action.jpg
    :width: 293px
@@ -85,7 +85,7 @@ Options
 
 
 Notes
------
+=====
 
 - When the linked action affects some location properties, the owner's existing location is added to the result of evaluating this constraint (exactly as when the :guilabel:`Offset` button of the :doc:`Copy Location constraint <constraints/transform/copy_location>` is enabled...).
 - When the linked action affects some scale properties, the owner's existing scale is multiplied with the result of evaluating this constraint.

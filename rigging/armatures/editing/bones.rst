@@ -1,6 +1,6 @@
 
 Editing Bones
-=============
+*************
 
 .. admonition:: Reference
    :class: refbox
@@ -28,7 +28,7 @@ FIXME(TODO: Internal Link;
 
 
 Adding Bones
-------------
+============
 
 To add bones to your armature, you have more or less the same options as when editing meshes:
 
@@ -40,7 +40,7 @@ To add bones to your armature, you have more or less the same options as when ed
 
 
 Add Menu
-~~~~~~~~
+--------
 
 .. admonition:: Reference
    :class: refbox
@@ -61,7 +61,7 @@ This bone will be:
 
 
 Extrusion
-~~~~~~~~~
+---------
 
 .. admonition:: Reference
    :class: refbox
@@ -126,7 +126,7 @@ FIXME(TODO: Internal Link;
 
 
 Mouse Clicks
-~~~~~~~~~~~~
+------------
 
 .. admonition:: Reference
    :class: refbox
@@ -209,7 +209,7 @@ to consecutively add several bones to the end of the same chain.
 
 
 Fill between joints
-~~~~~~~~~~~~~~~~~~~
+-------------------
 
 .. admonition:: Reference
    :class: refbox
@@ -295,7 +295,7 @@ You will get an error when:
 
 
 Duplication
-~~~~~~~~~~~
+-----------
 
 .. admonition:: Reference
    :class: refbox
@@ -336,14 +336,14 @@ its copy will be parented **but not connected** to the unselected bone
 
 
 Deleting Bones
---------------
+==============
 
 You have two ways to remove bones from an armature: the standard deletion,
 and merging several bones in one.
 
 
 Standard deletion
-~~~~~~~~~~~~~~~~~
+-----------------
 
 .. admonition:: Reference
    :class: refbox
@@ -379,7 +379,7 @@ to avoid deforming the whole armature.
 
 
 Merge
-~~~~~
+-----
 
 .. admonition:: Reference
    :class: refbox
@@ -423,7 +423,7 @@ differently depending in which chain is the edited bone
 
 
 Subdividing Bones
------------------
+=================
 
 .. admonition:: Reference
    :class: refbox
@@ -461,7 +461,7 @@ if you set ``n`` cuts, you'll get ``n+1`` bones for each selected bone.
 
 
 Locking Bones
--------------
+=============
 
 You can prevent a bone from being transformed in :guilabel:`Edit mode` in several ways:
 
@@ -474,13 +474,13 @@ You can prevent a bone from being transformed in :guilabel:`Edit mode` in severa
 
 
 X-Axis Mirror Editing
----------------------
+=====================
 
 Another very useful tool is the :guilabel:`X-Axis Mirror` editing option (:guilabel:`Tool panel` > :guilabel:`Armature Options`, while Armature is selected in :guilabel:`Edit Mode`), working a bit like the same :doc:`mesh editing tool <modeling/meshes/tools/transform_deform#mirror_editing>`. When you have pairs of bones of the same name with just a different "side suffix" (e.g. ``.R`` / ``.L``, or ``_right`` / ``_left`` ...), once this option is enabled, each time you transform (move/rotate/scale...) a bone, its "other side" counterpart will be transformed accordingly, through a *symmetry along the armature local X axis*. As most rigs have at least one axis of symmetry (animals, humans, ...), it's an easy way to spare you half of the editing work! See also :doc:`next page <rigging/armatures/editing/properties#naming_bones>` for more on naming bones.
 
 
 Separating Bones in a new Armature
-----------------------------------
+==================================
 
 You can, as with meshes, separate the selected bones in a new armature object
 (:menuselection:`Armature --> Separate`, :kbd:`ctrl-alt-P`) - and of course,

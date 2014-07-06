@@ -3,14 +3,14 @@
 
 
 Composite Distort Nodes
-=======================
+***********************
 
 These nodes distort the image in some fashion, operating either uniformly on the image,
 or by using a mask to vary the effect over the image.
 
 
 Translate Node
---------------
+==============
 
 .. figure:: /images/Tutorials-NTR-ComTranslate.jpg
 
@@ -33,7 +33,7 @@ and alphaovered with a Hello scene RenderLayer input
 
 
 Example: Using the Translate Node to Roll Credits
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------------
 
 At the end of your fantastic animation, you'll want to give credit where credit is due. This
 is called rolling the credits and you see the names of everyone involved scroll up over a
@@ -74,7 +74,7 @@ simply load up a different background image and re-Animate.
 
 
 Example: Moving a Matte
-~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------
 
 In some 2D and 3D animations and movies, a matte painting is used as the background.
 In most scenes it is still, however you can easily move it using the Translate node.
@@ -99,7 +99,7 @@ The matte is adjusted up to fake a camera height of an observer, bringing the ho
 
 
 Example: Shake, Rattle and Roll
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------
 
 A real world effect is the shaking of the camera.
 BOOM! We expect to feel the impact and see it rock our world. In our virtual CG world, though,
@@ -179,7 +179,7 @@ I noticed cool camera shakes while watching the Halo 3 previews.*
 
 
 Rotate Node
------------
+===========
 
 .. figure:: /images/Manual-Compositing_Nodes-Rotate.jpg
 
@@ -191,7 +191,7 @@ Positive values rotate clockwise and negative ones counterclockwise.
 
 
 Scale Node
-----------
+==========
 
 .. figure:: /images/Manual-Compositing_Nodes-Scale.jpg
 
@@ -215,7 +215,7 @@ you must scale the second to match the resolution of the first.
 
 
 Flip Node
-~~~~~~~~~
+---------
 
 .. figure:: /images/Manual-Compositing_Nodes-Flip.jpg
 
@@ -230,7 +230,7 @@ Mix half of the image to be mirrored with its flipped version to produce mirrore
 
 
 Displace Node
--------------
+=============
 
 Ever look down the road on a hot summer day? See how the image is distorted by the hot air?
 That's because the light is being bent by the air; the air itself is acting like a lens.
@@ -263,7 +263,7 @@ Because of this, you can use the displace node in two ways, with a greyscale mas
 such as a normal pass, which will displace the pixels based on the normal direction.
 
 Example
-~~~~~~~
+-------
 
 .. figure:: /images/Manual-Compositing-Nodes-Displace_example.jpg
    :width: 300px
@@ -292,7 +292,7 @@ made by the wizard programmer himself, by following this
 
 
 Map UV Node
------------
+===========
 
 .. figure:: /images/Manual-Compositing-Node-MapUV.jpg
 
@@ -320,7 +320,7 @@ it helps to have the UV maps for the original objects in the scene,
 so keep those UV texture outlines around even after all shooting is done.
 
 Examples
-~~~~~~~~
+--------
 
 .. figure:: /images/Manual-Compositing-Node-MapUV_ex.jpg
    :width: 300px
@@ -356,7 +356,7 @@ Let's keep it to ourselves for now.
 
 
 Crop Node
----------
+=========
 
 The Crop Node takes an input image and crops it to a selected region.
 
@@ -369,7 +369,7 @@ The Crop Node takes an input image and crops it to a selected region.
 
 
 Lens Distortion
----------------
+===============
 
 Use this node to simulate distortions that real camera lenses produce.
 

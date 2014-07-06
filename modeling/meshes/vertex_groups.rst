@@ -1,6 +1,6 @@
 
 Vertex Groups
-=============
+*************
 
 :doc:`- Create&Delete vertex groups <modeling/meshes/vertex_groups/vertex_groups>`
    General overview about creating and maintaining Vertex Groups

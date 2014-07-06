@@ -3,7 +3,7 @@
 
 
 Damped Track Constraint
-=======================
+***********************
 
 The :guilabel:`Damped Track` constraint constrains one local axis of the owner to always point
 towards :guilabel:`Target`.
@@ -11,7 +11,7 @@ In another 3D software you can find it with the name "Look at" constraint.
 
 
 Options
--------
+=======
 
 .. figure:: /images/25-Manual-Constraints-Tracking-DampedTrack.jpg
    :width: 304px

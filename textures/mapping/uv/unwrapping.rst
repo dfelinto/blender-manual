@@ -3,7 +3,7 @@
 
 
 UV Mapping a Mesh
-=================
+*****************
 
 The first step is to unwrap your mesh. You want to unwrap when you feel your mesh is complete
 with respect to the number of faces it needs to have.
@@ -16,7 +16,7 @@ This section covers techniques for Mapping Uvs. The next sections cover :doc:`Ed
 
 
 About UVs
-=========
+*********
 
 Every point in the UV map corresponds to a vertex in the mesh.
 The lines joining the UVs correspond to edges in the mesh.
@@ -42,7 +42,7 @@ These are described more fully in the next sections.
 
 
 Getting Started
-===============
+***************
 
 .. figure:: /images/Manual-uvunwrapping-25x-screenlayout.jpg
    :width: 320px
@@ -60,7 +60,7 @@ or edge selection mode.
 
 
 Workflow
---------
+========
 
 .. figure:: /images/Manual-25-uv-unwrap-method.jpg
 
@@ -83,7 +83,7 @@ The process is:
 
 
 Mapping Types
-=============
+*************
 
 Blender offers several ways of mapping UVs.
 The simpler projection methods use formulas that map 3d space onto 2d space,
@@ -139,7 +139,7 @@ Use this unwrapping option to reset the map and undo any unwrapping (go back to 
 
 
 Basic Mapping
-=============
+*************
 
 Based on the fundamental geometry of the object, and how it is being viewed,
 the :guilabel:`Mesh→UV Unwrap→Cube, Cylinder,
@@ -174,7 +174,7 @@ See :doc:`Editing UVs <textures/mapping/uv/layout_editing>`.
 
 
 Cylinder and Sphere
--------------------
+===================
 
 .. figure:: /images/Doc26-textures-uv-sphereProjection.jpg
    :width: 250px
@@ -224,7 +224,7 @@ map of the earth as the UV image will give a very nice planet mapping onto the s
 
 
 Project From View
------------------
+=================
 
 In the 3D window, the :guilabel:`Face→Unwrap UVs→Project from View` option maps the face as
 seen through the view of the 3D window it was selected from.
@@ -237,7 +237,7 @@ but scales the UVs to the bounds of the UV space.
 
 
 Resetting UVs
--------------
+=============
 
 In the 3D window,
 :guilabel:`Face→Unwrap→Reset` maps each selected face to the same area of the image,
@@ -247,10 +247,10 @@ and unwrap them using the Reset menu option.
 
 
 Advanced Mapping
-================
+****************
 
 Unwrapping Using Seams
-----------------------
+======================
 
 .. figure:: /images/Doc26-textures-uv-unwrap-seam-simple.jpg
    :width: 300px
@@ -288,7 +288,7 @@ The workflow is the following:
 
 
 Marking Seams
-~~~~~~~~~~~~~
+-------------
 
 .. figure:: /images/Doc26-textures-uv-unwrap-seams.jpg
    :width: 250px
@@ -343,7 +343,7 @@ using different approaches in different areas of your mesh.
 
 
 Unwrap
-~~~~~~
+------
 
 .. figure:: /images/Doc26-textures-uv-unwrap-unwrap.jpg
    :width: 300px
@@ -389,7 +389,7 @@ They can be selected in the tool setting in the tool panel in the 3D View.
 
 
 Smart UV Project
-----------------
+================
 
 .. figure:: /images/Doc26-textures-uv-unwrap-smartProject.jpg
    :width: 250px
@@ -430,7 +430,7 @@ unwrapped:
 
 
 Lightmap
---------
+========
 
 Lightmap Pack takes each of a mesh's faces, or selected faces,
 and packs them into the UV bounds. Lightmaps are used primarily in gaming contexts,
@@ -463,7 +463,7 @@ then go into :guilabel:`Edit Mode` and activate the tool.
 
 
 Follow Active Quads
--------------------
+===================
 
 The :guilabel:`Face→Unwrap→Follow Active Quads` takes the selected faces and lays them out
 by following continuous face loops, even if the mesh face is irregularly shaped.

@@ -1,6 +1,6 @@
 
 Buttons and Controls
-====================
+********************
 
 Buttons and other controls can be found in almost every :doc:`Window <interface/window_types>` of the Blender
 interface. The different types of controls are described below.
@@ -8,7 +8,7 @@ interface. The different types of controls are described below.
 
 
 Operation Buttons
------------------
+=================
 
 .. figure:: /images/Manual-Part-I-ConceptButtons2_25.jpg
 
@@ -23,7 +23,7 @@ which can be used in the python console or in the text editor when writing scrip
 
 
 Toggle Buttons
---------------
+==============
 
 .. figure:: /images/Manual-Part-I-ConceptButtons1_1_25.jpg
 
@@ -36,7 +36,7 @@ cases the button is attached to a number button to control the influence of the 
 
 
 Radio Buttons
--------------
+=============
 
 .. figure:: /images/Manual-Part-I-ConceptButtons1_25.jpg
 
@@ -47,7 +47,7 @@ Radio buttons are used to choose from a small selection of "mutually exclusive" 
 
 
 Number Buttons
---------------
+==============
 
 .. figure:: /images/Manual-Part-I-ConceptButtons3_25.jpg
 
@@ -71,7 +71,7 @@ Similarly you can paste a copied value with :kbd:`ctrl-V`.
 
 
 Expressions
-~~~~~~~~~~~
+-----------
 
 You can also enter expressions such as ``3*2`` instead of ``6``. or ``5/10+3``.
 Even constants like ``pi`` (3.142) or functions like ``sqrt(2)`` (square root of 2)
@@ -81,7 +81,7 @@ may be used.
 
 
 Units
-~~~~~
+-----
 
 As well as expressions, you can mix units with numbers; for this to work,
 units need to be set in the scene settings (Metric or Imperial).
@@ -99,7 +99,7 @@ Examples of valid units include:
 
 
 Menu Buttons
-------------
+============
 
 .. figure:: /images/Manual-Part-I-ConceptButtons4_25.jpg
 
@@ -153,7 +153,7 @@ For example, the Add Modifier button will produce a menu with all of the availab
 
 
 Color Selector Controls
------------------------
+=======================
 
 In Blender, you can choose from **4** types of color pickers; the options are:
    :guilabel:`Circle` (Default), :guilabel:`Square (HS + V)` , :guilabel:`Square (SV + H)` and :guilabel:`Square (HV + S)`
@@ -239,7 +239,7 @@ please go to the :doc:`System <preferences/system>` preferences page.
 
 
 Eye Dropper
-~~~~~~~~~~~
+-----------
 
 The eye dropper allows you to sample a color from anywhere in the Blender window. The Eye
 Dropper can be accessed from any color picker or by pressing :kbd:`E` with the mouse
@@ -249,7 +249,7 @@ hovering over the color property.
 
 
 Cascade Buttons
----------------
+===============
 
 Occasionally, some buttons actually reveal additional buttons. For example, the
 :guilabel:`Ramps` panel has a :guilabel:`Cascade` button called :guilabel:`Ramp` that reveals

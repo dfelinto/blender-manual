@@ -1,6 +1,6 @@
 
 Graph Editor
-============
+************
 
 The graph editor is the main animation editor.
 It allows you to modify the animation for any properties using :doc:`F-Curves <animation/editors/graph/fcurves>`.
@@ -17,7 +17,7 @@ and *Drivers* for :doc:`Drivers <animation/basics/drivers>`. Both are very simil
 
 
 Curve Editor Area
------------------
+=================
 
 Here you can see and edit the curves and keyframes.
 
@@ -32,7 +32,7 @@ and :doc:`Editing <animation/editors/graph/editing>` for more info.
 
 
 Navigation
-__________
+^^^^^^^^^^
 
 As with most windows, you can:
 
@@ -55,7 +55,7 @@ These are some other useful tools.
 
 
 2D Cursor
-_________
+^^^^^^^^^
 
 .. figure:: /images/Doc_Graph_2DCursor.jpg
 
@@ -74,7 +74,7 @@ The *2D Cursor* mostly used for editing tools.
 
 
 View Axes
-_________
+^^^^^^^^^
 
 For *Actions* the X-axis represents time,
 the Y-axis represents the value to set the property.
@@ -89,7 +89,7 @@ Note that *Drivers* use radians for rotation properties.
 
 
 Markers
-_______
+^^^^^^^
 
 Like with most animation editors, markers are shown at the bottom of the editor.
 
@@ -105,7 +105,7 @@ See :doc:`Marker Menu <animation/editors/graph/editing#marker_menu>` or :doc:`Ma
 
 
 Header
-------
+======
 
 Here you'll find.
 
@@ -117,13 +117,13 @@ Here you'll find.
 
 
 Menus
-_____
+^^^^^
 
 See :doc:`Header Menus <animation/editors/graph/editing#header_menus>` for more info.
 
 
 Header Controls
-_______________
+^^^^^^^^^^^^^^^
 
 .. figure:: /images/Doc_Graph_Header_Mode.jpg
 
@@ -202,7 +202,7 @@ Curve controls
 
 
 Channels Region
----------------
+===============
 
 .. figure:: /images/Doc_Graph_Channels.jpg
 
@@ -222,7 +222,7 @@ The channels region is used to select and manage the curves for the graph editor
 
 
 Channel Editing
-_______________
+^^^^^^^^^^^^^^^
 
 *Select channel* :kbd:`LMB`
 
@@ -250,13 +250,13 @@ See :doc:`Channel Menu <animation/editors/graph/editing#channel_menu>` for more 
 
 
 Properties Region
------------------
+=================
 
 The panels in the *Properties Region*.
 
 
 View Properties Panel
-_____________________
+^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: /images/Doc_Graph_View_Properties_Panel.jpg
 
@@ -283,7 +283,7 @@ _____________________
 
 
 Active F-Curve Panel
-____________________
+^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: /images/Doc_Graph_Active_Fcurve_Panel.jpg
 
@@ -312,7 +312,7 @@ This panel displays properties for the active *F-Curve*.
 
 
 Active Keyframe Panel
-_____________________
+^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: /images/Doc_Graph_Active_Keyframe_Panel.jpg
 
@@ -346,7 +346,7 @@ _____________________
 
 
 Drivers Panel
-_____________
+^^^^^^^^^^^^^
 
 .. figure:: /images/Doc_Graph_Drivers_Panel.jpg
 
@@ -357,7 +357,7 @@ See :doc:`Drivers Panel <animation/basics/drivers#drivers_panel>` for more info.
 
 
 Modifiers Panel
-_______________
+^^^^^^^^^^^^^^^
 
 .. figure:: /images/Doc_Graph_Modifiers_Panel.jpg
 
@@ -368,7 +368,7 @@ See :doc:`F-Modifiers <animation/editors/graph/fmodifiers>` for more info.
 
 
 See Also
---------
+========
 
 - :doc:`Graph Editor - F-Curves <animation/editors/graph/fcurves>`
 - :doc:`Graph Editor - F-Modifiers <animation/editors/graph/fmodifiers>`

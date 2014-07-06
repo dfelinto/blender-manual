@@ -1,6 +1,6 @@
 
 Basic Manipulations
-===================
+*******************
 
 This section gathers all basic transformations and manipulations in 3D Views:
 

@@ -3,7 +3,7 @@
 
 
 Curve Selection
-===============
+***************
 
 Curve selection in :guilabel:`Edit` mode is much less complex than with meshes! Mainly this is
 because you have only one selectable element type, the control points
@@ -21,7 +21,7 @@ only this vertex is selected, allowing you to modify this control vector...
 
 
 Select Menu
------------
+===========
 
 With curves, all "advanced" selection options are regrouped in the :guilabel:`Select` menu of
 the 3D views header. Let's detail them.
@@ -37,7 +37,7 @@ the 3D views header. Let's detail them.
 
 
 Every Nth
----------
+=========
 
 .. admonition:: Reference
    :class: refbox
@@ -54,7 +54,7 @@ pop-up numeric field shown during the tool start.
 
 
 Select/Deselect First/Last
---------------------------
+==========================
 
 .. admonition:: Reference
    :class: refbox
@@ -70,7 +70,7 @@ when using it as path...).
 
 
 Select Next/Previous
---------------------
+====================
 
 .. admonition:: Reference
    :class: refbox
@@ -86,7 +86,7 @@ the control points following or preceding the selected ones along the curve).
 
 
 More and Less
--------------
+=============
 
 .. admonition:: Reference
    :class: refbox

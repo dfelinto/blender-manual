@@ -3,7 +3,7 @@
 
 
 Sequencer Effects
-=================
+*****************
 
 Blender offers 16 built effects that are built into Blender, and are therefore universal.
 Some operate on two strips; some on one, and some create a new strip.
@@ -11,7 +11,7 @@ Each effect enhances your content in some way or allows professional-quality tra
 
 
 Add
----
+===
 
 .. figure:: /images/Manual-VSE-Lighting-Example.gif
 
@@ -39,7 +39,7 @@ and is controlled the same way by feeding the Factor input.
 
 
 Subtract Effect
----------------
+===============
 
 .. figure:: /images/Manual-VSE-Subtract.jpg
    :width: 300px
@@ -56,7 +56,7 @@ since red and green make yellow.
 
 
 Cross and Gamma Cross
----------------------
+=====================
 
 .. figure:: /images/Manual-VSE-Cross.jpg
 
@@ -69,7 +69,7 @@ resulting in a smooth transition that is easier on the eye.
 
 
 Fade to Black
-~~~~~~~~~~~~~
+-------------
 
 .. figure:: /images/Manual-VSE-Cross-Fade.jpg
    :width: 300px
@@ -91,7 +91,7 @@ Use the dominant color in the second strip to introduce the second strip.
 
 
 Multiply
---------
+========
 
 .. figure:: /images/Manual-VSE-Multiply.jpg
    :width: 300px
@@ -132,7 +132,7 @@ With uniform colors
 
 
 Alpha Over, Under, and Over Drop
---------------------------------
+================================
 
 .. figure:: /images/Manual-VSE-Alpha.jpg
    :width: 300px
@@ -246,7 +246,7 @@ crossing from the base image to the glowing one.
 
 
 Transform
----------
+=========
 
 .. figure:: /images/Manual-VSE-Transform_ex.gif
 
@@ -285,7 +285,7 @@ uses the properties panel to adjust the settings of this effect:
 
 
 Color
------
+=====
 
 This effect works by itself to create a color strip. By default, when it is created,
 it is 50 frames long, but you can extend it by grabbing and moving one of the ends.
@@ -295,7 +295,7 @@ Use this strip crossed with your main movie to provide a fade-in or fade-out.
 
 
 Speed Control
--------------
+=============
 
 Speed Control time-warps the strip, making it play faster or slower than it normally would.
 A Global Speed less than 1.0 makes the strip play slower; greater than 1.
@@ -307,7 +307,7 @@ position the next strip under the original at a point where you want motion to c
 
 
 Creating a Slow-Motion Effect
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------
 
 .. figure:: /images/Manual-VSE-Speed-slomo-2.jpg
    :width: 300px
@@ -336,7 +336,7 @@ That's it! Set your render to animate (in this example) all 550 frames.
 
 
 Keyframing the Speed Control
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------
 
 .. figure:: /images/Speed-Control-keyframe-Frame-number.jpg
 
@@ -360,7 +360,7 @@ effect.
 
 
 Changing Video Frame Rates
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------
 
 You can use the speed control to change the frames per second (fps), or framerate, of a video.
 If you are rendering your video to a sequence set,
@@ -378,7 +378,7 @@ the strip will last exactly 5 minutes.
 
 
 Multicam Selector
------------------
+=================
 
 Ever wanted to do multicam editing with Blender? Now you can and it is mindbogglingly easy:
 
@@ -402,7 +402,7 @@ do some fine tuning by selecting the outer handles of two neighboring multicam f
 
 
 Adjustment Layer
-----------------
+================
 
 The adjustment layer strip works like a regular input file strip except for the fact,
 that it considers all strips below it as it's input.

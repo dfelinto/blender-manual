@@ -3,7 +3,7 @@
 
 
 Spin
-====
+****
 
 .. admonition:: Reference
    :class: refbox
@@ -36,7 +36,7 @@ Here are its settings:
 
 
 Example
-=======
+*******
 
 .. figure:: /images/Spin1.jpg
    :width: 300px
@@ -75,7 +75,7 @@ the spin will happen immediately. (*Spun profile*) shows the result of a success
 
 
 Angle
------
+=====
 
 .. figure:: /images/Spin3.jpg
    :width: 300px
@@ -92,7 +92,7 @@ Angle
 
 
 Dupli
------
+=====
 
 .. figure:: /images/Spin6.jpg
    :width: 300px
@@ -109,7 +109,7 @@ Dupli
 
 
 Merge Duplicates
-----------------
+================
 
 .. figure:: /images/Spin8.jpg
    :width: 300px
@@ -149,7 +149,7 @@ too many vertices will have been merged.
 
 
 Recalculate Normals
--------------------
+===================
 
 All that remains now is to recalculate the normals to the outside by selecting all vertices,
 pressing :kbd:`ctrl-N` and validating :guilabel:`Recalc Normals Outside` in the pop-up

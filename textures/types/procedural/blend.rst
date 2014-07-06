@@ -1,6 +1,6 @@
 
 Procedural textures: Blend
-==========================
+**************************
 
 .. figure:: /images/25-Manual-Textures-Procedural-Blend.jpg
    :width: 307px
@@ -16,7 +16,7 @@ Procedural textures: Blend
 
 
 Options
--------
+=======
 
 :guilabel:`Progression`
    Profile of blend

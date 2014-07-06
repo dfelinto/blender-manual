@@ -8,7 +8,7 @@ For more detailed information, consult the `Yafray web site <http://yafaray.org/
 
 
 Description
-~~~~~~~~~~~
+-----------
 
 `Yafaray <http://www.yafray.org/>`__, as the lengthened version of its name (Yet Another Free RAYtracer) suggests, is a free, XML speaking, cross-platform raytracer developed by the `Yafray team. <http://www.yafaray.org/about>`__. It works with many 3D modelling applications (with Wings and Aztec serving as examples), but the focus of this document shall fall upon its use with Blender.
 
@@ -19,7 +19,7 @@ can be downloaded `here <http://www.yafaray.org/download>`__.
 
 
 Options
-~~~~~~~
+-------
 
 Blender releases between 2.34 and 2.
 5x have the option to call Yafray in place of Blender's internal renderer
@@ -71,7 +71,7 @@ Exp.
 
 
 Global Illumination
-___________________
+^^^^^^^^^^^^^^^^^^^
 
 .. figure:: /images/GIPanel.jpg
 
@@ -103,7 +103,7 @@ Ref
 
 
 Examples
-~~~~~~~~
+--------
 
 Starting with the default Blender setup, enable Yafray in the Rendering Buttons panel (F10),
 deselect the XML option in the "yafray" tab,
@@ -112,7 +112,7 @@ Then click "Render" (F12).
 
 
 Console output
-______________
+^^^^^^^^^^^^^^
 
 Provided the environment allows it, Yafray should output information to the console window
 (in Windows, Blender opens alongside a console window by default. In GNU/Linux, however,
@@ -152,7 +152,7 @@ where Yafray renders the image based on the sample map created in the previous p
 
 
 Render window output
-____________________
+^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: /images/yafray_samples_shadow.jpg
 
@@ -183,7 +183,7 @@ which aren't as exposed to the light).
 
 
 The rendered image
-__________________
+^^^^^^^^^^^^^^^^^^
 
 You'll notice how the cube, despite Blender's default gray material being applied,
 has been colored blue.
@@ -199,10 +199,10 @@ set the world shader to white.
 
 
 Notes
-=====
+*****
 
 Amount of Light
-~~~~~~~~~~~~~~~
+---------------
 
 .. figure:: /images/Manual-Render-Yafray-BI.jpg
 
@@ -250,7 +250,7 @@ so it can be worth the trouble.
 
 
 SkyDome
-~~~~~~~
+-------
 
 .. figure:: /images/Manual-Yafray-skydome.jpg
    :width: 300px

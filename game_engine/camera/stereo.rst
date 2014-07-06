@@ -1,6 +1,6 @@
 
 Stereo Camera
-=============
+*************
 
 Stereo Cameras allow you to generate images that appear three dimensional when wearing special
 glasses. This is achieved by rendering two separate images from cameras that are a small
@@ -13,7 +13,7 @@ for more information on different stereoscopic viewing methods.
 
 
 Stereo Settings
----------------
+===============
 
 :guilabel:`Stereo Mode`
 
@@ -29,7 +29,7 @@ Stereo Settings
 
 
 Stereo Modes
-------------
+============
 
 Specifies the way in which the left-eye image and the right-eye image pixels are put together
 during rendering. This must be selected according to the type of apparatus available to

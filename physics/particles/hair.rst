@@ -1,13 +1,13 @@
 
 Hair
-====
+****
 
 When set to hair mode, particle system creates only static particles,
 which may be used for hair, fur, grass and the like.
 
 
 Growing
--------
+=======
 
 The first step is to create the hair, specifying the amount of hair strands and their lengths.
 
@@ -19,7 +19,7 @@ control points with an interpolation, the segments.
 
 
 Styling
--------
+=======
 
 The next step is to style the hair. You can change the look of base hairs by changing the :doc:`Physics Settings <physics/particles/physics>`.
 
@@ -29,13 +29,13 @@ You can also interactively style hairs in :doc:`Particle Mode <physics/particles
 
 
 Animating
----------
+=========
 
 Hair can now be made dynamic using the cloth solver. This is covered in the :doc:`Hair Dynamics <physics/particles/hair/dynamics>` page.
 
 
 Rendering
----------
+=========
 
 Blender can render hairs in several different ways. Materials have a Strand section, which is covered in the materials section in the :doc:`Strands Page <materials/properties/strands>`.
 
@@ -43,7 +43,7 @@ Hair can also be used as a basis for the :doc:`Particle Instance modifier <modif
 
 
 Options
-=======
+*******
 
 .. figure:: /images/Blender3D_ParticleSystem_HairSettings-2.5.jpg
 
@@ -57,20 +57,20 @@ Options
 
 
 Emission
---------
+========
 
 :guilabel:`Amount`
    Set the amount of hair strands. Use as little particles as possible, especially if you plan to use softbody animation later. But you need enough particles to have good control. For a "normal" haircut I found some thousand (very roughly 2000) particles to give enough control. You may need a lot more particles if you plan to cover a body with fur. Volume will be produced later with :guilabel:`Children`.
 
 
 Hair Dynamics
--------------
+=============
 
 Settings for adding movement to hair see :doc:`Hair Dynamics <physics/particles/hair/dynamics>`.
 
 
 Display
--------
+=======
 
 :guilabel:`Rendered`
    Draw hair as curves.
@@ -87,19 +87,19 @@ Display
 
 
 Children
---------
+========
 
 See :doc:`Children <physics/particles/children>`.
 
 
 Render
-------
+======
 
 Hair can be rendered as a Path, Object, or Group. See :doc:`Particle Visualization <physics/particles/visualization>` for descriptions.
 
 
 Usage
-=====
+*****
 
 .. figure:: /images/Blender3D_FurWithParticles-Finished-2.48a.jpg
    :width: 400px

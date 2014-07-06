@@ -1,6 +1,6 @@
 
 Shadows
-=======
+*******
 
 Light wouldn't even exist without its counterpart: shadows. Shadows are a darkening of a
 portion of an object because light is being partially or totally blocked from illuminating the
@@ -53,7 +53,7 @@ and their output may or may not contain shadow information...
 
 
 Lamps: Ray-traced Shadows
--------------------------
+=========================
 
 .. figure:: /images/25-Manual-Lighting-Shadow-Ray.jpg
    :width: 310px
@@ -96,7 +96,7 @@ Ray-traced shadows can be cast by the following types of lamp:
 
 
 Lamps: Buffered Shadows
------------------------
+=======================
 
 .. figure:: /images/25-Manual-Lighting-Shadow-SpotBufShad.jpg
    :width: 310px

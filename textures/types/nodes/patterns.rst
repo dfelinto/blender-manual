@@ -3,10 +3,10 @@
 
 
 Pattern Nodes
-=============
+*************
 
 Checker
--------
+=======
 
 .. figure:: /images/Doc26-textureNodes_checker.jpg
    :width: 200px
@@ -24,7 +24,7 @@ The checker node creates a checkerboard pattern
 
 
 Bricks
-------
+======
 
 .. figure:: /images/Doc26-textureNodes_bricks.jpg
    :width: 200px

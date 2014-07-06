@@ -1,6 +1,6 @@
 
 Weight Tools
-============
+************
 
 .. figure:: /images/26-Manual-Modeling-Meshes-weight-paint-tools.jpg
 
@@ -13,7 +13,7 @@ And they are located in the weight tools panel.
 
 
 The Subset Option
-_________________
+^^^^^^^^^^^^^^^^^
 
 Some of the tools also provide a Subset parameter (in the Operator panel,
 displayed after the tool is called) with following options:
@@ -35,7 +35,7 @@ In these modes the tools operate only on selected verts or faces.
 
 
 Normalize All
-=============
+*************
 
 For each vertex,
 this tool makes sure that the sum of the weights across all Vertex Groups is equal to 1.
@@ -44,7 +44,7 @@ which keep their weight values untouched.
 
 
 Operator parameters
-+++++++++++++++++++
+"""""""""""""""""""
 
 .. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-normalize-all.jpg
 
@@ -58,7 +58,7 @@ Please note: Currently this tool normalizes ALL vertex groups except the locked 
 
 
 Normalize
-=========
+*********
 
 .. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-normalize.jpg
 
@@ -68,13 +68,13 @@ This tool only works on the active Vertex Group. All vertices keep their relativ
 
 
 Operator parameters
-+++++++++++++++++++
+"""""""""""""""""""
 
 None
 
 
 Mirror
-======
+******
 
 .. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-mirror.jpg
 
@@ -88,7 +88,7 @@ The mirror only takes place within the selected Vertex Group.
 
 
 Operator parameters
-+++++++++++++++++++
+"""""""""""""""""""
 
 .. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-mirror-options.jpg
 
@@ -117,7 +117,7 @@ Topology Mirror
 
 
 Invert
-======
+******
 
 .. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-invert.jpg
 
@@ -137,7 +137,7 @@ Note: Please see how the parameter settings change the behavior.
 
 
 Operator parameters
-+++++++++++++++++++
+"""""""""""""""""""
 
 .. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-invert-operator.jpg
 
@@ -155,7 +155,7 @@ Note: Locked vertex Groups are not affected.
 
 
 Clean
-=====
+*****
 
 .. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-clean.jpg
 
@@ -173,7 +173,7 @@ Weights are shown in Black.
 
 
 Operator parameters
-+++++++++++++++++++
+"""""""""""""""""""
 
 .. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-clean-operator.jpg
 
@@ -189,7 +189,7 @@ Keep Single
 
 
 Levels
-======
+******
 
 .. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-levels.jpg
 
@@ -203,7 +203,7 @@ Note: No weight will ever be set to values above 1.0 or below 0.0 regardless of 
 
 
 Operator parameters
-+++++++++++++++++++
+"""""""""""""""""""
 
 .. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-levels-operator.jpg
 
@@ -223,7 +223,7 @@ So you will never get negative weights or overheated areas (weight > 1.0) with t
 
 
 Blend
-=====
+*****
 
 Blends the weights of selected vertices with adjacent unselected vertices.
 This tool only works in vertex select mode.
@@ -289,7 +289,7 @@ And I want to use this edge loop for blending the left side to the right side of
 
 
 Operator parameters
-+++++++++++++++++++
+"""""""""""""""""""
 
 .. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-blend-operator.jpg
 
@@ -301,7 +301,7 @@ Factor
 
 
 Transfer Weights
-================
+****************
 
 Copy weights from other objects to the vertex groups of the active Object.
 By default this tool copies all vertex groups contained in the selected objects to the target
@@ -309,7 +309,7 @@ object. However you can change the tool's behavior in the operator redo panel (s
 
 
 Prepare the copy
-----------------
+================
 
 .. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-transfer-wrong.jpg
 
@@ -333,7 +333,7 @@ Now ensure that the Target Object is in Weight Paint mode.
 
 
 Call the tool
--------------
+=============
 
 Open the Tool Shelf and locate the Weight Tools panel.
 From there call the "Transfer weights" tool.
@@ -345,7 +345,7 @@ From the redo panel you can change the parameters to meet your needs.
 
 
 Redo Panel Confusion
-~~~~~~~~~~~~~~~~~~~~
+--------------------
 
 You may notice that the Operator Redo Panel (see below)
 stays available after the weight transfer is done.
@@ -356,7 +356,7 @@ state right before you initially called the Transfer Weights tool.
 
 
 Workaround
-++++++++++
+""""""""""
 
 When you want to call the Transfer Weights tool again after you made some changes to your
 vertex groups, then always use the "Transfer Weights" Button,
@@ -365,7 +365,7 @@ Unless you really want to reset your changes to the initial call of the tool.
 
 
 Operator parameters
-+++++++++++++++++++
+"""""""""""""""""""
 
 Defaults are marked in boldface:
 
@@ -399,7 +399,7 @@ Replace
 
 
 Limit total
-===========
+***********
 
 Reduce the number of weight groups per vertex to the specified Limit.
 The tool removes lowest weights first until the limit is reached.
@@ -408,7 +408,7 @@ Hint: The tool can only work reasonably when more than one weight group is selec
 
 
 Operator parameters
-+++++++++++++++++++
+"""""""""""""""""""
 
 Subset
    Restrict the tool to a subset. See above (:guilabel:`The Subset Option`) for how subsets are defined.
@@ -417,7 +417,7 @@ Limit
 
 
 Weight Gradient (wip)
-=====================
+*********************
 
 .. figure:: /images/WeightGradient_266.jpg
    :width: 200px
@@ -445,7 +445,7 @@ Hint: this tool only works in vertex select mode.
 
 
 Operator parameters
-+++++++++++++++++++
+"""""""""""""""""""
 
 Type:
 

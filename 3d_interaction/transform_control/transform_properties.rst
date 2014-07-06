@@ -2,14 +2,14 @@
 ..    TODO/Review: {{review|text= delta transforms}} .
 
 Transform Properties
-====================
+********************
 
 Each object stores its position, orientation, and scale values.
 These may need to be manipulated numerically, reset, or applied.
 
 
 Transform Properties Panel
-==========================
+**************************
 
 .. admonition:: Reference
    :class: refbox
@@ -28,7 +28,7 @@ see their respective descriptions in the :doc:`Modeling chapter <modeling>`.
 
 
 Options in Object mode
-----------------------
+======================
 
 .. figure:: /images/Transform-properties-panel.jpg
 
@@ -65,7 +65,7 @@ Some fields have extra functionality or features, such as scroll regions. When a
 
 
 Transform Properties Locking
-----------------------------
+============================
 
 The locking feature of the Location, Rotation and Scale fields allows you to control a
 transform property solely from the properties panel.

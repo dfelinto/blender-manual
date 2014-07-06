@@ -3,21 +3,21 @@
 
 
 Texture Nodes
-=============
+*************
 
 These nodes generat procedural textures,
 and function just like their non node based counterparts.
 
 
 Common Options
---------------
+==============
 
 :guilabel:`Color 1/Color 2`
    Remaps the procedural texture with these colors. These do not function in the Magic node.
 
 
 Voronoi
--------
+=======
 
 .. figure:: /images/Doc26-textureNodes-voronoi.jpg
 
@@ -28,7 +28,7 @@ See :doc:`Here <textures/types/procedural/voronoi>`
 
 
 Blend
------
+=====
 
 .. figure:: /images/Doc26-textureNodes-blend.jpg
 
@@ -39,7 +39,7 @@ See :doc:`Here <textures/types/procedural/blend>`
 
 
 Magic
------
+=====
 
 .. figure:: /images/Doc26-textureNodes-magic.jpg
 
@@ -50,7 +50,7 @@ See :doc:`Here <textures/types/procedural/magic>`
 
 
 Marble
-------
+======
 
 .. figure:: /images/Doc26-textureNodes-marble.jpg
 
@@ -61,7 +61,7 @@ See :doc:`Here <textures/types/procedural/marble>`
 
 
 Clouds
-------
+======
 
 .. figure:: /images/Doc26-textureNodes-cloud.jpg
 
@@ -85,7 +85,7 @@ See :doc:`Here <textures/types/procedural/wood>`
 
 
 Musgrave
---------
+========
 
 .. figure:: /images/Doc26-textureNodes-musgrave.jpg
 
@@ -96,7 +96,7 @@ See :doc:`Here <textures/types/procedural/musgrave>`
 
 
 Noise
------
+=====
 
 .. figure:: /images/Doc26-textureNodes-noise.jpg
 
@@ -107,7 +107,7 @@ See :doc:`Here <textures/types/procedural/noise>`
 
 
 Stucci
-------
+======
 
 .. figure:: /images/Doc26-textureNodes-stucci.jpg
 
@@ -118,7 +118,7 @@ See :doc:`Here <textures/types/procedural/stucci>`
 
 
 Distorted Noise
----------------
+===============
 
 .. figure:: /images/Doc26-textureNodes-distortedNoise.jpg
 

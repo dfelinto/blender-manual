@@ -3,7 +3,7 @@
 
 
 Sound Editing
-=============
+*************
 
 Blender contains a multi-track Audio sequencing toolbox. You can add WAV,
 Mp3 files from your hard disk as a file, or as encoded within a movie,
@@ -18,7 +18,7 @@ and mix them using an F-Curve as a volume control.
 
 
 Options
--------
+=======
 
 Audio-RAM loads a file into memory and plays it from there.
 You can only load stand-alone WAV files.
@@ -46,7 +46,7 @@ and you will have to re-open the file so that Blender re-reads the file.
 
 
 Audio Mixing in the VSE
------------------------
+=======================
 
 You can have as many Audio strips as you wish and the result will be the mixing of all of
 them. You can give each strip its own name and Gain (in dB) via the :kbd:`N` menu.
@@ -59,7 +59,7 @@ and foley sound effects on channel 7.
 
 
 Working with Audio Tracks
--------------------------
+=========================
 
 An audio track (strip) is just like any other strip in the VSE. You can grab and move it,
 adjust its starting offset using :kbd:`Rmb` over the arrow end handles,
@@ -68,7 +68,7 @@ A useful example is cutting out the "um's" and dead voice time.
 
 
 Animating Audio Track Properties
---------------------------------
+================================
 
 You want to set a value somewhere between 0.0 and 1.0, and the volume becomes that percent; 0.
 6 is 60%. You can add a gain to the volume through the strip properties (:kbd:`N`).
@@ -89,7 +89,7 @@ you have an automated dynamic multi-track audio mixer!
 
 
 Output
-======
+******
 
 The output is therefore a video file if the :guilabel:`ANIMATION` button in the
 :guilabel:`Render` Panel of the Scene Context/Render Sub-context is used as described before.

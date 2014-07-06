@@ -1,6 +1,6 @@
 
 Halo Rendering
-==============
+**************
 
 .. figure:: /images/Doc-26-Materials-HeloRender-Activate.jpg
    :width: 300px
@@ -20,7 +20,7 @@ or when creating a viewable light or fog/atmospherics around an actual light.
 
 
 Options
-=======
+*******
 
 .. figure:: /images/25-Manual-Materials-Halos.jpg
    :width: 309px
@@ -40,7 +40,7 @@ we now see panels relative to the :guilabel:`Halo` characteristics:
 
 
 Halo Panel
-----------
+==========
 
 **Alpha**
    The transparency
@@ -128,7 +128,7 @@ Rings and lines are randomly placed and oriented, to change their pattern you ca
 
 
 Flare Panel
------------
+===========
 
 Enabling Flare Renders the halo as a lens flare
 
@@ -145,7 +145,7 @@ Enabling Flare Renders the halo as a lens flare
 
 
 Lens Flares
-~~~~~~~~~~~
+-----------
 
 Our eyes have been trained to believe that an image is real if it shows
 artifacts that result from the mechanical process of photography.
@@ -183,7 +183,7 @@ and disappears when another object occludes the flare mesh.
 
 
 Halo Texturing
-==============
+**************
 
 By default, textures are applied to objects with Object coordinates and reflects on the halos
 by affecting their color, as a whole,
@@ -198,10 +198,10 @@ a lamp will make it brighter and affect its diffuse color and intensity.
 
 
 Examples
-========
+********
 
 Dotmatrix display
------------------
+=================
 
 Let's use a halo material to create a dotmatrix display.
 

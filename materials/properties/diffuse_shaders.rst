@@ -1,6 +1,6 @@
 
 Diffuse Shaders
-===============
+***************
 
 .. admonition:: Reference
    :class: refbox
@@ -17,7 +17,7 @@ but Blender also has other shaders for various special effects.
 
 
 Common Options
---------------
+==============
 
 All diffuse shaders have the following options:
  **Color**
@@ -29,7 +29,7 @@ All diffuse shaders have the following options:
 
 
 Technical Details
------------------
+=================
 
 Light striking a surface and then re-irradiated via a Diffusion phenomenon will be scattered, i.e., re-irradiated in all directions isotropically. This means that the camera will see the same amount of light from that surface point no matter what the *incident viewing angle* is. It is this quality that makes diffuse light *viewpoint independent*. Of course, the amount of light that strikes the surface depends on the incident light angle. If most of the light striking a surface is reflected diffusely, the surface will have a matte appearance (*Light re-irradiated in the diffusion phenomenon.*).
 
@@ -45,7 +45,7 @@ Light striking a surface and then re-irradiated via a Diffusion phenomenon will 
 
 
 Lambert
--------
+=======
 
 .. admonition:: Reference
    :class: refbox
@@ -79,7 +79,7 @@ Default is 0.8, to allow other objects to be brighter.
 
 
 Oren-Nayar
-----------
+==========
 
 .. admonition:: Reference
    :class: refbox
@@ -104,7 +104,7 @@ developed in the early 1990s, is a generalization of Lambert's law now widely us
 
 
 Options
-~~~~~~~
+-------
 
 **Roughness**
    The roughness of the surface, and hence, the amount of diffuse scattering.
@@ -149,7 +149,7 @@ with clear boundaries between light and shadow and uniformly lit/shadowed region
 
 
 Options
-~~~~~~~
+-------
 
 **Size**
    The size of the lit area
@@ -165,7 +165,7 @@ Options
 
 
 Minnaert
---------
+========
 
 .. admonition:: Reference
    :class: refbox
@@ -192,7 +192,7 @@ entitled *The Nature of Light and Color in the Open Air*.
 
 
 Options
-~~~~~~~
+-------
 
 **Dark**
    The darkness of the 'lit' areas (higher) or the darkness of the edges pointing away from the light source (lower).
@@ -206,7 +206,7 @@ Options
 
 
 Fresnel
--------
+=======
 
 .. admonition:: Reference
    :class: refbox
@@ -238,7 +238,7 @@ was a French physicist who contributed significantly to the establishment of the
 
 
 Options
-~~~~~~~
+-------
 
 **Fresnel**
    Power of the Fresnel effect, 5.0 is max.

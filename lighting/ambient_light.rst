@@ -3,7 +3,7 @@
 
 
 Environment Lighting
---------------------
+====================
 
 Environment light provides light coming from all directions.
 

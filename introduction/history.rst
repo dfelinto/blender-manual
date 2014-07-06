@@ -1,6 +1,6 @@
 
 Blender's History
-=================
+*****************
 
 In 1988 Ton Roosendaal co-founded the Dutch animation studio *NeoGeo*. NeoGeo quickly became
 the largest 3D animation studio in the Netherlands and one of the leading animation houses in
@@ -67,7 +67,7 @@ dedicated volunteers from around the world led by Blender's original creator, To
 
 
 Video: From Blender 1.60 to 2.50
---------------------------------
+================================
 
 FIXME(Tag Unsupported:vimeo;
 <vimeo width="640" height="360">8567074</vimeo>
@@ -75,7 +75,7 @@ FIXME(Tag Unsupported:vimeo;
 
 
 Version/Revision Milestones
-===========================
+***************************
 
 .. admonition:: Release Notes
    :class: nicetip
@@ -91,7 +91,7 @@ Version/Revision Milestones
 
 
 The start !
------------
+===========
 
 - 1.00 - January 1995: Blender in development at animation studio NeoGeo.
 - 1.23 - January 1998: SGI version published on the web, IrisGL.
@@ -104,7 +104,7 @@ The start !
 - 1.80 - June 2000: End of C-key, Blender full freeware again.
 
 Blender 2.0
------------
+===========
 
 - 2.00 - August 2000: Interactive 3D and real-time engine.
 - 2.10 - December 2000: New engine, physics, and Python.
@@ -113,7 +113,7 @@ Blender 2.0
 - 2.2x - December 2001: Mac OSX version.
 
 Blender goes Open Source
-------------------------
+========================
 
 - **13 October 2002: Blender goes Open Source, 1st Blender Conference**.
 - 2.25 - October 2002: `Blender Publisher <http://www.blender.org/download/get-blender/older-versions/>`__ becomes freely available.
@@ -130,7 +130,7 @@ Blender goes Open Source
 - `2.36 <http://www.blender.org/development/release-logs/blender-236/>`__ - December 2004: `A stabilization version <http://www.blender.org/development/release-logs/blender-236/>`__, much work behind the scene, normal and displacement mapping improvements.
 
 A Big Leap
-----------
+==========
 
 - `2.37 <http://www.blender.org/development/release-logs/blender-237a/>`__ - June 2005: `A big leap <http://www.blender.org/development/release-logs/blender-237a/>`__\ : transformation tools and widgets, softbodies, force fields, deflections, incremental subdivision surfaces, transparent shadows, and multithreaded rendering.
 -
@@ -187,7 +187,7 @@ FIXME(Link Type Unsupported: dev;
 ) - June 2009: `The Pre-Re-Factor release <http://www.blender.org/development/release-logs/blender-249/>`__ added significant enhancements to the core and GE. Core enhancements include node-based textures, armature sketching (called Etch-a-Ton), boolean mesh operation improvements, JPEG2000 support, projection painting for direct transfer of images to models, and a significant Python script catalog. GE enhancements included video textures, where you can play movies in-game (!), upgrades to the Bullet physics engine, dome (fish-eye) rendering, and more API GE calls made available.
 
 Blender 2.5 - The Recode !
---------------------------
+==========================
 
 - `2.5x <http://www.blender.org/development/release-logs/blender-250/>`__ - From 2009 to August 2011. This series `release <http://www.blender.org/development/release-logs/blender-250/>`__ 4 pre-version (from Alpha0 - November 2009 - to Beta July 2010) and three stable versions (from 2.57 - April 2011 - to 2.59 - August 2011). It is one of the most important development `project <http://www.blender.org/development/current-projects/blender-25-project/>`__ of blender with a total re-coding of the software with new functions, redesign of internal window manager and event/tool/data handling system, new python API... The final version of this project was Blender 2.59 in August 2011.
 -
@@ -210,7 +210,7 @@ FIXME(Link Type Unsupported: dev;
 
 
 2.63 - Bmesh - Blender with N-gons
-----------------------------------
+==================================
 
 -
 
@@ -220,7 +220,7 @@ FIXME(Link Type Unsupported: dev;
 
 
 2.64 - The Open Source VFX release
-----------------------------------
+==================================
 
 -
 
@@ -230,7 +230,7 @@ FIXME(Link Type Unsupported: dev;
 
 
 2.65 - Continuous Improvements
-------------------------------
+==============================
 
 -
 
@@ -240,7 +240,7 @@ FIXME(Link Type Unsupported: dev;
 
 
 2.66 - Dynamic Topology, Rigid Body Simulation
-----------------------------------------------
+==============================================
 
 -
 
@@ -250,7 +250,7 @@ FIXME(Link Type Unsupported: dev;
 
 
 2.67 - Freestyle, 3d printing
------------------------------
+=============================
 
 -
 
@@ -260,7 +260,7 @@ FIXME(Link Type Unsupported: dev;
 
 
 2.68 - Continuous Improvements
-------------------------------
+==============================
 
 -
 
@@ -270,7 +270,7 @@ FIXME(Link Type Unsupported: dev;
 
 
 2.69 - Continuous Improvements
-------------------------------
+==============================
 
 -
 

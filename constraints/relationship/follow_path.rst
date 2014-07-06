@@ -2,7 +2,7 @@
 ..    TODO/Review: {{review|im=examples}} .
 
 Follow Path Constraint
-======================
+**********************
 
 The :guilabel:`Follow Path` constraint places its owner onto a *curve* target object,
 and makes it move along this curve (or path).
@@ -52,7 +52,7 @@ The movement of the owner along the target curve/path may be controlled in two d
 
 
 Options
--------
+=======
 
 .. figure:: /images/25-Manual-Constraints-Relationship-FollowPath.jpg
    :width: 305px

@@ -3,7 +3,7 @@
 
 
 Visualization
-=============
+*************
 
 We talk in :doc:`this page <rigging/armatures/visualization>` about the armature visualization options available in all modes (the visualization types, the bones' shapes, etc.).
 
@@ -20,7 +20,7 @@ FIXME(TODO: Internal Link;
 
 
 Colors
-------
+======
 
 In :guilabel:`Pose` mode, the bones can have different colors,
 following two different processes, controlled by the :guilabel:`Color` button
@@ -36,7 +36,7 @@ FIXME(TODO: Internal Link;
 
 
 Coloring from Bone State
-~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------
 
 This is the default and oldest way - there are six different color codes,
 ordered here by precedence (i.e. the bone will be of the color of the topmost valid state):
@@ -79,7 +79,7 @@ ordered here by precedence (i.e. the bone will be of the color of the topmost va
 
 
 Coloring from Bone Group
-~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------
 
 .. figure:: /images/Doc26-rigging-boneGroups.jpg
    :width: 250px
@@ -153,7 +153,7 @@ you are automatically switched to the :guilabel:`Custom Set` option.
 
 
 Ghosts
-------
+======
 
 .. admonition:: Reference
    :class: refbox
@@ -226,7 +226,7 @@ or the same frame number in both :guilabel:`GSta` and :guilabel:`GEnd`
 
 
 Motion Paths
-------------
+============
 
 .. admonition:: Reference
    :class: refbox

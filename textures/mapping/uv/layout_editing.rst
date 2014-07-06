@@ -7,7 +7,7 @@
 
 
 Editing UVs
-===========
+***********
 
 After unwrap, you will likely need to arrange the UV maps into something that can be logically
 textured or painted. Your goals for editing are:
@@ -27,7 +27,7 @@ and then tweak the layout.
 
 
 Selecting UVs
-=============
+*************
 
 Selection tools are available in the :guilabel:`Select Menu` and Header bar,
 and the shortcuts listed below:
@@ -52,7 +52,7 @@ and the shortcuts listed below:
 
 
 Selection Modes
----------------
+===============
 
 Turning on the :guilabel:`Sync Selection` button in the header causes selection of components
 in the 3D view to sync with their corresponding elements in the UV editor.
@@ -99,7 +99,7 @@ When :guilabel:`Sync Selection` is **On** the following can be selected:
 
 
 Transforming UVs
-================
+****************
 
 UVs can be:
 
@@ -112,7 +112,7 @@ the same way as in Edit Mode.
 
 
 Axis Locking
-------------
+============
 
 Transformations can be locked to an axis by pressing :kbd:`X` or :kbd:`Y` after
 one of the transform tools. Also,
@@ -120,7 +120,7 @@ holding the :kbd:`mmb` will constrain movement to the X or Y axis.
 
 
 Pivot Points
-------------
+============
 
 The UV editor has a 2D cursor.
 Its position can be changed by :kbd:`lmb` clicking in the UV editor.
@@ -140,13 +140,13 @@ The Pivot Point can be changed to:
 
 
 Proportional Editing
---------------------
+====================
 
 Proportional Editing is available in UV editing. The controls are the same as in the 3D view. See :doc:`Proportional Editing in 3D <3d_interaction/transform_control/proportional_edit>` for full reference.
 
 
 Snapping
---------
+========
 
 Snapping in UV is also similar to :doc:`Snapping in 3D <3d_interaction/transform_control/snap>`, but only snapping to UVs works, however, the :guilabel:`Snap to Pixels` option in the :guilabel:`UVs Menu` will force the UVs to snap to the pixels of an image if loaded.
 
@@ -161,7 +161,7 @@ Additional tools can be found in the :guilabel:`UVs Menu` under the :guilabel:`S
 
 
 Weld and Align
---------------
+==============
 
 the :guilabel:`Weld` tool, :kbd:`W-1` will move selected UVs to their average position
 
@@ -169,7 +169,7 @@ the :guilabel:`Weld` tool, :kbd:`W-1` will move selected UVs to their average po
 
 
 Mirror
-------
+======
 
 Components can be mirrored on the Y axis or the X axis. You can select :guilabel:`Mirror X`
 and :guilabel:`Mirror Y` from the :guilabel:`Snap` sub menu in the :guilabel:`UV` menu.
@@ -179,20 +179,20 @@ or hold the :kbd:`mmb` and drag in the mirror direction.
 
 
 Stitch
-------
+======
 
 :guilabel:`Stitch`, :kbd:`V`, will join selected UVs that share Vertices. You set the tool to limit stitching by distance in the Tool Settings, by activating :guilabel:`Use Limit` and adjusting the :guilabel:`Limit Distance`
 
 
 Minimize Stretch
-----------------
+================
 
 the :guilabel:`Minimize Stretch` tool,
 :kbd:`ctrl-V` Reduces UV stretch by minimizing angles. This essentially relaxes the UVs
 
 
 Face Mirror and Rotate UVs
---------------------------
+==========================
 
 Recall how the orientation of the UV Texture is relative to each face? Well,
 you might find that, for example, the image is upside down or laying on its side. If so,
@@ -204,7 +204,7 @@ mirroring the UVs per face and showing you the image 'reversed'.
 
 
 Pinning
-=======
+*******
 
 When Unwrapping a model it is sometimes useful to "Lock" certain UVs,
 so that parts of a UV layout stay the same shape, and/or in the same place.
@@ -222,7 +222,7 @@ This helps with fitting a UV island to a certain shape or region.
 
 
 Optimizing the UV Layout
-========================
+************************
 
 When you have unwrapped, possibly using seams,
 your UV layout may be quite disorganized and chaotic.
@@ -247,7 +247,7 @@ to select connected UVs, not border select because UVs from both will be selecte
 
 
 Combining UV Maps
------------------
+=================
 
 .. figure:: /images/Manual-UV-Unwrap-Bad.jpg
    :width: 300px
@@ -343,14 +343,14 @@ and painting could thus be different for each side of the face, which is more re
 
 
 Average Island Scale
---------------------
+====================
 
 Using the :guilabel:`Average Island Scale` tool, shortcut :kbd:`ctrl-A`,
 will scale each UV island so that they are all approximately the same scale.
 
 
 Packing Islands
----------------
+===============
 
 The :guilabel:`Pack Islands` tool, shortcut :kbd:`ctrl-P`, will uniformly scale,
 then individually transform each Island so that they fill up the UV space as much as possible.
@@ -358,7 +358,7 @@ This is an important tool for efficiently making use of the texture space.
 
 
 Constraining to Image Bounds
-----------------------------
+============================
 
 Turning on :guilabel:`Constrain to Image Bounds` will prevent UVs from being moved outside the
 0 to 1 UV range.
@@ -370,7 +370,7 @@ Turning on :guilabel:`Constrain to Image Bounds` will prevent UVs from being mov
 
 
 Iteration and Refinement
-------------------------
+========================
 
 At least for common people, we just don't "get it right the first time." It takes building on
 an idea and iterating our creative process until we reach that magical milestone called
@@ -384,7 +384,7 @@ or patience, or, in some rare cases, are actually happy with our results.
 
 
 Refining the Layout
-===================
+*******************
 
 Refinement comes into play when we finally look at our character,
 and realize that we need more detail in a particular spot. For example,
@@ -401,7 +401,7 @@ you then edit the image so that it looks right and contains the details you want
 
 
 Reusing Textures
-----------------
+================
 
 Another consideration is the need to conserve resources. Each image file is loaded in memory.
 If you can re-use the same image on different meshes, it saves memory. So, for example,

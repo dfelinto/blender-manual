@@ -3,7 +3,7 @@
 
 
 Subdivide
-=========
+*********
 
 .. admonition:: Reference
    :class: refbox
@@ -31,7 +31,7 @@ following a few rules, depending on the settings:
 
 
 Options
--------
+=======
 
 These options are available in the :guilabel:`Tool Panel` after running the tool;
 
@@ -114,7 +114,7 @@ These options are available in the :guilabel:`Tool Panel` after running the tool
 
 
 Examples
---------
+========
 
 Below are several examples illustrating the various possibilities of the :guilabel:`Subdivide`
 and :guilabel:`Subdivide Multi` tools. Note the selection after subdivision.
@@ -128,7 +128,7 @@ and :guilabel:`Subdivide Multi` tools. Note the selection after subdivision.
 
 
 One Edge
-~~~~~~~~
+--------
 
 .. figure:: /images/Doc26-subdivide-oneEdge.jpg
    :width: 250px
@@ -145,7 +145,7 @@ One Edge
 
 
 Two Tri Edges
-~~~~~~~~~~~~~
+-------------
 
 .. figure:: /images/Doc26-subdivide-twoEdgesTri.jpg
    :width: 250px
@@ -160,7 +160,7 @@ Two Tri Edges
 
 
 Two Opposite Quad Edges
-~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------
 
 .. figure:: /images/Doc26-subdivide-twoEdgesOpposite.jpg
    :width: 250px
@@ -175,7 +175,7 @@ Two Opposite Quad Edges
 
 
 Two Adjacent Quad Edges
-~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------
 
 .. figure:: /images/Doc26-subdivide-twoEdgesQuad-fan2.jpg
    :width: 250px
@@ -220,7 +220,7 @@ Two Adjacent Quad Edges
 
 
 Three Edges
-~~~~~~~~~~~
+-----------
 
 .. figure:: /images/Doc26-subdivide-threeEdges.jpg
    :width: 250px
@@ -235,7 +235,7 @@ Three Edges
 
 
 Tri
-~~~
+---
 
 .. figure:: /images/Doc26-subdivide-threeEdgesTri.jpg
    :width: 250px
@@ -250,7 +250,7 @@ Tri
 
 
 Quad/Four Edges
-~~~~~~~~~~~~~~~
+---------------
 
 .. figure:: /images/Doc26-subdivide-fourEdges.jpg
    :width: 250px
@@ -265,7 +265,7 @@ Quad/Four Edges
 
 
 Multicut
-~~~~~~~~
+--------
 
 .. figure:: /images/Doc26-subdivide-tri-multi.jpg
    :width: 250px

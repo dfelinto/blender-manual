@@ -1,6 +1,6 @@
 
 Fluid Physics
-=============
+*************
 
 .. figure:: /images/Fluid.jpg
 
@@ -23,13 +23,13 @@ From liquids to slime, goo to sand and wispy smoke the possibilities are endless
 
 
 Settings
-========
+********
 
 Fluid physics share options with :doc:`Newtonian Physics <physics/particles/physics/newtonian>`. These are covered on that page.
 
 
 Fluid Properties
-----------------
+================
 
 :guilabel:`Stiffness`
    How incompressible the fluid is.
@@ -40,7 +40,7 @@ Fluid Properties
 
 
 Advanced
---------
+========
 
 :guilabel:`Repulsion Factor`
    How strongly the fluid tries to keep from clustering (factor of stiffness). Check box sets repulsion as a factor of stiffness.
@@ -53,7 +53,7 @@ Advanced
 
 
 Springs
--------
+=======
 
 :guilabel:`Force`
    Spring force

@@ -1,6 +1,6 @@
 
 What is FreeStyle?
-==================
+******************
 
 Freestyle is an edge- and line-based non-photorealistic (NPR) rendering engine.
 It relies on mesh data and z-depth information to draw lines on selected edge types.
@@ -43,7 +43,7 @@ http://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.67/FreeStyle#Freestyle
 
 
 The Big Picture
----------------
+===============
 
 - Activate FreeStyle by :guilabel:`Properties` window → :guilabel:`Render` tab → :guilabel:`FreeStyle` panel, tick check box. Please note that FreeStyle is only available for the Blender Internal renderer.
 - Freestyle settings are located in the new :guilabel:`Render Layers` context.
@@ -62,7 +62,7 @@ The Big Picture
 
 
 Known Limitations and issues
-----------------------------
+============================
 
 - FreeStyle is only available for the Blender Internal renderer.
 - Highly memory demanding: All mesh objects in a render layer are loaded at once.

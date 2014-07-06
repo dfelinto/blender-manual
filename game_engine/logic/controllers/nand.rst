@@ -1,6 +1,6 @@
 
 NAND Controller
-===============
+***************
 
 This controller **activates** all connected actuators if
 

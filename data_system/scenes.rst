@@ -5,7 +5,7 @@
    }} .
 
 Scene Management Structure
-==========================
+**************************
 
 Scene management and library appending/linking is based on Blender's :doc:`Library and Data System <data_system>`,
 so it is a good idea to read that manual page first if you're not familiar with the basics of that system.
@@ -43,7 +43,7 @@ to match your working preferences.
 
 
 Planning Your Timeline
-======================
+**********************
 
 Shots within a scene are accomplished by moving a camera and/or actors through the scene for a
 few seconds. Time in Blender is measured in frames by default

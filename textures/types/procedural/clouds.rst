@@ -1,6 +1,6 @@
 
 Procedural textures: Clouds
-===========================
+***************************
 
 .. figure:: /images/25-Manual-Textures-Procedural-Clouds.jpg
    :width: 307px
@@ -20,7 +20,7 @@ user to select which algorithm is used to generate the texture.
 
 
 Options
--------
+=======
 
 :guilabel:`Greyscale`
    The standard noise, gives an intensity
@@ -35,7 +35,7 @@ Options
 
 
 Technical Details
------------------
+=================
 
 A three-dimensional table with pseudo-random values is used,
 from which a fluent interpolation value can be calculated with each 3D coordinate

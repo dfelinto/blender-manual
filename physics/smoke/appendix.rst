@@ -1,10 +1,10 @@
 ..    TODO/Review: {{review}} .
 
 Smoke Appendix
-==============
+**************
 
 Troubleshooting
----------------
+===============
 
 - **Q.** The smoke cache is greyed out!
 - **A.** Save your .blend file.
@@ -27,7 +27,7 @@ Troubleshooting
 
 
 External links
---------------
+==============
 
 - `In-Depth introduction to smoke and fire in Blender 2.5 covering most of the pitfalls <http://cg.tutsplus.com/series/introduction-to-smoke-simulation-in-blender-2-5/>`__
 - `Guide to realistic fire in Blender by MiikaH <http://www.miikahweb.com/en/tutorials/blenderfire>`__

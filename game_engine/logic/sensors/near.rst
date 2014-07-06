@@ -1,6 +1,6 @@
 
 Near sensor
-===========
+***********
 
 .. figure:: /images/BGE_Sensor_Near.jpg
    :width: 300px

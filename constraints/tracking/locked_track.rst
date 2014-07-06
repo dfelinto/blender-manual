@@ -5,7 +5,7 @@
 
 
 Locked Track Constraint
-=======================
+***********************
 
 The :guilabel:`Locked Track` constraint is a bit tricky to explain, both graphically and textually. Basically, it is a :doc:`Track To constraint <constraints/tracking/track_to>`, but with a locked axis, i.e. an axis that cannot rotate (change its orientation). Hence, the owner can only track its target by rotating around this axis, and unless the target is in the plane perpendicular to the locked axis, and crossing the owner, this owner cannot really point at its target.
 
@@ -42,7 +42,7 @@ This is all related to the topic discussed at length in the :doc:`2.49 BSoD trac
 
 
 Options
--------
+=======
 
 .. figure:: /images/25-Manual-Constraints-Tracking-LockedTrack.jpg
    :width: 304px

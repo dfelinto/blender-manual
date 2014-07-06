@@ -3,7 +3,7 @@
 
 
 Skeleton Sketching
-==================
+******************
 
 .. figure:: /images/Doc26-boneSketch.jpg
 
@@ -53,7 +53,7 @@ there is only one set of strokes (one sketch) in Blender, and not one per armatu
 
 
 Drawing Chains
---------------
+==============
 
 .. figure:: /images/Doc26-boneSketch-strokes.jpg
    :width: 500px
@@ -75,7 +75,7 @@ There are two types of segments, which can be mixed together:
 
 
 Straight Segments
-~~~~~~~~~~~~~~~~~
+-----------------
 
 To create a straight segment, click* :kbd:`lmb` *at its starting point.
 Then move the mouse cursor,
@@ -95,7 +95,7 @@ Each straight segment of a stroke will always create one and only one bone, what
 
 
 Free Segments
-~~~~~~~~~~~~~
+-------------
 
 To create a free (curved) segment, click* and hold :kbd:`lmb` at its starting point.
 Then draw your segment by moving the mouse cursor - as in any paint program! Release
@@ -135,7 +135,7 @@ the :guilabel:`Peel Objects` *button at the bottom of the* :guilabel:`Bone Sketc
 
 
 Selecting Strokes
------------------
+=================
 
 A stroke can be selected (materialized by a solid red-to-white line), or not
 (shown as a orange-to-white line) - see (Strokes example) above. As usual,
@@ -145,7 +145,7 @@ and* :kbd:`A` (de)selects all strokes...
 
 
 Deleting
---------
+========
 
 Hitting* :kbd:`X` or clicking on the :guilabel:`Delete` button (:guilabel:`Bone Sketching` panel)
 deletes the selected strokes (be careful, no warning/confirmation pop-up menu here).
@@ -153,7 +153,7 @@ See also the FIXME(TODO: Internal Link; [[#Gestures|gesture description below]])
 
 
 Modifying Strokes
------------------
+=================
 
 You can adjust, or "redraw" your strokes by enabling the :guilabel:`Overdraw Sketching` *option
 of the* :guilabel:`Bone Sketching` panel. This will modify the behavior of the strokes drawing
@@ -182,7 +182,7 @@ Finally, note that there is no undo/redo for sketch drawing...
 
 
 Gestures
---------
+========
 
 There quite a few things about strokes editing that are only available through gestures.
 Gestures are started by clicking and holding
@@ -206,7 +206,7 @@ something that the gesture system would never recognize!
 
 
 Cut
-~~~
+---
 
 To* **cut** a segment (i.e. add a new black dot inside it, making two segments out of one),
 "draw" a straight line crossing the chosen segment where you want to split it.
@@ -222,7 +222,7 @@ To* **cut** a segment (i.e. add a new black dot inside it, making two segments o
 
 
 Delete
-~~~~~~
+------
 
 To* **delete** a stroke, draw a "V" crossing the stroke to delete twice.
 
@@ -236,7 +236,7 @@ To* **delete** a stroke, draw a "V" crossing the stroke to delete twice.
 
 
 Reverse
-~~~~~~~
+-------
 
 To **reverse** a stroke (i.e. the future chain of bones will be reversed),
 draw a "C" crossing twice the stroke to reverse.
@@ -251,7 +251,7 @@ draw a "C" crossing twice the stroke to reverse.
 
 
 Converting to Bones
--------------------
+===================
 
 Once you have one or more selected strokes, you can convert them to bones, using either the* :guilabel:`Convert`
 button of the :guilabel:`Bone Sketching` panel, or the corresponding gesture
@@ -273,7 +273,7 @@ Z axis of the active 3D view at draw time.
 
 
 Fixed
-~~~~~
+-----
 
 With this method,
 each free segment of the selected strokes will be uniformly divided in ``n`` parts
@@ -291,7 +291,7 @@ each free segment of the selected strokes will be uniformly divided in ``n`` par
 
 
 Adaptative
-~~~~~~~~~~
+----------
 
 With this method, each free segment of the selected strokes will create as many bones as
 necessary to follow its shape closely enough - this "closely enough" parameter being set by
@@ -311,7 +311,7 @@ So the more twisted a free segment, the more bones it will generate.
 
 
 Length
-~~~~~~
+------
 
 With this method,
 each free segment of the selected strokes will create as many bones as necessary,
@@ -330,7 +330,7 @@ so that none of them is longer than the :guilabel:`Length` numeric field value
 
 
 Retarget
-~~~~~~~~
+--------
 
 Retarget template bone chain to stroke.
 

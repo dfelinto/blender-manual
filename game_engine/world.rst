@@ -3,7 +3,7 @@
 
 
 World Physics
-=============
+*************
 
 .. figure:: /images/BGE_World.jpg
    :width: 292px
@@ -27,7 +27,7 @@ more extensive range of effects available with the Blender renderer
 
 
 World
------
+=====
 
 These two color settings allow you to set some general lighting effects for your game.
 
@@ -57,7 +57,7 @@ Mist can greatly enhance the illusion of depth in your rendering. To create mist
 
 
 Game Physics
-------------
+============
 
 The Game Physics located in the World panel determine the type of physical rules that govern the game engine scene, and the gravity value to be used. Based on the physics engine selected, in physics simulations in the game engine, Blender will automatically move :guilabel:`Actors` in the downward (-Z) direction. After you arrange the actors and they move as you wish, you can then bake this computed motion into fixed Ipo curves (see :doc:`Logic actors <game_engine/physics/object_type>` for more info).
 
@@ -94,7 +94,7 @@ The Game Physics located in the World panel determine the type of physical rules
 
 
 Obstacle Simulation
--------------------
+===================
 
 Simulation used for obstacle avoidance in the Game Engine, based on the RVO  (Reciprocal Velocity Obstacles) principle. The aim is to prevent one or more actors colliding with obstacles. See `Path finding and steering behaviors <http://wiki.blender.org/index.php/User:Nicks/Gsoc2010/Docs>`__ for more details.
 

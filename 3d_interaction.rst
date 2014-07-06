@@ -1,6 +1,6 @@
 
 Introduction
-============
+************
 
 Using Blender, you create a world that exists in four dimensions:
 

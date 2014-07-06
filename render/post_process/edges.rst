@@ -3,7 +3,7 @@
 
 
 Edge (Toon) Rendering
-=====================
+*********************
 
 .. figure:: /images/Manual-Part-XI-Toon01.jpg
    :width: 240px
@@ -19,7 +19,7 @@ Blender can add this feature as a post-processing operation.
 
 
 Options
--------
+=======
 
 .. figure:: /images/Manual-Part-XI-Render07.jpg
 
@@ -44,7 +44,7 @@ Before repeating the rendering it is necessary to set some parameters:
 
 
 Examples
---------
+========
 
 .. figure:: /images/Manual-Part-XI-Toon02.jpg
    :width: 400px
@@ -75,7 +75,7 @@ Note that Premultiply is set because the Edge image already has an alpha of 1.0 
 
 
 Dithering
-=========
+*********
 
 Dithering is a technique for blurring pixels to prevent banding that is seen in areas of
 gradients, where stair-stepping appears between colors.

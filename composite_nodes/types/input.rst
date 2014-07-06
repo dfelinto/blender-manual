@@ -4,7 +4,7 @@
 
 
 Composite Input Nodes
-=====================
+*********************
 
 Input nodes *produce* information from some source.
 
@@ -20,7 +20,7 @@ they have no input-connectors; only outputs.
 
 
 Render Layers Node
-------------------
+==================
 
 .. admonition:: Reference
    :class: refbox
@@ -70,7 +70,7 @@ and then use the Image input node instead.
 
 
 Using the Alpha Socket
-~~~~~~~~~~~~~~~~~~~~~~
+----------------------
 
 Using the :guilabel:`Alpha` output socket is crucial in overlaying images on top of one
 another and letting a background image "show through" the image in front of it.
@@ -104,7 +104,7 @@ and things that are perfectly transparent (or where there is nothing) are blue.
 
 
 Optional Sockets
-~~~~~~~~~~~~~~~~
+----------------
 
 For any of the optional sockets to appear on the node,
 you MUST have the corresponding pass enabled.
@@ -142,7 +142,7 @@ The available sockets are:
 
 
 Using the Z value Socket
-~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------
 
 Using the :guilabel:`Z` output socket is crucial in producing realistic images,
 since items farther away are blurrier (but more on that later).
@@ -177,7 +177,7 @@ We chose a Size value of 0.05 to see Z values ranging from 0 to 20 (20 is 1/0.05
 
 
 Using the Speed Socket
-~~~~~~~~~~~~~~~~~~~~~~
+----------------------
 
 Even though things may be animated in our scene,
 a single image or frame from the animation does not portray any motion;
@@ -189,7 +189,7 @@ Find out more by clicking here <ls/composite_nodes/types/filter/vector_blur>`.
 
 
 Image node
-----------
+==========
 
 .. admonition:: Reference
    :class: refbox
@@ -232,7 +232,7 @@ Additional controls will allow you to define how much of the sequence to pull in
 
 
 Image Channels
-~~~~~~~~~~~~~~
+--------------
 
 When the image is loaded, the available channels will be shown as sockets on the node.
 As a minimum, the Image, Alpha, and Z channels are made available.
@@ -262,7 +262,7 @@ default values are supplied (1.0 for A, 0.0 for Z).
 
 
 Saving/Retrieving Render Passes
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------
 
 .. figure:: /images/Manual-Nodes-Input-Multilayer.jpg
 
@@ -281,7 +281,7 @@ saved passes available as sockets for you to use in your compositing noodle.
 
 
 Image Size
-~~~~~~~~~~
+----------
 
 Size matters - Pay attention to image resolution and color depth when mixing and matching
 images. Aliasing (rough edges), color *flatness*,
@@ -303,7 +303,7 @@ The :guilabel:`Viewer` node always shows the size from its input, but when not l
 
 
 Animations
-~~~~~~~~~~
+----------
 
 .. figure:: /images/Manual-Compositing-Node-Image-anicontrols.jpg
 
@@ -352,7 +352,7 @@ press the auto button to the right of the :guilabel:`Cycl` ic button.
 
 
 Generated Images
-~~~~~~~~~~~~~~~~
+----------------
 
 `Using the Nodes to modify a painting in progress in the
 UV/Image window <http://wiki.blender.org/index.php/File:Manual-Compositing-Node-Image-Generagedjpg>`__
@@ -377,7 +377,7 @@ Changes to either the painting or the post-pro noodle are dynamic and real-time.
 
 
 Notes
-~~~~~
+-----
 
 **No Frame Stretching or Compression:**
 If the input animation (avi or frame set) was encoded at a frame rate that is *different* from your current settings,
@@ -402,7 +402,7 @@ and can often be downloaded from their web sites for free.
 
 
 Splicing Video Sequences using Nodes
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------
 
 The above animation controls, coupled with a little mixing,
 is all you need to splice video sequences together. There are many kinds of splices:
@@ -416,7 +416,7 @@ is all you need to splice video sequences together. There are many kinds of spli
 
 
 Cut Splicing using Nodes
-________________________
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 In the example noodle below, we have two pieces of footage that we want to cut splice together.
 
@@ -452,7 +452,7 @@ a la old Road Runner and Coyote scenes.
 
 
 Fade Splicing using Nodes
-_________________________
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 In the previous topic, we saw how to cut from one sequence to another. To fade in or out,
 we simply replace one set of images with a flat color,
@@ -474,7 +474,7 @@ and specify a flat color for the top socket.
 
 
 Mix Splice using Nodes
-______________________
+^^^^^^^^^^^^^^^^^^^^^^
 
 To mix, or crossover, from one scene to the next,
 start feeding the second scene in while the first is mixing out. The noodle below shows frame
@@ -495,7 +495,7 @@ starting with his feet and working its way up to reveal that the cop is followin
 
 
 Wink Splice using Nodes
-_______________________
+^^^^^^^^^^^^^^^^^^^^^^^
 
 A Wink is just like blinking your eyes; one scene fades to black and the other fades in.
 To use Blender to get this effect, build on the Cut and Fade splices discussed above to yield:
@@ -520,7 +520,7 @@ of Blender and how to use its Nodes to achieve just the blended crossover effect
 
 
 Texture Node
-------------
+============
 
 .. admonition:: Reference
    :class: refbox
@@ -564,7 +564,7 @@ Texture nodes can output a straight black-and-white :guilabel:`Value` image
 
 
 Example
-~~~~~~~
+-------
 
 .. figure:: /images/Manual-Compositing-Input-Texture.jpg
 
@@ -575,7 +575,7 @@ texture and use it to mix in red with the image.
 
 
 Value node
-----------
+==========
 
 .. admonition:: Reference
    :class: refbox
@@ -592,7 +592,7 @@ Use this node to supply a constant, fixed value to other nodes' value or factor 
 
 
 RGB node
---------
+========
 
 .. admonition:: Reference
    :class: refbox
@@ -612,7 +612,7 @@ The current saturation is shown as a little circle within the gradient.
 To change the color itself, click anwhere along the rainbow Color Ramp.
 
 Example
-~~~~~~~
+-------
 
 .. figure:: /images/Manual-Compositing-Input-RGB.jpg
 
@@ -623,7 +623,7 @@ embarassment in front of the boss when he gives his boring presentation.
 
 
 Time node
----------
+=========
 
 .. admonition:: Reference
    :class: refbox
@@ -667,7 +667,7 @@ doing so is easily overlooked in your node map and can be very confusing
 
 
 Time Node Examples
-~~~~~~~~~~~~~~~~~~
+------------------
 
 In the picture below, over the course of a second of time (30 frames),
 the following time controls are made:
@@ -694,7 +694,7 @@ This node group would simulate someone focusing the camera lens.
 
 
 Examples and suggestions
-------------------------
+========================
 
 As your imagination runs wild, consider a few ideas that came to me just now on my couch:
 mixing a clouds texture with a time input to fog up a piece of glass or show spray paint

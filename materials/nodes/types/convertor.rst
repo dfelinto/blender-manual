@@ -1,12 +1,12 @@
 
 Material Convertor Nodes
-========================
+************************
 
 As the name implies, these nodes convert the colors in the material in some way.
 
 
 ColorRamp Node
---------------
+==============
 
 .. figure:: /images/26-Manual-Material-Convertor-Node-ColorRamp.jpg
 
@@ -28,14 +28,14 @@ Alpha setting, and interpolation type.
 
 
 Inputs
-~~~~~~
+------
 
 :guilabel:`Fac`:
    Factor. The degree of node's influence in node tree. The value can be provided by another node or set manually.
 
 
 Outputs
-~~~~~~~
+-------
 
 :guilabel:`Color`
    Value of the color, combined by the node.
@@ -44,7 +44,7 @@ Outputs
 
 
 Controls
-~~~~~~~~
+--------
 
 .. figure:: /images/26-Material-Convertor-Node-ColorRamp-Addpoint-Buticon.jpg
 
@@ -118,7 +118,7 @@ See more details about node controls' functions :doc:`here <materials/properties
 
 
 RGB to BW Node
---------------
+==============
 
 .. figure:: /images/26-Manual-Material-Convertor-Node-RGB-to-BW.jpg
 
@@ -129,21 +129,21 @@ This node converts a color image to black-and-white.
 
 
 Inputs
-~~~~~~
+------
 
 :guilabel:`Color`:
    Input color value. Includes a color swatch, allowing you to select the color directly on the node.
 
 
 Outputs
-~~~~~~~
+-------
 
 :guilabel:`Value`
    Black-and-white value of the input color, converted by the node.
 
 
 Math Node
----------
+=========
 
 .. figure:: /images/26-Manual-Material-Convertor-Node-Math.jpg
 
@@ -157,7 +157,7 @@ Select the math function by clicking the up-down selector where the "Add" select
 
 
 Inputs
-~~~~~~
+------
 
 :guilabel:`Value`
    Input value 1 (upper). The value can be provided by another node or set manually.
@@ -166,14 +166,14 @@ Inputs
 
 
 Outputs
-~~~~~~~
+-------
 
 :guilabel:`Value`
    Output value, converted by the node.
 
 
 Controls
-~~~~~~~~
+--------
 
 :guilabel:`Clamp`
    Clamps the result between 0 and 1.
@@ -222,7 +222,7 @@ Controls
 
 
 Vector Math Node
-----------------
+================
 
 .. figure:: /images/26-Manual-Material-Convertor-Node-VectorMath.jpg
 
@@ -234,7 +234,7 @@ Select the math function by clicking the up-down selector where the "Add" select
 
 
 Inputs
-~~~~~~
+------
 
 :guilabel:`Vector`
    Input vector 1 (upper). The value can be provided by another node or set manually.
@@ -243,7 +243,7 @@ Inputs
 
 
 Outputs
-~~~~~~~
+-------
 
 :guilabel:`Vector`
    Output vector, converted by the node.
@@ -252,7 +252,7 @@ Outputs
 
 
 Controls
-~~~~~~~~
+--------
 
 :guilabel:`Operation`
    Selector the math function for conversion.
@@ -272,7 +272,7 @@ Controls
 
 
 Squeeze Value Node
-------------------
+==================
 
 .. figure:: /images/26-Manual-Material-Convertor-Node-SqueezeValue.jpg
 
@@ -287,7 +287,7 @@ ie to values between 0.0 - 1.0 scaled down.
 
 
 Inputs
-~~~~~~
+------
 
 :guilabel:`Value`
    Any numeric value. The value can be provided by another node or set manually.
@@ -298,14 +298,14 @@ Inputs
 
 
 Outputs
-~~~~~~~
+-------
 
 :guilabel:`Value`
    A value between 0 and 1, converted by the node.
 
 
 Separate RGB Node
------------------
+=================
 
 .. figure:: /images/26-Manual-Material-Convertor-Node-SeparateRGB.jpg
 
@@ -317,14 +317,14 @@ also broadcast directly to most computer monitors.
 
 
 Inputs
-~~~~~~
+------
 
 :guilabel:`Image`
    Input color value. Includes a color swatch, allowing you to select the color directly on the node.
 
 
 Outputs
-~~~~~~~
+-------
 
 :guilabel:`R`
    Value of the red color channel, separated out by the node.
@@ -335,7 +335,7 @@ Outputs
 
 
 Combine RGB Node
-----------------
+================
 
 .. figure:: /images/26-Manual-Material-Convertor-Node-CombineRGB.jpg
 
@@ -346,7 +346,7 @@ This node combines a color (image) from separated red, green, blue channels.
 
 
 Inputs
-~~~~~~
+------
 
 :guilabel:`R`
    Input value of red color channel. The value can be provided by another node or set manually.
@@ -357,14 +357,14 @@ Inputs
 
 
 Outputs
-~~~~~~~
+-------
 
 :guilabel:`Image`
    Output value of the color, combined by the node.
 
 
 Separate HSV Node
------------------
+=================
 
 .. figure:: /images/26-Manual-Material-Convertor-Node-SeparateHSV.jpg
 
@@ -386,14 +386,14 @@ You could isolate a specific range of colors
 
 
 Inputs
-~~~~~~
+------
 
 :guilabel:`Color`
    Input color value. Includes a color swatch, allowing you to select the color directly on the node.
 
 
 Outputs
-~~~~~~~
+-------
 
 :guilabel:`H`
    Value of the hue color channel, separated out by the node (in some way, choose a «color» of the rainbow).
@@ -404,7 +404,7 @@ Outputs
 
 
 Combine HSV Node
-----------------
+================
 
 .. figure:: /images/26-Manual-Material-Convertor-Node-CombineHSV.jpg
 
@@ -415,7 +415,7 @@ This node combines a color from separated hue, saturation, value color channels.
 
 
 Inputs
-~~~~~~
+------
 
 :guilabel:`H`
    Input value of hue color channel. The value can be provided by another node or set manually.
@@ -426,7 +426,7 @@ Inputs
 
 
 Outputs
-~~~~~~~
+-------
 
 :guilabel:`Color`
    Output value of the color, combined by the node.

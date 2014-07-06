@@ -1,6 +1,6 @@
 
 Newtonian Physics
-=================
+*****************
 
 These are the "normal" particle physics.
 Particles start their life with the specified initial velocities and angular velocities,
@@ -10,7 +10,7 @@ according to any given integrator chosen by the animator.
 
 
 Forces
-------
+======
 
 .. figure:: /images/Newtonan.jpg
 
@@ -26,7 +26,7 @@ Forces
 
 
 Collision
----------
+=========
 
 :guilabel:`Size Deflect`
    Use the particle size in deflections.
@@ -35,7 +35,7 @@ Collision
 
 
 Integration
------------
+===========
 
 ..    Comment: <!--[[File:Integrators.png|frame|right|Image 2: Integrators types.]]--> .
 

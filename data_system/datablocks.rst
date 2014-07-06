@@ -3,7 +3,7 @@
 
 
 Datablocks
-==========
+**********
 
 The base unit for any blender project is the datablock. Examples of datablocks include:
 meshes, objects, materials and textures. Be it a simple sphere floating over a plane,
@@ -58,7 +58,7 @@ Types of Datablocks:
 
 
 Copying and Linking Datablocks
-------------------------------
+==============================
 
 It is possible to copy or link any type of datablock.
 
@@ -88,7 +88,7 @@ but neither their forms nor their materials, textures, ..., will be
 
 
 Copying and Linking Object Datablocks
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------
 
 Full copy
    :kbd:`shift-D` is used to make normal copy of the selected objects.
@@ -100,7 +100,7 @@ Linked copy
 
 
 Copying and Linking other Datablocks
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------
 
 When an :guilabel:`ObData` datablock is used (linked) by more than one object,
 a small button with its number of linked objects (users) shows up next to its name,
@@ -110,7 +110,7 @@ If you click on it, you create a copy of this datablock for the current object.
 
 
 Unlinked Datablocks
--------------------
+===================
 
 A datablock can become unlinked.
 For example a material datablock will be unlinked if the object it was linked to is deleted.

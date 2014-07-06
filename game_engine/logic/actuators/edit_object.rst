@@ -1,6 +1,6 @@
 
 Edit Object Actuator
-====================
+********************
 
 The Edit Object actuator allows the user to edit settings of objects in game
 

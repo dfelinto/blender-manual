@@ -1,6 +1,6 @@
 
 DupliGroup
-==========
+**********
 
 .. admonition:: Reference
    :class: refbox
@@ -13,7 +13,7 @@ DupliGroup
 
 
 Basic Usage
------------
+===========
 
 - Create a number of objects and group them by
    - selecting them all,
@@ -26,13 +26,13 @@ Basic Usage
 
 
 DupliGroup and Dynamic Linking
-------------------------------
+==============================
 
 See :doc:`Appending and Linking <data_system/linked_libraries>` to understand how to dynamically link data from another .blend file into the current file. You can dynamically link groups from one blend file to another. When you do so, the linked group does not appear anywhere in your scene until you create an object controlling where the group instance appears.
 
 
 Example
-~~~~~~~
+-------
 
 - Link a group from another file into your scene, as described in :doc:`Appending and Linking <data_system/linked_libraries>`.
 
@@ -51,7 +51,7 @@ you can get multiple copies of linked data very easily.
 
 
 Making a DupliGroup Object Real
--------------------------------
+===============================
 
 Say you want to make further edits on an DupliGroup instance or render the DupliGroup in
 Yafaray or some other render that does not support importing DupliGroups directly:

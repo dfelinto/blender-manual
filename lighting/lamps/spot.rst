@@ -3,7 +3,7 @@
 
 
 Spot Lamp
-=========
+*********
 
 A :guilabel:`Spot` lamp emits a cone-shaped beam of light from the tip of the cone,
 in a given direction.
@@ -19,7 +19,7 @@ and spot lamps also provide other functionality such as "volumetric" halos.
 
 
 Lamp options
-------------
+============
 
 .. figure:: /images/25-Manual-Lighting-Lamps-Spot-LampOptions.jpg
    :width: 307px
@@ -44,7 +44,7 @@ Lamp options
 
 
 Shadows
--------
+=======
 
 .. figure:: /images/25-Manual-Lighting-Lamps-Spot-RayPanel.jpg
    :width: 306px
@@ -68,7 +68,7 @@ with extra capabilities such as transparent shadows, although they are quite slo
 
 
 Spot Shape
-----------
+==========
 
 :guilabel:`Size`
 

@@ -1,6 +1,6 @@
 
 Delay sensor
-============
+************
 
 .. figure:: /images/BGE_Sensor_Delay.jpg
    :width: 300px

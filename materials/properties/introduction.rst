@@ -1,9 +1,9 @@
 
 Introduction to Properties
-==========================
+**************************
 
 Material Properties
--------------------
+===================
 
 Materials can have a wide array of properties.
 It is the combination of all of these things that define the way a material looks,

@@ -1,6 +1,6 @@
 
 Mask Modifier
-=============
+*************
 
 .. admonition:: Reference
    :class: refbox
@@ -10,7 +10,7 @@ Mask Modifier
 
 
 Description
------------
+===========
 
 The :guilabel:`Mask` modifier allows certain parts of an object's mesh to be hidden from view
 (masked off),
@@ -18,7 +18,7 @@ in effect making the parts of the mesh that are masked act as if they were no lo
 
 
 Options
--------
+=======
 
 :guilabel:`Mode`
    The :guilabel:`Mask` modifier can hide parts of a mesh based on two different modes, selectable from this drop-down list:

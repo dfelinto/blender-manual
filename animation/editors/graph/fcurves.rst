@@ -3,7 +3,7 @@
 
 
 F-Curves
-========
+********
 
 Once you have created keyframes for something, you can edit their corresponding curves.
 In Blender 2.5, IPO Curves have been replaced by F-Curves, however,
@@ -11,7 +11,7 @@ editing these curves is essentially still the same.
 
 
 The concept of Interpolation
-----------------------------
+============================
 
 When something is "animated," it changes over time. In Blender,
 animating an object means changing one of its properties, such as its X location,
@@ -57,14 +57,14 @@ you'd have to add another control point (or keyframe)...
 
 
 Settings
---------
+========
 
 F-curves have three additional properties, which control the interpolation between points,
 extension behavior, and the type of handles.
 
 
 Interpolation Mode
-~~~~~~~~~~~~~~~~~~
+------------------
 
 You have three choices (:kbd:`T`, or :menuselection:`Curve --> Interpolation Mode`):
 
@@ -108,7 +108,7 @@ in which case they are always shown as if constant interpolated, whatever option
 
 
 Extrapolation
-~~~~~~~~~~~~~
+-------------
 
 (:kbd:`Shift-E`, or :menuselection:`Channel --> Extrapolation Mode`)
 
@@ -142,7 +142,7 @@ Additional extrapolation tools (e.g. the "Cycles" F-Modifier) are located in the
 
 
 Handle Types
-~~~~~~~~~~~~
+------------
 
 There is another curve option quite useful for Bézier-interpolated curves.
 You can set the type of handle to use for the curve points :kbd:`V`
@@ -203,7 +203,7 @@ You can set the type of handle to use for the curve points :kbd:`V`
 
 
 Direction of time
------------------
+=================
 
 Although F-curves are very similar to :doc:`Bézier curves <modeling/curves#béziers>`, there are some important differences.
 

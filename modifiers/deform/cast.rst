@@ -3,7 +3,7 @@
 
 
 Cast Modifier
-=============
+*************
 
 .. admonition:: Reference
    :class: refbox
@@ -34,7 +34,7 @@ it is not limited to casting to a sphere.
 
 
 Options
--------
+=======
 
 .. figure:: /images/25-Manual-Modifiers-cast.jpg
 
@@ -67,7 +67,7 @@ Options
 
 
 Example
--------
+=======
 
 .. figure:: /images/263-Manual-Modifiers-Cast-Example.jpg
    :width: 400px

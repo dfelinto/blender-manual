@@ -3,7 +3,7 @@
 
 
 The Camera
-==========
+**********
 
 A :guilabel:`Camera` is an object that provides a means of rendering images from Blender.
 It defines which portions of a scene is visible at render time.
@@ -12,7 +12,7 @@ one camera in order to generate any images.
 
 
 Add a new camera
-================
+****************
 
 .. admonition:: Reference
    :class: refbox
@@ -27,7 +27,7 @@ choose :menuselection:`Add --> Camera`.
 
 
 Change active camera
-====================
+********************
 
 .. admonition:: Reference
    :class: refbox
@@ -61,7 +61,7 @@ The active camera, as well as the layers, can be specific to a given view, or gl
 
 
 Camera Settings
-===============
+***************
 
 .. admonition:: Reference
    :class: refbox
@@ -120,7 +120,7 @@ Lens
 
 
 Camera Presets
---------------
+==============
 
 .. figure:: /images/Manual-Camera-presets-panel.jpg
    :width: 270px
@@ -136,7 +136,7 @@ Camera Presets
 
 
 Depth of Field
---------------
+==============
 
 .. figure:: /images/Manual-Camera-dof-panel.jpg
    :width: 270px
@@ -156,7 +156,7 @@ Depth of Field
 
 
 Display
--------
+=======
 
 .. figure:: /images/Manual-Camera-display-panel.jpg
    :width: 270px
@@ -208,7 +208,7 @@ Display
 
 
 Composition Guides
-------------------
+==================
 
 :guilabel:`Composition Guides` are available from the drop-down menu, which can help when framing a shot. There are 8 types of guides available:
 
@@ -247,7 +247,7 @@ Composition Guides
 
 
 Camera Navigation
-=================
+*****************
 
 Here you will find some handy ways to navigate and position your camera in your scene.
 
@@ -259,7 +259,7 @@ Here you will find some handy ways to navigate and position your camera in your 
 
 
 Move active camera to view
---------------------------
+==========================
 
 .. admonition:: Reference
    :class: refbox
@@ -278,7 +278,7 @@ and switches to camera view.
 
 
 Camera View Positioning
------------------------
+=======================
 
 By enabling :guilabel:`Lock Camera to View` in the View menu of the View Properties panel,
 while in camera view, you can navigate the 3d viewport as usual,
@@ -286,7 +286,7 @@ while remaining in camera view. Controls are exactly the same as when normally m
 
 
 Roll, Pan, Dolly, and Track
----------------------------
+===========================
 
 To perform these camera moves, the camera must first be *selected*,
 so that it becomes the active object (while viewing through it,
@@ -307,7 +307,7 @@ that are used to manipulate any object:
 
 
 Aiming the camera in Flymode
-----------------------------
+============================
 
 When you are in :guilabel:`Camera` view, the :doc:`fly mode <3d_interaction/navigating#fly_mode>` actually moves your active camera...
 

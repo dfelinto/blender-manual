@@ -5,7 +5,7 @@
 
 
 Spline IK Constraint
-====================
+********************
 
 The :guilabel:`Spline IK` constraint aligns a chain of bones along a curve. By leveraging the
 ease and flexibility of achieving aesthetically pleasing shapes offered by curves and the
@@ -23,7 +23,7 @@ it is necessary to have a chain of connected bones and a curve to constrain thes
 
 
 Options
--------
+=======
 
 .. figure:: /images/25-Manual-Constraints-Tracking-SplineIK.jpg
    :width: 305px
@@ -57,7 +57,7 @@ Options
 
 
 See also
-========
+********
 
 This subject is seen in depth in the :doc:`Rigging/Posing section <rigging/posing/inverse_kinematics/spline_ik>`.
 

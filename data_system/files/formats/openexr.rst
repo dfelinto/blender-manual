@@ -1,6 +1,6 @@
 
 OpenEXR
-=======
+*******
 
 `ILM's OpenEXR <http://www.openexr.com>`__ has become a software industry standard for HDR image files, especially because of its flexible and expandable structure.
 
@@ -25,7 +25,7 @@ FIXME(TODO: Internal Link;
 
 
 Render Output
--------------
+=============
 
 Available options for OpenEXR render output are:
 
@@ -48,7 +48,7 @@ Available options for OpenEXR render output are:
 
 
 Multi-layer, Multi-pass, tile-based files
------------------------------------------
+=========================================
 
 An OpenEXR file can hold unlimited layers and passes, stored hierarchically.
 This feature now is in use for the "Save Buffers" render option.

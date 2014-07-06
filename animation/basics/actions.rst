@@ -1,9 +1,9 @@
 
 Actions
-=======
+*******
 
 Actions
--------
+=======
 
 When animating objects and properties in blender, Actions record and contain the data.
 
@@ -38,7 +38,7 @@ Cube.location.x is recorded to Channel X Location.
 
 
 F-Curve Interpolation
----------------------
+=====================
 
 .. figure:: /images/Doc_Animation_Driver_FCurve.jpg
 
@@ -55,14 +55,14 @@ Most the settings for the :doc:`F-Curve <animation/editors/graph/fcurves>` are f
 
 
 Basic Animation
----------------
+===============
 
 These are some common ways to animate objects.
 These methods can be used on different objects, like armature bones in pose mode.
 
 
 Insert Keyframes
-~~~~~~~~~~~~~~~~
+----------------
 
 This example shows you how to animate a cubes location, rotation, and scale.
 
@@ -94,7 +94,7 @@ To test the animation, press :kbd:`Alt-A` to play.
 
 
 Auto Keyframe
-~~~~~~~~~~~~~
+-------------
 
 .. figure:: /images/Doc_kia_Cube03.jpg
 
@@ -108,7 +108,7 @@ See :doc:`Timeline V Keyframe Control <animation/editors/timeline#v_keyframe_con
 
 
 Keying Sets
-~~~~~~~~~~~
+-----------
 
 .. figure:: /images/Doc_kia_Cube02.jpg
 
@@ -129,7 +129,7 @@ See :doc:`Keying Sets <animation/basics/keying_sets>` for more info.
 
 
 Properties
-~~~~~~~~~~
+----------
 
 .. figure:: /images/Doc_kia_Cube04.jpg
 
@@ -183,7 +183,7 @@ Each property also has some Keying Set options.
 
 
 Editing
-~~~~~~~
+-------
 
 3D View.
    Insert Keyframes on current frame :kbd:`I`
@@ -191,7 +191,7 @@ Editing
 
 
 Working with Actions
---------------------
+====================
 
 .. figure:: /images/K_Animation_Actions_Create.jpg
 

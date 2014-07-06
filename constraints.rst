@@ -3,7 +3,7 @@
 
 
 Constraints
-===========
+***********
 
 Constraints are a way of connecting *transform properties* (position, rotation and scale) between objects. Constraints are in a way the object counterpart of the :doc:`modifiers <modifiers>`, which work on the object *data* (i.e. meshes, curves, etc.).
 
@@ -11,7 +11,7 @@ All constraints share a basic :doc:`common interface <constraints/common_interfa
 
 
 Use of Constraints
-------------------
+==================
 
 Even though constraints might be very useful in static scenes
 (as they can help to automatically position/rotate/scale objects),
@@ -27,7 +27,7 @@ rotations with non-uniform or negative scaling this can lead to unpredictable be
 
 
 Constraining bones
-~~~~~~~~~~~~~~~~~~
+------------------
 
 Finally, there is a great rigging feature in Blender: in :guilabel:`Pose` mode,
 each bone of an armature behaves a bit like a standard object, and, as such,
@@ -41,7 +41,7 @@ To learn more:
 
 
 Available Constraints
----------------------
+=====================
 
 .. figure:: /images/(Doc_26x_Manual_Constraints_Introduction)_(Adding_Constraint_Menu)_(GBV266FN).jpg
 
@@ -64,7 +64,7 @@ between the owner and target objects.
 
 
 Motion Tracking
-~~~~~~~~~~~~~~~
+---------------
 
 +-------------+
 +Camera Solver+
@@ -76,7 +76,7 @@ Motion Tracking
 
 
 Transform Constraints
-~~~~~~~~~~~~~~~~~~~~~
+---------------------
 
 These constraints directly control/limit the transform properties of its owner,
 either absolutely or relatively in terms of its target properties.
@@ -106,7 +106,7 @@ either absolutely or relatively in terms of its target properties.
 
 
 Tracking Constraints
-~~~~~~~~~~~~~~~~~~~~
+--------------------
 
 These constraints try, in various ways,
 to adjust their owner's properties so that it "points at" or "follows" the target.
@@ -130,7 +130,7 @@ to adjust their owner's properties so that it "points at" or "follows" the targe
 
 
 Relationship Constraints
-~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------
 
 These are "misc" constraints.
 

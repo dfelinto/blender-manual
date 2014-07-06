@@ -1,6 +1,6 @@
 
 Smooth Modifier
-===============
+***************
 
 .. admonition:: Reference
    :class: refbox
@@ -10,7 +10,7 @@ Smooth Modifier
 
 
 Description
------------
+===========
 
 .. figure:: /images/25-Manual-Modifiers-Mesh-Smooth-example01.jpg
 
@@ -33,7 +33,7 @@ depending on the affected mesh.
 
 
 Options
--------
+=======
 
 :guilabel:`X`, :guilabel:`Y`, :guilabel:`Z`
    Toggle buttons to enable/disable the modifier in the X, Y and/or Z axes directions.

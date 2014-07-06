@@ -1,6 +1,6 @@
 
 Filter 2D Actuator
-==================
+******************
 
 :guilabel:`2D Filter` s are image filtering actuators, that apply on final render of objects.
 
@@ -40,7 +40,7 @@ Details of the filters are given in the descriptive text below.
 
 
 Motion Blur
------------
+===========
 
 :guilabel:`Motion Blur` is a :guilabel:`2D Filter` that needs previous rendering information to produce motion effect on objects. Below you can see :guilabel:`Motion Blur` filter in Blender window, along with its logic bricks:
 
@@ -85,7 +85,7 @@ render.disableMotionBlur()
 
 
 Built-In 2D Filters
--------------------
+===================
 
 All 2D filters you can see in :guilabel:`2D Filter` actuator have the same architecture,
 all built-in filters use fragment shader to produce final render view,
@@ -145,7 +145,7 @@ To enable a filter on a specific pass:
 
 
 Custom Filters
---------------
+==============
 
 .. figure:: /images/Custom_2D_filter.jpg
 

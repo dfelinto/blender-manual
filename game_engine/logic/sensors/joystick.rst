@@ -1,6 +1,6 @@
 
 Joystick sensor
-===============
+***************
 
 .. figure:: /images/BGE_Sensor_Joystick1.jpg
    :width: 300px

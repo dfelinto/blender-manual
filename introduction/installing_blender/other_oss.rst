@@ -1,9 +1,9 @@
 
 Other supported operating systems
-=================================
+*********************************
 
 FreeBSD
--------
+=======
 
 Download the file ``blender-2.##-FreeBSD-####.tbz`` from the
 `Blender download page <http://www.blender.org/download/get-blender/>`__ where ``2.##``

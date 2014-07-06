@@ -1,6 +1,6 @@
 
 Getting support: the Blender community
-======================================
+**************************************
 
 Being freely available from the start, even while closed source,
 helped considerably in Blender's adoption. A large,
@@ -50,7 +50,7 @@ A constantly updated list of Blender resources can be found at the above mention
 
 
 IRC chat channels
------------------
+=================
 
 For immediate online feedback there are three IRC chat channels permanently open on ``irc.freenode.net``.
 You can join these with your favorite IRC client:
@@ -76,7 +76,7 @@ You can join these with your favorite IRC client:
 
 
 Who uses Blender?
-=================
+*****************
 
 The Blender community is made up of people from all over the world,
 with novice and professional graphic artists, occasional users and commercial houses.

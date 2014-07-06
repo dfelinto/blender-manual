@@ -3,7 +3,7 @@
 
 
 Projection Texture Painting
-===========================
+***************************
 
 Projection texture painting allows an artist to paint on texture mapped on a 3D model.
 Unlike painting in the image editor,
@@ -11,7 +11,7 @@ projection texture painting is done in the 3D viewport of blender.
 
 
 Getting Started
----------------
+===============
 
 To enter texture paint mode,
 you need to select a mesh object and select *Texture Paint* from the mode menu
@@ -27,7 +27,7 @@ so that unwrapping accounts for the aspect ratio of the image.
 
 
 Hints
------
+=====
 
 There are a known limitations in painting...
 

@@ -1,6 +1,6 @@
 
 Post Install Configuration
-==========================
+**************************
 
 Blender will normally run fine without _any_ configuration but there are some changes you may
 want to make depending on your hardware.
@@ -18,14 +18,14 @@ The following section titles match the user preference categories.
 
 
 Input
------
+=====
 
 - If you don't have a numpad you may want to enable 'Emulate Numpad'
 - If you don't have a middle mouse button you can enable 'Emulate 3 Button Mouse'
 
 
 File Paths
-----------
+==========
 
 This isn't essential but you may want to set the paths for more useful default locations.
 
@@ -41,7 +41,7 @@ This isn't essential but you may want to set the paths for more useful default l
 
 
 System
-------
+======
 
 While there are many settings here you may want to set in special-cases,
 this document focuses on common features.

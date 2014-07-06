@@ -1,9 +1,9 @@
 
 Blender 2.6, Python Manual
-==========================
+**************************
 
 Introduction
-------------
+============
 
 Welcome to the Blender 2.6 Python Manual.
 
@@ -24,7 +24,7 @@ To interact with Blender, scripts can make use of the tightly integrated API
 
 
 General information
-===================
+*******************
 
 Links that are useful while writing scripts.
 
@@ -68,7 +68,7 @@ FIXME(Link Type Unsupported: dev;
 
 
 Getting Started - Wiki tutorials
-================================
+********************************
 
 The following pages are located on this wiki and take you from the basics to the more advanced
 concepts of Python scripting for Blender.
@@ -82,7 +82,7 @@ concepts of Python scripting for Blender.
 
 
 Getting Started - External links
-================================
+********************************
 
 The following pages are not located on this wiki,
 but contain a lot of good information to start learning how to write scripts for Blender.

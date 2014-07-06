@@ -6,7 +6,7 @@
 
 
 Sun: Sky & Atmosphere
-=====================
+*********************
 
 .. figure:: /images/25-Manual-Lighting-Lamps-Sun-SkyAtmoPanel.jpg
    :width: 304px
@@ -60,7 +60,7 @@ The position just might help you in your scene design.
 
 
 Options
-=======
+*******
 
 :guilabel:`Sun & Sky Presets`:
 
@@ -70,7 +70,7 @@ Options
 
 
 Sky
----
+===
 
 :guilabel:`Sky`
    This button enables the sky settings: it will create a "sky", with a "sun" if visible, and mix it with the background as defined in :guilabel:`World` settings.
@@ -127,7 +127,7 @@ Here are its specific controls:
 
 
 Atmosphere
-----------
+==========
 
 :guilabel:`Atmosphere`
    This button enables the atmosphere settings. It will not modify the background, but it tries to simulate the effects of an atmosphere: scattering of the sunlight in the atmosphere, its attenuation, ...
@@ -154,7 +154,7 @@ Atmosphere
 
 
 Examples
-========
+********
 
 First, let's see what happens when we modify the orientation of the sun:
 
@@ -199,7 +199,7 @@ And now, the effects of various settings (examples created with `this 2.4 .blend
 
 
 Sky
----
+===
 
 +--------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+
 +.. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Sky-HorBright0.0.jpg      |.. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Sky-HorBright0.85.jpg+
@@ -287,7 +287,7 @@ Sky
 
 
 Atmosphere
-----------
+==========
 
 For all renders below, :guilabel:`Hor.Bright` is set to **0.2**,
 and :guilabel:`Sun Bright` to **2.0**.
@@ -362,7 +362,7 @@ and :guilabel:`Sun Bright` to **2.0**.
 
 
 Hints and limitations
-=====================
+*********************
 
 To always have the :guilabel:`Sun` pointing at the camera center, you can use a :doc:`TrackTo constraint <constraints/tracking/track_to>` on the sun object, with the camera as target, and :guilabel:`-Z` as the "To" axis (use either :guilabel:`X` or :guilabel:`Y` as "Up" axis). This way, to modify height/position of the sun in the rendered picture, you just have to move it; orientation is automatically handled by the constraint. Of course, if your camera itself is moving, you should also add e.g. a :doc:`Copy Location constraint <constraints/transform/copy_location>` to your :guilabel:`Sun` lamp, with the camera as target - and the :guilabel:`Offset` option activated... This way, the sun light won't change as the camera moves around.
 

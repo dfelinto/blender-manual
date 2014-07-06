@@ -1,6 +1,6 @@
 
 Lattice Modifier
-================
+****************
 
 .. admonition:: Reference
    :class: refbox
@@ -16,7 +16,7 @@ The :guilabel:`Lattice` modifier deforms the base object according to the shape 
 
 
 Options
--------
+=======
 
 .. figure:: /images/Reference-Panels-Modifier-Lattice.2.5.jpg
 
@@ -31,7 +31,7 @@ Options
 
 
 Method
-------
+======
 
 You can control the :guilabel:`Lattice` object attributes in the :guilabel:`Object Data` context for the :guilabel:`Lattice` in the :guilabel:`Properties Window`
 
@@ -52,7 +52,7 @@ scaling the lattice in edit mode, and therefore the object.
 
 
 Hints
------
+=====
 
 Why would you use a lattice to deform a mesh instead of deforming the mesh itself in
 :guilabel:`Edit mode` ? There are a couple of reasons for that:
@@ -64,13 +64,13 @@ Why would you use a lattice to deform a mesh instead of deforming the mesh itsel
 
 
 Example/Tutorial(s)
--------------------
+===================
 
 There are example tutorials for 2.4 versions in the :doc:`Tutorials <ls>` section. A 2.6 tutorial shows how to :doc:`shape a fork <ls/modifiers/lattice/shaping_a_fork>`.
 
 
 Particles and Lattices
-----------------------
+======================
 
 .. figure:: /images/Blender3D-ParticlesAndLattices-2.56.jpg
 

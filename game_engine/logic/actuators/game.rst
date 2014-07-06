@@ -1,6 +1,6 @@
 
 Game Actuator
-=============
+*************
 
 The Game actuator allows the user to perform Game-specific functions, such as Restart Game,
 Quit Game and Load Game.

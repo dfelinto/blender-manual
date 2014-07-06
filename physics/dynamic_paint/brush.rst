@@ -1,9 +1,9 @@
 
 Dynamic Paint Brush
-===================
+*******************
 
 Main Panel
-----------
+==========
 
 .. figure:: /images/GSoC-DynamicPaint-Guide-BrushMain.jpg
 
@@ -31,7 +31,7 @@ From the first brush panel you can define how brush affects canvas color surface
 
 
 Source Panel
-------------
+============
 
 .. figure:: /images/DynamicPaint-Guide-Brush_Source.jpg
 
@@ -51,7 +51,7 @@ each having individual settings for further tweaking:
 
 
 Mesh Volume
-~~~~~~~~~~~
+-----------
 
    This the default option. Brush affects all surface point inside the mesh volume.
 
@@ -64,7 +64,7 @@ Mesh Volume
 
 
 Proximity
-~~~~~~~~~
+---------
 
    Only uses defined distance to the closest point on brush mesh surface. Note that inside of the volume is not necessarily affected because it's not close to the surface.
 
@@ -86,7 +86,7 @@ Proximity
 
 
 Mesh Volume + Proximity
-~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------
 
    Same as volume type, but also has influence over defined distance. Same falloff types as for "Proximity" type are available.
 
@@ -103,7 +103,7 @@ Mesh Volume + Proximity
 
 
 Object Center
-~~~~~~~~~~~~~
+-------------
 
    Instead of calculating proximity to the brush object mesh, which can be quite slow in some cases, only distance to only center is calculated. This is much faster and often good enough.
 
@@ -114,13 +114,13 @@ Object Center
 
 
 Particle System
-~~~~~~~~~~~~~~~
+---------------
 
    Brush influence is defined by particles from a selected particle system.
 
 
 Velocity Panel
---------------
+==============
 
 .. figure:: /images/DynamicPaint-Guide-Brush-Velocity.jpg
 
@@ -152,7 +152,7 @@ Smudge settings
 
 
 Waves Panel
------------
+===========
 
 .. figure:: /images/DynamicPaint-Guide-Brush-Waves.jpg
 

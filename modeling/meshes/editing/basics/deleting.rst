@@ -3,13 +3,13 @@
 
 
 Deleting and Merging
-====================
+********************
 
 These tools can be used to remove components.
 
 
 Delete
-------
+======
 
 :guilabel:`Delete` (:kbd:`X` or :kbd:`Del`)
    Deletes selected vertices, edges, or faces. This operation can also be limited to:
@@ -31,7 +31,7 @@ Delete
 
 
 Dissolve
---------
+========
 
 Dissolve operations are also accessed from the delete menu. Instead of removing the geometry,
 which may leave holes that you have to fill in again, dissolve will remove the geometry and fill in the surrounding geometry.
@@ -62,7 +62,7 @@ The face split option limits dissolve to only use the corners of the faces conne
 
 
 Convert Triangles to Quads
---------------------------
+==========================
 
 :guilabel:`Tris to Quads` :kbd:`alt-J`
 This takes adjacent tris and removes the shared edge to create a quad.
@@ -73,7 +73,7 @@ by selecting them and using the shortcut :kbd:`F`, to create a face.
 
 
 Unsubdivide
------------
+===========
 
 .. admonition:: Reference
    :class: refbox
@@ -93,10 +93,10 @@ unexpected results may occur.
 
 
 Merging
--------
+=======
 
 Merging Vertices
-~~~~~~~~~~~~~~~~
+----------------
 
 .. admonition:: Reference
    :class: refbox
@@ -130,7 +130,7 @@ it can to preserve edges and faces only partly involved in the reunion.
 
 
 AutoMerge Editing
-~~~~~~~~~~~~~~~~~
+-----------------
 
 .. admonition:: Reference
    :class: refbox
@@ -146,7 +146,7 @@ as soon as a vertex moves closer to another one than the :guilabel:`Limit` setti
 
 
 Remove Doubles
-~~~~~~~~~~~~~~
+--------------
 
 .. admonition:: Reference
    :class: refbox

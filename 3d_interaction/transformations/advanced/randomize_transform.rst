@@ -2,7 +2,7 @@
 ..    TODO/Review: {{review|partial=X|im=examples}} .
 
 Randomize Transform
-===================
+*******************
 
 .. admonition:: Reference
    :class: refbox
@@ -22,7 +22,7 @@ each object gets its own seed value, and will get different transform results fr
 
 
 Options
--------
+=======
 
 :guilabel:`Random Seed`
    The random seed is an offset to the random transformation. A different seed will produce a new result.

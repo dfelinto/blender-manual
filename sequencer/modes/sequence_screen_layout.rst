@@ -3,7 +3,7 @@
 
 
 Sequencer Screen Layout
-=======================
+***********************
 
 .. figure:: /images/Manual_sequencer_modes_screen_layout.jpg
    :width: 300px

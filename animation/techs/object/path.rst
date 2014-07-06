@@ -1,6 +1,6 @@
 
 Moving Objects on a Path
-========================
+************************
 
 To make objects move along a path is a very common animation need.
 Think of a complex camera traveling,
@@ -33,7 +33,7 @@ For more on editing path/curves, see the :doc:`modeling chapter <modeling/curves
 
 
 Parenting Method
-----------------
+================
 
 Older versions of Blender did not have constraints to make an object follow a path.
 They used a different method (deprecated, but still available), based on parenting.
@@ -59,7 +59,7 @@ properties panel.
 
 
 The Follow Path Constraint
---------------------------
+==========================
 
 The :guilabel:`Follow Path` constraint implements the most "classical" technique. By default,
 the owner object will walk the whole path only once, starting at frame one,
@@ -76,7 +76,7 @@ For more details and examples, see the :doc:`Follow Path constraint page <constr
 
 
 The Clamp To Constraint
------------------------
+=======================
 
 Another method of keeping objects on a path is to use the :guilabel:`Clamp To` constraint,
 which implements a more advanced technique.

@@ -3,7 +3,7 @@
 
 
 Voxel Data
-==========
+**********
 
 Voxel data renders a voxel source, working very similarly to an image texture, but in 3d.
 Various input data source types are available (such as smoke voxel data, or external files),
@@ -22,7 +22,7 @@ which is a common format for medical volume data such as CT scans.
 
 
 Settings
---------
+========
 
 :guilabel:`File Format`
    :guilabel:`Blender Voxel`

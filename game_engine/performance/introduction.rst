@@ -1,6 +1,6 @@
 
 Performance
-===========
+***********
 
 When developing games, game engineers, software and hardware developers uses some tools to
 fine tune their games to specific platforms and operating systems, defining a basic usage

@@ -1,6 +1,6 @@
 
 Property Actuator
-=================
+*****************
 
 Using the Property actuator you can change the value of a given property once the actuator
 itself is activated.
@@ -36,7 +36,7 @@ Special Options:
 
 
 Example
--------
+=======
 
 You have a character, it has a property called "hp" (hit points)
 to determine when he has taken enough damage to die. hp is an int with the start value of 100.

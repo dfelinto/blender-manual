@@ -1,6 +1,6 @@
 
 Introduction
-============
+************
 
 To be able to work in the three dimensional space that Blender uses,
 you must be able to change your viewpoint as well as the viewing direction of the scene.
@@ -17,7 +17,7 @@ it is possible to translate and zoom a :guilabel:`Buttons` window and its panels
 
 
 Perspective and Orthographic Views
-==================================
+**********************************
 
 .. admonition:: Reference
    :class: refbox
@@ -28,7 +28,7 @@ Perspective and Orthographic Views
 
 
 Description
------------
+===========
 
 Each 3D viewport supports two different types of projection.
 These are demonstrated in the *Orthographic (left) and perspective (right)
@@ -53,7 +53,7 @@ making it easier to draw and judge proportions.
 
 
 Options
--------
+=======
 
 .. figure:: /images/Manual-Part-I-3DCameraView-2.5.jpg
 
@@ -88,10 +88,10 @@ The camera will only show objects that fall within the clipping range.
 
 
 Technical Details
------------------
+=================
 
 Perspective definition
-~~~~~~~~~~~~~~~~~~~~~~
+----------------------
 
 A *perspective* view is geometrically constructed by taking a scene in 3D and placing an
 observer at point ``O``. The 2D perspective scene is built by placing a plane (e.g.
@@ -104,7 +104,7 @@ By projecting all points ``P`` of the scene you get a perspective view.
 
 
 Orthographic definition
-~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------
 
 In an *orthographic* projection,
 you have a viewing direction but not a viewing point ``O``. The line is then drawn
@@ -115,7 +115,7 @@ By projecting all points ``P`` of the scene you get the orthographic view.
 
 
 Rotating the View
-=================
+*****************
 
 .. admonition:: Reference
    :class: refbox
@@ -126,7 +126,7 @@ Rotating the View
 
 
 Description
------------
+===========
 
 .. figure:: /images/Manual-Part-I-3DView2.5.jpg
    :width: 300px
@@ -144,7 +144,7 @@ The :guilabel:`Camera` view shows the current scene as seen from the camera view
 
 
 Options
--------
+=======
 
 You can select the viewing direction for a 3D viewport with the :guilabel:`View` menu entries,
 or by pressing the hotkeys :kbd:`pad3` for "side", :kbd:`pad1` for "front",
@@ -173,7 +173,7 @@ to rotate the scene around the Z global axis from your current point of view.
 
 
 TrackBall/Turntable
-~~~~~~~~~~~~~~~~~~~
+-------------------
 
 By default, when you rotate the view as described above,
 you are using the **turntable** method.
@@ -208,7 +208,7 @@ the last selection will be used anyway.
 
 
 Panning the View
-================
+****************
 
 .. admonition:: Reference
    :class: refbox
@@ -219,7 +219,7 @@ Panning the View
 
 
 Description
------------
+===========
 
 To pan the view, hold down :kbd:`Shift` and drag :kbd:`mmb` in the 3D Viewport.
 For discrete steps, use the hotkeys :kbd:`ctrl-pad8`, :kbd:`ctrl-pad2`,
@@ -230,7 +230,7 @@ you can hold :kbd:`Shift` :kbd:`Alt` while dragging with :kbd:`lmb`.
 
 
 Zooming the View
-================
+****************
 
 .. admonition:: Reference
    :class: refbox
@@ -241,7 +241,7 @@ Zooming the View
 
 
 Description
------------
+===========
 
 You can zoom in and out by holding down :kbd:`Ctrl` and dragging :kbd:`mmb`.
 The hotkeys are :kbd:`pad+` and :kbd:`pad-`.
@@ -265,7 +265,7 @@ hold :kbd:`CTRL-MMB` and move your mouse up and down.
 
 
 Zoom Border
------------
+===========
 
 The :guilabel:`Zoom Border` tool allows you to specify a rectangular region and zoom in so
 that the region fills the 3d view.
@@ -275,7 +275,7 @@ or the shortcut :kbd:`shift-B` then click and drag rectangle to zoom in.
 
 
 Dolly the View
-==============
+**************
 
 .. admonition:: Reference
    :class: refbox
@@ -285,7 +285,7 @@ Dolly the View
 
 
 Description
------------
+===========
 
 In most cases its sufficient to zoom the view to get a closer look at something,
 however you may notice that at a certain point you cannot zoom any closer.
@@ -299,10 +299,10 @@ You can dolly back and fourth by holding down :kbd:`Ctrl-Shift` and dragging
 
 
 Aligning the View
-=================
+*****************
 
 Align View
-----------
+==========
 
 These options allow you to align and orient the view in different ways.
 They are found in the :guilabel:`View Menu`
@@ -336,7 +336,7 @@ They are found in the :guilabel:`View Menu`
 
 
 Local and Global View
-=====================
+*********************
 
 You can toggle between :guilabel:`Local` and :guilabel:`Global` view by selecting the option
 from the :guilabel:`View Menu` or using the shortcut :kbd:`pad/`.
@@ -347,7 +347,7 @@ Press :kbd:`pad/` to return to :guilabel:`Global View`.
 
 
 Quad View
-=========
+*********
 
 .. admonition:: Reference
    :class: refbox
@@ -378,7 +378,7 @@ you will need to split the 3D window into separate windows.
 
 
 View Clipping Border
-====================
+********************
 
 .. admonition:: Reference
    :class: refbox
@@ -389,7 +389,7 @@ View Clipping Border
 
 
 Description
------------
+===========
 
 .. figure:: /images/3D_Interaction-Navigating-3D_view-Region_Clipping.jpg
    :width: 340px
@@ -416,7 +416,7 @@ To delete this clipping, press :kbd:`alt-B` again.
 
 
 Example
--------
+=======
 
 The *Region/Volume clipping* image shows an example of using the clipping tool with a cube.
 Start by activating the tool with :kbd:`alt-B` (upper left of the image).
@@ -433,7 +433,7 @@ all of 3D space will become visible again.
 
 
 View Navigation
-===============
+***************
 
 .. admonition:: Reference
    :class: refbox
@@ -443,7 +443,7 @@ View Navigation
 
 
 Description
------------
+===========
 
 When you have to place the view, normally you do as described above.
 

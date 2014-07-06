@@ -3,10 +3,10 @@
 
 
 Miscellaneous Editing Tools
-===========================
+***************************
 
 Sort Elements
--------------
+=============
 
 This tool (available from the :guilabel:`Specials`,  :guilabel:`Vertices`,
 :guilabel:`Edges` and :guilabel:`Faces` menus)

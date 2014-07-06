@@ -1,6 +1,6 @@
 
 Visibility Actuator
-===================
+*******************
 
 The Visibility actuator allows the user to change the visibility of objects during runtime.
 
@@ -25,7 +25,7 @@ Special Options:
 
 
 Usage Notes
------------
+===========
 
 Using the visiblity actuator will save on Rasterizer usage, however not Physics,
 and so is limited in terms of Level of Detail (LOD). For LOD look at replace mesh,

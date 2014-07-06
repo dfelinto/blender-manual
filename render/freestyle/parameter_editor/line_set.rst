@@ -1,6 +1,6 @@
 
 Line Set
-========
+********
 
 A line set selects, among the lines (edges) detected by Freestyle, which ones will be rendered using its attached :doc:`line style <render/freestyle/parameter_editor/line_style>`, through various methods.
 
@@ -13,7 +13,7 @@ A line set selects, among the lines (edges) detected by Freestyle, which ones wi
 
 
 Selection by Visibility
------------------------
+=======================
 
 There are three choices for selecting edges by visibility.
 
@@ -46,7 +46,7 @@ There are three choices for selecting edges by visibility.
 
 
 Selection by Edge Types
------------------------
+=======================
 
 Edge types are basic algorithms for the selection of lines from geometry. When using the
 parameter editor you have to choose at least one edge type in order to get a render output,
@@ -99,7 +99,7 @@ Edge types can also be excluded from calculation by pressing the :guilabel:`X` n
 
 
 Edge Marks
-~~~~~~~~~~
+----------
 
 .. figure:: /images/Manual-Part26-freestyle-mark-freestyle-edge.jpg
 
@@ -149,7 +149,7 @@ What are edge marks not good for?
 
 
 Selection by Face Marks
------------------------
+=======================
 
 .. figure:: /images/Manual-Part26-freestyle-mark-freestyle-face.jpg
 
@@ -207,7 +207,7 @@ The image below shows the resulting combinations.
 
 
 Selection by Group
-------------------
+==================
 
 You can include or exclude objects for line calculation, based on their belonging to a group.
 
@@ -219,7 +219,7 @@ You can include or exclude objects for line calculation, based on their belongin
 
 
 Selection by Image Border
--------------------------
+=========================
 
 If enabled,
 Freestyle only takes geometry within the image border into consideration for line calculation.

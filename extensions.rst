@@ -3,13 +3,13 @@
 
 
 Extending Blender
-=================
+*****************
 
 Unlike many programs you may be familiar with, Blender is not monolithic and static. You can extend its functionality with :doc:`Python scripting <extensions/python>` without having to modify the source and recompile.
 
 
 Addons
-------
+======
 
 Addons are scripts you can enable to gain extra functionality within Blender,
 they can be enabled from the user preferences.
@@ -25,7 +25,7 @@ An Overview of all addons is available in this wiki in the `Scripts Catalog <htt
 
 
 Scripts
--------
+=======
 
 Apart from addons there are also scripts you can use to extend Blenders functionality:
 
@@ -36,10 +36,10 @@ Apart from addons there are also scripts you can use to extend Blenders function
 
 
 Saving your own scripts
------------------------
+=======================
 
 File location
-~~~~~~~~~~~~~
+-------------
 
 All scripts are loaded from the ``scripts`` folder of the :doc:`local, system and user paths <introduction/installing_blender/directorylayout>`.
 
@@ -47,7 +47,7 @@ You can setup an addittional search path for scripts in :doc:`User preferences <
 
 
 Installation
-~~~~~~~~~~~~
+------------
 
 Addons are conveniently installed through Blender in the :guilabel:`User Preferences` →
 :guilabel:`Addons` window. Click the :guilabel:`Install from File...` button and select the

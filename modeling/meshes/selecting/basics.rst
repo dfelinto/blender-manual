@@ -3,7 +3,7 @@
 
 
 Basic Selection
-===============
+***************
 
 .. admonition:: Reference
    :class: refbox
@@ -17,7 +17,7 @@ this will replace the existing selection with the new item.
 
 
 Adding to a Selection
----------------------
+=====================
 
 To add to the existing selection, hold down :kbd:`shift` while right clicking.
 Clicking again on a selected item will deselect it.
@@ -39,7 +39,7 @@ deleting or otherwise working on backside or hidden items.
 
 
 Selecting Elements in a Region
-------------------------------
+==============================
 
 .. admonition:: Reference
    :class: refbox
@@ -67,7 +67,7 @@ is available in both :guilabel:`Edit mode` and :guilabel:`Object` mode.
 
 
 Rectangular region (Border select)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------
 
 :guilabel:`Border Select` is available in either :guilabel:`Edit mode` or :guilabel:`Object` mode. To activate the tool use the :kbd:`B`. Use :guilabel:`Border Select` to select a group of objects by drawing a rectangle while holding down :kbd:`lmb`. In doing this you will select all objects that lie within or touch this rectangle. If any object that was last active appears in the group it will become selected *and* active.
 
@@ -95,7 +95,7 @@ by releasing :kbd:`lmb` the selection is complete; see (*Complete*).
 
 
 Circular region
-~~~~~~~~~~~~~~~
+---------------
 
 This selection tool is only available in :guilabel:`Edit mode` and can be activated with
 :kbd:`C`.
@@ -131,7 +131,7 @@ To exit from this tool, click :kbd:`rmb`, or hit the :kbd:`Esc` key.
 
 
 Lasso region
-~~~~~~~~~~~~
+------------
 
 :guilabel:`Lasso` select is similar to :guilabel:`Border` select in that you select objects based on a region, except :guilabel:`Lasso` is a hand-drawn region that generally forms a circular/round-shaped form; kind of like a lasso.
 
@@ -154,7 +154,7 @@ To deselect, use :kbd:`ctrl-shift-lmb` while dragging.
 
 
 Additional Selection Tools
---------------------------
+==========================
 
 The select menu in edit mode contains additional tool for selecting components:
 

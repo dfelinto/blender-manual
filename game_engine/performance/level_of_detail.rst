@@ -1,6 +1,6 @@
 
 Introduction
-============
+************
 
 When creating visual assets it is often desirable to have a high amount of detail in the asset
 for up close viewing. However,
@@ -14,7 +14,7 @@ close and from a distance.
 
 
 Settings
-========
+********
 
 .. admonition:: Modifiers on Level of Detail Objects
    :class: note
@@ -45,14 +45,14 @@ click on the X button in the top right corner of the box of the level to be remo
 
 
 Tools
-=====
+*****
 
 Some tools for making levels of detail easier to manage and create can be found from the drop
 down menu next to the add button in the Levels of Detail panel.
 
 
 Set By Name
------------
+===========
 
 Searches the scene for specifically named objects and attempts to set them up as levels of
 detail on the currently selected object. The selected object must be the base level of detail
@@ -68,7 +68,7 @@ Below are some example names that the tool will recognize.
 
 
 Generate
---------
+========
 
 .. figure:: /images/Manual-Level-of-Detail-Generation.jpg
 
@@ -88,6 +88,6 @@ Below are some settings for the operator.
 
 
 Clear All
----------
+=========
 
 Clears the level of detail settings from the current object.

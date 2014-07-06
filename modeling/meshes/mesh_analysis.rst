@@ -2,7 +2,7 @@
 
 
 Mesh Analysis
--------------
+=============
 
 Mesh analysis is useful for displaying attributes of the mesh that may impact certain use
 cases.
@@ -15,7 +15,7 @@ Currently the different modes target 3d-printing as their primary use.
 
 
 Overhang
-~~~~~~~~
+--------
 
 .. figure:: /images/editmode_mesh_statvis_overhang.jpg
    :height: 260px
@@ -28,7 +28,7 @@ this display mode shows the overhang with angle range and axis selection.
 
 
 Thickness
-~~~~~~~~~
+---------
 
 .. figure:: /images/editmode_mesh_statvis_thick.jpg
    :height: 260px
@@ -41,7 +41,7 @@ this test uses ray casting and a distance range to the thickness of the geometry
 
 
 Intersections
-~~~~~~~~~~~~~
+-------------
 
 .. figure:: /images/editmode_mesh_statvis_intersect.jpg
    :height: 260px
@@ -56,7 +56,7 @@ Unlike other display modes, intersections have no variance and are either on or 
 
 
 Distortion
-~~~~~~~~~~
+----------
 
 .. figure:: /images/editmode_mesh_statvis_distort.jpg
    :height: 260px
@@ -71,7 +71,7 @@ with parts of the face pointing in different directions.
 
 
 Sharp Edges
-~~~~~~~~~~~
+-----------
 
 .. figure:: /images/editmode_mesh_statvis_sharp.jpg
    :height: 260px

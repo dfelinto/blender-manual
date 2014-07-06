@@ -1,6 +1,6 @@
 
 Material Vector Nodes
-=====================
+*********************
 
 Vector nodes manipulate information about how light interacts with the material,
 multiplying vector sets, and other wonderful things that normal humans barely comprehend
@@ -12,7 +12,7 @@ surface normals are vectors. Vectors are also important for calculating shading.
 
 
 Normal Node
------------
+===========
 
 .. figure:: /images/26-Manual-Material-Vector-Node-Normal.jpg
 
@@ -49,14 +49,14 @@ And the best thing about it is that you can manipulate the direction interactive
 
 
 Inputs
-~~~~~~
+------
 
 :guilabel:`Normal`
    3D-direction of the face in relation to the camera. The value can be provided by another node or set manually.
 
 
 Outputs
-~~~~~~~
+-------
 
 :guilabel:`Normal`
    Fixed 3D-direction, combined by the node.
@@ -65,7 +65,7 @@ Outputs
 
 
 Controls
-~~~~~~~~
+--------
 
 .. figure:: /images/26-Manual-Material-Vector-Node-Normal-Preview.jpg
 
@@ -77,7 +77,7 @@ Controls
 
 
 Mapping Node
-------------
+============
 
 .. figure:: /images/26-Manual-Material-Vector-Node-Mapping.jpg
 
@@ -91,21 +91,21 @@ Mapping can be rotated and clamped if desired.
 
 
 Inputs
-~~~~~~
+------
 
 :guilabel:`Vector`
    The input vector (3D-direction in relation to the camera) of some the coordinates' mapping. The value can be provided by another node or set manually.
 
 
 Outputs
-~~~~~~~
+-------
 
 :guilabel:`Vector`
    The output vector, combined by the node.
 
 
 Controls
-~~~~~~~~
+--------
 
 The controls of the node have been ordered in X, Y, Z order.
 If you want to use the clamping options, try enabling Min and Max.
@@ -154,7 +154,7 @@ Vector type selector
 
 
 Vector Curves
--------------
+=============
 
 .. figure:: /images/26-Manual-Material-Vector-Node-Curves.jpg
 
@@ -169,7 +169,7 @@ Use the :guilabel:`X` to delete the selected (white) point.
 
 
 Inputs
-~~~~~~
+------
 
 :guilabel:`Fac`:
    Factor. The degree of node's influence in node tree. The value can be provided by another node or set manually.
@@ -178,14 +178,14 @@ Inputs
 
 
 Outputs
-~~~~~~~
+-------
 
 :guilabel:`Vector`
    The output vector, combined by the node.
 
 
 Controls
-~~~~~~~~
+--------
 
 .. figure:: /images/26-Manual-Material-Vector-Node-Curves-Axes.jpg
 

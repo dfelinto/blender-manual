@@ -3,7 +3,7 @@
 
 
 Applying Constraints to Bones
-=============================
+*****************************
 
 .. figure:: /images/Doc26-rigging-constraints.jpg
 

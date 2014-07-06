@@ -3,7 +3,7 @@
 
 
 Lights Common Options
-=====================
+*********************
 
 .. figure:: /images/25-Manual-Lighting-Lights-Properties.jpg
    :width: 312px
@@ -15,7 +15,7 @@ Lights Common Options
 There are five types of lamps in Blender.  They share all or some of the options listed here:
 
 Object Data
------------
+===========
 
 :guilabel:`Browse Light Object Data`
    Click to view all lights in the current scene.
@@ -28,7 +28,7 @@ Object Data
 
 
 Preview
--------
+=======
 
 A quick preview of the light settings.
 

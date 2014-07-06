@@ -1,6 +1,6 @@
 
 Layers
-======
+******
 
 .. admonition:: Reference
    :class: refbox
@@ -38,7 +38,7 @@ across layers and only display those layers you wish to work on.
 
 
 Working with Layers
-===================
+*******************
 
 3D layers differ from the layers you may know from 2D graphics applications as they have no
 influence on the drawing order and are there (except for the special functions listed above)
@@ -54,7 +54,7 @@ Please refer to the relevant sections for more information.
 
 
 Viewing layers
---------------
+==============
 
 Blender provides twenty layers whose visibility can be toggled with the small unlabeled
 buttons in the header (see *3D Viewport layer buttons*). To select a single layer,
@@ -78,7 +78,7 @@ You can select or deselect all Scene Layer buttons at once by pressing the :kbd:
 
 
 Locking to the scene
---------------------
+====================
 
 By default, the lock button directly to the right of the layer buttons is enabled.
 This means that changes to the viewed layers affect all other 3D Views locked to the scene - see the :doc:`navigating
@@ -86,7 +86,7 @@ the 3D view options page <3d_interaction/navigating>` for more information.
 
 
 Multiple Layers
----------------
+===============
 
 An object can exist on multiple layers. For example,
 a lamp that only lights objects on a shared layer could "be" on layers 1, 2, and 3.
@@ -96,7 +96,7 @@ especially lights and particles.
 
 
 Moving objects between layers
------------------------------
+=============================
 
 .. figure:: /images/Manual-3Dinteraction-Navigating-Layers-layer-selection.jpg
 
@@ -128,7 +128,7 @@ can be displayed on more than one layer by clicking :kbd:`shift-lmb`.
 
 
 Example of object layer arrangement
------------------------------------
+===================================
 
 As a suggestion, use the top row of layers for important parts of your scene,
 and the bottom row for those you don't use or change often

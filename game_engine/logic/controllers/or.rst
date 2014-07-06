@@ -1,6 +1,6 @@
 
 OR Controller
-=============
+*************
 
 This controller gives a positive (TRUE) output when
 Any one or more of its inputs are TRUE, and

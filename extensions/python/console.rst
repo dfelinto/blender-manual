@@ -1,6 +1,6 @@
 
 The Console Editor Type
-=======================
+***********************
 
 The interactive console in Blender 2.5 has been improved. Auto Complete,
 Python Reporting & more features have been added.
@@ -8,7 +8,7 @@ Testing one-liners in the console is a good way to learn the Python API.
 
 
 Accessing Built-in Python Console
----------------------------------
+=================================
 
 Launching the Console using mouse.
 
@@ -35,7 +35,7 @@ the interpreter is loaded and is ready to accept commands at the prompt **>>>**
 
 
 First look at the Console Environment
--------------------------------------
+=====================================
 
 To check what is loaded into the interpreter environment, type dir()
 at the prompt and execute it.
@@ -59,7 +59,7 @@ Following is a quick overview of the output
 
 
 Auto Completion at work
------------------------
+=======================
 
 Now, type bpy. and then press :kbd:`Ctrl-Space` and you will see the Console
 auto-complete feature in action.
@@ -91,7 +91,7 @@ Now that you got a hang of this, lets proceed to investigate some of modules in 
 
 
 Before tinkering with the modules..
------------------------------------
+===================================
 
 If you look at the 3D Viewport in the default Blender scene, you will notice 3 objects: Cube,
 Lamp and Camera.
@@ -112,10 +112,10 @@ the bpy module provides functionality to access and modify data.
 
 
 Examples
-========
+********
 
 bpy.context
------------
+===========
 
 Note
    For the commands below to show the proper output, make sure you have selected object(s) in the 3D view.
@@ -127,7 +127,7 @@ Note
 
 
 Try it out!
-~~~~~~~~~~~
+-----------
 
 **bpy.context.mode**
    Will print the current 3D View mode (Object, Edit, Sculpt etc.,)
@@ -206,7 +206,7 @@ Complex one.. But this prints a list of objects not including the active object
 
 
 bpy.data
---------
+========
 
 bpy.data has a bunch of functions and variables that give you access to all the data in the
 Blender file.
@@ -220,7 +220,7 @@ That's a lot of data.
 
 
 Try it out!
-~~~~~~~~~~~
+-----------
 
 .. figure:: /images/Manual-Part-XX-Manual-Extensions-Python-Console-Example-bpy-data.jpg
    :width: 600px
@@ -228,7 +228,7 @@ Try it out!
 
 
 Exercise
-~~~~~~~~
+--------
 
 ::
 
@@ -254,7 +254,7 @@ Unlink the active object from the Blender scene named 'Scene'
 
 
 bpy.ops
--------
+=======
 
 The tool/action system in Blender 2.5 is built around the concept of operators. These
 operators can be called directly from console or can be executed by click of a button or
@@ -267,7 +267,7 @@ delete the existing Cube object by selecting it and pressing :kbd:`X`
 
 
 Try it out!
-~~~~~~~~~~~
+-----------
 
 The following commands are used to specify that the objects are created in layer 1.
 So first we define an array variable for later reference:

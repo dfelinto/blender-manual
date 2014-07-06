@@ -1,6 +1,6 @@
 
 Modifier
-========
+********
 
 A modifier is defined as the application of a "process" or "algorithm" upon objects. They can
 be applied interactively and non-destructively in just about any order the users chooses. This
@@ -28,7 +28,7 @@ This means that the stack order is very important in defining the end results.
 
 
 Interface
-=========
+*********
 
 .. figure:: /images/25-Manual-Modifiers-Subsurf.jpg
 
@@ -62,7 +62,7 @@ And below these buttons is a sub panel with settings for individual modifiers.
 
 
 Stack
-=====
+*****
 
 .. figure:: /images/25-Manual-Modifiers-stackorder-example3.jpg
 

@@ -1,6 +1,6 @@
 
 Render Layers
-=============
+*************
 
 Render layers are used to separate your composite image into layers.
 Use Render Layers for a specific reason - such as creating depth of field,
@@ -12,7 +12,7 @@ re-rendering your scene just to find out whether a correction is going to work o
 
 
 Render Layers in Compositing
-----------------------------
+============================
 
 What are Render Layers *really* used for?  Blender's node-based compositing system!
 
@@ -25,13 +25,13 @@ constructed.
 
 
 Layers or Passes?
------------------
+=================
 
 Blender's :doc:`Render Pass <render/post_process/passes>` system is a subset of Render Layers. Passes are specific to elements of shading properties, such as specular and diffuse, which can later be combined in compositing. Render Layers are more geared for separating scene components, but can include isolated passes as well.
 
 
 Using Render Layers
-===================
+*******************
 
 In Render buttons, open the Layers tab.
 This is where you select the layers that you want to render,
@@ -39,7 +39,7 @@ and the settings for the upcoming render.
 
 
 Enabling and Naming
--------------------
+===================
 
 The list box contains the Render Layers that you have created, and options for disabling,
 removing, adding, and renaming layers.
@@ -54,7 +54,7 @@ or to add a new one.
 
 
 Creating a new Render Layer
----------------------------
+===========================
 
 By default, there is 1 Render Layer created for you, and it includes all layers,
 whether they are used in your scene or not. To add yet another Render Layer,
@@ -76,7 +76,7 @@ Run both through a mixer and out to the Composite viewer to get the big picture.
 
 
 Scene Layers Settings
----------------------
+=====================
 
 There are three sets of scene layer buttons:
 
@@ -100,7 +100,7 @@ You can select that layer by :kbd:`Lmb` clicking the button. To select multiple 
 
 
 Overrides
----------
+=========
 
 The Light and Material selector boxes allow you to override materials and lights per layer,
 applying them to all objects in the Render Layer.
@@ -112,7 +112,7 @@ applying them to all objects in the Render Layer.
 
 
 Include Options
----------------
+===============
 
 Each render layer has its own set of major products to include in the rendering pipeline.
 To save time and give you control when working with passes,
@@ -140,16 +140,16 @@ this set of buttons allow you to select which major products to render:
 
 
 Passes
-------
+======
 
 Render Passes (Combined, Z, Vec, etc.) are discussed on :doc:`the next page <render/post_process/passes>`.
 
 
 Examples
-========
+********
 
 Rendering only certain objects
-------------------------------
+==============================
 
 For example, suppose you have added a cool halo to your robot and you want to quickly see what
 it looks like. Suppose your scene has boxes on layer 1, laser rifles on layer 2,
@@ -163,7 +163,7 @@ only the robot is rendered (quickly) and not all the other elements of your scen
 
 
 Outlining only selected objects
--------------------------------
+===============================
 
 To render an image where only one or two of the objects are outlined,
 move those objects onto layer(s) separate from everything else.

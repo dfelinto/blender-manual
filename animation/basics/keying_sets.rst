@@ -1,6 +1,6 @@
 
 Keying Sets
-===========
+***********
 
 .. figure:: /images/Doc_kia_Cube02.jpg
 
@@ -20,7 +20,7 @@ or the *Keying Set Panel*, or press :kbd:`Ctrl-Alt-Shift-I` in the 3D View.
 
 
 Keying Set Panel
-----------------
+================
 
 This panel is used to add, select, manage *Absolute Keying Sets*.
 
@@ -63,7 +63,7 @@ This panel is used to add, select, manage *Absolute Keying Sets*.
 
 
 Active Keying Set Panel
------------------------
+=======================
 
 This panel is used to add properties to the active Keying Set.
 
@@ -117,7 +117,7 @@ This panel is used to add properties to the active Keying Set.
 
 
 Adding Properties
------------------
+=================
 
 Some ways to add properties to keying sets.
 
@@ -128,7 +128,7 @@ to add *Add All to Keying Set*.
 
 
 See Also
---------
+========
 
 - :doc:`Timeline Header - V Keyframe Control <animation/editors/timeline#v_keyframe_control>`
 

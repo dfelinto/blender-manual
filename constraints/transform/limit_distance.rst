@@ -1,9 +1,9 @@
 
 Limit Distance Constraint
-=========================
+*************************
 
 Description
------------
+===========
 
 The :guilabel:`Limit Distance` constraint forces its owner to stay either further from,
 nearer to, or exactly at a given distance from its target. In other words,
@@ -22,7 +22,7 @@ Note that if you use such a constraint on a *connected* bone, it will have no ef
 
 
 Options
--------
+=======
 
 .. figure:: /images/25-Manual-Constraints-Transform-LimitDist.jpg
    :width: 304px

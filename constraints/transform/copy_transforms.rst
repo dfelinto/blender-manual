@@ -1,16 +1,16 @@
 
 Copy Transforms Constraint
-==========================
+**************************
 
 Description
------------
+===========
 
 The :guilabel:`Copy Transforms` constraint forces its owner to have the same transforms as its
 target.
 
 
 Options
--------
+=======
 
 .. figure:: /images/25-Manual-Constraints-Transform-CopyTransforms.jpg
    :width: 304px

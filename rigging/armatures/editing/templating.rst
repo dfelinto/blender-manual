@@ -3,7 +3,7 @@
 
 
 Armature Templating
-===================
+*******************
 
 The idea of templating is to use an already existing armature as base ("template")
 to create a new armature. It differs from a simple copy in that you can directly define the
@@ -13,7 +13,7 @@ In Blender, the only templating tool is the bone sketching one (Etch-a-ton, desc
 
 
 Using Bone Sketching
---------------------
+====================
 
 .. admonition:: Reference
    :class: refbox

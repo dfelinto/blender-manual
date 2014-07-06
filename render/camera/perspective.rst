@@ -3,7 +3,7 @@
 
 
 Perspective in Render
-=====================
+*********************
 
 When you press F12 and get your render,
 you see an image as seen through the camera's "perspective".
@@ -45,7 +45,7 @@ Blender offers a few tricks of its own to let you do the same.
 
 
 Three Point Rendering
-=====================
+*********************
 
 .. figure:: /images/Manual-Render-3pt.jpg
    :width: 200px
@@ -69,7 +69,7 @@ building so that you are not scared that the building is going to fall over.
 
 
 Two Point Rendering
-===================
+*******************
 
 .. figure:: /images/Manual-Render-2pt.jpg
    :width: 200px
@@ -112,7 +112,7 @@ toward the sides, further enhancing the depth.
 
 
 To achieve 2-point rendering:
------------------------------
+=============================
 
 - Use a short wide angle lens camera, say with a Lens :guilabel:`Size` of 10 mm placed close to the building, or a long lens farther away from the building. These differences affect the depth of the building render, with longer lenses making the building appear thinner and less dramatic or distorted. The example uses a 40mm lens.
 
@@ -128,7 +128,7 @@ To achieve 2-point rendering:
 
 
 One Point Rendering
-===================
+*******************
 
 .. figure:: /images/Manual-Render-1pt.jpg
    :width: 200px
@@ -148,7 +148,7 @@ Title graphics are sometimes rendered this way.
 
 
 To get 1-point (1pt) renders
-----------------------------
+============================
 
 - To get more dramatic depth lines, use a short wide angle lens camera,
   say with a Lens :guilabel:`Size` of 10 mm, very close to the building.
@@ -187,7 +187,7 @@ in the upper left-hand corner of the passpartout.
 
 
 Orthographic Rendering
-======================
+**********************
 
 .. figure:: /images/Manual-Render-0pt.jpg
    :width: 200px
@@ -237,7 +237,7 @@ Specific measurements are left to reader using triangle math.
 
 
 Isometric Rendering
--------------------
+===================
 
 .. figure:: /images/Manual-Render-Iso.jpg
    :width: 200px

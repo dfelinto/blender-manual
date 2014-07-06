@@ -3,21 +3,21 @@
 
 
 Distributed Render Farm
-=======================
+***********************
 
 There are several levels of CPU allocation that you can use to decrease overall render time by
 applying more brainpower to the task.
 
 
 Multi-Threading
----------------
+===============
 
 First, if you have a multi-core CPU, you can increase the number of threads,
 and Blender will use that number of CPUs to compute the render.
 
 
 Frame Ranges
-------------
+============
 
 Second, if you have a local area network with available PCs,
 you can split the work up by frames. For example, if you want to render a 200 frame animation,
@@ -33,7 +33,7 @@ the rendered frames will be placed on the host PC.
 
 
 Collaborative Rendering
------------------------
+=======================
 
 Third, you can do WAN rendering,
 which is where you email or fileshare or Verse-share the .blend file (with packed data!)
@@ -43,7 +43,7 @@ If you have reliable friends, this is a way for you to work together.
 
 
 Remote Renderfarms
-------------------
+==================
 
 Fourth, you can use a render farm service. These services, like `BURP <http://burp.boinc.dk/>`__,
 are run by an organization. You email them your file,

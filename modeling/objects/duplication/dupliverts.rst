@@ -1,6 +1,6 @@
 
 DupliVerts
-==========
+**********
 
 .. admonition:: Reference
    :class: refbox
@@ -28,10 +28,10 @@ the petals in a flower).
 
 
 DupliVerts as an Arranging Tool
--------------------------------
+===============================
 
 Setup
-~~~~~
+-----
 
 .. figure:: /images/Manual-2.5-Dupliverts-Example01-1start.jpg
 
@@ -68,7 +68,7 @@ location :kbd:`Alt-G`, and origin :kbd:`Alt-O`.
 
 
 Rearranging
-~~~~~~~~~~~
+-----------
 
 If you now select the base object and modify it in either object or edit mode,
 all changes will also affect the shape of all duplicate objects.
@@ -81,7 +81,7 @@ objects.
 
 
 Orientation
-~~~~~~~~~~~
+-----------
 
 .. figure:: /images/Manual-2.5-Dupliverts-Example01-3Orientation.jpg
 
@@ -122,7 +122,7 @@ Output of various orientations:
 
 
 DupliVerts as a Modeling Tool
------------------------------
+=============================
 
 Very interesting models can be made using DupliVerts and a standard primitive.
 In this example, a simple tentacle was made by extruding a cube a couple of times.
@@ -159,7 +159,7 @@ make sure they are all selected and go to :guilabel:`Object` → :guilabel:`Join
 
 
 See also
---------
+========
 
 Other duplication methods are listed :doc:`here <modeling/objects/duplication>`.
 

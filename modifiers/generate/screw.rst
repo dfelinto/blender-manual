@@ -1,6 +1,6 @@
 
 Screw Modifier
-==============
+**************
 
 .. admonition:: Reference
    :class: refbox
@@ -10,7 +10,7 @@ Screw Modifier
 
 
 Description
------------
+===========
 
 The :guilabel:`Screw` modifier is similar to the :guilabel:`Screw` tool in the :guilabel:`Tool
 Shelf` in that it takes a profile object, a :guilabel:`Mesh` or a :guilabel:`Curve`,
@@ -29,7 +29,7 @@ object rather than to the screw axis.
 
 
 Options
--------
+=======
 
 .. figure:: /images/25-Manual-Modifiers-Screw.jpg
 

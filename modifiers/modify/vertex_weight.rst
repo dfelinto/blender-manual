@@ -1,6 +1,6 @@
 
 WeightVGroup Modifiers
-======================
+**********************
 
 .. admonition:: Reference
    :class: refbox
@@ -10,7 +10,7 @@ WeightVGroup Modifiers
 
 
 Description
------------
+===========
 
 The WeightVGroup modifiers work on a vertex group of the affected object,
 by modifying its weights and/or which vertices belong to this group.
@@ -44,7 +44,7 @@ FIXME(TODO: Internal Link;
 
 
 Common Settings
----------------
+===============
 
 .. figure:: /images/ManModifiersWeightVG_mask.jpg
    :width: 300px
@@ -91,7 +91,7 @@ Note that influence only affects weights, adding/removing of vertices to/from ve
 
 
 Viewing Modified Weights
-~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------
 
 You will now view the modified weights in :guilabel:`WeightPaint` mode. This also implies that
 you'll have to disable the Vertex Weight modifiers if you want to see the original weights of
@@ -99,7 +99,7 @@ the vertex group you are editing (provided it is affected by some modifier, obvi
 
 
 Vertex Weight Edit Modifier
----------------------------
+===========================
 
 .. figure:: /images/ManModifiersWeightVGEdit.jpg
    :width: 300px
@@ -118,7 +118,7 @@ The general process is the following, for each vertex:
 
 
 Options
-~~~~~~~
+-------
 
 :guilabel:`Vertex Group`
    The vertex group to affect.
@@ -143,7 +143,7 @@ Options
 
 
 Vertex Weight Mix Modifier
---------------------------
+==========================
 
 .. figure:: /images/ManModifiersWeightVGMix.jpg
    :width: 300px
@@ -167,7 +167,7 @@ This implies that it *might* add vertices to the affected vertex group (it will 
 
 
 Options
-~~~~~~~
+-------
 
 :guilabel:`Vertex Group A`
    The vertex group to affect.
@@ -203,7 +203,7 @@ Options
 
 
 Vertex Weight Proximity Modifier
---------------------------------
+================================
 
 .. figure:: /images/ManModifiersWeightVGProximity.jpg
    :width: 300px
@@ -218,7 +218,7 @@ based on the distance between the object (or its vertices), and another target o
 
 
 Options
-~~~~~~~
+-------
 
 :guilabel:`Vertex Group`
    The vertex group to affect.
@@ -258,10 +258,10 @@ it will silently fall back to the default :guilabel:`Object Distance` behavior.
 
 
 Examples
---------
+========
 
 Using Distance from a Target Object
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------
 
 As a first example,
 let's dynamically control a :guilabel:`Wave` modifier with a modified vertex group.
@@ -300,7 +300,7 @@ FIXME(Tag Unsupported:vimeo;
 
 
 Using Distance from a Target Object's Geometry
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------------
 
 We're going to illustrate this with a :guilabel:`Displace` modifier.
 
@@ -374,7 +374,7 @@ FIXME(Tag Unsupported:vimeo;
 
 
 Using a Texture and the Mapping Curve
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------
 
 Here we are going to create a sort of strange alien wave (yes,
 another example with the :guilabel:`Wave` modifier... but it's a highly visual one;
@@ -444,6 +444,6 @@ FIXME(Tag Unsupported:vimeo;
 
 
 See Also
---------
+========
 
 - The `Development page <http://wiki.blender.org/index.php/User:Mont29/WeightVGroup/Dev>`__.

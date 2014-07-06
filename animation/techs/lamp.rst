@@ -3,13 +3,13 @@
 
 
 Animating Lamps Properties
-==========================
+**************************
 
 As of Blender 2.5, :doc:`Everything is animatable <introduction/whats_new_in_this_series#animation_system>`. Read more about keyframes :doc:`Here <animation/keyframes>`.
 
 
 Example
--------
+=======
 
 Let's illustrate this with a flying torch deep in a cave.
 

@@ -1,9 +1,9 @@
 
 Camera
-======
+******
 
 Perspective
------------
+===========
 
 :guilabel:`Lens Size and Angle`
    Control the field of view angle.
@@ -15,7 +15,7 @@ Perspective
 
 
 Orthographic
-------------
+============
 
 :guilabel:`Scale`
    Controls the size of objects projected on the image.
@@ -27,7 +27,7 @@ Orthographic
 
 
 Panoramic
----------
+=========
 
 Cycles supports Equirectangular and Fisheye panoramic cameras.
 Note that these can't be displayed with OpenGL rendering in the viewport;
@@ -35,7 +35,7 @@ they will only work for rendering.
 
 
 Equirectangular
-_______________
+^^^^^^^^^^^^^^^
 
 Render a panoramic view of the scenes from the camera location and use an equirectangular
 
@@ -49,7 +49,7 @@ mapping.
 
 
 Fisheye
-_______
+^^^^^^^
 
 Fisheye lenses are typically wide angle lenses with strong distortion,
 useful for creating panoramic images for e.g. dome projection, or as an artistic effect.
@@ -68,7 +68,7 @@ the whole sensor. This is a good lens for full dome projection.
 
 
 Depth of Field
---------------
+==============
 
 :guilabel:`Aperture Type`
    Method with which to specify the size of the camera opening through which light enters. With Radius the radius of the opening can be specified, while F/Stop specifies the size relative to the camera focal length, a measure more common in photography. Their relation is: *aperture radius = focal length / (2 f-stop)*
@@ -87,7 +87,7 @@ Depth of Field
 
 
 Clipping
---------
+========
 
 :guilabel:`Clip Start and End`
    The interval in which objects are directly visible. Any objects outside this range still influence the image indirectly, as further light bounces are not clipped. For OpenGL rendering, setting clipping distances to limited values is important to ensure sufficient rasterization precision. Ray tracing does not suffer from this issue much, and as such more extreme values can safely be set.

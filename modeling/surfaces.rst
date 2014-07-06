@@ -9,7 +9,7 @@
 
 
 Surfaces
-========
+********
 
 .. figure:: /images/Blender2.5NurbsSurface.jpg
 
@@ -42,7 +42,7 @@ In fact, surfaces are very similar to the results you get when :doc:`extruding a
 
 
 Finding Surface Tools
-=====================
+*********************
 
 .. figure:: /images/NurbsSurfaceTools.jpg
 
@@ -53,7 +53,7 @@ The panels of the :guilabel:`Editing` context are the same as for :doc:`curves <
 
 
 Visualization
-=============
+*************
 
 There is nearly no difference from NURBS curves,
 except that the ``U`` direction is indicated by yellow grid lines,
@@ -64,7 +64,7 @@ You can :doc:`hide and reveal <modeling/curves#hiding_elements>` control points 
 
 
 Surface Structure
-=================
+*****************
 
 Many of the concepts from :doc:`curves <modeling/curves>`, especially :doc:`NURBS <modeling/curves#nurbs>` ones, carry directly over to NURBS surfaces, such as control points, :guilabel:`Order`, :guilabel:`Weight`, :guilabel:`Resolution`, etc. Here we will just talk about the differences.
 
@@ -80,7 +80,7 @@ Visually you can tell which is which by entering :guilabel:`Edit` mode and looki
 
 
 Control Points, Rows and Grid
------------------------------
+=============================
 
 Control points for NURBS surfaces are the same as for NURBS curves. However,
 their layout is quite constraining. The concept of "segment" disappears,
@@ -98,7 +98,7 @@ be able to "merge" different pieces of surfaces if at least one of their rows ma
 
 
 Surface Resolution
-------------------
+==================
 
 Just like :doc:`NURBS curves <modeling/curves#nurbs>`, :guilabel:`Resolution` controls the detail of the surface. The higher the :guilabel:`Resolution` the more detailed and smoother the surface is. The lower the :guilabel:`Resolution` the rougher the surface. However, here you have two resolution settings, one for each interpolation axis (U and V). Note that unlike with curves, you have only one resolution (the :guilabel:`Resol U` and :guilabel:`V` fields, in the :guilabel:`Curve Tools` panel)...
 
@@ -125,7 +125,7 @@ to not slow things down in the viewport, but still get good render results.
 
 
 Closed and Open Surfaces
-------------------------
+========================
 
 Like curves, surfaces can be closed (cyclical) or open, independently in both directions,
 allowing you to easily create a tube, donut or sphere shape,
@@ -134,7 +134,7 @@ This makes working with surfaces quite easy.
 
 
 Knots
------
+=====
 
 Just like with :doc:`NURBS curves <modeling/curves#knots>`, NURBS surfaces have two knot vectors, one for each U and V axis. Here again, they can be one of :guilabel:`Uniform`, :guilabel:`Endpoint`, or :guilabel:`Bezier`, with the same properties as for curves. And as with curves, only open surfaces (in the relevant direction) are affected by this setting...
 
@@ -154,7 +154,7 @@ To cause the surface to extend to all edges you would set the ``V`` 's axis to
 
 
 Order
------
+=====
 
 One more time, this property is the same as with :doc:`NURBS Curves <modeling/curves#order>`; it specifies how much the control points are taken into account for calculating the curve of the surface shape. For high :guilabel:`Orders`, (*1*), the surface pulls away from the control points, creating a smoother surface - assuming that the
 FIXME(TODO: Internal Link;
@@ -178,7 +178,7 @@ and higher than **6** or the number of control points on the relevant axis.
 
 
 Weight
-------
+======
 
 .. figure:: /images/NurbsSurfaceWeightExample.jpg
    :width: 600px
@@ -201,7 +201,7 @@ The :guilabel:`Weight` of any particular control point is visible in the :doc:`T
 
 
 Preset Weights
-~~~~~~~~~~~~~~
+--------------
 
 .. figure:: /images/NurbsSurfaceSphere.jpg
    :width: 250px
@@ -220,7 +220,7 @@ We saw with 1D :doc:`NURBS curves <ling/curves#preset_weights>` how to create a 
 
 
 Primitives
-----------
+==========
 
 To help get started in creating surfaces there are four preset NURBS surfaces,
 found in the :menuselection:`Add --> Surface` menu: :guilabel:`NURBS Surface`, :guilabel:`NURBS Tube`,

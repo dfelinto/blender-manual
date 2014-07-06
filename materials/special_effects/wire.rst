@@ -1,6 +1,6 @@
 
 Wire Render
-===========
+***********
 
 .. figure:: /images/Doc_2.6_Materials_Render_Wire0.jpg
    :width: 320px

@@ -1,6 +1,6 @@
 
 Image Textures
-==============
+**************
 
 The term :guilabel:`Image Texture` simply means that a graphic image — a pixel grid
 composed of R, G, B,
@@ -14,7 +14,7 @@ themselves allowing us to control most aspects of how image textures are applied
 
 
 About Image Based Texturing
-===========================
+***************************
 
 Texture images take up precious memory space,
 often being loaded into a special video memory bank that is very fast and very expensive,
@@ -65,7 +65,7 @@ Ears are another example where images or section of an images can be mapped to s
 
 
 Workflow
---------
+========
 
 The process consists of the following steps.
 
@@ -83,7 +83,7 @@ The process consists of the following steps.
 
 
 Using Images and Materials
---------------------------
+==========================
 
 To use an image as the color and alpha (transparency) of the texture, you can create an image
 in an external paint program and tell the UV/Image Editor to Open that file as the texture,
@@ -93,7 +93,7 @@ If you want to start off by creating an image using an external paint program, y
 
 
 Creating an Image Texture
-~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------
 
 To create an image within Blender, you have to first create a :doc:`New Blank <textures/mapping/uv/applying_image>` Image with a uniform color or test grid. After that, you can color the image using the:
 
@@ -116,7 +116,7 @@ After you have created your image, you can modify it using Blender's built-in :d
 
 
 Examples
---------
+========
 
 There may be one UV Layout for the face of a character, and another for their clothes. Now,
 to texture the clothes, you need to create an image at least for the Color of the clothes, and
@@ -148,7 +148,7 @@ denser pattern by using the Texture controls for repeat or size.
 
 
 Layering UV Textures
-~~~~~~~~~~~~~~~~~~~~
+--------------------
 
 .. figure:: /images/Manual-UV-Layer_One.jpg
    :width: 300px
@@ -212,7 +212,7 @@ enables you to layer and combine textures in almost any way you can imagine.
 
 
 Mix and Match Materials
-~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------
 
 .. figure:: /images/Manual-UV-MixMat.jpg
 
@@ -259,7 +259,7 @@ but that's another story ...)
 
 
 Using Alpha Transparency
-~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------
 
 .. figure:: /images/Manual-UV-Alpha.jpg
    :width: 200px
@@ -329,7 +329,7 @@ To overlay multiple UV images, you have several options:
 
 
 UV Textures vs. Procedural Textures
------------------------------------
+===================================
 
 A Material Texture, that has a Map Input of UV,
 and is an image texture that is mapped to Color, is equivalent to a UV Texture.
@@ -369,10 +369,10 @@ Input panel.
 
 
 Settings
-========
+********
 
 Image
------
+=====
 
 .. figure:: /images/25-Manual-Textures-Image-panel.jpg
    :width: 306px
@@ -488,7 +488,7 @@ About specific options for **movie** and **image sequence** source see :doc:`her
 
 
 Image Sampling
---------------
+==============
 
 In the :guilabel:`Image Sampling` panel we can control how the information is retrieved from
 the image.
@@ -620,7 +620,7 @@ Turn this image off if you are using digital photos to preserve crispness.
 
 
 Image Mapping
--------------
+=============
 
 .. figure:: /images/25-Manual-Textures-ImageMapping-panel.jpg
    :width: 306px

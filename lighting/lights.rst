@@ -1,6 +1,6 @@
 
 Lights
-======
+******
 
 As previously stated, there are multiple types of lighting in Blender, like indirect light or ambient light. However, one of the most used are "lights", or "lamps". In this section, we will discuss general info and settings for these lights (you will find more lamp-specific details in the :doc:`Lamps <lighting/lamps>` section):
 

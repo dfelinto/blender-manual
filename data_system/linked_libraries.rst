@@ -3,7 +3,7 @@
 
 
 Linked Libraries Overview
-=========================
+*************************
 
 Blender is able to "reach in" to other .blend files and pull in whatever you want.
 In this way, Blender supports reuse of your Blender data. For example,
@@ -13,7 +13,7 @@ This saves you from manually re-creating all the different settings.
 
 
 General Procedure
------------------
+=================
 
 .. admonition:: Reference
    :class: refbox
@@ -39,7 +39,7 @@ Clicking on any one of them will display the specific instances of that type.
 
 
 Folder and File Organization
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------
 
 We suggest creating a folder called ``/lib`` or ``/library``.
 Under that library,
@@ -54,7 +54,7 @@ all you have to do is copy that file into the ``furniture`` folder.
 
 
 Appending library objects into your current project
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------------------
 
 The following procedure appends an object with all its linked data, such as mesh data,
 materials, textures, ..., to the current .blend file.
@@ -113,7 +113,7 @@ Some more loading option buttons (in the :guilabel:`File Browser` header) includ
 
 
 Reusing Objects (Meshes, Curves, Cameras, Lights, ...)
-------------------------------------------------------
+======================================================
 
 Let's suppose you created a wheel in one.
 blend file and want to reuse it for your current project.
@@ -178,7 +178,7 @@ FIXME(TODO: Internal Link;
 
 
 Reusing Material/Texture Settings
----------------------------------
+=================================
 
 .. figure:: /images/Manual-Append-Materials.jpg
    :width: 150px
@@ -214,7 +214,7 @@ see FIXME(Link Type Unsupported: dev; [[Dev:Ref/Release Notes/Vitals/File operat
 
 
 Reusing Node Layouts
---------------------
+====================
 
 To reuse noodles (node layouts), open the original (source)
 file and create a Group for the set of nodes that you think you want to reuse.
@@ -234,7 +234,7 @@ When you dive into the file, there will be a :guilabel:`NodeTree` option.
 
 
 Proxy Objects
--------------
+=============
 
 A proxy is a legal stand-in or substitute for the real thing. In Blender,
 when you make a linked copy (described above), you cannot edit the object;
@@ -285,7 +285,7 @@ but will not reset your changes (unless the owner has).
 
 
 Armatures and Multiple instances
---------------------------------
+================================
 
 Development of this feature is a work in progress; in Blender 2.43 and CVS
 (as of 29 April 2007), a proxy object controls *all instances of a group*.

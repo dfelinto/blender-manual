@@ -1,6 +1,6 @@
 
 The Text Editor
-===============
+***************
 
 Blender has a :guilabel:`Text Editor` among its windows types, accessible via the :guilabel:`Text Editor` button (
 
@@ -65,7 +65,7 @@ can access them through the :guilabel:`Text` → :guilabel:`Text Plugins` menu e
 
 
 Other usages for the Text window
---------------------------------
+================================
 
 The text window is handy also when you want to share your .
 blend files with the community or with your friends. A Text window can be used to write in a
@@ -76,7 +76,7 @@ license you can write the license in a text window.
 
 
 Demonstration
-=============
+*************
 
 FIXME(Tag Unsupported:youtube;
 <youtube>OzGZ_ssrmsQ</youtube>
@@ -84,7 +84,7 @@ FIXME(Tag Unsupported:youtube;
 
 
 Exercise
-========
+********
 
 Copy the text below in the Text Editor.
 

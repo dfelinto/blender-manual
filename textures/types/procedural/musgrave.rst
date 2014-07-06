@@ -1,6 +1,6 @@
 
 Procedural textures: Musgrave
-=============================
+*****************************
 
 .. figure:: /images/25-Manual-Textures-Procedural-Musgrave.jpg
    :width: 307px
@@ -16,7 +16,7 @@ Procedural textures: Musgrave
 
 
 Options
--------
+=======
 
 :guilabel:`Type`
    This procedural texture has five noise types on which the resulting pattern can be based and they are selectable from a dropdown menu at the top of the tab. The five types are:

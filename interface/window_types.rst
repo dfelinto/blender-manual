@@ -2,7 +2,7 @@
 
 
 Window Types
-============
+************
 
 .. figure:: /images/Manual-Part-I-ConceptWinTypes_25.jpg
 

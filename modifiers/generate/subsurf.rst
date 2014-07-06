@@ -2,7 +2,7 @@
 ..    TODO/Review: {{review|im=some need update}} .
 
 Subdivision Surfaces ("Subsurf") Modifier
-=========================================
+*****************************************
 
 .. admonition:: Reference
    :class: refbox
@@ -44,13 +44,13 @@ Keep in mind that this is a different operation than its companion, :doc:`Smooth
 
 
 MultiResolution Modifier
-------------------------
+========================
 
 Another way to subdivide is with the :doc:`MultiResolution Modifier <modifiers/generate/multiresolution>`. This differs from Subsurf in that MultiRes allows you to edit the mesh at several subdivision levels without losing information at the other levels. It is slightly more complicated to use, but more powerful.
 
 
 Options
--------
+=======
 
 .. figure:: /images/25-Manual-Modifiers-Subsurf.jpg
 
@@ -128,7 +128,7 @@ but use a higher quality version when rendering.
 
 
 Order of the Modifier Stack
----------------------------
+===========================
 
 .. figure:: /images/Manual-Modifiers-Generate-Subsurf_OrderOfExecution.jpg
 
@@ -139,13 +139,13 @@ The :doc:`Evaluation order <modifiers/the_stack>` of Modifiers is often signific
 
 
 Control
--------
+=======
 
 Subsurf rounds off edges, and often this is not what you want. There are several solutions.
 
 
 Weighted Creases
-~~~~~~~~~~~~~~~~
+----------------
 
 .. admonition:: Reference
    :class: refbox
@@ -176,7 +176,7 @@ you have to increase the weight of all the surrounding edges.
 
 
 Edge Loops
-~~~~~~~~~~
+----------
 
 .. admonition:: Reference
    :class: refbox
@@ -201,7 +201,7 @@ to control the sharpness/smoothness of the resultant mesh.
 
 
 Combination
-~~~~~~~~~~~
+-----------
 
 .. figure:: /images/Subsurf2x4.jpg
 
@@ -218,7 +218,7 @@ the effects of the Smooth Shading, which bleeds over onto the flat faces.
 
 
 Limitations & Workarounds
--------------------------
+=========================
 
 Blender's subdivision system produces nice smooth subsurfed meshes, but any subsurfed face
 (that is, any small face created by the algorithm from a single face of the original mesh),
@@ -289,7 +289,7 @@ or of manually merging some vertices (:kbd:`Alt-m`).
 
 
 Performance Considerations
---------------------------
+==========================
 
 Great levels of Subsurf demands more video memory, and a faster graphics card.
 Blender could potentially crash if your level of Subsurf surpasses your system memory.

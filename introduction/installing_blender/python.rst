@@ -1,6 +1,6 @@
 
 Python, a Scripting Language
-============================
+****************************
 
 .. figure:: /images/(Doc_26x_Manual_Introduction_Installing_Blender_Python)_(Python_Logo)_(GNVAFA).jpg
 

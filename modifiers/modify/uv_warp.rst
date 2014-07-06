@@ -1,6 +1,6 @@
 
 UV Warp Modifier
-================
+****************
 
 .. admonition:: Reference
    :class: refbox
@@ -20,7 +20,7 @@ UV Warp Modifier
 
 
 Options
--------
+=======
 
 .. figure:: /images/Uvwarp_ui.jpg
 
@@ -39,7 +39,7 @@ Options
 
 
 Usage
------
+=====
 
 The UV Warp modifiers main usage is to give you direct control over UV's as you do with
 objects and bones, so you can directly rotate,

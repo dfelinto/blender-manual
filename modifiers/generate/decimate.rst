@@ -1,6 +1,6 @@
 
 Decimate Modifier
-=================
+*****************
 
 .. admonition:: Reference
    :class: refbox
@@ -10,7 +10,7 @@ Decimate Modifier
 
 
 Description
------------
+===========
 
 The :guilabel:`Decimate` modifier allows you to reduce the vertex/face count of a mesh with
 minimal shape changes. This is not applicable to meshes which have been created by modeling
@@ -32,7 +32,7 @@ you to visualize your changes in :guilabel:`Edit mode`.
 
 
 Options
--------
+=======
 
 .. figure:: /images/25-Manual-Modifiers-Decimate.jpg
 
@@ -48,10 +48,10 @@ Options
 
 
 Examples
---------
+========
 
 Simple plane
-~~~~~~~~~~~~
+------------
 
 A simple example is a plane, and a 4x4 undeformed :guilabel:`Grid` object.
 Both render exactly the same, but the plane has one face and four vertices,
@@ -60,7 +60,7 @@ The :guilabel:`Decimate` modifier allows you to eliminate these unneeded faces.
 
 
 Decimated cylinder
-~~~~~~~~~~~~~~~~~~
+------------------
 
 We take a simple example of decimating a cylinder with the default of **32** segments.
 This will generate a cylinder with **96** faces.

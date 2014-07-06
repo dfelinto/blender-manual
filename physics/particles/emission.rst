@@ -1,6 +1,6 @@
 
 Particle Emission
-=================
+*****************
 
 The :guilabel:`Emitter` system works just like its name says: it emits/produces particles for a certain amount of time.
 In such a system, particles are emitted from the selected object from the :guilabel:`Start`
@@ -11,7 +11,7 @@ but you may also render these kind of particles as objects
 
 
 Options
-=======
+*******
 
 .. figure:: /images/Blender3D_ParticleSystem_EmissionSettings-2.5.jpg
 
@@ -40,7 +40,7 @@ The buttons in the :guilabel:`Emission` panel control the way particles are emit
 
 
 Emission Location
------------------
+=================
 
 :guilabel:`Emit From` parameters define how and where the particles are emitted,
 giving precise control over their distribution. You may use vertex groups to confine the emission,
@@ -55,7 +55,7 @@ that is done in the :guilabel:`Vertexgroups` panel.
 
 
 Distribution Settings
----------------------
+=====================
 
 These settings control how the emissions of particles are distributed throughout the emission
 locations

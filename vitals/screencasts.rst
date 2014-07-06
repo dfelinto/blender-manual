@@ -3,7 +3,7 @@
 
 
 Blender Screencasts
-===================
+*******************
 
 .. admonition:: Reference
    :class: refbox
@@ -92,7 +92,7 @@ Blender will have to pass those frames to a Video codec.
 
 
 Blender Window Dimension
-~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------
 
 There is a way to match the Blender Window dimensions with the Output Video File,
 achieving standard dimensions for the output of the Blender Screencast. (I.e. NTSC, HD,
@@ -101,7 +101,7 @@ You can control the width and height of your Blender Window, starting Blender fr
 
 
 Addon: {{Literal|3D View:Screencast Keys}}
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------
 
 The community based Addon :guilabel:`3D View:Screencast Keys` will show you the keys,
 combination of keys pressed and mouse clicks on the left bottom corner of your 3D screen every

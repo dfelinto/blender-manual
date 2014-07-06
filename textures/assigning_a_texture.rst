@@ -1,13 +1,13 @@
 
 Assigning a Texture
-===================
+*******************
 
 This page just shows how to add a texture to a slot.
 The textures' commons options are explained :doc:`here <textures/options>`.
 
 
 Choosing the Texture context
-----------------------------
+============================
 
 .. figure:: /images/25-Manual-Textures-top-panel.jpg
    :width: 300px
@@ -20,7 +20,7 @@ In the Properties editor, choose the Texture context: this will show the Texture
 
 
 Choosing the Texture data type
-------------------------------
+==============================
 
 .. figure:: /images/25-Manual-Textures-panel.jpg
    :width: 311px
@@ -42,7 +42,7 @@ the kind of texture that is being edited.
 
 
 Textures Slots
---------------
+==============
 
 .. figure:: /images/25-Manual-Textures-top-panel.jpg
    :width: 300px
@@ -60,7 +60,7 @@ It can have up to eighteen :guilabel:`Texture Slots`:
 
 
 Creating a new Texture Datablock in a new Texture Slot
-------------------------------------------------------
+======================================================
 
 Select an empty slot, then click on the :kbd:`+ New` button.
 
@@ -71,7 +71,7 @@ This will do two things:
 
 
 Creating a new Texture Datablock in a non-empty slot
-----------------------------------------------------
+====================================================
 
 Select a non-empty slot, then click on the :kbd:`+` button.
 
@@ -82,7 +82,7 @@ This will do two things:
 
 
 Sharing a Texture Datablock in a non-empty slot
------------------------------------------------
+===============================================
 
 - Select a non-empty slot, then click on the :kbd:`Browse` button. This will open a menu showing all the available Texture Datablocks in this file.
 - Choose a texture datablock in the menu to assign it to the selected slot. This will share the chosen texture with more than one object, hence the *Number of users* shown in the texture datablock will increase by one.

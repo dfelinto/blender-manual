@@ -1,6 +1,6 @@
 
 Armature Editing
-================
+****************
 
 .. admonition:: Reference
    :class: refbox

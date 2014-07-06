@@ -1,9 +1,9 @@
 
 Render Passes
-=============
+*************
 
 Layers
-------
+======
 
 Render layers are used to render different objects in the scene into different images.
 This way they can, for example, be color corrected or otherwise manipulated separately and
@@ -19,7 +19,7 @@ Which objects contribute to which render layers are defined by these layer setti
 
 
 Lighting Passes
----------------
+===============
 
 :guilabel:`Diffuse Direct`
    Direct lighting from diffuse BSDFs. We define direct lighting as coming from lamps, emitting surfaces, the background, or ambient occlusion after a single reflection or transmission off a surface. BSDF color is not included in this pass.
@@ -52,7 +52,7 @@ FIXME(TODO: Internal Link;
 
 
 Combining
-_________
+^^^^^^^^^
 
 All these lighting passes can be combined to produce the final image as follows:
 
@@ -61,7 +61,7 @@ All these lighting passes can be combined to produce the final image as follows:
 
 
 Data Passes
------------
+===========
 
 :guilabel:`Z`
    Z depth.

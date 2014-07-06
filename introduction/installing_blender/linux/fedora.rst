@@ -1,6 +1,6 @@
 
 Fedora based systems
---------------------
+====================
 
 Fedora Linux is an offshoot of the Redhat Linux distribution.  Fedora Linux is used by Redhat
 to test new technologies which are eventually used within official Redhat Linux distributions.
@@ -10,7 +10,7 @@ using some of the most recent versions of libraries and software available.
 
 
 Opening a Terminal Window using Gnome Shell
--------------------------------------------
+===========================================
 
 Recent versions of Fedora Linux use the Gnome Shell desktop environment to interact with the
 user.  To open a terminal window in Gnome Shell move your mouse pointer to the upper left
@@ -49,7 +49,7 @@ commands from the keyboard and they will be displayed in the terminal window.
 
 
 Installing Missing Blender dependencies with yum
-------------------------------------------------
+================================================
 
 Fedora Linux uses a package management frontend system called yum to install software packages
 and libraries.
@@ -95,7 +95,7 @@ particular hardware configuration.
 
 
 Determining your Hardware Configuration
----------------------------------------
+=======================================
 
 For Linux based systems such as Fedora Linux,
 Blender comes in 2 different versions a 32 bit version and 64 bit version.  If you have a 32
@@ -121,7 +121,7 @@ version of Fedora Linux and need to download a 64 bit version of Blender.
 
 
 Downloading Blender From the Blender Download Website
------------------------------------------------------
+=====================================================
 
 Once you have determined which version of Blender you want to download,
 you can click on the corresponding link on the Blender Download Website.
@@ -194,7 +194,7 @@ the location you extracted Blender to.
 
 
 Executing Blender after it has been extracted
----------------------------------------------
+=============================================
 
 Once you have extracted Blender you can start Blender in a number of different ways:
 
@@ -222,7 +222,7 @@ At this point if everything went well, you should see Blender displayed on scree
 
 
 Executing Blender In Hardware Or Software OpenGL Mode
------------------------------------------------------
+=====================================================
 
 .. admonition:: Hardware or Software OpenGL Mode
    :class: nicetip
@@ -246,7 +246,7 @@ Executing Blender In Hardware Or Software OpenGL Mode
 
 
 Operating System Keyboard Conflicts & Blender
----------------------------------------------
+=============================================
 
 Blender has a massive amount of keyboard shortcut keys that it uses and that are used very
 often by Blender users.  Some of keyboard shortcuts that Blender uses however are also used by
@@ -261,7 +261,7 @@ What follows is a list of the major conflicting keyboard shortcuts and how to ch
 
 
 ALT+Left Mouse Button
-~~~~~~~~~~~~~~~~~~~~~
+---------------------
 
 :kbd:`ALT+LMB` is a common keyboard shortcut used by Blender.  It is also used by the Window Manager in Gnome Shell to move windows around.  Because of this conflict using this keyboard shortcut to do edge loop selection does work as expected.  To fix this issue you need to tell the Gnome Shell Window Manager not to use the keyboard short :kbd:`ALT+LMB`.  A common fix for this is to tell the Gnome Shell Window Manager to instead use :kbd:`SUPER+LMB`.  The :kbd:`SUPER` key is also often called the :kbd:`Windows` key.
 
@@ -272,7 +272,7 @@ dconf write "/org/gnome/desktop/wm/preferences/mouse-button-modifier" "'<Super>'
 
 
 Obtaining Snapshot Versions of Blender
---------------------------------------
+======================================
 
 If you want to get versions of Blender which are more up to date as they are built from a
 current snapshot of the Blender SVN trunk periodically,
@@ -333,7 +333,7 @@ this script makes it slightly easier (when it works).
 
 
 Enabling RPM Fusion Repository For Fedora
------------------------------------------
+=========================================
 
 Fedora is an entirely open sourced operating system,
 it does not use any closed source software that is not released under some GPL type licence.
@@ -356,7 +356,7 @@ enable the RPM Fusion Repository for your Fedora Linux system.
 
 
 Installing CUDA Support In Fedora For Blender GPU Cycles Rendering Support
---------------------------------------------------------------------------
+==========================================================================
 
 Yet to be written researching how to do this for fedora.
 I can't test because I don't have a GPU based compatible card.

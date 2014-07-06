@@ -1,6 +1,6 @@
 
 Hair Dynamics
-=============
+*************
 
 Hair particles can now be made dynamic using Cloth physics.
 
@@ -8,10 +8,10 @@ To enable hair physics, click the check box beside :guilabel:`Hair Dynamics`.
 
 
 Settings
-========
+********
 
 Material
---------
+========
 
 :guilabel:`Stiffness`
    Controls how stiff the root of the hair strands are.
@@ -26,7 +26,7 @@ Material
 
 
 Damping
--------
+=======
 
 :guilabel:`Spring`
    Damping of cloth velocity. (higher = more smooth, less jiggling).
@@ -35,7 +35,7 @@ Damping
 
 
 Quality
--------
+=======
 
 :guilabel:`Steps`
    Quality of the simulation in steps per frame. (higher is better quality but slower).

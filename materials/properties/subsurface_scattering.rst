@@ -1,6 +1,6 @@
 
 Subsurface Scattering
-=====================
+*********************
 
 ..    Comment: <!--
    {{Table| valign="top"
@@ -22,7 +22,7 @@ transmitted back out.
 
 
 How it works
-------------
+============
 
 Actually calculating the light path beneath the surface of an object is not practical.
 But it has been shown that it is not necessary to do this,
@@ -67,7 +67,7 @@ its light is evenly distributed over the whole object.
 
 
 Enabling Subsurface Scattering
-------------------------------
+==============================
 
 .. figure:: /images/Manual25-Material-SSSPanel.jpg
 
@@ -81,7 +81,7 @@ Enabling Subsurface Scattering
 
 
 Options
--------
+=======
 
 The numeric sliders control how the light is scattered:
 
@@ -145,10 +145,10 @@ The numeric sliders control how the light is scattered:
 
 
 Developing your own SSS material
---------------------------------
+================================
 
 The Traditional Approach
-~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------
 
 A more common but less intuitive approach is to use "layering".
 This is a simplified version of the layering approach.
@@ -161,7 +161,7 @@ See the external links for more information:
 
 
 =A more intuitive approach
---------------------------
+==========================
 
 - Set the Scattering color to .5
 - Set the Front weight to 2.
@@ -170,10 +170,10 @@ See the external links for more information:
 
 
 Examples
---------
+========
 
 Skin
-~~~~
+----
 
 +-----------------------------------------------------------------------------------------------------+--------------------------------------------------------+--------------------------------------------------------+--------------------------------------------------------+--------------------------------------------------------+
 +.. figure:: /images/Manual-25-Material-SSS-MH-Head-1.jpg                                             |.. figure:: /images/Manual-25-Material-SSS-MH-Head-2.jpg|.. figure:: /images/Manual-25-Material-SSS-MH-Head-3.jpg|.. figure:: /images/Manual-25-Material-SSS-MH-Head-4.jpg|.. figure:: /images/Manual-25-Material-SSS-MH-Head-5.jpg+
@@ -187,7 +187,7 @@ Skin
 
 
 See also
---------
+========
 
 - `Development Release Log: Subsurface Scattering <http://www.blender.org/development/release-logs/blender-244/subsurface-scattering/>`__
 - `Ben Simonds: Three Layer SSS in Blender Demystified <http://bensimonds.com/2010/05/31/three-layer-sss-in-blender-demystified/>`__

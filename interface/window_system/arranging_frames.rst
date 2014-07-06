@@ -1,6 +1,6 @@
 
 Arranging frames
-================
+****************
 
 Blender uses a novel screen-splitting approach to arrange window frames.
 The application window is always a rectangle on your desktop.
@@ -14,7 +14,7 @@ and it is very easy to work in one window and hop over to work in another.
 
 
 Maximizing a window
--------------------
+===================
 
 You can maximize a window frame to fill the whole application window with the :guilabel:`View`
 → :guilabel:`Toggle Full Screen` menu entry. To return to normal size,
@@ -26,7 +26,7 @@ the keyboard shortcuts.
 
 
 Splitting a window
-------------------
+==================
 
 .. figure:: /images/Manual-Interface-Window_System-Arranging_frames-splitwidget.jpg
 
@@ -39,7 +39,7 @@ or downward to split it horizontally.
 
 
 Joining two frames
-------------------
+==================
 
 In order to merge two window frames,
 they must be the same dimension in the direction you wish to merge. For example,
@@ -74,7 +74,7 @@ If you press :kbd:`esc` before releasing the mouse, the operation will be aborte
 
 
 Changing window size
---------------------
+====================
 
 You can resize window frames by dragging their borders with :kbd:`Lmb`. Simply move your
 mouse cursor over the border between two frames until it changes to a double-headed arrow,
@@ -82,7 +82,7 @@ and then click and drag.
 
 
 Swapping contents
------------------
+=================
 
 You can swap the contents between two frames with :kbd:`ctrl-Lmb` on one of the
 splitters of the initial frame, dragging towards the target frame,
@@ -91,7 +91,7 @@ though they must be inside the same window.
 
 
 Opening new windows
--------------------
+===================
 
 You may wish to have a new full window containing Blender frames. This can be useful,
 for instance, if you have multiple monitors and want them to show different information on the

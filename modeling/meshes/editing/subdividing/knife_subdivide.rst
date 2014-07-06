@@ -3,7 +3,7 @@
 
 
 Knife Tool
-==========
+**********
 
 .. admonition:: Reference
    :class: refbox
@@ -29,7 +29,7 @@ only on a selection and in cut-through mode (see below).
 
 
 Usage
------
+=====
 
 When you press :kbd:`K` (or :kbd:`shift-K`), the Knife tool becomes active.
 
@@ -59,7 +59,7 @@ Drawing the cut line
 
 
 Options
--------
+=======
 
 **New cut** :kbd:`E`
    Begins a new cut. This allows you to define multiple distinct cut lines. If multiple cuts have been defined, they are recognized as new snapping points.
@@ -106,7 +106,7 @@ Options
 
 
 Confirming and selection
-------------------------
+========================
 
 Pressing :kbd:`Esc` or :kbd:`rmb` at any time cancels the tool,
 and pressing :kbd:`enter` confirms the cut, with the following options:
@@ -115,7 +115,7 @@ and pressing :kbd:`enter` confirms the cut, with the following options:
 
 
 Limitations
------------
+===========
 
 If you try to make cuts that end off in the middle of a face, those cuts are ignored.
 This is a limitation of the current geometry that can be modeled in Blender.
@@ -128,7 +128,7 @@ In 'cut through' mode, only cut lines that completely cross faces will make cuts
 
 
 Optimizations
--------------
+=============
 
 With a large mesh, it will be quicker to select a smaller number of vertices—those defining
 only the edges you plan to split—so that the Knife will save time in testing selected vertices
@@ -136,7 +136,7 @@ for knife trail crossings.
 
 
 Knife Project
-=============
+*************
 
 Knife projection is a non-interactive tool where you can use objects to cookie-cut into the
 mesh rather than hand drawing the line.
@@ -152,7 +152,7 @@ Now tab into edit mode and press "knife project".
 
 
 Examples
---------
+========
 
 .. figure:: /images/Knife_project_text_before.jpg
    :width: 300px
@@ -197,7 +197,7 @@ Examples
 
 
 Known Issues
-------------
+============
 
 Cutting holes into single faces may fail,
 this is the same limitation as with the regular knife tool but more noticeable for text,

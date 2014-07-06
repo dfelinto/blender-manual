@@ -1,6 +1,6 @@
 
 Procedural textures: Wood
-=========================
+*************************
 
 .. figure:: /images/25-Manual-Textures-Procedural-Wood.jpg
    :width: 307px
@@ -16,7 +16,7 @@ Procedural textures: Wood
 
 
 Options
--------
+=======
 
 :guilabel:`Sin` / :guilabel:`Saw` / :guilabel:`Tri`
    Shape of wave to produce bands
@@ -31,7 +31,7 @@ Options
 
 
 Technical Details
------------------
+=================
 
 Generation
    Bands are generated based on a sine formula. You can also add a degree of turbulence with the Noise formula.

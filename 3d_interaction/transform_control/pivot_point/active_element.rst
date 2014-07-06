@@ -1,6 +1,6 @@
 
 Active Element as Pivot
-=======================
+***********************
 
 .. admonition:: Reference
    :class: refbox
@@ -29,7 +29,7 @@ all transformations will occur relative to the active element.
 
 
 In Object mode
---------------
+==============
 
 When in :guilabel:`Object mode`,
 rotation and scaling happen around the active Object's center.
@@ -46,7 +46,7 @@ while the other Objects rotate and scale in relation to the active element.
 
 
 In Edit mode
-------------
+============
 
 Using the active element as a pivot point in :guilabel:`Edit mode` may seem complex but all
 the possible transformations follow a few rules:
@@ -59,7 +59,7 @@ Let's examine the following examples: in each case we will see that the two rule
 
 
 Single selection
-~~~~~~~~~~~~~~~~
+----------------
 
 When one single element is selected it becomes automatically active. In the image below,
 you can see that when it is transformed its vertices move, with the consequence that any
@@ -83,7 +83,7 @@ Let's review each case:
 
 
 Multiple selection
-~~~~~~~~~~~~~~~~~~
+------------------
 
 When multiple elements are selected they all transform.
 The pivot points stay in the same place as what we've seen above,

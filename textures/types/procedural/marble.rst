@@ -1,6 +1,6 @@
 
 Procedural textures: Marble
-===========================
+***************************
 
 .. figure:: /images/25-Manual-Textures-Procedural-Marble.jpg
    :width: 307px
@@ -17,7 +17,7 @@ Procedural textures: Marble
 Bands are generated based on the sine, saw, or triangular formulae and noise turbulence.
 
 Options
--------
+=======
 
 :guilabel:`Soft` / :guilabel:`Sharp` / :guilabel:`Sharper`
    Three presets for soft to more clearly defined :guilabel:`Marble`

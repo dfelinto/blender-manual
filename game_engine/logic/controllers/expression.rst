@@ -1,6 +1,6 @@
 
 Expression Controller
-=====================
+*********************
 
 This controller evaluates a user written expression, and gives a positive (TRUE) output when
 The result of the expression is TRUE, and
@@ -21,7 +21,7 @@ constants and operators.  These must follow the rules laid out below.
 
 
 Variables
----------
+=========
 
 You can use:
 
@@ -33,10 +33,10 @@ These cannot contain blank spaces.
 
 
 Operations
-----------
+==========
 
 Mathematical operations
-~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------
 
 Operators: *, /, +, -
 
@@ -46,7 +46,7 @@ Examples: 3 + 2, 35 / 5
 
 
 Logical operations
-~~~~~~~~~~~~~~~~~~
+------------------
 
 - Comparison operators: <, >, >=, <=, ==, !=
 - Booleans operators: AND, OR, NOT
@@ -57,7 +57,7 @@ Examples: 3 > 2 (True), 1 AND 0 (False)
 
 
 Conditional statement (if)
---------------------------
+==========================
 
 Use:
 
@@ -79,7 +79,7 @@ If the controller evaluates ``expression`` to False:
 
 
 Examples
---------
+========
 
 Given the object has a property ``coins`` equal to 30:
 

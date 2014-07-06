@@ -1,6 +1,6 @@
 
 Rendering Animations
-====================
+********************
 
 While rendering stills will allow you to view and save the image from the render buffer when
 it's complete, animations are a series of images, or frames,
@@ -15,7 +15,7 @@ Finally you can render out from the Sequencer and compress the frames into a pla
 
 
 Workflow
-========
+********
 
 Generally, you do a lot of intermediate renders of different frames in your animation to check
 for timing, lighting, placement, materials, and so on. At some point,
@@ -79,7 +79,7 @@ Frame Sequence Approach
 
 
 Frame Sequence Workflow
------------------------
+=======================
 
 - First prepare your animation.
 - In the :guilabel:`Dimensions` panel, choose the render size, Pixel Aspect Ratio, and the Range of Frames to use, as well as the frame rate, which should already be set.
@@ -111,7 +111,7 @@ with almost no effort whatsoever.
 
 
 Options
-~~~~~~~
+-------
 
 Output Panel
    By default the animation is rendered in the directory specified in the :guilabel:`Output` Panel
@@ -141,7 +141,7 @@ Post Processing Panel
 
 
 Hints
-=====
+*****
 
 Argh! My bratty sister turned off the PC right in the middle of rendering my movie!
    Unless your animation is really simple, and you expect it to render in half an hour or less,

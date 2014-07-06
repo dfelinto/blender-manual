@@ -2,7 +2,7 @@
 ..    TODO/Review: {{review|im=examples}} .
 
 Transformation Constraint
-=========================
+*************************
 
 This constraint is more complex and versatile than the other "transform" constraints.
 It allows you to map one type of transform properties (i.e. location, rotation or scale)
@@ -20,7 +20,7 @@ and rotation based on location setups.
 
 
 Options
--------
+=======
 
 .. figure:: /images/25-Manual-Constraints-Transform-Transformation.jpg
    :width: 305px

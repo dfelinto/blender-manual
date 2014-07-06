@@ -3,7 +3,7 @@
 
 
 Point Lamp
-==========
+**********
 
 .. figure:: /images/25-Manual-Lighting-Lamps-Point.jpg
    :width: 200px
@@ -24,7 +24,7 @@ surfaces that are further away are rendered darker.
 
 
 Lamp Options
-------------
+============
 
 :guilabel:`Distance`, :guilabel:`Energy` and :guilabel:`Color`
    These settings are common to most types of lamps, and are described in :doc:`Light Properties <lighting/lights/light_properties>`.
@@ -37,7 +37,7 @@ Lamp Options
 
 
 Shadows
--------
+=======
 
 .. figure:: /images/25-Manual-Lighting-Lamps-PointPanel-Noshad.jpg
    :width: 307px

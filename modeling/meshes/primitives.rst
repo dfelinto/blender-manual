@@ -3,7 +3,7 @@
 
 
 Mesh Primitives
-===============
+***************
 
 .. admonition:: Reference
    :class: refbox
@@ -40,7 +40,7 @@ Options included in more than one primitive are:
 
 
 Plane
------
+=====
 
 A standard plane contains four vertices, four edges, and one face.
 It is like a piece of paper lying on a table;
@@ -59,7 +59,7 @@ boxes, or crates.
 
 
 Circle
-------
+======
 
 A standard circle is comprised of *n* vertices. The number of vertices and radius can be
 specified in the context panel in the :guilabel:`Tool Shelf` which appears when the circle is
@@ -83,7 +83,7 @@ created.
 
 
 UV Sphere
----------
+=========
 
 A standard UV sphere is made out of *n* segments and *m* rings. The level of detail and
 radius can be specified in the context panel in the :guilabel:`Tool Shelf` which appears when
@@ -103,7 +103,7 @@ Increasing the number of segments and rings makes the surface of the UV sphere s
 
 
 Icosphere
----------
+=========
 
 An icosphere is a polyhedra sphere made up of triangles. The number of subdivisions and radius
 can be specified in the context panel in the :guilabel:`Tool Shelf` after the Icosphere is
@@ -124,7 +124,7 @@ vertices than a UV sphere.
 
 
 Cylinder
---------
+========
 
 A standard cylinder is made out of *n* vertices. The number of vertices in the circular
 cross-section can be specified in the context panel in the :guilabel:`Tool Shelf` that appears
@@ -168,7 +168,7 @@ Objects that can be created out of cones include spikes or pointed hats.
 
 
 Torus
------
+=====
 
 A doughnut-shaped primitive created by rotating a circle around an axis.
 The overall dimensions are defined by the :guilabel:`Major` and :guilabel:`Minor Radius`.
@@ -217,7 +217,7 @@ there is a :guilabel:`Landscape` add-on available in the :guilabel:`User Prefere
 
 
 Monkey
-------
+======
 
 This is a gift from old NaN to the community and is seen as a programmer's joke or "Easter
 Egg". It creates a monkey's head once you press the :guilabel:`Monkey` button.
@@ -228,7 +228,7 @@ or the `Stanford Bunny <http://en.wikipedia.org/wiki/Stanford_Bunny>`__.
 
 
 Add-ons
--------
+=======
 
 .. figure:: /images/25-Manual-Mesh-Structures-script-primitives.jpg
    :width: 600px

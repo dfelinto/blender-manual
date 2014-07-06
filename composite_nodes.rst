@@ -3,7 +3,7 @@
 
 
 Composite Nodes
-===============
+***************
 
 Compositing Nodes allow you to assemble and enhance an image (or movie).
 Using composition nodes,
@@ -40,7 +40,7 @@ FIXME(Template Unsupported: Doc:2.6/Reference/Nodes/Concepts;
 
 
 Accessing and Activating Nodes
-------------------------------
+==============================
 
 Access the :doc:`Node Editor <materials/nodes/editor>` and enable
 :guilabel:`Composite Nodes` by clicking on the *Image* icon.
@@ -79,7 +79,7 @@ in a sort of map layout, to your heart's content (or physical memory constraints
 
 
 Examples
---------
+========
 
 You can do just about anything with images using nodes.
 

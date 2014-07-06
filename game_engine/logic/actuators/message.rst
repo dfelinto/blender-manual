@@ -1,6 +1,6 @@
 
 Message Actuator
-================
+****************
 
 The Message actuator allows the user to send data across a scene,
 and between scenes themselves.

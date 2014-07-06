@@ -1,6 +1,6 @@
 
 Using Constraints in Animation
-==============================
+******************************
 
 :doc:`Constraints <constraints>` are a way to control an object's properties (its location/rotation/scale), using either plain static values (like the :doc:`"limit" ones <constraints/transform/limit_location>`), or (an)other object(s), called "targets" (like e.g. the :doc:`"copy" ones <constraints/transform/copy_location>`).
 
@@ -13,7 +13,7 @@ There are two different aspects in constraints' animation:
 
 
 Controlling Animation with Constraints
---------------------------------------
+======================================
 
 This applies only to constraints using target(s). Indeed,
 these targets can then control the constraint's owner's properties, and hence,
@@ -31,7 +31,7 @@ you can have two different behaviors of this constraint:
 
 
 Example
-~~~~~~~
+-------
 
 Let's use the :guilabel:`Copy Location` constraint and its :guilabel:`Offset` button. For example, you can make your owner (let's call it ``moon``) describe perfect circles centered on the ``(0.0, 0.0, 0.0)`` point (using e.g. pydriven :guilabel:`LocX` / :guilabel:`LocY` animation curves, see :doc:`this page <animation/editors/graph/drivers#drivers>`), and then make it copy the location of a target (called, I don't know... ``earth``, for example) - with the :guilabel:`Offset` button enabled. Congratulation, you just modeled a satellite in a (simplified) orbit around its planet... Just do the same thing with its planet around its star (which you might call ``sun``, what do you think?), and why not, for the star around its galaxy...
 
@@ -49,7 +49,7 @@ You can download the  the .blend file (`download here <http://wiki.blender.org/i
 
 
 Animating Constraints Influence
--------------------------------
+===============================
 
 More "classically",
 you can also animate a few properties of each constraint using animation curves.

@@ -3,7 +3,7 @@
 
 
 Child Of Constraint
-===================
+*******************
 
 :guilabel:`Child Of` is the constraint version of the standard parent/children relationship between objects (the one established through the :kbd:`ctrl-P` shortcut, in the 3D views).
 
@@ -22,7 +22,7 @@ compared to the traditional method:
 
 
 Options
--------
+=======
 
 .. figure:: /images/25-Manual-Constraints-Relationship-ChildOf.jpg
    :width: 307px
@@ -69,7 +69,7 @@ Rotation or Scale transforms.
 
 
 Technical Note
---------------
+==============
 
 If you use this constraint with all channels on,
 it will use a straight matrix multiplication for the parent relationship,
@@ -79,7 +79,7 @@ also for combinations of rotated and non-uniform scaled parents.
 
 
 Examples
---------
+========
 
 +-----------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 +.. figure:: /images/ManConstraintsChildOfObjectsEx01NoCst.jpg                            |.. figure:: /images/ManConstraintsChildOfObjectsEx02CstAdded.jpg                                                                                                                                                                  +

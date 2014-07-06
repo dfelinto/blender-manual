@@ -1,12 +1,12 @@
 
 Mesh Clean-up
-=============
+*************
 
 These tools are to help cleanup degenerate geometry and fill in missing areas of a mesh.
 
 
 Fill Holes
-----------
+==========
 
 .. admonition:: Reference
    :class: refbox
@@ -26,7 +26,7 @@ This is different from the face creation operator in three important respects.
 
 
 Split Non-Planar Faces
-----------------------
+======================
 
 .. admonition:: Reference
    :class: refbox
@@ -40,7 +40,7 @@ beyond a given limit.
 
 
 Delete Loose Geometry
----------------------
+=====================
 
 .. admonition:: Reference
    :class: refbox
@@ -53,7 +53,7 @@ This tool removes disconnected vertices and edges (optionally faces - off by def
 
 
 Degenerate Dissolve
--------------------
+===================
 
 .. admonition:: Reference
    :class: refbox

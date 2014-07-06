@@ -1,6 +1,6 @@
 
 Licensing of Blender Games
-==========================
+**************************
 
 The licensing of games created for distribution using the Blender Game Engine and the
 Standalone Player is complicated by Blender's status as open-source software.
@@ -14,7 +14,7 @@ See http://www.blender.org/education-help/faq/gpl-for-artists/ for further detai
 
 
 Standalone Player License
--------------------------
+=========================
 
 Unfortunately, this does not extend to games or other artwork distributed to run under the
 Blender Standalone Player.  To distribute your game you need to create an executable
@@ -27,7 +27,7 @@ and therefore must be licensed as GPL.
 
 
 Distributing Games
-------------------
+==================
 
 There are four possible solutions to the problem of how to distribute your game with suitable
 license protection:

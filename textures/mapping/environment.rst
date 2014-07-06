@@ -3,7 +3,7 @@
 
 
 Environment Maps
-================
+****************
 
 Environment maps take a render of the 3D scene and apply it to a texture,
 to use for faking reflections. If you want to achieve a very realistic result,
@@ -39,7 +39,7 @@ they create the visual complexity that the eye expects to see from shiny reflect
 
 
 Options
--------
+=======
 
 .. admonition:: Important
    :class: note
@@ -127,7 +127,7 @@ Options in dropdown menu:
 
 
 Environment Map Sampling
-~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------
 
 :guilabel:`Filter`
    :guilabel:`Box`
@@ -157,7 +157,7 @@ Environment Map Sampling
 
 
 Examples
---------
+========
 
 In this example,
 an empty is used as the :guilabel:`Ob:` of the reflecting plane's environment map.
@@ -192,7 +192,7 @@ in order to get reflections of reflections.
 
 
 Limitations
------------
+===========
 
 Because environment maps are calculated from the exact location of the :guilabel:`Viewpoint
 Object` 's object center, and not from actual reflecting surface,

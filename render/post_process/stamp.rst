@@ -1,6 +1,6 @@
 
 Stamp
-=====
+*****
 
 The stamp panel includes options for image stamping.
 Stamping adds text over the rendered image.

@@ -3,7 +3,7 @@
 
 
 Render Passes
-=============
+*************
 
 Render Passes are necessary because of the different things the Blender Render Engine must
 calculate to give you the final image.
@@ -11,7 +11,7 @@ In each 'pass' the engine calculates different interactions between objects.
 
 
 Render Passes In Detail
------------------------
+=======================
 
 Everything you see in a render must be calculated for the final image.
 All interactions between objects in your scene, lighting, cameras, background images,
@@ -71,7 +71,7 @@ run the map back through that node to re-scale it back to the original before sa
 
 
 Selecting Render Passes
------------------------
+=======================
 
 .. figure:: /images/Manual-RenderLayer-Panel.jpg
 
@@ -136,7 +136,7 @@ and can be used as shown in the example above.
 
 
 Excluding Render Passes
------------------------
+=======================
 
 As we said, the **Combined** output is an amalgam of several outputs which are *also*
 available separately.  When you select one of these outputs,
@@ -148,7 +148,7 @@ They will be made available separately *but not* included in the combined pass.
 
 
 Using Render Passes
-===================
+*******************
 
 The primary purpose of Render Passes is to enable you to process the various outputs in
 different ways, by constructing networks of render nodes.
@@ -168,7 +168,7 @@ elsewhere:
 
 
 Recoloring Shadows
-------------------
+==================
 
 .. figure:: /images/Manual-Render-RenderPasses-Example2.jpg
    :width: 300px
@@ -215,7 +215,7 @@ where Anakin Skywalker already casts the shadow of Darth Vader.)
 
 
 Compositing Ambient Occlusion
------------------------------
+=============================
 
 .. figure:: /images/Manual-Render-Passes-AO.jpg
    :width: 600px
@@ -246,7 +246,7 @@ they have to be added to the diffuse pass before adding the converted AO pass.
 
 
 Vector Blurring Shadows
------------------------
+=======================
 
 .. figure:: /images/Manual-Nodes-VectorBlur-Shadow.jpg
    :width: 600px
@@ -271,7 +271,7 @@ We can then mix the vector-blurred object to provide a realistic-looking image.
 
 
 Conclusion
-==========
+**********
 
 Render Passes can be manipulated to give you almost complete control over your final image.
 Causing objects to cast shadows that aren't really their shadows,

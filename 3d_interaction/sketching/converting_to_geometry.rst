@@ -1,6 +1,6 @@
 
 Converting Sketches to Objects
-==============================
+******************************
 
 In the 3D view, sketches on the active layer can be converted to geometry,
 based on the current view settings, by transforming the points recorded when drawing
@@ -35,7 +35,7 @@ Pencil` menu popped-up by the :guilabel:`Convert` button in the grease pencil pr
 
 
 General Options
----------------
+===============
 
 .. figure:: /images/ManGreasePencilConvertToCurvePanel.jpg
 
@@ -63,7 +63,7 @@ All the strokes are linked in the curve by "zero weights/radii" sections.
 
 
 Timing
-~~~~~~
+------
 
 Grease pencil now stores "dynamic" data, i.e. how fast they were drawn.
 When converting to curve,
@@ -124,7 +124,7 @@ you will only have a subset of those options available
 
 
 Example
--------
+=======
 
 Here is a simple "hand writing" video created with curves converted from sketch data:
 

@@ -1,6 +1,6 @@
 
 Core Options
-============
+************
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-core_options.jpg
    :width: 300px

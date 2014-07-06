@@ -3,7 +3,7 @@
 
 
 Curve Deform
-============
+************
 
 :guilabel:`Curve Deform` provides a simple but efficient method of defining a deformation on a mesh. By parenting a mesh object to a curve, you can deform the mesh up or down the curve by moving the mesh along, or orthogonal to, the dominant axis. This is a most useful tool to make an object follow a complex path, like e.g. a sheet of paper inside a printer, a film inside a camera, the water of a canal...
 
@@ -34,7 +34,7 @@ FIXME(TODO: Internal Link;
 
 
 Interface
----------
+=========
 
 .. figure:: /images/2.5_Manual-Part-II-curvesDeform_parentMenu.jpg
 
@@ -75,7 +75,7 @@ for the "parent" curve. See (:guilabel:`Curve and Surface` *panel*).
 
 
 Example
--------
+=======
 
 Let's make a simple example:
 
@@ -145,14 +145,14 @@ Let's make a simple example:
 
 
 Curve Extrusion
-===============
+***************
 
 This section covers methods for extruding curves, or giving them thickness,
 and how to control the thickness along the path.
 
 
 Extrusion
----------
+=========
 
 .. admonition:: Reference
    :class: refbox
@@ -186,7 +186,7 @@ We will see the different settings, depending on their scope of action:
 
 
 Simple Extrusion
-~~~~~~~~~~~~~~~~
+----------------
 
 Let's first see the "simple" extrusion of curves, without additional bevel/taper objects.
 
@@ -238,7 +238,7 @@ Closed 2D Curve
 
 
 Advanced Extrusion
-~~~~~~~~~~~~~~~~~~
+------------------
 
 These extrusions use one or two additional curve objects,
 to create very complex organic shapes.
@@ -288,7 +288,7 @@ control the twisting of the extruded "bevel" along the curve!
 
 
 Examples
-~~~~~~~~
+--------
 
 TODO: add some "simple" extrusion examples.
 

@@ -3,7 +3,7 @@
 
 
 Text Objects
-============
+************
 
 .. admonition:: Reference
    :class: refbox
@@ -43,7 +43,7 @@ allowing you to use all the powerful features of these types of objects on it...
 
 
 Notes
------
+=====
 
 A maximum of **50000** characters is allowed per text object; however,
 be forewarned that the more characters a single text object has,
@@ -62,7 +62,7 @@ For optimum resource usage, only characters that are being used consume memory
 
 
 Editing Text
-============
+************
 
 .. admonition:: Reference
    :class: refbox
@@ -110,7 +110,7 @@ To insert text from outside Blender, see FIXME(TODO: Internal Link; [[#Inserting
 
 
 Inserting Text
---------------
+==============
 
 You can insert text in three different ways: from the internal text buffer (
 FIXME(TODO: Internal Link; [[#Editing Text|Editing Text]])), or from a text file.
@@ -122,7 +122,7 @@ as interactive response will slow down.
 
 
 Special Characters
-~~~~~~~~~~~~~~~~~~
+------------------
 
 .. admonition:: Reference
    :class: refbox
@@ -171,7 +171,7 @@ Some examples are given below:
 
 
 Convert text to text object
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 .. figure:: /images/ConvertTextToTextObject.jpg
    :width: 250px
@@ -182,7 +182,7 @@ An easy way to get text into Blender is to type it in :doc:`The Text Editor <ext
 
 
 3D Mesh
-~~~~~~~
+-------
 
 It is possible to convert a Text Object to a 3D Mesh object. This can be useful so that you may edit the vertices in
 FIXME(TODO: Internal Link;
@@ -204,7 +204,7 @@ FIXME(TODO: Internal Link;
 
 
 Text Selection
---------------
+==============
 
 .. figure:: /images/2.5_Manual-Part-II-Modelling-Text-Create-Ex.jpg
    :width: 200px
@@ -224,10 +224,10 @@ and not much more...
 
 
 Formatting Text
-===============
+***************
 
 Fonts
------
+=====
 
 .. admonition:: Reference
    :class: refbox
@@ -240,7 +240,7 @@ The :guilabel:`Font` panel has several options for changing the look of characte
 
 
 Loading and Changing Fonts
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------
 
 .. figure:: /images/2.5_Manual-Part-II-Text-Load-Ex.jpg
 
@@ -284,7 +284,7 @@ found in the :guilabel:`Font` panel.
 
 
 Size and Shear
-~~~~~~~~~~~~~~
+--------------
 
 :guilabel:`Size`
    Controls the size of the whole text (no way to control each char size independently). Note however that chars with different fonts (different styles, see below) might have different visible sizes.
@@ -303,7 +303,7 @@ Size and Shear
 
 
 Objects as Fonts
-~~~~~~~~~~~~~~~~
+----------------
 
 You can also "create" your own "font" inside Blender! This is quite a complex process,
 so let's detail it:
@@ -319,7 +319,7 @@ corresponding chars.
 
 
 Text on Curve
-~~~~~~~~~~~~~
+-------------
 
 With the :doc:`curve modifier <modifiers/deform/curve>` you can let text follow a curve.
 
@@ -347,7 +347,7 @@ using :kbd:`ALT-C` and click mesh.
 
 
 Underline
-~~~~~~~~~
+---------
 
 :guilabel:`Underline`
    Toggled with the :guilabel:`Underline` button before typing.
@@ -367,7 +367,7 @@ Underline
 
 
 Character
-~~~~~~~~~
+---------
 
 .. figure:: /images/2.5_Manual-Part-II-Text-Bold-Ex.jpg
    :width: 300px
@@ -397,7 +397,7 @@ or highlight (select) first and then toggle Bold/Italics/Underline.
 
 
 Setting Case
-~~~~~~~~~~~~
+------------
 
 You can change the text case by selecting it then clicking the :kbd:`To Upper` or
 :kbd:`To Lower` in the tool shelf.
@@ -410,7 +410,7 @@ Caps` formatted characters.
 
 
 Paragraph
----------
+=========
 
 The :guilabel:`Paragraph` Panel has settings for the alignment and spacing of text.
 
@@ -423,7 +423,7 @@ The :guilabel:`Paragraph` Panel has settings for the alignment and spacing of te
 
 
 Align
-~~~~~
+-----
 
 :guilabel:`Left`
    Aligns text to left of frames when using them, else uses the center point of the :guilabel:`Text` object as the starting point of the text (which grows to the right).
@@ -439,7 +439,7 @@ Align
 Both :guilabel:`Justify` and :guilabel:`Flush` only work within frames.
 
 Spacing
-~~~~~~~
+-------
 
 :guilabel:`Character`
    A factor by which space between each character is scaled in width
@@ -450,7 +450,7 @@ Spacing
 
 
 Offset
-~~~~~~
+------
 
 :guilabel:`X offset` and :guilabel:`Y offset`
    Well, these settings control the X and Y offset of the text, regarding its "normal" positioning. Note that with
@@ -460,7 +460,7 @@ FIXME(TODO: Internal Link;
 
 
 Shape
-=====
+*****
 
 .. admonition:: Reference
    :class: refbox
@@ -474,7 +474,7 @@ texts have most of the same options as curves.
 
 
 Resolution
-----------
+==========
 
 :guilabel:`Preview`
    the :doc:`resolution <modeling/curves#curve_resolution>` in the viewport.
@@ -510,7 +510,7 @@ or :guilabel:`Beveled` in the :guilabel:`Geometry` Panel.
 
 
 Textures
---------
+========
 
 .. figure:: /images/TextTextureSettings.jpg
 
@@ -524,7 +524,7 @@ Textures
 
 
 Geometry
-========
+********
 
 Text objects have all the :doc:`curves extrusion features <modeling/curves/editing/advanced#extrusion>`.
 

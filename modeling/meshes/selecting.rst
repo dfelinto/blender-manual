@@ -3,7 +3,7 @@
 
 
 Selecting Mesh Components
-=========================
+*************************
 
 There are many ways to select elements, and it depends on what :guilabel:`Mesh Select Mode`
 you are in as to what selection tools are available.
@@ -11,10 +11,10 @@ First we will go through these modes and after that a look is taken at basic sel
 
 
 Selection Modes
----------------
+===============
 
 Select Mode Header Widgets
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------
 
 .. figure:: /images/25-Manual-Modeling-Meshes-Selection-mode-buttons.jpg
    :width: 190px
@@ -51,7 +51,7 @@ the pivot point to another location, so some tools are more or less applicable i
 
 
 Select Mode Pop-up
-~~~~~~~~~~~~~~~~~~
+------------------
 
 .. admonition:: Reference
    :class: refbox
@@ -80,7 +80,7 @@ You can also choose a selection mode with the pop-up menu
 
 
 Switching select mode
-~~~~~~~~~~~~~~~~~~~~~
+---------------------
 
 When switching modes in an "ascendant" way (i.e. from simpler to more complex), from
 :guilabel:`Vertices` to :guilabel:`Edges` and from :guilabel:`Edges` to :guilabel:`Faces`,
@@ -115,7 +115,7 @@ for examples of the different modes.
 
 
 Selection Tools
----------------
+===============
 
 The select menu in edit mode contains tools for selecting components.
 These are described in more detail in the following pages.

@@ -2,10 +2,10 @@
 ..    TODO/Review: {{review|partial=X|fixes= rename page?}} .
 
 Text Editing
-============
+************
 
 Text Boxes
-----------
+==========
 
 .. admonition:: Reference
    :class: refbox
@@ -35,7 +35,7 @@ Frames are controlled in the :guilabel:`Text Boxes` panel.
 
 
 Frame size
-~~~~~~~~~~
+----------
 
 By default the first frame for a new text object, and any additional frames,
 has a size of **zero** for both :guilabel:`Width` and :guilabel:`Height`,
@@ -66,7 +66,7 @@ the frame's :guilabel:`Width` must be greater than **0.0**.
 
 
 Adding/Deleting a Frame
-~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------
 
 To add a frame click the :kbd:`Add Textbox` button on the :guilabel:`Text Boxes` panel.
 A new frame is inserted just after (in text flow order) the current one, with its attributes
@@ -78,7 +78,7 @@ Any text in higher frames will be re-flowed downward into lower frames.
 
 
 Example: Text Flow
-~~~~~~~~~~~~~~~~~~
+------------------
 
 .. figure:: /images/2.5_Manual-Part-II-Text-Frame-Working-Ex2.jpg
    :width: 300px
@@ -111,7 +111,7 @@ When we add another frame and set its width and height, the text will flow into 
 
 
 Example: Multiple columns
-~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------
 
 .. figure:: /images/2.5_Manual-Part-II-Text-Frame-Working-Ex5.jpg
    :width: 400px
@@ -127,7 +127,7 @@ something greater or less than the width of the initial frame; see (*Text 5*).
 
 
 Assigning Materials
--------------------
+===================
 
 .. admonition:: Reference
    :class: refbox

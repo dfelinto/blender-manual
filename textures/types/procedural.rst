@@ -1,6 +1,6 @@
 
 Procedural Textures
-===================
+*******************
 
 .. figure:: /images/25-Manual-Textures-Procedural-Menu.jpg
    :width: 240px
@@ -35,10 +35,10 @@ These are the available types:
 
 
 Common options
---------------
+==============
 
 Noise Basis
-~~~~~~~~~~~
+-----------
 
 .. figure:: /images/Doc-26-Manual-Textures-Procedural-Noise-Basis.jpg
    :width: 300px
@@ -88,7 +88,7 @@ Improved Perlin and Original Perlin
 
 
 Nabla
-~~~~~
+-----
 
 Almost all procedural textures in Blender use derivatives for calculating normals for texture
 mapping (with as exception :guilabel:`Blend` and :guilabel:`Magic`).
@@ -97,7 +97,7 @@ The strength of the effect is controlled with the :guilabel:`Nabla` Number Butto
 
 
 Hints
------
+=====
 
 Use the size buttons in the :guilabel:`Mapping` panel to set the size that the procedural
 textures are mapped to.

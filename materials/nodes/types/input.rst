@@ -1,6 +1,6 @@
 
 Material Input Nodes
-====================
+********************
 
 A starting material is created in the Materials Panel. The :guilabel:`Nodes` button is enabled
 to add that material to the list of noded materials shown in the Node Editor window header.
@@ -16,7 +16,7 @@ Other inputs to the node map include:
 
 
 Material Node
--------------
+=============
 
 .. admonition:: Reference
    :class: refbox
@@ -36,7 +36,7 @@ It inputs the main attributes of a material (color, alpha and normal vector) int
 
 
 Output
-~~~~~~
+------
 
 Materials can output color (which includes shading and any textures assigned to it), alpha,
 and the final normal calculated from any textures it has.
@@ -48,7 +48,7 @@ and the final normal calculated from any textures it has.
 
 
 Input
-~~~~~
+-----
 
 Materials can take inputs for colors, inputs for diffuse color and specularity color,
 a value for reflectivity, and a normal.
@@ -66,7 +66,7 @@ a value for reflectivity, and a normal.
 
 
 Controls
-~~~~~~~~
+--------
 
 :guilabel:`Material` field
    You can browse and select materials here.
@@ -85,7 +85,7 @@ Controls
 
 
 Using the Material Node with Specularity
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------
 
 .. figure:: /images/26-Manual-Material-Node-Specular.jpg
    :width: 250px
@@ -113,7 +113,7 @@ you will see the yellow specular color mix in.
 
 
 Extended Material Node
-----------------------
+======================
 
 .. figure:: /images/26-Manual-Extended-Material-Node.jpg
    :width: 200px
@@ -126,7 +126,7 @@ Adds additional input and output channels to the material node.
 
 
 Input
-~~~~~
+-----
 
 :guilabel:`Color`
    Includes a color swatch, allowing you to select the color directly on the node.
@@ -147,7 +147,7 @@ Input
 
 
 Output
-~~~~~~
+------
 
 Materials can additionaly output the followings:
 
@@ -157,7 +157,7 @@ Materials can additionaly output the followings:
 
 
 Camera Data Node
-----------------
+================
 
 .. figure:: /images/26-Manual-Camera-Data-Node.jpg
 
@@ -173,7 +173,7 @@ Camera Data Node
 
 
 Lamp Data Node
---------------
+==============
 
 .. figure:: /images/26-Manual-Lamp-Data-Node.jpg
    :width: 180px
@@ -206,7 +206,7 @@ The light textures and the shadow textures affect the Color and Shadow outputs, 
 
 
 Value Node
-----------
+==========
 
 .. figure:: /images/26-Manual-Value-Node.jpg
 
@@ -221,7 +221,7 @@ Use this node to supply a constant, fixed value to other nodes' value or factor 
 
 
 RGB Node
---------
+========
 
 .. figure:: /images/26-Manual-RGB-Node.jpg
 
@@ -233,7 +233,7 @@ It just outputs the value Color currently selected in its controls section.
 
 
 Material Node "Texture"
------------------------
+=======================
 
 .. figure:: /images/26-Manual-Texture-Node.jpg
 
@@ -252,14 +252,14 @@ is selected and introduced through the value and/or color socket.
 
 
 Input
-~~~~~
+-----
 
 :guilabel:`Vector`
    Uses for map the texture to a specific geometric space.
 
 
 Outputs
-~~~~~~~
+-------
 
 :guilabel:`Value`
    Straight black-and-white value of the texture, combined by the node.
@@ -276,7 +276,7 @@ you simply add the textures to the map and plug them into the map.
 
 
 Geometry Node
--------------
+=============
 
 .. figure:: /images/26-Manual-Geometry-Node.jpg
 
@@ -320,7 +320,7 @@ under different lighting conditions. Your choices are:
 
 
 Geometry Node Example using a UV image
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------------
 
 .. figure:: /images/26-Manual-Geometry-Node-Example.jpg
    :width: 500px

@@ -3,7 +3,7 @@
 
 
 Spot Buffered Shadows
-=====================
+*********************
 
 .. figure:: /images/25-Manual-Lighting-Shadow-SpotBufShad.jpg
    :width: 310px
@@ -21,7 +21,7 @@ Buffered shadows are more complex to set up and involve more faking, but the spe
 
 
 Shadow Buffer Types
--------------------
+===================
 
 When the :guilabel:`Buffer Shadow` button is activated,
 the currently selected :guilabel:`Spot` light generates shadows,
@@ -45,7 +45,7 @@ For more information on the different shadow generation methods see these links:
 
 
 "Classical" and "Classic-Halfway"
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------
 
 .. figure:: /images/25-Manual-Lighting-Shadow-SpotBufShad.jpg
    :width: 310px
@@ -134,7 +134,7 @@ Here are now the options specific to these generation methods:
 
 
 "Irregular"
-~~~~~~~~~~~
+-----------
 
 .. figure:: /images/25-Manual-Lighting-Lamps-Spot-Buf-Irregular.jpg
    :width: 313px
@@ -151,7 +151,7 @@ setting for the object which will receive the transparent shadow. (:guilabel:`Ma
 
 
 Deep generation method
-~~~~~~~~~~~~~~~~~~~~~~
+----------------------
 
 .. figure:: /images/25-Manual-Lighting-Lamps-Spot-Buf-Deep.jpg
    :width: 313px
@@ -165,7 +165,7 @@ Deep generation method
 
 
 Common options
---------------
+==============
 
 The following settings are common to all buffered shadow generation method.
 
@@ -209,7 +209,7 @@ The following settings are common to all buffered shadow generation method.
 
 
 Hints
------
+=====
 
 Any object in Blender can act as a camera in the 3D view. Hence you can select the
 :guilabel:`Spot` light and switch to a view from its perspective by pressing

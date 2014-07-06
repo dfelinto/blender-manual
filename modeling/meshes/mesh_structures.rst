@@ -1,6 +1,6 @@
 
 Vertices, Edges and Faces
-=========================
+*************************
 
 In basic meshes, everything is built from three basic structures: *Vertices*,
 *Edges* and *Faces* (we're not talking about curves, NURBS, and so forth here).
@@ -9,7 +9,7 @@ possibilities that will be the foundation for all our models.
 
 
 Vertices
---------
+========
 
 .. figure:: /images/25-Manual-Mesh-Structures-CubeExample.jpg
 
@@ -33,7 +33,7 @@ new edge added between in :guilabel:`B` and :guilabel:`C`.
 
 
 Edges
------
+=====
 
 An edge always connects two vertices by a straight line.
 The edges are the "wires" you see when you look at a mesh in wireframe view.
@@ -42,7 +42,7 @@ Create an edge by selecting two vertices and pressing :kbd:`F`.
 
 
 Faces
------
+=====
 
 A face is the highest level structure in a mesh.
 Faces are used to build the actual surface of the object.
@@ -70,7 +70,7 @@ select three or four suitable vertices and press :kbd:`F`.
 
 
 Loops
-=====
+*****
 
 .. figure:: /images/25-Manual-mesh-structures-edge-and-face-loops.jpg
 
@@ -88,7 +88,7 @@ In the image above, loops that do not end in poles are cyclic (``1`` and ``3``).
 
 
 Edge Loops
-----------
+==========
 
 Loops ``1`` and ``2`` in (*Edge and Face Loops*) are edge Loops. They
 connect vertices so that each one on the loop has exactly two neighbors that are not on the
@@ -107,7 +107,7 @@ Further details on working with Edge Loops can be found in :doc:`Edge Loop Selec
 
 
 Face Loops
-----------
+==========
 
 These are a logical extension of Edge Loops in that they consist of the faces between two Edge
 Loops, as shown in loops ``3`` and ``4`` in (*Edge and Face Loops*).

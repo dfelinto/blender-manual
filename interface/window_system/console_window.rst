@@ -3,7 +3,7 @@
 
 
 The Console Window
-==================
+******************
 
 The :guilabel:`Console Window` is an operating system text window that displays messages about
 Blender operations, status, and internal errors. If Blender crashes on you,
@@ -11,7 +11,7 @@ the :guilabel:`Console Window` may be able to indicate the cause or error.
 
 
 Windows XP/Vista/7
-------------------
+==================
 
 .. figure:: /images/Interface-Window-System-console-windows.jpg
    :width: 360px
@@ -41,7 +41,7 @@ the relevant messages.
 
 
 Linux
------
+=====
 
 .. figure:: /images/Interface-Window-System-console-linux.jpg
    :width: 360px
@@ -67,7 +67,7 @@ it saved the recovery file to */tmp/quit.blend*.
 
 
 MacOS
------
+=====
 
 .. figure:: /images/Interface-Window-System-console-mac.jpg.jpg
    :width: 360px
@@ -90,7 +90,7 @@ adapted to the particular Blender version:
 
 
 Console Window Status and Error Messages
-----------------------------------------
+========================================
 
 The :guilabel:`Blender Console Window` can display many different types of Status and Error Messages.
 Some messages simply inform the user what Blender is doing, but have no real impact on Blender's ability to function.
@@ -101,7 +101,7 @@ also originate internally from within the Blender code or from external sources 
 
 
 Common messages
-~~~~~~~~~~~~~~~
+---------------
 
 - found bundled python: (FOLDER)
 

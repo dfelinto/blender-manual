@@ -1,6 +1,6 @@
 
 Push/Pull
-=========
+*********
 
 .. admonition:: Reference
    :class: refbox
@@ -10,7 +10,7 @@ Push/Pull
 
 
 Description
------------
+===========
 
 .. figure:: /images/3D_interaction-Transformations-Advanced-Push_Pull_toolshelf-f6.jpg
    :width: 150px
@@ -23,7 +23,7 @@ Description
 
 
 Usage
-~~~~~
+-----
 
 Select the elements you want to operate on and activate the Push/Pull transform function. The
 Push/Pull option can be invoked from the :menuselection:`Object/Mesh --> Transform --> Push/Pull` menu option

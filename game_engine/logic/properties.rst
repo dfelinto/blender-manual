@@ -1,13 +1,13 @@
 
 Properties
-==========
+**********
 
 Properties are the game logic equivalent to variables. They are stored with the object,
 and can be used to represent things about them such as ammo, health, name, and so on.
 
 
 Property Types
---------------
+==============
 
 There are five types of properties:
 
@@ -25,7 +25,7 @@ There are five types of properties:
 
 
 Using Properties
-----------------
+================
 
 Properties can be set up and initialised in the Properties panel of the Logic Editor - see the :doc:`Property Editing <game_engine/logic/properties/editing>` page for details.  When a game is running, values of properties are set, manipulated, and evaluated using the :doc:`Property Sensor <game_engine/logic/sensors/property>` and the :doc:`Property Actuator <game_engine/logic/actuators/property>`.
 

@@ -1,6 +1,6 @@
 
 Motion Actuator
-===============
+***************
 
 The Motion actuator sets an object into motion and/or rotation.
 There are two modes of operation, simple or servo in which the object can either teleport,
@@ -26,7 +26,7 @@ Determines type of motion
 
 
 Simple Motion
--------------
+=============
 
 .. figure:: /images/Manual_gameengine_actuator_motion_simple.jpg
    :width: 271px
@@ -52,7 +52,7 @@ Simple Motion
 
 
 Servo Control
--------------
+=============
 
 .. figure:: /images/Manual_gameengine_actuator_motion_servo.jpg
    :width: 271px

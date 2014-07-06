@@ -1,6 +1,6 @@
 
 Vertex Painting
-===============
+***************
 
 Vertex Painting is a simple way of painting color onto an object,
 by directly manipulating the color of vertices, rather than textures,
@@ -25,7 +25,7 @@ Vertex colors can be painted by first going into Edit Mode, then switching to :g
 
 
 Settings
-========
+********
 
 The Tools Shelf, shortcut :kbd:`T` contains most of the options for vertex painting.
 The following sections describe the controls in each of the available panels.
@@ -39,7 +39,7 @@ The following sections describe the controls in each of the available panels.
 
 
 Brush
------
+=====
 
 **Brush Datablock**
    The image, name panel and color selector at the top allows you to select brush presets, rename brushes, as well as add custom brushes, and delete them.
@@ -83,7 +83,7 @@ Brush
 
 
 Texture
--------
+=======
 
 Use the texture selector at the bottom of the paint panel to select a pre-loaded image or
 procedural texture to use as your brush pattern. Note that in order to use it,
@@ -124,7 +124,7 @@ it must only be defined.
 
 
 Stroke
-~~~~~~
+------
 
 **Stroke Method**
    Allows set the way applying strokes.
@@ -163,14 +163,14 @@ Stroke
 
 
 Curve
------
+=====
 
 Brush Curves affect how strongly the color is applied depending on distance from the center of
 the brush. In other words, they allow you to edit the Falloff of the brush intensity.
 
 
 Options
-=======
+*******
 
 .. figure:: /images/Doc-2.6-Materials-VertexPaint-ToolShelf-Options.jpg
    :width: 600px
@@ -180,20 +180,20 @@ Options
 
 
 Overlay
--------
+=======
 
 Allows you to customize the display of curve and texture that applied to the brush.
 
 
 Appearance
-----------
+==========
 
 Allows you to customize the color of the brush radius outline,
 as well as specify a custom icon.
 
 
 Options
--------
+=======
 
 **Normals**
    Applies the Vertex Normal before painting. This does not usually affect painting.

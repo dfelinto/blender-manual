@@ -1,15 +1,15 @@
 
 Lamps Related Settings
-======================
+**********************
 
 Here are some options closely related to light sources, without being lamps settings.
 
 
 Lighting Groups
----------------
+===============
 
 Materials
-~~~~~~~~~
+---------
 
 .. figure:: /images/25-Manual-Lighting-LightGr-Mat.jpg
    :width: 317px
@@ -25,7 +25,7 @@ lights in the specified group will *only* affect objects with this material.
 
 
 Render Layers
-~~~~~~~~~~~~~
+-------------
 
 .. figure:: /images/25-Manual-Lighting-LightGr-RenLay.jpg
    :width: 317px
@@ -38,7 +38,7 @@ There's a similar control located in the :guilabel:`Layer panel` of the context 
 
 
 See Also
---------
+========
 
 - :doc:`Lamps Introduction <lighting/lamps>`
 - :doc:`Shadows <lighting/shadows>`

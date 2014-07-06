@@ -1,6 +1,6 @@
 
 Mesh Duplicating Tools
-======================
+**********************
 
 This section covers mesh editing tools that add additional geometry by duplicating existing
 geometry in some way.

@@ -1,9 +1,9 @@
 
 Track To Constraint
-===================
+*******************
 
 Description
------------
+===========
 
 The :guilabel:`Track To` constraint applies rotations to its owner,
 so that it always points a given "To" axis towards its target,
@@ -31,7 +31,7 @@ as it centers around the use of both of these constraints.
 
 
 Options
--------
+=======
 
 .. figure:: /images/25-Manual-Constraints-Tracking-TrackTo.jpg
 

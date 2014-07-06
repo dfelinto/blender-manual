@@ -2,7 +2,7 @@
 ..    TODO/Review: {{review|text=add group instance}} .
 
 Grouping  And Parenting Objects
-===============================
+*******************************
 
 There can be many objects in a scene: A typical stage scene consists of furniture, props,
 lights, and backdrops.
@@ -16,7 +16,7 @@ rotation or scaling of the parent also affects the children.
 
 
 Parenting objects
-=================
+*****************
 
 .. figure:: /images/26-Manual-Modeling-Objects-Parenting-SetParentPopUp.jpg
 
@@ -80,13 +80,13 @@ FIXME(Tag Unsupported:ul;
 
 
 Object Parent
--------------
+=============
 
 *Object Parent* is the most general form of parenting that Blender supports.  If will take selected objects and make the last selected object the *Parent Object*, while all other selected objects will be *Child Objects*.
 
 
 Object (Keep Transform) Parent
-------------------------------
+==============================
 
 *Object (Keep Transform) Parent* works in a very similar way to *Object Parent* the major difference is in whether the *Child Objects* will remember any previous transformations applied to them from the previous *Parent Object*.
 
@@ -167,7 +167,7 @@ If you want to follow along with the above description here is the blend file us
 
 
 Armature Deform Parent
-----------------------
+======================
 
 An Armature in Blender can be thought of as similar to the armature of a real skeleton,
 and just like a real skeleton an Armature can consist of many bones.  These bones can be moved
@@ -260,7 +260,7 @@ vertices of an object will result in those vertices also being transformed.
 
 
 Armature Deform Parenting - Example Of Use
-------------------------------------------
+==========================================
 
 What follows is a simple example of how to setup Armature Deform Parenting so that you end up
 with an Armature whose Bones can Influence the mesh of a Child Object when the Armature is in
@@ -342,7 +342,7 @@ FIXME(Tag Unsupported:ol;
 
 
 Armature Deform Parent With Empty Groups
-----------------------------------------
+========================================
 
 The Armature Deform With Empty Groups parenting method works in almost the same way as
 Armature Deform parenting with one difference.  That difference is that when you parent a
@@ -409,7 +409,7 @@ See figure 22.
 
 
 Armature Deform With Automatic Weights
---------------------------------------
+======================================
 
 Armature Deform With Automatic Weights parenting feature does everything Armature Deform With Empty Groups does with one extra thing.  That extra thing is that unlike Armature Deform With Empty Groups which leaves the automatically created Vertex Groups empty with no vertices assigned to them;  Armature Deform With Automatic Weight will try to calculate how much Influence Weight a particular Armature Bone would have on a certain collection of vertices based on the distance from those vertices to a particular Armature Bone.
 
@@ -489,7 +489,7 @@ If you find that a Child Object is deforming strangely when the Armature Bones a
 
 
 Armature Deform With Envelope Weights
--------------------------------------
+=====================================
 
 Works in a similar way to Armature Deform With Automatic Weights in that it will create Vertex Groups on the Child Objects that have names matching those of the Parent Object Armature Bones.  The created Vertex Groups will then be assigned Influence Weights.  The major difference is in the way those Influence Weights are calculated.
 
@@ -573,7 +573,7 @@ You can also alter the bone radius by selecting the tail or head of the bone you
 
 
 Bone Parent
------------
+===========
 
 Bone parenting allows you to make a certain bone in an armature the Parent Object of another object. This means that when transforming an armature the Child Object will only move if the specific bone it is the Child Object of moves.  See figure 34.
 
@@ -591,7 +591,7 @@ Now transforming that bone in Pose Mode will result in the Child Objects also tr
 
 
 Bone Parenting - Example Of Use
--------------------------------
+===============================
 
 FIXME(Tag Unsupported:ol;
 <ol>
@@ -653,7 +653,7 @@ Bone Relative parenting works differently;  If you move a Parent Bone in Edit Mo
 
 
 Vertex Parent
--------------
+=============
 
 You can parent an object to a single vertex or a group of three vertices as well;
 that way the child/children will move when the parent mesh is deformed,
@@ -661,7 +661,7 @@ like a mosquito on a pulsing artery.
 
 
 Vertex Parent from Edit Mode
-____________________________
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 In :guilabel:`Object` mode, select the child/children and then the parent object.
 :kbd:`tab` into :guilabel:`Edit mode` and on the parent object select either one vertex
@@ -679,7 +679,7 @@ the child/children will move as well.
 
 
 Vertex Parent from Object Mode
-______________________________
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Vertex parenting can be performed from object mode,
 This is done like regular object parenting,
@@ -710,10 +710,10 @@ and avoid the tedious effort of establishing each parent-child vertex relationsh
 
 
 Options
--------
+=======
 
 Move child
-~~~~~~~~~~
+----------
 
 You can *move* a child object to its parent by clearing its origin.
 The relationship between the parent and child isn't affected.
@@ -723,7 +723,7 @@ Use the :guilabel:`Outliner` view to verify that the child object is still paren
 
 
 Remove relationship/Clear Parent
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------
 
 .. figure:: /images/25-Manual-Modeling-Objects-Parenting-ClearParentPopUp.jpg
 
@@ -751,7 +751,7 @@ The menu contains:
 
 
 Parenting Example
------------------
+=================
 
 .. figure:: /images/25-Manual-Modeling-Objects-Parenting-Exampel1.jpg
 
@@ -773,7 +773,7 @@ as we'll see in later chapters; it is used extensively with advanced animations.
 
 
 Hints
------
+=====
 
 .. figure:: /images/25-Manual-Modeling-Objects-Parenting-Exampel2-Outliner.jpg
 
@@ -784,7 +784,7 @@ There is another way to see the parent-child relationship in groups and that is 
 
 
 Separating Objects
-==================
+******************
 
 At some point,
 you'll come to a time when you need to cut parts away from a mesh to be separate. Well,
@@ -796,7 +796,7 @@ press  :kbd:`p`  then select one of the following.
 
 
 Options
--------
+=======
 
 .. figure:: /images/25-Manual-Modeling-Objects-Parenting-Exampel-SuzDissect.jpg
 
@@ -812,7 +812,7 @@ Options
 
 
 Grouping objects
-================
+****************
 
 .. figure:: /images/25-Manual-Modeling-Objects-Parenting-Exampel-GroupedObj.jpg
 
@@ -827,7 +827,7 @@ Objects that are part of a group always shows as light green when selected; see 
 
 
 Options
--------
+=======
 
 Creating a Group
    :kbd:`ctrl-G` creates a new group and adds the selected object(s) to it.
@@ -852,7 +852,7 @@ Removing Groups
 
 
 Select Grouped
---------------
+==============
 
 .. admonition:: Reference
    :class: refbox

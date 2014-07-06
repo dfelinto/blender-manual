@@ -6,13 +6,13 @@
 
 
 Particle Visualization
-======================
+**********************
 
 With the items in the :guilabel:`Display` and :guilabel:`Render` panel you can set the way the particles will be rendered or depicted in the view ports in various ways. Some option are valid only for the 3D window, the particles then are rendered always as :doc:`Halos <materials/halos>`. Some of the options will be rendered as shown in the 3D window.
 
 
 Viewport Display
-================
+****************
 
 The Display Panel controls how particles are displayed in the 3d viewport.
 This does not necessarily determine how they will appear when rendered.
@@ -47,7 +47,7 @@ in simulations using :guilabel:`Boids` physics).
 
 
 Color
------
+=====
 
 The Color Menu allows you to draw particles according to certain particle properties.
 
@@ -62,7 +62,7 @@ The Color Menu allows you to draw particles according to certain particle proper
 
 
 Render Settings
-===============
+***************
 
 The Render Panel controls how particles appear when they are rendered.
 
@@ -171,7 +171,7 @@ Please see also the manual page about :doc:`Strands <materials/properties/strand
 
 
 Object
-------
+======
 
 In the Object visualization mode the specified object (:guilabel:`Dupli Object:` field)
 is duplicated in place of each particle.
@@ -187,7 +187,7 @@ or it will get an offset to the particle.
 
 
 Group
------
+=====
 
 In the Group visualization mode, the objects that belong to the group (:guilabel:`GR:` field)
 are duplicated sequentially in the place of the particles.
@@ -210,7 +210,7 @@ are duplicated sequentially in the place of the particles.
 
 
 Billboard
----------
+=========
 
 .. figure:: /images/Blender3D_VisualisationPanelBillboard.jpg
 

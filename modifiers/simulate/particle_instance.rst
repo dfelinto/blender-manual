@@ -3,7 +3,7 @@
 
 
 Particle Instance Modifier
-==========================
+**************************
 
 .. admonition:: Reference
    :class: refbox
@@ -37,7 +37,7 @@ and the :guilabel:`ParticleInstance` modifier:
 
 
 Options
--------
+=======
 
 .. figure:: /images/Doc26-particleInstanceModifier.jpg
    :width: 250px
@@ -85,7 +85,7 @@ altering rather than the :guilabel:`ParticleInstance` modifier settings.
 
 
 Creation
-~~~~~~~~
+--------
 
 :guilabel:`Normal`
    When selected, the :guilabel:`Normal` button tells the :guilabel:`ParticleInstance` modifier to draw instances of itself wherever normal particle types are emitted from the underlying particle system. So if the current :guilabel:`ParticleInstance` modifier is a sphere shape, when normal particles are emitted they will be spheres.
@@ -98,7 +98,7 @@ Creation
 
 
 Display
-~~~~~~~
+-------
 
 :guilabel:`Unborn`
    When selected, the :guilabel:`Unborn` button tells the :guilabel:`ParticleInstance` modifier to draw instances of itself wherever unborn particles will be emitted/used on the underlying particle system. So if the current :guilabel:`ParticleInstance` modifier is a sphere shape, when unborn particles are present they will be spheres.
@@ -111,7 +111,7 @@ Display
 
 
 Using Paths
-~~~~~~~~~~~
+-----------
 
 :guilabel:`Create Along Paths`
    This option tries to make the underlying mesh object of the :guilabel:`Particle Instance` modifier deform its mesh shape in such a way as to try and match the path traveled by the particles/hair strands of the system associated with it.
@@ -206,7 +206,7 @@ Using Paths
 
 
 See Also
---------
+========
 
 - :doc:`Particles <physics/particles>`
 

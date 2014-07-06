@@ -3,7 +3,7 @@
 
 
 Sun Lamp
-========
+********
 
 A :guilabel:`Sun` lamp provides light of constant intensity emitted in a single direction.
 A :guilabel:`Sun` lamp can be very handy for a uniform clear daylight open-space illumination.
@@ -22,7 +22,7 @@ This direction can be changed by rotating the :guilabel:`Sun` lamp, like any oth
 
 
 Lamp options
-------------
+============
 
 :guilabel:`Energy` and :guilabel:`Color`
    These settings are common to most types of lamps, and are described in :doc:`Light Properties <lighting/lights/light_properties>`.
@@ -34,7 +34,7 @@ The :guilabel:`Sun` lamp has no light falloff settings: it always uses a constan
 
 
 Sky & Atmosphere
-----------------
+================
 
 .. figure:: /images/25-Manual-Lighting-Lamps-Sun-SkyAtmoPanel.jpg
    :width: 304px
@@ -47,7 +47,7 @@ Various settings for the appearance of the sun in the sky, and the atmosphere th
 
 
 Shadow
-------
+======
 
 .. figure:: /images/25-Manual-Lighting-Lamps-Sun-ShadPanel.jpg
    :width: 304px

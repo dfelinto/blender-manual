@@ -1,6 +1,6 @@
 
 Hemi Lamp
-=========
+*********
 
 .. figure:: /images/Manual-Part-V-HemiScheme.jpg
    :width: 250px
@@ -25,7 +25,7 @@ the inside of the hemisphere.
 
 
 Options
--------
+=======
 
 .. figure:: /images/25-Manual-Lighting-Lamps-Hemi.jpg
    :width: 307px

@@ -1,6 +1,6 @@
 
 Rendering and Saving Images
-===========================
+***************************
 
 After you have adjusted your render settings, in regards to :doc:`Quality <render/options>` and :doc:`Format <render/output>`, you will need to actually render the image. Rendering still images is fairly simple. :doc:`Rendering Animations <render/animations>` is a bit more complex and is covered in the next sections.
 
@@ -9,7 +9,7 @@ By default the 3D view is replaced with the UV/Image Editor and the render appea
 
 
 Displaying Renders
-==================
+******************
 
 Renders are displayed in the Image Editor. You can set the way this is displayed to several
 different options in the Display drop-down menu:
@@ -28,13 +28,13 @@ pressing :kbd:`esc` will close the render view and return to the previous view.
 
 
 Saving
-------
+======
 
 Rendered images can be saved by clicking on the Image menu and using the save options.
 
 
 Animation Playback
-==================
+******************
 
 The 'Play' button in the render panel will play back your rendered animation in a new window.
 
@@ -90,7 +90,7 @@ FIXME(Template Unsupported: Shortcut/Keypress;
 
 
 Display Options
-===============
+***************
 
 When a rendered image is displayed in the Image Editor,
 several new menu items become available.

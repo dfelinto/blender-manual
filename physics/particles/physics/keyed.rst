@@ -1,6 +1,6 @@
 
 Keyed Particles
-===============
+***************
 
 .. figure:: /images/Keyed.jpg
 
@@ -22,7 +22,7 @@ you can do arbitrarily complex animations.
 
 
 Setup
------
+=====
 
 To setup Keyed particles you need at least two particle systems.
 
@@ -54,7 +54,7 @@ This may lead to varying particle speeds between the targets.
 
 
 Timing
-------
+======
 
 :guilabel:`Use Timing`
    Timing works together with the Time slider for the other keyed systems in a chain. The Time slider allows to define a fraction of particle lifetime for particle movement.

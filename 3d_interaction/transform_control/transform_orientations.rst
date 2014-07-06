@@ -3,7 +3,7 @@
 
 
 Transform Orientations
-======================
+**********************
 
 .. admonition:: Reference
    :class: refbox
@@ -37,7 +37,7 @@ FIXME(TODO: Internal Link;
 
 
 Our Demo Cube
--------------
+=============
 
 .. figure:: /images/Orientations-BasicSetup.jpg
 
@@ -53,7 +53,7 @@ Please note two things:
 
 
 Orientations
-------------
+============
 
 .. figure:: /images/Manual-3D_interaction-Transform_Control-Transform_Orientations-01.Global.jpg
 
@@ -61,7 +61,7 @@ Orientations
 
 
 Global
-~~~~~~
+------
 
 The manipulator matches the global axis.
 When using the Global orientation, the orientation's x,y,z matches world's x,y,z axis.
@@ -80,7 +80,7 @@ and doesn't match the Global coordinates.
 
 
 Local
-~~~~~
+-----
 
 The manipulator matches the object axis.
 Notice that, here, the Manipulator is at a slight tilt
@@ -99,7 +99,7 @@ so it is important to understand the distinction.
 
 
 Normal
-~~~~~~
+------
 
 The z-axis of the manipulator will match the normal vector of the selected object.
 In Object Mode, this is equivalent to Local Orientation, but in Edit Mode,
@@ -127,7 +127,7 @@ the same movement---except along that second vertex's normal instead.
 
 
 Gimbal
-~~~~~~
+------
 
 Gimbal's behavior highly depends on the :doc:`Rotation Mode <3d_interaction/transformations/basics/rotate>`
 that you are in (accessible in the :kbd:`n` Properties Panel in the :guilabel:`3D View`,
@@ -153,7 +153,7 @@ in top section, :guilabel:`Transform`).
 
 
 View
-~~~~
+----
 
 The manipulator will match the 3D view, Y → Up/Down, X → Left/Right,
 Z → Towards/Away from you.
@@ -167,7 +167,7 @@ This way you can constrain movement to one View axis with :kbd:`g-x-x`.
 
 
 Custom Orientations
--------------------
+===================
 
 .. admonition:: Reference
    :class: refbox

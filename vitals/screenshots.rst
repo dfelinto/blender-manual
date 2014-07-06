@@ -3,7 +3,7 @@
 
 
 Blender Screenshots
-===================
+*******************
 
 .. admonition:: Reference
    :class: refbox
@@ -43,20 +43,20 @@ called *Save Screenshot* where you can find format settings and a checkbox with 
 
 
 Operating System Screenshots
-----------------------------
+============================
 
 You may also use the Operating system to capture the screen to the clipboard.
 You can then paste the image from the clipboard into your image editor.
 
 
 Windows Screenshots
-~~~~~~~~~~~~~~~~~~~
+-------------------
 
 Press :kbd:`Alt-Print Screen` to capture the active program window to the clipboard.
 
 
 Mac OSX Screenshots
-~~~~~~~~~~~~~~~~~~~
+-------------------
 
 Press :kbd:`cmd-shift-3` to capture the screen to a file on the desktop.
 
@@ -68,7 +68,7 @@ Press :kbd:`ctrl-cmd-shift-4` to capture an area of the screen to the clipboard.
 
 
 GNU/Linux Screenshots
-~~~~~~~~~~~~~~~~~~~~~
+---------------------
 
 On some Linux distributions (such as Ubuntu) and window managers,
 you can press :kbd:`Print Screen` to capture the screen to a file.
@@ -80,7 +80,7 @@ Consult your distribution's manual or software repository for more information.
 
 
 Software Screenshots
---------------------
+====================
 
 In addition to the options present in Blender and in your Operating System,
 there is other useful software to take Screenshots of your screen, like Gimp, Photoshop,
@@ -88,7 +88,7 @@ Screenhunter, and so on.
 
 
 Gimp Screenshots
-~~~~~~~~~~~~~~~~
+----------------
 
 Taking Screenshots from Gimp:
 

@@ -1,6 +1,6 @@
 
 Parent Actuator
-===============
+***************
 
 Enables you to change the parent relationships of the current object.
 

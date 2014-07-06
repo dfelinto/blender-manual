@@ -1,6 +1,6 @@
 
 Introduction to Physics Simulation
-==================================
+**********************************
 
 This chapter covers various advanced Blender effects,
 often used to simulate real physical phenomena, such as:
@@ -27,7 +27,7 @@ often used to simulate real physical phenomena, such as:
 
 
 Gravity
--------
+=======
 
 Gravity is a global setting that is applied the same to all physics systems in a scene,
 which can be found in the scene tab. This value is generally fine left at its default value,

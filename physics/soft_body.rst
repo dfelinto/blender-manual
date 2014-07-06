@@ -1,6 +1,6 @@
 
 Soft Bodies
-===========
+***********
 
 .. figure:: /images/Blender3D_HiddenTextSoftbody.jpg
    :width: 600px
@@ -26,7 +26,7 @@ edit intermediate results and run the simulation from there.
 
 
 Typical scenarios for using Soft Bodies
----------------------------------------
+=======================================
 
 .. figure:: /images/Blender3D_WindConeSoftbody.jpg
    :width: 300px
@@ -49,7 +49,7 @@ http://de.youtube.com/watch?v=3du8ksOm9Fo
 
 
 Creating a Soft Body
---------------------
+====================
 
 Soft Body simulation works for all objects that have vertices or control points:
 
@@ -73,7 +73,7 @@ For a reference of all the settings see :doc:`this page <physics/soft_body/refer
 
 
 Simulation Quality
-------------------
+==================
 
 The settings in the :guilabel:`Soft Body Solver` panel determine the accuracy of the
 simulation.
@@ -108,7 +108,7 @@ simulation.
 
 
 Cache and Bake
---------------
+==============
 
 Soft Bodies and other physic simulations use a unified system for caching and baking. See :doc:`Particle Cache <physics/particles/cache_and_bake>` for reference.
 
@@ -141,7 +141,7 @@ and then copy the blendcache to the renderfarm as well.
 
 
 Interaction in real time
-------------------------
+========================
 
 To work with a Soft Body simulation you will find it handy to use the :guilabel:`Timeline`
 window.
@@ -175,7 +175,7 @@ Tips
 
 
 Links
------
+=====
 
 - `Developer Notes <http://mosebjorn.altervista.org/>`__
 - `Swinging of a chain <http://blenderartists.org/forum/showthread.php?t=114723>`__

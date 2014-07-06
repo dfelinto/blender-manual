@@ -3,7 +3,7 @@
 
 
 EdgeSplit Modifier
-==================
+******************
 
 .. admonition:: Reference
    :class: refbox
@@ -15,7 +15,7 @@ EdgeSplit Modifier
 
 
 Description
------------
+===========
 
 The :guilabel:`EdgeSplit` modifier splits edges within a mesh.
 The edges to split can be determined from the edge angle (i.e.
@@ -25,7 +25,7 @@ Splitting an edge affects vertex normal generation at that edge, making the edge
 
 
 Options
--------
+=======
 
 .. figure:: /images/Reference-Panels-Modifier-EdgeSplit-2.5.jpg
 
@@ -47,7 +47,7 @@ Options
 
 
 Examples
---------
+========
 
 .. figure:: /images/Manual-Modifier-EdgeSplit-Example01.jpg
    :width: 600px

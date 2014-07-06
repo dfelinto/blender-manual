@@ -1,6 +1,6 @@
 
 Interior Forces
-===============
+***************
 
 .. figure:: /images/Bsod-softbody-theory1.jpg
    :width: 200px
@@ -38,7 +38,7 @@ vertex and any other vertex that is separated by two edge connections.
 
 
 Edges Settings
-==============
+**************
 
 The characteristics of edges are set with the :guilabel:`Soft Body Edge` properties.
 
@@ -70,7 +70,7 @@ The characteristics of edges are set with the :guilabel:`Soft Body Edge` propert
 
 
 Preventing Collapse
--------------------
+===================
 
 To show the effect of the different edge settings we will use two cubes (blue: only quads, red: only tris) and let them fall without any goal onto a plane (how to set up collision is shown on the page :doc:`Collisions <physics/soft_body/collisions>`).
 

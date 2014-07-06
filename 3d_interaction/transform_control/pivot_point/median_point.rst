@@ -1,6 +1,6 @@
 
 Median Point as Pivot
-=====================
+*********************
 
 .. admonition:: Reference
    :class: refbox
@@ -19,7 +19,7 @@ the median point would sit at the point of equilibrium for the selection (the CO
 
 
 In Object Mode
---------------
+==============
 
 In Object Mode, Blender only considers the Object centers when determining the median point.
 This can lead to some counterintuitive results. In the Object Mode median points image below,
@@ -35,7 +35,7 @@ Objects' mesh.
 
 
 In Edit Mode
-------------
+============
 
 In Edit Mode,
 the median point is determined via the part of the selection that has the most elements.

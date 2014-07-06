@@ -6,14 +6,14 @@
 
 
 Empties
-=======
+*******
 
 The "Empty" is a null object. It contains no real Geometry,
 but can be used as a handle for many purposes.
 
 
 Settings
-========
+********
 
 :guilabel:`Plain Axes`
    Draws as six lines, initially with one pointing in each of the +X,-X,+Y,-Y,+Z,and -Z axis directions.
@@ -45,7 +45,7 @@ Settings
 
 
 Usage and functions
-===================
+*******************
 
 Empties can serve as transform handles which cannot be edited and do not render.
 Empties are important and useful objects. Some examples of ways to use them include:

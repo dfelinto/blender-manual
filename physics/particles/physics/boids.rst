@@ -1,6 +1,6 @@
 
 Boids
-=====
+*****
 
 .. figure:: /images/Boids.jpg
 
@@ -20,7 +20,7 @@ To view the subpanel to the right, add a :guilabel:`Particle System` of type
 
 
 Physics
-=======
+*******
 
 Boids try to avoid objects with activated Deflection.
 They try to reach objects with positive Spherical fields,
@@ -73,7 +73,7 @@ or on land (on collision object)
 
 
 Battle
-------
+======
 
 :guilabel:`Health`
    Initial boid health when born.
@@ -88,7 +88,7 @@ Battle
 
 
 Alliance
---------
+========
 
 The relations box allows you to set up other particle systems to react with the boids.
 Setting the type to :guilabel:`Enemy` will cause the systems to fight with each other.
@@ -97,7 +97,7 @@ Setting the type to :guilabel:`Enemy` will cause the systems to fight with each 
 
 
 Deflectors and Effectors
-------------------------
+========================
 
 As mentioned before, very much like Newtonian particles,
 Boids will react to the surrounding deflectors and fields,
@@ -132,7 +132,7 @@ The size of the predators and the prey can be set with the Size button in the Ex
 
 
 Boid Brain
-==========
+**********
 
 The Boid Brain panel controls how the boids particles will react with each other.
 The boids' behavior is controlled by a list of rules.
@@ -203,7 +203,7 @@ The list of rules available are:
 
 
 Rule Evaluation
-~~~~~~~~~~~~~~~
+---------------
 
 There are three ways control how rules are evaluated.
 

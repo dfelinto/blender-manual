@@ -13,7 +13,7 @@ well as define your own keymap.
 
 
 Managing presets
-================
+****************
 
 Blender lets you define multiple :guilabel:`Preset` input configurations.
 Instead of deleting the default keymap to create yours,
@@ -23,7 +23,7 @@ picture.
 
 
 Adding and deleting presets
----------------------------
+===========================
 
 .. figure:: /images/Manual-Interface-Configuration-Input-AddDeletePreset.jpg
 
@@ -36,7 +36,7 @@ select it from the list and then click the "minus" symbol.
 
 
 Selecting presets
------------------
+=================
 
 You can change the preset you are using by doing one of the following:
 
@@ -52,7 +52,7 @@ You can change the preset you are using by doing one of the following:
 
 
 Setting presets to default
---------------------------
+==========================
 
 .. figure:: /images/Manual-Interface-Configuration-Input-SplashScreenInteraction.jpg
    :width: 307px
@@ -69,7 +69,7 @@ you can make this the default configuration by:
 
 
 Export/Import key configuration
--------------------------------
+===============================
 
 In some cases, you may need to save your configuration in an external file (e.g.
 if you need to install a new system or share your keymap configuration with the community).
@@ -80,7 +80,7 @@ your computer but not in Blender.
 
 
 Mouse
-=====
+*****
 
 :guilabel:`Emulate 3 Button Mouse`
    It is possible to use Blender without a 3 button mouse (such as a two-button mouse,
@@ -105,7 +105,7 @@ Mouse
 
 
 Numpad emulation
-================
+****************
 
 The Numpad keys are used quite often in Blender and are not the same keys as the regular
 number keys. If you have a keyboard without a Numpad (e.g. on a laptop),
@@ -114,7 +114,7 @@ Just check :guilabel:`Emulate Numpad`.
 
 
 View manipulation
-=================
+*****************
 
 :guilabel:`Orbit Style`
    Select how Blender works when you rotate the 3D view (by default :kbd:`MMB`). Two styles are available. If you come from Maya or Cinema 4D, you will prefer :guilabel:`Turntable`.
@@ -139,7 +139,7 @@ View manipulation
 
 
 Keymap editor
-=============
+*************
 
 .. figure:: /images/Manual-Interface-Configuration-Input-KeymapEditor.jpg
    :width: 320px

@@ -3,14 +3,14 @@
 
 
 F-Curve Modifiers
-=================
+*****************
 
 F-Curve modifiers are similar to object modifiers, in that they add non-destructive effects,
 that can be adjusted at any time, and layered to create more complex effects.
 
 
 Adding a Modifier
------------------
+=================
 
 The F-curve modifier panel is located in the Properties panel.
 Select a curve by selecting one of its curve points, or by selecting the channel list.
@@ -26,10 +26,10 @@ Go to the Graph Editor.....make sure the f-curves properties panel is visible
 
 
 Types of Modifiers
-------------------
+==================
 
 Generator
-~~~~~~~~~
+---------
 
 Generator creates a Factorized or Expanded Polynomial function.
 These are basic mathematical formulas that represent lines, parabolas,
@@ -47,7 +47,7 @@ FIXME(Link Type Unsupported: http;
 
 
 Built-in Function
-~~~~~~~~~~~~~~~~~
+-----------------
 
 These are additional formulas, each with the same options to control their shape.
 Consult mathematics reference for more detailed information on each function.
@@ -70,7 +70,7 @@ Consult mathematics reference for more detailed information on each function.
 
 
 Envelope
-~~~~~~~~
+--------
 
 Allows you to adjust the overall shape of a curve with control points.
 
@@ -92,7 +92,7 @@ Allows you to adjust the overall shape of a curve with control points.
 
 
 Cycles
-~~~~~~
+------
 
 Cycles allows you add cyclic motion to a curve that has 2 or more control points.
 The options can be set for before and after the curve.
@@ -110,7 +110,7 @@ The options can be set for before and after the curve.
 
 
 Noise
-~~~~~
+-----
 
 Modifies the curve with a noise formula.
 This is useful for creating subtle or extreme randomness to animated movements,
@@ -137,10 +137,10 @@ like camera shake.
 
 
 Python
-~~~~~~
+------
 
 Limits
-~~~~~~
+------
 
 Limit curve values to specified X and Y ranges.
 
@@ -151,7 +151,7 @@ Limit curve values to specified X and Y ranges.
 
 
 Stepped
-~~~~~~~
+-------
 
 Gives the curve a stepped appearance by rounding values down within a certain range of frames.
 

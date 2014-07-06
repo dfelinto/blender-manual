@@ -1,6 +1,6 @@
 
 Modeling in Blender
-===================
+*******************
 
 As you have seen in the :doc:`Quick Start <your_first_animation/1.a_static_gingerbread_man>` chapter, the creation of a 3D scene needs at least three key things: Models, Materials and Lights. In this Part we will delve deeper into the first of these issues: modeling. Modeling is the art and science of creating a surface that mimics the shape of a real-world object or fits your imagination of abstract objects.
 

@@ -8,7 +8,7 @@
 
 
 Introduction
-============
+************
 
 The :guilabel:`3D View` is where you perform most of the object modeling and scene creation.
 Blender has a wide array of tools and options to support you in efficiently working with your
@@ -20,7 +20,7 @@ Just take it slow and experiment with a few options at a time to see what they d
 
 
 3D Window Header
-================
+****************
 
 The :guilabel:`3D View` window is comprised of a workspace and a header.
 The header is shown at the bottom or top of the workspace, and can be hidden if desired.
@@ -35,7 +35,7 @@ The header shows you a menu and the current mode, as explained below.
 
 
 View Menu
----------
+=========
 
 .. figure:: /images/2.5_Manual-3D-View-Menu.jpg
    :width: 300px
@@ -131,7 +131,7 @@ View Menu
 
 
 Select Menu
------------
+===========
 
 This menu contains tools for selecting objects.
 
@@ -139,7 +139,7 @@ This menu contains tools for selecting objects.
 
 
 Object Menu
------------
+===========
 
 This menu appears when in Object Mode. In edit mode,
 it will change to the appropriate menu with editing tools.
@@ -148,7 +148,7 @@ it will change to the appropriate menu with editing tools.
 
 
 Mode List
----------
+=========
 
 .. figure:: /images/2.5_Manual-3D-Mode.jpg
 
@@ -172,7 +172,7 @@ The cursor becomes a brush in:
 
 
 ViewPort Shading List
----------------------
+=====================
 
 Allows you to change the way 3D objects are displayed in the viewport.
 
@@ -187,7 +187,7 @@ Allows you to change the way 3D objects are displayed in the viewport.
 
 
 Pivot Point Selector
---------------------
+====================
 
 .. figure:: /images/Manual-2.5-PivotSelection.jpg
 
@@ -211,7 +211,7 @@ or just the position of the objects
 
 
 Transform (Manipulator) Selectors
----------------------------------
+=================================
 
 These handy selectors allow you to rotate or move objects by grabbing
 (clicking with your mouse) their controls and moving your mouse in the axis.
@@ -220,7 +220,7 @@ These handy selectors allow you to rotate or move objects by grabbing
 
 
 Layer Selector
---------------
+==============
 
 Layers are well documented in the :doc:`Layers page <3d_interaction/navigating/layers#description>`.
 Toggling layer visibility is covered in the section on :doc:`viewing layers
@@ -230,7 +230,7 @@ Toggling layer visibility is covered in the section on :doc:`viewing layers
 
 
 Lock to Scene
--------------
+=============
 
 By default, the "lock" button to the right of the layer buttons is enabled.
 This means that in this view, the active layers and camera are those of the whole scene
@@ -250,7 +250,7 @@ Or to have several views with different active cameras. Remember that you can us
 
 
 Snap to Mesh
-------------
+============
 
 This "magnet" button controls the snapping tools that help with transforming and modeling
 objects.
@@ -259,7 +259,7 @@ objects.
 
 
 Render Buttons
---------------
+==============
 
 The Render Buttons render an OpenGL version of the 3D view.
 

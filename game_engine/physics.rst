@@ -1,6 +1,6 @@
 
 Blender Physics
-===============
+***************
 
 Blender includes advanced physics simulation in the form of the Bullet Physics Engine
 (`BulletPhysics.org <http://bulletphysics.org>`__). Most of your work will involve setting the right properties
@@ -19,7 +19,7 @@ FIXME(TODO: Internal Link; [[#Mesh_Deformations|Mesh Deformations]]).
 
 
 Getting Started
----------------
+===============
 
 If you have never worked with the BGE, you might want to spend 10-15 minutes by doing the :doc:`Introductory Tutorial <ls/physics/rigid_bodies>`. After that is an interactive example, :doc:`Frijoles <ls/frijoles>`.
 
@@ -49,7 +49,7 @@ The rudiments are:
 
 
 Types
------
+=====
 
 The five general-purpose types are:
 
@@ -76,13 +76,13 @@ Additional special-purpose types:
 
 
 World Options
--------------
+=============
 
 The global Physics Engine settings can be found in the `World Properties <http://wiki.blender.org/index.php/User:Sculptorjim/Game_Engine/Physics/World>`__, which include the Gravity constant and some important engine performance tweaks.
 
 
 Constraints
------------
+===========
 
 It is imperative to understand that the Blender Constraints generally don't work inside the
 BGE.
@@ -97,7 +97,7 @@ Your options include:
 
 
 Visualizing Physics
--------------------
+===================
 
 .. figure:: /images/Manual-BGE-Physics-Visualization.jpg
 
@@ -151,7 +151,7 @@ you can add this as a Python Controller and uncomment whichever pieces you want 
 
 
 Show Framerate and Profile
---------------------------
+==========================
 
 .. figure:: /images/Manual-BGE-Physics_ProfileStats.jpg
 
@@ -167,7 +167,7 @@ http://mogurijin.wordpress.com/2012/01/03/bge-profile-stats-and-what-they-mean/
 
 
 Recording to Keyframes
-----------------------
+======================
 
 Beyond gaming, sometimes you wish to render a complex scene that involves collisions,
 multiple forces, friction between multiple bodies,
@@ -192,7 +192,7 @@ That means you can record a part-simulated part-user-controlled animation.
 
 
 Keyframe Clean-up
-~~~~~~~~~~~~~~~~~
+-----------------
 
 .. figure:: /images/Manual-BGE-Physics-DopeSheetFull.jpg
 
@@ -221,7 +221,7 @@ and turn these things into :guilabel:`Action Strips`.
 
 
 Recording to .bullet File
--------------------------
+=========================
 
 You can snapshot the physics world at any time with the following code:
 
@@ -238,20 +238,20 @@ Serialization] for more.
 
 
 Mesh Deformations
------------------
+=================
 
 As mentioned above, Rigid Body physics do not affect mesh deformations,
 nor do they account for them in the physics model. This leaves you with a few options:
 
 
 Soft Bodies
-~~~~~~~~~~~
+-----------
 
 You can try using a `Soft Body <http://wiki.blender.org/index.php/User:Sculptorjim/Game_Engine/Physics/Objects/Soft_Body>`__, but these are fairly hard to configure well.
 
 
 Actions
-~~~~~~~
+-------
 
 To use an `Action Actuator <http://wiki.blender.org/index.php/User:Sculptorjim/Game_Engine/Logic/Actuators/Action>`__ to do the deformation, you have to make a choice. If you use Shapekeys in the Action, you will be fine as far as the overall collisions (but see below for the note on ``reinstancePhysicsMesh()``). The mesh itself is both a display and a physics mesh, so there is not much to configure.
 
@@ -287,13 +287,13 @@ since it will be getting the mesh data from ``viz``.
 
 
 Ragdolls
-~~~~~~~~
+--------
 
 A third option is to create your items out of many sub-objects, connected together with Rigid Body Joints or similar. This can be quite a bit more work, but the results can be much more like a realistic response to collisions. For an Addon that can help you out in the process, check out the `Blender Ragdoll Implementation Kit <http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Game_Engine/BRIK_ragdolls>`__.
 
 
 Digging Deeper
---------------
+==============
 
 Sometimes you will want to look at:
 
@@ -306,7 +306,7 @@ Then there is always:
 
 
 Reading the Blender and Bullet Source Files
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------
 
 This might sound intimidating, even if you know C/C++, but it can be very informative.
 You can see how Blender sets up the objects to pass to Bullet, add ``printf

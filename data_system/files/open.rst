@@ -1,6 +1,6 @@
 
 Opening Files
-=============
+*************
 
 .. admonition:: Reference
    :class: refbox
@@ -11,7 +11,7 @@ Opening Files
 
 
 Description
------------
+===========
 
 Blender uses the ``.blend`` file format to save nearly everything: objects, scenes,
 textures, and even all your user interface window settings.
@@ -32,7 +32,7 @@ completing the file load dialog is regarded as being enough confirmation that yo
 
 
 Using the File Browser and Folder Navigation
---------------------------------------------
+============================================
 
 To load a Blender file from disk, press :kbd:`F1`. The :guilabel:`File Browser` window,
 as shown above, will open.
@@ -51,7 +51,7 @@ Clicking :guilabel:`Cancel` will close the file browser window and return to the
 
 
 Side Panel
-----------
+==========
 
 The panel on the left displays different ways to find files and several options.
 To load a file, select it with :kbd:`lmb` and then press :kbd:`enter`,
@@ -60,14 +60,14 @@ A file can also be loaded by simply clicking :kbd:`mmb` over its name.
 
 
 System
-~~~~~~
+------
 
 The system menu contains a list of drives that are available to navigate through to find
 files. Click on one to jump to that drive.
 
 
 Bookmarks
-~~~~~~~~~
+---------
 
 These are folders that you want to be able to access often without having to navigate to them
 in the file browser. To add a directory to the bookmark menu, navigate to that folder,
@@ -76,7 +76,7 @@ To remove a folder from the list, simply click the :guilabel:`X` icon nexto to i
 
 
 Recent
-~~~~~~
+------
 
 This is a list of recently accessed folders. You can control how many folders appear in this
 list by going to the :guilabel:`File` tab of the user :guilabel:`Preferences`,
@@ -84,7 +84,7 @@ in the box labeled :guilabel:`Recent Files`.
 
 
 Open Options
-------------
+============
 
 Inside each .blend file, Blender saves the user interface - the screen layouts. By default,
 this saved UI is loaded, overriding any user defaults or current screen layouts that you have.
@@ -94,7 +94,7 @@ and then open the file.
 
 
 The Header Panel
-----------------
+================
 
 The Header contains several tools for navigation files.
 The four arrow icons allow you to:
@@ -139,7 +139,7 @@ and toggle which types are shown:
 
 
 Other File Open Options
------------------------
+=======================
 
 From the :guilabel:`File` menu, you can also open files with the following tools:
 
@@ -152,7 +152,7 @@ From the :guilabel:`File` menu, you can also open files with the following tools
 
 
 Security
---------
+========
 
 Blender is aimed at production level use and relies heavily on Python,
 a powerful scripting language. Python can be used in Blender to create new tools,
@@ -178,7 +178,7 @@ so that they will be run when such a .blend file is opened.
 
 
 Protection
-~~~~~~~~~~
+----------
 
 .. figure:: /images/Manual-Introduction-Security-trusted-source.jpg
 

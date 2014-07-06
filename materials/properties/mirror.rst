@@ -1,6 +1,6 @@
 
 Mirror Reflections
-==================
+******************
 
 Mirror reflections are computed in the Blender Render and Cycles render engines using ray
 tracing. (NB: Reflections are not available in the Game Engine.)
@@ -37,7 +37,7 @@ will be tinted the color set in the swatch.
 
 
 Options
-~~~~~~~
+-------
 
 .. figure:: /images/Manual-2.5-Material-MirrorPanel.jpg
 
@@ -123,10 +123,10 @@ Color swatch
 
 
 Examples
-~~~~~~~~
+--------
 
 Fresnel
-_______
+^^^^^^^
 
 .. figure:: /images/Manual-2.5-Material-MirrorFresnel-Example.jpg
 

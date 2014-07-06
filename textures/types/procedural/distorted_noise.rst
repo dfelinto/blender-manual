@@ -1,6 +1,6 @@
 
 Procedural textures: Distorted Noise
-====================================
+************************************
 
 .. figure:: /images/25-Manual-Textures-Procedural-DistNoise.jpg
    :width: 307px
@@ -18,7 +18,7 @@ Procedural textures: Distorted Noise
 
 
 Options
--------
+=======
 
 :guilabel:`Noise Distortion`
    The texture to use to distort another

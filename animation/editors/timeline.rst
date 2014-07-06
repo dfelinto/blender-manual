@@ -3,7 +3,7 @@
 
 
 The Timeline
-============
+************
 
 The *Timeline* window, identified by a clock icon,
 is shown by default at the bottom of the screen.
@@ -29,10 +29,10 @@ It also has some tools for *Keyframes*, *Keying Sets*, and *Markers*.
 
 
 Timeline Elements
-=================
+*****************
 
 Time Cursor
------------
+===========
 
 .. figure:: /images/K_Doc_Timeline_Cursor.jpg
 
@@ -53,7 +53,7 @@ The *Time Cursor* can be moved in steps by pressing :kbd:`Arrow Left` or
 
 
 Keyframes
----------
+=========
 
 For the active and selected objects, keyframes are displayed as a yellow line.
 
@@ -65,7 +65,7 @@ and the keyframes for the active and selected pose bones.
 
 
 Markers
--------
+=======
 
 Markers are the small triangles, with their name near them.
 
@@ -85,10 +85,10 @@ See :doc:`Marker Menu <animation/editors/timeline#marker_menu>` below or :doc:`M
 
 
 Adjusting the View
-==================
+******************
 
 Timeline Area
--------------
+=============
 
 The main *Timeline* area displays the animation frames over time.
 
@@ -114,10 +114,10 @@ The *Playback Range* can also be set by pressing :kbd:`P` then drawing a box.
 
 
 Timeline Header
-===============
+***************
 
 View Menu
----------
+=========
 
 The *View Menu* controls what you see, and what it looks like.
 
@@ -160,7 +160,7 @@ The *View Menu* controls what you see, and what it looks like.
 
 
 Marker Menu
------------
+===========
 
 Jump to Previous Marker
 
@@ -186,7 +186,7 @@ Add Marker
 
 
 Frame Menu
-----------
+==========
 
 *Auto-Keyframing Mode*
    This controls how the Auto Keyframe mode works.
@@ -200,7 +200,7 @@ Frame Menu
 
 
 Playback Menu
--------------
+=============
 
 - *Audio Scrubbing*
   If your animation has sound,
@@ -238,7 +238,7 @@ Playback Menu
 
 
 Header Controls
----------------
+===============
 
 The Timeline header controls.
 
@@ -251,7 +251,7 @@ The Timeline header controls.
 
 
 '''I''' Range Control
-_____________________
+^^^^^^^^^^^^^^^^^^^^^
 
    Use Preview Range
       This is an alternative range used to preview animations.
@@ -262,7 +262,7 @@ _____________________
 
 
 '''II''' Frame Control
-______________________
+^^^^^^^^^^^^^^^^^^^^^^
 
    Start Frame
       The start frame of the animation / playback range.
@@ -276,7 +276,7 @@ ______________________
 
 
 '''III''' Player Control
-________________________
+^^^^^^^^^^^^^^^^^^^^^^^^
 
    These button are used to set, play, rewind, the *Time Cursor*.
 
@@ -311,7 +311,7 @@ ________________________
 
 
 '''IV''' Synchronize Playback
-_____________________________
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: /images/Doc_Animation_Red_FPS.jpg
 
@@ -335,7 +335,7 @@ _____________________________
 
 
 '''V''' Keyframe Control
-________________________
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: /images/Doc_kia_Cube03.jpg
 
@@ -394,7 +394,7 @@ ________________________
 
 
 User Preferences
-================
+****************
 
 Some related user preferences from the **Editing** tab.
 

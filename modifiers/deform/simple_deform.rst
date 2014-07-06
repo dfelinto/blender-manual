@@ -1,6 +1,6 @@
 
 Simple Deform Modifier
-======================
+**********************
 
 .. admonition:: Reference
    :class: refbox
@@ -10,7 +10,7 @@ Simple Deform Modifier
 
 
 Description
------------
+===========
 
 .. figure:: /images/25-Manual-Modifiers-Simpledeform.jpg
 
@@ -33,7 +33,7 @@ allowing application of very different effects.
 
 
 Options
--------
+=======
 
 :guilabel:`Mode`
    This drop-down list defines the deform function applied, among four available:

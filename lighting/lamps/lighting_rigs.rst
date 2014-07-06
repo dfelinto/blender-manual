@@ -1,6 +1,6 @@
 
 Lighting Rigs
-=============
+*************
 
 A rig is a standard setup and combination of objects; there can be lighting rigs,
 or armature rigs, etc.
@@ -24,7 +24,7 @@ Anyway, enough about camera angles; this is about lighting.
 
 
 Environment or Ambient Only
----------------------------
+===========================
 
 .. figure:: /images/27x-Manual-Lighting-Rigs-EL.jpg
    :width: 300px
@@ -50,7 +50,7 @@ Ambient light illuminates, in a perfectly balanced, shadeless way, without casti
 
 
 Single Rig
-----------
+==========
 
 .. figure:: /images/27x-Manual-Lighting-Rigs-01.jpg
    :width: 300px
@@ -91,7 +91,7 @@ Do not use this rig for big open spaces or to show all aspects of a model.
 
 
 Two-Point Rig
--------------
+=============
 
 .. figure:: /images/27x-Manual-Lighting-Rigs-02.jpg
    :width: 300px
@@ -127,7 +127,7 @@ as if the subject is caught in the crossfire.
 
 
 Three-Point Rigs
-----------------
+================
 
 The standard three-point lighting rig is the most common illumination of objects and scenes
 bar none. If you want to show off your model, use this rig. As you can see,
@@ -139,7 +139,7 @@ There are multiple thesis on this rig, and you will use one of two:
 
 
 Studio rig
-~~~~~~~~~~
+----------
 
 .. figure:: /images/27x-Manual-Lighting-Rigs-03a-Studio.jpg
    :width: 300px
@@ -177,7 +177,7 @@ you may have to pull the sidelights back to be more positioned like the two-poin
 
 
 Standard Rig
-~~~~~~~~~~~~
+------------
 
 .. figure:: /images/27x-Manual-Lighting-Rigs-03b-Standart.jpg
    :width: 300px
@@ -211,7 +211,7 @@ others, while making sure all three work together as a team.
 
 
 Four-point Rig
---------------
+==============
 
 .. figure:: /images/27x-Manual-Lighting-Rigs-04.jpg
    :width: 300px
@@ -248,7 +248,7 @@ It evens out the lighting of the face.
 
 
 Troubleshooting
----------------
+===============
 
 If you run into a problem with your render, where there are really bright areas,
 or really dark ones, or strange shadows, or lines on your objects,

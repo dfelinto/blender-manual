@@ -3,13 +3,13 @@
 
 
 Color Management
-================
+****************
 
 `OpenColorIO <http://opencolorio.org/>`__ is now integrated into Blender, along with a redesign of the color management system. Previously Blender only supported two color spaces, linear and sRGB; now many more are supported, with finer control over which color transformations should be used.
 
 
 Scene Linear Color Space
-------------------------
+========================
 
 For correct results, different color spaces are needed for rendering,
 display and storage of images.
@@ -34,12 +34,12 @@ so we have to take care to do the right conversion into and out of this linear c
 
 
 Scene Settings
---------------
+==============
 
 These settings are found in the scene tab, under the :guilabel:`Color Management` panel.
 
 Display
-~~~~~~~
+-------
 
 Correct display of renders requires a **conversion to the display device color space**,
 which can be configured here.
@@ -62,7 +62,7 @@ The scene properties have these settings:
 
 
 Render
-~~~~~~
+------
 
 Besides this, there is also an **artistic choice** to be made for renders. Partially that's
 because display devices can't display the full spectrum of colors and only have limited
@@ -105,7 +105,7 @@ Such settings would be only used temporarily and not get used for final renders.
 
 
 Sequencer
-~~~~~~~~~
+---------
 
 :guilabel:`Sequencer Color Space`
    The color space that the sequencer operates in. By default the sequencer operates in sRGB space like it did in previous versions, but it can also be set to work in Linear space like the Compositing nodes, or another color space. Different color spaces will give different results for color correction, cross fades, and other operations.
@@ -119,7 +119,7 @@ Sequencer
 
 
 Image Files
------------
+===========
 
 The other place to keep color management in mind is when **loading and saving image files**.
 File formats such as PNG or JPEG will typically store colors in a color space ready for
@@ -165,7 +165,7 @@ with these two settings:
 
 
 World Settings
---------------
+==============
 
 Settings in the :guilabel:`World` panel give you two additional controls for exposure,
 however, these bake the exposure effects into the rendered image,
@@ -176,7 +176,7 @@ See :doc:`Exposure <lighting/exposure>`, for details.
 
 
 OpenColorIO Configuration
--------------------------
+=========================
 
 Blender comes with a standard OpenColorIO configuration that contains a number of useful
 display devices and view transforms.
@@ -211,7 +211,7 @@ though it may need a few more tweaks to be usable in production.
 
 
 Compatibility
--------------
+=============
 
 Compatibility with existing files should mostly be preserved.
 Files that had color management enabled should be entirely compatible, while older files with
@@ -220,7 +220,7 @@ viewport colors.
 
 
 See Also
---------
+========
 
 - `Developer Documentation <http://wiki.blender.org/index.php/User:Nazg-gul/ColorManagement>`__
 - `User:Sobotka/Color_Management <http://wiki.blender.org/index.php/User:Sobotka/Color_Management>`__

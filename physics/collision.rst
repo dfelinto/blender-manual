@@ -1,6 +1,6 @@
 
 Collisions
-==========
+**********
 
 :doc:`Particles <physics/particles>`, :doc:`Soft Bodies <physics/soft_body>` and :doc:`Cloth objects <physics/cloth>` may collide with mesh objects. :doc:`Boids <physics/particles/physics/boids>` try to avoid :guilabel:`Collision` objects.
 
@@ -24,7 +24,7 @@ selected`.
 
 
 Options
-=======
+*******
 
 .. figure:: /images/Blender3D_2.58_CollisionPanel-2.49.jpg
 
@@ -57,7 +57,7 @@ Options
 
 
 Soft Body and Cloth Interaction
--------------------------------
+===============================
 
 :guilabel:`Outer`
    Size of the outer collision zone.
@@ -75,7 +75,7 @@ the soft body will penetrate the mesh. See also the section about :doc:`Soft Bod
 
 
 Force Field Interaction
------------------------
+=======================
 
 :guilabel:`Absorption`
    A deflector can also deflect effectors. You can specify some collision/deflector objects which deflect a specific
@@ -85,7 +85,7 @@ Force Field Interaction
 
 
 Examples
---------
+========
 
 .. figure:: /images/UM_PART_XIII_KST_PI10.jpg
 
@@ -97,7 +97,7 @@ and deflected by a mesh cube:
 
 
 Hints
------
+=====
 
 - Make sure that the normals of the mesh surface are facing towards the particles/points for correct deflection.
 - :guilabel:`Hair` particles react directly to force fields, so if you use a force field with a short range you don't need necessarily collision.

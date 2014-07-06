@@ -1,6 +1,6 @@
 
 Display
-=======
+*******
 
 The :guilabel:`Display` tab at the :guilabel:`Render` context of the :guilabel:`Properties`
 Window, let the game developer specify the maximum frame rate of the animations shown during
@@ -11,7 +11,7 @@ style of the game to fit the window with the specified resolution.
 
 
 Options
--------
+=======
 
 .. figure:: /images/(Doc_26x_Manual_Game_Engine_Performance_Display)_(Display_Tab_BGE_Render_Context)_(GBAFN).jpg
 

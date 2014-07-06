@@ -1,10 +1,10 @@
 ..    TODO/Review: {{review}} .
 
 Smoke Material
-==============
+**************
 
 Create the Material
--------------------
+===================
 
 Simulating the smoke is easy, however rendering it is not.
 
@@ -42,7 +42,7 @@ The first issue can easily be fixed by working on the material and texture of th
 
 
 Add the Texture
----------------
+===============
 
 In addition, Smoke requires its own texture. Blender 2.5 has a new texture just for rendering smoke called :doc:`Voxel Data <textures/types/volume>`. You must remember to set the domain object and change the influence.
 
@@ -95,7 +95,7 @@ by turning "Emmision Color" back on.
 
 
 Extending the Smoke Simulator: Fire!
-------------------------------------
+====================================
 
 You can also turn your smoke into fire with another texture! To make fire,
 turn up the Emmision Value in the Materials panel.

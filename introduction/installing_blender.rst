@@ -1,6 +1,6 @@
 
 Installing the Binaries
-=======================
+***********************
 
 **Blender
 FIXME(Template Unsupported: Blender/Current version;
@@ -20,7 +20,7 @@ those using the book should instead retrieve Blender from the CD-ROM.
 
 
 Downloading and installing the binary distribution
---------------------------------------------------
+==================================================
 
 Binary distributions are provided for the following operating system families:
 
@@ -51,7 +51,7 @@ You must have administrator authorization to create these. The folders are:
 
 
 Hardware Support
-================
+****************
 
 Blender supports 64-bit hardware platforms, removing the 2GB addressable memory limit.
 
@@ -69,7 +69,7 @@ Information on how to make render times shorter can be found in the :doc:`Render
 
 
 Developers platforms
---------------------
+====================
 
 FIXME(Template Unsupported: Dev:Ref/Supported_platforms;
 {{Dev:Ref/Supported_platforms}}
@@ -77,7 +77,7 @@ FIXME(Template Unsupported: Dev:Ref/Supported_platforms;
 
 
 Compiling the Source
-====================
+********************
 
 There are presently four build systems for making a binary for the different supported
 operating systems.

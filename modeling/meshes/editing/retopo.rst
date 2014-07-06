@@ -3,7 +3,7 @@
 
 
 Retopologizing
-==============
+**************
 
 .. admonition:: Note
    :class: note
@@ -18,7 +18,7 @@ Modelers can create a new lower resolution mesh that matches the form of the ori
 
 
 Mesh Snapping
--------------
+=============
 
 By enabling snapping, and setting the snap element to Face,
 mesh vertices will be projected onto the closest surface in the viewport,
@@ -30,7 +30,7 @@ See :doc:`Snapping <3d_interaction/transform_control/snap_to_mesh>`
 
 
 Shrinkwrap Modifier
--------------------
+===================
 
 The :doc:`Shrinkwrap Modifier <modifiers/deform/shrinkwrap>` is useful in conjunction with face snapping. If edits to the new mesh have been made with snapping disabled, the shrinkwrap modifier will allow you to stick the new mesh to the old mesh, as if you were shrinkwrapping it.
 

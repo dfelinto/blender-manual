@@ -1,6 +1,6 @@
 
 Procedural textures: Stucci
-===========================
+***************************
 
 .. figure:: /images/25-Manual-Textures-Procedural-Stucci.jpg
    :width: 307px
@@ -18,7 +18,7 @@ The :guilabel:`Stucci` texture is based on noise functions.
 
 
 Options
--------
+=======
 
 :guilabel:`Plastic` / :guilabel:`Wall In` / :guilabel:`Wall out`
    Plastic is the standard Stucci, whilst the "walls" is where Stucci gets it name. This is a typical wall structure with holes or bumps.

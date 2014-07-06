@@ -1,6 +1,6 @@
 
 Motion Blur
-===========
+***********
 
 Blender's animations are by default rendered as a sequence of *perfectly still* images.
 This is unrealistic, since fast-moving objects do appear to be 'moving', that is,
@@ -13,7 +13,7 @@ and merge them all together to obtain an image where fast-moving details are 'bl
 
 
 The Human Eye
--------------
+=============
 
 Our brains process about 15 images from each eye in parallel each second.
 My brain cognates those images together and I perceive motion by comparing the two.
@@ -24,7 +24,7 @@ The POINT IS, I *perceive* a motion blur.
 
 
 In Film
--------
+=======
 
 To keep us from seeing jumpy motion pictures,
 we simply doubled the frame rate to 30 frames per second (fps) (24 fps EU). So, the shutter is
@@ -36,7 +36,7 @@ I *see* a blurred image.
 
 
 In CG
------
+=====
 
 In CG, when a frame is rendered, the computer knows exactly where everything should be,
 and renders it as such. From frame to frame, an object is location A in frame 1,
@@ -46,13 +46,13 @@ there isn't that same blurring as in the real world and film, and we can tell.
 
 
 Motion Blur in Blender
-======================
+**********************
 
 So, how can we make a blurry CG image? Blender has two ways to achieve Motion Blur:
 
 
 Sampled Motion Blur
--------------------
+===================
 
 This method is slow, but produces better results.
 It can be activated in the motion blur section in the render options panel.
@@ -65,13 +65,13 @@ It can be activated in the motion blur section in the render options panel.
 
 
 Vector Blur
------------
+===========
 
 :doc:`Vector Blur <omposite_nodes/vector_blur#vector-based_motion_blur>` is faster but sometimes has unwanted side-effects - which can be avoided, though. Vector blur is a process done in compositing, by rendering the scene without any blur, plus a pass that has movement information for each pixel. This information is a vector map which describes a 2d or 3d direction and magnitude. The compositor uses that data to blur each pixel in the given direction.
 
 
 Examples
-========
+********
 
 To better grasp the concept, let's assume that we have a cube,
 uniformly moving 1 Blender unit to the right at each frame. This is indeed fast,
@@ -112,7 +112,7 @@ a Motion Blur render takes that many times more time than a non-Motion Blur one.
 
 
 Hints
-=====
+*****
 
 If Motion Blur is active, even if nothing is moving in the scene,
 Blender actually 'jitters' the camera a little between an 'intermediate' frame and the next.

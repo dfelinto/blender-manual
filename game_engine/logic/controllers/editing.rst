@@ -1,6 +1,6 @@
 
 Controller Editing
-==================
+******************
 
 .. figure:: /images/BGE_Controller_Column.jpg
    :width: 292px
@@ -20,7 +20,7 @@ and buttons to control which of all the controllers in the current Game Logic ar
 
 
 Column Heading
---------------
+==============
 
 .. figure:: /images/BGE_Controller_Column1.jpg
    :width: 292px
@@ -58,7 +58,7 @@ It is also possible to filter which controllers are viewed using the three headi
 
 
 Object Heading
---------------
+==============
 
 .. figure:: /images/BGE_Controller_Column2.jpg
    :width: 292px

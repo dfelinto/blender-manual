@@ -1,6 +1,6 @@
 
 Random Actuator
-===============
+***************
 
 Sets a random value into a property of the object
 

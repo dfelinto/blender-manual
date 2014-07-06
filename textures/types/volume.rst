@@ -3,7 +3,7 @@
 
 
 Volume Textures
-===============
+***************
 
 Blender has two textures that can be applied to volumetric data:
 

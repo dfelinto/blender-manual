@@ -1,6 +1,6 @@
 
 Proportional Edit
-=================
+*****************
 
 Proportional Edit is a way of transforming selected elements (such as vertices)
 while having that transformation affect other nearby elements. For example, having the
@@ -18,7 +18,7 @@ it is very useful when you need to smoothly deform the surface of a dense mesh.
 
 
 Object mode
------------
+===========
 
 .. admonition:: Reference
    :class: refbox
@@ -44,7 +44,7 @@ the other two cubes follow the movement.
 
 
 Edit mode
----------
+=========
 
 .. admonition:: Reference
    :class: refbox
@@ -70,7 +70,7 @@ This is done by the tool's automatic modification of unselected vertices within 
 
 
 Influence
-~~~~~~~~~
+---------
 
 You can increase or decrease the radius of the proportional editing influence with the mouse
 wheel :kbd:`wheelup` / :kbd:`wheeldown` or :kbd:`pgup` / :kbd:`pgdown`
@@ -84,7 +84,7 @@ the points surrounding your selection will adjust their positions accordingly.
 
 
 Options
-~~~~~~~
+-------
 
 .. figure:: /images/3D-interaction_Transform-Control_Proportional-Edit-proportional-edit-tool.jpg
    :width: 200px
@@ -160,7 +160,7 @@ The :guilabel:`Proportional Editing` mode menu is on the :guilabel:`3D View` hea
 
 
 Examples
-~~~~~~~~
+--------
 
 Switch to a front view (:kbd:`pad1`) and activate the grab tool with :kbd:`g`.
 As you drag the point upwards, notice how nearby vertices are dragged along with it.

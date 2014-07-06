@@ -1,13 +1,13 @@
 
 Nodes
-=====
+*****
 
 Materials, lights and backgrounds are all defined using a network of shading nodes.
 These nodes output values, vectors, colors and shaders.
 
 
 [[/Shaders|'''Shaders''']]
---------------------------
+==========================
 
 An important concept to understand when building node setups is that of the **shader
 socket**. The output of all surface and volume shaders is a shader,
@@ -30,7 +30,7 @@ for direct lighting or global illumination.
 
 
 [[/Textures|'''Textures''']]
-----------------------------
+============================
 
 Each texture type in Cycles corresponds to a node,
 with a texture coordinate and various parameters as input, and a color or value as output.
@@ -47,13 +47,13 @@ and these can be edited in the texture properties.
 
 
 [[/More|'''More''']]
---------------------
+====================
 
 Nodes for geometric data, texture coordinates,
 layering shaders and non-physically based tricks.
 
 
 [[/OSL|'''Open Shading Language''']]
-------------------------------------
+====================================
 
 Custom nodes can be written using the Open Shading Language.

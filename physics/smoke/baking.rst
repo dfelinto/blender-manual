@@ -1,7 +1,7 @@
 ..    TODO/Review: {{review}} .
 
 Baking Smoke Simulations
-========================
+************************
 
 If you want to render an animation, you need to bake your smoke first.
 Baking is simply calculating a simulation. To bake the smoke, the file must be saved.

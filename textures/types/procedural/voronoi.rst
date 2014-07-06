@@ -1,6 +1,6 @@
 
 Procedural textures: Voronoi
-============================
+****************************
 
 .. figure:: /images/25-Manual-Textures-Procedural-Voronoi.jpg
    :width: 307px
@@ -16,7 +16,7 @@ Procedural textures: Voronoi
 
 
 Options
--------
+=======
 
 Distance Metric
    This procedural texture has seven Distance Metric options. These determine the algorithm to find the distance between cells of the texture. These options are:
@@ -63,7 +63,7 @@ Distance Metric
 
 
 Technical Details
------------------
+=================
 
 For a more in depth description of the Worley algorithm, see:
 `Worley Documentation <http://www.ypoart.com/Downloads/Worley.htm>`__\ (dead link).

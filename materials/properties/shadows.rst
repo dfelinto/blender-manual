@@ -1,6 +1,6 @@
 
 Shadows
-=======
+*******
 
 The shadows that appear in a scene are affected by a combination of the layout of objects, the shape of the objects,  the materials of the objects, and the lighting. In Blender, the Display Mode (Single Texture, Multitexture,or GLSL) also affects the appearance of shadows. See :doc:`lighting/shadows` for a more complete description of this subject.
 
@@ -27,7 +27,7 @@ The various properties are described in the sections below.
 
 
 Options
--------
+=======
 
 The following properties can be set for each individual material with which objects in the
 scene are shaded. The effects are illustrated with rendered images for a simple scene (Fig. 2)
@@ -37,7 +37,7 @@ The illustrations were all taken in Blender Render engine, with Multitexture mod
 
 
 Shadow Receiving Object Material
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------
 
 The following options affect the material that receives shadows:
 
@@ -60,7 +60,7 @@ The following options affect the material that receives shadows:
 
 
 Shadow Casting Object Material
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------
 
 The following options affect the material that casts shadows:
 
@@ -89,7 +89,7 @@ The following options affect the material that casts shadows:
 
 
 Buffered Shadow Options
-~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------
 
 In addition to the shadow options described above, there are further material properties which control buffered shadow features. See section on :doc:`Spot Buffered Shadows <lighting/lamps/spot/buffered_shadows>` for further discussion of these techniques.
 

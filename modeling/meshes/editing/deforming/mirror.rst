@@ -2,7 +2,7 @@
 ..    TODO/Review: {{review|}} .
 
 Mirror
-======
+******
 
 .. admonition:: Reference
    :class: refbox
@@ -24,7 +24,7 @@ the direction of the desired mirror direction.
 
 
 Axis of symmetry
-----------------
+================
 
 For each transformation orientation,
 you can choose one of its axes along which the mirroring will occur.
@@ -35,7 +35,7 @@ choose one transformation orientation and then one axis on it.
 
 
 Pivot point
------------
+===========
 
 :doc:`Pivot points <3d_interaction/transform_control/pivot_point>` must be set first. Pivot points will become the center of symmetry. If the widget is turned on it will always show where the pivot point is.
 
@@ -78,6 +78,6 @@ and the axis of transformation is X.
 
 
 Transformation orientation
---------------------------
+==========================
 
 :doc:`Transformation Orientations <3d_interaction/transform_control/transform_orientations>` are found on the 3D area header, next to the :guilabel:`Widget` buttons. They decide which coordinate system will rule the mirroring.

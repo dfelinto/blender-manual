@@ -2,7 +2,7 @@
 ..    TODO/Review: {{review|}} .
 
 The Constraints Stack
-=====================
+*********************
 
 .. figure:: /images/25-Manual-Constraints-Example-Stack.jpg
    :width: 200px
@@ -31,7 +31,7 @@ both buttons are hidden.
 
 
 Adding/Removing a Constraint
-----------------------------
+============================
 
 To add a constraint, you can, in the :guilabel:`Constraints` panel,
 click on the... :guilabel:`Add Constraint` button! A menu shows up,

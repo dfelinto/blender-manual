@@ -1,9 +1,9 @@
 
 Light Attenuation
-=================
+*****************
 
 Description
------------
+===========
 
 .. figure:: /images/25-Manual-Lighting-Falloff-hilite.jpg
    :width: 312px
@@ -19,10 +19,10 @@ There are two main controls for light falloff for :guilabel:`Point` and :guilabe
 
 
 Falloff types
--------------
+=============
 
 Lin/Quad Weighted
-~~~~~~~~~~~~~~~~~
+-----------------
 
 .. figure:: /images/25-Manual-Lighting-Falloff-linquad.jpg
    :width: 308px
@@ -40,7 +40,7 @@ This lamp falloff type is in effect allowing the mixing of the two light attenua
 
 
 Linear
-______
+^^^^^^
 
 This slider input field can have a value between **0.0** and **1.0**.
 A value of **1.0** in the :guilabel:`Linear` field and **0.0** in the
@@ -64,7 +64,7 @@ Where
 
 
 Quadratic
-_________
+^^^^^^^^^
 
 .. figure:: /images/Manual_-_Light_-_Example_-_Default_Lin-Quad_Weighted.jpg
    :width: 250px
@@ -104,7 +104,7 @@ Where
 
 
 Mixing "Linear" and "Quad"
-__________________________
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If both the :guilabel:`Linear` and :guilabel:`Quad` slider fields have values greater than
 **0.0**, then the formula used to calculate the light attenuation profile changes to this:
@@ -122,7 +122,7 @@ Where
 
 
 Zeroing both "Linear" and "Quad"
-________________________________
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If both the :guilabel:`Linear` and :guilabel:`Quadratic` sliders have **0.0** as their
 values, the light intensity will not attenuate with distance.
@@ -142,7 +142,7 @@ as shown by the equation above.
 
 
 Graphical Summary
-_________________
+^^^^^^^^^^^^^^^^^
 
 Below is a graph summarizing the lin/quad attenuation type,
 showing attenuation with or without the :guilabel:`Sphere` option (described later).
@@ -154,7 +154,7 @@ showing attenuation with or without the :guilabel:`Sphere` option (described lat
 
 
 Custom Curve
-~~~~~~~~~~~~
+------------
 
 The :guilabel:`Custom Curve` lamp :guilabel:`Falloff` type is very flexible.
 
@@ -231,7 +231,7 @@ along with its resultant render output:
 
 
 Inverse Square
-~~~~~~~~~~~~~~
+--------------
 
 .. figure:: /images/Manual_-_Light_-_Example_-_Inverse_Square.jpg
    :width: 300px
@@ -249,7 +249,7 @@ to **1.0**), with slight changes.
 
 
 Inverse Linear
-~~~~~~~~~~~~~~
+--------------
 
 .. figure:: /images/Manual_-_Light_-_Example_-_Inverse_Linear.jpg
    :width: 300px
@@ -267,7 +267,7 @@ but can be easier to light with.
 
 
 Constant
-~~~~~~~~
+--------
 
 .. figure:: /images/Manual_-_Light_-_Example_-_Constant.jpg
    :width: 300px
@@ -283,7 +283,7 @@ which are so far away that their falloff isn't noticeable.
 
 
 Sphere
-------
+======
 
 .. figure:: /images/25-Manual-Lighting-Falloff-PointSphere.jpg
    :width: 300px
@@ -326,10 +326,10 @@ option.
 
 
 Examples
---------
+========
 
 Distance
-~~~~~~~~
+--------
 
 In this example, the :guilabel:`Lamp` has been set pretty close to the group of planes.
 This causes the light to affect the front, middle and rear planes more dramatically.
@@ -371,7 +371,7 @@ you would begin to approach the characteristics of the :guilabel:`Sun` lamp type
 
 
 Inverse Square
-~~~~~~~~~~~~~~
+--------------
 
 :guilabel:`Inverse Square` makes the light's intensity falloff with a non-linear rate, or specifically, a quadratic rate. The characteristic feature of using :guilabel:`Inverse Square` is that the light's intensity begins to fall off very slowly but then starts falling off very rapidly. We can see this in the (:guilabel:`Inverse Square` *selected*) images.
 
@@ -407,7 +407,7 @@ intensity and the angle between the light source and the surface's normal.
 
 
 Sphere
-~~~~~~
+------
 
 .. figure:: /images/Manual-Part-V-LampRender-SphereView.jpg
 
@@ -450,7 +450,7 @@ because the intensity has fallen to nearly **0**.
 
 
 Hints
------
+=====
 
 If a :guilabel:`Lamp` light is set to not cast shadows,
 it illuminates through walls and the like.

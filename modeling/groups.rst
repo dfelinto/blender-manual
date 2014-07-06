@@ -3,7 +3,7 @@
 
 
 Group Instances
-===============
+***************
 
 Groups are covered fully here: :doc:`Grouping and Parenting <modeling/objects/groups_and_parenting>`.
 
@@ -24,7 +24,7 @@ So you have all the editing options of objects (you can move/scale/rotate them, 
 
 
 Visualization
--------------
+=============
 
 Group "proxies" are drawn in black (unless :guilabel:`Solid` or :guilabel:`Shaded` draw mode,
 of course). The selection of "real" members of the group is reflected in their "proxies".

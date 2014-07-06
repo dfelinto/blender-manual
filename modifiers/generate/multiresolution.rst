@@ -3,7 +3,7 @@
 
 
 Multiresolution Modifier
-========================
+************************
 
 .. admonition:: Reference
    :class: refbox
@@ -27,7 +27,7 @@ Sculpt Mode or a Blender Render.
 
 
 Options
--------
+=======
 
 :guilabel:`Catmull-Clark` / :guilabel:`Simple`
    Set the type of subdivision. :guilabel:`Simple` maintains the current shape, and simply subdivides edges. :guilabel:`Catmull-Clark` creates a smooth surface, smaller than the original.

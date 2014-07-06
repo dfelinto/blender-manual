@@ -1,6 +1,6 @@
 
 Alpha
-=====
+*****
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Alpha.jpg
    :width: 300px
@@ -16,7 +16,7 @@ In this tab you control the alpha (transparency) of your strokes.
 
 
 Modifiers
----------
+=========
 
 There are four alpha modifiers available, which can be mixed with the base alpha using a subset of the usual methods (see for example the :doc:`Mix compositing node <composite_nodes/types/color#mix_node>` for further discussion of this topic). As with other modifier stacks in Blender, they are applied from top to bottom.
 
@@ -25,7 +25,7 @@ There are four alpha modifiers available, which can be mixed with the base alpha
 
 
 Along Stroke
-~~~~~~~~~~~~
+------------
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Alpha_Along_Stroke.jpg
    :width: 300px
@@ -43,7 +43,7 @@ it applies the selected progression along each stroke.
 
 
 Distance from Camera
-~~~~~~~~~~~~~~~~~~~~
+--------------------
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Alpha_Distance_From_Camera.jpg
    :width: 300px
@@ -66,7 +66,7 @@ a linear progression or a custom curve, using the distance to the active camera 
 
 
 Distance from Object
-~~~~~~~~~~~~~~~~~~~~
+--------------------
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Alpha_Distance_From_Object.jpg
    :width: 300px
@@ -92,7 +92,7 @@ a linear progression or a custom curve, using the distance to a given object as 
 
 
 Material
-~~~~~~~~
+--------
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Alpha_Material.jpg
    :width: 300px

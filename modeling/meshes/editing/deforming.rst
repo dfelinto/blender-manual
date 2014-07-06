@@ -2,10 +2,10 @@
 ..    TODO/Review: {{review|text=move?}} .
 
 Deforming Geometry
-==================
+******************
 
 Push/Pull
----------
+=========
 
 Similar to shrink/flatten, this transformation consists of translating all selected elements
 along the line joining their original position to the Average position of the points.
@@ -63,7 +63,7 @@ then move the cursor or enter the value of the angle the mesh should be warped t
 
 
 Example
-~~~~~~~
+-------
 
 A cylinder is warped into a semicircular shape
 
@@ -94,7 +94,7 @@ A cylinder is warped into a semicircular shape
 
 
 Shear
------
+=====
 
 .. admonition:: Reference
    :class: refbox
@@ -143,7 +143,7 @@ press the :kbd:`lmb`.
 
 
 To Sphere
----------
+=========
 
 .. admonition:: Reference
    :class: refbox
@@ -166,7 +166,7 @@ or type in a value from 0 to 1 to manually control it.
 
 
 Example
-~~~~~~~
+-------
 
 First, start with a :doc:`Cube <modeling/meshes/primitives#cube>`.
 

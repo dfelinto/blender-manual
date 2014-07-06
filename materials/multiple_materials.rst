@@ -5,7 +5,7 @@ FIXME(Tag Unsupported:div;
 
 
 Multiple Materials
-==================
+******************
 
 Normally,
 different colors or patterns on an object are achieved by adding textures to your materials.

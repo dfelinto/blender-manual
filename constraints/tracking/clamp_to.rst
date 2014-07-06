@@ -3,7 +3,7 @@
 
 
 Clamp To Constraint
-===================
+*******************
 
 The :guilabel:`Clamp To` constraint clamps an object to a curve. The :guilabel:`Clamp To` constraint is very similar
 to the :doc:`Follow Path <constraints/relationship/follow_path>` constraint,
@@ -43,7 +43,7 @@ However the 0.5 curve time position can actually be anywhere within the bounding
 
 
 Options
--------
+=======
 
 .. figure:: /images/25-Manual-Constraints-Tracking-ClampTo.jpg
    :width: 306px

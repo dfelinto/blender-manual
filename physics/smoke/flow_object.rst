@@ -2,10 +2,10 @@
 
 
 Smoke Flow object
-=================
+*****************
 
 Create a Flow Object
---------------------
+====================
 
 Once you have defined the volume that will contain smoke,
 we'll add an object from which the smoke will be emitted. Add another cube and make sure it's
@@ -48,7 +48,7 @@ Another way to preview the smoke is starting the animation by :kbd:`alt-A`
 
 
 Settings
---------
+========
 
 :guilabel:`Outflow`
    Delete smoke from simulation.

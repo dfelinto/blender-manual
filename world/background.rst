@@ -3,10 +3,10 @@
 
 
 World Background
-================
+****************
 
 Description
------------
+===========
 
 The world buttons let you set up the shading of your scene in general.
 It can provide ambient color, and special effects such as mist,
@@ -26,7 +26,7 @@ but a very common use of a :guilabel:`World` is to shade a background color.
 
 
 Options
-~~~~~~~
+-------
 
 .. figure:: /images/25-Manual-World-WorldSkyColor.jpg
    :width: 297px
@@ -61,7 +61,7 @@ How these colors are interpreted depends on which kind of :guilabel:`Sky` is cho
 
 
 Textures
---------
+========
 
 Instead of a color, or blend of two colors, Blender can use an 2D image which it maps to a
 very large Box or sphere which encompasses the entire scene,

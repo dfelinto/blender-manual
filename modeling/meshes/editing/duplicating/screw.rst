@@ -3,7 +3,7 @@
 
 
 Screw Tool
-==========
+**********
 
 .. admonition:: Reference
    :class: refbox
@@ -13,7 +13,7 @@ Screw Tool
 
 
 Introduction
-------------
+============
 
 The :guilabel:`Screw` Tool is one of the most used tools for generating continuous circular
 profiles in Blender since its ancient versions because the generated profiles are very
@@ -35,7 +35,7 @@ You can see some examples of Meshes generated with the :guilabel:`Screw` tool in
 
 
 Description
------------
+===========
 
 The :guilabel:`Screw` tool combines a repetitive :guilabel:`Spin` with a translation,
 to generate a screw-like, or spiral-shaped, object. Use this tool to create screws, springs,
@@ -49,7 +49,7 @@ as well as a closed circle or a half-cut sphere, which will also close the profi
 
 
 Usage
------
+=====
 
 - This tool works only with Meshes.
 - In :guilabel:`Edit Mode`, the button for the :guilabel:`Screw` tool operation is located in the :guilabel:`Mesh Tools` Panel, (shortcut :kbd:`T`) → Add → Screw Button.
@@ -62,7 +62,7 @@ Usage
 
 
 Limitations
------------
+===========
 
 There are strict conditions about your profile selection when you want to use this tool.
 You must have at least one open line or open profile,
@@ -116,7 +116,7 @@ will be closed automatically at their ends, like if you were extruding a region.
 
 
 Options
--------
+=======
 
 .. figure:: /images/(Doc_26x_Modeling_Mesh_Screw)_(Mesh_Tools_Panel_Screw_Tool)_(GBAFN).jpg
 
@@ -194,10 +194,10 @@ you can hit :kbd:`Ctrl-Z` at any time in :guilabel:`Edit Mode`.
 
 
 Examples
---------
+========
 
 The Spring example
-~~~~~~~~~~~~~~~~~~
+------------------
 
 .. figure:: /images/(Doc_26x_Modeling_Mesh_Screw)_(Screw_Circle_Moved_X_-3BU)_(GBAFN).jpg
 
@@ -234,7 +234,7 @@ Now we will create a height vector for Blender:
 
 
 Clockwise and Counterclockwise using the Spring Example
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------------------
 
 Still in the interactive session of the :guilabel:`Screw Tool`,
 you will see that the **Z** Axis Value of the :guilabel:`Screw` Panel is set to **1.000**.
@@ -284,7 +284,7 @@ Counterclockwise effect.
 
 
 Bending the Profiles using the Spring Example
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------------
 
 Still using the Spring Example, we can change the remaining vector for the angles that aren't
 related to the extrusion Axis of our Spring, thus bending our spring with the remaining
@@ -308,7 +308,7 @@ the Top Ortho View.
 
 
 Creating perfect Screw Spindles
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------
 
 Using the Spring Example, it's easy to create perfect Screw Spindles
 (like the ones present in normal screws that we can buy in hardware stores).
@@ -371,7 +371,7 @@ cylinder, modeling its head, etc.
 
 
 A Screw Tip
-~~~~~~~~~~~
+-----------
 
 As we have explained before,
 the :guilabel:`Screw` tool generates clean and simple meshes to deal with; they are light,
@@ -409,7 +409,7 @@ by the starting and ending Vertex of the profile.
 
 
 Screw Tool - Evolution since 2.5x
----------------------------------
+=================================
 
 During the recode of Blender, from 2.4x to 2.5x series,
 the screw tool received lots of improvements. In Blender 2.4x series,

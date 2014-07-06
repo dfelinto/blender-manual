@@ -2,7 +2,7 @@
 ..    TODO/Review: {{review|}} .
 
 Area Raytraced Shadows
-======================
+**********************
 
 .. figure:: /images/25-Manual-Lighting-Lamps-Area-AdapQMC.jpg
    :width: 300px
@@ -15,7 +15,7 @@ The :guilabel:`Area` light source can only cast ray-traced shadows. The ray-trac
 
 
 Shadow Samples
---------------
+==============
 
 :guilabel:`Samples`
    This have the same role as with other lamps, but when using a :guilabel:`Rectangle` :guilabel:`Area` lamp, you have two samples settings: :guilabel:`Samples X` and :guilabel:`Samples Y`, for the two axes of the area plane.
@@ -23,7 +23,7 @@ Shadow Samples
 
 
 Sample Generator Types
-----------------------
+======================
 
 :guilabel:`Adaptive QMC`;\ :guilabel:`Constant QMC`
    These common setting are described in :doc:`Shadow Properties <lighting/shadows/properties>`.
@@ -57,7 +57,7 @@ Sample Generator Types
 
 
 Technical Details
------------------
+=================
 
 .. figure:: /images/Manual-Part-V-AreaLightConcept.jpg
    :width: 250px
@@ -82,7 +82,7 @@ In case ``(a)``, the energy (``E``) is ``E/1``, and in case
 
 
 Hints
------
+=====
 
 You will note that changing the :guilabel:`Size` parameter of your area lamp doesn't affect
 the lighting intensity of your scene. On the other hand, rescaling the lamp using the

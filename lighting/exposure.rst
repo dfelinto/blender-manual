@@ -3,7 +3,7 @@
 
 
 Exposure and Range
-==================
+******************
 
 .. admonition:: Reference
    :class: refbox
@@ -13,7 +13,7 @@ Exposure and Range
 
 
 Description
------------
+===========
 
 :guilabel:`Exposure` and :guilabel:`Range` are similar to the "Color Curves" tool in Gimp or Photoshop.
 
@@ -28,7 +28,7 @@ Using an exponential correction formula, this now can be nicely corrected.
 
 
 Options
--------
+=======
 
 .. figure:: /images/Doc26-world-exposure.jpg
 
@@ -48,7 +48,7 @@ So without :guilabel:`Exposure` we will get a linear correction of all color val
 
 
 Examples
---------
+========
 
 With a linear correction every color value will get changed,
 which is probably not what we want. :guilabel:`Exposure` brightens the darker pixels,
@@ -72,7 +72,7 @@ so that the darker parts of the image won't be changed at all
 
 
 Hints
------
+=====
 
 Try to find the best :guilabel:`Range` value,
 so that overexposed parts are barely not too bright. Now turn up the :guilabel:`Exposure`

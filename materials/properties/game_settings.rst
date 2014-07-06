@@ -8,7 +8,7 @@ FIXME(TODO: Internal Link;
 
 
 Game Settings
-=============
+*************
 
 .. figure:: /images/Doc_2.6_Materials_Properties_Game_Settings.jpg
 

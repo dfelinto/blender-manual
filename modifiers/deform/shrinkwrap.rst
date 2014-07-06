@@ -3,7 +3,7 @@
 
 
 Shrinkwrap Modifier
-===================
+*******************
 
 .. admonition:: Reference
    :class: refbox
@@ -13,7 +13,7 @@ Shrinkwrap Modifier
 
 
 Description
------------
+===========
 
 The :guilabel:`Shrinkwrap` modifier allows an object to "shrink" to the surface of another
 object. It moves each vertex of the object being modified to the closest position on the
@@ -34,7 +34,7 @@ Something of a view-independent :doc:`retopo tool <modeling/meshes/editing/retop
 
 
 Options
--------
+=======
 
 :guilabel:`Target`
    Shrink target, the mesh to shrink/wrap around.

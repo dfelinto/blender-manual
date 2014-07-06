@@ -1,6 +1,6 @@
 
 Exterior Forces
-===============
+***************
 
 Exterior forces are applied to the vertices (and nearly exclusively to the vertices)
 of Soft Body objects. This is done using Newtons Laws of Physics:
@@ -14,7 +14,7 @@ there is always a little damping to avoid overshoot of the calculation.
 
 
 Example
--------
+=======
 
 We will begin with a very simple example - the default cube.
 
@@ -30,10 +30,10 @@ because every vertex moves with the same speed in the same direction.
 
 
 Settings
-========
+********
 
 Soft Body Panel
----------------
+===============
 
 :guilabel:`Friction`
    The friction of the surrounding medium. The larger the friction, the more viscous is the medium. Friction always appears when a vertex moves relative to it's surround medium.
@@ -49,7 +49,7 @@ Soft Body Panel
 
 
 Force Fields
-------------
+============
 
 To create other forces you have to use another object,
 often :guilabel:`Empty` objects are used for that.
@@ -67,7 +67,7 @@ See the section :doc:`Force Fields <physics/force_fields>` for details. The forc
 
 
 Aerodynamics
-------------
+============
 
 This special exterior force is not applied to the vertices but to the connecting edges.
 Technically, a force perpendicular to the edge is applied.
@@ -85,7 +85,7 @@ and an edge moving perpendicular to its own direction feels maximum force.
 
 
 Using a Goal
-------------
+============
 
 A goal is a shape that a soft body object tries to conform to.
 

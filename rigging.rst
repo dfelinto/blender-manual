@@ -1,6 +1,6 @@
 
 Introduction
-============
+************
 
 After completing your character, you need to manipulate it for animation or just for posing.
 Rigging is the process of attaching a skeleton to your character mesh object so you can deform
@@ -49,7 +49,7 @@ All these steps are explained in details below.
 
 
 [[Doc:2.6/Manual/Rigging/Armatures|Armatures]]
-----------------------------------------------
+==============================================
 
 Armatures are like the real-life skeletons;
 and provide the structure for a mesh for the purpose of posing or animation.
@@ -66,7 +66,7 @@ and provide the structure for a mesh for the purpose of posing or animation.
    Select only the section of your armature that matters to you.
 
 [[Doc:2.6/Manual/Rigging/Armatures/Editing|Editing]]
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------------------
 
 :doc:`Bones <rigging/armatures/editing/bones>`
    Learn how to practically edit bones in Blender and see what that causes.
@@ -77,7 +77,7 @@ and provide the structure for a mesh for the purpose of posing or animation.
 
 
 [[Doc:2.6/Manual/Rigging/Skinning|Skinning]]
---------------------------------------------
+============================================
 
 This section shows how to "flesh out" your character from a given armature.
 
@@ -96,7 +96,7 @@ around an armature.
 
 
 [[Doc:2.6/Manual/Rigging/Posing|Posing]]
-----------------------------------------
+========================================
 
 Posing means shaping and arranging the objects in your scene in a particular way to create an
 interesting composition. For example,

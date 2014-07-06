@@ -3,7 +3,7 @@
 
 
 Add-Ons
-=======
+*******
 
 :guilabel:`Add-On` is the general term for any optional script that extends Blender's functionality. They are found in the :guilabel:`Add-Ons` tab of the :guilabel:`User Preferences` window. This tab allows to install, enable and disable Add-Ons.
 Blender comes with some useful Add-Ons already, but you can also add your own, or any interesting ones you find on the web. The `Scripts Catalog <http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts>`__ provides an index of Add-Ons that are included with Blender as well as listing a number of external Add-Ons.
@@ -15,7 +15,7 @@ Blender comes with some useful Add-Ons already, but you can also add your own, o
 
 
 Installation of an Add-On
--------------------------
+=========================
 
 For a script to show up in the Add-Ons tab it will first have to be installed. For this you
 can use the :guilabel:`Install Add-On` button in the header of the Add-Ons window.
@@ -31,7 +31,7 @@ Addons can be python scripts **.py** or **.zip** files (containing **.py** scrip
 
 
 File locations
---------------
+==============
 
 - Windows 7 - ``C:\Users\%username%\AppData\Roaming\Blender Foundation\Blender\2.6x\scripts\addons``
 
@@ -60,7 +60,7 @@ see: :doc:`Configuration & Data Paths <introduction/installing_blender/directory
 
 
 Enabling and Disabling
-----------------------
+======================
 
 .. figure:: /images/Manual-Extensions-Python-Addons-EnabledAddOn.jpg
 
@@ -81,7 +81,7 @@ To disable the functionality again, uncheck the box. To get more information on 
 
 
 Development guidelines
-----------------------
+======================
 
 If you are a script developer, you may be interested in the
 FIXME(Link Type Unsupported: dev;

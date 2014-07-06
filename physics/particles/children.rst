@@ -1,6 +1,6 @@
 
 Children
-========
+********
 
 :guilabel:`Children` are :guilabel:`Hair` and :guilabel:`Keyed` particles assigned subparticles. They make it possible to work primarily with a relatively low amount of Parent particles, for whom the physics are calculated. The children are then aligned to their parents. Without recalculating the physics the number and visualization of the children can be changed.
 
@@ -15,7 +15,7 @@ only the settings for a :guilabel:`Hair` particle system.
 
 
 Settings
-========
+********
 
 :guilabel:`Simple`
    Children are emitted from the parent hairs.
@@ -43,7 +43,7 @@ Settings
 
 
 Effects
--------
+=======
 
 .. figure:: /images/Blender3D_ChildParticleRoundClump.jpg
 
@@ -67,7 +67,7 @@ Effects
 
 
 Roughness
----------
+=========
 
 :guilabel:`Uniform`,\ :guilabel:`Size`
    It is based on children location so it varies the paths in a similar way when the children are near.

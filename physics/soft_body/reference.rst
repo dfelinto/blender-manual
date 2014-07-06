@@ -3,7 +3,7 @@
 
 
 Soft Body settings
-==================
+******************
 
 :guilabel:`Soft Body`
    This creates the soft body modifier on the selected object
@@ -14,7 +14,7 @@ Soft Body settings
 
 
 Soft Body
----------
+=========
 
 :guilabel:`Friction`
    The friction of the surrounding medium. Generally friction dampens a movement.
@@ -30,7 +30,7 @@ Soft Body
 
 
 Soft Body Cache
----------------
+===============
 
 .. admonition:: Start- and Endframe
    :class: note
@@ -83,7 +83,7 @@ so save your file first or the cache may be lost.
 
 
 Soft Body Goal
---------------
+==============
 
 :guilabel:`Use Goal`
    Soft Body Goal acts like a pin on a chosen set of vertices;
@@ -120,7 +120,7 @@ Soft Body Goal
 
 
 Soft Body Edges
----------------
+===============
 
 :guilabel:`Use Edges`
    The edges in a Mesh Object can act as springs as well, like threads in fabric.
@@ -180,7 +180,7 @@ Soft Body Edges
 
 
 Soft Body Self Collision
-------------------------
+========================
 
 :guilabel:`Self Collision` is working only if you have activated :guilabel:`Use Edges`.
 
@@ -212,7 +212,7 @@ Collisions with other objects are set in the (other) :doc:`Collision panel <phys
 
 
 Soft Body Solver
-----------------
+================
 
 These settings determine the accurateness of the simulation.
 

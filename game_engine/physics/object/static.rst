@@ -1,6 +1,6 @@
 
 Static Physics Object Type
-==========================
+**************************
 
 Static objects in the :doc:`Blender Game Engine <game_engine>` do not automatically react to physics, including gravity and collisions. Even if hit by the force of a speeding 18-wheeler truck, it will remain unresponsive in terms of location, rotation, or deformation.
 
@@ -24,7 +24,7 @@ For more documentation, see the :doc:`Top BGE Physics page <game_engine/physics>
 
 
 Options
--------
+=======
 
 FIXME(Template Unsupported: Doc:2.6/Manual/Game_Engine/Physics/PythonAccessToOptions;
 {{Doc:2.6/Manual/Game_Engine/Physics/PythonAccessToOptions}}
@@ -47,7 +47,7 @@ FIXME(Template Unsupported: Doc:2.6/Manual/Game_Engine/Physics/AnisotropicFricti
 
 
 Collision Bounds
-----------------
+================
 
 Note: The Static type differs from the others in that it defaults to a Triangle Mesh bounds,
 instead of a simple sphere.
@@ -59,7 +59,7 @@ FIXME(Template Unsupported: Doc:2.6/Manual/Game_Engine/Physics/Collision_Bounds;
 
 
 Create Obstacle
----------------
+===============
 
 FIXME(Template Unsupported: Doc:2.6/Manual/Game_Engine/Physics/Create_Obstacle;
 {{Doc:2.6/Manual/Game_Engine/Physics/Create_Obstacle}}
@@ -67,7 +67,7 @@ FIXME(Template Unsupported: Doc:2.6/Manual/Game_Engine/Physics/Create_Obstacle;
 
 
 All Types
----------
+=========
 
 FIXME(Template Unsupported: Doc:2.6/Manual/Game_Engine/Physics/AllTypes;
 {{Doc:2.6/Manual/Game_Engine/Physics/AllTypes}}

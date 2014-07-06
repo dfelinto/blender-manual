@@ -1,6 +1,6 @@
 
 Displace Modifier
-=================
+*****************
 
 .. admonition:: Reference
    :class: refbox
@@ -10,7 +10,7 @@ Displace Modifier
 
 
 Description
------------
+===========
 
 The :guilabel:`Displace` modifier displaces vertices in a mesh based on the intensity of a
 texture. Either procedural or image textures can be used.
@@ -20,7 +20,7 @@ Y and Z directions simultaneously.
 
 
 Options
--------
+=======
 
 .. figure:: /images/25-Manual-Modifiers-Displace.jpg
 
@@ -99,7 +99,7 @@ Options
 
 
 See also
-========
+********
 
 - Blender artists post: `Displace modifier tutorial <http://blenderartists.org/forum/showthread.php?t=77026>`__ (September 2006)
 

@@ -3,7 +3,7 @@
 
 
 Ambient Occlusion
-=================
+*****************
 
 Ambient Occlusion is a sophisticated ray-tracing calculation which simulates soft global
 illumination shadows by faking darkness perceived in corners and at mesh intersections,
@@ -36,7 +36,7 @@ which is a whitish yellow sunny kind of color on a bright-but-not-harshly-bright
 
 
 Options
--------
+=======
 
 .. figure:: /images/Doc26-lighting-ambientOcclusion.jpg
 
@@ -75,10 +75,10 @@ Ambient occlusion has two main methods of calculation:
 
 
 Gather
-~~~~~~
+------
 
 Raytrace
-________
+^^^^^^^^
 
 .. figure:: /images/Doc26-lighting-ambientOcclusion-gather.jpg
 
@@ -164,7 +164,7 @@ you want to use the colors of your sky's texture.
 
 
 Approximate
-___________
+^^^^^^^^^^^
 
 .. figure:: /images/Doc26-lighting-ambientOcclusion-gather2.jpg
 
@@ -192,7 +192,7 @@ You have two complementary options to reduce this problem:
 
 
 Common Settings
-~~~~~~~~~~~~~~~
+---------------
 
 :guilabel:`Falloff`
    When activated, the distance to the occluding objects will influence the "depth" of the shadow. This means that the further away the occluding geometry is, the lighter its "shadow" will be. This effect only occurs when the :guilabel:`Strength` factor is higher than **0.0**. It mimics  light dispersion in the atmosphere...
@@ -202,7 +202,7 @@ Common Settings
 
 
 Technical Details
------------------
+=================
 
 Ambient occlusion is calculated by casting rays from each visible point,
 and by counting how many of them actually reach the sky, and how many, on the other hand,
@@ -216,7 +216,7 @@ The ratio between "shadow" and "light" rays defines how bright a given pixel is.
 
 
 Hints
------
+=====
 
 Ambient occlusion is a ray-tracing technique (at least with the :guilabel:`Raytrace` method), so it tends to be slow. Furthermore, performance severely depends on octree size, see the :doc:`rendering chapter <render>` for more information.
 

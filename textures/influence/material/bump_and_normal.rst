@@ -1,9 +1,9 @@
 
 Bump and Normal Maps
-====================
+********************
 
 Description
-~~~~~~~~~~~
+-----------
 
 :guilabel:`Normal Maps` and :guilabel:`Bump Maps` both serve the same purpose:
 they simulate the impression of a detailed 3D surface,
@@ -47,7 +47,7 @@ synonymously, there are certain differences.
 
 
 Workflow
-~~~~~~~~
+--------
 
 The steps involved in making and using Bump and Normal Maps is:
 

@@ -1,6 +1,6 @@
 
 View Shading
-============
+************
 
 .. admonition:: Reference
    :class: refbox
@@ -10,7 +10,7 @@ View Shading
 
 
 Description
------------
+===========
 
 Depending on the speed of your computer, the complexity of your scene,
 and the type of work you are currently doing, you can switch between several drawing modes:
@@ -58,7 +58,7 @@ You can switch between these draw modes by:
 
 
 View Properties Panel
-=====================
+*********************
 
 .. admonition:: Reference
    :class: refbox
@@ -69,7 +69,7 @@ View Properties Panel
 
 
 Description
------------
+===========
 
 In addition to the header controls described above,
 the :guilabel:`View Properties` panel lets you set other settings regarding the 3D view.
@@ -152,7 +152,7 @@ This section displays the currently selected object
 
 
 Display
--------
+=======
 
 :guilabel:`Only Render`
    Displays only items that will be rendered.
@@ -183,7 +183,7 @@ Display
 
 
 Background Image
-================
+****************
 
 .. admonition:: Reference
    :class: refbox
@@ -215,7 +215,7 @@ There are a few points worth to be noted about background images:
 
 
 Settings
---------
+========
 
 .. figure:: /images/Background-image.jpg
 

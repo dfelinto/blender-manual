@@ -1,6 +1,6 @@
 
 Rigid Body Physics Object Type
-==============================
+******************************
 
 Probably the most common type of object in the :doc:`Game Engine <game_engine>`. It will give/receive collisions and react with a change in its velocity and its rotation. A Rigid Body ball would begin rotating and roll down (where a :doc:`Dynamic <game_engine/physics/objects/dynamic>` ball would only hit and slide down the ramp).
 
@@ -12,7 +12,7 @@ For more documentation, see the :doc:`Top BGE Physics page <game_engine/physics>
 
 
 Options
--------
+=======
 
 FIXME(Template Unsupported: Doc:2.6/Manual/Game_Engine/Physics/PythonAccessToOptions;
 {{Doc:2.6/Manual/Game_Engine/Physics/PythonAccessToOptions}}
@@ -48,7 +48,7 @@ FIXME(Template Unsupported: Doc:2.6/Manual/Game_Engine/Physics/TransformOptions;
 
 
 Collision Bounds
-----------------
+================
 
 FIXME(Template Unsupported: Doc:2.6/Manual/Game_Engine/Physics/Collision_Bounds;
 {{Doc:2.6/Manual/Game_Engine/Physics/Collision_Bounds}}
@@ -56,7 +56,7 @@ FIXME(Template Unsupported: Doc:2.6/Manual/Game_Engine/Physics/Collision_Bounds;
 
 
 Create Obstacle
----------------
+===============
 
 FIXME(Template Unsupported: Doc:2.6/Manual/Game_Engine/Physics/Create_Obstacle;
 {{Doc:2.6/Manual/Game_Engine/Physics/Create_Obstacle}}
@@ -64,7 +64,7 @@ FIXME(Template Unsupported: Doc:2.6/Manual/Game_Engine/Physics/Create_Obstacle;
 
 
 All Types
----------
+=========
 
 FIXME(Template Unsupported: Doc:2.6/Manual/Game_Engine/Physics/AllTypes;
 {{Doc:2.6/Manual/Game_Engine/Physics/AllTypes}}

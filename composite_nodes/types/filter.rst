@@ -3,14 +3,14 @@
 
 
 Composite Filter Nodes
-======================
+**********************
 
 Filters process the pixels of an image to highlight additional details or perform some sort of
 post-processing effect on the image.
 
 
 Filter Node
------------
+===========
 
 .. figure:: /images/Tutorials-NTR-ComFilter.jpg
 
@@ -51,7 +51,7 @@ six blackboards with gobbledy gook. Recommended reading for insomniacs.
 
 
 Blur Node
----------
+=========
 
 .. figure:: /images/Tutorials-NTR-ComBlur.jpg
 
@@ -69,7 +69,7 @@ as they will be multiplied with the X and Y number button values.
 
 
 Options
-~~~~~~~
+-------
 
 The X and Y values are the number of pixels over which to spread the blur effect.
 
@@ -97,13 +97,13 @@ the highs and the lows. In particular
 
 
 Directional Blur Node
----------------------
+=====================
 
 Blurs an image in a specified direction and magnitude. Can be used to fake motion blur.
 
 
 Options
-~~~~~~~
+-------
 
 :guilabel:`Iterations`
    Controls how may times the image is duplicated to create the blur effect. Higher values give smoother results.
@@ -124,7 +124,7 @@ Options
 
 
 Example
-~~~~~~~
+-------
 
 An example blend file, in fact the one used to create the image above,
 `is available here. <http://wiki.blender.org/index.php/Media:Manual-Node-Blur.blend>`__
@@ -135,7 +135,7 @@ Play with the Value and Multiply nodes to change the amount of blurring that eac
 
 
 Bilateral Blur Node
--------------------
+===================
 
 .. figure:: /images/Tutorials-NTR-ComBilateralBlur.jpg
 
@@ -151,7 +151,7 @@ to make non-photorealistic compositing effects.
 
 
 Inputs
-~~~~~~
+------
 
 Bilateral blur has 2 inputs:
    :guilabel:`Image`, for the image to be blurred.
@@ -167,7 +167,7 @@ but normals in combination with zbuffer can still define exact borders/edges of 
 
 
 Options
-~~~~~~~
+-------
 
 :guilabel:`Iterations`
    Defines how many times the filter should perform the operation on the image. It practically defines the radius of blur.
@@ -180,7 +180,7 @@ Options
 
 
 Examples
-~~~~~~~~
+--------
 
 .. figure:: /images/Manual-Compositing_Nodes-BilateralBlur_ex3.jpg
    :width: 250px
@@ -204,7 +204,7 @@ Examples
 
 
 Vector (Motion) Blur Node
--------------------------
+=========================
 
 .. figure:: /images/Tutorials-NTR-ComVecBlur.jpg
 
@@ -251,7 +251,7 @@ A value of just 3 will already clearly separate the background from foreground.
 
 
 Examples
-~~~~~~~~
+--------
 
 An in-depth look at how to use the Vector Blur node :doc:`can be found here <ls/composite_nodes/types/filter/vector_blur>`.
 
@@ -266,7 +266,7 @@ you will find a rigged hand reaching down to pick up a ball. Based on how the ha
 is blurred the least.
 
 Known Bugs
-~~~~~~~~~~
+----------
 
 FIXME(Template Unsupported: Version;
 {{Version|2.44}}
@@ -275,7 +275,7 @@ Does not work when reading from a multilayer OpenEXR sequence set
 
 
 Dilate/Erode Node
------------------
+=================
 
 .. figure:: /images/Manual-Compositing_Nodes-Dilate_Erode.jpg
 
@@ -293,7 +293,7 @@ thus sharpening it relative to surrounding pixels of the same color.
 
 
 Example
-~~~~~~~
+-------
 
 .. figure:: /images/Manual-Compositing_Nodes-Dilate_ex.jpg
    :width: 300px
@@ -311,7 +311,7 @@ The amount of influence is increased by increasing the :guilabel:`Distance` valu
 
 
 Defocus
--------
+=======
 
 This single node can be used to emulate depth of field using a postprocessing method.
 It can also be used to blur the image in other ways,
@@ -320,7 +320,7 @@ this node blurs areas of an image based on the input zbuffer map/mask.
 
 
 Camera Settings
-~~~~~~~~~~~~~~~
+---------------
 
 .. figure:: /images/Manual-Compositing-Node-Defocus_Camera_settings.jpg
 
@@ -342,7 +342,7 @@ the focal point is then visible as a yellow cross along the view direction of th
 
 
 Node Inputs
-~~~~~~~~~~~
+-----------
 
 .. figure:: /images/Manual-Compositing-Node-Defocus.jpg
 
@@ -356,7 +356,7 @@ to vary the effect over time.
 
 
 Node Setting
-~~~~~~~~~~~~
+------------
 
 The settings for this node are:
 
@@ -455,7 +455,7 @@ FIXME(TODO: Internal Link;
 
 
 Examples
-~~~~~~~~
+--------
 
 .. figure:: /images/Manual-Node-Defocus-example.jpg
    :width: 200px
@@ -469,7 +469,7 @@ As the balls receed into the distance, they get blurrier.
 
 
 Hints
-~~~~~
+-----
 
 **Preview**
    In general, use preview mode, change parameters to your liking, only then disable preview mode for the final render.

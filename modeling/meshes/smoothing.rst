@@ -1,6 +1,6 @@
 
 Mesh Shading
-============
+************
 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------+----------------------------------------------------------------+
 +.. figure:: /images/25-manual-meshsmooth-example-2rrflat.jpg                                                                                                                                                                  |.. figure:: /images/25-manual-meshsmooth-example-05edgesplit.jpg|.. figure:: /images/25-manual-meshsmooth-example-10edgeloops.jpg+
@@ -24,7 +24,7 @@ not only its appearance.
 
 
 Smooth shading
---------------
+==============
 
 .. admonition:: Reference
    :class: refbox
@@ -58,7 +58,7 @@ the first image above.
 
 
 Smoothing parts of a mesh
-~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------
 
 Alternatively, you can choose which edges to smooth by entering :guilabel:`Edit mode`,
 then selecting some faces and clicking the :guilabel:`Smooth` button.
@@ -71,7 +71,7 @@ in the same way by selecting edges and clicking the :guilabel:`Flat` button.
 
 
 Auto Smooth
------------
+===========
 
 .. admonition:: Reference
    :class: refbox
@@ -109,7 +109,7 @@ made by the :guilabel:`Auto Smooth` algorithm.
 
 
 Edge Split Modifier
--------------------
+===================
 
 With the :doc:`Edge Split Modifier <modifiers/generate/edge_split>` we get a result similar to :guilabel:`Auto Smooth` with the ability to choose which edges should be split, based on angle—those marked as sharp.
 
@@ -127,7 +127,7 @@ With the :doc:`Edge Split Modifier <modifiers/generate/edge_split>` we get a res
 
 
 Smoothing the mesh geometry
----------------------------
+===========================
 
 The above techniques do not alter the mesh itself, only the way it is displayed and rendered.
 Instead of just making the mesh look like a smooth surface,
@@ -135,7 +135,7 @@ you can also physically smooth the geometry of the mesh with these tools:
 
 
 Mesh editing tools
-~~~~~~~~~~~~~~~~~~
+------------------
 
 You can apply one of the following in :guilabel:`Edit mode`:
 
@@ -151,7 +151,7 @@ You can apply one of the following in :guilabel:`Edit mode`:
 
 
 Modifiers
-~~~~~~~~~
+---------
 
 Alternatively,
 you can smooth the mesh non-destructively with one or several of the following modifiers:

@@ -1,6 +1,6 @@
 
 Vertex Groups
-=============
+*************
 
 :guilabel:`Vertex Groups` are mainly used to tag the vertices belonging to parts of a Mesh Object or Lattice. Think of the legs of a chair or the hinges of a door, or hands, arms, limbs, head, feet, etc. of a character. In addition you can assign different :guilabel:`weight values` (in the range [0.0,1.0] to the vertices within a Vertex Group (hence Vertex Groups are sometimes also named :guilabel:`Weight Groups` ).
 
@@ -25,7 +25,7 @@ However in this section we will focus on manually created (user-defined) Vertex 
 
 
 Typical usage scenarios for Vertex groups
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------------
 
 **Skinning an armature**
    If you want to animate your mesh and make it move, you will define an armature which consists of a bunch of bones.
@@ -48,7 +48,7 @@ Typical usage scenarios for Vertex groups
 
 
 Creating Vertex Groups
-~~~~~~~~~~~~~~~~~~~~~~
+----------------------
 
 .. figure:: /images/26-Manual-Modeling-Meshes-vertex-group-panel-empty.jpg
    :width: 264px
@@ -75,13 +75,13 @@ border (3). Initially the group is named ``Group``
    `Vertex Group Panel with one Group in Object mode <http://wiki.blender.org/index.php/File:26-Manual-Modeling-Meshes-vertex-group-panel-one.png-om>`__
 
 Group Name
-++++++++++
+""""""""""
 
 As soon as the first Vertex Group is created a new input field shows up right below the panel.
 There you can change the Group name of the Group to your convenience.
 
 Active Group
-++++++++++++
+""""""""""""
 
 When a Vertex Group is created,
 then it is also automatically marked as the :guilabel:`Active Group`.
@@ -91,7 +91,7 @@ If you have two or more groups in the list, then you can change the active group
 
 
 Deleting vertex Groups
-~~~~~~~~~~~~~~~~~~~~~~
+----------------------
 
 .. figure:: /images/26-Manual-Modeling-Meshes-vertex-group-panel-dg.jpg
    :width: 264px
@@ -115,7 +115,7 @@ The vertices themselves are not deleted.
 
 
 Locking Vertex Groups
-~~~~~~~~~~~~~~~~~~~~~
+---------------------
 
 Right after creation of a Vertex Group,
 an open lock icon shows up on the right side of the Vertex Group List entry.
@@ -131,7 +131,7 @@ thus all corresponding function buttons become disabled for locked Vertex Groups
 
 
 Working with Content of Vertex Groups
--------------------------------------
+=====================================
 
 .. figure:: /images/26-Manual-Modeling-Meshes-vertex-group-panel-one.jpg
    :width: 264px
@@ -157,7 +157,7 @@ value that gets assigned to the selected verts when you press the Assign Button.
 
 
 Assigning verts to a Group
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------
 
 .. figure:: /images/26-Manual-Modeling-Meshes-vertex-group-panel-assign.jpg
    :width: 264px
@@ -186,7 +186,7 @@ The Assign button is grayed out in that case.
 
 
 Checking assignments
-~~~~~~~~~~~~~~~~~~~~
+--------------------
 
 To be sure the selected verts really have been added to the Vertex Group,
 you can try the deselect button. If the verts do not get deselected,
@@ -196,7 +196,7 @@ All selected verts get the weight assigned as displayed in the "Weight:" input f
 
 
 Removing assignments from a Group
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------
 
 You remove vertices from a group as follows:
 
@@ -209,7 +209,7 @@ The Remove button is grayed out in that case.
 
 
 Using groups for Selecting/Deselecting
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------------
 
 You can quickly select all assigned vertices of a group:
 
@@ -226,7 +226,7 @@ You can quickly select all assigned vertices of a group:
 
 
 Finding ungrouped verts
-~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------
 
 You can find ungrouped vertices as follows:
 
@@ -235,7 +235,7 @@ You can find ungrouped vertices as follows:
 
 
 Keyboard Shortcuts
-~~~~~~~~~~~~~~~~~~
+------------------
 
 .. figure:: /images/26-Manual-Modeling-Meshes-vertex-group-popup.jpg
    :width: 264px
@@ -264,7 +264,7 @@ Blender:
 
 
 Vertex Group Management
------------------------
+=======================
 
 .. figure:: /images/26-Manual-Modeling-Meshes-vertex-group-pulldown.jpg
    :width: 213px
@@ -314,7 +314,7 @@ The following functions operate only on the lock state settings:
 
 
 Hints
------
+=====
 
 - Multiple objects sharing the same mesh data have the peculiar property that the group names are stored on the
   object, but the weights in the mesh. This allows you to name groups differently on each object, but take care

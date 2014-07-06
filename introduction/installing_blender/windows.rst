@@ -1,16 +1,16 @@
 
 Installing on Windows
-=====================
+*********************
 
 Download
---------
+========
 
 You can obtain the latest stable version of Blender for Windows from the
 `Blender download page <http://www.blender.org/download/get-blender/>`__.
 
 
 Version
--------
+=======
 
 Blender for Windows is currently available in 32-bit and 64-bit versions.
 Users with a 32-bit version of Windows must download the 32-bit version of Blender. Users with
@@ -34,7 +34,7 @@ If you are using Windows XP:
 
 
 Installation
-============
+************
 
 Once your download has finished, navigate to the *Downloads* folder and double-click the
 Blender executable file to start the installation process.
@@ -42,7 +42,7 @@ Keep in mind that installing Blender requires Administrator rights.
 
 
 Welcome screen
---------------
+==============
 
 .. figure:: /images/(Doc_26x_Manual_Introduction_Installing_Blender_Windows)_(01_Welcome_Screen)_(GNWindows_7_B266FN).jpg
 
@@ -53,7 +53,7 @@ The Welcome is the first screen of the installation process. Click Next to conti
 
 
 License agreement
------------------
+=================
 
 .. figure:: /images/(Doc_26x_Manual_Introduction_Installing_Blender_Windows)_(02_License_Agreement)_(GNWindows_7_B266FN).jpg
 
@@ -64,10 +64,10 @@ The License agreement must be accepted before the installation will continue.
 
 
 Installation options
---------------------
+====================
 
 Program options
-~~~~~~~~~~~~~~~
+---------------
 
 .. figure:: /images/(Doc_26x_Manual_Introduction_Installing_Blender_Windows)_(03_Installation_Options)_(GNWindows_7_B266FN).jpg
 
@@ -76,7 +76,7 @@ Select any desired options.
 
 
 Location
-~~~~~~~~
+--------
 
 .. figure:: /images/(Doc_26x_Manual_Introduction_Installing_Blender_Windows)_(04_Program_Options)_(GNWindows_7_B266FN).jpg
 
@@ -85,13 +85,13 @@ Here you can choose the directory where Blender will be installed.
 
 
 Installing
-~~~~~~~~~~
+----------
 
 .. figure:: /images/(Doc_26x_Manual_Introduction_Installing_Blender_Windows)_(05_Location)_(GNWindows_7_B266FN).jpg
 
 
 Installed
-=========
+*********
 
 .. figure:: /images/(Doc_26x_Manual_Introduction_Installing_Blender_Windows)_(06_Installing)_(GNWindows_7_B266FN).jpg
 
@@ -101,7 +101,7 @@ And there you go! A fresh installation of Blender 2.5. After enabling or disabli
 
 
 Portable Install
-================
+****************
 
 If you want to run Blender off a USB key so that you can use it wherever you go,
 download the .zip version and extract it to a USB key. You may want to avoid storing animation

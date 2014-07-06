@@ -3,7 +3,7 @@
 
 
 Sequence Display Modes
-======================
+**********************
 
 By default, the VSE only displays the sequencer. Several options in the header bar allow you
 change the editor to display the sequence in real time, and in various ways.
@@ -32,7 +32,7 @@ Zoom the view of any of these workspaces by scrolling your middle mouse wheel.
 
 
 Image Preview
--------------
+=============
 
 In the upper window pane of the Sequence screen layout is another VSE window,
 this one set to Image Preview mode.
@@ -42,7 +42,7 @@ This is the main working mode for adding strips and moving them around, cutting,
 
 
 Luma Waveform
--------------
+=============
 
 For the selected channel, brightness, or luminosity, is mapped with this display.
 
@@ -91,7 +91,7 @@ contiguous.
 
 
 Chroma Vectorscope
-------------------
+==================
 
 .. figure:: /images/Manual-VSE-ChromaExample.jpg
    :width: 300px
@@ -137,7 +137,7 @@ This mode is good for:
 
 
 Histogram
----------
+=========
 
 This mode displays a graph showing the distribution of color information in the pixels of the
 currently displayed image. The X-axis represents values of pixel, from 0 to 1 (or 0 to 255),

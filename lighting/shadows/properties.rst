@@ -1,6 +1,6 @@
 
 Common Shadowing Lamps Options
-==============================
+******************************
 
 .. figure:: /images/Manual-Lighting-Shadow-Common-Properties.jpg
    :width: 310px
@@ -33,7 +33,7 @@ Shadow color
 
 
 See Also
---------
+========
 
 - :doc:`Shadows <lighting/shadows>`
 - :doc:`Common Raytraced Options <lighting/shadows/raytraced_properties>`

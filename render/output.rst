@@ -1,13 +1,13 @@
 
 Output Options
-==============
+**************
 
 The first step in the rendering process is to determine and set the output options.
 This includes render size, frame rate, pixel aspect ratio, output location, and file type.
 
 
 Dimensions
-==========
+**********
 
 :guilabel:`Resolution`
    The Dimensions section has settings for the size of the rendered images.
@@ -37,7 +37,7 @@ Dimensions
 
 
 Presets
--------
+=======
 
 To make life easier the topmost menu provides some common presets (par = Pixel Aspect Ratio).
 You can add your own or remove one with the + and - buttons:
@@ -73,14 +73,14 @@ see the Render page for ideas and techniques and tools for enabling huge render 
 
 
 Output Panel
-============
+************
 
 This panel provides options for setting the location of rendered frames for animations,
 and the quality of the saved images.
 
 
 File Locations
---------------
+==============
 
 By default, each frame of an animation is saved in the /tmp directory. Change this or any
 field by :kbd:`shift-Lmb` clicking in the name field and entering a new name.
@@ -99,7 +99,7 @@ file or directory.
 
 
 File Type
----------
+=========
 
 Blender supports a wide mix of image formats. These formats are listed in alphabetical order.
 
@@ -124,7 +124,7 @@ or while the codec may be free, the viewer may cost.
 
 
 Compression
-~~~~~~~~~~~
+-----------
 
 Some formats can compress the image to use less disk space.
 This compression might be loss-less (PNG, ...) or lossy (Jpeg, ...).
@@ -142,7 +142,7 @@ this is only valid for static images, not when rendering animations!).
 
 
 Channels
-~~~~~~~~
+--------
 
 Blender renders color (:guilabel:`RGB`) images by default, but Black and White
 (:guilabel:`BW`) and color with Alpha Channel (:guilabel:`RGBA`) are also possible.  Beware:
@@ -154,7 +154,7 @@ Blender does *not* automatically add extensions to filenames, hence any :guilabe
 
 
 Image Formats
-~~~~~~~~~~~~~
+-------------
 
 +-------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 +:guilabel:`BMP`                |Bit-Mapped Paint loss-less format used by early paint programs.                                                                                                                                                                                                                                         +
@@ -194,10 +194,10 @@ Image Formats
 
 
 VSE Rendering
-=============
+*************
 
 Rendering to an Image Sequence
-------------------------------
+==============================
 
 In many cases, cutting and re-arranging (editing)
 a codec-encoded video strip will give you fits, because the encoding algorithm that is used
@@ -220,7 +220,7 @@ the next frame of the second strip will *really* start with frame 4322.
 
 
 Rendering to Video
-------------------
+==================
 
 Ridiculously easy (when you learn where the buttons are):
 

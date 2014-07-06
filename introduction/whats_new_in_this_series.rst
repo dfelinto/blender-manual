@@ -5,7 +5,7 @@
 
 
 Introduction
-============
+************
 
 With version 2.5, Blender has seen phenomenal improvements in virtually all areas: software,
 interface, modeling, animation flow, tools, the python API, etc.
@@ -26,10 +26,10 @@ FIXME(Tag Unsupported:youtube;
 
 
 Interface
-=========
+*********
 
 New User Interface
-------------------
+==================
 
 .. figure:: /images/Change-interface.jpg
    :width: 300px
@@ -75,7 +75,7 @@ FIXME(Link Type Unsupported: dev;
 
 
 Multi-screen
-------------
+============
 
 With its new Window Manager, Blender allows configuration of multiple windows/screens which is
 useful for multi-screen setups. As with the main window,
@@ -83,7 +83,7 @@ each new window can be subdivided into areas.
 
 
 Customizable
-------------
+============
 
 .. figure:: /images/Change-ui-python-api.jpg
    :width: 300px
@@ -116,10 +116,10 @@ The default key maps will always be unaltered and available to use.
 
 
 Animation system
-================
+****************
 
 Everything is animatable!
--------------------------
+=========================
 
 In Blender 2.5 every property can be animated,
 from the output image size to the modifiers options. Now you can set keys in every editor:
@@ -133,7 +133,7 @@ FIXME(Link Type Unsupported: dev;
 
 
 Dope sheet and graph editor
----------------------------
+===========================
 
 .. figure:: /images/Change-new-animation.jpg
    :width: 300px
@@ -157,10 +157,10 @@ including all the curves of an entire scene!
 
 
 New functions
-=============
+*************
 
 Search tool
------------
+===========
 
 .. figure:: /images/Change-search-tool.jpg
 
@@ -172,7 +172,7 @@ It is also available at the top of the Blender screen.
 
 
 File browser improvements
--------------------------
+=========================
 
 The old file browser and Image browser have been linked into a single powerful browser.
 Files can be displayed as lists or thumbnails,
@@ -188,13 +188,13 @@ and a new function lets you create bookmarks !
 
 
 Python API
-==========
+**********
 
 Now based on Python 3.2
 
 
 Watch this page on video!
-=========================
+*************************
 
 This page has been made into a video. You can watch it on YouTube!
 

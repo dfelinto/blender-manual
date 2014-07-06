@@ -1,6 +1,6 @@
 
 Introduction
-============
+************
 
 In some situations we want to increase the render speed,
 access blender remotely to render something or build scripts that use blender command line.
@@ -17,7 +17,7 @@ Always position **-f** or **-a** as the last arguments.
 
 
 Syntax
-======
+******
 
 blender [-b <dir><file> ''[-o <dir><file>''][-F <format>]
 [-x ''[0|1]''][-t <threads>][-S <name>][-f <frame>]
@@ -25,7 +25,7 @@ blender [-b <dir><file> ''[-o <dir><file>''][-F <format>]
 
 
 Render Options:
----------------
+===============
 
 -b or --background <file>
 Load <file> in background (often used for UI-less rendering)
@@ -71,7 +71,7 @@ Use amount of <threads> for rendering and other operations
 
 
 Format Options:
----------------
+===============
 
 -F or --render-format <format>
 Set the render format, Valid options are...
@@ -85,7 +85,7 @@ Set option to add the file extension to the end of the file
 
 
 Animation Playback Options:
----------------------------
+===========================
 
 -a <options> <file(s)>
 Playback <file(s)>, only operates this way when not running in background.
@@ -98,7 +98,7 @@ Playback <file(s)>, only operates this way when not running in background.
 
 
 Window Options:
----------------
+===============
 
 -w or --window-border
 Force opening with borders (default)
@@ -117,7 +117,7 @@ Do not use native pixel size, for high resolution displays (MacBook 'Retina')
 
 
 Game Engine Specific Options:
------------------------------
+=============================
 
 -g Game Engine specific options
 -g fixedtime        Run on 50 hertz without dropping frames
@@ -127,7 +127,7 @@ Game Engine Specific Options:
 
 
 Python Options:
----------------
+===============
 
 -y or --enable-autoexec
 Enable automatic python script execution
@@ -151,7 +151,7 @@ Comma separated list of addons (no spaces)
 
 
 Debug Options:
---------------
+==============
 
 -d or --debug
 Turn debugging on
@@ -192,7 +192,7 @@ Disable the crash handler
 
 
 Misc Options:
--------------
+=============
 
 --factory-startup
 Skip reading the "startup.blend" in the users home directory
@@ -233,7 +233,7 @@ Ends option processing, following arguments passed unchanged. Access via python'
 
 
 Other Options:
---------------
+==============
 
 /?
 Print this help text and exit (windows only)
@@ -249,10 +249,10 @@ Silently register .blend extension, then exit (Windows only)
 
 
 Examples
-========
+********
 
 Render a picture
-----------------
+================
 
 - blender -b file.blend -o //file -F JPEG -x 1 -f 1
 
@@ -283,7 +283,7 @@ Render a picture
 
 
 Render a movie
---------------
+==============
 
 - blender -b file.blend -x 1 -o //file -F MOVIE -s 003 -e 005 -a
 
@@ -314,7 +314,7 @@ Render a movie
 
 
 Launch Blender with a specified engine
---------------------------------------
+======================================
 
 The flags that are used are -E engine or --engine engine
 
@@ -342,14 +342,14 @@ CYCLES
 
 
 Platforms
-=========
+*********
 
 How to actually execute Blender from the command line depends on the platform and where you
 have installed Blender. Here are basic instructions for the different platforms.
 
 
 Windows
-_______
+^^^^^^^
 
 Open the Command Prompt, go to the directory where Blender is installed,
 and then run the blender command.
@@ -360,7 +360,7 @@ and then run the blender command.
 
 
 Mac OS X
-________
+^^^^^^^^
 
 Open the Terminal application, go to the directory where Blender is installed,
 and run the executable within the app bundle, with commands like this:
@@ -383,7 +383,7 @@ If you then open a new terminal, the following command will work:
 
 
 Linux
-_____
+^^^^^
 
 Open a terminal, then go to the directory where Blender is installed,
 and run the blender command like this.

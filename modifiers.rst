@@ -3,7 +3,7 @@
 
 
 Modifiers
-=========
+*********
 
 .. admonition:: Reference
    :class: refbox
@@ -26,7 +26,7 @@ There are four types of modifiers:
 
 
 Modify
-------
+======
 
 The :guilabel:`Modify` group of modifiers are tools a bit similar to the :guilabel:`Deform
 Modifiers` (see below), but which do not directly affect the shape of the object;
@@ -43,7 +43,7 @@ rather they affect some other data, like vertex groups...
 
 
 Generate
---------
+========
 
 The :guilabel:`Generate` group of modifiers are constructive tools that either change the
 general appearance of or automatically add new geometry to an object.
@@ -83,7 +83,7 @@ general appearance of or automatically add new geometry to an object.
 
 
 Deform
-------
+======
 
 The :guilabel:`Deform` group of modifiers only change the shape of an object,
 and are available for meshes, and often texts, curves, surfaces and/or lattices.
@@ -119,7 +119,7 @@ and are available for meshes, and often texts, curves, surfaces and/or lattices.
 
 
 Simulate
---------
+========
 
 The :guilabel:`Simulate` group of modifiers activate simulations.  In most cases, these
 modifiers are automatically added to the modifiers stack whenever a :guilabel:`Particle

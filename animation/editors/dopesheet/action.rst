@@ -3,7 +3,7 @@
 
 
 Action Editor
-=============
+*************
 
 Blender 2.5 simplifies the system by making Actions the generic containers for F-Curves.
 Actions can contain any number of F-Curves, and can be attached to any data block.As long as
@@ -38,7 +38,7 @@ and hence an action can have several of these channels.
 
 
 Action Datablocks
------------------
+=================
 
 As everything else in Blender, actions are datablocks. Unlike FCurve ones,
 there is only one type of action, which can regroup all FCurve of a given object.
@@ -63,7 +63,7 @@ whatever the current selected object is.
 
 
 Channel Menu
-------------
+============
 
 :guilabel:`Delete` (:kbd:`X`)
    Deletes the whole channel from the current action

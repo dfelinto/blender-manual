@@ -1,6 +1,6 @@
 
 Specular Shaders
-================
+****************
 
 .. admonition:: Reference
    :class: refbox
@@ -26,7 +26,7 @@ incident light angle (with regard to the surface's normal), which makes the view
 
 
 Common Options
---------------
+==============
 
 Each specular shader share the following common options:
 
@@ -45,7 +45,7 @@ metals tend to have colored highlights).
 
 
 Technical Details
-~~~~~~~~~~~~~~~~~
+-----------------
 
 .. figure:: /images/Manual-Part-III-MatGen03.jpg
 
@@ -86,7 +86,7 @@ the same law as the light reflection.
 
 
 CookTorr
---------
+========
 
 .. admonition:: Reference
    :class: refbox
@@ -111,14 +111,14 @@ they described "a new reflectance model for rendering computer synthesized image
 and applied it to the simulation of metal and plastic.
 
 Options
-~~~~~~~
+-------
 
 **Hardness**
    Size of the specular highlight
 
 
 Phong
------
+=====
 
 .. admonition:: Reference
    :class: refbox
@@ -142,7 +142,7 @@ was a Vietnamese-born computer graphics pioneer that developed the first algorit
 included components not only for specular lighting, but also diffuse and ambient lighting.
 
 Options
-~~~~~~~
+-------
 
 **Hardness**
    Size of the specular highlight.
@@ -155,7 +155,7 @@ Options
 
 
 Blinn
------
+=====
 
 .. admonition:: Reference
    :class: refbox
@@ -182,7 +182,7 @@ The model he described in his 1977 paper
 (PDF) included changes in specular intensity with light direction and more accurately positioned highlights on a surface.
 
 Options
-~~~~~~~
+-------
 
 **Hardness**
    Size of the specular highlight. The Blinn shader is capable of much tighter specular highlights than Phong or CookTorr.
@@ -213,7 +213,7 @@ The Toon specular shader matches the Toon diffuse shader. It is designed to prod
 uniform highlights of cartoon cels.
 
 Options
-~~~~~~~
+-------
 
 **Size**
    Size of the specular highlight.
@@ -228,7 +228,7 @@ Options
 
 
 WardIso
--------
+=======
 
 .. admonition:: Reference
    :class: refbox
@@ -258,7 +258,7 @@ Gregory J. Ward
 
 
 Options
-~~~~~~~
+-------
 
 **Slope**
    Standard deviation for of surface slope.  Previously known as the `root-mean-square <http://en.wikipedia.org/wiki/Root_mean_square>`__ or rms value, this parameter in effect controls the size of the specular highlight, though using a different method to that of the other specular shaders. It is capable of extremely sharp highlights.

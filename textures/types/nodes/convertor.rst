@@ -3,7 +3,7 @@
 
 
 Texture Convertor Nodes
-=======================
+***********************
 
 As the name implies, these nodes convert the colors in the material in some way.
 
@@ -60,7 +60,7 @@ The math node performs one of several math functions on one or two inputs
 
 
 ColorRamp Node
---------------
+==============
 
 .. figure:: /images/Doc26-textureNodes-colorRamp.jpg
 
@@ -101,7 +101,7 @@ Use the A: button to define the Alpha value of the selected color for each color
 
 
 RGB to BW Node
---------------
+==============
 
 .. figure:: /images/Doc26-textureNodes-rgbToBw.jpg
 
@@ -113,7 +113,7 @@ values.
 
 
 Value to Normal
----------------
+===============
 
 .. figure:: /images/Doc26-textureNodes-valueToNormal.jpg
 
@@ -130,7 +130,7 @@ Computes a normal map based on greyscale values of an input
 
 
 Distance
---------
+========
 
 .. figure:: /images/Doc26-textureNodes-distance.jpg
 

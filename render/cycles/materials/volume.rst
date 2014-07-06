@@ -1,6 +1,6 @@
 
 Volume
-======
+******
 
 .. admonition:: Experimental feature
    :class: note
@@ -19,7 +19,7 @@ The world can also use a volume shader to create effects such as mist.
 
 
 Volume Shaders
-~~~~~~~~~~~~~~
+--------------
 
 We support three volume shader nodes,
 that model particular effects as light passes through the volume and interacts with it.
@@ -40,7 +40,7 @@ that model particular effects as light passes through the volume and interacts w
 
 
 Density
-~~~~~~~
+-------
 
 All volume shaders have a density input.
 The density defines how much of the light will interact with the volume,
@@ -55,10 +55,10 @@ rather than passing straight through.
 
 
 Volume Material
-~~~~~~~~~~~~~~~
+---------------
 
 Interaction with the Surface Shader
-+++++++++++++++++++++++++++++++++++
+"""""""""""""""""""""""""""""""""""
 
 A material may have both a surface and a volume shader, or only one of either.
 Using both may be useful for materials such as glass, water or ice,
@@ -73,7 +73,7 @@ Light may be scattered, absorbed, or emitted at any point in the volume.
 
 
 Mesh Topology
-+++++++++++++
+"""""""""""""
 
 Meshes used for volume render should be closed and manifold.
 That means that there should be no holes in the mesh. Each edge must be connected to exactly 2
@@ -89,7 +89,7 @@ These rules are the same as for rendering glass refraction correctly.
 
 
 Volume World
-~~~~~~~~~~~~
+------------
 
 A volume shader can also be applied to the entirely world,  filling the entire space.
 
@@ -105,7 +105,7 @@ The size of this object will determine how much light is scattered or absorbed.
 
 
 Scattering Bounces
-~~~~~~~~~~~~~~~~~~
+------------------
 
 Real world effects such as scattering in clouds or subsurface scattering require many
 scattering bounces. However unbiased rendering of such effects is slow and noisy. In typical
@@ -123,7 +123,7 @@ but in practice one might have to limit the number of bounces to keep render tim
 
 
 Limitations
-~~~~~~~~~~~
+-----------
 
 Currently we do not support:
 

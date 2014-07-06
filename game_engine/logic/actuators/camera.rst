@@ -1,6 +1,6 @@
 
 Camera Actuator
-===============
+***************
 
 Makes the camera follow or track an  object.
 

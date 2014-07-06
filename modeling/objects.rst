@@ -3,7 +3,7 @@
 
 
 Object Mode
-===========
+***********
 
 .. figure:: /images/Manual-2.5-Part-II-ObjectMode-Selected-Ex.jpg
    :width: 300px
@@ -17,7 +17,7 @@ The geometry of a scene is constructed from one or more Objects: For example Lam
 
 
 Types of Objects
-================
+****************
 
 +------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 +:doc:`Meshes <modeling/meshes>`           |Meshes are objects composed of Polygonal Faces, Edges and/or Vertices, and can be edited extensively with Blender's mesh editing tools.                                                                                  +
@@ -82,13 +82,13 @@ To switch between wireframe and solid view, press :kbd:`Z`.
 
 
 Object Centers
-==============
+**************
 
 Each object has an origin point. The location of this point determines where the object is located in 3D space. When an object is selected, a small circle appears, denoting the origin point. The location of the origin point is important when translating, rotating or scaling an object. See :doc:`Pivot Points <3d_interaction/transform_control/pivot_point>` for more.
 
 
 Moving Object Centers
----------------------
+=====================
 
 Object Centers can be moved to different positions through :guilabel:`3D View window →
 Transform → Origin`  (press :kbd:`T` to open panel):
@@ -111,7 +111,7 @@ Transform → Origin`  (press :kbd:`T` to open panel):
 
 
 Erase Objects
-=============
+*************
 
 .. admonition:: Reference
    :class: refbox
@@ -125,7 +125,7 @@ Erases or deletes selected objects.
 
 
 Join Objects
-============
+************
 
 .. admonition:: Reference
    :class: refbox

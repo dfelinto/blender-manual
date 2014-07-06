@@ -1,6 +1,6 @@
 
 Smooth
-======
+******
 
 .. admonition:: Reference
    :class: refbox
@@ -42,7 +42,7 @@ After using the tool, options appear in the :guilabel:`Tool Shelf`:
 
 
 Laplacian Smooth
-----------------
+================
 
 .. admonition:: Reference
    :class: refbox

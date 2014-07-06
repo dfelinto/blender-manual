@@ -1,6 +1,6 @@
 
 Particle Physics
-================
+****************
 
 .. figure:: /images/Physic_types.jpg
 
@@ -35,7 +35,7 @@ the settings in the Physics panel.
 
 
 Velocity
-========
+********
 
 .. figure:: /images/Initial_velocity.jpg
 
@@ -49,7 +49,7 @@ then the following parameters give the particle an initial velocity in the direc
 
 
 Emitter Geometry
-----------------
+================
 
 :guilabel:`Normal`
    The emitter's surface normals (i.e. let the surface normal give the particle a starting speed).
@@ -60,7 +60,7 @@ Emitter Geometry
 
 
 Emitter Object
---------------
+==============
 
 :guilabel:`Align X,Y,Z`
    Give an initial velocity in the X, Y, and Z axes.
@@ -71,7 +71,7 @@ Emitter Object
 
 
 Rotation
-========
+********
 
 .. figure:: /images/Rotation.jpg
 
@@ -131,7 +131,7 @@ don't turn on Dynamic). Curve Follow does not work for particles.
 
 
 Common Physics Settings
-=======================
+***********************
 
 :guilabel:`Size`
    Sets the size of the particles.
@@ -145,7 +145,7 @@ Common Physics Settings
 
 
 No Physics
-----------
+==========
 
 At first a Physics type that makes the particles do nothing could seem a bit strange,
 but it can be very useful at times.
@@ -160,7 +160,7 @@ to groom vegetation and/or ecosystems using Object, Group or Billboard types of 
 
 
 Field Weights
-=============
+*************
 
 The Field Weight Panel allows you to control how much influence each type of external force field, or effector, has on the particle system. Force fields are external forces that give dynamic systems motion. The force fields types are detailed on the :doc:`Force Field Page <physics/force_fields>`.
 
@@ -173,7 +173,7 @@ The Field Weight Panel allows you to control how much influence each type of ext
 
 
 Force Fields
-============
+************
 
 The Force Field Settings Panel allows you to make each individual act as a force field,
 allowing them to affect other dynamic systems, or even, each other.

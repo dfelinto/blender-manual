@@ -3,7 +3,7 @@
 
 
 Editing Poses
-=============
+*************
 
 .. figure:: /images/Doc26-rigging-poseTools.jpg
    :width: 100px
@@ -27,7 +27,7 @@ FIXME(TODO: Internal Link;
 
 
 Selecting Bones
----------------
+===============
 
 Selection in :guilabel:`Pose` mode is very similar to the one in :doc:`Edit mode <rigging/armatures/selecting>`, with a few specificities:
 
@@ -45,7 +45,7 @@ Selection in :guilabel:`Pose` mode is very similar to the one in :doc:`Edit mode
 
 
 Basic Posing
-------------
+============
 
 As previously noted,
 bones' transformations are performed based on the *rest position* of the armature,
@@ -84,7 +84,7 @@ transform operation.
 
 
 Auto IK
--------
+=======
 
 The auto IK option in the tool shelf enables a temporary ik constraint when posing bones.
 The chain acts from the tip of the selected bone to root of the uppermost parent bone.
@@ -93,7 +93,7 @@ and only works by applying the resulting transform to the bones in the chain.
 
 
 Rest Pose
----------
+=========
 
 Once you have transformed some bones, if you want to return to their rest position,
 just clear their transformations
@@ -123,7 +123,7 @@ enable the :guilabel:`Rest Position` button in the :guilabel:`Armature` panel
 
 
 In-Betweens
------------
+===========
 
 There are several tools for editing poses in an animation.
 
@@ -141,7 +141,7 @@ There are also in :guilabel:`Pose` mode a bunch of armature-specific editing opt
 
 
 Copy/Paste Pose
----------------
+===============
 
 .. admonition:: Reference
    :class: refbox
@@ -195,7 +195,7 @@ Here are important points:
 
 
 Effects of Bones Relationships
-------------------------------
+==============================
 
 Bones relationships are crucial in :guilabel:`Pose` mode - they have important effects on
 transformations behavior.

@@ -1,15 +1,15 @@
 
 Supported Formats
-=================
+*****************
 
 Image Formats
--------------
+=============
 
 This is the list of image file formats supported internally by Blender:
 
 
 High Dynamic Range Graphics
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 Blender's image input/output system transparently support regular 32 bits graphics
 (4 x 8 bits) or floating point images storing 128 bits per pixel (4 x 32 bits).
@@ -32,7 +32,7 @@ For hints how to manipulate or view HDR images, please check the Curves UI page.
 
 
 Others Formats
-~~~~~~~~~~~~~~
+--------------
 
 Here's a list of other supported image formats:
 
@@ -48,7 +48,7 @@ Here's a list of other supported image formats:
 
 
 Movie Formats
--------------
+=============
 
 - AVI (Windows)
 - AVI JPEG
@@ -62,7 +62,7 @@ Movie Formats
 
 
 Color Modes
------------
+===========
 
 - BW, Images get saved in 8 bits grayscale (only PNG, JPEG, TGA, TIF)
 - RGB, Images are saved with RGB (color)
@@ -70,7 +70,7 @@ Color Modes
 
 
 Color Depths
-------------
+============
 
 - 8 bit color channels
 - 12 bit color channels
@@ -79,7 +79,7 @@ Color Depths
 
 
 Reference
----------
+=========
 
 - `Formats <http://projects.blender.org/scm/viewvc.php/trunk/blender/source/blender/makesrna/intern/rna_scene.c?view=markup&root=bf-blender>`__
 

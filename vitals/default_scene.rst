@@ -3,7 +3,7 @@
 
 
 Setting the default Scene
-=========================
+*************************
 
 .. admonition:: Reference
    :class: refbox
@@ -41,7 +41,7 @@ Press :kbd:`esc` to abort.
 
 
 Restoring the Default Scene to Factory Settings
-===============================================
+***********************************************
 
 .. admonition:: Reference
    :class: refbox

@@ -1,12 +1,12 @@
 
 Copy Rotation Constraint
-========================
+************************
 
 The :guilabel:`Copy Rotation` constraint forces its owner to match the rotation of its target.
 
 
 Options
--------
+=======
 
 .. figure:: /images/25-Manual-Constraints-Transform-CopyRot.jpg
    :width: 307px

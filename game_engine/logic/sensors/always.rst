@@ -1,6 +1,6 @@
 
 Always Sensor
-=============
+*************
 
 .. figure:: /images/BGE_Sensor_Always.jpg
    :width: 300px

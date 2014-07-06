@@ -1,6 +1,6 @@
 
 Logic, Properties and States
-============================
+****************************
 
 Game Logic is the default scripting layer in the game engine.
 Each GameObject in the game may store a collection of logical components (Logic Bricks)
@@ -9,7 +9,7 @@ user-defined actions that determine the progression of the simulation.
 
 
 Logic Bricks
-------------
+============
 
 The main part of game logic can be set up through a graphical interface the
 :doc:`Logic Editor <game_engine/logic/editor>`, and therefore does not require detailed programming knowledge.
@@ -17,13 +17,13 @@ Logic is set up as blocks (or "bricks") which represent preprogrammed functions;
 
 
 Properties
-----------
+==========
 
 :doc:`Properties <game_engine/logic/properties>` are like variables in other programming languages. They are used to save and access data values either for the whole game (eg. scores), or for particular objects/players (e.g. names). However, in the Blender Game Engine, a property is associated with an object. Properties can be of different types, and are set up in a special area of the :doc:`Logic Editor <game_engine/logic/editor>`.
 
 
 States
-------
+======
 
 Another useful feature is object :doc:`States <game_engine/logic/states>`. At any time while the simulation is running, the object will process any logic which belongs to the current state of the object. States can be used to define groups of behaviour - eg. an actor object may be "sleeping", "awake" or "dead", and its logic behavior may be different in each of these three states. The states of an object are set up, displayed and edited in the Controller logic bricks for the object.
 

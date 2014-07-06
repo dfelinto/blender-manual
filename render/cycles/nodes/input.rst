@@ -3,10 +3,10 @@
 
 
 Input Nodes
-===========
+***********
 
 Camera Data
------------
+===========
 
 :guilabel:`View Vector`
    A Camera space vector from the camera to the shading point.
@@ -16,7 +16,7 @@ Camera Data
 
 
 Value
------
+=====
 
 Input a scalar value.
 
@@ -25,7 +25,7 @@ Input a scalar value.
 
 
 RGB
----
+===
 
 Input an RGB color.
 
@@ -34,7 +34,7 @@ Input an RGB color.
 
 
 Attribute
----------
+=========
 
 Retrieve attribute attached to the object or mesh.
 Currently UV maps and vertex color layers can be retrieved this way by their names,
@@ -53,7 +53,7 @@ although there are more convenient nodes for this.
 
 
 Geometry
---------
+========
 
 Geometric information about the current shading point.
 All vector coordinates are in *World Space*. For volume shaders,
@@ -76,7 +76,7 @@ only the position and incoming vector are available.
 
 
 Light Path
-----------
+==========
 
 Node to find out for which kind of incoming ray the shader is being executed; particularly useful for non-physically based tricks. More information about the meaning of each type is in the
 FIXME(TODO: Internal Link;
@@ -102,7 +102,7 @@ FIXME(TODO: Internal Link;
 
 
 Object Info
------------
+===========
 
 Information about the object instance.
 This can be useful to give some variation to a single material assigned to multiple instances,
@@ -121,7 +121,7 @@ ramp can give a range of colors to be randomly picked from.
 
 
 Fresnel
--------
+=======
 
 Dielectric fresnel,
 computing how much light is refracted through and how much is reflected off a layer.
@@ -135,7 +135,7 @@ It is dependent on the angle between the surface normal and the viewing directio
 
 
 Layer Weight
-------------
+============
 
 Output weights typically used for layering shaders with the :guilabel:`Mix Shader` node.
 
@@ -148,7 +148,7 @@ Output weights typically used for layering shaders with the :guilabel:`Mix Shade
 
 
 Texture Coordinates
--------------------
+===================
 
 Commonly used texture coordinates,
 typically used as inputs for the :guilabel:`Vector` input for texture nodes.
@@ -170,7 +170,7 @@ typically used as inputs for the :guilabel:`Vector` input for texture nodes.
 
 
 Particle Info
--------------
+=============
 
 For objects instanced from a particle system,
 this node give access to the data of the particle that spawned the instance.
@@ -192,7 +192,7 @@ this node give access to the data of the particle that spawned the instance.
 
 
 Hair Info
----------
+=========
 
 This node gives access to strand information.
 
@@ -207,7 +207,7 @@ This node gives access to strand information.
 
 
 Tangent
--------
+=======
 
 Generates a tangent direction for the Anisotropic BSDF.
 

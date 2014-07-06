@@ -1,6 +1,6 @@
 
 Mesh Cache Modifier
-===================
+*******************
 
 .. admonition:: Reference
    :class: refbox
@@ -10,7 +10,7 @@ Mesh Cache Modifier
 
 
 Description
------------
+===========
 
 The :guilabel:`Mesh Cache` modifier is used so animated mesh data can be applied to a mesh and
 played back, deforming the mesh.
@@ -22,7 +22,7 @@ When using this modifier, the vertex locations are overwritten.
 
 
 Options
--------
+=======
 
 .. figure:: /images/26-Manual-Modifiers-MeshCache.jpg
 
@@ -74,7 +74,7 @@ Axis transformation for the input coordinates.
 
 
 Hints
------
+=====
 
 - Both MDD and PC2 depend on the vertex order on the mesh remaining unchanged; this is a limitation with the method used so take care not to add/remove vertices once this modifier is used.
 

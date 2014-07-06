@@ -1,6 +1,6 @@
 
 Fluid Object
-============
+************
 
 .. figure:: /images/Blender_fluids_fluid.jpg
    :width: 300px

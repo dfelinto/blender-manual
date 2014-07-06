@@ -3,7 +3,7 @@
 
 
 Cloth Simulation
-================
+****************
 
 +--------------------------------------+-------------------------------------------------+--------------------------------------+
 +.. figure:: /images/Cloth-example1.jpg|.. figure:: /images/Cloth-oncarvedwood.jpg       |.. figure:: /images/Cloth-example2.jpg+
@@ -25,7 +25,7 @@ all of which is under your control.
 
 
 Description
------------
+===========
 
 A piece of cloth is any mesh, open or enclosed, that has been designated as cloth. The
 :guilabel:`Cloth` panels are located in the :guilabel:`Physics` sub-context and consist of
@@ -65,7 +65,7 @@ the amount of CPU needed to compute the mesh varies, as does the lag you might n
 
 
 Workflow
---------
+========
 
 A general process for working with cloth is to:
 
@@ -80,7 +80,7 @@ A general process for working with cloth is to:
 
 
 Creating Cloth Simulations
-==========================
+**************************
 
 This section discusses how to use those options to get the effect you want.
 First, enable :guilabel:`Cloth`. Set up for the kind of cloth you are simulating.
@@ -91,7 +91,7 @@ the more stiff it is and the less it stretches and is affected by air.
 
 
 Cloth Panel
-===========
+***********
 
 :guilabel:`Presets`
    Contains a number of preset cloth examples, and allows you to add your own.
@@ -101,7 +101,7 @@ Cloth Panel
 
 
 Material
---------
+========
 
 :guilabel:`Mass`
    The mass of the cloth material.
@@ -112,7 +112,7 @@ Material
 
 
 Damping
--------
+=======
 
 :guilabel:`Spring`
    Damping of cloth velocity. Higher = more smooth, less jiggling.
@@ -121,7 +121,7 @@ Damping
 
 
 Pinning
--------
+=======
 
 .. figure:: /images/Clothscreeny2.jpg
    :width: 200px
@@ -158,7 +158,7 @@ vertex group you want to use, and the stiffness you want it at.
 
 
 Collisions
-==========
+**********
 
 In most cases, a piece of cloth does not just hang there in 3D space,
 it collides with other objects in the environment. To ensure proper simulation,
@@ -177,7 +177,7 @@ there are several items that have to be set up and working together:
 
 
 Collision Settings
-------------------
+==================
 
 .. figure:: /images/Cloth_collisionpanel.jpg
    :width: 200px
@@ -205,7 +205,7 @@ For the cloth object, locate the :guilabel:`Cloth Collision` panel, shown to the
 
 
 Self-collisions
-~~~~~~~~~~~~~~~
+---------------
 
 Real cloth cannot permeate itself, so you normally want the cloth to self-collide.
 
@@ -222,7 +222,7 @@ Regression blend file: `Cloth selfcollisions <http://wiki.blender.org/index.php/
 
 
 Shared Layers
--------------
+=============
 
 Suppose you have two objects: a pair of Pants on layers 2 and 3,
 and your Character mesh on layers 1 and 2.
@@ -243,7 +243,7 @@ simply :kbd:`shift-Lmb` the layer button again to toggle it.
 
 
 Mesh Objects Collide
---------------------
+====================
 
 If your colliding object is not a mesh object, such as a NURBS surface, or text object,
 you must convert it to a mesh object. To do so, select the object in object mode,
@@ -252,7 +252,7 @@ and in the 3D View header, select :guilabel:`Object` → :guilabel:`Convert Obje
 
 
 Cloth - Object collisions
--------------------------
+=========================
 
 .. figure:: /images/Manual-Panel-Collision.jpg
    :width: 200px
@@ -284,7 +284,7 @@ soft bodies, and cloth).
 
 
 Mesh Object Modifier Stack
---------------------------
+==========================
 
 .. figure:: /images/Manual-Simulation-Cloth-ColliderStack.jpg
    :width: 200px
@@ -302,13 +302,13 @@ The image to the right shows the :guilabel:`Modifiers` panel for the Character m
 
 
 Cloth Cache
-===========
+***********
 
 Cache settings for cloth are the same as with other dynamic systems. See :doc:`Particle Cache <physics/particles/cache_and_bake>` for details.
 
 
 Bake Collision
---------------
+==============
 
 .. figure:: /images/Manual-Simulation-Cloth-CollisionBake.jpg
    :width: 200px
@@ -334,7 +334,7 @@ and it will probably clip through the box pretty badly as in the picture on the 
 
 
 Editing the cached simulation=
-------------------------------
+==============================
 
 The cache contains the shape of the mesh at each frame. You can edit the cached simulation,
 after you've baked the simulation and pressed the :guilabel:`Bake Editing` button.
@@ -358,7 +358,7 @@ make a consistent simulation.
 
 
 Troubleshooting
-===============
+***************
 
 If you encounter some problems with collision detection, there are two ways to fix them:
 
@@ -382,7 +382,7 @@ If you encounter some problems with collision detection, there are two ways to f
 
 
 Examples
-========
+********
 
 To start with cloth, the first thing you need, of course, is some fabric. So,
 let's delete the default cube and add a plane. I scaled mine up along the Y axis,
@@ -402,7 +402,7 @@ That's what we'll cover in the next two sections about pinning and colliding.
 
 
 Using Simulation to Shape/Sculpt a Mesh
----------------------------------------
+=======================================
 
 You can :guilabel:`Apply` the :guilabel:`Cloth` modifier at any point to freeze the mesh in
 position at that frame. You can then re-enable the cloth,
@@ -417,7 +417,7 @@ re-enable it for the frame range when it is in camera view.
 
 
 Smoothing of Cloth
-------------------
+==================
 
 Now, if you followed this from the previous section,
 your cloth is probably looking a little blocky. In order to make it look nice and smooth like
@@ -430,25 +430,25 @@ Now, if you hit :kbd:`alt-A`, things are starting to look pretty nice, don't you
 
 
 Cloth on armature
------------------
+=================
 
 Cloth deformed by armature and also respecting an additional collision object: `Regression blend file <http://wiki.blender.org/index.php/Media:Cloth-regression-armature.blend>`__.
 
 
 Cloth with animated vertex groups
----------------------------------
+=================================
 
 Cloth with animated pinned vertices: `Regression blend file <http://wiki.blender.org/index.php/Media:Cloth_anim_vertex.blend>`__. UNSUPPORTED: Starting with a goal of 0 and increasing it, but still having the vertex not pinned will not work (e.g. from goal = 0 to goal = 0.5).
 
 
 Cloth with Dynamic Paint
-------------------------
+========================
 
 Cloth with Dynamic Paint using animated vertex groups: `Regression blend file <http://wiki.blender.org/index.php/Media:Cloth_dynamic_paint.blend>`__. UNSUPPORTED: Starting with a goal of 0 and increasing it, but still having the vertex not pinned will not work (e.g. from goal = 0 to goal = 0.5) because the necessary "goal springs" cannot be generated on the fly.
 
 
 Using Cloth for Softbodies
---------------------------
+==========================
 
 .. figure:: /images/Cloth-Sb1.jpg
    :width: 200px
@@ -466,7 +466,7 @@ Blend file for the example image: `Using Cloth for softbodies <http://wiki.blend
 
 
 Cloth with Wind
----------------
+===============
 
 .. figure:: /images/Cloth-flag2.jpg
    :width: 200px

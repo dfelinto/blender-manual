@@ -3,7 +3,7 @@
 
 
 Grab/Move
-=========
+*********
 
 .. admonition:: Reference
    :class: refbox
@@ -31,7 +31,7 @@ corner of the 3D view window.
 
 
 3D View
--------
+=======
 
 There are **2** types of Grab/Move options in the :guilabel:`3D View`:
 
@@ -40,7 +40,7 @@ There are **2** types of Grab/Move options in the :guilabel:`3D View`:
 
 
 Transform Widget
-~~~~~~~~~~~~~~~~
+----------------
 
 .. figure:: /images/FAQ-Transform_widget-2.jpg
 
@@ -53,7 +53,7 @@ click holding :kbd:`lmb` and dragging the 3D translatation widget in the 3D view
 
 
 Shortcuts in the 3D View
-~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------
 
 One of the fastest ways to move things in 3D space is with :kbd:`g`.
 Pressing this hotkey will enter the "grab/move" transformation mode,
@@ -95,7 +95,7 @@ will give you full control over your transformation
 
 
 Controling Grab/Move Precision
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------
 
 In addition to the Axis constraint options listed above, Blender offer some options to limit
 the amount of the transformation in small or predefined steps.
@@ -120,7 +120,7 @@ the amount of the transformation in small or predefined steps.
 
 
 Orientations
-------------
+============
 
 There are 5 orientations for all tranformations.
 [[File:Doc_blender_26_3d_interaction_grab_orientation.png|frame|right|Orientation choice menu]]
@@ -148,7 +148,7 @@ choice widget group.
 
 
 Other Editor Windows
---------------------
+====================
 
 For the other Editor Windows, like UV/Image Editor Tools, Sequence Editor, Dopesheet, and Graph Editor,
 the Grab/Move Operations are used to move Objects or elements based in their context, but,
@@ -162,7 +162,7 @@ This is also true for all of the other transformations, like rotate and scale.
 
 
 Python Scripting
-----------------
+================
 
 You can also use Python Scripting in Blender to Grab/Move Objects or elements to a specific
 location, either using the Python interactive console,
@@ -181,7 +181,7 @@ Operator for translating active object and its syntax:
 
 
 Hints
------
+=====
 
 - Moving object in Object mode is clearly different from moving the object by selecting all its vertices/edges/faces in Edit mode. Doing this can lead to disturbed Center of Transformation for the given object.
 - If G+x/y/z  is used in non global orientations, it won't confine the translation to x axis in that orientation but to the global X axis orientation only

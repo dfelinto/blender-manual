@@ -1,6 +1,6 @@
 
 Introduction
-============
+************
 
 Lighting is a very important topic in rendering, standing equal to modeling,
 materials and textures. The most accurately modeled and textured scene will yield poor results
@@ -9,7 +9,7 @@ while a simple model can become very realistic if skillfully lit.
 
 
 Viewing Restrictions
---------------------
+====================
 
 The color of an object and the lighting of your scene is affected by:
 
@@ -21,7 +21,7 @@ The color of an object and the lighting of your scene is affected by:
 
 
 Global Influences
------------------
+=================
 
 In Blender, the elements under your control which affect lighting are:
 
@@ -36,7 +36,7 @@ The physics of light bouncing around in the real world is simulated by Ambient O
 
 
 Lighting Settings
------------------
+=================
 
 Only after the above global influences have been considered,
 do you start adding light from lamps in your scene.
@@ -57,7 +57,7 @@ including the ever-popular three-point light method.
 
 
 Lighting in the Workflow
-------------------------
+========================
 
 In this user manual we have placed Lighting before Materials;
 you should set up your lighting before assigning materials to your meshes.
@@ -69,7 +69,7 @@ cube or background.
 
 
 Overriding Materials to Reset Lighting
---------------------------------------
+======================================
 
 .. figure:: /images/25-Manual-Lighting-MatField.jpg
    :width: 310px

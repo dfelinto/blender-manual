@@ -1,12 +1,12 @@
 
 Textures common options
-=======================
+***********************
 
 In the Properties editor, choose the Texture context: this will show the Texture panel.
 
 
 Textures Stack
---------------
+==============
 
 .. figure:: /images/Doc-26-Manual-Textures-Stack.jpg
    :width: 300px
@@ -27,7 +27,7 @@ image.
 
 
 Texture Datablock
------------------
+=================
 
 .. figure:: /images/Doc-26-Manual-Textures-Datablock.jpg
    :width: 300px
@@ -61,7 +61,7 @@ stack.
 
 
 Texture Type
-------------
+============
 
 .. figure:: /images/Doc-26-Manual-Textures-Types.jpg
    :width: 300px
@@ -83,7 +83,7 @@ These types are described in detail :doc:`in this section <textures/types>`.
 
 
 Preview
--------
+=======
 
 .. figure:: /images/25-Manual-Textures-preview-panel.jpg
    :width: 300px
@@ -105,7 +105,7 @@ own, without mapping.
 
 
 Colors
-------
+======
 
 .. figure:: /images/25-Manual-Textures-color-panel.jpg
    :width: 300px
@@ -132,7 +132,7 @@ sliders.
 
 
 Mapping
--------
+=======
 
 Here you can control how the texture will be mapped on the object.
 
@@ -147,7 +147,7 @@ See :doc:`Mapping <textures/mapping>` section for details.
 
 
 Influence
----------
+=========
 
 Here you can control what properties the texture will affect, and by how much.
 

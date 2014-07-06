@@ -1,6 +1,6 @@
 
 Laplacian Deform
-================
+****************
 
 .. admonition:: Reference
    :class: refbox
@@ -10,7 +10,7 @@ Laplacian Deform
 
 
 Description
------------
+===========
 
 The :guilabel:`Laplacian Deform` modifier allows you to pose a mesh while preserving geometric
 details of the surface.
@@ -33,7 +33,7 @@ of a vertex based on its neighbors.
 
 
 Options
--------
+=======
 
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------+
 +:guilabel:`Anchors Vertex Group`                                                                                                                                                                                                              |.. figure:: /images/Apinzonf_Diagram_Deform_Modifier_Panel_00.jpg            +
@@ -82,7 +82,7 @@ Options
 
 
 Hints
------
+=====
 
 If the mesh is dense, with a number of vertices greater than 100,000,
 then it is possible that the nonlinear optimization system will fail.
@@ -123,7 +123,7 @@ then it is possible that the nonlinear optimization system will fail.
 
 
 Examples
---------
+========
 
 +-----------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+
 +.. figure:: /images/Apinzonf_Deform_Cactus_repeat_5.jpg                                                          |.. figure:: /images/Apinzonf_Deform_Horse_repeat_10.jpg                                                        +
@@ -136,7 +136,7 @@ Examples
 
 
 History
--------
+=======
 
 `Laplacian Surface Editing <http://igl.ethz.ch/projects/Laplacian-mesh-processing/Laplacian-mesh-editing/laplacian-mesh-editing.pdf>`__ is a method developed by Olga Sorkine and others in 2004. This method preserves geometric details as much as possible while the user makes editing operations. This method uses `differential coordinates <http://igl.ethz.ch/projects/Laplacian-mesh-processing/Laplacian-mesh-editing/diffcoords-editing.pdf>`__ corresponding to the difference between a vector and the weighted average of its neighbors to represent the local geometric detail of the mesh.
 
@@ -149,7 +149,7 @@ History
 
 
 See Also
---------
+========
 
 `Laplacian Surface Editing (Original paper) <http://igl.ethz.ch/projects/Laplacian-mesh-processing/Laplacian-mesh-editing/laplacian-mesh-editing.pdf>`__
 

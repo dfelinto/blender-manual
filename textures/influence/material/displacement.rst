@@ -1,15 +1,15 @@
 
 Displacement Maps
-=================
+*****************
 
 Description
-~~~~~~~~~~~
+-----------
 
 Displacement mapping allows a texture input to manipulate the position of vertices on rendered geometry. Unlike :doc:`Normal or Bump mapping <textures/influence/material/bump_and_normal>`, where the shading is distorted to give an illusion of a bump (discussed on the previous page), Displacement Maps create real bumps, creases, ridges, etc in the actual mesh. Thus, the mesh deformations can cast shadows, occlude other objects, and do everything that changes in real geometry can do, but, on the other hand, requires a lot more vertices to work.
 
 
 Options
-~~~~~~~
+-------
 
 In the :doc:`Influence panel <textures/influence/material>`, the strength of the displacement is controlled by the :guilabel:`Displace` and :guilabel:`Normal` sliders.
 
@@ -33,7 +33,7 @@ and thus the relative depth appears smaller.
 
 
 Hints
-~~~~~
+-----
 
 Displacement maps move the rendered faces, not the physical mesh faces. So,
 in 3D View the surface may appear smooth, but render bumpy. To give a detailed surface,

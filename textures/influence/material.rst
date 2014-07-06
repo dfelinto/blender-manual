@@ -1,6 +1,6 @@
 
 Material Textures Influence
-===========================
+***************************
 
 Not only can textures affect the color of a material,
 they can also affect many of the other properties of a material. The different aspects of a
@@ -13,7 +13,7 @@ material that a texture influences are controlled in the :guilabel:`Influence` p
 
 
 Surface and Wire materials
---------------------------
+==========================
 
 .. figure:: /images/25-Manual-Textures-Influence-Surface.jpg
    :width: 308px
@@ -23,7 +23,7 @@ Surface and Wire materials
 
 
 Diffuse
-_______
+^^^^^^^
 
 :guilabel:`Intensity`
    Amount texture affects affects diffuse reflectivity
@@ -36,7 +36,7 @@ _______
 
 
 Specular
-________
+^^^^^^^^
 
 :guilabel:`Intensity`
    Amount texture affect specular reflectivity
@@ -47,7 +47,7 @@ ________
 
 
 Shading
-_______
+^^^^^^^
 
 :guilabel:`Ambient`
    Influences the amount of Ambient light the material receives.
@@ -60,7 +60,7 @@ _______
 
 
 Geometry
-________
+^^^^^^^^
 
 :guilabel:`Normal`
    Commonly called bump mapping, this alters the direction of the surface normal. This is used to fake surface imperfections or unevenness via bump mapping, or to create reliefs.
@@ -71,7 +71,7 @@ ________
 
 
 Other Controls
-~~~~~~~~~~~~~~
+--------------
 
 :guilabel:`Blend`
    Blending operation to perform. See :doc:`Texture Blending Modes <textures/influence/material/blending_modes>` for details.
@@ -102,7 +102,7 @@ Other Controls
 
 
 Volume materials
-----------------
+================
 
 .. figure:: /images/25-Manual-Textures-Influence-Volume.jpg
    :width: 308px
@@ -130,7 +130,7 @@ Special texture options for :guilabel:`Volume` materials
 
 
 Halo materials
---------------
+==============
 
 .. figure:: /images/25-Manual-Textures-Influence-Halo.jpg
    :width: 308px

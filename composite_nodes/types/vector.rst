@@ -3,10 +3,10 @@
 
 
 Composite Vector Nodes
-======================
+**********************
 
 Vector Nodes
-------------
+============
 
 Vector nodes manipulate information about how light interacts with the scene,
 multiplying vector sets, and other wonderful things that normal humans barely comprehend
@@ -18,7 +18,7 @@ and surface normals are vectors. Vectors are also important for calculating shad
 
 
 Normal Node
------------
+===========
 
 The Normal node generates a normal vector and a dot product.
 Click and Drag on the sphere to set the direction of the normal.
@@ -31,7 +31,7 @@ The resulting colorized output can be easily varied by moving the light source
 
 
 Vector Curves Node
-------------------
+==================
 
 .. figure:: /images/Manual-Node-Vector.jpg
 
@@ -48,7 +48,7 @@ Use this curve to slow things down or speed them up from the original scene.
 
 
 Map Value Node
---------------
+==============
 
 .. figure:: /images/Tutorials-NTR-ComMapValue.jpg
 
@@ -73,7 +73,7 @@ suitable for connecting to a Blur node.
 
 
 Using Map Value to Multiply values
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------
 
 .. figure:: /images/Manual-Compositing-Map_multiply.jpg
 
@@ -90,7 +90,7 @@ resulting in an output value between -150 and 150 over a 30-frame sequence.
 
 
 Normalize
----------
+=========
 
 Normalizing a vector scales its magnitude, or length, to a value of 1,
 but keeps its direction intact.

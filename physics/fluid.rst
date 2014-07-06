@@ -1,6 +1,6 @@
 
 Fluid Simulation
-================
+****************
 
 .. admonition:: Reference
    :class: refbox
@@ -10,7 +10,7 @@ Fluid Simulation
 
 
 Description
------------
+===========
 
 While modeling a scene with blender,
 certain objects can be marked to participate in the fluid simulation, e.g.
@@ -34,7 +34,7 @@ loaded from disk and displayed or rendered.
 
 
 Workflow
---------
+========
 
 In general, you follow these steps:
 
@@ -62,7 +62,7 @@ In general, you follow these steps:
 
 
 More about the simulation
--------------------------
+=========================
 
 To know more about simulating fluids in Blender you can read:
 

@@ -1,6 +1,6 @@
 
 Editing Metas
-=============
+*************
 
 When in :guilabel:`Edit` mode, the :guilabel:`Active Element` panel appears.
 These settings apply only to the selected meta element.
@@ -16,13 +16,13 @@ These settings apply only to the selected meta element.
 
 
 Meta Shape
-----------
+==========
 
 The :guilabel:`Type` menu lets you change the shape of the meta object, as explained above.
 
 
 Stiffness
----------
+=========
 
 Together with :guilabel:`Threshold`, :guilabel:`Stiffness` controls the influencing range. While the threshold is common to all metas in the same object (or even the same
 FIXME(TODO: Internal Link;
@@ -69,7 +69,7 @@ lightgreen;">green ring</span>
 
 
 Negative Influence
-------------------
+==================
 
 .. figure:: /images/2.5_Manual-Part-II-MetaObject-Metaball-Negative-Ex.jpg
    :width: 630px
@@ -92,7 +92,7 @@ and check *negative* in the *active element* panel.
 
 
 Hiding Elements
----------------
+===============
 
 As in :guilabel:`Object` mode, you can hide the selected meta(s),
 and then reveal what was hidden. This is very handy for cleaning your views up a bit... Note
@@ -112,7 +112,7 @@ You can also un-toggle the :guilabel:`Hide` button in the (:guilabel:`MetaBall t
 
 
 Deleting Elements
------------------
+=================
 
 There is no :guilabel:`Erase` menu for metas,
 just a confirmation pop-up asking you if you want to delete the selected metas.
@@ -120,7 +120,7 @@ Clear and simple!
 
 
 Conversion
-----------
+==========
 
 .. figure:: /images/MetaConvertToMesh.jpg
    :width: 300px
@@ -139,7 +139,7 @@ To convert the meta, press :kbd:`alt-C` in :guilabel:`Object` mode, and select *
 
 
 Object Families
-===============
+***************
 
 :guilabel:`Meta` objects have different behavior in :guilabel:`Object` mode than other object types - they can be "regrouped" into so-called "families".
 
@@ -174,7 +174,7 @@ it is as if the other metas were "included" or joined into the base one).
 
 
 Examples
---------
+========
 
 (*Meta ball base*) shows the *base* meta labeled "\ ``B`` ". The other two :guilabel:`Meta` objects are *children*. Children's selection rings are always black, while the group's mesh is orange. Because the metas are grouped, they form a unified mesh which can always be selected by selecting the mesh of any meta in the group. For example, in the example (*Meta ball base*), only the lower sphere (the parent) has been selected, and you see that both the parent's mesh *and* all of the children's meshes are now highlighted.
 
@@ -193,7 +193,7 @@ if we transform the children, the polygonalization remains unchanged.
 
 
 Hints
------
+=====
 
 This discussion of "polygonization" *doesn't* mean that the various meshes don't deform
 towards or away from each other (meta objects always influence one another in the usual way,

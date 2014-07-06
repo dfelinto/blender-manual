@@ -1,9 +1,9 @@
 
 More Nodes
-==========
+**********
 
 Value
------
+=====
 
 Input a scalar value.
 
@@ -12,7 +12,7 @@ Input a scalar value.
 
 
 RGB
----
+===
 
 Input an RGB color.
 
@@ -21,7 +21,7 @@ Input an RGB color.
 
 
 Geometry
---------
+========
 
 Geometric information about the current shading point.
 All vector coordinates are in *World Space*. For volume shaders,
@@ -44,7 +44,7 @@ only the position and incoming vector are available.
 
 
 Wireframe
----------
+=========
 
 Node for a wireframe shader (Triangles only for now).
 
@@ -57,7 +57,7 @@ Node for a wireframe shader (Triangles only for now).
 
 
 Wavelength
-----------
+==========
 
 A wavelength to rgb converter.
 
@@ -68,7 +68,7 @@ A wavelength to rgb converter.
 
 
 Blackbody
----------
+=========
 
 A blackbody temperature to RGB converter.
 
@@ -79,7 +79,7 @@ A blackbody temperature to RGB converter.
 
 
 Texture Coordinates
--------------------
+===================
 
 Commonly used texture coordinates,
 typically used as inputs for the :guilabel:`Vector` input for texture nodes.
@@ -120,7 +120,7 @@ direction of the normal.
 
 
 Vector Transform
-----------------
+================
 
 Allows converting a Vector,
 Point or Normal between World <=> Camera <=> Object coordinate space.
@@ -138,7 +138,7 @@ Point or Normal between World <=> Camera <=> Object coordinate space.
 
 
 Tangent
--------
+=======
 
 Generate a tangent direction for the Anisotropic BSDF.
 
@@ -149,7 +149,7 @@ Generate a tangent direction for the Anisotropic BSDF.
 
 
 Normal Map
-----------
+==========
 
 Generate a perturbed normal from an RGB normal map image.
 This is usually chained with an Image Texture node in the color input,
@@ -170,7 +170,7 @@ and the image texture should be set to Non-Color mode to give correct results.
 
 
 Object Info
------------
+===========
 
 Information about the object instance.
 This can be useful to give some variation to a single material assigned to multiple instances,
@@ -192,7 +192,7 @@ it does nothing for lamp and world shading nodes.
 
 
 Particle Info
--------------
+=============
 
 For objects instanced from a particle system,
 this node give access to the data of the particle that spawned the instance.
@@ -216,7 +216,7 @@ info from child particles is not available.
 
 
 Hair Info
----------
+=========
 
 This node gives access to strand information.
 
@@ -231,7 +231,7 @@ This node gives access to strand information.
 
 
 Attribute
----------
+=========
 
 Retrieve attribute attached to the object or mesh.
 Currently UV maps and vertex color layers can be retrieved this way by their names,
@@ -250,7 +250,7 @@ although there are more convenient nodes for this.
 
 
 Mapping
--------
+=======
 
 Transform a coordinate; typically used for modifying texture coordinates.
 
@@ -267,7 +267,7 @@ Transform a coordinate; typically used for modifying texture coordinates.
 
 
 Layer Weight
-------------
+============
 
 Output weights typically used for layering shaders with the :guilabel:`Mix Shader` node.
 
@@ -280,7 +280,7 @@ Output weights typically used for layering shaders with the :guilabel:`Mix Shade
 
 
 Fresnel
--------
+=======
 
 Dielectric fresnel, computing how much light is reflected off a layer,
 where the rest will be refracted through the layer.
@@ -304,7 +304,7 @@ coating layer would hit the diffuse base and be reflected off that.
 
 
 Light Path
-----------
+==========
 
 Node to find out for which kind of incoming ray the shader is being executed; particularly useful for non-physically based tricks. More information about the meaning of each type is in the
 FIXME(TODO: Internal Link;
@@ -334,7 +334,7 @@ FIXME(TODO: Internal Link;
 
 
 Light Falloff
--------------
+=============
 
 Manipulate how light intensity decreases over distance.
 In reality light will always fall off quadratically;
@@ -355,7 +355,7 @@ illumination bounce, making the resulting image extremely bright if many bounces
 
 
 Nodes shared with the Compositor
---------------------------------
+================================
 
 Some nodes are common with Composite nodes,
 their documentation can be found at their relevant pages rather than repeated here.

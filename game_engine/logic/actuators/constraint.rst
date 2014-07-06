@@ -1,6 +1,6 @@
 
 Constraints Actuator
-====================
+********************
 
 Adds a constraint to the location, orientation
 

@@ -1,6 +1,6 @@
 
 UV Project Modifier
-===================
+*******************
 
 .. admonition:: Reference
    :class: refbox
@@ -24,7 +24,7 @@ It can optionally override the object's face texture.
 
 
 Options
--------
+=======
 
 .. figure:: /images/Uvproject_ui.jpg
 
@@ -53,10 +53,10 @@ Override Image
 
 
 Usage
------
+=====
 
 General
-~~~~~~~
+-------
 
 UV Project is great for making spotlights more diverse,
 and also for creating decals to break up repetition.
@@ -68,7 +68,7 @@ Extension* to *Clip*.
 
 
 Perspective Cameras
-~~~~~~~~~~~~~~~~~~~
+-------------------
 
 When using perspective cameras or spot lamps,
 you will likely want to enable the **UV Project** Material Option

@@ -7,7 +7,7 @@ change to control the way Blender behaves each time you open the application.
 
 
 Open User Preferences
-=====================
+*********************
 
 To open a Blender :guilabel:`User Preferences` editor go to :menuselection:`File --> User Preferences` or press :kbd:`ctrl-alt-u`. Mac users can press :kbd:`cmd-,`. You can also load the Preferences editor in any window by selecting
 
@@ -29,7 +29,7 @@ The options are: *Interface*, *Editing*, *Input*, *Add-Ons*, *Themes*,
 
 
 Configure
----------
+=========
 
 Now that you have opened the :guilabel:`User Preferences` editor,
 you can configure Blender to your liking.
@@ -42,7 +42,7 @@ FIXME(Template Unsupported: Doc:RO/2.5/Manual/Interface/Configuration/index;
 
 
 Save the new preferences
-------------------------
+========================
 
 Once you have set your preferences, you will need to manually save them,
 otherwise the new configuration will be lost after a restart.
@@ -53,7 +53,7 @@ This will save all of the new preferences.
 
 
 Load Factory Settings
----------------------
+=====================
 
 There are two ways to restore the default Blender settings:
 

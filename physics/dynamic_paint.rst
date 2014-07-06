@@ -3,7 +3,7 @@
 
 
 Dynamic Paint
-=============
+*************
 
 Dynamic paint is a new modifier and physics system that can turn objects into paint canvases
 and brushes, creating vertex colors, image sequences or displacement.
@@ -20,13 +20,13 @@ This guide explains the very basics of Dynamic Paint user interface and general 
 
 
 Activating the modifier
------------------------
+=======================
 
 Dynamic Paint can be activated from the "Physics" tab of the "Properties" editor.
 
 
 Types
------
+=====
 
 Modifier itself has two different types:
 
@@ -44,7 +44,7 @@ Modifier itself has two different types:
 
 
 See also
---------
+========
 
 - `A step-by step introduction <http://www.miikahweb.com/en/articles/blender-dynamicpaint-basics>`__
 

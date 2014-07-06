@@ -1,9 +1,9 @@
 
 Limit Location Constraint
-=========================
+*************************
 
 Description
------------
+===========
 
 An object or *unconnected* bone can be moved around the scene along the X, Y and Z axes.
 This constraint restricts the amount of allowed translations along each axis,
@@ -31,7 +31,7 @@ using the *Transformation Properties* axis locking feature is probably easier!
 
 
 Options
--------
+=======
 
 .. figure:: /images/25-Manual-Constraints-Transform-LimitLoc.jpg
    :width: 302px

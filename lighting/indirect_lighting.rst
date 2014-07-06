@@ -1,6 +1,6 @@
 
 Inderect Lighting
------------------
+=================
 
 :guilabel:`Inderect Lighting` adds inderect light bouncing of surrounding objects. It's modes the light that is reflected from other surfaces to the current surface.
 Is more comprehensive, more physically correct, and produces more realistic images.
@@ -53,7 +53,7 @@ Inderect Lighting only works with Approximate gather method.
 
 
 Options
--------
+=======
 
 The :guilabel:`Inderect Lighting` panel contains two options:
 
@@ -68,7 +68,7 @@ Note that these settings also apply to Environment Lighting and Ambient Occlusio
 
 
 Approximate
-~~~~~~~~~~~
+-----------
 
 .. figure:: /images/Doc26-lighting-ambientOcclusion-gather2.jpg
 

@@ -3,13 +3,13 @@
 
 
 Animating Cameras
-=================
+*****************
 
 As of Blender 2.5, :doc:`Everything is animatable <introduction/whats_new_in_this_series#animation_system>`. Read more about keyframes :doc:`Here <animation/keyframes>`.
 
 
 Example
--------
+=======
 
 As an example, we are going to create a nice and impressive camera effect,
 which you can see e.g. in the first part of the Lord of the Ring: the *transtrav*.

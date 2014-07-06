@@ -1,6 +1,6 @@
 
 Bones
-=====
+*****
 
 .. figure:: /images/ManRiggingBonePrinciples3DViewEditModeOctahedron.jpg
    :width: 100px
@@ -25,7 +25,7 @@ They also have a radius property, only useful for the envelope deformation metho
 
 
 Bones Visualization
--------------------
+===================
 
 Bones can be visualized in various ways: :guilabel:`Octahedron`, :guilabel:`Stick`,
 :guilabel:`B-Bone`, :guilabel:`Envelope` and :guilabel:`Wire`. Custom shapes can be used, too!
@@ -74,7 +74,7 @@ oriented from root to tip. So, this is the "roll" axis of the bones.
 
 
 Bones properties
-----------------
+================
 
 When bones are selected (hence in :guilabel:`Edit mode` and :guilabel:`Pose mode`), their
 properties are shown in the :guilabel:`Bone` button context of the :guilabel:`Properties`
@@ -85,7 +85,7 @@ the panels change depending on which mode you're working in.
 
 
 Bones Rigidity
---------------
+==============
 
 Even though bones are rigid (i.e. behave as rigid sticks),
 they are made out of :guilabel:`segments`. :guilabel:`Segments` are small,
@@ -146,7 +146,7 @@ they will nonetheless smoothly deform their geometry...
 
 
 Bones influence
----------------
+===============
 
 Basically, a bone controls a geometry when vertices "follow" the bone. This is like how the
 muscles and skin of your finger follow your finger-bone when you move a finger.

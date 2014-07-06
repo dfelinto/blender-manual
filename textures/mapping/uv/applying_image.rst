@@ -3,7 +3,7 @@
 
 
 Applying Textures
-=================
+*****************
 
 Sooner or later, you may want to use an image texture on your model.
 If you are using an external application, you need to know where on the mesh you are painting.
@@ -13,7 +13,7 @@ and how to load images into the UV editor.
 
 
 Exporting UV Layout Image
--------------------------
+=========================
 
 As a way of communicating to an artist who is painting your UV Texture for you,
 Blender has a tool called :guilabel:`Save UV Face Layout`
@@ -67,7 +67,7 @@ For using images as textures, see the page on :doc:`Image Textures <textures/typ
 
 
 Applying Textures to UVs
-------------------------
+========================
 
 The UV/Image Editor allows you to map textures directly to the mesh faces.
 The 3D View window shows you the object being textured.
@@ -93,7 +93,7 @@ the Proper way and the Quick Way:
 
 
 Use UV Coordinates
-~~~~~~~~~~~~~~~~~~
+------------------
 
 .. figure:: /images/Doc26-textures-uv-coords.jpg
 
@@ -124,7 +124,7 @@ Full details of using Image textures are on the :doc:`Image Textures <textures/t
 
 
 Face Textures
-~~~~~~~~~~~~~
+-------------
 
 .. figure:: /images/Doc26-textures-uv-layout-facetex.jpg
 
@@ -144,7 +144,7 @@ but results which do not respect transparency and proper shading.
 
 
 Loading and Saving Images
--------------------------
+=========================
 
 In the UV editor, you can assign certain faces certain textures. To do so,
 first you need an image to work with.
@@ -164,7 +164,7 @@ and you will have to :guilabel:`Image→Replace` it.
 Use this option to map a UV layout to a different image altogether.
 
 Replacing the active Image
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------
 
 Recall that each face gets coordinates and a link to an image.
 To map a face to a different image, simply select that face (or faces) and use the UV/Image
@@ -173,7 +173,7 @@ Editor window Image}} menu to :guilabel:`Replace` the current image with an exis
 
 
 New Images
-~~~~~~~~~~
+----------
 
 .. figure:: /images/Doc26-textures-uv-layout-testGrid.jpg
    :width: 200px
@@ -212,7 +212,7 @@ Panel`:
 
 
 Using the Test Grid
-~~~~~~~~~~~~~~~~~~~
+-------------------
 
 Use the UV Test Grid option to check for undue stretching or distortion of faces. If your
 image is a base uniform pattern and you want the application of that image to your model to
@@ -240,7 +240,7 @@ You can save the UV image using the Image→Save menu.
 
 
 Image Settings
-~~~~~~~~~~~~~~
+--------------
 
 When an image has been loaded or created in the UV editor,
 an additional section appears in the :guilabel:`Properties Panel`.
@@ -291,7 +291,7 @@ Select the image type in the :guilabel:`Source` menu. Each has different options
 
 
 Saving Images
-~~~~~~~~~~~~~
+-------------
 
 Images can be saved to external files if they were created or edited in Blender with tools in
 the :guilabel:`Image` menu. If images are already files, use the :guilabel:`Save` command
@@ -301,7 +301,7 @@ Using :guilabel:`Save as Copy`, (:kbd:`f3`) will save the file to a specified na
 but will keep the old one open in the Image editor.
 
 Modifying your Image Texture
-----------------------------
+============================
 
 To modify your new Texture, you can:
 
@@ -335,7 +335,7 @@ in the :guilabel:`Image` menu
 
 
 Packing Images inside the Blend file
-------------------------------------
+====================================
 
 If you pack your .blend file,
 the current version of all UV Texture images are packed into the file.

@@ -1,6 +1,6 @@
 
 Solidify Modifier
-=================
+*****************
 
 .. admonition:: Reference
    :class: refbox
@@ -10,13 +10,13 @@ Solidify Modifier
 
 
 Description
------------
+===========
 
 The :guilabel:`Solidify` modifier takes the surface of any mesh and adds a depth to it.
 
 
 Options
--------
+=======
 
 .. figure:: /images/25-Manual-Modifiers-Solidify.jpg
 
@@ -68,7 +68,7 @@ Options
 
 
 Hints
------
+=====
 
 - The modifier thickness is applied before object scale; if maintaining a fixed thickness is important use unscaled objects (or account for the scale).
 

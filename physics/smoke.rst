@@ -2,10 +2,10 @@
 
 
 Smoke Simulation
-================
+****************
 
 Development notes
------------------
+=================
 
 Blender's new smoke simulation is based on the paper '[http://www.cs.cornell.edu/~tedkim/wturb
 Wavelet Turbulence for Fluid Simulation]' and associated sample code.
@@ -14,7 +14,7 @@ It has been implemented in Blender by Daniel Genrich and Miika Hamalainen.
 
 
 Inner working
--------------
+=============
 
 The simulator uses a volumetric fluid-based model, with the end results output as voxel grids. This voxel data is visualized interactively in Blender's 3D view using custom OpenGL shading, and can be rendered using the Voxel Data texture. Blender's **smoke simulation** wraps Voxels around existing :doc:`Particles <physics/particles>`. It requires a particle-emitting object and a 'domain' object within which smoke is rendered.
 
@@ -26,7 +26,7 @@ The simulator uses a volumetric fluid-based model, with the end results output a
 
 
 User workflow
--------------
+=============
 
 The smoke simulation is similar to the Fluid simulation:
 a Domain and Flow object is required to do a smoke simulation:

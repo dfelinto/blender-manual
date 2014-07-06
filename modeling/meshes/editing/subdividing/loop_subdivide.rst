@@ -3,7 +3,7 @@
 
 
 Loop Subdivide
-==============
+**************
 
 .. admonition:: Reference
    :class: refbox
@@ -17,7 +17,7 @@ Loop Subdivide
 
 
 Usage
------
+=====
 
 **Pre-visualizing the cut**
    After the tool is activated, move the cursor over a desired edge. The cut to be made is marked with a magenta colored line as you move the mouse over the various edges. The to-be-created edge loop stops at the poles (tris and ngons) where the existing face loop terminates.
@@ -48,7 +48,7 @@ Usage
 
 
 Options
--------
+=======
 
 Options are only available while the tool is in use, and are displayed in the 3d view header
 

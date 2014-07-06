@@ -1,6 +1,6 @@
 
 Texture types
-=============
+*************
 
 This are the available texture types:
 

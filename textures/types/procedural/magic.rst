@@ -1,6 +1,6 @@
 
 Procedural textures: Magic
-==========================
+**************************
 
 .. figure:: /images/25-Manual-Textures-Procedural-Magic.jpg
    :width: 307px
@@ -16,7 +16,7 @@ Procedural textures: Magic
 
 
 Options
--------
+=======
 
 Depth
    The depth of the calculation. A higher number results in a long calculation time, but also in finer details.

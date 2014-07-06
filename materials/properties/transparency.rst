@@ -1,6 +1,6 @@
 
 Transparency
-============
+************
 
 .. admonition:: Reference
    :class: refbox
@@ -27,7 +27,7 @@ In Blender, there are three ways in which the transparency of a material can be 
 
 
 Common Options
---------------
+==============
 
 The following property controls are available for all transparency options:
 
@@ -61,7 +61,7 @@ See :doc:`Mask Transparency <materials/properties/mask_transparency>`.
 
 
 Z Buffer
---------
+========
 
 This uses the alpha buffer for transparent faces.
 The alpha value of each pixel determines the mix of the basic color of the material,
@@ -70,7 +70,7 @@ Only basic settings are available with this option; it does not calculate refrac
 
 
 Raytraced Transparency
-----------------------
+======================
 
 Uses ray tracing to calculate refractions. Ray tracing allows for complex refractions,
 falloff, and blurring,
@@ -110,7 +110,7 @@ this is all because of the Index of Refraction of glass.
 
 
 Options
--------
+=======
 
 .. figure:: /images/Manual-2.5-Material-RaytracedTransp-Panel.jpg
 
@@ -152,10 +152,10 @@ In addition to the common options given above, the following property controls a
 
 
 Examples
---------
+========
 
 Index of Refraction
-~~~~~~~~~~~~~~~~~~~
+-------------------
 
 .. figure:: /images/Manual-2.5-Material-RaytracedTransp-IOR-Examples.jpg
 
@@ -166,7 +166,7 @@ Index of Refraction
 
 
 Fresnel
-~~~~~~~
+-------
 
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+
 +.. figure:: /images/Manual-2.5-Material-RayTraceTransp-FresnelExampel.jpg                                                                                                                                                                                                                                                                               |.. figure:: /images/Manual-2.5-Material-RayTraceTransp-FresnelExampelZTransp.jpg +
@@ -192,7 +192,7 @@ value or decreasing the :guilabel:`Alpha` value.
 
 
 Depth
-~~~~~
+-----
 
 .. figure:: /images/Manual-2.5-Material-Transp-3GlassesExample.jpg
    :width: 640px
@@ -219,10 +219,10 @@ transparent objects is often an interesting alternative.
 
 
 Hints
-=====
+*****
 
 Transparent shadows
--------------------
+===================
 
 +--------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
 +.. figure:: /images/Manual25-Material-TranspShadow-Example-NoTraSha.jpg                     |.. figure:: /images/Manual25-Material-TranspShadow-Example-EnvLight.jpg  +
@@ -261,7 +261,7 @@ and :guilabel:`Gather` panels.  Alternatively, a texture can be used to control 
 
 
 IOR values for Common Materials
--------------------------------
+===============================
 
 The following list provides some index of refraction values to use when ray-traced
 transparency is used for various liquids, solids (gems), and gases:

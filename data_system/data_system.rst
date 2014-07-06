@@ -9,7 +9,7 @@
 
 
 Overview
-========
+********
 
 Each .blend file contains a database. This database contains all scenes, objects, meshes,
 textures, etc. that are in the file.
@@ -46,13 +46,13 @@ and then you will see the overall structure of a file: :guilabel:`Action`,
 
 
 Outliner and OOPS Schematic
-===========================
+***************************
 
 You can easily inspect the contents of your file by using the :guilabel:`Outliner` window. This window displays the Blender data system (:doc:`fully documented here <data_system/the_outliner>`). This window offers two views of the database. The :guilabel:`Outliner` view allows you to do simple operations on the objects. These operations include selecting, renaming, deleting and linking. The :guilabel:`OOPS Schematic` (Object-Oriented Programming System) view allows you to easily see how datablocks are linked. You can filter the view by using buttons found in the header.
 
 
 Users (Sharing)
-===============
+***************
 
 Many datablocks can be shared among other datablocks - re-use is encouraged. For example,
 suppose you have a material for one object, named "\ ``Glossy`` ".
@@ -70,7 +70,7 @@ You will notice a "2" next to the name of the material, indicating that there ar
 
 
 Fake User
----------
+=========
 
 Remember that Blender does not save datablocks that are not linked to anything in the
 *current* file.  If you're building a ".blend" file to serve as a library of things that you
@@ -84,7 +84,7 @@ the datablock will not be deleted.
 
 
 Copying and Linking Objects Between Scenes
-==========================================
+******************************************
 
 Sometimes you may want to link or copy objects between scenes. This is possible by first selecting objects you want
 to link or copy and then using the :guilabel:`Make Links` and :guilabel:`Make Single User` items found in
@@ -95,7 +95,7 @@ Further information on working with scenes can be found :doc:`here <data_system/
 
 
 Appending or Linking Across Files
-=================================
+*********************************
 
 The content of one .blend file is easily accessed and put into your current file by using the :guilabel:`File` ?
 :guilabel:`Append` function (accessed at any time by :kbd:`shift-F1`).
@@ -104,7 +104,7 @@ To find out more about how to copy or link objects across .blend files,
 
 
 Proxy Objects
--------------
+=============
 
 :doc:`Proxy objects <data_system/linked_libraries>` allow you to make (parts of) linked data local. For example,
 this allows an animator to make a local "copy" of the handler bones of a character,
@@ -118,7 +118,7 @@ Updates made to the shape of the car are applied automatically to the painter's 
 
 
 Pack and Unpack Data
-====================
+********************
 
 Blender has the ability to encapsulate (incorporate)
 various kinds of data within the .blend file that is normally saved outside of the .
@@ -133,7 +133,7 @@ box" displayed in the header.
 
 
 Unpack Data
------------
+===========
 
 When you have received a packed file,
 you can :guilabel:`File` → :guilabel:`External Data` → :guilabel:`Unpack into Files...`

@@ -1,6 +1,6 @@
 
 Armature Structure
-==================
+******************
 
 .. figure:: /images/Manual-Part-I-Quick51.jpg
    :width: 250px
@@ -16,7 +16,7 @@ FIXME(TODO: Internal Link;
 
 
 Chains of Bones
----------------
+===============
 
 .. figure:: /images/ManRiggingChainEx3DViewEditMode.jpg
    :width: 250px
@@ -48,7 +48,7 @@ Chains of bones are a particularly important topic in :doc:`posing <rigging/posi
 
 
 Editing Bones Relationships
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 This is detailed in the :doc:`editing pages <rigging/armatures/editing/properties#chain_editing>`, but let us have a quick look at this important feature.
 

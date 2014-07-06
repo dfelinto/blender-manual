@@ -1,9 +1,9 @@
 
 Copy Location Constraint
-========================
+************************
 
 Description
------------
+===========
 
 The :guilabel:`Copy Location` constraint forces its owner to have the same location as its
 target.
@@ -17,7 +17,7 @@ target.
 
 
 Options
--------
+=======
 
 .. figure:: /images/25-Manual-Constraints-Transform-CopyLoc.jpg
    :width: 307px

@@ -1,6 +1,6 @@
 
 Selecting Faces
-===============
+***************
 
 .. figure:: /images/selection-mode_buttons_face-activated.jpg
 
@@ -10,7 +10,7 @@ To select parts of a mesh face-wise, you have to switch to Face Select Mode. Do 
 
 
 Face Loops
-----------
+==========
 
 .. admonition:: Reference
    :class: refbox
@@ -40,7 +40,7 @@ use the :kbd:`alt-rmb` shortcut.
 
 
 Ngons in Face Select Mode
--------------------------
+=========================
 
 .. figure:: /images/face-mode_ngon_visual-problem.jpg
 

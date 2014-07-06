@@ -1,6 +1,6 @@
 
 Render Baking
-=============
+*************
 
 Baking, in general, is the act of pre-computing something in order to speed up some other
 process later down the line.
@@ -46,7 +46,7 @@ but will have much fewer faces/polygons.
 
 
 Options
-=======
+*******
 
 .. figure:: /images/25-Manual-Render-Bake-AO.jpg
    :width: 329px
@@ -56,16 +56,16 @@ Options
 
 
 Bake Mode
----------
+=========
 
 Full Render
-~~~~~~~~~~~
+-----------
 
 Bakes all materials, textures, and lighting except specularity and SSS.
 
 
 Ambient Occlusion
-~~~~~~~~~~~~~~~~~
+-----------------
 
 Bakes ambient occlusion as specified in the World panels. Ignores all lights in the scene.
 
@@ -76,7 +76,7 @@ Bakes ambient occlusion as specified in the World panels. Ignores all lights in 
 
 
 Shadow
-~~~~~~
+------
 
 Bakes shadows and lighting.
 
@@ -96,7 +96,7 @@ Bakes shadows and lighting.
 
 
 Normals
-~~~~~~~
+-------
 
 Bakes tangent and camera-space normals (amongst many others) to an RGB image.
 
@@ -119,7 +119,7 @@ the setting here should match the setting used for baking.
 
 
 Textures
-~~~~~~~~
+--------
 
 Bakes colors of materials and textures only, without shading.
 
@@ -132,7 +132,7 @@ Bakes colors of materials and textures only, without shading.
 
 
 Displacement
-~~~~~~~~~~~~
+------------
 
 Similar to baking normal maps,
 displacement maps can also be baked from a high-res object to an unwrapped low-res object,
@@ -153,25 +153,25 @@ renderers.
 
 
 Emission
-~~~~~~~~
+--------
 
 Bakes Emit, or the Glow color of a material.
 
 
 Alpha
-~~~~~
+-----
 
 Bakes Alpha values, or transparency of a material.
 
 
 Mirror Color and Intensity
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------
 
 Bakes Mirror color or intensity values.
 
 
 Specular Color and Intensity
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------
 
 Bakes specular color or specular intensity values.
 
@@ -184,7 +184,7 @@ Bakes specular color or specular intensity values.
 
 
 Additional Options
-------------------
+==================
 
 :guilabel:`Clear`
    If selected, clears the image to selected background color (default is black) before baking render.
@@ -216,7 +216,7 @@ Additional Options
 
 
 Workflow
---------
+========
 
 - In a 3D View window, select a mesh and enter UV/Face Select mode
 - :doc:`Unwrap the mesh object <textures/mapping/uv>`

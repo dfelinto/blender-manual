@@ -1,6 +1,6 @@
 
 Hook Modifier
-=============
+*************
 
 .. admonition:: Reference
    :class: refbox
@@ -10,7 +10,7 @@ Hook Modifier
 
 
 Description
------------
+===========
 
 .. figure:: /images/25-Manual-Modifiers-Hook-example1.jpg
 
@@ -28,7 +28,7 @@ they are much simpler to use.
 
 
 Options
--------
+=======
 
 .. figure:: /images/25-Manual-Modifiers-Hook.jpg
 
@@ -61,7 +61,7 @@ The following settings are only available in :guilabel:`Edit mode`:
 
 
 Hints
------
+=====
 
 - The hook modifier stores vertex indices from the original mesh to determine what to effect; this means that modifiers that generate geometry, like subsurf, should always be applied **after** the hook modifier; otherwise the generated geometry will be left out of the hook's influence.
 

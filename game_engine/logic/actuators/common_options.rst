@@ -1,6 +1,6 @@
 
 Actuator Common Options
-=======================
+***********************
 
 .. figure:: /images/BGE_Actuator_Column3.jpg
    :width: 292px

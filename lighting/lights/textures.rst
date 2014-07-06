@@ -1,6 +1,6 @@
 
 Lamps Textures
-==============
+**************
 
 .. figure:: /images/25-Manual-Lighting-Lights-Texture-Panels.jpg
    :width: 307px
@@ -13,7 +13,7 @@ When a new lamp is added, it produces light in a uniform, flat color. While this
 
 
 Options
--------
+=======
 
 The lamp textures settings are grouped into two panels. Here we will only talk about the few things that differ from object material textures; see the :doc:`Materials <materials>` and :doc:`Textures <textures>` chapters for details about the standard options.
 

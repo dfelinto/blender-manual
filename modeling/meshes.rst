@@ -2,10 +2,10 @@
 ..    TODO/Review: {{review||text=splitted mesh analysis}} .
 
 Edit Mode
-=========
+*********
 
 Entering Edit Mode
-------------------
+==================
 
 You can work with geometric objects in two modes.
 
@@ -57,7 +57,7 @@ or most recently selected, object.
 
 
 Visualization
--------------
+=============
 
 .. figure:: /images/25-manual-editmode-cubeselect-1.jpg
 
@@ -94,7 +94,7 @@ if enough vertices or edges are selected to define a face, that face is also hig
 
 
 Tool Shelf
-----------
+==========
 
 .. figure:: /images/25-manual-editmode-meshtools-split.jpg
 
@@ -118,7 +118,7 @@ For further information on panels see the :doc:`Reference panels <ce/panels>` se
 
 
 Properties Shelf
-----------------
+================
 
 .. figure:: /images/25-manual-editmode-properties-split.jpg
 
@@ -141,7 +141,7 @@ For further information on panels see the :doc:`Reference panels <ce/panels>` se
 
 
 Mesh Display
-~~~~~~~~~~~~
+------------
 
 TODO...
 

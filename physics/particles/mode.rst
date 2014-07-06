@@ -1,6 +1,6 @@
 
 Particle Mode
-=============
+*************
 
 Using :guilabel:`Particle Mode` you can edit the key-points (key-frames) and paths of :guilabel:`Baked` :doc:`Hair <physics/particles/hair>`, :doc:`Particle <physics/particles>`, :doc:`Cloth <physics/cloth>`, and :doc:`Soft Body <physics/soft_body>` simulations. (You can also edit and style hair before baking).
 
@@ -10,7 +10,7 @@ various functions.
 
 
 Ways to use Particle Mode
--------------------------
+=========================
 
 .. admonition:: Only Frames Baked to Memory are Editable!
    :class: nicetip
@@ -72,10 +72,10 @@ To be able to clearly see what you are working on:
 
 
 Using Particle Mode
-===================
+*******************
 
 Selecting Points
-----------------
+================
 
 - Single: :kbd:`Rmb`.
 - All: :kbd:`A`.
@@ -102,7 +102,7 @@ You may also use the :guilabel:`Select` Menu.
 
 
 Moving keypoints or particles
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------
 
 - To move selected keypoints press :kbd:`G`, or use one of the various other methods to grab vertices.
 - To move a particle root you have to turn off :guilabel:`Keep` :guilabel:`Root` in the :guilabel:`Tool Bar`.
@@ -116,7 +116,7 @@ while high settings produce a smooth curve.
 
 
 Mirroring particles
-~~~~~~~~~~~~~~~~~~~
+-------------------
 
 - If you want to create an X-Axis symmetrical haircut you have to do following steps:
   - Select all particles with :kbd:`A`.
@@ -130,7 +130,7 @@ or the :guilabel:`Particle` menu.
 
 
 Hiding/Unhiding
-~~~~~~~~~~~~~~~
+---------------
 
 Hiding and unhiding of particles works similar as with vertices in the 3D window.
 Select one or more keypoints of the particle you want to hide and press :kbd:`H`.
@@ -146,7 +146,7 @@ To un-hide all hidden particles press Alt+H.
 
 
 Select Modes
-~~~~~~~~~~~~
+------------
 
 .. figure:: /images/Icon-library_3D-Window_ParticleSelectAndDisplayMode.jpg
    :width: 640px
@@ -162,7 +162,7 @@ Select Modes
 
 
 Brush
-~~~~~
+-----
 
 With the buttons you can select the type of "Comb" utility you want to use.
 Below the brush types, their settings appear:
@@ -212,7 +212,7 @@ Common Options:
 
 
 Options
-~~~~~~~
+-------
 
 :guilabel:`Deflect Emitter`,\ :guilabel:`Dist`
    Don't move keypoints through the emitting mesh. :guilabel:`Dist` is the distance to keep from the Emitter.

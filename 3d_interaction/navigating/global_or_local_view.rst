@@ -1,6 +1,6 @@
 
 Local or Global View
-====================
+********************
 
 .. admonition:: Reference
    :class: refbox
@@ -11,7 +11,7 @@ Local or Global View
 
 
 Description
------------
+===========
 
 When in :guilabel:`Local` view, only the selected objects are displayed,
 which can make editing easier in complex scenes. To enter local view,
@@ -24,7 +24,7 @@ local view.
 
 
 Examples
---------
+========
 
 In *Global view*, all the objects are visible. With the green cube selected, switching to
 *Local view* with :kbd:`Numpad-/`  will center the cube in the :guilabel:`3D View`.

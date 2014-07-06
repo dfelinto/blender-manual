@@ -1,6 +1,6 @@
 
 Rotate
-======
+******
 
 .. admonition:: Reference
    :class: refbox
@@ -11,7 +11,7 @@ Rotate
 
 
 Description
------------
+===========
 
 Rotation is also known as a spin, twist, orbit, pivot, revolve,
 or roll and involves changing the orientation of elements (vertices, edge, face, Object etc)
@@ -36,10 +36,10 @@ Snapping and the different types of Pivot Point.
 
 
 Usage
------
+=====
 
 Rotation using the keyboard shortcut
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------
 
 - Use :kbd:`RMB` to select the elements you want to rotate.
 - Tap :kbd:`r` once to enter rotation mode.
@@ -55,7 +55,7 @@ The amount of rotation will be displayed in the bottom left hand corner of the 3
 
 
 Constraining the rotation axis (axis locking)
-_____________________________________________
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Rotation can be constrained to a particular axis or axes through the use of :doc:`Axis Locking <3d_interaction/transform_control/axis_locking>`. To constrain rotation, the following shortcuts can be used:
 
@@ -74,7 +74,7 @@ moving the mouse in the desired direction e.g.
 
 
 Fine Tuning The Rotation
-________________________
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 :doc:`Precise control <3d_interaction/transform_control/precision>` can be had over rotation through the use of the :kbd:`shift` and :kbd:`ctrl` keys to limit rotation to discrete amounts. You can also enter a :doc:`numerical value <3d_interaction/transform_control/numeric_input>` in degrees to specify the amount of rotation after after initiating a rotation transformation.
 
@@ -98,7 +98,7 @@ ________________________
 
 
 Rotation with the 3D Transform Manipulator
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------
 
 .. figure:: /images/Icon-library_3D-Window_3D-transform-rotate-manipulator.jpg
    :width: 100px
@@ -123,7 +123,7 @@ and blue triad is selected). Set the manipulator type to rotation
 
 
 Rotation with the Properties Panel
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------
 
 .. figure:: /images/3D_interaction-Transformations-Basic-Rotate-rotate_properties_panel.jpg
    :width: 180px

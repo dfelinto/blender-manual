@@ -1,9 +1,9 @@
 
 Limit Scale Constraint
-======================
+**********************
 
 Description
------------
+===========
 
 An object or bone can be scaled along the X, Y and Z axes.
 This constraint restricts the amount of allowed scalings along each axis,
@@ -37,7 +37,7 @@ using the :guilabel:`Transformation Properties` axis locking feature is probably
 
 
 Options
--------
+=======
 
 .. figure:: /images/25-Manual-Constraints-Transform-LimitScale.jpg
    :width: 296px

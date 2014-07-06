@@ -3,7 +3,7 @@
 
 
 Optimizing Render Performance
-=============================
+*****************************
 
 "A watched pot never boils" is the old saying, but you may wonder why your render takes so long to create, or worse, crashes mid-way through! Well, there is lots going on and lots you can do to speed up rendering or enable a complicated render to complete. Also, it is possible to render a very complicated scene on a mediocre PC by being "render-smart". Here's a "top ten" list of things to do or not do in order to speed up rendering or even avoid crashes during scene render. Some options may decrease the quality of your render, but for draft renders you may not care.
 
@@ -14,7 +14,7 @@ and Blender cannot continue.
 You will need to do one or more of the following tasks on this page in order to render.
 
 Hardware Improvements
----------------------
+=====================
 
 - Get more RAM up to your PC's (motherboard and operating system) limit. Presently, Blender can use up to 8GG (giga-giga) of physical memory (64-bit address space), but most PCs can only handle 4G of RAM.
 - Upgrade your CPU to a multi-core/multiprocessor
@@ -25,7 +25,7 @@ Hardware Improvements
 
 
 Operating System Configuration
-------------------------------
+==============================
 
 - Increase Blender's processing priority through your OS.
 - Increase your swap file space used by the OS for memory swapping. Also called virtual memory pagefile size, up to the size of your physical memory.
@@ -38,7 +38,7 @@ Operating System Configuration
 
 
 Blender Settings
-----------------
+================
 
 - Increase the MEM Cache Limit in the User Preferences System & OpenGL tab.
 - Upgrade to an `optimized Blender build <http://www.graphicall.org>`__, especially if you have a modern chip that supports SSE2 - render times are **30% faster** using an optimized build.
@@ -49,7 +49,7 @@ Blender Settings
 
 
 Scene and Specific Objects
---------------------------
+==========================
 
 - Remove lamps, or move them to unrendered layers, or tie them to layers.
 - Turn off some lamp's shadows, using only one or two main sun lamps to cast shadows. A few "shadows only" lights will render faster than every light having shadows on.
@@ -77,7 +77,7 @@ Scene and Specific Objects
 
 
 Render Settings
----------------
+===============
 
 - :doc:`Output Panel <render/output>`
   - Disable :guilabel:`Edge` rendering.
@@ -119,7 +119,7 @@ Render Settings
 
 
 Multi-Pass Compositing
-----------------------
+======================
 
 Another strategy that can be used to address the problem of long (re-)render times is to
 structure your workflow from the ground up so that you make aggressive use of *compositing*,

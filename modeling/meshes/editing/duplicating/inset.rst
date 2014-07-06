@@ -1,6 +1,6 @@
 
 Inset
-=====
+*****
 
 .. admonition:: Reference
    :class: refbox
@@ -26,7 +26,7 @@ inset during the modal operation by holding :kbd:`ctrl`.
 
 
 Options
--------
+=======
 
 +------------------------------------------------+
 +.. figure:: /images/mesh_tool_inset_settings.jpg+

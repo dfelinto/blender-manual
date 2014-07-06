@@ -8,7 +8,7 @@
 
 
 Overview of the Sequence Editor
-===============================
+*******************************
 
 Blender's Video Sequence Editor is a flexible workbench for editing your video footage.
 It is used to review your footage, and glue many sequences of your movie together.
@@ -57,10 +57,10 @@ or image with the VSE open, it will render the clips for the VSE instead of the 
 
 
 Using the Sequence Editor
-=========================
+*************************
 
 Adding Strips
--------------
+=============
 
 .. figure:: /images/VseAddMenu.jpg
 
@@ -106,7 +106,7 @@ as a visual cue that you can pick them successfully:
 
 
 Add Movies or Images
-~~~~~~~~~~~~~~~~~~~~
+--------------------
 
 When adding a Movie or Movie+Audio\ :kbd:`Lmb` LEFT CLICK to put the name of the file into
 the text box at the top; this selects a **single** file (like a movie)
@@ -206,7 +206,7 @@ but is clearly spelled out in the information strip.
 
 
 Add Scene
-~~~~~~~~~
+---------
 
 You can add the virtual image output of a Scene in your current .blend file as well.
 Select the scene from the popup list,
@@ -228,7 +228,7 @@ little more than a static image with animated opacity.
 
 
 Add Audio
-~~~~~~~~~
+---------
 
 The VSE can incorporate an audio channel which you can hear as you scrub.
 Add an audio track when you are trying to time your video/animation to an audio track, or vice versa.
@@ -236,7 +236,7 @@ Please refer to :doc:`the Audio Sequences section <sequencer/audio>` for more in
 
 
 Adding Effects
---------------
+==============
 
 .. figure:: /images/Manual-VSE-SFX.jpg
 
@@ -294,7 +294,7 @@ you can press :guilabel:`C` hange to switch effects on a selected Effects strip.
 
 
 Adding Plugin Effects
-~~~~~~~~~~~~~~~~~~~~~
+---------------------
 
 FIXME(Template Unsupported: Warning/Not Yet Implemented;
 {{Warning/Not Yet Implemented|VSE plugins are not working in Blender 2.6 currently...}})
@@ -317,7 +317,7 @@ FIXME(Template Unsupported: Warning/Not Yet Implemented;
 
 
 Strip Properties
-----------------
+================
 
 The properties for the strip are examined and set in the properties panel,
 shortcut :kbd:`N`.
@@ -335,7 +335,7 @@ The panels for each of these sets of options and controls are shown to the right
 
 
 Edit Strip Panel
-~~~~~~~~~~~~~~~~
+----------------
 
 :guilabel:`Name`
    You can name or rename your strips here.
@@ -375,7 +375,7 @@ tell Blender to look backward and compose the image based on the n previous fram
 
 
 Effect Strip
-~~~~~~~~~~~~
+------------
 
 For all effects, use the Strip Properties panel to control the effects strip;
 each effect has different controls, but they can all be set in the Properties panel.
@@ -387,7 +387,7 @@ The effect strip is shown in some channel, but its resultant effect shows up as 
 
 
 Strip Input
-~~~~~~~~~~~
+-----------
 
 Controls the source of the strip. Fields include file path, file name, image offset,
 crop settings.
@@ -400,7 +400,7 @@ You have two text fields for path, the first being the path of the parent direct
 
 
 Filter
-~~~~~~
+------
 
 Enables you to quickly set common image pre-processing options.
 :guilabel:`Strobe`
@@ -428,7 +428,7 @@ Enables you to quickly set common image pre-processing options.
 
 
 Proxy Strip Properties Panel
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------
 
 A proxy is a smaller image (faster to load) that stands in for the main image.
 When you :guilabel:`Rebuild proxy` Blender computes small images (like thumbnails)
@@ -441,7 +441,7 @@ be selected in the Properties panel of the Sequencer View (where the edit plays 
 
 
 Sound
-~~~~~
+-----
 
 This panel appears when a sound file is selected.
 
@@ -460,7 +460,7 @@ Here you can specify the Sound Strip's file path and file name.
 
 
 Scene
-~~~~~
+-----
 
 Specify the scene to be linked to the current scene strip.
 
@@ -472,7 +472,7 @@ Specify the scene to be linked to the current scene strip.
 
 
 Adjusting the View
-------------------
+==================
 
 Use these shortcuts to adjust the sequence area of the VSE:
 Pan :kbd:`mmb`
@@ -518,7 +518,7 @@ Use this when working arranging a lot of strips and you want to use all of your 
 
 
 Scrubbing
-~~~~~~~~~
+---------
 
 To move back and forth through your movie, use the Timeline window.
 :kbd:`Lmb` click and drag left/right in the timeline window,
@@ -531,7 +531,7 @@ which may take some time.
 
 
 View Modes
-~~~~~~~~~~
+----------
 
 The icons in the header allow to change the view of the VSE. By default,
 only the sequencer is displayed. The second button displays only the Preview window,
@@ -541,7 +541,7 @@ When the preview is enabled, you have several options to change what type pf pre
 
 
 Scene Preview
-~~~~~~~~~~~~~
+-------------
 
 When using a Scene Strip in the sequencer,
 these settings in the Properties Panel determine how they are shown in the preview window.
@@ -552,7 +552,7 @@ these settings in the Properties Panel determine how they are shown in the previ
 
 
 View Settings
-~~~~~~~~~~~~~
+-------------
 
 The View Settings section in the properties panel contains addition display options.
 
@@ -567,7 +567,7 @@ The View Settings section in the properties panel contains addition display opti
 
 
 Refresh View
-~~~~~~~~~~~~
+------------
 
 Certain operations, like moving an object in 3D View,
 may not force the Sequencer to call for a refresh of the rendered image
@@ -580,7 +580,7 @@ current frame.
 
 
 Selecting Strips
-----------------
+================
 
 The Select Menu helps you select strips in different ways.
 
@@ -605,7 +605,7 @@ The Select Menu helps you select strips in different ways.
 
 
 Moving and Modifying Strips
----------------------------
+===========================
 
 :kbd:`G` Moves the selected strip(s) in time or in channels. Move your mouse horizontally (left/right) to change the strip's position in time. Move vertically (up/down) to change channels.
 
@@ -664,7 +664,7 @@ The Strip Menu contains additional tools for working with strips:
 
 
 Snap to Frame
-~~~~~~~~~~~~~
+-------------
 
 :kbd:`shift-S`
 Position your cursor (vertical green line) to the time you want.
@@ -675,13 +675,13 @@ you can get all the way down to an individual frame.
 
 
 Separate Images to Strips
-~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------
 
 :kbd:`Y` Converts the strip into multiple strips, one strip for each frame. Very useful for slide shows and other cases where you want to bring in a set on non-continuous images.
 
 
 Editing Strips
-~~~~~~~~~~~~~~
+--------------
 
 - :kbd:`Rmb` in the middle of the strip selects the **entire** strip; holding it down (or pressing :kbd:`G` rab) and then moving the mouse drags a strip around.
 
@@ -742,13 +742,13 @@ Change the length of an effect strip by changing the start/end frame of the orig
 
 
 Copy and Paste
-~~~~~~~~~~~~~~
+--------------
 
 You can copy a clip and paste it using the two header buttons.
 
 
 Meta Strips
-~~~~~~~~~~~
+-----------
 
 A Meta-Strip is a group of strips. Select all the strips you want to group,
 and Ctrl-g to group them into one meta.

@@ -2,10 +2,10 @@
 ..    TODO/Review: {{review|}} .
 
 Mirror Editing
-==============
+**************
 
 X-Mirror
---------
+========
 
 .. admonition:: Reference
    :class: refbox
@@ -21,7 +21,7 @@ it will be transformed accordingly, *through a symmetry along the local X axis*.
 
 
 Topology Mirror
----------------
+===============
 
 The :guilabel:`Topology Mirror` option is available in the :guilabel:`3D View Editor >
 Toolshelf Region > Mesh Options Panel` whilst in :guilabel:`Edit Mode`
@@ -58,13 +58,13 @@ even though they are not perfectly positioned.
 
 
 Mirror Modifier
----------------
+===============
 
 The conditions for X-mirror to work are quite strict, which can make it difficult to use. To have an exact mirrored version of a (half) mesh, its easier and simpler to use the :doc:`Mirror modifier <modifiers/generate/mirror>`
 
 
 Snap to Symmetry
-----------------
+================
 
 .. admonition:: Reference
    :class: refbox
@@ -109,7 +109,7 @@ imported from other applications are asymmetrical enough that mirror fails too.
 
 
 Symmetrize Mesh
----------------
+===============
 
 .. admonition:: Reference
    :class: refbox
@@ -142,6 +142,6 @@ and mirroring over the geometry in the specified axis, and merges the two halves
 
 
 Mirroring Geometry
-------------------
+==================
 
 See :doc:`Mirror <modeling/meshes/editing/deforming/mirror>` for information on mirroring, which allows you to flip geometry across an axis

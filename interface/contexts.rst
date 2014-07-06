@@ -1,6 +1,6 @@
 
 Contexts
-========
+********
 
 The :guilabel:`Properties (or Buttons) Window` shows several :guilabel:`Contexts`,
 which can be chosen via the icon row in the header (see *Context button example*).

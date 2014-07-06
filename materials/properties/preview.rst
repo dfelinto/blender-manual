@@ -1,6 +1,6 @@
 
 Material Preview
-================
+****************
 
 .. admonition:: Reference
    :class: refbox
@@ -19,7 +19,7 @@ achieves its goal.
 
 
 Options
-~~~~~~~
+-------
 
 **Flat XY plane**
    Useful for previewing textures and materials of flat objects, like walls, paper and such.
@@ -40,7 +40,7 @@ Disable this option if your computer is already slow or old.
 
 
 Examples
-~~~~~~~~
+--------
 
 +------------------------------------------------------------------+-------------------------------------------------------------------+---------------------------------------------------------------------+
 +.. figure:: /images/Manual-2.5-Material-MatMenu-Preview-Flat.jpg  |.. figure:: /images/Manual-2.5-Material-MatMenu-Preview-Sphere.jpg |.. figure:: /images/Manual-2.5-Material-MatMenu-Preview-Cube.jpg     +

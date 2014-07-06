@@ -1,6 +1,6 @@
 
 Skin Modifier
-=============
+*************
 
 .. admonition:: Reference
    :class: refbox
@@ -18,7 +18,7 @@ arbitrary topology.
 Note that faces in the input are ignored by the Skin modifier.
 
 Options
--------
+=======
 
 .. figure:: /images/Doc-skin-ui.jpg
    :width: 300px
@@ -44,7 +44,7 @@ Options
 
 
 Example
--------
+=======
 
 - Select the cube. :kbd:`Tab` into edit mode and :menuselection:`[Alt][M] --> At Center`
   to merge all vertices at one point. :kbd:`E` then :kbd:`Z` to extrude the vertex along the Z axis.
@@ -69,7 +69,7 @@ Example
 
 
 External links
-==============
+**************
 
 - `Skin Modifier Development at Blender Nation <http://www.blendernation.com/2011/03/11/skin-modifier-development/>`__ — An early demonstration of the skin modifier by Nicholas Bishop (March 2011)
 - Ji, Zhongping; Liu, Ligang; Wang, Yigang (2010). `B-Mesh: A Fast Modeling System for Base Meshes of 3D Articulated Shapes <http://www.math.zju.edu.cn/ligangliu/CAGD/Projects/BMesh/>`__, Computer Graphics Forum 29(7), pp. 2169-2178. — The work this modifier is based on (`direct link to PDF <http://www.math.zju.edu.cn/ligangliu/CAGD/Projects/BMesh/Paper/BMesh.pdf>`__)

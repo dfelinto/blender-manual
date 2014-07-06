@@ -1,6 +1,6 @@
 
 Color Ramps
-===========
+***********
 
 .. admonition:: Reference
    :class: refbox
@@ -33,7 +33,7 @@ Blender materials.
 
 
 Options
-~~~~~~~
+-------
 
 .. figure:: /images/Manual-2.5-Material-RampsPanel.jpg
 
@@ -98,7 +98,7 @@ Color and alpha values for each marker can be set by clicking the
 
 
 Colorbands
-----------
+==========
 
 .. admonition:: Reference
    :class: refbox
@@ -114,7 +114,7 @@ as well in other places where a range of colors can be computed and displayed.
 
 
 Options
-_______
+^^^^^^^
 
 **Add**
    Add a new mark to the center of the colorband with the default color (neutral gray).  New marks can also be added by :kbd:`ctrl-lmb` clicking in the colorband itself, which will add the mark at the position of the click with the same color that already exists underneath the mouse pointer.

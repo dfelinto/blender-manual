@@ -1,6 +1,6 @@
 
 Manipulators
-============
+************
 
 .. admonition:: Reference
    :class: refbox
@@ -49,7 +49,7 @@ Manipulators can be accessed in the header of the :guilabel:`3D View` window:
 
 
 Manipulator controls
-====================
+********************
 
 - Holding down :kbd:`ctrl` constrains the action to set increments. Holding down :kbd:`shift` **after** you :kbd:`lmb` the manipulator handle will constrain the action to smaller increments.
 - Holding down :kbd:`shift` **before** you :kbd:`lmb` click on one of the handles will cause the manipulator action to be performed relative to the other two axes (you can let go of :kbd:`shift` once you have clicked). For example, if you :kbd:`shift` then :kbd:`lmb` the Z axis handle of the translate manipulator, movement will occur in the X and Y planes.
@@ -62,7 +62,7 @@ Manipulator controls
 
 
 Manipulator Preferences
-=======================
+***********************
 
 .. figure:: /images/3D_interaction-Transform_Control-Manipulators-manipulator_preferences.jpg
 
@@ -78,7 +78,7 @@ can be found in the :guilabel:`Interface` section of the :guilabel:`User Prefere
 
 
 Choosing the Transform Orientation
-==================================
+**********************************
 
 .. admonition:: Reference
    :class: refbox

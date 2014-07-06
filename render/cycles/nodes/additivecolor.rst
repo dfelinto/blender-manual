@@ -1,6 +1,6 @@
 
 Cycles Additive Materials
-=========================
+*************************
 
 If you used game engines or other renderers. You know about Additive Blending for materials.
 

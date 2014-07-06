@@ -3,7 +3,7 @@
 
 
 Texture Painting
-================
+****************
 
 A UV Texture is a picture (image, sequence or movie)
 that is used to color the surface of a mesh.
@@ -36,7 +36,7 @@ Texture Paint works in both a 3D window and the UV/Image Editor window. In the 3
 
 
 Getting Started
----------------
+===============
 
 Once you have unwrapped your model to a UV Map (as explained in previous pages),
 you can begin the texturing process.
@@ -87,7 +87,7 @@ you must explicitly do so by Image→Save in the UV/Image Editor window.
 
 
 Texture Preview
----------------
+===============
 
 If your texture is already used to color, bump map, displace, alpha-transparent, etc.,
 a surface of a model in your scene (in other techie words,
@@ -105,7 +105,7 @@ See Texture Mapping Output for more information on bump mapping.
 
 
 Brushes Settings
-----------------
+================
 
 Press :kbd:`T` in the UV/Image Editor to show the Toolbar panel. With this panel,
 you can create many brushes, each with unique settings (such as color and width).
@@ -133,7 +133,7 @@ color.
 
 
 Brush
-~~~~~
+-----
 
 .. figure:: /images/Doc26-textures-painting-brush.jpg
    :width: 200px
@@ -147,7 +147,7 @@ Brush
 
 
 Types of brushes
-________________
+^^^^^^^^^^^^^^^^
 
 There are four different types of brushes
    :guilabel:`Draw`
@@ -197,7 +197,7 @@ There are four different types of brushes
 
 
 Texture
-~~~~~~~
+-------
 
 .. figure:: /images/Doc26-textures-painting-brushTexture.jpg
    :width: 250px
@@ -250,7 +250,7 @@ this field changes to indicate the picture image or texture that you are cloning
 
 
 Stroke
-~~~~~~
+------
 
 **Stroke Method**
    Allows set the way applying strokes.
@@ -287,30 +287,30 @@ Stroke
 
 
 Curve
-~~~~~
+-----
 
 The paint curve allows you to control the falloff of the brush.
 Changing the shape of the curve will make the brush softer or harder.
 
 
 Paint options
--------------
+=============
 
 Overlay
-~~~~~~~
+-------
 
 Allows you to customize the display of curve and texture that applied to the brush.
 
 
 Appearance
-~~~~~~~~~~
+----------
 
 Allows you to customize the color of the brush radius outline,
 as well as specify a custom icon.
 
 
 Saving
-------
+======
 
 If the header menu item Image has an asterisk next to it,
 it means that the image has been changed, but not saved. Use the :guilabel:`Image→Save Image`
@@ -332,7 +332,7 @@ saving your images to a separate file is not necessary.
 
 
 Using an External Image Editor
-------------------------------
+==============================
 
 If you use an external program to edit your UV Texture, you must:
 

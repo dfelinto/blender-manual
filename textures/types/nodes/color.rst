@@ -3,10 +3,10 @@
 
 
 Texture Color Nodes
-===================
+*******************
 
 Mix
----
+===
 
 .. figure:: /images/Doc26-textures-nodes-color-mix.jpg
 
@@ -73,7 +73,7 @@ The alpha and Z channels (for compositing nodes) are mixed as well.
 
 
 RGB Curves
-----------
+==========
 
 .. figure:: /images/Doc26-textures-nodes-color-rgbCurves.jpg
    :width: 250px
@@ -100,7 +100,7 @@ set the curve so that a little red does not show at all, but a lot of red does.
 
 
 Invert
-------
+======
 
 .. figure:: /images/Doc26-textures-nodes-color-invert.jpg
 
@@ -111,7 +111,7 @@ This node simply inverts the input values and colors.
 
 
 Hue Saturation Value
---------------------
+====================
 
 .. figure:: /images/Doc26-textures-nodes-color-hsv.jpg
    :width: 300px
@@ -124,7 +124,7 @@ Use this node to adjust the Hue, Saturation, and Value of an input.
 
 
 Combine and Separate RGB
-------------------------
+========================
 
 .. figure:: /images/Doc26-textures-nodes-color-combineRgb.jpg
    :width: 250px

@@ -1,6 +1,6 @@
 
 Saving Files
-============
+************
 
 .. admonition:: Reference
    :class: refbox
@@ -11,7 +11,7 @@ Saving Files
 
 
 Description
-===========
+***********
 
 Saving files is like loading files. When you press :kbd:`F2`, :guilabel:`File Browser` window will open.
 The window appears the same as when opening files, except for a few options in the side panel.
@@ -23,7 +23,7 @@ see the page on :doc:`Opening files <data_system/files/open>`.
 
 
 Saving
-======
+******
 
 Click the lower edit box to enter a filename. If it doesn't end with "\ ``.blend`` ",
 the extension is automatically appended.
@@ -47,31 +47,31 @@ Depending on the number of :doc:`Save Versions <vitals/undo_and_redo#save_and_au
 
 
 Save Options
-============
+************
 
 The save options appear at the bottom of the side panel.
 
 
 Compress File
--------------
+=============
 
 Enable this option to squash large files, this removes dead space.
 
 
 Remap Relative
---------------
+==============
 
 This option remaps relative paths when saving a file in a new location
 
 
 Save Copy
----------
+=========
 
 This option saves a copy of the actual working state, but does not make the saved file active.
 
 
 Tip for Save Increments
------------------------
+=======================
 
 The save dialog contains a little feature to help you to create multiple versions of your
 work: pressing :kbd:`pad+` or :kbd:`pad-` increments or decrements a number at the

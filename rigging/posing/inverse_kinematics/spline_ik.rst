@@ -3,7 +3,7 @@
 
 
 Spline IK
-=========
+*********
 
 Spline IK is a constraint which aligns a chain of bones along a curve. By leveraging the ease
 and flexibility of achieving aesthetically pleasing shapes offered by curves and the
@@ -17,7 +17,7 @@ Full description of the settings for the spline IK are detailed on the
 
 
 Basic Setup
------------
+===========
 
 The Spline IK Constraint is not strictly an 'Inverse Kinematics' method (i.e. IK Constraint),
 but rather a 'Forward Kinematics' method (i.e. normal bone posing). However,
@@ -40,10 +40,10 @@ Congratulations, the bone chain is now controlled by the curve.
 
 
 Settings and Controls
-=====================
+*********************
 
 Roll Control
-------------
+============
 
 To control the 'twist' or 'roll' of the Spline IK chain,
 the standard methods of rotating the bones in the chain along their y-axes still apply.
@@ -53,7 +53,7 @@ Applying copy rotation constraints on the bones should also work.
 
 
 Offset Controls
----------------
+===============
 
 The entire bone chain can be made to follow the shape of the curve while still being able to
 be placed at an arbitrary point in 3D-space when the 'Chain Offset' option is enabled.
@@ -62,7 +62,7 @@ and the bones will be made to follow the curve in its untransformed position.
 
 
 Thickness Controls
-------------------
+==================
 
 The thickness of the bones in the chain is controlled using the constraint's 'XZ Scale Mode'
 setting. This setting determines the method used for determining the scaling on the X and Z
@@ -83,7 +83,7 @@ to be tweaked as necessary for artistic control.
 
 
 Tips for Nice Setups
-====================
+********************
 
 - For optimal deformations, it is recommended that the bones are roughly the same length, and that they are not too long, to facilitate a better fit to the curve. Also, bones should ideally be created in a way that follows the shape of the curve in its 'rest pose' shape, to minimise the problems in areas where the curve has sharp bends which may be especially noticeable when stretching is disabled.
 - For control of the curve, it is recommended that hooks (in particular, Bone Hooks, which are new in 2.5) are used to control the control-verts of the curve, with one hook per control-vert. In general, only a few control-verts should be needed for the curve (i.e. 1 for every 3-5 bones offers decent control).

@@ -1,6 +1,6 @@
 
 Transformations
-===============
+***************
 
 .. admonition:: Reference
    :class: refbox
@@ -22,7 +22,7 @@ links provide a more detailed explanation of the more available transformation o
 
 
 Basic transformations
----------------------
+=====================
 
 - :doc:`Grab/Move <3d_interaction/transformations/basics/grab>`: move a selection.
 - :doc:`Rotate <3d_interaction/transformations/basics/rotate>`: rotate a selection.
@@ -30,7 +30,7 @@ Basic transformations
 
 
 Advanced Transformations
-------------------------
+========================
 
 - :doc:`Mirror <3d_interaction/transformations/advanced/mirror>`: mirror the selection.
 - :doc:`To Sphere <3d_interaction/transformations/advanced/to_sphere>`: make the selection have a more spherical shape.
@@ -50,7 +50,7 @@ Advanced Transformations
 
 
 Transform Control
------------------
+=================
 
 In addition to the specific controls on each of the above pages, there are a number of general
 controls that can be used to modify the effects of the listed transformations.

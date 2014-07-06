@@ -1,6 +1,6 @@
 
 Precision
-=========
+*********
 
 .. admonition:: Reference
    :class: refbox
@@ -10,7 +10,7 @@ Precision
 
 
 Description
------------
+===========
 
 Holding :kbd:`ctrl` or :kbd:`shift` during a transformation operation
 (such as grab/move, rotate or scale)
@@ -24,17 +24,17 @@ operation.
 
 
 Usage
------
+=====
 
 With hotkeys
-~~~~~~~~~~~~
+------------
 
 Press :kbd:`g`, :kbd:`r` or :kbd:`s` and then hold either :kbd:`ctrl`,
 :kbd:`shift` or :kbd:`ctrl-shift`.
 
 
 With the Transform Manipulator
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------
 
 Hold :kbd:`ctrl`,
 :kbd:`shift` or :kbd:`ctrl-shift` and click on the appropriate manipulator handle.
@@ -51,10 +51,10 @@ clicking the manipulator handle and then holding the shortcut key for precision 
 
 
 Holding CTRL
-------------
+============
 
 Grab/move transformations
-~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------
 
 .. figure:: /images/3D_interaction-Transform_Control_Precision_blender-units.jpg
 
@@ -74,13 +74,13 @@ Zooming out will have the opposite effect and cause movement to happen by increm
 
 
 Rotation transformations
-~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------
 
 Holding :kbd:`ctrl` will cause rotations of 5 degrees.
 
 
 Scale transformations
-~~~~~~~~~~~~~~~~~~~~~
+---------------------
 
 Holding :kbd:`ctrl` will cause size changes in increments of 0.1 BU.
 
@@ -95,7 +95,7 @@ Holding :kbd:`ctrl` will cause size changes in increments of 0.1 BU.
 
 
 Holding SHIFT
--------------
+=============
 
 Holding :kbd:`shift` during transformations allows for very fine control that does not
 rely on fixed increments. Rather, large movements of the mouse across the screen only result
@@ -103,10 +103,10 @@ in small transformations of the selection.
 
 
 Holding CTRL and SHIFT
-----------------------
+======================
 
 Grab/move transformations
-~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------
 
 For grab/move operations at the default zoom level, holding :kbd:`ctrl-shift` will cause
 your selection to move by increments of 1/10 Blender Units. Holding :kbd:`ctrl-shift` at
@@ -115,13 +115,13 @@ you were only holding :kbd:`ctrl`.
 
 
 Rotation transformations
-~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------
 
 Holding :kbd:`ctrl-shift` will cause rotations of 1 degree.
 
 
 Scale transformations
-~~~~~~~~~~~~~~~~~~~~~
+---------------------
 
 Holding :kbd:`ctrl-shift` will cause size changes in 0.01 BU increments.
 

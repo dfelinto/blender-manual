@@ -1,6 +1,6 @@
 
 Blender's Python API
-====================
+********************
 
 The full Python API (Application Programmer Interface) of Blender is documented here:
 
@@ -29,7 +29,7 @@ Specific versions:
 
 
 Scripts
-=======
+*******
 
 There are more than one hundred different scripts for Blender available on the net.
 

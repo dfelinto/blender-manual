@@ -1,6 +1,6 @@
 
 Mesh Editing
-============
+************
 
 Blender provides a variety of tools for editing meshes.
 These are available through the :guilabel:`Mesh Tools` palette,
@@ -20,7 +20,7 @@ and lattices.
 
 
 Types of Tools
-==============
+**************
 
 .. figure:: /images/25-Manual-Modeling-Meshes-Tools.jpg
    :width: 130px
@@ -64,10 +64,10 @@ The mesh tools are found in various places, and available through shortcuts as w
 
 
 Accessing Mesh Tools
-====================
+********************
 
 Mesh Tools Palette
-------------------
+==================
 
 When you select a mesh and :kbd:`tab` into edit mode,
 the :guilabel:`Tool Shelf` changes from :guilabel:`Object Tools` to :guilabel:`Mesh Tools`.
@@ -75,7 +75,7 @@ These are only some of the mesh editing tools.
 
 
 Menus
------
+=====
 
 The :guilabel:`Mesh` is located in the Header bar.
 Some of the menus can be accessed with shortcuts:

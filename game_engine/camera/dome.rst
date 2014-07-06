@@ -1,6 +1,6 @@
 
 Dome Camera
-===========
+***********
 
 This feature allows artists to visualize their interactive projects within an immersive dome
 environment. In order to make it an extensible tool, we are supporting Fulldome,
@@ -29,7 +29,7 @@ such that the result, when viewed with an orthographic camera, is a fisheye proj
 
 
 Dome Camera Settings
-====================
+********************
 
 .. figure:: /images/Manual-GameEngine-Dome-Panel.jpg
 
@@ -86,7 +86,7 @@ Available camera settings change depending on the selected Dome Type:
 
 
 Fisheye Mode
-------------
+============
 
 An Orthogonal Fisheye view from 90º to 250º degrees.
 
@@ -100,7 +100,7 @@ An Orthogonal Fisheye view from 90º to 250º degrees.
 
 
 Front-Truncated Dome Mode
--------------------------
+=========================
 
 Designed for truncated domes,
 this mode aligns the fisheye image with the top of the window while touching the sides.
@@ -116,7 +116,7 @@ this mode aligns the fisheye image with the top of the window while touching the
 
 
 Rear-Truncated Dome Mode
-------------------------
+========================
 
 Designed for truncated domes,
 this mode aligns the fisheye image with the bottom of the window while touching the sides.
@@ -132,7 +132,7 @@ this mode aligns the fisheye image with the bottom of the window while touching 
 
 
 Cube Map Mode
--------------
+=============
 
 Cube Map mode can be used for pre-generate animated images for CubeMaps.
 
@@ -147,7 +147,7 @@ Cube Map mode can be used for pre-generate animated images for CubeMaps.
 
 
 Spherical Panoramic
--------------------
+===================
 
 A full spherical panoramic mode.
 
@@ -161,7 +161,7 @@ A full spherical panoramic mode.
 
 
 Warp Data Mesh
---------------
+==============
 
 Many projection environments require images that are not simple perspective projections that
 are the norm for flat screen displays. Examples include geometry correction for cylindrical
@@ -214,7 +214,7 @@ software package(requires full version).
 
 
 Example files
-~~~~~~~~~~~~~
+-------------
 
 `Spherical Mirror Dome 4x3 <http://wiki.blender.org/uploads/8/81/Dev-GameEngine-Dome-Standard_4x3.data>`__, `Truncated Dome 4x3 <http://wiki.blender.org/uploads/9/9b/Dev-GameEngine-Dome-Truncated_4x3.data>`__, `Sample Fullscreen File 4x3 <http://wiki.blender.org/uploads/d/d4/Dev-GameEngine-Dome-Sample-FullScreen_4x3.data>`__, `Sample Fullbuffer File 4x3 <http://wiki.blender.org/uploads/3/3d/Dev-GameEngine-Dome-Sample-FullBuffer_4x3.data>`__.
 

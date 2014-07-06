@@ -1,6 +1,6 @@
 
 XNOR Controller
-===============
+***************
 
 This controller gives a positive (TRUE) output when
 One (and only one) of its inputs are FALSE, and

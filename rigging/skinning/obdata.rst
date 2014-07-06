@@ -3,7 +3,7 @@
 
 
 Skinning to Shapes
-==================
+******************
 
 We saw in the :doc:`previous page <rigging/skinning/objects>` how to link (parent) whole objects to armature bones - a way to control the transform properties of this object via a rig. However, armatures are much more powerful: they can deform the *shape* of an object (i.e. affect its ObData datablock - its vertices or control points...).
 
@@ -33,7 +33,7 @@ FIXME(TODO: Internal Link;
 
 
 Parenting to Whole Armatures
-----------------------------
+============================
 
 But before diving into this, let's talk about the different ways to skin (parent)
 an object to a whole armature - as with :doc:`object skinning <rigging/skinning/objects>`,
@@ -111,7 +111,7 @@ ignoring completely the bones' envelopes.
 
 
 Common Options
---------------
+==============
 
 There are two armature-global skinning options that are common to both envelopes and vertex
 groups methods:*
@@ -142,7 +142,7 @@ groups methods:*
 
 
 Bone Deform Options
--------------------
+===================
 
 .. figure:: /images/Man2.5RiggingEditingBoneCxtDeformPanel.jpg
    :width: 250px
@@ -160,7 +160,7 @@ that you can therefore define independently for each of them*
 
 
 Envelope
-~~~~~~~~
+--------
 
 .. figure:: /images/ManRiggingEnvelopePrinciples3DViewEditMode.jpg
    :width: 200px
@@ -205,7 +205,7 @@ it has the same effect as disabling the* :guilabel:`Deform` option.
 
 
 Curved Bone
-~~~~~~~~~~~
+-----------
 
 :guilabel:`Curved Bones` (previously known as B-bones) allow you make bones act like bezier curve segments,
 which results in smoother deformations for longer bones.
@@ -214,7 +214,7 @@ See the :doc:`editing pages <rigging/armatures/editing/properties>` for how to e
 
 
 Vertex Groups
--------------
+=============
 
 Vertex groups skinning method is only available for meshes and lattices - the only objects having
 :doc:`vertex groups <modeling/meshes/vertex_groups>` Its principle is very simple:
@@ -284,7 +284,7 @@ to have the most realistic behavior when bending - and this is not an easy thing
 
 
 See Also
---------
+========
 
 Making good but short examples about skinning to shapes is not an easy thing - so if you want better examples,
 have a look to :doc:`this BSoD tutorial <nimation/bsod/character_animation#rigging>`,

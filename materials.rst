@@ -1,6 +1,6 @@
 
 Introduction to Materials
-=========================
+*************************
 
 A material defines the artistic qualities of the substance that an object is made of.
 In its simplest form, you can use materials to show the substance an object is made of,
@@ -30,7 +30,7 @@ The :doc:`Textures <textures>` chapter describes how to add textures to material
 
 
 How Materials Work
-------------------
+==================
 
 Before you can understand how to design effectively with materials, you must understand how
 simulated light and surfaces interact in Blender's rendering engine and how material settings
@@ -99,7 +99,7 @@ depends on many inter-related settings:
 
 
 Using Materials
----------------
+===============
 
 .. admonition:: Check your Render
    :class: nicetip

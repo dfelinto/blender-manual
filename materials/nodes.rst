@@ -1,6 +1,6 @@
 
 Introduction
-============
+************
 
 In addition to creating materials as just described using all the settings on all the
 materials panels,
@@ -50,13 +50,13 @@ FIXME(Template Unsupported: Doc:2.6/Reference/Nodes/Concepts; {{Doc:2.6/Referenc
 
 
 Accessing The Node Editor
-=========================
+*************************
 
 First lets enter the :doc:`node editor <materials/nodes/editor>` and make sure that the node editor has the material node button (the sphere icon) pressed, not the composite or texture node buttons.
 
 
 Enabling Node Materials in the Material Buttons
------------------------------------------------
+===============================================
 
 +------------------------------------------------------------+-------------------------------------------------------------------+
 +.. figure:: /images/25-Manual-Materials-Nodes-StartPanel.jpg|.. figure:: /images/25-Manual-Materials-Nodes-DefaultStart-Node.jpg+
@@ -103,7 +103,7 @@ and as we did, we can access the properties of this material in the material's m
 
 
 External Links
-==============
+**************
 
 - `Blender Material Nodes <http://www.blender.org/development/release-logs/blender-242/blender-material-nodes/>`__ - Changelog for the Blender version that introduced material nodes.
 

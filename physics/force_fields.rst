@@ -3,7 +3,7 @@
 
 
 Force Fields
-============
+************
 
 Force Fields offer a way to add extra movement to dynamic systems. :doc:`Particles <physics/particles>`, :doc:`Soft Bodies <physics/soft_body>`, `Rigid Bodies <http://wiki.blender.org/index.php/User:Sergof/GSoC2012/Documentation>`__ and :doc:`Cloth objects <physics/cloth>` can all be affected by forces fields. Force Fields automatically affect everything. To remove a simulation or particle system from their influence, simply turn down the influence of that type of Force Field in its Field Weights panel.
 
@@ -16,7 +16,7 @@ You may limit the effect on particles to a group of objects (see the :doc:`Parti
 
 
 Creating a Force Field
-----------------------
+======================
 
 .. admonition:: Reference
    :class: refbox
@@ -51,7 +51,7 @@ these common options are explained for the :guilabel:`Spherical` field.
 
 
 Common Field Settings
-=====================
+*********************
 
 Most Fields have the same settings, even though they act very differently.
 Settings unique to a field type are described below.
@@ -78,7 +78,7 @@ Curve Guide and Texture Fields have very different options.
 
 
 Falloff
--------
+=======
 
 Here you can specify the shape of the force field
 (if the :guilabel:`Fall-off` Power is greater than 0).
@@ -104,10 +104,10 @@ Here you can specify the shape of the force field
 
 
 Field Types
-===========
+***********
 
 Force
------
+=====
 
 The :guilabel:`Force` field is the simplest of the fields. It gives a constant force towards
 (positive strength) or away from (negative strength) the object's center.
@@ -141,7 +141,7 @@ The strength of the force is visualized by the spacing of the circles shown.
 
 
 Vortex Field
-------------
+============
 
 .. figure:: /images/UM_PART_XIII_KST_PI04.jpg
    :width: 100px
@@ -156,14 +156,14 @@ or kinks in particle hair.
 
 
 Magnetic
---------
+========
 
 This field depends on the speed of the particles.
 It simulates the force of magnetism on magnetized objects.
 
 
 Harmonic
---------
+========
 
 The source of the force field is the zero point of a harmonic oscillator (spring, pendulum).
 If you set the :guilabel:`Damping` parameter to 1,
@@ -183,7 +183,7 @@ Particles forming Shapes].
 
 
 Charge
-------
+======
 
 It is similar to spherical field except it changes behavior (attract/repulse)
 based on the effected particles charge field (negative/positive),
@@ -193,7 +193,7 @@ This mean this field has only effect on particles that have also a :guilabel:`Ch
 
 
 Lennard-Jones
--------------
+=============
 
 This field is a very short range force with a behavior determined by the sizes of the effector
 and effected particle. At a distance smaller than the combined sizes the field is very
@@ -206,7 +206,7 @@ something for the nuclear physicists amongst us.
 
 
 Texture field
--------------
+=============
 
 You can use a texture force field to create an arbitrarily complicated force field,
 which force in the 3 directions is color coded. Red is coding for the x-axis,
@@ -241,7 +241,7 @@ Remember that only procedural texture are truly 3D.
 
 
 Examples
-~~~~~~~~
+--------
 
 - A single colored texture 0.5/0.0/0.5 creates a force in the direction of the positive y-axis, e.g. hair is orientated to the y-axis.
 - A blend texture with colorband can be used to created a force "plane". E.g. on the left side 0.5/0.5/0.5, on the right side 1.0/0.5/0.5 you have a force plane perpendicular to XY (i.e. parallel to Z). If you use an object for the coordinates, you can use the object to push particles around.
@@ -249,7 +249,7 @@ Examples
 
 
 Curve Guide
------------
+===========
 
 .. figure:: /images/CurveGuideForceField.jpg
 
@@ -343,7 +343,7 @@ More complex rules can be added, such as obstacle avoidance and goal seeking.
 
 
 Turbulence
-----------
+==========
 
 Create a random turbulence effect with a 3d noise.
 
@@ -367,7 +367,7 @@ Drag is a force that works to resist particle motion by slowing it down.
 
 
 Links
------
+=====
 
 -
 

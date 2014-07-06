@@ -3,7 +3,7 @@
 
 
 Volumetric Lighting
-===================
+*******************
 
 According to Wikipedia, `volumetric lighting <http://en.wikipedia.org/wiki/Volumetric_lighting>`__
    « *is a technique used in 3D computer graphics to add lighting effects to a rendered scene. It allows the viewer to see beams of light shining through the environment; seeing sunbeams streaming through an open window is an example of volumetric lighting, also known as God rays. The term seems to have been introduced from cinematography and is now widely applied to 3D modeling and rendering especially in the field of 3D gaming.*
@@ -27,7 +27,7 @@ The only lamp able to create volumetric effects is the :doc:`Spot lamp <lighting
 
 
 Example
--------
+=======
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
 +`Blend file of spotlight animation. <http://wiki.blender.org/index.php/Media:Manual - Shadow and Spot - Spotlight Animation.blend>`__+
@@ -40,7 +40,7 @@ FIXME(Tag Unsupported:vimeo;
 
 
 See also
-========
+********
 
 - :doc:`Mist <world/mist>`
 - :doc:`Smoke <physics/smoke>`

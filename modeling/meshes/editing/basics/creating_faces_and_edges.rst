@@ -3,7 +3,7 @@
 
 
 Make Edge/Face
-==============
+**************
 
 .. admonition:: Reference
    :class: refbox
@@ -118,7 +118,7 @@ Notice this tool can run multiple times to continue creating faces.''
 
 
 Further Reading
-_______________
+^^^^^^^^^^^^^^^
 
 For other ways to create faces see:
 

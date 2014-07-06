@@ -1,6 +1,6 @@
 
 Mesh Deform Modifier
-====================
+********************
 
 .. admonition:: Reference
    :class: refbox
@@ -10,7 +10,7 @@ Mesh Deform Modifier
 
 
 Description
------------
+===========
 
 The :guilabel:`Mesh Deform` modifier allows an arbitrary closed mesh (of any closed shape,
 not just the cuboid shape of a :guilabel:`Lattice` modifier)
@@ -18,7 +18,7 @@ to act as a deformation cage around another mesh.
 
 
 Options
--------
+=======
 
 .. figure:: /images/25-Manual-Modifiers-MeshDeform.jpg
 
@@ -66,14 +66,14 @@ the calculations it needs, to properly map the deform mesh cage to the deformed 
 
 
 Hints
------
+=====
 
 - Ensure that the normals on the cage mesh point to the outside; they are used to determine the inside and outside of the cage.
 - Besides the outer cage, more faces within the cage, either loose or forming another smaller cage, can be used for extra control. Such smaller cages may also overlap with the main cage; for example, to get extra control over eyes, two small sphere cages could be added around them.
 
 
 See Also
---------
+========
 
 - The :doc:`Lattice modifier <modifiers/deform/lattice>`.
 - [http://graphics.pixar.com/library/HarmonicCoordinatesB/ (original paper)

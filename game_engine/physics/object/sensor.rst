@@ -2,7 +2,7 @@
 ..    TODO/Review: {{review|partial=X|text=sections}} .
 
 Sensor
-======
+******
 
 The object detects static and dynamic objects but not other collisions sensors objects.
 The Sensor is similar to the physics objects that underlie the Near and Radar sensors.
@@ -55,14 +55,14 @@ In release mode this message is not printed.
 
 
 Settings
---------
+========
 
 :guilabel:`Invisible`
    See :doc:`Here <game_engine/physics/object_type/static>`
 
 
 Collision Bounds
-----------------
+================
 
 See :doc:`Here <game_engine/physics/object_type>`.
 

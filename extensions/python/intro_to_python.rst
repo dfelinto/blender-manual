@@ -3,7 +3,7 @@
 
 
 Why another Python tutorial?
-============================
+****************************
 
 This page exists for two reasons.
 
@@ -18,7 +18,7 @@ FIXME(TODO: Internal Link;
 
 
 What is Programming?
-====================
+********************
 
 Programming in simple terms is nothing more than manipulating data.
 Operations on the data either modifies it, or create new data.
@@ -36,7 +36,7 @@ operations that work with that data.
 
 
 What is Python?
-===============
+***************
 
 `Python  <http://www.python.org>`__ is an interpreted, interactive, object-oriented programming language. It incorporates modules, exceptions, dynamic typing, very high level dynamic data types, and classes. Python combines remarkable power with very clear syntax.
 
@@ -44,7 +44,7 @@ Learning Python is also very easy, even if you have never programmed before.
 
 
 Python Interpreter
-==================
+******************
 
 All the exercises in this tutorial will be using the built-in Console window type in Blender
 2.6, which has a Python 3.2 interpreter embedded in it.
@@ -66,7 +66,7 @@ expressions and statements at the interpreter prompt **>>>**
 
 
 Hello World
-===========
+***********
 
 Let's get started with the classical "Hello World" program.
 
@@ -110,16 +110,16 @@ By doing so we are repeating the string by the count specified by *number*
 
 
 External links
-==============
+**************
 
 Webpages
---------
+========
 
 - http://www.sthurlow.com/python/
 
 
 Video Tutorials
----------------
+===============
 
 - If you want to learn Python programming in general, have a look at this tutorials
 

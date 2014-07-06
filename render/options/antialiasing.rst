@@ -1,6 +1,6 @@
 
 Anti-Aliasing
-=============
+*************
 
 A computer generated image is made up of pixels;
 each pixel can of course only be a single color. In the rendering process the rendering engine
@@ -18,7 +18,7 @@ are below the rendering button in the :guilabel:`Render` Panel (*Render Panel.*)
 
 
 Options
-=======
+*******
 
 :guilabel:`Anti-Aliasing` check box
    Enables oversampling
@@ -47,7 +47,7 @@ are distributed and jittered in a way that guarantees two characteristics:
 
 
 Filtering
----------
+=========
 
 When the samples have been rendered,
 we've got color and alpha information available per sample.
@@ -91,7 +91,7 @@ Filter menu: Set The filter type to use to 'average' the samples:
 
 
 Filter Size
------------
+===========
 
 Making the filter size value smaller will squeeze the samples more into the center,
 and blur the image more. A larger filter size makes the result sharper.
@@ -100,7 +100,7 @@ this will give an extra sharpening result.
 
 
 Examples
-========
+********
 
 .. figure:: /images/Manual-Part-XI-AA02.jpg
    :width: 630px

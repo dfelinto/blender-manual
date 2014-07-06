@@ -1,6 +1,6 @@
 
 Soft Body Physics Object Type
-=============================
+*****************************
 
 The most advanced type of object in the :doc:`Game Engine <game_engine>`. Also, it is the most finicky. If you are used to the fun experimentation that comes from playing around with the non-BGE Soft Body sims (such as Cloth), you will probably find a frustrating lack of options and exciting results. Do not despair, we are here to help you get some reasonable settings.
 
@@ -13,7 +13,7 @@ For more documentation, see the :doc:`Top BGE Physics page <game_engine/physics>
 
 
 Options
--------
+=======
 
 FIXME(Template Unsupported: Doc:2.6/Manual/Game_Engine/Physics/CommonOptions;
 {{Doc:2.6/Manual/Game_Engine/Physics/CommonOptions}}
@@ -81,7 +81,7 @@ FIXME(Tag Unsupported:span; <span style="color: #E7007A">TODO: Learn/demo/explai
 
 
 Hints
------
+=====
 
 - A very important configurable in the case of Soft Body interactions is :doc:`World properties <game_engine/physics/world>` :menuselection:`--> Physics --> Physics Steps --> Substeps`. In the test .blend here: `Manual-BGE-Physics-SoftBody_PhysicsSteps.blend <http://wiki.blender.org/index.php/Media:Manual-BGE-Physics-SoftBody_PhysicsSteps.blend>`__, you can see the behavior at various Substep levels:
   - The default level. The Grid object goes straight through the cube, hardly slowing down at all.
@@ -93,20 +93,20 @@ Hints
 
 
 Sensors
--------
+=======
 
 Soft bodies do not work with the Collision, Touch, Near, and Radar logic brick sensors.
 
 
 Goal Weights
-------------
+============
 
 TODO:
 http://www.blender.org/documentation/blender_python_api_2_62_release/bpy.ops.curve.html#bpy.ops.curve.spline_weight_set
 
 
 Force Fields
-------------
+============
 
 A common practice within the non-BGE Cloth simulator is to employ :doc:`Force Fields <physics/force_fields>` to animate the cloth.
 
@@ -115,7 +115,7 @@ These do not work in the BGE, so you will have to figure out a way to use Python
 
 
 All Types
----------
+=========
 
 FIXME(Template Unsupported: Doc:2.6/Manual/Game_Engine/Physics/AllTypes;
 {{Doc:2.6/Manual/Game_Engine/Physics/AllTypes}}

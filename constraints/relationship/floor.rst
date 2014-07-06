@@ -2,10 +2,10 @@
 ..    TODO/Review: {{review|im=examples}} .
 
 Floor Constraint
-================
+****************
 
 Description
------------
+===========
 
 The :guilabel:`Floor` constraint allows you to use its target position
 (and optionally rotation) to specify a plane with a "forbidden side",
@@ -17,7 +17,7 @@ It cannot be used for uneven floors or walls.
 
 
 Options
--------
+=======
 
 .. figure:: /images/25-Manual-Constraints-Relationship-Floor.jpg
    :width: 303px

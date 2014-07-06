@@ -1,6 +1,6 @@
 
 State Actuator
-==============
+**************
 
 The State actuator allows the user to create complex logic,
 whilst retaining a clear user interface. It does this by having different states,
@@ -40,7 +40,7 @@ Menu to select the state operation required.
 
 
 Usage Notes
------------
+===========
 
 With the state actuator, you can create tiers of logic,
 without the need for hundreds of properties. Use it well, and you benefit greatly,

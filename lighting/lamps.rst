@@ -1,6 +1,6 @@
 
 Lamps
-=====
+*****
 
 Blender comes equipped with five different lamp types,
 each with its own unique strengths and limitations. Here are the available lamps:

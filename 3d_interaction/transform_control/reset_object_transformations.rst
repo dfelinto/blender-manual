@@ -3,7 +3,7 @@
 
 
 Clear Object transformations
-============================
+****************************
 
 .. admonition:: Reference
    :class: refbox
@@ -14,14 +14,14 @@ Clear Object transformations
 
 
 Description
------------
+===========
 
 Clearing transforms simply resets the transform values.
 The objects location and rotation values return to 0, and the scale returns to 1.
 
 
 Clear Options
--------------
+=============
 
 .. figure:: /images/3D-interaction_Transform-Control_Object-Transformations-clear-transformations.jpg
 
@@ -42,7 +42,7 @@ Clear Options
 
 
 Apply Object transformations
-============================
+****************************
 
 .. admonition:: Reference
    :class: refbox
@@ -64,7 +64,7 @@ use the shortcut :kbd:`ctrl-A` and select the appropriate transform to apply
 
 
 Apply Options
--------------
+=============
 
 .. figure:: /images/3D-interaction_Transform-Control_Object-Transformations-apply-transformations.jpg
 

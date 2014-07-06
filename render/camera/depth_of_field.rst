@@ -3,7 +3,7 @@
 
 
 Depth Of Field (DOF) Explained
-==============================
+******************************
 
 Real world camera lenses and your eyeball transmit light through a lens (cornea)
 that bends the light, and an iris that limits the amount of light,
@@ -51,7 +51,7 @@ by entering the name of the object in the :guilabel:`Dof Ob` field.
 
 
 Field of View and Lens Size
----------------------------
+===========================
 
 The field of view varies by the size of the lens. With cameras, a 35mm lens is kind of a
 standard size because the picture it takes mimics the size of the picture seen by the eye and
@@ -72,7 +72,7 @@ a sweep, since it is farther away from the action:
 
 
 Zooming in Blender
-------------------
+==================
 
 Zoom is the ability to expand a subset of the picture; we humans have no such ability. Well,
 I take that back; we do:
@@ -84,7 +84,7 @@ curve to the object or to the camera, respectively.
 
 
 Depth of Field in Computer Graphics
------------------------------------
+===================================
 
 In computer graphics (CG), there is no physical lens or iris, so the depth-of-field (DOF)
 is infinite and all objects are always in focus. However, for artistic reasons,

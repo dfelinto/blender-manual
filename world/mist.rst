@@ -1,9 +1,9 @@
 
 Mist
-====
+****
 
 Description
------------
+===========
 
 Mist can greatly enhance the illusion of depth in your rendering. To create mist,
 Blender makes objects farther away more transparent (decreasing their Alpha value)
@@ -12,7 +12,7 @@ the further the object is away from the camera the less it's alpha value will be
 
 
 Option
-------
+======
 
 .. figure:: /images/25-Manual-World-MistPanel.jpg
    :width: 305px
@@ -59,7 +59,7 @@ Falloff
 
 
 Transparency
-------------
+============
 
 Because :guilabel:`Mist` works by adjusting transparency,
 this can sometimes cause objects to be partially transparent when they shouldn't be.
@@ -72,7 +72,7 @@ This produces the mist effect but since Mist is off the object transparency (or 
 
 
 Examples
---------
+========
 
 .. figure:: /images/25-Manual-World-Mist-Example1.jpg
 

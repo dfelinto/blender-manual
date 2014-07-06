@@ -1,6 +1,6 @@
 
 Bounding Box Center as Pivot
-============================
+****************************
 
 .. admonition:: Reference
    :class: refbox
@@ -28,7 +28,7 @@ of the Object.
 
 
 In Object mode
---------------
+==============
 
 In :guilabel:`Object` mode, the bounding box is wrapped around the Object and transformation
 takes place relative to the location of the Object center (indicated by the yellow circle).
@@ -48,7 +48,7 @@ the pivot point is calculated based on the Bounding Box of all the selected Obje
 
 
 In Edit mode
-------------
+============
 
 This time it is the ObData that is enclosed in the bounding box.
 The bounding box in :guilabel:`Edit mode` takes no account of the Object(s) centers,

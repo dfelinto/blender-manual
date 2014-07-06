@@ -1,6 +1,6 @@
 
 Weight Editing
-==============
+**************
 
 .. figure:: /images/26-Manual-Modeling-Meshes-vertex-weights-panel-overview.jpg
    :width: 235px
@@ -21,7 +21,7 @@ It is available in Edit mode and in Weight Paint mode
 
 
 Vertex Group Categories
-~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------
 
 Well, actually we do not have any strict categories of Vertex Groups in Blender.
 Technically they all behave the same way.
@@ -29,7 +29,7 @@ However we can identify 2 implicit categories of Vertex Groups:
 
 
 The {{literal|Deform Groups}}
-+++++++++++++++++++++++++++++
+"""""""""""""""""""""""""""""
 
 These Vertex groups are sometimes also named :guilabel:`Weight Groups`.
 They are used for defining the weight tables of Armature bones.
@@ -42,7 +42,7 @@ that allows restricting the Vertex Weight panel to display only the Deform bones
 
 
 The {{literal|Other Groups}}
-++++++++++++++++++++++++++++
+""""""""""""""""""""""""""""
 
 All other usages of Vertex Groups are summarized into the :guilabel:`Other` category.
 These vertex groups can be found within Shape keys, Modifiers, etc...
@@ -51,7 +51,7 @@ so we kept it simple and named it :guilabel:`Other`.
 
 
 The Weight Table
-~~~~~~~~~~~~~~~~
+----------------
 
 The Weight Table shows all weights associated to the :guilabel:`active vertex`.
 Note that a vertex does not necessarily have to be associated to any vertex groups.
@@ -75,7 +75,7 @@ Each row in the Weight table contains 4 active elements:
 
 
 Set the Active Group
-++++++++++++++++++++
+""""""""""""""""""""
 
 As soon as you select any of the Vertex Group Names in the Weight table,
 the referenced Vertex Group becomes the new Active group.
@@ -89,7 +89,7 @@ the referenced Vertex Group becomes the new Active group.
 
 
 Display Weights in Edit Mode
-++++++++++++++++++++++++++++
+""""""""""""""""""""""""""""
 
 When you are in edit mode, you can make the Weights of the active Group visible on the mesh:
 
@@ -106,7 +106,7 @@ Now you can see the weights of the active Vertex Group displayed on the mesh sur
 
 
 Edit Weights in Edit Mode
-+++++++++++++++++++++++++
+"""""""""""""""""""""""""
 
 It is now very easy to work with weightmaps in Edit mode. All edit options of the mesh are
 available and you have direct visual control over how your Weights change when you edit the
@@ -121,7 +121,7 @@ weight values.
 
 
 Change a weight
-+++++++++++++++
+"""""""""""""""
 
 You can either enter a new weight value manually (click on the number and edit the value),
 or you can change the weight by :kbd:`lmb` and while holding down the mouse button,
@@ -137,7 +137,7 @@ arrows displayed around the weight value to change the weight in steps.
 
 
 Paste a weight to other verts
-+++++++++++++++++++++++++++++
+"""""""""""""""""""""""""""""
 
 :kbd:`lmb` the Paste Icon allows you to forward a single weight of the active Vertex to all selected vertices. But note that weights are only pasted to verts which already have a weight value in the affected Vertex Group.
 
@@ -150,13 +150,13 @@ Paste a weight to other verts
 
 
 Delete a weight from a Group
-++++++++++++++++++++++++++++
+""""""""""""""""""""""""""""
 
 :kbd:`lmb` the Delete Icon will instantly remove the weight from the active vertex. thus the entire row disappears when you click on the delete icon.
 
 
 The Function bar
-~~~~~~~~~~~~~~~~
+----------------
 
 .. figure:: /images/26-Manual-Modeling-Meshes-vertex-weight-editor-functions.jpg
    :width: 235px
@@ -180,7 +180,7 @@ Copy
 
 
 About locked Vertex Groups
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------
 
 .. figure:: /images/26-Manual-Modeling-Meshes-vertex-weight-editor-locked.jpg
    :width: 235px

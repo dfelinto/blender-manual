@@ -1,10 +1,10 @@
 ..    TODO/Review: {{review}} .
 
 Fluid Technical Details
-=======================
+***********************
 
 Physical correctness
---------------------
+====================
 
 .. figure:: /images/Manual-Part-X-fluidsim-example3.jpg
 
@@ -65,7 +65,7 @@ and then increase the resolution as much as possible or desired.
 
 
 Acknowledgements
-----------------
+================
 
 The integration of the fluid simulator was done as a Google Summer-of-Code project. More
 information about the solver can be found at

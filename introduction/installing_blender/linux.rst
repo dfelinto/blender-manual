@@ -1,9 +1,9 @@
 
 Installing on Linux
-===================
+*******************
 
 Download
---------
+========
 
 You can obtain the latest stable version of Blender for Linux from the
 `Blender download page <http://www.blender.org/download/get-blender/>`__
@@ -11,7 +11,7 @@ or from your distribution software repository if it provides a Blender package.
 
 
 Version
--------
+=======
 
 Blender for Linux is currently available in 32-bit and 64-bit versions.
 Users with a 32-bit version of Linux must download the 32-bit version of Blender. Users with a
@@ -35,7 +35,7 @@ A 64-bit system will return a value of ``x86_64``.
 
 
 Distribution releases
----------------------
+=====================
 
 Most major distributions such as Ubuntu, Debian, Open SUSE, Fedora and many others will
 provide a build of Blender in their software repository that can be accessed through that
@@ -47,7 +47,7 @@ be outdated compared to the offical release.
 
 
 Installation
-============
+************
 
 First check if your distribution provides the latest Blender version through its package
 manager. If it doesn't, download the appropriate version of Blender for Linux from the
@@ -69,7 +69,7 @@ To run Blender,
 
 
 Installing into <code>/opt</code> or <code>/usr/local</code>
-------------------------------------------------------------
+============================================================
 
 You can also install Blender into ``/opt`` or ``/usr/local`` by moving the
 Blender directory into one of those locations. If you want to be able to run Blender from any
@@ -78,10 +78,10 @@ Consult your operating system documentation for the recommended method of settin
 
 
 Configuration
-=============
+*************
 
 Alt+Mouse Conflict
-~~~~~~~~~~~~~~~~~~
+------------------
 
 Many Linux distributions default to
 FIXME(Template Unsupported: Shortcut/Keypress;
@@ -99,7 +99,7 @@ the key to Super (Windows Key)
 
 
 Compositing Desktop Environments
-================================
+********************************
 
 Many recent Linux distributions enable compositing when hardware support is available. This is
 a feature where the graphics card is used to do window drawing and accelerated desktop effects

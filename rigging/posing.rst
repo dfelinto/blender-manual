@@ -2,7 +2,7 @@
 ..    TODO/Review: {{review|partial=X}} .
 
 Posing
-======
+******
 
 Once your armature is :doc:`skinned <rigging/skinning>` by the needed object(s), you can start to pose it. Basically, by transforming its bones, you deform or transform the skin object(s). But you don't do that in :guilabel:`Edit` mode - remember that in this mode, you edit *the default, base, "rest" position of your armature*. You can't use the :guilabel:`Object` mode either, as here you can only transform whole objects...
 
@@ -10,7 +10,7 @@ So, armatures in Blender have a third mode, :guilabel:`Pose`, dedicated to this 
 
 
 Posing Section Overview
------------------------
+=======================
 
 In this section, we will see:
 
@@ -27,7 +27,7 @@ In this part, we will try to focus on animation-independent posing, but this isn
 
 
 See Also
---------
+========
 
 As usual, see the :doc:`tutorials <igging>` for more demonstrative examples, and especially :doc:`this BSoD one <nimation/bsod/character_animation#animation>`.
 

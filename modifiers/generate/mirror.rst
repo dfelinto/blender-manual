@@ -1,6 +1,6 @@
 
 Mirror Modifier
-===============
+***************
 
 .. admonition:: Reference
    :class: refbox
@@ -10,7 +10,7 @@ Mirror Modifier
 
 
 Description
------------
+===========
 
 .. figure:: /images/25-Manual-Modifiers-Mirror-example-Cube.jpg
    :width: 350px
@@ -30,7 +30,7 @@ plane. And last but not least, it can also mirror vertex groups and UV coordinat
 
 
 Options
--------
+=======
 
 .. figure:: /images/25-Manual-Modifiers-Mirror.jpg
 
@@ -76,7 +76,7 @@ Options
 
 
 Hints
------
+=====
 
 Many modeling tasks involve creating objects that are symmetrical. However, there used to be
 no quick way to model both halves of an object without using one of the workarounds that have
@@ -91,7 +91,7 @@ it as is for future editing.
 
 
 Using Mirror modifier with {{Literal|Subdivision Surface}} modifier
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------------------------------
 
 When using the :guilabel:`Mirror` modifier along with the :guilabel:`Subsurf` modifier,
 the order in which the modifiers are placed is important.
@@ -121,7 +121,7 @@ which in most cases would be the desired effect.
 
 
 Aligning for Mirror
-~~~~~~~~~~~~~~~~~~~
+-------------------
 
 To apply a :guilabel:`Mirror` modifier, it is common to have to move the object's center onto
 the edge or face that is to be the axis for mirroring.

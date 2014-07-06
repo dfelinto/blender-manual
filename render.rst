@@ -3,14 +3,14 @@
 
 
 Render engines
-==============
+**************
 
 - Blender Internal
 - :doc:`Cycles <render/cycles>`
 
 
 Rendering
-=========
+*********
 
 Rendering is the final process of CG (short of post processing, of course)
 and is the phase in which a 2D image corresponding to your 3D scene is finally created.
@@ -41,7 +41,7 @@ and subsequent pages explain more.
 
 
 Overview
---------
+========
 
 The rendering of the current scene is performed by pressing the big :guilabel:`Image` button in the :guilabel:`Render` panel, or by pressing :kbd:`f12` (you can define how the rendered image is displayed on-screen in the :doc:`Render Output Options <render/output>`). See also the :doc:`Render Window <render/display>`.
 
@@ -63,7 +63,7 @@ In general, the process for rendering is:
 
 
 Distributed Render Farm
------------------------
+=======================
 
 There are several levels of CPU allocation that you can use to decrease overall render time by
 applying more brainpower to the task.
@@ -98,7 +98,7 @@ Other services are paid subscriptions or pay-as-you-go services.
 
 
 Render Workbench Integration
-----------------------------
+============================
 
 .. figure:: /images/Manual-Render-Pipeline.jpg
    :width: 320px
@@ -158,14 +158,14 @@ and then exercise your creativity in developing your own unique workflow.
 
 
 The Render Settings Panel
-=========================
+*************************
 
 The Render tab contains all of the options for the internal render engine, or an external one,
 if selected.
 
 
 Render
-------
+======
 
 Here you can activate the rendering process, by rendering a :doc:`Still Image <render/display>` or an :doc:`Animation <render/animations>`.
 
@@ -173,31 +173,31 @@ You can also select where the image is rendered to. This are described on the :d
 
 
 Layers
-------
+======
 
 The Layers menu contains options for rendering in :doc:`Layers <render/post_process/layers>` and :doc:`Passes <render/post_process/passes>`
 
 
 Dimensions
-----------
+==========
 
 This menu has settings for the size of the rendered images (see :doc:`Output Options <render/output>`), and options for rendering sequences (see :doc:`Animations <render/animations>`)).
 
 
 Anti-Aliasing
--------------
+=============
 
 :doc:`Antialiasing <render/options/antialiasing>` is important for producing high quality renders that do not have "jaggies" or stair-stepped pixel artifacts.
 
 
 Motion Blur
------------
+===========
 
 :doc:`Motion Blur <render/post_process/motion_blur>` is an important effect in rendering moving images. It prevents the animation from appearing unrealistic and stuttery, as in stop-motion, where each frame is a perfect still image.
 
 
 Shading
--------
+=======
 
 These are options for controlling what shading effects are calculated in the render.
 Deselecting them disables them.
@@ -219,20 +219,20 @@ Deselecting them disables them.
 
 
 Output
-------
+======
 
 Set where images are rendered to and what file type. See
 :doc:`Output Options <render/output>`.
 
 
 Performance
------------
+===========
 
 Control the way the renderer performs with respect to the computer's memory and processor. See :doc:`Performance <render/performance>`.
 
 
 Post Processing
----------------
+===============
 
 Control effects that are applied after the image has been rendered. If you are using the :doc:`Compositor <composite_nodes>` or :doc:`Sequencer <sequencer>`, you can tell Blender to process those effects instead of directly rendering the scene.
 
@@ -244,7 +244,7 @@ You can also enable :doc:`Edge Rendering <render/post_process>` to create sketch
 
 
 Stamp
------
+=====
 
 :doc:`Stamping <render/post_process>` inserts text over the rendered images, as well as stamps meta-data into image formats that support it (PNG, JPEG and EXR).
 

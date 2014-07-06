@@ -1,6 +1,6 @@
 
 Lamps Raytraced Shadows
-=======================
+***********************
 
 .. figure:: /images/25-Manual-Lighting-Shadow-Ray.jpg
    :width: 310px
@@ -76,7 +76,7 @@ Shadow sample generator type
 
 
 What is Quasi-Monte Carlo?
-==========================
+**************************
 
 The Monte Carlo method is a method of taking a series of samples/readings of values
 (any kind of values, such as light values, color values, reflective states)

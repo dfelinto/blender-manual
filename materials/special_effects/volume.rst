@@ -1,6 +1,6 @@
 
 Volume Rendering
-================
+****************
 
 .. figure:: /images/Doc-26-Materials-VolumeRender-Activate.jpg
    :width: 300px
@@ -39,10 +39,10 @@ process since it has to check a lot of points in space and evaluate the density 
 
 
 Options
-=======
+*******
 
 Density
--------
+=======
 
 .. figure:: /images/Volumerendering-density.jpg
 
@@ -70,7 +70,7 @@ thick smoke.
 
 
 Shading
--------
+=======
 
 .. figure:: /images/Volumerendering-scattering1.jpg
 
@@ -105,7 +105,7 @@ the more easily it penetrates throughout the volume and to the shadow.
 
 
 Asymmetry
-~~~~~~~~~
+---------
 
 .. figure:: /images/Volumerendering-phase_diagram.jpg
    :width: 300px
@@ -126,7 +126,7 @@ forward-scattering means it's scattered along the same direction as the light is
 
 
 Transmission
-~~~~~~~~~~~~
+------------
 
 Transmission is a general term for light that is transmitted throughout a volume.
 
@@ -155,7 +155,7 @@ there is less available to be transmitted through.
 
 
 Emission
-~~~~~~~~
+--------
 
 Some volumes can emit light where there was none before, via chemical or thermal processes,
 such as fire. This light is generated from the volume itself and is independent of light
@@ -180,7 +180,7 @@ Currently, this emitted light does not affect other volumes or surfaces
 
 
 Reflection
-~~~~~~~~~~
+----------
 
 The 'reflection' parameters can be used to tint or scale the light that's scattered out of the
 volume. This only affects light that has come from lamps and been scattered out,
@@ -203,7 +203,7 @@ you can use the reflection parameters to quickly set an overall tint.
 
 
 Hints
-_____
+^^^^^
 
 Ideally try to accomplish as much as you can with the other volume settings and lighting
 before using the reflection controls. If you stick to what's physically plausible,
@@ -231,7 +231,7 @@ Of course you can always break the rules too!
 
 
 Lighting
---------
+========
 
 .. figure:: /images/Doc-26-Materials-VolumeRender-Options-Lighting.jpg
 
@@ -273,7 +273,7 @@ providing a range of options between fast to render and physically accurate.
 
 
 Transparency
-------------
+============
 
 .. figure:: /images/Doc-26-Materials-VolumeRender-Options-Transparency.jpg
 
@@ -289,7 +289,7 @@ Transparency
 
 
 Integration
------------
+===========
 
 .. figure:: /images/Doc-26-Materials-VolumeRender-Options-Integration.jpg
 
@@ -311,7 +311,7 @@ Integration
 
 
 Options
--------
+=======
 
 .. figure:: /images/Doc-26-Materials-VolumeRender-Options.jpg
 
@@ -332,7 +332,7 @@ Options
 
 
 Examples
-========
+********
 
 <these are sandbox edits to the whole shading intro section of the wiki, which groups materials and textures, and gives us an entree into Volumetric shading. Note qualification of Mesh object. Need to investigate shading of other object types...>
 

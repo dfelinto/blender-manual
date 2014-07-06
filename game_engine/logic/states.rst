@@ -1,6 +1,6 @@
 
 States
-======
+******
 
 In the BGE, an object can have different "states". At any time while the game is playing,
 the current state of the object defines its behavior. For instance,
@@ -10,7 +10,7 @@ they may crouch down (awake); wake up (asleep) or do nothing (dead).
 
 
 How States Operate
-------------------
+==================
 
 States are set up and used through controllers: note that only controllers,
 not actuators and sensors, are directly controlled by the state system.
@@ -41,7 +41,7 @@ and some of these actuators may switch the actor's state under appropriate condi
 
 
 Editing States
---------------
+==============
 
 .. figure:: /images/BGE_Controller_State_Panel.jpg
    :width: 292px

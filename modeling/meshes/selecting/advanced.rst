@@ -2,7 +2,7 @@
 ..    TODO/Review: {{review|partial=X|text= expand advanced selection tools|im=examples}} .
 
 Advanced Selection
-==================
+******************
 
 The select menu in edit mode contains additional tool for selecting components:
 
@@ -38,7 +38,7 @@ The select menu in edit mode contains additional tool for selecting components:
 
 
 Select Similar
---------------
+==============
 
 .. admonition:: Reference
    :class: refbox
@@ -100,13 +100,13 @@ Tool options change depending on the selection mode:
 
 
 Selecting Loops
----------------
+===============
 
 You can easily select loops of components:
 
 
 Edge Loops and Vertex Loops
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 .. admonition:: Reference
    :class: refbox
@@ -145,7 +145,7 @@ This is because the algorithm hit the first edge that it started with.
 
 
 Face Loops
-~~~~~~~~~~
+----------
 
 .. admonition:: Reference
    :class: refbox
@@ -185,7 +185,7 @@ the entire face.
 
 
 Edge Ring
-~~~~~~~~~
+---------
 
 .. admonition:: Reference
    :class: refbox
@@ -221,7 +221,7 @@ One is based on edges during computation and the other is based on faces.
 
 
 Path Selection
-~~~~~~~~~~~~~~
+--------------
 
 .. admonition:: Reference
    :class: refbox
@@ -242,7 +242,7 @@ was selected.
 
 
 Loop Inner-Region
-~~~~~~~~~~~~~~~~~
+-----------------
 
 .. admonition:: Reference
    :class: refbox
@@ -277,7 +277,7 @@ Loop Inner-Region
 
 
 Boundary Loop
-~~~~~~~~~~~~~
+-------------
 
 .. admonition:: Reference
    :class: refbox

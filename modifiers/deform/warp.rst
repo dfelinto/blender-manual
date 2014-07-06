@@ -3,7 +3,7 @@
 
 
 Warp Modifier
-=============
+*************
 
 .. figure:: /images/26-Manual-Modifiers-Warp-example01.jpg
 
@@ -24,7 +24,7 @@ The Warp Modifier is a bit tricky at first, but it helps to understand how it wo
 
 
 Options
--------
+=======
 
 :guilabel:`From:`
    Specify the origin object transformation of the warp.

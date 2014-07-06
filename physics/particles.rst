@@ -1,6 +1,6 @@
 
 Particles
-=========
+*********
 
 Particles are lots of items emitted from mesh objects, typically in the thousands.
 Each particle can be a point of light or a mesh, and be joined or dynamic.
@@ -58,7 +58,7 @@ The size of your memory and your patience are your practical boundaries.
 
 
 Workflow
-========
+********
 
 The process for working with standard particles is:
 
@@ -72,7 +72,7 @@ The process for working with standard particles is:
 
 
 Creating a Particle System
-==========================
+**************************
 
 .. figure:: /images/Blender3D_ParticleSystem_CreateNew-2.5.jpg
 
@@ -91,7 +91,7 @@ even when using the same settings.
 
 
 Types of Particle systems
--------------------------
+=========================
 
 .. figure:: /images/Blender3D_ParticleSystem_SelectType-2.5.jpg
 
@@ -114,7 +114,7 @@ type. For example, in *Image 3* they are shown for only system type :guilabel:`E
 
 
 Common Options
---------------
+==============
 
 Each system has the same basic sets of controls,
 but options within those sets vary based on the system employed. These sets of controls are:
@@ -145,7 +145,7 @@ but options within those sets vary based on the system employed. These sets of c
 
 
 Links
-=====
+*****
 
 - `Tutorials <http://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Particle_Systems>`__
 - `Physics Caching and Baking <http://www.blender.org/development/release-logs/blender-246/physics-caching-and-baking/>`__

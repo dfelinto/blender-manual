@@ -3,7 +3,7 @@
 
 
 Mesh Subdividing Tools
-======================
+**********************
 
 Subdividing adds resolution by cutting existing faces and edges into smaller pieces.
 There are several tools that allow you to do this:

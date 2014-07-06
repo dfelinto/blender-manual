@@ -1,6 +1,6 @@
 
 Armature Modifier
-=================
+*****************
 
 .. admonition:: Reference
    :class: refbox
@@ -10,7 +10,7 @@ Armature Modifier
 
 
 Description
------------
+===========
 
 The :guilabel:`Armature` modifier is used for building skeletal systems for animating the
 poses of characters and anything else which needs to be posed.
@@ -26,7 +26,7 @@ For more details on armatures usage, see :doc:`this chapter <rigging>`.
 
 
 Options
--------
+=======
 
 .. figure:: /images/25-Manual-Modifiers-Armature.jpg
 

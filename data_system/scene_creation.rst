@@ -3,7 +3,7 @@
 
 
 Current Screen Layout and Scene
-===============================
+*******************************
 
 Scenes are a way to organize your work. Scenes can share objects, but can, for example,
 differ from one another in their rendered resolution or their camera view.
@@ -23,7 +23,7 @@ usually displayed at the top of your screen:
 
 
 Loading the UI with "File" → "Open"
------------------------------------
+===================================
 
 Inside each .blend file, Blender saves the user interface layout - the arrangement of
 screen layouts when the file is saved. By default, this saved UI is loaded,
@@ -38,7 +38,7 @@ Blender will not disturb your current screen layout when it loads the new file.
 
 
 Working with Scenes
-===================
+*******************
 
 Select a scene to work on by clicking the up-down arrow next to the scene name.
 Scenes and the objects they contain are generally specific to the project you are working on.
@@ -51,7 +51,7 @@ Blender comes with one default scene, which contains a camera, a lamp, and a box
 
 
 Adding a Scene
---------------
+==============
 
 You can make a full copy of the current scene, start over with a blank slate,
 or create a scene that has links back to the current scene;
@@ -98,7 +98,7 @@ waiting for you to do creative things.
 
 
 Naming a Scene
---------------
+==============
 
 By :kbd:`shift-lmb` -clicking on the scene name (usually "\ ``Scene.001`` "),
 you can change the name of the scene. For example,
@@ -109,7 +109,7 @@ window layout.
 
 
 Linking to a Scene
-------------------
+==================
 
 You can, at any moment, link any object from one scene to another.
 Just open the scene where these objects are,
@@ -122,7 +122,7 @@ Material, Texture...) that you want.
 
 
 Removing a scene from the file
-------------------------------
+==============================
 
 You can delete the current scene by clicking the :guilabel:`X` next to the name.
 

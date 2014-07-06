@@ -3,7 +3,7 @@
 
 
 Collisions
-==========
+**********
 
 There are two different collision types that you may use:
 collision between different objects and internal collision.
@@ -14,7 +14,7 @@ you can use edges and faces to improve the collision calculation.
 
 
 Collisions with other objects
-=============================
+*****************************
 
 For a *Soft Body* to collide with another object there are a few prerequisites:
 
@@ -25,7 +25,7 @@ For a *Soft Body* to collide with another object there are a few prerequisites:
 
 
 Examples
---------
+========
 
 +-----------------------------------------------------+-----------------------------------------------------------------------------+------------------------------------------------------+
 +.. figure:: /images/Blender3D_CubePlaneCollision2.gif|.. figure:: /images/Blender3D_CubePlaneCollision3.gif                        |.. figure:: /images/Blender3D_CollidingPlane_CFace.gif+
@@ -46,7 +46,7 @@ so you can get an idea of how we might optimize it.
 
 
 Calculating Collisions
-----------------------
+======================
 
 +-------------------------------------------------------------------------------+-----------------------------------------------------------------------------------+
 +.. figure:: /images/Blender3D_VertexPlaneCollision.gif                         |.. figure:: /images/Blender3D_VertexPlaneCollision2.gif                            +
@@ -89,7 +89,7 @@ the collision zones are not used.
 
 
 Good collisions
----------------
+===============
 
 .. figure:: /images/Blender3D_SoftbodySolverParameters-2.49.jpg
 
@@ -119,7 +119,7 @@ however this may be difficult if you are using an animated mesh.
 
 
 Self Collision
-==============
+**************
 
 :guilabel:`Self Collision` is working only if you have activated :guilabel:`Use Edges`.
 

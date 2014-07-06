@@ -3,17 +3,17 @@
 
 
 Stars
-=====
+*****
 
 Description
------------
+===========
 
 Stars are randomly placed halo-like objects which appear in the background.
 Not for use with Cycles renderer.
 
 
 Options
--------
+=======
 
 .. figure:: /images/25-Manual-World-StarPanel.jpg
    :width: 298px

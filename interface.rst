@@ -2,7 +2,7 @@
 
 
 Starting Blender for the first time
-===================================
+***********************************
 
 If you are familiar with Blender 2.4x or other 3D software such as Maya, 3ds Max or XSI,
 you will immediately notice that Blender is quite different from what you are used to seeing.
@@ -35,7 +35,7 @@ To start using Blender, you have three options:
 
 
 Save your work regularly
-------------------------
+========================
 
 Blender does not warn you of any unsaved data when you exit the program,
 so remember to save often!  If you do close Blender without saving your last actions,
@@ -51,7 +51,7 @@ You also have this option in the main menu via :menuselection:`File --> Recover 
 
 
 Interface concepts
-==================
+******************
 
 .. figure:: /images/Blender-cross-platform.jpg
    :width: 650px
@@ -69,7 +69,7 @@ you will find that it is consistent between the major operating systems.
 
 
 The 3 Rules
------------
+===========
 
 The Blender user interface is based on 3 main principles:
 
@@ -82,7 +82,7 @@ The Blender user interface is based on 3 main principles:
 
 
 Powerful interface
-------------------
+==================
 
 .. figure:: /images/Opengl.jpg
 
@@ -98,7 +98,7 @@ The keymaps can be edited to make memorizing them easier.
 
 
 Overview
---------
+========
 
 Let's have a look at the default interface. It is composed of Editors, Headers,
 Context buttons, Regions, Panels and Controls.

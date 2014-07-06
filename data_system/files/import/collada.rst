@@ -1,6 +1,6 @@
 
 COLLADA Import and Export
-=========================
+*************************
 
 .. figure:: /images/Manual_Data_System_Files_Import_COLLADA_exporter.jpg
 
@@ -13,10 +13,10 @@ So it may well be possible that your particular usage scenario is not yet suppor
 
 
 The Collada Exporter
---------------------
+====================
 
 Operator Presets
-----------------
+================
 
 We have added 2 Operator Presets (see top of option panel) for Second Life users:
 
@@ -36,10 +36,10 @@ Special Notes for Second Life users:
 
 
 Export Data Options
--------------------
+===================
 
 Apply Modifiers
-_______________
+^^^^^^^^^^^^^^^
 
 All active Modifiers will be applied in a non destructive mode. That is,
 the modifiers will be applied to copies of the meshes.
@@ -54,14 +54,14 @@ That is now done automatically in the background.
 
 
 Selection Only
-______________
+^^^^^^^^^^^^^^
 
 When selection only is enabled, then only the selected objects will be exported.
 Otherwise the entire scene is exported with all visible and all invisible objects.
 
 
 Include Children
-________________
+^^^^^^^^^^^^^^^^
 
 When this option is enabled then all children of the selected objects will also be exported
 regardless of their selection state.
@@ -75,7 +75,7 @@ regardless of their selection state.
 
 
 Include Armatures
-_________________
+^^^^^^^^^^^^^^^^^
 
 When this option is enabled, then all armatures related to the selected objects will also be
 exported regardless of their selection state.
@@ -88,7 +88,7 @@ exported regardless of their selection state.
 
 
 Include Shape keys
-__________________
+^^^^^^^^^^^^^^^^^^
 
 .. admonition:: Shape keys
    :class: note
@@ -97,17 +97,17 @@ __________________
 
 
 Texture Options
----------------
+===============
 
 Only Active UV layer
-____________________
+^^^^^^^^^^^^^^^^^^^^
 
 When your mesh contains multiple UV layers, then Blender exports all layers by default.
 This option allows you to only export the active UV layers.
 
 
 Include Textures
-________________
+^^^^^^^^^^^^^^^^
 
 Blender supports 2 ways to texturise your objects.
 
@@ -130,7 +130,7 @@ The new option allows to directly export render results.
    See also the "Copy" option below.
 
 Copy
-____
+^^^^
 
 When you export images either material based image textures or surface textures,
 then we create absolute file references in the export file.
@@ -141,10 +141,10 @@ In that case the file references are made relative.
 
 
 Armature Options
-----------------
+================
 
 Deform Bones Only
-_________________
+^^^^^^^^^^^^^^^^^
 
 When this option is enabled,
 then the exporter strips all non deformiung bones from the exported armatures. This option is
@@ -155,7 +155,7 @@ But please note the restrictions further down.
 
 
 Export for Second Life
-______________________
+^^^^^^^^^^^^^^^^^^^^^^
 
 This option is very special. In fact some issues with bone orientation are calculated
 differently when this option is enabled. This is only relevant for rigged meshes.
@@ -166,10 +166,10 @@ For static meshes it just does nothing at all.
 
 
 Collada Options
----------------
+===============
 
 Triangulate
-___________
+^^^^^^^^^^^
 
 The Mesh con be triangulated on the Fly. The triangulation is based on the same function which
 is used in the User interface for triangulating the current selection of faces.
@@ -179,7 +179,7 @@ The mesh itself is not affected.
 
 
 Use Object Instances
-____________________
+^^^^^^^^^^^^^^^^^^^^
 
 In Blender you can reuse the same mesh for multiple Objects.
 This is named "object instanciation". When you enable this option,
@@ -187,7 +187,7 @@ then Blender will propagate object instantiation to the Collada file.
 
 
 Transformation Type
-___________________
+^^^^^^^^^^^^^^^^^^^
 
 Collada supports 2 types of Transformation matrix specifications.
 Either as <Matrix> or as a set of transformation decompositions (for Translate,
@@ -199,7 +199,7 @@ This is ongoing development and we may provide a less ambiguous method in the fu
 
 
 Sort by Object Name
-___________________
+^^^^^^^^^^^^^^^^^^^
 
 The export order of data is bound to internal object order and it can not be influenced in a
 reliable way. this option ensures that the Geometry nodes and the Object nodes are both
@@ -207,7 +207,7 @@ exported in alphabetical order.
 
 
 The Collada Importer
---------------------
+====================
 
 The Collada Importer is mostly driven by the imported Data.
 We only have added one option for controlling the Import units:
@@ -221,7 +221,7 @@ then Blender will adjust itself to the unit system as provided by the Collada fi
 
 
 Technical details
-=================
+*****************
 
 Mesh
 
@@ -229,7 +229,7 @@ Mesh
 
 
 Import
-~~~~~~
+------
 
 Supported geometry types are
 
@@ -242,16 +242,16 @@ Supported geometry types are
 
 
 Export
-~~~~~~
+------
 
 Mesh data is exported as <polylist>, <lines> and <vertices>.
 
 
 Light
------
+=====
 
 Import
-~~~~~~
+------
 
 Blender does a best effort on importing lights from a .dae.
 If a Blender profile is detected for lights, all values from these will be used instead.
@@ -260,7 +260,7 @@ support has been added in Blender 2.57.
 
 
 Export
-~~~~~~
+------
 
 A Blender profile for lights has been added through the <extra> tag.
 The entire Lamp struct from Blender will be exported through this profile,
@@ -268,20 +268,20 @@ with the exception of Light curve falloff .
 
 
 Material & Effect
------------------
+=================
 
 Export
-~~~~~~
+------
 
 Since Blender 2.57 some changes to export of effects have been made. Most notably <
 lambert> is exported if and only if specularity is 0.
 
 
 Animation
----------
+=========
 
 Export&Import
-~~~~~~~~~~~~~
+-------------
 
 - Support for Object(Mesh, Camera, Light) transform Animations. Only euler rotations, which is the default option for Objects, can be exported for now. For armature bone animations euler and quaternion rotation types are supported.
 - Import and export of animations for the following parameters are supported:-
@@ -301,7 +301,7 @@ Export&Import
 
 
 Nodes
------
+=====
 
 On import parent transformations for <instance_node>s is properly propagated to child
 node instances. Blender materials are exported with the following mapping:
@@ -316,7 +316,7 @@ is added for those joint nodes. To correctly derive the bone→tail location on 
 
 
 Important things to remember
-----------------------------
+============================
 
 - object and datablock names are constrained to 21 characters (bytes).
 - uv layer names are constrained to 32 characters (bytes).

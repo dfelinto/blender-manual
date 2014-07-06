@@ -1,6 +1,6 @@
 
 Viewmaps
-========
+********
 
 There is only one viewmap per render layer. It controls the edge detection parameters. Which detected edges are actually rendered, and how, can be controlled either through the user-friendly :doc:`parameter editor <render/freestyle/parameter_editor>`, or powerful but complex :doc:`Python scripting <render/freestyle/python>`.
 
@@ -23,7 +23,7 @@ There is only one viewmap per render layer. It controls the edge detection param
 
 
 Advanced Options
-----------------
+================
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Advanced_Options.jpg
    :width: 200px

@@ -5,7 +5,7 @@ FIXME(Template Unsupported: Doc:2.5/Manual/Interface/Configuration/index;
 
 
 File Preferences
-================
+****************
 
 The picture shows the file preferences which are explained below.
 
@@ -16,7 +16,7 @@ The picture shows the file preferences which are explained below.
 
 
 File Paths
-----------
+==========
 
 When you work on an important project, it is wise to configure it.
 Set default paths for the different file types you will be using.
@@ -48,7 +48,7 @@ You need to create all directories manually in your file browser.
 
 
 Scripts Path
-~~~~~~~~~~~~
+------------
 
 By default Blender looks in several directories (OS dependant) for scripts.
 By setting a user script path in the preferences an additional directory is looked in. This
@@ -75,7 +75,7 @@ the installation directory of Blender:
 
 
 Save & Load
------------
+===========
 
 :guilabel:`Relative Paths`
       By default, external files use a relative path. This works only when a Blender file is saved.
@@ -101,7 +101,7 @@ Save & Load
 
 
 Auto Save
----------
+=========
 
 :guilabel:`Save Versions`
    Number of versions created for the same file (for backup).

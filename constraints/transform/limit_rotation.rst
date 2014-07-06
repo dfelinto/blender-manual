@@ -1,9 +1,9 @@
 
 Limit Rotation Constraint
-=========================
+*************************
 
 Description
------------
+===========
 
 An object or bone can be rotated around the X, Y and Z axes.
 This constraint restricts the amount of allowed rotations around each axis,
@@ -33,7 +33,7 @@ see the "Inverse Kinematics" section of Bone properties.
 
 
 Options
--------
+=======
 
 .. figure:: /images/25-Manual-Constraints-Transform-LimitRot.jpg
    :width: 304px

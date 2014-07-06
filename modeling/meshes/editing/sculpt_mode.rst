@@ -1,12 +1,12 @@
 
 Overview
-========
+********
 
 :guilabel:`Sculpt` Mode is similar to :guilabel:`Edit` Mode in that it is used to alter the shape of a model, but Sculpt Mode uses a very different workflow: instead of dealing with individual elements (vertices, edges, and faces), an area of the model is altered using a brush. In other words, instead of selecting a group of vertices, Sculpt Mode automatically selects vertices based on where the brush is, and modifies them accordingly.
 
 
 Sculpt Mode
-===========
+***********
 
 Sculpt mode is selected from the mode menu of the :guilabel:`3D View` header.
 
@@ -28,7 +28,7 @@ Also a red circle will appear that follows the location of the cursor in the 3d 
 
 
 Sculpt Brushes
-==============
+**************
 
 Brushes are brush presets.  They are a combination of a 'tool', along with stroke, texture,
 and options.
@@ -94,19 +94,19 @@ and options.
 
 
 Sculpting with the Multires Modifier
-====================================
+************************************
 
 ...
 
 
 Sculpt Properties Panel
-=======================
+***********************
 
 This panel appears in the tool palette on the left side of the 3D viewport.
 
 
 Brush Menu
-----------
+==========
 
 :guilabel:`Radius`
    This option controls the radius of the brush, measured in pixels. :kbd:`F` in the 3D view allows you to change the brush size interactively by dragging the mouse and then left clicking (the texture of the brush should be visible inside the circle). Typing a number then enter while in :kbd:`F` sizing allows you to enter the size numerically. Brush size can be affected by enabling the pressure sensitivity icon, if a supported tablet is being used.
@@ -144,7 +144,7 @@ if a supported tablet is being used.
 
 
 Stroke Menu
------------
+===========
 
 :guilabel:`Stroke Method`
    Defines the way brush strokes are applied to the mesh:
@@ -179,7 +179,7 @@ and :guilabel:`Airbrush` strokes:
 
 
 Curve Menu
-----------
+==========
 
 The :guilabel:`Curve` section allows you to use a curve control to the right to modify the
 intensity of the brush from its centre (left part of the curve) towards its borders
@@ -187,7 +187,7 @@ intensity of the brush from its centre (left part of the curve) towards its bord
 
 
 Texture Menu
-------------
+============
 
 A texture can be used to determine the strength of brush effects as well.
 Select an existing texture from the texture box,
@@ -224,7 +224,7 @@ or create a new one by selecting the :guilabel:`New` button
 
 
 Symmetry Menu
--------------
+=============
 
 Mirror the brush strokes across the selected local axes.
 Note that if you want to alter the directions the axes point in,
@@ -237,7 +237,7 @@ you must rotate the model in :guilabel:`Edit` Mode, not :guilabel:`Object` Mode.
 
 
 Options Menu
-------------
+============
 
 :guilabel:`Threaded Sculpt`
    Takes advantage of multiple CPU processors to improve sculpting performance.
@@ -256,7 +256,7 @@ Unified Settings:
 
 
 Appearance Menu
----------------
+===============
 
 You can set the color of the brush depending on if it is in additive or subtractive mode.
 
@@ -264,7 +264,7 @@ You can also set the brush icon from an image file.
 
 
 Tool Menu
----------
+=========
 
 Here you can select the type of brush preset to use.
 :guilabel:`Reset Brush` will return the settings of a brush to its defaults.
@@ -273,7 +273,7 @@ You can also set Blender to use the current brush for :guilabel:`Vertex Paint` m
 
 
 Hiding and Revealing Mesh
-=========================
+*************************
 
 It is sometimes useful to isolate parts of a mesh to sculpt on. To hide a part of a mesh,
 press :kbd:`H` then click & drag around the part you want to hide.
@@ -290,7 +290,7 @@ To reveal all hidden parts, just hit :kbd:`alt-H`.
 
 
 Keyboard Shortcuts
-==================
+******************
 
 These shortcuts may be customized under File > User preferences > Input > 3D View > Sculpt
 Mode.

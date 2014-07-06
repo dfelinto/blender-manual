@@ -3,7 +3,7 @@
 
 
 Stretch To Constraint
-=====================
+*********************
 
 The :guilabel:`Stretch To` constraint causes its owner to rotate and scale its Y axis towards its target.
 So it has the same tracking behavior as the :doc:`Track To constraint <constraints/tracking/track_to>`.
@@ -23,7 +23,7 @@ With bones, the "volumetric" variation scales them along their own local axes
 
 
 Options
--------
+=======
 
 .. figure:: /images/25-Manual-Constraints-Tracking-StretchTo.jpg
    :width: 250px

@@ -1,6 +1,6 @@
 
 Modes
-=====
+*****
 
 *Modes* are a Blender-level object-oriented feature, which means that *the whole Blender application* is always in *one and only one mode*, and that the available modes vary depending on the selected active object's type - most of them only enable the default :guilabel:`Object` mode (like cameras, lamps, etc.). Each mode is designed to edit an aspect of the selected object. See the *Blender's Modes* table below for details.
 

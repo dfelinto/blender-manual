@@ -1,6 +1,6 @@
 
 Ocean Simulation
-================
+****************
 
 Blender's ocean simulation tools take the form of a modifier,
 to simulate and generate a deforming ocean surface, and associated texture,
@@ -9,7 +9,7 @@ it is intended to simulate deep ocean waves and foam.
 
 
 Simulation Internals
---------------------
+====================
 
 The simulator itself uses FFT methods to generate 2d grids of sim information internally,
 very similar to 2d texture maps.
@@ -21,7 +21,7 @@ multithreaded with OpenMP to take advantage of multiple cores.
 
 
 Ocean Modifier
-==============
+**************
 
 .. admonition:: Reference
    :class: refbox
@@ -31,7 +31,7 @@ Ocean Modifier
 
 
 Description
------------
+===========
 
 .. figure:: /images/Ocean_modifier.jpg
    :width: 240px
@@ -43,7 +43,7 @@ The Ocean Modifier is the main place in Blender where the simulation is performe
 
 
 Geometry Options
-----------------
+================
 
 :guilabel:`Geometry`
    The ocean modifier can affect mesh geometry by:
@@ -61,7 +61,7 @@ A UV channel is also added, mapping the [0.0,1.0] UV space to the simulation gri
 
 
 Simulator Options
------------------
+=================
 
 :guilabel:`Time`
    The time at which the ocean surface is being evaluated. To make an animated ocean, you will need to insert keyframes (:kbd:`rmb`) and animate this time value - the speed that the time value is changing will determine the speed of the wave animation
@@ -79,7 +79,7 @@ Simulator Options
 
 
 Wave Options
-------------
+============
 
 :guilabel:`Choppiness`
    The choppiness of the wave peaks. With a choppiness of 0, the ocean surface is only displaced up and down in the Z direction, but with higher choppiness, the waves are also displaced laterally in X and Y, to create sharper wave peaks.
@@ -104,7 +104,7 @@ Wave Options
 
 
 Sim Data Generation Options
----------------------------
+===========================
 
 .. figure:: /images/Ocean_foam_layer_name.jpg
    :width: 240px
@@ -131,7 +131,7 @@ Additional sim data can be generated for rendering as well.
 
 
 Baking
-------
+======
 
 Rather than simulating the ocean data live, the ocean data can be baked to disk.
 When a simulation is baked, the simulator engine is completely bypassed,
@@ -145,7 +145,7 @@ Baking can be advantageous for a few reasons:
 
 
 Data Files
-__________
+^^^^^^^^^^
 
 Sim data is stored in disk as sequences of OpenEXR image maps, one for each of displacement,
 normal and foam (if enabled to be generated). Upon loading the data from these baked files,
@@ -158,7 +158,7 @@ they can also be opened and rendered in any other application or renderer that s
 
 
 Baking Foam
-___________
+^^^^^^^^^^^
 
 Baking also provides improved foam capabilities. When simulating live,
 the ocean simulator retrieves data for that current frame only. In the case of the foam map,
@@ -175,7 +175,7 @@ FIXME(Tag Unsupported:vimeo;
 
 
 Baking Options
---------------
+==============
 
 :guilabel:`Start, End`
    Frames of the simulation to bake (inclusive). The start and end frames of the bake are repeated when accessing frames outside the baked range.
@@ -191,7 +191,7 @@ Simulated and baked to image maps in Blender, rendered in 3Delight.
 
 
 History
-~~~~~~~
+-------
 
 The core simulator was developed by Drew Whitehouse, for the [http://odforce.net/wiki/index.
 php/HoudiniOceanToolkit Houdini Ocean Toolkit].

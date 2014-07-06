@@ -1,6 +1,6 @@
 
 Shrink/Fatten Along Normals
-===========================
+***************************
 
 .. admonition:: Reference
    :class: refbox

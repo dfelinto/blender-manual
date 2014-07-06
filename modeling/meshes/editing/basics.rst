@@ -2,7 +2,7 @@
 
 
 Basic Mesh Editing
-==================
+******************
 
 In this section we explain how to do basic editing on a mesh.
 

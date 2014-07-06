@@ -1,6 +1,6 @@
 
 Shader Nodes
-============
+************
 
 BSDF
 
@@ -8,7 +8,7 @@ BSDF
 
 
 Diffuse
-_______
+^^^^^^^
 
 Lambertian and Oren-Nayar diffuse reflection.
 
@@ -33,7 +33,7 @@ Lambertian and Oren-Nayar diffuse reflection.
 
 
 Translucent
-___________
+^^^^^^^^^^^
 
 Lambertian diffuse  transmission.
 
@@ -56,7 +56,7 @@ FIXME(Tag Unsupported:div;
 
 
 Glossy
-______
+^^^^^^
 
 Glossy reflection with microfacet distribution, used for materials such as metal or mirrors.
 
@@ -84,7 +84,7 @@ Glossy reflection with microfacet distribution, used for materials such as metal
 
 
 Anisotropic
-___________
+^^^^^^^^^^^
 
 Anisotropic glossy reflection, with separate control over U and V direction roughness.
 The tangents used for shading are derived from the active UV map. If no UV map is available,
@@ -118,7 +118,7 @@ they are automatically generated using a sphere mapping based on the mesh boundi
 
 
 Toon
-____
+^^^^
 
 Diffuse and Glossy Toon :abbr:`BSDF (Bidirectional scattering distribution function)` for
 creating cartoon light effects.
@@ -141,7 +141,7 @@ creating cartoon light effects.
 
 
 Transparent
-___________
+^^^^^^^^^^^
 
 Transparent :abbr:`BSDF (Bidirectional scattering distribution function)` without refraction, passing straight through the surface, as if there were no geometry there. Useful with alpha maps, for example. This shader
 FIXME(TODO: Internal Link;
@@ -166,7 +166,7 @@ FIXME(TODO: Internal Link;
 
 
 Glass
-_____
+^^^^^
 
 Glass-like shader mixing refraction and reflection at grazing angles. Like the transparent shader, only pure white will make it transparent. The glass shader tends to cause noise due to caustics. Since the Cycles path tracing integrator is not very good at rendering caustics, it helps to combine this with a transparent shader for shadows; for
 FIXME(TODO: Internal Link;
@@ -199,7 +199,7 @@ FIXME(TODO: Internal Link;
 
 
 Refraction
-__________
+^^^^^^^^^^
 
 Glossy refraction with sharp or microfacet distribution,
 used for materials that transmit light. For best results this node should be considered as a
@@ -225,7 +225,7 @@ Otherwise it will give quite dark results at the edges for glossy refraction.
 
 
 Velvet
-______
+^^^^^^
 
 Velvet reflection shader for materials such as cloth.
 It is meant to be used together with other shaders (such as a *Diffuse Shader*)
@@ -252,10 +252,10 @@ FIXME(Tag Unsupported:div;
 
 
 BSSRDF
-------
+======
 
 Subsurface Scattering
-_____________________
+^^^^^^^^^^^^^^^^^^^^^
 
 Simple subsurface multiple scattering, for materials such as skin, wax, marble,
 milk and others. For these materials,
@@ -303,7 +303,7 @@ and a soft appearance.
 
 
 Emission
---------
+========
 
 Lambertian emission, to be used for material and lamp surface outputs.
 
@@ -339,7 +339,7 @@ Emission shaders on meshes are also in Watts/m^2.
 
 
 Background
-----------
+==========
 
 Background light emission. This node should only be used for the world surface output;
 it is ignored in other cases.
@@ -353,7 +353,7 @@ it is ignored in other cases.
 
 
 Holdout
--------
+=======
 
 A holdout shader is useful for compositing, to create a "hole" in the image with zero alpha
 transparency where the object with this shader is located.
@@ -368,7 +368,7 @@ transparency where the object with this shader is located.
 
 
 Ambient Occlusion
------------------
+=================
 
 The ambient occlusion node gives per-material control for the amount of AO.
 When AO is enabled in the world, it affects all diffuse BSDFs in the scene.
@@ -387,7 +387,7 @@ or to let it influence some materials more or less than others.
 
 
 Mix and Add
------------
+===========
 
 Mix or add shaders together. Mixing can be used for material layering,
 where the :guilabel:`Fac` input may, for example, be connected to a Blend Weight node.

@@ -1,6 +1,6 @@
 
 Texture Nodes
-=============
+*************
 
 As an alternative to using the :doc:`Texture Stack <textures/options>`, Blender includes a node-based texture generation system which enables you to create textures by combining colors, patterns and other textures in much the same way that you combine :doc:`Material Nodes <materials/nodes>`.
 
@@ -21,7 +21,7 @@ FIXME(Template Unsupported: Doc:2.6/Reference/Nodes/Concepts;
 
 
 Using Texture Nodes
--------------------
+===================
 
 To use texture nodes with the current texture, open a :doc:`Node Editor window <textures/types/nodes/editor>`, set it to :guilabel:`Texture` mode by clicking the "Texture" icon (
 
@@ -46,7 +46,7 @@ For instructions on how to add, remove and manipulate the nodes in the tree, see
 
 
 Using Multiple Outputs
-----------------------
+======================
 
 Each texture that you define with Texture Nodes can have several outputs,
 which you can then use for different things. For example,
@@ -66,7 +66,7 @@ inside the texture node that you've just added, you can select which output you 
 
 
 See also
---------
+========
 
 -
 
