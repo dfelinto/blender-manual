@@ -1,6 +1,6 @@
 
 Fedora based systems
-====================
+********************
 
 Fedora Linux is an offshoot of the Redhat Linux distribution.  Fedora Linux is used by Redhat
 to test new technologies which are eventually used within official Redhat Linux distributions.

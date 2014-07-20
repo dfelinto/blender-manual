@@ -47,7 +47,7 @@ be outdated compared to the offical release.
 
 
 Installation
-************
+============
 
 First check if your distribution provides the latest Blender version through its package
 manager. If it doesn't, download the appropriate version of Blender for Linux from the
@@ -69,7 +69,7 @@ To run Blender,
 
 
 Installing into <code>/opt</code> or <code>/usr/local</code>
-============================================================
+------------------------------------------------------------
 
 You can also install Blender into ``/opt`` or ``/usr/local`` by moving the
 Blender directory into one of those locations. If you want to be able to run Blender from any
@@ -78,7 +78,7 @@ Consult your operating system documentation for the recommended method of settin
 
 
 Configuration
-*************
+=============
 
 Alt+Mouse Conflict
 ------------------
@@ -99,7 +99,7 @@ the key to Super (Windows Key)
 
 
 Compositing Desktop Environments
-********************************
+================================
 
 Many recent Linux distributions enable compositing when hardware support is available. This is
 a feature where the graphics card is used to do window drawing and accelerated desktop effects

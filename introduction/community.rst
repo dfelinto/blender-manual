@@ -76,7 +76,7 @@ You can join these with your favorite IRC client:
 
 
 Who uses Blender?
-*****************
+=================
 
 The Blender community is made up of people from all over the world,
 with novice and professional graphic artists, occasional users and commercial houses.

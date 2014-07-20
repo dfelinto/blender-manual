@@ -26,7 +26,7 @@ Here are the default locations for each system:
 
 
 OSX
----
+===
 
 FIXME(Tag Unsupported:div;
 <div class="tableNormal">
@@ -40,7 +40,7 @@ FIXME(Tag Unsupported:div;
 
 
 Windows
--------
+=======
 
 FIXME(Tag Unsupported:div;
 <div class="tableNormal">
@@ -52,7 +52,7 @@ FIXME(Tag Unsupported:div;
 
 
 Unix (Linux/BSD/Solaris)
-------------------------
+========================
 
 FIXME(Tag Unsupported:div;
 <div class="tableNormal">
@@ -74,7 +74,7 @@ FIXME(Template Unsupported: Blender/Version/Current;
 
 
 Path Layout
-***********
+===========
 
 This is the path layout which is used within the directories described above.
 
@@ -172,10 +172,10 @@ search order: **LOCAL, SYSTEM**
 
 
 Notes
-*****
+=====
 
 User Scripts Path
-=================
+-----------------
 
 The user preferences script path provides a way to set your own directory which is used for
 scripts as well as the user scripts path. Be sure to create subfolders within this directory
@@ -184,7 +184,7 @@ because copying scripts directly into this folder will not load them on startup 
 
 
 Environment Variables
-=====================
+---------------------
 
 Environment variables can be used to override default path locations, eg:
 $BLENDER_USER_CONFIG, $BLENDER_SYSTEM_PYTHON.
@@ -195,7 +195,7 @@ For details see the 'Environment Variables' section in 'blender --help'
 
 
 Scripts Path & Missing Buttons
-==============================
+------------------------------
 
 If blender starts with no interface this is probably because the scripts are not loading
 correctly and can be caused by...

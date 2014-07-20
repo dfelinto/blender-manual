@@ -20,6 +20,7 @@ Desktop.ini
 
 # commonly used paths for generation
 /html
+/_html
 
 # local patches
 /*.patch

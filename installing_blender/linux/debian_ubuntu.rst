@@ -19,7 +19,7 @@ using the default install system, which is easy and fast.
 
 
 Screenshot Install
-==================
+------------------
 
 There are many different distributions based on Debian based Linux systems available to the users,
 and some of them use different Window managers and ways of installing software such as Blender,
@@ -336,7 +336,7 @@ Debian (step by step)
 
 
 General Instructions (text)
-===========================
+---------------------------
 
 .. admonition:: You must have administrative rights to install packages on your system
    :class: nicetip
@@ -395,7 +395,7 @@ sudo apt-get install blender
 
 
 Hints
-=====
+-----
 
 - Installing newest Blender version into ``/opt`` or ``/usr/local``
 
@@ -416,7 +416,7 @@ be aware that you will have to cleanup the old blender folders everytime you upd
 
 
 Drivers for 3D Graphic Cards
-============================
+----------------------------
 
 To run 3D software packages such as Blender, your system will need several specialized
 software libraries which interpret 3D drawing commands from Blender into drawing commands for
@@ -472,7 +472,7 @@ support for their closed source drivers and cards.
 
 
 SoftwareGL Mode
-===============
+---------------
 
 .. admonition:: Hardware or Software OpenGL Mode
    :class: nicetip
@@ -498,7 +498,7 @@ SoftwareGL Mode
 
 
 Cycles Rendering
-================
+----------------
 
 Cycles is the new rendering engine in development for Blender, at first,
 it was a project for realtime visualization,
@@ -545,7 +545,7 @@ Nvidia installed in your Linux based system.
 
 
 Solving problems
-================
+----------------
 
 Most Linux distributions when installed properly, works flawlessly with Blender.
 Minor problems are found depending on the distribution and its configuration.
@@ -660,7 +660,7 @@ issues you may have.
 
 
 Compiling Blender
-=================
+-----------------
 
 If you want to build Blender from source code so you can get the latest greatest features of
 Blender, you can follow the official instruction.  Building Blender from source is not
@@ -683,7 +683,7 @@ connect you to irc through your web browser:
 
 
 Useful links
-============
+------------
 
 If you want to get versions of Blender which are more up to date as they are built from a
 current snapshot of the Blender SVN trunk periodically,

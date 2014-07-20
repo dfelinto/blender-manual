@@ -51,7 +51,7 @@ You must have administrator authorization to create these. The folders are:
 
 
 Hardware Support
-****************
+================
 
 Blender supports 64-bit hardware platforms, removing the 2GB addressable memory limit.
 
@@ -77,7 +77,7 @@ FIXME(Template Unsupported: Dev:Ref/Supported_platforms;
 
 
 Compiling the Source
-********************
+====================
 
 There are presently four build systems for making a binary for the different supported
 operating systems.
