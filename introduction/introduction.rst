@@ -23,7 +23,7 @@ carefully to get familiar with both the interface and with the conventions used 
 
 
 What is Blender?
-****************
+================
 
 Blender was first conceived in December 1993 and became a usable product in August 1994 as an
 integrated application that enables the creation of a diverse range of 2D and 3D content.
@@ -75,7 +75,7 @@ You can download the latest version of Blender `here <http://www.blender.org/dow
 
 
 Blender is a full-featured tool
-*******************************
+===============================
 
 .. figure:: /images/Blender_268a_welcome.jpg
    :width: 400px

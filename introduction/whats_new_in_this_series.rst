@@ -4,8 +4,8 @@
    :figwidth: 650px
 
 
-Introduction
-************
+What's new in 2.5
+*****************
 
 With version 2.5, Blender has seen phenomenal improvements in virtually all areas: software,
 interface, modeling, animation flow, tools, the python API, etc.

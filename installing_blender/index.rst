@@ -1,11 +1,12 @@
-
+.. _installing_blender-index
 
 ####################
   Installing Blender
 ####################
 
 .. toctree::
-
+   
+   introduction.rst
    python.rst
    linux.rst
    linux/debian_ubuntu.rst
@@ -15,3 +16,4 @@
    other_oss.rst
    configuration.rst
    directorylayout.rst
+

@@ -1,4 +1,3 @@
-
 Installing the Binaries
 ***********************
 
@@ -83,5 +82,3 @@ There are presently four build systems for making a binary for the different sup
 operating systems.
 Consult the `Building Blender <http://wiki.blender.org/index.php/Dev:Doc/Building_Blender>`__
 web page for more information about compiling a custom installation binary for your machine.
-
-
