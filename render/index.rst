@@ -5,6 +5,12 @@
 #########
 
 .. toctree::
+   :maxdepth: 1
+
+   cycles/index.rst
+
+..
+   This part of the TOC is temporarily commented because we only showcase Cycles docs.
 
    camera.rst
    camera/perspective.rst

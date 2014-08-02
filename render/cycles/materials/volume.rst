@@ -1,3 +1,4 @@
+.. _render-cycles-materials-volume:
 
 Volume
 ******

@@ -15,9 +15,7 @@ GPU Rendering
 =============
 
 To see if and how you can use your GPU for rendering, see the documentation on
-FIXME(TODO: Internal Link;
-[[../GPU Rendering|GPU Rendering]]
-).
+:ref:`GPU Rendering <render-cycles-gpu_rendering>`.
 
 
 Tutorials

@@ -1,3 +1,4 @@
+.. _render-cycles-gpu_rendering:
 
 GPU Rendering
 *************
@@ -26,7 +27,6 @@ you can configure to use CPU or GPU rendering in the Render properties.
 
 
 CUDA
-
 ----
 
 
@@ -45,7 +45,7 @@ download 64-bit Blender for 64-bit operating systems.
 
 
 Limitations
-"""""""""""
+===========
 
 - The maximum amount of individual textures is limited to 95 byte image textures (PNG, JPEG, ..) and 5 float-image textures (OpenEXR, 16 bit TIFF, ..).
 -
@@ -58,7 +58,7 @@ FIXME(TODO: Internal Link;
 
 
 Older Cards
-"""""""""""
+===========
 
 For Mac and Linux, it's possible to compile kernels at runtime, for cards that are not officially supported. GeForce 8xxx, 9xxx and 2xx cards are not included in the official release, but they might work by enabling
 FIXME(TODO: Internal Link;
@@ -74,7 +74,7 @@ depending on the graphics card model.
 
 
 Missing Features with Shader Model 1.x
-""""""""""""""""""""""""""""""""""""""
+======================================
 
 Due to limitations of the hardware,
 compiling a kernel with all features enabled is not possible for these cards.
@@ -93,7 +93,7 @@ Frequently Asked Questions
 ==========================
 
 Why is Blender unresponsive during rendering?
-"""""""""""""""""""""""""""""""""""""""""""""
+---------------------------------------------
 
 While a graphics card is rendering, it can not redraw the user interface,
 which makes Blender unresponsive. We attempt to avoid this problem by giving back control over
@@ -107,7 +107,7 @@ using one for display and the other(s) for rendering.
 
 
 Why does a scene that renders on the CPU not render on the GPU?
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+---------------------------------------------------------------
 
 There maybe be multiple causes,
 but the most common is that there is not enough memory on your graphics card.
@@ -120,19 +120,19 @@ but this will not be added soon.
 
 
 Can I use multiple {{abbr|GPU|Graphics processing unit}}s for rendering?
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+------------------------------------------------------------------------
 
 Yes, go to User Preferences > System > Compute Device Panel, and configure it as you desire.
 
 
 Would multiple {{abbr|GPU|Graphics processing unit}}s increase available memory?
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+--------------------------------------------------------------------------------
 
 No, each GPU can only access its own memory.
 
 
 What renders faster, NVidia or AMD, CUDA or OpenCL?
-"""""""""""""""""""""""""""""""""""""""""""""""""""
+---------------------------------------------------
 
 Currently NVidia with CUDA is rendering faster. There is no fundamental reason why this should
 be so—we don't use any CUDA-specific features—but the compiler appears to be more mature,
@@ -145,7 +145,7 @@ Error Messages
 ==============
 
 Unsupported GNU version! gcc 4.7 and up are not supported!
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+----------------------------------------------------------
 
 On Linux, depending on your GCC version you might get this error.
 
@@ -158,14 +158,14 @@ If so, delete the following line in /usr/local/cuda/include/host_config.h
 
 
 CUDA Error: Invalid kernel image
-""""""""""""""""""""""""""""""""
+--------------------------------
 
 If you get this error on Windows 64-bit, be sure to use the 64-bit build of Blender,
 not the 32-bit version.
 
 
 CUDA Error: Out of memory
-"""""""""""""""""""""""""
+-------------------------
 
 This usually means there is not enough memory to store the scene on the GPU.
 We can currently only render scenes that fit in graphics card memory,
@@ -173,9 +173,7 @@ and this is usually smaller than that of the CPU. See above for more details.
 
 
 The NVIDIA OpenGL driver lost connection with the display driver
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-... due to exceeding the Windows Time-Out limit and is unable to continue.
+----------------------------------------------------------------
 
 If a GPU is used for both display and rendering,
 Windows has a limit on the time the GPU can do render computations.
@@ -189,14 +187,14 @@ http://msdn.microsoft.com/en-us/windows/hardware/gg487368.aspx
 
 
 CUDA error: Unknown error in cuCtxSynchronize()
-"""""""""""""""""""""""""""""""""""""""""""""""
+-----------------------------------------------
 
 An unknown error can have many causes, but one possibility is that it's a timeout.
 See the above answer for solutions.
 
 
 On Mac OS X ( pre 2.66a* ), no CUDA GPU is available
-""""""""""""""""""""""""""""""""""""""""""""""""""""
+----------------------------------------------------
 
 Since 2.66a, Blender OSX comes with precompiled cuda kernels ( kernel_sm_yx.cubin ),
 you still have to install the CUDA driver (any recent version).

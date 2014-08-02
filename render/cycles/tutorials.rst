@@ -1,1 +1,0 @@
-- REDIRECT :doc:`render/cycles/getting_started/tutorials`

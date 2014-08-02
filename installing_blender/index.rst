@@ -8,9 +8,7 @@
    
    introduction.rst
    python.rst
-   linux.rst
-   linux/debian_ubuntu.rst
-   linux/fedora.rst
+   linux/index.rst
    mac.rst
    windows.rst
    other_oss.rst
