@@ -3,6 +3,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 
 .. toctree::
+   :maxdepth: 2
 
    introduction/index.rst
    installing_blender/index.rst
