@@ -1,6 +1,6 @@
 
-Rendering and Saving Images
-***************************
+Displaying and Saving Images
+****************************
 
 After you have adjusted your render settings,
 in regards to :doc:`Quality </render/options>` and :doc:`Format </render/output>`,
@@ -12,7 +12,7 @@ By default the 3D view is replaced with the UV/Image Editor and the render appea
 
 
 Displaying Renders
-******************
+==================
 
 Renders are displayed in the Image Editor. You can set the way this is displayed to several
 different options in the Display drop-down menu:
@@ -38,7 +38,7 @@ Rendered images can be saved by clicking on the Image menu and using the save op
 
 
 Animation Playback
-******************
+==================
 
 The 'Play' button in the render panel will play back your rendered animation in a new window.
 
@@ -59,20 +59,10 @@ Key Short-Cuts
 - :kbd:`shift-down` use backward playback.
 - :kbd:`shift-up` use forward playback.
 - :kbd:`shift` hold to show frame numbers.
-
-
--
-
-FIXME(Template Unsupported: Shortcut/Mouse;
-{{Shortcut/Mouse|lmb}}
-) scrub in time.
-
-
+- :kbd:`lmb` scrub in time.
 - :kbd:`ctrl-plus` zoom in
 - :kbd:`ctrl-minus` zoom out
 - :kbd:`esc` quit
-
-
 - :kbd:`pad1` 60 fps
 - :kbd:`pad2` 50 fps
 - :kbd:`pad3` 30 fps
@@ -83,18 +73,13 @@ FIXME(Template Unsupported: Shortcut/Mouse;
 - :kbd:`pad7` 12 fps
 - :kbd:`pad8` 10 fps
 - :kbd:`pad9` 6 fps
--
-
-FIXME(Template Unsupported: Shortcut/Keypress;
-{{Shortcut/Keypress|pad/}}
-) 5 fps
-
+- :kbd:`pad/` 5 fps
 - :kbd:`minus` slow down playback.
 - :kbd:`plus` speed up playback.
 
 
 Display Options
-***************
+===============
 
 When a rendered image is displayed in the Image Editor,
 several new menu items become available.
