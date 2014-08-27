@@ -9,9 +9,6 @@
 
    cycles/index.rst
 
-..
-   This part of the TOC is temporarily commented because we only showcase Cycles docs.
-
    camera.rst
    camera/perspective.rst
    camera/depth_of_field.rst
