@@ -24,16 +24,5 @@
    performance/index.rst
    engines/index.rst
    cycles/index.rst
-   freestyle.rst
-   freestyle/core.rst
-   freestyle/viewmap.rst
-   freestyle/parameter_editor.rst
-   freestyle/parameter_editor/line_set.rst
-   freestyle/parameter_editor/line_style.rst
-   freestyle/parameter_editor/line_style/strokes.rst
-   freestyle/parameter_editor/line_style/color.rst
-   freestyle/parameter_editor/line_style/alpha.rst
-   freestyle/parameter_editor/line_style/thickness.rst
-   freestyle/parameter_editor/line_style/geometry.rst
-   freestyle/python.rst
-   freestyle/links.rst
+   freestyle/index.rst
+
