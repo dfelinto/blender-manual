@@ -12,7 +12,7 @@ all:
 	# './' (input), './html/' (output)
 	QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
 	sphinx-build -T -b html ./manual ./html
-	echo "firefox ./html/contents.html"
+	echo "firefox" $(shell pwd)"/html/"
 
 pdf:
 	QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
