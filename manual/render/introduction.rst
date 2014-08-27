@@ -207,7 +207,7 @@ Deselecting them disables them.
 - :doc:`Shadows </lighting/shadows>`
 - :doc:`Subsurface Scattering </materials/properties/subsurface_scattering>`
 - :doc:`Environment Maps </textures/types/environment_maps>`
-- :doc:`Ray Tracing <introduction_to_shading>`
+- :doc:`Ray Tracing </introduction_to_shading>`
 - :doc:`Color Management </render/color_management>`
 
       Uses a linear workflow when enabled
@@ -234,7 +234,7 @@ Control the way the renderer performs with respect to the computer's memory and 
 Post Processing
 ===============
 
-Control effects that are applied after the image has been rendered. If you are using the :doc:`Compositor <composite_nodes>` or :doc:`Sequencer <sequencer>`, you can tell Blender to process those effects instead of directly rendering the scene.
+Control effects that are applied after the image has been rendered. If you are using the :doc:`Compositor </composite_nodes>` or :doc:`Sequencer </sequencer>`, you can tell Blender to process those effects instead of directly rendering the scene.
 
 Fields are used when :doc:`Rendering for Video </render/output/video>`.
 
