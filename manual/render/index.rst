@@ -32,11 +32,7 @@
    performance/renderfarm.rst
    performance/netrender.rst
    performance/gpu.rst
-   engines.rst
-   engines/yafray.rst
-   engines/luxrender.rst
-   engines/cycles.rst
-   engines/freestyle.rst
+   engines/index.rst
    cycles/index.rst
    freestyle.rst
    freestyle/core.rst
