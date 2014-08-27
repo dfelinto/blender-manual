@@ -7,6 +7,8 @@
 .. toctree::
    :maxdepth: 1
 
+   introduction.rst
+
    cycles/index.rst
 
    camera.rst
