@@ -121,7 +121,7 @@ Display Mode
    :guilabel:`Alpha Channel`
          Displays a gray-scale image. White areas are opaque, black areas have a an alpha of 0.
    :guilabel:`Z Depth`
-         Display the depth from the camera, from Clip Start to Clip End, as specified in the :doc:`Camera settings </render/camera>`.
+         Display the depth from the camera, from Clip Start to Clip End, as specified in the :doc:`Camera settings </render/camera/introduction>`.
 
 :guilabel:`Curves Panel`
    The :guilabel:`Curves` Panel is available in the :guilabel:`Properties` Panel. You can use this to adjust the colors of the image.

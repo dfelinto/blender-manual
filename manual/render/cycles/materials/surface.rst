@@ -17,7 +17,7 @@ Terminology
 - **BSDF** stands for bidirectional scattering distribution function.
   It defines how light is reflected and refracted at a surface.
 - **Reflection**  :abbr:`BSDF (Bidirectional scattering distribution function)` s
-reflect an incoming ray on the same side of the surface.
+  reflect an incoming ray on the same side of the surface.
 - **Transmission**  :abbr:`BSDF (Bidirectional scattering distribution function)` s
   transmit an incoming ray through the surface, leaving on the other side.
 - **Refraction**  :abbr:`BSDF (Bidirectional scattering distribution function)` s are a type of **Transmission**,
