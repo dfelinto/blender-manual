@@ -18,7 +18,7 @@ are below the rendering button in the :guilabel:`Render` Panel (*Render Panel.*)
 
 
 Options
-*******
+=======
 
 :guilabel:`Anti-Aliasing` check box
    Enables oversampling
@@ -103,7 +103,7 @@ this will give an extra sharpening result.
 
 
 Examples
-********
+========
 
 .. figure:: /images/Manual-Part-XI-AA02.jpg
    :width: 630px

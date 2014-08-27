@@ -12,7 +12,6 @@
    camera/index.rst
    display.rst
    options.rst
-   options/antialiasing.rst
    animations.rst
    bake.rst
    command_line.rst
@@ -21,6 +20,7 @@
    post_process/index.rst
    performance/index.rst
    engines/index.rst
+   internal/index.rst
    cycles/index.rst
    freestyle/index.rst
 
