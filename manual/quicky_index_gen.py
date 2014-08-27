@@ -28,7 +28,7 @@ def from_chapters():
     fn_src = os.path.join(CURRENT_DIR, "contents.rst")
     fn_dst = os.path.join(CURRENT_DIR, "contents_quicky.rst")
 
-    f = open(fn_src, 'r', encoding="utf-8")
+    f = open(fn_src, 'r')
     data = f.read()
     f.close()
     del f
@@ -57,7 +57,7 @@ def from_chapters():
 
     data = "\n".join(lines_new)
 
-    f = open(fn_dst, 'w', encoding="utf-8")
+    f = open(fn_dst, 'w')
     f.write(data)
     f.close()
     del f
