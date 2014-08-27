@@ -30,6 +30,7 @@
    py/index.rst
    game_engine/index.rst
 
+.. TODO: Move all these into  *chapter*/introduction.rst
 
    introduction.rst
    interface.rst
@@ -46,7 +47,6 @@
    animation.rst
    physics.rst
    motion_tracking.rst
-   render.rst
    composite_nodes.rst
    sequencer.rst
    extensions.rst
