@@ -1,9 +1,6 @@
 
-..    TODO/Review: {{review|text=Options reviewed for v2.70; Video is for old version}} .
-
-
-The Camera
-**********
+Introduction
+************
 
 A :guilabel:`Camera` is an object that provides a means of rendering images from Blender.
 It defines which portions of a scene is visible at render time.
@@ -12,7 +9,7 @@ one camera in order to generate any images.
 
 
 Add a new camera
-****************
+================
 
 .. admonition:: Reference
    :class: refbox
@@ -27,7 +24,7 @@ choose :menuselection:`Add --> Camera`.
 
 
 Change active camera
-********************
+====================
 
 .. admonition:: Reference
    :class: refbox
@@ -61,7 +58,7 @@ The active camera, as well as the layers, can be specific to a given view, or gl
 
 
 Camera Settings
-***************
+===============
 
 .. admonition:: Reference
    :class: refbox
@@ -78,7 +75,6 @@ which are displayed when a camera is the selected (active!) object.
 
 
 Lens
-
 ----
 
 
@@ -247,7 +243,7 @@ Composition Guides
 
 
 Camera Navigation
-*****************
+=================
 
 Here you will find some handy ways to navigate and position your camera in your scene.
 

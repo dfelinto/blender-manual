@@ -9,9 +9,7 @@
 
    introduction.rst
 
-   camera.rst
-   camera/perspective.rst
-   camera/depth_of_field.rst
+   camera/index.rst
    display.rst
    options.rst
    options/antialiasing.rst
