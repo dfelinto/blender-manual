@@ -1,3 +1,4 @@
+.. _shaders:
 
 Shader Nodes
 ************

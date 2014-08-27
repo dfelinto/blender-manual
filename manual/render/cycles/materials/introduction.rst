@@ -10,7 +10,7 @@ the volume inside the mesh, and displacement of the surface of the mesh.
 .. figure:: /images/Manual_cycles_material_shaders.jpg
 
 
-:ref:`Surface Shader </render-cycles-materials-volume>`
+:ref:`Surface Shader <surface>`
 =======================================================
 
 The surface shader defines the light interaction at the surface of the mesh. One or more
@@ -21,7 +21,7 @@ Emission defines how light is emitted from the surface,
 allowing any surface to become a light source.
 
 
-:ref:`Volume Shader </render-cycles-materials-volume>`
+:ref:`Volume Shader </render/cycles/materials/volume>`
 ======================================================
 
 When the surface shader does not reflect or absorb light, it enters into the volume.
@@ -37,7 +37,7 @@ where you want some of the light to be absorbed as it passes through the surface
 combined with e.g. a glass or glossy shader at the surface.
 
 
-:ref:`Displacement </render-cycles-materials-displacement>`
+:ref:`Displacement </render/cycles/materials/displacement>`
 ===========================================================
 
 The shape of the surface and the volume inside it may be altered by displacement shaders.

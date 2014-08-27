@@ -25,16 +25,7 @@ The render will keep updating as material and object modifications are done.
    texture_editing.rst
    world.rst
    lamps.rst
-   nodes.rst
-   nodes/input.rst
-   nodes/output.rst
-   nodes/shaders.rst
-   nodes/textures.rst
-   nodes/additivecolor.rst
-   nodes/vector.rst
-   nodes/convertor.rst
-   nodes/osl.rst
-   nodes/more.rst
+   nodes/index.rst
    light_paths.rst
    integrator.rst
    reducing_noise.rst

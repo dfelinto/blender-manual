@@ -1,3 +1,4 @@
+.. _osl:
 
 Open Shading Language
 *********************

@@ -1,4 +1,4 @@
-.. _render-cycles-materials-surface:
+.. _surface:
 
 Surface
 *******
