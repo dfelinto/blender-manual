@@ -38,7 +38,7 @@ Various things that are calculated in a standard render include:
 .. admonition:: Renderer Rewrite
    :class: note
 
-   Starting with Blender 2.42, the render engine was rewritten. See :doc:`Unified Renderer <render>` if you are using an old version of Blender.
+   Starting with Blender 2.42, the render engine was rewritten. See :doc:`Unified Renderer </render>` if you are using an old version of Blender.
 
 
 The answer to each of the above questions is an image or map, as shown below:
@@ -91,7 +91,7 @@ the **Shadow** pass will be blank; there's simply nothing to show you.
 If you have not enabled *Ambient Occlusion* in your World environment settings,
 the **AO** pass will be blank, even if you select it here.
 
-To save time and disk space, you have to tell Blender each of the passes to render in the Render Layers panel (which we first introduced on :doc:`the previous page <render/post_process/layers>`):
+To save time and disk space, you have to tell Blender each of the passes to render in the Render Layers panel (which we first introduced on :doc:`the previous page </render/post_process/layers>`):
 
 
 +----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

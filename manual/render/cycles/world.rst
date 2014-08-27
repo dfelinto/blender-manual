@@ -63,7 +63,7 @@ glossy or transmission BSDFs are not affected.
 Transparency of surfaces will be taken into account, i.e.
 a half-transparent surface will only half occlude.
 
-An alternative method of using Ambient Occlusion on a per-shader basis is to use the :doc:`Ambient Occlusion shader <render/cycles/nodes/shaders#ambient_occlusion>` (*non-shader AO node still to be implemented*).
+An alternative method of using Ambient Occlusion on a per-shader basis is to use the :doc:`Ambient Occlusion shader </render/cycles/nodes/shaders#ambient_occlusion>` (*non-shader AO node still to be implemented*).
 
 
 Settings

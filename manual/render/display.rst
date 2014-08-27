@@ -2,7 +2,7 @@
 Rendering and Saving Images
 ***************************
 
-After you have adjusted your render settings, in regards to :doc:`Quality <render/options>` and :doc:`Format <render/output>`, you will need to actually render the image. Rendering still images is fairly simple. :doc:`Rendering Animations <render/animations>` is a bit more complex and is covered in the next sections.
+After you have adjusted your render settings, in regards to :doc:`Quality </render/options>` and :doc:`Format </render/output>`, you will need to actually render the image. Rendering still images is fairly simple. :doc:`Rendering Animations </render/animations>` is a bit more complex and is covered in the next sections.
 
 To render an image from the active camera, in the Render Panel, hit the big Image button.
 By default the 3D view is replaced with the UV/Image Editor and the render appears.
@@ -99,10 +99,10 @@ several new menu items become available.
    You can save successive renders into the render buffer by selecting a new slot before rendering. If an image has been rendered to a slot, it can be viewed by selecting that slot. Empty slots appear as blank grids in the image editor. Use the shortcut :kbd:`J` to cycle through saved renders and :kbd:`alt-J` to cycle backwards through the saved renders.
 
 :guilabel:`Render Layer`
-   If you are using :doc:`Render Layers <render/post_process/layers>`, use this menu to select which layer is displayed.
+   If you are using :doc:`Render Layers </render/post_process/layers>`, use this menu to select which layer is displayed.
 
 :guilabel:`Render Pass`
-   If you are using :doc:`Render Passes <render/post_process/passes>`, use this menu to select which pass is displayed.
+   If you are using :doc:`Render Passes </render/post_process/passes>`, use this menu to select which pass is displayed.
 
 :guilabel:`Image Painting`
    This icon enables or disables Image Painting.
@@ -117,7 +117,7 @@ Display Mode
    :guilabel:`Alpha Channel`
          Displays a gray-scale image. White areas are opaque, black areas have a an alpha of 0.
    :guilabel:`Z Depth`
-         Display the depth from the camera, from Clip Start to Clip End, as specified in the :doc:`Camera settings <render/camera>`.
+         Display the depth from the camera, from Clip Start to Clip End, as specified in the :doc:`Camera settings </render/camera>`.
 
 :guilabel:`Curves Panel`
    The :guilabel:`Curves` Panel is available in the :guilabel:`Properties` Panel. You can use this to adjust the colors of the image.

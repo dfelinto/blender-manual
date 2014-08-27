@@ -16,7 +16,7 @@ but a very common use of a :guilabel:`World` is to shade a background color.
 .. admonition:: Background Image in Render
    :class: note
 
-   To use an image as your render background, see :doc:`BackBuf images specified in the Output Panel <render>`
+   To use an image as your render background, see :doc:`BackBuf images specified in the Output Panel </render>`
 
 
 .. admonition:: Background Image in 3D

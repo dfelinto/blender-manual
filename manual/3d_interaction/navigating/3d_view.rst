@@ -76,15 +76,15 @@ Zooming in and out is possible in this view, but to change the viewpoint,
 you have to move or rotate the camera.
 
 If you have a large scene, viewing it through Camera View may not display all of the Objects in the scene.
-One possibility may be that the :doc:`clipping distance <render/camera#camera_settings>` of the camera is too low.
+One possibility may be that the :doc:`clipping distance </render/camera#camera_settings>` of the camera is too low.
 The camera will only show objects that fall within the clipping range.
 
 
-:doc:`Read more about Render perspectives » <render/camera/perspective>`
+:doc:`Read more about Render perspectives » </render/camera/perspective>`
 
-:doc:`Read more about Camera View » <3d_interaction/navigating/camera_view>`
+:doc:`Read more about Camera View » </3d_interaction/navigating/camera_view>`
 
-:doc:`Read more about Camera clipping » <render/camera#camera_settings>`
+:doc:`Read more about Camera clipping » </render/camera#camera_settings>`
 
 
 Technical Details

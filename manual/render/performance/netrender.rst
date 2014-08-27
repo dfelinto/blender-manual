@@ -38,7 +38,7 @@ Master web interface
 
 When started, the Master will also present a web interface that provide more information about
 slaves and jobs. There are currently two web interfaces.
-The old one can be viewed using the following url scheme http[s]://master_ip_address:master_port. The new one based on jquery and in development can be viewed using following url scheme http[s]://master_ip_address:master_port/html/newui. All information regarding the new web interface can be found :doc:`here <render/performance/netrender/webinterface>`.
+The old one can be viewed using the following url scheme http[s]://master_ip_address:master_port. The new one based on jquery and in development can be viewed using following url scheme http[s]://master_ip_address:master_port/html/newui. All information regarding the new web interface can be found :doc:`here </render/performance/netrender/webinterface>`.
 
 
 Slave(s)

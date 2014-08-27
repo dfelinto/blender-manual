@@ -27,7 +27,7 @@ constructed.
 Layers or Passes?
 =================
 
-Blender's :doc:`Render Pass <render/post_process/passes>` system is a subset of Render Layers. Passes are specific to elements of shading properties, such as specular and diffuse, which can later be combined in compositing. Render Layers are more geared for separating scene components, but can include isolated passes as well.
+Blender's :doc:`Render Pass </render/post_process/passes>` system is a subset of Render Layers. Passes are specific to elements of shading properties, such as specular and diffuse, which can later be combined in compositing. Render Layers are more geared for separating scene components, but can include isolated passes as well.
 
 
 Using Render Layers
@@ -142,7 +142,7 @@ this set of buttons allow you to select which major products to render:
 Passes
 ======
 
-Render Passes (Combined, Z, Vec, etc.) are discussed on :doc:`the next page <render/post_process/passes>`.
+Render Passes (Combined, Z, Vec, etc.) are discussed on :doc:`the next page </render/post_process/passes>`.
 
 
 Examples

@@ -47,8 +47,8 @@ camera view.
 
    Note that when Render Borders are activated, Full Sampling Anti-Aliasing will be disabled while Sampled Motion Blur will become available.
 
-   :doc:`Read more about Anti-Aliasing » <render/options/antialiasing>`
-   :doc:`Read more about Motion Blur » <render/post_process/motion_blur>`
+   :doc:`Read more about Anti-Aliasing » </render/options/antialiasing>`
+   :doc:`Read more about Motion Blur » </render/post_process/motion_blur>`
 
 
 .. figure:: /images/3D-interaction_Navigating_Camera-View-render-border.jpg
@@ -58,7 +58,7 @@ camera view.
    Render border and associated render.
 
 
-:doc:`Read more about Render Output options » <render/output>`
+:doc:`Read more about Render Output options » </render/output>`
 
-:doc:`Read more about Cameras » <render/camera>`
+:doc:`Read more about Cameras » </render/camera>`
 

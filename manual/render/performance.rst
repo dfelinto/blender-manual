@@ -79,17 +79,17 @@ Scene and Specific Objects
 Render Settings
 ===============
 
-- :doc:`Output Panel <render/output>`
+- :doc:`Output Panel </render/output>`
   - Disable :guilabel:`Edge` rendering.
   - :guilabel:`Save Buffers`.
-  - Render to an :doc:`Image Editor <ce/windows/uv-image>` window, not a popup. :doc:`Render Window <render/display>`.
+  - Render to an :doc:`Image Editor <ce/windows/uv-image>` window, not a popup. :doc:`Render Window </render/display>`.
   - Use multiple :guilabel:`Threads` on a multi-core CPU (with multiple :guilabel:`Parts`).
-- :doc:`Render Layers Panel <render/post_process/layers>`
+- :doc:`Render Layers Panel </render/post_process/layers>`
   - Render only the Layers of interest.
   - Render with all lights set to one simple spot (enter its name in the :guilabel:`Light:` field).
   - Render with one material override (enter its name in the Mat: field).
   - Disable unnecessary Render Passes, such as :guilabel:`Z`, or only render the pass of interest, such as :guilabel:`Diffuse`.
-- :doc:`Render Panel <render/options>`
+- :doc:`Render Panel </render/options>`
   - Turn off :guilabel:`Shadows`.
   - Turn off :guilabel:`Environment Mapping`.
   - Turn off :guilabel:`Panoramic Rendering`.
@@ -102,14 +102,14 @@ Render Settings
   - Render at a percentage size of your final resolution (like 25%).
   - Turn off :guilabel:`Fields` rendering.
   - Use :guilabel:`Border` rendering to render a subset of the full image.
-- :doc:`Anim Panel <render/animations>`
+- :doc:`Anim Panel </render/animations>`
   - Decrease the frame count of the animation (and use a lower framerate for the same duration of animation). For example, render 30 frames at 10 frames per second for a 3-second animation, instead of 75 frames at 25 frames per second.
-- :doc:`Bake Panel <render/bake>`
+- :doc:`Bake Panel </render/bake>`
   - Bake Full Render - create a UV Texture that colors the objects based on materials, and then use that UV Texture shadeless instead of the material.
   - Bake Ambient Occlusion only.
   - Bake textures for objects.
   - Baking Normals or Displacement does not speed up render time, and are used for other things.
-- :doc:`Format Panel <render/output>`
+- :doc:`Format Panel </render/output>`
   - Render at a lower resolution. Smaller pictures take less time to render.
   - Choose a faster CODEC or CODEC settings.
   - Render in black and white (:guilabel:`BW` button).

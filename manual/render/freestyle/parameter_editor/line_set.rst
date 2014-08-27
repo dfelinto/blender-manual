@@ -2,7 +2,7 @@
 Line Set
 ********
 
-A line set selects, among the lines (edges) detected by Freestyle, which ones will be rendered using its attached :doc:`line style <render/freestyle/parameter_editor/line_style>`, through various methods.
+A line set selects, among the lines (edges) detected by Freestyle, which ones will be rendered using its attached :doc:`line style </render/freestyle/parameter_editor/line_style>`, through various methods.
 
 
 .. figure:: /images/Manual-2.6-Render-freestyle-BasicEdgeTypeSelectionEx.jpg

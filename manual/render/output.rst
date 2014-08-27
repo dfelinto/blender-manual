@@ -18,7 +18,7 @@ Dimensions
 :guilabel:`Aspect Ratio`
    Just below are two more settings, :guilabel:`AspX` and :guilabel:`AspY` which control the shape of the pixels along the respective axis. By default it is 1:1 since computer screen pixels are square. If television shorts are being made, and since TV pixels are not square, you want to change this aspect ratio to match the destination video standard: PAL for Europe, and NTSC for the Americas.
 
-   See :doc:`Video Output <render/output/video>` for details on pixel aspect ratio.
+   See :doc:`Video Output </render/output/video>` for details on pixel aspect ratio.
 
 :guilabel:`Border`
    You can render just a portion of the view instead of rendering the entire frame. While in Camera View, enable :guilabel:`Border` and press :kbd:`ctrl-B`, then drag a rectangle to define the area you want to render. :kbd:`ctrl-alt-B` is the shortcut to disable the border.
@@ -27,10 +27,10 @@ Dimensions
    Enabling :guilabel:`Crop` will crop the rendered image to the :guilabel:`Border` size, instead of rendering a black region around it.
 
 :guilabel:`Frame Range`
-   Set the :guilabel:`Start` and :guilabel:`End` frames for :doc:`Rendering Animations <render/animations>`. :guilabel:`Step` controls the number of frames to advance by for each frame in the timeline.
+   Set the :guilabel:`Start` and :guilabel:`End` frames for :doc:`Rendering Animations </render/animations>`. :guilabel:`Step` controls the number of frames to advance by for each frame in the timeline.
 
 :guilabel:`Frame Rate`
-   For an :doc:`Animation <render/animations>` the frame rate, or how many frames will be displayed per second, which, by default, is 24 frames per second, the standard for animation. Use 29.97 frames per second for USA television.
+   For an :doc:`Animation </render/animations>` the frame rate, or how many frames will be displayed per second, which, by default, is 24 frames per second, the standard for animation. Use 29.97 frames per second for USA television.
 
 :guilabel:`Time Remapping`
    Use to remap the length of an animation.
@@ -189,7 +189,7 @@ Image Formats
 +-------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 +:guilabel:`TIFF`               |Often used for teletype and facsimile (FAX) images.                                                                                                                                                                                                                                                     +
 +-------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-+:guilabel:`Frame Server`       |This is an alternative output method that allows Blender to serve frames over a network, useful for using external video encoders where the frames would not fit uncompressed on disk. :doc:`documentation <render/output/frameserver>`                                                                 +
++:guilabel:`Frame Server`       |This is an alternative output method that allows Blender to serve frames over a network, useful for using external video encoders where the frames would not fit uncompressed on disk. :doc:`documentation </render/output/frameserver>`                                                                +
 +-------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 

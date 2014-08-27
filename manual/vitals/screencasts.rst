@@ -12,7 +12,7 @@ Blender Screencasts
    | Hotkey:   :kbd:`alt-F3`
 
 
-The shortcut :kbd:`alt-F3` starts the screencast function. Screencasts will record your actions over time either as a video or sequence of image files. The type and location of the output is determined by the settings in the :doc:`Output panel <render/output>` of the :doc:`Render context <interface/contexts>` window.
+The shortcut :kbd:`alt-F3` starts the screencast function. Screencasts will record your actions over time either as a video or sequence of image files. The type and location of the output is determined by the settings in the :doc:`Output panel </render/output>` of the :doc:`Render context <interface/contexts>` window.
 The default settings will generate a screencast consisting of a series of PNG images captured
 every 50 ms and stored in the :guilabel:`/tmp` folder. If you want to record a video, set the
 :guilabel:`Output` to one of the :guilabel:`Movie File Formats` supported by your system

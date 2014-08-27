@@ -26,7 +26,7 @@ Using object layers, you can:
   since particles are only affected by forces and effects on the same layer.
 - Control which layers are rendered (and hence, which objects),
   and which properties/channels are made available for compositing by using
-  :doc:`render layers <render/post_process/layers>`.
+  :doc:`render layers </render/post_process/layers>`.
 
 Armatures can also become very complex, with different types of bones, controllers, solvers,
 custom shapes, and so on. Since armatures are usually located close together,

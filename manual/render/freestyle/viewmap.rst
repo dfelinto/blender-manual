@@ -2,7 +2,7 @@
 Viewmaps
 ********
 
-There is only one viewmap per render layer. It controls the edge detection parameters. Which detected edges are actually rendered, and how, can be controlled either through the user-friendly :doc:`parameter editor <render/freestyle/parameter_editor>`, or powerful but complex :doc:`Python scripting <render/freestyle/python>`.
+There is only one viewmap per render layer. It controls the edge detection parameters. Which detected edges are actually rendered, and how, can be controlled either through the user-friendly :doc:`parameter editor </render/freestyle/parameter_editor>`, or powerful but complex :doc:`Python scripting </render/freestyle/python>`.
 
 :guilabel:`Face Smoothness`
    When enabled, Face Smoothness will be taken into account for edges calculation.
