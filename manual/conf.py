@@ -38,7 +38,29 @@ source_suffix = '.rst'
 #source_encoding = 'utf-8-sig'
 
 # The master toctree document.
-master_doc = 'index'
+if 0:
+    exclude_patterns = []
+    master_doc = 'index_quicky'
+else:
+    # Call quicky_index_gen.from_chapters()
+    # and use the QUICKY_CHAPTERS env var if its set
+    import os
+
+    def exec_file(fn):
+        code = compile(open(fn, 'r').read(), fn, 'exec')
+        namespace = {"__file__": fn}
+        exec(code, namespace, namespace)
+        return namespace
+
+    mod_path = os.path.join(os.path.dirname(__file__), "quicky_index_gen.py")
+    namespace = exec_file(mod_path)
+    del mod_path
+
+    master_doc, exclude_patterns = namespace["from_chapters"]()
+    del namespace
+
+print("Using Index:", master_doc)
+
 
 # General information about the project.
 project = 'Blender Manual'
@@ -65,7 +87,7 @@ release = '0.1'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = ['_build']
+exclude_patterns += ['_build']
 
 # The reST default role (used for this markup: `text`) to use for all documents.
 #default_role = None

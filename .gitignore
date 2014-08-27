@@ -23,6 +23,7 @@ Desktop.ini
 # commonly used paths for generation
 /html
 /_html
+/manual/index_quicky.rst
 
 # local patches
 /*.patch

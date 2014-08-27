@@ -7,9 +7,6 @@
 
    introduction/index.rst
    installing_blender/index.rst
-   render/index.rst
-
-..
    interface/index.rst
    vitals/index.rst
    preferences/index.rst
