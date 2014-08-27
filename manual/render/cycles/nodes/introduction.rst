@@ -17,7 +17,8 @@ rather than the color of the surface.
 There are a few types of shaders available as nodes:
 
 
-- :abbr:`BSDF (Bidirectional scattering distribution function)` shader describing light reflection, refraction and absorption at an object surface.
+- :abbr:`BSDF (Bidirectional scattering distribution function)` shader describing light reflection,
+  refraction and absorption at an object surface.
 - **Emission** shader describing light emission at an object surface or in a volume.
 - **Volume** shader describing light scattering inside a volume.
 - **Background** shader describing light emission from the environment.

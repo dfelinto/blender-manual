@@ -2,7 +2,10 @@
 Rendering and Saving Images
 ***************************
 
-After you have adjusted your render settings, in regards to :doc:`Quality </render/options>` and :doc:`Format </render/output>`, you will need to actually render the image. Rendering still images is fairly simple. :doc:`Rendering Animations </render/animations>` is a bit more complex and is covered in the next sections.
+After you have adjusted your render settings,
+in regards to :doc:`Quality </render/options>` and :doc:`Format </render/output>`,
+you will need to actually render the image. Rendering still images is fairly simple.
+:doc:`Rendering Animations </render/animations>` is a bit more complex and is covered in the next sections.
 
 To render an image from the active camera, in the Render Panel, hit the big Image button.
 By default the 3D view is replaced with the UV/Image Editor and the render appears.
@@ -15,7 +18,8 @@ Renders are displayed in the Image Editor. You can set the way this is displayed
 different options in the Display drop-down menu:
 
 :guilabel:`Keep UI`
-   The image is rendered to the Image Editor, but the UI remains the same. You will need to open the Image Editor manually to see the render result.
+   The image is rendered to the Image Editor, but the UI remains the same.
+   You will need to open the Image Editor manually to see the render result.
 :guilabel:`New Window`
    A new floating window opens up, displaying the render.
 :guilabel:`Image Editor`

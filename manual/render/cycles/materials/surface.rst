@@ -14,10 +14,14 @@ allowing any surface to become a light source.
 Terminology
 ===========
 
-- **BSDF** stands for bidirectional scattering distribution function. It defines how light is reflected and refracted at a surface.
-- **Reflection**  :abbr:`BSDF (Bidirectional scattering distribution function)` s reflect an incoming ray on the same side of the surface.
-- **Transmission**  :abbr:`BSDF (Bidirectional scattering distribution function)` s transmit an incoming ray through the surface, leaving on the other side.
-- **Refraction**  :abbr:`BSDF (Bidirectional scattering distribution function)` s are a type of **Transmission**, transmitting an incoming ray and changing its direction as it exits on the other side of the surface.
+- **BSDF** stands for bidirectional scattering distribution function.
+  It defines how light is reflected and refracted at a surface.
+- **Reflection**  :abbr:`BSDF (Bidirectional scattering distribution function)` s
+reflect an incoming ray on the same side of the surface.
+- **Transmission**  :abbr:`BSDF (Bidirectional scattering distribution function)` s
+  transmit an incoming ray through the surface, leaving on the other side.
+- **Refraction**  :abbr:`BSDF (Bidirectional scattering distribution function)` s are a type of **Transmission**,
+  transmitting an incoming ray and changing its direction as it exits on the other side of the surface.
 
 
 BSDF Parameters

@@ -82,19 +82,30 @@ Frame Sequence Workflow
 =======================
 
 - First prepare your animation.
-- In the :guilabel:`Dimensions` panel, choose the render size, Pixel Aspect Ratio, and the Range of Frames to use, as well as the frame rate, which should already be set.
-- In the Output panel set up your animation to be rendered out as as images, generally using a format that does not compromise any quality (I prefer PNG or MultiLayer because of their loss-less nature).
+- In the :guilabel:`Dimensions` panel, choose the render size, Pixel Aspect Ratio, and the Range of Frames to use,
+  as well as the frame rate, which should already be set.
+- In the Output panel set up your animation to be rendered out as as images,
+  generally using a format that does not compromise any quality
+  (I prefer PNG or MultiLayer because of their loss-less nature).
 - Choose the output path and file type in the Output panel as well, for example ``//render/my-anim-``.
 - Confirm the range of your animation frame Start and End.
 - Save your .blend file.
-- Press the big *Animation* button. Do a long task [like sleeping, playing a video game, or cleaning your driveway] while you wait for your computer to finish rendering the frames.
-- Once the animation is finished, use your OS file explorer to navigate into the output folder (".\render in this example). You will see lots of images (.png or .exr, etc... depending on the format you chose to render) that have a sequence number attached to them ranging from 0000 to a max of 9999. These are your single frames.
+- Press the big *Animation* button.
+  Do a long task [like sleeping, playing a video game,
+  or cleaning your driveway] while you wait for your computer to finish rendering the frames.
+- Once the animation is finished,
+  use your OS file explorer to navigate into the output folder (".\render in this example).
+  You will see lots of images (.png or .exr, etc...  depending on the format you chose to render)
+  that have a sequence number attached to them ranging from 0000 to a max of 9999. These are your single frames.
 - In Blender, now go into the :doc:`video sequence editor </sequencer>`.
-- Choose *Add Image* from the add menu. Select all the frames from your output folder that you want to include in your animation (Press A to Select All easily). They will be added as a strip to the sequence editor.
-- Now you can edit the strip and add effects or simply leave it like it is. You can add other strips, like an audio strip.
+- Choose *Add Image* from the add menu. Select all the frames from your output folder that you want to include
+  in your animation (Press A to Select All easily). They will be added as a strip to the sequence editor.
+- Now you can edit the strip and add effects or simply leave it like it is.
+  You can add other strips, like an audio strip.
 - Scrub through the animation, checking that you have included all the frames.
 - In the Scene Render buttons, in the Post Processing panel, activate *Sequencer*.
-- In the Format panel, choose the container and codec you want (e.g. MPEG H.264) and configure it. The video codecs are described on the previous page: :doc:`Output Options </render/output>`.
+- In the Format panel, choose the container and codec you want (e.g. MPEG H.264)
+  and configure it. The video codecs are described on the previous page: :doc:`Output Options </render/output>`.
 - Click the ANIMATION render button and Blender will render out the sequence editor output into your movie.
 
 Why go through all this hassle? Well, first of all, if you render out single frames you can

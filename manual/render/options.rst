@@ -36,7 +36,11 @@ images usually appear particularly CG and amateur.
 [[Doc:2.6/Manual/Lighting/Exposure|Exposure (Lighting)]]
 ========================================================
 
-Exposure is, in physical terms, the length of time a camera's film or sensor is exposed to light. Longer exposure times create a brighter image. In CG, the recorded light values are offset to simulate longer or shorter exposures. This can be achieved through lighting settings, or better, through :doc:`Color Management settings </render/post_process/cm_and_exposure>`
+Exposure is, in physical terms, the length of time a camera's film or sensor is exposed to light.
+Longer exposure times create a brighter image.
+In CG, the recorded light values are offset to simulate longer or shorter exposures.
+This can be achieved through lighting settings, or better, through
+:doc:`Color Management settings </render/post_process/cm_and_exposure>`
 
 
 [[Doc:2.6/Manual/Render/Camera/Depth Of Field|Depth of Field]]
@@ -58,5 +62,3 @@ Things that are in motion while the picture is taken will have some degree of bl
 Faster-moving objects will appear more blurred than slower objects.
 This is an important effect in CG because it is an artifact that we expect to see,
 and when it is missing, an image may not be believable.
-
-
