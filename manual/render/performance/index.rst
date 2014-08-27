@@ -1,17 +1,14 @@
 
-..    TODO/Review: {{review|copy=X}} .
-
-
 Optimizing Render Performance
 *****************************
 
-"A watched pot never boils" is the old saying, but you may wonder why your render takes so long to create, or worse, crashes mid-way through! Well, there is lots going on and lots you can do to speed up rendering or enable a complicated render to complete. Also, it is possible to render a very complicated scene on a mediocre PC by being "render-smart". Here's a "top ten" list of things to do or not do in order to speed up rendering or even avoid crashes during scene render. Some options may decrease the quality of your render, but for draft renders you may not care.
+.. toctree::
+   :maxdepth: 2
 
-If you get the message "Malloc returns nil", in plain English that means the memory allocator
-tried to get more physical memory for Blender but came back empty-handed.
-This means that you do not have enough memory available to render the scene,
-and Blender cannot continue.
-You will need to do one or more of the following tasks on this page in order to render.
+   renderfarm.rst
+   netrender.rst
+   gpu.rst
+
 
 Hardware Improvements
 =====================
@@ -160,3 +157,4 @@ You need to have a very clear notion, *in advance*,
 of exactly what the finished shot must consist of and what the task breakdown must be.
 You must be a scrupulous note-taker and record-keeper.  But sometimes this is the best way,
 if not the *only* way, to accomplish a substantial production.
+

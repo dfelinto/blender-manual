@@ -21,10 +21,7 @@
    output.rst
    output/video.rst
    post_process/index.rst
-   performance.rst
-   performance/renderfarm.rst
-   performance/netrender.rst
-   performance/gpu.rst
+   performance/index.rst
    engines/index.rst
    cycles/index.rst
    freestyle.rst
