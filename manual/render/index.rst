@@ -20,14 +20,7 @@
    command_line.rst
    output.rst
    output/video.rst
-   post_process.rst
-   post_process/layers.rst
-   post_process/passes.rst
-   post_process/edges.rst
-   post_process/stamp.rst
-   post_process/cm_and_exposure.rst
-   post_process/depth_of_field.rst
-   post_process/motion_blur.rst
+   post_process/index.rst
    performance.rst
    performance/renderfarm.rst
    performance/netrender.rst

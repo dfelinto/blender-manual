@@ -38,7 +38,7 @@ Various things that are calculated in a standard render include:
 .. admonition:: Renderer Rewrite
    :class: note
 
-   Starting with Blender 2.42, the render engine was rewritten. See :doc:`Unified Renderer </render>` if you are using an old version of Blender.
+   Starting with Blender 2.42, the render engine was rewritten. See :doc:`Unified Renderer </render/index>` if you are using an old version of Blender.
 
 
 The answer to each of the above questions is an image or map, as shown below:
