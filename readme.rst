@@ -1,5 +1,38 @@
-TODO
-====
+#########
+  Readme
+#########
+
+*******************
+Building the Manual
+*******************
+
+The manual is built using Sphinx, see: http://sphinx-doc.org
+
+In any case you navigate to the documentation root directory, then
+on Unix systems you can run ``make`` which will output files to ``./html/``.
+For partial builds (much faster), you can add chapter names,
+eg: ``make render`` or ``make modeling``, see ``make help`` for a full list of options.
+
+Or you can run sphinx directly, (currently needed for MS-Windows): ::
+
+  sphinx-build -b html . ./html
+
+
+***********
+Conventions
+***********
+
+- 3 space indentation.
+- lots of lines over 120 length (low priority)
+- check out the following syntax for titles
+- TODO: Choose a way to reference UI elements, ``:guilabel:`` is used all over, but may want to just use bold/italic.
+
+
+*********
+Migration
+*********
+
+We're currently migrating the docs from MediaWiki, so there are some leftover TODO's.
 
 Cleanup:
 
@@ -8,13 +41,6 @@ Cleanup:
 - ``FIXME(Link Type Unsupported: ...`` we have a lot of these, could automate fixes.
 - There are links into http://wiki.blender.org, these need to be corrected
 - Fix titles, allowing only one ``h1`` per file (clearer menu structure)
-
-
-Conventions:
-
-- Choose a way to reference UI elements, ``:guilabel:`` is used all over, but may want to just use bold/italic.
-- lots of lines over 120 length (low priority)
-- check out the following syntax for titles
 
 
 .. code-block:: rst
