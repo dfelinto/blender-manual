@@ -274,7 +274,7 @@ Here you choose which video codec you want to use, and compression settings.
 With all of these compression choices, there is a tradeoff between file size,
 compatibility across platforms, and playback quality.
 
-When you view the :doc:`System Console <interface/window_system/console_window>`, you can see some of the output of the encoding process. You will see even more output if you execute Blender as *blender -d* .
+When you view the :doc:`System Console </interface/window_system/console_window>`, you can see some of the output of the encoding process. You will see even more output if you execute Blender as *blender -d* .
 
 You can use the presets, DV, SVCD, DVD, etc.
 which choose optimum settings for you for that type of output,
@@ -464,7 +464,7 @@ it preserves the exact quality of output for post-processing. After post-process
 You don't want to post-process a compressed file, because the compression artifacts might
 throw off what you are trying to accomplish with the post-processing.
 
-Note that you might not want to render directly to a video format. If a problem occurs while rendering, you have to re-render all frames from the beginning. If you first render out a set of static images (such as the default PNG, or the higher-quality OpenEXR), you can stitch them together with an Image Strip in the :doc:`Video Sequence Editor (VSE) <sequencer/usage>`. This way, you can easily:
+Note that you might not want to render directly to a video format. If a problem occurs while rendering, you have to re-render all frames from the beginning. If you first render out a set of static images (such as the default PNG, or the higher-quality OpenEXR), you can stitch them together with an Image Strip in the :doc:`Video Sequence Editor (VSE) </sequencer/usage>`. This way, you can easily:
 
 - Restart the rendering from the place (the frame) where the problem occurred.
 - Try out different video options in seconds, rather than minutes or hours.

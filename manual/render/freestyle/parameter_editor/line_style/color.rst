@@ -18,7 +18,7 @@ In this tab you control the color of your strokes.
 Modifiers
 =========
 
-There are four color modifiers available, which can be mixed with the base color using the usual methods (see for example the :doc:`Mix compositing node <composite_nodes/types/color#mix_node>` for further discussion of this topic). As with other modifier stacks in Blender, they are applied from top to bottom.
+There are four color modifiers available, which can be mixed with the base color using the usual methods (see for example the :doc:`Mix compositing node </composite_nodes/types/color#mix_node>` for further discussion of this topic). As with other modifier stacks in Blender, they are applied from top to bottom.
 
 :guilabel:`Influence`
    How much the result of this modifier affects the current color.

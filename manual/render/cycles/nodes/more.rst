@@ -361,16 +361,16 @@ Some nodes are common with Composite nodes,
 their documentation can be found at their relevant pages rather than repeated here.
 
 
-- :doc:`Brightness Contrast <composite_nodes/types/color#bright.2fcontrast>`
-- :doc:`Separate RGB <composite_nodes/types/convertor#separate.2fcombine_rgba_node>`
-- :doc:`Combine RGB <composite_nodes/types/convertor#separate.2fcombine_rgba_node>`
-- :doc:`Separate HSV <composite_nodes/types/convertor#separate.2fcombine_hsva_nodes>`
-- :doc:`Combine HSV <composite_nodes/types/convertor#separate.2fcombine_hsva_nodes>`
-- :doc:`Gamma <composite_nodes/types/color#gamma>`
-- :doc:`Hue Saturation Value <composite_nodes/types/color#hue_saturation_node>`
-- :doc:`Invert <composite_nodes/types/color#invert>`
-- :doc:`Math <composite_nodes/types/convertor#math_node>`
-- :doc:`Mix RGB <composite_nodes/types/color#mix_node>`
-- :doc:`RGB Curves <composite_nodes/types/color#rgb_curves_node>`
-- :doc:`RGB to BW <composite_nodes/types/convertor#rgb_to_bw_node>`
-- :doc:`Vector Curve <composite_nodes/types/vector#vector_curves_node>`
+- :doc:`Brightness Contrast </composite_nodes/types/color#bright.2fcontrast>`
+- :doc:`Separate RGB </composite_nodes/types/convertor#separate.2fcombine_rgba_node>`
+- :doc:`Combine RGB </composite_nodes/types/convertor#separate.2fcombine_rgba_node>`
+- :doc:`Separate HSV </composite_nodes/types/convertor#separate.2fcombine_hsva_nodes>`
+- :doc:`Combine HSV </composite_nodes/types/convertor#separate.2fcombine_hsva_nodes>`
+- :doc:`Gamma </composite_nodes/types/color#gamma>`
+- :doc:`Hue Saturation Value </composite_nodes/types/color#hue_saturation_node>`
+- :doc:`Invert </composite_nodes/types/color#invert>`
+- :doc:`Math </composite_nodes/types/convertor#math_node>`
+- :doc:`Mix RGB </composite_nodes/types/color#mix_node>`
+- :doc:`RGB Curves </composite_nodes/types/color#rgb_curves_node>`
+- :doc:`RGB to BW </composite_nodes/types/convertor#rgb_to_bw_node>`
+- :doc:`Vector Curve </composite_nodes/types/vector#vector_curves_node>`

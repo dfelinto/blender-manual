@@ -82,7 +82,7 @@ Render Settings
 - :doc:`Output Panel </render/output>`
   - Disable :guilabel:`Edge` rendering.
   - :guilabel:`Save Buffers`.
-  - Render to an :doc:`Image Editor <ce/windows/uv-image>` window, not a popup. :doc:`Render Window </render/display>`.
+  - Render to an :doc:`Image Editor </ce/windows/uv-image>` window, not a popup. :doc:`Render Window </render/display>`.
   - Use multiple :guilabel:`Threads` on a multi-core CPU (with multiple :guilabel:`Parts`).
 - :doc:`Render Layers Panel </render/post_process/layers>`
   - Render only the Layers of interest.

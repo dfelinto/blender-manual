@@ -38,7 +38,7 @@ combined with e.g. a glass or glossy shader at the surface.
 
 
 :ref:`Displacement </render-cycles-materials-displacement>`
-==========================================================
+===========================================================
 
 The shape of the surface and the volume inside it may be altered by displacement shaders.
 This way, textures can then be used to make the mesh surface more detailed.

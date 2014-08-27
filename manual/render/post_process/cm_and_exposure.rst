@@ -172,7 +172,7 @@ however, these bake the exposure effects into the rendered image,
 as opposed the techniques explained on this page,
 which affect the color space of rendered images.
 
-See :doc:`Exposure <lighting/exposure>`, for details.
+See :doc:`Exposure </lighting/exposure>`, for details.
 
 
 OpenColorIO Configuration

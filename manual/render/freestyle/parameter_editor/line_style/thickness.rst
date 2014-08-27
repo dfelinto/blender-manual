@@ -35,7 +35,11 @@ Strokes of other edge types are always drawn using the :guilabel:`Center` option
 Modifiers
 =========
 
-There are five thickness modifiers available, which can be mixed with the base thickness using a subset of the usual methods (see for example the :doc:`Mix compositing node <composite_nodes/types/color#mix_node>` for further discussion of this topic). As with other modifier stacks in Blender, they are applied from top to bottom.
+There are five thickness modifiers available,
+which can be mixed with the base thickness using a subset of the usual methods
+(see for example the :doc:`Mix compositing node </composite_nodes/types/color#mix_node>`
+for further discussion of this topic). As with other modifier stacks in Blender,
+they are applied from top to bottom.
 
 :guilabel:`Influence`
    How much the result of this modifier affects the current thickness.
