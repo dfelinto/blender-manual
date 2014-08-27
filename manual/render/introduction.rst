@@ -6,7 +6,7 @@ Render engines
 **************
 
 - Blender Internal
-- :doc:`Cycles <render/cycles>`
+- :doc:`Cycles </render/cycles>`
 
 
 Rendering
@@ -43,9 +43,9 @@ and subsequent pages explain more.
 Overview
 ========
 
-The rendering of the current scene is performed by pressing the big :guilabel:`Image` button in the :guilabel:`Render` panel, or by pressing :kbd:`f12` (you can define how the rendered image is displayed on-screen in the :doc:`Render Output Options <render/output>`). See also the :doc:`Render Window <render/display>`.
+The rendering of the current scene is performed by pressing the big :guilabel:`Image` button in the :guilabel:`Render` panel, or by pressing :kbd:`f12` (you can define how the rendered image is displayed on-screen in the :doc:`Render Output Options </render/output>`). See also the :doc:`Render Window </render/display>`.
 
-A movie is produced by pressing the big :guilabel:`Animation` button. The result of a rendering is kept in a buffer and shown in its own window. It can be saved by pressing :kbd:`f3` or via the :guilabel:`File→Save Image` menu using the output option in the :guilabel:`Output` panel. Animations are saved according to the format specified, usually as a series of frames in the output directory. See :doc:`Output Options <render/output>` and :doc:`Animations <render/animations>`.
+A movie is produced by pressing the big :guilabel:`Animation` button. The result of a rendering is kept in a buffer and shown in its own window. It can be saved by pressing :kbd:`f3` or via the :guilabel:`File→Save Image` menu using the output option in the :guilabel:`Output` panel. Animations are saved according to the format specified, usually as a series of frames in the output directory. See :doc:`Output Options </render/output>` and :doc:`Animations </render/animations>`.
 
 The image is rendered according to the dimensions defined in the :guilabel:`Dimensions` Panel.
 
@@ -53,8 +53,8 @@ Workflow
 In general, the process for rendering is:
 
 - Create all the objects in the scene
-- :doc:`Light the scene <lighting>`
-- :doc:`Position the Camera <render/camera>`
+- :doc:`Light the scene </lighting>`
+- :doc:`Position the Camera </render/camera>`
 - Render a test image at 25% or so without oversampling or ray tracing etc., so that it is very fast and does not slow you down
 - Set and adjust the materials/textures and lighting
 - Iterate the above steps until satisfied with the quality level
@@ -109,8 +109,8 @@ Blender has three independent rendering workbenches which flow the image process
 pipeline from one to the other in order:
 
 - Rendering Engine
-- :doc:`Compositor <composite_nodes>`
-- :doc:`Sequencer <sequencer>`
+- :doc:`Compositor </composite_nodes>`
+- :doc:`Sequencer </sequencer>`
 
 You can use each one of these independently, or in a linked workflow. For example,
 you can use the Sequencer by itself to do post-processing on a video stream.
@@ -167,33 +167,33 @@ if selected.
 Render
 ======
 
-Here you can activate the rendering process, by rendering a :doc:`Still Image <render/display>` or an :doc:`Animation <render/animations>`.
+Here you can activate the rendering process, by rendering a :doc:`Still Image </render/display>` or an :doc:`Animation </render/animations>`.
 
-You can also select where the image is rendered to. This are described on the :doc:`Render Display <render/display>` page.
+You can also select where the image is rendered to. This are described on the :doc:`Render Display </render/display>` page.
 
 
 Layers
 ======
 
-The Layers menu contains options for rendering in :doc:`Layers <render/post_process/layers>` and :doc:`Passes <render/post_process/passes>`
+The Layers menu contains options for rendering in :doc:`Layers </render/post_process/layers>` and :doc:`Passes </render/post_process/passes>`
 
 
 Dimensions
 ==========
 
-This menu has settings for the size of the rendered images (see :doc:`Output Options <render/output>`), and options for rendering sequences (see :doc:`Animations <render/animations>`)).
+This menu has settings for the size of the rendered images (see :doc:`Output Options </render/output>`), and options for rendering sequences (see :doc:`Animations </render/animations>`)).
 
 
 Anti-Aliasing
 =============
 
-:doc:`Antialiasing <render/options/antialiasing>` is important for producing high quality renders that do not have "jaggies" or stair-stepped pixel artifacts.
+:doc:`Antialiasing </render/options/antialiasing>` is important for producing high quality renders that do not have "jaggies" or stair-stepped pixel artifacts.
 
 
 Motion Blur
 ===========
 
-:doc:`Motion Blur <render/post_process/motion_blur>` is an important effect in rendering moving images. It prevents the animation from appearing unrealistic and stuttery, as in stop-motion, where each frame is a perfect still image.
+:doc:`Motion Blur </render/post_process/motion_blur>` is an important effect in rendering moving images. It prevents the animation from appearing unrealistic and stuttery, as in stop-motion, where each frame is a perfect still image.
 
 
 Shading
@@ -203,17 +203,17 @@ These are options for controlling what shading effects are calculated in the ren
 Deselecting them disables them.
 
 
-- :doc:`Textures <textures>`
-- :doc:`Shadows <lighting/shadows>`
-- :doc:`Subsurface Scattering <materials/properties/subsurface_scattering>`
-- :doc:`Environment Maps <textures/types/environment_maps>`
+- :doc:`Textures </textures>`
+- :doc:`Shadows </lighting/shadows>`
+- :doc:`Subsurface Scattering </materials/properties/subsurface_scattering>`
+- :doc:`Environment Maps </textures/types/environment_maps>`
 - :doc:`Ray Tracing <introduction_to_shading>`
-- :doc:`Color Management <render/color_management>`
+- :doc:`Color Management </render/color_management>`
 
       Uses a linear workflow when enabled
 
 
-- :doc:`Alpha <render/output>`
+- :doc:`Alpha </render/output>`
 
       Set how transparent pixels are rendered.
 
@@ -222,13 +222,13 @@ Output
 ======
 
 Set where images are rendered to and what file type. See
-:doc:`Output Options <render/output>`.
+:doc:`Output Options </render/output>`.
 
 
 Performance
 ===========
 
-Control the way the renderer performs with respect to the computer's memory and processor. See :doc:`Performance <render/performance>`.
+Control the way the renderer performs with respect to the computer's memory and processor. See :doc:`Performance </render/performance>`.
 
 
 Post Processing
@@ -236,17 +236,17 @@ Post Processing
 
 Control effects that are applied after the image has been rendered. If you are using the :doc:`Compositor <composite_nodes>` or :doc:`Sequencer <sequencer>`, you can tell Blender to process those effects instead of directly rendering the scene.
 
-Fields are used when :doc:`Rendering for Video <render/output/video>`.
+Fields are used when :doc:`Rendering for Video </render/output/video>`.
 
-:doc:`Dithering <render/post_process>` is method of blurring pixels.
+:doc:`Dithering </render/post_process>` is method of blurring pixels.
 
-You can also enable :doc:`Edge Rendering <render/post_process>` to create sketch-like or toon-like effects.
+You can also enable :doc:`Edge Rendering </render/post_process>` to create sketch-like or toon-like effects.
 
 
 Stamp
 =====
 
-:doc:`Stamping <render/post_process>` inserts text over the rendered images, as well as stamps meta-data into image formats that support it (PNG, JPEG and EXR).
+:doc:`Stamping </render/post_process>` inserts text over the rendered images, as well as stamps meta-data into image formats that support it (PNG, JPEG and EXR).
 
 
 Bake
@@ -254,6 +254,6 @@ Bake
 ----
 
 
-:doc:`Render Baking <render/bake>` is a process that creates texture files that hold desired rendered effects, like lighting, shadows, or color information. This is useful for working with real-time graphics that benefit from not having to calculate shading when not necessary.
+:doc:`Render Baking </render/bake>` is a process that creates texture files that hold desired rendered effects, like lighting, shadows, or color information. This is useful for working with real-time graphics that benefit from not having to calculate shading when not necessary.
 
 
