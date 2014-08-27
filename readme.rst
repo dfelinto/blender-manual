@@ -32,7 +32,7 @@ Conventions:
    ~~~~~~~~~
 
 
-Sections should be generally structured structured as follows:
+Sections should be generally structured as follows:
 
 - *directory_name*
 
@@ -55,3 +55,7 @@ For example:
       - index.rts
       - introduction.rst
       - volumes.rst
+
+The idea is to enclose all the content of a section inside of a folder. Ideally every section
+should have an index.rst (containing the TOC for that section) and an introduction.rst 
+(introducting) to the contents of the section.
