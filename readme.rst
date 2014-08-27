@@ -36,22 +36,22 @@ Sections should be generally structured structured as follows:
 
 - *directory_name*
 
-  - index.rst (contains links to internal files)
-  - introduction.rst
-  - section_1.rst
-  - section_2.rst
+  - ``index.rst`` (contains links to internal files)
+  - ``introduction.rst``
+  - ``section_1.rst``
+  - ``section_2.rst``
 
 For example:
 
-- rendering (directory)
+- rendering/
 
-  - index.rst
-  - cyles (directory)
+  - ``index.rst``
+  - ``cycles/``
 
-    - index.rst
-    - introduction.rst
-    - materials (directory)
+    - ``index.rst``
+    - ``introduction.rst``
+    - ``materials/``
 
-      - index.rts
-      - introduction.rst
-      - volumes.rst
+      - ``index.rts``
+      - ``introduction.rst``
+      - ``volumes.rst``
