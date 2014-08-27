@@ -1,7 +1,7 @@
 # Apache License, Version 2.0
 
 """
-Script to create a partial index, for generating partial chapters.
+Script to create a partial contents, for generating partial chapters.
 
 Called from conf.py
 """
@@ -16,17 +16,17 @@ def from_chapters():
     Return conf.py: (master_doc, exclude_patterns) values.
     """
 
-    master_doc = "index"
+    master_doc = "contents"
     exclude_patterns = []
 
     quicky_chapters = [c for c in os.environ.get('QUICKY_CHAPTERS', "").strip(":").split(":") if c]
     if not quicky_chapters:
         return master_doc, exclude_patterns
 
-    master_doc = "index_quicky"
+    master_doc = "contents_quicky"
 
-    fn_src = os.path.join(CURRENT_DIR, "index.rst")
-    fn_dst = os.path.join(CURRENT_DIR, "index_quicky.rst")
+    fn_src = os.path.join(CURRENT_DIR, "contents.rst")
+    fn_dst = os.path.join(CURRENT_DIR, "contents_quicky.rst")
 
     f = open(fn_src, 'r', encoding="utf-8")
     data = f.read()
@@ -50,9 +50,9 @@ def from_chapters():
                 l = l.rsplit("/", 1)[0]
             # Now we have an identifier
             if l not in quicky_chapters:
-                print("  skipping:", l_orig.strip())
+                # print("  skipping:", l_orig.strip())
                 continue
-            print("  using:", l_orig.strip())
+            # print("  using:", l_orig.strip())
         lines_new.append(l_orig)
 
     data = "\n".join(lines_new)
@@ -63,14 +63,19 @@ def from_chapters():
     del f
 
     # now exclude all dirs not in chapters
-    exclude_patterns.append("index.rst")
+    exclude_patterns.append("contents.rst")
     for fn in os.listdir(CURRENT_DIR):
         if os.path.isdir(os.path.join(CURRENT_DIR, fn)):
             if fn not in quicky_chapters:
-                print("  exclude:", fn)
-                exclude_patterns.extend([
-                        fn,
-                        fn + ".rst",
-                        ])
+                # print("  exclude:", fn)
+                exclude_patterns.append(fn)
+        else:
+            if fn in ("contents_quicky.rst",):
+                continue
+
+            if fn.endswith(".rst"):
+                if fn[:-4] not in quicky_chapters:
+                    exclude_patterns.append(fn)
+
 
     return master_doc, exclude_patterns
