@@ -1,5 +1,5 @@
 
-Introduction
+Command Line
 ************
 
 In some situations we want to increase the render speed,
@@ -20,14 +20,14 @@ Always position ``-f`` or ``-a`` as the last arguments.
 
 
 Platforms
-*********
+=========
 
 How to actually execute Blender from the command line depends on the platform and where you
 have installed Blender. Here are basic instructions for the different platforms.
 
 
 Windows
-^^^^^^^
+-------
 
 Open the Command Prompt, go to the directory where Blender is installed,
 and then run the blender command.
@@ -39,7 +39,7 @@ and then run the blender command.
 
 
 Mac OS X
-^^^^^^^^
+--------
 
 Open the Terminal application, go to the directory where Blender is installed,
 and run the executable within the app bundle, with commands like this:
@@ -65,7 +65,7 @@ If you then open a new terminal, the following command will work:
 
 
 Linux
-^^^^^
+-----
 
 Open a terminal, then go to the directory where Blender is installed,
 and run the blender command like this.

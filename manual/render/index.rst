@@ -12,9 +12,6 @@
    camera/index.rst
    display.rst
    options.rst
-   animations.rst
-   bake.rst
-   command_line.rst
    output.rst
    output/video.rst
    post_process/index.rst
@@ -23,4 +20,5 @@
    internal/index.rst
    cycles/index.rst
    freestyle/index.rst
+   workflows/index.rst
 
