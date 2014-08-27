@@ -2,15 +2,14 @@
 ..    TODO/Review: {{review|partial=X|text=needs review and at least some img}} .
 
 
-Render engines
-**************
+Introduction
+************
 
-- Blender Internal
-- :doc:`Cycles </render/cycles>`
+..
+   TODO, these were linked... but seem out of place?
+   - Blender Internal
+   - :doc:`Cycles </render/cycles>`
 
-
-Rendering
-*********
 
 Rendering is the final process of CG (short of post processing, of course)
 and is the phase in which a 2D image corresponding to your 3D scene is finally created.

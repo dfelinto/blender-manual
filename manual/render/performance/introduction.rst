@@ -1,6 +1,9 @@
 
+Introduction
+************
+
 Optimizing Render Performance
-*****************************
+=============================
 
 "A watched pot never boils" is the old saying, but you may wonder why your render takes so long to create,
 or worse, crashes mid-way through!
