@@ -9,8 +9,6 @@
 
    introduction.rst
 
-   cycles/index.rst
-
    camera.rst
    camera/perspective.rst
    camera/depth_of_field.rst
@@ -39,33 +37,7 @@
    engines/luxrender.rst
    engines/cycles.rst
    engines/freestyle.rst
-   cycles.rst
-   cycles/getting_started.rst
-   cycles/tutorials.rst
-   cycles/camera.rst
-   cycles/materials.rst
-   cycles/materials/displacement.rst
-   cycles/materials/surface.rst
-   cycles/materials/volume.rst
-   cycles/texture_editing.rst
-   cycles/world.rst
-   cycles/lamps.rst
-   cycles/nodes.rst
-   cycles/nodes/input.rst
-   cycles/nodes/output.rst
-   cycles/nodes/shaders.rst
-   cycles/nodes/textures.rst
-   cycles/nodes/additivecolor.rst
-   cycles/nodes/vector.rst
-   cycles/nodes/convertor.rst
-   cycles/nodes/osl.rst
-   cycles/nodes/more.rst
-   cycles/light_paths.rst
-   cycles/integrator.rst
-   cycles/reducing_noise.rst
-   cycles/passes.rst
-   cycles/experimental_features.rst
-   cycles/gpu_rendering.rst
+   cycles/index.rst
    freestyle.rst
    freestyle/core.rst
    freestyle/viewmap.rst
