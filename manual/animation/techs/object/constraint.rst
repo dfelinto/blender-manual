@@ -2,13 +2,16 @@
 Using Constraints in Animation
 ******************************
 
-:doc:`Constraints </constraints>` are a way to control an object's properties (its location/rotation/scale), using either plain static values (like the :doc:`"limit" ones </constraints/transform/limit_location>`), or (an)other object(s), called "targets" (like e.g. the :doc:`"copy" ones </constraints/transform/copy_location>`).
+:doc:`Constraints </constraints>` are a way to control an object's properties (its location/rotation/scale),
+using either plain static values (like the :doc:`"limit" ones </constraints/transform/limit_location>`),
+or (an)other object(s), called "targets" (like e.g. the :doc:`"copy" ones </constraints/transform/copy_location>`).
 
 Even though these constraints might be useful in static projects,
 their main usage is obviously in animation.
 There are two different aspects in constraints' animation:
 
-- You can control an object's animation through the targets used by its constraints (this is a form of indirect animation).
+- You can control an object's animation through the targets used by its constraints
+  (this is a form of indirect animation).
 - You can animate constraints' settings
 
 
@@ -19,21 +22,45 @@ This applies only to constraints using target(s). Indeed,
 these targets can then control the constraint's owner's properties, and hence,
 animating the targets will indirectly animate the owner.
 
-This indirect "constraint" animation can be very simple, like for example with the :doc:`Copy Location constraint </constraints/transform/copy_location>`, where the owner object will simply copy the location of its target (with an optional constant offset). But you can also have very complex behaviors, like when using the :doc:`Action constraint </constraints/relationship/action>`, which is a sort of :doc:`Animation Driver </animation/editors/graph/drivers>` for actions!
+This indirect "constraint" animation can be very simple,
+like for example with the :doc:`Copy Location constraint </constraints/transform/copy_location>`,
+where the owner object will simply copy the location of its target (with an optional constant offset).
+But you can also have very complex behaviors,
+like when using the :doc:`Action constraint </constraints/relationship/action>`,
+which is a sort of :doc:`Animation Driver </animation/editors/graph/drivers>` for actions!
 
-We should also mention the classical :doc:`Child Of constraint </constraints/relationship/child_of>`, which creates parent/child relationship. These relationships indeed imply indirect animation (as transforming the parent affects by default all its children). But the :guilabel:`Child Of` constraint is also very important, as it allows you to parent your objects to bones, and hence use :doc:`Armatures </animation/armatures>` to animate them!
+We should also mention the classical :doc:`Child Of constraint </constraints/relationship/child_of>`,
+which creates parent/child relationship.
+These relationships indeed imply indirect animation (as transforming the parent affects by default all its children).
+But the :guilabel:`Child Of` constraint is also very important, as it allows you to parent your objects to bones,
+and hence use :doc:`Armatures </animation/armatures>` to animate them!
 
 Back to our simple :guilabel:`Copy Location` example,
 you can have two different behaviors of this constraint:
 
-- When its :guilabel:`Offset` button is disabled (the default), the location of the owner is "absolutely" controlled by the constraint's target, which means nothing (except other constraints below in the stack...) will be able to control the owner's position. Not even the object's animation curves.
-- However, when the :guilabel:`Offset` button is enabled, the location of the owner is "relatively" controlled by the constraint's target. This means that location's properties of the owner are offset from the location of the target. And these owner's location properties can be controlled e.g. by its :guilabel:`Loc...` curves (or actions, or NLA...)!
+- When its :guilabel:`Offset` button is disabled (the default), the location of the owner is "absolutely"
+  controlled by the constraint's target, which means nothing (except other constraints below in the stack...)
+  will be able to control the owner's position. Not even the object's animation curves.
+- However, when the :guilabel:`Offset` button is enabled,
+  the location of the owner is "relatively" controlled by the constraint's target.
+  This means that location's properties of the owner are offset from the location of the target.
+  And these owner's location properties can be controlled e.g.
+  by its :guilabel:`Loc...` curves (or actions, or NLA...)!
 
 
 Example
 -------
 
-Let's use the :guilabel:`Copy Location` constraint and its :guilabel:`Offset` button. For example, you can make your owner (let's call it ``moon``) describe perfect circles centered on the ``(0.0, 0.0, 0.0)`` point (using e.g. pydriven :guilabel:`LocX` / :guilabel:`LocY` animation curves, see :doc:`this page </animation/editors/graph/drivers#drivers>`), and then make it copy the location of a target (called, I don't know... ``earth``, for example) - with the :guilabel:`Offset` button enabled. Congratulation, you just modeled a satellite in a (simplified) orbit around its planet... Just do the same thing with its planet around its star (which you might call ``sun``, what do you think?), and why not, for the star around its galaxy...
+Let's use the :guilabel:`Copy Location` constraint and its :guilabel:`Offset` button.
+For example, you can make your owner (let's call it ``moon``)
+describe perfect circles centered on the ``(0.0, 0.0, 0.0)`` point
+(using e.g. pydriven :guilabel:`LocX` / :guilabel:`LocY` animation curves,
+see :doc:`this page </animation/editors/graph/drivers#drivers>`),
+and then make it copy the location of a target (called, I don't know... ``earth``, for example) -
+with the :guilabel:`Offset` button enabled.
+Congratulation, you just modeled a satellite in a (simplified) orbit around its planet...
+Just do the same thing with its planet around its star (which you might call ``sun``, what do you think?),
+and why not, for the star around its galaxy...
 
 Here is a small animation of a "solar" system created using (among a few others)
 the technique described above:

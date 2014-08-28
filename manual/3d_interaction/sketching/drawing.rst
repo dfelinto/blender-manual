@@ -132,7 +132,9 @@ they can be altered in  :menuselection:`User Preferences window --> Editing --> 
    and may be turned off if the results are not desirable.
 :guilabel:`Simplify Stroke`
    This turns on the post-processing step of simplifying the stroke to remove about half of current points in it.
-   It is only relevant when not drawing straight lines. By default this is disabled. As with :guilabel:`Smooth Stroke`, it can often cause "shrinking" of drawings, and loss of precision, accuracy and smoothness.
+   It is only relevant when not drawing straight lines. By default this is disabled.
+   As with :guilabel:`Smooth Stroke`, it can often cause "shrinking" of drawings,
+   and loss of precision, accuracy and smoothness.
 
 
 Additional Notes For Tablet Users

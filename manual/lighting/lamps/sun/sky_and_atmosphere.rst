@@ -364,7 +364,16 @@ and :guilabel:`Sun Bright` to **2.0**.
 Hints and limitations
 *********************
 
-To always have the :guilabel:`Sun` pointing at the camera center, you can use a :doc:`TrackTo constraint </constraints/tracking/track_to>` on the sun object, with the camera as target, and :guilabel:`-Z` as the "To" axis (use either :guilabel:`X` or :guilabel:`Y` as "Up" axis). This way, to modify height/position of the sun in the rendered picture, you just have to move it; orientation is automatically handled by the constraint. Of course, if your camera itself is moving, you should also add e.g. a :doc:`Copy Location constraint </constraints/transform/copy_location>` to your :guilabel:`Sun` lamp, with the camera as target - and the :guilabel:`Offset` option activated... This way, the sun light won't change as the camera moves around.
+To always have the :guilabel:`Sun` pointing at the camera center,
+you can use a :doc:`TrackTo constraint </constraints/tracking/track_to>` on the sun object,
+with the camera as target, and :guilabel:`-Z` as the "To" axis
+(use either :guilabel:`X` or :guilabel:`Y` as "Up" axis).
+This way, to modify height/position of the sun in the rendered picture,
+you just have to move it; orientation is automatically handled by the constraint.
+Of course, if your camera itself is moving, you should also add e.g.
+a :doc:`Copy Location constraint </constraints/transform/copy_location>`
+to your :guilabel:`Sun` lamp, with the camera as target - and the :guilabel:`Offset` option activated...
+This way, the sun light won't change as the camera moves around.
 
 If you use the default :guilabel:`Add` mixing type,
 you should use a very dark-blue world color, to get correct "nights"...
@@ -374,5 +383,4 @@ to fill in the :guilabel:`Sun` shadows.
 
 Atmosphere shading currently works incorrectly in reflections and refractions and is only
 supported for solid shaded surfaces. This will be addressed in a later release.
-
 

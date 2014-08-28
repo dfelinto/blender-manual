@@ -351,13 +351,22 @@ you can cause Blender to stop responding or crash.
 .. admonition:: The best usage scenario for sequential operations
    :class: nicetip
 
-   The best way to work with this modifier when you need to make lots of sequential operations of the same modifier is to define the target at the time you need to apply the changes to the topology.
+   The best way to work with this modifier when you need to make lots of sequential operations
+   of the same modifier is to define the target at the time you need to apply the changes to the topology.
 
 
 Face Normals
 ============
 
-When using the :guilabel:`Boolean` Modifier, Blender will use the face normal directions to calculate the three Boolean operations. The direction of the normals will define the result of the three available calculations (see :doc:`Operations </modifiers/generate/booleans#operations>` in this page); when one of the participants uses a set of inverted normals, you're in fact multiplying the operation by **-1** and inverting the calculation order. You can, at any time, select your modified mesh, enter :guilabel:`Edit` Mode and flip the normals to change the behavior of the :guilabel:`Boolean` modifier. See :doc:`Tips for fixing Normals </modifiers/generate/booleans#tip_for_fixing_mixed_normals>` in this page.
+When using the :guilabel:`Boolean` Modifier,
+Blender will use the face normal directions to calculate the three Boolean operations.
+The direction of the normals will define the result of the three available calculations
+(see :doc:`Operations </modifiers/generate/booleans#operations>` in this page);
+when one of the participants uses a set of inverted normals,
+you're in fact multiplying the operation by **-1** and inverting the calculation order.
+You can, at any time, select your modified mesh,
+enter :guilabel:`Edit` Mode and flip the normals to change the behavior of the :guilabel:`Boolean` modifier.
+See :doc:`Tips for fixing Normals </modifiers/generate/booleans#tip_for_fixing_mixed_normals>` in this page.
 
 Blender also cannot perform any optimal :guilabel:`Boolean` operation when one or more of the
 mesh Normals of the participants that are touching has outwards/inwards normals mixed.
@@ -549,6 +558,9 @@ Useful Links
 
 - `Carve Developement Home <https://code.google.com/p/carve/>`__ - GPLv2 C++ source at Google Code
 - `Carve library <http://carve-csg.com/>`__ - Homepage for the Carve Library project.
-- `Sculpt Tools <https://github.com/MadMinstrel/blender-sculpt-tools>`__  - Link for a Blender Addon - This addon uses another approach to use the Boolean operations, when you select two or more objects, the active one becomes the modified mesh and all the others becomes a target. This addon will add the Boolean modifier and apply it to the meshes automatically.
+- `Sculpt Tools <https://github.com/MadMinstrel/blender-sculpt-tools>`__  -
+  Link for a Blender Addon - This addon uses another approach to use the Boolean operations,
+  when you select two or more objects, the active one becomes the modified mesh and all the others becomes a target.
+  This addon will add the Boolean modifier and apply it to the meshes automatically.
 
 

@@ -49,9 +49,12 @@ The net color you see is a sort of layering of effects, as shown in this example
 The layers, if you will, are:
 
 - Your object, lit with **ambient** light based on your world settings.
-- Your base **material**, which colors the whole surface in a uniform color that reacts to light, giving different shades of the diffuse, specular, and mirror colors based on the way light passes through and into the surface of the object.
+- Your base **material**, which colors the whole surface in a uniform color that reacts to light,
+  giving different shades of the diffuse, specular,
+  and mirror colors based on the way light passes through and into the surface of the object.
 - A **primary texture** layer that overlays a purple marble coloring.
-- A **second cloud texture** that makes the surface transparent in a misty/foggy sort of way by affecting the Alpha value.
+- A **second cloud texture** that makes the surface transparent
+  in a misty/foggy sort of way by affecting the Alpha value.
 - These two textures are **mixed** with the base material to provide the net effect: a cube of purplish-brown fog.
 
 
@@ -62,7 +65,17 @@ The layers, if you will, are:
    Some Metal Textures
 
 
-This notion of using *more than one* texture, to achieve a combined effect, is one of the "hidden secrets" of creating realistic-looking objects.  If you carefully "look at the light" while examining any real-life object, you will observe that the final appearance of that object is best described as the combination, in different ways and in different amounts, of several distinct underlying visual characteristics.  These characteristics might be more (or less) strongly apparent at different angles, under different lighting conditions, and so forth.  Blender allows you to achieve this in many ways. You can use "a stack of texture layers" as described in :doc:`this section </textures/options>`, or you can also use arbitrarily-complex networks ("noodles"...) of "texture nodes" as discussed :doc:`here </textures/types/nodes>`; the choice is yours.
+This notion of using *more than one* texture, to achieve a combined effect,
+is one of the "hidden secrets" of creating realistic-looking objects.
+If you carefully "look at the light" while examining any real-life object,
+you will observe that the final appearance of that object is best described as the combination,
+in different ways and in different amounts, of several distinct underlying visual characteristics.
+These characteristics might be more (or less) strongly apparent at different angles,
+under different lighting conditions, and so forth.
+Blender allows you to achieve this in many ways.
+You can use "a stack of texture layers" as described in :doc:`this section </textures/options>`,
+or you can also use arbitrarily-complex networks ("noodles"...)
+of "texture nodes" as discussed :doc:`here </textures/types/nodes>`; the choice is yours.
 
 
 Materials Textures fall into three primary categories:

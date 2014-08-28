@@ -178,7 +178,8 @@ Render
 Here you can activate the rendering process,
 by rendering a :doc:`Still Image </render/display>` or an :doc:`Animation </render/workflows/animations>`.
 
-You can also select where the image is rendered to. This are described on the :doc:`Render Display </render/display>` page.
+You can also select where the image is rendered to.
+This are described on the :doc:`Render Display </render/display>` page.
 
 
 Layers
@@ -206,7 +207,8 @@ Motion Blur
 ===========
 
 :doc:`Motion Blur </render/post_process/motion_blur>` is an important effect in rendering moving images.
-It prevents the animation from appearing unrealistic and stuttery, as in stop-motion, where each frame is a perfect still image.
+It prevents the animation from appearing unrealistic and stuttery,
+as in stop-motion, where each frame is a perfect still image.
 
 
 Shading
@@ -272,5 +274,6 @@ Bake
 :doc:`Render Baking </render/workflows/bake>`
 is a process that creates texture files that hold desired rendered effects,
 like lighting, shadows, or color information.
-This is useful for working with real-time graphics that benefit from not having to calculate shading when not necessary.
+This is useful for working with real-time graphics that benefit
+from not having to calculate shading when not necessary.
 

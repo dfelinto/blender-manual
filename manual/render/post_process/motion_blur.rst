@@ -67,7 +67,12 @@ It can be activated in the motion blur section in the render options panel.
 Vector Blur
 ===========
 
-:doc:`Vector Blur </composite_nodes/vector_blur#vector-based_motion_blur>` is faster but sometimes has unwanted side-effects - which can be avoided, though. Vector blur is a process done in compositing, by rendering the scene without any blur, plus a pass that has movement information for each pixel. This information is a vector map which describes a 2d or 3d direction and magnitude. The compositor uses that data to blur each pixel in the given direction.
+:doc:`Vector Blur </composite_nodes/vector_blur#vector-based_motion_blur>`
+is faster but sometimes has unwanted side-effects - which can be avoided, though.
+Vector blur is a process done in compositing, by rendering the scene without any blur,
+plus a pass that has movement information for each pixel.
+This information is a vector map which describes a 2d or 3d direction and magnitude.
+The compositor uses that data to blur each pixel in the given direction.
 
 
 Examples

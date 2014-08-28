@@ -465,18 +465,32 @@ Locking Bones
 
 You can prevent a bone from being transformed in :guilabel:`Edit mode` in several ways:
 
-- The active bone can be locked clicking on :guilabel:`Lock` in the :guilabel:`Transform Properties` panel (:kbd:`N` in a 3D view);
-- all bones can be locked clicking on the :guilabel:`Lock` button of their sub-panels in the :guilabel:`Armature Bones` panel;
+- The active bone can be locked clicking on :guilabel:`Lock`
+  in the :guilabel:`Transform Properties` panel (:kbd:`N` in a 3D view);
+- all bones can be locked clicking on the :guilabel:`Lock` button
+  of their sub-panels in the :guilabel:`Armature Bones` panel;
 - press :kbd:`shift-W`:menuselection:`popup --> Toggle Settings --> Locked`
 - select :menuselection:`Armature --> Bone Settings --> Toggle a Setting`).
 
-*If the root of a locked bone is connected to the tip of an unlocked bone, it won't be locked*, i.e. you will be able to move it to your liking. This means that in a chain of connected bones, when you lock one bone, you only really lock its tip. With unconnected bones, the locking is effective on both ends of the bone.
+*If the root of a locked bone is connected to the tip of an unlocked bone,
+it won't be locked*, i.e. you will be able to move it to your liking.
+This means that in a chain of connected bones, when you lock one bone,
+you only really lock its tip. With unconnected bones, the locking is effective on both ends of the bone.
 
 
 X-Axis Mirror Editing
 =====================
 
-Another very useful tool is the :guilabel:`X-Axis Mirror` editing option (:guilabel:`Tool panel` > :guilabel:`Armature Options`, while Armature is selected in :guilabel:`Edit Mode`), working a bit like the same :doc:`mesh editing tool </modeling/meshes/tools/transform_deform#mirror_editing>`. When you have pairs of bones of the same name with just a different "side suffix" (e.g. ``.R`` / ``.L``, or ``_right`` / ``_left`` ...), once this option is enabled, each time you transform (move/rotate/scale...) a bone, its "other side" counterpart will be transformed accordingly, through a *symmetry along the armature local X axis*. As most rigs have at least one axis of symmetry (animals, humans, ...), it's an easy way to spare you half of the editing work! See also :doc:`next page </rigging/armatures/editing/properties#naming_bones>` for more on naming bones.
+Another very useful tool is the :guilabel:`X-Axis Mirror` editing option
+(:guilabel:`Tool panel` > :guilabel:`Armature Options`, while Armature is selected in :guilabel:`Edit Mode`),
+working a bit like the same :doc:`mesh editing tool </modeling/meshes/tools/transform_deform#mirror_editing>`.
+When you have pairs of bones of the same name with just a different "side suffix"
+(e.g. ``.R`` / ``.L``, or ``_right`` / ``_left`` ...), once this option is enabled,
+each time you transform (move/rotate/scale...) a bone, its "other side" counterpart will be transformed accordingly,
+through a *symmetry along the armature local X axis*.
+As most rigs have at least one axis of symmetry (animals, humans, ...),
+it's an easy way to spare you half of the editing work!
+See also :doc:`next page </rigging/armatures/editing/properties#naming_bones>` for more on naming bones.
 
 
 Separating Bones in a new Armature

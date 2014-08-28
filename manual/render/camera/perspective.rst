@@ -41,7 +41,8 @@ Blender offers a few tricks of its own to let you do the same.
 .. admonition:: Note
    :class: note
 
-   To follow sections below you will need to know how to adjust :doc:`Camera Settings </render/cameras#camera_settings>`
+   To follow sections below you will need to know how to adjust
+   :doc:`Camera Settings </render/cameras#camera_settings>`
 
 
 Three Point Rendering
@@ -54,8 +55,8 @@ Three Point Rendering
    Normal Three Point Render
 
 When looking at or rendering a picture of a high building from ground level off to one side,
-and aiming up, using the normal 35mm camera, you get 3 point perspective. If you laid a ruler along the vertical lines,
-you would see that they converge to a point above the building.
+and aiming up, using the normal 35mm camera, you get 3 point perspective.
+If you laid a ruler along the vertical lines, you would see that they converge to a point above the building.
 
 The horizontal lines are converging off to one side (the left in this example), and depth
 (receding) lines are converging to a different third point
@@ -114,16 +115,24 @@ toward the sides, further enhancing the depth.
 To achieve 2-point rendering:
 =============================
 
-- Use a short wide angle lens camera, say with a Lens :guilabel:`Size` of 10 mm placed close to the building, or a long lens farther away from the building. These differences affect the depth of the building render, with longer lenses making the building appear thinner and less dramatic or distorted. The example uses a 40mm lens.
-
-- Position the camera off to one side of the object, vertically halfway up the building to minimize distortion of the vertical building edges. You may alter this vertical (Z value) position to be slightly higher than ground level or higher than the top (if you want to see the top of the object or building). To show the front bottom corner of the building jutting out, raise up the camera.
-
-- Angle the camera to be looking away from the building and directly level at the horizon - not pointed up or down (note the 20 degree Z angle in the example). This should make the vertical lines parallel. The more the camera looks at the object, the closer the vanishing point for the horizontal lines, and perceived depth will increase as that vanishing point gets closer as well.
-
-- You may have to angle the camera slightly down (just 1 degree or so) so that vertical lines appear vertically up and down, both near and far. If the lines are curved, use a longer lens. With your 3D View set to Camera view, use the passpartout or pixels on your monitor to determine vertical.
-
+- Use a short wide angle lens camera, say with a Lens :guilabel:`Size` of 10 mm placed close to the building,
+  or a long lens farther away from the building. These differences affect the depth of the building render,
+  with longer lenses making the building appear thinner and less dramatic or distorted. The example uses a 40mm lens.
+- Position the camera off to one side of the object,
+  vertically halfway up the building to minimize distortion of the vertical building edges.
+  You may alter this vertical (Z value) position to be slightly higher than ground level or higher than the top
+  (if you want to see the top of the object or building).
+  To show the front bottom corner of the building jutting out, raise up the camera.
+- Angle the camera to be looking away from the building and directly level at the horizon -
+  not pointed up or down (note the 20 degree Z angle in the example).
+  This should make the vertical lines parallel. The more the camera looks at the object,
+  the closer the vanishing point for the horizontal lines, and perceived depth
+  will increase as that vanishing point gets closer as well.
+- You may have to angle the camera slightly down (just 1 degree or so)
+  so that vertical lines appear vertically up and down, both near and far.
+  If the lines are curved, use a longer lens. With your 3D View set to Camera view,
+  use the passpartout or pixels on your monitor to determine vertical.
 - Move the camera toward/away from the object until it appears near a corner of the render and is the right size.
-
 - Adjust the :guilabel:`Shift:` X and Y settings until your object is positioned properly.
 
 

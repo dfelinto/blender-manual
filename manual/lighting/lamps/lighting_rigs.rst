@@ -46,7 +46,9 @@ and traveling to camera.
    Ambient occlusion.
 
 
-Ambient light illuminates, in a perfectly balanced, shadeless way, without casting shadows. You can vary the intensity of the ambient light across your scene via :doc:`ambient occlusion </lighting/ambient_occlusion>`. The ambient color is a sunny white.
+Ambient light illuminates, in a perfectly balanced, shadeless way, without casting shadows.
+You can vary the intensity of the ambient light across your scene via
+:doc:`ambient occlusion </lighting/ambient_occlusion>`. The ambient color is a sunny white.
 
 
 Single Rig
@@ -255,10 +257,28 @@ or really dark ones, or strange shadows, or lines on your objects,
 here is what I suggest you do:
 
 
-- First, try deactivating all materials (create a default, gray one, and enter its name in the :guilabel:`Mat` field, :guilabel:`Layer` panel, :guilabel:`Render Layers` context - to get back all your normal materials, just erase this text field!). See if you get those problems with just grayness objects. If you don't have the problem anymore, that should tell you that you've got a materials-interacting-with-light problem. Check the material settings, especially ambient, reflection and all those little buttons and sliders in the :guilabel:`Material` context . You can set some lights to affect only certain materials, so if there's an issue with only a few objects being really bright, start with those.
-- Then start "killing" lights (e.g. moving them to an unused layer); regress all the way back to one light, make sure it's smooth, then add them in one by one. As they add together, reduce power in the tested ones so they merge cleanly, or consider not adding it at all, or, especially, reduce the energy of the lamp you just introduced.
-- You can also set lights to only light objects on a layer, so again, if some of the gray spheres have weirdness, check for that as well. Again, you may have done some of this accidentally, so sometimes deleting the light and re-adding it with defaults helps you reset to a known-good situation.
-- Negative lights can be very tricky, and make your model blotchy, so pay special attention to your use of those special lights. Shadow-only lights can throw off the look of the scene as well. Overly textured lights can make your scene have random weird colors. Don't go too far off a slight tinge of blue or yellow or shades of white, or your material may show blue in the :guilabel:`Material` context but render green, and you will be very confused.
-- Look at your environment settings :guilabel:`World` context: :guilabel:`Horizon`, :guilabel:`Zenith`, and :guilabel:`Environment Lighting`.
-
+- First, try deactivating all materials
+  (create a default, gray one, and enter its name in the :guilabel:`Mat` field, :guilabel:`Layer` panel,
+  :guilabel:`Render Layers` context - to get back all your normal materials, just erase this text field!).
+  See if you get those problems with just grayness objects. If you don't have the problem anymore,
+  that should tell you that you've got a materials-interacting-with-light problem.
+  Check the material settings, especially ambient,
+  reflection and all those little buttons and sliders in the :guilabel:`Material` context .
+  You can set some lights to affect only certain materials,
+  so if there's an issue with only a few objects being really bright, start with those.
+- Then start "killing" lights (e.g. moving them to an unused layer);
+  regress all the way back to one light, make sure it's smooth,
+  then add them in one by one. As they add together, reduce power in the tested ones so they merge cleanly,
+  or consider not adding it at all, or, especially, reduce the energy of the lamp you just introduced.
+- You can also set lights to only light objects on a layer, so again, if some of the gray spheres have weirdness,
+  check for that as well. Again, you may have done some of this accidentally,
+  so sometimes deleting the light and re-adding it with defaults helps you reset to a known-good situation.
+- Negative lights can be very tricky, and make your model blotchy,
+  so pay special attention to your use of those special lights.
+  Shadow-only lights can throw off the look of the scene as well.
+  Overly textured lights can make your scene have random weird colors.
+  Don't go too far off a slight tinge of blue or yellow or shades of white,
+  or your material may show blue in the :guilabel:`Material` context but render green, and you will be very confused.
+- Look at your environment settings
+  :guilabel:`World` context: :guilabel:`Horizon`, :guilabel:`Zenith`, and :guilabel:`Environment Lighting`.
 

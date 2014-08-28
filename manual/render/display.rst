@@ -85,13 +85,19 @@ When a rendered image is displayed in the Image Editor,
 several new menu items become available.
 
 :guilabel:`Slot Menu`
-   You can save successive renders into the render buffer by selecting a new slot before rendering. If an image has been rendered to a slot, it can be viewed by selecting that slot. Empty slots appear as blank grids in the image editor. Use the shortcut :kbd:`J` to cycle through saved renders and :kbd:`alt-J` to cycle backwards through the saved renders.
+   You can save successive renders into the render buffer by selecting a new slot before rendering.
+   If an image has been rendered to a slot, it can be viewed by selecting that slot.
+   Empty slots appear as blank grids in the image editor.
+   Use the shortcut :kbd:`J` to cycle through saved renders and
+   :kbd:`alt-J` to cycle backwards through the saved renders.
 
 :guilabel:`Render Layer`
-   If you are using :doc:`Render Layers </render/post_process/layers>`, use this menu to select which layer is displayed.
+   If you are using :doc:`Render Layers </render/post_process/layers>`,
+   use this menu to select which layer is displayed.
 
 :guilabel:`Render Pass`
-   If you are using :doc:`Render Passes </render/post_process/passes>`, use this menu to select which pass is displayed.
+   If you are using :doc:`Render Passes </render/post_process/passes>`,
+   use this menu to select which pass is displayed.
 
 :guilabel:`Image Painting`
    This icon enables or disables Image Painting.
@@ -106,8 +112,10 @@ Display Mode
    :guilabel:`Alpha Channel`
          Displays a gray-scale image. White areas are opaque, black areas have a an alpha of 0.
    :guilabel:`Z Depth`
-         Display the depth from the camera, from Clip Start to Clip End, as specified in the :doc:`Camera settings </render/camera/introduction>`.
+         Display the depth from the camera, from Clip Start to Clip End,
+         as specified in the :doc:`Camera settings </render/camera/introduction>`.
 
 :guilabel:`Curves Panel`
-   The :guilabel:`Curves` Panel is available in the :guilabel:`Properties` Panel. You can use this to adjust the colors of the image.
+   The :guilabel:`Curves` Panel is available in the :guilabel:`Properties` Panel.
+   You can use this to adjust the colors of the image.
 

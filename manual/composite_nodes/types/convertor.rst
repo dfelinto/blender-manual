@@ -1,7 +1,4 @@
 
-..    TODO/Review: {{review|copy=X}} .
-
-
 Composite Convertor Nodes
 *************************
 
@@ -16,7 +13,10 @@ and the newest High Definition Media Interface (HDMI) formats.
 ColorRamp Node
 ==============
 
-The ColorRamp Node is used for mapping values to colors with the use of a gradient. It works exactly the same way as a :doc:`colorband for textures and materials </materials/properties/ramps>`, using the Factor value as a slider or index to the color ramp shown, and outputting a color value and an alpha value from the output sockets.
+The ColorRamp Node is used for mapping values to colors with the use of a gradient.
+It works exactly the same way as a :doc:`colorband for textures and materials </materials/properties/ramps>`,
+using the Factor value as a slider or index to the color ramp shown,
+and outputting a color value and an alpha value from the output sockets.
 
 By default,
 the ColorRamp is added to the node map with two colors at opposite ends of the spectrum.
@@ -125,7 +125,11 @@ The amount of :guilabel:`Alpha` (1.00 being totally opaque and 0.00 being totall
 can be set for the whole picture using the input field. Additionally,
 the Alpha factor can be set by feeding its socket.
 
-*Note* that this is not, and is not intended to be, a general-purpose solution to the problem of compositing an image that doesn't contain Alpha information. You might wish to use "Chroma Keying" or "Difference Keying" (as discussed elsewhere) if you can.  This node is most often used (with a suitable input being provided by means of the socket) in those troublesome cases when you *can't,* for some reason, use those techniques directly.
+*Note* that this is not, and is not intended to be,
+a general-purpose solution to the problem of compositing an image that doesn't contain Alpha information.
+You might wish to use "Chroma Keying" or "Difference Keying" (as discussed elsewhere) if you can.
+This node is most often used (with a suitable input being provided by means of the socket)
+in those troublesome cases when you *can't,* for some reason, use those techniques directly.
 
 
 Using SetAlpha to Fade to Black
@@ -143,7 +147,19 @@ viewer's mind. The node map below shows how to do this using the Set Alpha node.
    Fade To Black
 
 
-In the example above, the alpha channel of the swirl image is ignored. Instead, a :doc:`time node </composite_nodes/types/input#time_node>` introduces a factor from 0.00 to 1.00 over 60 frames, or about 2 seconds, to the Set Alpha node. Note that the time curve is exponentially-shaped, so that the overall blackness will fade in slowly and then accelerate toward the end. The Set Alpha node does not need an input image; instead the flat (shadeless) black color is used. The Set Alpha Node uses the input factor and color to create a black image that has an alpha set which goes from 0.00 to 1.00 over 60 frames, or completely transparent to completely opaque. Think of alpha as a multiplier for how vivid you can see that pixel. These two images are combined by our trusty AlphaOver node completely (a :guilabel:`Fac` tor of 1.00) to produce the composite image. The SetAlpha node will thus, depending on the frame being rendered, produce a black image that has some degree of transparency. Set up and Animate, and you have an image sequence that fades to black over a 2-second period.
+In the example above, the alpha channel of the swirl image is ignored.
+Instead, a :doc:`time node </composite_nodes/types/input#time_node>`
+introduces a factor from 0.00 to 1.00 over 60 frames, or about 2 seconds,
+to the Set Alpha node. Note that the time curve is exponentially-shaped,
+so that the overall blackness will fade in slowly and then accelerate toward the end.
+The Set Alpha node does not need an input image; instead the flat (shadeless) black color is used.
+The Set Alpha Node uses the input factor and color to create a black image that has an alpha
+set which goes from 0.00 to 1.00 over 60 frames, or completely transparent to completely opaque.
+Think of alpha as a multiplier for how vivid you can see that pixel.
+These two images are combined by our trusty AlphaOver node completely (a :guilabel:`Fac` tor of 1.00)
+to produce the composite image. The SetAlpha node will thus, depending on the frame being rendered,
+produce a black image that has some degree of transparency.
+Set up and Animate, and you have an image sequence that fades to black over a 2-second period.
 
 
 .. admonition:: No Scene information used
@@ -181,7 +197,8 @@ Using SetAlpha to Colorize a BW Image
 
    Using Set Alpha to Colorize an Image
 
-In the example above, notice how the blue tinge of the render input colors the swirl. You can use the Set Alpha node's color swatch with this kind of node map to add a consistent color to a BW image.
+In the example above, notice how the blue tinge of the render input colors the swirl.
+You can use the Set Alpha node's color swatch with this kind of node map to add a consistent color to a BW image.
 
 In the example map to the right,
 use the :guilabel:`Alpha` value of the SetAlpha node to give a desired degree of colorization.
@@ -496,10 +513,13 @@ There are several color spaces supported:
 - RGB: Red-Green-Blue traditional primary colors, also broadcast directly to most computer monitors
 - HSV: Three values, often considered as more intuitive than the RGB system (nearly only used on computers):
   - Hue: the **Hue** of the color (in some way, choose a 'color' of the rainbow);
-  - Saturation: the **quantity** of hue in the color (from desaturate - shade of gray - to saturate - brighter colors);
-  - Value: the **luminosity** of the color (from 'no light' - black - to 'full light' - 'full' color, or white if Saturation is 0.0).
+  - Saturation: the **quantity** of hue in the color
+    (from desaturate - shade of gray - to saturate - brighter colors);
+  - Value: the **luminosity** of the color
+    (from 'no light' - black - to 'full light' - 'full' color, or white if Saturation is 0.0).
 - YUV: Luminance-Chrominance standard used in broadcasting analog PAL (European) video.
-- YCbCr: Luminance-ChannelBlue-ChannelRed Component video for digital broadcast use, whose standards have been updated for HDTV and commonly referred to as the HDMI format for component video.
+- YCbCr: Luminance-ChannelBlue-ChannelRed Component video for digital broadcast use,
+  whose standards have been updated for HDTV and commonly referred to as the HDMI format for component video.
 
 See the global wikipedia for more information on color spaces.
 
@@ -627,5 +647,5 @@ but I can't. So, you'll have to figure this node out on your own.
 Alpha Convert
 =============
 
-...
+TODO
 
