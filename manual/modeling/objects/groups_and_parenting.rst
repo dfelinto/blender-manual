@@ -56,27 +56,22 @@ Blender will automatically remove the previous parent relationship.
 
 Blender supports many different types of parenting, listed below:
 
-
-FIXME(Tag Unsupported:ul;
-<ul>
-<li>Object</li>
-<li>Object (Keep Transform)</li>
-<li>Armature Deform > With Empty Groups</li>
-<li>Armature Deform > With Automatic Weights</li>
-<li>Armature Deform > With Envelope Weights</li>
-<li>Bone</li>
-<li>Bone Relative</li>
-<li>Curve Deform</li>
-<li>Follow Path</li>
-<li>Path Constraint</li>
-<li>Lattice Deform</li>
-<li>Vertex</li>
-<li>Vertex (Triangle)</li>
-<li>Clear Parent</li>
-<li>Clear And Keep Transformation</li>
-<li>Clear Parent Inverse</li>
-</ul>
-)
+- Object
+- Object (Keep Transform)
+- Armature Deform > With Empty Groups
+- Armature Deform > With Automatic Weights
+- Armature Deform > With Envelope Weights
+- Bone
+- Bone Relative
+- Curve Deform
+- Follow Path
+- Path Constraint
+- Lattice Deform
+- Vertex
+- Vertex (Triangle)
+- Clear Parent
+- Clear And Keep Transformation
+- Clear Parent Inverse
 
 
 Object Parent
