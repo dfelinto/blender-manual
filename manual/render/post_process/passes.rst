@@ -26,19 +26,27 @@ Various things that are calculated in a standard render include:
 
 - *Where are* **shadows** *cast?*
 - *How is* **ambient** *light in the environment blocked (* **occluded** *) by objects in the scene?*
-- *How is light* **reflected** *off mirrored surfaces?* Like shadows, lines are calculated, except this time they come from the camera and bounce off mirrored surfaces, so that when these lines hit an object, the engine calculates that this is what the camera should see.
-- *How is light bent (* **refracted** *) as is passes through transparent objects?* Does it go straight through? Does it bend? If so, at what depth in the object?
-- *What designated* **objects** *are in the scene, and what is their outline?* Should the object appear blurred, or should it appear in sharp focus?
-- *How fast is something moving (* **velocity** *)?* Should it appear blurred given our frame rate or is it slow enough to still be focused on properly?
-- *How far away from the camera are objects' surfaces (* **Z-depth** *)?* Can the object's surfaces be seen at all, or are they being blocked by another object's geometry?
-- *Does an object have a* **normal** *vector (bumpmap)?* Do shadows and apparent geometry need to be calculated for any objects?
+- *How is light* **reflected** *off mirrored surfaces?*
+  Like shadows, lines are calculated, except this time they come from the camera and bounce off mirrored surfaces,
+  so that when these lines hit an object, the engine calculates that this is what the camera should see.
+- *How is light bent (* **refracted** *) as is passes through transparent objects?*
+   Does it go straight through? Does it bend? If so, at what depth in the object?
+- *What designated* **objects** *are in the scene, and what is their outline?*
+  Should the object appear blurred, or should it appear in sharp focus?
+- *How fast is something moving (* **velocity** *)?*
+   Should it appear blurred given our frame rate or is it slow enough to still be focused on properly?
+- *How far away from the camera are objects' surfaces (* **Z-depth** *)?*
+   Can the object's surfaces be seen at all, or are they being blocked by another object's geometry?
+- *Does an object have a* **normal** *vector (bumpmap)?*
+   Do shadows and apparent geometry need to be calculated for any objects?
 - *Is there any* **specularity** *?* Are objects with textures such as metal shiny at all?
 
 
 .. admonition:: Renderer Rewrite
    :class: note
 
-   Starting with Blender 2.42, the render engine was rewritten. See :doc:`Unified Renderer </render/index>` if you are using an old version of Blender.
+   Starting with Blender 2.42, the render engine was rewritten.
+   See :doc:`Unified Renderer </render/index>` if you are using an old version of Blender.
 
 
 The answer to each of the above questions is an image or map, as shown below:
@@ -91,7 +99,8 @@ the **Shadow** pass will be blank; there's simply nothing to show you.
 If you have not enabled *Ambient Occlusion* in your World environment settings,
 the **AO** pass will be blank, even if you select it here.
 
-To save time and disk space, you have to tell Blender each of the passes to render in the Render Layers panel (which we first introduced on :doc:`the previous page </render/post_process/layers>`):
+To save time and disk space, you have to tell Blender each of the passes to render in the Render Layers panel
+(which we first introduced on :doc:`the previous page </render/post_process/layers>`):
 
 
 +----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -235,11 +244,14 @@ you will need to enable the Color and Diffuse pass as well.
 To configure your noodle, consider the example image above.
 
 
-- . First, depending on the AO mode do one of the following: If AO mode is Add: directly use the AO pass. If AO mode is Sub: Calculate AO - 1, or if AO mode is  Both: Calculate 2*AO - 1.
-- . Multiply the output of Step 1 with the AO energy level.
-- . Multiply the output of Step 2 with the material's ambience value. If you have materials which receive different ambience light levels (0.5 is the default), one would have to create an ambience map based on Object ID.
-- . Multiply the output of Step 3 with the color pass.
-- . Add the output of Step 4 to the diffuse pass.
+- First, depending on the AO mode do one of the following: If AO mode is Add: directly use the AO pass.
+  If AO mode is Sub: Calculate AO - 1, or if AO mode is  Both: Calculate 2*AO - 1.
+- Multiply the output of Step 1 with the AO energy level.
+- Multiply the output of Step 2 with the material's ambience value.
+  If you have materials which receive different ambience light levels (0.5 is the default),
+  one would have to create an ambience map based on Object ID.
+- Multiply the output of Step 3 with the color pass.
+- Add the output of Step 4 to the diffuse pass.
 
 If shadows, colored ambient light, specularity, reflections, and/or refractions are involved
 they have to be added to the diffuse pass before adding the converted AO pass.
@@ -278,5 +290,3 @@ Causing objects to cast shadows that aren't really their shadows,
 making objects appear out of focus or sharply in focus like a real camera, manipulating colors
 just for final post-processing or just reconfiguring your render passes to save render time,
 are all things which you might wish to manipulate the render engine for.
-
-

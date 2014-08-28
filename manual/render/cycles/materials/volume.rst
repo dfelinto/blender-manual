@@ -26,11 +26,16 @@ We support three volume shader nodes,
 that model particular effects as light passes through the volume and interacts with it.
 
 
-- Volume Absorption will absorb part of the light as it passes through the volume. This can be used to shade for example black smoke or colored glass objects, or mixed with the volume scatter node. This node is somewhat similar to the transparent BSDF node, it blocks part of the light and lets other light pass straight through.
+- Volume Absorption will absorb part of the light as it passes through the volume.
+  This can be used to shade for example black smoke or colored glass objects, or mixed with the volume scatter node.
+  This node is somewhat similar to the transparent BSDF node,
+  it blocks part of the light and lets other light pass straight through.
 
-
-- Volume Scatter lets light scatter in other directions as it hits particles in the volume. The anisotropy defines in which direction the light is more likely to scatter. A value of 0 will let light scatter evenly in all directions (somewhat similar to the diffuse BSDF node), negative values let light scatter mostly backwards, and positive values let light scatter mostly forward. This can be used to shade white smoke or clouds for example.
-
+- Volume Scatter lets light scatter in other directions as it hits particles in the volume.
+  The anisotropy defines in which direction the light is more likely to scatter.
+  A value of 0 will let light scatter evenly in all directions (somewhat similar to the diffuse BSDF node),
+  negative values let light scatter mostly backwards, and positive values let light scatter mostly forward.
+  This can be used to shade white smoke or clouds for example.
 
 - Emission will emit light from the volume. This can be used to shade fire for example.
 

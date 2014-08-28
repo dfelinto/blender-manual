@@ -110,10 +110,13 @@ surface.
 Caustics and Filter Glossy
 --------------------------
 
-Caustics are a well-known source of noise, causing fireflies. They happen because the renderer has difficulty finding specular highlights viewed through a soft glossy or diffuse reflection. There is a
+Caustics are a well-known source of noise, causing fireflies.
+They happen because the renderer has difficulty finding specular highlights
+viewed through a soft glossy or diffuse reflection. There is a
 FIXME(TODO: Internal Link;
 [[../Integrator#Tricks|No Caustics]]
-) option to disable glossy behind a diffuse reflection entirely. Many render engines will typically disable caustics by default.
+) option to disable glossy behind a diffuse reflection entirely.
+Many render engines will typically disable caustics by default.
 
 
 +----------------------------------------------+------------------------------------------------+--------------------------------------------------+
@@ -123,10 +126,14 @@ FIXME(TODO: Internal Link;
 +----------------------------------------------+------------------------------------------------+--------------------------------------------------+
 
 
-However using No Caustics will result in missing light, and it still does not cover the case where a sharp glossy reflection is viewed through a soft glossy reflection. There exists a
+However using No Caustics will result in missing light,
+and it still does not cover the case where a sharp glossy reflection is viewed through a soft glossy reflection.
+There exists a
 FIXME(TODO: Internal Link;
 [[../Integrator#Tricks|Filter Glossy]]
-) option to reduce the noise from such cases at the cost of accuracy. This will blur the sharp glossy reflection to make it easier to find, by increasing the shader Roughness.
+)
+option to reduce the noise from such cases at the cost of accuracy.
+This will blur the sharp glossy reflection to make it easier to find, by increasing the shader Roughness.
 
 The above images show default settings, no caustics, and filter glossy set to 1.0.
 
@@ -238,10 +245,13 @@ with the second render using a mesh light positioned in the window.
 Clamp Fireflies
 ---------------
 
-Ideally with all the previous tricks, fireflies would be eliminated, but they could still happen. For that, **the intensity that any individual light ray sample will contribute to a pixel can be clamped** to a maximum value with the integrator
+Ideally with all the previous tricks, fireflies would be eliminated, but they could still happen. For that,
+**the intensity that any individual light ray sample will contribute to a pixel can be clamped**
+to a maximum value with the integrator
 FIXME(TODO: Internal Link;
-[[../Integrator#Tricks|Clamp setting]]
-). If set too low this can cause missing highlights in the image, which might be useful to preserve for camera effects such as bloom or glare.
+[[../Integrator#Tricks|Clamp setting]]).
+If set too low this can cause missing highlights in the image,
+which might be useful to preserve for camera effects such as bloom or glare.
 
 
 +--------------------------------------------+----------------------------------------------+

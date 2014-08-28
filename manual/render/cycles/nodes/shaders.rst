@@ -144,7 +144,9 @@ creating cartoon light effects.
 Transparent
 ^^^^^^^^^^^
 
-Transparent :abbr:`BSDF (Bidirectional scattering distribution function)` without refraction, passing straight through the surface, as if there were no geometry there. Useful with alpha maps, for example. This shader
+Transparent :abbr:`BSDF (Bidirectional scattering distribution function)` without refraction,
+passing straight through the surface, as if there were no geometry there. Useful with alpha maps, for example.
+This shader
 FIXME(TODO: Internal Link;
 [[../../Light_Paths#Transparency|affects light paths somewhat differently]]
 ) than other :abbr:`BSDF (Bidirectional scattering distribution function)` s. Note that only pure white transparent shaders are completely transparent.
@@ -169,7 +171,10 @@ FIXME(TODO: Internal Link;
 Glass
 ^^^^^
 
-Glass-like shader mixing refraction and reflection at grazing angles. Like the transparent shader, only pure white will make it transparent. The glass shader tends to cause noise due to caustics. Since the Cycles path tracing integrator is not very good at rendering caustics, it helps to combine this with a transparent shader for shadows; for
+Glass-like shader mixing refraction and reflection at grazing angles. Like the transparent shader,
+only pure white will make it transparent. The glass shader tends to cause noise due to caustics.
+Since the Cycles path tracing integrator is not very good at rendering caustics,
+it helps to combine this with a transparent shader for shadows; for
 FIXME(TODO: Internal Link;
 [[../../Reducing_Noise#Glass_and_Transparent_Shadows|more details see here]]
 ).

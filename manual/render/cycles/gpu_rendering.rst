@@ -47,20 +47,17 @@ download 64-bit Blender for 64-bit operating systems.
 Limitations
 ===========
 
-- The maximum amount of individual textures is limited to 95 byte image textures (PNG, JPEG, ..) and 5 float-image textures (OpenEXR, 16 bit TIFF, ..).
--
-
-FIXME(TODO: Internal Link;
-[[../OSL|Open shading language]]
-) (OSL) is only supported by CPU.
-
+- The maximum amount of individual textures is limited to 95 byte image textures (PNG, JPEG, ..)
+  and 5 float-image textures (OpenEXR, 16 bit TIFF, ..).
+- :doc:`Open shading language <render/cycles/nodes>` (OSL) is only supported by CPU.
 - Subsurface Scattering is not supported on GPU yet.
 
 
 Older Cards
 ===========
 
-For Mac and Linux, it's possible to compile kernels at runtime, for cards that are not officially supported. GeForce 8xxx, 9xxx and 2xx cards are not included in the official release, but they might work by enabling
+For Mac and Linux, it's possible to compile kernels at runtime, for cards that are not officially supported.
+GeForce 8xxx, 9xxx and 2xx cards are not included in the official release, but they might work by enabling
 FIXME(TODO: Internal Link;
 [[../Experimental_Features|experimental features]]
 ).

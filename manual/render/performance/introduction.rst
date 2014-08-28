@@ -22,7 +22,8 @@ You will need to do one or more of the following tasks on this page in order to 
 Hardware Improvements
 =====================
 
-- Get more RAM up to your PC's (motherboard and operating system) limit. Presently, Blender can use up to 8GG (giga-giga) of physical memory (64-bit address space), but most PCs can only handle 4G of RAM.
+- Get more RAM up to your PC's (motherboard and operating system) limit. Presently, Blender can use up to 8gig
+  of physical memory (64-bit address space), but most PCs can only handle 4G of RAM.
 - Upgrade your CPU to a multi-core/multiprocessor
 - Upgrade your OpenGL video drivers
 - Get a faster memory bus
@@ -34,9 +35,11 @@ Operating System Configuration
 ==============================
 
 - Increase Blender's processing priority through your OS.
-- Increase your swap file space used by the OS for memory swapping. Also called virtual memory pagefile size, up to the size of your physical memory.
+- Increase your swap file space used by the OS for memory swapping. Also called virtual memory pagefile size,
+  up to the size of your physical memory.
 - Upgrade to a 64-bit operating system (if you're not already using one).
-- Exit or stop any background processes, like virus scanners, BOINC, Real, even "inactive" ones like Quicktime, as they can randomly start up to look for updates. They also take up RAM.
+- Exit or stop any background processes, like virus scanners, BOINC, Real, even "inactive" ones like Quicktime,
+  as they can randomly start up to look for updates. They also take up RAM.
 - Disable network connections to stop random pinging traffic and refresh traffic.
 - Stop listening to Internet radio, and close web browsers, especially any multi-media (audio/video/game) sites.
 - Close down all other running applications, like Word.
@@ -47,25 +50,40 @@ Blender Settings
 ================
 
 - Increase the MEM Cache Limit in the User Preferences System & OpenGL tab.
-- Upgrade to an `optimized Blender build <http://www.graphicall.org>`__, especially if you have a modern chip that supports SSE2 - render times are **30% faster** using an optimized build.
-- Switch to an Orthographic camera, and render your own "parts" of the scene as separate images, and then paste those parts together in GIMP. An old trick in making your own panorama with a real camera is to take three or so pictures of a very wide (beach sunset) scene, where you take one picture, rotate to the right, snap another, then another, and when you get the pictures developed, you overlap them to make a very wide landscape image. Do the same in Blender: render out one shot to a file, then move the camera to look at a different area of the scene, and render that shot. Each shot will be of a smaller area and thus take in fewer polygons/faces. Be sure that when you position your camera that you snap overlapping shots, so that you can then match them up. If you don't want to use GIMP, you can use compositing nodes and the Translate node to match them up in Blender.
-- Minimize the render window (and Blender if rendering to an internal window). ATI users report dramatic speedup on a per frame basis, which adds up over the frame range.
+- Upgrade to an `optimized Blender build <http://www.graphicall.org>`__,
+  especially if you have a modern chip that supports SSE2 - render times are **30% faster** using an optimized build.
+- Switch to an Orthographic camera, and render your own "parts" of the scene as separate images,
+  and then paste those parts together in GIMP.
+  An old trick in making your own panorama with a real camera is to take three or so pictures of a very wide
+  (beach sunset) scene, where you take one picture, rotate to the right, snap another, then another,
+  and when you get the pictures developed, you overlap them to make a very wide landscape image.
+  Do the same in Blender: render out one shot to a file,
+  then move the camera to look at a different area of the scene, and render that shot.
+  Each shot will be of a smaller area and thus take in fewer polygons/faces.
+  Be sure that when you position your camera that you snap overlapping shots, so that you can then match them up.
+  If you don't want to use GIMP, you can use compositing nodes and the Translate node to match them up in Blender.
+- Minimize the render window (and Blender if rendering to an internal window).
+  ATI users report dramatic speedup on a per frame basis, which adds up over the frame range.
 - Use the Big Render script to render sub-sections of the overall image, and then paste them together.
-- Make a customized build. For example, comment out calls to check_non_flat_quads in convertblender.c; in some cases can make a noticeable difference of 20-40%.
+- Make a customized build. For example, comment out calls to check_non_flat_quads in convertblender.c;
+  in some cases can make a noticeable difference of 20-40%.
 
 
 Scene and Specific Objects
 ==========================
 
 - Remove lamps, or move them to unrendered layers, or tie them to layers.
-- Turn off some lamp's shadows, using only one or two main sun lamps to cast shadows. A few "shadows only" lights will render faster than every light having shadows on.
+- Turn off some lamp's shadows, using only one or two main sun lamps to cast shadows.
+  A few "shadows only" lights will render faster than every light having shadows on.
 - Use Buffer Shadows rather than ray-traced Shadows
-- Bake your shadows using Render Baking Full Render bake on surfaces that do not move. Use that texture for that mesh, then disable shadows for that material.
+- Bake your shadows using Render Baking Full Render bake on surfaces that do not move.
+  Use that texture for that mesh, then disable shadows for that material.
 - Simplify meshes (remove polygons). The more vertices you have in camera, the more time it takes to render.
 - Remove Doubles, or use the Decimator mesh edit feature.
 - Remove Subsurf and Multires modifiers.
 - Delete backsides of meshes (removing unseen geometry).
-- Render just a few objects at a time; in the beginning of your project, render the background objects and sets that will not change and will always be in the background.
+- Render just a few objects at a time; in the beginning of your project,
+  render the background objects and sets that will not change and will always be in the background.
 - Put the buildings on another layer, and through render layers, don't render them. Then composite them back in later.
 - Make the camera static so that you can better accomplish the above two ideas.
 - Avoid use of Area lights.
@@ -75,11 +93,15 @@ Scene and Specific Objects
 - Decrease the Clip distance for the camera.
 - Turn off world AO.
 - Turn off Material SSS.
-- Use smaller image textures. A 256x256 image takes only 1% of the memory that a 2k image does, often with no loss of quality in the ultimate render.
+- Use smaller image textures. A 256x256 image takes only 1% of the memory that a 2k image does,
+  often with no loss of quality in the ultimate render.
 - Reduce Subsurf. Each level quadruples (4x) the number of faces from the previous level.
 - Reduce Multires.
-- Make a matte render of background objects, like buildings, and put the image of them on a billboard in the scene instead of the object themselves. This will reduce vertex/face count.
-- if you have lots of linked instances of an object, use DupliFaces, as these are instanced. If you have 100 of them, Blender will only store the geometry for 1 (Instances themselves take a small amount of memory).
+- Make a matte render of background objects, like buildings,
+  and put the image of them on a billboard in the scene instead of the object themselves.
+  This will reduce vertex/face count.
+- if you have lots of linked instances of an object, use DupliFaces, as these are instanced. If you have 100 of them,
+  Blender will only store the geometry for 1 (Instances themselves take a small amount of memory).
 
 
 Render Settings
@@ -134,10 +156,18 @@ you break down each shot into components that can be rendered separately,
 then you combine those separately-rendered elements to achieve the finished clip.
 For instance:
 
-- If the camera isn't moving, then neither is the background:  only a single frame is needed.  (The same is true of any non-moving object within the frame.)  These individual elements, having been generated *once,* can be re-used as many times as necessary over as many frames as necessary.
-- Both shadows and highlights can be captured separately from the objects that are being illuminated or shadowed, such that the intensity, color, and depth of the effect can be adjusted later without re-rendering.
-- Start by using lights that do not cast shadows. (Shadow calculations are big time-killers.)  Then, use "shadow-only" lights (which cast shadows, but do not cast light) to create shadows *only* where you judge that they are actually necessary.  (It is very often the case that only a few of the shadows which could exist in the scene actually matter, and that the rest of them simply won't be noticed.)
-- Tricky lighting situations can be avoided by handling the objects separately, then combining the individually-rendered clips and "tweaking" the result.
+- If the camera isn't moving, then neither is the background:  only a single frame is needed.
+  (The same is true of any non-moving object within the frame.)  These individual elements,
+  having been generated *once,* can be re-used as many times as necessary over as many frames as necessary.
+- Both shadows and highlights can be captured separately from the objects that are being illuminated or shadowed,
+  such that the intensity, color, and depth of the effect can be adjusted later without re-rendering.
+- Start by using lights that do not cast shadows. (Shadow calculations are big time-killers.)  Then,
+  use "shadow-only" lights (which cast shadows, but do not cast light)
+  to create shadows *only* where you judge that they are actually necessary.
+  (It is very often the case that only a few of the shadows which could exist in the scene actually matter,
+  and that the rest of them simply won't be noticed.)
+- Tricky lighting situations can be avoided by handling the objects separately,
+  then combining the individually-rendered clips and "tweaking" the result.
 
 This is a very familiar idea.  Modern sound recordings, for example,
 always use a "multi-track" approach.
@@ -150,12 +180,27 @@ sound-processing software are directly comparable to that of Blender's node-base
 There are compelling advantages to this approach:
 
 - You have options.  If something is "not quite right," you don't necessarily have to start over from scratch.
-- In practice, the deadline-killer is *re-* rendering, which ordinarily must be done (in its entirety) just because "'one little thing' about the shot is wrong."  Compositing helps to avoid this, because (ideally...) only the specific parts that are found to be in error must be repeated. (Or, maybe, the error can be blocked out with a "garbage matte" and a corrected version can be inserted in its place.  No one will ever know!)
-- It's also possible that you find yourself saying, "okay, that's *almost* what I wanted, but now I'd like to *add* this and maybe *take away* that." A compositing-based approach enables you to do just that, and furthermore, to do so *non-destructively.* In other words, having generated the "addition" (or the "mask") as a separate channel of information, you can now fine-tune its influence in the overall "mix," or even change your mind and remove it altogether, all without permanently altering anything.
-- By and large, these stages work *two-* dimensionally, manipulating what is by that time "a raster bitmap with R, G, B, Alpha *(transparency...)* and Z-Depth information," so they're consistently fast.
+- In practice, the deadline-killer is *re-* rendering, which ordinarily must be done (in its entirety)
+  just because "'one little thing' about the shot is wrong."  Compositing helps to avoid this, because (ideally...)
+  only the specific parts that are found to be in error must be repeated. (Or, maybe,
+  the error can be blocked out with a "garbage matte" and a corrected version can be inserted in its place.
+  No one will ever know!)
+- It's also possible that you find yourself saying, "okay, that's *almost* what I wanted, but now I'd like to *add*
+  this and maybe *take away* that." A compositing-based approach enables you to do just that, and furthermore,
+  to do so *non-destructively.* In other words, having generated the "addition" (or the "mask")
+  as a separate channel of information, you can now fine-tune its influence in the overall "mix,
+  " or even change your mind and remove it altogether, all without permanently altering anything.
+- By and large, these stages work *two-* dimensionally, manipulating what is by that time "a raster bitmap with R, G,
+  B, Alpha *(transparency...)* and Z-Depth information," so they're consistently fast.
 - Since each discrete rendering task has been simplified, the computer can carry them out using much fewer resources.
-- The tasks can be distributed among several different computers ... even less-powerful ones (like the two older machines that are sitting in your closet right now because you can't get rid of them).
-- "After all, the scene doesn't actually have to be *physically perfect,* to be *convincing.* " A compositing-based approach lets you take full advantage of this.  You can focus your attention (and Blender's) upon those specific aspects of the scene which will actually make a noticeable difference.  It is possible to save a considerable amount of time by consciously choosing to exclude less-important aspects which (although "technically correct") probably won't be noticed.
+- The tasks can be distributed among several different computers ... even less-powerful ones
+  (like the two older machines that are sitting in your closet right now because you can't get rid of them).
+- "After all, the scene doesn't actually have to be *physically perfect,* to be *convincing.* "
+  A compositing-based approach lets you take full advantage of this.
+  You can focus your attention (and Blender's)
+  upon those specific aspects of the scene which will actually make a noticeable difference.
+  It is possible to save a considerable amount of time by consciously choosing to exclude less-important aspects which
+  (although "technically correct") probably won't be noticed.
 
 Of course, this approach is not without its own set of trade-offs.  You must devise a workable
 asset-management system for keeping track of exactly what material you have, where it is,

@@ -29,7 +29,8 @@ On one machine, start a Master server.
 
 - Start Blender, switch Render Engine to Network Render using the dropdown in the Info window header (next to Scene).
 - (Make sure you have render mode selected) Select Master as mode of operation.
-- *Optional* Specify the IP address of the interface to listen on as well as the port. Leave at *[default]* if you want the server to listen on all network interfaces on the specified port.
+- *Optional* Specify the IP address of the interface to listen on as well as the port.
+  Leave at *[default]* if you want the server to listen on all network interfaces on the specified port.
 - Press Start (it will open a blank render window). The render status line will reflect the actions of the server.
 - The Master will run until stopped by pressing Esc, like canceling a normal render.
 
@@ -38,7 +39,11 @@ Master web interface
 
 When started, the Master will also present a web interface that provide more information about
 slaves and jobs. There are currently two web interfaces.
-The old one can be viewed using the following url scheme http[s]://master_ip_address:master_port. The new one based on jquery and in development can be viewed using following url scheme http[s]://master_ip_address:master_port/html/newui. All information regarding the new web interface can be found :doc:`here </render/performance/netrender/webinterface>`.
+The old one can be viewed using the following url scheme:
+``http[s]://master_ip_address:master_port``.
+The new one based on jquery and in development can be viewed using following url scheme:
+``http[s]://master_ip_address:master_port/html/newui``.
+All information regarding the new web interface can be found :doc:`here </render/performance/netrender/webinterface>`.
 
 
 Slave(s)
@@ -48,7 +53,8 @@ On other machines, start render slaves
 
 - Start Blender, then switch Render Engine to Network Render.
 - (Make sure you have render mode selected) Select Slave as mode of operation.
-- *Optional* Specify the IP address of the master server as well as the port. Leave at *[default]* if you want the slaves to automatically detect the master from its broadcast.
+- *Optional* Specify the IP address of the master server as well as the port.
+  Leave at *[default]* if you want the slaves to automatically detect the master from its broadcast.
 - Press Start (it will open a blank render window). The render status line will reflect the actions of the slave.
 - The Slave will run until stopped by pressing Esc, like canceling a normal render.
 
@@ -66,9 +72,11 @@ To send a job to the cluster, from your workstation:
   - Specify the IP address of the master server as well as the port.
   - Press the Refresh button underneath the address to automatically detect the Master server from its broadcast.
 - Press Send Job to dispatch the animation job to the Master server.
-- Whenever you want, Render the Animation (Ctrl-F12) to gather the finished frames. Finished frames will "appear" automatically, while it will pause on ongoing frames.
+- Whenever you want, Render the Animation (Ctrl-F12) to gather the finished frames.
+  Finished frames will "appear" automatically, while it will pause on ongoing frames.
 - You can also hit Render on any frame of the animation and it will fetch the result from the Master.
-- In the simplest example, you can just press "Animation on network" and wait for the frames to come in. Total render time should be close to inverse proportional to the number of slaves (minus transfer times).
+- In the simplest example, you can just press "Animation on network" and wait for the frames to come in.
+  Total render time should be close to inverse proportional to the number of slaves (minus transfer times).
 
 It is possible to run Master, Client and slave on one System.
 
@@ -339,7 +347,8 @@ This is a list of blender code I would need to make netrender better. Some of th
 some are features that should (hopefully) eventually be there.
 
 
-- API access to jobs, to be able to run masters and slaves in the background as well as render job notifiers on the client.
+- API access to jobs,
+  to be able to run masters and slaves in the background as well as render job notifiers on the client.
 - Render result from multilayer image in memory
 - Render and load tiles in render results
 

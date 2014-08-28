@@ -79,7 +79,8 @@ only the position and incoming vector are available.
 Light Path
 ==========
 
-Node to find out for which kind of incoming ray the shader is being executed; particularly useful for non-physically based tricks. More information about the meaning of each type is in the
+Node to find out for which kind of incoming ray the shader is being executed;
+particularly useful for non-physically based tricks. More information about the meaning of each type is in the
 FIXME(TODO: Internal Link;
 [[../../Light Paths|Light Paths]]
 ) documentation.

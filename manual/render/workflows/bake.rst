@@ -220,10 +220,15 @@ Workflow
 
 - In a 3D View window, select a mesh and enter UV/Face Select mode
 - :doc:`Unwrap the mesh object </textures/mapping/uv>`
-- In a UV/Image Editor window, either create a new image or open an existing one. If your 3D view is in textured display mode, you should now see the image mapped to your mesh. Ensure that all faces are selected.
-- In the Bake panel at the bottom of the :guilabel:`Render menu`, bake your desired type of image (:guilabel:`Full Render` etcetera.)
+- In a UV/Image Editor window, either create a new image or open an existing one.
+  If your 3D view is in textured display mode, you should now see the image mapped to your mesh.
+  Ensure that all faces are selected.
+- In the Bake panel at the bottom of the :guilabel:`Render menu`, bake your desired type of image
+  (:guilabel:`Full Render` etcetera.)
 - When rendering is complete, Blender replaces the image with the Baked image.
 - Save the image.
-- Apply the image to the mesh as a UV texture. For displacement and normal maps, refer to :doc:`Bump and Normal Maps </textures/influence/material/bump_and_normal>`. For full and texture bakes, refer to :doc:`Textures </textures>`.
-- Refine the image using the process described below, or embellish with :doc:`Texture Paint </textures/uv/painting_the_texture>` or an external image editor.
-
+- Apply the image to the mesh as a UV texture. For displacement and normal maps,
+  refer to :doc:`Bump and Normal Maps </textures/influence/material/bump_and_normal>`. For full and texture bakes,
+  refer to :doc:`Textures </textures>`.
+- Refine the image using the process described below,
+  or embellish with :doc:`Texture Paint </textures/uv/painting_the_texture>` or an external image editor.

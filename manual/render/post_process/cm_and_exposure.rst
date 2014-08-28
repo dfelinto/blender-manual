@@ -5,7 +5,9 @@
 Color Management
 ****************
 
-`OpenColorIO <http://opencolorio.org/>`__ is now integrated into Blender, along with a redesign of the color management system. Previously Blender only supported two color spaces, linear and sRGB; now many more are supported, with finer control over which color transformations should be used.
+`OpenColorIO <http://opencolorio.org/>`__ is now integrated into Blender,
+along with a redesign of the color management system. Previously Blender only supported two color spaces,
+linear and sRGB; now many more are supported, with finer control over which color transformations should be used.
 
 
 Scene Linear Color Space
