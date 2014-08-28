@@ -80,7 +80,7 @@ with the following options - all regarding the "vertex groups" skinning method:
 
 This "parenting" method will create an* :doc:`Armature modifier </modifiers/deform/armature>`
 in the skinning object's modifiers stack.
-And so, of course, adding an* :doc:`Armature modifier </modifiers/deform/armature>` 
+And so, of course, adding an* :doc:`Armature modifier </modifiers/deform/armature>`
 to an object is the second, new skinning method (which also works for curves/surfaces/texts...).
 Follow the above link to read more about this modifier's specific options.
 Note that there is a way with new :guilabel:`Armature` modifiers to automatically create vertex groups and weight them;

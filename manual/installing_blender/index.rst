@@ -5,7 +5,7 @@
 ####################
 
 .. toctree::
-   
+
    introduction.rst
    python.rst
    linux/index.rst

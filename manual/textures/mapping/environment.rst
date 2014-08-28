@@ -102,7 +102,7 @@ Options in dropdown menu:
    Since environment maps work by rendering the scene from the location of the :guilabel:`Ob:` object,
    you will need to exclude the actual reflecting surface from the environment map,
    otherwise it will occlude other objects that should be reflected on the surface itself.
- 
+
    Eg. If you are rendering an environment map from the center of a sphere,
    all the environment map will show by default is the inside of the sphere.
    You will need to move the sphere to a separate layer, then exclude that layer from the environment map render,

@@ -261,7 +261,7 @@ Note that converting a stroke does not delete it.
 
 There are four different conversion methods - three "simple" ones, and one more advanced and complex,
 :guilabel:`Template`, that reuses bones from the same armature or from another
-one as a template for the strokes to convert, and which is detailed in 
+one as a template for the strokes to convert, and which is detailed in
 :doc:`the next page </rigging/armatures/editing/templating>`.
 Anyway, remember that* straight segments are always converted to one and only one bone
 (except for the :guilabel:`Template` conversion method),

@@ -5,7 +5,7 @@
 ###############
 
 .. toctree::
-	
+
    introduction.rst
    history.rst
    license.rst

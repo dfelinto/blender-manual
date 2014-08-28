@@ -9,7 +9,7 @@ Line Style & Modifiers
    Line Style UI
 
 
-In Freestyle, the line style settings define the appearance of a line set using five main aspects: 
+In Freestyle, the line style settings define the appearance of a line set using five main aspects:
 
 - :doc:`stroke </render/freestyle/parameter_editor/line_style/strokes>`
 - :doc:`color </render/freestyle/parameter_editor/line_style/color>`

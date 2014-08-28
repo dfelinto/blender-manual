@@ -3,7 +3,7 @@ Nodes
 *****
 
 .. toctree::
-   
+
    introduction.rst
    input.rst
    output.rst

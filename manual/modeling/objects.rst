@@ -93,7 +93,7 @@ Object Centers
 **************
 
 Each object has an origin point. The location of this point determines where the object is located in 3D space.
-When an object is selected, a small circle appears, denoting the origin point. 
+When an object is selected, a small circle appears, denoting the origin point.
 The location of the origin point is important when translating, rotating or scaling an object.
 See :doc:`Pivot Points </3d_interaction/transform_control/pivot_point>` for more.
 

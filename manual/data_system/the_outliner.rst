@@ -12,7 +12,7 @@ Use it to find things in your scene.
 For example, suppose you sneeze while moving an object; your mouse flies off your desk
 (gesundheit!) and the object is hurled somewhere off screen into space.
 Simply use the outliner to find it; select it,
-and move back to your 3D window to snap it back to your cursor (:kbd:`shift-S` 
+and move back to your 3D window to snap it back to your cursor (:kbd:`shift-S`
 :guilabel:`→ Selection → Cursor`).
 
 Another more practical example is to evaluate the impact of a change on related :doc:`datablocks </data_system/datablocks>`. Suppose you are looking at your ``TableTop`` object, and it doesn't look right, the ``Wood`` material doesn't look right; you want it to look more like mahogany. Since the same material can be used by many meshes, you're not sure how many things will change color when you change the material. Using the :guilabel:`Outliner`, you could find that material and trace the links that it has to every mesh in your scene.
@@ -75,7 +75,7 @@ When you select an object in the list this way,
 it is selected and becomes the active object in all other 3D Views.
 Use this feature to find objects in your 3D View, select them in the :guilabel:`Outliner`,
 then zoom to them with :kbd:`pad.` or if you don't have a numpad,
-snap and center your cursor on them via :kbd:`shift-S` 
+snap and center your cursor on them via :kbd:`shift-S`
 :guilabel:`→ Cursor → Selection`, and then :kbd:`C`.
 
 
