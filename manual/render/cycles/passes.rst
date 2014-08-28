@@ -12,10 +12,23 @@ then recomposed in compositing later.
 Which objects contribute to which render layers are defined by these layer settings:
 
 
-- :guilabel:`Scene Layers`: only objects on these layers will contribute to the image.
-- :guilabel:`Camera Layers`: objects on these layers are directly visible to the camera. When an object is in the scene layers but not camera layers, it will still cast shadows or be visible in reflections, so it's still indirectly visible. This is equivalent to disabling the Camera in the Ray Visibility panel for the object. The way this works may be somewhat confusing at first, but it's designed such that render layers can be recomposed to give the full render, without any missing shadows or reflections.
-- :guilabel:`Mask Layers`: objects on these will mask out other objects appearing behind them. This is equivalent to assigning a Holdout shader for camera rays to the objects on such layers.
-- :guilabel:`Exclude Layers`: scene layers are shared between all render layers; however sometimes it's useful to leave out some object influence for a particular render layer. That's what this option allows you to do.
+:guilabel:`Scene Layers`
+   Only objects on these layers will contribute to the image.
+:guilabel:`Camera Layers`
+   Objects on these layers are directly visible to the camera. 
+   When an object is in the scene layers but not camera layers,
+   it will still cast shadows or be visible in reflections, so it's still indirectly visible.
+   This is equivalent to disabling the Camera in the Ray Visibility panel for the object.
+   The way this works may be somewhat confusing at first,
+   but it's designed such that render layers can be recomposed
+   to give the full render, without any missing shadows or reflections.
+:guilabel:`Mask Layers`
+   Objects on these will mask out other objects appearing behind them.
+   This is equivalent to assigning a Holdout shader for camera rays to the objects on such layers.
+:guilabel:`Exclude Layers`
+   Scene layers are shared between all render layers;
+   however sometimes it's useful to leave out some object influence for a particular render layer.
+   That's what this option allows you to do.
 
 
 Lighting Passes
