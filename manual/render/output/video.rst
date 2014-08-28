@@ -1,7 +1,4 @@
 
-..    TODO/Review: {{review|}} .
-
-
 Preparing your work for video
 *****************************
 
@@ -343,62 +340,40 @@ Video Formats
 Video Codecs
 ^^^^^^^^^^^^
 
-+-------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-+Name                                                         |Description                                                                                                                                                                                                                +
-+-------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-+None                                                         |*For audio-only encoding.*                                                                                                                                                                                                 +
-+-------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-+`MPEG-1 <http://en.wikipedia.org/wiki/MPEG-1>`__             |(See                                                                                                                                                                                                                       +
-+                                                             |FIXME(TODO: Internal Link;                                                                                                                                                                                                 +
-+                                                             |[[#Video Formats|Video Formats]]                                                                                                                                                                                           +
-+                                                             |), above.)                                                                                                                                                                                                                 +
-+-------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-+`MPEG-2 <http://en.wikipedia.org/wiki/MPEG-2>`__             |(See                                                                                                                                                                                                                       +
-+                                                             |FIXME(TODO: Internal Link;                                                                                                                                                                                                 +
-+                                                             |[[#Video Formats|Video Formats]]                                                                                                                                                                                           +
-+                                                             |), above.)                                                                                                                                                                                                                 +
-+-------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-+`MPEG-4(DivX) <http://en.wikipedia.org/wiki/MPEG-4>`__       |(See                                                                                                                                                                                                                       +
-+                                                             |FIXME(TODO: Internal Link;                                                                                                                                                                                                 +
-+                                                             |[[#Video Formats|Video Formats]]                                                                                                                                                                                           +
-+                                                             |), above.)                                                                                                                                                                                                                 +
-+-------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-+`HuffYUV <http://en.wikipedia.org/wiki/HuffYUV>`__           |Loss-less video codec created by Ben Rudiak-Gould which is meant to replace uncompressed YCbCr as a video capture format.                                                                                                  +
-+-------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-+`DV <http://en.wikipedia.org/wiki/DV>`__                     |(See                                                                                                                                                                                                                       +
-+                                                             |FIXME(TODO: Internal Link;                                                                                                                                                                                                 +
-+                                                             |[[#Video Formats|Video Formats]]                                                                                                                                                                                           +
-+                                                             |), above.)                                                                                                                                                                                                                 +
-+-------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-+`H.264 <http://en.wikipedia.org/wiki/H.264>`__               |(See                                                                                                                                                                                                                       +
-+                                                             |FIXME(TODO: Internal Link;                                                                                                                                                                                                 +
-+                                                             |[[#Video Formats|Video Formats]]                                                                                                                                                                                           +
-+                                                             |), above.)                                                                                                                                                                                                                 +
-+-------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-+`Xvid <http://en.wikipedia.org/wiki/Xvid>`__                 |(See                                                                                                                                                                                                                       +
-+                                                             |FIXME(TODO: Internal Link;                                                                                                                                                                                                 +
-+                                                             |[[#Video Formats|Video Formats]]                                                                                                                                                                                           +
-+                                                             |), above.)                                                                                                                                                                                                                 +
-+-------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-+`Theora <http://en.wikipedia.org/wiki/Theora>`__             |(See Ogg in                                                                                                                                                                                                                +
-+                                                             |FIXME(TODO: Internal Link;                                                                                                                                                                                                 +
-+                                                             |[[#Video Formats|Video Formats]]                                                                                                                                                                                           +
-+                                                             |), above.)                                                                                                                                                                                                                 +
-+-------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-+`Flash Video <http://en.wikipedia.org/wiki/Flash_Video>`__   |(See                                                                                                                                                                                                                       +
-+                                                             |FIXME(TODO: Internal Link;                                                                                                                                                                                                 +
-+                                                             |[[#Video Formats|Video Formats]]                                                                                                                                                                                           +
-+                                                             |), above.)                                                                                                                                                                                                                 +
-+-------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-+`FFmpeg video codec #1 <http://en.wikipedia.org/wiki/FFV1>`__|A.K.A. FFV1, a loss-less intra-frame video codec. It can use either variable length coding or arithmetic coding for entropy coding. The encoder and decoder are part of the free, open-source library libavcodec in FFmpeg.+
-+-------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+None
+   *For audio-only encoding.*
+`MPEG-1 <http://en.wikipedia.org/wiki/MPEG-1>`__
+   See |FIXME(TODO: Internal Link; |[[#Video Formats|Video Formats]] |), above.)
+`MPEG-2 <http://en.wikipedia.org/wiki/MPEG-2>`__
+   See |FIXME(TODO: Internal Link; |[[#Video Formats|Video Formats]] |), above.)
+`MPEG-4(DivX) <http://en.wikipedia.org/wiki/MPEG-4>`__
+   See |FIXME(TODO: Internal Link; |[[#Video Formats|Video Formats]] |), above.)
+`HuffYUV <http://en.wikipedia.org/wiki/HuffYUV>`__
+   Loss-less video codec created by Ben Rudiak-Gould which is
+   meant to replace uncompressed YCbCr as a video capture format.
+`DV <http://en.wikipedia.org/wiki/DV>`__
+   See |FIXME(TODO: Internal Link; |[[#Video Formats|Video Formats]] |), above.)
+`H.264 <http://en.wikipedia.org/wiki/H.264>`__
+   See |FIXME(TODO: Internal Link; |[[#Video Formats|Video Formats]] |), above.)
+`Xvid <http://en.wikipedia.org/wiki/Xvid>`__
+   See |FIXME(TODO: Internal Link; |[[#Video Formats|Video Formats]] |), above.)
+`Theora <http://en.wikipedia.org/wiki/Theora>`__
+   See Ogg in |FIXME(TODO: Internal Link; |[[#Video Formats|Video Formats]] |), above.)
+`Flash Video <http://en.wikipedia.org/wiki/Flash_Video>`__
+   See |FIXME(TODO: Internal Link; |[[#Video Formats|Video Formats]] |), above.)
+`FFmpeg video codec #1 <http://en.wikipedia.org/wiki/FFV1>`__
+   A.K.A. FFV1, a loss-less intra-frame video codec.
+   It can use either variable length coding or arithmetic coding for entropy coding.
+   The encoder and decoder are part of the free, open-source library libavcodec in FFmpeg.
 
 
 Options
 ^^^^^^^
 
 :guilabel:`Bitrate`
-   Set the average `bitrate <http://en.wikipedia.org/wiki/Bit_rate>`__ (quality), which is the count of binary digits per frame. See also: `ffmpeg -b:v <http://ffmpeg.org/ffmpeg.html#Description>`__
+   Set the average `bitrate <http://en.wikipedia.org/wiki/Bit_rate>`__ (quality),
+   which is the count of binary digits per frame.
+   See also: `ffmpeg -b:v <http://ffmpeg.org/ffmpeg.html#Description>`__
 
 :guilabel:`Rate`
    The bitrate control also includes a :guilabel:`Minimum` and a :guilabel:`Maximum`.
@@ -415,7 +390,9 @@ Options
 
 
 :guilabel:`Autosplit Output`
-   If your video is HUGE and exceeds 2Gig, enable Autosplit Output. The main control over output filesize is the GOP, or keyframe interlace. A higher number generally leads to a smaller file, but needs a higher-powered device to replay it.
+   If your video is HUGE and exceeds 2Gig, enable Autosplit Output.
+   The main control over output filesize is the GOP, or keyframe interlace.
+   A higher number generally leads to a smaller file, but needs a higher-powered device to replay it.
 
 :guilabel:`Mux`
    `Multiplexing <http://www.afterdawn.com/glossary/term.cfm/multiplexing>`__ settings.
