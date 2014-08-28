@@ -4,6 +4,7 @@ Freestyle
 *********
 
 .. toctree::
+   :maxdepth: 2
 
    introduction.rst
    parameter_editor/index.rst

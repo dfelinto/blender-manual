@@ -4,5 +4,6 @@ Internal
 ********
 
 .. toctree::
+   :maxdepth: 2
 
    antialiasing.rst
