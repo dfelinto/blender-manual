@@ -95,7 +95,11 @@ file or directory.
 .. admonition:: PathSpecs
    :class: note
 
-   The path specification for the location can be absolute *On Microsoft-Windows include a normal or mapped drive letter (e.g. "F:")*, a breadcrumb notation (e.g. "./" and "../" and "//" (the blend file location). Forward slashes (Unix-style) or backslashes (Windows-style) are acceptable on either platform. If omitted, the file is saved in the current working directory blender was started from.
+   The path specification for the location can be absolute
+   *On Microsoft-Windows include a normal or mapped drive letter (e.g. "F:")*,
+   a breadcrumb notation (e.g. "./" and "../" and "//" (the blend file location).
+   Forward slashes (Unix-style) or backslashes (Windows-style) are acceptable on either platform.
+   If omitted, the file is saved in the current working directory blender was started from.
 
 
 File Type
@@ -150,51 +154,69 @@ unless the Extensions button of the Output panel is set,
 Blender does *not* automatically add extensions to filenames, hence any :guilabel:`.tga` or
 :guilabel:`.png` extension must be explicitly written in the File Save window.
 
-**OpenEXR** and **OpenEXR Multilayer** formats are the only formats that store Z-depth buffer information. **OpenEXR Multilayer** is the only format that stores Render Layer and Render Passes as layers that can then be composited in post-production.
+**OpenEXR** and **OpenEXR Multilayer** formats are the only formats that store Z-depth buffer information.
+**OpenEXR Multilayer** is the only format that stores Render Layer and
+Render Passes as layers that can then be composited in post-production.
 
 
 Image Formats
 -------------
 
-+-------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-+:guilabel:`BMP`                |Bit-Mapped Paint loss-less format used by early paint programs.                                                                                                                                                                                                                                         +
-+-------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-+:guilabel:`Iris`               |The standard Silicon Graphics Inc (SGI) format used on those spanking Unix OS machines.                                                                                                                                                                                                                 +
-+-------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-+:guilabel:`PNG`                |Portable Network Graphics, a standard meant to replace old GIF inasmuch as it is loss-less, but supports full true color images. Supports Alpha channel.                                                                                                                                                +
-+                               |    Enable the RGBA button to save the Alpha channel.                                                                                                                                                                                                                                                   +
-+-------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-+:guilabel:`Jpeg`               |Joint Picture Expert Group (name of the consortium which defined it), an open format that supports very good compression with little loss of quality. Only saves RGB values. Re-saving images results in more and more compression and loss of quality.                                                 +
-+-------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-+:guilabel:`Jpeg 2000`          |Uses the Jpeg 2000 codec.                                                                                                                                                                                                                                                                               +
-+-------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-+:guilabel:`TARGA and Targa raw`|Truevision Advanced Raster Graphics Adapter is a simple raster graphics format established in 1984 and used by the original IBM PCs. Supports Alpha Channel.                                                                                                                                            +
-+                               |    Enable the RGBA button to save the Alpha channel.                                                                                                                                                                                                                                                   +
-+-------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-+:guilabel:`Cineon`             |format produced by a Kodak Cineon camera and used in high-end graphics software and more directed toward digital film.                                                                                                                                                                                  +
-+-------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-+:guilabel:`DPX`                |Digital Moving-Picture eXchange format; an open professional format (close to Cineon) that also contains metainformation about the picture; 16-bit uncompressed bitmap (huge file size). Used in preservation.                                                                                          +
-+-------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-+:guilabel:`MultiLayer`         |an OpenEXR format that supports storing multiple layers of images together in one file. Each layer stores a render pass, such as shadow, specularity, color, etc. You can specify the encoding used to save the MultiLayer file using the codec selector (ZIP (loss-less) is shown and used by default).+
-+-------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-+:guilabel:`OpenEXR`            |an open and non-proprietary extended and highly dynamic range (HDR) image format, saving both Alpha and Z-depth buffer information.                                                                                                                                                                     +
-+                               |                                                                                                                                                                                                                                                                                                        +
-+                               |   - Enable the *Half* button to use the 16-bit format; otherwise 32-bit floating point precision color depth will be used.                                                                                                                                                                             +
-+                               |   - Enable the *Zbuf* button to save the Z-buffer (distance from camera) info.                                                                                                                                                                                                                         +
-+                               |   - Choose a compression/decompression *CODEC* (ZIP by default) to save disk space.                                                                                                                                                                                                                    +
-+                               |   - Enable the *RGBA* button to save the Alpha channel.                                                                                                                                                                                                                                                +
-+                               |   - Because OpenEXR is so new and previews are generally not supported by Operating Systems, enable *Preview* to save a JPG image along with the EXR image so you can quickly and easily see what the basic image looks like.                                                                          +
-+-------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-+:guilabel:`Radiance HDR`       |a High Dynamic Range image format that can store images in floating point (with light brighter than 1.0) - 32bits per channel.                                                                                                                                                                          +
-+-------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-+:guilabel:`TIFF`               |Often used for teletype and facsimile (FAX) images.                                                                                                                                                                                                                                                     +
-+-------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-+:guilabel:`Frame Server`       |This is an alternative output method that allows Blender to serve frames over a network, useful for using external video encoders where the frames would not fit uncompressed on disk. :doc:`documentation </render/output/frameserver>`                                                                +
-+-------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+BMP
+   Bit-Mapped Paint loss-less format used by early paint programs.
+Iris
+   The standard Silicon Graphics Inc (SGI) format used on those spanking Unix OS machines.
+PNG
+   Portable Network Graphics, a standard meant to replace old GIF inasmuch as it is loss-less,
+   but supports full true color images. Supports Alpha channel.
+Jpeg
+   Joint Picture Expert Group (name of the consortium which defined it),
+   an open format that supports very good compression with little loss of quality.
+   Only saves RGB values. Re-saving images results in more and more compression and loss of quality.
+Jpeg 2000
+   Uses the Jpeg 2000 codec.
+Targa and Targa raw
+   Truevision Advanced Raster Graphics Adapter is a simple raster graphics format
+   established in 1984 and used by the original IBM PCs. Supports Alpha Channel.
+   Enable the RGBA button to save the Alpha channel.
+Cineon
+   Format produced by a Kodak Cineon camera and used in high-end
+   graphics software and more directed toward digital film.
+DPX
+   Digital Moving-Picture eXchange format;
+   an open professional format (close to Cineon) that also contains metainformation about the picture;
+   16-bit uncompressed bitmap (huge file size). Used in preservation.
+OpenEXR
+   An open and non-proprietary extended and highly dynamic range (HDR) image format,
+   saving both Alpha and Z-depth buffer information.
+
+   - Enable the *Half* button to use the 16-bit format;
+     otherwise 32-bit floating point precision color depth will be used.
+   - Enable the *Zbuf* button to save the Z-buffer (distance from camera) info.
+   - Choose a compression/decompression *CODEC* (ZIP by default) to save disk space.
+   - Enable the *RGBA* button to save the Alpha channel.
+   - Because OpenEXR is so new and previews are generally not supported by Operating Systems,
+     enable *Preview* to save a JPG image along with the EXR image so you
+     can quickly and easily see what the basic image looks like.
+OpenEXR (MultiLayer)
+   An OpenEXR format that supports storing multiple layers of images together in one file.
+   Each layer stores a render pass, such as shadow, specularity, color, etc.
+   You can specify the encoding used to save the MultiLayer file using the codec selector
+   (ZIP (loss-less) is shown and used by default).
+Radiance HDR
+   A High Dynamic Range image format that can store images in floating point
+   (with light brighter than 1.0) - 32bits per channel.
+TIFF
+   Often used for teletype and facsimile (FAX) images.
+Frame Server
+   This is an alternative output method that allows Blender to serve frames over a network,
+   useful for using external video encoders where the frames would not fit uncompressed on disk.
+   :doc:`documentation </render/output/frameserver>`
 
 
 VSE Rendering
 *************
+
 
 Rendering to an Image Sequence
 ==============================
@@ -225,7 +247,8 @@ Rendering to Video
 Ridiculously easy (when you learn where the buttons are):
 
 - Add the sequence of images as described above.
-- Set your Output file path and name to wherever you want to save the movie file (e.g. C:\My Documents\MyMovie) in the upper output box of the render buttons.
+- Set your Output file path and name to wherever you want to save the movie file
+  (e.g. C:\My Documents\MyMovie) in the upper output box of the render buttons.
 - Change your Format to a movie file format (AVI, MOV, FFMPEG) and CODEC.
 - Set your framerate to match whatever framerate the sequence is to be played back in. Under the Anim/Playback buttons.
 - Set your ANIM End: to the number of images in the sequence, and
@@ -234,5 +257,4 @@ Ridiculously easy (when you learn where the buttons are):
 The single movie file is created and saved;
 the name is what you specified but with the starting frame and ending frame numbers appended
 (e.g. MyMovie0000-0250.avi)
-
 
