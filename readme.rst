@@ -44,20 +44,9 @@ Cleanup:
 - Some links to the ``changelog_`` should be setup to dynamic update to current Blender Version.
 
 
-.. code-block:: rst
-
-   h1 header
-   *********
-
-   h2 header
-   =========
-
-   h3 header
-   ---------
-
-   h4 header
-   ~~~~~~~~~
-
+================
+Directory layout
+================
 
 Sections should be generally structured as follows:
 
@@ -86,3 +75,39 @@ For example:
 The idea is to enclose all the content of a section inside of a folder. Ideally every section
 should have an index.rst (containing the TOC for that section) and an introduction.rst 
 (introducting) to the contents of the section.
+
+
+=================
+Table of Contents
+=================
+
+By default a table of contents should show two levels of depth.
+
+.. code-block:: rst
+
+   .. toctree::
+   :maxdepth: 2
+
+   introduction.rst
+   perspective.rst
+   depth_of_field.rst
+
+
+================
+Style guidelines
+================
+
+Headings
+.. code-block:: rst
+
+   h1 header
+   *********
+
+   h2 header
+   =========
+
+   h3 header
+   ---------
+
+   h4 header
+   ~~~~~~~~~
