@@ -2,23 +2,33 @@
   Readme
 #########
 
-*******************
 Building the Manual
 *******************
 
 The manual is built using Sphinx, see: http://sphinx-doc.org
 
-In any case you navigate to the documentation root directory, then
-on Unix systems you can run ``make`` which will output files to ``./html/``.
-For partial builds (much faster), you can add chapter names,
+
+Makefile
+========
+
+We provide a Makefile tested on Linux and OSX, so you can simply typen run ``make`` to build documents.
+To avoid having to build the entire manual, we have support for making single chapters:
 eg: ``make render`` or ``make modeling``, see ``make help`` for a full list of options.
 
-Or you can run sphinx directly, (currently needed for MS-Windows): ::
-
-  sphinx-build -b html . ./html
+This will generate documents in ``./html``
 
 
-***********
+Sphinx-Build
+============
+
+You may want to run sphinx-build directly,
+(currently only supported method on MS-Windows):
+
+.. code-block::
+
+  sphinx-build -b html ./manual ./html
+
+
 Conventions
 ***********
 
@@ -28,7 +38,6 @@ Conventions
 - TODO: Choose a way to reference UI elements, ``:guilabel:`` is used all over, but may want to just use bold/italic.
 
 
-*********
 Migration
 *********
 
@@ -44,7 +53,6 @@ Cleanup:
 - Some links to the ``changelog_`` should be setup to dynamic update to current Blender Version.
 
 
-================
 Directory layout
 ================
 
@@ -74,10 +82,9 @@ For example:
 
 The idea is to enclose all the content of a section inside of a folder. Ideally every section
 should have an index.rst (containing the TOC for that section) and an introduction.rst 
-(introducting) to the contents of the section.
+(introducing) to the contents of the section.
 
 
-=================
 Table of Contents
 =================
 
@@ -93,11 +100,11 @@ By default a table of contents should show two levels of depth.
    depth_of_field.rst
 
 
-================
 Style guidelines
 ================
 
 Headings
+
 .. code-block:: rst
 
    h1 header
@@ -111,3 +118,4 @@ Headings
 
    h4 header
    ~~~~~~~~~
+
