@@ -223,9 +223,10 @@ Layer Selector
 ==============
 
 Layers are well documented in the :doc:`Layers page <3d_interaction/navigating/layers#description>`.
-Toggling layer visibility is covered in the section on :doc:`viewing layers
-<3d_interaction/navigating/layers#viewing_layers>` and :doc:`moving objects between layers
-<3d_interaction/navigating/layers#moving_objects_between_layers>` is also discussed in this page.
+Toggling layer visibility is covered in the section on
+:doc:`viewing layers <3d_interaction/navigating/layers#viewing_layers>` and
+:doc:`moving objects between layers <3d_interaction/navigating/layers#moving_objects_between_layers>`
+is also discussed in this page.
 
 
 

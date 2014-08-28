@@ -214,8 +214,8 @@ Open 2D Curve
    The extrusion will create a "wall" or "ribbon" following the curve shape. If using a :guilabel:`Bevel Depth`,
    the wall becomes a sort of slide or gutter.
    Note the direction of this bevel is sometimes strange and unpredictable, often the reverse of what you would get
-   with the same curve closed? You can inverse this direction by :doc:`switching the direction
-   <modeling/curves/editing#switch_direction>` of the curve.
+   with the same curve closed? You can inverse this direction by
+   :doc:`switching the direction <modeling/curves/editing#switch_direction>` of the curve.
 
    This allows you, e.g., to quickly simulate a marble rolling down a complex slide,
    by combining an extruded beveled curve,

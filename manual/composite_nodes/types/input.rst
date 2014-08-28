@@ -183,8 +183,8 @@ Even though things may be animated in our scene,
 a single image or frame from the animation does not portray any motion;
 the image from the frame is simply where things are at that particular time. However,
 from the :guilabel:`Render Layers` node, Blender puts out a vector set that says how particular pixels are moving,
-or will move, to the next frame. You use this socket to create a :doc:`blurring effect.
-Find out more by clicking here <ls/composite_nodes/types/filter/vector_blur>`.
+or will move, to the next frame. You use this socket to create a
+:doc:`blurring effect. <ls/composite_nodes/types/filter/vector_blur>`.
 
 
 
