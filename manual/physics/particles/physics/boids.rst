@@ -132,7 +132,7 @@ The size of the predators and the prey can be set with the Size button in the Ex
 
 
 Boid Brain
-**********
+==========
 
 The Boid Brain panel controls how the boids particles will react with each other.
 The boids' behavior is controlled by a list of rules.

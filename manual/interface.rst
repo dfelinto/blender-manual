@@ -19,12 +19,21 @@ version in the top right-hand corner.
 .. figure:: /images/(Doc_26x_Manual_Vitals_Help)_(Splash_Screen_2.66)_(GBV266FN).jpg
 
 
-.. figure:: /images/Blender_268a_welcome.jpg
+.. figure::
 
+   /images/Blender_268a_welcome.jpg
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-+The left side shows you some useful links like the `release log <http://wiki.blender.org/index.php/Dev:Ref/Release_Notes/changelog_258/>`__ of the version you are using (what's new in this version), :doc:`the wiki manual <>`  (what you're reading now) and the `official Blender website <http://www.blender.org>`__. These links are also accessible from the :guilabel:`Help` menu.|The right side lists recent blender files (.blend) you have saved. If you're running Blender for the first time, this part will be empty. This list is also available in :menuselection:`File --> Open Recent`. The interaction menu lets you choose a keymap preset (by default, :guilabel:`Blender` or :guilabel:`Maya`) are available.+
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   The left side shows you some useful links like the
+   `release log <http://wiki.blender.org/index.php/Dev:Ref/Release_Notes/changelog_258/>`__
+   of the version you are using (what's new in this version), the wiki manual (what you're reading now) and the
+   `official Blender website <http://www.blender.org>`__.
+   These links are also accessible from the :guilabel:`Help` menu.
+
+   The right side lists recent blender files (.blend) you have saved.
+   If you're running Blender for the first time, this part will be empty.
+   This list is also available in :menuselection:`File --> Open Recent`.
+   The interaction menu lets you choose a keymap preset
+   (by default, :guilabel:`Blender` or :guilabel:`Maya`) are available.
 
 
 To start using Blender, you have three options:

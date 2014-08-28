@@ -39,7 +39,7 @@ General Web-based Help Options
    Help menu
 
 
-- :doc:`Manual <>` - This is a link for the Official Blender Manual, in *Wiki* format, which you are now reading.
+- :doc:`This is a link for the Official Blender Manual </contents>`, in *Wiki* format, which you are now reading.
 - `Release Log <http://www.blender.org/development/release-logs/>`__ - The release notes on the Web for the current Blender version.
 - `Blender Website <http://www.blender.org/>`__ - The :guilabel:`blender.org` home page.
 - `Blender e-Shop <http://www.blender3d.org/e-shop/>`__ - The Blender e-Store, where you can buy Training DVD's, books, t-shirts and other products.

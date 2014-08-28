@@ -41,6 +41,7 @@ Cleanup:
 - ``FIXME(Link Type Unsupported: ...`` we have a lot of these, could automate fixes.
 - There are links into http://wiki.blender.org, these need to be corrected
 - Fix titles, allowing only one ``h1`` per file (clearer menu structure)
+- Some links to the ``changelog_`` should be setup to dynamic update to current Blender Version.
 
 
 .. code-block:: rst
