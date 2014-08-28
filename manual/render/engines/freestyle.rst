@@ -12,4 +12,4 @@ into stylized strokes using a set of programmable operators dedicated to style d
 Using Freestyle in Blender
 ==========================
 
-See :doc:`Here </render/freestyle>` for documentation on using Freestyle in Blender.
+See :doc:`Here </render/freestyle/index>` for documentation on using Freestyle in Blender.

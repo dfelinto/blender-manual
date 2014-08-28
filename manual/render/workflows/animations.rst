@@ -23,7 +23,7 @@ you are ready to make a final render of the complete animation for publication.
 
 There are two approaches you can use when making a movie, or animation, with or without sound.
 The approach you should use depends on the amount of CPU time you will need to render the movie
-(see :doc:`Render Performance </render/performance>`).
+(see :doc:`Render Performance </render/performance/index>`).
 You can render a "typical" frame at the desired resolution,
 and then multiply by the number of frames that will ultimately go into the movie, to arrive at an total render time.
 

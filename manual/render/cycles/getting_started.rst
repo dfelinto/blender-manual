@@ -15,7 +15,7 @@ GPU Rendering
 =============
 
 To see if and how you can use your GPU for rendering, see the documentation on
-:ref:`GPU Rendering </render-cycles-gpu_rendering>`.
+:doc:`GPU Rendering </render/cycles/gpu_rendering>`.
 
 
 Tutorials
