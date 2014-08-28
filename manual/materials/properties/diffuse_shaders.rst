@@ -31,7 +31,13 @@ All diffuse shaders have the following options:
 Technical Details
 =================
 
-Light striking a surface and then re-irradiated via a Diffusion phenomenon will be scattered, i.e., re-irradiated in all directions isotropically. This means that the camera will see the same amount of light from that surface point no matter what the *incident viewing angle* is. It is this quality that makes diffuse light *viewpoint independent*. Of course, the amount of light that strikes the surface depends on the incident light angle. If most of the light striking a surface is reflected diffusely, the surface will have a matte appearance (*Light re-irradiated in the diffusion phenomenon.*).
+Light striking a surface and then re-irradiated via a Diffusion phenomenon will be scattered, i.e.,
+re-irradiated in all directions isotropically. This means that the camera will see the same amount of light from that
+surface point no matter what the *incident viewing angle* is.
+It is this quality that makes diffuse light *viewpoint independent*. Of course,
+the amount of light that strikes the surface depends on the incident light angle.
+If most of the light striking a surface is reflected diffusely, the surface will have a matte appearance
+(*Light re-irradiated in the diffusion phenomenon.*).
 
 .. figure:: /images/Manual-Part-III-MatGen02.jpg
 

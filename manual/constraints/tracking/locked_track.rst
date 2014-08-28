@@ -7,7 +7,12 @@
 Locked Track Constraint
 ***********************
 
-The :guilabel:`Locked Track` constraint is a bit tricky to explain, both graphically and textually. Basically, it is a :doc:`Track To constraint </constraints/tracking/track_to>`, but with a locked axis, i.e. an axis that cannot rotate (change its orientation). Hence, the owner can only track its target by rotating around this axis, and unless the target is in the plane perpendicular to the locked axis, and crossing the owner, this owner cannot really point at its target.
+The :guilabel:`Locked Track` constraint is a bit tricky to explain, both graphically and textually.
+Basically, it is a :doc:`Track To constraint </constraints/tracking/track_to>`, but with a locked axis, i.e.
+an axis that cannot rotate (change its orientation). Hence,
+the owner can only track its target by rotating around this axis,
+and unless the target is in the plane perpendicular to the locked axis, and crossing the owner,
+this owner cannot really point at its target.
 
 Let's take the best real world equivalent: a compass.
 It can rotate to point in the general direction of its target (the magnetic North,

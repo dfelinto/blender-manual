@@ -13,7 +13,15 @@ Logic Bricks
 
 The main part of game logic can be set up through a graphical interface the
 :doc:`Logic Editor </game_engine/logic/editor>`, and therefore does not require detailed programming knowledge.
-Logic is set up as blocks (or "bricks") which represent preprogrammed functions; these can be tweaked and combined to create the game/application. There are three types of logic brick: :doc:`Sensors </game_engine/logic/sensors>`, :doc:`Controllers </game_engine/logic/controllers>` and :doc:`Actuators </game_engine/logic/actuators>`. Sensors are primitive event listeners, which are triggered by specific events, such as a collision, a key press or mouse movement. Controllers carry out logic operations on sensor output, and trigger connected actuators when their operating conditions are met. Actuators interact with the simulation directly, and are the only components in the game which are able to do so (other than the Python controller, and other simulation components such as Physics
+Logic is set up as blocks (or "bricks") which represent preprogrammed functions;
+these can be tweaked and combined to create the game/application. There are three types of logic brick:
+:doc:`Sensors </game_engine/logic/sensors>`,
+:doc:`Controllers </game_engine/logic/controllers>` and :doc:`Actuators </game_engine/logic/actuators>`.
+Sensors are primitive event listeners, which are triggered by specific events, such as a collision,
+a key press or mouse movement. Controllers carry out logic operations on sensor output,
+and trigger connected actuators when their operating conditions are met.
+Actuators interact with the simulation directly, and are the only components in the game which are able to do so
+(other than the Python controller, and other simulation components such as Physics
 
 
 Properties
@@ -25,5 +33,9 @@ Properties
 States
 ======
 
-Another useful feature is object :doc:`States </game_engine/logic/states>`. At any time while the simulation is running, the object will process any logic which belongs to the current state of the object. States can be used to define groups of behaviour - eg. an actor object may be "sleeping", "awake" or "dead", and its logic behavior may be different in each of these three states. The states of an object are set up, displayed and edited in the Controller logic bricks for the object.
-
+Another useful feature is object :doc:`States </game_engine/logic/states>`.
+At any time while the simulation is running,
+the object will process any logic which belongs to the current state of the object.
+States can be used to define groups of behaviour - eg. an actor object may be "sleeping", "awake" or "dead",
+and its logic behavior may be different in each of these three states. The states of an object are set up,
+displayed and edited in the Controller logic bricks for the object.

@@ -32,7 +32,15 @@ In Blender, the elements under your control which affect lighting are:
 - The render engine used (Blender Internal versus :doc:`Yafray </render/yafray>`).
 - The :doc:`lamps </lighting/lamps>` in your scene.
 
-The physics of light bouncing around in the real world is simulated by Ambient Occlusion (a world setting), buffer shadows (which approximate shadows being cast by objects), ray tracing (which traces the path of photons from a light source). Also, within Blender you can use :doc:`Indirect lighting </lighting/indirect_lighting>`. Ray tracing, ambient occlusion, and indirect lighting are computer-intensive processes. Blender can perform much faster rendering with its internal scan line renderer, which is a very good scan line renderer indeed. This kind of rendering engine is much faster since it does not try to simulate the real behavior of light, assuming many simplifying hypotheses.
+The physics of light bouncing around in the real world is simulated by Ambient Occlusion (a world setting),
+buffer shadows (which approximate shadows being cast by objects), ray tracing
+(which traces the path of photons from a light source). Also,
+within Blender you can use :doc:`Indirect lighting </lighting/indirect_lighting>`. Ray tracing, ambient occlusion,
+and indirect lighting are computer-intensive processes.
+Blender can perform much faster rendering with its internal scan line renderer,
+which is a very good scan line renderer indeed.
+This kind of rendering engine is much faster since it does not try to simulate the real behavior of light,
+assuming many simplifying hypotheses.
 
 
 Lighting Settings

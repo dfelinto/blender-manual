@@ -135,7 +135,13 @@ Order of the Modifier Stack
    Notice that the Armature Modifier before the Subsurf comes out much better in this case. Also, the Mirror before the Subsurf is clearly correct compared to the other way around.
 
 
-The :doc:`Evaluation order </modifiers/the_stack>` of Modifiers is often significant, but especially so in the case of the Subsurf. The key to deciding your Modifier stack order is to picture the changes at each step, perhaps by temporarily Apply'ing the Modifiers, or perhaps by simply tinkering with the order until things come out right. To see the file behind these screenshots, you can look at `Manual-Modifiers-Generate-Subsurf_OrderOfExecution.blend <http://wiki.blender.org/index.php/Media:Manual-Modifiers-Generate-Subsurf_OrderOfExecution.blend>`__.
+The :doc:`Evaluation order </modifiers/the_stack>` of Modifiers is often significant,
+but especially so in the case of the Subsurf.
+The key to deciding your Modifier stack order is to picture the changes at each step,
+perhaps by temporarily Apply'ing the Modifiers,
+or perhaps by simply tinkering with the order until things come out right. To see the file behind these screenshots,
+you can look at `Manual-Modifiers-Generate-Subsurf_OrderOfExecution.blend
+<http://wiki.blender.org/index.php/Media:Manual-Modifiers-Generate-Subsurf_OrderOfExecution.blend>`__.
 
 
 Control

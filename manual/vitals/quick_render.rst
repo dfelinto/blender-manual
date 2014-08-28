@@ -94,7 +94,11 @@ Output format and output file
    Output panel
 
 
-You can also choose an output format and the output location for your rendered image or animation. By default they are saved in a temporary folder (/tmp), using an absolute path. You can set up your file paths using instructions in the :doc:`File setup chapter </preferences/file>`; however you can change this to a different folder by clicking the folder icon in the :guilabel:`Output panel`. You can also choose the type of image or movie format for your work from the Menu Button.
+You can also choose an output format and the output location for your rendered image or animation.
+By default they are saved in a temporary folder (/tmp), using an absolute path.
+You can set up your file paths using instructions in the :doc:`File setup chapter </preferences/file>`;
+however you can change this to a different folder by clicking the folder icon in the :guilabel:`Output panel`.
+You can also choose the type of image or movie format for your work from the Menu Button.
 
 
 Saving your image

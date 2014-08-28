@@ -48,7 +48,13 @@ and then you will see the overall structure of a file: :guilabel:`Action`,
 Outliner and OOPS Schematic
 ***************************
 
-You can easily inspect the contents of your file by using the :guilabel:`Outliner` window. This window displays the Blender data system (:doc:`fully documented here </data_system/the_outliner>`). This window offers two views of the database. The :guilabel:`Outliner` view allows you to do simple operations on the objects. These operations include selecting, renaming, deleting and linking. The :guilabel:`OOPS Schematic` (Object-Oriented Programming System) view allows you to easily see how datablocks are linked. You can filter the view by using buttons found in the header.
+You can easily inspect the contents of your file by using the :guilabel:`Outliner` window.
+This window displays the Blender data system (:doc:`fully documented here </data_system/the_outliner>`).
+This window offers two views of the database.
+The :guilabel:`Outliner` view allows you to do simple operations on the objects. These operations include selecting,
+renaming, deleting and linking. The :guilabel:`OOPS Schematic` (Object-Oriented Programming System)
+view allows you to easily see how datablocks are linked.
+You can filter the view by using buttons found in the header.
 
 
 Users (Sharing)

@@ -75,7 +75,12 @@ Crease SubSurf
    | Hotkey:   :kbd:`shift-E`
 
 
-This edge property (a value between **0.0** and **1.0**) is used by the :doc:`Subsurf modifier </modifiers/generate/subsurf>` to control the sharpness of the edges in the subdivided mesh. This command enters an interactive mode (a bit like transform tools), where by moving the mouse (or typing a value with the keyboard) you can set the (average) crease value of selected edges. To clear the crease edge property, enter a value of **-1**.
+This edge property (a value between **0.0** and **1.0**) is used by the
+:doc:`Subsurf modifier </modifiers/generate/subsurf>` to control the sharpness of the edges in the subdivided mesh.
+This command enters an interactive mode (a bit like transform tools),
+where by moving the mouse (or typing a value with the keyboard) you can set the (average)
+crease value of selected edges.
+To clear the crease edge property, enter a value of **-1**.
 
 
 Edge Slide

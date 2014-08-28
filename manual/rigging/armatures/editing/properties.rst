@@ -17,7 +17,13 @@ FIXME(TODO: Internal Link;
 Transforming Bones
 ==================
 
-We won't detail here the various transformations of bones, nor things like axis locking, pivot points, and so on, as they are common to most object editing, and already described :doc:`here </3d_interaction/transform_control>` (note however that some options, like snapping, do not seem to work, even though they are available...). The same goes for mirroring, as it's nearly the same as with :doc:`mesh editing </modeling/meshes/tools/transform_deform#mirror>`. Just keep in mind that bones' roots and tips behave more or less like meshes' vertices, and bones themselves act like edges in a mesh.
+We won't detail here the various transformations of bones, nor things like axis locking, pivot points, and so on,
+as they are common to most object editing, and already described :doc:`here </3d_interaction/transform_control>`
+(note however that some options, like snapping, do not seem to work, even though they are available...).
+The same goes for mirroring,
+as it's nearly the same as with :doc:`mesh editing </modeling/meshes/tools/transform_deform#mirror>`.
+Just keep in mind that bones' roots and tips behave more or less like meshes' vertices,
+and bones themselves act like edges in a mesh.
 
 As you know, bones can have two types of relationships: They can be parented,
 and in addition connected. Parented bones behave in :guilabel:`Edit` mode exactly as if they
@@ -48,7 +54,12 @@ Radius and Scaling in Envelope Visualization
    | Hotkey:   :kbd:`S`
 
 
-When bones are displayed using :guilabel:`Octahedron`, :guilabel:`Stick` or :guilabel:`B-Bone` visualizations, scaling will behave as expected, similar to scaling mesh objects. When bones are displayed using :guilabel:`Envelope` visualization, scaling will have a different effect: it will scale the radius of the selected bones's ends. (see: :doc:`skinning part </rigging/skinning>`). As you control only one value (the radius), there is no axis locking here. And as usual, with connected bones, you scale at the same time the radius of the parent's tip and of the children's roots.
+When bones are displayed using :guilabel:`Octahedron`, :guilabel:`Stick` or :guilabel:`B-Bone` visualizations,
+scaling will behave as expected, similar to scaling mesh objects.
+When bones are displayed using :guilabel:`Envelope` visualization, scaling will have a different effect:
+it will scale the radius of the selected bones's ends. (see: :doc:`skinning part </rigging/skinning>`).
+As you control only one value (the radius), there is no axis locking here. And as usual, with connected bones,
+you scale at the same time the radius of the parent's tip and of the children's roots.
 
 
 +------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------+
@@ -264,7 +275,12 @@ so you can't visualize the effects of these settings.
 
 We saw in :doc:`this page </rigging/armatures/bones>` that bones are made of small rigid segments mapped to a "virtual" Bézier curve. The :guilabel:`Segm` numeric field allows you to set the number of segments inside a given bone - by default, it is **1**, which gives a standard rigid bone! The higher this setting (max **32**), the smoother the bone, but the heavier the pose calculations...
 
-Each bone's ends are mapped to its "virtual" Bézier curve's :doc:`"auto" </modeling/curves#editing_bezier_curves>` handle. Therefore, you can't control their direction, but you can change their "length" using the :guilabel:`In` and :guilabel:`Out` numeric fields, to control the "root handle" and "tip handle" of the bone, respectively. These values are proportional to the default length, which of course automatically varies depending on bone length, angle with previous/next bones in the chain, and so on.
+Each bone's ends are mapped to its "virtual" Bezier curve's :doc:`"auto" </modeling/curves#editing_bezier_curves>`
+handle. Therefore, you can't control their direction,
+but you can change their "length" using the :guilabel:`In` and :guilabel:`Out` numeric fields,
+to control the "root handle" and "tip handle" of the bone, respectively.
+These values are proportional to the default length, which of course automatically varies depending on bone length,
+angle with previous/next bones in the chain, and so on.
 
 
 +--------------------------------------------------------------------------------------------------+----------------------------------------------------------------+-----------------------------------------------+

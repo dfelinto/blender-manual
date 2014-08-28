@@ -214,7 +214,11 @@ then by selecting :guilabel:`Pin` from the :guilabel:`UVs` menu,
 or the shortcut :kbd:`P`.
 You can :guilabel:`Unpin a UV` with the shorctut :kbd:`Alt-P`
 
-Pinning is most effective when using the Unwrap method of UV mapping, for organic objects. An example is when you are modeling a symmetrical object using the :doc:`Mirror Modifier </modifiers/generate/mirror>`. Some of the UVs on the mirror axis may be shared across the mirrored counterparts. You could pin the UVs that correspond to the midline, then align them on the X axis, and they will stay in that location.
+Pinning is most effective when using the Unwrap method of UV mapping, for organic objects.
+An example is when you are modeling a symmetrical object using the :doc:`Mirror Modifier </modifiers/generate/mirror>`.
+Some of the UVs on the mirror axis may be shared across the mirrored counterparts.
+You could pin the UVs that correspond to the midline, then align them on the X axis,
+and they will stay in that location.
 
 Pinning also work great with the Live Unwrap tool. If you pin two or more UVs,
 with Live Unwrap on, dragging pinned UVs will interactively unwrap the model.

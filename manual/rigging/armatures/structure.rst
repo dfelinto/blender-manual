@@ -9,7 +9,12 @@ Armature Structure
    The very basic armature of the :doc:`Gingerbread Man tutorial </your_first_animation/2.animating_the_gingerbread_man>`.
 
 
-Armatures mimic real skeletons. They are made out of bones, which are (by default) rigid elements. But you have more possibilities than with real skeletons: In addition to the "natural" rotation of bones, you can also translate and even scale them! And your bones do not have to be connected to each other; they can be completely free if you want. However, the most natural and useful setups imply that some bones are related to others, forming so-called "chains of bones", which create some sort of "limbs" in your armature, as detailed
+Armatures mimic real skeletons. They are made out of bones, which are (by default) rigid elements.
+But you have more possibilities than with real skeletons: In addition to the "natural" rotation of bones,
+you can also translate and even scale them! And your bones do not have to be connected to each other;
+they can be completely free if you want. However,
+the most natural and useful setups imply that some bones are related to others, forming so-called "chains of bones",
+which create some sort of "limbs" in your armature, as detailed
 FIXME(TODO: Internal Link;
 [[#Chains of Bones|below]]
 ).
@@ -44,13 +49,18 @@ The bone at the beginning of a chain is called its *root bone*,
 and the last bone of a chain is the *tip bone*
 (don't confuse them with similar names of bones' ends!).
 
-Chains of bones are a particularly important topic in :doc:`posing </rigging/posing>` (especially with the standard *forward kinematics* versus "automatic" *inverse kinematics* posing techniques). You create/edit them in :guilabel:`Edit` mode, but except in case of connected bones, their relationships have no effect on bone transformations in this mode (i.e. transforming a parent bone won't affect its children).
+Chains of bones are a particularly important topic in :doc:`posing </rigging/posing>`
+(especially with the standard *forward kinematics* versus "automatic" *inverse kinematics* posing techniques).
+You create/edit them in :guilabel:`Edit` mode, but except in case of connected bones,
+their relationships have no effect on bone transformations in this mode
+(i.e. transforming a parent bone won't affect its children).
 
 
 Editing Bones Relationships
 ---------------------------
 
-This is detailed in the :doc:`editing pages </rigging/armatures/editing/properties#chain_editing>`, but let us have a quick look at this important feature.
+This is detailed in the :doc:`editing pages </rigging/armatures/editing/properties#chain_editing>`,
+but let us have a quick look at this important feature.
 
 
 .. figure:: /images/Man2.5RiggingEditingBoneCxtRelationsPanel.jpg

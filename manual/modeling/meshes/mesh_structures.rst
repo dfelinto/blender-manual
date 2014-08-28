@@ -77,14 +77,21 @@ Loops
    Edge and Face Loops
 
 
-:guilabel:`Edge` and :guilabel:`Face Loops` are sets of faces or edges that form continuous "loops" as shown in (*Edge and Face Loops*). The top row (``1`` -\ ``4``) shows a solid view, the bottom row (``5`` -\ ``8``) a wireframe view of the same loops.
+:guilabel:`Edge` and :guilabel:`Face Loops` are sets of faces or edges that form continuous "loops" as shown in
+(*Edge and Face Loops*). The top row (``1`` -\ ``4``) shows a solid view,
+the bottom row (``5`` -\ ``8``) a wireframe view of the same loops.
 
 Note that loops ``2`` and ``4`` do not go around the whole model.
 Loops stop at so called poles because there is no unique way to continue a loop from a pole.
 Poles are vertices that are connected to either three, five, or more edges. Accordingly,
 vertices connected to exactly one, two or four edges are not poles.
 
-In the image above, loops that do not end in poles are cyclic (``1`` and ``3``).  They start and end at the same vertex and divide the model into two partitions.  Loops can be a quick and powerful tool to work with specific, continuous regions of a mesh and are a prerequisite for organic character animation.  For a detailed description of how to work with loops in Blender, please refer to the Manual page on :doc:`Edge and Face Tools </modeling/meshes/selection#advanced_selection_tools>`.
+In the image above, loops that do not end in poles are cyclic (``1`` and ``3``).
+They start and end at the same vertex and divide the model into two partitions.
+Loops can be a quick and powerful tool to work with specific,
+continuous regions of a mesh and are a prerequisite for organic character animation.
+For a detailed description of how to work with loops in Blender,
+please refer to the Manual page on :doc:`Edge and Face Tools </modeling/meshes/selection#advanced_selection_tools>`.
 
 
 Edge Loops

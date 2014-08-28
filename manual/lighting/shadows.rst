@@ -43,7 +43,12 @@ where multiple things have to be set up in different areas to get results:
 - Another object's material has to receive shadows (:guilabel:`Shadow` and :guilabel:`Receive Transparent` enabled).
 - The render engine has to calculate shadows (:guilabel:`Shadow` for buffered shadows, :guilabel:`Shadow` and :guilabel:`Ray` for ray-traced shadows).
 
-For example, the simple :guilabel:`Lamp`, :guilabel:`Area`, and :guilabel:`Sun` light has the ability to cast ray shadows, but not buffer shadows. The :guilabel:`Spot` light can cast both, whereas the :guilabel:`Hemi` light does not cast any. If a :guilabel:`Sun` lamp is pointing sideways, it will not cast a shadow from a sphere above a plane onto the plane, since the light is not traveling that way. All lamps able to cast shadows share some common options, described :doc:`here </lighting/shadows/properties>`.
+For example, the simple :guilabel:`Lamp`, :guilabel:`Area`,
+and :guilabel:`Sun` light has the ability to cast ray shadows, but not buffer shadows.
+The :guilabel:`Spot` light can cast both, whereas the :guilabel:`Hemi` light does not cast any.
+If a :guilabel:`Sun` lamp is pointing sideways, it will not cast a shadow from a sphere above a plane onto the plane,
+since the light is not traveling that way. All lamps able to cast shadows share some common options,
+described :doc:`here </lighting/shadows/properties>`.
 
 Just to give you more shadow options (and further confuse the issue),
 lamps and materials can be set to respectively **only** cast and receive shadows,

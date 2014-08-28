@@ -5,7 +5,12 @@ Displacement Maps
 Description
 -----------
 
-Displacement mapping allows a texture input to manipulate the position of vertices on rendered geometry. Unlike :doc:`Normal or Bump mapping </textures/influence/material/bump_and_normal>`, where the shading is distorted to give an illusion of a bump (discussed on the previous page), Displacement Maps create real bumps, creases, ridges, etc in the actual mesh. Thus, the mesh deformations can cast shadows, occlude other objects, and do everything that changes in real geometry can do, but, on the other hand, requires a lot more vertices to work.
+Displacement mapping allows a texture input to manipulate the position of vertices on rendered geometry.
+Unlike :doc:`Normal or Bump mapping </textures/influence/material/bump_and_normal>`,
+where the shading is distorted to give an illusion of a bump (discussed on the previous page),
+Displacement Maps create real bumps, creases, ridges, etc in the actual mesh. Thus,
+the mesh deformations can cast shadows, occlude other objects,
+and do everything that changes in real geometry can do, but, on the other hand, requires a lot more vertices to work.
 
 
 Options
@@ -13,8 +18,14 @@ Options
 
 In the :doc:`Influence panel </textures/influence/material>`, the strength of the displacement is controlled by the :guilabel:`Displace` and :guilabel:`Normal` sliders.
 
-- If a texture provides only normal information (e.g. :guilabel:`Stucci`), vertices move according to the texture's normal data. The normal displacement is controlled by the :guilabel:`Normal` slider.
-- If a texture provides only intensity information (e.g. :guilabel:`Magic`, derived from color), vertices move along the directions of their normals (a vertex has no normal itself, it's the resulting vector of the adjacent faces). White pixels move outward in the direction of the normal, black pixels move in the opposite direction. The amount of displacement is controlled with the :guilabel:`Displace` slider.
+- If a texture provides only normal information (e.g. :guilabel:`Stucci`),
+  vertices move according to the texture's normal data.
+  The normal displacement is controlled by the :guilabel:`Normal` slider.
+- If a texture provides only intensity information (e.g. :guilabel:`Magic`, derived from color),
+  vertices move along the directions of their normals (a vertex has no normal itself,
+  it's the resulting vector of the adjacent faces). White pixels move outward in the direction of the normal,
+  black pixels move in the opposite direction.
+  The amount of displacement is controlled with the :guilabel:`Displace` slider.
 
 The two modes are not exclusive. Many texture types provide both information
 (:guilabel:`Clouds`, :guilabel:`Wood`, :guilabel:`Marble`, :guilabel:`Image`).

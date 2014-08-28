@@ -253,7 +253,10 @@ You can try using a `Soft Body <http://wiki.blender.org/index.php/User:Sculptorj
 Actions
 -------
 
-To use an `Action Actuator <http://wiki.blender.org/index.php/User:Sculptorjim/Game_Engine/Logic/Actuators/Action>`__ to do the deformation, you have to make a choice. If you use Shapekeys in the Action, you will be fine as far as the overall collisions (but see below for the note on ``reinstancePhysicsMesh()``). The mesh itself is both a display and a physics mesh, so there is not much to configure.
+To use an `Action Actuator <http://wiki.blender.org/index.php/User:Sculptorjim/Game_Engine/Logic/Actuators/Action>`__
+to do the deformation, you have to make a choice. If you use Shapekeys in the Action,
+you will be fine as far as the overall collisions (but see below for the note on ``reinstancePhysicsMesh()``).
+The mesh itself is both a display and a physics mesh, so there is not much to configure.
 
 To use an Armature as the deformer will require a bit of extra thought and effort.
 Basically the Armature will only deform a mesh if the Armature is the parent of that mesh.
@@ -289,7 +292,10 @@ since it will be getting the mesh data from ``viz``.
 Ragdolls
 --------
 
-A third option is to create your items out of many sub-objects, connected together with Rigid Body Joints or similar. This can be quite a bit more work, but the results can be much more like a realistic response to collisions. For an Addon that can help you out in the process, check out the `Blender Ragdoll Implementation Kit <http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Game_Engine/BRIK_ragdolls>`__.
+A third option is to create your items out of many sub-objects, connected together with Rigid Body Joints or similar.
+This can be quite a bit more work, but the results can be much more like a realistic response to collisions.
+For an Addon that can help you out in the process, check out the
+`Blender Ragdoll Implementation Kit <http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Game_Engine/BRIK_ragdolls>`__.
 
 
 Digging Deeper

@@ -43,7 +43,11 @@ say, you want to press Ctrl A when operating, but the Ctrl S is pressed,
 then you can just move your mouse cursor out of the pop-up,
 the accidental saving operation will be canceled.)
 
-Depending on the number of :doc:`Save Versions </vitals/undo_and_redo#save_and_auto_save>` you have set, all existing files with the same name will be rotated to a ``.blend`` *n* file extension, where *n* is ``1``, ``2``, ``3``, etc. So, if you were working on ``MyWork.blend``, and saved it, the existing ``MyWork.blend`` is renamed to ``MyWork.blend1``, and a new ``MyWork.blend`` is saved. This way, you have hot backups of old saved versions that you can open if you need to massively undo changes.
+Depending on the number of :doc:`Save Versions </vitals/undo_and_redo#save_and_auto_save>` you have set,
+all existing files with the same name will be rotated to a ``.blend`` *n* file extension,
+where *n* is ``1``, ``2``,``3``, etc. So, if you were working on ``MyWork.blend``, and saved it,
+the existing ``MyWork.blend`` is renamed to ``MyWork.blend1``, and a new ``MyWork.blend`` is saved. This way,
+you have hot backups of old saved versions that you can open if you need to massively undo changes.
 
 
 Save Options

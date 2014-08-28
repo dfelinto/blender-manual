@@ -34,7 +34,12 @@ in that all cloth is assumed to have the same density, or mass per square unit.
 
 Cloth is commonly modeled as a mesh grid primitive, or a cube, but can also be, for example, a teddy bear. However, Blender's :doc:`Softbody system </physics/soft_body>` provides better simulation of closed meshes; Cloth is a specialized simulation of fabrics.
 
-Once the object is designated as Cloth, a Cloth :doc:`modifier </modifiers>` will be added to the object's modifier stack automatically. As a :doc:`modifier </modifiers>` then, it can interact with other modifiers, such as :guilabel:`Armature` and :guilabel:`Smooth`. In these cases, the ultimate shape of the mesh is computed in accordance with the order of the modifier stack. For example, you should smooth the cloth *after* the modifier computes the shape of the cloth.
+Once the object is designated as Cloth,
+a Cloth :doc:`modifier </modifiers>` will be added to the object's modifier stack automatically.
+As a :doc:`modifier </modifiers>` then, it can interact with other modifiers,
+such as :guilabel:`Armature` and :guilabel:`Smooth`. In these cases,
+the ultimate shape of the mesh is computed in accordance with the order of the modifier stack. For example,
+you should smooth the cloth *after* the modifier computes the shape of the cloth.
 
 So you edit the Cloth settings in two places: use the F7 Physics buttons to edit the
 properties of the cloth and use the Modifier stack to  edit the Modifier properties related to

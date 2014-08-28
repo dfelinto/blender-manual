@@ -4,9 +4,18 @@
 Posing
 ******
 
-Once your armature is :doc:`skinned </rigging/skinning>` by the needed object(s), you can start to pose it. Basically, by transforming its bones, you deform or transform the skin object(s). But you don't do that in :guilabel:`Edit` mode - remember that in this mode, you edit *the default, base, "rest" position of your armature*. You can't use the :guilabel:`Object` mode either, as here you can only transform whole objects...
+Once your armature is :doc:`skinned </rigging/skinning>` by the needed object(s), you can start to pose it.
+Basically, by transforming its bones, you deform or transform the skin object(s).
+But you don't do that in :guilabel:`Edit` mode - remember that in this mode, you edit *the default, base,
+"rest" position of your armature*. You can't use the :guilabel:`Object` mode either,
+as here you can only transform whole objects...
 
-So, armatures in Blender have a third mode, :guilabel:`Pose`, dedicated to this process. It's a sort of "object mode for bones". In rest position (as edited in :guilabel:`Edit` mode), each bone has its own position/rotation/scale to neutral values (i.e. **0.0** for position and rotation, and **1.0** for scale). Hence, when you edit a bone in :guilabel:`Pose` mode, you create an offset in its transform properties, from its rest position - this is quite similar to :doc:`meshes' relative shape keys </animation/techs/shape/shape_keys>`, in fact.
+So, armatures in Blender have a third mode, :guilabel:`Pose`, dedicated to this process.
+It's a sort of "object mode for bones". In rest position (as edited in :guilabel:`Edit` mode),
+each bone has its own position/rotation/scale to neutral values (i.e. **0.0** for position and rotation, and **1.
+0** for scale). Hence, when you edit a bone in :guilabel:`Pose` mode,
+you create an offset in its transform properties, from its rest position - this is quite similar to :doc:`meshes'
+relative shape keys </animation/techs/shape/shape_keys>`, in fact.
 
 
 Posing Section Overview

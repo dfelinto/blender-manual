@@ -7,7 +7,13 @@ be applied interactively and non-destructively in just about any order the users
 kind of functionality is often referred to as a "modifier stack" and is found in several other
 3D applications.
 
-Modifiers are added from the :guilabel:`Modifiers` menu.  Some tools and scripts, for example :guilabel:`Decimate` and :guilabel:`Solidify`, have been migrated from its previous location and changed into a modifier.  In a modifier stack the order in which modifiers are applied has an effect on the result. Fortunately modifiers can be rearranged easily by clicking the convenient up and down arrow icons. For example, (*Stack ordering*) shows :doc:`SubSurf </modifiers/generate/subsurf>` and :doc:`Mirror </modifiers/generate/mirror>` modifiers that have switched places.
+Modifiers are added from the :guilabel:`Modifiers` menu.
+Some tools and scripts, for example :guilabel:`Decimate` and :guilabel:`Solidify`,
+have been migrated from its previous location and changed into a modifier.
+In a modifier stack the order in which modifiers are applied has an effect on the result.
+Fortunately modifiers can be rearranged easily by clicking the convenient up and down arrow icons.
+For example, (*Stack ordering*) shows :doc:`SubSurf </modifiers/generate/subsurf>` and
+:doc:`Mirror </modifiers/generate/mirror>` modifiers that have switched places.
 
 
 +---------------------------------------------------------------+---------------------------------------------------------------+

@@ -12,7 +12,12 @@ Modifiers
    | Panel:    :guilabel:`Modifiers`
 
 
-Modifiers are automatic operations that affect an object in a non-destructive way. With modifiers, you can perform many effects automatically that would otherwise be tedious to do manually (such as subdivision surfaces) and without affecting the base topology of your object. Modifiers work by changing how an object is displayed and rendered, but not the actual object geometry.  You can add several modifiers to a single object to form a :doc:`Modifier Stack </modifiers/the_stack>` and you can :guilabel:`Apply` a modifier if you wish to make its changes permanent.
+Modifiers are automatic operations that affect an object in a non-destructive way. With modifiers,
+you can perform many effects automatically that would otherwise be tedious to do manually
+(such as subdivision surfaces) and without affecting the base topology of your object.
+Modifiers work by changing how an object is displayed and rendered, but not the actual object geometry.
+You can add several modifiers to a single object to form a :doc:`Modifier Stack </modifiers/the_stack>` and you can
+:guilabel:`Apply` a modifier if you wish to make its changes permanent.
 
 
 .. figure:: /images/25-Manual-Modifiers-menu.jpg

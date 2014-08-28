@@ -48,7 +48,12 @@ Control Point Row
    | Hotkey:   :kbd:`shift-R`
 
 
-This option works a bit like :doc:`edge loop selection </modeling/meshes/selecting#edge_loop_selection>` for meshes, inasmuch it selects a whole :doc:`row </modeling/surfaces#control_points,_rows_and_grid>` of control points, based on the active (the last selected) one. The first time you hit :kbd:`shift-R`, the V-row passing through (containing) the active point will be *added to the current selection*. If you use again this shortcut, you will toggle between the U- and V-row of this point, *removing everything else from the selection*.
+This option works a bit like :doc:`edge loop selection </modeling/meshes/selecting#edge_loop_selection>` for meshes,
+inasmuch it selects a whole :doc:`row </modeling/surfaces#control_points,_rows_and_grid>` of control points,
+based on the active (the last selected) one. The first time you hit :kbd:`shift-R`,
+the V-row passing through (containing) the active point will be *added to the current selection*.
+If you use again this shortcut, you will toggle between the U- and V-row of this point,
+*removing everything else from the selection*.
 
 
 More and Less
@@ -122,7 +127,11 @@ NURBS Control Points Settings
    | Panel:    :guilabel:`Curve Tools` (:guilabel:`Editing` context, :kbd:`F9`), and :guilabel:`Transform Properties`
 
 
-We saw in a :doc:`previous page </modeling/surfaces#weight>` that NURBS control points have a weight, which is the influence of this point on the surface. You set it either using the big :guilabel:`Set Weight` button in the :guilabel:`Curve Tools` panel (after having defined the weight in the numeric field to the right), or by directly typing a value in the :guilabel:`W` numeric field of the :guilabel:`Transform Properties` panel.
+We saw in a :doc:`previous page </modeling/surfaces#weight>` that NURBS control points have a weight,
+which is the influence of this point on the surface.
+You set it either using the big :guilabel:`Set Weight` button in the :guilabel:`Curve Tools` panel
+(after having defined the weight in the numeric field to the right),
+or by directly typing a value in the :guilabel:`W` numeric field of the :guilabel:`Transform Properties` panel.
 
 
 Adding or Extruding
@@ -136,7 +145,11 @@ Adding or Extruding
    | Hotkey:   :kbd:`E` (or :kbd:`ctrl-lmb`)
 
 
-Unlike meshes or curves, you cannot generally directly add new control points to a surface (with :kbd:`ctrl-lmb` clicks), as you can only extend a surface by adding a whole U- or V-row at once. The only exception is when working on a NURBS surface curve, i.e. a surface with only one control point on each U- or V-row. In this special case, all works exactly as with :doc:`curves </modeling/curves/editing#adding_new_segments>`.
+Unlike meshes or curves, you cannot generally directly add new control points to a surface
+(with :kbd:`ctrl-lmb` clicks), as you can only extend a surface by adding a whole U- or V-row at once.
+The only exception is when working on a NURBS surface curve, i.e.
+a surface with only one control point on each U- or V-row. In this special case,
+all works exactly as with :doc:`curves </modeling/curves/editing#adding_new_segments>`.
 
 Most of the time, only extrusion is available. As usual, once the tool is activated the
 extrusion happens immediately and you are placed into :guilabel:`Grab mode`,
@@ -420,14 +433,21 @@ using the surface resolutions in both directions to create faces, edges and vert
 Retopology
 ==========
 
-Snapping surface components is the same as is with meshes and curves. See :doc:`Retopology </modeling/meshes/editing/retopo>` for more information.
+Snapping surface components is the same as is with meshes and curves.
+See :doc:`Retopology </modeling/meshes/editing/retopo>` for more information.
 
 
 Misc Editing
 ============
 
-You have some of the same options as with meshes, or in :guilabel:`Object` mode. You can :doc:`separate </modeling/objects/groups_and_parenting#separating_objects>` a given surface (:kbd:`P`), make other selected objects :doc:`children </modeling/objects/groups_and_parenting#parenting_objects>` of one or three control points (:kbd:`ctrl-P` - note however that parenting to three control points has a strange behavior with curves...), or :doc:`add hooks </modifiers/deform/hooks>` to control some points with other objects.
+You have some of the same options as with meshes, or in :guilabel:`Object` mode.
+You can :doc:`separate </modeling/objects/groups_and_parenting#separating_objects>` a given surface (:kbd:`P`),
+make other selected objects :doc:`children </modeling/objects/groups_and_parenting#parenting_objects>`
+of one or three control points
+(:kbd:`ctrl-P` - note however that parenting to three control points has a strange behavior with curves...),
+or :doc:`add hooks </modifiers/deform/hooks>` to control some points with other objects.
 
-The :guilabel:`Mirror` tool is also available, behaving exactly as with :doc:`mesh vertices </modeling/meshes/tools#mirror>`.
+The :guilabel:`Mirror` tool is also available, behaving exactly as with
+:doc:`mesh vertices </modeling/meshes/tools#mirror>`.
 
 

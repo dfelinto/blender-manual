@@ -406,15 +406,29 @@ See figure 22.
 Armature Deform With Automatic Weights
 ======================================
 
-Armature Deform With Automatic Weights parenting feature does everything Armature Deform With Empty Groups does with one extra thing.  That extra thing is that unlike Armature Deform With Empty Groups which leaves the automatically created Vertex Groups empty with no vertices assigned to them;  Armature Deform With Automatic Weight will try to calculate how much Influence Weight a particular Armature Bone would have on a certain collection of vertices based on the distance from those vertices to a particular Armature Bone.
+Armature Deform With Automatic Weights parenting feature does everything Armature Deform With Empty Groups does with
+one extra thing.  That extra thing is that unlike Armature Deform With Empty Groups which leaves the automatically
+created Vertex Groups empty with no vertices assigned to them;  Armature Deform With Automatic Weight will try to
+calculate how much Influence Weight a particular Armature Bone would have on a certain collection of vertices based
+on the distance from those vertices to a particular Armature Bone.
 
-Once Blender has calculated the Influence Weight vertices should have it will assign that Influence Weight to the Vertex Groups that were previously created automatically by Blender on the Child Object when Armature Deform With Automatic Weights parenting command was carried out.
+Once Blender has calculated the Influence Weight vertices should have it will assign that Influence Weight to the
+Vertex Groups that were previously created automatically by Blender on the Child Object when Armature Deform With
+Automatic Weights parenting command was carried out.
 
-If all went well it should be possible to select the Armature Object switch it into Pose Mode and transform the bones of the Armature and the Child Object should deform in response.  Unlike Armature Deform parenting you won't have to create Vertex Groups on the Child Object, neither will you have to assign Influences Weights to those Vertex Groups, Blender will try to do it for you.
+If all went well it should be possible to select the Armature Object switch it into Pose Mode and transform the bones
+of the Armature and the Child Object should deform in response.
+Unlike Armature Deform parenting you won't have to create Vertex Groups on the Child Object,
+neither will you have to assign Influences Weights to those Vertex Groups, Blender will try to do it for you.
 
 To activate Armature Deform With Automatic Weights you must be in Object Mode or Pose Mode, then select all the Child Objects (usually Mesh Object Types) and lastly select the Armature Object;  Once done press :kbd:`CTRL-P` and select the Armature Deform With Automatic Weights from the Set Parent To popup dialog.
 
-This method of parenting is certainly easier setup but it can often lead to Armatures which do not deform Child Objects in ways you would want, as Blender can get a little confused when it comes to determining which Bones should influence certain vertices when calculating Influence Weights for more complex armatures and Child Objects.  Symptoms of this confusion are that when transforming the Armature Object in Pose Mode parts of the Child Objects don't deform as you expect; If Blender does not give you the results you require you will have to manually alter the Influence Weights of vertices in relation to the Vertex Groups they belong to and have influence in.
+This method of parenting is certainly easier setup but it can often lead to Armatures which do not deform Child
+Objects in ways you would want, as Blender can get a little confused when it comes to determining which Bones should
+influence certain vertices when calculating Influence Weights for more complex armatures and Child Objects.  Symptoms
+of this confusion are that when transforming the Armature Object in Pose Mode parts of the Child Objects don't deform
+as you expect; If Blender does not give you the results you require you will have to manually alter the Influence
+Weights of vertices in relation to the Vertex Groups they belong to and have influence in.
 
 You can easily check how much Influence Weight an Armature Bone has over vertices in 2 ways:
 
@@ -470,7 +484,10 @@ When Weight Paint Mode is used on a Mesh Object which is also the Child Object o
    Figure 26 - 3 Bone Armature with a Child Object mesh showing different Weight Paint states when different bones are selected in Pose Mode.
 
 
-In Weight Paint Mode often you will find that the Armature Bones are obscured from view making them difficult to select;  If this happens make sure that only the Armature Object is selected then navigate to [Properties Editor > Object Data Context > Display Panel] and make sure to enable the X-Ray tickable option.  This will ensure that the Armature Bones are always visible even when Weight Paint Mode is active and a bone is inside a mesh.  See figure 27.
+In Weight Paint Mode often you will find that the Armature Bones are obscured from view making them difficult to
+select;  If this happens make sure that only the Armature Object is selected then navigate to [Properties Editor >
+Object Data Context > Display Panel] and make sure to enable the X-Ray tickable option.  This will ensure that the
+Armature Bones are always visible even when Weight Paint Mode is active and a bone is inside a mesh.  See figure 27.
 
 
 .. figure:: /images/TM-PropertiesEditor-ObjectData-DisplayPanel-XRayOption.jpg
@@ -775,7 +792,10 @@ Hints
    Outliner view
 
 
-There is another way to see the parent-child relationship in groups and that is to use the :guilabel:`Outliner` view of the :doc:`Outliner window </data_system/the_outliner>`. Image (:guilabel:`Outliner` *view*) is an example of what the :guilabel:`Outliner` view looks like for the (*Parenting Example*). Cube "\ ``A`` "'s object name is "\ ``Cube_Parent`` " and cube "\ ``B`` " is "\ ``Cube_Child`` ".
+There is another way to see the parent-child relationship in groups and that is to use the :guilabel:`Outliner` view
+of the :doc:`Outliner window </data_system/the_outliner>`. Image (:guilabel:`Outliner` *view*)
+is an example of what the :guilabel:`Outliner` view looks like for the (*Parenting Example*).
+Cube "\ ``A`` "'s object name is "\ ``Cube_Parent`` " and cube "\ ``B`` " is "\ ``Cube_Child`` ".
 
 
 Separating Objects
