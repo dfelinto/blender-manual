@@ -5,7 +5,7 @@ Displaying and Saving Images
 After you have adjusted your render settings,
 in regards to :doc:`Quality </render/options>` and :doc:`Format </render/output>`,
 you will need to actually render the image. Rendering still images is fairly simple.
-:doc:`Rendering Animations </render/animations>` is a bit more complex and is covered in the next sections.
+:doc:`Rendering Animations </render/workflows/animations>` is a bit more complex and is covered in the next sections.
 
 To render an image from the active camera, in the Render Panel, hit the big Image button.
 By default the 3D view is replaced with the UV/Image Editor and the render appears.

@@ -62,7 +62,7 @@ protrusions) you put in, the more detailed your map will be.
 
 Baking a map, simply put, is to take the detail of a high polygon mesh, and apply it to a similar object.
 The similar object is identical to the high-poly mesh except with less vertices.
-Use the :doc:`Render Bake <render/bake>` feature in Blender to accomplish this.
+Use the :doc:`Render Bake <render/workflows/bake>` feature in Blender to accomplish this.
 
 
 Modeling a low-poly using Blender's Mesh editing tools. In general,

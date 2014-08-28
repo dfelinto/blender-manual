@@ -27,10 +27,10 @@ Dimensions
    Enabling :guilabel:`Crop` will crop the rendered image to the :guilabel:`Border` size, instead of rendering a black region around it.
 
 :guilabel:`Frame Range`
-   Set the :guilabel:`Start` and :guilabel:`End` frames for :doc:`Rendering Animations </render/animations>`. :guilabel:`Step` controls the number of frames to advance by for each frame in the timeline.
+   Set the :guilabel:`Start` and :guilabel:`End` frames for :doc:`Rendering Animations </render/workflows/animations>`. :guilabel:`Step` controls the number of frames to advance by for each frame in the timeline.
 
 :guilabel:`Frame Rate`
-   For an :doc:`Animation </render/animations>` the frame rate, or how many frames will be displayed per second, which, by default, is 24 frames per second, the standard for animation. Use 29.97 frames per second for USA television.
+   For an :doc:`Animation </render/workflows/animations>` the frame rate, or how many frames will be displayed per second, which, by default, is 24 frames per second, the standard for animation. Use 29.97 frames per second for USA television.
 
 :guilabel:`Time Remapping`
    Use to remap the length of an animation.

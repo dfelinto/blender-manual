@@ -108,9 +108,9 @@ Render Settings
   - Render at a percentage size of your final resolution (like 25%).
   - Turn off :guilabel:`Fields` rendering.
   - Use :guilabel:`Border` rendering to render a subset of the full image.
-- :doc:`Anim Panel </render/animations>`
+- :doc:`Anim Panel </render/workflows/animations>`
   - Decrease the frame count of the animation (and use a lower framerate for the same duration of animation). For example, render 30 frames at 10 frames per second for a 3-second animation, instead of 75 frames at 25 frames per second.
-- :doc:`Bake Panel </render/bake>`
+- :doc:`Bake Panel </render/workflows/bake>`
   - Bake Full Render - create a UV Texture that colors the objects based on materials, and then use that UV Texture shadeless instead of the material.
   - Bake Ambient Occlusion only.
   - Bake textures for objects.

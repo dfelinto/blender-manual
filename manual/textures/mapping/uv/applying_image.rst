@@ -306,12 +306,18 @@ Modifying your Image Texture
 To modify your new Texture, you can:
 
 
-- :doc:`Render Bake <render/bake>` an image based on how the mesh looks
-  - The Render Bake feature provides several tools to replace the current image based on a render of :doc:`Vertex Paint <materials/vertex_paint>` colors, Normals (bumps), Procedural materials, textures and lighting, and ambient occlusion.
+- :doc:`Render Bake <render/workflows/bake>` an image based on how the mesh looks
+  - The Render Bake feature provides several tools to replace the current image
+    based on a render of :doc:`Vertex Paint <materials/vertex_paint>` colors,
+    Normals (bumps), Procedural materials, textures and lighting, and ambient occlusion.
 - Paint using :doc:`Texture Paint <textures/painting>`.
   - Use the UV/Image Editor menu *Image* →\ *New*. Then start painting your mesh with
 - Use external software to create an image
-  - Using your favorite image painting program, you could use an exported UV layout to create a texture. Then save your changes, and back in Blender, use the Image→Open menu command to load it as your UV image for the mesh in Face Select Mode for the desired (and active) UV Texture layer. Using the :guilabel:`Edit Externally` tool in the :guilabel:`Image` menu, Blender will open an image editor, as specified in the :guilabel:`User Preferences` and load in the image to be edited.
+  - Using your favorite image painting program, you could use an exported UV layout to create a texture.
+    Then save your changes, and back in Blender, use the Image→Open menu command to load it as your UV image
+    for the mesh in Face Select Mode for the desired (and active) UV Texture layer.
+    Using the :guilabel:`Edit Externally` tool in the :guilabel:`Image` menu, Blender will open an image editor,
+    as specified in the :guilabel:`User Preferences` and load in the image to be edited.
 - Use the "projection painting" feature of recent versions of Blender
 - Use the Bake uV-Textures to Vertex Colors addon to create an image from vertex colors
 - Some combination of the above.
