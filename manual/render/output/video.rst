@@ -88,8 +88,8 @@ Construction of the YCrCb values from the RGB ones takes two steps
 
 First, the Gamma correction (*g* varies: 2.2 for NTSC, 2.8 for PAL):
 
-- R' = R\ :sup:`1/` *g* :*G' = G\ :sup:`1/` *g*
-- B' = B\ :sup:`1/` *g*
+- R' = R :sup:`1/g` :\*G' = G :sup:`1/g`
+- B' = B :sup:`1/g`
 
 Then, the conversion itself:
 
@@ -294,44 +294,44 @@ for Blender to be able to call it and use it to compress the video stream.
 Video Formats
 ^^^^^^^^^^^^^
 
-`MPEG-1 <http://en.wikipedia.org/wiki/MPEG-1>`__ (``.mpg``, ``.mpeg``)
+`MPEG-1 <http://en.wikipedia.org/wiki/MPEG-1>`__: ``.mpg``, ``.mpeg``
    A standard for lossy compression of video and audio.
    It is designed to compress VHS-quality raw digital video and CD audio down to 1.5 Mbit/s.
-`MPEG-2 <http://en.wikipedia.org/wiki/MPEG-2>`__ (``.dvd``, ``.vob``, ``.mpg``, ``.mpeg``)
+`MPEG-2 <http://en.wikipedia.org/wiki/MPEG-2>`__: ``.dvd``, ``.vob``, ``.mpg``, ``.mpeg``
    A standard for "the generic coding of moving pictures and associated audio information".
    It describes a combination of lossy video compression and lossy audio data compression
    methods which permit storage and transmission of movies using currently
    available storage media and transmission bandwidth.
-`MPEG-4(DivX) <http://en.wikipedia.org/wiki/MPEG-4>`__ (.mp4, .mpg, .mpeg)
+`MPEG-4(DivX) <http://en.wikipedia.org/wiki/MPEG-4>`__: ``.mp4``, ``.mpg``, ``.mpeg``
    Absorbs many of the features of MPEG-1 and MPEG-2 and other related standards, and adds new features.
-`AVI <http://en.wikipedia.org/wiki/Audio_Video_Interleave>`__ (``.avi``)
+`AVI <http://en.wikipedia.org/wiki/Audio_Video_Interleave>`__: ``.avi``
    A derivative of the Resource Interchange File Format (RIFF), which divides a file's data into blocks, or "chunks."
-`Quicktime <http://en.wikipedia.org/wiki/.mov>`__ (``.mov``)
+`Quicktime <http://en.wikipedia.org/wiki/.mov>`__: ``.mov``
    A multi-tracked format. QuickTime and MP4 container formats can use the same MPEG-4 formats;
    they are mostly interchangeable in a QuickTime-only environment. MP4,
    being an international standard, has more support.
-`DV <http://en.wikipedia.org/wiki/DV>`__ (``.dv``)
+`DV <http://en.wikipedia.org/wiki/DV>`__: ``.dv``
    An intraframe video compression scheme,
    which uses the discrete cosine transform (DCT) to compress video on a frame-by-frame basis.
    Audio is stored uncompressed.
-`H.264 <http://en.wikipedia.org/wiki/H.264>`__ (``.avi``) *for now*.
+`H.264 <http://en.wikipedia.org/wiki/H.264>`__: ``.avi`` *for now*.
    A standard for video compression, and is currently one of the most commonly used formats for the recording,
    compression, and distribution of high definition video.
-`Xvid <http://en.wikipedia.org/wiki/Xvid>`__ (``.avi``) *for now*
+`Xvid <http://en.wikipedia.org/wiki/Xvid>`__: ``.avi`` *for now*
    A video codec library following the MPEG-4 standard. It uses ASP features such as b-frames,
    global and quarter pixel motion compensation, lumi masking, trellis quantization, and H.263,
    MPEG and custom quantization matrices. Xvid is a primary competitor of the DivX Pro Codec.
-`Ogg <http://en.wikipedia.org/wiki/Theora>`__ (``.ogg``, ``.ogv``)
+`Ogg <http://en.wikipedia.org/wiki/Theora>`__: ``.ogg``, ``.ogv``
    A free lossy video compression format.
    It is developed by the Xiph.Org Foundation and distributed without licensing fees.
-`Matroska <http://en.wikipedia.org/wiki/Matroska>`__ (``.mkv``)
+`Matroska <http://en.wikipedia.org/wiki/Matroska>`__: ``.mkv``
    An open standard free container format, a file format that can hold an unlimited number of video,
    audio, picture or subtitle tracks in one file.
-`Flash <http://en.wikipedia.org/wiki/Flash_Video>`__ (``.flv``)
+`Flash <http://en.wikipedia.org/wiki/Flash_Video>`__: ``.flv``
    A container file format used to deliver video over the Internet using Adobe Flash Player.
-`Wav <http://en.wikipedia.org/wiki/Wav>`__ (``.wav``)
+`Wav <http://en.wikipedia.org/wiki/Wav>`__: ``.wav``
    An uncompressed (or lightly compressed) Microsoft and IBM audio file format.
-`Mp3 <http://en.wikipedia.org/wiki/MP3>`__ (``.mp3``)
+`Mp3 <http://en.wikipedia.org/wiki/MP3>`__: ``.mp3``
    A highly-compressed, patented digital audio encoding format using a form of lossy data compression.
    It is a common audio format for consumer audio storage, as well as a de facto standard of digital
    audio compression for the transfer and playback of music on digital audio players.
