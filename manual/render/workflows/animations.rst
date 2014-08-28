@@ -15,7 +15,7 @@ Finally you can render out from the Sequencer and compress the frames into a pla
 
 
 Workflow
-********
+========
 
 Generally, you do a lot of intermediate renders of different frames in your animation to check
 for timing, lighting, placement, materials, and so on. At some point,
@@ -152,12 +152,11 @@ Post Processing Panel
 
 
 Hints
-*****
+=====
 
 Argh! My bratty sister turned off the PC right in the middle of rendering my movie!
    Unless your animation is really simple, and you expect it to render in half an hour or less,
-   it is always a good idea to render the animation as separate image frames in a loss-less format (TGA, PNG, BMP)
-   rather than as a movie file from the beginning.
+   it is always a good idea to render the animation as separate image frames in a loss-less format (TGA, PNG, BMP) rather than as a movie file from the beginning.
    This allows you an easy recovery if there is a problem and you have to re-start the rendering,
    since the frames you have already rendered will still be in the Output directory.
    Just change the :guilabel:`START` frame number to the frame number where you want to pick up from,
@@ -165,16 +164,13 @@ Argh! My bratty sister turned off the PC right in the middle of rendering my mov
 
 
 I only need to re-render a few frames in the middle
-   It's also a good idea to render initially to a frame sequence, since if only a few frames have an error,
-   you can make corrections and re-render just the affected frames.
+   It's also a good idea to render initially to a frame sequence, since if only a few frames have an error, you can make corrections and re-render just the affected frames.
    You can then make a movie out of the separate frames with Blender's sequence editor or with compositing nodes.
 
 Only first frame renders, then Blender locks up
-   If you click ANIM and only the first frame renders, be sure the output file is not locked by the media player.
-   In general, check the console when rendering.
+   If you click ANIM and only the first frame renders, be sure the output file is not locked by the media player. In general, check the console when rendering.
 
 Unable to create Quicktime movie
    CreateMovieFile error: -47
 
-   The Quicktime movie strip is in use (possibly in the VSE) and cannot be overwritten. If it is used in the VSE,
-   delete the strip, or delete the file using your file explorer.
+   The Quicktime movie strip is in use (possibly in the VSE) and cannot be overwritten. If it is used in the VSE, delete the strip, or delete the file using your file explorer.
