@@ -12,7 +12,6 @@ but rather composited on top of the image.
 
 
 .. toctree::
-   :maxdepth: 2
 
    layers.rst
    passes.rst

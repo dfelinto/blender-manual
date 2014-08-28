@@ -17,8 +17,7 @@ interactive rendering can be started by setting a 3D view editor to draw mode Re
 The render will keep updating as material and object modifications are done.
 
 .. toctree::
-   :maxdepth: 2
-   
+
    getting_started.rst
    camera.rst
    materials/index.rst
