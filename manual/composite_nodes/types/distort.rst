@@ -306,7 +306,7 @@ little node comes along and you have the power to **re-texture your objects** *a
 have been rendered**. Yes, you read that right; it's not a typo and I'm not crazy. At least,
 not today.
 
-Using this node (and having saved the UV map in a multilayer OpenEXR format image sequence), you can apply new flat image textures to all objects (or individual objects if you used the very cool :doc:`ID Mask Node <composite_nodes/types/convertor#id_mask_node>` to enumerate your objects) in the scene.
+Using this node (and having saved the UV map in a multilayer OpenEXR format image sequence), you can apply new flat image textures to all objects (or individual objects if you used the very cool :doc:`ID Mask Node </composite_nodes/types/convertor#id_mask_node>` to enumerate your objects) in the scene.
 
 Thread the new UV Texture to the Image socket,
 and the UV Map from the rendered scene to the UV input socket.

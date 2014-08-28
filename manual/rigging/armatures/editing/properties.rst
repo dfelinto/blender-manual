@@ -5,7 +5,7 @@
 Editing Bone Properties
 ***********************
 
-In this page, you will learn how to edit and control most of the properties for Blender bones - For editing bones in an armature, you should read the :doc:`previous page <rigging/armatures/editing/bones>` first! We will see how to
+In this page, you will learn how to edit and control most of the properties for Blender bones - For editing bones in an armature, you should read the :doc:`previous page </rigging/armatures/editing/bones>` first! We will see how to
 FIXME(TODO: Internal Link;
 [[#Chain Editing|manage the bones' relationships]]
 ),
@@ -17,7 +17,7 @@ FIXME(TODO: Internal Link;
 Transforming Bones
 ==================
 
-We won't detail here the various transformations of bones, nor things like axis locking, pivot points, and so on, as they are common to most object editing, and already described :doc:`here <3d_interaction/transform_control>` (note however that some options, like snapping, do not seem to work, even though they are available...). The same goes for mirroring, as it's nearly the same as with :doc:`mesh editing <modeling/meshes/tools/transform_deform#mirror>`. Just keep in mind that bones' roots and tips behave more or less like meshes' vertices, and bones themselves act like edges in a mesh.
+We won't detail here the various transformations of bones, nor things like axis locking, pivot points, and so on, as they are common to most object editing, and already described :doc:`here </3d_interaction/transform_control>` (note however that some options, like snapping, do not seem to work, even though they are available...). The same goes for mirroring, as it's nearly the same as with :doc:`mesh editing </modeling/meshes/tools/transform_deform#mirror>`. Just keep in mind that bones' roots and tips behave more or less like meshes' vertices, and bones themselves act like edges in a mesh.
 
 As you know, bones can have two types of relationships: They can be parented,
 and in addition connected. Parented bones behave in :guilabel:`Edit` mode exactly as if they
@@ -34,7 +34,7 @@ so by transforming a bone, you will affect all its connected parent/children/sib
    The Transform Properties panel for armatures in Edit mode.
 
 
-Finally, you can edit in the :guilabel:`Transform Properties` panel (:kbd:`N`) the positions and radius of both ends of the active selected bone, as well as its :doc:`roll rotation <rigging/armatures/editing/properties#bone_roll>`.
+Finally, you can edit in the :guilabel:`Transform Properties` panel (:kbd:`N`) the positions and radius of both ends of the active selected bone, as well as its :doc:`roll rotation </rigging/armatures/editing/properties#bone_roll>`.
 
 
 Radius and Scaling in Envelope Visualization
@@ -48,7 +48,7 @@ Radius and Scaling in Envelope Visualization
    | Hotkey:   :kbd:`S`
 
 
-When bones are displayed using :guilabel:`Octahedron`, :guilabel:`Stick` or :guilabel:`B-Bone` visualizations, scaling will behave as expected, similar to scaling mesh objects. When bones are displayed using :guilabel:`Envelope` visualization, scaling will have a different effect: it will scale the radius of the selected bones's ends. (see: :doc:`skinning part <rigging/skinning>`). As you control only one value (the radius), there is no axis locking here. And as usual, with connected bones, you scale at the same time the radius of the parent's tip and of the children's roots.
+When bones are displayed using :guilabel:`Octahedron`, :guilabel:`Stick` or :guilabel:`B-Bone` visualizations, scaling will behave as expected, similar to scaling mesh objects. When bones are displayed using :guilabel:`Envelope` visualization, scaling will have a different effect: it will scale the radius of the selected bones's ends. (see: :doc:`skinning part </rigging/skinning>`). As you control only one value (the radius), there is no axis locking here. And as usual, with connected bones, you scale at the same time the radius of the parent's tip and of the children's roots.
 
 
 +------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------+
@@ -84,7 +84,7 @@ ScaleB and Envelope
 
 :kbd:`ctrl-alt-S` activates a transform tool that is specific to armatures. It has different behavior depending on the active visualization, as explained below:
 
-In :guilabel:`Envelope` visualization, it allows you to edit the influence of the selected bones (their :guilabel:`Dist` property, see the :doc:`skinning part <rigging/skinning>`) - as with the "standard" scaling with this visualization (see the previous section), this is a one-value property, so there is no axis locking and such.
+In :guilabel:`Envelope` visualization, it allows you to edit the influence of the selected bones (their :guilabel:`Dist` property, see the :doc:`skinning part </rigging/skinning>`) - as with the "standard" scaling with this visualization (see the previous section), this is a one-value property, so there is no axis locking and such.
 
 
 +----------------------------+----------------------------------------------------------------+------------------------------------------------------------------+
@@ -215,19 +215,19 @@ and :guilabel:`Disable Setting`
    FIXME(TODO: Internal Link; [[#Bone Rigidity Settings|below]]).
 
 :guilabel:`Dist`, :guilabel:`Weight`, :guilabel:`Deform` (also :menuselection:`[shift][W] --> Deform` & co), :guilabel:`Mult` (also :menuselection:`[shift][W] --> Mult VG` & co)
-   These settings control how the bone influences its geometry - along with the bones' ends radius. This will be detailed in the :doc:`skinning part <rigging/skinning>`.
+   These settings control how the bone influences its geometry - along with the bones' ends radius. This will be detailed in the :doc:`skinning part </rigging/skinning>`.
 
 :guilabel:`Hinge` (also :menuselection:`[shift][W] --> Hinge` & co), :guilabel:`S` (also :menuselection:`[shift][W] --> No Scale` & co)
-   These settings affect the behavior of children bones while transforming their parent in :guilabel:`Pose` mode, so this will be detailed in the :doc:`posing part <rigging/posing>` !
+   These settings affect the behavior of children bones while transforming their parent in :guilabel:`Pose` mode, so this will be detailed in the :doc:`posing part </rigging/posing>` !
 
 :guilabel:`Hide`
-   This will hide the bone (same as hitting :kbd:`H` in the 3D views, see :doc:`this page <rigging/armatures/visualization#hiding_bones>`).
+   This will hide the bone (same as hitting :kbd:`H` in the 3D views, see :doc:`this page </rigging/armatures/visualization#hiding_bones>`).
 
 :guilabel:`Lock` (also :menuselection:`[shift][W] --> Locked` & co)
-   This will prevent all editing of the bone in :guilabel:`Edit` mode, see the :doc:`previous page <rigging/armatures/editing/bones>`.
+   This will prevent all editing of the bone in :guilabel:`Edit` mode, see the :doc:`previous page </rigging/armatures/editing/bones>`.
 
 Layers button
-   These small buttons allow you to control to which bone layer this bone belongs; see :doc:`this page <rigging/armatures/visualization#bone_layers>`.
+   These small buttons allow you to control to which bone layer this bone belongs; see :doc:`this page </rigging/armatures/visualization#bone_layers>`.
 
 
 Bone Rigidity Settings
@@ -262,9 +262,9 @@ so you can't visualize the effects of these settings.
    An armature in Pose mode, B-Bone visualization: Bone.003 has one segment, Bone.004 has four, and Bone.005 has sixteen.
 
 
-We saw in :doc:`this page <rigging/armatures/bones>` that bones are made of small rigid segments mapped to a "virtual" Bézier curve. The :guilabel:`Segm` numeric field allows you to set the number of segments inside a given bone - by default, it is **1**, which gives a standard rigid bone! The higher this setting (max **32**), the smoother the bone, but the heavier the pose calculations...
+We saw in :doc:`this page </rigging/armatures/bones>` that bones are made of small rigid segments mapped to a "virtual" Bézier curve. The :guilabel:`Segm` numeric field allows you to set the number of segments inside a given bone - by default, it is **1**, which gives a standard rigid bone! The higher this setting (max **32**), the smoother the bone, but the heavier the pose calculations...
 
-Each bone's ends are mapped to its "virtual" Bézier curve's :doc:`"auto" <modeling/curves#editing_bezier_curves>` handle. Therefore, you can't control their direction, but you can change their "length" using the :guilabel:`In` and :guilabel:`Out` numeric fields, to control the "root handle" and "tip handle" of the bone, respectively. These values are proportional to the default length, which of course automatically varies depending on bone length, angle with previous/next bones in the chain, and so on.
+Each bone's ends are mapped to its "virtual" Bézier curve's :doc:`"auto" </modeling/curves#editing_bezier_curves>` handle. Therefore, you can't control their direction, but you can change their "length" using the :guilabel:`In` and :guilabel:`Out` numeric fields, to control the "root handle" and "tip handle" of the bone, respectively. These values are proportional to the default length, which of course automatically varies depending on bone length, angle with previous/next bones in the chain, and so on.
 
 
 +--------------------------------------------------------------------------------------------------+----------------------------------------------------------------+-----------------------------------------------+

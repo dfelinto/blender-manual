@@ -67,7 +67,7 @@ ColorRamp Node
    ColorRamp Node
 
 
-The ColorRamp Node is used for mapping values to colors with the use of a gradient. It works exactly the same way as a :doc:`Colorband for textures and materials <materials/properties/ramps>`, using the Factor value as a slider or index to the color ramp shown, and outputting a color value and an alpha value from the output sockets.
+The ColorRamp Node is used for mapping values to colors with the use of a gradient. It works exactly the same way as a :doc:`Colorband for textures and materials </materials/properties/ramps>`, using the Factor value as a slider or index to the color ramp shown, and outputting a color value and an alpha value from the output sockets.
 
 By default,
 the ColorRamp is added to the node map with two colors at opposite ends of the spectrum.

@@ -30,7 +30,7 @@ Settings
 :guilabel:`Cone`
    Draws as a cone, initially pointing in the +Y axis direction.
 :guilabel:`Image`
-   Empties can display images. This can be used to create reference images, including blueprints or character sheets to model from, instead of using background images. The image is displayed regardless of the 3D display mode. The settings are the same as in :doc:`Background Image Settings <3d_interaction/navigating/3d_view_options#background_image>`
+   Empties can display images. This can be used to create reference images, including blueprints or character sheets to model from, instead of using background images. The image is displayed regardless of the 3D display mode. The settings are the same as in :doc:`Background Image Settings </3d_interaction/navigating/3d_view_options#background_image>`
 *Note: While alpha-images can be used, there is a known limitation with object draw order, where alphas won't always draw on top of other objects when unselected.*
 
 :guilabel:`Size`

@@ -27,8 +27,8 @@ and the Compositor.
 For hints how to manipulate or view HDR images, please check the Curves UI page.
 
 
-- :doc:`OpenEXR (Multilayer) <data_system/files/formats/openexr>`
-- :doc:`DPX, Cineon and Radiance HDR <data_system/files/formats/dpx,_cineon,_hdr>`
+- :doc:`OpenEXR (Multilayer) </data_system/files/formats/openexr>`
+- :doc:`DPX, Cineon and Radiance HDR </data_system/files/formats/dpx,_cineon,_hdr>`
 
 
 Others Formats

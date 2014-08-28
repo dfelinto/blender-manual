@@ -48,7 +48,7 @@ Standalone Player
    Standalone Panel
 
 
-This panel provides information for the Standalone Game Player which allows games to be run without Blender. See :doc:`Standalone Player <game_engine/standalone_player>` for further details.
+This panel provides information for the Standalone Game Player which allows games to be run without Blender. See :doc:`Standalone Player </game_engine/standalone_player>` for further details.
 
 **Fullscreen** -
    Off - opens standalone game as a new window.
@@ -96,9 +96,9 @@ by implication, that stereo displays will use to render images in the standalone
 **None**
    Render single images with no stereo.
 **Stereo**
-   Render dual images for stereo viewing using appropriate equipment. See :doc:`Stereo Camera <game_engine/camera/stereo>` for full details of available options.
+   Render dual images for stereo viewing using appropriate equipment. See :doc:`Stereo Camera </game_engine/camera/stereo>` for full details of available options.
 **Dome**
-   Provides facilities for an immersive dome environment in which to view the game. See :doc:`Dome Camera <game_engine/camera/dome>` for full details of available options.
+   Provides facilities for an immersive dome environment in which to view the game. See :doc:`Dome Camera </game_engine/camera/dome>` for full details of available options.
 
 
 Shading
@@ -112,7 +112,7 @@ Shading
 
 
 Specifies the shading mode to be used in rendering the game.
-The shading facilities available in Blender for use in :doc:`Materials <materials>` and :doc:`Textures <textures>`
+The shading facilities available in Blender for use in :doc:`Materials </materials>` and :doc:`Textures </textures>`
 are essentially the same in the Blender Game Engine.
 However the constraints of real-time display mean that only some of the facilities are available.
 

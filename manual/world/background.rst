@@ -22,7 +22,7 @@ but a very common use of a :guilabel:`World` is to shade a background color.
 .. admonition:: Background Image in 3D
    :class: note
 
-   To use an image as a background image in your 3D view, for example as a reference when doing a model, see :doc:`using a Background Image <3d_interaction/navigating/3d_view_options>`
+   To use an image as a background image in your 3D view, for example as a reference when doing a model, see :doc:`using a Background Image </3d_interaction/navigating/3d_view_options>`
 
 
 Options

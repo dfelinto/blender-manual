@@ -18,7 +18,7 @@ Blender has a powerful interface, highly optimized for 3D graphics production.
 The large number of buttons and menus might be a bit intimidating at first, but don't worry.
 After a bit of practice it will become familiar and intuitive.
 
-It is highly recommended you read our section on :doc:`The Interface <interface>`
+It is highly recommended you read our section on :doc:`The Interface </interface>`
 carefully to get familiar with both the interface and with the conventions used in the documentation.
 
 

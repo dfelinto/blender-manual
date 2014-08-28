@@ -35,10 +35,10 @@ Options
 
 
 :guilabel:`Energy` and :guilabel:`Color`
-   These settings are common to most types of lamps, and are described in :doc:`Light Properties <lighting/lights/light_properties>`.
+   These settings are common to most types of lamps, and are described in :doc:`Light Properties </lighting/lights/light_properties>`.
 
 :guilabel:`Layer`, :guilabel:`Negative`,\ :guilabel:`Specular`, and :guilabel:`Diffuse`
-   These settings control what the lamp affects, as described in :doc:`What Light Affects <lighting/lights/what_light_affects>`.
+   These settings control what the lamp affects, as described in :doc:`What Light Affects </lighting/lights/what_light_affects>`.
 
 The :guilabel:`Hemi` lamp has no light falloff settings: it always uses a constant attenuation
 (i.e. no attenuation).

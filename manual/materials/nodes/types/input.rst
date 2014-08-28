@@ -21,7 +21,7 @@ Material Node
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :doc:`Node Editor <materials/nodes/editor>` → :doc:`Material Nodes <materials/nodes>`
+   | Panel:    :doc:`Node Editor </materials/nodes/editor>` → :doc:`Material Nodes </materials/nodes>`
    | Menu:     :kbd:`shift-A` → Input → Material
 
 
@@ -313,7 +313,7 @@ under different lighting conditions. Your choices are:
 .. admonition:: Note
    :class: note
 
-   These are exactly the same settings as in the :doc:`Mapping <textures/mapping>` panel for :doc:`Textures <textures>`, though a few settings - like :guilabel:`Stress` or :guilabel:`Tangent` - are missing here. Normally you would use this node as input for a
+   These are exactly the same settings as in the :doc:`Mapping </textures/mapping>` panel for :doc:`Textures </textures>`, though a few settings - like :guilabel:`Stress` or :guilabel:`Tangent` - are missing here. Normally you would use this node as input for a
    FIXME(TODO: Internal Link;
    [[#Texture Node|Texture Node]]
    ).

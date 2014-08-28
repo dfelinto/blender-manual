@@ -17,7 +17,7 @@ Transform Orientations
    Transform orientations selection menu.
 
 
-Orientations affect the behavior of Transformations: Location, Rotation, and Scale. You will see an effect on the 3D Manipulator (the widget in the center of the selection), as well as on transformation constraints (like :doc:`axis locking <3d_interaction/transform_control/axis_locking>`). This means that, when you hit :kbd:`g-x`, it will constrain to the :guilabel:`global` x-axis, but if you hit :kbd:`g-x-x` it will constrain to your :guilabel:`Transform Orientation` s x-axis.
+Orientations affect the behavior of Transformations: Location, Rotation, and Scale. You will see an effect on the 3D Manipulator (the widget in the center of the selection), as well as on transformation constraints (like :doc:`axis locking </3d_interaction/transform_control/axis_locking>`). This means that, when you hit :kbd:`g-x`, it will constrain to the :guilabel:`global` x-axis, but if you hit :kbd:`g-x-x` it will constrain to your :guilabel:`Transform Orientation` s x-axis.
 
 
 .. figure:: /images/Alt+Space-Menu.jpg
@@ -47,7 +47,7 @@ Our Demo Cube
 Please note two things:
 
 - The "Mini-axis" in the lower-left corner, which represents the Global x/y/z orientation.
-- The :doc:`"Object Manipulator" <3d_interaction/transform_control/manipulators>` widget emanating from the selection, which represents the current Transform Orientation.
+- The :doc:`"Object Manipulator" </3d_interaction/transform_control/manipulators>` widget emanating from the selection, which represents the current Transform Orientation.
   - If you click on one of the axes of the Manipulator with :kbd:`LMB`, it will allow you to constrain movement to only this direction. An example of a keyboard equivalent is :kbd:`g-z-z`.
   - If you :kbd:`Shift-LMB` click, it will lock the axis you clicked on and allow you to move in the plane of the two remaining axes. The keyboard analogue is :kbd:`g-Shift-Z-Shift-Z-`.
 
@@ -129,7 +129,7 @@ the same movement---except along that second vertex's normal instead.
 Gimbal
 ------
 
-Gimbal's behavior highly depends on the :doc:`Rotation Mode <3d_interaction/transformations/basics/rotate>`
+Gimbal's behavior highly depends on the :doc:`Rotation Mode </3d_interaction/transformations/basics/rotate>`
 that you are in (accessible in the :kbd:`n` Properties Panel in the :guilabel:`3D View`,
 in top section, :guilabel:`Transform`).
 

@@ -29,11 +29,11 @@ Lamp options
 
 
 :guilabel:`Distance`, :guilabel:`Energy` and :guilabel:`Color`
-   These settings are common to most types of lamps, and are described in :doc:`Light Properties <lighting/lights/light_properties>`.
+   These settings are common to most types of lamps, and are described in :doc:`Light Properties </lighting/lights/light_properties>`.
 :guilabel:`This Layer Only`, :guilabel:`Negative`, :guilabel:`Diffuse` and :guilabel:`Specular`
-   These settings control what the lamp affects, as described in :doc:`What Light Affects <lighting/lights/what_light_affects>`.
+   These settings control what the lamp affects, as described in :doc:`What Light Affects </lighting/lights/what_light_affects>`.
 :guilabel:`Light Falloff` and :guilabel:`Sphere`
-   These settings control how the light of the :guilabel:`Spot` decays with distance. See :doc:`Light Attenuation <lighting/lights/light_attenuation>` for details.
+   These settings control how the light of the :guilabel:`Spot` decays with distance. See :doc:`Light Attenuation </lighting/lights/light_attenuation>` for details.
 
 
 .. figure:: /images/25-Manual-Lighting-Lamps-Spot-Terms.jpg
@@ -61,10 +61,10 @@ with extra capabilities such as transparent shadows, although they are quite slo
 :guilabel:`No Shadow`
    Choose this to turn shadows off for this spot lamp.  This can be useful to add some discreet directed light to a scene.
 :guilabel:`Buffer Shadow`
-   :guilabel:`Buffered Shadows` are also known as depth map shadows. Shadows are created by calculating differences in the distance from the light to scene objects. See :doc:`Buffered Shadows <lighting/lamps/spot/buffered_shadows>` for full details on using this feature.
-   Buffered shadows are more complex to set up and involve more faking, but the speed of rendering is a definite advantage. Nevertheless, it shares with other lamp types common shadow options described in :doc:`Shadows Properties <lighting/shadows/properties>`.
+   :guilabel:`Buffered Shadows` are also known as depth map shadows. Shadows are created by calculating differences in the distance from the light to scene objects. See :doc:`Buffered Shadows </lighting/lamps/spot/buffered_shadows>` for full details on using this feature.
+   Buffered shadows are more complex to set up and involve more faking, but the speed of rendering is a definite advantage. Nevertheless, it shares with other lamp types common shadow options described in :doc:`Shadows Properties </lighting/shadows/properties>`.
 :guilabel:`Ray Shadow`
-   The ray-traced shadows settings of this lamp are shared with other lamps, and are described in :doc:`Raytraced Properties <lighting/shadows/raytraced_properties>`.
+   The ray-traced shadows settings of this lamp are shared with other lamps, and are described in :doc:`Raytraced Properties </lighting/shadows/raytraced_properties>`.
 
 
 Spot Shape
@@ -115,6 +115,6 @@ Spot Shape
 :guilabel:`Show Cone`
    Draw a transparent cone in 3D view to visualize which objects are contained in it.
 :guilabel:`Halo`
-   Adds a volumetric effects to the spot lamp.  See :doc:`Spot Halos <lighting/lamps/spot/halos>`.
+   Adds a volumetric effects to the spot lamp.  See :doc:`Spot Halos </lighting/lamps/spot/halos>`.
 
 

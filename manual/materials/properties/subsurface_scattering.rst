@@ -91,7 +91,7 @@ The numeric sliders control how the light is scattered:
    The effect is quite subtle and changes the distribution function only a little bit.
    By the examination of many different materials, values of **1.3** to **1.5**
    have been found to work well for most materials.  If you know the exact material you are trying to simulate,
-   see :doc:`our IOR table <materials/properties/raytraced_transparency#ior_values_for_common_materials>`.
+   see :doc:`our IOR table </materials/properties/raytraced_transparency#ior_values_for_common_materials>`.
 
 :guilabel:`Scale`
    The scale of your object, in Blender units, across which you want the scattering effect to take place.

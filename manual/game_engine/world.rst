@@ -23,7 +23,7 @@ more extensive range of effects available with the Blender renderer
    :class: nicetip
 
 
-   While world settings offer a simple way of adding effects to a scene, :doc:`compositing nodes <composite_nodes>` are often preferred, though more complex to master, for the additional control and options they offer.  For example, filtering the Z value (distance from camera) or normals (direction of surfaces) through compositing nodes can further increase the depth and spacial clarity of a scene.
+   While world settings offer a simple way of adding effects to a scene, :doc:`compositing nodes </composite_nodes>` are often preferred, though more complex to master, for the additional control and options they offer.  For example, filtering the Z value (distance from camera) or normals (direction of surfaces) through compositing nodes can further increase the depth and spacial clarity of a scene.
 
 
 World
@@ -34,7 +34,7 @@ These two color settings allow you to set some general lighting effects for your
 :guilabel:`Horizon Color`
    The RGB color at the horizon ; i.e. the color and intensity of any areas in the scene which are not filled explicitly.
 :guilabel:`Ambient Color`
-   Ambient light mimics an overall background illumination obtained from diffusing surfaces (see :doc:`Ambient Light <lighting>`, :doc:`Exposure <render/post_process/cm_and_exposure>` and :doc:`Ambient Occlusion <lighting/ambient_occlusion>`). Its general color and intensity are set by these controls.
+   Ambient light mimics an overall background illumination obtained from diffusing surfaces (see :doc:`Ambient Light </lighting>`, :doc:`Exposure </render/post_process/cm_and_exposure>` and :doc:`Ambient Occlusion </lighting/ambient_occlusion>`). Its general color and intensity are set by these controls.
 
 
 Mist
@@ -42,7 +42,7 @@ Mist
 ----
 
 
-Mist can greatly enhance the illusion of depth in your rendering. To create mist, Blender makes objects farther away more transparent (decreasing their Alpha value) so that they mix more of the background color with the object color. With Mist enabled, the further the object is away from the camera the less it's alpha value will be.  For full details, see :doc:`Mist <world/mist>`.
+Mist can greatly enhance the illusion of depth in your rendering. To create mist, Blender makes objects farther away more transparent (decreasing their Alpha value) so that they mix more of the background color with the object color. With Mist enabled, the further the object is away from the camera the less it's alpha value will be.  For full details, see :doc:`Mist </world/mist>`.
 
 :guilabel:`Mist`
    Toggles mist on and off
@@ -59,7 +59,7 @@ Mist can greatly enhance the illusion of depth in your rendering. To create mist
 Game Physics
 ============
 
-The Game Physics located in the World panel determine the type of physical rules that govern the game engine scene, and the gravity value to be used. Based on the physics engine selected, in physics simulations in the game engine, Blender will automatically move :guilabel:`Actors` in the downward (-Z) direction. After you arrange the actors and they move as you wish, you can then bake this computed motion into fixed Ipo curves (see :doc:`Logic actors <game_engine/physics/object_type>` for more info).
+The Game Physics located in the World panel determine the type of physical rules that govern the game engine scene, and the gravity value to be used. Based on the physics engine selected, in physics simulations in the game engine, Blender will automatically move :guilabel:`Actors` in the downward (-Z) direction. After you arrange the actors and they move as you wish, you can then bake this computed motion into fixed Ipo curves (see :doc:`Logic actors </game_engine/physics/object_type>` for more info).
 
 
 :guilabel:`Physics Engine`
@@ -70,7 +70,7 @@ The Game Physics located in the World panel determine the type of physical rules
    :guilabel:`None`
       No physics in use. Things are not affected by gravity and can fly about in a virtual space. Objects in motion stay in that motion.
 :guilabel:`Gravity`
-      The gravitational acceleration, in units of meters per squared second (``m.s``:sup:`-2`), of this world. Each object that is an actor has a mass and size slider (see :doc:`Object Physics <game_engine/physics/object_type>` section). In conjunction with the frame rate (see :doc:`Render <render>` section), Blender uses this info to calculate how fast the object should accelerate downward.
+      The gravitational acceleration, in units of meters per squared second (``m.s``:sup:`-2`), of this world. Each object that is an actor has a mass and size slider (see :doc:`Object Physics </game_engine/physics/object_type>` section). In conjunction with the frame rate (see :doc:`Render </render>` section), Blender uses this info to calculate how fast the object should accelerate downward.
 :guilabel:`Culling Resolution`
       The size of the occlusion culling buffer in pixel, use higher value for better precision (slower). The optimized Bullet DBVT for view frustum and occlusion culling is activated internally by default.
 :guilabel:`Physics Steps`

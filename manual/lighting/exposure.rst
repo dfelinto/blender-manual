@@ -17,7 +17,7 @@ Description
 
 :guilabel:`Exposure` and :guilabel:`Range` are similar to the "Color Curves" tool in Gimp or Photoshop.
 
-These controls affect the rendered image, and the results are baked into the render. For information on achieving similar affects with render controls, see :doc:`Color Management and Exposure <render/post_process/cm_and_exposure>`.
+These controls affect the rendered image, and the results are baked into the render. For information on achieving similar affects with render controls, see :doc:`Color Management and Exposure </render/post_process/cm_and_exposure>`.
 
 Previously Blender clipped color directly with "\ **1.0** " (or 255)
 when it exceeded the possible RGB space.

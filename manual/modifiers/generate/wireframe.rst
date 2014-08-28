@@ -64,7 +64,7 @@ Options
 
 
 :guilabel:`Crease Edges`
-   This option is intended for usage with the :doc:`Subdivision Surface <modifiers/generate/subsurf>` modifier.
+   This option is intended for usage with the :doc:`Subdivision Surface </modifiers/generate/subsurf>` modifier.
    Enable this option to crease edges on their junctions and prevent large curved intersections.
 
    :guilabel:`Crease Weight`

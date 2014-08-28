@@ -4,7 +4,7 @@ Edit Object Actuator
 
 The Edit Object actuator allows the user to edit settings of objects in game
 
-See :doc:`Actuator Common Options <game_engine/logic/actuators/common_options>` for common options.
+See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.
 
 Special Options:
 

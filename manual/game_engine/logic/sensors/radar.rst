@@ -13,7 +13,7 @@ The :guilabel:`Radar` sensor works much like a :guilabel:`Near` sensor,
 but only within an angle from an axis, forming an invisible cone with the top in the objects'
 center and base at a distance on an axis.
 
-See :doc:`Sensor Common Options <game_engine/logic/sensors/common_options>` for common options.
+See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for common options.
 
 Special Options:
 

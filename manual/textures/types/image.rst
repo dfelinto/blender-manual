@@ -44,7 +44,7 @@ and another that has three maps.
    How all the parts of UV Texturing work together
 
 
-When using file textures, it is very important that you have :doc:`Mapped the UVs <textures/mapping/uv/unwrapping>` of the mesh, and they are laid out appropriately.
+When using file textures, it is very important that you have :doc:`Mapped the UVs </textures/mapping/uv/unwrapping>` of the mesh, and they are laid out appropriately.
 
 You don't have to UV map the *entire* mesh.
 The sphere above on the left has some faces mapped,
@@ -69,7 +69,7 @@ Workflow
 
 The process consists of the following steps.
 
-- Create the Mesh. :doc:`Unwrap <textures/mapping/uv/unwrapping>` it into one or more :doc:`UV Layouts <textures/mapping/uv/layout_management>`.
+- Create the Mesh. :doc:`Unwrap </textures/mapping/uv/unwrapping>` it into one or more :doc:`UV Layouts </textures/mapping/uv/layout_management>`.
 - Create one or more Materials for the Mesh.
 - Create one or more images for each UV Layout and aspect of the texture. Either
   - paint directly on the mesh using Texture Paint in the 3D window,
@@ -89,19 +89,19 @@ To use an image as the color and alpha (transparency) of the texture, you can cr
 in an external paint program and tell the UV/Image Editor to Open that file as the texture,
 or you can create a New image and save it as the texture.
 
-If you want to start off by creating an image using an external paint program, you will want to save an outline of your UV faces by using the :guilabel:`Save UV Face Layout` tool located in the UVs menu. This is discussed :doc:`here <textures/mapping/uv/applying_image#saving_an_outline_of_your_uv_layout>`.
+If you want to start off by creating an image using an external paint program, you will want to save an outline of your UV faces by using the :guilabel:`Save UV Face Layout` tool located in the UVs menu. This is discussed :doc:`here </textures/mapping/uv/applying_image#saving_an_outline_of_your_uv_layout>`.
 
 
 Creating an Image Texture
 -------------------------
 
-To create an image within Blender, you have to first create a :doc:`New Blank <textures/mapping/uv/applying_image>` Image with a uniform color or test grid. After that, you can color the image using the:
+To create an image within Blender, you have to first create a :doc:`New Blank </textures/mapping/uv/applying_image>` Image with a uniform color or test grid. After that, you can color the image using the:
 
 
 - Vertex colors as the basis for an image
 - Render Bake image based on how the mesh looks in the scene
 
-After you have created your image, you can modify it using Blender's built-in :doc:`Texture Paint <textures/painting>` or any external image painting program.
+After you have created your image, you can modify it using Blender's built-in :doc:`Texture Paint </textures/painting>` or any external image painting program.
 
 
 .. admonition:: See Texture in 3D View but does not Render
@@ -229,7 +229,7 @@ Scene lighting is a white light off to the right.
 From this information and the User Manual thus far,
 you should now be able to recreate this image.
 
-You can also assign :doc:`multiple materials <materials/multiple_materials>` to the mesh based on which faces you want to be procedural and which you want to be texture-mapped. Just don't UV map the faces you want to be procedural.
+You can also assign :doc:`multiple materials </materials/multiple_materials>` to the mesh based on which faces you want to be procedural and which you want to be texture-mapped. Just don't UV map the faces you want to be procedural.
 
 You can use UV Textures and VertexPaint (:kbd:`V` in the 3D View window) simultaneously,
 if both are enabled in the Material settings.
@@ -322,10 +322,10 @@ allowing the underlying UV Texture to show through.
 To overlay multiple UV images, you have several options:
 
 - Create multiple UV Textures which map the same, and then use different images (with Alpha) and blender will overlay them automatically.
-- Use the :doc:`Composite Nodes <composite_nodes>` to combine the two images via the AlphaOver node, creating and saving the composite image. Open that composited image as the UV Texture.
+- Use the :doc:`Composite Nodes </composite_nodes>` to combine the two images via the AlphaOver node, creating and saving the composite image. Open that composited image as the UV Texture.
 - Use an external paint program to alpha overlay the images and save the file, and load it as the face's UV Texture
 - Define two objects, one just inside the other. The inner object would have the base image, and the outer image the overlaid image with a material alpha less than one (1.0).
-- Use the :doc:`Material nodes <materials/nodes>` to combine the two images via the AlphaOver or Mix node, thus creating a third noded material that you use as the material for the face. Using this approach, you will not have to UV map; simply assign the material to the face using the Multiple Materials
+- Use the :doc:`Material nodes </materials/nodes>` to combine the two images via the AlphaOver or Mix node, thus creating a third noded material that you use as the material for the face. Using this approach, you will not have to UV map; simply assign the material to the face using the Multiple Materials
 
 
 UV Textures vs. Procedural Textures
@@ -410,7 +410,7 @@ In the :guilabel:`Image Sampling` panel we tell Blender which source file to use
       Single image file.
 
 :guilabel:`File for Image or Movie texture`:
-   See about supported :doc:`Image <data_system/files/formats>` formats.
+   See about supported :doc:`Image </data_system/files/formats>` formats.
 
    :guilabel:`Pack image`
       Embed image into current .blend file
@@ -484,7 +484,7 @@ For :guilabel:`Generated` source there are the specific options:
    Generate floating point buffer.
 
 
-About specific options for **movie** and **image sequence** source see :doc:`here <textures/types/video>`
+About specific options for **movie** and **image sequence** source see :doc:`here </textures/types/video>`
 
 
 Image Sampling
@@ -544,7 +544,7 @@ the horizontal bar has 50% alpha.
    This tells Blender that the image is to be used to create the illusion of a bumpy surface,
    with each of the three RGB channels controlling how to fake a shadow from a surface irregularity.
    Needs specially prepared input pictures.
-   See :doc:`Bump and Normal Maps <textures/influence/material/bump_and_normal>`.
+   See :doc:`Bump and Normal Maps </textures/influence/material/bump_and_normal>`.
 
 
    :guilabel:`Normal Map Space`:

@@ -21,7 +21,7 @@ Make Edge/Face
    | Hotkey:   :kbd:`F`
 
 
-This will create an edge or some faces, depending on your selection. It is detailed in the :doc:`Basic Editing page <modeling/meshes/editing/basics#edge_and_face_creation>`.
+This will create an edge or some faces, depending on your selection. It is detailed in the :doc:`Basic Editing page </modeling/meshes/editing/basics#edge_and_face_creation>`.
 
 
 Fill
@@ -230,7 +230,7 @@ Solidify
    | Hotkey:   :menuselection:`[ctrl][F] --> Solidify`
 
 
-This takes a selection of faces and solidifies them by extruding them uniformly to give volume to a non-manifold surface. This is also available as a :doc:`Modifier <modifiers/generate/solidify>`. After using the tool, you can set the offset distance in the Tool Palette.
+This takes a selection of faces and solidifies them by extruding them uniformly to give volume to a non-manifold surface. This is also available as a :doc:`Modifier </modifiers/generate/solidify>`. After using the tool, you can set the offset distance in the Tool Palette.
 
 :guilabel:`Thickness`
    Amount to offset the newly created surface. Positive values offset the surface inward relative to the normals. Negative values offset outward.
@@ -286,7 +286,7 @@ It works on the shared edge between two faces and rotates that edge if the edge 
    After rotating edge
 
 
-See :doc:`Rotate Edge CW / Rotate Edge CCW <modeling/meshes/editing/edges#rotate_edge_cw_/_rotate_edge_ccw>` for more information.
+See :doc:`Rotate Edge CW / Rotate Edge CCW </modeling/meshes/editing/edges#rotate_edge_cw_/_rotate_edge_ccw>` for more information.
 
 
 Normals
@@ -294,7 +294,7 @@ Normals
 
 As normals are mainly a face "sub-product", we describe their few options here also.
 
-See :doc:`Smoothing <modeling/meshes/smoothing>` for additional information on working with face normals.
+See :doc:`Smoothing </modeling/meshes/smoothing>` for additional information on working with face normals.
 
 
 Flip Direction

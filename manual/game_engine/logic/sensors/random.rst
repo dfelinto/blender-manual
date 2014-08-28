@@ -12,7 +12,7 @@ Random sensor
 The :guilabel:`Random` sensor generates random pulses.
 
 
-See :doc:`Sensor Common Options <game_engine/logic/sensors/common_options>` for common options.
+See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for common options.
 
 Special Options:
 

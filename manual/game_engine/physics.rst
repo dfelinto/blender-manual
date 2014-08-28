@@ -5,12 +5,12 @@ Blender Physics
 Blender includes advanced physics simulation in the form of the Bullet Physics Engine
 (`BulletPhysics.org <http://bulletphysics.org>`__). Most of your work will involve setting the right properties
 on the objects in your scene---then you can sit back and let the engine take over.
-The physics simulation can be used for :doc:`Games <game_engine>`, but also for
+The physics simulation can be used for :doc:`Games </game_engine>`, but also for
 FIXME(TODO: Internal Link; [[#Recording to Keyframes|Animation]]).
 
 
 The Blender Game Engine (BGE) is based on Rigid-Body Physics, which differs significantly from the complementary set
-of tools available in the form of :doc:`Soft Body Physics Simulations <physics/soft_body>`.
+of tools available in the form of :doc:`Soft Body Physics Simulations </physics/soft_body>`.
 Though the BGE does have a :guilabel:`Soft Body` type, it is not nearly as nuanced as the non-BGE Soft Body.
 The inverse is even more true: it is difficult to get the non-BGE physics to resemble anything like a stiff shape.
 Rigid Body Physics does not have, as an effect or a cause, any mesh deformations.
@@ -21,7 +21,7 @@ FIXME(TODO: Internal Link; [[#Mesh_Deformations|Mesh Deformations]]).
 Getting Started
 ===============
 
-If you have never worked with the BGE, you might want to spend 10-15 minutes by doing the :doc:`Introductory Tutorial <ls/physics/rigid_bodies>`. After that is an interactive example, :doc:`Frijoles <ls/frijoles>`.
+If you have never worked with the BGE, you might want to spend 10-15 minutes by doing the :doc:`Introductory Tutorial </ls/physics/rigid_bodies>`. After that is an interactive example, :doc:`Frijoles </ls/frijoles>`.
 
 The rudiments are:
 
@@ -90,8 +90,8 @@ This means interesting effects such as :guilabel:`Copy Rotation` are unavailable
 
 Your options include:
 
-- :doc:`Parenting <modeling/objects/groups_and_parenting>` - But not Vertex Parenting.
-- :doc:`Rigid Body Joint <constraints/relationship/rigid_body_joint>` - This is the one Constraint that you can set up through the UI that works in the BGE. It has several options, and can be very powerful - see ITS page for a detailed description and demo .blend. Don't forget that you can loop through objects using ``bpy`` instead of clicking thousands of times to set up chains of these Constraints.
+- :doc:`Parenting </modeling/objects/groups_and_parenting>` - But not Vertex Parenting.
+- :doc:`Rigid Body Joint </constraints/relationship/rigid_body_joint>` - This is the one Constraint that you can set up through the UI that works in the BGE. It has several options, and can be very powerful - see ITS page for a detailed description and demo .blend. Don't forget that you can loop through objects using ``bpy`` instead of clicking thousands of times to set up chains of these Constraints.
 - Rigid Body Joints on the Fly - You can add/remove them after the BGE starts by using ``bge.constraints.createConstraint()``. This can be good either to simply automate their setup, or to truly make them dynamic. A simple demo can be viewed in: `BGE-Physics-DynamicallyCreateConstraint.blend <http://wiki.blender.org/index.php/Media:BGE-Physics-DynamicallyCreateConstraint.blend>`__
 - `Python Controllers <http://wiki.blender.org/index.php/User:Sculptorjim/Game_Engine/Logic/Controllers/Python>`__ - As always, in the BGE, you can get the most power when you drop into Python and start toying with the settings directly. For instance, the :guilabel:`Copy Rotation` mentioned above is not hard -- All you have to do is something to the effect of ``own.worldOrientation = bge.logic.getCurrentScene().objects['TheTargetObject'].worldOrientation``
 
@@ -216,7 +216,7 @@ it will at least give you some clues about where the action/inaction areas are i
 
 Don't forget that the animation does not have to play starting from Frame 1.
 The keyframes will insert beginning at your current Frame position,
-or else you can use the :doc:`NLA Editor <animation/editors/nla>`
+or else you can use the :doc:`NLA Editor </animation/editors/nla>`
 and turn these things into :guilabel:`Action Strips`.
 
 

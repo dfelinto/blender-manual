@@ -104,7 +104,7 @@ image above is an example of how a point on a 3D object might be mapped onto a 2
 The UV Editor
 *************
 
-About fuctionalities for mapping UV see :doc:`UV/Image Editor <textures/mapping/uv_image_editor>` section for details.
+About fuctionalities for mapping UV see :doc:`UV/Image Editor </textures/mapping/uv_image_editor>` section for details.
 
 
 Advantages of UVs

@@ -9,7 +9,7 @@ Common Shadowing Lamps Options
    Common shadowing options for lamps
 
 
-All lamps able to cast shadows (:doc:`Lamp <lighting/lamps/lamp>`, :doc:`Spot <lighting/lamps/spot>`, :doc:`Area <lighting/lamps/area>` and :doc:`Sun <lighting/lamps/sun>`) share some options, described below:
+All lamps able to cast shadows (:doc:`Lamp </lighting/lamps/lamp>`, :doc:`Spot </lighting/lamps/spot>`, :doc:`Area </lighting/lamps/area>` and :doc:`Sun </lighting/lamps/sun>`) share some options, described below:
 
 :guilabel:`This Layer Only`
    When this option is enabled, only the objects on the same layer as the light source will cast shadows.
@@ -35,12 +35,12 @@ Shadow color
 See Also
 ========
 
-- :doc:`Shadows <lighting/shadows>`
-- :doc:`Common Raytraced Options <lighting/shadows/raytraced_properties>`
-- :doc:`Lamp Light Raytraced Shadows <lighting/lamps/lamp>`
-- :doc:`Spot Light Raytraced Shadows <lighting/lamps/spot>`
-- :doc:`Area Light Raytraced Shadows <lighting/lamps/area>`
-- :doc:`Sun Light Raytraced Shadows <lighting/lamps/sun>`
-- :doc:`Spot Light Buffered Shadows <lighting/lamps/spot/buffered_shadows>`
+- :doc:`Shadows </lighting/shadows>`
+- :doc:`Common Raytraced Options </lighting/shadows/raytraced_properties>`
+- :doc:`Lamp Light Raytraced Shadows </lighting/lamps/lamp>`
+- :doc:`Spot Light Raytraced Shadows </lighting/lamps/spot>`
+- :doc:`Area Light Raytraced Shadows </lighting/lamps/area>`
+- :doc:`Sun Light Raytraced Shadows </lighting/lamps/sun>`
+- :doc:`Spot Light Buffered Shadows </lighting/lamps/spot/buffered_shadows>`
 
 

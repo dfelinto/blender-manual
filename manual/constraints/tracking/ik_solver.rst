@@ -9,7 +9,7 @@ posing technique. Hence, it is only available for bones.
 To quickly create an IK constraint with a target, select a bone in pose mode,
 and press :kbd:`Shift` :kbd:`I`.
 
-This constraint is fully documented in the :doc:`inverse kinematics page <rigging/posing/inverse_kinematics>` of the rigging chapter.
+This constraint is fully documented in the :doc:`inverse kinematics page </rigging/posing/inverse_kinematics>` of the rigging chapter.
 
 
 Options

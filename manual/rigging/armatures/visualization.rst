@@ -102,7 +102,7 @@ so it gives you no information about root and tip, nor bone size or roll angle.
 B-Bone bone
 -----------
 
-This visualization shows the curves of "smooth" multi-segmented bones; see the :doc:`bone page <rigging/armatures/bones#bones_rigidity>` for details.
+This visualization shows the curves of "smooth" multi-segmented bones; see the :doc:`bone page </rigging/armatures/bones#bones_rigidity>` for details.
 
 
 .. figure:: /images/ManRiggingEnvelopeEx3DViewPoseMode.jpg
@@ -115,7 +115,7 @@ This visualization shows the curves of "smooth" multi-segmented bones; see the :
 Envelope bone
 -------------
 
-This visualization materializes the bone deformation influence. More on this in the :doc:`bone page <rigging/armatures/bones#bones_influence>`.
+This visualization materializes the bone deformation influence. More on this in the :doc:`bone page </rigging/armatures/bones#bones_influence>`.
 
 
 Attributes
@@ -125,7 +125,7 @@ Attributes
    When enabled, the name of each bone is drawn.
 
 :guilabel:`Colors`
-   This is only relevant for :guilabel:`Pose` mode, and is described in detail :doc:`there <rigging/posing/visualization>`.
+   This is only relevant for :guilabel:`Pose` mode, and is described in detail :doc:`there </rigging/posing/visualization>`.
 
 
 :guilabel:`Axes`
@@ -214,7 +214,7 @@ Note that:
 
 - These shapes will never be rendered - like any bone, they are only visible in 3D views.
 - Even if any type of object seems to be accepted by the :guilabel:`OB` field (meshes, curves, even metas...), only meshes really work - all other types just make the bone invisible; nothing is drawn...
-- The center of the shape object will be at the *root of the bone* (see the :doc:`bone page <rigging/armatures/bones>` for root/tip).
+- The center of the shape object will be at the *root of the bone* (see the :doc:`bone page </rigging/armatures/bones>` for root/tip).
 - The object properties of the shape are ignored (i.e. if you make a parallelepiped out of a cube by modifying its dimensions in :guilabel:`Object` mode, you'll still have a cube shaped bone...).
 - The "along bone" axis is the Y one, and the shape object is always scaled so that one Blender Unit stretches along the whole bone length.
 - If you need to remove the custom shape of the bone, just right click in the :guilabel:`Custom Shape` field and select :guilabel:`Reset to default value` in the popup menu.
@@ -260,7 +260,7 @@ Only bones in active layers will be visible/editable - but they will always be e
 Protected Layers
 ================
 
-You can lock a given bone layer for all :doc:`proxies <data_system/linked_libraries#proxy_objects>` of your armature, i.e. all bones in this layer won't be editable. To do so, in the :guilabel:`Skeleton` panel, :kbd:`ctrl-lmb` click on the relevant button, the layer lock will be enabled.
+You can lock a given bone layer for all :doc:`proxies </data_system/linked_libraries#proxy_objects>` of your armature, i.e. all bones in this layer won't be editable. To do so, in the :guilabel:`Skeleton` panel, :kbd:`ctrl-lmb` click on the relevant button, the layer lock will be enabled.
 
 Protected layers in proxy are restored to proxy settings on file reload and undo.
 

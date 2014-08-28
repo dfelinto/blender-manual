@@ -7,7 +7,7 @@ Menus
    The [Space]-menu
 
 
-Blender contains many menus, each of which is accessible from either a window's header or directly at the mouse's location using :doc:`HotKeys <ce/hotkeys>` or by clicking :kbd:`RMB` on a window border, a button or elsewhere on the screen. A context sensitive menu will be displayed if there is one available for that interface element.
+Blender contains many menus, each of which is accessible from either a window's header or directly at the mouse's location using :doc:`HotKeys </ce/hotkeys>` or by clicking :kbd:`RMB` on a window border, a button or elsewhere on the screen. A context sensitive menu will be displayed if there is one available for that interface element.
 
 Additionally, a menu with access to all :guilabel:`Blender` commands is available by pressing
 :kbd:`Space` (shown in the picture). Simply start typing the name of the command you
@@ -19,7 +19,7 @@ If you miss the old tool box menu from version 2.4x,
 you can add something similar with the :guilabel:`3D View: Dynamic Spacebar Menu` Add-On which
 can be installed from the :guilabel:`Add-Ons` tab of the :guilabel:`Preferences window`.
 
-:doc:`Read more about installing Add-Ons » <preferences/addons>`
+:doc:`Read more about installing Add-Ons » </preferences/addons>`
 
 Some menus are context sensitive in that they are only available under certain situations.
 For example, the :guilabel:`specials menu` (:kbd:`W` hotkey)

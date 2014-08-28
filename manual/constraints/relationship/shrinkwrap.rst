@@ -5,7 +5,7 @@
 Shrinkwrap Constraint
 *********************
 
-The :guilabel:`Shrinkwrap` constraint is the "object counterpart" of the :doc:`Shrinkwrap modifier <modifiers/deform/shrinkwrap>`. It moves the owner origin and therefore the owner object's location to the surface of its target.
+The :guilabel:`Shrinkwrap` constraint is the "object counterpart" of the :doc:`Shrinkwrap modifier </modifiers/deform/shrinkwrap>`. It moves the owner origin and therefore the owner object's location to the surface of its target.
 
 This implies that the target *must* have a surface. In fact,
 the constraint is even more selective, as it can only use meshes as targets. Hence,

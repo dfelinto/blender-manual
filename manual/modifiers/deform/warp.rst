@@ -20,7 +20,7 @@ with options for using a curve falloff, texture and vertex group.
    Warp modifier applied to a grid
 
 
-The Warp Modifier is a bit tricky at first, but it helps to understand how it works. The modifier requires two points, specified by object centers. The "from" point designates a point in space that is pulled toward the "to" point. It is akin to using the :doc:`Proportional Editing <3d_interaction/transform_control/proportional_edit>` in edit mode.
+The Warp Modifier is a bit tricky at first, but it helps to understand how it works. The modifier requires two points, specified by object centers. The "from" point designates a point in space that is pulled toward the "to" point. It is akin to using the :doc:`Proportional Editing </3d_interaction/transform_control/proportional_edit>` in edit mode.
 
 
 Options
@@ -40,7 +40,7 @@ Options
 :guilabel:`Radius`
    Sets the distance from the transforms that can be warped by the transform handles.
 :guilabel:`Falloff Type`
-   Sets the way the strength of the warp change as it goes from the center of the transform to the Radius value. See :doc:`Proportional Editing <3d_interaction/transform_control/proportional_edit>` for descriptions of the falloff types.
+   Sets the way the strength of the warp change as it goes from the center of the transform to the Radius value. See :doc:`Proportional Editing </3d_interaction/transform_control/proportional_edit>` for descriptions of the falloff types.
 :guilabel:`Texture`
    Specify a texture the strength is offset by to create variations in the displacement.
 :guilabel:`Texture Coordinates`

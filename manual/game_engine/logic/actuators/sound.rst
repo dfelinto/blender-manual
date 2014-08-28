@@ -14,7 +14,7 @@ Select a sound file from the list or make a new one.
    Sound Actuator
 
 
-See :doc:`Actuator Common Options <game_engine/logic/actuators/common_options>` for common options.
+See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.
 
 Special Options:
 

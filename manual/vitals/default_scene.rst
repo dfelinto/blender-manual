@@ -48,7 +48,7 @@ Restoring the Default Scene to Factory Settings
 
    | Mode:     All modes
    | Menu:     :menuselection:`File --> Load factory Settings`
-   | Hotkey:   Undefined, you can add one for your :doc:`Keymap » <preferences/input>`
+   | Hotkey:   Undefined, you can add one for your :doc:`Keymap » </preferences/input>`
 
 
 To restore the default scene to the factory settings,
@@ -60,6 +60,6 @@ Preferences` back to the original :guilabel:`Factory Settings`. To save the chan
 .. admonition:: User Preferences Window
    :class: note
 
-   For more information about the Editor Window for User Preferences or how to clean your preferences manually, please read the chapter about :doc:`User Preferences <preferences>`
+   For more information about the Editor Window for User Preferences or how to clean your preferences manually, please read the chapter about :doc:`User Preferences </preferences>`
 
 

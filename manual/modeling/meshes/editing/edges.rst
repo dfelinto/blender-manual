@@ -12,7 +12,7 @@ Make Edge/Face
    | Hotkey:   :kbd:`F`
 
 
-It will create an edge or some faces, depending on your selection. We have already discussed this tool in the :doc:`editing basics page <modeling/meshes/editing/basics#edge_and_face_creation>`.
+It will create an edge or some faces, depending on your selection. We have already discussed this tool in the :doc:`editing basics page </modeling/meshes/editing/basics#edge_and_face_creation>`.
 
 
 Set Edge Attributes
@@ -33,7 +33,7 @@ Mark Seam and Clear Seam
    | Hotkey:   :kbd:`ctrl-E-pad1` and :kbd:`ctrl-E-pad2`
 
 
-Seams are a way to create separations, "islands", in UV maps. See the :doc:`UVTexturing section <textures/mapping/uv>` for more details. These commands set or unset this flag for selected edges.
+Seams are a way to create separations, "islands", in UV maps. See the :doc:`UVTexturing section </textures/mapping/uv>` for more details. These commands set or unset this flag for selected edges.
 
 
 Mark Sharp and Clear Sharp
@@ -47,7 +47,7 @@ Mark Sharp and Clear Sharp
    | Hotkey:   :kbd:`ctrl-E-pad1` and :kbd:`ctrl-E-pad2`
 
 
-The :guilabel:`Sharp` flag is used by the :doc:`EdgeSplit modifier <modifiers/generate/edge_split>`, which is part of the smoothing technics. As seams, it is a property of edges, and these commands set or unset it for selected ones.
+The :guilabel:`Sharp` flag is used by the :doc:`EdgeSplit modifier </modifiers/generate/edge_split>`, which is part of the smoothing technics. As seams, it is a property of edges, and these commands set or unset it for selected ones.
 
 
 Adjust Bevel Weight
@@ -61,7 +61,7 @@ Adjust Bevel Weight
    | Hotkey:   :kbd:`ctrl-shift-E`
 
 
-This edge property (a value between **0.0** and **1.0**) is used by the :doc:`Bevel modifier <modifiers/generate/bevel>` to control the bevel intensity of the edges. This command enters an interactive mode (a bit like transform tools), where by moving the mouse (or typing a value with the keyboard) you can set the (average) bevel weight of selected edges.
+This edge property (a value between **0.0** and **1.0**) is used by the :doc:`Bevel modifier </modifiers/generate/bevel>` to control the bevel intensity of the edges. This command enters an interactive mode (a bit like transform tools), where by moving the mouse (or typing a value with the keyboard) you can set the (average) bevel weight of selected edges.
 
 
 Crease SubSurf
@@ -75,7 +75,7 @@ Crease SubSurf
    | Hotkey:   :kbd:`shift-E`
 
 
-This edge property (a value between **0.0** and **1.0**) is used by the :doc:`Subsurf modifier <modifiers/generate/subsurf>` to control the sharpness of the edges in the subdivided mesh. This command enters an interactive mode (a bit like transform tools), where by moving the mouse (or typing a value with the keyboard) you can set the (average) crease value of selected edges. To clear the crease edge property, enter a value of **-1**.
+This edge property (a value between **0.0** and **1.0**) is used by the :doc:`Subsurf modifier </modifiers/generate/subsurf>` to control the sharpness of the edges in the subdivided mesh. This command enters an interactive mode (a bit like transform tools), where by moving the mouse (or typing a value with the keyboard) you can set the (average) crease value of selected edges. To clear the crease edge property, enter a value of **-1**.
 
 
 Edge Slide

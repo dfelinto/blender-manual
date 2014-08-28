@@ -29,7 +29,7 @@ FIXME(TODO: Internal Link;
 Selecting Bones
 ===============
 
-Selection in :guilabel:`Pose` mode is very similar to the one in :doc:`Edit mode <rigging/armatures/selecting>`, with a few specificities:
+Selection in :guilabel:`Pose` mode is very similar to the one in :doc:`Edit mode </rigging/armatures/selecting>`, with a few specificities:
 
 - You can only select *whole bones* in :guilabel:`Pose` mode, not roots/tips...
 
@@ -128,7 +128,7 @@ In-Betweens
 There are several tools for editing poses in an animation.
 
 :guilabel:`Relax Pose` (:menuselection:`Pose --> In-Betweens --> Relax Pose` or :kbd:`alt-E`)
-   Relax pose is somewhat related to the above topic - but it is only useful with keyframed bones (see the :doc:`animation chapter <animation>`). When you edit such a bone (and hence take it "away" from its "keyed position"), using this command will progressively "bring it back" to its "keyed position", with smaller and smaller steps as it comes near it.
+   Relax pose is somewhat related to the above topic - but it is only useful with keyframed bones (see the :doc:`animation chapter </animation>`). When you edit such a bone (and hence take it "away" from its "keyed position"), using this command will progressively "bring it back" to its "keyed position", with smaller and smaller steps as it comes near it.
 
 :guilabel:`Push Pose` (:menuselection:`Pose --> In-Betweens --> Relax Pose` or :kbd:`ctrl-E`)
    Push pose exaggerates the current pose.
@@ -137,7 +137,7 @@ There are several tools for editing poses in an animation.
    Creates a suitable breakdown pose on the current frame
 
 
-There are also in :guilabel:`Pose` mode a bunch of armature-specific editing options/tools, like :doc:`auto-bones naming <rigging/armatures/editing/properties#naming_bones>`, :doc:`properties switching/enabling/disabling <rigging/armatures/editing/properties#properties>`, etc., that we already described in the armature editing pages - follow the links above...
+There are also in :guilabel:`Pose` mode a bunch of armature-specific editing options/tools, like :doc:`auto-bones naming </rigging/armatures/editing/properties#naming_bones>`, :doc:`properties switching/enabling/disabling </rigging/armatures/editing/properties#properties>`, etc., that we already described in the armature editing pages - follow the links above...
 
 
 Copy/Paste Pose
@@ -275,9 +275,9 @@ possible ones below - but this should anyway give you a good idea of the problem
 - When connected and unconnected bones are selected, and you start a grab operation, only the unconnected bones are affected.
 - When a child connected hinge bone is in the selection, and the "most parent" selected one is connected, when you hit :kbd:`G`, nothing happens - Blender remains in grab operation, which of course has no effect on a connected bone. This might be a bug, in fact, as I see no reason for this behavior...
 
-So, when posing a chain of bones, you should always edit its elements from the root bone to the tip bone. This process is known as **forward kinematics**, or FK. We will see in a :doc:`later page <rigging/posing/inverse_kinematics>` that Blender features another pose method, called **inverse kinematics**, or IK, which allows you to pose a whole chain just by moving its tip.
+So, when posing a chain of bones, you should always edit its elements from the root bone to the tip bone. This process is known as **forward kinematics**, or FK. We will see in a :doc:`later page </rigging/posing/inverse_kinematics>` that Blender features another pose method, called **inverse kinematics**, or IK, which allows you to pose a whole chain just by moving its tip.
 
 
-Note that this feature is somewhat extended/completed by the :doc:`pose library <rigging/posing/pose_library>` tool.
+Note that this feature is somewhat extended/completed by the :doc:`pose library </rigging/posing/pose_library>` tool.
 
 

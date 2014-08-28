@@ -48,9 +48,9 @@ to change to the previous screen, press :kbd:`ctrl-left`.
    Screen and Scene selectors
 
 
-By default, each screen layout 'remembers' the last :doc:`scene <interface/scenes>` it was used on. Selecting a different layout will switch to the layout **and** jump to that scene.
+By default, each screen layout 'remembers' the last :doc:`scene </interface/scenes>` it was used on. Selecting a different layout will switch to the layout **and** jump to that scene.
 
-All changes to windows, as described in :doc:`Window system <interface/window_system>` and :doc:`Window types <interface/window_types>`, are saved within one screen. If you change your windows in one screen, other screens won't be affected.
+All changes to windows, as described in :doc:`Window system </interface/window_system>` and :doc:`Window types </interface/window_types>`, are saved within one screen. If you change your windows in one screen, other screens won't be affected.
 
 
 Configuring your Screens
@@ -87,7 +87,7 @@ You can delete a screen by using the :guilabel:`Delete datablock` button (
 Rearranging a Screen
 ====================
 
-Use the :doc:`window controls <interface/window_system/arranging_frames>` to move frame borders, split and consolidate windows. When you have a layout that you like, press :kbd:`ctrl-U` to update your User defaults. Be aware that all of the current scenes become part of those defaults, so consider customizing your layouts with only a single, simple scene.
+Use the :doc:`window controls </interface/window_system/arranging_frames>` to move frame borders, split and consolidate windows. When you have a layout that you like, press :kbd:`ctrl-U` to update your User defaults. Be aware that all of the current scenes become part of those defaults, so consider customizing your layouts with only a single, simple scene.
 
 The properties window has a special option: pressing :kbd:`rmb` on its background will
 allow you to arrange its panels horizontally or vertically. Of the two,
@@ -114,7 +114,7 @@ your workflow as this will help increase your productivity. Some examples could 
    **2-Lighting**
           3D windows for moving lights, UV/Image Window for displaying Render Result, Properties window for rendering and lamp properties and controls
    **3-Material**
-          Properties window for Material settings, 3D window for selecting objects, Outliner, Library script (if used), Node Editor (if using :doc:`Node based materials <materials/nodes>`)
+          Properties window for Material settings, 3D window for selecting objects, Outliner, Library script (if used), Node Editor (if using :doc:`Node based materials </materials/nodes>`)
    **4-UV Layout**
           UV/Image Editor Window, 3D Window for seaming and unwrapping mesh
    **5-Painting**

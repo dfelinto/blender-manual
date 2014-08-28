@@ -5,9 +5,9 @@ Particle Emission
 The :guilabel:`Emitter` system works just like its name says: it emits/produces particles for a certain amount of time.
 In such a system, particles are emitted from the selected object from the :guilabel:`Start`
 frame to the :guilabel:`End` frame and have a certain lifespan.
-These particles are rendered default as :doc:`Halos <materials/halos>`,
+These particles are rendered default as :doc:`Halos </materials/halos>`,
 but you may also render these kind of particles as objects
-(depending on the particle system's render settings, see :doc:`Visualization <physics/particles/visualization>`).
+(depending on the particle system's render settings, see :doc:`Visualization </physics/particles/visualization>`).
 
 
 Options

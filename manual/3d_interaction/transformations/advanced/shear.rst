@@ -28,7 +28,7 @@ Everything that is "above" this axis will move (Shear)
 in the same direction as your mouse pointer (but always parallel to the horizontal axis).
 Everything that is "below" the horizontal axis will move in the opposite direction.
 
-:doc:`Read more about Pivot Points » <3d_interaction/transform_control/pivot_point>`
+:doc:`Read more about Pivot Points » </3d_interaction/transform_control/pivot_point>`
 
 
 Usage

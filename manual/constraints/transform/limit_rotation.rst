@@ -51,7 +51,7 @@ Options
    Note that:
 
    - If a min value is higher than its corresponding max value, the constraint behaves as if it had the same value as the max one.
-   - Unlike the :doc:`Limit Location constraint <constraints/transform/limit_location>`, you cannot enable separately lower or upper limits...
+   - Unlike the :doc:`Limit Location constraint </constraints/transform/limit_location>`, you cannot enable separately lower or upper limits...
 
 :guilabel:`For Transform`
    We saw that by default, even though visually constrained, the owner can still have rotations out of bounds (as shown by the :guilabel:`Transform Properties` panel). Well, when you enable this button, this is no more possible - the owner transform properties are also limited by the constraint.

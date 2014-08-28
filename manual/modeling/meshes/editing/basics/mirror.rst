@@ -60,7 +60,7 @@ even though they are not perfectly positioned.
 Mirror Modifier
 ===============
 
-The conditions for X-mirror to work are quite strict, which can make it difficult to use. To have an exact mirrored version of a (half) mesh, its easier and simpler to use the :doc:`Mirror modifier <modifiers/generate/mirror>`
+The conditions for X-mirror to work are quite strict, which can make it difficult to use. To have an exact mirrored version of a (half) mesh, its easier and simpler to use the :doc:`Mirror modifier </modifiers/generate/mirror>`
 
 
 Snap to Symmetry
@@ -144,4 +144,4 @@ and mirroring over the geometry in the specified axis, and merges the two halves
 Mirroring Geometry
 ==================
 
-See :doc:`Mirror <modeling/meshes/editing/deforming/mirror>` for information on mirroring, which allows you to flip geometry across an axis
+See :doc:`Mirror </modeling/meshes/editing/deforming/mirror>` for information on mirroring, which allows you to flip geometry across an axis

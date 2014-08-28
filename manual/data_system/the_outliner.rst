@@ -15,7 +15,7 @@ Simply use the outliner to find it; select it,
 and move back to your 3D window to snap it back to your cursor (:kbd:`shift-S` 
 :guilabel:`→ Selection → Cursor`).
 
-Another more practical example is to evaluate the impact of a change on related :doc:`datablocks <data_system/datablocks>`. Suppose you are looking at your ``TableTop`` object, and it doesn't look right, the ``Wood`` material doesn't look right; you want it to look more like mahogany. Since the same material can be used by many meshes, you're not sure how many things will change color when you change the material. Using the :guilabel:`Outliner`, you could find that material and trace the links that it has to every mesh in your scene.
+Another more practical example is to evaluate the impact of a change on related :doc:`datablocks </data_system/datablocks>`. Suppose you are looking at your ``TableTop`` object, and it doesn't look right, the ``Wood`` material doesn't look right; you want it to look more like mahogany. Since the same material can be used by many meshes, you're not sure how many things will change color when you change the material. Using the :guilabel:`Outliner`, you could find that material and trace the links that it has to every mesh in your scene.
 
 
 Outliner view
@@ -229,7 +229,7 @@ FIXME(TODO: Internal Link;
   You can select multiple objects by :kbd:`shift-rmb` -clicking.
 - :guilabel:`Active` - Lists only the active (often last selected) object.
 - :guilabel:`Same Types` - Lists only those objects in the current scene that are of the same types as those selected in the 3d window.
-- :guilabel:`Groups` - Lists only :doc:`Groups <modeling/objects/groups_and_parenting>` and their members.
+- :guilabel:`Groups` - Lists only :doc:`Groups </modeling/objects/groups_and_parenting>` and their members.
 - :guilabel:`Libraries` - TODO
 - :guilabel:`Sequence` - TODO
 - :guilabel:`Data Blocks` - TODO

@@ -24,11 +24,11 @@ Points` from a drop-down list in the header of any 3D area, as seen here in
 The pages linked below describe each :guilabel:`Pivot Point` mode in more detail.
 
 
-- :doc:`Active element <3d_interaction/transform_control/pivot_point/active_element>`
-- :doc:`Median Point <3d_interaction/transform_control/pivot_point/median_point>`
-- :doc:`Individual Origins <3d_interaction/transform_control/pivot_point/individual_origins>`
-- :doc:`3D Cursor <3d_interaction/transform_control/pivot_point/3d_cursor>`
-- :doc:`Bounding Box Center <3d_interaction/transform_control/pivot_point/bounding_box_center>`
+- :doc:`Active element </3d_interaction/transform_control/pivot_point/active_element>`
+- :doc:`Median Point </3d_interaction/transform_control/pivot_point/median_point>`
+- :doc:`Individual Origins </3d_interaction/transform_control/pivot_point/individual_origins>`
+- :doc:`3D Cursor </3d_interaction/transform_control/pivot_point/3d_cursor>`
+- :doc:`Bounding Box Center </3d_interaction/transform_control/pivot_point/bounding_box_center>`
 
 Note that even if the above examples use meshes, the same rules apply for other types (curves,
 surfaces...) as well.

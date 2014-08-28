@@ -2,11 +2,11 @@
 Collisions
 **********
 
-:doc:`Particles <physics/particles>`, :doc:`Soft Bodies <physics/soft_body>` and :doc:`Cloth objects <physics/cloth>` may collide with mesh objects. :doc:`Boids <physics/particles/physics/boids>` try to avoid :guilabel:`Collision` objects.
+:doc:`Particles </physics/particles>`, :doc:`Soft Bodies </physics/soft_body>` and :doc:`Cloth objects </physics/cloth>` may collide with mesh objects. :doc:`Boids </physics/particles/physics/boids>` try to avoid :guilabel:`Collision` objects.
 
 
 - The objects need to share at least one common layer to have effect.
-- You may limit the effect on particles to a group of objects (in the :doc:`Field Weights panel <physics/particles/physics>`).
+- You may limit the effect on particles to a group of objects (in the :doc:`Field Weights panel </physics/particles/physics>`).
 - *Deflection* for softbody objects is difficult, they often penetrate the colliding objects.
 - :guilabel:`Hair` particles ignore deflecting objects (but you can animate them as softbodies which take deflection into account).
 
@@ -70,7 +70,7 @@ Outside and inside is defined by the face normal, depicted as blue arrow in (*Im
    Damping during a collision.
 
 *Softbody* collisions are difficult to get perfect. If one of the objects move too fast,
-the soft body will penetrate the mesh. See also the section about :doc:`Soft Bodies <physics/soft_body>`.
+the soft body will penetrate the mesh. See also the section about :doc:`Soft Bodies </physics/soft_body>`.
 
 
 

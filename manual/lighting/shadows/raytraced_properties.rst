@@ -9,7 +9,7 @@ Lamps Raytraced Shadows
    Ray shadowing options for lamps
 
 
-Most lamp types (:doc:`Lamp <lighting/lamps/lamp>`, :doc:`Spot <lighting/lamps/spot>` and :doc:`Sun <lighting/lamps/sun>`) share the same options for the ray-traced shadows generation, which are described below. Note that the :doc:`Area <lighting/lamps/area>` lamp, even though using most of these options, have some specifics described in its :doc:`own ray-traced shadows page <lighting/lamps/area/raytraced_shadows>`.
+Most lamp types (:doc:`Lamp </lighting/lamps/lamp>`, :doc:`Spot </lighting/lamps/spot>` and :doc:`Sun </lighting/lamps/sun>`) share the same options for the ray-traced shadows generation, which are described below. Note that the :doc:`Area </lighting/lamps/area>` lamp, even though using most of these options, have some specifics described in its :doc:`own ray-traced shadows page </lighting/lamps/area/raytraced_shadows>`.
 
 :guilabel:`Ray Shadow`
    The :guilabel:`Ray Shadow` button enables the light source to generate ray-traced shadows.

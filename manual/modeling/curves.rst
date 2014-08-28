@@ -7,7 +7,7 @@ Curves
    Bird logo made from Bezier curves.
 
 
-Curves and :doc:`Surfaces <modeling/surfaces>` are particular types of Blender Objects. They are expressed by mathematical functions rather than a series of points. Blender offers both
+Curves and :doc:`Surfaces </modeling/surfaces>` are particular types of Blender Objects. They are expressed by mathematical functions rather than a series of points. Blender offers both
 FIXME(TODO: Internal Link;
 [[#Beziers|Bezier]]
 ) curves and
@@ -19,17 +19,17 @@ The main advantage to using curves instead of polygonal meshes is that curves ar
 less data and so can produce excellent results using less memory and storage space at modeling
 time. However, this procedural approach to surfaces can increase demands at render time.
 
-Certain modeling techniques, such as :doc:`extruding a profile along a path <modeling/curves/editing/advanced#curve_extrusion>`, are possible only using curves. On the other hand, when using curves, vertex-level control is more difficult and if fine control is necessary, :doc:`mesh editing <modeling/meshes/editing>` may be a better modeling option.
+Certain modeling techniques, such as :doc:`extruding a profile along a path </modeling/curves/editing/advanced#curve_extrusion>`, are possible only using curves. On the other hand, when using curves, vertex-level control is more difficult and if fine control is necessary, :doc:`mesh editing </modeling/meshes/editing>` may be a better modeling option.
 
-Bezier curves are the most commonly used curves for designing letters or logos. They are also widely used in animation, both as :doc:`paths <animation/techs/object/path>` for objects to move along and as :doc:`F-curves <animation/editors/graph/fcurves>` to change the properties of objects as a function of time.
+Bezier curves are the most commonly used curves for designing letters or logos. They are also widely used in animation, both as :doc:`paths </animation/techs/object/path>` for objects to move along and as :doc:`F-curves </animation/editors/graph/fcurves>` to change the properties of objects as a function of time.
 
 
 Tutorials
 ---------
 
-:doc:`Create the bird logo with Bezier Curves » <ls/modeling/curves/bézier>`
+:doc:`Create the bird logo with Bezier Curves » </ls/modeling/curves/bézier>`
 
-:doc:`Skinning: Making a surface with two or more curves » <ls/modeling/surfaces/skinning>`
+:doc:`Skinning: Making a surface with two or more curves » </ls/modeling/surfaces/skinning>`
 
 
 Curve Primitives
@@ -175,9 +175,9 @@ Shape
 :guilabel:`Path/Curve-Deform`
    These options are primarily utilized when using a Curve as a Path or when using the Curve Deform property. The :guilabel:`Radius, Stretch` and :guilabel:`Bounds Clamp` options control how Objects use the Curve and are dealt with in more detail in the appropriate links below.
 
-:doc:`Read more about Basic Curve Editing » <modeling/curves/editing>`
-:doc:`Read more about Paths » <animation/techs/object/path>`
-:doc:`Read more about Curve Deform » <modeling/curves/editing/advanced>`
+:doc:`Read more about Basic Curve Editing » </modeling/curves/editing>`
+:doc:`Read more about Paths » </animation/techs/object/path>`
+:doc:`Read more about Curve Deform » </modeling/curves/editing/advanced>`
 
 
 Geometry
@@ -256,7 +256,7 @@ Geometry
    A Curve with no Bevel factor applied (left), with a 50% Start Bevel Factor (middle) and with a 25% End Bevel Factor (right).
 
 
-:doc:`Read more about Advanced Curve Editing » <modeling/curves/editing/advanced>`
+:doc:`Read more about Advanced Curve Editing » </modeling/curves/editing/advanced>`
 
 
 Path Animation
@@ -265,7 +265,7 @@ Path Animation
 The Path Animation settings can be used to determine how Objects move along a certain path.
 See the link below for further information.
 
-:doc:`Read more about utilizing Curves for paths during animation » <animation/techs/object/path>`
+:doc:`Read more about utilizing Curves for paths during animation » </animation/techs/object/path>`
 
 
 Active Spline
@@ -369,7 +369,7 @@ Path
 ----
 
 
-As mentioned above, Curves are often used as :doc:`paths <animation/techs/object/path>`. Any curve can be used as a Path if the :guilabel:`Path Animation` option is selected.
+As mentioned above, Curves are often used as :doc:`paths </animation/techs/object/path>`. Any curve can be used as a Path if the :guilabel:`Path Animation` option is selected.
 
 The Path option available from the :guilabel:`Add Curve` menu is identical to a 3D NURBS
 curve, except that you do not have access to the :guilabel:`Active Spline` panel.

@@ -5,7 +5,7 @@ Game Actuator
 The Game actuator allows the user to perform Game-specific functions, such as Restart Game,
 Quit Game and Load Game.
 
-See :doc:`Actuator Common Options <game_engine/logic/actuators/common_options>` for common options.
+See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.
 
 Special Options:
 

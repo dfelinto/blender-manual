@@ -30,7 +30,7 @@ Diffuse
 :guilabel:`Color`
    Amount texture affect the basic color or RGB value of the material
 :guilabel:`Alpha`
-   Influences the opacity of the material. See :doc:`Use Alpha for Object Transparency <ls/textures/use_alpha_for_object_transparency>`. Also use :guilabel:`Z Transparency` for light and if combining multiple channels.
+   Influences the opacity of the material. See :doc:`Use Alpha for Object Transparency </ls/textures/use_alpha_for_object_transparency>`. Also use :guilabel:`Z Transparency` for light and if combining multiple channels.
 :guilabel:`Translucency`
    Influences the Translucency amount.
 
@@ -67,14 +67,14 @@ Geometry
 :guilabel:`Warp`
    :guilabel:`Warp` allows textures to influence/distort the texture coordinates of a next texture channel. The distortion remains active over all subsequent channels, until a new Warp has been set. Setting the factor at zero cancels out the effect.
 :guilabel:`Displace`
-   Influences the Displacement of vertices, for using :doc:`Displacement Maps <textures/influence/material/displacement>`.
+   Influences the Displacement of vertices, for using :doc:`Displacement Maps </textures/influence/material/displacement>`.
 
 
 Other Controls
 --------------
 
 :guilabel:`Blend`
-   Blending operation to perform. See :doc:`Texture Blending Modes <textures/influence/material/blending_modes>` for details.
+   Blending operation to perform. See :doc:`Texture Blending Modes </textures/influence/material/blending_modes>` for details.
 :guilabel:`RGB to intensity`
    With this option enabled, an RGB texture (affects color) is used as an intensity texture (affects a value).
 :guilabel:`Blend Color`

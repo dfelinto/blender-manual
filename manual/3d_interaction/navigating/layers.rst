@@ -20,9 +20,9 @@ Using object layers, you can:
 - Selectively display objects from certain layers in your 3D view,
   by selecting those layers in the :guilabel:`3D View` header bar. This allows you to speed up interface redrawing,
   reduce virtual-world clutter, and help improve your workflow.
-- Control :doc:`which lights illuminate an object <lighting/lights/what_light_affects>`,
+- Control :doc:`which lights illuminate an object </lighting/lights/what_light_affects>`,
   by making a light illuminate only the objects on its own layer(s).
-- Control which forces affect which :doc:`particle systems <physics/particles>`,
+- Control which forces affect which :doc:`particle systems </physics/particles>`,
   since particles are only affected by forces and effects on the same layer.
 - Control which layers are rendered (and hence, which objects),
   and which properties/channels are made available for compositing by using
@@ -34,7 +34,7 @@ this can quickly become cluttered. Therefore, Blender also provides layers just 
 Armature layers are very similar to object layers, in that you can divide up an armature (rig)
 across layers and only display those layers you wish to work on.
 
-:doc:`Read more about armature layers » <rigging/armatures/visualization#armature_layers>`
+:doc:`Read more about armature layers » </rigging/armatures/visualization#armature_layers>`
 
 
 Working with Layers
@@ -48,7 +48,7 @@ When rendering, Blender only renders the selected layers.
 If all your lights are on a layer that is *not selected*,
 you won't see anything in your render except for objects lit by ambient lighting.
 
-:doc:`Groups and Parenting <modeling/objects/groups_and_parenting>`
+:doc:`Groups and Parenting </modeling/objects/groups_and_parenting>`
 are other ways to logically group related sets of objects.
 Please refer to the relevant sections for more information.
 
@@ -82,7 +82,7 @@ Locking to the scene
 
 By default, the lock button directly to the right of the layer buttons is enabled.
 This means that changes to the viewed layers affect all other 3D Views locked to the scene -
-see the :doc:`navigating the 3D view options page <3d_interaction/navigating>` for more information.
+see the :doc:`navigating the 3D view options page </3d_interaction/navigating>` for more information.
 
 
 Multiple Layers

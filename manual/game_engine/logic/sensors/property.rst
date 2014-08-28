@@ -11,7 +11,7 @@ Property Sensor
 
 The :guilabel:`Property` sensor detects changes in the properties of its owner object.
 
-See :doc:`Sensor Common Options <game_engine/logic/sensors/common_options>` for common options.
+See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for common options.
 
 Special Options:
 

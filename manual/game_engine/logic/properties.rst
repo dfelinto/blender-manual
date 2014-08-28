@@ -27,7 +27,7 @@ There are five types of properties:
 Using Properties
 ================
 
-Properties can be set up and initialised in the Properties panel of the Logic Editor - see the :doc:`Property Editing <game_engine/logic/properties/editing>` page for details.  When a game is running, values of properties are set, manipulated, and evaluated using the :doc:`Property Sensor <game_engine/logic/sensors/property>` and the :doc:`Property Actuator <game_engine/logic/actuators/property>`.
+Properties can be set up and initialised in the Properties panel of the Logic Editor - see the :doc:`Property Editing </game_engine/logic/properties/editing>` page for details.  When a game is running, values of properties are set, manipulated, and evaluated using the :doc:`Property Sensor </game_engine/logic/sensors/property>` and the :doc:`Property Actuator </game_engine/logic/actuators/property>`.
 
 
 FIXME(Template Unsupported: Category:Game engine;

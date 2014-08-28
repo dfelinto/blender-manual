@@ -63,7 +63,7 @@ Soft Bodies react only to:
 Soft bodies do react on :guilabel:`Harmonic` fields, but not in a useful way.
 So if you use a :guilabel:`Harmonic` field for particles move the Soft body to another layer.
 
-See the section :doc:`Force Fields <physics/force_fields>` for details. The force fields are quite strong, a :guilabel:`Spherical` field with a strength of -1.0 has the same effect that gravity has - approximately - a force of 10 Newton.
+See the section :doc:`Force Fields </physics/force_fields>` for details. The force fields are quite strong, a :guilabel:`Spherical` field with a strength of -1.0 has the same effect that gravity has - approximately - a force of 10 Newton.
 
 
 Aerodynamics
@@ -115,10 +115,10 @@ Imagine the vertex is connected with it's target through a spring (*Image 2b*).
    this button instead shows an popup selector button that allows you to choose the name of the goal vertex group.
    If you use a vertex group the weight of a vertex defines its goal.
 
-   Often :doc:`weight painting <modeling/meshes/weight_paint>` is used to adjust the weight comfortably.
+   Often :doc:`weight painting </modeling/meshes/weight_paint>` is used to adjust the weight comfortably.
    For non-mesh objects the :guilabel:`Weight` parameter of their vertices/controlpoints is used instead
    (:kbd:`W` in :guilabel:`Edit mode`, or use the :guilabel:`Transform Properties` panel).
-   The weight of :guilabel:`Hair` particles can also be painted in :doc:`Particle Mode <physics/particles/mode>`.
+   The weight of :guilabel:`Hair` particles can also be painted in :doc:`Particle Mode </physics/particles/mode>`.
 
 
 :guilabel:`Minimum` / :guilabel:`Maximum`

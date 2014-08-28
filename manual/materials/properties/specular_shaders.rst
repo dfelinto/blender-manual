@@ -10,7 +10,7 @@ Specular Shaders
 
 
 Specular shaders create the bright highlights that one would see on a glossy surface,
-mimicking the reflection of light sources. Unlike :doc:`diffuse shading <materials/properties/diffuse_shaders>`,
+mimicking the reflection of light sources. Unlike :doc:`diffuse shading </materials/properties/diffuse_shaders>`,
 specular reflection is *viewpoint dependent*.
 According to Snell's Law, light striking a specular surface will be reflected at an angle which mirrors the
 incident light angle (with regard to the surface's normal), which makes the viewing angle very important.
@@ -22,7 +22,7 @@ incident light angle (with regard to the surface's normal), which makes the view
    phenomenon discussed here is not the reflection we would see in a mirror,
    but rather the light highlights we would see on a glossy surface.
    To obtain true mirror-like reflections you would need to use the internal raytracer.
-   Please refer to section :doc:`RENDERING <render>` of this manual.
+   Please refer to section :doc:`RENDERING </render>` of this manual.
 
 
 Common Options
@@ -35,7 +35,7 @@ Each specular shader share the following common options:
 **Intensity**
    The intensity, or brightness of the specular highlight. This has a range of [0-1].
 **Ramp**
-   Allows you to set a range of specular colors for :guilabel:`Material`, and define how the range will vary over a surface. See :doc:`Ramps <materials/properties/ramps>` for details.
+   Allows you to set a range of specular colors for :guilabel:`Material`, and define how the range will vary over a surface. See :doc:`Ramps </materials/properties/ramps>` for details.
 
 As a result, a material has at least two different colors, a diffuse, and a specular one.
 The specular color is normally set to pure white

@@ -17,7 +17,7 @@ They have three elements:
 - the "body" itself,
 - and the "end point" named **tip** or **tail**.
 
-Select the :doc:`default armature <rigging/armatures/object_mode#your_first_armature>` and press :kbd:`tab` to enter :guilabel:`Edit mode`. As you can see, in this mode you can select the root and the tip, and move them as you do with mesh vertices (don't lose too much time here though, specific pages about selecting and editing will come later).
+Select the :doc:`default armature </rigging/armatures/object_mode#your_first_armature>` and press :kbd:`tab` to enter :guilabel:`Edit mode`. As you can see, in this mode you can select the root and the tip, and move them as you do with mesh vertices (don't lose too much time here though, specific pages about selecting and editing will come later).
 
 Both root and tip (the "ends") define the bone by their respective position.
 
@@ -59,7 +59,7 @@ Bones can be visualized in various ways: :guilabel:`Octahedron`, :guilabel:`Stic
    Envelope bone display.
 
 
-Since armatures are made of bones, you'll find more about this when we'll talk about :doc:`Armatures Visualization <rigging/armatures/visualization>`.
+Since armatures are made of bones, you'll find more about this when we'll talk about :doc:`Armatures Visualization </rigging/armatures/visualization>`.
 
 Activating :guilabel:`Axes` checkmark on the :guilabel:`Armature` / :guilabel:`Display` panel,
 will show local axes for each bone's tip. The Y axis is always aligned along the bone,
@@ -121,9 +121,9 @@ you can't see these segments in :guilabel:`Object mode`, because they're aligned
    The same armature in Object mode
 
 
-When you connect bones to form a :doc:`chain <rigging/armatures/structure#chains_of_bones>`, Blender calculates a Bezier curve passing through all the bones' ends, and bones' segments in the chain will bend and roll to follow this invisible curve.
+When you connect bones to form a :doc:`chain </rigging/armatures/structure#chains_of_bones>`, Blender calculates a Bezier curve passing through all the bones' ends, and bones' segments in the chain will bend and roll to follow this invisible curve.
 
-*You have no direct access to this curve*; you can only control it to some extent using bone properties, as explained in the :doc:`editing pages <rigging/armatures/editing/properties#bone_rigidity_settings>`.
+*You have no direct access to this curve*; you can only control it to some extent using bone properties, as explained in the :doc:`editing pages </rigging/armatures/editing/properties#bone_rigidity_settings>`.
 
 In :guilabel:`An armature of B-Bones in Edit mode` we connected 3 bones,
 each one made of 5 segments. These are :guilabel:`B-bones` but as you see,
@@ -136,9 +136,9 @@ a geometry influenced by the chain is smoothly deformed according to the Bezier 
 In fact,
 smooth bones are an easy way to replace long chains of many small rigid bones posed using IK...
 
-However, if the chain has an influence on objects rather than geometry, the segments' orientation is not taken in account (details are explained in the :doc:`skinning part <rigging/skinning>`).
+However, if the chain has an influence on objects rather than geometry, the segments' orientation is not taken in account (details are explained in the :doc:`skinning part </rigging/skinning>`).
 
-When not visualized as :guilabel:`B-Bone` s, bones are always shown as rigid sticks, *even though the bone segments are still present and effective* (see :doc:`skinning to ObData <rigging/skinning/obdata>`).
+When not visualized as :guilabel:`B-Bone` s, bones are always shown as rigid sticks, *even though the bone segments are still present and effective* (see :doc:`skinning to ObData </rigging/skinning/obdata>`).
 
 This means that even in e.g. :guilabel:`Octahedron` visualization,
 if some bones in a chain have several segments,
@@ -180,6 +180,6 @@ which depends on:
    Our armature in Envelope visualization, in Pose mode.
 
 
-All these influence parameters are further detailed in the :doc:`skinning pages <rigging/skinning>`.
+All these influence parameters are further detailed in the :doc:`skinning pages </rigging/skinning>`.
 
 

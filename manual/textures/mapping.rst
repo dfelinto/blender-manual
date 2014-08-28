@@ -45,7 +45,7 @@ Coordinates
   You can almost think of UV coordinates as a mapping that works on a 2D plane with its own local coordinate system
   to the plane on which it is operating on.
   This mapping is especially useful when using 2D images as textures,
-  as seen in :doc:`UV Mapping <textures/mapping/uv>`.
+  as seen in :doc:`UV Mapping </textures/mapping/uv>`.
   You can use multiple textures with one set of UV coordinates.
 
   - :guilabel:`Layer`
@@ -57,7 +57,7 @@ Coordinates
   Uses a mesh's sticky coordinates, which are a form of per-vertex UV co-ordinates.
   If you have made sticky coordinates first (in (usually)
   :guilabel:`Camera View` → :kbd:`Space` → type :guilabel:`Sticky` →  choose :guilabel:`Add Sticky` / :guilabel:`Remove Sticky`),
-  the texture can be rendered in camera view (so called :doc:`Camera Mapping <ls/textures/uv/camera_mapping>`).
+  the texture can be rendered in camera view (so called :doc:`Camera Mapping </ls/textures/uv/camera_mapping>`).
 - :guilabel:`Window`
   The rendered image window coordinates. This is well suited to blending two objects.
 - :guilabel:`Normal`

@@ -2,7 +2,7 @@
 Particle Mode
 *************
 
-Using :guilabel:`Particle Mode` you can edit the key-points (key-frames) and paths of :guilabel:`Baked` :doc:`Hair <physics/particles/hair>`, :doc:`Particle <physics/particles>`, :doc:`Cloth <physics/cloth>`, and :doc:`Soft Body <physics/soft_body>` simulations. (You can also edit and style hair before baking).
+Using :guilabel:`Particle Mode` you can edit the key-points (key-frames) and paths of :guilabel:`Baked` :doc:`Hair </physics/particles/hair>`, :doc:`Particle </physics/particles>`, :doc:`Cloth </physics/cloth>`, and :doc:`Soft Body </physics/soft_body>` simulations. (You can also edit and style hair before baking).
 
 Since working in particle mode is pretty easy and very similar to working with vertices in the
 3D window, we will show how to set up a particle system and then give a reference of the
@@ -15,7 +15,7 @@ Ways to use Particle Mode
 .. admonition:: Only Frames Baked to Memory are Editable!
    :class: nicetip
 
-   If you cannot edit the particles, check that you are not baking to a :doc:`Disk Cache <physics/particles/cache_and_bake>`.
+   If you cannot edit the particles, check that you are not baking to a :doc:`Disk Cache </physics/particles/cache_and_bake>`.
 
 
 **Setup for Hair Particles**
@@ -48,7 +48,7 @@ FIXME(Template Unsupported: Shortcut/Keypress;
 
  **Bake the Simulation**
 
-- Once you are happy with the general simulation, :doc:`bake <physics/particles/cache_and_bake>` the simulation from object mode. The simulation must be baked to enable editing. (remember to bake to memory, a disk cache will not be editable in :guilabel:`Particle Mode`)
+- Once you are happy with the general simulation, :doc:`bake </physics/particles/cache_and_bake>` the simulation from object mode. The simulation must be baked to enable editing. (remember to bake to memory, a disk cache will not be editable in :guilabel:`Particle Mode`)
 
 **Edit the Simulation**
 

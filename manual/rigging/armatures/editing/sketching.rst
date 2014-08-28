@@ -69,7 +69,7 @@ So, each stroke you draw will be a chain of bones, oriented from the starting po
 (the reddest or most orange part of the stroke) to its end (its whitest part).
 A stroke is made of several segments, delimited by small black dots - there will be at least one bone per segment
 (except with the* :guilabel:`Template` conversion method,
-see :doc:`next page <rigging/armatures/editing/templating>`),
+see :doc:`next page </rigging/armatures/editing/templating>`),
 so all black points represents future bones' ends.
 There are two types of segments, which can be mixed together:
 
@@ -105,7 +105,7 @@ The free segments of a stroke will create different number of bones, in differen
 depending on the conversion method used. The future bones' ends for the current selected method are
 represented by small green dots for each one of those segments, for the selected strokes only.
 The free segment drawing uses the same* :guilabel:`Manhattan Dist`
-setting as the :doc:`grease pencil tool <3d_interaction/sketching>`
+setting as the :doc:`grease pencil tool </3d_interaction/sketching>`
 (:guilabel:`User Preferences` *window,* :guilabel:`Edit Methods` "panel", :guilabel:`Grease Pencil` group)
 to control where and when to add a new point to the segment - so if you feel your free segments are too detailed,
 raise this value a bit, and if you find them too jagged, lower it.
@@ -131,7 +131,7 @@ You finalize a whole stroke by clicking* :kbd:`rmb`. You can cancel the stroke y
 You can also snap strokes to underlying meshes by holding* :kbd:`ctrl` while drawing. By the way,
 the :guilabel:`Peel Objects` *button at the bottom of the* :guilabel:`Bone Sketching` panel is the same thing as the
 "monkey" button of the snapping header bar controls shown when* :guilabel:`Volume` snap element is selected - see the
-:doc:`snap to mesh <3d_interaction/manipulation/snapping#snap_element>` page for details.
+:doc:`snap to mesh </3d_interaction/manipulation/snapping#snap_element>` page for details.
 
 
 Selecting Strokes
@@ -262,7 +262,7 @@ Note that converting a stroke does not delete it.
 There are four different conversion methods - three "simple" ones, and one more advanced and complex,
 :guilabel:`Template`, that reuses bones from the same armature or from another
 one as a template for the strokes to convert, and which is detailed in 
-:doc:`the next page <rigging/armatures/editing/templating>`.
+:doc:`the next page </rigging/armatures/editing/templating>`.
 Anyway, remember that* straight segments are always converted to one and only one bone
 (except for the :guilabel:`Template` conversion method),
 and that the future bones' ends are shown as green dots on selected free segments.
@@ -335,7 +335,7 @@ Retarget
 Retarget template bone chain to stroke.
 
 :guilabel:`Template`
-   Template armature that will be retargeted to the stroke. This is a more complex topic, detailed in its :doc:`own page <rigging/armatures/editing/templating>`.
+   Template armature that will be retargeted to the stroke. This is a more complex topic, detailed in its :doc:`own page </rigging/armatures/editing/templating>`.
 
 
 :guilabel:`Retarget roll mode`

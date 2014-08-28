@@ -178,7 +178,7 @@ Convert text to text object
    :figwidth: 250px
 
 
-An easy way to get text into Blender is to type it in :doc:`The Text Editor <extensions/python/text_editor>`. It is suggested to do this with a :doc:`split window <interface/window_system/arranging_frames#splitting_a_window>` as you will be able to see the 3D view port and text editor at the same time. In the :guilabel:`Text Editor` select *Text > Create Text Block*. Then begin typing. When finished, select *Edit >> Text to 3D Object >> One Object* or *One Object per Line* depending on your needs. It is also possible to load a text file via *Text >> Open Text Block* which can be useful for importing large amounts of text at once.
+An easy way to get text into Blender is to type it in :doc:`The Text Editor </extensions/python/text_editor>`. It is suggested to do this with a :doc:`split window </interface/window_system/arranging_frames#splitting_a_window>` as you will be able to see the 3D view port and text editor at the same time. In the :guilabel:`Text Editor` select *Text > Create Text Block*. Then begin typing. When finished, select *Edit >> Text to 3D Object >> One Object* or *One Object per Line* depending on your needs. It is also possible to load a text file via *Text >> Open Text Block* which can be useful for importing large amounts of text at once.
 
 
 3D Mesh
@@ -193,7 +193,7 @@ FIXME(TODO: Internal Link;
 ) and select your Text Object. Press :kbd:`Alt-C` and select *Mesh From Curve/Meta/Surf/Text*. Now you can return to
 FIXME(TODO: Internal Link;
 [[Edit Mode]]
-) and manually edit the vertices. They are usually a bit messy, so it may be useful to use a *Limited Dissolve* deletion or *Remesh* Object :doc:`Modifier <modifiers>` at a low threshold to clean up your mesh.
+) and manually edit the vertices. They are usually a bit messy, so it may be useful to use a *Limited Dissolve* deletion or *Remesh* Object :doc:`Modifier </modifiers>` at a low threshold to clean up your mesh.
 
 
 .. figure:: /images/TextObjectFromText.jpg
@@ -321,7 +321,7 @@ corresponding chars.
 Text on Curve
 -------------
 
-With the :doc:`curve modifier <modifiers/deform/curve>` you can let text follow a curve.
+With the :doc:`curve modifier </modifiers/deform/curve>` you can let text follow a curve.
 
 
 .. figure:: /images/2.5_Manual-Part-II-Text-Curved-LowRes-Ex.jpg
@@ -475,9 +475,9 @@ Resolution
 ==========
 
 :guilabel:`Preview`
-   the :doc:`resolution <modeling/curves#curve_resolution>` in the viewport.
+   the :doc:`resolution </modeling/curves#curve_resolution>` in the viewport.
 :guilabel:`Render`
-   the :doc:`resolution <modeling/curves#curve_resolution>` on the render.
+   the :doc:`resolution </modeling/curves#curve_resolution>` on the render.
 
 
 .. figure:: /images/TextShapeSettings.jpg
@@ -524,6 +524,6 @@ Textures
 Geometry
 ********
 
-Text objects have all the :doc:`curves extrusion features <modeling/curves/editing/advanced#extrusion>`.
+Text objects have all the :doc:`curves extrusion features </modeling/curves/editing/advanced#extrusion>`.
 
 

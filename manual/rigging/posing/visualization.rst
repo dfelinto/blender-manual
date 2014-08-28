@@ -5,7 +5,7 @@
 Visualization
 *************
 
-We talk in :doc:`this page <rigging/armatures/visualization>` about the armature visualization options available in all modes (the visualization types, the bones' shapes, etc.).
+We talk in :doc:`this page </rigging/armatures/visualization>` about the armature visualization options available in all modes (the visualization types, the bones' shapes, etc.).
 
 In :guilabel:`Pose` mode, you have extra features,
 FIXME(TODO: Internal Link;
@@ -45,7 +45,7 @@ ordered here by precedence (i.e. the bone will be of the color of the topmost va
 
 **FIXME(Tag Unsupported:span;
 <span style="color:#6767A5">Purple</span>
-)** : The :doc:`Stride Root bone <animation/techs/armatures/stride>`.
+)** : The :doc:`Stride Root bone </animation/techs/armatures/stride>`.
 
 -
 
@@ -57,7 +57,7 @@ ordered here by precedence (i.e. the bone will be of the color of the topmost va
 
 **FIXME(Tag Unsupported:span;
 <span style="color:#B6B666">Yellow</span>
-)** : A bone with an :doc:`IK Solver constraint <constraints/tracking/ik_solver>`.
+)** : A bone with an :doc:`IK Solver constraint </constraints/tracking/ik_solver>`.
 
 -
 

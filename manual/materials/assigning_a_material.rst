@@ -57,8 +57,8 @@ This action has a series of effects:
 - brings up additional buttons in the immediate panel,
 - adds the new material to the Available Materials list,
 - adds the new material to the Object Material Slots list for the active object (or its object data - see below)
-- brings up a :doc:`preview <materials/preview>` of the new material,
-- provides you with a range of panels allowing you to select the :doc:`properties <materials/properties/introduction>` of the new material.
+- brings up a :doc:`preview </materials/preview>` of the new material,
+- provides you with a range of panels allowing you to select the :doc:`properties </materials/properties/introduction>` of the new material.
 
 
 New Material Panel Buttons
@@ -110,7 +110,7 @@ Material are as follows:
 
    The Link pop-up menu has two choices, Data and Object. These two menu choices determine whether the material is linked to the object or to the data, (in this case) the mesh (or curve, nurbs, etc.). The Data menu item determines that this material will be linked to the mesh's datablock which is linked to the object's datablock. The Object menu item determines that the material will be linked to the object's data block directly.
    This has consequences of course. For example, different objects may share the same mesh datablock. Since this datablock defines the shape of the object, any change in edit mode will be reflected on all of those objects. Moreover, anything linked to that mesh datablock will be shared by every object that shares that mesh. So, if the material is linked to the mesh, every object will share it.
-   On the other hand, if the material is linked directly to the object datablock, the objects can have different materials and still share the same mesh. Short explanation: If connected to the object, you can have several instances of the same obData using different materials. If linked to mesh data, you can't. See :doc:`Data System <data_system/data_system>` for more information.
+   On the other hand, if the material is linked directly to the object datablock, the objects can have different materials and still share the same mesh. Short explanation: If connected to the object, you can have several instances of the same obData using different materials. If linked to mesh data, you can't. See :doc:`Data System </data_system/data_system>` for more information.
 
 
 **Object Render Format** menu.
@@ -178,7 +178,7 @@ There are several ways to do this using the Available Materials menu:
    The search field at the bottom of the material list allows you to search the names in the list.  For example, by entering "wood" all existent materials are filtered so that only materials containing "wood" are displayed in the list.
 
 
-   :guilabel:`Multiple Objects -`  In the 3D View, with :kbd:`ctrl-L` you can quickly link all selected objects to the material (and other aspects) of the :doc:`active object <modeling/objects/selecting#selections_and_the_active_object>`. Very useful if you need to set a large number of objects to the same material; just select all of them, then the object that has the desired material, and :kbd:`ctrl-L` link them to that "parent". (See Tip on Linking Data in Creating about data linking.)
+   :guilabel:`Multiple Objects -`  In the 3D View, with :kbd:`ctrl-L` you can quickly link all selected objects to the material (and other aspects) of the :doc:`active object </modeling/objects/selecting#selections_and_the_active_object>`. Very useful if you need to set a large number of objects to the same material; just select all of them, then the object that has the desired material, and :kbd:`ctrl-L` link them to that "parent". (See Tip on Linking Data in Creating about data linking.)
 
 
 Deleting a Material

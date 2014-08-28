@@ -111,13 +111,13 @@ These options are located in the :guilabel:`Object` menu.
 ..    Comment: <!--
    [[Image:Manual-Part-II-ObjectMode-Duplicate-Anim-Settings-Panel.png|frame|right|{{Literal|Anim settings}} panel.]]
    --> .
-:doc:`Verts <modeling/objects/duplication/dupliverts>` :This creates an instance of all children of this object on each vertex (for mesh objects only).
+:doc:`Verts </modeling/objects/duplication/dupliverts>` :This creates an instance of all children of this object on each vertex (for mesh objects only).
 
-:doc:`Faces <modeling/objects/duplication/duplifaces>` :This creates an instance of all children of this object on each face (for mesh objects only).
+:doc:`Faces </modeling/objects/duplication/duplifaces>` :This creates an instance of all children of this object on each face (for mesh objects only).
 
-:doc:`Group <modeling/objects/duplication/dupligroup>` :This creates an instance of the group with the transformation of the object. Group duplicators can be animated using actions, or can get a :doc:`Proxy <data_system/linked_libraries#proxy_objects>`.
+:doc:`Group </modeling/objects/duplication/dupligroup>` :This creates an instance of the group with the transformation of the object. Group duplicators can be animated using actions, or can get a :doc:`Proxy </data_system/linked_libraries#proxy_objects>`.
 
-:doc:`Frames <modeling/objects/duplication/dupliframes>` :For animated objects, this creates an instance on every frame. As you'll see on this topic's subpage, this is also a *very* powerful technique for arranging objects and for modeling them.
+:doc:`Frames </modeling/objects/duplication/dupliframes>` :For animated objects, this creates an instance on every frame. As you'll see on this topic's subpage, this is also a *very* powerful technique for arranging objects and for modeling them.
 
 
 Linked Library Duplication
@@ -130,13 +130,13 @@ Linked Library Duplication
    | Hotkey:   :kbd:`Shift-F1`
 
 
-:doc:`Linked Libraries <data_system/linked_libraries>` :Linked Libraries are also a form of duplication.  Any object or datablock in other :guilabel:`.blend` files can be reused in the current file.
+:doc:`Linked Libraries </data_system/linked_libraries>` :Linked Libraries are also a form of duplication.  Any object or datablock in other :guilabel:`.blend` files can be reused in the current file.
 
 
 Hints
 *****
 
-- If you want transform properties (i.e. object datablocks) to be "linked", see the page on :doc:`parenting <modeling/objects/groups_and_parenting>`.
+- If you want transform properties (i.e. object datablocks) to be "linked", see the page on :doc:`parenting </modeling/objects/groups_and_parenting>`.
 - Material Transparency will not display when instancing dupli-groups; this is a known limitation of Blender's view-port.
 
 

@@ -21,7 +21,7 @@ The :guilabel:`EdgeSplit` modifier splits edges within a mesh.
 The edges to split can be determined from the edge angle (i.e.
 angle between faces forming this edge), and/or edges marked as sharp.
 
-Splitting an edge affects vertex normal generation at that edge, making the edge appear sharp. Hence, this modifier can be used to achieve the same effect as the :guilabel:`Autosmooth` button, making edges appear sharp when their angle is above a certain threshold. It can also be used for manual control of the smoothing process, where the user defines which edges should appear smooth or sharp (see :doc:`Mesh Smoothing <modeling/meshes/smoothing>` for other ways to do this). If desired, both modes can be active at once. The output of the :guilabel:`EdgeSplit` modifier is available to export scripts, making it quite useful for creators of game content.
+Splitting an edge affects vertex normal generation at that edge, making the edge appear sharp. Hence, this modifier can be used to achieve the same effect as the :guilabel:`Autosmooth` button, making edges appear sharp when their angle is above a certain threshold. It can also be used for manual control of the smoothing process, where the user defines which edges should appear smooth or sharp (see :doc:`Mesh Smoothing </modeling/meshes/smoothing>` for other ways to do this). If desired, both modes can be active at once. The output of the :guilabel:`EdgeSplit` modifier is available to export scripts, making it quite useful for creators of game content.
 
 
 Options

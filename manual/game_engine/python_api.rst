@@ -11,7 +11,7 @@ Python API]
 
 More informations:
 
-- :doc:`Bullet physics <game_engine/python_api/bullet_physics>`
-- :doc:`Video Texture <game_engine/python_api/videotexture>`
+- :doc:`Bullet physics </game_engine/python_api/bullet_physics>`
+- :doc:`Video Texture </game_engine/python_api/videotexture>`
 
 

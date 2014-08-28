@@ -56,7 +56,7 @@ To create a personnal script folder:
 - Fill the :guilabel:`Scripts` entry with the path to your script folder (i.e. 'script_addon_2-6x').
 
 For information on the location of blender directories
-see: :doc:`Configuration & Data Paths <introduction/installing_blender/directorylayout>`
+see: :doc:`Configuration & Data Paths </introduction/installing_blender/directorylayout>`
 
 
 Enabling and Disabling
@@ -71,13 +71,13 @@ Once an Add-On has been installed, it has to be enabled before it can be used. S
 check mark on the :guilabel:`Enable Add-On` box of the Add-On you wish to activate and you're
 done. The extra functionality of the Add-on is now integrated into Blender and can be used.
 
-To disable the functionality again, uncheck the box. To get more information on a certain Add-on you can press the arrow at the left of the entry and any additional information that is available will be shown. If the Add-On does not activate when enabled, check the :doc:`Console window <interface/window_system/console_window>` for any errors that may have occurred when loading.
+To disable the functionality again, uncheck the box. To get more information on a certain Add-on you can press the arrow at the left of the entry and any additional information that is available will be shown. If the Add-On does not activate when enabled, check the :doc:`Console window </interface/window_system/console_window>` for any errors that may have occurred when loading.
 
 
 .. admonition:: Saving Add-On Preferences
    :class: nicetip
 
-   If you want an Add-On to be enabled everytime you start Blender, you will need to save your :doc:`User Preferences <preferences>`.
+   If you want an Add-On to be enabled everytime you start Blender, you will need to save your :doc:`User Preferences </preferences>`.
 
 
 Development guidelines

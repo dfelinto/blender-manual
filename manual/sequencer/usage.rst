@@ -25,7 +25,7 @@ providing advanced hollywood-style effects for a professional looking video.
 
 The Video Sequence Editor has a header (where the menu and view modes are shown) and a workspace,
 and works in one of several view modes. The Marker menu allows you to add markers in the VSE.
-Markers are shared across animation editors. See :doc:`Markers <animation/markers>`
+Markers are shared across animation editors. See :doc:`Markers </animation/markers>`
 
 The sequencer workspace is horizontally striped into channels and each video strip will go in
 a horizontal channel. Each channel is numbered on the left-hand side, starting from 0
@@ -232,7 +232,7 @@ Add Audio
 
 The VSE can incorporate an audio channel which you can hear as you scrub.
 Add an audio track when you are trying to time your video/animation to an audio track, or vice versa.
-Please refer to :doc:`the Audio Sequences section <sequencer/audio>` for more information.
+Please refer to :doc:`the Audio Sequences section </sequencer/audio>` for more information.
 
 
 Adding Effects
@@ -537,7 +537,7 @@ The icons in the header allow to change the view of the VSE. By default,
 only the sequencer is displayed. The second button displays only the Preview window,
 and the third button displays both the Sequencer and the Preview.
 
-When the preview is enabled, you have several options to change what type pf preview to display. They are explained in the :doc:`Display Modes Page <sequencer/modes>`.
+When the preview is enabled, you have several options to change what type pf preview to display. They are explained in the :doc:`Display Modes Page </sequencer/modes>`.
 
 
 Scene Preview

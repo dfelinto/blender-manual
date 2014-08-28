@@ -21,11 +21,11 @@ or linen.
 The basic (un-textured) Blender  material is uniform across each face of an object
 (although the various pixels of each face of the object may appear differently because of lighting effects). However,
 different faces of the object may use different materials
-(see :doc:`Multiple Materials <materials/multiple_materials>`).
+(see :doc:`Multiple Materials </materials/multiple_materials>`).
 
 In Blender, materials can (optionally) have associated textures. Textures :guilabel:`describe` the substance: e.g.
 :guilabel:`polished` brass, :guilabel:`dirty` glass or :guilabel:`embroidered` linen.
-The :doc:`Textures <textures>` chapter describes how to add textures to materials.
+The :doc:`Textures </textures>` chapter describes how to add textures to materials.
 
 
 
@@ -114,16 +114,16 @@ There are several ways in which materials can be set up in Blender. Generally sp
 are not compatible - you must choose which method you are going to use for each particular
 object in your scene.
 
-   First, you can set the :doc:`Properties <materials/properties/introduction>` in the various Material panels.
+   First, you can set the :doc:`Properties </materials/properties/introduction>` in the various Material panels.
 
-   Second, you can use :doc:`Nodes <materials/nodes>`; a graphical nodes editor is available.
+   Second, you can use :doc:`Nodes </materials/nodes>`; a graphical nodes editor is available.
 
    Last, you can directly set the color of object surfaces using various special effects. Strictly speaking,
    these are not materials at all, but they are included here because they affect the appearance of your objects.
-   These include :doc:`Vertex Painting <materials/special_effects/vertex_paint>`,
-   :doc:`Wire Rendering <materials/special_effects/wire>`,
-   :doc:`Volume Rendering <materials/special_effects/volume>`,
-   and :doc:`Halo Rendering <materials/special_effects/halo>`.
+   These include :doc:`Vertex Painting </materials/special_effects/vertex_paint>`,
+   :doc:`Wire Rendering </materials/special_effects/wire>`,
+   :doc:`Volume Rendering </materials/special_effects/volume>`,
+   and :doc:`Halo Rendering </materials/special_effects/halo>`.
 
 The exact effect of Material settings can be affected by a number of system settings.
 First and foremost is the Render Engine used - Cycles and the Blender Render Engine

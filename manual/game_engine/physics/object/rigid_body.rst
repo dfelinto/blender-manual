@@ -2,13 +2,13 @@
 Rigid Body Physics Object Type
 ******************************
 
-Probably the most common type of object in the :doc:`Game Engine <game_engine>`. It will give/receive collisions and react with a change in its velocity and its rotation. A Rigid Body ball would begin rotating and roll down (where a :doc:`Dynamic <game_engine/physics/objects/dynamic>` ball would only hit and slide down the ramp).
+Probably the most common type of object in the :doc:`Game Engine </game_engine>`. It will give/receive collisions and react with a change in its velocity and its rotation. A Rigid Body ball would begin rotating and roll down (where a :doc:`Dynamic </game_engine/physics/objects/dynamic>` ball would only hit and slide down the ramp).
 
-The idea behind Rigid Body dynamics is that the mesh does not deform. If you need deformation you will need to either go to :doc:`Soft Body <game_engine/physics/objects/soft_body>` or else fake it with animated Actions.
+The idea behind Rigid Body dynamics is that the mesh does not deform. If you need deformation you will need to either go to :doc:`Soft Body </game_engine/physics/objects/soft_body>` or else fake it with animated Actions.
 
-In the example game demo, :doc:`Frijoles <ls/frijoles>`, the Rigid Body type is represented by the Boulders that spawn from the top of the level. Notice how they tumble and roll in response to the collisions with the Arena.
+In the example game demo, :doc:`Frijoles </ls/frijoles>`, the Rigid Body type is represented by the Boulders that spawn from the top of the level. Notice how they tumble and roll in response to the collisions with the Arena.
 
-For more documentation, see the :doc:`Top BGE Physics page <game_engine/physics>`.
+For more documentation, see the :doc:`Top BGE Physics page </game_engine/physics>`.
 
 
 Options

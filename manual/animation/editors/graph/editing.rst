@@ -2,7 +2,7 @@
 Graph Editor - Editing
 **********************
 
-Tools and menus for the :doc:`F-Curves <animation/editors/graph/fcurves>` in the *Graph Editor*.
+Tools and menus for the :doc:`F-Curves </animation/editors/graph/fcurves>` in the *Graph Editor*.
 
 By default, when new channels are added, the *Graph Editor* sets them to *Edit Mode*.
 Selected channels can be locked by pressing :kbd:`tab`.
@@ -89,7 +89,7 @@ Curves and Keyframes
    *Automatic*
    *Auto Clamped*
 
-See :doc:`F-Curves <animation/editors/graph/fcurves>` for more info.
+See :doc:`F-Curves </animation/editors/graph/fcurves>` for more info.
 
 
 View Tools
@@ -276,7 +276,7 @@ etc., this menu gathers various other options.
    Show timing in seconds not frames.
 
 :guilabel:`Set Preview Range`, :guilabel:`Clear Preview Range` (:kbd:`ctrl-P`, :kbd:`alt-P`)
-   These entries allow you to define/clear a temporary preview range to use for the :kbd:`alt-A` realtime playback (this is the same thing as the :guilabel:`Pr` option of the :doc:`Timeline window header <animation/timeline#header_controls>`).
+   These entries allow you to define/clear a temporary preview range to use for the :kbd:`alt-A` realtime playback (this is the same thing as the :guilabel:`Pr` option of the :doc:`Timeline window header </animation/timeline#header_controls>`).
 
 :guilabel:`Auto-Set Preview Range` :kbd:`Ctrl-alt-P`
    Automatically set Preview Range based on range of keyframes.

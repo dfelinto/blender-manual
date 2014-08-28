@@ -20,42 +20,42 @@ show up. The order of these buttons follows a hierarchy which is detailed below:
 .. figure:: /images/Manual-Interface-Contexts-Btn_Render-25.jpg
 
 
- :doc:`Render <render>`: Everything related to render output (dimensions, anti-aliasing, performance etc).
+ :doc:`Render </render>`: Everything related to render output (dimensions, anti-aliasing, performance etc).
 
 -
 
 .. figure:: /images/Manual-Interface-Contexts-Btn_Scene-25.jpg
 
 
- :doc:`Scene <interface/scenes>`: Gravity in the scene, units and other general information.
+ :doc:`Scene </interface/scenes>`: Gravity in the scene, units and other general information.
 
 -
 
 .. figure:: /images/Manual-Interface-Contexts-Btn_World-25.jpg
 
 
- :doc:`World <world>`: Environmental lighting, sky, mist, stars and Ambient Occlusion.
+ :doc:`World </world>`: Environmental lighting, sky, mist, stars and Ambient Occlusion.
 
 -
 
 .. figure:: /images/Manual-Interface-Contexts-Btn_Object-25.jpg
 
 
- :doc:`Object <modeling/objects>`: Transformations, display options, visibility settings (via layers) duplication settings and animation information (regarding Object position).
+ :doc:`Object </modeling/objects>`: Transformations, display options, visibility settings (via layers) duplication settings and animation information (regarding Object position).
 
 -
 
 .. figure:: /images/Manual-Interface-Contexts-Btn_Constraints-25.jpg
 
 
- :doc:`Constraints <constraints>`: Used to control an Object's transform (position, rotation, scale), tracking  and relationship properties.
+ :doc:`Constraints </constraints>`: Used to control an Object's transform (position, rotation, scale), tracking  and relationship properties.
 
 -
 
 .. figure:: /images/Manual-Interface-Contexts-Btn_Modifiers-25.jpg
 
 
- :doc:`Modifiers <modifiers>`: Operations that can non-destructively affect Objects by changing how they are rendered and displayed without altering their geometry (e.g. mirror and smoothing).
+ :doc:`Modifiers </modifiers>`: Operations that can non-destructively affect Objects by changing how they are rendered and displayed without altering their geometry (e.g. mirror and smoothing).
 
 -
 
@@ -69,28 +69,28 @@ show up. The order of these buttons follows a hierarchy which is detailed below:
 .. figure:: /images/Manual-Interface-Contexts-Btn_Material-25.jpg
 
 
- :doc:`Materials <materials>`: Information about a surface (color, specularity, transparency, etc).
+ :doc:`Materials </materials>`: Information about a surface (color, specularity, transparency, etc).
 
 -
 
 .. figure:: /images/Manual-Interface-Contexts-Btn_Texture-25.jpg
 
 
- :doc:`Textures <textures>`: Used by materials to provide additional details (e.g. color, transparency, fake 3-dimensional depth).
+ :doc:`Textures </textures>`: Used by materials to provide additional details (e.g. color, transparency, fake 3-dimensional depth).
 
 -
 
 .. figure:: /images/Manual-Interface-Contexts-BtnParticles-25.jpg
 
 
- :doc:`Particles <physics/particles>`: Add variable amounts of (usually small) objects such as lights or mesh Objects that can be manipulated by Force Fields and other settings.
+ :doc:`Particles </physics/particles>`: Add variable amounts of (usually small) objects such as lights or mesh Objects that can be manipulated by Force Fields and other settings.
 
 -
 
 .. figure:: /images/Manual-Interface-Contexts-Btn_Physics-25.jpg
 
 
- :doc:`Physics <physics>`: Properties relating to Cloth, Force Fields, Collision, Fluid and Smoke Simulation.
+ :doc:`Physics </physics>`: Properties relating to Cloth, Force Fields, Collision, Fluid and Smoke Simulation.
 
-The :doc:`Buttons <interface/buttons_and_controls>` in each context are grouped into :doc:`Panels <interface/panels>`.
+The :doc:`Buttons </interface/buttons_and_controls>` in each context are grouped into :doc:`Panels </interface/panels>`.
 

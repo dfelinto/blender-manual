@@ -45,7 +45,7 @@ and you will have to move the target to see the resulting mesh.
 The only exception is when you are using inverted normals;
 in this case, depending on the calculations, you will also change the topology of the target.
 You can see one example of a target being modified in the
-:doc:`Materials <modifiers/generate/booleans#materials>` section in this page, see Fig. 7 and 8.
+:doc:`Materials </modifiers/generate/booleans#materials>` section in this page, see Fig. 7 and 8.
 
 You can add this Modifier in any of the Blender Modes,
 including some other Modes of different Blender screens, but the results of the mesh operation
@@ -357,7 +357,7 @@ you can cause Blender to stop responding or crash.
 Face Normals
 ============
 
-When using the :guilabel:`Boolean` Modifier, Blender will use the face normal directions to calculate the three Boolean operations. The direction of the normals will define the result of the three available calculations (see :doc:`Operations <modifiers/generate/booleans#operations>` in this page); when one of the participants uses a set of inverted normals, you're in fact multiplying the operation by **-1** and inverting the calculation order. You can, at any time, select your modified mesh, enter :guilabel:`Edit` Mode and flip the normals to change the behavior of the :guilabel:`Boolean` modifier. See :doc:`Tips for fixing Normals <modifiers/generate/booleans#tip_for_fixing_mixed_normals>` in this page.
+When using the :guilabel:`Boolean` Modifier, Blender will use the face normal directions to calculate the three Boolean operations. The direction of the normals will define the result of the three available calculations (see :doc:`Operations </modifiers/generate/booleans#operations>` in this page); when one of the participants uses a set of inverted normals, you're in fact multiplying the operation by **-1** and inverting the calculation order. You can, at any time, select your modified mesh, enter :guilabel:`Edit` Mode and flip the normals to change the behavior of the :guilabel:`Boolean` modifier. See :doc:`Tips for fixing Normals </modifiers/generate/booleans#tip_for_fixing_mixed_normals>` in this page.
 
 Blender also cannot perform any optimal :guilabel:`Boolean` operation when one or more of the
 mesh Normals of the participants that are touching has outwards/inwards normals mixed.

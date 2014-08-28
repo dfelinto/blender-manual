@@ -9,7 +9,7 @@ Entering Edit Mode
 
 You can work with geometric objects in two modes.
 
-:doc:`Object mode <modeling/objects>`
+:doc:`Object mode </modeling/objects>`
    Operations in :guilabel:`Object Mode` affect the whole object.
    :guilabel:`Object` mode has the following header in the 3D view:
 
@@ -114,7 +114,7 @@ Even more mesh editing tools can be enabled in the :guilabel:`User Preferences` 
 :guilabel:`Add-Ons` section.
 The development of new tools is regularly announced on Blender-related sites and forums.
 
-For further information on panels see the :doc:`Reference panels <ce/panels>` section.
+For further information on panels see the :doc:`Reference panels </ce/panels>` section.
 
 
 Properties Shelf
@@ -137,7 +137,7 @@ Other useful tools are found in the :guilabel:`Properties Editor` under the
 :guilabel:`Object` 's and :guilabel:`Object Data` 's :guilabel:`Context buttons`,
 including display options and :guilabel:`Vertex groups`.
 
-For further information on panels see the :doc:`Reference panels <ce/panels>` section.
+For further information on panels see the :doc:`Reference panels </ce/panels>` section.
 
 
 Mesh Display

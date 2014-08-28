@@ -14,12 +14,12 @@ since both objects have 'X location' and 'Y location' properties beneath them.
 
 The :guilabel:`Action Editor` window enables you to see and edit the FCurve datablocks you defined as actions in the
 :guilabel:`FCurve Editor` window. So it takes place somewhere in-between the low-level
-:doc:`FCurves <animation/editors/graph>`, and the high-level :doc:`NLA editor <animation/editors/nla>`.
+:doc:`FCurves </animation/editors/graph>`, and the high-level :doc:`NLA editor </animation/editors/nla>`.
 Hence, you do not have to use them for simple Ipo curves animations - and they have not much interest in themselves,
-so you will mostly use this window when you do :doc:`NLA animation <animation/editors/nla>`
+so you will mostly use this window when you do :doc:`NLA animation </animation/editors/nla>`
 (they do have a few specific usages on their own,
-though, like e.g. with the :doc:`Action constraint <constraints/relationship/action>`,
-or the :doc:`pose libraries <rigging/posing/pose_library>`).
+though, like e.g. with the :doc:`Action constraint </constraints/relationship/action>`,
+or the :doc:`pose libraries </rigging/posing/pose_library>`).
 
 This is not a mandatory window, as you do can edit the actions used by the NLA directly in the
 :guilabel:`FCurve Editor` window (or even the :guilabel:`NLA Editor` one). However,
@@ -29,7 +29,7 @@ even though more powerful in some ways) - and, more interesting,
 it can show you all "action" FCurve datablocks of a same object at once.
 
 Additionally, it also allows you to affect timing of the different keys of the layers created with the
-:doc:`grease pencil tool <3d_interaction/sketching>`.
+:doc:`grease pencil tool </3d_interaction/sketching>`.
 
 Each "action" FCurve datablock forms a top-level channel (see below).
 Note that an object can have several :guilabel:`Constraint` (one per animated constraint)

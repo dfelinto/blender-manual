@@ -9,7 +9,7 @@ Video Textures
    Video texture
 
 
-**Video textures** are a some kind of :doc:`Image <textures/types/image>` textures and based on movie file or sequence of successive numbered separate images. They are added in the same way that image textures are.
+**Video textures** are a some kind of :doc:`Image </textures/types/image>` textures and based on movie file or sequence of successive numbered separate images. They are added in the same way that image textures are.
 
 
 Options
@@ -29,13 +29,13 @@ Image
    For video texture the kind of source file to use is
 
    :guilabel:`Movie`
-      See about supported :doc:`Movie <data_system/files/formats#movie_formats>` formats.
+      See about supported :doc:`Movie </data_system/files/formats#movie_formats>` formats.
    :guilabel:`Image Sequence`
-      See about supported :doc:`Image <data_system/files/formats#image_formats>` formats.
+      See about supported :doc:`Image </data_system/files/formats#image_formats>` formats.
       To load image sequence in any of the supported image file formats first click on the first frame and then Accept.
       Then change the Source to Image Sequence, and enter the ending frame number of this sequence.
 
-More about loading source file for video texture see :doc:`here <textures/types/image#settings>`.
+More about loading source file for video texture see :doc:`here </textures/types/image#settings>`.
 
 :guilabel:`Fields`
    Work with field images. Video frames consist of two different images (fields) that are merged.  This option ensures that when :guilabel:`Fields` are rendered, the correct field of the image is used in the correct field of the rendering.
@@ -73,9 +73,9 @@ For :guilabel:`Movie` source:
       Transparent RGB pixels of an image are multiplied by the image's alpha value.
 
 
-About input color space for video texture see :doc:`here <textures/types/image>`.
+About input color space for video texture see :doc:`here </textures/types/image>`.
 
-About video sampling for video texture see :doc:`here <textures/types/image#image_sampling>`.
+About video sampling for video texture see :doc:`here </textures/types/image#image_sampling>`.
 
-About video mapping for video texture see :doc:`here <textures/types/image#image_mapping>`.
+About video mapping for video texture see :doc:`here </textures/types/image#image_mapping>`.
 

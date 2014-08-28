@@ -6,7 +6,7 @@ Armature Structure
    :width: 250px
    :figwidth: 250px
 
-   The very basic armature of the :doc:`Gingerbread Man tutorial <your_first_animation/2.animating_the_gingerbread_man>`.
+   The very basic armature of the :doc:`Gingerbread Man tutorial </your_first_animation/2.animating_the_gingerbread_man>`.
 
 
 Armatures mimic real skeletons. They are made out of bones, which are (by default) rigid elements. But you have more possibilities than with real skeletons: In addition to the "natural" rotation of bones, you can also translate and even scale them! And your bones do not have to be connected to each other; they can be completely free if you want. However, the most natural and useful setups imply that some bones are related to others, forming so-called "chains of bones", which create some sort of "limbs" in your armature, as detailed
@@ -44,13 +44,13 @@ The bone at the beginning of a chain is called its *root bone*,
 and the last bone of a chain is the *tip bone*
 (don't confuse them with similar names of bones' ends!).
 
-Chains of bones are a particularly important topic in :doc:`posing <rigging/posing>` (especially with the standard *forward kinematics* versus "automatic" *inverse kinematics* posing techniques). You create/edit them in :guilabel:`Edit` mode, but except in case of connected bones, their relationships have no effect on bone transformations in this mode (i.e. transforming a parent bone won't affect its children).
+Chains of bones are a particularly important topic in :doc:`posing </rigging/posing>` (especially with the standard *forward kinematics* versus "automatic" *inverse kinematics* posing techniques). You create/edit them in :guilabel:`Edit` mode, but except in case of connected bones, their relationships have no effect on bone transformations in this mode (i.e. transforming a parent bone won't affect its children).
 
 
 Editing Bones Relationships
 ---------------------------
 
-This is detailed in the :doc:`editing pages <rigging/armatures/editing/properties#chain_editing>`, but let us have a quick look at this important feature.
+This is detailed in the :doc:`editing pages </rigging/armatures/editing/properties#chain_editing>`, but let us have a quick look at this important feature.
 
 
 .. figure:: /images/Man2.5RiggingEditingBoneCxtRelationsPanel.jpg
@@ -63,7 +63,7 @@ This is detailed in the :doc:`editing pages <rigging/armatures/editing/propertie
 The easiest way to manage bones relationships is to use the :guilabel:`Relations` panel
 :guilabel:`Bone` context:
 
-- First, :doc:`select <rigging/armatures/selecting>` the bones you want to edit (selection order does not matter here).
+- First, :doc:`select </rigging/armatures/selecting>` the bones you want to edit (selection order does not matter here).
 - To *parent* a bone to another one, select the name of this parent in its drop-down :guilabel:`Parent` list.
 - To *unparent* a bone, just select the void entry in the same :guilabel:`Parent` list.
 - To *connect* a bone to its parent, enable its small :guilabel:`Con` button.

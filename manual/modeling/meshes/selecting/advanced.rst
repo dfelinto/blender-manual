@@ -58,7 +58,7 @@ Tool options change depending on the selection mode:
    :guilabel:`Amount of Adjacent Faces`
       Selects all vertices that have the same number of faces connected to them.
    :guilabel:`Vertex Groups`
-      Selects all vertices in the same :doc:`vertex group <modeling/meshes/vertex_groups>`.
+      Selects all vertices in the same :doc:`vertex group </modeling/meshes/vertex_groups>`.
    :guilabel:`Amount of connecting edges`
       Selects all vertices that have the same number of edges connected to them.
 
@@ -73,20 +73,20 @@ Tool options change depending on the selection mode:
    :guilabel:`Face Angles`
       Selects all edges that are between two faces forming a similar angle, as with those already selected.
    :guilabel:`Crease`
-      Selects all edges that have a similar :guilabel:`Crease` value as those already selected. The :guilabel:`Crease` value is a setting used by the :doc:`Subsurf Modifier <modifiers/generate/subsurf>`.
+      Selects all edges that have a similar :guilabel:`Crease` value as those already selected. The :guilabel:`Crease` value is a setting used by the :doc:`Subsurf Modifier </modifiers/generate/subsurf>`.
    :guilabel:`Bevel`
       Selects all edges that have the same :guilabel:`Bevel Weight` as those already selected.
    :guilabel:`Seam`
-      Selects all edges that have the same :guilabel:`Seam` state as those already selected. :guilabel:`Seam` is a true/false setting used in :doc:`UV-texturing <textures/mapping/uv>`.
+      Selects all edges that have the same :guilabel:`Seam` state as those already selected. :guilabel:`Seam` is a true/false setting used in :doc:`UV-texturing </textures/mapping/uv>`.
    :guilabel:`Sharpness`
-      Selects all edges that have the same :guilabel:`Sharp` state as those already selected. :guilabel:`Sharp` is a true/false setting (a flag) used by the :doc:`EdgeSplit Modifier <modifiers/generate/edge_split>`.
+      Selects all edges that have the same :guilabel:`Sharp` state as those already selected. :guilabel:`Sharp` is a true/false setting (a flag) used by the :doc:`EdgeSplit Modifier </modifiers/generate/edge_split>`.
 
 
 :guilabel:`Face Selection Mode`:
    :guilabel:`Material`
       Selects all faces that use the same material as those already selected.
    :guilabel:`Image`
-      Selects all faces that use the same UV-texture as those already selected (see :doc:`UV-texturing <textures/mapping/uv>` pages).
+      Selects all faces that use the same UV-texture as those already selected (see :doc:`UV-texturing </textures/mapping/uv>` pages).
    :guilabel:`Area`
       Selects all faces that have a similar area as those already selected.
    :guilabel:`Polygon Sides`
@@ -195,7 +195,7 @@ Edge Ring
    | Hotkey:   :kbd:`ctrl-alt-rmb` or :kbd:`ctrl-E` → :menuselection:`Select --> Edge Ring`
 
 
-In :guilabel:`Edge` select mode, holding :kbd:`ctrl-alt` while selecting an edge selects a sequence of edges that are not connected, but on opposite sides to each other continuing along a :doc:`face loop <modeling/meshes/mesh_structures>`.
+In :guilabel:`Edge` select mode, holding :kbd:`ctrl-alt` while selecting an edge selects a sequence of edges that are not connected, but on opposite sides to each other continuing along a :doc:`face loop </modeling/meshes/mesh_structures>`.
 
 As with edge loops, you can also select edge rings based on current selection,
 using either :menuselection:`Select --> Edge Ring`,

@@ -25,8 +25,8 @@ Render Layers Node
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :doc:`Node Editor <materials/nodes/editor>` → :doc:`Node Composition <composite_nodes>`
-   | Menu:     :kbd:`shift-A` → :doc:`Input <ce/windows/nodes/composite#inputs>` → Render Layers
+   | Panel:    :doc:`Node Editor </materials/nodes/editor>` → :doc:`Node Composition </composite_nodes>`
+   | Menu:     :kbd:`shift-A` → :doc:`Input </ce/windows/nodes/composite#inputs>` → Render Layers
 
 
 .. figure:: /images/Manual-Compositing-RenderLayer_Node.jpg
@@ -40,7 +40,7 @@ map.
 This node inputs an image from a scene within your blend file.
 Select the scene and the active render layer from the yellow selection list at the bottom of the node.
 Blender uses the active camera for that scene to create an image of the objects specified in the
-:doc:`RenderLayer <render/post_process/layers>`.
+:doc:`RenderLayer </render/post_process/layers>`.
 
 The :guilabel:`Image` is input into the map, along with the following data:
 
@@ -184,7 +184,7 @@ a single image or frame from the animation does not portray any motion;
 the image from the frame is simply where things are at that particular time. However,
 from the :guilabel:`Render Layers` node, Blender puts out a vector set that says how particular pixels are moving,
 or will move, to the next frame. You use this socket to create a
-:doc:`blurring effect. <ls/composite_nodes/types/filter/vector_blur>`.
+:doc:`blurring effect. </ls/composite_nodes/types/filter/vector_blur>`.
 
 
 
@@ -194,8 +194,8 @@ Image node
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :doc:`Node Editor <materials/nodes/editor>` → :doc:`Node Composition <composite_nodes>`
-   | Menu:     :kbd:`shift-A` → :doc:`Input <ce/windows/nodes/composite#inputs>` → Image
+   | Panel:    :doc:`Node Editor </materials/nodes/editor>` → :doc:`Node Composition </composite_nodes>`
+   | Menu:     :kbd:`shift-A` → :doc:`Input </ce/windows/nodes/composite#inputs>` → Image
 
 
 .. figure:: /images/Tutorials-NTR-ComImage.jpg
@@ -203,7 +203,7 @@ Image node
    Image node
 
 
-The :guilabel:`Image` node injects any image :doc:`format that is supported by Blender <render/output>`.
+The :guilabel:`Image` node injects any image :doc:`format that is supported by Blender </render/output>`.
 Besides inputting the actual image, this node can also input :guilabel:`Alpha` and depth (:guilabel:`Z`) values
 if the image has them. If the image is a MultiLayer format, all saved render passes are input. Use this node to input:
 
@@ -356,7 +356,7 @@ Generated Images
 
 `Using the Nodes to modify a painting in progress in the
 UV/Image window <http://wiki.blender.org/index.php/File:Manual-Compositing-Node-Image-Generagedjpg>`__
-Blender features :doc:`Texture Paint <textures/paint/painting_the_texture>` which works in the UV/Image Editor,
+Blender features :doc:`Texture Paint </textures/paint/painting_the_texture>` which works in the UV/Image Editor,
 that allows you to paint on the fly, and the image is kept in memory or saved.
 If sync lock is enabled (the lock icon in the header),
 changes are broadcast throughout Blender as soon as you lift the mouse button.
@@ -382,7 +382,7 @@ Notes
 **No Frame Stretching or Compression:**
 If the input animation (avi or frame set) was encoded at a frame rate that is *different* from your current settings,
 the resultant animation will appear to run faster or slower. Blender Nodes do not adjust input video frame rates. Use
-the scale control inside the :doc:`Video Sequence Editor <sequencer>` to stretch or compress video to the desired
+the scale control inside the :doc:`Video Sequence Editor </sequencer>` to stretch or compress video to the desired
 speed, and input it here. You can incorporate "Slow-Mo" into your video. To do so,
 :guilabel:`ANIM` ate a video segment at 60 frames per second, and input it via this node,
 using Render settings that have an animation frame rate of the normal 30 fps;
@@ -525,8 +525,8 @@ Texture Node
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :doc:`Node Editor <materials/nodes/editor>` → :doc:`Node Composition <composite_nodes>`
-   | Menu:     :kbd:`shift-A` → :doc:`Input <ce/windows/nodes/composite#inputs>` → Texture
+   | Panel:    :doc:`Node Editor </materials/nodes/editor>` → :doc:`Node Composition </composite_nodes>`
+   | Menu:     :kbd:`shift-A` → :doc:`Input </ce/windows/nodes/composite#inputs>` → Texture
 
 
 .. figure:: /images/Tutorials-NTR-Tex.jpg
@@ -580,8 +580,8 @@ Value node
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :doc:`Node Editor <materials/nodes/editor>` → :doc:`Node Composition <composite_nodes>`
-   | Menu:     :kbd:`shift-A` → :doc:`Input <ce/windows/nodes/composite#inputs>` → Value
+   | Panel:    :doc:`Node Editor </materials/nodes/editor>` → :doc:`Node Composition </composite_nodes>`
+   | Menu:     :kbd:`shift-A` → :doc:`Input </ce/windows/nodes/composite#inputs>` → Value
 
 
 The Value node has no inputs; it just outputs a numerical value
@@ -597,8 +597,8 @@ RGB node
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :doc:`Node Editor <materials/nodes/editor>` → :doc:`Node Composition <composite_nodes>`
-   | Menu:     :kbd:`shift-A` → :doc:`Input <ce/windows/nodes/composite#inputs>` → RGB
+   | Panel:    :doc:`Node Editor </materials/nodes/editor>` → :doc:`Node Composition </composite_nodes>`
+   | Menu:     :kbd:`shift-A` → :doc:`Input </ce/windows/nodes/composite#inputs>` → RGB
 
 
 The RGB node has no inputs.
@@ -628,8 +628,8 @@ Time node
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :doc:`Node Editor <materials/nodes/editor>` → :doc:`Node Composition <composite_nodes>`
-   | Menu:     :kbd:`shift-A` → :doc:`Input <ce/windows/nodes/composite#inputs>` → Time
+   | Panel:    :doc:`Node Editor </materials/nodes/editor>` → :doc:`Node Composition </composite_nodes>`
+   | Menu:     :kbd:`shift-A` → :doc:`Input </ce/windows/nodes/composite#inputs>` → Time
 
 
 .. figure:: /images/Tutorials-NTR-ComTime.jpg
@@ -650,7 +650,7 @@ since the timespan is 250 frames and the line is straight from corner to corner,
 .. admonition:: Note on output values
    :class: note
 
-   The :doc:`Map Value <osite_nodes/types/vector#map_value_node>` node can be used to map the output to a more appropriate value. With some time curves, it is possible that the Time node may output a number larger than one or less than zero. To be safe, use the Min/Max clamping function of the Map Value node to limit output.
+   The :doc:`Map Value </osite_nodes/types/vector#map_value_node>` node can be used to map the output to a more appropriate value. With some time curves, it is possible that the Time node may output a number larger than one or less than zero. To be safe, use the Min/Max clamping function of the Map Value node to limit output.
 
 
 You can reverse time (unfortunately, only in Blender and not in the real world)
@@ -663,7 +663,7 @@ doing so is easily overlooked in your node map and can be very confusing
 .. admonition:: Time is Relative
    :class: note
 
-   In Blender, time is measured in frames. The actual duration of a time span depends on how fast those frames whiz by (frame rate). You set the frame rate in your animation settings (:doc:`Scene Context <ce/buttons/scene_context>` F10 ). Common settings range from 5 seconds per frame for slideshows (0.2 fps), to 30 fps for US movies.
+   In Blender, time is measured in frames. The actual duration of a time span depends on how fast those frames whiz by (frame rate). You set the frame rate in your animation settings (:doc:`Scene Context </ce/buttons/scene_context>` F10 ). Common settings range from 5 seconds per frame for slideshows (0.2 fps), to 30 fps for US movies.
 
 
 Time Node Examples
@@ -679,12 +679,12 @@ the following time controls are made:
 
 
 Common uses for this include a
-:doc:`"fade to black" <composite_nodes/types/convertor#using_setalpha_to_fade_to_black>`,
+:doc:`"fade to black" </composite_nodes/types/convertor#using_setalpha_to_fade_to_black>`,
 wherein the accelerate time curve (typically exponentially-shaped)
 feeds a mix value that mixes a constant black color in,
 so that the blackness accelerates and eventually darkens the image to total black.
 Other good uses include an increasing soften (blur-out or -in) effect,
-or :doc:`fade-in <composite_nodes/types/convertor#using_setalpha_to_fade_in_a_title>` a background or foreground,
+or :doc:`fade-in </composite_nodes/types/convertor#using_setalpha_to_fade_in_a_title>` a background or foreground,
 instead of just jumping things into or out of the scene.
 
 

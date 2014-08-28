@@ -21,10 +21,10 @@ The movement of the owner along the target curve/path may be controlled in two d
   in the Path Animation panel of the Object Data context,
   via the numeric field Frames, and its start frame via the constraint's Offset option
   (by default, start frame: 1 [= offset of 0)], duration: 100).
-- The second way, much more precise and powerful, is to define a :guilabel:`Evaluation Time` interpolation curve for the :guilabel:`Target` path (in the :guilabel:`Graph Editor`.  See the :doc:`animation chapter <animation>` to learn more about Fcurves.
+- The second way, much more precise and powerful, is to define a :guilabel:`Evaluation Time` interpolation curve for the :guilabel:`Target` path (in the :guilabel:`Graph Editor`.  See the :doc:`animation chapter </animation>` to learn more about Fcurves.
 - If you don't want your owner to move along the path, you can give to the target curve a flat :guilabel:`Speed` FCurve (its value will control the position of the owner along the path).
 
-:guilabel:`Follow Path` is another constraint that works well with the :doc:`Locked Track one <constraints/tracking/locked_track>`. One example is a flying camera on a path. To control the camera's roll angle, you can use a :guilabel:`Locked Track` and a target object to specify the up direction, as the camera flies along the path.
+:guilabel:`Follow Path` is another constraint that works well with the :doc:`Locked Track one </constraints/tracking/locked_track>`. One example is a flying camera on a path. To control the camera's roll angle, you can use a :guilabel:`Locked Track` and a target object to specify the up direction, as the camera flies along the path.
 
 
 .. admonition:: :guilabel:`Follow Path` and :guilabel:`Clamp To`
@@ -33,7 +33,7 @@ The movement of the owner along the target curve/path may be controlled in two d
    Do not confuse these two constraints. Both of them constraint the location of their owner along a curve,
    but :guilabel:`Follow Path` is an "animation-only" constraint,
    inasmuch that the position of the owner along the curve is determined by the time (i.e. current frame),
-   whereas the :doc:`Clamp To <constraints/tracking/clamp_to>` :guilabel:`constraint` determines the position of its
+   whereas the :doc:`Clamp To </constraints/tracking/clamp_to>` :guilabel:`constraint` determines the position of its
    owner along the curve using one of its location properties' values.
 
 
@@ -66,7 +66,7 @@ Options
    and is not functional (red state) when it has none.
 
 :guilabel:`Curve Radius`
-   Objects scale by the curve radius. See :doc:`Curve Editing <modeling/curves/editing/advanced>`
+   Objects scale by the curve radius. See :doc:`Curve Editing </modeling/curves/editing/advanced>`
 :guilabel:`Fixed Position`
    Object will stay locked to a single point somewhere along the length of the curve regardless of time
 :guilabel:`Offset`
@@ -81,7 +81,7 @@ Options
    :guilabel:`Up`
       The axis of the object that has to be aligned (as much as possible) with the world Z axis.
       In fact, with this option activated, the behavior of the owner shares some properties with
-      the one caused by a :doc:`Locked Track constraint <constraints/tracking/locked_track>`,
+      the one caused by a :doc:`Locked Track constraint </constraints/tracking/locked_track>`,
       with the path as "axle", and the world Z axis as "magnet".
 
 

@@ -157,7 +157,7 @@ Remove Doubles
    | Hotkey:   :menuselection:`[W] --> [4]` or :menuselection:`[ctrl][V] --> Remove doubles`
 
 
-Remove Doubles is a useful tool to simplify a mesh by merging vertices that are closer than a specified distance to each other. An alternate way to simplify a mesh is to use the :doc:`Decimate modifier <modifiers/generate/decimate>`.
+Remove Doubles is a useful tool to simplify a mesh by merging vertices that are closer than a specified distance to each other. An alternate way to simplify a mesh is to use the :doc:`Decimate modifier </modifiers/generate/decimate>`.
 
 :guilabel:`Merge Distance`
    Sets the distance threshold for merging vertices, in Blender units.

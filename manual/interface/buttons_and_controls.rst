@@ -2,7 +2,7 @@
 Buttons and Controls
 ********************
 
-Buttons and other controls can be found in almost every :doc:`Window <interface/window_types>` of the Blender
+Buttons and other controls can be found in almost every :doc:`Window </interface/window_types>` of the Blender
 interface. The different types of controls are described below.
 
 
@@ -149,7 +149,7 @@ For example, the Add Modifier button will produce a menu with all of the availab
    just have to re-link it to another object or supply it with a "Fake User" (i.e.
    by clicking that option in the corresponding DataBlock in the datablock-view of the Outliner).
 
-   :doc:`Read more about Fake User » <data_system/data_system>`
+   :doc:`Read more about Fake User » </data_system/data_system>`
 
 
 Color Selector Controls
@@ -160,7 +160,7 @@ In Blender, you can choose from **4** types of color pickers; the options are:
 
 
 For more information about how to select the type of color picker,
-please go to the :doc:`System <preferences/system>` preferences page.
+please go to the :doc:`System </preferences/system>` preferences page.
 
 
 
@@ -172,7 +172,7 @@ please go to the :doc:`System <preferences/system>` preferences page.
    The :guilabel:`Hex` values are expressed in the same way HTML colors are expressed.
 
 
-   Note that Blender corrects Gamma by default; for more information about how to disable Gamma correction in Blender, please go to the :doc:`Color Management and Exposure <render/post_process/cm_and_exposure>` page.
+   Note that Blender corrects Gamma by default; for more information about how to disable Gamma correction in Blender, please go to the :doc:`Color Management and Exposure </render/post_process/cm_and_exposure>` page.
 
 
 +----------------------------------------------------------------------------------------------------------------+

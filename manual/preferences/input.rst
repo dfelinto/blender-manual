@@ -87,7 +87,7 @@ Mouse
    Apple single-button Mouse, or laptop).
    This functionality can be emulated with key/mousebutton combos.
    This option is only available if :guilabel:`Select With` is set to :guilabel:`Right`.
-   :doc:`Read more about emulating a 3 button mouse » <interface/keyboard_and_mouse#mouse_button_emulation>`
+   :doc:`Read more about emulating a 3 button mouse » </interface/keyboard_and_mouse#mouse_button_emulation>`
 :guilabel:`Continuous Grab`
    Allows moving the mouse outside of the view (for translation, rotation, scale for example).
 :guilabel:`Drag Threshold`

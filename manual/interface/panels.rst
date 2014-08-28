@@ -22,7 +22,7 @@ use :menuselection:`View --> Tool` or press :kbd:`T`. To display the :guilabel:`
 use :menuselection:`View --> Properties` or press :kbd:`N`.  See *Shelves in a 3D Window*.
 
 
-The :guilabel:`Properties Window` includes the header which allows you to choose from several :doc:`Contexts. <interface/contexts>` Each :guilabel:`Context` will have a different number and type of Panels. For example, the :guilabel:`Render Context` will have panels that allow you to alter the dimensions and anti-aliasing of the render output, while the :guilabel:`Materials Context` will have panels that allow you to set color, transparency, texture, etc.
+The :guilabel:`Properties Window` includes the header which allows you to choose from several :doc:`Contexts. </interface/contexts>` Each :guilabel:`Context` will have a different number and type of Panels. For example, the :guilabel:`Render Context` will have panels that allow you to alter the dimensions and anti-aliasing of the render output, while the :guilabel:`Materials Context` will have panels that allow you to set color, transparency, texture, etc.
 
 
 Panels in the :guilabel:`Properties Window` can be aligned vertically or horizontally by
@@ -40,5 +40,5 @@ panels can be:
 - collapsed/expanded by :kbd:`lmb` clicking the solid black triangle on the left side of their header.
 
 
-For further details about each panel, see the :doc:`Panels <ce/panels>` reference section, or find the appropriate section in the manual.
+For further details about each panel, see the :doc:`Panels </ce/panels>` reference section, or find the appropriate section in the manual.
 

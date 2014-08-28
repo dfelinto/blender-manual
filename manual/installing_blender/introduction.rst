@@ -24,10 +24,10 @@ Downloading and installing the binary distribution
 Binary distributions are provided for the following operating system families:
 
 
-- :doc:`Windows <introduction/installing_blender/windows>`
-- :doc:`Linux <introduction/installing_blender/linux>`
-- :doc:`MacOSX <introduction/installing_blender/mac>`
-- :doc:`FreeBSD <introduction/installing_blender/other_oss>`
+- :doc:`Windows </introduction/installing_blender/windows>`
+- :doc:`Linux </introduction/installing_blender/linux>`
+- :doc:`MacOSX </introduction/installing_blender/mac>`
+- :doc:`FreeBSD </introduction/installing_blender/other_oss>`
 
 Some unofficial distributions may exist for other operating systems, but as they're not
 supported by the [http://www.blender.org/blenderorg/blender-foundation/about/ Blender
@@ -64,7 +64,7 @@ used when rendering.
 Blender supports a wide variety of pen-based tablets on all major operating systems,
 in particular OS X, Windows XP, and Linux OSes.
 
-Information on how to make render times shorter can be found in the :doc:`Render <render>` section of the manual.
+Information on how to make render times shorter can be found in the :doc:`Render </render>` section of the manual.
 
 
 Developers platforms

@@ -22,23 +22,23 @@ FIXME(TODO: Internal Link;
 [[User:Tnboma/Doc:2.5/Manual/Animation/Graph Editor|Graph Editor window]]
 ).
 
-- The :doc:`Action Editor window <animation/actions>`.
-- The :doc:`The Dope Sheet <animation/dope_sheet>`.
-- The :doc:`NLA Editor window <animation/editors/nla>`.
-- The :doc:`Video Sequence Editor window <sequencer>`.
-- The :doc:`Timeline window <animation/timeline>`.When you create
+- The :doc:`Action Editor window </animation/actions>`.
+- The :doc:`The Dope Sheet </animation/dope_sheet>`.
+- The :doc:`NLA Editor window </animation/editors/nla>`.
+- The :doc:`Video Sequence Editor window </sequencer>`.
+- The :doc:`Timeline window </animation/timeline>`.When you create
 
 A marker created in one of these windows will also appear in all others that support them,
 including:
 
 
-- The :doc:`3D View window <3d_interaction/navigating>`.
+- The :doc:`3D View window </3d_interaction/navigating>`.
 
 
 Pose markers
 ============
 
-There is another type of markers, called "pose markers", which are specific to the armatures and the *Action Editor* window. They are related to the pose libraries, and are discussed in detail :doc:`here <rigging/posing/pose_library>`.
+There is another type of markers, called "pose markers", which are specific to the armatures and the *Action Editor* window. They are related to the pose libraries, and are discussed in detail :doc:`here </rigging/posing/pose_library>`.
 
 
 Visualization

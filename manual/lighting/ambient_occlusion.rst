@@ -126,13 +126,13 @@ you want to use the colors of your sky's texture.
       :guilabel:`Threshold`
          The limit below which the sample is considered fully occluded ("black") or un-occluded ("white"), and skipped.
       :guilabel:`Adapt to Speed`
-         A factor to reduce AO sampling on fast-moving pixels. As it uses the :guilabel:`Vec` render pass, that must also be enabled (see :doc:`render passes page <render/post_process/passes>`).
+         A factor to reduce AO sampling on fast-moving pixels. As it uses the :guilabel:`Vec` render pass, that must also be enabled (see :doc:`render passes page </render/post_process/passes>`).
 
 
 .. admonition:: About QMC
    :class: note
 
-   See also the :doc:`raytraced shadows page <lighting/shadows/raytraced_properties#what_is_quasi-monte_carlo?>` for more info about the  Quasi-Monte Carlo sampling method.
+   See also the :doc:`raytraced shadows page </lighting/shadows/raytraced_properties#what_is_quasi-monte_carlo?>` for more info about the  Quasi-Monte Carlo sampling method.
 
 
    :guilabel:`Constant Jittered`
@@ -218,6 +218,6 @@ The ratio between "shadow" and "light" rays defines how bright a given pixel is.
 Hints
 =====
 
-Ambient occlusion is a ray-tracing technique (at least with the :guilabel:`Raytrace` method), so it tends to be slow. Furthermore, performance severely depends on octree size, see the :doc:`rendering chapter <render>` for more information.
+Ambient occlusion is a ray-tracing technique (at least with the :guilabel:`Raytrace` method), so it tends to be slow. Furthermore, performance severely depends on octree size, see the :doc:`rendering chapter </render>` for more information.
 
 

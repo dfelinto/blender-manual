@@ -9,9 +9,9 @@ Selecting armature's bones
    | Panel:    :menuselection:`Bone` panel
 
 
-You can select and edit bones of armatures in :guilabel:`Edit mode` and in :guilabel:`Pose mode`. Here, we will see how to select bones in :guilabel:`Edit mode`. Selecting bones in :guilabel:`Pose mode` is similar to selecting in :guilabel:`Edit mode` with a few specific differences that will be detailed in the :doc:`posing part <rigging/posing/editing>`.
+You can select and edit bones of armatures in :guilabel:`Edit mode` and in :guilabel:`Pose mode`. Here, we will see how to select bones in :guilabel:`Edit mode`. Selecting bones in :guilabel:`Pose mode` is similar to selecting in :guilabel:`Edit mode` with a few specific differences that will be detailed in the :doc:`posing part </rigging/posing/editing>`.
 
-Similar to :doc:`vertices/edges selection <modeling/meshes/selecting>` in meshes, there are two ways to select whole bones in :guilabel:`Edit mode`:
+Similar to :doc:`vertices/edges selection </modeling/meshes/selecting>` in meshes, there are two ways to select whole bones in :guilabel:`Edit mode`:
 
 - directly, by selecting the bone's body
 - selecting both of its end points (root and tip)

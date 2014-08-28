@@ -23,7 +23,7 @@ the other end of the stick rotating around the joint/pivot point...
 This constraint is of no use in most "standard" static or animated projects. However,
 you can use its results outside of the BGE, through the :menuselection:`Game --> Record Animation` menu entry
 (from the main menu of the :guilabel:`User Preferences` window,
-see :doc:`Rigid Bodies <physics/using_ge>` for more info on this topic).
+see :doc:`Rigid Bodies </physics/using_ge>` for more info on this topic).
 
 
 For a demo file that shows some of the different types, see: `BGE-Physics-RigidBodyJoints.blend <http://wiki.blender.org/index.php/Media:BGE-Physics-RigidBodyJoints.blend>`__.

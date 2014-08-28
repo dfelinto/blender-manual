@@ -86,6 +86,6 @@ The selected map is displayed in the UV/Image Editor window.
 The example shows a few UV maps created for a character, and the map for Clothes is selected.
 
 Note that each texture can be mapped to a specific UV texture.
-See the :doc:`Mapping <textures/mapping>` section of the texture panel.
+See the :doc:`Mapping </textures/mapping>` section of the texture panel.
 
 

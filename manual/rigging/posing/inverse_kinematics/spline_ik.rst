@@ -13,7 +13,7 @@ It is particularly well suited for rigging flexible body parts such as tails, te
 and spines, as well as inorganic items such as ropes.
 
 Full description of the settings for the spline IK are detailed on the
-:doc:`Spline IK <constraints/tracking/spline_ik>` page.
+:doc:`Spline IK </constraints/tracking/spline_ik>` page.
 
 
 Basic Setup
@@ -32,7 +32,7 @@ To setup Spline IK,
 it is necessary to have a chain of connected bones and a curve to constrain these bones to.
 
 
-- With the last bone in the chain selected, add a '\ :doc:`Spline IK <constraints/tracking/spline_ik>` ' Constraint from the Bone Constraints tab in the Properties Editor.
+- With the last bone in the chain selected, add a '\ :doc:`Spline IK </constraints/tracking/spline_ik>` ' Constraint from the Bone Constraints tab in the Properties Editor.
 - Set the 'Chain Length' setting to the number of bones in the chain (starting from and including the selected bone) that should be influenced by the curve.
 - Finally, set the 'Target' field to the curve that should control the curve.
 

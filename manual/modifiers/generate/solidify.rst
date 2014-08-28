@@ -49,7 +49,7 @@ Options
 
 
 :guilabel:`Crease`
-   These options are intended for usage with the :doc:`Subdivision Surface <modifiers/generate/subsurf>` modifier.
+   These options are intended for usage with the :doc:`Subdivision Surface </modifiers/generate/subsurf>` modifier.
 
    :guilabel:`Inner`
       Assign a crease to the inner edges.

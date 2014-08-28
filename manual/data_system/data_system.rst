@@ -48,7 +48,7 @@ and then you will see the overall structure of a file: :guilabel:`Action`,
 Outliner and OOPS Schematic
 ***************************
 
-You can easily inspect the contents of your file by using the :guilabel:`Outliner` window. This window displays the Blender data system (:doc:`fully documented here <data_system/the_outliner>`). This window offers two views of the database. The :guilabel:`Outliner` view allows you to do simple operations on the objects. These operations include selecting, renaming, deleting and linking. The :guilabel:`OOPS Schematic` (Object-Oriented Programming System) view allows you to easily see how datablocks are linked. You can filter the view by using buttons found in the header.
+You can easily inspect the contents of your file by using the :guilabel:`Outliner` window. This window displays the Blender data system (:doc:`fully documented here </data_system/the_outliner>`). This window offers two views of the database. The :guilabel:`Outliner` view allows you to do simple operations on the objects. These operations include selecting, renaming, deleting and linking. The :guilabel:`OOPS Schematic` (Object-Oriented Programming System) view allows you to easily see how datablocks are linked. You can filter the view by using buttons found in the header.
 
 
 Users (Sharing)
@@ -91,7 +91,7 @@ to link or copy and then using the :guilabel:`Make Links` and :guilabel:`Make Si
 :guilabel:`Object` menu in the 3D viewport header. Use :guilabel:`Make Links` to make links between scenes.
 To make a plain copy, you first make a link and then use :guilabel:`Make Single User` to make a stand-alone copy of
 the object in your current scene.
-Further information on working with scenes can be found :doc:`here <data_system/scene_creation>`.
+Further information on working with scenes can be found :doc:`here </data_system/scene_creation>`.
 
 
 Appending or Linking Across Files
@@ -100,13 +100,13 @@ Appending or Linking Across Files
 The content of one .blend file is easily accessed and put into your current file by using the :guilabel:`File` ?
 :guilabel:`Append` function (accessed at any time by :kbd:`shift-F1`).
 To find out more about how to copy or link objects across .blend files,
-:doc:`click here <data_system/linked_libraries>`.
+:doc:`click here </data_system/linked_libraries>`.
 
 
 Proxy Objects
 =============
 
-:doc:`Proxy objects <data_system/linked_libraries>` allow you to make (parts of) linked data local. For example,
+:doc:`Proxy objects </data_system/linked_libraries>` allow you to make (parts of) linked data local. For example,
 this allows an animator to make a local "copy" of the handler bones of a character,
 without having the actual rig duplicated. This is especially useful for character animation setups,
 where you want the entire character to be loaded from an external library,

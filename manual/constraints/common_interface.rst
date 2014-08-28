@@ -12,7 +12,7 @@ Constraints Common Interface
    The three parts of a constraint interface
 
 
-As with :doc:`modifiers <modifiers>`, an object (or bone, see the :doc:`rigging chapter <rigging>` for details)
+As with :doc:`modifiers </modifiers>`, an object (or bone, see the :doc:`rigging chapter </rigging>` for details)
 can use several constraints at once.
 Hence, these constraints are organized in a stack which controls their order of evaluation (from top to bottom).
 
@@ -48,7 +48,7 @@ The name field
    (as in *A constraint header*). As most constraints need a second "target" object to work (see below),
    when just added, they are in "red state", as Blender cannot guess which object or bone to use as target.
    This can also happen when you choose an invalid set of settings,
-   e.g. with a :doc:`Track To constraint <constraints/tracking/track_to>`
+   e.g. with a :doc:`Track To constraint </constraints/tracking/track_to>`
    of which the :guilabel:`To` and :guilabel:`Up` vectors are both set to the same axis.
    As noted above, constraints in "red state" are ignored during the stack evaluation.
 
@@ -161,6 +161,6 @@ Note that if a constraint has a full influence on a given property, all other co
 above in the stack working on that same property will have no effect at all.
 
 But the best thing with influence is that you can animate it with an Fcurve - see
-:doc:`the constraints page of the animation chapter <animation/techs/object/constraint>` for more details about this.
+:doc:`the constraints page of the animation chapter </animation/techs/object/constraint>` for more details about this.
 
 

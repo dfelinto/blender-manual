@@ -5,7 +5,7 @@
 Surface Selection
 *****************
 
-Surface selection in :guilabel:`Edit` mode is very similar to :doc:`NURBS curve selection <modeling/curves/editing>`. The basic tools are the same as with :doc:`meshes <modeling/meshes/selecting>`, so you can select a simple control point with a :kbd:`lmb` -click, add to current selection with :kbd:`shift-lmb` -clicks, :kbd:`B` order-select, and so on.
+Surface selection in :guilabel:`Edit` mode is very similar to :doc:`NURBS curve selection </modeling/curves/editing>`. The basic tools are the same as with :doc:`meshes </modeling/meshes/selecting>`, so you can select a simple control point with a :kbd:`lmb` -click, add to current selection with :kbd:`shift-lmb` -clicks, :kbd:`B` order-select, and so on.
 
 :kbd:`L` (or :kbd:`ctrl-L`) will add to the selection the mouse cursor's nearest control point, and all the linked ones, i.e. all points belonging to the same surface.
 
@@ -15,7 +15,7 @@ Select Menu
 
 The :guilabel:`Select` menu (3D view headers) is even simpler than for curves...
 
-   All these options have the same meaning and behavior as in :doc:`Object mode <modeling/objects/selecting>` (and the specificities of :guilabel:`Border Select` in :guilabel:`Edit` mode have already been discussed :doc:`here <modeling/meshes/selecting>`).
+   All these options have the same meaning and behavior as in :doc:`Object mode </modeling/objects/selecting>` (and the specificities of :guilabel:`Border Select` in :guilabel:`Edit` mode have already been discussed :doc:`here </modeling/meshes/selecting>`).
 
 
 .. figure:: /images/NurbsSelectMenu.jpg
@@ -34,7 +34,7 @@ Every Nth
    | Hotkey:   None
 
 
-This is the same option as for :doc:`curve selection <modeling/curves/editing#every_nth>`. However, the behavior of the :guilabel:`N` ("selection step") parameter in the 2D of a NURBS surface "cage" seems quite difficult to understand...
+This is the same option as for :doc:`curve selection </modeling/curves/editing#every_nth>`. However, the behavior of the :guilabel:`N` ("selection step") parameter in the 2D of a NURBS surface "cage" seems quite difficult to understand...
 
 
 Control Point Row
@@ -48,7 +48,7 @@ Control Point Row
    | Hotkey:   :kbd:`shift-R`
 
 
-This option works a bit like :doc:`edge loop selection <modeling/meshes/selecting#edge_loop_selection>` for meshes, inasmuch it selects a whole :doc:`row <modeling/surfaces#control_points,_rows_and_grid>` of control points, based on the active (the last selected) one. The first time you hit :kbd:`shift-R`, the V-row passing through (containing) the active point will be *added to the current selection*. If you use again this shortcut, you will toggle between the U- and V-row of this point, *removing everything else from the selection*.
+This option works a bit like :doc:`edge loop selection </modeling/meshes/selecting#edge_loop_selection>` for meshes, inasmuch it selects a whole :doc:`row </modeling/surfaces#control_points,_rows_and_grid>` of control points, based on the active (the last selected) one. The first time you hit :kbd:`shift-R`, the V-row passing through (containing) the active point will be *added to the current selection*. If you use again this shortcut, you will toggle between the U- and V-row of this point, *removing everything else from the selection*.
 
 
 More and Less
@@ -62,7 +62,7 @@ More and Less
    | Hotkey:   :kbd:`ctrl-pad+` / :kbd:`ctrl-pad-`
 
 
-These two options are complementary and very similar to :doc:`those for meshes <modeling/meshes/selecting>`. Their purpose, based on current selected control points, is to reduce or enlarge this selection.
+These two options are complementary and very similar to :doc:`those for meshes </modeling/meshes/selecting>`. Their purpose, based on current selected control points, is to reduce or enlarge this selection.
 
 The algorithm is the same as with meshes:
 
@@ -94,9 +94,9 @@ Basic Surface Editing (translation, rotation, scale)
    | Hotkey:   :kbd:`G` / :kbd:`R` / :kbd:`S`
 
 
-Once you have a selection of one or more control points, you can grab/move (:kbd:`G`), rotate (:kbd:`R`) or scale (:kbd:`S`) them, like many other things in Blender, as described in the :doc:`Manipulation in 3D Space <3d_interaction/transformations/basics>` section.
+Once you have a selection of one or more control points, you can grab/move (:kbd:`G`), rotate (:kbd:`R`) or scale (:kbd:`S`) them, like many other things in Blender, as described in the :doc:`Manipulation in 3D Space </3d_interaction/transformations/basics>` section.
 
-You also have in :guilabel:`Edit` mode an extra option when using these basic manipulations: the :doc:`proportional editing <3d_interaction/transform_control/proportional_edit>`.
+You also have in :guilabel:`Edit` mode an extra option when using these basic manipulations: the :doc:`proportional editing </3d_interaction/transform_control/proportional_edit>`.
 
 
 Advanced Transform Tools
@@ -109,7 +109,7 @@ Advanced Transform Tools
    | Menu:     :menuselection:`Surface --> Transform`
 
 
-The :guilabel:`To Sphere`, :guilabel:`Shear`, :guilabel:`Wrap` and :guilabel:`Push/Pull` transform tools are described in the :doc:`Mesh Editing <modeling/meshes/tools#advanced_transform_tools>` chapter. Surfaces have no specific transform tools.
+The :guilabel:`To Sphere`, :guilabel:`Shear`, :guilabel:`Wrap` and :guilabel:`Push/Pull` transform tools are described in the :doc:`Mesh Editing </modeling/meshes/tools#advanced_transform_tools>` chapter. Surfaces have no specific transform tools.
 
 
 NURBS Control Points Settings
@@ -122,7 +122,7 @@ NURBS Control Points Settings
    | Panel:    :guilabel:`Curve Tools` (:guilabel:`Editing` context, :kbd:`F9`), and :guilabel:`Transform Properties`
 
 
-We saw in a :doc:`previous page <modeling/surfaces#weight>` that NURBS control points have a weight, which is the influence of this point on the surface. You set it either using the big :guilabel:`Set Weight` button in the :guilabel:`Curve Tools` panel (after having defined the weight in the numeric field to the right), or by directly typing a value in the :guilabel:`W` numeric field of the :guilabel:`Transform Properties` panel.
+We saw in a :doc:`previous page </modeling/surfaces#weight>` that NURBS control points have a weight, which is the influence of this point on the surface. You set it either using the big :guilabel:`Set Weight` button in the :guilabel:`Curve Tools` panel (after having defined the weight in the numeric field to the right), or by directly typing a value in the :guilabel:`W` numeric field of the :guilabel:`Transform Properties` panel.
 
 
 Adding or Extruding
@@ -136,7 +136,7 @@ Adding or Extruding
    | Hotkey:   :kbd:`E` (or :kbd:`ctrl-lmb`)
 
 
-Unlike meshes or curves, you cannot generally directly add new control points to a surface (with :kbd:`ctrl-lmb` clicks), as you can only extend a surface by adding a whole U- or V-row at once. The only exception is when working on a NURBS surface curve, i.e. a surface with only one control point on each U- or V-row. In this special case, all works exactly as with :doc:`curves <modeling/curves/editing#adding_new_segments>`.
+Unlike meshes or curves, you cannot generally directly add new control points to a surface (with :kbd:`ctrl-lmb` clicks), as you can only extend a surface by adding a whole U- or V-row at once. The only exception is when working on a NURBS surface curve, i.e. a surface with only one control point on each U- or V-row. In this special case, all works exactly as with :doc:`curves </modeling/curves/editing#adding_new_segments>`.
 
 Most of the time, only extrusion is available. As usual, once the tool is activated the
 extrusion happens immediately and you are placed into :guilabel:`Grab mode`,
@@ -207,9 +207,9 @@ Opening or Closing a Surface
    | Hotkey:   :kbd:`C`
 
 
-As in :doc:`curves <modeling/curves/editing#opening_and_closing_a_curve>`, surfaces can be closed (cyclic) or open. However, as surfaces are 2D, you can control this property independently along the U and V axes.
+As in :doc:`curves </modeling/curves/editing#opening_and_closing_a_curve>`, surfaces can be closed (cyclic) or open. However, as surfaces are 2D, you can control this property independently along the U and V axes.
 
-To toggle the cyclic property of a surface along one axis, use :kbd:`C` and choose either :guilabel:`cyclic U` or :guilabel:`cyclic V` from the :doc:`Toggle pop-up menu <modeling/surfaces>`. The corresponding surface's outer edges will join together to form a "closed" surface.
+To toggle the cyclic property of a surface along one axis, use :kbd:`C` and choose either :guilabel:`cyclic U` or :guilabel:`cyclic V` from the :doc:`Toggle pop-up menu </modeling/surfaces>`. The corresponding surface's outer edges will join together to form a "closed" surface.
 
 
 .. admonition:: Inner and Outer
@@ -284,7 +284,7 @@ Example
 +---------------------------------------------+
 
 
-In (*Before*) a row of control points has been selected by initially selecting the control point labeled "\ ``A`` " and using :kbd:`shift-R` to select the remaining control points. Then, using the :doc:`Erase menu <ce/menus/erase#edit_mode>` (:kbd:`X`), the *selected* row of control points is erased, resulting in (*After*).
+In (*Before*) a row of control points has been selected by initially selecting the control point labeled "\ ``A`` " and using :kbd:`shift-R` to select the remaining control points. Then, using the :doc:`Erase menu </ce/menus/erase#edit_mode>` (:kbd:`X`), the *selected* row of control points is erased, resulting in (*After*).
 
 
 Joining or Merging Surfaces
@@ -298,7 +298,7 @@ Joining or Merging Surfaces
    | Hotkey:   :kbd:`F`
 
 
-Just like :doc:`curves <modeling/curves/editing#joining_or_merging_curves>`, merging two surfaces requires that a single edge, a border row of control points, from two separate surfaces are selected. This means that the surfaces must be part of the same object. For example, you can't join two surfaces while in :guilabel:`Object` mode - but you can of course, as with any objects of the same type,
+Just like :doc:`curves </modeling/curves/editing#joining_or_merging_curves>`, merging two surfaces requires that a single edge, a border row of control points, from two separate surfaces are selected. This means that the surfaces must be part of the same object. For example, you can't join two surfaces while in :guilabel:`Object` mode - but you can of course, as with any objects of the same type,
 FIXME(TODO: Internal Link;
 [[#Joining Objects|join two or more {{Literal|Surface}} objects]]
 ) into one object (:kbd:`ctrl-J`) - they just won't be "linked" or merged in a single one... Yes, it's a bit confusing!
@@ -316,7 +316,7 @@ So to avoid problems, you should always only select border rows with the same nu
 points... Note that you can join a border U-row of one surface with a border V-row of another
 one, Blender will automatically "invert" the axis of one surface for them to match correctly.
 
-NURBS surface curves are often used to create objects like hulls, as they define cross sections all along the object, and you just have to "skin" them as described above to get a nice, smooth and harmonious shape. See :doc:`this tutorial <ls/modeling/surfaces/skinning>` for a detailed workflow.
+NURBS surface curves are often used to create objects like hulls, as they define cross sections all along the object, and you just have to "skin" them as described above to get a nice, smooth and harmonious shape. See :doc:`this tutorial </ls/modeling/surfaces/skinning>` for a detailed workflow.
 
 
 Examples
@@ -352,7 +352,7 @@ using either the :guilabel:`Subdivide` entry in the :guilabel:`Specials` menu
 you will subdivide once all *completely selected grids* by subdividing each "quad" into four
 smaller ones.
 
-If you apply it to a 1D surface (a "surface curve"), this tool works exactly as with :doc:`curves <modeling/curves/editing#subdivision>`.
+If you apply it to a 1D surface (a "surface curve"), this tool works exactly as with :doc:`curves </modeling/curves/editing#subdivision>`.
 
 
 Spin
@@ -367,7 +367,7 @@ Spin
    | Panel:    :guilabel:`Curve Tools1` (:guilabel:`Editing` context, :kbd:`F9`)
 
 
-This tool is a bit similar to its :doc:`mesh counterpart <modeling/meshes/tools#spin>` - but with less control and options (in fact, there's none!).
+This tool is a bit similar to its :doc:`mesh counterpart </modeling/meshes/tools#spin>` - but with less control and options (in fact, there's none!).
 
 It only works on selected "surfaces" made of *one U-row* (and not with one V-row),
 so-called "surface curves", by "extruding" this "cross section" in a square pattern,
@@ -403,7 +403,7 @@ Other Specials Options
    | Hotkey:   :kbd:`W`
 
 
-The :guilabel:`Specials` menu contains exactly the same additional options as for :doc:`curves <modeling/curves/editing#other_specials_options>` - but I suppose :guilabel:`Set Radius` and :guilabel:`Smooth Radius` have nothing to do here...
+The :guilabel:`Specials` menu contains exactly the same additional options as for :doc:`curves </modeling/curves/editing#other_specials_options>` - but I suppose :guilabel:`Set Radius` and :guilabel:`Smooth Radius` have nothing to do here...
 
 
 Conversion
@@ -420,14 +420,14 @@ using the surface resolutions in both directions to create faces, edges and vert
 Retopology
 ==========
 
-Snapping surface components is the same as is with meshes and curves. See :doc:`Retopology <modeling/meshes/editing/retopo>` for more information.
+Snapping surface components is the same as is with meshes and curves. See :doc:`Retopology </modeling/meshes/editing/retopo>` for more information.
 
 
 Misc Editing
 ============
 
-You have some of the same options as with meshes, or in :guilabel:`Object` mode. You can :doc:`separate <modeling/objects/groups_and_parenting#separating_objects>` a given surface (:kbd:`P`), make other selected objects :doc:`children <modeling/objects/groups_and_parenting#parenting_objects>` of one or three control points (:kbd:`ctrl-P` - note however that parenting to three control points has a strange behavior with curves...), or :doc:`add hooks <modifiers/deform/hooks>` to control some points with other objects.
+You have some of the same options as with meshes, or in :guilabel:`Object` mode. You can :doc:`separate </modeling/objects/groups_and_parenting#separating_objects>` a given surface (:kbd:`P`), make other selected objects :doc:`children </modeling/objects/groups_and_parenting#parenting_objects>` of one or three control points (:kbd:`ctrl-P` - note however that parenting to three control points has a strange behavior with curves...), or :doc:`add hooks </modifiers/deform/hooks>` to control some points with other objects.
 
-The :guilabel:`Mirror` tool is also available, behaving exactly as with :doc:`mesh vertices <modeling/meshes/tools#mirror>`.
+The :guilabel:`Mirror` tool is also available, behaving exactly as with :doc:`mesh vertices </modeling/meshes/tools#mirror>`.
 
 

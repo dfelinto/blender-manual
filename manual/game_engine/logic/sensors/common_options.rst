@@ -72,7 +72,7 @@ Examples:
 +----+---------------------------------------------------------------------------------------------------------+-------------------+----------------------+----------------+-----------------------+
 
 :kbd:`Level` Button
-   Triggers connected controllers when state (of the build-in state machine) changes. (For more information see :doc:`States <game_engine/logic/states>`).
+   Triggers connected controllers when state (of the build-in state machine) changes. (For more information see :doc:`States </game_engine/logic/states>`).
 
 The following parameters specifies how the sensor's status gets evaluated:
 

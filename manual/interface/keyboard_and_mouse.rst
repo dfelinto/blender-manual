@@ -21,7 +21,7 @@ Blender's interface is designed to be used with the following recommended input 
 - A three-button mouse with a scroll wheel
 - A full keyboard with a numeric keypad (NumLock should generally be switched on).
 
-:doc:`Read more about Blender configuration » <preferences>`
+:doc:`Read more about Blender configuration » </preferences>`
 
 
 Usage of Mouse Buttons
@@ -34,7 +34,7 @@ Therefore we have established a general usage of the mouse buttons which apply i
    Left Mouse Button: Initiate or confirm an action
 (These can be swapped in the Input tab of the User Preferences)
 
-Note: The Reference section contains details (and a short video guide) about the :doc:`Usage of Mouse Buttons for basic Operations <ce/userinterface/mousebuttons>`
+Note: The Reference section contains details (and a short video guide) about the :doc:`Usage of Mouse Buttons for basic Operations </ce/userinterface/mousebuttons>`
 
 
 Conventions in this Manual
@@ -74,7 +74,7 @@ Of special note are the arrow keys, :kbd:`left`, :kbd:`right` and so on.
 Mouse Button Emulation
 **********************
 
-If you do not have a 3 button mouse, you'll need to emulate it by checking the option in the :doc:`User Preferences <preferences/input#mouseuser>` (unchecked by default).
+If you do not have a 3 button mouse, you'll need to emulate it by checking the option in the :doc:`User Preferences </preferences/input#mouseuser>` (unchecked by default).
 
 The following table shows the combinations used:
 
@@ -102,7 +102,7 @@ If you do not have a Numeric Numpad on the side of your keyboard, you may want t
 (uses the numbers at the top of the keyboard instead,
 however removes quick access to layer visibility).
 
-:doc:`Read more about NumPad Emulation on User Preferences page » <preferences/input#numpad_emulation>`
+:doc:`Read more about NumPad Emulation on User Preferences page » </preferences/input#numpad_emulation>`
 
 
 Non English Keyboard
@@ -113,5 +113,5 @@ your computer to the UK or US layout as long as you work with Blender.
 Note that you can also change the Blender default keymap and change the default hotkeys.
 However this manual is based on the default keymap.
 
-:doc:`Read more about Blender configuration » <preferences/input>`
+:doc:`Read more about Blender configuration » </preferences/input>`
 

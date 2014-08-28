@@ -49,9 +49,9 @@ The keyframes are set values by the user.
 
 The *F-Curve* is used to interpolate the difference between the keyframes.
 
-The *F-Curve* has different types of interpolation and also :doc:`F-Curve Modifiers <animation/editors/graph/fmodifiers>`.
+The *F-Curve* has different types of interpolation and also :doc:`F-Curve Modifiers </animation/editors/graph/fmodifiers>`.
 
-Most the settings for the :doc:`F-Curve <animation/editors/graph/fcurves>` are found in the :doc:`Graph Editor <animation/editors/graph>`.
+Most the settings for the :doc:`F-Curve </animation/editors/graph/fcurves>` are found in the :doc:`Graph Editor </animation/editors/graph>`.
 
 
 Basic Animation
@@ -104,7 +104,7 @@ Auto Keyframe
 Auto Keyframe is the red record button in the *Timeline* header. Auto Keyframe adds
 keyframes automatically to the set frame if the value for transform type properties changes.
 
-See :doc:`Timeline V Keyframe Control <animation/editors/timeline#v_keyframe_control>` for more info.
+See :doc:`Timeline V Keyframe Control </animation/editors/timeline#v_keyframe_control>` for more info.
 
 
 Keying Sets
@@ -125,7 +125,7 @@ or the *Keying Sets Panel*.
 Now when you press :kbd:`I` in the 3D view,
 blender will add keyframes for all the properties in the active keying set.
 
-See :doc:`Keying Sets <animation/basics/keying_sets>` for more info.
+See :doc:`Keying Sets </animation/basics/keying_sets>` for more info.
 
 
 Properties
@@ -201,10 +201,10 @@ Working with Actions
 When you first animate an object by adding keyframes,
 blender creates an *Action* to record the data.
 
-*Actions* can be managed with the *Action Browser* in the :doc:`DopeSheet <animation/editors/dopesheet>` *Action Editor* header, or the properties region of the :doc:`NLA Editor <animation/editors/nla>`.
+*Actions* can be managed with the *Action Browser* in the :doc:`DopeSheet </animation/editors/dopesheet>` *Action Editor* header, or the properties region of the :doc:`NLA Editor </animation/editors/nla>`.
 
 If you are making multiple actions for the same object,
 press the **F** button for each action,
 this will give the actions a *Fake User* and will make blender save the unlinked actions.
 
-Objects can only use one *Action* at a time for editing, the :doc:`NLA Editor <animation/editors/nla>` is used to blend mutiple actions together.
+Objects can only use one *Action* at a time for editing, the :doc:`NLA Editor </animation/editors/nla>` is used to blend mutiple actions together.

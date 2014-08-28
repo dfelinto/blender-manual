@@ -706,7 +706,7 @@ and avoid the tedious effort of establishing each parent-child vertex relationsh
 .. admonition:: Note
    :class: note
 
-   It is in fact a sort of "reversed" :doc:`hook <modifiers/deform/hooks>`
+   It is in fact a sort of "reversed" :doc:`hook </modifiers/deform/hooks>`
 
 
 Options
@@ -780,7 +780,7 @@ Hints
    Outliner view
 
 
-There is another way to see the parent-child relationship in groups and that is to use the :guilabel:`Outliner` view of the :doc:`Outliner window <data_system/the_outliner>`. Image (:guilabel:`Outliner` *view*) is an example of what the :guilabel:`Outliner` view looks like for the (*Parenting Example*). Cube "\ ``A`` "'s object name is "\ ``Cube_Parent`` " and cube "\ ``B`` " is "\ ``Cube_Child`` ".
+There is another way to see the parent-child relationship in groups and that is to use the :guilabel:`Outliner` view of the :doc:`Outliner window </data_system/the_outliner>`. Image (:guilabel:`Outliner` *view*) is an example of what the :guilabel:`Outliner` view looks like for the (*Parenting Example*). Cube "\ ``A`` "'s object name is "\ ``Cube_Parent`` " and cube "\ ``B`` " is "\ ``Cube_Child`` ".
 
 
 Separating Objects
@@ -842,10 +842,10 @@ Naming a Group
    All groups that an object has been assigned to are listed in the :guilabel:`Object Properties Panel` 's :guilabel:`Relations` panel.  To rename a group, simply click in the groups name field.
    To name groups in the :guilabel:`Outliner` window, select :guilabel:`Groups` as the outliner display from the header combo box, and :kbd:`ctrl-lmb` click on the group name. The name will change to an editable field; make your changes and press :kbd:`enter`.
 Restricting Group Contents via Layers
-   The cluster of layer buttons attached to each group determines from which layers the group objects will be included when duplicated. If your group contains objects on layers 10, 11 and 12, but you disable the layer 12 button in the group controls, duplicates of that group (using the :doc:`Dupligroup <modeling/objects/duplication/dupligroup>` feature) will only show the portions of the group that reside in layers 10 and 11.
+   The cluster of layer buttons attached to each group determines from which layers the group objects will be included when duplicated. If your group contains objects on layers 10, 11 and 12, but you disable the layer 12 button in the group controls, duplicates of that group (using the :doc:`Dupligroup </modeling/objects/duplication/dupligroup>` feature) will only show the portions of the group that reside in layers 10 and 11.
 
 Appending or Linking Groups
-   To append a group from another .blend file, consult :doc:`this page <data_system/linked_libraries>`. In summary, :guilabel:`File` → :guilabel:`Append or Link` → ``filename`` → :guilabel:`Group` → ``groupname``.
+   To append a group from another .blend file, consult :doc:`this page </data_system/linked_libraries>`. In summary, :guilabel:`File` → :guilabel:`Append or Link` → ``filename`` → :guilabel:`Group` → ``groupname``.
 
 Removing Groups
    To remove a object from a group, under the object context button, open the "Groups" pane. Find the name of the group from which you wish to remove the object, and click the x to the right of the group name.
@@ -863,6 +863,6 @@ Select Grouped
 
 
 Select objects by parenting and grouping characteristics.
-See :doc:`Select Grouped <modeling/objects/selecting>` for more information.
+See :doc:`Select Grouped </modeling/objects/selecting>` for more information.
 
 

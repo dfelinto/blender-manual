@@ -11,7 +11,7 @@ Blender allows you to import other file formats
 Collada (.dae)
 ==============
 
-:doc:`See Here <data_system/files/import/collada>`
+:doc:`See Here </data_system/files/import/collada>`
 
 
 Motion Capture (.bvh)

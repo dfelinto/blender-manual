@@ -62,18 +62,18 @@ protrusions) you put in, the more detailed your map will be.
 
 Baking a map, simply put, is to take the detail of a high polygon mesh, and apply it to a similar object.
 The similar object is identical to the high-poly mesh except with less vertices.
-Use the :doc:`Render Bake <render/workflows/bake>` feature in Blender to accomplish this.
+Use the :doc:`Render Bake </render/workflows/bake>` feature in Blender to accomplish this.
 
 
 Modeling a low-poly using Blender's Mesh editing tools. In general,
 the same or similar faces should exist that reflect the model. For example,
 a highly detailed ear may have 1000 faces in the high-poly model. In the low-poly model,
 this may be replaced with a single plane, oriented in the same direction as the detailed ear mesh.  *(Tip:* Blender's
-:doc:`multi-resolution mesh <modifiers/generate/multiresolution>` modeling feature can be used to good effect here.)
+:doc:`multi-resolution mesh </modifiers/generate/multiresolution>` modeling feature can be used to good effect here.)
 
 
 Mapping is the process of applying a texture to the low-poly mesh.
-Consult the :doc:`Textures Mapping section<textures/mapping>`
+Consult the :doc:`Textures Mapping section</textures/mapping>`
 for more information on applying a texture to a mesh's material.Special considerations for Bump and Normal Maps is:
 
 - When using a Bump map, map the texture to :guilabel:`Normal` and enable :guilabel:`No RGB`.
@@ -81,5 +81,5 @@ for more information on applying a texture to a mesh's material.Special consider
 
 The coordinate systems of the two objects must match. For example, if you bake using a UV map of the high-poly model,
 you must UV map the low poly model and line up its UV coordinates to match the outline of the high-poly image
-(see :doc:`UV unwrapping <textures/mapping/uv>` to line up with the high-poly map edges.
+(see :doc:`UV unwrapping </textures/mapping/uv>` to line up with the high-poly map edges.
 

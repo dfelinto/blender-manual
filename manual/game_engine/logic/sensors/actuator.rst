@@ -15,7 +15,7 @@ The :guilabel:`Actuator` sensor sends a TRUE pulse when the specified actuator i
 
 The sensor also sends a FALSE pulse when the specified actuator  is deactivated.
 
-See :doc:`Sensor Common Options <game_engine/logic/sensors/common_options>` for common options.
+See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for common options.
 
 Special Options:
 

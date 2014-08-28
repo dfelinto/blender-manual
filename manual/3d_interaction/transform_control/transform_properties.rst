@@ -24,7 +24,7 @@ manually/numerically control the position, rotation, and other properties of an 
 In :guilabel:`Edit` mode, it mainly allows you to enter precise coordinates for a vertex,
 or median position for a group of vertices (including an edge/face). As each type of object has a different set of
 options in its :guilabel:`Transform Properties` panel in :guilabel:`Edit` mode,
-see their respective descriptions in the :doc:`Modeling chapter <modeling>`.
+see their respective descriptions in the :doc:`Modeling chapter </modeling>`.
 
 
 Options in Object mode
@@ -61,7 +61,7 @@ of all of its *vertices* and faces.
    center
 
 
-Some fields have extra functionality or features, such as scroll regions. When attempting to edit these types of fields it is easier to use {\ :kbd:`shift-lmb` instead of just :kbd:`lmb`. After you have edited a field click outside of the field's edit area or press :kbd:`enter` to confirm the changes. Changes will be reflected in the display window immediately. To cancel, hit :kbd:`Esc`. For further descriptions of the other features of an edit field see :doc:`The Interface <interface>` section.
+Some fields have extra functionality or features, such as scroll regions. When attempting to edit these types of fields it is easier to use {\ :kbd:`shift-lmb` instead of just :kbd:`lmb`. After you have edited a field click outside of the field's edit area or press :kbd:`enter` to confirm the changes. Changes will be reflected in the display window immediately. To cancel, hit :kbd:`Esc`. For further descriptions of the other features of an edit field see :doc:`The Interface </interface>` section.
 
 
 Transform Properties Locking

@@ -3,7 +3,7 @@ Assigning a Texture
 *******************
 
 This page just shows how to add a texture to a slot.
-The textures' commons options are explained :doc:`here <textures/options>`.
+The textures' commons options are explained :doc:`here </textures/options>`.
 
 
 Choosing the Texture context

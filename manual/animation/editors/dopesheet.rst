@@ -29,14 +29,14 @@ Dope Sheet Modes
 
 There are four basic views for the Dopesheet.These all view different contexts of animation:
 
-:doc:`DopeSheet <animation/editors/dopesheet/dopesheet>`
+:doc:`DopeSheet </animation/editors/dopesheet/dopesheet>`
    The dopeSheet allow you to edit multiple actions at once.
-:doc:`Action Editor <animation/editors/dopesheet/action>`
+:doc:`Action Editor </animation/editors/dopesheet/action>`
    :guilabel:`Action Editor` is the default, and most useful one. It's here you can define and control your actions.
-:doc:`Shape Key Editor <animation/editors/dopesheet/shapekey>`
+:doc:`Shape Key Editor </animation/editors/dopesheet/shapekey>`
    :guilabel:`ShapeKey Editor` is dedicated to the :guilabel:`Shape` Ipo datablocks. It uses/edits the same action datablock as the previous mode. It seems to be an old and useless thing, as the :guilabel:`Action Editor` mode handles :guilabel:`Shape` channels very well, and this mode adds nothing...
-:doc:`Grease Pencil <animation/editors/dopesheet/greasepencil>`
-   :guilabel:`Grease Pencil` is dedicated to the :doc:`grease pencil tool's <3d_interaction/sketching/layers_and_animation>` keyframes - for each grease pencil layer, you have a strip along which you can grab its keys, and hence easily re-time your animated sketches. As it is just another way to see and edit the grease pencil data, this mode uses no datablock (and hence has nothing to do with actions...). Note that you'll have as much top-level grease pencil channels as you have sketched windows (3D views, :guilabel:`UV/Image Editor`, etc.)
+:doc:`Grease Pencil </animation/editors/dopesheet/greasepencil>`
+   :guilabel:`Grease Pencil` is dedicated to the :doc:`grease pencil tool's </3d_interaction/sketching/layers_and_animation>` keyframes - for each grease pencil layer, you have a strip along which you can grab its keys, and hence easily re-time your animated sketches. As it is just another way to see and edit the grease pencil data, this mode uses no datablock (and hence has nothing to do with actions...). Note that you'll have as much top-level grease pencil channels as you have sketched windows (3D views, :guilabel:`UV/Image Editor`, etc.)
 
 
 Interface
@@ -107,7 +107,7 @@ View Menu
    Whether to show the time in the X-axis as frames or as seconds
 
 :guilabel:`Set Preview Range`:kbd:`P`
-   Interactively define frame range used for playback. Allow you to define a temporary preview range to use for the :kbd:`alt-A` realtime playback (this is the same thing as the :guilabel:`Pr` option of the :doc:`Timeline window header <animation/timeline#header_controls>`).
+   Interactively define frame range used for playback. Allow you to define a temporary preview range to use for the :kbd:`alt-A` realtime playback (this is the same thing as the :guilabel:`Pr` option of the :doc:`Timeline window header </animation/timeline#header_controls>`).
 :guilabel:`Clear Preview Range`:kbd:`alt-P`
    Clears the preview range
 :guilabel:`Auto-Set Preview Range`
@@ -117,10 +117,10 @@ View Menu
 Select Menu
 -----------
 
-See :doc:`FCurve Editing <animation/editors/graph/fcurves/editing>`
+See :doc:`FCurve Editing </animation/editors/graph/fcurves/editing>`
 
 
 Marker Menu
 -----------
 
-See the :doc:`Markers page <animation/markers>`.
+See the :doc:`Markers page </animation/markers>`.

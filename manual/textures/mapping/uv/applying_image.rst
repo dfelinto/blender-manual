@@ -49,7 +49,7 @@ and the Gimp working on the texture, using the saved layout as a guide.
 Note that targa format supports the Alpha channel,
 so you can paint transparent areas of the mesh.
 
-For using images as textures, see the page on :doc:`Image Textures <textures/types/image>`
+For using images as textures, see the page on :doc:`Image Textures </textures/types/image>`
 
 
 .. figure:: /images/Doc26-textures-uv-layout.jpg
@@ -109,7 +109,7 @@ Make sure it is mapped to Color in the Influence section as well
 If the image has an alpha channel and you want to use it,
 click "UseAlpha" in the Map Image panel.
 
-Full details of using Image textures are on the :doc:`Image Textures <textures/types/image>` page.
+Full details of using Image textures are on the :doc:`Image Textures </textures/types/image>` page.
 
 
 .. admonition:: Material is Required for Rendering
@@ -306,11 +306,11 @@ Modifying your Image Texture
 To modify your new Texture, you can:
 
 
-- :doc:`Render Bake <render/workflows/bake>` an image based on how the mesh looks
+- :doc:`Render Bake </render/workflows/bake>` an image based on how the mesh looks
   - The Render Bake feature provides several tools to replace the current image
-    based on a render of :doc:`Vertex Paint <materials/vertex_paint>` colors,
+    based on a render of :doc:`Vertex Paint </materials/vertex_paint>` colors,
     Normals (bumps), Procedural materials, textures and lighting, and ambient occlusion.
-- Paint using :doc:`Texture Paint <textures/painting>`.
+- Paint using :doc:`Texture Paint </textures/painting>`.
   - Use the UV/Image Editor menu *Image* →\ *New*. Then start painting your mesh with
 - Use external software to create an image
   - Using your favorite image painting program, you could use an exported UV layout to create a texture.

@@ -97,7 +97,7 @@ Some messages simply inform the user what Blender is doing, but have no real imp
 Other messages can indicate serious errors that will most likely prevent Blender carrying out a particular task and
 may even make Blender non-responsive or shut down completely. The :guilabel:`Blender Console Window` messages can
 also originate internally from within the Blender code or from external sources such as
-:doc:`Python scripts <extensions/python/add-ons>`.
+:doc:`Python scripts </extensions/python/add-ons>`.
 
 
 Common messages
@@ -105,7 +105,7 @@ Common messages
 
 - found bundled python: (FOLDER)
 
-   This message indicates that Blender was able to find the :doc:`Python <extensions/python>` library for the Python
+   This message indicates that Blender was able to find the :doc:`Python </extensions/python>` library for the Python
    interpreter embedded within Blender. If this folder is missing or unable to be found,
    it is likely that an error will occur, and this message will not appear.
 

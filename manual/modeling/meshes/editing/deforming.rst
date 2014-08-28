@@ -12,7 +12,7 @@ along the line joining their original position to the Average position of the po
 All translations are of same value, and are controlled by the mouse.
 It results in something that looks a bit like the scale effect, but much more deforming.
 
-Note that unlike the preceding ones, you can :doc:`lock <3d_interaction/transform_control/axis_locking>` this transformation on axis - even though this has no real interest (except perhaps with a "plane locking"...).
+Note that unlike the preceding ones, you can :doc:`lock </3d_interaction/transform_control/axis_locking>` this transformation on axis - even though this has no real interest (except perhaps with a "plane locking"...).
 
 
 .. figure:: /images/ShrinkFlatten1.jpg
@@ -168,7 +168,7 @@ or type in a value from 0 to 1 to manually control it.
 Example
 -------
 
-First, start with a :doc:`Cube <modeling/meshes/primitives#cube>`.
+First, start with a :doc:`Cube </modeling/meshes/primitives#cube>`.
 
 - Press :kbd:`tab` to switch into :guilabel:`Edit` mode.
 - Make sure all the vertices of the cube are selected by pressing :kbd:`A` twice. Then, go to the :guilabel:`Editing` context by pressing :kbd:`F9`. You should be able to see the :guilabel:`Mesh Tools` panel now.

@@ -23,7 +23,7 @@ Bevel Modifier
 The :guilabel:`Bevel` modifier adds the ability to bevel the edges of the mesh it is applied
 to, allowing control of how and where the bevel is applied to the mesh.
 
-The :guilabel:`Bevel` modifier is a non-destructive alternative to the :doc:`Bevel Operation <modeling/meshes/editing/subdividing/bevel>` in mesh editing mode.
+The :guilabel:`Bevel` modifier is a non-destructive alternative to the :doc:`Bevel Operation </modeling/meshes/editing/subdividing/bevel>` in mesh editing mode.
 
 
 +--------------------------------------------------+------------------------------------------------+
@@ -138,7 +138,7 @@ controls the algorithm used, and might add some extra options.
 
 :guilabel:`Weight`
    Use bevel weights to determine how much bevel is applied; apply them separately in vert/edge select mode.
-   See :doc:`Here <modeling/meshes/editing/edges>` about adjusting bevel weights.
+   See :doc:`Here </modeling/meshes/editing/edges>` about adjusting bevel weights.
    The three options specify what edge weight to use for weighting a vertex.
 
    :guilabel:`Average`

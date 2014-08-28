@@ -31,7 +31,7 @@ The workflow for applying a second material to some faces of an object covered b
 material is as follows:
 
 
-- In Object mode, apply the base material to the whole object (as shown in :doc:`Assigning a material <materials/assigning_a_material>`)
+- In Object mode, apply the base material to the whole object (as shown in :doc:`Assigning a material </materials/assigning_a_material>`)
 - Create/select the second material (the whole object will change to this new material).
 - In the Active Material box (2), re-select the base material.
 - Go to Edit Mode - Face Select (a new box appears above the Active Material box with Assign/Select/Deselect).

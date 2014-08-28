@@ -24,7 +24,7 @@ it is not limited to casting to a sphere.
 .. admonition:: Hint
    :class: note
 
-   The :doc:`Smooth modifier <modifiers/deform/smooth>` is a good companion to :guilabel:`Cast`, since the cast shape sometimes needs smoothing to look nicer or even to fix shading artifacts.
+   The :doc:`Smooth modifier </modifiers/deform/smooth>` is a good companion to :guilabel:`Cast`, since the cast shape sometimes needs smoothing to look nicer or even to fix shading artifacts.
 
 
 .. admonition:: Important

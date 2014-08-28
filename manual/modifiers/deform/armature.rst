@@ -22,7 +22,7 @@ that object can be deformed accurately so that geometry doesn't have to be anima
 The :guilabel:`Armature` modifier allows objects to be deformed by bones simply by specifying
 the name of the armature object, without having to use the (old) "parent/child" system.
 
-For more details on armatures usage, see :doc:`this chapter <rigging>`.
+For more details on armatures usage, see :doc:`this chapter </rigging>`.
 
 
 Options

@@ -12,7 +12,7 @@ Description
    Axis locking
 
 
-:doc:`Transformations (translation/scale/rotation) <3d_interaction/transformations>` in :guilabel:`Object` and :guilabel:`Edit` mode, as well as extrusion in :guilabel:`Edit` mode) can be locked to particular axis relative to the current :doc:`transform orientation <3d_interaction/transform_control/transform_orientations>`. By locking a transformation to a particular axis you are restricting transformations to a single dimension.
+:doc:`Transformations (translation/scale/rotation) </3d_interaction/transformations>` in :guilabel:`Object` and :guilabel:`Edit` mode, as well as extrusion in :guilabel:`Edit` mode) can be locked to particular axis relative to the current :doc:`transform orientation </3d_interaction/transform_control/transform_orientations>`. By locking a transformation to a particular axis you are restricting transformations to a single dimension.
 
 
 Usage
@@ -109,5 +109,5 @@ C and D show the same situation with face selection,
 E and F with edge selection and G and H with vertex selection.
 
 Note that using a locked axis does not prevent you from using the keyboard to enter
-:doc:`numeric transformation <3d_interaction/transform_control/numeric_input>` values.
+:doc:`numeric transformation </3d_interaction/transform_control/numeric_input>` values.
 

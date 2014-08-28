@@ -361,7 +361,7 @@ The Weight Paint Options modify the overall brush behavior:
 :guilabel:`Restrict`
    The :guilabel:`Restrict` option limits the influence of painting to vertices belonging (even with weight 0) to the selected vertex group.
 :guilabel:`X-mirror`
-   Use the X-mirror option for mirrored painting on groups that have symmetrical names, like with extension ``.R`` / ``.L``, or ``_R`` / ``_L``. If a group has no mirrored counterpart, it will paint symmetrically on the active group itself. You can read more about the naming convention in :doc:`Editing Armatures: Naming conventions <rigging/armatures/editing/properties>`. The convention for armatures/bones apply here as well.
+   Use the X-mirror option for mirrored painting on groups that have symmetrical names, like with extension ``.R`` / ``.L``, or ``_R`` / ``_L``. If a group has no mirrored counterpart, it will paint symmetrically on the active group itself. You can read more about the naming convention in :doc:`Editing Armatures: Naming conventions </rigging/armatures/editing/properties>`. The convention for armatures/bones apply here as well.
 :guilabel:`Topology Mirror`
    Use topology-based mirroring, for when both side of a mesh have matching mirrored topology.
 :guilabel:`Input Samples`
@@ -394,13 +394,13 @@ Weight Paint Tools
 Blender provides a set of helper tools for Weight Painting.
 The tools are located in the weight tools panel.
 
-The weight paint tools are full described in the :doc:`Weight Paint Tools <modeling/meshes/vertex_groups/weight_paint_tools>` page
+The weight paint tools are full described in the :doc:`Weight Paint Tools </modeling/meshes/vertex_groups/weight_paint_tools>` page
 
 
 Weight Painting for Bones
 *************************
 
-This is probably the most often used application of weight painting. When a bone moves, vertices around the joint should move as well, but just a little, to mimic the stretching of the skin around the joint. Use a "light" weight (10-40%) paint on the vertices around the joint so that they move a little when the bone rotates. While there are ways to automatically assign weights to an armature (see the :doc:`Armature section <rigging>`), you can do this manually. To do this from scratch, refer to the process below. To modify automatically assigned weights, jump into the middle of the process where noted:
+This is probably the most often used application of weight painting. When a bone moves, vertices around the joint should move as well, but just a little, to mimic the stretching of the skin around the joint. Use a "light" weight (10-40%) paint on the vertices around the joint so that they move a little when the bone rotates. While there are ways to automatically assign weights to an armature (see the :doc:`Armature section </rigging>`), you can do this manually. To do this from scratch, refer to the process below. To modify automatically assigned weights, jump into the middle of the process where noted:
 
 - Create an armature.
 - Create a mesh that will be deformed when the armature's bone(s) move.

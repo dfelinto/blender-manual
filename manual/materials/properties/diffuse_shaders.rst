@@ -25,7 +25,7 @@ All diffuse shaders have the following options:
  **Intensity**
    The shader's brightness, or more accurately, the amount of incident light energy that is actually diffusely reflected towards the camera.
 **Ramp**
-   Allows you to set a range of colors for the :guilabel:`Material`, and define how the range will vary over a surface. See :doc:`Color Ramps <materials/properties/ramps>` for details.
+   Allows you to set a range of colors for the :guilabel:`Material`, and define how the range will vary over a surface. See :doc:`Color Ramps </materials/properties/ramps>` for details.
 
 
 Technical Details

@@ -146,7 +146,7 @@ Context buttons, Regions, Panels and Controls.
 
  **Menus** : Permits a value to be chosen from a list. The difference between this and a Checkbox is that values are named and there can be more than two values on these menus.
 
-:doc:`Read more about buttons and controls » <interface/buttons_and_controls>`
+:doc:`Read more about buttons and controls » </interface/buttons_and_controls>`
 
 
 .. figure:: /images/Ui-organization.jpg

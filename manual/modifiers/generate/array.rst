@@ -209,7 +209,7 @@ Tutorials
 =========
 
 - `Neal Hirsig's Array Modifier Screencast on Vimeo <http://vimeo.com/46061877>`__
-- :doc:`Creating A Double Helix With Modifiers <ls/modifiers/a_double_helix>`
+- :doc:`Creating A Double Helix With Modifiers </ls/modifiers/a_double_helix>`
 
 The 'Double Helix' tutorial explains the :guilabel:`Array` modifier.
 It is for an old Blender Version (2.44) but except for the keyboard

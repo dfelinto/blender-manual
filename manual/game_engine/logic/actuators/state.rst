@@ -6,7 +6,7 @@ The State actuator allows the user to create complex logic,
 whilst retaining a clear user interface. It does this by having different states,
 and performing operations upon them
 
-See :doc:`Actuator Common Options <game_engine/logic/actuators/common_options>` for common options.
+See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.
 
 Special Options:
 

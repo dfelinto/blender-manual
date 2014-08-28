@@ -7,7 +7,7 @@ There are two modes of operation, simple or servo in which the object can either
 rotate or dynamically move. Also,
 simple mode operation depends on the type of  Physics setting for the  Object.
 
-See :doc:`Actuator Common Options <game_engine/logic/actuators/common_options>` for common options.
+See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.
 
 Special Options:
 **Motion Type**

@@ -73,13 +73,13 @@ Texture Type
 Choose the type of texture that is used for the current texture datablock.
 
 
-- :doc:`Procedural Textures <textures/types/procedural>`
-- :doc:`Image <textures/types/image>` and :doc:`Video <textures/types/video>` Textures
-- :doc:`Environment Map <textures/mapping/environment>`
-- :doc:`Volume Textures <textures/types/volume>`
+- :doc:`Procedural Textures </textures/types/procedural>`
+- :doc:`Image </textures/types/image>` and :doc:`Video </textures/types/video>` Textures
+- :doc:`Environment Map </textures/mapping/environment>`
+- :doc:`Volume Textures </textures/types/volume>`
 - Ocean Texture
 
-These types are described in detail :doc:`in this section <textures/types>`.
+These types are described in detail :doc:`in this section </textures/types>`.
 
 
 Preview
@@ -100,8 +100,8 @@ own, without mapping.
 
 :guilabel:`Show Alpha`
    Show alpha in preview.
-   If Alpha: Use is checked in the :doc:`Image Sampling <textures/types/image>` panel, the image's alpha channel is displayed.
-   If Alpha: Use is unchecked, an alpha channel based on averaged rgb values is displayed like it would be used by the Alpha slider in the :doc:`Influence <textures/influence/material>` panel.
+   If Alpha: Use is checked in the :doc:`Image Sampling </textures/types/image>` panel, the image's alpha channel is displayed.
+   If Alpha: Use is unchecked, an alpha channel based on averaged rgb values is displayed like it would be used by the Alpha slider in the :doc:`Influence </textures/influence/material>` panel.
 
 
 Colors
@@ -114,7 +114,7 @@ Colors
    Colors panel
 
 
-The :guilabel:`Ramp` button activates a color ramp which allows you to remap the colors of a texture to new ones. See :doc:`Ramps <materials/properties/ramps>` for information on using ramps.
+The :guilabel:`Ramp` button activates a color ramp which allows you to remap the colors of a texture to new ones. See :doc:`Ramps </materials/properties/ramps>` for information on using ramps.
 
 The color of a texture can be modified with the :guilabel:`Brightness`, :guilabel:`Contrast`,
 and  :guilabel:`Saturation` buttons. All textures with RGB-Values — including
@@ -143,7 +143,7 @@ Here you can control how the texture will be mapped on the object.
    These options are not available for brushes because they wouldn't make sense
 
 
-See :doc:`Mapping <textures/mapping>` section for details.
+See :doc:`Mapping </textures/mapping>` section for details.
 
 
 Influence
@@ -151,7 +151,7 @@ Influence
 
 Here you can control what properties the texture will affect, and by how much.
 
-They are detailed on the :doc:`Influence <textures/influence/material>` section.
+They are detailed on the :doc:`Influence </textures/influence/material>` section.
 
 
 .. admonition:: Brushes

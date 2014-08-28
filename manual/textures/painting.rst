@@ -12,7 +12,7 @@ There are three ways to establish the image used by the UV Texture:
 
 
 - Paint a flat image in the UV/Image Editor onto the currently selected UV Texture, using its UV map to transfer the colors to the faces of the mesh.
-- Paint the mesh in the 3D View, and let Blender use the currently selected UV map to update the UV Texture (see "\ :doc:`Projection Painting <textures/painting/projection>` ").
+- Paint the mesh in the 3D View, and let Blender use the currently selected UV map to update the UV Texture (see "\ :doc:`Projection Painting </textures/painting/projection>` ").
 - Use any image-editing (paint) program to create an image. In the UV/Image Editor, select the UV Texture and load the image. Blender will then use that texture's UV map to transfer the colors to the faces of the mesh
 
 Blender features a built-in paint mode called Texture Paint which is designed specifically to
@@ -32,7 +32,7 @@ GIMP is a full-featured image manipulation program that is also open-source.
 Since a mesh can have layers of UV Textures, there may be many images that color the mesh.
 However, each UV Texture only has one image.
 
-Texture Paint works in both a 3D window and the UV/Image Editor window. In the 3D window in Texture Paint mode, you paint directly on the mesh by :doc:`projecting onto the UVs <textures/painting/projection>`.
+Texture Paint works in both a 3D window and the UV/Image Editor window. In the 3D window in Texture Paint mode, you paint directly on the mesh by :doc:`projecting onto the UVs </textures/painting/projection>`.
 
 
 Getting Started
@@ -44,8 +44,8 @@ You cannot paint on a mesh in Texture Paint mode without **first** unwrapping yo
 **and** doing one of the following steps. Either:
 
 
-- :doc:`Load an image <textures/mapping/uv/applying_image#load>` into the UV/Image Editor (Image→Open→select file), or
-- :doc:`Create a new image <textures/mapping/uv/applying_image#load>` (Image→New→specify size).
+- :doc:`Load an image </textures/mapping/uv/applying_image#load>` into the UV/Image Editor (Image→Open→select file), or
+- :doc:`Create a new image </textures/mapping/uv/applying_image#load>` (Image→New→specify size).
 
 After you have done one of these two things,
 you can modify the image using the Texture Paint mode:

@@ -81,7 +81,7 @@ Markers are usually used to identify key parts of the animation.
 
 Markers can be selected by pressing :kbd:`RMB` or :kbd:`Shift-RMB` to select more.
 
-See :doc:`Marker Menu <animation/editors/timeline#marker_menu>` below or :doc:`Markers <animation/markers>` for more info.
+See :doc:`Marker Menu </animation/editors/timeline#marker_menu>` below or :doc:`Markers </animation/markers>` for more info.
 
 
 Adjusting the View
@@ -209,10 +209,10 @@ Playback Menu
   Mute the sound from Sequence Editors.
 - *AV-sync*
   Play back and sync with audio clock, dropping frames if frame display is too slow.
-  See :doc:`Header Controls <animation/editors/timeline#header_controls>` **IV** Synchronize Playback for more info.
+  See :doc:`Header Controls </animation/editors/timeline#header_controls>` **IV** Synchronize Playback for more info.
 - *Frame Dropping*
   Play back dropping frames if frames are too slow.
-  See :doc:`Header Controls <animation/editors/timeline#header_controls>` **IV** Synchronize Playback for more info.
+  See :doc:`Header Controls </animation/editors/timeline#header_controls>` **IV** Synchronize Playback for more info.
 - *Clip Editors*
   While playing, updates the *Movie Clip Editor*.
 - *Node Editors*
@@ -320,7 +320,7 @@ The Timeline header controls.
 
 
    When you play an animation, the FPS is displayed at the top left of the 3D View.
-   If the scene is detailed and playback is slower than the set :doc:`Frame Rate <render/output/video#dimensions_presets>`, these options are used to synchronize the playback.
+   If the scene is detailed and playback is slower than the set :doc:`Frame Rate </render/output/video#dimensions_presets>`, these options are used to synchronize the playback.
 
    *No Sync*
       Do not sync, play every frame.

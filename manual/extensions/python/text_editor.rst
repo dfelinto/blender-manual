@@ -57,7 +57,7 @@ The following keyboard commands apply:
 To delete a text buffer just press the :guilabel:`X` button next to the buffer's name,
 just as you do for materials, etc.
 
-The most notable keystroke is :kbd:`alt-P` which makes the content of the buffer being parsed by the internal Python interpreter built into Blender. The next page will present an example of Python scripting. Before going on it is worth noticing that Blender comes with a fully functional Python interpreter built in, and with a lots of Blender-specific modules, as described in the :doc:`API references <extensions/python/references>`.
+The most notable keystroke is :kbd:`alt-P` which makes the content of the buffer being parsed by the internal Python interpreter built into Blender. The next page will present an example of Python scripting. Before going on it is worth noticing that Blender comes with a fully functional Python interpreter built in, and with a lots of Blender-specific modules, as described in the :doc:`API references </extensions/python/references>`.
 
 The :guilabel:`Text Editor` has now also some dedicated Python scripts,
 which add some useful writing tools, like a class/function/variable browser, completion... You

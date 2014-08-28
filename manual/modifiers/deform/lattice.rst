@@ -66,7 +66,7 @@ Why would you use a lattice to deform a mesh instead of deforming the mesh itsel
 Example/Tutorial(s)
 ===================
 
-There are example tutorials for 2.4 versions in the :doc:`Tutorials <ls>` section. A 2.6 tutorial shows how to :doc:`shape a fork <ls/modifiers/lattice/shaping_a_fork>`.
+There are example tutorials for 2.4 versions in the :doc:`Tutorials </ls>` section. A 2.6 tutorial shows how to :doc:`shape a fork </ls/modifiers/lattice/shaping_a_fork>`.
 
 
 Particles and Lattices

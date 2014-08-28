@@ -7,7 +7,7 @@
 Scene Management Structure
 **************************
 
-Scene management and library appending/linking is based on Blender's :doc:`Library and Data System <data_system>`,
+Scene management and library appending/linking is based on Blender's :doc:`Library and Data System </data_system>`,
 so it is a good idea to read that manual page first if you're not familiar with the basics of that system.
 
 
@@ -35,7 +35,7 @@ Each sequence, or shot, usually lasts a few seconds.
 A single Blender file is organized and set up to be able to contain an entire movie. Each .
 blend file can contain multiple scenes. A scene is a bunch of objects, organized into layers.
 As you progress through the creative process, you use a set of window
-:doc:`screen layouts <data_system/scene_creation>`
+:doc:`screen layouts </data_system/scene_creation>`
 specifically designed to help you work efficiently through the creative process:
 model the objects and create the props, clothe the actors and dress the set (assign materials), define the action
 (animation), render the video, and produce the movie. You can tailor these screen layouts, and create custom layouts,

@@ -28,8 +28,8 @@ may wish to read the Transform Control and Orientation pages which provide more 
 about options such as Precision, Axis Locking, Numeric Input,
 Snapping and the different types of Pivot Point.
 
-:doc:`Read more about Transform Control » <3d_interaction/transform_control>`
-:doc:`Read more about Transform Orientations » <3d_interaction/transform_control/transform_orientations>`
+:doc:`Read more about Transform Control » </3d_interaction/transform_control>`
+:doc:`Read more about Transform Orientations » </3d_interaction/transform_control/transform_orientations>`
 
 
 ----
@@ -57,7 +57,7 @@ The amount of rotation will be displayed in the bottom left hand corner of the 3
 Constraining the rotation axis (axis locking)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Rotation can be constrained to a particular axis or axes through the use of :doc:`Axis Locking <3d_interaction/transform_control/axis_locking>`. To constrain rotation, the following shortcuts can be used:
+Rotation can be constrained to a particular axis or axes through the use of :doc:`Axis Locking </3d_interaction/transform_control/axis_locking>`. To constrain rotation, the following shortcuts can be used:
 
 
 - :kbd:`r`, :kbd:`X`: Rotate only along the **X Axis**
@@ -70,13 +70,13 @@ moving the mouse in the desired direction e.g.
 
 - :kbd:`r`, move the mouse along the X axis, :kbd:`MMB`: Rotate only along the **X Axis**
 
-:doc:`Read more about Axis Locking » <3d_interaction/transform_control/axis_locking>`
+:doc:`Read more about Axis Locking » </3d_interaction/transform_control/axis_locking>`
 
 
 Fine Tuning The Rotation
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-:doc:`Precise control <3d_interaction/transform_control/precision>` can be had over rotation through the use of the :kbd:`shift` and :kbd:`ctrl` keys to limit rotation to discrete amounts. You can also enter a :doc:`numerical value <3d_interaction/transform_control/numeric_input>` in degrees to specify the amount of rotation after after initiating a rotation transformation.
+:doc:`Precise control </3d_interaction/transform_control/precision>` can be had over rotation through the use of the :kbd:`shift` and :kbd:`ctrl` keys to limit rotation to discrete amounts. You can also enter a :doc:`numerical value </3d_interaction/transform_control/numeric_input>` in degrees to specify the amount of rotation after after initiating a rotation transformation.
 
 
 - Hold :kbd:`ctrl` down while performing a rotation to rotate the selected element in 5 degree increments.
@@ -92,9 +92,9 @@ Fine Tuning The Rotation
    By default, all rotations happen around a Global Orientation. You can change the rotation orientation by pressing the axis key twice. For example, pressing :kbd:`r`, :kbd:`x`, :kbd:`x` will by default set rotation to occur around the local orientation.
 
 
-:doc:`Read more about Precision Control » <3d_interaction/transform_control/precision>`
-:doc:`Read more about Numerical Transformations » <3d_interaction/transform_control/numeric_input>`
-:doc:`Read more about Transform Orientations » <3d_interaction/transform_control/transform_orientations>`
+:doc:`Read more about Precision Control » </3d_interaction/transform_control/precision>`
+:doc:`Read more about Numerical Transformations » </3d_interaction/transform_control/numeric_input>`
+:doc:`Read more about Transform Orientations » </3d_interaction/transform_control/transform_orientations>`
 
 
 Rotation with the 3D Transform Manipulator
@@ -119,7 +119,7 @@ and blue triad is selected). Set the manipulator type to rotation
 - Use :kbd:`LMB` and drag any of the three colored axes on the rotation manipulator to rotate your object along that axis. You can also use :kbd:`shift`, :kbd:`ctrl` or numeric input with the 3D manipulator widget for further control.
 - Your changes will be applied when you release :kbd:`LMB` or press :kbd:`SPACE` or :kbd:`ENTER`. Your changes will be cancelled if you press :kbd:`RMB` or :kbd:`ESC`.
 
-:doc:`Read more about the 3D Transform Manipulator » <3d_interaction/transform_control/manipulators>`
+:doc:`Read more about the 3D Transform Manipulator » </3d_interaction/transform_control/manipulators>`
 
 
 Rotation with the Properties Panel
@@ -138,9 +138,9 @@ Rotation along particular axes can be enabled or disabled by toggling the padloc
 The rotation mode (Euler, Axis Angle, Quaternion)
 can also be set in this panel from the drop down box.
 
-:doc:`Read more about Panels » <interface/panels>`
+:doc:`Read more about Panels » </interface/panels>`
 
-:doc:`Read more about rotation modes » <3d_interaction/transform_control/transform_orientations>`
+:doc:`Read more about rotation modes » </3d_interaction/transform_control/transform_orientations>`
 
 `Additional detail about rotation modes » <http://wiki.blender.org/index.php/User:Pepribal/Ref/Appendices/Rotation>`__
 

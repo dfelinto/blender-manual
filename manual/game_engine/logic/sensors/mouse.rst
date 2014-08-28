@@ -11,7 +11,7 @@ Mouse sensor
 
 The :guilabel:`Mouse` sensor is for detecting mouse events.
 
-See :doc:`Sensor Common Options <game_engine/logic/sensors/common_options>` for common options.
+See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for common options.
 
 
 .. figure:: /images/BGE_Sensor_Mouse_Events.jpg

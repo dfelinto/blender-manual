@@ -111,7 +111,7 @@ made by the :guilabel:`Auto Smooth` algorithm.
 Edge Split Modifier
 ===================
 
-With the :doc:`Edge Split Modifier <modifiers/generate/edge_split>` we get a result similar to :guilabel:`Auto Smooth` with the ability to choose which edges should be split, based on angle—those marked as sharp.
+With the :doc:`Edge Split Modifier </modifiers/generate/edge_split>` we get a result similar to :guilabel:`Auto Smooth` with the ability to choose which edges should be split, based on angle—those marked as sharp.
 
 
 +----------------------------------------------------------------+----------------------------------------------------------------+----------------------------------------------------------------+
@@ -139,14 +139,14 @@ Mesh editing tools
 
 You can apply one of the following in :guilabel:`Edit mode`:
 
-:doc:`Smooth <modeling/meshes/editing/deforming/smooth>`
+:doc:`Smooth </modeling/meshes/editing/deforming/smooth>`
    This relaxes selected components, resulting in a smoother mesh.
-:doc:`Laplacian Smooth <modeling/meshes/editing/deforming/smooth>`
+:doc:`Laplacian Smooth </modeling/meshes/editing/deforming/smooth>`
    Smooths geometry by offers controls for better preserving larger details.
-:doc:`Subdivide Smooth <modeling/meshes#specials>`
+:doc:`Subdivide Smooth </modeling/meshes#specials>`
    Adjusting the :guilabel:`smooth` parameter after using the :guilabel:`subdivide`
    tool results in a more organic shape. This is similar to using the subdivide modifier.
-:doc:`Bevel <modeling/meshes/editing>`
+:doc:`Bevel </modeling/meshes/editing>`
    This Bevels selected edged, causing sharp edges to be flattened.
 
 
@@ -156,17 +156,17 @@ Modifiers
 Alternatively,
 you can smooth the mesh non-destructively with one or several of the following modifiers:
 
-:doc:`Smooth Modifier <modifiers/deform/smooth>`
+:doc:`Smooth Modifier </modifiers/deform/smooth>`
    Works like the :guilabel:`Smooth` tool in :guilabel:`Edit mode`;
    can be applied to specific parts of the mesh using vertex groups.
-:doc:`Laplactian Smooth Modifier <modifiers/deform/laplacian_smooth>`
+:doc:`Laplactian Smooth Modifier </modifiers/deform/laplacian_smooth>`
    Works like the :guilabel:`Laplacian Smooth` tool in :guilabel:`Edit mode`; can be applied to specific parts of the mesh using vertex groups.
-:doc:`Bevel Modifier <modifiers/generate/bevel>`
+:doc:`Bevel Modifier </modifiers/generate/bevel>`
    Works like the :guilabel:`Bevel` tool in :guilabel:`Edit mode`; Bevel can be set to work on an angle threshold, or on edge weight values.
-:doc:`Subdivision Surface Modifier <modifiers/generate/subsurf>`
+:doc:`Subdivision Surface Modifier </modifiers/generate/subsurf>`
    Catmull-Clark subdivision produces smooth results. Sharp edges can be defined with
-   :doc:`subdivision creases <modifiers/generate/subsurf#weighted_creases_for_subdivision_surfaces>`
-   or by setting certain edges to "sharp" and adding an :doc:`EdgeSplit modifier <modifiers/generate/edge_split>`
+   :doc:`subdivision creases </modifiers/generate/subsurf#weighted_creases_for_subdivision_surfaces>`
+   or by setting certain edges to "sharp" and adding an :doc:`EdgeSplit modifier </modifiers/generate/edge_split>`
    (set to :guilabel:`From Marked As Sharp`) before the :guilabel:`Subsurf` modifier.
 
 

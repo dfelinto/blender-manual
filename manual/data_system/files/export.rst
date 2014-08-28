@@ -19,12 +19,12 @@ such as those using Autodesk® 3DS Max®.
 Collada (.dae)
 ==============
 
-:doc:`See Here <data_system/files/import/collada>`
+:doc:`See Here </data_system/files/import/collada>`
 
 Motion Capture (.bvh)
 =====================
 
-only available for :doc:`import <data_system/files/import>`
+only available for :doc:`import </data_system/files/import>`
 
 Stanford (.ply)
 ===============

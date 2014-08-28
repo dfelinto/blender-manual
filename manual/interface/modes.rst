@@ -58,7 +58,7 @@ Notes about modes shortcuts:
 As you can see, using shortcuts to switch between modes can become quite tricky,
 especially with meshes...
 
-We won't detail further more modes' usages here. Most of them are tackled in the :doc:`modeling chapter <modeling>`, as they are mainly related to this topic. The :guilabel:`Particle` mode is discussed in the :doc:`particle section <physics/particles/mode>`, and the :guilabel:`Pose` and :guilabel:`Edit` modes for armatures, in the :doc:`rigging one <rigging>`.
+We won't detail further more modes' usages here. Most of them are tackled in the :doc:`modeling chapter </modeling>`, as they are mainly related to this topic. The :guilabel:`Particle` mode is discussed in the :doc:`particle section </physics/particles/mode>`, and the :guilabel:`Pose` and :guilabel:`Edit` modes for armatures, in the :doc:`rigging one </rigging>`.
 
 
 .. admonition:: Note

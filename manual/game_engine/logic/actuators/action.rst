@@ -13,7 +13,7 @@ Actuates armature actions, and sets the playback method.
 The Action actuator is only visible when an armature is selected,
 because actions are stored in the armature.
 
-See :doc:`Actuator Common Options <game_engine/logic/actuators/common_options>` for common options.
+See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.
 
 Special Options:
 **Action Playback Type**

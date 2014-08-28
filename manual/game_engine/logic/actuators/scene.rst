@@ -13,7 +13,7 @@ The :guilabel:`Scene` actuator manages the scenes in your .blend file,
 these can be used as levels or for UI and background.
 
 
-See :doc:`Actuator Common Options <game_engine/logic/actuators/common_options>` for common options.
+See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.
 
 Special Options:
 The actuator has eight modes:

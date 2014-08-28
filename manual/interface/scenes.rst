@@ -78,7 +78,7 @@ from* the currently selected Scene to the new one, and how much will be *shared*
    If you want to make changes to an Object in the new Scene independently of the Objects in the other Scenes, you
    will have to manually make the object in the new Scene a "single-user" copy by :kbd:`LMB` the number in the
    :guilabel:`Object Data` panel of the Properties Window.
-   More information at the :doc:`Window Type <interface/window_types>` page.
+   More information at the :doc:`Window Type </interface/window_types>` page.
    This has the effect of making a new independent copy of the ObData.
 
 
@@ -88,7 +88,7 @@ from* the currently selected Scene to the new one, and how much will be *shared*
 :guilabel:`Full Copy`
    Is the deepest form of copying available.  Nothing is shared.  This option creates a fully independent Scene with copies of the currently selected Scene's contents.  Every Object in the original Scene is duplicated, and a duplicate, private copy of its ObData is made as well.
 
-To better understand the way Blender works with data, read through :doc:`Blender's Library and Data System. <data_system>`
+To better understand the way Blender works with data, read through :doc:`Blender's Library and Data System. </data_system>`
 
 
 A brief example

@@ -59,7 +59,7 @@ Options
 See also
 ********
 
-This subject is seen in depth in the :doc:`Rigging/Posing section <rigging/posing/inverse_kinematics/spline_ik>`.
+This subject is seen in depth in the :doc:`Rigging/Posing section </rigging/posing/inverse_kinematics/spline_ik>`.
 
 
 - `Blender.org 2.56 Release Log for Spline IK <http://www.blender.org/development/release-logs/blender-256-beta/spline-ik/>`__

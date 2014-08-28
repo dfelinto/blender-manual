@@ -6,9 +6,9 @@ This page covers the basics of curve editing. Curve basics,
 selecting and advanced editing are covered in the following pages:
 
 
-- :doc:`Curve basics <modeling/curves>`
-- :doc:`Curve Selecting <modeling/curves/selecting>`
-- :doc:`Advanced Curve Editing <modeling/curves/editing/advanced>`
+- :doc:`Curve basics </modeling/curves>`
+- :doc:`Curve Selecting </modeling/curves/selecting>`
+- :doc:`Advanced Curve Editing </modeling/curves/editing/advanced>`
 
 
 Curve Display
@@ -63,7 +63,7 @@ Basic Curve Editing (translation, rotation, scale)
    | Hotkey:   :kbd:`G` / :kbd:`R` / :kbd:`S`
 
 
-Like other elements in Blender, Curve control points can be grabbed/moved (:kbd:`G`), rotated (:kbd:`R`) or scaled (:kbd:`S`) as described in the :doc:`Basic Transformations <3d_interaction/transformations/basics>` section. When in :guilabel:`Edit` mode, :doc:`proportional editing <3d_interaction/transform_control/proportional_edit>` is also available for transformation actions.
+Like other elements in Blender, Curve control points can be grabbed/moved (:kbd:`G`), rotated (:kbd:`R`) or scaled (:kbd:`S`) as described in the :doc:`Basic Transformations </3d_interaction/transformations/basics>` section. When in :guilabel:`Edit` mode, :doc:`proportional editing </3d_interaction/transform_control/proportional_edit>` is also available for transformation actions.
 
 
 Snapping
@@ -76,7 +76,7 @@ Snapping
    | Panel:    :guilabel:`Curve Tools` (:guilabel:`Editing` context)
 
 
-:doc:`Mesh snapping <modeling/meshes/snapping>` also works with curve components. Both control points and their handles will be affected by snapping, except for within itself (other components of the active curve). Snapping works with 2D curves but points will be constrained to the local XY axes.
+:doc:`Mesh snapping </modeling/meshes/snapping>` also works with curve components. Both control points and their handles will be affected by snapping, except for within itself (other components of the active curve). Snapping works with 2D curves but points will be constrained to the local XY axes.
 
 
 Deforming Tools
@@ -89,7 +89,7 @@ Deforming Tools
    | Menu:     :menuselection:`Curve --> Transform`
 
 
-The :guilabel:`To Sphere`, :guilabel:`Shear`, :guilabel:`Wrap` and :guilabel:`Push/Pull` transform tools are described in the :doc:`Transformations <3d_interaction/transformations>` sections. The two other tools, :guilabel:`Tilt` and :guilabel:`Shrink/Fatten Radius` are related to :doc:`Curve Extrusion <modeling/curves/editing/advanced>`.
+The :guilabel:`To Sphere`, :guilabel:`Shear`, :guilabel:`Wrap` and :guilabel:`Push/Pull` transform tools are described in the :doc:`Transformations </3d_interaction/transformations>` sections. The two other tools, :guilabel:`Tilt` and :guilabel:`Shrink/Fatten Radius` are related to :doc:`Curve Extrusion </modeling/curves/editing/advanced>`.
 
 
 Smoothing
@@ -118,7 +118,7 @@ Mirror
    | Hotkey:   :kbd:`ctrl-M`
 
 
-The :guilabel:`Mirror` tool is also available, behaving exactly as with :doc:`mesh vertices <modeling/meshes/editing/deforming/mirror>`,
+The :guilabel:`Mirror` tool is also available, behaving exactly as with :doc:`mesh vertices </modeling/meshes/editing/deforming/mirror>`,
 
 
 ----
@@ -136,7 +136,7 @@ Set Bézier Handle Type
    | Hotkey:   :kbd:`V`
 
 
-Handle types are a property of :doc:`Bézier curves. <modeling/curves>` and can be used to alter features of the curve. For example, switching to :guilabel:`Vector handles` can be used to create curves with sharp corners. Read the :doc:`Bézier curves <modeling/curves>` page for more details.
+Handle types are a property of :doc:`Bézier curves. </modeling/curves>` and can be used to alter features of the curve. For example, switching to :guilabel:`Vector handles` can be used to create curves with sharp corners. Read the :doc:`Bézier curves </modeling/curves>` page for more details.
 
 
 Extending Curves
@@ -406,7 +406,7 @@ Curve Parenting
    | Hotkey:   :kbd:`Ctrl-P`
 
 
-You can make other selected objects :doc:`children <modeling/objects/groups_and_parenting#parenting_objects>` of one or three control points :kbd:`ctrl-P`, as with mesh objects.
+You can make other selected objects :doc:`children </modeling/objects/groups_and_parenting#parenting_objects>` of one or three control points :kbd:`ctrl-P`, as with mesh objects.
 
 Select either 1 or 3 control points,
 then :kbd:`Ctrl-rmb` another object and use :kbd:`Ctrl-P` to make a vertex parent.
@@ -423,7 +423,7 @@ Hooks
    | Hotkey:   :kbd:`Ctrl-H`
 
 
-:doc:`Hooks <modifiers/deform/hooks>` can be added to control one or more points with other objects.
+:doc:`Hooks </modifiers/deform/hooks>` can be added to control one or more points with other objects.
 
 
 Set Goal Weight

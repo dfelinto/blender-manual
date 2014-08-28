@@ -12,10 +12,10 @@ Spot Volumetric Effects
    Spot lamps's Halo options
 
 
-:guilabel:`Spot` lights also can produce "volumetric" effects. See :doc:`Volumetric Light <lighting/volumetric_lights>` for more information about what it means.
+:guilabel:`Spot` lights also can produce "volumetric" effects. See :doc:`Volumetric Light </lighting/volumetric_lights>` for more information about what it means.
 
 :guilabel:`Halo`
-   The :guilabel:`Halo` button allows a :guilabel:`Spot` lamp to have a volumetric effect applied to it. This button must be active if the volumetric effect is to be visible. Note that if you are using buffered shadows, you have extra options described in the :doc:`Spot Buffered Shadows <lighting/lamps/spot/buffered_shadows>` page.
+   The :guilabel:`Halo` button allows a :guilabel:`Spot` lamp to have a volumetric effect applied to it. This button must be active if the volumetric effect is to be visible. Note that if you are using buffered shadows, you have extra options described in the :doc:`Spot Buffered Shadows </lighting/lamps/spot/buffered_shadows>` page.
 
 :guilabel:`Intensity`
    The :guilabel:`Intensity` slider controls how intense/dense the volumetric effect is that is generated from the light source. The lower the value of the :guilabel:`Intensity` slider, the less visible the volumetric effect is, while higher :guilabel:`Intensity` values give a much more noticeable and dense volumetric effect.
@@ -37,14 +37,14 @@ Spot Volumetric Effects
 .. admonition:: Note
    :class: note
 
-   The halo effect can be greatly enhanced when using buffered shadows: when the halo's :guilabel:`Step` is not null, they can create "volumetric shadows". See the page about :guilabel:`Spot` :doc:`Buffered Shadows <lighting/lamps/spot/buffered_shadows>` for more information.
+   The halo effect can be greatly enhanced when using buffered shadows: when the halo's :guilabel:`Step` is not null, they can create "volumetric shadows". See the page about :guilabel:`Spot` :doc:`Buffered Shadows </lighting/lamps/spot/buffered_shadows>` for more information.
 
 
 See Also
 ========
 
-- :doc:`Shadows <lighting/shadows>`
-- :doc:`Spot Lamp <lighting/lamps/spot>`
-- :doc:`Spot Buffered Shadows <lighting/lamps/spot/buffered_shadows>`
+- :doc:`Shadows </lighting/shadows>`
+- :doc:`Spot Lamp </lighting/lamps/spot>`
+- :doc:`Spot Buffered Shadows </lighting/lamps/spot/buffered_shadows>`
 
 

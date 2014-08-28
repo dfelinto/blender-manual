@@ -5,7 +5,7 @@
 Skinning to Shapes
 ******************
 
-We saw in the :doc:`previous page <rigging/skinning/objects>` how to link (parent) whole objects to armature bones - a way to control the transform properties of this object via a rig. However, armatures are much more powerful: they can deform the *shape* of an object (i.e. affect its ObData datablock - its vertices or control points...).
+We saw in the :doc:`previous page </rigging/skinning/objects>` how to link (parent) whole objects to armature bones - a way to control the transform properties of this object via a rig. However, armatures are much more powerful: they can deform the *shape* of an object (i.e. affect its ObData datablock - its vertices or control points...).
 
 In this case, the child object is parented (skinned) to the whole armature,
 so that each of its bones controls a part of the "skin" object's geometry.
@@ -24,7 +24,7 @@ FIXME(TODO: Internal Link;
 
 FIXME(TODO: Internal Link;
 [[#Vertex Groups|"vertex groups" method]]
-) is (obviously) reserved to meshes and lattices - one bone only affect the vertices in the :doc:`group <modeling/meshes/vertex_groups>` having the same name, using vertices' :doc:`weights <modeling/meshes/weight_paint>` as influence value. A much more precise method, but also generally longer to set up.
+) is (obviously) reserved to meshes and lattices - one bone only affect the vertices in the :doc:`group </modeling/meshes/vertex_groups>` having the same name, using vertices' :doc:`weights </modeling/meshes/weight_paint>` as influence value. A much more precise method, but also generally longer to set up.
 
 Both methods have some
 FIXME(TODO: Internal Link;
@@ -36,7 +36,7 @@ Parenting to Whole Armatures
 ============================
 
 But before diving into this, let's talk about the different ways to skin (parent)
-an object to a whole armature - as with :doc:`object skinning <rigging/skinning/objects>`,
+an object to a whole armature - as with :doc:`object skinning </rigging/skinning/objects>`,
 there is an "old parenting" method and a new, more flexible and powerful one,
 based on modifiers - which allows creation of very complex setups, with objects deformed by several armatures.
 
@@ -78,9 +78,9 @@ with the following options - all regarding the "vertex groups" skinning method:
    The Armature modifier.
 
 
-This "parenting" method will create an* :doc:`Armature modifier <modifiers/deform/armature>`
+This "parenting" method will create an* :doc:`Armature modifier </modifiers/deform/armature>`
 in the skinning object's modifiers stack.
-And so, of course, adding an* :doc:`Armature modifier <modifiers/deform/armature>` 
+And so, of course, adding an* :doc:`Armature modifier </modifiers/deform/armature>` 
 to an object is the second, new skinning method (which also works for curves/surfaces/texts...).
 Follow the above link to read more about this modifier's specific options.
 Note that there is a way with new :guilabel:`Armature` modifiers to automatically create vertex groups and weight them;
@@ -95,7 +95,7 @@ A single object can have several :guilabel:`Armature` modifiers
 (with e.g. different armatures, or different settings...),
 working on top of each other, **or** mixing their respective effects
 (depending whether their* :guilabel:`MultiModifier` option is set,
-see :doc:`their description <modifiers/deform/armature#options>` for more details),
+see :doc:`their description </modifiers/deform/armature#options>` for more details),
 and only one "virtual old parenting" one, which will always be at the top of the stack.
 
 Note finally that for settings that are  present in both the armature's :guilabel:`Armature`
@@ -181,7 +181,7 @@ shown in the :guilabel:`Envelope` visualization:
   and controlled by the :guilabel:`Dist` setting. Inside this zone,
   the geometry is less and less affected by the bone as it goes away - following a quadratic decay.
 
-See the* :doc:`editing pages <rigging/armatures/editing/properties>` for how to edit these properties.
+See the* :doc:`editing pages </rigging/armatures/editing/properties>` for how to edit these properties.
 
 There is also a bone property, :guilabel:`Weight` (in each bone sub-panel,
 in* :guilabel:`Edit` *mode only, defaults to* **1.0**),
@@ -210,19 +210,19 @@ Curved Bone
 :guilabel:`Curved Bones` (previously known as B-bones) allow you make bones act like bezier curve segments,
 which results in smoother deformations for longer bones.
 
-See the :doc:`editing pages <rigging/armatures/editing/properties>` for how to edit these properties.
+See the :doc:`editing pages </rigging/armatures/editing/properties>` for how to edit these properties.
 
 
 Vertex Groups
 =============
 
 Vertex groups skinning method is only available for meshes and lattices - the only objects having
-:doc:`vertex groups <modeling/meshes/vertex_groups>` Its principle is very simple:
+:doc:`vertex groups </modeling/meshes/vertex_groups>` Its principle is very simple:
 each bone only affects vertices belonging to a vertex group having the same name as the bone.
 So if you have e.g. a " ``forearm`` " bone, it will only affect the ``forearm`` vertex group of its skin object(s).
 
 The influence of one bone on a given vertex is controlled by the weight of this vertex in the relevant group.
-Thus, the :doc:`Weight Paint mode <modeling/meshes/weight_paint>`
+Thus, the :doc:`Weight Paint mode </modeling/meshes/weight_paint>`
 (:kbd:`ctrl-tab` with a mesh selected) is most useful here, to easily set/adjust the vertices' weights.
 
 However, you have a few goodies when weight-painting a mesh already parented to (skinning)
@@ -287,6 +287,6 @@ See Also
 ========
 
 Making good but short examples about skinning to shapes is not an easy thing - so if you want better examples,
-have a look to :doc:`this BSoD tutorial <nimation/bsod/character_animation#rigging>`,
+have a look to :doc:`this BSoD tutorial </nimation/bsod/character_animation#rigging>`,
 which illustrates (among many other things) the skinning of a simple human rig with a mesh object.
 

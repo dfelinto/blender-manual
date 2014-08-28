@@ -26,12 +26,12 @@ in the view's Z-axis.
 
 This allows you to model freely, without concern for form, and to focus on topology
 
-See :doc:`Snapping <3d_interaction/transform_control/snap_to_mesh>`
+See :doc:`Snapping </3d_interaction/transform_control/snap_to_mesh>`
 
 
 Shrinkwrap Modifier
 ===================
 
-The :doc:`Shrinkwrap Modifier <modifiers/deform/shrinkwrap>` is useful in conjunction with face snapping. If edits to the new mesh have been made with snapping disabled, the shrinkwrap modifier will allow you to stick the new mesh to the old mesh, as if you were shrinkwrapping it.
+The :doc:`Shrinkwrap Modifier </modifiers/deform/shrinkwrap>` is useful in conjunction with face snapping. If edits to the new mesh have been made with snapping disabled, the shrinkwrap modifier will allow you to stick the new mesh to the old mesh, as if you were shrinkwrapping it.
 
 

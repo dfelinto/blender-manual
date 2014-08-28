@@ -17,7 +17,7 @@ Game Settings
  This panel contains properties that control how the object surfaces that use the material are rendered in real time by the Blender Game Engine.
 
 Game settings are visible when using the game engine for rendering.
-Material physics usage is described :doc:`here <materials/properties/physics>`.
+Material physics usage is described :doc:`here </materials/properties/physics>`.
 
 
 **Backface Cull**  (default On)
@@ -27,7 +27,7 @@ Material physics usage is described :doc:`here <materials/properties/physics>`.
    Hide all faces of objects rendered with this material.
 
 **Text**
-   Use material as :doc:`Text object <modeling/texts>` in the Game Engine.
+   Use material as :doc:`Text object </modeling/texts>` in the Game Engine.
 
 **Alpha Blend** menu:
    Controls how the alpha channel is used to create a transparent texture in the rendered image.

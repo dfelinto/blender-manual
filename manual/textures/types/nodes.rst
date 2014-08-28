@@ -2,7 +2,7 @@
 Texture Nodes
 *************
 
-As an alternative to using the :doc:`Texture Stack <textures/options>`, Blender includes a node-based texture generation system which enables you to create textures by combining colors, patterns and other textures in much the same way that you combine :doc:`Material Nodes <materials/nodes>`.
+As an alternative to using the :doc:`Texture Stack </textures/options>`, Blender includes a node-based texture generation system which enables you to create textures by combining colors, patterns and other textures in much the same way that you combine :doc:`Material Nodes </materials/nodes>`.
 
 You can use these textures wherever you can use regular textures:
 you can place them in texture channels, in material nodes, in particle systems,
@@ -23,7 +23,7 @@ FIXME(Template Unsupported: Doc:2.6/Reference/Nodes/Concepts;
 Using Texture Nodes
 ===================
 
-To use texture nodes with the current texture, open a :doc:`Node Editor window <textures/types/nodes/editor>`, set it to :guilabel:`Texture` mode by clicking the "Texture" icon (
+To use texture nodes with the current texture, open a :doc:`Node Editor window </textures/types/nodes/editor>`, set it to :guilabel:`Texture` mode by clicking the "Texture" icon (
 
 .. figure:: /images/26-Manual-Selector-Node-Btn-Texture.jpg
 
@@ -42,7 +42,7 @@ The default node setup will appear: a red-and-white checkerboard node connected 
 you can create as many Outputs as you like in your node setup.  (Other types of node networks,
 as you may recall, are limited to only one Output node.) See the next section for details.
 
-For instructions on how to add, remove and manipulate the nodes in the tree, see the :doc:`Node Editor manual <materials/nodes/editor>`.
+For instructions on how to add, remove and manipulate the nodes in the tree, see the :doc:`Node Editor manual </materials/nodes/editor>`.
 
 
 Using Multiple Outputs

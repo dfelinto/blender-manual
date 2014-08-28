@@ -33,7 +33,7 @@ Once you know your platform and processor :
    Blender 2.64 Versions and above will only run on Macs using Intel processors, Mac OS X 10.6 or higher is required.
 
 
-**Important:** If you need to run Blender from a Command Line to see the Console Window, visit the page about the :doc:`Blender Console Window <interface/window_system/console_window>`
+**Important:** If you need to run Blender from a Command Line to see the Console Window, visit the page about the :doc:`Blender Console Window </interface/window_system/console_window>`
 
 
 Adding Blender to Applications

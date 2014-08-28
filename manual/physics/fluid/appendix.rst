@@ -57,7 +57,7 @@ See also
 - `Tutorial 1: Very Basic Introduction <http://wiki.blender.org/index.php/User:N t/SummerOfCode2005/Fluid Animation/Tutorial 1>`__
 - `Tutorial 2: The Next Step <http://wiki.blender.org/index.php/User:N t/SummerOfCode2005/Fluid Animation/Tutorial 2>`__
 - `Tutorial 1&2 Gui Changes for newer builds <http://wiki.blender.org/index.php/User:N t/SummerOfCode2005/Fluid Animation/Tutorial Changes>`__
-- :doc:`Another BSoD fluid tutorial <ls/physics/bsod/fluid>`
+- :doc:`Another BSoD fluid tutorial </ls/physics/bsod/fluid>`
 - `Developer documentation (implementation, dependencies, ...) <http://wiki.blender.org/index.php/User:N t/SummerOfCode2005/Fluid Animation/Development>`__
 
 

@@ -44,7 +44,7 @@ FIXME(Link Type Unsupported: dev;
 )
 
   - A section of handy code snippets (yet to be written)
-- :doc:`FAQ <extensions/python/faq>`
+- :doc:`FAQ </extensions/python/faq>`
   - Frequently asked questions and their answers
 
 Links that deal with distributing your scripts.
@@ -74,11 +74,11 @@ The following pages are located on this wiki and take you from the basics to the
 concepts of Python scripting for Blender.
 
 
-- :doc:`Hello World <extensions/python/intro_to_python>`
-- :doc:`Console <extensions/python/console>`
-- :doc:`Text editor <extensions/python/text_editor>`
-- :doc:`Geometry <extensions/python/geometry>`
-- :doc:`Properties, ID-Properties and their differences <extensions/python/properties>`
+- :doc:`Hello World </extensions/python/intro_to_python>`
+- :doc:`Console </extensions/python/console>`
+- :doc:`Text editor </extensions/python/text_editor>`
+- :doc:`Geometry </extensions/python/geometry>`
+- :doc:`Properties, ID-Properties and their differences </extensions/python/properties>`
 
 
 Getting Started - External links

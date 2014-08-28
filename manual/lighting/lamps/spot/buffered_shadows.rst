@@ -12,12 +12,12 @@ Spot Buffered Shadows
    Buffer Shadow enabled for a Spot lamp
 
 
-Spotlights can use either :doc:`Raytraced Shadows <lighting/lamps/spot#raytraced_shadows>` or buffered shadows. Either of the two can provide various extra options.
+Spotlights can use either :doc:`Raytraced Shadows </lighting/lamps/spot#raytraced_shadows>` or buffered shadows. Either of the two can provide various extra options.
 
 Raytraced shadows are generally more accurate,
 with extra capabilities such as transparent shadows, although they are quite slower to render.
 
-Buffered shadows are more complex to set up and involve more faking, but the speed of rendering is a definite advantage. Nevertheless, it shares with other lamp types common shadows options described in :doc:`Shadows Properties <lighting/shadows/properties>`.
+Buffered shadows are more complex to set up and involve more faking, but the speed of rendering is a definite advantage. Nevertheless, it shares with other lamp types common shadows options described in :doc:`Shadows Properties </lighting/shadows/properties>`.
 
 
 Shadow Buffer Types
@@ -109,7 +109,7 @@ Here are now the options specific to these generation methods:
       The buffered shadows will be anti-aliased using the "Gaussian" filtering method.
       It produces a very soft/blurry anti-aliasing. As result, this filter is excellent with high resolution renders.
 
-   The :doc:`Anti-Aliasing page <render/options/antialiasing>` in the Render chapter will give more information on the various filtering/distribution methods and their uses.
+   The :doc:`Anti-Aliasing page </render/options/antialiasing>` in the Render chapter will give more information on the various filtering/distribution methods and their uses.
 
 :guilabel:`Samples`
    The :guilabel:`Samples` numeric field can have a value between **1** and **16**. It controls the number of samples taken per pixel when calculating shadow maps.
@@ -184,7 +184,7 @@ The following settings are common to all buffered shadow generation method.
 .. admonition:: Finer Bias tuning
    :class: note
 
-   You can now refine the :guilabel:`Bias` value independently for each :doc:`Material <materials>`, using the :guilabel:`Bias` slider (:guilabel:`Material` menu, :guilabel:`Shadow` panel). This value is a factor by which the :guilabel:`Bias` value of each :guilabel:`Spot` buffered shadows lamp is multiplied, each time its light hits an object using this material. The **0.0** and **1.0** values are equivalent - they do not alter the lamp's :guilabel:`Bias` original value.
+   You can now refine the :guilabel:`Bias` value independently for each :doc:`Material </materials>`, using the :guilabel:`Bias` slider (:guilabel:`Material` menu, :guilabel:`Shadow` panel). This value is a factor by which the :guilabel:`Bias` value of each :guilabel:`Spot` buffered shadows lamp is multiplied, each time its light hits an object using this material. The **0.0** and **1.0** values are equivalent - they do not alter the lamp's :guilabel:`Bias` original value.
 
 
 :guilabel:`Clip Start` & :guilabel:`Clip End`

@@ -11,8 +11,8 @@ Rendering is the process of creating a 2D image.
 Blender creates this image by taking into account your model and all of your materials,
 textures, lighting and compositing.
 
-- There are two main types of rendering engines built inside Blender, one for *Full render*, and other for *OpenGL render*. This page shows you basic information about rendering Images. For a deeper understanding about the *Full Render* Engine built inside Blender, called :guilabel:`Blender Internal`, consult the section about :doc:`Rendering with Blender Internal <render>`.
-- There is also a section in this wiki manual dedicated to the new :doc:`Cycles <render/cycles>` Render Engine, built into Blender since Version 2.61.
+- There are two main types of rendering engines built inside Blender, one for *Full render*, and other for *OpenGL render*. This page shows you basic information about rendering Images. For a deeper understanding about the *Full Render* Engine built inside Blender, called :guilabel:`Blender Internal`, consult the section about :doc:`Rendering with Blender Internal </render>`.
+- There is also a section in this wiki manual dedicated to the new :doc:`Cycles </render/cycles>` Render Engine, built into Blender since Version 2.61.
 
 
 Rendering an image using ''Full Render'' - Blender Internal
@@ -48,7 +48,7 @@ Rendering an image using ''OpenGL Render''
    :class: refbox
 
    | Mode:     All modes
-   | Hotkey:   Undefined -You can add one for your :doc:`Keymap » <preferences/input>`
+   | Hotkey:   Undefined -You can add one for your :doc:`Keymap » </preferences/input>`
 
 
 To start an *OpenGL render* you can use any of the following options:
@@ -94,7 +94,7 @@ Output format and output file
    Output panel
 
 
-You can also choose an output format and the output location for your rendered image or animation. By default they are saved in a temporary folder (/tmp), using an absolute path. You can set up your file paths using instructions in the :doc:`File setup chapter <preferences/file>`; however you can change this to a different folder by clicking the folder icon in the :guilabel:`Output panel`. You can also choose the type of image or movie format for your work from the Menu Button.
+You can also choose an output format and the output location for your rendered image or animation. By default they are saved in a temporary folder (/tmp), using an absolute path. You can set up your file paths using instructions in the :doc:`File setup chapter </preferences/file>`; however you can change this to a different folder by clicking the folder icon in the :guilabel:`Output panel`. You can also choose the type of image or movie format for your work from the Menu Button.
 
 
 Saving your image
@@ -154,7 +154,7 @@ Rendering an animation using ''OpenGL Render''
    :class: refbox
 
    | Mode:     All modes
-   | Hotkey:   Undefined -You can add one for your :doc:`Keymap » <preferences/input>`
+   | Hotkey:   Undefined -You can add one for your :doc:`Keymap » </preferences/input>`
 
 
 To Render an animation using *OpenGL Render*, you can use any of the following options:
@@ -176,7 +176,7 @@ Showing Only Rendered Objects
    :class: refbox
 
    | Mode:     All modes
-   | Hotkey:   Undefined - You can add one for your :doc:`Keymap » <preferences/input>`
+   | Hotkey:   Undefined - You can add one for your :doc:`Keymap » </preferences/input>`
 
 
 .. figure:: /images/Manual-Vitals-Quick-Render-Display-Only-Render.jpg

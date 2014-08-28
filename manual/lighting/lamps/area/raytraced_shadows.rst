@@ -11,7 +11,7 @@ Area Raytraced Shadows
    Adaptive QMC settings
 
 
-The :guilabel:`Area` light source can only cast ray-traced shadows. The ray-traced shadows settings of this lamp are mostly shared with other lamps, as described in :doc:`Raytraced Properties <lighting/shadows/raytraced_properties>`. However, there are some specifics with this lamp, which are detailed below:
+The :guilabel:`Area` light source can only cast ray-traced shadows. The ray-traced shadows settings of this lamp are mostly shared with other lamps, as described in :doc:`Raytraced Properties </lighting/shadows/raytraced_properties>`. However, there are some specifics with this lamp, which are detailed below:
 
 
 Shadow Samples
@@ -26,7 +26,7 @@ Sample Generator Types
 ======================
 
 :guilabel:`Adaptive QMC`;\ :guilabel:`Constant QMC`
-   These common setting are described in :doc:`Shadow Properties <lighting/shadows/properties>`.
+   These common setting are described in :doc:`Shadow Properties </lighting/shadows/properties>`.
 
 
 .. figure:: /images/25-Manual-Lighting-Lamps-Area-ContJitt.jpg

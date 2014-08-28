@@ -90,7 +90,7 @@ Color and alpha values for each marker can be set by clicking the
 
 
 **Blend**
-   A list of the various :doc:`blending modes <materials/nodes/types/color>` available for blending the ramp shader with the color from :guilabel:`Input`.
+   A list of the various :doc:`blending modes </materials/nodes/types/color>` available for blending the ramp shader with the color from :guilabel:`Input`.
 
 
 **Factor**

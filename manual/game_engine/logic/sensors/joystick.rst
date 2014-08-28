@@ -14,7 +14,7 @@ It also detects events on a range of ancilliary controls on the joystick device 
 etc.). More than one joystick may be used (see "Index").
 The exact layout of the joystick controls will depend on the make and model of joystick used.
 
-See :doc:`Sensor Common Options <game_engine/logic/sensors/common_options>` for common options.
+See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for common options.
 
 Special Options:
 

@@ -8,7 +8,7 @@
 Particle Visualization
 **********************
 
-With the items in the :guilabel:`Display` and :guilabel:`Render` panel you can set the way the particles will be rendered or depicted in the view ports in various ways. Some option are valid only for the 3D window, the particles then are rendered always as :doc:`Halos <materials/halos>`. Some of the options will be rendered as shown in the 3D window.
+With the items in the :guilabel:`Display` and :guilabel:`Render` panel you can set the way the particles will be rendered or depicted in the view ports in various ways. Some option are valid only for the 3D window, the particles then are rendered always as :doc:`Halos </materials/halos>`. Some of the options will be rendered as shown in the 3D window.
 
 
 Viewport Display
@@ -74,7 +74,7 @@ The Render Panel controls how particles appear when they are rendered.
 :guilabel:`Emitter`
    When disabled, the emitter is no longer rendered. Activate the button :guilabel:`Emitter` to also render the mesh.
 :guilabel:`Parents`
-   Render also parent particles if child particles are used. Children have a lot of different deformation options, so the straight parents would stand between their curly children. So by default :guilabel:`Parents` are not rendered if you activate :guilabel:`Children`.. See :doc:`Children <physics/particles/children>`
+   Render also parent particles if child particles are used. Children have a lot of different deformation options, so the straight parents would stand between their curly children. So by default :guilabel:`Parents` are not rendered if you activate :guilabel:`Children`.. See :doc:`Children </physics/particles/children>`
 
 :guilabel:`Unborn`
    Render particles before they are born.
@@ -96,7 +96,7 @@ Halo
 ----
 
 
-Halo particles are rendered as :doc:`Halo Type Materials <materials/halos>`.
+Halo particles are rendered as :doc:`Halo Type Materials </materials/halos>`.
 
 :guilabel:`Trail Count`
    Set the number of trail particles. When greater than 1, additional options appear.
@@ -140,7 +140,7 @@ Path
    Image 3: The Visualization panel for Path visualization.
 
 
-The :guilabel:`Path` visualization needs a :doc:`Hair <physics/hair>` particle system or :doc:`Keyed <physics/particles/physics/keyed>` particles.
+The :guilabel:`Path` visualization needs a :doc:`Hair </physics/hair>` particle system or :doc:`Keyed </physics/particles/physics/keyed>` particles.
 
 :guilabel:`Strand render`
    [Keypointstrands] Use the strand primitive for rendering. Very fast and effective renderer.
@@ -167,7 +167,7 @@ Timing Options:
 :guilabel:`Random`
    Give the path length a random variation.
 
-Please see also the manual page about :doc:`Strands <materials/properties/strands>` for an in depth description.
+Please see also the manual page about :doc:`Strands </materials/properties/strands>` for an in depth description.
 
 
 Object

@@ -18,7 +18,7 @@ compared to the traditional method:
 
    FIXME - warning body below
 
- Don't confuse this "basic" object parenting with the one that defines the :doc:`chains of bones <rigging/armatures/structure#chains_of_bones>` inside of an armature. This constraint is used to parent an object to a bone (the so-called "\ :doc:`object skinning <rigging/skinning/objects>` "), or even bones to bones. But don't try to use it to define chains of bones.
+ Don't confuse this "basic" object parenting with the one that defines the :doc:`chains of bones </rigging/armatures/structure#chains_of_bones>` inside of an armature. This constraint is used to parent an object to a bone (the so-called "\ :doc:`object skinning </rigging/skinning/objects>` "), or even bones to bones. But don't try to use it to define chains of bones.
 
 
 Options

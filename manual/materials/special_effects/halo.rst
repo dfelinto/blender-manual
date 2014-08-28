@@ -32,7 +32,7 @@ Options
 To enable :guilabel:`Halos`,
 press the :guilabel:`Halo` button in the :guilabel:`Material` menu's top panel.
 
-As you will see in the 3D View, the mesh faces are no longer rendered. Instead just the vertex is rendered, since that is where each halo will originate. Halos can be hard to find in a crowded scene, so name it well for easy location in :doc:`the outliner <data_system/the_outliner>`.
+As you will see in the 3D View, the mesh faces are no longer rendered. Instead just the vertex is rendered, since that is where each halo will originate. Halos can be hard to find in a crowded scene, so name it well for easy location in :doc:`the outliner </data_system/the_outliner>`.
 
 In the properties window, where we normally find the :guilabel:`Diffuse`,
 :guilabel:`Specular`, and :guilabel:`Shading` panels,

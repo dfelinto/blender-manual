@@ -13,7 +13,7 @@ The :guilabel:`Always` sensor is used for things that need to be done every logi
 or at every *x* logic tick (with non-null :guilabel:`f`), or at start-up
 (with :guilabel:`Tap`).
 
-See :doc:`Sensor Common Options <game_engine/logic/sensors/common_options>` for common options.
+See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for common options.
 
 This sensor doesn't have any special options.
 

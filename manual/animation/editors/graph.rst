@@ -3,10 +3,10 @@ Graph Editor
 ************
 
 The graph editor is the main animation editor.
-It allows you to modify the animation for any properties using :doc:`F-Curves <animation/editors/graph/fcurves>`.
+It allows you to modify the animation for any properties using :doc:`F-Curves </animation/editors/graph/fcurves>`.
 
-The graph editor has two modes, *F-Curve* for :doc:`Actions <animation/basics/actions>`,
-and *Drivers* for :doc:`Drivers <animation/basics/drivers>`. Both are very similar in function.
+The graph editor has two modes, *F-Curve* for :doc:`Actions </animation/basics/actions>`,
+and *Drivers* for :doc:`Drivers </animation/basics/drivers>`. Both are very similar in function.
 
 
 .. figure:: /images/Doc_Graph_Editor.jpg
@@ -27,8 +27,8 @@ Here you can see and edit the curves and keyframes.
    A curve with different types of interpolation.
 
 
-See :doc:`F-Curves <animation/editors/graph/fcurves>`
-and :doc:`Editing <animation/editors/graph/editing>` for more info.
+See :doc:`F-Curves </animation/editors/graph/fcurves>`
+and :doc:`Editing </animation/editors/graph/editing>` for more info.
 
 
 Navigation
@@ -64,7 +64,7 @@ These are some other useful tools.
 
 The current frame is represented by a green vertical line called the *Time Cursor*.
 
-As in the :doc:`Timeline <animation/editors/timeline>`, you can change the current frame by pressing or holding :kbd:`lmb`.
+As in the :doc:`Timeline </animation/editors/timeline>`, you can change the current frame by pressing or holding :kbd:`lmb`.
 
 The green horizontal line is called the *Cursor*.
 This can be disabled via the *View Menu* or the *View Properties* panel.
@@ -101,7 +101,7 @@ Like with most animation editors, markers are shown at the bottom of the editor.
 
 *Markers* can be modified in the *Graph Editor* though its usually best to use the *Timeline*.
 
-See :doc:`Marker Menu <animation/editors/graph/editing#marker_menu>` or :doc:`Markers <animation/basics/markers>` for more info.
+See :doc:`Marker Menu </animation/editors/graph/editing#marker_menu>` or :doc:`Markers </animation/basics/markers>` for more info.
 
 
 Header
@@ -119,7 +119,7 @@ Here you'll find.
 Menus
 ^^^^^
 
-See :doc:`Header Menus <animation/editors/graph/editing#header_menus>` for more info.
+See :doc:`Header Menus </animation/editors/graph/editing#header_menus>` for more info.
 
 
 Header Controls
@@ -132,7 +132,7 @@ Header Controls
 
 
 *Mode*
-   F-Curve for :doc:`Actions <animation/basics/actions>`, and Drivers for :doc:`Drivers <animation/basics/drivers>`.
+   F-Curve for :doc:`Actions </animation/basics/actions>`, and Drivers for :doc:`Drivers </animation/basics/drivers>`.
 
 
 .. figure:: /images/Doc_Graph_Header_View.jpg
@@ -246,7 +246,7 @@ Channel Editing
 
 *Toggle Mute Lock selected* :kbd:`Shift-W`
 
-See :doc:`Channel Menu <animation/editors/graph/editing#channel_menu>` for more info.
+See :doc:`Channel Menu </animation/editors/graph/editing#channel_menu>` for more info.
 
 
 Properties Region
@@ -353,7 +353,7 @@ Drivers Panel
    Drivers Panel.
 
 
-See :doc:`Drivers Panel <animation/basics/drivers#drivers_panel>` for more info.
+See :doc:`Drivers Panel </animation/basics/drivers#drivers_panel>` for more info.
 
 
 Modifiers Panel
@@ -364,16 +364,16 @@ Modifiers Panel
    Modifiers Panel.
 
 
-See :doc:`F-Modifiers <animation/editors/graph/fmodifiers>` for more info.
+See :doc:`F-Modifiers </animation/editors/graph/fmodifiers>` for more info.
 
 
 See Also
 ========
 
-- :doc:`Graph Editor - F-Curves <animation/editors/graph/fcurves>`
-- :doc:`Graph Editor - F-Modifiers <animation/editors/graph/fmodifiers>`
-- :doc:`Graph Editor - Editing <animation/editors/graph/editing>`
-- :doc:`Actions <animation/basics/actions>`
-- :doc:`Drivers <animation/basics/drivers>`
+- :doc:`Graph Editor - F-Curves </animation/editors/graph/fcurves>`
+- :doc:`Graph Editor - F-Modifiers </animation/editors/graph/fmodifiers>`
+- :doc:`Graph Editor - Editing </animation/editors/graph/editing>`
+- :doc:`Actions </animation/basics/actions>`
+- :doc:`Drivers </animation/basics/drivers>`
 
 

@@ -193,7 +193,7 @@ They are mainly used to deform the object into different shapes over time.
 :guilabel:`Slurph`
    Quote 2.66 "Create a delay (in frames) in applying key positions, first vertex goes first."
    As far as i can tell this doesnt anything in 2.66. Im not sure what it used to do in 2.4x.
-   :doc:`2.4 Slurph <animation/techs/shape/shape_keys/editing#editing_shape_properties>`
+   :doc:`2.4 Slurph </animation/techs/shape/shape_keys/editing#editing_shape_properties>`
 
 
 Workflow For Relative Shape Keys
@@ -350,8 +350,8 @@ Shape Key Operators
 See Also
 ========
 
-- :doc:`2.4 Shape Keys <animation/techs/shape/shape_keys>`
-- :doc:`2.4 Editing Shape Keys <animation/techs/shape/shape_keys/editing>`
-- :doc:`2.4 Animating Shape Keys <animation/techs/shape/shape_keys/animating>`
-- :doc:`2.4 Shape Keys Examples <animation/techs/shape/shape_keys/examples>`
+- :doc:`2.4 Shape Keys </animation/techs/shape/shape_keys>`
+- :doc:`2.4 Editing Shape Keys </animation/techs/shape/shape_keys/editing>`
+- :doc:`2.4 Animating Shape Keys </animation/techs/shape/shape_keys/animating>`
+- :doc:`2.4 Shape Keys Examples </animation/techs/shape/shape_keys/examples>`
 - `Addon: Corrective Shape Key <http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Animation/Corrective_Shape_Key>`__

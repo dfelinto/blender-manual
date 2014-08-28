@@ -13,7 +13,7 @@ A :guilabel:`Collision` sensor works like a :guilabel:`Touch` sensor but can als
 property or material. Only objects with the property/material with that name will generate a
 positive pulse upon collision. Leave blank for collision with any object.
 
-See :doc:`Sensor Common Options <game_engine/logic/sensors/common_options>` for common options.
+See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for common options.
 
 Special Options:
 

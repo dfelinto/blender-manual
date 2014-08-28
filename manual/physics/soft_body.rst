@@ -9,7 +9,7 @@ Soft Bodies
    Image 1a: A softbody cloth uncovering a text. `Animation <http://www.vimeo.com/1865528>`__ - `Blend file <http://wiki.blender.org/index.php/Media:HiddenTextExample.blend>`__
 
 
-A Soft Body in general, is a simulation of a soft or rigid deformable object. In Blender, this system is best for simple cloth objects and closed meshes. There is dedicated :doc:`Cloth Simulation <physics/cloth>` physics that use a different solver, and is better for cloth.
+A Soft Body in general, is a simulation of a soft or rigid deformable object. In Blender, this system is best for simple cloth objects and closed meshes. There is dedicated :doc:`Cloth Simulation </physics/cloth>` physics that use a different solver, and is better for cloth.
 
 This simulation is done by applying forces to the vertices or controlpoints of the object.
 There are exterior forces like gravity or forcefields and interior forces that hold the
@@ -40,7 +40,7 @@ Soft Bodies are well suited for:
 - Elastic objects with or without collision.
 - Flags, fabric reacting to forces.
 - Certain modeling tasks, like a cushion or a table cloth over an object.
-- Blender has another simulation system for clothing (see :doc:`Clothes <physics/cloth>`). But you can sometimes use Soft Bodies for certain parts of clothing, like wide sleeves.
+- Blender has another simulation system for clothing (see :doc:`Clothes </physics/cloth>`). But you can sometimes use Soft Bodies for certain parts of clothing, like wide sleeves.
 - Hair (as long as you minimize collision).
 - Animation of swinging ropes, chains and the like.
 
@@ -64,7 +64,7 @@ To activate the Soft Body simulation for an object:
 - Activate the :guilabel:`Soft Body` button.
 
 A lot of options appear.
-For a reference of all the settings see :doc:`this page <physics/soft_body/reference>`.
+For a reference of all the settings see :doc:`this page </physics/soft_body/reference>`.
 
 
 - You start a Soft Body simulation with :kbd:`alt-A`.
@@ -110,7 +110,7 @@ simulation.
 Cache and Bake
 ==============
 
-Soft Bodies and other physic simulations use a unified system for caching and baking. See :doc:`Particle Cache <physics/particles/cache_and_bake>` for reference.
+Soft Bodies and other physic simulations use a unified system for caching and baking. See :doc:`Particle Cache </physics/particles/cache_and_bake>` for reference.
 
 The results of the simulation are automatically cached to disk when the animation is played,
 so that the next time it runs,
@@ -170,7 +170,7 @@ Tips
 - Soft Bodies work especially well if the objects have an even vertex distribution. You need enough vertices for good collisions. You change the deformation (the stiffness) if you add more vertices in a certain region (see the animation of *Image 1b*).
 - The calculation of collisions may take a long time. If something is not visible, why calculate it?
 - To speed up the collision calculation it is often useful to collide with an additional, simpler, invisible, somewhat larger object (see the example to *Image 1a*).
-- Use Soft Bodies only where it makes sense. If you try to cover a body mesh with a tight piece of cloth and animate solely with Soft Body, you will have no success. Self collision of Soft Body hair may be activated, but that is a path that you have to wander alone. We will deal with :doc:`Collisions <physics/soft_body/collisions>` in detail later.
+- Use Soft Bodies only where it makes sense. If you try to cover a body mesh with a tight piece of cloth and animate solely with Soft Body, you will have no success. Self collision of Soft Body hair may be activated, but that is a path that you have to wander alone. We will deal with :doc:`Collisions </physics/soft_body/collisions>` in detail later.
 - Try and use a :guilabel:`Lattice` or a :guilabel:`Curve Guide` Soft Body instead of the object itself. This may be magnitudes faster.
 
 

@@ -17,7 +17,7 @@ The color of an object and the lighting of your scene is affected by:
 - The medium in which you are viewing the image (e.g. an LCD panel versus printed glossy paper).
 - The quality of the image (e.g. a JPEG at **0.4** compression versus **1.0**).
 - The environment in which you are viewing the image (e.g. a CRT monitor with glare versus in a dark room, or in a sunshiny blue room).
-- Your brain's perception of the color and intensity relative to those objects around it and the world background color, which can be changed using color manipulation techniques  using Blender :doc:`Composite Nodes <composite_nodes/introduction>`.
+- Your brain's perception of the color and intensity relative to those objects around it and the world background color, which can be changed using color manipulation techniques  using Blender :doc:`Composite Nodes </composite_nodes/introduction>`.
 
 
 Global Influences
@@ -25,14 +25,14 @@ Global Influences
 
 In Blender, the elements under your control which affect lighting are:
 
-- The color of the world :doc:`ambient light <lighting/ambient_light>`.
-- The use of :doc:`Ambient Occlusion <lighting/ambient_occlusion>` as a way to cast that ambient light onto the object.
-- The degree to which the ambient light colors the :doc:`material <materials>` of the object.
-- The use of :doc:`Indirect lighting <lighting/indirect_lighting>`, where the color of one object radiates onto another.
-- The render engine used (Blender Internal versus :doc:`Yafray <render/yafray>`).
-- The :doc:`lamps <lighting/lamps>` in your scene.
+- The color of the world :doc:`ambient light </lighting/ambient_light>`.
+- The use of :doc:`Ambient Occlusion </lighting/ambient_occlusion>` as a way to cast that ambient light onto the object.
+- The degree to which the ambient light colors the :doc:`material </materials>` of the object.
+- The use of :doc:`Indirect lighting </lighting/indirect_lighting>`, where the color of one object radiates onto another.
+- The render engine used (Blender Internal versus :doc:`Yafray </render/yafray>`).
+- The :doc:`lamps </lighting/lamps>` in your scene.
 
-The physics of light bouncing around in the real world is simulated by Ambient Occlusion (a world setting), buffer shadows (which approximate shadows being cast by objects), ray tracing (which traces the path of photons from a light source). Also, within Blender you can use :doc:`Indirect lighting <lighting/indirect_lighting>`. Ray tracing, ambient occlusion, and indirect lighting are computer-intensive processes. Blender can perform much faster rendering with its internal scan line renderer, which is a very good scan line renderer indeed. This kind of rendering engine is much faster since it does not try to simulate the real behavior of light, assuming many simplifying hypotheses.
+The physics of light bouncing around in the real world is simulated by Ambient Occlusion (a world setting), buffer shadows (which approximate shadows being cast by objects), ray tracing (which traces the path of photons from a light source). Also, within Blender you can use :doc:`Indirect lighting </lighting/indirect_lighting>`. Ray tracing, ambient occlusion, and indirect lighting are computer-intensive processes. Blender can perform much faster rendering with its internal scan line renderer, which is a very good scan line renderer indeed. This kind of rendering engine is much faster since it does not try to simulate the real behavior of light, assuming many simplifying hypotheses.
 
 
 Lighting Settings
@@ -47,7 +47,7 @@ The main things under your control are the:
 - Position of the light and its direction.
 - Settings for the light, including energy and falloff.
 
-Then you are back to how that material's :doc:`shader <materials/properties/diffuse_shaders>` reacts to the light.
+Then you are back to how that material's :doc:`shader </materials/properties/diffuse_shaders>` reacts to the light.
 
 This chapter attempts to address the above,
 including how lights can work together in rigs to light your scene.

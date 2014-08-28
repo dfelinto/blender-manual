@@ -208,6 +208,6 @@ Using Paths
 See Also
 ========
 
-- :doc:`Particles <physics/particles>`
+- :doc:`Particles </physics/particles>`
 
 

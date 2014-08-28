@@ -15,7 +15,7 @@ Blender comes bundled with the appropriate Python libraries, so,
 for regular usage a full install of Python is not required to run Python scripts.
 
 
-Users wanting to :doc:`write their own scripts <extensions/python>`,
+Users wanting to :doc:`write their own scripts </extensions/python>`,
 FIXME(Link Type Unsupported: dev;
 [[Dev:Doc/Building_Blender|compile their own versions of Blender]]
 ) or use some less common features may still need a full Python install.

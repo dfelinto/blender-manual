@@ -20,7 +20,7 @@ header in the bottom left hand corner. Releasing :kbd:`ctrl` or :kbd:`shift`
 during the transformation will cause the movement to revert back to its normal mode of
 operation.
 
-:doc:`Read more about Window Headers » <interface/window_system/headers>`
+:doc:`Read more about Window Headers » </interface/window_system/headers>`
 
 
 Usage
@@ -41,13 +41,13 @@ Hold :kbd:`ctrl`,
 Then move the mouse in the desired direction. The reverse action will also work i.e.
 clicking the manipulator handle and then holding the shortcut key for precision control.
 
-:doc:`Read more about the Transform Manipulator » <3d_interaction/transform_control/manipulators>`
+:doc:`Read more about the Transform Manipulator » </3d_interaction/transform_control/manipulators>`
 
 
 .. admonition:: Combining with other controls
    :class: nicetip
 
-   All of the precision controls detailed on the page can be combined with the :doc:`Axis Locking <3d_interaction/transform_control/axis_locking>` controls and used with the different :doc:`Pivot Points <3d_interaction/transform_control/pivot_point>`.
+   All of the precision controls detailed on the page can be combined with the :doc:`Axis Locking </3d_interaction/transform_control/axis_locking>` controls and used with the different :doc:`Pivot Points </3d_interaction/transform_control/pivot_point>`.
 
 
 Holding CTRL
@@ -70,7 +70,7 @@ BU and so on until the zoom limit is reached.
 Zooming out will have the opposite effect and cause movement to happen by increments of 10,
 100 etc BU.
 
-:doc:`Read more about Zooming » <3d_interaction/navigating/3d_view#zooming_the_view>`
+:doc:`Read more about Zooming » </3d_interaction/navigating/3d_view#zooming_the_view>`
 
 
 Rotation transformations
@@ -88,10 +88,10 @@ Holding :kbd:`ctrl` will cause size changes in increments of 0.1 BU.
 .. admonition:: Snapping modes
    :class: note
 
-   Note that if you have a :doc:`Snap Element <3d_interaction/transform_control/snap#snap_element>` option enabled,
+   Note that if you have a :doc:`Snap Element </3d_interaction/transform_control/snap#snap_element>` option enabled,
    holding :kbd:`ctrl` will cause the selection to snap to the nearest element.
 
-   :doc:`Read more about Snapping » <3d_interaction/transform_control/snap>`
+   :doc:`Read more about Snapping » </3d_interaction/transform_control/snap>`
 
 
 Holding SHIFT

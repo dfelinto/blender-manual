@@ -34,7 +34,7 @@ Grease Pencil can also be useful in a number of scenarios, including but not lim
 
 The next few pages explain how to use this tool:
 
-- :doc:`Drawing sketches <3d_interaction/sketching/drawing>`.
-- :doc:`Layers and Animation <3d_interaction/sketching/layers_and_animation>`.
-- :doc:`Converting sketches to geometry <3d_interaction/sketching/converting_to_geometry>`.
+- :doc:`Drawing sketches </3d_interaction/sketching/drawing>`.
+- :doc:`Layers and Animation </3d_interaction/sketching/layers_and_animation>`.
+- :doc:`Converting sketches to geometry </3d_interaction/sketching/converting_to_geometry>`.
 

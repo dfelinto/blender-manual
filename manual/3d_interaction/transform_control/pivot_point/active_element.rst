@@ -18,7 +18,7 @@ mode` and white when in :guilabel:`Edit mode`.
 With :guilabel:`Active element as Pivot` set to active,
 all transformations will occur relative to the active element.
 
-:doc:`Read more about selecting different pivot points » <3d_interaction/transform_control/pivot_point>`
+:doc:`Read more about selecting different pivot points » </3d_interaction/transform_control/pivot_point>`
 
 
 .. figure:: /images/3D_interaction-Transform_control-Pivot_point-Active_element-selected-active-element.jpg
@@ -78,7 +78,7 @@ Let's review each case:
 
 - *Faces* have their pivot point where their selection dot appears, which is where the median of their vertices is.
 - *Edges* have their pivot point on their middle since this is always where the median of an edge is.
-- :doc:`Fgons <modeling/meshes/mesh_structures#fgons>` behave the same as faces.
+- :doc:`Fgons </modeling/meshes/mesh_structures#fgons>` behave the same as faces.
 - A single *Vertex* has no dimensions at all so it can't show any transformation (except translation, which is not affected by the pivot point).
 
 

@@ -86,7 +86,7 @@ Sky
 Here are its specific controls:
 :guilabel:`Blending`
 
-- The first drop-down list shows you a menu of various mix methods. The one selected will be used to blend the sky and sun with the background defined in the :guilabel:`World` settings. The mixing methods are the same as described e.g. in the :doc:`Mix Compositing Node <composite_nodes/types/color#mix_node>` page.
+- The first drop-down list shows you a menu of various mix methods. The one selected will be used to blend the sky and sun with the background defined in the :guilabel:`World` settings. The mixing methods are the same as described e.g. in the :doc:`Mix Compositing Node </composite_nodes/types/color#mix_node>` page.
 - :guilabel:`Factor`
 
           Controls how much the sky and sun effect is applied to the World background.
@@ -364,7 +364,7 @@ and :guilabel:`Sun Bright` to **2.0**.
 Hints and limitations
 *********************
 
-To always have the :guilabel:`Sun` pointing at the camera center, you can use a :doc:`TrackTo constraint <constraints/tracking/track_to>` on the sun object, with the camera as target, and :guilabel:`-Z` as the "To" axis (use either :guilabel:`X` or :guilabel:`Y` as "Up" axis). This way, to modify height/position of the sun in the rendered picture, you just have to move it; orientation is automatically handled by the constraint. Of course, if your camera itself is moving, you should also add e.g. a :doc:`Copy Location constraint <constraints/transform/copy_location>` to your :guilabel:`Sun` lamp, with the camera as target - and the :guilabel:`Offset` option activated... This way, the sun light won't change as the camera moves around.
+To always have the :guilabel:`Sun` pointing at the camera center, you can use a :doc:`TrackTo constraint </constraints/tracking/track_to>` on the sun object, with the camera as target, and :guilabel:`-Z` as the "To" axis (use either :guilabel:`X` or :guilabel:`Y` as "Up" axis). This way, to modify height/position of the sun in the rendered picture, you just have to move it; orientation is automatically handled by the constraint. Of course, if your camera itself is moving, you should also add e.g. a :doc:`Copy Location constraint </constraints/transform/copy_location>` to your :guilabel:`Sun` lamp, with the camera as target - and the :guilabel:`Offset` option activated... This way, the sun light won't change as the camera moves around.
 
 If you use the default :guilabel:`Add` mixing type,
 you should use a very dark-blue world color, to get correct "nights"...

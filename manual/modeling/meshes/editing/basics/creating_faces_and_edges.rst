@@ -122,6 +122,6 @@ Further Reading
 
 For other ways to create faces see:
 
-- :doc:`Fill <modeling/meshes/editing/faces#fill>`
-- :doc:`Grid Fill <modeling/meshes/editing/faces#grid_fill>`
-- :doc:`Bridge Edge Loops <modeling/meshes/editing/edges#bridge_edge_loops>`
+- :doc:`Fill </modeling/meshes/editing/faces#fill>`
+- :doc:`Grid Fill </modeling/meshes/editing/faces#grid_fill>`
+- :doc:`Bridge Edge Loops </modeling/meshes/editing/edges#bridge_edge_loops>`

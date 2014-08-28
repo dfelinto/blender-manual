@@ -5,7 +5,7 @@
 Group Instances
 ***************
 
-Groups are covered fully here: :doc:`Grouping and Parenting <modeling/objects/groups_and_parenting>`.
+Groups are covered fully here: :doc:`Grouping and Parenting </modeling/objects/groups_and_parenting>`.
 
 If a group already exists in the scene, an instance of one of those groups can be created from
 the :guilabel:`Add` menu under :menuselection:`add --> group instance --> group`.
@@ -31,4 +31,4 @@ of course). The selection of "real" members of the group is reflected in their "
 When the proxy itself is selected, the empty turns pink, and the other parts, purple.
 
 The only options of these "group proxies" are the same as the ones for
-:doc:`empties visualization <modeling/empties#visualization>`.
+:doc:`empties visualization </modeling/empties#visualization>`.

@@ -5,14 +5,14 @@
 Force Fields
 ************
 
-Force Fields offer a way to add extra movement to dynamic systems. :doc:`Particles <physics/particles>`, :doc:`Soft Bodies <physics/soft_body>`, `Rigid Bodies <http://wiki.blender.org/index.php/User:Sergof/GSoC2012/Documentation>`__ and :doc:`Cloth objects <physics/cloth>` can all be affected by forces fields. Force Fields automatically affect everything. To remove a simulation or particle system from their influence, simply turn down the influence of that type of Force Field in its Field Weights panel.
+Force Fields offer a way to add extra movement to dynamic systems. :doc:`Particles </physics/particles>`, :doc:`Soft Bodies </physics/soft_body>`, `Rigid Bodies <http://wiki.blender.org/index.php/User:Sergof/GSoC2012/Documentation>`__ and :doc:`Cloth objects </physics/cloth>` can all be affected by forces fields. Force Fields automatically affect everything. To remove a simulation or particle system from their influence, simply turn down the influence of that type of Force Field in its Field Weights panel.
 
 
 - All types of objects and particles can generate fields, but only curve object can bear :guilabel:`Curve Guides` fields.
-- Force Fields can also be generated from particles. See :doc:`Particle Physics <physics/particles/physics>`
+- Force Fields can also be generated from particles. See :doc:`Particle Physics </physics/particles/physics>`
 - The objects need to share at least one common layer to have effect.
 
-You may limit the effect on particles to a group of objects (see the :doc:`Particle Physics <physics/particles/physics>` page).
+You may limit the effect on particles to a group of objects (see the :doc:`Particle Physics </physics/particles/physics>` page).
 
 
 Creating a Force Field
@@ -114,7 +114,7 @@ The :guilabel:`Force` field is the simplest of the fields. It gives a constant f
 Newtonian particles are attracted to a field with negative strength,
 and are blown away from a field with positive strength.
 
-For :doc:`Boids <physics/particles/physics>` a field with positive strength can be used as a *Goal*, a field with negative strength can be used as *Predator*. Whether :guilabel:`Boids` seek or fly goals/predators depends on the :guilabel:`Physics` settings of the Boids.
+For :doc:`Boids </physics/particles/physics>` a field with positive strength can be used as a *Goal*, a field with negative strength can be used as *Predator*. Whether :guilabel:`Boids` seek or fly goals/predators depends on the :guilabel:`Physics` settings of the Boids.
 
 
 .. figure:: /images/UM_PART_XIII_KST_PI03.jpg
@@ -256,7 +256,7 @@ Curve Guide
    Image 4a: A Curve Guide field.
 
 
-:guilabel:`Curve` objects can be the source of a :guilabel:`Curve Guide` field. You can guide particles along a certain path, they don't affect Softbodys. A typical scenario would be to move a red blood cell inside a vein, or to animate the particle flow in a motor. You can use :guilabel:`Curve Guide` s also to shape certain hair strands - though this may no longer be used as often now because we have the :doc:`Particle Mode <physics/particles/mode>`. Since you can animate curves as Softbody or any other usual way, you may build very complex animations while keeping great control and keeping the simulation time to a minimum.
+:guilabel:`Curve` objects can be the source of a :guilabel:`Curve Guide` field. You can guide particles along a certain path, they don't affect Softbodys. A typical scenario would be to move a red blood cell inside a vein, or to animate the particle flow in a motor. You can use :guilabel:`Curve Guide` s also to shape certain hair strands - though this may no longer be used as often now because we have the :doc:`Particle Mode </physics/particles/mode>`. Since you can animate curves as Softbody or any other usual way, you may build very complex animations while keeping great control and keeping the simulation time to a minimum.
 
 The option :guilabel:`Curve Follow` does not work for particles.
 Instead you have to set :guilabel:`Angular Velocity`

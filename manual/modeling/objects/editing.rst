@@ -7,7 +7,7 @@ Introduction
 
 In this section will be described tools for editing objects in :guilabel:`Object Mode`.
 
-Information about some additional possibilities are described in :doc:`Manipulation in 3D <3d_interaction/transform_control>`.
+Information about some additional possibilities are described in :doc:`Manipulation in 3D </3d_interaction/transform_control>`.
 
 
 Object Mode
@@ -22,7 +22,7 @@ By default new files opens with enabled :guilabel:`Object Mode`.
 To enable it you may in :guilabel:`3D View window → Header` click :guilabel:`Object Mode
 button` (see picture :guilabel:`Object Mode button`)
 
-All edition tools works only with selected objects. See :doc:`Selecting Objects <modeling/objects/selecting>` for more information.
+All edition tools works only with selected objects. See :doc:`Selecting Objects </modeling/objects/selecting>` for more information.
 
 
 All commands described below can be found in *Object* menu and/or in *Object tools* panel
@@ -87,7 +87,7 @@ Duplicate
    | Hotkey:   :kbd:`Alt-D`
 
 
-Duplication makes exact copy of objects. May be linkage of some attributes depending on specific tool. See :doc:`Duplication <modeling/objects/duplication>` for more information.
+Duplication makes exact copy of objects. May be linkage of some attributes depending on specific tool. See :doc:`Duplication </modeling/objects/duplication>` for more information.
 
 
 Join

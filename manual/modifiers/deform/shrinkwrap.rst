@@ -24,13 +24,13 @@ Like most of the deform modifiers, the affected "vertices" are the "computed" on
 the real geometry of the object at the time the modifier is calculated,
 and not the original *vertices* /control points.
 
-Something of a view-independent :doc:`retopo tool <modeling/meshes/editing/retopo>` (in Blender 2.49), :guilabel:`Shrinkwrap` projects vertices along their normals or moved to the nearest surface point. But it doesn't have accuracy problems like retopo did, since it works in object space instead of image space. Also it's possible to "keep a distance" from the target position.
+Something of a view-independent :doc:`retopo tool </modeling/meshes/editing/retopo>` (in Blender 2.49), :guilabel:`Shrinkwrap` projects vertices along their normals or moved to the nearest surface point. But it doesn't have accuracy problems like retopo did, since it works in object space instead of image space. Also it's possible to "keep a distance" from the target position.
 
 
 .. admonition:: Note
    :class: note
 
-   For those who found the :guilabel:`Shrinkwrap` modifier pretty useful, but would like it to move empties or object's positions ... have a look at the :doc:`Shrinkwrap constraint <constraints/relationship/shrinkwrap>` !
+   For those who found the :guilabel:`Shrinkwrap` modifier pretty useful, but would like it to move empties or object's positions ... have a look at the :doc:`Shrinkwrap constraint </constraints/relationship/shrinkwrap>` !
 
 
 Options

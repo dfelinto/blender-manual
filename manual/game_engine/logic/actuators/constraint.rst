@@ -4,7 +4,7 @@ Constraints Actuator
 
 Adds a constraint to the location, orientation
 
-See :doc:`Actuator Common Options <game_engine/logic/actuators/common_options>` for common options.
+See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.
 
 Special Options:
 **Constraint Mode**

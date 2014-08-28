@@ -5,7 +5,7 @@ Property Actuator
 Using the Property actuator you can change the value of a given property once the actuator
 itself is activated.
 
-See :doc:`Actuator Common Options <game_engine/logic/actuators/common_options>` for common options.
+See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.
 
 Special Options:
 

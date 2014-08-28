@@ -36,7 +36,7 @@ Camera Object
 =============
 
 The Camera object in the Game Engine follows much the same structure as the conventional Blender camera - see
-:doc:`Camera <render/camera>` for details of how to set up,
+:doc:`Camera </render/camera>` for details of how to set up,
 manipulate and select a camera. The following sections show some of the special facilities available in BGE cameras.
 
 

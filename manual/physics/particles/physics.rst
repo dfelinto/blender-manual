@@ -10,18 +10,17 @@ Particle Physics
 The movement of particles may be controlled in a multitude of ways.
 With particles physics: there are five different systems:
 
-
-+------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-+None                                                  |It doesn't give the particles any motion, which makes them belong to no physics system.                                                                                     +
-+------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-+:doc:`Newtonian <physics/particles/physics/newtonian>`|Movement according to physical laws.                                                                                                                                        +
-+------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-+:doc:`Keyed <physics/particles/physics/keyed>`        |Dynamic or static particles where the (animated) targets are other particle systems.                                                                                        +
-+------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-+:doc:`Boids <physics/particles/physics/boids>`        |Particles with limited artificial intelligence, including behavior and rules programming, ideal for flocks of birds or schools of fishes, or predators vs preys simulations.+
-+------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-+:doc:`Fluid <physics/particles/physics/fluid>`        |Movement according to fluid laws (based on Smoothed Particle Hydrodynamics technique).                                                                                      +
-+------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+None
+   It doesn't give the particles any motion, which makes them belong to no physics system.
+:doc:`Newtonian </physics/particles/physics/newtonian>`
+   Movement according to physical laws.
+:doc:`Keyed </physics/particles/physics/keyed>`
+   Dynamic or static particles where the (animated) targets are other particle systems.
+:doc:`Boids </physics/particles/physics/boids>`
+   Particles with limited artificial intelligence, including behavior and rules programming,
+   ideal for flocks of birds or schools of fishes, or predators vs preys simulations.
+:doc:`Fluid </physics/particles/physics/fluid>`
+   Movement according to fluid laws (based on Smoothed Particle Hydrodynamics technique).
 
 
 Additional ways of moving particles:
@@ -162,7 +161,7 @@ to groom vegetation and/or ecosystems using Object, Group or Billboard types of 
 Field Weights
 *************
 
-The Field Weight Panel allows you to control how much influence each type of external force field, or effector, has on the particle system. Force fields are external forces that give dynamic systems motion. The force fields types are detailed on the :doc:`Force Field Page <physics/force_fields>`.
+The Field Weight Panel allows you to control how much influence each type of external force field, or effector, has on the particle system. Force fields are external forces that give dynamic systems motion. The force fields types are detailed on the :doc:`Force Field Page </physics/force_fields>`.
 
 :guilabel:`Effector Group`
    Limit effectors to a specified group. Only effectors in this group will have an effect on the current system.
@@ -183,5 +182,5 @@ allowing them to affect other dynamic systems, or even, each other.
 :guilabel:`Amount`
    Set how many of the particles act as force fields. 0 means all of them are effectors.
 
-You can give particle systems up to 2 force fields. By default they do not have any. Choose an effector type from the dropdowns to enable them. Settings are described on the :doc:`Force Field Page <physics/force_fields>`.
+You can give particle systems up to 2 force fields. By default they do not have any. Choose an effector type from the dropdowns to enable them. Settings are described on the :doc:`Force Field Page </physics/force_fields>`.
 

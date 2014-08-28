@@ -6,7 +6,7 @@ Clamp To Constraint
 *******************
 
 The :guilabel:`Clamp To` constraint clamps an object to a curve. The :guilabel:`Clamp To` constraint is very similar
-to the :doc:`Follow Path <constraints/relationship/follow_path>` constraint,
+to the :doc:`Follow Path </constraints/relationship/follow_path>` constraint,
 but instead of using the evaluation time of the target curve, :guilabel:`Clamp To`
 will get the actual location properties of its owner
 (those shown in the :guilabel:`Transform Properties` panel, :kbd:`N`),
@@ -17,7 +17,7 @@ it is easier to see what your owner will be doing; since you are working in the 
 will just be a lot more precise than sliding keys around on a time Ipo and playing the
 animation over and over.
 
-A downside is that unlike in the :doc:`Follow Path constraint <constraints/relationship/follow_path>`,
+A downside is that unlike in the :doc:`Follow Path constraint </constraints/relationship/follow_path>`,
 :guilabel:`Clamp To` doesn't have any option to track your owner's rotation (pitch, roll, yaw)
 to the banking of the targeted curve, but you don't always need rotation on,
 so in cases like this it's usually a lot handier to fire up a :guilabel:`Clamp To`,

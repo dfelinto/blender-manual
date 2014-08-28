@@ -20,7 +20,7 @@ So from this example, if the Driver Value is 2.0 the property will be 0.5.
 
 The Driver Value is determined by Driver Variables or a Scripted Expression.
 
-Most the settings for the drivers :doc:`F-Curves <animation/editors/graph/fcurves>` are found in the :doc:`Graph Editor <animation/editors/graph>`.
+Most the settings for the drivers :doc:`F-Curves </animation/editors/graph/fcurves>` are found in the :doc:`Graph Editor </animation/editors/graph>`.
 
 
 Drivers Panel
@@ -31,7 +31,7 @@ Drivers Panel
    Graph Editor: Drivers: Drivers Panel.
 
 
-This panel is located in the :doc:`Graph Editor <animation/editors/graph>` with the mode set to Drivers.
+This panel is located in the :doc:`Graph Editor </animation/editors/graph>` with the mode set to Drivers.
 
 The drivers panel is for setting up *Driver Variables* or a *Scripted Expression* which
 will determine the value of the *Driver Value*.
@@ -304,7 +304,7 @@ The Driver F-Curve is mapped like so
 
 This kind of driver can also be setup with the Variable Type Rotational Difference.
 
-See :doc:`Shape Keys <animation/basics/shape_keys>` for more info.
+See :doc:`Shape Keys </animation/basics/shape_keys>` for more info.
 
 
 Drivers And Multiple Relative Shape Keys
@@ -447,10 +447,10 @@ number or because you're skipping already-rendered frames).
 See Also
 ========
 
-- :doc:`Animation <animation>`
-- :doc:`Graph Editor <animation/editors/graph>`
-- :doc:`F-Curves <animation/editors/graph/fcurves>`
-- :doc:`Extending Blender with python <extensions/python>`.
+- :doc:`Animation </animation>`
+- :doc:`Graph Editor </animation/editors/graph>`
+- :doc:`F-Curves </animation/editors/graph/fcurves>`
+- :doc:`Extending Blender with python </extensions/python>`.
 
 
 Links

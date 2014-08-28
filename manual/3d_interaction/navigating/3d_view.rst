@@ -12,7 +12,7 @@ it is possible to translate and zoom a :guilabel:`Buttons` window and its panels
 .. tip:: Mouse Buttons and Numpad
 
    If you have a mouse with less than three buttons or a keyboard without numpad,
-   please refer to the :doc:`Keyboard and Mouse <interface/keyboard_and_mouse>`
+   please refer to the :doc:`Keyboard and Mouse </interface/keyboard_and_mouse>`
    page of the manual to learn how to use them with Blender.
 
 
@@ -196,7 +196,7 @@ Of course you can always switch between the styles depending on what you are wor
    View rotation.
 
 
-To change the rotation "style", use the :doc:`User Preferences window <preferences>`.
+To change the rotation "style", use the :doc:`User Preferences window </preferences>`.
 Click on the :guilabel:`Input` button and you will see an option for choosing the Orbit style.
 There are two additional checkboxes for controlling the display in the 3D window in the :guilabel:`Interface` tab in
 the :guilabel:`User Preferences`.
@@ -374,7 +374,7 @@ In Quad View, the four views are still part of a single 3D window.
 If you want to be able to rotate each view,
 you will need to split the 3D window into separate windows.
 
-:doc:`Read more about splitting windows » <interface/window_system/arranging_frames>`
+:doc:`Read more about splitting windows » </interface/window_system/arranging_frames>`
 
 
 View Clipping Border
@@ -455,8 +455,8 @@ or you apparently cannot move the camera any nearer. As an example,
 try to navigate to a very distant object in the view with traditional methods
 (explained above) and see what you can get.
 
-With  :doc:`Walk mode <3d_interaction/navigating/3d_view/navigation_modes#walk_mode>` and
-:doc:`Fly mode <3d_interaction/navigating/3d_view/navigation_modes#fly_mode>` you move, pan and tilt,
+With  :doc:`Walk mode </3d_interaction/navigating/3d_view/navigation_modes#walk_mode>` and
+:doc:`Fly mode </3d_interaction/navigating/3d_view/navigation_modes#fly_mode>` you move, pan and tilt,
 and dolly the camera around without any of those limitations.
 
 
@@ -467,7 +467,7 @@ and dolly the camera around without any of those limitations.
    View Navigation.
 
 
-In the :doc:`User Preferences window <preferences>`
+In the :doc:`User Preferences window </preferences>`
 select the navigation mode you want to use as default when invoking the View Navigation operator.
 Alternatively you can call the individual modes from the View Navigation menu.
 

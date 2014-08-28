@@ -9,7 +9,7 @@ The idea of templating is to use an already existing armature as base ("template
 to create a new armature. It differs from a simple copy in that you can directly define the
 new armature different in some aspects than its reference rig.
 
-In Blender, the only templating tool is the bone sketching one (Etch-a-ton, described in :doc:`the previous page <rigging/armatures/editing/sketching>`), with its :guilabel:`Template` conversion method - so you should have read its page before this one!
+In Blender, the only templating tool is the bone sketching one (Etch-a-ton, described in :doc:`the previous page </rigging/armatures/editing/sketching>`), with its :guilabel:`Template` conversion method - so you should have read its page before this one!
 
 
 Using Bone Sketching

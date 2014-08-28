@@ -30,7 +30,7 @@ and the type of work you are currently doing, you can switch between several dra
 :guilabel:`Solid`
    This is the default drawing mode where surfaces are drawn as solid colors, with built-in OpenGL lighting. This draw mode is not dependent on scene light sources and can be configured in the :guilabel:`Solid OpenGL lights` group of controls from the :guilabel:`System & OpenGL` tab of the :guilabel:`User Preferences` window.
 
-   :doc:`Read more about System Configuration » <preferences/system>`
+   :doc:`Read more about System Configuration » </preferences/system>`
 
 :guilabel:`Wireframe`
    Objects only consist of lines that make their shapes recognizable (e.g. the edges of meshes or surfaces).
@@ -179,7 +179,7 @@ Display
 :guilabel:`Textured Solid`
    Display face assigned textures in solid view.
 :guilabel:`Toggle Quad View`
-   Toggles the four pane 3D view. :doc:`Read more about arranging frames » <interface/window_system/arranging_frames>`
+   Toggles the four pane 3D view. :doc:`Read more about arranging frames » </interface/window_system/arranging_frames>`
 
 
 Background Image

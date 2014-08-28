@@ -161,6 +161,6 @@ make sure they are all selected and go to :guilabel:`Object` → :guilabel:`Join
 See also
 ========
 
-Other duplication methods are listed :doc:`here <modeling/objects/duplication>`.
+Other duplication methods are listed :doc:`here </modeling/objects/duplication>`.
 
 

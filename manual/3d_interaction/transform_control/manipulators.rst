@@ -9,7 +9,7 @@ Manipulators
    | Hotkey:   :kbd:`ctrl-Space`
 
 
-In combination with :doc:`axis locking <3d_interaction/transform_control/axis_locking>`,
+In combination with :doc:`axis locking </3d_interaction/transform_control/axis_locking>`,
 the normal Transform commands (:kbd:`G` for Grab, :kbd:`R` for Rotation, :kbd:`S` for Scale),
 can be used to manipulate objects along any axis.
 However, there may be times when these options are not adequate.
@@ -56,9 +56,9 @@ Manipulator controls
 - When in rotate mode,  :kbd:`lmb` on the white circle (largest circle around the rotation manipulator) will be equivalent to pressing :kbd:`R`.
 - When in rotate mode,  :kbd:`lmb` on the grey circle (small inner circle at the center of the rotation manipulator) will be equivalent to pressing :kbd:`R` twice. This will start :guilabel:`trackball` rotation.
 
-:doc:`Read more about constraining transformations » <3d_interaction/transform_control/precision>`
-:doc:`Read more about axis locking » <3d_interaction/transform_control/axis_locking>`
-:doc:`Read more about trackball rotation » <3d_interaction/transformations/basics/rotate>`
+:doc:`Read more about constraining transformations » </3d_interaction/transform_control/precision>`
+:doc:`Read more about axis locking » </3d_interaction/transform_control/axis_locking>`
+:doc:`Read more about trackball rotation » </3d_interaction/transformations/basics/rotate>`
 
 
 Manipulator Preferences
@@ -93,7 +93,7 @@ Choosing the Transform Orientation
 
 
 You can also change the
-:doc:`orientation of the Transform Manipulator <3d_interaction/transform_control/transform_orientations>`
+:doc:`orientation of the Transform Manipulator </3d_interaction/transform_control/transform_orientations>`
 to global, local, gimbal, normal or view from the Transform options menu.
 The image below shows a cube with the rotation manipulator active in multiple transform orientations.
 Notice how the manipulator changes depending on the orientation selected (compare A with F).

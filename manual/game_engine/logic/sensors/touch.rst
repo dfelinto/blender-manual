@@ -12,7 +12,7 @@ Touch sensor
 The :guilabel:`Touch` sensor sends a positive pulse when the object is in contact with another
 object.
 
-See :doc:`Sensor Common Options <game_engine/logic/sensors/common_options>` for common options.
+See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for common options.
 
 Special Options:
 
@@ -25,7 +25,7 @@ in contact.
 .. admonition:: Touch sensor has been removed in 2.69
    :class: note
 
-   The :guilabel:`Touch` sensor is no longer available in v2.69 or later. The :doc:`Collision Sensor <game_engine/logic/sensors/collision>` now provides the same functionality.
+   The :guilabel:`Touch` sensor is no longer available in v2.69 or later. The :doc:`Collision Sensor </game_engine/logic/sensors/collision>` now provides the same functionality.
 
 
 .. admonition:: Note about soft bodies

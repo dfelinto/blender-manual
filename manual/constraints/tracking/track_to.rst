@@ -15,9 +15,9 @@ This is the preferred tracking constraint,
 as it has a more easily controlled constraining mechanism.
 
 This constraint shares a close relationship to the
-:doc:`Inverse Kinematics constraint <constraints/tracking/ik_solver>` in some ways.
+:doc:`Inverse Kinematics constraint </constraints/tracking/ik_solver>` in some ways.
 It is very important in rig design, and you should be sure to read and understand the
-:doc:`2.49 BSoD tracking tutorial <ls/animation/armatures/bsod/tracking>`,
+:doc:`2.49 BSoD tracking tutorial </ls/animation/armatures/bsod/tracking>`,
 as it centers around the use of both of these constraints.
 
 .. admonition:: Billboard tracking

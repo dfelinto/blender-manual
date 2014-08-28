@@ -23,7 +23,7 @@ and the color of the surface determines the final color of the pixel.
    Transparency Panel
 
 
-In Blender, there are three ways in which the transparency of a material can be set:  Mask, Z-Buffer and Ray-trace.  Each of these is explained in more detail below.  The :doc:`Material Preview <materials/properties/preview>` option with a sphere object gives a good demonstration of the capabilities of these three options.
+In Blender, there are three ways in which the transparency of a material can be set:  Mask, Z-Buffer and Ray-trace.  Each of these is explained in more detail below.  The :doc:`Material Preview </materials/properties/preview>` option with a sphere object gives a good demonstration of the capabilities of these three options.
 
 
 Common Options
@@ -57,7 +57,7 @@ This is useful for making textures of solid or semi-transparent objects from pho
 reference material - a mask is made with alpha opaque for pixels within the object,
 and transparent for pixels outside the object.
 
-See :doc:`Mask Transparency <materials/properties/mask_transparency>`.
+See :doc:`Mask Transparency </materials/properties/mask_transparency>`.
 
 
 Z Buffer

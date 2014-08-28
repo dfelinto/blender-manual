@@ -5,11 +5,11 @@ Lamps
 Blender comes equipped with five different lamp types,
 each with its own unique strengths and limitations. Here are the available lamps:
 
-- :doc:`Point <lighting/lamps/lamp>` is an omni-directional point light source, similar to a light bulb.
-- :doc:`Spot <lighting/lamps/spot>` is a directional point light source, similar to ... a spot.
-- :doc:`Area <lighting/lamps/area>` is a source simulating an area which is producing light, as windows, neons, TV screens.
-- :doc:`Hemi <lighting/lamps/hemi>` simulates a very wide and far away light source, like the sky.
-- :doc:`Sun <lighting/lamps/sun>` simulates a very far away and punctual light source, like the sun.
+- :doc:`Point </lighting/lamps/lamp>` is an omni-directional point light source, similar to a light bulb.
+- :doc:`Spot </lighting/lamps/spot>` is a directional point light source, similar to ... a spot.
+- :doc:`Area </lighting/lamps/area>` is a source simulating an area which is producing light, as windows, neons, TV screens.
+- :doc:`Hemi </lighting/lamps/hemi>` simulates a very wide and far away light source, like the sky.
+- :doc:`Sun </lighting/lamps/sun>` simulates a very far away and punctual light source, like the sun.
 
 
 .. figure:: /images/25-Manual-Lighting-Lamps-Visual.jpg

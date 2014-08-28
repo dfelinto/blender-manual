@@ -84,7 +84,7 @@ Loops stop at so called poles because there is no unique way to continue a loop 
 Poles are vertices that are connected to either three, five, or more edges. Accordingly,
 vertices connected to exactly one, two or four edges are not poles.
 
-In the image above, loops that do not end in poles are cyclic (``1`` and ``3``).  They start and end at the same vertex and divide the model into two partitions.  Loops can be a quick and powerful tool to work with specific, continuous regions of a mesh and are a prerequisite for organic character animation.  For a detailed description of how to work with loops in Blender, please refer to the Manual page on :doc:`Edge and Face Tools <modeling/meshes/selection#advanced_selection_tools>`.
+In the image above, loops that do not end in poles are cyclic (``1`` and ``3``).  They start and end at the same vertex and divide the model into two partitions.  Loops can be a quick and powerful tool to work with specific, continuous regions of a mesh and are a prerequisite for organic character animation.  For a detailed description of how to work with loops in Blender, please refer to the Manual page on :doc:`Edge and Face Tools </modeling/meshes/selection#advanced_selection_tools>`.
 
 
 Edge Loops
@@ -103,7 +103,7 @@ Take (*Edge Loops in organic modeling*) as an example: the edge loops follow the
 contours and deformation lines of the skin and the underlying muscles and are more dense in
 areas that deform more when the character moves, for example at the shoulders or knees.
 
-Further details on working with Edge Loops can be found in :doc:`Edge Loop Selection <modeling/meshes/selection#edge_loop_selection>`.
+Further details on working with Edge Loops can be found in :doc:`Edge Loop Selection </modeling/meshes/selection#edge_loop_selection>`.
 
 
 Face Loops
@@ -114,6 +114,6 @@ Loops, as shown in loops ``3`` and ``4`` in (*Edge and Face Loops*).
 Note that for non-circular loops (``4``)
 the faces containing the poles are not included in a Face Loop.
 
-Further details on working with Face Loops can be found in :doc:`Face Loop Selection <modeling/meshes/selection#face_loop_selection>`.
+Further details on working with Face Loops can be found in :doc:`Face Loop Selection </modeling/meshes/selection#face_loop_selection>`.
 
 

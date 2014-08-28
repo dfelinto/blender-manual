@@ -2,7 +2,7 @@
 Selectable Elements
 *******************
 
-As we have seen in the :doc:`mesh structure page <modeling/meshes/mesh_structures>`, meshes are made of different element types (even though they are all inter-related: in a way, they are different "views", "representations", of the same basic data...), "vertices", "edges" and "faces".
+As we have seen in the :doc:`mesh structure page </modeling/meshes/mesh_structures>`, meshes are made of different element types (even though they are all inter-related: in a way, they are different "views", "representations", of the same basic data...), "vertices", "edges" and "faces".
 
 Hence, you can select different parts of a mesh using one of these three types.
 There is one key point to understand here: *when you select a type of element (e.g.

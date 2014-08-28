@@ -2,14 +2,14 @@
 Soft Body Physics Object Type
 *****************************
 
-The most advanced type of object in the :doc:`Game Engine <game_engine>`. Also, it is the most finicky. If you are used to the fun experimentation that comes from playing around with the non-BGE Soft Body sims (such as Cloth), you will probably find a frustrating lack of options and exciting results. Do not despair, we are here to help you get some reasonable settings.
+The most advanced type of object in the :doc:`Game Engine </game_engine>`. Also, it is the most finicky. If you are used to the fun experimentation that comes from playing around with the non-BGE Soft Body sims (such as Cloth), you will probably find a frustrating lack of options and exciting results. Do not despair, we are here to help you get some reasonable settings.
 
 Your setup will involve making sure you have sufficient geometry in the Soft Body's mesh to
 support the deformation, as well as tweaking the options.
 
-In the example game demo, :doc:`Frijoles <ls/frijoles>`, the Soft Body type is represented by the decorative checkered flag at the top of the level.
+In the example game demo, :doc:`Frijoles </ls/frijoles>`, the Soft Body type is represented by the decorative checkered flag at the top of the level.
 
-For more documentation, see the :doc:`Top BGE Physics page <game_engine/physics>`.
+For more documentation, see the :doc:`Top BGE Physics page </game_engine/physics>`.
 
 
 Options
@@ -66,7 +66,7 @@ FIXME(Tag Unsupported:span; <span style="color: #E7007A">TODO: Learn/demo/explai
   - Default: On.
   - Python property: ``obj.game.soft_body.use_bending_constraints``
 - :guilabel:`Cluster Collision` - Affects Collision sensors as well as physics.
-  - Demo: `BGE-Physics-Objects-SoftBodies_ClusterRigidToSoftBody.blend <http://wiki.blender.org/index.php/Media:BGE-Physics-Objects-SoftBodies_ClusterRigidToSoftBody.blend>`__ for a demonstration of the effect on the :doc:`Collision Sensor <game_engine/logic/sensors/collision>`. There you will observe the "Rigid to Soft Body" off, then on with Iterations of 1, 64, and 128. The Off and Iterations: 1 cases do not register collisions, and the other two do (though they send their poor Cubes flying into space).
+  - Demo: `BGE-Physics-Objects-SoftBodies_ClusterRigidToSoftBody.blend <http://wiki.blender.org/index.php/Media:BGE-Physics-Objects-SoftBodies_ClusterRigidToSoftBody.blend>`__ for a demonstration of the effect on the :doc:`Collision Sensor </game_engine/logic/sensors/collision>`. There you will observe the "Rigid to Soft Body" off, then on with Iterations of 1, 64, and 128. The Off and Iterations: 1 cases do not register collisions, and the other two do (though they send their poor Cubes flying into space).
   - Demo of badness: `Manual-BGE-Physics-SoftBody_BadClusterCollisions.blend <http://wiki.blender.org/index.php/Media:Manual-BGE-Physics-SoftBody_BadClusterCollisions.blend>`__ - four different ways of making misconfigured Soft Body objects.
   - Suboption: :guilabel:`Rigid to Soft Body` - Enable cluster collisions between Rigid and Soft Bodies.
     - Default: Off.
@@ -83,7 +83,7 @@ FIXME(Tag Unsupported:span; <span style="color: #E7007A">TODO: Learn/demo/explai
 Hints
 =====
 
-- A very important configurable in the case of Soft Body interactions is :doc:`World properties <game_engine/physics/world>` :menuselection:`--> Physics --> Physics Steps --> Substeps`. In the test .blend here: `Manual-BGE-Physics-SoftBody_PhysicsSteps.blend <http://wiki.blender.org/index.php/Media:Manual-BGE-Physics-SoftBody_PhysicsSteps.blend>`__, you can see the behavior at various Substep levels:
+- A very important configurable in the case of Soft Body interactions is :doc:`World properties </game_engine/physics/world>` :menuselection:`--> Physics --> Physics Steps --> Substeps`. In the test .blend here: `Manual-BGE-Physics-SoftBody_PhysicsSteps.blend <http://wiki.blender.org/index.php/Media:Manual-BGE-Physics-SoftBody_PhysicsSteps.blend>`__, you can see the behavior at various Substep levels:
   - The default level. The Grid object goes straight through the cube, hardly slowing down at all.
   - The Grid slows upon hitting the Cube's top face, and stops fully on the bottom face.
   - The Grid stops at the top face, but two opposite Cube corners are visible.
@@ -108,7 +108,7 @@ http://www.blender.org/documentation/blender_python_api_2_62_release/bpy.ops.cur
 Force Fields
 ============
 
-A common practice within the non-BGE Cloth simulator is to employ :doc:`Force Fields <physics/force_fields>` to animate the cloth.
+A common practice within the non-BGE Cloth simulator is to employ :doc:`Force Fields </physics/force_fields>` to animate the cloth.
 
 These do not work in the BGE, so you will have to figure out a way to use Python
 (or perhaps plain Logic Bricks) to apply forces to the Soft Body objects.

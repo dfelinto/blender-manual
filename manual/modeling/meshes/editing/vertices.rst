@@ -75,7 +75,7 @@ Remove Doubles
    | Hotkey:   :menuselection:`[W] --> [4]` or :menuselection:`[ctrl][V] --> Remove doubles`
 
 
-Remove Doubles is a useful tool to simplify a mesh by merging vertices that are closer than a specified distance to each other. An alternate way to simplify a mesh is to use the :doc:`Decimate modifier <modifiers/generate/decimate>`.
+Remove Doubles is a useful tool to simplify a mesh by merging vertices that are closer than a specified distance to each other. An alternate way to simplify a mesh is to use the :doc:`Decimate modifier </modifiers/generate/decimate>`.
 
 :guilabel:`Merge Distance`
    Sets the distance threshold for merging vertices, in Blender units.
@@ -220,7 +220,7 @@ Separate
    | Hotkey:   :kbd:`P`
 
 
-This will separate the selection in another mesh object, as described :doc:`here <modeling/objects/groups_and_parenting>`.
+This will separate the selection in another mesh object, as described :doc:`here </modeling/objects/groups_and_parenting>`.
 
 
 Vertex Connect
@@ -318,7 +318,7 @@ Smooth
    | Hotkey:   :menuselection:`[ctrl][V] --> Smooth vertex`
 
 
-This will apply once the :doc:`Smooth Tool <modeling/meshes/editing/deforming/smooth>`.
+This will apply once the :doc:`Smooth Tool </modeling/meshes/editing/deforming/smooth>`.
 
 
 Make Vertex Parent
@@ -332,7 +332,7 @@ Make Vertex Parent
    | Hotkey:   :kbd:`ctrl-P`
 
 
-This will parent the other selected object(s) to the vertices/edges/faces selected, as described :doc:`here <modeling/objects/groups_and_parenting>`.
+This will parent the other selected object(s) to the vertices/edges/faces selected, as described :doc:`here </modeling/objects/groups_and_parenting>`.
 
 
 Add Hook
@@ -346,7 +346,7 @@ Add Hook
    | Hotkey:   :kbd:`ctrl-H`
 
 
-Adds a :doc:`Hook Modifier <modifiers/deform/hooks>` (using either a new empty, or the current selected object) linked to the selection. Note that even if it appears in the history menu, this action cannot be undone in :guilabel:`Edit` mode - probably because it involves other objects...
+Adds a :doc:`Hook Modifier </modifiers/deform/hooks>` (using either a new empty, or the current selected object) linked to the selection. Note that even if it appears in the history menu, this action cannot be undone in :guilabel:`Edit` mode - probably because it involves other objects...
 
 
 Blend From Shape, Propagate Shapes
@@ -360,6 +360,6 @@ Blend From Shape, Propagate Shapes
    | Hotkey:   :menuselection:`[W] --> [alt][Blend From Shape]` or :menuselection:`[ctrl][V] --> Blend From Shape`, and :menuselection:`[W] --> [alt][Shape Propagate]` or :menuselection:`[ctrl][V] --> Shape Propagate`
 
 
-These are options regarding :doc:`shape keys <animation/techs/shape/shape_keys>`.
+These are options regarding :doc:`shape keys </animation/techs/shape/shape_keys>`.
 
 

@@ -32,9 +32,9 @@ A piece of cloth is any mesh, open or enclosed, that has been designated as clot
 three panels of options. Cloth is either an open or closed mesh and is mass-less,
 in that all cloth is assumed to have the same density, or mass per square unit.
 
-Cloth is commonly modeled as a mesh grid primitive, or a cube, but can also be, for example, a teddy bear. However, Blender's :doc:`Softbody system <physics/soft_body>` provides better simulation of closed meshes; Cloth is a specialized simulation of fabrics.
+Cloth is commonly modeled as a mesh grid primitive, or a cube, but can also be, for example, a teddy bear. However, Blender's :doc:`Softbody system </physics/soft_body>` provides better simulation of closed meshes; Cloth is a specialized simulation of fabrics.
 
-Once the object is designated as Cloth, a Cloth :doc:`modifier <modifiers>` will be added to the object's modifier stack automatically. As a :doc:`modifier <modifiers>` then, it can interact with other modifiers, such as :guilabel:`Armature` and :guilabel:`Smooth`. In these cases, the ultimate shape of the mesh is computed in accordance with the order of the modifier stack. For example, you should smooth the cloth *after* the modifier computes the shape of the cloth.
+Once the object is designated as Cloth, a Cloth :doc:`modifier </modifiers>` will be added to the object's modifier stack automatically. As a :doc:`modifier </modifiers>` then, it can interact with other modifiers, such as :guilabel:`Armature` and :guilabel:`Smooth`. In these cases, the ultimate shape of the mesh is computed in accordance with the order of the modifier stack. For example, you should smooth the cloth *after* the modifier computes the shape of the cloth.
 
 So you edit the Cloth settings in two places: use the F7 Physics buttons to edit the
 properties of the cloth and use the Modifier stack to  edit the Modifier properties related to
@@ -130,7 +130,7 @@ Pinning
    Cloth in action.
 
 
-The first thing you need when pinning cloth is a :doc:`Vertex Group <modeling/meshes/vertex_groups>`. There are several ways of doing this including using the Weight Paint tool to paint the areas you want to pin (see the :doc:`Weight paint <modeling/meshes/weight_paint>` section of the manual).
+The first thing you need when pinning cloth is a :doc:`Vertex Group </modeling/meshes/vertex_groups>`. There are several ways of doing this including using the Weight Paint tool to paint the areas you want to pin (see the :doc:`Weight paint </modeling/meshes/weight_paint>` section of the manual).
 
 Once you have a vertex group set, things are pretty straightforward; all you have to do is
 press the :guilabel:`Pinning of cloth` button in the :guilabel:`Cloth` panel and select which
@@ -304,7 +304,7 @@ The image to the right shows the :guilabel:`Modifiers` panel for the Character m
 Cloth Cache
 ***********
 
-Cache settings for cloth are the same as with other dynamic systems. See :doc:`Particle Cache <physics/particles/cache_and_bake>` for details.
+Cache settings for cloth are the same as with other dynamic systems. See :doc:`Particle Cache </physics/particles/cache_and_bake>` for details.
 
 
 Bake Collision

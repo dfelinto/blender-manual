@@ -39,8 +39,8 @@ They work by the same method but offer more choices and settings.
 Please refer to these pages for detail about the settings for the contraints:
 
 
-- :doc:`IK Solver <constraints/tracking/ik_solver>`
-- :doc:`Spline IK <constraints/tracking/spline_ik>`
+- :doc:`IK Solver </constraints/tracking/ik_solver>`
+- :doc:`Spline IK </constraints/tracking/spline_ik>`
 
 
 Armature IK Panel

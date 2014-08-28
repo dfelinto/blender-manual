@@ -19,9 +19,9 @@ and how it interacts with materials.
    Causes the lamp to only light objects on the same layer.
 
 :guilabel:`Diffuse`
-   Prevents the lamp from producing :doc:`diffuse light <materials/properties/diffuse_shaders>` (it doesn't really "light" things).
+   Prevents the lamp from producing :doc:`diffuse light </materials/properties/diffuse_shaders>` (it doesn't really "light" things).
 
 :guilabel:`Specular`
-   Prevents the lamp from producing :doc:`specular highlights <materials/properties/specular_shaders>`.
+   Prevents the lamp from producing :doc:`specular highlights </materials/properties/specular_shaders>`.
 
 

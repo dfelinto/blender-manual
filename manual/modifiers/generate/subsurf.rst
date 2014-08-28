@@ -40,13 +40,13 @@ There are two algorithms available: Simple
 (subdivides  mesh) and the default `Catmull-Clark <http://en.wikipedia.org/wiki/Catmull%E2%80%93Clark_subdivision_surface>`__ (subdivides and
 smooths mesh).
 
-Keep in mind that this is a different operation than its companion, :doc:`Smooth Shading <modeling/meshes/smoothing>`. You can see the difference between the two in the grid image to the right.
+Keep in mind that this is a different operation than its companion, :doc:`Smooth Shading </modeling/meshes/smoothing>`. You can see the difference between the two in the grid image to the right.
 
 
 MultiResolution Modifier
 ========================
 
-Another way to subdivide is with the :doc:`MultiResolution Modifier <modifiers/generate/multiresolution>`. This differs from Subsurf in that MultiRes allows you to edit the mesh at several subdivision levels without losing information at the other levels. It is slightly more complicated to use, but more powerful.
+Another way to subdivide is with the :doc:`MultiResolution Modifier </modifiers/generate/multiresolution>`. This differs from Subsurf in that MultiRes allows you to edit the mesh at several subdivision levels without losing information at the other levels. It is slightly more complicated to use, but more powerful.
 
 
 Options
@@ -57,7 +57,7 @@ Options
    Modifier's panel
 
 
-:guilabel:`Subsurf` is a :doc:`modifier <modifiers>`. To add it to a mesh, press :guilabel:`Add Modifier` and select :guilabel:`Subdivision Surface` from the list.
+:guilabel:`Subsurf` is a :doc:`modifier </modifiers>`. To add it to a mesh, press :guilabel:`Add Modifier` and select :guilabel:`Subdivision Surface` from the list.
 
 :guilabel:`Type`
    This toggle button allows you to choose the subdivision algorithm:
@@ -135,7 +135,7 @@ Order of the Modifier Stack
    Notice that the Armature Modifier before the Subsurf comes out much better in this case. Also, the Mirror before the Subsurf is clearly correct compared to the other way around.
 
 
-The :doc:`Evaluation order <modifiers/the_stack>` of Modifiers is often significant, but especially so in the case of the Subsurf. The key to deciding your Modifier stack order is to picture the changes at each step, perhaps by temporarily Apply'ing the Modifiers, or perhaps by simply tinkering with the order until things come out right. To see the file behind these screenshots, you can look at `Manual-Modifiers-Generate-Subsurf_OrderOfExecution.blend <http://wiki.blender.org/index.php/Media:Manual-Modifiers-Generate-Subsurf_OrderOfExecution.blend>`__.
+The :doc:`Evaluation order </modifiers/the_stack>` of Modifiers is often significant, but especially so in the case of the Subsurf. The key to deciding your Modifier stack order is to picture the changes at each step, perhaps by temporarily Apply'ing the Modifiers, or perhaps by simply tinkering with the order until things come out right. To see the file behind these screenshots, you can look at `Manual-Modifiers-Generate-Subsurf_OrderOfExecution.blend <http://wiki.blender.org/index.php/Media:Manual-Modifiers-Generate-Subsurf_OrderOfExecution.blend>`__.
 
 
 Control

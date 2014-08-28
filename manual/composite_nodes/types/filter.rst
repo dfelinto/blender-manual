@@ -253,7 +253,7 @@ A value of just 3 will already clearly separate the background from foreground.
 Examples
 --------
 
-An in-depth look at how to use the Vector Blur node :doc:`can be found here <ls/composite_nodes/types/filter/vector_blur>`.
+An in-depth look at how to use the Vector Blur node :doc:`can be found here </ls/composite_nodes/types/filter/vector_blur>`.
 
 As far as we know, this node represents a [http://www.blender.
 org/development/release-logs/blender-242/vector-blur/ new approach to calculating motion

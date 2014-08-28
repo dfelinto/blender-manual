@@ -208,7 +208,7 @@ Soft Body Self Collision
 :guilabel:`Dampening`
    Default 0.5. How the vertex reacts. A low value just slows down the vertex as it gets too close. A high value repulses it.
 
-Collisions with other objects are set in the (other) :doc:`Collision panel <physics/collision>`. To collide with another object they have to share at least one common layer.
+Collisions with other objects are set in the (other) :doc:`Collision panel </physics/collision>`. To collide with another object they have to share at least one common layer.
 
 
 Soft Body Solver

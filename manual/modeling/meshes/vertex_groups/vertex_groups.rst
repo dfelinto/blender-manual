@@ -4,7 +4,7 @@ Vertex Groups
 
 :guilabel:`Vertex Groups` are mainly used to tag the vertices belonging to parts of a Mesh Object or Lattice. Think of the legs of a chair or the hinges of a door, or hands, arms, limbs, head, feet, etc. of a character. In addition you can assign different :guilabel:`weight values` (in the range [0.0,1.0] to the vertices within a Vertex Group (hence Vertex Groups are sometimes also named :guilabel:`Weight Groups` ).
 
-Vertex Groups are most commonly used for Armatures (See :doc:`Skinning Mesh Objects <rigging/skinning/obdata>`). But they are also used in many other areas of Blender, like for example:
+Vertex Groups are most commonly used for Armatures (See :doc:`Skinning Mesh Objects </rigging/skinning/obdata>`). But they are also used in many other areas of Blender, like for example:
 
 
 - Shape keys

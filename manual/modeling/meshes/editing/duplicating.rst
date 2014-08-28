@@ -6,10 +6,10 @@ This section covers mesh editing tools that add additional geometry by duplicati
 geometry in some way.
 
 
-- :doc:`Duplicate Geometry <modeling/meshes/editing/duplicating/duplicate>`.
-- :doc:`Extrusion <modeling/meshes/editing/duplicating/extrude>`.
-- :doc:`Spin <modeling/meshes/editing/duplicating/spin>`.
-- :doc:`Screw <modeling/meshes/editing/duplicating/screw>`.
+- :doc:`Duplicate Geometry </modeling/meshes/editing/duplicating/duplicate>`.
+- :doc:`Extrusion </modeling/meshes/editing/duplicating/extrude>`.
+- :doc:`Spin </modeling/meshes/editing/duplicating/spin>`.
+- :doc:`Screw </modeling/meshes/editing/duplicating/screw>`.
 
 
 .. admonition:: Multiple Viewports

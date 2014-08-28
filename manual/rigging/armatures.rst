@@ -7,7 +7,7 @@
 Armatures
 *********
 
-An "armature" is a type of object used for :doc:`rigging <rigging>`.
+An "armature" is a type of object used for :doc:`rigging </rigging>`.
 Armature object borrows many ideas from real life skeletons.
 
 
@@ -16,7 +16,7 @@ Your first armature
 
 In order to see what we're talking about, let's try to add the default armature in Blender.
 
-(Note that armature editing details are explained in the :doc:`armatures editing section <rigging/armatures/editing>`).
+(Note that armature editing details are explained in the :doc:`armatures editing section </rigging/armatures/editing>`).
 
 Open a default scene, then:
 
@@ -63,15 +63,15 @@ Armature chapter overview
 In the "Armatures" section, we will only talk about armatures themselves,
 and specifically we will talk about:
 
-- the armature object :doc:`panels <rigging/armatures/panels>`
-- the basics of :doc:`bones <rigging/armatures/bones>`
-- the different :doc:`armature visualizations <rigging/armatures/visualization>`
-- the armature :doc:`structure types <rigging/armatures/structure>`
-- how to :doc:`select <rigging/armatures/selecting>` its parts,
-- how to :doc:`edit an armature <rigging/armatures/editing>`
-- how to :doc:`Edit Bones <rigging/armatures/editing/bones>`
-- how to :doc:`edit bones properties <rigging/armatures/editing/properties>`
-- how to sketch armatures with the :doc:`Etch-a-Ton tool <rigging/armatures/editing/sketching>`
-- how to use :doc:`templates <rigging/armatures/editing/templating>`
+- the armature object :doc:`panels </rigging/armatures/panels>`
+- the basics of :doc:`bones </rigging/armatures/bones>`
+- the different :doc:`armature visualizations </rigging/armatures/visualization>`
+- the armature :doc:`structure types </rigging/armatures/structure>`
+- how to :doc:`select </rigging/armatures/selecting>` its parts,
+- how to :doc:`edit an armature </rigging/armatures/editing>`
+- how to :doc:`Edit Bones </rigging/armatures/editing/bones>`
+- how to :doc:`edit bones properties </rigging/armatures/editing/properties>`
+- how to sketch armatures with the :doc:`Etch-a-Ton tool </rigging/armatures/editing/sketching>`
+- how to use :doc:`templates </rigging/armatures/editing/templating>`
 
 

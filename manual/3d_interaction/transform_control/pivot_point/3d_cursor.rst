@@ -18,7 +18,7 @@ The image below shows the difference when rotating an Object from its starting p
 (first panel) 90 degrees around the median point (second panel)
 and 90 degrees around the 3D cursor (third panel).
 
-:doc:`Read more about selecting different pivot points » <3d_interaction/transform_control/pivot_point>`
+:doc:`Read more about selecting different pivot points » </3d_interaction/transform_control/pivot_point>`
 
 
 .. figure:: /images/3D_interaction_Transform-Control_Pivot-Point_3D-cursor_median-cursor-example.jpg

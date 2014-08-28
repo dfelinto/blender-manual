@@ -87,7 +87,7 @@ so you can place them to your liking. See (*Extrusion example*).
 +---------------------+-------------------------------------------------------------------+-------------------------------------------------------+
 
 
-You also can use the rotating/scaling extrusions, as explained for meshes :doc:`here <modeling/meshes/tools/add_divide#extrusion>`, by hitting respectively :kbd:`E-R` and :kbd:`E-S` - as well as "\ :doc:`locked <3d_interaction/transform_control/axis_locking>` " extrusion along a global or local axis.
+You also can use the rotating/scaling extrusions, as explained for meshes :doc:`here </modeling/meshes/tools/add_divide#extrusion>`, by hitting respectively :kbd:`E-R` and :kbd:`E-S` - as well as "\ :doc:`locked </3d_interaction/transform_control/axis_locking>` " extrusion along a global or local axis.
 
 
 +--------------------------------------------------------------+--------------------------------------------------------------+
@@ -107,7 +107,7 @@ You also can use the rotating/scaling extrusions, as explained for meshes :doc:`
 Bones have an extra "mirror extruding" tool, called by hitting :kbd:`shift-E`. By default, it behaves exactly like the standard extrusion. But once you have enabled the X-Axis mirror editing option (see
 FIXME(TODO: Internal Link;
 [[#X-Axis Mirror Editing|below]]
-)), each extruded tip will produce *two new bones*, having the same name except for a leading "_L/_R" code (for left/right, see the :doc:`next page <rigging/armatures/editing/properties#naming_conventions>`). The "_L" bone behaves like the single one produced by the default extrusion - you can grab/rotate/scale it exactly the same way. The "_R" bone is its mirror counterpart (along the armature's local X axis), see (*Mirror extrusion example*).
+)), each extruded tip will produce *two new bones*, having the same name except for a leading "_L/_R" code (for left/right, see the :doc:`next page </rigging/armatures/editing/properties#naming_conventions>`). The "_L" bone behaves like the single one produced by the default extrusion - you can grab/rotate/scale it exactly the same way. The "_R" bone is its mirror counterpart (along the armature's local X axis), see (*Mirror extrusion example*).
 
 
 FIXME(Template Unsupported: Template:Warning/Important;
@@ -476,7 +476,7 @@ You can prevent a bone from being transformed in :guilabel:`Edit mode` in severa
 X-Axis Mirror Editing
 =====================
 
-Another very useful tool is the :guilabel:`X-Axis Mirror` editing option (:guilabel:`Tool panel` > :guilabel:`Armature Options`, while Armature is selected in :guilabel:`Edit Mode`), working a bit like the same :doc:`mesh editing tool <modeling/meshes/tools/transform_deform#mirror_editing>`. When you have pairs of bones of the same name with just a different "side suffix" (e.g. ``.R`` / ``.L``, or ``_right`` / ``_left`` ...), once this option is enabled, each time you transform (move/rotate/scale...) a bone, its "other side" counterpart will be transformed accordingly, through a *symmetry along the armature local X axis*. As most rigs have at least one axis of symmetry (animals, humans, ...), it's an easy way to spare you half of the editing work! See also :doc:`next page <rigging/armatures/editing/properties#naming_bones>` for more on naming bones.
+Another very useful tool is the :guilabel:`X-Axis Mirror` editing option (:guilabel:`Tool panel` > :guilabel:`Armature Options`, while Armature is selected in :guilabel:`Edit Mode`), working a bit like the same :doc:`mesh editing tool </modeling/meshes/tools/transform_deform#mirror_editing>`. When you have pairs of bones of the same name with just a different "side suffix" (e.g. ``.R`` / ``.L``, or ``_right`` / ``_left`` ...), once this option is enabled, each time you transform (move/rotate/scale...) a bone, its "other side" counterpart will be transformed accordingly, through a *symmetry along the armature local X axis*. As most rigs have at least one axis of symmetry (animals, humans, ...), it's an easy way to spare you half of the editing work! See also :doc:`next page </rigging/armatures/editing/properties#naming_bones>` for more on naming bones.
 
 
 Separating Bones in a new Armature

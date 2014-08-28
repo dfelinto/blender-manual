@@ -104,7 +104,7 @@ the amount of the transformation in small or predefined steps.
    Slow transformation option. While still in the grab mode i.e.,after :kbd:`g` pressed, if the :kbd:`shift` key is pressed, the rate of transformation is reduced giving you precise translation.
 
 :kbd:`Ctrl`
-   :doc:`Snap <3d_interaction/transform_control/snap>` while grabbing the object based on the snapping constraint which has been already set. For this option you may not necessarily enable the snap option. It will work from the snap disabled mode itself.
+   :doc:`Snap </3d_interaction/transform_control/snap>` while grabbing the object based on the snapping constraint which has been already set. For this option you may not necessarily enable the snap option. It will work from the snap disabled mode itself.
 
 :kbd:`Ctrl`:kbd:`+`:kbd:`Shift`
    Intuitively this is the combination of the :kbd:`Ctrl` and the :kbd:`Shift` operations individually. This option will move the object with high precission along with the snapping constraint.

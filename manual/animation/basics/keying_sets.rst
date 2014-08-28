@@ -15,7 +15,7 @@ There are some built in Keying Sets,
 and also custom Keying Sets called *Absolute Keying Sets*.
 
 To select and use a Keying Set, set the *Active Keying Set* in the
-:doc:`Timeline Header <animation/editors/timeline#v_keyframe_control>`,
+:doc:`Timeline Header </animation/editors/timeline#v_keyframe_control>`,
 or the *Keying Set Panel*, or press :kbd:`Ctrl-Alt-Shift-I` in the 3D View.
 
 
@@ -130,6 +130,6 @@ to add *Add All to Keying Set*.
 See Also
 ========
 
-- :doc:`Timeline Header - V Keyframe Control <animation/editors/timeline#v_keyframe_control>`
+- :doc:`Timeline Header - V Keyframe Control </animation/editors/timeline#v_keyframe_control>`
 
 

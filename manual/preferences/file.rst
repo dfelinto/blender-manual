@@ -82,7 +82,7 @@ Save & Load
 :guilabel:`Compress File`
    Compress ``.blend`` file when saving.
 :guilabel:`Load UI`
-   Default setting is to load the Window layout (the :doc:`Screens <interface/screens>`) of the saved file. This can be changed individually when loading a file from the :guilabel:`Open Blender File` panel of the :guilabel:`File Browser` window.
+   Default setting is to load the Window layout (the :doc:`Screens </interface/screens>`) of the saved file. This can be changed individually when loading a file from the :guilabel:`Open Blender File` panel of the :guilabel:`File Browser` window.
 
 
 .. figure:: /images/Manual-Interface-Configuration-File-filefilter-25.jpg
@@ -114,5 +114,5 @@ Auto Save
 :guilabel:`Timer`
    Time to wait between automatic saves.
 
-:doc:`Read more about Auto Save options » <vitals/undo_and_redo#save_and_auto_save>`
+:doc:`Read more about Auto Save options » </vitals/undo_and_redo#save_and_auto_save>`
 

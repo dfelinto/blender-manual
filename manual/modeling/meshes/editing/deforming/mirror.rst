@@ -14,7 +14,7 @@ Mirror
 
 The mirror tool mirrors a selection across a selected axis.
 
-The mirror tool in :guilabel:`Edit` mode is similar to  :doc:`Mirroring in Object mode <3d_interaction/transformations/advanced/mirror>`. It is exactly equivalent to scaling by -1 vertices, edges or faces around one chosen pivot point and in the direction of one chosen axis, only it is faster/handier.
+The mirror tool in :guilabel:`Edit` mode is similar to  :doc:`Mirroring in Object mode </3d_interaction/transformations/advanced/mirror>`. It is exactly equivalent to scaling by -1 vertices, edges or faces around one chosen pivot point and in the direction of one chosen axis, only it is faster/handier.
 
 
 After this tool becomes active, select an axis to mirror the selection on entering x,y, or z.
@@ -37,10 +37,10 @@ choose one transformation orientation and then one axis on it.
 Pivot point
 ===========
 
-:doc:`Pivot points <3d_interaction/transform_control/pivot_point>` must be set first. Pivot points will become the center of symmetry. If the widget is turned on it will always show where the pivot point is.
+:doc:`Pivot points </3d_interaction/transform_control/pivot_point>` must be set first. Pivot points will become the center of symmetry. If the widget is turned on it will always show where the pivot point is.
 
 
-On (*Mirror around the* :guilabel:`Individual Centers` *...*) the pivot point default to **median point of the selection of vertices** in :guilabel:`Edit` mode. This is a special case of the :guilabel:`Edit` mode as explained on the :doc:`pivot point page <3d_interaction/transform_control/pivot_point>`.
+On (*Mirror around the* :guilabel:`Individual Centers` *...*) the pivot point default to **median point of the selection of vertices** in :guilabel:`Edit` mode. This is a special case of the :guilabel:`Edit` mode as explained on the :doc:`pivot point page </3d_interaction/transform_control/pivot_point>`.
 
 
 .. figure:: /images/MirrorTool1.jpg
@@ -80,4 +80,4 @@ and the axis of transformation is X.
 Transformation orientation
 ==========================
 
-:doc:`Transformation Orientations <3d_interaction/transform_control/transform_orientations>` are found on the 3D area header, next to the :guilabel:`Widget` buttons. They decide which coordinate system will rule the mirroring.
+:doc:`Transformation Orientations </3d_interaction/transform_control/transform_orientations>` are found on the 3D area header, next to the :guilabel:`Widget` buttons. They decide which coordinate system will rule the mirroring.

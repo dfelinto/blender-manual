@@ -23,10 +23,10 @@ Options
 Minimum is **1**, maximum is **120**.
 
 **Debug Properties**
-   When checked, if a property was previously checked to be debugged during the game, the values of this property will be shown with the :doc:`Framerate and Profile <game_engine/performance/display/framerate_and_profile>` contents.
+   When checked, if a property was previously checked to be debugged during the game, the values of this property will be shown with the :doc:`Framerate and Profile </game_engine/performance/display/framerate_and_profile>` contents.
 
 **Framerate and Profile**
-   When checked, this will show values for each of the calculations Blender is doing while the game is running, plus the properties marked to be debugged. Each of the values are explained at the :doc:`Framerate and Profile <game_engine/performance/display/framerate_and_profile>` page.
+   When checked, this will show values for each of the calculations Blender is doing while the game is running, plus the properties marked to be debugged. Each of the values are explained at the :doc:`Framerate and Profile </game_engine/performance/display/framerate_and_profile>` page.
 
 **Physics visualization**
    Shows a visualization of phisycs bounds and interactions (like hulls and collision shapes), and their interaction.

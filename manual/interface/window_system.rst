@@ -20,7 +20,7 @@ This gives quick and easy access to recently opened Blender files.
 If you want to start work on a new file just click outside of the splash screen.
 The splash screen will disappear revealing the default layout and cube.
 
-Every window you see can be further broken down into separate areas (as described in the section on :doc:`arranging frames <interface/window_system/arranging_frames>`). The default scene is described below.
+Every window you see can be further broken down into separate areas (as described in the section on :doc:`arranging frames </interface/window_system/arranging_frames>`). The default scene is described below.
 
 
 The default scene
@@ -61,16 +61,16 @@ The Info Window (main menu)
 The Info Window is found at the top of the Default Scene and has the following components:
 
 
-- **Window/Editor Type Selector** : The red shaded area allows you to change the :doc:`Window/Editor Type <interface/window_types>`. This region is found on every Window.
+- **Window/Editor Type Selector** : The red shaded area allows you to change the :doc:`Window/Editor Type </interface/window_types>`. This region is found on every Window.
 
 
 - **Menu options** :  The dark blue shaded area provides access to the main menu options.
 
 
-- **Current Screen (default is Default)** : The green shaded area allows you to select different :doc:`Screens <interface/screens>`. By default, Blender comes with several pre-configured :guilabel:`Screen` s for you to choose from.  If you need custom screen layouts, you can create and name them.
+- **Current Screen (default is Default)** : The green shaded area allows you to select different :doc:`Screens </interface/screens>`. By default, Blender comes with several pre-configured :guilabel:`Screen` s for you to choose from.  If you need custom screen layouts, you can create and name them.
 
 
-- **Current Scene** : The yellow shaded area allows you to select different :doc:`Scenes <interface/scenes>`. Having multiple Scenes allows you to work with separate virtual environments, with completely separate data, or with objects and/or mesh data linked between them. (In some 3D packages, each file contains one scene, while in Blender, one .blend file may contain several scenes.)
+- **Current Scene** : The yellow shaded area allows you to select different :doc:`Scenes </interface/scenes>`. Having multiple Scenes allows you to work with separate virtual environments, with completely separate data, or with objects and/or mesh data linked between them. (In some 3D packages, each file contains one scene, while in Blender, one .blend file may contain several scenes.)
 
 
 - **Current Engine** : The purple shaded area gives a list of available rendering and game engines.
@@ -96,7 +96,7 @@ The Info Window is found at the top of the Default Scene and has the following c
 - **3D Transform Manipulator** : Is a visual aid in transforming objects (grab/move, rotate and scale).  Objects can also be transformed using the keyboard shortcuts: (:kbd:`G` / :kbd:`R` / :kbd:`S`); :kbd:`ctrl-Space` will toggle the manipulator visibility.
 
 
-- **Cube Mesh** : By default, a new installation of Blender will always start with a Cube :guilabel:`Mesh` sitting in the center of Global 3D space (in the picture above, it has been moved).  After a while, you will most likely want to change the "Default" settings; this is done by :doc:`configuring Blender <preferences>` as you would want it on startup and then saving it as the "Default" using :kbd:`ctrl-U` (:guilabel:`Save Default Settings`).
+- **Cube Mesh** : By default, a new installation of Blender will always start with a Cube :guilabel:`Mesh` sitting in the center of Global 3D space (in the picture above, it has been moved).  After a while, you will most likely want to change the "Default" settings; this is done by :doc:`configuring Blender </preferences>` as you would want it on startup and then saving it as the "Default" using :kbd:`ctrl-U` (:guilabel:`Save Default Settings`).
 
 
 .. figure:: /images/Icon-library_3D-Window_light-lamp.jpg
@@ -126,31 +126,31 @@ The Info Window is found at the top of the Default Scene and has the following c
 This is the header for the 3D window.  All windows in Blender have a header,
 although in some cases they may be located at bottom of the window.
 
-Read more about :doc:`Blender headers » <interface/window_system/headers>`
+Read more about :doc:`Blender headers » </interface/window_system/headers>`
 
 
 .. figure:: /images/Icon-library_3D-Window_Editor-type.jpg
 
 
-- **Window/Editor Type Selector** : Allows you to change the :doc:`type of Window <interface/window_types>`. This option can be found in every window header.  For example, if you want to see the :guilabel:`Outliner` window you would click and select it.
+- **Window/Editor Type Selector** : Allows you to change the :doc:`type of Window </interface/window_types>`. This option can be found in every window header.  For example, if you want to see the :guilabel:`Outliner` window you would click and select it.
 
 
 .. figure:: /images/Icon-library_3D-Window_3D-transform-manipulator-options.jpg
 
 
-- **3D Transform manipulator options** : Access to the :doc:`manipulator <3d_interaction/transform_control/manipulators>` widget is also possible by clicking the coordinate system icon on the toolbar.  The translation/rotation/scale manipulators can be displayed by clicking each of the three icons to the right of the coordinate system icon.  :kbd:`shift-lmb` -clicking an icon will add/remove each manipulator's visibility.
+- **3D Transform manipulator options** : Access to the :doc:`manipulator </3d_interaction/transform_control/manipulators>` widget is also possible by clicking the coordinate system icon on the toolbar.  The translation/rotation/scale manipulators can be displayed by clicking each of the three icons to the right of the coordinate system icon.  :kbd:`shift-lmb` -clicking an icon will add/remove each manipulator's visibility.
 
 
 .. figure:: /images/Icon-library_3D-Window_header-viewport-shading.jpg
 
 
-- **Viewport shading** : Blender renders the 3D window using `OpenGL <http://en.wikipedia.org/wiki/OpenGL>`__.  You can select the type of :doc:`Viewport shading <3d_interaction/navigating/3d_view_options#view_shading>` that takes place by clicking this button and selecting from a variety of shading styles including simple bounding boxes and complex textures.  It is recommended that you have a powerful graphics card if you are going to use the Textured style.
+- **Viewport shading** : Blender renders the 3D window using `OpenGL <http://en.wikipedia.org/wiki/OpenGL>`__.  You can select the type of :doc:`Viewport shading </3d_interaction/navigating/3d_view_options#view_shading>` that takes place by clicking this button and selecting from a variety of shading styles including simple bounding boxes and complex textures.  It is recommended that you have a powerful graphics card if you are going to use the Textured style.
 
 
 .. figure:: /images/Icon-library_3D-Window_header-layers.jpg
 
 
-- **Layers** : Blender :doc:`Layers <3d_interaction/navigating/layers>` are provided to help distribute your objects into functional groups.  For example, one layer may contain a water object and another layer may contain trees, or one layer may contain cameras and lights. To de-clutter the view you can turn layers on and off.
+- **Layers** : Blender :doc:`Layers </3d_interaction/navigating/layers>` are provided to help distribute your objects into functional groups.  For example, one layer may contain a water object and another layer may contain trees, or one layer may contain cameras and lights. To de-clutter the view you can turn layers on and off.
 
 
 Buttons (Properties) Window Header

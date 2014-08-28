@@ -39,7 +39,7 @@ A material may be linked in two different ways:
 :guilabel:`Object`
    Any created material will be created as part of the Object datablock.
 
-:doc:`Read more about Blender's Data System » <data_system>`
+:doc:`Read more about Blender's Data System » </data_system>`
 
 
 New objects
@@ -64,7 +64,7 @@ Undo
 :guilabel:`Memory Limit`
    Maximum memory usage in Mb (0 is unlimited).
 
-:doc:`Read more about Undo and Redo options » <vitals/undo_and_redo>`
+:doc:`Read more about Undo and Redo options » </vitals/undo_and_redo>`
 
 
 Grease Pencil

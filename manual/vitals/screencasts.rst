@@ -12,7 +12,7 @@ Blender Screencasts
    | Hotkey:   :kbd:`alt-F3`
 
 
-The shortcut :kbd:`alt-F3` starts the screencast function. Screencasts will record your actions over time either as a video or sequence of image files. The type and location of the output is determined by the settings in the :doc:`Output panel </render/output>` of the :doc:`Render context <interface/contexts>` window.
+The shortcut :kbd:`alt-F3` starts the screencast function. Screencasts will record your actions over time either as a video or sequence of image files. The type and location of the output is determined by the settings in the :doc:`Output panel </render/output>` of the :doc:`Render context </interface/contexts>` window.
 The default settings will generate a screencast consisting of a series of PNG images captured
 every 50 ms and stored in the :guilabel:`/tmp` folder. If you want to record a video, set the
 :guilabel:`Output` to one of the :guilabel:`Movie File Formats` supported by your system
@@ -25,7 +25,7 @@ If you are unsure what video codecs your system supports, select :guilabel:`AVI 
    Options in the User Preferences Editor
 
 
-The FPS for video Screencasts and time between each Screenshot for an image series Screencast can be set from the :doc:`System panel <preferences/system>` of the :doc:`User Preferences <preferences>` window.
+The FPS for video Screencasts and time between each Screenshot for an image series Screencast can be set from the :doc:`System panel </preferences/system>` of the :doc:`User Preferences </preferences>` window.
 
 (See Fig: Options in the User Preferences Editor)
 
@@ -69,7 +69,7 @@ Info Window - Header - Capture Stop Button).
    Dimensions Panel - Frame Range
 
 
-The frames are stored using a suffix added to their file name, where the suffix is composed of the numbers present in the fields for *start* and *end frames*, defined in the Frame Range of the Dimensions panel, :doc:`Render context <interface/contexts>`. (See Fig: Dimensions Panel - Frame Range - highlighted in yellow)
+The frames are stored using a suffix added to their file name, where the suffix is composed of the numbers present in the fields for *start* and *end frames*, defined in the Frame Range of the Dimensions panel, :doc:`Render context </interface/contexts>`. (See Fig: Dimensions Panel - Frame Range - highlighted in yellow)
 
 .. admonition:: Important:
    :class: nicetip
@@ -97,7 +97,7 @@ Blender Window Dimension
 There is a way to match the Blender Window dimensions with the Output Video File,
 achieving standard dimensions for the output of the Blender Screencast. (I.e. NTSC, HD,
 Full HD, etc).
-You can control the width and height of your Blender Window, starting Blender from a Command Line. To learn more about starting Blender from a command line, see the page about :doc:`Blender Console Window <interface/window_system/console_window>`.
+You can control the width and height of your Blender Window, starting Blender from a Command Line. To learn more about starting Blender from a command line, see the page about :doc:`Blender Console Window </interface/window_system/console_window>`.
 
 
 Addon: {{Literal|3D View:Screencast Keys}}

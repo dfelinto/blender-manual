@@ -22,16 +22,16 @@ the user can easily keep the specified frequencies within acceptable limits.
 These are the available types:
 
 
-- :doc:`Blend <textures/types/procedural/blend>`
-- :doc:`Clouds <textures/types/procedural/clouds>`
-- :doc:`Distorted Noise <textures/types/procedural/distorted_noise>`
-- :doc:`Magic <textures/types/procedural/magic>`
-- :doc:`Marble <textures/types/procedural/marble>`
-- :doc:`Musgrave <textures/types/procedural/musgrave>`
-- :doc:`Noise <textures/types/procedural/noise>`
-- :doc:`Stucci <textures/types/procedural/stucci>`
-- :doc:`Voronoi <textures/types/procedural/voronoi>`
-- :doc:`Wood <textures/types/procedural/wood>`
+- :doc:`Blend </textures/types/procedural/blend>`
+- :doc:`Clouds </textures/types/procedural/clouds>`
+- :doc:`Distorted Noise </textures/types/procedural/distorted_noise>`
+- :doc:`Magic </textures/types/procedural/magic>`
+- :doc:`Marble </textures/types/procedural/marble>`
+- :doc:`Musgrave </textures/types/procedural/musgrave>`
+- :doc:`Noise </textures/types/procedural/noise>`
+- :doc:`Stucci </textures/types/procedural/stucci>`
+- :doc:`Voronoi </textures/types/procedural/voronoi>`
+- :doc:`Wood </textures/types/procedural/wood>`
 
 
 Common options

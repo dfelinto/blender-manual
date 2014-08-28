@@ -138,7 +138,7 @@ There are two basic extrapolation modes:
    Linear extrapolation
 
 
-Additional extrapolation tools (e.g. the "Cycles" F-Modifier) are located in the :doc:`F-Curve Modifiers <animation/editors/fmodifiers>`
+Additional extrapolation tools (e.g. the "Cycles" F-Modifier) are located in the :doc:`F-Curve Modifiers </animation/editors/fmodifiers>`
 
 
 Handle Types
@@ -205,7 +205,7 @@ You can set the type of handle to use for the curve points :kbd:`V`
 Direction of time
 =================
 
-Although F-curves are very similar to :doc:`Bézier curves <modeling/curves#béziers>`, there are some important differences.
+Although F-curves are very similar to :doc:`Bézier curves </modeling/curves#béziers>`, there are some important differences.
 
 For obvious reasons,
 **a property represented by a Curve cannot have more than one value at a given time**,

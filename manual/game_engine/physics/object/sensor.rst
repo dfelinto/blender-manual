@@ -58,11 +58,11 @@ Settings
 ========
 
 :guilabel:`Invisible`
-   See :doc:`Here <game_engine/physics/object_type/static>`
+   See :doc:`Here </game_engine/physics/object_type/static>`
 
 
 Collision Bounds
 ================
 
-See :doc:`Here <game_engine/physics/object_type>`.
+See :doc:`Here </game_engine/physics/object_type>`.
 

@@ -39,7 +39,7 @@ Options
    The parent object name for the hook.
 
 :guilabel:`Falloff`
-   If not zero, the falloff is the distance where the influence of a hook goes to zero. It uses a smooth interpolation, comparable to the :doc:`proportional editing tool <3d_interaction/transform_control/proportional_edit>`.
+   If not zero, the falloff is the distance where the influence of a hook goes to zero. It uses a smooth interpolation, comparable to the :doc:`proportional editing tool </3d_interaction/transform_control/proportional_edit>`.
 
 :guilabel:`Force`
    Since multiple hooks can work on the same vertices, you can weight the influence of a hook this way. Weighting rules are:

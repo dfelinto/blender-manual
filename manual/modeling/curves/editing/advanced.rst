@@ -30,7 +30,7 @@ FIXME(TODO: Internal Link;
 .. admonition:: Use modifiers!
    :class: note
 
-   The :guilabel:`Curve Deform` relationship is now also a modifier, called :doc:`Curve <modifiers/deform/curve>`. The :guilabel:`Curve` modifier function acts the same as its counterpart, except that when the modifier is used, the "dominant axis" is set inside its properties - and the :guilabel:`Track X` / :guilabel:`Y` / :guilabel:`Z` buttons no longer have an effect on it. And you have some goodies, like the possibility, if "curving" a mesh, to only curve one of its vertex groups...
+   The :guilabel:`Curve Deform` relationship is now also a modifier, called :doc:`Curve </modifiers/deform/curve>`. The :guilabel:`Curve` modifier function acts the same as its counterpart, except that when the modifier is used, the "dominant axis" is set inside its properties - and the :guilabel:`Track X` / :guilabel:`Y` / :guilabel:`Z` buttons no longer have an effect on it. And you have some goodies, like the possibility, if "curving" a mesh, to only curve one of its vertex groups...
 
 
 Interface
@@ -163,7 +163,7 @@ Extrusion
 
 Ah! The extrusion! Probably the most interesting tool of the curves for modeling, especially with the bevel/taper/\
 :guilabel:`Tilt` / :guilabel:`Radius` options? Note that this has nothing to do with the :guilabel:`Extrude`
-(:kbd:`E`) command, described in the :doc:`previous page <modeling/curves/editing#adding_new_segments>` !
+(:kbd:`E`) command, described in the :doc:`previous page </modeling/curves/editing#adding_new_segments>` !
 
 
 We will see the different settings, depending on their scope of action:
@@ -215,7 +215,7 @@ Open 2D Curve
    the wall becomes a sort of slide or gutter.
    Note the direction of this bevel is sometimes strange and unpredictable, often the reverse of what you would get
    with the same curve closed? You can inverse this direction by
-   :doc:`switching the direction <modeling/curves/editing#switch_direction>` of the curve.
+   :doc:`switching the direction </modeling/curves/editing#switch_direction>` of the curve.
 
    This allows you, e.g., to quickly simulate a marble rolling down a complex slide,
    by combining an extruded beveled curve,
@@ -303,9 +303,9 @@ We now have a pipe.
 Add a third curve while in :guilabel:`Object` mode and call it "\ ``TaperCurve`` ".
 Adjust the left control-point by raising it up about 5 units.
 
-Now return to the :guilabel:`Editing` :doc:`context <interface/contexts>`,
+Now return to the :guilabel:`Editing` :doc:`context </interface/contexts>`,
 and edit the first curve's :guilabel:`TaperOb` field in
-:doc:`Curve and Surface <ce/panels/editing/curves/curve_and_surface>` panel to reference the new taper curve
+:doc:`Curve and Surface </ce/panels/editing/curves/curve_and_surface>` panel to reference the new taper curve
 which we called "\ ``TaperCurve`` ". When you hit enter the taper curve is applied immediately,
 with the results shown in (*Taper extruded curve*).
 

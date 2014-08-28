@@ -23,7 +23,7 @@ Lamp options
 ============
 
 :guilabel:`Distance`, :guilabel:`Energy` and :guilabel:`Color`
-   These settings are common to most types of lamps, and are described in :doc:`Light Properties <lighting/lights/light_properties>`.
+   These settings are common to most types of lamps, and are described in :doc:`Light Properties </lighting/lights/light_properties>`.
 
    Note that the :guilabel:`Distance` setting is much more sensitive and important for :guilabel:`Area` lamps than for others; usually any objects within the range of :guilabel:`Distance` will be blown out and overexposed. For best results, set the :guilabel:`Distance` to just below the distance to the object that you want to illuminate.
 
@@ -33,13 +33,13 @@ Lamp options
    The :guilabel:`Area` lamp doesn't have light falloff settings. It uses an "inverse quadratic" attenuation law. The only way to control its falloff is to use the :guilabel:`Distance` and/or :guilabel:`Gamma` settings.
 
 :guilabel:`This Layer Only`, :guilabel:`Negative`, :guilabel:`Specular` and :guilabel:`Diffuse`
-   These settings control what the lamp affects, as described in :doc:`What Light Affects <lighting/lights/what_light_affects>`.
+   These settings control what the lamp affects, as described in :doc:`What Light Affects </lighting/lights/what_light_affects>`.
 
 
 Shadows
 =======
 
-Area light ray-traced shadows are described here: :doc:`Raytraced Shadows <lighting/lamps/area/raytraced_shadows>`.
+Area light ray-traced shadows are described here: :doc:`Raytraced Shadows </lighting/lamps/area/raytraced_shadows>`.
 
 When an :guilabel:`Area` light source is selected,
 the :guilabel:`Shadow` panel has the following default layout:
