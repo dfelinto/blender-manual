@@ -343,24 +343,24 @@ Video Codecs
 None
    *For audio-only encoding.*
 `MPEG-1 <http://en.wikipedia.org/wiki/MPEG-1>`__
-   See |FIXME(TODO: Internal Link; |[[#Video Formats|Video Formats]] |), above.)
+   See `Video Formats`_.
 `MPEG-2 <http://en.wikipedia.org/wiki/MPEG-2>`__
-   See |FIXME(TODO: Internal Link; |[[#Video Formats|Video Formats]] |), above.)
+   See `Video Formats`_.
 `MPEG-4(DivX) <http://en.wikipedia.org/wiki/MPEG-4>`__
-   See |FIXME(TODO: Internal Link; |[[#Video Formats|Video Formats]] |), above.)
+   See `Video Formats`_.
 `HuffYUV <http://en.wikipedia.org/wiki/HuffYUV>`__
    Loss-less video codec created by Ben Rudiak-Gould which is
    meant to replace uncompressed YCbCr as a video capture format.
 `DV <http://en.wikipedia.org/wiki/DV>`__
-   See |FIXME(TODO: Internal Link; |[[#Video Formats|Video Formats]] |), above.)
+   See `Video Formats`_.
 `H.264 <http://en.wikipedia.org/wiki/H.264>`__
-   See |FIXME(TODO: Internal Link; |[[#Video Formats|Video Formats]] |), above.)
+   See `Video Formats`_.
 `Xvid <http://en.wikipedia.org/wiki/Xvid>`__
-   See |FIXME(TODO: Internal Link; |[[#Video Formats|Video Formats]] |), above.)
+   See `Video Formats`_.
 `Theora <http://en.wikipedia.org/wiki/Theora>`__
-   See Ogg in |FIXME(TODO: Internal Link; |[[#Video Formats|Video Formats]] |), above.)
+   See Ogg in `Video Formats`_.
 `Flash Video <http://en.wikipedia.org/wiki/Flash_Video>`__
-   See |FIXME(TODO: Internal Link; |[[#Video Formats|Video Formats]] |), above.)
+   See `Video Formats`_.
 `FFmpeg video codec #1 <http://en.wikipedia.org/wiki/FFV1>`__
    A.K.A. FFV1, a loss-less intra-frame video codec.
    It can use either variable length coding or arithmetic coding for entropy coding.
