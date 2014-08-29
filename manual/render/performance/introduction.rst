@@ -110,6 +110,7 @@ Render Settings
 - :doc:`Output Panel </render/output>`
   - Disable :guilabel:`Edge` rendering.
   - :guilabel:`Save Buffers`.
+
   - Render to an :doc:`Image Editor </ce/windows/uv-image>` window,
     not a popup. :doc:`Render Window </render/display>`.
   - Use multiple :guilabel:`Threads` on a multi-core CPU (with multiple :guilabel:`Parts`).
@@ -117,6 +118,7 @@ Render Settings
   - Render only the Layers of interest.
   - Render with all lights set to one simple spot (enter its name in the :guilabel:`Light:` field).
   - Render with one material override (enter its name in the Mat: field).
+
   - Disable unnecessary Render Passes, such as :guilabel:`Z`,
     or only render the pass of interest, such as :guilabel:`Diffuse`.
 - :doc:`Render Panel </render/options>`
@@ -127,6 +129,7 @@ Render Settings
   - Turn off SSS Subsurface Scattering.
   - Turn off or lower oversampling/aliasing :guilabel:`OSA`.
   - Turn off or lower :guilabel:`Motion Blur`.
+
   - Render in Parts. This will also allow you to render HUGE images on a weak PC.
     On a multi-core PC, it will assign a thread to each part as well.
   - Increase the octree resolution.
@@ -134,10 +137,12 @@ Render Settings
   - Turn off :guilabel:`Fields` rendering.
   - Use :guilabel:`Border` rendering to render a subset of the full image.
 - :doc:`Anim Panel </render/workflows/animations>`
+
   - Decrease the frame count of the animation (and use a lower framerate for the same duration of animation).
     For example, render 30 frames at 10 frames per second for a 3-second animation,
     instead of 75 frames at 25 frames per second.
 - :doc:`Bake Panel </render/workflows/bake>`
+
   - Bake Full Render - create a UV Texture that colors the objects based on materials,
     and then use that UV Texture shadeless instead of the material.
   - Bake Ambient Occlusion only.
@@ -149,6 +154,7 @@ Render Settings
   - Render in black and white (:guilabel:`BW` button).
   - If using FFMPEG, do not activate :guilabel:`Multiplex audio`.
   - If using FFMPEG, :guilabel:`Autosplit Output` (:guilabel:`Video` panel button).
+
   - Render only RGB if you just need color; the A channel (:guilabel:`RGBA` button)
     takes more memory and is unused when saving a movie file.
 
