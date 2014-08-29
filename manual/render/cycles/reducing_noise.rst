@@ -32,12 +32,7 @@ Light rays will be sent either according to the surface BRDF,
 or in the direction of known light sources (lamps, emitting meshes with Sample as Lamp).
 
 For more details, see the
-FIXME(TODO: Internal Link;
-[[../Light_Paths|Light Paths]]
-) and
-FIXME(TODO: Internal Link;
-[[../Integrator|Integrator]]
-) documentation.
+:doc:`Light Paths </render/cycles/light_paths>` and :doc:`Integrator </render/cycles/integrator>` documentation.
 
 
 Where Noise Comes From
@@ -112,10 +107,9 @@ Caustics and Filter Glossy
 
 Caustics are a well-known source of noise, causing fireflies.
 They happen because the renderer has difficulty finding specular highlights
-viewed through a soft glossy or diffuse reflection. There is a
-FIXME(TODO: Internal Link;
-[[../Integrator#Tricks|No Caustics]]
-) option to disable glossy behind a diffuse reflection entirely.
+viewed through a soft glossy or diffuse reflection.
+There is a :ref:`No Caustics <render-cycles-integrator-no_caustics>`
+option to disable glossy behind a diffuse reflection entirely.
 Many render engines will typically disable caustics by default.
 
 
@@ -128,10 +122,7 @@ Many render engines will typically disable caustics by default.
 
 However using No Caustics will result in missing light,
 and it still does not cover the case where a sharp glossy reflection is viewed through a soft glossy reflection.
-There exists a
-FIXME(TODO: Internal Link;
-[[../Integrator#Tricks|Filter Glossy]]
-)
+There is a :ref:`Filter Glossy <render-cycles-integrator-filter_glossy>`
 option to reduce the noise from such cases at the cost of accuracy.
 This will blur the sharp glossy reflection to make it easier to find, by increasing the shader Roughness.
 
@@ -189,6 +180,8 @@ FIXME(TODO: Internal Link;
 [[../Integrator#World_Settings|Sample as Lamp]]
 ) option. This is mostly useful for environment maps that have small bright spots in them, rather than being smooth. This option will then, in a preprocess, determine the bright spots, and send light rays directly towards them. Again, enabling this option may take samples away from more important light sources if it is not needed.
 
+
+.. _render-cycles-reducing_noise-glass_and_transp_shadows
 
 Glass and Transparent Shadows
 -----------------------------

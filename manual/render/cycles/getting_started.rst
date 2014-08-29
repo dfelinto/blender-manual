@@ -21,7 +21,5 @@ To see if and how you can use your GPU for rendering, see the documentation on
 Tutorials
 =========
 
-Here you can find some
-FIXME(TODO: Internal Link;
-[[/Tutorials|tutorials]]
-) for Cycles.
+TODO
+

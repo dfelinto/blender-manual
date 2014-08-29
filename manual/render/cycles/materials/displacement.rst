@@ -3,10 +3,7 @@
 Displacement
 ************
 
-*Implementation not finished yet, marked as
-FIXME(TODO: Internal Link;
-[[../../Experimental_Features|experimental feature]]
-).*
+*Implementation not finished yet, marked as an :doc:`experimental feature </render/cycles/experimental_features>`.*
 
 The shape of the surface and the volume inside its mesh may be altered by the displacement
 shaders. This way, textures can then be used to make the mesh surface more detailed.
@@ -46,10 +43,7 @@ Subdivision
    Bump Mapped Displacement
 
 
-*Implementation not finished yet, marked as
-FIXME(TODO: Internal Link;
-[[../../Experimental_Features|experimental feature]]
-).*
+*Implementation not finished yet, marked as :doc:`experimental features </render/cycles/experimental_features>`*
 
 When using *True Displacement* or *Displacement + Bump* and enabling *Use Subdivision*
 you can reduce the **Dicing Rate** to subdivide the mesh.

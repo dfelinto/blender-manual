@@ -1,6 +1,9 @@
 
+Video Output
+************
+
 Preparing your work for video
-*****************************
+=============================
 
 Once you have mastered the trick of animation you will surely start to produce wonderful
 animations, encoded with your favorite codecs,

@@ -58,10 +58,11 @@ Lighting Passes
 :guilabel:`Ambient Occlusion`
    Ambient occlusion from directly visible surfaces. BSDF color or AO factor is not included; i.e. it gives a 'normalized' value between 0 and 1.
 
-Note that
-FIXME(TODO: Internal Link;
-[[../Light_Paths|transparent BSDFs are given special treatment]]
-): a fully transparent surface is treated as if there is no surface there at all; a partially transparent surface is treated as if only part of the light rays can pass through. This means it is not included in the Transmission passes; for that a glass BSDF with index of refraction 1.0 can be used.
+Note that :ref:`transparent BSDFs are given special treatment </render/cycles/light_paths>`
+a fully transparent surface is treated as if there is no surface there at all;
+a partially transparent surface is treated as if only part of the light rays can pass through.
+This means it is not included in the Transmission passes;
+for that a glass BSDF with index of refraction 1.0 can be used.
 
 
 Combining

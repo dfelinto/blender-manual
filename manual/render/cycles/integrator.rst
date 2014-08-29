@@ -94,8 +94,13 @@ Transparency
 Tricks
 ^^^^^^
 
+.. _render-cycles-integrator-no_caustics:
+
 :guilabel:`No Caustics`
    While in principle path tracing supports rendering of caustics with a sufficient number of samples, in practice it may be inefficient to the point that there is just too much noise. This option makes it possible to disable them entirely.
+
+
+.. _render-cycles-integrator-filter_glossy:
 
 :guilabel:`Filter Glossy`
    When using a value higher than 0.0, this will blur glossy reflections after blurry bounces, to reduce noise at the cost of accuracy. 1.0 is a good starting value to tweak.

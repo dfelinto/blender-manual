@@ -146,10 +146,9 @@ Transparent
 
 Transparent :abbr:`BSDF (Bidirectional scattering distribution function)` without refraction,
 passing straight through the surface, as if there were no geometry there. Useful with alpha maps, for example.
-This shader
-FIXME(TODO: Internal Link;
-[[../../Light_Paths#Transparency|affects light paths somewhat differently]]
-) than other :abbr:`BSDF (Bidirectional scattering distribution function)` s. Note that only pure white transparent shaders are completely transparent.
+This shader :ref:`affects light paths somewhat differently <render-cycles-light_paths-transparency>`
+than other :abbr:`BSDF (Bidirectional scattering distribution function)` s.
+Note that only pure white transparent shaders are completely transparent.
 
 :guilabel:`Color input`
    Color of the surface, or physically speaking, the probability for each wavelength that light is blocked or passes straight through the surface.
@@ -174,10 +173,8 @@ Glass
 Glass-like shader mixing refraction and reflection at grazing angles. Like the transparent shader,
 only pure white will make it transparent. The glass shader tends to cause noise due to caustics.
 Since the Cycles path tracing integrator is not very good at rendering caustics,
-it helps to combine this with a transparent shader for shadows; for
-FIXME(TODO: Internal Link;
-[[../../Reducing_Noise#Glass_and_Transparent_Shadows|more details see here]]
-).
+it helps to combine this with a transparent shader for shadows;
+for :ref:`more details see here <render-cycles-reducing_noise-glass_and_transp_shadows>`
 
 :guilabel:`Distribution`
    Microfacet distribution to use. :guilabel:`Sharp` results in perfectly sharp refractions like clear glass, while :guilabel:`Beckmann` and :guilabel:`GGX` can use the :guilabel:`Roughness` input for rough glass.

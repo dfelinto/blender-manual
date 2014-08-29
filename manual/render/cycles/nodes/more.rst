@@ -308,10 +308,9 @@ Light Path
 ==========
 
 Node to find out for which kind of incoming ray the shader is being executed;
-particularly useful for non-physically based tricks. More information about the meaning of each type is in the
-FIXME(TODO: Internal Link;
-[[../../Light Paths|Light Paths]]
-) documentation.
+particularly useful for non-physically based tricks.
+More information about the meaning of each type is in the
+:doc:`Light Paths </render/cycles/light_paths>` documentation.
 
 :guilabel:`Is Camera Ray output`
    1.0 if shading is executed for a camera ray, 0.0 otherwise.
