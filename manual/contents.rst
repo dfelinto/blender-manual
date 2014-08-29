@@ -43,7 +43,6 @@
    world.rst
    rigging.rst
    constraints.rst
-   animation.rst
    physics.rst
    motion_tracking.rst
    composite_nodes.rst
