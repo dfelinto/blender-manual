@@ -1,9 +1,6 @@
 
-Animation
-*********
-
 Introduction
-============
+************
 
 Animation is making an object move or change shape over time.
 Objects can be animated in many ways:
@@ -134,10 +131,4 @@ Categories
    Addon scripts for animation.
 `Rigging Scipts <http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts#Rigging_Scripts>`__
    Addon scripts for rigging.
-
-
-See Also
-========
-
-- :doc:`Manual#Animation </animation>`
 

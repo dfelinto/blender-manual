@@ -6,6 +6,7 @@
 
 .. toctree::
 
+   introduction.rst
    basics/actions.rst
    basics/drivers.rst
    basics/keying_sets.rst
