@@ -11,7 +11,8 @@ through various methods.
    :width: 600px
    :figwidth: 600px
 
-   Examples of some basic edge types by LightBWK (`File:EdgeType.zip <http://wiki.blender.org/index.php/File:EdgeType.zip>`__)
+   Examples of some basic edge types by LightBWK
+   (`File:EdgeType.zip <http://wiki.blender.org/index.php/File:EdgeType.zip>`__)
 
 
 Selection by Visibility
@@ -30,7 +31,8 @@ There are three choices for selecting edges by visibility.
    :width: 600px
    :figwidth: 600px
 
-   Proof of concept of visible and hidden edges by LightBWK (`Sample .blend <http://wiki.blender.org/index.php/File:HiddenCreaseEdgeMark.zip>`__)
+   Proof of concept of visible and hidden edges by LightBWK
+   (`Sample .blend <http://wiki.blender.org/index.php/File:HiddenCreaseEdgeMark.zip>`__)
 
 
 :guilabel:`QI Range`
@@ -44,7 +46,8 @@ There are three choices for selecting edges by visibility.
    :width: 600px
    :figwidth: 600px
 
-   QI Range proof of concept demo, Start: 3, End: 7, by LightBWK (`Sample .blend <http://wiki.blender.org/index.php/File:QI-Range.zip>`__)
+   QI Range proof of concept demo, Start: 3, End: 7, by LightBWK
+   (`Sample .blend <http://wiki.blender.org/index.php/File:QI-Range.zip>`__)
 
 
 Selection by Edge Types
@@ -56,7 +59,9 @@ but several edge types can be combined in one line set.
 Edge types can also be excluded from calculation by pressing the :guilabel:`X` next to them.
 
 :guilabel:`Silhouette`
-   Draws silhouettes around your closed objects; it is often good for organic objects (like Suzanne & Sphere), and bad for sharp edges, like a box. It can't render open mesh objects like open cylinders and flat planes. The output is affected by the :guilabel:`Kr Derivative Epsilon` viewmap setting.
+   Draws silhouettes around your closed objects; it is often good for organic objects (like Suzanne & Sphere),
+   and bad for sharp edges, like a box. It can't render open mesh objects like open cylinders and flat planes.
+   The output is affected by the :guilabel:`Kr Derivative Epsilon` viewmap setting.
 
 :guilabel:`Crease`
    Shows only edges whose adjacent faces form an angle greater than the defined viewmap's :guilabel:`Crease Angle`.
@@ -66,11 +71,14 @@ Edge types can also be excluded from calculation by pressing the :guilabel:`X` n
    :width: 600px
    :figwidth: 600px
 
-   Crease Angle proof of concept for 121º by LightBWK ( `the .blend file <http://wiki.blender.org/index.php/File:CreaseAngle.zip>`__)
+   Crease Angle proof of concept for 121º by LightBWK
+   ( `the .blend file <http://wiki.blender.org/index.php/File:CreaseAngle.zip>`__)
 
 
 :guilabel:`Border`
-   Border is for open/unclosed edge meshes; an open cylinder has an open edge at the top and bottom, and a plane is open all around. Suzanne's eye socket is an open edge. All open edges will have lines rendered. This depends on the mesh structure.
+   Border is for open/unclosed edge meshes; an open cylinder has an open edge at the top and bottom,
+   and a plane is open all around. Suzanne's eye socket is an open edge. All open edges will have lines rendered.
+   This depends on the mesh structure.
 
 :guilabel:`Edge Marks`
    Renders marked edges. See
@@ -91,7 +99,10 @@ Edge types can also be excluded from calculation by pressing the :guilabel:`X` n
 
 
 :guilabel:`Suggestive Contour`
-   Draws some lines which would form the contour of the mesh if the viewport was shifted. Depends on your viewmap settings for :guilabel:`Kr Derivative Epsilon` and :guilabel:`Sphere Radius` (further information: `File:Manual-2.6-Render-Freestyle-PrincetownLinestyle.pdf <http://wiki.blender.org/index.php/File:Manual-2.6-Render-Freestyle-PrincetownLinestyle.pdf>`__).
+   Draws some lines which would form the contour of the mesh if the viewport was shifted.
+   Depends on your viewmap settings for :guilabel:`Kr Derivative Epsilon` and :guilabel:`Sphere Radius`
+   (further information: `File:Manual-2.6-Render-Freestyle-PrincetownLinestyle.pdf
+   <http://wiki.blender.org/index.php/File:Manual-2.6-Render-Freestyle-PrincetownLinestyle.pdf>`__).
 
 :guilabel:`Material Boundary`
    Draws lines where two materials meet on the same object. Must be activated in the viewmap settings.

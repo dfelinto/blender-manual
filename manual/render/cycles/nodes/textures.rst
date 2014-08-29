@@ -16,17 +16,27 @@ Image Texture
 Use an image file as a texture.
 
 :guilabel:`Image Datablock`
-   Image datablock used as the image source. Currently not all images supported by Blender can be used by Cycles. In particular, generated, packed images or animations are not supported currently.
+   Image datablock used as the image source. Currently not all images supported by Blender can be used by Cycles.
+   In particular, generated, packed images or animations are not supported currently.
 :guilabel:`Projection`
-   Projection to use for mapping the textures. :guilabel:`Flat` will use the XY coordinates for mapping. :guilabel:`Box` will map the image to the 6 sides of a virtual box, based on the normal, using XY, YZ and XYZ coordinates depending on the side.
+   Projection to use for mapping the textures. :guilabel:`Flat` will use the XY coordinates for mapping.
+   :guilabel:`Box` will map the image to the 6 sides of a virtual box, based on the normal, using XY,
+   YZ and XYZ coordinates depending on the side.
 :guilabel:`Projection Blend`
-   For Box mapping, the amount to blend between sides of the box, to get rid of sharp transitions between the different sides. Blending is useful to map a procedural-like image texture pattern seamlessly on a model. 0.0 gives no blending; higher values give a smoother transition.
+   For Box mapping, the amount to blend between sides of the box,
+   to get rid of sharp transitions between the different sides.
+   Blending is useful to map a procedural-like image texture pattern seamlessly on a model. 0.0 gives no blending;
+   higher values give a smoother transition.
 :guilabel:`Color Space`
-   Type of data that the image contains, either Color or Non-Color Data. For most color textures the default of Color should be used, but in case of e.g. a bump or alpha map, the pixel values should be interpreted as Non-Color Data, to avoid doing any unwanted color space conversions.
+   Type of data that the image contains, either Color or Non-Color Data.
+   For most color textures the default of Color should be used, but in case of e.g. a bump or alpha map,
+   the pixel values should be interpreted as Non-Color Data, to avoid doing any unwanted color space conversions.
 :guilabel:`Vector input`
-   Texture coordinate for texture lookup. If this socket is left unconnected, UV coordinates from the active UV render layer are used.
+   Texture coordinate for texture lookup. If this socket is left unconnected,
+   UV coordinates from the active UV render layer are used.
 :guilabel:`Color output`
-   RGB color from image. If the image has alpha, the color is premultiplied with alpha if the Alpha output is used, and unpremultiplied or straight if the Alpha output is not used.
+   RGB color from image. If the image has alpha, the color is premultiplied with alpha if the Alpha output is used,
+   and unpremultiplied or straight if the Alpha output is not used.
 :guilabel:`Alpha output`
    Alpha channel from image.
 
@@ -45,13 +55,19 @@ Use an environment map image file as a texture.
 The environment map is expected to be in Latitude/Longitude or 'latlong' format.
 
 :guilabel:`Image Datablock`
-   Image datablock used as the image source. Currently not all images supported by Blender can be used by Cycles. In particular, generated, packed images or animations are not supported currently.
+   Image datablock used as the image source. Currently not all images supported by Blender can be used by Cycles.
+   In particular, generated, packed images or animations are not supported currently.
 :guilabel:`Color Space`
-   Type of data that the image contains, either Color or Non-Color Data. For most color textures the default of Color should be used, but in case of e.g. a bump or alpha map, the pixel values should be interpreted as Non-Color Data, to avoid doing any unwanted color space conversions.
+   Type of data that the image contains, either Color or Non-Color Data.
+   For most color textures the default of Color should be used, but in case of e.g. a bump or alpha map,
+   the pixel values should be interpreted as Non-Color Data, to avoid doing any unwanted color space conversions.
 :guilabel:`Vector input`
-   Texture coordinate for texture lookup. If this socket is left unconnected, the image is mapped as environment with the Z axis as up.
+   Texture coordinate for texture lookup. If this socket is left unconnected,
+   the image is mapped as environment with the Z axis as up.
 :guilabel:`Color output`
-   RGB color from the image. If the image has alpha, the color is premultiplied with alpha if the Alpha output is used, and unpremultiplied if the Alpha output is not used.
+   RGB color from the image. If the image has alpha,
+   the color is premultiplied with alpha if the Alpha output is used,
+   and unpremultiplied if the Alpha output is not used.
 :guilabel:`Alpha output`
    Alpha channel from image.
 
@@ -77,7 +93,8 @@ Procedural Sky texture.
 :guilabel:`Ground Albedo`
    Amount of light reflected from the planet surface back into the atmosphere. (RGB 0,0,0 is black, 1,1,1 is white).
 :guilabel:`Vector`
-   Texture coordinate to sample texture at; defaults to Generated texture coordinates if the socket is left unconnected.
+   Texture coordinate to sample texture at;
+   defaults to Generated texture coordinates if the socket is left unconnected.
 :guilabel:`Color output`
    Texture color output.
 
@@ -95,7 +112,8 @@ Noise Texture
 Procedural Perlin noise texture, similar to the Clouds texture in Blender Internal.
 
 :guilabel:`Vector input`
-   Texture coordinate to sample texture at; defaults to Generated texture coordinates if the socket is left unconnected.
+   Texture coordinate to sample texture at;
+   defaults to Generated texture coordinates if the socket is left unconnected.
 :guilabel:`Scale input`
    Overall texture scale.
 :guilabel:`Detail input`
@@ -123,7 +141,8 @@ Procedural bands or rings texture with noise distortion.
 :guilabel:`Type`
    :guilabel:`Bands` or :guilabel:`Rings` shaped waves.
 :guilabel:`Vector input`
-   Texture coordinate to sample texture at; defaults to Generated texture coordinates if the socket is left unconnected.
+   Texture coordinate to sample texture at;
+   defaults to Generated texture coordinates if the socket is left unconnected.
 :guilabel:`Scale input`
    Overall texture scale.
 :guilabel:`Distortion input`
@@ -155,7 +174,8 @@ Procedural texture producing Voronoi cells.
 :guilabel:`Type`
    :guilabel:`Intensity` or :guilabel:`Cells` output.
 :guilabel:`Vector input`
-   Texture coordinate to sample texture at; defaults to Generated texture coordinates if the socket is left unconnected.
+   Texture coordinate to sample texture at;
+   defaults to Generated texture coordinates if the socket is left unconnected.
 :guilabel:`Scale input`
    Overall texture scale.
 :guilabel:`Color output`
@@ -182,7 +202,8 @@ Advanced procedural noise texture. Note that it often needs some adjustments
 :guilabel:`Type`
    Multifractal, Ridged Multifractal, Hybrid Multifractal, fBM, Hetero Terrain.
 :guilabel:`Vector input`
-   Texture coordinate to sample texture at; defaults to Generated texture coordinates if the socket is left unconnected.
+   Texture coordinate to sample texture at;
+   defaults to Generated texture coordinates if the socket is left unconnected.
 :guilabel:`Scale input`
    Overall texture scale.
 :guilabel:`Detail input`
@@ -214,9 +235,11 @@ Gradient Texture
 A gradient texture.
 
 :guilabel:`Type`
-   The gradient can be :guilabel:`Linear`, :guilabel:`Quadratic`, :guilabel:`Easing`, :guilabel:`Diagonal`, :guilabel:`Spherical`, :guilabel:`Quadratic Sphere` or :guilabel:`Radial`.
+   The gradient can be :guilabel:`Linear`, :guilabel:`Quadratic`, :guilabel:`Easing`, :guilabel:`Diagonal`,
+   :guilabel:`Spherical`, :guilabel:`Quadratic Sphere` or :guilabel:`Radial`.
 :guilabel:`Vector input`
-   Texture coordinate to sample texture at; defaults to Generated texture coordinates if the socket is left unconnected.
+   Texture coordinate to sample texture at;
+   defaults to Generated texture coordinates if the socket is left unconnected.
 :guilabel:`Color output`
    Texture color output.
 :guilabel:`Fac output`
@@ -238,7 +261,8 @@ Psychedelic color texture.
 :guilabel:`Depth`
    Number of iterations.
 :guilabel:`Vector input`
-   Texture coordinate to sample texture at; defaults to Generated texture coordinates if the socket is left unconnected.
+   Texture coordinate to sample texture at;
+   defaults to Generated texture coordinates if the socket is left unconnected.
 :guilabel:`Distortion input`
    Amount of distortion.
 :guilabel:`Color output`
@@ -260,7 +284,8 @@ Checker Texture
 Checkerboard texture.
 
 :guilabel:`Vector input`
-   Texture coordinate to sample texture at; defaults to Generated texture coordinates if the socket is left unconnected.
+   Texture coordinate to sample texture at;
+   defaults to Generated texture coordinates if the socket is left unconnected.
 :guilabel:`Color1/2 input`
    Color of the checkers.
 :guilabel:`Scale input`
@@ -307,7 +332,8 @@ Sockets
 :guilabel:`Mortar Size`
    The Mortar size; 0 means no Mortar.
 :guilabel:`Bias`
-   The color variation between Brick color 1 / 2. Values of -1 and 1 only use one of the two colors; values in between mix the colors.
+   The color variation between Brick color 1 / 2.
+   Values of -1 and 1 only use one of the two colors; values in between mix the colors.
 :guilabel:`Brick Width`
    The width of the bricks.
 :guilabel:`Row Height`

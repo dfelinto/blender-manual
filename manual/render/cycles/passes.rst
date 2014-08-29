@@ -35,11 +35,16 @@ Lighting Passes
 ===============
 
 :guilabel:`Diffuse Direct`
-   Direct lighting from diffuse BSDFs. We define direct lighting as coming from lamps, emitting surfaces, the background, or ambient occlusion after a single reflection or transmission off a surface. BSDF color is not included in this pass.
+   Direct lighting from diffuse BSDFs. We define direct lighting as coming from lamps, emitting surfaces,
+   the background, or ambient occlusion after a single reflection or transmission off a surface.
+   BSDF color is not included in this pass.
 :guilabel:`Diffuse Indirect`
-   Indirect lighting from diffuse BSDFs. We define indirect lighting as coming from lamps, emitting surfaces or the background after more than one reflection or transmission off a surface. BSDF color is not included in this pass.
+   Indirect lighting from diffuse BSDFs. We define indirect lighting as coming from lamps,
+   emitting surfaces or the background after more than one reflection or transmission off a surface.
+   BSDF color is not included in this pass.
 :guilabel:`Diffuse Color`
-   Color weights of diffuse BSDFs. These weights are the color input socket for BSDF nodes, modified by any Mix and Add Shader nodes.
+   Color weights of diffuse BSDFs. These weights are the color input socket for BSDF nodes,
+   modified by any Mix and Add Shader nodes.
 
 :guilabel:`Glossy Direct, Indirect, Color`
    Same as above, but for glossy BSDFs.
@@ -51,12 +56,14 @@ Lighting Passes
 :guilabel:`Emission`
    Emission from directly visible surfaces.
 :guilabel:`Environment`
-   Emission from the directly visible background. When the film is set to transparent, this can be used to get the environment color and composite it back in.
+   Emission from the directly visible background. When the film is set to transparent,
+   this can be used to get the environment color and composite it back in.
 
 :guilabel:`Shadow`
    Shadows from lamp objects.
 :guilabel:`Ambient Occlusion`
-   Ambient occlusion from directly visible surfaces. BSDF color or AO factor is not included; i.e. it gives a 'normalized' value between 0 and 1.
+   Ambient occlusion from directly visible surfaces. BSDF color or AO factor is not included; i.e.
+   it gives a 'normalized' value between 0 and 1.
 
 Note that :ref:`transparent BSDFs are given special treatment </render/cycles/light_paths>`
 a fully transparent surface is treated as if there is no surface there at all;
@@ -90,10 +97,14 @@ Data Passes
 :guilabel:`Material Index`
    Pass index of material.
 :guilabel:`Vector`
-   Motion vectors for the vector blur node. The four components consist of 2D vectors giving the motion towards the next and previous frame position in pixel space.
+   Motion vectors for the vector blur node. The four components consist of 2D vectors giving the motion towards the
+   next and previous frame position in pixel space.
 
 The Z, Object Index and Material Index passes are not antialiased.
 This is done because such values can't really be blended correctly.
 
 :guilabel:`Alpha Threshold`
-   Z, Index, normal, UV and vector passes are only affected by surfaces with alpha transparency equal to or higher than this threshold. With value 0.0 the first surface hit will always write to these passes, regardless of transparency. With higher values surfaces that are mostly transparent can be skipped until an opaque surface is encountered.
+   Z, Index, normal,
+   UV and vector passes are only affected by surfaces with alpha transparency equal to or higher than this threshold.
+   With value 0.0 the first surface hit will always write to these passes, regardless of transparency.
+   With higher values surfaces that are mostly transparent can be skipped until an opaque surface is encountered.

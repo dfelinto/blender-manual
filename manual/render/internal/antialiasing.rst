@@ -46,7 +46,8 @@ Note that each pixel has an identical pattern.
 
 
 :guilabel:`Full Sample`
-   For every anti-aliasing sample, save the entire Render Layer results. This solves anti-aliasing issues with compositing.
+   For every anti-aliasing sample, save the entire Render Layer results.
+   This solves anti-aliasing issues with compositing.
 
 
 Filtering

@@ -30,6 +30,7 @@ except in the case of the :doc:`Displacement </render/cycles/materials/displacem
 ===================================================
 
 :guilabel:`Surface`
-   The appearance of the environment, usually preceded by a :doc:`Background Shader </render/cycles/nodes/shaders#background>`
+   The appearance of the environment,
+   usually preceded by a :doc:`Background Shader </render/cycles/nodes/shaders#background>`
 :guilabel:`Volume`
    *Currently under independent development, does nothing*

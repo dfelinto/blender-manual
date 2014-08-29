@@ -62,7 +62,9 @@ Glossy
 Glossy reflection with microfacet distribution, used for materials such as metal or mirrors.
 
 :guilabel:`Distribution`
-   Microfacet distribution to use. :guilabel:`Sharp` results in perfectly sharp reflections like a mirror, while :guilabel:`Beckmann`, :guilabel:`GGX` and :guilabel:`Ashikhmin-Shirley` can use the :guilabel:`Roughness` input for blurry reflections.
+   Microfacet distribution to use. :guilabel:`Sharp` results in perfectly sharp reflections like a mirror,
+   while :guilabel:`Beckmann`,
+   :guilabel:`GGX` and :guilabel:`Ashikhmin-Shirley` can use the :guilabel:`Roughness` input for blurry reflections.
 :guilabel:`Color input`
    Color of the surface, or physically speaking, the probability that light is reflected for each wavelength.
 :guilabel:`Roughness input`
@@ -92,15 +94,21 @@ The tangents used for shading are derived from the active UV map. If no UV map i
 they are automatically generated using a sphere mapping based on the mesh bounding box.
 
 :guilabel:`Distribution`
-   Microfacet distribution to use. :guilabel:`Sharp` results in perfectly sharp reflections like a mirror, while :guilabel:`Beckmann`, :guilabel:`GGX` and :guilabel:`Ashikhmin-Shirley` can use the :guilabel:`Roughness` input for blurry reflections.
+   Microfacet distribution to use. :guilabel:`Sharp` results in perfectly sharp reflections like a mirror,
+   while :guilabel:`Beckmann`,
+   :guilabel:`GGX` and :guilabel:`Ashikhmin-Shirley` can use the :guilabel:`Roughness` input for blurry reflections.
 :guilabel:`Color input`
    Color of the surface, or physically speaking, the probability that light is reflected for each wavelength.
 :guilabel:`Roughness input`
    Sharpness of the reflection; perfectly sharp at 0.0 and smoother with higher values.
 :guilabel:`Anisotropy input`
-   Amount of anisotropy in the reflection; 0.0 gives a round highlight. Higher values give elongated highlights orthogonal to the tangent direction; negative values give highlights shaped along the tangent direction.
+   Amount of anisotropy in the reflection; 0.0 gives a round highlight.
+   Higher values give elongated highlights orthogonal to the tangent direction;
+   negative values give highlights shaped along the tangent direction.
 :guilabel:`Rotation input`
-   Rotation of the anisotropic tangent direction. Value 0.0 equals 0- rotation, 0.25 equals 90- and 1.0 equals 360- = 0- . This can be used to texture the tangent direction.
+   Rotation of the anisotropic tangent direction.
+   Value 0.0 equals 0- rotation, 0.25 equals 90- and 1.0 equals 360- = 0- .
+   This can be used to texture the tangent direction.
 
 :guilabel:`Normal input`
    Normal used for shading; if nothing is connected the default shading normal is used.
@@ -151,7 +159,8 @@ than other :abbr:`BSDF (Bidirectional scattering distribution function)` s.
 Note that only pure white transparent shaders are completely transparent.
 
 :guilabel:`Color input`
-   Color of the surface, or physically speaking, the probability for each wavelength that light is blocked or passes straight through the surface.
+   Color of the surface, or physically speaking,
+   the probability for each wavelength that light is blocked or passes straight through the surface.
 :guilabel:`BSDF output`
    Transparent :abbr:`BSDF (Bidirectional scattering distribution function)` shader.
 
@@ -177,13 +186,15 @@ it helps to combine this with a transparent shader for shadows;
 for :ref:`more details see here <render-cycles-reducing_noise-glass_and_transp_shadows>`
 
 :guilabel:`Distribution`
-   Microfacet distribution to use. :guilabel:`Sharp` results in perfectly sharp refractions like clear glass, while :guilabel:`Beckmann` and :guilabel:`GGX` can use the :guilabel:`Roughness` input for rough glass.
+   Microfacet distribution to use. :guilabel:`Sharp` results in perfectly sharp refractions like clear glass,
+   while :guilabel:`Beckmann` and :guilabel:`GGX` can use the :guilabel:`Roughness` input for rough glass.
 :guilabel:`Color input`
    Color of the surface, or physically speaking, the probability that light is transmitted for each wavelength.
 :guilabel:`Roughness input`
    Influences sharpness of the refraction; perfectly sharp at 0.0 and smoother with higher values.
 :guilabel:`IOR input`
-   Index of refraction defining how much the ray changes direction. At 1.0 rays pass straight through like transparent; higher values give more refraction.
+   Index of refraction defining how much the ray changes direction. At 1.
+   0 rays pass straight through like transparent; higher values give more refraction.
 :guilabel:`Normal input`
    Normal used for shading; if nothing is connected the default shading normal is used.
 :guilabel:`BSDF output`
@@ -211,7 +222,8 @@ but rather mixed with a glossy node using a fresnel factor.
 Otherwise it will give quite dark results at the edges for glossy refraction.
 
 :guilabel:`Distribution`
-   Microfacet distribution to use. :guilabel:`Sharp` results in perfectly sharp refractions, while :guilabel:`Beckmann` and :guilabel:`GGX` can use the :guilabel:`Roughness` input for blurry refractions.
+   Microfacet distribution to use. :guilabel:`Sharp` results in perfectly sharp refractions,
+   while :guilabel:`Beckmann` and :guilabel:`GGX` can use the :guilabel:`Roughness` input for blurry refractions.
 :guilabel:`Color input`
    Color of the surface, or physically speaking, the probability that light is refracted for each wavelength.
 :guilabel:`Roughness input`
@@ -237,7 +249,8 @@ and isn't particularly useful on it's own.
 :guilabel:`Color input`
    Color of the surface, or physically speaking, the probability that light is reflected for each wavelength.
 :guilabel:`Sigma input`
-   Variance of the normal distribution, controlling the sharpness of the peak - can be thought of as a kind of *roughness*.
+   Variance of the normal distribution,
+   controlling the sharpness of the peak - can be thought of as a kind of *roughness*.
 :guilabel:`Normal input`
    Normal used for shading; if nothing is connected the default shading normal is used.
 :guilabel:`BSDF output`
@@ -398,7 +411,8 @@ where the :guilabel:`Fac` input may, for example, be connected to a Blend Weight
 :guilabel:`Shader inputs`
    Shaders to mix, such that incoming rays hit either with the specified probability in the :guilabel:`Fac` socket.
 :guilabel:`Fac input`
-   Blend weight to use for mixing two shaders; at zero it uses the first shader entirely and at one the second shader.
+   Blend weight to use for mixing two shaders;
+   at zero it uses the first shader entirely and at one the second shader.
 :guilabel:`Shader output`
    Mixed shader.
 

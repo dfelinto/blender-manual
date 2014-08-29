@@ -82,7 +82,8 @@ To better grasp the concept, let's assume that we have a cube,
 uniformly moving 1 Blender unit to the right at each frame. This is indeed fast,
 especially since the cube itself has a side of only 2 Blender units.
 
-*Image 1* shows a render of frame 1 without Motion Blur; *Image 2* shows a render of frame 2. The scale beneath the cube helps in appreciating the movement of 1 Blender unit.
+*Image 1* shows a render of frame 1 without Motion Blur; *Image 2* shows a render of frame 2.
+The scale beneath the cube helps in appreciating the movement of 1 Blender unit.
 
 
 +-------------------------------------------------------+-------------------------------------------------------+
@@ -99,9 +100,13 @@ especially since the cube itself has a side of only 2 Blender units.
    :figwidth: 320px
 
 
-*Image 3* on the other hand shows the rendering of frame 1 when Motion Blur is set and 8 'intermediate' frames are computed. :guilabel:`Shutter` is set to 0.5; this means that the 8 'intermediate' frames are computed on a 0.5 frame period starting from frame 1. This is very evident since the whole 'blurriness' of the cube occurs half a unit before and half a unit after the main cube body.
+*Image 3* on the other hand shows the rendering of frame 1 when Motion Blur is set and 8 'intermediate' frames are
+computed. :guilabel:`Shutter` is set to 0.5; this means that the 8 'intermediate' frames are computed on a 0.
+5 frame period starting from frame 1. This is very evident since the whole 'blurriness' of the cube occurs half a
+unit before and half a unit after the main cube body.
 
-*Image 4* and *Image 5* show the effect of increasing Bf values. A value greater than 1 implies a very 'slow' camera shutter.
+*Image 4* and *Image 5* show the effect of increasing Bf values.
+A value greater than 1 implies a very 'slow' camera shutter.
 
 
 +----------------------------------------------+----------------------------------------------+

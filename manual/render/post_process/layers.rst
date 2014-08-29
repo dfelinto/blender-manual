@@ -90,7 +90,11 @@ There are three sets of scene layer buttons:
 :guilabel:`Exclude`
    Exclude render layer so it will not influence to another layers.
 :guilabel:`Mask Layers`
-   The image rendered is from the objects that are between the selected layer(s) and the Z-mask layers. In the example, the cube is on layers 2 and 3, and the grass in on layer 1. In the render layer which we have arbitrarily chosen to call "zmask", as shown in the picture above, layer 1 is selected and layer 3 is designated as the Z-mask (as indicated by the black dot). Therefore, only that part of Layer 1 which is in front of the object on layer 3 (the cube) is rendered.
+   The image rendered is from the objects that are between the selected layer(s) and the Z-mask layers.
+   In the example, the cube is on layers 2 and 3, and the grass in on layer 1.
+   In the render layer which we have arbitrarily chosen to call "zmask", as shown in the picture above,
+   layer 1 is selected and layer 3 is designated as the Z-mask (as indicated by the black dot). Therefore,
+   only that part of Layer 1 which is in front of the object on layer 3 (the cube) is rendered.
 
 You can select that layer by :kbd:`Lmb` clicking the button. To select multiple layers,
 :kbd:`shift-Lmb` click.  (The dot in the button in this case turns *dark gray.*)
@@ -99,7 +103,10 @@ You can select that layer by :kbd:`Lmb` clicking the button. To select multiple 
 .. admonition:: Layer Sets AND each other
    :class: note
 
-   Only the objects in layers that are selected BOTH in the main Scene Layer group AND the Render Layer Layer group will be rendered. So, if the Scene has only Layer 1 selected, and your Render Layer set specifies to render only Layers 2 and 3, nothing but the Sky (if selected) will be rendered.
+   Only the objects in layers that are selected BOTH in the main Scene Layer group AND the Render Layer Layer group
+   will be rendered. So, if the Scene has only Layer 1 selected,
+   and your Render Layer set specifies to render only Layers 2 and 3, nothing but the Sky (if selected)
+   will be rendered.
 
 
 Overrides
@@ -109,9 +116,12 @@ The Light and Material selector boxes allow you to override materials and lights
 applying them to all objects in the Render Layer.
 
 :guilabel:`Light`
-   Enter the name of a light group, and the scene will be lit with only those lights. Usually, you use this to speed up draft renders of a scene that has complicated lighting, by entering the name of a small group of key lights.
+   Enter the name of a light group, and the scene will be lit with only those lights. Usually,
+   you use this to speed up draft renders of a scene that has complicated lighting,
+   by entering the name of a small group of key lights.
 :guilabel:`Material`
-   Overrides all material settings to use the name of the Material entered. Use this to speed up draft renders. Use the default material to check basic lighting.
+   Overrides all material settings to use the name of the Material entered. Use this to speed up draft renders.
+   Use the default material to check basic lighting.
 
 
 Include Options
@@ -127,19 +137,25 @@ this set of buttons allow you to select which major products to render:
    :guilabel:`Negate`
       Only render what's Behind the solid z values.
 :guilabel:`AllZ`
-   Z-values are computed for everything in view, not just those things that are rendered. When disabled, objects not included in the render have no ("infinite") z value.
+   Z-values are computed for everything in view, not just those things that are rendered. When disabled,
+   objects not included in the render have no ("infinite") z value.
 :guilabel:`Solid`
    Solid faces are rendered. All normal meshes are solid faced.
 :guilabel:`Halo`
    Halo materials are rendered.
 :guilabel:`Z-transp`
-   Transparency may be Z-based or Ray-traced. If Z-based, enabling *Ztra* renders transparent areas with the z-value of what is behind the transparent area.
+   Transparency may be Z-based or Ray-traced. If Z-based,
+   enabling *Ztra* renders transparent areas with the z-value of what is behind the transparent area.
 :guilabel:`Sky`
-   Turning on Sky renders the sky, as defined in your material world settings. Otherwise, a black alpha transparent background is rendered.
+   Turning on Sky renders the sky, as defined in your material world settings. Otherwise,
+   a black alpha transparent background is rendered.
 :guilabel:`Edge`
-   If Edge is enable in the Output panel, objects in this Render Layer are given an outline edge. Turning on Edge pulls in the Edge settings from the Output tab, and adds an outline to the objects. Edges also have to be enabled on the Output tab.
+   If Edge is enable in the Output panel, objects in this Render Layer are given an outline edge.
+   Turning on Edge pulls in the Edge settings from the Output tab, and adds an outline to the objects.
+   Edges also have to be enabled on the Output tab.
 :guilabel:`Strand`
-   Strands are strings of static particles that are colored as part of the material settings; they look like strands of hair or grass.
+   Strands are strings of static particles that are colored as part of the material settings;
+   they look like strands of hair or grass.
 
 
 Passes

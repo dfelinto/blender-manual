@@ -269,11 +269,18 @@ Notes and Known Bugs
 ====================
 
 - No shared network space is required between nodes.
-- You can dispatch many different files; all results can be retrieved independently. (Save the file after the dispatch if you want to close it and retrieve later.)
-- There is very little network error management, so if you close the master first, stuff will break. Same if you enter an invalid address.
-- Issue with many dependencies with the same file name: https://projects.blender.org/tracker/index.php?func=detail&aid=25783&group_id=9&atid=498
+- You can dispatch many different files; all results can be retrieved independently.
+  (Save the file after the dispatch if you want to close it and retrieve later.)
+- There is very little network error management, so if you close the master first, stuff will break.
+  Same if you enter an invalid address.
+- Issue with many dependencies with the same file name:
+  https://projects.blender.org/tracker/index.php?func=detail&aid=25783&group_id=9&atid=498
 
-**Yes**, I *know* the current workflow is far from being ideal, especially from a professional render farm point of view. I expect Matt to whip me and suggest better stuff. Optimally, I'd like if users could just press "Anim on network", it would automatically dispatch to the network and wait for results, like a local render. All "pro" features should be optional.
+**Yes**, I *know* the current workflow is far from being ideal,
+especially from a professional render farm point of view. I expect Matt to whip me and suggest better stuff.
+Optimally, I'd like if users could just press "Anim on network",
+it would automatically dispatch to the network and wait for results, like a local render.
+All "pro" features should be optional.
 
 
 Load Balancing
@@ -291,7 +298,8 @@ On top of that, there's a set of exceptions and first priority rules:
 Exceptions
 ----------
 
-- A single job cannot use more than N% of total slaves, unless it's the only job. That prevents a slow job from starving faster ones. This is set at 75% for now, but should be customizable.
+- A single job cannot use more than N% of total slaves, unless it's the only job.
+  That prevents a slow job from starving faster ones. This is set at 75% for now, but should be customizable.
 
 
 First Priorities (criteria)
@@ -308,7 +316,8 @@ To do
 - Don't depend on render engine choice for visibility
 - "Expert" render manager
 - Better defined communication protocol
-- The option to calculate simulations (cloth, smoke, ...) on a node which would then send point cache to server for dispatch to render
+- The option to calculate simulations (cloth, smoke, ...)
+  on a node which would then send point cache to server for dispatch to render
 - Pack textures on upload
 - Dispatch single frame as tiles
 

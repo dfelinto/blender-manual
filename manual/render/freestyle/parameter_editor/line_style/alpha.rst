@@ -41,7 +41,8 @@ linear progression or a custom curve, mapped along each stroke's length. In othe
 it applies the selected progression along each stroke.
 
 :guilabel:`Mapping`
-   Either a linear progression (from **0.0** to **1.0**, which may be inverted with the :guilabel:`Invert` option), or a custom mapping curve.
+   Either a linear progression (from **0.0** to **1.0**, which may be inverted with the :guilabel:`Invert` option),
+   or a custom mapping curve.
 
 
 Distance from Camera
@@ -58,10 +59,15 @@ The :guilabel:`Distance from Camera` modifier alters the base alpha with a new o
 a linear progression or a custom curve, using the distance to the active camera as parameter.
 
 :guilabel:`Mapping`
-   Either a linear progression (from **0.0** to **1.0**, which may be inverted with the :guilabel:`Invert` option), or a custom mapping curve.
+   Either a linear progression (from **0.0** to **1.0**, which may be inverted with the :guilabel:`Invert` option),
+   or a custom mapping curve.
 
 :guilabel:`Range Min` and :guilabel:`Range Max`
-   The limits of the mapping from "distance to camera" to "alpha in mapping". If the current point of the stroke is at :guilabel:`Range Min` or less from the active camera, it will take the start alpha of the mapping, and conversely, if it is at :guilabel:`Range Max` or more from the camera, it will take the end alpha of the mapping. These values are in the current scene's units, not in pixels!
+   The limits of the mapping from "distance to camera" to "alpha in mapping".
+   If the current point of the stroke is at :guilabel:`Range Min` or less from the active camera,
+   it will take the start alpha of the mapping, and conversely,
+   if it is at :guilabel:`Range Max` or more from the camera, it will take the end alpha of the mapping.
+   These values are in the current scene's units, not in pixels!
 
 :guilabel:`Fill Range by Selection`
    Set the min/max range values from the distances between the current selected objects and the camera.
@@ -84,10 +90,15 @@ a linear progression or a custom curve, using the distance to a given object as 
    The object to measure distance from.
 
 :guilabel:`Mapping`
-   Either a linear progression (from **0.0** to **1.0**, which may be inverted with the :guilabel:`Invert` option), or a custom mapping curve.
+   Either a linear progression (from **0.0** to **1.0**, which may be inverted with the :guilabel:`Invert` option),
+   or a custom mapping curve.
 
 :guilabel:`Range Min` and :guilabel:`Range Max`
-   The limits of the mapping from "distance to object" to "alpha in mapping". If the current point of the stroke is at :guilabel:`Range Min` or less from the target, it will take the start alpha of the mapping, and conversely, if it is at :guilabel:`Range Max` or more from the target, it will take the end alpha of the mapping. These values are in the current scene's units, not in pixels!
+   The limits of the mapping from "distance to object" to "alpha in mapping".
+   If the current point of the stroke is at :guilabel:`Range Min` or less from the target,
+   it will take the start alpha of the mapping, and conversely,
+   if it is at :guilabel:`Range Max` or more from the target, it will take the end alpha of the mapping.
+   These values are in the current scene's units, not in pixels!
 
 :guilabel:`Fill Range by Selection`
    Set the min/max range values from the distances between the current selected objects and the target.
@@ -110,7 +121,9 @@ You can use various properties of the materials, among which some are multi-comp
 give RGB results). In that case, the mean value will be used.
 
 :guilabel:`Mapping`
-   Either a linear progression (from **0.0** to **1.0**, which may be inverted with the :guilabel:`Invert` option), or a custom mapping curve. Note the linear non-inverted option is equivalent to "do nothing", as original values from materials are already in the [0.0, 1.0] range...
+   Either a linear progression (from **0.0** to **1.0**, which may be inverted with the :guilabel:`Invert` option),
+   or a custom mapping curve. Note the linear non-inverted option is equivalent to "do nothing",
+   as original values from materials are already in the [0.0, 1.0] range...
 
 If used with the :guilabel:`Split by Material` option in the :guilabel:`Stroke` tab,
 the result will not be blurred between materials along the strokes.

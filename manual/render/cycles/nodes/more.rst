@@ -86,7 +86,9 @@ Commonly used texture coordinates,
 typically used as inputs for the :guilabel:`Vector` input for texture nodes.
 
 :guilabel:`Generated`
-   Automatically-generated texture coordinates from the vertex positions of the mesh without deformation, keeping them sticking to the surface under animation. Range from 0.0 to 1.0 over the bounding box of the undeformed mesh.
+   Automatically-generated texture coordinates from the vertex positions of the mesh without deformation,
+   keeping them sticking to the surface under animation. Range from 0.0 to 1.
+   0 over the bounding box of the undeformed mesh.
 :guilabel:`Normal`
    Object space normal, for texturing objects with the texture staying fixed on the object as it transformed.
 :guilabel:`UV`
@@ -96,7 +98,8 @@ typically used as inputs for the :guilabel:`Vector` input for texture nodes.
 :guilabel:`Camera`
    Position coordinate in camera space.
 :guilabel:`Window`
-   Location of shading point on the screen, ranging from 0.0 to 1.0 from the left to right side and bottom to top of the render.
+   Location of shading point on the screen, ranging from 0.0 to 1.
+   0 from the left to right side and bottom to top of the render.
 :guilabel:`Reflection`
    Vector in the direction of a sharp reflection, typically used for environment maps.
 
@@ -144,7 +147,8 @@ Tangent
 Generate a tangent direction for the Anisotropic BSDF.
 
 :guilabel:`Direction Type`
-   The tangent direction can be derived from a cylindrical projection around the X, Y or Z axis (Radial), or from a manually created UV Map for full control.
+   The tangent direction can be derived from a cylindrical projection around the X, Y or Z axis (Radial),
+   or from a manually created UV Map for full control.
 :guilabel:`Tangent Output`
    The tangent direction vector.
 
@@ -159,9 +163,13 @@ the UV coordinates for the image must match,
 and the image texture should be set to Non-Color mode to give correct results.
 
 :guilabel:`Space`
-   The input RGB color can be in one of 3 spaces: Tangent, Object and World space. Tangent space normal maps are the most common, as they support object transformation and mesh deformations. Object space normal maps keep sticking to the surface under object transformations, while World normal maps do not.
+   The input RGB color can be in one of 3 spaces: Tangent, Object and World space.
+   Tangent space normal maps are the most common, as they support object transformation and mesh deformations.
+   Object space normal maps keep sticking to the surface under object transformations,
+   while World normal maps do not.
 :guilabel:`UV Map`
-   Name of the UV map to derive normal mapping tangents from. When chained with an Image Texture node, this UV map should be the same as the UV map used to map the texture.
+   Name of the UV map to derive normal mapping tangents from. When chained with an Image Texture node,
+   this UV map should be the same as the UV map used to map the texture.
 :guilabel:`Strength`
    Strength of the normal mapping effect.
 :guilabel:`Color Input`
@@ -275,9 +283,12 @@ Output weights typically used for layering shaders with the :guilabel:`Mix Shade
 :guilabel:`Blend input`
    Blend between the first and second shader.
 :guilabel:`Fresnel output`
-   Dielectric fresnel weight, useful for example to layer diffuse and glossy shaders to create a plastic material. This is like the :guilabel:`Fresnel` node, except that the input of this node is in the often more-convenient 0.0 to 1.0 range.
+   Dielectric fresnel weight, useful for example to layer diffuse and glossy shaders to create a plastic material.
+   This is like the :guilabel:`Fresnel` node,
+   except that the input of this node is in the often more-convenient 0.0 to 1.0 range.
 :guilabel:`Facing output`
-   Weight that blends from the first to the second shader as the surface goes from facing the viewer to viewing it at a grazing angle.
+   Weight that blends from the first to the second shader as the surface goes from facing the viewer to viewing it at
+   a grazing angle.
 
 
 Fresnel
@@ -301,7 +312,8 @@ coating layer would hit the diffuse base and be reflected off that.
 :guilabel:`IOR input`
    Index of refraction of the material being entered.
 :guilabel:`Fresnel output`
-   Fresnel weight, indicating the probability with which light will reflect off the layer rather than passing through.
+   Fresnel weight,
+   indicating the probability with which light will reflect off the layer rather than passing through.
 
 
 Light Path
@@ -346,7 +358,9 @@ illumination bounce, making the resulting image extremely bright if many bounces
 :guilabel:`Strength input`
    Light strength before applying falloff modification.
 :guilabel:`Smooth input`
-   Smooth intensity of light near light sources. This can avoid harsh highlights, and reduce global illumination noise. 0.0 corresponds to no smoothing; higher values smooth more. The maximum light strength will be strength/smooth.
+   Smooth intensity of light near light sources. This can avoid harsh highlights,
+   and reduce global illumination noise. 0.0 corresponds to no smoothing; higher values smooth more.
+   The maximum light strength will be strength/smooth.
 :guilabel:`Quadratic output`
    Quadratic light falloff; this will leave strength unmodified if smooth is 0.0 and corresponds to reality.
 :guilabel:`Linear output`

@@ -27,7 +27,8 @@ sets by selecting it from the dropdown menu next to its name.
 .. admonition:: Length Unit
    :class: note
 
-   Unless otherwise specified, all lengths in line style settings are in pixels (either relative or absolute, as specified in the :doc:`core options </render/freestyle/core>`).
+   Unless otherwise specified, all lengths in line style settings are in pixels (either relative or absolute,
+   as specified in the :doc:`core options </render/freestyle/core>`).
 
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Demo.jpg

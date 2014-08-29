@@ -92,25 +92,33 @@ Such settings would be only used temporarily and not get used for final renders.
    :guilabel:`Film`
       This option is another film-like look.
    :guilabel:`Raw` and :guilabel:`Log`
-      Intended for inspecting the image but not for final export. Raw gives the image without any color space conversion, while Log gives a more "flat" view of the image without very dark or light areas.
+      Intended for inspecting the image but not for final export.
+      Raw gives the image without any color space conversion,
+      while Log gives a more "flat" view of the image without very dark or light areas.
 
 :guilabel:`Exposure`
    Multiplier for the image brightness applied before color space conversion.
 
 :guilabel:`Gamma`
-   Extra gamma correction applied after color space conversion. Note that the default sRGB or Rec709 color space conversions already include a gamma correction of approximately 2.2 (except the Raw and Log views), so this would be applied in addition to that.
+   Extra gamma correction applied after color space conversion. Note that the default sRGB or Rec709 color space
+   conversions already include a gamma correction of approximately 2.2 (except the Raw and Log views),
+   so this would be applied in addition to that.
 
 :guilabel:`RGB Curves`
    Curves to control image colors before color space conversion.
 :guilabel:`Color Unpremultiply`
-   For premultiplied alpha render output, do color space conversion on colors without alpha, to avoid fringing on light backgrounds.
+   For premultiplied alpha render output, do color space conversion on colors without alpha,
+   to avoid fringing on light backgrounds.
 
 
 Sequencer
 ---------
 
 :guilabel:`Sequencer Color Space`
-   The color space that the sequencer operates in. By default the sequencer operates in sRGB space like it did in previous versions, but it can also be set to work in Linear space like the Compositing nodes, or another color space. Different color spaces will give different results for color correction, cross fades, and other operations.
+   The color space that the sequencer operates in.
+   By default the sequencer operates in sRGB space like it did in previous versions,
+   but it can also be set to work in Linear space like the Compositing nodes, or another color space.
+   Different color spaces will give different results for color correction, cross fades, and other operations.
 
 
 .. figure:: /images/Blender2.64_color_management.jpg
@@ -142,7 +150,11 @@ while a byte buffer in memory and files on disk are stored in the color space sp
 this setting:
 
 :guilabel:`Color Space`
-   The color space of the image on disk. This depends on the file format, for example PNG or JPEG images are often stored in sRGB, while OpenEXR images are stored in a linear color space. Some images such as normal, bump or stencil maps do not strictly contain 'colors', and on such values no color space conversion should ever be applied. For such images the color space should be set to None.
+   The color space of the image on disk. This depends on the file format,
+   for example PNG or JPEG images are often stored in sRGB, while OpenEXR images are stored in a linear color space.
+   Some images such as normal, bump or stencil maps do not strictly contain 'colors',
+   and on such values no color space conversion should ever be applied.
+   For such images the color space should be set to None.
 
 
 .. figure:: /images/Blender2.64_color_mgt_image_settings.jpg
@@ -160,10 +172,12 @@ We need to specify that this is a render and that we want the transformations ap
 with these two settings:
 
 :guilabel:`View as Render`
-   Display the image datablock (not only renders) with view transform, exposure, gamma, RGB curves applied. Useful for viewing rendered frames in linear OpenEXR files the same as when rendering them directly.
+   Display the image datablock (not only renders) with view transform, exposure, gamma, RGB curves applied.
+   Useful for viewing rendered frames in linear OpenEXR files the same as when rendering them directly.
 
 :guilabel:`Save as Render`
-   Option in the image save operator to apply the view transform, exposure, gamma, RGB curves. This is useful for saving linear OpenEXR to e.g. PNG or JPEG files in display space.
+   Option in the image save operator to apply the view transform, exposure, gamma, RGB curves.
+   This is useful for saving linear OpenEXR to e.g. PNG or JPEG files in display space.
 
 
 World Settings

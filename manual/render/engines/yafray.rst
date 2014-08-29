@@ -10,7 +10,10 @@ For more detailed information, consult the `Yafray web site <http://yafaray.org/
 Description
 -----------
 
-`Yafaray <http://www.yafray.org/>`__, as the lengthened version of its name (Yet Another Free RAYtracer) suggests, is a free, XML speaking, cross-platform raytracer developed by the `Yafray team. <http://www.yafaray.org/about>`__. It works with many 3D modelling applications (with Wings and Aztec serving as examples), but the focus of this document shall fall upon its use with Blender.
+`Yafaray <http://www.yafray.org/>`__, as the lengthened version of its name (Yet Another Free RAYtracer) suggests,
+is a free, XML speaking, cross-platform raytracer developed by the `Yafray team. <http://www.yafaray.org/about>`__.
+It works with many 3D modelling applications (with Wings and Aztec serving as examples),
+but the focus of this document shall fall upon its use with Blender.
 
 Yafaray is currently available (under the `LGPL license <http://www.gnu.org/licenses/lgpl.txt>`__)
 for Windows, Linux (via source code compilation, or .deb or .rpm installation), Mac OSX,
@@ -56,18 +59,31 @@ which serve to supply a number of Yafray's options to you
 
 
 XML
-   This button, if pressed, will export your scene to a .xml file in your system's 'tmp' directory before Yafray renders it. Useful if you wish to make modifications to the XML file, or render the scene from a command line interface. Should you wish, however, to view Yafray's progress during a render in Blender's render window, it's better to unclick this button.
+   This button, if pressed, will export your scene to a .
+   xml file in your system's 'tmp' directory before Yafray renders it.
+   Useful if you wish to make modifications to the XML file, or render the scene from a command line interface.
+   Should you wish, however, to view Yafray's progress during a render in Blender's render window,
+   it's better to unclick this button.
 AutoAA
-   This option allows you to toggle between manual and automatic control of anti-aliasing options in the scene. Anti-aliasing is similar to Blender internals OSA, which in effect dictates the accuracy of the edges in the render.
+   This option allows you to toggle between manual and automatic control of anti-aliasing options in the scene.
+   Anti-aliasing is similar to Blender internals OSA,
+   which in effect dictates the accuracy of the edges in the render.
 
-   In cases where you may need to manually control the anti-aliasing options (which becomes necessary if you wish to make use of Yafray's depth-of-field option), it's useful to remember that increasing the amount of samples per pass will increase the accuracy of the edges in the final render; decreasing the amount of samples per pass will, as you'd expect, decrease the accuracy, causing edges in the scene to seem rough and jagged.
+   In cases where you may need to manually control the anti-aliasing options
+   (which becomes necessary if you wish to make use of Yafray's depth-of-field option), it's useful to remember that
+   increasing the amount of samples per pass will increase the accuracy of the edges in the final render;
+   decreasing the amount of samples per pass will, as you'd expect, decrease the accuracy,
+   causing edges in the scene to seem rough and jagged.
 Proc.
-   This option allows you to select the number of processors Yafray is allowed to make use of. For those of us who aren't lucky enough to have multiple processors, it's best to leave this option as its default.
+   This option allows you to select the number of processors Yafray is allowed to make use of.
+   For those of us who aren't lucky enough to have multiple processors,
+   it's best to leave this option as its default.
 Gam.
    This option allows for manual correction of gamma values in the scene. The default (1) turns this option off.
 
 Exp.
-   This option allows for manual adjustment of exposure levels in the scene. A more in-depth explanation of this option will come later.
+   This option allows for manual adjustment of exposure levels in the scene.
+   A more in-depth explanation of this option will come later.
 
 
 Global Illumination
@@ -88,18 +104,27 @@ Skydome
    This method is more suited to outdoor scenes.
 
 Cache
-   Clicking the **cache** button speeds up rendering by allowing Yafray to be more selective in its distribution of samples. When this button's depressed, Yafray renders a pre-pass to determine the most suitable allocation of samples, before rendering the image itself, increasing the efficiency of the render.
+   Clicking the **cache** button speeds up rendering by allowing Yafray to be more selective in its distribution of
+   samples. When this button's depressed,
+   Yafray renders a pre-pass to determine the most suitable allocation of samples, before rendering the image itself,
+   increasing the efficiency of the render.
 
 The cache button then reveals three more options.
 
 ShadQu
-   This option allows for greater control over the quality of shadows. By increasing this option from its default (0.900), you also increase the number of samples taken in shadowed areas, which in turn not only increases the quality of shadows in the scene, but also increases render times.
+   This option allows for greater control over the quality of shadows. By increasing this option from its default
+   (0.900), you also increase the number of samples taken in shadowed areas,
+   which in turn not only increases the quality of shadows in the scene, but also increases render times.
 
 Prec
-   This option sets the maximum number of pixels per square without samples. By decreasing this option from its default (10), you increase the number of samples taken in the scene. Decreasing this option also increases render times.
+   This option sets the maximum number of pixels per square without samples.
+   By decreasing this option from its default (10), you increase the number of samples taken in the scene.
+   Decreasing this option also increases render times.
 
 Ref
-   This option allows the user to specify the threshold to refine shadows. By decreasing this option from its default (1.000), you invite Yafray to increase the number of passes taken to distribute samples in shadowed areas, thereby increasing the quality of the shadows in the scene, and increasing render times.
+   This option allows the user to specify the threshold to refine shadows. By decreasing this option from its default
+   (1.000), you invite Yafray to increase the number of passes taken to distribute samples in shadowed areas,
+   thereby increasing the quality of the shadows in the scene, and increasing render times.
 
 
 Examples

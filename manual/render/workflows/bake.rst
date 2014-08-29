@@ -110,7 +110,9 @@ Bakes tangent and camera-space normals (amongst many others) to an RGB image.
    :guilabel:`Object space`
       Normals in object coordinates, independent of object transformation, but dependent on deformation.
    :guilabel:`Tangent space`
-      Normals in tangent space coordinates, independent of object transformation and deformation. This is the new default, and the right choice in most cases, since then the normal map can be used for animated objects too.
+      Normals in tangent space coordinates, independent of object transformation and deformation.
+      This is the new default, and the right choice in most cases,
+      since then the normal map can be used for animated objects too.
 
 For materials the same spaces can be chosen as well, in the image texture options,
 next to the existing :guilabel:`Normal Map` setting. For correct results,
@@ -203,8 +205,11 @@ Additional Options
    Enable information from other objects to be baked onto the active object.
 
    :guilabel:`Distance`
-      Controls how far a point on another object can be away from the point on the active object. Only needed for :guilabel:`Selected to Active`.
-      A typical use case is to make a detailed, high poly object, and then bake it's normals onto an object with a low polygon count. The resulting normal map can then be applied to make the low poly object look more detailed.
+      Controls how far a point on another object can be away from the point on the active object.
+      Only needed for :guilabel:`Selected to Active`.
+      A typical use case is to make a detailed, high poly object,
+      and then bake it's normals onto an object with a low polygon count.
+      The resulting normal map can then be applied to make the low poly object look more detailed.
    :guilabel:`Bias`
       Bias towards further away from the object (in blender units)
 
@@ -212,7 +217,9 @@ Additional Options
 .. admonition:: Mesh Must be Visible in Render
    :class: note
 
-   If a mesh is not visible in regular render, for example because it is disabled for rendering in the Outliner or has the DupliVerts setting enabled, it cannot be baked to.
+   If a mesh is not visible in regular render,
+   for example because it is disabled for rendering in the Outliner or has the DupliVerts setting enabled,
+   it cannot be baked to.
 
 
 Workflow

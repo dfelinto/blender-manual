@@ -26,7 +26,7 @@ Video Tutorials
 FIXME(Tag Unsupported:youtube;
 <youtube>ON9Sod3GUEg</youtube>
 )
-`An introduction to Freestyle plugin for Blender : "sketching" Suzanne / HD <http://www.youtube.com/watch?v=ON9Sod3GUEg>`__
+`An introduction to Freestyle plugin for Blender: "sketching" Suzanne / HD <http://www.youtube.com/watch?v=ON9Sod3GUEg>`__
 
 
 FIXME(Tag Unsupported:youtube;

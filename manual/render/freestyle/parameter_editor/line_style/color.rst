@@ -57,7 +57,11 @@ The :guilabel:`Distance from Camera` color modifier alters the base color with a
 a given color ramp, using the distance to the active camera as the parameter.
 
 :guilabel:`Range Min` and :guilabel:`Range Max`
-   The limits of the mapping from "distance to camera" to "color in ramp". If the current point of the stroke is at :guilabel:`Range Min` or less from the active camera, it will take the start color of the ramp, and conversely, if it is at :guilabel:`Range Max` or more from the camera, it will take the end color of the ramp. These values are in the current scene's units, not in pixels!
+   The limits of the mapping from "distance to camera" to "color in ramp".
+   If the current point of the stroke is at :guilabel:`Range Min` or less from the active camera,
+   it will take the start color of the ramp, and conversely,
+   if it is at :guilabel:`Range Max` or more from the camera, it will take the end color of the ramp.
+   These values are in the current scene's units, not in pixels!
 
 :guilabel:`Fill Range by Selection`
    Set the min/max range values from the distances between the current selected objects and the camera.
@@ -82,7 +86,11 @@ a given color ramp, using the distance to a given object as the parameter.
    The object to measure distance from.
 
 :guilabel:`Range Min` and :guilabel:`Range Max`
-   The limits of the mapping from "distance to object" to "color in ramp". If the current point of the stroke is at :guilabel:`Range Min` or less from the target, it will take the start color of the ramp, and conversely, if it is at :guilabel:`Range Max` or more from the target, it will take the end color of the ramp. These values are in the current scene's units, not in pixels!
+   The limits of the mapping from "distance to object" to "color in ramp".
+   If the current point of the stroke is at :guilabel:`Range Min` or less from the target,
+   it will take the start color of the ramp, and conversely,
+   if it is at :guilabel:`Range Max` or more from the target, it will take the end color of the ramp.
+   These values are in the current scene's units, not in pixels!
 
 :guilabel:`Fill Range by Selection`
    Set the min/max range values from the distances between the current selected objects and the target.
@@ -115,6 +123,7 @@ the result will not be blurred between materials along the strokes.
    :width: 400px
    :figwidth: 400px
 
-   Material modifiers demo by T.K. `File:Lilies_Color_Material.zip <http://wiki.blender.org/index.php/File:Lilies_Color_Material.zip>`__
+   Material modifiers demo by T.K.
+   `File:Lilies_Color_Material.zip <http://wiki.blender.org/index.php/File:Lilies_Color_Material.zip>`__
 
 

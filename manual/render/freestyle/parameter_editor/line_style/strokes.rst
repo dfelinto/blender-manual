@@ -25,7 +25,9 @@ There are two basic chaining methods:
    The default chaining method; it creates simple chains.
 
 :guilabel:`Sketchy`
-   This chaining option allows for generating chains of feature edges with sketchy multiple strokes. Basically, it generates :guilabel:`Round` strokes instead of a single one. It is only really useful if you use some random-driven modifiers in the line style!
+   This chaining option allows for generating chains of feature edges with sketchy multiple strokes.
+   Basically, it generates :guilabel:`Round` strokes instead of a single one.
+   It is only really useful if you use some random-driven modifiers in the line style!
 
 :guilabel:`Rounds`
    It specifies the number of rounds in sketchy strokes.
@@ -104,7 +106,8 @@ You can choose between three types of line caps:
    A half circle centered on the end point of the line.
 
 :guilabel:`Square`
-   A square centered on the end point of the line (hence, like the circle, the drawn end of the line is slightly extended compared to its computed value).
+   A square centered on the end point of the line (hence, like the circle,
+   the drawn end of the line is slightly extended compared to its computed value).
 
 
 Dashed Line

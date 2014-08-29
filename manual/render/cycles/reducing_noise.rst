@@ -178,7 +178,10 @@ and the image renders with slightly less noise by disabling Sample as Lamp on th
 The world background also has a
 FIXME(TODO: Internal Link;
 [[../Integrator#World_Settings|Sample as Lamp]]
-) option. This is mostly useful for environment maps that have small bright spots in them, rather than being smooth. This option will then, in a preprocess, determine the bright spots, and send light rays directly towards them. Again, enabling this option may take samples away from more important light sources if it is not needed.
+) option.
+This is mostly useful for environment maps that have small bright spots in them, rather than being smooth.
+This option will then, in a preprocess, determine the bright spots, and send light rays directly towards them. Again,
+enabling this option may take samples away from more important light sources if it is not needed.
 
 
 .. _render-cycles-reducing_noise-glass_and_transp_shadows

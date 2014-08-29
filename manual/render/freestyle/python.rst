@@ -27,7 +27,8 @@ the list of loaded style modules.
    :width: 600px
    :figwidth: 600px
 
-   A screen capture of a style module (cartoon.py) loaded in the Text Editor window (left), as well as Freestyle options in the Python Scripting mode in the Render Layers buttons (right)
+   A screen capture of a style module (cartoon.py) loaded in the Text Editor window (left),
+   as well as Freestyle options in the Python Scripting mode in the Render Layers buttons (right)
 
 
 Freestyle for Blender comes with a number of Python style modules that can serve as a starting

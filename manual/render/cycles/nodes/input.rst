@@ -132,7 +132,8 @@ It is dependent on the angle between the surface normal and the viewing directio
 :guilabel:`IOR input`
    Index of refraction of the material being entered.
 :guilabel:`Fresnel output`
-   Fresnel weight, indicating the probability with which light will reflect off the layer rather than passing through.
+   Fresnel weight, indicating the probability with which light
+   will reflect off the layer rather than passing through.
 
 
 Layer Weight
@@ -143,9 +144,13 @@ Output weights typically used for layering shaders with the :guilabel:`Mix Shade
 :guilabel:`Blend input`
    Blend between the first and second shader.
 :guilabel:`Fresnel output`
-   Dielectric fresnel weight, useful for example for layering diffuse and glossy shaders to create a plastic material. This is like the :guilabel:`Fresnel` node, except that the input of this node is in the often more-convenient 0.0 to 1.0 range.
+   Dielectric fresnel weight,
+   useful for example for layering diffuse and glossy shaders to create a plastic material.
+   This is like the :guilabel:`Fresnel` node,
+   except that the input of this node is in the often more-convenient 0.0 to 1.0 range.
 :guilabel:`Facing output`
-   Weight that blends from the first to the second shader as the surface goes from facing the viewer to viewing it at a grazing angle.
+   Weight that blends from the first to the second shader
+   as the surface goes from facing the viewer to viewing it at a grazing angle.
 
 
 Texture Coordinates
@@ -155,7 +160,9 @@ Commonly used texture coordinates,
 typically used as inputs for the :guilabel:`Vector` input for texture nodes.
 
 :guilabel:`Generated`
-   Automatically generated texture coordinates from the vertex positions of the mesh without deformation, keeping them sticking to the surface under animation. Range from 0.0 to 1.0 over the bounding box of the undeformed mesh.
+   Automatically generated texture coordinates from the vertex positions of the mesh without deformation,
+   keeping them sticking to the surface under animation. Range from 0.0 to 1.
+   0 over the bounding box of the undeformed mesh.
 :guilabel:`Normal`
    Object space normal, for texturing objects with the texture staying fixed on the object as it transforms.
 :guilabel:`UV`
@@ -165,7 +172,8 @@ typically used as inputs for the :guilabel:`Vector` input for texture nodes.
 :guilabel:`Camera`
    Position coordinate in camera space.
 :guilabel:`Window`
-   Location of shading point on the screen, ranging from 0.0 to 1.0 from the left to right side and bottom to top of the render.
+   Location of shading point on the screen, ranging from 0.0 to 1.
+   0 from the left to right side and bottom to top of the render.
 :guilabel:`Reflection`
    Vector in the direction of a sharp reflection; typically used for environment maps.
 
@@ -213,6 +221,7 @@ Tangent
 Generates a tangent direction for the Anisotropic BSDF.
 
 :guilabel:`Direction Type`
-   The tangent direction can be derived from a cylindrical projection around the X, Y or Z axis (Radial), or from a manually created UV Map for full control.
+   The tangent direction can be derived from a cylindrical projection around the X, Y or Z axis (Radial),
+   or from a manually created UV Map for full control.
 :guilabel:`Tangent Output`
    The tangent direction vector.

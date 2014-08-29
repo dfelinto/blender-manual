@@ -22,13 +22,18 @@ and the type of work you are currently doing, you can switch between several dra
 
 
 :guilabel:`Textured`
-   Displays UV image textured models with OpenGL lighting. Neither procedural textures or non UV-mapped textures  will be shown.
+   Displays UV image textured models with OpenGL lighting.
+   Neither procedural textures or non UV-mapped textures  will be shown.
 
 :guilabel:`Shaded`
-   Approximates all textures and lighting at each vertex, and blends from one to the next. Much less accurate than using the render engine to check textures, but much faster. Note that if you have no lighting in your scene, everything will remain black.
+   Approximates all textures and lighting at each vertex, and blends from one to the next.
+   Much less accurate than using the render engine to check textures, but much faster.
+   Note that if you have no lighting in your scene, everything will remain black.
 
 :guilabel:`Solid`
-   This is the default drawing mode where surfaces are drawn as solid colors, with built-in OpenGL lighting. This draw mode is not dependent on scene light sources and can be configured in the :guilabel:`Solid OpenGL lights` group of controls from the :guilabel:`System & OpenGL` tab of the :guilabel:`User Preferences` window.
+   This is the default drawing mode where surfaces are drawn as solid colors, with built-in OpenGL lighting.
+   This draw mode is not dependent on scene light sources and can be configured in the :guilabel:`Solid OpenGL lights`
+   group of controls from the :guilabel:`System & OpenGL` tab of the :guilabel:`User Preferences` window.
 
    :doc:`Read more about System Configuration » </preferences/system>`
 
@@ -36,7 +41,8 @@ and the type of work you are currently doing, you can switch between several dra
    Objects only consist of lines that make their shapes recognizable (e.g. the edges of meshes or surfaces).
 
 :guilabel:`Bounding Box`
-   Objects aren't drawn at all. Instead, this mode shows only the rectangular boxes that correspond to each object's size and shape.
+   Objects aren't drawn at all. Instead,
+   this mode shows only the rectangular boxes that correspond to each object's size and shape.
 
 You can switch between these draw modes by:
 
@@ -85,8 +91,10 @@ View
    Control the focal length of the 3d view camera in millimeters, unlike a :doc:`rendering camera </render/camera>`
 
 :guilabel:`Lock to Object`
-   By entering the name of an object in the :guilabel:`Object` field, you lock your view to this object, i.e. it will always be at the center of the view (the only exception is the active camera view, :kbd:`pad0`).
-   If the locked object is an armature, you can further center the view on one of its bones by entering its name in the :guilabel:`Bone` field.
+   By entering the name of an object in the :guilabel:`Object` field, you lock your view to this object, i.e.
+   it will always be at the center of the view (the only exception is the active camera view, :kbd:`pad0`).
+   If the locked object is an armature,
+   you can further center the view on one of its bones by entering its name in the :guilabel:`Bone` field.
 
 :guilabel:`Lock to Cursor`
    Lock the center of the view to the position of the 3D cursor
