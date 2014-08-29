@@ -5,14 +5,9 @@
 #################
 
 .. toctree::
-
-   navigating.rst
-   navigating/3d_view.rst
-   navigating/3d_view_options.rst
-   navigating/3d_view_usage.rst
-   navigating/camera_view.rst
-   navigating/layers.rst
-   navigating/global_or_local_view.rst
+   
+   introduction.rst
+   navigating/index.rst
    transformations.rst
    transformations/basics.rst
    transformations/basics/grab.rst

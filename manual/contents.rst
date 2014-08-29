@@ -35,7 +35,6 @@
    introduction.rst
    interface.rst
    preferences.rst
-   3d_interaction.rst
    modeling.rst
    modifiers.rst
    lighting.rst
