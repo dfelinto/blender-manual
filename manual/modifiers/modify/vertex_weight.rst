@@ -226,8 +226,7 @@ Options
 :guilabel:`Target Object`
    The object from which to compute distances.
 
-Proximity mode
-
+:guilabel:`Proximity mode`
    - :guilabel:`Object Distance` will use the distance between the modified mesh object and the target object as weight for all vertices in the affected vertex group.
    - :guilabel:`Geometry Distance` will use the distance between each vertex and the target object, or its geometry.
 

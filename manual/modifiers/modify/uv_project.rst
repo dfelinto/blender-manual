@@ -35,8 +35,7 @@ Options
 :guilabel:`Image`
    The image associated with this modifier. Not required; you can just project a UV for use elsewhere. *Override Image*, below, defines how the image is used.
 
-Override Image
-
+:guilabel:`Override Image`
    - When true, the Face Texture of all vertices on the mesh is replaced with the Image. This will cause the image to repeat, which is usually undesirable.
    - When false, the modifier is limited to faces with the Image as their Face Texture.
 

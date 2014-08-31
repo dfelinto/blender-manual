@@ -242,14 +242,13 @@ Options Menu
 :guilabel:`Threaded Sculpt`
    Takes advantage of multiple CPU processors to improve sculpting performance.
 :guilabel:`Fast Navigation`
-   For ;\ :guilabel:`Multires` models, show low resolution while navigation the viewport.
+   For :guilabel:`Multires` models, show low resolution while navigation the viewport.
 :guilabel:`Show Brush`
       Shows the brush shape in the viewport.
 Unified Settings:
-
-   ;\ :guilabel:`Size`
+   :guilabel:`Size`
       Forces the brush size to be shared across brushes.
-   ;\ :guilabel:`Strength`
+   :guilabel:`Strength`
       Forces the brush strength to be shared across brushes.
 :guilabel:`Lock`
    These three buttons allow you to block any modification/deformation of your model along selected local axes, while you are sculpting it.
