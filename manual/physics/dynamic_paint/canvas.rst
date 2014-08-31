@@ -62,10 +62,10 @@ Common options
 For each surface type there are special settings to adjust.
 Most types have the settings *Dissolve* and *Brush* :
 
-*Dissolve*
+Dissolve
    used to make the surface smoothly return to its original state during a defined time period
 
-*Brush Group*
+Brush Group
    used to define a specific object group to pick brush objects from
 
 
@@ -120,19 +120,19 @@ wave surface also uses brush intersection depth to define brush strength.
 
 You can use following settings to adjust the motion:
 
-*Open Borders*
+Open Borders
    Allows waves to pass through mesh "edges" instead of reflecting from them.
 
-*Timescale*
+Timescale
    Directly adjusts simulation speed without affecting simulation outcome. Lower values make simulation go slower and otherwise.
 
-*Speed*
+Speed
    Affects how fast waves travel on the surface. This setting is also corresponds to the size of the simulation. Half the speed equals surface double as large.
 
-*Damping*
+Damping
    Reduces the wave strength over time. Basically adjusts how fast wave disappears.
 
-*Spring*
+Spring
    Adjusts the force that pulls water back to "zero level".
 
 

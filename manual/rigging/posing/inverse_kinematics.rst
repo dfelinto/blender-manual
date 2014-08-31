@@ -74,16 +74,16 @@ This panel is used to control how the *Pose Bones* work in the IK chain.
    Properties > Bone > Inverse Kinematics Panel.
 
 
-*Lock*
+Lock
    Disallow movement around the axis.
 
-*Stiffness*
+Stiffness
    Stiffness around the axis. Influence disabled if using *Lock*.
 
-*Limit*
+Limit
    Limit movement around the axis, specifide by the sliders.
 
-*Stretch*
+Stretch
    Stretch influence to IK target. 0.000 is the same as disabled.
 
 

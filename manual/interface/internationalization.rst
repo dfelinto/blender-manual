@@ -18,11 +18,11 @@ This displays three new settings:
    Enabling international fonts in the User Preferences window.
 
 
-*Language*
+Language
    drop-down menu where you can select your preferred language.
-*Interface*
+Interface
    to translate the User Interface itself (e.g. controls and menus).
-*Tooltips*
+Tooltips
    to translate tooltips.
 
 
@@ -39,6 +39,9 @@ The progress of each translation is indicated in the drop-down menu.
 .. admonition:: Tip
    :class: nicetip
 
-   Since the majority of tutorials are done with an English User Interface, it may be useful to keep the User Interface in English and only translate the tooltips, but it's important to note that the Blender User Interface translation, user manuals translation and development, together with community work, could develop a strong Blender user base, promoting Blender and localized Blender jobs!
-
+   Since the majority of tutorials are done with an English User Interface,
+   it may be useful to keep the User Interface in English and only translate the tooltips,
+   but it's important to note that the Blender User Interface translation,
+   user manuals translation and development, together with community work,
+   could develop a strong Blender user base, promoting Blender and localized Blender jobs!
 

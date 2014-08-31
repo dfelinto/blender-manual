@@ -131,7 +131,7 @@ Header Controls
 
 
 
-*Mode*
+Mode
    F-Curve for :doc:`Actions </animation/basics/actions>`, and Drivers for :doc:`Drivers </animation/basics/drivers>`.
 
 

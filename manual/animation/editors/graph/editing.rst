@@ -22,11 +22,11 @@ Transformations
    Active Keyframe Panel.
 
 
-*Grab/Move* selected keyframes :kbd:`G`
+Grab/Move selected keyframes :kbd:`G`
 
-*Rotate* selected keyframes :kbd:`R`
+Rotate selected keyframes :kbd:`R`
 
-*Scale* selected keyframes :kbd:`S`
+Scale selected keyframes :kbd:`S`
 
 Additionally, for translation and scaling, you can lock the transformation along the X
 (time frame) or Y (value),
@@ -39,50 +39,50 @@ you can set values in the *Active Keyframe* of the Properties Region.
 Selection
 ^^^^^^^^^
 
-*Select Keyframe* :kbd:`RMB`
+Select Keyframe :kbd:`RMB`
 
-*Toggle Select* multiple keyframes :kbd:`Shift-RMB`
+Toggle Select multiple keyframes :kbd:`Shift-RMB`
 
-*Toggle Select All* :kbd:`A`
+Toggle Select All :kbd:`A`
 
-*Select Linked* :kbd:`L`
+Select Linked :kbd:`L`
 
-*Border Select* :kbd:`B` :kbd:`Drag-LMB`
+Border Select :kbd:`B` :kbd:`Drag-LMB`
 
-*Border Deselect* :kbd:`B` :kbd:`Shift-Drag-LMB`
+Border Deselect :kbd:`B` :kbd:`Shift-Drag-LMB`
 
 
 Editing
 ^^^^^^^
 
-*Duplicate selected keyframes* :kbd:`Shift-D`
+Duplicate selected keyframes :kbd:`Shift-D`
 
-*Add keyframe to active curve* :kbd:`Ctrl-LMB`
+Add keyframe to active curve :kbd:`Ctrl-LMB`
 
-*Insert keyframes to the Time Cursor* :kbd:`I`
+Insert keyframes to the Time Cursor :kbd:`I`
 
-*Copy Keyframes* :kbd:`Ctrl-C`
+Copy Keyframes :kbd:`Ctrl-C`
    Copy the selected keyframes to memory.
 
-*Paste Keyframes* :kbd:`Ctrl-V`
+Paste Keyframes :kbd:`Ctrl-V`
    Paste keyframes from memory to the current frame for selected curves.
 
 
 Curves and Keyframes
 ^^^^^^^^^^^^^^^^^^^^
 
-*Set Keyframe Extrapolation* :kbd:`Shift-E`
+Set Keyframe Extrapolation :kbd:`Shift-E`
    *Constant Extrapolation*
    *Linear Extrapolation*
    *Make Cyclic (F-Modifier)*
    *Clear Cyclic (F-Modifier)*
 
-*Set Keyframe Interpolation* :kbd:`T`
+Set Keyframe Interpolation :kbd:`T`
    *Constant*
    *Linear*
    *Bezier*
 
-*Set Keyframe Handle Type* :kbd:`V`
+Set Keyframe Handle Type :kbd:`V`
    *Free*
    *Vector*
    *Aligned*
@@ -95,19 +95,19 @@ See :doc:`F-Curves </animation/editors/graph/fcurves>` for more info.
 View Tools
 ^^^^^^^^^^
 
-*View All* :kbd:`Home`
+View All :kbd:`Home`
 
-*View Selected* :kbd:`Numpad-.`
+View Selected :kbd:`Numpad-.`
 
-*Set Preview Range* :kbd:`Ctrl-P`
+Set Preview Range :kbd:`Ctrl-P`
 
-*Auto-Set Preview Range* :kbd:`Ctrl-Alt-P`
+Auto-Set Preview Range :kbd:`Ctrl-Alt-P`
 
-*Clear Preview Range* :kbd:`Alt-P`
+Clear Preview Range :kbd:`Alt-P`
 
-*Toggle Show Handles* :kbd:`Ctrl-H`
+Toggle Show Handles :kbd:`Ctrl-H`
 
-*Toggle Show Seconds* :kbd:`Ctrl-T`
+Toggle Show Seconds :kbd:`Ctrl-T`
 
 
 More Tools
@@ -128,7 +128,7 @@ Divide Transformation by 10.0 :kbd:`Shift`
 
 Keyframes can be snapped to different properties by using the *Snap Keys* tool.
 
-*Snap Keys* :kbd:`Shift-S`
+Snap Keys :kbd:`Shift-S`
    :guilabel:`Current Frame`
       Snap the selected keyframes to the *Time Cursor*.
    :guilabel:`Cursor Value`
@@ -158,7 +158,7 @@ Mirror
 Selected keyframes can be mirrored over different properties using the the *Mirror Keys*
 tool.
 
-*Mirror Keys* :kbd:`Shift-M`
+Mirror Keys :kbd:`Shift-M`
    :guilabel:`By Times Over Current Frame`
       Mirror horizontally over the *Time Cursor*.
    :guilabel:`By Values over Cursor Value`
@@ -396,19 +396,19 @@ Channel Menu
    *Down* :kbd:`PageDown`
    *To Bottom* :kbd:`Shift-PageDown`
 
-*Revive Disabled F-Curves*
+Revive Disabled F-Curves
 
 
 Key Menu
 ^^^^^^^^
 
-*Transform*
+Transform
    *Grab/Move* :kbd:`G`
    *Extend* :kbd:`E`
    *Rotate* :kbd:`R`
    *Scale* :kbd:`S`
 
-*Snap* :kbd:`Shift-S`
+Snap :kbd:`Shift-S`
    *Current Frame*
    *Cursor Value*
    *Nearest Frame*
@@ -416,49 +416,48 @@ Key Menu
    *Nearest Marker*
    *Flatten Handles*
 
-*Mirror* :kbd:`Shift-M`
+Mirror :kbd:`Shift-M`
    *By Times over Current Frame*
    *By Values over Current Value*
    *By Times over Time=0*
    *By Values over Value=0*
    *By Times over First Selected Marker*
 
-*Insert Keyframes* :kbd:`I`
+Insert Keyframes :kbd:`I`
 
-*Add F-Curve Modifier*
+Add F-Curve Modifier
 
-*Bake Sound to F-Curves*
+Bake Sound to F-Curves
 
-*Jump to Keyframes* :kbd:`Ctrl-G`
+Jump to Keyframes :kbd:`Ctrl-G`
 
-*Duplicate* :kbd:`Shift-D`
+Duplicate :kbd:`Shift-D`
 
-*Delete Keyframes* :kbd:`X` or :kbd:`Delete`
+Delete Keyframes :kbd:`X` or :kbd:`Delete`
 
-*Handle Type* :kbd:`V`
+Handle Type :kbd:`V`
    *Free*
    *Vector*
    *Aligned*
    *Automatic*
    *Auto Clamped*
 
-*Interpolation Mode* :kbd:`T`
+Interpolation Mode :kbd:`T`
    *Constant*
    *Linear*
    *Bezier*
 
-*Clean Keyframes* :kbd:`O`
+Clean Keyframes :kbd:`O`
 
-*Smooth Keyframes* :kbd:`Alt-O`
+Smooth Keyframes :kbd:`Alt-O`
 
-*Sample Keyframes* :kbd:`Shift-O`
+Sample Keyframes :kbd:`Shift-O`
 
-*Bake Curve* :kbd:`Alt-C`
+Bake Curve :kbd:`Alt-C`
 
-*Copy Keyframes* :kbd:`Ctrl-C`
+Copy Keyframes :kbd:`Ctrl-C`
 
-*Paste Keyframes* :kbd:`Ctrl-V`
+Paste Keyframes :kbd:`Ctrl-V`
 
-*Discontinuity (Euler) Filter*
-
+Discontinuity (Euler) Filter
 
