@@ -97,6 +97,6 @@ Since it is common for these faces to butt up against one another,
 your geometry will have lots of duplicate vertices.
 Use the Remove Doubles button in the Tools panel.
 
-`A short video illustrating this workflow.  <https://www.youtube.com/watch?v=diI8xJ9oo_8|>`__
+`A short video illustrating this workflow.  <https://www.youtube.com/watch?v=diI8xJ9oo_8>`__
 
 

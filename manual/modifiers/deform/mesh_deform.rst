@@ -76,6 +76,6 @@ See Also
 ========
 
 - The :doc:`Lattice modifier </modifiers/deform/lattice>`.
-- [http://graphics.pixar.com/library/HarmonicCoordinatesB/ (original paper)
+- `Original paper <http://graphics.pixar.com/library/HarmonicCoordinatesB/>`__
 
 
