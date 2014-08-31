@@ -130,154 +130,112 @@ and :guilabel:`Subdivide Multi` tools. Note the selection after subdivision.
 One Edge
 --------
 
-.. figure:: /images/Doc26-subdivide-oneEdge.jpg
-   :width: 250px
-   :figwidth: 250px
-
-   One Edges
-
-
-.. figure:: /images/Doc26-subdivide-oneEdge-tri.jpg
-   :width: 250px
-   :figwidth: 250px
-
-   Quad/Tri Mode
++-----------------------------------------------+---------------------------------------------------+
++.. figure:: /images/Doc26-subdivide-oneEdge.jpg|.. figure:: /images/Doc26-subdivide-oneEdge-tri.jpg+
++   :width: 250px                               |   :width: 250px                                   +
++   :figwidth: 250px                            |   :figwidth: 250px                                +
++                                               |                                                   +
++   One Edges                                   |   Quad/Tri Mode                                   +
++-----------------------------------------------+---------------------------------------------------+
 
 
 Two Tri Edges
 -------------
 
-.. figure:: /images/Doc26-subdivide-twoEdgesTri.jpg
-   :width: 250px
-   :figwidth: 250px
-
-
-.. figure:: /images/Doc26-subdivide-twoEdgesTri-tri.jpg
-   :width: 250px
-   :figwidth: 250px
-
-   Quad/Tri Mode
++---------------------------------------------------+-------------------------------------------------------+
++.. figure:: /images/Doc26-subdivide-twoEdgesTri.jpg|.. figure:: /images/Doc26-subdivide-twoEdgesTri-tri.jpg+
++   :width: 250px                                   |   :width: 250px                                       +
++   :figwidth: 250px                                |   :figwidth: 250px                                    +
++                                                   |                                                       +
++                                                   |   Quad/Tri Mode                                       +
++---------------------------------------------------+-------------------------------------------------------+
 
 
 Two Opposite Quad Edges
 -----------------------
 
-.. figure:: /images/Doc26-subdivide-twoEdgesOpposite.jpg
-   :width: 250px
-   :figwidth: 250px
-
-
-.. figure:: /images/Doc26-subdivide-twoEdgesOpposite-tri.jpg
-   :width: 250px
-   :figwidth: 250px
-
-   Quad/Tri Mode
++--------------------------------------------------------+------------------------------------------------------------+
++.. figure:: /images/Doc26-subdivide-twoEdgesOpposite.jpg|.. figure:: /images/Doc26-subdivide-twoEdgesOpposite-tri.jpg+
++   :width: 250px                                        |   :width: 250px                                            +
++   :figwidth: 250px                                     |   :figwidth: 250px                                         +
++                                                        |                                                            +
++                                                        |   Quad/Tri Mode                                            +
++--------------------------------------------------------+------------------------------------------------------------+
 
 
 Two Adjacent Quad Edges
 -----------------------
 
-.. figure:: /images/Doc26-subdivide-twoEdgesQuad-fan2.jpg
-   :width: 250px
-   :figwidth: 250px
++---------------------------------------------------------+--------------------------------------------------------+
++.. figure:: /images/Doc26-subdivide-twoEdgesQuad-fan2.jpg|.. figure:: /images/Doc26-subdivide-twoEdgesQuad-fan.jpg+
++   :width: 250px                                         |   :width: 250px                                        +
++   :figwidth: 250px                                      |   :figwidth: 250px                                     +
++                                                         |                                                        +
++   Fan cut type                                          |   Quad/Tri Mode                                        +
++---------------------------------------------------------+--------------------------------------------------------+
 
-   Fan cut type
++--------------------------------------------------------------+------------------------------------------------------------------+
++.. figure:: /images/Doc26-subdivide-twoEdgesQuad-innervert.jpg|.. figure:: /images/Doc26-subdivide-twoEdgesQuad-innervert-tri.jpg+
++   :width: 250px                                              |   :width: 250px                                                  +
++   :figwidth: 250px                                           |   :figwidth: 250px                                               +
++                                                              |                                                                  +
++   Innervert cut type                                         |   Quad/Tri Mode                                                  +
++--------------------------------------------------------------+------------------------------------------------------------------+
 
-
-.. figure:: /images/Doc26-subdivide-twoEdgesQuad-fan.jpg
-   :width: 250px
-   :figwidth: 250px
-
-   Quad/Tri Mode
-
-
-.. figure:: /images/Doc26-subdivide-twoEdgesQuad-innervert.jpg
-   :width: 250px
-   :figwidth: 250px
-
-   Innervert cut type
-
-
-.. figure:: /images/Doc26-subdivide-twoEdgesQuad-innervert-tri.jpg
-   :width: 250px
-   :figwidth: 250px
-
-   Quad/Tri Mode
-
-
-.. figure:: /images/Doc26-subdivide-twoEdgesQuad-path.jpg
-   :width: 250px
-   :figwidth: 250px
-
-   Path cut type
-
-
-.. figure:: /images/Doc26-subdivide-twoEdgesQuad-path-tri.jpg
-   :width: 250px
-   :figwidth: 250px
-
-   Quad/Tri Mode
++---------------------------------------------------------+-------------------------------------------------------------+
++.. figure:: /images/Doc26-subdivide-twoEdgesQuad-path.jpg|.. figure:: /images/Doc26-subdivide-twoEdgesQuad-path-tri.jpg+
++   :width: 250px                                         |   :width: 250px                                             +
++   :figwidth: 250px                                      |   :figwidth: 250px                                          +
++                                                         |                                                             +
++   Path cut type                                         |   Quad/Tri Mode                                             +
++---------------------------------------------------------+-------------------------------------------------------------+
 
 
 Three Edges
 -----------
 
-.. figure:: /images/Doc26-subdivide-threeEdges.jpg
-   :width: 250px
-   :figwidth: 250px
-
-
-.. figure:: /images/Doc26-subdivide-threeEdges-tri.jpg
-   :width: 250px
-   :figwidth: 250px
-
-   Quad/Tri Mode
++--------------------------------------------------+------------------------------------------------------+
++.. figure:: /images/Doc26-subdivide-threeEdges.jpg|.. figure:: /images/Doc26-subdivide-threeEdges-tri.jpg+
++   :width: 250px                                  |   :width: 250px                                      +
++   :figwidth: 250px                               |   :figwidth: 250px                                   +
++                                                  |                                                      +
++                                                  |   Quad/Tri Mode                                      +
++--------------------------------------------------+------------------------------------------------------+
 
 
 Tri
 ---
 
-.. figure:: /images/Doc26-subdivide-threeEdgesTri.jpg
-   :width: 250px
-   :figwidth: 250px
-
-
-.. figure:: /images/Doc26-subdivide-threeEdgesTri-tri.jpg
-   :width: 250px
-   :figwidth: 250px
-
-   Quad/Tri Mode
++-----------------------------------------------------+---------------------------------------------------------+
++.. figure:: /images/Doc26-subdivide-threeEdgesTri.jpg|.. figure:: /images/Doc26-subdivide-threeEdgesTri-tri.jpg+
++   :width: 250px                                     |   :width: 250px                                         +
++   :figwidth: 250px                                  |   :figwidth: 250px                                      +
++                                                     |                                                         +
++                                                     |   Quad/Tri Mode                                         +
++-----------------------------------------------------+---------------------------------------------------------+
 
 
 Quad/Four Edges
 ---------------
 
-.. figure:: /images/Doc26-subdivide-fourEdges.jpg
-   :width: 250px
-   :figwidth: 250px
-
-
-.. figure:: /images/Doc26-subdivide-fourEdges-tri.jpg
-   :width: 250px
-   :figwidth: 250px
-
-   Quad/Tri Mode
++-------------------------------------------------+-----------------------------------------------------+
++.. figure:: /images/Doc26-subdivide-fourEdges.jpg|.. figure:: /images/Doc26-subdivide-fourEdges-tri.jpg+
++   :width: 250px                                 |   :width: 250px                                     +
++   :figwidth: 250px                              |   :figwidth: 250px                                  +
++                                                 |                                                     +
++                                                 |   Quad/Tri Mode                                     +
++-------------------------------------------------+-----------------------------------------------------+
 
 
 Multicut
 --------
 
-.. figure:: /images/Doc26-subdivide-tri-multi.jpg
-   :width: 250px
-   :figwidth: 250px
-
-   Tri with two cuts
-
-
-.. figure:: /images/Doc26-subdivide-quad-multi.jpg
-   :width: 250px
-   :figwidth: 250px
-
-   Quad with two cuts
++-------------------------------------------------+--------------------------------------------------+
++.. figure:: /images/Doc26-subdivide-tri-multi.jpg|.. figure:: /images/Doc26-subdivide-quad-multi.jpg+
++   :width: 250px                                 |   :width: 250px                                  +
++   :figwidth: 250px                              |   :figwidth: 250px                               +
++                                                 |                                                  +
++   Tri with two cuts                             |   Quad with two cuts                             +
++-------------------------------------------------+--------------------------------------------------+
 
 
