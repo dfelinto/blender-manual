@@ -78,8 +78,7 @@ Roughness
 
 
 Kink
-
-----
+====
 
 
 .. figure:: /images/Blender3D_ChildParticleKink.jpg

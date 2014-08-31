@@ -338,8 +338,8 @@ it will bake significantly slower than before,
 and it will probably clip through the box pretty badly as in the picture on the right.
 
 
-Editing the cached simulation=
-==============================
+Editing the cached simulation
+=============================
 
 The cache contains the shape of the mesh at each frame. You can edit the cached simulation,
 after you've baked the simulation and pressed the :guilabel:`Bake Editing` button.

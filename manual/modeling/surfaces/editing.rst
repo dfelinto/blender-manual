@@ -369,8 +369,7 @@ If you apply it to a 1D surface (a "surface curve"), this tool works exactly as 
 
 
 Spin
-
-----
+====
 
 
 .. admonition:: Reference

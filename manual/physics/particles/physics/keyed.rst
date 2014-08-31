@@ -38,8 +38,7 @@ or a normal particle system. This second system is the target of the keyed syste
 
 
 Keys
-
-----
+====
 
 
 :guilabel:`Key Targets`

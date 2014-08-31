@@ -498,8 +498,7 @@ Resolution
 
 
 Fill
-
-----
+====
 
 
 The fill options control how the text curves are filled in when text is :guilabel:`Extruded`

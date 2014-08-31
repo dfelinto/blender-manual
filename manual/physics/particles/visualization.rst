@@ -83,8 +83,7 @@ The Render Panel controls how particles appear when they are rendered.
 
 
 None
-
-----
+====
 
 
 When set to :guilabel:`None` particles are not rendered.
@@ -92,8 +91,7 @@ This is useful if you are using the particles to duplicate objects.
 
 
 Halo
-
-----
+====
 
 
 Halo particles are rendered as :doc:`Halo Type Materials </materials/halos>`.
@@ -109,8 +107,7 @@ Halo particles are rendered as :doc:`Halo Type Materials </materials/halos>`.
 
 
 Line
-
-----
+====
 
 
 The Line visualization mode creates (more or less thin)
@@ -131,8 +128,7 @@ of the line is set with the parameter :guilabel:`Start` of the :guilabel:`Strand
 
 
 Path
-
-----
+====
 
 
 .. figure:: /images/Blender3D_VisualisationPanelPath.jpg
@@ -156,7 +152,8 @@ The :guilabel:`Path` visualization needs a :doc:`Hair </physics/hair>` particle 
 :guilabel:`Steps`
    Set the number of subdivisions of the rendered paths (the value is a power of 2). You should set this value carefully, because if you increase the render value by two you need four times more memory to render. Also the rendering is faster if you use low render values (sometimes drastically). But how low you can go with this value depends on the waviness of the hair.(the value is a power of 2). This means 0 steps give 1 subdivision, 1 give 2 subdivisions, 2→4, 3→8, 4→16, ... *n* ``→2`` *n*.
 
-Timing Options:
+Timing Options
+==============
 
 :guilabel:`Absolute Path Time`
    Path timing is in absolute frames.

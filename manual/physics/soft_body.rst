@@ -163,8 +163,7 @@ This makes the deformation permanent.
 
 
 Tips
-
-----
+====
 
 
 - Soft Bodies work especially well if the objects have an even vertex distribution. You need enough vertices for good collisions. You change the deformation (the stiffness) if you add more vertices in a certain region (see the animation of *Image 1b*).

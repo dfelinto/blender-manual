@@ -49,9 +49,7 @@ Objects that can be created with planes include floors, tabletops, or mirrors.
 
 
 Cube
-
-----
-
+====
 
 A standard cube contains eight vertices, twelve edges, and six faces,
 and is a real three-dimensional object. Objects that can be created out of cubes include dice,
@@ -144,9 +142,7 @@ Objects that can be created out of cylinders include handles or rods.
 
 
 Cone
-
-----
-
+====
 
 A standard cone is made out of *n* vertices. The number of vertices in the circular base,
 dimensions and option to close the base of the cone can be specified in the context panel in
@@ -195,9 +191,7 @@ context panel in the :guilabel:`Tool Shelf` with both radii
 
 
 Grid
-
-----
-
+====
 
 A standard grid is made out of *n* by *m* vertices. The resolution of the x-axis and
 y-axis can be specified in the context panel in the :guilabel:`Tool Shelf` which appears when

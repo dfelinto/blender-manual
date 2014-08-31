@@ -365,8 +365,7 @@ While you cannot edit the knot vectors directly, you can influence them through 
 
 
 Path
-
-----
+====
 
 
 As mentioned above, Curves are often used as :doc:`paths </animation/techs/object/path>`. Any curve can be used as a Path if the :guilabel:`Path Animation` option is selected.

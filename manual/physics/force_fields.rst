@@ -133,8 +133,7 @@ For :doc:`Boids </physics/particles/physics>` a field with positive strength can
 
 
 Wind
-
-----
+====
 
 
 .. figure:: /images/UM_PART_XIII_KST_PI02.jpg
@@ -334,8 +333,7 @@ It is not so easy to describe the resulting shapes, I hope it's shown clearly en
 
 
 Boid
-
-----
+====
 
 
 Boid probably comes from theoretical works.
@@ -362,8 +360,7 @@ Create a random turbulence effect with a 3d noise.
 
 
 Drag
-
-----
+====
 
 
 Drag is a force that works to resist particle motion by slowing it down.
