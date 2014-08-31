@@ -9,33 +9,37 @@ Procedural textures: Blend
    Blend Texture Panels
 
 
-**Often used for**
-   This is one of the most frequently used procedural textures. You can use blend textures to blend other textures together (with :guilabel:`Stencil`), or to create nice effects (especially with the :guilabel:`Mapping: Normal` trick). Just remember: if you use a ramp to create a custom blending, you may have to use :guilabel:`No RGB`, if the :guilabel:`Mapping` value needs an intensity input.
-**Result(s)**
+Often used for
+   This is one of the most frequently used procedural textures.
+   You can use blend textures to blend other textures together (with :guilabel:`Stencil`),
+   or to create nice effects (especially with the :guilabel:`Mapping: Normal` trick).
+   Just remember: if you use a ramp to create a custom blending, you may have to use :guilabel:`No RGB`,
+   if the :guilabel:`Mapping` value needs an intensity input.
+Result(s)
    Intensity. The Blend texture generates a smoothly interpolated progression.
 
 
 Options
 =======
 
-:guilabel:`Progression`
+Progression
    Profile of blend
 
-   :guilabel:`Linear`
+   Linear
       A linear progression
 
-:guilabel:`Quadratic`
+Quadratic
    A quadratic progression
-:guilabel:`Easing`
+Easing
    A flowing, non-linear progression
-:guilabel:`Diagonal`
+Diagonal
    A diagonal progression
-:guilabel:`Spherical`
+Spherical
    A progression with the shape of a three-dimensional ball
-:guilabel:`Quadratic Sphere`
+Quadratic Sphere
    A quadratic progression with the shape of a three-dimensional ball
-:guilabel:`Radial`
+Radial
    A radial progression
-:guilabel:`Horizontal` / :guilabel:`Vertical`
+   **Horizontal** / **Vertical**
    The direction of the progression is flipped a quarter turn.
 

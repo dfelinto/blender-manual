@@ -325,23 +325,23 @@ The following actions also assume that you are in camera view
 (:kbd:`pad0`)! Having done so, you can now manipulate the camera using the same commands
 that are used to manipulate any object:
 
-**Roll:**
+Roll
    Press :kbd:`R` to enter object rotation mode. The default will be to rotate the camera in its local Z-axis
    (the axis orthogonal to the camera view), which is the definition of a camera "roll".
 
-**Vertical Pan or Pitch:**
+Vertical Pan or Pitch
    This is just a rotation along the local X-axis. Press :kbd:`R` to enter object rotation mode, then :kbd:`X` twice
    (the first press selects the *global* axis - pressing the same letter a second time selects the *local* axis -
    this works with any axis; see the :doc:`axis locking page </3d_interaction/transform_control/axis_locking>`).
 
-**Horizontal Pan or Yaw:**
+Horizontal Pan or Yaw
    This corresponds to a rotation around the camera's local Y axis... Yes, that's it, press :kbd:`R`,
    and then :kbd:`Y` twice!
 
-**Dolly:**
+Dolly
    To dolly the camera, press :kbd:`G` then :kbd:`mmb` (or  :kbd:`Z` twice).
 
-**Sideways Tracking:**
+Sideways Tracking
    Press :kbd:`G` and move the mouse
    (you can use  :kbd:`X` twice or :kbd:`Y` to get pure-horizontal or pure-vertical sideways tracking).
 

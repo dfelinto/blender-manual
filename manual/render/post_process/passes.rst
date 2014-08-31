@@ -103,46 +103,46 @@ To save time and disk space, you have to tell Blender each of the passes to rend
 (which we first introduced on :doc:`the previous page </render/post_process/layers>`):
 
 
-**Combined**
+Combined
    This renders everything in the image, even if it's not necessary.
    ("The whole enchilada," so to speak.) This is all the options below,
    blended into a single output, *except* those options which you've indicated should be omitted from this pass,
    as indicated with the camera button.
-**Z**
+Z
    The Z-depth map; how far away each pixel is from the camera. Used for Depth-Of-Field (DOF).
    The depth map is inverse linear *(1/distance)* from the camera clip start.
-**Vector**
+Vector
    The direction and speed things are moving. Used with Vector Blur.
-**Normal**
+Normal
    Calculates lighting and apparent geometry for a bumpmap (an image which is used to fake detail on an object)
    or for changing the apparent direction of light falling on an object.
-**UV**
+UV
    Allows texturing after rendering. See UV node.
-**Mist**
+Mist
    Deliver Mist factor pass.
-**Object Index**
+Object Index
    Masks selected objects. See MaskObj node.
-**Color**
+Color
    The color of materials without shading.
-**Diffuse**
+Diffuse
    The diffuse shading of materials.
-**Specular**
+Specular
    Specular highlights.
-**Shadow**
+Shadow
    Shadows cast. Make sure shadows are cast by your lights (positive or negative), and received by materials.
    To use this pass, mix multiply it with the Diffuse pass.
-**Emit**
+Emit
    Emission pass.
-**AO**
+AO
    Ambient Occlusion. Make sure it's turned on in your environment and that RayTracing is enabled.
-**Environment**
+Environment
    Environment lighting.
-**Indirect**
+Indirect
    Indirect lighting pass.
-**Reflection**
+Reflection
    Reflection off mirrors and other reflective surfaces (highly waxed white floors, for example).
    Mix Add this pass to Diffuse to use it.
-**Refraction**
+Refraction
    Refraction of colors through transparent meshes. Mix Add this pass to the Diffuse pass to use it.
 
 

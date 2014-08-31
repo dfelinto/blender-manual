@@ -85,16 +85,16 @@ Drawing Settings
 In the :guilabel:`Grease Pencil Panel` of the :guilabel:`Properties` shelf (:kbd:`N`)
 there are several choices for :guilabel:`Drawing Settings`.
 
-:guilabel:`View`
+View
    New strokes are locked to the view.
-:guilabel:`Cursor` (3D view only)
+Cursor *(3D view only)*
    New strokes are drawn in 3D-space,
    with position determined by the 3D cursor and the view rotation at the time of drawing.
    :guilabel:`Cursor` is available as an option in the :guilabel:`UV/Image Editor`
    but it functions identically to the :guilabel:`View` option.
-:guilabel:`Surface` (3D view only)
+Surface *(3D view only)*
    New strokes are drawn in 3D-space, with their position projected onto the first visible surface.
-:guilabel:`Stroke` (3D view only)
+Stroke *(3D view only)*
    New strokes are drawn in 3D-space, with their position projected onto existing visible strokes.
    Note that strokes created with :guilabel:`View` are not in 3D-space and are not considered for this projection.
 
@@ -117,20 +117,20 @@ The default settings for the sensitivity of mouse/stylus movement when drawing h
 to reduce jitter while still allowing fine movement. However, if these are not appropriate
 they can be altered in  :menuselection:`User Preferences window --> Editing --> Grease Pencil`.
 
-:guilabel:`Manhattan Distance`
+Manhattan Distance
    The minimum number of pixels the mouse should have moved either
    horizontally or vertically before the movement is recorded.
    Decreasing this should work better for curvy lines.
-:guilabel:`Euclidean Distance`
+Euclidean Distance
    The minimum distance that the mouse should have traveled before movement is recorded.
-:guilabel:`Eraser Radius`
+Eraser Radius
    The size of the eraser "brush".
-:guilabel:`Smooth Stroke`
+Smooth Stroke
    This turns on the post-processing step of smoothing the stroke to remove jitter.
    It is only relevant when not drawing straight lines. By default this is enabled.
    It should be noted that it can often cause "shrinking" of drawings,
    and may be turned off if the results are not desirable.
-:guilabel:`Simplify Stroke`
+Simplify Stroke
    This turns on the post-processing step of simplifying the stroke to remove about half of current points in it.
    It is only relevant when not drawing straight lines. By default this is disabled.
    As with :guilabel:`Smooth Stroke`, it can often cause "shrinking" of drawings,
