@@ -130,27 +130,19 @@ additional controls are available to alter snap behaviour. These options vary be
 (Object and Edit) as well as Snap Element. The four options available are:
 
 
--
-
-.. figure:: /images/3D-interaction_Transform-Control_Snap-snap-options-align-rotation.jpg
+- .. figure:: /images/3D-interaction_Transform-Control_Snap-snap-options-align-rotation.jpg
 
    Align rotation with the snapping target.
 
--
-
-.. figure:: /images/3D-interaction_Transform-Control_Snap-snap-options-project-elements.jpg
+- .. figure:: /images/3D-interaction_Transform-Control_Snap-snap-options-project-elements.jpg
 
    Project individual elements on the surface of other objects.
 
--
-
-.. figure:: /images/3D-interaction_Transform-Control_Snap-snap-options-snap-itself.jpg
+- .. figure:: /images/3D-interaction_Transform-Control_Snap-snap-options-snap-itself.jpg
 
    Snaps elements to its own mesh.
 
--
-
-.. figure:: /images/3D-interaction_Transform-Control_Snap-snap-options-objects-whole.jpg
+- .. figure:: /images/3D-interaction_Transform-Control_Snap-snap-options-objects-whole.jpg
 
    Consider Objects as whole when finding volume center.
 
