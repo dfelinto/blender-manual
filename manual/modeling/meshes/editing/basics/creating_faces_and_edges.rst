@@ -56,7 +56,7 @@ Isolated edges
 N-gon from edges: *When there are many edges Blender will make an ngon, note that this doesn't support holes, to support holes you need to use the
 FIXME(TODO: Internal Link;
 [[XXX Fill Faces tool]]
-).
+).*
 
 +---------------------------------------------------------+---------------------------------------------------------------+
 +.. figure:: /images/bmesh_make_face_edges_ngon_before.jpg|.. figure:: /images/bmesh_make_face_edges_ngon_simple_after.jpg+
@@ -69,9 +69,9 @@ FIXME(TODO: Internal Link;
 
 ----
 
-Mixed vertices/edges:* existing edges are used to make the face as well as an extra vertex.
+Mixed vertices/edges: *existing edges are used to make the face as well as an extra vertex.*
 
-*+---------------------------------------------------------+--------------------------------------------------------+
++---------------------------------------------------------+--------------------------------------------------------+
 +.. figure:: /images/bmesh_make_face_mix_simple_before.jpg|.. figure:: /images/bmesh_make_face_mix_simple_after.jpg+
 +   :width: 200px                                         |   :width: 200px                                        +
 +   :figwidth: 200px                                      |   :figwidth: 200px                                     +
@@ -82,9 +82,9 @@ Mixed vertices/edges:* existing edges are used to make the face as well as an ex
 
 ----
 
-Edge-Net:* sometimes you may have many connected edges without interior faces.
+Edge-Net: *sometimes you may have many connected edges without interior faces.*
 
-*+--------------------------------------------------+-------------------------------------------------+
++--------------------------------------------------+-------------------------------------------------+
 +.. figure:: /images/bmesh_make_face_net_before.jpg|.. figure:: /images/bmesh_make_face_net_after.jpg+
 +   :width: 200px                                  |   :width: 200px                                 +
 +   :figwidth: 200px                               |   :figwidth: 200px                              +
@@ -95,10 +95,10 @@ Edge-Net:* sometimes you may have many connected edges without interior faces.
 
 ----
 
-Point Cloud:* when there are many isolated vertices,
-Blender will calculate the edges for an n-gon.
+Point Cloud: *when there are many isolated vertices,
+Blender will calculate the edges for an n-gon.*
 
-*+----------------------------------------------------+---------------------------------------------------+
++----------------------------------------------------+---------------------------------------------------+
 +.. figure:: /images/bmesh_make_face_cloud_before.jpg|.. figure:: /images/bmesh_make_face_cloud_after.jpg+
 +   :width: 200px                                    |   :width: 200px                                   +
 +   :figwidth: 200px                                 |   :figwidth: 200px                                +
@@ -107,10 +107,10 @@ Blender will calculate the edges for an n-gon.
 +----------------------------------------------------+---------------------------------------------------+
 
 
-Single Vertex Selection:* with a single vertex selected on a boundary,
+Single Vertex Selection: *with a single vertex selected on a boundary,
 the face will be created along the boundary,
 this saves manually selecting the other 2 vertices.
-Notice this tool can run multiple times to continue creating faces.''
+Notice this tool can run multiple times to continue creating faces.''*
 
 +-------------------------------------------------+
 +.. figure:: /images/Mesh_face_create_boundary.jpg+
