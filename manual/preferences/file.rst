@@ -24,23 +24,22 @@ Set default paths for the different file types you will be using.
 Here is an example of a configuration:
 
 
-+----------------+-------------------+
-+Fonts           |//fonts/           +
-+----------------+-------------------+
-+Textures        |//textures/        +
-+----------------+-------------------+
-+Texture Plugins |//plugins/texture/ +
-+----------------+-------------------+
-+Sequence Plugins|//plugins/sequence/+
-+----------------+-------------------+
-+Render Output   |//renders/         +
-+----------------+-------------------+
-+Scripts         |//scripts/         +
-+----------------+-------------------+
-+Sounds          |//sounds/          +
-+----------------+-------------------+
-+Temp            |//tmp/             +
-+----------------+-------------------+
+Fonts
+   ``//fonts/``
+Textures
+   ``//textures/``
+Texture Plugins
+   ``//plugins/texture/``
+Sequence Plugins
+   ``//plugins/sequence/``
+Render Output
+   ``//renders/``
+Scripts
+   ``//scripts/``
+Sounds
+   ``//sounds/``
+Temp
+   ``//tmp/``
 
 
 Note that blender wont create your project structure automatically.
