@@ -12,13 +12,13 @@ all:
 	# './' (input), './html/' (output)
 	QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
 	sphinx-build -T -b html ./manual ./html
-	echo "firefox" $(shell pwd)"/html/"
+	@echo "firefox" $(shell pwd)"/html/"
 
 pdf:
 	QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
 	sphinx-build -b latex ./manual ./latex
 	make -C ./latex
-	echo "evince latex/blender_manual.pdf"
+	@echo "evince latex/blender_manual.pdf"
 
 
 clean:
