@@ -172,7 +172,7 @@ The loop extends perpendicular from the edge that was selected.
 
 .. figure:: /images/Manual-Part-II-EdgeFace-LoopingEdge-Algors-Vertex-Select.jpg
 
-   [alt] versus [ctrl][alt] in vertex select mode.
+   :kbd:`alt` versus :kbd:`ctrl-alt` in vertex select mode.
 
 
 A face loop can also be selected in :guilabel:`Vertex` select mode.
@@ -232,7 +232,7 @@ Path Selection
    :width: 200px
    :figwidth: 200px
 
-   Select a face or vertex path with [ctrl][rmb]
+   Select a face or vertex path with :kbd:`ctrl-rmb`
 
 
 Selects all geometry along the shortest path from the active vertex/edge/face to the one which

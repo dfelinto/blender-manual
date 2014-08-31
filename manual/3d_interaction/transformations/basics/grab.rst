@@ -137,9 +137,9 @@ Each mode is a co-ordinate system in which the transformations can be carried ou
 orientations can be chosen from the pop up menu just by the side of transformation manipulator
 choice widget group.
 
-   {{Shortcut|G}} key followed by {{Shortcut|xx}} or {{Shortcut|yy}} or {{Shortcut|zz}} will directly allow you to translate the objects in local axis. Of course this can also be followed by numerical specification of the displacement of entity.
+   :kbd:`G` key followed by :kbd:`xx` or :kbd:`yy` or :kbd:`zz` will directly allow you to translate the objects in local axis. Of course this can also be followed by numerical specification of the displacement of entity.
 
-   Similar to above operation, {{Shortcut|G}} key followed by {{Shortcut|Shift}} and {{Shortcut|xx}} or {{Shortcut|yy}} or {{Shortcut|zz}} will directly allow you to translate the objects in local axis complementary to the one specified.
+   Similar to above operation, :kbd:`G` key followed by :kbd:`Shift` and :kbd:`xx` or :kbd:`yy` or :kbd:`zz` will directly allow you to translate the objects in local axis complementary to the one specified.
 
 {{clr}}
 
@@ -184,7 +184,7 @@ Hints
 =====
 
 - Moving object in Object mode is clearly different from moving the object by selecting all its vertices/edges/faces in Edit mode. Doing this can lead to disturbed Center of Transformation for the given object.
-- If G+x/y/z  is used in non global orientations, it won't confine the translation to x axis in that orientation but to the global X axis orientation only
+- If :kbd:`G` + :kbd:`x`/:kbd:`y`/:kbd:`z`  is used in non global orientations, it won't confine the translation to x axis in that orientation but to the global X axis orientation only
 
 
 {{Page/Footer|2.6x|Doc:2.6/Manual/3D interaction/Transformations/Basics/Grab Properties|Doc:2.6/Manual/3D interaction/Transformations/Basics/Grab}}

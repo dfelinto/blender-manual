@@ -104,7 +104,7 @@ Beauty Fill
    :width: 200px
    :figwidth: 200px
 
-   Result of Beauty Fill,[Alt][Shift][F]
+   Result of Beauty Fill, :kbd:`Alt-Shift-F`
 
 
 Grid Fill
