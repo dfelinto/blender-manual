@@ -50,7 +50,6 @@ Options
       Split the quads based on the distance between the vertices.
 
 :guilabel:`Ngon Method`:
-
    :guilabel:`Beauty`
       Arrange the new triangles nicely, slower method.
    :guilabel:`Scanfill`

@@ -172,13 +172,11 @@ you can hit :kbd:`Ctrl-Z` at any time in :guilabel:`Edit Mode`.
 
 
 :guilabel:`Steps`
-
    This numeric field specifies how many extrusion(s) will be done for each ``360`` turn.
    The steps are evenly distributed by dividing ``360`` by the number of steps given. The minimum value is ``3``;
    the maximum is ``256`` (See Fig. 7)
 
 :guilabel:`Turns`:
-
    This numeric field specifies how many turns will be executed.
    Blender will add a new full ``360`` turn for each incremental number specified here.
    The minimum value is ``1``; the maximum is ``256``. (See Fig. 7)

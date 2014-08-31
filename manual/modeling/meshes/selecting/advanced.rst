@@ -17,12 +17,10 @@ The select menu in edit mode contains additional tool for selecting components:
 :guilabel:`Select Every N Number of Vertices`
    Selects vertices that are multiples of N.
 :guilabel:`Select Sharp Edges`
-
    This option will select all edges that are between two faces forming an angle less than a given value,
    which is asked you *via* a small pop-up dialog.
    The lower is this angle limit, the sharper will be the selected edges.
    At ``180``, **all** "manifold" (see below) edges will be selected.
-
 :guilabel:`Linked Flat Faces` (:kbd:`Ctrl-Shift-Alt-F`)
    Select connected faces based on a threshold of the angle between them. This is useful for selecting faces that are planar.
 :guilabel:`Select Non Manifold` (:kbd:`Ctrl-Shift-Alt-M`)

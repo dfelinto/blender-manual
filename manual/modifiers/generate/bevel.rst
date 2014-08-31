@@ -121,7 +121,6 @@ controls the algorithm used, and might add some extra options.
 
 
 :guilabel:`Angle`
-
    This button will only bevel edges where faces make sharp angles. When selected,
    it displays the :guilabel:`Angle` numeric field, used to set the angle above which an edge will be beveled
    (it is in fact the complementary angle, i.e. ``180 - (angle between faces)``).
