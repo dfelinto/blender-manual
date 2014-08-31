@@ -69,7 +69,7 @@ it saved the recovery file to */tmp/quit.blend*.
 MacOS
 =====
 
-.. figure:: /images/Interface-Window-System-console-mac.jpg.jpg
+.. figure:: /images/Interface-Window-System-console-mac.jpg
    :width: 360px
    :figwidth: 360px
 
