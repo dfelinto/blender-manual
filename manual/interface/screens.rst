@@ -54,10 +54,10 @@ All changes to windows, as described in :doc:`Window system </interface/window_s
 
 
 Configuring your Screens
-************************
+========================
 
 Adding a new Screen Type
-========================
+------------------------
 
 Click on the "Add" button(
 
@@ -74,7 +74,7 @@ For example you could use the name "6-MyScreen". See *Screen and Scene selectors
 
 
 Deleting a Screen
-=================
+-----------------
 
 You can delete a screen by using the :guilabel:`Delete datablock` button (
 
@@ -85,7 +85,7 @@ You can delete a screen by using the :guilabel:`Delete datablock` button (
 
 
 Rearranging a Screen
-====================
+--------------------
 
 Use the :doc:`window controls </interface/window_system/arranging_frames>` to move frame borders, split and consolidate windows. When you have a layout that you like, press :kbd:`ctrl-U` to update your User defaults. Be aware that all of the current scenes become part of those defaults, so consider customizing your layouts with only a single, simple scene.
 
@@ -95,7 +95,7 @@ vertically-arranged panels have greater support.
 
 
 Overriding Defaults
-===================
+-------------------
 
 When you save a .blend file, the screen layouts are also saved in it. When you open a file,
 enabling the :guilabel:`Load UI` checkbox in the file browser indicates that Blender should
@@ -104,7 +104,7 @@ Leaving the :guilabel:`Load UI` checkbox disabled tells Blender to use the curre
 
 
 Additional Layouts
-==================
+------------------
 
 As you become more experienced with Blender, consider adding some other screen layouts to suit
 your workflow as this will help increase your productivity. Some examples could include:

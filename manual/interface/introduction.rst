@@ -60,7 +60,7 @@ You also have this option in the main menu via :menuselection:`File --> Recover 
 
 
 Interface concepts
-******************
+==================
 
 .. figure:: /images/Blender-cross-platform.jpg
    :width: 650px

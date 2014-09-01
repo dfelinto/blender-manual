@@ -38,7 +38,7 @@ Note: The Reference section contains details (and a short video guide) about the
 
 
 Conventions in this Manual
-**************************
+==========================
 
 This manual uses the following conventions to describe user input:
 
@@ -72,7 +72,7 @@ Of special note are the arrow keys, :kbd:`left`, :kbd:`right` and so on.
 
 
 Mouse Button Emulation
-**********************
+======================
 
 If you do not have a 3 button mouse, you'll need to emulate it by checking the option in the :doc:`User Preferences </preferences/input#mouseuser>` (unchecked by default).
 
@@ -96,7 +96,7 @@ combinations shown in the table. For Example,
 
 
 NumPad Emulation
-****************
+================
 
 If you do not have a Numeric Numpad on the side of your keyboard, you may want to Emulate one
 (uses the numbers at the top of the keyboard instead,
@@ -106,7 +106,7 @@ however removes quick access to layer visibility).
 
 
 Non English Keyboard
-********************
+====================
 
 If you use a keyboard with a non-english keyboard layout, you still may benefit from switching
 your computer to the UK or US layout as long as you work with Blender.
