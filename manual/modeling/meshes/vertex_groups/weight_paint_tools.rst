@@ -378,9 +378,9 @@ Group:
 
 Method:
 
-- **Nearest vertex In face** : to be documented
-- Nearest Face: to be documented
-- Nearest vertex: to be documented
+- **Nearest vertex In face** : TODO
+- Nearest Face: TODO
+- Nearest vertex: TODO
 - Vertex Index (verbatim copy, works only for meshes with identical index count)
 
 Replace
@@ -388,9 +388,11 @@ Replace
 - Empty: Only copy a weight to the active object if the vertex has not yet had a weight set in the group.
 - **All** : delete all previous content of the target vertex group before copying the group from the source object.
 
-.. tip:: Caveat!
+.. note::
 
-   If a vertex group is contained in 2 or more of the selected objects, then the result depends on the order in which the selected objects are processed. However, the order of processing cannot be influenced.
+   If a vertex group is contained in 2 or more of the selected objects,
+   then the result depends on the order in which the selected objects are processed.
+   However, the order of processing cannot be influenced.
 
 
 Limit total
