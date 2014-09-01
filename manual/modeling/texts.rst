@@ -21,7 +21,9 @@ Text Objects
    Text Examples.
 
 
-:guilabel:`Text` objects are exactly what they sound like: they contain some text. They share the same object type as curves and surfaces, as modern fonts (OpenType, TrueType, etc.) are vectorial, made of curves (generally Béziers).
+:guilabel:`Text` objects are exactly what they sound like: they contain some text. 
+They share the same object type as curves and surfaces,
+as modern fonts (OpenType, TrueType, etc.) are vectorial, made of curves (generally Béziers).
 
 Blender uses a "Font System" to manage mapping "letter codes → objects representing them in 3D
 views". This implies that not only does the font system have its own *built-in* font,
@@ -39,7 +41,8 @@ Of course, once you are happy with the shape of your text, you can convert it
 or directly to a mesh,
 allowing you to use all the powerful features of these types of objects on it...
 
-(*Text Examples*) shows some examples of various fonts in action, including the "blue" font that has been applied to a curve path.
+(*Text Examples*) shows some examples of various fonts in action,
+including the "blue" font that has been applied to a curve path.
 
 
 Notes
@@ -78,10 +81,12 @@ Editing Text
    Text in Edit mode.
 
 
-Editing text is quite different from other object types in Blender, and happens mainly in two areas. First, the 3D view, of course, where you type your text, and have a few shortcuts, e.g. for applying
+Editing text is quite different from other object types in Blender, and happens mainly in two areas.
+First, the 3D view, of course, where you type your text, and have a few shortcuts, e.g. for applying
 FIXME(TODO: Internal Link;
 [[#Bold, Italics and Underline|styles]]
-) - note however that most Blender hotkeys you know in :guilabel:`Edit` mode do not exist for texts! The second place is the :guilabel:`Button` window (:guilabel:`Editing` context, :kbd:`F9`), especially the :guilabel:`Font` panel.
+) - note however that most Blender hotkeys you know in :guilabel:`Edit` mode do not exist for texts!
+The second place is the :guilabel:`Button` window (:guilabel:`Editing` context, :kbd:`F9`), especially the :guilabel:`Font` panel.
 
 The menu of the 3D view header has nearly no use,
 and there is no :guilabel:`Specials` menu... You have no transform nor mirror tools, and so on.
@@ -91,7 +96,8 @@ Editing :guilabel:`Text` is similar to using a standard text editor but is not a
 full-featured and has some differences:
 
 Exit :guilabel:`Edit` mode
-   :kbd:`Tab` doesn't insert a tab character in the text, but rather enters and exits :guilabel:`Edit` mode, as with other object types.
+   :kbd:`Tab` doesn't insert a tab character in the text,
+   but rather enters and exits :guilabel:`Edit` mode, as with other object types.
 Copy
    To copy text to the buffer, use :kbd:`ctrl-C` or the :kbd:`Copy` button in the tool shelf.
 Cut and Copy

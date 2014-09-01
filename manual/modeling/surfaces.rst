@@ -140,11 +140,9 @@ one for each interpolation axis (U and V). Note that unlike with curves, you hav
 is an example of a surface resolution of 12 for both ``U`` and ``V``.
 
 
-+---------------------------------------------+
-+.. figure:: /images/NurbsSurfaceResoltion.jpg+
-+                                             +
-+   Resolution panel.                         +
-+---------------------------------------------+
+.. figure:: /images/NurbsSurfaceResoltion.jpg
+
+   Resolution panel.
 
 
 You can adjust the resolution separately for both preview and render,

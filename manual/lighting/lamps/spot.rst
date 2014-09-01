@@ -35,12 +35,11 @@ Lamp options
 :guilabel:`Light Falloff` and :guilabel:`Sphere`
    These settings control how the light of the :guilabel:`Spot` decays with distance. See :doc:`Light Attenuation </lighting/lights/light_attenuation>` for details.
 
-
-.. figure:: /images/25-Manual-Lighting-Lamps-Spot-Terms.jpg
-   :width: 610px
-   :figwidth: 610px
-
-   Changing the Spot options also changes the appearance of the spotlight as displayed in the 3D View
+   .. figure:: /images/25-Manual-Lighting-Lamps-Spot-Terms.jpg
+      :width: 610px
+      :figwidth: 610px
+   
+      Changing the Spot options also changes the appearance of the spotlight as displayed in the 3D View
 
 
 Shadows
@@ -59,12 +58,19 @@ Ray-traced shadows are generally more accurate,
 with extra capabilities such as transparent shadows, although they are quite slower to render.
 
 :guilabel:`No Shadow`
-   Choose this to turn shadows off for this spot lamp.  This can be useful to add some discreet directed light to a scene.
+   Choose this to turn shadows off for this spot lamp.
+   This can be useful to add some discreet directed light to a scene.
 :guilabel:`Buffer Shadow`
-   :guilabel:`Buffered Shadows` are also known as depth map shadows. Shadows are created by calculating differences in the distance from the light to scene objects. See :doc:`Buffered Shadows </lighting/lamps/spot/buffered_shadows>` for full details on using this feature.
-   Buffered shadows are more complex to set up and involve more faking, but the speed of rendering is a definite advantage. Nevertheless, it shares with other lamp types common shadow options described in :doc:`Shadows Properties </lighting/shadows/properties>`.
+   :guilabel:`Buffered Shadows` are also known as depth map shadows.
+   Shadows are created by calculating differences in the distance from the light to scene objects.
+   See :doc:`Buffered Shadows </lighting/lamps/spot/buffered_shadows>` for full details on using this feature.
+   Buffered shadows are more complex to set up and involve more faking,
+   but the speed of rendering is a definite advantage.
+   Nevertheless, it shares with other lamp types common shadow options
+   described in :doc:`Shadows Properties </lighting/shadows/properties>`.
 :guilabel:`Ray Shadow`
-   The ray-traced shadows settings of this lamp are shared with other lamps, and are described in :doc:`Raytraced Properties </lighting/shadows/raytraced_properties>`.
+   The ray-traced shadows settings of this lamp are shared with other lamps,
+   and are described in :doc:`Raytraced Properties </lighting/shadows/raytraced_properties>`.
 
 
 Spot Shape
@@ -78,13 +84,13 @@ Spot Shape
    and can be between ``1.0- `` and ``180.0``.
 
 
-+------------------------------------------------------------+------------------------------------------------------------+
-+.. figure:: /images/25-Manual-Lighting-Lamps-Spot-Size45.jpg|.. figure:: /images/25-Manual-Lighting-Lamps-Spot-Size60.jpg+
-+   :width: 300px                                            |   :width: 300px                                            +
-+   :figwidth: 300px                                         |   :figwidth: 300px                                         +
-+------------------------------------------------------------+------------------------------------------------------------+
-+Changing the spot :guilabel:`Size` option                                                                                +
-+------------------------------------------------------------+------------------------------------------------------------+
+   +------------------------------------------------------------+------------------------------------------------------------+
+   +.. figure:: /images/25-Manual-Lighting-Lamps-Spot-Size45.jpg|.. figure:: /images/25-Manual-Lighting-Lamps-Spot-Size60.jpg+
+   +   :width: 300px                                            |   :width: 300px                                            +
+   +   :figwidth: 300px                                         |   :figwidth: 300px                                         +
+   +------------------------------------------------------------+------------------------------------------------------------+
+   +Changing the spot :guilabel:`Size` option                                                                                +
+   +------------------------------------------------------------+------------------------------------------------------------+
 
 
 :guilabel:`Blend`
@@ -99,13 +105,11 @@ Spot Shape
    :guilabel:`Blend` and :guilabel:`Size` only control the :guilabel:`Spot` light cone's aperture and softness ("radial" falloff); they do not control the shadow's softness as shown below.
 
 
-+----------------------------------------------------------------------------------+
-+.. figure:: /images/Manual_-_Shadow_&_Spot_-_Spotlight_-_Render_-_Sharp_Shadow.jpg+
-+   :width: 400px                                                                  +
-+   :figwidth: 400px                                                               +
-+                                                                                  +
-+   Render showing the soft edge spotlighted area and the sharp/hard object shadow +
-+----------------------------------------------------------------------------------+
+   .. figure:: /images/Manual_-_Shadow_&_Spot_-_Spotlight_-_Render_-_Sharp_Shadow.jpg
+      :width: 400px
+      :figwidth: 400px
+
+      Render showing the soft edge spotlighted area and the sharp/hard object shadow
 
 
    Notice in the picture above that the object's shadow is sharp as a result of the ray tracing, whereas the spotlight edges are soft. If you want other items to cast soft shadows within the :guilabel:`Spot` area, you will need to alter other shadow settings.

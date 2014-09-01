@@ -11,15 +11,13 @@ The current window layout and scene are shown in the :guilabel:`Info` window hea
 usually displayed at the top of your screen:
 
 
-+------------------------------------------------------------------------------------------------------+
-+.. figure:: /images/Manual-Scene-Header.jpg                                                           +
-+   :width: 600px                                                                                      +
-+   :figwidth: 600px                                                                                   +
-+                                                                                                      +
-+   Info window header. A) Window type icon,                                                           +
-+   B) Menu, C) Screen Layouts, D) Scenes, E) Renderer Options                                         +
-+   F) Version of Blender currently running (click the Blender icon to the left to show splash screen).+
-+------------------------------------------------------------------------------------------------------+
+.. figure:: /images/Manual-Scene-Header.jpg
+   :width: 600px
+   :figwidth: 600px
+
+   Info window header. A) Window type icon,
+   B) Menu, C) Screen Layouts, D) Scenes, E) Renderer Options
+   F) Version of Blender currently running (click the Blender icon to the left to show splash screen).
 
 
 Loading the UI with "File" → "Open"

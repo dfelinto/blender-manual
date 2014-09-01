@@ -135,31 +135,25 @@ you'll notice that the keys will go along with it.  On occasion,
 you'll prefer the keys to remain on their original frames, regardless of where the strip is.
 To do so, hit the 'unpin' icon, next to the strip.
 
-+-------------------------------------+
-+.. figure:: /images/nla_pinned_01.jpg+
-+   :width: 350px                     +
-+   :figwidth: 350px                  +
-+                                     +
-+   Nla strip with pinned keys.       +
-+-------------------------------------+
+.. figure:: /images/nla_pinned_01.jpg
+   :width: 350px
+   :figwidth: 350px
+
+   Nla strip with pinned keys.
 
 
-+---------------------------------------------+
-+.. figure:: /images/nla_pin_02.jpg           +
-+   :width: 350px                             +
-+   :figwidth: 350px                          +
-+                                             +
-+   Strip moved, notice the keys move with it.+
-+---------------------------------------------+
+.. figure:: /images/nla_pin_02.jpg
+   :width: 350px
+   :figwidth: 350px
+
+   Strip moved, notice the keys move with it.
 
 
-+-----------------------------------------------------+
-+.. figure:: /images/nla_pin_03.jpg                   +
-+   :width: 350px                                     +
-+   :figwidth: 350px                                  +
-+                                                     +
-+   The unpinned keys return to their original frames.+
-+-----------------------------------------------------+
+.. figure:: /images/nla_pin_03.jpg
+   :width: 350px
+   :figwidth: 350px
+
+   The unpinned keys return to their original frames.
 
 
 When your finished editing the strip, simply go to View > Exit Tweak Mode.

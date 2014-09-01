@@ -23,15 +23,15 @@ some of which get diverted into your eye and that you perceive as a halo/shaft o
 The scattering of light from a source can be simulated in Blender using various options,
 but by default is not activated.
 
-The only lamp able to create volumetric effects is the :doc:`Spot lamp </lighting/lamps/spot/halos>` (even thought you might consider some of the :doc:`"Sky & Atmosphere" effects </lighting/lamps/sun/sky_and_atmosphere>` of the :guilabel:`Sun` lamp as volumetric as well).
+The only lamp able to create volumetric effects is the :doc:`Spot lamp </lighting/lamps/spot/halos>`
+(even thought you might consider some of the :doc:`"Sky & Atmosphere" effects </lighting/lamps/sun/sky_and_atmosphere>`
+of the :guilabel:`Sun` lamp as volumetric as well).
 
 
 Example
 =======
 
-+-------------------------------------------------------------------------------------------------------------------------------------+
-+`Blend file of spotlight animation. <http://wiki.blender.org/index.php/Media:Manual - Shadow and Spot - Spotlight Animation.blend>`__+
-+-------------------------------------------------------------------------------------------------------------------------------------+
+`Blend file of spotlight animation. <http://wiki.blender.org/index.php/Media:Manual - Shadow and Spot - Spotlight Animation.blend>`__
 
 
 FIXME(Tag Unsupported:vimeo;
