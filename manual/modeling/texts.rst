@@ -83,9 +83,9 @@ Editing Text
 
 Editing text is quite different from other object types in Blender, and happens mainly in two areas.
 First, the 3D view, of course, where you type your text, and have a few shortcuts, e.g. for applying
-styles (see `Character`_)
- - note however that most Blender hotkeys you know in :guilabel:`Edit` mode do not exist for texts!
-The second place is the :guilabel:`Button` window (:guilabel:`Editing` context, :kbd:`F9`), especially the :guilabel:`Font` panel.
+styles (see `Character`_) - note however that most Blender hotkeys you know in :guilabel:`Edit`
+mode do not exist for texts! The second place is the :guilabel:`Button` window
+(:guilabel:`Editing` context, :kbd:`F9`), especially the :guilabel:`Font` panel.
 
 The menu of the 3D view header has nearly no use,
 and there is no :guilabel:`Specials` menu... You have no transform nor mirror tools, and so on.
