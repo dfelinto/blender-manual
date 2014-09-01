@@ -1,6 +1,20 @@
+Weight Paint Mode
+*****************
+
+Vertex Groups can potentially have a very large number of associated vertices and thus a large
+number of weights (one weight per assigned vertex). :guilabel:`Weight Painting` is a method to
+maintain large amounts of weight information in a very intuitive way.
+It is primarily used for rigging meshes,
+where the vertex groups are used to define the relative bone influences on the mesh.
+But we use it also for controlling particle emission, hair density, many modifiers,
+shape keys, etc.
+
+The basic principle of the method is: the weight information is literally :guilabel:`painted`
+on top of the Mesh body by using a set of Weight brushes.
+And since painting is always associated with color, we also need to define ...
 
 Weight Paint in a nutshell
-""""""""""""""""""""""""""
+==========================
 
 .. figure:: /images/26-Manual-Modeling-Meshes-weight-paint-example.jpg
 
@@ -34,23 +48,6 @@ Weight Paint in a nutshell
       :kbd:`alt-B` then drag the clipping border to select the part of the 3D window which shall be kept visible.
       You can then draw only in this part. Press :kbd:`alt-B` again to remove the *clipping border*.
 
-
-Weight Paint Mode
-*****************
-
-Vertex Groups can potentially have a very large number of associated vertices and thus a large
-number of weights (one weight per assigned vertex). :guilabel:`Weight Painting` is a method to
-maintain large amounts of weight information in a very intuitive way.
-It is primarily used for rigging meshes,
-where the vertex groups are used to define the relative bone influences on the mesh.
-But we use it also for controlling particle emission, hair density, many modifiers,
-shape keys, etc.
-
-The basic principle of the method is: the weight information is literally :guilabel:`painted`
-on top of the Mesh body by using a set of Weight brushes.
-And since painting is always associated with color, we also need to define ...
-
-
 The weighting Color Code
 ========================
 
@@ -76,7 +73,7 @@ Thus you can see the referenced areas (drawn in cold/hot colors) and the unrefer
 
 
 Brushes
-*******
+=======
 
 .. figure:: /images/26-Manual-Modeling-Meshes-Weight-Paint-Brush.jpg
 
@@ -91,7 +88,7 @@ See below for the available brush presets and to create custom presets.
 
 
 The main brush properties
-"""""""""""""""""""""""""
+-------------------------
 
 The most important and frequently modified properties are:
 
@@ -115,7 +112,7 @@ The most important and frequently modified properties are:
 
 
 Normalize Options
-"""""""""""""""""
+-----------------
 
 Blender also provides Options regarding the automatic normalizing of all affected Vertex
 groups:
@@ -223,7 +220,7 @@ You find the customizer in the User Properties section, in the System Tab.
 
 
 Selection Masking
-*****************
+=================
 
 If you have a complex mesh,
 it is sometimes not easy to paint on all vertices in Weight Paint mode.
@@ -248,7 +245,7 @@ and :guilabel:`Vertex selection masking` (right icon).
 
 
 Details about selecting
-"""""""""""""""""""""""
+-----------------------
 
 The following standard selection operations are supported:
 
@@ -261,8 +258,7 @@ The following standard selection operations are supported:
 - :kbd:`ctrl-I` - Invert selection (:guilabel:`Inverse`).
 
 
-.. admonition:: Selecting Deform Groups
-   :class: nicetip
+.. tip:: Selecting Deform Groups
 
    When you are doing weight painting for deform bones (with an Armature), you can select a deform group by selecting the corresponding bone. However, this Vertex Group selection mode is disabled when Selection Masking is active!
 
@@ -299,7 +295,7 @@ tool to those faces, very similar to Vertex selection masking.
 
 
 Hide/Unhide Faces
-"""""""""""""""""
+-----------------
 
 You also can hide selected faces as in Edit Mode with the keyboard Shortcut :kbd:`H`,
 then paint on the remaining visible faces and finally unhide the hidden faces again by using
@@ -307,7 +303,7 @@ then paint on the remaining visible faces and finally unhide the hidden faces ag
 
 
 Hide/Unhide Vertices
-""""""""""""""""""""
+--------------------
 
 You cannot directly hide selected faces in vertex mask selection mode.
 However you can use a trick:
@@ -321,7 +317,7 @@ Now the verts belonging to the hidden Faces will remain hidden.
 
 
 The Clipping Border
-"""""""""""""""""""
+-------------------
 
 To constrain the paint area further you can use the *Clipping Border*.
 Press :kbd:`alt-B` and :kbd:`lmb` -drag a rectangular area.
@@ -341,7 +337,7 @@ weight gradient and of course brush strokes.
 
 
 Weight Paint Options
-********************
+====================
 
 .. figure:: /images/26-Manual-Modeling-Meshes-weight-paint-options.jpg
 
@@ -363,12 +359,11 @@ The Weight Paint Options modify the overall brush behavior:
 :guilabel:`Topology Mirror`
    Use topology-based mirroring, for when both side of a mesh have matching mirrored topology.
 :guilabel:`Input Samples`
-   ...
-:guilabel:`Show Zero Weights`:
-
-- None
-- Active
-- All
+   not so sure
+:guilabel:`Show Zero Weights`
+  - None
+  - Active
+  - All
 
 **Unified Settings:**
 The :guilabel:`Size`, :guilabel:`Strength` and :guilabel:`Weight` of the brush can be set to
@@ -382,7 +377,7 @@ be shared across different brushes, as opposed to per-brush.
 
 
 Weight Paint Tools
-******************
+==================
 
 .. figure:: /images/26-Manual-Modeling-Meshes-weight-paint-tools.jpg
 
@@ -396,15 +391,9 @@ The weight paint tools are full described in the :doc:`Weight Paint Tools </mode
 
 
 Weight Painting for Bones
-*************************
+=========================
 
-This is probably the most often used application of weight painting.
-When a bone moves, vertices around the joint should move as well, but just a little,
-to mimic the stretching of the skin around the joint. Use a "light" weight (10-40%)
-paint on the vertices around the joint so that they move a little when the bone rotates.
-While there are ways to automatically assign weights to an armature (see the :doc:`Armature section </rigging>`),
-you can do this manually. To do this from scratch, refer to the process below.
-To modify automatically assigned weights, jump into the middle of the process where noted:
+This is probably the most often used application of weight painting. When a bone moves, vertices around the joint should move as well, but just a little, to mimic the stretching of the skin around the joint. Use a "light" weight (10-40%) paint on the vertices around the joint so that they move a little when the bone rotates. While there are ways to automatically assign weights to an armature (see the :doc:`Armature section </rigging>`), you can do this manually. To do this from scratch, refer to the process below. To modify automatically assigned weights, jump into the middle of the process where noted:
 
 - Create an armature.
 - Create a mesh that will be deformed when the armature's bone(s) move.
@@ -439,7 +428,7 @@ Then the mirrored groups with the mirrored weights are automatically created.
 
 
 Weight Painting for Particles
-*****************************
+=============================
 
 .. figure:: /images/Manual-WeightPaint-particles.jpg
 

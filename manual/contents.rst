@@ -46,3 +46,4 @@
    sequencer.rst
    extensions.rst
    game_engine.rst
+   glossary.rst

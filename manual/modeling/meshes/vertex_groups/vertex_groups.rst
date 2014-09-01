@@ -1,22 +1,33 @@
-
 Vertex Groups
 *************
 
-:guilabel:`Vertex Groups` are mainly used to tag the vertices belonging to parts of a Mesh Object or Lattice. Think of the legs of a chair or the hinges of a door, or hands, arms, limbs, head, feet, etc. of a character. In addition you can assign different :guilabel:`weight values` (in the range [0.0,1.0] to the vertices within a Vertex Group (hence Vertex Groups are sometimes also named :guilabel:`Weight Groups` ).
+.. figure:: /images/modeling_meshes_vgroups_01.jpg
+   :figwidth: image
+   :align: right
 
-Vertex Groups are most commonly used for Armatures (See :doc:`Skinning Mesh Objects </rigging/skinning/obdata>`). But they are also used in many other areas of Blender, like for example:
+   The Vertex Group Panel
 
+Vertex Groups are mainly used to tag the vertices belonging 
+to parts of a Mesh Object or :term:`Lattice`. Think of the legs of a chair or 
+the hinges of a door, or hands, arms, limbs, head, feet, etc. of a character. 
+In addition you can assign different :guilabel:`weight values` 
+(in the range [ 0.0, 1.0 ] ) to the vertices within a Vertex Group.
+Hence Vertex Groups are sometimes also named :guilabel:`Weight Groups`.
+
+Vertex Groups are most commonly used for Armatures
+(See also :doc:`Skinning Mesh Objects </rigging/skinning/obdata>`).
+But they are also used in many other areas of Blender, like for example:
 
 - Shape keys
 - Modifiers
 - Particle Generators
-- Physics simulations
+- Physics Simulations
 
 Many more usage scenarios are possible.
 Actually you can use Vertex Groups for whatever makes sense to you.
-In some contexts Vertex Groups can also be automatically generated (i.e. for rigged objects).
-However in this section we will focus on manually created (user-defined) Vertex Groups.
-
+In some contexts Vertex Groups can also be automatically generated
+(i.e. for rigged objects). However in this section we will focus 
+on manually created (user-defined) Vertex Groups.
 
 .. admonition:: Vertex groups only apply to Mesh and Lattice Objects
    :class: note
@@ -25,97 +36,127 @@ However in this section we will focus on manually created (user-defined) Vertex 
 
 
 Typical usage scenarios for Vertex groups
------------------------------------------
+=========================================
 
 **Skinning an armature**
-   If you want to animate your mesh and make it move, you will define an armature which consists of a bunch of bones.
-   Vertex Groups are used to associate parts of the Mesh to Bones of the Armature, where you can specify an influence
-   :guilabel:`weight` in the range [0.0 ... 1.0] for each vertex in the Vertex Group.
+   If you want to animate your mesh and make it move, you will 
+   define an armature which consists of a bunch of bones.
+   Vertex Groups are used to associate parts of the Mesh 
+   to Bones of the Armature, where you can specify an influence
+   :guilabel:`weight` in the range [0.0 ... 1.0] for each vertex
+   in the Vertex Group.
 
 **Working with Modifiers**
-   Many modifiers contain the ability to control the modifier influence on each vertex separately.
-   This is also done via Vertex Groups and the weight values associated to the vertices.
+   Many modifiers contain the ability to control the modifier
+   influence on each vertex separately.
+   This is also done via Vertex Groups and the weight values 
+   associated to the vertices.
 
 **Quickly select/edit/hide parts of a mesh**
-   By defining mesh regions with Vertex Groups you can easily select entire parts of your mesh with 3 clicks and work
-   on them in isolation without having to create separate objects. With the hide function you can even remove a vertex
+   By defining mesh regions with Vertex Groups you can easily 
+   select entire parts of your mesh with 3 clicks and work
+   on them in isolation without having to create separate objects. 
+   With the hide function you can even remove a vertex
    group from the view (for later unhide).
 
 **Cull out and duplicate parts of a mesh**
-   Consider modeling a Lego block. The most simple brick consists of a base and a stud (the bump to connect the bricks
-   together). To create a four-stud block, you would want to be able to easily select the stud vertices, and, still in
-   :guilabel:`Edit mode`, duplicate them and position them where you want them.
+   Consider modeling a Lego block. The most simple brick consists
+   of a base and a stud (the bump to connect the bricks together).
+   To create a four-stud block, you would want to be able to 
+   easily select the stud vertices, and, still in
+   :guilabel:`Edit mode`, duplicate them and position them 
+   where you want them.
 
 
 Creating Vertex Groups
-----------------------
+======================
 
 .. figure:: /images/26-Manual-Modeling-Meshes-vertex-group-panel-empty.jpg
-   :width: 264px
-   :figwidth: 264px
+   :figwidth: image
+   :align: right
 
    Empty Vertex Group Panel
 
 
-Vertex Groups are maintained within the :guilabel:`Object Data Properties` window(1),
+Vertex Groups are maintained within the :guilabel:`Object Data Properties` window (1),
 and there in the :guilabel:`Vertex Groups` panel.
-As long as no Vertex groups are defined (the default for new Mesh Objects), the Panel is empty
-(2).
+As long as no Vertex groups are defined (the default for new Mesh Objects),
+the Panel is empty (2).
 
-You create a vertex group by :kbd:`lmb` the :guilabel:`+` button at the right Panel
-border (3). Initially the group is named ``Group``
-(or ``Group.nnn`` when the name already exists) and gets displayed in the Panel (2)
+You create a vertex group by :kbd:`lmb` :guilabel:`+` on the right Panel
+border (3). Initially the group is named *Group*
+(or *Group.nnn* when the name already exists) and gets displayed in the Panel (2)
 (see next image).
 
+Vertex Groups Panel Controls
+----------------------------
 
-.. tip:: New Groups are always empty
+.. figure:: /images/26-Manual-Modeling-Meshes-vertex-group-panel-one.jpg
+   :figwidth: image
+   :align: right
 
-   You have to explicitly assign verts to the group as shown below.
+   One Vertex Group
 
-   `Vertex Group Panel with one Group in Object mode <http://wiki.blender.org/index.php/File:26-Manual-Modeling-Meshes-vertex-group-panel-one.png-om>`__
+Once a new Vertex Group has been added, the new Group appears in the
+vertex Groups panel. There you find 3 clickable elements:
 
 Group Name
-""""""""""
+~~~~~~~~~~
 
-As soon as the first Vertex Group is created a new input field shows up right below the panel.
-There you can change the Group name of the Group to your convenience.
+The Groupname can be changed by :kbd:`lmb-x2` on the name itself.
+Then you can edit the name as you like.
+
+Plus Icon
+~~~~~~~~~
+
+When the little icon in the left lower corner can be clicked, a new
+row opens up where you can enter a search term. This becomes handy when
+the number of vertex groups gets big.
+
+Drag Handle
+~~~~~~~~~~~
+
+If you have a large number of vertex groups and you want to see more 
+then a few Groups, you can  :kbd:`lmb` on the small drag handle to tear
+the vertex groups list larger or smaller.
 
 Active Group
-""""""""""""
+~~~~~~~~~~~~
 
 When a Vertex Group is created,
 then it is also automatically marked as the :guilabel:`Active Group`.
-This is indicated by setting the background of the panel entry to a light blue color.
-If you have two or more groups in the list, then you can change the active group by
-:kbd:`lmb` on the corresponding entry in the Vertex Group panel.
+This is indicated by setting the background of the panel entry 
+to a light blue color. If you have two or more groups in the list, 
+then you can change the active group by :kbd:`lmb` on the 
+corresponding entry in the Vertex Group panel.
 
 
 Deleting vertex Groups
-----------------------
+======================
 
 .. figure:: /images/26-Manual-Modeling-Meshes-vertex-group-panel-dg.jpg
-   :width: 264px
-   :figwidth: 264px
+   :figwidth: image
+   :align: right
 
    Delete a Vertex Group
 
-
-.. figure:: /images/26-Manual-Modeling-Meshes-vertex-group-panel-lg.jpg
-   :width: 264px
-   :figwidth: 264px
-
-   Lock a Vertex Group
-
-
-You delete a Vertex Group by first making it the active group (select it in the panel)
-and then :kbd:`lmb` the :guilabel:`-` button at the right Panel border.
+You delete a Vertex Group by first making it the active group
+(select it in the panel) and then :kbd:`lmb` 
+the :guilabel:`-` button at the right Panel border.
 
 Deleting a Vertex Group only deletes the vertex assignments to the Group.
 The vertices themselves are not deleted.
 
 
 Locking Vertex Groups
----------------------
+=====================
+
+.. figure:: /images/26-Manual-Modeling-Meshes-vertex-group-panel-lg.jpg
+   :figwidth: image
+   :align: right
+
+   Lock a Vertex Group
+
 
 Right after creation of a Vertex Group,
 an open lock icon shows up on the right side of the Vertex Group List entry.
@@ -134,17 +175,18 @@ Working with Content of Vertex Groups
 =====================================
 
 .. figure:: /images/26-Manual-Modeling-Meshes-vertex-group-panel-one.jpg
-   :width: 264px
-   :figwidth: 264px
+   :figwidth: image
+   :align: right
 
    Vertex Group Panel in Edit Mode
 
 
-When you switch either to :guilabel:`Edit-Mode` or to :guilabel:`Weight-Paint` Vertex
+When you switch either to :guilabel:`Edit-Mode` 
+or to :guilabel:`Weight-Paint` Vertex
 Selection Mode, then the Vertex Group panel expands and displays 2 more rows:
 
-The first row contains 4 buttons for maintaining the Assign- and Select- status of vertices of
-the active Vertex Group:
+The first row contains 4 buttons for maintaining the Assign- and 
+Select- status of vertices of the active Vertex Group:
 
 
 - **Assign** : To assign the Selected vertices to the Group with the weight as defined in the "Weight:" input field (see below)
@@ -160,8 +202,8 @@ Assigning verts to a Group
 --------------------------
 
 .. figure:: /images/26-Manual-Modeling-Meshes-vertex-group-panel-assign.jpg
-   :width: 264px
-   :figwidth: 264px
+   :figwidth: image
+   :align: right
 
    Assign weights to active group
 
@@ -177,10 +219,11 @@ Note that weight Assignment is not available for locked Vertex Groups.
 The Assign button is grayed out in that case.
 
 
-.. admonition:: Assign is additive
-   :class: nicetip
+.. tip:: Assign is additive
 
-   The :guilabel:`Assign` button only adds the currently selected vertices to the active group.  Vertices already assigned to the group are not removed from the group.
+   The :guilabel:`Assign` button only adds the currently 
+   selected vertices to the active group. Vertices already 
+   assigned to the group are not removed from the group.
 
    Also keep in mind that a vertex can be assigned to multiple groups.
 
@@ -190,7 +233,8 @@ Checking assignments
 
 To be sure the selected verts really have been added to the Vertex Group,
 you can try the deselect button. If the verts do not get deselected,
-then you probably forgot to hit the :guilabel:`Assign` button. But you can do that safely now.
+then you probably forgot to hit the :guilabel:`Assign` button. 
+But you can do that safely now.
 But remind:
 All selected verts get the weight assigned as displayed in the "Weight:" input field!
 
@@ -219,10 +263,14 @@ You can quickly select all assigned vertices of a group:
 - When you :kbd:`lmb` click the :guilabel:`Deselect` button instead, then the vertices assigned to the active group will be deselected in the 3D Viewport.
 
 
-.. admonition:: Selecting/Deselecting is additive
-   :class: nicetip
+.. tip:: Selecting/Deselecting is additive
 
-   If you already have verts selected in the 3D View, then selecting the verts of a group will add the verts but also keep the already-selected verts selected. Vice versa, deselecting the verts of a vertex group will only deselect the verts assigned to the group and keep all other verts selected.
+   If you already have verts selected in the 3D View,
+   then selecting the verts of a group will add the verts 
+   but also keep the already-selected verts selected. 
+   Vice versa, deselecting the verts of a vertex group 
+   will only deselect the verts assigned to the group 
+   and keep all other verts selected.
 
 
 Finding ungrouped verts
@@ -238,8 +286,8 @@ Keyboard Shortcuts
 ------------------
 
 .. figure:: /images/26-Manual-Modeling-Meshes-vertex-group-popup.jpg
-   :width: 264px
-   :figwidth: 264px
+   :figwidth: image
+   :align: right
 
    Vertex Groups popup menu
 
@@ -267,15 +315,16 @@ Vertex Group Management
 =======================
 
 .. figure:: /images/26-Manual-Modeling-Meshes-vertex-group-pulldown.jpg
-   :width: 213px
-   :figwidth: 213px
+   :figwidth: image
+   :align: right
 
    Vertex groups panel's dropdown menu
 
 
-Vertex Groups provide a more complex set of functions inside a Pull down menu. This menu is
-accessible from the Vertex Group Panel by clicking on the dark gray :guilabel:`arrow down`
-icon on the right panel border.
+Vertex Groups provide a more complex set of functions 
+inside a Pull down menu. This menu is accessible 
+from the Vertex Group Panel by clicking on the 
+dark gray :guilabel:`arrow down` icon on the right panel border.
 
 The following functions of the Pulldown Menu operate on the assigned vertices:
 
@@ -316,7 +365,8 @@ The following functions operate only on the lock state settings:
 Hints
 =====
 
-- Multiple objects sharing the same mesh data have the peculiar property that the group names are stored on the
-  object, but the weights in the mesh. This allows you to name groups differently on each object, but take care
-  because removing a vertex group will remove the group from all objects sharing this mesh.
-
+- Multiple objects sharing the same mesh data have the 
+  peculiar property that the group names are stored on the object,
+  but the weights in the mesh. This allows you to name groups 
+  differently on each object, but take care because removing a 
+  vertex group will remove the group from all objects sharing this mesh.
