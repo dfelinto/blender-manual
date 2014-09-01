@@ -24,23 +24,9 @@ by modifying its weights and/or which vertices belong to this group.
 
 There are currently three WeightVGroup modifiers:
 
--
-
-FIXME(TODO: Internal Link;
-[[#Vertex Weight Edit Modifier|Vertex Weight Edit]]
-).
-
--
-
-FIXME(TODO: Internal Link;
-[[#Vertex Weight Mix Modifier|Vertex Weight Mix]]
-).
-
--
-
-FIXME(TODO: Internal Link;
-[[#Vertex Weight Proximity Modifier|Vertex Weight Proximity]]
-).
+- `Vertex Weight Edit Modifier`_
+- `Vertex Weight Mix Modifier`_
+- `Vertex Weight Proximity Modifier`_
 
 
 Common Settings
@@ -252,8 +238,7 @@ it will silently fall back to the default :guilabel:`Object Distance` behavior.
    Distance mapping to ``1.0`` weight. It can be below :guilabel:`Lowest Dist` for reversed mapping effects.
 
 :guilabel:`Falloff Type`
-   Some predefined mapping functions, see
-   FIXME(TODO: Internal Link; [[#Vertex Weight Edit|the Vertex Weight Edit part above]]).
+   Some predefined mapping functions, see `Vertex Weight Edit Modifier`_.
 
 
 Examples
