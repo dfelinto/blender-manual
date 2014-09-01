@@ -1,6 +1,6 @@
 
-Modeling in Blender
-*******************
+Introduction
+************
 
 As you have seen in the :doc:`Quick Start </your_first_animation/1.a_static_gingerbread_man>` chapter,
 the creation of a 3D scene needs at least three key things: Models, Materials and Lights.

@@ -5,7 +5,9 @@
 ###########
 
 .. toctree::
+   :maxdepth: 2
 
+   introduction.rst
    objects.rst
    objects/selecting.rst
    objects/editing.rst
