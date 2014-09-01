@@ -20,10 +20,10 @@ Selection by Visibility
 
 There are three choices for selecting edges by visibility.
 
-:guilabel:`Visible`
+Visible
    Only lines occluded by no surfaces are rendered.
 
-:guilabel:`Hidden`
+Hidden
    Lines occluded by at least one surface are rendered.
 
 
@@ -35,10 +35,10 @@ There are three choices for selecting edges by visibility.
    (`Sample .blend <http://wiki.blender.org/index.php/File:HiddenCreaseEdgeMark.zip>`__)
 
 
-:guilabel:`QI Range`
+QI Range
    QI stands for *Quantitative Invisibility*. Lines occluded by a number of surfaces in the given range are rendered.
 
-:guilabel:`Start` and :guilabel:`End`
+Start and End
    Only with :guilabel:`QI Range`, min/max number of occluding surfaces for a line to be rendered.
 
 
@@ -58,12 +58,12 @@ parameter editor you have to choose at least one edge type in order to get a ren
 but several edge types can be combined in one line set.
 Edge types can also be excluded from calculation by pressing the :guilabel:`X` next to them.
 
-:guilabel:`Silhouette`
+Silhouette
    Draws silhouettes around your closed objects; it is often good for organic objects (like Suzanne & Sphere),
    and bad for sharp edges, like a box. It can't render open mesh objects like open cylinders and flat planes.
    The output is affected by the :guilabel:`Kr Derivative Epsilon` viewmap setting.
 
-:guilabel:`Crease`
+Crease
    Shows only edges whose adjacent faces form an angle greater than the defined viewmap's :guilabel:`Crease Angle`.
 
 
@@ -75,19 +75,19 @@ Edge types can also be excluded from calculation by pressing the :guilabel:`X` n
    ( `the .blend file <http://wiki.blender.org/index.php/File:CreaseAngle.zip>`__)
 
 
-:guilabel:`Border`
+Border
    Border is for open/unclosed edge meshes; an open cylinder has an open edge at the top and bottom,
    and a plane is open all around. Suzanne's eye socket is an open edge. All open edges will have lines rendered.
    This depends on the mesh structure.
 
-:guilabel:`Edge Marks`
+Edge Marks
    Renders marked edges. See
    FIXME(TODO: Internal Link; [[#Edge Marks|below]]) for details.
 
-:guilabel:`Contour`
+Contour
    Draws the outer edges and inner open border.
 
-:guilabel:`External Contour`
+External Contour
    Draws the contour lines, but only on the outer edges.
 
 
@@ -98,16 +98,16 @@ Edge types can also be excluded from calculation by pressing the :guilabel:`X` n
    Left pair: Contour; Right pair: External Contour
 
 
-:guilabel:`Suggestive Contour`
+Suggestive Contour
    Draws some lines which would form the contour of the mesh if the viewport was shifted.
    Depends on your viewmap settings for :guilabel:`Kr Derivative Epsilon` and :guilabel:`Sphere Radius`
    (further information: `File:Manual-2.6-Render-Freestyle-PrincetownLinestyle.pdf
    <http://wiki.blender.org/index.php/File:Manual-2.6-Render-Freestyle-PrincetownLinestyle.pdf>`__).
 
-:guilabel:`Material Boundary`
+Material Boundary
    Draws lines where two materials meet on the same object. Must be activated in the viewmap settings.
 
-:guilabel:`Ridge & Valley`
+Ridge & Valley
    Draws ridges and valleys. Depends on your :guilabel:`Sphere Radius` viewmap settings.
 
 
@@ -194,13 +194,13 @@ On the right is a render without face marks activated.
 
 The line selection can be controlled via inclusion and faces options:
 
-:guilabel:`Inclusive` / :guilabel:`Exclusive`
+Inclusive / Exclusive
    Whether to include or exclude edges matching defined face mark conditions from the line set.
 
-:guilabel:`One Face`
+One Face
    (De)select all edges which have one or both neighbor faces marked.
 
-:guilabel:`Both Faces`
+Both Faces
    (De)select all edges which have both of their neighbor faces marked.
 
 The image below shows the resulting combinations.
@@ -224,10 +224,10 @@ Selection by Group
 
 You can include or exclude objects for line calculation, based on their belonging to a group.
 
-:guilabel:`Group`
+Group
    The name of the object group to use.
 
-:guilabel:`Inclusive` / :guilabel:`Exclusive`
+Inclusive / Exclusive
    Whether to include or exclude lines from those objects in this line set.
 
 

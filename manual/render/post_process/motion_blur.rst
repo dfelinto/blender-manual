@@ -57,10 +57,10 @@ Sampled Motion Blur
 This method is slow, but produces better results.
 It can be activated in the motion blur section in the render options panel.
 
-:guilabel:`Motion Samples`
+Motion Samples
    Set the number of samples to take for each frame.
 
-:guilabel:`Shutter`
+Shutter
    Time Taken in frames between shutter open and close.
 
 

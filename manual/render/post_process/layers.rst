@@ -83,13 +83,13 @@ Scene Layers Settings
 
 There are three sets of scene layer buttons:
 
-:guilabel:`Scene`
+Scene
    These mirror the layer buttons in the 3d view header, and tell which scene layers are visible when rendering.
-:guilabel:`Layer`
+Layer
    Control which scene layers are included in the current Render Layer.
-:guilabel:`Exclude`
+Exclude
    Exclude render layer so it will not influence to another layers.
-:guilabel:`Mask Layers`
+Mask Layers
    The image rendered is from the objects that are between the selected layer(s) and the Z-mask layers.
    In the example, the cube is on layers 2 and 3, and the grass in on layer 1.
    In the render layer which we have arbitrarily chosen to call "zmask", as shown in the picture above,
@@ -115,11 +115,11 @@ Overrides
 The Light and Material selector boxes allow you to override materials and lights per layer,
 applying them to all objects in the Render Layer.
 
-:guilabel:`Light`
+Light
    Enter the name of a light group, and the scene will be lit with only those lights. Usually,
    you use this to speed up draft renders of a scene that has complicated lighting,
    by entering the name of a small group of key lights.
-:guilabel:`Material`
+Material
    Overrides all material settings to use the name of the Material entered. Use this to speed up draft renders.
    Use the default material to check basic lighting.
 
@@ -131,29 +131,29 @@ Each render layer has its own set of major products to include in the rendering 
 To save time and give you control when working with passes,
 this set of buttons allow you to select which major products to render:
 
-:guilabel:`Z-mask`
+Z-mask
    Only render what's in front of the solid z values.
 
-   :guilabel:`Negate`
+   Negate
       Only render what's Behind the solid z values.
-:guilabel:`AllZ`
+AllZ
    Z-values are computed for everything in view, not just those things that are rendered. When disabled,
    objects not included in the render have no ("infinite") z value.
-:guilabel:`Solid`
+Solid
    Solid faces are rendered. All normal meshes are solid faced.
-:guilabel:`Halo`
+Halo
    Halo materials are rendered.
-:guilabel:`Z-transp`
+Z-transp
    Transparency may be Z-based or Ray-traced. If Z-based,
    enabling *Ztra* renders transparent areas with the z-value of what is behind the transparent area.
-:guilabel:`Sky`
+Sky
    Turning on Sky renders the sky, as defined in your material world settings. Otherwise,
    a black alpha transparent background is rendered.
-:guilabel:`Edge`
+Edge
    If Edge is enable in the Output panel, objects in this Render Layer are given an outline edge.
    Turning on Edge pulls in the Edge settings from the Output tab, and adds an outline to the objects.
    Edges also have to be enabled on the Output tab.
-:guilabel:`Strand`
+Strand
    Strands are strings of static particles that are colored as part of the material settings;
    they look like strands of hair or grass.
 

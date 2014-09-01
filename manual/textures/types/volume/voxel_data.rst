@@ -24,52 +24,54 @@ which is a common format for medical volume data such as CT scans.
 Settings
 ========
 
-:guilabel:`File Format`
-   :guilabel:`Blender Voxel`
+File Format
+   Blender Voxel
       Default binary voxel file format.
-   :guilabel:`8 bit RAW`
+   8 bit RAW
       8 bit grayscale binary data.
-   :guilabel:`Image Sequence`
+   Image Sequence
       Generate voxels from a sequence of image slices.
-   :guilabel:`Smoke`
+   Smoke
       Render voxels from a Blender smoke simulation.
 
-:guilabel:`Source Path`:The external source data file to use for 8 bit Raw data and Blender Voxel formats
+Source Path
+   The external source data file to use for 8 bit Raw data and Blender Voxel formats
 
-:guilabel:`Domain Object (Smoke)`
+Domain Object (Smoke)
    Object used as the smoke simulation domain
 
-:guilabel:`Source`
-   :guilabel:`Smoke`
+Source
+   Smoke
       Use smoke density and color as texture data.
-   :guilabel:`Flame`
+   Flame
       Use flame temperature as texture data.
-   :guilabel:`Heat`
+   Heat
       Use smoke heat as texture data. Values from -2.0 to 2.0 are used.
-   :guilabel:`Velocity`
+   Velocity
       Use smoke velocity as texture data.
 
-:guilabel:`Resolution`:Resolution of the voxel grid when using 8 bit Raw data.
+Resolution
+   Resolution of the voxel grid when using 8 bit Raw data.
 
-:guilabel:`Interpolation`
-   :guilabel:`Nearest Neighbor`
+Interpolation
+   Nearest Neighbor
       No interpolation, fast but blocky and low quality.
-   :guilabel:`Linear`
+   Linear
       Good smoothness and speed.
-   :guilabel:`Quadratic`
+   Quadratic
       Mid-range quality and speed.
-   :guilabel:`Cubic Catmull-Rom`
+   Cubic Catmull-Rom
       Smoothed high quality interpolation, but slower.
 
 
-:guilabel:`Extension`
-   :guilabel:`Extend`
+Extension
+   Extend
       Extend by repeating edge pixels of the image.
-   :guilabel:`Clip`
+   Clip
       Clip to image size and set exterior pixels as transparent.
-   :guilabel:`Repeat`
+   Repeat
       Cause the image to repeat horizontally and vertically.
 
-:guilabel:`Intensity`
+Intensity
    Multiplier for intensity values
 

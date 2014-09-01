@@ -40,41 +40,41 @@ will determine the value of the *Driver Value*.
 Driver Settings
 ^^^^^^^^^^^^^^^
 
-:guilabel:`Update Dependencies`
+Update Dependencies
    This will force an update for the Driver Value dependencies.
 
-:guilabel:`Remove Driver`
+Remove Driver
    Removes the driver from the object.
 
-:guilabel:`Type`
+Type
    The type of calculation to use on the set of Driver Variables.  (If you only have one driver variable there is no real difference between average, sum, minimum and maximum)
 
-   :guilabel:`Average Value`
+   Average Value
       Uses the the average value of the referenced Driver Variables.
 
-   :guilabel:`Sum Values`
+   Sum Values
       Uses the the sum of the referenced Driver Variables.
 
-   :guilabel:`Scripted Expression`
+   Scripted Expression
       Uses a Scripted Expression. See Expr.
       You must write a python expression which performs your own calculations on the Driver Variables.
 
-   :guilabel:`Minimum Value`
+   Minimum Value
       Uses the lowest value from the referenced Driver Variables.
 
-   :guilabel:`Maximum Value`
+   Maximum Value
       Uses the highest value from the referenced Driver Variables.
 
-:guilabel:`Expr`
+Expr
    Scripted Expression.
    Here you can add real numbers, math operators, math functions, python properties, driver functions.
    See Driver Expression below for some examples.
 
-:guilabel:`Show Debug Info`
+Show Debug Info
    Shows the Driver Value.
    The current value of the variables or scripted expression.
 
-:guilabel:`Add Variable`
+Add Variable
    Adds a new Driver Variable.
 
 
@@ -96,50 +96,50 @@ Driver Settings
 Driver Variables
 ^^^^^^^^^^^^^^^^
 
-:guilabel:`Name`
+Name
    Name to use for scripted expressions/functions.
    No spaces or dots are allowed and must start with a letter.
 
-:guilabel:`Variable Type`
+Variable Type
    The type of variable to use.
 
-   :guilabel:`Single Property`
+   Single Property
       Use the value from some RNA property.
       For example, the Ambient shading color from a material.
       First select the type of ID-block, then the ID of the ID-block, then copy and paste an RNA property (Ctrl+V).
 
-      :guilabel:`ID-Type`
+      ID-Type
          The ID-Block type, example, Key, Image, Object, Material.
 
-      :guilabel:`ID`
+      ID
          The ID of the ID-Block type, example, Material.001.
 
-      :guilabel:`RNA Path`
+      RNA Path
          The RNA id name of the property, example, 'ambient' from material shading.
 
-   :guilabel:`Transform Channel`
+   Transform Channel
       Use one of the Transform channels from an object or bone.
 
-      :guilabel:`ID`
+      ID
          ID of the object, example, Cube, Armature, Camera.
 
-      :guilabel:`Bone`
+      Bone
          ID of the Armature bone, example, Bone, Bone.002, Arma.r.
          This option is for armatures.
 
-      :guilabel:`Type`
+      Type
          Example, X Location, X Rotation, X Scale.
 
-      :guilabel:`Space`
+      Space
          World Space, Transform Space, Local Space.
 
-   :guilabel:`Rotational Difference`
+   Rotational Difference
       Use the rotational difference between two objects or bones.
 
-   :guilabel:`Distance`
+   Distance
       Use the distance between two objects or bones.
 
-:guilabel:`Value`
+Value
    Shows the value of the variable.
 
 
@@ -156,11 +156,11 @@ FIXME(Template Unsupported: Shortcut/Mouse;
 {{Shortcut/Mouse|rmb}}
 ) the property and select one of the following options.
 
-:guilabel:`Add Drivers`
+Add Drivers
    This will add drivers to the set of properties related to the selected one.
    For example, it will add drivers to X, Y, and Z for Rotation.
 
-:guilabel:`Add Single Driver`
+Add Single Driver
    This will add a single driver to the selected property.
 
 
@@ -225,12 +225,12 @@ Here two drivers have been added to the Cube, X Location and Y Location.
 
 The scripted expressions are being used to set the object location.
 
-:guilabel:`X Location Expr`
+X Location Expr
    **0+(sin(frame/8)*4)**
       **(frame/8)** : is the current frame of the animation, divided by 8 to slow the orbit down.
       **(sin( )*4)** : This returns the sine of (frame/8), then multiplies by 4 for a bigger circle.
       **0+** : is used to control the X Location offset of the orbit.
-:guilabel:`Y Location Expr`
+Y Location Expr
    **0+(cos(frame/8)*4)**
       **(frame/8)** : is the current frame of the animation, divided by 8 to slow the orbit down.
       **(cos( )*4)** : This returns the cosine of (frame/8), then multiplies by 4 for a bigger circle.
@@ -270,7 +270,7 @@ These can be displayed via the python console.
 This script will add a function to the driver namespace,
 which can then be used in the expression **driverFunc(frame)**.
 
-::
+.. code-block:: python
 
    import bpy
 

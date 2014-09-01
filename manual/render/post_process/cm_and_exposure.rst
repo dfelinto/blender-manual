@@ -48,7 +48,7 @@ which can be configured here.
 A computer monitor works differently from a digital cinema project or HDTV.
 The scene properties have these settings:
 
-:guilabel:`Device`
+Device
    The device that the image is being viewed on. Most computer monitors are configured for the sRGB color space,
    and so when working on a computer usually this option should just be left to the default.
    It would typically be changed when viewing the image on another display device connected to the computer,
@@ -82,31 +82,31 @@ Such settings would be only used temporarily and not get used for final renders.
    Scene settings for color management
 
 
-:guilabel:`View Transform`
+View Transform
    These are different ways to view the image on the same display device.
 
-   :guilabel:`Default`
+   Default
       Does no extra conversion besides the conversion for the display device.
-   :guilabel:`RRT`
+   RRT
       Uses the ACES Reference Rendering Transform, to simulate a film-like look.
-   :guilabel:`Film`
+   Film
       This option is another film-like look.
-   :guilabel:`Raw` and :guilabel:`Log`
+   Raw and Log
       Intended for inspecting the image but not for final export.
       Raw gives the image without any color space conversion,
       while Log gives a more "flat" view of the image without very dark or light areas.
 
-:guilabel:`Exposure`
+Exposure
    Multiplier for the image brightness applied before color space conversion.
 
-:guilabel:`Gamma`
+Gamma
    Extra gamma correction applied after color space conversion. Note that the default sRGB or Rec709 color space
    conversions already include a gamma correction of approximately 2.2 (except the Raw and Log views),
    so this would be applied in addition to that.
 
-:guilabel:`RGB Curves`
+RGB Curves
    Curves to control image colors before color space conversion.
-:guilabel:`Color Unpremultiply`
+Color Unpremultiply
    For premultiplied alpha render output, do color space conversion on colors without alpha,
    to avoid fringing on light backgrounds.
 
@@ -114,7 +114,7 @@ Such settings would be only used temporarily and not get used for final renders.
 Sequencer
 ---------
 
-:guilabel:`Sequencer Color Space`
+Sequencer Color Space
    The color space that the sequencer operates in.
    By default the sequencer operates in sRGB space like it did in previous versions,
    but it can also be set to work in Linear space like the Compositing nodes, or another color space.
@@ -149,7 +149,7 @@ Image datablocks will always store float buffers in memory in the scene linear c
 while a byte buffer in memory and files on disk are stored in the color space specified with
 this setting:
 
-:guilabel:`Color Space`
+Color Space
    The color space of the image on disk. This depends on the file format,
    for example PNG or JPEG images are often stored in sRGB, while OpenEXR images are stored in a linear color space.
    Some images such as normal, bump or stencil maps do not strictly contain 'colors',
@@ -171,11 +171,11 @@ an image texture or displacement map).
 We need to specify that this is a render and that we want the transformations applied,
 with these two settings:
 
-:guilabel:`View as Render`
+View as Render
    Display the image datablock (not only renders) with view transform, exposure, gamma, RGB curves applied.
    Useful for viewing rendered frames in linear OpenEXR files the same as when rendering them directly.
 
-:guilabel:`Save as Render`
+Save as Render
    Option in the image save operator to apply the view transform, exposure, gamma, RGB curves.
    This is useful for saving linear OpenEXR to e.g. PNG or JPEG files in display space.
 

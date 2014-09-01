@@ -20,7 +20,7 @@ are below the rendering button in the :guilabel:`Render` Panel (*Render Panel.*)
 Options
 =======
 
-:guilabel:`Anti-Aliasing` check box
+Anti-Aliasing (check box)
    Enables oversampling
 
 5 / 8 / 11 / 16
@@ -45,7 +45,7 @@ Note that each pixel has an identical pattern.
 +-----------------------------------------------------+-----------------------------------------------------+------------------------------------------------------+------------------------------------------------------+
 
 
-:guilabel:`Full Sample`
+Full Sample
    For every anti-aliasing sample, save the entire Render Layer results.
    This solves anti-aliasing issues with compositing.
 

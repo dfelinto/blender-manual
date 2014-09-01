@@ -142,7 +142,7 @@ Brush
    Brush Settings
 
 
-:guilabel:`Brush presets`
+Brush presets
    Select a preset brush. Most brushes have common settings.
 
 
@@ -150,31 +150,31 @@ Types of brushes
 ^^^^^^^^^^^^^^^^
 
 There are four different types of brushes
-   :guilabel:`Draw`
+   Draw
       the normal brush; paints a swath of color
 
-   :guilabel:`Soften`
+   Soften
       blends edges between two colors
 
-   :guilabel:`Smear`
+   Smear
       when you click, takes the colors under the cursor, and blends them in the direction you move the mouse. Similar to the "smudge" tool of *Gimp*.
 
-   :guilabel:`Clone`
+   Clone
       copies the colors from the image specified (Tex.Dirt in the example), to the active image. The background image is shown when this brush is selected; use the :guilabel:`B` lend slider to control how prominent the background image is.
 
-:guilabel:`Enable Pressure Sensitivity`
+Enable Pressure Sensitivity
    The icon to the right of the following three settings will enable or disable tablet pressure sensitivity to control how strong the effect is.
 
-:guilabel:`Color`
+Color
    The color of the brush
 
-:guilabel:`Radius`
+Radius
    The radius of the brush in pixels
 
-:guilabel:`Strength`
+Strength
    How powerful the brush is when applied}}
 
-:guilabel:`Blend`
+Blend
    Set the way the paint is applied over the underlying texture
 
 
@@ -189,10 +189,10 @@ There are four different types of brushes
 
    In order to see the effects of the Erase and Add Alpha mix modes in the UV/Image Editor, you must enable the alpha channel display by clicking the Display Alpha or the Alpha-Only button. Transparent (no alpha) areas will then show a checkered background.
 
-:guilabel:`Image`
+Image
    When using the clone brush, this allows you to select an image as a clone source.
 
-:guilabel:`Alpha`
+Alpha
    Opacity of the clone image display
 
 
@@ -218,34 +218,34 @@ Switching the texture to Rings makes a target/flower type of brush painting patt
 Note: In Clone paint mode,
 this field changes to indicate the picture image or texture that you are cloning from.
 
-:guilabel:`Brush Mapping`
+Brush Mapping
    Sets how the texture is applied to the brush
 
-   :guilabel:`View Plane`
+   View Plane
       In 2D painting, the texture moves with the brush
-   :guilabel:`Tiled`
+   Tiled
       The texture is offset by the brush location
-   :guilabel:`3D`
+   3D
       Same as tiled mode
-   :guilabel:`Stencil`
+   Stencil
       Texture is applied only in borders of the stencil.
-   :guilabel:`Random`
+   Random
       Random applying of texture.
 
-:guilabel:`Angle`
+Angle
    This is the rotation angle of the texture brush. It can be changed interactively via :kbd:`ctrl-F` in the 3D view. While in the interactive rotation you can enter a value numerically as well. Can be set to:
 
-   :guilabel:`User`
+   User
       Directly input the angle value.
-   :guilabel:`Rake`
+   Rake
       Angle follows the direction of the brush stroke. Not available with :guilabel:`3D` textures.
-   :guilabel:`Random`
+   Random
       Angle is randomized.
 
-:guilabel:`Offset`
+Offset
    Offset the texture in x, y, and z.
 
-:guilabel:`Size`
+Size
    Set the scale of the texture in each axis.
 
 
@@ -282,7 +282,7 @@ Stroke
 **Input Samples**
    Average multiple input samples together to smooth the brush stroke.
 
-:guilabel:`Wrap`
+Wrap
    wraps your paint to the other side of the image as your brush moves off the OTHER side of the canvas (any side, top/bottom, left/right). Very handy for making seamless textures.
 
 

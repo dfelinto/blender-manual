@@ -35,16 +35,16 @@ Settings
 Soft Body Panel
 ===============
 
-:guilabel:`Friction`
+Friction
    The friction of the surrounding medium. The larger the friction, the more viscous is the medium. Friction always appears when a vertex moves relative to it's surround medium.
 
-:guilabel:`Mass`
+Mass
    Mass value for vertices. Larger mass slows down acceleration, except for gravity where the motion is constant regardless of mass. Larger mass means larger inertia, so also braking a Soft Body is more difficult.
 
-:guilabel:`Mass Vertex Group`
+Mass Vertex Group
    You can paint weight values for an mesh's mass, and select that vertex group here.
 
-:guilabel:`Speed`
+Speed
    You can control the internal timing of the Softbody system with this value. It sets the correlation between frame rate and tempo of the simulation. A free falling body should cover a distance of about five meters after one second. You can adjust the scale of your scene and your simulation with this correlation. If you render with 25 frames per second and 1 meter shall be 1 BU, you have to set :guilabel:`Speed` to 1.3.
 
 
@@ -56,9 +56,9 @@ often :guilabel:`Empty` objects are used for that.
 You can use some of the forces on Soft Body vertices as on :guilabel:`Particles`.
 Soft Bodies react only to:
 
-- :guilabel:`Spherical`
-- :guilabel:`Wind`
-- :guilabel:`Vortex`
+- Spherical
+- Wind
+- Vortex
 
 Soft bodies do react on :guilabel:`Harmonic` fields, but not in a useful way.
 So if you use a :guilabel:`Harmonic` field for particles move the Soft body to another layer.
@@ -76,11 +76,11 @@ that the force is the same if wind is blowing or if you drag the edge through th
 same speed. That means that an edge moving in its own direction feels no force,
 and an edge moving perpendicular to its own direction feels maximum force.
 
-:guilabel:`Simple`
+Simple
    Edges receive a drag force from surrounding media
-:guilabel:`Lift Force`
+Lift Force
    Edges receive a lift force when passing through surrounding media.
-:guilabel:`Factor`
+Factor
    How much aerodynamic force to use. Try a value of 30 at first.
 
 
@@ -106,7 +106,7 @@ The vertex tries to reach it's target position with a certain, adjustable intens
 
 Imagine the vertex is connected with it's target through a spring (*Image 2b*).
 
-:guilabel:`Default`
+Default
    This parameter defines how strong the influence of this spring is. A strength of 1 means,
    that the vertex will not move as Soft Body at all, instead keep its original position. 0 :guilabel:`Goal`
    (or no :guilabel:`Goal`) means, that the vertex moves only according to Soft Body simulation.
@@ -121,7 +121,7 @@ Imagine the vertex is connected with it's target through a spring (*Image 2b*).
    The weight of :guilabel:`Hair` particles can also be painted in :doc:`Particle Mode </physics/particles/mode>`.
 
 
-:guilabel:`Minimum` / :guilabel:`Maximum`
+Minimum / Maximum
    When you paint the values in vertex-groups (using :guilabel:`WeightPaint` mode), you can use the :guilabel:`G Min` and :guilabel:`G Max` to fine-tune (clamp) the weight values. The lowest vertex-weight (blue) will become :guilabel:`G Min`, the highest value (red) becomes :guilabel:`G Max` (please note that the blue-red color scale may be altered by User Preferences).
 
 
@@ -131,10 +131,10 @@ Imagine the vertex is connected with it's target through a spring (*Image 2b*).
    For now we have discussed vertex movement independent of each other, similar to particles. Every object without :guilabel:`Goal` would collapse completely if a non uniform force is applied. Now we will move to the next step, the forces that keep the structure of the object and make the Soft Body to a real Body.
 
 
-:guilabel:`Stiffness`
+Stiffness
    The spring stiffness for Goal. A low value creates very weak springs (more flexible "attachment" to the goal), a high value creates a strong spring (a stiffer "attachment" to the goal).
 
-:guilabel:`Dampimg`
+Dampimg
    The friction of the spring. With a high value the movement will soon come to an end (little jiggle).
 
 

@@ -12,9 +12,9 @@ then recomposed in compositing later.
 Which objects contribute to which render layers are defined by these layer settings:
 
 
-:guilabel:`Scene Layers`
+Scene Layers
    Only objects on these layers will contribute to the image.
-:guilabel:`Camera Layers`
+Camera Layers
    Objects on these layers are directly visible to the camera. 
    When an object is in the scene layers but not camera layers,
    it will still cast shadows or be visible in reflections, so it's still indirectly visible.
@@ -22,10 +22,10 @@ Which objects contribute to which render layers are defined by these layer setti
    The way this works may be somewhat confusing at first,
    but it's designed such that render layers can be recomposed
    to give the full render, without any missing shadows or reflections.
-:guilabel:`Mask Layers`
+Mask Layers
    Objects on these will mask out other objects appearing behind them.
    This is equivalent to assigning a Holdout shader for camera rays to the objects on such layers.
-:guilabel:`Exclude Layers`
+Exclude Layers
    Scene layers are shared between all render layers;
    however sometimes it's useful to leave out some object influence for a particular render layer.
    That's what this option allows you to do.
@@ -34,34 +34,34 @@ Which objects contribute to which render layers are defined by these layer setti
 Lighting Passes
 ===============
 
-:guilabel:`Diffuse Direct`
+Diffuse Direct
    Direct lighting from diffuse BSDFs. We define direct lighting as coming from lamps, emitting surfaces,
    the background, or ambient occlusion after a single reflection or transmission off a surface.
    BSDF color is not included in this pass.
-:guilabel:`Diffuse Indirect`
+Diffuse Indirect
    Indirect lighting from diffuse BSDFs. We define indirect lighting as coming from lamps,
    emitting surfaces or the background after more than one reflection or transmission off a surface.
    BSDF color is not included in this pass.
-:guilabel:`Diffuse Color`
+Diffuse Color
    Color weights of diffuse BSDFs. These weights are the color input socket for BSDF nodes,
    modified by any Mix and Add Shader nodes.
 
-:guilabel:`Glossy Direct, Indirect, Color`
+Glossy Direct, Indirect, Color
    Same as above, but for glossy BSDFs.
-:guilabel:`Transmission Direct, Indirect, Color`
+Transmission Direct, Indirect, Color
    Same as above, but for transmission BSDFs.
-:guilabel:`Subsurface Direct, Indirect, Color`
+Subsurface Direct, Indirect, Color
    Same as above, but for subsurface BSDFs.
 
-:guilabel:`Emission`
+Emission
    Emission from directly visible surfaces.
-:guilabel:`Environment`
+Environment
    Emission from the directly visible background. When the film is set to transparent,
    this can be used to get the environment color and composite it back in.
 
-:guilabel:`Shadow`
+Shadow
    Shadows from lamp objects.
-:guilabel:`Ambient Occlusion`
+Ambient Occlusion
    Ambient occlusion from directly visible surfaces. BSDF color or AO factor is not included; i.e.
    it gives a 'normalized' value between 0 and 1.
 
@@ -84,26 +84,26 @@ All these lighting passes can be combined to produce the final image as follows:
 Data Passes
 ===========
 
-:guilabel:`Z`
+Z
    Z depth.
-:guilabel:`Mist`
+Mist
    Mist value between 0.0 and 1.0, using settings from the Mist Pass panel in world properties.
-:guilabel:`Normal`
+Normal
    Surface normal used for shading.
-:guilabel:`UV`
+UV
    Default render UV coordinates.
-:guilabel:`Object Index`
+Object Index
    Pass index of object.
-:guilabel:`Material Index`
+Material Index
    Pass index of material.
-:guilabel:`Vector`
+Vector
    Motion vectors for the vector blur node. The four components consist of 2D vectors giving the motion towards the
    next and previous frame position in pixel space.
 
 The Z, Object Index and Material Index passes are not antialiased.
 This is done because such values can't really be blended correctly.
 
-:guilabel:`Alpha Threshold`
+Alpha Threshold
    Z, Index, normal,
    UV and vector passes are only affected by surfaces with alpha transparency equal to or higher than this threshold.
    With value 0.0 the first surface hit will always write to these passes, regardless of transparency.

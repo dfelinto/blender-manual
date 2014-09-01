@@ -46,14 +46,19 @@ To enable or disable Undo,
 go to the :guilabel:`User Preferences` window and click on the :guilabel:`Editing` tab.
 In this section you can set:
 
-:guilabel:`Global Undo`
-   This enables Blender to save actions done when you are **not** in :guilabel:`Edit Mode`. For example, duplicating Objects, changing panel settings or switching between modes. The default Blender Installation comes with the option *Global Undo* enabled.
+Global Undo
+   This enables Blender to save actions done when you are **not** in :guilabel:`Edit Mode`.
+   For example, duplicating Objects, changing panel settings or switching between modes.
+   The default Blender Installation comes with the option *Global Undo* enabled.
 
-:guilabel:`Steps`
-   This numeric field indicates how many steps or actions to save. The default value of **32** will allow you to Undo the last thirty-two actions that you performed. You can change this numeric field to the maximum of **64**.
+Steps
+   This numeric field indicates how many steps or actions to save.
+   The default value of **32** will allow you to Undo the last thirty-two actions that you performed.
+   You can change this numeric field to the maximum of **64**.
 
-:guilabel:`Memory Limit`
-   This numeric field allows you to define the maximum amount of memory in Megabytes that the Undo system is allowed to use. The default value of **0** indicates no limit.
+Memory Limit
+   This numeric field allows you to define the maximum amount of memory in Megabytes
+   that the Undo system is allowed to use. The default value of **0** indicates no limit.
 
 
 Undo
@@ -233,11 +238,11 @@ Blender can use an :guilabel:`Autosave` function. The :guilabel:`File` tab of th
 :guilabel:`User Preferences` window allows you to configure the two ways that Blender provides
 for you to regress to a previous version of your work.
 
-:guilabel:`Save on Quit`
+Save on Quit
    The function :guilabel:`Save on Quit` is enabled by default in Blender.
    Blender will always save your files when you quit the application under normal operation.
 
-:guilabel:`Save Versions`
+Save Versions
    This option tells Blender to keep the indicated number of saved versions of your file in your current working
    directory when you manually save a file. These files will have the extension: ``.blend1``, ``.blend2``, etc.,
    with the number increasing to the number of versions you specify. Older files will be named with a higher number.
@@ -245,7 +250,7 @@ for you to regress to a previous version of your work.
    ``*.blend1`` (your second last save) and ``*.blend2`` (your third last save).
 
 
-:guilabel:`Auto Save Temporary Files`
+Auto Save Temporary Files
    Checking this box tells Blender to *automatically* save a backup copy of your work-in-progress to the Temp
    directory (refer to the :guilabel:`File` panel in the :guilabel:`User Preferences` window for its location).
    This will also enable the :guilabel:`Timer
@@ -270,7 +275,7 @@ for you to regress to a previous version of your work.
 Recovering Auto Saves
 ---------------------
 
-:guilabel:`Recover Last Session`
+Recover Last Session
    :menuselection:`File --> Recover Last Session` will open the ``quit.blend``
    that is saved into the :guilabel:`Temp` directory when you exit Blender.
    Note that files in your :guilabel:`Temp` directory are deleted when you reboot.
@@ -289,7 +294,7 @@ Recovering Auto Saves
    (See Figure: Blender File Browser)
 
 
-:guilabel:`Recover Auto Save`
+Recover Auto Save
    :menuselection:`File --> Recover Auto Save...` allows you to open the Auto Saved file.
    After loading the Auto Saved version,
    you may save it over the current file in your working directory as a normal ``.blend`` file.
@@ -309,10 +314,10 @@ Recovering Auto Saves
 Other options
 -------------
 
-:guilabel:`Recent Files`
+Recent Files
    This setting controls how many recent files are listed in the :menuselection:`File --> Open Recent` sub-menu.
 
-:guilabel:`Save Preview Images`
+Save Preview Images
    Previews of images and materials in the :guilabel:`File Browser` window are created on demand.
    To save these previews into your ``.blend`` file, enable this option
    (at the cost of increasing the size of your .blend file).

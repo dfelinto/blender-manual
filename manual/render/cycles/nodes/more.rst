@@ -8,7 +8,7 @@ Value
 
 Input a scalar value.
 
-:guilabel:`Value`
+Value
    Value output.
 
 
@@ -17,7 +17,7 @@ RGB
 
 Input an RGB color.
 
-:guilabel:`Color`
+Color
    RGB color output.
 
 
@@ -28,19 +28,19 @@ Geometric information about the current shading point.
 All vector coordinates are in *World Space*. For volume shaders,
 only the position and incoming vector are available.
 
-:guilabel:`Position`
+Position
    Position of the shading point.
-:guilabel:`Normal`
+Normal
    Shading normal at the surface (includes smooth normals and bump mapping).
-:guilabel:`Tangent`
+Tangent
    Tangent at the surface.
-:guilabel:`True Normal`
+True Normal
    Geometry or flat normal of the surface.
-:guilabel:`Incoming`
+Incoming
    Vector pointing towards the point the shading point is being viewed from.
-:guilabel:`Parametric`
+Parametric
    Parametric coordinates of the shading point on the surface.
-:guilabel:`Backfacing`
+Backfacing
    1.0 if the face is being viewed from the backside, 0.0 for the frontside.
 
 
@@ -49,11 +49,11 @@ Wireframe
 
 Node for a wireframe shader (Triangles only for now).
 
-:guilabel:`Pixel Size`
+Pixel Size
    Use screen pixel size instead of world units.
-:guilabel:`Size`
+Size
    Controls the thickness of the wireframe.
-:guilabel:`Fac output`
+Fac output
    1.0 if shading is executed on an edge, 0.0 otherwise.
 
 
@@ -62,9 +62,9 @@ Wavelength
 
 A wavelength to rgb converter.
 
-:guilabel:`Wavelength`
+Wavelength
    The color wavelength from 380 to 780 nanometers.
-:guilabel:`Color`
+Color
    RGB color output.
 
 
@@ -73,9 +73,9 @@ Blackbody
 
 A blackbody temperature to RGB converter.
 
-:guilabel:`Temperature`
+Temperature
    The temperature in Kelvin.
-:guilabel:`Color`
+Color
    RGB color output.
 
 
@@ -85,22 +85,22 @@ Texture Coordinates
 Commonly used texture coordinates,
 typically used as inputs for the :guilabel:`Vector` input for texture nodes.
 
-:guilabel:`Generated`
+Generated
    Automatically-generated texture coordinates from the vertex positions of the mesh without deformation,
    keeping them sticking to the surface under animation. Range from 0.0 to 1.
    0 over the bounding box of the undeformed mesh.
-:guilabel:`Normal`
+Normal
    Object space normal, for texturing objects with the texture staying fixed on the object as it transformed.
-:guilabel:`UV`
+UV
    UV texture coordinates from the active render UV layer.
-:guilabel:`Object`
+Object
    Position coordinate in object space.
-:guilabel:`Camera`
+Camera
    Position coordinate in camera space.
-:guilabel:`Window`
+Window
    Location of shading point on the screen, ranging from 0.0 to 1.
    0 from the left to right side and bottom to top of the render.
-:guilabel:`Reflection`
+Reflection
    Vector in the direction of a sharp reflection, typically used for environment maps.
 
 
@@ -113,13 +113,13 @@ Generate a perturbed normal from a height texture, for bump mapping. The height 
 sampled at the shading point and two nearby points on the surface to determine the local
 direction of the normal.
 
-:guilabel:`Invert`
+Invert
    Invert the bump mapping, to displace into the surface instead of out.
-:guilabel:`Strength Input`
+Strength Input
    Strength of the bump mapping effect, interpolating between no bump mapping and full bump mapping.
-:guilabel:`Distance Input`
+Distance Input
    Multiplier for the height value to control the overall distance for bump mapping.
-:guilabel:`Height Input`
+Height Input
    Scalar value giving the height offset from the surface at the shading point; this is where you plug in textures.
 
 
@@ -129,15 +129,15 @@ Vector Transform
 Allows converting a Vector,
 Point or Normal between World <=> Camera <=> Object coordinate space.
 
-:guilabel:`Type`
+Type
    Specifies the input/output type: Vector, Point or Normal.
-:guilabel:`Convert From`
+Convert From
    Coordinate Space to convert from: World, Object or Camera.
-:guilabel:`Convert To`
+Convert To
    Coordinate Space to convert to: World, Object or Camera.
-:guilabel:`Vector Input`
+Vector Input
    The input vector.
-:guilabel:`Vector Output`
+Vector Output
    The transformed output vector.
 
 
@@ -146,10 +146,10 @@ Tangent
 
 Generate a tangent direction for the Anisotropic BSDF.
 
-:guilabel:`Direction Type`
+Direction Type
    The tangent direction can be derived from a cylindrical projection around the X, Y or Z axis (Radial),
    or from a manually created UV Map for full control.
-:guilabel:`Tangent Output`
+Tangent Output
    The tangent direction vector.
 
 
@@ -162,19 +162,19 @@ to specify the normal map image. For tangent space normal maps,
 the UV coordinates for the image must match,
 and the image texture should be set to Non-Color mode to give correct results.
 
-:guilabel:`Space`
+Space
    The input RGB color can be in one of 3 spaces: Tangent, Object and World space.
    Tangent space normal maps are the most common, as they support object transformation and mesh deformations.
    Object space normal maps keep sticking to the surface under object transformations,
    while World normal maps do not.
-:guilabel:`UV Map`
+UV Map
    Name of the UV map to derive normal mapping tangents from. When chained with an Image Texture node,
    this UV map should be the same as the UV map used to map the texture.
-:guilabel:`Strength`
+Strength
    Strength of the normal mapping effect.
-:guilabel:`Color Input`
+Color Input
    RGB color that encodes the normal in the specified space.
-:guilabel:`Normal Output`
+Normal Output
    Normal that can be used as an input to BSDF nodes.
 
 
@@ -190,13 +190,13 @@ ramp can give a range of colors to be randomly picked from.
 Note that this node only works for material shading nodes;
 it does nothing for lamp and world shading nodes.
 
-:guilabel:`Location`
+Location
    Location of the object in world space.
-:guilabel:`Object Index`
+Object Index
    Object pass index, same as in the Object Index pass.transformed.
-:guilabel:`Material Index`
+Material Index
    Material pass index, same as in the Material Index pass.
-:guilabel:`Random`
+Random
    Random number unique to a single object instance.
 
 
@@ -208,19 +208,19 @@ this node give access to the data of the particle that spawned the instance.
 This node currently only supports parent particles,
 info from child particles is not available.
 
-:guilabel:`Index`
+Index
    Index number of the particle (from 0 to number of particles).
-:guilabel:`Age`
+Age
    Age of the particle in frames.
-:guilabel:`Lifetime`
+Lifetime
    Total lifespan of the particle in frames.
-:guilabel:`Location`
+Location
    Location of the particle.
-:guilabel:`Size`
+Size
    Size of the particle.
-:guilabel:`Velocity`
+Velocity
    Velocity of the particle.
-:guilabel:`Angular Velocity`
+Angular Velocity
    Angular velocity of the particle.
 
 
@@ -229,13 +229,13 @@ Hair Info
 
 This node gives access to strand information.
 
-:guilabel:`Is strand`
+Is strand
    Returns 1 when the shader is acting on a strand, otherwise 0.
-:guilabel:`Intersect`
+Intersect
    The point along the strand where the ray hits the strand (1 at the tip and 0 at the root).
-:guilabel:`Thickness`
+Thickness
    The thickness of the strand at the point where the ray hits the strand.
-:guilabel:`Tangent Normal`
+Tangent Normal
    Tangent normal of the strand.
 
 
@@ -248,13 +248,13 @@ with layers and attributes planned to be added. Also internal attributes like *P
 (position), *N* (normal), *Ng* (geometric normal) may be accessed this way,
 although there are more convenient nodes for this.
 
-:guilabel:`Name`
+Name
    Name of the attribute.
-:guilabel:`Color output`
+Color output
    RGB color interpolated from the attribute.
-:guilabel:`Vector output`
+Vector output
    XYZ vector interpolated from the attribute.
-:guilabel:`Fac output`
+Fac output
    Scalar value interpolated from the attribute.
 
 
@@ -263,15 +263,15 @@ Mapping
 
 Transform a coordinate; typically used for modifying texture coordinates.
 
-:guilabel:`Location`
+Location
    Vector translation.
-:guilabel:`Rotation`
+Rotation
    Rotation of the vector along XYZ axes.
-:guilabel:`Scale`
+Scale
    Scale of the vector.
-:guilabel:`Vector input`
+Vector input
    Vector to be transformed.
-:guilabel:`Vector output`
+Vector output
    Transformed vector.
 
 
@@ -280,13 +280,13 @@ Layer Weight
 
 Output weights typically used for layering shaders with the :guilabel:`Mix Shader` node.
 
-:guilabel:`Blend input`
+Blend input
    Blend between the first and second shader.
-:guilabel:`Fresnel output`
+Fresnel output
    Dielectric fresnel weight, useful for example to layer diffuse and glossy shaders to create a plastic material.
    This is like the :guilabel:`Fresnel` node,
    except that the input of this node is in the often more-convenient 0.0 to 1.0 range.
-:guilabel:`Facing output`
+Facing output
    Weight that blends from the first to the second shader as the surface goes from facing the viewer to viewing it at
    a grazing angle.
 
@@ -309,9 +309,9 @@ you can use the same setup, mixing between a diffuse and glossy BSDF. By using t
 the blending factor you're specifying that any light which is refracted through the glossy
 coating layer would hit the diffuse base and be reflected off that.
 
-:guilabel:`IOR input`
+IOR input
    Index of refraction of the material being entered.
-:guilabel:`Fresnel output`
+Fresnel output
    Fresnel weight,
    indicating the probability with which light will reflect off the layer rather than passing through.
 
@@ -324,25 +324,25 @@ particularly useful for non-physically based tricks.
 More information about the meaning of each type is in the
 :doc:`Light Paths </render/cycles/light_paths>` documentation.
 
-:guilabel:`Is Camera Ray output`
+Is Camera Ray output
    1.0 if shading is executed for a camera ray, 0.0 otherwise.
-:guilabel:`Is Shadow Ray output`
+Is Shadow Ray output
    1.0 if shading is executed for a shadow ray, 0.0 otherwise.
-:guilabel:`Is Diffuse Ray output`
+Is Diffuse Ray output
    1.0 if shading is executed for a diffuse ray, 0.0 otherwise.
-:guilabel:`Is Glossy Ray output`
+Is Glossy Ray output
    1.0 if shading is executed for a glossy ray, 0.0 otherwise.
-:guilabel:`Is Singular Ray output`
+Is Singular Ray output
    1.0 if shading is executed for a singular ray, 0.0 otherwise.
-:guilabel:`Is Reflection Ray output`
+Is Reflection Ray output
    1.0 if shading is executed for a reflection ray, 0.0 otherwise.
-:guilabel:`Is Transmission Ray output`
+Is Transmission Ray output
    1.0 if shading is executed for a transmission ray, 0.0 otherwise.
-:guilabel:`Ray Length output`
+Ray Length output
    Distance travelled by the light ray from the last bounce or camera.
-:guilabel:`Ray Depth output`
+Ray Depth output
    Returns the current light bounce.
-:guilabel:`Transparent Depth output`
+Transparent Depth output
    Returns the number of transparent surfaces passed through.
 
 
@@ -355,17 +355,17 @@ however it can be useful to manipulate as a non-physically based lighting trick.
 using Linear or Constant falloff may cause more light to be introduced with every global
 illumination bounce, making the resulting image extremely bright if many bounces are used.
 
-:guilabel:`Strength input`
+Strength input
    Light strength before applying falloff modification.
-:guilabel:`Smooth input`
+Smooth input
    Smooth intensity of light near light sources. This can avoid harsh highlights,
    and reduce global illumination noise. 0.0 corresponds to no smoothing; higher values smooth more.
    The maximum light strength will be strength/smooth.
-:guilabel:`Quadratic output`
+Quadratic output
    Quadratic light falloff; this will leave strength unmodified if smooth is 0.0 and corresponds to reality.
-:guilabel:`Linear output`
+Linear output
    Linear light falloff, giving a slower decrease in intensity over distance.
-:guilabel:`Constant output`
+Constant output
    Constant light falloff, where the distance to the light has no influence on its intensity.
 
 

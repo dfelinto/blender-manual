@@ -44,7 +44,8 @@ and another that has three maps.
    How all the parts of UV Texturing work together
 
 
-When using file textures, it is very important that you have :doc:`Mapped the UVs </textures/mapping/uv/unwrapping>` of the mesh, and they are laid out appropriately.
+When using file textures, it is very important that you have
+:doc:`Mapped the UVs </textures/mapping/uv/unwrapping>` of the mesh, and they are laid out appropriately.
 
 You don't have to UV map the *entire* mesh.
 The sphere above on the left has some faces mapped,
@@ -382,9 +383,9 @@ Image
 
 
 In the :guilabel:`Image Sampling` panel we tell Blender which source file to use.
-:guilabel:`Image or Movie Datablock`:
+Image or Movie Datablock:
 
-   :guilabel:`Browse`
+   Browse
       Select an image or video among linked to the .blend file
    :guilabel:`Name field`
       Internal name of image
@@ -397,10 +398,10 @@ In the :guilabel:`Image Sampling` panel we tell Blender which source file to use
    :guilabel:`X`
       Unlink this image or movie.
 
-:guilabel:`Source`:
+Source:
    Where the image come from. What kind of source file to use.
 
-   :guilabel:`Generated`
+   Generated
       Generated image in Blender.
    :guilabel:`Movie`
       Movie file.
@@ -409,53 +410,57 @@ In the :guilabel:`Image Sampling` panel we tell Blender which source file to use
    :guilabel:`Single Image`
       Single image file.
 
-:guilabel:`File for Image or Movie texture`:
+File for Image or Movie texture:
    See about supported :doc:`Image </data_system/files/formats>` formats.
 
-   :guilabel:`Pack image`
+   Pack image
       Embed image into current .blend file
    :guilabel:`Path`
       Path to file
    :guilabel:`File Browser`
-      Find a file on your computer.  Hold :kbd:`Shift` to open the selected file and :kbd:`Ctrl` to browse a containing directory.
+      Find a file on your computer.
+      Hold :kbd:`Shift` to open the selected file and :kbd:`Ctrl` to browse a containing directory.
    :guilabel:`Reload`
       Reloads the file.  Useful when an image has been rework in an external application.
 
-:guilabel:`Input Color Space`
+Input Color Space
    Color space of the image or movie on disk
 
-   :guilabel:`XYZ`
+   XYZ
       XYZ space.
-   :guilabel:`VD16`
+   VD16
       The simple video conversion from a gamma 2.2 sRGB space.
-   :guilabel:`sRGB`
+   sRGB
       Standart RGB display space.
-   :guilabel:`Raw`
+   Raw
       Raw space.
-   :guilabel:`Non-Color`
+   Non-Color
       Color space used for images which contains non-color data (i.e. normal maps).
-   :guilabel:`Linear ACES`
+   Linear ACES
       ACES linear space.
-   :guilabel:`Linear`
+   Linear
       709 (full range). Blender native linear space.
 
-   :guilabel:`View as Render`
+   View as Render
       Apply render part of display transformation when displaying this image on the screen.
 
-:guilabel:`Use Alpha`
+Use Alpha
    Use the alpha channel information from the image or make image fully opaque
 
-   :guilabel:`Straight`
+   Straight
       Transparent RGB and alpha pixels are unmodified.
-   :guilabel:`Premultiplied`
+   Premultiplied
       Transparent RGB pixels of an image are multiplied by the image's alpha value.
 
-:guilabel:`Fields`
-   Work with field images.  Video frames consist of two different images (fields) that are merged.  This option ensures that when :guilabel:`Fields` are rendered, the correct field of the image is used in the correct field of the rendering. :guilabel:`MIP Mapping` cannot be combined with :guilabel:`Fields`.
+Fields
+   Work with field images.  Video frames consist of two different images (fields) that are merged.
+   This option ensures that when :guilabel:`Fields` are rendered,
+   the correct field of the image is used in the correct field of the rendering.
+   :guilabel:`MIP Mapping` cannot be combined with :guilabel:`Fields`.
 
-   :guilabel:`Upper First`
+   Upper First
       Order of video fields - upper field first.
-   :guilabel:`Lower First`
+   Lower First
       Order of video fields - lower field first.
 
 
@@ -471,16 +476,16 @@ For :guilabel:`Generated` source there are the specific options:
 
    Width and height of image to be generated.
 
-:guilabel:`Generated Image Type`
+Generated Image Type
    Which kind of image to be generated
 
-   :guilabel:`Blank`
+   Blank
       Generate a blank image.
-   :guilabel:`UV Grid`
+   UV Grid
       Generated grid to test UV mappings.
-   :guilabel:`Color Grid`
+   Color Grid
       Generated improved UV grid to test UV mappings.
-:guilabel:`Float Buffer`
+Float Buffer
    Generate floating point buffer.
 
 
@@ -519,17 +524,17 @@ the horizontal bar has 50% alpha.
 +Right: Foreground image with :guilabel:`Calculate` alpha                                                                                       +
 +-----------------------------------------------------------------------------------------------+-----------------------------------------------+
 
-:guilabel:`Alpha`
+Alpha
    Options related to transparency
 
-   :guilabel:`Use`
+   Use
       Works with PNG and TGA files since they can save transparency information (Foreground Image with UseAlpha). Where the alpha value in the image is less than 1.0, the object will be partially transparent and stuff behind it will show.
-   :guilabel:`Calculate`
+   Calculate
       Calculate an alpha based on the RGB values of the Image. Black (0,0,0) is transparent, white (1,1,1) opaque. Enable this option if the image texture is a mask. Note that mask images can use shades of gray that translate to semi-transparency, like ghosts, flames, and smoke/fog.
-   :guilabel:`Invert`
+   Invert
       Reverses the alpha value. Use this option if the mask image has white where you want it transparent and vice-versa.
 
-:guilabel:`Flip X/Y Axis`
+Flip X/Y Axis
    Rotates the image 90 degrees counterclockwise when rendered.
 
 
@@ -540,23 +545,23 @@ the horizontal bar has 50% alpha.
    Image Sampling panel
 
 
-:guilabel:`Normal Map`
+Normal Map
    This tells Blender that the image is to be used to create the illusion of a bumpy surface,
    with each of the three RGB channels controlling how to fake a shadow from a surface irregularity.
    Needs specially prepared input pictures.
    See :doc:`Bump and Normal Maps </textures/influence/material/bump_and_normal>`.
 
 
-   :guilabel:`Normal Map Space`:
+   Normal Map Space:
       :guilabel:`Tangent`:
       :guilabel:`Object`:
       :guilabel:`World`:
       :guilabel:`Camera`:
 
-:guilabel:`Derivative Map`
+Derivative Map
    Use red and green as derivative values.
 
-:guilabel:`MIP Map`
+MIP Map
    `MIP Maps <http://en.wikipedia.org/wiki/Mipmap>`__ are pre-calculated, smaller,
    filtered Textures for a certain size.  A series of pictures is generated, each half the size of the former one.
    This optimizes the filtering process. By default, this option is enabled and speeds up rendering
@@ -566,7 +571,7 @@ the horizontal bar has 50% alpha.
    when the Textures become very small.  This would be noticeable in an animation.
 
 
-   :guilabel:`MIP Map Gaussian filter`
+   MIP Map Gaussian filter
       Used in conjunction with MIP Map, it enables the MIP Map to be made smaller based on color similarities.  In the game engine, you want your textures, especially your MIP Map textures, to be as small as possible to increase rendering speed and frame rate.
 
 
@@ -578,7 +583,7 @@ the horizontal bar has 50% alpha.
 +Enlarged Image texture without and with :guilabel:`Interpolation`                                                                 +
 +-----------------------------------------------------------------+----------------------------------------------------------------+
 
-:guilabel:`Interpolation`
+Interpolation
    This option interpolates the pixels of an image.
    This becomes visible when you enlarge the picture. By default, this option is on.  Turn this option OFF to keep the individual pixels visible and if they are correctly anti-aliased.  This last feature is useful for regular patterns, such as lines and tiles; they remain 'sharp' even when enlarged considerably.  When you enlarge this 10x10 pixel Image
 
@@ -588,34 +593,34 @@ the horizontal bar has 50% alpha.
 the difference with and without :guilabel:`Interpolation` is clearly visible.
 Turn this image off if you are using digital photos to preserve crispness.
 
-:guilabel:`Filter`
+Filter
    The filter size used in rendering, and also by the options :guilabel:`MipMap` and :guilabel:`Interpolation`. If you notice gray lines or outlines around the textured object, particularly where the image is transparent, turn this value down from 1.0 to 0.1 or so.
 
-   :guilabel:`Texture Filter Type`
+   Texture Filter Type
       Texture filter to use for image sampling.  Just like a *pixel* represents a *pic* ture *el* ement, a *texel* represents a *tex* ture *el* ement.  When a texture (2D texture space) is mapped onto a 3D model (3D model space), different algorithms can be used to compute a value for each pixel based on samplings from several texels.
 
-      :guilabel:`Box`
+      Box
           A fast and simple nearest-neighbor interpolation known as Monte Carlo integration
-      :guilabel:`EWA`
+      EWA
           **E** lliptical **W** eighted **A** verage — one of the most efficient direct convolution algorithms developed by Paul Heckbert and Ned Greene in the 1980s.  For each texel, EWA samples, weights, and accumulates texels within an elliptical footprint and then divides the result by the sum of the weights.
 
-         :guilabel:`Eccentricity`
+         Eccentricity
             Maximum Eccentricity. Higher values give less blur at distant/oblique angles, but is slower
-      :guilabel:`FELINE`
+      FELINE
           FELINE (**F** ast **E** lliptical **Line** s), uses several isotropic probes at several points along a line in texture space to produce an anisotropic filter to reduce aliasing artifacts without considerably increasing rendering time.
 
-         :guilabel:`Probes`
+         Probes
             Number of probes to use.  An integer between 1 and 256.
             Further reading: McCormack, J; Farkas, KI; Perry, R; Jouppi, NP (1999) `Simple and Table Feline: Fast Elliptical Lines for Anisotropic Texture Mapping <http://www.hpl.hp.com/techreports/Compaq-DEC/WRL-99-1.pdf>`__, WRL
-      :guilabel:`Area`
+      Area
           Area filter to use for image sampling
 
-         :guilabel:`Eccentricity`
+         Eccentricity
             Maximum Eccentricity. Higher values give less blur at distant/oblique angles, but is slower
 
-   :guilabel:`Filter Size`
+   Filter Size
       The filter size used by MIP Map and Interpolation
-   :guilabel:`Minimum Filter Size`
+   Minimum Filter Size
       Use Filter Size as a minimal filter value in pixels
 
 
@@ -631,31 +636,32 @@ Image Mapping
 
 In the :guilabel:`Image Mapping` panel,
 we can control how the image is mapped or projected onto the 3D model.
-:guilabel:`Extension`:
 
-   :guilabel:`Extend`
+Extension:
+
+   Extend
       Outside the image the colors of the edges are extended
-   :guilabel:`Clip`
+   Clip
       Clip to image size and set exterior pixels as transparent.  Outside the image, an alpha value of 0.0 is returned. This allows you to 'paste' a small logo on a large object.
-   :guilabel:`Clip Cube`
+   Clip Cube
       Clips to cubic-shaped area around the images and sets exterior pixels as transparent.  The same as Clip, but now the 'Z' coordinate is calculated as well.  An alpha value of 0.0 is returned outside a cube-shaped area around the image.
-   :guilabel:`Repeat`
+   Repeat
       The image is repeated horizontally and vertically
 
-      :guilabel:`Repeat`
+      Repeat
          X/Y repetition multiplier
 
-      :guilabel:`Mirror`
+      Mirror
          Mirror on X/Y axes.  This buttons allow you to map the texture as a mirror, or automatic flip of the image, in the corresponding X and/or Y direction.
-   :guilabel:`Checker`
+   Checker
       Checkerboards quickly made. You can use the option :guilabel:`size` on the :guilabel:`Mapping` panel as well to create the desired number of checkers.
 
-      :guilabel:`Even` / :guilabel:`Odd`
+      Even / Odd
          Set even/odd tiles
 
-      :guilabel:`Distance`
+      Distance
          Governs the distance between the checkers in parts of the texture size
 
-:guilabel:`Crop Minimum` / :guilabel:`Crop Maximum`
+Crop Minimum / Crop Maximum
    The offset and the size of the texture in relation to the texture space. Pixels outside this space are ignored. Use these to crop, or choose a portion of a larger image to use as the texture.
 

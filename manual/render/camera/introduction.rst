@@ -82,58 +82,47 @@ Lens
 ----
 
 
-- :guilabel:`Perspective / Orthographic / Panoramic`
+Perspective / Orthographic / Panoramic
+   Select what projection type to use. :guilabel:`Perspective` is the default and makes objects further away
+   appear smaller while :guilabel:`Orthographic` maintains the exact measures of objects. A
+   :guilabel:`Perspective` projection is more similar to what an image obtained with a real camera would look like
+   while an :guilabel:`Orthographic` projection is a more technical view, best for blueprints,
+   but worst to convey distances between objects.
+   To configure these projections,
+   see :doc:`this page </render/camera/perspective>`on vanishing points and isometric view.
+   :guilabel:`Panoramic` renders the scene with a cylindrical projection.
 
-      Select what projection type to use. :guilabel:`Perspective` is the default and makes objects further away
-      appear smaller while :guilabel:`Orthographic` maintains the exact measures of objects. A
-      :guilabel:`Perspective` projection is more similar to what an image obtained with a real camera would look like
-      while an :guilabel:`Orthographic` projection is a more technical view, best for blueprints,
-      but worst to convey distances between objects.
-      To configure these projections,
-      see :doc:`this page </render/camera/perspective>`on vanishing points and isometric view.
-      :guilabel:`Panoramic` renders the scene with a cylindrical projection.
+   .. figure:: /images/Manual-CameraView-Camera.jpg
+      :width: 200px
+      :figwidth: 200px
+   
+      A camera with the clipping limits and focal point visible.
 
-
-.. figure:: /images/Manual-CameraView-Camera.jpg
-   :width: 200px
-   :figwidth: 200px
-
-   A camera with the clipping limits and focal point visible.
-
-
-- :guilabel:`Focal Length`
-
-      Available in Perspective and Panoramic camera types, represents the lens focal length,
-      represented in degrees or millimeters. When :guilabel:`Orthographic` mode is selected,
-      the :guilabel:`Focal Length` setting changes to the :guilabel:`Orthographic Scale` setting.
-      This setting determines the size of the camera's visible area.
-
-
-- :guilabel:`Shift X/Y`
-
-      Shifts the camera viewport. Note that most of the time,
-      this setting should not be used to adjust the camera position,
-      as the :guilabel:`Shift` setting is relative to the actual camera position, which will not be changed.
+Focal Length
+    Available in Perspective and Panoramic camera types, represents the lens focal length,
+    represented in degrees or millimeters. When :guilabel:`Orthographic` mode is selected,
+    the :guilabel:`Focal Length` setting changes to the :guilabel:`Orthographic Scale` setting.
+    This setting determines the size of the camera's visible area.
+Shift X/Y
+    Shifts the camera viewport. Note that most of the time,
+    this setting should not be used to adjust the camera position,
+    as the :guilabel:`Shift` setting is relative to the actual camera position, which will not be changed.
+Clipping Start/End
+    Sets the clipping limits. Only objects within the limits are rendered.
+    If :guilabel:`Limits` in the :guilabel:`Display` panel is enabled,
+    the clip bounds will be visible as two yellow connected dots on the camera line of sight.
 
 
-- :guilabel:`Clipping Start/End`
+   .. note::
 
-      Sets the clipping limits. Only objects within the limits are rendered.
-      If :guilabel:`Limits` in the :guilabel:`Display` panel is enabled,
-      the clip bounds will be visible as two yellow connected dots on the camera line of sight.
+      The :guilabel:`3D View` window contains settings similar to the camera,
+      such as :guilabel:`Orthographic` / :guilabel:`Perspective` and :guilabel:`Clip Start` / :guilabel:`Clip End`.
+      These settings have no effect on the camera rendering,
+      and only change the view settings when *not* in :guilabel:`Camera` view.
+      These settings are accessed through the :menuselection:`View` menu of the :guilabel:`3D View`.
 
-
-.. admonition:: Note
-   :class: note
-
-   The :guilabel:`3D View` window contains settings similar to the camera,
-   such as :guilabel:`Orthographic` / :guilabel:`Perspective` and :guilabel:`Clip Start` / :guilabel:`Clip End`.
-   These settings have no effect on the camera rendering,
-   and only change the view settings when *not* in :guilabel:`Camera` view.
-   These settings are accessed through the :menuselection:`View` menu of the :guilabel:`3D View`.
-
-   See the :doc:`3D view options page </3d_interaction/navigating/3d_view_options#view_properties_panel>`
-   for more details.
+      See the :doc:`3D view options page </3d_interaction/navigating/3d_view_options#view_properties_panel>`
+      for more details.
 
 
 Camera Presets
@@ -162,17 +151,13 @@ Depth of Field
    Camera Display panel
 
 
-- :guilabel:`Depth of Field` object
-
-      When using :doc:`Depth of Field </render/camera/depth_of_field>`,
-      the linked object will determine the focal point. Linking an object will deactivate the distance parameter.
-
-
-- :guilabel:`Distance`
-
-      Distance to the focal point. It is shown as a yellow cross on the camera line of sight.
-      :guilabel:`Limits` must be enabled to see the cross.
-      It is used in combination with the :doc:`Defocus Compositing Node </composite_nodes/types/filter#defocus>`.
+Depth of Field Object
+   When using :doc:`Depth of Field </render/camera/depth_of_field>`,
+   the linked object will determine the focal point. Linking an object will deactivate the distance parameter.
+Distance
+   Distance to the focal point. It is shown as a yellow cross on the camera line of sight.
+   :guilabel:`Limits` must be enabled to see the cross.
+   It is used in combination with the :doc:`Defocus Compositing Node </composite_nodes/types/filter#defocus>`.
 
 
 Display
@@ -185,17 +170,13 @@ Display
    Camera Display panel
 
 
-- :guilabel:`Limits`
-
-      Toggles viewing of the limits on and off.
-
-
-- :guilabel:`Mist`
-
-      Toggles viewing of the mist limits on and off.
-      The limits are shown as two connected white dots on the camera line of sight.
-      The mist limits and other options are set in the :guilabel:`World` panel,
-      in the :doc:`Mist section </world/mist>`.
+Limits
+   Toggles viewing of the limits on and off.
+Mist
+   Toggles viewing of the mist limits on and off.
+   The limits are shown as two connected white dots on the camera line of sight.
+   The mist limits and other options are set in the :guilabel:`World` panel,
+   in the :doc:`Mist section </world/mist>`.
 
 
 .. figure:: /images/Manual-Camera-camera-view.jpg
@@ -205,32 +186,19 @@ Display
    Camera view displaying safe areas, sensor and name
 
 
-- :guilabel:`Safe Areas`
-
-      When this is enabled, extra dotted frames are drawn when in camera view,
-      delimiting the area considered as "safe" for important things.
-
-
-- :guilabel:`Sensor`
-
-      Displays a dotted frame in camera view.
-
-
-- :guilabel:`Name`
-
-      Toggle name display on and off in camera view.
-
-
-- :guilabel:`Size`
-
-      Size of the camera icon in the 3D view. This setting has no effect on the render output of a camera,
-      and is only a cosmetic setting.
-      The camera icon can also be scaled using the standard Scale :kbd:`S` transform key.
-
-
-- :guilabel:`Passepartout`, :guilabel:`Alpha`
-
-      This mode darkens the area outside of the camera's field of view, based on the :guilabel:`Alpha` setting.
+Safe Areas
+   When this is enabled, extra dotted frames are drawn when in camera view,
+   delimiting the area considered as "safe" for important things.
+Sensor
+   Displays a dotted frame in camera view.
+Name
+   Toggle name display on and off in camera view.
+Size
+   Size of the camera icon in the 3D view. This setting has no effect on the render output of a camera,
+   and is only a cosmetic setting.
+   The camera icon can also be scaled using the standard Scale :kbd:`S` transform key.
+Passepartout, Alpha
+   This mode darkens the area outside of the camera's field of view, based on the :guilabel:`Alpha` setting.
 
 
 Composition Guides
@@ -240,39 +208,24 @@ Composition Guides
 There are 8 types of guides available:
 
 
-- :guilabel:`Center`
-
-      Adds lines dividing the frame in half vertically and horizontally.
-
-- :guilabel:`Center Diagonal`
-
-      Adds lines connecting opposite corners.
-
-- :guilabel:`Thirds`
-
-      Adds lines dividing the frame in thirds vertically and horizontally.
-
-- :guilabel:`Golden`
-
-      Divides the width and height into Golden proportions (About 0.618 of the size from all sides of the frame).
-
-- :guilabel:`Golden Triangle A`
-
-      Draws a diagonal line from the lower-left to upper-right corners,
-      then adds perpendicular lines that pass through the top left and bottom right corners.
-
-- :guilabel:`Golden Triangle B`
-
-      Same as A, but with the opposite corners.
-
-- :guilabel:`Harmonious Triangle A`
-
-      Draws a diagonal line from the lower-left to upper-right corners,
-      then lines from the top left and bottom right corners to 0.618 the lengths of the opposite side.
-
-- :guilabel:`Harmonious Triangle B`
-
-      Same as A, but with the opposite corners.
+Center
+   Adds lines dividing the frame in half vertically and horizontally.
+Center Diagonal
+   Adds lines connecting opposite corners.
+Thirds
+   Adds lines dividing the frame in thirds vertically and horizontally.
+Golden
+   Divides the width and height into Golden proportions (About 0.618 of the size from all sides of the frame).
+Golden Triangle A
+   Draws a diagonal line from the lower-left to upper-right corners,
+   then adds perpendicular lines that pass through the top left and bottom right corners.
+Golden Triangle B
+   Same as A, but with the opposite corners.
+Harmonious Triangle A
+   Draws a diagonal line from the lower-left to upper-right corners,
+   then lines from the top left and bottom right corners to 0.618 the lengths of the opposite side.
+Harmonious Triangle B
+   Same as A, but with the opposite corners.
 
 
 Camera Navigation
@@ -328,19 +281,15 @@ that are used to manipulate any object:
 Roll
    Press :kbd:`R` to enter object rotation mode. The default will be to rotate the camera in its local Z-axis
    (the axis orthogonal to the camera view), which is the definition of a camera "roll".
-
 Vertical Pan or Pitch
    This is just a rotation along the local X-axis. Press :kbd:`R` to enter object rotation mode, then :kbd:`X` twice
    (the first press selects the *global* axis - pressing the same letter a second time selects the *local* axis -
    this works with any axis; see the :doc:`axis locking page </3d_interaction/transform_control/axis_locking>`).
-
 Horizontal Pan or Yaw
    This corresponds to a rotation around the camera's local Y axis... Yes, that's it, press :kbd:`R`,
    and then :kbd:`Y` twice!
-
 Dolly
    To dolly the camera, press :kbd:`G` then :kbd:`mmb` (or  :kbd:`Z` twice).
-
 Sideways Tracking
    Press :kbd:`G` and move the mouse
    (you can use  :kbd:`X` twice or :kbd:`Y` to get pure-horizontal or pure-vertical sideways tracking).

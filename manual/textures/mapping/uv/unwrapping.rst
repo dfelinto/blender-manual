@@ -150,13 +150,13 @@ should be set (in Blender units) to encompass the object.
 
 The following settings are common for the Cube, Cylinder, and Sphere mappings:
 
-:guilabel:`Correct Aspect`
+Correct Aspect
    Map UVs taking image aspect ratios into consideration.
    If an image has already been mapped to the texture space that is non-square,
    the projection will take this into account and distort the mapping to appear correct.
-:guilabel:`Clip to Bounds`
+Clip to Bounds
    Any UVs that lie outside the 0 to 1 range will be clipped to that range by being moved to the UV space border it is closest to.
-:guilabel:`Scale to Bounds`
+Scale to Bounds
    If the UV map is larger than the 0 to 1 range, the entire map will be scaled to fit inside.
 
 
@@ -202,24 +202,24 @@ the point at the equator facing you will be in the middle of the image.
 A polar view will give a very different but common projection map. Using a Mercator projection
 map of the earth as the UV image will give a very nice planet mapping onto the sphere.
 
-:guilabel:`Direction`
-   :guilabel:`View on Poles`
+Direction
+   View on Poles
       Use when viewing from the top (at a pole) by using an axis that is straight down from the view
-   :guilabel:`View on Equator`
+   View on Equator
       Use if view is looking at the equator, by using a vertical axis
-   :guilabel:`Align to Object`
+   Align to Object
       Uses the object's transform to calculate the axis
 
-:guilabel:`Align`
+Align
    Select which axis is up
 
-   :guilabel:`Polar ZX`
+   Polar ZX
       Polar 0 is on the x axis
-   :guilabel:`Polar ZY`
+   Polar ZY
       Polar 0 is on the y axis
 
 
-:guilabel:`Radius`
+Radius
    The radius of the cylinder to use
 
 
@@ -369,20 +369,20 @@ If all faces of an object are selected, then each face is mapped to some portion
 Blender has two ways of calculating the unwrapping.
 They can be selected in the tool setting in the tool panel in the 3D View.
 
-:guilabel:`Angle Based`
+Angle Based
    This method gives a good 2d representation of a mesh.
-:guilabel:`Conformal`
+Conformal
    Uses LSCM (Least Squared Conformal Mapping). This usually gives a less accurate UV mapping than Angle Based, but works better for simpler objects.
 
-:guilabel:`Fill Holes`
-   Activating :guilabel:`Fill Holes` will prevent overlapping from occurring and better represent any holes in the UV regions.
-:guilabel:`Correct Aspect`
+Fill Holes
+   Activating Fill Holes will prevent overlapping from occurring and better represent any holes in the UV regions.
+Correct Aspect
    Map UVs taking image aspect into account
 
-:guilabel:`Use Subsurf Modifier`
+Use Subsurf Modifier
    Map UVs taking vertex position after subsurf modifier into account
 
-:guilabel:`Margin`
+Margin
    Space between UV islands
 
 **This point is crucial to understanding mapping** later on: a face's UV image texture only has to use *part* of the image, not the *whole* image. Also, portions of the same image can be shared by multiple faces. A face can be mapped to less and less of the total image.
@@ -419,13 +419,13 @@ logical and straightforward UV layout for you.
 The Tool Settings panel in the Tool Shelf allows the fine control over how the mesh is
 unwrapped:
 
-:guilabel:`Angle Limit`
+Angle Limit
    This controls how faces are grouped: a higher limit will lead to many small groups but less distortion, while a lower limit will create fewer groups at the expense of more distortion.
 
-:guilabel:`Island Margin`
+Island Margin
    This controls how closely the UV islands are packed together. A higher number will add more space in between islands.
 
-:guilabel:`Area Weight`
+Area Weight
    Weight projection's vector by faces with larger areas
 
 
@@ -446,19 +446,19 @@ The :guilabel:`Selected Mesh Object` option works on multiple meshes. To use thi
 in :guilabel:`Object Mode` select several mesh objects,
 then go into :guilabel:`Edit Mode` and activate the tool.
 
-:guilabel:`Share Tex Space`
+Share Tex Space
    This is useful if mapping more than one mesh. It attempts to fit all of the objects' faces in the UV bounds without overlapping.
-:guilabel:`New UV Layer`
+New UV Layer
    If mapping multiple meshes, this option creates a new UV layer for each mesh. See :doc:`Managing the Layout </textures/mapping/uv/layout_management>`.
-:guilabel:`New Image`
+New Image
    Assigns new images for every mesh, but only one if :guilabel:`Shared Tex Space` is enabled.
 
-   :guilabel:`Image Size`
+   Image Size
       Set the size of the new image.
 
-:guilabel:`Pack Quality`
+Pack Quality
    Pre-packing before the more complex Box packing.
-:guilabel:`Margin`
+Margin
    This controls how closely the UV islands are packed together. A higher number will add more space in between islands.
 
 
@@ -472,9 +472,9 @@ so you may have to scale them all down a bit to fit the image area.
 
 Edge Length Mode:
 
-:guilabel:`Even`
+Even
    Space all UVs evenly.
-:guilabel:`Length`
+Length
    Average space UV's edge length of each loop.
 
 Please note that it is the shape of the active quad in UV space that is being followed,

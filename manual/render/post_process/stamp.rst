@@ -12,32 +12,32 @@ metadata is written into the file for checked items.
 
 Stamping can include the following data:
 
-:guilabel:`Time`
+Time
    Include the current scene time and render frame as HH:MM:SS.FF.
-:guilabel:`Date`
+Date
    Include the current date and time.
-:guilabel:`RenderTime`
+RenderTime
    Include the render time in the stamp image.
-:guilabel:`Frame`
+Frame
    Include the frame number.
-:guilabel:`Scene`
+Scene
    Include the name of the active scene.
-:guilabel:`Camera`
+Camera
    Include the name of the active camera.
-:guilabel:`Lens`
+Lens
    Include the name of the active camera's lens value.
-:guilabel:`Filename`
+Filename
    Include the filename of the .blend file.
-:guilabel:`Marker`
+Marker
    Include the name of the last marker.
-:guilabel:`Seq. Strip`
+Seq. Strip
    Include the name of the foreground sequence strip.
-:guilabel:`Note`
+Note
    Include a custom note.
 
-:guilabel:`Stamp Text Color`
+Stamp Text Color
    Set the color and alpha of the stamp text.
-:guilabel:`Stamp Background`
+Stamp Background
    Set the color and alpha of the color behind the text.
-:guilabel:`Font`
+Font
    Set the size of the text.

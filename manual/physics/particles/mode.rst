@@ -153,11 +153,11 @@ Select Modes
    :figwidth: 640px
 
 
-:guilabel:`Path`
+Path
    No keypoints are visible, you can select/deselect only all particles.
-:guilabel:`Point`
+Point
    You see all of the keypoints.
-:guilabel:`Tip`
+Tip
    You can see and edit (including the brushes) only the tip of the particles, i.e. the last keypoint.
 
 
@@ -168,41 +168,41 @@ With the buttons you can select the type of "Comb" utility you want to use.
 Below the brush types, their settings appear:
 
 Common Options:
-   :guilabel:`Radius`
+   Radius
       Set the radius if the brush.
-   :guilabel:`Strength`
+   Strength
       Set the strength of the brush effect (not for Add brush).
-   :guilabel:`Add/Sub Grow/Shrink`
+   Add/Sub Grow/Shrink
       Sets the brush to add the effect or reverse it..
 
-:guilabel:`None`
+None
    No special tool, just edit the keypoints as "normal" vertices.
-:guilabel:`Comb`
+Comb
    Moves the keypoints (similar to "proportional editing").
-:guilabel:`Smooth`
+Smooth
    Parallels visually adjacent segments.
-:guilabel:`Add`
+Add
    Adds new particles.
 
-   :guilabel:`Count`
+   Count
       The number of new particles per step.
-   :guilabel:`Interpolate`
+   Interpolate
       Interpolate the shape of new hairs from existing ones.
-   :guilabel:`Steps`
+   Steps
       Amount of brush steps
-   :guilabel:`Keys`
+   Keys
       How many keys to make new particles with.
-:guilabel:`Length`
+Length
    Scales the segments, so it makes the hair longer(:guilabel:`Grow`) or shorter(:guilabel:`Shrink`).
-:guilabel:`Puff`
+Puff
    Rotates the hair around it's first keypoint (root). So it makes the hair stand up (:guilabel:`Add`) or lay down (:guilabel:`Sub`).
 
-   :guilabel:`Puff Volume`
+   Puff Volume
       Apply puff to unselected end-points, (helps maintain hair volume when puffing root)
-:guilabel:`Cut`
+Cut
    Scales the segments until the last keypoint reaches the brush.
 
-:guilabel:`Weight`
+Weight
    This is especially useful for softbody animations, because the weight defines the softbody :guilabel:`Goal`.
    A keypoint with a weight of 1 won't move at all,
    a keypoint with a weight of 0 subjects fully to softbody animation.
@@ -214,21 +214,21 @@ Common Options:
 Options
 -------
 
-:guilabel:`Deflect Emitter`,\ :guilabel:`Dist`
+Deflect Emitter, Dist
    Don't move keypoints through the emitting mesh. :guilabel:`Dist` is the distance to keep from the Emitter.
-:guilabel:`Keep`
-   :guilabel:`Length`
+Keep
+   Length
       Keep the length of the segments between the keypoints when combing or smoothing the hair.
       This is done by moving all the other keypoints.
-   :guilabel:`Root`
+   Root
       Keep first key unmodified, so you can't transplant hair.
-:guilabel:`X Mirror`
+X Mirror
    Enable mirror editing across the local x axis.
 
-:guilabel:`Draw`
-   :guilabel:`Path Steps`
+Draw
+   Path Steps
       Drawing steps, sets the smoothness of the drawn path.
-   :guilabel:`Show Children`
+   Show Children
       Draws the children of the particles too.
       This allows to fine tune the particles and see their effects on the result,
       but it may slow down your system if you have many children.

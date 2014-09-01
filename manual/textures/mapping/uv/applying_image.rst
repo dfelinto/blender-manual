@@ -29,15 +29,15 @@ Activating the tool brings up the File Browser Window with options for saving th
    Export options
 
 
-:guilabel:`All UVs`
+All UVs
    if disabled, then only the UV faces selected will be outlined
-:guilabel:`Modified`
+Modified
    Export UVs from the modified mesh.
-:guilabel:`Format`
+Format
    Select the type of image file to save (.png, .eps, .svg)
-:guilabel:`Size`
+Size
    select the size of the image in pixels. The image be square.
-:guilabel:`Fill Opacity`
+Fill Opacity
    Set the opacity of the fill
 
 The image will be lines defining the UV edges that are within the image area of the UV mapping
@@ -186,25 +186,25 @@ When you select :guilabel:`New Image` you are presented with several options. Th
 :guilabel:`Generated` image can also be modified afterward in the :guilabel:`Properties
 Panel`:
 
-:guilabel:`Image Name`
+Image Name
    Set the name if the generated image
-:guilabel:`Width` and :guilabel:`Height`
+Width and Height
    Set the size if the image in pixels
-:guilabel:`Color`
+Color
    Sets the the default fill color if creating a blank image.
-:guilabel:`Alpha`
+Alpha
    Adds an alpha channel to the image
-:guilabel:`Generated Type`
+Generated Type
    The type of image to generate:
 
-   :guilabel:`UV Grid`
+   UV Grid
       Creates a checkerboard pattern with a colored + in each square.
-   :guilabel:`Color Grid`
+   Color Grid
       Creates a UV Test Grid, which is useful for testing how UVs have been mapped, and to reduce stretching.
       There are two types available, which can be set after the image has been created.
-   :guilabel:`Blank`
+   Blank
       Generates a blank image of the specified color.
-:guilabel:`32 bit`
+32 bit
    Creates a 32 bit image. This is a larger file size,
    but holds much more color information than the standard 8 bit image. For close ups and large gradients,
    it may be better to use a 32 bit image.
@@ -255,38 +255,38 @@ The first row of buttons allow you to:
 
 Select the image type in the :guilabel:`Source` menu. Each has different options:
 
-:guilabel:`Generated`
+Generated
    Generates a new image:
 
-   :guilabel:`Width` and :guilabel:`Height` of image in pixels
+   Width and Height of image in pixels
 
-   :guilabel:`Blank`
+   Blank
       Creates a Blank image
-   :guilabel:`UV grid`
+   UV grid
       Creates a checkerboard pattern with colored plus symbols in each square.
-   :guilabel:`Color Grid`
+   Color Grid
       Creates a more complex colored grid with letters and numbers denoting locations in the grid.
 
-:guilabel:`File`
+File
    Use for loading image files:
 
-   :guilabel:`Fields`
-      Use if image is made of fields. You can set it to use :guilabel:`Upper First` or :guilabel:`Lower First`
-   :guilabel:`Premultiply`
+   Fields
+      Use if image is made of fields. You can set it to use :guilabel:`Upper First` or Lower First
+   Premultiply
       Converts RGB from key alpha to premultiplied alpha.
 
-:guilabel:`Movie` and :guilabel:`Sequence`
-   :guilabel:`Frames`
+:guilabel:`Movie` and Sequence
+   Frames
       Set the number of frames to use
-   :guilabel:`Start`
+   Start
       Set the starting frame of the movie/sequence
-   :guilabel:`Offset`
+   Offset
       Offset the number of frame used in the animation
-   :guilabel:`Fields`
+   Fields
       Set the number fields per rendered frame to use(2 fields is 1 frame)
-   :guilabel:`Auto Refresh`
+   Auto Refresh
       Always refresh images on frame changes.
-   :guilabel:`Cyclic`
+   Cyclic
       Cycle the images in a movie/sequence.
 
 

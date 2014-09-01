@@ -69,7 +69,7 @@ Ambient Occlusion
 
 Bakes ambient occlusion as specified in the World panels. Ignores all lights in the scene.
 
-:guilabel:`Normalized`
+Normalized
    Normalize without using material's settings.
 
 ..    Comment: <!-- [[File:25-Manual-Render-Bake-Shadow.png|thumb|330px|{{Literal|Shadow}}]]]] --> .
@@ -100,16 +100,16 @@ Normals
 
 Bakes tangent and camera-space normals (amongst many others) to an RGB image.
 
-:guilabel:`Normal Space`
+Normal Space
    Normals can be baked in different spaces:
 
-   :guilabel:`Camera space`
+   Camera space
       Default method.
-   :guilabel:`World space`
+   World space
       Normals in world coordinates, dependent on object transformation and deformation.
-   :guilabel:`Object space`
+   Object space
       Normals in object coordinates, independent of object transformation, but dependent on deformation.
-   :guilabel:`Tangent space`
+   Tangent space
       Normals in tangent space coordinates, independent of object transformation and deformation.
       This is the new default, and the right choice in most cases,
       since then the normal map can be used for animated objects too.
@@ -140,7 +140,7 @@ Similar to baking normal maps,
 displacement maps can also be baked from a high-res object to an unwrapped low-res object,
 using the :guilabel:`Selected to Active` option.
 
-:guilabel:`Normalized`
+Normalized
    Normalize to the distance.
 
 When using this in conjunction with a subsurf and displacement modifier within Blender, it's
@@ -188,29 +188,29 @@ Bakes specular color or specular intensity values.
 Additional Options
 ==================
 
-:guilabel:`Clear`
+Clear
    If selected, clears the image to selected background color (default is black) before baking render.
-:guilabel:`Margin`
+Margin
    Baked result is extended this many pixels beyond the border of each UV "island," to soften seams in the texture.
 
-:guilabel:`Split`
-   :guilabel:`Fixed`
+Split
+   Fixed
       Slit quads predictably (0,1,2) (0,2,3).
-   :guilabel:`Fixed alternate`
+   Fixed alternate
       Slit quads predictably (1,2,3) (1,3,0).
-   :guilabel:`Automatic`
+   Automatic
       Split quads to give the least distortion while baking.
 
-:guilabel:`Select to Active`
+Select to Active
    Enable information from other objects to be baked onto the active object.
 
-   :guilabel:`Distance`
+   Distance
       Controls how far a point on another object can be away from the point on the active object.
       Only needed for :guilabel:`Selected to Active`.
       A typical use case is to make a detailed, high poly object,
       and then bake it's normals onto an object with a low polygon count.
       The resulting normal map can then be applied to make the low poly object look more detailed.
-   :guilabel:`Bias`
+   Bias
       Bias towards further away from the object (in blender units)
 
 

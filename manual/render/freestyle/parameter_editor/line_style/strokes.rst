@@ -21,15 +21,15 @@ Chaining
 By default all retrieved lines from the line set are chained together.
 There are two basic chaining methods:
 
-:guilabel:`Plain`
+Plain
    The default chaining method; it creates simple chains.
 
-:guilabel:`Sketchy`
+Sketchy
    This chaining option allows for generating chains of feature edges with sketchy multiple strokes.
    Basically, it generates :guilabel:`Round` strokes instead of a single one.
    It is only really useful if you use some random-driven modifiers in the line style!
 
-:guilabel:`Rounds`
+Rounds
    It specifies the number of rounds in sketchy strokes.
 
 Chaining can also be turned off to render each line separately,
@@ -48,10 +48,10 @@ Splitting
 
 You can split up chains of Freestyle lines by checking one of the following:
 
-:guilabel:`Material Boundary`
+Material Boundary
    Splits chains of feature edges if they cross from one material to another.
 
-:guilabel:`Min 2D Angle` and :guilabel:`Max 2D Angle`
+Min 2D Angle and Max 2D Angle
    Splits chains of feature edges when they make a 2D angle above (or below) a minimum (or maximum) threshold.
 
 
@@ -62,10 +62,10 @@ You can split up chains of Freestyle lines by checking one of the following:
    Splitting
 
 
-:guilabel:`2D Length`
+2D Length
    Splits chains when they are longer than the given value.
 
-:guilabel:`D1` / :guilabel:`G1` / :guilabel:`D2` / :guilabel:`G2` / :guilabel:`D3` / :guilabel:`G3`
+D1 / G1 / D2 / G2 / D3 / G3
    Splits the chains using the given dashed pattern ("D" stands for "dash", "G" stands for "gap"; see also
    FIXME(TODO: Internal Link; [[#Dashed Line|below]])).
 
@@ -91,7 +91,7 @@ Caps
 
 You can choose between three types of line caps:
 
-:guilabel:`Butt`
+Butt
    Flat cap, exactly at the point the line ends.
 
 
@@ -102,10 +102,10 @@ You can choose between three types of line caps:
    Line tip caps
 
 
-:guilabel:`Round`
+Round
    A half circle centered on the end point of the line.
 
-:guilabel:`Square`
+Square
    A square centered on the end point of the line (hence, like the circle,
    the drawn end of the line is slightly extended compared to its computed value).
 

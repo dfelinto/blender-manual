@@ -55,9 +55,9 @@ but it is useful to emphasize shapes of surfaces,
 or as a cheap way to get an effect that looks a bit like indirect lighting.
 
 
-:guilabel:`Factor`
+Factor
    The strength of the ambient occlusion; value 1.0 is like a white world shader.
-:guilabel:`Distance`
+Distance
    Distance from shading point to trace rays.
    A shorter distance emphasizes nearby features,
    while longer distances make it also take objects further away into account.
@@ -75,12 +75,12 @@ An alternative method of using Ambient Occlusion on a per-shader basis is to use
 Settings
 ========
 
-:guilabel:`Multiple Importance Sample`
+Multiple Importance Sample
    Enabling this will sample the background texture such that lighter parts are favored,
    producing less noise in the render.
    It is almost always a good idea to enable this when using an image texture to light the scene,
    otherwise noise can take a very long time to converge.
-:guilabel:`Map Resolution`
+Map Resolution
    Sets the resolution of the 'Multiple Importance Sample' map.
    Higher values may produce less noise when using high-res images,
    but will take up more memory and render slightly slower.

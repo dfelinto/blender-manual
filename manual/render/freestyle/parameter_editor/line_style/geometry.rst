@@ -38,13 +38,13 @@ geometry. It has two sets of independent options/effects:
    Line Style Geometry's 2D Offset modifier
 
 
-:guilabel:`Start` and :guilabel:`End`
+Start and End
    These two options add the given amount of offset to the start (or end) point of the stroke, along the (2D)
    normal at those points. The effect is blended over the whole stroke, so if you, for example,
    set only :guilabel:`Start` to **50**, the start of the stroke is offset 50 pixels along its normal,
    the middle of the stroke, 25 pixels along its own normal, and the end point isn't moved.
 
-:guilabel:`X` and :guilabel:`Y`
+X and Y
    These two options simply add a constant horizontal and/or vertical offset to the whole stroke.
 
 
@@ -63,24 +63,24 @@ stroke backbone geometry. Scale is applied before rotation.
 
 The center (pivot point) of these 2D transformations can be:
 
-:guilabel:`Stroke Center`
+Stroke Center
    The median point of the stroke.
-:guilabel:`Stroke Start`
+Stroke Start
    The beginning point of the stroke.
-:guilabel:`Stroke End`
+Stroke End
    The end point of the stroke.
-:guilabel:`Stroke Point Parameter`
+Stroke Point Parameter
    The :guilabel:`Stroke Point Parameter` factor controls where along the stroke the pivot point is
    (``0.0`` means start point; ``1.0`` end point).
-:guilabel:`Absolute 2D Point`
+Absolute 2D Point
    The :guilabel:`Pivot X` and :guilabel:`Pivot Y` allows you to define the position of the pivot point in the final
    render (from the bottom left corner). **WARNING** : Currently,
    you have to take into account the *real* render size, i.e. resolution **and** resolution percentage!
 
-:guilabel:`Scale X` and :guilabel:`Scale Y`
+Scale X and Scale Y
    The scaling factors, in their respective axes.
 
-:guilabel:`Rotation Angle`
+Rotation Angle
    The rotation angle.
 
 
@@ -105,7 +105,7 @@ Backbone Stretcher
 The :guilabel:`Backbone Stretcher` modifier stretches (adds some length to)
 the beginning and end of the stroke.
 
-:guilabel:`Backbone Length`
+Backbone Length
    Length to add to the strokes' ends.
 
 
@@ -121,7 +121,7 @@ Bezier Curve
 
 The :guilabel:`Bezier Curve` modifier replaces the stroke by a Bezier approximation of it.
 
-:guilabel:`Error`
+Error
    The maximum distance allowed between the new Bezier curve and the original stroke.
 
 
@@ -148,19 +148,19 @@ elliptical, or square contours. A blueprint here refers to those lines drawn at 
 of free-hand drawing to capture the silhouette of objects with a simple shape such as circles,
 ellipses and squares.
 
-:guilabel:`Shape`
+Shape
    Which base shapes to use for this blueprint: :guilabel:`Circles`, :guilabel:`Ellipses` or :guilabel:`Squares`.
 
-:guilabel:`Rounds`
+Rounds
    How many rounds are generated, as if the pen draws the same stroke several times
    (i.e. how many times the process is repeated).
 
-:guilabel:`Random Radius` and :guilabel:`Random Center`
+Random Radius and Random Center
    For the :guilabel:`Circles` and :guilabel:`Ellipses` shapes.
    Adds some randomness to each round in the relevant aspect.
    Using more than one round with no randomness would be meaningless, as they would draw over each other exactly.
 
-:guilabel:`Backbone Length` and :guilabel:`Random Backbone`
+Backbone Length and Random Backbone
    For the :guilabel:`Squares` shapes.
    The first adds some extra length to each edge of the generated squares (also affected by the second parameter).
    The second adds some randomness to the squares.
@@ -182,7 +182,7 @@ Guiding Lines
 The :guilabel:`Guiding Lines` modifier replaces a stroke by a straight line connecting both of
 its ends.
 
-:guilabel:`Offset`
+Offset
    Offset the start and end points along the original stroke, before generating the new straight one.
 
 This modifier will produce reasonable results when strokes are short enough,
@@ -211,19 +211,19 @@ Perlin Noise 1D
 
 The :guilabel:`Perlin Noise 1D` modifier adds one-dimensional Perlin noise to the stroke.
 
-:guilabel:`Frequency`
+Frequency
    How dense the noise is (kind of a scale factor along the stroke).
 
-:guilabel:`Amplitude`
+Amplitude
    How much the noise distorts the stroke in the :guilabel:`Angle` direction.
 
-:guilabel:`Seed`
+Seed
    The seed of the random generator (the same seed over a stroke will always give the same result).
 
-:guilabel:`Octaves`
+Octaves
    The "level of detail" of the noise.
 
-:guilabel:`Angle`
+Angle
    In which direction the noise is applied (``0.0`` is fully horizontal).
 
 
@@ -257,7 +257,7 @@ Polygonization
 The :guilabel:`Poligonization` modifier simplifies strokes as much as possible
 (in other words, it transforms smooth strokes into jagged polylines).
 
-:guilabel:`Error`
+Error
    The maximum distance allowed between the new simplified stroke and the original one
    (the larger this value is, the more jagged/approximated the resulting polylines are).
 
@@ -275,7 +275,7 @@ Sampling
 The :guilabel:`Sampling` modifier changes the definition, precision of the stroke,
 for the following modifiers.
 
-:guilabel:`Sampling`
+Sampling
    The smaller this value, the more precise are the strokes.
    Be careful; too small values will require a huge amount of time and memory during render!
 
@@ -292,13 +292,13 @@ Sinus Displacement
 
 The :guilabel:`Sinus Displacement` modifier adds a sinusoidal displacement to the stroke.
 
-:guilabel:`Wavelength`
+Wavelength
    How wide the undulations are along the stroke.
 
-:guilabel:`Amplitude`
+Amplitude
    How high the undulations are across the stroke.
 
-:guilabel:`Phase`
+Phase
    Allows "offsetting" ("moving") the undulations along the stroke.
 
 
@@ -324,19 +324,19 @@ The :guilabel:`Spatial Noise` modifier adds some spatial noise to the stroke.
 
 TODO: definition of "spatial  noise"!
 
-:guilabel:`Amplitude`
+Amplitude
    How much the noise distorts the stroke.
 
-:guilabel:`Scale`
+Scale
    How wide the noise is along the stroke.
 
-:guilabel:`Octaves`
+Octaves
    The level of detail of the noise.
 
-:guilabel:`Smooth`
+Smooth
    When enabled, apply some smoothing over the generated noise.
 
-:guilabel:`Pure Random`
+Pure Random
    When disabled, the next generated random value depends on the previous one;
    otherwise they are completely independent. Disabling this setting gives a more "consistent" noise along a stroke.
 
@@ -353,5 +353,5 @@ Tip Remover
 
 The :guilabel:`Tip Remover` modifier removes a piece of the stroke at its beginning and end.
 
-:guilabel:`Tip Length`
+Tip Length
    Length of stroke to remove at both of its tips.

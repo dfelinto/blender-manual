@@ -152,7 +152,7 @@ Options
    Field Rendering setup.
 
 
-:guilabel:`Fields`
+Fields
    Enable field rendering. When the :guilabel:`Fields` button in the :guilabel:`Render` Panel is pressed
    (*Post Processing* section), Blender prepares each frame in two passes.
    On the first it renders only the even lines,
@@ -160,9 +160,9 @@ Options
    This produces odd results on a PC screen *(Field Rendering result)*. but will show correctly on a TV set.
 
 
-:guilabel:`Upper First / Lower First`
+Upper First / Lower First
    Toggles between rendering the even and odd frames first.
-:guilabel:`Still`
+Still
    Disables the half-frame time step between fields (:guilabel:`x`).
 
 
@@ -222,28 +222,28 @@ but some support the Alpha channel as well. Codecs that support RGBA include:
 - `Lagarith Loss-less Video Codec <http://lags.leetcode.net/codec.html>`__
 
 
-:guilabel:`AVI Codec`
+AVI Codec
    AVI codec compression. Available codecs are operating-system dependent.
    When an AVI codec is initially chosen, the codec dialog is automatically launched.
    The codec can be changed directly using the :guilabel:`Set Codec` button which appears (*AVI Codec settings.*).
-:guilabel:`AVI Jpeg`
+AVI Jpeg
    AVI but with Jpeg compression.
    Lossy, smaller files but not as small as you can get with a Codec compression algorithm.
    Jpeg compression is also the one used in the DV format used in digital camcorders.
-:guilabel:`AVI Raw`
+AVI Raw
    Audio-Video Interlaced (AVI) uncompressed frames.
-:guilabel:`Frameserver`
+Frameserver
    Blender puts out FIXME(Link Type Unsupported: dev;
    [[Dev:Source/Render/Frameserver|frames upon request]]) as part of a render farm.
    The port number is specified in the OpenGL User Preferences panel.
-:guilabel:`H.264`
+H.264
    Encodes movies with the H.264 codec. See :doc:`Advanced Encoding </render/output_options#advanced_encoding>`.
-:guilabel:`MPEG`
+MPEG
    Encodes movies with the MPEG codec. See :doc:`Advanced Encoding </render/output_options#advanced_encoding>`.
-:guilabel:`Ogg Theora`
+Ogg Theora
    Encodes movies with the Theora codec as Ogg files.
    See :doc:`Advanced Encoding </render/output_options#advanced_encoding>`.
-:guilabel:`QuickTime`
+QuickTime
    Apple's Quicktime .mov file.
    The Quicktime codec dialog is available when this codec is installed and this format is initially chosen.
    See :doc:`Quicktime Encoding </render/output_options#quicktime>`.
@@ -255,7 +255,7 @@ but some support the Alpha channel as well. Codecs that support RGBA include:
       FIXME(Link Type Unsupported: http; [[http://www.apple.com/quicktime/download QuickTime]]) installed.
       The GIF capabilities (as well as flattened PSD,
       flattened PDF on Mac, and others) come along with QuickTime.
-:guilabel:`Xvid`
+Xvid
    Encodes movies with the Xvid codec. See :doc:`Advanced Encoding </render/output_options#advanced_encoding>`.
 
 
@@ -373,18 +373,18 @@ None
 Options
 ^^^^^^^
 
-:guilabel:`Bitrate`
+Bitrate
    Set the average `bitrate <http://en.wikipedia.org/wiki/Bit_rate>`__ (quality),
    which is the count of binary digits per frame.
    See also: `ffmpeg -b:v <http://ffmpeg.org/ffmpeg.html#Description>`__
 
-:guilabel:`Rate`
+Rate
    The bitrate control also includes a :guilabel:`Minimum` and a :guilabel:`Maximum`.
 
-   :guilabel:`Buffer`
+   Buffer
       The `decoder bitstream buffer <http://en.wikipedia.org/wiki/Video_buffering_verifier>`__ size.
 
-:guilabel:`GOP Size`
+GOP Size
    The number of pictures per `Group of Pictures <http://en.wikipedia.org/wiki/Group_of_pictures>`__.
    Set to 0 for "intra_only", which disables `inter-frame <http://en.wikipedia.org/wiki/Inter-frame>`__ video.
    From ffmpeg docs: "For streaming at very low bitrate application, use a low frame rate and a small GOP size.
@@ -392,17 +392,17 @@ Options
    so it can miss frames"
 
 
-:guilabel:`Autosplit Output`
+Autosplit Output
    If your video is HUGE and exceeds 2Gig, enable Autosplit Output.
    The main control over output filesize is the GOP, or keyframe interlace.
    A higher number generally leads to a smaller file, but needs a higher-powered device to replay it.
 
-:guilabel:`Mux`
+Mux
    `Multiplexing <http://www.afterdawn.com/glossary/term.cfm/multiplexing>`__ settings.
 
-   :guilabel:`Rate`
+   Rate
       Maximum bit rate of the multiplexed stream.
-   :guilabel:`Packet Size`
+   Packet Size
       (Undocumented in ffmpeg)
 
 
@@ -445,14 +445,14 @@ Audio Codecs
    Compact Disc and DVD formats, as well as other uses such as digital telephone systems
 
 
-:guilabel:`Bitrate`
+Bitrate
    For each codec, you can to control the bitrate (quality) of the sound in the movie.
    This example shows MP3 encoding at 128kbps. Higher bitrates are bigger files that stream worse but sound better.
    Stick to powers of 2 for compatibility.
-:guilabel:`Samplerate`
+Samplerate
    Samplerate controls the number of samples per second of the audio.
    The default, 44100, is standard for many file types, including CD audio, and produces a high quality sound.
-:guilabel:`Volume`
+Volume
    Set the output volume of the audio.
 
 

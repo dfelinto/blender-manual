@@ -57,11 +57,11 @@ Options
 Blender allows three types of environment maps,
 as you can see in *Reflecting plane EnvMap settings.* :
 
-:guilabel:`Static`
+Static
    The map is only calculated once during an animation or after loading a file.
-:guilabel:`Animated`
+Animated
    The map is calculated each time a rendering takes place. This means moving Objects are displayed correctly in mirroring surfaces.
-:guilabel:`Image File`
+Image File
    When saved as an image file, environment maps can be loaded from disk. This option allows the fastest rendering with environment maps, and also gives the ability to modify or use the environment map in an external application.
 
    When using planar reflections, if the camera is the only moving object and you have a reflecting plane,
@@ -73,11 +73,11 @@ as you can see in *Reflecting plane EnvMap settings.* :
 
 Options in dropdown menu:
 
-:guilabel:`Clear Environment Map`
+Clear Environment Map
    Clears the currently rendered environment map from memory. This is useful to refresh a :guilabel:`Static` environment maps and you have changed things in your scene since the last time the environment map was rendered. :guilabel:`Anim` environment maps do this automatically on every render.
-:guilabel:`Save Environment Map`
+Save Environment Map
    Saves the currently stored static environment map to disk as an image file. This can be loaded again with :guilabel:`Load`.
-:guilabel:`Clear All Environment Maps`
+Clear All Environment Maps
    Does the same as :guilabel:`Free Data`, but with all environment maps in the scene. This is a useful shortcut when using recursive environment maps (when the :guilabel:`Depth` is greater than 0).
 
 
@@ -89,7 +89,7 @@ Options in dropdown menu:
    Panel of the Rendering Buttons.
 
 
-:guilabel:`Viewpoint Object`
+Viewpoint Object
    Environment maps are created from the perspective of a specified object. The location of this object will determine how 'correct' the reflection looks, though different locations are needed for different reflecting surfaces. Usually, an Empty is used as this object.
 
 
@@ -97,7 +97,7 @@ Options in dropdown menu:
    - For spherical reflections, the object should be in the center of the sphere. Generally, if the reflecting sphere's object center point is in the center of its vertices, you can just use the name of the actual sphere object as the :guilabel:`Ob:`
    - For irregular reflections, there's no hard and fast rule, you will probably need to experiment and hope that the inaccuracy doesn't matter.
 
-:guilabel:`Ignore Layers`
+Ignore Layers
    The layers to exclude from the environment map creation.
    Since environment maps work by rendering the scene from the location of the :guilabel:`Ob:` object,
    you will need to exclude the actual reflecting surface from the environment map,
@@ -110,11 +110,11 @@ Options in dropdown menu:
 
 
 
-:guilabel:`Resolution`
+Resolution
    The resolution of the cubic environment map render. Higher resolutions will give a sharper texture (reflection),
    but will be slower to render.
 
-:guilabel:`Depth`
+Depth
    The number of recursive environment map renders.
    If there are multiple reflecting objects using environment maps in the scene, some may appear solid,
    as they won't render each other's reflections. In order to show reflections within reflections,
@@ -122,37 +122,37 @@ Options in dropdown menu:
    so that the effects of one environment map can be seen in another environment map. See Examples.
 
 
-:guilabel:`Clipping Start/End`
+Clipping Start/End
    The clipping boundaries of the virtual camera when rendering the environment map. Sets the minimum and maximum distance from the camera that will be visible in the map.
 
 
 Environment Map Sampling
 ------------------------
 
-:guilabel:`Filter`
-   :guilabel:`Box`
+Filter
+   Box
       Box Filter
-   :guilabel:`EWA`
+   EWA
       Elliptical Weighted Average — one of the most efficient direct convolution algorithms developed by Paul Heckbert and Ned Greene in the 1980s. For each texel, EWA samples, weights, and accumulates texels within an elliptical footprint and then divides the result by the sum of the weights.
 
-      :guilabel:`Eccentricity`
+      Eccentricity
          Maximum eccentricity (higher gives less blur at distant/oblique angles, but is also slower)
-   :guilabel:`FELINE`
+   FELINE
       FELINE (Fast Elliptical Lines), uses several isotropic probes at several points along a line in texture space to produce an anisotropic filter to reduce aliasing artifacts without considerably increasing rendering time.
 
-      :guilabel:`Probes`
+      Probes
          Maximum number of samples (higher gives less blur at distant/oblique angles, but is also slower)
 
-   :guilabel:`Area`
+   Area
 
-      :guilabel:`Eccentricity`
+      Eccentricity
          Maximum eccentricity (higher gives less blur at distant/oblique angles, but is also slower)
 
 
-:guilabel:`Filter Size`
+Filter Size
    The amount of blurring applied to the texture. Higher values will blur the environment map to fake blurry reflections.
 
-:guilabel:`Minimum Filter Size`
+Minimum Filter Size
    Use Filter Size as a minimal filter value in pixels
 
 

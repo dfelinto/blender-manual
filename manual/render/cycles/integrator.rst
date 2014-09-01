@@ -26,10 +26,10 @@ at each hit it will bounce light in one direction and pick one light to receive 
 This makes each individual sample faster to compute,
 but will typically require more samples to clean up the noise.
 
-:guilabel:`Render Samples`
+Render Samples
    Number of paths to trace for each pixel in the final render. As more samples are taken,
    the solution becomes less noisy and more accurate.
-:guilabel:`Preview Samples`
+Preview Samples
    Number of samples for viewport rendering.
 
 The **branched path tracing integrator** (formerly called non-progressive integrator)
@@ -41,59 +41,59 @@ To get the same number of diffuse samples as in the path tracing integrator, not
 250 path tracing samples = 10 AA samples x 25 diffuse samples.
 The Sampling panel shows this total number of samples.
 
-:guilabel:`AA Render Samples`
+AA Render Samples
    Number of samples to take for each pixel in the final render. More samples will improve antialiasing.
-:guilabel:`AA Preview Samples`
+AA Preview Samples
    Number of samples for viewport rendering.
 
-:guilabel:`Diffuse Samples`
+Diffuse Samples
    Number of diffuse bounce samples to take for each AA sample.
-:guilabel:`Glossy Samples`
+Glossy Samples
    Number of glossy bounce samples to take for each AA sample.
-:guilabel:`Transmission Samples`
+Transmission Samples
    Number of transmission bounce samples to take for each AA sample.
-:guilabel:`AO Samples`
+AO Samples
    Number of ambient occlusion samples to take for each AA sample.
-:guilabel:`Mesh Light Samples`
+Mesh Light Samples
    Number of mesh light samples to take for each AA sample.
-:guilabel:`Subsurface Samples`
+Subsurface Samples
    Number of subsurface scattering samples to take for each AA sample.
 
 For both integrators the noise pattern can be controlled.
 
-:guilabel:`Seed`
+Seed
    Random number generator seed; each different value gives a different noise pattern.
 
 
 Bounces
 ^^^^^^^
 
-:guilabel:`Max Bounces`
+Max Bounces
    Maximum number of light bounces. For best quality, this should be set to the maximum. However, in practice,
    it may be good to set it to lower values for faster rendering.
    Setting it to maximum 1 bounce results in direct lighting.
-:guilabel:`Min Bounces`
+Min Bounces
    Minimum number of light bounces for each path,
    after which the integrator uses Russian Roulette to terminate paths that contribute less to the image.
    Setting this higher gives less noise, but may also increase render time considerably. For a low number of bounces,
    it's strongly recommended to set this equal to the maximum number of bounces.
 
-:guilabel:`Diffuse Bounces`
+Diffuse Bounces
    Maximum number of diffuse bounces.
-:guilabel:`Glossy Bounces`
+Glossy Bounces
    Maximum number of glossy bounces.
-:guilabel:`Transmission Bounces`
+Transmission Bounces
    Maximum number of transmission bounces.
 
 
 Transparency
 ^^^^^^^^^^^^
 
-:guilabel:`Transparency Max`
+Transparency Max
    Maximum number of transparency bounces.
-:guilabel:`Transparency Min`
+Transparency Min
    Minimum number of transparency bounces, after which Russian Roulette termination is used.
-:guilabel:`Transparent Shadows`
+Transparent Shadows
    For direct light sampling,
    use transparency of surfaces in between to produce shadows affected by transparency of those surfaces.
 
@@ -103,7 +103,7 @@ Tricks
 
 .. _render-cycles-integrator-no_caustics:
 
-:guilabel:`No Caustics`
+No Caustics
    While in principle path tracing supports rendering of caustics with a sufficient number of samples,
    in practice it may be inefficient to the point that there is just too much noise.
    This option makes it possible to disable them entirely.
@@ -111,7 +111,7 @@ Tricks
 
 .. _render-cycles-integrator-filter_glossy:
 
-:guilabel:`Filter Glossy`
+Filter Glossy
    When using a value higher than 0.0, this will blur glossy reflections after blurry bounces,
    to reduce noise at the cost of accuracy. 1.0 is a good starting value to tweak.
 
@@ -127,7 +127,7 @@ Tricks
    Often this blurring will hardly be noticeable, because we are seeing it through a blurry material anyway,
    but there are also cases where this will lead to a loss of detail in lighting.
 
-:guilabel:`Clamp Samples`
+Clamp Samples
    This option will clamp all samples to a maximum intensity they can contribute to the pixel,
    again to reduce noise at the cost of accuracy. With value 0.0 this option is disabled;
    lower values clamp more light away.
@@ -153,7 +153,7 @@ If there are particles or other physics system in a scene,
 be sure to bake them before rendering,
 otherwise you might not get correct or consistent motion.
 
-:guilabel:`Shutter`
+Shutter
    Time between frames over which motion blur is computed. Shutter time 1.0 blurs over the length of 1 frame,
    2.0 over the length of two frames, from the previous to the next.
 
@@ -161,7 +161,7 @@ otherwise you might not get correct or consistent motion.
 Material Settings
 =================
 
-:guilabel:`Multiple Importance Sample`
+Multiple Importance Sample
    By default objects with emitting materials use both direct and indirect light sampling methods,
    but in some cases it may lead to less noise overall to disable direct light sampling for some materials.
    This can be done by disabling the :guilabel:`Multiple Importance Sample` option.
@@ -175,13 +175,13 @@ Material Settings
 World Settings
 ==============
 
-:guilabel:`Multiple Importance Sample`
+Multiple Importance Sample
    By default lighting from the world is computed solely with indirect light sampling.
    However for more complex environment maps this can be too noisy,
    as sampling the BSDF may not easily find the highlights in the environment map image. By enabling this option,
    the world background will be sampled as a lamp, with lighter parts automatically given more samples.
 
-:guilabel:`Map Resolution`
+Map Resolution
    When Multiple Importance Sample is enabled, this specifies the size of the importance map
    (resolution x resolution).  Before rendering starts,
    an importance map is generated by "baking" a grayscale image from the world shader. This will then be used to
@@ -192,12 +192,12 @@ World Settings
 Lamp Settings
 =============
 
-:guilabel:`Multiple Importance Sample`
+Multiple Importance Sample
    By default lamps use only direct light sampling. For area lights and sharp glossy reflections, however,
    this can be noisy,
    and enabling this option will enable indirect light sampling to be used in addition to reduce noise.
 
-:guilabel:`Samples`
+Samples
    For the branch path tracing integrator, this specifies the number of direct light samples per AA sample.
    Point lamps might need only one sample, while area lamps typically need more.
 
@@ -207,20 +207,20 @@ Volume Render Settings
 
 The scene has these settings:
 
-:guilabel:`Step Size`
+Step Size
    Distance between volume shader samples when rendering the volume.
    Lower values give more accurate and detailed results but also increased render time.
-:guilabel:`Max Steps`
+Max Steps
    Maximum number of steps through the volume before giving up,
    to protect from extremely long render times with big objects or small step sizes.
 
 The world and materials have the following setting:
 
-:guilabel:`Homogeneous Volume`
+Homogeneous Volume
    Assume volume has the same density everywhere (not using any textures), for faster rendering.
    For example absorption in a glass object would typically not have any textures,
    and by knowing this we can avoid taking small steps to sample the volume shader.
-:guilabel:`Sampling Method`
+Sampling Method
    Options are "Multiple Importance", "Distance" or "Equiangular".
    If you've got a pretty dense volume that's lit from far away then distance sampling is usually more efficient.
    If you've got a light inside or near the volume then equiangular sampling is better.

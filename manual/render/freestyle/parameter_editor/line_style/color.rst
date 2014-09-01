@@ -11,7 +11,7 @@ Color
 
 In this tab you control the color of your strokes.
 
-:guilabel:`Base Color`
+Base Color
    The base color for this line style.
 
 
@@ -22,7 +22,7 @@ There are four color modifiers available, which can be mixed with the base color
 (see for example the :doc:`Mix compositing node </composite_nodes/types/color#mix_node>` for further discussion of
 this topic). As with other modifier stacks in Blender, they are applied from top to bottom.
 
-:guilabel:`Influence`
+Influence
    How much the result of this modifier affects the current color.
 
 
@@ -56,14 +56,14 @@ Distance from Camera
 The :guilabel:`Distance from Camera` color modifier alters the base color with a new one from
 a given color ramp, using the distance to the active camera as the parameter.
 
-:guilabel:`Range Min` and :guilabel:`Range Max`
+Range Min and Range Max
    The limits of the mapping from "distance to camera" to "color in ramp".
    If the current point of the stroke is at :guilabel:`Range Min` or less from the active camera,
    it will take the start color of the ramp, and conversely,
    if it is at :guilabel:`Range Max` or more from the camera, it will take the end color of the ramp.
    These values are in the current scene's units, not in pixels!
 
-:guilabel:`Fill Range by Selection`
+Fill Range by Selection
    Set the min/max range values from the distances between the current selected objects and the camera.
 
 The other settings are those of the standard Blender color ramp!
@@ -82,17 +82,17 @@ Distance from Object
 The :guilabel:`Distance from Object` color modifier alters the base color with a new one from
 a given color ramp, using the distance to a given object as the parameter.
 
-:guilabel:`Target`
+Target
    The object to measure distance from.
 
-:guilabel:`Range Min` and :guilabel:`Range Max`
+Range Min and Range Max
    The limits of the mapping from "distance to object" to "color in ramp".
    If the current point of the stroke is at :guilabel:`Range Min` or less from the target,
    it will take the start color of the ramp, and conversely,
    if it is at :guilabel:`Range Max` or more from the target, it will take the end color of the ramp.
    These values are in the current scene's units, not in pixels!
 
-:guilabel:`Fill Range by Selection`
+Fill Range by Selection
    Set the min/max range values from the distances between the current selected objects and the target.
 
 The other settings are those of the standard Blender color ramp!

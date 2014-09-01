@@ -19,56 +19,56 @@ can be visualized using a color/alpha ramp gradient.
 Options
 =======
 
-:guilabel:`Particle System`
+Particle System
    Particle System, Generate point density from a particle system.
 
-:guilabel:`Object Vertices`
+Object Vertices
    Object Vertices, Generate point density from an object's vertices.
 
-:guilabel:`Object`
-:guilabel:`Radius`
-:guilabel:`System`
-:guilabel:`Falloff`
+Object
+Radius
+System
+Falloff
 
-   :guilabel:`Standard`
-   :guilabel:`Smooth`
-   :guilabel:`Soft`
-   :guilabel:`Softness`
+   Standard
+   Smooth
+   Soft
+   Softness
 
-   :guilabel:`Constant`
+   Constant
       Density is constant within lookup radius.
 
-   :guilabel:`Root`
-   :guilabel:`Particle Age`
-   :guilabel:`Particle Velocity`
-   :guilabel:`Velocity Scale`
+   Root
+   Particle Age
+   Particle Velocity
+   Velocity Scale
 
 
-:guilabel:`Falloff Curve`
+Falloff Curve
    Use a custom falloff
 
-:guilabel:`Cache`
+Cache
    Coordinate system to cache particles in
-   :guilabel:`Global Space`
-   :guilabel:`Emit Object Space`
-   :guilabel:`Emit Object Location`
+   Global Space
+   Emit Object Space
+   Emit Object Location
 
-:guilabel:`Color Source`
+Color Source
    Data to derive the color results from
 
-   :guilabel:`Constant`
+   Constant
       Constant color
-   :guilabel:`Particle Age`
+   Particle Age
       Lifetime mapped as 0.0 - 1.0 intensity.
-   :guilabel:`Particle Speed`
+   Particle Speed
       Particle speed (absolute magnitude of velocity) mapped as 0.0-1.0 intensity.
 
-      :guilabel:`Scale`
+      Scale
          Multiplier to bring particle speed within an acceptable range.
-   :guilabel:`Particle Velocity`
+   Particle Velocity
       XYZ velocity mapped to RGB colors.
 
-      :guilabel:`Scale`
+      Scale
          Multiplier to bring particle speed within an acceptable range.
 
 
@@ -77,25 +77,25 @@ Turbulence
 
 Adds directed noise to the density at render time
 
-:guilabel:`Influence`
+Influence
    Method for driving added turbulent noise
 
-   :guilabel:`Static`
+   Static
       Noise patterns will remain unchanged, faster and suitable for stills.
-   :guilabel:`Particle Velocity`
+   Particle Velocity
       Turbulent noise driven by particle velocity.
-   :guilabel:`Particle Age`
+   Particle Age
       Turbulent noise driven by the particle's age between birth and death.
-   :guilabel:`Global Time`
+   Global Time
       Turbulent noise driven by the global current frame.
 
-:guilabel:`Noise Basis`
+Noise Basis
    See :doc:`Here </textures/types/procedural>`
 
-:guilabel:`Size`
+Size
    Scale of the turbulent noise
-:guilabel:`Depth`
+Depth
    Level of detail in the added turbulent noise
-:guilabel:`Turbulence Strength`
+Turbulence Strength
    Strength of the added turbulent noise
 

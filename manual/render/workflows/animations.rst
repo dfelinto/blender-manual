@@ -134,19 +134,19 @@ Output Panel
    If an image format is chosen, on the other hand, a series of images named ``####``,
    (``####`` being the pertinent frame number) is created in the directory.
 
-   :guilabel:`File Extensions`
+   File Extensions
       Adds the correct file extensions per file type to the output files
-   :guilabel:`Overwrite`
+   Overwrite
       Overwrite existing files when rendering
-   :guilabel:`Placeholders`
+   Placeholders
       Create empty placeholder frames while rendering
 
 Post Processing Panel
-   :guilabel:`Sequencer`
+   Sequencer
       Renders the output of the sequence editor, instead of the view from the 3D scene's active camera.
       If the sequence contains scene strips, these will also be rendered as part of the pipeline.
       If Do Composite is also enabled, the Scene strip will be the output of the Compositor.
-   :guilabel:`Compositing`
+   Compositing
       Renders the output from the Compositing noodle, and then pumps all images through the Composite node map,
       displaying the image fed to the Composite Output node.
 

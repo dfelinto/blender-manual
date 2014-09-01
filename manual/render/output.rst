@@ -9,7 +9,7 @@ This includes render size, frame rate, pixel aspect ratio, output location, and 
 Dimensions
 **********
 
-:guilabel:`Resolution`
+Resolution
    The Dimensions section has settings for the size of the rendered images.
    By default the dimensions :guilabel:`SizeX` and :guilabel:`SizeY` are 1920?1080 and can be changed by adjusting
    the X and Y fields. These buttons control the overall size of the image.
@@ -17,7 +17,7 @@ Dimensions
    The :guilabel:`Percentage` slider will scale the currently set resolution by that value.
    This is useful for small test renders that are the same proportions as the final image.
 
-:guilabel:`Aspect Ratio`
+Aspect Ratio
    Just below are two more settings,
    :guilabel:`AspX` and :guilabel:`AspY` which control the shape of the pixels along the respective axis.
    By default it is 1:1 since computer screen pixels are square. If television shorts are being made,
@@ -26,7 +26,7 @@ Dimensions
 
    See :doc:`Video Output </render/output/video>` for details on pixel aspect ratio.
 
-:guilabel:`Border`
+Border
    You can render just a portion of the view instead of rendering the entire frame. While in Camera View,
    enable :guilabel:`Border` and press :kbd:`ctrl-B`, then drag a rectangle to define the area you want to render.
    :kbd:`ctrl-alt-B` is the shortcut to disable the border.
@@ -36,17 +36,17 @@ Dimensions
    Enabling :guilabel:`Crop` will crop the rendered image to the :guilabel:`Border` size,
    instead of rendering a black region around it.
 
-:guilabel:`Frame Range`
+Frame Range
    Set the :guilabel:`Start` and :guilabel:`End` frames for :doc:`Rendering Animations
    </render/workflows/animations>`.
    :guilabel:`Step` controls the number of frames to advance by for each frame in the timeline.
 
-:guilabel:`Frame Rate`
+Frame Rate
    For an :doc:`Animation </render/workflows/animations>` the frame rate,
    or how many frames will be displayed per second, which, by default, is 24 frames per second,
    the standard for animation. Use 29.97 frames per second for USA television.
 
-:guilabel:`Time Remapping`
+Time Remapping
    Use to remap the length of an animation.
 
 

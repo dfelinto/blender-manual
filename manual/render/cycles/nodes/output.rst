@@ -11,26 +11,26 @@ except in the case of the :doc:`Displacement </render/cycles/materials/displacem
 [[Doc:2.6/Manual/Render/Cycles/Materials|Material Output]]
 ==========================================================
 
-:guilabel:`Surface`
+Surface
    The surface output of the material
-:guilabel:`Volume`
+Volume
    *Currently under independent development, does nothing*
-:guilabel:`Displacement`
+Displacement
    Used to create bump mapping or actual subdivided :doc:`Displacement </render/cycles/materials/displacement>`
 
 
 [[Doc:2.6/Manual/Render/Cycles/Lamps|Lamp Output]]
 ==================================================
 
-:guilabel:`Surface`
+Surface
    Not an actual surface, but the final output of a :doc:`Lamp </render/cycles/lamps>` Object
 
 
 [[Doc:2.6/Manual/Render/Cycles/World|World Output]]
 ===================================================
 
-:guilabel:`Surface`
+Surface
    The appearance of the environment,
    usually preceded by a :doc:`Background Shader </render/cycles/nodes/shaders#background>`
-:guilabel:`Volume`
+Volume
    *Currently under independent development, does nothing*

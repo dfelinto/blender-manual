@@ -17,14 +17,14 @@ Displaying Renders
 Renders are displayed in the Image Editor. You can set the way this is displayed to several
 different options in the Display drop-down menu:
 
-:guilabel:`Keep UI`
+Keep UI
    The image is rendered to the Image Editor, but the UI remains the same.
    You will need to open the Image Editor manually to see the render result.
-:guilabel:`New Window`
+New Window
    A new floating window opens up, displaying the render.
-:guilabel:`Image Editor`
+Image Editor
    The 3D view is replaced with the Image Editor, showing the render.
-:guilabel:`Full Screen`
+Full Screen
    The Image editor replaces the UI, showing the render.
 
 For each of these options,
@@ -84,38 +84,38 @@ Display Options
 When a rendered image is displayed in the Image Editor,
 several new menu items become available.
 
-:guilabel:`Slot Menu`
+Slot Menu
    You can save successive renders into the render buffer by selecting a new slot before rendering.
    If an image has been rendered to a slot, it can be viewed by selecting that slot.
    Empty slots appear as blank grids in the image editor.
    Use the shortcut :kbd:`J` to cycle through saved renders and
    :kbd:`alt-J` to cycle backwards through the saved renders.
 
-:guilabel:`Render Layer`
+Render Layer
    If you are using :doc:`Render Layers </render/post_process/layers>`,
    use this menu to select which layer is displayed.
 
-:guilabel:`Render Pass`
+Render Pass
    If you are using :doc:`Render Passes </render/post_process/passes>`,
    use this menu to select which pass is displayed.
 
-:guilabel:`Image Painting`
+Image Painting
    This icon enables or disables Image Painting.
 
 Display Mode
    The last four buttons set how the image is displayed.
 
-   :guilabel:`RGB`
+   RGB
          Draw image as rendered, without alpha channel.
-   :guilabel:`RGBA`
+   RGBA
          Replaces transparent pixels with background checkerboard, denoting the alpha channel.
-   :guilabel:`Alpha Channel`
+   Alpha Channel
          Displays a gray-scale image. White areas are opaque, black areas have a an alpha of 0.
-   :guilabel:`Z Depth`
+   Z Depth
          Display the depth from the camera, from Clip Start to Clip End,
          as specified in the :doc:`Camera settings </render/camera/introduction>`.
 
-:guilabel:`Curves Panel`
+Curves Panel
    The :guilabel:`Curves` Panel is available in the :guilabel:`Properties` Panel.
    You can use this to adjust the colors of the image.
 
