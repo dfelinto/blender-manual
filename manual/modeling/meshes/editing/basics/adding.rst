@@ -3,6 +3,8 @@ follow this link to see the page while it's being constructed.
 
 ..    TODO/Review: {{Review|void=X|fixes=[[User:Greylica/Doc:2.6/Manual/Modeling/Meshes/Editing/Basics/Adding|X]]}} .
 
+Adding
+******
 
 Object mode
 Adding object - menu, manual selection - is under last added object... or shortcut
