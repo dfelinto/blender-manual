@@ -13,7 +13,7 @@ but can be used as a handle for many purposes.
 
 
 Settings
-********
+========
 
 :guilabel:`Plain Axes`
    Draws as six lines, initially with one pointing in each of the +X,-X,+Y,-Y,+Z,and -Z axis directions.
@@ -31,7 +31,13 @@ Settings
    Draws as a cone, initially pointing in the +Y axis direction.
 :guilabel:`Image`
    Empties can display images. This can be used to create reference images, including blueprints or character sheets to model from, instead of using background images. The image is displayed regardless of the 3D display mode. The settings are the same as in :doc:`Background Image Settings </3d_interaction/navigating/3d_view_options#background_image>`
-*Note: While alpha-images can be used, there is a known limitation with object draw order, where alphas won't always draw on top of other objects when unselected.*
+
+
+.. admonition:: Note
+   :class: note
+   
+   While alpha-images can be used, there is a known limitation with object draw order, where alphas won't always draw on top of other objects when unselected.
+
 
 :guilabel:`Size`
    Controls the local size of the empty. This does not change its scale, but simply resizes the shape.
@@ -45,7 +51,7 @@ Settings
 
 
 Usage and functions
-*******************
+===================
 
 Empties can serve as transform handles which cannot be edited and do not render.
 Empties are important and useful objects. Some examples of ways to use them include:
