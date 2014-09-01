@@ -28,49 +28,53 @@ OSX
 ===
 
 LOCAL
-   ``./`` |BLENDER_VERSION| ``/``
+   .. parsed-literal:: ./|BLENDER_VERSION|/
 USER
-   ``/Users/{user}/Library/Application Support/Blender/`` |BLENDER_VERSION| ``/``
+   .. parsed-literal:: /Users/{user}/Library/Application Support/Blender/|BLENDER_VERSION|/
 SYSTEM
-   ``/Library/Application Support/Blender/`` |BLENDER_VERSION| ``/``
+   .. parsed-literal:: /Library/Application Support/Blender/|BLENDER_VERSION|/
 
 .. note::
 
    OSX stores blender binary in ``./blender.app/Contents/MacOS/blender``,
-   so the local path to data & config is ``./blender.app/Contents/MacOS/`` |BLENDER_VERSION| ``/``
+   so the local path to data & config is:
+   .. parsed-literal:: ./blender.app/Contents/MacOS/|BLENDER_VERSION|/
 
 
 Windows
 =======
 
+.. TODO slashes '\', this turns out not to be easy.
+
 LOCAL
-   ``.\{{Blender/Version/Current}}\``
+   .. parsed-literal:: ./|BLENDER_VERSION|/
 USER
-   ``C:\Documents and Settings\{username}\AppData\Roaming\Blender Foundation\Blender\`` |BLENDER_VERSION| ``\``
+   .. parsed-literal:: C:/Documents and Settings/{username}/AppData/Roaming\\Blender Foundation\\Blender/|BLENDER_VERSION|/
 SYSTEM
-   ``C:\Documents and Settings\All Users\AppData\Roaming\Blender Foundation\Blender\`` |BLENDER_VERSION| ``\``
+   .. parsed-literal:: C:/Documents and Settings/All Users/AppData/Roaming/Blender Foundation/Blender/|BLENDER_VERSION|/
 
 
 Unix (Linux/BSD/Solaris)
 ========================
 
 LOCAL
-   ``./`` |BLENDER_VERSION| ``/``
+   .. parsed-literal:: ./|BLENDER_VERSION|/
 USER
-   ``$HOME/.config/blender/`` |BLENDER_VERSION| ``/``
+   .. parsed-literal:: $HOME/.config/blender/|BLENDER_VERSION|/
 SYSTEM
-   ``/usr/share/blender/`` |BLENDER_VERSION| ``/``
+   .. parsed-literal:: /usr/share/blender/|BLENDER_VERSION|/
 
 
 .. note::
 
-   The path ``./`` |BLENDER_VERSION| ``/`` is relative to the blender executable &
+   The path ./|BLENDER_VERSION|/ is relative to the blender executable &
    used for self contained bundles distributed by official blender.org builds.
 
+.. note::
 
-.. note:: 
+   The USER path will use ``$XDG_CONFIG_HOME`` if its set:
 
-   The USER path will use XDG_CONFIG_HOME if its set:* ``$XDG_CONFIG_HOME/blender/`` |BLENDER_VERSION| ``/``
+   .. parsed-literal:: $XDG_CONFIG_HOME/blender/|BLENDER_VERSION|/
 
 
 Path Layout
@@ -78,7 +82,9 @@ Path Layout
 
 This is the path layout which is used within the directories described above.
 
-Where ``./config/startup.blend`` could be ``~/.blender/`` |BLENDER_VERSION| ``/config/startup.blend`` for example.
+Where ``./config/startup.blend`` could be
+.. parsed-literal:: ~/.blender/|BLENDER_VERSION|/config/startup.blend
+for example.
 
 
 ``./autosave/ ...``
