@@ -46,37 +46,40 @@ Shadow sample generator type
 
    Below is a table of renders with different :guilabel:`Soft Size` and :guilabel:`Samples` settings showing the effect of various values on the softness of shadow edges:
 
-+------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
-+.. figure:: /images/Manual_-_Light_-_Ray_Shadow_-_Soft_Size_1_-_Samples_2_-_Cube.jpg|.. figure:: /images/Manual_-_Light_-_Ray_Shadow_-_Soft_Size_1_-_Samples_4_-_Cube.jpg|.. figure:: /images/Manual_-_Light_-_Ray_Shadow_-_Soft_Size_1_-_Samples_6_-_Cube.jpg+
-+   :width: 190px                                                                    |   :width: 190px                                                                    |   :width: 190px                                                                    +
-+   :figwidth: 190px                                                                 |   :figwidth: 190px                                                                 |   :figwidth: 190px                                                                 +
-+                                                                                    |                                                                                    |                                                                                    +
-+   Soft Size: 1.0, Samples: 2.                                                      |   Soft Size: 1.0, Samples: 4.                                                      |   Soft Size: 1.0, Samples: 6.                                                      +
-+------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
-+.. figure:: /images/Manual_-_Light_-_Ray_Shadow_-_Soft_Size_2_-_Samples_2_-_Cube.jpg|.. figure:: /images/Manual_-_Light_-_Ray_Shadow_-_Soft_Size_2_-_Samples_4_-_Cube.jpg|.. figure:: /images/Manual_-_Light_-_Ray_Shadow_-_Soft_Size_2_-_Samples_6_-_Cube.jpg+
-+   :width: 190px                                                                    |   :width: 190px                                                                    |   :width: 190px                                                                    +
-+   :figwidth: 190px                                                                 |   :figwidth: 190px                                                                 |   :figwidth: 190px                                                                 +
-+                                                                                    |                                                                                    |                                                                                    +
-+   Soft Size: 2.0, Samples: 2.                                                      |   Soft Size: 2.0, Samples: 4.                                                      |   Soft Size: 2.0, Samples: 6.                                                      +
-+------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
-+.. figure:: /images/Manual_-_Light_-_Ray_Shadow_-_Soft_Size_3_-_Samples_2_-_Cube.jpg|.. figure:: /images/Manual_-_Light_-_Ray_Shadow_-_Soft_Size_3_-_Samples_4_-_Cube.jpg|.. figure:: /images/Manual_-_Light_-_Ray_Shadow_-_Soft_Size_3_-_Samples_6_-_Cube.jpg+
-+   :width: 190px                                                                    |   :width: 190px                                                                    |   :width: 190px                                                                    +
-+   :figwidth: 190px                                                                 |   :figwidth: 190px                                                                 |   :figwidth: 190px                                                                 +
-+                                                                                    |                                                                                    |                                                                                    +
-+   Soft Size: 3.0, Samples: 2.                                                      |   Soft Size: 3.0, Samples: 4.                                                      |   Soft Size: 3.0, Samples: 6.                                                      +
-+------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+   +------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+   +.. figure:: /images/Manual_-_Light_-_Ray_Shadow_-_Soft_Size_1_-_Samples_2_-_Cube.jpg|.. figure:: /images/Manual_-_Light_-_Ray_Shadow_-_Soft_Size_1_-_Samples_4_-_Cube.jpg|.. figure:: /images/Manual_-_Light_-_Ray_Shadow_-_Soft_Size_1_-_Samples_6_-_Cube.jpg+
+   +   :width: 190px                                                                    |   :width: 190px                                                                    |   :width: 190px                                                                    +
+   +   :figwidth: 190px                                                                 |   :figwidth: 190px                                                                 |   :figwidth: 190px                                                                 +
+   +                                                                                    |                                                                                    |                                                                                    +
+   +   Soft Size: 1.0, Samples: 2.                                                      |   Soft Size: 1.0, Samples: 4.                                                      |   Soft Size: 1.0, Samples: 6.                                                      +
+   +------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+   +.. figure:: /images/Manual_-_Light_-_Ray_Shadow_-_Soft_Size_2_-_Samples_2_-_Cube.jpg|.. figure:: /images/Manual_-_Light_-_Ray_Shadow_-_Soft_Size_2_-_Samples_4_-_Cube.jpg|.. figure:: /images/Manual_-_Light_-_Ray_Shadow_-_Soft_Size_2_-_Samples_6_-_Cube.jpg+
+   +   :width: 190px                                                                    |   :width: 190px                                                                    |   :width: 190px                                                                    +
+   +   :figwidth: 190px                                                                 |   :figwidth: 190px                                                                 |   :figwidth: 190px                                                                 +
+   +                                                                                    |                                                                                    |                                                                                    +
+   +   Soft Size: 2.0, Samples: 2.                                                      |   Soft Size: 2.0, Samples: 4.                                                      |   Soft Size: 2.0, Samples: 6.                                                      +
+   +------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+   +.. figure:: /images/Manual_-_Light_-_Ray_Shadow_-_Soft_Size_3_-_Samples_2_-_Cube.jpg|.. figure:: /images/Manual_-_Light_-_Ray_Shadow_-_Soft_Size_3_-_Samples_4_-_Cube.jpg|.. figure:: /images/Manual_-_Light_-_Ray_Shadow_-_Soft_Size_3_-_Samples_6_-_Cube.jpg+
+   +   :width: 190px                                                                    |   :width: 190px                                                                    |   :width: 190px                                                                    +
+   +   :figwidth: 190px                                                                 |   :figwidth: 190px                                                                 |   :figwidth: 190px                                                                 +
+   +                                                                                    |                                                                                    |                                                                                    +
+   +   Soft Size: 3.0, Samples: 2.                                                      |   Soft Size: 3.0, Samples: 4.                                                      |   Soft Size: 3.0, Samples: 6.                                                      +
+   +------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
 
    Below is an animated version of the above table of images showing the effects:
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------+
-+.. figure:: /images/Manual_-_Light_-_Ray_Shadow_-_Soft_Size_Samples_-_Cube_Animated.gif                                                        +
-+                                                                                                                                               +
-+   Animated version renders with different Soft Size and Samples settings showing the effect of various values on the softness of shadow edges.+
-+-----------------------------------------------------------------------------------------------------------------------------------------------+
+   .. figure:: /images/Manual_-_Light_-_Ray_Shadow_-_Soft_Size_Samples_-_Cube_Animated.gif
+
+      Animated version renders with different Soft Size and Samples settings
+      showing the effect of various values on the softness of shadow edges.
 
 
 :guilabel:`Threshold`
-   Threshold for Adaptive Sampling.  This field is used with the :guilabel:`Adaptive QMC` shadow calculation method. The value is used to determine if the :guilabel:`Adaptive QMC` shadow sample calculation can be skipped based on a threshold of how shadowed an area is already. The maximum :guilabel:`Threshold` value is **1.0**.
+   Threshold for Adaptive Sampling.
+   This field is used with the :guilabel:`Adaptive QMC` shadow calculation method.
+   The value is used to determine if the :guilabel:`Adaptive QMC` shadow sample
+   calculation can be skipped based on a threshold of how shadowed an area is already.
+   The maximum :guilabel:`Threshold` value is **1.0**.
 
 
 What is Quasi-Monte Carlo?

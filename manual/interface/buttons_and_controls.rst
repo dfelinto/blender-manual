@@ -60,7 +60,9 @@ Number buttons are handled in several ways:
 
 
 - To change the value in steps, click :kbd:`lmb` on the small triangles on the sides of the button.
-- To change the value in a wider range, hold down :kbd:`lmb` and drag the mouse to the left or right. If you hold :kbd:`ctrl` after holding down :kbd:`lmb`, the value is changed in discrete steps; if you hold :kbd:`shift` instead, you'll have finer control over the values.
+- To change the value in a wider range, hold down :kbd:`lmb` and drag the mouse to the left or right.
+  If you hold :kbd:`ctrl` after holding down :kbd:`lmb`, the value is changed in discrete steps;
+  if you hold :kbd:`shift` instead, you'll have finer control over the values.
 - :kbd:`enter` or :kbd:`lmb` lets you enter the value by hand.
 
 When entering values by hand, pressing :kbd:`home` or :kbd:`end` will move the
@@ -77,7 +79,8 @@ You can also enter expressions such as ``3*2`` instead of ``6``. or ``5/10+3``.
 Even constants like ``pi`` (3.142) or functions like ``sqrt(2)`` (square root of 2)
 may be used.
 
-*These expressions are evaluated by python; for all available math expressions see:* `math module reference <http://docs.python.org/py3k/library/math.html>`__
+*These expressions are evaluated by Python; for all available math expressions
+see:* `math module reference <http://docs.python.org/py3k/library/math.html>`__
 
 
 Units
@@ -95,7 +98,8 @@ Examples of valid units include:
 - ``3ft/0.5km``
 - ``2.2mm + 5' / 3" - 2yards``
 
-*Note that the commas are optional. Also notice how you can mix between metric and imperial even though the display can only show one at a time.*
+*Note that the commas are optional.
+Also notice how you can mix between metric and imperial even though the display can only show one at a time.*
 
 
 Menu Buttons
@@ -117,7 +121,8 @@ Linking a Material to an Object will assign that material to the selected Object
    Datablock link menu with search
 
 
-- The first button (with an icon of the DataBlock type) opens a menu that lets you select the DataBlock to link by clicking :kbd:`lmb` on the requested item. This list has a search box at the bottom.
+- The first button (with an icon of the DataBlock type) opens a menu that lets you select the DataBlock to
+  link by clicking :kbd:`lmb` on the requested item. This list has a search box at the bottom.
 - The second button displays the name of the linked DataBlock and lets you edit it after clicking :kbd:`lmb`.
 - The "+" button duplicates the current DataBlock and applies it.
 - The "X" button clears the link.
@@ -172,66 +177,59 @@ please go to the :doc:`System </preferences/system>` preferences page.
    The :guilabel:`Hex` values are expressed in the same way HTML colors are expressed.
 
 
-   Note that Blender corrects Gamma by default; for more information about how to disable Gamma correction in Blender, please go to the :doc:`Color Management and Exposure </render/post_process/cm_and_exposure>` page.
+   Note that Blender corrects Gamma by default; for more information about how to disable Gamma correction in Blender,
+   please go to the :doc:`Color Management and Exposure </render/post_process/cm_and_exposure>` page.
 
 
-+----------------------------------------------------------------------------------------------------------------+
-+.. figure:: /images/(Doc_26x_Manual_Preferences_System)_(Color_Picker_Circle)_(GBAFN).jpg                       +
-+                                                                                                                +
-+   Fig. 2 - Color Picker - Circle                                                                               +
-+                                                                                                                +
-+                                                                                                                +
-+   Circle (Default)                                                                                             +
-+      A full gamut of colors ranging from center to the borders is always shown; center is a mix of the colors. +
-+      Brightness is adjusted with the right bar, from top to bottom.                                            +
-+      For operations that are capable of using Alpha, another slider is added at the bottom of the color picker.+
-+      See Fig. 2 - Color Picker - Circle                                                                        +
-+----------------------------------------------------------------------------------------------------------------+
+.. figure:: /images/(Doc_26x_Manual_Preferences_System)_(Color_Picker_Circle)_(GBAFN).jpg
+
+   Fig. 2 - Color Picker - Circle
 
 
-+--------------------------------------------------------------------------------------------------------------------------+
-+.. figure:: /images/(Doc_26x_Manual_Preferences_System)_(Color_Picker_HS_PLUS_V)_(GBAFN).jpg                              +
-+                                                                                                                          +
-+   Fig. 3 - Color Picker                                                                                                  +
-+   Square (HS + V)                                                                                                        +
-+                                                                                                                          +
-+                                                                                                                          +
-+   :guilabel:`Square (HS + V)`                                                                                            +
-+      Hue, Saturation plus Value  **→** A full gamut of colors is always shown.                                           +
-+      Brightness is subtracted from the base color chosen on the square of the color picker moving the slider to the left.+
-+      For operations that are capable of using Alpha, another slider is added at the bottom of the color picker.          +
-+      See Fig. 3 - Color Picker - Square (HS + V)                                                                         +
-+--------------------------------------------------------------------------------------------------------------------------+
+   Circle (Default)
+      A full gamut of colors ranging from center to the borders is always shown; center is a mix of the colors.
+      Brightness is adjusted with the right bar, from top to bottom.
+      For operations that are capable of using Alpha, another slider is added at the bottom of the color picker.
+      See Fig. 2 - Color Picker - Circle
 
 
-+--------------------------------------------------------------------------------------------------------------------------------+
-+.. figure:: /images/(Doc_26x_Manual_Preferences_System)_(Color_Picker_SV_PLUS_H)_(GBAFN).jpg                                    +
-+                                                                                                                                +
-+   Fig. 4 - Color Picker                                                                                                        +
-+   Square (SV + H)                                                                                                              +
-+                                                                                                                                +
-+                                                                                                                                +
-+   :guilabel:`Square (SV + H)`                                                                                                  +
-+      Saturation, Value plus Hue  **→** A full Gamut of colors is always shown at the bar in the middle of the color picker.    +
-+      Colors are adjusted using the a range of brightness of the base color chosen at the color bar in the middle of the picker.+
-+      For operations that are capable of using Alpha, another slider is added at the bottom of the color picker.                +
-+      See Fig. 4 - Color Picker - Square (SV + H)                                                                               +
-+--------------------------------------------------------------------------------------------------------------------------------+
+.. figure:: /images/(Doc_26x_Manual_Preferences_System)_(Color_Picker_HS_PLUS_V)_(GBAFN).jpg
+
+   Fig. 3 - Color Picker
+   Square (HS + V)
 
 
-+-------------------------------------------------------------------------------------------------------------------+
-+.. figure:: /images/(Doc_26x_Manual_Preferences_System)_(Color_Picker_HV_PLUS_S)_(GBAFN).jpg                       +
-+                                                                                                                   +
-+   Fig. 5 - Color Picker                                                                                           +
-+   Square (HV + S)                                                                                                 +
-+                                                                                                                   +
-+                                                                                                                   +
-+   :guilabel:`Square (HV + S)`                                                                                     +
-+      Hue, Value and Saturation  **→** A full gamut of colors is always shown at the square of the color picker.   +
-+      Brightness is added to the base color chosen on the square of the color picker moving the slider to the left.+
-+      For operations that are capable of using Alpha, another slider is added at the bottom of the color picker.   +
-+      See Fig. 5 - Color Picker - Square (HV + S)                                                                  +
-+-------------------------------------------------------------------------------------------------------------------+
+   :guilabel:`Square (HS + V)`
+      Hue, Saturation plus Value  **→** A full gamut of colors is always shown.
+      Brightness is subtracted from the base color chosen on the square of the color picker moving the slider to the left.
+      For operations that are capable of using Alpha, another slider is added at the bottom of the color picker.
+      See Fig. 3 - Color Picker - Square (HS + V)
+
+
+.. figure:: /images/(Doc_26x_Manual_Preferences_System)_(Color_Picker_SV_PLUS_H)_(GBAFN).jpg
+
+   Fig. 4 - Color Picker
+   Square (SV + H)
+
+
+   :guilabel:`Square (SV + H)`
+      Saturation, Value plus Hue  **→** A full Gamut of colors is always shown at the bar in the middle of the color picker.
+      Colors are adjusted using the a range of brightness of the base color chosen at the color bar in the middle of the picker.
+      For operations that are capable of using Alpha, another slider is added at the bottom of the color picker.
+      See Fig. 4 - Color Picker - Square (SV + H)
+
+
+.. figure:: /images/(Doc_27x_Manual_Preferences_System)_(Color_Picker_HV_PLUS_S)_(GBAFN).jpg
+
+   Fig. 5 - Color Picker
+   Square (HV + S)
+
+
+   :guilabel:`Square (HV + S)`
+      Hue, Value and Saturation  **→** A full gamut of colors is always shown at the square of the color picker.
+      Brightness is added to the base color chosen on the square of the color picker moving the slider to the left.
+      For operations that are capable of using Alpha, another slider is added at the bottom of the color picker.
+      See Fig. 5 - Color Picker - Square (HV + S)
 
 
 - Use :kbd:`mouse wheel` to change overall brightness.
@@ -245,7 +243,8 @@ The eye dropper allows you to sample a color from anywhere in the Blender window
 Dropper can be accessed from any color picker or by pressing :kbd:`E` with the mouse
 hovering over the color property.
 
-:kbd:`lmb` and dragging the eyedropper will mix the colors you drag over which can help when sampling noisy imagery. :kbd:`spacebar` resets and starts mixing the colors again.
+:kbd:`lmb` and dragging the eyedropper will mix the colors you drag over which can help when sampling noisy imagery.
+:kbd:`spacebar` resets and starts mixing the colors again.
 
 
 Cascade Buttons
@@ -266,59 +265,56 @@ See *Colorband before* and *Colorband after*.
 +-------------------------------------------------------------------+------------------------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------+
-+:guilabel:`Color Ramps`                                                                                           +
-+   :guilabel:`Color Ramps` enables the user to specify a range of colors based on color stops.                    +
-+   Color stops are similar to a mark indicating where the exact chosen color should be.                           +
-+   The interval from each of the color stops added to the ramp is a result of the color interpolation and         +
-+   chosen interpolation method. The available options for Color Ramps are:                                        +
-+                                                                                                                  +
-+                                                                                                                  +
-+   :guilabel:`Add` (Button)                                                                                       +
-+      Clicking on this button will add a stop to your custom weight paint map.                                    +
-+      The stops are added from the last selected stop to the next one, from left to right and                     +
-+      they will be placed in the middle of both stops.                                                            +
-+                                                                                                                  +
-+                                                                                                                  +
-+   :guilabel:`Delete` (Button)                                                                                    +
-+      Deletes the selected color stop from the list.                                                              +
-+                                                                                                                  +
-+                                                                                                                  +
-+   :guilabel:`'F'` (Button)                                                                                       +
-+      Flips the color band, inverting the values of the custom weight paint range.                                +
-+                                                                                                                  +
-+                                                                                                                  +
-+   :guilabel:`Numeric Field`                                                                                      +
-+      Whenever the user adds a color stop to the custom weight paint range, the color stop will receive an index. +
-+      This field shows the indexes added (clicking in the arrows until the counter stops), and allows             +
-+      the user to select the color stop from the list. The selected color stop will be shown with a dashed line.  +
-+                                                                                                                  +
-+                                                                                                                  +
-+   :guilabel:`Interpolation Options`                                                                              +
-+      Enables the user to choose from **4** types of calculations for the color interpolation for each color stop.+
-+      Available options are:                                                                                      +
-+                                                                                                                  +
-+                                                                                                                  +
-+      :guilabel:`B-Spline`                                                                                        +
-+         Uses a :guilabel:`B-Spline` Interpolation for the color stops.                                           +
-+      :guilabel:`Cardinal`                                                                                        +
-+         Uses a :guilabel:`Cardinal` Interpolation for the color stops.                                           +
-+      :guilabel:`Linear`                                                                                          +
-+         Uses a :guilabel:`Linear` Interpolation for the color stops.                                             +
-+      :guilabel:`Ease`                                                                                            +
-+         Uses a :guilabel:`Ease` Interpolation for the color stops.                                               +
-+      :guilabel:`Constant`                                                                                        +
-+         Uses a :guilabel:`Constant` Interpolation for the color stops.                                           +
-+                                                                                                                  +
-+                                                                                                                  +
-+   :guilabel:`Position`                                                                                           +
-+      This slider controls the positioning of the selected color stop in the range.                               +
-+                                                                                                                  +
-+                                                                                                                  +
-+   :guilabel:`Color Bar`                                                                                          +
-+      Opens a color Picker for the user to specify color and Alpha for the selected color stop.                   +
-+      When a color is using Alpha, the Color Bar is then divided in two, with the left side                       +
-+      showing the base color and the right side showing the color with the alpha value.                           +
-+------------------------------------------------------------------------------------------------------------------+
+:guilabel:`Color Ramps`
+   :guilabel:`Color Ramps` enables the user to specify a range of colors based on color stops.
+   Color stops are similar to a mark indicating where the exact chosen color should be.
+   The interval from each of the color stops added to the ramp is a result of the color interpolation and
+   chosen interpolation method. The available options for Color Ramps are:
 
+
+   :guilabel:`Add` (Button)
+      Clicking on this button will add a stop to your custom weight paint map.
+      The stops are added from the last selected stop to the next one, from left to right and
+      they will be placed in the middle of both stops.
+
+
+   :guilabel:`Delete` (Button)
+      Deletes the selected color stop from the list.
+
+
+   :guilabel:`'F'` (Button)
+      Flips the color band, inverting the values of the custom weight paint range.
+
+
+   :guilabel:`Numeric Field`
+      Whenever the user adds a color stop to the custom weight paint range, the color stop will receive an index.
+      This field shows the indexes added (clicking in the arrows until the counter stops), and allows
+      the user to select the color stop from the list. The selected color stop will be shown with a dashed line.
+
+
+   :guilabel:`Interpolation Options`
+      Enables the user to choose from **4** types of calculations for the color interpolation for each color stop.
+      Available options are:
+
+
+      :guilabel:`B-Spline`
+         Uses a :guilabel:`B-Spline` Interpolation for the color stops.
+      :guilabel:`Cardinal`
+         Uses a :guilabel:`Cardinal` Interpolation for the color stops.
+      :guilabel:`Linear`
+         Uses a :guilabel:`Linear` Interpolation for the color stops.
+      :guilabel:`Ease`
+         Uses a :guilabel:`Ease` Interpolation for the color stops.
+      :guilabel:`Constant`
+         Uses a :guilabel:`Constant` Interpolation for the color stops.
+
+
+   :guilabel:`Position`
+      This slider controls the positioning of the selected color stop in the range.
+
+
+   :guilabel:`Color Bar`
+      Opens a color Picker for the user to specify color and Alpha for the selected color stop.
+      When a color is using Alpha, the Color Bar is then divided in two, with the left side
+      showing the base color and the right side showing the color with the alpha value.
 

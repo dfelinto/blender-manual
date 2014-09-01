@@ -349,13 +349,11 @@ To apply the curve modifier, the text object first has to be converted to a mesh
 using :kbd:`ALT-C` and click mesh.
 
 
-+----------------------------------------------+
-+.. admonition:: Note                          +
-+   :class: note                               +
-+                                              +
-+   There is also a Text on Curve feature,     +
-+   but the curve modifier offers more options.+
-+----------------------------------------------+
+.. admonition:: Note
+   :class: note
+
+   There is also a Text on Curve feature,
+   but the curve modifier offers more options.
 
 
 Underline
