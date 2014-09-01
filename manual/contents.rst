@@ -10,7 +10,6 @@
    interface/index.rst
    vitals/index.rst
    preferences/index.rst
-   your_first_animation/index.rst
    data_system/index.rst
    3d_interaction/index.rst
    modeling/index.rst
