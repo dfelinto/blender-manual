@@ -195,8 +195,5 @@ Watch this page on video!
 
 This page has been made into a video. You can watch it on YouTube!
 
-
-FIXME(Tag Unsupported:youtube;
-<youtube>WamG6HIZ1rw</youtube>
-)
+.. youtube:: WamG6HIZ1rw
 
