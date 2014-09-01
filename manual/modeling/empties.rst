@@ -15,31 +15,36 @@ but can be used as a handle for many purposes.
 Settings
 ========
 
-:guilabel:`Plain Axes`
+Plain Axes
    Draws as six lines, initially with one pointing in each of the +X,-X,+Y,-Y,+Z,and -Z axis directions.
-:guilabel:`Arrows`
+Arrows
    Draws as arrows, initially pointing in the positive X,Y, and Z axis directions, each with a label.
-:guilabel:`Single Arrow`
+Single Arrow
    Draws as a single arrow, initially pointing in the +Z axis direction.
-:guilabel:`Circle`
+Circle
    Draws as a circle initially in the XZ plane.
-:guilabel:`Cube`
+Cube
    Draws as a cube, initially aligned to the XYZ axes.
-:guilabel:`Sphere`
-   Draws as an implied sphere defined by 3 circles.  Initially, the circles are aligned, one each, to the X, Y, and Z axes.
-:guilabel:`Cone`
+Sphere
+   Draws as an implied sphere defined by 3 circles.
+   Initially, the circles are aligned, one each, to the X, Y, and Z axes.
+Cone
    Draws as a cone, initially pointing in the +Y axis direction.
-:guilabel:`Image`
-   Empties can display images. This can be used to create reference images, including blueprints or character sheets to model from, instead of using background images. The image is displayed regardless of the 3D display mode. The settings are the same as in :doc:`Background Image Settings </3d_interaction/navigating/3d_view_options#background_image>`
+Image
+   Empties can display images. This can be used to create reference images,
+   including blueprints or character sheets to model from, instead of using background images.
+   The image is displayed regardless of the 3D display mode.
+   The settings are the same as in
+   :doc:`Background Image Settings </3d_interaction/navigating/3d_view_options#background_image>`
 
 
-.. admonition:: Note
-   :class: note
-   
-   While alpha-images can be used, there is a known limitation with object draw order, where alphas won't always draw on top of other objects when unselected.
+.. note::
+
+   While alpha-images can be used, there is a known limitation with object draw order,
+   where alphas won't always draw on top of other objects when unselected.
 
 
-:guilabel:`Size`
+Size
    Controls the local size of the empty. This does not change its scale, but simply resizes the shape.
 
 
@@ -89,5 +94,4 @@ Empties are important and useful objects. Some examples of ways to use them incl
 - Rigging controls
 - DOF distances
 - Reference Images
-
 
