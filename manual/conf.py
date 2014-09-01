@@ -21,6 +21,11 @@ sys.path.insert(0, os.path.abspath('../exts'))
 
 # -- General configuration -----------------------------------------------------
 
+# include at end of every file
+rst_epilog = """
+.. |BLENDER_VERSION| replace:: 2.71
+"""
+
 # If your documentation needs a minimal Sphinx version, state it here.
 #needs_sphinx = '1.0'
 
