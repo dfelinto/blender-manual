@@ -31,9 +31,9 @@ Options
 :guilabel:`Thickness`
    The depth to be solidified.
 :guilabel:`Offset`
-   A value between **-1** and **1** to locate the solidified output inside or outside the original mesh.  Set to zero, :guilabel:`Offset` will center the solidified output on the original mesh.
+   A value between ``-1`` and ``1`` to locate the solidified output inside or outside the original mesh.  Set to zero, :guilabel:`Offset` will center the solidified output on the original mesh.
 :guilabel:`Clamp`
-   A value between **0** and **2** to clamp offsets to avoid self intersection.
+   A value between ``0`` and ``2`` to clamp offsets to avoid self intersection.
 :guilabel:`Vertex Group`
    Restrict the modifier to only this vertex group.
 

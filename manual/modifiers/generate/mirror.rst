@@ -66,7 +66,7 @@ Options
      A final word about multi-axes mirror: in these cases, the "direct", "first level" copies get the mirrored groups, the copies of copies ("second level") get the original groups, et cetera.
 
 :guilabel:`Textures`
-   The :guilabel:`U` and :guilabel:`V` options allows you to mirror, respectively, the U and V texture coordinates. The values are "mirrored" around the **0.5** value, i.e. if you have a vertex with UV coordinates of (**0.3**, **0.85**), its mirror copy will have UV coordinates of (**0.7**, **0.15**) with both buttons enabled.
+   The :guilabel:`U` and :guilabel:`V` options allows you to mirror, respectively, the U and V texture coordinates. The values are "mirrored" around the ``0.5`` value, i.e. if you have a vertex with UV coordinates of (``0.3``, ``0.85``), its mirror copy will have UV coordinates of (``0.7``, ``0.15``) with both buttons enabled.
 
 :guilabel:`Merge Limit`
    The maximal distance between vertices and mirror plane for the welding between original and mirrored vertices to take place. The vertices then will snap together, allowing linking the original mesh to its mirrored copy.

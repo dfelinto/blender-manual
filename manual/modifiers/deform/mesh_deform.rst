@@ -48,8 +48,8 @@ the calculations it needs, to properly map the deform mesh cage to the deformed 
 :guilabel:`Precision`
    The :guilabel:`Precision` numeric slider field controls the accuracy with which the deform mesh cage alters the
    deformed object, when the points on the cage are moved.
-   The range of values for the :guilabel:`Precision` field can range from **2** to **10**,
-   the default being **5**. Raising this value higher can greatly increase the time it takes the :guilabel:`Mesh
+   The range of values for the :guilabel:`Precision` field can range from ``2`` to ``10``,
+   the default being ``5``. Raising this value higher can greatly increase the time it takes the :guilabel:`Mesh
    Deform` modifier to complete its binding calculations,
    but it will get more accurate cage mapping to the deformed object.
    This rise in calculation time can make Blender stop responding until it has calculated what it needs to.

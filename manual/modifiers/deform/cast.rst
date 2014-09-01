@@ -48,7 +48,7 @@ Options
    Toggle buttons to enable/disable the modifier in the X, Y, Z axes directions (X and Y only for :guilabel:`Cylinder` cast type).
 
 :guilabel:`Factor`
-   The factor to control blending between original and cast vertex positions. It's a linear interpolation: **0.0** gives original coordinates (i.e. modifier has no effect), **1.0** casts to the target shape. Values below or above ``[0.0, 1.0]`` deform the mesh, sometimes in interesting ways.
+   The factor to control blending between original and cast vertex positions. It's a linear interpolation: ``0.0`` gives original coordinates (i.e. modifier has no effect), ``1.0`` casts to the target shape. Values below or above ``[0.0, 1.0]`` deform the mesh, sometimes in interesting ways.
 
 :guilabel:`Radius`
    If non-zero, this radius defines a sphere of influence. Vertices outside it are not affected by the modifier.

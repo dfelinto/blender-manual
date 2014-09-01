@@ -31,7 +31,7 @@ whole book!
 Add a plane and a camera, such that the plane faces the camera and covers the whole view.
 
 Add a material to the plane. As we won't use any light,
-set its :guilabel:`Emit` value to **1.0**.
+set its :guilabel:`Emit` value to ``1.0``.
 
 Create Fcurves for :guilabel:`R`, :guilabel:`G` and :guilabel:`B`,
 with a few random control points, all in the ``[0.0, 1.0]`` range.
@@ -60,7 +60,7 @@ or the same if you want a cyclic animation...
 
 Usually, you will create a slow, linear variation of the Z offset (i.e.
 a straight curve with low gradient), e.g.
-a decay of **1.0** over **500** to **1000** frames,
+a decay of ``1.0`` over ``500`` to ``1000`` frames,
 but the only way to find the good value is to make preview renders!
 
 You should get something similar to what shown below. You can download the blend file

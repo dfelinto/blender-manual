@@ -43,16 +43,16 @@ by Blender and filled in. Thus, the animators' workload is significantly reduced
 
 For example, if you have:
 
-- a control point of value **0** at frame **0**,
-- another one of value **10** at frame **25**,
+- a control point of value ``0`` at frame ``0``,
+- another one of value ``10`` at frame ``25``,
 - linear interpolation,
 
-then, at frame **5** we get a value of **2**.
+then, at frame ``5`` we get a value of ``2``.
 
 
 The same goes for all intermediate frames: with just two points,
-you get a smooth growth from **0** to **10** along the **25 frames**.
-Obviously, if you'd like the frame **15** to have a value of **9**,
+you get a smooth growth from ``0`` to ``10`` along the **25 frames**.
+Obviously, if you'd like the frame ``15`` to have a value of ``9``,
 you'd have to add another control point (or keyframe)...
 
 

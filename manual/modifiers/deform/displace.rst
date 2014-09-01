@@ -39,7 +39,7 @@ Options
    The texture value which will be treated as no displacement by the modifier.
    Texture values below this value will result in negative displacement along the selected direction, while texture values above this value will result in positive displacement.
    This is achieved by the equation ``(displacement) = (texture value) - Midlevel``.
-   Recall that color/luminosity values are typically between **0.0** and **1.0** in Blender, and not between **0** and **255**.
+   Recall that color/luminosity values are typically between ``0.0`` and ``1.0`` in Blender, and not between ``0`` and ``255``.
 
 :guilabel:`Direction`
    The direction along which to displace the vertices.

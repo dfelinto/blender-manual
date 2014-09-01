@@ -116,7 +116,7 @@ Options
    Controls the merge distance for :guilabel:`Merge`.
 
 :guilabel:`Start cap`
-   The mesh object to be used as a start cap. A single copy of this object will be placed at the "beginning" of the array - in fact, as if it was in position **-1**, i.e. one "array step" before the first "regular" array copy. Of course, if :guilabel:`Merge` is activated, and the :guilabel:`Start cap` is near enough to the first copy, they will be merged.
+   The mesh object to be used as a start cap. A single copy of this object will be placed at the "beginning" of the array - in fact, as if it was in position ``-1``, i.e. one "array step" before the first "regular" array copy. Of course, if :guilabel:`Merge` is activated, and the :guilabel:`Start cap` is near enough to the first copy, they will be merged.
 
 :guilabel:`End cap`
    The mesh object to be used as an end cap. A single copy of this object will be placed at the "end" of the array - in fact, as if it was in position **n+1**, i.e. one "array step" after the last "regular" array copy. And as :guilabel:`Start cap`, it can be merged with the last copy...

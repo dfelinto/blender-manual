@@ -42,7 +42,7 @@ Sample Generator Types
    The following three parameters are only available when using the :guilabel:`Constant Jittered` sample generator method, and are intended to artificially boost the "soft" shadow effect, with possible loss in quality:
 
    :guilabel:`Umbra`
-      Emphasizes the intensity of shadows in the area fully within the shadow rays. The light transition between fully shadowed areas and fully lit areas changes more quickly (i.e. a sharp shadow gradient). You need :guilabel:`Samples` values equal to or greater than **2** to see any influence of this button.
+      Emphasizes the intensity of shadows in the area fully within the shadow rays. The light transition between fully shadowed areas and fully lit areas changes more quickly (i.e. a sharp shadow gradient). You need :guilabel:`Samples` values equal to or greater than ``2`` to see any influence of this button.
 
    :guilabel:`Dither`
       Applies a sampling over the borders of the shadows,
@@ -69,7 +69,7 @@ Technical Details
 The (*Principles behind the* :guilabel:`Area` *light*)
 picture helps to understand how the soft shadows are simulated.
 
-``(a)`` is the :guilabel:`Area` light as defined in Blender. If its shape is :guilabel:`Square`, then the softness of the shadow is defined by the number of light :guilabel:`Samples` in each direction of the shape. For example, ``(b)`` illustrates the equivalent case of an :guilabel:`Area` light (:guilabel:`Square` shape), with :guilabel:`Samples` set at **3** on the :guilabel:`Shadow and Spot` panel.
+``(a)`` is the :guilabel:`Area` light as defined in Blender. If its shape is :guilabel:`Square`, then the softness of the shadow is defined by the number of light :guilabel:`Samples` in each direction of the shape. For example, ``(b)`` illustrates the equivalent case of an :guilabel:`Area` light (:guilabel:`Square` shape), with :guilabel:`Samples` set at ``3`` on the :guilabel:`Shadow and Spot` panel.
 
 The :guilabel:`Area` lamp is then considered as a grid with a resolution of three in each
 direction, and with a light "dupliverted" at each node for a total of nine lights.
@@ -96,7 +96,7 @@ you are strongly encouraged to use the :guilabel:`Size` button(s) instead.
 
 If your computer isn't very fast,
 when using the :guilabel:`Constant Jittered` sample generator method,
-you could find it useful to set a low :guilabel:`Samples` value (like **2**)
+you could find it useful to set a low :guilabel:`Samples` value (like ``2``)
 and activate :guilabel:`Umbra`, :guilabel:`Dither`,
 and/or :guilabel:`Jitter` in order to simulate slightly softer shadows. However,
 these results will never be better than the same lighting with high :guilabel:`Samples` values.

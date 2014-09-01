@@ -92,6 +92,6 @@ FIXME(TODO: Internal Link;
 [[#Example|"solar system" example above]]
 ), I used it to first stick the camera to the "moon", then to the "earth", and finally to nothing, using two :guilabel:`Copy Location` constraints with :guilabel:`Offset` set, and their :guilabel:`Influence` cross-fading together...
 
-- More anecdotal, you can also, for some constraints using an armature's bone as target, animate where along this bone (between root and tip) lays the real target point (**0.0** means "full-root", and **1.0**, "full-tip").
+- More anecdotal, you can also, for some constraints using an armature's bone as target, animate where along this bone (between root and tip) lays the real target point (``0.0`` means "full-root", and ``1.0``, "full-tip").
 
 

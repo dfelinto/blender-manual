@@ -63,7 +63,7 @@ Options
    The amount of deformation.  Can be set to negative.
 
 :guilabel:`Limits`
-   These settings allow you to set the lower and upper limits of the deformation (they are proportional values, from **0.0** to **1.0**). Obviously, the upper limit can't be lower than lower limit.
+   These settings allow you to set the lower and upper limits of the deformation (they are proportional values, from ``0.0`` to ``1.0``). Obviously, the upper limit can't be lower than lower limit.
 
 :guilabel:`Lock X Axis` / :guilabel:`Lock Y Axis` (:guilabel:`Taper` and :guilabel:`Stretch` modes only)
    These controls whether the X and/or Y coordinates are allowed to change or not. Thus it is possible to squash the X coordinates of an object and keep the Y coordinates intact.

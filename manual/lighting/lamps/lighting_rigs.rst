@@ -13,7 +13,7 @@ lighting is an entire step and specialty. Well,
 let's get out of the darkness of confusion and let me en\ *light* en you.
 
 In all the lighting rigs,
-the default camera is always positioned nearly **15** degrees off dead-on, about **25 BU**
+the default camera is always positioned nearly ``15`` degrees off dead-on, about **25 BU**
 (Blender Units) back and **9 BU** to the side of the subject, at eye level,
 and uses a long lens (**80mm**). Up close, a **35mm** lens will distort the image.
 A long lens takes in more of the scene.
@@ -67,7 +67,7 @@ It is a single :guilabel:`Spot` light, usually with a hard edge.
 Halos are enabled in this render to remind you of a smoky nightclub scene.
 It is placed above and directly in front of the subject;
 in this case **10 BU** in front and **10 BU** high, just like a stage,
-it shines down at about a **40** degrees angle. We use quadratic attenuation.
+it shines down at about a ``40`` degrees angle. We use quadratic attenuation.
 
 You can make the spot wider by increasing :guilabel:`Size Spot Shape` and softening the edge
 by increasing :guilabel:`Blend Spot Shape`, and parent it to the main actor,
@@ -223,7 +223,7 @@ Four-point Rig
 
 
 The four-point lighting rig provides a better simulation of outside lighting,
-by adding a :guilabel:`Sun` lamp **30** Blender Units above, **10** to the side,
+by adding a :guilabel:`Sun` lamp ``30`` Blender Units above, ``10`` to the side,
 and **15 BU** behind the subject.
 This sunlight provides backlighting and fills the top of the subject;
 even producing an intentional glare on the top of their head,

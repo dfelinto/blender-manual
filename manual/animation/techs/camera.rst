@@ -23,11 +23,11 @@ Create a scene with a ground, and some objects laying on it.
 Add a camera, place it as you like for the beginning of the transtrav
 (your "key" object should be more or less at the center of the picture,
 it's easier to handle!). As we are going to do a "forward" transtrav,
-you should use a quite long lens at start. Go to frame **10**,
+you should use a quite long lens at start. Go to frame ``10``,
 and insert a keyframe for both the location (and optionally the rotation)
 of the camera and its focal length.
 
-Now, go to frame **140**, and move forward your camera to your key object.
+Now, go to frame ``140``, and move forward your camera to your key object.
 Insert another keyframe for its position, and adjust its focal length until your key object
 have the same visual dimensions as at the beginning. Add a key to both attributes.
 

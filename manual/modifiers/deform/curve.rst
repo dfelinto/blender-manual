@@ -93,6 +93,6 @@ Let's make a simple example:
    Monkey deformations.
 
 
-- In the image to the right you can see the Monkey at different positions along the curve. To get a cleaner view over the deformation :guilabel:`SubSurf` got applied with :guilabel:`Subdiv` to **2**, and :guilabel:`Set Smooth` on the Monkey mesh.
+- In the image to the right you can see the Monkey at different positions along the curve. To get a cleaner view over the deformation :guilabel:`SubSurf` got applied with :guilabel:`Subdiv` to ``2``, and :guilabel:`Set Smooth` on the Monkey mesh.
 
 

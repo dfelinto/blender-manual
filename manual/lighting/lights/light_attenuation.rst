@@ -42,14 +42,14 @@ This lamp falloff type is in effect allowing the mixing of the two light attenua
 Linear
 ^^^^^^
 
-This slider input field can have a value between **0.0** and **1.0**.
-A value of **1.0** in the :guilabel:`Linear` field and **0.0** in the
+This slider input field can have a value between ``0.0`` and ``1.0``.
+A value of ``1.0`` in the :guilabel:`Linear` field and ``0.0`` in the
 :guilabel:`Quadratic` field in effect means that the light from this source is completely
 linear. This means that at the number of Blender Units distance specified in the
 :guilabel:`Distance` field,
 this light source's intensity will be half the value it was originally.
 
-When the :guilabel:`Quadratic` slider is set to **0.0**, the formula for working out the
+When the :guilabel:`Quadratic` slider is set to ``0.0``, the formula for working out the
 attenuation at a particular range for full linear attenuation is:
 
 ``I = E × (D / (D + L × r))``
@@ -73,8 +73,8 @@ Quadratic
    Lamp with Lin/Quad Weighted falloff default settings
 
 
-This slider input field can have a value between **0.0** and **1.0**. A value of **1.0**
-in the :guilabel:`Quadratic` field and **0.0** in the :guilabel:`Linear` field means that
+This slider input field can have a value between ``0.0`` and ``1.0``. A value of ``1.0``
+in the :guilabel:`Quadratic` field and ``0.0`` in the :guilabel:`Linear` field means that
 the light from this source is completely quadratic.
 
 Quadratic attenuation type lighting is considered a more accurate representation of how light
@@ -89,7 +89,7 @@ the intensity decays much slower at distances lower than the set :guilabel:`Dist
 but it attenuates much quicker after :guilabel:`Distance` is reached.
 
 
-When the :guilabel:`Linear` slider is set to **0.0**, the formula for working out the
+When the :guilabel:`Linear` slider is set to ``0.0``, the formula for working out the
 attenuation at a particular range for full quadratic attenuation is:
 
 ``I = E × (D``:sup:`2` ``/ (D``:sup:`2` ``+ Q × r``:sup:`2` ``))``
@@ -107,7 +107,7 @@ Mixing "Linear" and "Quad"
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If both the :guilabel:`Linear` and :guilabel:`Quad` slider fields have values greater than
-**0.0**, then the formula used to calculate the light attenuation profile changes to this:
+``0.0``, then the formula used to calculate the light attenuation profile changes to this:
 
 ``I = E × (D / (D + L × r)) × (D``:sup:`2` ``/ (D``:sup:`2` ``+ Q × r``:sup:`2` ``))``
 
@@ -124,7 +124,7 @@ Where
 Zeroing both "Linear" and "Quad"
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If both the :guilabel:`Linear` and :guilabel:`Quadratic` sliders have **0.0** as their
+If both the :guilabel:`Linear` and :guilabel:`Quadratic` sliders have ``0.0`` as their
 values, the light intensity will not attenuate with distance.
 This does not mean that the light will not get darker—it will,
 but only because the energy the light has is spread out over a wider and wider distance.
@@ -136,7 +136,7 @@ If what you want is a light source that doesn't attenuate and gives the same amo
 intensity to each area it hits,
 you need a light with properties like the :guilabel:`Constant` lamp :guilabel:`Falloff` type.
 
-Also, when the :guilabel:`Linear` and :guilabel:`Quad` sliders are both **0.0** values the
+Also, when the :guilabel:`Linear` and :guilabel:`Quad` sliders are both ``0.0`` values the
 :guilabel:`Distance` field ceases to have any influence on the light attenuation,
 as shown by the equation above.
 
@@ -244,8 +244,8 @@ This lamp falloff type attenuates its intensity according to inverse square law,
 scaled by the :guilabel:`Distance` value. Inverse square is a sharper, realistic decay,
 useful for lighting such as desk lamps and street lights.
 This is similar to the old :guilabel:`Quad` option (and consequently, to the new
-:guilabel:`Lin/Quad Weighted` option with :guilabel:`Linear` to **0.0** and :guilabel:`Quad`
-to **1.0**), with slight changes.
+:guilabel:`Lin/Quad Weighted` option with :guilabel:`Linear` to ``0.0`` and :guilabel:`Quad`
+to ``1.0``), with slight changes.
 
 
 Inverse Linear
@@ -261,8 +261,8 @@ Inverse Linear
 This lamp falloff type attenuates its intensity linearly,
 scaled by the :guilabel:`Dist` value. This is the default setting, behaving the same as the
 default in previous Blender versions without :guilabel:`Quad` switched on, and consequently,
-like the new :guilabel:`Lin/Quad Weighted` option with :guilabel:`Linear` to **1.0** and
-:guilabel:`Quad` to **0.0**. This isn't physically accurate,
+like the new :guilabel:`Lin/Quad Weighted` option with :guilabel:`Linear` to ``1.0`` and
+:guilabel:`Quad` to ``0.0``. This isn't physically accurate,
 but can be easier to light with.
 
 
@@ -355,12 +355,12 @@ light's intensity has fallen to half its strength in all directions.
 Note that the light's intensity continues to fall even after :guilabel:`Distance`.
 :guilabel:`Distance` just specifies the distance where half of the light's energy has weakened.
 
-Notice in (:guilabel:`Distance` *:* **1000**) that the farthest objects are very bright.
+Notice in (:guilabel:`Distance` *:* ``1000``) that the farthest objects are very bright.
 This is because the falloff has been extended far into the distance,
 which means the light is very strong when it hits the last few objects. It is not until
-**1000** units that the light's intensity has fallen to half of its original intensity.
+``1000`` units that the light's intensity has fallen to half of its original intensity.
 
-Contrast this with (:guilabel:`Distance` *:* **10**),
+Contrast this with (:guilabel:`Distance` *:* ``10``),
 where the falloff occurs so soon that the farther objects are barely lit.
 The light's intensity has fallen by a half by time it even reaches the tenth object.
 
@@ -390,11 +390,11 @@ FIXME(TODO: Internal Link;
 [[#Falloff types|description]]
 ) for more info.
 
-In (:guilabel:`Inverse Square` *with* **10**),
+In (:guilabel:`Inverse Square` *with* ``10``),
 the light's intensity has fallen so quickly that the last few objects aren't even lit.
 
-Both (:guilabel:`Inverse Square` *with* **100**) and
-(:guilabel:`Inverse Square` *with* **1000**) appear to be almost identical and that is
+Both (:guilabel:`Inverse Square` *with* ``100``) and
+(:guilabel:`Inverse Square` *with* ``1000``) appear to be almost identical and that is
 because the :guilabel:`Distance` is set beyond the farthest object's distance which is at
 about **40 BU** out. Hence, all the objects get almost the full intensity of the light.
 
@@ -414,7 +414,7 @@ Sphere
    Clipping Sphere.
 
 
-:guilabel:`Sphere` indicates that the light's intensity is null at the :guilabel:`Distance` distance and beyond, regardless of the chosen light's falloff. In (*Clipping Sphere*) you can see a side view example of the setup with :guilabel:`Sphere` enabled and a distance of **10**.
+:guilabel:`Sphere` indicates that the light's intensity is null at the :guilabel:`Distance` distance and beyond, regardless of the chosen light's falloff. In (*Clipping Sphere*) you can see a side view example of the setup with :guilabel:`Sphere` enabled and a distance of ``10``.
 
 Any objects beyond the sphere receive no light from the lamp.
 
@@ -436,17 +436,17 @@ FIXME(TODO: Internal Link;
 +--------------------------------------------------------------------------------------------------+---------------------------------------------------------+---------------------------------------------------------+
 
 
-In (:guilabel:`Sphere` *with* **10**), the clipping sphere's radius is **10** units,
-which means the light's intensity is also being controlled by **10** units of distance.
+In (:guilabel:`Sphere` *with* ``10``), the clipping sphere's radius is ``10`` units,
+which means the light's intensity is also being controlled by ``10`` units of distance.
 With a linear attenuation,
 the light's intensity has fallen very low even before it gets to the first object.
 
-In (:guilabel:`Sphere` *with* **20**),
+In (:guilabel:`Sphere` *with* ``20``),
 the clipping sphere's radius is now **20 BU** and some light is reaching the middle objects.
 
-In (:guilabel:`Sphere` *with* **40**), the clipping sphere's radius is now **40** units,
+In (:guilabel:`Sphere` *with* ``40``), the clipping sphere's radius is now ``40`` units,
 which is beyond the last object. However, the light doesn't make it to the last few objects
-because the intensity has fallen to nearly **0**.
+because the intensity has fallen to nearly ``0``.
 
 
 Hints

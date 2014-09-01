@@ -41,10 +41,10 @@ Options
       Any of the methods for assigning vertex weights to a mesh work with the :guilabel:`Mask` modifier;
       however the actual weight value assigned to a vertex group is completely ignored.
       The :guilabel:`Mask` modifier only takes into account whether a set of vertices are part of a group or not;
-      the weight is not taken into account. So having a vertex group weight of say **0.5**
+      the weight is not taken into account. So having a vertex group weight of say ``0.5``
       will not make a partially masked mesh.
       Just being part of the vertex group is enough for the :guilabel:`Mask` modifier,
-      even if the weight is **0.0**.
+      even if the weight is ``0.0``.
 
 
 

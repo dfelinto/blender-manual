@@ -94,11 +94,11 @@ Spot Shape
 
 
 :guilabel:`Blend`
-   The :guilabel:`Blend` slider controls the inner cone of the :guilabel:`Spot`. The :guilabel:`Blend` value can be between **0.0** and **1.0**. The value is proportional and represents that amount of space that the inner cone should occupy inside the outer cone (:guilabel:`Size`).
+   The :guilabel:`Blend` slider controls the inner cone of the :guilabel:`Spot`. The :guilabel:`Blend` value can be between ``0.0`` and ``1.0``. The value is proportional and represents that amount of space that the inner cone should occupy inside the outer cone (:guilabel:`Size`).
 
    The inner cone boundary line indicates the point at which light from the :guilabel:`Spot` will start to blur/soften; before this point its light will mostly be full strength. The larger the value of :guilabel:`Blend` the more blurred/soft the edges of the spotlight will be, and the smaller the inner cone's circular area will be (as it starts to blur/soften earlier).
 
-   To make the :guilabel:`Spot` have a sharper falloff rate and therefore less blurred/soft edges, decrease the value of :guilabel:`Blend`. Setting :guilabel:`Blend` to **0.0** results in very sharp spotlight edges, without any transition between light and shadow.
+   To make the :guilabel:`Spot` have a sharper falloff rate and therefore less blurred/soft edges, decrease the value of :guilabel:`Blend`. Setting :guilabel:`Blend` to ``0.0`` results in very sharp spotlight edges, without any transition between light and shadow.
 
    The falloff rate of the :guilabel:`Spot` lamp light is a ratio between the :guilabel:`Blend` and :guilabel:`Size` values; the larger the circular gap between the two, the more gradual the light fades between :guilabel:`Blend` and :guilabel:`Size`.
 

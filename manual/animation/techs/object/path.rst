@@ -63,14 +63,14 @@ The Follow Path Constraint
 
 The :guilabel:`Follow Path` constraint implements the most "classical" technique. By default,
 the owner object will walk the whole path only once, starting at frame one,
-and over **100** frames. You can set a different starting frame in the :guilabel:`Offset`
+and over ``100`` frames. You can set a different starting frame in the :guilabel:`Offset`
 field of the constraint panel, and change the length (in frames)
 of the path using its :guilabel:`Frames` property (:guilabel:`Curve and Surface` panel).
 
 But you can have a much more precise control over your object's movement along its path by
 keyframing or defining a :guilabel:`Speed` animation curve for the path's :guilabel:`Evaluation
 Time` attribute. This curve maps the current frame to a position along the path,
-from **0.0** (start point) to **1.0** (end point).
+from ``0.0`` (start point) to ``1.0`` (end point).
 
 For more details and examples, see the :doc:`Follow Path constraint page </constraints/relationship/follow_path>`.
 

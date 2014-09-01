@@ -69,9 +69,9 @@ For more information on the different shadow generation methods see these links:
 Here are now the options specific to these generation methods:
 
 :guilabel:`Size`
-   The :guilabel:`Size` numeric field can have a value from **512** to **10240**. :guilabel:`Size` represents the resolution used to create a shadow map. This shadow map is then used to determine where shadows lay within a scene.
+   The :guilabel:`Size` numeric field can have a value from ``512`` to ``10240``. :guilabel:`Size` represents the resolution used to create a shadow map. This shadow map is then used to determine where shadows lay within a scene.
 
-   As an example, if you have a :guilabel:`Size` with a value of **1024**, you are indicating that the shadow data will be written to a buffer which will have a square resolution of **1024×1024** pixels/samples from the selected spotlight.
+   As an example, if you have a :guilabel:`Size` with a value of ``1024``, you are indicating that the shadow data will be written to a buffer which will have a square resolution of **1024×1024** pixels/samples from the selected spotlight.
 
    The higher the value of :guilabel:`Size`, the higher resolution and accuracy of the resultant shadows, assuming all other properties of the light and scene are the same, although more memory and processing time would be used. The reverse is also true - if the :guilabel:`Size` value is lowered, the resultant shadows can be of lower quality, but would use less memory and take less processing time to calculate.
 
@@ -90,7 +90,7 @@ Here are now the options specific to these generation methods:
 :guilabel:`Filter Type`
    The :guilabel:`Box`, :guilabel:`Tent`, and :guilabel:`Gauss` filter types control what filtering algorithm to use to anti-alias the buffered shadows.
 
-   They are closely related to the :guilabel:`Samples` numeric field, as when this setting is set to **1**, shadow filtering is disabled, so none of these buttons will have any effect what soever.
+   They are closely related to the :guilabel:`Samples` numeric field, as when this setting is set to ``1``, shadow filtering is disabled, so none of these buttons will have any effect what soever.
 
    :guilabel:`Box`
       The buffered shadows will be anti-aliased using the "box" filtering method.
@@ -112,25 +112,25 @@ Here are now the options specific to these generation methods:
    The :doc:`Anti-Aliasing page </render/options/antialiasing>` in the Render chapter will give more information on the various filtering/distribution methods and their uses.
 
 :guilabel:`Samples`
-   The :guilabel:`Samples` numeric field can have a value between **1** and **16**. It controls the number of samples taken per pixel when calculating shadow maps.
+   The :guilabel:`Samples` numeric field can have a value between ``1`` and ``16``. It controls the number of samples taken per pixel when calculating shadow maps.
 
    The higher this value, the more filtered, smoothed and anti-aliased the shadows cast by the current lamp will be, but the longer they will take to calculate and the more memory they will use. The anti-aliasing method used is determined by having one of the :guilabel:`Box`, :guilabel:`Tent` or :guilabel:`Gauss` buttons activated (see above).
 
-   Having a :guilabel:`Samples` value of **1** is similar to turning off anti-aliasing for buffered shadows.
+   Having a :guilabel:`Samples` value of ``1`` is similar to turning off anti-aliasing for buffered shadows.
 
 :guilabel:`Soft`
-   The :guilabel:`Soft` numeric field can have a value between **1.0** and **100.0**. It indicates how wide an area is sampled when doing anti-aliasing on buffered shadows. The larger the :guilabel:`Soft` value, the more graduated/soft the area that is anti-aliased/softened on the edge of generated shadows.
+   The :guilabel:`Soft` numeric field can have a value between ``1.0`` and ``100.0``. It indicates how wide an area is sampled when doing anti-aliasing on buffered shadows. The larger the :guilabel:`Soft` value, the more graduated/soft the area that is anti-aliased/softened on the edge of generated shadows.
 
 :guilabel:`Sample Buffers`
-   The :guilabel:`Sample Buffers` setting can be set to values **1**, **4** or **9**, and represents the number of shadow buffers that will be used when doing anti-aliasing on buffered shadows.
+   The :guilabel:`Sample Buffers` setting can be set to values ``1``, ``4`` or ``9``, and represents the number of shadow buffers that will be used when doing anti-aliasing on buffered shadows.
 
    This option is used in special cases, like very small objects which move and need to generate really small shadows (such as strands). It appears that normally, pixel width shadows don't anti-alias properly, and that increasing :guilabel:`Buffer Size` doesn't help much.
 
    So this option allows you to have a sort of extra sample pass, done above the regular one (the one controlled by the :guilabel:`Box` / :guilabel:`Tent` / :guilabel:`Gauss`, :guilabel:`Samples` and :guilabel:`Soft` settings).
 
-   The default **1** value will disable this option.
+   The default ``1`` value will disable this option.
 
-   Higher values will produce a smoother anti-aliasing - but be careful: using a :guilabel:`Sample Buffers` of **4** will require four times as much memory and process time, and so on, as Blender will have to compute that number of sample buffers.
+   Higher values will produce a smoother anti-aliasing - but be careful: using a :guilabel:`Sample Buffers` of ``4`` will require four times as much memory and process time, and so on, as Blender will have to compute that number of sample buffers.
 
 
 "Irregular"
@@ -170,7 +170,7 @@ Common options
 The following settings are common to all buffered shadow generation method.
 
 :guilabel:`Bias`
-   The :guilabel:`Bias` numeric field can have a value between **0.001** and **5.0**. :guilabel:`Bias` is used to add a slight offset distance between an object and the shadows cast by it. This is sometimes required because of inaccuracies in the calculation which determines weather an area of an object is in shadow or not.
+   The :guilabel:`Bias` numeric field can have a value between ``0.001`` and ``5.0``. :guilabel:`Bias` is used to add a slight offset distance between an object and the shadows cast by it. This is sometimes required because of inaccuracies in the calculation which determines weather an area of an object is in shadow or not.
 
    Making the :guilabel:`Bias` value smaller results in the distance between the object and its shadow being smaller. If the :guilabel:`Bias` value is too small, an object can get artifacts, which can appear as lines and interference patterns on objects. This problem is usually called "self shadowing", and can usually be fixed by increasing the :guilabel:`Bias` value, which exists for that purpose!
 
@@ -184,13 +184,13 @@ The following settings are common to all buffered shadow generation method.
 .. admonition:: Finer Bias tuning
    :class: note
 
-   You can now refine the :guilabel:`Bias` value independently for each :doc:`Material </materials>`, using the :guilabel:`Bias` slider (:guilabel:`Material` menu, :guilabel:`Shadow` panel). This value is a factor by which the :guilabel:`Bias` value of each :guilabel:`Spot` buffered shadows lamp is multiplied, each time its light hits an object using this material. The **0.0** and **1.0** values are equivalent - they do not alter the lamp's :guilabel:`Bias` original value.
+   You can now refine the :guilabel:`Bias` value independently for each :doc:`Material </materials>`, using the :guilabel:`Bias` slider (:guilabel:`Material` menu, :guilabel:`Shadow` panel). This value is a factor by which the :guilabel:`Bias` value of each :guilabel:`Spot` buffered shadows lamp is multiplied, each time its light hits an object using this material. The ``0.0`` and ``1.0`` values are equivalent - they do not alter the lamp's :guilabel:`Bias` original value.
 
 
 :guilabel:`Clip Start` & :guilabel:`Clip End`
    When a :guilabel:`Spot` light with buffered shadows is added to a scene, an extra line appears on the :guilabel:`Spot` 3D view representation.
 
-   The start point of the line represents :guilabel:`Clip Start` 's value and the end of the line represents :guilabel:`Clip End` 's value. :guilabel:`Clip Start` can have a value between **0.1** and **1000.0**, and :guilabel:`Clip End`, between **1.0** and **5000.0**. Both values are represented in Blender Units.
+   The start point of the line represents :guilabel:`Clip Start` 's value and the end of the line represents :guilabel:`Clip End` 's value. :guilabel:`Clip Start` can have a value between ``0.1`` and ``1000.0``, and :guilabel:`Clip End`, between ``1.0`` and ``5000.0``. Both values are represented in Blender Units.
 
    :guilabel:`Clip Start` indicates the point after which buffered shadows can be present within the :guilabel:`Spot` light area. Any shadow which could be present before this point is ignored and no shadow will be generated.
 

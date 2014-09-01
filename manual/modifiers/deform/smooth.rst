@@ -27,7 +27,7 @@ just like :guilabel:`Smooth` in the :guilabel:`Editing` context.
 It smooths without subdividing the mesh - the number of vertices remains the same.
 
 This modifier is not limited to smoothing, though.
-Its control factor can be configured outside the [\ **0.0**, **1.0** ] range
+Its control factor can be configured outside the [\ ``0.0``, ``1.0`` ] range
 (including negative values), which can result in interesting deformations,
 depending on the affected mesh.
 
@@ -39,7 +39,7 @@ Options
    Toggle buttons to enable/disable the modifier in the X, Y and/or Z axes directions.
 
 :guilabel:`Factor`
-   The factor to control the smoothing amount. The smoothing ranges from **0.0** to **1.0** (**0.0** : disabled, **0.5** : same as the :guilabel:`Smooth` button, **1.0** : maximum). Alternatively, values outside this range (above **1.0** or below **0.0**) distort the mesh.
+   The factor to control the smoothing amount. The smoothing ranges from ``0.0`` to ``1.0`` (``0.0`` : disabled, ``0.5`` : same as the :guilabel:`Smooth` button, ``1.0`` : maximum). Alternatively, values outside this range (above ``1.0`` or below ``0.0``) distort the mesh.
 
 :guilabel:`Repeat`
    The number of smoothing iterations, equivalent to pressing the :doc:`Smooth </ling/meshes/editing/deforming#smooth>` button multiple times.

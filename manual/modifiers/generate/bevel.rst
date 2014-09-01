@@ -62,7 +62,7 @@ Width
 -----
 
 The :guilabel:`Width` numeric field controls the width/amount of the bevel applied to the base
-mesh. It can range from **0.0** (no bevel applied) to **1.0** (Blender Units).
+mesh. It can range from ``0.0`` (no bevel applied) to ``1.0`` (Blender Units).
 This value is in fact the "backing up" of the two new edges relatively to the original
 (beveled) one, along the two concerned faces.
 

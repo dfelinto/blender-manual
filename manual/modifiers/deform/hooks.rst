@@ -44,8 +44,8 @@ Options
 :guilabel:`Force`
    Since multiple hooks can work on the same vertices, you can weight the influence of a hook this way. Weighting rules are:
 
-   - If the total of all forces is smaller than **1.0**, the remainder (``1.0 - (forces sum)``, will be the factor the original position has as its force.
-   - If the total of all forces is larger than **1.0**, it only uses the hook transformations, averaged by their weights.
+   - If the total of all forces is smaller than ``1.0``, the remainder (``1.0 - (forces sum)``, will be the factor the original position has as its force.
+   - If the total of all forces is larger than ``1.0``, it only uses the hook transformations, averaged by their weights.
 
 The following settings are only available in :guilabel:`Edit mode`:
 

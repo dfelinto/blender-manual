@@ -164,7 +164,7 @@ and this may result in a sub-optimal texture assignment.
 Below,
 some examples are shown to exemplify how materials work with the :guilabel:`Boolean` modifier;
 we took the cube as the modified mesh, and the icosphere as the target with one material
-(white). We added **4** different indexes to one of the faces of the cube,
+(white). We added ``4`` different indexes to one of the faces of the cube,
 leaving another basic material in the other faces. Fig. 3 - Cube with Multi-Material Mesh
 (modified) and Icosphere (target)
 with basic material - shows how the :guilabel:`Boolean` modifier interacts with the materials.
@@ -363,7 +363,7 @@ Blender will use the face normal directions to calculate the three Boolean opera
 The direction of the normals will define the result of the three available calculations
 (see :doc:`Operations </modifiers/generate/booleans#operations>` in this page);
 when one of the participants uses a set of inverted normals,
-you're in fact multiplying the operation by **-1** and inverting the calculation order.
+you're in fact multiplying the operation by ``-1`` and inverting the calculation order.
 You can, at any time, select your modified mesh,
 enter :guilabel:`Edit` Mode and flip the normals to change the behavior of the :guilabel:`Boolean` modifier.
 See :doc:`Tips for fixing Normals </modifiers/generate/booleans#tip_for_fixing_mixed_normals>` in this page.

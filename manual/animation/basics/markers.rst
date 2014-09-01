@@ -10,7 +10,7 @@ character's animation starts, the camera changes position, or a door opens, for 
 Markers can be given names to make them more meaningful at a quick glance.
 They are available in many of Blender's windows, under different forms. Unlike the keyframes,
 markers are always placed at a whole frame number, you cannot e.g.
-set a marker at "frame **2.5** ".
+set a marker at "frame ``2.5`` ".
 
 Markers can be created and edited in all of the following editors
 (including their different modes):
