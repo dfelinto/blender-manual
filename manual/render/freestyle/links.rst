@@ -8,16 +8,14 @@ Here are some links to external data regarding Freestyle.
 Videos
 ======
 
-FIXME(Tag Unsupported:youtube;
-<youtube>IY1L76WwOHg</youtube>
-)
-`The Light At The End <http://www.youtube.com/watch?v=IY1L76WwOHg>`__
+.. youtube:: IY1L76WwOHg
+
+The Light At The End.
 
 
-FIXME(Tag Unsupported:youtube;
-<youtube>4pOsmLV0-BA</youtube>
-)
-`mmd_tools test2 with Blender+Freestyle (未来時計 AM4:30) <http://www.youtube.com/watch?v=4pOsmLV0-BA>`__
+.. youtube:: 4pOsmLV0-BA
+
+mmd_tools test2 with Blender+Freestyle (未来時計 AM4:30)
 
 
 Video Tutorials

@@ -352,9 +352,5 @@ Aiming the camera in Flymode
 When you are in :guilabel:`Camera` view,
 the :doc:`fly mode </3d_interaction/navigating#fly_mode>` actually moves your active camera...
 
-
-FIXME(Tag Unsupported:youtube;
-<youtube>bTRrHNn-d4w</youtube>
-)
-
+.. youtube:: bTRrHNn-d4w
 
