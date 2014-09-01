@@ -15,8 +15,8 @@ In some cases it is necessary to render effects straight out of the renderer,
 rather than creating them in "post."
 
 
-[[Doc:2.6/Manual/Render/Post_Process/CM_And_Exposure|Color Management and Exposure]]
-====================================================================================
+:doc:`Color Management and Exposure </render/post_process/cm_and_exposure>`
+===========================================================================
 
 One important aspect of 3D rendering that is often overlooked is color management.
 Without color management, or more commonly, linear rendering,
@@ -25,16 +25,16 @@ but display them incorrectly on your monitor. Blender simplifies this workflow,
 but it is important to know how the color space of a rendered image factors into your pipeline.
 
 
-[[Doc:2.6/Manual/Render/Options/Antialiasing|Anti-Aliasing]]
-============================================================
+:doc:`Anti-Aliasing </render/options/antialiasing>`
+===================================================
 
 Anti-Aliasing removes jagged edges that appear in contrasting areas of color.
 This is a very important aspect of render quality. Without this render setting,
 images usually appear particularly CG and amateur.
 
 
-[[Doc:2.6/Manual/Lighting/Exposure|Exposure (Lighting)]]
-========================================================
+:doc:`Exposure (Lighting) </lighting/exposure>`
+===============================================
 
 Exposure is, in physical terms, the length of time a camera's film or sensor is exposed to light.
 Longer exposure times create a brighter image.
@@ -43,8 +43,8 @@ This can be achieved through lighting settings, or better, through
 :doc:`Color Management settings </render/post_process/cm_and_exposure>`
 
 
-[[Doc:2.6/Manual/Render/Camera/Depth Of Field|Depth of Field]]
-==============================================================
+:doc:`Depth of Field </render/camera/depth_of_field>`
+=====================================================
 
 Real cameras have a specific focal length.
 This is the distance from the lens where everything is in focus.
@@ -54,8 +54,8 @@ Depth of Field (DOF) can create an unusual or appropriate sense of scale,
 depending how it is used.
 
 
-[[Doc:2.6/Manual/Render/Post Process/Motion Blur|Motion Blur]]
-==============================================================
+:doc:`Motion Blur </render/post_process/motion_blur>`
+=====================================================
 
 Cameras have a certain shutter speed, or the length of time the film is exposed to the image.
 Things that are in motion while the picture is taken will have some degree of blurring.
