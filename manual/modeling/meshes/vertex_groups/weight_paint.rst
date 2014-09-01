@@ -61,13 +61,11 @@ And all in-between influences are drawn in rainbow colors, depending on their va
 green, yellow, orange, red)
 
 
-+------------------------------------------------------------+
-+.. figure:: /images/Blender3D_Weight_Spec.jpg               +
-+   :width: 610px                                            +
-+   :figwidth: 610px                                         +
-+                                                            +
-+   Image 3: The color spectrum and their respective weights.+
-+------------------------------------------------------------+
+.. figure:: /images/Blender3D_Weight_Spec.jpg
+   :width: 610px
+   :figwidth: 610px
+
+   Image 3: The color spectrum and their respective weights.
 
 
 In addition to the above described color code, Blender has added (as an option)

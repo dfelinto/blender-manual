@@ -28,13 +28,11 @@ inset during the modal operation by holding :kbd:`ctrl`.
 Options
 =======
 
-+------------------------------------------------+
-+.. figure:: /images/mesh_tool_inset_settings.jpg+
-+   :width: 200px                                +
-+   :figwidth: 200px                             +
-+                                                +
-+   Inset Operator Settings                      +
-+------------------------------------------------+
+.. figure:: /images/mesh_tool_inset_settings.jpg
+   :width: 200px
+   :figwidth: 200px
+
+   Inset Operator Settings
 
 
 :guilabel:`Boundary`

@@ -109,13 +109,11 @@ Technical Details and Hints
 The relationship of the above values is described here:
 
 
-+--------------------------------------------------------+
-+.. figure:: /images/Blender3D_WaveModifierParameters.jpg+
-+   :width: 600px                                        +
-+   :figwidth: 600px                                     +
-+                                                        +
-+   Wave front characteristics.                          +
-+--------------------------------------------------------+
+.. figure:: /images/Blender3D_WaveModifierParameters.jpg
+   :width: 600px
+   :figwidth: 600px
+
+   Wave front characteristics.
 
 
 To obtain a nice wave effect similar to sea waves and close to a sinusoidal wave,

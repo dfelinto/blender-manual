@@ -264,23 +264,18 @@ found in the :menuselection:`Add --> Surface` menu: :guilabel:`NURBS Surface`, :
 :guilabel:`NURBS Sphere` and :guilabel:`NURBS Torus`.
 
 
-+---------------------------------------+
-+.. figure:: /images/NurbsPrimitives.jpg+
-+                                       +
-+   NURBS surface primitives.           +
-+---------------------------------------+
+.. figure:: /images/NurbsPrimitives.jpg
+
+   NURBS surface primitives.
 
 
 There are also two preset NURBS surface curves (with only one control point on each V-row):
 :guilabel:`NURBS Curve` and :guilabel:`NURBS Circle`.
 
 
-+--------------------------------------------+
-+.. figure:: /images/NurbsCurvePrimitives.jpg+
-+                                            +
-+   NURBS curve primitives.                  +
-+--------------------------------------------+
+.. figure:: /images/NurbsCurvePrimitives.jpg
+
+   NURBS curve primitives.
 
 Note how a circle NURBS surface is never filled, unlike its "real" curve counterpart...
-
 

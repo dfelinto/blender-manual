@@ -181,11 +181,9 @@ labeled "\ ``C`` ", and then using the handy row select tool (:kbd:`shift-R`)
 to select the rest of the control points.
 
 
-+----------------------------------------------+
-+.. figure:: /images/NurbsSurfaceSelectEdge.jpg+
-+   :width: 500px                              +
-+   :figwidth: 500px                           +
-+----------------------------------------------+
+.. figure:: /images/NurbsSurfaceSelectEdge.jpg
+   :width: 500px
+   :figwidth: 500px
 
 
 The edge is then extruded using :kbd:`E` as shown in (*Extruding*).
@@ -194,11 +192,9 @@ the area in question is highlighted in a light-gray circular area.
 That is because the *new* extruded surface section is bunched up there as well.
 
 
-+------------------------------------+
-+.. figure:: /images/NurbsExtrude.jpg+
-+   :width: 500px                    +
-+   :figwidth: 500px                 +
-+------------------------------------+
+.. figure:: /images/NurbsExtrude.jpg
+   :width: 500px
+   :figwidth: 500px
 
 
 By moving the new section away from the area, the surface begins to "unbunch".

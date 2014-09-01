@@ -23,7 +23,8 @@ Bevel Modifier
 The :guilabel:`Bevel` modifier adds the ability to bevel the edges of the mesh it is applied
 to, allowing control of how and where the bevel is applied to the mesh.
 
-The :guilabel:`Bevel` modifier is a non-destructive alternative to the :doc:`Bevel Operation </modeling/meshes/editing/subdividing/bevel>` in mesh editing mode.
+The :guilabel:`Bevel` modifier is a non-destructive alternative to the
+:doc:`Bevel Operation </modeling/meshes/editing/subdividing/bevel>` in mesh editing mode.
 
 
 +--------------------------------------------------+------------------------------------------------+
@@ -66,19 +67,19 @@ This value is in fact the "backing up" of the two new edges relatively to the or
 (beveled) one, along the two concerned faces.
 
 
-.. admonition:: Note
-   :class: note
+.. note::
 
-   When using Metric or Imperial units the :guilabel:`Width` value has a unit. E.g. when 1 Blenderunit is 1m a useful value is between 0cm and 100cm. When it seems that decreasing the :guilabel:`Width` has no effect anymore check if the unit changed to m instead of cm.
+   When using Metric or Imperial units the :guilabel:`Width` value has a unit.
+   E.g. when 1 Blenderunit is 1m a useful value is between 0cm and 100cm.
+   When it seems that decreasing the :guilabel:`Width` has no effect
+   anymore check if the unit changed to m instead of cm.
 
 
-+-----------------------------------------------------------------+
-+.. figure:: /images/Manual_-_Bevel_Modifier_-_3_Beveled_Cubes.jpg+
-+   :width: 610px                                                 +
-+   :figwidth: 610px                                              +
-+                                                                 +
-+   Three Cubes with 0.1, 0.3 and 0.5 bevel Widths.               +
-+-----------------------------------------------------------------+
+.. figure:: /images/Manual_-_Bevel_Modifier_-_3_Beveled_Cubes.jpg
+   :width: 610px
+   :figwidth: 610px
+
+   Three Cubes with 0.1, 0.3 and 0.5 bevel Widths.
 
 
 Segments
@@ -94,13 +95,11 @@ The :guilabel:`Only Vertices` button alters the way in which a bevel is applied 
 When it is active, only the areas near vertices are beveled; the edges are left unbeveled.
 
 
-+--------------------------------------------------------------------------------------+
-+.. figure:: /images/Manual_-_3_Beveled_Cubes_Vertices_Only.jpg                        +
-+   :width: 610px                                                                      +
-+   :figwidth: 610px                                                                   +
-+                                                                                      +
-+   Three cubes with 0.1, 0.3 and 0.5' bevel Widths, with Only Vertices option enabled.+
-+--------------------------------------------------------------------------------------+
+.. figure:: /images/Manual_-_3_Beveled_Cubes_Vertices_Only.jpg
+   :width: 610px
+   :figwidth: 610px
+
+   Three cubes with 0.1, 0.3 and 0.5' bevel Widths, with Only Vertices option enabled.
 
 
 Limit Method

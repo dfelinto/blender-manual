@@ -111,7 +111,9 @@ made by the :guilabel:`Auto Smooth` algorithm.
 Edge Split Modifier
 ===================
 
-With the :doc:`Edge Split Modifier </modifiers/generate/edge_split>` we get a result similar to :guilabel:`Auto Smooth` with the ability to choose which edges should be split, based on angle—those marked as sharp.
+With the :doc:`Edge Split Modifier </modifiers/generate/edge_split>` we get a result
+similar to :guilabel:`Auto Smooth` with the ability to choose which edges should be split,
+based on angle—those marked as sharp.
 
 
 +----------------------------------------------------------------+----------------------------------------------------------------+----------------------------------------------------------------+
@@ -160,16 +162,16 @@ you can smooth the mesh non-destructively with one or several of the following m
    Works like the :guilabel:`Smooth` tool in :guilabel:`Edit mode`;
    can be applied to specific parts of the mesh using vertex groups.
 :doc:`Laplactian Smooth Modifier </modifiers/deform/laplacian_smooth>`
-   Works like the :guilabel:`Laplacian Smooth` tool in :guilabel:`Edit mode`; can be applied to specific parts of the mesh using vertex groups.
+   Works like the :guilabel:`Laplacian Smooth` tool in :guilabel:`Edit mode`;
+   can be applied to specific parts of the mesh using vertex groups.
 :doc:`Bevel Modifier </modifiers/generate/bevel>`
-   Works like the :guilabel:`Bevel` tool in :guilabel:`Edit mode`; Bevel can be set to work on an angle threshold, or on edge weight values.
+   Works like the :guilabel:`Bevel` tool in :guilabel:`Edit mode`;
+   Bevel can be set to work on an angle threshold, or on edge weight values.
 :doc:`Subdivision Surface Modifier </modifiers/generate/subsurf>`
    Catmull-Clark subdivision produces smooth results. Sharp edges can be defined with
    :doc:`subdivision creases </modifiers/generate/subsurf#weighted_creases_for_subdivision_surfaces>`
    or by setting certain edges to "sharp" and adding an :doc:`EdgeSplit modifier </modifiers/generate/edge_split>`
    (set to :guilabel:`From Marked As Sharp`) before the :guilabel:`Subsurf` modifier.
-
-
 
 
 .. figure:: /images/25-manual-meshsmooth-example-08subsurf.jpg
@@ -198,5 +200,4 @@ you can smooth the mesh non-destructively with one or several of the following m
    :figwidth: 150px
 
    3D view showing creased edges (pink) and added edges loops (yellow)
-
 
