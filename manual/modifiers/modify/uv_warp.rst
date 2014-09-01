@@ -26,7 +26,7 @@ Options
 
 
 - **UV Center**
-  The center point of the FIXME(TODO: Internal Link; [[UV map]])
+  The center point of the :doc:`UV map </textures/mapping/uv>`
   to use when applying scale or rotation. With (0, 0) bottom left and (1, 1) top right. Defaults to (0.5, 0.5).
 - **UV Axis**
   The axis to use when mapping the 3D coordinates into 2D.
@@ -35,7 +35,7 @@ Options
 - **Vertex Group**
   The vertex group can be used to scale the influence of the transformation per-vertex.
 - **UV Map**
-   Which FIXME(TODO: Internal Link; [[UV map]]) to modify. Defaults to the active rendering layer.
+   Which :doc:`UV map </textures/mapping/uv>` to modify. Defaults to the active rendering layer.
 
 
 Usage
