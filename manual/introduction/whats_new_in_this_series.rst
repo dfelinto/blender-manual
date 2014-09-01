@@ -19,10 +19,7 @@ This is not an exhaustive list of new functionality (that would be too long!) bu
 concise introduction to the evolution of 2.5 and its major improvements over previous
 versions.
 
-
-FIXME(Tag Unsupported:youtube;
-<youtube>WamG6HIZ1rw</youtube>
-)
+.. youtube:: WamG6HIZ1rw
 
 
 Interface
