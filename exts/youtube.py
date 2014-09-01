@@ -48,7 +48,7 @@ def visit_youtube_node(self, node):
             "border": "0",
         }
         attrs = {
-            "src": "http://www.youtube.com/embed/%s" % node["id"],
+            "src": "https://www.youtube.com/embed/%s" % node["id"],
             "style": css(style),
         }
         self.body.append(self.starttag(node, "iframe", **attrs))
@@ -67,7 +67,7 @@ def visit_youtube_node(self, node):
             "border": "0",
         }
         attrs = {
-            "src": "http://www.youtube.com/embed/%s" % node["id"],
+            "src": "https://www.youtube.com/embed/%s" % node["id"],
             "style": css(style),
         }
         self.body.append(self.starttag(node, "iframe", **attrs))
