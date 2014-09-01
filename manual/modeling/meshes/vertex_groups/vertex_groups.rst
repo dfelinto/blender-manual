@@ -219,7 +219,7 @@ Note that weight Assignment is not available for locked Vertex Groups.
 The Assign button is grayed out in that case.
 
 
-.. tip:: Assign is additive
+.. note:: Assign is additive
 
    The :guilabel:`Assign` button only adds the currently 
    selected vertices to the active group. Vertices already 
@@ -263,7 +263,7 @@ You can quickly select all assigned vertices of a group:
 - When you :kbd:`lmb` click the :guilabel:`Deselect` button instead, then the vertices assigned to the active group will be deselected in the 3D Viewport.
 
 
-.. tip:: Selecting/Deselecting is additive
+.. note:: Selecting/Deselecting is additive
 
    If you already have verts selected in the 3D View,
    then selecting the verts of a group will add the verts 
