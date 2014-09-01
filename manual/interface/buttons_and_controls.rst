@@ -219,7 +219,7 @@ please go to the :doc:`System </preferences/system>` preferences page.
       See Fig. 4 - Color Picker - Square (SV + H)
 
 
-.. figure:: /images/(Doc_27x_Manual_Preferences_System)_(Color_Picker_HV_PLUS_S)_(GBAFN).jpg
+.. figure:: /images/(Doc_26x_Manual_Preferences_System)_(Color_Picker_HV_PLUS_S)_(GBAFN).jpg
 
    Fig. 5 - Color Picker
    Square (HV + S)
