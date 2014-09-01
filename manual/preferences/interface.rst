@@ -79,6 +79,7 @@ Menus
 :guilabel:`Open on Mouse Over`
    Select this to have the menu open by placing the mouse pointer over the entry instead of clicking on it.
 :guilabel:`Menu Open Delay`
+   Time for the menu to open.
 :guilabel:`Top Level`
    Time delay in 1/10 second before a menu opens (:guilabel:`Open on Mouse Over` needs to be enabled).
 :guilabel:`Sub Level`
