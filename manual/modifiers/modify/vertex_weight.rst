@@ -18,9 +18,7 @@ by modifying its weights and/or which vertices belong to this group.
 
  .. warning::
 
-   FIXME - warning body below
-
- Those modifiers do implicit clamping of weight values in the standard ``[0.0, 1.0]`` range. So all values below ``0.0`` /above ``1.0`` will be lost!
+    Those modifiers do implicit clamping of weight values in the standard ``[0.0, 1.0]`` range. So all values below ``0.0`` /above ``1.0`` will be lost!
 
 There are currently three WeightVGroup modifiers:
 
@@ -47,9 +45,8 @@ controlling their influence on the affected vertex group.
 
  .. warning::
 
-   FIXME - warning body below
-
-Note that influence only affects weights, adding/removing of vertices to/from vertex group is not prevented by setting this value to ``0.0`` !
+	Note that influence only affects weights, adding/removing of vertices
+	to/from vertex group is not prevented by setting this value to ``0.0`` !
 
 :guilabel:`Vertex Group Mask`
    An additional vertex group, which weights will be pre-multiplied with the global influence value, for each vertex. If a vertex is not in the masking vertex group, its masking weight (and hence its influence) will be null.
@@ -147,9 +144,8 @@ only those of the first or second vertex group, etc.).
 
  .. warning::
 
-   FIXME - warning body below
-
-This implies that it *might* add vertices to the affected vertex group (it will never remove vertices, though); see below for details.‏
+	This implies that it *might* add vertices to the affected vertex group (it
+	will never remove vertices, though); see below for details.
 
 
 Options
