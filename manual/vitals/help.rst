@@ -53,19 +53,23 @@ General Web-based Help Options
 Programming Options
 ===================
 
-- `Python 2.6X API Reference <http://www.blender.org/documentation/blender_python_api_2_61_3/>`__ - Python application programming interface (API) that Blender and :doc:`Python </introduction/installing_blender/python>` use to communicate with each other. Useful for the Blender Game Engine, Customizing, and other scripting.
+- `Python 2.6X API Reference <http://www.blender.org/documentation/blender_python_api_2_71_release/>`__ -
+  Python application programming interface (API) that Blender and
+  :doc:`Python </introduction/installing_blender/python>` use to communicate with each other.
+  Useful for the Blender Game Engine, Customizing, and other scripting.
 
+Access from :menuselection:`Help --> Operator Cheat Sheet`
 
-.. figure:: /images/Manual-Vitals-Help-Search-Operator.jpg
-
-   Operator Cheat Sheet
-
-
-- :guilabel:`Operator Cheat Sheet` - Creates the ``OperatorList.txt`` file, which you can access in the :guilabel:`Text Editor`. You can also use Blender Search to generate the file. The text will list the available Python operators. At the time we were writing this part of the Manual (Blender 2.61), Blender had 1245 Operators.
+Creates the ``OperatorList.txt`` file, which you can access in the :guilabel:`Text Editor`.
+You can also use Blender Search to generate the file. The text will list the available Python operators.
 
 While Blender is generating this list, the :guilabel:`Info Window` will change,
 showing a message for the operation (See Fig: Info Window - Operator Cheat Sheet ).
-To read the Text, switch to the Blender :guilabel:`Text Editor` Window, using the :doc:`Window type Selector </interface/window_types>`, and then, clicking on the button *Browse Text to be Linked* of the Text Editor, your text block will be shown in the Editor. The file will be in your list of Text files, named as *OperatorsList.txt*, if the file is  already generated, Blender will add a numeric suffix for the subsequent ones.
+To read the Text, switch to the Blender :guilabel:`Text Editor` Window,
+using the :doc:`Window type Selector </interface/window_types>`, and then,
+clicking on the button *Browse Text to be Linked* of the Text Editor, your text block will be shown in the Editor.
+The file will be in your list of Text-block, named as ``OperatorsList.txt``,
+if the file is already generated, Blender will add a numeric suffix for the subsequent ones.
 
 
 .. figure:: /images/Manual-Vitals-Help-Info-Operator-Cheat-Sheet.jpg
@@ -76,21 +80,31 @@ To read the Text, switch to the Blender :guilabel:`Text Editor` Window, using th
 Diagnostics Options
 ===================
 
-.. figure:: /images/Manual-Vitals-Help-Search-Info.jpg
+Access :menuselection:`Help --> System Info`
 
-   Blender Search - System Info
+Creates a ``system-info.txt`` text block, which you can access  in the Blender :guilabel:`Text Editor`.
+The text lists various key properties of your system and Blender, which can be useful in diagnosing problems.
+
+To read the Text, switch to the Blender :guilabel:`Text Editor` Window,
+using the :doc:`Window type Selector </interface/window_types>`, and then,
+clicking on the button *Browse Text to be Linked* of the Text Editor, your text block will be shown in the Editor.
+The ``system-info.txt`` will be in your list of Text-blocks.
 
 
-- :guilabel:`System Info` - Creates a ``system-info`` file, which you can access  in the Blender :guilabel:`Text Editor`. The text lists various key properties of your system and Blender, which can be useful in diagnosing problems. When you click on this Option, Blender will verify your installation, will change the :guilabel:`Info Window` for a while when generating the file ( See: Info Window - Info.txt ). You can also use Blender Search to generate the file.
+The text file contains sections:
 
-To read the Text, switch to the Blender :guilabel:`Text Editor` Window, using the :doc:`Window type Selector </interface/window_types>`, and then, clicking on the button *Browse Text to be Linked* of the Text Editor, your text block will be shown in the Editor. The file will be in your list of Text files, named as *system-info.txt*, if the file is  already generated, Blender will add a numeric suffix for the subsequent ones.
-
-
-- The text file is created with **4** different sections: Blender, Python, Directories and OpenGL, which we will explain below:
-  - **Blender:** This section of the info.txt shows you the Blender version, flags used when Blender was compiled, day and time when Blender was compiled, build system, and the path in which Blender is running.
-  - **Python:** The Python version you are using, showing the paths of the Python programming language paths.
-  - **Directories:** The Blender directories setup for ``scripts``, ``user scripts``, ``datafiles``, ``config``, ``scripts (internal)``, ``autosave`` directory and ``temp dir``. Those directories are configured using the  :doc:`User Preferences </preferences/file>` Editor Window.
-  - **OpenGL:** This section will show you the version of OpenGL that you are using for Blender, the name of the manufacturer, version, vendor and a list with your card capabilities or OpenGL software capabilities.
+Blender
+   This section of the info.txt shows you the Blender version, flags used when Blender was compiled,
+   day and time when Blender was compiled, build system, and the path in which Blender is running.
+Python
+   The Python version you are using, showing the paths of the Python programming language paths.
+Directories
+   The Blender directories setup for ``scripts``, ``user scripts``, ``datafiles``, ``config``, ``scripts (internal)``,
+   ``autosave`` directory and ``temp dir``.
+   Those directories are configured using the  :doc:`User Preferences </preferences/file>` Editor Window.
+OpenGL
+   This section will show you the version of OpenGL that you are using for Blender, the name of the manufacturer,
+   version, vendor and a list with your card capabilities or OpenGL software capabilities.
 
 
 .. figure:: /images/Manual-Vitals-Help-Info-Window-System.Info.jpg
@@ -124,12 +138,12 @@ Legacy Version Support
 Splash Screen
 =============
 
-.. figure:: /images/Manual-Vitals-Help-Search-Splash.jpg
+Access this by clicking on the Blender icon in the Info Window's header.
 
-   Splash Screen Search
-
-
-:guilabel:`Splash Screen` - This displays the image where you can identify package and version. At the top-right corner, you can see the Version and SVN (Subversion) revision (See Fig: Blender Splash Screen). For example, in our Splash Screen, you can see the version **2.66.0** and the revision number **r54697**. This can be useful to give to support personnel when diagnosing a problem. You can also use Blender Search to Show the Splash Screen or click in the Small Blender Logo present in the :guilabel:`Info Window`
+This displays the image where you can identify package and version.
+At the top-right corner, you can see the Version and SVN (Subversion) revision (See Fig: Blender Splash Screen).
+For example, in our Splash Screen, you can see the version **2.66.0** and the revision number **r54697**.
+This can be useful to give to support personnel when diagnosing a problem.
 
 There are some Internet Based Help options that are also present in the Blender
 :guilabel:`Splash Screen`.
