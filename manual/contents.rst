@@ -32,8 +32,6 @@
 
 .. TODO: Move all these into  *chapter*/introduction.rst
 
-   introduction.rst
-   interface.rst
    preferences.rst
    modeling.rst
    modifiers.rst
