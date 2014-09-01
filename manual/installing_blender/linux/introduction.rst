@@ -68,8 +68,8 @@ To run Blender,
 - Open a terminal console, navigate to the Blender directory and execute the command ``./blender``
 
 
-Installing into <code>/opt</code> or <code>/usr/local</code>
-------------------------------------------------------------
+Installing into ``/opt`` or ``/usr/local``
+------------------------------------------
 
 You can also install Blender into ``/opt`` or ``/usr/local`` by moving the
 Blender directory into one of those locations. If you want to be able to run Blender from any

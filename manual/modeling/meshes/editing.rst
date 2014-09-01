@@ -87,7 +87,7 @@ Some of the menus can be accessed with shortcuts:
    ==Normals==
    {{Literal|Recalculate}} ({{Shortcut|Ctrl|N}})
    :Recalculates normals of selected faces.
-   {{Literal|Flip Direction}}  ({{Menu|{{Shortcut|W}}|Flip Normals or <code>8</code>}})
+   {{Literal|Flip Direction}}  ({{Menu|{{Shortcut|W}}|Flip Normals or ``8``}})
    :Flips normals of selected faces to point in the opposite direction.
    --> .
 

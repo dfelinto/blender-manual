@@ -46,7 +46,6 @@ We're currently migrating the docs from MediaWiki, so there are some leftover TO
 Cleanup:
 
 - Replace all instances of ``nicetip`` with the ``.. tip::`` directive.
-- replace ``<code>`` with rst ``code-block`` or double back-ticks.
 - Replace some unnecessary tables with bullets - eg: ``render/output/video.rst:220``
 - ``FIXME(Link Type Unsupported: ...`` and ``Internal Link;`` we have a lot of these, could automate fixes.
 - ``FIXME(Tag Unsupported:youtube``, integrate youtube extension (over 50 youtube links), see:
