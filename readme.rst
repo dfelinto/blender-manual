@@ -49,6 +49,9 @@ Cleanup:
 - replace ``<code>`` with rst ``code-block`` or double back-ticks.
 - Replace some unnecessary tables with bullets - eg: ``render/output/video.rst:220``
 - ``FIXME(Link Type Unsupported: ...`` and ``Internal Link;`` we have a lot of these, could automate fixes.
+- ``FIXME(Tag Unsupported:youtube``, integrate youtube extension (over 50 youtube links), see:
+  http://sphinx-doc.org/extensions.html
+  https://bitbucket.org/birkenfeld/sphinx-contrib
 - There are links into http://wiki.blender.org, these need to be corrected
 - Fix titles, allowing only one ``h1`` per file (clearer menu structure)
 - Some links to the ``changelog_`` should be setup to dynamic update to current Blender Version.
