@@ -38,7 +38,9 @@ operations that work with that data.
 What is Python?
 ***************
 
-`Python  <http://www.python.org>`__ is an interpreted, interactive, object-oriented programming language. It incorporates modules, exceptions, dynamic typing, very high level dynamic data types, and classes. Python combines remarkable power with very clear syntax.
+`Python  <http://www.python.org>`__ is an interpreted, interactive, object-oriented programming language.
+It incorporates modules, exceptions, dynamic typing, very high level dynamic data types, and classes.
+Python combines remarkable power with very clear syntax.
 
 Learning Python is also very easy, even if you have never programmed before.
 
@@ -46,14 +48,12 @@ Learning Python is also very easy, even if you have never programmed before.
 Python Interpreter
 ******************
 
-All the exercises in this tutorial will be using the built-in Console window type in Blender
-2.6, which has a Python 3.2 interpreter embedded in it.
+All the exercises in this tutorial will be using the built-in Console window type in Blender,
+which has a Python 3.x interpreter embedded in it.
 
 Following is a video that shows how you can switch to the interpreter.
 
-FIXME(Tag Unsupported:youtube;
-<youtube>Ge2Kwy5EGE0</youtube>
-)
+.. youtube:: Ge2Kwy5EGE0
 
 
 .. figure:: /images/Manual-Part-XX-Manual-Extensions-Python-Console-Default-Console.jpg
@@ -78,15 +78,17 @@ Type the following print statement at the interpreter prompt and press :kbd:`Ent
 
 Let's break down the above statement.
 
-- *"Hello World"* is a string `literal <http://en.wikipedia.org/wiki/Literal_(computer_science)>`__ in Python.
+- ``"Hello World"`` is a string `literal <http://en.wikipedia.org/wiki/Literal_(computer_science)>`__ in Python.
   - A string is a sequence of characters (numbers, alphabets, special characters)
-- *print()* is a built-in function in Python to print output.
-- *print("Hello World")* outputs *Hello World* to the console.
+- ``print()`` is a built-in function in Python to print output.
+- ``print("Hello World")`` outputs *Hello World* to the console.
 
-**Exercise**
-   Type the following commands and check the output
-::
+Exercise
+========
 
+Type the following commands and check the output
+
+.. code-block:: python
 
    print('"Hello World"')
    print("'Hello \n World'")
