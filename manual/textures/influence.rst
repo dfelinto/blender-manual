@@ -1,6 +1,8 @@
 
 ..    TODO/Review: {{review|partial=X|text = elaborate}} .
 
+Influence
+*********
 
 - :doc:`Doc:2.6/Manual/Textures/Influence/Material </textures/influence/material>`
   - :doc:`Bump and Normal </textures/influence/material/bump_and_normal>`
