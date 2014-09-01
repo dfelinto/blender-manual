@@ -45,7 +45,7 @@ A common source of noise is caustics, which are diffuse bounces followed by a gl
 (assuming we start from the camera). An option is available to disable these entirely.
 
 
-.. _render-cycles-light_paths-transparency
+.. _render-cycles-light_paths-transparency:
 
 Transparency
 ============

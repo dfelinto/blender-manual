@@ -184,7 +184,7 @@ This option will then, in a preprocess, determine the bright spots, and send lig
 enabling this option may take samples away from more important light sources if it is not needed.
 
 
-.. _render-cycles-reducing_noise-glass_and_transp_shadows
+.. _render-cycles-reducing_noise-glass_and_transp_shadows:
 
 Glass and Transparent Shadows
 -----------------------------
