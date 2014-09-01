@@ -10,38 +10,29 @@ enable Blender to go Open Source under the `GNU GPL <http://www.gnu.org/copyleft
 
 The community spans two widely overlapping sites:
 
+----
 
-FIXME(Tag Unsupported:div;
-<div style="border-top:1px solid #fff; margin-top:10px;"></div>
-)
+.. figure::  /images/(Doc_26x_Manual_Introduction_Community)_(Blender_Foundation_Logo)_(GNVAFN).jpg
 
-FIXME(Tag Unsupported:div;
-<div style="width:47%; float:left; text-align:justify; padding-top:10px; padding-bottom:15px;"><p>[[Image:(Doc_26x_Manual_Introduction_Community)_(Blender_Foundation_Logo)_(GNVAFN).png]]</p>
-The Development Community, centered around the `Blender Foundation site <http://www.blender.org>`__. Here you will find the home of the development projects,
+The Development Community, centered around the `Blender Foundation site <http://www.blender.org>`__.
+Here you will find the home of the development projects,
 the Functionality and Documentation Boards, the CVS repository with Blender sources,
 all documentation sources, and related public discussion forums.
 Developers contributing code to Blender itself, Python scripters, documentation writers,
 and anyone working for Blender development in general can be found here.
 
-'''Go to [http://www.blender.org http://www.blender.org]'''</div>
-)
+Go to `www.blender.org <http://www.blender.org>`__.
 
+.. figure:: /images/(Doc_26x_Manual_Introduction_Community)_(Blender_Artists_Logo)_(GNVAFN).jpg
 
-FIXME(Tag Unsupported:div;
-<div style="width:47%; float:right; text-align:justify; padding-top:10px; padding-bottom:15px;"><p>[[Image:(Doc_26x_Manual_Introduction_Community)_(Blender_Artists_Logo)_(GNVAFN).png]]</p>
-The User Community, centered around the independent [http://www.BlenderArtists.
-org/ BlenderArtists] site. Here Blender artists,
-gamemakers and fans gather to show their creations, get feedback,
+The User Community, centered around the independent `BlenderArtists <http://www.BlenderArtists.org/>`__ site.
+Here Blender artists, gamemakers and fans gather to show their creations, get feedback,
 ask for and offer help to get a better insight into Blender's functionality.
 Blender Tutorials and the Knowledge Base can be found here as well.
 
-'''Go to [http://www.BlenderArtists.org http://www.BlenderArtists.org]'''</div>
-)
+Go to `www.BlenderArtists.org <http://www.BlenderArtists.org>`__.
 
-
-FIXME(Tag Unsupported:div;
-<div style="clear:both;border-top:1px solid #fff; margin-bottom:10px;"></div>
-)
+----
 
 These two websites are not the only Blender resources.
 The worldwide community has created a large number of independent sites,
@@ -55,23 +46,23 @@ IRC chat channels
 For immediate online feedback there are three IRC chat channels permanently open on ``irc.freenode.net``.
 You can join these with your favorite IRC client:
 
-- `#blender ``irc://irc.freenode.net/blender``
+- `#blender <irc://irc.freenode.net/blender>`__
   Community support channel
-- `#blenderchat ``irc://irc.freenode.net/blenderchat``
+- `#blenderchat <irc://irc.freenode.net/blenderchat>`__
   for general discussion of blender
-- `#blenderqa ``irc://irc.freenode.net/blenderqa``
+- `#blenderqa <irc://irc.freenode.net/blenderqa>`__
   for asking questions on Blender usage
-- `#gameblender ``irc://irc.freenode.net/gameblender``
+- `#gameblender <irc://irc.freenode.net/gameblender>`__
   for discussion on issues related to game creation with Blenders included game engine
 
 
 **For developers there is also :**
 
-- `#blendercoders ``irc://irc.freenode.net/blendercoders``
+- `#blendercoders <irc://irc.freenode.net/blendercoders>`__
   for developers to ask questions and discuss development issues, as well as a meeting each Sunday at 4 pm Netherlands time
-- `#blenderpython ``irc://irc.freenode.net/blenderpython``
+- `#blenderpython <irc://irc.freenode.net/blenderpython>`__
   for discussion of the python API and script development
-- `#blenderwiki ``irc://irc.freenode.net/blenderwiki``
+- `#blenderwiki <irc://irc.freenode.net/blenderwiki>`__
   for questions related to editing the wiki
 
 
