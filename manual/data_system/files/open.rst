@@ -19,11 +19,10 @@ textures, and even all your user interface window settings.
 
  .. warning::
 
-   FIXME - warning body below
-
-Blender expects that you know what you are doing! When you load a file,
-you are **not** asked to save unsaved changes to the scene you were previously working on,
-completing the file load dialog is regarded as being enough confirmation that you didn't do this by accident.
+	Blender expects that you know what you are doing! When you load a file, you
+	are **not** asked to save unsaved changes to the scene you were previously
+	working on, completing the file load dialog is regarded as being enough
+	confirmation that you didn't do this by accident.
 
 **Make sure that you save your files.**
 
@@ -169,12 +168,8 @@ so that they will be run when such a .blend file is opened.
 
  .. warning::
 
-   FIXME - warning body below
-
-
-**FIXME(Tag Unsupported:span;
-<span style="color:red; font-size:20px;">Always be very careful when downloading .blend files and tools from un-trustworthy sources!</span>
-)**
+	Always be very careful when downloading .blend files and tools from
+	un-trustworthy sources!
 
 
 Protection

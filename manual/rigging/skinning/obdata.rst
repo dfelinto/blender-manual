@@ -89,14 +89,12 @@ see the FIXME(TODO: Internal Link; [[#Vertex Groups|vertex groups method]]) desc
 
  .. warning::
 
-   FIXME - warning body below
-
-A single object can have several :guilabel:`Armature` modifiers
-(with e.g. different armatures, or different settings...),
-working on top of each other, **or** mixing their respective effects
-(depending whether their* :guilabel:`MultiModifier` option is set,
-see :doc:`their description </modifiers/deform/armature#options>` for more details),
-and only one "virtual old parenting" one, which will always be at the top of the stack.
+    A single object can have several :guilabel:`Armature` modifiers
+    (with e.g. different armatures, or different settings...),
+    working on top of each other, **or** mixing their respective effects
+    (depending whether their* :guilabel:`MultiModifier` option is set,
+    see :doc:`their description </modifiers/deform/armature#options>` for more details),
+    and only one "virtual old parenting" one, which will always be at the top of the stack.
 
 Note finally that for settings that are  present in both the armature's :guilabel:`Armature`
 *panel and in the objects'* :guilabel:`Armature` modifier panel (namely,

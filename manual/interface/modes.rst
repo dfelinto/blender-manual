@@ -16,9 +16,9 @@ You set the current mode in the :guilabel:`Mode` drop-down list of :guilabel:`3D
 
  .. warning::
 
-   FIXME - warning body below
-
-You can only select objects in :guilabel:`Object` mode. In all others, the current object selection is "locked" (except, to some extent, with an armature's :guilabel:`Pose` mode).
+	You can only select objects in :guilabel:`Object` mode. In all others, the
+	current object selection is "locked" (except, to some extent, with an
+	armature's :guilabel:`Pose` mode).
 
 Modes might affect many things in Blender:
 

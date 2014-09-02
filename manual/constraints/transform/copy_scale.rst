@@ -10,9 +10,11 @@ The :guilabel:`Copy Scale` constraint forces its owner to have the same scale as
 
  .. warning::
 
-   FIXME - warning body below
-
- Here we talk of **scale**, not of **size** ! Indeed, you can have two objects, one much bigger than the other, and yet both of them have the same scale. This is also true with bones: in :guilabel:`Pose` mode, they all have a unitary scale when they are in rest position, represented by their visible length.
+	Here we talk of **scale**, not of **size**! Indeed, you can have two
+	objects, one much bigger than the other, and yet both of them have the same
+	scale. This is also true with bones: in :guilabel:`Pose` mode, they all
+	have a unitary scale when they are in rest position, represented by their
+	visible length.
 
 
 Options

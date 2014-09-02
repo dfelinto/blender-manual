@@ -68,8 +68,7 @@ Options
 
  .. warning::
 
-   FIXME - warning body below
-
- If you choose the same axis for *To* and *Lock*, the constraint will no longer be functional (red state).
+	If you choose the same axis for *To* and *Lock*, the constraint will no
+	longer be functional (red state).
 
 

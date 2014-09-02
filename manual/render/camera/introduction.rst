@@ -55,10 +55,8 @@ for example, the left camera in (*Active camera (left one)*).
 
  .. warning::
 
-   FIXME - warning body below
-
-The active camera, as well as the layers, can be specific to a given view, or global (locked) to the whole scene -
-see :doc:`this part of the 3D view options page </3d_interaction/navigating/3d_view_options#lock_to_scene>`.
+    The active camera, as well as the layers, can be specific to a given view, or global (locked) to the whole scene -
+    see :doc:`this part of the 3D view options page </3d_interaction/navigating/3d_view_options#lock_to_scene>`.
 
 
 Camera Settings

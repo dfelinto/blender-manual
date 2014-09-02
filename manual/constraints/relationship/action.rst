@@ -56,9 +56,9 @@ Options
 
  .. warning::
 
-   FIXME - warning body below
-
- Even though it might not be in red state (UI refresh problems...), this constraint is obviously not functional when this field does not contain a valid action.
+	Even though it might not be in red state (UI refresh problems...), this
+	constraint is obviously not functional when this field does not contain a
+	valid action.
 
 :guilabel:`Object Action`
    **Bones only**, when enabled, this option will make the constrained bone use the "object" part of the linked action, instead of the "same-named pose" part. This allows you to apply the action of an object to a bone.
@@ -69,12 +69,10 @@ Options
 
  .. warning::
 
-   FIXME - warning body below
-
- Unfortunately, here again we find the constraints limitations:
-
-   - When using a rotation property as "driver", these values are "mapped back" to the ``[-180.0- , 180.0- [`` range.
-   - When using a scale property as "driver", these values are limited to null or positive values.
+    Unfortunately, here again we find the constraints limitations:
+   
+      - When using a rotation property as "driver", these values are "mapped back" to the ``[-180.0- , 180.0- [`` range.
+      - When using a scale property as "driver", these values are limited to null or positive values.
 
 :guilabel:`Action Range` :guilabel:`Start` / :guilabel:`End`
    The starting and ending frames of the action to be mapped.

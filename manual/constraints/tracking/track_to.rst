@@ -65,6 +65,6 @@ Options
 
  .. warning::
 
-   FIXME - warning body below
+	If you choose the same axis for :guilabel:`To` and :guilabel:`Up`, the
+	constraint will not be functional anymore (red state).
 
- If you choose the same axis for :guilabel:`To` and :guilabel:`Up`, the constraint will not be functional anymore (red state).

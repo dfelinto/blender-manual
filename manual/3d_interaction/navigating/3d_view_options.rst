@@ -112,9 +112,7 @@ View
 
    .. warning::
 
-      FIXME - warning body below
-
-   A large clipping range will allow you to see both near and far objects, but reduces the depth precision.
+      A large clipping range will allow you to see both near and far objects, but reduces the depth precision.
 
    To avoid this:
 
@@ -209,17 +207,15 @@ or animation (when using a video as background), etc.
 
 .. warning::
 
-   FIXME - warning body below
+   There are a few points worth to be noted about background images:
 
-There are a few points worth to be noted about background images:
-
-- They are specific to their window (i.e. you can have different backgrounds for each of your 3D views, e.g.
-  top/front/side images for relevant views...).
-- *They are only available for* :guilabel:`Top` *,* :guilabel:`Side` *and* :guilabel:`Front`
-  *(and their complementary versions) orthographic views!*
-  The picture remains the same when you switch between these six views.
-- Their size is related to the window's zooming factor (i.e. they grow big when you zoom in, etc.).
-- You can use video files and animated sequences.
+   - They are specific to their window (i.e. you can have different backgrounds for each of your 3D views, e.g.
+     top/front/side images for relevant views...).
+   - *They are only available for* :guilabel:`Top` *,* :guilabel:`Side` *and* :guilabel:`Front`
+     *(and their complementary versions) orthographic views!*
+     The picture remains the same when you switch between these six views.
+   - Their size is related to the window's zooming factor (i.e. they grow big when you zoom in, etc.).
+   - You can use video files and animated sequences.
 
 
 Settings

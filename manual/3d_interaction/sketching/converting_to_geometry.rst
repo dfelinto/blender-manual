@@ -75,18 +75,16 @@ So this allows you to reproduce your drawing movements.
 
 .. warning::
 
-   FIXME - warning body below
-
-All those "timing" options need :guilabel:`Link Stroke` to be enabled - else they would not make much sense!
+   All those "timing" options need :guilabel:`Link Stroke` to be enabled - else
+   they would not make much sense!
 
 
 .. warning::
 
-   FIXME - warning body below
-
-Please note that if you use this tool with older grease pencil's strokes (i.e. some without any timing data),
-you will only have a subset of those options available
-(namely, only linear progression along the curve over a specified range of frames).
+   Please note that if you use this tool with older grease pencil's strokes
+   (i.e. some without any timing data), you will only have a subset of those
+   options available (namely, only linear progression along the curve over a
+   specified range of frames).
 
 
 :guilabel:`Timing Mode`

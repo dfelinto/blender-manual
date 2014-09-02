@@ -71,10 +71,9 @@ Channel Menu
 
  .. warning::
 
-   FIXME - warning body below
-
-The :kbd:`X` shortcut is area-dependent: if you use it in the left list part, it'll delete the selected channels,
-whereas if you use it in the main area, it'll delete the selected keyframes...
+	The :kbd:`X` shortcut is area-dependent: if you use it in the left list
+	part, it'll delete the selected channels, whereas if you use it in the main
+	area, it'll delete the selected keyframes...
 
 :menuselection:`Settings --> Toogle/Enable/Disable a Setting` (:kbd:`shift-W` / :kbd:`ctrl-shift-W` / :kbd:`alt-W`)
    Enable/disable a channel's setting (selected in the menu that pops-up) - currently, "lock" and/or "mute" only.

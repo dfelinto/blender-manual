@@ -56,15 +56,13 @@ Options
 
  .. warning::
 
-   FIXME - warning body below
-
- Note that:
-
-- When mapping transform properties to location (i.e. :guilabel:`Loc` :guilabel:`Destination` button is enabled), the owner's existing location is added to the result of evaluating this constraint (exactly like when the :guilabel:`Offset` button of the :doc:`Copy Location constraint </constraints/transform/copy_location>` is enabled...).
-- Conversely, when mapping transform properties to rotation or scale, the owner's existing rotation or scale is overridden by the result of evaluating this constraint.
-- When using the rotation transform properties of the target as input, whatever the real values are, the constraint will always "take them back" into the ``-180, 180`` range (e.g. if the target has a rotation of ``420`` around its X axis, the values used as X input by the constraint will be ``((420 + 180) modulo 360) - 180 = 60- `` ...). This is why this constraint is not really suited for gears!
-- Similarly, when using the scale transform properties of the target as input, whatever the real values are, the constraint will always take their absolute values (i.e. invert negative ones).
-- When a :guilabel:`min` value is higher than its corresponding :guilabel:`max` one, both are considered equal to the :guilabel:`max` one. This implies you cannot create "reversed" mappings...
+    Note that:
+   
+   - When mapping transform properties to location (i.e. :guilabel:`Loc` :guilabel:`Destination` button is enabled), the owner's existing location is added to the result of evaluating this constraint (exactly like when the :guilabel:`Offset` button of the :doc:`Copy Location constraint </constraints/transform/copy_location>` is enabled...).
+   - Conversely, when mapping transform properties to rotation or scale, the owner's existing rotation or scale is overridden by the result of evaluating this constraint.
+   - When using the rotation transform properties of the target as input, whatever the real values are, the constraint will always "take them back" into the ``-180, 180`` range (e.g. if the target has a rotation of ``420`` around its X axis, the values used as X input by the constraint will be ``((420 + 180) modulo 360) - 180 = 60- `` ...). This is why this constraint is not really suited for gears!
+   - Similarly, when using the scale transform properties of the target as input, whatever the real values are, the constraint will always take their absolute values (i.e. invert negative ones).
+   - When a :guilabel:`min` value is higher than its corresponding :guilabel:`max` one, both are considered equal to the :guilabel:`max` one. This implies you cannot create "reversed" mappings...
 
 :guilabel:`Source`
    It contains the input (from target) settings.

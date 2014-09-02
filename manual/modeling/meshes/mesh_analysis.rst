@@ -82,17 +82,10 @@ Sharp Edges
 Similar to wall-thickness, sharp edges can form shapes that are too thin to be able to print.
 
 
-.. admonition:: Warning
-   :class: note
-
-
-   .. warning::
-
-      FIXME - warning body below
+.. warning::
 
    There are some known limitations with mesh analysis
-
-
+   
    - Currently only displayed with deform modifiers.
    - For high-poly meshes is slow to use while editing the mesh.
 
