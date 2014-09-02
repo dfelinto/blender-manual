@@ -26,7 +26,7 @@ but it is important to know how the color space of a rendered image factors into
 
 
 :doc:`Anti-Aliasing </render/internal/antialiasing>`
-===================================================
+====================================================
 
 Anti-Aliasing removes jagged edges that appear in contrasting areas of color.
 This is a very important aspect of render quality. Without this render setting,
