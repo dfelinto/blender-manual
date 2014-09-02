@@ -52,8 +52,7 @@ simply right click on the header and enable set it to collapsed.
    Access the menu from the collapsed icon
 
 
-.. admonition:: Menus on a Mac
-   :class: nicetip
+.. tip:: Menus on a Mac
 
    Because :guilabel:`Blender` doesn't use the standard OS menu system, if you are using a Mac, you likely have a redundant menubar at the top. To remove it see `this post <http://www.macworld.com/article/55321/2007/02/hidemenubar.html>`__ on Macworld, but beware that it is somewhat complex. As an alternative: simply make :guilabel:`Blender` full screen with the last button in the info window header (most times at the top of the screen layout).
 

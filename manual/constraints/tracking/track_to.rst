@@ -20,8 +20,7 @@ It is very important in rig design, and you should be sure to read and understan
 :doc:`2.49 BSoD tracking tutorial </ls/animation/armatures/bsod/tracking>`,
 as it centers around the use of both of these constraints.
 
-.. admonition:: Billboard tracking
-   :class: nicetip
+.. tip:: Billboard tracking
 
    The term "billboard" has a specific meaning in real-time CG programming (i.e. video games!),
    where it is used for plane objects always facing the camera (they are indeed "trackers",

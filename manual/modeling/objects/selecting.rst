@@ -354,8 +354,7 @@ In the :guilabel:`Tool Shelf` → :guilabel:`Select by Layer` the following opti
    The layer on which the objects are.
 
 
-.. admonition:: Selection of Objects
-   :class: nicetip
+.. tip:: Selection of Objects
 
    Rather than using the :guilabel:`Select All by Layer` option, it might be more efficient to make the needed layers visible and use :kbd:`A` on them. This method also allows objects to be deselected.
 

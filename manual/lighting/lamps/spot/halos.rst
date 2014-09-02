@@ -24,8 +24,7 @@ Spot Volumetric Effects
    If :guilabel:`Step` is set to a value of ``0``, then no volumetric shadow will be generated.
    Unlike most other controls, as the :guilabel:`Step` value increases, the quality of volumetric shadows decreases (but take less time to render), and *vice versa*.
 
-.. admonition:: :guilabel:`Step` values
-   :class: nicetip
+.. tip:: :guilabel:`Step` values
 
    A value of ``8`` for :guilabel:`Halo Step` is usually a good compromise between speed and accuracy.
 

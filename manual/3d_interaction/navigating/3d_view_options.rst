@@ -294,8 +294,7 @@ When the image is loaded, the following settings become available.
 
 
 
-.. admonition:: Use Lo-Res Proxy
-   :class: nicetip
+.. tip:: Use Lo-Res Proxy
 
    To improve PC performance when using background images you may have to use lower-resolution proxies.
    If your monitor resolution is 800?600, then the background image, full screen, without zooming,

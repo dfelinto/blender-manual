@@ -155,8 +155,7 @@ you will want to scale it by :kbd:`Rmb` -clicking on either the start or end arr
 and dragging left or right. As you move, the frame number updates to say where the arrow is.
 Click :kbd:`Lmb` to validate, or :kbd:`Rmb` to cancel the modification.
 
-.. admonition:: Dealing with Different Sizes
-   :class: nicetip
+.. tip:: Dealing with Different Sizes
 
 
    Dealing with different sized images and different sized outputs is tricky. Think like a pixel.

@@ -100,8 +100,7 @@ Some more loading option buttons (in the :guilabel:`File Browser` header) includ
    To reposition the object to your cursor when it loads, enable this button.
 
 
-.. admonition:: Finding What was Loaded
-   :class: nicetip
+.. tip:: Finding What was Loaded
 
    If the loaded object is not visible, consider using :guilabel:`At Cursor` or :guilabel:`AutoSel`.
    If you use :guilabel:`AutoSel`, remember there are Snap tools to put your cursor on the object
@@ -126,8 +125,7 @@ Once you navigate to the file, select the "\ ``Wheel`` "
 You can import a copy of it, or merely link to it.
 
 
-.. admonition:: Linking
-   :class: nicetip
+.. tip:: Linking
 
    If you link to it, and later modify it in the source file, it will be shown "as-is" (modified) in your current file the next time you open it up.
 
@@ -146,8 +144,7 @@ FIXME(TODO: Internal Link;
 ).
 
 
-.. admonition:: Using Appended/Linked Mesh Data
-   :class: nicetip
+.. tip:: Using Appended/Linked Mesh Data
 
 
    .. figure:: /images/Manual-UsingLinkedLibraries-OOP_Schematic_Views-Wheel.jpg

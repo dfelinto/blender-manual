@@ -30,12 +30,13 @@ Common Options
 
 Each specular shader share the following common options:
 
-**Specular color**
+Specular Color
    The color of the specular highlight
-**Intensity**
+Intensity
    The intensity, or brightness of the specular highlight. This has a range of [0-1].
-**Ramp**
-   Allows you to set a range of specular colors for :guilabel:`Material`, and define how the range will vary over a surface. See :doc:`Ramps </materials/properties/ramps>` for details.
+Ramp
+   Allows you to set a range of specular colors for :guilabel:`Material`,
+   and define how the range will vary over a surface. See :doc:`Ramps </materials/properties/ramps>` for details.
 
 As a result, a material has at least two different colors, a diffuse, and a specular one.
 The specular color is normally set to pure white
@@ -144,14 +145,16 @@ included components not only for specular lighting, but also diffuse and ambient
 Options
 -------
 
-**Hardness**
+Hardness
    Size of the specular highlight.
 
 
-.. admonition:: Planet Atmosphere
-   :class: nicetip
+.. tip:: Planet Atmosphere
 
-   Because of its fuzziness, this shader is good for atmosphere around a planet. Add a sphere around the planet, slightly larger than the planet. For its material, use a phong specular shader. Set it to a very low alpha (.05), zero diffuse, low hardness (5) but high specularity (1).
+   Because of its fuzziness, this shader is good for atmosphere around a planet.
+   Add a sphere around the planet, slightly larger than the planet.
+   For its material, use a phong specular shader.
+   Set it to a very low alpha (.05), zero diffuse, low hardness (5) but high specularity (1).
 
 
 Blinn
@@ -184,14 +187,17 @@ The model he described in his 1977 paper
 Options
 -------
 
-**Hardness**
-   Size of the specular highlight. The Blinn shader is capable of much tighter specular highlights than Phong or CookTorr.
-**IOR**
-   'Index of Refraction'. This parameter is not actually used to compute refraction of light rays through the material (a ray tracer is needed for that), but to correctly compute specular reflection intensity and extension via Snell's Law.
+Hardness
+   Size of the specular highlight.
+   The Blinn shader is capable of much tighter specular highlights than Phong or CookTorr.
+IOR
+   'Index of Refraction'.
+   This parameter is not actually used to compute refraction of light rays through the material
+   (a ray tracer is needed for that),
+   but to correctly compute specular reflection intensity and extension via Snell's Law.
 
 
 Toon
-
 ----
 
 
@@ -215,13 +221,12 @@ uniform highlights of cartoon cels.
 Options
 -------
 
-**Size**
+Size
    Size of the specular highlight.
-**Smooth**
+Smooth
    Softness of the highlight's edge.
 
-.. admonition:: Alternative Method
-   :class: nicetip
+.. tip:: Alternative Method
 
 
    The Toon shader effect can also be accomplished in a more controllable way using ColorRamps.
@@ -260,7 +265,11 @@ Gregory J. Ward
 Options
 -------
 
-**Slope**
-   Standard deviation for of surface slope.  Previously known as the `root-mean-square <http://en.wikipedia.org/wiki/Root_mean_square>`__ or rms value, this parameter in effect controls the size of the specular highlight, though using a different method to that of the other specular shaders. It is capable of extremely sharp highlights.
+Slope
+   Standard deviation for of surface slope.
+   Previously known as the `root-mean-square <http://en.wikipedia.org/wiki/Root_mean_square>`__ or rms value,
+   this parameter in effect controls the size of the specular highlight,
+   though using a different method to that of the other specular shaders.
+   It is capable of extremely sharp highlights.
 
 

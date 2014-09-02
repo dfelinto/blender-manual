@@ -1,6 +1,5 @@
 
-.. admonition:: 2.6 Work in Progress
-   :class: nicetip
+.. tip:: 2.6 Work in Progress
 
    Please don't edit 2.6 manual "Material" pages until further notice.  (sculptorjim, 01/01/2013)
 

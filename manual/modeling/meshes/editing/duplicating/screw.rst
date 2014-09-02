@@ -112,8 +112,7 @@ and profiles that are closed with faces (like a cone or half sphere)
 will be closed automatically at their ends, like if you were extruding a region.
 
 
-.. admonition:: Simple way to not result in error
-   :class: nicetip
+.. tip:: Simple way to not result in error
 
    Only one open Profile, all of the others can be closed, avoid volumes and some profiles closed with faces...
 

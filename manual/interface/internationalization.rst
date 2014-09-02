@@ -36,8 +36,7 @@ to show the new language. Note that some language translations are not yet compl
 The progress of each translation is indicated in the drop-down menu.
 
 
-.. admonition:: Tip
-   :class: nicetip
+.. tip::
 
    Since the majority of tutorials are done with an English User Interface,
    it may be useful to keep the User Interface in English and only translate the tooltips,

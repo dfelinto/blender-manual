@@ -80,8 +80,7 @@ Let's make a simple example:
 
 - Now if you select the Monkey (:kbd:`Rmb`), and move it (:kbd:`G`), in the Y-direction, the monkey will deform nicely along the curve.
 
-.. admonition:: A Tip
-   :class: nicetip
+.. tip::
 
    If you press :kbd:`Mmb` while moving the Monkey you will constrain the movement to one axis only.
 

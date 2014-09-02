@@ -30,7 +30,9 @@ Format determines how data is stored and outputted. Currently there are two form
 
 
 - Image Sequences. Dynamic Paint generates UV wrapped image files of defined resolution as output.
-- Vertex. Dynamic Paint operates directly on mesh vertex data. Results are stored by point cache and can be displayed in viewports. However, using vertex level also requires a highly subdivided mesh to work.
+- Vertex. Dynamic Paint operates directly on mesh vertex data.
+  Results are stored by point cache and can be displayed in viewports.
+  However, using vertex level also requires a highly subdivided mesh to work.
 
 From quality settings you can adjust image resolution (for image sequences) and anti-aliasing.
 
@@ -79,7 +81,8 @@ Paint
    Paint Surface
 
 
-"Paint" is the basic surface type that outputs color and wetness values. In case of vertex surfaces results are outputted as vertex colors.
+"Paint" is the basic surface type that outputs color and wetness values.
+In case of vertex surfaces results are outputted as vertex colors.
 
 Wetmap is a black-and-white output that visualizes paint wetness. White being maximum wetness,
 black being completely dry. It is usually used as mask for rendering.
@@ -99,10 +102,10 @@ Displace
 This type of surface outputs intersection depth from brush objects.
 
 
-.. admonition:: Tip
-   :class: nicetip
+.. tip::
 
-   If the displace output seems too rough it usually helps to add a "Smooth" modifier after Dynamic Paint in the modifier stack.
+   If the displace output seems too rough it usually helps to add a "Smooth"
+   modifier after Dynamic Paint in the modifier stack.
 
 
 Waves
@@ -124,10 +127,13 @@ Open Borders
    Allows waves to pass through mesh "edges" instead of reflecting from them.
 
 Timescale
-   Directly adjusts simulation speed without affecting simulation outcome. Lower values make simulation go slower and otherwise.
+   Directly adjusts simulation speed without affecting simulation outcome.
+   Lower values make simulation go slower and otherwise.
 
 Speed
-   Affects how fast waves travel on the surface. This setting is also corresponds to the size of the simulation. Half the speed equals surface double as large.
+   Affects how fast waves travel on the surface.
+   This setting is also corresponds to the size of the simulation.
+   Half the speed equals surface double as large.
 
 Damping
    Reduces the wave strength over time. Basically adjusts how fast wave disappears.
@@ -136,10 +142,10 @@ Spring
    Adjusts the force that pulls water back to "zero level".
 
 
-.. admonition:: Tip
-   :class: nicetip
+.. tip::
 
-   In some cases the wave motion gets very unstable around brush. It usually helps to reduce wave speed, brush "wave factor" or even the resolution of mesh/surface.
+   In some cases the wave motion gets very unstable around brush.
+   It usually helps to reduce wave speed, brush "wave factor" or even the resolution of mesh/surface.
 
 
 Weight
@@ -156,10 +162,10 @@ This is a special surface type only available for vertex format.
 It outputs vertex weight groups that can be used by other Blender modifiers and tools.
 
 
-.. admonition:: Tip
-   :class: nicetip
+.. tip::
 
-   It's usually preferred to use "proximity" based brushes for weight surfaces to allow smooth falloff between weight values.
+   It's usually preferred to use "proximity" based brushes for
+   weight surfaces to allow smooth falloff between weight values.
 
 
 Output Panel
@@ -194,13 +200,12 @@ It generates animated movement on canvas surface.
 
 Currently there are 3 effects available:
 
-*Spread*
+Spread
    Paint slowly spreads to surrounding points eventually filling all connected areas.
-
-*Drip*
-   Paint moves in specific direction specified by Blender force fields, gravity and velocity with user defined influences.
-
-*Shrink*
+Drip
+   Paint moves in specific direction specified by Blender force fields,
+   gravity and velocity with user defined influences.
+Shrink
    Painted area slowly shrinks until disappears completely.
 
 For spread and drip effects, only "wet paint" is affected, so as the paint dries,

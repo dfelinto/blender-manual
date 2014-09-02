@@ -93,8 +93,7 @@ For Faces and Volume, additional options appear:
       Add a random offset to grid locations.
 
 
-.. admonition:: Your mesh must be watertight to emit particles from the volume.
-   :class: nicetip
+.. tip:: Your mesh must be watertight to emit particles from the volume.
 
    Some modifiers like :guilabel:`Edge Split` break up the surface,
    in which case volume emission will not work correctly!

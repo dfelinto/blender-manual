@@ -60,8 +60,7 @@ will only be shown in the :guilabel:`Object` Mode of the :guilabel:`3D View` Win
 - The line at which this modifier is calculated is delimited by the first tangential contact between faces of the modified mesh and target.
 
 
-.. admonition:: This is a dynamic real-time modifier!
-   :class: nicetip
+.. tip:: This is a dynamic real-time modifier!
 
    If you have marked your Objects to show the Edges
    (in Properties Window, Object Properties context, Display Tab, click *Wire*),
@@ -312,8 +311,7 @@ and another with the resulting topology (Fig. 15).
   The topology of the Icosphere with subsurf (Level 2) was completely transferred to the modified mesh.
 
 
-.. admonition:: The target topology determines the resulting topology
-   :class: nicetip
+.. tip:: The target topology determines the resulting topology
 
    The target topology determines the results of the Boolean Modifier operation.
    It means that any modifier added to the target which modifies its topology will affect the resulting mesh of the operation.
@@ -348,8 +346,7 @@ creating a closed loop using concurrent operations),
 you can cause Blender to stop responding or crash.
 
 
-.. admonition:: The best usage scenario for sequential operations
-   :class: nicetip
+.. tip:: The best usage scenario for sequential operations
 
    The best way to work with this modifier when you need to make lots of sequential operations
    of the same modifier is to define the target at the time you need to apply the changes to the topology.

@@ -44,8 +44,7 @@ clicking the manipulator handle and then holding the shortcut key for precision 
 :doc:`Read more about the Transform Manipulator » </3d_interaction/transform_control/manipulators>`
 
 
-.. admonition:: Combining with other controls
-   :class: nicetip
+.. tip:: Combining with other controls
 
    All of the precision controls detailed on the page can be combined with the :doc:`Axis Locking </3d_interaction/transform_control/axis_locking>` controls and used with the different :doc:`Pivot Points </3d_interaction/transform_control/pivot_point>`.
 

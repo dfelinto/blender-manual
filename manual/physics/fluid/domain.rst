@@ -22,8 +22,7 @@ you need to insert additional obstacle objects *inside* the domain boundary.
 This object will be *replaced* by the fluid during the simulation.
 
 
-.. admonition:: Baking is done on the Domain object
-   :class: nicetip
+.. tip:: Baking is done on the Domain object
 
    When you calculate the fluid simulation, **you bake the simulation on the domain object**.
    For this reason all the baking options are visible only when selecting the Domain Object.
@@ -119,8 +118,7 @@ Time
       It is the simulation ending time (in seconds).
 
 
-.. admonition:: Start and end times have nothing to do with how many frames are baked
-   :class: nicetip
+.. tip:: Start and end times have nothing to do with how many frames are baked
 
    If you set *Start* time to 3.0, and *End* time to 4.0, you will simulate 1 second of fluid motion.
    That one second of fluid motion will be spread across however-many frames are set in the :guilabel:`Anim` panel

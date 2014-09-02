@@ -11,8 +11,7 @@ must select the property you wish to animate in the Ipo window and :kbd:`ctrl-Lm
 to set the keyframe to the desired location in the Ipo window.
 
 
-.. admonition:: Enter Properties
-   :class: nicetip
+.. tip:: Enter Properties
 
    Note that you do not have to be exact on where you click; we recommend that after you set the control point,
    open the :guilabel:`Transform Properties` panel (:kbd:`N`) and round the X value to a whole frame number,

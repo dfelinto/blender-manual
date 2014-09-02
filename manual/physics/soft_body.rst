@@ -119,8 +119,7 @@ simulation the cache is protected and you will be asked when you're trying to ch
 that will make a recalculating necessary.
 
 
-.. admonition:: Beware of the :guilabel:`Start` and :guilabel:`End` settings
-   :class: nicetip
+.. tip:: Beware of the :guilabel:`Start` and :guilabel:`End` settings
 
    The simulation is only calculated for the frames in-between the :guilabel:`Start` and :guilabel:`End` frames (:guilabel:`Bake` panel), even if you don't actually bake the simulation! So if you want a simulation longer than the default setting of 250 frames you have the change the :guilabel:`End` frame.
 
@@ -151,8 +150,7 @@ option :guilabel:`Continue Physics` in the :guilabel:`Playback` menu of the
 by moving collision objects or shake a Soft Body object. And this is real fun!
 
 
-.. admonition:: :guilabel:`Continue Physics` does not work while playing the animation with :kbd:`alt-A`
-   :class: nicetip
+.. tip:: :guilabel:`Continue Physics` does not work while playing the animation with :kbd:`alt-A`
 
    Right. This works only if you start the animation with the :guilabel:`Play` button of the :guilabel:`Timeline` window.
 

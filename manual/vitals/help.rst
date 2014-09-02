@@ -28,8 +28,7 @@ Other new features like:
 General Web-based Help Options
 ==============================
 
-.. admonition:: Browser and Internet Connection
-   :class: nicetip
+.. tip:: Browser and Internet Connection
 
    Some forms of Help start up your web browser and access the Blender Foundation's web servers. In order to do this, you must have configured a default web browser for your Operating System, and have a connection to the Internet.
 

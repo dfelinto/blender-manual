@@ -77,8 +77,7 @@ FIXME(Tag Unsupported:vimeo;
 Version/Revision Milestones
 ===========================
 
-.. admonition:: Release Notes
-   :class: nicetip
+.. tip:: Release Notes
 
    To see release notes for each version, you can click on the version number.
 

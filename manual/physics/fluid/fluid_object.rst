@@ -28,8 +28,7 @@ Initial velocity
    Speed of the fluid at the beginning of the simulation, in meters per second.
 
 
-.. admonition:: The direction of Surface Normals makes a big difference!
-   :class: nicetip
+.. tip:: The direction of Surface Normals makes a big difference!
 
    Blender uses the orientation of the Surface Normals to determine what is "inside of" the Fluid object and what is
    "outside". You want all of the normals to face *outside* (in :guilabel:`Edit mode`, use :kbd:`ctrl-N` or press

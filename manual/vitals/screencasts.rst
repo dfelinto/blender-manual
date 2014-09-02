@@ -71,10 +71,11 @@ Info Window - Header - Capture Stop Button).
 
 The frames are stored using a suffix added to their file name, where the suffix is composed of the numbers present in the fields for *start* and *end frames*, defined in the Frame Range of the Dimensions panel, :doc:`Render context </interface/contexts>`. (See Fig: Dimensions Panel - Frame Range - highlighted in yellow)
 
-.. admonition:: Important:
-   :class: nicetip
+.. note::
 
-   The configuration of the End frame, present in the Frame Range of the Dimensions Panel, **will not** stop your capture automatically. You will always have to stop the Screencast manually, using the Stop button.
+   The configuration of the End frame, present in the Frame Range of the Dimensions Panel,
+   **will not** stop your capture automatically.
+   You will always have to stop the Screencast manually, using the Stop button.
 
 
 The Videos are generated internally in the same manner as the :guilabel:`Screenshots`,
@@ -152,8 +153,7 @@ on the Properties panel.
 - **Color:** Lets you choose the color of the Screencast text.
 
 
-.. admonition:: New Community Addon
-   :class: nicetip
+.. tip:: New Community Addon
 
    There is also currently an Addon for Blender 2.5/2.6 which will take a screenshot of any area you like at the click of a button, and proceed to upload it directly to `Pasteall <http://www.pasteall.org/pic/.>`__. The Addon currently has no development page, but it will be linked to here when it's finished.
 

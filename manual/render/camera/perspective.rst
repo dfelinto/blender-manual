@@ -188,8 +188,7 @@ Y were zero, the building would have appeared off camera,
 in the upper left-hand corner of the passpartout.
 
 
-.. admonition:: Parallel Horizontal Edges
-   :class: nicetip
+.. tip:: Parallel Horizontal Edges
 
    You can use the lines of the passpartout as a guide in rotating
    the camera to determine when the horizontal edges are parallel.

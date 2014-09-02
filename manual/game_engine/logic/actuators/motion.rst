@@ -19,8 +19,7 @@ Determines type of motion
    sets a target speed and also how quickly it reaches that speed.
 
 
-.. admonition:: Object collisions
-   :class: nicetip
+.. tip:: Object collisions
 
    Simple motion can cause an object to go through another object since it never passes the any of the coordinates between the start and end. This can be avoided using Servo Control, which is activated when the Physics setting for the object(s) is set to Dynamic/Rigid Body/Soft Body.
 
@@ -45,8 +44,7 @@ Simple Motion
    Coordinates specified are Global (gray) or Local (White).
 
 
-.. admonition:: Servo Control
-   :class: nicetip
+.. tip:: Servo Control
 
    To make Servo Control work, it is necessary to turn on Dynamic in the Physics window, and to make the object an Actor.
 

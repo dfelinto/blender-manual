@@ -86,8 +86,7 @@ Fine Tuning The Rotation
 - Press :kbd:`r`,\ :kbd:`r` to enable Trackball rotation.
 
 
-.. admonition:: Orientation dependant rotations
-   :class: nicetip
+.. tip:: Orientation dependant rotations
 
    By default, all rotations happen around a Global Orientation. You can change the rotation orientation by pressing the axis key twice. For example, pressing :kbd:`r`, :kbd:`x`, :kbd:`x` will by default set rotation to occur around the local orientation.
 

@@ -119,8 +119,7 @@ the contents of the Pop-Up Window are different, because of your context (Edit M
    Redo Last - Rotation ( Object Mode, 60 degrees ) _________ Redo Last - Scale ( Edit Mode, Resize face )
 
 
-.. admonition:: Operations using Redo Last
-   :class: nicetip
+.. tip:: Operations using Redo Last
 
    Some operations produce particularly useful results if you tweak their parameters with the :kbd:`F6` Menu. Take, for example, adding a Circle. If you reduce the Vertex count to 3, you get a perfect equilateral triangle.
 
@@ -261,8 +260,7 @@ Auto Save Temporary Files
 
 
 
-.. admonition:: Compress Files
-   :class: nicetip
+.. tip:: Compress Files
 
    The option to Compress files will try to compact your files whenever Blender is saving them. Large Scenes,
    dense Meshes, big Textures or lots of elements in your Scene will result in a big ``.blend`` being created.

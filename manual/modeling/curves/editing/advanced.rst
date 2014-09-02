@@ -21,10 +21,10 @@ FIXME(TODO: Internal Link;
 ) section above) to twist the "curved" object around it. Unfortunately, the other :guilabel:`Radius` property is not used (it would have been possible, for example, to make it control the size of the "curved" object...).
 
 
-.. admonition:: A Tip
-   :class: nicetip
+.. tip::
 
-   Try to position your object over the curve immediately after you have added it, before adding the curve deform. This gives the best control over how the deformation works.
+   Try to position your object over the curve immediately after you have added it,
+   before adding the curve deform. This gives the best control over how the deformation works.
 
 
 .. admonition:: Use modifiers!
@@ -122,19 +122,19 @@ Let's make a simple example:
 - Now if you select the Monkey (:kbd:`rmb`), and move it (:kbd:`G`), in the Y-direction (the dominant axis by default), the monkey will deform nicely along the curve.
 
 
-.. admonition:: A Tip
-   :class: nicetip
+.. tip::
 
-   If you press :kbd:`mmb` (or one of the :kbd:`X` / :kbd:`Y` / :kbd:`Z` keys) while moving the Monkey you will constrain the movement to one axis only.
+   If you press :kbd:`mmb` (or one of the :kbd:`X` / :kbd:`Y` / :kbd:`Z` keys)
+   while moving the Monkey you will constrain the movement to one axis only.
 
 
 - In (*Monkey deformations*), you can see the Monkey at different positions along the curve. To get a cleaner view over the deformation I have activated :guilabel:`SubSurf` with :guilabel:`Subdiv` to **2**, and :guilabel:`Set Smooth` on the Monkey mesh (:kbd:`F9` to get :guilabel:`Editing` context).
 
 
-.. admonition:: A Tip
-   :class: nicetip
+.. tip::
 
-   Moving the Monkey in directions other than the dominant axis will create some odd deformations. Sometimes this is what you want to achieve, so you'll need to experiment and try it out!
+   Moving the Monkey in directions other than the dominant axis will create some odd deformations.
+   Sometimes this is what you want to achieve, so you'll need to experiment and try it out!
 
 
 .. figure:: /images/2.5_Manual-Part-II-curvesDeform_exampleMonkeyOnCurve2.jpg

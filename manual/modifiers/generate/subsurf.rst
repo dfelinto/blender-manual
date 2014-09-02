@@ -81,8 +81,7 @@ approximation of your model when interacting with it in 3D,
 but use a higher quality version when rendering.
 
 
-.. admonition:: View less than or equal to Render
-   :class: nicetip
+.. tip:: View less than or equal to Render
 
    Be careful not to set the :guilabel:`View` higher than the :guilabel:`Render` setting, or else your preview would display higher quality than your render.
 

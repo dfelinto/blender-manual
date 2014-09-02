@@ -65,8 +65,7 @@ Luckily, you don't need to care much - because to select a face, you don't have 
 but the face itself.
 
 
-.. admonition:: Face selection
-   :class: nicetip
+.. tip:: Face selection
 
    *To select a face:*
    Click the face, not the dot!

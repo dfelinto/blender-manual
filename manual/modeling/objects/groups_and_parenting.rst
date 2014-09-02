@@ -77,7 +77,9 @@ Blender supports many different types of parenting, listed below:
 Object Parent
 =============
 
-*Object Parent* is the most general form of parenting that Blender supports.  If will take selected objects and make the last selected object the *Parent Object*, while all other selected objects will be *Child Objects*.
+*Object Parent* is the most general form of parenting that Blender supports.
+If will take selected objects and make the last selected object the *Parent Object*,
+while all other selected objects will be *Child Objects*.
 
 
 Object (Keep Transform) Parent
@@ -559,7 +561,9 @@ You can alter the radius that a bone has by selecting the head, body or tail par
    Figure 32 - 4 Armature Bones all using Envelope Weight. The 1st with a default radius value, the 3 others with differing Tail, Head and Body radius values.
 
 
-You can also alter the bone radius by selecting the tail or head of the bone you wish to alter and switching to Edit Mode, then navigate to [Properties Editor > Bone Context > Deform Panel > Radius Section] and entering new values for the Tail and Head fields.  See figure 33.
+You can also alter the bone radius by selecting the tail or head of the bone you wish to alter and switching to Edit
+Mode, then navigate to [Properties Editor > Bone Context > Deform Panel > Radius Section] and entering new values for
+the Tail and Head fields.  See figure 33.
 
 
 .. figure:: /images/TS-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform_With_Envelope_Weights.jpg
@@ -569,9 +573,7 @@ You can also alter the bone radius by selecting the tail or head of the bone you
    Figure 33 - [Properties Editor > Bone Context > Deform Panel > Radius Section] head and tail fields highlighted.
 
 
-.. admonition:: Note
-   :class: nicetip
-
+.. note::
 
    If you alter the Bone Envelope volume of a bone so that you can have it include/exclude
    certain vertices after you have already used Armature Deform With Envelope Weights,
@@ -587,7 +589,9 @@ You can also alter the bone radius by selecting the tail or head of the bone you
 Bone Parent
 ===========
 
-Bone parenting allows you to make a certain bone in an armature the Parent Object of another object. This means that when transforming an armature the Child Object will only move if the specific bone it is the Child Object of moves.  See figure 34.
+Bone parenting allows you to make a certain bone in an armature the Parent Object of another object.
+This means that when transforming an armature the Child Object will only move
+if the specific bone it is the Child Object of moves.  See figure 34.
 
 
 .. figure:: /images/TU-3DViewEditorHeader-ObjectMenu-Parent-BoneParenting.jpg
@@ -597,7 +601,10 @@ Bone parenting allows you to make a certain bone in an armature the Parent Objec
    Figure 34 - [3 pictures of Armatures with 4 Bones, with the 2nd bone being the Bone Parent of the Child Object Cube.  The Cube is only transformed if the 1st or 2nd bones are.  Notice altering the 3rd and 4th bones has no effect on the Cone.
 
 
-To use Bone Parenting, you must first select all the Child Objects you wish to parent to a specific Armature Bone, then [SHIFT Key+Right Mouse Button Click] select the Armature Object and switch it into Pose Mode and then select the specific bone you wish to be the Parent Bone by [Right Mouse Button Click] it.  Once done press [CTRL Key+P Key] and select Bone from the Set Parent To popup dialog.
+To use Bone Parenting, you must first select all the Child Objects you wish to parent to a specific Armature Bone,
+then [SHIFT Key+Right Mouse Button Click] select the Armature Object and switch it into Pose Mode and then select the
+specific bone you wish to be the Parent Bone by [Right Mouse Button Click] it.  Once done press [CTRL Key+P Key] and
+select Bone from the Set Parent To popup dialog.
 
 Now transforming that bone in Pose Mode will result in the Child Objects also transforming.
 

@@ -25,8 +25,7 @@ Note that all appropriate libraries are automatically loaded by the add-on.
 If you are interested in licensing your game, read `Licensing <http://wiki.blender.org/index.php/User:sculptorjim/Game Engine/Licensing>`__ for a discussion of the issues involved.
 
 
-.. admonition:: Exporting...
-   :class: nicetip
+.. tip:: Exporting...
 
    If the game is to be exported to other computers, make a new empty directory for the game runtime and all its ancilliary libraries etc.  Then make sure the **whole directory** is transferred to the target computer
 

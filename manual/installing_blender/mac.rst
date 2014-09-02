@@ -26,8 +26,7 @@ Once you know your platform and processor :
    Opening Blender from Finder - Example using Blender 2.61 for 64 bits Intel Mac, Mac OS X 10.6
 
 
-.. admonition:: Supported Platforms for Blender 2.6X and above
-   :class: nicetip
+.. tip:: Supported Platforms for Blender 2.6X and above
 
    Since 2.63, we have no more pre-compiled versions for PPCs G5 (PowerMacs).
    Blender 2.64 Versions and above will only run on Macs using Intel processors, Mac OS X 10.6 or higher is required.

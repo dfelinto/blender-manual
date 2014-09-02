@@ -69,8 +69,7 @@ by pressing :kbd:`shift-F2`, or by pressing :kbd:`ctrl-right`).
 
 **5) Properties**
 
-.. admonition:: Two Meanings for the Same Word
-   :class: nicetip
+.. tip:: Two Meanings for the Same Word
 
    Note that the name "Property" has two different uses in Blender terminology -
    firstly in the wider use of the Property Display Panel as described here,

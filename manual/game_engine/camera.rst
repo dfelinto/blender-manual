@@ -18,8 +18,7 @@ Thus to start the game with a particular camera,
 you must select the camera and press :kbd:`pad0` before starting the Game Engine.
 
 
-.. admonition:: To avoid camera distortion
-   :class: nicetip
+.. tip:: To avoid camera distortion
 
    Always zoom the view in until the camera object fills the entire viewport.
 

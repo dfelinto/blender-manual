@@ -5,8 +5,7 @@ Shadows
 The shadows that appear in a scene are affected by a combination of the layout of objects, the shape of the objects,  the materials of the objects, and the lighting. In Blender, the Display Mode (Single Texture, Multitexture,or GLSL) also affects the appearance of shadows. See :doc:`/lighting/shadows` for a more complete description of this subject.
 
 
-.. admonition:: Shadows in 3D mode
-   :class: nicetip
+.. tip:: Shadows in 3D mode
 
    To see shadows in 3D (textured) mode, you must have switched to GLSL mode before making any materials.   In MultiTexture mode, shadows only appear in the rendered image: none of these can be seen in the preview image.
 

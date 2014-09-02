@@ -50,8 +50,7 @@ In general, you follow these steps:
 - :doc:`Bake the simulation </physics/fluid/domain>` (eventually, revise as necessary and bake repeatedly).
 
 
-.. admonition:: Baking is done on the Domain object!
-   :class: nicetip
+.. tip:: Baking is done on the Domain object!
 
    When you calculate the fluid simulation, **you bake the simulation on the domain object**.
 

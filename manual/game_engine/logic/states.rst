@@ -20,10 +20,7 @@ state for which it will operate - it will only give an output pulse if a)
 its logic conditions are met, and b) the object is currently in the specified State.
 States are set up and edited in the object's Controller settings (for details see below).
 
-
-.. admonition:: Tip
-   :class: nicetip
-
+.. tip::
 
    State settings are automatic in simple games.  By default,
    the number of states for each object is 1, and all controllers are set  to use State 1.  So,

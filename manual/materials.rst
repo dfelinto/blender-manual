@@ -101,8 +101,7 @@ depends on many inter-related settings:
 Using Materials
 ===============
 
-.. admonition:: Check your Render
-   :class: nicetip
+.. tip:: Check your Render
 
    When designing materials (and textures and lighting), frequently check the rendered appearance of your scene,
    using your chosen render engine/shader settings.
