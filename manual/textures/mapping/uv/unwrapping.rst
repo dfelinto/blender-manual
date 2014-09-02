@@ -51,12 +51,20 @@ Getting Started
    UV Editing screen layout
 
 
-By default, meshes are not created with UVs. First you must map the faces, then you can :doc:`edit them </textures/mapping/uv/layout_editing>`. The process of unwrapping your model is done within Edit Mode in the 3D View window. This process creates one or more UV Islands in the :doc:`UV/Image Editor window </ce/windows/uv-image>`.
+By default, meshes are not created with UVs. First you must map the faces, then
+you can :doc:`edit them </textures/mapping/uv/layout_editing>`. The process of
+unwrapping your model is done within Edit Mode in the 3D View window. This
+process creates one or more UV Islands in the :doc:`UV/Image Editor window
+</textures/mapping/uv_image_editor>`.
 
-To begin, choose the :guilabel:`UV Editing` :doc:`screen layout </data_system/scene_creation#screen_layouts>` from the selection list at the top of your screen in the User Preferences window header. This sets one of the panes to show you the UV/Image Editor window (:kbd:`Shift+f10`), and  the other pane to the 3D window (:kbd:`Shift+f5`).
+To begin, choose the :guilabel:`UV Editing` :doc:`screen layout </interface/screens>`
+from the selection list at the top of your screen in the User Preferences
+window header. This sets one of the panes to show you the UV/Image Editor
+window (:kbd:`Shift+f10`), and  the other pane to the 3D window
+(:kbd:`Shift+f5`).
 
-Enter edit mode, as all unwrapping is done in Edit mode. You can be in vertex, face,
-or edge selection mode.
+Enter edit mode, as all unwrapping is done in Edit mode. You can be in vertex,
+face, or edge selection mode.
 
 
 Workflow
@@ -92,45 +100,34 @@ The more advanced methods can be used with more complex models, and have more sp
 
 Basic:
 
-   FIXME(TODO: Internal Link; [[#Cube|Cube]])
+   `Cube`_
+     Maps the mesh onto the faces of a cube, which is then unfolded.
 
-   Maps the mesh onto the faces of a cube, which is then unfolded.
+   :ref:`Sphere <cylinder-and-sphere>`
+     Projects the UVs onto a spherical shape. Useful only for spheres or spherical shapes, like eyes, planets, etc.
 
-   FIXME(TODO: Internal Link; [[#Cylinder and Sphere|Sphere]])
+   :ref:`Cylinder <cylinder-and-sphere>`
+     Projects UVs onto a cylindrical surface.
 
-   Projects the UVs onto a spherical shape. Useful only for spheres or spherical shapes, like eyes, planets, etc.
-
-   FIXME(TODO: Internal Link; [[#Cylinder and Sphere|Cylinder]])
-
-   Projects UVs onto a cylindrical surface.
-
-   FIXME(TODO: Internal Link; [[#Project From View|Project from View]])
-
-   Takes the current view in the 3D viewport and flattens it as it appears.
+   `Project from View`_
+     Takes the current view in the 3D viewport and flattens it as it appears.
 
 Advanced:
 
-   FIXME(TODO: Internal Link; [[#Unwrapping using Seams|Unwrap]])
+   :ref:`Unwrap <unwrap-using-seams>`
+     Useful for organic shapes. Smooths the mesh into a flat surface by cutting along seams.
 
-   Useful for organic shapes. Smooths the mesh into a flat surface by cutting along seams.
+   `Smart UV Project`_
+     Breaks the mesh into islands based on an angle threshold.
 
-   FIXME(TODO: Internal Link; [[#Smart Uv Project|Smart UV Project]])
+   :ref:`Lightmap Pack <lightmap-pack>`
+     Separates each face and packs them onto the UV grid.
 
-   Breaks the mesh into islands based on an angle threshold.
+   `Follow Active Quads`_
+     Follow UV from active quads along continuous face loops.
 
-   FIXME(TODO: Internal Link; [[#Lightmap|Lightmap Pack]])
-
-   Separates each face and packs them onto the UV grid.
-
-   FIXME(TODO: Internal Link;
-   [[#Follow Active Quads|Follow Active Quads]])
-
-   Follow UV from active quads along continuous face loops.
-
-You can also
-FIXME(TODO: Internal Link;
-[[#Reset UVs|reset UVs]]
-), which maps each face to fill the UV grid, giving each face the same mapping.
+You can also :ref:`reset UVs <reset-uvs>`, which maps each face to fill the UV grid,
+giving each face the same mapping.
 
 If we were to use an image that was tileable,
 the surface would be covered in a smooth repetition of that image,
@@ -161,8 +158,7 @@ Scale to Bounds
 
 
 Cube
-
-----
+====
 
 
 Cube mapping projects s mesh onto six separate planes, creating 6 UV islands.
@@ -172,6 +168,7 @@ See :doc:`Editing UVs </textures/mapping/uv/layout_editing>`.
 :guilabel:`Cube Size`
    Set the size of the cube to be projected onto.
 
+.. _cylinder-and-sphere:
 
 Cylinder and Sphere
 ===================
@@ -235,6 +232,7 @@ you have modeled. You will get some stretching in areas where the model recedes 
 Using :guilabel:`Project from View (Bounds)` will do the same as above,
 but scales the UVs to the bounds of the UV space.
 
+.. _reset-uvs:
 
 Resetting UVs
 =============
@@ -248,6 +246,8 @@ and unwrap them using the Reset menu option.
 
 Advanced Mapping
 ****************
+
+.. _unwrap-using-seams:
 
 Unwrapping Using Seams
 ======================
@@ -428,6 +428,7 @@ Island Margin
 Area Weight
    Weight projection's vector by faces with larger areas
 
+.. _lightmap-pack:
 
 Lightmap
 ========
