@@ -9,10 +9,10 @@ Truncated domes (front and rear), Planetariums and domes with spherical mirrors.
 
 The Dome camera uses a multipass texture algorithm as developed by Paul Bourke and was
 implemented by Dalai Felinto with sponsorship  from **SAT -** Society for Arts and
-Technology within the **SAT** **Metalab** immersion research
-program.http://paulbourke.net/miscellaneous/domemirror/BlenderiDome/Briefly, that involves
-rendering the scene 4 times and placing the subsequent images onto a mesh designed especially
-such that the result, when viewed with an orthographic camera, is a fisheye projection.
+Technology within the **SAT** **Metalab** `immersion research program <http://paulbourke.net/miscellaneous/domemirror/BlenderiDome/>`_,
+that involves rendering the scene 4 times and placing the subsequent images
+onto a mesh designed especially such that the result, when viewed with an
+orthographic camera, is a fisheye projection.
 
 
 .. note::
@@ -37,35 +37,15 @@ Dome Camera Settings
    This menu allows you to select which type of dome camera to use. They are outlined below, along with their respective settings.
 
 
--
+- :ref:`Fisheye Dome <ge-camera-dome-fisheye-mode>`
 
-FIXME(TODO: Internal Link;
-[[#Fisheye_Mode|Fisheye Dome]]
-)
+- :ref:`Front-Truncated Dome <ge-camera-dome-front-truncated-dome>`
 
--
+- :ref:`Rear-Truncated Dome <ge-camera-dome-rear-truncated-dome>`
 
-FIXME(TODO: Internal Link;
-[[#Front-truncated_Dome_Mode|Front-Truncated Dome]]
-)
+- :ref:`Cube Map <ge-camera-dome-cube-map>`
 
--
-
-FIXME(TODO: Internal Link;
-[[#Rear-truncated_Dome_Mode|Rear-Truncated Dome]]
-)
-
--
-
-FIXME(TODO: Internal Link;
-[[#Cube_Map_Mode|Cube Map]]
-)
-
--
-
-FIXME(TODO: Internal Link;
-[[#Spherical_Panoramic|Full Spherical Panoramic]]
-)
+- :ref:`Full Spherical Panoramic <ge-camera-dome-spherical-panoramic>`
 
 Available camera settings change depending on the selected Dome Type:
 
@@ -80,9 +60,11 @@ Available camera settings change depending on the selected Dome Type:
 
 :guilabel:`Tilt`
    Set the camera rotation in the horizontal axis. Available in Fisheye and Truncated modes).
-   FIXME(TODO: Internal Link; [[#Warp_Data_Mesh|Warp Data]])
+
+:ref:`Warp Data <ge-camera-dome-warp-data-mesh>`
    Use a custom warp mesh data file.
 
+.. _ge-camera-dome-fisheye-mode:
 
 Fisheye Mode
 ============
@@ -97,6 +79,7 @@ An Orthogonal Fisheye view from 90º to 250º degrees.
 
    Fisheye Mode
 
+.. _ge-camera-dome-front-truncated-dome:
 
 Front-Truncated Dome Mode
 =========================
@@ -113,6 +96,7 @@ this mode aligns the fisheye image with the top of the window while touching the
 
    Front Truncated Dome Mode
 
+.. _ge-camera-dome-rear-truncated-dome:
 
 Rear-Truncated Dome Mode
 ========================
@@ -129,6 +113,7 @@ this mode aligns the fisheye image with the bottom of the window while touching 
 
    Rear Truncated Dome Mode
 
+.. _ge-camera-dome-cube-map:
 
 Cube Map Mode
 =============
@@ -144,6 +129,7 @@ Cube Map mode can be used for pre-generate animated images for CubeMaps.
 
    Environment Map Mode
 
+.. _ge-camera-dome-spherical-panoramic:
 
 Spherical Panoramic
 ===================
@@ -158,6 +144,7 @@ A full spherical panoramic mode.
 
    Full Spherical Panoramic Mode
 
+.. _ge-camera-dome-warp-data-mesh:
 
 Warp Data Mesh
 ==============
@@ -167,8 +154,7 @@ are the norm for flat screen displays. Examples include geometry correction for 
 displays and some new methods of projecting into planetarium domes or upright domes intended
 for VR.
 
-For more information on the mesh format see [http://paulbourke.net/dataformats/meshwarp/ Paul
-Bourke's article.]
+For more information on the mesh format see `Paul Bourke's article <http://paulbourke.net/dataformats/meshwarp/>`_.
 
 
 .. figure:: /images/Dev-GameEngine-Dome-Warped.jpg
