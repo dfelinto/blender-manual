@@ -67,7 +67,5 @@ the rendered bouncing cube:
 
 
 +--------------------------------------------------------+
-+FIXME(Tag Unsupported:youtube;                          +
-+<youtube width="640" height="360" >3PzgB9jw9iA</youtube>+
-+)                                                       +
++.. youtube:: 3PzgB9jw9iA                                +
 +--------------------------------------------------------+

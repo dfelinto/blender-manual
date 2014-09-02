@@ -12,10 +12,7 @@ Accessing Built-in Python Console
 
 Launching the Console using mouse.
 
-
-FIXME(Tag Unsupported:youtube;
-<youtube>Ge2Kwy5EGE0</youtube>
-)
+.. youtube:: Ge2Kwy5EGE0
 
 By pressing :kbd:`Shift-F4` in any Blender Editor Type (3D View, Timeline etc.,)
 you can change it to a Console Editor.

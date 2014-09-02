@@ -12,9 +12,7 @@ of target shapes. At the same time,
 as much as possible of the natural fluid motion is preserved.
 
 
-FIXME(Tag Unsupported:youtube;
-<youtube>WruTNnF6Ztg</youtube>
-)
+.. youtube:: WruTNnF6Ztg
 
 
 Examples

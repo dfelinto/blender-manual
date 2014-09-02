@@ -126,11 +126,7 @@ Example
 
 Here is a simple "hand writing" video created with curves converted from sketch data:
 
-
-FIXME(Tag Unsupported:youtube;
-<youtube>VwWEXrnQAFI</youtube>
-)
-
+.. youtube:: VwWEXrnQAFI
 
 And the blend file:
 `File:ManGreasePencilConvertToCurveDynamicExample.blend <http://wiki.blender.org/index.php/file:ManGreasePencilConvertToCurveDynamicExample.blend>`__

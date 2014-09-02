@@ -47,9 +47,7 @@ Options
 Example
 =======
 
-FIXME(Tag Unsupported:youtube;
-<youtube>sncFstaycIo</youtube>
-)
+.. youtube:: sncFstaycIo
 
 
 See also

@@ -82,9 +82,7 @@ license you can write the license in a text window.
 Demonstration
 *************
 
-FIXME(Tag Unsupported:youtube;
-<youtube>OzGZ_ssrmsQ</youtube>
-)
+.. youtube:: OzGZ_ssrmsQ
 
 
 Exercise
@@ -126,7 +124,5 @@ Execute the script with :kbd:`ALT-P`.
 You can see the result of running the above script in this video.
 
 
-FIXME(Tag Unsupported:youtube;
-<youtube>pPR9Eog0S3E</youtube>
-)
+.. youtube:: pPR9Eog0S3E
 
