@@ -1,3 +1,4 @@
+
 Weight Tools
 ************
 
@@ -29,7 +30,8 @@ In these modes the tools operate only on selected verts or faces.
 
 .. tip:: About the Blend tool
  
-   The Blend tool only works when "Vertex selection masking for painting" is enabled. Otherwise the tool button is grayed out.
+   The Blend tool only works when "Vertex selection masking for painting" is enabled.
+   Otherwise the tool button is grayed out.
 
 
 Normalize All
@@ -41,7 +43,7 @@ This tool normalizes all of the vertex groups, except for locked groups,
 which keep their weight values untouched.
 
 
-Operator parameters
+Operator Parameters
 -------------------
 
 .. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-normalize-all.jpg
@@ -62,10 +64,12 @@ Normalize
 
    Normalize All Options
 
-This tool only works on the active Vertex Group. All vertices keep their relative weights, but the entire set of weights is scaled up such that the highest weight value is 1.0
+This tool only works on the active Vertex Group.
+All vertices keep their relative weights,
+but the entire set of weights is scaled up such that the highest weight value is 1.0
 
 
-Operator parameters
+Operator Parameters
 -------------------
 
 None
@@ -85,7 +89,7 @@ the weights are not transferred to the corresponding opposite bone weight group.
 The mirror only takes place within the selected Vertex Group.
 
 
-Operator parameters
+Operator Parameters
 -------------------
 
 .. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-mirror-options.jpg
@@ -110,7 +114,8 @@ Topology Mirror
    - Delete the target Vertex Group (where the mirrored weights will be placed)
    - Create a copy of the source bone Vertex Group (the group containing the weights which you want to copy)
    - Rename the new Vertex Group to the name of the target Vertex Group (the group you deleted above)
-   - Select the Target Vertex Group and call the Mirror tool (use only the Mirror weights option and optionally Topology Mirror if your mesh is not symmetric)
+   - Select the Target Vertex Group and call the Mirror tool
+     (use only the Mirror weights option and optionally Topology Mirror if your mesh is not symmetric)
 
 
 Invert
@@ -133,7 +138,7 @@ Examples:
 Note: Please see how the parameter settings change the behavior.
 
 
-Operator parameters
+Operator Parameters
 -------------------
 
 .. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-invert-operator.jpg
@@ -169,7 +174,7 @@ Note, the images use the :guilabel:`Show Zero weights` =Active option so that un
 Weights are shown in Black.
 
 
-Operator parameters
+Operator Parameters
 -------------------
 
 .. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-clean-operator.jpg
@@ -180,9 +185,12 @@ Operator parameters
 Subset
    Restrict the tool to a subset. See above (:guilabel:`The Subset Option`) for how subsets are defined.
 Limit
-   This is the minimum weight value that will be kept in the Group. Weights below this value will be removed from the group.
+   This is the minimum weight value that will be kept in the Group.
+   Weights below this value will be removed from the group.
 Keep Single
-   Ensure that the Clean tool will not create completely unreferenced verts (verts which are not assigned to any Vertex Group), so each vertex will keep at least one weight, even if it is below the limit value!
+   Ensure that the Clean tool will not create completely unreferenced verts
+   (verts which are not assigned to any Vertex Group),
+   so each vertex will keep at least one weight, even if it is below the limit value!
 
 
 Levels
@@ -198,7 +206,7 @@ with this tool you can raise or lower the overall "heat" of the weight group.
 Note: No weight will ever be set to values above 1.0 or below 0.0 regardless of the settings.
 
 
-Operator parameters
+Operator Parameters
 -------------------
 
 .. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-levels-operator.jpg
@@ -211,7 +219,9 @@ Subset
 Offset
    A value from the range [-1.0,1.0]) to be added to all weights in the Vertex Group.
 Gain
-   All weights in the Subset are multiplied with the gain. The drag sliders of this value allow only a range of [-10.0, 10.0]. However, you can enter any factor you like here by typing from the keyboard.
+   All weights in the Subset are multiplied with the gain.
+   The drag sliders of this value allow only a range of [-10.0, 10.0].
+   However, you can enter any factor you like here by typing from the keyboard.
 
 Note: Whichever Gain and Offset you choose,
 in all cases the final value of each weight will be clamped to the range [0.0, 1.0].
@@ -234,9 +244,9 @@ To understand what the tool really does, let's take a look at a simple example.
 The selected vertex is connected to 4 adjacent vertices
 (marked with a gray circle in the image). All adjacent vertices are unselected.
 Now the tool calculates the average weight of all connected **and** unselected verts.
-In the example this is
+In the example this is:
 
-(1 + 0 + 0 + 0) / 4 = 0.25
+``(1 + 0 + 0 + 0) / 4 = 0.25``
 
 This value is multiplied by the factor given in the Operator parameters (see below).
 
@@ -258,15 +268,19 @@ then we see different results for each of the selected verts:
 
 - The topmost and bottommost selected verts:
 
- are surrounded by 3 unselected verts, with an average weight of (1 + 0 + 0) / 3 = 0.333  So their color has changed to light green.
+  are surrounded by 3 unselected verts, with an average weight of ``(1 + 0 + 0) / 3 = 0.333``
+  So their color has changed to light green.
 
 - The middle vertex:
 
- is connected to one unselected vert with weight =  1.  So the average weight is 1.0 in this case, thus the selected vert color has changed to red.
+  is connected to one unselected vert with ``weight = 1``.
+  So the average weight is ``1.0`` in this case, thus the selected vert color has changed to red.
 
 - The right vert:
 
- is surrounded by 3 unselected verts with average weight = (0+0+0) / 3 = 0 So the average weight is 0, thus the selected vert color has not changed at all (it was already blue before blend was applied).
+  is surrounded by 3 unselected verts with average weight = ``(0 + 0 + 0) / 3 = 0.0``
+  So the average weight is 0, thus the selected vert color has not changed at all
+  (it was already blue before blend was applied).
 
 
 .. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-blend3.jpg
@@ -281,10 +295,11 @@ And I want to use this edge loop for blending the left side to the right side of
 
 - All selected vertices have 2 unselected adjacent verts.
 - The average weight of the unselected verts is (1 + 0) / 2  = 0.5
-- Thus when the Blend Factor is set to 1.0 then the edge loop turns to green and finally does blend the cold side (right) to the hot side (left).
+- Thus when the Blend Factor is set to 1.0 then the edge loop turns to
+  green and finally does blend the cold side (right) to the hot side (left).
 
 
-Operator parameters
+Operator Parameters
 -------------------
 
 .. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-blend-operator.jpg
@@ -293,7 +308,10 @@ Operator parameters
 
 
 Factor
-   The effective amount of blending (range [0.0, 1.0]). When Factor is set to 0.0 then the Blend tool does not do anything. For Factor > 0 the weights of the affected vertices gradually shift from their original value towards the average weight of all connected **and** unselected verts (see examples above).
+   The effective amount of blending (range [0.0, 1.0]).
+   When Factor is set to 0.0 then the Blend tool does not do anything.
+   For Factor > 0 the weights of the affected vertices gradually shift from their original value
+   towards the average weight of all connected **and** unselected verts (see examples above).
 
 
 Transfer Weights
@@ -360,7 +378,7 @@ even if the operator panel is still available.
 Unless you really want to reset your changes to the initial call of the tool.
 
 
-Operator parameters
+Operator Parameters
 ~~~~~~~~~~~~~~~~~~~
 
 Defaults are marked in boldface:
@@ -373,8 +391,12 @@ Defaults are marked in boldface:
 
 Group:
 
-- Active: Only copy to the Active Group in the active Object. This option only works when the active Object has an active Vertex Group set. Otherwise the Weight transfer will not do anything.
-- **All** : Copy all Vertex groups from the selected objects to the Active Object.
+Active
+   Only copy to the Active Group in the active Object.
+   This option only works when the active Object has an active Vertex Group set.
+   Otherwise the Weight transfer will not do anything.
+All
+   Copy all Vertex groups from the selected objects to the Active Object.
 
 Method:
 
@@ -395,7 +417,7 @@ Replace
    However, the order of processing cannot be influenced.
 
 
-Limit total
+Limit Total
 ===========
 
 Reduce the number of weight groups per vertex to the specified Limit.
@@ -404,7 +426,7 @@ The tool removes lowest weights first until the limit is reached.
 Hint: The tool can only work reasonably when more than one weight group is selected.
 
 
-Operator parameters
+Operator Parameters
 -------------------
 
 Subset
@@ -441,7 +463,7 @@ Blends the weights of selected vertices with unselected vertices.
 Hint: this tool only works in vertex select mode.
 
 
-Operator parameters
+Operator Parameters
 -------------------
 
 Type:

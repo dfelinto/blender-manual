@@ -1,3 +1,4 @@
+
 Weight Paint Mode
 *****************
 
@@ -92,23 +93,53 @@ The main brush properties
 
 The most important and frequently modified properties are:
 
-:guilabel:`Weight`
-   The weight (color) to be used by the brush. However, the weight value is applied to the Vertex Group in different ways depending on the selected Brush Blending mode (see below).
-:guilabel:`Strength`
-   This is the :guilabel:`amount of paint` to be applied per brush stroke. What that means exactly also depends on the Brush Blending mode.
-:guilabel:`Radius`
-   The radius defines the area of influence of the brush. Note: You can also change the Brush radius with a keyboard shortcut while painting. Just press :kbd:`F` at any time, then drag the mouse to increase/reduce the brush radius. Finally click :kbd:`lmb` to use the new setting. Or press the :kbd:`esc` key at any time to return to the current settings.
-:guilabel:`Blend mode`
-   The brush Blending mode defines in which way the weight value is applied to the Vertex Group while painting. Blender provides 7 different Blending modes:
+Weight
+   The weight (color) to be used by the brush.
+   However, the weight value is applied to the Vertex Group
+   in different ways depending on the selected Brush Blending mode (see below).
+Strength
+   This is the amount of paint to be applied per brush stroke.
+   What that means exactly also depends on the Brush Blending mode.
+Radius
+   The radius defines the area of influence of the brush.
+   Note: You can also change the Brush radius with a keyboard shortcut while painting.
+   Just press :kbd:`F` at any time, then drag the mouse to increase/reduce the brush radius.
+   Finally click :kbd:`lmb` to use the new setting.
+   Or press the :kbd:`esc` key at any time to return to the current settings.
+Blend mode
+   The brush Blending mode defines in which way the weight value is applied to the Vertex Group while painting.
+   Blender provides 7 different Blending modes:
 
 
-- **Mix** : In this Blend mode the Weight value defines the :guilabel:`target weight` that will eventually be reached when you paint long enough on the same location of the mesh. And the strength determines how many strokes you need to arrive at the target weight. Note that for strength = 1.0 the target weight is painted immediately, and for Weight = 0.0 the brush just does nothing.
-- **Add** : In this blend mode the specified weight value is :guilabel:`added` to the vertex weights. The strength determines which fraction of the weight gets added per stroke. However, the brush will not paint weight values above 1.0.
-- **Subtract** : In this blend mode the specified weight is :guilabel:`subtracted` from the vertex weights. The strength determines which fraction of the weight gets removed per stroke. However the brush will not paint weight values below 0.0.
-- **Lighten** : In this blend mode the specified weight value is interpreted as the target weight very similar to the Mix Blend mode. But only weights below the target weight are affected. Weights above the target weight remain unchanged.
-- **Darken** : This Blend mode is very similar to the Lighten Blend mode. But only weights above the target weight are affected. Weights below the target weight remain unchanged.
-- **Multiply** : Multiplies the vertex weights with the specified weight value. This is somewhat like subtract, but the amount of removed weight is now dependent on the Weight value itself.
-- **Blur** : tries to smooth out the weighting of adjacent vertices. In this mode the Weight Value is ignored. The strength defines how effectively the blur is applied.
+Mix
+   In this Blend mode the Weight value defines the :guilabel:`target weight` that will eventually
+   be reached when you paint long enough on the same location of the mesh.
+   And the strength determines how many strokes you need to arrive at the target weight.
+   Note that for strength = 1.0 the target weight is painted immediately,
+   and for Weight = 0.0 the brush just does nothing.
+Add
+   In this blend mode the specified weight value is :guilabel:`added` to the vertex weights.
+   The strength determines which fraction of the weight gets added per stroke.
+   However, the brush will not paint weight values above 1.0.
+Subtract
+   In this blend mode the specified weight is :guilabel:`subtracted` from the vertex weights.
+   The strength determines which fraction of the weight gets removed per stroke.
+   However the brush will not paint weight values below 0.0.
+Lighten
+   In this blend mode the specified weight value is interpreted
+   as the target weight very similar to the Mix Blend mode.
+   But only weights below the target weight are affected.
+   Weights above the target weight remain unchanged.
+Darken
+   This Blend mode is very similar to the Lighten Blend mode.
+   But only weights above the target weight are affected.
+   Weights below the target weight remain unchanged.
+Multiply
+   Multiplies the vertex weights with the specified weight value.
+   This is somewhat like subtract, but the amount of removed weight is now dependent on the Weight value itself.
+Blur
+   tries to smooth out the weighting of adjacent vertices.
+   In this mode the Weight Value is ignored. The strength defines how effectively the blur is applied.
 
 
 Normalize Options
@@ -117,15 +148,17 @@ Normalize Options
 Blender also provides Options regarding the automatic normalizing of all affected Vertex
 groups:
 
-:guilabel:`Auto Normalize`
+Auto Normalize
    Ensures that all deforming vertex groups add up to 1 while painting. When this option is turned off,
    then all weights of a vertex can have any value between 0.0 and 1.0. However, when Vertex Groups are used as
    Deform Groups for character animation then Blender always interprets the weight values relative to each other.
    That is, Blender always does a normalization over all deform bones. Hence in practice it is not necessary to
    maintain a strict normalization and further normalizing weights should not affect animation at all.
 
-:guilabel:`Multi-Paint`
-   Paint on all selected Vertex Groups simultaneously. This option is only useful in the context of Armatures, where you can select multiple Vertex Groups by selecting multiple Pose bones.
+Multi-Paint
+   Paint on all selected Vertex Groups simultaneously.
+   This option is only useful in the context of Armatures,
+   where you can select multiple Vertex Groups by selecting multiple Pose bones.
 
 
 The Brush stroke definition
@@ -260,7 +293,9 @@ The following standard selection operations are supported:
 
 .. tip:: Selecting Deform Groups
 
-   When you are doing weight painting for deform bones (with an Armature), you can select a deform group by selecting the corresponding bone. However, this Vertex Group selection mode is disabled when Selection Masking is active!
+   When you are doing weight painting for deform bones (with an Armature),
+   you can select a deform group by selecting the corresponding bone.
+   However, this Vertex Group selection mode is disabled when Selection Masking is active!
 
 
 Vertex Selection Masking
@@ -346,24 +381,27 @@ Weight Paint Options
 
 The Weight Paint Options modify the overall brush behavior:
 
-:guilabel:`All faces`
-   If this is turned off, you will only paint vertices which belong to a face on which the cursor is located. This is useful if you have a complicated mesh and you might paint on visually near faces that are actually quite distant in the mesh.
-:guilabel:`Normals`
+Normals
    The vertex normal (helps) determine the extent of painting. This causes an effect as if painting with light.
-:guilabel:`Spray`
-   The :guilabel:`Spray` option accumulates weights on every mouse move.
-:guilabel:`Restrict`
-   The :guilabel:`Restrict` option limits the influence of painting to vertices belonging (even with weight 0) to the selected vertex group.
-:guilabel:`X-mirror`
-   Use the X-mirror option for mirrored painting on groups that have symmetrical names, like with extension ``.R`` / ``.L``, or ``_R`` / ``_L``. If a group has no mirrored counterpart, it will paint symmetrically on the active group itself. You can read more about the naming convention in :doc:`Editing Armatures: Naming conventions </rigging/armatures/editing/properties>`. The convention for armatures/bones apply here as well.
-:guilabel:`Topology Mirror`
+Spray
+   This option accumulates weights on every mouse move.
+Restrict
+   This option limits the influence of painting to vertices belonging (even with weight 0) to the selected vertex group.
+X-mirror
+   Use the X-mirror option for mirrored painting on groups that have symmetrical names,
+   like with extension ``.R`` / ``.L``, or ``_R`` / ``_L``.
+   If a group has no mirrored counterpart, it will paint symmetrically on the active group itself.
+   You can read more about the naming convention in
+   :doc:`Editing Armatures: Naming conventions </rigging/armatures/editing/properties>`.
+   The convention for armatures/bones apply here as well.
+Topology Mirror
    Use topology-based mirroring, for when both side of a mesh have matching mirrored topology.
-:guilabel:`Input Samples`
+Input Samples
    not so sure
-:guilabel:`Show Zero Weights`
-  - None
-  - Active
-  - All
+Show Zero Weights
+   - None
+   - Active
+   - All
 
 **Unified Settings:**
 The :guilabel:`Size`, :guilabel:`Strength` and :guilabel:`Weight` of the brush can be set to
@@ -371,8 +409,10 @@ be shared across different brushes, as opposed to per-brush.
 
 
 - Spray: to constantly draw (opposed to drawing one stroke per mouse click).
-- Restrict: to only paint on vertices which already are weighted in the active weight group. (No new weights are created; only existing weights are modified.)
-- x-mirror: to draw symmetrically. Note the this only works when the character symmetry plane is z-y (character looks into y direction).
+- Restrict: to only paint on vertices which already are weighted in the active weight group.
+  (No new weights are created; only existing weights are modified.)
+- x-mirror: to draw symmetrically.
+  Note the this only works when the character symmetry plane is z-y (character looks into y direction).
 - Show Zero weights: To display unreferenced and zero weighted areas in black (by default).
 
 
@@ -387,25 +427,39 @@ Weight Paint Tools
 Blender provides a set of helper tools for Weight Painting.
 The tools are located in the weight tools panel.
 
-The weight paint tools are full described in the :doc:`Weight Paint Tools </modeling/meshes/vertex_groups/weight_paint_tools>` page
+The weight paint tools are full described in the
+:doc:`Weight Paint Tools </modeling/meshes/vertex_groups/weight_paint_tools>` page
 
 
 Weight Painting for Bones
 =========================
 
-This is probably the most often used application of weight painting. When a bone moves, vertices around the joint should move as well, but just a little, to mimic the stretching of the skin around the joint. Use a "light" weight (10-40%) paint on the vertices around the joint so that they move a little when the bone rotates. While there are ways to automatically assign weights to an armature (see the :doc:`Armature section </rigging>`), you can do this manually. To do this from scratch, refer to the process below. To modify automatically assigned weights, jump into the middle of the process where noted:
+This is probably the most often used application of weight painting.
+When a bone moves, vertices around the joint should move as well,
+but just a little, to mimic the stretching of the skin around the joint.
+Use a "light" weight (10-40%) paint on the vertices around the joint so that they move a little when the bone rotates.
+While there are ways to automatically assign weights to an armature (see the :doc:`Armature section </rigging>`),
+you can do this manually. To do this from scratch, refer to the process below.
+To modify automatically assigned weights, jump into the middle of the process where noted:
 
 - Create an armature.
 - Create a mesh that will be deformed when the armature's bone(s) move.
-- With the mesh selected, create an :guilabel:`Armature` modifier for your mesh (located in the :guilabel:`Editing` context, :guilabel:`Modifiers` panel). Enter the name of the armature.
+- With the mesh selected, create an :guilabel:`Armature` modifier for your mesh
+  (located in the :guilabel:`Editing` context, :guilabel:`Modifiers` panel).
+  Enter the name of the armature.
 
 *Pick up here for modifying automatically assigned weights.*
 
 
-- Select the armature in 3D View, and bring the armature to :guilabel:`Pose` **mode** (:kbd:`ctrl-tab`, or the 3D View window header mode selector).
+- Select the armature in 3D View, and bring the armature to :guilabel:`Pose` **mode** (:kbd:`ctrl-tab`,
+  or the 3D View window header mode selector).
 - Select a desired bone in the armature.
-- Select your mesh (using :kbd:`rmb`) and change immediately to :guilabel:`Weight Paint` mode. The mesh will be colored according to the weight (degree) that the selected bone movement affects the mesh. Initially, it will be all blue (no effect).
-- Weight paint to your heart's content. The mesh around the bone itself should be red (generally) and fade out through the rainbow to blue for vertices farther away from the bone.
+- Select your mesh (using :kbd:`rmb`) and change immediately to :guilabel:`Weight Paint` mode.
+  The mesh will be colored according to the weight (degree) that the selected bone movement affects the mesh.
+  Initially, it will be all blue (no effect).
+- Weight paint to your heart's content.
+  The mesh around the bone itself should be red (generally)
+  and fade out through the rainbow to blue for vertices farther away from the bone.
 
 You may select a different bone with :kbd:`rmb` while weight painting,
 provided the armature was left in :guilabel:`Pose` mode as described above.
