@@ -5,7 +5,7 @@
 #################
 
 .. toctree::
-   
+
    introduction.rst
    navigating/index.rst
    transformations.rst

@@ -29,7 +29,7 @@ In these modes the tools operate only on selected verts or faces.
 
 
 .. tip:: About the Blend tool
- 
+
    The Blend tool only works when "Vertex selection masking for painting" is enabled.
    Otherwise the tool button is grayed out.
 

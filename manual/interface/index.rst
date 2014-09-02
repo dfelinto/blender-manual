@@ -5,7 +5,7 @@
 ############
 
 .. toctree::
-   
+
    introduction.rst
    keyboard_and_mouse.rst
    window_system.rst

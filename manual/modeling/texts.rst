@@ -21,7 +21,7 @@ Text Objects
    Text Examples.
 
 
-:guilabel:`Text` objects are exactly what they sound like: they contain some text. 
+:guilabel:`Text` objects are exactly what they sound like: they contain some text.
 They share the same object type as curves and surfaces,
 as modern fonts (OpenType, TrueType, etc.) are vectorial, made of curves (generally Béziers).
 
@@ -117,7 +117,7 @@ To insert text from outside Blender, see `Inserting Text`_ below.
 Inserting Text
 ==============
 
-You can insert text in three different ways: from the internal text buffer 
+You can insert text in three different ways: from the internal text buffer
 (`Editing Text`_), or from a text file.
 
 To load text from a text file, use the :menuselection:`Text --> Paste File` tool.

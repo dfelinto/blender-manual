@@ -93,7 +93,7 @@ Perspective / Orthographic / Panoramic
    .. figure:: /images/Manual-CameraView-Camera.jpg
       :width: 200px
       :figwidth: 200px
-   
+
       A camera with the clipping limits and focal point visible.
 
 Focal Length

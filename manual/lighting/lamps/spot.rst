@@ -38,7 +38,7 @@ Lamp options
    .. figure:: /images/25-Manual-Lighting-Lamps-Spot-Terms.jpg
       :width: 610px
       :figwidth: 610px
-   
+
       Changing the Spot options also changes the appearance of the spotlight as displayed in the 3D View
 
 

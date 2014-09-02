@@ -15,7 +15,7 @@ Which objects contribute to which render layers are defined by these layer setti
 Scene Layers
    Only objects on these layers will contribute to the image.
 Camera Layers
-   Objects on these layers are directly visible to the camera. 
+   Objects on these layers are directly visible to the camera.
    When an object is in the scene layers but not camera layers,
    it will still cast shadows or be visible in reflections, so it's still indirectly visible.
    This is equivalent to disabling the Camera in the Ray Visibility panel for the object.
