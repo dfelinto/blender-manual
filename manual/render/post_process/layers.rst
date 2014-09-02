@@ -100,8 +100,7 @@ You can select that layer by :kbd:`Lmb` clicking the button. To select multiple 
 :kbd:`shift-Lmb` click.  (The dot in the button in this case turns *dark gray.*)
 
 
-.. admonition:: Layer Sets AND each other
-   :class: note
+.. note:: Layer Sets AND each other
 
    Only the objects in layers that are selected BOTH in the main Scene Layer group AND the Render Layer Layer group
    will be rendered. So, if the Scene has only Layer 1 selected,

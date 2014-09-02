@@ -33,8 +33,7 @@ Spot Volumetric Effects
    For example, having a :guilabel:`Spot` light with null or very low light :guilabel:`Energy` settings but a very high halo :guilabel:`Intensity` setting can result in a dark/black halo, which would not happen in the real world. Just be aware of this possibility when using halos with the internal renderer.
 
 
-.. admonition:: Note
-   :class: note
+.. note::
 
    The halo effect can be greatly enhanced when using buffered shadows: when the halo's :guilabel:`Step` is not null, they can create "volumetric shadows". See the page about :guilabel:`Spot` :doc:`Buffered Shadows </lighting/lamps/spot/buffered_shadows>` for more information.
 

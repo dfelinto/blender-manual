@@ -10,8 +10,7 @@ These actions do not fundamentally alter the mesh, and can easily be changed, un
 or combined with other poses.
 
 
-.. admonition:: note for editors
-   :class: note
+.. note:: note for editors
 
    below we need to add more introductory text for all steps in rigging!
 

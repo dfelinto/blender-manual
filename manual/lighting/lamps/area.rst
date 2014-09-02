@@ -82,8 +82,7 @@ The shape of the area light can be set to :guilabel:`Square` or :guilabel:`Recta
    Dimensions for the :guilabel:`Square` or :guilabel:`Rectangle`
 
 
-.. admonition:: Shape Tips
-   :class: note
+.. note:: Shape Tips
 
    Choosing the appropriate shape for your :guilabel:`Area` light will enhance the believability of your scene.
    For example, you may have an indoor scene and would like to simulate light entering through a window.

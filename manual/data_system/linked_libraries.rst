@@ -198,8 +198,7 @@ For more information on using the :guilabel:`Image Browser`,
 see FIXME(Link Type Unsupported: dev; [[Dev:Ref/Release Notes/Vitals/File operations|the release notes]]).
 
 
-.. admonition:: Blender Extension: Library
-   :class: note
+.. note:: Blender Extension: Library
 
    There is also a fantastic Python script called
    `Blender Library <http://wiki.blender.org/index.php/Extensions:2.4/Py/Scripts/Manual/System/Blend library>`__
@@ -224,8 +223,7 @@ When you dive into the file, there will be a :guilabel:`NodeTree` option.
 :kbd:`lmb` on the one you want and then :kbd:`lmb` .
 
 
-.. admonition:: FIXME(Link Type Unsupported: http; [[http://verse.blender.org Verse]])
-   :class: note
+.. note:: FIXME(Link Type Unsupported: http; [[http://verse.blender.org Verse]])
 
    Verse is an amazing OpenSource collaboration tool that integrates with Blender. Verse enables multiple people to work on, link, and share objects and modifications in Blender files in real time.
 

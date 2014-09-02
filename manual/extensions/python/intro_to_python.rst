@@ -105,8 +105,7 @@ By doing so we are repeating the string by the count specified by *number*
 .. figure:: /images/Manual-Part-XX-Manual-Extensions-Python-Tutorial-Hello-World2.jpg
 
 
-.. admonition:: Note
-   :class: note
+.. note::
 
    Check out :doc:`all the above examples in one place </extensions/python/intro_to_python/examples>`
 

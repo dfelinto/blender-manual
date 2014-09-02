@@ -270,8 +270,7 @@ The :guilabel:`File Browser` window will give all valid fonts a capital F icon,
 as seen in *Loading a Type 1 font file.*
 
 
-.. admonition:: Unix note
-   :class: note
+.. note:: Unix note
 
    Fonts are typically located under ``/usr/lib/fonts``, or some variant like ``/usr/lib/X11/fonts``, but not always. They may be in other locations as well, such as ``/usr/share/local`` or ``/usr/local/share``, and possibly related sub-trees.
 
@@ -348,8 +347,7 @@ To apply the curve modifier, the text object first has to be converted to a mesh
 using :kbd:`ALT-C` and click mesh.
 
 
-.. admonition:: Note
-   :class: note
+.. note::
 
    There is also a Text on Curve feature,
    but the curve modifier offers more options.

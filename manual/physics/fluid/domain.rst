@@ -69,8 +69,7 @@ Resolution
 
 
 
-.. admonition:: Resolution and Real-size of the Domain
-   :class: note
+.. note:: Resolution and Real-size of the Domain
 
    Be sure to set the resolution appropriate to the real-world size of the domain (see the *Realworld-size* in the
    FIXME(TODO: Internal Link; [[#Domain Wold|Domain Wold panel]])).
@@ -181,8 +180,7 @@ Domain World
    but might cause instabilities.
 
 
-.. admonition:: Viscosity varies
-   :class: note
+.. note:: Viscosity varies
 
    The default values in Blender are considered typical for those types of fluids and "look right" when animated. However, actual viscosity of some fluids, especially sugar-laden fluids like chocolate syrup and honey, depend highly on temperature and concentration. Oil viscosity varies by SAE rating. Glass at room temperature is basically a solid, but glass at 1500 degrees Celsius flows (nearly) like water.
 

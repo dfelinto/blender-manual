@@ -12,8 +12,7 @@ DupliFaces
 :guilabel:`Duplication Faces` or :guilabel:`DupliFaces` is the capability to replicate an object on each face of a parent object. One of the best ways to explain this is through an example illustration.
 
 
-.. admonition:: Example .blend file
-   :class: note
+.. note:: Example .blend file
 
    Download the .blend file used for the examples on this page `here <http://wiki.blender.org/index.php/:File:Manual-2.5-Duplifaces-Example01.blend>`__
 
@@ -41,8 +40,7 @@ Next, in the :guilabel:`Object` context's :guilabel:`Duplication` panel,
 enable :guilabel:`Faces`.  The sphere is duplicated one for each face of the cube.
 
 
-.. admonition:: Inherited properties
-   :class: note
+.. note:: Inherited properties
 
    The location, orientation, and scale of the duplicated child(ren) matches that of the faces of the parent.  So, if several objects are parented to the cube, they will all be duplicated once for each face on the cube.  If the cube is subdivided (in :guilabel:`Edit Mode` :kbd:`W`), every child will be duplicated for each face on the cube.
 

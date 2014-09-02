@@ -137,8 +137,7 @@ Mapping
 Here you can control how the texture will be mapped on the object.
 
 
-.. admonition:: Brushes
-   :class: note
+.. note:: Brushes
 
    These options are not available for brushes because they wouldn't make sense
 
@@ -154,8 +153,7 @@ Here you can control what properties the texture will affect, and by how much.
 They are detailed on the :doc:`Influence </textures/influence/material>` section.
 
 
-.. admonition:: Brushes
-   :class: note
+.. note:: Brushes
 
    These options are not available for brushes because they wouldn't make sense
 

@@ -98,8 +98,7 @@ you will notice that the background is upside-down and distorted:
 this is all because of the Index of Refraction of glass.
 
 
-.. admonition:: Enable Raytracing
-   :class: note
+.. note:: Enable Raytracing
 
 
    To get ray-traced transparency, you need to:

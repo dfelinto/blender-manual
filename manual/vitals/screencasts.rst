@@ -30,8 +30,7 @@ The FPS for video Screencasts and time between each Screenshot for an image seri
 (See Fig: Options in the User Preferences Editor)
 
 
-.. admonition:: Audio support
-   :class: note
+.. note:: Audio support
 
    Blender Screencast doesn't support audio recordings, so you will have to do it manually using other software, e.g. `Audacity <http://audacity.sourceforge.net/>`__, in conjunction with Blender.
 
@@ -58,8 +57,7 @@ Info Window - Header - Capture Stop Button).
 (Note: The header Image was taken using Blender 2.61)
 
 
-.. admonition:: The only way to stop the Screencast
-   :class: note
+.. note:: The only way to stop the Screencast
 
    Pressing the Stop button in the header of the Info Window is the only way to stop the Screencast capture. If you press :kbd:`esc`, the shortcut will only work for operations performed in the Blender :guilabel:`User Interface`, (it will stop animations, playbacks and so on...), but will not work to stop :guilabel:`Screencasts`.
 

@@ -78,8 +78,7 @@ from bge import render
 render.disableMotionBlur()
 
 
-.. admonition:: Note
-   :class: note
+.. note::
 
    Your graphic hardware and OpenGL driver must support accumulation buffer (``glAccum`` function).
 

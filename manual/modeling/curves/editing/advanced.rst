@@ -27,8 +27,7 @@ FIXME(TODO: Internal Link;
    before adding the curve deform. This gives the best control over how the deformation works.
 
 
-.. admonition:: Use modifiers!
-   :class: note
+.. note:: Use modifiers!
 
    The :guilabel:`Curve Deform` relationship is now also a modifier, called :doc:`Curve </modifiers/deform/curve>`. The :guilabel:`Curve` modifier function acts the same as its counterpart, except that when the modifier is used, the "dominant axis" is set inside its properties - and the :guilabel:`Track X` / :guilabel:`Y` / :guilabel:`Z` buttons no longer have an effect on it. And you have some goodies, like the possibility, if "curving" a mesh, to only curve one of its vertex groups...
 

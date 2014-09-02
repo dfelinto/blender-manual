@@ -131,8 +131,7 @@ some vertices were missed and you will need to weld them manually. Or, worse,
 too many vertices will have been merged.
 
 
-.. admonition:: Merging two vertices in one
-   :class: note
+.. note:: Merging two vertices in one
 
    To merge (weld) two vertices together, select both of them by :kbd:`shift-rmb` clicking on them.
    Press :kbd:`S` to start scaling and hold down :kbd:`ctrl` while scaling to scale the points down to 0 units in the

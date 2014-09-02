@@ -30,8 +30,7 @@ In some contexts Vertex Groups can also be automatically generated
 (i.e. for rigged objects). However in this section we will focus
 on manually created (user-defined) Vertex Groups.
 
-.. admonition:: Vertex groups only apply to Mesh and Lattice Objects
-   :class: note
+.. note:: Vertex groups only apply to Mesh and Lattice Objects
 
    Any other Object type has no vertices, hence it can not have Vertex Groups.
 

@@ -55,8 +55,7 @@ or "\ *Border Select* ",
 is available in both :guilabel:`Edit mode` and :guilabel:`Object` mode.
 
 
-.. admonition:: Note
-   :class: note
+.. note::
 
    What is selected using both these tools is affected by the :guilabel:`Limit Selection to visible` feature (available under the 3D viewport) in :guilabel:`Solid Viewport Shading Mode`.
 
@@ -88,8 +87,7 @@ The selection area is only covering the selection handles of three faces. Finall
 by releasing :kbd:`lmb` the selection is complete; see (*Complete*).
 
 
-.. admonition:: Note
-   :class: note
+.. note::
 
    Border select adds to the previous selection, so in order to select only the contents of the rectangle, deselect all with :kbd:`A` first. In addition, you can use :kbd:`mmb` while you draw the border to deselect all objects within the rectangle.
 

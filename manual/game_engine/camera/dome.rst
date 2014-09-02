@@ -15,8 +15,7 @@ rendering the scene 4 times and placing the subsequent images onto a mesh design
 such that the result, when viewed with an orthographic camera, is a fisheye projection.
 
 
-.. admonition:: Note
-   :class: note
+.. note::
 
 
    Remember to use Blender in **fullscreen mode** to get the maximum out of your projector.
@@ -219,8 +218,7 @@ Example files
 `Spherical Mirror Dome 4x3 <http://wiki.blender.org/uploads/8/81/Dev-GameEngine-Dome-Standard_4x3.data>`__, `Truncated Dome 4x3 <http://wiki.blender.org/uploads/9/9b/Dev-GameEngine-Dome-Truncated_4x3.data>`__, `Sample Fullscreen File 4x3 <http://wiki.blender.org/uploads/d/d4/Dev-GameEngine-Dome-Sample-FullScreen_4x3.data>`__, `Sample Fullbuffer File 4x3 <http://wiki.blender.org/uploads/3/3d/Dev-GameEngine-Dome-Sample-FullBuffer_4x3.data>`__.
 
 
-.. admonition:: Note
-   :class: note
+.. note::
 
 
    Important: the viewport is calculated using the ratio of canvas width by canvas height.

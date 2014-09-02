@@ -162,8 +162,7 @@ produce a black image that has some degree of transparency.
 Set up and Animate, and you have an image sequence that fades to black over a 2-second period.
 
 
-.. admonition:: No Scene information used
-   :class: note
+.. note:: No Scene information used
 
    This example node map does not use the RenderLayer. To produce this 2 second animation, no blender scene information was used. This is an example of using Blender's powerful compositing abilities separate from its modeling and animation capabilities. (A Render Layer could be substituted for the Image layer, and the "fade-network" effect will still produce the same effect)
 
@@ -221,8 +220,7 @@ The mask is opaque where the object is, and transparent where the object isn't.
 If the object is partially transparent, the alpha mask matches the object's transparency.
 This post-process function fills in the jaggies with interpolated values.
 
-.. admonition:: Object Index
-   :class: note
+.. note:: Object Index
 
    Object indices are only output from a RenderLayers node or stored in a multilayer OpenEXR format image.
 
@@ -400,8 +398,7 @@ values between 0.16 and 0.33 get fixed to 0.2;
 colorband values between 0.33 and 0.5 get quantized to 0.4,
 and so on up to values between 0.83 and 1.0 get mapped to 1.0.
 
-.. admonition:: Function f(x)
-   :class: note
+.. note:: Function f(x)
 
    An algebraic function is made up of primitive mathematical operations (add, subtract, multiply, sine, cosine, etc) that operate on an input value to provide a desired output value.
 

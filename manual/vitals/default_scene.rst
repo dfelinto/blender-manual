@@ -57,8 +57,7 @@ Preferences` back to the original :guilabel:`Factory Settings`. To save the chan
 :kbd:`ctrl-u` and your Factory Settings will be saved as the default Scene for Blender.
 
 
-.. admonition:: User Preferences Window
-   :class: note
+.. note:: User Preferences Window
 
    For more information about the Editor Window for User Preferences or how to clean your preferences manually, please read the chapter about :doc:`User Preferences </preferences>`
 

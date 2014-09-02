@@ -23,8 +23,7 @@ Blender's **smoke simulation** wraps Voxels around existing :doc:`Particles </ph
 It requires a particle-emitting object and a 'domain' object within which smoke is rendered.
 
 
-.. admonition:: Note
-   :class: note
+.. note::
 
    This Part of the Documentation uses the 2.58 Release
 

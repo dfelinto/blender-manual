@@ -60,8 +60,7 @@ Simply select your DupliGroup and press :kbd:`Ctrl-Shift-A` to convert the Dupli
 into regular objects that can be transformed and animated normally.
 
 
-.. admonition:: Note
-   :class: note
+.. note::
 
    Note that if the DupliGroup was linked from an external file the Object Data (mesh, materials, textures, transforms) will also still be linked from the original group. However, the various object's parent-child relationships do not carry over.
 

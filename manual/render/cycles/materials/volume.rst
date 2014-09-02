@@ -3,8 +3,7 @@
 Volume
 ******
 
-.. admonition:: Experimental feature
-   :class: note
+.. note:: Experimental feature
 
    Volume rendering is currently a work in progress. Check the Limitations at the bottom of this page too.
 

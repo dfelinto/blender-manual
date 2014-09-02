@@ -191,8 +191,7 @@ Using Paths
    `Example Blend file <http://wiki.blender.org/index.php/Media:Manual - Particle Instance Modifier - Strand Mesh Deform.blend>`__
 
 
-.. admonition:: Note
-   :class: note
+.. note::
 
 
    Strands when they are generated instantly die when created so for the :guilabel:`Path` button

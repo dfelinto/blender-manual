@@ -248,8 +248,7 @@ Delete Edge Loop
 :guilabel:`Delete Edge Loop` allows you to delete a selected edge loop if it is between two other edge loops. This will create one face-loop where two previously existed.
 
 
-.. admonition:: Note
-   :class: note
+.. note::
 
    The :guilabel:`Edge Loop` option is very different to the :guilabel:`Edges` option, even if you use it on edges that look like an edge loop. Deleting an edge loop merges the surrounding faces together to preserve the surface of the mesh. By deleting a chain of edges, the edges are removed, deleting the surrounding faces as well. This will leave holes in the mesh where the faces once were.
 

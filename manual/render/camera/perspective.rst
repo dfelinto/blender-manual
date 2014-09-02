@@ -38,8 +38,7 @@ During the Renaissance, the concept of using vanishing points in art evolved.
 Blender offers a few tricks of its own to let you do the same.
 
 
-.. admonition:: Note
-   :class: note
+.. note::
 
    To follow sections below you will need to know how to adjust
    :doc:`Camera Settings </render/cameras#camera_settings>`

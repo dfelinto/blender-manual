@@ -214,8 +214,7 @@ Select to Active
       Bias towards further away from the object (in blender units)
 
 
-.. admonition:: Mesh Must be Visible in Render
-   :class: note
+.. note:: Mesh Must be Visible in Render
 
    If a mesh is not visible in regular render,
    for example because it is disabled for rendering in the Outliner or has the DupliVerts setting enabled,

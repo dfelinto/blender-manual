@@ -25,8 +25,7 @@ so the same settings will work across multiple shots of raw footage.
 Footage shot outside under varying lighting conditions (and wind blowing the background)
 will complicate matters and mandate lower falloff values.
 
-.. admonition:: Garbage Matte
-   :class: note
+.. note:: Garbage Matte
 
    Garbage matte is not a node, but a technique where the foreground is outlined using a closed curve (bezier or nurbs). Only the area within the curve is processed using these matte nodes; everything else is garbage and thus discarded.
 

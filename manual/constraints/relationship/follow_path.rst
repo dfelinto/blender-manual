@@ -27,8 +27,7 @@ The movement of the owner along the target curve/path may be controlled in two d
 :guilabel:`Follow Path` is another constraint that works well with the :doc:`Locked Track one </constraints/tracking/locked_track>`. One example is a flying camera on a path. To control the camera's roll angle, you can use a :guilabel:`Locked Track` and a target object to specify the up direction, as the camera flies along the path.
 
 
-.. admonition:: :guilabel:`Follow Path` and :guilabel:`Clamp To`
-   :class: note
+.. note:: :guilabel:`Follow Path` and :guilabel:`Clamp To`
 
    Do not confuse these two constraints. Both of them constraint the location of their owner along a curve,
    but :guilabel:`Follow Path` is an "animation-only" constraint,
@@ -38,8 +37,7 @@ The movement of the owner along the target curve/path may be controlled in two d
 
 
 
-.. admonition:: Note
-   :class: note
+.. note::
 
    Note that you also need to keyframe Evaluation Time for the Path. Select the path, go to the path properties,
    set the overall frame to the first frame of the path (e.g. frame 1),

@@ -232,8 +232,7 @@ Camera Navigation
 Here you will find some handy ways to navigate and position your camera in your scene.
 
 
-.. admonition:: Note
-   :class: note
+.. note::
 
    Remember that the active "camera" might be any kind of object.
    So these actions can be used e.g. to position and aim a lamp...

@@ -194,8 +194,7 @@ It works in the same way as the Undo History, explained above,
 but the list contains only repeated actions.  To access Repeat History, use :kbd:`F3`.
 
 
-.. admonition:: There are two separate Histories for Blender
-   :class: note
+.. note:: There are two separate Histories for Blender
 
    Blender uses two separate Histories, one dedicated for the :guilabel:`Edit` Mode,
    and one dedicated for the :guilabel:`Object` Mode.
@@ -213,8 +212,7 @@ You can always access all of the explained options for user actions,
 using Blender Search :kbd:`Space`.
 
 
-.. admonition:: Important Note
-   :class: note
+.. important::
 
    When you quit Blender, the complete list of user actions will be lost, even if you save your file before quitting.
 
@@ -298,9 +296,7 @@ Recover Auto Save
    you may save it over the current file in your working directory as a normal ``.blend`` file.
 
 
-
-.. admonition:: Important Note
-   :class: note
+.. important::
 
    When recovering an Auto Saved file, you will lose any changes made since the last :guilabel:`Auto Save` was
    performed.Only **one** Auto Saved file exists for each project

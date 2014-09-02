@@ -124,8 +124,7 @@ or the :guilabel:`Edge Loop Select` option of the :guilabel:`Edge Specials` menu
 (:kbd:`ctrl-E`).
 
 
-.. admonition:: :guilabel:`Vertex` mode
-   :class: note
+.. note:: :guilabel:`Vertex` mode
 
    In :guilabel:`Vertex` select mode, you can also select edge loops, by using the same hotkeys, *and clicking on the edges* (not on the vertices).
 
@@ -201,8 +200,7 @@ or the :guilabel:`Edge Ring Select` option of the :guilabel:`Edge Specials` menu
 (:kbd:`ctrl-E`).
 
 
-.. admonition:: :guilabel:`Vertex` mode
-   :class: note
+.. note:: :guilabel:`Vertex` mode
 
    In :guilabel:`Vertex` select mode, you can use the same hotkeys when *clicking on the edges* (not on the vertices), but this will directly select the corresponding face loop...
 

@@ -42,8 +42,7 @@ context or by using :kbd:`Ctrl-B` to set a :guilabel:`Render Border` larger than
 camera view.
 
 
-.. admonition:: Anti-Aliasing and blur options with borders
-   :class: note
+.. note:: Anti-Aliasing and blur options with borders
 
    Note that when Render Borders are activated, Full Sampling Anti-Aliasing will be disabled while Sampled Motion Blur will become available.
 

@@ -61,8 +61,7 @@ especially with meshes...
 We won't detail further more modes' usages here. Most of them are tackled in the :doc:`modeling chapter </modeling>`, as they are mainly related to this topic. The :guilabel:`Particle` mode is discussed in the :doc:`particle section </physics/particles/mode>`, and the :guilabel:`Pose` and :guilabel:`Edit` modes for armatures, in the :doc:`rigging one </rigging>`.
 
 
-.. admonition:: Note
-   :class: note
+.. note::
 
    If you are reading this manual and some button or menu option is referenced that does not appear on your screen, it may be that you are not in the proper mode for that option to be valid.
 

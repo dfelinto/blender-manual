@@ -14,8 +14,7 @@ FIXME(Template Unsupported: Doc:2.6/Reference/Nodes/Concepts;
 )
 
 
-.. admonition:: Note
-   :class: note
+.. note::
 
    Node-based textures do **not** work for realtime display, they will only be visible in rendered images.
 

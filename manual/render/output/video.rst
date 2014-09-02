@@ -166,8 +166,7 @@ Still
    Disables the half-frame time step between fields (:guilabel:`x`).
 
 
-.. admonition:: Setting up the correct field order
-   :class: note
+.. note:: Setting up the correct field order
 
 
    Blender's default setting is to produce Even fields *before*
@@ -185,8 +184,7 @@ Still
    Doing this simple test will save you *hours* of wasted rendering time...
 
 
-.. admonition:: Fields and Composite Nodes
-   :class: note
+.. note:: Fields and Composite Nodes
 
 
    Nodes are currently not field-aware. This is partly due to the fact that in fields,
@@ -248,8 +246,7 @@ QuickTime
    The Quicktime codec dialog is available when this codec is installed and this format is initially chosen.
    See :doc:`Quicktime Encoding </render/output_options#quicktime>`.
 
-   .. admonition:: Reads GIF if QuickTime is Installed
-      :class: note
+   .. note:: Reads GIF if QuickTime is Installed
 
       Blender can read GIF files on Windows and Mac platforms with
       FIXME(Link Type Unsupported: http; [[http://www.apple.com/quicktime/download QuickTime]]) installed.
@@ -406,8 +403,7 @@ Mux
       (Undocumented in ffmpeg)
 
 
-.. admonition:: Standards
-   :class: note
+.. note:: Standards
 
    Codecs cannot encode off-the-wall video sizes, so stick to the XY sizes used in the presets for standard TV sizes.
 

@@ -59,8 +59,7 @@ and finally off the screen to the top.
 These frames are generated when the Render Animation buttons are set and Anim is pressed.
 Right now, frame 21 is showing Moe and Curly, and Larry has scrolled off the screen.
 
-.. admonition:: Alpha channel
-   :class: note
+.. note:: Alpha channel
 
    Be sure to save your credits image in a format that supports an alpha channel, such as PNG, so that the AlphaOver node can overlay it on the background and let the background show through.
 

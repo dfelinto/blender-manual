@@ -722,8 +722,7 @@ relationships,
 and avoid the tedious effort of establishing each parent-child vertex relationship separately.
 
 
-.. admonition:: Note
-   :class: note
+.. note::
 
    It is in fact a sort of "reversed" :doc:`hook </modifiers/deform/hooks>`
 

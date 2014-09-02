@@ -221,8 +221,7 @@ As in :doc:`curves </modeling/curves/editing#opening_and_closing_a_curve>`, surf
 To toggle the cyclic property of a surface along one axis, use :kbd:`C` and choose either :guilabel:`cyclic U` or :guilabel:`cyclic V` from the :doc:`Toggle pop-up menu </modeling/surfaces>`. The corresponding surface's outer edges will join together to form a "closed" surface.
 
 
-.. admonition:: Inner and Outer
-   :class: note
+.. note:: Inner and Outer
 
    Surfaces have an "inner" and "outer" face, the first being black whereas the latter is correctly shaded - there does not seem to be any "double sided" shading option for surfaces...). When you close a surface in one or two directions, you might get an entirely black object! In this case, just
    FIXME(TODO: Internal Link;

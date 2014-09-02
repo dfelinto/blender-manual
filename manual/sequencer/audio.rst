@@ -32,8 +32,7 @@ changing the audio file will not affect playback,
 and you will have to re-open the file so that Blender re-reads the file.
 
 
-.. admonition:: Hiss, Crackle and Pop
-   :class: note
+.. note:: Hiss, Crackle and Pop
 
    Some audiophile users report that Hiss is introduced sometimes if Audio RAM is used.
    There must be some decoding or sampling going on, that does not occur when Audio HD is used,

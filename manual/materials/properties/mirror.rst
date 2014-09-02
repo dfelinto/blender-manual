@@ -19,8 +19,7 @@ why a mechanism for limiting the travel of a single ray is set through the :guil
 value: this parameter sets the maximum number of bounces allowed for a single ray.
 
 
-.. admonition:: Note
-   :class: note
+.. note::
 
 
    You need to enable ray tracing in your scene settings if you want to use ray-traced

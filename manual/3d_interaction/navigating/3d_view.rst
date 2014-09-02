@@ -165,8 +165,7 @@ or use :kbd:`pad4` and :kbd:`pad6` (or :kbd:`ctrl-alt-wheel`)
 to rotate the scene around the Z global axis from your current point of view.
 
 
-.. admonition:: Hotkeys
-   :class: note
+.. note:: Hotkeys
 
    Remember that most hotkeys affect **the active window** (the one that has focus),
    so check that the mouse cursor is in the area you want to work in before your use the hotkeys.
@@ -254,8 +253,7 @@ To zoom a :guilabel:`Buttons` window,
 hold :kbd:`CTRL-MMB` and move your mouse up and down.
 
 
-.. admonition:: If You Get Lost
-   :class: note
+.. note:: If You Get Lost
 
    If you get lost in 3D space, which is not uncommon, two hotkeys will help you:
    :kbd:`home` changes the view so that you can see all objects (:menuselection:`View --> View All` menu entry),

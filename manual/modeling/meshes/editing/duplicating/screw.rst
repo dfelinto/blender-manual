@@ -271,8 +271,7 @@ and you will have to tweak the corresponding Axis accordingly to achieve the Clo
 Counterclockwise effect.
 
 
-.. admonition:: Vectors that aren't parallel with Blender Axis
-   :class: note
+.. note:: Vectors that aren't parallel with Blender Axis
 
    The high sensibility for the vector doesn't apply to vectors that give the Screw Tool a starting angle (Ex:
    any non-parallel vector),

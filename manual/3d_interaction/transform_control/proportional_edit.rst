@@ -11,8 +11,7 @@ Since proportional editing affects the nearby geometry,
 it is very useful when you need to smoothly deform the surface of a dense mesh.
 
 
-.. admonition:: Sculpting
-   :class: note
+.. note:: Sculpting
 
    Blender also has :doc:`Sculpt Mode </modeling/meshes/editing/sculpt_mode>` that contains brushes and tools for proportionally editing a mesh without seeing the individual vertices.
 

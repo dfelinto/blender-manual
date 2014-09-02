@@ -34,8 +34,7 @@ Note, that if you want to select a loop while being in vertex select mode, you s
    An edge loop
 
 
-.. admonition:: :kbd:`alt` on Linux
-   :class: note
+.. note:: :kbd:`alt` on Linux
 
    :kbd:`alt` is on some Linux distros caught by the windows manager. If you see the above shortcut not working, make sure that blender can properly recognize the usage of :kbd:`alt`.
 
@@ -61,8 +60,7 @@ Or use :kbd:`Alt-Ctrl-RMB` on an edge.
    An Edge Ring
 
 
-.. admonition:: Convert selection to whole faces
-   :class: note
+.. note:: Convert selection to whole faces
 
    If the edge ring selection happened in Edge Select Mode, switching to Face Select Mode will erase the selection.
 

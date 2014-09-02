@@ -27,9 +27,7 @@ of the image are mapped onto an object using the :guilabel:`Refl` input coordina
 they create the visual complexity that the eye expects to see from shiny reflections.
 
 
-.. admonition:: Note
-   :class: note
-
+.. note::
 
    It's useful to remember here that the true goal of this technique is *believability*,
    not *accuracy*. The eye doesn't need a physically accurate simulation of the light's travel;
@@ -41,9 +39,7 @@ they create the visual complexity that the eye expects to see from shiny reflect
 Options
 =======
 
-.. admonition:: Important
-   :class: note
-
+.. important::
 
    For correct results, the mapping of an environment map texture must be set to 'Refl'
    (reflection co-ordinates) in the Map Input panel of the Material context.
@@ -81,8 +77,7 @@ Clear All Environment Maps
    Does the same as :guilabel:`Free Data`, but with all environment maps in the scene. This is a useful shortcut when using recursive environment maps (when the :guilabel:`Depth` is greater than 0).
 
 
-.. admonition:: Note
-   :class: note
+.. note::
 
 
    EnvMap calculation can be disabled at a global level by the EnvMap Tog Button in the Render

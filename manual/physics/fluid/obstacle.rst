@@ -42,8 +42,7 @@ FIXME(Template Unsupported: Doc:2.6/Manual/Physics/Fluid/animated_mesh_export;
    Amount of mixing between no- and free-slip, described above.
 
 
-.. admonition:: Moving obstacles support
-   :class: note
+.. note:: Moving obstacles support
 
 
    Blender supports now moving obstacles.

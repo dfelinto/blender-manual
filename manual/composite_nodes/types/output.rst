@@ -126,8 +126,7 @@ the image is saved automagically for you. In addition,
 since this node can be hooked in anywhere in the noodle,
 you can save intermediate images automatically. Neat, huh?
 
-.. admonition:: Filespecs
-   :class: note
+.. note:: Filespecs
 
    As with all filename entries, use // at the beginning of the field to shorthand reference the current directory of the .blend file. You can also use the .. breadcrumb to go up a directory.
 

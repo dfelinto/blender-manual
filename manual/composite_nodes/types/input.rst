@@ -253,8 +253,7 @@ default values are supplied (1.0 for A, 0.0 for Z).
     To view the Z-depth channel, use the Map Value to ColorRamp noodle given above in the Render Layer input node,
     in the FIXME(TODO: Internal Link; [[#Using the Z value Socket|{{Literal|Render Layer}} input node]]).
 
-.. admonition:: Formats
-   :class: note
+.. note:: Formats
 
    Blender supports many image formats.
    Currently only the OpenEXR image format stores RGB (color), A (alpha), and Z (depth)
@@ -513,8 +512,7 @@ of Blender and how to use its Nodes to achieve just the blended crossover effect
 - Prefeed: Even though the swirl does not start playing until frame 34, Blender supplies the first frame of it for Frames 31 through 33. In fact, it supplies this image all the way back to frame 1.
 - Partial Fade: Notice the second 'wink' Time node. Like a real wink, it does not totally fade to black; only about 75%. When transitioning between scenes where you want some visual carryover, use this effect because there is not a break in perceptual sequence.
 
-.. admonition:: Multiple Feeds
-   :class: note
+.. note:: Multiple Feeds
 
    The above examples call out two feeds, but by replicating the Input, Time and Mix nodes, you can have multiple feeds at any one time; just set the Time node to tell the Mixer when to cut over to using it.
 
@@ -541,14 +539,12 @@ from the list of textures available in the current blend file,
 is selected and introduced through the value and/or color socket.
 
 
-.. admonition:: Note
-   :class: note
+.. note::
 
    Please read up on the Blender Library system for help on importing and linking to textures in other blender files.
 
 
-.. admonition:: Note
-   :class: note
+.. note::
 
    **You cannot edit the textures themselves in the node window**. To use this node, create and edit the texture in the normal texture buttons, then select the texture from the menu button on the node.
 
@@ -647,8 +643,7 @@ In the example to the right,
 since the timespan is 250 frames and the line is straight from corner to corner,
 0.50 would be output at frame 125, and 0.75 will be output at frame 187.
 
-.. admonition:: Note on output values
-   :class: note
+.. note:: Note on output values
 
    The :doc:`Map Value </osite_nodes/types/vector#map_value_node>` node can be used to map the output to a more appropriate value. With some time curves, it is possible that the Time node may output a number larger than one or less than zero. To be safe, use the Min/Max clamping function of the Map Value node to limit output.
 
@@ -660,8 +655,7 @@ doing so is easily overlooked in your node map and can be very confusing
 (like meeting your mother when she was/is your age in "Back to the Future").
 
 
-.. admonition:: Time is Relative
-   :class: note
+.. note:: Time is Relative
 
    In Blender, time is measured in frames. The actual duration of a time span depends on how fast those frames whiz by (frame rate). You set the frame rate in your animation settings (:doc:`Scene Context </ce/buttons/scene_context>` F10 ). Common settings range from 5 seconds per frame for slideshows (0.2 fps), to 30 fps for US movies.
 

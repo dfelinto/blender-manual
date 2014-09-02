@@ -45,8 +45,7 @@ The fields have many options in common,
 these common options are explained for the :guilabel:`Spherical` field.
 
 
-.. admonition:: Note
-   :class: note
+.. note::
 
 
    After changing the fields (:guilabel:`Fields` panel) or deflection

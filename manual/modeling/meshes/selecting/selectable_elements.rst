@@ -79,8 +79,7 @@ Using the buttons you can also enter "\ **mixed** " or "combined" mode by
 edges and/or faces at the same time!
 
 
-.. admonition:: Note
-   :class: note
+.. note::
 
    The "Mode Selection" buttons are only visible for meshes in :guilabel:`Edit` mode.
 

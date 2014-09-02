@@ -106,8 +106,7 @@ Browser window. This window is very handy for scrolling through your hard disk a
 file or directory.
 
 
-.. admonition:: PathSpecs
-   :class: note
+.. note:: PathSpecs
 
    The path specification for the location can be absolute
    *On Microsoft-Windows include a normal or mapped drive letter (e.g. "F:")*,

@@ -55,8 +55,7 @@ rotation and/or scaling. These fields change the object's center and then affect
 of all of its *vertices* and faces.
 
 
-.. admonition:: Note
-   :class: note
+.. note::
 
    center
 

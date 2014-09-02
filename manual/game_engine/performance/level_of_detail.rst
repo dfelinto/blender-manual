@@ -16,8 +16,7 @@ close and from a distance.
 Settings
 ********
 
-.. admonition:: Modifiers on Level of Detail Objects
-   :class: note
+.. note:: Modifiers on Level of Detail Objects
 
    Any level of detail objects that have a modifier do not display correctly in the game engine. You will need to apply any modifiers for level of detail objects to appear correctly. A fix for this is being looked into.
 

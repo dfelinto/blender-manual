@@ -134,8 +134,7 @@ Options
    The position of the active color mark in the colorband (range 0.0–1.0).  The position of the color marks can also be changed by :kbd:`lmb` dragging them in the colorband.
 
 
-.. admonition:: Reordering colors
-   :class: note
+.. note:: Reordering colors
 
    If the position of the color marks are reordered, they will be automatically renumbered so that they always start with **0** from the left and increment to the right.
 

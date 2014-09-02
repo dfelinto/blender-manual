@@ -63,8 +63,7 @@ and depending on the power of your PC and the complexity of the simulation,
 the amount of CPU needed to compute the mesh varies, as does the lag you might notice.
 
 
-.. admonition:: Don't jump ahead
-   :class: note
+.. note:: Don't jump ahead
 
    If you set up a cloth simulation but Blender has not computed the shapes for the duration of the simulation, and if you jump ahead a lot of frames forward in your animation, the cloth simulator may not be able to compute or show you an accurate mesh shape for that frame, if it has not previously computed the shape for the previous frame(s).
 
@@ -278,8 +277,7 @@ object is to participate in colliding/deflecting other objects on a shared layer
 soft bodies, and cloth).
 
 
-.. admonition:: Beware
-   :class: note
+.. note:: Beware
 
    There are three different :guilabel:`Collision` panels, all found in the :guilabel:`Physics` sub-context.
    The first (by default), a tab beside the :guilabel:`Fields` panel, is the one needed here. The second panel,
@@ -380,8 +378,7 @@ If you encounter some problems with collision detection, there are two ways to f
 - My Cloth is torn by the deforming mesh - he "Hulks Out": Increase its structural stiffness (:guilabel:`StructStiff` setting, :guilabel:`Cloth` panel), very high, like 1000.
 
 
-.. admonition:: :guilabel:`Subsurf` modifier
-   :class: note
+.. note:: :guilabel:`Subsurf` modifier
 
    A bake/cache is done for every subsurf level so please use **the equal** subsurf level for render and preview.
 

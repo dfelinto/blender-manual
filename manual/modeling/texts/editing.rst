@@ -49,8 +49,7 @@ In order for the frame to become visible,
 the frame's :guilabel:`Width` must be greater than **0.0**.
 
 
-.. admonition:: Note
-   :class: note
+.. note::
 
    Technically the height is never actually **0.0** because the font itself always contributes height.
 

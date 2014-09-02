@@ -78,8 +78,7 @@ Controls
    Inverts the material input normal when activated (which, of course, is a combination of the 3D normal given to it by the 3D object plus the normal input point).
 
 
-.. admonition:: Normal Override
-   :class: note
+.. note:: Normal Override
 
    The normal input socket does not in any way blend the source normal with the underlying geometry. Any plugged in Geometry here overrides the Normal lighting conditions.
 
@@ -106,8 +105,7 @@ this material will produce a deep blue color and,
 as you approach a spot perpendicular to the light,
 you will see the yellow specular color mix in.
 
-.. admonition:: Enable Spec
-   :class: note
+.. note:: Enable Spec
 
    To see specularity, you have to enable it by clicking the blue Spec button located just below the material color swatch in the node.
 
@@ -199,8 +197,7 @@ Select a lamp object listed in the Lamp field, then the following outputs will b
 The light textures and the shadow textures affect the Color and Shadow outputs, respectively.
 
 
-.. admonition:: Portability to Various Scenes
-   :class: note
+.. note:: Portability to Various Scenes
 
    If multiple materials use a Lamp Data node linking to the same lamp object, including the Lamp Data node into a node group is recommended. Otherwise, when the mesh objects are imported to the other scene, all the materials may need to be modified.
 
@@ -310,8 +307,7 @@ under different lighting conditions. Your choices are:
    Allows for output to take into account front or back of surface is light relative the camera.
 
 
-.. admonition:: Note
-   :class: note
+.. note::
 
    These are exactly the same settings as in the :doc:`Mapping </textures/mapping>` panel for :doc:`Textures </textures>`, though a few settings - like :guilabel:`Stress` or :guilabel:`Tangent` - are missing here. Normally you would use this node as input for a
    FIXME(TODO: Internal Link;

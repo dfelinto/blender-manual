@@ -112,8 +112,7 @@ click "UseAlpha" in the Map Image panel.
 Full details of using Image textures are on the :doc:`Image Textures </textures/types/image>` page.
 
 
-.. admonition:: Material is Required for Rendering
-   :class: note
+.. note:: Material is Required for Rendering
 
    You can perform UV Texturing on a mesh within Blender without assigning a material,
    and you will even see it in your 3D View in textured viewport mode. However, when you render,

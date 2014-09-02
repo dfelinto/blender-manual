@@ -84,8 +84,7 @@ Scale transformations
 Holding :kbd:`ctrl` will cause size changes in increments of 0.1 BU.
 
 
-.. admonition:: Snapping modes
-   :class: note
+.. note:: Snapping modes
 
    Note that if you have a :doc:`Snap Element </3d_interaction/transform_control/snap#snap_element>` option enabled,
    holding :kbd:`ctrl` will cause the selection to snap to the nearest element.

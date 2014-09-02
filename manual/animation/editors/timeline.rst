@@ -220,8 +220,7 @@ Playback Menu
 - *Sequencer Editors*
   While playing, updates the *Video Sequence Editor*.
 
-.. admonition:: Image Editors
-   :class: note
+.. note:: Image Editors
 
    TODO Not sure what is updated, maybe gif images or, image sequence.
 
@@ -355,8 +354,7 @@ The Timeline header controls.
       Note that *Auto Keyframe* only works for transform properties (objects and bones), in the 3D views (i.e. you cant use it e.g. to animate the colors of a material in the Properties window...).
 
 
-.. admonition:: Layered
-   :class: note
+.. note:: Layered
 
    Todo.
 

@@ -21,8 +21,7 @@ the spikes in a club, the thorns of a sea-urchin, the tiles in a wall,
 the petals in a flower).
 
 
-.. admonition:: Download example .blend file
-   :class: note
+.. note:: Download example .blend file
 
    You can download a file with the examples described on this page.  In `this .blend <http://wiki.blender.org/index.php/:File:Manual-2.5-DupliVerts-Examples.blend>`__, the first example, a monkey parented to a circle is on layer 1; while a tentacle parented to an icosphere is on layer 2.  The files was made using Blender 2.55.1 (r33567).
 
@@ -114,8 +113,7 @@ Output of various orientations:
    Positive Z, up X
 
 
-.. admonition:: Note
-   :class: note
+.. note::
 
    The axes of an object can be made visible in the :guilabel:`Object` → :guilabel:`Display` panel.
    To display the vertex normals of the parent mesh, tab into edit mode and enable this function in :guilabel:`Properties` (:kbd:`N`)→ :guilabel:`Display` panel where you can also resize the displayed normals as necessary.

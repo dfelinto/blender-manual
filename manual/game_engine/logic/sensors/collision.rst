@@ -24,8 +24,7 @@ Special Options:
    Toggles between material and property filtering.
 
 
-.. admonition:: Note about soft bodies
-   :class: note
+.. note:: Note about soft bodies
 
    The :guilabel:`Collision` sensor can not detect collisions with soft bodies. This is a limitation in Bullet, the physics library used by the Game Engine.
 

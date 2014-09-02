@@ -106,8 +106,7 @@ View
    Adjust the minimum and maximum distances to be visible for the view-port.
 
 
-.. admonition:: Notice
-   :class: note
+.. note:: Notice
 
 
    .. warning::

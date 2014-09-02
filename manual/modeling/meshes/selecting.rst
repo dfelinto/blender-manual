@@ -44,8 +44,7 @@ course rotating and scaling a *single* vertex will not do anything useful withou
 the pivot point to another location, so some tools are more or less applicable in some modes.
 
 
-.. admonition:: Note
-   :class: note
+.. note::
 
    The three selection mode buttons are only visible in :guilabel:`Edit mode`. The colors of selected, unselected and active components depend entirely on the current theme. Black, orange and white are from the default theme.
 

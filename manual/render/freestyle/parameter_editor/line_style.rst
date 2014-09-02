@@ -24,8 +24,7 @@ You can create as many line styles as you wish, and reuse a given line style for
 sets by selecting it from the dropdown menu next to its name.
 
 
-.. admonition:: Length Unit
-   :class: note
+.. note:: Length Unit
 
    Unless otherwise specified, all lengths in line style settings are in pixels (either relative or absolute,
    as specified in the :doc:`core options </render/freestyle/core>`).

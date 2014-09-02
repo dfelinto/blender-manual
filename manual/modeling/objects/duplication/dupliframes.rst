@@ -30,8 +30,7 @@ Add a :guilabel:`Monkey`.  In the :guilabel:`Object` menu under :guilabel:`Dupli
 :guilabel:`Frames` and disable :guilabel:`Speed`.
 
 
-.. admonition:: Speed
-   :class: note
+.. note:: Speed
 
    The :guilabel:`Speed` option is used when the parent-child relationship is set to :guilabel:`Follow Path` (see below).  In this example, the monkey will then travel along the circle over 16 frames.
 
@@ -69,8 +68,7 @@ All monkeys are now real objects, but still linked copies.  To change this,
 :guilabel:`All`.
 
 
-.. admonition:: Note
-   :class: note
+.. note::
 
    There are many alternatives to Dupliframes.  Which tool to use depends on context.
 

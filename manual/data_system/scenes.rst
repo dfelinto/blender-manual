@@ -24,8 +24,7 @@ The scene is a set of action sequences where the actors act (hopefully convincin
 Each sequence, or shot, usually lasts a few seconds.
 
 
-.. admonition:: Sequence shot
-   :class: note
+.. note:: Sequence shot
 
    Sometimes, a single shot lasts several minutes: its a "sequence shot",
    which might even be a complete scene on its own.
@@ -58,8 +57,7 @@ This timeline allows for cutting out 700 frames, picking the best 1800 frames
 (30 fps × 60 seconds = 1800 frames) less transition time.
 
 
-.. admonition:: Multiple Cameras
-   :class: note
+.. note:: Multiple Cameras
 
    You can have multiple cameras in a scene, used for different shots,
    and select which one is active when rendering the shot. Press :kbd:`ctrl-0`
