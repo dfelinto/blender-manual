@@ -59,11 +59,7 @@
    meshes/editing/retopo.rst
    meshes/editing/sculpt_mode.rst
    meshes/editing/multires.rst
-   meshes/vertex_groups.rst
-   meshes/vertex_groups/vertex_groups.rst
-   meshes/vertex_groups/weight_edit.rst
-   meshes/vertex_groups/weight_paint.rst
-   meshes/vertex_groups/weight_paint_tools.rst
+   meshes/vertex_groups/index.rst
    meshes/smoothing.rst
    meshes/cleanup.rst
    curves.rst
