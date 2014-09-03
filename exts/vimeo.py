@@ -21,9 +21,9 @@ def get_size(d, key):
 def css(d):
     return "; ".join(sorted("%s: %s" % kv for kv in d.items()))
 
-class youtube(nodes.General, nodes.Element): pass
+class vimeo(nodes.General, nodes.Element): pass
 
-def visit_youtube_node(self, node):
+def visit_vimeo_node(self, node):
     aspect = node["aspect"]
     width = node["width"]
     height = node["height"]
@@ -48,7 +48,7 @@ def visit_youtube_node(self, node):
             "border": "0",
         }
         attrs = {
-            "src": "https://www.youtube.com/embed/%s" % node["id"],
+			"src": "https://www.vimeo.com/moogaloop.swf?clip_id=%s" % node["id"],
             "style": css(style),
         }
         self.body.append(self.starttag(node, "iframe", **attrs))
@@ -67,16 +67,16 @@ def visit_youtube_node(self, node):
             "border": "0",
         }
         attrs = {
-            "src": "https://www.youtube.com/embed/%s" % node["id"],
+		    "src": "https://www.vimeo.com/moogaloop.swf?clip_id=%s" % node["id"],
             "style": css(style),
         }
         self.body.append(self.starttag(node, "iframe", **attrs))
         self.body.append("</iframe>")
 
-def depart_youtube_node(self, node):
+def depart_vimeo_node(self, node):
     pass
 
-class YouTube(Directive):
+class Vimeo(Directive):
     has_content = True
     required_arguments = 1
     optional_arguments = 0
@@ -98,8 +98,8 @@ class YouTube(Directive):
             aspect = None
         width = get_size(self.options, "width")
         height = get_size(self.options, "height")
-        return [youtube(id=self.arguments[0], aspect=aspect, width=width, height=height)]
+        return [vimeo(id=self.arguments[0], aspect=aspect, width=width, height=height)]
 
 def setup(app):
-    app.add_node(youtube, html=(visit_youtube_node, depart_youtube_node))
-    app.add_directive("youtube", YouTube)
+    app.add_node(vimeo, html=(visit_vimeo_node, depart_vimeo_node))
+    app.add_directive("vimeo", Vimeo)
