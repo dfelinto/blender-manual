@@ -18,7 +18,6 @@ version in the top right-hand corner.
 
 .. figure:: /images/(Doc_26x_Manual_Vitals_Help)_(Splash_Screen_2.66)_(GBV266FN).jpg
 
-
 .. figure::
 
    /images/Blender_268a_welcome.jpg
@@ -94,7 +93,6 @@ Powerful interface
 
 .. figure:: /images/Opengl.jpg
 
-
 Blender's interface is drawn entirely in `OpenGL <http://en.wikipedia.org/wiki/OpenGL>`__
 which allows you to customize your interface to suit your needs.
 Windows and other interface elements can be panned, zoomed and their content moved around.
@@ -112,38 +110,52 @@ Let's have a look at the default interface. It is composed of Editors, Headers,
 Context buttons, Regions, Panels and Controls.
 
 
-- In Blender, we call an **Editor** the parts of the software which have a specific function (3D view, Properties Editor, Video Sequence Editor, Nodes Editor...). Each editor has its own *Header* at the top or bottom.
-- **Context buttons** give access to options.  They are like tabs and are often placed on an editor header (like Properties Editor).
-- For each editor, options are grouped in **Panels** to logically organize the interface (Shadow panel, Color panel, Dimensions panel...).
-- **Regions** are included in some editors. In that case, panels and controls are grouped there. For workspace optimization, it is possible to temporarily hide regions with the hotkeys :kbd:`T` and :kbd:`N` for the Toolbar and Properties Region respectively.
-- Panels contain **Controls**. These can let you modify a function, an option, or a value. In Blender, there are several types of controls:
-  -
+Editor
+   In Blender, we call an **Editor** the parts of the software which have a specific function
+   (3D view, Properties Editor, Video Sequence Editor, Nodes Editor...).
+   Each editor has its own *Header* at the top or bottom.
+Context buttons
+   give access to options.
+   They are like tabs and are often placed on an editor header (like Properties Editor).
+Panels
+   For each editor, options are grouped in **Panels** to logically organize the interface (Shadow panel, Color panel, Dimensions panel...).
+Regions
+   are included in some editors. In that case, panels and controls are grouped there.
+   For workspace optimization, it is possible to temporarily hide regions with the hotkeys
+   :kbd:`T` and :kbd:`N` for the Toolbar and Properties Region respectively.
+Controls
+   Panels contain **Controls**.
+   These can let you modify a function, an option, or a value. In Blender, there are several types of controls:
 
-.. figure:: /images/Button.jpg
+   Buttons
+      .. figure:: /images/Button.jpg
+         :align: right
 
-
- **Buttons** : Permit access to a tool (Translate, Rotate, Insert Keyframe). These tools usually have a keyboard shortcut to speed up your work. To display the shortcut, just hover your mouse over a button to see the tooltip.
-
-  -
-
-.. figure:: /images/Checkbox.jpg
-
-
- **Checkboxes** : Permit enabling or disabling of an option. This control can only contain a boolean value (True/False, 1/0).
-
-  -
-
-.. figure:: /images/Slider.jpg
-
-
- **Sliders** : Allows you to enter floating values. These can be limited (e.g. from 0.0 to 100.0) or not (e.g. from -∞ to +∞). Notice that two types of sliders exist in Blender.
-
-  -
-
-.. figure:: /images/List.jpg
+      Permit access to a tool (Translate, Rotate, Insert Keyframe).
+      These tools usually have a keyboard shortcut to speed up your work. To display the shortcut, just hover your mouse over a button to see the tooltip.
 
 
- **Menus** : Permits a value to be chosen from a list. The difference between this and a Checkbox is that values are named and there can be more than two values on these menus.
+   Checkboxes
+      .. figure:: /images/Checkbox.jpg
+         :align: right
+
+      Permit enabling or disabling of an option. This control can only contain a boolean value (True/False, 1/0).
+
+   Sliders
+      .. figure:: /images/Slider.jpg
+         :align: right
+
+      Allows you to enter floating values.
+      These can be limited (e.g. from 0.0 to 100.0) or not (e.g. from -∞ to +∞).
+      Notice that two types of sliders exist in Blender.
+
+    Menus
+       .. figure:: /images/List.jpg
+          :align: right
+
+       Permits a value to be chosen from a list.
+       The difference between this and a Checkbox is that values are
+       named and there can be more than two values on these menus.
 
 :doc:`Read more about buttons and controls » </interface/buttons_and_controls>`
 
