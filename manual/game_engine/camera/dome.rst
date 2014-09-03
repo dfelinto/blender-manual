@@ -38,15 +38,11 @@ Dome Type
    They are outlined below, along with their respective settings.
 
 
-- :ref:`Fisheye Dome <ge-camera-dome-fisheye-mode>`
-
-- :ref:`Front-Truncated Dome <ge-camera-dome-front-truncated-dome>`
-
-- :ref:`Rear-Truncated Dome <ge-camera-dome-rear-truncated-dome>`
-
-- :ref:`Cube Map <ge-camera-dome-cube-map>`
-
-- :ref:`Full Spherical Panoramic <ge-camera-dome-spherical-panoramic>`
+- `Fisheye Mode`_
+- `Front-Truncated Dome Mode`_
+- `Rear-Truncated Dome Mode`_
+- `Cube Map Mode`_
+- `Spherical Panoramic Mode`_
 
 Available camera settings change depending on the selected Dome Type:
 
@@ -62,10 +58,9 @@ Angle
 Tilt
    Set the camera rotation in the horizontal axis. Available in Fisheye and Truncated modes).
 
-:ref:`Warp Data <ge-camera-dome-warp-data-mesh>`
+`Warp Data Mesh`_
    Use a custom warp mesh data file.
 
-.. _ge-camera-dome-fisheye-mode:
 
 Fisheye Mode
 ============
@@ -80,7 +75,6 @@ An Orthogonal Fisheye view from 90º to 250º degrees.
 
    Fisheye Mode
 
-.. _ge-camera-dome-front-truncated-dome:
 
 Front-Truncated Dome Mode
 =========================
@@ -97,7 +91,6 @@ this mode aligns the fisheye image with the top of the window while touching the
 
    Front Truncated Dome Mode
 
-.. _ge-camera-dome-rear-truncated-dome:
 
 Rear-Truncated Dome Mode
 ========================
@@ -114,7 +107,6 @@ this mode aligns the fisheye image with the bottom of the window while touching 
 
    Rear Truncated Dome Mode
 
-.. _ge-camera-dome-cube-map:
 
 Cube Map Mode
 =============
@@ -130,10 +122,9 @@ Cube Map mode can be used for pre-generate animated images for CubeMaps.
 
    Environment Map Mode
 
-.. _ge-camera-dome-spherical-panoramic:
 
-Spherical Panoramic
-===================
+Spherical Panoramic Mode
+========================
 
 A full spherical panoramic mode.
 
@@ -145,7 +136,6 @@ A full spherical panoramic mode.
 
    Full Spherical Panoramic Mode
 
-.. _ge-camera-dome-warp-data-mesh:
 
 Warp Data Mesh
 ==============
@@ -163,7 +153,7 @@ For more information on the mesh format see `Paul Bourke's article <http://paulb
 
 In order to produce that images, we are using a specific file format.
 
-File template::
+File template:
 ::
 
    mode
