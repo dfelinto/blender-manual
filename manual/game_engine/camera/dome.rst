@@ -9,14 +9,14 @@ Truncated domes (front and rear), Planetariums and domes with spherical mirrors.
 
 The Dome camera uses a multipass texture algorithm as developed by Paul Bourke and was
 implemented by Dalai Felinto with sponsorship  from **SAT -** Society for Arts and
-Technology within the **SAT** **Metalab** `immersion research program <http://paulbourke.net/miscellaneous/domemirror/BlenderiDome/>`_,
+Technology within the **SAT** **Metalab**
+`immersion research program <http://paulbourke.net/miscellaneous/domemirror/BlenderiDome/>`_,
 that involves rendering the scene 4 times and placing the subsequent images
 onto a mesh designed especially such that the result, when viewed with an
 orthographic camera, is a fisheye projection.
 
 
 .. note::
-
 
    Remember to use Blender in **fullscreen mode** to get the maximum out of your projector.
 
@@ -33,8 +33,9 @@ Dome Camera Settings
 .. figure:: /images/Manual-GameEngine-Dome-Panel.jpg
 
 
-:guilabel:`Dome Type`
-   This menu allows you to select which type of dome camera to use. They are outlined below, along with their respective settings.
+Dome Type
+   This menu allows you to select which type of dome camera to use.
+   They are outlined below, along with their respective settings.
 
 
 - :ref:`Fisheye Dome <ge-camera-dome-fisheye-mode>`
@@ -49,16 +50,16 @@ Dome Camera Settings
 
 Available camera settings change depending on the selected Dome Type:
 
-:guilabel:`Resolution`
+Resolution
    Sets the resolution of the Buffer. Decreasing this value increases speed, but decreases quality.
 
-:guilabel:`Tesselation`
+Tesselation
    4 is the default. This is the tesselation level of the mesh. (Not available in Cube Map mode).
 
-:guilabel:`Angle`
+Angle
    Sets the field of view of the dome in degrees, from 90 to 250. (Available in Fisheye and Truncated modes).
 
-:guilabel:`Tilt`
+Tilt
    Set the camera rotation in the horizontal axis. Available in Fisheye and Truncated modes).
 
 :ref:`Warp Data <ge-camera-dome-warp-data-mesh>`
@@ -201,14 +202,15 @@ software package(requires full version).
 Example files
 -------------
 
-`Spherical Mirror Dome 4x3 <http://wiki.blender.org/uploads/8/81/Dev-GameEngine-Dome-Standard_4x3.data>`__, `Truncated Dome 4x3 <http://wiki.blender.org/uploads/9/9b/Dev-GameEngine-Dome-Truncated_4x3.data>`__, `Sample Fullscreen File 4x3 <http://wiki.blender.org/uploads/d/d4/Dev-GameEngine-Dome-Sample-FullScreen_4x3.data>`__, `Sample Fullbuffer File 4x3 <http://wiki.blender.org/uploads/3/3d/Dev-GameEngine-Dome-Sample-FullBuffer_4x3.data>`__.
+`Spherical Mirror Dome 4x3 <http://wiki.blender.org/uploads/8/81/Dev-GameEngine-Dome-Standard_4x3.data>`__,
+`Truncated Dome 4x3 <http://wiki.blender.org/uploads/9/9b/Dev-GameEngine-Dome-Truncated_4x3.data>`__,
+`Sample Fullscreen File 4x3 <http://wiki.blender.org/uploads/d/d4/Dev-GameEngine-Dome-Sample-FullScreen_4x3.data>`__,
+`Sample Fullbuffer File 4x3 <http://wiki.blender.org/uploads/3/3d/Dev-GameEngine-Dome-Sample-FullBuffer_4x3.data>`__.
 
 
 .. note::
 
-
    Important: the viewport is calculated using the ratio of canvas width by canvas height.
    Therefore different screen sizes will require different warp mesh files. Also in order to get
    the correct ratio of your projector you need to use Blender in Fullscreen mode.
-
 
