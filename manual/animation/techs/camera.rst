@@ -34,9 +34,6 @@ have the same visual dimensions as at the beginning. Add a key to both attribute
 This won't give you a fully perfect transtrav - to get such one,
 you would have to dive into trigonometric maths... But the result is visually quite satisfying.
 
-
-FIXME(Tag Unsupported:vimeo;
-<vimeo>15837189</vimeo>
-)
+.. vimeo:: 15837189
 
 

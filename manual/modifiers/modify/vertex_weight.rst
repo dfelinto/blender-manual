@@ -271,10 +271,7 @@ visible around the reference object! Note that you can insert a :guilabel:`Verte
 modifier before the :guilabel:`Wave` one,
 and use its :guilabel:`Custom Curve` mapping to get larger/narrower "wave influence's slopes".
 
-
-FIXME(Tag Unsupported:vimeo;
-<vimeo>30187079</vimeo>
-)
+.. vimeo:: 30187079
 
 `The Blender file <http://wiki.blender.org/index.php/Media:ManModifiersWeightVGroupEx.blend>`__, ``TEST_1`` scene.
 
@@ -345,10 +342,7 @@ You can also add a fifth :guilabel:`Mask` modifier,
 and enable :guilabel:`Vertex Weight Edit` 's :guilabel:`Group Remove` option,
 with a :guilabel:`Rem Threshold` of ``0.1``, to see the bottom of your valley disappear.
 
-
-FIXME(Tag Unsupported:vimeo;
-<vimeo>30188564</vimeo>
-)
+.. vimeo:: 30188564
 
 `The Blender file <http://wiki.blender.org/index.php/Media:ManModifiersWeightVGroupEx.blend>`__, ``TEST_2`` scene.
 
@@ -415,10 +409,7 @@ and above ``0.75`` : this creates great "walls" in the waves...
 +   A customized mapping curve.                                |   Custom Mapping disabled.                             |   Custom Mapping enabled.                                  +
 +--------------------------------------------------------------+--------------------------------------------------------+------------------------------------------------------------+
 
-
-FIXME(Tag Unsupported:vimeo;
-<vimeo>30188814</vimeo>
-)
+.. vimeo:: 30188814
 
 `The Blender file <http://wiki.blender.org/index.php/Media:ManModifiersWeightVGroupEx.blend>`__, ``TEST_4`` scene.
 

@@ -35,9 +35,6 @@ to synchronize the quantity of particles with the luminosity of the lamps.
 
 Once your torch is flying, you should get something as shown below - you can download the blend file `here <http://wiki.blender.org/index.php/File:ManAnimationTechsLampExFlyingTorch.blend>`__.
 
-
-FIXME(Tag Unsupported:vimeo;
-<vimeo>15837328</vimeo>
-)
+.. vimeo:: 15837328
 
 

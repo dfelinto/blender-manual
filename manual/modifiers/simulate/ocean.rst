@@ -168,10 +168,9 @@ it remains sitting on the top of the wave surface for a while, as it dissipates.
 it's possible to approximate that behaviour, by accumulating foam from previous frames,
 leaving it remaining on the surface.
 
-
-FIXME(Tag Unsupported:vimeo;
-<vimeo width="500" height="256" >17517981</vimeo>
-)
+.. vimeo:: 17517981
+   :width: 500
+   :height: 256
 
 
 Baking Options
@@ -183,10 +182,10 @@ Start, End
 Cache Path
    Folder to store the baked EXR files in. The sequences will be in the form disp_####.exr, normal_####.exr, and foam_####.exr where #### is the four digit frame number. If the cache path folder does not exist, it will be created.
 
+.. vimeo:: 18911131
+   :width: 500
+   :height: 256
 
-FIXME(Tag Unsupported:vimeo;
-<vimeo width="500" height="256" >18911131</vimeo>
-)
 Simulated and baked to image maps in Blender, rendered in 3Delight.
 
 

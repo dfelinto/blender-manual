@@ -65,9 +65,7 @@ and why not, for the star around its galaxy...
 Here is a small animation of a "solar" system created using (among a few others)
 the technique described above:
 
-FIXME(Tag Unsupported:vimeo;
-<vimeo>15187945</vimeo>
-)
+.. vimeo:: 15187945
 
 Note that the this "solar" system is not realistic at all (wrong scale,
 the "earth" is rotating in the wrong direction around the "sun", ...).

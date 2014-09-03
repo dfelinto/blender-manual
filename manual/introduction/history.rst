@@ -69,9 +69,9 @@ dedicated volunteers from around the world led by Blender's original creator, To
 Video: From Blender 1.60 to 2.50
 ================================
 
-FIXME(Tag Unsupported:vimeo;
-<vimeo width="640" height="360">8567074</vimeo>
-)
+.. vimeo:: 8567074
+   :width: 640
+   :height: 360
 
 
 Version/Revision Milestones

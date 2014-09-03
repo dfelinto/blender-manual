@@ -67,4 +67,4 @@ You should get something similar to what shown below. You can download the blend
 
 `here <http://wiki.blender.org/index.php/File:ManAnimationTechsMaterialExPshychedelic.blend>`__.
 
-FIXME(Tag Unsupported:vimeo;<vimeo>15837405</vimeo>)
+.. vimeo:: 15837405

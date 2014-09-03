@@ -34,9 +34,7 @@ Example
 `Blend file of spotlight animation. <http://wiki.blender.org/index.php/Media:Manual - Shadow and Spot - Spotlight Animation.blend>`__
 
 
-FIXME(Tag Unsupported:vimeo;
-<vimeo>1827483</vimeo>
-)
+.. vimeo:: 1827483
 
 
 See also
