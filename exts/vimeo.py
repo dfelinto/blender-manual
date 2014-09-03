@@ -48,7 +48,7 @@ def visit_vimeo_node(self, node):
             "border": "0",
         }
         attrs = {
-			"src": "https://www.vimeo.com/moogaloop.swf?clip_id=%s" % node["id"],
+			"src": "//player.vimeo.com/video/%s" % node["id"],
             "style": css(style),
         }
         self.body.append(self.starttag(node, "iframe", **attrs))
@@ -67,7 +67,7 @@ def visit_vimeo_node(self, node):
             "border": "0",
         }
         attrs = {
-		    "src": "https://www.vimeo.com/moogaloop.swf?clip_id=%s" % node["id"],
+		    "src": "//player.vimeo.com/video/%s" % node["id"],
             "style": css(style),
         }
         self.body.append(self.starttag(node, "iframe", **attrs))
