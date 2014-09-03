@@ -65,13 +65,13 @@ There are two ways to restore the default Blender settings:
 - Delete the ``startup.blend`` file from the following location on your computer:
 
   Linux
-     ``/home/$user/.config/.blender/{Version Number}/startup.blend``
+     .. parsed-literal:: /home/$user/.config/.blender/|BLENDER_VERSION|/startup.blend
 
      (you'll need to show hidden files).
   Windows
-     ``C:\Users\$user\AppData\Roaming\Blender Foundation\Blender\{Version Number}\config\startup.blend``
+     .. parsed-literal:: C:/Users/$user/AppData\Roaming/Blender Foundation\Blender/|BLENDER_VERSION|/config/startup.blend
   OSX
-     ``/Users/$user/Library/Application Support/Blender/{Version Number}/config/startup.blend``
+     .. parsed-literal:: /Users/$user/Library/Application Support/Blender/|BLENDER_VERSION|/config/startup.blend
 
      (you'll need to show hidden files).
 
