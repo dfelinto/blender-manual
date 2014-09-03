@@ -19,7 +19,7 @@ See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for
 
 Special Options:
 
-**Actuator**
+Actuator
    Name of actuator   (NB  This must be owned by the same object).
 
 

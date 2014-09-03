@@ -35,9 +35,9 @@ Generator creates a Factorized or Expanded Polynomial function.
 These are basic mathematical formulas that represent lines, parabolas,
 and other more complex curves, depending on the values used.
 
-:guilabel:`Additive`
+Additive
    This option causes the modifier to be added to the curve, instead of replacing it by default.
-:guilabel:`Poly Order`
+Poly Order
    Specify the order of the polynomial, or the highest power of 'x' for this polynomial. (number of coefficients - 1).
 
 Change the Coefficient values to change the shape of the curve. See
@@ -59,13 +59,13 @@ Consult mathematics reference for more detailed information on each function.
 - Natural Logarithm
 - Normalized Sine (sin(x)/x)
 
-:guilabel:`Amplitude`
+Amplitude
    Adjusts the Y scaling
-:guilabel:`Phase Multiplier`
+Phase Multiplier
    Adjusts the X scaling
-:guilabel:`Phase Offset`
+Phase Offset
    Adjusts the X offset
-:guilabel:`Value Offset`
+Value Offset
    Adjusts the Y offset
 
 
@@ -74,20 +74,20 @@ Envelope
 
 Allows you to adjust the overall shape of a curve with control points.
 
-:guilabel:`Reference Value`
+Reference Value
    Set the Y value the envelope is centered around.
-:guilabel:`Min`
+Min
    Lower distance from Reference Value for 1:1 default influence.
-:guilabel:`Max`
+Max
    Upper distance from Reference Value for 1:1 default influence.
 
-:guilabel:`Add Point`
+Add Point
    Add a set of control points. They will be created at the current frame.
-:guilabel:`Fra:`
+Fra:
    Set the frame number for the control point.
-:guilabel:`Min`
+Min
    Specifies the lower control point's position.
-:guilabel:`Max`
+Max
    specifies the upper control point's position.
 
 
@@ -97,15 +97,15 @@ Cycles
 Cycles allows you add cyclic motion to a curve that has 2 or more control points.
 The options can be set for before and after the curve.
 
-:guilabel:`Cycle Mode`
-   :guilabel:`Repeat Motion`
+Cycle Mode
+   Repeat Motion
       Repeats the curve data, while maintaining their values each cycle.
-   :guilabel:`Repeat with Offset`
+   Repeat with Offset
       Repeats the curve data, but offsets the value of the first point to the value of the last point each cycle.
-   :guilabel:`Repeat Mirrored`
+   Repeat Mirrored
       Each cycle the curve data is flipped across the X-axis.
 
-:guilabel:`Before/After Cycles`
+Before/After Cycles
    Set the number of times to cycle the data. A value of 0 cycles the data infinitely.
 
 
@@ -116,23 +116,23 @@ Modifies the curve with a noise formula.
 This is useful for creating subtle or extreme randomness to animated movements,
 like camera shake.
 
-:guilabel:`Blend Type`
-   :guilabel:`Replace`
+Blend Type
+   Replace
       Adds a -.5 to .5 range noise function to the curve.
-   :guilabel:`Add`
+   Add
       Adds a 0 to 1 range noise function to the curve.
-   :guilabel:`Subtract`
+   Subtract
       Subtracts a 0 to 1 range noise function to the curve.
-   :guilabel:`Multiply`
+   Multiply
       Multiplies a 0 to 1 range noise function to the curve.
 
-:guilabel:`Scale`
+Scale
    Adjust the overall size of the noise. Values further from 0 give less frequent noise.
-:guilabel:`Strength`
+Strength
    Adjusts the Y scaling of the noise function.
-:guilabel:`Phase`
+Phase
    Adjusts the random seed of the noise.
-:guilabel:`Depth`
+Depth
    Adjusts how detailed the noise function is.
 
 
@@ -144,9 +144,9 @@ Limits
 
 Limit curve values to specified X and Y ranges.
 
-:guilabel:`Minimum/Maximum X`
+Minimum/Maximum X
    Cuts a curve off at these frames ranges, and sets their minimum value at those points.
-:guilabel:`Minimum/Maximum Y`
+Minimum/Maximum Y
    Truncates the curve values to a range.
 
 
@@ -155,12 +155,12 @@ Stepped
 
 Gives the curve a stepped appearance by rounding values down within a certain range of frames.
 
-:guilabel:`Step Size`
+Step Size
    Specify the number of frames to hold each frame
-:guilabel:`Offset`
+Offset
    Reference number of frames before frames get held. Use to get hold for '1-3' vs '5-7' holding patterns.
-:guilabel:`Use Start Frame`
+Use Start Frame
    Restrict modifier to only act before its 'end' frame
-:guilabel:`Use End Frame`
+Use End Frame
    Restrict modifier to only act after its 'start' frame
 

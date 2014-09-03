@@ -24,21 +24,20 @@ See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>`
 
 Special Options:
 
-**To**
+To
    Object to broadcast to. Leave blank if broadcast to all (or sending to another scene).
-**Subject**
+Subject
    Subject of message. Useful if sending certain types of message, such as "end-game",
    to a message sensor listening for "end game"→AND→Quit Game actuator
-**Body**
+Body
    Body of message sent (only read by Python*).
-**Text**
-      User specified text in body.
-**Property**
-      User specified property.
+Text
+   User specified text in body.
+Property
+   User specified property.
 
 
 **Usage Notes**
 You can use the Message Actuator to send data, such as scores to other objects,
-or even across scenes! (alternatively use bge.logic.globalDict).
-
+or even across scenes! (alternatively use ``bge.logic.globalDict``).
 

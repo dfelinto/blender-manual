@@ -59,21 +59,21 @@ Options
 
 :guilabel:`Subsurf` is a :doc:`modifier </modifiers>`. To add it to a mesh, press :guilabel:`Add Modifier` and select :guilabel:`Subdivision Surface` from the list.
 
-:guilabel:`Type`
+Type
    This toggle button allows you to choose the subdivision algorithm:
 
-   :guilabel:`Catmull-Clark`
+   Catmull-Clark
       The default option, subdivides and smooths the surfaces. According to `its Wikipedia page <http://en.wikipedia.org/wiki/Catmull%E2%80%93Clark_subdivision_surface>`__, the "arbitrary-looking formula was chosen by Catmull and Clark based on the aesthetic appearance of the resulting surfaces rather than on a mathematical derivation."
-   :guilabel:`Simple`
+   Simple
       Only subdivides the surfaces, without any smoothing (similar to :kbd:`W` → :guilabel:`Subdivide`, in :guilabel:`Edit mode`).  Can be used, for example, to increase base mesh resolution when using displacement maps or textured emitters with indirect lighting.
 
-:guilabel:`Subdivisions`
+Subdivisions
    Recursively adds more geometry. For some detailed examples of the numbers, see the
    FIXME(TODO: Internal Link; [[#Performance_Considerations|Performance Considerations]]) section.
 
-   :guilabel:`View`
+   View
       Affects the display resolution for the 3D views only.
-   :guilabel:`Render`
+   Render
       Affects the subdivision level used during rendering. For the internal :guilabel:`Blender Render`, the status line at the top of the :guilabel:`Render Result` will tell you the current Frame, then after that the number of the final, generated vertices and faces. This can give you a clue at the overall performance impact of all Modifiers.
 
 The right combination of these settings will allow you to keep a fast and lightweight
@@ -91,10 +91,10 @@ but use a higher quality version when rendering.
    Subdivide UVs on and off -- see the `.blend <http://wiki.blender.org/index.php/Media:Manual-Modifiers-Generate-Subsurf-SubdivideUVsExample.blend>`__ for the source of this image.
 
 
-:guilabel:`Options`:
-   :guilabel:`Subdivide UVs`
+Options:
+   Subdivide UVs
       When enabled, the UV maps will also be subsurfed (i.e. Blender will add "virtual" coordinates for all sub-faces created by this modifier). The easiest way to understand its effects is to view `Manual-Modifiers-Generate-Subsurf-SubdivideUVsExample.blend <http://wiki.blender.org/index.php/Media:Manual-Modifiers-Generate-Subsurf-SubdivideUVsExample.blend>`__.
-   :guilabel:`Optimal Display`
+   Optimal Display
       Restricts the wireframe display to only show a warped mesh cage edges, rather than the subdivided result, to help visualization. Without this, Edit Mode can look cluttered with lines that are not really there.
 
 
@@ -112,7 +112,7 @@ but use a higher quality version when rendering.
    Edit Cage On
 
 
-:guilabel:`Edit Cage Mode`
+Edit Cage Mode
    To view and edit the results of the subdivision ("isolines") while you're editing the mesh, you must enable the :guilabel:`Editing Cage` mode by clicking in the inverted triangle button in the modifier panel header (next to the arrows for moving the modifier up and down the stack). This lets you grab the points as they lie in their new subdivided locations, rather than on the original mesh.
 
    Notice the comparison of screenshots to the right. With the edit cage off,

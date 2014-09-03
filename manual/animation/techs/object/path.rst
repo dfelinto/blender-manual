@@ -46,15 +46,15 @@ The object will now be animated along the path.
 The settings for the path animation are in the :guilabel:`Path Animation` panel of the Curve
 properties panel.
 
-:guilabel:`Frames`
+Frames
    Defines the number of frames it takes for the object to travel the path.
-:guilabel:`Evaluation Time`
+Evaluation Time
    Defines current frame of the animation. By default it is linked to the global frame number, but could be keyframed to give more control over the path animation.
-:guilabel:`Follow`
+Follow
    Causes the curve path children to rotate along the curvature of the path.
-:guilabel:`Radius`
+Radius
    Causes the curve path child to be scaled by the set curve radius. See :doc:`Curve Extruding </modeling/curves/editing/advanced>`
-:guilabel:`Offset Children`
+Offset Children
    Causes the animation to be offset by the curve path child's time offset value, which can be found in its :guilabel:`Animation Hacks` section of the :guilabel:`Object Panel`.
 
 

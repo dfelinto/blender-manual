@@ -33,7 +33,7 @@ This will be the system thats is visible.
 
 or a normal particle system. This second system is the target of the keyed system.
 
-:guilabel:`Loops`
+Loops
    Sets the number of times the keys are looped. Disabled if :guilabel:`Use Timing` is enabled.
 
 
@@ -41,7 +41,7 @@ Keys
 ====
 
 
-:guilabel:`Key Targets`
+Key Targets
    You have to enter the name of the object which bears the target system and if there are multiple particle systems the number of the system.
 
    Click the :kbd:`+` to add a key, then select the object.
@@ -55,7 +55,7 @@ This may lead to varying particle speeds between the targets.
 Timing
 ======
 
-:guilabel:`Use Timing`
+Use Timing
    Timing works together with the Time slider for the other keyed systems in a chain. The Time slider allows to define a fraction of particle lifetime for particle movement.
 
 An example:

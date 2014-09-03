@@ -167,7 +167,7 @@ Ah! The extrusion! Probably the most interesting tool of the curves for modeling
 
 We will see the different settings, depending on their scope of action:
 
-:guilabel:`Width`
+Width
    This controls the position of the extruded "border" of the curve, relative to the curve itself.
    With closed 2D curves (see below),
    it is quite simple to understand - with a :guilabel:`Width` greater than **1.0**, the extruded volume is wider,
@@ -178,7 +178,7 @@ We will see the different settings, depending on their scope of action:
 
    It has the same effect with extruded "bevel" objects...
 
-:guilabel:`Tilt`
+Tilt
    This setting - unfortunately, you can never see its value anywhere in Blender - controls the "twisting angle" around the curve for each point - so it is only relevant with 3D curves!
    You set it using the :guilabel:`Tilt` transform tool (:kbd:`T`, or :menuselection:`Curve --> Transform --> Tilt`), and you can reset it to its default value (i.e. perpendicular to the original curve plane) with :kbd:`alt-T` (or :menuselection:`Curve --> Control Points --> Clear Tilt`).
    With NURBS, the tilt is always smoothly interpolated. However, with Bézier, you can choose the interpolation algorithm to use in the :guilabel:`Tilt Interpolation` drop-down list of the :guilabel:`Curve Tools` panel (you will find the classical :guilabel:`Linear`, :guilabel:`Cardinal`, :guilabel:`B Spline` and :guilabel:`Ease` options...).
@@ -189,7 +189,7 @@ Simple Extrusion
 
 Let's first see the "simple" extrusion of curves, without additional bevel/taper objects.
 
-:guilabel:`Extrude`
+Extrude
    This controls the width (or height) of the extrusion.
    The real size is of course dependent on the scale of the underlying object, but with a scale of one,
    an :guilabel:`Extrusion` of **1.0** will extrude the curve one BU in both directions,
@@ -197,12 +197,12 @@ Let's first see the "simple" extrusion of curves, without additional bevel/taper
 
    If set to **0.0**, there is no "simple" extrusion!
 
-:guilabel:`Bevel Depth`
+Bevel Depth
    This will add a bevel to the extrusion. See below for its effects...
    Note that the bevel makes the extrusion wider and higher.
    If set to **0.0**, there is no bevel (max value: **2.0**).
 
-:guilabel:`Bev Resol`
+Bev Resol
    Controls the resolution of the bevel created by a :guilabel:`Bevel Depth` higher than zero.
    If set the **0** (the default), the bevel is a simple "flat" surface.
    Higher values will smooth, round off the bevel, similar to the resolution settings of the curve itself...

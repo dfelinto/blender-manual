@@ -22,10 +22,10 @@ Options
    Lattice modifier.
 
 
-:guilabel:`Object`
+Object
    The :guilabel:`Lattice` object with which to deform the base object.
 
-:guilabel:`Vertex Group`
+Vertex Group
    An optional vertex group name which lets you limit the modifier effect to a part of the base mesh.
 
 

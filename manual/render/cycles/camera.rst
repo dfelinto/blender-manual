@@ -5,7 +5,7 @@ Camera
 Perspective
 ===========
 
-:guilabel:`Lens Size and Angle`
+Lens Size and Angle
    Control the field of view angle.
 
 

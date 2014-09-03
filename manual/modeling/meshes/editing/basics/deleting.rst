@@ -11,22 +11,22 @@ These tools can be used to remove components.
 Delete
 ======
 
-:guilabel:`Delete` (:kbd:`X` or :kbd:`Del`)
+Delete (:kbd:`X` or :kbd:`Del`)
    Deletes selected vertices, edges, or faces. This operation can also be limited to:
 
-   :guilabel:`Vertices`
+   Vertices
       Delete all vertices in current selection, removing any faces or edges they are connected to.
-   :guilabel:`Edges`
+   Edges
       Deletes any edges in the current selection. Removes any faces that the edge shares with it.
-   :guilabel:`Faces`
+   Faces
       Removes any faces in current selection.
-   :guilabel:`Only Edges & Faces`
+   Only Edges & Faces
       Limits the operation to only selected edges and adjacent faces.
-   :guilabel:`Only faces`
+   Only faces
       Removes faces, but edges within face selection are retained.
-   :guilabel:`Edge Collapse`
+   Edge Collapse
       Collapses edges into single vertices. This can be used to remove a loop of faces.
-   :guilabel:`Edge Loop`
+   Edge Loop
       Deletes an edge loop.  If the current selection is not an edge loop, this operation does nothing.
 
 
@@ -36,9 +36,9 @@ Dissolve
 Dissolve operations are also accessed from the delete menu. Instead of removing the geometry,
 which may leave holes that you have to fill in again, dissolve will remove the geometry and fill in the surrounding geometry.
 
-:guilabel:`Dissolve`
+Dissolve
    Removes selected geometry, but keeps surface closed, effectively turning the selection into a single n-gon. Dissolve works slightly different based on if you have edges, faces or vertices selected. You can add detail where you need it, or quickly remove it where you don't.
-:guilabel:`Limited Dissolve`
+Limited Dissolve
    Limited Dissolve reduces detail on planar faces and linear edges with an adjustable angle threshold.
 
 
@@ -49,7 +49,7 @@ which may leave holes that you have to fill in again, dissolve will remove the g
    Example showing the how Limited Dissolve can be used.
 
 
-   :guilabel:`Face Split - dissolve option.`
+   Face Split - dissolve option.
       When dissolving vertices into surrounding faces, you can often end up with very large, uneven ngons.
 The face split option limits dissolve to only use the corners of the faces connected to the vertex.
 
@@ -88,7 +88,7 @@ result of a subdivide operation.
 If additional editing has been done after the subdivide operation,
 unexpected results may occur.
 
-:guilabel:`Iterations`
+Iterations
    How many subdivisions to remove.
 
 
@@ -110,19 +110,19 @@ This tool allows you to merge all selected vertices into an unique one, deleting
 You can choose the location of the surviving vertex in the menu this tool pops up before
 executing:
 
-:guilabel:`At First`
+At First
    Only available in :guilabel:`Vertex` select mode, it will place the remaining vertex at the location of the first one selected.
 
-:guilabel:`At Last`
+At Last
    Only available in :guilabel:`Vertex` select mode, it will place the remaining vertex at the location of the last one selected (the active one).
 
-:guilabel:`At Center`
+At Center
    Available in all select modes, it will place the remaining vertex at the center of the selection.
 
-:guilabel:`At Cursor`
+At Cursor
    Available in all select modes, it will place the remaining vertex at the 3D Cursor.
 
-:guilabel:`Collapse`
+Collapse
    This is a special option, as it might let "live" more than one vertex. In fact, you will have as many remaining vertices as you had "islands" of selection (i.e. groups of linked selected vertices). The remaining vertices will be positioned at the center of their respective "islands". It is also available *via* the :menuselection:`Mesh --> Edges --> Collapse` menu option...
 
 Merging vertices of course also deletes some edges and faces. But Blender will do everything
@@ -159,9 +159,9 @@ Remove Doubles
 
 Remove Doubles is a useful tool to simplify a mesh by merging vertices that are closer than a specified distance to each other. An alternate way to simplify a mesh is to use the :doc:`Decimate modifier </modifiers/generate/decimate>`.
 
-:guilabel:`Merge Distance`
+Merge Distance
    Sets the distance threshold for merging vertices, in Blender units.
-:guilabel:`Unselected`
+Unselected
    Allows vertices in a selection to be merged with unselected vertices. When disabled, selected vertices will only be merged with other selected ones.
 
 

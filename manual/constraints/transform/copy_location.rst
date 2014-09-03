@@ -26,27 +26,27 @@ Options
    Copy Location panel
 
 
-:guilabel:`Target`
+Target
    This constraint uses one target, and is not functional (red state) when it has none.
 
-   :guilabel:`Bone`
+   Bone
       If :guilabel:`Target` is an :guilabel:`Armature`, a new field is displayed offering the optional choice to set an individual bone as :guilabel:`Target`.
 
-      :guilabel:`Head/Tail`
+      Head/Tail
          If a :guilabel:`Bone` is set as :guilabel:`Target`, a new field is displayed offering the optional choice of where along this bone the target point lies.
-   :guilabel:`Vertex Group`
+   Vertex Group
       If :guilabel:`Target` is a :guilabel:`Mesh`, a new field is displayed offering the optional choice to set a :guilabel:`Vertex Group` as target.
 
-:guilabel:`X`, :guilabel:`Y`, :guilabel:`Z`
+X, Y, Z
    These buttons control which axes (i.e. coordinates) are constrained - by default, all three ones are.
 
-   :guilabel:`Invert`
+   Invert
       The :guilabel:`Invert` buttons invert their respective preceding coordinates.
 
-:guilabel:`Offset`
+Offset
    When enabled, this control allows the owner to be translated (using its current transform properties), relative to its target's position.
 
-:guilabel:`Space`
+Space
    This constraint allows you to choose in which space to evaluate its owner's and target's transform properties.
 
 

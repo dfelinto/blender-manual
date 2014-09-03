@@ -28,17 +28,17 @@ Options
    Pivot panel
 
 
-:guilabel:`Target`
+Target
    The object to be used as a pivot point
 
-   :guilabel:`Bone`
+   Bone
       When :guilabel:`Target` is an armature, a new field for a bone is displayed.
-   :guilabel:`Head/Tail`
+   Head/Tail
       When using a bone target, you can choose where along this bone the target point lies.
-   :guilabel:`Vertex Group`
+   Vertex Group
       When :guilabel:`Target` is a mesh, a new field is display where a vertex group can be selected.
 
-:guilabel:`Pivot Offset`
+Pivot Offset
    Offset of pivot from target
 :guilabel:`Pivot When`:
 :guilabel:`Always`, :guilabel:`Z Rot`, :guilabel:`Y Rot`, ...

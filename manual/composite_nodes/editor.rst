@@ -30,7 +30,7 @@ additional settings appear in the Header and the Properties Panel:
    Backdrop Channels.
 
 
-:guilabel:`Backdrop Channels`
+Backdrop Channels
    Set the image to be displayed with :guilabel:`Color`, :guilabel:`Color and Alpha`, or just :guilabel:`Alpha`.
 
 
@@ -39,9 +39,9 @@ additional settings appear in the Header and the Properties Panel:
    Options of Zoom and Offset of Backdrop.
 
 
-:guilabel:`Zoom`
+Zoom
    Sets how big the backdrop image is.
-:guilabel:`Offset`
+Offset
    Change the screen space position of the backdrop, or click the :guilabel:`Move` button, or shortcut :kbd:`Alt-mmb` to manually move it.
 
 
@@ -59,19 +59,19 @@ Perfomance for Compositing Nodes in Node Editor
    Perfomance for Compositing Nodes in Node Editor
 
 
-:guilabel:`Render`
+Render
    Set quality when rendering in Node Editor.
-:guilabel:`Edit`
+Edit
    Set quality when editing in Node Editor
-:guilabel:`Chunksi`
+Chunksi
    Max size of a title (smaller values give better distribution of multiple threads, but more overhead).
-:guilabel:`OpenCL`
+OpenCL
    Enable GPU calculations when working in Node Editor.
-:guilabel:`Buffer Groups`
+Buffer Groups
    Enable buffering of group nodes.
-:guilabel:`Two Pass`
+Two Pass
    Use two pass execution during editing: first calculate fast nodes, second pass calculate all nodes.
-:guilabel:`Viewer Border`
+Viewer Border
    Use boundaries for viewer nodes and composite backdrop.
-:guilabel:`Highlight`
+Highlight
    Highlight nodes that are being calculated.

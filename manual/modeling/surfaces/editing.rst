@@ -268,7 +268,7 @@ Deleting Elements
 
 The :guilabel:`Erase` pop-up menu of surfaces offers you two options:
 
-:guilabel:`Selected`
+Selected
    This will delete the selected rows, *without* breaking the surface (i.e. the adjacent rows will be directly linked, joined, once the intermediary ones are deleted). The selection must abide by the following rules:
 
    - Whole rows, and only whole rows must be selected.
@@ -276,7 +276,7 @@ The :guilabel:`Erase` pop-up menu of surfaces offers you two options:
 
    Also remember that NURBS order cannot be higher than its number of control points in a given axis, so it might decrease when you delete some control points... Of course, when only one row remains, the surface becomes a "surface curve"; when only one point remains, there is no more visible surface; and when all points are deleted, the surface itself is deleted.
 
-:guilabel:`All`
+All
    As with meshes or curves, this deletes everything in the object!
 
 

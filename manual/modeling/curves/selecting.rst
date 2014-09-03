@@ -30,7 +30,7 @@ the 3D views header. Let's detail them.
 :guilabel:`Inverse`
 :guilabel:`Select/Deselect All`
 
-:guilabel:`Border Select`
+Border Select
    All these options have the same meaning and behavior as in :doc:`Object mode </modeling/objects/selecting>`
    (and the specifics of :guilabel:`Border Select` in :guilabel:`Edit` mode have already been discussed
    :doc:`here </modeling/meshes/selecting>`).

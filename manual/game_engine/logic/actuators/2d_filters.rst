@@ -34,7 +34,7 @@ Select the type of 2D Filter required.
 
 Only one parameter is required for all filters:
 
-**Pass Number**
+Pass Number
    The pass number for which this filter is to be used.
 Details of the filters are given in the descriptive text below.
 

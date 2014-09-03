@@ -35,10 +35,10 @@ Options
 
 These options are available in the :guilabel:`Tool Panel` after running the tool;
 
-:guilabel:`Number of Cuts`
+Number of Cuts
    Specifies the number of cuts per edge to make. By default this is 1, cutting edges in half. A value of 2 will cut it into thirds, and so on.
 
-:guilabel:`Smoothness`
+Smoothness
    Displaces subdivisions to maintain approximate curvature, The effect is similar to the way the subdivision modifier might deform the mesh.
 
 +-----------------------------------------------------+---------------------------------------------------+----------------------------------------------------+
@@ -50,23 +50,23 @@ These options are available in the :guilabel:`Tool Panel` after running the tool
 +-----------------------------------------------------+---------------------------------------------------+----------------------------------------------------+
 
 
-:guilabel:`Quad/Tri Mode`
+Quad/Tri Mode
    Forces subdivide to create triangles instead of ngons, simulating old behavior (see examples below)
 
-:guilabel:`Corner Cut Type`
+Corner Cut Type
    This drop-down menu controls the way quads with only two adjacent selected edges are subdivided
 
-   :guilabel:`Fan`
+   Fan
       the quad is sub-divided in a fan of four triangles, the common vertex being the one opposite to the selected edges.
-   :guilabel:`Innervert`
+   Innervert
       (i.e. "inner vertex"), The selected edges are sub-divided,
       then an edge is created between the two new vertices, creating a small triangle.
       This edge is also sub-divided, and the "inner vertex" thus created is linked by another edge to the one opposite
       to the original selected edges. All this results in a quad sub-divided in a triangle and two quad.
-   :guilabel:`Path`
+   Path
       First an edge is created between the two opposite ends of the selected edges,
       dividing the quad in two triangles. Then, the same goes for the involved triangle as described above.
-   :guilabel:`Straight Cut`
+   Straight Cut
       Currently non functioning...
 
 
@@ -79,7 +79,7 @@ These options are available in the :guilabel:`Tool Panel` after running the tool
 +---------------------------------------------------------+--------------------------------------------------------------+---------------------------------------------------------+
 
 
-:guilabel:`Fractal`
+Fractal
    Displaces the vertices in random directions after the mesh is subdivided
 
 +------------------------------------------------------+----------------------------------------------------+------------------------------------------------------+
@@ -91,7 +91,7 @@ These options are available in the :guilabel:`Tool Panel` after running the tool
 +------------------------------------------------------+----------------------------------------------------+------------------------------------------------------+
 
 
-:guilabel:`Along Normal`
+Along Normal
    Causes the vertices to move along the their normals, instead of random directions
 
 
@@ -102,7 +102,7 @@ These options are available in the :guilabel:`Tool Panel` after running the tool
    Along normal set to 1
 
 
-:guilabel:`Random Seed`
+Random Seed
    Changes the random seed of the noise function, producing a different result for each seed value.
 
 

@@ -68,13 +68,13 @@ a value for reflectivity, and a normal.
 Controls
 --------
 
-:guilabel:`Material` field
+Material field
    You can browse and select materials here.
-:guilabel:`Diffuse` toggle
+Diffuse toggle
    Turn on/off Diffuse Color.
-:guilabel:`Specular` toggle
+Specular toggle
    Turns on/off Specularity calculation.
-:guilabel:`Invert Normal` toggle
+Invert Normal toggle
    Inverts the material input normal when activated (which, of course, is a combination of the 3D normal given to it by the 3D object plus the normal input point).
 
 
@@ -126,21 +126,21 @@ Adds additional input and output channels to the material node.
 Input
 -----
 
-:guilabel:`Color`
+Color
    Includes a color swatch, allowing you to select the color directly on the node.
-:guilabel:`Mirror Color`
+Mirror Color
    Color of mirrored reflection.
-:guilabel:`Ambient`
+Ambient
    Amount of global ambient color the material receives.
-:guilabel:`Emit`
+Emit
    Amount of light to emit.
-:guilabel:`SpecTra`
+SpecTra
    Alpha for the specular color.
-:guilabel:`Ray Mirror`
+Ray Mirror
    Amount of reflectiveness of the object.
-:guilabel:`Alpha`
+Alpha
    Transparency of the material by setting all pixels in the alpha channel to the given value.
-:guilabel:`Translucency`
+Translucency
    Amount of diffuse shading on the back side
 
 
@@ -162,11 +162,11 @@ Camera Data Node
    Camera Data node
 
 
-:guilabel:`View Vector`
+View Vector
    A Camera space vector from the camera to the shading point.
-:guilabel:`View Z Depth`
+View Z Depth
    How far away each pixel is from the camera
-:guilabel:`View Distance`
+View Distance
    Distance from the camera to the shading point.
 
 
@@ -183,15 +183,15 @@ Lamp Data Node
 The Lamp Data node is used to obtain information related to a specified lamp object.
 Select a lamp object listed in the Lamp field, then the following outputs will be available:
 
-:guilabel:`Color`
+Color
    Lamp color multiplied by the lamp energy.
-:guilabel:`Light Vector`
+Light Vector
    An unit vector in the direction from the shading point to the lamp.
-:guilabel:`Distance`
+Distance
    Distance from the shading point to the lamp.
-:guilabel:`Shadow`
+Shadow
    Shadow color that the other objects cast on the shading point.
-:guilabel:`Visibility Factor`
+Visibility Factor
    Light falloff ratio at the shading point.
 
 The light textures and the shadow textures affect the Color and Shadow outputs, respectively.
@@ -251,18 +251,18 @@ is selected and introduced through the value and/or color socket.
 Input
 -----
 
-:guilabel:`Vector`
+Vector
    Uses for map the texture to a specific geometric space.
 
 
 Outputs
 -------
 
-:guilabel:`Value`
+Value
    Straight black-and-white value of the texture, combined by the node.
-:guilabel:`Color`
+Color
    Texture color output, combined by the node.
-:guilabel:`Normal`
+Normal
    Direction of normal texture, combined by the node.
 
 In the example to the right, a cloud texture, as it would appear to a viewer,
@@ -287,23 +287,23 @@ Use this node to feed the Normal vector input on the Material node,
 to see how the material will look (i.e. shine, or reflect light)
 under different lighting conditions. Your choices are:
 
-:guilabel:`Global`
+Global
    Global position of the surface.
-:guilabel:`Local`
+Local
    Local position of the surface.
-:guilabel:`View`
+View
    Viewed position of the surface.
-:guilabel:`Orco`
+Orco
    Using the Original Coordinates of the mesh.
-:guilabel:`UV`
+UV
    Using the UV coordinates of the mesh, selected in the field in bottom node.
-:guilabel:`Normal`
+Normal
    Surface Normal; On a flat plane with one light above and to the right reflecting off the surface.
-:guilabel:`Vertex Color`
+Vertex Color
    Allows for output value of group vertex colors, selected in the field in bottom node.
-:guilabel:`Vertex Alpha`
+Vertex Alpha
    Allows for output alpha value of vertex.
-:guilabel:`Front/Back`
+Front/Back
    Allows for output to take into account front or back of surface is light relative the camera.
 
 

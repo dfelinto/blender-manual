@@ -14,12 +14,12 @@ Spot Volumetric Effects
 
 :guilabel:`Spot` lights also can produce "volumetric" effects. See :doc:`Volumetric Light </lighting/volumetric_lights>` for more information about what it means.
 
-:guilabel:`Halo`
+Halo
    The :guilabel:`Halo` button allows a :guilabel:`Spot` lamp to have a volumetric effect applied to it. This button must be active if the volumetric effect is to be visible. Note that if you are using buffered shadows, you have extra options described in the :doc:`Spot Buffered Shadows </lighting/lamps/spot/buffered_shadows>` page.
 
-:guilabel:`Intensity`
+Intensity
    The :guilabel:`Intensity` slider controls how intense/dense the volumetric effect is that is generated from the light source. The lower the value of the :guilabel:`Intensity` slider, the less visible the volumetric effect is, while higher :guilabel:`Intensity` values give a much more noticeable and dense volumetric effect.
-:guilabel:`Step`
+Step
    This field can have a value between ``0`` and ``12``. It is used to determine whether this :guilabel:`Spot` will cast volumetric shadows, and what quality those volumetric shadows will have.
    If :guilabel:`Step` is set to a value of ``0``, then no volumetric shadow will be generated.
    Unlike most other controls, as the :guilabel:`Step` value increases, the quality of volumetric shadows decreases (but take less time to render), and *vice versa*.

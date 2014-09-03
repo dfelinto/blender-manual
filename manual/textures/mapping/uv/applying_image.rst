@@ -274,7 +274,7 @@ File
    Premultiply
       Converts RGB from key alpha to premultiplied alpha.
 
-:guilabel:`Movie` and Sequence
+Movie and Sequence
    Frames
       Set the number of frames to use
    Start

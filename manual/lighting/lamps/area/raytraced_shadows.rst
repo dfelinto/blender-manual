@@ -17,7 +17,7 @@ The :guilabel:`Area` light source can only cast ray-traced shadows. The ray-trac
 Shadow Samples
 ==============
 
-:guilabel:`Samples`
+Samples
    This have the same role as with other lamps, but when using a :guilabel:`Rectangle` :guilabel:`Area` lamp, you have two samples settings: :guilabel:`Samples X` and :guilabel:`Samples Y`, for the two axes of the area plane.
    Note also that when using the :guilabel:`Constant Jittered` sample generator method, this is more or less equivalent to the number of virtual lamps in the area. With QMC sample generator methods, it behaves similarly to with :guilabel:`Lamp` or :guilabel:`Spot` lamps.
 
@@ -25,7 +25,7 @@ Shadow Samples
 Sample Generator Types
 ======================
 
-:guilabel:`Adaptive QMC`;\ :guilabel:`Constant QMC`
+Adaptive QMC;\ Constant QMC
    These common setting are described in :doc:`Shadow Properties </lighting/shadows/properties>`.
 
 
@@ -36,15 +36,15 @@ Sample Generator Types
    Constant Jittered settings
 
 
-:guilabel:`Constant Jittered`
+Constant Jittered
    The :guilabel:`Area` lamp has a third sample generator method, :guilabel:`Constant Jittered`, which is more like simulating an array of lights. It has the same options as the old one: :guilabel:`Umbra`, :guilabel:`Dither` and :guilabel:`Jitter`.
 
    The following three parameters are only available when using the :guilabel:`Constant Jittered` sample generator method, and are intended to artificially boost the "soft" shadow effect, with possible loss in quality:
 
-   :guilabel:`Umbra`
+   Umbra
       Emphasizes the intensity of shadows in the area fully within the shadow rays. The light transition between fully shadowed areas and fully lit areas changes more quickly (i.e. a sharp shadow gradient). You need :guilabel:`Samples` values equal to or greater than ``2`` to see any influence of this button.
 
-   :guilabel:`Dither`
+   Dither
       Applies a sampling over the borders of the shadows,
       similar to the way anti-aliasing is applied by the :guilabel:`OSA` button on the borders of an object.
       It artificially softens the borders of shadows; when :guilabel:`Samples` is set very low,
@@ -52,7 +52,7 @@ Sample Generator Types
       It is not useful at all with high :guilabel:`Samples` values, as the borders will already appear soft.
 
 
-   :guilabel:`Jitter`
+   Jitter
       Adds noise to break up the edges of solid shadow samples, offsetting them from each other in a pseudo-random way. Once again, this option is not very useful when you use high :guilabel:`Samples` values where the drawback is that noise generates quite visible graininess.
 
 

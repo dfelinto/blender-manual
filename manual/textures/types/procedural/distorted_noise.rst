@@ -11,21 +11,21 @@ Procedural textures: Distorted Noise
 
 :guilabel:`Distortion Noise` takes the option that you pick from :guilabel:`Noise Basis` and filters it, to create hybrid pattern.
 
-**Often used for**
+Often used for
    Grunge, very complex and versatile
-**Result(s)**
+Result(s)
    Intensity
 
 
 Options
 =======
 
-:guilabel:`Noise Distortion`
+Noise Distortion
    The texture to use to distort another
-:guilabel:`Basis`
+Basis
    The texture to be distorted
-:guilabel:`Noise`
+Noise
    The size of the noise generated
-:guilabel:`Distortion`
+Distortion
    The amount that :guilabel:`Distortion Noise` affects :guilabel:`Basis`
 

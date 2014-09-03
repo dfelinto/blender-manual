@@ -129,17 +129,17 @@ Vertices may not penetrate the balls of other vertices.
 If you want a good result you may have to adjust the size of these balls.
 Normally it works pretty well with the default options.
 
-:guilabel:`Ball Size Caclulation`
-   :guilabel:`Man` ("manual")
+Ball Size Caclulation
+   Man ("manual")
       The :guilabel:`Ball Size` directly sets the ball size (in BU).
-   :guilabel:`Av` ("average")
+   Av ("average")
       The average length of all edges attached to the vertex is calculated and then multiplied with the :guilabel:`Ball Size` setting. Works well with evenly distributed vertices.
-   :guilabel:`Min` / :guilabel:`Max`
+   Min / Max
       The ball size is as large as the smallest/largest spring length of the vertex multiplied with the :guilabel:`Ball Size`.
-   :guilabel:`AvMiMax` ("average min/max")
+   AvMiMax ("average min/max")
       Size = ((Min + Max)/2) × :guilabel:`Ball Size`.
 
-:guilabel:`Ball Size`
+Ball Size
    Default 0.49 BU or fraction of the length of attached edges.
    The edge length is computed based on the algorithm you choose. You know how when someone stands too close to you,
    and feel uncomfortable? We call that our "personal space",
@@ -152,10 +152,10 @@ Normally it works pretty well with the default options.
    will let other vertices get too close and thus possibly intersect because there won't be enough time to slow them
    down.
 
-:guilabel:`Stiffness`
+Stiffness
    Default 1.0. How elastic that ball of personal space is.
 
-:guilabel:`Damping`
+Damping
    Default 0.5. How the vertex reacts. A low value just slows down the vertex as it gets too close. A high value repulses it.
 
 Collisions with other objects are set in the (other) :doc:`Collision panel </physics/collision>`. To collide with another object they have to share at least one common layer.

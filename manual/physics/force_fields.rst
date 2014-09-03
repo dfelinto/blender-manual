@@ -63,23 +63,23 @@ Most Fields have the same settings, even though they act very differently.
 Settings unique to a field type are described below.
 Curve Guide and Texture Fields have very different options.
 
-:guilabel:`Shape`
+Shape
    The field is either a :guilabel:`Point`, with omnidirectional influence, or a :guilabel:`Plane`, constant in the XY-plane, changes only in Z direction.
 
-:guilabel:`Strength`
+Strength
    The strength of the field effect. This can be positive or negative to change the direction that the force operates in. A force field's strength is scaled with the force object's scale, allowing you to scale up and down scene, keeping the same effects.
-:guilabel:`Flow`
+Flow
    Convert effector force into air flow velocity.
 
-:guilabel:`Noise`
+Noise
    Adds noise to the strength of the force.
-:guilabel:`Seed`
+Seed
    Changes the seed of the random noise.
 
-:guilabel:`Effect Point`
+Effect Point
    You can toggle the field's effect on particle :guilabel:`Location` and :guilabel:`Rotation`
 
-:guilabel:`Collision Absorption`
+Collision Absorption
    Force gets absorbed by collision objects.
 
 
@@ -89,23 +89,23 @@ Falloff
 Here you can specify the shape of the force field
 (if the :guilabel:`Fall-off` Power is greater than 0).
 
-:guilabel:`Sphere`
+Sphere
    Falloff is uniform in all directions, as in a sphere.
-:guilabel:`Tube`
+Tube
    Fall off results in a tube shaped force field.
    The Field's :guilabel:`Radial falloff` can be adjusted, as well as the :guilabel:`Minimum` and :guilabel:`Maximum` distances of the field.
-:guilabel:`Cone`
+Cone
    Fall off results in a cone shaped force field. Additional options are the same as those of :guilabel:`Tube` options.
 
-:guilabel:`Z Direction`
+Z Direction
    :guilabel:`Fall-off` can be set to apply only in the direction of the positive Z Axis, negative Z Axis, or both.
 
-:guilabel:`Power` (Power)
+Power (Power)
    How the power of the force field changes with the distance from the force field. If ``r`` is the distance from the center of the object, the force changes with ``1/r``:sup:`Power`. A :guilabel:`Fall-off` of 2 changes the force field with ``1/r``:sup:`2`, which is the falloff of gravitational pull.
 
-:guilabel:`Max Distance`
+Max Distance
    Makes the force field only take effect within a specified maximum radius (shown by an additional circle around the object).
-:guilabel:`Min Distance`
+Min Distance
    The distance from the object center, up to where the force field is effective with full strength. If you have a :guilabel:`Fall-off` of 0 this parameter does nothing, because the field is effective with full strength up to :guilabel:`Max Dist` (or the infinity). Shown by an additional circle around the object.
 
 
@@ -175,9 +175,9 @@ If you set the :guilabel:`Damping` parameter to 1,
 the movement is stopped in the moment the object is reached.
 This force field is really special if you assign it to particles.
 
-:guilabel:`Rest Length`
+Rest Length
    Controls the rest length of the harmonic force.
-:guilabel:`Multiple Springs`
+Multiple Springs
    Causes every point to be affected by multiple springs.
 
 Normally every particle of the field system influences every particle of the target system.
@@ -220,26 +220,26 @@ green for the y-axis and blue for the z-axis
 a value larger than 0.5 acceleration in negative axis direction (like -Z),
 a value smaller than 0.5 acceleration in positive axis direction (like +Z).
 
-:guilabel:`Texture mode`
+Texture mode
    This sets the way a force vector is derived from the texture.
 
-   :guilabel:`RGB`
+   RGB
       Uses the color components directly as the force vector components in the color encoded directions. You need an RGB texture for this, e.g. an image or a colorband. So a :guilabel:`Blend` texture without a colorband would not suffice.
-   :guilabel:`Gradient`
+   Gradient
       Calculates the force vector as the 3d-gradient of the intensity (grayscale) of the texture. The gradient vector always points to the direction of increasing brightness.
-   :guilabel:`Curl`
+   Curl
       Calculates the force vector from the curl of the 3d-rgb texture (rotation of rgb vectors). This also works only with a color texture. It can be used for example to create a nice looking turbulence force with a color clouds texture with perlin noise.
 
-:guilabel:`Nabla`
+Nabla
    It is the offset used to calculate the partial derivatives needed for :guilabel:`Gradient` and :guilabel:`Curl` texture modes.
 
-:guilabel:`Use Object Coordinates`
+Use Object Coordinates
    Uses the emitter object coordinates (and rotation & scale) as the texture space the particles use. Allows for moving force fields, that have their coordinates bound to the location coordinates of an object.
 
-:guilabel:`Root Texture Coordinates`
+Root Texture Coordinates
    This is useful for hair as it uses the texture force calculated for the particle root position for all parts of the hair strand.
 
-:guilabel:`2D`
+2D
    The :guilabel:`2D` button disregards the particles z-coordinate and only uses particles x&y as the texture coordinates.
 
 Remember that only procedural texture are truly 3D.
@@ -270,31 +270,31 @@ to :guilabel:`Spin` and leave the rotation constant (i.e. don't turn on :guilabe
 
 :guilabel:`Curve Guide` s affect all particles on the same layer, independently from their distance to the curve. If you have several guides in a layer, their fields add up to each other (the way you may have learned it in your physics course). But you can limit their influence radius:
 
-:guilabel:`Minimum Distance`
+Minimum Distance
    The distance from the curve, up to where the force field is effective with full strength. If you have a :guilabel:`Fall-off` of 0 this parameter does nothing, because the field is effective with full strength up to :guilabel:`MaxDist` (or the infinity). :guilabel:`MinDist` is shown with a circle at the endpoints of the curve in the 3D window.
 
 
-:guilabel:`Free`
+Free
    Fraction of particle life time, that is not used for the curve.
 
-:guilabel:`Fall-off`
+Fall-off
    This setting governs the strength of the guide between :guilabel:`MinDist` and :guilabel:`MaxDist`. A :guilabel:`Fall-off` of 1 means a linear progression.
 
 A particle follows a :guilabel:`Curve Guide` during it's lifetime,
 the velocity depends from it's lifetime and the length of the path.
 
-:guilabel:`Additive`
+Additive
    If you use :guilabel:`Additive`, the speed of the particles is also evaluated depending on the :guilabel:`Fall-off`.
-:guilabel:`Weights`
+Weights
    Use Curve weights to influence the particle influence along the curve.
-:guilabel:`Maximum Distance` / :guilabel:`Use Max`
+Maximum Distance / Use Max
    The maximum influence radius. Shown by an additional circle around the curve object.
 
 The other settings govern the form of the force field along the curve.
 
-:guilabel:`Clumping Amount`
+Clumping Amount
    The particles come together at the end of the curve (1) or they drift apart (-1).
-:guilabel:`Shape`
+Shape
    Defines the form in which the particles come together. +0.99: the particles meet at the end of the curve. 0: linear progression along the curve. -0.99: the particles meet at the beginning of the curve.
 
 
@@ -308,25 +308,25 @@ The other settings govern the form of the force field along the curve.
 
 With the drop down box :guilabel:`Kink`, you can vary the form of the force field:
 
-:guilabel:`Curl`
+Curl
    The radius of the influence depends on the distance of the curve to the emitter.
-:guilabel:`Radial`
+Radial
    A three dimensional, standing wave.
-:guilabel:`Wave`
+Wave
    A two dimensional, standing wave.
-:guilabel:`Braid`
+Braid
    Braid.
-:guilabel:`Roll`
+Roll
    A one dimensional, standing wave.
 
 It is not so easy to describe the resulting shapes, I hope it's shown clearly enough in
 (*Image 4b*).
 
-:guilabel:`Frequency`
+Frequency
    The frequency of the offset.
-:guilabel:`Shape`
+Shape
    Adjust the offset to the beginning/end.
-:guilabel:`Amplitude`
+Amplitude
    The Amplitude of the offset.
 
 
@@ -351,9 +351,9 @@ Turbulence
 
 Create a random turbulence effect with a 3d noise.
 
-:guilabel:`Size`
+Size
    Indicates the scale of the noise.
-:guilabel:`Global`
+Global
    Makes the size and strength of the noise relative to the world, instead of the object it is attached to.
 
 
@@ -363,9 +363,9 @@ Drag
 
 Drag is a force that works to resist particle motion by slowing it down.
 
-:guilabel:`Linear`
+Linear
    Drag component proportional to velocity.
-:guilabel:`Quadratic`
+Quadratic
    Drag component proportional to the square of the velocity.
 
 

@@ -102,7 +102,7 @@ the :guilabel:`Property` window fills with many panels and buttons.
 But don't panic! There are two different types of particle systems,
 and you can change between these two with the :guilabel:`Type` drop-down list:
 
-:guilabel:`Emitter`
+Emitter
    This parallels the old system to the greatest extent.
    In such a system, particles are emitted from the selected object
    from the :guilabel:`Start` frame to the :guilabel:`End` frame and have a certain lifespan.

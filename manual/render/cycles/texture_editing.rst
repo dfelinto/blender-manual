@@ -14,15 +14,15 @@ rather they must always be assigned by adding an image texture node to a materia
 The Texture draw types used for Blender Internal have been replaced by three others in Cycles:
 
 
-**Texture**
+Texture
    This draw mode is used for editing, painting and mapping individual textures.
    Lighting is the same as in solid mode, so this is similar to the existing textured solid for Blender Internal.
    The texture drawn is the active image texture node for the material.
-**Material**
+Material
    A simplified version of the entire material is drawn using GLSL shaders.
    This uses solid lighting, and also is mostly useful for editing, painting and mapping textures,
    but while seeing how they integrate with the material.
-**Rendered**
+Rendered
    In this draw mode the render engine does the drawing,
    interactively refining the full rendered image by taking more samples.
    Unlike offline rendering, objects still use the viewport rather than render resolution and visibility.

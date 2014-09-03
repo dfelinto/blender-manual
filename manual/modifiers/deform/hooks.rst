@@ -35,13 +35,13 @@ Options
    Hook modifier
 
 
-:guilabel:`Object`
+Object
    The parent object name for the hook.
 
-:guilabel:`Falloff`
+Falloff
    If not zero, the falloff is the distance where the influence of a hook goes to zero. It uses a smooth interpolation, comparable to the :doc:`proportional editing tool </3d_interaction/transform_control/proportional_edit>`.
 
-:guilabel:`Force`
+Force
    Since multiple hooks can work on the same vertices, you can weight the influence of a hook this way. Weighting rules are:
 
    - If the total of all forces is smaller than ``1.0``, the remainder (``1.0 - (forces sum)``, will be the factor the original position has as its force.
@@ -49,14 +49,14 @@ Options
 
 The following settings are only available in :guilabel:`Edit mode`:
 
-:guilabel:`Reset`
+Reset
    Recalculate and clear the offset transform of hook.
-:guilabel:`Recenter`
+Recenter
    Set hook center to cursor position.
 
-:guilabel:`Select`
+Select
    Select affected vertices on mesh.
-:guilabel:`Reassign`
+Reassign
    Reassigns selected vertices to this hook.
 
 

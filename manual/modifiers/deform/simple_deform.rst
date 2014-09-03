@@ -35,7 +35,7 @@ allowing application of very different effects.
 Options
 =======
 
-:guilabel:`Mode`
+Mode
    This drop-down list defines the deform function applied, among four available:
 
    - :guilabel:`Twist` - Rotates around the Z axis.
@@ -43,10 +43,10 @@ Options
    - :guilabel:`Taper` - Linearly scales along Z axis.
    - :guilabel:`Stretch` - Stretches the object along the Z axis (negative :guilabel:`Factor` leads to squash).
 
-:guilabel:`Vertex Group`
+Vertex Group
    The name of the vertex group that indicates whether and how much each vertex is influenced by the deformation.
 
-:guilabel:`Origin`
+Origin
    The name of an object that defines the origin of deformation (usually an empty). This object can be:
 
    - Rotated to control the axis (as it is its Z axis that is now used as "guide").
@@ -58,13 +58,13 @@ Options
    When the object controlling the origin (the one in the :guilabel:`Origin` field) is a child of the deformed object, this creates a cyclic dependency in Blender's data system (the DAG - "dependency graph"?). The workaround is to create a new empty and attach both objects to it.
 
 
-:guilabel:`Factor`
+Factor
    The amount of deformation.  Can be set to negative.
 
-:guilabel:`Limits`
+Limits
    These settings allow you to set the lower and upper limits of the deformation (they are proportional values, from ``0.0`` to ``1.0``). Obviously, the upper limit can't be lower than lower limit.
 
-:guilabel:`Lock X Axis` / :guilabel:`Lock Y Axis` (:guilabel:`Taper` and :guilabel:`Stretch` modes only)
+Lock X Axis / Lock Y Axis (Taper and Stretch modes only)
    These controls whether the X and/or Y coordinates are allowed to change or not. Thus it is possible to squash the X coordinates of an object and keep the Y coordinates intact.
 
 

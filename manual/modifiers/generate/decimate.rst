@@ -39,11 +39,11 @@ Options
    decimate modifier
 
 
-:guilabel:`Ratio`
+Ratio
    The ratio of faces to keep after decimation, from ``0.0`` (0%, all faces have been completely removed) to ``1.0`` (100%, mesh is completely intact, except quads have been triangulated).
    As the percentage drops from ``1.0`` to ``0.0``, the mesh becomes more and more decimated until it no longer visually looks like the original mesh.
 
-:guilabel:`Face Count` (display only)
+Face Count (display only)
    This field shows the number of remaining faces as a result of applying the :guilabel:`Decimate` modifier.
 
 

@@ -28,19 +28,19 @@ This tool allows you to merge all selected vertices to an unique one, deleting a
 can choose the location of the surviving vertex in the menu this tool pops up before
 executing:
 
-:guilabel:`At First`
+At First
    Only available in :guilabel:`Vertex` select mode, it will place the remaining vertex at the location of the first one selected.
 
-:guilabel:`At Last`
+At Last
    Only available in :guilabel:`Vertex` select mode, it will place the remaining vertex at the location of the last one selected (the active one).
 
-:guilabel:`At Center`
+At Center
    Available in all select modes, it will place the remaining vertex at the center of the selection.
 
-:guilabel:`At Cursor`
+At Cursor
    Available in all select modes, it will place the remaining vertex at the 3D Cursor.
 
-:guilabel:`Collapse`
+Collapse
    This is a special option, as it might let "live" more than one vertex. In fact, you will have as much remaining vertices as you had "islands" of selection (i.e. groups of linked selected vertices). The remaining vertices will be positioned at the center of their respective "islands". It is also available *via* the :menuselection:`Mesh --> Edges --> Collapse` menu option...
 
 Merging vertices of course also deletes some edges and faces. But Blender will do everything
@@ -77,9 +77,9 @@ Remove Doubles
 
 Remove Doubles is a useful tool to simplify a mesh by merging vertices that are closer than a specified distance to each other. An alternate way to simplify a mesh is to use the :doc:`Decimate modifier </modifiers/generate/decimate>`.
 
-:guilabel:`Merge Distance`
+Merge Distance
    Sets the distance threshold for merging vertices, in Blender units.
-:guilabel:`Unselected`
+Unselected
    Allows vertices in selection to be merged with unselected vertices. When disabled, selected vertices will only be merged with other selected ones.
 
 

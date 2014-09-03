@@ -37,20 +37,20 @@ Options
    Mirror modifier
 
 
-:guilabel:`Axis`
+Axis
    The axis (:guilabel:`X`, :guilabel:`Y`, or :guilabel:`Z`) along which to mirror (i.e. the axis perpendicular to the mirror plane of symmetry). To understand how the axis applies to the mirror direction, if you were to mirror on the X axis, the X plus values of the original mesh would become X minus values on the mirrored instance.
    You can select more than one of these axes - you'll then get more mirror instances, so that all planes of symmetry selected are "fully processed" (i.e. with one axis you get a single mirror, with two axes four mirrors, and with all three axes eight mirrors).
 
-:guilabel:`Options`:
-   :guilabel:`Merge`
+Options:
+   Merge
       Merges vertices at the mirror plane.  See :guilabel:`Merge Limit` below.
 
-   :guilabel:`Clipping`
+   Clipping
       Prevents vertices from crossing through the mirror plane(s). Note that this is only valid in :guilabel:`Edit mode` (i.e when using object transformations, translations, scaling, et cetera, in :guilabel:`Object mode`, vertices will happily cross these borders.)
       If :guilabel:`Clipping` is selected but vertices are outside of the :guilabel:`Merge Limit` the vertices will not merge. As soon as the vertices are within :guilabel:`Merge Limit` they are clipped together and cannot be moved beyond the mirror plane. If several vertices are selected and are at different distances from the mirror plane, they will one by one be clipped at the mirror plane.
       Once you have confirmed clipped vertices with :kbd:`lmb` you must, if you want to break the clipping, un-select :guilabel:`Clipping` to be able to move vertices away from the mirror.
 
-   :guilabel:`Vertex Groups`
+   Vertex Groups
       When this button is enabled, the :guilabel:`Mirror` modifier will try to mirror existing vertex groups. A very nice feature, but that has quite specific prerequisites.
 
    - First, the vertex groups you want to mirror must be named following the usual left/right pattern (i.e. suffixed by something like "\ ``.R`` ", "\ ``.right`` ", "\ ``.L`` ", et cetera).
@@ -65,13 +65,13 @@ Options
 
      A final word about multi-axes mirror: in these cases, the "direct", "first level" copies get the mirrored groups, the copies of copies ("second level") get the original groups, et cetera.
 
-:guilabel:`Textures`
+Textures
    The :guilabel:`U` and :guilabel:`V` options allows you to mirror, respectively, the U and V texture coordinates. The values are "mirrored" around the ``0.5`` value, i.e. if you have a vertex with UV coordinates of (``0.3``, ``0.85``), its mirror copy will have UV coordinates of (``0.7``, ``0.15``) with both buttons enabled.
 
-:guilabel:`Merge Limit`
+Merge Limit
    The maximal distance between vertices and mirror plane for the welding between original and mirrored vertices to take place. The vertices then will snap together, allowing linking the original mesh to its mirrored copy.
 
-:guilabel:`Mirror Object`
+Mirror Object
    The name of another object (usually an empty), to be used as the reference for the mirror process: its center and axes will drive the plane(s) of symmetry. You can of course animate its position/rotation (Ipo curves or others), to animate the mirror effect.
 
 

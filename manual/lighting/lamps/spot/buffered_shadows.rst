@@ -28,7 +28,7 @@ the currently selected :guilabel:`Spot` light generates shadows,
 using a "shadow buffer" rather than using raytracing,
 and various extra options and buttons appear in the :guilabel:`Shadow` panel.
 
-:guilabel:`Buffer Type`
+Buffer Type
    There more than one way to generate buffered shadows. The shadow buffer generation type controls which generator to use.
 There are four shadow generation types, those being:
 
@@ -54,12 +54,12 @@ For more information on the different shadow generation methods see these links:
    Buffer Shadowset to Classic-Halfway
 
 
-:guilabel:`Classical`
+Classical
    A shadow generation which used to be the Blender default and unique method for generation of buffered shadows. It used an older way of generating buffered shadows, but it could have some problems with accuracy of the generated shadows and can be very sensitive to the resolution of the shadow buffer (:guilabel:`Shadow Buffer` →\ :guilabel:`Size`), different :guilabel:`Bias` values, and all the self-shadowing issues that brings up.
 
    The :guilabel:`Classical` method of generating shadows is obsolete and is really only still present to allow for backward compatibility with older versions of Blender.  In most other cases you will want to use :guilabel:`Classic-Halfway` instead.
 
-:guilabel:`Classic-Halfway`
+Classic-Halfway
    This shadow buffer type is an improved shadow buffering method and is the default option selected in Blender. It works by taking an averaged reading of the first and second nearest Z depth values allowing the :guilabel:`Bias` value to be lowered and yet not suffer as much from self-shadowing issues.
 
    Not having to increase :guilabel:`Bias` values helps with shadow accuracy, because large :guilabel:`Bias` values can mean small faces can lose their shadows, as well as preventing shadows being overly offset from the larger :guilabel:`Bias` value.
@@ -68,7 +68,7 @@ For more information on the different shadow generation methods see these links:
 
 Here are now the options specific to these generation methods:
 
-:guilabel:`Size`
+Size
    The :guilabel:`Size` numeric field can have a value from ``512`` to ``10240``. :guilabel:`Size` represents the resolution used to create a shadow map. This shadow map is then used to determine where shadows lay within a scene.
 
    As an example, if you have a :guilabel:`Size` with a value of ``1024``, you are indicating that the shadow data will be written to a buffer which will have a square resolution of **1024×1024** pixels/samples from the selected spotlight.
@@ -86,12 +86,12 @@ Here are now the options specific to these generation methods:
    If you have a spotlight that is large you will need to have a larger buffer :guilabel:`Size` to keep the shadows good quality. The reverse is true also - the quality of the generated shadows will usually improve (up to a point) as the :guilabel:`Spot` lamp covers a smaller area.
 
 
-:guilabel:`Filter Type`
+Filter Type
    The :guilabel:`Box`, :guilabel:`Tent`, and :guilabel:`Gauss` filter types control what filtering algorithm to use to anti-alias the buffered shadows.
 
    They are closely related to the :guilabel:`Samples` numeric field, as when this setting is set to ``1``, shadow filtering is disabled, so none of these buttons will have any effect what soever.
 
-   :guilabel:`Box`
+   Box
       The buffered shadows will be anti-aliased using the "box" filtering method.
       This is the original filter used in Blender.
       It is relatively low quality and is used for low resolution renders, as it produces very sharp anti-aliasing.
@@ -100,27 +100,27 @@ Here are now the options specific to these generation methods:
       and doesn't take into account surrounding pixel samples.
       It is often useful for images which have sharply angled elements and horizontal/vertical lines.
 
-   :guilabel:`Tent`
+   Tent
       The buffered shadows will be anti-aliased using the "tent" filtering method.
       It is a simple filter that gives sharp results, an excellent general purpose filtering method. This filter also takes into account the sample values of neighboring pixels when calculating its final filtering value.
 
-   :guilabel:`Gauss`
+   Gauss
       The buffered shadows will be anti-aliased using the "Gaussian" filtering method.
       It produces a very soft/blurry anti-aliasing. As result, this filter is excellent with high resolution renders.
 
    The :doc:`Anti-Aliasing page </render/options/antialiasing>` in the Render chapter will give more information on the various filtering/distribution methods and their uses.
 
-:guilabel:`Samples`
+Samples
    The :guilabel:`Samples` numeric field can have a value between ``1`` and ``16``. It controls the number of samples taken per pixel when calculating shadow maps.
 
    The higher this value, the more filtered, smoothed and anti-aliased the shadows cast by the current lamp will be, but the longer they will take to calculate and the more memory they will use. The anti-aliasing method used is determined by having one of the :guilabel:`Box`, :guilabel:`Tent` or :guilabel:`Gauss` buttons activated (see above).
 
    Having a :guilabel:`Samples` value of ``1`` is similar to turning off anti-aliasing for buffered shadows.
 
-:guilabel:`Soft`
+Soft
    The :guilabel:`Soft` numeric field can have a value between ``1.0`` and ``100.0``. It indicates how wide an area is sampled when doing anti-aliasing on buffered shadows. The larger the :guilabel:`Soft` value, the more graduated/soft the area that is anti-aliased/softened on the edge of generated shadows.
 
-:guilabel:`Sample Buffers`
+Sample Buffers
    The :guilabel:`Sample Buffers` setting can be set to values ``1``, ``4`` or ``9``, and represents the number of shadow buffers that will be used when doing anti-aliasing on buffered shadows.
 
    This option is used in special cases, like very small objects which move and need to generate really small shadows (such as strands). It appears that normally, pixel width shadows don't anti-alias properly, and that increasing :guilabel:`Buffer Size` doesn't help much.
@@ -159,7 +159,7 @@ Deep generation method
    Buffer Shadow set to Deep
 
 
-:guilabel:`Deep` Shadow buffer supports transparency and better filtering , at the cost of more memory usage and processing time
+Deep Shadow buffer supports transparency and better filtering , at the cost of more memory usage and processing time
    :guilabel:`Compress`: Deep shadow map compression treshold
 
 
@@ -168,7 +168,7 @@ Common options
 
 The following settings are common to all buffered shadow generation method.
 
-:guilabel:`Bias`
+Bias
    The :guilabel:`Bias` numeric field can have a value between ``0.001`` and ``5.0``. :guilabel:`Bias` is used to add a slight offset distance between an object and the shadows cast by it. This is sometimes required because of inaccuracies in the calculation which determines weather an area of an object is in shadow or not.
 
    Making the :guilabel:`Bias` value smaller results in the distance between the object and its shadow being smaller. If the :guilabel:`Bias` value is too small, an object can get artifacts, which can appear as lines and interference patterns on objects. This problem is usually called "self shadowing", and can usually be fixed by increasing the :guilabel:`Bias` value, which exists for that purpose!
@@ -185,7 +185,7 @@ The following settings are common to all buffered shadow generation method.
    You can now refine the :guilabel:`Bias` value independently for each :doc:`Material </materials>`, using the :guilabel:`Bias` slider (:guilabel:`Material` menu, :guilabel:`Shadow` panel). This value is a factor by which the :guilabel:`Bias` value of each :guilabel:`Spot` buffered shadows lamp is multiplied, each time its light hits an object using this material. The ``0.0`` and ``1.0`` values are equivalent - they do not alter the lamp's :guilabel:`Bias` original value.
 
 
-:guilabel:`Clip Start` & :guilabel:`Clip End`
+Clip Start & Clip End
    When a :guilabel:`Spot` light with buffered shadows is added to a scene, an extra line appears on the :guilabel:`Spot` 3D view representation.
 
    The start point of the line represents :guilabel:`Clip Start` 's value and the end of the line represents :guilabel:`Clip End` 's value. :guilabel:`Clip Start` can have a value between ``0.1`` and ``1000.0``, and :guilabel:`Clip End`, between ``1.0`` and ``5000.0``. Both values are represented in Blender Units.
@@ -200,7 +200,7 @@ The following settings are common to all buffered shadow generation method.
 
    When using a :guilabel:`Spot` lamp with buffered shadows, to maintain or increase quality of generated shadows, it is helpful to adjust the :guilabel:`Clip Start` and :guilabel:`Clip End` such that their values closely bound around the areas which they want to have shadows generated at. Minimizing the range between :guilabel:`Clip Start` and :guilabel:`Clip End`, minimizes the area shadows are computed in and therefore helps increase shadow quality in the more restricted area.
 
-:guilabel:`Autoclip Start` & :guilabel:`Autoclip End`
+Autoclip Start & Autoclip End
    As well as manually setting :guilabel:`Clip Start` and :guilabel:`Clip End` fields to control when buffered shadows start and end, it is also possible to have Blender pick the best value independently for each :guilabel:`Clip Start` and :guilabel:`Clip End` field.
 
    Blender does this by looking at where the visible vertices are when viewed from the :guilabel:`Spot` lamp position.

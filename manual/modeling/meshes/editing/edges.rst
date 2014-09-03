@@ -97,9 +97,9 @@ Edge Slide
 Slides one or more edges across adjacent faces with a few restrictions involving the selection
 of edges (i.e. the selection must make sense, see below.)
 
-:guilabel:`Even`:kbd:`E`
+Even:kbd:`E`
    Forces the edge loop to match the shape of the adjacent edge loop. You can flip to the opposite vertex using :kbd:`F`. Use :kbd:`Alt-wheel` to change the control edge.
-:guilabel:`Flip` :kbd:`F`
+Flip :kbd:`F`
    When Even mode is active, this flips between the two adjacent edge loops the active edge loop will match
 
 :kbd:`lmb` confirms the tool, and :kbd:`rmb` or :kbd:`Esc` cancels.

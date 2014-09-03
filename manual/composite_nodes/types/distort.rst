@@ -357,11 +357,11 @@ Crop Node
 
 The Crop Node takes an input image and crops it to a selected region.
 
-:guilabel:`Crop Image Size`
+Crop Image Size
    When enabled, the image size is cropped to the specified region. When disabled, image remains the same size, and uncropped areas become transparent pixels.
-:guilabel:`Relative`
+Relative
    When enabled, crop dimensions are a percentage of the image's width and height. When disabled, the range of the sliders are the width and height of the image in pixels.
-:guilabel:`Crop Region Values`
+Crop Region Values
    These sliders define the lower, upper, left, and right borders if the crop region.
 
 
@@ -370,15 +370,15 @@ Lens Distortion
 
 Use this node to simulate distortions that real camera lenses produce.
 
-:guilabel:`Distort`
+Distort
    This creates a bulging or pinching effect from the center of the image.
-:guilabel:`Dispersion`
+Dispersion
    This simulates chromatic aberration, where different wavelengths of light refract slightly differently, creating a rainbow colored fringe.
 
-:guilabel:`Projector`
+Projector
    Enable or disable slider projection mode. When on, distortion is only applied horizontally. Disables :guilabel:`Jitter` and :guilabel:`Fit`.
-:guilabel:`Jitter`
+Jitter
    Adds jitter to the distortion. Faster, but noisier.
-:guilabel:`Fit`
+Fit
    Scales image so black areas are not visible. Only works for positive distortion.
 

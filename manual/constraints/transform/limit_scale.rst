@@ -49,7 +49,7 @@ Options
    Limit Scale panel
 
 
-:guilabel:`Minimum` / :guilabel:`Maximum` :guilabel:`X`, :guilabel:`Y`, :guilabel:`Z`
+Minimum / Maximum X, Y, Z
    These buttons enable the lower boundary for the scale of the owner along respectively the X,
    Y and Z axes of the chosen :guilabel:`Space`.
    The :guilabel:`Min` and :guilabel:`Max` numeric fields to their right control the value of their lower and upper
@@ -58,7 +58,7 @@ Options
    the constraint behaves as if it had the same value as the max one.
 
 
-:guilabel:`For Transform`
+For Transform
    We saw that by default, even though visually constrained, and except for the negative values,
    the owner can still have scales out of bounds (as shown by the :guilabel:`Transform Properties` panel). Well,
    when you enable this button,
@@ -67,7 +67,7 @@ Options
    you have to scale its owner one way or another for this to take effect.
 
 
-:guilabel:`Convert`
+Convert
    This constraint allows you to choose in which space to evaluate its owner's transform properties.
 
 

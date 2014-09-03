@@ -20,7 +20,7 @@ in effect making the parts of the mesh that are masked act as if they were no lo
 Options
 =======
 
-:guilabel:`Mode`
+Mode
    The :guilabel:`Mask` modifier can hide parts of a mesh based on two different modes, selectable from this drop-down list:
 
 
@@ -31,7 +31,7 @@ Options
    Vertex Group
 
 
-   :guilabel:`Vertex Group`
+   Vertex Group
       When the :guilabel:`Vertex Group` option is selected, the :guilabel:`Mask` modifier uses the specified vertex group
       to determine which parts of the mesh are masked by the modifier.
 
@@ -55,10 +55,10 @@ Options
    Armature
 
 
-   :guilabel:`Armature`
+   Armature
       Useful in :guilabel:`Pose Mode` or when editing an armature. Enter the name of the armature object in the text field.  When working with bones in :guilabel:`Pose` mode, vertex groups not associated with the active bone are masked. The :guilabel:`Inverse` button can be useful to see how a bone affects the mesh down the chain of bones.
 
-:guilabel:`Inverse`
+Inverse
    Normally, when the :guilabel:`Mask` modifier is applied to areas of a mesh, the parts that are under the influence of the modifier are left visible while the parts that aren't are hidden. The :guilabel:`Inverse` button reverses this behavior, in that now parts of the mesh that were not originally visible become visible, and the parts that were visible become hidden.
 
 

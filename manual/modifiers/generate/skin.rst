@@ -27,20 +27,20 @@ Options
    Skin modifier UI.
 
 
-:guilabel:`Create Armature`
+Create Armature
    Create an armature for your object.
-:guilabel:`Branch Smoothing`
+Branch Smoothing
    Smooth the intersection vertices.
-:guilabel:`Selected Vertices`
+Selected Vertices
    TODO
-:guilabel:`Mark Loose`
+Mark Loose
    Mark the selected vertices as loosing points.
    Loosing defines points which merge their faces with each other to fill gaps.
-:guilabel:`Clear Loose`
+Clear Loose
    Take the Loose away. The initial behavior.
-:guilabel:`Mark Root`
+Mark Root
    Defines the root points of the object. These are the center of the object.
-:guilabel:`Equalize Radii`
+Equalize Radii
    Makes the skin radii of selected vertices equal on each axis.
 
 

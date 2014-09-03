@@ -226,15 +226,15 @@ Here two drivers have been added to the Cube, X Location and Y Location.
 The scripted expressions are being used to set the object location.
 
 X Location Expr
-   **0+(sin(frame/8)*4)**
-      **(frame/8)** : is the current frame of the animation, divided by 8 to slow the orbit down.
-      **(sin( )*4)** : This returns the sine of (frame/8), then multiplies by 4 for a bigger circle.
-      **0+** : is used to control the X Location offset of the orbit.
+   ``0 + (sin(frame / 8) * 4)``
+      ``(frame/8)`` : is the current frame of the animation, divided by 8 to slow the orbit down.
+      ``(sin( )*4)`` : This returns the sine of (frame/8), then multiplies by 4 for a bigger circle.
+      ``0 +** : is used to control the X Location offset of the orbit.
 Y Location Expr
-   **0+(cos(frame/8)*4)**
-      **(frame/8)** : is the current frame of the animation, divided by 8 to slow the orbit down.
-      **(cos( )*4)** : This returns the cosine of (frame/8), then multiplies by 4 for a bigger circle.
-      **0+** : is used to control the Y Location offset of the orbit.
+   ``0 + (cos(frame / 8) * 4)``
+      ``(frame / 8)`` : is the current frame of the animation, divided by 8 to slow the orbit down.
+      ``(cos( ) * 4)`` : This returns the cosine of (frame/8), then multiplies by 4 for a bigger circle.
+      ``0 +`` : is used to control the Y Location offset of the orbit.
 
 **frame** is the same as bpy.context.scene.frame_current.
 

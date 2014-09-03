@@ -13,24 +13,24 @@ Clouds represent Perlin noise. In addition, each noise-based Blender texture
 (with the exception of Voronoi and simple noise) has a "Noise Basis" setting that allows the
 user to select which algorithm is used to generate the texture.
 
-**Often used for**
+Often used for
    Clouds, Fire, Smoke. Well-suited to be used as a Bump map, giving an overall irregularity to the material.
-**Result(s)**
+Result(s)
    :guilabel:`Greyscale` (default) or RGB :guilabel:`Color`
 
 
 Options
 =======
 
-:guilabel:`Greyscale`
+Greyscale
    The standard noise, gives an intensity
-:guilabel:`Color`
+Color
    The noise gives an RGB value
-:guilabel:`Noise`
+Noise
    :guilabel:`Soft` or :guilabel:`Hard`, changes contrast and sharpness
-:guilabel:`Size`
+Size
    The dimension of the Noise table
-:guilabel:`Depth`
+Depth
    The depth of the :guilabel:`Clouds` calculation. A higher number results in a long calculation time, but also in finer details.
 
 

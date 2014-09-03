@@ -9,9 +9,9 @@ Procedural textures: Voronoi
    Voronoi Texture Panels
 
 
-**Often used for**
+Often used for
    Very convincing Metal, especially the "Hammered" effect. Organic shaders (e.g. scales, veins in skin).
-**Result(s)**
+Result(s)
    Intensity (default) and Color
 
 
@@ -55,10 +55,10 @@ Distance Metric
 +-------------------------------------------+------------------------------------------+-------------------------------------------------------+
 
 
-:guilabel:`Feature Weights`
+Feature Weights
    These four sliders at the bottom of the Voronoi panel represent the values of the four Worley constants, which are used to calculate the distances between each cell in the texture based on the distance metric. Adjusting these values can have some interesting effects on the end result...    Comment: <!-- (no gallery yet) Check the Samples Gallery for some examples of these settings and what textures they produce. --> .
 
-:guilabel:`Coloring`
+Coloring
    Four settings (:guilabel:`Intensity`, :guilabel:`Position`, :guilabel:`Position and Outline`, and :guilabel:`Position, Outline, and Intensity`) that can use four different noise basis as methods to calculate color and intensity of the texture output. This gives the Voronoi texture you create with the "Worley Sliders" a completely different appearance and is the equivalent of the noise basis setting found on the other textures.
 
 

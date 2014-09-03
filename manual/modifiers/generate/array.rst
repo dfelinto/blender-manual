@@ -75,7 +75,7 @@ Count
    - Applying the scale with the :guilabel:`Apply Scale` button can be useful for each one.
 
 
-:guilabel:`Constant Offset`, :guilabel:`X`, :guilabel:`Y`, :guilabel:`Z`
+Constant Offset, X, Y, Z
    Adds a constant translation component to the duplicate object's offset. X, Y and Z constant components can be specified.
 
 :guilabel:`Relative Offset`, :guilabel:`X`, :guilabel:`Y`, :guilabel:`Z`

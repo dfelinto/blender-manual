@@ -197,7 +197,7 @@ please go to the :doc:`System </preferences/system>` preferences page.
    Square (HS + V)
 
 
-   :guilabel:`Square (HS + V)`
+   Square (HS + V)
       Hue, Saturation plus Value  **→** A full gamut of colors is always shown.
       Brightness is subtracted from the base color chosen on the square of the color picker moving the slider to the left.
       For operations that are capable of using Alpha, another slider is added at the bottom of the color picker.
@@ -210,7 +210,7 @@ please go to the :doc:`System </preferences/system>` preferences page.
    Square (SV + H)
 
 
-   :guilabel:`Square (SV + H)`
+   Square (SV + H)
       Saturation, Value plus Hue  **→** A full Gamut of colors is always shown at the bar in the middle of the color picker.
       Colors are adjusted using the a range of brightness of the base color chosen at the color bar in the middle of the picker.
       For operations that are capable of using Alpha, another slider is added at the bottom of the color picker.
@@ -223,7 +223,7 @@ please go to the :doc:`System </preferences/system>` preferences page.
    Square (HV + S)
 
 
-   :guilabel:`Square (HV + S)`
+   Square (HV + S)
       Hue, Value and Saturation  **→** A full gamut of colors is always shown at the square of the color picker.
       Brightness is added to the base color chosen on the square of the color picker moving the slider to the left.
       For operations that are capable of using Alpha, another slider is added at the bottom of the color picker.
@@ -263,55 +263,55 @@ See *Colorband before* and *Colorband after*.
 +-------------------------------------------------------------------+------------------------------------------------------------------+
 
 
-:guilabel:`Color Ramps`
+Color Ramps
    :guilabel:`Color Ramps` enables the user to specify a range of colors based on color stops.
    Color stops are similar to a mark indicating where the exact chosen color should be.
    The interval from each of the color stops added to the ramp is a result of the color interpolation and
    chosen interpolation method. The available options for Color Ramps are:
 
 
-   :guilabel:`Add` (Button)
+   Add (Button)
       Clicking on this button will add a stop to your custom weight paint map.
       The stops are added from the last selected stop to the next one, from left to right and
       they will be placed in the middle of both stops.
 
 
-   :guilabel:`Delete` (Button)
+   Delete (Button)
       Deletes the selected color stop from the list.
 
 
-   :guilabel:`'F'` (Button)
+   'F' (Button)
       Flips the color band, inverting the values of the custom weight paint range.
 
 
-   :guilabel:`Numeric Field`
+   Numeric Field
       Whenever the user adds a color stop to the custom weight paint range, the color stop will receive an index.
       This field shows the indexes added (clicking in the arrows until the counter stops), and allows
       the user to select the color stop from the list. The selected color stop will be shown with a dashed line.
 
 
-   :guilabel:`Interpolation Options`
+   Interpolation Options
       Enables the user to choose from **4** types of calculations for the color interpolation for each color stop.
       Available options are:
 
 
-      :guilabel:`B-Spline`
+      B-Spline
          Uses a :guilabel:`B-Spline` Interpolation for the color stops.
-      :guilabel:`Cardinal`
+      Cardinal
          Uses a :guilabel:`Cardinal` Interpolation for the color stops.
-      :guilabel:`Linear`
+      Linear
          Uses a :guilabel:`Linear` Interpolation for the color stops.
-      :guilabel:`Ease`
+      Ease
          Uses a :guilabel:`Ease` Interpolation for the color stops.
-      :guilabel:`Constant`
+      Constant
          Uses a :guilabel:`Constant` Interpolation for the color stops.
 
 
-   :guilabel:`Position`
+   Position
       This slider controls the positioning of the selected color stop in the range.
 
 
-   :guilabel:`Color Bar`
+   Color Bar
       Opens a color Picker for the user to specify color and Alpha for the selected color stop.
       When a color is using Alpha, the Color Bar is then divided in two, with the left side
       showing the base color and the right side showing the color with the alpha value.

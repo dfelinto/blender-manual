@@ -40,7 +40,7 @@ Common Settings
 The three WeightVGroup modifiers share a few settings,
 controlling their influence on the affected vertex group.
 
-:guilabel:`Global Influence`
+Global Influence
    The overall influence of the modifier (``0.0`` will leave the vertex group's weights untouched, ``1.0`` is standard influence).
 
  .. warning::
@@ -48,14 +48,14 @@ controlling their influence on the affected vertex group.
 	Note that influence only affects weights, adding/removing of vertices
 	to/from vertex group is not prevented by setting this value to ``0.0`` !
 
-:guilabel:`Vertex Group Mask`
+Vertex Group Mask
    An additional vertex group, which weights will be pre-multiplied with the global influence value, for each vertex. If a vertex is not in the masking vertex group, its masking weight (and hence its influence) will be null.
 
-:guilabel:`Texture`
+Texture
    An additional texture, which values will be pre-multiplied with the global influence value, for each vertex. You can choose which channel of the texture to use as values.
    This is a standard texture ID control. When set, it reveals other settings:
 
-   :guilabel:`Texture Coordinates`
+   Texture Coordinates
       How the texture is mapped to the mesh... You have four choices:
 
       - :guilabel:`Local`: use local vertices coordinates.
@@ -63,13 +63,13 @@ controlling their influence on the affected vertex group.
       - :guilabel:`Object`: use the vertices coordinates in another object's space.
       - :guilabel:`UV`: use an UV layer's coordinates.
 
-   :guilabel:`Use Channel`
+   Use Channel
       Which channel to use as weight factor source (intensity, RGB, HSV, alpha - the options are quite self-explanatory, I guess...).
 
-   :guilabel:`Object`
+   Object
       The object to be used as reference for :guilabel:`Object` mapping...
 
-   :guilabel:`UV Layer`
+   UV Layer
       The UV layer to be used for :guilabel:`UV` mapping...
 
 
@@ -103,13 +103,13 @@ The general process is the following, for each vertex:
 Options
 -------
 
-:guilabel:`Vertex Group`
+Vertex Group
    The vertex group to affect.
 
-:guilabel:`Default Weight`
+Default Weight
    The default weight to assign to all vertices not in the given vertex group.
 
-:guilabel:`Falloff Type`
+Falloff Type
    Type of mapping:
 
    - :guilabel:`Linear` - No mapping.
@@ -118,10 +118,10 @@ Options
    - :guilabel:`Random` - Fully randomizes the weights!
    - :guilabel:`Median Step` - Creates binary weights (``0.0`` or ``1.0``), with ``0.5`` as cutting value.
 
-:guilabel:`Group Add`
+Group Add
    Adds vertices with a final weight over :guilabel:`Add Threshold` to the vertex group.
 
-:guilabel:`Group Remove`
+Group Remove
    Removes vertices with a final weight below :guilabel:`Rem Threshold` from the vertex group.
 
 
@@ -151,19 +151,19 @@ only those of the first or second vertex group, etc.).
 Options
 -------
 
-:guilabel:`Vertex Group A`
+Vertex Group A
    The vertex group to affect.
 
-:guilabel:`Default Weight A`
+Default Weight A
    The default weight to assign to all vertices not in the given vertex group.
 
-:guilabel:`Vertex Group B`
+Vertex Group B
    The second vertex group to mix into the affected one. Leave it empty if you only want to mix in a simple value.
 
-:guilabel:`Default Weight B`
+Default Weight B
    The default weight to assign to all vertices not in the given second vertex group.
 
-:guilabel:`Mix Mode`
+Mix Mode
    How the vertex group weights are affected by the other vertex group's weights. You have seven choices:
 
    - :guilabel:`Replace weights` just replaces affected weights by the second weights.
@@ -174,7 +174,7 @@ Options
    - :guilabel:`Difference` computes the difference between affected weights and second weights (it's just the absolute value of the subtract operation).
    - :guilabel:`Average` computes the average value of both weights.
 
-:guilabel:`Mix Set`
+Mix Set
    Which vertices to work on. You have five options:
 
    - :guilabel:`All vertices` affects all vertices, disregarding the vertex groups content. *This option might add vertices to the affected vertex group.*
@@ -202,13 +202,13 @@ based on the distance between the object (or its vertices), and another target o
 Options
 -------
 
-:guilabel:`Vertex Group`
+Vertex Group
    The vertex group to affect.
 
-:guilabel:`Target Object`
+Target Object
    The object from which to compute distances.
 
-:guilabel:`Proximity mode`
+Proximity mode
    - :guilabel:`Object Distance` will use the distance between the modified mesh object and the target object as weight for all vertices in the affected vertex group.
    - :guilabel:`Geometry Distance` will use the distance between each vertex and the target object, or its geometry.
 
@@ -218,22 +218,22 @@ to use the target object's geometry instead of its center location
 If the target object has no geometry (e.g. an empty or camera one),
 it will silently fall back to the default :guilabel:`Object Distance` behavior.
 
-:guilabel:`Vertex`
+Vertex
    This will set each vertex's weight from its distance to the nearest vertex of the target object.
 
-:guilabel:`Edge`
+Edge
    This will set each vertex's weight from its distance to the nearest edge of the target object.
 
-:guilabel:`Face`
+Face
    This will set each vertex's weight from its distance to the nearest face of the target object.
 
-:guilabel:`Lowest Dist`
+Lowest Dist
    Distance mapping to ``0.0`` weight. It can be above :guilabel:`Highest Dist` for reversed mapping effects.
 
-:guilabel:`Highest Dist`
+Highest Dist
    Distance mapping to ``1.0`` weight. It can be below :guilabel:`Lowest Dist` for reversed mapping effects.
 
-:guilabel:`Falloff Type`
+Falloff Type
    Some predefined mapping functions, see `Vertex Weight Edit Modifier`_.
 
 

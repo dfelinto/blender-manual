@@ -31,59 +31,59 @@ It is not necessary to render this common layer, so you may use invisible influe
 Boids can different physics depending on whether they are in the air,
 or on land (on collision object)
 
-:guilabel:`Allow Flight`
+Allow Flight
    Allow boids to move in the air.
-:guilabel:`Allow Land`
+Allow Land
    Allow boids to move on land.
-:guilabel:`Allow Climbing`
+Allow Climbing
    Allow boids to climb goal objects.
 
-:guilabel:`Max Air Speed`
+Max Air Speed
    Set the Maximum velocity in the air.
-:guilabel:`Min Air Speed`
+Min Air Speed
    Set the Minimum velocity in the air.
-:guilabel:`Max Air Acceleration`
+Max Air Acceleration
    Lateral acceleration in air, percent of max velocity (turn). Defines how fast a boid is able to change direction.
-:guilabel:`Max Air Angular Velocity`
+Max Air Angular Velocity
    Tangential acceleration in air, percent 180 degrees. Defines how much the boid can suddenly accelerate in order to fulfill a rule.
-:guilabel:`Air Personal Space`
+Air Personal Space
    Radius of boids personal space in air. Percentage of particle size.
-:guilabel:`Landing Smoothness`
+Landing Smoothness
    How smoothly the boids land.
 
-:guilabel:`Max Land Speed`
+Max Land Speed
    Set the Maximum velocity on land.
-:guilabel:`Jump Speed`
+Jump Speed
    Maximum speed for jumping
-:guilabel:`Max Land Acceleration`
+Max Land Acceleration
    Lateral acceleration on land, percent of max velocity (turn). Defines how fast a boid is able to change direction.
-:guilabel:`Max Land Angular Velocity`
+Max Land Angular Velocity
    Tangential acceleration on land, percent 180 degrees. Defines how much the boid can suddenly accelerate in order to fulfill a rule.
-:guilabel:`Land Personal Space`
+Land Personal Space
    Radius of boids personal space on land. Percentage of particle size.
-:guilabel:`Land Stick Force`
+Land Stick Force
    How strong a force must be to start effecting a boid on land.
 
-:guilabel:`Banking`
+Banking
    Amount of rotation around velocity vector on turns. Banking of (1.0 == natural banking).
-:guilabel:`Pitch`
+Pitch
    Amount of rotation around side vector.
-:guilabel:`Height`
+Height
    Boid height relative to particle size.
 
 
 Battle
 ======
 
-:guilabel:`Health`
+Health
    Initial boid health when born.
-:guilabel:`Strength`
+Strength
    Maximum caused damage per second on attack.
-:guilabel:`Aggression`
+Aggression
    Boid will fight this times stronger than enemy.
-:guilabel:`Accuracy`
+Accuracy
    Accuracy of attack.
-:guilabel:`Range`
+Range
    Maximum distance of which a boid can attack.
 
 
@@ -145,60 +145,60 @@ and the \order can be modified using the little arrows buttons on the right side
 
 The list of rules available are:
 
-:guilabel:`Goal`
+Goal
    Seek goal (objects with Spherical fields and positive Strength)
 
-   :guilabel:`Predict`
+   Predict
       Predict target's movements
 
-:guilabel:`Avoid`
+Avoid
    Avoid "predators" (objects with Spherical fields and negative Strength)
 
-   :guilabel:`Predict`
+   Predict
       Predict target's movements
-   :guilabel:`Fear Factor`
+   Fear Factor
       Avoid object if danger from it is above this threshold
 
-:guilabel:`Avoid Collision`
+Avoid Collision
    Avoid objects with activated Deflection
 
-   :guilabel:`Boids`
+   Boids
       Avoid collision with other boids
-   :guilabel:`Deflectors`
+   Deflectors
       Avoid collision with deflector objects
-   :guilabel:`Look Ahead`
+   Look Ahead
       Time to look ahead in seconds
 
-:guilabel:`Separate`
+Separate
    Boids move away from each other
 
-:guilabel:`Flock`
+Flock
    Copy movements of neighboring boids, but avoid each other
 
-:guilabel:`Follow Leader`
+Follow Leader
    Follows a leader object instead of a boid
 
-   :guilabel:`Distance`
+   Distance
       Distance behind leader to follow
-   :guilabel:`Line`
+   Line
       Follow the leader in a line
 
-:guilabel:`Average Speed`
+Average Speed
    Maintain average velocity.
 
-   :guilabel:`Speed`
+   Speed
       Percentage of maximum speed
-   :guilabel:`Wander`
+   Wander
       How fast velocity's direction is randomized
-   :guilabel:`Level`
+   Level
       How much velocity's Z component is kept constant
 
-:guilabel:`Fight`
+Fight
    Move toward nearby boids
 
-   :guilabel:`Fight Distance`
+   Fight Distance
       Attack boids at a maximum of this distance
-   :guilabel:`Flee Distance`
+   Flee Distance
       Flee to this distance
 
 
@@ -207,11 +207,11 @@ Rule Evaluation
 
 There are three ways control how rules are evaluated.
 
-:guilabel:`Average`
+Average
    All rules are averaged.
-:guilabel:`Random`
+Random
    A random rule is selected for each boid.
-:guilabel:`Fuzzy`
+Fuzzy
    Uses fuzzy logic to evaluate rules. Rules are gone through top to bottom.
    Only the first rule that effect above fuzziness threshold is evaluated.
    The value should be considered how hard the boid will try to respect a given rule

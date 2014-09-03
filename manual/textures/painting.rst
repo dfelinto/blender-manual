@@ -251,34 +251,34 @@ Size
 Stroke
 ------
 
-**Stroke Method**
+Stroke Method
    Allows set the way applying strokes.
 
-   **Airbrush**
+   Airbrush
       Flow of the brush continues as long as the mouse click is held, determined by the :guilabel:`Rate` setting. If disabled, the brush only modifies the color when the brush changes its location.
 
-      **Rate**
+      Rate
          Interval between paints for airbrush
 
-   **Space**
+   Space
       Creates brush stroke as a series of dots, whose spacing is determined by the :guilabel:`Spacing` setting.
 
-      **Spacing**
+      Spacing
          Represents the percentage of the brush diameter. Limit brush application to the distance specified by spacing.
-   **Dots**
+   Dots
       Apply paint on each mouse move step
-   **Jitter**
+   Jitter
       Jitter the position of the brush while painting
 
-**Smooth stroke**
+Smooth stroke
    Brush lags behind mouse and follows a smoother path. When enabled, the following become active:
 
-   **Radius**
+   Radius
       Sets the minimun distance from the last point before stroke continues.
-   **Factor**
+   Factor
       Sets the amount of smoothing.
 
-**Input Samples**
+Input Samples
    Average multiple input samples together to smooth the brush stroke.
 
 Wrap

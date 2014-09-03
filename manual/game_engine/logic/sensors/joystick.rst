@@ -18,9 +18,9 @@ See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for
 
 Special Options:
 
-**Index**
+Index
    Specifies which joystick to use.
-**All Events**
+All Events
    Sensor triggers for all events on this joystick's current type
 
 
@@ -31,7 +31,7 @@ Special Options:
    Joystick Events
 
 
-**Event Type**
+Event Type
    A menu to select which joystick event to use
 
 
@@ -42,15 +42,15 @@ Special Options:
    Joystick Single Axis
 
 
-   :guilabel:`Single Axis`
+   Single Axis
       Detect movement in a single joystick Axis.
 
-      :guilabel:`Axis Number`
+      Axis Number
          1 = Horizontal axis (left/right)
          2 = Vertical axis (forward/back)
          3 = Paddle axis up/down
          4 = Joystick axis twist left/right
-      :guilabel:`Axis Threshold`
+      Axis Threshold
          Threshold at which joystick fires (Range 0 - 32768)
 
 
@@ -61,13 +61,13 @@ Special Options:
    Joystick Hat
 
 
-   :guilabel:`Hat`
+   Hat
       Detect movement of a specific hat control on the joystick.
 
-      :guilabel:`Hat number`
-          Specifies which hat to use (max. 2)
-      :guilabel:`Hat Direction`
-         Specifies the direction to use: up, down, left, right, up/right, up/left, down/right, down/left.
+      Hat number
+         Specifies which hat to use (max. 2)
+      Hat Direction
+        Specifies the direction to use: up, down, left, right, up/right, up/left, down/right, down/left.
 
 
 .. figure:: /images/BGE_Sensor_Joystick_Axis.jpg
@@ -77,14 +77,16 @@ Special Options:
    Joystick Axis
 
 
-   :guilabel:`Axis`
-      :guilabel:`Axis Number`
+   Axis
+      Axis Number
          Specifies the axis (1 or 2)
-      :guilabel:`Axis Threshold`
+      Axis Threshold
          Threshold at which joystick fires (Range 0 - 32768)
-      :guilabel:`Axis Direction` specifies the direction to use:
-          (Axis Number = 1) Joystick Left, Right, Up, Down
-          (Axis Number = 2) Paddle upper (Left); paddle Lower (Right); Joystick twist left (Up) Joystick twist right (Down)
+      Axis Direction
+         Specifies the direction to use:
+
+         (Axis Number = 1) Joystick Left, Right, Up, Down
+         (Axis Number = 2) Paddle upper (Left); paddle Lower (Right); Joystick twist left (Up) Joystick twist right (Down)
 
 
 .. figure:: /images/BGE_Sensor_Joystick1.jpg
@@ -94,6 +96,6 @@ Special Options:
    Joystick Button
 
 
-   :guilabel:`Button`
+   Button
       Specify the :guilabel:`button number` to use.
 

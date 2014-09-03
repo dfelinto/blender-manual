@@ -19,19 +19,20 @@ you can use the search function at the bottom of the list (pictured right).
 
 **Default Screens available**
 
-:guilabel:`Animation`
+Animation
    Making actors and other objects move about, change shape or color, etc.
-:guilabel:`Compositing`
-   Combining different parts of a scene (e.g. background, actors, special effects) and filter them (e.g. color correction).
-:guilabel:`Default`
+Compositing
+   Combining different parts of a scene (e.g. background, actors, special effects) and
+   filter them (e.g. color correction).
+Default
    The default layout used by Blender for new files. Useful for modeling new objects.
-:guilabel:`Game Logic`
+Game Logic
    Planning and programming of games within Blender.
-:guilabel:`Scripting`
+Scripting
    Documenting your work and/or writing custom scripts to automate Blender.
-:guilabel:`UV Editing`
+UV Editing
    Flattening a projection of an object mesh in 2D to control how a texture maps to the surface.
-:guilabel:`Video Editing`
+Video Editing
    Cutting and editing of animation sequences.
 
 Blender sorts these screen layouts for you automatically in alphabetical and/or numerical
@@ -48,9 +49,12 @@ to change to the previous screen, press :kbd:`ctrl-left`.
    Screen and Scene selectors
 
 
-By default, each screen layout 'remembers' the last :doc:`scene </interface/scenes>` it was used on. Selecting a different layout will switch to the layout **and** jump to that scene.
+By default, each screen layout 'remembers' the last :doc:`scene </interface/scenes>`
+it was used on. Selecting a different layout will switch to the layout **and** jump to that scene.
 
-All changes to windows, as described in :doc:`Window system </interface/window_system>` and :doc:`Window types </interface/window_types>`, are saved within one screen. If you change your windows in one screen, other screens won't be affected.
+All changes to windows, as described in :doc:`Window system </interface/window_system>` and
+:doc:`Window types </interface/window_types>`, are saved within one screen.
+If you change your windows in one screen, other screens won't be affected.
 
 
 Configuring your Screens
@@ -85,7 +89,11 @@ You can delete a screen by using the :guilabel:`Delete datablock` button (
 Rearranging a Screen
 --------------------
 
-Use the :doc:`window controls </interface/window_system/arranging_frames>` to move frame borders, split and consolidate windows. When you have a layout that you like, press :kbd:`ctrl-U` to update your User defaults. Be aware that all of the current scenes become part of those defaults, so consider customizing your layouts with only a single, simple scene.
+Use the :doc:`window controls </interface/window_system/arranging_frames>`
+to move frame borders, split and consolidate windows.
+When you have a layout that you like, press :kbd:`ctrl-U` to update your User defaults.
+Be aware that all of the current scenes become part of those defaults,
+so consider customizing your layouts with only a single, simple scene.
 
 The properties window has a special option: pressing :kbd:`rmb` on its background will
 allow you to arrange its panels horizontally or vertically. Of the two,
@@ -107,28 +115,35 @@ Additional Layouts
 As you become more experienced with Blender, consider adding some other screen layouts to suit
 your workflow as this will help increase your productivity. Some examples could include:
 
-   **1-Model**
-          Four 3D windows (top, front, side and perspective), Properties window for Editing
-   **2-Lighting**
-          3D windows for moving lights, UV/Image Window for displaying Render Result, Properties window for rendering and lamp properties and controls
-   **3-Material**
-          Properties window for Material settings, 3D window for selecting objects, Outliner, Library script (if used), Node Editor (if using :doc:`Node based materials </materials/nodes>`)
-   **4-UV Layout**
-          UV/Image Editor Window, 3D Window for seaming and unwrapping mesh
-   **5-Painting**
-          UV/Image Editor for texture painting image, 3D window for painting directly on object in UV Face Select mode, three mini-3D windows down the side that have background reference pictures set to full strength, Properties window
-   **6-Animation**
-          Graph Editor, 3D Window for posing armature, NLA Window
-   **7-Node**
-          Big Node Editor window for noodles, UV/Image window linked to Render Result
-   **8-Sequence**
-          Graph Editor, video sequence editor in Image Preview mode, video sequence editor in timeline mode, a Timeline window, and the good old Properties window.
-   **9-Notes/Scripting**
-          Outliner, Text Editor (Scripts) window
+   1-Model
+      Four 3D windows (top, front, side and perspective), Properties window for Editing
+   2-Lighting
+      3D windows for moving lights, UV/Image Window for displaying Render Result,
+      Properties window for rendering and lamp properties and controls
+   3-Material
+      Properties window for Material settings, 3D window for selecting objects, Outliner,
+      Library script (if used), Node Editor (if using :doc:`Node based materials </materials/nodes>`)
+   4-UV Layout
+      UV/Image Editor Window, 3D Window for seaming and unwrapping mesh
+   5-Painting
+      UV/Image Editor for texture painting image,
+      3D window for painting directly on object in UV Face Select mode,
+      three mini-3D windows down the side that have background
+      reference pictures set to full strength, Properties window
+   6-Animation
+      Graph Editor, 3D Window for posing armature, NLA Window
+   7-Node
+      Big Node Editor window for noodles, UV/Image window linked to Render Result
+   8-Sequence
+      Graph Editor, video sequence editor in Image Preview mode,
+      video sequence editor in timeline mode, a Timeline window, and the good old Properties window.
+   9-Notes/Scripting
+      Outliner, Text Editor (Scripts) window
 
 
 .. note:: Reuse your Layouts
 
-   If you create a new window layout and would like to use it for future .blend files, simply save it as the User default by pressing :kbd:`ctrl-U` (don't forget: all screens and scenes themselves will be saved as default too).
-
+   If you create a new window layout and would like to use it for future .blend files,
+   simply save it as the User default by pressing :kbd:`ctrl-U`
+   (don't forget: all screens and scenes themselves will be saved as default too).
 

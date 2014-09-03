@@ -34,20 +34,20 @@ Options
    Child Of panel
 
 
-:guilabel:`Target`
+Target
    The target object that this object will act as a child of. This constraint uses one target, and is not functional (red state) when it has none.  If :guilabel:`Target` is an armature or a mesh, a new name field appears where a name of a :guilabel:`Bone` or a :guilabel:`Vertex Group` can be selected.
 
-:guilabel:`Location` :guilabel:`X`, :guilabel:`Y`, :guilabel:`Z`
+Location X, Y, Z
    Each of these buttons will make the parent affect or not affect the location along the corresponding axis.
-:guilabel:`Rotation` :guilabel:`X`, :guilabel:`Y`, :guilabel:`Z`
+Rotation X, Y, Z
    Each of these buttons will make the parent affect or not affect the rotation around the corresponding axis.
-:guilabel:`Scale` :guilabel:`X`, :guilabel:`Y`, :guilabel:`Z`
+Scale X, Y, Z
    Each of these buttons will make the parent affect or not affect the scale along the corresponding axis.
 
-:guilabel:`Set Inverse`
+Set Inverse
    By default, when you parent your owner to your target, the target becomes the origin of the owner's space. This means that the location, rotation and scale of the owner are offset by the same properties of the target. In other words, the owner is transformed when you parent it to your target.
    This might not be desired! So, if you want to restore your owner to its before-parenting state, click on the :guilabel:`Set Inverse` button.
-:guilabel:`Clear Inverse`
+Clear Inverse
    This button reverses (cancels) the effects of the above one, restoring the owner/child to its default state regarding its target/parent.
 
 

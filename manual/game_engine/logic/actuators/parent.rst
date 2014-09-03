@@ -19,19 +19,19 @@ Menu for parenting operation required.
    Parent Actuator
 
 
-**Set Parent**
+Set Parent
    Make this object to be current object's parent
 
-   :guilabel:`Parent Object`
+   Parent Object
       Name of parent object
-   :guilabel:`Compound'`
+   Compound'
       Add this object shape to the parent shape (only if the parent shape is already compound)
-   :guilabel:`Ghost'`
+   Ghost'
       Make this object ghost while parented
 
-**Remove Parent**
+Remove Parent
    Remove all parents of current object
 
-   :guilabel:`Parent Object`
+   Parent Object
       Name of parent object
 

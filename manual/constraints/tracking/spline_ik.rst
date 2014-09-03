@@ -32,27 +32,27 @@ Options
    Spline IK panel
 
 
-:guilabel:`Target`
+Target
    The target curve
-:guilabel:`Spline Fitting`:
-   :guilabel:`Chain Length`
+Spline Fitting:
+   Chain Length
       How many bones are included in the chain
-   :guilabel:`Even Division`
+   Even Division
       Ignore the relative length of the bones when fitting to the curve
-   :guilabel:`Chain Offset`
+   Chain Offset
       Offset the entire chain relative to the root joint
 
-:guilabel:`Chain Scaling`:
-   :guilabel:`Y stretch`
+Chain Scaling:
+   Y stretch
       Stretch the Y axis of the bones to fit the curve
-   :guilabel:`XZ Scale Mode`:
-      :guilabel:`None`
+   XZ Scale Mode:
+      None
          Don't scale the X and X axes (default)
-      :guilabel:`Bone Original`
+      Bone Original
          Use the original scaling of the bones
-      :guilabel:`Volume Preservation`
+      Volume Preservation
          Scale of the X and Z axes is the inverse of the Y scale
-   :guilabel:`Use Curve Radius`
+   Use Curve Radius
       Average radius of the endpoints is used to tweak the X and Z scaling of the bones, on top of the X and Z scale mode
 
 

@@ -50,22 +50,22 @@ Another way to preview the smoke is starting the animation by :kbd:`alt-A`
 Settings
 ========
 
-:guilabel:`Outflow`
+Outflow
    Delete smoke from simulation.
-:guilabel:`Particle System`
+Particle System
    Particle system emitted from the object.
-:guilabel:`Initial Velocity`
+Initial Velocity
    Smoke inherits its velocity from the emitter particle.
-:guilabel:`Multiplier`
+Multiplier
    Multiplier to adjust velocity passed to smoke.
 
 
 **Initial Values**
 
-:guilabel:`Absolute Density`
+Absolute Density
    Only allow given density value in emitter area.
-:guilabel:`Density`
+Density
    Initial density value.
-:guilabel:`Temp. Diff.`
+Temp. Diff.
    Temperature to ambient temperar.
 

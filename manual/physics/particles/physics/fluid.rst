@@ -31,43 +31,43 @@ Fluid physics share options with :doc:`Newtonian Physics </physics/particles/phy
 Fluid Properties
 ================
 
-:guilabel:`Stiffness`
+Stiffness
    How incompressible the fluid is.
-:guilabel:`Viscosity`
+Viscosity
    Linear viscosity. Use lower viscosity for thicker fluids.
-:guilabel:`Buoyancy`
+Buoyancy
    Artificial buoyancy force in negative gravity direction based on pressure differences inside the fluid.
 
 
 Advanced
 ========
 
-:guilabel:`Repulsion Factor`
+Repulsion Factor
    How strongly the fluid tries to keep from clustering (factor of stiffness). Check box sets repulsion as a factor of stiffness.
-:guilabel:`Stiff Viscosity`
+Stiff Viscosity
    Creates viscosity for expanding fluid. Check box sets this to be a factor of normal viscosity.
-:guilabel:`Interaction Radius`
+Interaction Radius
    Fluid's interaction radius. Check box sets this to be a factor of 4*particle size.
-:guilabel:`Rest Density`
+Rest Density
    Density of fluid when at rest. Check box sets this to be a factor of default density.
 
 
 Springs
 =======
 
-:guilabel:`Force`
+Force
    Spring force
-:guilabel:`Rest Length`
+Rest Length
    Rest length of springs. Factor of particle radius. Check box sets this to be a factor of 2*particle size.
 
-:guilabel:`Viscoelastic Springs`
+Viscoelastic Springs
    Use viscoelastic springs instead of Hooke's springs.
-:guilabel:`Elastic Limit`
+Elastic Limit
    How much the spring has to be stretched/compressed in order to change its rest length
-:guilabel:`Plasticity`
+Plasticity
    How much the spring rest length can change after the elastic limit is crossed.
-:guilabel:`Initial Rest Length`
+Initial Rest Length
    Use initial length as spring rest length instead of 2*particle size.
-:guilabel:`Frames`
+Frames
    Create springs for this number of frames since particle's birth (0 is always).
 

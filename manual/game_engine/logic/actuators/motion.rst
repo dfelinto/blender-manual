@@ -13,9 +13,9 @@ Special Options:
 **Motion Type**
 Determines type of motion
 
-:guilabel:`Simple Motion`
+Simple Motion
    applies different kinds of motions directly
-:guilabel:`Servo Control`
+Servo Control
    sets a target speed and also how quickly it reaches that speed.
 
 
@@ -34,13 +34,13 @@ Simple Motion
    Motion actuator for Simple Motion
 
 
-:guilabel:`Loc`
+Loc
    The object jumps the number of blender units entered, in each of the three axes,each time a pulse is received.
 
-:guilabel:`Rot`
+Rot
    The object rotates by the specified amount, in each of the three axes, each time a pulse is received. One revolution is represented by the value 7.2 (i.e. 0.02 for one degree).
 
-:guilabel:`L`
+L
    Coordinates specified are Global (gray) or Local (White).
 
 
@@ -64,25 +64,25 @@ in the physical world. It consists in a servo controller that adjusts the force 
 in order to achieve a given speed. Uses the Proportional - Integral - Derivative (PID)
 equations of motion :guilabel:`See Ref.`.
 
-:guilabel:`Reference Ob`
+Reference Ob
    Specifies the object which the actuator owner uses as a reference for movement, for moving platforms for example. If empty it will use world reference.
 
-:guilabel:`Linear V`
+Linear V
    The target linear velocity, in each of the three axes, which the object will try and achieve.
 
-:guilabel:`L`
+L
    Coordinates specified are Global (gray) or Local (White).
 
-:guilabel:`X, Y, Z`
+X, Y, Z
    Sets maximum and minimum limits for the force applied to the object. If disabled (i.e. X,Y or Z buttons are gray) the force applied is unlimited.
 
-:guilabel:`Proportional Coefficient`
+Proportional Coefficient
    Set the Proportional Coefficient. This controls the reaction  to differences between the actual and target linear velocity.
 
-:guilabel:`Integral Coefficient`
+Integral Coefficient
    Set the Integral Coefficient. This controls the reaction  to the sum of errors so far in this move.
 
-:guilabel:`Derivative Coefficient`
+Derivative Coefficient
    Set the Derivative Coefficient. This controls the reaction
 
 

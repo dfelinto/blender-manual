@@ -16,7 +16,7 @@ See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for
 
 Special Options:
 
-**Material**
+Material
    This field is for filtering materials. Only contact with the material in this field will generate a positive pulse. Leave blank for touch with any object.
 A TRUE pulse is sent on collision and the FALSE pulse is sent once the objects are no longer
 in contact.

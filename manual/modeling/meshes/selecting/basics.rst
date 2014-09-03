@@ -156,11 +156,11 @@ Additional Selection Tools
 
 The select menu in edit mode contains additional tool for selecting components:
 
-:guilabel:`(De)select All` :kbd:`A`
+(De)select All :kbd:`A`
    Select all or none of the mesh components.
-:guilabel:`Invert Selection` :kbd:`ctrl-I`
+Invert Selection :kbd:`ctrl-I`
    Selects all components that are not selected, and deselect currently selected components.
-:guilabel:`More` :kbd:`ctrl-num+`
+More :kbd:`ctrl-num+`
    Propagates selection by adding components that are adjacent to selected elements.
-:guilabel:`Less` :kbd:`ctrl-num-`
+Less :kbd:`ctrl-num-`
    Deselects components that form the bounds of the current selection

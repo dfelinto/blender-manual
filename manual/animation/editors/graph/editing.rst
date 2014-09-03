@@ -129,17 +129,17 @@ Divide Transformation by 10.0 :kbd:`Shift`
 Keyframes can be snapped to different properties by using the *Snap Keys* tool.
 
 Snap Keys :kbd:`Shift-S`
-   :guilabel:`Current Frame`
+   Current Frame
       Snap the selected keyframes to the *Time Cursor*.
-   :guilabel:`Cursor Value`
+   Cursor Value
       Snap the selected keyframes to the *Cursor*.
-   :guilabel:`Nearest Frame`
+   Nearest Frame
       Snap the selected keyframes to their nearest frame individually.
-   :guilabel:`Nearest Second`
+   Nearest Second
       Snap the selected keyframes to their nearest second individually, based on the *FPS* of the scene.
-   :guilabel:`Nearest Marker`
+   Nearest Marker
       Snap the selected keyframes to their nearest marker individually.
-   :guilabel:`Flatten Handles`
+   Flatten Handles
       Flatten the *Bezier* handles for the selected keyframes.
 
 
@@ -159,15 +159,15 @@ Selected keyframes can be mirrored over different properties using the the *Mirr
 tool.
 
 Mirror Keys :kbd:`Shift-M`
-   :guilabel:`By Times Over Current Frame`
+   By Times Over Current Frame
       Mirror horizontally over the *Time Cursor*.
-   :guilabel:`By Values over Cursor Value`
+   By Values over Cursor Value
       Mirror vertically over the *Cursor*.
-   :guilabel:`By Times over Time 0`
+   By Times over Time 0
       Mirror horizontally over frame 0.
-   :guilabel:`By Values over Value 0`
+   By Values over Value 0
       Mirror vertically over value 0.
-   :guilabel:`By Times over First Selected Marker`
+   By Times over First Selected Marker
       Mirror horizontally the over the first selected *Marker*.
 
 
@@ -210,7 +210,7 @@ seem to be never modified by this tool.
 Sampling and Baking Keyframes
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:guilabel:`Sample Keyframes` :kbd:`Shift-O`
+Sample Keyframes :kbd:`Shift-O`
    Sampling a set a keyframes replaces interpolated values with a new keyframe for each frame.
 
 
@@ -223,7 +223,7 @@ Sampling and Baking Keyframes
 +-------------------------------------------+--------------------------------------------+
 
 
-:guilabel:`Bake Curves`  :kbd:`Alt-C`
+Bake Curves  :kbd:`Alt-C`
    Baking a curve replaces it with a set of sampled points, and removes the ability to edit the curve.
 
 
@@ -239,98 +239,98 @@ View Menu
 Apart from the standard options like zoom-in/out, maximize window, center view on cursor,
 etc., this menu gathers various other options.
 
-:guilabel:`Properties` :kbd:`N`
+Properties :kbd:`N`
    Opens the properties panel on the right side of the graph editor.
 
-:guilabel:`Realtime Updates`
+Realtime Updates
    When transforming keyframes, changes to the animation data are flushed to other views.
 
-:guilabel:`Show Frame Number Indicator`
+Show Frame Number Indicator
    Show frame number beside the current frame indicator line.
 
-:guilabel:`Show Cursor`
+Show Cursor
    Shows the 2d cursor.
 
-:guilabel:`Show Sliders`
+Show Sliders
    Show sliders beside F-Curve channels.
 
-:guilabel:`Show Group Colors`
+Show Group Colors
    Draw groups and channels with colors matching their corresponding groups.
 
-:guilabel:`AutoMerge Keyframes`
+AutoMerge Keyframes
    Automatically merge nearby keyframes.
 
-:guilabel:`Use High Quality Drawing`
+Use High Quality Drawing
    Draw F-Curves using Anti-Aliasing and other fancy effects (disable for better performance).
 
-:guilabel:`Show Handles`
+Show Handles
    Show handles of Bezier control points.
 
-:guilabel:`Only Selected Curve Keyframes`
+Only Selected Curve Keyframes
    Only keyframes of selected F-Curves are visible and editable.
 
-:guilabel:`Only Selected Keyframe handles`
+Only Selected Keyframe handles
    Only show and edit handles of selected keyframes.
 
-:guilabel:`Show Seconds`
+Show Seconds
    Show timing in seconds not frames.
 
-:guilabel:`Set Preview Range`, :guilabel:`Clear Preview Range` (:kbd:`ctrl-P`, :kbd:`alt-P`)
+Set Preview Range, Clear Preview Range (:kbd:`ctrl-P`, :kbd:`alt-P`)
    These entries allow you to define/clear a temporary preview range to use for the :kbd:`alt-A` realtime playback (this is the same thing as the :guilabel:`Pr` option of the :doc:`Timeline window header </animation/timeline#header_controls>`).
 
-:guilabel:`Auto-Set Preview Range` :kbd:`Ctrl-alt-P`
+Auto-Set Preview Range :kbd:`Ctrl-alt-P`
    Automatically set Preview Range based on range of keyframes.
 
-:guilabel:`View All` :kbd:`Home`
+View All :kbd:`Home`
    Reset viewable area to show full keyframe range.
 
-:guilabel:`View Selected` :kbd:`pad-.`
+View Selected :kbd:`pad-.`
    Reset viewable area to show selected keyframe range.
 
 
 Select Menu
 ^^^^^^^^^^^
 
-:guilabel:`Select All` :kbd:`A`
+Select All :kbd:`A`
    In edit mode, select/deselect all keyframes.
    In locked mode, select/deselect all visible channels.
 
-:guilabel:`Invert Selection` :kbd:`Ctrl-I`
+Invert Selection :kbd:`Ctrl-I`
    Inverts selected keys.
 
-:guilabel:`Border Select` :kbd:`B`
+Border Select :kbd:`B`
    Allows selection of keyframes within a region.
 
-:guilabel:`Border Axis Range` :kbd:`Alt-B`
+Border Axis Range :kbd:`Alt-B`
    Axis Range...
-:guilabel:`Border (include Handles` :kbd:`Ctrl-B`
+Border (include Handles :kbd:`Ctrl-B`
    Include Handles, handles tested individually against the selection criteria.
 
-:guilabel:`Columns on Selected Keys` :kbd:`K`
+Columns on Selected Keys :kbd:`K`
    Select all keys on same frame as selected one(s).
 
-:guilabel:`Column on current Frame` :kbd:`Ctrl-K`
+Column on current Frame :kbd:`Ctrl-K`
    Select all keyframes on the current frame.
 
-:guilabel:`Columns on selected Markers` :kbd:`Shift-K`
+Columns on selected Markers :kbd:`Shift-K`
    Select all keyframes on the frame of selected marker(s).
 
-:guilabel:`Between Selected Markers` :kbd:`Alt-K`
+Between Selected Markers :kbd:`Alt-K`
    Select all keyframes between selected markers.
 
-:guilabel:`Before Current Frame` :kbd:`[`
+Before Current Frame :kbd:`[`
    Select all keys before the current frame.
 
-:guilabel:`After Current Frame` :kbd:`]`
+After Current Frame :kbd:`]`
    Select all keys after the current frame.
 
-:guilabel:`Select More` :kbd:`ctrl-pad+`
+Select More :kbd:`ctrl-pad+`
    Grow keyframe selection along Fcurve.
 
-:guilabel:`Select Less` :kbd:`ctrl-pad-`
+Select Less :kbd:`ctrl-pad-`
    Shrink keyframe selection along Fcurve.
 
-:guilabel:`Select Linked` :kbd:`L`
+Select Linked :kbd:`L`
    Selects all keyframes on Fcurve of selected keyframe.
 
 
@@ -390,7 +390,7 @@ Channel Menu
 
 *Collapse Channels* :kbd:`Numpad--`
 
-*Move...*
+Move...
    *To Top* :kbd:`Shift-PageUp`
    *Up* :kbd:`PageUp`
    *Down* :kbd:`PageDown`

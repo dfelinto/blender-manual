@@ -334,23 +334,23 @@ Retarget
 
 Retarget template bone chain to stroke.
 
-:guilabel:`Template`
+Template
    Template armature that will be retargeted to the stroke. This is a more complex topic, detailed in its :doc:`own page </rigging/armatures/editing/templating>`.
 
 
-:guilabel:`Retarget roll mode`
-   :guilabel:`None`
+Retarget roll mode
+   None
       Don't adjust roll.
-   :guilabel:`View`
+   View
       Roll bones to face the view.
-   :guilabel:`Joint`
+   Joint
       Roll bone to original joint plane offset.
 
-:guilabel:`Autoname`
+Autoname
    ...
-:guilabel:`Number`
+Number
    ...
-:guilabel:`Side`
+Side
    ...
 
 

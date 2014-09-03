@@ -61,7 +61,7 @@ Options
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------+
 
 
-:guilabel:`Repeat`
+Repeat
    Repetitions iteratively improve the solution found. The objective of the system is to find the rotation of the differential coordinates preserving the best possible geometric detail. The system retains details better if more repetitions are used. A small Repeat number is recommended, as the system takes a long time to calculate each repetition.
 
 

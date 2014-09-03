@@ -21,7 +21,7 @@ You can work with geometric objects in two modes.
    Object Mode header
 
 
-:guilabel:`Edit mode`
+Edit mode
    Operations in :guilabel:`Edit mode` affect only the geometry of an object, but not global properties such as location or rotation.
 :guilabel:`Edit mode` has the following header in the 3D view:
 

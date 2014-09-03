@@ -206,16 +206,16 @@ which means some triangles could remain.
 
 All the menu entries and hotkey use the settings defined in the :guilabel:`Mesh Tools` panel:
 
-:guilabel:`Max Angle`
+Max Angle
    This values (between **0** and **180**) controls the threshold for this tool to work on adjacent triangles. With a threshold of **0.0**, it will only join adjacent triangles that form a perfect rectangle (i.e. right-angled triangles sharing their hypotenuses). Larger values are required for triangles with a shared edge that is small, relative to the size of the other edges of the triangles.
 
-:guilabel:`Compare UVs`
+Compare UVs
    When enabled, it will prevent union of triangles that are not also adjacent in the active UV map. Note that this seems to be the only option working...
-:guilabel:`Compare Vcol`
+Compare Vcol
    When enabled, it will prevent union of triangles that have no matching vertex color. I'm not sure how this option works - or even if it really works...
-:guilabel:`Compare Sharp`
+Compare Sharp
    When enabled, it will prevent union of triangles that share a "sharp" edge. I'm not sure either if this option works, and what is the "sharp" criteria - neither the :guilabel:`Sharp` flag nor the angle between triangles seem to have an influence here...
-:guilabel:`Compare Materials`
+Compare Materials
    When enabled, it will prevent union of triangles that do not use the same material index. This option does not seem to work neither...
 
 
@@ -232,7 +232,7 @@ Solidify
 
 This takes a selection of faces and solidifies them by extruding them uniformly to give volume to a non-manifold surface. This is also available as a :doc:`Modifier </modifiers/generate/solidify>`. After using the tool, you can set the offset distance in the Tool Palette.
 
-:guilabel:`Thickness`
+Thickness
    Amount to offset the newly created surface. Positive values offset the surface inward relative to the normals. Negative values offset outward.
 
 

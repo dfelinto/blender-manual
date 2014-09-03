@@ -17,7 +17,7 @@ FIXME(Template Unsupported: Doc:2.6/Manual/Physics/Fluid/volume_init;
 {{Doc:2.6/Manual/Physics/Fluid/volume_init}}
 )
 
-:guilabel:`Boundary type`
+Boundary type
    Determines the stickiness of the obstacle surface, called "Surface Adhesion". Surface Adhesion depends in real-world on the fluid and the graininess or friction/adhesion/absorption qualities of the surface.
 
    - :guilabel:`Noslip` causes the fluid to stick to the obstacle (zero velocity).
@@ -38,7 +38,7 @@ FIXME(Template Unsupported: Doc:2.6/Manual/Physics/Fluid/animated_mesh_export;
 {{Doc:2.6/Manual/Physics/Fluid/animated_mesh_export}}
 )
 
-:guilabel:`PartSlip Amount`
+PartSlip Amount
    Amount of mixing between no- and free-slip, described above.
 
 
@@ -52,6 +52,6 @@ FIXME(Template Unsupported: Doc:2.6/Manual/Physics/Fluid/animated_mesh_export;
    exactly aligned and shaped as the object, to fake the splash. This is not needed anymore.
 
 
-:guilabel:`Impact Factor`
+Impact Factor
    Amount of fluid volume correction for gain/loss from impacting with moving objects. If this object is not moving, this setting has no effect. However, it if is and the fluid collides with it, a negative value takes volume away from the Domain, and a positive number adds to it. Ranges from -2.0 to 10.0.
 

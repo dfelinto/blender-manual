@@ -28,11 +28,11 @@ Lamp options
    Common Lamp options of a Spot
 
 
-:guilabel:`Distance`, :guilabel:`Energy` and :guilabel:`Color`
+Distance, Energy and Color
    These settings are common to most types of lamps, and are described in :doc:`Light Properties </lighting/lights/light_properties>`.
-:guilabel:`This Layer Only`, :guilabel:`Negative`, :guilabel:`Diffuse` and :guilabel:`Specular`
+This Layer Only, Negative, Diffuse and Specular
    These settings control what the lamp affects, as described in :doc:`What Light Affects </lighting/lights/what_light_affects>`.
-:guilabel:`Light Falloff` and :guilabel:`Sphere`
+Light Falloff and Sphere
    These settings control how the light of the :guilabel:`Spot` decays with distance. See :doc:`Light Attenuation </lighting/lights/light_attenuation>` for details.
 
    .. figure:: /images/25-Manual-Lighting-Lamps-Spot-Terms.jpg
@@ -57,10 +57,10 @@ Either of the two can provide various extra options.
 Ray-traced shadows are generally more accurate,
 with extra capabilities such as transparent shadows, although they are quite slower to render.
 
-:guilabel:`No Shadow`
+No Shadow
    Choose this to turn shadows off for this spot lamp.
    This can be useful to add some discreet directed light to a scene.
-:guilabel:`Buffer Shadow`
+Buffer Shadow
    :guilabel:`Buffered Shadows` are also known as depth map shadows.
    Shadows are created by calculating differences in the distance from the light to scene objects.
    See :doc:`Buffered Shadows </lighting/lamps/spot/buffered_shadows>` for full details on using this feature.
@@ -68,7 +68,7 @@ with extra capabilities such as transparent shadows, although they are quite slo
    but the speed of rendering is a definite advantage.
    Nevertheless, it shares with other lamp types common shadow options
    described in :doc:`Shadows Properties </lighting/shadows/properties>`.
-:guilabel:`Ray Shadow`
+Ray Shadow
    The ray-traced shadows settings of this lamp are shared with other lamps,
    and are described in :doc:`Raytraced Properties </lighting/shadows/raytraced_properties>`.
 
@@ -93,7 +93,7 @@ Spot Shape
    +------------------------------------------------------------+------------------------------------------------------------+
 
 
-:guilabel:`Blend`
+Blend
    The :guilabel:`Blend` slider controls the inner cone of the :guilabel:`Spot`. The :guilabel:`Blend` value can be between ``0.0`` and ``1.0``. The value is proportional and represents that amount of space that the inner cone should occupy inside the outer cone (:guilabel:`Size`).
 
    The inner cone boundary line indicates the point at which light from the :guilabel:`Spot` will start to blur/soften; before this point its light will mostly be full strength. The larger the value of :guilabel:`Blend` the more blurred/soft the edges of the spotlight will be, and the smaller the inner cone's circular area will be (as it starts to blur/soften earlier).
@@ -114,11 +114,11 @@ Spot Shape
 
    Notice in the picture above that the object's shadow is sharp as a result of the ray tracing, whereas the spotlight edges are soft. If you want other items to cast soft shadows within the :guilabel:`Spot` area, you will need to alter other shadow settings.
 
-:guilabel:`Square`
+Square
    The :guilabel:`Square` button makes a :guilabel:`Spot` light cast a square light area, rather than the default circular one.
-:guilabel:`Show Cone`
+Show Cone
    Draw a transparent cone in 3D view to visualize which objects are contained in it.
-:guilabel:`Halo`
+Halo
    Adds a volumetric effects to the spot lamp.  See :doc:`Spot Halos </lighting/lamps/spot/halos>`.
 
 

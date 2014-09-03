@@ -17,9 +17,9 @@ Rotate
 
 Rotate the texture coordinates of an image or texture.
 
-:guilabel:`Turns`
+Turns
    The number of times to rotate the coordinates 360 degrees about the specified axis.
-:guilabel:`Axis`
+Axis
    The axis to rotate the mapping about
 
 
@@ -33,7 +33,7 @@ Translate
 
 Translate the texture coordinates of an image or texture.
 
-:guilabel:`Offset`
+Offset
    The amount to offset the coordinates in each of the 3 axes.
 
 
@@ -47,7 +47,7 @@ Scale
 
 Scale the texture coordinates of an image or texture.
 
-:guilabel:`Scale`
+Scale
    The amount to scale the coordinates in each of the 3 axes.
 
 
@@ -62,5 +62,5 @@ At
 Returns the color of a texture at the specified coordinates.
 If the coordinates are not spatially varying, the node will return a single color.
 
-:guilabel:`Coordinates`
+Coordinates
    The point at which to sample the color. For images, the space is between -1 and 1 for x and y.

@@ -24,9 +24,9 @@ This direction can be changed by rotating the :guilabel:`Sun` lamp, like any oth
 Lamp options
 ============
 
-:guilabel:`Energy` and :guilabel:`Color`
+Energy and Color
    These settings are common to most types of lamps, and are described in :doc:`Light Properties </lighting/lights/light_properties>`.
-:guilabel:`Negative`,  :guilabel:`This Layer Only`, :guilabel:`Specular`, and :guilabel:`Diffuse`
+Negative,  This Layer Only, Specular, and Diffuse
    These settings control what the lamp affects, as described in :doc:`What Light Affects </lighting/lights/what_light_affects>`.
 
 The :guilabel:`Sun` lamp has no light falloff settings: it always uses a constant attenuation

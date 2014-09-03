@@ -42,7 +42,7 @@ Options
    Limit Rotation panel
 
 
-:guilabel:`Limit X`, :guilabel:`LimitY`, :guilabel:`LimitZ`
+Limit X, LimitY, LimitZ
    These buttons enable the rotation limit around respectively the X, Y and Z axes of the owner,
    in the chosen :guilabel:`Space`.
    The :guilabel:`Min` and :guilabel:`Max` numeric fields to their right control the value of their lower and upper
@@ -53,11 +53,11 @@ Options
    - If a min value is higher than its corresponding max value, the constraint behaves as if it had the same value as the max one.
    - Unlike the :doc:`Limit Location constraint </constraints/transform/limit_location>`, you cannot enable separately lower or upper limits...
 
-:guilabel:`For Transform`
+For Transform
    We saw that by default, even though visually constrained, the owner can still have rotations out of bounds (as shown by the :guilabel:`Transform Properties` panel). Well, when you enable this button, this is no more possible - the owner transform properties are also limited by the constraint.
    Note however that the constraint does not directly modifies the rotation values: you have to rotate one way or the other its owner, for this to take effect...
 
-:guilabel:`Convert`
+Convert
    This constraint allows you to chose in which space evaluate its owner's transform properties.
 
 

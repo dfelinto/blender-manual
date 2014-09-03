@@ -44,7 +44,7 @@ View Menu
    The View menu.
 
 
-:guilabel:`Properties Panel`
+Properties Panel
    Toggles the :guilabel:`Properties` side panel (:kbd:`N`), which allows you to tweak many 3D view settings:
 
    - :doc:`Transform </modeling/objects/editing>`
@@ -55,7 +55,7 @@ View Menu
    - :doc:`Background Images </3d_interaction/navigating/3d_view_options>`
    - :doc:`Transform Orientations </3d_interaction/transform_control/transform_orientations>`
 
-:guilabel:`Tool Shelf`
+Tool Shelf
    Toggles the :guilabel:`Tool Shelf` (:kbd:`T`), which appears on the left side of the 3d view,
    and allows you to perform various operations, depending on the type of object selected, and the mode you are in.
 

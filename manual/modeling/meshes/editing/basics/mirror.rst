@@ -81,16 +81,16 @@ This can be caused by accident when editing without x-mirror enabled. Sometimes 
 imported from other applications are asymmetrical enough that mirror fails too.
 
 
-:guilabel:`Direction`
+Direction
    Specify the axis and direction to snap. Can be any of the 3 axes, and either positive to negative, or negative to positive.
 
-:guilabel:`Threshold`
+Threshold
    Specify the search radius to use when finding matching vertices.
 
-:guilabel:`Factor`
+Factor
    Support for blending mirrored locations from one side to the other (0.5 is an equal mix of both).
 
-:guilabel:`Center`
+Center
    Snap vertices in the center axis to zero.
 
 
@@ -123,7 +123,7 @@ The :guilabel:`Symmetrize` tool is a quick way to make a mesh symmetrical.
 and mirroring over the geometry in the specified axis, and merges the two halves together
 (if they are connected)
 
-:guilabel:`Direction`
+Direction
    Specify the axis and direction of the effect. Can be any of the 3 axes, and either positive to negative, or negative to positive.
 
 

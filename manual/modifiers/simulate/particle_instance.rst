@@ -55,12 +55,12 @@ be giving the results expected, as it may indicate that the particle system sett
 altering rather than the :guilabel:`ParticleInstance` modifier settings.
 
 
-:guilabel:`Object`
+Object
    The :guilabel:`Object` field, associates this :guilabel:`ParticleInstance` modifier with another object (usually an object having a particle system...). This indicates that when the object named in this field emits particles, those particles will have the mesh shape of the current :guilabel:`ParticleInstance` modifier's mesh.
    If for example a sphere has a :guilabel:`ParticleInstance` modifier added to it, when the :guilabel:`Object` field of this modifier is filled in with the name of an object that emits particles, those particle will be sphere shaped.
    Even though most of the time the :guilabel:`Object` field will have the name of an object with a particle system, this is not mandatory, you can enter an object's name which does not have a particle system, and it will be accepted by the :guilabel:`Object` field, as there do not appear to be any checks made to make sure the object's name entered into this field is "valid".
 
-:guilabel:`Particle System`
+Particle System
    The :guilabel:`Particle System` field is used to select which particle system number to apply the
    :guilabel:`ParticleInstance` modifier to,
    when the mesh which has the particle system on it has more than one of these.
@@ -87,43 +87,43 @@ altering rather than the :guilabel:`ParticleInstance` modifier settings.
 Creation
 --------
 
-:guilabel:`Normal`
+Normal
    When selected, the :guilabel:`Normal` button tells the :guilabel:`ParticleInstance` modifier to draw instances of itself wherever normal particle types are emitted from the underlying particle system. So if the current :guilabel:`ParticleInstance` modifier is a sphere shape, when normal particles are emitted they will be spheres.
 
-:guilabel:`Children`
+Children
    When selected, the :guilabel:`Children` button tells the :guilabel:`ParticleInstance` modifier to draw instances of itself wherever children/child particles are emitted/used on the underlying particle system. So if the current :guilabel:`ParticleInstance` modifier is a sphere shape, when children/child particles are emitted they will be spheres.
 
-:guilabel:`Size`
+Size
    Scale the instanced objects by the particle size attribute. When this is disabled, all the copies appear the same size as the origin.
 
 
 Display
 -------
 
-:guilabel:`Unborn`
+Unborn
    When selected, the :guilabel:`Unborn` button tells the :guilabel:`ParticleInstance` modifier to draw instances of itself wherever unborn particles will be emitted/used on the underlying particle system. So if the current :guilabel:`ParticleInstance` modifier is a sphere shape, when unborn particles are present they will be spheres.
 
-:guilabel:`Alive`
+Alive
    When selected, the :guilabel:`Alive` button tells the :guilabel:`ParticleInstance` modifier to draw instances of itself wherever alive particles will be emitted/used on the underlying particle system. So if the current :guilabel:`ParticleInstance` modifier is a sphere shape, when alive particles are present they will be spheres.
 
-:guilabel:`Dead`
+Dead
    When selected, the :guilabel:`Dead` button tells the :guilabel:`ParticleInstance` modifier to draw instances of itself wherever dead particles will occur on the underlying particle system. So if the current :guilabel:`ParticleInstance` modifier is a sphere shape, when dead particles are present they will be spheres.
 
 
 Using Paths
 -----------
 
-:guilabel:`Create Along Paths`
+Create Along Paths
    This option tries to make the underlying mesh object of the :guilabel:`Particle Instance` modifier deform its mesh shape in such a way as to try and match the path traveled by the particles/hair strands of the system associated with it.
    For example, below is a screen shot showing the path of a single keyed particle as it travels its way through each of the different way points ``1`` to ``4`` (target particle systems), when it reaches way point ``4`` the particle dies and ends its journey.
 
-:guilabel:`X,Y,X Rotation Axis`
+X,Y,X Rotation Axis
    Specify which pole axis to use for the rotation.
-:guilabel:`Keep Shape`
+Keep Shape
    Enabling this prevents the object from being deformed. It instead simply aligns to the end of the path at the object's center.
-:guilabel:`Position`
+Position
    Specify what percentage of the path the object fills. You could create a growing effect by animating this value over time.
-:guilabel:`Random`
+Random
    Scales the position value of each instance a random value.
 
 

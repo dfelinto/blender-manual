@@ -42,30 +42,30 @@ Edges Settings
 
 The characteristics of edges are set with the :guilabel:`Soft Body Edge` properties.
 
-:guilabel:`Use Edges`
+Use Edges
    Allow the edges in a Mesh Object to act like springs.
 
-:guilabel:`Pull`
+Pull
    The spring stiffness for edges (how much the edges are allowed to stretch). A low value means very weak springs
    (a very elastic material), a high value is a strong spring (a stiffer material) that resists being pulled apart.
    0.5 is latex, 0.9 is like a sweater, 0.999 is a highly-starched napkin or leather.
    The Soft Body simulation tends to get unstable if you use a value of 0.999,
    so you should lower this value a bit if that happens.
-:guilabel:`Push`
+Push
    How much the Softbody resist being scrunched together,
    like a compression spring. Low values for fabric, high values for inflated objects and stiff material.
-:guilabel:`Damp`
+Damp
    The friction for edge springs. High values (max of 50) dampen the :guilabel:`Push` / :guilabel:`Pull` effect and calm down the cloth.
-:guilabel:`Plastic`
+Plastic
    Permanent deformation of the object after a collision. The vertices take a new position without applying the modifier.
-:guilabel:`Bending`
+Bending
    This option creates virtual connections between a vertex and the vertices connected to it's neighbors. This includes diagonal edges. Damping also applies to these connections.
-:guilabel:`Length`
+Length
    The edges can shrink or been blown up. This value is given in percent, 0 disables this function. 100% means no change, the body keeps 100% of his size.
 
-:guilabel:`Stiff Quads`
+Stiff Quads
    For quad faces, the diagonal edges are used as springs. This stops quad faces to collapse completely on collisions (what they would do otherwise).
-:guilabel:`Shear`
+Shear
    Stiffness of the virtual springs created for quad faces.
 
 

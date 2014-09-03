@@ -133,12 +133,12 @@ Time
    Having these controls in effect gives you a "speed control" over the simulation.
 
 
-*Generate Speed Vector*
+Generate Speed Vector
    If this button is clicked, no speed vectors will be exported.
    So by default, speed vectors are generated and stored on disk.
    They can be used to compute image based motion blur with the compositing nodes.
 
-*Reverse fluid frames*
+Reverse fluid frames
    The simulation is calculated backward
 
 *Bake* directory
@@ -153,7 +153,7 @@ Domain World
    The Domain World options.
 
 
-*Viscosity*
+Viscosity
    The "thickness" of the fluid and actually the force needed to move an object of a certain surface area through it
    at a certain speed. You can either enter a value directly or use one of the presets in the drop down (such as
    honey, oil, or water).
@@ -272,11 +272,11 @@ FIXME(Template Unsupported: Doc:2.6/Manual/Physics/Fluid/split_type;
 
 *Surface*
 
-   *Surface Smoothing*
+   Surface Smoothing
       Amount of smoothing to be applied to the fluid surface.
       1.0 is standard, 0 is off, while larger values increase the amount of smoothing.
 
-   *Subdivisions*
+   Subdivisions
       Allows the creation of high-res surface meshes directly during the simulation
       (as opposed to doing it afterwards like a subdivision modifier).
       A value of 1 means no subdivision, and each increase results in one further subdivision of each fluid voxel.
@@ -300,12 +300,12 @@ Domain Particles
 
 Here you can add particles to the fluid simulated, to enhance the visual effect.
 
-:guilabel:`Tracer Particles`
+Tracer Particles
    Number of tracer particles to be put into the fluid at the beginning of the simulation.
    To display them create another object with the :guilabel:`Particle` fluid type,
    explained below, that uses the same bake directory as the domain.
 
-:guilabel:`Generate Particles`
+Generate Particles
    Controls the amount of fluid particles to create (0=off, 1=normal, >1=more).
    To use it, you have to have a surface subdivision value of at least 2.
 

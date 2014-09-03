@@ -32,22 +32,22 @@ Selecting UVs
 Selection tools are available in the :guilabel:`Select Menu` and Header bar,
 and the shortcuts listed below:
 
-:guilabel:`Border Select` ; :kbd:`B`
+Border Select ; :kbd:`B`
    Use the box lasso to select UV coordinates.
 
-:guilabel:`Select/Deselect All` ; :kbd:`A`
+Select/Deselect All ; :kbd:`A`
    Selects or de-selects all UV coordinates. When initially unwrapping, you will want to select All UVs to rotate, scale, and move them around.
 
-:guilabel:`Linked UVs`:kbd:`ctrl-L`
+Linked UVs:kbd:`ctrl-L`
    This menu item selects all UVs that are part of the same UV map. Recall that a map is made for every submesh and seamed part of the mesh, and is analogous to a piece of cloth. Selecting :guilabel:`Linked UVs` works similarly to the command in 3D View. It will select all UVs that are 'connected' to currently selected UVs.
 
-:guilabel:`Pinned UVs` ; :kbd:`shift-P`
+Pinned UVs ; :kbd:`shift-P`
    You can pin UVs so they don't move between multiple unwrap operations. This menu item selects them all. See Pinning
 
-:guilabel:`Border Select Pinned` ; :kbd:`shift-B`
+Border Select Pinned ; :kbd:`shift-B`
    Use the box lasso to select only pinned UV coordinates.
 
-:guilabel:`Unlink Selection` ; :kbd:`alt-L`
+Unlink Selection ; :kbd:`alt-L`
    Cuts apart the selected UVs from the map. Only those UVs which belong to fully selected faces remain selected following this command. As the name implies, this is particularly useful to unlink faces and move them elsewhere. The hotkey is analogous to the mesh Separate command.
 
 
@@ -82,11 +82,11 @@ and the following selection modes are available:
 
    The :guilabel:`Sticky Selection Mode` menu is available in this mode. This controls how UVs are selected:
 
-   :guilabel:`Shared Vertex`
+   Shared Vertex
       Selects UVs that share a mesh vertex, even if they are in different UV locations.
-   :guilabel:`Shared Location`
+   Shared Location
       Selects UVs that are in the same UV location and share a mesh vertex. This mode is default and works best in most cases.
-   :guilabel:`Disabled`
+   Disabled
       Disables Sticky Selection. When you move a UV in this mode, each face owns its own UVs, allowing them to be separated.
 
 When :guilabel:`Sync Selection` is **On** the following can be selected:
@@ -152,11 +152,11 @@ Snapping in UV is also similar to :doc:`Snapping in 3D </3d_interaction/transfor
 
 Additional tools can be found in the :guilabel:`UVs Menu` under the :guilabel:`Snap` Submenu:
 
-:guilabel:`Snap Pixels`
+Snap Pixels
    Moves selection to nearest pixel
-:guilabel:`Snap to Cursor`
+Snap to Cursor
    Moves selection to 2D cursor location
-:guilabel:`Snap to Adjacent Unselected`
+Snap to Adjacent Unselected
    Moves selection to adjacent unselected element
 
 

@@ -127,13 +127,13 @@ In-Betweens
 
 There are several tools for editing poses in an animation.
 
-:guilabel:`Relax Pose` (:menuselection:`Pose --> In-Betweens --> Relax Pose` or :kbd:`alt-E`)
+Relax Pose (:menuselection:`Pose --> In-Betweens --> Relax Pose` or :kbd:`alt-E`)
    Relax pose is somewhat related to the above topic - but it is only useful with keyframed bones (see the :doc:`animation chapter </animation>`). When you edit such a bone (and hence take it "away" from its "keyed position"), using this command will progressively "bring it back" to its "keyed position", with smaller and smaller steps as it comes near it.
 
-:guilabel:`Push Pose` (:menuselection:`Pose --> In-Betweens --> Relax Pose` or :kbd:`ctrl-E`)
+Push Pose (:menuselection:`Pose --> In-Betweens --> Relax Pose` or :kbd:`ctrl-E`)
    Push pose exaggerates the current pose.
 
-:guilabel:`Breakdowner` (:menuselection:`Pose --> In-Betweens --> Pose Breakdowner` or :kbd:`shift-E`)
+Breakdowner (:menuselection:`Pose --> In-Betweens --> Pose Breakdowner` or :kbd:`shift-E`)
    Creates a suitable breakdown pose on the current frame
 
 
@@ -228,10 +228,10 @@ using their sub-panels in the :guilabel:`Armature Bones` panel:
    The Armature Bones panel in Pose mode.
 
 
-:guilabel:`Inherit Rotation`
+Inherit Rotation
    When disabled, this will "break" the rotation relationship to the bone's parent. This means that the child will keep its rotation in the armature object space when its parent is rotated.
 
-:guilabel:`Inherit Scale`
+Inherit Scale
    When disabled, this will "break" the scale relationship to the bone's parent.
 
 These inheriting behaviors propagate along the bones' hierarchy.

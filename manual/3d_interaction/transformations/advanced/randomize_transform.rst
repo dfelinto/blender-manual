@@ -24,29 +24,29 @@ each object gets its own seed value, and will get different transform results fr
 Options
 =======
 
-:guilabel:`Random Seed`
+Random Seed
    The random seed is an offset to the random transformation. A different seed will produce a new result.
 
-:guilabel:`Transform Delta`
+Transform Delta
    Randomize Delta Transform values instead of regular transform. See :doc:`Delta Transforms </3d_interaction/transform_control/transform_properties#delta_transform>`.
 
-:guilabel:`Randomize Location`
+Randomize Location
    Randomize Location vales
 
-:guilabel:`Location`
+Location
    The maximum distances the objects can move along each axis.
 
-:guilabel:`Randomize Rotation`
+Randomize Rotation
    Randomize rotation values.
 
-:guilabel:`Rotation`
+Rotation
    The maximum angle the objects can rotate on each axis
 
-:guilabel:`Randomize Scale`
+Randomize Scale
    Randomize scale values.
 
-:guilabel:`Scale Even`
+Scale Even
    Use the same scale for each axis.
 
-:guilabel:`Scale`
+Scale
    The maximum scale randomization over each axis.

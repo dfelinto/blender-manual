@@ -114,7 +114,7 @@ and applied it to the simulation of metal and plastic.
 Options
 -------
 
-**Hardness**
+Hardness
    Size of the specular highlight
 
 

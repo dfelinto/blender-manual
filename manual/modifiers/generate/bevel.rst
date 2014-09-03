@@ -108,7 +108,7 @@ This section of the :guilabel:`Bevel` modifier is used to control where and when
 applied to the underlying mesh. The first row of three buttons (mutually exclusive)
 controls the algorithm used, and might add some extra options.
 
-:guilabel:`None`
+None
    This button will apply the :guilabel:`Bevel` modifier to the whole underlying mesh,
    without any way to prevent the bevel on some edges/vertices.
 
@@ -118,7 +118,7 @@ controls the algorithm used, and might add some extra options.
    Bevel modifier with the Angle limit enabled.
 
 
-:guilabel:`Angle`
+Angle
    This button will only bevel edges where faces make sharp angles. When selected,
    it displays the :guilabel:`Angle` numeric field, used to set the angle above which an edge will be beveled
    (it is in fact the complementary angle, i.e. ``180 - (angle between faces)``).
@@ -133,18 +133,17 @@ controls the algorithm used, and might add some extra options.
    Bevel modifier with Weight button active.
 
 
-:guilabel:`Weight`
+Weight
    Use bevel weights to determine how much bevel is applied; apply them separately in vert/edge select mode.
    See :doc:`Here </modeling/meshes/editing/edges>` about adjusting bevel weights.
    The three options specify what edge weight to use for weighting a vertex.
 
-   :guilabel:`Average`
+   Average
       Uses the average bevel weight at the vertex
-   :guilabel:`Sharpest`
+   Sharpest
       Uses the smallest bevel weight at the vertex
-   :guilabel:`Largest`
+   Largest
       Uses the largest bevel weight at the vertex
-:guilabel:`Vertex Group`
-      Use a vertex group to determine which parts of the mesh get beveled.
-
+Vertex Group
+   Use a vertex group to determine which parts of the mesh get beveled.
 

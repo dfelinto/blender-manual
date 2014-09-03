@@ -6,32 +6,32 @@ Advanced Selection
 
 The select menu in edit mode contains additional tool for selecting components:
 
-:guilabel:`Mirror`
+Mirror
    Select mesh items at the mirrored location.
-:guilabel:`Linked` :kbd:`ctrl-L`
+Linked :kbd:`ctrl-L`
    Selects all components that are connected to the current selection.
-:guilabel:`Select Random`
+Select Random
    Selects a random group of vertices, edges, or faces, based on a percentage value.
-:guilabel:`Checker Deselect`
+Checker Deselect
    Deselect alternating faces, to create a checker like pattern.
-:guilabel:`Select Every N Number of Vertices`
+Select Every N Number of Vertices
    Selects vertices that are multiples of N.
-:guilabel:`Select Sharp Edges`
+Select Sharp Edges
    This option will select all edges that are between two faces forming an angle less than a given value,
    which is asked you *via* a small pop-up dialog.
    The lower is this angle limit, the sharper will be the selected edges.
    At ``180``, **all** "manifold" (see below) edges will be selected.
-:guilabel:`Linked Flat Faces` (:kbd:`Ctrl-Shift-Alt-F`)
+Linked Flat Faces (:kbd:`Ctrl-Shift-Alt-F`)
    Select connected faces based on a threshold of the angle between them. This is useful for selecting faces that are planar.
-:guilabel:`Select Non Manifold` (:kbd:`Ctrl-Shift-Alt-M`)
+Select Non Manifold (:kbd:`Ctrl-Shift-Alt-M`)
    Selects vertices that are not completely bound by geometry, including border edges, floating edges, and orphan vertices. Only available in Vertex and Edge mode.
-:guilabel:`Interior Faces`
+Interior Faces
    Select faces where all edges have more than 2 faces.
-:guilabel:`Side of Active`
+Side of Active
    Selects all data on the mesh in a single axis
-:guilabel:`Select Faces by Sides`
+Select Faces by Sides
    Selects all faces that have a specified number of edges.
-:guilabel:`Loose Geometry`
+Loose Geometry
    Select all vertices or edges that do not form part of a face.
 
 
@@ -50,50 +50,50 @@ Select components that have similar attributes to the ones selected,
 based on a threshold that can be set in tool properties after activating the tool.
 Tool options change depending on the selection mode:
 
-:guilabel:`Vertex Selection Mode`:
-   :guilabel:`Normal`
+Vertex Selection Mode:
+   Normal
       Selects all vertices that have normals pointing in similar directions to those currently selected.
-   :guilabel:`Amount of Adjacent Faces`
+   Amount of Adjacent Faces
       Selects all vertices that have the same number of faces connected to them.
-   :guilabel:`Vertex Groups`
+   Vertex Groups
       Selects all vertices in the same :doc:`vertex group </modeling/meshes/vertex_groups>`.
-   :guilabel:`Amount of connecting edges`
+   Amount of connecting edges
       Selects all vertices that have the same number of edges connected to them.
 
 
-:guilabel:`Edge Selection Mode`:
-   :guilabel:`Length`
+Edge Selection Mode:
+   Length
       Selects all edges that have a similar length as those already selected.
-   :guilabel:`Direction`
+   Direction
       Selects all edges that have a similar direction (angle) as those already selected.
-   :guilabel:`Amount of Faces Around an Edge`
+   Amount of Faces Around an Edge
       Selects all edges that belong to the same number of faces.
-   :guilabel:`Face Angles`
+   Face Angles
       Selects all edges that are between two faces forming a similar angle, as with those already selected.
-   :guilabel:`Crease`
+   Crease
       Selects all edges that have a similar :guilabel:`Crease` value as those already selected. The :guilabel:`Crease` value is a setting used by the :doc:`Subsurf Modifier </modifiers/generate/subsurf>`.
-   :guilabel:`Bevel`
+   Bevel
       Selects all edges that have the same :guilabel:`Bevel Weight` as those already selected.
-   :guilabel:`Seam`
+   Seam
       Selects all edges that have the same :guilabel:`Seam` state as those already selected. :guilabel:`Seam` is a true/false setting used in :doc:`UV-texturing </textures/mapping/uv>`.
-   :guilabel:`Sharpness`
+   Sharpness
       Selects all edges that have the same :guilabel:`Sharp` state as those already selected. :guilabel:`Sharp` is a true/false setting (a flag) used by the :doc:`EdgeSplit Modifier </modifiers/generate/edge_split>`.
 
 
-:guilabel:`Face Selection Mode`:
-   :guilabel:`Material`
+Face Selection Mode:
+   Material
       Selects all faces that use the same material as those already selected.
-   :guilabel:`Image`
+   Image
       Selects all faces that use the same UV-texture as those already selected (see :doc:`UV-texturing </textures/mapping/uv>` pages).
-   :guilabel:`Area`
+   Area
       Selects all faces that have a similar area as those already selected.
-   :guilabel:`Polygon Sides`
+   Polygon Sides
       Selects all faces that have the same number of edges.
-   :guilabel:`Perimeter`
+   Perimeter
       Selects all faces that have a similar perimeter as those already selected.
-   :guilabel:`Normal`
+   Normal
       Selects all faces that have a similar normal as those selected. This is a way to select faces that have the same orientation (angle).
-   :guilabel:`Co-planar`
+   Co-planar
       Selects all faces that are (nearly) in the same plane as those selected.
 
 

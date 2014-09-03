@@ -159,7 +159,7 @@ you can hit :kbd:`Ctrl-Z` at any time in :guilabel:`Edit Mode`.
    Fig. 7 - Screw Interactive Panel - Mesh Tools Panel (Edit Mode)
 
 
-:guilabel:`Center`
+Center
    These numeric fields specify the center of the spin. When the tool is called for the first time,
    it will copy the ``X``, ``Y`` and ``Z`` location (Global Coordinates)
    of the cursor presently in the 3D View to start the operation.
@@ -170,17 +170,17 @@ you can hit :kbd:`Ctrl-Z` at any time in :guilabel:`Edit Mode`.
    (See Fig. 7 - Screw Interactive Panel - Mesh Tools Panel (Edit Mode))
 
 
-:guilabel:`Steps`
+Steps
    This numeric field specifies how many extrusion(s) will be done for each ``360`` turn.
    The steps are evenly distributed by dividing ``360`` by the number of steps given. The minimum value is ``3``;
    the maximum is ``256`` (See Fig. 7)
 
-:guilabel:`Turns`:
+Turns:
    This numeric field specifies how many turns will be executed.
    Blender will add a new full ``360`` turn for each incremental number specified here.
    The minimum value is ``1``; the maximum is ``256``. (See Fig. 7)
 
-:guilabel:`Axis`
+Axis
    These ``3`` numeric fields vary from ``-1.0`` to ``1.0`` and are clamped above those limits.
    These values correspond to angular vectors from ``-90`` to ``90`` degrees. Depending on the position where you
    started your cursor location and Object operation in the viewport and its axis positions in Global View space and

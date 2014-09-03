@@ -61,7 +61,7 @@ Drawing the cut line
 Options
 =======
 
-**New cut** :kbd:`E`
+New cut :kbd:`E`
    Begins a new cut. This allows you to define multiple distinct cut lines. If multiple cuts have been defined, they are recognized as new snapping points.
 
 
@@ -79,11 +79,11 @@ Options
    Result of starting new cuts while in the tool
 
 
-**Midpoint snap** :kbd:`Ctrl`
+Midpoint snap :kbd:`Ctrl`
    Hold to snap the cursor to the midpoint of edges
-**Ignore snap** :kbd:`Shift`
+Ignore snap :kbd:`Shift`
    Hold to make the tool ignore snapping.
-**Angle constrain** :kbd:`C`
+Angle constrain :kbd:`C`
    Hold to constrain the cut vector to the view in 45 degree increments.
 
 
@@ -101,7 +101,7 @@ Options
    Result of constraining cut angle
 
 
-**Cut through** :kbd:`Z`
+Cut through :kbd:`Z`
    Allow the cut tool to cut through to obscured faces, instead of only the visible ones.
 
 

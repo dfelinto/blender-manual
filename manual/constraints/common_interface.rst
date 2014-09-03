@@ -108,27 +108,27 @@ you can also choose in which space the target is evaluated (Target Space).
 The Target Space drop-down list is on the left side. Both lists have the same options,
 depending on whether the element (owner or target) is a regular object, or a bone:
 
-:guilabel:`Local Space`
+Local Space
    The object's properties are evaluated in its own local space,
    i.e. based on its rest position
    (without taking into account its parents transformations in its chain, or its armature object's transformation).
 
-:guilabel:`Local With Parent` (bones only)
+Local With Parent (bones only)
    The bone properties are evaluated in its own local space,
    *including* the transformations due to a possible parent relationship
    (i.e. due to the chain's transformations above the bone).
 
-:guilabel:`Pose Space` (bones only)
+Pose Space (bones only)
    The bone properties are evaluated in the armature object local space
    (i.e. independently from the armature transformations in :guilabel:`Object` mode).
    Hence, if the armature object has null transformations,
    :guilabel:`Pose Space` will have the same effect as :guilabel:`World Space`.
 
-:guilabel:`Local (Without Parent) Space` (objects only)
+Local (Without Parent) Space (objects only)
    The object properties are evaluated in its own local space,
    *without* the transformations due to a possible parent relationship.
 
-:guilabel:`World Space` (default setting)
+World Space (default setting)
    Here the object's or bone's properties are evaluated in the global coordinate system.
    This is the easiest to understand and most natural behavior,
    as it always uses the "visual" transform properties (i.e. as you see them in the 3D views).

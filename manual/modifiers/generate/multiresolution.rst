@@ -28,28 +28,28 @@ Sculpt Mode or a Blender Render.
 Options
 =======
 
-:guilabel:`Catmull-Clark` / :guilabel:`Simple`
+Catmull-Clark / Simple
    Set the type of subdivision. :guilabel:`Simple` maintains the current shape, and simply subdivides edges. :guilabel:`Catmull-Clark` creates a smooth surface, smaller than the original.
-:guilabel:`Preview`
+Preview
    Set the level of subdivisions to use in the viewport.
-:guilabel:`Sculpt`
+Sculpt
    Set the number of subdivisions to use in :guilabel:`Sculpt Mode`.
-:guilabel:`Render`
+Render
    Set the number of subdivisions to use when rendering.
 
-:guilabel:`Subdivide`
+Subdivide
    Add a higher level of subdivision.
-:guilabel:`Delete Higher`
+Delete Higher
    Deletes all subdivision levels that are higher than the current one.
-:guilabel:`Reshape`
+Reshape
    Copies vertex coordinates from another mesh. To use, select a different mesh with matching topology and vertex coordinates, then :kbd:`Shift` select the mesh and click :guilabel:`Reshape`. The mesh will take the shape of the other one.
-:guilabel:`Apply Base`
+Apply Base
    Modifies the mesh to match the form of the subdivided mesh.
 
-:guilabel:`Optimal Display`
+Optimal Display
    Skips the drawing of edges added from subdivision.
 
-:guilabel:`Save External`
+Save External
    Saves displacements to an external .btx file.
 
 

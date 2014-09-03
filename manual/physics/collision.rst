@@ -31,23 +31,23 @@ Options
    Image 1: Collision panel in the Physics sub-context.
 
 
-:guilabel:`Permeability`
+Permeability
    Fraction of particles passing through the mesh. Can be animated with :guilabel:`Object` Ipos, :guilabel:`Perm` channel.
 
-:guilabel:`Stickiness`
+Stickiness
    How much particles stick to the object.
 
-:guilabel:`Kill Particles`
+Kill Particles
    Deletes Particles upon impact.
 
-:guilabel:`Damping Factor`
+Damping Factor
    Damping during a collision (independent of the velocity of the particles).
-:guilabel:`Random` damping
+Random damping
    Random variation of damping.
 
-:guilabel:`Friction Factor`
+Friction Factor
    Friction during movements along the surface.
-:guilabel:`Random` friction
+Random friction
    Random variation of friction.
 
 
@@ -59,14 +59,14 @@ Options
 Soft Body and Cloth Interaction
 ===============================
 
-:guilabel:`Outer`
+Outer
    Size of the outer collision zone.
-:guilabel:`Inner`
+Inner
    Size of the inner collision zone (padding distance).
 
 Outside and inside is defined by the face normal, depicted as blue arrow in (*Image 1b*).
 
-:guilabel:`Damping Factor`
+Damping Factor
    Damping during a collision.
 
 *Softbody* collisions are difficult to get perfect. If one of the objects move too fast,
@@ -77,7 +77,7 @@ the soft body will penetrate the mesh. See also the section about :doc:`Soft Bod
 Force Field Interaction
 =======================
 
-:guilabel:`Absorption`
+Absorption
    A deflector can also deflect effectors. You can specify some collision/deflector objects which deflect a specific
    portion of the effector force using the :guilabel:`Absorption` value. 100% absorption results in no force getting
    through the collision/deflector object at all. If you have 3 collision object behind each other with e.g.

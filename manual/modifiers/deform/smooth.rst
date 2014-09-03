@@ -35,16 +35,16 @@ depending on the affected mesh.
 Options
 =======
 
-:guilabel:`X`, :guilabel:`Y`, :guilabel:`Z`
+X, Y, Z
    Toggle buttons to enable/disable the modifier in the X, Y and/or Z axes directions.
 
-:guilabel:`Factor`
+Factor
    The factor to control the smoothing amount. The smoothing ranges from ``0.0`` to ``1.0`` (``0.0`` : disabled, ``0.5`` : same as the :guilabel:`Smooth` button, ``1.0`` : maximum). Alternatively, values outside this range (above ``1.0`` or below ``0.0``) distort the mesh.
 
-:guilabel:`Repeat`
+Repeat
    The number of smoothing iterations, equivalent to pressing the :doc:`Smooth </ling/meshes/editing/deforming#smooth>` button multiple times.
 
-:guilabel:`Vertex Group`
+Vertex Group
    A vertex group name, to restrict the effect to the vertices in it only. This allows for selective, real-time smoothing, by painting vertex weights.
 
 

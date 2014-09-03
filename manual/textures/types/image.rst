@@ -385,15 +385,15 @@ Image or Movie Datablock:
 
    Browse
       Select an image or video among linked to the .blend file
-   :guilabel:`Name field`
+   Name field
       Internal name of image
-   :guilabel:`F`
+   F
       Create a fake user for the image texture
-   :guilabel:`+`
+   +
       Replace active texture with a new one
-   :guilabel:`Folder`
+   Folder
       Browse for an image on your computer
-   :guilabel:`X`
+   X
       Unlink this image or movie.
 
 Source:
@@ -401,11 +401,11 @@ Source:
 
    Generated
       Generated image in Blender.
-   :guilabel:`Movie`
+   Movie
       Movie file.
-   :guilabel:`Image Sequence`
+   Image Sequence
       Multiple image files as a sequence.
-   :guilabel:`Single Image`
+   Single Image
       Single image file.
 
 File for Image or Movie texture:
@@ -413,12 +413,12 @@ File for Image or Movie texture:
 
    Pack image
       Embed image into current .blend file
-   :guilabel:`Path`
+   Path
       Path to file
-   :guilabel:`File Browser`
+   File Browser
       Find a file on your computer.
       Hold :kbd:`Shift` to open the selected file and :kbd:`Ctrl` to browse a containing directory.
-   :guilabel:`Reload`
+   Reload
       Reloads the file.  Useful when an image has been rework in an external application.
 
 Input Color Space
@@ -597,20 +597,20 @@ Filter
       Texture filter to use for image sampling.  Just like a *pixel* represents a *pic* ture *el* ement, a *texel* represents a *tex* ture *el* ement.  When a texture (2D texture space) is mapped onto a 3D model (3D model space), different algorithms can be used to compute a value for each pixel based on samplings from several texels.
 
       Box
-          A fast and simple nearest-neighbor interpolation known as Monte Carlo integration
+         A fast and simple nearest-neighbor interpolation known as Monte Carlo integration
       EWA
-          **E** lliptical **W** eighted **A** verage — one of the most efficient direct convolution algorithms developed by Paul Heckbert and Ned Greene in the 1980s.  For each texel, EWA samples, weights, and accumulates texels within an elliptical footprint and then divides the result by the sum of the weights.
+         **E** lliptical **W** eighted **A** verage — one of the most efficient direct convolution algorithms developed by Paul Heckbert and Ned Greene in the 1980s.  For each texel, EWA samples, weights, and accumulates texels within an elliptical footprint and then divides the result by the sum of the weights.
 
          Eccentricity
             Maximum Eccentricity. Higher values give less blur at distant/oblique angles, but is slower
       FELINE
-          FELINE (**F** ast **E** lliptical **Line** s), uses several isotropic probes at several points along a line in texture space to produce an anisotropic filter to reduce aliasing artifacts without considerably increasing rendering time.
+         FELINE (**F** ast **E** lliptical **Line** s), uses several isotropic probes at several points along a line in texture space to produce an anisotropic filter to reduce aliasing artifacts without considerably increasing rendering time.
 
          Probes
             Number of probes to use.  An integer between 1 and 256.
             Further reading: McCormack, J; Farkas, KI; Perry, R; Jouppi, NP (1999) `Simple and Table Feline: Fast Elliptical Lines for Anisotropic Texture Mapping <http://www.hpl.hp.com/techreports/Compaq-DEC/WRL-99-1.pdf>`__, WRL
       Area
-          Area filter to use for image sampling
+         Area filter to use for image sampling
 
          Eccentricity
             Maximum Eccentricity. Higher values give less blur at distant/oblique angles, but is slower

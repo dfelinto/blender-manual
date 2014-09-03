@@ -28,16 +28,16 @@ Options
    Clamp Offset
 
 
-:guilabel:`Thickness`
+Thickness
    The depth to be solidified.
-:guilabel:`Offset`
+Offset
    A value between ``-1`` and ``1`` to locate the solidified output inside or outside the original mesh.  Set to zero, :guilabel:`Offset` will center the solidified output on the original mesh.
-:guilabel:`Clamp`
+Clamp
    A value between ``0`` and ``2`` to clamp offsets to avoid self intersection.
-:guilabel:`Vertex Group`
+Vertex Group
    Restrict the modifier to only this vertex group.
 
-   :guilabel:`Invert`
+   Invert
       Inverts the previous selection.
 
 
@@ -48,22 +48,22 @@ Options
    Rim and edges.  In this example, the object was assigned a second material used to color the rim red.
 
 
-:guilabel:`Crease`
+Crease
    These options are intended for usage with the :doc:`Subdivision Surface </modifiers/generate/subsurf>` modifier.
 
-   :guilabel:`Inner`
+   Inner
       Assign a crease to the inner edges.
-   :guilabel:`Outer`
+   Outer
       Assign a crease to the outer edges.
-   :guilabel:`Rim`
+   Rim
       Assign a crease to the rim.
-:guilabel:`Even Thickness`
+Even Thickness
    Maintain thickness by adjusting for sharp corners.  Sometimes improves quality but also increases computation time.
-:guilabel:`High Quality Normals`
+High Quality Normals
    Normals are calculated to produce a more even thickness.  Sometimes improves quality but also increases computation time.
-:guilabel:`Fill Rim`
+Fill Rim
    Fills the gap between the inner and outer edges.
-:guilabel:`Rim Material`
+Rim Material
    Uses the object's second material for the rim; this is applied as an offset from the current material.
 
 

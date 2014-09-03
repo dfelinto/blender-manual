@@ -21,17 +21,17 @@ achieves its goal.
 Options
 -------
 
-**Flat XY plane**
+Flat XY plane
    Useful for previewing textures and materials of flat objects, like walls, paper and such.
-**Sphere**
+Sphere
    Useful for previewing textures and materials of sphere-like objects, but also to design metals and other reflective/transparent materials, thanks to the checkered background.
-**Cube**
+Cube
    Useful for previewing textures and materials of cube-like objects, but also to design procedural textures. Features a checkered background.
-**Monkey**
+Monkey
    Useful for previewing textures and materials of organic or complex non-primitive shapes. Features a checkered background.
-**Hair strands**
+Hair strands
    Useful for previewing textures and materials of strand-like objects, like grass, fur, feathers and hair. Features a checkered background.
-**Large Sphere with Sky**
+Large Sphere with Sky
    Useful for previewing textures and materials of sphere-like objects, but also to design metals and other reflective materials, thanks to the gradient Sky background.
 
 Preview uses OSA (oversampling). Whatever the preview option, it will make use of OSA

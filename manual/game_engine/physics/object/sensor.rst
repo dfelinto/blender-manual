@@ -57,7 +57,7 @@ In release mode this message is not printed.
 Settings
 ========
 
-:guilabel:`Invisible`
+Invisible
    See :doc:`Here </game_engine/physics/object_type/static>`
 
 

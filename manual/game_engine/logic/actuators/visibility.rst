@@ -16,11 +16,11 @@ See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>`
 
 Special Options:
 
-**Visible**
+Visible
    Toggle checkbox to toggle visibility
-**Occlusion**
+Occlusion
    Toggle checkbox to toggle occlusion. Must be initialised from the Physics tab.
-**Children**
+Children
    Toggle checkbox to toggle recursive setting - will set visibility / occlusion state to all child objects, children of children (recursively)
 
 

@@ -41,10 +41,10 @@ Shadow Receiving Object Material
 The following options affect the material that receives shadows:
 
 
-**Receive**
+Receive
    Allows this material to receive full-intensity shadows (Fig. 3).
 
-**Receive Transparent**
+Receive Transparent
    Allows this material to receive shadows whose intensity is modified by the transparency and color of the shadow-casting object (Fig. 4).
 
 
@@ -64,16 +64,16 @@ Shadow Casting Object Material
 The following options affect the material that casts shadows:
 
 
-**Cast Only**
+Cast Only
    Material appears transparent, but it still casts shadows  (Fig. 5).
 
-**Casting Alpha**
+Casting Alpha
    ??
 
-**Shadows Only**
+Shadows Only
    Material appears transparent except for where it receives shadows from other objects, and  also it retains its own transparency (Fig. 6). Note the faint image of the partly-transparent post.
 
-**Shadow and Distance**
+Shadow and Distance
    ???
 
 
@@ -92,19 +92,19 @@ Buffered Shadow Options
 
 In addition to the shadow options described above, there are further material properties which control buffered shadow features. See section on :doc:`Spot Buffered Shadows </lighting/lamps/spot/buffered_shadows>` for further discussion of these techniques.
 
-**Cast Buffer Shadow**
+Cast Buffer Shadow
    Casts shadows from shadow buffer lamps.
 
-**Buffer Bias**
+Buffer Bias
    Multiplication factor for Buffer shadows (0 = ignore)
 
-**Auto Ray Bias** -
+Auto Ray Bias -
    Prevent raytraced shadow errors on surfaces with smooth shaded normals.
 
-**Ray Bias**
+Ray Bias
    Bias value to be used.
 
-**Cast Approximate**
+Cast Approximate
    Allow this material to cast shadows when using approximate ambient occlusion.
 
 

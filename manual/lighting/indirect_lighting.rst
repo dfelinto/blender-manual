@@ -57,10 +57,10 @@ Options
 
 The :guilabel:`Inderect Lighting` panel contains two options:
 
-:guilabel:`Factor`
+Factor
    Defines how much surrounding objects contribute to light.
 
-:guilabel:`Bounces`
+Bounces
    Number of inderect deffuse light bounces.
 
 The :guilabel:`Gather` panel contains settings for the inderect lighting quality.
@@ -83,15 +83,15 @@ base color
 This method seems to tend to "over-occlude" the results.
 You have two complementary options to reduce this problem:
 
-:guilabel:`Passes`
+Passes
    Set the number of pre-processing passes, between ``0`` (no pre-processing) to ``10``. Keeping the pre-processing passes high will increase render time but will also clear some artifacts and over-occlusions.
-:guilabel:`Error`
+Error
    This is the tolerance factor for approximation error (i.e. the max allowed difference between approximated result and fully computed result). The lower, the slower the render, but the more accurate the results... Ranges between ``0.0`` and ``10.0``, defaults to ``0.250``.
 
-:guilabel:`Pixel Cache`
+Pixel Cache
    When enabled, it will keep values of computed pixels to interpolate it with its neighbors. This further speeds up the render, generally without visible loss in quality...
 
-:guilabel:`Correction`
+Correction
    A correction factor to reduce over-occlusion. Ranges between ``0.0`` (no correction) to ``1.0``.
 
 

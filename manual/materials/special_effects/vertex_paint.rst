@@ -41,11 +41,11 @@ The following sections describe the controls in each of the available panels.
 Brush
 =====
 
-**Brush Datablock**
+Brush Datablock
    The image, name panel and color selector at the top allows you to select brush presets, rename brushes, as well as add custom brushes, and delete them.
-**Radius**
+Radius
    Set the radius of the brush
-**Strength**
+Strength
    Set the strength of the brush's effect.
 
 
@@ -56,17 +56,17 @@ Brush
 
 **Blend** menu
 
-   **Mix**
+   Mix
       Mixes RGB values. When set to a strength of 1.0, it will cover the underlying "paint".
-   **Add**
+   Add
       Adds RGB values. Will eventually turn the entire object white as RGB values accumulate to 1.0-1.0-1.0: Pure White.
-   **Subtract**
+   Subtract
       Subtracts RGB values. Usually results in Black.
-   **Multiply**
+   Multiply
       Multiplies brush colors by the vertex colors.
-   **Blur**
+   Blur
       Blurs vertex colors.
-   **Lighten**
+   Lighten
       Lightens the color of the vertices.
 
 
@@ -75,7 +75,7 @@ Brush
    Subtract with full strength
 
 
-   **Darken**
+   Darken
       Darkens the color of the vertices.
 
 
@@ -92,66 +92,66 @@ and that particular texture defined using the Material and Texture buttons.
 It is not necessary to have that material or texture applied to any mesh anywhere;
 it must only be defined.
 
-:guilabel:`Brush Mapping Mode`
+Brush Mapping Mode
    Sets how the texture is applied to the brush
 
-   :guilabel:`View Plane`
+   View Plane
       In 2D painting, the texture moves with the brush
-   :guilabel:`Tiled`
+   Tiled
       The texture is offset by the brush location
-   :guilabel:`3D`
+   3D
       Same as tiled mode
-   :guilabel:`Stencil`
+   Stencil
       Texture is applied only in borders of the stencil.
-   :guilabel:`Random`
+   Random
       Random applying of texture.
 
-:guilabel:`Angle`
+Angle
    This is the rotation angle of the texture brush. It can be changed interactively via :kbd:`ctrl-F` in the 3D view. While in the interactive rotation you can enter a value numerically as well. Can be set to:
 
-   :guilabel:`User`
+   User
       Directly input the angle value.
-   :guilabel:`Rake`
+   Rake
       Angle follows the direction of the brush stroke. Not available with :guilabel:`3D` textures.
-   :guilabel:`Random`
+   Random
       Angle is randomized.
 
-:guilabel:`Offset`
+Offset
    Offset the texture in x, y, and z.
 
-:guilabel:`Size`
+Size
    Set the scale of the texture in each axis.
 
 
 Stroke
 ------
 
-**Stroke Method**
+Stroke Method
    Allows set the way applying strokes.
 
-   **Airbrush**
+   Airbrush
       Flow of the brush continues as long as the mouse click is held, determined by the :guilabel:`Rate` setting.
       If disabled, the brush only modifies the color when the brush changes its location.
 
-      **Rate**
+      Rate
          Interval between paints for airbrush
-   **Space**
+   Space
       Creates brush stroke as a series of dots, whose spacing is determined by the :guilabel:`Spacing` setting.
 
-      **Spacing**
+      Spacing
          Represents the percentage of the brush diameter. Limit brush application to the distance specified by spacing.
-   **Dots**
+   Dots
       Apply paint on each mouse move step
-   **Jitter**
+   Jitter
       Jitter the position of the brush while painting
-**Smooth stroke**
+Smooth stroke
    Brush lags behind mouse and follows a smoother path. When enabled, the following become active:
 
-   **Radius**
+   Radius
       Sets the minimun distance from the last point before stroke continues.
-   **Factor**
+   Factor
       Sets the amount of smoothing.
-**Input Samples**
+Input Samples
    Average multiple input samples together to smooth the brush stroke.
 
 
@@ -195,15 +195,15 @@ as well as specify a custom icon.
 Options
 =======
 
-**Normals**
+Normals
    Applies the Vertex Normal before painting. This does not usually affect painting.
-**Spray**
+Spray
    Continues painting for as long as the mouse is held.
 
-**Unified Settings**
-   **Size**
+Unified Settings
+   Size
       All brushes use the same size.
-   **Strength**
+   Strength
       All brushes use the same strength.
 
 

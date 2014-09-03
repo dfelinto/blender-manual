@@ -56,7 +56,7 @@ control the render face size:
 
 :doc:`Subdivision Surface </modifiers/generate/subsurf>` **Meshes**
    Rendered face size is controlled with render subsurf level. Displacement really likes smooth normals.
-**Manually (** :guilabel:`Edit Mode` **)** :doc:`subdivided </modeling/meshes/advanced_tools#subdivide>` **meshes**
+Manually ( :guilabel:`Edit Mode` ) :doc:`subdivided </modeling/meshes/advanced_tools#subdivide>` meshes
    Control render faces with number of subdivides.
    (This can be combined with the above methods.) Displaces exactly the same Simple Subsurf,
    but slows editing down because of the OpenGL overhead of drawing the extra faces.
@@ -67,9 +67,9 @@ control the render face size:
 The following are available, but currently don't work well.
 It is recommended that you convert these to meshes before rendering.
 
-**Open** :doc:`NURBS Surfaces </modeling/surfaces>`
+Open :doc:`NURBS Surfaces </modeling/surfaces>`
    Control render faces with U/V :guilabel:`Surface Resolution`. Higher numbers give more faces. (Note normal errors).
-**Closed NURBS Surfaces**
+Closed NURBS Surfaces
    Control with :guilabel:`Surface Resolution` controls. (Note the normal errors, and how implicit seam shows).
 :doc:`Curves </modeling/curves>` **and** :doc:`Text </modeling/texts>`
    Control with :guilabel:`Surface Resolution` controls. Higher gives more render faces. (Note that the large flat surfaces have few render faces to displace).

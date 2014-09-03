@@ -36,27 +36,27 @@ Options
    Screw modifier
 
 
-:guilabel:`Axis`
+Axis
    The axis along which the helix will be built.
 
-   :guilabel:`Screw`
+   Screw
       The height of one helix iteration.
-:guilabel:`AxisOb`
+AxisOb
    The name of an object to define the axis direction.
 
-   :guilabel:`Object Screw`
+   Object Screw
       Use the :guilabel:`Axis Object` to define the value of :guilabel:`Screw`.
-:guilabel:`Angle`
+Angle
    Degrees for a single helix revolution.
-:guilabel:`Steps`
+Steps
    Number of steps used for a single revolution (displayed in the 3D view.)
-:guilabel:`Render Steps`
+Render Steps
    As above, used during render time.  Increase to improve quality.
-:guilabel:`Calc Order`
+Calc Order
    Order of edges is calculated to avoid problems with normals.  Only needed for meshes, not curves.
-:guilabel:`Flip`
+Flip
    Flip normals direction.
-:guilabel:`Iterations`
+Iterations
    Number of revolutions.
 
 

@@ -121,25 +121,25 @@ This visualization materializes the bone deformation influence. More on this in 
 Attributes
 ==========
 
-:guilabel:`Names`
+Names
    When enabled, the name of each bone is drawn.
 
-:guilabel:`Colors`
+Colors
    This is only relevant for :guilabel:`Pose` mode, and is described in detail :doc:`there </rigging/posing/visualization>`.
 
 
-:guilabel:`Axes`
+Axes
    When enabled, the (local) axes of each bone are drawn (only relevant for :guilabel:`Edit` and :guilabel:`Pose` modes).
 
-:guilabel:`X-Ray`
+X-Ray
    When enabled, the bones of the armature will always be drawn on top of the solid objects (meshes, surfaces, ...) - i.e. they will always be visible and selectable (this is the same option as the one found in the :guilabel:`Display` panel of the :guilabel:`Object data` context. Very useful when not in :guilabel:`Wireframe` mode.
 
-:guilabel:`Shapes`
+Shapes
    When enabled, the default standard bone shape is replaced,
    in :guilabel:`Object` and :guilabel:`Pose` modes,
    by the shape of a chosen object (see FIXME(TODO: Internal Link; [[#Shaped Bones|below]]) for details).
 
-:guilabel:`Delay Refresh`
+Delay Refresh
    When enabled, the bone doesn't deform its children when manipulating the bone in pose mode.
 
 
@@ -168,16 +168,16 @@ First of all, you have to enable the :guilabel:`Shapes` button (:guilabel:`Armat
 Attributes
 ----------
 
-:guilabel:`Wireframe`
+Wireframe
    When enabled, bone is displayed in wireframe mode regardles of the viewport drawing mode. Useful for non-obstructive custom bone chains.
 
-:guilabel:`Hide`
+Hide
    Bone is not visible when not in :guilabel:`Edit mode`.
 
-:guilabel:`Custom Shape`
+Custom Shape
    Object that defines the custom shape of the selected bone.
 
-:guilabel:`Custom At`
+Custom At
    Bone that defines the display transform of this shape bone
 
 

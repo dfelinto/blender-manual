@@ -41,22 +41,22 @@ Select a slot in the Textures Stack to see its settings.
 The first group of buttons below the stack displays the texture currently selected in the
 stack.
 
-:guilabel:`Browse`
+Browse
    The first button below the stack displays the all available textures in the current file. Textures are stored globally, and can be linked to more than one material. If you have already created a texture that you want to reuse, select from this list.
 
-:guilabel:`Name`
+Name
    A name field where the name of the material can be changed.
 
-:guilabel:`Number of users`
+Number of users
    If the active texture is used by another material, a :guilabel:`2` button appears that can be used to make a single-user copy of the active texture.  Use this button to quickly create a new texture based on an existing texture.
 
-:guilabel:`Fake`
+Fake
    The :guilabel:`F` button assigns the active texture to a "Fake" material, so that the texture is saved with the file even if it has no "real" users.
 
-:guilabel:`Add`
+Add
    Replaces the texture of the active slot with a new texture.
 
-:guilabel:`Unlink`
+Unlink
    Removes the texture from the active slot.
 
 
@@ -95,10 +95,10 @@ Preview
 The texture preview panel provides a quick pre-visualisation of how the texture looks on its
 own, without mapping.
 
-:guilabel:`Texture`, :guilabel:`Material`, or :guilabel:`Both`
+Texture, Material, or Both
    Choose to display only the texture, only the material, or both.
 
-:guilabel:`Show Alpha`
+Show Alpha
    Show alpha in preview.
    If Alpha: Use is checked in the :doc:`Image Sampling </textures/types/image>` panel, the image's alpha channel is displayed.
    If Alpha: Use is unchecked, an alpha channel based on averaged rgb values is displayed like it would be used by the Alpha slider in the :doc:`Influence </textures/influence/material>` panel.
@@ -121,13 +121,13 @@ and  :guilabel:`Saturation` buttons. All textures with RGB-Values — including
 :guilabel:`Images` and  :guilabel:`Environment Maps` — may be modified with the RGB
 sliders.
 
-:guilabel:`R`,  :guilabel:`G`,  :guilabel:`B`
+R,  G,  B
    Tint the color of a texture by brightening each red, green and blue channel.
-:guilabel:`Brightness`
+Brightness
    Change the overall brightness/intensity of the texture
-:guilabel:`Contrast`
+Contrast
    Change the contrast of the texture
-:guilabel:`Saturation`
+Saturation
    Change the saturation of the texture
 
 

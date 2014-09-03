@@ -33,12 +33,12 @@ which is useful for test purposes.
    Float Neg. Exp.
 
 
-:guilabel:`Float Neg. Exp.`
+Float Neg. Exp.
    Values drop off exponentially with the specified half-life time.
 
-   **Property**
+   Property
       Float property to  receive value
-   **Half-Life Time**
+   Half-Life Time
       Half-life time (Range 0.00 -10000.00)
 
 
@@ -49,14 +49,14 @@ which is useful for test purposes.
    Float Normal
 
 
-:guilabel:`Float normal`
+Float normal
    Random numbers from a normal distribution.
 
-   **Property**
+   Property
       Float property to  receive value
-   **Mean**
+   Mean
       Mean of normal distribution (Range -10000.00 to +10000.00)
-   **SD**
+   SD
       Standard deviation of normal distribution (Range 0.00 to +10000.00)
 
 
@@ -67,14 +67,14 @@ which is useful for test purposes.
    Float Uniform
 
 
-:guilabel:`Float uniform`
+Float uniform
    Random values selected uniformly between maximum and minimum.
 
-   **Property**
+   Property
       Float property to  receive value
-   **Min**
+   Min
       Minimum value (Range -10000.00 to +10000.00)
-   **Max**
+   Max
       Maximum value (Range -10000.00 to +10000.00)
 
 
@@ -85,12 +85,12 @@ which is useful for test purposes.
    Float Constant
 
 
-:guilabel:`Float constant`
+Float constant
    Returns a constant value.
 
-   **Property**
+   Property
       Float property to  receive value
-   **Value**
+   Value
       Value (Range 0.00 to +1.00)
 
 
@@ -101,12 +101,12 @@ which is useful for test purposes.
    Random Integer Poisson
 
 
-:guilabel:`Int Poisson`
+Int Poisson
    Random numbers from a Poisson distribution.
 
-   **Property**
+   Property
       Integer property to  receive value
-   **Mean**
+   Mean
       Mean of Poisson distribution (Range 0.01 to +100.00)
 
 
@@ -117,14 +117,14 @@ which is useful for test purposes.
    Random Integer Uniform
 
 
-:guilabel:`Int uniform`
+Int uniform
    Random values selected uniformly between maximum and minimum.
 
-   **Property**
+   Property
       Integer property to  receive value
-   **Min**
+   Min
       Minimum value (Range -1000 to +1000)
-   **Max**
+   Max
       Maximum value (Range -1000 to +1000)
 
 
@@ -135,12 +135,12 @@ which is useful for test purposes.
    Random Integer Constant
 
 
-:guilabel:`Int constant`
+Int constant
    Returns a constant value.
 
-   **Property**
+   Property
       Integer property to  receive value
-   **Value**
+   Value
       Value (Range 0.00 to +1.00)
 
 
@@ -151,12 +151,12 @@ which is useful for test purposes.
    Random Bool Bernoulli
 
 
-:guilabel:`Bool Bernoulli`
+Bool Bernoulli
    Returns a random distribution with specified ratio of TRUE pulses.
 
-   **Property**
+   Property
       Boolean property to  receive value
-   **Chance**
+   Chance
       Proportion of TRUE responses required.
 
 
@@ -167,10 +167,10 @@ which is useful for test purposes.
    Random Bool Uniform
 
 
-:guilabel:`Bool uniform`
+Bool uniform
    A 50/50 chance of obtaining True/False.
 
-   **Property**
+   Property
       Boolean property to  receive value
 
 
@@ -181,12 +181,12 @@ which is useful for test purposes.
    Random Bool Constant
 
 
-:guilabel:`Bool constant`
+Bool constant
    Returns a constant value.
 
-   **Property**
+   Property
       Boolean property to  receive value
-   **Value**
+   Value
       Value (True or False)
 
 

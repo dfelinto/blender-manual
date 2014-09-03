@@ -9,24 +9,24 @@ Procedural textures: Wood
    Wood Texture Panels
 
 
-**Often used for**
+Often used for
    Woods and ring-shaped patterns.
-**Result(s)**
+Result(s)
    Intensity only
 
 
 Options
 =======
 
-:guilabel:`Sin` / :guilabel:`Saw` / :guilabel:`Tri`
+Sin / Saw / Tri
    Shape of wave to produce bands
-:guilabel:`Bands` / :guilabel:`Rings` / :guilabel:`Band Noise` / :guilabel:`Ring Noise`
+Bands / Rings / Band Noise / Ring Noise
    Set the bands to either straight or ring-shaped, with or without turbulence
-:guilabel:`Soft` / :guilabel:`Hard`
+Soft / Hard
    There are two methods available for the Noise function
-:guilabel:`Size`
+Size
    Dimension of the Noise table
-:guilabel:`Turbulence`
+Turbulence
    Turbulence of the Band Noise and Ring Noise types
 
 

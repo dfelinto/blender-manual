@@ -13,30 +13,30 @@ Settings
 Material
 ========
 
-:guilabel:`Stiffness`
+Stiffness
    Controls how stiff the root of the hair strands are.
-:guilabel:`Mass`
+Mass
    Controls the mass of the cloth material.
-:guilabel:`Bending`
+Bending
    Controls the amount of bend along the hairs. Higher values cause less bending.
-:guilabel:`Internal Friction`
+Internal Friction
    Amount of friction between individual hairs.
-:guilabel:`Collider Friction`
+Collider Friction
    Amount of friction between hairs and external collision objects.
 
 
 Damping
 =======
 
-:guilabel:`Spring`
+Spring
    Damping of cloth velocity. (higher = more smooth, less jiggling).
-:guilabel:`Air`
+Air
    Air has normally some thickness which slows falling things down.
 
 
 Quality
 =======
 
-:guilabel:`Steps`
+Steps
    Quality of the simulation in steps per frame. (higher is better quality but slower).
 

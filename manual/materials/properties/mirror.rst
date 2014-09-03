@@ -44,7 +44,7 @@ Options
 
 Enable ray-traced reflections
    Enable or disable ray-traced reflections
-:guilabel:`Reflectivity`
+Reflectivity
    Sets the amount of reflectiveness of the object.  Use a value of 1.0 if you need a perfect mirror, or set it to 0.0 if you don't want any reflection.
 
 
@@ -61,22 +61,22 @@ Color swatch
    This is the case for well-polished copper and gold, for example. In order to replicate this within Blender,
    you have to set the Mirror Color accordingly. To set a mirror color,
    simply click the color swatch in the mirror panel and select a color.
-:guilabel:`Fresnel`
+Fresnel
    Sets the power of the Fresnel effect. The Fresnel effect controls how reflective the material is,
    depending on the angle between the surface normal and the viewing direction. Typically, the larger the angle,
    the more reflective a material becomes (this generally occurs on the outline of objects).
-:guilabel:`Blend`
+Blend
    A controlling factor to adjust how the blending happens between the reflective and non-reflective areas.
-:guilabel:`Depth`
+Depth
    Maximum allowed number of light inter-reflections.
    If your scene contains many reflective objects and/or if the camera zooms in on such a reflective object, you will
    need to increase this value if you want to see surrounding reflections in the reflection of the reflected object (!).
    In this case, a Depth of 4 or 5 is typically a good value.
-:guilabel:`Max Dist`
+Max Dist
    Maximum distance of reflected rays away from camera (Z-Depth) in Blender units.
    Reflections further than this range fade out to reduce compute time.
 
-:guilabel:`Fade to`
+Fade to
    The color that rays with no intersection within the :guilabel:`Max Distance` take.
    :guilabel:`Material` color can be best for indoor scenes, :guilabel:`Sky` color (World settings)
    for outdoor scenes.
@@ -88,7 +88,7 @@ Color swatch
    Suzanne in the Fun House (`.blend <http://wiki.blender.org/index.php/:File:Manual-2.5-Material-MonkeyMirror.blend>`__)
 
 
-:guilabel:`Gloss`
+Gloss
    In paint, a high-gloss finish is very smooth and shiny.  A flat, or low gloss,
    finish disperses the light and gives a very blurry reflection.  Also, uneven or waxed-but-grainy surfaces
    (such as car paint) are not perfect and therefore slightly need a Gloss < 1.0.  In the example to the right,
@@ -96,11 +96,11 @@ Color swatch
    Use this setting to make a realistic reflection, all the way up to a completely foggy mirror.
    You can also use this value to mimic depth of field in mirrors.
 
-   :guilabel:`Amount`
+   Amount
       The shininess of the reflection.  Values < 1.0 give diffuse, blurry reflections and activate the settings below.
-   :guilabel:`Threshold`
+   Threshold
       Threshold for adaptive sampling.  If a sampling contributes less than this amount (as percentage), sampling is stopped.  Raising the threshold will make the adaptive sampler skip more often, however the reflections could become noisier.
-   :guilabel:`Samples`
+   Samples
       Number of cone samples averaged for blurry reflection.  More samples will give a smoother result, but will also increase render time.
 
 
@@ -109,7 +109,7 @@ Color swatch
    Anisotropic tangent reflecting spheres with anisotropic set to 0.0, 0.75, 1.0. (`.blend <http://wiki.blender.org/index.php/:File:Manual-2.5-Material-Mirror-anisotropic-example.blend>`__)
 
 
-   :guilabel:`Anisotropic`
+   Anisotropic
       The shape of the reflection, from 0.0 (circular) to 1.0 (fully stretched along the tangent).  If the :guilabel:`Tangent Shading` is on, Blender automatically renders blurry reflections as anisotropic reflections.
       When Tangent is switched on, the *Anisotropic* slider controls the strength of this anisotropic reflection,
       with a range of 1.0 (default) being fully anisotropic and 0.0 being fully circular,

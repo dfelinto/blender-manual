@@ -78,14 +78,14 @@ Simulation Quality
 The settings in the :guilabel:`Soft Body Solver` panel determine the accuracy of the
 simulation.
 
-:guilabel:`Min Step`
+Min Step
    Minimum simulation steps per frame. Increase this value, if the Soft Body misses fast moving collision objects.
-:guilabel:`Max Step`
+Max Step
    Maximum simulation steps per frame. Normally the number of simulation steps is set dynamically (with the :guilabel:`Error Limit`) but you have probably a good reason to change it.
-:guilabel:`Auto-Step`
+Auto-Step
    Use Velocities for automatic step sizes.
 
-:guilabel:`Error Limit`
+Error Limit
    Rules the overall quality of the solution delivered. Default 0.1.
    The most critical setting that says how precise the solver should check for collisions.
    Start with a value that is 1/2 the average edge length. If there are visible errors, jitter,
@@ -93,17 +93,17 @@ simulation.
    :guilabel:`Error Limit` causes the solver to do some "adaptive step sizing".
 
 
-:guilabel:`Fuzzy`
+Fuzzy
    Simulation is faster, but less accurate.
-:guilabel:`Choke`
+Choke
    Calms down (reduces the exit velocity of) a vertex or edge once it penetrates a collision mesh.
 
 
 **Diagnostics**
 
-:guilabel:`Print Performance to Console`
+Print Performance to Console
    Prints on the console how the solver is doing.
-:guilabel:`Estimate Matrix`
+Estimate Matrix
    Estimate matrix. Split to COM , ROT ,SCALE
 
 

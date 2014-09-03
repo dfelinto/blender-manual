@@ -63,9 +63,9 @@ thick smoke.
    Density options
 
 
-**Density**
+Density
    The base density of the material - other density from textures is added on top
-**Density Scale**
+Density Scale
    A global multiplier to increase or decrease the apparent density. This can be useful for getting consistent results across different scene scales.
 
 
@@ -88,7 +88,7 @@ light beams as they travel though a volume and are scattered towards the eye.
    Shading options
 
 
-**Scattering**
+Scattering
    The amount of light that is scattered out of the volume. The more light that is scattered out of the volume, the less it will penetrate through the rest of the volume. Raising this parameter can have the effect of making the volume seem denser, as the light is scattered out quickly at the 'surface' of the volume, leaving the areas internal to the volume darker, as the light doesn't reach it.
 
 
@@ -121,7 +121,7 @@ known as Anisotropic scattering.
 Back-scattering means that light is scattered more towards the incoming light direction, and
 forward-scattering means it's scattered along the same direction as the light is travelling.
 
-**Asymmetry**
+Asymmetry
    Asymmetry controls the range between back-scattering (-1.0) and forward-scattering (1.0). The default value of 0.0 gives Isotropic scattering (even in all directions).
 
 
@@ -139,7 +139,7 @@ Here, the transmission colour is used to set the end result colour that light be
 is transmitted through the volume.
 
 
-**Transmission Color**
+Transmission Color
    The resultant colour of light that is transmitted through the volume.
 
 Note in the examples below, as more light is scattered out of the volume,
@@ -164,9 +164,9 @@ coming from external sources.
 Currently, this emitted light does not affect other volumes or surfaces
 (similar to surface material type, 'Emit' option).
 
-**Emission Color**
+Emission Color
    The colour of light that is emitted by the volume.
-**Emission**
+Emission
    An intensity multiplier for the emitted colour, for scaling up and down.
 
 
@@ -196,9 +196,9 @@ To make it a bit easier to plainly set the colour of the volume,
 you can use the reflection parameters to quickly set an overall tint.
 
 
-**Reflection Color**
+Reflection Color
    The colour of light that is scattered out of the volume.
-**Reflection**
+Reflection
    An intensity multiplier for the reflection, for scaling up and down.
 
 
@@ -241,34 +241,34 @@ Lighting
 Several shading modes are available,
 providing a range of options between fast to render and physically accurate.
 
-**Lighting Mode**
-   **Shadeless**
+Lighting Mode
+   Shadeless
       Shadeless is the simplest, useful for thin, wispy mist or steam.
-   **Shadowed**
+   Shadowed
       Shadowed is similar, but with shadows of external objects.
-   **Shaded**
+   Shaded
       Shaded uses a volumetric single-scattering method, for self-shading the volume as light penetrates through.
-   **Multiple Scattering**
+   Multiple Scattering
       Allows multiple scatter calculations.
-   **Shaded+Multiple Scattering**
+   Shaded+Multiple Scattering
       Combines Shaded and Multiple Scattering functionality.
 
 
-**Shaded Options:**
-   **External Shadows**
+Shaded Options:
+   External Shadows
       Receive shadows from sources outside the volume (temporary).
-   **Light Cache**
+   Light Cache
       Pre-calculate the shading information into a voxel grid, speeds up shading at slightly less accuracy.
-   **Resolution**
+   Resolution
       Resolution of the voxel grid, low resolutions are faster, high resolutions use more memory.
 
 
-**Multiple Scattering Options:**
-   **Diffusion**
+Multiple Scattering Options:
+   Diffusion
       Diffusion factor, the strength of the blurring effect.
-   **Spread**
+   Spread
       Proportional distance over which the light is diffused.
-   **Intensity**
+   Intensity
       Multiplier for multiple scattered light energy.
 
 
@@ -280,11 +280,11 @@ Transparency
    Transparency options
 
 
-**Mask**
+Mask
    Mask the Background.
-**Z Transparency**
+Z Transparency
    Use Alpha buffer for transparent faces.
-**Raytrace**
+Raytrace
    Use Raytracing for Transparent Refraction rendering.
 
 
@@ -296,17 +296,17 @@ Integration
    Integration options
 
 
-**Step Calculation Method**
+Step Calculation Method
    Method of calculating the step through the volume.
 
-   **Randomized**
+   Randomized
       Randomized method of calculating the step.
-   **Constant**
+   Constant
       Constant method of calculating the step.
 
-**Step Size**
+Step Size
    Distance between subsequent volume depth samples. Step Sizes determine how noisy the volume is. Higher values result in lower render times and higher noise.
-**Depth Cutoff**
+Depth Cutoff
    Stop ray marching early if transmission drops below this luminance - higher values give speedups in dense volumes at the expense of accuracy.
 
 
@@ -318,16 +318,16 @@ Options
    Material volume options
 
 
-**Traceable**
+Traceable
    Allow this material to calculate raytracing.
-**Full Oversample**
+Full Oversample
    Force this material to render full shading/textures for all anti-aliasing samples.
-**Use Mist**
+Use Mist
    Use mist with this material (in world settings).
 
-**Light Group**
+Light Group
    Limit lighting of this material to lamps in this group.
-**Exclusive**
+Exclusive
    Material uses this group exclusively. Lamps are excluded from other scene lighting.
 
 

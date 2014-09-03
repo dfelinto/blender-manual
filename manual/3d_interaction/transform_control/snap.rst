@@ -30,22 +30,22 @@ This menu provides a number of options to move the cursor or your selection to a
    Snap menu
 
 
-:guilabel:`Selection to Grid`
+Selection to Grid
    Snaps the currently selected object(s) to the nearest grid point.
 
-:guilabel:`Selection to Cursor`
+Selection to Cursor
    Snaps the currently selected object(s) to the cursor location.
 
-:guilabel:`Cursor to Selected`
+Cursor to Selected
    Moves the cursor to the center of the selected object(s).
 
-:guilabel:`Cursor to Center`
+Cursor to Center
    Moves the cursor to the center of the grid.
 
-:guilabel:`Cursor to Grid`
+Cursor to Grid
    Moves the cursor to the nearest grid point.
 
-:guilabel:`Cursor to Active`
+Cursor to Active
    Moves the cursor to the center of the active object.
 
 
@@ -73,18 +73,18 @@ Snap Element
    Snap Element menu
 
 
-:guilabel:`Volume`
+Volume
    Snaps to regions within the volume of the first Object found below the mouse cursor. Unlike the other options,
    this one controls the depth (i.e. Z-coordinates in current view space) of the transformed element.
    By toggling the button that appears to the right of the snap target menu (see below),
    target objects will be considered as a whole when determining the volume center.
-:guilabel:`Face`
+Face
    Snap to the surfaces of faces in mesh objects. Useful for retopologizing.
-:guilabel:`Edge`
+Edge
    Snap to edges of mesh objects.
-:guilabel:`Vertex`
+Vertex
    Snap to vertices of mesh objects.
-:guilabel:`Increment`
+Increment
    Snap to grid points. When in Orthographic view, the snapping increment changes depending on zoom level.
    Please note: in this context the grid does not mean the visual grid cue displayed.
    Snapping will use the resolution of the displayed grid,
@@ -103,13 +103,13 @@ Snap target options become active when either :guilabel:`Vertex`, :guilabel:`Edg
 :guilabel:`Face`, or :guilabel:`Volume` is selected as the snap element.
 These determine what part of the selection snaps to the target objects.
 
-:guilabel:`Active`
+Active
    move the active element (vertex in Edit mode, object in Object mode) to the target.
-:guilabel:`Median`
+Median
    move the median of the selection to the target.
-:guilabel:`Center`
+Center
    move the current transformation center to the target. Can be used with 3D cursor to snap with an offset.
-:guilabel:`Closest`
+Closest
    move the closest point of the selection to the target.
 
 

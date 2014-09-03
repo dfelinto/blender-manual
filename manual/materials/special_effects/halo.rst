@@ -42,16 +42,16 @@ we now see panels relative to the :guilabel:`Halo` characteristics:
 Halo Panel
 ==========
 
-**Alpha**
+Alpha
    The transparency
-**Color Swatch**
+Color Swatch
    The color of the halo itself
-**Seed**
+Seed
    If non-zero, randomizes the ring dimension and line location. To use, give any (integer) number to start the random-number generator.
 
-**Size**
+Size
    Sets the dimension of the halo
-**Hardness**
+Hardness
    Sets the hardness of the halo. Similar to specular hardness
 
 
@@ -60,10 +60,10 @@ Halo Panel
    Effect of Add
 
 
-**Add**
+Add
    The :guilabel:`Add` slider determine how much the halo colors are 'added to', rather than mixed with, the colors of the objects behind and together with other halos. By increasing Add, the Halo will appear to light up objects that move behind it or through the Halo field.
 
-**Texture**
+Texture
    Gives halo a texture. By default,
    textures are applied to objects with Object coordinates and reflects on the halos by affecting their color,
    as a whole, on the basis of the color of the vertex originating the halo.
@@ -72,27 +72,27 @@ Halo Panel
    This technique proves very useful when you want to create a realistic rain effect using particle systems,
    or similar.
 
-**Vertex Normal**
+Vertex Normal
    Use the vertex normal to specify the dimension of the halo
-**Extreme Alpha**
+Extreme Alpha
    Boosts alpha
-**Shaded**
+Shaded
    Lets halo receive light and shadows from external objects
 
       When shaded is enabled, the Halo will be affected by local light;
       a lamp will make it brighter and affect its diffuse color and intensity.
-**Soft**
+Soft
    Softens the edges of the halos at intersections with other geometry
 
 In addition, several other special effects are available.
 To enable some or all of these effects, set the number of points/rings,
 or set the color of each effect individually:
 
-**Rings**
+Rings
    Adds circular rings around to the halo.
-**Lines**
+Lines
    Adds lines from the center of the halo.
-**Star tips**
+Star tips
    Gives the halo a star shape.
 
 You can not use color ramps. Lines,
@@ -131,15 +131,15 @@ Flare Panel
 
 Enabling Flare Renders the halo as a lens flare
 
-**Size**
+Size
    Sets the factor by which the flare is larger than the halo
-**Boost**
+Boost
    Give the flare extra strength.
-**Seed**
+Seed
    Specifies an offset in the flare seed table
-**Subflares**
+Subflares
    Sets the number of subflares
-**Subsize**
+Subsize
    Sets the dimensions of the subflares, dots, and circles
 
 

@@ -103,8 +103,8 @@ Physics Steps
       Set the nominal number of game frames per second.
       Physics fixed timestep = 1/fps, independently of actual frame rate.
 Logic Steps
-      Sets the maximum number of logic frame per game frame if graphics slows down the game,
-      higher value allows better synchronization with physics.
+   Sets the maximum number of logic frame per game frame if graphics slows down the game,
+   higher value allows better synchronization with physics.
 Physics Deactivation
    These settings control the threshold at which physics is deactivated.
    These settings help reducing the processing spent on Physics simulation during the game.

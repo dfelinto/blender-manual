@@ -39,19 +39,19 @@ Options
    Action panel
 
 
-:guilabel:`Target`
+Target
    This constraint uses one target, and is not functional (red state) when it has none.
 
-:guilabel:`Bone`:
+Bone:
    When target is an armature object, use this field to select the target bone.
 
-:guilabel:`Transform Channel`
+Transform Channel
    This drop-down list controls which transform property (location, rotation or scale along/around one of its axes) from the target to use as "action driver".
 
-:guilabel:`Target Space`
+Target Space
    This constraint allows you to choose in which space to evaluate its target's transform properties.
 
-:guilabel:`To Action`
+To Action
    Select the name of the action you want to use.
 
  .. warning::
@@ -60,10 +60,10 @@ Options
 	constraint is obviously not functional when this field does not contain a
 	valid action.
 
-:guilabel:`Object Action`
+Object Action
    **Bones only**, when enabled, this option will make the constrained bone use the "object" part of the linked action, instead of the "same-named pose" part. This allows you to apply the action of an object to a bone.
 
-:guilabel:`Target Range` :guilabel:`Min` / :guilabel:`Max`
+Target Range Min / Max
    The lower and upper bounds of the driving transform property value.
    By default, both values are set to **0.0**
 
@@ -74,7 +74,7 @@ Options
       - When using a rotation property as "driver", these values are "mapped back" to the ``[-180.0- , 180.0- [`` range.
       - When using a scale property as "driver", these values are limited to null or positive values.
 
-:guilabel:`Action Range` :guilabel:`Start` / :guilabel:`End`
+Action Range Start / End
    The starting and ending frames of the action to be mapped.
    Note that:
 

@@ -17,13 +17,13 @@ See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for
 
 Special Options:
 
-**Property**
+Property
    This field can be used to limit the sensor to look for only those objects with this property.
 
-**Distance**
+Distance
    The number of blender units it will detect objects within.
 
-**Reset**
+Reset
    The distance the object needs to be to reset the sensor (send a FALSE pulse).
 
 Notes:

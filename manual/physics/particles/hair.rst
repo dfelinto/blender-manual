@@ -50,16 +50,16 @@ Options
    Image 4a: Settings for a Hair particle system.
 
 
-:guilabel:`Regrow`
+Regrow
    Regrow Hair for each frame.
-:guilabel:`Advanced`
+Advanced
    Enables advanced settings which reflect the same ones as working in Emitter mode.
 
 
 Emission
 ========
 
-:guilabel:`Amount`
+Amount
    Set the amount of hair strands. Use as little particles as possible, especially if you plan to use softbody animation later. But you need enough particles to have good control. For a "normal" haircut I found some thousand (very roughly 2000) particles to give enough control. You may need a lot more particles if you plan to cover a body with fur. Volume will be produced later with :guilabel:`Children`.
 
 
@@ -72,12 +72,12 @@ Settings for adding movement to hair see :doc:`Hair Dynamics </physics/particles
 Display
 =======
 
-:guilabel:`Rendered`
+Rendered
    Draw hair as curves.
-:guilabel:`Path`
+Path
    Draw just the end points if the hairs.
 
-:guilabel:`Steps`
+Steps
    The number of segments (control points minus 1) of the hair strand. In between the control points the segments are interpolated. The number of control points is important:
 
 - for the softbody animation, because the control points are animated like vertices, so more control points mean longer calculation times.

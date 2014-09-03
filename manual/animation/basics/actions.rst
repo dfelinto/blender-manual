@@ -25,15 +25,15 @@ Cube.location.x is recorded to Channel X Location.
    Graph Editor. Each Channel has an F-Curve represented by the lines between the keyframes.
 
 
-:guilabel:`Actions`
+Actions
    Record and contain animation data.
-:guilabel:`Groups`
+Groups
    Are groups of channels.
-:guilabel:`Channels`
+Channels
    Record properties.
-:guilabel:`F-Curves`
+F-Curves
    Are used to interpolate the difference between the keyframes.
-:guilabel:`Keyframes`
+Keyframes
    Are used to set the values of properties.
 
 

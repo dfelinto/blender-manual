@@ -20,47 +20,47 @@ Game settings are visible when using the game engine for rendering.
 Material physics usage is described :doc:`here </materials/properties/physics>`.
 
 
-**Backface Cull**  (default On)
+Backface Cull  (default On)
    Hide the back faces of objects rendered with this material. If "Off", both sides of the surface are visible (at the expense of lower rendering speed). Note that this setting is applied per-material and not per-face; e.g. if the material is applied to a cube, only the back and front faces of the cube are visible, and not both sides of each face.
 
-**Invisible**
+Invisible
    Hide all faces of objects rendered with this material.
 
-**Text**
+Text
    Use material as :doc:`Text object </modeling/texts>` in the Game Engine.
 
-**Alpha Blend** menu:
+Alpha Blend menu:
    Controls how the alpha channel is used to create a transparent texture in the rendered image.
 
-   **Alpha Sort**
+   Alpha Sort
       Orders the sequence in which transparent objects are drawn on top of each other, so that ones in front receive more light than ones behind.
 
-   **Alpha Blend**
+   Alpha Blend
       Uses the alpha values present in the bitmap image sourced in the Image slot.
 
-   **Alpha Clip**
+   Alpha Clip
       Uses the alpha channel as a simple mask.
 
-   **Add**
+   Add
       Render face transparent and add color of face.
 
-   **Opaque**  (default)
+   Opaque  (default)
       All alpha values are ignored; the scene is completely non-transparent.
 
 **Face Orientation** menu:
 Provides options regarding the orientation (i.e. rotation transformation)
 of faces to which the material is applied.
 
-   **Shadow**
+   Shadow
       Faces are used for shadow.
 
-   **Billboard**
+   Billboard
       Billboard with Z-axis constraint.
 
-   **Halo**
+   Halo
       Screen aligned billboard.
 
-   **Normal**  (default)
+   Normal  (default)
       No transofmation.
 
 

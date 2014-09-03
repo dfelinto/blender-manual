@@ -108,10 +108,10 @@ Input Box
 - The Arrows let the user define the position of the Modifier in the modifiers stack when there are more modifiers applied to the object.
 - The **X** is used to remove the modifier from the object.
 
-:guilabel:`Apply`
+Apply
    This Button applies the operation to the modified mesh and only works in :guilabel:`Object` Mode of the :guilabel:`3D View` Window. If you click on this Button in :guilabel:`Edit` Mode, Blender will present you with the standard message for modifiers, ``Modifiers Cannot be applied in Edit Mode``.
 
-:guilabel:`Copy`
+Copy
    Clicking in this Button will make Blender copy the Modifier, giving it a dot and a numeric suffix using three digits with a counter starting from 001 (e.g. Boolean.001).
 
 
@@ -141,7 +141,7 @@ Operations
 - If the modified Mesh uses inverted normals, Blender will intersect the target Mesh.
 - If both Meshes use inverted normals, Blender will add both meshes (Union).
 
-:guilabel:`Object`
+Object
    The name of the target object. Must be a mesh.
 
 

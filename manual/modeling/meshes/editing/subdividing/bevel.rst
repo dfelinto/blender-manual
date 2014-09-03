@@ -74,7 +74,7 @@ Options
 
 .. figure:: /images/BevelOptions.jpg
 
-:guilabel:`Offset`
+Offset
    You can change the bevel width by moving the mouse towards and away from the object, a bit like with transform tools. As usual, the scaling can be controlled to a finer degree by  holding :kbd:`shift` to scale in 0.001 steps. :kbd:`lmb` finalizes the operation, :kbd:`rmb` or :kbd:`Esc` aborts the action.
 
 
@@ -85,7 +85,7 @@ Options
    Bevel with 4 segments
 
 
-:guilabel:`Segments`
+Segments
    The number of segments in the bevel can be defined by scrolling the mouse :kbd:`wheel` to increase or decrease this value. The greater the number of recursions, the smoother the bevel.
 
 

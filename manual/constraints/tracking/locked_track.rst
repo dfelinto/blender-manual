@@ -56,13 +56,13 @@ Options
    Locked track panel
 
 
-:guilabel:`Target`
+Target
    This constraint uses one target, and is not functional (red state) when it has none.
 
-:guilabel:`To`
+To
    The tracking local axis (:guilabel:`Y` by default), i.e. the owner's axis to point at the target. The negative options force the relevant axis to point away from the target.
 
-:guilabel:`Lock`
+Lock
    The locked local axis (:guilabel:`Z` by default), i.e. the owner's axis which cannot be re-oriented to track the target.
 
 

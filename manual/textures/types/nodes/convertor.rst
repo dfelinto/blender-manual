@@ -20,42 +20,42 @@ Math
 
 The math node performs one of several math functions on one or two inputs
 
-:guilabel:`Clamp`
+Clamp
    Clamps the result between 0 and 1.
 
-:guilabel:`Add`
+Add
    Add the two inputs
-:guilabel:`Subtract`
+Subtract
    Subtract input 2 from input 1
-:guilabel:`Multiply`
+Multiply
    Multiply the two inputs
-:guilabel:`Divide`
+Divide
    Divide input 1 by input 2
-:guilabel:`Sine`
+Sine
    The sine of input 1 (degrees)
-:guilabel:`Cosine`
+Cosine
    The cosine of input 1 (degrees)
-:guilabel:`Tangent`
+Tangent
    The tangent of input 1 (degrees)
-:guilabel:`Arcsine`
+Arcsine
    The arcsine (inverse sine) of input 1 (degrees)
-:guilabel:`Arccosine`
+Arccosine
    The arccosine (inverse cosine) of input 1 (degrees)
-:guilabel:`Arctangent`
+Arctangent
    The arctangent (inverse tangent) of input 1 (degrees)
-:guilabel:`Power`
+Power
    Input 1 to the power of input 2 (input1^input2)
-:guilabel:`Logarithm`
+Logarithm
    log base input 2 of input 1
-:guilabel:`Minimum`
+Minimum
    The minimum of input 1 and input 2
-:guilabel:`Maximum`
+Maximum
    The maximum of input 1 and input 2
-:guilabel:`Round`
+Round
    Rounds input 1 to the nearest integer
-:guilabel:`Less Than`
+Less Than
    Test if input 1 is less than input 2, returns 1 for true, 0 for false
-:guilabel:`Greater Than`
+Greater Than
    Test if input 1 is greater than input 2, returns 1 for true, 0 for false
 
 
@@ -122,10 +122,10 @@ Value to Normal
 
 Computes a normal map based on greyscale values of an input
 
-:guilabel:`Val`
+Val
    The texture to compute the normal map from
 
-:guilabel:`Nabla`
+Nabla
    Size of derivative offset used for calculating normals.
 
 

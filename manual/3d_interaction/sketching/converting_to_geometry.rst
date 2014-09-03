@@ -85,37 +85,37 @@ So this allows you to reproduce your drawing movements.
    specified range of frames).
 
 
-:guilabel:`Timing Mode`
+Timing Mode
    This control let you choose how timing data are used.
 
-   :guilabel:`No Timing`
+   No Timing
       Just create the curve, without any animation data (hence all following options will be hidden)...
-   :guilabel:`Linear`
+   Linear
       The path animation will be a linear one.
-   :guilabel:`Original`
+   Original
       The path animation will reflect to original timing, including for the "gaps" (i.e. time between strokes drawing).
-   :guilabel:`Custom Gaps`
+   Custom Gaps
       The path animation will reflect to original timing, but the "gaps" will get custom values. This is especially useful if you have very large pauses between some of your strokes, and would rather like to have "reasonable" ones!
 
-:guilabel:`Frame Range`
+Frame Range
    The "length" of the created path animation, in frames. In other words, the highest value of :guilabel:`Evaluation Time`.
 
-:guilabel:`Start Frame`
+Start Frame
    The starting frame of the path animation.
 
-:guilabel:`Realtime`
+Realtime
    When enabled, the path animation will last exactly the same duration it took you do draw the strokes.
 
-:guilabel:`End Frame`
+End Frame
    When :guilabel:`Realtime` is disabled, this defines the end frame of the path animation. This means that the drawing timing will be scaled up or down to fit into the specified range.
 
-:guilabel:`Gap Duration`
+Gap Duration
    :guilabel:`Custom Gaps` only. The average duration (in frames) of each gap between actual strokes. Please note that the value entered here will only be exact if :guilabel:`Realtime` is enabled, else it will be scaled, exactly as the actual strokes' timing is!
 
-:guilabel:`Gap Randomness`
+Gap Randomness
    Only when :guilabel:`Gap Duration` is non-null. The number of frames actual gap duration can vary of. This allows the creation of gaps having an average well defined duration, yet keeping some random variations to avoid an "always the same" effect.
 
-:guilabel:`Random Seed`
+Random Seed
    The seed fed to the random generator managing gaps duration variations. Change it to get another set of gaps duration in the path animation.
 
 

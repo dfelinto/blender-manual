@@ -11,9 +11,9 @@ Common Shadowing Lamps Options
 
 All lamps able to cast shadows (:doc:`Lamp </lighting/lamps/lamp>`, :doc:`Spot </lighting/lamps/spot>`, :doc:`Area </lighting/lamps/area>` and :doc:`Sun </lighting/lamps/sun>`) share some options, described below:
 
-:guilabel:`This Layer Only`
+This Layer Only
    When this option is enabled, only the objects on the same layer as the light source will cast shadows.
-:guilabel:`Only Shadow`
+Only Shadow
    The light source will not illuminate an object but will generate the shadows that would normally appear.
    This feature is often used to control how and where shadows fall by having a light which illuminates but has no shadow, combined with a second light which doesn't illuminate but has :guilabel:`Only Shadow` enabled, allowing the user to control shadow placement by moving the "Shadow Only" light around.
 

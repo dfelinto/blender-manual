@@ -214,27 +214,27 @@ and :guilabel:`Disable Setting`
 (:kbd:`alt-W` or :menuselection:`Armature --> Bone Settings --> Disable a Setting`)
 - all three have the same entries, their respective effect should be obvious...
 
-:guilabel:`BO`
+BO
    The bone name field, see FIXME(TODO: Internal Link; [[#Naming Bones|below]]).
 
-:guilabel:`child of`
+child of
    These two settings control the bone relationship, as detailed
    FIXME(TODO: Internal Link; [[#Chain Editing|below]]).
 
-:guilabel:`Segm`
+Segm
    This setting controls the number of segments that a bone has; see
    FIXME(TODO: Internal Link; [[#Bone Rigidity Settings|below]]).
 
-:guilabel:`Dist`, :guilabel:`Weight`, :guilabel:`Deform` (also :menuselection:`[shift][W] --> Deform` & co), :guilabel:`Mult` (also :menuselection:`[shift][W] --> Mult VG` & co)
+Dist, Weight, Deform (also :menuselection:`[shift][W] --> Deform` & co), Mult (also :menuselection:`[shift][W] --> Mult VG` & co)
    These settings control how the bone influences its geometry - along with the bones' ends radius. This will be detailed in the :doc:`skinning part </rigging/skinning>`.
 
-:guilabel:`Hinge` (also :menuselection:`[shift][W] --> Hinge` & co), :guilabel:`S` (also :menuselection:`[shift][W] --> No Scale` & co)
+Hinge (also :menuselection:`[shift][W] --> Hinge` & co), S (also :menuselection:`[shift][W] --> No Scale` & co)
    These settings affect the behavior of children bones while transforming their parent in :guilabel:`Pose` mode, so this will be detailed in the :doc:`posing part </rigging/posing>` !
 
-:guilabel:`Hide`
+Hide
    This will hide the bone (same as hitting :kbd:`H` in the 3D views, see :doc:`this page </rigging/armatures/visualization#hiding_bones>`).
 
-:guilabel:`Lock` (also :menuselection:`[shift][W] --> Locked` & co)
+Lock (also :menuselection:`[shift][W] --> Locked` & co)
    This will prevent all editing of the bone in :guilabel:`Edit` mode, see the :doc:`previous page </rigging/armatures/editing/bones>`.
 
 Layers button

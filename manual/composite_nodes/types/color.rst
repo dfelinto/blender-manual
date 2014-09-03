@@ -151,41 +151,41 @@ The alpha and Z channels are mixed as well.
 
 Not one, not two, but count 'em, *sixteen* mixing choices include:
 
-:guilabel:`Mix`
+Mix
    The background pixel is covered by the foreground using alpha values.
-:guilabel:`Add`
+Add
    The pixels are added together. *Fac* controls how much of the second socket to add in. Gives a bright result.
    The "opposite" to :guilabel:`Subtract` mode.
-:guilabel:`Subtract`
+Subtract
    Pixels are subtracted from one another. Gives a dark result.
    The "opposite" to :guilabel:`Add` mode.
-:guilabel:`Multiply`
+Multiply
    Returns a darker result than either pixel in most cases (except if one of them equals white=1). Completely white layers do not change the background at all. Completely black layers give a black result.
    The "opposite" to :guilabel:`Screen` mode.
-:guilabel:`Screen`
+Screen
    Both pixel values are inverted, multiplied by each other, then the result is inverted again. This returns a brighter result than both input pixels in most cases (except if one of them equals 0). Completely black layers do not change the background at all (and vice versa); completely white layers give a white result.
    The "opposite" of :guilabel:`Multiply` mode.
-:guilabel:`Overlay`
+Overlay
    A combination of :guilabel:`Screen` and :guilabel:`Multiply` mode, depending on the base color.
-:guilabel:`Divide`
+Divide
    The background pixel (top socket) is divided by the second one: if this one is white (= 1.0), the first one isn't changed; the darker the second one, the brighter is the result (division by 0.5 - median gray - is same as multiplication by 2.0); if the second is black (= 0.0, zero-division is impossible!), Blender doesn't modify the background pixel.
-:guilabel:`Difference`
+Difference
    Both pixels are subtracted from one another, and the absolute value is taken. So the result shows the distance between both parameters, black stands for equal colors, white for opposite colors (one is black, the other white). The result looks a bit strange in many cases. This mode can be used to invert parts of the base image, and to compare two images (results in black if they are equal).
-:guilabel:`Darken`
+Darken
    Both pixels are compared to each other, and the smaller one is taken. Completely white layers do not change the background at all, and completely black layers give a black result.
-:guilabel:`Lighten`
+Lighten
    Both parameters are compared to each other, and the larger one is taken. Completely black layers do not change the image at all and white layers give a white result.
-:guilabel:`Dodge`
+Dodge
    Brightens the one socket by the gradient in the other socket. Results in lighter areas of the image where the gradient is whiter. Use the Fac to control how much the gradient affects the other socket.
-:guilabel:`Burn`
+Burn
    Darkens one socket based on the gradient fed to the other socket. Results in darker images, since the image is *burned* onto the paper, er ... image (showing my age).
-:guilabel:`Color`
+Color
    Adds a color to a pixel, tinting the overall whole with the color. Use this to increase the tint of an image.
-:guilabel:`Value`
+Value
    The RGB values of both pixels are converted to HSV values. The values of both pixels are blended, and the hue and saturation of the base image is combined with the blended value and converted back to RGB.
-:guilabel:`Saturation`
+Saturation
    The RGB values of both pixels are converted to HSV values.  The saturation of both pixels are blended, and the hue and value of the base image is combined with the blended saturation and converted back to RGB.
-:guilabel:`Hue`
+Hue
    The RGB values of both pixels are converted to HSV values.  The hue of both pixels are blended, and the value and saturation of the base image is combined with the blended hue and converted back to RGB.
 
 .. note:: Color Channels
@@ -363,7 +363,7 @@ This node takes an input image and runs the color of the image
 (and the light it reflects and radiates) 'up' through a factor (0.0-1.0)
 and applies a saturation of color effect of a hue to the image:
 
-:guilabel:`Hue:`
+Hue:
    The **Hue** slider specifies how much to shift the hue of the image. Hue 0.5 (in the middle)
    does not shift the hue or affect the color of the image. As Hue shifts left,
    the colors shift as more cyan is added; a blue image goes bluer, then greener, then yellow.
@@ -371,11 +371,11 @@ and applies a saturation of color effect of a hue to the image:
    introduces reds and greens. A blue image goes purple, plum, red, orange, and then yellow.
    A red image goes golden, olive, green, and cyan.
 
-:guilabel:`Sat:`
+Sat:
    **Saturation** affect the amount of pigment in the image.  A saturation of 0 actually *removes* hues from the color, resulting in a black-and-white grayscale image. A saturation of 1.0 blends in the hue, and 2.0 doubles the amount of pigment and brings out the colors.
-:guilabel:`Val:`
+Val:
    **Value** affects the overall amount of the color in the image. Increasing values make an image lighter; decreaing values shift an image darker.
-:guilabel:`Fac:`
+Fac:
    **Factor** determines how much this node affects the image. A factor of 0 means that the input image is not affected by the Hue and Saturation settings. A factor of 1 means they rule, with .5 being a mix.
 
 
@@ -749,22 +749,22 @@ important to appreciate the original scene content.
 
 The Tone Map node has two methods of calculation:
 
-:guilabel:`Rh Simple`
-   :guilabel:`Key`
+Rh Simple
+   Key
       The value the average luminance is mapped to.
-   :guilabel:`Offset`
+   Offset
       Normally always 1, but can be used as an extra control to alter the brightness curve
-   :guilabel:`Gamma`
+   Gamma
       If not used, set to 1
 
-:guilabel:`R/D Photoreceptor`
-   :guilabel:`Intensity`
+R/D Photoreceptor
+   Intensity
       If less than zero, darkens image; otherwise, makes it brighter
-   :guilabel:`Contrast`
+   Contrast
       Set to 0 to use estimate from input image
-   :guilabel:`Adaptation`
+   Adaptation
       If 0, global; if 1, based on pixel intensity
-   :guilabel:`Color Correction`
+   Color Correction
       If 0, same for all channels; if 1, each independent
 
 

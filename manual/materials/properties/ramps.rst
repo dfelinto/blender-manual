@@ -68,16 +68,16 @@ Color and alpha values for each marker can be set by clicking the
    Input popup menu
 
 
-**Input**
+Input
    The input menu contains the following options for defining the gradient:
 
-   **Shader**
+   Shader
       The value as delivered by the material's shader (:guilabel:`Lambert`, :guilabel:`CookTorr`) defines the color.  Here the amount of light doesn't matter for color, only the direction of the light.
-   **Energy**
+   Energy
       As :guilabel:`Shader`, now also lamp energy, color, and distance are taken into account.  This makes the material change color when more light shines on it.
-   **Normal**
+   Normal
       The surface normal, relative to the camera, is used for the :guilabel:`Ramp Shader`.  This is possible with a texture as well, but added for convenience.
-   **Result**
+   Result
       While all three previous options work per lamp, this option only works after shading calculations.  This allows full control over the entire shading, including 'Toon' style results.  Using alpha values here is most useful for tweaking a finishing touch to a material.
 
 
@@ -86,11 +86,11 @@ Color and alpha values for each marker can be set by clicking the
    Blend popup menu
 
 
-**Blend**
+Blend
    A list of the various :doc:`blending modes </materials/nodes/types/color>` available for blending the ramp shader with the color from :guilabel:`Input`.
 
 
-**Factor**
+Factor
    This slider denotes the overall factor of the ramp shader with the color from :guilabel:`Input`.
 
 
@@ -113,20 +113,20 @@ as well in other places where a range of colors can be computed and displayed.
 Options
 ^^^^^^^
 
-**Add**
+Add
    Add a new mark to the center of the colorband with the default color (neutral gray).  New marks can also be added by :kbd:`ctrl-lmb` clicking in the colorband itself, which will add the mark at the position of the click with the same color that already exists underneath the mouse pointer.
-**Delete**
+Delete
    Remove the currently selected mark from the colorband.
-**F**
+F
    Flip the colorband.
-**0**
+0
    The number of the active mark.  The values for this mark are those being displayed, and in the colorband, the active mark is displayed as a dashed line.  Another marker can be selected (1) using the arrows in the
 
 .. figure:: /images/Manual-2.5-Material-Ramps-MarkerSelectSlider.jpg
 
  slider, (2) by clicking on the number being displayed and entering a number of a color mark, or (3) by :kbd:`lmb` clicking a marker in the colorband.
 
-**Pos**
+Pos
    The position of the active color mark in the colorband (range 0.0–1.0).  The position of the color marks can also be changed by :kbd:`lmb` dragging them in the colorband.
 
 
@@ -145,18 +145,18 @@ active mark.  :kbd:`lmb` click it to display a color picker in which values for 
    Interpolation popup menu
 
 
-**Interpolation**
+Interpolation
    Various modes of interpolation between marker's values can be chosen in the Interpolation menu:
 
-   **Ease**
+   Ease
       Ease by quadratic equation.
-   **Cardinal**
+   Cardinal
       Cardinal.
-   **Linear**
+   Linear
       Linear (default).  A smooth, consistent transition between colors.
-   **B-Spline**
+   B-Spline
       B-Spline.
-   **Constant**
+   Constant
       Constant.
 
 

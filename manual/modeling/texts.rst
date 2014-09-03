@@ -296,7 +296,7 @@ found in the :guilabel:`Font` panel.
 Size and Shear
 --------------
 
-:guilabel:`Size`
+Size
    Controls the size of the whole text (no way to control each char size independently). Note however that chars with different fonts (different styles, see below) might have different visible sizes.
 
 
@@ -308,7 +308,7 @@ Size and Shear
    '2.59' a shear value of 0
 
 
-:guilabel:`Shear`
+Shear
    Controls the inclination of the whole text. Even if this seems similar to italics style, *this is not the same thing* !
 
 
@@ -356,13 +356,13 @@ using :kbd:`ALT-C` and click mesh.
 Underline
 ---------
 
-:guilabel:`Underline`
+Underline
    Toggled with the :guilabel:`Underline` button before typing.
    Text can also be set to Underlined by selecting it then using the :kbd:`Bold` button in the Tool Shelf.
 
-   :guilabel:`Position`
+   Position
       This allows you to shift vertically the position of the underline.
-   :guilabel:`Thickness`
+   Thickness
       This controls the thickness of the underline.
 
 
@@ -383,13 +383,13 @@ Character
    Bold text.
 
 
-:guilabel:`Bold`
+Bold
    Toggled with the :guilabel:`Bold` button before typing. Text can also be set to Bold by selecting it then using the :kbd:`Bold` button in the Tool Shelf.
-:guilabel:`Italics`
+Italics
    Toggled with the :guilabel:`Italic` button before typing. Text can also be set to Italic by selecting it then using the :kbd:`Italic` button in the Tool Shelf.
-:guilabel:`Underline`
+Underline
    Enables underlining, as controlled by the Underline settings above.
-:guilabel:`Small Caps`
+Small Caps
    type small capital text.
 
 
@@ -432,15 +432,15 @@ The :guilabel:`Paragraph` Panel has settings for the alignment and spacing of te
 Align
 -----
 
-:guilabel:`Left`
+Left
    Aligns text to left of frames when using them, else uses the center point of the :guilabel:`Text` object as the starting point of the text (which grows to the right).
-:guilabel:`Center`
+Center
    Centers text in the frames when using them, else uses the center point of the :guilabel:`Text` object as the mid-point of the text (which grows equally to the left and right).
-:guilabel:`Right`
+Right
    Aligns text to right of frames when using them, else uses the center point of the :guilabel:`Text` object as the ending point of the text (which grows to the left).
-:guilabel:`Justify`
+Justify
    Only flushes a line when it is **terminated** by a wordwrap (**not** by :kbd:`Enter`), it uses *whitespace* instead of *character spacing* (kerning) to fill lines.
-:guilabel:`Flush`
+Flush
    **Always** flushes the line, even when it's still being entered; it uses character spacing (kerning) to fill lines.
 
 Both :guilabel:`Justify` and :guilabel:`Flush` only work within frames.
@@ -448,18 +448,18 @@ Both :guilabel:`Justify` and :guilabel:`Flush` only work within frames.
 Spacing
 -------
 
-:guilabel:`Character`
+Character
    A factor by which space between each character is scaled in width
-:guilabel:`Word`
+Word
    A factor by which whitespace between words is scaled in width. You can also control it by pressing :kbd:`alt-←` or :kbd:`alt-→` to decrease/increase spacing by steps of **0.1**.
-:guilabel:`Line`
+Line
    A factor by which the vertical space between lines is scaled.
 
 
 Offset
 ------
 
-:guilabel:`X offset` and :guilabel:`Y offset`
+X offset and Y offset
    Well, these settings control the X and Y offset of the text, regarding its "normal" positioning. Note that with
    FIXME(TODO: Internal Link; [[#Text Boxes|frames]]), it applies to all frames' content...
 
@@ -481,9 +481,9 @@ texts have most of the same options as curves.
 Resolution
 ==========
 
-:guilabel:`Preview`
+Preview
    the :doc:`resolution </modeling/curves#curve_resolution>` in the viewport.
-:guilabel:`Render`
+Render
    the :doc:`resolution </modeling/curves#curve_resolution>` on the render.
 
 
@@ -494,7 +494,7 @@ Resolution
    the shape settings
 
 
-:guilabel:`Fast Editing`
+Fast Editing
    disables curve filling while in edit mode.
 
 
@@ -505,11 +505,11 @@ Fill
 The fill options control how the text curves are filled in when text is :guilabel:`Extruded`
 or :guilabel:`Beveled` in the :guilabel:`Geometry` Panel.
 
-:guilabel:`Front`
+Front
    Fills in the front side of the surface.
-:guilabel:`Back`
+Back
    Fills in the back side of the surface.
-:guilabel:`Fill Deformed`
+Fill Deformed
    Fills the curves after applying shape keys and modifiers.
 
 
@@ -521,9 +521,9 @@ Textures
    Texture Settings
 
 
-:guilabel:`Use UV for Mapping`
+Use UV for Mapping
    Use UV values as generated texture coordinates.
-:guilabel:`Auto Texture Space`
+Auto Texture Space
    Adjusts the active object's texture space automatically when transforming object.
 
 

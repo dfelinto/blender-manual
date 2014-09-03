@@ -30,36 +30,36 @@ This panel is used to add, select, manage *Absolute Keying Sets*.
    Properties > Scene > Keying Set Panel.
 
 
-*Keying Set Name*
+Keying Set Name
    The active Keying Set is highlighted in blue, :kbd:`lmb-x2` to rename.
 
-**+**
+`+`
    Add new (Empty) keying set to the active Scene.
 
-**-**
+`-`
    Remove the active Keying Set.
 
 *Active Keying Set properties*
 
-   *Description*
+   Description
       A short description of the keying set.
 
-   *Export to File*
+   Export to File
       Export Keying Set to a python script *File.py*.
       To re add the keying set from the *File.py*, open then run the *File.py* from the Text Editor.
 
-   *Keyframing Settings*
+   Keyframing Settings
       These options control all properties in the Keying Set.
       Note, the same settings in *User Preferences* override these settings if enabled.
 
-      *Only Needed*
-          Only insert keyframes where they're needed in the relevant F-Curves.
+      Only Needed
+         Only insert keyframes where they're needed in the relevant F-Curves.
 
-      *Visual Keying*
-          Insert keyframes based on the visual transformation.
+      Visual Keying
+         Insert keyframes based on the visual transformation.
 
-      *XYZ=RGB Colors*
-          For new F-Curves, set the colors to RGB for the property set, Location XYZ for example.
+      XYZ=RGB Colors
+         For new F-Curves, set the colors to RGB for the property set, Location XYZ for example.
 
 
 Active Keying Set Panel
@@ -78,42 +78,42 @@ This panel is used to add properties to the active Keying Set.
    Properties > Graph Editor > Channels, Named Group.
 
 
-*Paths*
+Paths
    A collection of *Paths* each with a *Data Path* to a property to add to the active Keying Set.
    The active *Path* is highlighted in blue.
 
-**+**
++
    Add new empty path to active Keying Set.
 
-**-**
+-
    Remove active path from the active Keying Set.
 
 *Active Path properties*
 
-   *ID-Block*
+   ID-Block
       Set the *ID-Type* + *Object ID* *Data Path* for the property.
 
-   *Data Path*
+   Data Path
       Set the rest of the *Data Path* for the property.
 
-   *Array Target*
+   Array Target
       Use *All Items* from the *Data Path* or select the array index for a specific property.
 
-   *F-Curve Grouping*
+   F-Curve Grouping
       This controls what *Group* to add the *Channels* to.
       *Keying Set Name*, *None*, *Named Group*.
 
-   *Keyframing Settings*
+   Keyframing Settings
       These options control individual properties in the Keying Set.
 
-      *Only Needed*
-          Only insert keyframes where they're needed in the relevant F-Curves.
+      Only Needed
+         Only insert keyframes where they're needed in the relevant F-Curves.
 
-      *Visual Keying*
-          Insert keyframes based on the visual transformation.
+      Visual Keying
+         Insert keyframes based on the visual transformation.
 
-      *XYZ=RGB Colors*
-          For new F-Curves, set the colors to RGB for the property set, Location XYZ for example.
+      XYZ=RGB Colors
+         For new F-Curves, set the colors to RGB for the property set, Location XYZ for example.
 
 
 Adding Properties

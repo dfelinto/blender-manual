@@ -35,16 +35,16 @@ Options in Object mode
    Transform Properties panel in Object mode.
 
 
-:guilabel:`Location X`, :guilabel:`Location Y`, :guilabel:`Location Z`
+Location X, Location Y, Location Z
    The object's center location in global coordinates.
 
-:guilabel:`Rotation X`, :guilabel:`Rotation Y`, :guilabel:`Rotation Z`
+Rotation X, Rotation Y, Rotation Z
    The object's orientation, relative to the global axes and its own center.
 
-:guilabel:`Scale X`, :guilabel:`Scale Y`, :guilabel:`Scale Z`
+Scale X, Scale Y, Scale Z
    The object's scale, relative to its center, in local coordinates (i.e. the :guilabel:`Scale X` value represents the scale along the local X-axis). Each object (cube, sphere, etc.), when created, has a scale of one blender unit in each local direction. To make the object bigger or smaller, you scale it in the desired dimension.
 
-:guilabel:`Dimensions X`, :guilabel:`Dimensions Y`, :guilabel:`Dimensions Z`
+Dimensions X, Dimensions Y, Dimensions Z
    The object's basic dimensions (in blender units) from one outside edge to another, as if measured with a ruler. For multi-faceted surfaces, these fields give the dimensions of the bounding box (aligned with the local axes - think of a cardboard box just big enough to hold the object).
 
 ..    Comment: <!-- ;{{Literal|Link Scale}}

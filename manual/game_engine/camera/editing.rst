@@ -49,32 +49,32 @@ Standalone Player
 
 This panel provides information for the Standalone Game Player which allows games to be run without Blender. See :doc:`Standalone Player </game_engine/standalone_player>` for further details.
 
-**Fullscreen** -
+Fullscreen -
    Off - opens standalone game as a new window.
    On - opens standalone game in full screen.
 
-**Resolution**
-   **X**
+Resolution
+   X
       Sets the X size of the viewport for full-screen display.
-   **Y**
+   Y
       Sets the Y size of the viewport for full-screen display.
-**Quality**
-   **Bit Depth**
+Quality
+   Bit Depth
       Number of bits used to represent color of each pixel in full-screen display.
-   **FPS**
+   FPS
       Number of frames per second of full-screen display.
 
-**Framing**
+Framing
    Shows how the display is to be fitted in to the viewport.
 
-   **Letterbox**
+   Letterbox
       Show the entire viewport in the display window, and fill the remainder with the "bar" color.
-   **Extend**
+   Extend
       Show the whole display in the viewport, and fill the remainder with bars.
-   **Scale**
+   Scale
       Scale the display in X and Y to exactly fill the entire viewport.
 
-**Bar Color**
+Bar Color
    Select a color to use as the color of bars around the viewport (default black).
    To use this, select a color mode (RGB, HSV or Hex), then use the color slider and color wheel to choose a bar color.
 
@@ -92,11 +92,11 @@ Stereo
 Select a stereo mode that  will be used to capture stereo images of the game (and also,
 by implication, that stereo displays will use to render images in the standalone player).
 
-**None**
+None
    Render single images with no stereo.
-**Stereo**
+Stereo
    Render dual images for stereo viewing using appropriate equipment. See :doc:`Stereo Camera </game_engine/camera/stereo>` for full details of available options.
-**Dome**
+Dome
    Provides facilities for an immersive dome environment in which to view the game. See :doc:`Dome Camera </game_engine/camera/dome>` for full details of available options.
 
 
@@ -115,11 +115,11 @@ The shading facilities available in Blender for use in :doc:`Materials </materia
 are essentially the same in the Blender Game Engine.
 However the constraints of real-time display mean that only some of the facilities are available.
 
-**Single Texture**
+Single Texture
    Use single texture facilities.
-**Multitexture**
+Multitexture
    Use Multitexture shading.
-**GLSL**
+GLSL
    Use GLSL shading. GLSL should be used whenever possible for real-time image rendering.
 
 
@@ -133,11 +133,11 @@ Performance
    Performance Panel
 
 
-**Use Frame Rate**
+Use Frame Rate
    Respect the frame rate rather than rendering as many frames as possible.
-**Display Lists**
+Display Lists
    Use display lists to speed up rendering by keeping geometry on the GPU.
-**Restrict Animation Updates**
+Restrict Animation Updates
    Restrict number of animation updates to the animation FPS (this is better for performance but can cause issues with smooth playback).
 
 
@@ -153,16 +153,16 @@ Display
 
 Gives various display options when running the Game Engine. under the .
 
-**Debug Properties**
+Debug Properties
    Show properties marked for debugging while game runs.
    Note that debug properties to be shown must be requested at source (eg. i-button in state tables).
    Only available when game is run within Blender - not in standalone player version.
-**Framerate and Profile**
+Framerate and Profile
    Show framerate and profiling information while game runs. Only available when game is run within Blender - not in standalone player version.
-**Physics Visualization**
+Physics Visualization
    Show physics bounds and interactions while game runs (available in both Blender and standalone versions).
-**Deprecation Warnings**
+Deprecation Warnings
    Print warnings when using deprecated features in the python API. Only available when game is run within Blender - not in standalone player version.
-**Mouse Cursor**
+Mouse Cursor
    Show mouse cursor while game runs (available in both Blender and standalone versions).
 

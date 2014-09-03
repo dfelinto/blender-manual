@@ -29,13 +29,13 @@ You can enter the different modes by selecting one of the three buttons in the t
 Using the buttons you can also use more than one selection mode at a time by
 :kbd:`shift-lmb` clicking the buttons.
 
-:guilabel:`Vertices`
+Vertices
    Selected vertices are drawn in orange, unselected vertices in black, and the active or last selected vertex in white.
 
-:guilabel:`Edges`
+Edges
    In this mode the vertices are not drawn. Instead the selected edges are drawn in orange, unselected edges black, and the active or last selected edge in white.
 
-:guilabel:`Faces`
+Faces
    In this mode the faces are drawn with a selection point in the middle which is used for selecting a face. Selected faces and their selection point are drawn in orange, unselected faces are drawn in black, and the active or last selected face is highlighted in white.
 
 Almost all modification tools are available in all three mesh selection modes.
@@ -119,18 +119,18 @@ Selection Tools
 The select menu in edit mode contains tools for selecting components.
 These are described in more detail in the following pages.
 
-:guilabel:`Border Select`
+Border Select
    Enables a rectangular region for selection
-:guilabel:`Circle Select`
+Circle Select
    Enables a circular shaped region for selection
 
-:guilabel:`(De)select All` :kbd:`A`
+(De)select All :kbd:`A`
    Select all or none of the mesh components.
-:guilabel:`Invert Selection` :kbd:`ctrl-I`
+Invert Selection :kbd:`ctrl-I`
    Selects all components that are not selected, and deselect currently selected components.
-:guilabel:`Select Random`
+Select Random
    Selects a random group of vertices, edges, or faces, based on a percentage value.
-:guilabel:`Checker Deselect`
+Checker Deselect
    Deselect alternating faces, to create a checker like pattern.
 :guilabel:`Select Sharp Edges`
 
@@ -139,44 +139,44 @@ These are described in more detail in the following pages.
    The lower is this angle limit, the sharper will be the selected edges.
    At ``180``, **all** "manifold" (see below) edges will be selected.
 
-:guilabel:`Linked Flat Faces` (:kbd:`Ctrl-Shift-Alt-F`)
+Linked Flat Faces (:kbd:`Ctrl-Shift-Alt-F`)
    Select connected faces based on a threshold of the angle between them. This is useful for selecting faces that are planar.
-:guilabel:`Interior Faces`
+Interior Faces
    Select faces where all edges have more than 2 faces.
 
-:guilabel:`Side of Active`
+Side of Active
    Selects all data on the mesh in a single axis
 
-:guilabel:`Select Faces by Sides`
+Select Faces by Sides
    Selects all faces that have a specified number of edges.
 
-:guilabel:`Select Non Manifold` (:kbd:`Ctrl-Shift-Alt-M`)
+Select Non Manifold (:kbd:`Ctrl-Shift-Alt-M`)
    Selects vertices that are not completely bound by geometry, including border edges, floating edges, and orphan vertices. Only available in Vertex mode.
 
-:guilabel:`Loose`
+Loose
    Select all vertices or edges that do not form part of a face.
-:guilabel:`Similar`
+Similar
    Select components based on how similar certain properties are to it.
 
-:guilabel:`More` :kbd:`ctrl-num+`
+More :kbd:`ctrl-num+`
    Propagates selection by adding components that are adjacent to selected elements.
-:guilabel:`Less` :kbd:`ctrl-num-`
+Less :kbd:`ctrl-num-`
    Deselects components that form the bounds of the current selection
 
-:guilabel:`Mirror`
+Mirror
    Select mesh items at the mirrored location.
-:guilabel:`Linked` :kbd:`ctrl-L`
+Linked :kbd:`ctrl-L`
    Selects all components that are connected to the current selection.
 
-:guilabel:`Vertex Path`
+Vertex Path
    Selects a vertex path between two selected vertices
-:guilabel:`Edge Loop`
+Edge Loop
    Selects a loop of edges from a selected edge
-:guilabel:`Edge Ring`
+Edge Ring
    Selects edges parallel to a selected edge in the same ring of faces
-:guilabel:`Loop Inner-Region`
+Loop Inner-Region
    Converts a closed selection of edges to the region of faces it encloses
-:guilabel:`Boundary Loop`
+Boundary Loop
    Converts a selection of faces to the ring of edges enclosing it
 
 

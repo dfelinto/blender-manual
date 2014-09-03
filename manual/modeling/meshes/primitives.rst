@@ -26,10 +26,10 @@ Blender comes with a number of "primitive" mesh shapes that you can start modeli
 
 Options included in more than one primitive are:
 
-:guilabel:`Radius`
+Radius
    Sets the starting size for :guilabel:`Circle`, :guilabel:`Cylinder`, :guilabel:`Cone`, :guilabel:`UVSphere` and :guilabel:`IcoSphere`.
 
-:guilabel:`Depth`
+Depth
    Sets the starting length for :guilabel:`Cylinder` and :guilabel:`Cone`.
 
 
@@ -62,20 +62,20 @@ A standard circle is comprised of *n* vertices. The number of vertices and radiu
 specified in the context panel in the :guilabel:`Tool Shelf` which appears when the circle is
 created.
 
-:guilabel:`Vertices`
+Vertices
    The number of vertices that define the circle. The more vertices the circle contains, the smoother its contour will be; see (*"Circles" obtained with various settings*).  In contrast, a circle with only 3 vertices is actually a triangle — the circle is actually the standard way of adding polygons such as triangles, pentagons, et cetera.
 
-:guilabel:`Radius`
+Radius
    Sets the radius of the circle.
 
-:guilabel:`Fill Type`
+Fill Type
    Set how the circle will be filled
 
-   :guilabel:`Triangle Fan`
+   Triangle Fan
       Fill with triangular faces which share a vertex in the middle.
-   :guilabel:`Ngon`
+   Ngon
       fill with a single ngon
-   :guilabel:`Nothing`
+   Nothing
       Do not fill. Creates only the outer ring of vertices
 
 
@@ -87,9 +87,9 @@ radius can be specified in the context panel in the :guilabel:`Tool Shelf` which
 the UV sphere is created.
 Increasing the number of segments and rings makes the surface of the UV sphere smoother.
 
-:guilabel:`Segments`
+Segments
    Number of vertical segments. Like Earth's meridians, going pole to pole and
-:guilabel:`Rings`
+Rings
    Number of horizontal segments. These are like Earth's parallels.
 
 
@@ -106,10 +106,10 @@ can be specified in the context panel in the :guilabel:`Tool Shelf` after the Ic
 created.  Icospheres are normally used to achieve a more isotropical and economical layout of
 vertices than a UV sphere.
 
-:guilabel:`Subdivisions`
+Subdivisions
    How many recursions are used to define the sphere. Increasing the number of subdivisions makes the surface of the Icosphere smoother. At level 1 the Icosphere is an icosahedron, a solid with 20 equilateral triangular faces. Any increasing level of subdivision splits each triangular face into four triangles, resulting in a more spherical appearance.
 
-:guilabel:`Size`
+Size
    The radius of the sphere.
 
 
@@ -127,14 +127,14 @@ when the object is created; the higher the number of vertices,
 the smoother the circular cross-section becomes.
 Objects that can be created out of cylinders include handles or rods.
 
-:guilabel:`Vertices`
+Vertices
    Then number of vertical edge loops used to define the cylinder.
-:guilabel:`Radius`
+Radius
    Sets the radius of the cylinder.
-:guilabel:`Depth`
+Depth
    Sets the height of the cylinder.
 
-:guilabel:`Cap Fill Type`
+Cap Fill Type
    Similar to circle (see above). When set to none, the created object will be a tube. Objects that can be created out of tubes include pipes or drinking glasses (the basic difference between a cylinder and a tube is that the former has closed ends).
 
 
@@ -147,16 +147,16 @@ the :guilabel:`Tool Shelf` that appears when the object is created;
 the higher the number of vertices, the smoother the circular base becomes.
 Objects that can be created out of cones include spikes or pointed hats.
 
-:guilabel:`Vertices`
+Vertices
    The number of vertical edge loops used to define the cone.
-:guilabel:`Radius 1`
+Radius 1
    Sets the radius of the base of the cone.
-:guilabel:`Radius 2`
+Radius 2
    Sets the radius of the tip of the cone. A value of 0 will produce a standard cone shape.
-:guilabel:`Depth`
+Depth
    Sets the height of the cylinder.
 
-:guilabel:`Base Fill Type`
+Base Fill Type
    Similar to circle (see above).
 
 
@@ -169,21 +169,21 @@ The number of vertices (in segments) can be different for the circles and is spe
 context panel in the :guilabel:`Tool Shelf` with both radii
 (:guilabel:`Major Segments` and :guilabel:`Minor Segments`).
 
-:guilabel:`Major Radius`
+Major Radius
    Radius from the origin to the center of the cross sections
-:guilabel:`Minor Radius`
+Minor Radius
    Radius of the torus's cross section
-:guilabel:`Major Segments`
+Major Segments
    Number of segments for the main ring of the torus. If you think of a torus as a "spin" operation around an axis, this is how many steps in the spin.
-:guilabel:`Minor segments`
+Minor segments
    Number of segments for the minor ring of the torus. This is the number of vertices of each circular segment.
 
-:guilabel:`Use Int+Ext Controls`
+Use Int+Ext Controls
    Change the way the torus is defined:
 
-:guilabel:`Exterior Radius`
+Exterior Radius
    When :guilabel:`Use Int+Ext Controls` is active, if viewed along the major axis, this is the radius from the center to the outer edge.
-:guilabel:`Interior Radius`
+Interior Radius
    When :guilabel:`Use Int+Ext Controls` is active, if viewed along the major axis, this is the radius of the hole in the center.
 
 
@@ -199,11 +199,11 @@ and other organic surfaces. You can also obtain a grid when you create a plane a
 subdivide modifier in :guilabel:`Edit mode`.  However,
 there is a :guilabel:`Landscape` add-on available in the :guilabel:`User Preferences`.
 
-:guilabel:`X Subdivisions`
+X Subdivisions
    The number of spans in the x  direction. Minimum of 3, creating two face loops.
-:guilabel:`Y Subdivisions`
+Y Subdivisions
    The number of spans in the y  direction.
-:guilabel:`Size`
+Size
    The length of the sides of the grid.
 
 

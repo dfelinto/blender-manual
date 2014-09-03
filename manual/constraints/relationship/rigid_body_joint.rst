@@ -39,45 +39,45 @@ Options
    Rigid Body Joint panel
 
 
-:guilabel:`Target`
+Target
    This constraint uses one target, and is not functional (red state) when it has none.
 
-:guilabel:`Joint Type`:
-   :guilabel:`Ball`
+Joint Type:
+   Ball
       works like an ideal ball-and-socket joint, i.e. allows rotations around all axes like a shoulder joint.
-   :guilabel:`Hinge`
+   Hinge
       works in one plane, like an elbow: the owner and target can only rotate around the X axis of the pivot (joint point).
 
-      :guilabel:`Limits`
+      Limits
          Angular limits for the X axis
-   :guilabel:`Cone Twist`
+   Cone Twist
       similar to :guilabel:`Ball`, this is a point-to-point joint with limits added for the cone and twist axis
 
-      :guilabel:`Limits`
+      Limits
          Angular limits
-   :guilabel:`Generic 6DOF`
+   Generic 6DOF
       works like the *Ball* option, but the target is no longer constrained at a fixed distance from the pivot point, by default (hence the six degrees of freedom: rotation and translation around/along the three axes).
       In fact, there is no longer a joint by default, with this option, but it enables additional settings which allow you to restrict some of these DoF:
 
-      :guilabel:`Limits`
+      Limits
          Linear and angular limits for a given axis (of the pivot) in Blender Units and degrees respectively.
 
-:guilabel:`Child Object`
+Child Object
    normally, leave this blank. You can reset it to blank by right clicking and selecting Reset to Default Value.
    Comment: <!-- Is this right? 2.4 just had a 'to object'. Now we have a 'target' and a 'child object'.
    These are not documented. It seems that we recreate the behaviour of 2.4 by leaving the child object blank.
    The target seems to be the 2.4 'to object'. What is the child object? Please explain: m.e --> .
 
-:guilabel:`Linked Collision`
+Linked Collision
    When enabled, this will disable the collision detection between the owner and the target (in the physical engine of the BGE).
 
-:guilabel:`Display Pivot`
+Display Pivot
    When enabled, this will draw the pivot of the joint in the 3D views. Most useful, especially with the :guilabel:`Generic 6DOF` joint type!
 
-:guilabel:`Pivot`
+Pivot
    These three numeric fields allow you to relocate the pivot point, *in the owner's space*.
 
-:guilabel:`Axis`
+Axis
    These three numeric fields allow you to rotate the pivot point, *in the owner's space*.
 
 

@@ -52,13 +52,13 @@ Options
    Clamp To panel
 
 
-:guilabel:`Target`
+Target
    The Target: field indicates which curve object the Clamp To constraint will track along.
    The Target: field must be a curve object type. If this field is not filled in then it will be highlighted in red
    indicating that this constraint does not have all the information it needs to carry out its task and will
    therefore be ignored on the constraint stack.
 
-:guilabel:`Main Axis`
+Main Axis
    This button group controls which global axis (X, Y or Z) is the main direction of the path.
    When clamping the object to the target curve, it will not be moved significantly on this axis.
    It may move a small amount on that axis because of the inexact way this constraint functions.
@@ -68,7 +68,7 @@ Options
    The default :guilabel:`Auto` option chooses the axis which the curve is longest in (or X if they are equal).
    This is usually the best option.
 
-:guilabel:`Cyclic`
+Cyclic
    By default, once the object has reached one end of its target curve, it will be constrained there. When the :guilabel:`Cyclic` option is enabled, as soon as it reaches one end of the curve, it is instantaneously moved to its other end.
    This is of course primarily designed for closed curves (circles & co), as this allows your owner to go around it over and over.
 

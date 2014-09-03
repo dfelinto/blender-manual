@@ -33,16 +33,16 @@ Options
    Build modifier in action
 
 
-:guilabel:`Start`
+Start
    The start frame of the building process.
 
-:guilabel:`Length`
+Length
    The number of frames over which to rebuild the object.
 
-:guilabel:`Randomize`
+Randomize
    Randomizes the order in which the faces are built.
 
-:guilabel:`Seed`
+Seed
    The random seed. Changing this value gives a different "random" order when :guilabel:`"Randomize"` is checked - this order being always the same for a given seed/object set.
 
 

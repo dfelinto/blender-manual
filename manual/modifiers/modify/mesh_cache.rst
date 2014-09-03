@@ -29,31 +29,31 @@ Options
    Mesh Cache modifier
 
 
-:guilabel:`Format`
+Format
    The input file format (currently **MDD** and **PC2** are supported).
 
-:guilabel:`File Path`
+File Path
    Path to the cache file.
 
-:guilabel:`Influence`
+Influence
    Factor to adjust the influence of the modifiers deformation, useful for blending in/out from the cache data.
-:guilabel:`Deform Mode`
+Deform Mode
    This setting defaults to 'Overwrite' which will replace the vertex locations with those in the cache file.
    However you may want to use shape-keys, for example, and mix them with the mesh-cache. In this case you can select the 'Deform' option which integrates deformations with the mesh-cache result.
    *Note - this feature is limited to making smaller, isolated edits and won't work for re-posing limbs, for example.*
-:guilabel:`Interpolation`
+Interpolation
    None or Linear which will blend between frames; use linear when the frames in the cache file don't match up exactly with the frames in the blend file.
 
 Time Mapping:
 
-:guilabel:`Time Mode`
+Time Mode
    Select how time is calculated.
 
 - **Frame:** Allows you to control the frames, which will ignore timing data in the file but is often useful since it gives simple control.
 - **Time:** Evaluates time in seconds, taking into account timing information from the file (offset and frame-times).
 - **Factor:** Evaluates the entire animation as a value from [0 - 1].
 
-:guilabel:`Play Mode`
+Play Mode
    Select how playback operates.
 
 - **Scene:** Use the current frame from the scene to control playback.
@@ -65,11 +65,11 @@ Time Mapping:
 Axis Mapping:
 Axis transformation for the input coordinates.
 
-:guilabel:`Forward/Up Axis`
+Forward/Up Axis
    The axis for forward and up used in the source file.
    *Often different applications have different axis defaults for up/down front/back,
    so it's common to have to switch these on import.*
-:guilabel:`Flip Axis`
+Flip Axis
    In rare cases you may also need to flip the coordinates on an axis.
 
 

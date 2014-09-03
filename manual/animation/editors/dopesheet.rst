@@ -91,26 +91,26 @@ View Menu
    the action editor showing sliders
 
 
-:guilabel:`Realtime Updates`
+Realtime Updates
    When transforming keyframes, changes to the animation data are flushed to other views
-:guilabel:`Show Frame Number Indicator`
+Show Frame Number Indicator
    Show frame number beside the current frame indicator line
-:guilabel:`Show Sliders`
+Show Sliders
    A toggle option that shows the value sliders for the channels. See the *The* :guilabel:`Action Editor` *window,* :guilabel:`Action Editor` *mode, with a group and sliders* picture above).
-:guilabel:`Use Group Colors`
+Use Group Colors
    Draw groups and channels with colors matching their corresponding groups.
-:guilabel:`AutoMerge Keyframes`
+AutoMerge Keyframes
    Automatically merge nearby keyframes
-:guilabel:`Sync Markers`
+Sync Markers
    Sync Markers with keyframe edits
-:guilabel:`Show Seconds`
+Show Seconds
    Whether to show the time in the X-axis as frames or as seconds
 
-:guilabel:`Set Preview Range`:kbd:`P`
+Set Preview Range:kbd:`P`
    Interactively define frame range used for playback. Allow you to define a temporary preview range to use for the :kbd:`alt-A` realtime playback (this is the same thing as the :guilabel:`Pr` option of the :doc:`Timeline window header </animation/timeline#header_controls>`).
-:guilabel:`Clear Preview Range`:kbd:`alt-P`
+Clear Preview Range:kbd:`alt-P`
    Clears the preview range
-:guilabel:`Auto-Set Preview Range`
+Auto-Set Preview Range
    Automatically sets the preview range to playback the whole action.
 
 

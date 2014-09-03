@@ -29,18 +29,18 @@ Options
    Transformation panel
 
 
-:guilabel:`Target`
+Target
    This constraint uses one target, and is not functional (red state) when it has none.
 
-   :guilabel:`Bone`
+   Bone
       If :guilabel:`Target` is an :guilabel:`Armature`, a new field is displayed offering the optional choice to set an individual bone as :guilabel:`Target`.
 
-      :guilabel:`Head/Tail`
+      Head/Tail
          If a :guilabel:`Bone` is set as :guilabel:`Target`, a new field is displayed offering the optional choice of where along this bone the target point lies.
-   :guilabel:`Vertex Group`
+   Vertex Group
       If :guilabel:`Target` is a :guilabel:`Mesh`, a new field is displayed offering the optional choice to set a :guilabel:`Vertex Group` as target.
 
-:guilabel:`Extrapolate`
+Extrapolate
    By default, the :guilabel:`min` and :guilabel:`max` values bound the input and output values; all values outside these ranges are clipped to them. When you enable this button, the :guilabel:`min` and :guilabel:`max` values are no longer strict limits, but rather "markers" defining a proportional (linear) mapping between input and corresponding output values.
    Let's illustrate that with two graphs (*The* :guilabel:`Extrapolate` *principles*). In these pictures, the input range (in abscissa) is set to [\ **1.0**, **4.0** ], and its corresponding output range (in ordinate), to [\ **1.0**, **2.0** ]. The yellow curve represents the mapping between input and output.
 
@@ -64,18 +64,18 @@ Options
    - Similarly, when using the scale transform properties of the target as input, whatever the real values are, the constraint will always take their absolute values (i.e. invert negative ones).
    - When a :guilabel:`min` value is higher than its corresponding :guilabel:`max` one, both are considered equal to the :guilabel:`max` one. This implies you cannot create "reversed" mappings...
 
-:guilabel:`Source`
+Source
    It contains the input (from target) settings.
    The three :guilabel:`Loc`, :guilabel:`Rot` and :guilabel:`Scale` toggle buttons, mutually exclusive, allow you to select which type of property to use.
    The :guilabel:`X:`, :guilabel:`Y:` and :guilabel:`Z:` :guilabel:`min` and :guilabel:`max` numeric fields control the lower and upper bounds of the input value range, independently for each axis. Note that if a min value is higher than its corresponding max value, the constraint behaves as if it had the same value as the max one.
-:guilabel:`Destination`
+Destination
    It contains the output (to owner) settings.
 
    - The three :guilabel:`Loc`, :guilabel:`Rot` and :guilabel:`Scale` toggle buttons, mutually exclusive, allow you to select which type of property to control.
    - The three :guilabel:`Axis Mapping` drop-down lists allow you to select which input axis to map to, respectively (from top to bottom), the X, Y and Z output (owner) axes.
    - The :guilabel:`min` and :guilabel:`max` numeric fields control the lower and upper bounds of the output value range, independently for each mapped axis. Note that if a min value is higher than its corresponding max value, the constraint behaves as if it had the same value as the max one.
 
-:guilabel:`Space`
+Space
    This constraint allows you to choose in which space to evaluate its owner's and target's transform properties.
 
 

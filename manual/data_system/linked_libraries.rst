@@ -86,16 +86,16 @@ Click :guilabel:`Load Library` to append or link the object into your current .b
 
 Some more loading option buttons (in the :guilabel:`File Browser` header) include:
 
-:guilabel:`AutoSel`
+AutoSel
    When an object is loaded, it is not active or selected; it just plops into your .blend file. Often,
    right after loading, you will want to do something with it, like scale it or move it.
    Enable this button and the imported object will be selected, just as if you magically :kbd:`rmb` -clicked on it.
    This button saves the step of finding the object and selecting it.
-:guilabel:`Active Layer`
+Active Layer
    Blender has 20 layers to divide up a large scene, and each object resides on some layer(s). By default,
    an object is loaded into your file directly into the layer(s) it resides on in the source file.
    To only load the object to the current active layer that you are working on, enable this button.
-:guilabel:`At Cursor`
+At Cursor
    By default, an object is loaded into your file at the location it is at in the source file.
    To reposition the object to your cursor when it loads, enable this button.
 

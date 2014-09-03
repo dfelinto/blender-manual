@@ -31,30 +31,30 @@ Options
    Limit Distance panel
 
 
-:guilabel:`Target`
+Target
    This constraint uses one target, and is not functional (red state) when it has none.
 
-   :guilabel:`Bone`
+   Bone
       If :guilabel:`Target` is an :guilabel:`Armature`, a new field is displayed offering the optional choice to set an individual bone as :guilabel:`Target`.
 
-      :guilabel:`Head/Tail`
+      Head/Tail
          If a :guilabel:`Bone` is set as :guilabel:`Target`, a new field is displayed offering the optional choice of where along this bone the target point lies.
-   :guilabel:`Vertex Group`
+   Vertex Group
       If :guilabel:`Target` is a :guilabel:`Mesh`, a new field is displayed offering the optional choice to set a :guilabel:`Vertex Group` as target.
 
-:guilabel:`Distance`
+Distance
    This numeric field sets the limit distance, i.e. the radius of the constraining sphere.
-:guilabel:`Reset Distance`
+Reset Distance
    When clicked, this small button will reset the :guilabel:`Distance` value, so that it corresponds to the actual distance between the owner and its target (i.e. the distance before this constraint is applied).
 
-:guilabel:`Clamp Region`
+Clamp Region
    The :guilabel:`Limit Mode` drop-down menu allows you to choose how to use the sphere defined by the :guilabel:`Distance` setting and target's center:
 
-   :guilabel:`Inside` (default)
+   Inside (default)
       The owner is constrained *inside* the sphere.
-   :guilabel:`Outside`
+   Outside
       The owner is constrained *outside* the sphere.
-   :guilabel:`Surface`
+   Surface
       The owner is constrained *on the surface* of the sphere.
 
 

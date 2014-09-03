@@ -24,25 +24,25 @@ Options
    Shrinkwrap panel
 
 
-:guilabel:`Target`
+Target
    This constraint uses one target, which *must be a mesh object*, and is not functional (red state) when it has none.
 
-:guilabel:`Distance`
+Distance
    This numeric field controls the offset of the owner from the shrunk computed position on the target's surface.
    Positive values place the owner "outside" of the target, and negative ones, "inside" the target.
    This offset is applied along the straight line defined by the original (i.e. before constraint) position of the owner, and the computed one on the target's surface.
 
-:guilabel:`Shrinkwrap Type`
+Shrinkwrap Type
    This drop-down list allows you to select which method to use to compute the point on the target's surface to which to translate the owner's center. You have three options:
 
-   :guilabel:`Nearest Surface Point`
+   Nearest Surface Point
       The chosen target's surface's point will be the nearest one to the original owner's location. This is the default and most commonly useful option.
-   :guilabel:`Projection`
+   Projection
       The target's surface's point is determined by projecting the owner's center along a given axis.
       This axis is controlled by the three :guilabel:`X`, :guilabel:`Y` and :guilabel:`Z` toggle buttons that show up when you select this type. This mean the projection axis can only be aligned with one of the global axes, median to both of them (XY, XZ or YZ), or to the three ones (XYZ).
       When the projection of the owner's center along the selected direction does not hit the target's surface, the owner's location is left unchanged.
 
-   :guilabel:`Nearest Vertex`
+   Nearest Vertex
       This method is very similar to the *Nearest Surface Point* one, except that the owner's possible shrink locations are limited to the target's vertices.
 
 

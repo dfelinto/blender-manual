@@ -17,28 +17,28 @@ only the settings for a :guilabel:`Hair` particle system.
 Settings
 ********
 
-:guilabel:`Simple`
+Simple
    Children are emitted from the parent hairs.
-:guilabel:`Interpolated`
+Interpolated
    Children are emitted between the *Parent* particles on the faces of a mesh. They interpolate between adjacent parents. This is especially useful for fur, because you can achieve an even distribution. Some of the children can become virtual parents, which are influencing other particles nearby.
 
-:guilabel:`Display`
+Display
    The number of children in the 3D window.
-:guilabel:`Render`
+Render
    The number of children to be rendered (up to 10.000).
 
-**For Simple Mode**
-   :guilabel:`Size`
+For Simple Mode
+   Size
       Only for :guilabel:`Emitter`. A multiplier for children size.
-   :guilabel:`Random`
+   Random
       Random variation to the size of child particles.
 
-**Interpolated Mode**
-   :guilabel:`Seed`
+Interpolated Mode
+   Seed
       Offset the random number table for child particles, to get a different result.
-   :guilabel:`Virtual`
+   Virtual
       Relative amount of virtual parents.
-   :guilabel:`Long Hair`
+   Long Hair
       Calculate children that suit long hair well.
 
 
@@ -50,30 +50,30 @@ Effects
    Image 2: From left to right: Round: 0.0 / Round: 1.0 / Clump: 1.0 / Clump: -1.0 / Shape: -0.99.
 
 
-:guilabel:`Clump`
+Clump
    Clumping. The children may meet at their tip (1.0) or start together at their root (-1.0).
-:guilabel:`Shape`
+Shape
    Form of :guilabel:`Clump`. Either inverse parabolic (0.99) or exponentially (-0.99).
-:guilabel:`Length`
+Length
    Length of child paths
-:guilabel:`Threshold`
+Threshold
    Amount of particles left untouched by child path length
-:guilabel:`Radius`
+Radius
    The radius in which the children are distributed around their parents. This is 3D, so children may be emitted higher or lower than their parents.
-:guilabel:`Roundness`
+Roundness
    The roundness of the children around their parents. Either in a sphere (1.0) or in-plane (0.0).
-:guilabel:`Seed`
+Seed
    Offset in the random number table for child particles, to get a different randomized result
 
 
 Roughness
 =========
 
-:guilabel:`Uniform`,\ :guilabel:`Size`
+Uniform,\ Size
    It is based on children location so it varies the paths in a similar way when the children are near.
-:guilabel:`Endpoint`,\ :guilabel:`Shape`
+Endpoint,\ Shape
    "Rough End" randomizes path ends (a bit like random negative clumping). Shape may be varied from <1 (parabolic) to 10.0 (hyperbolic).
-:guilabel:`Random`,\ :guilabel:`Size`,\ :guilabel:`Threshold`
+Random,\ Size,\ Threshold
    It is based on a random vector so it's not the same for nearby children. The threshold can be specified to apply this to only a part of children. This is useful for creating a few stray children that won't do what others do.
 
 
@@ -89,24 +89,24 @@ Kink
 With :guilabel:`Kink` you can rotate the children around the parent. See above picture
 (*Image 3*) for the different types of :guilabel:`Kink`.
 
-:guilabel:`Curl`
+Curl
    Children grow in a spiral around the parent hairs.
-:guilabel:`Radial`
+Radial
    Children form around the parent a wave shape that passes through the parent hair.
-:guilabel:`Wave`
+Wave
    Children form a wave, all in the same direction.
-:guilabel:`Braid`
+Braid
    Children braid themselves around the parent hair.
 
-:guilabel:`Amplitude`
+Amplitude
    The amplitude of the offset.
-:guilabel:`Clump`
+Clump
    How much clump effects kink amplitude.
-:guilabel:`Flatness`
+Flatness
    How flat the hairs are.
 
-:guilabel:`Frequency`
+Frequency
    The frequency of the offset (1/total length). The higher the frequency the more rotations are done.
-:guilabel:`Shape`
+Shape
    Where the rotation starts (offset of rotation).
 

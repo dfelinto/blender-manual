@@ -145,19 +145,19 @@ There is one input to this node, the :guilabel:`Image` that is to be keyed.
 
 Control this node using:
 
-:guilabel:`Green` / :guilabel:`Blue` buttons
+Green / Blue buttons
    Basic selection of what color the background is supposed to be.
 
-:guilabel:`Cb Slope` and :guilabel:`Cr Slope` (chroma channel) sliders
+Cb Slope and Cr Slope (chroma channel) sliders
    Determines how quickly the processed pixel values go from background to foreground, much like falloff.
 
-:guilabel:`Cb Pos` and :guilabel:`Cr Pos` sliders
+Cb Pos and Cr Pos sliders
    Determines where the processing transition point for foreground and background is in the respective channel.
 
-:guilabel:`Threshold`
+Threshold
    Determines if additional detail is added to the pixel if it is transparent.  This is useful for pulling shadows from an image even if they are in the green screen area.
 
-:guilabel:`Alpha threshold`
+Alpha threshold
    The setting that determines the tolerance of pixels that should be considered transparent after they have been processed. A low value means that only pixels that are considered totally transparent will be transparent, a high value means that pixels that are mostly transparent will be considered transparent.
 
 The outputs of this node are the :guilabel:`Image` with an alpha channel adjusted for the

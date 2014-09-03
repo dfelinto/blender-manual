@@ -39,17 +39,17 @@ Options
    EdgeSplit modifier.
 
 
-:guilabel:`From Edge Angle`
+From Edge Angle
    If this button is enabled, edges will be split if their edge angle is greater than the :guilabel:`Split Angle` setting.
 
    - The edge angle is the angle between the two faces which use that edge.
    - If more than two faces use an edge, it is always split.
    - If fewer than two faces use an edge, it is never split.
 
-:guilabel:`Split Angle`
+Split Angle
    This is the angle above which edges will be split if the :guilabel:`From Edge Angle` button is selected, from ``0`` (all edges are split) to ``180`` (no edges are split). This performs the same action as the :menuselection:`Edge Specials --> Edge Split` menu item (:kbd:`ctrl-E`, in :guilabel:`Edit mode`)
 
-:guilabel:`From Marked As Sharp`
+From Marked As Sharp
    If this button is enabled, edges will be split if they are marked as sharp, using the :menuselection:`Edge Specials --> Mark Sharp` menu item (:kbd:`ctrl-E`, in :guilabel:`Edit mode`).
 
 

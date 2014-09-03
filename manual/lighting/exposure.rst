@@ -35,10 +35,10 @@ Options
    Exposure and Range sliders.
 
 
-:guilabel:`Exposure`
+Exposure
    The exponential curvature, with ``0.0`` being linear, and ``1.0`` being curved.
 
-:guilabel:`Range`
+Range
    The range of input colors that are mapped to visible colors ``(0.0 - 1.0)``.
 
 So without :guilabel:`Exposure` we will get a linear correction of all color values:

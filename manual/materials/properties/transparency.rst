@@ -23,7 +23,10 @@ and the color of the surface determines the final color of the pixel.
    Transparency Panel
 
 
-In Blender, there are three ways in which the transparency of a material can be set:  Mask, Z-Buffer and Ray-trace.  Each of these is explained in more detail below.  The :doc:`Material Preview </materials/properties/preview>` option with a sphere object gives a good demonstration of the capabilities of these three options.
+In Blender, there are three ways in which the transparency of a material can be set:
+Mask, Z-Buffer and Ray-trace. Each of these is explained in more detail below.
+The :doc:`Material Preview </materials/properties/preview>` option with a sphere object
+gives a good demonstration of the capabilities of these three options.
 
 
 Common Options
@@ -31,13 +34,17 @@ Common Options
 
 The following property controls are available for all transparency options:
 
-**Alpha**
+Alpha
    Sets the transparency of the material by setting all pixels in the alpha channel to the given value.
-**Fresnel**
-     Sets the power of the Fresnel effect. The Fresnel effect controls how transparent the material is, depending on the angle between the surface normal and the viewing direction. Typically, the larger the angle, the more opaque a material becomes (this generally occurs on the outline of the object).
-**Specular** -
+Fresnel
+   Sets the power of the Fresnel effect.
+   The Fresnel effect controls how transparent the material is,
+   depending on the angle between the surface normal and the viewing direction.
+   Typically, the larger the angle, the more opaque a material becomes
+   (this generally occurs on the outline of the object).
+Specular -
    Controls the alpha/falloff for the specular color.
-**Blend**
+Blend
    Controls the blending between transparent and non-transparent areas. Only used if Fresnel is greater than 0.
 
 
@@ -117,19 +124,19 @@ Options
 
 In addition to the common options given above, the following property controls are available:
 
-:guilabel:`IOR`
+IOR
    Index of Refraction.  Sets how much a ray traveling through the material will be refracted,
    hence producing a distorted image of its background.  See
    FIXME(TODO: Internal Link; [[#IOR values for Common Materials|IOR values for Common Materials]]) below.
-:guilabel:`Filter`
+Filter
    Amount of filtering for transparent ray trace. The higher this value,
    the more the base color of the material will show. The material will still be transparent but it will start to take on the color of the material. Disabled (0.0) by default.
-:guilabel:`Falloff`
+Falloff
    How fast light is absorbed as it passes through the material. Gives 'depth' and 'thickness' to glass.
-:guilabel:`Limit`
+Limit
    Materials thicker than this are not transparent.
    This is used to control the threshold after which the filter color starts to come into play.
-:guilabel:`Depth`
+Depth
    Sets the maximum number of transparent surfaces a single ray can travel through. There is no typical value.
    Transparent objects outside the :guilabel:`Depth` range will be rendered pitch black if viewed through the
    transparent object that the :guilabel:`Depth` is set for.  In other words,
@@ -138,14 +145,14 @@ In addition to the common options given above, the following property controls a
    (this is a common issue with ray tracing transparent objects).
    You may also need to turn on transparent shadows on the background object.
 
-:guilabel:`Gloss`
+Gloss
    Settings for the glossiness of the material.
 
-   :guilabel:`Amount`
+   Amount
       The clarity of the refraction. Set this to something lower than zero to get a blurry refraction.
-   :guilabel:`Threshold`
+   Threshold
       Threshold for adaptive sampling. If a sample contributes less than this amount (as a percentage), sampling is stopped.
-   :guilabel:`Samples`
+   Samples
       Number of cone samples averaged for blurry refraction.
 
 

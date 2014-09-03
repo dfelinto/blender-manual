@@ -45,19 +45,19 @@ Options
    Fluid control options.
 
 
-:guilabel:`Quality`
+Quality
    Higher quality result in more control particles for the fluid control object.
 
-:guilabel:`Reverse Frames`
+Reverse Frames
    The control particle movement gets reversed.
 
-:guilabel:`Time`
+Time
    You specify the start and end time during which time the fluid control object is active.
 
-:guilabel:`Attraction force`
+Attraction force
    The attraction force specifies the force which gets emitted by the fluid control object. Positive force results in attraction of the fluid, negative force in avoidance.
 
-:guilabel:`Velocity force`
+Velocity force
    If the fluid control object moves, the resulting velocity can also introduce a force to the fluid.
 
 

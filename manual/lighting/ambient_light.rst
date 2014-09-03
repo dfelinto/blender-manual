@@ -23,9 +23,9 @@ which indicates the amount of ambient light/color that that material receives.
 Also, you can choose the environment color source (white, sky color, sky texture)
 and the light energy.
 
-:guilabel:`Energy`
+Energy
    Defines the strength of environment light.
-:guilabel:`Environment Color`
+Environment Color
    Defines where the color of the environment light comes from.
 
 Using both settings simultaneously produces better global lighting.

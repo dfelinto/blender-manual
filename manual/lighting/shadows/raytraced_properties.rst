@@ -15,7 +15,7 @@ which are described below. Note that the :doc:`Area </lighting/lamps/area>` lamp
 even though using most of these options, have some specifics described in its
 :doc:`own ray-traced shadows page </lighting/lamps/area/raytraced_shadows>`.
 
-:guilabel:`Ray Shadow`
+Ray Shadow
    The :guilabel:`Ray Shadow` button enables the light source to generate ray-traced shadows.
    When the :guilabel:`Ray Shadow` button is selected, another set of options is made available, those options being:
 Shadow sample generator type
@@ -23,18 +23,18 @@ Shadow sample generator type
    This allows you to choose which algorithm is to be used to generate the samples that will serve to compute the ray-traced shadows (for now, mainly two variants of Quasi-Monte Carlo, see
    FIXME(TODO: Internal Link; [[#What is Quasi-Monte Carlo?|below]])):
 
-   :guilabel:`Constant QMC`
+   Constant QMC
       The :guilabel:`Constant QMC` method is used to calculate shadow values in a very uniform, evenly distributed way. This method results in very good calculation of shadow value but it is not as fast as using the :guilabel:`Adaptive QMC` method; however, :guilabel:`Constant QMC` is more accurate.
-   :guilabel:`Adaptive QMC`
+   Adaptive QMC
       The :guilabel:`Adaptive QMC` method is used to calculate shadow values in a slightly less uniform and distributed way. This method results in good calculation of shadow value but not as good as :guilabel:`Constant QMC`. The advantage of using :guilabel:`Adaptive QMC` is that it is in general much quicker while being not much worse than :guilabel:`Constant QMC` in terms of overall results.
 
-:guilabel:`Samples`
+Samples
    Number of extra samples taken (samples x samples).
    This slider sets the maximum number of samples that both :guilabel:`Constant QMC` and :guilabel:`Adaptive QMC`
    will use to do their shadow calculations.
    The maximum value is ``16`` - the real number of samples is actually the square of it,
    so setting a sample value of ``3`` really means ``3``:sup:`2` ``=`` ``9`` samples will be taken.
-:guilabel:`Soft Size`
+Soft Size
    Light size for ray shadow sampling.
    This slider determines the size of the fuzzy/diffuse/penumbra area around the edge of a shadow.
    :guilabel:`Soft Size` only determines the width of the soft shadow size, not how graded and smooth the shadow is.
@@ -74,7 +74,7 @@ Shadow sample generator type
       showing the effect of various values on the softness of shadow edges.
 
 
-:guilabel:`Threshold`
+Threshold
    Threshold for Adaptive Sampling.
    This field is used with the :guilabel:`Adaptive QMC` shadow calculation method.
    The value is used to determine if the :guilabel:`Adaptive QMC` shadow sample

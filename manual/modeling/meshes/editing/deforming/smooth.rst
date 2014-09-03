@@ -14,9 +14,9 @@ Smooth
 This tool smooths the selected components by averaging the angles between faces.
 After using the tool, options appear in the :guilabel:`Tool Shelf`:
 
-:guilabel:`Number of times to smooth`
+Number of times to smooth
    The number of smoothing iterations
-:guilabel:`Axes`
+Axes
    Limit the effect to certain axes.
 
 

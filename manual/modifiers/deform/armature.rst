@@ -33,24 +33,24 @@ Options
    Armature modifier
 
 
-:guilabel:`Object`
+Object
    The name of the armature object used by this modifier.
 
-   :guilabel:`Preserve Volume`
+   Preserve Volume
       Use quaternions for preserving volume of object during deformation. It can be better in many situations.
-   :guilabel:`Vertex Group`
+   Vertex Group
       The name of a vertex group of the object, the weights of which will be used to determine the influence of this :guilabel:`Armature` modifier's result when mixing it with the results from other :guilabel:`Armature` ones. Only meaningful when having at least two of these modifiers on the same object, with :guilabel:`Multi Modifier` activated.
-   :guilabel:`Multi Modifier`
+   Multi Modifier
       Use the same data as a previous (:guilabel:`Armature` ?) modifier as input. This allows you to use several armatures to deform the same object, all based on the "non-deformed" data (i.e. this avoid having the second :guilabel:`Armature` modifier deform the result of the first one...). The results of the :guilabel:`Armature` modifiers are then mixed together, using the weights of the :guilabel:`VGroup` vertex groups as "mixing guides".
 
-:guilabel:`Bind To`
+Bind To
    Method to bind the armature to the mesh.
 
-   :guilabel:`Vertex Groups`
+   Vertex Groups
       Enable/Disable vertex groups defining the deformation (i.e. bones of a given name only deform vertices belonging to groups of same name).
-   :guilabel:`Bone Envelopes`
+   Bone Envelopes
       Enable/Disable bone envelopes defining the deformation (i.e. bones deform vertices in their neighborhood).
-   :guilabel:`Invert`
+   Invert
       Inverts the influence set by the vertex group defined in previous setting (i.e. reverts the weight values of this group).
 
 

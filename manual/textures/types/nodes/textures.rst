@@ -12,7 +12,7 @@ and function just like their non node based counterparts.
 Common Options
 ==============
 
-:guilabel:`Color 1/Color 2`
+Color 1/Color 2
    Remaps the procedural texture with these colors. These do not function in the Magic node.
 
 

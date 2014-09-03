@@ -35,18 +35,18 @@ Options
    Inset Operator Settings
 
 
-:guilabel:`Boundary`
+Boundary
    Determines whether open edges will be inset or not.
-:guilabel:`Offset Even`
+Offset Even
    Scale the offset to give more even thickness.
-:guilabel:`Offset Relative`
+Offset Relative
    Scale the offset by surrounding geometry.
-:guilabel:`Thickness`
+Thickness
    Set the size of the inset.
-:guilabel:`Depth`
+Depth
    Raise or lower the newly inset faces to add depth.
-:guilabel:`Outset`
+Outset
    Create an outset rather than an inset.
-:guilabel:`Select Outer`
+Select Outer
    Toggle which side of the inset is selected after operation.
 

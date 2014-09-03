@@ -205,33 +205,33 @@ Options
 
 Available options are:
 
-:guilabel:`Children`
+Children
    Selects all children of the active object recursively.
-:guilabel:`Immediate Children`
+Immediate Children
    Selects all direct children of the active object.
-:guilabel:`Parent`
+Parent
    Selects the parent of this object if it has one.
-:guilabel:`Siblings`
+Siblings
    Select objects that have the same parent as the active object. This can also be used to select all root level objects (objects with no parents).
-:guilabel:`Type`
+Type
    Select objects that are the same type as the active one.
-:guilabel:`Layer`
+Layer
    Objects that have at least one shared layer.
-:guilabel:`Group`
+Group
    Objects that are part of a group (rendered green with the default theme) will be selected if they are in one of the groups that the active object is in.
-:guilabel:`Object Hooks`
+Object Hooks
    Every hook that belongs to the active object.
-:guilabel:`Pass`
+Pass
    Select objects assigned to the same render pass. Render passes are set in :guilabel:`Properties` → :guilabel:`Object` → :guilabel:`Relations` and can be used in the :guilabel:`Node Compositor` (:guilabel:`Add` → :guilabel:`Convertor` → :guilabel:`ID Mask`.)
-:guilabel:`Color`
+Color
    Select objects with same :guilabel:`Object Color`.  Object colors are set in :guilabel:`Properties` → :guilabel:`Object` → :guilabel:`Display` → :guilabel:`Object Color`.)
-:guilabel:`Properties`
+Properties
    Select objects with same :guilabel:`Game Engine` :guilabel:`Properties`.
-:guilabel:`Keying Set`
+Keying Set
    Select objects included in active Keying Set.
-:guilabel:`Lamp Type`
+Lamp Type
    Select matching lamp types.
-:guilabel:`Pass Index`
+Pass Index
    Select matching object pass index.
 
 
@@ -264,17 +264,17 @@ Options
 
 Available options are:
 
-:guilabel:`Object Data`
+Object Data
    Selects every object that is linked to the same Object Data, i.e. the datablock that specifies the type (mesh, curve, etc.) and the build (constitutive elements like vertices, control vertices, and where they are in space) of the object.
-:guilabel:`Material`
+Material
    Selects every object that is linked to the same material datablock.
-:guilabel:`Texture`
+Texture
    Selects every object that is linked to the same texture datablock.
-:guilabel:`Dupligroup`
+Dupligroup
    Selects all objects that use the same :guilabel:`Group` for duplication.
-:guilabel:`Particle System`
+Particle System
    Selects all objects that use the same :guilabel:`Particle System`
-:guilabel:`Library`
+Library
    Selects all objects that are in the same
 :guilabel:`FIXME(Link Type Unsupported: dev; [[Dev:2.5/Source/Data_system/LibraryBrowser|Library]])`
 :guilabel:`Library (Object Data)`
@@ -346,11 +346,11 @@ Options
 
 In the :guilabel:`Tool Shelf` → :guilabel:`Select by Layer` the following options are available:
 
-:guilabel:`Match`
+Match
    The match type for selection.
-:guilabel:`Extend`
+Extend
    Enable to add objects to current selection rather than replacing the current selection.
-:guilabel:`Layer`
+Layer
    The layer on which the objects are.
 
 
@@ -364,24 +364,24 @@ Other Menu Options
 
 Available options on the first level of the menu are:
 
-:guilabel:`Select Pattern...`
+Select Pattern...
    Selects all objects whose name matches a given pattern. Supported wildcards: * matches everything, ? matches any single character, [abc] matches characters in "abc", and [!abc] match any character not in "abc". The matching can be chosen to be case sensitive or not.
    As an example *house* matches any name that contains "house", while floor* matches any name starting with "floor".
 
-:guilabel:`Select Camera`
+Select Camera
    Select the active camera.
 
-:guilabel:`Mirror` (:kbd:`Shift-Ctrl-M`)
+Mirror (:kbd:`Shift-Ctrl-M`)
    Select the Mirror objects of the selected object eg. L.sword → R.sword.
 
-:guilabel:`Random`
+Random
    Randomly selects unselected objects based on percentage probability on currently active layers. On selecting the command a numerical selection box becomes available in the :guilabel:`Tool Shelf`.
    It's important to note that the percentage represents the likelihood of an unselected object being selected and not the percentage amount of objects that will be selected.
 
-:guilabel:`Inverse` (:kbd:`ctrl-I`)
+Inverse (:kbd:`ctrl-I`)
    Selects all objects that were not selected while deselecting all those which were.
 
-:guilabel:`(De)select All` (:kbd:`A`)
+(De)select All (:kbd:`A`)
    If anything was selected it is first deselected. Otherwise it toggles between selecting and deselecting every visible object.
 
 

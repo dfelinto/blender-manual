@@ -18,6 +18,6 @@ See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>`
 
 Special Options:
 
-**Music File title**
+Music File title
    Select music file from the list presented.
 

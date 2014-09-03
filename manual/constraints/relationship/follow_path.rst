@@ -59,24 +59,24 @@ Options
    Follow Path panel
 
 
-:guilabel:`Target`
+Target
    This constraint uses one target, which *must be a curve object*,
    and is not functional (red state) when it has none.
 
-:guilabel:`Curve Radius`
+Curve Radius
    Objects scale by the curve radius. See :doc:`Curve Editing </modeling/curves/editing/advanced>`
-:guilabel:`Fixed Position`
+Fixed Position
    Object will stay locked to a single point somewhere along the length of the curve regardless of time
-:guilabel:`Offset`
+Offset
    The number of frames to offset from the "animation" defined by the path (by default, from frame **1**).
-:guilabel:`Follow Curve`
+Follow Curve
    If this option is not activated, the owner's rotation isn't modified by the curve; otherwise,
    it's affected depending on the following options:
 
-   :guilabel:`Forward`
+   Forward
       The axis of the object that has to be aligned with the forward direction of the path
       (i.e. tangent to the curve at the owner's position).
-   :guilabel:`Up`
+   Up
       The axis of the object that has to be aligned (as much as possible) with the world Z axis.
       In fact, with this option activated, the behavior of the owner shares some properties with
       the one caused by a :doc:`Locked Track constraint </constraints/tracking/locked_track>`,

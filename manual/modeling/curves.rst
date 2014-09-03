@@ -43,15 +43,15 @@ Curve Primitives
 In Object mode, the :guilabel:`Add Curve` menu,
 Blender provides five different curve primitives:
 
-:guilabel:`Bezier Curve`
+Bezier Curve
    Adds an open 2D Bezier curve with two control points.
-:guilabel:`Bezier Circle`
+Bezier Circle
    Adds a closed, circle-shaped 2D Bezier curve (made of four control points).
-:guilabel:`NURBS Curve`
+NURBS Curve
    Adds an open 2D NURBS curve, with four control points, with :guilabel:`Uniform` knots.
-:guilabel:`NURBS Circle`
+NURBS Circle
    Adds a closed, circle-shaped 2D NURBS curve (made of eight control points).
-:guilabel:`Path`
+Path
    Adds a NURBS open 3D curve made of five aligned control points, with :guilabel:`Endpoint` knots and the :guilabel:`CurvePath` setting enabled.
 
 
@@ -135,11 +135,11 @@ Shape
    Curves Shape panel.
 
 
-:guilabel:`2D and 3D Curves`
+2D and 3D Curves
    By default, new curves are set to be 3D, which means that Control Points can be placed anywhere in 3D space.
    Curves can also be set to 2D which constrain the Control Points to the Curve's local XY axis.
 
-:guilabel:`Resolution`
+Resolution
    The *resolution* property defines the number of points that are computed between every pair of Control Points.
    Curves can be made more or less smooth by increasing and decreasing the resolution respectively.
    The :guilabel:`Preview U` setting determines the resolution in the 3D viewport while the :guilabel:`Render U` setting
@@ -153,7 +153,7 @@ Shape
    Curves with a resolution of 3 (left) and 12 (right).
 
 
-:guilabel:`Twisting`
+Twisting
    A 3D Curve has Control Points that are not located on the Curve's local XY plane. This gives the Curve a twist which can affect the Curve normals. You can alter how the twist of the Curve is calculated by choosing from :guilabel:`Minimum, Tangent` and :guilabel:`Z-Up` options from the drop-down menu.
 
 
@@ -162,7 +162,7 @@ Shape
    Curves with a twist of minimum (left) and tangent (right).
 
 
-:guilabel:`Fill`
+Fill
    Fill determines the way a Curve is displayed when it is Beveled (see below for details on Beveling). When set to :guilabel:`Half` (the default) the Curve is displayed as half a cylinder. The :guilabel:`Fill Deformed` option allows you to indicate whether the Curve should be filled before or after (default) applying any Shape Keys or Modifiers.
 
 
@@ -171,7 +171,7 @@ Shape
    Curves with a fill of half (left) and full (right).
 
 
-:guilabel:`Path/Curve-Deform`
+Path/Curve-Deform
    These options are primarily utilized when using a Curve as a Path or when using the Curve Deform property. The :guilabel:`Radius, Stretch` and :guilabel:`Bounds Clamp` options control how Objects use the Curve and are dealt with in more detail in the appropriate links below.
 
 :doc:`Read more about Basic Curve Editing » </modeling/curves/editing>`
@@ -187,13 +187,13 @@ Geometry
    Curves Geometry panel.
 
 
-:guilabel:`Modification`
-   :guilabel:`Offset`
+Modification
+   Offset
       By default, text Objects are treated as curves. The Offset option will alter the space between letters.
-   :guilabel:`Extrude`
+   Extrude
       Will extrude the curve along both the positive and negative local Z axes.
-:guilabel:`Bevel`
-   :guilabel:`Depth`
+Bevel
+   Depth
       Changes the size of the bevel
 
 
@@ -202,7 +202,7 @@ Geometry
    A Curve with different Bevel depths applied.
 
 
-   :guilabel:`Resolution`
+   Resolution
       Alters the smoothness of the bevel
 
 
@@ -211,7 +211,7 @@ Geometry
    A Curve with different resolutions applied.
 
 
-:guilabel:`Taper Object`
+Taper Object
    Tapering a Curve causes it to get thinner towards one end. You can also alter the proportions of the Taper throughout the tapered object by moving/scaling/rotating the Control Points of the Taper Object. The Taper Object can only be another Curve. Editing the Handles and Control Points of the Taper Object will cause the original Object to change shape.
 
 
@@ -220,7 +220,7 @@ Geometry
    A Curve before (left) and after (right) a Bezier Curve Taper Object was applied.
 
 
-:guilabel:`Bevel Object`
+Bevel Object
    Beveling a Bezier Curve with a Bezier Curve as the Bevel Object generally gives it the appearance of a plane, while using a Bezier Circle as the Bevel Object will give it the appearance of a cylinder. The Bevel Object can only be another Curve. Editing the Handles and Control Points of the Bevel Object will cause the original Object to change shape. Given the options available, it is best to experiment and see the results of this operation.
 
 
@@ -229,9 +229,9 @@ Geometry
    A Curve with the Bevel Object as a Bezier Curve (left) and as a Bezier Circle (right).
 
 
-:guilabel:`Fill Caps`
+Fill Caps
    Seals the ends of a beveled Curve.
-:guilabel:`Map Taper`
+Map Taper
    For Curves using a Taper Object and with modifications to the :guilabel:`Start/End Bevel Factor`
    the :guilabel:`Map Taper` option will apply the taper to the beveled part of the Curve (not the whole Curve).
 
@@ -241,7 +241,7 @@ Geometry
    A Curve without (left) and with (right) Map Taper applied.
 
 
-:guilabel:`Start Bevel Factor` and :guilabel:`End Bevel Factor`
+Start Bevel Factor and End Bevel Factor
    These options determine where to start the Bevel operation on the Curve being beveled.
    Increasing the :guilabel:`Start Bevel Factor` to 0.5 will start beveling the Curve 50% of the distance from the start
    of the Curve (in effect shortening the Curve).
@@ -277,16 +277,16 @@ Active Spline
 
 The :guilabel:`Active Spline` panel becomes available during :guilabel:`Edit mode`.
 
-:guilabel:`Cyclic`
+Cyclic
    Closes the Curve.
-:guilabel:`Resolution`
+Resolution
    Alters the smoothness of of each segment by changing the number of subdivisions.
-:guilabel:`Interpolation`
-   :guilabel:`Tilt`
+Interpolation
+   Tilt
       Alters how the tilt of a segment is calculated.
-   :guilabel:`Radius`
+   Radius
       Alters how the radius of a Beveled Curve is calculated. The effects are easier to see after Shrinking/Fattening a control point :kbd:`alt-s`.
-   :guilabel:`Smooth`
+   Smooth
       Smooths the normals of the Curve
 
 
@@ -330,7 +330,7 @@ While you cannot edit the knot vectors directly, you can influence them through 
 :guilabel:`Endpoint` and :guilabel:`Bezier` options in the Active Spline panel. Note that the
 :guilabel:`Endpoint` and :guilabel:`Bezier` settings only apply to open NURBS curves.
 
-:guilabel:`Cyclic`
+Cyclic
    Makes the NURBS curve cyclic.
 
 
@@ -339,9 +339,9 @@ While you cannot edit the knot vectors directly, you can influence them through 
    A NURBS curve with Cyclic applied.
 
 
-:guilabel:`Bezier`
+Bezier
    Makes the NURBS curve act like a Bezier curve.
-:guilabel:`Endpoint`
+Endpoint
    Makes the curve contact the end control points. Cyclic must be disabled for this option to work.
 
 
@@ -352,7 +352,7 @@ While you cannot edit the knot vectors directly, you can influence them through 
    A NURBS curve with Endpoint enabled.
 
 
-:guilabel:`Order`
+Order
    The order of the NURBS curve determines the area of influence of the control points over the curve. Higher order values means that a single control point has a greater influence over a greater relative proportion of the curve. The valid range of :guilabel:`Order` values is 2-6 depending on the number of control points present in the curve.
 
 

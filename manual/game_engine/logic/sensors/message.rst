@@ -18,7 +18,7 @@ See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for
 
 Special Options:
 
-**Subject**
+Subject
    Specifies the message that must be received to trigger the sensor (this can be left blank).
 
 Note:  See :doc:`Message Actuator </game_engine/logic/actuators/message>` for how to send messages

@@ -165,7 +165,7 @@ Cube mapping projects s mesh onto six separate planes, creating 6 UV islands.
 In the UV editor, these will appear overlapped, but can be moved.
 See :doc:`Editing UVs </textures/mapping/uv/layout_editing>`.
 
-:guilabel:`Cube Size`
+Cube Size
    Set the size of the cube to be projected onto.
 
 .. _cylinder-and-sphere:

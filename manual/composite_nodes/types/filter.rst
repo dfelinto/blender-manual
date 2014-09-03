@@ -21,19 +21,19 @@ The Filter node implements various common image enhancement filters.
 The supported filters are, if not obvious,
 named after the mathematical genius who came up with them:
 
-:guilabel:`Soften`
+Soften
    Slightly blurs the image.
-:guilabel:`Sharpen`
+Sharpen
    Increases the contrast, especially at edges
-:guilabel:`Laplace`
+Laplace
    Softens around edges
-:guilabel:`Sobel`
+Sobel
    Creates a negative image that highlights edges
-:guilabel:`Prewitt`
+Prewitt
    Tries to do Sobel one better.
-:guilabel:`Kirsch`
+Kirsch
    Improves on the work done by those other two flunkies, giving a better blending as you approach an edge.
-:guilabel:`Shadow`
+Shadow
    Performs a relief emboss/bumpmap effect, darkening outside edges.
 
 
@@ -105,21 +105,21 @@ Blurs an image in a specified direction and magnitude. Can be used to fake motio
 Options
 -------
 
-:guilabel:`Iterations`
+Iterations
    Controls how may times the image is duplicated to create the blur effect. Higher values give smoother results.
-:guilabel:`Wrap`
+Wrap
    Wraps the image on the X and Y axis to fill in areas that become transparent from the blur effect.
-:guilabel:`Center`
+Center
    Sets the position where the blur center is. This makes a difference if the angle, spin, and/or zoom are used.
 
-:guilabel:`Distance`
+Distance
    How large the blur effect is.
-:guilabel:`Angle`
+Angle
    Image is blurred at this angle from the center
 
-:guilabel:`Spin`
+Spin
    Rotates the image each iteration to create a spin effect, from the center point.
-:guilabel:`Zoom`
+Zoom
    Scales the image each iteration, creating the effect of a zoom.
 
 
@@ -169,13 +169,13 @@ but normals in combination with zbuffer can still define exact borders/edges of 
 Options
 -------
 
-:guilabel:`Iterations`
+Iterations
    Defines how many times the filter should perform the operation on the image. It practically defines the radius of blur.
 
-:guilabel:`Color Sigma`
+Color Sigma
    Defines the threshold for which color differences in the image should be taken as edges.
 
-:guilabel:`Space sigma`
+Space sigma
    A fine-tuning variable for blur radius.
 
 
@@ -358,17 +358,17 @@ Node Setting
 
 The settings for this node are:
 
-:guilabel:`Bokeh Type` menu
+Bokeh Type menu
    Here you set the number of iris blades of the virtual camera's diaphragm. It can be set to emulate a perfect circle
    (:guilabel:`Disk`) or it can be set to have 3 (:guilabel:`Triangle`), 4 (:guilabel:`Square`), 5
    (:guilabel:`Pentagon`), 6 (:guilabel:`Hexagon`), 7 (:guilabel:`Heptagon`) or 8 blades
    (:guilabel:`Octagon`). The reason it does not go any higher than 8 is that from that point on the result tends to
    be indistinguishable from a :guilabel:`Disk` shape anyway.
-:guilabel:`Rotate`
+Rotate
    This button is not visible if the :guilabel:`Bokeh Type` is set to :guilabel:`Disk`.
    It can be used to add an additional rotation offset to the Bokeh shape. The value is the angle in degrees.
 
-:guilabel:`Gamma Correct`
+Gamma Correct
    Exactly the same as the :guilabel:`Gamma` option in Blender's general :guilabel:`Blur` node (see
 FIXME(TODO: Internal Link;
 [[#Blur Node|Blur Node]]
@@ -380,7 +380,7 @@ FIXME(TODO: Internal Link;
    Defocus node using Z-Buffer
 
 
-:guilabel:`fStop`
+fStop
    This is the most important parameter to control the amount of focal blur:
    it simulates the aperture *f* of a real lens(' iris) - without modifying the luminosity of the picture,
    however! As in a real camera, the *smaller* this number is, the more-open the lens iris is,
@@ -388,7 +388,7 @@ FIXME(TODO: Internal Link;
    everything is in perfect focus. Half the value will double the amount of blur.
    This button is not available if :guilabel:`No zbuffer` is enabled.
 
-:guilabel:`Maxblur`
+Maxblur
    Use this to limit the amount of blur of the most out of focus parts of the image.
    The value is the maximum blur radius allowed.
    This can be useful since the actual blur process can sometimes be very slow. (The more blur, the slower it gets.)
@@ -397,7 +397,7 @@ FIXME(TODO: Internal Link;
    (not always true, objects very close to the lens might be blurred even more).
    The default value of 0 means there is no limit to the maximum blur amount.
 
-:guilabel:`BThreshold`
+BThreshold
    The defocus node is not perfect: some artifacts may occur.
    One such example is in-focus objects against a blurred background,
    which have a tendency to bleed into the edges of the sharp object.
@@ -409,7 +409,7 @@ FIXME(TODO: Internal Link;
    Only try changing it if you experience problems around any in-focus object.
 
 
-:guilabel:`Preview`
+Preview
    As already mentioned, processing can take a long time. So to help make editing parameters somewhat 'interactive',
    there is a preview mode which you can enable with this button.
    Preview mode will render the result using a limited amount of (quasi)random samples,
@@ -419,12 +419,12 @@ FIXME(TODO: Internal Link;
    and only then disable the preview mode for the final render.
 
 
-:guilabel:`Samples`
+Samples
    Only visible when :guilabel:`Preview` is set. Sets the amount of samples to use to sample the image. The higher,
    the smoother the image, but also the longer the processing time. For preview,
    the default of 16 samples should be sufficient and is also the fastest.
 
-:guilabel:`No zbuffer`
+No zbuffer
    Sometimes you might want to have more control to blur the image. For instance,
    you may want to only blur one object while leaving everything else alone (or the other way around),
    or you want to blur the whole image uniformly all at once.
@@ -441,7 +441,7 @@ FIXME(TODO: Internal Link;
    :guilabel:`No zbuffer` will be enabled automatically whenever you connect a node that is not image based
    (e.g. time node/value node/etc).
 
-:guilabel:`Zscale`
+Zscale
    Only visible when :guilabel:`No zbuffer` enabled. When :guilabel:`No zbuffer` is used,
    the input is used directly to control the blur radius.
    And since usually the value of a texture is only in the numeric range 0.0 to 1.0,
@@ -469,14 +469,14 @@ As the balls receed into the distance, they get blurrier.
 Hints
 -----
 
-**Preview**
+Preview
    In general, use preview mode, change parameters to your liking, only then disable preview mode for the final render.
    This node is compute intensive, so watch your console window,
    and it will give you status as it computes each render scan line.
-**Edge Artifacts**
+Edge Artifacts
    For minimum artifacts, try to setup your scene such that differences in distances between two objects that may
    visibly overlap at some point are not too large.
-**"Focus Pull"**
+"Focus Pull"
    Keep in mind that this is not 'real' DoF, only a post-processing simulation.
    Some things cannot be done which would be no problem for real DoF at all.
    A typical example is a scene with some object very close to the camera,
@@ -494,7 +494,7 @@ Hints
      the defocus on the other decreases at the same rate, creating a smooth transition.
 
 
-**Aliasing at Low f-Stop Values**
+Aliasing at Low f-Stop Values
    At very low values, less than 5,
    the node will start to remove any oversampling and bring the objects at DoFDist very sharply into focus.
    If the object is against a constrasting background, this may lead to visible stairstepping (aliasing)
@@ -508,7 +508,7 @@ Hints
      and then use the Z socket to a Map Value to a Blur node to enhance the blur effect.
    - Rearrange the objects in your scene to use a lower-contrast background
 
-**No ZBuffer**
+No ZBuffer
    A final word of warning, since there is no way to detect if an actual zbuffer is connected to the node,
    be VERY careful with the :guilabel:`No ZBuffer` switch. If the :guilabel:`Zscale` value happens to be large,
    and you forget to set it back to some low value,

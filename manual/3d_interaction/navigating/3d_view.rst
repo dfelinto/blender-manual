@@ -305,7 +305,7 @@ Align View
 These options allow you to align and orient the view in different ways.
 They are found in the :guilabel:`View Menu`
 
-   :guilabel:`Align View to Selected` menu
+   Align View to Selected menu
       These options align your view with specified local axes of the selected object or, in :guilabel:`Edit` mode,
       with the normal of the selected face.
 
@@ -317,19 +317,19 @@ They are found in the :guilabel:`View Menu`
       :guilabel:`Right` :kbd:`shift-pad3`
       :guilabel:`Left` :kbd:`shift-ctrl-pad3`
 
-   :guilabel:`Center Cursor and View All` (:kbd:`shift-C`)
+   Center Cursor and View All (:kbd:`shift-C`)
       moves the cursor back to the origin **and** zooms in/out so that you can see everything in your scene.
-   :guilabel:`Align Active Camera to View`, :kbd:`ctrl-alt-pad0`
+   Align Active Camera to View, :kbd:`ctrl-alt-pad0`
       Gives your active camera the current viewpoint
-   :guilabel:`View selected`, :kbd:`pad.`
+   View selected, :kbd:`pad.`
       Focuses view on currently selected object/s by centering them in the viewport,
       and zooming in until they fill the screen.
-   :guilabel:`Center view to cursor`, :kbd:`alt-home`
+   Center view to cursor, :kbd:`alt-home`
       Centers view to 3D-cursor
 
-:guilabel:`View Selected`
+View Selected
    See above
-:guilabel:`View All` :kbd:`home`
+View All :kbd:`home`
    Frames all the objects in the scene, so they are visible in the viewport.
 
 

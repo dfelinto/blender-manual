@@ -45,13 +45,13 @@ at the prompt and execute it.
 
 Following is a quick overview of the output
 
-**C'**
+C'
    Quick access to bpy.context
-**D'**
+D'
    Quick access to bpy.data
-**__builtins__'**
+__builtins__'
    Python Built-ins (Classes, functions, variables)
-**bpy'**
+bpy'
    Top level Blender Python API module.
 
 
@@ -126,10 +126,10 @@ Note
 Try it out!
 -----------
 
-**bpy.context.mode**
+bpy.context.mode
    Will print the current 3D View mode (Object, Edit, Sculpt etc.,)
 
-**bpy.context.object** or **bpy.context.active_object**
+bpy.context.object or bpy.context.active_object
    Will give access to the active object in the 3D View
 
 ::
@@ -180,7 +180,7 @@ Data type of objects location
 
 Now that is a lot of data that you have access to
 
-**bpy.context.selected_objects**
+bpy.context.selected_objects
    Will give access to a list of all selected objects.
 
 ::

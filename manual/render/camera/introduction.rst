@@ -97,18 +97,18 @@ Perspective / Orthographic / Panoramic
       A camera with the clipping limits and focal point visible.
 
 Focal Length
-    Available in Perspective and Panoramic camera types, represents the lens focal length,
-    represented in degrees or millimeters. When :guilabel:`Orthographic` mode is selected,
-    the :guilabel:`Focal Length` setting changes to the :guilabel:`Orthographic Scale` setting.
-    This setting determines the size of the camera's visible area.
+   Available in Perspective and Panoramic camera types, represents the lens focal length,
+   represented in degrees or millimeters. When :guilabel:`Orthographic` mode is selected,
+   the :guilabel:`Focal Length` setting changes to the :guilabel:`Orthographic Scale` setting.
+   This setting determines the size of the camera's visible area.
 Shift X/Y
-    Shifts the camera viewport. Note that most of the time,
-    this setting should not be used to adjust the camera position,
-    as the :guilabel:`Shift` setting is relative to the actual camera position, which will not be changed.
+   Shifts the camera viewport. Note that most of the time,
+   this setting should not be used to adjust the camera position,
+   as the :guilabel:`Shift` setting is relative to the actual camera position, which will not be changed.
 Clipping Start/End
-    Sets the clipping limits. Only objects within the limits are rendered.
-    If :guilabel:`Limits` in the :guilabel:`Display` panel is enabled,
-    the clip bounds will be visible as two yellow connected dots on the camera line of sight.
+   Sets the clipping limits. Only objects within the limits are rendered.
+   If :guilabel:`Limits` in the :guilabel:`Display` panel is enabled,
+   the clip bounds will be visible as two yellow connected dots on the camera line of sight.
 
 
    .. note::

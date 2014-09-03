@@ -68,7 +68,7 @@ Interpolation Mode
 
 You have three choices (:kbd:`T`, or :menuselection:`Curve --> Interpolation Mode`):
 
-:guilabel:`Constant`
+Constant
    There is no interpolation at all. The curve holds the value of its last keyframe,
    giving a discrete (stairway) "curve".
    Usually only used during the initial "blocking" stage in pose-to-pose animation workflows.
@@ -81,7 +81,7 @@ You have three choices (:kbd:`T`, or :menuselection:`Curve --> Interpolation Mod
    Constant.
 
 
-:guilabel:`Linear`
+Linear
    This simple interpolation creates a straight segment between each neighbor keyframes, giving a broken line. It can be useful when using only two keyframes and the :guilabel:`Extrapolation` extend mode, to easily get an infinite straight line (i.e. a linear curve).
 
 
@@ -92,7 +92,7 @@ You have three choices (:kbd:`T`, or :menuselection:`Curve --> Interpolation Mod
    Linear.
 
 
-:guilabel:`Bezier`
+Bezier
    The more powerful and useful interpolation, and the default one. It gives nicely smoothed curves, i.e. smooth animations!
 
 
@@ -116,7 +116,7 @@ Extrapolation defines the behavior of a curve before the first and after the las
 
 There are two basic extrapolation modes:
 
-:guilabel:`Constant`
+Constant
    The default one, curves before their first keyframe and after their last one have a constant value (the one of these first and last keyframes).
 
 
@@ -127,7 +127,7 @@ There are two basic extrapolation modes:
    Constant extrapolation
 
 
-:guilabel:`Linear`
+Linear
    Curves ends are straight lines (linear), as defined by their first two keyframes (respectively their last two keyframes).
 
 
@@ -147,7 +147,7 @@ Handle Types
 There is another curve option quite useful for Bézier-interpolated curves.
 You can set the type of handle to use for the curve points :kbd:`V`
 
-:guilabel:`Automatic`
+Automatic
    Keyframes are automatically interpolated
 
 
@@ -158,7 +158,7 @@ You can set the type of handle to use for the curve points :kbd:`V`
    Auto handles
 
 
-:guilabel:`Vector`
+Vector
    Creates linear interpolation between keyframes. The linear segments remain if keyframe centers are moved. If handles are moved, the handle becomes Free.
 
 
@@ -169,7 +169,7 @@ You can set the type of handle to use for the curve points :kbd:`V`
    Vector handles
 
 
-:guilabel:`Aligned`
+Aligned
    Handle maintain rotation when moved, and curve tangent is maintained
 
 
@@ -180,7 +180,7 @@ You can set the type of handle to use for the curve points :kbd:`V`
    Aligned handles
 
 
-:guilabel:`Free`
+Free
    Breaks handles tangents
 
 
@@ -191,7 +191,7 @@ You can set the type of handle to use for the curve points :kbd:`V`
    Free handles
 
 
-:guilabel:`Auto Clamped`
+Auto Clamped
    Auto handles clamped to not overshoot
 
 

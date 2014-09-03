@@ -101,13 +101,13 @@ Options
 
 The :guilabel:`Proportional Editing` mode menu is on the :guilabel:`3D View` header.
 
-:guilabel:`Disable` (:kbd:`o` or :kbd:`Alt-o`)
+Disable (:kbd:`o` or :kbd:`Alt-o`)
    Proportional Editing is Off, only selected vertices will be affected.
 
-:guilabel:`Enable` (:kbd:`o` or :kbd:`Alt-o`)
+Enable (:kbd:`o` or :kbd:`Alt-o`)
    Vertices other than the selected vertex are affected, within a defined radius.
 
-:guilabel:`Projected (2D)`
+Projected (2D)
    Depth along the view is ignored when applying the radius.
 
 
@@ -118,7 +118,7 @@ The :guilabel:`Proportional Editing` mode menu is on the :guilabel:`3D View` hea
    The difference between regular and Projected (2D) proportional option (right).
 
 
-:guilabel:`Connected` (:kbd:`alt-o`)
+Connected (:kbd:`alt-o`)
    Rather than using a radius only, the proportional falloff spreads via connected geometry. This means that you can
    proportionally edit the vertices in a finger of a hand without affecting the other fingers.
    While the other vertices are physically close (in 3D space),
@@ -127,7 +127,7 @@ The :guilabel:`Proportional Editing` mode menu is on the :guilabel:`3D View` hea
    This mode is only available in :guilabel:`Edit mode`.
 
 
-:guilabel:`Falloff`
+Falloff
    While you are editing, you can change the curve profile used by either using the :menuselection:`Mesh --> Proportional Falloff` submenu, using the toolbar icon (*Falloff menu*), or by pressing :kbd:`shift-o` to toggle between the various options.
 
 

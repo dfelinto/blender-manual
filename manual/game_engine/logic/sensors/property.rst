@@ -23,25 +23,25 @@ Special Options:
    Property Evaluation
 
 
-**Evaluation Type**
+Evaluation Type
    Specifies how the property  will be evaluated against the value(s).
 
-:guilabel:`Greater Than`
+Greater Than
    Sends a TRUE pulse when the property value is greater than the :guilabel:`Value` in the sensor.
 
-:guilabel:`Less Than`
+Less Than
    Sends a TRUE pulse when the property value is less than the :guilabel:`Value` in the sensor.
 
-:guilabel:`Changed`
+Changed
    Sends a TRUE pulse as soon as the property value changes.
 
-:guilabel:`Interval`
+Interval
    Sends a TRUE pulse when the :guilabel:`Value` of the property is between the :guilabel:`Min` and :guilabel:`Max` values of the sensor.
 
-:guilabel:`Not Equal`
+Not Equal
    Sends a TRUE pulse when the property value differs from the :guilabel:`Value` in the sensor.
 
-:guilabel:`Equal`
+Equal
    Sends a TRUE pulse when the property value matches the :guilabel:`Value` in the sensor.
 
 Note the names of other properties can also be entered to compare properties.

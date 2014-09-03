@@ -142,26 +142,26 @@ Mode
 
 
 View controls
-   *Show Only Selected*
+   Show Only Selected
       Only include curves related to the selected objects and data.
 
-   *Show Hidden*
+   Show Hidden
       Include curves from objects/bones that are not visible.
 
-   *Show Only Errors*
+   Show Only Errors
       Only include curves that are disabled or have errors.
 
-   *Search Filter*
+   Search Filter
       Only include curves with keywords contained in the search text.
 
-   *Type Filter*
+   Type Filter
       Filter curves by property type.
 
-   *Normalize*
+   Normalize
       Normalize curves so the maximum or minimum point equals 1.0 or -1.0.
 
-      *Auto*
-          Automatically recalculate curve normalization on every curve edit.
+      Auto
+         Automatically recalculate curve normalization on every curve edit.
 
 
 .. figure:: /images/Doc_Graph_Header_Edit.jpg
@@ -171,7 +171,7 @@ View controls
 
 
 Curve controls
-   *Auto Snap*
+   Auto Snap
       Auto snap the keyframes for transformations.
 
       *No Auto-Snap*
@@ -179,17 +179,17 @@ Curve controls
       *Nearest Frame*
       *Nearest Marker*
 
-   *Pivot Point*
+   Pivot Point
       Pivot point for rotation.
 
-      *Bounding Box Center*
-          Center of the select keyframes.
+      Bounding Box Center
+         Center of the select keyframes.
 
-      *2D Cursor*
-          Center of the *2D Cursor*. *Time Cursor* + *Cursor*.
+      2D Cursor
+         Center of the *2D Cursor*. *Time Cursor* + *Cursor*.
 
-      *Individual Centers*
-          Rotate the selected keyframe *Bezier* handles.
+      Individual Centers
+         Rotate the selected keyframe *Bezier* handles.
 
    *Copy Keyframes* :kbd:`Ctrl-C`
       Copy the selected keyframes to memory.
@@ -197,7 +197,7 @@ Curve controls
    *Paste Keyframes* :kbd:`Ctrl-V`
       Paste keyframes from memory to the current frame for selected curves.
 
-   *Create Snapshot*
+   Create Snapshot
       Creates a picture with the current shape of the curves.
 
 
@@ -211,13 +211,13 @@ Channels Region
 
 The channels region is used to select and manage the curves for the graph editor.
 
-*Hide curve*
+Hide curve
    Represented by the eye icon.
 
-*Deactive/Mute curve*
+Deactive/Mute curve
    Represented by the speaker icon.
 
-*Lock curve from editing*
+Lock curve from editing
    Represented by the padlock icon.
 
 
@@ -263,22 +263,22 @@ View Properties Panel
    View Properties Panel.
 
 
-*Show Cursor*
+Show Cursor
    Show the vertical *Cursor*.
 
-*Cursor from Selection*
+Cursor from Selection
    Set the *2D cursor* to the center of the selected keyframes.
 
-*Cursor X*
+Cursor X
    *Time Cursor* X position.
 
-   *To Keys*
+   To Keys
       Snap selected keyframes to the *Time Cursor*.
 
-*Cursor Y*
+Cursor Y
    Vertical *Cursor* Y position.
 
-   *To Keys*
+   To Keys
       Snap selected keyframes to the *Cursor*.
 
 
@@ -295,19 +295,19 @@ This panel displays properties for the active *F-Curve*.
 *Channel Name* (X Location)
    *ID Type* + Channel name.
 
-*RNA Path*
+RNA Path
    *RNA Path* to property + Array index.
 
-*Color Mode*
+Color Mode
    *Color Mode* for the active *F-Curve*.
 
-   *Auto Rainbow*
+   Auto Rainbow
       Increment the *HUE* of the *F-Curve* color based on the channel index.
 
-   *Auto XYZ to RGB*
+   Auto XYZ to RGB
       For property sets like location xyz, automatically set the set of colors to red, green, blue.
 
-   *User Defined*
+   User Defined
       Define a custom color for the active *F-Curve*.
 
 
@@ -319,29 +319,29 @@ Active Keyframe Panel
    Active Keyframe Panel.
 
 
-*Interpolation*
+Interpolation
    Set the forward interpolation for the active keyframe.
 
-   *Constant*
+   Constant
       Keep the same value till the next keyframe.
 
-   *Linear*
+   Linear
       The difference between the next keyframe.
 
-   *Bezier*
+   Bezier
       Bezier interpolation to the next keyframe.
 
-*Key*
-   *Frame*
+Key
+   Frame
       Set the frame for the active keyframe.
 
-   *Value*
+   Value
       Set the value for the active keyframe.
 
-*Left Handle*
+Left Handle
    Set the position of the left interpolation handle for the active keyframe.
 
-*Right Handle*
+Right Handle
    Set the position of the right interpolation handle for the active keyframe.
 
 

@@ -106,14 +106,14 @@ Display Mode
    The last four buttons set how the image is displayed.
 
    RGB
-         Draw image as rendered, without alpha channel.
+      Draw image as rendered, without alpha channel.
    RGBA
-         Replaces transparent pixels with background checkerboard, denoting the alpha channel.
+      Replaces transparent pixels with background checkerboard, denoting the alpha channel.
    Alpha Channel
-         Displays a gray-scale image. White areas are opaque, black areas have a an alpha of 0.
+      Displays a gray-scale image. White areas are opaque, black areas have a an alpha of 0.
    Z Depth
-         Display the depth from the camera, from Clip Start to Clip End,
-         as specified in the :doc:`Camera settings </render/camera/introduction>`.
+      Display the depth from the camera, from Clip Start to Clip End,
+      as specified in the :doc:`Camera settings </render/camera/introduction>`.
 
 Curves Panel
    The :guilabel:`Curves` Panel is available in the :guilabel:`Properties` Panel.

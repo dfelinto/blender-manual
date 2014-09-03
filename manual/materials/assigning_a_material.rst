@@ -73,14 +73,14 @@ Material are as follows:
 
  - Available Materials
    See Reusing Existing Materials below.
-**Name**
+Name
    Like other datablocks, Blender will automatically set the name of the new material to Material, Material.001 and so on. You can change this by over-typing with your own choice of name.
 
-**Number of Users**
+Number of Users
    Specifies the number of meshes which use this material.
-**F**  - Fake User;
+F  - Fake User;
    If lit, this material will always be saved within the Blender file, even if it has no meshes which use it (see Deleting a Material).
-**X**
+X
    Delete this material (see Deleting a Material).
 
 
@@ -95,7 +95,7 @@ Material are as follows:
 
    If dark, use the Shader Nodes to generate the material.
 
-**Data**
+Data
    Specifies whether the material is to be linked to the Object or to the Object Data.
 
 
@@ -109,16 +109,15 @@ Material are as follows:
    On the other hand, if the material is linked directly to the object datablock, the objects can have different materials and still share the same mesh. Short explanation: If connected to the object, you can have several instances of the same obData using different materials. If linked to mesh data, you can't. See :doc:`Data System </data_system/data_system>` for more information.
 
 
-**Object Render Format** menu.
-
+Object Render Format (menu)
    This menu has four options which define how the object is to be rendered:
-**Surface**
+Surface
    Material applied to object planes.
-**Wire**
-     Material applied to wires following the object edges
-**Volume**
+Wire
+   Material applied to wires following the object edges
+Volume
    Material applied to the object volume.
-**Halos**
+Halos
    Material applied to halos around each object vertex.
 
 

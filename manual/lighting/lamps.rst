@@ -27,10 +27,10 @@ types also feature dashed wire-frames that help describe their orientation and p
 While each type is represented differently,
 there are some visual indicators common to all of them:
 
-:guilabel:`Shadows`
+Shadows
    If shadows are enabled, an additional dashed circle is drawn around the solid circle. This makes it easier to quickly determine if a lamp has shadows enabled.
 
-:guilabel:`Vertical Height Marker`
+Vertical Height Marker
    This is a dim gray line, which helps locate the lamp's position relative to the global X-Y plane.
 
 

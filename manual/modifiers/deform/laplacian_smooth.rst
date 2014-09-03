@@ -42,7 +42,7 @@ Options
    Laplacian Smooth and Shape Enhanced modifier
 
 
-:guilabel:`Repeat`
+Repeat
    Repetitions allow you to run the Laplacian smoothing and Shape Enhancement multiple times. Each repetition causes the flow curvature of the mesh to be recalculated again, and as a result it removes more noise at every new iteration in Laplacian smoothing cases (positive factor) using a small :guilabel:`Factor` < ``1.0``. In a Shape Enhancement case (negative Factor) multiple iterations can magnify the noise.
 
 - :guilabel:`Repeat`: ``0`` Disables the modifier and no repetition is made.
@@ -70,7 +70,7 @@ Options
 +---------------------------------------------------------------+---------------------------------------------------------------+---------------------------------------------------------------+----------------------------------------------------------------+
 
 
-:guilabel:`Lambda factor`
+Lambda factor
    The Lambda factor ranges from ``-1000.0`` to ``1000.0``; this factor controls the amount of displacement of every vertex along the curvature flow.
 
 
@@ -101,7 +101,7 @@ Options
 +-----------------------------------------------------------------+-----------------------------------------------------------------+------------------------------------------------------------------+------------------------------------------------------------------+
 
 
-:guilabel:`Lambda border`
+Lambda border
    The Lambda border ranges from ``-1000.0`` to ``1000.0`` . Borders are treated differently. There is no way to calculate the curvature flow on them. For this reason the Lambda factor just smooths or enhances them.
 
 - :guilabel:`Lambda border`: ``-1000.0`` to ``0.0`` Enhance the borders.
@@ -131,7 +131,7 @@ Options
 +-----------------------------------------------------------------+-----------------------------------------------------------------+-----------------------------------------------------------------+------------------------------------------------------------------+
 
 
-:guilabel:`X`, :guilabel:`Y`, :guilabel:`Z`
+X, Y, Z
    Toggle buttons to enable/disable hard constraints in the X, Y and/or Z axis directions.
 
 
@@ -150,7 +150,7 @@ Options
 +------------------------------------------------------------+----------------------------------------------------------------+---------------------------------------------------------------+--------------------------------------------------------------+
 
 
-:guilabel:`Preserve Volume`
+Preserve Volume
    The smoothing process can produce shrinkage. That is significant for large :guilabel:`Lambda factor` or large :guilabel:`Repeat` values; to reduce that effect you can use this option.
 
 +-------------------------------------------------------------------+------------------------------------------------------------------+--------------------------------------------------------------------+-------------------------------------------------------------------+
@@ -162,7 +162,7 @@ Options
 +-------------------------------------------------------------------+------------------------------------------------------------------+--------------------------------------------------------------------+-------------------------------------------------------------------+
 
 
-:guilabel:`Vertex Group`
+Vertex Group
    A vertex group name, to constrain the effect to a group of vertices only. Allows for selective, real-time smoothing or enhancing, by painting vertex weights.
 
 
@@ -187,7 +187,7 @@ Options
 +-----------------------------------------------------------+------------------------------------------------------------+--------------------------------------------------------------+---------------------------------------------------------------+
 
 
-:guilabel:`Normalized Version`
+Normalized Version
    The modifier has two versions, the normalized version that does not depend on face size, and the other that is dependent on the face size. Be careful with the face-size-dependent version, which can produce peaks.
 
 

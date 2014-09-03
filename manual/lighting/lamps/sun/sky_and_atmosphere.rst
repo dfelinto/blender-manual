@@ -72,10 +72,10 @@ Options
 Sky
 ===
 
-:guilabel:`Sky`
+Sky
    This button enables the sky settings: it will create a "sky", with a "sun" if visible, and mix it with the background as defined in :guilabel:`World` settings.
 
-:guilabel:`Turbidity`
+Turbidity
    This is a general parameter that affects sun view, sky and atmosphere;
    it's an atmosphere parameter where low values describe clear sky, and high values shows more foggy sky.
    In general, low values give a clear, deep blue sky, with "little" sun; high values give a more reddish sky,
@@ -91,7 +91,7 @@ Here are its specific controls:
 
           Controls how much the sky and sun effect is applied to the World background.
 
-:guilabel:`Color space`
+Color space
    These buttons allows you to select which color space the effect uses, with the following choices:
 
    - :guilabel:`CIE`
@@ -129,7 +129,7 @@ Here are its specific controls:
 Atmosphere
 ==========
 
-:guilabel:`Atmosphere`
+Atmosphere
    This button enables the atmosphere settings. It will not modify the background, but it tries to simulate the effects of an atmosphere: scattering of the sunlight in the atmosphere, its attenuation, ...
 
 :guilabel:`Intensity`

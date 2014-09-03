@@ -329,30 +329,30 @@ The panels for each of these sets of options and controls are shown to the right
 Edit Strip Panel
 ----------------
 
-:guilabel:`Name`
+Name
    You can name or rename your strips here.
-:guilabel:`Type`
+Type
    Displays the type of strip selected.
-:guilabel:`Blend Mode`
+Blend Mode
    By default, a strip Replaces the output image of any lower-level strips. However,
    many other blending modes are available based on the strip type. For example,
    Alpha-Over automatically overlays the image on top of a lower level strip.
    Autoblending modes remove the need for separate effect strips.
    Blend percent controls how much of an effect the strip exerts, even over time.
 
-:guilabel:`Opacity`
+Opacity
    Set the opacity of the strip.
-:guilabel:`Mute`
+Mute
    Hides the strip so that it does not participate in the final image computation
-:guilabel:`Lock`
+Lock
    Prevents the strip from being moved.
-:guilabel:`Channel`
+Channel
    Changes the channel number, or row, of the strip.
-:guilabel:`Start Frame`
+Start Frame
    Changes the starting frame number of the strip, which is the same as grabbing and moving the strip.
    Tip: when you add a strip, I like to just drop it and then use this field to place it at the frame I want,
    rather that trying to drag and drop in exactly the right place.
-:guilabel:`Length`
+Length
    Specify the number of frames to use for the strip.
 
 Use the :guilabel:`Convert to Premul` button if a strip has an Alpha (transparency) channel.
@@ -397,23 +397,23 @@ Filter
 Enables you to quickly set common image pre-processing options.
 :guilabel:`Strobe`
 
-:guilabel:`Flip`
+Flip
    X flips (reverses) the image left-to-right, Y reverses top-to-bottom.
-:guilabel:`Backwards`
+Backwards
    Reverses strip image sequence
-:guilabel:`De-Interlace`
+De-Interlace
    Removes fields in a video file.
 
-:guilabel:`Saturation`
+Saturation
    Increase or decrease the saturation of an image.
-:guilabel:`Multiply`
+Multiply
    Multiplies the colors by this value.
-:guilabel:`Premultiply`
+Premultiply
    Premultiply the Alpha channel.
-:guilabel:`Convert Float`
+Convert Float
    Converts input to float data.
 
-:guilabel:`Use Color Balance`
+Use Color Balance
    Provides three filters to adjust coloration: Lift, Gamma, and Gain. Each pass can have a positive,
    or inverted effect by clicking the appropriate button.
    Set the amount of the effect by setting the color swatch; white (RGB 1,1,1) has no effect.
@@ -439,15 +439,15 @@ This panel appears when a sound file is selected.
 
 Here you can specify the Sound Strip's file path and file name.
 
-:guilabel:`Pack`
+Pack
    Packs the sound file into the current .blend file.
-:guilabel:`Caching`
+Caching
    The sound file is decoded and loaded into RAM.
-:guilabel:`Volume`
+Volume
    Set the volume of the Sound file.
-:guilabel:`Attenuation/dB`
+Attenuation/dB
    Attenuation in decibels
-:guilabel:`Trim Duration Start/End`
+Trim Duration Start/End
    Offset the start and end of a sound strip.
 
 
@@ -456,10 +456,10 @@ Scene
 
 Specify the scene to be linked to the current scene strip.
 
-:guilabel:`Sequencer`
+Sequencer
    Process the render (and composited) result through the video sequence editor pipeline,
    if sequencer strips exist. This is the same function as in the render settings.
-:guilabel:`Camera Override`
+Camera Override
    Change the camera that will be used.
 
 
@@ -476,15 +476,15 @@ Scale View Horizontally, drag on the circles on the horizontal scroll bar.
 
 As usual, the View Menu controls what and how you view in the workspace.
 
-:guilabel:`Properties Panel`
+Properties Panel
    The Properties Panel contains options for the the way the preview is displayed.
-:guilabel:`View all Sequences` :kbd:`home`
+View all Sequences :kbd:`home`
    Zooms (out) the display to show all strips.
-:guilabel:`Fit preview in Window` :kbd:`home`
+Fit preview in Window :kbd:`home`
    Resizes preview so that it fits in the window.
-:guilabel:`Show Preview 1:1` :kbd:`pad1`
+Show Preview 1:1 :kbd:`pad1`
    Resizes preview to a 1:1 scale (actual size).
-:guilabel:`View Selected` :kbd:`pad.`
+View Selected :kbd:`pad.`
    Zooms in the display to fit only the selected strips
 
 Use this when working arranging a lot of strips and you want to use all of your screen to work.
@@ -497,15 +497,15 @@ Use this when working arranging a lot of strips and you want to use all of your 
    | Hotkey:   :kbd:`T`
 
 
-:guilabel:`Draw Frames`
+Draw Frames
    Diplays the frame number instead of the time, in the Frame Number Indicator.
-:guilabel:`Show Frame Number Indicator`
+Show Frame Number Indicator
    Toggles the units of measure across the bottom of the workspace between seconds or frames.
-:guilabel:`Safe Margin`
+Safe Margin
    Displays an overlay on the preview, marking where title safe region is.
-:guilabel:`Separate Colors`
+Separate Colors
    When using Luma Waveform view, this separates R,G, and B into separate graphs.
-:guilabel:`Transform Markers`
+Transform Markers
    Transform Markers as well as Strips.
 
 
@@ -538,7 +538,7 @@ Scene Preview
 When using a Scene Strip in the sequencer,
 these settings in the Properties Panel determine how they are shown in the preview window.
 
-:guilabel:`Open GL Preview`
+Open GL Preview
    If you have Open GL, enable this setting to use Open GL for the scene preview renders.
    The drop down menu allows you to change how the Scene is displayed (Bounding Box, Wireframe, Solid, Textured).
 
@@ -548,13 +548,13 @@ View Settings
 
 The View Settings section in the properties panel contains addition display options.
 
-:guilabel:`Show Overexposed`
+Show Overexposed
    Increasing this number to 1 or greater displays a striped overlay to the preview image, showing where it is overexposed. A higher number gives a higher threshold for marking overexposure.
 
-:guilabel:`Safe Margin`
+Safe Margin
    Displays an overlay on the preview, marking where title safe region is.
 
-:guilabel:`Proxy Render Size`
+Proxy Render Size
    Draws preview using full resolution or different proxy resolutions. Render resolution is determined in the render settings panel. Using a smaller preview size will increase speed.
 
 
@@ -576,23 +576,23 @@ Selecting Strips
 
 The Select Menu helps you select strips in different ways.
 
-:guilabel:`Strips to the Left`
+Strips to the Left
    Select all strips to the left of the currently selected strip.
-:guilabel:`Strips to the Right`
+Strips to the Right
    Select all strips to the right of the currently selected strip.
-:guilabel:`Select Surrounding Handles` :kbd:`alt-ctrl-Rmb`
+Select Surrounding Handles :kbd:`alt-ctrl-Rmb`
    Select both handles of the strip, plus the neighboring handles on the immediately adjoining strips. Select with this method to move a strip that is between to others without affecting the selected strip's length.
-:guilabel:`Left Handle` :kbd:`alt-Rmb`
+Left Handle :kbd:`alt-Rmb`
    Select the left handle of the currently selected strip.
-:guilabel:`Right Handle` :kbd:`ctrl-Rmb`
+Right Handle :kbd:`ctrl-Rmb`
    Select the right handle of the currently selected strip.
-:guilabel:`Linked`
+Linked
    Select all strips linked to the currently selected strip
-:guilabel:`Select All` :kbd:`A`
+Select All :kbd:`A`
    Selects all the strips loaded.
-:guilabel:`Select Inverse`
+Select Inverse
    Inverts the current selection.
-:guilabel:`Border Select` :kbd:`B`
+Border Select :kbd:`B`
    Begins the :guilabel:`Box` mode select process. Click and drag a rectangular lasso around a region of strips in your Sequence workspace. When you release the mouse button, the additional strips will be selected.
 
 

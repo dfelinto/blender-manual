@@ -18,14 +18,14 @@ Both :guilabel:`Bump Maps` and :guilabel:`Normal Maps` work by modifying the nor
 Although the terms :guilabel:`Normal Map` and :guilabel:`Bump Map` are often used
 synonymously, there are certain differences.
 
-**Bump maps**
+Bump maps
    These are textures that store an **intensity**, the relative height of pixels from the viewpoint of the camera.
    The pixels seem to be moved by the required distance in the direction of the face normals.
    (The "bump" consists only of a displacement, which takes place along the existing, and unchanged,
    normal-vector of the face.) You may either use greyscale pictures or the intensity values of a RGB-Texture
    (including images).
 
-**Normal maps**
+Normal maps
    These are images that store a **direction**, the direction of normals directly in the RGB values of an image.
    They are much more accurate, as rather than only simulating the pixel being away from the face along a line,
    they can simulate that pixel being moved at any direction, in an arbitrary way.

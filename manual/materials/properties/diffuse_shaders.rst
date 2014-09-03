@@ -24,7 +24,7 @@ All diffuse shaders have the following options:
    Select the base *diffuse color* of the material.
  **Intensity**
    The shader's brightness, or more accurately, the amount of incident light energy that is actually diffusely reflected towards the camera.
-**Ramp**
+Ramp
    Allows you to set a range of colors for the :guilabel:`Material`, and define how the range will vary over a surface. See :doc:`Color Ramps </materials/properties/ramps>` for details.
 
 
@@ -111,7 +111,7 @@ developed in the early 1990s, is a generalization of Lambert's law now widely us
 Options
 -------
 
-**Roughness**
+Roughness
    The roughness of the surface, and hence, the amount of diffuse scattering.
 
 
@@ -156,9 +156,9 @@ with clear boundaries between light and shadow and uniformly lit/shadowed region
 Options
 -------
 
-**Size**
+Size
    The size of the lit area
-**Smooth**
+Smooth
    The softness of the boundary between lit and shadowed areas
 
 
@@ -199,7 +199,7 @@ entitled *The Nature of Light and Color in the Open Air*.
 Options
 -------
 
-**Dark**
+Dark
    The darkness of the 'lit' areas (higher) or the darkness of the edges pointing away from the light source (lower).
 
 
@@ -245,9 +245,9 @@ was a French physicist who contributed significantly to the establishment of the
 Options
 -------
 
-**Fresnel**
+Fresnel
    Power of the Fresnel effect, 5.0 is max.
-**Factor**
+Factor
    Blending factor of the Fresnel factor to blend in, 5.0 is max.
 
 

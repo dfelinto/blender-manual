@@ -36,21 +36,21 @@ This modifier does the exact same function as the Ctrl+T triangulate in :guilabe
 Options
 =======
 
-:guilabel:`Quad Method`:
-   :guilabel:`Beauty`
+Quad Method:
+   Beauty
       Split the quads in nice triangles, slower method.
 
-   :guilabel:`Fixed`
+   Fixed
       Split the quads on the 1st and 3rd vertices.
 
-   :guilabel:`Fixed Alternate`
+   Fixed Alternate
       Split the quads on the 2nd and 4th vertices.
 
-   :guilabel:`Shortest Diagonal`
+   Shortest Diagonal
       Split the quads based on the distance between the vertices.
 
-:guilabel:`Ngon Method`:
-   :guilabel:`Beauty`
+Ngon Method:
+   Beauty
       Arrange the new triangles nicely, slower method.
-   :guilabel:`Scanfill`
+   Scanfill
       Split the ngons using a scanfill algorithm.

@@ -15,10 +15,10 @@ This is useful if an other action has to be done first or to time events.
 See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for common options.
 Special Options:
 
-**Delay**
+Delay
    The number of logic ticks the sensor waits before sending a positive pulse.
-**Duration**
+Duration
    The number of logic ticks the sensor waits before sending the negative pulse.
-**Repeat Button**
+Repeat Button
    Makes the sensor restart after the delay and duration time is up.
 

@@ -26,29 +26,29 @@ The Warp Modifier is a bit tricky at first, but it helps to understand how it wo
 Options
 =======
 
-:guilabel:`From:`
+From:
    Specify the origin object transformation of the warp.
-:guilabel:`To:`
+To:
    Specify the destination object transformation of the warp.
-:guilabel:`Preserve Volume`
+Preserve Volume
    Enables volume preservation when rotating one of the transforms.
-:guilabel:`Vertex Group`
+Vertex Group
    Limit the deformation to a specific vertex group.
 
-:guilabel:`Strength`
+Strength
    Sets how strong the effect is.
-:guilabel:`Radius`
+Radius
    Sets the distance from the transforms that can be warped by the transform handles.
-:guilabel:`Falloff Type`
+Falloff Type
    Sets the way the strength of the warp change as it goes from the center of the transform to the Radius value. See :doc:`Proportional Editing </3d_interaction/transform_control/proportional_edit>` for descriptions of the falloff types.
-:guilabel:`Texture`
+Texture
    Specify a texture the strength is offset by to create variations in the displacement.
-:guilabel:`Texture Coordinates`
+Texture Coordinates
    Set the way textures are applied to the mesh when using a textured warp.
 
-   :guilabel:`Object`
+   Object
       Specify an object to use when set to Object.
-   :guilabel:`UV Layer`
+   UV Layer
       Specify a UV layer when set to UV.
 
 

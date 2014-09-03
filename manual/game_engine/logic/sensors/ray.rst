@@ -18,19 +18,22 @@ See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for
 Special Options:
 It shares a lot of buttons and fields with :guilabel:`Radar` sensor.
 
-**Property**
+Property
    This field can be used to limit the sensor to look for only those objects with this property.
-Notes:
-1) Unless the Property field is set, the Ray sensor can detect objects "through" other objects
-(walls etc).
-2) Objects must have "Actor" enabled to be detected.
 
-**Axis**
-   This menu determines the direction of the ray. The ± signs is whether it is on the axis direction (+), or the opposite (-).
+.. note::
 
-**Range**
-     Determines the length of the ray. (Blender units).
+   #. Unless the Property field is set, the Ray sensor can detect objects "through" other objects (walls etc).
+   #. Objects must have "Actor" enabled to be detected.
+
+Axis
+   This menu determines the direction of the ray.
+   The ± signs is whether it is on the axis direction (+), or the opposite (-).
+
+Range
+   Determines the length of the ray. (Blender units).
 
 :kbd:`X-Ray Mode` **button**
-     Makes it x-ray, so that it sees through objects that don't have the property or material specified in the filter field.
+   Makes it x-ray, so that it sees through objects that don't
+   have the property or material specified in the filter field.
 

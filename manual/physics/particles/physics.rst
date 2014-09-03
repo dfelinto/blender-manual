@@ -50,22 +50,22 @@ then the following parameters give the particle an initial velocity in the direc
 Emitter Geometry
 ================
 
-:guilabel:`Normal`
+Normal
    The emitter's surface normals (i.e. let the surface normal give the particle a starting speed).
-:guilabel:`Tangent`
+Tangent
    Let the tangent speed give the particle a starting speed.
-:guilabel:`Rot`
+Rot
    Rotates the surface tangent.
 
 
 Emitter Object
 ==============
 
-:guilabel:`Align X,Y,Z`
+Align X,Y,Z
    Give an initial velocity in the X, Y, and Z axes.
-:guilabel:`Object`
+Object
    The emitter objects movement (i.e. let the object give the particle a starting speed).
-:guilabel:`Random`
+Random
    Gives the starting speed a random variation. You can use a texture to only change the value, see Controlling Emission, Interaction and Time).
 
 
@@ -81,47 +81,47 @@ These parameters specify how the individual particles are rotated during their t
 visualize the rotation of a particle you should choose visualization type Axis in the
 Visualization panel and increase the Draw Size.
 
-:guilabel:`Initial Rotation Mode`
+Initial Rotation Mode
    Sets the initial rotation of the particle by aligning the x-axis in the direction of:
 
-   :guilabel:`None`
+   None
       the global x-axis.
-   :guilabel:`Normal`
+   Normal
       Orient to the emitter's surface normal, the objects Y axis points outwards.
-   :guilabel:`Normal-Tangent`
+   Normal-Tangent
       As with normal, orient the Y axis to the surface normal.
       Also orient the X axis to the tangent for control over the objects rotation about the normal.
       requires UV coordinates, the UV rotation effects the objects orientation, currently uses the active UV layer.
       This allow deformation without the objects rotating in relation to their surface.
-   :guilabel:`Velocity`
+   Velocity
       the particle's initial velocity.
-   :guilabel:`Global X/Global Y/Global Z`
+   Global X/Global Y/Global Z
       one of the global axes
-   :guilabel:`Object X/Object Y/Object Z`
+   Object X/Object Y/Object Z
       one of the emitter object axes.
 
-   :guilabel:`Random`
+   Random
       Randomizes rotation.
 
-:guilabel:`Dynamic`
+Dynamic
    If enabled, only initializes particles to the wanted rotation and angular velocity and let's physics handle the rest.
    Particles then change their angular velocity if they collide with other objects
    (like in the real world due to friction between the colliding surfaces).
    Otherwise the angular velocity is predetermined at all times (i.e. set rotation to dynamic/constant).
 
-:guilabel:`Phase`
+Phase
    Initial rotation phase
-:guilabel:`Random`
+Random
    Rand allows a random variation of the Phase.
 
-:guilabel:`Angular Velocity`
+Angular Velocity
    The magnitude of angular velocity, the dropdown specifies the axis of angular velocity to be
 
-   :guilabel:`None`
+   None
       a zero vector (no rotation).
-   :guilabel:`Spin`
+   Spin
       the particles velocity vector.
-   :guilabel:`Random`
+   Random
       a random vector.
 
 If you use a Curve Guide and want the particles to follow the curve,
@@ -132,14 +132,14 @@ don't turn on Dynamic). Curve Follow does not work for particles.
 Common Physics Settings
 ***********************
 
-:guilabel:`Size`
+Size
    Sets the size of the particles.
-:guilabel:`Random Size`
+Random Size
    Give the particles a random size variation.
 
-:guilabel:`Mass`
+Mass
    Specify the mass of the particles.
-:guilabel:`Multiply mass with particle size`
+Multiply mass with particle size
    Causes larger particles to have larger masses.
 
 
@@ -163,11 +163,11 @@ Field Weights
 
 The Field Weight Panel allows you to control how much influence each type of external force field, or effector, has on the particle system. Force fields are external forces that give dynamic systems motion. The force fields types are detailed on the :doc:`Force Field Page </physics/force_fields>`.
 
-:guilabel:`Effector Group`
+Effector Group
    Limit effectors to a specified group. Only effectors in this group will have an effect on the current system.
-:guilabel:`Gravity`
+Gravity
    Control how much the Global Gravity has an effect on the system.
-:guilabel:`All`
+All
    Scale all of the effector weights.
 
 
@@ -177,9 +177,9 @@ Force Fields
 The Force Field Settings Panel allows you to make each individual act as a force field,
 allowing them to affect other dynamic systems, or even, each other.
 
-:guilabel:`Self Effect`
+Self Effect
    Causes the particle force fields to have an effect on other particles within the same system.
-:guilabel:`Amount`
+Amount
    Set how many of the particles act as force fields. 0 means all of them are effectors.
 
 You can give particle systems up to 2 force fields. By default they do not have any. Choose an effector type from the dropdowns to enable them. Settings are described on the :doc:`Force Field Page </physics/force_fields>`.

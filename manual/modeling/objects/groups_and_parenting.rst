@@ -752,13 +752,13 @@ You can *remove* a parent-child relationship via :kbd:`alt-P`
 
 The menu contains:
 
-:guilabel:`Clear Parent`
+Clear Parent
    If the parent in the group is selected nothing is done. If a child or children are selected they are disassociated from the parent, or freed, and they return to their *original* location, rotation, and size.
 
-:guilabel:`Clear and Keep Transformation`
+Clear and Keep Transformation
    Frees the children from the parent, and *keeps* the location, rotation, and size given to them by the parent.
 
-:guilabel:`Clear Parent Inverse`
+Clear Parent Inverse
    Places the children with respect to the parent as if they were placed in the Global reference.
    This effectively clears the parent's transformation from the children. For example,
    if the parent is moved 10 units along the X axis and :guilabel:`Clear Parent Inverse` is invoked,
@@ -824,11 +824,11 @@ Options
    Suzanne dissected neatly
 
 
-:guilabel:`Selected`
+Selected
    This option separates the selection to a new object.
-:guilabel:`All Loose Parts`
+All Loose Parts
    Separates the mesh in its unconnected parts.
-:guilabel:`By Material`
+By Material
    Creates separate mesh objects for each material.
 
 

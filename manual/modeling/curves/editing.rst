@@ -25,11 +25,11 @@ Display Options
 When in Edit mode, the Properties Shelf (:kbd:`N`) contains options in the
 :guilabel:`Curve Display` panel for how curves are displayed in the 3D viewport.
 
-:guilabel:`Handles`
+Handles
    Toggles the display of Bezier handles while in edit mode. This does not affect the appearance of the curve itself.
-:guilabel:`Normals`
+Normals
    Toggles the display of Curve Normals.
-:guilabel:`Normal Size`
+Normal Size
    Sets the display scale of curve normals.
 
 
@@ -39,13 +39,13 @@ Hiding Elements
 When in :guilabel:`Edit` mode, you can hide and reveal elements from the display.
 This can be useful in complex models with many elements on the Screen.
 
-:guilabel:`Hide Selected elements`
+Hide Selected elements
    Use :kbd:`H`, or the :menuselection:`Curve --> Show/Hide --> Hide Selected` menu option from the 3D window header.
 
-:guilabel:`Show Hidden elements`
+Show Hidden elements
    Use :kbd:`alt-H`, or the :menuselection:`Curve --> Show/Hide --> Show Hidden` menu option from the 3D window header.
 
-:guilabel:`Hide Unselected elements`
+Hide Unselected elements
    Use :kbd:`shift-H`, or the :menuselection:`Curve --> Show/Hide --> Hide Unselected` menu option from the 3D window header.
 
 
@@ -260,14 +260,14 @@ Deleting Elements
 The :guilabel:`Erase` pop-up menu of curves offers you three options:
 
 
-:guilabel:`Selected`
+Selected
    This will delete the selected control points, *without* breaking the curve (i.e. the adjacent points will be directly linked, joined, once the intermediary ones are deleted). Remember that NURBS order cannot be higher than its number of control points, so it might decrease when you delete some control point. Of course, when only one point remains, there is no more visible curve, and when all points are deleted, the curve itself is deleted.
 
-:guilabel:`Segment`
+Segment
    This option is somewhat the opposite to the preceding one, as it will cut the curve, without removing any control points, by erasing one selected segment.
    This option always removes *only one segment* (the last "selected" one), even when several are in the selection. So to delete all segments in your selection, you'll have to repetitively use the same erase option...
 
-:guilabel:`All`
+All
    As with meshes, this deletes everything in the object!
 
 
@@ -436,6 +436,6 @@ Set Goal Weight
    | Menu:     :menuselection:`W --> Set Goal Weight`
 
 
-:guilabel:`Set Goal Weight`
+Set Goal Weight
    This sets the "goal weight" of selected control points, which is used when a curve has Soft Body physics, forcing the curve to "stick" to their original positions, based on the weight.
 

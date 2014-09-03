@@ -45,37 +45,37 @@ The options for strand shading are in the :guilabel:`Strands` section of the
 :guilabel:`Material` context.
 
 
-:guilabel:`Root`
+Root
    Width of the hair at the root.
 
-:guilabel:`Tip`
+Tip
    Width of the hair at the tip.
 
-   :guilabel:`Minimum`
+   Minimum
       This is the minimum thickness (in pixels) of the strands. Strands below that size are not rendered smaller, but are faded to alpha (well, the fading works only for strand primitives). This gives a much better rendering result for thin hair.
 
-:guilabel:`Blender Units`
+Blender Units
    Normally strands are quite thin; the thickness is given in screenpixels. If you use Blender units (BU) you may set the root value up to 2 BU, and the tip value up to 1 BU. You have to consider the overall object size, because the smallest possible size is 0.001 BU. So if you use 1 BU for 1 meter the smallest possible size would be 1 mm (too thick for thin hair).
 
-:guilabel:`Use Tangent Shading`
+Use Tangent Shading
    Calculates the light as if the strands were very thin and round. This makes the hair appear brighter and shinier. Disabling the "Tangent Shading" option will still render nicely, but resembles more solid strands, as though made of metal or wood.
 
-:guilabel:`Shape`
+Shape
    This slider allows you to control the interpolation. Default (0.0) is a linear interpolation between :guilabel:`Root` and :guilabel:`Tip`. A negative value will make the strand narrower (spiky), a positive value will make it fatter.
 
 
 .. figure:: /images/Blender3D_StrandShapes.jpg
 
-:guilabel:`Width Fade`
+Width Fade
    To fade out along the width of the strand. This works only for Strand Primitives. 0.0 is no fading at all, 1.0 linear fading out.
 
-:guilabel:`UV Layer`
+UV Layer
    You can texture polygon strands with a UV-Texture. Fill in the name of the UV-Set (not the texture) here. You also have to load the texture in the :guilabel:`Shading` context, :guilabel:`Texture` and :guilabel:`Material` sub-contexts (:guilabel:`Mapping`: :guilabel:`UV`; you may use every :guilabel:`Influence` setting you like - especially the alpha value; see *Image 3*).
 
-:guilabel:`Surface Diffuse`
+Surface Diffuse
    Computes the strand normal, taking the normal at the surface into account. This eases the coloring and lighting of hair a lot, especially for Strand Primitives. Essentially hair reacts similar to ordinary surfaces and don't show exaggerated strong and large specular highlights.
 
-   :guilabel:`Distance`
+   Distance
       The distance in Blender units over which to blend in the normal at the surface (if you want to use :guilabel:`Surface Diffuse` only for Grass/Fur at greater distances).
 
 
@@ -117,19 +117,19 @@ and have activated :guilabel:`Interpolated Children`,
 the :guilabel:`Child Simplification` option appears.
 The strand render has options to remove child strands as the object's faces become smaller.
 
-:guilabel:`Reference Size`
+Reference Size
    This is the approximate size of the object on screen (in pixels), after which simplification starts.
 
-:guilabel:`Rate`
+Rate
    How fast strands are removed.
 
-:guilabel:`Transition`
+Transition
    The transition period for fading out strands as they are removed.
 
-:guilabel:`Viewport`
+Viewport
    This removes strands on faces that are outside of the viewport.
 
-   :guilabel:`Rate`
+   Rate
       Controls how fast these are removed.
 
 

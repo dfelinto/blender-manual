@@ -97,30 +97,30 @@ the more stiff it is and the less it stretches and is affected by air.
 Cloth Panel
 ***********
 
-:guilabel:`Presets`
+Presets
    Contains a number of preset cloth examples, and allows you to add your own.
 
-:guilabel:`Quality`
+Quality
    Set the number of simulation steps per frame. Higher values result in better quality, but is slower.
 
 
 Material
 ========
 
-:guilabel:`Mass`
+Mass
    The mass of the cloth material.
-:guilabel:`Structural`
+Structural
    Overall stiffness of the cloth.
-:guilabel:`Bending`
+Bending
    Wrinkle coefficient. Higher creates more large folds.
 
 
 Damping
 =======
 
-:guilabel:`Spring`
+Spring
    Damping of cloth velocity. Higher = more smooth, less jiggling.
-:guilabel:`Air`
+Air
    Air normally has some thickness which slows falling things down.
 
 
@@ -140,7 +140,7 @@ Once you have a vertex group set, things are pretty straightforward; all you hav
 press the :guilabel:`Pinning of cloth` button in the :guilabel:`Cloth` panel and select which
 vertex group you want to use, and the stiffness you want it at.
 
-:guilabel:`Stiffness`
+Stiffness
    Target position stiffness. You can leave the stiffness as it is; the default value of 1 is fine.
 
 
@@ -193,18 +193,18 @@ Collision Settings
 Now you must tell the :guilabel:`Cloth` object that you want it to participate in collisions.
 For the cloth object, locate the :guilabel:`Cloth Collision` panel, shown to the right:
 
-:guilabel:`Enable Collisions`
+Enable Collisions
    :kbd:`Lmb` click this to tell the cloth object that it needs to move out of the way.
 
-:guilabel:`Quality`
+Quality
    A general setting for how fine and good a simulation you wish. Higher numbers take more time but ensure less tears and penetrations through the cloth.
-:guilabel:`Distance`
+Distance
    As another object gets this close to it (in Blender Units), the simulation will start to push the cloth out of the way.
-:guilabel:`Repel`
+Repel
    Repulsion force to apply when cloth is close to colliding.
-:guilabel:`Repel Distance`
+Repel Distance
    Maximum distance to apply repulsion force. Must be greater than minimum distance.
-:guilabel:`Friction`
+Friction
    A coefficient for how slippery the cloth is when it collides with the mesh object. For example, silk has a lower coefficient of friction than cotton.
 
 
@@ -213,13 +213,13 @@ Self-collisions
 
 Real cloth cannot permeate itself, so you normally want the cloth to self-collide.
 
-:guilabel:`Enable Self Collisions`
+Enable Self Collisions
    Click this to tell the cloth object that it should not penetrate itself. This adds to simulation compute time, but provides more realistic results. A flag, viewed from a distance does not need this enabled, but a close-up of a cape or blouse on a character should have this enabled.
 
-:guilabel:`Quality`
+Quality
    For higher self-collision quality just increase the :guilabel:`Quality` and more self collision layers can be solved. Just keep in mind that you need to have at least the same :guilabel:`Collision Quality` value as the :guilabel:`Quality` value.
 
-:guilabel:`Distance`
+Distance
    If you encounter problems, you could also change the :guilabel:`Min Distance` value for the self-collisions. The best value is 0.75; for fast things you better take 1.0. The value 0.5 is quite risky (most likely many penetrations) but also gives some speedup.
 
 Regression blend file: `Cloth selfcollisions <http://wiki.blender.org/index.php/Media:Cloth-regression-selfcollisions.blend>`__.

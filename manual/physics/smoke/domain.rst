@@ -47,29 +47,29 @@ we will return to the new settings that popped up later on.
 Generic options
 ===============
 
-:guilabel:`Resolution`
+Resolution
    How detailed the smoke is. A resolution of 32 will bake in a few seconds, while a resolution of 100 can take up to a half hour on most PC's.
-:guilabel:`Time Scale`
+Time Scale
    Affects how fast the simulation plays.
 
-:guilabel:`Border Collisions`
-   :guilabel:`Vertically Open`
+Border Collisions
+   Vertically Open
       Smoke disappears when it collides with the top and bottom of the domain.
-   :guilabel:`Open`
+   Open
       Smoke disappears when it crosses the boundaries of the domain object.
-   :guilabel:`Collide All`
+   Collide All
       Domain Boundaries are treated as collision objects, the smoke will collide and stay inside.
 
-:guilabel:`Temperature and Density`
+Temperature and Density
    How much Density and Temperature affect smoke motion. Higher Values make faster-rising smoke.
-:guilabel:`Vorticity`
+Vorticity
    Affects how turbulence/rotation, or swirly the smoke is.
 
-:guilabel:`Dissolve`
+Dissolve
    Allow the smoke to dissipate over time.
-:guilabel:`Time`
+Time
    The speed of the smoke's dissipation.
-:guilabel:`Slow`
+Slow
    Use 1/Time instead of Time, making the smoke dissolve slower.
 
 
@@ -90,19 +90,19 @@ Various methods for this are available, including the default: Wavelet, which is
 implementation of '[http://graphics.ethz.ch/research/physics/wavelet turb.php|Wavelet
 Turbulence for Fluid Simulation]'
 
-:guilabel:`Resolution/Divisions`
+Resolution/Divisions
    Enhance the resolution of smoke by this factor using noise.
-:guilabel:`Smooth Emitter`
+Smooth Emitter
    Smoothens emitted smoke to avoid blockiness.
-:guilabel:`Show High Resolution`
+Show High Resolution
    Show high resolution using amplification.
 
-:guilabel:`Noise Method`
+Noise Method
    :guilabel:`Wavelet`
 
    :guilabel:`FFT`
 
-:guilabel:`Strength`
+Strength
    Strength of noise.
 
 
@@ -111,9 +111,9 @@ Smoke Field Weights options
 
 Determines how much various forces and force fields affect the smoke.
 
-:guilabel:`Gravity`
+Gravity
    How much the smoke is affected by Gravity.
-:guilabel:`All`
+All
    Changes the overall influence of all force fields.
 
 The other settings determine how much various Force Fields affect the smoke.

@@ -5,11 +5,11 @@ Introduction
 Animation is making an object move or change shape over time.
 Objects can be animated in many ways:
 
-**Moving as a whole object**
+Moving as a whole object
    Changing their position, orientation or size in time;
-**Deforming them**
+Deforming them
    animating their vertices or control points;
-**Character Animation via Armature**
+Character Animation via Armature
    animated to deform by the movement of bones inside the mesh, a very complex and flexible interaction that makes character-shaped objects appear to walk and jump.
 
 In this chapter we will cover the first two,
@@ -17,11 +17,11 @@ but the basics given here are actually vital for understanding the following cha
 
 Three methods are normally used in animation software to make a 3D object move:
 
-**Key frames**
+Key frames
    Complete positions are saved for units of time (frames). An animation is created by interpolating an object fluidly through the frames. The advantage of this method is that it allows you to work with clearly visualized units. The animator can work from one position to the next and can change previously created positions, or move them in time.
-**Animation Curves**
+Animation Curves
    Curves are interpolated from keyframes, and can be drawn for each XYZ component for location, rotation, and size, as well as any other attribute in Blender. These form the graphs for the movement, with time set out horizontally and the value set out vertically. The advantage of this method is that it gives you precise control over the results of the movement.
-**Path**
+Path
    A curve is drawn in 3D space, and the Object is constrained to follow it according to a given time function of the position along the path.
 
 The first two systems in Blender are completely integrated in a single one, the :doc:`F-Curve system </animation/fcurves>`.

@@ -22,29 +22,29 @@ Options
    Inverse Kinematics panel
 
 
-:guilabel:`Target`
+Target
    Must be an armature
-:guilabel:`Bone`
+Bone
    A bone in the armature
-:guilabel:`Pole Target`
+Pole Target
    Object for pole rotation
-:guilabel:`Iterations`
+Iterations
    Maximum number of solving iterations
-:guilabel:`Chain Length`
+Chain Length
    How many bones are included in the IK effect. Set to 0 to include all bones
 
-   :guilabel:`Use Tail`
+   Use Tail
       Include bone's tail as last element in chain
-   :guilabel:`Stretch`
+   Stretch
       Enable IK stretching
-:guilabel:`Weight`:
-   :guilabel:`Position`
+Weight:
+   Position
       For Tree-IK: Weight of position control for this target
-   :guilabel:`Rotation`
+   Rotation
       Chain follow rotation of target
-:guilabel:`Target`
+Target
    Disable for targetless IK
-:guilabel:`Rotation`
+Rotation
    Chain follows rotation of target
 
 

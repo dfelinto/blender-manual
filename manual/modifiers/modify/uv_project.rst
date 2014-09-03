@@ -28,25 +28,25 @@ Options
 
 .. figure:: /images/Uvproject_ui.jpg
 
-:guilabel:`UV layer`
+UV layer
    Which UV layer to modify. Defaults to the active rendering layer.
 
-:guilabel:`Image`
+Image
    The image associated with this modifier. Not required; you can just project a UV for use elsewhere. *Override Image*, below, defines how the image is used.
 
-:guilabel:`Override Image`
+Override Image
    - When true, the Face Texture of all vertices on the mesh is replaced with the Image. This will cause the image to repeat, which is usually undesirable.
    - When false, the modifier is limited to faces with the Image as their Face Texture.
 
-:guilabel:`Projectors`
+Projectors
    Up to ten projector objects are supported. Each face will choose the closest and aligned projector with its surface normal.
    Projections emit from the -Z axis (i.e. straight down a camera or lamp).
    If the projector is a camera, the projection will adhere to its perspective/orthographic setting.
 
-:guilabel:`Objects`
+Objects
    Specify the projector Object
 
-:guilabel:`Aspect X/Y and Scale X/Y`
+Aspect X/Y and Scale X/Y
    These allow simple manipulation of the image. Only apply when a camera is used as projector Object.
 
 

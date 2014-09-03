@@ -16,10 +16,10 @@ They are used to deform the object vertices into a new shape.
 
 There are two types of Shape Keys.
 
-:guilabel:`Relative`
+Relative
    Which are relative to the Basis or selected shape key.
    They are mainly used as, for limb joints, muscles, or Facial Animation.
-:guilabel:`Absolute`
+Absolute
    Which are relative to the previous and next shape key.
    They are mainly used to deform the objects into different shapes over time.
 
@@ -43,22 +43,22 @@ Shape Keys Panel
    Shape Keys. Options.
 
 
-:guilabel:`Relative`
+Relative
    Set the shape keys to Relative or Absolute.
 
-:guilabel:`Name`
+Name
    Name of the Shape Key.
 
-:guilabel:`Value`
+Value
    Current Value of the Shape Key (0.0 to 1.0).
 
-:guilabel:`Mute`
+Mute
    This visually disables the shape key in the 3D view.
 
-:guilabel:`Add`
+Add
    Add a new shape key to the list.
 
-:guilabel:`Remove`
+Remove
    Remove a shape key from the list.
 
 
@@ -67,40 +67,40 @@ Shape Keys Panel
    Shape Keys Specials.
 
 
-:guilabel:`Specials`
+Specials
    A menu with some operators.
 
-   :guilabel:`Transfer Shape Key`
+   Transfer Shape Key
       Transfer the active 'Shape Key' from a different object.
       Select two objects, the active Shape Key is copied to the active object.
 
-   :guilabel:`Join as Shapes`
+   Join as Shapes
       Transfer the 'Current Shape' from a different object.
       Select two objects, the Shape is copied to the active object.
 
-   :guilabel:`Mirror Shape Key`
+   Mirror Shape Key
       If your mesh is nice and symmetrical, in :guilabel:`Object` Mode, you can mirror the shape keys on the X axis.
       This wont work unless the mesh vertices are perfectly symmetrical.
       Use the :menuselection:`Mesh --> Symmetrize` function in :guilabel:`Edit` Mode.
 
-   :guilabel:`Mirror Shape Key (Topology)`
+   Mirror Shape Key (Topology)
       This is the same as :guilabel:`Mirror Shape Key` though it detects the mirrored vertices based on the topology of the mesh.
       The mesh vertices dont have to be perfectly symmetrical for this one to work.
 
-   :guilabel:`New Shape From Mix`
+   New Shape From Mix
       Add a new shape key with the current deformed shape of the object.
 
-   :guilabel:`Delete All Shapes`
+   Delete All Shapes
       Delete all shape keys.
 
-:guilabel:`Move`
+Move
    Move shape key up or down in the list.
 
-:guilabel:`Show Active`
+Show Active
    Show the shape of the active shape key in the 3D View.
    *Show Active* is enabled while the object is in *Edit Mode*, unless the setting below is enabled.
 
-:guilabel:`Edit Mode`
+Edit Mode
    Modify the shape key settings while the object is in *Edit mode*.
 
 
@@ -116,22 +116,22 @@ By default all relative shape keys deform from the first shape key called the Ba
    Relative Shape Keys. Options.
 
 
-:guilabel:`Clear Weights`
+Clear Weights
    Set all values to 0.
 
-:guilabel:`Name`
+Name
    Name of the active shape key.
 
-:guilabel:`Value`
+Value
    Value of the active shape key.
 
-:guilabel:`Range`
+Range
    Min and Max range of the active shape key value.
 
-:guilabel:`Vertex Group`
+Vertex Group
    Limit the active shape key deformation to a vertex group.
 
-:guilabel:`Relative`
+Relative
    Select the shape key to deform from.
 
 
@@ -147,7 +147,7 @@ They are mainly used to deform the object into different shapes over time.
    Absolute Shape Keys. Options.
 
 
-:guilabel:`Reset Timing`
+Reset Timing
    Reset the timing for absolute shape keys.
    For example, if you have the shape keys, Basis, Key_1, Key_2, in that order.
 
@@ -160,10 +160,10 @@ They are mainly used to deform the object into different shapes over time.
       Key_1 20.0
       Key_2 30.0
 
-:guilabel:`Name`
+Name
    Name of the active shape key.
 
-:guilabel:`Interpolation`
+Interpolation
    This controls the interpolation between shape keys.
 
 
@@ -172,7 +172,7 @@ They are mainly used to deform the object into different shapes over time.
    Different types of interpolation.
 
 
-:guilabel:`Evaluation Time`
+Evaluation Time
    This is used to control the shape key influence.
 
    For example, if you have the shape keys, Basis, Key_1, Key_2, in that order,and you reset timing.
@@ -190,7 +190,7 @@ They are mainly used to deform the object into different shapes over time.
    Animation with Evaluation Time.
 
 
-:guilabel:`Slurph`
+Slurph
    Quote 2.66 "Create a delay (in frames) in applying key positions, first vertex goes first."
    As far as i can tell this doesnt anything in 2.66. Im not sure what it used to do in 2.4x.
    :doc:`2.4 Slurph </animation/techs/shape/shape_keys/editing#editing_shape_properties>`

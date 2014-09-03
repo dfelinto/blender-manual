@@ -65,7 +65,7 @@ whatever the current selected object is.
 Channel Menu
 ============
 
-:guilabel:`Delete` (:kbd:`X`)
+Delete (:kbd:`X`)
    Deletes the whole channel from the current action
    (i.e. unlink the underlying FCurve datablock from this action datablock).
 
@@ -78,20 +78,20 @@ Channel Menu
 :menuselection:`Settings --> Toogle/Enable/Disable a Setting` (:kbd:`shift-W` / :kbd:`ctrl-shift-W` / :kbd:`alt-W`)
    Enable/disable a channel's setting (selected in the menu that pops-up) - currently, "lock" and/or "mute" only.
 
-:guilabel:`Toggle Channel Editability` :kbd:`Tab`
+Toggle Channel Editability :kbd:`Tab`
    Locks or unlocks a channel for editing
 
-:guilabel:`Extrapolation Mode`
+Extrapolation Mode
    Change the extrapolation between selected keyframes. More options are available in the Graph Editor.
 
-:guilabel:`Expand Channels`, :guilabel:`Collapse Channels` (:kbd:`pad-+`, :kbd:`pad--`)
+Expand Channels, Collapse Channels (:kbd:`pad-+`, :kbd:`pad--`)
    Expands or collapses selected channels.
 
-:guilabel:`Move...`
+Move...
    This allows you to move top-level channels up/down (:kbd:`shift-pgup` / :kbd:`shift-pgdown`),
    or directly to the top/bottom (:kbd:`ctrl-shift-pgup` / :kbd:`ctrl-shift-pgdown`).
 
-:guilabel:`Revive Disabled F-Curves`
+Revive Disabled F-Curves
    Clears 'disabled' tag from all F-Curves to get broken F-Curves working again
 
 

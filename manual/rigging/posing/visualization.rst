@@ -116,13 +116,13 @@ To assign a selected bone to a given bone group you can do one of the following:
 In the 3D views, using the :menuselection:`Pose --> Bone Groups` menu entries,
 and/or the :guilabel:`Bone Groups` pop-up menu (:kbd:`ctrl-G`), you can:
 
-:guilabel:`Assign to New Group`
+Assign to New Group
    Assigns selected bones to a new bone group
-:guilabel:`Assign to Group`
+Assign to Group
    Assigns selected bones to the selected Bone Groups
-:guilabel:`Remove Selected from Bone Groups`
+Remove Selected from Bone Groups
    Removes selected bones from all bone groups
-:guilabel:`Remove Bone Group`
+Remove Bone Group
    Removes the active bone group
 
 
@@ -190,27 +190,27 @@ The ghosts settings are found in the :guilabel:`Visualisations` panel
 (:guilabel:`Editing` context, :kbd:`F9`), only available in :guilabel:`Pose` mode.
 You have three different types of ghosts, sharing more or less the same options:
 
-:guilabel:`Around Current Frame`
+Around Current Frame
    This will display a given number of ghosts before and after the current frame. The ghosts are shaded from opaque at the current frame, to transparent at the most distant frames. It has three options:
 
-   :guilabel:`Range`
+   Range
       This numeric field specifies how many ghosts you'll have on both "sides" (i.e. a value of **5** will give you ten ghosts, five before the current frame, and five after).
-   :guilabel:`Step`
+   Step
       This numeric field specifies whether you have a ghost for every frame (the default **1** value), or one each two frames, each three frames, etc.
-   :guilabel:`Selected Only`
+   Selected Only
       When enabled, you will only see the ghosts of selected bones (otherwise, every bone in the armatures has ghosts...)
 
-:guilabel:`In Range`
+In Range
    This will display the ghosts of the armature's bones inside a given range of frames. The ghosts are shaded from transparent for the first frame, to opaque at the last frame. It has four options:
 
-   :guilabel:`Start`
+   Start
       This numeric field specifies the starting frame of the range (exclusive). Note that unfortunately, it cannot take a null or negative value - which means you can only see ghosts starting from frame **2** included...
-   :guilabel:`End`
+   End
       This numeric field specifies the ending frame of the range, and cannot take a value below :guilabel:`GSta` one.
-   :guilabel:`Step`
+   Step
       Same as above.
 
-:guilabel:`On Keyframes`
+On Keyframes
    This is very similar to the :guilabel:`In Range` option, but there are ghosts only for keyframes in the armature animation (i.e. frames at which you keyed one or more of the bones). So it has the same options as above, except for the :guilabel:`GStep` one (as only keyframes generate ghosts).
    Oddly, the shading of ghosts is reversed compared to :guilabel:`In Range` - from opaque for the first keyframe, to transparent for the last keyframe.
 
@@ -275,35 +275,35 @@ only useful when the :guilabel:`Around Current Frame` option is enabled).
 
 And now, the paths options:
 
-:guilabel:`Around Frame`
+Around Frame
    Around Frame, Display Paths of poses within a fixed number of frames around the current frame. When you enable this button, you get paths for a given number of frames before and after the current one (again, as with ghosts).;\ :guilabel:`In Range`
    In Range, Display Paths of poses within specified range.
 
-:guilabel:`Display Range`
-   :guilabel:`Before/After`
+Display Range
+   Before/After
       Number of frames to show before and after the current frame (only for 'Around Current Frame' Onion-skinning method)
-   :guilabel:`Start/End`
+   Start/End
       Starting and Ending frame of range of paths to display/calculate (not for 'Around Current Frame' Onion-skinning method)
-   :guilabel:`Step`
+   Step
       This is the same as the :guilabel:`GStep` for ghosts - it allows you to only display on the path one frame for each *n* ones. Mostly useful when you enable the frame number display (see below), to avoid cluttering the 3D views.
 
-:guilabel:`Frame Numbers`
+Frame Numbers
    When enabled, a small number appears next to each frame dot on the path, which is of course the number of the corresponding frame.
-:guilabel:`Keyframes`
+Keyframes
    When enabled, big yellow square dots are drawn on motion paths, materializing the keyframes of their bones (i.e. only the paths of keyed bones at a given frame get a yellow dot at this frame).
 
-:guilabel:`Keyframe Nums`
+Keyframe Nums
    When enabled, you'll see the numbers of the displayed keyframes - so this option is obviously only valid when :guilabel:`Show Keys` is enabled.
 
-:guilabel:`+ Non-Grouped Keyframes`
++ Non-Grouped Keyframes
    For bone motion paths, search whole Action for keyframes instead of in group with matching name only (is slower)
 
-:guilabel:`Calculate`
-   :guilabel:`Start` / :guilabel:`End`
+Calculate
+   Start / End
       These are the start/end frames of the range in which motion paths are drawn. *You have to* :guilabel:`Calculate Paths` *again when you modify this setting*, to update the paths in the 3D views.
       Note that unlike with ghosts, the start frame is *inclusive* (i.e. if you set :guilabel:`PSta` to **1**, you'll really see the frame **1** as starting point of the paths...).
 
-   :guilabel:`Bake Location`
+   Bake Location
       By default, you get the tips' paths. By changing this setting to Tails, you'll get the paths of the bone's roots (remember that in Blender UI, bones' roots are called "heads"...). *You have to* :guilabel:`Calculate Paths` *again when you modify this setting*, to update the paths in the 3D views.
 
 

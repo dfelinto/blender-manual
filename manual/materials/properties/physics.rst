@@ -20,22 +20,22 @@ material are rendered in real time by the Blender Game Engine.
 
 Physics settings are visible when using the game engine for rendering. Game physics usage is described :doc:`Here </game_engine/physics>`
 
-**Friction**
+Friction
    Coulomb friction coefficient when inside the physics distance area.
 
-**Elasticity**
+Elasticity
    Elasticity of collisions.
 
-**Force Field**
+Force Field
    Controls force field settings.
 
-   **Force**
+   Force
       Upward spring force when inside the physics distance area.
-   **Distance**
+   Distance
       Distance of physics area.
-   **Damping**
+   Damping
       Damping of the spring force when inside the physics distance area.
-   **Align to Normal**
+   Align to Normal
       Align dynamic game objects along the surface normal when inside the physics distance area.
 
 

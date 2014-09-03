@@ -141,16 +141,16 @@ Gimbal's behavior highly depends on the :doc:`Rotation Mode </3d_interaction/tra
 that you are in (accessible in the :kbd:`n` Properties Panel in the :guilabel:`3D View`,
 in top section, :guilabel:`Transform`).
 
-:guilabel:`XYZ Euler`
+XYZ Euler
    the default rotation mode, the object Manipulator's z-axis will always point to the global z-axis,
    where the other two will remain perpendicular to each other.
    In the other :guilabel:`Euler` rotation modes,
    the last axis applied will be the one for which the Manipulator stays fixed.
    So, for :guilabel:`YZX Euler`, the x-axis of the Manipulator will be the same as the global x-axis.
-:guilabel:`Axis Angle`
+Axis Angle
    The x, y, and z coordinates define a point relative to the object origin through which an imaginary "skewer" passes.
    The w value is the rotation of this skewer. Here, the Manipulator's z-axis stays aligned with this skewer.
-:guilabel:`Quaternion`
+Quaternion
    Though Quaternion rotation is very different from the Euler and Axis Angle rotation modes,
    the Manipulator behaves the same as in :guilabel:`Local` mode.
 

@@ -77,16 +77,16 @@ While you are adding a new scene, you have these options:
    Add scene popup menu.
 
 
-:guilabel:`Empty`
+Empty
    Create a completely empty scene.
 
-:guilabel:`Link Objects`
+Link Objects
    All objects are linked to the new scene. The layer and selection flags of the objects can be configured differently for each scene.
 
-:guilabel:`Link ObData`
+Link ObData
    Duplicates objects only. ObData linked to the objects, e.g. mesh and curve, are not duplicated.
 
-:guilabel:`Full Copy`
+Full Copy
    Everything is duplicated.
 
 Usually, for your first scene, you make a full copy of the default. Alternatively,

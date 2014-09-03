@@ -89,7 +89,7 @@ OK now let us see some important ground rules:
 
 Now, let us see the settings of this conversion method:
 
-:guilabel:`No`, :guilabel:`View`, :guilabel:`Joint` buttons
+No, View, Joint buttons
    These three toggle buttons (mutually exclusive) control how the roll angle of newly created bones is affected:
 
    - :guilabel:`No`: Do not alter the bones roll (i.e. the new bones' rolls fit their reference ones).
@@ -108,7 +108,7 @@ Now, let us see the settings of this conversion method:
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------+-----------------------------------------------------------+
 
 
-:guilabel:`Template` drop-down list
+Template drop-down list
    Here you select the armature to use as template. If you choose :guilabel:`None`, the selected bones from the currently edited armature will be used as reference, else all bones of the other armature will be used.
 
 :guilabel:`A`, :guilabel:`L`, :guilabel:`D` are numeric fields.
@@ -134,7 +134,7 @@ Think of them as A(ngle of bones), L(ength of bones) and D(efinition of stroke).
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------+-----------------------------------------------------------------+-----------------------------------------------------------------+
 
 
-:guilabel:`S` and :guilabel:`N` text fields, "auto" button
+S and N text fields, "auto" button
    These control how the new bones are named. By default,
    they just take the same names as the originals from the template - except for the final number,
    increased as needed. However, if the template bones have ``&s`` somewhere in their name,

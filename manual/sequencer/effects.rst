@@ -262,19 +262,19 @@ enable the :guilabel:`Frame locked` button and define a curve in the Ipo Window
 With the :guilabel:`Transform` strip selected,
 uses the properties panel to adjust the settings of this effect:
 
-:guilabel:`(x,y)Scale (Start,End):`
+(x,y)Scale (Start,End):
    To adjust the scale (size). :guilabel:`xScale Start` defines the start width,
    :guilabel:`xScale End` the end width, :guilabel:`yScale Start` the start height,
    and :guilabel:`yScale End` the end height.
    The values higher than **1.0** will scale up the picture,
    while values lower than **1.0** will scale it down.
-:guilabel:`(x,y) (Start,End):`
+(x,y) (Start,End):
    To adjust the position (shifting).
    :guilabel:`x Start` defines the horizontal start position, :guilabel:`x End`,
    the end one; positive values shift the image to the right, negative values, to the left.
    :guilabel:`y Start` defines the vertical start position, :guilabel:`y End`,
    the end one; positive values shift the picture to the top, negative values, to the bottom.
-:guilabel:`rot (Start,End):`
+rot (Start,End):
    The rotation is in degrees (**360** for a full turn) and is counter-clockwise.
    To make an image spin clockwise,
    make the end value lower than the start one (e.g. start it at 360 and go down from there).

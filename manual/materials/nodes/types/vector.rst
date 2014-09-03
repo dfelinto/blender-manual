@@ -50,16 +50,16 @@ And the best thing about it is that you can manipulate the direction interactive
 Inputs
 ------
 
-:guilabel:`Normal`
+Normal
    3D-direction of the face in relation to the camera. The value can be provided by another node or set manually.
 
 
 Outputs
 -------
 
-:guilabel:`Normal`
+Normal
    Fixed 3D-direction, combined by the node.
-:guilabel:`Dot`
+Dot
    Scalar value (a number), combined by the node.
 
 
@@ -71,7 +71,7 @@ Controls
    Interactive Normal node preview
 
 
-*Interactive node preview*
+Interactive node preview
    Allows click and drag on the sphere in node center to set the direction of the normal.
 
 
@@ -92,14 +92,14 @@ Mapping can be rotated and clamped if desired.
 Inputs
 ------
 
-:guilabel:`Vector`
+Vector
    The input vector (3D-direction in relation to the camera) of some the coordinates' mapping. The value can be provided by another node or set manually.
 
 
 Outputs
 -------
 
-:guilabel:`Vector`
+Vector
    The output vector, combined by the node.
 
 
@@ -118,13 +118,13 @@ If you want to use the clamping options, try enabling Min and Max.
 Vector type selector
    Type of vector that the mapping transforms.
 
-   :guilabel:`Texture`
+   Texture
       Transform a texture by inverse mapping the texture coordinates.
-   :guilabel:`Point`
+   Point
       Transform a point.
-   :guilabel:`Vector`
+   Vector
       Transform a direction vector.
-   :guilabel:`Normal`
+   Normal
       Transform a normal vector with unit length.
 
 
@@ -133,11 +133,11 @@ Vector type selector
    Mapping Node Transforms controls
 
 
-   :guilabel:`Location`
+   Location
       Transform position vector.
-   :guilabel:`Rotation`
+   Rotation
       Transform rotation vector.
-   :guilabel:`Scale`
+   Scale
       Transform scale vector.
 
 
@@ -146,9 +146,9 @@ Vector type selector
    Mapping Node Clipping controls
 
 
-   :guilabel:`Min`
+   Min
       Minimum clipping value.
-   :guilabel:`Max`
+   Max
       Maximum clipping value.
 
 
@@ -170,16 +170,16 @@ Use the :guilabel:`X` to delete the selected (white) point.
 Inputs
 ------
 
-:guilabel:`Fac`:
+Fac:
    Factor. The degree of node's influence in node tree. The value can be provided by another node or set manually.
-:guilabel:`Vector`
+Vector
    The input vector (3D-direction in relation to the camera). The value can be provided by another node or set manually.
 
 
 Outputs
 -------
 
-:guilabel:`Vector`
+Vector
    The output vector, combined by the node.
 
 
@@ -194,11 +194,11 @@ Controls
 Channel selector
    Allows to select appropriate curve channel.
 
-   :guilabel:`X`
+   X
       Curve of X-direction.
-   :guilabel:`Y`
+   Y
       Curve of Y-direction.
-   :guilabel:`Z`
+   Z
       Curve of Z-direction.
 
 
@@ -222,17 +222,17 @@ Channel selector
    Advanced tools for curve
 
 
-:guilabel:`Reset View`
+Reset View
    Resets view of the cuve.
-:guilabel:`Vector Handle`
+Vector Handle
    Vector type of curve point's handle.
-:guilabel:`Auto Handle`
+Auto Handle
    Automatic type of curve point's handle.
-:guilabel:`Extend Horizontal`
+Extend Horizontal
    Extends the curve horizontal.
-:guilabel:`Extend Extrapolated`
+Extend Extrapolated
    Extends the curve extrapolated.
-:guilabel:`Reset Curve`
+Reset Curve
    Resets the curve in default (removes all added curve's points).
 
 

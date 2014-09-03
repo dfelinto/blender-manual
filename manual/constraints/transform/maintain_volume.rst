@@ -19,11 +19,11 @@ Option
    Maintain Volume panel
 
 
-:guilabel:`Free` :guilabel:`X` / :guilabel:`Y` / :guilabel:`Z`
+Free X / Y / Z
    The free-scaling axis of the object.
-:guilabel:`Volume`
+Volume
    The bone's rest volume.  Default is ``1.0``.
-:guilabel:`Space`
+Space
    This constraint allows you to choose in which space to evaluate its owner's transform properties.
 
 

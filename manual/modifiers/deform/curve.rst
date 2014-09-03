@@ -29,13 +29,13 @@ Options
    Curve modifier
 
 
-:guilabel:`Object`
+Object
    The name of the curve object that will affect the deformed object.
 
-:guilabel:`Vertex Group`
+Vertex Group
    A vertex group name within the deformed object. The modifier will only affect vertices assigned to this group.
 
-:guilabel:`Deformation Axis`
+Deformation Axis
    :guilabel:`X`, :guilabel:`Y`, :guilabel:`Z`, :guilabel:`-X`, :guilabel:`-Y`, :guilabel:`-Z`: This is the axis that the curve deforms along.
 
 

@@ -17,19 +17,19 @@ Collada (.dae)
 Motion Capture (.bvh)
 =====================
 
-:guilabel:`Target`
+Target
    Import an Object or Armature.
-:guilabel:`Scale`
+Scale
    Scale the BVH by this value
-:guilabel:`Start Frame`
+Start Frame
    Starting frame for the animation
-:guilabel:`Loop`
+Loop
    Loop the animation playback
-:guilabel:`Rotation`
+Rotation
    Rotation conversion. Uses either Quaternion or Euler
-:guilabel:`Forward`
+Forward
    Specify the forward axis
-:guilabel:`Up`
+Up
    Specify the up axis
 
 
@@ -56,15 +56,15 @@ Stl (.stl)
 
 `See Here <http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Import-Export/3DS_MAX_Scene_Interchange>`__
 
-:guilabel:`Size Constraint`
+Size Constraint
    Scale the model by 10 until it reaches the size constraint (0 to disable)
-:guilabel:`Image Search`
+Image Search
    Search sub directories for any associated images.
-:guilabel:`Apply Transform`
+Apply Transform
    Workaround for object transformations importing incorrectly
-:guilabel:`Forward`
+Forward
    Specify the forward axis
-:guilabel:`Up`
+Up
    Specify the up axis
 
 Autodesk FBX (.fbx)

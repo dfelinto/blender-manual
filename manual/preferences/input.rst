@@ -80,19 +80,19 @@ your computer but not in Blender.
 Mouse
 *****
 
-:guilabel:`Emulate 3 Button Mouse`
+Emulate 3 Button Mouse
    It is possible to use Blender without a 3 button mouse (such as a two-button mouse,
    Apple single-button Mouse, or laptop).
    This functionality can be emulated with key/mousebutton combos.
    This option is only available if :guilabel:`Select With` is set to :guilabel:`Right`.
    :doc:`Read more about emulating a 3 button mouse » </interface/keyboard_and_mouse#mouse_button_emulation>`
-:guilabel:`Continuous Grab`
+Continuous Grab
    Allows moving the mouse outside of the view (for translation, rotation, scale for example).
-:guilabel:`Drag Threshold`
+Drag Threshold
    The number of pixels that a User Interface element has to be moved before it is recognized by Blender.
-:guilabel:`Select with`
+Select with
    You can choose which button is used for selection (the other one is used to place the 3D cursor).
-:guilabel:`Double Click`
+Double Click
    The time for a double click (in ms).
 
 
@@ -113,25 +113,25 @@ Just check :guilabel:`Emulate Numpad`.
 View manipulation
 *****************
 
-:guilabel:`Orbit Style`
+Orbit Style
    Select how Blender works when you rotate the 3D view (by default :kbd:`MMB`). Two styles are available. If you come from Maya or Cinema 4D, you will prefer :guilabel:`Turntable`.
-:guilabel:`Zoom Style`
+Zoom Style
    Choose your preferred style of zooming in and out with :kbd:`Ctrl-MMB`
-      :guilabel:`Scale`
+      Scale
          :guilabel:`Scale` zooming depends on where you first click in the view. To zoom out, hold :kbd:`ctrl-MMB` while dragging from the edge of the screen towards the center. To zoom in, hold :kbd:`ctrl-MMB` while dragging from the center of the screen towards the edge.
-      :guilabel:`Continue`
+      Continue
          The :guilabel:`Continue` zooming option allows you to control the speed (and not the value) of zooming by moving away from the initial click-point with :kbd:`Ctrl-MMB`. Moving up from the initial click-point or to the right will zoom out, moving down or to the left will zoom in. The further away you move, the faster the zoom movement will be. The directions can be altered by the :guilabel:`Vertical` and :guilabel:`Horizontal` radio buttons and the :guilabel:`Invert Zoom Direction` option.
-      :guilabel:`Dolly`
+      Dolly
          :guilabel:`Dolly` zooming works similarly to :guilabel:`Continue` zooming except that zoom speed is constant.
-      :guilabel:`Vertical`
+      Vertical
          Moving up zooms out and moving down zooms in.
-      :guilabel:`Horizontal`
+      Horizontal
          Moving left zooms in and moving right zooms out.
-:guilabel:`Invert Zoom Direction`
+Invert Zoom Direction
    Inverts the Zoom direction for :guilabel:`Dolly` and :guilabel:`Continue` zooming.
-:guilabel:`Invert Wheel Zoom Direction`
+Invert Wheel Zoom Direction
    Inverts the direction of the mouse wheel zoom.
-:guilabel:`NDOF device`
+NDOF device
    Set the sensitivity of a 3D mouse.
 
 

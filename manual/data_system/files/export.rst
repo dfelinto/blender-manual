@@ -31,13 +31,13 @@ Stanford (.ply)
 
 `See Here <http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Import-Export/Stanford_PLY>`__
 
-:guilabel:`Apply Modifiers`
+Apply Modifiers
    Bakes down the modifier stack by applying them.
-:guilabel:`UV's`
+UV's
    Exports active uv layer's coordinates of the geometry.
-:guilabel:`Normal`
+Normal
    Exports the geometry normal data for smooth and hard edges.
-:guilabel:`Vertex Colors`
+Vertex Colors
    Exports the active vertex color layer
 
 
@@ -46,7 +46,7 @@ Stl (.stl)
 
 `See Here <http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Import-Export/STL>`__
 
-:guilabel:`Ascii`
+Ascii
    Saves the file in ASCII file format.
 
 
@@ -55,11 +55,11 @@ Autodesk® 3DS Max® (.3ds)
 
 `See Here <http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Import-Export/3DS_MAX_Scene_Interchange>`__
 
-:guilabel:`Selection Only`
+Selection Only
    Export selected objects only
-:guilabel:`Forward`
+Forward
    Specify the forward axis
-:guilabel:`Up`
+Up
    Specify the up axis
 
 

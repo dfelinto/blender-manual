@@ -32,13 +32,13 @@ This is automatically setup as the current object with a distance setting of 0.
 To remove a level of detail,
 click on the X button in the top right corner of the box of the level to be removed.
 
-:guilabel:`Object`
+Object
    The object to use for this level of detail.
-:guilabel:`Distance`
+Distance
    The distance at which this level of detail becomes visible.
-:guilabel:`Use Mesh`
+Use Mesh
    When this option is enabled, the mesh from the level of detail object is used until a lower level of detail overrides it.
-:guilabel:`Use Material`
+Use Material
    When this option is enabled, the material from the level of detail object is used until a lower level of detail overrides it.
 
 

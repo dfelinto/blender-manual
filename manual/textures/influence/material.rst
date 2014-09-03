@@ -24,65 +24,65 @@ Surface and Wire materials
 Diffuse
 ^^^^^^^
 
-:guilabel:`Intensity`
+Intensity
    Amount texture affects affects diffuse reflectivity
-:guilabel:`Color`
+Color
    Amount texture affect the basic color or RGB value of the material
-:guilabel:`Alpha`
+Alpha
    Influences the opacity of the material. See :doc:`Use Alpha for Object Transparency </ls/textures/use_alpha_for_object_transparency>`. Also use :guilabel:`Z Transparency` for light and if combining multiple channels.
-:guilabel:`Translucency`
+Translucency
    Influences the Translucency amount.
 
 
 Specular
 ^^^^^^^^
 
-:guilabel:`Intensity`
+Intensity
    Amount texture affect specular reflectivity
-:guilabel:`Color`
+Color
    Influences the :guilabel:`Specular` color, the color of the reflections created by the lamps on a glossy material.
-:guilabel:`Hardness`
+Hardness
    Influences the specular hardness amount. A DVar of 1 is equivalent to a Hardness of 130, a DVar of 0.5 is equivalent to a Hardness of 65.
 
 
 Shading
 ^^^^^^^
 
-:guilabel:`Ambient`
+Ambient
    Influences the amount of Ambient light the material receives.
-:guilabel:`Emit`
+Emit
    Influences the amount of light Emitted by the material.
-:guilabel:`Mirror`
+Mirror
    Influences the mirror color. This works with environment maps and raytraced reflection.
-:guilabel:`Ray Mirror`
+Ray Mirror
    Influences the strength of raytraced mirror reflection.
 
 
 Geometry
 ^^^^^^^^
 
-:guilabel:`Normal`
+Normal
    Commonly called bump mapping, this alters the direction of the surface normal. This is used to fake surface imperfections or unevenness via bump mapping, or to create reliefs.
-:guilabel:`Warp`
+Warp
    :guilabel:`Warp` allows textures to influence/distort the texture coordinates of a next texture channel. The distortion remains active over all subsequent channels, until a new Warp has been set. Setting the factor at zero cancels out the effect.
-:guilabel:`Displace`
+Displace
    Influences the Displacement of vertices, for using :doc:`Displacement Maps </textures/influence/material/displacement>`.
 
 
 Other Controls
 --------------
 
-:guilabel:`Blend`
+Blend
    Blending operation to perform. See :doc:`Texture Blending Modes </textures/influence/material/blending_modes>` for details.
-:guilabel:`RGB to intensity`
+RGB to intensity
    With this option enabled, an RGB texture (affects color) is used as an intensity texture (affects a value).
-:guilabel:`Blend Color`
+Blend Color
    If the texture is mapped to Col, what color is blended in according to the intensity of the texture? Click on the swatch or set the RGB sliders.
-:guilabel:`Negative`
+Negative
    The effect of the Texture is negated. Normally white means on, black means off, :guilabel:`Negative` reverses that.
-:guilabel:`Stencil`
+Stencil
    The active texture is used as a mask for all following textures. This is useful for semitransparent textures and "Dirt Maps". Black sets the pixel to "untexturable".  The :guilabel:`Stencil` mode works similar to a layer mask in a 2D program. The effect of a stencil texture can not be overridden, only extended. You need an intensity map as input.
-:guilabel:`DVar`
+DVar
    Destination Value (not for RGB). The value with which the Intensity texture blends with the current value. Two examples:
 
 
@@ -91,7 +91,7 @@ Other Controls
 
 - If you want transparent material, and use a texture mapped to :guilabel:`Alpha`, nothing happens with the default settings, because the :guilabel:`Alpha` value in the :guilabel:`Material` panel is 1. So you have to set :guilabel:`DVar` to 0 to get transparent material (and of course :guilabel:`Z Transparency` also). This is a common problem for beginners. Or do it the other way round - set :guilabel:`Alpha` to 0 and leave :guilabel:`Dvar` on 1. Of course the texture is used inverted then.
 
-:guilabel:`Bump Mapping`
+Bump Mapping
    Settings for bump mapping.
    :guilabel:`Method`
    :guilabel:`Best Quality`, :guilabel:`Default`, :guilabel:`Compatible`, :guilabel:`Original`
@@ -112,19 +112,19 @@ Volume materials
 
 Special texture options for :guilabel:`Volume` materials
 
-:guilabel:`Density`
+Density
    Causes the texture to affect the volume's density.
-:guilabel:`Emission`
+Emission
    Causes the texture to affect the volume's emission.
-:guilabel:`Scattering`
+Scattering
    Amount the texture affects scattering.
-:guilabel:`Reflection`
+Reflection
    Amount the texture affects brightness of out-scattered light
-:guilabel:`Emission Color`
+Emission Color
    Amount the texture affects emission color.
-:guilabel:`Transmission`
+Transmission
    Amount the texture affects result color after light has been scattered/absorbed.
-:guilabel:`Reflection Color`
+Reflection Color
    Amount the texture affects color of out-scattered light.
 
 
@@ -140,10 +140,10 @@ Halo materials
 
 Special texture options for :guilabel:`Halo` materials
 
-:guilabel:`Size`
+Size
    Amount the texture affects ray mirror.
-:guilabel:`Hardness`
+Hardness
    Amount the texture affects hardness.
-:guilabel:`Add`
+Add
    Amount the texture affects translucency.
 

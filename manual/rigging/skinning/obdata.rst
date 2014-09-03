@@ -54,11 +54,11 @@ with the following options - all regarding the "vertex groups" skinning method:
    Set Parent menu
 
 
-:guilabel:`With Empty Groups`
+With Empty Groups
    will create, if they don't already exist, empty groups, one for each bone in the skinned armature,
    with these bones' names.
    Choose this option if you have already created (and weighted) all the vertex groups the mesh requires.
-:guilabel:`With Envelope Weights`
+With Envelope Weights
    will create, as with :guilabel:`Name Groups` option, the needed vertex groups. However,
    it will also weight them according to the bones' envelope settings (i.e.
    it will assign to each groups the vertices that are inside its bone's influence area,
@@ -66,7 +66,7 @@ with the following options - all regarding the "vertex groups" skinning method:
    This means that if you had defined vertex groups using same names as skinned bones, their content will be
    completely overridden! *You'll get the same behavior as if you used the envelopes skinning method,
    but with vertex groups?*
-:guilabel:`Automatic Weights`
+Automatic Weights
    Creates, as with :guilabel:`Envelope Weights` option, the needed vertex groups,
    with vertices assigned and weighted using the newer "bone heat" algorithm.
 
@@ -114,7 +114,7 @@ Common Options
 There are two armature-global skinning options that are common to both envelopes and vertex
 groups methods:*
 
-:guilabel:`Preserve Volume` (:guilabel:`Armature` modifier)
+Preserve Volume (Armature modifier)
    This affects the way geometry is deformed, especially at bones' joints, when rotating them.
 
    Without :guilabel:`Preserve Volume`, rotations at joints tend to scale down the neighboring geometry, up to nearly zero at ``180d`` from rest position.
@@ -153,7 +153,7 @@ The bones also have some deforming options in their sub-panels
 (* :guilabel:`Armature Bones` *panel),
 that you can therefore define independently for each of them*
 
-:guilabel:`Deform`
+Deform
    By disabling this setting (enabled by default), you can completely prevent a bone from deforming the geometry of the skin object.
 
 
@@ -190,7 +190,7 @@ influenced by more than one bone (generally, at the joints...) - a bone with a h
 have more influence on the result than one with a low weight... Note that when set to* **0.0**,
 it has the same effect as disabling the* :guilabel:`Deform` option.
 
-:guilabel:`Mult`
+Mult
    Short for 'Multiply'. This option controls how the two deforming methods interact when they are both enabled.
    By default, when they are both active, all vertices belonging to at least one vertex group are only deformed
    through the vertex groups method - the other "orphan" vertices being handled by the envelopes one.
@@ -198,7 +198,7 @@ it has the same effect as disabling the* :guilabel:`Deform` option.
    (based from its envelope settings) is multiplied with this vertex's weight in the corresponding vertex group.
    In other words, the vertex groups method is further "weighted" by the envelopes method.
 
-:guilabel:`Radius`
+Radius
    Set the radius for the head and the tail of envelope bones.
 
 

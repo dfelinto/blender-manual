@@ -12,15 +12,15 @@ Sensor Common Options
 All sensors have a set of common buttons, fields and menus. They are organized as follows:
 
 
-**Triangle button**
+Triangle button
    Collapses the sensor information to a single line (toggle).
-**Sensor type** menu
+Sensor type menu
    Specifies the type of the sensor.
-**Sensor name**
+Sensor name
    The name of the sensor. This can be selected by the user. It is used to access sensors with Python; it needs to be unique among the selected objects.
 **Pin button**
   Display the sensor even when it is not linked to a visible states controller.
-**Checkbox button**
+Checkbox button
    Sets active state of the sensor
 :kbd:`X` **Button**
   Deletes the sensor.
@@ -50,7 +50,7 @@ The following parameters specifies how the sensor triggers connected controllers
 
    False level triggering. If this is set, the connected controllers will be triggered as long as the sensor's state is negative. The sensor will trigger with the delay (see parameter: frequency) of the sensor.
 
-**Freq**
+Freq
    Despite it's name "Frequency", this parameter sets the delay between repeated triggers, measured in frames (also known as logic ticks). The default value is 0 and it means no delay. It is only used at least one of the level triggering parameters are enabled.
    Raising the value of :guilabel:`freq` is a good way for saving performance costs by avoiding to execute controllers or activate actuators more often than necessary.
 Examples:

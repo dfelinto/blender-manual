@@ -42,16 +42,16 @@ New
 
 :doc:`External Data </data_system#pack_and_unpack_data>`
 
-   :guilabel:`Pack into .blend`
+   Pack into .blend
       Pack all used external files into the .blend
-   :guilabel:`Unpack into Files`
+   Unpack into Files
       Unpack all files packed into this .blend to external ones
-   :guilabel:`Make all paths Relative`
+   Make all paths Relative
       Make all paths to external files relative to current .blend
-   :guilabel:`Make all paths Absolute`
+   Make all paths Absolute
       Make all paths to external files absolute
-   :guilabel:`Report Missing Files`
+   Report Missing Files
       Report all missing external files
-   :guilabel:`Find Missing Fils`
+   Find Missing Fils
       Try to find missing external files
 

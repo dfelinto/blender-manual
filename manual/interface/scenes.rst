@@ -52,13 +52,13 @@ The five choices, therefore, determine just how much of this information will be
 from* the currently selected Scene to the new one, and how much will be *shared*
 ("linked"):
 
-:guilabel:`New`
+New
    Creates an empty Scene. In the new Scene, the Render Settings are set to the default values.
 
-:guilabel:`Copy Settings`
+Copy Settings
    Creates an empty Scene like the previous option but also copies the Render Settings from the original Scene into the new one.
 
-:guilabel:`Link Objects`
+Link Objects
    Is the shallowest form of copying available.
    This option creates the new Scene with the same contents as the currently selected Scene.
    However, instead of copying the Objects,
@@ -67,7 +67,7 @@ from* the currently selected Scene to the new one, and how much will be *shared*
    same Objects. The reverse is also true
    (changes in the *old* Scene will cause the same changes in the *new* Scene).
 
-:guilabel:`Link Object Data`
+Link Object Data
    Creates new, duplicate copies of all of the Objects in the currently selected Scene,
    but each one of those duplicate Objects will have *links to* the ObData (meshes, materials and so on)
    of the corresponding Objects in the original Scene. This means that you can change the position,
@@ -83,7 +83,7 @@ from* the currently selected Scene to the new one, and how much will be *shared*
 
 .. figure:: /images/Manual-Interface-Scenes-mk_singleuser.jpg
 
-:guilabel:`Full Copy`
+Full Copy
    Is the deepest form of copying available.  Nothing is shared.  This option creates a fully independent Scene with copies of the currently selected Scene's contents.  Every Object in the original Scene is duplicated, and a duplicate, private copy of its ObData is made as well.
 
 To better understand the way Blender works with data, read through :doc:`Blender's Library and Data System. </data_system>`
@@ -98,13 +98,13 @@ You then decide to create the action in a separate Scene.
 The action in your Scene will indicate which type of linking (if any)
 would suit your Scene best.
 
-:guilabel:`Link Objects`
+Link Objects
    Every object will be linked to the original Scene. If you correct the placement of a wall, it will move in every Scene that uses the bar as a setting.
 
-:guilabel:`Link Object Data`
+Link Object Data
    Will be useful when the positions of Objects need to change, but their shape and material settings will remain constant. For example, chairs might stand on the floor in the "crowded bar" scene and up on the tables in the "we are closing" scene. Since the chairs don't change form, there is no need to waste memory on exact mesh-copies.
 
-:guilabel:`Full Copy`
+Full Copy
    A glass shattering on the floor will need its own copy because the mesh will change shape.
 
 It is not possible to do all of the above in the same Scene,

@@ -23,15 +23,15 @@ centered on the 3D cursor, and around the axis perpendicular to the working view
 
 Here are its settings:
 
-:guilabel:`Steps`
+Steps
    Specifies how many copies will be extruded along the "sweep".
-:guilabel:`Dupli`
+Dupli
    When enabled, will keep the original selected elements as separated islands in the mesh (i.e. unlinked to the result of the spin extrusion).
-:guilabel:`Angle`
+Angle
    specifies the angle "swept" by this tool, in degrees (e.g. set it to ``180`` for half a turn).
-:guilabel:`Center`
+Center
    Specifies the center of the spin. By default it uses the cursor position.
-:guilabel:`Axis`
+Axis
    Specify the spin axis as a vector. By default it uses the view axis.
 
 

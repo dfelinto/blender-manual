@@ -17,20 +17,20 @@ Forces
    Image 5: Newtonian Physics.
 
 
-:guilabel:`Brownian`
+Brownian
    Specify the amount of Brownian motion. Brownian motion adds random motion to the particles based on a Brownian noise field. This is nice to simulate small, random wind forces.
-:guilabel:`Drag`
+Drag
    A force that reduces particle velocity in relation to it's speed and size (useful in order to simulate Air-Drag or Water-Drag).
-:guilabel:`Damp`
+Damp
    Reduces particle velocity (deceleration, friction, dampening).
 
 
 Collision
 =========
 
-:guilabel:`Size Deflect`
+Size Deflect
    Use the particle size in deflections.
-:guilabel:`Die on Hit`
+Die on Hit
    Kill particle when it hits a deflector object.
 
 
@@ -55,9 +55,9 @@ according to the behavior aimed at by the animator.
 +--------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-:guilabel:`Timestep`
+Timestep
    The simulation time step per frame.
-:guilabel:`Subframes`
+Subframes
    Subframes to simulate for improved stability and finer granularity in simulations.
    Use higher values for faster moving particles.
 

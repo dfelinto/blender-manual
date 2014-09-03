@@ -121,18 +121,18 @@ View Menu
 
 The *View Menu* controls what you see, and what it looks like.
 
-*Toggle Full Screen*
+Toggle Full Screen
    Maximize or minimize the *Timeline* window. :kbd:`ctrl-Arrow Up` or :kbd:`ctrl-Arrow Down`
 
-*Duplicate Area into New Window*
+Duplicate Area into New Window
    This creates a new OS window, and sets the editor window to the *Timeline*.
 
-*Bind Camera to Markers*
+Bind Camera to Markers
    This is used switch cameras during animation.
    It binds the active camera to the selected markers.
    First select a camera. Then select the marker(s). Then use the function. :kbd:`Ctrl-B`
 
-*Cache*
+Cache
    This will display the baked *Cache Steps* for the active object.
 
 
@@ -141,21 +141,21 @@ The *View Menu* controls what you see, and what it looks like.
    Timline Cache
 
 
-   *Show Cache*
+   Show Cache
       Show all enabled types.
 
    *Softbody*, *Particles*, *Cloth*, *Smoke*, *Dynamic Paint*, *Rigid Body*.
 
-*Only Selected Channels*
+Only Selected Channels
    For *Armatures*, this will draw the object keyframes, and the keyframes for the active and selected pose bones.
 
-*Show Frame Number Indicator*
+Show Frame Number Indicator
    This will draw the current frame or seconds on the *Time Cursor*.
 
-*View All*
+View All
    Maximize the *Timeline* area based on the Animation Range. :kbd:`home`
 
-*Show Seconds*
+Show Seconds
    Show time in seconds for the *Timeline* and the the *Time Cursor* based on the FPS. :kbd:`Ctrl-T`
 
 
@@ -188,14 +188,14 @@ Add Marker
 Frame Menu
 ==========
 
-*Auto-Keyframing Mode*
+Auto-Keyframing Mode
    This controls how the Auto Keyframe mode works.
    Only one mode can be used at a time.
 
-   *Add & Replace*
+   Add & Replace
       Add or Replace existing keyframes.
 
-   *Replace*
+   Replace
       Only Replace existing keyframes.
 
 
@@ -285,27 +285,27 @@ The Timeline header controls.
    Player Controls.
 
 
-   *Jump to start*
+   Jump to start
       This sets the cursor to the start of frame range. :kbd:`shift-ctrl-Arrow Down` or :kbd:`shift-Arrow Left`
 
-   *Jump to previous keyframe*
+   Jump to previous keyframe
       This sets the cursor to the previous keyframe. :kbd:`Arrow Down`
 
-   *Rewind*
+   Rewind
       This plays the animation sequence in reverse. :kbd:`shift-alt-A`
       When playing the play buttons switch to a pause button.
 
-   *Play*
+   Play
       This plays the animation sequence. :kbd:`alt-A`
       When playing the play buttons switch to a pause button.
 
-   *Jump to next keyframe*
+   Jump to next keyframe
       This sets the cursor to the next keyframe. :kbd:`Arrow Up`
 
-   *Jump to end*
+   Jump to end
       This sets the cursor to the end of frame range. :kbd:`shift-ctrl-Arrow Up` or :kbd:`shift-Arrow Right`
 
-   *Pause*
+   Pause
       This stops the animation. :kbd:`alt-A`
 
 
@@ -321,14 +321,14 @@ The Timeline header controls.
    When you play an animation, the FPS is displayed at the top left of the 3D View.
    If the scene is detailed and playback is slower than the set :doc:`Frame Rate </render/output/video#dimensions_presets>`, these options are used to synchronize the playback.
 
-   *No Sync*
+   No Sync
       Do not sync, play every frame.
 
-   *Frame Dropping*
+   Frame Dropping
       Drop frames if playback is too slow.
       This enables *Frame Dropping* from the *Playback Menu*.
 
-   *AV-sync*
+   AV-sync
       Sync to audio clock, dropping frames if playback is slow.
       This enables *AV-sync* and *Frame Dropping* from the *Playback Menu*.
 
@@ -341,17 +341,20 @@ The Timeline header controls.
    Timeline Auto Keyframe.
 
 
-   *Auto Keyframe*
-      The "Record" red-dot button enables something called *Auto Keyframe* : It will add and/or replace existing keyframes for the active object when you transform it in the 3D view.
+   Auto Keyframe
+      The "Record" red-dot button enables something called *Auto Keyframe* :
+      It will add and/or replace existing keyframes for the active object when you transform it in the 3D view.
 
-      For example, when enabled, first set the *Time Cursor* to the desired frame, then move an object in the 3d view, or set a new value for a property in the UI.
+      For example, when enabled, first set the *Time Cursor* to the desired frame,
+      then move an object in the 3d view, or set a new value for a property in the UI.
 
       When you set a new value for the properties, blender will add keyframes on the current frame for the transform properties.
 
       *Auto Keying Set* - Optional if Auto Keyframe enabled.
-          *Auto Keyframe* will insert new keyframes for the properties in the active *Keying Set*.
+         *Auto Keyframe* will insert new keyframes for the properties in the active *Keying Set*.
 
-      Note that *Auto Keyframe* only works for transform properties (objects and bones), in the 3D views (i.e. you cant use it e.g. to animate the colors of a material in the Properties window...).
+      Note that *Auto Keyframe* only works for transform properties (objects and bones),
+      in the 3D views (i.e. you cant use it e.g. to animate the colors of a material in the Properties window...).
 
 
 .. note:: Layered
@@ -363,9 +366,8 @@ The Timeline header controls.
 
    Timeline Layered.
 
-
       *Layered* - Optional while playback.
-          // Todo.
+         TODO.
 
 
 .. figure:: /images/Doc_kia_Cube02.jpg
@@ -373,7 +375,7 @@ The Timeline header controls.
    Timeline Keying Sets.
 
 
-   *Active Keying Set*
+   Active Keying Set
       *Keying Sets* are a set of keyframe channels in one.
 
       They are made so the user can record multiple properties at the same time.
@@ -398,19 +400,19 @@ Some related user preferences from the **Editing** tab.
 
 Playback
    Allow Negative Frames
-       Time Cursor can be set to negative frames with mouse or keyboard.
-       When using *Use Preview Range*, this also allows playback.
+      Time Cursor can be set to negative frames with mouse or keyboard.
+      When using *Use Preview Range*, this also allows playback.
 Keyframing
    Visual Keying
-       When an object is using constraints, the objects property value doesnt actually change.
-       *Visual Keying* will add keyframes to the object property, with a value based on the visual transformation from the constraint.
+      When an object is using constraints, the objects property value doesnt actually change.
+      *Visual Keying* will add keyframes to the object property, with a value based on the visual transformation from the constraint.
    Only Insert Needed
-       This will only insert keyframes if the value of the propery is different.
+      This will only insert keyframes if the value of the propery is different.
    Auto Keyframing
-       Enable *Auto Keyframe* by default for new scenes.
+      Enable *Auto Keyframe* by default for new scenes.
    Show Auto Keying Warning
-       Displays a warning at the top right of the *3D View*, when moving objects, if *Auto Keyframe* is on.
+      Displays a warning at the top right of the *3D View*, when moving objects, if *Auto Keyframe* is on.
    Only Insert Available
-       With *Auto Keyframe* enabled, this will only add keyframes to channel F-Curves that already exist.
+      With *Auto Keyframe* enabled, this will only add keyframes to channel F-Curves that already exist.
 
 

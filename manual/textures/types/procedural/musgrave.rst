@@ -9,9 +9,9 @@ Procedural textures: Musgrave
    Musgrave Texture Panels
 
 
-**Often used for**
+Often used for
    Organic materials, but it's very flexible. You can do nearly everything with it.
-**Result(s)**
+Result(s)
    Intensity
 
 

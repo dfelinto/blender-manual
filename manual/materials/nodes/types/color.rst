@@ -63,25 +63,25 @@ Not one, not two, but count 'em, sixteen mixing choices include:
 Inputs
 ------
 
-:guilabel:`Fac`
+Fac
    The amount of mixing of the bottom socket is selected by the Factor input field (Fac:). A factor of zero does not use the bottom socket, whereas a value of 1.0 makes full use. In Mix mode, 50:50 (0.50) is an even mix between the two, but in Add mode, 0.50 means that only half of the second socket's influence will be applied.
-:guilabel:`Color 1`
+Color 1
    Input color value. The value can be provided by another node or set manually. Includes a color swatch, allowing you to select the color directly on the node.
-:guilabel:`Color 2`
+Color 2
    Input color value. The value can be provided by another node or set manually. Includes a color swatch, allowing you to select the color directly on the node.
 
 
 Outputs
 -------
 
-:guilabel:`Color`
+Color
    Value of the color, combined by the node.
 
 
 Controls
 --------
 
-:guilabel:`Clamp`
+Clamp
    Clamp result of the node to 0...1 range.
 
 
@@ -113,16 +113,16 @@ set the curve so that a little red does not show at all, but a lot of red does.
 Inputs
 ------
 
-:guilabel:`Fac`:
+Fac:
    Factor. The degree of node's influence in node tree. The value can be provided by another node or set manually. Value range - from «-1» (inverted effect) to «1».
-:guilabel:`Color`
+Color
    Input color value. The value can be provided by another node or set manually. Includes a color swatch, allowing you to select the color directly on the node.
 
 
 Outputs
 -------
 
-:guilabel:`Color`
+Color
    Value of the color, combined by the node.
 
 
@@ -137,13 +137,13 @@ Controls
 Channel selector
    Allows to select appropriate curve channel.
 
-   :guilabel:`C`
+   C
       Composite curve.
-   :guilabel:`R`
+   R
       Red channel curve.
-   :guilabel:`G`
+   G
       Green channel curve.
-   :guilabel:`B`
+   B
       Blue channel curve.
 
 
@@ -167,17 +167,17 @@ Channel selector
    Advanced tools for curve
 
 
-:guilabel:`Reset View`
+Reset View
    Resets view of the cuve.
-:guilabel:`Vector Handle`
+Vector Handle
    Vector type of curve point's handle.
-:guilabel:`Auto Handle`
+Auto Handle
    Automatic type of curve point's handle.
-:guilabel:`Extend Horizontal`
+Extend Horizontal
    Extends the curve horizontal.
-:guilabel:`Extend Extrapolated`
+Extend Extrapolated
    Extends the curve extrapolated.
-:guilabel:`Reset Curve`
+Reset Curve
    Resets the curve in default (removes all added curve's points).
 
 
@@ -215,16 +215,16 @@ This node simply inverts the input values and colors.
 Inputs
 ------
 
-:guilabel:`Fac`:
+Fac:
    Factor. The degree of node's influence in node tree. The value can be provided by another node or set manually.
-:guilabel:`Color`
+Color
    Input color value. The value can be provided by another node or set manually. Includes a color swatch, allowing you to select the color directly on the node.
 
 
 Outputs
 -------
 
-:guilabel:`Color`
+Color
    Value of the color, combined by the node.
 
 
@@ -242,24 +242,24 @@ Use this node to adjust the Hue, Saturation, and Value of an input.
 Inputs
 ------
 
-:guilabel:`Fac`
+Fac
    Factor. The degree of node's influence in node tree. The value can be provided by another node or set manually.
-:guilabel:`Hue`
+Hue
    Input hue value of color. The value can be provided by another node or set manually.
-:guilabel:`Saturation`
+Saturation
    Input saturation value of color . The value can be provided by another node or set manually.
-:guilabel:`Value`
+Value
    Input HSV-Value of color. The value can be provided by another node or set manually.
-:guilabel:`Fac`
+Fac
    Factor. The degree of node's influence in node tree. The value can be provided by another node or set manually.
-:guilabel:`Color`
+Color
    Input color value. The value can be provided by another node or set manually. Includes a color swatch, allowing you to select the color directly on the node.
 
 
 Outputs
 -------
 
-:guilabel:`Color`
+Color
    Value of the color, combined by the node.
 
 

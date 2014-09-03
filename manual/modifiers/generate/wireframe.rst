@@ -45,14 +45,14 @@ in the examples below.
 Options
 =======
 
-:guilabel:`Thickness`
+Thickness
    The depth or size of the wireframes.
-:guilabel:`Offset`
+Offset
    A value between ``-1`` and ``1`` to change whether the wireframes are generated inside or outside the original mesh. Set to zero, :guilabel:`Offset` will center the wireframes around the original edges.
-:guilabel:`Vertex Group`
+Vertex Group
    Restrict the modifier to only this vertex group.
 
-   :guilabel:`Invert`
+   Invert
       Inverts the vertex group weights.
 
 
@@ -63,21 +63,21 @@ Options
    Wireframes on a displaced plane. In this example, the wireframes carry a second (dark) material while the displaced plane uses its original one.
 
 
-:guilabel:`Crease Edges`
+Crease Edges
    This option is intended for usage with the :doc:`Subdivision Surface </modifiers/generate/subsurf>` modifier.
    Enable this option to crease edges on their junctions and prevent large curved intersections.
 
-   :guilabel:`Crease Weight`
+   Crease Weight
       Define how much crease (between ``0`` = no and ``1`` = full) the junctions should receive.
-:guilabel:`Even Thickness`
+Even Thickness
    Maintain thickness by adjusting for sharp corners.  Sometimes improves quality but also increases computation time.
-:guilabel:`Relative Thickness`
+Relative Thickness
    Determine edge thickness by the length of the edge - longer edges are thicker.
-:guilabel:`Boundary`
+Boundary
    Creates wireframes on mesh island boundaries.
-:guilabel:`Replace Original`
+Replace Original
    If this option is enabled, the original mesh is replaced by the generated wireframe. If not, the wireframe is generated on top of it.
-:guilabel:`Material Offset`
+Material Offset
    Uses the chosen material index as as the material for the wireframe; this is applied as an offset from the first material.
 
 
