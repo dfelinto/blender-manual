@@ -41,8 +41,8 @@ Texture Properties
 .. figure:: /images/Cycles_texture_tab_menu.jpg
    :width: 220px
    :figwidth: 220px
+   :align: right
 
-   size
 
 
 In the texture properties,
@@ -53,9 +53,7 @@ For shading nodes, the available textures are Cycles textures. For others,
 Blender textures are still used, but this will change in the future.
 
 
-FIXME(Tag Unsupported:div;
-<div style="clear:both;"></div>
-)
+.. TODO <div style="clear:both;"></div>
 
 
 Painting & UV Editing
@@ -64,8 +62,7 @@ Painting & UV Editing
 .. figure:: /images/Cycles_active_texture.jpg
    :width: 220px
    :figwidth: 220px
-
-   size
+   :align: right
 
 
 For texture paint mode,
@@ -76,7 +73,3 @@ and it is indicated as blue in the material properties.
 For UV mapping, the active UV map as specified in the mesh properties is used.
 Assigning images in the image editor also affects the active image texture node.
 
-
-FIXME(Tag Unsupported:div;
-<div style="clear:both;"></div>
-)
