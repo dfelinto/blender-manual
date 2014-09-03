@@ -6,7 +6,6 @@ Blender has a :guilabel:`Text Editor` among its windows types, accessible via th
 
 .. figure:: /images/Manual-Part-XV-textButton.jpg
 
-
 ) of the :guilabel:`Window type` menu, or via :kbd:`shift-f11`.
 
 The newly opened Text window is grey and empty, with a very simple toolbar (*Text Toolbar*).
@@ -125,4 +124,3 @@ You can see the result of running the above script in this video.
 
 
 .. youtube:: pPR9Eog0S3E
-

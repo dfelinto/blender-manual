@@ -189,7 +189,6 @@ See their captions for more information.
 
 .. figure:: /images/(Doc_26x_Modifier_Generate_Boolean)_(Multi_Materials_Example_Intersect)_(GBAFN)_.jpg
 
-
    Fig. 6 - Intersect - The resulting Mesh was copied and rotated 180- - You can see the first active material of the cube in the back face (new topology); the front face received the 4 basic materials of the cube.
 
 

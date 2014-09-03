@@ -16,7 +16,6 @@ Type
 
 .. figure:: /images/Selection_017.jpg
 
-
 Depending on the settings, the displacement may be virtual,
 only modifying the surface normals to give the impression of displacement,
 known as bump mapping, or a combination of real and virtual displacement.

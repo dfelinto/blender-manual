@@ -23,7 +23,6 @@ Settings
 
 .. figure:: /images/Manual-Level-of-Detail-Panel.jpg
 
-
 Level of detail settings can be found in the Object settings when the renderer is set to
 Blender Game.
 In the Levels of Detail panel is a button to add a new level of detail to the current object.
@@ -70,7 +69,6 @@ Generate
 ========
 
 .. figure:: /images/Manual-Level-of-Detail-Generation.jpg
-
 
 This tool generates and sets up levels of details based on the selected object.
 Generation is done using the decimate modifier.

@@ -27,7 +27,6 @@ Adding and deleting presets
 
 .. figure:: /images/Manual-Interface-Configuration-Input-AddDeletePreset.jpg
 
-
 Before changing anything in the default configuration,
 click on the "plus" symbol shown in the picture to add a new :guilabel:`Preset`. Blender will
 ask you to name your new preset after which you can select the :guilabel:`Preset` from the

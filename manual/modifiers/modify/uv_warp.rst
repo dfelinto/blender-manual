@@ -24,7 +24,6 @@ Options
 
 .. figure:: /images/Uvwarp_ui.jpg
 
-
 - **UV Center**
   The center point of the :doc:`UV map </textures/mapping/uv>`
   to use when applying scale or rotation. With (0, 0) bottom left and (1, 1) top right. Defaults to (0.5, 0.5).

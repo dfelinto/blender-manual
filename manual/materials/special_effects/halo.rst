@@ -114,7 +114,6 @@ These are very similar to traditional material settings
 
 .. figure:: /images/Manual-Materials-HaloAdd.jpg
 
-
 The :guilabel:`Add` slider determine how much the halo colors are 'added to',
 rather than mixed with, the colors of the objects behind and together with other halos.
 By increasing Add,

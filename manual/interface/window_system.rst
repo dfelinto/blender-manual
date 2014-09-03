@@ -84,7 +84,6 @@ The Info Window is found at the top of the Default Scene and has the following c
 
 .. figure:: /images/Icon-library_3D-Window_3D-cursor.jpg
 
-
 - **3D Cursor** : Can have multiple functions.  For example, it represents where new objects appear when they are first created,  or it can represent where the center of a rotation will be.
 
 
@@ -100,7 +99,6 @@ The Info Window is found at the top of the Default Scene and has the following c
 
 
 .. figure:: /images/Icon-library_3D-Window_light-lamp.jpg
-
 
 - **Light (of type Lamp)** : By default, a new installation of Blender will always start with a :guilabel:`Light` source positioned somewhere close to the center of Global 3D space.
 
@@ -131,24 +129,20 @@ Read more about :doc:`Blender headers » </interface/window_system/headers>`
 
 .. figure:: /images/Icon-library_3D-Window_Editor-type.jpg
 
-
 - **Window/Editor Type Selector** : Allows you to change the :doc:`type of Window </interface/window_types>`. This option can be found in every window header.  For example, if you want to see the :guilabel:`Outliner` window you would click and select it.
 
 
 .. figure:: /images/Icon-library_3D-Window_3D-transform-manipulator-options.jpg
-
 
 - **3D Transform manipulator options** : Access to the :doc:`manipulator </3d_interaction/transform_control/manipulators>` widget is also possible by clicking the coordinate system icon on the toolbar.  The translation/rotation/scale manipulators can be displayed by clicking each of the three icons to the right of the coordinate system icon.  :kbd:`shift-lmb` -clicking an icon will add/remove each manipulator's visibility.
 
 
 .. figure:: /images/Icon-library_3D-Window_header-viewport-shading.jpg
 
-
 - **Viewport shading** : Blender renders the 3D window using `OpenGL <http://en.wikipedia.org/wiki/OpenGL>`__.  You can select the type of :doc:`Viewport shading </3d_interaction/navigating/3d_view_options#view_shading>` that takes place by clicking this button and selecting from a variety of shading styles including simple bounding boxes and complex textures.  It is recommended that you have a powerful graphics card if you are going to use the Textured style.
 
 
 .. figure:: /images/Icon-library_3D-Window_header-layers.jpg
-
 
 - **Layers** : Blender :doc:`Layers </3d_interaction/navigating/layers>` are provided to help distribute your objects into functional groups.  For example, one layer may contain a water object and another layer may contain trees, or one layer may contain cameras and lights. To de-clutter the view you can turn layers on and off.
 

@@ -27,7 +27,6 @@ Usage
 
 .. figure:: /images/View3d_ruler_basic.jpg
 
-
 Here are common steps for using the ruler.
 
 - Activate the Ruler from the toolshelf.

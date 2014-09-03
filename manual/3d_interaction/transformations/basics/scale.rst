@@ -126,7 +126,6 @@ and blue triad is selected). Set the manipulator type to scale
 
 .. figure:: /images/3D_interaction-Transformations-Basic-Scale-scale_manipulator_header.jpg
 
-
 - Select your element with :kbd:`RMB`.
 - Use :kbd:`LMB` and drag any of the three colored axes on the scaling manipulator to scale your object along that axis. You can also use :kbd:`shift`, :kbd:`ctrl` or numeric input with the 3D manipulator widget for further control.
 - Your changes will be applied when you release :kbd:`LMB` or press :kbd:`SPACE` or :kbd:`ENTER`. Your changes will be cancelled if you press :kbd:`RMB` or :kbd:`ESC`.

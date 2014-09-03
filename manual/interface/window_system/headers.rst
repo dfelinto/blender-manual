@@ -10,7 +10,6 @@ of a window's area. The picture below shows the header of the 3D window:
 
 .. figure:: /images/Manual-Interface-Window_System-Headers-Headerexmpl25.jpg
 
-
 If you move the mouse over a window, its header changes to a slightly lighter shade of gray.
 This means that it is "focused".
 All hotkeys you press will now affect the contents of this window.
@@ -20,7 +19,6 @@ Hiding a header
 ===============
 
 .. figure:: /images/Manual-Interface-Window_System-Headers-Hide25.jpg
-
 
 To hide a header, move your mouse over the thin line between a window and its header,
 until the pointer takes the form of an up/down arrow. Then click,
@@ -32,7 +30,6 @@ Showing a header
 
 .. figure:: /images/Manual-Interface-Window_System-Headers-Show25.jpg
 
-
 A hidden header leaves a little plus sign (see picture). By :kbd:`LMB` this,
 the header will reappear.
 
@@ -42,7 +39,6 @@ not a second header.
 
 
 .. figure:: /images/Manual-Interface-Window_System-Headers-Show2_25.jpg
-
 
 Note 2: In some windows, the mentioned plus sign can be hard to find,
 because it might look like a part of other icons. One example is the Outliner,

@@ -16,7 +16,6 @@ You can also load the Preferences editor in any window by selecting
 
 .. figure:: /images/User-preferences-icon.jpg
 
-
  :guilabel:`User Preferences` from the Window type selection menu.
 
 

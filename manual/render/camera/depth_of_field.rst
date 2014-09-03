@@ -25,7 +25,6 @@ simulates light coming straight in to an infinitely large backplane or flat reti
 
 .. figure:: /images/Manual-Camera-DOF.jpg
 
-
 Depending on the diameter of the iris, there is a range (of distance)
 where objects are in focus. In cameras, the diameter of the iris is controlled by an "f-stop".
 Said another way, there is *field* of view that you see left to right, up and down;

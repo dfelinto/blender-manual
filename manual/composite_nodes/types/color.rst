@@ -142,7 +142,6 @@ Mix Node
 
 .. figure:: /images/Manual-Node-Mix.jpg
 
-
 This node mixes a base image (threaded to the top socket) together with a second image
 (bottom socket)
 by working on the individual and corresponding pixels in the two images or surfaces.
@@ -213,7 +212,6 @@ Below are samples of common mix modes and uses, mixing a color or checker with a
 
 
 .. figure:: /images/Manual-Compositing-Mix-examples.jpg
-
 
 Some explanation of the mixing methods above might help you use the Mix node effectively:
 
@@ -354,7 +352,6 @@ Hue Saturation Node
 
 .. figure:: /images/Manual-Node-HSV.jpg
 
-
 As an alternative to RGB editing, color can be thought of as a mix of Hues,
 namely a normalized value along the visible spectrum from infra-red to ultraviolet
 (the rainbow, remember "Roy G. Biv").
@@ -410,7 +407,6 @@ HSV Example
 -----------
 
 .. figure:: /images/Manual-Node-HSV_example.jpg
-
 
 Here, the image taken by a cheap digital camera in poor lighting at night using a flash
 (can we do it any worse, eh?) is adjusted by decreasing the Hue

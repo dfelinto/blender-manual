@@ -127,7 +127,6 @@ Curve Properties can be set from the :guilabel:`Object Data` option in the
 
 .. figure:: /images/Icon-library_Properties_header-curve.jpg
 
-
 Shape
 -----
 

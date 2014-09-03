@@ -11,7 +11,6 @@ Materials available in the currently-open Blender file can be investigated by cl
 
 .. figure:: /images/Manual-Material-MatButton.jpg
 
-
  in the Properties Window Header. In this section we look at how to assign or remove a material to/from the Active Object in Blender, either by:
 
 - creating a new material,
@@ -72,7 +71,6 @@ Material are as follows:
 
 .. figure:: /images/Doc_2.6_Materials_Available_Button_Icon.jpg
 
-
  - Available Materials
    See Reusing Existing Materials below.
 **Name**
@@ -94,7 +92,6 @@ Material are as follows:
 **Nodes**
 
 .. figure:: /images/Doc_2.6_Materials_Nodes_Button_Icon.jpg
-
 
    If dark, use the Shader Nodes to generate the material.
 

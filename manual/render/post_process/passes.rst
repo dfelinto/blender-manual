@@ -82,7 +82,6 @@ Selecting Render Passes
 
 .. figure:: /images/Manual-RenderLayer-Panel.jpg
 
-
 Render Passes are the various distinct outputs that the renderer is able to generate.
 All of the following render outputs are normally combined into a single output known,
 appropriately enough, as the **Combined** output.

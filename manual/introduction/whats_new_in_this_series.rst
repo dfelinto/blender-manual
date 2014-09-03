@@ -48,7 +48,6 @@ These go to the new **Toolbar** of the different editors (like 3D view).
 
 .. figure:: /images/Change-from-global-to-specific.jpg
 
-
 Starting at the top level, the Properties editor contains a list of tabs.
 The list of tabs themselves are organized so that the most general controls appear on the left
 (Render Properties), while more fine-grained controls (Object>Mesh>Material>Texture)
@@ -161,7 +160,6 @@ Search tool
 
 .. figure:: /images/Change-search-tool.jpg
 
-
 Blender 2.5 integrates a search tool which permits you to find a function by entering its name
 (or a part of it).
 Just hit :kbd:`space` where you want to search and the menu will appear.
@@ -196,4 +194,3 @@ Watch this page on video!
 This page has been made into a video. You can watch it on YouTube!
 
 .. youtube:: WamG6HIZ1rw
-

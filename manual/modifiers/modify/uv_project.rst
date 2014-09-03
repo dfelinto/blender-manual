@@ -28,7 +28,6 @@ Options
 
 .. figure:: /images/Uvproject_ui.jpg
 
-
 :guilabel:`UV layer`
    Which UV layer to modify. Defaults to the active rendering layer.
 

@@ -55,7 +55,6 @@ Following is a video that shows how you can switch to the interpreter.
 
 .. youtube:: Ge2Kwy5EGE0
 
-
 .. figure:: /images/Manual-Part-XX-Manual-Extensions-Python-Console-Default-Console.jpg
    :width: 600px
    :figwidth: 600px
@@ -74,7 +73,6 @@ Type the following print statement at the interpreter prompt and press :kbd:`Ent
 
 
 .. figure:: /images/Manual-Part-XX-Manual-Extensions-Python-Tutorial-Hello-World.jpg
-
 
 Let's break down the above statement.
 
@@ -103,7 +101,6 @@ By doing so we are repeating the string by the count specified by *number*
 
 
 .. figure:: /images/Manual-Part-XX-Manual-Extensions-Python-Tutorial-Hello-World2.jpg
-
 
 .. note::
 

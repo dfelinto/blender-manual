@@ -359,7 +359,6 @@ FIXME(TODO: Internal Link;
 
 .. figure:: /images/Driver_For_Multiple_Shape_Keys_Extended.jpg
 
-
 The Basis shape key has the stacks fully retracted.  Key1 has the base
 fully extended.  Key2A has the left stack fully extended.  Key2B has
 the right stack fully extended.  Key2A and Key2B are both relative to

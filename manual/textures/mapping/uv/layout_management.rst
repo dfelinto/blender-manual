@@ -71,7 +71,6 @@ UV Textures List
 
 .. figure:: /images/Manual-UV-Editing-Mesh-panel.jpg
 
-
 The Mesh panel (shown to the right) lists the UV Texture maps created for this mesh,
 and allows you to create New ones as placeholders for future unwrapping operations.
 

@@ -44,7 +44,6 @@ In Blender 2.5, the separate :guilabel:`Ramp` panels for the :guilabel:`Diffuse`
 
 .. figure:: /images/Manual-2.5-Material-RampsButton.jpg
 
-
  button.
 
 By default the Ramp panel opens with two colors; the first stop (:guilabel:`0`)
@@ -55,13 +54,11 @@ The position of the color stop markers can be altered by either (1) dragging the
 
 .. figure:: /images/Manual-2.5-Material-Ramps-StopPos.jpg
 
-
  box.
 
 Color and alpha values for each marker can be set by clicking the
 
 .. figure:: /images/Manual-2.5-Material-Ramps-ColorAlpha.jpg
-
 
  box.
 
@@ -126,7 +123,6 @@ Options
    The number of the active mark.  The values for this mark are those being displayed, and in the colorband, the active mark is displayed as a dashed line.  Another marker can be selected (1) using the arrows in the
 
 .. figure:: /images/Manual-2.5-Material-Ramps-MarkerSelectSlider.jpg
-
 
  slider, (2) by clicking on the number being displayed and entering a number of a color mark, or (3) by :kbd:`lmb` clicking a marker in the colorband.
 

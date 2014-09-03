@@ -60,7 +60,6 @@ To be able to clearly see what you are working on:
 
 .. figure:: /images/Icon-library_3D-Window_PointSelectMode.jpg
 
-
  in the header of the 3D window. This will display key points along the particle path.
 
 

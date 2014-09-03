@@ -8,7 +8,6 @@ Glossary
 
 .. glossary::
 
-
    Lattice
       TODO
 

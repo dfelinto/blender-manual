@@ -4,7 +4,6 @@ COLLADA Import and Export
 
 .. figure:: /images/Manual_Data_System_Files_Import_COLLADA_exporter.jpg
 
-
 The Collada module has been implemented as a flexible tool for exporting and importing .
 dae files. We have taken care to provide a set of parameters which should make it possible to
 export/import Collada files from/to a variety of tools.

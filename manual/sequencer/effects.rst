@@ -60,7 +60,6 @@ Cross and Gamma Cross
 
 .. figure:: /images/Manual-VSE-Cross.jpg
 
-
 This effect fades from one strip to another, based on how many frames the two strips overlap.
 This is a very useful strip that blends the whole image from one to the other.
 
@@ -249,7 +248,6 @@ Transform
 
 .. figure:: /images/Manual-VSE-Transform_ex.gif
 
-
 (Note: Transform does not work in Blender 2.49)
 Transform is a swiss-army knife of image manipulation. It scales, shifts,
 and rotates the images within a strip.
@@ -260,7 +258,6 @@ enable the :guilabel:`Frame locked` button and define a curve in the Ipo Window
 
 
 .. figure:: /images/Manual-VSE-Transform_prop.jpg
-
 
 With the :guilabel:`Transform` strip selected,
 uses the properties panel to adjust the settings of this effect:

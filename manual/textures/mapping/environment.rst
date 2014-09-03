@@ -79,7 +79,6 @@ Clear All Environment Maps
 
 .. note::
 
-
    EnvMap calculation can be disabled at a global level by the EnvMap Tog Button in the Render
    Panel of the Rendering Buttons.
 

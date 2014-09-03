@@ -209,12 +209,10 @@ Channel selector
 
 .. figure:: /images/26-Material-Color-Node-Curves-Zoomin-Buticon.jpg
 
-
    Zoom in curve.
 
 
 .. figure:: /images/26-Material-Color-Node-Curves-Zoomout-Buticon.jpg
-
 
    Zoom out curve.
 
@@ -240,12 +238,10 @@ Channel selector
 
 .. figure:: /images/26-Material-Color-Node-Curves-Clipping-Buticon.jpg
 
-
    Clipping options display of the curve.
 
 
 .. figure:: /images/26-Material-Color-Node-Curves-Delpoints-Buticon.jpg
-
 
    Deletes points of the curve.
 

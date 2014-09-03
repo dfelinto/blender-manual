@@ -193,7 +193,6 @@ Using Paths
 
 .. note::
 
-
    Strands when they are generated instantly die when created so for the :guilabel:`Path` button
    to be of any use, you must also have the :guilabel:`Dead` button activated.
    Otherwise the path a mesh took will not be visible!

@@ -42,16 +42,13 @@ Steps to use the applescript
 
 .. figure:: /images/Thread_Applescript.jpg
 
-
 - Set the threadcount you want to use (leave empty to let OMP get all available cores)
 
 .. figure:: /images/Thread_Setting.jpg
 
-
 - Press o.k. to set the new value, a messagebox will show you the new setting accepted.
 
 .. figure:: /images/Thread_Information.jpg
-
 
 - Close and reopen Blender to take over the setting.
 - Watch your baking progress or simulation framerates and perhaps repeat steps 1- 4 to get the optimal value.

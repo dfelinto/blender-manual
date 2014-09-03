@@ -177,7 +177,6 @@ Protection
 
 .. figure:: /images/Manual-Introduction-Security-trusted-source.jpg
 
-
 To protect against malicious .blend files,
 it's possible to prevent any embedded scripts from running when you open a .blend file.
 This will mean that custom tools or rigs using Python features will not work,

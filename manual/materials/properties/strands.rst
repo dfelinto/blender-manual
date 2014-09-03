@@ -66,7 +66,6 @@ The options for strand shading are in the :guilabel:`Strands` section of the
 
 .. figure:: /images/Blender3D_StrandShapes.jpg
 
-
 :guilabel:`Width Fade`
    To fade out along the width of the strand. This works only for Strand Primitives. 0.0 is no fading at all, 1.0 linear fading out.
 

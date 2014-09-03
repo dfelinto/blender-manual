@@ -299,4 +299,3 @@ When you are in :guilabel:`Camera` view,
 the :doc:`fly mode </3d_interaction/navigating#fly_mode>` actually moves your active camera...
 
 .. youtube:: bTRrHNn-d4w
-

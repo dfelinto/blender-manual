@@ -30,7 +30,6 @@ Splitting a window
 
 .. figure:: /images/Manual-Interface-Window_System-Arranging_frames-splitwidget.jpg
 
-
 In the upper right and lower left corners of a window are the window splitter widgets,
 and they look like a little ridged thumb grip. It both splits and combines window panes.
 When you hover over it, your cursor will change to a cross.

@@ -19,7 +19,6 @@ Stereo Settings
 
 .. figure:: /images/Manual-GameEngine-Stereo-Panel.jpg
 
-
    Set the type of stereo camera to use. Possible modes are detailed below.
 
 :guilabel:`Eye Separation`

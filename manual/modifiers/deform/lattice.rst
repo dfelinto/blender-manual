@@ -10,7 +10,6 @@ Lattice Modifier
 
    .. figure:: /images/CZ_Modifier_ContextButton.jpg
 
-
 The :guilabel:`Lattice` modifier deforms the base object according to the shape of a
 :guilabel:`Lattice` object.
 
@@ -36,9 +35,6 @@ Method
 You can control the :guilabel:`Lattice` object attributes in the :guilabel:`Object Data` context for the :guilabel:`Lattice` in the :guilabel:`Properties Window`
 
 .. figure:: /images/Lattice-Modifier-Context-Button.jpg
-
-
-.
 
 A lattice consists of a non-renderable three-dimensional grid of vertices.
 Its main use is to give extra deformation capabilities to the underlying object it controls

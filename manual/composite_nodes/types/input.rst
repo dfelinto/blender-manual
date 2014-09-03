@@ -265,7 +265,6 @@ Saving/Retrieving Render Passes
 
 .. figure:: /images/Manual-Nodes-Input-Multilayer.jpg
 
-
 Blender can save the individual Render Layers and specific passes in a MultiLayer file format,
 which is an extension of the OpenEXR format. In this example,
 we are reading in frames 50 to 100 of a RenderLayer that were generated some time ago.
@@ -305,7 +304,6 @@ Animations
 ----------
 
 .. figure:: /images/Manual-Compositing-Node-Image-anicontrols.jpg
-
 
 To use image sequences or movies within your composition,
 press the face or little film strip button located to the right of the selector. As you click,
@@ -564,7 +562,6 @@ Example
 
 .. figure:: /images/Manual-Compositing-Input-Texture.jpg
 
-
 In the example above, we want to simulate some red plasma gas out there in space. So, we fog
 up an image taken from the Hubble telecscope of Orion and take the ever-so-useful Cloud
 texture and use it to mix in red with the image.
@@ -611,7 +608,6 @@ Example
 -------
 
 .. figure:: /images/Manual-Compositing-Input-RGB.jpg
-
 
 In this example, our corporate color is teal, but the bozo who made the presentation forgot.
 So, we multiply his lame black and white image with our corporate color to save him from

@@ -228,7 +228,6 @@ Smooth
 
 .. tip:: Alternative Method
 
-
    The Toon shader effect can also be accomplished in a more controllable way using ColorRamps.
 
 

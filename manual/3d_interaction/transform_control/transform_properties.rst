@@ -82,11 +82,9 @@ To lock a field, click the padlock icon next to the field. The field is unlocked
 
 .. figure:: /images/Manual-Part-II-ObjectMode-TransformProperties-Panel-Unlocked.jpg
 
-
 ), and it is locked if the icon appears as (
 
 .. figure:: /images/Manual-Part-II-ObjectMode-TransformProperties-Panel-Locked.jpg
-
 
 ).
 

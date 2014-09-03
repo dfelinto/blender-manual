@@ -22,7 +22,6 @@ compared to e.g. bidirectional path tracing.
 
 .. figure:: /images/Manual_cycles_light_path_rays.jpg
 
-
 We do the inverse of what reality does,
 tracing light rays from the camera into the scene and onto lights,
 rather than from the light sources into the scene and then into the camera.

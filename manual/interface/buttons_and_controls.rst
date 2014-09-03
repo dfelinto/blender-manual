@@ -147,7 +147,6 @@ For example, the Add Modifier button will produce a menu with all of the availab
 
 .. note:: Unlinked objects
 
-
    Unlinked data is *not* **lost until you quit Blender**. This is a powerful Undo feature.
    If you delete an object the material assigned to it becomes unlinked, but is still there! You
    just have to re-link it to another object or supply it with a "Fake User" (i.e.

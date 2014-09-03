@@ -114,7 +114,6 @@ Notice this tool can run multiple times to continue creating faces.''*
 
 .. figure:: /images/Mesh_face_create_boundary.jpg
 
-
 Further Reading
 ^^^^^^^^^^^^^^^
 

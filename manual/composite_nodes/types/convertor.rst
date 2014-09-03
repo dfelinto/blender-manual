@@ -91,7 +91,6 @@ This example compositing map takes a boring BW image and makes it a flaming swir
 
 .. figure:: /images/Manual-Compositing-ColorRamp_Colorize.jpg
 
-
 In this example, we have mapped the shades of gray in the input image to three colors, blue,
 yellow, and red, all fully opaque (Alpha of 1.00). Where the image is black,
 ColorRamp substitutes blue, the currently selected color. Where it is some shade of gray,
@@ -323,7 +322,6 @@ Using Sine Function to Pulsate
 
 .. figure:: /images/Manual-Compositing-Node-Math_Sine.jpg
 
-
 This example has a Time node putting out a linear sequence from 0 to 1 over the course of 101
 frames. The green vertical line in the curve widget shows that frame 25 is being put out,
 or a value of .25. That value is multiplied by 2*pi and converted to 1.0 by the Sine function,
@@ -348,7 +346,6 @@ Brightening/Scaling a Channel
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: /images/Manual-Compositing-Node-Math_Multiply.jpg
-
 
 This example has a Multiply node increasing the luminance channel (Y)
 of the image to make it brighter. Note that you should use a Map Value node with Min() and Max

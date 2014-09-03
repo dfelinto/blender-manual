@@ -266,7 +266,6 @@ The option is available from the footer menu bar of the 3D viewport
 
 .. figure:: /images/26-Manual-Modeling-Meshes-weight-paint-select.jpg
 
-
 You can choose between :guilabel:`Face Selection masking` (left icon)
 and :guilabel:`Vertex selection masking` (right icon).
 

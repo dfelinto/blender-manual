@@ -155,7 +155,6 @@ Click :kbd:`Lmb` to validate, or :kbd:`Rmb` to cancel the modification.
 
 .. tip:: Dealing with Different Sizes
 
-
    Dealing with different sized images and different sized outputs is tricky. Think like a pixel.
    If you have a mis-match between the size of the input image and the render output size,
    the VSE does try to auto-scale the image to fit it entirely in the output.
@@ -166,7 +165,6 @@ Click :kbd:`Lmb` to validate, or :kbd:`Rmb` to cancel the modification.
 
 
 .. figure:: /images/Manual-VSE-sample.jpg
-
 
 If you scroll up the workspace, you will see an information channel
 (at vertical location channel 0) that gives you some helpful hints about the active strip.

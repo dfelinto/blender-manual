@@ -48,18 +48,15 @@ Controls
 
 .. figure:: /images/26-Material-Convertor-Node-ColorRamp-Addpoint-Buticon.jpg
 
-
    Add a new mark to the center of the colorband with the default color (neutral gray).
 
 
 .. figure:: /images/26-Material-Convertor-Node-ColorRamp-Deletepoint-Buticon.jpg
 
-
    Remove the currently selected mark from the colorband.
 
 
 .. figure:: /images/26-Material-Convertor-Node-ColorRamp-Flip-Buticon.jpg
-
 
    Flip the colorband.
 
@@ -95,12 +92,10 @@ Controls
 
 .. figure:: /images/26-Material-Convertor-Node-ColorRamp-Numberpoint-Buticon.jpg
 
-
    The number of the active mark.
 
 
 .. figure:: /images/26-Material-Convertor-Node-ColorRamp-Pospoint-Buticon.jpg
-
 
    :guilabel:`Pos`.  The position of the active color mark in the colorband (range 0.0–1.0).  The position of the color marks can also be changed by :kbd:`lmb` dragging them in the colorband.
 

@@ -44,7 +44,6 @@ FIXME(Template Unsupported: Doc:2.6/Manual/Physics/Fluid/animated_mesh_export;
 
 .. note:: Moving obstacles support
 
-
    Blender supports now moving obstacles.
 
    In the past, a  moving obstacle was automatically treated as no slip (sticky),

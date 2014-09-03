@@ -32,7 +32,6 @@ Dome Camera Settings
 
 .. figure:: /images/Manual-GameEngine-Dome-Panel.jpg
 
-
 Dome Type
    This menu allows you to select which type of dome camera to use.
    They are outlined below, along with their respective settings.
@@ -149,7 +148,6 @@ For more information on the mesh format see `Paul Bourke's article <http://paulb
 
 
 .. figure:: /images/Dev-GameEngine-Dome-Warped.jpg
-
 
 In order to produce that images, we are using a specific file format.
 

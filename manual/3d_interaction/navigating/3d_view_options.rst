@@ -108,7 +108,6 @@ View
 
 .. note:: Notice
 
-
    .. warning::
 
       A large clipping range will allow you to see both near and far objects, but reduces the depth precision.

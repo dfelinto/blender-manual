@@ -56,7 +56,6 @@ To start an *OpenGL render* you can use any of the following options:
 
 .. figure:: /images/Manual-Vitals-Starting-Small-OpenGL-Render-buttons.jpg
 
-
 .. figure:: /images/Manual-Vitals-Starting-Small-Search-Render.jpg
 
    Search functionality
@@ -165,7 +164,6 @@ To Render an animation using *OpenGL Render*, you can use any of the following o
 
 
 .. figure:: /images/Manual-Vitals-Starting-Small-OpenGL-Render-buttons.jpg
-
 
 - Click on the small button showing a *slate* (together with a small image showing a *camera*) in the header of the 3D View
 - Go to :menuselection:`Render --> OpenGL Render animation` from the header of the :guilabel:`Info Window`  (see: *Header of the Info Window* Image)

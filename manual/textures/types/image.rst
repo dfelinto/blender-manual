@@ -216,7 +216,6 @@ Mix and Match Materials
 
 .. figure:: /images/Manual-UV-MixMat.jpg
 
-
 You can mix and match procedural materials and textures, vertex paint,
 and UV textures onto the same mesh.
 
@@ -587,7 +586,6 @@ Interpolation
    This becomes visible when you enlarge the picture. By default, this option is on.  Turn this option OFF to keep the individual pixels visible and if they are correctly anti-aliased.  This last feature is useful for regular patterns, such as lines and tiles; they remain 'sharp' even when enlarged considerably.  When you enlarge this 10x10 pixel Image
 
 .. figure:: /images/Manual-PartIV-Linien.jpg
-
 
 the difference with and without :guilabel:`Interpolation` is clearly visible.
 Turn this image off if you are using digital photos to preserve crispness.

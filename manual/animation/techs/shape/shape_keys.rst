@@ -225,7 +225,6 @@ Workflow For Absolute Shape Keys
 
 .. figure:: /images/Doc_Absolute_SK_Workflow_1.jpg
 
-
 .. figure:: /images/Doc_Absolute_SK_Workflow_2.jpg
    :width: 50px
    :figwidth: 50px

@@ -13,7 +13,6 @@ Multiresolution Modifier
 
    .. figure:: /images/CZ_Modifier_ContextButton.jpg
 
-
 .. figure:: /images/Multires_modifier_image.jpg
    :width: 500px
    :figwidth: 500px

@@ -148,7 +148,6 @@ If you switch to the console after the render is completed, you should
 
 .. note:: Console output
 
-
    Launching 1 threads
 
    Fake   pass: [#############]
@@ -229,12 +228,9 @@ Amount of Light
 
 .. figure:: /images/Manual-Render-Yafray-BI.jpg
 
-
 .. figure:: /images/Manual-Render-Yafray-NO.jpg
 
-
 .. figure:: /images/Manual-Render-Yafray-GI.jpg
-
 
 YafRay deals with light completely differently than the Blender Internal Renderer,
 and apparently light intensity needs to be pumped by large amounts for YafRay.

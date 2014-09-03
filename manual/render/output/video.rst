@@ -27,7 +27,6 @@ Dimensions Presets
 
 .. figure:: /images/Render-Dimensions-Presets.jpg
 
-
 The rendering size is strictly dictated by the TV standard.
 Blender has 11 pre-set settings for your convenience:
 
@@ -168,7 +167,6 @@ Still
 
 .. note:: Setting up the correct field order
 
-
    Blender's default setting is to produce Even fields *before*
    Odd fields; this complies with European PAL standards. Odd fields are scanned
    first on NTSC.
@@ -185,7 +183,6 @@ Still
 
 
 .. note:: Fields and Composite Nodes
-
 
    Nodes are currently not field-aware. This is partly due to the fact that in fields,
    too much information is missing to do good neighborhood operations (blur, vector blur etc.).
@@ -260,7 +257,6 @@ Advanced Encoding
 -----------------
 
 .. figure:: /images/Manual-Render-FFMPEG-Video-2.5+.jpg
-
 
 If the  :guilabel:`H.264`, :guilabel:`MPEG`, :guilabel:`Ogg Theora`,
 or :guilabel:`Xvid` codecs are chosen, an :guilabel:`Encoding` panel becomes available.
@@ -488,7 +484,6 @@ Home-made Render Farm
 ---------------------
 
 .. figure:: /images/Homemade-Render-Farm.jpg
-
 
 An easy way to get multiple machines to share the rendering workload is to:
 

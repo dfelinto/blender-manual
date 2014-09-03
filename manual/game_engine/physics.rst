@@ -101,7 +101,6 @@ Visualizing Physics
 
 .. figure:: /images/Manual-BGE-Physics-Visualization.jpg
 
-
 Go to :menuselection:`Game --> Show Physics Visualization` to show lines representing various attributes
 of the Bullet representation of your objects.
 Note that these might be easier to see when you turn on Wireframe Mode (:kbd:`z`)

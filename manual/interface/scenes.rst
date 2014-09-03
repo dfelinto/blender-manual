@@ -36,7 +36,6 @@ You can add a new scene by clicking
 
 .. figure:: /images/Manual-Part-I-Interface-Screens-AddView-Button25.jpg
 
-
  in the Scene selector option. When you create a new scene, you can choose between five options to control its contents (*Add Scene menu*).
 
 To choose between these options,
@@ -84,7 +83,6 @@ from* the currently selected Scene to the new one, and how much will be *shared*
 
 .. figure:: /images/Manual-Interface-Scenes-mk_singleuser.jpg
 
-
 :guilabel:`Full Copy`
    Is the deepest form of copying available.  Nothing is shared.  This option creates a fully independent Scene with copies of the currently selected Scene's contents.  Every Object in the original Scene is duplicated, and a duplicate, private copy of its ObData is made as well.
 
@@ -119,7 +117,6 @@ Deleting a Scene
 You can delete a scene by using the :guilabel:`Delete datablock` button (
 
 .. figure:: /images/Manual-Part-I-Interface-Screens-DeleteView-Button25.jpg
-
 
 ) from the Scene selector option (see *Screen and Scene selectors*).
 

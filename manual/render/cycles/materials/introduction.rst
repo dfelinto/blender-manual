@@ -9,7 +9,6 @@ the volume inside the mesh, and displacement of the surface of the mesh.
 
 .. figure:: /images/Manual_cycles_material_shaders.jpg
 
-
 :doc:`Surface Shader </render/cycles/materials/surface>`
 ========================================================
 

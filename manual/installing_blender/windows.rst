@@ -71,7 +71,6 @@ Program options
 
 .. figure:: /images/(Doc_26x_Manual_Introduction_Installing_Blender_Windows)_(03_Installation_Options)_(GNWindows_7_B266FN).jpg
 
-
 Select any desired options.
 
 
@@ -79,7 +78,6 @@ Location
 ~~~~~~~~
 
 .. figure:: /images/(Doc_26x_Manual_Introduction_Installing_Blender_Windows)_(04_Program_Options)_(GNWindows_7_B266FN).jpg
-
 
 Here you can choose the directory where Blender will be installed.
 
@@ -94,7 +92,6 @@ Installed
 =========
 
 .. figure:: /images/(Doc_26x_Manual_Introduction_Installing_Blender_Windows)_(06_Installing)_(GNWindows_7_B266FN).jpg
-
 
 And there you go! A fresh installation of Blender 2.5. After enabling or disabling
  the option to run Blender right after closing the installation, click 'Finish'.

@@ -47,7 +47,6 @@ these common options are explained for the :guilabel:`Spherical` field.
 
 .. note::
 
-
    After changing the fields (:guilabel:`Fields` panel) or deflection
    (:guilabel:`Collision` panel) settings, you have to recalculate the particle,
    softbody or cloth system (:guilabel:`Free Cache`), this is not done automatically. You can

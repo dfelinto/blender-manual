@@ -31,7 +31,6 @@ and alphaovered with a Hello scene RenderLayer input
 
 .. figure:: /images/Manual-Compositing-Translate_example.jpg
 
-
 Example: Using the Translate Node to Roll Credits
 -------------------------------------------------
 
@@ -294,7 +293,6 @@ Map UV Node
 ===========
 
 .. figure:: /images/Manual-Compositing-Node-MapUV.jpg
-
 
 So, I think we all agree that the problem is...we just don't know what we want.
 The same is true for directors. Despite our best job texturing our models, in post production,

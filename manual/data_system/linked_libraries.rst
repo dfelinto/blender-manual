@@ -146,9 +146,7 @@ FIXME(TODO: Internal Link;
 
 .. tip:: Using Appended/Linked Mesh Data
 
-
    .. figure:: /images/Manual-UsingLinkedLibraries-OOP_Schematic_Views-Wheel.jpg
-
 
    When Appending or Linking certain resources such as mesh data,
    it may not be instantly visible in the 3D Viewport.
@@ -161,7 +159,6 @@ FIXME(TODO: Internal Link;
 
 
    .. figure:: /images/Manual-UsingLinkLibraries-LinksAndMats.jpg
-
 
    To allow the newly loaded ``Wheel`` mesh to be assigned to an object,
    either select a currently visible object or create a new object (such as a cube), then go to

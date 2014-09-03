@@ -63,7 +63,6 @@ Click on the "Add" button(
 
 .. figure:: /images/Manual-Part-I-Interface-Screens-AddView-Button25.jpg
 
-
 ) and a new frame layout will be created based on your current layout.
 
 You might want to give the new screen not only a *name* but also a *number* in front of it
@@ -79,7 +78,6 @@ Deleting a Screen
 You can delete a screen by using the :guilabel:`Delete datablock` button (
 
 .. figure:: /images/Manual-Part-I-Interface-Screens-DeleteView-Button25.jpg
-
 
 ). See *Screen and Scene selectors* above.
 

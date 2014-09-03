@@ -100,7 +100,6 @@ this is all because of the Index of Refraction of glass.
 
 .. note:: Enable Raytracing
 
-
    To get ray-traced transparency, you need to:
 
    - enable ray tracing in your Render settings.  This is done in the Render context  → Shading Panel. Ray tracing is enabled by default.

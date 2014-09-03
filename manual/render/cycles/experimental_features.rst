@@ -11,7 +11,6 @@ They are hidden by default, but can be enabled by setting :guilabel:`Feature Set
 
 .. figure:: /images/experimental.jpg
 
-
 Currently considered experimental:
 
 - OpenCL device

@@ -58,7 +58,6 @@ The alpha and Z channels (for compositing nodes) are mixed as well.
 
 .. note:: Color Channels
 
-
    There are two ways to express the channels that are combined to result in a color: RGB or HSV.
    RGB stands for the Red,Green,Blue pixel format,
    and HSV stands for Hue,Saturation,Value pixel format.

@@ -21,7 +21,6 @@ see the page on :doc:`Opening files </data_system/files/open>`.
 
 .. figure:: /images/File-savewindow.jpg
 
-
 Saving
 ******
 

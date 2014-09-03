@@ -19,4 +19,3 @@ around in your virtual world using the unique Blender interface.
 
 .. figure:: /images/3d_interaction_introduction.jpg
 
-
