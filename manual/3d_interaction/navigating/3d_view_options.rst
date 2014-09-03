@@ -1,6 +1,9 @@
 
+View Settings
+*************
+
 View Shading
-************
+============
 
 .. admonition:: Reference
    :class: refbox
@@ -10,7 +13,7 @@ View Shading
 
 
 Description
-===========
+-----------
 
 Depending on the speed of your computer, the complexity of your scene,
 and the type of work you are currently doing, you can switch between several drawing modes:
@@ -21,26 +24,26 @@ and the type of work you are currently doing, you can switch between several dra
    A 3D view's draw mode button.
 
 
-:guilabel:`Textured`
+Textured
    Displays UV image textured models with OpenGL lighting.
    Neither procedural textures or non UV-mapped textures  will be shown.
 
-:guilabel:`Shaded`
+Shaded
    Approximates all textures and lighting at each vertex, and blends from one to the next.
    Much less accurate than using the render engine to check textures, but much faster.
    Note that if you have no lighting in your scene, everything will remain black.
 
-:guilabel:`Solid`
+Solid
    This is the default drawing mode where surfaces are drawn as solid colors, with built-in OpenGL lighting.
    This draw mode is not dependent on scene light sources and can be configured in the :guilabel:`Solid OpenGL lights`
    group of controls from the :guilabel:`System & OpenGL` tab of the :guilabel:`User Preferences` window.
 
    :doc:`Read more about System Configuration » </preferences/system>`
 
-:guilabel:`Wireframe`
+Wireframe
    Objects only consist of lines that make their shapes recognizable (e.g. the edges of meshes or surfaces).
 
-:guilabel:`Bounding Box`
+Bounding Box
    Objects aren't drawn at all. Instead,
    this mode shows only the rectangular boxes that correspond to each object's size and shape.
 
@@ -64,7 +67,7 @@ You can switch between these draw modes by:
 
 
 View Properties Panel
-*********************
+=====================
 
 .. admonition:: Reference
    :class: refbox
@@ -75,7 +78,7 @@ View Properties Panel
 
 
 Description
-===========
+-----------
 
 In addition to the header controls described above,
 the :guilabel:`View Properties` panel lets you set other settings regarding the 3D view.
@@ -86,64 +89,56 @@ View
 
 ----
 
-
-:guilabel:`Lens`
+Lens
    Control the focal length of the 3d view camera in millimeters, unlike a :doc:`rendering camera </render/camera>`
 
-:guilabel:`Lock to Object`
+Lock to Object
    By entering the name of an object in the :guilabel:`Object` field, you lock your view to this object, i.e.
    it will always be at the center of the view (the only exception is the active camera view, :kbd:`pad0`).
    If the locked object is an armature,
    you can further center the view on one of its bones by entering its name in the :guilabel:`Bone` field.
 
-:guilabel:`Lock to Cursor`
+Lock to Cursor
    Lock the center of the view to the position of the 3D cursor
 
-:guilabel:`Lock Camera to View`
+Lock Camera to View
    When in camera view, use this option to move the camera in 3D space, while continuing to remain in camera view.
 
-:guilabel:`Clip Start` and :guilabel:`Clip End`
+Clip Start and Clip End
    Adjust the minimum and maximum distances to be visible for the view-port.
 
-
-.. note:: Notice
-
-   .. warning::
+   .. note::
 
       A large clipping range will allow you to see both near and far objects, but reduces the depth precision.
 
-   To avoid this:
+      To avoid this:
 
-   - increase the near clipping when working on large scenes.
-   - decrease the far clipping when objects are not viewed at a distance.
+      - increase the near clipping when working on large scenes.
+      - decrease the far clipping when objects are not viewed at a distance.
 
-   When perspective is disabled only the far Clip-End is used,
-   very high values can still give artifacts.
+      When perspective is disabled only the far Clip-End is used,
+      very high values can still give artifacts.
 
-   *This is not specific to blender, all OpenGL/DirectX graphics applications have these same limitations.*
+      *This is not specific to blender, all OpenGL/DirectX graphics applications have these same limitations.*
 
-   Examples:
+      Examples:
 
+      .. figure:: /images/Graphics_z_fighting_none.jpg
 
-   .. figure:: /images/Graphics_z_fighting_none.jpg
+         Model with no clipping artifacts.
 
-      Model with no clipping artifacts.
+      .. figure:: /images/Graphics_z_fighting_example.jpg
 
+         Model with clipping artifacts.
 
-   .. figure:: /images/Graphics_z_fighting_example.jpg
+      .. figure:: /images/Graphics_z_fighting_example_editmode.jpg
 
-      Model with clipping artifacts.
+         Mesh with artifacts in edit-mode.
 
-
-   .. figure:: /images/Graphics_z_fighting_example_editmode.jpg
-
-      Mesh with artifacts in edit-mode.
-
-
-:guilabel:`Local Camera`
+Local Camera
    Active camera used in this view
 
-:guilabel:`3D Cursor Location`
+3D Cursor Location
    Here you can precisely specify the position of the 3D cursor
 
 
@@ -156,38 +151,43 @@ This section displays the currently selected object
 
 
 Display
-=======
+-------
 
-:guilabel:`Only Render`
+Only Render
    Displays only items that will be rendered.
-:guilabel:`Outline Selected`
-   If disabled, the pink outline around your selected objects in :guilabel:`Solid` / :guilabel:`Shaded` / :guilabel:`Textured` draw types will no longer be displayed.
-:guilabel:`All Object Origins`
-   If enabled, the center dot of objects will always be visible, even for non-selected ones (by default, unselected centers might be hidden by geometry in solid/shaded/textured shadings).
-:guilabel:`Relationship Lines`
+Outline Selected
+   If disabled, the pink outline around your selected objects in
+   :guilabel:`Solid` / :guilabel:`Shaded` / :guilabel:`Textured` draw types will no longer be displayed.
+All Object Origins
+   If enabled, the center dot of objects will always be visible, even for non-selected ones
+   (by default, unselected centers might be hidden by geometry in solid/shaded/textured shadings).
+Relationship Lines
    Controls whether the dashed parenting, constraining, hooking, etc., lines are drawn.
-:guilabel:`All Edges`
-   When wire overlay is enabled in the :guilabel:`Object` context, this options forces all of the wireframe to be displayed in the viewport.
-:guilabel:`Grid Floor`
+All Edges
+   When wire overlay is enabled in the :guilabel:`Object` context,
+   this options forces all of the wireframe to be displayed in the viewport.
+Grid Floor
    If disabled, you have no grid in other views than the orthographic top/front/side ones.
-:guilabel:`X Axis`, :guilabel:`Y Axis`, :guilabel:`Z Axis`
+X Axis, Y Axis, Z Axis
    Control which axes are shown in other views than the orthographic top/front/side ones.
-:guilabel:`Lines`
+Lines
    Controls the number of lines that make the grid in non-top/front/side orthographic views, in both directions.
-:guilabel:`Scale`
+Scale
    Control the scale of the grid floor
-:guilabel:`Subdivisions`
-   Controls the number of sub-lines that appear in each cell of the grid when you zoom in, so it is a setting specific to top/front/side orthographic views.
-:guilabel:`Shading`
+Subdivisions
+   Controls the number of sub-lines that appear in each cell of the grid when you zoom in,
+   so it is a setting specific to top/front/side orthographic views.
+Shading
    Control the way objects in the 3D view are shaded.
-:guilabel:`Textured Solid`
+Textured Solid
    Display face assigned textures in solid view.
-:guilabel:`Toggle Quad View`
-   Toggles the four pane 3D view. :doc:`Read more about arranging frames » </interface/window_system/arranging_frames>`
+Toggle Quad View
+   Toggles the four pane 3D view.
+   :doc:`Read more about arranging frames » </interface/window_system/arranging_frames>`
 
 
 Background Image
-****************
+================
 
 .. admonition:: Reference
    :class: refbox
@@ -217,7 +217,7 @@ or animation (when using a video as background), etc.
 
 
 Settings
-========
+--------
 
 .. figure:: /images/Background-image.jpg
 
@@ -234,53 +234,53 @@ The :guilabel:`Axis` menu defines which views the image will appear in.
 Additional images can be added by :kbd:`LMB` the :guilabel:`Add Image` button.
 When the image is loaded, the following settings become available.
 
-:guilabel:`Source`
+Source
    Specifies what type of file is being used. Depending on the selected type, several options will appear below:
 
-   :guilabel:`File`
+   File
       Use an image file
 
-      :guilabel:`Source File`
+      Source File
          Represents the actual file that is linked to the current datablock.
          Supported formats include bmp, gif, jpg, png, tga, and tif.
 
-   :guilabel:`Sequence`
+   Sequence
       a sequence of numbered image files
 
-      :guilabel:`Frames`
+      Frames
          Set the number of image files to use in the sequence
-      :guilabel:`Start`
+      Start
          Sets the frame number to start on
-      :guilabel:`Offset`
+      Offset
          Offsets the number of the frame used in the sequence
-      :guilabel:`Fields`
+      Fields
          Sets the number of fields per rendered frame
-      :guilabel:`Auto Refresh`
+      Auto Refresh
          Always refresh the image on frame changes
-      :guilabel:`Cyclic`
+      Cyclic
          Cycle the images in the sequence
-   :guilabel:`Movie`
+   Movie
       Use a movie file:
 
-      :guilabel:`Match Movie Length`
+      Match Movie Length
          Set the number of frames to match the movie
 
-   :guilabel:`Generated`
+   Generated
       Use a image generated in Blender:
 
-      :guilabel:`Width`, :guilabel:`Height`
+      Width, Height
          Set the width and height if the image in pixels
-      :guilabel:`Blank`
+      Blank
          Generates a blank image
-      :guilabel:`UV Grid`
+      UV Grid
          Creates a grid for testing UV mappings
-      :guilabel:`Color Grid`
+      Color Grid
          Creates a colored grid for testing UV mappings
 
-:guilabel:`Opacity`
+Opacity
    This slider controls the transparency of the background image
    (from **0.0** - fully opaque - to **1.0** - fully transparent).
-:guilabel:`Size`
+Size
    Controls the size, or scale, of the picture in the 3D view (in Blender units).
    This is a scalar value so that width and height of the background image are each multiplied by the value to
    determine the size at which the background image is displayed.
@@ -291,18 +291,14 @@ When the image is loaded, the following settings become available.
    in Blender units.
 
 
-
 .. tip:: Use Lo-Res Proxy
 
    To improve PC performance when using background images you may have to use lower-resolution proxies.
-   If your monitor resolution is 800?600, then the background image, full screen, without zooming,
-   only needs to be 800?600. If your reference image is 2048?2048,
-   then your computer is grinding away throwing away pixels. Try instead to take that 2k?2k image, and scale it down
-   (using Blender, or Gimp) to, for example, 512?512. You will have sixteen times the performance,
-   with no appreciable loss of quality or exactness. Then, as you refine your model, you can increase the resolution.
-
-
-
-Shortcuts
-=========
+   If your monitor resolution is 800x600, then the background image, full screen, without zooming,
+   only needs to be 800x600. If your reference image is 2048x2048,
+   then your computer is grinding away throwing away pixels.
+   Try instead to take that 2048x2048 image, and scale it down (using Blender, or Gimp) to, for example, 512x512.
+   You will have sixteen times the performance,
+   with no appreciable loss of quality or exactness.
+   Then, as you refine your model, you can increase the resolution.
 
