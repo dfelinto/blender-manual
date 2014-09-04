@@ -3,6 +3,7 @@ Screens
 *******
 
 .. figure:: /images/Manual-Scene-SR_Layout_Dropdown25.jpg
+   :align: right
 
    Layout dropdown
 
@@ -45,6 +46,7 @@ to change to the previous screen, press :kbd:`ctrl-left`.
 
 
 .. figure:: /images/Manual-Part-I-ConceptScreens25.jpg
+   :align: center
 
    Screen and Scene selectors
 

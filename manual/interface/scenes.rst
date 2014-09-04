@@ -17,6 +17,7 @@ You can select and create scenes with the :guilabel:`Scene selector` in the Info
 
 
 .. figure:: /images/Manual-Part-I-ConceptScreens25.jpg
+   :align: center
 
    Screen and Scene selectors
 
@@ -28,6 +29,7 @@ Adding a new Scene
 ------------------
 
 .. figure:: /images/Manual-Part-I-Interface-Scene-AddButton-Dialog25.jpg
+   :align: right
 
    Add Scene menu
 
@@ -35,6 +37,7 @@ Adding a new Scene
 You can add a new scene by clicking
 
 .. figure:: /images/Manual-Part-I-Interface-Screens-AddView-Button25.jpg
+   :align: center
 
  in the Scene selector option. When you create a new scene, you can choose between five options to control its contents (*Add Scene menu*).
 
@@ -82,6 +85,7 @@ Link Object Data
 
 
 .. figure:: /images/Manual-Interface-Scenes-mk_singleuser.jpg
+   :align: center
 
 Full Copy
    Is the deepest form of copying available.  Nothing is shared.  This option creates a fully independent Scene with copies of the currently selected Scene's contents.  Every Object in the original Scene is duplicated, and a duplicate, private copy of its ObData is made as well.

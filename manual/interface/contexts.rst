@@ -7,6 +7,7 @@ which can be chosen via the icon row in the header (see *Context button example*
 
 
 .. figure:: /images/Manual-Interface-Contexts-HeaderButtons-25.jpg
+   :align: center
 
    Context button example
 

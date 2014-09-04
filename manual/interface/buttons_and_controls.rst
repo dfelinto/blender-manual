@@ -11,6 +11,7 @@ Operation Buttons
 =================
 
 .. figure:: /images/Manual-Part-I-ConceptButtons2_25.jpg
+   :align: right
 
    Operation button
 
@@ -26,6 +27,7 @@ Toggle Buttons
 ==============
 
 .. figure:: /images/Manual-Part-I-ConceptButtons1_1_25.jpg
+   :align: right
 
    Toggle buttons
 
@@ -39,6 +41,7 @@ Radio Buttons
 =============
 
 .. figure:: /images/Manual-Part-I-ConceptButtons1_25.jpg
+   :align: right
 
    Radio buttons
 
@@ -50,6 +53,7 @@ Number Buttons
 ==============
 
 .. figure:: /images/Manual-Part-I-ConceptButtons3_25.jpg
+   :align: right
 
    Number buttons
 
@@ -106,6 +110,7 @@ Menu Buttons
 ============
 
 .. figure:: /images/Manual-Part-I-ConceptButtons4_25.jpg
+   :align: right
 
    Datablock link buttons
 
@@ -117,6 +122,7 @@ Linking a Material to an Object will assign that material to the selected Object
 
 
 .. figure:: /images/Manual-Part-I-ConceptButtons4_1_25.jpg
+   :align: right
 
    Datablock link menu with search
 
@@ -141,6 +147,7 @@ For example, the Add Modifier button will produce a menu with all of the availab
 
 
 .. figure:: /images/Manual-Part-I-ConceptButtons4_menue_25.jpg
+   :align: center
 
    Modifier options
 

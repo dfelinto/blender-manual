@@ -3,6 +3,7 @@ Menus
 *****
 
 .. figure:: /images/Manual-Interface-Menus-SpacebarMenu25.jpg
+   :align: right
 
    The [Space]-menu
 

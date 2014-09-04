@@ -3,11 +3,13 @@ Panels
 ******
 
 .. figure:: /images/Manual-Interface-Panels-PropertiesPanels-25.jpg
+   :align: right
 
    Part of the properties window
 
 
 .. figure:: /images/Manual-Interface-Panels-3DWindowShelves-25.jpg
+   :align: right
 
    Shelves in a 3D Window
 
