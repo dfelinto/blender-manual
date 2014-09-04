@@ -48,6 +48,8 @@ As an introduction we will cover a few of the basic elements.
 ----
 
 
+.. _the-info-window-main-menu:
+
 The Info Window (main menu)
 ---------------------------
 

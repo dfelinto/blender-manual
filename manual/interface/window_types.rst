@@ -5,6 +5,7 @@ Window Types
 ************
 
 .. figure:: /images/Manual-Part-I-ConceptWinTypes_25.jpg
+   :align: right
 
    The Window Type selection menu.
 
@@ -26,15 +27,10 @@ are working on. You can also arrange some :guilabel:`Window Frames` to display w
 :guilabel:`Window Types` are broken up by functionality:
 
 
-- :doc:`The 3D View </3d_interaction/navigating>` - Show a graphical view of your scene.
-- :doc:`The Timeline </animation/timeline>` - Control animation playback.
--
-
-FIXME(TODO: Internal Link;
-[[Meta:Sandbox/Doc:2.5/Manual/Animation/Graph Editor|The Graph Editor]]
-) - Manage animation keys (and drivers) and inter/extrapolation of these.
-
-- :doc:`The Dope Sheet </animation/armatures/dope_sheet>` - Combine individual actions into action sequences.
+- :doc:`The 3D View </3d_interaction/navigating/introduction>` - Show a graphical view of your scene.
+- :doc:`The Timeline </animation/editors/timeline>` - Control animation playback.
+- :doc:`The Graph Editor </animation/editors/graph>` - Manage animation keys (and drivers) and inter/extrapolation of these.
+- :doc:`The Dope Sheet </animation/editors/dopesheet>` - Combine individual actions into action sequences.
 - :doc:`The NLA Editor </animation/editors/nla>` - Manage non-linear animation action sequences.
 - :doc:`The Image/UV Editor </textures/mapping/uv>` - Edit images with advanced UV management tools.
 - :doc:`The Video Sequence Editor </sequencer>` - Assemble video sequences into a film strip.
@@ -44,7 +40,7 @@ FIXME(TODO: Internal Link;
 - :doc:`The Properties Editor </interface/window_types/properties>` - Show several attributes of the currently selected object.
 - :doc:`The Outliner </data_system/the_outliner>` - Find and organize your objects.
 - :doc:`User Preferences </preferences>` - Customize :guilabel:`Blender` to your work style and computer.
-- :doc:`The Info Window </interface/window_system#the_info_window_.28main_menu.29>` - Provides information and options for managing files, windows and engines.
+- :ref:`The Info Window <the-info-window-main-menu>` - Provides information and options for managing files, windows and engines.
 - :doc:`The File Browser </data_system/files/open>` - Organize, load and save files (most times invoked automatically, when needed).
 - :doc:`The Console </extensions/python/console>` - Directly use python in :guilabel:`Blender`.
 
