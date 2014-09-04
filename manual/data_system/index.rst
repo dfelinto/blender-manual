@@ -1,7 +1,7 @@
 .. _data_system-index:
 
 ##############
-  Data_System
+  Data System
 ##############
 
 .. toctree::

@@ -1,7 +1,7 @@
 .. _game_engine-index:
 
 ##############
-  Game_Engine
+  Game Engine
 ##############
 
 .. toctree::
