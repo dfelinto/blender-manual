@@ -46,7 +46,9 @@ the pivot point to another location, so some tools are more or less applicable i
 
 .. note::
 
-   The three selection mode buttons are only visible in :guilabel:`Edit mode`. The colors of selected, unselected and active components depend entirely on the current theme. Black, orange and white are from the default theme.
+   The three selection mode buttons are only visible in :guilabel:`Edit mode`.
+   The colors of selected, unselected and active geometry depend entirely on the current theme.
+   Black, orange and white are from the default theme.
 
 
 Select Mode Pop-up
@@ -127,7 +129,7 @@ Circle Select
 (De)select All :kbd:`A`
    Select all or none of the mesh components.
 Invert Selection :kbd:`ctrl-I`
-   Selects all components that are not selected, and deselect currently selected components.
+   Selects all geometry that are not selected, and deselect currently selected components.
 Select Random
    Selects a random group of vertices, edges, or faces, based on a percentage value.
 Checker Deselect
@@ -156,17 +158,19 @@ Select Non Manifold (:kbd:`Ctrl-Shift-Alt-M`)
 Loose
    Select all vertices or edges that do not form part of a face.
 Similar
-   Select components based on how similar certain properties are to it.
+   Select geometry based on how similar certain properties are to it.
 
 More :kbd:`ctrl-num+`
-   Propagates selection by adding components that are adjacent to selected elements.
+   Propagates selection by adding geometry that are adjacent to selected elements.
 Less :kbd:`ctrl-num-`
-   Deselects components that form the bounds of the current selection
+   Deselects geometry that form the bounds of the current selection
 
 Mirror
    Select mesh items at the mirrored location.
+Pick Linked :kbd:`L`
+   Selects all geometry connected to the geometry under the cursor.
 Linked :kbd:`ctrl-L`
-   Selects all components that are connected to the current selection.
+   Selects all geometry that are connected to the current selection.
 
 Vertex Path
    Selects a vertex path between two selected vertices
