@@ -157,12 +157,15 @@ but you must select :guilabel:`Custom Filter` in :guilabel:`2D Filter` actuator,
 then write shader program into the Text Editor, and then place shader script name on actuator.
 
 Blue Sepia Example:
-uniform sampler2D bgl_RenderedTexture;
-void main(void)
-{
-vec4 texcolor = texture2D(bgl_RenderedTexture, gl_TexCoord[0].st);
-float gray = dot(texcolor.rgb, vec3(0.299, 0.587, 0.114));
-gl_FragColor = vec4(gray * vec3(0.8, 1.0, 1.2), texcolor.a);
-}
+
+.. code:: glsl
+
+   uniform sampler2D bgl_RenderedTexture;
+   void main(void)
+   {
+     vec4 texcolor = texture2D(bgl_RenderedTexture, gl_TexCoord[0].st);
+     float gray = dot(texcolor.rgb, vec3(0.299, 0.587, 0.114));
+     gl_FragColor = vec4(gray * vec3(0.8, 1.0, 1.2), texcolor.a);
+   }
 
 
