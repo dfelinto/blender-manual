@@ -65,11 +65,10 @@ Configuring your Screens
 Adding a new Screen Type
 ------------------------
 
-Click on the "Add" button(
+.. |addview-button| image:: /images/Manual-Part-I-Interface-Screens-AddView-Button25.jpg
 
-.. figure:: /images/Manual-Part-I-Interface-Screens-AddView-Button25.jpg
-
-) and a new frame layout will be created based on your current layout.
+Click on the "Add" button(|addview-button|) and a new frame layout will be
+created based on your current layout.
 
 You might want to give the new screen not only a *name* but also a *number* in front of it
 so that you can predictably scroll to it using the arrow keys.
@@ -81,11 +80,10 @@ For example you could use the name "6-MyScreen". See *Screen and Scene selectors
 Deleting a Screen
 -----------------
 
-You can delete a screen by using the :guilabel:`Delete datablock` button (
+.. |deleteview-button| image:: /images/Manual-Part-I-Interface-Screens-DeleteView-Button25.jpg
 
-.. figure:: /images/Manual-Part-I-Interface-Screens-DeleteView-Button25.jpg
-
-). See *Screen and Scene selectors* above.
+You can delete a screen by using the :guilabel:`Delete datablock` button
+(|deleteview-button|). See *Screen and Scene selectors* above.
 
 
 Rearranging a Screen

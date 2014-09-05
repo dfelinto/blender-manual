@@ -118,9 +118,9 @@ but it might help in understanding why to link different Objects in different wa
 Deleting a Scene
 ----------------
 
-You can delete a scene by using the :guilabel:`Delete datablock` button (
+.. |deleteview-button| image:: /images/Manual-Part-I-Interface-Screens-DeleteView-Button25.jpg
 
-.. figure:: /images/Manual-Part-I-Interface-Screens-DeleteView-Button25.jpg
-
-) from the Scene selector option (see *Screen and Scene selectors*).
+You can delete a scene by using the :guilabel:`Delete datablock` button
+(|deleteview-button|) from the Scene selector option (see *Screen and Scene
+selectors*).
 
