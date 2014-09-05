@@ -3,8 +3,8 @@ Joystick sensor
 ***************
 
 .. figure:: /images/BGE_Sensor_Joystick1.jpg
-   :width: 300px
-   :figwidth: 300px
+   :width: 200px
+   :figwidth: 200px
 
    Joystick sensor
 
@@ -24,6 +24,9 @@ All Events
    Sensor triggers for all events on this joystick's current type
 
 
+----
+
+
 .. figure:: /images/BGE_Sensor_Joystick_Event.jpg
    :width: 200px
    :figwidth: 200px
@@ -35,6 +38,9 @@ Event Type
    A menu to select which joystick event to use
 
 
+----
+
+
 .. figure:: /images/BGE_Sensor_Joystick_SingAxis.jpg
    :width: 200px
    :figwidth: 200px
@@ -42,16 +48,19 @@ Event Type
    Joystick Single Axis
 
 
-   Single Axis
-      Detect movement in a single joystick Axis.
+Single Axis
+   Detect movement in a single joystick Axis.
 
-      Axis Number
-         1 = Horizontal axis (left/right)
-         2 = Vertical axis (forward/back)
-         3 = Paddle axis up/down
-         4 = Joystick axis twist left/right
-      Axis Threshold
-         Threshold at which joystick fires (Range 0 - 32768)
+   Axis Number
+      1 = Horizontal axis (left/right)
+      2 = Vertical axis (forward/back)
+      3 = Paddle axis up/down
+      4 = Joystick axis twist left/right
+   Axis Threshold
+      Threshold at which joystick fires (Range 0 - 32768)
+
+
+----
 
 
 .. figure:: /images/BGE_Sensor_Joystick_Hat.jpg
@@ -61,13 +70,16 @@ Event Type
    Joystick Hat
 
 
-   Hat
-      Detect movement of a specific hat control on the joystick.
+Hat
+   Detect movement of a specific hat control on the joystick.
 
-      Hat number
-         Specifies which hat to use (max. 2)
-      Hat Direction
-        Specifies the direction to use: up, down, left, right, up/right, up/left, down/right, down/left.
+   Hat number
+      Specifies which hat to use (max. 2)
+   Hat Direction
+     Specifies the direction to use: up, down, left, right, up/right, up/left, down/right, down/left.
+
+
+----
 
 
 .. figure:: /images/BGE_Sensor_Joystick_Axis.jpg
@@ -77,16 +89,19 @@ Event Type
    Joystick Axis
 
 
-   Axis
-      Axis Number
-         Specifies the axis (1 or 2)
-      Axis Threshold
-         Threshold at which joystick fires (Range 0 - 32768)
-      Axis Direction
-         Specifies the direction to use:
+Axis
+   Axis Number
+      Specifies the axis (1 or 2)
+   Axis Threshold
+      Threshold at which joystick fires (Range 0 - 32768)
+   Axis Direction
+      Specifies the direction to use:
 
-         (Axis Number = 1) Joystick Left, Right, Up, Down
-         (Axis Number = 2) Paddle upper (Left); paddle Lower (Right); Joystick twist left (Up) Joystick twist right (Down)
+      (Axis Number = 1) Joystick Left, Right, Up, Down
+      (Axis Number = 2) Paddle upper (Left); paddle Lower (Right); Joystick twist left (Up) Joystick twist right (Down)
+
+
+----
 
 
 .. figure:: /images/BGE_Sensor_Joystick1.jpg
@@ -96,6 +111,6 @@ Event Type
    Joystick Button
 
 
-   Button
-      Specify the :guilabel:`button number` to use.
+Button
+   Specify the :guilabel:`button number` to use.
 
