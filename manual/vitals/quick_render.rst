@@ -22,7 +22,7 @@ Rendering an image using ''Full Render'' - Blender Internal
    :class: refbox
 
    | Mode:     All modes
-   | Hotkey:   :kbd:`f12`
+   | Hotkey:   :kbd:`F12`
 
 
 .. figure:: /images/Manual-Vitals-Starting-Header-Render-Menu.jpg
@@ -34,10 +34,10 @@ Rendering an image using ''Full Render'' - Blender Internal
 To start a *Full render* using :guilabel:`Blender Internal` you can use any of the following
 options:
 
-- Press :kbd:`f12`
+- Press :kbd:`F12`
 - Go to :menuselection:`Properties Window --> Render context --> Render panel` and press the :guilabel:`Image` button
 - Go to :menuselection:`Render --> Render Image` from the header of the :guilabel:`Info Window` (see: *Header of the Info Window*)
-- Using Blender Search: press :kbd:`space`, type Render and click on :guilabel:`Render`.
+- Using Blender Search: press :kbd:`Space`, type Render and click on :guilabel:`Render`.
 
 To abort or quit the render, press :kbd:`Esc`.
 
@@ -65,7 +65,7 @@ To start an *OpenGL render* you can use any of the following options:
 
 - Click on *OpenGL Render Active Viewport*, in the header of the 3D Window, using the small button showing a *Camera* (together with a small image showing a *slate*) in the header of the 3D View
 - Go to :menuselection:`Render --> OpenGL Render Image` from the header of the :guilabel:`Info Window` (see: *Header of the Info Window* Image)
-- Using Blender Search: press :kbd:`space`, type *Render* and click on :guilabel:`OpenGL Render`.
+- Using Blender Search: press :kbd:`Space`, type *Render* and click on :guilabel:`OpenGL Render`.
 
 To abort or quit the render, press :kbd:`Esc`.
 
@@ -114,7 +114,7 @@ Saving your image
 
 
 Blender does not save your image automatically. To save your image, you can either press
-:kbd:`f3` or click :guilabel:`Save As Image` from the :guilabel:`Image` menu of the
+:kbd:`F3` or click :guilabel:`Save As Image` from the :guilabel:`Image` menu of the
 UV/Image editor window's header. This action will open the Blender Internal File Browser,
 and then you can search for folders to place your Render.
 
@@ -126,7 +126,7 @@ Rendering an animation using ''Full Render'' - Blender Internal
    :class: refbox
 
    | Mode:     All modes
-   | Hotkey:   :kbd:`ctrl-f12`
+   | Hotkey:   :kbd:`Ctrl`:kbd:`F12`
 
 
 .. figure:: /images/Manual-Starting-Vital-dimensions-panel.jpg
@@ -149,7 +149,7 @@ A quick example to understand those numbers:
 To render an animation using *Full Render* with the :guilabel:`Blender Internal` Engine,
 you can use any of the following options:
 
-- Press :kbd:`ctrl-f12`
+- Press :kbd:`Ctrl`:kbd:`F12`
 - Go to :menuselection:`Properties Window --> Render context --> Render panel` and press the :guilabel:`Animation` button or
 - Go to :menuselection:`Render --> Render animation` from the header of the :guilabel:`Info Window`  (see: *Header of the Info Window* Image)
 
