@@ -7,12 +7,18 @@ Quick Rendering
 What is rendering?
 ------------------
 
-Rendering is the process of creating a 2D image.
-Blender creates this image by taking into account your model and all of your materials,
-textures, lighting and compositing.
+Rendering is the process of creating a 2D image.  Blender creates this image by
+taking into account your model and all of your materials, textures, lighting
+and compositing.
 
-- There are two main types of rendering engines built inside Blender, one for *Full render*, and other for *OpenGL render*. This page shows you basic information about rendering Images. For a deeper understanding about the *Full Render* Engine built inside Blender, called :guilabel:`Blender Internal`, consult the section about :doc:`Rendering with Blender Internal </render>`.
-- There is also a section in this wiki manual dedicated to the new :doc:`Cycles </render/cycles>` Render Engine, built into Blender since Version 2.61.
+- There are two main types of rendering engines built inside Blender, one for
+  *Full render*, and other for *OpenGL render*. This page shows you basic
+  information about rendering Images. For a deeper understanding about the
+  *Full Render* Engine built inside Blender, called :guilabel:`Blender
+  Internal`, consult the section about :doc:`Rendering with Blender Internal
+  </render>`.
+- There is also a section in this wiki manual dedicated to the new :doc:`Cycles
+  </render/cycles>` Render Engine, built into Blender since Version 2.61.
 
 
 Rendering an image using ''Full Render'' - Blender Internal
