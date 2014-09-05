@@ -113,10 +113,14 @@ the contents of the Pop-Up Window are different, because of your context (Edit M
 (See Fig:Redo Last - Scale)
 
 
-.. figure:: /images/Manual-Vitals-Undo-Redo-F6-Rotation-Object-Edit.jpg
-   :align: center
-
-   Redo Last - Rotation ( Object Mode, 60 degrees ) _________ Redo Last - Scale ( Edit Mode, Resize face )
++-------------------------------------------------------------------------------+
+| .. figure:: /images/Manual-Vitals-Undo-Redo-F6-Rotation-Object-Edit.jpg       |
+|    :align: center                                                             |
++-------------------------------------------------------------------------------+
+|    **Left Image**: Redo Last - Rotation ( Object Mode, 60 degrees )           |
++-------------------------------------------------------------------------------+
+|    **Right Right**: Redo Last - Scale ( Edit Mode, Resize face )              |
++-------------------------------------------------------------------------------+
 
 
 .. tip:: Operations using Redo Last
