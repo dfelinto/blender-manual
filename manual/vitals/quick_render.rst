@@ -232,6 +232,7 @@ This is an example of an OpenGL rendered image:
 
 
 .. figure:: /images/OpenGL_rendered.jpg
+   :align: center
 
    OpenGL Render
 
@@ -240,6 +241,7 @@ And then here is the *Full Render* using Blender Internal render engine:
 
 
 .. figure:: /images/Full_render.jpg
+   :align: center
 
    Full Render
 
