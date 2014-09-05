@@ -14,6 +14,7 @@ Windows XP/Vista/7
 ==================
 
 .. figure:: /images/Interface-Window-System-console-windows.jpg
+   :align: right
    :width: 360px
    :figwidth: 360px
 
@@ -43,6 +44,7 @@ Linux
 =====
 
 .. figure:: /images/Interface-Window-System-console-linux.jpg
+   :align: right
    :width: 360px
    :figwidth: 360px
 
@@ -69,6 +71,7 @@ MacOS
 =====
 
 .. figure:: /images/Interface-Window-System-console-mac.jpg
+   :align: right
    :width: 360px
    :figwidth: 360px
 

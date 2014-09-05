@@ -3,6 +3,7 @@ About Free Software and the GPL
 *******************************
 
 .. figure:: /images/Gnu-logo.jpg
+   :align: right
 
 When one hears about "free software", the first thing that comes to mind might be "no cost".
 While this is true in most cases, the term "free software" as used by the Free Software Foundation

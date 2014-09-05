@@ -3,6 +3,7 @@ Introduction
 ************
 
 .. figure:: /images/Blender25withbbb.jpg
+   :align: right
    :width: 300px
    :figwidth: 300px
 
@@ -52,6 +53,7 @@ Key Features:
 
 
 .. figure:: /images/Blender25renderbbb.jpg
+   :align: right
    :width: 300px
    :figwidth: 300px
 
@@ -78,6 +80,7 @@ Blender is a full-featured tool
 ===============================
 
 .. figure:: /images/Blender_268a_welcome.jpg
+   :align: right
    :width: 400px
    :figwidth: 400px
 

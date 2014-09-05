@@ -92,6 +92,7 @@ Powerful interface
 ==================
 
 .. figure:: /images/Opengl.jpg
+   :align: right
 
 Blender's interface is drawn entirely in `OpenGL <http://en.wikipedia.org/wiki/OpenGL>`__
 which allows you to customize your interface to suit your needs.

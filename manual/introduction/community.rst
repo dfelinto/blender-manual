@@ -13,6 +13,7 @@ The community spans two widely overlapping sites:
 ----
 
 .. figure::  /images/(Doc_26x_Manual_Introduction_Community)_(Blender_Foundation_Logo)_(GNVAFN).jpg
+   :align: right
 
 The Development Community, centered around the `Blender Foundation site <http://www.blender.org>`__.
 Here you will find the home of the development projects,
@@ -24,6 +25,7 @@ and anyone working for Blender development in general can be found here.
 Go to `www.blender.org <http://www.blender.org>`__.
 
 .. figure:: /images/(Doc_26x_Manual_Introduction_Community)_(Blender_Artists_Logo)_(GNVAFN).jpg
+   :align: left
 
 The User Community, centered around the independent `BlenderArtists <http://www.BlenderArtists.org/>`__ site.
 Here Blender artists, gamemakers and fans gather to show their creations, get feedback,
