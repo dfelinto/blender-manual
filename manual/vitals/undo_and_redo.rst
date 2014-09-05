@@ -210,6 +210,13 @@ but the list contains only repeated actions.  To access Repeat History, use :kbd
 Blender Search
 --------------
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode: All modes
+   | Hotkey: :kbd:`Space`
+
+
 .. figure:: /images/Manual-Vitals-Undo-Redo-Redo_Last_Spacebar_Menu.jpg
 
    Spacebar search for Redo Last
