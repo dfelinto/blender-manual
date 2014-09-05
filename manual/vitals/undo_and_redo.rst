@@ -31,6 +31,7 @@ Options for Actions (User Level)
 ================================
 
 .. figure:: /images/Manual-Vitals-Undo-and-Redo-UndoOptions.jpg
+   :align: right
 
    Undo options
 
@@ -133,6 +134,7 @@ Undo History
 
 
 .. figure:: /images/Manual-Vitals-Undo-Redo-Ctrl+Alt+z_Menu.jpg
+   :align: right
 
    The Undo History menu, which appears upon [Ctrl][Alt][z] press.
 
@@ -182,6 +184,7 @@ Repeat History
 
 
 .. figure:: /images/Manual-Vitals-Undo-Redo-F3_Menu.jpg
+   :align: right
 
    The Repeat menu, which appears upon [F3] press.
 
@@ -224,6 +227,7 @@ Save and Auto Save
 ------------------
 
 .. figure:: /images/Manual-Vitals-Undo-and-Redo-AutosaveOptions.jpg
+   :align: right
 
    Auto Save options
 
