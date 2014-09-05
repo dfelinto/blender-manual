@@ -14,6 +14,7 @@ The community spans two widely overlapping sites:
 
 .. figure::  /images/(Doc_26x_Manual_Introduction_Community)_(Blender_Foundation_Logo)_(GNVAFN).jpg
    :align: right
+   :target: http://www.blender.org
 
    Go to `www.blender.org <http://www.blender.org>`__.
 
@@ -24,8 +25,11 @@ all documentation sources, and related public discussion forums.
 Developers contributing code to Blender itself, Python scripters, documentation writers,
 and anyone working for Blender development in general can be found here.
 
+----
+
 .. figure:: /images/(Doc_26x_Manual_Introduction_Community)_(Blender_Artists_Logo)_(GNVAFN).jpg
    :align: left
+   :target: http://www.BlenderArtists.org
 
    Go to `www.BlenderArtists.org <http://www.BlenderArtists.org>`__.
 
