@@ -67,10 +67,10 @@ Undo
    :class: refbox
 
    | Mode:     All modes
-   | Hotkey:   :kbd:`ctrl-Z`
+   | Hotkey:   :kbd:`Ctrl`:kbd:`z`
 
 
-Like most programs, if you want to undo your last action, just press :kbd:`ctrl-Z`
+Like most programs, if you want to undo your last action, just press :kbd:`Ctrl`:kbd:`z`
 
 Redo
 ----
@@ -79,10 +79,10 @@ Redo
    :class: refbox
 
    | Mode:     All modes
-   | Hotkey:   :kbd:`shift-ctrl-Z`
+   | Hotkey:   :kbd:`Shift`:kbd:`Ctrl`:kbd:`z`
 
 
-To roll back your Undo action, press :kbd:`shift-ctrl-Z`
+To roll back your Undo action, press :kbd:`Shift`:kbd:`Ctrl`:kbd:`z`
 
 Redo Last
 ---------
@@ -135,23 +135,24 @@ Undo History
    :class: refbox
 
    | Mode:     All modes
-   | Hotkey:   :kbd:`Ctrl-Alt-Z`
+   | Hotkey:   :kbd:`Ctrl`:kbd:`Alt`:kbd:`z`
 
 
 .. figure:: /images/Manual-Vitals-Undo-Redo-Ctrl+Alt+z_Menu.jpg
    :align: right
 
-   The Undo History menu, which appears upon [Ctrl][Alt][z] press.
+   The Undo History menu, which appears upon :kbd:`Ctrl`:kbd:`Alt`:kbd:`z` press.
 
 
 There is also a Undo History of your actions, recorded by Blender.
-You can access the history with :kbd:`ctrl-alt-Z`.
+You can access the history with :kbd:`Ctrl`:kbd:`Alt`:kbd:`z`.
 
-Rolling back actions using the *Undo History* feature will take you back to the action you
-choose. Much like how you can alternate between going backward in time with
-:kbd:`Ctrl-z` and then forward with :kbd:`Shift-Ctrl-z`, you can hop around on the
-Undo timeline as much as you want as long as you do not make a new change.
-Once you do make a new change, the Undo History is truncated at that point.
+Rolling back actions using the *Undo History* feature will take you back to the
+action you choose. Much like how you can alternate between going backward in
+time with :kbd:`Ctrl`:kbd:`z` and then forward with
+:kbd:`Shift`:kbd:`Ctrl`:kbd:`z`, you can hop around on the Undo timeline as
+much as you want as long as you do not make a new change.  Once you do make a
+new change, the Undo History is truncated at that point.
 
 
 Repeat Last
@@ -161,20 +162,20 @@ Repeat Last
    :class: refbox
 
    | Mode:     All modes
-   | Hotkey:   :kbd:`shift-r`
+   | Hotkey:   :kbd:`Shift`:kbd:`r`
 
 
-The Repeat Last feature will Repeat your last action when you press :kbd:`shift-r`.
+The Repeat Last feature will Repeat your last action when you press :kbd:`Shift`:kbd:`r`.
 
 In the example Images below, we duplicated a *Monkey* :guilabel:`Mesh`,
-and then we moved the Object a bit. Using repeat :kbd:`Shift-r`,
+and then we moved the Object a bit. Using repeat :kbd:`Shift`:kbd:`r`,
 the *Monkey* was also duplicated and moved.
 
 
 +------------------------------------------+------------------------------------------+------------------------------------------+
 +.. figure:: /images/UndoRedo-00.Repeat.jpg|.. figure:: /images/UndoRedo-01.Repeat.jpg|.. figure:: /images/UndoRedo-02.Repeat.jpg+
 +                                          |                                          |                                          +
-+   Suzanne.                               |   After a [Shift][d] and move.           |   After a [Shift][r].                    +
++   Suzanne.                               |   After a :kbd:`Shift`:kbd:`d` and move. |   After a :kbd:`Shift`:kbd:`r`.          +
 +------------------------------------------+------------------------------------------+------------------------------------------+
 
 
@@ -191,7 +192,7 @@ Repeat History
 .. figure:: /images/Manual-Vitals-Undo-Redo-F3_Menu.jpg
    :align: right
 
-   The Repeat menu, which appears upon [F3] press.
+   The Repeat menu, which appears upon :kbd:`F3` press.
 
 
 The (New feature) Repeat History will present you a list of the last repeated actions,
