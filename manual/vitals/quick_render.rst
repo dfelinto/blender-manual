@@ -26,6 +26,7 @@ Rendering an image using ''Full Render'' - Blender Internal
 
 
 .. figure:: /images/Manual-Vitals-Starting-Header-Render-Menu.jpg
+   :align: right
 
    Header of the Info Window
 
@@ -57,6 +58,7 @@ To start an *OpenGL render* you can use any of the following options:
 .. figure:: /images/Manual-Vitals-Starting-Small-OpenGL-Render-buttons.jpg
 
 .. figure:: /images/Manual-Vitals-Starting-Small-Search-Render.jpg
+   :align: right
 
    Search functionality
 
@@ -72,6 +74,7 @@ Adjusting the resolution
 ------------------------
 
 .. figure:: /images/Manual-Starting-Vital-dimensions-panel.jpg
+   :align: right
 
    Dimensions panel
 
@@ -89,6 +92,7 @@ Output format and output file
 -----------------------------
 
 .. figure:: /images/Manual-Starting-Vital-output-panel.jpg
+   :align: right
 
    Output panel
 
@@ -104,6 +108,7 @@ Saving your image
 -----------------
 
 .. figure:: /images/Manual-Starting-Vital-save-as.jpg
+   :align: right
 
    Save as dialog
 
@@ -125,6 +130,7 @@ Rendering an animation using ''Full Render'' - Blender Internal
 
 
 .. figure:: /images/Manual-Starting-Vital-dimensions-panel.jpg
+   :align: right
 
    Dimensions panel
 
@@ -182,6 +188,7 @@ Showing Only Rendered Objects
 
 
 .. figure:: /images/Manual-Vitals-Quick-Render-Display-Only-Render.jpg
+   :align: right
 
    Transform Panel - Display Tab.
 
