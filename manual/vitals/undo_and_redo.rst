@@ -9,18 +9,14 @@ and reduce the chance of losing their work in the event of operation errors,
 computer failures, or power outages.
 There are two ways for you to recover from mistakes or problems:
 
-At the
-FIXME(TODO: Internal Link;
-[[#Options_for_Actions_.28User_Level.29|User Level]]
-) (Relating to :guilabel:`Actions`)
+At the :ref:`User Level <options-for-actions>` (Relating to :guilabel:`Actions`)
 
 - For your actions, there are options like :guilabel:`Undo`, :guilabel:`Redo` and an :guilabel:`Undo History`,
   used to roll back from mistakes under normal operation, or return back to a specific action.
 - Blender also has new features like :guilabel:`Repeat` and :guilabel:`Repeat History`,
   and the new :guilabel:`Redo Last` which you can use in conjunction with the options listed.
 
-At the FIXME(TODO: Internal Link; [[#Options for Files .28System Level.29|System Level]])
-(Relating to :guilabel:`Files`)
+At the :ref:`System Level <options-for-files>` (Relating to :guilabel:`Files`)
 
 - There are options to save your files like
   :guilabel:`Auto Save` that saves your file automatically over time, and :guilabel:`Save on Quit`,
@@ -28,6 +24,8 @@ At the FIXME(TODO: Internal Link; [[#Options for Files .28System Level.29|System
   Note: In addition to these functions being enabled by default,
   the :guilabel:`Save on Quit` functionality cannot be disabled.
 
+
+.. _options-for-actions:
 
 Options for Actions (User Level)
 ================================
@@ -216,6 +214,8 @@ using Blender Search :kbd:`Space`.
 
    When you quit Blender, the complete list of user actions will be lost, even if you save your file before quitting.
 
+
+.. _options-for-files:
 
 Options for Files (System Level)
 ================================
