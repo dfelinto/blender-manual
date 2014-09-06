@@ -77,10 +77,10 @@ The left "list-tree"
 
    A channel can be selected (text in white, strip in gray-blue color) or not (text in black, strip in pink-brown color.), use :kbd:`lmb` clicks to toggle this state.
    You can access some channel's properties by clicking :kbd:`ctrl-lmb` on its header.
-   Finally, you can have another column with value-sliders, allowing you to change the value of current keyframes, or to add new ones. These are obviously only available for low-level channels (i.e. individual FCurve ). See
-FIXME(TODO: Internal Link;
-[[#View Menu|below]]
-) for how to show these sliders.
+   Finally, you can have another column with value-sliders,
+   allowing you to change the value of current keyframes, or to add new ones.
+   These are obviously only available for low-level channels (i.e. individual FCurve ).
+   See FIXME(TODO: Internal Link; [[#View Menu|below]] ) for how to show these sliders.
 
 
 View Menu

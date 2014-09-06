@@ -38,7 +38,7 @@ and Meta will group strips together as a whole.
 
 
 Creating Action Strips
-^^^^^^^^^^^^^^^^^^^^^^
+----------------------
 
 Any action used by the NLA first must be turned into an Action strip.  This is done so by clicking the
 
@@ -61,7 +61,7 @@ Any action used by the NLA first must be turned into an Action strip.  This is d
 
 
 Creating Transition Strips
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+--------------------------
 
 Select two or more strips on the same track, and go to
 
@@ -79,7 +79,7 @@ Select two or more strips on the same track, and go to
 
 
 Grouping Strips into Meta Strips
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+--------------------------------
 
 If you find yourself moving a lot of strips together, you can group them into a Meta strip.
 A meta strip can be moved and duplicated like a normal strip.
@@ -262,5 +262,4 @@ Obviously there will be more to come on this.
 
 
 .. figure:: /images/Modifiers.jpg
-
 

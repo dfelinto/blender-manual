@@ -179,6 +179,7 @@ Evaluation Time
       Basis 10.0
       Key_1 20.0
       Key_2 30.0
+
    You can control the shape key influence with Evaluation Time.
    Here keyframes have been used to control Evaluation Time for animation.
 
