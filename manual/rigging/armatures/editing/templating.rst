@@ -157,15 +157,19 @@ S and N text fields, "auto" button
 
 
 Naming and placeholders, using a simple leg template.
+
    +-----------------------------------------------------------------+-------------------------------------------------------------------+
    +.. figure:: /images/ManRiggingTemplatingNamePlaceholdersEx1.jpg  |.. figure:: /images/ManRiggingTemplatingNamePlaceholdersEx2.jpg    +
    +   :width: 325px                                                 |   :width: 205px                                                   +
    +   :figwidth: 325px                                              |   :figwidth: 205px                                                +
    +                                                                 |                                                                   +
    +   Before conversion (note the &n and &s                         |   After conversion: the placeholders have been replaced by the    +
-   +   placeholders in template bones' names).                       |   content of the S and N text fields of the Bone Sketching panel. +                                                                                                                            +
+   +   placeholders in template bones' names).                       |   content of the S and N text fields of the Bone Sketching panel. +
+   +                                                                 |                                                                   +
    +-----------------------------------------------------------------+-------------------------------------------------------------------+
+
 Auto naming and placeholders, using a simple leg template.
+
    +----------------------------------------------------------------------------------+---------------------------------------------------------+
    +.. figure:: /images/ManRiggingTemplatingAutoNamingEx1.jpg                         |.. figure:: /images/ManRiggingTemplatingAutoNamingEx2.jpg+
    +   :width: 285px                                                                  |   :width: 315px                                         +
