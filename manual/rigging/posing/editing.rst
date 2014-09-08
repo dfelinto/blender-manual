@@ -17,19 +17,19 @@ In :guilabel:`Pose` mode, bones behave like objects. So the transform actions
 (all available ones are regrouped in the :menuselection:`Pose --> Transform` sub-menu). However,
 there are some important specificities:
 
-- Bones' relationships are crucial, as
-
-FIXME(TODO: Internal Link;
-[[#Effects of Bones Relationships|detailed below]]
-).
-
-- The "transform center" of a given bone (i.e. its default pivot point, when it is the only selected one) is *its root*. Note by the way that some pivot point options seem to not work properly - in fact, except for the :guilabel:`3D Cursor` one, all others appear to always use the median point of the selection (and not e.g. the active bone's root when :guilabel:`Active Object` is selected, etc.).
+- Bones' relationships are crucial, as FIXME(TODO: Internal Link; [[#Effects of Bones Relationships|detailed below]]).
+- The "transform center" of a given bone
+  (i.e. its default pivot point, when it is the only selected one) is *its root*.
+  Note by the way that some pivot point options seem to not work properly - in fact,
+  except for the :guilabel:`3D Cursor` one, all others appear to always use the median point of the selection
+  (and not e.g. the active bone's root when :guilabel:`Active Object` is selected, etc.).
 
 
 Selecting Bones
 ===============
 
-Selection in :guilabel:`Pose` mode is very similar to the one in :doc:`Edit mode </rigging/armatures/selecting>`, with a few specificities:
+Selection in :guilabel:`Pose` mode is very similar to the one in :doc:`Edit mode </rigging/armatures/selecting>`,
+with a few specificities:
 
 - You can only select *whole bones* in :guilabel:`Pose` mode, not roots/tips...
 
@@ -40,8 +40,10 @@ Selection in :guilabel:`Pose` mode is very similar to the one in :doc:`Edit mode
 
 
 - You can select bones based on their group and/or layer, through the :guilabel:`Select Grouped` pop-up menu (:kbd:`shift-G`):
-  - To select all bones belonging to the same group(s) as the selected ones, use the :guilabel:`In Same Group` entry (:kbd:`shift-G-num1`).
-  - To select all bones belonging to the same layer(s) as the selected ones, use the :guilabel:`In Same Layer` entry (:kbd:`shift-G-num2`).
+  - To select all bones belonging to the same group(s) as the selected ones,
+    use the :guilabel:`In Same Group` entry (:kbd:`shift-G-num1`).
+  - To select all bones belonging to the same layer(s) as the selected ones,
+    use the :guilabel:`In Same Layer` entry (:kbd:`shift-G-num2`).
 
 
 Basic Posing
@@ -271,13 +273,25 @@ possible ones below - but this should anyway give you a good idea of the problem
    Scaling bones, some of them related.
 
 
-- When several bones of the same "family" are selected, *only the "most parent" ones are really transformed* - the descendants are just handled through the parent relationship process, as if they were not selected (see *Scaling bones, some of them related* - the third tip bone, outlined in yellow, was only scaled down through the parent relationship, exactly as the unselected ones, even though it is selected and active. Otherwise, it should have been twice smaller!).
-- When connected and unconnected bones are selected, and you start a grab operation, only the unconnected bones are affected.
-- When a child connected hinge bone is in the selection, and the "most parent" selected one is connected, when you hit :kbd:`G`, nothing happens - Blender remains in grab operation, which of course has no effect on a connected bone. This might be a bug, in fact, as I see no reason for this behavior...
+- When several bones of the same "family" are selected,
+  *only the "most parent" ones are really transformed* -
+  the descendants are just handled through the parent relationship process, as if they were not selected
+  (see *Scaling bones, some of them related* - the third tip bone,
+  outlined in yellow, was only scaled down through the parent relationship,
+  exactly as the unselected ones, even though it is selected and active.
+  Otherwise, it should have been twice smaller!).
+- When connected and unconnected bones are selected,
+  and you start a grab operation, only the unconnected bones are affected.
+- When a child connected hinge bone is in the selection,
+  and the "most parent" selected one is connected, when you hit :kbd:`G`,
+  nothing happens - Blender remains in grab operation, which of course has no effect on a connected bone.
+  This might be a bug, in fact, as I see no reason for this behavior...
 
-So, when posing a chain of bones, you should always edit its elements from the root bone to the tip bone. This process is known as **forward kinematics**, or FK. We will see in a :doc:`later page </rigging/posing/inverse_kinematics>` that Blender features another pose method, called **inverse kinematics**, or IK, which allows you to pose a whole chain just by moving its tip.
+So, when posing a chain of bones, you should always edit its elements from the root bone to the tip bone.
+This process is known as **forward kinematics**, or FK.
+We will see in a :doc:`later page </rigging/posing/inverse_kinematics>` that Blender features another pose method,
+called **inverse kinematics**, or IK, which allows you to pose a whole chain just by moving its tip.
 
 
 Note that this feature is somewhat extended/completed by the :doc:`pose library </rigging/posing/pose_library>` tool.
-
 
