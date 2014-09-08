@@ -69,7 +69,7 @@ There are two ways to restore the default Blender settings:
 
      (you'll need to show hidden files).
   Windows
-     .. parsed-literal:: C:/Users/$user/AppData\Roaming/Blender Foundation\Blender/|BLENDER_VERSION|/config/startup.blend
+     .. parsed-literal:: C:/Users/$user/AppData/Roaming/Blender Foundation/Blender/|BLENDER_VERSION|/config/startup.blend
   OSX
      .. parsed-literal:: /Users/$user/Library/Application Support/Blender/|BLENDER_VERSION|/config/startup.blend
 
