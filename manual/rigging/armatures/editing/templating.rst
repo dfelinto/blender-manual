@@ -70,14 +70,11 @@ are copied and the newly created copy of the chain is matched with the stroke.
 +The newly created bones are numbered sequentially, after the original bones' names.                                                                                             +
 +--------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------+
 
-+-------------------------------------------------------------------------+-------------------------------------------------------------------------+                                                                                                                                                                                                                                                                                           +
-+.. figure:: /images/ManRiggingTemplatingMultiPolyStrokesConversionEx1.jpg|.. figure:: /images/ManRiggingTemplatingMultiPolyStrokesConversionEx2.jpg+                                                                                                                                                                                                                                                                                           +
-+                                                                         |                                                                         +                                                                                                                                                                                                                                                                                           +
-+   Before conversion.                                                    |   After conversion.                                                     +                                                                                                                                                                                                                                                                                           +
-+-------------------------------------------------------------------------+-------------------------------------------------------------------------+                                                                                                                                                                                                                                                                                           +
-+                                                                                                                                                   +                                                                                                                                                                                                                                                                                           +
-+-------------------------------------------------------------------------+-------------------------------------------------------------------------+                                                                                                                                                                                                                                                                                           +
-
++-------------------------------------------------------------------------+-------------------------------------------------------------------------+
++.. figure:: /images/ManRiggingTemplatingMultiPolyStrokesConversionEx1.jpg|.. figure:: /images/ManRiggingTemplatingMultiPolyStrokesConversionEx2.jpg+
++                                                                         |                                                                         +
++   Before conversion.                                                    |   After conversion.                                                     +
++-------------------------------------------------------------------------+-------------------------------------------------------------------------+
 
 OK now let us see some important ground rules:
 
@@ -165,7 +162,6 @@ Naming and placeholders, using a simple leg template.
    +                                                                 |                                                                   +
    +   Before conversion (note the &n and &s                         |   After conversion: the placeholders have been replaced by the    +
    +   placeholders in template bones' names).                       |   content of the S and N text fields of the Bone Sketching panel. +
-   +                                                                 |                                                                   +
    +-----------------------------------------------------------------+-------------------------------------------------------------------+
 
 Auto naming and placeholders, using a simple leg template.
