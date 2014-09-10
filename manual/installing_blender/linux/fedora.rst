@@ -1,124 +1,51 @@
-
 Fedora based systems
 ********************
 
-Fedora Linux is an offshoot of the Redhat Linux distribution.  Fedora Linux is used by Redhat
-to test new technologies which are eventually used within official Redhat Linux distributions.
-This means that Fedora Linux is a bleeding edge Linux distribution.  This means that the
-libraries and software that are included with Fedora Linux are usually up to date,
-using some of the most recent versions of libraries and software available.
-
-
-Opening a Terminal Window using Gnome Shell
-===========================================
-
-Recent versions of Fedora Linux use the Gnome Shell desktop environment to interact with the
-user.  To open a terminal window in Gnome Shell move your mouse pointer to the upper left
-corner of the screen and click on the Activities text.
-
-
-.. figure:: /images/(Doc_26x_Redhat_Fedora)_(Activities_GnomeShell_Fedora_Blender_Install)_(GNV18FN).jpg
-   :width: 600px
-   :figwidth: 600px
-
-   Mouse Pointer over Activities Area
-
-
-Once you have clicked on the Activities text, move your mouse pointer to the upper right
-corner of the screen and click on the search field and type the word 'terminal' in the search
-field, then press :kbd:`Enter`
-
-
-.. figure:: /images/(Doc_26x_Redhat_Fedora)_(Search_GnomeShell_Fedora_Blender_Install)_(GNV18FN).jpg
-   :width: 600px
-   :figwidth: 600px
-
-   Mouse Pointer over Search Area
-
-
-This should result in a terminal window being opened on your desktop.
-Click on this window with your mouse pointer.  At this point you should be able to type
-commands from the keyboard and they will be displayed in the terminal window.
-
-
-.. figure:: /images/(Doc_26x_Redhat_Fedora)_(Terminal_GnomeShell_Fedora_Blender_Install)_(GNV18FN).jpg
-   :width: 600px
-   :figwidth: 600px
-
-   Gnome Terminal Window
+Fedora is the upstream distro for Redhat Enterprise Linux, and is used by Redhat
+to test new technologies which are eventually used within the official RHEL releases.
+This means that Fedora is quite bleeding edge and the libraries and software that are
+included with Fedora are usually quite up-to-date.
 
 
 Installing Missing Blender dependencies with yum
 ================================================
 
-Fedora Linux uses a package management frontend system called yum to install software packages
-and libraries.
+If you have recently installed Fedora, the first thing you should do is update your system.
+To do this, type the following command in a terminal window and reboot when it's finished:
 
-If you have just recently installed a new or updated version of Fedora the first thing you
-should do is update your installed libraries and software.  To do this,
-in your terminal window, type the following commands in the terminal window:
+``sudo yum -y update``
 
-su root
+Note: You will be asked to enter your root password, don't worry if you don't actually see
+anything on the screen when you type since your password is not echoed to the screen for security reasons.
 
-You will then be asked to enter your root/admin password, enter this password.  If you typed
-the root password correctly you will now be logged in as the root/admin user in that open
-terminal,
-which will mean you have enough permissions to install needed dependencies in Fedora Linux.
+By default, Fedora is missing the SDL library, which is required by Blender.
+To install this, type the following command in the terminal window (after updating with the previous command):
 
-By default Fedora Linux has 1 missing library dependency which is required by Blender for it
-to run correctly.  That missing library is the SDL library.
-To install that missing SDL library type the following command in the terminal window:
+``sudo yum -y install SDL``
 
-yum install SDL
+.. tip:: It is important that you type 'SDL' and not 'sdl', case matters.
 
-Once the above command is typed, the yum package manager will ask for confirmation,
-type y at the terminal and press :kbd:`Enter`:
-
-Is this ok [y/N]:y
-
-This will install the missing SDL library package.
+Now that you have all the dependencies installed, you can go to the
+`download page <http://www.blender.org/download/get-blender/>`__, and choose a version to install.
 
 
-.. tip:: Case Matters
-
-     It is important that you type SDL and not sdl, case matters.
-
-
-You can now close the terminal as you will no longer need it.
-
-Now that you have all the library dependencies installed to run Blender you can go to the
-`Blender Download Website <http://www.blender.org/download/get-blender/>`__.
-
-From the download page you can now choose the correct version of Blender to download for your
-particular hardware configuration.
-
-
-Determining your Hardware Configuration
+Determining your hardware configuration
 =======================================
 
-For Linux based systems such as Fedora Linux,
-Blender comes in 2 different versions a 32 bit version and 64 bit version.  If you have a 32
-bit computer platform you need to download and use the 32 bit version of Blender,
-otherwise you need to download the 64 bit version of Blender.
+Blender comes in two different architectures, a 32 bit version and 64 bit version.
+If you have a 32 bit computer platform you need to download and use the 32 bit version of Blender,
+otherwise you should download the 64 bit version of Blender.
 
-If you are not sure what sort of computer platform you are currently using you can determine
-weather you are running a 32 bit or 64 bit platform by opening a terminal window and typing
-the following command:
+You can determine whether you're running a 32 bit or 64 bit system by running the ``arch`` command
+in the terminal.
 
-file /bin/cat
+If the output is 'x86_64', you have a 64 bit system and should download the 64 bit version of Blender.
+If it's something else, like 'i686', you should download the 32 bit version.
 
-If the output of the above command starts with '/bin/cat: ELF 32-bit' you are using a 32 bit
-version of Fedora Linux and need to download a 32 bit version of Blender.
-If the output of the above command starts with '/bin/cat: ELF 64-bit' you are using a 64 bit
-version of Fedora Linux and need to download a 64 bit version of Blender.
+.. tip:: If you are using a 64 bit system of Fedora you can also use the 32 bit version of Blender, but doing so will mean you cannot use more than 4GB of memory.
 
 
-.. tip:: 32 bit on a 64 bit platform
-
-     If you are using a 64 bit version of Fedora Linux you can also use the 32 bit version of Blender, but doing so will mean you cannot use more than 4 gigabytes of memory, and the 32 bit version of Blender will run more slowly on a 64 bit Fedora Linux platform.
-
-
-Downloading Blender From the Blender Download Website
+Downloading Blender
 =====================================================
 
 Once you have determined which version of Blender you want to download,
@@ -136,7 +63,7 @@ Once you do click on a link your web browser will possibly display a download di
 asking you how you want to download Blender.
 
 
-.. figure:: /images/(Doc_26x_Redhat_Fedora)_(Firefox_Download_File_Fedora_Blender_Install)_(GNV18FN).jpg
+.. figure:: /images/installing_blender_linux_fedora_firefox_download.jpg
    :width: 600px
    :figwidth: 600px
 
@@ -152,7 +79,7 @@ This will open your browser download window.
 Right click on the Blender entry and select Open.
 
 
-.. figure:: /images/(Doc_26x_Redhat_Fedora)_(Firefox_Dowload_List_Fedora_Blender_Install)_(GNV18FN).jpg
+.. figure:: /images/installing_blender_linux_fedora_firefox_download_list.jpg
    :width: 600px
    :figwidth: 600px
 
@@ -165,7 +92,7 @@ When the archive manager is displayed right click on the directory entry display
 archive manager and select the Extract entry from the popup menu that is displayed.
 
 
-.. figure:: /images/(Doc_26x_Redhat_Fedora)_(ArchiveManager_Extract_Fedora_Blender_Install)_(GNV18FN).jpg
+.. figure:: /images/installing_blender_linux_fedora_extracting_blender.jpg
    :width: 600px
    :figwidth: 600px
 
@@ -176,7 +103,7 @@ Once the Extract entry is selected an Extract dialog box will be display,
 in this dialog box you can choose the location that you want to extract the Blender files to.
 
 
-.. figure:: /images/(Doc_26x_Redhat_Fedora)_(ArchiveManager_ExtractOptions_Fedora_Blender_Install)_(GNV18FN).jpg
+.. figure:: /images/installing_blender_linux_fedora_extract_to_folder.jpg
    :width: 600px
    :figwidth: 600px
 
@@ -194,12 +121,10 @@ the location you extracted Blender to.
 Executing Blender after it has been extracted
 =============================================
 
-Once you have extracted Blender you can start Blender in a number of different ways:
+Once you have extracted the archive, you can start Blender by opening a terminal window and
+changing directory to the directory Blender was extracted to:
 
-
-- By opening a terminal window and then navigating to the directory Blender was extracted to:
-
-cd ~/Download/blender-2.65a-linux-glibc211-i686
+``cd ~/Download/blender-2.65a-linux-glibc211-i686``
 
 The above command would change into your home directory, from there it would change into your
 Downloads directory and from there it would change into the directory Blender was extracted to
@@ -210,149 +135,103 @@ command as appropriate.
 Once you are in the directory the Blender binary is located in type the following command at
 the terminal
 
-./blender
-
-or
-
-./blender-softwaregl
+``./blender``
 
 At this point if everything went well, you should see Blender displayed on screen.
 
+.. tip:: Hardware or Software OpenGL mode
 
-Executing Blender In Hardware Or Software OpenGL Mode
-=====================================================
+   There are 2 different ways of starting Blender.  The first way is in Hardware Accelerated OpenGL mode, in this mode if your graphics card has hardware support for OpenGL drawing commands, Blender will use it. Blender will perform much faster when it is run in Hardware Accelerated mode. By default, Blender will try to user Hardware Accelerated mode, but some graphics cards either don't work at all or don't display information in Blender correctly
+   when run this way. If this happens for you then you can run Blender in Software OpenGL mode by typing:
 
-.. tip:: Hardware or Software OpenGL Mode
-
-     There are 2 different ways of starting Blender.  The first way is in Hardware Accelerated OpenGL mode, in this mode if your graphics card has Hardware support for OpenGL drawing commands Blender will use it.  Blender will perform much more quickly when it is run in Hardware Accelerated OpenGL Mode.  To start Blender in Hardware Accelerated OpenGL Mode type the following command at the terminal:
-
-
-   ./blender
-
-   Some graphics cards either don't work at all or don't display information in Blender correctly
-   when run this way.  If this happens for you then you can run Blender in Software OpenGL Mode.
-   To do this start Blender from the terminal by typing:
-
-
-   ./blender-softwaregl
+   ``./blender-softwaregl``
 
    When started in this way Blender will use your CPU to process OpenGL drawing commands rather
-   than using the dedicated hardware on your graphics card.  This will result in Blender
-   performing more slowly when doing 3D graphical tasks but it often will enable Blender to
+   than using the dedicated hardware on your graphics card. This will result in Blender
+   performing more slowly when doing 3D graphical tasks but it will also enable Blender to
    display correctly when it would not otherwise.
 
 
-Operating System Keyboard Conflicts & Blender
+Operating System keyboard conflicts
 =============================================
 
-Blender has a massive amount of keyboard shortcut keys that it uses and that are used very
-often by Blender users.  Some of keyboard shortcuts that Blender uses however are also used by
-the Gnome Shell Window Manager.
-What follows is a list of the major conflicting keyboard shortcuts and how to change them.
+Blender has a massive amount of hotkeys that it uses. However, some of the hotkeys that Blender uses
+are also used by Gnome Shell. What follows is a list of the major conflicting keyboard shortcuts and how to change them.
 
 
-.. tip:: Gnome Shell Window Manager Keyboard Shortcuts
-
-     Annoyingly the Gnome Shell Window Manager people have a habit of changing the way you alter the keyboard shortcut assignment.  If you find that methods mentioned no longer work, please do a google search and you will find how to do it.  The following commands work for Fedora 17/18 when using Gnome Shell Window Manager.
+.. tip::
+   Unfortunately the Gnome Shell developers have a habit of changing the way you alter the keyboard shortcut assignment. If you find that methods mentioned no longer work, please do a google search and you will find how to do it. The following commands work for Fedora 19/20 when using Gnome Shell.
 
 
 ALT+Left Mouse Button
 ---------------------
 
-:kbd:`ALT+LMB` is a common keyboard shortcut used by Blender.  It is also used by the Window Manager in Gnome Shell to move windows around.  Because of this conflict using this keyboard shortcut to do edge loop selection does work as expected.  To fix this issue you need to tell the Gnome Shell Window Manager not to use the keyboard short :kbd:`ALT+LMB`.  A common fix for this is to tell the Gnome Shell Window Manager to instead use :kbd:`SUPER+LMB`.  The :kbd:`SUPER` key is also often called the :kbd:`Windows` key.
+:kbd:`ALT+LMB` is a common keyboard shortcut used by Blender. It is also used by Gnome Shell to move windows around. Because of this conflict, using this keyboard shortcut to do edge loop selection does work as expected. A common fix for this is to tell Gnome Shell to instead use :kbd:`SUPER+LMB`. The :kbd:`SUPER` key is also often called the :kbd:`Windows` key.
 
-To have Gnome Shell Window Manager use the :kbd:`SUPER` key rather than :kbd:`ALT`
+To have Gnome Shell use the :kbd:`SUPER` key rather than :kbd:`ALT`
 key when moving windows on the desktop, type the following command in a terminal window:
 
-dconf write "/org/gnome/desktop/wm/preferences/mouse-button-modifier" "'<Super>'"
+``dconf write "/org/gnome/desktop/wm/preferences/mouse-button-modifier" "'<Super>'"``
 
 
-Obtaining Snapshot Versions of Blender
+Obtaining snapshot builds of Blender
 ======================================
 
-If you want to get versions of Blender which are more up to date as they are built from a
-current snapshot of the Blender SVN trunk periodically,
-you have a couple of websites you can use:
+If you want to get snapshot bulds of Blender from the git repository, you have a couple of options.
 
-The graphicall.org website is a Blender users site where many different snap shots of Blender
-Source code are compiled by users and made available for download.
-This website has many builds of Blender with very experimental features enabled.
-
+Graphicall is a Blender users site where many different snapshots of Blender are compiled by users
+and made available for download. This website hosts many builds of Blender with experimental features enabled,
+such as the different branches from GSOC's.
 
 - `www.graphicall.org <http://www.graphicall.org>`__
 
-The builder.blender.org website is the official Blender Foundation source code snap shot
-builds of Blender from SVN.  The builds provided here are built automatically periodically.
-These builds are built using Blender official features,
-and although not as stable as the Blender Official release builds,
-are often more stable than builds provided on graphicall.org.
-Because they are a snapshot of the most recent SVN trunk, they often have features which will
-only be available in the next official release of Blender.  This gives the user the
-opportunity to test out and use new features before they become available in Blender Official
-releases.
+The BuildBot is the official Blender Foundation snapshot builds from git.
+The builds provided here are built daily for all supported platforms.
 
+- `builder.blender.org <http://builder.blender.org/download/>`__
 
-- `builder.blender.org <http://builder.blender.org>`__
-
-The if you want to build Blender from source code so you can get the latest greatest features
-of Blender, you can follow the official instruction.  Building Blender from source is not
-difficult compared to trying to build other software of comparable complexity,
+If you want to build Blender from source, you can follow the official instruction on the wiki.
+Building Blender from source is not difficult compared to trying to build other software of comparable complexity,
 but it takes some preparation and configuration to get right.
-If you take your time and read all the instructions, you should be able to do it.
 
+- `Offical guide <http://wiki.blender.org/index.php/Dev:Doc/Building_Blender>`__
 
-- `Official Blender Foundation Instruction For Building Blender From Source <http://wiki.blender.org/index.php/Dev:Doc/Building_Blender>`__
+If you still need help then you can always go to the #blendercoders channel on the Freenode IRC
+network and report the problem you are having. Many of coders are busy or in other timezones, so you may
+have to wait a while for them to see your message. If you don't have an irc client on your machine
+you can access the #blendercoders channel in your browser through the link below.
 
-If you still need help and have tried a google search then you can always goto the irc server
-irc.freenode.net #blendercoders channel and report the problem you are having.
-The coders are busy so they can take a while to help but they will do in general.  If you
-don't have an irc client on your machine you can click the following link and that will
-connect you to irc through your web browser:
-
-
-- `irc.freenode.net #blendercoders channel <http://webchat.freenode.net?channels=blendercoders>`__
+- `#blendercoders on Freenode <https://kiwiirc.com/client/irc.freenode.net/blendercoders>`__
 
 Being a Fedora user there's one more option for obtaining the latest development snapshot
-version of Blender from SVN.  It comes in the form of a special script which automatically
+version of Blender from git. It comes in the form of a special script which automatically
 downloads all the source code and library dependencies that are required to build Blender
-directly from source code on a Fedora Linux system.
-This will only work for recent versions of Fedora,
+directly from source code on a Fedora system. This will only work for recent versions of Fedora,
 and has only been tested to work with 32 bit and 64 bit PC/Intel versions of Fedora
-(the script probably won't work for Mac computers).  This is very very very very very
-experimental and temperamental and not official supported or condoned by the Blender
-Foundation script.  But if you are a person who really wants to have a source compiled version
-of Blender and can't make sense of official instructions for building Blender from source,
-this script makes it slightly easier (when it works).
+(the script probably won't work for Mac computers). This is *extremely* experimental and not officially
+supported by the Blender Foundation. But if you are a person who really wants to build Blender yourself
+and can't make sense of the official instructions, this script makes it slightly easier (when it works).
+
+- `AutoCompileBlender Script <http://wiki.blender.org/index.php?title=User:Terrywallwork&section=1>`__
 
 
-- `AutoCompileBlender Script for Blender SVN Code <http://wiki.blender.org/index.php?title=User:Terrywallwork&section=1>`__
-
-
-Enabling RPM Fusion Repository For Fedora
+Enabling RPM Fusion for Fedora
 =========================================
 
-Fedora is an entirely open sourced operating system,
-it does not use any closed source software that is not released under some GPL type licence.
-This means that some important features and software such as codecs,
-libraries and drivers are not provided by the Fedora Project.
+Fedora aims to be an entirely open source operating system, and as such it does not include any closed
+source software in its official repositories. This means that some important software such as codecs,
+libraries, and proprietary drivers are not available in a Fedora system.
 
-To get around some of these limitations a software repository was setup that is external to
-the official Fedora Project.  The RPM Fusion Repository provides lots of extra software which
-contain software that does not meet the licensing standards required of the Fedora Project.
+To get around some of these limitations an external software repository was set up called RPM Fusion,
+which provides lots of extra software that does not meet the licensing standards of the Fedora Project.
 
-Some features of Blender require certain libraries and features that are only provided in the
-RPM Fusion Repository, and so you need to install and enable the RPM Fusion Repository for
-your Fedora operating system.
+Some features of Blender require certain libraries (i.e. FFMPEG codecs) that are only provided in
+RPM Fusion, so you may want to install RPM Fusion for your system.
 
-Go to the RPM Fusion Repository website and follow the instructions on how to install and
-enable the RPM Fusion Repository for your Fedora Linux system.
+You can find instructions for how to do this on the `RPM Fusion website <http://rpmfusion.org/Configuration>`__
 
 
-- `RPM Fusion Repository Website <http://rpmfusion.org>`__
-
-
-Installing CUDA Support In Fedora For Blender GPU Cycles Rendering Support
+Installing CUDA for GPU rendering with Cycles
 ==========================================================================
 
-Yet to be written researching how to do this for fedora.
-I can't test because I don't have a GPU based compatible card.
+*ToDo*

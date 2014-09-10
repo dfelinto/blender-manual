@@ -20,17 +20,13 @@ however you will likely notice an increase in performance when using the 64-bit 
 Blender, especially on systems with large amounts of RAM.
 
 To determine whether you have a 32-bit or 64-bit version of Linux, you can either consult your
-distributions' documentation or use the ``uname`` command with the ``-m``
-option. ``uname`` will print system information and the ``-m`` option will
-print the machine hardware name.
+distributions' documentation or use the ``arch`` command, which will print the systems architecture.
 
 
 - Open a terminal console
+- Enter the command ``arch``
 
-
-- Enter the command ``uname -m``
-
-If you have a 32-bit system, ``uname -m`` will return a value of ``i686``.
+If you have a 32-bit system, ``arch`` will return a value of ``i686``.
 A 64-bit system will return a value of ``x86_64``.
 
 
@@ -43,7 +39,7 @@ distributions package manager. If your distribution does not do this,
 or has not updated their repository to include the latest Blender release,
 you can install it yourself with the instructions below.
 Note that depending on your distribution, the version available in the software repository may
-be outdated compared to the offical release.
+be outdated compared to the offical release. 
 
 
 Installation
@@ -51,7 +47,7 @@ Installation
 
 First check if your distribution provides the latest Blender version through its package
 manager. If it doesn't, download the appropriate version of Blender for Linux from the
-`Blender download page <http://www.blender.org/download/get-blender/>`__
+`Blender download page <http://www.blender.org/download//>`__
 and unpack the archive to a location of your choice.
 
 This will create a directory named ``blender-VERSION-linux-glibcVERSION-ARCH``,
@@ -60,12 +56,8 @@ version of glibc required and ``ARCH`` is your computer architecture
 (``i686`` or ``x86_64``).
 In this directory you will find the ``blender`` binary.
 
-To run Blender,
-
-
-- Start your `X.Org server <http://www.x.org/wiki/>`__ (if it is not already running)
-- Navigate to the Blender directory using a file manager and double click the Blender executable or,
-- Open a terminal console, navigate to the Blender directory and execute the command ``./blender``
+To run Blender, navigate to the Blender directory using a file manager and double click the Blender
+executable. Or open a terminal console, navigate to the Blender directory, and execute the command ``./blender``.
 
 
 Installing into ``/opt`` or ``/usr/local``
@@ -83,15 +75,9 @@ Configuration
 Alt+Mouse Conflict
 ------------------
 
-Many Linux distributions default to
-FIXME(Template Unsupported: Shortcut/Keypress;
-{{Shortcut/Keypress|alt}}
-)
-FIXME(Template Unsupported: Shortcut/Mouse;
-{{Shortcut/Mouse|lmb}}
-) for moving
-windows. Since Blender uses Alt+Click it's normally easier to disable this feature or change
-the key to Super (Windows Key)
+Many Linux distributions default to :kbd:`Alt+LMB` for moving
+windows. Since Blender uses :kbd:`Alt+Click` it's normally easier to disable this feature or change
+the key used by the window manager to Super (Windows Key)
 
 - Ubuntu 11.04: Settings > Window Manger Tweak > Accessibility > Change Window Key to Super
 - Ubuntu 12.04 (Unity/Gnome): Command line (effective at next login): gsettings set org.gnome.desktop.wm.preferences mouse-button-modifier 'none'
@@ -115,12 +101,9 @@ rendering.
 If you experience these problems they can be avoided by disabling desktop effects or by
 switching to a desktop environment that does not use desktop effects such as:
 
-
 - Unity2D
 - Gnome Fallback
 - XFCE
 - light weight window managers like openbox, jwm, sawfish, icewm... etc.
 
-For details on this topic, see: [http://en.wikipedia.org/wiki/Compositing_window_manager
-Wikipedia - Compositing Window Managers]
-
+For details on this topic, see: `Wikipedia - Compositing Window Managers <http://en.wikipedia.org/wiki/Compositing_window_manager>`__

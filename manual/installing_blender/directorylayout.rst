@@ -82,8 +82,7 @@ Path Layout
 
 This is the path layout which is used within the directories described above.
 
-Where ``./config/startup.blend`` could be
-.. parsed-literal:: ~/.blender/|BLENDER_VERSION|/config/startup.blend
+Where ``./config/startup.blend`` could be ~/.blender/|BLENDER_VERSION|/config/startup.blend
 for example.
 
 

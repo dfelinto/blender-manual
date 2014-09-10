@@ -1,5 +1,3 @@
-.. _installing_blender-index
-
 ####################
   Installing Blender
 ####################

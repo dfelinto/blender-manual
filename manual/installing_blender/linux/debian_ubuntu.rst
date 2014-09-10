@@ -457,7 +457,7 @@ the disadvantages are related to software updates, fixes, and general support.
 
 When using Debian based systems, some distributions such as Ubuntu facilitate the proprietary
 driver installation using systems such as Ubuntu *proprietary drivers*
-(available to the majority of *buntu variants), while others will need the user to compile the
+(available to the majority of Ubuntu variants), while others will need the user to compile the
 manufacturers card drivers to be able to use the hardware graphic accelerated features of a
 particular graphic card.
 
@@ -618,7 +618,7 @@ External link (askubuntu.com) :
 
 `Disabling Ubuntu Desktop animations <http://askubuntu.com/questions/138622/how-to-disable-all-unity-animations>`__
 
-You can also use another **buntu* distribution (Like Xubuntu or Lubuntu),
+You can also use another *Ubuntu* based distribution (Like Xubuntu or Lubuntu),
 that uses another lightweight window manager, like the Xubuntu variant or install another
 Window manager in conjunction with your default Ubuntu install.
 
