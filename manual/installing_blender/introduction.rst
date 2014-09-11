@@ -2,7 +2,7 @@ Installing the Binaries
 ***********************
 
 Blender is available both as a binary executable and as source code on the `Blender website <http://www.blender.org/>`__.
-To download Blender, select the right binary for your system from the `download page <http://www.blender.org/download>`__ .
+To download Blender, select the right binary for your system from the `download page <http://www.blender.org/download/>`__ .
 
 For the online manual hosted at the wiki, you can generally use the most recent version of
 Blender located at the Blender Foundation website

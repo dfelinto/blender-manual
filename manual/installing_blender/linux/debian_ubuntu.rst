@@ -383,7 +383,7 @@ sudo apt-get install blender
 - If your system prints a message on the console screen showing **i686**, you have a 32 bit system, if your system prints a message on the console screen showing **x86_64**, then you have a 64 bit system. Now, you can download an appropriate Blender version for your system.  If your system is 32 bit you must download the 32 bit version of Blender.  If your system is 64 bit, then you can download the 64 bit version of Blender.  Also note that 64 bit platforms can also run 32 bit versions of Blender but this will mean you will not be able to access any memory in your system above 4 gigabytes, and 32 bit version of Blender will perform more slowly on 64 bit platforms.
 
 
-- Go to the `blender.org download website <http://www.blender.org/download>`__ and download the correct Blender Linux version for your system.  To Download Blender there is a column on the website marked with *Suits most recent Linux distributions* on Blender.org's website.
+- Go to the `blender.org download website <http://www.blender.org/download/>`__ and download the correct Blender Linux version for your system.  To Download Blender there is a column on the website marked with *Suits most recent Linux distributions* on Blender.org's website.
 
 
 - The Blender pre-compiled packages from blender.org for Debian/Linux based systems come packaged in a zip file.  You can choose to download and unzip to a folder after the download, or open it with your Archive Manager (default) when asked by your internet browser.

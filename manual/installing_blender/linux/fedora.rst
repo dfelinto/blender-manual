@@ -26,7 +26,7 @@ To install this, type the following command in the terminal window (after updati
 .. tip:: It is important that you type 'SDL' and not 'sdl', case matters.
 
 Now that you have all the dependencies installed, you can go to the
-`download page <http://www.blender.org/download>`__, and choose a version to install.
+`download page <http://www.blender.org/download/>`__, and choose a version to install.
 
 
 Determining your hardware configuration
