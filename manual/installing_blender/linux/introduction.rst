@@ -6,7 +6,7 @@ Download
 ========
 
 You can obtain the latest stable version of Blender for Linux from the
-`Blender download page <http://www.blender.org/download/get-blender/>`__
+`Blender download page <http://www.blender.org/download>`__
 or from your distribution software repository if it provides a Blender package.
 
 
@@ -20,13 +20,13 @@ however you will likely notice an increase in performance when using the 64-bit 
 Blender, especially on systems with large amounts of RAM.
 
 To determine whether you have a 32-bit or 64-bit version of Linux, you can either consult your
-distributions' documentation or use the ``arch`` command, which will print the systems architecture.
+distributions' documentation or use the ``uname -m`` command, which will print the systems architecture.
 
 
 - Open a terminal console
-- Enter the command ``arch``
+- Enter the command ``uname -m``
 
-If you have a 32-bit system, ``arch`` will return a value of ``i686``.
+If you have a 32-bit system, ``uname -m`` will return a value of ``i686``.
 A 64-bit system will return a value of ``x86_64``.
 
 
@@ -47,7 +47,7 @@ Installation
 
 First check if your distribution provides the latest Blender version through its package
 manager. If it doesn't, download the appropriate version of Blender for Linux from the
-`Blender download page <http://www.blender.org/download//>`__
+`Blender download page <http://www.blender.org/download>`__
 and unpack the archive to a location of your choice.
 
 This will create a directory named ``blender-VERSION-linux-glibcVERSION-ARCH``,

@@ -24,7 +24,7 @@ Screenshot Install
 There are many different distributions based on Debian based Linux systems available to the users,
 and some of them use different Window managers and ways of installing software such as Blender,
 we can't add all of the different ways to this page.  The most common way to install Blender on Debian based systems
-is below in :doc:`text format </introduction/installing_blender/linux/debian_ubuntu#general_instructions_.28text.29>`.
+is below under :ref:`installing-blender-linux-debian-ubuntu-general-instructions`.
 For the majority of users the instructions above should suffice,
 with little or no changes in the steps required to install Blender.
 
@@ -334,6 +334,8 @@ Debian (step by step)
 
    15 - Newest Blender Binary extracted and ready for execution
 
+
+.. _installing-blender-linux-debian-ubuntu-general-instructions:
 
 General Instructions (text)
 ---------------------------

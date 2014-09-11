@@ -26,7 +26,7 @@ To install this, type the following command in the terminal window (after updati
 .. tip:: It is important that you type 'SDL' and not 'sdl', case matters.
 
 Now that you have all the dependencies installed, you can go to the
-`download page <http://www.blender.org/download/get-blender/>`__, and choose a version to install.
+`download page <http://www.blender.org/download>`__, and choose a version to install.
 
 
 Determining your hardware configuration
@@ -46,7 +46,7 @@ If it's something else, like 'i686', you should download the 32 bit version.
 
 
 Downloading Blender
-=====================================================
+===================
 
 Once you have determined which version of Blender you want to download,
 you can click on the corresponding link on the Blender Download Website.
@@ -153,7 +153,7 @@ At this point if everything went well, you should see Blender displayed on scree
 
 
 Operating System keyboard conflicts
-=============================================
+===================================
 
 Blender has a massive amount of hotkeys that it uses. However, some of the hotkeys that Blender uses
 are also used by Gnome Shell. What follows is a list of the major conflicting keyboard shortcuts and how to change them.
@@ -175,7 +175,7 @@ key when moving windows on the desktop, type the following command in a terminal
 
 
 Obtaining snapshot builds of Blender
-======================================
+====================================
 
 If you want to get snapshot bulds of Blender from the git repository, you have a couple of options.
 
@@ -188,7 +188,7 @@ such as the different branches from GSOC's.
 The BuildBot is the official Blender Foundation snapshot builds from git.
 The builds provided here are built daily for all supported platforms.
 
-- `builder.blender.org <http://builder.blender.org/download/>`__
+- `builder.blender.org <http://builder.blender.org/download>`__
 
 If you want to build Blender from source, you can follow the official instruction on the wiki.
 Building Blender from source is not difficult compared to trying to build other software of comparable complexity,
@@ -216,7 +216,7 @@ and can't make sense of the official instructions, this script makes it slightly
 
 
 Enabling RPM Fusion for Fedora
-=========================================
+==============================
 
 Fedora aims to be an entirely open source operating system, and as such it does not include any closed
 source software in its official repositories. This means that some important software such as codecs,
@@ -232,6 +232,6 @@ You can find instructions for how to do this on the `RPM Fusion website <http://
 
 
 Installing CUDA for GPU rendering with Cycles
-==========================================================================
+=============================================
 
 *ToDo*
