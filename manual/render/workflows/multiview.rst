@@ -33,13 +33,13 @@ Multi-View
   Multi camera system. This is a more flexible system that allows for stereo 3d as well as other non-standard outputs such as fulldome and autostereo displays. The **left** and **right** views are considered a special case since they allow your scene to be previsualized as a regular Stereo 3D from the respective cameras.
 
 Suffix
-  When using 'Stereo 3D' the suffix is used when saving the images (e.g., 0001_L.jpg, 0001_R.jpg). When using 'Multi-View' the suffix is also used to identify a group of cameras to use for rendering.
+  When using 'Stereo 3D' the suffix is used when saving the images (e.g., ``0001_L.jpg``, ``0001_R.jpg``). When using 'Multi-View' the suffix is also used to identify a group of cameras to use for rendering.
 
 .. note:: Multi-View Camera Suffix
 
-  If you want to render a Left, Right and Center views you start by creating a *center* render view (the *left* and *right* are created by default). The new view is created with an empty suffix while the *left* and *right* have *_L* and *_R* as their default respective suffices.
+  If you want to render a Left, Right and Center views you start by creating a *center* render view (the *left* and *right* are created by default). The new view is created with an empty suffix while the *left* and *right* have ``_L`` and ``_R`` as their default respective suffices.
 
-  In this case create the following cameras: *Camera.Wide_L*, *Camera.Wide_R* and *Camera.Wide*. Blender will render and preview those cameras regardless of the actual active camera between them. Now create the cameras: *Camera.Zoom_L*, *Camera.Zoom_R*, *Camera.Zoom*. You can alternate between the render cameras (Wide cameras or Zoom cameras) by simply setting one of them as the active camera. In fact if you use the *Bind Camera to Markers* tool in the Timeline you can change your render cameras during the rendering.
+  In this case create the following cameras: ``Camera.Wide_L``, ``Camera.Wide_R`` and ``Camera.Wide``. Blender will render and preview those cameras regardless of the actual active camera between them. Now create the cameras: ``Camera.Zoom_L``, ``Camera.Zoom_R``, ``Camera.Zoom``. You can alternate between the render cameras (Wide cameras or Zoom cameras) by simply setting one of them as the active camera. In fact if you use the *Bind Camera to Markers* tool in the Timeline you can change your render cameras during the rendering.
 
 Window Stereo 3D Display
 ========================
