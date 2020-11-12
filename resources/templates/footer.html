@@ -1,0 +1,15 @@
+{%- extends "!footer.html" %}
+{%- block extrafooter %}
+   {%- if not pagename in ("search", "404", "genindex", "advanced/command_line/arguments") and hasdoc(pagename) %}
+      <div class="footer-contribute">
+         <ul>
+            <li>
+               <a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/{{ pagename }}{{ page_source_suffix }}" class="fa fa-edit"> {{ _('Edit Page') }}</a>
+            </li>
+            <li>
+               <a href="https://developer.blender.org/maniphest/task/edit/form/default/?description=Pagename%3A%20%60{{ pagename }}%60&project=PHID-PROJ-c4nvvrxuczix2326vlti" class="fa fa-bug"> {{ _('Report Bug') }}</a>
+            </li>
+         <ul>
+      </div>
+   {%- endif %}
+{% endblock %}

@@ -1,0 +1,6 @@
+{
+	"project_id" : "Documentation",
+	"conduit_uri" : "https://developer.blender.org/",
+	"phabricator.uri" : "https://developer.blender.org/",
+	"arc.land.update.default" : "rebase"
+}

@@ -1,0 +1,3 @@
+
+ErrorDocument 404 /manual/{lang}/{version}/404.html
+RedirectMatch \"^/manual/{lang}/{version}/addons/import_export/io_(.*)\" \"/manual/{lang}/{version}/addons/import_export/$1\"

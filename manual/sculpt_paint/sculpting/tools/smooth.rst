@@ -1,0 +1,52 @@
+
+******
+Smooth
+******
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Sculpt Mode
+   :Tool:      :menuselection:`Toolbar --> Smooth`
+   :Hotkey:    :kbd:`S`
+
+Eliminates irregularities in the area of the mesh within the brush's
+influence by smoothing the positions of the vertices.
+
+
+Brush Settings
+==============
+
+.. _bpy.types.Brush.smooth_deform_type:
+
+Deformation
+   Deformation type that is used in the brush.
+
+   Laplacian
+      Smooths the surface and the volume.
+   Surface
+      Smooths the surface of the mesh, while preserving the volume.
+
+      .. _bpy.types.Brush.surface_smooth_shape_preservation:
+
+      Shape Preservation
+         How much of the original shape is preserved when smoothing. Increasing the value
+         reduces the effect of having multiple iterations on the strength of smoothing.
+
+      .. _bpy.types.Brush.surface_smooth_current_vertex:
+
+      Per-Vertex Displacement
+         How much the position of each individual vertex influences the final result.
+         Increasing the value reduces the overall strength of smoothing.
+
+      .. _bpy.types.Brush.surface_smooth_iterations:
+
+      Iterations
+         Number of smoothing iterations per brush step.
+
+      .. note::
+
+         This method works by applying regular smoothing, computing the difference between
+         the original (blended between start of iteration and fully original based on *Shape Preservation*)
+         and the smoothed mesh, smoothing these offsets, pushing vertices back using the smoothed offsets,
+         and finally blending in the original mesh based on *Per-Vertex Displacement*.

@@ -1,0 +1,55 @@
+
+**
+F2
+**
+
+F2 (also known as the 'spider-script') extends Blender native functionality of creating faces.
+It allows you to create a face from a single vertex selection or a single edge selection,
+while retaining all the built-in functionality.
+
+
+Activation
+==========
+
+- Open Blender and go to Preferences then the Add-ons tab.
+- Click Mesh then F2 to enable the script.
+
+
+Description
+===========
+
+Quad from Vertex
+----------------
+
+When a single vertex is selected, a new quad is formed by creating a new vertex.
+The position of this new vertex is calculated based on the three existing vertices.
+These are the selected vertex, and two vertices to which it is connected via open edges.
+An open edge is an edge which is only part of one face, or none at all.
+The newly created quad has the same material and normal direction as the neighboring faces.
+
+
+Quad from Edge
+--------------
+
+Similar to the quad from vertex functionality, this is based on open edges.
+The selected edge has to be connected to two open edges.
+The vertices which belong to these edges are used to create a new quad.
+
+
+Direction Control
+-----------------
+
+If there are multiple ways to create a new quad, the position of the mouse cursor is taken into account.
+Of the multiple new faces which are possible, the one which will be closest to
+the mouse cursor (in 2D screen space) is the one which will be created.
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Category:  Mesh
+   :Description: Extends the 'Make Edge/Face' functionality.
+   :Location: Mesh Edit Mode :kbd:`F`
+   :File: mesh_f2.py
+   :Author: Bart Crouch, Alexander Nedovizin, Paul Kotelevets (concept design), Adrian Rutkowski
+   :License: GPL
+   :Note: This add-on is bundled with Blender.

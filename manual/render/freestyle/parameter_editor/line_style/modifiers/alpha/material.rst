@@ -1,0 +1,3 @@
+.. DO NOT EDIT FILE. This is simply a stub which copies everything from the link below.
+.. include:: /render/freestyle/parameter_editor/line_style/modifiers/color/material.rst
+   :start-after: .. --- copy below this line ---

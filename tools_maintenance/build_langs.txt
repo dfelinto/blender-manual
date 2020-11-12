@@ -1,0 +1,16 @@
+de
+es
+fi
+fr
+it
+ja
+ko
+nb
+pt
+ru
+sl
+sr
+uk
+vi
+zh-hans
+zh-hant
