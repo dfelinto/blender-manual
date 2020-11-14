@@ -1,7 +1,7 @@
 #! /usr/bin/env python3
 
-# Changes the shortcuts (:kbd:`...`) across all the manual RST
-# files according to the provided CSV table.
+# Changes the shortcuts (:kbd:`...`) and menus (:menuselection:`...`)
+# across all the manual RST files according to the provided CSV table.
 
 import os
 
@@ -37,10 +37,11 @@ def st_replace(s):
     return result
 
 
-def line_process(line):
+def line_process(line, prefix=':kbd:'):
     """
     It processes a line from the RST file.
     :param line: the line from the RST file.
+    :param prefix: type of element (:kbd:, :menuitem:,...)
     :return: the processed (replaced) line.
     """
     result = ''
@@ -48,12 +49,12 @@ def line_process(line):
     global n_changes
     while True:
         # shortcut start search
-        pos = lin.find(':kbd:`')
+        pos = lin.find(prefix + '`')
         if pos == -1:
             result += lin
             break
-        result += lin[:pos+6]
-        lin = lin[pos+6:]
+        result += lin[:pos+len(prefix)+1]
+        lin = lin[pos+len(prefix)+1:]
 
         # shortcut end search
         pos = lin.find('`')  # we assume it will be found
@@ -78,7 +79,8 @@ def file_process(filename):
     global n_changes
     n_changes = 0
     for line in fin:
-        lin = line_process(line)
+        lin = line_process(line)  # :kbd: shortcuts
+        lin = line_process(lin, ':menuitem:')  # :menuitem: menu items
         fout_list.append(lin)
     fin.close()
 

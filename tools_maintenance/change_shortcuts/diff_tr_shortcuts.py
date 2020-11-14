@@ -34,12 +34,12 @@ elif len(sys.argv) != 2:
 
     Examples: diff_tr_shortcuts.py es
               diff_tr_shortcuts.py fr\n""")
-elif not os.path.isdir('new_locale/' + sys.argv[1]):
+elif not os.path.isdir(os.path.join('new_locale', sys.argv[1])):
     print("'new_locale/" + sys.argv[1] + "' folder not found.")
 else:  # All OK
     fdiff = open('diff_' + sys.argv[1] + '.txt', 'wt')
     # Main loop:
-    for info_dir in os.walk('new_locale/' + sys.argv[1]):
+    for info_dir in os.walk(os.path.join('new_locale', sys.argv[1])):
         for fname in info_dir[2]:
             path_out = os.path.abspath(os.path.join(info_dir[0], fname))
             path_in = os.path.join(root_dir, path_out[path_out.find('locale'):])

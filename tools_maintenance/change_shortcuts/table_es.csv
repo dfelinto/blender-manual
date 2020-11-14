@@ -1,6 +1,7 @@
 Return;Intro
 Comma;,
 Period;.
+Slash;/
 Numpad0;Num0
 Numpad1;Num1
 Numpad2;Num2
@@ -12,6 +13,7 @@ Numpad7;Num7
 Numpad8;Num8
 Numpad9;Num9
 Numpad/;Num/
+NumpadSlash;Num/
 Numpad*;Num*
 Numpad-;Num-
 Numpad+;Num+
@@ -31,9 +33,11 @@ End;Fin
 PgUp;RePág
 PgDn;AvPág
 Shift;Mays
+WheelUp;RuedaArriba
+WheelDown;RuedaAbajo
 Wheel;Rueda
 Spacebar;Espacio
 LMB;RatónIzq
 RMB;RatónDer
 MMB;RatónMed
-   
+View;PALIMPSESTOSS

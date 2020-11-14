@@ -1,7 +1,8 @@
 #! /usr/bin/env python3
 
-# Changes the shortcuts (:kbd:`...`) across all the translated PO
-# files of a spcecific language according to the provided CSV table.
+# Changes the shortcuts (:kbd:`...`) and menu items (:menuselection:`...`)
+# across all the translated PO files of a spcecific language, according to
+# the provided CSV table.
 # Language must be indicated.
 
 import os
@@ -39,10 +40,11 @@ def st_replace(s):
     return result
 
 
-def line_process(line):
+def line_process(line, prefix=':kbd:'):
     """
-    It processes a line of the PO file corresponding to a msgstr.
+    It processes a line from the PO file.
     :param line: the line from the PO file.
+    :param prefix: type of element (:kbd:, :menuitem:,...)
     :return: the processed (replaced) line.
     """
     result = ''
@@ -50,12 +52,12 @@ def line_process(line):
     global n_changes
     while True:
         # shortcut start search
-        pos = lin.find(':kbd:`')
+        pos = lin.find(prefix + '`')
         if pos == -1:
             result += lin
             break
-        result += lin[:pos+6]
-        lin = lin[pos+6:]
+        result += lin[:pos+len(prefix)+1]
+        lin = lin[pos+len(prefix)+1:]
 
         # shortcut end search
         pos = lin.find('`')  # we assume it will be found
@@ -83,7 +85,8 @@ def file_process(filename):
     for line in fin:
         if in_msgstr:
             if line[0] == '"':  # still inside a msgstr
-                lin = line_process(line)
+                lin = line_process(line)  # :kbd: shortcuts
+                lin = line_process(lin, ':menuitem:')  # :menuitem: menu items
                 fout_list.append(lin)
             else:
                 in_msgstr = False  # not anymore in a msgstr
@@ -91,7 +94,8 @@ def file_process(filename):
         else:
             if line[:6] == 'msgstr':  # entering a msgstr
                 in_msgstr = True
-                lin = line_process(line)
+                lin = line_process(line)  # :kbd: shortcuts
+                lin = line_process(lin, ':menuitem:')  # :menuitem: menu items
                 fout_list.append(lin)
             else:  # still outside a msgstr
                 fout_list.append(line)
