@@ -108,8 +108,9 @@ else:  # All OK
     f = open('table.csv', 'rt')
     for ln in f:
         row = ln.strip()
-        if row != '':
-            table.append(row.split(';'))
+        if row != '' and row[0] != '#':
+            r = row.split(';')
+            table.append((r[0].strip(), r[1].strip()))
     f.close()
 
     # Main loop:

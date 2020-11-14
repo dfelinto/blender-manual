@@ -1,6 +1,9 @@
+# Substitution table for Spanish translation
+
 Return;Intro
 Comma;,
 Period;.
+BackSlash;\
 Slash;/
 Numpad0;Num0
 Numpad1;Num1
@@ -13,13 +16,13 @@ Numpad7;Num7
 Numpad8;Num8
 Numpad9;Num9
 Numpad/;Num/
-NumpadSlash;Num/
 Numpad*;Num*
 Numpad-;Num-
 Numpad+;Num+
 Numpad.;Num.
 NumpadPlus;Num+
 NumpadMinus;Num-
+NumpadSlash;Num/
 NumpadPeriod;Num.
 Left;Izquierda
 Right;Derecha
@@ -37,7 +40,7 @@ WheelUp;RuedaArriba
 WheelDown;RuedaAbajo
 Wheel;Rueda
 Spacebar;Espacio
-LMB;RatónIzq
-RMB;RatónDer
-MMB;RatónMed
-View;PALIMPSESTOSS
+# LMB;RatónIzq
+# RMB;RatónDer
+# MMB;RatónMed
+
