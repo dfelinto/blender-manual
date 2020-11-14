@@ -99,7 +99,8 @@ def file_process(filename):
 
     # In case there were changes, we generate an output file
     if n_changes > 0:
-        print(filename + ':', n_changes, "change(s).")
+        print(filename[filename.find('LC_MESSAGES')+11:] + ':',
+              n_changes, "change(s).")
         file_out = 'new_' + filename[filename.find('locale'):]
         os.makedirs(os.path.dirname(file_out), exist_ok=True)
         fout = open(file_out, 'wt')
@@ -109,8 +110,10 @@ def file_process(filename):
 
 root_path = find_vcs_root()
 
-# CL Arguments:
-if len(sys.argv) != 2:
+# Preliminary checks:
+if root_path is None:
+    print('Repository not found. Script must be in a repo subfolder.')
+elif len(sys.argv) != 2:
     print("""\nUsage: change_tr_shortcuts.py <LANGUAGE>
 
     Examples: change_tr_shortcuts.py es
@@ -122,10 +125,11 @@ if len(sys.argv) != 2:
     Output files will be created in 'new_locale' subfolder
     inside the script's folder.\n""")
 elif not os.path.isdir(os.path.join(root_path, 'locale', sys.argv[1])):
-    print('<repo_root>/locale/' + sys.argv[1], 'folder not found')
+    print("'<repo_root>/locale/" + sys.argv[1] + "' folder not found.")
 elif not os.path.isfile(os.path.join('table_' + sys.argv[1] + '.csv')):
-    print('table_' + sys.argv[1] + '.csv file not found')
-else:
+    print("'table_" + sys.argv[1] + ".csv' file not found. "
+          "Script and table must be in the same folder.")
+else:  # All OK
     # Substitution table initialization:
     f = open('table_' + sys.argv[1] + '.csv', 'rt')
     for ln in f:

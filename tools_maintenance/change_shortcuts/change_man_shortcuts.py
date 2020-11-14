@@ -84,8 +84,8 @@ def file_process(filename):
 
     # In case there were changes, we generate an output file
     if n_changes > 0:
-        print(filename + ':', n_changes, "change(s).")
-
+        print(filename[filename.find('manual')+6:] + ':',
+              n_changes, "change(s).")
         file_out = 'new_' + filename[filename.find('manual'):]
         os.makedirs(os.path.dirname(file_out), exist_ok=True)
         fout = open(file_out, 'wt')
@@ -95,10 +95,13 @@ def file_process(filename):
 
 root_path = find_vcs_root()
 
-if not os.path.isfile('table.csv'):
+# Preliminary checks:
+if root_path is None:
+    print('Repository not found. Script must be in a repo subfolder.')
+elif not os.path.isfile('table.csv'):
     print("'table.csv' file not found. "
           "Script and 'table.csv' must be in the same folder.")
-else:
+else:  # All OK
     # Substitution table initialization:
     f = open('table.csv', 'rt')
     for ln in f:
