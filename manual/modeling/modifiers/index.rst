@@ -42,6 +42,7 @@ Generate
    generate/build.rst
    generate/decimate.rst
    generate/edge_split.rst
+   generate/empty.rst
    generate/mask.rst
    generate/mesh_to_volume.rst
    generate/mirror.rst
@@ -97,3 +98,20 @@ Physics
    physics/particle_instance.rst
    /physics/particles/index.rst
    /physics/soft_body/index.rst
+
+
+Nodes
+=====
+
+.. toctree::
+   :maxdepth: 1
+
+   nodes/boolean.rst
+..   nodes/object_info.rst
+..   nodes/edge_split.rst
+..   nodes/subdivision_surface.rst
+..   nodes/transform.rst
+..   nodes/triangulate.rst
+..   nodes/point_distribute.rst
+..   nodes/point_instance.rst
+
