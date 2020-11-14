@@ -82,6 +82,6 @@ else:  # All OK
             if path_full[-3:] == '.po':
                 file_process(path_full)
 
-    print('Searching for ' + sys.argv[2] + '...')
+    print("Searching for '" + sys.argv[2] + "'...")
     for f in file_list:
         print(f[f.find('LC_MESSAGES')+11:])
