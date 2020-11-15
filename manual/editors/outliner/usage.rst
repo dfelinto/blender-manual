@@ -25,6 +25,18 @@ while holding :kbd:`Shift`.
    that are incompatible with the operation will remain unmodified.
 
 
+Modifiers, Constraints, & Visual Effects
+========================================
+
+:doc:`Modifiers </modeling/modifiers/index>`, :doc:`Constraints </animation/constraints/index>`, and
+:doc:`Visual Effects </grease_pencil/visual_effects>`  can be managed from the outliner in a couple ways.
+To change the order with in the :ref:`stack <modifier-stack>`
+select the desired modifier and move it above or below other modifiers.
+
+To copy a single modifier to another select the modifier and drag it on top of the desired object.
+To copy the whole modifier stack to another object select the modifier icon and drag in to the desired object.
+
+
 Drag & Dropping to 3D Viewport
 ==============================
 
