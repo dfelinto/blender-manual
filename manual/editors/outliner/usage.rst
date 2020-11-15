@@ -29,7 +29,7 @@ Modifiers, Constraints, & Visual Effects
 ========================================
 
 :doc:`Modifiers </modeling/modifiers/index>`, :doc:`Constraints </animation/constraints/index>`, and
-:doc:`Visual Effects </grease_pencil/visual_effects>`  can be managed from the outliner in a couple ways.
+:doc:`Visual Effects </grease_pencil/visual_effects/index>`  can be managed from the outliner in a couple ways.
 To change the order with in the :ref:`stack <modifier-stack>`
 select the desired modifier and move it above or below other modifiers.
 
