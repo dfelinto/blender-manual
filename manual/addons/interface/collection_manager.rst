@@ -78,7 +78,7 @@ Scene Collection
       - :kbd:`LMB` -- Move object(s) to collection.
       - :kbd:`Shift-LMB` -- Add/Remove object(s) to/from collection.
 
-   Global Restrictions (checkbox, cursor, eye, screen, camera icons)
+   Global Restrictions (checkbox, cursor, eye, screen, camera, holdout, indirect only icons)
       See the Outliner page for information about
       :ref:`Restrictions <editors-outliner-interface-restriction_columns>`.
 
@@ -111,7 +111,7 @@ Tree View
       - :kbd:`LMB` -- Move object(s) to collection.
       - :kbd:`Shift-LMB` -- Add/Remove object(s) to/from collection.
 
-   Local Restrictions (checkbox, cursor, eye, screen, camera icons)
+   Local Restrictions (checkbox, cursor, eye, screen, camera, holdout, indirect only icons)
       - :kbd:`LMB` -- Toggle the collection's restriction on/off.
       - :kbd:`Shift-LMB` -- Isolate the collection's restriction, preserving parents if need be.
         Click again to restore the previous state.
@@ -125,7 +125,7 @@ Tree View
       Remove the collection.
 
    Filtering
-      By Name (box icon)
+      By Name
          A text field to filter collections by name.
 
       Invert (magnifying glass icon)
@@ -140,8 +140,16 @@ Tree View
          Filter collections by those designated as QCD slots (show only collections that
          correspond to a QCD slot). Shown only if QCD is enabled in the preferences.
 
+      .. hint::
+
+         All options can be combined with each other.
+
 Add Collection, Add Subcollection
    Self-explanatory.
+
+   .. note::
+
+      If the tree view is filtered when adding collections, new collections that do not fit the filter rules will be displayed until the filtering changes.
 
 Phantom Mode
    All visibility changes made in this mode will be discarded when it's disabled.
@@ -152,7 +160,7 @@ Phantom Mode
 
    Note: You will be unable to edit anything other than the restrictions while in Phantom Mode.
 
-Apply Phantom Mode (checkbox icon)
+Apply Phantom Mode (check mark icon)
    Applies all changes made to RTOs while in Phantom Mode and exits the mode.
 
 
@@ -164,30 +172,49 @@ collections by allowing you to designate up to 20 collections as QCD slots.
 You can then interact with these slots by using hotkeys or the widget
 to view or move objects to them.
 
-
 3D Viewport Header Widget
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The header widget is composed of 20 buttons in two rows and in groups of five
-where the first row start with slot 1 and the second with slot 11.
+The header widget is composed of the Quick View Toggles button and 20 QCD slots.
 
-The state of each slots is shown with a combination of the following indicators:
+Quick View Toggles (eye icon)
+   - Enable All QCD Slots.
+   - Enable All QCD Slots Isolated. (Enables all QCD slots and disables any non QCD slots)
+   - Disable All Non QCD Slots.
+   - Disable All Collections.
+   - Select All QCD Objects. (Select all objects that belong to enabled QCD slots)
+   - Discard QCD History. (Discards previous QCD slot states)
 
-- ``x`` -- Unassigned slot.
-- ``non-highlighted`` -- non-visible slot.
-- ``highlighted`` -- visible slot.
-- ``no icon`` -- no objects in the slot.
-- ``horizontal line icon`` -- objects are present in this slot.
-- ``circle icon`` -- one or more objects in this slot are selected.
-- ``dot icon`` -- the active object is in this slot.
+   .. rubric:: Hotkeys
+
+   - :kbd:`LMB` -- Enable All QCD Slots.
+   - :kbd:`Alt-LMB` -- Select All QCD Objects.
+   - :kbd:`LMB-Hold` -- Call menu with all Quick View Toggles.
 
 
-.. rubric:: Hotkeys
+QCD Slots
+   20 buttons in two rows in groups of five
+   where the first row starts with slot 1 and the second with slot 11.
 
-- :kbd:`LMB` -- View single slot excluding all others.
-- :kbd:`Shift-LMB` -- Add/remove slot to/from view.
-- :kbd:`Ctrl-LMB` -- Move selected objects to slot.
-- :kbd:`Shift-Ctrl-LMB` -- Add/remove selected objects to/from slot.
+   The state of each slot is shown with a combination of the following indicators:
+
+   - ``x`` -- Unassigned slot.
+   - ``non-highlighted`` -- non-visible slot.
+   - ``highlighted`` -- visible slot.
+   - ``no icon`` -- no objects in the slot.
+   - ``horizontal line icon`` -- objects are present in this slot.
+   - ``circle icon`` -- one or more objects in this slot are selected.
+   - ``dot icon`` -- the active object is in this slot.
+
+
+   .. rubric:: Hotkeys
+
+   - :kbd:`LMB` -- View single slot excluding all others.
+   - :kbd:`Shift-LMB` -- Add/remove slot to/from view.
+   - :kbd:`Ctrl-LMB` -- Move selected objects to slot.
+   - :kbd:`Shift-Ctrl-LMB` -- Add/remove selected objects to/from slot.
+   - :kbd:`Alt-LMB` -- Replace selection with objects in this slot.
+   - :kbd:`Shift-Alt-LMB` -- Add/remove slot objects to/from the selection.
 
 
 Move Widget
@@ -218,11 +245,16 @@ The Move Widget shares its layout and indicators with the 3D Viewport header wid
 - :kbd:`Alt-0` - :kbd:`Alt-9` -- View slot 11-20 (0 is slot 20). Excludes all others.
 - :kbd:`Shift-0` - :kbd:`Shift-9` -- Add/remove slot 1-10 (0 is slot 10) to/from view.
 - :kbd:`Shift-Alt-0` - :kbd:`Shift-Alt-9` -- Add/remove slot 11-20 (0 is slot 20) to/from view.
+- :kbd:`Shift-+` -- Enable All QCD Slots.
+- :kbd:`Shift-Alt-+` -- Enable All QCD Slots Isolated.
+- :kbd:`Shift-Ctrl-+` -- Disable All Non QCD Slots.
+- :kbd:`Ctrl-Alt-=` -- Disable All Collections.
+- :kbd:`Alt-=` -- Select All QCD Objects.
 
 
 .. rubric:: Edit Mode
 
-All Object Mode hotkeys. (Only available if enabled in the preferences.)
+All Object Mode hotkeys except for Select All QCD Objects. (Only available if enabled in the preferences.)
 
 - :kbd:`AccentGrave` -- Mesh Select Mode menu.
 
