@@ -3,12 +3,11 @@
 # Searches for files containing :kbd: or :menuselection: items that
 # match the provided string in the 'msgstr' strings of the desired
 # language PO files in the repository.
+#
 # Language must be indicated.
 
 import os
 import sys
-
-file_list = set()
 
 
 def find_vcs_root(dirs=(".svn", ".git"), default=None):
@@ -38,27 +37,27 @@ def line_search(line, prefix):
     return False
 
 
-def file_process(filename):
+def file_process(filename, file_set):
     """
     It processes the PO file searching for items.
     :param filename: the name of the PO file.
+    :param file_set: set of files found so far (modified by func.).
     :return: nothing.
     """
-    global file_list
     fin = open(filename, 'rt')
     in_msgstr = False
     for line in fin:
         if in_msgstr:
             if line[0] == '"':  # still inside a msgstr
                 if line_search(line, ':kbd:') or line_search(line, ':menuselection:'):
-                    file_list.add(filename)
+                    file_set.add(filename)
             else:
                 in_msgstr = False  # not anymore in a msgstr
         else:
             if line[:6] == 'msgstr':  # entering a msgstr
                 in_msgstr = True
                 if line_search(line, ':kbd:') or line_search(line, ':menuselection:'):
-                    file_list.add(filename)
+                    file_set.add(filename)
     fin.close()
 
 
@@ -76,12 +75,13 @@ elif not os.path.isdir(os.path.join(root_path, 'locale', sys.argv[1])):
     print("'<repo_root>/locale/" + sys.argv[1] + "' folder not found.")
 else:  # All OK
     # Main loop:
+    file_set = set()
     for info_dir in os.walk(os.path.join(root_path, 'locale', sys.argv[1], 'LC_MESSAGES')):
         for fname in info_dir[2]:
             path_full = os.path.join(info_dir[0], fname)
             if path_full[-3:] == '.po':
-                file_process(path_full)
+                file_process(path_full, file_set)
 
     print("Searching for '" + sys.argv[2] + "'...")
-    for f in file_list:
+    for f in file_set:
         print(f[f.find('LC_MESSAGES')+11:])

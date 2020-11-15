@@ -2,13 +2,11 @@
 
 # Shows a list of all the :kbd: and :menuselection: items present in the
 # 'msgstr' strings of the desired language PO files in the repository.
+#
 # Language must be indicated.
 
 import os
 import sys
-
-kbdset = set()
-menuset = set()
 
 
 def find_vcs_root(dirs=(".svn", ".git"), default=None):
@@ -26,51 +24,48 @@ def find_vcs_root(dirs=(".svn", ".git"), default=None):
     return default
 
 
-def line_search(line, prefix, itemset):
+def line_search(line, prefix, sc_set):
     """
-    It searches a line from the PO file.
+    It searches for items in a line from the PO file.
     :param line: the line from the PO file.
-    :param prefix: type of element (:kbd:, :menuselection:,...).
-    :param itemset: the set where to add the found elements.
+    :param prefix: type of item (:kbd:, :menuselection:,...).
+    :param sc_set: the set where to add the items found.
     :return: nothing.
     """
-    lin = line
     while True:
         # shortcut start search
-        pos = lin.find(prefix + '`')
+        pos = line.find(prefix + '`')
         if pos == -1:
             break
-        lin = lin[pos+len(prefix)+1:]
+        line = line[pos+len(prefix)+1:]
 
         # shortcut end search
-        pos = lin.find('`')  # we assume it will be found
-        s_in = lin[:pos]  # string to add to the set
-        itemset.add(s_in)
-        lin = lin[pos:]
+        pos = line.find('`')  # we assume it will be found
+        s_in = line[:pos]  # string to add to the set
+        sc_set.add(s_in)
+        line = line[pos:]
 
 
-def file_process(filename):
+def file_process(filename, prefix, sc_set):
     """
     It processes the PO file searching for items.
     :param filename: the name of the PO file.
+    :param prefix: prefix to look for (':kbd:' or ':menuselect:').
+    :param sc_set: set where to store the items found.
     :return: nothing.
     """
-    global kbdset
-    global menuset
     fin = open(filename, 'rt')
     in_msgstr = False
     for line in fin:
         if in_msgstr:
             if line[0] == '"':  # still inside a msgstr
-                line_search(line, ':kbd:', kbdset)  # :kbd: shortcuts
-                line_search(line, ':menuselection:', menuset)  # :menuitem: menu items
+                line_search(line, prefix, sc_set)
             else:
                 in_msgstr = False  # not anymore in a msgstr
         else:
             if line[:6] == 'msgstr':  # entering a msgstr
                 in_msgstr = True
-                line_search(line, ':kbd:', kbdset)  # :kbd: shortcuts
-                line_search(line, ':menuselection:', menuset)  # :menuitem: menu items
+                line_search(line, prefix, sc_set)
     fin.close()
 
 
@@ -87,18 +82,21 @@ elif len(sys.argv) != 2:
 elif not os.path.isdir(os.path.join(root_path, 'locale', sys.argv[1])):
     print("'<repo_root>/locale/" + sys.argv[1] + "' folder not found.")
 else:  # All OK
+    kbdset = set()
+    menuset = set()
     # Main loop:
     for info_dir in os.walk(os.path.join(root_path, 'locale', sys.argv[1], 'LC_MESSAGES')):
         for fname in info_dir[2]:
             path_full = os.path.join(info_dir[0], fname)
             if path_full[-3:] == '.po':
-                file_process(path_full)
+                file_process(path_full, ':kbd:', kbdset)
+                file_process(path_full, ':menuselection:', menuset)
 
     print(':kbd: items:')
     k = sorted(kbdset)
     for item in k:
         print(item)
     m = sorted(menuset)
-    print('\n\n:menuitem: items:')
+    print('\n\n:menuselection: items:')
     for item in m:
         print(item)

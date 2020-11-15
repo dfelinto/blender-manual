@@ -5,9 +5,6 @@
 
 import os
 
-n_changes = 0
-table = []
-
 
 def find_vcs_root(dirs=(".svn", ".git"), default=None):
     """
@@ -30,58 +27,56 @@ def st_replace(s):
     :param s: shortcut string inside :kbd:`...`.
     :return: replaced string.
     """
-    global table
     result = s
-    for entry in table:
+    for entry in st_replace.table:
         result = result.replace(entry[0], entry[1])
     return result
 
 
-def line_process(line, prefix=':kbd:'):
+def line_process(line, prefix):
     """
     It processes a line from the RST file.
     :param line: the line from the RST file.
     :param prefix: type of element (:kbd:, :menuitem:,...)
-    :return: the processed (replaced) line.
+    :return: the processed (replaced) line and the number of changes made.
     """
     result = ''
-    lin = line
-    global n_changes
+    n_changes = 0
     while True:
-        # shortcut start search
-        pos = lin.find(prefix + '`')
-        if pos == -1:
-            result += lin
+        # Prefix search:
+        pos = line.find(prefix + '`')
+        if pos != -1:
+            result += line[:pos + len(prefix) + 1]
+            line = line[pos + len(prefix) + 1:]
+        else:
+            result += line
             break
-        result += lin[:pos+len(prefix)+1]
-        lin = lin[pos+len(prefix)+1:]
-
-        # shortcut end search
-        pos = lin.find('`')  # we assume it will be found
-        s_in = lin[:pos]  # candidate shortcut string to suffer replacements
+        # Shortcut contents search
+        pos = line.find('`')  # we assume it will be found
+        s_in = line[:pos]  # candidate shortcut string to suffer replacements
         s_out = st_replace(s_in)
         result += s_out
-        lin = lin[pos:]
+        line = line[pos:]
         if s_in != s_out:
             n_changes += 1
-    return result
+    return result, n_changes
 
 
-def file_process(filename):
+def file_process(filename, prefix):
     """
     It processes the RST file to replace and generates the output file
     if needed.
     :param filename: the name of the RST file.
+    :param prefix: prefix to search (like ':kbd:' or ':menuselection:').
     :return: nothing.
     """
     fin = open(filename, 'rt')
     fout_list = []
-    global n_changes
     n_changes = 0
     for line in fin:
-        lin = line_process(line)  # :kbd: shortcuts
-        lin = line_process(lin, ':menuitem:')  # :menuitem: menu items
-        fout_list.append(lin)
+        line_out, n = line_process(line, prefix)
+        n_changes += n
+        fout_list.append(line_out)
     fin.close()
 
     # In case there were changes, we generate an output file
@@ -104,13 +99,15 @@ elif not os.path.isfile('table.csv'):
     print("'table.csv' file not found. "
           "Script and 'table.csv' must be in the same folder.")
 else:  # All OK
-    # Substitution table initialization:
+    # Substitution table initialization. It will be stored as a "static"
+    # variable of st_replace() function:
+    st_replace.table = []
     f = open('table.csv', 'rt')
     for ln in f:
         row = ln.strip()
         if row != '' and row[0] != '#':
             r = row.split(';')
-            table.append((r[0].strip(), r[1].strip()))
+            st_replace.table.append((r[0].strip(), r[1].strip()))
     f.close()
 
     # Main loop:
@@ -118,4 +115,5 @@ else:  # All OK
         for fname in info_dir[2]:
             path_full = os.path.join(info_dir[0], fname)
             if path_full[-4:] == '.rst':
-                file_process(path_full)
+                file_process(path_full, ':kbd:')
+                file_process(path_full, ':menuselection:')

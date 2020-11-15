@@ -1,10 +1,20 @@
-# Substitution table for Spanish translation
+# Substitution table for Spanish translation of the Blender Manual
+#
+# IMPORTANT: input strings that include other input strings
+# should be placed before.
+#
+# WRONG:
+# Up; Arriba
+# PgUp; PágArriba
+#
+# RIGHT:
+# PgUp; PágArriba
+# Up; Arriba
+#
+# Use 'table_check.py' to check the table doesn't have this kind of errors
 
-Return;Intro
-Comma;,
-Period;.
-BackSlash;\
-Slash;/
+
+
 Numpad0;Num0
 Numpad1;Num1
 Numpad2;Num2
@@ -20,14 +30,11 @@ Numpad*;Num*
 Numpad-;Num-
 Numpad+;Num+
 Numpad.;Num.
+NumpadReturn;NumIntro
 NumpadPlus;Num+
 NumpadMinus;Num-
 NumpadSlash;Num/
 NumpadPeriod;Num.
-Left;Izquierda
-Right;Derecha
-Up;Arriba
-Down;Abajo
 AccentGrave;AcentoGrave
 Backspace;Retroceso
 Delete;Supr
@@ -40,7 +47,15 @@ WheelUp;RuedaArriba
 WheelDown;RuedaAbajo
 Wheel;Rueda
 Spacebar;Espacio
+Return;Intro
+Comma;,
+Period;.
+BackSlash;\
+Slash;/
+Left;Izquierda
+Right;Derecha
+Up;Arriba
+Down;Abajo
 # LMB;RatónIzq
 # RMB;RatónDer
 # MMB;RatónMed
-

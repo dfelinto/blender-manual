@@ -6,8 +6,6 @@
 import os
 import sys
 
-file_list = set()
-
 
 def find_vcs_root(dirs=(".svn", ".git"), default=None):
     """
@@ -36,17 +34,17 @@ def line_search(line, prefix):
     return False
 
 
-def file_process(filename):
+def file_process(filename, file_set):
     """
     It processes the RST file searching for items.
     :param filename: the name of the PO file.
+    :param file_set: set of files found so far (modified by func.).
     :return: nothing.
     """
-    global file_list
     fin = open(filename, 'rt')
     for line in fin:
         if line_search(line, ':kbd:') or line_search(line, ':menuselection:'):
-            file_list.add(filename)
+            file_set.add(filename)
     fin.close()
 
 
@@ -61,14 +59,15 @@ elif len(sys.argv) != 2:
     Examples: list_tr_shortcuts.py Ctrl
               list_tr_shortcuts.py 'View --> Frame All'\n""")
 else:  # All OK
+    file_set = set()  # set of files found
     # Main loop:
     for info_dir in os.walk(os.path.join(root_path, 'manual')):
         for fname in info_dir[2]:
             path_full = os.path.join(info_dir[0], fname)
             if path_full[-4:] == '.rst':
-                file_process(path_full)
+                file_process(path_full, file_set)
 
     print("Searching for '" + sys.argv[1] + "'...")
-    fl = sorted(file_list)
+    fl = sorted(file_set)
     for f in fl:
         print(f[f.find('manual')+6:])

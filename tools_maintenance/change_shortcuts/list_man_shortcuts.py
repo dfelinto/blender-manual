@@ -5,9 +5,6 @@
 
 import os
 
-kbdset = set()
-menuset = set()
-
 
 def find_vcs_root(dirs=(".svn", ".git"), default=None):
     """
@@ -24,41 +21,29 @@ def find_vcs_root(dirs=(".svn", ".git"), default=None):
     return default
 
 
-def line_search(line, prefix, itemset):
+def file_process(filename, prefix, sc_set):
     """
-    It searches a line from the RST file.
-    :param line: the line from the RST file.
-    :param prefix: type of element (:kbd:, :menuselection:,...).
-    :param itemset: the set where to add the found elements.
-    :return: nothing.
-    """
-    lin = line
-    while True:
-        # shortcut start search
-        pos = lin.find(prefix + '`')
-        if pos == -1:
-            break
-        lin = lin[pos+len(prefix)+1:]
-
-        # shortcut end search
-        pos = lin.find('`')  # we assume it will be found
-        s_in = lin[:pos]  # string to add to the set
-        itemset.add(s_in)
-        lin = lin[pos:]
-
-
-def file_process(filename):
-    """
-    It processes the RST file searching for items.
+    It processes the RST file searching for items with the given
+    prefix; it adds them in the given set.
     :param filename: the name of the RST file.
+    :param prefix: prefix to look for (':kbd:' or ':menuselect:').
+    :param sc_set: set where to store the items found.
     :return: nothing.
     """
-    global kbdset
-    global menuset
     fin = open(filename, 'rt')
     for line in fin:
-        line_search(line, ':kbd:', kbdset)  # :kbd: shortcuts
-        line_search(line, ':menuselection:', menuset)  # :menuitem: menu items
+        while True:
+            # shortcut start search
+            pos = line.find(prefix + '`')
+            if pos == -1:
+                break
+            line = line[pos + len(prefix) + 1:]
+
+            # shortcut end search
+            pos = line.find('`')  # we assume it will be found
+            s_in = line[:pos]  # string to add to the set
+            sc_set.add(s_in)
+            line = line[pos:]
     fin.close()
 
 
@@ -68,18 +53,21 @@ root_path = find_vcs_root()
 if root_path is None:
     print('Repository not found. Script must be in a repo subfolder.')
 else:  # All OK
+    kbdset = set()
+    menuset = set()
     # Main loop:
     for info_dir in os.walk(os.path.join(root_path, 'manual')):
         for fname in info_dir[2]:
             path_full = os.path.join(info_dir[0], fname)
             if path_full[-4:] == '.rst':
-                file_process(path_full)
+                file_process(path_full, ':kbd:', kbdset)
+                file_process(path_full, ':menuselection:', menuset)
 
     print(':kbd: items:')
     k = sorted(kbdset)
     for item in k:
         print(item)
     m = sorted(menuset)
-    print('\n\n:menuitem: items:')
+    print('\n\n:menuselection: items:')
     for item in m:
         print(item)

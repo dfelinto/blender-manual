@@ -3,13 +3,11 @@
 # Changes the shortcuts (:kbd:`...`) and menu items (:menuselection:`...`)
 # across all the translated PO files of a spcecific language, according to
 # the provided CSV table.
+#
 # Language must be indicated.
 
 import os
 import sys
-
-n_changes = 0
-table = []
 
 
 def find_vcs_root(dirs=(".svn", ".git"), default=None):
@@ -33,72 +31,89 @@ def st_replace(s):
     :param s: shortcut string inside :kbd:`...`.
     :return: replaced string.
     """
-    global table
     result = s
-    for entry in table:
+    for entry in st_replace.table:
         result = result.replace(entry[0], entry[1])
     return result
 
 
-def line_process(line, prefix=':kbd:'):
+def line_process(line, line_prev, prefix):
     """
     It processes a line from the PO file.
     :param line: the line from the PO file.
-    :param prefix: type of element (:kbd:, :menuitem:,...)
-    :return: the processed (replaced) line.
+    :param line_prev: previous line in a multi-line 'msgstr'.
+    :param prefix: prefix to search (like ':kbd:' or ':menuselection:').
+    :return: the processed (replaced) line and the number of changes made.
     """
     result = ''
-    lin = line
-    global n_changes
-    while True:
-        # shortcut start search
-        pos = lin.find(prefix + '`')
-        if pos == -1:
-            result += lin
-            break
-        result += lin[:pos+len(prefix)+1]
-        lin = lin[pos+len(prefix)+1:]
+    n_changes = 0
 
-        # shortcut end search
-        pos = lin.find('`')  # we assume it will be found
-        s_in = lin[:pos]  # candidate shortcut string to suffer replacements
+    # Prefix at the end of the previous line?:
+    if line_prev[-(len(prefix) + 2): -2] == prefix:  # ...:prefix:"\n
+        assert line[0:2] == '"`'
+        result += '"`'
+        line = line[2:]
+        pos = line.find('`')  # we assume it will be found
+        s_in = line[:pos]  # candidate shortcut string to suffer replacements
         s_out = st_replace(s_in)
         result += s_out
-        lin = lin[pos:]
+        line = line[pos:]
         if s_in != s_out:
             n_changes += 1
-    return result
+
+    # Rest of prefixes (if any) are fully included in the line:
+    while True:
+        # Prefix search:
+        pos = line.find(prefix + '`')
+        if pos != -1:
+            result += line[:pos + len(prefix) + 1]
+            line = line[pos + len(prefix) + 1:]
+        else:
+            result += line
+            break
+        # Shortcut end search
+        pos = line.find('`')  # we assume it will be found
+        s_in = line[:pos]  # candidate shortcut string to suffer replacements
+        s_out = st_replace(s_in)
+        result += s_out
+        line = line[pos:]
+        if s_in != s_out:
+            n_changes += 1
+    return result, n_changes
 
 
-def file_process(filename):
+def file_process(filename, prefix):
     """
-    It processes the PO file to translate and generates the output file
-    if needed.
+    It processes the PO file to replace and generates the output file
+    if changes where necessary.
     :param filename: the name of the PO file.
+    :param prefix: prefix to search (like ':kbd:' or ':menuselection:').
     :return: nothing.
     """
     fin = open(filename, 'rt')
-    fout_list = []
+    fout_list = []  # text lines of the output file
     in_msgstr = False
-    global n_changes
     n_changes = 0
+    line_prev = ''  # last processed line
     for line in fin:
         if in_msgstr:
             if line[0] == '"':  # still inside a msgstr
-                lin = line_process(line)  # :kbd: shortcuts
-                lin = line_process(lin, ':menuitem:')  # :menuitem: menu items
-                fout_list.append(lin)
+                line_out, n = line_process(line, line_prev, prefix)
+                line_prev = line
+                n_changes += n
             else:
                 in_msgstr = False  # not anymore in a msgstr
-                fout_list.append(line)
+                line_out = line
+                line_prev = ''
         else:
             if line[:6] == 'msgstr':  # entering a msgstr
                 in_msgstr = True
-                lin = line_process(line)  # :kbd: shortcuts
-                lin = line_process(lin, ':menuitem:')  # :menuitem: menu items
-                fout_list.append(lin)
+                line_out, n = line_process(line, line_prev, prefix)
+                line_prev = line
+                n_changes += n
             else:  # still outside a msgstr
-                fout_list.append(line)
+                line_out = line
+        fout_list.append(line_out)
     fin.close()
 
     # In case there were changes, we generate an output file
@@ -134,13 +149,15 @@ elif not os.path.isfile(os.path.join('table_' + sys.argv[1] + '.csv')):
     print("'table_" + sys.argv[1] + ".csv' file not found. "
           "Script and table must be in the same folder.")
 else:  # All OK
-    # Substitution table initialization:
+    # Substitution table initialization. It will be stored as a "static"
+    # variable of st_replace() function:
+    st_replace.table = []
     f = open('table_' + sys.argv[1] + '.csv', 'rt')
     for ln in f:
         row = ln.strip()
         if row != '' and row[0] != '#':
             r = row.split(';')
-            table.append((r[0].strip(), r[1].strip()))
+            st_replace.table.append((r[0].strip(), r[1].strip()))
     f.close()
 
     # Main loop:
@@ -148,4 +165,5 @@ else:  # All OK
         for fname in info_dir[2]:
             path_full = os.path.join(info_dir[0], fname)
             if path_full[-3:] == '.po':
-                file_process(path_full)
+                file_process(path_full, ':kbd:')
+                file_process(path_full, 'menuselection')

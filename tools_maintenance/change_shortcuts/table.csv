@@ -1,6 +1,21 @@
 # Substitution table for Blender Manual
+#
+# IMPORTANT: input strings that include other input strings
+# should be placed before.
+#
+# WRONG:
+# Def;NewTerm1
+# AbcDef;NewTerm2
+#
+# RIGHT:
+# AbcDef;NewTerm2
+# Def;NewTerm1
+#
+# Use 'table_check.py' to check the table doesn't have this kind of errors
 
-# LMB;LeftMouse
-# RMB;RightMouse
-# MMB;MiddleMouse
+
+
+LMB;LeftMouse
+RMB;RightMouse
+MMB;MiddleMouse
 
