@@ -23,3 +23,16 @@ while holding :kbd:`Shift`.
 
    Drag and drop will attempt to operate on the entire selection. Selected data-blocks
    that are incompatible with the operation will remain unmodified.
+
+
+Drag & Dropping to 3D Viewport
+==============================
+
+Objects & Object Data
+---------------------
+
+Dragging object data-blocks from the outliner to the :doc:`3D Viewport </editors/3dview/index>`
+creates a :doc:`duplicate </scene_layout/object/editing/duplicate>` of the object.
+
+Dragging object data data-blocks from the outliner to the 3D Viewport
+creates a :doc:`linked duplicate </scene_layout/object/editing/duplicate_linked>` of the object.
