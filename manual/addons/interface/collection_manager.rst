@@ -149,7 +149,9 @@ Add Collection, Add Subcollection
 
    .. note::
 
-      If the tree view is filtered when adding collections, new collections that do not fit the filter rules will be displayed until the filtering changes.
+      If the tree view is filtered when adding collections,
+      new collections that do not fit the filter rules will be displayed
+      until the filtering changes.
 
 Phantom Mode
    All visibility changes made in this mode will be discarded when it's disabled.
@@ -185,11 +187,12 @@ Quick View Toggles (eye icon)
    - Select All QCD Objects. (Select all objects that belong to enabled QCD slots)
    - Discard QCD History. (Discards previous QCD slot states)
 
+
    .. rubric:: Hotkeys
 
    - :kbd:`LMB` -- Enable All QCD Slots.
    - :kbd:`Alt-LMB` -- Select All QCD Objects.
-   - :kbd:`LMB-Hold` -- Call menu with all Quick View Toggles.
+   - :kbd:`LMB` hold down -- Opens a menu with all Quick View Toggles.
 
 
 QCD Slots
@@ -245,9 +248,9 @@ The Move Widget shares its layout and indicators with the 3D Viewport header wid
 - :kbd:`Alt-0` - :kbd:`Alt-9` -- View slot 11-20 (0 is slot 20). Excludes all others.
 - :kbd:`Shift-0` - :kbd:`Shift-9` -- Add/remove slot 1-10 (0 is slot 10) to/from view.
 - :kbd:`Shift-Alt-0` - :kbd:`Shift-Alt-9` -- Add/remove slot 11-20 (0 is slot 20) to/from view.
-- :kbd:`Shift-+` -- Enable All QCD Slots.
-- :kbd:`Shift-Alt-+` -- Enable All QCD Slots Isolated.
-- :kbd:`Shift-Ctrl-+` -- Disable All Non QCD Slots.
+- :kbd:`Shift-=` -- Enable All QCD Slots.
+- :kbd:`Shift-Alt-=` -- Enable All QCD Slots Isolated.
+- :kbd:`Shift-Ctrl-=` -- Disable All Non QCD Slots.
 - :kbd:`Ctrl-Alt-=` -- Disable All Collections.
 - :kbd:`Alt-=` -- Select All QCD Objects.
 

@@ -141,7 +141,7 @@ Template Scripts
 ================
 
 While app templates can use Python scripts,
-they simply have access to the same API's available for add-ons and any other scripts.
+they simply have access to the same APIs available for add-ons and any other scripts.
 
 As noted above, you may optionally have an ``__init__.py`` in your app template.
 This has the following advantages:

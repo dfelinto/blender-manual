@@ -60,10 +60,11 @@ which in turn contains a *furniture* collection referencing a bed, a cabinet and
 Color Tagging
 =============
 
-Collections can have a color group assigned to them; helping organize and group different collections.
-This color tag is displayed as part of the collection icon in the
-:doc:`Outliner </editors/outliner/index>` and various other menus.
-The available colors are defined by Blender's interface :doc:`Theme </editors/preferences/themes>`.
+Collections can have a color group assigned to them; helping organize
+and group different collections. This color tag is displayed as part of
+the collection icon in the :doc:`Outliner </editors/outliner/index>`
+and various other menus. The available colors are defined by
+Blender's interface :doc:`Theme </editors/preferences/themes>`.
 
 To assign a color to a collection,
-use the :ref:`Set Color Tag <bpy.ops.outliner.collection_color_tag_set>` operator in the Outliner.
+use the :ref:`Set Color Tag <bpy.ops.outliner.collection_color_tag_set>` tool in the Outliner.

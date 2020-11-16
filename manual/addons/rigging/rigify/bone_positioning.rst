@@ -121,15 +121,15 @@ Finalize the positioning by taking care of bone rolls (the X axis is set as bend
 
 .. tip:: Bone Roll
 
-   Finger axis alignment can be easily be made consistent by selecting all the finger bones 
+   Finger axis alignment can be easily be made consistent by selecting all the finger bones
    and recalculating the bone rolls :menuselection:`Recalculate Roll --> Global -Z Axis`.
 
    Thumb may require more tweaking depending on your character's mesh topology,
    usually :menuselection:`Recalculate Roll --> Global +Y Axis` is a good starting point.
 
    Once your bone rolls are consistent, try generating the rig and scaling the finger master controls.
-   This should cause the fingers to curl. If they are rotating on the wrong axis, change the 
-   Bend Rotation Axis parameter on the first finger's parameters under Rigify Type.
+   This should cause the fingers to curl. If they are rotating on the wrong axis,
+   change the Bend Rotation Axis parameter on the first finger's parameters under Rigify Type.
 
 When the fingers are in place proceed placing the palm bones.
 

@@ -162,8 +162,7 @@ BSDF
 Examples
 ========
 
-Below are some examples of how all the Principled BSDF's
-parameters interact with each other.
+Below are some examples of how all the Principled BSDF's parameters interact with each other.
 
 .. figure:: /images/render_shader-nodes_shader_principled_example-1a.jpg
 .. figure:: /images/render_shader-nodes_shader_principled_example-2a.jpg

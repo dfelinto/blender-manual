@@ -28,13 +28,13 @@ while holding :kbd:`Shift`.
 Modifiers, Constraints, & Visual Effects
 ========================================
 
-:doc:`Modifiers </modeling/modifiers/index>`, :doc:`Constraints </animation/constraints/index>`, and
-:doc:`Visual Effects </grease_pencil/visual_effects/index>`  can be managed from the outliner in a couple ways.
-To change the order with in the :ref:`stack <modifier-stack>`
-select the desired modifier and move it above or below other modifiers.
+You can manage :doc:`Modifiers </modeling/modifiers/index>`, :doc:`Constraints </animation/constraints/index>`, and
+:doc:`Visual Effects </grease_pencil/visual_effects/index>` from the Outliner in a couple ways:
 
-To copy a single modifier to another select the modifier and drag it on top of the desired object.
-To copy the whole modifier stack to another object select the modifier icon and drag in to the desired object.
+- To change the order with in the :ref:`stack <modifier-stack>`
+  select the desired modifier and move it above or below other modifiers.
+- To copy a single modifier to another select the modifier and drag it on top of the desired object.
+- To copy the whole modifier stack to another object select the modifier icon and drag in to the desired object.
 
 
 Drag & Dropping to 3D Viewport
@@ -43,8 +43,7 @@ Drag & Dropping to 3D Viewport
 Objects & Object Data
 ---------------------
 
-Dragging object data-blocks from the outliner to the :doc:`3D Viewport </editors/3dview/index>`
+Dragging object data-blocks from the Outliner to the :doc:`3D Viewport </editors/3dview/index>`
 creates a :doc:`duplicate </scene_layout/object/editing/duplicate>` of the object.
-
-Dragging object data data-blocks from the outliner to the 3D Viewport
+Dragging *object data* data-blocks from the Outliner to the 3D Viewport
 creates a :doc:`linked duplicate </scene_layout/object/editing/duplicate_linked>` of the object.

@@ -61,6 +61,5 @@ Shutter Curve
 =============
 
 Curve defining how the shutter opens and closes.
-
 The X axis is time, Y values of 0 mean fully closed shutter, Y values of 1 mean fully opened shutter.
-Default mapping is set to when shutter opens and closes instantly.
+The default mapping is set to when shutter opens and closes instantly.

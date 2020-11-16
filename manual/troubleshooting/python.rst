@@ -23,8 +23,8 @@ Platform Specific
 Windows
 -------
 
-Mixed Python Libraries (DLL's)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Mixed Python Libraries (DLLs)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If Python is raising errors or you have an add-on that just fails when enabled with an error, e.g:
 ``... is not a valid Win32 application.``.

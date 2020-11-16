@@ -140,6 +140,7 @@ property in this "family", this will break the scaling propagation,
 i.e. this bone *and all its descendants* will no longer be affected when you scale one of its ancestors.
 
 .. tip::
+
    The various *Inherit Scale* options are provided as tools in avoiding shear that is caused
    by non-uniform scaling combined with parenting and rotation. There is no obvious best way
    to achieve that, so different options are useful for different situations.
@@ -149,7 +150,7 @@ i.e. this bone *and all its descendants* will no longer be affected when you sca
       to e.g. manually overwrite it with constraints.
 
    Average
-      Useful to block squash & stretch propagation between sub-rigs, while
+      Useful to block squash and stretch propagation between sub-rigs, while
       allowing uniform changes in the size and volume to pass through.
 
    Aligned
@@ -159,9 +160,9 @@ i.e. this bone *and all its descendants* will no longer be affected when you sca
       :doc:`Copy Scale </animation/constraints/transform/copy_scale>` from parent.
 
    Fix Shear
-      May be useful at the base of an appendage in order to reallocate squash &
-      stretch between axes based on the difference in rest pose orientations of the
-      parent and child. It behaves closest to *Full* while suppressing shear.
+      May be useful at the base of an appendage in order to reallocate squash and stretch
+      between axes based on the difference in rest pose orientations of the parent and child.
+      It behaves closest to *Full* while suppressing shear.
 
 .. list-table:: Examples of transforming parented/connected bones with Inherit Rotation disabled.
 

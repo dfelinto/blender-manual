@@ -20,7 +20,7 @@ Cycles Render Device
 ====================
 
 Changes the computing device the :doc:`Cycles </render/cycles/index>` render engine uses to render images.
-Cycles can use either the CPU or certain GPU's to render images,
+Cycles can use either the CPU or certain GPUs to render images,
 for more information see the :doc:`GPU Rendering </render/cycles/gpu_rendering>` page.
 
 None

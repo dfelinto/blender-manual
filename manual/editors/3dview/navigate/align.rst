@@ -17,7 +17,7 @@ Align View to Active
    Hold down :kbd:`Shift` while using the numpad to set the view axis.
 
 Align Active Camera to View :kbd:`Ctrl-Alt-Numpad0`
-   Gives your active camera the current viewpoint.
+   Moves and rotates the active camera to the current viewpoint.
 
 Align Active Camera to Selected
    Points the active camera toward the selected object; based on the direction of the current viewpoint.

@@ -113,10 +113,10 @@ Header
 .. _bpy.types.SpaceProperties.search_filter:
 
 Display Filter :kbd:`Ctrl-F`
-   Allows you to search for a property by a string,
-   results will be highlighted with there corresponding panel also highlighted and expanded.
+   Allows you to search for a property by its name.
+   The results will be highlighted with there corresponding panel also highlighted and expanded.
    The search also works across multiple `Tabs`_; graying out tabs with no search results.
-   You can initiate a search using :kbd:`Ctrl-F` or clear a search with :kbd:`Alt-F`.
+   You can start a search using :kbd:`Ctrl-F` or clear a search with :kbd:`Alt-F`.
    This filter is useful if you do not remember where a property is within the Properties.
 
 Data Context
@@ -127,6 +127,6 @@ Data Context
 .. _bpy.ops.buttons.toggle_pin:
 
 Toggle Pin ID
-   By toggling on the pin icon to the right, Blender can be told to display in that editor
-   only the currently shown data-block's properties, disregarding further selection changes.
+   By toggling on the pin icon to the right, Blender will display only the currently shown data-block's properties
+   in that editor, disregarding further selection changes.
    Toggle off that pin to switch back to default behavior, showing active data-block's properties.

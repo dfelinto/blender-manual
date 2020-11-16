@@ -74,7 +74,7 @@ Anisotropic Filtering
    This improves the quality of textures that are rendered at the cost of performance.
 Clip Alpha
    Clip alpha below this threshold in the 3D Viewport.
-   Note that, the default is set to a low value to prevent issues on some GPU's.
+   Note that, the default is set to a low value to prevent issues on some GPUs.
 Image Display Method
    Method to render images; the following options are supported:
 

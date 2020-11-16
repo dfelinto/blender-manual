@@ -76,7 +76,7 @@ Converting Proxies to Library Override
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Relations --> Convert Proxy to Library Override`
 
-Converts older an :doc:`Proxy </files/linked_libraries/library_proxies>` to a local override.
+Converts older a :doc:`Proxy </files/linked_libraries/library_proxies>` to a local override.
 This operator is used to help convert older blend-files to the new override system.
 In the future, this conversion will likely happen automatically.
 

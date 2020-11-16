@@ -35,7 +35,7 @@ Resolution Mode
    Mode for how the resolution of the final mesh is controlled.
 
    Grid
-      This makes the resolution depended on the resolution of the grid that is converted.
+      This makes the resolution dependent on the resolution of the grid that is converted.
       Higher resolution grids result in a higher resolution mesh.
       In many cases, that is the most efficient mode.
 
