@@ -51,14 +51,26 @@ Advanced
 Boundary
    Sets the type of fill boundary limits calculation to perform.
 
-   All
-      Use the thickness of the strokes and the editing lines together.
-   Stroke
-      Use only the thickness of the strokes (ignore edit lines).
-   Line
-      Use only the edit lines (ignore strokes).
+   :All: Use the thickness of the strokes and the editing lines together.
+   :Stroke: Use only the thickness of the strokes (ignore edit lines).
+   :Line: Use only the edit lines (ignore strokes).
+
+   .. _bpy.types.BrushGpencilSettings.show_fill_boundary:
+
    Show Lines (grid icon)
       Toggle show help lines to see the fill boundary.
+
+.. _bpy.types.BrushGpencilSettings.fill_layer_mode:
+
+Layers
+   Determines which :doc:`Layers </grease_pencil/properties/layers>` are used for boundary strokes.
+
+   :Visible: Calculates boundaries based on all visible layers.
+   :Active: Calculates boundaries based on the active later.
+   :Layer Above: Calculates boundaries based on the layer above the active layer.
+   :Layer Below: Calculates boundaries based on the layer below the active layer.
+   :All Above: Calculates boundaries based on all layers above the active layer.
+   :All Below: Calculates boundaries based on all layers below the active layer.
 
 .. _bpy.types.BrushGpencilSettings.fill_factor:
 
