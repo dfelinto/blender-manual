@@ -13,19 +13,8 @@ Box Tool
 The Box tool create rectangular shapes.
 
 
-Usage
-=====
-
-Selecting a Brush and Material
-------------------------------
-
-In the Tool Settings select the brush, material and color type to use with the tool.
-The Box tool uses *Draw Brush* types.
-See :ref:`grease-pencil-draw-common-options` for more information.
-
-
-Common Brush Options
---------------------
+Tool Settings
+=============
 
 You can configure the brush main settings exposed on the Tool Settings for convenience.
 For the draw brushes configuration and settings see:
@@ -37,6 +26,17 @@ Thickness Profile
 
    Use Curve
       When enabled, the stroke use a curve profile to control the thickness along the line.
+
+
+Usage
+=====
+
+Selecting a Brush and Material
+------------------------------
+
+In the Tool Settings select the brush, material and color type to use with the tool.
+The Box tool uses *Draw Brush* types.
+See :ref:`grease-pencil-draw-common-options` for more information.
 
 
 Creating Boxes

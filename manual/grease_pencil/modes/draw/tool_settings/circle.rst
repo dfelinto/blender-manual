@@ -13,6 +13,10 @@ Circle Tool
 The Circle tool create oval shapes.
 
 
+Tool Settings
+=============
+
+
 Usage
 =====
 

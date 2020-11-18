@@ -12,6 +12,9 @@ Curve Tool
 
 The Curve tool create complex Bézier style curves.
 
+Tool Settings
+=============
+
 
 Usage
 =====

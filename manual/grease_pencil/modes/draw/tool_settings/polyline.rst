@@ -13,19 +13,8 @@ Polyline Tool
 The Polyline tool create multiple straight lines.
 
 
-Usage
-=====
-
-Selecting a Brush and Material
-------------------------------
-
-In the Tool Settings select the brush, material and color type to use with the tool.
-The Line tool uses *Draw Brush* types.
-See :ref:`grease-pencil-draw-common-options` for more information.
-
-
-Common Brush Options
---------------------
+Tool Settings
+-------------
 
 You can configure the brush main settings exposed on the Tool Settings for convenience.
 For the draw brushes configuration and settings see:
@@ -48,6 +37,17 @@ Thickness Profile
 
      - .. figure:: /images/grease-pencil_modes_draw_tool-settings_polyline_thickness-profile-03.png
           :width: 200px
+
+
+Usage
+=====
+
+Selecting a Brush and Material
+------------------------------
+
+In the Tool Settings select the brush, material and color type to use with the tool.
+The Line tool uses *Draw Brush* types.
+See :ref:`grease-pencil-draw-common-options` for more information.
 
 
 Creating Polylines

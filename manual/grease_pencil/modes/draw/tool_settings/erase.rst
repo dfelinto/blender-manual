@@ -13,6 +13,51 @@ Erase Tool
 The Erase tool erase already drawn strokes.
 
 
+Brush Settings
+==============
+
+Radius
+   The radius of the brush in pixels.
+
+   :kbd:`F` allows you to change the brush size interactively by dragging the mouse/pen or
+   by typing a number then confirm.
+
+   Use Pressure (pressure sensitivity icon)
+      Uses stylus pressure to control how strong the effect is.
+   Occlude Eraser (overlapping squares icon)
+      Erase only strokes visible and not occluded by geometry.
+
+Mode
+   Determines how the erase tool behaves.
+
+   Dissolve
+      To simulate a raster type eraser, this eraser type
+      affects the strength and thickness of the strokes before actually delete a point.
+
+      Strength
+         Control how much will affect the eraser has on the stroke transparency (alpha).
+
+         You can change the brush strength interactively by pressing :kbd:`Shift-F`
+         in the 3D Viewport and then moving the mouse/pen and then :kbd:`LMB`.
+         You can also enter the size numerically.
+
+         Use Pressure (pressure sensitivity icon)
+            Uses stylus pressure to control how strong the effect is.
+
+      Affect Stroke Strength
+         The amount of deletion of the stroke strength (alpha) while erasing.
+      Affect Stroke Thickness
+         The amount of deletion of the stroke thickness while erasing.
+
+   Point
+      Delete one point at a time.
+   Stroke
+      Delete an entire stroke.
+
+Display Cursor
+   Shows the brush shape in the viewport.
+
+
 Usage
 =====
 

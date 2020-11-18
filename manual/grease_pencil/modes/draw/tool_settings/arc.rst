@@ -13,6 +13,10 @@ Arc Tool
 The Arc tool create simple arcs.
 
 
+Tool Settings
+=============
+
+
 Usage
 =====
 
