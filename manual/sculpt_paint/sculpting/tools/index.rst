@@ -34,6 +34,8 @@
    simplify.rst
    mask.rst
    draw_facesets.rst
+   box_mask.rst
+   lasso_mask.rst
    line_mask.rst
    box_face_set.rst
    lasso_face_set.rst

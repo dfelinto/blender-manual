@@ -7,7 +7,7 @@ Line Mask
    :class: refbox
 
    :Mode:      Sculpt Mode
-   :Tool:      :menuselection:`Toolbar --> Line Project`
+   :Tool:      :menuselection:`Toolbar --> Line Mask`
 
 This tool creates a :doc:`Mask </sculpt_paint/sculpting/editing/mask>`
 based on plan determined by the camera view and a drawn line.
