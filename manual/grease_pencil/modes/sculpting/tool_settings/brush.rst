@@ -59,12 +59,11 @@ Direction
    The influence direction of the brush. This can be Add or Subtract.
 
 
-Display
-=======
+Cursor
+======
 
-Show Brush
-   Shows the brush shape in the viewport.
+The cursor can be disabled by toggling the checkbox in the *Cursor* header.
 
-   Color
-      Set the color of the brush ring. Depending on the current mode there will
-      be options to set a single Color or a Color for Adding/Subtracting.
+Color
+   Set the color of the brush ring. Depending on the current mode there will
+   be options to set a single Color or a Color for Adding/Subtracting.
