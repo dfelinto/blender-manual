@@ -86,6 +86,9 @@ Toolbar
 :doc:`/sculpt_paint/sculpting/tools/mask`
    Lets you select mesh parts to be unaffected by other brushes by painting vertex colors.
 
+:doc:`/sculpt_paint/sculpting/tools/line_mask`
+   Creates a mask based on a lone.
+
 :doc:`/sculpt_paint/sculpting/tools/box_face_set`
    Creates a face set based on box select.
 
