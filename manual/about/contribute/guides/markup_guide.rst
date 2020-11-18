@@ -90,6 +90,56 @@ Interface Elements
 - ``:menuselection:`3D Viewport --> Add --> Mesh --> Monkey``` -- menus.
 
 
+Operator Menus
+--------------
+
+Each operator should receive its own heading or page based on the length of the content.
+Each operator should have a reference admonition documenting the context of the operator::
+
+   .. admonition:: Reference
+      :class: refbox
+
+      :Mode:      Edit Mode
+      :Menu:      :menuselection:`Curve --> Snap`
+      :Hotkey:    :kbd:`Shift-S`
+
+
+Panels
+------
+
+Panels should be documented by their own heading, nested panels should use decreasing heading levels.
+Each panel could have there own page based on the length of documentation and/or the amount of panels.
+Expanded menus that toggle what properties are presented to the user should be treated like subpanels::
+
+   Panel Title
+   ===========
+
+   Nested Panel Title
+   ------------------
+
+
+Properties
+----------
+
+Properties should be documented using definition lists.
+Properties that are hidden based on other properties should used nested definitions::
+
+   Property
+      Property description.
+
+      Hidden Property
+         Hidden property description.
+
+Enum based menus should be documented using the following syntax::
+
+   Menu Label
+      General description of the menu.
+
+      :Menu Item: Menu Item Definition
+      :Menu Item: Menu Item Definition
+      :Menu Item: Menu Item Definition
+
+
 Code Samples
 ============
 
