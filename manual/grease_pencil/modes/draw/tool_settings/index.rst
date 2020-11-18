@@ -6,8 +6,6 @@
 .. toctree::
    :maxdepth: 2
 
+   brushes.rst
    brush_settings.rst
    color.rst
-   brushes/draw_brush.rst
-   brushes/erase_brush.rst
-   brushes/fill_brush.rst
