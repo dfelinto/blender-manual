@@ -20,6 +20,9 @@ You can configure the brush main settings exposed on the Tool Settings for conve
 For the draw brushes configuration and settings see:
 :doc:`Draw Brush </grease_pencil/modes/draw/tool_settings/brushes/draw_brush>`.
 
+Subdivisions
+   The number of stroke points points between each stroke edge.
+
 Thickness Profile
    Use a :doc:`curve widget </interface/controls/templates/curve>` to define the stroke thickness
    from the start (left) to end (right) of the stroke.
