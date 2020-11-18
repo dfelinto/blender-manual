@@ -87,7 +87,6 @@ Ignore Transparent
    The value slider controls the threshold to consider a material transparent.
 
 
-
 Usage
 =====
 
