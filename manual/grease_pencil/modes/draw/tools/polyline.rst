@@ -14,7 +14,7 @@ The Polyline tool create multiple straight lines.
 
 
 Tool Settings
--------------
+=============
 
 You can configure the brush main settings exposed on the Tool Settings for convenience.
 For the draw brushes configuration and settings see:
