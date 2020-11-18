@@ -41,8 +41,7 @@ Box select can also be started with :kbd:`B`.
 To select all items use :kbd:`A`; :kbd:`Alt-A` will deselect all items.
 
 The keyboard arrow keys can be used to navigate and select in the Outliner.
-Keyboard selection and navigation starts from the active data-block,
-but does not change the active data-block.
+Keyboard selection and navigation starts from the active data-block.
 
 .. list-table::
    :widths: 10 90
@@ -56,9 +55,9 @@ but does not change the active data-block.
    * - :kbd:`Shift-Down`
      - Select the next element without deselecting.
    * - :kbd:`Left`
-     - Close the data-block.
+     - Close the data-block or select the parent.
    * - :kbd:`Right`
-     - Open the data-block to view children.
+     - Open the data-block to view children or select the first child.
    * - :kbd:`Shift-Left`
      - Close this and all child data-blocks.
    * - :kbd:`Shift-Right`

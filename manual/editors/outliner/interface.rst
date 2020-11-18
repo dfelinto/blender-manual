@@ -33,8 +33,7 @@ The other options can be enabled in the *Restriction Toggles* option in the Outl
 .. _bpy.types.LayerCollection.exclude:
 
 Enable Collection (checkbox, collection only)
-   Exclude the collection from the view layer. This option is shown in front of
-   the collection icon, it is not part of the restrictions column.
+   Exclude the collection from the view layer.
 
 Visibility (eye icon)
    Toggles the visibility of the object or collection in the 3D Viewport.
@@ -128,6 +127,8 @@ Sync Selection
    :doc:`Video Sequencer </video_editing/index>` editors. Disable to manage collections,
    object relations, and scene data without changing the selection state.
    Selection syncing is only available in Scenes, View Layer, and Video Sequencer display modes.
+Show Mode Column
+   Show the object mode toggling column in View Layer and Scenes display modes.
 
 Collections
    List the objects and collections under
