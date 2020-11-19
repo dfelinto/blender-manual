@@ -107,7 +107,7 @@ Nodes
    :maxdepth: 1
 
    nodes/boolean.rst
-..   nodes/object_info.rst
+   nodes/input/object_info.rst
 ..   nodes/edge_split.rst
 ..   nodes/subdivision_surface.rst
 ..   nodes/transform.rst
