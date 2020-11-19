@@ -18,14 +18,14 @@ next modifier in the stack.
 Any extra group input is exposed in the modifier itself, and can have unique values even if the
 node group is shared among multiple modifiers.
 
-..
-    Attribute
-    =========
 
-    .. toctree::
-    :maxdepth: 1
+Attribute
+=========
 
-    attribute/random_attribute.rst
+.. toctree::
+   :maxdepth: 1
+
+   attribute/random_attribute.rst
 
 ..
     Color
