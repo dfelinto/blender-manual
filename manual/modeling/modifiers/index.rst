@@ -10,6 +10,7 @@
 
    introduction.rst
    common_options.rst
+   nodes/index.rst
 
 
 Modify
@@ -98,20 +99,4 @@ Physics
    physics/particle_instance.rst
    /physics/particles/index.rst
    /physics/soft_body/index.rst
-
-
-Nodes
-=====
-
-.. toctree::
-   :maxdepth: 1
-
-   nodes/boolean.rst
-   nodes/input/object_info.rst
-..   nodes/edge_split.rst
-..   nodes/subdivision_surface.rst
-..   nodes/transform.rst
-..   nodes/triangulate.rst
-..   nodes/point_distribute.rst
-..   nodes/point_instance.rst
 

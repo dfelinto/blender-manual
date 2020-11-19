@@ -16,6 +16,6 @@ This modifier is an empty vessel to be defined by its *Node Group*.
 
 .. note::
 
-   The node initially does not do anything. However in the node editor new nodes can be added
-   to setup the functionality.
+   The node initially does not do anything. However in the node editor new :doc:`Nodes </modeling/modifiers/nodes/index>`
+   can be added to setup the functionality.
 
