@@ -56,6 +56,12 @@ Filter Type
 
       Smooth Ratio
          How much smoothing is applied to polished surfaces.
+      Intensify Details
+         Increases the high frequency surface details of the mesh
+         by intensifying the difference between creases and valleys.
+      Curvature Smooth Iterations
+         The number of times the smoothing operation is applied per brush step.
+         Controls how much smooth the resulting shape is, ignoring high frequency details.
    Enhance Details
       Increases the high frequency surface details of the mesh
       by intensifying the difference between creases and valleys.
