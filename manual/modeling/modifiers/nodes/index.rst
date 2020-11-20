@@ -64,16 +64,16 @@ Nodes used mainly as input to other nodes.
    input/random_float.rst
 
 
+Mesh
+====
+
+Nodes that only act on the mesh geometry.
+
+.. toctree::
+   :maxdepth: 1
+
+   mesh/subdivision_surface.rst
 ..
-    Mesh
-    ====
-
-    Nodes that only act on the mesh geometry.
-
-    .. toctree::
-    :maxdepth: 1
-
-    mesh/subdivision_surface.rst
     mesh/edge_split.rst
     mesh/triangulate
 
