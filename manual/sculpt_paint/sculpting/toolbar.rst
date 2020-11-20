@@ -86,7 +86,7 @@ Toolbar
 :doc:`/sculpt_paint/sculpting/tools/mask`
    Lets you select mesh parts to be unaffected by other brushes by painting vertex colors.
 
-:doc:`/sculpt_paint/sculpting/tools/multires_displacement_eraser.`
+:doc:`/sculpt_paint/sculpting/tools/multires_displacement_eraser`
    Deletes displacement information applied on a Multiresolution modifier.
 
 :doc:`/sculpt_paint/sculpting/tools/box_trim`

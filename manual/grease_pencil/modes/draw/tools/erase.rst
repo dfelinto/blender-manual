@@ -65,8 +65,7 @@ Selecting a Brush
 -----------------
 
 In the Tool Settings select the brush to use with the tool.
-The Erase tool uses :doc:`Erase Brush </grease_pencil/modes/draw/tool_settings/brushes/erase_brush>` types
-(soft, point and stroke).
+The Erase tool uses :ref:`Erase Brush <grease_pencil-draw-brushes-erase:>` types (soft, point and stroke).
 
 
 Dissolve Erasing

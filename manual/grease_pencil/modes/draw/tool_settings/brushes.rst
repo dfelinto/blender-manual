@@ -55,6 +55,8 @@ The different fill brushes are settings variations of the same *Fill Brush*.
 You can create many brushes, each with unique settings to get different result when filling areas.
 
 
+.. _grease_pencil-draw-brushes-erase:
+
 Erase Brushes
 -------------
 
