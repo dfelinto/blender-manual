@@ -62,10 +62,8 @@ Nodes used mainly as input to other nodes.
    :maxdepth: 1
 
    input/object_info.rst
-
-..
-    input/value.rst
-    input/random_float.rst
+   input/value.rst
+   input/random_float.rst
 
 
 ..
