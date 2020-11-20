@@ -1,4 +1,5 @@
 .. index:: Nodes; Attribute; Random Attribute
+.. _bpy.types.GeometryNodeRandomAttribute:
 
 ****************
 Random Attribute
