@@ -36,8 +36,7 @@ Color
 
    color/color_ramp.rst
    color/combine_rgb.rst
-..
-   color/separate_rgb.rstx
+   color/separate_rgb.rst
 
 
 Geometry
