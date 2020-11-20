@@ -94,7 +94,7 @@ FFmpeg Containers
    This container enforces the video codec, you can only define quality parameters.
 `WebM <https://en.wikipedia.org/wiki/WebM>`__: ``.webm``
    A free open-standard container format, designed to be used for internet streaming.
-   Note that this container can only hold VP8 or VP9 video, and Vorbis or Opus audio.
+   Note that this container can only hold a VP9 video codec, and Vorbis or Opus audio codecs.
 
 
 .. _files-video-codecs:
@@ -108,8 +108,7 @@ No Video
    For audio-only encoding.
 `DNxHD <https://en.wikipedia.org/wiki/Avid_DNxHD>`__
    Intended to be usable as both an intermediate format suitable for use while editing,
-   and as a presentation format.
-   It can be either lossless or lossy.
+   and as a presentation format. It can be either lossless or lossy.
 `DV <https://en.wikipedia.org/wiki/DV>`__
    See :ref:`Containers <files-video-containers>`.
 `FFmpeg video codec #1 <https://en.wikipedia.org/wiki/FFV1>`__
