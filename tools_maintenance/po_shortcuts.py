@@ -142,7 +142,7 @@ else:  # All OK
     if table:  # table found and no duplicates?
         msgstr_replace.table = []
         for src, dst in table:
-            pattern = r'(' + ROLE + r')("\n")?(`.*?)\b' + src + r'\b(.*?`)'
+            pattern = r'(' + ROLE + r')("\n")?(`[^`]*?)\b' + src + r'\b([^`]*?`)'
             replace = r'\1\2\3' + dst + r'\4'
             msgstr_replace.table.append((re.compile(pattern, re.MULTILINE),
                                          replace))
