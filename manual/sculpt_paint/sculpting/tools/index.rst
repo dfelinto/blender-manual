@@ -33,6 +33,7 @@
    cloth.rst
    simplify.rst
    mask.rst
+   multires_displacement_eraser.rst
    draw_facesets.rst
    box_mask.rst
    lasso_mask.rst
