@@ -14,14 +14,16 @@ and run the executable within the app bundle, with commands like this:
    cd /Applications/Blender.app/Contents/MacOS
    ./Blender
 
-If you need to do this often,
-you can add this directory to your ``PATH``.
+If you need to do this often, you can add this directory to your ``PATH``.
 
-For that you can run a command like this in the terminal (with the appropriate path).
+For that you can run a following procedure:
 
-.. code-block:: sh
-
-   echo "export PATH="$PATH:/Applications/Blender.app/Contents/MacOS" >> ~/.bash_profile
+#. Open up Terminal
+#. Run the following command: ``sudo nano /etc/paths``
+#. Enter your password, when prompted.
+#. Go to the bottom of the file, and enter ``/Applications/Blender.app/Contents/MacOS``
+#. Enter :kbd:`Ctrl-X` to quit
+#. Enter :kbd:`Y` to save the modified buffer
 
 If you then open a new terminal, the following command will work:
 
