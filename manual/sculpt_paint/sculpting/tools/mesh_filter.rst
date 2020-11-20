@@ -65,6 +65,13 @@ Filter Type
    Enhance Details
       Increases the high frequency surface details of the mesh
       by intensifying the difference between creases and valleys.
+   Erase Displacement
+      Deletes displacement information of the
+      :doc:`Multires Modifier </modeling/modifiers/generate/multiresolution>`,
+      resetting the mesh to the subdivision limit surface.
+
+      This can be used to easily delete parts of the sculpt or to fix reprojection artifacts
+      after applying a :doc:`Shrinkwrap Modifier </modeling/modifiers/deform/shrinkwrap>`.
 
 Strength
    The amount of effect the filter has on the mesh.
