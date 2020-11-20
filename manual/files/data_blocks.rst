@@ -387,16 +387,17 @@ Property Value
    This does two things: first it sets the current value of the custom property, and
    second, it defines the data type of the property.
 
-   Custom properties can be of the following types: Integers, floats, strings, Boolean values,
-   or short vectors of integers or floats.
+   Custom properties can be of the following types: integers, floats,
+   strings, booleans, colors, or vectors of integers or floats.
 
    See the table below for a list of examples for each:
 
    :Integer: 1, 2, 3, 4,
-   :Float: 3.141, 5.0, 6.125,
-   :String: any text,
-   :Boolean: ``True``, ``False``
-   :Vector: ``[1, 2, 3]``, ``[1.0, 2.0, 3.0]``
+   :Float: 3.141, 5.0, or 6.125
+   :String: any text
+   :Boolean: ``True`` or ``False``
+   :Vector: ``[1, 2, 3]`` or ``[1.0, 2.0, 3.0]``
+   :Color: ``[1.0, 1.0, 1.0]`` or ``[1.0, 1.0, 1.0, 1.0]`` (must specify *Subtype*)
 
    .. note::
 
@@ -438,8 +439,16 @@ Tooltip
    Allows you to write a custom :doc:`Tooltip </getting_started/help>` for your property.
 
 Subtype
-   For vector properties, specifies the type of data the property contains,
-   which affects how it appears in the :abbr:`UI (User Interface)`. Most useful for color properties.
+   Specifies the type of data the property contains,which affects how it appears in the user interface.
+   In order for this property to appear the *Property Value* must be a vector of floats.
+   In order for either of the color subypes to work the *Property Value* must be a vector
+   with 3 or 4 values depending on the availability of an :term:`Alpha Channel`.
+
+   :Plane Data: Data values do not have any special behavior.
+   :Linear Color: Color in linear color space.
+   :Gamma-Corrected Color: Color in gamma corrected color space.
+   :Euler Angles: :term:`Euler Rotation` angles.
+   :Quaternion Angles: :term:`Quaternion Rotation` angles.
 
 
 Python Access
