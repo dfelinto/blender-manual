@@ -73,8 +73,8 @@ Nodes that only act on the mesh geometry.
    :maxdepth: 1
 
    mesh/subdivision_surface.rst
+   mesh/edge_split.rst
 ..
-    mesh/edge_split.rst
     mesh/triangulate
 
 ..
