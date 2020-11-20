@@ -76,15 +76,16 @@ Nodes that only act on the mesh geometry.
    mesh/edge_split.rst
    mesh/triangulate.rst
 
+
+Point
+=====
+
+.. toctree::
+   :maxdepth: 1
+
+   point/point_instance.rst
 ..
-    Point
-    =====
-
-    .. toctree::
-    :maxdepth: 1
-
-    point/point_distribute.rst
-    point/point_instance.rst
+   point/point_distribute.rst
 
 
 ..
