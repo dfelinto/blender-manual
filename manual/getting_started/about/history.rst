@@ -266,3 +266,13 @@ Version/Revision Milestones
 `2.83 <https://www.blender.org/download/releases/2-83/>`__ -- June 2020:
    3D Viewport virtual reality scene inspection, new volume object type, Cycles adaptive sampling,
    Cycles viewport denoising, sculpting improvements, and much more.
+
+
+.. rubric:: Blender 2.9 -- Refining 2.8
+
+`2.90 <https://www.blender.org/download/releases/2-90/>`__ -- August 2020:
+   Improved sky texture, Eevee motion blur, sculpting improvements,
+   revamped modifier UI, improved modeling tools, and faster motion blur in cycles.
+`2.90 <https://www.blender.org/download/releases/2-91/>`__ -- November 2020:
+   Outliner improvements, property search, improved mesh booleans, improved animation curves,
+   volume object and display improvements, and more improved sculpting tools.
