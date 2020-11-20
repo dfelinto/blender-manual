@@ -1,5 +1,7 @@
 .. _bpy.types.CompositorNodeValue:
-.. Editors Note: This page gets copied into :doc:`</render/cycles/nodes/types/input/value>`
+.. Editors Note: This page gets copied into:
+.. - :doc:`</render/cycles/nodes/types/input/value>`
+.. - :doc:`</modeling/modifiers/nodes/input/value>`
 
 .. --- copy below this line ---
 
