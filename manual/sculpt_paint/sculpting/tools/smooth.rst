@@ -12,10 +12,21 @@ Smooth
 
 Eliminates irregularities in the area of the mesh within the brush's
 influence by smoothing the positions of the vertices.
+The inverse of this tool is to sharpen the details in a mesh
+by applying a Laplacian smooth in the opposite direction.
 
 
 Brush Settings
 ==============
+
+Direction
+   The operation to apply to the mesh.
+   This setting can be toggled with :kbd:`Ctrl` while sculpting.
+
+   Smooth
+      Smooths the surface of the mesh by decreasing the difference between creases and valleys.
+   Enhance Details
+      Sharps details on the surface of the mesh by intensifying the difference between creases and valleys.
 
 .. _bpy.types.Brush.smooth_deform_type:
 
