@@ -112,8 +112,8 @@ Set Color Tag
 
 .. _bpy.ops.outliner.id_operation:
 
-ID Data Menu
-------------
+ID Data
+-------
 
 Unlink
    To unlink a data-block from its "owner" (e.g. a material from its mesh).
@@ -151,8 +151,8 @@ Select Linked
    Selects the linked data, see :ref:`bpy.ops.object.select_linked` for more information.
 
 
-View Menu
----------
+View
+----
 
 The view menu is part of the context menu and supported in all the Outliner elements.
 
@@ -162,7 +162,3 @@ Show Hierarchy :kbd:`Home`
    To collapse all levels of the tree.
 Show/Hide One Level :kbd:`NumpadPlus`/ :kbd:`NumpadMinus`
    Expand one level down in the tree or collapse one level using the keyboard shortcuts.
-
-.. note::
-
-   Some data-block types will not have a context menu at all!

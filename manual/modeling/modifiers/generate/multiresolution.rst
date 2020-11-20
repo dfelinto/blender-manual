@@ -36,7 +36,7 @@ Render
 Sculpt Base Mesh
    Makes Sculpt mode tools deform the base mesh instead of the displaced mesh,
    while previewing the displacement of higher subdivision levels.
-   This allows to see the propagation happening in real time,
+   This allows you to see the propagation of strokes in real time,
    which enables to use complex tools like Cloth or Pose
    in much higher resolutions without surface noise and artifacts.
 
