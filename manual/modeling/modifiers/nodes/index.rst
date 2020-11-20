@@ -48,9 +48,7 @@ Nodes that can act on different geometry types (volume, point cloud, mesh).
    :maxdepth: 1
 
    geometry/boolean.rst
-
-..
-    geometry/transform.rst
+   geometry/transform.rst
 
 
 Input
