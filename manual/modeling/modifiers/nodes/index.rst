@@ -74,8 +74,7 @@ Nodes that only act on the mesh geometry.
 
    mesh/subdivision_surface.rst
    mesh/edge_split.rst
-..
-    mesh/triangulate
+   mesh/triangulate.rst
 
 ..
     Point
