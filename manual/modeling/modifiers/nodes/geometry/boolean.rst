@@ -1,10 +1,10 @@
 .. index:: Nodes; Boolean
 
-************
-Boolean Node
-************
+*******
+Boolean
+*******
 
-The *Boolean* modifier allows boolean operations between two *Geometry* inputs.
+The *Boolean Node* allows boolean operations between two *Geometry* inputs.
 
 
 .. figure:: /images/modeling_modifiers_nodes_boolean.png
