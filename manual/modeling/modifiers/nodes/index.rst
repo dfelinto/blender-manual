@@ -27,16 +27,17 @@ Attribute
 
    attribute/random_attribute.rst
 
+
+Color
+=========
+
+.. toctree::
+   :maxdepth: 1
+
+   color/color_ramp.rst
 ..
-    Color
-    =========
-
-    .. toctree::
-    :maxdepth: 1
-
-    ..color/color_ramp.rst
-    ..color/combine_rgb.rst
-    ..color/separate_rgb.rstx
+   color/combine_rgb.rst
+   color/separate_rgb.rstx
 
 
 Geometry
