@@ -26,7 +26,7 @@ Direction
    Smooth
       Smooths the surface of the mesh by decreasing the difference between creases and valleys.
    Enhance Details
-      Sharps details on the surface of the mesh by intensifying the difference between creases and valleys.
+      Sharpens details on the surface of the mesh by intensifying the difference between creases and valleys.
 
 .. _bpy.types.Brush.smooth_deform_type:
 

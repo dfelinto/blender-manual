@@ -56,6 +56,10 @@ Filter Type
 
       Smooth Ratio
          How much smoothing is applied to polished surfaces.
+   Enhance Details
+      Increases the high frequency surface details of the mesh
+      by intensifying the difference between creases and valleys.
+
 
 Strength
    The amount of effect the filter has on the mesh.
