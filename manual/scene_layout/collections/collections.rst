@@ -44,6 +44,8 @@ Remove Selected from Active Collection :kbd:`Shift-Alt-G`
    Causes the selected objects to be removed from the collections to which the active object belongs.
 
 
+.. _scene-layout_collections_collections_panel:
+
 Collections Panel
 =================
 

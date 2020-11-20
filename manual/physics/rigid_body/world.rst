@@ -13,12 +13,12 @@ Rigid Body World
 The *Rigid Body World* is a group of rigid body objects,
 which holds settings that apply to all rigid bodies in this simulation.
 
-When you add rigid body physics on an object,
+When you add rigid body physics to an object,
 primary there is created a group of objects with default "RigidBodyWorld" name.
 Rigid body objects automatically are added to this group when you add rigid body physics for them.
 
-You can create several Rigid Body World groups and allocate the rigid body objects
-with the *Groups* panel in the *Object* tab.
+You can create several Rigid Body World :doc:`Collections </scene_layout/collections/collections>`
+and allocate the rigid body objects with the :ref:`Collections panel <scene-layout_collections_collections_panel>`.
 
 Rigid body objects and constraints are only taken into account by the simulation
 if they are in the collection specified in the *Collection* field of the *Rigid Body World* panel in the *Scene* tab.
