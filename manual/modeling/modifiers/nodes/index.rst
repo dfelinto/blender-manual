@@ -35,8 +35,8 @@ Color
    :maxdepth: 1
 
    color/color_ramp.rst
-..
    color/combine_rgb.rst
+..
    color/separate_rgb.rstx
 
 
