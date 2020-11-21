@@ -1,156 +1,156 @@
 #! /usr/bin/env python3
 
-# Changes the shortcuts (:kbd:`...`) across all the translated PO files
-# of a spcecific language, according to the provided JSON table.
-# Language code and output directory must be provided.
+"""
+Changes the shortcuts (:kbd:`...`) across all the translated PO files
+of a specific language, according to the provided JSON table.
+Language code must be provided.
+"""
 
-import json
 import sys
 import os
 import re
+import json
 
-ROLE = ':kbd:'  # Change to any other role if needed
+CURRENT_DIR = os.path.abspath(os.path.dirname(__file__))
+PO_DIR = os.path.normpath(os.path.join(CURRENT_DIR, "..", "locale"))
+
+ROLE = 'kbd'  # Change to any other role if needed
 
 
-def find_vcs_root(dirs=(".svn", ".git"), default=None):
+def po_files(path):
+    for dirpath, dirnames, filenames in os.walk(path):
+        if dirpath.startswith("."):
+            continue
+        for filename in filenames:
+            if filename.startswith("."):
+                continue
+            ext = os.path.splitext(filename)[1]
+            if ext.lower() == ".po":
+                yield os.path.join(dirpath, filename)
+
+
+def parse_po(text):
     """
-    Returns the repo root dir.
+    Parse the given po text for msgstrs.
 
-    :param dirs: dirs to look for, for repo detection.
-    :param default: value to return if not found.
-    :return: repo root dir.
+    :param text: the text of the po file.
+    :yield: text of the msgstr, start char position.
     """
-    prev, test = None, os.path.abspath(os.path.dirname(__file__))
-    while prev != test:
-        if any(os.path.isdir(os.path.join(test, d)) for d in dirs):
-            return test
-        prev, test = test, os.path.abspath(os.path.join(test, os.pardir))
-    return default
-
-
-def msgstr_replace(msgstr):
-    """
-    Replaces and returns the provided string based on the substitution table.
-
-    Function attribute 'table' contains the substitution table, as a list of
-    2-tuples with replacements for the language of the form
-    (regex object, replacement string).
-    :param msgstr: string to process.
-    :return: replaced string, number of changes made.
-    """
-    ntotal = 0
-    for regex, repl in msgstr_replace.table:
-        msgstr, n = regex.subn(repl, msgstr)
-        ntotal += n
-    return msgstr, ntotal
-
-
-def file_process(filename):
-    """
-    Processes the given file. If changes are made, output file is generated.
-
-    :param filename: the path and name of the file to process.
-    :return: nothing.
-    """
-    out_text = ''
-    n_changes = 0
-    with open(filename, 'rt') as f:
-        msgstr = ''
-        for line in f:
-            if msgstr:
-                if line.startswith('"'):
-                    msgstr += line
-                else:
-                    newtext, n = msgstr_replace(msgstr)
-                    out_text += newtext + line
-                    n_changes += n
-                    msgstr = ''
+    msgstr = []
+    pos = 0
+    for line in text.splitlines(keepends=True):
+        if msgstr:
+            if line.startswith('"'):
+                msgstr.append(line)
             else:
-                if line.startswith('msgstr'):
-                    msgstr += line
-                else:
-                    out_text += line
-    if msgstr:  # is there a last pending msgstr?
-        newtext, n = msgstr_replace(msgstr)
-        out_text += newtext
-        n_changes += n
-    # In case there were changes, an output file is generated:
-    if n_changes > 0:
-        print(filename[filename.find('LC_MESSAGES')+11:] + ':',
-              n_changes, 'change(s).')
-        file_out = os.path.join(os.path.expanduser(sys.argv[2]),
-                                'new_' + filename[filename.find('locale'):])
-        os.makedirs(os.path.dirname(file_out), exist_ok=True)
-        with open(file_out, 'wt') as f:
-            f.write(out_text)
-
-
-def json_parse(obj):
-    """
-    Function used to parse the json file.
-
-    :param obj: tuple passed by 'json.load()'.
-    :return: if 'obj' is top level, it returns the table in a list of 2-tuples,
-             or None if table not found, or duplicate elements present.
-             If not on top level, it just returns the passed object.
-    """
-    retval = obj
-    if isinstance(obj[0][1], list):  # top level?
-        retval = None  # language table not found so far
-        for tpl in obj:
-            if tpl[0] == sys.argv[1]:  # table found?
-                retval = tpl[1]
-                break
-        if retval:  # table was found?
-            # Let's check for duplicates:
-            test_set = set(retval)
-            if len(test_set) < len(retval):  # duplicates?
-                print(f"Error: '{sys.argv[1]}' table contains duplicate entries.")
-                retval = None
+                yield "".join(msgstr), start
+                msgstr = []
         else:
-            print(f"Error: '{sys.argv[1]}' table not found.")
-    return retval
+            if line.startswith('msgstr'):
+                msgstr.append(line)
+                start = pos
+
+        pos += len(line)
+
+    if msgstr:
+        yield "".join(msgstr), start
 
 
-root_path = find_vcs_root()
+def read_json(lang):
+    def parse_json(obj):
+        """
+        Function used to parse the json file. Find table and search for duplicates.
 
-# Preliminary checks:
-if root_path is None:
-    print('Repository not found. Script must be in a repo subfolder.')
-elif len(sys.argv) != 3:
-    print("""\nUsage: po_shortcuts.py <LANGUAGE> <FOLDER>\n
-    Examples: po_shortcuts.py es ~/test
-              po_shortcuts.py fr d:\\test\n
-    Substitution table needed in 'po_shortcuts_tables.json'.
-    Script and tables file must be in the same folder.\n
-    Output files will be created in 'new_locale' subfolder
-    inside the provided folder in your computer.""")
-elif not os.path.isdir(os.path.join(root_path, 'locale', sys.argv[1])):
-    print("'<repo_root>/locale/" + sys.argv[1] + "' folder not found. "
-          "Script must be in a folder inside the repository.")
-elif not os.path.isfile('po_shortcuts_tables.json'):
-    print("'po_shortcuts_tables.json' file not found. "
-          "Script and tables file must be in the same folder.")
-elif not os.path.isdir(os.path.expanduser(sys.argv[2])):
-    print("'" + sys.argv[2] + "' folder not found.")
-else:  # All OK
-    # Reading substitution table. It will be stored as a list of tuples
-    # (regex object, replace string) in function attribute 'table' of
-    # msgstr_replace() function:
-    with open('po_shortcuts_tables.json', 'rt') as ftab:
-        table = json.load(ftab, object_pairs_hook=json_parse)
-    if table:  # table found and no duplicates?
-        msgstr_replace.table = []
-        for src, dst in table:
-            pattern = r'(' + ROLE + r')("\n")?(`[^`]*?)\b' + src + r'\b([^`]*?`)'
-            replace = r'\1\2\3' + dst + r'\4'
-            msgstr_replace.table.append((re.compile(pattern, re.MULTILINE),
-                                         replace))
-        # Main loop:
-        for wpath, wdirs, wfiles in os.walk(os.path.join(root_path, 'locale',
-                                                         sys.argv[1],
-                                                         'LC_MESSAGES')):
-            for fname in wfiles:
-                path_full = os.path.join(wpath, fname)
-                if path_full[-3:] == '.po':
-                    file_process(path_full)
+        :param obj: tuple passed by 'json.load()'.
+        :return: if 'obj' is top level, it returns the table in a list of 2-tuples,
+                 or None if table not found, or duplicate elements present.
+                 If not on top level, it just returns the passed object.
+        """
+        retval = obj
+        if isinstance(obj[0][1], list):  # top level?
+            retval = None  # language table not found so far
+            for tpl in obj:
+                if tpl[0] == lang:  # table found?
+                    retval = tpl[1]
+                    break
+            if retval:  # table was found?
+                # Check for duplicates:
+                test_set = set(entry[0] for entry in retval)
+                if len(test_set) < len(retval):  # duplicates?
+                    raise ValueError("table contains duplicate entries")
+            else:
+                raise ValueError("table not found")
+        return retval
+
+    filename = 'po_shortcuts_tables.json'
+    try:
+        with open(filename, 'r', encoding="utf-8") as json_file:
+            table = json.load(json_file, object_pairs_hook=parse_json)
+
+    except (IOError, OSError) as err:
+        print("{0}: cannot read data file: {1}".format(filename, err))
+        return None
+
+    except json.JSONDecodeError as err:
+        print("{0}: cannot decode data file: {1}".format(filename, err))
+        return None
+
+    except ValueError as err:
+        print("{0}: {1}".format(filename, err))
+        return None
+
+    return table
+
+
+def main(lang):
+    # todo all available langs for admins
+
+    lang_dir = os.path.join(PO_DIR, lang)
+    if not os.path.exists(lang_dir):
+        print("Language folder not found:", lang)
+        return
+
+    table = read_json(lang)
+    if not table:
+        return
+
+    table_compiled = []
+    for key, value in table:
+        pattern_str = r'(\:' + ROLE + r'\:["\s]*?`[^`]*?)\b' + key + r'\b([^`]*?`)'
+        replace = r'\1' + value + r'\2'
+        table_compiled.append((re.compile(pattern_str, re.MULTILINE),
+                                     replace))
+
+    for filename in po_files(lang_dir):
+        with open(filename, 'r', encoding="utf-8") as f:
+            text_src = f.read()
+
+        text_dst = []
+        last_end = 0
+        n_total = 0
+        for msgstr, start in parse_po(text_src):
+            text_dst.append(text_src[last_end:start])
+            last_end = start + len(msgstr)
+
+            for pattern, repl in table_compiled:
+                msgstr, n = re.subn(pattern, repl, msgstr)
+                n_total += n
+
+            text_dst.append(msgstr)
+
+        if n_total != 0:
+            if last_end != len(text_src):
+                text_dst.append(text_src[last_end:])
+
+            with open(filename, 'w', encoding="utf-8") as f:
+                f.write("".join(text_dst))
+
+            print(filename[filename.find('LC_MESSAGES')+11:] + ':', n_total, 'change(s).')
+
+
+if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        print("\nUsage: {0} <LANGUAGE>\nExamples: {0} es"
+              .format(os.path.basename(__file__)))
+    else:
+        main(sys.argv[1])
