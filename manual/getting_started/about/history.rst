@@ -266,7 +266,7 @@ Version/Revision Milestones
 
 `2.90 <https://www.blender.org/download/releases/2-90/>`__ -- August 2020:
    Improved sky texture, Eevee motion blur, sculpting improvements,
-   revamped modifier UI, improved modeling tools, and faster motion blur in cycles.
+   revamped modifier UI, improved modeling tools, and faster motion blur in Cycles.
 `2.91 <https://www.blender.org/download/releases/2-91/>`__ -- November 2020:
    Outliner improvements, property search, improved mesh booleans, improved animation curves,
    volume object and display improvements, and more improved sculpting tools.
