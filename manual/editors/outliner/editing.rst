@@ -110,6 +110,7 @@ Set Color Tag
    Assigns or clears a collection's :ref:`color tag <scene_layout-collections-color-tagging>`
    for the selected collection.
 
+
 .. _bpy.ops.outliner.id_operation:
 
 ID Data

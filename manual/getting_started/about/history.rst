@@ -268,5 +268,5 @@ Version/Revision Milestones
    Improved sky texture, Eevee motion blur, sculpting improvements,
    revamped modifier UI, improved modeling tools, and faster motion blur in Cycles.
 `2.91 <https://www.blender.org/download/releases/2-91/>`__ -- November 2020:
-   Outliner improvements, property search, improved mesh booleans, improved animation curves,
-   volume object and display improvements, and more improved sculpting tools.
+   Outliner improvements, property search, improved mesh Boolean operations, animation curves,
+   volume object and display improvements, and more refined sculpting tools.

@@ -34,11 +34,10 @@ Render
    Set the level of subdivisions to show when rendering.
 
 Sculpt Base Mesh
-   Makes Sculpt mode tools deform the base mesh instead of the displaced mesh,
-   while previewing the displacement of higher subdivision levels.
-   This allows you to see the propagation of strokes in real time,
-   which enables to use complex tools like Cloth or Pose
-   in much higher resolutions without surface noise and artifacts.
+   Makes sculpt-mode tools deform the base mesh instead of the displaced mesh,
+   while previewing the displacement of higher subdivision levels. This allows you to
+   see the propagation of strokes in real-time, which enables to use complex tools like
+   Cloth or Pose in much higher resolutions without surface noise and artifacts.
 
 Optimal Display
    When rendering the wireframe of this object, the wires of the new subdivided edges will be skipped

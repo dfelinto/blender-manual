@@ -19,7 +19,7 @@ Brush Settings
 Radius
    The radius of the brush in pixels.
 
-   :kbd:`F` allows you to change the brush size interactively by dragging the mouse/pen or
+   :kbd:`F` allows you to change the brush size interactively by dragging the pointer or
    by typing a number then confirm.
 
    Use Pressure (pressure sensitivity icon)
@@ -38,7 +38,7 @@ Mode
          Control how much will affect the eraser has on the stroke transparency (alpha).
 
          You can change the brush strength interactively by pressing :kbd:`Shift-F`
-         in the 3D Viewport and then moving the mouse/pen and then :kbd:`LMB`.
+         in the 3D Viewport and then moving the pointer and then :kbd:`LMB`.
          You can also enter the size numerically.
 
          Use Pressure (pressure sensitivity icon)

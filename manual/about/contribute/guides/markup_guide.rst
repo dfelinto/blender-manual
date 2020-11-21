@@ -108,7 +108,7 @@ Panels
 ------
 
 Panels should be documented by their own heading, nested panels should use decreasing heading levels.
-Each panel could have there own page based on the length of documentation and/or the amount of panels.
+Each panel could have its own page based on the length of documentation and/or the amount of panels.
 Expanded menus that toggle what properties are presented to the user should be treated like subpanels::
 
    Panel Title
@@ -135,21 +135,21 @@ Enum based menus should be documented using the following syntax::
    Menu Label
       General description of the menu.
 
-      :Menu Item: Menu Item Definition
-      :Menu Item: Menu Item Definition
-      :Menu Item: Menu Item Definition
+      :Menu Item: Menu Item Definition.
+      :Menu Item: Menu Item Definition.
+      :Menu Item: Menu Item Definition.
 
 
 Context Sensitive Manual Access
 ===============================
 
-It is possible to link to a specific part of the manual from in Blender
-by right clicking on a property or operator and selecting *Online Manual*.
+It is possible to link to a specific part of the manual from in Blender by
+right clicking on a property or operator and selecting *Online Manual*.
 In order for this to work, this needs to be accounted for in the documentation.
-To link a property or operator to a specific part of the manual you need
-to add an external reference link tag whose ID matches Blender's RNA tag.
-The easiest way to find out what the tag for a property is to right click on the
-property/operator and select *Online Python Reference* the extract the tag from the URL.
+To link a property or operator to a specific part of the manual you need to add
+an external reference link tag whose ID matches Blender's RNA tag.
+The easiest way to find out what the tag for a property is to right click on
+the property/operator and select *Online Python Reference* to extract the tag from the URL.
 Some examples of how this looks in the RST document are given below::
 
    .. _bpy.types.FluidDomainSettings.use_fractions:
@@ -160,7 +160,7 @@ Some examples of how this looks in the RST document are given below::
       .. _bpy.types.FluidDomainSettings.fractions_distance:
 
       Obstacle Distance
-         Determines how far apart fluid and obstacles are....
+         Determines how far apart fluid and obstacles are...
 
 For an operator::
 

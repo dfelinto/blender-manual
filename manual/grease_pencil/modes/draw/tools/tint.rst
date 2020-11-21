@@ -21,7 +21,7 @@ Selecting a Brush, Color & Mode
 
 In the Tool Settings select the brush, color and mode to use with the tool.
 
-You can configure the brush main settings exposed on the Tool Settings for convenience.
+You can configure the brush main settings included in the Tool Settings for convenience.
 For the vertex paint brushes configuration and settings see
 :doc:`Vertex Paint Brush </grease_pencil/modes/vertex_paint/tool_settings/brush>`.
 

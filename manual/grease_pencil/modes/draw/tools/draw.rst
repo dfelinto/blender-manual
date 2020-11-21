@@ -22,7 +22,7 @@ Material
 Radius
    The radius of the brush in pixels.
 
-   :kbd:`F` allows you to change the brush size interactively by dragging the mouse/pen or
+   :kbd:`F` allows you to change the brush size interactively by dragging the pointer or
    by typing a number then confirm.
 
    Use Pressure (pressure sensitivity icon)
@@ -32,10 +32,10 @@ Radius
 
 Strength
    Control the stroke transparency (alpha).
-   From totally transparent (0.0) to fully opaque (1.0).
+   From fully transparent (0.0) to fully opaque (1.0).
 
    You can change the brush strength interactively by pressing :kbd:`Shift-F`
-   in the 3D Viewport and then moving the mouse/pen and then :kbd:`LMB`.
+   in the 3D Viewport and then moving the pointer and then :kbd:`LMB`.
    You can also enter the size numerically.
 
    Use Pressure (pressure sensitivity icon)
@@ -117,57 +117,28 @@ You can toggle the use of Randomize using the checkbox in the section panel head
 Radius
    The amount of randomness to apply using the pressure of the input device.
 
-   Stroke Random (stroke icon)
-      Use randomness only at stroke level.
-
-   Use Pressure (pressure sensitivity icon)
-      Uses the stylus pressure to control how strong the effect is.
-      The gradient of the pressure can be customized using
-      the :doc:`curve widget </interface/controls/templates/curve>`.
-
 Strength
    The amount of randomness to apply to the stroke strength value (alpha).
-
-   Stroke Random (stroke icon)
-      Use randomness only at stroke level.
-
-   Use Pressure (pressure sensitivity icon)
-      Uses the stylus pressure to control how strong the effect is.
-      The gradient of the pressure can be customized using
-      the :doc:`curve widget </interface/controls/templates/curve>`.
 
 UV
    The amount of randomness to apply to the UV rotation.
 
-   Stroke Random (stroke icon)
-      Use randomness only at stroke level.
-
-   Use Pressure (pressure sensitivity icon)
-      Uses the stylus pressure to control how strong the effect is.
-      The gradient of the pressure can be customized using
-      the :doc:`curve widget </interface/controls/templates/curve>`.
-
 Hue, Saturation, Value
    Randomizes the hue, saturation, and value of the stroke's :ref:`Color <grease-pencil-draw-color>`.
-
-   Stroke Random (stroke icon)
-      Use randomness only at stroke level.
-
-   Use Pressure (pressure sensitivity icon)
-      Uses the stylus pressure to control how strong the effect is.
-      The gradient of the pressure can be customized using
-      the :doc:`curve widget </interface/controls/templates/curve>`.
 
 Jitter
    The amount of jittering to add to the stroke.
 
-   Stroke Random (stroke icon)
-      Use randomness only at stroke level.
 
-   Use Pressure (pressure sensitivity icon)
-      Uses the stylus pressure to control how strong the effect is.
-      The gradient of the pressure can be customized using
-      the :doc:`curve widget </interface/controls/templates/curve>`.
+.. rubric:: Common Options
+
+Stroke Random (stroke icon)
+   Use randomness only at stroke level.
+
+Use Pressure (pressure sensitivity icon)
+   Uses the stylus pressure to control how strong the effect is.
+   The gradient of the pressure can be customized using
+   the :doc:`curve widget </interface/controls/templates/curve>`.
 
 
 .. _grease-pencil-draw-brushes-stabilizer:
@@ -193,7 +164,7 @@ Cursor
 
 The cursor can be disabled by toggling the checkbox in the *Cursor* header.
 
-Show Fill Color While Drawing
+Show Fill Color while Drawing
    Shows the brush linked material color in the viewport.
 
 

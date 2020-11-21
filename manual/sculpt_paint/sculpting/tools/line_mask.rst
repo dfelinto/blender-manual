@@ -11,7 +11,7 @@ Line Mask
 
 This tool creates a :doc:`Mask </sculpt_paint/sculpting/editing/mask>`
 based on plan determined by the camera view and a drawn line.
-The region of the mesh that is masked is visualized by the side of the line that is shaded.
+The masked region of the mesh is visualized by the shaded side of the line.
 
 
 Tool Settings

@@ -61,16 +61,15 @@ Filter Type
          by intensifying the difference between creases and valleys.
       Curvature Smooth Iterations
          The number of times the smoothing operation is applied per brush step.
-         Controls how much smooth the resulting shape is, ignoring high frequency details.
+         Controls how much smooth the resulting shape is, ignoring high-frequency details.
    Enhance Details
       Increases the high frequency surface details of the mesh
       by intensifying the difference between creases and valleys.
    Erase Displacement
-      Deletes displacement information of the
-      :doc:`Multires Modifier </modeling/modifiers/generate/multiresolution>`,
+      Deletes displacement information of
+      the :doc:`Multires Modifier </modeling/modifiers/generate/multiresolution>`,
       resetting the mesh to the subdivision limit surface.
-
-      This can be used to easily delete parts of the sculpt or to fix reprojection artifacts
+      This can be used to delete parts of the sculpt or to fix reprojection artifacts
       after applying a :doc:`Shrinkwrap Modifier </modeling/modifiers/deform/shrinkwrap>`.
 
 Strength

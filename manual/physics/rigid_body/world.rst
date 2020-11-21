@@ -16,7 +16,6 @@ which holds settings that apply to all rigid bodies in this simulation.
 When you add rigid body physics to an object,
 primary there is created a group of objects with default "RigidBodyWorld" name.
 Rigid body objects automatically are added to this group when you add rigid body physics for them.
-
 You can create several Rigid Body World :doc:`Collections </scene_layout/collections/collections>`
 and allocate the rigid body objects with the :ref:`Collections panel <scene-layout_collections_collections_panel>`.
 

@@ -203,8 +203,8 @@ a Python script named ``rig_ui.py``.
 Library Linking
 ===============
 
-When linking a rig into another file, you generally want to create a collection that includes the
-generated rig and the character mesh, with another nested and hidden collection for the "WGT-" objects.
+When linking a rig into another file, you generally want to create a collection that includes
+the generated rig and the character mesh, with another nested and hidden collection for the "WGT-" objects.
 You do not need to include the meta-rig. You then link in the collection, and either run *Make Proxy*
 and select the rig object, or run *Make Library Override*.
 

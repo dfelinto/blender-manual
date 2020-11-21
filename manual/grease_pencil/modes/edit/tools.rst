@@ -42,7 +42,7 @@ Radius :kbd:`Alt-S`
    Expand or contract the thickness radius of the selected points.
 
 Bend :kbd:`Shift-W`
-   Bend selected points between the 3D cursor and the mouse/pen.
+   Bend selected points between the 3D cursor and the pointer.
 
 Shear :kbd:`Shift-Ctrl-Alt-S`
    Shear selected points along the horizontal or vertical screen axis.

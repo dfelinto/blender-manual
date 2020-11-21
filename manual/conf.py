@@ -110,8 +110,7 @@ author = 'Blender Documentation Team'
 # The short X.Y version.
 version = blender_version
 # The full version, including alpha/beta/rc tags.
-# release = " ".join((blender_version, "alpha"))
-release = blender_version + "alpha"
+release = " ".join((blender_version, "alpha"))
 
 del blender_version
 

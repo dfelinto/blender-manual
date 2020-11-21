@@ -21,7 +21,7 @@ For the draw brushes configuration and settings see:
 :doc:`Draw Brush </grease_pencil/modes/draw/tools/draw>`.
 
 Subdivisions
-   The number of stroke points points between each stroke edge.
+   The number of stroke points between each stroke edge.
 
 Thickness Profile
    Use a :doc:`curve widget </interface/controls/templates/curve>` to define the stroke thickness

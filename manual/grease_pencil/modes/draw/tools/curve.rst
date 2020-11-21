@@ -21,7 +21,7 @@ For the draw brushes configuration and settings see:
 :doc:`Draw Brush </grease_pencil/modes/draw/tools/draw>`.
 
 Subdivisions
-   The number of stroke points points between each stroke edge.
+   The number of stroke points between each stroke edge.
 
 Thickness Profile
    Use a :doc:`curve widget </interface/controls/templates/curve>` to define the stroke thickness
@@ -64,8 +64,8 @@ Creating Curves
 While dragging you can hold :kbd:`Shift` to use only one manipulator to tweak the curve (like the Arc tool),
 use :kbd:`Alt` to create the arc from a center point or :kbd:`M` to flip.
 
-:kbd:`NumpadPlus` and :kbd:`NumpadMinus` or using the mouse :kbd:`Wheel` will increase or decrease
-the amount of points in the final curve.
+:kbd:`NumpadPlus` and :kbd:`NumpadMinus` or using the mouse :kbd:`Wheel` will increase
+or decrease the amount of points in the final curve.
 
 .. list-table::
 
