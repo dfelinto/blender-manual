@@ -7,7 +7,7 @@ Pose Library
    :class: refbox
 
    :Mode:      All Modes
-   :Panel:     :menuselection:`Properties --> Object Properties --> Pose Library`
+   :Panel:     :menuselection:`Properties --> Object Data Properties --> Pose Library`
 
 .. figure:: /images/animation_armatures_properties_pose-library_panel.png
    :align: right
