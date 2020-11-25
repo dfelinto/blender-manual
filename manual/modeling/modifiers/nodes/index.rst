@@ -109,5 +109,4 @@ Vector
 
     vector/combine_xyz.rst
     vector/separate_xyz.rst
-..
     vector/vector_math.rst
