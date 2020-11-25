@@ -95,8 +95,8 @@ Utilities
     :maxdepth: 1
 
     utilities/boolean_math.rst
-..
     utilities/clamp.rst
+..
     utilities/float_compare.rst
     utilities/map_range.rst
     utilities/math.rst
