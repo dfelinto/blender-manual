@@ -101,13 +101,13 @@ Utilities
     utilities/math.rst
 
 
-..
-    Vector
-    ======
+Vector
+======
 
-    .. toctree::
+.. toctree::
     :maxdepth: 1
 
     vector/combine_xyz.rst
     vector/separate_xyz.rst
+..
     vector/vector_math.rst
