@@ -102,7 +102,8 @@ Gravity
 .. _bpy.types.FluidDomainSettings.clipping:
 
 Empty Space :guilabel:`Gas Only`
-   Value under which voxels are considered empty space to optimize rendering.
+   Voxels with values under this value are considered empty space.
+   More empty space optimizes rendering. With OpenVDB caching it also reduces cache sizes. 
 
 .. _bpy.types.FluidDomainSettings.delete_in_obstacle:
 
