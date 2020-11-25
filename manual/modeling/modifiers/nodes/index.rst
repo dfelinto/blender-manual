@@ -98,7 +98,6 @@ Utilities
     utilities/clamp.rst
     utilities/float_compare.rst
     utilities/map_range.rst
-..
     utilities/math.rst
 
 
