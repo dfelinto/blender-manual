@@ -356,6 +356,8 @@ Custom Properties
 Custom properties are a way to store your own data in Blender's data-blocks.
 It can be used for rigging (where bones and objects can have custom properties driving other properties),
 and Python scripts, where it's common to define new settings not available in Blender.
+It is also possible to access custom properties from materials via the
+:doc:`Attribute Node </render/shader_nodes/input/attribute>`.
 
 Only certain data supports custom properties:
 

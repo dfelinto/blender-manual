@@ -23,33 +23,62 @@ Properties
 
 Name
    Name of the attribute.
-   Most attributes are more easily available through the various input nodes, except for these:
 
-   Vertex Color Layers
-      These can be retrieved this by their names.
-   Density
-      Gives a scalar defining the density of any smoke inside
-      the :doc:`Fluid Domain </physics/fluid/type/domain/index>`.
-   Color
-      Gives the color of the smoke inside the :doc:`Fluid Domain </physics/fluid/type/domain/index>`.
-      The color and vector outputs are the same. The Factor output is an average of the channels.
-   Temperature
-      Gives a scalar defining the temperature of the volume. Values in the range 0 - 1 map to 0 - 1000 kelvin.
-      This may be used to render physically-based fire with the Blackbody or Principled Volume shaders.
-      All three outputs are the same.
-   Flame
-      Gives a scalar defining the density of any fire inside
-      the :doc:`Fluid Domain </physics/fluid/type/domain/index>`.
-      All three outputs are the same.
-   Ocean Foam
-      Gives a scalar defining where foam might appear when using
-      an :doc:`Ocean Modifier </modeling/modifiers/physics/ocean>`.
-      This depends on the name you give this property.
+Type
+   Specifies the type of the attribute.
 
-   .. seealso::
+   Geometry (default)
+      The attribute is associated with the geometry of the object, and its value varies from vertex
+      to vertex, or within the volume of the object.
 
-      For a full list of options see `This Thread <https://blender.stackexchange.com/questions/14262#14267>`__
-      on the Blender Stack Exchange.
+      Most geometry attributes are more easily available through the various input nodes, except for these:
+
+      Vertex Color Layers
+         These can be retrieved this by their names.
+      Density
+         Gives a scalar defining the density of any smoke inside
+         the :doc:`Fluid Domain </physics/fluid/type/domain/index>`.
+      Color
+         Gives the color of the smoke inside the :doc:`Fluid Domain </physics/fluid/type/domain/index>`.
+         The color and vector outputs are the same. The Factor output is an average of the channels.
+      Temperature
+         Gives a scalar defining the temperature of the volume. Values in the range 0 - 1 map to 0 - 1000 kelvin.
+         This may be used to render physically-based fire with the Blackbody or Principled Volume shaders.
+         All three outputs are the same.
+      Flame
+         Gives a scalar defining the density of any fire inside
+         the :doc:`Fluid Domain </physics/fluid/type/domain/index>`.
+         All three outputs are the same.
+      Ocean Foam
+         Gives a scalar defining where foam might appear when using
+         an :doc:`Ocean Modifier </modeling/modifiers/physics/ocean>`.
+         This depends on the name you give this property.
+
+      .. seealso::
+
+         For a full list of options see `This Thread <https://blender.stackexchange.com/questions/14262#14267>`__
+         on the Blender Stack Exchange.
+
+   Object
+      The attribute name specifies a :ref:`custom property <files-data_blocks-custom-properties>` name,
+      or a RNA path to a built-in property (like the Single Property :ref:`driver variables <drivers-variables>`).
+
+      The values of attributes of this type are defined once per object. The name or path is looked
+      up first in the object datablock, followed by the mesh datablock if not found. Custom properties
+      have priority over built-in ones.
+
+      The property value must be an integer, float, or a vector of 1 to 4 floats; properties of other types
+      are ignored. If a suitable property is not found, all sockets of the node, including *Alpha*, output 0.
+
+      .. tip::
+         The ``color`` attribute will output the value of the Color field in the
+         :ref:`Viewport Display <properties-object-viewport-display>` panel of the object,
+         unless overridden by a custom property.
+
+   Instancer
+      Similar to *Object*, but the attribute is looked up in the instancer particle system settings,
+      followed by the instancer object. If the current object is not instanced, or the property is
+      not found, falls back to the *Object* mode.
 
 
 Outputs
@@ -61,3 +90,5 @@ Vector
    XYZ vector interpolated from the attribute.
 Factor
    Scalar value interpolated from the attribute.
+Alpha
+   Alpha channel of the attribute, when available. If the attribute has no alpha channel, generally defaults to 1.
