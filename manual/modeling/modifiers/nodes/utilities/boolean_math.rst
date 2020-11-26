@@ -5,7 +5,7 @@
 Boolean Math
 ************
 
-.. figure:: /images/modeling_modifiers_nodes_boolean_math.png
+.. figure:: /images/modeling_modifiers_nodes_boolean-math.png
    :align: right
 
    Boolean Math Node.

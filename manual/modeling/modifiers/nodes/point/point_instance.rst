@@ -5,7 +5,7 @@
 Point Instance
 **************
 
-.. figure:: /images/modeling_modifiers_nodes_point_instance.png
+.. figure:: /images/modeling_modifiers_nodes_point-instance.png
    :align: right
 
    Point Instance Node.

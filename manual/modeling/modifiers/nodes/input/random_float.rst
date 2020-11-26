@@ -4,7 +4,7 @@
 Random Float
 ************
 
-.. figure:: /images/modeling_modifiers_nodes_random_float.png
+.. figure:: /images/modeling_modifiers_nodes_random-float.png
    :align: right
 
    Random Float Node.

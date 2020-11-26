@@ -7,7 +7,7 @@ Object Info
 
 The *Object Info* node gets information from objects.
 
-.. figure:: /images/modeling_modifiers_nodes_object_info.png
+.. figure:: /images/modeling_modifiers_nodes_object-info.png
 
    Object Info Node.
 

@@ -4,7 +4,7 @@
 Separate RGB
 ************
 
-.. figure:: /images/modeling_modifiers_nodes_separate_rgb.png
+.. figure:: /images/modeling_modifiers_nodes_separate-rgb.png
    :align: right
 
    Separate RGB Node.

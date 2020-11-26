@@ -4,7 +4,7 @@
 Combine XYZ
 ***********
 
-.. figure:: /images/modeling_modifiers_nodes_combine_xyz.png
+.. figure:: /images/modeling_modifiers_nodes_combine-xyz.png
    :align: right
 
    Combine XYZ Node.

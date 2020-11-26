@@ -4,7 +4,7 @@
 Separate XYZ
 ************
 
-.. figure:: /images/modeling_modifiers_nodes_separate_xyz.png
+.. figure:: /images/modeling_modifiers_nodes_separate-xyz.png
    :align: right
 
    Separate XYZ Node.

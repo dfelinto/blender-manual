@@ -7,7 +7,7 @@ Random Attribute
 
 Populate an attribute randomly within a given range.
 
-.. figure:: /images/modeling_modifiers_nodes_random_attribute.png
+.. figure:: /images/modeling_modifiers_nodes_random-attribute.png
    :align: right
 
    Random Attribute Node.

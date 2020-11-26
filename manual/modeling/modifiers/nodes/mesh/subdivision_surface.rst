@@ -8,7 +8,7 @@ Subdivision Surface
 The *Subdivision Surface* node deform the geometry using Catmull-Clark
 deformation.
 
-.. figure:: /images/modeling_modifiers_nodes_subdivision_surface.png
+.. figure:: /images/modeling_modifiers_nodes_subdivision-surface.png
    :align: right
 
    Subdivision Surface Node.
