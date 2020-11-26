@@ -85,9 +85,14 @@ afterload: function() {
 	this.$btn.on("keydown", function(e){ if(that.keybtnfilter(e)){that.btnhandler();} });
 },
 warn_old: function(release, all_versions) {
-	var current = all_versions.dev
+	// Note this is effectively disabled now, two issues must fixed:
+	// * versions.js does not contain a current entry, because that leads to
+	//   duplicate version numbers in the menu. These need to be deduplicated.
+	// * It only shows the warning after opening the menu to switch version
+	//   or language, when versions.js is loaded. This is too late to be useful.
+	var current = all_versions.current
 	if (!current) {
-		console.log("Version Switch Error: no 'dev' in version.json.");
+		//console.log("Version Switch Error: no 'current' in version.json.");
 		return;
 	}
 	const m = current.match(/\d\.\d+/g);
