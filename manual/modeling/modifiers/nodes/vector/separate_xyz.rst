@@ -13,14 +13,14 @@ The *Separate XYZ Node* splits a vector into its individual components.
 
 
 Input
-======
+=====
 
 Vector
    Standard vector output.
 
 
 Outputs
-======
+=======
 
 - X
 - Y
