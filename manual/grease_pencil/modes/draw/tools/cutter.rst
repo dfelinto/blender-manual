@@ -17,7 +17,7 @@ Usage
 =====
 
 Draw a dotted line around the strokes you want to be cut.
-After releasing the pointer all the points on the selected strokes
+After releasing the mouse button all the points on the selected strokes
 will be deleted until another intersecting stroke is found.
 
 .. list-table::

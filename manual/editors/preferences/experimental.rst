@@ -15,4 +15,4 @@ Debugging
 =========
 
 Cycles Debug
-   Show the Cycles' rendering :doc:`Debug Panel </render/cycles/render_settings/debug>`.
+   Show the Cycles rendering :doc:`Debug Panel </render/cycles/render_settings/debug>`.

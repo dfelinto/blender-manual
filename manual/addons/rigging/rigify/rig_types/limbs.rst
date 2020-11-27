@@ -16,7 +16,7 @@ Requirement: A chain of at least two connected bones.
 Automation Axis (X, Y, Z, None)
    Enables the automation on the selected axis. Multiple axis or none can be selected holding :kbd:`Shift-LMB`.
    When enabled the controls of the last bones will copy the rotations from the previous ones.
-   The option is exposed on the controls of the final rig as a Copy Rotation constraint and
+   The option is accessible in the controls of the final rig as a Copy Rotation constraint and
    can be disabled even after rig is generated, or at animation time.
 Assign Tweak Layers
    If enabled, allows placing the Tweak controls on different layers from the main controls.
@@ -52,7 +52,7 @@ A backwards compatibility wrapper around ``limbs.arm``, ``limbs.leg`` and ``limb
 ``limbs.arm``
 =============
 
-Will create a full featured bendy and stretchy arm depending on the user defined options.
+Will create a full featured bendy and stretchy arm depending on the user-defined options.
 
 Requirement: A chain of three connected bones (upper_arm, forearm, hand).
 
@@ -67,7 +67,7 @@ B-Bone Segments (integer)
    Defines the number of b-bone segments each tweak control will be split into.
 Custom IK Pivot
    Generates an extra control for the end of the IK limb that allows rotating it around an arbitrarily placed pivot.
-Assign Fk Layers
+Assign FK Layers
    If enabled, allows placing the FK chain on different layers from the IK bones.
 Assign Tweak Layers
    If enabled, allows placing the Tweak controls on different layers from the IK bones.
@@ -76,7 +76,7 @@ Assign Tweak Layers
 ``limbs.leg``
 =============
 
-Will create a full featured bendy and stretchy leg depending on the user defined options.
+Will create a full featured bendy and stretchy leg depending on the user-defined options.
 
 Requirement: A chain of four connected bones (thigh, shin, foot, toe) with one unconnected
 child of the foot to be used as the heel pivot.
@@ -89,7 +89,7 @@ B-Bone Segments (integer)
    Defines the number of b-bone segments each tweak control will be split into.
 Custom IK Pivot
    Generates an extra control for the end of the IK limb that allows rotating it around an arbitrarily placed pivot.
-Assign Fk Layers
+Assign FK Layers
    If enabled, allows placing the FK chain on different layers from the IK bones.
 Assign Tweak Layers
    If enabled, allows placing the Tweak controls on different layers from the IK bones.
@@ -98,7 +98,7 @@ Assign Tweak Layers
 ``limbs.paw``
 =============
 
-Will create a full featured bendy and stretchy paw depending on the user defined options.
+Will create a full featured bendy and stretchy paw depending on the user-defined options.
 
 Requirement: A chain of four or five connected bones (thigh, shin, paw, *optional* digit, toe).
 
@@ -110,7 +110,7 @@ B-Bone Segments (integer)
    Defines the number of b-bone segments each tweak control will be split into.
 Custom IK Pivot
    Generates an extra control for the end of the IK limb that allows rotating it around an arbitrarily placed pivot.
-Assign Fk Layers
+Assign FK Layers
    If enabled, allows placing the FK chain on different layers from the IK bones.
 Assign Tweak Layers
    If enabled, allows placing the Tweak controls on different layers from the IK bones.
@@ -123,20 +123,20 @@ Derivative of ``limbs.paw`` with extended IK suitable for use in front paws.
 The additional IK limits the degree of change in the angle between shin and
 paw bones (2nd and 3rd) as the main IK control moves and rotates.
 
-For best results, the shin bone should not be parallel to either thigh or paw in
-rest pose, i.e. there should be some degree of bend in all joints of the paw.
+For best results, the shin bone should not be parallel to either thigh or paw in rest pose,
+i.e. there should be some degree of bend in all joints of the paw.
 
 Heel IK Influence
-   Influence of the extended IK. At 100% rotating the main IK control or digit bone would
+   Influence of the extended IK. At fully rotating the main IK control or digit bone would
    not affect the rotation of the paw bone, while lower values provide some blending.
 
 
 ``limbs.rear_paw``
-===================
+==================
 
-Derivative of ``limbs.paw`` with extended IK suitable for use in rear paws. The
-additional IK tries to maintain thigh and paw bones (1st and 3rd) in a nearly parallel
-orientation as the main IK control moves and rotates.
+Derivative of ``limbs.paw`` with extended IK suitable for use in rear paws.
+The additional IK tries to maintain thigh and paw bones (1st and 3rd) in a nearly parallel orientation
+as the main IK control moves and rotates.
 
 For best results, thigh and paw bones should start nearly parallel in the rest pose.
 

@@ -103,7 +103,7 @@ Gravity
 
 Empty Space :guilabel:`Gas Only`
    Voxels with values under this value are considered empty space.
-   More empty space optimizes rendering. With OpenVDB caching it also reduces cache sizes. 
+   More empty space optimizes rendering. With OpenVDB caching it also reduces cache sizes.
 
 .. _bpy.types.FluidDomainSettings.delete_in_obstacle:
 

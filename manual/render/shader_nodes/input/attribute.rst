@@ -27,11 +27,11 @@ Name
 Type
    Specifies the type of the attribute.
 
-   Geometry (default)
+   Geometry
       The attribute is associated with the geometry of the object, and its value varies from vertex
       to vertex, or within the volume of the object.
 
-      Most geometry attributes are more easily available through the various input nodes, except for these:
+      Most geometry attributes are directly accessible through the various input nodes, except for these:
 
       Vertex Color Layers
          These can be retrieved this by their names.
@@ -61,24 +61,25 @@ Type
 
    Object
       The attribute name specifies a :ref:`custom property <files-data_blocks-custom-properties>` name,
-      or a RNA path to a built-in property (like the Single Property :ref:`driver variables <drivers-variables>`).
+      or an RNA path to a built-in property (like the single property :ref:`driver variables <drivers-variables>`).
 
       The values of attributes of this type are defined once per object. The name or path is looked
-      up first in the object datablock, followed by the mesh datablock if not found. Custom properties
+      up first in the object data-block, followed by the mesh datablock if not found. Custom properties
       have priority over built-in ones.
 
       The property value must be an integer, float, or a vector of 1 to 4 floats; properties of other types
       are ignored. If a suitable property is not found, all sockets of the node, including *Alpha*, output 0.
 
       .. tip::
-         The ``color`` attribute will output the value of the Color field in the
-         :ref:`Viewport Display <properties-object-viewport-display>` panel of the object,
-         unless overridden by a custom property.
+
+         The ``color`` attribute will output the value of the Color field in
+         the :ref:`Viewport Display <properties-object-viewport-display>` panel of
+         the object, unless overridden by a custom property.
 
    Instancer
       Similar to *Object*, but the attribute is looked up in the instancer particle system settings,
       followed by the instancer object. If the current object is not instanced, or the property is
-      not found, falls back to the *Object* mode.
+      not found, it falls back to the *Object* mode.
 
 
 Outputs
