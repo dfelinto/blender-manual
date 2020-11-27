@@ -39,16 +39,6 @@ Type
    Vector
       Array of 3 (floating point) values.
 
-Domain
-   Geometry component that will store the attribute (Vertex, Point)
-
-   Vertex
-      Store the attribute in the mesh vertices.
-
-   Point
-      Store the attribute in the points of point clouds.
-
-
 Outputs
 =======
 
