@@ -16,7 +16,7 @@ and run the executable within the app bundle, with commands like this:
 
 If you need to do this often, you can add this directory to your ``PATH``.
 
-For that you can run a following procedure:
+For that you can run the following procedure:
 
 #. Open up Terminal.
 #. Run the following command: ``sudo nano /etc/paths``.
