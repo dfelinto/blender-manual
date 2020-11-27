@@ -61,8 +61,8 @@ Nodes used mainly as input to other nodes.
    :maxdepth: 1
 
    input/object_info.rst
-   input/value.rst
    input/random_float.rst
+   input/value.rst
 
 
 Mesh
@@ -73,8 +73,8 @@ Nodes that only act on the mesh geometry.
 .. toctree::
    :maxdepth: 1
 
-   mesh/subdivision_surface.rst
    mesh/edge_split.rst
+   mesh/subdivision_surface.rst
    mesh/triangulate.rst
 
 
