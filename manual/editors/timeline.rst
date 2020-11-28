@@ -112,25 +112,25 @@ Playback Popover
 
 The *Playback* popover contains options controlling the animation playback.
 
+Sync
+   .. figure:: /images/editors_timeline_red-fps.png
+      :figwidth: 109px
+      :align: right
+
+      3D Viewport red FPS.
+
+   When you play an animation, the frame rate is displayed at the top left of the 3D Viewport.
+   If the scene is detailed and playback is slower than the set :ref:`Frame Rate <bpy.types.RenderSettings.fps>`,
+   these options are used to synchronize the playback.
+
+   Play Every Frame
+      Plays every frame even if playback is slow.
+   Frame Dropping
+      Drop frames if playback becomes slower than the scene's frame rate.
+   Sync to Audio
+      Drop frames if playback becomes too slow to remain synced with audio.
+
 Audio
-   Sync Mode
-      .. figure:: /images/editors_timeline_red-fps.png
-         :figwidth: 109px
-         :align: right
-
-         3D Viewport red FPS.
-
-      When you play an animation, the frame rate is displayed at the top left of the 3D Viewport.
-      If the scene is detailed and playback is slower than the set
-      *Frame Rate* (see :ref:`render-tab-dimensions`),
-      these options are used to synchronize the playback.
-
-      No Sync
-         Do not sync, play every frame.
-      Frame Dropping
-         Drop frames if playback is too slow.
-      AV-sync
-         (Audio/Video Synchronization). Sync to audio clock, dropping frames if playback is slow.
    Scrubbing
       If your animation has sound, this option plays bits of the sound wave
       while you move the playhead with :kbd:`LMB` or keyboard arrows (like a moving playhead).
