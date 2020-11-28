@@ -97,7 +97,7 @@ This can be very useful for reducing render times for quick previews on an area 
 
    You can also use this region in a final render by setting a render region from within
    the :doc:`Camera View </editors/3dview/navigate/camera_view>` and enabling
-   :ref:`region <render-output-dimensions-region>` in the Dimensions panel.
+   :ref:`region <bpy.types.RenderSettings.use_border>` in the Dimensions panel.
 
 .. seealso::
 

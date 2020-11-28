@@ -271,9 +271,9 @@ Simulation Method
    FLIP
       Produces a very splashy simulation with lots of particles dispersed in the air.
 
-   .. APIC
-   ..    Produces a very energetic but also more stable simulation.
-   ..    Vortices within the liquid will be preserved better than with *FLIP*.
+   APIC
+      Produces a very energetic but also more stable simulation.
+      Vortices within the liquid will be preserved better than with *FLIP*.
 
 .. _bpy.types.FluidDomainSettings.flip_ratio:
 

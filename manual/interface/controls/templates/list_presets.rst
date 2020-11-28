@@ -58,6 +58,7 @@ Move (up/down arrow icon)
    Moves the selected item up/down one position.
 
 
+.. _bpy.ops.script.execute_preset:
 .. _ui-presets:
 
 Presets

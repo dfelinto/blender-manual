@@ -7,7 +7,6 @@ The first step in the rendering process is to determine and set the output setti
 This includes render size, frame rate, pixel aspect ratio, output location, and file type.
 
 
-.. _bpy.types.RenderSettings.use_border:
 .. _render-tab-dimensions:
 
 Dimensions Panel
@@ -20,12 +19,20 @@ Dimensions Panel
 Several render presets exist with common resolution and frame rates
 for TVs and screens can be selected in the panel header.
 
+.. _bpy.types.RenderSettings.resolution_x:
+.. _bpy.types.RenderSettings.resolution_y:
+
 Resolution X, Y
    The number of pixels horizontally and vertically in the image.
+
+   .. _bpy.types.RenderSettings.resolution_percentage:
 
    Percentage
       Slider to reduce or increase the size of the rendered image relative to the X/Y values above.
       This is useful for small test renders that have the same proportions as the final image.
+
+.. _bpy.types.RenderSettings.pixel_aspect_x:
+.. _bpy.types.RenderSettings.pixel_aspect_y:
 
 Aspect X, Y
    Older televisions may have non-square pixels,
@@ -37,7 +44,7 @@ Aspect X, Y
 
    See :doc:`Video Output </render/output/file_formats>` for details on pixel aspect ratio.
 
-.. _render-output-dimensions-region:
+.. _bpy.types.RenderSettings.use_border:
 
 Render Region
    Renders just a portion of the view instead of the entire frame.
@@ -48,15 +55,25 @@ Render Region
 
       This disables the *Save Buffers* option in the Performance panel.
 
+.. _bpy.types.RenderSettings.use_crop_to_border:
+
 Crop to Render Region
    Crops the rendered image to the size of the render region,
    instead of rendering a transparent background around it.
 
+.. _bpy.types.Scene.frame_start:
+.. _bpy.types.Scene.frame_end:
+
 Frame Start, End
    Set the *Start* and *End* frames for :doc:`Rendering Animations </render/output/animation>`.
 
+.. _bpy.types.Scene.frame_step:
+
 Step
    Controls the number of frames to advance by for each frame in the timeline.
+
+.. _bpy.types.RenderSettings.fps:
+.. _bpy.types.RenderSettings.fps_base:
 
 Frame Rate
    For an :doc:`Animation </render/output/animation>`
@@ -68,13 +85,18 @@ Time Remapping
 
 Use to remap the length of an animation.
 
+.. _bpy.types.RenderSettings.frame_map_old:
+
+Old
+   The length in frames the original animation lasted.
+
+.. _bpy.types.RenderSettings.frame_map_old:
+
+New
+   The length in frames the new animation will last.
+
 
 .. _render-tab-output:
-.. _bpy.types.RenderSettings.filepath:
-.. _bpy.types.RenderSettings.use_overwrite:
-.. _bpy.types.RenderSettings.use_placeholder:
-.. _bpy.types.RenderSettings.use_file_extension:
-.. _bpy.types.RenderSettings.use_render_cache:
 
 Output Panel
 ============
@@ -85,6 +107,8 @@ Output Panel
 
 This panel provides options for setting the location of rendered frames for animations,
 and the quality of the saved images.
+
+.. _bpy.types.RenderSettings.filepath:
 
 File Path
    Choose the location to save rendered frames.
@@ -98,11 +122,20 @@ File Path
    where a ``//`` prefix represents the directory of the current blend-file.
 
 Saving
+   Todo.
+
+   .. _bpy.types.RenderSettings.use_file_extension:
+
    File Extensions
       Adds the correct file extensions per file type to the output files.
+
+   .. _bpy.types.RenderSettings.use_render_cache:
+
    Cache Result
       Saves the rendered image and passes to a multi-layer EXR file in temporary location on your hard drive.
       This allows the Compositor to read these to improve the performance, especially for heavy compositing.
+
+.. _bpy.types.ImageFormatSettings.file_format:
 
 File Format
    Choose the file format to save to. Based on which format is used,
@@ -111,15 +144,24 @@ File Format
    For rendering out to images see: :ref:`saving images <bpy.types.ImageFormatSettings>`,
    for rendering to videos see :doc:`rendering to videos </render/output/file_formats>`.
 
-Color Mode
+.. _bpy.types.ImageFormatSettings.color_mode:
+
+Color
    Choose the color format to save the image to.
    Note that *RGBA* will not be available for all image formats.
 
    BW, RGB, RGBA
 
 Image Sequence
+   Todo.
+
+   .. _bpy.types.RenderSettings.use_overwrite:
+
    Overwrite
       Overwrite existing files when rendering.
+
+   .. _bpy.types.RenderSettings.use_placeholder:
+
    Placeholders
       Create empty placeholder frames while rendering.
 
@@ -150,14 +192,23 @@ The Post Processing panel is used to control different options used to process y
    Post Processing panel.
 
 Pipeline
-   Sequencer
-      Renders the output of the Video Sequence editor, instead of the view from the 3D scene's active camera.
-      If the sequence contains scene strips, these will also be rendered as part of the pipeline.
-      If *Compositing* is also enabled, the Scene strip will be the output of the Compositor.
+   Todo.
+
+   .. _bpy.types.RenderSettings.use_compositing:
+
    Compositing
       Renders the output from the compositing node setup,
       and then pumps all images through the Composite node tree,
       displaying the image fed to the Composite Output node.
+
+   .. _bpy.types.RenderSettings.use_sequencer
+
+   Sequencer
+      Renders the output of the Video Sequence editor, instead of the view from the 3D scene's active camera.
+      If the sequence contains scene strips, these will also be rendered as part of the pipeline.
+      If *Compositing* is also enabled, the Scene strip will be the output of the Compositor.
+
+.. _bpy.types.RenderSettings.dither_intensity:
 
 Dither
    Dithering is a technique for blurring pixels to prevent banding that is seen in areas of
