@@ -54,6 +54,9 @@ Options for the annotation tool. See :doc:`/interface/annotate_tool`.
 
 .. (TODO add) images per type
 
+
+.. _editors-image-scopes:
+
 Scopes
 ======
 
