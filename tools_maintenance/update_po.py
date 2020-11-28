@@ -25,43 +25,48 @@ import sys
 import shutil
 import subprocess
 import multiprocessing
-import shlex
+from shlex import quote
 import re
+
+import importlib.util
+mod_file_path = os.path.join(os.path.dirname(__file__), "..", "tools_rst", "rst_check_locale.py")
+spec = importlib.util.spec_from_file_location("rst_check_locale", mod_file_path)
+rst_check_locale = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(rst_check_locale)
+
 
 VERBOSE = False
 USE_MULTI_PROCESS = True
 
-def run(cmd):
+
+def run_svn(args, with_output=False):
+    cmd = ["svn", *args]
     if VERBOSE:
         print(">>> ", cmd)
 
-    subprocess.check_call(
-        cmd,
-    )
+    if not with_output:
+        subprocess.check_call(
+            cmd,
+        )
+    else:
+        return subprocess.check_output(
+            cmd,
+        )
 
 
-def run_output(cmd):
-    if VERBOSE:
-        print(">>> ", cmd)
-
-    return subprocess.check_output(
-        cmd,
-    )
-
-
-def run_multiprocess__single(cmd_list):
-    return_codes = [None] * len(cmd_list)
+def run_multiprocess__single(arg_list):
+    return_codes = [None] * len(arg_list)
      # Single process.
-    for cmd_index, cmd in enumerate(cmd_list):
-        proc = subprocess.Popen(cmd)
+    for args_index, args in enumerate(arg_list):
+        proc = subprocess.Popen(["sphinx-intl", *args])
         proc.wait()
-        return_codes[cmd_index] = proc.returncode
+        return_codes[args_index] = proc.returncode
 
     return return_codes
 
 
-def run_multiprocess__multi(cmd_list, job_total=1):
-    return_codes = [None] * len(cmd_list)
+def run_multiprocess__multi(arg_list, job_total=1):
+    return_codes = [None] * len(arg_list)
 
     # Real multi-processing.
     import time
@@ -74,7 +79,7 @@ def run_multiprocess__multi(cmd_list, job_total=1):
                 del processes[proc_index]
                 return_codes[proc_cmd_index] = proc.returncode
 
-    for cmd_index, cmd in enumerate(cmd_list):
+    for args_index, args in enumerate(arg_list):
         while True:
             processes_clear_finished()
             if len(processes) <= job_total:
@@ -85,7 +90,7 @@ def run_multiprocess__multi(cmd_list, job_total=1):
         sys.stdout.flush()
         sys.stderr.flush()
 
-        processes.append((cmd_index, subprocess.Popen(cmd)))
+        processes.append((args_index, subprocess.Popen(["sphinx-intl", *args])))
 
     while processes:
         processes_clear_finished()
@@ -94,18 +99,17 @@ def run_multiprocess__multi(cmd_list, job_total=1):
     return return_codes
 
 
-def run_multiprocess(cmd_list, job_total=1):
+def run_multiprocess(arg_list, job_total=1):
     if job_total <= 1:
-        return run_multiprocess__single(cmd_list)
+        return run_multiprocess__single(arg_list)
     else:
-        return run_multiprocess__multi(cmd_list, job_total)
+        return run_multiprocess__multi(arg_list, job_total)
 
 
 # -----------------------------------------------------------------------------
 # Setup Global State
 
 
-PYTHON_BIN = sys.executable
 if USE_MULTI_PROCESS:
     CPU_COUNT = multiprocessing.cpu_count()
 else:
@@ -136,7 +140,7 @@ def main():
     # All directories containing '.svn' (the parent directory).
     svn_dirs_all = []
     for svn_dir in os.listdir(LOCALE_DIR):
-        if not svn_dir in ["weblate", "sphinx"]:
+        if not svn_dir in ("weblate", "sphinx"):
             if not svn_dir.startswith((".", "_")):
                 svn_dir = os.path.join(LOCALE_DIR, svn_dir)
                 if os.path.isdir(svn_dir):
@@ -152,12 +156,12 @@ def main():
     # Play it safe and cleanup every time.
 
     if has_complete_locale_checkout:
-        run(["svn", "cleanup", LOCALE_DIR])
-        run(["svn", "up", LOCALE_DIR])
+        run_svn(["cleanup", LOCALE_DIR])
+        run_svn(["up", LOCALE_DIR])
     else:
         for svn_dir in svn_dirs_all:
-            run(["svn", "cleanup", svn_dir])
-            run(["svn", "up", svn_dir])
+            run_svn(["cleanup", svn_dir])
+            run_svn(["up", svn_dir])
 
     # ---------------
     # Create PO Files
@@ -166,7 +170,7 @@ def main():
         shutil.rmtree(LOCALE_BUILD_DIR)
 
     # Same as 'make gettext'.
-    run([
+    subprocess.check_call([
         "sphinx-build",
         "-t", "builder_html",
         "-b", "gettext",
@@ -184,16 +188,16 @@ def main():
 
     po_lang_all = []
     for po_lang in os.listdir(LOCALE_DIR):
-        if not svn_dir in ["weblate", "sphinx"]:
-            if not po_lang.startswith((".", "_")) and os.path.isdir(os.path.join(LOCALE_DIR, po_lang)):
+        if not svn_dir in ("weblate", "sphinx"):
+            if (not po_lang.startswith((".", "_")) and
+                    os.path.isdir(os.path.join(LOCALE_DIR, po_lang))):
                 po_lang_all.append(po_lang)
     # Only for reproducible execution.
     po_lang_all.sort()
 
-    sphinx_intl_cmd_list = []
+    sphinx_intl_arg_list = []
     for po_lang in po_lang_all:
-        sphinx_intl_cmd_list.append([
-            "sphinx-intl",
+        sphinx_intl_arg_list.append([
             "--config=" + os.path.join("manual", "conf.py"),
             "update",
             "--pot-dir=" + os.path.join("build", "locale"),
@@ -201,17 +205,17 @@ def main():
         ])
 
     sphinx_intl_return_codes = run_multiprocess(
-        sphinx_intl_cmd_list,
+        sphinx_intl_arg_list,
         job_total=CPU_COUNT,
     )
 
     if set(sphinx_intl_return_codes) - {0}:
         print("Warning, the following commands returned non-zero exit codes:")
-        for returncode, cmd in zip(sphinx_intl_return_codes, sphinx_intl_cmd_list):
+        for returncode, arg in zip(sphinx_intl_return_codes, sphinx_intl_arg_list):
             if returncode != 0:
-                print("returncode:", returncode, "from command:", cmd)
-        print("Some manual corrections my need to be done.")
-    del sphinx_intl_return_codes, sphinx_intl_cmd_list
+                print("returncode:", returncode, "from command:", "sphinx-intl", arg)
+        print("Some manual corrections might need to be done.")
+    del sphinx_intl_return_codes, sphinx_intl_arg_list
 
 
     # ----------
@@ -222,11 +226,7 @@ def main():
         # Multiple args, don't quote.
         svn_files_new = []
         svn_dirs_new = []
-        for line in run_output([
-                "svn",
-                "status",
-                svn_dir,
-        ]).decode("utf-8").split("\n"):
+        for line in run_svn(("status", svn_dir), True).decode("utf-8").splitlines():
             if line.startswith("?"):
                 line = line.strip()
                 line = line.split()[-1]
@@ -236,14 +236,13 @@ def main():
                     svn_dirs_new.append(line)
 
         if svn_files_new:
-            run(["svn", "add", *svn_files_new, *svn_dirs_new])
-        del svn_files_new, svn_dirs_new
+            run_svn(["add", *svn_files_new, *svn_dirs_new])
 
     # Notify on redundant PO files.
-    run([
-        PYTHON_BIN,
-        os.path.join("tools_rst", "rst_check_locale.py")
-    ])
+    try:
+        rst_check_locale.warn_locale()
+    except:
+        print("rst_check_locale.py has no warn_locale function")
 
     # ---------------------
     # Print Commit Messages
@@ -251,7 +250,7 @@ def main():
     # Use space prefix as shell's (bash/zsh/fish) uses this as a hint not to store in the users history.
     revision = re.findall(
         r"^Revision:\s([\d]+)",
-        run_output(["svn", "info", ROOT_DIR]).decode('utf8'),
+        run_svn(["info", ROOT_DIR], True).decode('utf8'),
         flags=re.MULTILINE,
     )
     revision = revision[0] if revision else "Unknown"
@@ -266,7 +265,7 @@ def main():
         if IS_WIN32:
             print("  " + subprocess.list2cmdline(["svn", "ci", svn_dir, "-m", "Update r" + revision]))
         else:
-            print("  svn ci {:s} -m \"Update r{:s}\"".format(shlex.quote(svn_dir), revision))
+            print("  svn ci {:s} -m \"Update r{:s}\"".format(quote(svn_dir), revision))
 
 if __name__ == "__main__":
     main()
