@@ -90,16 +90,6 @@ Save External
 Advanced
 --------
 
-Subdivision Type
-   Sets the type of subdivision.
-
-   Simple
-      Maintains the current shape, and simply subdivides edges.
-   Catmull-Clark
-      Creates a smooth surface, usually smaller than the original, using the standard
-      `Catmull-Clark <https://en.wikipedia.org/wiki/Catmull%E2%80%93Clark_subdivision_surface>`__
-      subdivision surface algorithm.
-
 Quality
    How precisely the vertices are positioned (relatively to their theoretical position),
    can be lowered to get a better performance when working on high-poly meshes.
