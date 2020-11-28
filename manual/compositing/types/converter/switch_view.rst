@@ -18,7 +18,7 @@ This can be useful if for example, you need to treat the view as separate images
 
 .. seealso::
 
-   :doc:`The multi-view workflow </render/output/stereoscopy/index>`.
+   :doc:`The multi-view workflow </render/output/properties/stereoscopy/index>`.
 
 
 Inputs

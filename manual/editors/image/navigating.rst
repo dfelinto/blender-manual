@@ -24,7 +24,7 @@ Region Controls
 Update Automatically
    Update the view in multiple areas.
 Show Metadata
-   Displays the metadata if they were set in the render tab's :doc:`/render/output/metadata` panel.
+   Displays the metadata if they were set in the render tab's :doc:`/render/output/properties/metadata` panel.
 Display Texture Paint UVs
    Toggles UVs in Paint Mode.
 Zoom In/Out :kbd:`Wheel`

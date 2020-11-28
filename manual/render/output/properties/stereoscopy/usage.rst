@@ -25,7 +25,7 @@ Open Movie Workshop series from the Blender Institute by Andy Goralczyk.
 Stereoscopy Setup
 =================
 
-Go to the :doc:`Render Output </render/output/settings>` settings and enable *Stereoscopy* for this scene.
+Go to the :doc:`Output Properties </render/output/index>` and enable *Stereoscopy* for this scene.
 
 .. figure:: /images/render_output_stereoscopy_usage_views-panel.png
 

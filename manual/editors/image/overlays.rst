@@ -20,4 +20,4 @@ Image
 =====
 
 Show Metadata
-   Displays the metadata if they were set in the render tab's :doc:`/render/output/metadata` panel.
+   Displays the metadata if they were set in the render tab's :doc:`/render/output/properties/metadata` panel.

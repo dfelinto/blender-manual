@@ -9,7 +9,7 @@ Image Node
 
    Image Node.
 
-The *Image* node injects any image :doc:`format that is supported by Blender </render/output/settings>`.
+The *Image* node injects any image :doc:`format that is supported by Blender </files/media/image_formats>`.
 
 
 Inputs

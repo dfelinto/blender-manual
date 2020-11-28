@@ -53,6 +53,7 @@ you have an automated dynamic multi-track audio mixer!
 Output
 ======
 
-There are two ways to render out your audio. You can either have it encoded with a video file
-or in its own audio file. Read more on how select proper :doc:`format </render/output/file_formats>`
+There are two ways to render out your audio.
+You can either have it encoded with a video file or in its own audio file.
+Read more on how to select a proper :ref:`audio format <render-output-video-encoding-audio>`
 and how to start :doc:`rendering </render/output/index>`.

@@ -149,7 +149,7 @@ Half Float Precision
 View as Render
    Applies :doc:`color transform </render/color_management>` when displaying this image on the screen.
 Use Multi-View
-   See :doc:`Multi-View </render/output/stereoscopy/index>`.
+   See :doc:`Multi-View </render/output/properties/stereoscopy/index>`.
 Alpha
    Representation of alpha in the image file, to convert to and from when saving and loading the image.
    See :term:`Alpha Channel`.

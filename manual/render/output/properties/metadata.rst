@@ -50,7 +50,7 @@ Include
 
 
 Note
-----
+====
 
 Includes a custom note.
 
@@ -64,7 +64,7 @@ Includes a custom note.
 
 
 Burn into Image
----------------
+===============
 
 Add metadata as text to the render.
 

@@ -1,41 +1,87 @@
+.. _render-tab-output:
 
-************
-File Formats
-************
+******
+Output
+******
 
-.. seealso::
+.. figure:: /images/render_output_settings_panel.png
 
-   :ref:`files-media-index` for technical information about supported file formats.
+   Output panel.
 
+This panel provides options for setting the location of rendered frames for animations,
+and the quality of the saved images.
 
-Image Output
-============
+.. _bpy.types.RenderSettings.filepath:
 
-When rendering a single frame, the output should be a single image format and not a video.
-Several :doc:`image formats </files/media/image_formats>` are available, PNG being the default.
+File Path
+   Choose the location to save rendered frames.
 
-Images can also be used for rendering animations which has a couple advantages.
-For example, when rendering animations to image file formats the render job can be canceled
-and resumed at the last rendered frame by changing the frame range.
-This is useful if the animation takes a long time to render
-and the computers resources are needed for something else.
+   When rendering an animation,
+   the frame number is appended at the end of the file name with four padded zeros (e.g. ``image0001.png``).
+   You can set a custom padding size by adding the appropriate number of ``#`` anywhere in the file name
+   (e.g. ``image_##_test.png`` translates to ``image_01_test.png``).
 
-Images can then be encoded to a video by adding the rendered image sequence into
-the :doc:`Video Sequencer </video_editing/sequencer/index>` and choosing an appropriate `Video Output`_.
+   This setting expands :ref:`files-blend-relative_paths`
+   where a ``//`` prefix represents the directory of the current blend-file.
 
-.. tip::
+Saving
+   Todo.
 
-   Rendered image sequences can be played back in the :ref:`Animation Player <render-output-animation_player>`.
+   .. _bpy.types.RenderSettings.use_file_extension:
 
+   File Extensions
+      Adds the correct file extensions per file type to the output files.
 
-Video Output
-============
+   .. _bpy.types.RenderSettings.use_render_cache:
+
+   Cache Result
+      Saves the rendered image and passes to a multi-layer EXR file in temporary location on your hard drive.
+      This allows the Compositor to read these to improve the performance, especially for heavy compositing.
+
+.. _bpy.types.ImageFormatSettings.file_format:
+
+File Format
+   Choose the file format to save to. Based on which format is used,
+   other options such as channels, bit depth and compression level are available.
+
+   For rendering out to images see: :ref:`saving images <bpy.types.ImageFormatSettings>`,
+   for rendering to videos see the `Encoding`_ panel.
+
+.. _bpy.types.ImageFormatSettings.color_mode:
+
+Color
+   Choose the color format to save the image to.
+   Note that *RGBA* will not be available for all image formats.
+
+   BW, RGB, RGBA
+
+Image Sequence
+   Todo.
+
+   .. _bpy.types.RenderSettings.use_overwrite:
+
+   Overwrite
+      Overwrite existing files when rendering.
+
+   .. _bpy.types.RenderSettings.use_placeholder:
+
+   Placeholders
+      Create empty placeholder frames while rendering.
+
+.. hint:: Primitive Render Farm
+
+   An easy way to get multiple machines to share the rendering workload is to:
+
+   - Set up a shared directory over a network file system.
+   - Disable *Overwrite*, enable *Placeholders* in the Render *Output* panel.
+   - Start as many machines as you wish rendering to that directory.
+
 
 .. _render-output-video-encoding-panel:
 .. _bpy.types.FFmpegSettings:
 
-Encoding Panel
---------------
+Encoding
+--------
 
 .. admonition:: Reference
    :class: refbox
@@ -49,6 +95,7 @@ Encoding Panel
 Here you choose which video container, codec, and compression settings you want to use.
 With all of these compression choices, there is a trade-off between file size,
 compatibility across platforms, and playback quality.
+In the header, you can use the presets, which choose optimum settings for you for that type of output.
 
 .. tip::
 
@@ -56,11 +103,10 @@ compatibility across platforms, and playback quality.
    you can see some of the output of the encoding process.
    You will see even more output if you execute Blender as ``blender -d``.
 
-Presets
-   You can use the presets, which choose optimum settings for you for that type of output.
 Container
    Video container or file type. For a list of all available options, see
    :doc:`video formats </files/media/video_formats>`.
+
 Autosplit Output
    If your video is huge and exceeds 2GiB, enable Autosplit Output.
    This will automatically split the output into multiple files after the first file is 2GiB in size.
@@ -98,7 +144,7 @@ Max B-frames
 
 
 Rate
-^^^^
+""""
 
 Bitrate
    Sets the average `bit rate <https://en.wikipedia.org/wiki/Bit_rate>`__ (quality),
@@ -111,17 +157,12 @@ Rate
 Buffer
    The `decoder bitstream buffer <https://en.wikipedia.org/wiki/Video_buffering_verifier>`__ size.
 
-
-Mux
-^^^
-
-`Multiplexing <https://www.afterdawn.com/glossary/term.cfm/multiplexing>`__
-is the process of combining separate video and audio streams into a single file,
-similar to packing a video file and MP3 audio file in a zip-file.
-
-Rate
+Mux Rate
    Maximum bit rate of the multiplexed stream.
-Packet Size
+   `Multiplexing <https://www.afterdawn.com/glossary/term.cfm/multiplexing>`__
+   is the process of combining separate video and audio streams into a single file,
+   similar to packing a video file and MP3 audio file in a zip-file.
+Mux Packet Size
    Reduces data fragmentation or muxer overhead depending on the source.
 
 

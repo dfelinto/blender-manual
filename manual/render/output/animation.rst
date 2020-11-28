@@ -115,7 +115,7 @@ Frame Sequence Workflow
    You can add other strips, like an audio strip.
 #. Scrub through the animation to check if you have included all the frames.
 #. In the Output panel, choose the container and codec you want (e.g. ``MPEG H.264``) and configure them.
-   The video codecs are described on the previous page: :doc:`Output Options </render/output/settings>`.
+   The video codecs are described in :doc:`Output Options </render/output/properties/output>`.
 #. Click the *Animation* render button and Blender will render out the Sequence editor output into a movie.
 
 
