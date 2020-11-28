@@ -104,7 +104,6 @@ Tablet API (Windows only)
    Select the native Windows Ink or older Wintab system for pressure sensitivity.
    Blender automatically selects the API for your operating system and tablet,
    however in case of problems this can be set manually.
-   Note, this requires restarting Blender for changes to take effect.
 Max Threshold
    Amount of pressure required to achieve full intensity.
 Softness
