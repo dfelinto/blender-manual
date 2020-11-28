@@ -9,4 +9,4 @@
    introduction.rst
    marker.rst
    editing/index.rst
-   properties/index.rst
+   sidebar/index.rst

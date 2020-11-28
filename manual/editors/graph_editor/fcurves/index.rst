@@ -9,5 +9,4 @@
 
    introduction.rst
    editing.rst
-   properties.rst
-   modifiers.rst
+   sidebar/index.rst

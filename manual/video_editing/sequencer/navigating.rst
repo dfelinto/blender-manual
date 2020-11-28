@@ -91,7 +91,7 @@ Show Markers
    Shows the markers region. When disabled, the `Markers Menu`_ is also hidden
    and markers operators are not available in this editor.
 Show Cache
-   Show :doc:`Cache </video_editing/sequencer/properties/proxy_cache>`
+   Show :doc:`Cache </video_editing/sequencer/sidebar/proxy_cache>`
    Show all enabled types;
    Final Images, Raw Images, Preprocessed Images, Composite Images
 Show Waveforms

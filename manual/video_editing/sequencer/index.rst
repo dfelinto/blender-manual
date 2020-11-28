@@ -13,4 +13,4 @@
    selecting.rst
    editing.rst
    meta.rst
-   properties/index.rst
+   sidebar/index.rst

@@ -141,7 +141,7 @@ See :doc:`/animation/drivers/drivers_panel`.
 Modifiers Tab
 -------------
 
-See :doc:`F-Curve Modifiers </editors/graph_editor/fcurves/modifiers>`.
+See :doc:`F-Curve Modifiers </editors/graph_editor/fcurves/sidebar/modifiers>`.
 
 
 .. (Todo) duplicated here: \editors\graph_editor\fcurves\properties.rst

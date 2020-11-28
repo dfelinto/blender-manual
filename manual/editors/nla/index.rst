@@ -12,4 +12,4 @@
    tracks.rst
    strips.rst
    editing.rst
-   properties_modifiers.rst
+   sidebar.rst

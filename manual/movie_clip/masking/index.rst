@@ -12,4 +12,4 @@
    scurve.rst
    selecting.rst
    editing.rst
-   properties.rst
+   sidebar.rst

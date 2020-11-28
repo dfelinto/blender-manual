@@ -58,5 +58,5 @@ There are tools to define the floor, the scene origin, and the X/Y axes to perfo
 
 Sometimes, the video footage includes spurious jumps and tilting movements, like e.g. when using a hand-held camera.
 Based on some tracked image elements,
-the :doc:`/movie_clip/tracking/clip/properties/stabilization/index`
+the :doc:`/movie_clip/tracking/clip/sidebar/stabilization/index`
 is able to detect and compensate such movements to improve the quality of the final result.

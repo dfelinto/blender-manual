@@ -9,4 +9,4 @@
    introduction.rst
    display_mode.rst
    toolbar/index.rst
-   properties.rst
+   sidebar.rst
