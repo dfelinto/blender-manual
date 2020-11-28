@@ -12,4 +12,5 @@
 
    tracking/index.rst
    masking/index.rst
-   /editors/clip/index
+   clip.rst
+
