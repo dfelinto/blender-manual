@@ -1,3 +1,5 @@
+.. _bpy.types.ToolSettings.use_proportional_edit_objects:
+.. _bpy.types.ToolSettings.use_proportional_edit:
 .. |prop-edit-icon| image::
    /images/editors_3dview_object_editing_transform_control_proportional-edit_header.png
 
@@ -54,6 +56,7 @@ As you change the radius, the points surrounding your selection will adjust thei
    Influence circle.
 
 
+.. _bpy.types.ToolSettings.proportional_edit_falloff:
 .. _3dview-transform-control-proportional-edit-falloff:
 
 Falloff
@@ -133,6 +136,8 @@ This is done by the tool's automatic modification of unselected vertices within 
 Options
 -------
 
+.. _bpy.types.ToolSettings.use_proportional_connected:
+
 Connected Only :kbd:`Alt-O`
    Rather than using a radius only, the proportional falloff spreads via connected geometry.
    This means that you can proportionally edit the vertices in a finger of a hand
@@ -140,6 +145,8 @@ Connected Only :kbd:`Alt-O`
    they are far away following the topological edge connections of the mesh.
    The icon will have a blue center when *Connected* is active.
    This mode is only available in *Edit Mode*.
+
+.. _bpy.types.ToolSettings.use_proportional_projected:
 
 Projected from View
    Depth along the view is ignored when applying the radius.

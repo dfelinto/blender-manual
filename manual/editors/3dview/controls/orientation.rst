@@ -35,6 +35,8 @@ In addition to the five preset options,
 you can define your own custom orientation (see `Custom Orientations`_ below).
 
 
+.. _bpy.types.TransformOrientationSlot.type:
+
 Orientations
 ============
 
@@ -104,6 +106,9 @@ Examples
           View transform orientation.
 
 
+.. _bpy.types.TransformOrientation.name:
+.. _bpy.ops.transform.delete_orientation:
+
 Custom Orientations
 -------------------
 
@@ -130,6 +135,8 @@ The default name for these orientations is derived from what you have selected.
 If it's an edge, it will be titled, "Edge", if it's an object,
 it will take that object's name, etc.
 
+
+.. _bpy.ops.transform.create_orientation:
 
 Create Orientation
 ^^^^^^^^^^^^^^^^^^

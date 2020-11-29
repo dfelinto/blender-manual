@@ -1,3 +1,4 @@
+.. _bpy.types.ToolSettings.transform_pivot_point:
 .. |pivot-icon| image:: /images/editors_3dview_controls_pivot-point_menu.png
 
 .. _pivot-point-index:

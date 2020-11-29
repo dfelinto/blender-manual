@@ -1,3 +1,4 @@
+.. _bpy.types.ToolSettings.use_snap:
 .. _transform-snap:
 
 ********
@@ -19,6 +20,7 @@ a transformation is available by toggling the magnet icon in the 3D Viewport's h
    Magnet icon in the 3D Viewport header (blue when enabled).
 
 
+.. _bpy.types.ToolSettings.snap_elements:
 .. _transform-snap-element:
 
 Snap Element
@@ -70,6 +72,8 @@ Edge Perpendicular
    Multiple snapping modes can be enabled at once by :kbd:`Shift-LMB` the different snapping elements.
 
 
+.. _bpy.types.ToolSettings.snap_target:
+
 Snap Target
 ===========
 
@@ -119,23 +123,45 @@ As seen by the yellow highlighted areas in the image above, besides the snap tar
 additional controls are available to alter snap behavior. These options vary between mode
 (Object and Edit) as well as Snap Element. The four options available are:
 
+.. _bpy.types.ToolSettings.use_snap_grid_absolute:
+
 Absolute Grid Snap
    Available only for the increase option.
    Snap to grid, instead of snapping in increments relative to the current location.
+
+.. _bpy.types.ToolSettings.use_snap_backface_culling:
+
 Backface Culling
    Exclude back facing geometry from snapping.
+
+.. _bpy.types.ToolSettings.use_snap_self:
+
 Project Onto Self
    Available only in editing mode for Vertices, Edges, Faces and Volume.
    Snaps elements to its own mesh.
+
+.. _bpy.types.ToolSettings.use_snap_align_rotation:
+
 Align Rotation to Target
    Available for Vertices, Edges, Faces and Volume.
    When the Snap Affects Rotation, this align rotation with the snapping target.
+
+.. _bpy.types.ToolSettings.use_snap_project:
+
 Project Individual Elements
    Available for snap to Faces.
    Project individual elements on the surface of other objects.
+
+.. _bpy.types.ToolSettings.use_snap_peel_object:
+
 Snap Peel Object
    Available for snap to Volume.
    Consider objects as whole when finding volume center.
+
+.. _bpy.types.ToolSettings.use_snap_translate:
+.. _bpy.types.ToolSettings.use_snap_rotate:
+.. _bpy.types.ToolSettings.use_snap_scale:
+
 Affect
    Limits the effect of the snap to the transformation type.
 
