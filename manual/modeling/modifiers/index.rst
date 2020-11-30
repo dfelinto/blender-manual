@@ -43,7 +43,7 @@ Generate
    generate/build.rst
    generate/decimate.rst
    generate/edge_split.rst
-   generate/empty.rst
+   generate/geometry_nodes.rst
    generate/mask.rst
    generate/mesh_to_volume.rst
    generate/mirror.rst
