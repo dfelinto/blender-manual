@@ -85,7 +85,6 @@ Point
    :maxdepth: 1
 
    point/point_instance.rst
-..
    point/point_distribute.rst
 
 
