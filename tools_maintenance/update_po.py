@@ -121,7 +121,7 @@ os.environ["LANG"] = "en_US.UTF-8"
 # Ensure we're in the repo's base:
 ROOT_DIR = os.path.normpath(os.path.join(os.path.abspath(os.path.dirname(__file__)), ".."))
 os.chdir(ROOT_DIR)
-LOCALE_BUILD_DIR = os.path.join(ROOT_DIR, "build", "locale")
+LOCALE_BUILD_DIR = os.path.join(ROOT_DIR, "build", "gettext")
 
 LOCALE_DIR = os.path.join(ROOT_DIR, "locale")
 
@@ -178,7 +178,7 @@ def main():
         # Source.
         "manual",
         # Destination.
-        os.path.join("build", "locale"),
+        LOCALE_BUILD_DIR,
     ])
 
     # ---------------
@@ -200,7 +200,7 @@ def main():
         sphinx_intl_arg_list.append([
             "--config=" + os.path.join("manual", "conf.py"),
             "update",
-            "--pot-dir=" + os.path.join("build", "locale"),
+            "--pot-dir=" + LOCALE_BUILD_DIR,
             "--language=" + po_lang,
         ])
 
