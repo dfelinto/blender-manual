@@ -91,10 +91,10 @@ def text_extract_args(text):
         # remove last 2 args
         s = s.rsplit(',', 2)[0]
 
-        if fn == "BLI_argsAdd":
+        if fn == "BLI_args_add":
             # get first 2 args
             arg_short, arg_long, s = [w.strip() for w in s.split(",", 2)]
-        elif fn == "BLI_argsAddCase":
+        elif fn == "BLI_args_add_case":
             # get first 2 args
             arg_short, _, arg_long, _, s = [w.strip() for w in s.split(",", 4)]
             del _
@@ -115,7 +115,7 @@ def text_extract_args(text):
         # print(arg_short, arg_long, s)
 
     pattern = re.compile(
-        r'\b(BLI_argsAdd[Case]*)\s*\(((?:(?!\)\s*;).)*?)\)\s*;',
+        r'\b(BLI_args_add[_case]*)\s*\(((?:(?!\)\s*;).)*?)\)\s*;',
         re.DOTALL | re.MULTILINE
         )
 
@@ -247,11 +247,11 @@ def text_extract_help(text, args, static_strings):
                 l = l.replace("\t", "   ")
 
             text_rst.append(l)
-        elif l.startswith("BLI_argsPrintArgDoc("):
+        elif l.startswith("BLI_args_print_arg_doc("):
             arg = l.split(",")[-1].strip(");\n")
             arg = eval(arg, {})
             write_arg(arg)
-        elif l.startswith("BLI_argsPrintOtherDoc("):
+        elif l.startswith("BLI_args_print_other_doc("):
             items = list(args.items())
             # sort as strings since we cant order (None <> str)
             items.sort(key=lambda i: str(i[0]))
@@ -338,7 +338,7 @@ def main():
     text = text_join_lines(text)
     # expand CB macros
     text = text_expand_macros(text)
-    # first pass, extract 'BLI_argsAdd'
+    # first pass, extract 'BLI_args_add'
 
     args = text_extract_args(text)
 
