@@ -10,6 +10,7 @@
 
    introduction.rst
    common_options.rst
+   nodes/index.rst
 
 
 Modify
@@ -42,6 +43,7 @@ Generate
    generate/build.rst
    generate/decimate.rst
    generate/edge_split.rst
+   generate/empty.rst
    generate/mask.rst
    generate/mesh_to_volume.rst
    generate/mirror.rst
@@ -97,3 +99,4 @@ Physics
    physics/particle_instance.rst
    /physics/particles/index.rst
    /physics/soft_body/index.rst
+
