@@ -5,7 +5,7 @@ Nodes
 *****
 
 Nodes can be used to modify the objects' geometries in more complex ways.
-To use that add a new :doc:`Empty Modifier </modeling/modifiers/generate/empty>`.
+To use that add a new :doc:`Geometry Nodes Modifier </modeling/modifiers/generate/geometry_nodes>`.
 
 This will create a :doc:`Node Group </interface/controls/nodes/groups>` with the
 geometry input and output. Those are respectively what is received and passed to the previous and
