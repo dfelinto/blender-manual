@@ -38,7 +38,7 @@ Operation
    The math function to execute.
 
    .. note::
-      This node only supports math operations on floats (not on vectors).
+      Attributes are converted implicitly to the float data type. 
 
 Type A / Type B
    Attribute
