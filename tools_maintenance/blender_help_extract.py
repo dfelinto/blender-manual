@@ -313,6 +313,7 @@ def text_extract_help(text, args, static_strings):
     ] + text_rst
 
     text_rst = "\n".join(text_rst)
+    text_rst = text_rst + "\n"
     text_rst = text_rst.replace("\n\n\n\n", "\n\n\n")
 
     return text_rst
