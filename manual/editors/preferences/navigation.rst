@@ -130,15 +130,6 @@ View Navigation
 
    See :ref:`3dview-fly-walk`.
 
-.. _prefs-camera-parent-lock:
-
-Camera Parent Lock
-   When the camera is locked to the view, the root parent is transformed rather than the camera.
-
-   .. tip::
-
-      This is useful for camera rigs where you don't want to animate the camera directly.
-
 
 Walk
 ----

@@ -88,7 +88,7 @@ Lock
 .. hint::
 
    This will move the camera's parent which can be useful with camera rigs.
-   Use the :ref:`Camera Parent Lock <prefs-camera-parent-lock>` preference to change this behavior.
+   Use the :ref:`Camera Parent Lock <bpy.types.Object.use_camera_lock_parent>` property to change this behavior.
 
 
 3D Cursor
