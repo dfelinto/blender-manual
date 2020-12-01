@@ -46,7 +46,6 @@ Here are some common steps for using the *Measure* tool:
 #. A selected ruler can be deleted with :kbd:`Delete` or  :kbd:`X`.
    To delete all measurements, make the :menuselection:`Sidebar --> View --> Annotations` panel visible.
    Delete the "RulerData3D" layer (see image above).
-#. You can copy the measurement value to the clipboard with :kbd:`Ctrl-C`.
 
 All measurements are hidden when another tool is selected.
 They are shown when the *Measure* tool is selected again.
