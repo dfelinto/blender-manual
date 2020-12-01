@@ -45,6 +45,37 @@ Moving, rotating or scaling the parent will also usually transform the child/chi
 Yet transforming the child/children of the parent will not affect the parent.
 In other words, the direction of influence is from parent to child and not child to parent.
 
+You can *move* a child object to its parent by clearing its origin.
+The relationship between the parent and child is not affected.
+Select the child object and press :kbd:`Alt-O`.
+By confirming the child object will snap to the parent's location.
+Use the *Outliner* view to verify that the child object is still parented.
+
+Type
+   Blender supports many different types of parenting, listed below.
+   Besides parenting the selected objects, some types add a Modifier or Constraint to the child objects,
+   with the parent as the target object or activates a parent property i.e. *Follow Path*.
+
+   - Object
+   - :doc:`Armature Deform </animation/armatures/skinning/parenting>`
+   - Bone
+   - :doc:`Curve Deform </modeling/modifiers/deform/curve>`
+   - :ref:`Follow Path <curve-path-animation>`
+   - :doc:`Path Constraint </animation/constraints/relationship/follow_path>`
+   - :doc:`Lattice Deform </modeling/modifiers/deform/lattice>`
+   - Vertex
+   - Vertex (Triangle)
+
+Keep Transform
+   The object's current world transform (so its absolute location, rotation and scale in the world) is computed.
+   The new parent is set, and then the *Parent Inverse* matrix is computed such that after setting
+   the new parent the object is still at its previous world transform.
+
+.. hint:: Use the Outliner
+
+   There is another way to see the parent-child relationship in groups and that is to use the *Outliner* view
+   of the :doc:`Outliner editor </editors/outliner/introduction>`.
+
 
 .. _parent-inverse-matrix:
 
@@ -68,30 +99,6 @@ The Parent Inverse matrix can be cleared by using :ref:`Clear Parent Inverse <bp
    To avoid this, use :kbd:`Ctrl-P` to set the new parent.
 
 
-Parent Types
-------------
-
-Blender supports many different types of parenting, listed below:
-
-- Object
-- Bone
-- Vertex
-- Vertex (Triangle)
-
-
-.. rubric:: Setups
-
-Besides parenting the selected objects,
-it adds a Modifier or Constraint to the child objects, with the parent as target object
-or activates a parent property i.e. *Follow Path*.
-
-- :doc:`Armature Deform </animation/armatures/skinning/parenting>`
-- :doc:`Curve Deform </modeling/modifiers/deform/curve>`
-- :ref:`Follow Path <curve-path-animation>`
-- :doc:`Path Constraint </animation/constraints/relationship/follow_path>`
-- :doc:`Lattice Deform </modeling/modifiers/deform/lattice>`
-
-
 .. _object-parenting:
 
 Object Parent
@@ -102,29 +109,20 @@ It will take selected objects and make the :ref:`active object <object-active>`
 the parent object of all the selected objects. Each child object will inherit
 the transformations of the parent. The parent object can be of any type.
 
+If the object has a pre-existing parent, that is cleared first.
+This moves the object to its own location, rotation and scale,
+without its parent's influence.
+
 There are three operators that allow you to set an object parent. They differ in
 the way they compute the :ref:`Parent Inverse matrix <parent-inverse-matrix>`
-and the local :term:`transform <Transform>` of the object.
-
-Set Parent to Object
-   If the object has a pre-existing parent, that is cleared first.
-   This moves the object to its own location, rotation and scale,
-   without its parent's influence. Regardless of whether it had a parent before,
-   Blender proceeds to do the same as "Keep Transform" below.
-Set Parent to Object (Keep Transform)
-   The object's current world transform (so its absolute location, rotation and scale in the world) is computed.
-   The new parent is set, and then the *Parent Inverse* matrix is computed such that after setting 
-   the new parent the object is still at its previous world transform.
-Set Parent to Object (Without Inverse)
-   This sets the parent, and then resets the *Parent Inverse* matrix and the object's local location.
-   As a result, the object will move to the location of the parent, but keep its rotation and scale.
+and the local :term:`Transform` of the object.
 
 
-Example: Object (Keep Transform) Parent
+Example: Object Parent (Keep Transform)
 ---------------------------------------
 
-*Object (Keep Transform) Parent* works in a very similar way to *Object Parent*. The major difference is in whether
-the child objects will keep any previous transformations applied to them from the previous parent object.
+*Object Parent* with *Keep Transform* will keep any previous
+transformations applied to them from the previous parent object.
 
 Assume that we have a scene consisting of three objects, those being two empty objects named "EmptyA"
 and "EmptyB", and a Monkey object. Fig. :ref:`fig-view3d-parent-scene-no` shows the three objects with
@@ -167,16 +165,15 @@ removed, because "EmptyB" has not had its scale altered.
 This is often the required behavior, but it is also sometimes useful that if you change your
 parent object that the child object keep any previous transformations
 it got from the old parent object; If instead when changing the parent object of the Monkey
-from "EmptyA" to "EmptyB" we had chosen parenting type *Object (Keep Transform)*,
+from "EmptyA" to "EmptyB" we had chosen parenting type *Object* and enable *Keep Transform*,
 the Monkey would keep its scale information it obtained from the old parent "EmptyA"
 when it is assigned to the new parent "EmptyB".
 
 .. figure:: /images/scene-layout_object_editing_parent_keep-transform-d.png
 
-   The Object (Keep Transform) parent method.
+   The Object parent with *Keep Transform*.
 
-If you want to follow along with the above description here is the blend-file used to describe
-*Object (Keep Transform)* parenting method:
+If you want to follow along with the above description here is the blend-file:
 
 `File:Parent_-_Object_(Keep_Transform)_(Demo_File).blend
 <https://wiki.blender.org/wiki/File:Parent_-_Object_(Keep_Transform)_(Demo_File).blend>`__.
@@ -316,23 +313,25 @@ and avoid the tedious effort of establishing each parent-child vertex relationsh
    It is in fact a sort of "reversed" :doc:`hook </modeling/modifiers/deform/hooks>`.
 
 
-Options
-=======
+.. _bpy.ops.object.parent_no_inverse_set:
 
-Move Child
-----------
+Make Parent without Inverse
+===========================
 
-You can *move* a child object to its parent by clearing its origin.
-The relationship between the parent and child is not affected.
-Select the child object and press :kbd:`Alt-O`.
-By confirming the child object will snap to the parent's location.
-Use the *Outliner* view to verify that the child object is still parented.
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Object Mode
+   :Menu:      :menuselection:`Object --> Parent --> Make Parent without Inverse`
+
+This sets the parent, and then resets the *Parent Inverse* matrix and the object's local location.
+As a result, the object will move to the location of the parent, but keep its rotation and scale.
 
 
 .. _bpy.ops.object.parent_clear:
 
 Clear Parent
-------------
+============
 
 .. admonition:: Reference
    :class: refbox
@@ -356,12 +355,6 @@ Clear Parent Inverse
    the `Parent Inverse`_ matrix from the selected objects. With an empty matrix,
    the location, rotation and scale properties of the children are interpreted
    in the coordinate space of the parent.
-
-
-.. hint:: Use the Outliner
-
-   There is another way to see the parent-child relationship in groups and that is to use the *Outliner* view
-   of the :doc:`Outliner editor </editors/outliner/introduction>`.
 
 
 Known Limitations
