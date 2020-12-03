@@ -8,7 +8,7 @@ Boolean
 The *Boolean Node* allows cutting, subtracting, and joining the mesh component of its two *Geometry* inputs.
 
 The node acts with the same method as the *exact* mode of the 
-:doc:`boolean modifier </modeling/modifiers/generate/boolean>`.
+:doc:`boolean modifier </modeling/modifiers/generate/booleans>`.
 
 
 .. figure:: /images/modeling_modifiers_nodes_boolean.png
