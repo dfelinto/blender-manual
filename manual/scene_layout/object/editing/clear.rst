@@ -23,9 +23,16 @@ Clear Scale :kbd:`Alt-S`
 Clear Rotation :kbd:`Alt-R`
    Clear (reset) the rotation of the selection.
    This will set the rotation of the selection to 0 degrees in each plane.
+
+.. _bpy.ops.object.origin_clear:
+
 Clear Origin
-   Clears (resets) the offset of the child objects origin.
+   Clears (resets) the offset of the child objects origin from the
+   :doc:`Parent </scene_layout/object/editing/parent>`.
    This will cause child objects to move to the origin of the parent.
+   The relationship between the parent and child is not affected,
+   you can confirm the relationship is still intact by using the *Outliner*
+   to verify that the child object is still parented.
 
 
 Options

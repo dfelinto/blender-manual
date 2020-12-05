@@ -45,11 +45,9 @@ Moving, rotating or scaling the parent will also usually transform the child/chi
 Yet transforming the child/children of the parent will not affect the parent.
 In other words, the direction of influence is from parent to child and not child to parent.
 
-You can *move* a child object to its parent by clearing its origin.
-The relationship between the parent and child is not affected.
-Select the child object and press :kbd:`Alt-O`.
-By confirming the child object will snap to the parent's location.
-Use the *Outliner* view to verify that the child object is still parented.
+.. tip::
+
+   You can "move" a child object back to its parent by :ref:`clearing its origin <bpy.ops.object.origin_clear>`.
 
 Type
    Blender supports many different types of parenting, listed below.
