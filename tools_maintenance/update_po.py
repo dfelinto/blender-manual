@@ -234,6 +234,7 @@ def main():
                     svn_files_new.append(line)
                 elif os.path.isdir(line):
                     svn_dirs_new.append(line)
+        del svn_files_new, svn_dirs_new
 
         if svn_files_new:
             run_svn(["add", *svn_files_new, *svn_dirs_new])
