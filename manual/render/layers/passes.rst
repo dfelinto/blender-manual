@@ -179,26 +179,7 @@ Typical Workflow
 
 .. _render-cycles-passes-aov:
 
-Shader AOV
-----------
-
-Shader AOVs (Arbitrary Output Variables) provide custom render passes for arbitrary shader node components.
-As an artist this can be a good way to debug or tweak very fine details of a scene in post processing.
-To use Shader AOVs create the pass in the *Shader AOV* panel then reference this pass with
-the :doc:`AOV Output </render/shader_nodes/output/aov>` shading node.
-Shader AOVs can be added or removed in the *Shader AOV* panel.
-In this panel is a list of all AOV passes; each AOV in the list consists of a *Name* and *Data Type*.
-
-Name
-   The name of the render pass; this is the *Name* that is referenced in the *AOV Output* node.
-   Arbitrary names can be used for these passes,
-   as long as they do not conflict with built-in passes that are enabled.
-
-Data Type
-   Shader AOVs can either express a *Color* or a *Value* variable.
-   The *Color* variable as the name suggest can be used for a color but also a normal value.
-   A *Value* variable can be used for any single numerical value.
-
+.. include:: passes_aov.rst
 
 .. _render-eevee-passes:
 
@@ -276,6 +257,53 @@ Combining
 The passes can be combined to produce the final image as follows:
 
 .. figure:: /images/render_layers_passes_eevee-combine.svg
+
+
+Cryptomatte
+-----------
+
+Cryptomatte is a standard to efficiently create mattes for compositing.
+Cycles outputs the required render passes, which can then be used in the Blender Compositor
+or another compositor with Cryptomatte support to create masks for specified objects.
+
+Unlike the Material and Object Index passes, the objects to isolate are selected in compositing,
+and mattes will be anti-aliased and take into account effects like motion blur and transparency.
+
+Include
+   Object
+      Render cryptomatte object pass, for isolating objects in compositing.
+   Material
+      Render cryptomatte material pass, for isolating materials in compositing.
+   Asset
+      Render cryptomatte asset pass, for isolating groups of objects with the same
+      :doc:`parent </scene_layout/object/editing/parent>` in compositing.
+
+Levels
+   Sets how many unique objects can be distinguished per pixel.
+Accurate Mode
+   Generate a more accurate Cryptomatte pass by evaluating more samples. When turned off, the
+   levels setting determines the number of samples to evaluate.
+
+
+Typical Workflow
+^^^^^^^^^^^^^^^^
+
+#. Enable Cryptomatte Object render pass in the Passes panel, and render.
+#. In the compositing nodes, create a Cryptomatte node and
+   link the Render Layer matching Image and Cryptomatte passes to it.
+#. Attach a Viewer node to the Pick output of the Cryptomatte node.
+#. Use the Cryptomatte Add/Remove button to sample objects in the Pick Viewer node.
+#. Use the Matte output of the Cryptomatte node to get the alpha mask.
+
+.. seealso::
+
+   :doc:`Cryptomatte Node </compositing/types/matte/cryptomatte>`.
+
+
+.. _render-eevee-passes-aov:
+
+.. include:: passes_aov.rst
+
 
 
 Known Limitations
