@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 from __future__ import division
@@ -9,26 +9,18 @@ from docutils.parsers.rst import directives, Directive
 
 CONTROL_HEIGHT = 30
 
-_re_size = re.compile("(\d+)(|%|px)$")
-_re_aspect = re.compile("(\d+):(\d+)")
-
-
 def get_size(d, key):
     if key not in d:
         return None
-    m = _re_size.match(d[key])
+    m = re.match("(\d+)(|%|px)$", d[key])
     if not m:
         raise ValueError("invalid size %r" % d[key])
     return int(m.group(1)), m.group(2) or "px"
 
-
 def css(d):
     return "; ".join(sorted("%s: %s" % kv for kv in d.items()))
 
-
-class youtube(nodes.General, nodes.Element):
-    pass
-
+class youtube(nodes.General, nodes.Element): pass
 
 def visit_youtube_node(self, node):
     aspect = node["aspect"]
@@ -38,14 +30,14 @@ def visit_youtube_node(self, node):
     if aspect is None:
         aspect = 16, 9
 
+    div_style = {}
     if (height is None) and (width is not None) and (width[1] == "%"):
-        style = {
+        div_style = {
             "padding-top": "%dpx" % CONTROL_HEIGHT,
             "padding-bottom": "%f%%" % (width[0] * aspect[1] / aspect[0]),
             "width": "%d%s" % width,
             "position": "relative",
         }
-        self.body.append(self.starttag(node, "div", style=css(style)))
         style = {
             "position": "absolute",
             "top": "0",
@@ -58,8 +50,6 @@ def visit_youtube_node(self, node):
             "src": "https://www.youtube.com/embed/%s" % node["id"],
             "style": css(style),
         }
-        self.body.append(self.starttag(node, "iframe", **attrs))
-        self.body.append("</iframe></div>")
     else:
         if width is None:
             if height is None:
@@ -77,34 +67,20 @@ def visit_youtube_node(self, node):
             "src": "https://www.youtube.com/embed/%s" % node["id"],
             "style": css(style),
         }
-        self.body.append(self.starttag(node, "iframe", **attrs))
-        self.body.append("</iframe>")
-
+    attrs["allowfullscreen"] = "true"
+    div_attrs = {
+        "CLASS": "youtube_wrapper",
+        "style": css(div_style),
+    }
+    self.body.append(self.starttag(node, "div", **div_attrs))
+    self.body.append(self.starttag(node, "iframe", **attrs))
+    self.body.append("</iframe></div>")
 
 def depart_youtube_node(self, node):
     pass
 
-
-def nop_node(self, node):
-    pass
-
-
-#Blender custom for not html builders
-def process_youtube_node(app, doctree, fromdocname):
-    if app.builder.name != "html" and app.builder.name != "singlehtml":
-        for node in doctree.traverse(youtube):
-            para = nodes.paragraph()
-            t = "A video can be found at "
-            intex = nodes.Text(t, t)
-            para += intex
-
-            href = "https://www.youtube.com/watch?v=%s" % node["id"]
-            linknode = nodes.reference('', '', internal=False, refuri=href)
-            innernode = nodes.inline('', href)
-            linknode.append(innernode)
-            para += linknode
-
-            node.replace_self(para)
+def visit_youtube_node_latex(self,node):
+    self.body.append(r'\begin{quote}\begin{center}\fbox{\url{https://youtu.be/%s}}\end{center}\end{quote}'%node['id'])
 
 
 class YouTube(Directive):
@@ -121,7 +97,7 @@ class YouTube(Directive):
     def run(self):
         if "aspect" in self.options:
             aspect = self.options.get("aspect")
-            m = _re_aspect.match(aspect)
+            m = re.match("(\d+):(\d+)", aspect)
             if m is None:
                 raise ValueError("invalid aspect ratio %r" % aspect)
             aspect = tuple(int(x) for x in m.groups())
@@ -129,26 +105,26 @@ class YouTube(Directive):
             aspect = None
         width = get_size(self.options, "width")
         height = get_size(self.options, "height")
-        return [
-            youtube(
-                id=self.arguments[0],
-                aspect=aspect,
-                width=width,
-                height=height,
-                )
-            ]
+        return [youtube(id=self.arguments[0], aspect=aspect, width=width, height=height)]
+
+
+def unsupported_visit_youtube(self, node):
+    self.builder.warn('youtube: unsupported output format (node skipped)')
+    raise nodes.SkipNode
+
+
+_NODE_VISITORS = {
+    'html': (visit_youtube_node, depart_youtube_node),
+    'latex': (visit_youtube_node_latex, depart_youtube_node),
+    'man': (unsupported_visit_youtube, None),
+    'texinfo': (unsupported_visit_youtube, None),
+    'text': (unsupported_visit_youtube, None)
+}
 
 
 def setup(app):
-    app.add_node(
-            youtube,
-            html=(visit_youtube_node, depart_youtube_node),
-            latex=(nop_node, nop_node),
-            text=(nop_node, nop_node),
-            )
+    app.add_node(youtube, **_NODE_VISITORS)
     app.add_directive("youtube", YouTube)
-    #event listener: replace node if not html builder
-    app.connect('doctree-resolved', process_youtube_node)
-    return {
+        return {
         "parallel_read_safe": True,
     }
