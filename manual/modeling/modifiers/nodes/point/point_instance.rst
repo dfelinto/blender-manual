@@ -14,7 +14,7 @@ The *Point Instance* node instances an element to each of the points present in 
 input geometry. It works for both point cloud and mesh vertices.
 
 .. note::
-   This node only works if it the modifier belongs to a point cloud object.
+   This node only works if the modifier belongs to a point cloud object.
 
 
 Inputs

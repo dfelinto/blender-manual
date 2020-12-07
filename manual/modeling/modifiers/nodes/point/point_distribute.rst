@@ -13,7 +13,7 @@ Point Distribute
 The *Point Distribute* node distributes points on the surface of the input geometry object.
 
 .. note::
-   This node only works if it the modifier belongs to a point cloud object.
+   This node only works if the modifier belongs to a point cloud object.
 
 
 Inputs
