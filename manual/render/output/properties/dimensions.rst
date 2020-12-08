@@ -78,7 +78,7 @@ Use to remap the length of an animation.
 .. _bpy.types.RenderSettings.frame_map_old:
 
 Old
-   The length in frames the original animation lasted.
+   The length in frames of the original animation.
 
 .. _bpy.types.RenderSettings.frame_map_new:
 

@@ -13,6 +13,7 @@ Point Distribute
 The *Point Distribute* node distributes points on the surface of the input geometry object.
 
 .. note::
+
    This node only works if the modifier belongs to a point cloud object.
 
 
@@ -20,10 +21,11 @@ Inputs
 ======
 
 Geometry
-   Source geometry to distribute points on.
+   Standard geometry input.
 
    .. note::
-      Only mesh geometries are supported.
+
+      Only meshes are supported.
 
 Density
    The point density for the point distribution.
@@ -31,11 +33,17 @@ Density
 
 Density Attribute
    Which attribute to use for influencing the point density.
-   The input values are mapped between zero and the density defined above.
+   The input values are mapped between zero and the *Density*.
+
+
+Properties
+==========
+
+This node has no properties.
 
 
 Outputs
 =======
 
 Geometry
-   The generated point distribution.
+   Standard geometry output.

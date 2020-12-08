@@ -8,7 +8,7 @@ The first step in the rendering process is to determine and set the output setti
 This includes render size, frame rate, pixel aspect ratio, output location, and file type.
 
 When rendering a single frame, the output should be a single image format and not a video.
-Several :doc:`image formats </files/media/image_formats>` are available, PNG being the default.
+Several :doc:`image formats </files/media/image_formats>` are available.
 
 Images can also be used for rendering animations which has a couple advantages.
 For example, when rendering animations to image file formats the render job can be canceled
@@ -18,7 +18,7 @@ and the computers resources are needed for something else.
 
 Images can then be encoded to a video by adding the rendered image sequence into
 the :doc:`Video Sequencer </video_editing/sequencer/index>` and choosing an appropriate
-:doc:Video Output </files/media/video_formats>`.
+:doc:`Video Output </files/media/video_formats>`.
 
 .. tip::
 

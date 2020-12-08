@@ -23,8 +23,8 @@ Pipeline
 
    Compositing
       Renders the output from the compositing node setup,
-      and then pumps all images through the Composite node tree,
-      displaying the image fed to the Composite Output node.
+      and then applies the Composite node tree on all images,
+      displaying the image inputted in the Composite Output node.
 
    .. _bpy.types.RenderSettings.use_sequencer:
 

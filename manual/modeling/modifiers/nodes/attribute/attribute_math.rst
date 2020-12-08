@@ -12,42 +12,43 @@ Modify an attribute with a math operation.
 
    Attribute Math Node.
 
+
 Inputs
 ======
 
 Geometry
-   The geometry that is modified.
+   Standard geometry input.
 
-A
-   The first input to the math operation.
-   This is either an attribute name or number input.
-
-B
-   The second input to the math operation.
-   This is either an attribute name or number input.
+A, B
+   The first and second input to the math operation.
+   This is either an attribute name or numeric value.
 
 Result
    Name of the attribute where the computed result it stored.
    A new attribute with that name is added, if it does not exist yet.
    If it does exist, the existing attribute is overridden.
 
+
 Properties
 ==========
 
 Operation
-   The math function to execute.
+   The math function to perform.
 
    .. note::
-      Attributes are converted implicitly to the float data type. 
 
-Type A / Type B
+      Attributes are converted implicitly to the float data type.
+
+Type A, B
    Attribute
       The input is a text field that expects an attribute name.
+
    Float
       The input is a number field.
+
 
 Output
 ======
 
 Geometry
-   The same geometry as the input with a modified attribute.
+   Standard geometry output.

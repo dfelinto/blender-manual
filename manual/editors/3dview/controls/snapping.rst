@@ -112,8 +112,6 @@ Closest
           Median.
 
 
-.. _bpy.types.ToolSettings.use_snap_backface_culling:
-
 Additional Snap Options
 =======================
 

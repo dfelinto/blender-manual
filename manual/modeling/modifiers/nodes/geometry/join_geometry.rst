@@ -5,21 +5,28 @@
 Join Geometry
 *************
 
-The *Join Geometry* allows to merge separately generated geometries into a single geometry.
-If the incoming geometries contain different types of geometry, the output will contain multiple types of geometry.
+With the *Join Geometry* you can merge separately generated pieces of geometry into a single one.
+If the inputted pieces contain different types of geometry, the output will contain multiple types of geometry.
 
 .. figure:: /images/modeling_modifiers_nodes_join-geometry.png
 
-   Join geometry node.
+   Join Geometry node.
 
 Inputs
-=======
+======
 
 Geometry
-   Geometries to merge into a new geometry.
+   Standard geometry input.
+
+
+Properties
+==========
+
+This node has no properties.
+
 
 Output
-=======
+======
 
 Geometry
-   The newly generated geometry.
+   Standard geometry output.

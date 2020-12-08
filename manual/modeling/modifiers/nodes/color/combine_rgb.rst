@@ -20,6 +20,12 @@ Inputs
 - B (Blue)
 
 
+Properties
+==========
+
+This node has no properties.
+
+
 Output
 ======
 

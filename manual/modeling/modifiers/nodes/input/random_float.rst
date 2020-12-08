@@ -11,6 +11,7 @@ Random Float
 
 The *Random Float* generates a random (floating point) value from a given range.
 
+
 Inputs
 ======
 
@@ -22,6 +23,12 @@ Max
 
 Seed
    Change the random sequence.
+
+
+Properties
+==========
+
+This node has no properties.
 
 
 Outputs

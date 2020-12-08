@@ -81,7 +81,7 @@ Image Sequence
 .. _bpy.types.FFmpegSettings:
 
 Encoding
---------
+========
 
 .. admonition:: Reference
    :class: refbox
@@ -113,7 +113,7 @@ Autosplit Output
 
 
 Video
-^^^^^
+-----
 
 Video Codec
    Chooses the method of compression and encoding.
@@ -144,7 +144,7 @@ Max B-frames
 
 
 Rate
-""""
+^^^^
 
 Bitrate
    Sets the average `bit rate <https://en.wikipedia.org/wiki/Bit_rate>`__ (quality),
@@ -170,7 +170,7 @@ Mux Packet Size
 .. _bpy.types.FFmpegSettings.audio:
 
 Audio
-^^^^^
+-----
 
 These settings change how sound is exported while rendering.
 To control how sound is played back from within Blender, see the audio settings
@@ -192,7 +192,7 @@ Volume
 
 
 Tips
-^^^^
+----
 
 .. tip::
 

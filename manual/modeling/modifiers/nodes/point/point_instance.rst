@@ -10,10 +10,11 @@ Point Instance
 
    Point Instance Node.
 
-The *Point Instance* node instances an element to each of the points present in the
-input geometry. It works for both point cloud and mesh vertices.
+The *Point Instance* node instances an element to each of the points present in the input geometry.
+It works for both point cloud and mesh vertices.
 
 .. note::
+
    This node only works if the modifier belongs to a point cloud object.
 
 
@@ -21,16 +22,19 @@ Inputs
 ======
 
 Geometry
-   Source points to use as reference for instancing.
+   Standard geometry input.
 Object
-   The object to instance.
+   The object to instantiate.
+
+
+Properties
+==========
+
+This node has no properties.
 
 
 Outputs
 =======
 
 Geometry
-   The points with the information of what to instance.
-
-   The geometry of the instanced elements is not outputed directly.
-   Instead it is only generated in the viewport or at rendering time.
+   Standard geometry output.

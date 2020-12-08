@@ -15,7 +15,14 @@ The *Separate RGB Node* splits an image into its composite color channels.
 Inputs
 ======
 
+Image
    Standard image input.
+
+
+Properties
+==========
+
+This node has no properties.
 
 
 Output

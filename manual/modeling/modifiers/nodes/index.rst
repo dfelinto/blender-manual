@@ -4,19 +4,12 @@
 Nodes
 *****
 
-Nodes can be used to modify the objects' geometries in more complex ways.
-To use that add a new :doc:`Geometry Nodes Modifier </modeling/modifiers/generate/geometry_nodes>`.
-
-This will create a :doc:`Node Group </interface/controls/nodes/groups>` with the
-geometry input and output. Those are respectively what is received and passed to the previous and
-next modifier in the stack.
+Nodes can be used to change an object's geometry in a more complex way than regular modifiers.
+To use them add a :doc:`Geometry Nodes Modifier </modeling/modifiers/generate/geometry_nodes>`.
 
 .. figure:: /images/modeling_modifiers_nodes_properties.png
 
-   Node group properties exposed in the modifier stack.
-
-Any extra group input is exposed in the modifier itself, and can have unique values even if the
-node group is shared among multiple modifiers.
+   The properties of a Geometry Nodes modifier in the modifier stack.
 
 
 Attribute
@@ -30,7 +23,7 @@ Attribute
 
 
 Color
-=========
+=====
 
 .. toctree::
    :maxdepth: 1
@@ -54,7 +47,7 @@ Nodes that can act on different geometry types (volume, point cloud, mesh).
 
 
 Input
-======
+=====
 
 Nodes used mainly as input to other nodes.
 
@@ -93,21 +86,21 @@ Utilities
 =========
 
 .. toctree::
-    :maxdepth: 1
+   :maxdepth: 1
 
-    utilities/boolean_math.rst
-    utilities/clamp.rst
-    utilities/float_compare.rst
-    utilities/map_range.rst
-    utilities/math.rst
+   utilities/boolean_math.rst
+   utilities/clamp.rst
+   utilities/float_compare.rst
+   utilities/map_range.rst
+   utilities/math.rst
 
 
 Vector
 ======
 
 .. toctree::
-    :maxdepth: 1
+   :maxdepth: 1
 
-    vector/combine_xyz.rst
-    vector/separate_xyz.rst
-    vector/vector_math.rst
+   vector/combine_xyz.rst
+   vector/separate_xyz.rst
+   vector/vector_math.rst

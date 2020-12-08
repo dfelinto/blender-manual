@@ -19,6 +19,12 @@ Vector
    Standard vector output.
 
 
+Properties
+==========
+
+This node has no properties.
+
+
 Outputs
 =======
 

@@ -6,7 +6,7 @@ Geometry Nodes Modifier
 ***********************
 
 The *Geometry Nodes* modifier creates a modifier with a :doc:`Node Group </interface/controls/nodes/groups>`.
-This funcionality of the modifier is defined by its *Node Group*.
+This functionality of the modifier is defined by its *Node Group*.
 
 
 .. figure:: /images/modeling_modifiers_geometry_nodes.png
@@ -14,7 +14,13 @@ This funcionality of the modifier is defined by its *Node Group*.
    A new geometry nodes modifier with a new node group.
 
 
-.. note::
+Options
+=======
 
-   The modifier does not do anything until new :doc:`Nodes </modeling/modifiers/nodes/index>` are added to
-   its node group in the node editor.
+Node Group
+   A :doc:`Node Group </interface/controls/nodes/groups>` with the geometry input and output.
+   Those are respectively what is received and passed to the previous and next modifier in the stack.
+   See :doc:`Nodes </modeling/modifiers/nodes/index>` for all available nodes.
+Inputs
+   A list of the node group's inputs which can have unique values even
+   if the group is shared among multiple modifiers.

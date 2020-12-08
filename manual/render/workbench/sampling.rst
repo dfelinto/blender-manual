@@ -21,7 +21,7 @@ No Anti-Aliasing
    With this option selected no anti-aliasing will be applied.
 
 Single Pass Anti-Aliasing
-   Scene will be rendered with a post process anti-aliasing pass.
+   Scene will be rendered with a post-process anti-aliasing pass.
 
 Multisample
    The scene will be rendered multiple times with a slight offset.

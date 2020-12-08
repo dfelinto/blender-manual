@@ -10,13 +10,11 @@ Edge Split
 
    Edge Split Node.
 
-The *Edge Split* node splits, duplicates edges within a mesh,
-breaking 'links' between faces around those split edges.
-
-The edges to split can be determined from the edge angle (i.e. angle between faces forming that edge),
-and/or edges marked as sharp.
+Like the :doc:`/modeling/modifiers/generate/edge_split` the *Edge Split* node splits, duplicates edges
+within a mesh, breaking 'links' between faces around those split edges.
 
 .. note::
+
    Splitting edges effectively breaks the mesh topology.
 
 
@@ -24,7 +22,8 @@ Inputs
 ======
 
 Geometry
-   Source geometry to split edges from.
+   Standard geometry input.
+
 Edge Angle
    When enabled, edges will be split if the angle between its
    two adjacent faces is greater than the *Split Angle*.
@@ -34,8 +33,14 @@ Sharp Edges
    When enabled, edges will be split if they were :ref:`marked as sharp <bpy.ops.mesh.mark_sharp>`.
 
 
+Properties
+==========
+
+This node has no properties.
+
+
 Outputs
 =======
 
 Geometry
-   The geometry with the edges split.
+   Standard geometry output.

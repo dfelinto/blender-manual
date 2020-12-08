@@ -180,6 +180,8 @@ Typical Workflow
 .. _render-cycles-passes-aov:
 
 .. include:: passes_aov.rst
+   :start-line: 1
+
 
 .. _render-eevee-passes:
 
@@ -275,14 +277,14 @@ Include
    Material
       Render cryptomatte material pass, for isolating materials in compositing.
    Asset
-      Render cryptomatte asset pass, for isolating groups of objects with the same
-      :doc:`parent </scene_layout/object/editing/parent>` in compositing.
+      Render cryptomatte asset pass, for isolating groups of objects with
+      the same :doc:`parent </scene_layout/object/editing/parent>` in compositing.
 
 Levels
    Sets how many unique objects can be distinguished per pixel.
 Accurate Mode
-   Generate a more accurate Cryptomatte pass by evaluating more samples. When turned off, the
-   levels setting determines the number of samples to evaluate.
+   Generate a more accurate Cryptomatte pass by evaluating more samples.
+   When turned off, the levels setting determines the number of samples to evaluate.
 
 
 Typical Workflow

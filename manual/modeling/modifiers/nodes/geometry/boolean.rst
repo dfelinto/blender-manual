@@ -5,26 +5,37 @@
 Boolean
 *******
 
-The *Boolean Node* allows cutting, subtracting, and joining the mesh component of its two *Geometry* inputs.
-
-The node acts with the same method as the *exact* mode of the 
-:doc:`boolean modifier </modeling/modifiers/generate/booleans>`.
-
+The *Boolean Node* allows you to cut, subtract, and join the geometry of two inputs.
+This node offers the same operations as the :doc:`Boolean modifier </modeling/modifiers/generate/booleans>`.
 
 .. figure:: /images/modeling_modifiers_nodes_boolean.png
 
    The Boolean node.
 
 
-Options
-=======
+Inputs
+======
+
+Geometry A, B
+   Standard geometry input.
+
+
+Properties
+==========
 
 Mode
    Intersect
-      Produce a new mesh containing only the volume inside of both geometry A and geometry B.
+      Produce a new geometry containing only the volume inside of both geometry A and geometry B.
 
    Union
-      The two input geometries are joined, then any interior faces are removed.
+      The two input pieces of geometry are joined, then any interior elements are removed.
 
    Difference
       Geometry B is subtracted from geometry A (everything outside of geometry B is kept).
+
+
+Output
+======
+
+Geometry
+   Standard geometry output.

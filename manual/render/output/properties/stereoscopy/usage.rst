@@ -61,7 +61,7 @@ Before fine-tuning the camera parameters,
 you can set the convergence plane in the viewport based in your scene depth layout.
 Go outside the camera view and you will instantly see the convergence plane in front of the camera.
 
-You can toggle this and other display settings in the Stereoscopy panel of the 3D Views Sidebar.
+You can toggle this and other display settings in the Stereoscopy panel of the 3D Viewport's Sidebar.
 In the following image, the camera's frustum volumes are also visible.
 
 .. figure:: /images/render_output_stereoscopy_usage_stereo-preview.png
@@ -161,8 +161,8 @@ Top-Bottom
 
    If you have a 3D display most of the time,
    you will use it to see in stereo 3D, you will have to go to the fullscreen mode.
-   In fact some modes will only work in the full window mode that hides most of the user
-   interface from the work area.
+   In fact some modes will only work in the full window mode that hides most of
+   the user interface from the work area.
    In this case it is recommended to work with two monitors,
    using the 3D screen for visualizing the stereo result
    while the other screen can be used for the regular Blender work.
@@ -288,9 +288,8 @@ Lossless Formats
    For the Stereo 3D formats the only lossless options are
    *Top-Bottom* and *Side-by-Side* without the Squeezed Frame option.
 Multi-View OpenEXR
-   Another option is to use multi-view OpenEXR files.
-   This format can save multiple views in a single file and is backward compatible
-   with old OpenEXR viewers (you see only one view though).
+   Another option is to use multi-view OpenEXR files. This format can save multiple views in
+   a single file and is backward compatible with old OpenEXR viewers (you see only one view though).
    Multi-view native support is only available to OpenEXR.
 
 

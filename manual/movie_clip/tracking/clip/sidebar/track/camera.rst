@@ -87,8 +87,9 @@ Coefficients
    .. _bpy.types.MovieTrackingCamera.brown_p:
 
    Tangential Distortion Coefficients (P1, P2)
-      Works independent and allow to compensate for situations when the sensor is not perpendicular to a group of lens.
-      The optical center (also called principal point) will be shifted (distorted) from the center of the sensor.
+      Works independent and allow to compensate for situations when the sensor is not
+      perpendicular to a group of lens. The optical center (also called principal point)
+      will be shifted (distorted) from the center of the sensor.
       P1 is used to compensate for sensor rotation in Z (vertical) axes,
       while P2 is for compensating sensor rotation in X (horizontal) axes.
       Such distortions can be found in sources from cameras with a sensor stabilization system.

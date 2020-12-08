@@ -10,16 +10,30 @@ Boolean Math
 
    Boolean Math Node.
 
-The *Boolean Math* node does a basic boolean operation between the inputs.
+The *Boolean Math* node performs a basic logical operation between its inputs.
 
 
-Options
-=======
+Inputs
+======
+
+Boolean
+   Two standard Boolean inputs.
+
+
+Properties
+==========
 
 Mode
-    And
-        True if both inputs are true.
-    Or
-        True if either or both inputs are true.
-    Not
-        True if both inputs are false.
+   And
+      True if both inputs are true.
+   Or
+      True if either or both inputs are true.
+   Not
+      True if both inputs are false.
+
+
+Output
+======
+
+Boolean
+   Standard Boolean output.

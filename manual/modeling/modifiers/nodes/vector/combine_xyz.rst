@@ -20,6 +20,12 @@ Inputs
 - Z
 
 
+Properties
+==========
+
+This node has no properties.
+
+
 Output
 ======
 
@@ -27,4 +33,5 @@ Vector
    Standard vector output.
 
 .. note::
-    The vector is not automatically normalized.
+
+   The vector is not normalized.

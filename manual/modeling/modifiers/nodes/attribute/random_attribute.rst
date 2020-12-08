@@ -12,11 +12,16 @@ Populate an attribute randomly within a given range.
 
    Random Attribute Node.
 
+
 Inputs
 ======
 
+Geometry
+   Standard geometry input.
+
 Attribute
-   Name of the attribute to populate randomly.
+   Name of the attribute to fill with random values.
+   If there is no attribute with the given name, a new one is created.
 
 Min
    The random value will be at least those values.
@@ -25,23 +30,24 @@ Max
    The random values will be no more than those values.
 
 Seed
-   Change the random sequence.
+   :term:`Seed` to change the random sequence.
+
 
 Properties
 ==========
 
 Type
-   Type of data stored in attribute
+   Type of data stored in the attribute.
 
    Float
       Single (floating point) value.
 
    Vector
-      Array of 3 (floating point) values.
+      Array of three (floating point) values.
+
 
 Outputs
 =======
 
 Geometry
-   Geometry with the attribute populated. If there was no
-   attribute with the given name, a new one is created.
+   Standard geometry output.

@@ -53,7 +53,7 @@ Keyframe
    This option enables complex algorithms which tries to find a keyframe pair
    with minimal reconstruction error and best scene scale guess.
 
-Keyframe A, B :kbd:`Q`, :kbd:`E`
+Keyframe a, B :kbd:`Q`, :kbd:`E`
    Start (A) and End (B) frame of the range used for reconstruction.
 
 
@@ -142,7 +142,7 @@ Floor
    markers to be flat (have Z = 0).
 
 Wall
-   Similar to the floor orientation, but defines a wall (selected tracks are placed onto OXZ plane).
+   Similar to the floor orientation, but defines a wall (selected tracks are placed onto the XZ plane).
 
 Set Origin
    Transform camera in a way which makes active track to be moved to a scene origin.
@@ -167,8 +167,8 @@ Scene Setup
 ===========
 
 Set as Background
-   Sets the clip currently being edited as the camera background for all visible 3D Views.
-   If there is no visible 3D Views or the Clip Editor is open in full screen, nothing will happen.
+   Sets the clip currently being edited as the camera background for all visible 3D Viewports.
+   If there is no visible 3D Viewports or the Clip Editor is open in full screen, nothing will happen.
 
 Setup Tracking Scene
    Performs all usual steps to set up a VFX scene:

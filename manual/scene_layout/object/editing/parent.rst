@@ -119,8 +119,8 @@ and the local :term:`Transform` of the object.
 Example: Object Parent (Keep Transform)
 ---------------------------------------
 
-*Object Parent* with *Keep Transform* will keep any previous
-transformations applied to them from the previous parent object.
+*Object Parent* with *Keep Transform* will keep any previous transformations applied to them from
+the previous parent object.
 
 Assume that we have a scene consisting of three objects, those being two empty objects named "EmptyA"
 and "EmptyB", and a Monkey object. Fig. :ref:`fig-view3d-parent-scene-no` shows the three objects with
@@ -160,8 +160,8 @@ the change came about because it was the child of "EmptyA" which had its scale a
 Changing the Monkey's parent to "EmptyB" resulted in those indirect changes in scale being
 removed, because "EmptyB" has not had its scale altered.
 
-This is often the required behavior, but it is also sometimes useful that if you change your
-parent object that the child object keep any previous transformations
+This is often the required behavior, but it is also sometimes useful that
+if you change your parent object that the child object keep any previous transformations
 it got from the old parent object; If instead when changing the parent object of the Monkey
 from "EmptyA" to "EmptyB" we had chosen parenting type *Object* and enable *Keep Transform*,
 the Monkey would keep its scale information it obtained from the old parent "EmptyA"

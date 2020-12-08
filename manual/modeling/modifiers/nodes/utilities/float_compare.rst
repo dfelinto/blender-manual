@@ -13,19 +13,33 @@ Float Compare
 The *Float Compare* node takes two inputs and does a math comparison between them.
 
 
-Options
-=======
+Inputs
+======
+
+A, B
+   Standard float value input.
+
+
+Properties
+==========
 
 Mode
-    A < B
-        True if A is smaller than B.
-    A <= B
-        True if A is smaller or equal than B.
-    A > B
-        True if A is bigger than B.
-    A >= B
-        True if A is bigger or equal than B.
-    A = B
-        True if A and B are the same.
-    A != B
-        True if A and B are different.
+   A < B
+      True if A is smaller than B.
+   A <= B
+      True if A is smaller or equal than B.
+   A > B
+      True if A is bigger than B.
+   A >= B
+      True if A is bigger or equal than B.
+   A = B
+      True if A and B are the same.
+   A != B
+      True if A and B are different.
+
+
+Output
+======
+
+Result
+   Standard Boolean output.
