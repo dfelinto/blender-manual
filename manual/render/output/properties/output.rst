@@ -25,8 +25,6 @@ File Path
    where a ``//`` prefix represents the directory of the current blend-file.
 
 Saving
-   Todo.
-
    .. _bpy.types.RenderSettings.use_file_extension:
 
    File Extensions
@@ -56,8 +54,6 @@ Color
    BW, RGB, RGBA
 
 Image Sequence
-   Todo.
-
    .. _bpy.types.RenderSettings.use_overwrite:
 
    Overwrite
