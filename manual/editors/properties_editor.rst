@@ -22,7 +22,7 @@ Each tab regroups properties and settings of a data type, and is documented in i
 Active Tool and Workspace Settings
 ----------------------------------
 
-This first tab contains settings for the active :doc:`tool </editors/3dview/toolbar/index>` (in the 3D View)
+This first tab contains settings for the active :doc:`tool </editors/3dview/toolbar/index>` (in the 3D Viewport)
 and the current :doc:`workspace </interface/window_system/workspaces>`.
 
 

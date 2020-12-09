@@ -12,7 +12,7 @@ Introduction
 Text objects contain some text, and are in the same object type family as curves and surfaces ones,
 as fonts are vectorial data (they are made of curves).
 
-Blender uses a "Font System" to manage mapping letter codes to geometry representing them in 3D Views.
+Blender uses a "Font System" to manage mapping letter codes to geometry representing them in the 3D Viewport.
 This font system has its own *built-in* font, but it can use external fonts too,
 including *PostScript Type 1*, *OpenType* and *TrueType* fonts.
 And moreover, it can use any objects existing in the current blend-file as letters.

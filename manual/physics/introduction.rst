@@ -23,7 +23,7 @@ Quick Effects
 .. admonition:: Reference
    :class: refbox
 
-   :Editor:    3D View
+   :Editor:    3D Viewport
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Quick Effects`
 

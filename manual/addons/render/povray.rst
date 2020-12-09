@@ -685,7 +685,7 @@ with the same method, add these primitives by hand, or you can just pick some fr
 POV-Ray Primitives
 ------------------
 
-The Add menu in the 3D View allows you to add POV-Ray specific objects in addition to native Blender objects.
+The Add menu in the 3D Viewport allows you to add POV-Ray specific objects in addition to native Blender objects.
 
 They are mathematically defined shapes as opposed to meshes.
 The sphere, torus, cylinder or cone side will always be round and smooth when rendered,

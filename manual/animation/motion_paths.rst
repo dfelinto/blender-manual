@@ -74,7 +74,7 @@ Frame Range
       (not for *Around Current Frame* Onion-skinning method).
    Step
       Allows displaying one point for every *n* frames on the path.
-      Mostly useful when you enable the frame number display (see below), to avoid cluttering the 3D Views.
+      Mostly useful when you enable the frame number display (see below), to avoid cluttering the 3D Viewport.
 
 Cache/Bone Cache
    From, To
@@ -89,7 +89,7 @@ Calculate/Update Paths
 
    Start, End
       These are the start/end frames of the range in which motion paths are shown.
-      You have to *Calculate Paths* again if you modify this setting, to update the paths in the 3D Views.
+      You have to *Calculate Paths* again if you modify this setting, to update the paths in the 3D Viewport.
       The start frame is *inclusive*
       (i.e. if you set *Start* to 1, you will really see the frame 1 as starting point of the paths...).
    Bake Location
@@ -97,7 +97,7 @@ Calculate/Update Paths
       By changing this setting to Tails, you will get the paths of the bone's roots
       (remember that in Blender UI, bones' roots are called "heads"...).
       You have to *Calculate Paths* again if you modify this setting,
-      to update the paths in the 3D Views.
+      to update the paths in the 3D Viewport.
 Clear Paths ``X``
    Clears paths on all objects/bones or just the selected ones when holding :kbd:`Shift`.
 

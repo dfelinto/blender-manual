@@ -18,10 +18,10 @@ An overview of existing keyframes can be seen via the :doc:`Dope Sheet </editors
 Visualization
 =============
 
-There are some important visualization features in the 3D Views that can help animation.
+There are some important visualization features in the 3D Viewport that can help animation.
 
 When the current frame is a keyframe for the current active object, the name of this object
-(shown in the upper left corner of the 3D Views) turns yellow.
+(shown in the upper left corner of the 3D Viewport) turns yellow.
 
 .. figure:: /images/animation_keyframes_introduction_visualization.png
    :align: center

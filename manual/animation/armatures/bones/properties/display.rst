@@ -60,7 +60,7 @@ To assign a custom shape to a bone, you have to:
 
 .. note::
 
-   - These shapes will never be rendered, like any bone, they are only visible in 3D Views.
+   - These shapes will never be rendered, like any bone, they are only visible in the 3D Viewport.
    - Even if any type of object seems to be accepted by the *Object* field (meshes, curves, even metas...),
      only meshes really work. All other types just make the bone invisible.
    - The origin of the shape object will be at the *root of the bone*

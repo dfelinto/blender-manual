@@ -41,7 +41,7 @@ Developer Extras
       Edit Translation
          The option to edit UI translations
          (only available when the *Manage UI translations* add-on is also enabled).
-   3D View
+   3D Viewport
       Show Indices
          The option to show mesh vertex/edge/face indices in the overlay popover.
    Preferences

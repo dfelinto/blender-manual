@@ -47,7 +47,7 @@ Instructions
 The *Add Default Ivy* operator will use the default parameters during creation.
 This will generate your initial Ivy Curve and Leaves.
 From here you can access the *Ivy* menu in the Sidebar.
-I suggest to make small changes and then press *Update Ivy* in the 3D View operator.
+I suggest to make small changes and then press *Update Ivy* in the 3D Viewport operator.
 
 
 .. admonition:: Reference

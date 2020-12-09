@@ -3,7 +3,7 @@
 Startup Scene
 *************
 
-After closing the splash, the startup scene is displayed in the 3D View
+After closing the splash, the startup scene is displayed in the 3D Viewport
 if no other blend-file was loaded. A customized startup scene
 can be saved as a part of the :doc:`startup file </getting_started/configuration/defaults>`.
 

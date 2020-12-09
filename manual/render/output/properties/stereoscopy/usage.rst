@@ -238,7 +238,7 @@ It also allow you to see the *Cameras*, the *Plane* and the *Volume* of the ster
    Viewport stereo 3D settings.
 
 Cameras
-   When working with the Stereo 3D Views setup, you can inspect what
+   When working with the Stereo 3D Viewports setup, you can inspect what
    each individual generated camera is looking or the combined result of them.
    In the Multi-View mode you can see the combined result of the left and right cameras
    (when available) or the current selected camera.

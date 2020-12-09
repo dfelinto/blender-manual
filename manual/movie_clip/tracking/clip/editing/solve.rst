@@ -53,7 +53,7 @@ Keyframe
    This option enables complex algorithms which tries to find a keyframe pair
    with minimal reconstruction error and best scene scale guess.
 
-Keyframe a, B :kbd:`Q`, :kbd:`E`
+Keyframe A, B :kbd:`Q`, :kbd:`E`
    Start (A) and End (B) frame of the range used for reconstruction.
 
 

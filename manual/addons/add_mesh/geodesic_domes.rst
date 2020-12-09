@@ -35,7 +35,8 @@ Instructions
 
 Main
    The *Main* menu is where you will do most of your work.
-   The geodesic default triangle will be shown in the 3D View and the Object Creation parameters can be accessed here.
+   The geodesic default triangle will be shown in the 3D Viewport and
+   the Object Creation parameters can be accessed here.
    Please note: I find it's easier to use the Object Creation parameters first before moving on to
    Faces, Struts and Hubs, these will be explained in the sections below.
 

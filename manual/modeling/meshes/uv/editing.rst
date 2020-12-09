@@ -432,7 +432,7 @@ Rotate UVs & Reverse UVs
 .. admonition:: Reference
    :class: refbox
 
-   :Editor:    3D View
+   :Editor:    3D Viewport
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Face --> Face Data --> Rotate UVs/Reverse UVs`
 

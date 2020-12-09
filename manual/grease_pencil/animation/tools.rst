@@ -115,7 +115,7 @@ Bake Mesh to Grease Pencil
 .. admonition:: Reference
    :class: refbox
 
-   :Editor:    3D View
+   :Editor:    3D Viewport
    :Mode:      Object and Pose Modes
    :Menu:      :menuselection:`Object --> Animation --> Bake Mesh to Grease Pencil...`
 

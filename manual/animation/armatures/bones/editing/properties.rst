@@ -14,7 +14,7 @@ Properties
 Most bones' properties (except the transform ones) are regrouped in each bone's panels,
 in the *Bones* tab in *Edit Mode*. Let us detail them.
 
-Note that some of them are also available in the 3D Views,
+Note that some of them are also available in the 3D Viewport,
 through the three pop-up menus within the same entry:
 
 - *Toggle Setting*: :kbd:`Shift-W` or :menuselection:`Armature --> Bone Settings --> Toggle a Setting`

@@ -12,13 +12,13 @@ Parenting
    :Hotkey:    :kbd:`Ctrl-P`, :kbd:`Alt-P`
 
 You can edit the relationships between bones (and hence create/modify the chains of bones)
-both from the 3D Views and the Properties. Whatever method you prefer,
+both from the 3D Viewport and the Properties. Whatever method you prefer,
 it's always a matter of deciding, for each bone, if it has to be parented to another one,
 and if so, if it should be connected to it.
 
 To parent and/or connect bones, you can:
 
-In a *3D View*, select the bone and *then* its future parent, and press :kbd:`Ctrl-P`
+In the *3D Viewport*, select the bone and *then* its future parent, and press :kbd:`Ctrl-P`
 (or :menuselection:`Armature --> Parent --> Make Parent...`).
 In the small *Make Parent* menu that pops up, choose *Connected*
 if you want the child to be connected to its parent, else click on *Keep Offset*.

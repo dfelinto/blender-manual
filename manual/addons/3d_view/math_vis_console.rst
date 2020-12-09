@@ -43,7 +43,7 @@ In the Python Console define a mathutils variable::
 
    hello_world = Vector((1, 2, 3))
 
-You should now be able to see this point in the 3D View!
+You should now be able to see this point in the 3D Viewport!
 
 .. admonition:: Reference
    :class: refbox

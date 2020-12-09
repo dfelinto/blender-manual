@@ -1,8 +1,8 @@
 .. (Todo <2.8 add) GL texture limit.
 
-*******
-3D View
-*******
+***********
+3D Viewport
+***********
 
 Rendering
 =========

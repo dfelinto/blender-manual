@@ -89,7 +89,7 @@ Smart UV Project
 .. admonition:: Reference
    :class: refbox
 
-   :Editor:    3D View
+   :Editor:    3D Viewport
    :Mode:      Edit Mode
    :Menu:      :menuselection:`UV --> Smart UV Project`
    :Hotkey:    :kbd:`U`
@@ -140,7 +140,7 @@ Lightmap Pack
 .. admonition:: Reference
    :class: refbox
 
-   :Editor:    3D View
+   :Editor:    3D Viewport
    :Mode:      Edit Mode
    :Menu:      :menuselection:`UV --> Lightmap Pack`
    :Hotkey:    :kbd:`U`
@@ -190,7 +190,7 @@ Follow Active Quads
 .. admonition:: Reference
    :class: refbox
 
-   :Editor:    3D View
+   :Editor:    3D Viewport
    :Mode:      Edit Mode
    :Menu:      :menuselection:`UV --> Follow Active Quads`
    :Hotkey:    :kbd:`U`
@@ -227,7 +227,7 @@ Cube Projection
 .. admonition:: Reference
    :class: refbox
 
-   :Editor:    3D View
+   :Editor:    3D Viewport
    :Mode:      Edit Mode
    :Menu:      :menuselection:`UV --> Cube Projection`
    :Hotkey:    :kbd:`U`
@@ -269,7 +269,7 @@ Cylinder Projection
 .. admonition:: Reference
    :class: refbox
 
-   :Editor:    3D View
+   :Editor:    3D Viewport
    :Mode:      Edit Mode
    :Menu:      :menuselection:`UV --> Cylinder Projection`
    :Hotkey:    :kbd:`U`
@@ -367,7 +367,7 @@ Project from View
 .. admonition:: Reference
    :class: refbox
 
-   :Editor:    3D View
+   :Editor:    3D Viewport
    :Mode:      Edit Mode
    :Menu:      :menuselection:`UV --> Project from View`
    :Hotkey:    :kbd:`U`
@@ -392,7 +392,7 @@ Project from View (Bounds)
 .. admonition:: Reference
    :class: refbox
 
-   :Editor:    3D View
+   :Editor:    3D Viewport
    :Mode:      Edit Mode
    :Menu:      :menuselection:`UV --> Project from View (Bounds)`
    :Hotkey:    :kbd:`U`

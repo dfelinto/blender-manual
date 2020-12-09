@@ -6,7 +6,7 @@ Child Of Constraint
 *******************
 
 *Child Of* is the constraint version of the standard parent/children relationship between objects
-(the one established through the :kbd:`Ctrl-P` shortcut, in the 3D Views).
+(the one established through the :kbd:`Ctrl-P` shortcut, in the 3D Viewport).
 
 Parenting with a constraint has several advantages and enhancements,
 compared to the traditional method:

@@ -36,7 +36,7 @@ Color
 Geometry
 ========
 
-Nodes that can act on different geometry types (volume, point cloud, mesh).
+Nodes that can operate on different geometry types (volume, point cloud, mesh).
 
 .. toctree::
    :maxdepth: 1
@@ -62,7 +62,7 @@ Nodes used mainly as input to other nodes.
 Mesh
 ====
 
-Nodes that only act on the mesh geometry.
+Nodes that only operate on meshes.
 
 .. toctree::
    :maxdepth: 1

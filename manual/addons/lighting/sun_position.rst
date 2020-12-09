@@ -160,7 +160,7 @@ Synchronizing the Sun Object to the HDRI Texture
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Start by selecting the sun object and Environment Texture node. You can then synchronize them by
-enabling *Sync Sun to Texture*. Hovering any 3D View will display the environment texture.
+enabling *Sync Sun to Texture*. Hovering any 3D Viewport will display the environment texture.
 Use the :kbd:`MMB` to pan, scroll wheel to zoom, and :kbd:`Ctrl-MMB` to set the exposure.
 Zoom and click the center of the sun in the texture. After that, the sun object will be locked to it.
 
@@ -168,7 +168,7 @@ You can now rotate both the texture and the light by using the *Rotation* slider
 
 .. figure:: /images/addons_lighting_sun-position_env-selection.jpg
 
-   Click the sun in the environment texture in the 3D View to lock it to the sun light object.
+   Click the sun in the environment texture in the 3D Viewport to lock it to the sun light object.
 
 
 Preferences

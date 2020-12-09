@@ -174,7 +174,7 @@ Text on Curve
 Underline
    Toggled with the *Underline* button before typing.
    Text can also be set to Underlined by selecting it
-   then using the *Underline* entry in the *Text* menu of the *3D View*.
+   then using the *Underline* entry in the *Text* menu of the 3D Viewport.
 Underline Position
    This allows you to shift vertically the position of the underline.
 Underline Thickness
@@ -254,7 +254,7 @@ Spacing
 Character Spacing
    A factor by which space between each character (kerning) is scaled in width.
 
-   In Edit Mode in the *3D View*, you can also control individual kerning
+   In Edit Mode in the 3D Viewport, you can also control individual kerning
    at text cursor position by pressing :kbd:`Alt-Left` / :kbd:`Alt-Right` to decrease/increase it.
 Word Spacing
    A factor by which white-space between words is scaled in width.

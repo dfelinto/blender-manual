@@ -68,7 +68,7 @@ Object Mode List
      - A mesh-only mode, dedicated to vertex group weighting.
    * - .. figure:: /images/editors_3dview_modes_icons-texture-paint.png
      - :doc:`Texture Paint Mode </sculpt_paint/texture_paint/index>`
-     - A mesh-only mode, that allows you to paint your mesh's texture directly on the model, in the 3D Views.
+     - A mesh-only mode, that allows you to paint your mesh's texture directly on the model, in the 3D Viewport.
    * - .. figure:: /images/editors_3dview_modes_icons-particle-edit.png
      - :doc:`Particle Edit Mode </physics/particles/mode>`
      - A mesh-only mode, dedicated to particle systems, useful with editable systems (hair).

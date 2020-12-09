@@ -10,7 +10,7 @@ There are three ways to establish the image used by the UV texture:
 
 #. Paint a flat image in the Image Editor onto the currently selected UV texture,
    using its UV map to transfer the colors to the faces of the mesh.
-#. Paint the mesh in the 3D View, and let Blender use
+#. Paint the mesh in the 3D Viewport, and let Blender use
    the currently selected UV map to update the UV texture
    (see :ref:`Projection Painting <painting-texture-index>`).
 #. Use any image editing program to create an image. In the Image Editor,
@@ -58,7 +58,7 @@ To use texture paint you may do any of the following:
 
 - Activate the Texture Paint workspace. Here the 3D Viewport has the Texture Paint Mode enabled
   and the Image Editor is already switched to Paint mode.
-- In the 3D View, select Texture Paint Mode from the mode selector in the header,
+- In the 3D Viewport, select Texture Paint Mode from the mode selector in the header,
   and you can paint directly onto the mesh.
 - In the Image Editor, switch the mode to Paint (shown to the right).
 
@@ -71,7 +71,7 @@ As soon as you enable Texture Painting or switch to Texture Paint Mode,
 different tools become available in the Toolbar.
 
 In the Image Editor, you paint on a flat canvas that is wrapped around the mesh using UV coordinates.
-Any changes made in the Image Editor show up immediately in the 3D View, and vice versa.
+Any changes made in the Image Editor show up immediately in the 3D Viewport, and vice versa.
 To work with the UV layout (for example, to move coordinates) you must go back to View mode.
 
 A full complement of brushes and colors can be selected from the Sidebar region in the Image Editor.

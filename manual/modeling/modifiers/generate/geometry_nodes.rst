@@ -5,8 +5,7 @@
 Geometry Nodes Modifier
 ***********************
 
-The *Geometry Nodes* modifier creates a modifier with a :doc:`Node Group </interface/controls/nodes/groups>`.
-This functionality of the modifier is defined by its *Node Group*.
+The *Geometry Nodes* modifier creates a modifier with a node group which defines its functionality.
 
 
 .. figure:: /images/modeling_modifiers_geometry_nodes.png

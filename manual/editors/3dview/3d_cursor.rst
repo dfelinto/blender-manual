@@ -27,7 +27,7 @@ directly under your mouse pointer.
 
 The view space is used to control the rotation of the 3D Cursor.
 
-For accuracy you should use two perpendicular orthogonal 3D Views,
+For accuracy you should use two perpendicular orthogonal 3D Viewports,
 i.e. any combination of top :kbd:`Numpad7`, front :kbd:`Numpad1` and side :kbd:`Numpad3`.
 That way you can control the positioning along two axes in one view and
 determine depth in the second view.

@@ -42,7 +42,7 @@ Mark Seam
 .. admonition:: Reference
    :class: refbox
 
-   :Editor:    3D View
+   :Editor:    3D Viewport
    :Mode:      Edit Mode
    :Tool:      :menuselection:`UV --> Mark/Clear Seam`
    :Menu:      :menuselection:`Edge --> Mark/Clear Seam`

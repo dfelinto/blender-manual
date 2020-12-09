@@ -29,7 +29,7 @@ First of all, you have to select the chosen bone(s)!
 
 - In the Properties, use the "layer buttons" of each selected bone Relations panel (*Bones* tab)
   to control in which layer(s) it lays.
-- In the *3D View* editor, use the menu :menuselection:`Armature --> Move Bone To Layer` or
+- In the *3D Viewport*, use the menu :menuselection:`Armature --> Move Bone To Layer` or
   :menuselection:`Pose --> Move Bone To Layer` or press :kbd:`M` to show the usual pop-up layers menu.
   Note that this way, you assign the same layers to all selected bones.
 

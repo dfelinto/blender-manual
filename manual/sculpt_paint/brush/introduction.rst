@@ -30,7 +30,7 @@ If you have a complex mesh, it is sometimes not easy to paint on all vertices.
 Suppose you only want to paint on a small area of the Mesh and keep the rest untouched.
 This is where "selection masking" comes into play. When this mode is enabled,
 a brush will only paint on the selected vertices or faces.
-The option is available from the header of the 3D View
+The option is available from the header of the 3D Viewport
 (see icons surrounded by the yellow frame):
 
 .. figure:: /images/sculpt-paint_brush_introduction_select.png

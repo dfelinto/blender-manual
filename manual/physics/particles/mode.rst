@@ -58,8 +58,8 @@ the simulation from Object Mode. The simulation must be baked to enable editing.
 Edit the Simulation
 -------------------
 
-Switch to *Particle Edit* from the *Mode select menu* in the header of the *3D View*
-to edit the particle's paths/Keyframes. You may need to press :kbd:`T` from within the 3D View
+Switch to *Particle Edit* from the *Mode* select menu in the header of the 3D Viewport
+to edit the particle's paths/Keyframes. You may need to press :kbd:`T` from within the 3D Viewport
 to see the *Particle Edit* panel. Move to the frame you want to edit and use the various *Particle Edit*
 tools to edit your simulation. Work slowly, previewing your changes with :kbd:`Alt-A`,
 and save often so that you can go back to the previous version should something happen,
