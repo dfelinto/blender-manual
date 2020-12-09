@@ -93,3 +93,7 @@ Factor
    Scalar value interpolated from the attribute.
 Alpha
    Alpha channel of the attribute, when available. If the attribute has no alpha channel, generally defaults to 1.
+
+.. warning::
+   Currently, attributes are not supported in shaders used for the :doc:`World </render/lights/world>` or
+   :doc:`Light Objects </render/lights/light_object>`.
