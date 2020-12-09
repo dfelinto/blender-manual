@@ -49,7 +49,7 @@ Developer Extras
          Work in progress features can be enabled here which are currently being tested.
 
 Tooltips
-   Tooltips
+   User Tooltips
       When enabled, a tooltip will appear when your mouse pointer is over a control.
       This tip explains the function of what is under the pointer,
       shows the associated hotkey (if any).
