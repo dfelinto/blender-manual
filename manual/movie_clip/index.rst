@@ -10,7 +10,6 @@
 .. toctree::
    :maxdepth: 2
 
+   introduction.rst
    tracking/index.rst
    masking/index.rst
-   clip.rst
-

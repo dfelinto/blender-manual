@@ -1,7 +1,7 @@
 
-*****************
-Movie Clip Editor
-*****************
+************
+Introduction
+************
 
 You perform masking and tracking with the Movie Clip Editor.
 
@@ -10,4 +10,3 @@ You perform masking and tracking with the Movie Clip Editor.
    The Movie Clip Editor.
 
 See :doc:`/editors/clip/index` for more information on the Movie Clip Editor.
-
