@@ -54,17 +54,12 @@ OptiX requires graphics cards with compute capability 5.0 and higher.
 To make sure your GPU is supported,
 see the `list of Nvidia graphics cards <https://developer.nvidia.com/cuda-gpus#compute>`__
 OptiX works best on RTX graphics cards with hardware ray tracing support (e.g. Turing and above).
-OptiX support is still experimental and does not yet support all features, see below for details.
-
-OptiX requires Geforce or Quadro RTX graphics card with recent Nvidia drivers.
 
 .. note:: Unsupported Features:
 
    - Open Shading Language
    - Advanced volume light sampling to reduce noise
-   - Baking
    - Branched Path Tracing
-   - Ambient Occlusion and Bevel shader nodes
    - Combined CPU and GPU rendering
 
 
