@@ -10,7 +10,7 @@ Bleed
    Seam Bleed extends the paint beyond UV island bounds to avoid visual artifacts
    (like bleed for baking).
 Dither
-   Amount of dithering when painting on 8 bit images.
+   Amount of dithering when painting on 8-bit images.
 Occlude
    With Geometry occlusion active only exposed (not hidden by other mesh parts) pixels are affected.
    This also allows for 3D stencils to be used to mask out areas of the surface too.

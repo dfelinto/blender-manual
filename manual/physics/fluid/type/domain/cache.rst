@@ -140,14 +140,14 @@ Precision Volumes :guilabel:`OpenVDB Only`
    Precision level that is used when writing OpenVDB cache files.
 
    Full
-      Volumetric data (e.g. grids, particles) will be written with full precision (32 bit).
+      Volumetric data (e.g. grids, particles) will be written with full precision (32-bit).
 
    Half
-      Volumetric data (e.g. grids, particles) will be written with half precision (16 bit).
+      Volumetric data (e.g. grids, particles) will be written with half precision (16-bit).
 
    Mini
-      Volumetric data (e.g. grids, particles) will be written with mini float precision (8 bit) where possible.
-      For cache data where this is not possible, 16 bit will be used instead.
+      Volumetric data (e.g. grids, particles) will be written with mini float precision (8-bit) where possible.
+      For cache data where this is not possible, 16-bit will be used instead.
 
 .. _bpy.types.FluidDomainSettings.export_manta_script:
 
