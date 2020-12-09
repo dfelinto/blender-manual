@@ -7,7 +7,7 @@ The Movie Clip Editor has two main purposes,
 it can be used for :doc:`tracking or masking </movie_clip/index>` movies.
 The empty editor looks like the image below.
 
-.. figure:: /images/editors_clip_introduction_interface.png
+.. figure:: /images/editors_clip_introduction_example.png
 
    Movie Clip Editor interface.
 
@@ -43,10 +43,6 @@ Clip
    A :ref:`data-block menu <ui-data-block>` used for add a movie file.
    Both movie files and image sequences can be used in the Clip editor.
    When a movie clip is loaded into the Clip editor, extra panels are displayed in the interface.
-
-.. figure:: /images/editors_clip_introduction_example.png
-
-   Movie Clip Editor with an opened clip.
 
 Modes
    - :doc:`Motion Tracking </movie_clip/tracking/index>`

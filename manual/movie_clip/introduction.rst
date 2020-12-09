@@ -5,7 +5,7 @@ Introduction
 
 You perform masking and tracking with the Movie Clip Editor.
 
-.. figure:: /images/editors_clip_introduction_interface.png
+.. figure:: /images/editors_clip_introduction_example.png
 
    The Movie Clip Editor.
 
