@@ -80,22 +80,24 @@ Fill Deformed
    Fills the curve after applying all modification that might deform the curve (i.e. shape keys and modifiers).
 
 .. _curve-shape-path-curve-deform:
-.. _bpy.types.Curve.use_radius:
 
-Radius
-   Causes the deformed object to be scaled by the set curve radius.
-   Utilized when using a curve as a path or when using the :doc:`/modeling/modifiers/deform/curve`.
+Curve Deform
+   .. _bpy.types.Curve.use_radius:
 
-.. _bpy.types.Curve.use_stretch:
+   Radius
+      Causes the deformed object to be scaled by the set curve radius.
+      Utilized when using a curve as a path or when using the :doc:`/modeling/modifiers/deform/curve`.
 
-Stretch
-   The *Stretch* curve option allows you to let the mesh object stretch, or squeeze, over the entire curve.
-   To get the expected result, use this together with the *Bounds Clamp* option.
-   Utilized when using the :doc:`/modeling/modifiers/deform/curve`.
+   .. _bpy.types.Curve.use_stretch:
 
-.. _bpy.types.Curve.use_deform_bounds:
+   Stretch
+      The *Stretch* curve option allows you to let the mesh object stretch, or squeeze, over the entire curve.
+      To get the expected result, use this together with the *Bounds Clamp* option.
+      Utilized when using the :doc:`/modeling/modifiers/deform/curve`.
 
-Bounds Clamp
-   When this option is enabled, the object and mesh offset along the deformation axis is ignored.
-   This can be useful with the *Stretch* option or when using a negative axis.
-   Utilized when using the :doc:`/modeling/modifiers/deform/curve`.
+   .. _bpy.types.Curve.use_deform_bounds:
+
+   Bounds Clamp
+      When this option is enabled, the object and mesh offset along the deformation axis is ignored.
+      This can be useful with the *Stretch* option or when using a negative axis.
+      Utilized when using the :doc:`/modeling/modifiers/deform/curve`.
