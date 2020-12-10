@@ -70,7 +70,7 @@ Coefficients
    to prevent "impossible" distortion).
 
    .. _bpy.types.MovieTrackingCamera.k:
-   .. _bpy.types.MovieTrackingCamera.division_k1:
+   .. _bpy.types.MovieTrackingCamera.division_k:
    .. _bpy.types.MovieTrackingCamera.nuke_k:
    .. _bpy.types.MovieTrackingCamera.brown_k:
 

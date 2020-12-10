@@ -4,6 +4,7 @@ Solve
 *****
 
 .. _clip-tracking-plane:
+.. _bpy.ops.clip.create_plane_track:
 
 Plane Track
 ===========
@@ -35,6 +36,8 @@ the :doc:`/compositing/types/distort/plane_track_deform` compositing node.
 Solve
 =====
 
+.. _bpy.types.MovieTrackingSettings.use_tripod_solver:
+
 Tripod
    Tripod Motion can be used for footage where the camera does not move and only rotates.
    Such footage can't be tracked with a generic solver approach, and
@@ -48,23 +51,46 @@ Tripod
       It means using more tracks doesn't imply more accurate solution.
       Having 5-10 tracks on frame is likely what shall be commonly used for this kind of solver.
 
+.. _bpy.types.MovieTrackingSettings.use_keyframe_selection:
+
 Keyframe
    Automatically select keyframes for initial reconstruction.
    This option enables complex algorithms which tries to find a keyframe pair
    with minimal reconstruction error and best scene scale guess.
 
-Keyframe A, B :kbd:`Q`, :kbd:`E`
+.. _bpy.types.MovieTrackingObject.keyframe_a:
+.. _bpy.types.MovieTrackingObject.keyframe_b:
+
+Keyframe A/B
    Start (A) and End (B) frame of the range used for reconstruction.
 
 
 Refine
-------
+   Specifies which parameters should be refined during solve.
+   Such refining is useful when you are not sure about some camera intrinsics,
+   and solver should try to find the best parameter for those intrinsics.
+   But you still have to know approximate initial values --
+   it will fail to find correct values if they were set completely incorrectly initially.
 
-The *Refine* option specifies which parameters should be refined during solve.
-Such refining is useful when you are not sure about some camera intrinsics,
-and solver should try to find the best parameter for those intrinsics.
-But you still have to know approximate initial values --
-it will fail to find correct values if they were set completely incorrectly initially.
+   .. _bpy.types.MovieTrackingSettings.refine_intrinsics_focal_length:
+
+   Focal Length
+      Refine the camera's :ref:`Focal Length <bpy.types.MovieTrackingCamera.focal_length>`
+
+   .. _bpy.types.MovieTrackingSettings.refine_intrinsics_principal_point:
+
+   Optical Center
+      Refine the camera's :ref:`Optical Center <bpy.types.MovieTrackingCamera.principal>``
+
+   .. _bpy.types.MovieTrackingSettings.refine_intrinsics_radial_distortion:
+
+   Radial Distortion
+      Refine the camera's :ref:`Radial Distortion Parameters <bpy.types.MovieTrackingCamera.k>`
+
+   .. _bpy.types.MovieTrackingSettings.refine_intrinsics_tangential_distortion:
+
+   Tangential Distortion
+      Refine the camera's :ref:`Tangential Distortion Parameters <bpy.types.MovieTrackingCamera.brown_p>`
 
 
 .. _editors-movie-clip-tracking-clip-solve-motion:
