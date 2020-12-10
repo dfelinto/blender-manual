@@ -169,7 +169,7 @@ Some options in the header will only show if compatible with the active `Display
 
 New Collection (View Layer)
    Add a new collection inside selected collection.
-Filter ID Type (Orphan Data, Blender File)
+Filter by Type (Orphan Data, Blender File)
    Restrict the type of the data-blocks shown in the Outliner.
 Keying Sets (Data API)
    Add/Remove selected data to the active :doc:`Keying Set </animation/keyframes/keying_sets>`.
