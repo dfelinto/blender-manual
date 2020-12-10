@@ -37,13 +37,9 @@ Batch Rename
    :Hotkey:    :kbd:`Ctrl-F2`
 
 The *Batch Rename* operator can rename many data-block names at once.
-
 This uses a pop-up dialog with operations and their options to change the name.
-
 These actions are applied in order, from first to last.
 
-Data Type
-   The :ref:`data-block type <data-system-datablock-types>` to perform the batch rename operations on.
 Data Source
    Where to look for the data-blocks that are intended to be renamed.
 
@@ -52,7 +48,8 @@ Data Source
    All
       Operates on all data in the blend file.
 
-   To the left of this option gives a readout on how many data-blocks are able to be renamed.
+Data Type
+   The :ref:`data-block type <data-system-datablock-types>` to perform the batch rename operations on.
 
 
 Operations
@@ -61,20 +58,20 @@ Operations
 The *Batch Rename* has several sub Operations to change the data names.
 The default operation is *Find/Replace* however, other operations can be added
 to change the data names further.
-
+Below all the operations gives a readout on how many data-blocks are able to be renamed.
 
 Find/Replace
 ^^^^^^^^^^^^
 
 *Find/Replace* searches for a particular text in the names and optionally replaces it with a new text.
+`Regular Expressions <https://en.wikipedia.org/wiki/Regular_expression>`__
+can be used as a powerful way to tailor the *Find*/*Replace*
+texts and can be enabled using the icon to the right of the text fields.
 
 Find
    The text to search for in names.
 Replace
    The text to replace for in matching names found from the *Find* text.
-Regular Expressions
-   Enables the use of `Regular Expressions <https://en.wikipedia.org/wiki/Regular_expression>`__
-   which are a powerful way to tailor the *Find*/*Replace* texts.
 Case Sensitive
    Search results must match the *Find* text's case exactly.
 
@@ -104,21 +101,23 @@ Strip Characters
 *Strip Characters* cleans up names by removing certain
 character types from either the beginning or the end of the name.
 
-Spaces
-   Strips any space characters from the name, e.g. "Living Room   " becomes "Living Room".
-Digits
-   Strips any numerical characters from the name, e.g. ``cube.001`` becomes ``cube.``.
-Punctuation
-   Strips any punctuation characters (``,.?!:;`` etc.) from the name, e.g. ``cube?`` becomes ``cube``.
+Characters
+   Spaces
+      Strips any space characters from the name, e.g. "Living Room   " becomes "Living Room".
+   Digits
+      Strips any numerical characters from the name, e.g. ``cube.001`` becomes ``cube.``.
+   Punctuation
+      Strips any punctuation characters (``,.?!:;`` etc.) from the name, e.g. ``cube?`` becomes ``cube``.
 
-.. tip::
+   .. tip::
 
-   Multiple character types can be removed at once by :kbd:`Shift-LMB` on the types.
+      Multiple character types can be removed at once by :kbd:`Shift-LMB` on the types.
 
-Start
-   Strips and any leading characters in the name.
-End
-   Strips and any trailing characters in the name.
+Strip From
+   Start
+      Strips and any leading characters in the name.
+   End
+      Strips and any trailing characters in the name.
 
 
 Change Case
@@ -126,9 +125,10 @@ Change Case
 
 *Change Case* modifies the case of names to be one of the following:
 
-Upper Case
-   Changes all text to be in upper case, e.g. ``cube.001`` becomes ``CUBE.001``.
-Lower Case
-   Changes all text to be in lower case, e.g. ``CUBE.001`` becomes ``cube.001``.
-Title Caps
-   Changes all text to be in title case, e.g. ``living room`` becomes ``Living Room``.
+Convert To
+   Upper Case
+      Changes all text to be in upper case, e.g. ``cube.001`` becomes ``CUBE.001``.
+   Lower Case
+      Changes all text to be in lower case, e.g. ``CUBE.001`` becomes ``cube.001``.
+   Title Caps
+      Changes all text to be in title case, e.g. ``living room`` becomes ``Living Room``.
