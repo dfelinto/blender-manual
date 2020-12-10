@@ -46,7 +46,7 @@ Sample
    A value of 0 disables stroke sampling.
 
 Color Threshold
-   Determines what is considered white and what black.
+   Determine the :term:`Luminance` threshold above which strokes are generated.
 
 Turn Policy
    Determines how to resolve ambiguities during decomposition of an image into paths.
