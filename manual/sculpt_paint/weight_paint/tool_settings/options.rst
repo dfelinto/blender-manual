@@ -10,7 +10,7 @@ Options
 
 The weight paint options change the overall brush behavior.
 
-.. _weight-painting-auto-normalize:
+.. _bpy.types.ToolSettings.use_auto_normalize:
 
 Auto Normalize
    Ensures that all deforming vertex groups add up to one while painting.
@@ -23,12 +23,18 @@ Auto Normalize
 
    This option works most intuitively when used to maintain normalization while
    painting on top of weights that are already normalized with another tool.
+
+.. _bpy.types.ToolSettings.use_lock_relative:
+
 Lock-Relative
    Displays bone-deforming groups as if all locked deform groups were deleted,
    and the remaining ones were re-normalized.
    This is intended for use when balancing weights within a group of bones while all other bones are locked.
    With this option you can also temporarily view non-normalized weights as if they were normalized,
    without actually changing the values.
+
+.. _bpy.types.ToolSettings.use_multipaint:
+
 Multi-Paint
    Paint on all selected vertex groups simultaneously, in a way that preserves their relative influence.
    This can be useful when tweaking weights in an area that is affected by more than three bones at once,
@@ -57,20 +63,11 @@ Multi-Paint
       the tool using vertex groups from *Selected Pose Bones* with low Factor.
       After that simply paint on top to set the desired collective weight.
 
+.. _bpy.types.VertexPaint.use_group_restrict:
+
 Restrict
    This option limits the influence of painting to vertices (even with weight 0)
    belonging to the selected vertex group.
-X Mirror
-   Use the X Mirror option for mirrored painting on groups that have symmetrical names,
-   like with extension ".R"/ ".L" or "_R" / "_L". If a group has no mirrored counterpart,
-   it will paint symmetrically on the active group itself.
-   You can read more about the naming convention in
-   :ref:`Editing Armatures: Naming conventions <armature-editing-naming-conventions>`.
-   The convention for armatures/bones apply here as well.
-Topology Mirror
-   Use topology-based mirroring, for when both sides of a mesh have matching mirrored topology.
-   See :ref:`here <bpy.types.Mesh.use_mirror_topology>` for more information.
-
 
 .. seealso::
 

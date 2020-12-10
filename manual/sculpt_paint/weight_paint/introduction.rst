@@ -77,7 +77,7 @@ Normalize All
    Make sure to select the right mode and disable *Lock Active*.
 
 Auto Normalize
-   Once the weights are initially normalized, the :ref:`Auto Normalize <weight-painting-auto-normalize>` option
+   Once the weights are initially normalized, the :ref:`Auto Normalize <bpy.types.ToolSettings.use_auto_normalize>` option
    can be enabled to automatically maintain normalization as you paint.
    This also tells certain tools that the weights are supposed to be already normalized.
 
@@ -93,11 +93,11 @@ Vertex group locking
 
    In locations affected by more than two bones this allows more precise tweaking and re-balancing of
    weights by temporarily focusing on a subset of bones. This can also be aided by
-   the :ref:`Lock Relative <weight-painting-auto-normalize>` option, which displays weights as
+   the :ref:`Lock Relative <bpy.types.ToolSettings.use_auto_normalize>` option, which displays weights as
    if re-normalized with the locked groups deleted, thus making it appear as if the locked groups didn't even exist.
 
 Multi-Paint
-   Finally, the :ref:`Multi-Paint <weight-painting-auto-normalize>` option allows treating
+   Finally, the :ref:`Multi-Paint <bpy.types.ToolSettings.use_auto_normalize>` option allows treating
    multiple selected bones as if they were one bone, so that the painting operations change
    the combined weight, preserving the ratio within the group. Combined with locking,
    this allows balancing between one set of bones versus the rest, excluding a third set
