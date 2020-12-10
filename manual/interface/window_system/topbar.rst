@@ -120,7 +120,7 @@ External Data
          you can save the blend-file and reload it again, so that all external files are reloaded at once.
 
 Clean Up
-   Purge All
+   Unused Data-Blocks
       Remove all unused data-blocks from the file (cannot be undone).
       See the :ref:`Outliner <bpy.ops.outliner.orphans_purge>` for more information.
 

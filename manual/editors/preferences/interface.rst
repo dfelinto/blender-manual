@@ -19,7 +19,7 @@ Resolution Scale
 Line Width
    Scale of lines and points in the interface e.g. button outlines, edges and vertex points in the 3D Viewport.
 
-   Thin, Auto, Thick
+   Thin, Default, Thick
 
 Splash Screen
    Display the :ref:`splash` when starting Blender.
@@ -100,7 +100,7 @@ Factor Display Type
       Values are expressed as a percentage between 0 and 100.
 
 
-Temporary Windows
+Temporary Editors
 -----------------
 
 When performing certain operations, Blender will open a new window.
@@ -111,7 +111,7 @@ Render In
 
    Keep User Interface
       The user interface does not change and the render is computed in the background.
-   Full Screen
+   Maximize Area
       A new Image editor is opened as a temporary window in full screen mode.
    Image Editor
       The area that is the largest on screen is replaced placed by a temporary Image editor.
@@ -121,7 +121,7 @@ Render In
 File Browser
    When opening files from the computer, the user interface can do any of:
 
-   Full Screen
+   Maximize Area
       A new File Browser editor is opened as a temporary window in full screen mode.
    New Window
       A new File Browser editor is opened as a regularly sized temporary window.
