@@ -35,6 +35,8 @@ Text Files
       Entering :kbd:`Tab` in the Text Editor adds the appropriate number of spaces
       instead of using characters.
 
+.. _prefs-save_load-backups:
+
 Save Versions
    Number of versions created (for backup) when saving newer versions of a file.
 
