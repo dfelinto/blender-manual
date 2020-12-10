@@ -101,6 +101,12 @@ This page lists definitions for terms used in Blender and this manual.
 
       See also :doc:`Boolean Modifier </modeling/modifiers/generate/booleans>`.
 
+   Boundary
+   Boundary Edge
+      An edge with nothing connected on one side.
+      The primitives, being manifold objects, do not have boundary edges.
+      See also :term:`Non-manifold`
+
    Bounding Box
       The box that encloses the shape of an object. The box is aligned with the local space of the object.
 
