@@ -60,7 +60,6 @@ OptiX works best on RTX graphics cards with hardware ray tracing support (e.g. T
    - Open Shading Language
    - Advanced volume light sampling to reduce noise
    - Branched Path Tracing
-   - Combined CPU and GPU rendering
 
 
 AMD
