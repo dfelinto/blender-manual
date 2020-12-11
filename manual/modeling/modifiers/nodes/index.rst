@@ -19,6 +19,7 @@ Attribute
    :maxdepth: 1
 
    attribute/attribute_math.rst
+   attribute/attribute_mix.rst
    attribute/random_attribute.rst
 
 
