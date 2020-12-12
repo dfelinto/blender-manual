@@ -73,7 +73,7 @@ Trusted Blend Files
    or you trust that the person who gave it to you did not include any malicious code with it.
    See :doc:`Python Security </advanced/scripting/security>` to configure default trust options.
 Save Backups
-   Keep a :ref:`backup version <prefs-save_load-backups>` (blend1-file)
+   Keep a :ref:`backup version <prefs-save_load-backups>` (``blend1-file``)
    of the files when saving with generated previews.
 
 

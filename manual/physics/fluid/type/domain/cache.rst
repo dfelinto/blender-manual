@@ -147,7 +147,7 @@ Precision Volumes :guilabel:`OpenVDB Only`
 
    Mini
       Volumetric data (e.g. grids, particles) will be written with mini float precision (8-bit) where possible.
-      For cache data where this is not possible, 16-bit will be used instead.
+      For cache data where this is not possible, 16-bit floats will be used instead.
 
 .. _bpy.types.FluidDomainSettings.export_manta_script:
 

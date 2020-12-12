@@ -1,18 +1,16 @@
-.. index: Nodes; Attribute; Attribute Mix
+.. index:: Nodes; Attribute; Attribute Mix
 
 *************
 Attribute Mix
 *************
 
-Mix attributes to creates to create a new attribute.
-
-The output attribute type is *Color* by default.
-When the result attribute exists already, its type is not changed.
-
 .. figure:: /images/modeling_modifiers_nodes_attribute-mix.png
    :align: right
 
    Attribute Mix Node.
+
+Mix attributes to creates to create a new attribute.
+
 
 Inputs
 ======
@@ -22,10 +20,13 @@ Geometry
 
 A, B
    The first and second input to the mix operation.
-   This can be an attribute name or constant value.
+   This can be an attribute name or a value.
 
 Result
    Name of the attribute where the computed result is stored.
+   The output attribute type is *Color* by default.
+   When the result attribute exists already, its type is not changed.
+
 
 Properties
 ==========
@@ -33,8 +34,9 @@ Properties
 Blend Type
    Operation that is performed on the inputs.
 
-Factor, A, B
+Factor A, B
    Input type for the corresponding socket.
+
 
 Output
 ======

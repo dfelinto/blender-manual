@@ -164,7 +164,7 @@ but the shape of the profile is only editable in the options panel after the ope
 
 The profile starts at the bottom right of the widget and ends at the top left, as if it
 were between two edges intersecting at a right angle. Control points are created in the widget and
-then the path is sampled with the number of segments from the bevel modifier.
+then the path is sampled with the number of segments from the Bevel modifier.
 
 .. note::
 

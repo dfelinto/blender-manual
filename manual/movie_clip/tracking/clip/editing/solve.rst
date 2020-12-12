@@ -70,7 +70,7 @@ Refine
    Such refining is useful when you are not sure about some camera intrinsics,
    and solver should try to find the best parameter for those intrinsics.
    But you still have to know approximate initial values --
-   it will fail to find correct values if they were set completely incorrectly initially.
+   it will fail to find correct values if they all were incorrectly set initially.
 
    .. _bpy.types.MovieTrackingSettings.refine_intrinsics_focal_length:
 
@@ -80,7 +80,7 @@ Refine
    .. _bpy.types.MovieTrackingSettings.refine_intrinsics_principal_point:
 
    Optical Center
-      Refine the camera's :ref:`Optical Center <bpy.types.MovieTrackingCamera.principal>``
+      Refine the camera's :ref:`Optical Center <bpy.types.MovieTrackingCamera.principal>`
 
    .. _bpy.types.MovieTrackingSettings.refine_intrinsics_radial_distortion:
 

@@ -12,26 +12,23 @@ Knife Project
 
 Knife projection is a non-interactive tool where you can use objects to cookie-cut into
 the mesh rather than hand drawing the line.
-
-This works by using the outlines of other selected objects in Edit Mode to cut into the mesh
+This works by using the outlines of other selected objects in Edit Mode to cut the mesh
 along the view axis, resulting geometry inside the cutters outline will be selected.
-
-Outlines can be a wireframe or :term:`Boundary Edges<Boundary Edge>` i.e. the unconnected edges of a mesh.
+Outlines can be a wireframe or boundary edges (i.e. the unconnected edges of a mesh).
 
 .. note::
 
-    The primitives, being manifold objects, do not have wireframe or boundary edges.
-    In the case of the cube, deleting the top face will result in cutting edges.
+   The primitives, being manifold objects, do not have wireframe or boundary edges.
+   In the case of the cube, deleting the top face will result in cutting edges.
 
-    :ref:`Select Non-Manifold <bpy.ops.mesh.select_non_manifold>`
-    (Wire, Boundaries) will highlight the cutting edges of mesh objects.
+   :ref:`Select Non-Manifold <bpy.ops.mesh.select_non_manifold>`
+   (Wire, Boundaries) will highlight the cutting edges of mesh objects.
 
-To use Knife Project, first while in *Object Mode*, select the "cutting object"
-then add to that selection with :kbd:`Shift-LMB` the "object to be cut".
-Now, enter *Edit Mode* and choose :menuselection:`Mesh --> Knife Project`
-(found in the :ref:`header<ui-region-header>`).
+To use Knife Project, first while in *Object Mode*, select the cutting object
+then add to that selection with :kbd:`Shift-LMB` the object to be cut.
+Now, enter *Edit Mode* and choose :menuselection:`Mesh --> Knife Project`.
 
-.. seealso::
+.. hint::
 
    :doc:`3D Viewport Alignment </editors/3dview/navigate/align>` to adjust the projection axis.
 

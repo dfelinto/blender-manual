@@ -145,7 +145,7 @@ Color Space
    Filmic Log
       Intermediate log color space of Filmic view transform.
 Half Float Precision
-   Load the image as having only a :term:`Bit Depth` of 16 bit per channel instead of 32 bit which saves memory.
+   Load the image as having only a :term:`Bit Depth` of 16 bits per channel instead of 32 bits which saves memory.
 View as Render
    Applies :doc:`color transform </render/color_management>` when displaying this image on the screen.
 Use Multi-View

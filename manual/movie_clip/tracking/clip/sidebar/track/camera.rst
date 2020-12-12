@@ -65,8 +65,8 @@ Lens Distortion
 Coefficients
    Coefficients are used to compensate for lens distortion when the movie was shot.
    Currently these values can be tweaked by hand only (there are no calibration tools yet)
-   using tools available in Distortion mode. Basically, just tweak K1 until solving is most
-   accurate for the known focal length (but also take grid and annotations into account
+   using tools available in Distortion mode. To do this tweak K1 until the solving is the closest to
+   the known focal length (but also take grid and annotations into account
    to prevent "impossible" distortion).
 
    .. _bpy.types.MovieTrackingCamera.k:

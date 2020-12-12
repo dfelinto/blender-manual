@@ -77,7 +77,8 @@ Normalize All
    Make sure to select the right mode and disable *Lock Active*.
 
 Auto Normalize
-   Once the weights are initially normalized, the :ref:`Auto Normalize <bpy.types.ToolSettings.use_auto_normalize>` option
+   Once the weights are initially normalized,
+   the :ref:`Auto Normalize <bpy.types.ToolSettings.use_auto_normalize>` option
    can be enabled to automatically maintain normalization as you paint.
    This also tells certain tools that the weights are supposed to be already normalized.
 

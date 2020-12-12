@@ -77,7 +77,7 @@ Fill Mode
 .. _bpy.types.Curve.use_fill_deform:
 
 Fill Deformed
-   Fills the curve after applying all modification that might deform the curve (i.e. shape keys and modifiers).
+   Fills the curve after applying all modifications that might deform the curve (i.e. shape keys and modifiers).
 
 .. _curve-shape-path-curve-deform:
 

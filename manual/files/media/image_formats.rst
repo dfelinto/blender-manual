@@ -161,20 +161,20 @@ Color Depth
    10, 12, 16-bit
       Used for some formats focusing on photography and digital films
       (such as DPX and JPEG 2000).
-   16-bit half float
+   16-bit Half Float
       Since full 32bit float is often more than enough precision,
       half float can save drive space while still providing a high dynamic range.
-   32-bit float
+   32-bit Float
       Highest quality color depth.
 
    .. note::
 
       Internally Blender's image system supports either:
 
-      - 8-bit per channel (4 × 8-bits).
-      - 32-bit float per channel (4 × 32-bits) -- *using 4 times as much memory.*
+      - 8 bits per channel (4 × 8 bits).
+      - 32 bits float per channel (4 × 32 bits) -- *using 4 times as much memory.*
 
-      Images higher than 8-bits per channel will be converted into a float on loading into Blender.
+      Images higher than 8 bits per channel will be converted into a float on loading into Blender.
 Compression
    Used to reduce the size of the image file.
    How this is done may vary depending on the file format and settings used.
@@ -194,9 +194,9 @@ Format Details
 Cineon & DPX
 ------------
 
-Cineon is Kodak's standard for film scanning, 10-bits/channel and logarithmic.
+Cineon is Kodak's standard for film scanning, 10 bits per channel and logarithmic.
 DPX has been derived from Cineon as the ANSI/SMPTE industry standard.
-DPX supports 16-bits color/channel, linear as well as logarithmic.
+DPX supports 16-bit colors/channels, linear as well as logarithmic.
 DPX is currently a widely adopted standard used in the film hardware/software industry.
 
 DPX as well as Cineon only stores and converts the "visible" color range of values between 0.0
@@ -219,13 +219,13 @@ Output Options
 Available options for OpenEXR render output are:
 
 Color Depth
-   *Half* saves images in a custom 16-bits per channel floating point format.
-   This reduces the actual "bit depth" to 10-bits, with a 5-bits power value and 1-bit sign.
+   *Half* saves images in a custom 16 bits per channel floating-point format.
+   This reduces the actual "bit depth" to 10-bit, with a 5-bit power value and 1-bit sign.
 
    Float (Half), Float (Full)
 Codec
    ``PXR24``
-      Lossy algorithm from Pixar, converting 32-bits floats to 24-bits floats.
+      Lossy algorithm from Pixar, converting 32-bit floats to 24-bit floats.
    ``ZIP``
       Standard lossless compression using Zlib, operating on 16 scanlines at a time.
    ``PIZ``
@@ -252,5 +252,5 @@ Radiance is a suite of tools for lighting simulation.
 Since Radiance had the first (and for a long time the only) HDR image format,
 this format is supported by many other software packages.
 
-Radiance ``.hdr`` files store colors still in 8-bits per component, but with an additional
-(shared) 8-bits exponent value, making it 32-bits per pixel.
+Radiance ``.hdr`` files store colors still in 8 bits per component,
+but with an additional (shared) 8-bit exponent value, making it 32 bits per pixel.

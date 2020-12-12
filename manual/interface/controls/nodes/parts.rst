@@ -47,23 +47,23 @@ Float (gray)
    bright/dark reflects the value for each point.)
    If a single value is used as an input for a "value map" socket, all points of the map are set to this same value.
    Common use: Alpha maps and value options for a node.
-Vector (blue)
+Vector (dark blue)
    Indicates vector, coordinate and normal information.
-Color (yellow)
+Color/Image (yellow)
    Indicates that color information needs to be input or will be output from the node.
    Depending on the node tree type, the color has an alpha channel or not.
-Shader (bright green)
-   Used for shaders in :doc:`Cycles </render/cycles/index>` and :doc:`Eevee </render/eevee/index>`.
-Boolean (soft yellow)
+Boolean (pink)
    Used to pass a true or false value.
 Integer (lime green)
-   Used to pass an integer value.
-String (dark gray)
-   Used to pass a string value.
-Object (dark red)
+   Used to pass an integer value (a number without a fractional component).
+String (light blue)
+   Used to pass a text value.
+Geometry (turquoise)
+   Used in :doc:`Geometry Nodes </modeling/modifier/nodes/index>`.
+Object (orange)
    Used to pass an object data-block.
-Image (dark green)
-   Used to pass an image data-block.
+Shader (bright green)
+   Used for shaders in :doc:`Cycles </render/cycles/index>` and :doc:`Eevee </render/eevee/index>`.
 
 
 Inputs

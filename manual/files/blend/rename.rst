@@ -58,22 +58,23 @@ Operations
 The *Batch Rename* has several sub Operations to change the data names.
 The default operation is *Find/Replace* however, other operations can be added
 to change the data names further.
-Below all the operations gives a readout on how many data-blocks are able to be renamed.
+Below all the operations gives a message in the status bar on how many data-blocks were renamed.
+
 
 Find/Replace
 ^^^^^^^^^^^^
 
 *Find/Replace* searches for a particular text in the names and optionally replaces it with a new text.
 `Regular Expressions <https://en.wikipedia.org/wiki/Regular_expression>`__
-can be used as a powerful way to tailor the *Find*/*Replace*
-texts and can be enabled using the icon to the right of the text fields.
+can be used as a powerful way to tailor the *Find*/*Replace* texts
+and can be enabled using the icon to the right of the text fields.
 
 Find
    The text to search for in names.
 Replace
    The text to replace for in matching names found from the *Find* text.
 Case Sensitive
-   Search results must match the *Find* text's case exactly.
+   Search results must exactly match the case of the *Find* text.
 
 
 Set Name
@@ -115,9 +116,9 @@ Characters
 
 Strip From
    Start
-      Strips and any leading characters in the name.
+      Strips any leading characters in the name.
    End
-      Strips and any trailing characters in the name.
+      Strips any trailing characters in the name.
 
 
 Change Case
