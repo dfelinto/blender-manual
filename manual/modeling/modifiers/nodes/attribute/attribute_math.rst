@@ -1,4 +1,4 @@
-.. index: Nodes; Attribute; Attribute Math
+.. index:: Nodes; Attribute; Attribute Math
 .. _bpy.types.GeometryNodeAttributeMath:
 
 **************

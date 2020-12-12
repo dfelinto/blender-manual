@@ -49,7 +49,7 @@ Float (gray)
    Common use: Alpha maps and value options for a node.
 Vector (dark blue)
    Indicates vector, coordinate and normal information.
-Color/Image (yellow)
+Color (yellow)
    Indicates that color information needs to be input or will be output from the node.
    Depending on the node tree type, the color has an alpha channel or not.
 Boolean (pink)
@@ -62,6 +62,8 @@ Geometry (turquoise)
    Used in :doc:`Geometry Nodes </modeling/modifier/nodes/index>`.
 Object (orange)
    Used to pass an object data-block.
+Image (apricot)
+   Used to pass an image data-block.
 Shader (bright green)
    Used for shaders in :doc:`Cycles </render/cycles/index>` and :doc:`Eevee </render/eevee/index>`.
 

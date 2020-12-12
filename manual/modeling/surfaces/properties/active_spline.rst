@@ -9,7 +9,7 @@ Active Spline
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Properties --> Curve --> Active Spline`
 
-.. seealso:
+.. seealso::
 
    :doc:`Active Spline </modeling/curves/properties/active_spline>` for curves.
 
