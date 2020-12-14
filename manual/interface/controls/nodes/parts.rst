@@ -59,7 +59,7 @@ Integer (lime green)
 String (light blue)
    Used to pass a text value.
 Geometry (turquoise)
-   Used in :doc:`Geometry Nodes </modeling/modifier/nodes/index>`.
+   Used in :doc:`Geometry Nodes </modeling/modifiers/nodes/index>`.
 Object (orange)
    Used to pass an object data-block.
 Image (apricot)
