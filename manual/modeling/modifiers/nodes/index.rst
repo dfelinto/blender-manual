@@ -18,6 +18,7 @@ Attribute
 .. toctree::
    :maxdepth: 1
 
+   attribute/attribute_fill.rst
    attribute/attribute_math.rst
    attribute/attribute_mix.rst
    attribute/random_attribute.rst
