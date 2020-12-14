@@ -228,9 +228,7 @@ Specular
       Same as above, but for specular BSDFs.
 
 Volume
-   Transmittance
-      The transmittance pass from volume objects or world.
-   Scattering
+   Light
       The scattering pass from volume objects or world.
 
 Other

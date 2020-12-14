@@ -12,7 +12,6 @@
 	M360,100H490V300
 	M490,143H550
 	M490,193H550
-	M490,243H550
 	"/>
 
 <g fill="#E9AFAF">
@@ -27,9 +26,8 @@
 
 <g fill="#AFC6E9">
 	<rect x="530" y="130" width="140" height="30" rx="6"/>
-	<rect x="530" y="180" width="140" height="30" rx="6"/>
 </g>
-<rect fill="#C0E680" x="530" y="230" width="140" height="30" rx="6"/>
+<rect fill="#C0E680" x="530" y="180" width="140" height="30" rx="6"/>
 <rect fill="#FFE680" x="20" y="235" width="140" height="30" rx="6"/>
 <rect fill="#E9AFDD" x="20" y="285" width="140" height="30" rx="6"/>
 <rect fill="#C8C8C8" x="420" y="280" width="140" height="30" rx="6"/>
@@ -41,7 +39,6 @@
 
 	<circle cx="490" cy="143" r="10"/>
 	<circle cx="490" cy="193" r="10"/>
-	<circle cx="490" cy="243" r="10"/>
 </g>
 
 <g font-size="12px" font-family="Tahoma, sans-serif" text-anchor="middle">
@@ -51,9 +48,8 @@
 		<text x="260" y="190">×</text>
 		<text x="390" y="106">+</text>
 
-		<text x="490" y="149">×</text> 
-		<text x="490" y="198">+</text>
-		<text x="490" y="249">+</text>
+		<text x="490" y="149">+</text> 
+		<text x="490" y="199">+</text>
 	</g>
 
 	<text x="90" y="39">Diffuse Light</text>
@@ -64,9 +60,8 @@
 
 	<text x="90" y="255">Emission</text>
 	<text x="90" y="304">Environment</text>
-	<text x="600" y="150">Volume Transmittance</text>
-	<text x="600" y="200">Volume Scattering</text>
-	<text x="600" y="250">Bloom</text>
+	<text x="600" y="150">Volume Light</text>
+	<text x="600" y="200">Bloom</text>
 	<text x="490" y="300">Combined</text>
 
 </g>
