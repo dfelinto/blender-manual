@@ -13,7 +13,7 @@ To remove a simulation or particle system from their influence,
 simply turn down the influence of that type of force field in its Field Weights panel.
 
 - All types of objects and particles can generate fields,
-  but only curve object can bear *Curve Guides* fields.
+  but only curve object can bear a :doc:`/physics/forces/force_fields/types/curve_guide` field.
 - Force fields can also be generated from particles.
   See :doc:`Particle Physics </physics/particles/emitter/physics/index>`.
 - The objects need to share at least one common layer to have an effect.
