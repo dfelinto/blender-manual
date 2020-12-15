@@ -8,8 +8,8 @@ You can keep up to date with the latest changes through
 the `release notes <https://www.blender.org/download/releases/>`__.
 
 
-Support Requirements
-====================
+System Requirements
+===================
 
 Blender is available for download on Windows, macOS, and Linux.
 Always check that the graphics drivers are up to date and that OpenGL is well supported.
