@@ -23,16 +23,25 @@ Support for other hardware such as graphic tablets and 3D mice are covered later
 Download Blender
 ================
 
-Blender offers two different binary packages; you can choose from a stable release or a daily build.
-The first has the benefit of being more reliable,
-the latter provides the newest features, as they are developed, at the cost of stability.
+Blender offers a variety of different binary packages to choose from depending on their level of stability.
+Each package has the trade off of newest feature versus stability.
+The package that is right for you depends on your requirements for newest feature or stability.
+A studio for example might want to have *long-term support*, while a hobbyist may want newer features,
+while others may just want to test upcoming features.
+Each package described below has something just right for everyone.
 
-`Latest Stable Release <https://www.blender.org/download/>`__
-   This is a binary distribution of the latest version of Blender.
-   It is considered stable and without regressions.
+`Stable Release <https://www.blender.org/download/>`__
+   A package packed with the latest features and is considered stable without regressions
+   A new stable release version is available about every four months.
+
+`Long-term Support <https://www.blender.org/download/lts/>`__
+   A package designed for long-lasting projects requiring a very stable version of Blender.
+   :abbr:`LTS (Long-Term-Support)` releases are supported for two years
+   and will not have any new features, API changes or improvements.
+   A New long-term support version is available every year.
 
 `Daily Builds <https://builder.blender.org/download>`__
-   This is a binary distribution of Blender that is updated daily to include the newest changes in development.
+   A package updated daily to include the newest changes in development.
    These versions are not as thoroughly tested as the stable release, and might break,
    although they are official and usually not highly experimental.
 
