@@ -1,16 +1,16 @@
-.. index:: Nodes; Attribute; Random Attribute
-.. _bpy.types.GeometryNodeRandomAttribute:
+.. index:: Nodes; Attribute; Attribute Randomize
+.. _bpy.types.GeometryNodeAttributeRandomize:
 
-****************
-Random Attribute
-****************
+*******************
+Attribute Randomize
+*******************
 
 Populate an attribute randomly within a given range.
 
-.. figure:: /images/modeling_modifiers_nodes_random-attribute.png
+.. figure:: /images/modeling_modifiers_nodes_attribute-randomize.png
    :align: right
 
-   Random Attribute Node.
+   Attribute Randomize Node.
 
 
 Inputs

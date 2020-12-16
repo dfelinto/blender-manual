@@ -21,7 +21,7 @@ Attribute
    attribute/attribute_fill.rst
    attribute/attribute_math.rst
    attribute/attribute_mix.rst
-   attribute/random_attribute.rst
+   attribute/attribute_randomize.rst
 
 
 Color
