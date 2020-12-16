@@ -12,11 +12,6 @@ Point Distribute
 
 The *Point Distribute* node distributes points on the surface of the input geometry object.
 
-.. note::
-
-   This node only works if the modifier belongs to a point cloud object.
-
-
 Inputs
 ======
 
@@ -27,9 +22,18 @@ Geometry
 
       Only meshes are supported.
 
-Density
+Minimum Distance
+   The minimal distance points can have to each other.
+   This option is only available on distribution methods that supports it.
+
+Maximum Density
    The point density for the point distribution.
    In other words, how many points there will be within one square meter.
+
+   .. note::
+      This will be capped on distributions with the *Minimal Distance* option.
+      If the density is greater than what the minimal distance allows, no new
+      points will be added after this threshold has been passed.
 
 Density Attribute
    Which attribute to use for influencing the point density.
@@ -39,11 +43,18 @@ Density Attribute
 Properties
 ==========
 
-This node has no properties.
+Distribution Method
+   Random
+      Distribute points randomly on the surface.
+   Poisson Disk
+      Project points on the surface evenly with a Poisson disk distribution.
+
+Seed
+   The random seed to use when generating points.
 
 
-Outputs
-=======
+Output
+======
 
 Geometry
-   Standard geometry output.
+   Generated points.
