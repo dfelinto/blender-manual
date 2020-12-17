@@ -22,6 +22,7 @@ Attribute
    attribute/attribute_math.rst
    attribute/attribute_mix.rst
    attribute/attribute_randomize.rst
+   attribute/attribute_color_ramp.rst
 
 
 Color
