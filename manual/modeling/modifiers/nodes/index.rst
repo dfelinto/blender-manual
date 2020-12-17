@@ -18,6 +18,7 @@ Attribute
 .. toctree::
    :maxdepth: 1
 
+   attribute/attribute_compare.rst
    attribute/attribute_fill.rst
    attribute/attribute_math.rst
    attribute/attribute_mix.rst
@@ -81,8 +82,9 @@ Point
 .. toctree::
    :maxdepth: 1
 
-   point/point_instance.rst
    point/point_distribute.rst
+   point/point_instance.rst
+   point/point_separate.rst
 
 
 Utilities
