@@ -22,16 +22,16 @@ Geometry
 
       Only meshes are supported.
 
-Minimum Distance
+Distance Min
    The minimal distance points can have to each other.
    This option is only available on distribution methods that supports it.
 
-Maximum Density
+Density Max
    The point density for the point distribution.
    In other words, how many points there will be within one square meter.
 
    .. note::
-      This will be capped on distributions with the *Minimal Distance* option.
+      This will be capped on distributions with the *Distance Min* option.
       If the density is greater than what the minimal distance allows, no new
       points will be added after this threshold has been passed.
 
