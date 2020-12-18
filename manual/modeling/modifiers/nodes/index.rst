@@ -61,6 +61,7 @@ Nodes used mainly as input to other nodes.
    input/object_info.rst
    input/random_float.rst
    input/value.rst
+   input/vector.rst
 
 
 Mesh
