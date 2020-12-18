@@ -45,7 +45,6 @@ Nodes that can operate on different geometry types (volume, mesh).
 .. toctree::
    :maxdepth: 1
 
-   geometry/boolean.rst
    geometry/join_geometry.rst
    geometry/transform.rst
 
@@ -72,6 +71,7 @@ Nodes that only operate on meshes.
 .. toctree::
    :maxdepth: 1
 
+   mesh/boolean.rst
    mesh/edge_split.rst
    mesh/subdivision_surface.rst
    mesh/triangulate.rst
