@@ -40,7 +40,7 @@ Color
 Geometry
 ========
 
-Nodes that can operate on different geometry types (volume, point cloud, mesh).
+Nodes that can operate on different geometry types (volume, mesh).
 
 .. toctree::
    :maxdepth: 1
