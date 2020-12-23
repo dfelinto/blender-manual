@@ -218,6 +218,39 @@ Clean Up
 These tools help to cleanup degenerate geometry on the strokes.
 
 
+.. _bpy.ops.gpencil.frame_clean_fill:
+
+Boundary Strokes
+----------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Grease Pencil --> Clean Up --> Boundary Strokes`
+
+Removes boundary strokes used by the *Fill* tool.
+See :doc:`Fill tool </grease_pencil/modes/draw/tools/fill>` for more information.
+
+Mode
+   Active Frame Only
+      Removes boundary strokes from the current frame.
+   All Frames
+      Removes boundary strokes from all frames.
+
+
+Boundary Strokes all Frames
+---------------------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Grease Pencil --> Clean Up --> Boundary Strokes all Frames`
+
+Same as `Boundary Strokes`_ but *Mode* is set to *All Frames*.
+
+
 .. _bpy.ops.gpencil.frame_clean_loose:
 
 Delete Loose Points
@@ -230,20 +263,6 @@ Delete Loose Points
    :Menu:      :menuselection:`Grease Pencil --> Clean Up --> Delete Loose Points`
 
 Removes unconnected points.
-
-
-.. _bpy.ops.gpencil.frame_clean_duplicate:
-
-Delete Duplicate Frames
------------------------
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Mode:      Edit Mode
-   :Menu:      :menuselection:`Grease Pencil --> Clean Up --> Delete Duplicated Frames`
-
-Removes any duplicated animation frames.
 
 
 .. _bpy.ops.gpencil.stroke_merge_by_distance:
@@ -269,25 +288,18 @@ Unselected
    When disabled, selected points will only be merged with other selected ones.
 
 
-.. _bpy.ops.gpencil.frame_clean_fill:
+.. _bpy.ops.gpencil.frame_clean_duplicate:
 
-Boundary Strokes
-----------------
+Delete Duplicate Frames
+-----------------------
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Grease Pencil --> Clean Up --> Boundary Strokes, Boundary Strokes All Frames`
+   :Menu:      :menuselection:`Grease Pencil --> Clean Up --> Delete Duplicated Frames`
 
-Removes boundary strokes used by the *Fill* tool.
-See :doc:`Fill tool </grease_pencil/modes/draw/tools/fill>` for more information.
-
-Mode
-   Active Frame Only
-      Removes boundary strokes from the current frame.
-   All Frames
-      Removes boundary strokes from all frames.
+Removes any duplicated animation frames.
 
 
 .. _bpy.ops.gpencil.reproject:
