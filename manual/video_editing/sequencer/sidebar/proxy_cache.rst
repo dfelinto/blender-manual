@@ -27,15 +27,6 @@ Cache
    Final
       Cache final image for each frame.
 
-Recycle Up to Cost
-   Only frames with cost lower than this value will be recycled.
-
-   Each stored image has a cost assigned.
-   Cost is calculated as ratio of time spent on rendering to maximum possible time to keep up with chosen frame rate.
-   The higher the cost, the harder it is to render image.
-
-   Maximum image cost is limited to arbitrary value of 10.
-
 
 Strip Cache
 ===========
