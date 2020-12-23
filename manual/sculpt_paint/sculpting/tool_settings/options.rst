@@ -20,6 +20,12 @@ Display
       because they could give inaccurate results.
 
 Auto-Masking
+   These settings automatically mask geometry based on geometric properties of the mesh.
+   Note, these options apply across all sculpt brushes,
+   however, they can also be configured per brush in the
+   :ref:`Advanced Brush Settings <sculpt-tool-settings-brush-settings-advanced>`.
+   These options can be accessed via a :ref:`bpy.types.UIPieMenu` by pressing :kbd:`Alt-A`.
+
    Topology
       Brush affects only vertices connected to the active vertex under the brush.
    Face Sets
@@ -28,11 +34,6 @@ Auto-Masking
       Does not affect non-manifold boundary edges.
    Face Sets Boundary
       Does not affect vertices which belong to a face set boundary.
-
-.. tip::
-
-   The settings for above for auto-masking apply across all sculpt brushes. However, the Auto-Masking settings in
-   :ref:`Advanced Brush Settings <sculpt-tool-settings-brush-settings-advanced>` apply per sculpt brush.
 
 .. seealso::
 
