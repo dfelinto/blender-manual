@@ -9,3 +9,4 @@
    mesh.rst
    particles.rst
    diffusion.rst
+   viscosity.rst
