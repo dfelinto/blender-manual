@@ -85,6 +85,13 @@ Wireframe
    The value slider adjusts which edges to display by only displaying wires on prominent edges.
    Lower values hide edges with angles close to 180 degrees while a value of 1 shows shows all wires.
 
+.. _bpy.types.View3DOverlay.fade_inactive_alpha:
+.. _bpy.types.View3DOverlay.show_fade_inactive:
+
+Fade Inactive Geometry
+   Fade inactive geometry using the viewport background color.
+   The value slider controls the factor of the objects are blended with the background.
+
 .. _bpy.types.View3DOverlay.show_face_orientation:
 
 Face Orientation
@@ -92,13 +99,6 @@ Face Orientation
    all faces where the face normal points towards the camera are colored blue.
    All faces where the face normal points away from the camera are colored red.
    With this overlay, it is easy to detect the orientation of the face normals.
-
-.. _bpy.types.View3DOverlay.fade_inactive_alpha:
-.. _bpy.types.View3DOverlay.show_fade_inactive:
-
-Fade Inactive Geometry
-   Fade inactive geometry using the viewport background color.
-   The value slider controls the factor of the objects are blended with the background.
 
 
 .. _bpy.types.SpaceView3D.show_reconstruction:
