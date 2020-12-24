@@ -70,7 +70,7 @@ Refine
    Such refining is useful when you are not sure about some camera intrinsics,
    and solver should try to find the best parameter for those intrinsics.
    But you still have to know approximate initial values --
-   it will fail to find correct values if they all were incorrectly set initially.
+   it will fail to find correct values if they were set completely incorrectly initially.
 
    .. _bpy.types.MovieTrackingSettings.refine_intrinsics_focal_length:
 
@@ -96,23 +96,7 @@ Refine
 .. _editors-movie-clip-tracking-clip-solve-motion:
 
 Solve Camera/Object Motion
---------------------------
-
-The *Camera Motion* operator solves the motion of camera using all tracks placed
-on the footage and two keyframes specified on this panel. There are some requirements:
-
-- There should be at least eight common tracks on the both of the selected keyframes.
-- There should be noticeable parallax effects between these two keyframes.
-
-If everything goes smoothly during the solve, the average reprojection error is reported to
-the information space and to the Clip editor header. Reprojection error means the average
-distance between reconstructed 3D position of tracks projected back to footage and
-original position of tracks. Basically, reprojection error below 0.3 means accurate reprojection,
-(0.3 - 3.0) means quite nice solving which still can be used.
-Values above 3 means some tracks should be tracked more accurately,
-or that values for focal length or distortion coefficients were set incorrectly.
-
-.. (todo 2.62) object solver
+   See :ref:`bpy.ops.clip.solve_camera`.
 
 
 Cleanup
@@ -138,7 +122,7 @@ Type
       Bad segments of tracked sequence can be removed.
 
 Clean Tracks
-   Identifies all tracks which matches settings from above and performs desired action on them.
+   See :ref:`bpy.ops.clip.clean_tracks`.
 
 Filter Tracks
    This operator deletes obviously bad tracks (for example, the ones which are too short).
@@ -149,13 +133,9 @@ Geometry
 ========
 
 3D Markers to Mesh
-   Creates a mesh which vertices matches positions of reconstructed tracks.
-   It is required to have motion solved first before using this operator.
-   Only tracks from the current tracking object will be used.
-   The intention of this operator is to give a nice starting point for a manual mesh reconstruction.
-
+   See :ref:`bpy.ops.clip.bundles_to_mesh`.
 Link Empty to Track
-   Creates new empty in 3D Viewport and appends constraint which parts it to the active track.
+   See :ref:`bpy.ops.clip.track_to_empty`.
 
 
 Orientation
@@ -164,24 +144,15 @@ Orientation
 Scene orientation tools can be used for orienting object to bundles.
 
 Floor
-   Use selected three markers to define a floor. Camera will be transformed in a way which makes the selected
-   markers to be flat (have Z = 0).
-
+   See :ref:`bpy.ops.clip.set_origin`.
 Wall
-   Similar to the floor orientation, but defines a wall (selected tracks are placed onto the XZ plane).
-
+   See :ref:`bpy.ops.clip.set_plane`.
 Set Origin
-   Transform camera in a way which makes active track to be moved to a scene origin.
-   Only translation is applied to the camera.
-
+   See :ref:`bpy.ops.clip.set_plane`.
 Set X, Y Axis
-   Transform camera in a way which makes active track to become on X or Y axis. No translation is applied, meaning
-   scene origin which was specified before will be preserved.
-
+   See :ref:`bpy.ops.clip.set_axis`.
 Set Scale
-   Scale camera or tracking object in a way which makes distance between two selected tracks match the given value in
-   Distance.
-
+   See :ref:`bpy.ops.clip.set_scale`.
 Apply Scale
    Similar to Set Scale, but actually modifies the tracking data.
 
