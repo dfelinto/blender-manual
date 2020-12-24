@@ -13,6 +13,14 @@ This tool performs a Boolean operation based on plan determined by the camera vi
 The region of the mesh being removed is visualized by the side of the line that is shaded.
 
 
+Tool Settings
+=============
+
+Limit to Segment
+   Apply the gesture action only to the area that is contained within the
+   segment without extending its effect to the entire line.
+
+
 Usage
 =====
 

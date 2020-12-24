@@ -20,6 +20,10 @@ Tool Settings
 Front Faces Only
    Only creates a mask on the front side of faces.
 
+Limit to Segment
+   Apply the gesture action only to the area that is contained within the
+   segment without extending its effect to the entire line.
+
 
 Usage
 =====
