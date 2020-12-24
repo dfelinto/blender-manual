@@ -29,6 +29,14 @@ Trim Mode
       Similar to *Union* but joins the mesh as separate geometry,
       without performing any Boolean operations with existing geometry.
 
+Shape Orientation
+   The method used to orientate the trimming shape.
+
+   View
+      Use the view to orientate the trimming shape.
+   Surface
+      Use the surface normal to orientate the trimming shape.
+
 Use Cursor for Depth
    Use cursor location and radius for the dimensions and position of the trimming shape.
    If not set, the tool uses the full depth of the object from the camera view.
