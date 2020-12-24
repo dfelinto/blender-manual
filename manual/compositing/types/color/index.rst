@@ -14,6 +14,7 @@ overlaying another image, etc.
    bright_contrast.rst
    color_balance.rst
    color_correction.rst
+   exposure.rst
    gamma.rst
    hue_correct.rst
    hue_saturation.rst
