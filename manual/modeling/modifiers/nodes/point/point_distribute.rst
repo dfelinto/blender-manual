@@ -12,6 +12,7 @@ Point Distribute
 
 The *Point Distribute* node distributes points on the surface of the input geometry object.
 
+
 Inputs
 ======
 
@@ -31,9 +32,10 @@ Density Max
    In other words, how many points there will be within one square meter.
 
    .. note::
+
       This will be capped on distributions with the *Distance Min* option.
-      If the density is greater than what the minimal distance allows, no new
-      points will be added after this threshold has been passed.
+      If the density is greater than what the minimal distance allows,
+      no new points will be added after this threshold has been passed.
 
 Density Attribute
    Which attribute to use for influencing the point density.
@@ -50,7 +52,7 @@ Distribution Method
       Project points on the surface evenly with a Poisson disk distribution.
 
 Seed
-   The random seed to use when generating points.
+   The random :term:`Seed` to use when generating points.
 
 
 Output

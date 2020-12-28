@@ -438,7 +438,7 @@ Custom properties are always imported, and will be exported from most objects
 if the :menuselection:`Include --> Custom Properties` option is selected before export.
 These are stored in the ``extras`` field on the corresponding object in the glTF file.
 
-Unlike glTF extensions, custom properties (extras) have no defined name-space,
+Unlike glTF extensions, custom properties (extras) have no defined namespace,
 and may be used for any user-specific or application-specific purposes.
 
 

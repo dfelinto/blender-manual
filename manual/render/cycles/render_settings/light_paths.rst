@@ -9,6 +9,7 @@ Light Paths
 
    :Panel:     :menuselection:`Render --> Light Paths`
 
+
 Ray Types
 =========
 
@@ -34,6 +35,7 @@ The Light Path node can be used to find out the type of ray the shading is being
 
    The object :ref:`ray visibility <cycles-ray-visibility>` settings.
 
+
 Bounce Control
 ==============
 
@@ -48,6 +50,7 @@ Light paths are terminated probabilistically when specifying a minimum number of
 lower than the maximum. In that case, paths longer than minimum will be randomly stopped when
 they are expected to contribute less light to the image.
 This will still converge to the same image, but renders faster while possibly being noisier.
+
 
 .. _render-cycles-light-paths-transparency:
 
@@ -66,6 +69,7 @@ alpha-over compositing, while this is possible with the transparent BSDF.
 
 Note that, while semantically the ray passes through as if no geometry was hit,
 rendering performance is affected as each transparency step requires executing the shader and tracing a ray.
+
 
 Settings
 ========

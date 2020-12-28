@@ -46,4 +46,4 @@ In the example below, the Exposure node is used to increase the brightness of th
 
 .. figure:: /images/compositing_types_color_exposure_example.png
 
-   Example of a Exposure node.
+   Example of an Exposure node.

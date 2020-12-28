@@ -45,7 +45,6 @@ Set Wall
    :Mode:      Tracking
    :Menu:      :menuselection:`Reconstruction --> Set Wall`
 
-
 Similar to the floor orientation, but defines a wall (selected tracks are placed onto the XZ plane).
 
 

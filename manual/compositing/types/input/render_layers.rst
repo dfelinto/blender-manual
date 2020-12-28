@@ -32,7 +32,7 @@ Scene
 
 Render Layer
    A list of available :doc:`Render Layers </render/layers/index>`.
-   The render button is a short hand to re-render the active scene.
+   The render button is a shorthand to re-render the active scene.
 
 
 Outputs

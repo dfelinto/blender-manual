@@ -6,7 +6,7 @@ Rotation Modes
 Blender lets you define rotations in several ways. Each one of them has a series of advantages and drawbacks;
 there is no best rotation mode, as each one is suitable for specific cases.
 
-In all of these modes, positive angle values mean counter clockwise rotation direction,
+In all of these modes, positive angle values mean counter-clockwise rotation direction,
 while negative values define clockwise rotation.
 
 Though you can rotate elements using the global or local transform orientations,

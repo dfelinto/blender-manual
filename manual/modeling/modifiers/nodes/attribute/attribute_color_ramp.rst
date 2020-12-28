@@ -12,6 +12,7 @@ The resulting colors are stored on the geometry in a color attribute.
 
    Attribute Color Ramp Node.
 
+
 Inputs
 ======
 
@@ -26,12 +27,13 @@ Result
    Name of the attribute where the output is stored.
    If the attribute does not exist yet, it is created.
 
+
 Properties
 ==========
 
-
 Color Ramp
    For controls see :ref:`ui-color-ramp-widget`.
+
 
 Outputs
 =======

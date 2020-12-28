@@ -9,7 +9,7 @@ Vector
 
    Vector Node.
 
-The *Vector Node* input creates a vector for the node tree.
+The *Vector* node input creates a single vector.
 
 
 Inputs
@@ -17,12 +17,14 @@ Inputs
 
 This node has no inputs.
 
+
 Properties
 ==========
 
 - X
 - Y
 - Z
+
 
 Output
 ======

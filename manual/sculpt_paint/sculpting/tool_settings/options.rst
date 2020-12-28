@@ -21,9 +21,8 @@ Display
 
 Auto-Masking
    These settings automatically mask geometry based on geometric properties of the mesh.
-   Note, these options apply across all sculpt brushes,
-   however, they can also be configured per brush in the
-   :ref:`Advanced Brush Settings <sculpt-tool-settings-brush-settings-advanced>`.
+   Note, these options are applied across all sculpt brushes, however, they can also be configured
+   per brush in the :ref:`Advanced Brush Settings <sculpt-tool-settings-brush-settings-advanced>`.
    These options can be accessed via a :ref:`bpy.types.UIPieMenu` by pressing :kbd:`Alt-A`.
 
    Topology

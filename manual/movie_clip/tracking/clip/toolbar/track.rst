@@ -18,19 +18,19 @@ Marker
 ======
 
 Add
-   See :ref:`bpy.ops.clip.add_marker_move`
+   See :ref:`bpy.ops.clip.add_marker_move`.
 
 Delete
-   See :ref:`bpy.ops.clip.delete_track`
+   See :ref:`bpy.ops.clip.delete_track`.
 
 .. _bpy.ops.clip.detect_features:
 
 Detect Features
    Detects all possible features on the current frame and places markers at these features.
-   This operator does not take into account other frames,
-   so it can place markers on features which belong to moving objects,
-   and if camera is turning away from this shot,
-   no markers would be placed on frames after the camera moved away.
+   This operator does not take other frames into account,
+   so it might place markers on features which belong to moving objects.
+   If the camera is turning away from this shot,
+   no markers could be present within the frames after the camera moved away.
 
    There are several properties for this operator:
 
@@ -54,8 +54,8 @@ Detect Features
       To reduce the amount of manual clean-up, this parameter can be used.
    Threshold
       Limits minimal threshold for placing markers.
-      This value comes from the feature detection algorithm and
-      basically it means: low values means most probably this feature would fail to track very soon,
+      This value comes from the feature detection algorithm and it means:
+      low values means most probably this feature would fail to track very soon,
       high value means it is not much such track.
       Amount of markers to be added can be controlled with this value.
    Distance

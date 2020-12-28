@@ -5,12 +5,13 @@
 Attribute Randomize
 *******************
 
-Populate an attribute randomly within a given range.
-
 .. figure:: /images/modeling_modifiers_nodes_attribute-randomize.png
    :align: right
+   :width: 200px
 
    Attribute Randomize Node.
+
+Fills an attribute with random values within a given range.
 
 
 Inputs

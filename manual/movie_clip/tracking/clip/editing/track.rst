@@ -6,8 +6,10 @@ Track
 Clear Solution
 ==============
 
-.. _bpy.ops.clip.solve_camera:
+Todo.
 
+
+.. _bpy.ops.clip.solve_camera:
 
 Solve Solution
 ==============
@@ -32,7 +34,6 @@ or that values for focal length or distortion coefficients were set incorrectly.
 Clear After
 ===========
 
-
 Todo.
 
 
@@ -46,6 +47,7 @@ Clear Track Path
 ================
 
 Todo.
+
 
 .. _bpy.ops.clip.join_tracks:
 
@@ -123,6 +125,8 @@ Todo.
 
 Track Frame Forwards
 ====================
+
+Todo.
 
 
 .. _bpy.ops.clip.delete_track:

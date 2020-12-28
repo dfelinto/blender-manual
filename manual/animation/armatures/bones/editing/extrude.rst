@@ -92,7 +92,7 @@ The position of the root and the parenting of the new bone depends on the active
 .. figure:: /images/animation_armatures_bones_editing_extrude_mouse-clicks-1.png
    :width: 300px
 
-   Ctrl-clicking when the active element is a bone.
+   :kbd:`Ctrl`\ -clicking when the active element is a bone.
 
 If the active element is a *bone*:
 
@@ -107,7 +107,7 @@ If the active element is a *bone*:
 .. figure:: /images/animation_armatures_bones_editing_extrude_mouse-clicks-2.png
    :width: 300px
 
-   Ctrl-clicking when the active element is a tip.
+   :kbd:`Ctrl`\ -clicking when the active element is a tip.
 
 If the active element is a *tip*:
 
@@ -123,7 +123,7 @@ If the active element is a *tip*:
 .. figure:: /images/animation_armatures_bones_editing_extrude_mouse-clicks-3.png
    :width: 300px
 
-   Ctrl-clicking when the active element is a disconnected root.
+   :kbd:`Ctrl`\ -clicking when the active element is a disconnected root.
 
 If the active element is a *disconnected root*:
 
@@ -140,7 +140,7 @@ And hence the new bone will **not** be connected to any bone.
 .. figure:: /images/animation_armatures_bones_editing_extrude_mouse-clicks-4.png
    :width: 300px
 
-   Ctrl-clicking when the active element is a connected root.
+   :kbd:`Ctrl`\ -clicking when the active element is a connected root.
 
 If the active element is a *connected root*:
 

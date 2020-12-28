@@ -51,13 +51,13 @@ Color Threshold
 Turn Policy
    Determines how to resolve ambiguities during decomposition of an image into paths.
 
-   :Black:    Prefers to connect black (foreground) components.
-   :White:    Prefers to connect white (background) components.
+   :Black:    Prioritizes to connect black (foreground) components.
+   :White:    Prioritizes to connect white (background) components.
    :Left:     Always take a left turn.
    :Right:    Always take a right turn.
-   :Minority: Prefers to connect the color (black or white) that occurs
+   :Minority: Prioritizes to connect the color (black or white) that occurs
               least frequently in the local neighborhood of the current position.
-   :Majority: Prefers to connect the color (black or white) that occurs
+   :Majority: Prioritizes to connect the color (black or white) that occurs
               most frequently in the local neighborhood of the current position.
    :Random:   Choose pseudo-randomly.
 

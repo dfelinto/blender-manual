@@ -23,7 +23,7 @@ This add-on is split over two panels.
 3D Nav
 ------
 
-This panel provides some common navigation tools and emulates the numpad hot keys.
+This panel provides some common navigation tools and emulates the numpad hotkeys.
 
 .. figure:: /images/addons_3d-view_3d-navigation_panel1.jpg
    :align: right

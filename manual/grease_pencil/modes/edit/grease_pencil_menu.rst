@@ -239,7 +239,7 @@ Mode
       Removes boundary strokes from all frames.
 
 
-Boundary Strokes all Frames
+Boundary Strokes All Frames
 ---------------------------
 
 .. admonition:: Reference

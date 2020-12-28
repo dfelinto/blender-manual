@@ -75,22 +75,22 @@ Refine
    .. _bpy.types.MovieTrackingSettings.refine_intrinsics_focal_length:
 
    Focal Length
-      Refine the camera's :ref:`Focal Length <bpy.types.MovieTrackingCamera.focal_length>`
+      Refine the camera's :ref:`Focal Length <bpy.types.MovieTrackingCamera.focal_length>`.
 
    .. _bpy.types.MovieTrackingSettings.refine_intrinsics_principal_point:
 
    Optical Center
-      Refine the camera's :ref:`Optical Center <bpy.types.MovieTrackingCamera.principal>`
+      Refine the camera's :ref:`Optical Center <bpy.types.MovieTrackingCamera.principal>`.
 
    .. _bpy.types.MovieTrackingSettings.refine_intrinsics_radial_distortion:
 
    Radial Distortion
-      Refine the camera's :ref:`Radial Distortion Parameters <bpy.types.MovieTrackingCamera.k>`
+      Refine the camera's :ref:`Radial Distortion Parameters <bpy.types.MovieTrackingCamera.k>`.
 
    .. _bpy.types.MovieTrackingSettings.refine_intrinsics_tangential_distortion:
 
    Tangential Distortion
-      Refine the camera's :ref:`Tangential Distortion Parameters <bpy.types.MovieTrackingCamera.brown_p>`
+      Refine the camera's :ref:`Tangential Distortion Parameters <bpy.types.MovieTrackingCamera.brown_p>`.
 
 
 .. _editors-movie-clip-tracking-clip-solve-motion:

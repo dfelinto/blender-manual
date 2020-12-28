@@ -29,12 +29,12 @@ Before going through the tutorial you should...
 Suggested reading before starting this tutorial.
 
 - `Dive Into Python <http://getpython3.com/diveintopython3/index.html>`__ sections (1, 2, 3, 4, and 7).
-- `Blender API Quickstart <https://docs.blender.org/api/blender_python_api_current/info_quickstart.html>`__
+- `Blender API Quickstart <https://docs.blender.org/api/current/info_quickstart.html>`__
   to help become familiar with Blender/Python basics.
 
 To best troubleshoot any error message Python prints while writing scripts, you run Blender from a terminal.
 See `Use The Terminal
-<https://docs.blender.org/api/blender_python_api_current/info_tips_and_tricks.html#use-the-terminal>`__.
+<https://docs.blender.org/api/current/info_tips_and_tricks.html#use-the-terminal>`__.
 
 
 Documentation Links
@@ -42,7 +42,7 @@ Documentation Links
 
 While going through the tutorial, you may want to look into our reference documentation.
 
-- `Blender API Overview <https://docs.blender.org/api/blender_python_api_current/info_overview.html>`__:
+- `Blender API Overview <https://docs.blender.org/api/current/info_overview.html>`__:
   This document is rather detailed but helpful if you want to know more on a topic.
 - :mod:`blender_api:bpy.context` API reference --
   Handy to have a list of available items your script may operate on.
@@ -587,7 +587,7 @@ If you have specific areas you want to see example code for, this is a good plac
 
 Here are some sites you might like to check on after completing this tutorial.
 
-- `Blender/Python API Overview <https://docs.blender.org/api/blender_python_api_current/info_overview.html>`__ --
+- `Blender/Python API Overview <https://docs.blender.org/api/current/info_overview.html>`__ --
   *For more background details on Blender/Python integration.*
 - `How to Think Like a Computer Scientist <http://interactivepython.org/courselib/static/thinkcspy/index.html>`__ --
   *Great info for those who are still learning Python.*

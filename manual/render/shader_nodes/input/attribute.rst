@@ -63,9 +63,9 @@ Type
       The attribute name specifies a :ref:`custom property <files-data_blocks-custom-properties>` name,
       or an RNA path to a built-in property (like the single property :ref:`driver variables <drivers-variables>`).
 
-      The values of attributes of this type are defined once per object. The name or path is looked
-      up first in the object data-block, followed by the mesh datablock if not found. Custom properties
-      have priority over built-in ones.
+      The values of attributes of this type are defined once per object. The name or path is looked up
+      first in the object data-block, followed by the mesh data-block if not found.
+      Custom properties have priority over built-in ones.
 
       The property value must be an integer, float, or a vector of 1 to 4 floats; properties of other types
       are ignored. If a suitable property is not found, all sockets of the node, including *Alpha*, output 0.

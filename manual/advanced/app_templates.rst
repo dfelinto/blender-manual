@@ -91,7 +91,7 @@ See :ref:`blender-directory-layout` for details on script and configuration loca
 
       blender --log "bke.appdir.*" --log-level -1 --app-template my_app_template
 
-   You can then check the paths where attemps to access ``my_app_template`` are made.
+   You can then check the paths where attempts to access ``my_app_template`` are made.
 
 
 Command Line Access

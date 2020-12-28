@@ -15,7 +15,7 @@ Options
 .. figure:: /images/grease-pencil_visual-effects_swirl_panel.png
    :align: right
 
-   Shadow Visual Effect.
+   Swirl Visual Effect.
 
 Object
    Sets the object to use as the center of the swirl.

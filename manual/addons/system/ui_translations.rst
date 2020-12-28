@@ -16,7 +16,7 @@ Activation
 Description
 ===========
 
-See `Blender translation howto <https://wiki.blender.org/wiki/Dev:Doc/How_to/Translate_Blender>`__ in the Wiki.
+See `Blender translation how-to <https://wiki.blender.org/wiki/Dev:Doc/How_to/Translate_Blender>`__ in the Wiki.
 
 
 .. admonition:: Reference

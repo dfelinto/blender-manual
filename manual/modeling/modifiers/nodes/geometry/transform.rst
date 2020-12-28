@@ -26,7 +26,7 @@ Translation
 Rotation
    Euler rotation in local space.
 Scale
-   Scale to transform the geometries in local space.
+   Scale to transform the geometry in local space.
 
 
 Properties

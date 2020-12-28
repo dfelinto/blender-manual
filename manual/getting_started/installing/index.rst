@@ -25,20 +25,20 @@ Download Blender
 
 Blender offers a variety of different binary packages to choose from depending on their level of stability.
 Each package has the trade off of newest feature versus stability.
-The package that is right for you depends on your requirements for newest feature or stability.
+The package that is right for you depends on your requirements for those two.
 A studio for example might want to have *long-term support*, while a hobbyist may want newer features,
 while others may just want to test upcoming features.
 Each package described below has something just right for everyone.
 
 `Stable Release <https://www.blender.org/download/>`__
-   A package packed with the latest features and is considered stable without regressions
+   A package packed with the latest features and is considered stable without regressions.
    A new stable release version is available about every four months.
 
 `Long-term Support <https://www.blender.org/download/lts/>`__
    A package designed for long-lasting projects requiring a very stable version of Blender.
    :abbr:`LTS (Long-Term-Support)` releases are supported for two years
    and will not have any new features, API changes or improvements.
-   A New long-term support version is available every year.
+   A new long-term support version is available every year.
 
 `Daily Builds <https://builder.blender.org/download>`__
    A package updated daily to include the newest changes in development.

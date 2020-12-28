@@ -17,7 +17,7 @@ Add-ons Category Listings
 
    - Note that only add-ons released in Blender are included in this section.
    - This section lists the add-ons categories in the same order they appear in Blender
-   - Each sub section contains the documentation files for the related add-ons.
+   - Each subsection contains the documentation files for the related add-ons.
 
 .. toctree::
    :maxdepth: 1
