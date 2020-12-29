@@ -88,7 +88,7 @@ The same links can also be found in the :ref:`splash`.
 
 ------------------------
 
-`Python API Reference <https://docs.blender.org/api/blender_python_api_current/>`__
+`Python API Reference <https://docs.blender.org/api/current/>`__
    Python application programming interface (API)
 
 ------------------------

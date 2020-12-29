@@ -146,7 +146,7 @@ Online Manual
    Opens an online page of Blender Manual in a web browser.
 Online Python Reference
    Context-sensitive access to
-   the `Python API Reference <https://docs.blender.org/api/blender_python_api_current/>`__.
+   the `Python API Reference <https://docs.blender.org/api/current/>`__.
 Edit Source
    For UI development -- Creates a text data-block with the source code associated with the control,
    in case the control is based on a Python script.

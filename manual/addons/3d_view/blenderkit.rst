@@ -25,20 +25,19 @@ Basic Usage
 ===========
 
 #. Type a search term into the search field.
+
+   .. figure:: /images/addons_3d-view_blenderkit_search-sidebar.jpg
+      :width: 300px
+
 #. The result are shown in the Assetbar.
+
+   .. figure:: /images/addons_3d-view_blenderkit_assetbar.jpg
+      :width: 300px
+
 #. Drag-and-drop the material or model into your scene.
 
-.. figure:: /images/addons_3d-view_blenderkit_search-sidebar.jpg
-   :align: center
-   :width: 300px
-
-.. figure:: /images/addons_3d-view_blenderkit_assetbar.jpg
-   :align: center
-   :width: 300px
-
-.. figure:: /images/addons_3d-view_blenderkit_drag-drop.jpg
-   :align: center
-   :width: 300px
+   .. figure:: /images/addons_3d-view_blenderkit_drag-drop.jpg
+      :width: 300px
 
 
 Interface
@@ -59,23 +58,22 @@ Assetbar
    :align: center
    :width: 600px
 
-Assetbar shows search results and allows users to interact with them.
-The Assetbar pops up when the search results are retrieved from the server.
-It can be shown or hidden by clicking the toggle with the eye icon next to the search field.
+The Assetbar shows search results and allows you to interact with them.
+It pops up when the search results are retrieved from the server.
+The Assetbar can be shown or hidden by clicking the toggle with the eye icon next to the search field.
 
 Actions that can be performed in the Assetbar:
 
 - Drag and dropping an object or material directly into the scene.
-- Click a result to link/append it to the scene.
-- Open the context menu of a result for further interaction:
+- Click a item to link/append it to the scene.
+- Open the context menu of a item for further interaction:
 
   Open Authors Website
-     Opens a web browser and goes to the web presentation that the author specified.
+      Opens the link that the author has specified in a web browser.
   Show Assets by Author
      Shows all assets uploaded by the author of the selected 3D model.
   Replace Active Models
-     You need to select several assets to use this option from the Selected Model panel.
-     All those selected will be replaced with the last asset selected (active).
+     Replace all selected assets with the last selected asset (active).
      If you use this option from the context menu, the target asset is downloaded and replaces selected assets.
 
 - Use the :kbd:`Wheel` to scroll the results.
@@ -94,10 +92,10 @@ BlenderKit Profile Panel
    :align: right
    :width: 300px
 
-This panel shows the user's login information and information about the user's public and private remaining storage.
+This panel shows your login information and information about your public and private remaining storage.
 
 See My Uploads
-   Open the BlenderKit website and show a list of the author's assets.
+   Open the BlenderKit website and show a list of your assets.
 
 
 BlenderKit Login Panel
@@ -120,7 +118,7 @@ Log In
 .. _bpy.ops.wm.blenderkit_logout:
 
 Log Out
-   Log out from BlenderKit immediately.
+   Log out from BlenderKit.
 
 
 Find and Upload Assets Panel
@@ -138,7 +136,7 @@ Find and Upload Assets Panel
 The main panel enables you to Search or Upload all supported asset types.
 
 Search/Upload
-   Switch the main panel between Search and Upload functionality.
+   Switch the main panel between the Search and Upload tabs.
 
 
 Search and Download
@@ -153,26 +151,23 @@ Search and Download
    :align: right
    :width: 300px
 
-
 Models/Materials/Brushes
-^^^^^^^^^^^^^^^^^^^^^^^^
+   Switch between asset types available in BlenderKit.
 
-Switch between asset types available in BlenderKit.
-
-These fields are common for all asset types:
+These controls are common for all asset types:
 
 .. _bpy.ops.view3d.blenderkit_search:
 
 Search
    Search assets by name.
 Show (eye icon) :kbd:`;`
-   Show/hide Assetbar interface.
+   Show/hide the Assetbar viewport overlay.
 Style
    Search filter limiting the results (realistic, painted, polygonal, and other).
 
 
-Options Visible for Models Search
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Models Search Options
+^^^^^^^^^^^^^^^^^^^^^
 
 .. admonition:: Reference
    :class: refbox
@@ -189,36 +184,35 @@ My Assets
 Free Only
    Show only free models. This option is available only for models, since all Materials and all Brushes are free.
 
-Search filters subpanel:
+Search Filters:
+   .. _bpy.data.scenes.blenderkit_models.search_condition:
 
-.. _bpy.data.scenes.blenderkit_models.search_condition:
+   Condition
+      Condition of the object.
 
-Condition
-   Condition of the object.
+      New, Used, Old, Desolate
 
-   New, Used, Old, Desolate
+   .. _bpy.data.scenes.blenderkit_models.search_design_year:
 
-.. _bpy.data.scenes.blenderkit_models.search_design_year:
+   Designed In (min - max)
+      When the object was approximately designed in terms of *year*.
+      Can be used for parallel worlds or future :abbr:`sci-fi (Science Fiction)` dates
+      (search for sci-fi assets by entering 2100 as minimum year).
 
-Designed In (min - max)
-   When the object was approximately designed in terms of *year*.
-   Can be used for parallel worlds or future :abbr:`sci-fi (Science Fiction)` dates
-   (search for sci-fi assets by entering 2100 as minimum year).
+   .. _bpy.data.scenes.blenderkit_models.search_polycount:
 
-.. _bpy.data.scenes.blenderkit_models.search_polycount:
+   Poly Count In (min - max)
+      Use the poly count of 3D object for filtering.
 
-Poly Count In (min - max)
-   Use the poly count of 3D object for filtering.
+   .. _bpy.data.scenes.blenderkit_models.search_texture_resolution:
 
-.. _bpy.data.scenes.blenderkit_models.search_texture_resolution:
+   Texture Resolution (min - max)
+      Limit search to the texture resolutions in a range.
 
-Texture Resolution (min - max)
-   Limit search to the texture resolutions in a range.
+   .. _bpy.data.scenes.blenderkit_models.search_file_size:
 
-.. _bpy.data.scenes.blenderkit_models.search_file_size:
-
-File Size (min - max)
-   Limit search file size. This uses the basic file size of the original file.
+   File Size (min - max)
+      Limit search file size. This uses the basic file size of the original file.
 
 
 Categories
@@ -280,8 +274,8 @@ Threshold
    Limit perpendicular snap.
 
 
-Options Visible for Materials Search:
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Materials Search Options
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. admonition:: Reference
    :class: refbox
@@ -328,11 +322,11 @@ Import Settings
 .. _bpy.data.scenes.blenderkit_mat.automap:
 
 Auto-Map
-   Add cube mapping UV to the object after drag drop.
+   Add cube mapping UV to the object after drag-and-drop.
    This allows most materials to be applied instantly to any mesh.
    BlenderKit generates a new UV map called 'automap', and doesn't replace your previous UV maps.
-   The action also resets texture space of the target object to (1.0, 1.0, 1.0).
-   This enables most procedural materials to have correct scaling.
+   It also resets the texture space of the target object to (1, 1, 1)
+   which enables most procedural materials to have correct scaling.
 
 
 Upload
@@ -342,15 +336,15 @@ Models/Materials/Brushes
    Switch between asset types which are available to upload in BlenderKit.
 
 
-Common Options for All Assets Types
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Common Options
+^^^^^^^^^^^^^^
 
 .. figure:: /images/addons_3d-view_blenderkit_sidebar-upload-model-public-design.jpg
    :align: right
    :width: 300px
 
 Hide Asset Preview
-   Show/Hide asset preview, which shows how approximately will the asset look for people searching the database.
+   Show/Hide asset preview, which shows how the asset will approximately look for people searching the database.
 
 .. _bpy.ops.wm.url_open:
 
@@ -362,26 +356,25 @@ Read Upload Instructions
 
 Upload
    Upload or re-upload the 3D model.
-   In the operator you can choose if you want to update the files.
-   If both file and thumbnail are off, only metadata gets updated.
+   In the operator you can choose if you want to update the file.
+   If both file and thumbnail are deactivated, only the metadata get updated.
 Category
-   Main category to place the model into.
+   The main category to place the model into.
 Subcategory
-   Subcategory to place the model into.
+   The subcategory to place the model into.
 
 .. _bpy.data.materials.blenderkit.is_private:
 
 Private/Public
-   Set the assets privacy. Assets marked as Public go into
-   the `Validation <https://www.blenderkit.com/docs/validation-status>`__
-   process automatically. Private assets will be hidden to the public.
-   Private assets are limited by a quota.
+   Set the assets privacy. Assets marked as Public will be automatically submitted into
+   the `Validation <https://www.blenderkit.com/docs/validation-status>`__ process.
+   Private assets will be hidden to the public and are limited in quantity by a quota.
 
 .. _bpy.data.materials.blenderkit.license:
 
 License
    BlenderKit offers two `licenses <https://www.blenderkit.com/docs/licenses>`__ for the assets.
-   Both licenses allow for non-commercial and commercial use.
+   Both licenses allow for commercial and non-commercial use.
 
    :Royalty free: Royalty-free commercial license
    :Creative Commons Zero: Creative Commons Zero
@@ -398,7 +391,7 @@ Name
 .. _bpy.data.materials.blenderkit.thumbnail:
 
 Thumbnail
-   Thumbnail. Path to the thumbnail a square image (at least 512×512 JPG image).
+   The path to the preview image (square, at least 512×512 px, JPG image).
 
 Generate Thumbnail
    Automatically generate a thumbnail for the 3D model assets.
@@ -414,8 +407,8 @@ Tags
    List of tags, separated by commas. Include at least three tags.
 
 
-Options Specific for Models
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Models Only Options
+^^^^^^^^^^^^^^^^^^^
 
 .. _bpy.objects.blenderkit.style:
 
@@ -435,16 +428,16 @@ Style
 .. _bpy.objects.blenderkit.production_level:
 
 Production Level
-   Production state of the asset. Also template should be actually finished,
+   Production state of the asset. Also templates should be actually finished,
    just the nature of it can be a template, like a thumbnail scene,
    finished mesh topology as start for modeling or similar:
 
    :Finished:
-      For public database, the asset should always be ready for rendering.
+      For the public database. The asset should always be ready for rendering.
       Assets without materials aren't accepted into the public database.
    :Template:
-      Templates are models that have general usability, and have clear description of
-      how the asset is supposed to work. An example can be a beverage can with a prepared texture slot.
+      Templates are models that have general usability and have a clear description of how
+      the asset is supposed to work. An example can be a beverage can with a prepared texture slot.
 
 .. _bpy.objects.blenderkit.condition:
 
@@ -456,20 +449,19 @@ Condition
 .. _bpy.objects.blenderkit.is_free:
 
 Free for Everyone
-   You consent you want to release this asset as free for everyone,
+   You consent to that you want to release this asset as free for everyone,
    under the license specified in the license field.
 
 .. _bpy.objects.blenderkit.pbr:
 
 PBR Compatible
-   Is compatible with `PBR standard <https://www.blenderkit.com/docs/pure-pbr-assetes>`__.
+   The asset meets the `PBR standard <https://www.blenderkit.com/docs/pure-pbr-assetes>`__.
 
-Design properties:
-
+Design Properties:
    .. _bpy.objects.blenderkit.manufacturer:
 
    Manufacturer
-      Company making the design piece or product.
+      The company making the design piece or product.
 
    .. _bpy.objects.blenderkit.designer:
 
@@ -497,8 +489,9 @@ Design properties:
    .. _bpy.objects.blenderkit.work_hours:
 
    Work Hours
-      How long it takes to finish the asset? This value isn't used in BlenderKit score mechanism,
-      but serves as comparison for administrators on how `rating system performs <https://www.blenderkit.com/docs/rating>`__
+      How long it has taken you to finish the asset? This value isn't used in
+      the BlenderKit scoring mechanism, but serves as comparison for administrators on
+      how the `rating system performs <https://www.blenderkit.com/docs/rating>`__.
 
    .. _bpy.objects.blenderkit.adult:
 
@@ -506,8 +499,8 @@ Design properties:
       Mark adult content.
 
 
-Options Specific for Materials Only
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Materials Only Options
+^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: /images/addons_3d-view_blenderkit_sidebar-upload-material.jpg
    :align: right
@@ -516,8 +509,9 @@ Options Specific for Materials Only
 .. _bpy.data.materials.blenderkit.pbr:
 
 Pure PBR Compatible
-   Is compatible with `PBR standard <https://www.blenderkit.com/docs/pure-pbr-assetes>`__.
-   This means only image textures are used with no procedural textures and no color correction, only PBR shader is used.
+   The asset is meets the `PBR standard <https://www.blenderkit.com/docs/pure-pbr-assetes>`__.
+   This means only image textures are used with no procedural textures and
+   no color correction, only PBR shaders are used.
 
 .. _bpy.data.materials.blenderkit.uv:
 
@@ -532,11 +526,11 @@ Animated
 .. _bpy.data.materials.blenderkit.texture_size_meters:
 
 Texture Size in Meters
-   If the material uses Textures, this value sets the length of one side of the texture.
+   If the material uses textures, this value sets the length of one side of the texture.
    This value is very important so that the materials apply with correct scale.
 
 Thumbnail
-   Path to the thumbnail (512×512 jpg-file image).
+   Path to the thumbnail (512×512 px JPG image).
    Needs always to be the image generated with the BlenderKit thumbnail generator, or with the same look.
    Only exceptions are special effects like fire.
 
@@ -554,33 +548,32 @@ Selected Model/Name Panel
 
    :Panel:     :menuselection:`Sidebar --> BlenderKit --> Selected model`
 
-This panel shows up if you select a 3D model downloaded from BlenderKit.
-Name of the model appears below.
+This panel is shown if you select a 3D model downloaded from BlenderKit.
+The name of the model appears below.
 
 Bring to Scene
-   Bring linked object hierarchy to scene and make it editable.
+   Bring the linked object hierarchy to a scene and make it editable.
    This is similar as if you would originally append the asset.
 Ratings
-   You can rate the assets by giving them stars with a maximum of 10.
+   You can rate an asset by giving it stars (with a maximum of 10).
 Work Hours
    Estimate how many hour you saved thanks to this asset.
    Rating helps BlenderKit distribute rewards to authors,
-   and thus it is very important to rate assets and do it in a fair way.
+   and thus it is very important for us that you rate assets and do it in a fair manner.
 
 Asset tools:
+   Open Authors Website
+      Opens the link that the author has specified in a web browser.
 
-Open Authors Website
-   Opens a web browser and goes to the web presentation that the author specified.
+   Show Assets by Author
+      Shows all assets uploaded by the author of the selected 3D model.
 
-Show Assets by Author
-   Shows all assets uploaded by the author of the selected 3D model.
+   Replace Active Models
+      Replace all selected assets with the last selected asset (active).
+      If you use this option from the context menu,
+      the target asset is downloaded and replaces selected assets.
 
-Replace Active Models
-   You need to select several assets to use this option from the *Selected Model* panel --
-   all will be replaced with the last asset selected (active). If you use this option from
-   the context menu, the target asset is downloaded and replaces selected assets.
-
-The same options are available when you right click in the Assetbar.
+The same options are available in the Assetbar context menu.
 
 Management Tools:
    Delete
@@ -589,7 +582,7 @@ Management Tools:
 Downloads:
    This panel is visible when there are running downloads.
    You can cancel downloading of assets by pressing the ``X`` button.
-   This cancels the download immediately and deletes the file on your computer.
+   This cancels the download and deletes the file on your computer.
 
 
 Preferences
@@ -600,46 +593,47 @@ Preferences
    :width: 600px
 
 Show Assetbar when Starting Blender
-   Shows Assetbar after Blender startup.
-Log out
-   Log out from BlenderKit immediately.
+   Shows Assetbar after the Blender startup.
+Log Out
+   Log out from BlenderKit.
 Your API Key
-   The BlenderKit API Key stores your API key that is retrieved automatically
-   when you Login to the service, and is used to connect to BlenderKit server.
+   The BlenderKit API Key stores your API key that is automatically retrieved
+   when you log in to the service and is used to connect to BlenderKit server.
    Don't change this value manually.
 Global Files Directory
    Global storage for your asset files. Set this up on a hard drive where you have enough space to store the assets.
 Project Assets Subdirectory
-   Naming of the subdirectory where your assets will be stored.
+   Name of the subdirectory where your assets will be stored.
    For each blend-file where you use BlenderKit assets, a subdirectory will be created in the same folder.
    This enables you to compress the whole directory and transfer it to a render farm or another workstation.
 
 Use Directories:
    Which directories will be used for storing download data.
 
-   :Global and Subdirectory:
-      Use both previously mentioned methods.
    :Global:
-      Store downloaded files only in global directory. This saves drive space -- assets are only stored in one place.
+      Store downloaded files only in a global directory. This saves drive space by storing assets only in one place.
       You have to pack your project carefully when transferring it to another computer,
       since the assets won't be in the subfolder of the current project.
    :Local:
-      store downloaded files only in local directory.
-      This option can use more bandwidth when you reuse assets in different projects,
+      Store downloaded files only in a local directory.
+      This option can uses more bandwidth when you reuse assets in different projects,
       since the add-on won't find assets that are already in different folders.
       However, it enables you to pack your projects easily.
+   :Global and Subdirectory:
+      Use both previously mentioned methods.
 
 Use GPU for Thumbnails Rendering
-   By default the CPU is used so that the user can continue their work while the thumbnail renders in the background.
+   By default the CPU is used so that the user can continue their work
+   while the thumbnail is rendered in the background.
 Asset Thumbnail Size
-   Size of the asset thumbnails in the Assetbar UI element.
+   Size of the asset thumbnails in the Assetbar.
 Max Assetbar Rows
-   Number of rows for the Assetbar UI element.
+   Number of rows in the Assetbar.
 Show Tips when Starting Blender
    Show tips when starting Blender.
 Show BlenderKit Search in 3D Header
-   Show extra keyword search field in the header of the 3D viewport.
-   This enables fast access to search with a hidden Sidebar.
+   Show an extra search field in the header of the 3D Viewport.
+   This enables a quick access to the search when the Sidebar is hidden.
 
 
 Tutorials
