@@ -3,9 +3,9 @@
 .. _bpy.ops.clip:
 .. _editors-movieclip-index:
 
-######################
-  Tracking & Masking
-######################
+#############################
+  Motion Tracking & Masking
+#############################
 
 .. toctree::
    :maxdepth: 2
