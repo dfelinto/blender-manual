@@ -16,18 +16,18 @@ Activation
 Interface
 =========
 
-Located in the :menuselection:`3D Viewport --> Sidebar --> View tab`.
+Located in the :menuselection:`3D Viewport --> Sidebar --> View`.
 This add-on is split over two panels.
 
 
-3D Nav
-------
-
-This panel provides some common navigation tools and emulates the numpad hotkeys.
+3D Navigation
+-------------
 
 .. figure:: /images/addons_3d-view_3d-navigation_panel1.jpg
    :align: right
    :width: 220px
+
+This panel provides some common navigation tools and emulates the numpad hotkeys.
 
 View Global/Local
     Switch Global/Local view.
@@ -64,11 +64,11 @@ Cursor
 Pan Orbit Zoom Roll
 -------------------
 
-This panel provides incremental "User Screen View Perspective" navigation in the Sidebar.
-
 .. figure:: /images/addons_3d-view_3d-navigation_panel2.jpg
    :align: right
    :width: 220px
+
+This panel provides incremental "User Screen View Perspective" navigation in the Sidebar.
 
 Up
    Move towards the top of your screen.
