@@ -419,20 +419,20 @@ texinfo_documents = [
 # -- Options for Epub output ----------------------------------------------
 
 # Bibliographic Dublin Core info.
-epub_title = 'Blender Reference Manual'
-epub_author = 'Blender Documentation Team'
+# These default to their non epub counterparts.
+# epub_title = ''
+# epub_author = ''
 epub_publisher = 'Blender Foundation'
 epub_copyright = 'This manual is licensed under a CC-BY-SA 4.0 Int. License.'
 
 # The basename for the epub file. It defaults to the project name.
-# epub_basename = project
+# epub_basename = ''
 
 # The HTML theme for the epub output. Since the default themes are not
 # optimized for small screen space, using the same theme for HTML and epub
 # output is usually not wise. This defaults to 'epub', a theme designed to save
 # visual space.
-#
-# epub_theme = 'epub'
+epub_theme = 'epub'
 
 # The language of the text. It defaults to the language option
 # or 'en' if the language is not set.
@@ -470,7 +470,7 @@ epub_copyright = 'This manual is licensed under a CC-BY-SA 4.0 Int. License.'
 # epub_post_files = []
 
 # A list of files that should not be packed into the epub file.
-epub_exclude_files = ['search.html']
+epub_exclude_files = ['search.html, 404.html']
 
 # The depth of the table of contents in toc.ncx.
 #
