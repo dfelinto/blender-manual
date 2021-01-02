@@ -3,8 +3,8 @@
 Introduction
 ************
 
-The Clip View is used is the main part of the of the Movie Clip editor.
-Almost all motion tracking tools are concentrated in the Movie Clip Editor.
+The Clip View is the main part of the Movie Clip editor;
+almost all motion tracking tools are concentrated within the Clip View.
 
 It should be mentioned that the camera solver consists of three quite separate steps:
 
