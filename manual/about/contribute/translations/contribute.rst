@@ -70,11 +70,11 @@ Now you can build the manual with the translation applied:
 
 On Linux and macOS run::
 
-   make -e LANGUAGE=fr
+   make -e BF_LANG=fr
 
 On Windows run::
 
-   set LANGUAGE=fr
+   set BF_LANG=fr
    make html
 
 Now you will have a build of the manual with translations applied.
