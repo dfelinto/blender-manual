@@ -73,6 +73,8 @@ Emit From
          Some modifiers like the Edge Split Modifier break up the surface,
          in which case volume emission will not work correctly!
 
+.. _bpy.types.ParticleSettings.use_modifier_stack:
+
 Use Modifier Stack
    Take any :doc:`Modifiers </modeling/modifiers/introduction>` above the Particle Modifier
    in the :ref:`modifier stack <modifier-stack>` into account when emitting particles,

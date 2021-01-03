@@ -90,13 +90,12 @@ Physics
 .. toctree::
    :maxdepth: 1
 
-   /physics/cloth/index.rst
-   /physics/collision.rst
-   /physics/dynamic_paint/index.rst
+   physics/cloth.rst
+   physics/collision.rst
+   physics/dynamic_paint.rst
    physics/explode.rst
-   /physics/fluid/index.rst
+   physics/fluid.rst
    physics/ocean.rst
    physics/particle_instance.rst
-   /physics/particles/index.rst
-   /physics/soft_body/index.rst
-
+   physics/particle_system.rst
+   physics/soft_body.rst
