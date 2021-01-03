@@ -65,7 +65,11 @@ Sun Rotation
    Rotation of the sun around the zenith (in degrees).
 
 Altitude
-   Height from sea level to the space (in km).
+   The distance in kilometers from sea level to the point the camera is observing.
+   For example, if the camera is placed on a beach a value of 0 should be used, however,
+   if the camera is in the cockpit of a flying airplane a value of 10km will be more suitable.
+   Note, this is limited to 60km because the mathematical model only accounts
+   for the first two layers of the earth's atmosphere (which ends around 60km).
 
 Air
    Density of air molecules.
