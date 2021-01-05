@@ -78,9 +78,6 @@ html: .SPHINXBUILD_EXISTS
 	@echo "To view, run:"
 	@echo "  "$(OPEN_CMD) $(shell pwd)"/$(BUILDDIR)/html/$(CONTENTS_HTML)"
 
-html_server: .SPHINXBUILD_EXISTS
-	$(SPHINXBUILD) -a -E -b html $(SPHINXOPTS) $(SOURCEDIR) "$(BUILDDIR)/html"
-
 latexpdf: .SPHINXBUILD_EXISTS
 	@QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
 	$(SPHINXBUILD) -M latexpdf "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
