@@ -1,0 +1,12 @@
+/*
+ * This stylesheet is applied after the theme's default one,
+ * and thus any overrides or additions can be added here.
+ *
+ * More info:
+ *		https://www.sphinx-doc.org/en/master/extdev/appapi.html#sphinx.application.Sphinx.add_css_file
+ */
+
+.align-right {
+   float: right;
+   margin: 0 0 24px 24px;
+}

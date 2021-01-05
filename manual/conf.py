@@ -433,6 +433,8 @@ epub_copyright = 'This manual is licensed under a CC-BY-SA 4.0 Int. License.'
 # visual space.
 epub_theme = 'epub'
 
+epub_css_files = ["css/epub_overrides.css"]
+
 # The language of the text. It defaults to the language option
 # or 'en' if the language is not set.
 #
