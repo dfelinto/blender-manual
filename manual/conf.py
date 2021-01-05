@@ -423,6 +423,7 @@ texinfo_documents = [
 # epub_author = ''
 epub_publisher = 'Blender Foundation'
 epub_copyright = 'This manual is licensed under a CC-BY-SA 4.0 Int. License.'
+epub_description = 'Blender Reference Manual'
 
 # The basename for the epub file. It defaults to the project name.
 # epub_basename = ''
