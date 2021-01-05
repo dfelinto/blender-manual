@@ -48,7 +48,7 @@ No texture data-blocks are needed; instead node groups can be used for reusing t
 For UV mapping and texture painting in the 3D Viewport, the Image Texture node must be used.
 When setting such a node as active, it will be displayed in the 3D Viewport
 while using :doc:`Texture color </render/workbench/color>` mode.
-This method can us to for seeing painted textures while texture painting.
+This method can be used to preview painted textures while texture painting.
 
 The default texture coordinates for all nodes are Generated coordinates,
 with the exception of Image textures that use UV coordinates by default.
