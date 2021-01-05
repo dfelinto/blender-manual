@@ -227,11 +227,10 @@ html_favicon = "../resources/theme/favicon.ico"
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["../resources/theme"]
 
-def setup(app):
-    if html_theme == "sphinx_rtd_theme":
-        app.add_css_file("css/theme_overrides.css")
-        app.add_css_file("css/version_switch.css")
-        app.add_js_file("js/version_switch.js")
+if html_theme == "sphinx_rtd_theme":
+    html_css_files = ["css/theme_overrides.css",
+                      "css/version_switch.css"]
+    html_js_files = ["js/version_switch.js"]
 
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied
