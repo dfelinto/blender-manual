@@ -43,10 +43,10 @@ Color
 
       where :math:`\beta_{N}` is the radial roughness of the hair after applying randomization (if specified).
 
-.. figure:: /images/render_shader-nodes_shader_hair-principled_demo-color.jpg
-   :align: center
+   .. figure:: /images/render_shader-nodes_shader_hair-principled_demo-color.jpg
+      :align: center
 
-   Coloring hair using the Direct coloring parametrization. (The numbers on top are the RGB values.)
+      Coloring hair using the Direct coloring parametrization. (The numbers on top are the RGB values.)
 
 Melanin
    Absolute quantity of pigment.
@@ -60,10 +60,10 @@ Melanin
 
          melanin\_qty = -\ln(\max(1.0 - Melanin, 0.0001))
 
-.. figure:: /images/render_shader-nodes_shader_hair-principled_demo-melanin.jpg
-   :align: center
+   .. figure:: /images/render_shader-nodes_shader_hair-principled_demo-melanin.jpg
+      :align: center
 
-   Melanin.
+      Melanin.
 
 Melanin Redness
    Ratio of pheomelanin to eumelanin.
@@ -84,10 +84,10 @@ Melanin Redness
          eumelanin   * \left[\begin{matrix} 0.506 \\ 0.841 \\ 1.653 \\ \end{matrix}\right] +
          pheomelanin * \left[\begin{matrix} 0.343 \\ 0.733 \\ 1.924 \\ \end{matrix}\right]
 
-.. figure:: /images/render_shader-nodes_shader_hair-principled_demo-melanin-redness.jpg
-   :align: center
+   .. figure:: /images/render_shader-nodes_shader_hair-principled_demo-melanin-redness.jpg
+      :align: center
 
-   Melanin Redness.
+      Melanin Redness.
 
 Tint
    Color used for dyeing the hair after applying the melanin pigment.
@@ -99,10 +99,10 @@ Tint
       This is converted via the Color mapping above and added to
       the absorption coefficient of the melanin concentration.
 
-.. figure:: /images/render_shader-nodes_shader_hair-principled_demo-tint.jpg
-   :align: center
+   .. figure:: /images/render_shader-nodes_shader_hair-principled_demo-tint.jpg
+      :align: center
 
-   Tint, using Melanin 0.1 and the corresponding RGB values.
+      Tint, using Melanin 0.1 and the corresponding RGB values.
 
 Absorption Coefficient
    Attenuation coefficient :math:`\sigma`.
@@ -111,10 +111,10 @@ Roughness
    Too low values will smoothen the hair to the point of looking almost metallic,
    making glints look like :term:`Fireflies`; while setting it too high will result in a Lambertian look.
 
-.. figure:: /images/render_shader-nodes_shader_hair-principled_demo-roughness.jpg
-   :align: center
+   .. figure:: /images/render_shader-nodes_shader_hair-principled_demo-roughness.jpg
+      :align: center
 
-   Roughness.
+      Roughness.
 
 Radial Roughness
    Specify how much the glints are smoothed in the direction of the hair tangent.
@@ -136,10 +136,10 @@ Coat
    only for the first light bounce (diffuse).
    Range :math:`[0, 1]` equivalent to a reduction of :math:`[0\%, 100\%]` of the original Roughness.
 
-.. figure:: /images/render_shader-nodes_shader_hair-principled_demo-coat.jpg
-   :align: center
+   .. figure:: /images/render_shader-nodes_shader_hair-principled_demo-coat.jpg
+      :align: center
 
-   Coat.
+      Coat.
 
 IOR
    Index of refraction (:term:`IOR`) defining how much the ray changes direction.
@@ -160,10 +160,10 @@ Random Color
       The melanin concentration is multiplied by :math:`randomFactor`,
       where :math:`randomFactor = 1.0 + 2.0*(Random - 0.5) * RandomColor`.
 
-.. figure:: /images/render_shader-nodes_shader_hair-principled_demo-random-color.jpg
-   :align: center
+   .. figure:: /images/render_shader-nodes_shader_hair-principled_demo-random-color.jpg
+      :align: center
 
-   Random Color.
+      Random Color.
 
 Random Roughness
    For each strand, vary both Roughness values by :math:`RandomFactor`.
@@ -174,10 +174,10 @@ Random Roughness
 
       The applied formula is the same one as for *Random Color*.
 
-.. figure:: /images/render_shader-nodes_shader_hair-principled_demo-random-roughness.jpg
-   :align: center
+   .. figure:: /images/render_shader-nodes_shader_hair-principled_demo-random-roughness.jpg
+      :align: center
 
-   Random Roughness.
+      Random Roughness.
 
 Random
    Random number source. If no node is connected here, it is automatically
