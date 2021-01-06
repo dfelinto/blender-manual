@@ -14,7 +14,7 @@ This node reads two input attributes as floats and allows for basic element-wise
 Like the :doc:`Attribute Math </modeling/modifiers/nodes/attribute/attribute_math>` node,
 it is also possible to switch to using single values for inputs. This node can be combined with
 the :doc:`Point Separate </modeling/modifiers/nodes/point/point_separate>` node for more flexibility
-for which points to separate out.
+for which points to separate to the second output geometry.
 
 
 Inputs
@@ -27,9 +27,9 @@ A, B
    The first and second input to the math operation.
    Depending on the *Type* input, this is either an attribute name or an input of the specified data type.
 
-Epsilon
-   For the *Equal* and *Not Equal* operations, this value is used as a threshold for still considering
-   the two inputs as equal.
+Threshold
+   This value is used as a threshold for still considering the two inputs as equal
+   for the *Equal* and *Not Equal* operations, 
 
 Result
    Name of the attribute where the computed result it stored.
@@ -48,7 +48,7 @@ Operation
       For operations besides *Equal* and *Not Equal*, the input attributes
       are converted implicitly to the float data type.
       For the equality operations on vectors, the distance between
-      the vector inputs are used.
+      the vector inputs is used.
 
 Type A, B
    Controls whether to use an attribute or a single value of the specified data type as an input.

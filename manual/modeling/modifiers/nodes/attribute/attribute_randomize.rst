@@ -46,6 +46,9 @@ Type
    Vector
       Array of three (floating point) values.
 
+   Boolean
+      A true or false value.
+
 
 Outputs
 =======

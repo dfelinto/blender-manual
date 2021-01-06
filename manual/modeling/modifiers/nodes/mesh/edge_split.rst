@@ -8,9 +8,9 @@ Edge Split
 .. figure:: /images/modeling_modifiers_nodes_edge-split.png
    :align: right
 
-   Edge Split Node.
+   The Edge Split Node.
 
-Like the :doc:`/modeling/modifiers/generate/edge_split` the *Edge Split* node splits, duplicates edges
+Like the :doc:`/modeling/modifiers/generate/edge_split`, the *Edge Split* node splits and duplicates edges
 within a mesh, breaking 'links' between faces around those split edges.
 
 .. note::

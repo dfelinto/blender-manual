@@ -8,7 +8,7 @@ Point Distribute
 .. figure:: /images/modeling_modifiers_nodes_point-distribute.png
    :align: right
 
-   Point Distribute Node.
+   The Point Distribute Node.
 
 The *Point Distribute* node distributes points on the surface of the input geometry object.
 
@@ -21,25 +21,25 @@ Geometry
 
    .. note::
 
-      Only meshes are supported.
+      The input geometry must contain a mesh with faces.
 
 Distance Min
    The minimal distance points can have to each other.
    This option is only available on distribution methods that supports it.
 
 Density Max
-   The point density for the point distribution.
-   In other words, how many points there will be within one square meter.
+   The point density for the point distribution. The units are number of points per square meter.
+   This value is multiplied by the values from the *Density Attribute*.
 
    .. note::
 
-      This will be capped on distributions with the *Distance Min* option.
+      This will be capped on distributions by the *Distance Min* option.
       If the density is greater than what the minimal distance allows,
       no new points will be added after this threshold has been passed.
 
 Density Attribute
-   Which attribute to use for influencing the point density.
-   The input values are mapped between zero and the *Density*.
+   The name of the attribute to use for influencing the point density.
+   The values of this attribute are multiplied by *Density Max* for the final density value.
 
 
 Properties
@@ -48,8 +48,9 @@ Properties
 Distribution Method
    Random
       Distribute points randomly on the surface.
+
    Poisson Disk
-      Project points on the surface evenly with a Poisson disk distribution.
+      Distribute points more evenly on the XY plane, then project them to the mesh along the Z axis.
 
 Seed
    The random :term:`Seed` to use when generating points.

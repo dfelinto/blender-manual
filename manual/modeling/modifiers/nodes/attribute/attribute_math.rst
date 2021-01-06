@@ -10,7 +10,7 @@ Modify an attribute with a math operation.
 .. figure:: /images/modeling_modifiers_nodes_attribute-math.png
    :align: right
 
-   Attribute Math Node.
+   The Attribute Math Node.
 
 
 Inputs
@@ -25,8 +25,8 @@ A, B
 
 Result
    Name of the attribute where the computed result it stored.
-   A new attribute with that name is added, if it does not exist yet.
-   If it does exist, the existing attribute is overridden.
+   A new attribute with that name is added if it does not exist yet.
+   If it does exist, the values of the existing attribute are overridden.
 
 
 Properties
