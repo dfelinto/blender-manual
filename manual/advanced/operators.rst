@@ -107,13 +107,13 @@ to benchmark UI render times along with undo/redo functions.
 
 .. _bpy.ops.screen.spacedata_cleanup:
 
-Clean-Up Space-Data
+Clean Up Space-Data
 -------------------
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      All Modes
-   :Menu:      :menuselection:`Topbar --> Blender --> System --> Clean-up Space-data`
+   :Menu:      :menuselection:`Topbar --> Blender --> System --> Clean Up Space-data`
 
 Removes unused settings for invisible editors.
