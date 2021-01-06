@@ -53,6 +53,9 @@ Tooltips
       When enabled, a tooltip will appear when your mouse pointer is over a control.
       This tip explains the function of what is under the pointer,
       shows the associated hotkey (if any).
+
+   .. _prefs-interface-tooltips-python:
+
    Python Tooltips
       Displays a property's Python information below the tooltip.
 
