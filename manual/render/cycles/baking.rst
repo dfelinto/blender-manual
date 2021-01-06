@@ -25,8 +25,10 @@ This has a few different purposes, most commonly:
 Setup
 =====
 
-Baking requires a mesh to have a UV map, and an Image Texture node with an image to be baked to.
-The active (last selected) Image Texture node is used as the baking target.
+Baking requires a mesh to have a UV map, and either Vertex Colors
+or an Image Texture node with an image to be baked to.
+
+The :term:`Active` Image Texture node or Vertex Color is used as the baking target.
 
 Use Render Bake in intensive light/shadow solutions,
 such as AO or soft shadows from area lights. If you bake AO for the main objects,
@@ -127,7 +129,7 @@ Cage Extrusion
       Both meshes need to have the same :term:`Topology` (number of faces and face order).
 
 Max Ray Distance
-   Distance to use for the inward ray cast when using selected to active.
+   Distance to use for the inward ray cast when using *Selected to Active*.
    Ray distance is only available when not using *Cage*.
 
 
