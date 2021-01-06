@@ -5,7 +5,7 @@
 Triangulate Modifier
 ********************
 
-The *Triangulate* modifier converts all faces in a mesh (quads and polygons) to triangular faces.
+The *Triangulate* modifier converts all faces in a mesh (quads and n-gons) to triangular faces.
 It fulfills the exact same function as the :ref:`Triangulate <bpy.ops.mesh.quads_convert_to_tris>` tool in Edit Mode.
 
 .. list-table::
@@ -44,7 +44,7 @@ Polygon Method
    Beauty
       Arrange the new triangles nicely, slower method.
    Clip
-      Split the polygons using an ear-clipping algorithm
+      Splits n-gons using an ear-clipping algorithm
       (gives similar results to the tessellation used for the viewport rendering).
 
 Minimum Vertices

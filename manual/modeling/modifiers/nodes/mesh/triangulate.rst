@@ -10,7 +10,7 @@ Triangulate
 
    Triangulate Node.
 
-The *Triangulate* node converts all faces in a mesh (quads and polygons) to triangular faces.
+The *Triangulate* node converts all faces in a mesh (quads and n-gons) to triangular faces.
 It functions the same as the :ref:`Triangulate <bpy.ops.mesh.quads_convert_to_tris>` tool in Edit Mode.
 
 
@@ -43,7 +43,7 @@ Polygon Method
    Beauty
       Arrange the new triangles nicely, slower method.
    Clip
-      Split the polygons using an ear-clipping algorithm
+      Splits n-gons using an ear-clipping algorithm
       (gives similar results to the tessellation used for the viewport rendering).
 
 
