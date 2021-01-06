@@ -40,29 +40,36 @@ Extrude
 .. _bpy.types.Curve.taper_object:
 
 Taper Object
-   The taper curve is evaluated along the local X axis,
-   using the local Y axis for width control. Note also that:
    Tapering a curve causes it to get thinner towards one end.
    You can also alter the proportions of the Taper throughout the tapered object
    by moving/scaling/rotating the control points of the Taper Object.
-   The Taper Object can only be another curve.
-   Editing the handles and control points of the Taper Object will cause the original Object to change shape.
 
-   In order for this to work:
+   The taper curve is evaluated along the local X axis, using the local Y axis for width control.
 
-   - It must be an *open curve*.
+   In order for this to work the Taper Object can only be another *open curve*.
+
+   Details:
+
    - The taper is applied independently to all curves of the extruded object.
    - Only the first curve in a *Taper Object* is evaluated, even if you have several separated segments.
    - The scaling starts at the first control point on the left
      and moves along the curve to the last control point on the right.
    - Negative scaling, (e.g. negative local Y on the taper curve) is possible as well.
      However, rendering artifacts may appear.
-   - Might need to increase the curve resolution to see more detail of the taper.
+   - You may need to increase the curve resolution to see more detail of the taper.
+   - The Taper Object is distributed by control points.
+     Therefor unevenly spaced control points may applier to stretch the shape of the taper.
+     Subdividing segments causes those points to use a larger fraction of the overall taper shape.
    - With closed curves, the taper curve in *Taper Object* acts along the whole curve (perimeter of the object),
      not just the length of the object, and varies the extrusion depth. In these cases,
      you want the relative height of the *Taper Object*
      Taper curve at both ends to be the same, so that the cyclic point
      (the place where the endpoint of the curve connects to the beginning) is a smooth transition.
+
+   .. hint::
+
+      Editing the handles and control points of the Taper Object
+      will cause the original Object to change shape in real-time.
 
 .. _bpy.types.Curve.use_map_taper:
 
