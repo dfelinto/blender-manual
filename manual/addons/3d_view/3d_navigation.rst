@@ -31,7 +31,7 @@ This panel provides some common navigation tools and emulates the numpad hotkeys
 
 View Global/Local
     Switch Global/Local view.
-View Persp/Ortho
+View Perspective/Orthographic
    Switch perspective/orthographic view mode.
 View Camera
    View from active camera.

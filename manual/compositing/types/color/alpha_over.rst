@@ -29,22 +29,20 @@ Properties
 ==========
 
 Convert Premultiplied
-   Converts foreground image to *premultiplied alpha* format.
+   Converts foreground image to :term:`Premultiplied Alpha` format.
 
-   The *Alpha Over* node is designed to work with *premultiplied* alpha color format.
-   Use *Convert Premul* when you know that your image has *straight* alpha color values,
+   The *Alpha Over* node is designed to work with premultiplied alpha color format.
+   Use this checkbox when you know that your image has :term:`Straight Alpha` color values,
    to perform the correct over operation. Result will still be premultiplied alpha.
 
-   See :term:`Alpha Channel`.
-
 Premultiply
-   The *Premul* slider allows to mix between the using *premultiplied* or *non premultiplied* alpha.
+   Mix between using :term:`Premultiplied Alpha` or :term:`Straight Alpha`.
 
-   When set to 1, the foreground color values will be multiplied by alpha, i.e. premultiplied.
-   This is equivalent to enabling the *Convert Premul* option.
+   When set to 1, the foreground color values will be multiplied by alpha, i.e. premultiplied;
+   this is equivalent to enabling *Convert Premultiplied*.
    When set to 0, color values does not change.
 
-   If *Premultiply* is not zero, *Convert Premul* will be ignored.
+   If *Premultiply* is not zero, *Convert Premultiplied* will be ignored.
 
    .. note:: This is a legacy option.
 
@@ -84,5 +82,5 @@ starts with the pure background image, and the title slowly appearing.
 
    Animated fade in effect using Alpha Over.
 
-Note the *Convert Premul* checkbox is enabled,
-since as the foreground used a PNG image that has *straight* alpha.
+Note the *Convert Premultiply* checkbox is enabled,
+since as the foreground used a PNG image that has straight alpha.

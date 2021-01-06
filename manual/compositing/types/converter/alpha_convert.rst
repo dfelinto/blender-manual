@@ -11,7 +11,7 @@ Alpha Convert Node
 
 The *Alpha Convert Node* converts the alpha channel interpretation of an image.
 
-For compositing and rendering, premultiplied alpha is the standard in Blender.
+For compositing and rendering, :term:`Premultiplied Alpha` is the standard in Blender.
 Render layers will be premultiplied alpha, and images loaded into rendering
 or compositing will be converted to this.
 
@@ -34,9 +34,13 @@ Properties
 ==========
 
 Mapping
-   Straight to Premul, Premul to Straight
-      Conversion in both directions. Premul. stands for Premultiplied.
-      For details on the difference between both ways to store alpha values see :term:`Alpha Channel`.
+   The direction of convert alpha.
+   For details on the difference between both ways to store alpha values see :term:`Alpha Channel`.
+
+   To Premultiplied
+      Converts from :term:`Straight Alpha` to :term:`Premultiplied Alpha`.
+   To Straight
+      Converts from :term:`Premultiplied Alpha` to :term:`Straight Alpha`.
 
 
 Outputs
