@@ -118,7 +118,7 @@ Show in
 
 .. _bpy.types.Object.use_empty_image_alpha:
 
-Transparency
+Opacity
    Blends the image with the background. The value slider adjusts the opacity of the image,
    changing how much of the image is blended with the background.
 
