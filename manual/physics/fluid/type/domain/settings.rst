@@ -32,7 +32,7 @@ then select *Domain* as the fluid *Type*.
 Domain Type
    A fluid domain can control either liquid or gas flows. Liquid domains take all liquid flow
    objects that intersect with the domain into consideration. Gas domains consider all
-   intersecting *Smoke*, *Fire*, and *Smoke + Fire* flow objects. It is not possible to change
+   intersecting *Smoke*, *Fire*, and *Smoke & Fire* flow objects. It is not possible to change
    the domain type dynamically.
 
 .. _bpy.types.FluidDomainSettings.resolution_max:
