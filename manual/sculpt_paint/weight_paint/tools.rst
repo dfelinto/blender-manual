@@ -71,6 +71,7 @@ Gradient
 Sample
    Weights
       Sets the brush *Weight* as the weight selected under the cursor.
+      The sampled weight is displayed in the tool settings.
    Vertex Group
       Displays a list of possible vertex groups to select that are under the cursor.
 
