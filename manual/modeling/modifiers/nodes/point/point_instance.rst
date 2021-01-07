@@ -16,7 +16,7 @@ It works for both point cloud and mesh vertices.
 .. warning::
 
    Because the output geometry is only a set of instances objects or collections, the *Attribute* nodes
-   will not work on the output of this node. The location, rotation, and scale of individual points should
+   will not work on the output of this node. The position, rotation, and scale of individual points should
    be adjusted before this node.
 
 
@@ -25,8 +25,7 @@ Inputs
 
 Geometry
    Standard geometry input.
-   The **location**, **rotation**, and **scale** or **radius** attributes affect the transform of each instanced
-   object.
+   The **position**, **rotation**, and **scale** attributes affect the transform of each instanced object.
 
 Object
    The object to instantiate.
