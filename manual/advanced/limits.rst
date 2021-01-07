@@ -43,7 +43,7 @@ Here's a table of scales and their associated accuracy:
 .. hint::
 
    For a rough rule of thumb, values within -5,000/+5,000 are typically reliable (range of 10,000).
-   Internally *single precision* floating point calculations are used.
+   Internally *single precision* floating-point calculations are used.
 
 
 Time

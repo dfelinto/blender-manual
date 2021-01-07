@@ -26,7 +26,7 @@ This node has no input sockets.
 Properties
 ==========
 
-Single numerical value (floating point).
+Single numerical value (floating-point).
 
 
 Outputs

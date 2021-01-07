@@ -257,7 +257,7 @@ To take advantage of this, the driver expression must only use the following fea
 Variable Names
    Use only ASCII characters.
 Literals
-   Floating point and decimal integer.
+   Floating-point and decimal integer.
 Globals
    ``frame``
 Constants

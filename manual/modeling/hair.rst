@@ -49,10 +49,10 @@ Custom Attributes
    Data Type
       The type of data to store in the attribute.
 
-      :Float: Floating point value
+      :Float: Floating-point value
       :Integer: 32-bit integer
-      :Vector: 3D vector with floating point values
-      :Float Color: RGBA color with floating point precision
+      :Vector: 3D vector with floating-point values
+      :Float Color: RGBA color with floating-point precision
       :Byte Color: RGBA color with 8-bit precision
       :String: Text string
 

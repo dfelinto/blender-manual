@@ -41,10 +41,10 @@ Type
    Type of data stored in the attribute.
 
    Float
-      Single (floating point) value.
+      Single (floating-point) value.
 
    Vector
-      Array of three (floating point) values.
+      Array of three (floating-point) values.
 
    Boolean
       A true or false value.

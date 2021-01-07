@@ -9,7 +9,7 @@ Random Float
 
    Random Float Node.
 
-The *Random Float* generates a random (floating point) value from a given range.
+The *Random Float* generates a random (floating-point) value from a given range.
 
 
 Inputs
