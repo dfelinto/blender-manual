@@ -11,6 +11,7 @@
    :maxdepth: 2
 
    introduction.rst
+   colors.rst
 
 
 Types
