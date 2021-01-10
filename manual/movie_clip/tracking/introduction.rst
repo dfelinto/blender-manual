@@ -15,7 +15,7 @@ Views
 =====
 
 In Tracking Mode there are three different views available. You can toggle between view modes using
-the View dropdown, which is located in the header.
+the View drop-down, which is located in the header.
 When you selected a view in the whole area of the Movie Clip editor will change.
 Hence, to display a curve or dope sheet view, the editor must be split into two,
 with one switched to the curve or dope sheet view.

@@ -17,7 +17,7 @@ and *Apply* a modifier if you wish to make its changes permanent.
 
    Modifiers menu.
 
-They can be added to the active object using the *Add Modifier* dropdown menu at the top of their properties tab.
+They can be added to the active object using the *Add Modifier* drop-down menu at the top of their properties tab.
 New modifiers are always added at the bottom of the :ref:`stack <modifier-stack>` (i.e. will be applied last).
 
 There are four types of modifiers:
