@@ -1,7 +1,6 @@
 .. _bpy.types.CompositorNodeBrightContrast:
 .. Editors Note: This page gets copied into:
-.. - :doc:`</render/cycles/nodes/types/color/bright_contrast>`
-.. - :doc:`</physics/simulation/nodes/color/bright_contrast>`
+.. - :doc:`</render/shader_nodes/color/bright_contrast>`
 
 .. --- copy below this line ---
 
