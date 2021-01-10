@@ -20,6 +20,8 @@ CHAPTERS_FULL:=$(filter %/, $(wildcard manual/*/))
 CHAPTERS:=$(notdir $(sort $(CHAPTERS_FULL:%/=%)))
 # intersect make goals and possible chapters
 QUICKY_CHAPTERS=$(filter $(MAKECMDGOALS),$(CHAPTERS))
+# Remove chapters from command line arguments.
+CMD_ARGS_WITHOUT_CHAPTERS=$(filter-out $(CHAPTERS),$@)
 
 
 # -----------------------
@@ -150,5 +152,7 @@ help:
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option. $(O) is meant as a shortcut for $(SPHINXOPTS).
 %: Makefile .SPHINXBUILD_EXISTS
-	@QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
-	$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+	@if [ -n "$(CMD_ARGS_WITHOUT_CHAPTERS)" ]; then \
+		QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
+		$(SPHINXBUILD) -M $(CMD_ARGS_WITHOUT_CHAPTERS) "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O); \
+	fi
