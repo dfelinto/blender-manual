@@ -18,7 +18,8 @@ Alternatively, you can go to :menuselection:`Add --> Action Strip`.
 .. note::
 
    Action Strips only playback the keyframe data that fits into the length of the strip.
-   This includes any :doc:`modifiers </editors/graph_editor/fcurves/sidebar/modifiers>` that might extend keyframe data.
+   This includes any :doc:`modifiers </editors/graph_editor/fcurves/sidebar/modifiers>`
+   that might extend keyframe data.
 
 
 Transition Strips

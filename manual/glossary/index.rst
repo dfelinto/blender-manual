@@ -832,7 +832,8 @@ This page lists definitions for terms used in Blender and this manual.
       See :term:`Vertex`, :term:`Edge`, and :term:`Face`.
 
    Transform
-      The combination of location, rotation, and scale. Can be expressed in :term:`World Space` or :term:`Local Space`.
+      The combination of location, rotation, and scale.
+      Can be expressed in :term:`World Space` or :term:`Local Space`.
 
    Triangle
       :term:`Face` with exactly three :term:`Vertices <Vertex>`.

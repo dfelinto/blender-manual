@@ -27,6 +27,6 @@ Saturation
 
 
 Color Ramp
-===========
+==========
 
 Activates a color ramp which allows you to remap the colors of a texture to new ones.
