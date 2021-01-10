@@ -151,6 +151,9 @@ help:
 
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option. $(O) is meant as a shortcut for $(SPHINXOPTS).
+#
+# $(CMD_ARGS_WITHOUT_CHAPTERS) is used so building single chapters doesn't interfere
+# with sphinx arguments.
 %: Makefile .SPHINXBUILD_EXISTS
 	@if [ -n "$(CMD_ARGS_WITHOUT_CHAPTERS)" ]; then \
 		QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
