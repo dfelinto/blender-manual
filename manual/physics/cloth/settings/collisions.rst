@@ -64,6 +64,9 @@ Distance
 Impulse Clamping
    Prevents explosions in tight and complicated collision situations
    by restricting the amount of movement after a collision.
+Vertex Group
+   Faces that have all vertices assigned to this
+   :doc:`Vertex Group </modeling/meshes/properties/vertex_groups/index>` are excluded from collision with objects.
 Collision Collection
    Only objects that are a part of this :doc:`Collection </scene_layout/collections/index>`
    can collide with the cloth. Note that these objects must also have Collision physics enabled.
@@ -93,8 +96,8 @@ Impulse Clamping
    Prevents explosions in tight and complicated collision situations
    by restricting the amount of movement after a collision.
 Vertex Group
-   Only vertices that are a part of this
-   :doc:`Vertex Group </modeling/meshes/properties/vertex_groups/index>` can collide with each other.
+   Faces that have all vertices assigned to this
+   :doc:`Vertex Group </modeling/meshes/properties/vertex_groups/index>` are excluded from self-collision.
 
 .. seealso::
 

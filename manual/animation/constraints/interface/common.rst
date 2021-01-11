@@ -77,6 +77,8 @@ When a constraint uses both Target and Owner space,
 the Target and Owner can be any combination of space types.
 
 
+.. _rigging-constraints-interface-common-space-types:
+
 Space Types
 -----------
 
@@ -88,22 +90,25 @@ World Space
    higher up in the constraint stack are all taken into account.
 
 Local Space
-   In this space type the parent of the object (or bone) is the frame of reference.
-   Location is relative to the parent object origin.
-   Rotation and Scale are oriented to the parent object axes.
-   Only transformations to the object itself are taken into account.
-   Transformations to the object's parent are **not** taken into account.
+   This space excludes all effects of the parent objects or bones, as well as the rest position
+   and orientation of the bone itself. Only transformations applied to the object or bone itself
+   are taken into account.
 
 Local with Parent (bones only)
-   The bone properties are evaluated relative to its rest pose location and orientation, thus
-   including both its own transformations and those caused by a possible parent relationship
+   The bone position and orientation is evaluated relative to its rest pose location and orientation,
+   thus including both its own transformations and those caused by a possible parent relationship
    (i.e. the chain's transformations above the bone).
 
 Pose Space (bones only)
-   The bone properties are evaluated in the armature object local space
+   The bone position and orientation is evaluated in the armature object local space
    (i.e. independently from the armature transformations in *Object Mode*).
    Hence, if the armature object has null transformations,
    *Pose Space* will have the same effect as *World Space*.
+
+Custom Space
+   The position and orientation is evaluated relative to the current position and orientation of an
+   arbitrary object or bone that is specified via additional input fields that appear when this option
+   is selected. This can be used to evaluate the constraint using an arbitrary coordinate system.
 
 
 .. _bpy.types.constraint.influence:

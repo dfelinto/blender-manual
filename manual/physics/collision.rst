@@ -24,6 +24,12 @@ and :doc:`Cloth objects </physics/cloth/index>` may collide with mesh objects.
 If you change the deflection settings for an object you have to recalculate the particle,
 soft body or cloth system by *Delete Bake*, this is not done automatically.
 
+.. figure:: /images/physics_collision_toggle.png
+   :align: right
+
+A collider object can be temporarily disabled via an animatable toggle to the right of the
+button that permanently activates or deactivates it.
+
 
 Options
 =======
@@ -32,9 +38,8 @@ Options
 
    Collision panel.
 
-
-Force Field
------------
+Collision
+---------
 
 Field Absorption
    A deflector can also deflect effectors. You can specify some collision/deflector objects which deflect a specific
@@ -118,7 +123,8 @@ Friction
    For example, silk has a lower coefficient of friction than cotton.
 
 Single Sided
-   When enabled, cloth collisions are only performed on the normal side of the collider plane.
+   When enabled, the collider is considered to represent the boundary of a solid object
+   rather than a thin surface, and ejects intersecting cloth in the direction of its normal.
 
 Override Normals
    When enabled, cloth collision impulses act in the direction of the collider normals.
