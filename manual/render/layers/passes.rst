@@ -1,17 +1,10 @@
 .. _bpy.types.RenderLayer:
+.. _render-cycles-passes:
+.. _render-eevee-passes:
 
 ******
 Passes
 ******
-
-Passes can be used to split rendered images into colors, direct and indirect light to edit them individually,
-and also to extract data such as depth or normals.
-
-
-.. _render-cycles-passes:
-
-Cycles
-======
 
 .. admonition:: Reference
    :class: refbox
@@ -23,7 +16,10 @@ and also to extract data such as depth or normals.
 
 
 Data
-----
+====
+
+Cycles
+------
 
 Include
    Combined
@@ -79,8 +75,26 @@ Alpha Threshold
    With higher values surfaces that are mostly transparent can be skipped until an opaque surface is encountered.
 
 
-Light
+Eevee
 -----
+
+Include
+   Combined
+      The final combination of render passes with everything included.
+   Z
+      Distance to any visible surfaces.
+   Mist
+      Distance to visible surfaces, mapped to the 0.0 - 1.0 range.
+   Normal
+      Surface normal used for shading.
+
+
+
+Light
+=====
+
+Cycles
+------
 
 Diffuse
    Direct
@@ -129,89 +143,7 @@ Other
    for that a glass BSDF with index of refraction 1.0 can be used.
 
 
-Combining
-^^^^^^^^^
-
-All these lighting passes can be combined to produce the final image as follows:
-
-.. figure:: /images/render_layers_passes_combine.svg
-
-
-Cryptomatte
------------
-
-Cryptomatte is a standard to efficiently create mattes for compositing.
-Cycles outputs the required render passes, which can then be used in the Blender Compositor
-or another compositor with Cryptomatte support to create masks for specified objects.
-
-Unlike the Material and Object Index passes, the objects to isolate are selected in compositing,
-and mattes will be anti-aliased and take into account effects like motion blur and transparency.
-
-Include
-   Object
-      Render cryptomatte object pass, for isolating objects in compositing.
-   Material
-      Render cryptomatte material pass, for isolating materials in compositing.
-   Asset
-      Render cryptomatte asset pass, for isolating groups of objects with the same
-      :doc:`parent </scene_layout/object/editing/parent>` in compositing.
-
-Levels
-   Sets how many unique objects can be distinguished per pixel.
-Accurate Mode
-   Generate a more accurate Cryptomatte pass. CPU only, may render slower and use more memory.
-
-
-Typical Workflow
-^^^^^^^^^^^^^^^^
-
-#. Enable Cryptomatte Object render pass in the Passes panel, and render.
-#. In the compositing nodes, create a Cryptomatte node and
-   link the Render Layer matching Image and Cryptomatte passes to it.
-#. Attach a Viewer node to the Pick output of the Cryptomatte node.
-#. Use the Cryptomatte Add/Remove button to sample objects in the Pick Viewer node.
-#. Use the Matte output of the Cryptomatte node to get the alpha mask.
-
-.. seealso::
-
-   :doc:`Cryptomatte Node </compositing/types/matte/cryptomatte>`.
-
-
-.. _render-cycles-passes-aov:
-
-.. include:: passes_aov.rst
-   :start-line: 1
-
-
-.. _render-eevee-passes:
-
 Eevee
-=====
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Panel:     :menuselection:`Scene --> View Layers --> Passes`
-
-Passes can be used to split rendered images into colors and light to edit them individually,
-and also to extract data such as depth or normals.
-
-
-Data
-----
-
-Include
-   Combined
-      The final combination of render passes with everything included.
-   Z
-      Distance to any visible surfaces.
-   Mist
-      Distance to visible surfaces, mapped to the 0.0 - 1.0 range.
-   Normal
-      Surface normal used for shading.
-
-
-Light
 -----
 
 Diffuse
@@ -245,22 +177,16 @@ Other
 
 
 Effects
--------
+=======
+
+:guilabel:`Eevee only`
 
 Bloom
    The influence of the Bloom effect.
 
 
-Combining
----------
-
-The passes can be combined to produce the final image as follows:
-
-.. figure:: /images/render_layers_passes_eevee-combine.svg
-
-
 Cryptomatte
------------
+===========
 
 Cryptomatte is a standard to efficiently create mattes for compositing.
 Cycles outputs the required render passes, which can then be used in the Blender Compositor
@@ -275,18 +201,17 @@ Include
    Material
       Render cryptomatte material pass, for isolating materials in compositing.
    Asset
-      Render cryptomatte asset pass, for isolating groups of objects with
-      the same :doc:`parent </scene_layout/object/editing/parent>` in compositing.
+      Render cryptomatte asset pass, for isolating groups of objects with the same
+      :doc:`parent </scene_layout/object/editing/parent>` in compositing.
 
 Levels
    Sets how many unique objects can be distinguished per pixel.
 Accurate Mode
-   Generate a more accurate Cryptomatte pass by evaluating more samples.
-   When turned off, the levels setting determines the number of samples to evaluate.
+   Generate a more accurate Cryptomatte pass. CPU only, may render slower and use more memory.
 
 
 Typical Workflow
-^^^^^^^^^^^^^^^^
+----------------
 
 #. Enable Cryptomatte Object render pass in the Passes panel, and render.
 #. In the compositing nodes, create a Cryptomatte node and
@@ -300,10 +225,47 @@ Typical Workflow
    :doc:`Cryptomatte Node </compositing/types/matte/cryptomatte>`.
 
 
+.. _render-cycles-passes-aov:
 .. _render-eevee-passes-aov:
 
-.. include:: passes_aov.rst
+Shader AOV
+==========
 
+Shader AOVs (Arbitrary Output Variables) provide custom render passes for any shader node components.
+As an artist this can be a good way to fix or tweak fine details of a scene in post-processing.
+To use Shader AOVs create the pass in the *Shader AOV* panel then reference this pass with
+the :doc:`AOV Output </render/shader_nodes/output/aov>` shading node.
+Shader AOVs can be added or removed in the *Shader AOV* panel.
+In this panel is a list of all AOV passes; each AOV in the list consists of a *Name* and *Data Type*.
+
+Name
+   The name of the render pass; this is the *Name* that is referenced in the *AOV Output* node.
+   Any names can be used for these passes,
+   as long as they do not conflict with built-in passes that are enabled.
+
+Data Type
+   Shader AOVs can either express a *Color* or a *Value* output.
+   The *Color* type as the name suggest can be used for a color but also for normals.
+   A *Value* type can be used for any single numerical value.
+
+
+Combining
+=========
+
+Cycles
+------
+
+All these lighting passes can be combined to produce the final image as follows:
+
+.. figure:: /images/render_layers_passes_combine.svg
+
+
+Eevee
+-----
+
+The passes can be combined to produce the final image as follows:
+
+.. figure:: /images/render_layers_passes_eevee-combine.svg
 
 
 Known Limitations
