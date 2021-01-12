@@ -1,4 +1,4 @@
-.. index:: Nodes; Separate RGB
+.. index:: Geometry Nodes; Separate RGB
 
 ************
 Separate RGB

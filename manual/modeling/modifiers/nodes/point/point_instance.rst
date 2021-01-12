@@ -1,4 +1,4 @@
-.. index:: Nodes; Mesh; Point Instance
+.. index:: Geometry Nodes; Point Instance
 .. _bpy.types.GeometryNodePointInstance:
 
 **************

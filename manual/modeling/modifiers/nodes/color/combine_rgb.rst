@@ -1,4 +1,4 @@
-.. index:: Nodes; Combine RGB
+.. index:: Geometry Nodes; Combine RGB
 
 ***********
 Combine RGB

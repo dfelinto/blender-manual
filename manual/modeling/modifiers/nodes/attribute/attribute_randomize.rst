@@ -1,4 +1,4 @@
-.. index:: Nodes; Attribute; Attribute Randomize
+.. index:: Geometry Nodes; Attribute Randomize
 .. _bpy.types.GeometryNodeAttributeRandomize:
 
 *******************

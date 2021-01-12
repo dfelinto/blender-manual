@@ -1,4 +1,4 @@
-.. index:: Nodes; Transform
+.. index:: Geometry Nodes; Transform
 .. _bpy.types.GeometryNodeTransform:
 
 *********

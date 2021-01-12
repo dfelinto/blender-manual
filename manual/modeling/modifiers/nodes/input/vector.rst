@@ -1,4 +1,4 @@
-.. index:: Nodes; Input; Vector
+.. index:: Geometry Nodes; Vector
 
 ******
 Vector

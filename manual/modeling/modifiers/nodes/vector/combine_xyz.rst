@@ -1,4 +1,4 @@
-.. index:: Nodes; Combine XYZ
+.. index:: Geometry Nodes; Combine XYZ
 
 ***********
 Combine XYZ

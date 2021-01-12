@@ -1,4 +1,4 @@
-.. index:: Nodes; Point Separate
+.. index:: Geometry Nodes; Point Separate
 .. _bpy.types.GeometryNodePointSeparate:
 
 **************

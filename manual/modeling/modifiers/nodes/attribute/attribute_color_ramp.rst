@@ -1,4 +1,4 @@
-.. index:: Nodes; Attribute; Attribute Color Ramp
+.. index:: Geometry Nodes; Attribute Color Ramp
 
 ********************
 Attribute Color Ramp

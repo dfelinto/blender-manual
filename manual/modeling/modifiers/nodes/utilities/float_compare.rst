@@ -1,4 +1,4 @@
-.. index:: Nodes; Mesh; Float Compare
+.. index:: Geometry Nodes; Float Compare
 .. _bpy.types.FunctionNodeFloatCompare:
 
 *************

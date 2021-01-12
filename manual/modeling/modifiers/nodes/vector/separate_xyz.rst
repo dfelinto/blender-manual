@@ -1,4 +1,4 @@
-.. index:: Nodes; Separate XYZ
+.. index:: Geometry Nodes; Separate XYZ
 
 ************
 Separate XYZ

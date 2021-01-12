@@ -1,4 +1,4 @@
-.. index:: Nodes; Boolean
+.. index:: Geometry Nodes; Boolean
 .. _bpy.types.GeometryNodeBoolean:
 
 *******

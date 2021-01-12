@@ -1,4 +1,4 @@
-.. index:: Nodes; Geometry
+.. index:: Geometry Nodes; Join Geometry
 .. _bpy.types.GeometryNodeJoinGeometry:
 
 *************

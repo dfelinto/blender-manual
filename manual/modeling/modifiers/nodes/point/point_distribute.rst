@@ -1,4 +1,4 @@
-.. index:: Nodes; Mesh; Point Distribute
+.. index:: Geometry Nodes; Point Distribute
 .. _bpy.types.GeometryNodePointDistribute:
 
 ****************

@@ -1,4 +1,4 @@
-.. index:: Nodes; Input; Object Info
+.. index:: Geometry Nodes; Object Info
 .. _bpy.types.GeometryNodeObjectInfo:
 
 ***********

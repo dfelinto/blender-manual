@@ -1,4 +1,5 @@
-.. index:: Modifiers; Geometry Nodes
+.. index:: Nodes; Geometry Nodes
+.. index:: Geometry Nodes
 
 **************
 Geometry Nodes

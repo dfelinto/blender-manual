@@ -1,4 +1,4 @@
-.. index:: Nodes; Attribute; Attribute Mix
+.. index:: Geometry Nodes; Attribute Mix
 
 *************
 Attribute Mix

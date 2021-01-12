@@ -1,4 +1,4 @@
-.. index:: Nodes; Mesh; Boolean Math
+.. index:: Geometry Nodes; Boolean Math
 .. _bpy.types.FunctionNodeBooleanMath:
 
 ************

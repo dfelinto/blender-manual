@@ -1,4 +1,4 @@
-.. index:: Nodes; Mesh; Triangulate
+.. index:: Geometry Nodes; Triangulate
 .. _bpy.types.GeometryNodeTriangulate:
 
 ***********

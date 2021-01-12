@@ -1,4 +1,4 @@
-.. index:: Nodes; Mesh; Edge Split
+.. index:: Geometry Nodes; Edge Split
 .. _bpy.types.GeometryNodeEdgeSplit:
 
 **********

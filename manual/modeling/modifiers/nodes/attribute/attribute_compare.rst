@@ -1,4 +1,4 @@
-.. index:: Nodes; Point Separate
+.. index:: Geometry Nodes; Attribute Compare
 .. _bpy.types.GeometryNodeAttributeCompare:
 
 *****************
@@ -29,7 +29,7 @@ A, B
 
 Threshold
    This value is used as a threshold for still considering the two inputs as equal
-   for the *Equal* and *Not Equal* operations, 
+   for the *Equal* and *Not Equal* operations,
 
 Result
    Name of the attribute where the computed result it stored.

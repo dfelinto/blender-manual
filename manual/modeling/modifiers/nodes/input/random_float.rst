@@ -1,4 +1,4 @@
-.. index:: Nodes; Input; Random Float
+.. index:: Geometry Nodes; Random Float
 
 ************
 Random Float

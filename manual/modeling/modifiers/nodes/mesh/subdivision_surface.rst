@@ -1,4 +1,4 @@
-.. index:: Nodes; Mesh; Subdivision Surface
+.. index:: Geometry Nodes; Subdivision Surface
 .. _bpy.types.GeometryNodeSubdivisionSurface:
 
 *******************

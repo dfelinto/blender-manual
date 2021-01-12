@@ -1,4 +1,4 @@
-.. index:: Nodes; Point Separate
+.. index:: Geometry Nodes; Attribute Fill
 .. _bpy.types.GeometryNodeAttributeFill:
 
 **************
