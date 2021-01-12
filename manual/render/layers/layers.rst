@@ -111,6 +111,7 @@ Based on the render engine different options can be set.
 Disable from View Layer
    Remove this collection from the active view layer. Objects that are only in
    this collection will not be rendered for the active view layer.
+   This is useful to sometimes leave out some object influence for a particular view layer.
 
 .. _bpy.ops.outliner.collection_exclude_clear:
 
@@ -150,14 +151,6 @@ Cycles
 
 This section covers only the Render Layer settings appropriate for the Cycles renderer.
 For the engine-independent settings, see :ref:`this section <render-layers>`.
-
-
-View Layer
-----------
-
-Exclude
-   Scene layers are shared between all render layers;
-   however, sometimes it is useful to leave out some object influence for a particular render layer.
 
 
 .. _bpy.types.ViewLayer.use_sky:
