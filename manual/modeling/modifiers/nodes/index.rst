@@ -22,6 +22,7 @@ Attribute
    attribute/attribute_fill.rst
    attribute/attribute_math.rst
    attribute/attribute_mix.rst
+   attribute/attribute_vector_math.rst
    attribute/attribute_randomize.rst
    attribute/attribute_color_ramp.rst
 
