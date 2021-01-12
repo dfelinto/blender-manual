@@ -60,4 +60,17 @@ Output
 ======
 
 Geometry
-   Generated points.
+   Generated points. Several attributes are created on the output points based on the input mesh:
+      .. describe:: id (int)
+
+         An identifier for each point used for stability when the mesh is deformed, used in the
+         :doc:`/modeling/modifiers/nodes/attribute/attribute_randomize` and 
+         :doc:`/modeling/modifiers/nodes/point/point_instance` nodes.
+
+      .. describe:: normal (vector)
+
+         The :term:`Normal` of the triangle on which each point is scattered.
+
+      .. describe:: rotation (vector)
+      
+         An XYZ :term:`Euler` rotation built from the normal attribute for convenience.
