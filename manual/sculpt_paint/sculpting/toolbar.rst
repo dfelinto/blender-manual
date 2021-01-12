@@ -35,7 +35,7 @@ Toolbar
    Eliminates irregularities in the mesh by averaging the positions of the vertices.
 
 :doc:`/sculpt_paint/sculpting/tools/flatten`
-   Smooths vertices to a flat plain by finding an average height and moves vertices towards that height.
+   Smooths vertices to a flat plane by finding an average height and moves vertices towards that height.
 
 :doc:`/sculpt_paint/sculpting/tools/fill`
    Brings vertices below the brush plane upwards.
