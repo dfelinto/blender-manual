@@ -1,54 +1,7 @@
 
-**********************
-Proxy & Cache Settings
-**********************
-
-Cache Settings
-==============
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Panel:     :menuselection:`Sidebar region --> Proxy & Timecode --> Cache Settings`
-
-The Cache is used to save frames in memory for preview,
-so they can be later displayed much faster than rendered from scratch.
-Cache capacity can be set in :doc:`System tab </editors/preferences/system>` of the Preferences.
-
-In this panel you can set up types of images that will be cached for all strips.
-
-Cache
-   Raw
-      Cache raw images read from drive, for faster tweaking of strip parameters at the cost of memory usage.
-   Pre-processed
-      Cache preprocessed images, for faster tweaking of effects at the cost of memory usage.
-   Composite
-      Cache intermediate composited images, for faster tweaking of stacked strips at the cost of memory usage.
-   Final
-      Cache final image for each frame.
-
-
-Strip Cache
-===========
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Panel:     :menuselection:`Sidebar region --> Proxy & Timecode --> Cache Settings`
-
-Similar to `Cache Settings`_ panel,
-this panel sets the types of images that will be cached for the active strip.
-
-Enable Strip Cache
-   Enable overriding the cache defaults.
-   When disabled, *Cache Settings* will be used.
-Cache Raw
-   Cache raw images read from drive, for faster tweaking of strip parameters at the cost of memory usage.
-Cache Preprocessed
-   Cache preprocessed images, for faster tweaking of effects at the cost of memory usage.
-Cache Composite
-   Cache intermediate composited images, for faster tweaking of stacked strips at the cost of memory usage.
-
+*****
+Proxy
+*****
 
 Proxy Settings
 ==============
@@ -90,9 +43,6 @@ Strip Proxy & Timecode
 .. figure:: /images/video-editing_sequencer_properties_proxy-cache_panel.png
    :align: right
 
-
-Proxy
------
 
 Once you have chosen the :term:`Proxy`/:term:`Timecode` parameters,
 you need to select all strips for which you want proxies to be built.

@@ -90,10 +90,16 @@ Show F-Curves
 Show Markers
    Shows the markers region. When disabled, the `Markers Menu`_ is also hidden
    and markers operators are not available in this editor.
+
+.. _bpy.types.SequenceEditor.show_cache:
+
 Show Cache
-   Show :doc:`Cache </video_editing/sequencer/sidebar/proxy_cache>`
+   Show which frames are :doc:`Cached </video_editing/sequencer/sidebar/cache>`
    Show all enabled types;
    Final Images, Raw Images, Preprocessed Images, Composite Images
+
+   In order for this property to be visible, enable :ref:`Developer Extras <prefs-interface-dev-extras>`.
+
 Show Waveforms
    Global option to either display the waveform, or the strip info,
    or use the individual :ref:`strip option <sequencer-sound-waveform>`.

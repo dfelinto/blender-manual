@@ -110,7 +110,7 @@ Disk Cache Compression Level
 
 .. seealso::
 
-   :doc:`Strip Proxy and Cache properties </video_editing/sequencer/sidebar/proxy_cache>`.
+   :doc:`Sequencer Cache Properties </video_editing/sequencer/sidebar/cache>`
 
 
 .. _prefs-system-sound:

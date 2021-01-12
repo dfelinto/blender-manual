@@ -8,4 +8,5 @@
 
    strip.rst
    modifiers.rst
-   proxy_cache.rst
+   cache.rst
+   proxy.rst
