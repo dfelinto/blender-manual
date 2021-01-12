@@ -41,7 +41,7 @@ White Level :guilabel:`Compositor Only`
 Properties
 ==========
 
-Tone
+Tone :guilabel:`Compositor Only`
    Standard
       TODO 2.8
 
