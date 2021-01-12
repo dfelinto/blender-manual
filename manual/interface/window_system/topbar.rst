@@ -6,6 +6,9 @@ Topbar
 Menus
 =====
 
+.. figure:: /images/interface_window-system_topbar_menus.png
+   :align: center
+
 .. _topbar-app_menu:
 
 App Menu
@@ -231,12 +234,18 @@ See :doc:`/getting_started/help`.
 Workspaces
 ==========
 
+.. figure:: /images/interface_window-system_topbar_workspaces.png
+   :align: center
+
 These sets of tabs are used to select the current :doc:`Workspace </interface/window_system/workspaces>`;
 which are essentially predefined window layouts.
 
 
 Scenes & Layers
 ===============
+
+.. figure:: /images/interface_window-system_topbar_scenes-layers.png
+   :align: center
 
 These :ref:`data-block menus <ui-data-block>` are used to select
 the current active :doc:`Scene </scene_layout/scene/index>` and :doc:`View Layer </scene_layout/view_layers/index>`.
