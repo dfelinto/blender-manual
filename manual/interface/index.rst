@@ -8,12 +8,6 @@
   User Interface
 ##################
 
-.. toctree::
-   :maxdepth: 1
-
-   splash.rst
-
-
 Window System
 =============
 
@@ -21,6 +15,7 @@ Window System
    :maxdepth: 1
 
    Introduction <window_system/introduction.rst>
+   window_system/splash.rst
    window_system/topbar.rst
    window_system/workspaces.rst
    window_system/status_bar.rst

@@ -4,7 +4,7 @@
 Defaults
 ********
 
-When you start Blender for the first time, the interactive region of the :doc:`Splash Screen </interface/splash>`
+When you start Blender for the first time, the interactive region of the :doc:`Splash Screen </interface/window_system/splash>`
 is replaced with a couple of initial preferences to configure how you interact inside Blender.
 
 .. note::
