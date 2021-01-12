@@ -8,9 +8,9 @@
 .. _bpy.types.WhiteBalanceModifier:
 .. _bpy.types.SequenceModifier:
 
-***************
-Modifiers Panel
-***************
+*********
+Modifiers
+*********
 
 .. admonition:: Reference
    :class: refbox

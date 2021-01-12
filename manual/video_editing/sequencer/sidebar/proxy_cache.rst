@@ -79,8 +79,8 @@ Rebuild Proxy and Timecode Indices
 
 .. _bpy.types.SequenceProxy:
 
-Strip Proxy & Timecode Panel
-============================
+Strip Proxy & Timecode
+======================
 
 .. admonition:: Reference
    :class: refbox
