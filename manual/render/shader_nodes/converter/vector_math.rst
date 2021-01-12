@@ -103,13 +103,13 @@ Operation
       The entrywise maximum from A and B.
 
    Sine
-      The `Sine <https://en.wikipedia.org/wiki/Sine>`__ of A.
+      The entrywise `Sine <https://en.wikipedia.org/wiki/Sine>`__ of A.
 
    Cosine
-      The `Cosine <https://en.wikipedia.org/wiki/Trigonometric_functions>`__ of A.
+      The entrywise `Cosine <https://en.wikipedia.org/wiki/Trigonometric_functions>`__ of A.
 
    Tangent
-      The `Tangent <https://en.wikipedia.org/wiki/Trigonometric_functions>`__ of A.
+      The entrywise `Tangent <https://en.wikipedia.org/wiki/Trigonometric_functions>`__ of A.
 
 
 Outputs
