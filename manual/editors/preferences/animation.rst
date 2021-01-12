@@ -81,5 +81,7 @@ Default Interpolation
 Default Handles
    Controls the default :ref:`Handle <editors-graph-fcurves-settings-handles>` for newly created F-curves.
 XYZ to RGB
-   Color for X, Y or Z animation curves (location, scale or rotation)
-   is the same as the color for the X, Y and Z axis.
+   Color for X, Y, or Z animation curves (location, scale or rotation)
+   is the same as the color for the X, Y, and Z axis.
+Show Group Colors
+   Display groups and channels with colors matching their corresponding groups.

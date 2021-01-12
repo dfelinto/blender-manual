@@ -106,8 +106,6 @@ Show Cursor
 Show Sliders
    A toggle option that shows the value sliders for the channels.
    See the Fig. :ref:`fig-dope-sheet-action`.
-Show Group Colors
-   Display groups and channels with colors matching their corresponding groups.
 AutoMerge Keyframes
    Automatically merge nearby keyframes.
 Show Markers
