@@ -87,6 +87,12 @@ latexpdf: .SPHINXBUILD_EXISTS
 	@echo "To view, run:"
 	@echo "  "$(OPEN_CMD) $(shell pwd)"/$(BUILDDIR)/latex/blender_manual.pdf"
 
+epubpdf: .SPHINXBUILD_EXISTS
+	@$(SPHINXBUILD) -M epub "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+	@ebook-convert $(BUILDDIR)/epub/*.epub blender_manual.pdf \
+	--pdf-default-font-size 16 \
+	--pdf-mono-font-size 14
+
 readme:
 	@rst2html5 readme.rst > $(BUILDDIR)/readme.html
 	@echo "Build finished. The HTML page is in $(BUILDDIR)/readme.html."
@@ -127,6 +133,7 @@ help:
 	@echo "=============="
 	@echo "Convenience targets provided for building docs"
 	@echo ""
+	@echo "- epubpdf              to convert an epub file to pdf"
 	@echo "- readme               to make a 'readme.html' file"
 	@echo "- clean                to delete all old build files"
 	@echo ""
