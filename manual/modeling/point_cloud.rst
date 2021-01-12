@@ -41,7 +41,7 @@ Radius
 Color
    The color of each point.
 
-   :Type: Float Color
+   :Type: Color
 
 Particle ID
    A unique identifier given to each particle.
@@ -64,7 +64,7 @@ Custom Attributes
       :Float: Floating-point value
       :Integer: 32-bit integer
       :Vector: 3D vector with floating-point values
-      :Float Color: RGBA color with floating-point precision
+      :Color: RGBA color with floating-point precision
       :Byte Color: RGBA color with 8-bit precision
       :String: Text string
 
