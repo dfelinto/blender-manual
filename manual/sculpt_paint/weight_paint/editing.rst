@@ -159,7 +159,9 @@ Remove Weights
 Clean
 =====
 
-Removes weights below a given threshold.
+Clean Vertex Group Weights unassigns vertices from
+:doc:`Vertex Groups </modeling/meshes/properties/vertex_groups/index>`
+whose weights are below the *Limit*.  Removes weights below a given threshold.
 This tool is useful for clearing your weight groups of very low (or zero) weights.
 
 In the example shown, a cutoff value of 0.2 is used (see operator options below)
