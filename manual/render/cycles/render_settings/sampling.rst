@@ -103,9 +103,9 @@ Denoising
 Denoising removes noise while previewing scenes in *Rendered* mode in the 3D Viewport or for final renders.
 
 Render
-   Denoising for the final render can be enabled or disabled for with the checkbox.
+   Denoising for the final render can be enabled or disabled with the checkbox.
    For denoising the image after rendering with the :doc:`Denoising node </compositing/types/filter/denoise>`,
-   denoising data render :ref:`passes <render-cycles-passes>` also adapt to the selected denoiser.
+   the :ref:`Data Render Passes <render_layers_passes_data>` also adapt to the selected denoiser.
 
    NLM
       Uses `non-local means <https://en.wikipedia.org/wiki/Non-local_means>`__ to

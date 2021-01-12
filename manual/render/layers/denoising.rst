@@ -48,7 +48,7 @@ Optix AI Denoising
    therefore especially useful to denoise previews or final single-frame images with high quality.
 
    Input Passes
-      Controls which :ref:`passes <render-cycles-passes>` the OptiX AI denoiser should use as input,
+      Controls which :doc:`Render Passs </render/layers/passes>` the OptiX AI denoiser should use as input,
       which can have different effects on the denoised image.
       Generally, the more passes the denoiser has to denoise the better the result.
       It is recommended to at least use *Color + Albedo* as just *Color* can blur out details,

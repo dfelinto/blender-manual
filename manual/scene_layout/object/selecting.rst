@@ -231,7 +231,7 @@ Collection
 Object Hooks
    Every hook that belongs to the active object.
 Pass
-   Select objects assigned to the same :ref:`render pass <render-cycles-passes>`.
+   Select objects assigned to the same :doc:`Render Pass </render/layers/passes>`.
 Color
    Select objects with same :ref:`Object Color <bpy.types.Object.color>`.
 Keying Set

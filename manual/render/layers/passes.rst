@@ -1,6 +1,4 @@
 .. _bpy.types.RenderLayer:
-.. _render-cycles-passes:
-.. _render-eevee-passes:
 
 ******
 Passes
@@ -14,6 +12,8 @@ Passes
 Passes can be used to split rendered images into colors, direct and indirect light to edit them individually,
 and also to extract data such as depth or normals.
 
+
+.. _render_layers_passes_data:
 
 Data
 ====
@@ -195,17 +195,29 @@ or another compositor with Cryptomatte support to create masks for specified obj
 Unlike the Material and Object Index passes, the objects to isolate are selected in compositing,
 and mattes will be anti-aliased and take into account effects like motion blur and transparency.
 
-Include
-   Object
-      Render cryptomatte object pass, for isolating objects in compositing.
-   Material
-      Render cryptomatte material pass, for isolating materials in compositing.
-   Asset
-      Render cryptomatte asset pass, for isolating groups of objects with the same
-      :doc:`parent </scene_layout/object/editing/parent>` in compositing.
+.. _bpy.types.ViewLayer.use_pass_cryptomatte_object:
+
+Object
+   Render cryptomatte object pass, for isolating objects in compositing.
+
+.. _bpy.types.ViewLayer.use_pass_cryptomatte_material:
+
+Material
+   Render cryptomatte material pass, for isolating materials in compositing.
+
+.. _bpy.types.ViewLayer.use_pass_cryptomatte_asset:
+
+Asset
+   Render cryptomatte asset pass, for isolating groups of objects with the same
+   :doc:`parent </scene_layout/object/editing/parent>` in compositing.
+
+.. _bpy.types.ViewLayer.pass_cryptomatte_depth:
 
 Levels
    Sets how many unique objects can be distinguished per pixel.
+
+.. _bpy.types.ViewLayer.use_pass_cryptomatte_accurate:
+
 Accurate Mode
    Generate a more accurate Cryptomatte pass. CPU only, may render slower and use more memory.
 
@@ -225,8 +237,7 @@ Typical Workflow
    :doc:`Cryptomatte Node </compositing/types/matte/cryptomatte>`.
 
 
-.. _render-cycles-passes-aov:
-.. _render-eevee-passes-aov:
+.. _bpy.types.AOV:
 
 Shader AOV
 ==========
@@ -238,10 +249,14 @@ the :doc:`AOV Output </render/shader_nodes/output/aov>` shading node.
 Shader AOVs can be added or removed in the *Shader AOV* panel.
 In this panel is a list of all AOV passes; each AOV in the list consists of a *Name* and *Data Type*.
 
-Name
+.. _bpy.types.ViewLayer.active_aov_index:
+
+Active AOV Index
    The name of the render pass; this is the *Name* that is referenced in the *AOV Output* node.
    Any names can be used for these passes,
    as long as they do not conflict with built-in passes that are enabled.
+
+.. _bpy.types.AOV.type:
 
 Data Type
    Shader AOVs can either express a *Color* or a *Value* output.
