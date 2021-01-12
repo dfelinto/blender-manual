@@ -58,11 +58,6 @@ For each vertex, this tool makes sure that the sum of the weights across
 all vertex groups is equal to 1. This tool normalizes all of the vertex groups,
 except for locked groups, which keep their weight values untouched.
 
-.. figure:: /images/sculpt-paint_weight-paint_editing_normalize.png
-   :align: right
-
-   Normalize All options.
-
 Lock Active
    Keep the values of the active group while normalizing all the others.
 
@@ -93,11 +88,6 @@ But note, the weights are not transferred to the corresponding opposite bone wei
 .. figure:: /images/sculpt-paint_weight-paint_editing_mirror-example.png
 
    Mirror example.
-
-.. figure:: /images/sculpt-paint_weight-paint_editing_mirror.png
-   :align: right
-
-   Mirror options.
 
 Mirror Weights
    With this option checked, every selected vertex receives
@@ -151,11 +141,6 @@ Examples:
 
    Invert.
 
-.. figure:: /images/sculpt-paint_weight-paint_editing_invert.png
-   :align: right
-
-   Invert options.
-
 Subset
    Restrict the tool to a subset.
    See above :ref:`The Subset Option <sculpt-paint_weight-paint_editing_subset>` about how subsets are defined.
@@ -186,11 +171,6 @@ so that unreferenced Weights are shown in Black.
 .. figure:: /images/sculpt-paint_weight-paint_editing_clean-example.png
 
    Clean example.
-
-.. figure:: /images/sculpt-paint_weight-paint_editing_clean.png
-   :align: right
-
-   Clean options.
 
 Subset
    Restrict the tool to a subset.
@@ -237,11 +217,6 @@ with this tool you can raise or lower the overall "heat" of the weight group.
 .. figure:: /images/sculpt-paint_weight-paint_editing_levels-example.png
 
    Levels example.
-
-.. figure:: /images/sculpt-paint_weight-paint_editing_levels.png
-   :align: right
-
-   Levels options.
 
 Subset
    Restrict the tool to a subset.
@@ -322,11 +297,6 @@ and it will be used for blending the left side to the right side of the area.
 - The average weight of the unselected vertices is :math:`(1 + 0) / 2 = 0.5`
 - Thus when the *Factor* is set to 1.0 then the edge loop turns to
   green and finally does blend the cold side (right) to the hot side (left).
-
-.. figure:: /images/sculpt-paint_weight-paint_editing_smooth.png
-   :align: right
-
-   Smooth options.
 
 Factor
    The effective amount of blending.
