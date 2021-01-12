@@ -155,8 +155,11 @@ Remove Gaps
    :Menu:      :menuselection:`Strip --> Transform --> Insert Gaps`
    :Hotkey:    :kbd:`Backspace`
 
-Remove blank frames between the current frame and the first strip to the right,
+Remove blank frames between the current frame and the first strip to the left,
 independent of selection or locked state of strips.
+
+All Gaps
+   Remove gaps to the right of the strip along with the left.
 
 
 .. _bpy.ops.sequencer.gap_insert:
