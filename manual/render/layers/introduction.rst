@@ -2,9 +2,9 @@
 .. _bpy.types.ViewLayer:
 .. _render-layers:
 
-***********
-View Layers
-***********
+************
+Introduction
+************
 
 Renders can be separated into layers, to composite them back together afterwards.
 

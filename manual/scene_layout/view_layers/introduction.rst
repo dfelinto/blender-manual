@@ -17,7 +17,7 @@ can use the same or different collections.
 
 .. seealso::
 
-   Each view layer can be rendered separately as individual :doc:`Render Layers </render/layers/layers>`
+   Each view layer can be rendered separately as individual :doc:`Render Layers </render/layers/introduction>`
    to help composite your scene.
 
 

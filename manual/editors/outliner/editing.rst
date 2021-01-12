@@ -96,7 +96,7 @@ Visibility
       Enables/disables visibility of the collection in renders.
 
 View Layer
-   Controls the collection's interactions with the :doc:`View Layer </render/layers/layers>`.
+   Controls the collection's interactions with the :doc:`View Layer </render/layers/introduction>`.
 
    .. _bpy.ops.outliner.collection_exclude_clear:
    .. _bpy.ops.outliner.collection_exclude_set:
