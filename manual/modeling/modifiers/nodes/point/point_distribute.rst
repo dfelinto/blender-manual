@@ -25,7 +25,7 @@ Geometry
 
 Distance Min
    The minimal distance points can have to each other.
-   This option is only available on distribution methods that supports it.
+   This option is only available on distribution methods that support it.
 
 Density Max
    The point density for the point distribution. The units are number of points per square meter.
