@@ -189,7 +189,7 @@ Images
 
 Figures should be used to place images::
 
-   .. figure:: /images/render_cycles_nodes_types_shaders_node.png
+   .. figure:: /images/interface_splash_current.png
 
       Image caption.
 
