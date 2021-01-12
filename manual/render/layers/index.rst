@@ -6,6 +6,7 @@
 .. toctree::
    :maxdepth: 2
 
-   layers.rst
+   introduction.rst
+   view_layer.rst
    passes.rst
    denoising.rst
