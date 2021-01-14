@@ -13,7 +13,7 @@ Transform
 The *Transform Node* allows you to move, rotate or scale the geometry.
 The transformation is applied to the entire geometry, and not per element.
 For example, rotation with this node will change the location of each point
-rather than changing the rotation of individual points. For that, the *Rotate Points* node can be used.
+rather than changing the rotation of individual points. For that, the *Point Rotate* node can be used.
 
 
 Inputs
