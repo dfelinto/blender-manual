@@ -87,7 +87,9 @@ Point
 
    point/point_distribute.rst
    point/point_instance.rst
+   point/point_scale.rst
    point/point_separate.rst
+   point/point_translate.rst
 
 
 Utilities
