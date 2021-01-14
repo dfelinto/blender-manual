@@ -85,6 +85,7 @@ Point
 .. toctree::
    :maxdepth: 1
 
+   point/align_rotation_to_vector.rst
    point/point_distribute.rst
    point/point_instance.rst
    point/point_rotate.rst
