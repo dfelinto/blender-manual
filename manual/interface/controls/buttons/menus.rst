@@ -1,5 +1,3 @@
-.. |specials-button| image:: /images/interface_controls_buttons_menus_specials.png
-
 .. _bpy.types.Menu:
 
 *****
@@ -80,6 +78,7 @@ The Select menu (short selector) lets you choose between a set of options.
 Select menu appears as an icon and/or text with down arrow on the right side of the button.
 The menu options are shown with :kbd:`LMB` click on the button.
 The selected option is then shown as active on the menu button.
+You can also use :kbd:`Ctrl-Wheel` to cycle through options without opening the menu.
 
 .. container:: lead
 
@@ -159,6 +158,7 @@ Edit Translation
    :doc:`/interface/keymap/introduction`.
 
 
+.. |specials-button| image:: /images/interface_controls_buttons_menus_specials.png
 .. _ui-specials-menu:
 
 Specials Menu
@@ -173,19 +173,12 @@ It is opened by a button with a down arrow on dark background |specials-button|.
 Pie Menus
 =========
 
-A pie menu is a menu whose items are spread radially around the mouse.
+A pie menu is a menu whose items are spread radially around the mouse by a key press.
 
 .. figure:: /images/interface_controls_buttons_menus_pie-menu.png
    :align: center
 
    The 3D Viewport Mode Pie menu.
-
-
-Interaction
------------
-
-The pie menu is spawned by a key press,
-which are listed in the add-on's documentation.
 
 .. tip::
 
@@ -208,4 +201,6 @@ Also number keys can be used to select the items.
 
 If there are sub-pies available, it is indicated by a plus icon.
 
-See :ref:`Pie menu settings <prefs-pie-menu>`.
+.. seealso::
+
+   See :ref:`Pie menu settings <prefs-pie-menu>`.
