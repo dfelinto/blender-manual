@@ -16,7 +16,7 @@ This node offers the same operations as the :doc:`Boolean modifier </modeling/mo
 Inputs
 ======
 
-Geometry A, B
+Geometry 1, 2
    Standard geometry input.
 
 
@@ -25,13 +25,13 @@ Properties
 
 Mode
    Intersect
-      Produce a new geometry containing only the volume inside of both geometry A and geometry B.
+      Produce a new geometry containing only the volume inside of both geometry 1 and geometry 2.
 
    Union
       The two input pieces of geometry are joined, then any interior elements are removed.
 
    Difference
-      Geometry B is subtracted from geometry A (everything outside of geometry B is kept).
+      Geometry 2 is subtracted from geometry 1 (everything outside of geometry 2 is kept).
 
 
 Output
