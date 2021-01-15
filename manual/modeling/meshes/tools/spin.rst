@@ -10,7 +10,6 @@ Spin
 
    :Mode:      Edit Mode
    :Tool:      :menuselection:`Toolbar --> Spin`
-   :Hotkey:    :kbd:`Alt-R`
 
 The *Spin* tool extrudes (or duplicates it if the selection is manifold) the selected elements,
 rotating around a specific point and axis.
@@ -68,8 +67,6 @@ First, create a mesh representing the profile of your object.
 If you are modeling a hollow object, it is a good idea to thicken the outline.
 Fig. :ref:`fig-mesh-spin-glass` shows the profile for a wine glass we will model as a demonstration.
 
-Go to *Edit Mode* and select all the vertices of the Profile with :kbd:`A`.
-
 We will be rotating the object around the cursor in the top view,
 so switch to the top view with :kbd:`Numpad7`.
 
@@ -80,15 +77,12 @@ so switch to the top view with :kbd:`Numpad7`.
 
    Glass profile, top view in Edit Mode, just before spinning.
 
-Place the cursor along the center of the profile by selecting one of the vertices along the center,
-and snapping the 3D cursor to that location with :menuselection:`Mesh --> Cursor --> Selection`.
-(Fig. :ref:`fig-mesh-spin-glass-top`)
-shows the wine glass profile from top view, with the cursor correctly positioned.
+Place the cursor along the center of the profile by entering edit mode and selecting one of the vertices along the center,
+and snapping the 3D cursor to that location with :menuselection:`Mesh --> Snap --> Cursor to Selection`.
+(Fig. :ref:`fig-mesh-spin-glass-top`) shows the wine glass profile from top view, with the cursor correctly positioned.
 
-Click the *Spin* button. If you have more than one 3D Viewport open, the cursor will
-change to an arrow with a question mark and you will have to click in the area containing
-the top view before continuing. If you have only one 3D Viewport open,
-the spin will happen immediately. Fig. :ref:`fig-mesh-spin-profile` shows the result of a successful spin.
+Select all the vertices with :kbd:`A` and select the *Spin* tool from the :menuselection:`Toolbar` 
+and use the Gizmo to spin the vertices. Fig. :ref:`fig-mesh-spin-profile` shows the result of a successful spin.
 
 
 Angle
@@ -148,20 +142,16 @@ Or, worse, too many vertices will have been merged.
 
 .. note:: Merging Two Vertices into One
 
-   To merge (weld) two vertices together, select both of them by :kbd:`Shift-RMB`
+   To merge (weld) two vertices together, select both of them by :kbd:`Shift-LMB`
    clicking on them. Press :kbd:`S` to start scaling and hold down :kbd:`Ctrl`
    while scaling to scale the points down to 0 units in the X, Y and Z axis. :kbd:`LMB`
-   to complete the scaling operation and click the *Merge by Distance* button in
-   the Toolbar in *Edit Mode* (also available with :menuselection:`Context Menu --> Merge by Distance`).
-
-   Alternatively, you can use :menuselection:`Context Menu --> Merge` from the same context menu
-   (or :kbd:`Alt-M`). Then, in the new pop-up menu, choose whether the merged vertex will
-   be at the center of the selected vertices or at the 3D cursor.
-   The first choice is better in our case!
+   to complete the scaling operation and click :menuselection:`Mesh --> Merge --> By Distance` 
+   to merge the vertices. Alternatively, you can use :menuselection:`Context Menu --> Merge Vertices` (or :kbd:`M`).
+   Then, in the new pop-up menu, choose to merge :menuselection:`By Distance`. 
 
 
 Recalculate Normals
 -------------------
 
 All that remains now is to recalculate the normals to the outside by selecting all vertices,
-pressing :kbd:`Ctrl-N` and validating *Recalculate Normals Outside* in the pop-up menu.
+pressing :kbd:`Alt-N` and validating *Recalculate Normals Outside* in the pop-up menu.
