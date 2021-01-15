@@ -18,23 +18,26 @@ Inputs
 
 A, B
    Standard float value input.
+Epsilon
+   This value is used as a threshold for still considering the two inputs as equal for the Equal and Not Equal operations,
+   
 
 
 Properties
 ==========
 
 Mode
-   A < B
+   Less Than
       True if A is smaller than B.
-   A <= B
+   Less Than or Equal
       True if A is smaller or equal than B.
-   A > B
+   Greater Than
       True if A is bigger than B.
-   A >= B
+   Greater Than or Equal
       True if A is bigger or equal than B.
-   A = B
+   Equal
       True if A and B are the same.
-   A != B
+   Not Equal
       True if A and B are different.
 
 
