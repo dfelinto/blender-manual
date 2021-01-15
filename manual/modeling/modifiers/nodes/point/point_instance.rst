@@ -19,6 +19,11 @@ It works for both point cloud and mesh vertices.
    will not work on the output of this node. The position, rotation, and scale of individual points should
    be adjusted before this node.
 
+.. tip::
+   
+   The :ref:`bpy.ops.object.duplicates_make_real` operator can be used to create objects for instances
+   created with this node.
+
 
 Inputs
 ======
