@@ -69,9 +69,8 @@ F-Curves
 These settings control how :doc:`F-Curves </editors/graph_editor/fcurves/index>`
 look and their default behavior.
 
-F-Curve Visibility
-   Opacity that unselected :doc:`F-Curves </editors/graph_editor/fcurves/index>`
-   stand out from the *Graph Editor*.
+Unselected Opacity
+   Controls the Opacity of unselected :doc:`F-Curves </editors/graph_editor/fcurves/index>` against the background of the *Graph Editor*.
 Default Smoothing Mode
    Controls the behavior of :ref:`automatic curve handles <editors-graph-fcurves-settings-handles>`
    for newly created F-curves.
