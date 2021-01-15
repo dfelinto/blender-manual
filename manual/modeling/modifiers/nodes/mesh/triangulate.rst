@@ -39,7 +39,7 @@ Quad Method
    Shortest Diagonal
       Split the quads based on the diagonal distance between their vertices.
 
-Polygon Method
+N-gon Method
    Beauty
       Arrange the new triangles nicely, slower method.
    Clip
