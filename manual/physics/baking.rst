@@ -78,6 +78,11 @@ Disk Cache
    the drive in a folder named ``blendcache_[filename]`` alongside the blend-file.
    (The blend-file must be saved first.)
 
+   .. note::
+
+      When using :doc:`/files/linked_libraries/library_overrides`,
+      data-blocks only support *Disk Cache* storage
+
 Use Library Path
    Share the disk cache when the physics object is
    :doc:`linked </files/linked_libraries/index>` into another blend-file.
