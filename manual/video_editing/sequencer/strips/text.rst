@@ -36,14 +36,20 @@ Color
    The text color.
 Shadow
    Creates a shadow of the specified color under the text.
+Box
+   Creates a background for the text to improve the readability and clarity of text in some situations.
+   The color and opacity of the box can be adjusted using the color selector.
+Box Margin
+   The distance the box boundaries extends from the boundaries of the font glyphs.
+   The distance is measured as a factor of the image's width.
 
 
 Layout
 ------
 
-Location X/Y
+Location X, Y
    Positions the text on the X, Y axis.
-Anchor X/Y
+Anchor X, Y
    Horizontal (X) or vertical (Y) anchor point of the text relative to the location.
 
 
