@@ -112,6 +112,7 @@ The `Filter`_ menu lets you toggle the following options:
 - Case Sensitive Matches Only
 - Complete Matches Only
 
+
 .. _editors-outliner-interface-filter:
 
 Filter
@@ -150,6 +151,8 @@ Object State
       See :doc:`selecting in the 3D Viewport </scene_layout/object/selecting>` for more information.
    Active
       Lists only the active (often last selected) object.
+   Selectable
+      List all objects whose :ref:`Selectability <bpy.types.Collection.hide_select>` option is enabled.
 Object Contents
    List materials, modifiers, mesh data, ...
 Object Children
