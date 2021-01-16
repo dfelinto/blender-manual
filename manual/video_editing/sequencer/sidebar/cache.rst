@@ -44,7 +44,7 @@ Strip Cache
    :Panel:     :menuselection:`Sidebar --> Cache --> Cache Settings`
 
 This panel sets the types of images that will be cached for the active strip.
-Enable overriding the cache defaults, when disabled, `Cache Settings`_  will be used.
+Enable overriding the cache defaults, when disabled, `Cache Settings`_ will be used.
 
 Cache
    Raw

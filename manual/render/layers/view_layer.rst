@@ -10,7 +10,7 @@ View Layer
 
 .. figure:: /images/render_layers_layers_panel.png
 
-   View Layer panel (shown here for the Eevee render engine)
+   View Layer panel (shown here for the Eevee render engine).
 
 The Layer Panel shows the settings of the active View Layer.
 

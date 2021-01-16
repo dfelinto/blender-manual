@@ -65,11 +65,11 @@ The Assetbar can be shown or hidden by clicking the toggle with the eye icon nex
 Actions that can be performed in the Assetbar:
 
 - Drag and dropping an object or material directly into the scene.
-- Click a item to link/append it to the scene.
+- Click on an item to link/append it to the scene.
 - Open the context menu of a item for further interaction:
 
   Open Authors Website
-      Opens the link that the author has specified in a web browser.
+     Opens the link that the author has specified in a web browser.
   Show Assets by Author
      Shows all assets uploaded by the author of the selected 3D model.
   Replace Active Models
@@ -266,7 +266,7 @@ Randomize Rotation
 
 Perpendicular Snap
    Limit snapping if the angle is close to perpendicular angles to become exactly perpendicular.
-   Useful for placing lamps on curved ceilings, or placing trees on slopes and similar cases.
+   Useful for placing lamps on curved ceilings, or placing trees on slopes, or similar cases.
 
 .. _bpy.data.scenes.blenderkit_models.perpendicular_snap_treshold:
 
@@ -324,7 +324,7 @@ Import Settings
 Auto-Map
    Add cube mapping UV to the object after drag-and-drop.
    This allows most materials to be applied instantly to any mesh.
-   BlenderKit generates a new UV map called 'automap', and doesn't replace your previous UV maps.
+   BlenderKit generates a new UV map called 'automap' and doesn't replace your previous UV maps.
    It also resets the texture space of the target object to (1, 1, 1)
    which enables most procedural materials to have correct scaling.
 
@@ -433,7 +433,7 @@ Production Level
    finished mesh topology as start for modeling or similar:
 
    :Finished:
-      For the public database. The asset should always be ready for rendering.
+      For the public database, the asset should always be ready for rendering.
       Assets without materials aren't accepted into the public database.
    :Template:
       Templates are models that have general usability and have a clear description of how
@@ -510,13 +510,13 @@ Materials Only Options
 
 Pure PBR Compatible
    The asset is meets the `PBR standard <https://www.blenderkit.com/docs/pure-pbr-assetes>`__.
-   This means only image textures are used with no procedural textures and
-   no color correction, only PBR shaders are used.
+   This means only image textures are used with no procedural textures,
+   no color correction, and only PBR shaders are used.
 
 .. _bpy.data.materials.blenderkit.uv:
 
 Needs UV
-   Requires an UV set.
+   Requires a UV set.
 
 .. _bpy.data.materials.blenderkit.animated:
 
@@ -530,8 +530,8 @@ Texture Size in Meters
    This value is very important so that the materials apply with correct scale.
 
 Thumbnail
-   Path to the thumbnail (512×512 px JPG image).
-   Needs always to be the image generated with the BlenderKit thumbnail generator, or with the same look.
+   Path to the thumbnail (512×512 px sized JPG image).
+   Needs always to be the image generated with the BlenderKit thumbnail generator or with the same look.
    Only exceptions are special effects like fire.
 
 .. _bpy.ops.object.blenderkit_material_thumbnail:

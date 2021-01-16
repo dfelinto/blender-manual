@@ -42,12 +42,14 @@ Type
       Detect Corners
          Detects corners while drawing based on a specified angle;
          Any angles above the specified value are considered corners.
-         If a corner is detected, the curve uses non-aligned handles for the corner resulting in a more crisp corner.
+         If a corner is detected, the curve uses non-aligned handles
+         for the corner resulting in a more crisp corner.
 
-Radius Min
+Radius
+   Min
       Minimum radius when the minimum pressure is applied (also the minimum when tapering).
-Max
-   Radius to use when the maximum pressure is applied (or when a tablet is not used).
+   Max
+      Radius to use when the maximum pressure is applied (or when a tablet is not used).
 
 Use Pressure
    Uses stylus pressure to control the radius of the curve.

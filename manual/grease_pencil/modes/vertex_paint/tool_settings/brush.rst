@@ -31,7 +31,7 @@ Mode
    Stroke
       Only paint over strokes.
    Fill
-     Only paint over fill areas.
+      Only paint over fill areas.
    Stroke and Fill
       Paint over strokes and fill areas.
 

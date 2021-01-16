@@ -12,8 +12,8 @@ Some example usages are applying compositing effects to characters separately,
 blurring the background and foreground layers separately for depth of field,
 or rendering different lighting variations of the same scene.
 
-Using View Layers can also save you from having to re-render your entire image each time you change something,
-allowing you to instead re-render only the layer(s) that you need.
+Using View Layers can also save you from having to re-render your entire image after each change,
+allowing you to instead re-render only the layer(s) that you have altered.
 
 
 View Layers
@@ -74,7 +74,7 @@ Based on the render engine different options can be set.
 
 .. figure:: /images/render_layers_layers_viewlayer-collection.png
 
-   Collection/View layer settings
+   Collection/View layer settings.
 
 .. _bpy.ops.outliner.collection_exclude_set:
 
@@ -154,4 +154,4 @@ Material Override
    Overrides all materials in the render layer.
 Samples
    View layer samples to override the scene samples.
-   Controlled by the :ref:`layer samples <render-cycles-integrator-layer-samples>` in the sampling panel.
+   Controlled by the :ref:`layer samples <render-cycles-integrator-layer-samples>` in the Sampling panel.

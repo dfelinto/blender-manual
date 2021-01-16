@@ -20,8 +20,8 @@ It works for both point cloud and mesh vertices.
    be adjusted before this node.
 
 .. tip::
-   
-   The :ref:`bpy.ops.object.duplicates_make_real` operator can be used to create objects for instances
+
+   The :ref:`bpy.ops.object.duplicates_make_real` operator can be used to create objects from instances
    created with this node.
 
 
@@ -30,7 +30,7 @@ Inputs
 
 Geometry
    Standard geometry input.
-   The **position**, **rotation**, and **scale** attributes affect the transform of each instanced object.
+   The *position*, *rotation*, and *scale* attributes affect the transform of each instanced object.
 
 Object
    The object to instantiate.
@@ -43,14 +43,14 @@ Type
    Object
       Instance a single object on each point.
    Collection
-      Instance either an entire collection or a random choice from its objects or sub-collections.
+      Instance either an entire collection or a random choice from its objects or subcollections.
 
 Whole Collection
    When instancing collections, this property chooses between instancing the entire collection or
-   a random choice of its objects and sub-collections.
+   a random choice of its objects and subcollections.
 
 Seed
-   When "Whole Collection" is turned off, a :term:`Seed` to affect the choice of the collection's children.
+   When *Whole Collection* is deactivated, a :term:`Seed` to affect the choice of the collection's children.
 
 
 Outputs

@@ -5,13 +5,13 @@ Collision Modifier
 ******************
 
 The Collision modifier is a container for a :doc:`Collision Physics </physics/collision/>`.
-Collision physics provide interaction and awareness between different physics simulations.
+Collision physics provide interaction between different physics simulations.
 
 
 Options
 =======
 
-As the modifier is only a container its actual options are configured in the *Physics Properties* tab.
+As the modifier is only a container its actual options can be configured in the *Physics Properties* tab.
 See the :doc:`Collision Physics Properties </physics/cloth/settings/index>` for more information.
 
 

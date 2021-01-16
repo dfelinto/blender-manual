@@ -77,11 +77,13 @@ so switch to the top view with :kbd:`Numpad7`.
 
    Glass profile, top view in Edit Mode, just before spinning.
 
-Place the cursor along the center of the profile by entering edit mode and selecting one of the vertices along the center,
-and snapping the 3D cursor to that location with :menuselection:`Mesh --> Snap --> Cursor to Selection`.
-(Fig. :ref:`fig-mesh-spin-glass-top`) shows the wine glass profile from top view, with the cursor correctly positioned.
+Place the cursor along the center of the profile by entering Edit Mode
+and selecting one of the vertices along the center, and snapping the 3D cursor to
+that location with :menuselection:`Mesh --> Snap --> Cursor to Selection`.
+(Fig. :ref:`fig-mesh-spin-glass-top`) shows the wine glass profile from
+top view, with the cursor correctly positioned.
 
-Select all the vertices with :kbd:`A` and select the *Spin* tool from the :menuselection:`Toolbar` 
+Select all the vertices with :kbd:`A` and select the *Spin* tool from the Toolbar
 and use the Gizmo to spin the vertices. Fig. :ref:`fig-mesh-spin-profile` shows the result of a successful spin.
 
 
@@ -145,9 +147,9 @@ Or, worse, too many vertices will have been merged.
    To merge (weld) two vertices together, select both of them by :kbd:`Shift-LMB`
    clicking on them. Press :kbd:`S` to start scaling and hold down :kbd:`Ctrl`
    while scaling to scale the points down to 0 units in the X, Y and Z axis. :kbd:`LMB`
-   to complete the scaling operation and click :menuselection:`Mesh --> Merge --> By Distance` 
+   to complete the scaling operation and click :menuselection:`Mesh --> Merge --> By Distance`
    to merge the vertices. Alternatively, you can use :menuselection:`Context Menu --> Merge Vertices` (or :kbd:`M`).
-   Then, in the new pop-up menu, choose to merge :menuselection:`By Distance`. 
+   Then, in the new pop-up menu, choose to merge *By Distance*.
 
 
 Recalculate Normals

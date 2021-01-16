@@ -27,8 +27,8 @@ soft body or cloth system by *Delete Bake*, this is not done automatically.
 .. figure:: /images/physics_collision_toggle.png
    :align: right
 
-A collider object can be temporarily disabled via an animatable toggle to the right of the
-button that permanently activates or deactivates it.
+A collider object can be temporarily disabled via an animatable toggle to
+the right of the button that permanently activates or deactivates it.
 
 
 Options
@@ -38,14 +38,15 @@ Options
 
    Collision panel.
 
+
 Collision
 ---------
 
 Field Absorption
-   A deflector can also deflect effectors. You can specify some collision/deflector objects which deflect a specific
-   portion of the effector force using the *Field Absorption* value. 100% absorption results in no force getting
-   through the collision/deflector object at all. If you have three collision object behind each other with e.g.
-   10%, 43% and 3%, the absorption ends up at around 50% :math:`100 × (1 - 0.1) × (1 - 0.43) × (1 - 0.03)`.
+   A deflector can also deflect effectors. You can specify some collision/deflector objects which deflect
+   a specific portion of the effector force using the *Field Absorption* value. 100% absorption results in no force
+   getting through the collision/deflector object at all. If you have three collision object behind each other with
+   e.g. 10%, 43% and 3%, the absorption ends up at around 50% :math:`100 × (1 - 0.1) × (1 - 0.43) × (1 - 0.03)`.
 
 
 Particle

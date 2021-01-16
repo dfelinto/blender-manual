@@ -63,9 +63,11 @@ Influence
    See :ref:`common constraint properties <bpy.types.constraint.influence>` for more information.
 
 .. tip::
+
    Evaluating both owner and target in a :ref:`Custom Space <rigging-constraints-interface-common-space-types>`
    using the root bone or any other suitable parent bone will automatically scale the effective distance with
    the relevant part of the rig.
+
 
 Example
 =======

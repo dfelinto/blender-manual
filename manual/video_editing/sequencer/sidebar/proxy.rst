@@ -43,7 +43,6 @@ Strip Proxy & Timecode
 .. figure:: /images/video-editing_sequencer_properties_proxy-cache_panel.png
    :align: right
 
-
 Once you have chosen the :term:`Proxy`/:term:`Timecode` parameters,
 you need to select all strips for which you want proxies to be built.
 Then use :menuselection:`Strip --> Rebuild Proxy and Timecode indices`, or button in `Proxy Settings`_ panel.

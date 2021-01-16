@@ -11,25 +11,8 @@ Point Rotate
    The Point Rotate node.
 
 The *Point Rotate* node rotates every point of the geometry.
-It does so by modifying the *rotation* attribute.
+It does so by modifying the *Rotation* attribute.
 
-Properties
-==========
-
-Rotation Type
-   Axis Angle
-      Use separate axis and angle inputs to control the rotation.
-
-   Euler
-      Use an euler input to control the rotation
-
-Space
-   Object
-      Rotate every point in the local space of the object that is being evaluated.
-      The same space is used for every point.
-
-   Point
-      Rotate every point in its local space as specified by its *rotation* attribute.
 
 Inputs
 ======
@@ -48,6 +31,26 @@ Axis
 Angle
    The angle to rotate by around the specified axis.
    This input is only available when the rotation type is set to *Axis Angle*.
+
+
+Properties
+==========
+
+Rotation Type
+   Axis Angle
+      Use separate axis and angle inputs to control the rotation.
+
+   Euler
+      Use an Euler input to control the rotation.
+
+Space
+   Object
+      Rotate every point in the local space of the object that is being evaluated.
+      The same space is used for every point.
+
+   Point
+      Rotate every point in its local space as specified by its *rotation* attribute.
+
 
 Outputs
 =======

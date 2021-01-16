@@ -29,7 +29,7 @@ About Blender
    Branch
       Optional branch name.
    Release Notes
-       Open the latest release notes.
+      Open the latest release notes.
    Credits
       Open credits website.
    License

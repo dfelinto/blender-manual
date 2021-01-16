@@ -14,9 +14,8 @@ A more detailed description can be found below.
    Blender Splash Screen.
 
 To close the splash screen and start a new project,
-click anywhere outside the splash screen (but inside the Blender Window) or press :kbd:`Esc`.
+click anywhere outside the splash screen (but inside the Blender window) or press :kbd:`Esc`.
 The splash screen will disappear revealing the default screen.
-
 To reopen the splash screen click on the Blender icon in the Topbar and select *Splash Screen*.
 
 Information Region

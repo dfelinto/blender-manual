@@ -28,8 +28,8 @@ A, B
    Depending on the *Type* input, this is either an attribute name or an input of the specified data type.
 
 Threshold
-   This value is used as a threshold for still considering the two inputs as equal
-   for the *Equal* and *Not Equal* operations,
+   This value is used as a threshold for still considering the two inputs as equal for
+   the *Equal* and *Not Equal* operations.
 
 Result
    Name of the attribute where the computed result it stored.

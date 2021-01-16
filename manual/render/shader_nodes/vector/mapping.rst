@@ -47,9 +47,9 @@ Vector Type
 
       The order of transformation is: Scale --> Rotate --> Translate, which means:
 
-         - Translation moves the input along the local rotation axis.
-         - Rotation rotates the input around the origin of the space.
-         - Scaling scales the input along the global axis.
+      - Translation moves the input along the local rotation axis.
+      - Rotation rotates the input around the origin of the space.
+      - Scaling scales the input along the global axis.
 
    Texture
       For this vector type, the node performs an inverse transformation.
@@ -62,9 +62,9 @@ Vector Type
 
       The order of transformation is: Translate --> Rotate --> Scale, which means:
 
-         - Translation moves the input along the global axis.
-         - Rotation rotates the input around the translation vector.
-         - Scaling scales the input along the local rotation axis.
+      - Translation moves the input along the global axis.
+      - Rotation rotates the input around the translation vector.
+      - Scaling scales the input along the local rotation axis.
 
    Vector
       For this vector type, a *Point* transformation is performed, but with zero translation.

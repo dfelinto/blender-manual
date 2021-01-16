@@ -64,7 +64,7 @@ Type
       Display paths of points within specified range.
 
       Clock Button
-        Updates the display frame range from the scene frame range.
+         Updates the display frame range from the scene frame range.
 Frame Range
    Before, After
       Number of frames to show before and after the current frame

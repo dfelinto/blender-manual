@@ -36,21 +36,21 @@ Mode
 
    .. list-table::
 
-       * - .. figure:: /images/modeling_modifiers_deform_simple-deform_twist.png
+      * - .. figure:: /images/modeling_modifiers_deform_simple-deform_twist.png
 
-              Twist around X axis (180°).
+             Twist around X axis (180°).
 
-         - .. figure:: /images/modeling_modifiers_deform_simple-deform_bend.png
+        - .. figure:: /images/modeling_modifiers_deform_simple-deform_bend.png
 
-              Bend around Z axis (180°).
+             Bend around Z axis (180°).
 
-       * - .. figure:: /images/modeling_modifiers_deform_simple-deform_taper.png
+      * - .. figure:: /images/modeling_modifiers_deform_simple-deform_taper.png
 
-              Taper along X axis (factor = 2).
+             Taper along X axis (factor = 2).
 
-         - .. figure:: /images/modeling_modifiers_deform_simple-deform_stretch.png
+        - .. figure:: /images/modeling_modifiers_deform_simple-deform_stretch.png
 
-              Stretch along X axis (factor = 0.3).
+             Stretch along X axis (factor = 0.3).
 
    Twist
       Rotates the mesh around the specified *Axis*.

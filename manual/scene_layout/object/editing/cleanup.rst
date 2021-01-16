@@ -14,7 +14,7 @@ Clean Vertex Group Weights
 
 Clean Vertex Group Weights unassigns vertices from
 :doc:`Vertex Groups </modeling/meshes/properties/vertex_groups/index>`
-whose weights are below the *Limit*.  Removes weights below a given threshold.
+whose weights are below the *Limit*. Removes weights below a given threshold.
 This tool is useful for clearing your weight groups of very low (or zero) weights.
 
 In the example shown, a cutoff value of 0.2 is used (see operator options below)
@@ -35,7 +35,7 @@ Limit
    Weights below this value will be removed from the group.
 Keep Single
    Ensure that the *Clean Vertex Group Weights* tool will not create completely unreferenced vertices
-   (vertices which are not assigned to any vertex group), so each vertex will
+   (which are vertices that are not assigned to any vertex group), so each vertex will
    keep at least one weight, even if it is below the limit value!
 
 

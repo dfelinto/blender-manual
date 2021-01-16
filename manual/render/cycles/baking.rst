@@ -25,10 +25,10 @@ This has a few different purposes, most commonly:
 Setup
 =====
 
-Baking requires a mesh to have a UV map, and either Vertex Colors
+Baking requires a mesh to have a UV map, and either vertex colors
 or an Image Texture node with an image to be baked to.
 
-The :term:`Active` Image Texture node or Vertex Color is used as the baking target.
+The :term:`Active` Image Texture node or vertex color is used as the baking target.
 
 Use Render Bake in intensive light/shadow solutions,
 such as AO or soft shadows from area lights. If you bake AO for the main objects,

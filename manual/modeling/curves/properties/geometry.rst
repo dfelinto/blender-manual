@@ -43,12 +43,10 @@ Taper Object
    Tapering a curve causes it to get thinner towards one end.
    You can also alter the proportions of the Taper throughout the tapered object
    by moving/scaling/rotating the control points of the Taper Object.
-
    The taper curve is evaluated along the local X axis, using the local Y axis for width control.
-
    In order for this to work the Taper Object can only be another *open curve*.
 
-   Details:
+   The details are:
 
    - The taper is applied independently to all curves of the extruded object.
    - Only the first curve in a *Taper Object* is evaluated, even if you have several separated segments.
@@ -58,7 +56,7 @@ Taper Object
      However, rendering artifacts may appear.
    - You may need to increase the curve resolution to see more detail of the taper.
    - The Taper Object is distributed by control points.
-     Therefor unevenly spaced control points may applier to stretch the shape of the taper.
+     Therefor unevenly spaced control points may likelier to stretch the shape of the taper.
      Subdividing segments causes those points to use a larger fraction of the overall taper shape.
    - With closed curves, the taper curve in *Taper Object* acts along the whole curve (perimeter of the object),
      not just the length of the object, and varies the extrusion depth. In these cases,
@@ -69,7 +67,7 @@ Taper Object
    .. hint::
 
       Editing the handles and control points of the Taper Object
-      will cause the original Object to change shape in real-time.
+      will instantly change the shape of the original object.
 
 .. _bpy.types.Curve.use_map_taper:
 

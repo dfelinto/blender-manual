@@ -10,7 +10,7 @@ Point Distribute
 
    The Point Distribute Node.
 
-The *Point Distribute* node distributes points on the surface of the input geometry object.
+The *Point Distribute* node places points on the surface of the input geometry object.
 
 
 Inputs
@@ -64,9 +64,9 @@ Geometry
 
    .. object:: id (int)
 
-      An identifier for each point used for stability when the mesh is deformed, used in the
-      :doc:`/modeling/modifiers/nodes/attribute/attribute_randomize` and
-      :doc:`/modeling/modifiers/nodes/point/point_instance` nodes.
+      An identifier for each point used for stability when the mesh is deformed,
+      used in the :doc:`/modeling/modifiers/nodes/attribute/attribute_randomize`
+      and :doc:`/modeling/modifiers/nodes/point/point_instance` nodes.
 
    .. object:: normal (vector)
 

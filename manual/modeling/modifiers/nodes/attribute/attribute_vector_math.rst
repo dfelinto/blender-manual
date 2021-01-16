@@ -20,9 +20,9 @@ Geometry
    Standard geometry input.
 
 A, B, C
-   The inputs to the math operations. Depending on the operation, one, two, or all three
-   of the inputs will be used. The attribute types are all vectors of three values, except
-   for the *Scale* operation, where the second input uses a float type.
+   The inputs to the math operations. Depending on the operation one, two, or all three
+   of the inputs will be used. The attribute types are all vectors of three values,
+   except for the *Scale* operation, where the second input uses a float type.
 
 Result
    The name of the attribute where the computed result it stored.
@@ -36,7 +36,7 @@ Properties
 Operation
    The math function to perform.
 
-    Add
+   Add
       The sum of A and B.
 
    Subtract
@@ -47,7 +47,7 @@ Operation
       :math:`(A.x * B.x, A.y * B.y, A.z * B.z)`
 
    Divide
-      The entrywise division of A by B. Division by zero returns zero.
+      The entrywise division of A by B. Division by zero results in zero.
       :math:`(A.x / B.x, A.y / B.y, A.z / B.z)`
 
    Cross Product

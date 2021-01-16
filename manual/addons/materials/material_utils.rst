@@ -15,7 +15,7 @@ Activation
 - Click Material then Material Utilities to enable the script.
 
 Add-ons Preferences
-  Choose the default settings for the add-ons actions here.
+   Choose the default settings for the add-ons actions here.
 
 
 Interface

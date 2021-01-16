@@ -1,9 +1,9 @@
 .. index:: Nodes; Geometry Nodes
 .. index:: Geometry Nodes
 
-**************
-Geometry Nodes
-**************
+##################
+  Geometry Nodes
+##################
 
 Nodes can be used to change an object's geometry in a more complex way than regular modifiers.
 To use them add a :doc:`Geometry Nodes Modifier </modeling/modifiers/generate/geometry_nodes>`.

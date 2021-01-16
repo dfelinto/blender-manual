@@ -10,7 +10,7 @@ Cryptomatte Node
 
 The Cryptomatte node uses the Cryptomatte standard to efficiently create mattes for compositing.
 Cycles and Eevee output the required render passes, which can then be used in the Compositor
-or another Compositor with Cryptomatte support to create masks for specified objects.
+or another compositor with Cryptomatte support to create masks for specified objects.
 
 Unlike the Material and Object Index passes, the objects to isolate are selected in compositing,
 and mattes will be anti-aliased and take into account effects like motion blur and transparency.

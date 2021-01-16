@@ -11,19 +11,8 @@ Align Rotation to Vector
    The Align Rotation to Vector node.
 
 The *Align Rotation to Vector* node rotates points into the given direction.
-It does so by modifying the *rotation* attribute.
+It does so by modifying the *Rotation* attribute.
 
-Properties
-==========
-
-Axis
-   Local axis of the object that is to be rotated towards the vector input.
-
-Factor
-   Type of the *Factor* input socket.
-
-Vector
-   Type of the *Vector* input socket.
 
 Inputs
 ======
@@ -39,6 +28,20 @@ Vector
    The direction vector that points should be rotated to.
    The vector is in the local space of the object that is being modified.
    When it is all zeros for a point, it is not rotated at all.
+
+
+Properties
+==========
+
+Axis
+   Local axis of the object that is to be rotated towards the vector input.
+
+Factor
+   Type of the *Factor* input socket.
+
+Vector
+   Type of the *Vector* input socket.
+
 
 Outputs
 =======

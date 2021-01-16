@@ -147,7 +147,6 @@ Style
       Use a color gradient.
 
       Gradient Type
-
          Linear
             Mix the colors along a single axis.
 

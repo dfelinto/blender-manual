@@ -51,7 +51,7 @@ while using :doc:`Texture color </render/workbench/color>` mode.
 This method can be used to preview painted textures while texture painting.
 
 The default texture coordinates for all nodes are Generated coordinates,
-with the exception of Image textures that use UV coordinates by default.
+except for Image textures that use UV coordinates by default.
 Each node includes some options to modify the texture mapping and resulting color,
 and these can be edited in the texture properties.
 

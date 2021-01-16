@@ -89,7 +89,6 @@ Include
       Surface normal used for shading.
 
 
-
 Light
 =====
 
@@ -192,8 +191,8 @@ Cryptomatte is a standard to efficiently create mattes for compositing.
 Cycles outputs the required render passes, which can then be used in the Blender Compositor
 or another compositor with Cryptomatte support to create masks for specified objects.
 
-Unlike the Material and Object Index passes, the objects to isolate are selected in compositing,
-and mattes will be anti-aliased and take into account effects like motion blur and transparency.
+Unlike the Material and Object Index passes, the objects to isolate are selected in compositing.
+The mattes will be anti-aliased and take into account effects like motion blur and transparency.
 
 .. _bpy.types.ViewLayer.use_pass_cryptomatte_object:
 
@@ -208,8 +207,8 @@ Material
 .. _bpy.types.ViewLayer.use_pass_cryptomatte_asset:
 
 Asset
-   Render cryptomatte asset pass, for isolating groups of objects with the same
-   :doc:`parent </scene_layout/object/editing/parent>` in compositing.
+   Render cryptomatte asset pass, for isolating groups of objects with
+   the same :doc:`parent </scene_layout/object/editing/parent>` in compositing.
 
 .. _bpy.types.ViewLayer.pass_cryptomatte_depth:
 

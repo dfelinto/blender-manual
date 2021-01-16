@@ -106,9 +106,9 @@ Pose Space (bones only)
    *Pose Space* will have the same effect as *World Space*.
 
 Custom Space
-   The position and orientation is evaluated relative to the current position and orientation of an
-   arbitrary object or bone that is specified via additional input fields that appear when this option
-   is selected. This can be used to evaluate the constraint using an arbitrary coordinate system.
+   The position and orientation is evaluated relative to the current position and orientation of
+   an arbitrary object or bone that is specified via additional input fields that appear when this option is selected.
+   This can be used to evaluate the constraint using an arbitrary coordinate system.
 
 
 .. _bpy.types.constraint.influence:

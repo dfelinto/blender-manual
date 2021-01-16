@@ -25,4 +25,4 @@ Example
 
 .. figure:: /images/physics_particles_introduction_fur-example.jpg
 
-   Some fur made from particles.
+   Fur made from particles.

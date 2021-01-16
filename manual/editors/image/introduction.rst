@@ -49,8 +49,8 @@ Image
    the Image panel appears in the *Sidebar region*.
    See :doc:`/editors/image/image_settings`.
 
-      - Render Result
-      - Viewer Node
+   - Render Result
+   - Viewer Node
 
 Image Pin
    Todo.

@@ -171,7 +171,7 @@ Repeat History
    :class: refbox
 
    :Mode:      All Modes
-   :Menu:     :menuselection:`Edit --> Repeat History...`
+   :Menu:      :menuselection:`Edit --> Repeat History...`
 
 .. figure:: /images/interface_undo-redo_repeat-history-menu.png
    :align: right

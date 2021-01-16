@@ -30,6 +30,12 @@ Scale
    Scale to transform the geometry in local space.
 
 
+Properties
+==========
+
+This node has no properties.
+
+
 Output
 ======
 

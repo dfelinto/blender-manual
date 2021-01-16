@@ -59,9 +59,9 @@ Dynamic Mesh
    on cartoon style characters that use a lot of squash and stretch.
 
 Rest Shape Key
-   Allows initializing the cloth simulation using a specific shape key as the rest state,
-   instead of the shape that results from evaluating shape keys and preceeding modifiers
-   in the regular way. This option is mutually exclusive with Dynamic Mesh.
+   Allows starting the cloth simulation using a specific shape key as the rest state,
+   instead of the shape that results from evaluating shape keys and preceding modifiers
+   in the regular way. This option is mutually exclusive with *Dynamic Mesh*.
 
    This can be used to start the simulation with the cloth in a pre-draped state without
    applying that shape as a plastic deformation that relaxes all springs as a side effect.
