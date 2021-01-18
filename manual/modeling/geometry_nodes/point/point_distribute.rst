@@ -65,8 +65,8 @@ Geometry
    .. object:: id (int)
 
       An identifier for each point used for stability when the mesh is deformed,
-      used in the :doc:`/modeling/modifiers/nodes/attribute/attribute_randomize`
-      and :doc:`/modeling/modifiers/nodes/point/point_instance` nodes.
+      used in the :doc:`/modeling/geometry_nodes/attribute/attribute_randomize`
+      and :doc:`/modeling/geometry_nodes/point/point_instance` nodes.
 
    .. object:: normal (vector)
 
