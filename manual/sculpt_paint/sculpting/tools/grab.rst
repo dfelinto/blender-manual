@@ -26,6 +26,7 @@ Grab Active Vertex
    Snaps the maximum strength of the brush to the highlighted active vertex,
    making it easier to manipulate low poly models or meshes with subdivision surfaces.
 
-   Enabling *Grab Active Vertex* also enables a dynamic mesh preview which
+   Enabling this option also enables a dynamic mesh preview which
    generates a preview of vertices connected to the active vertex.
-   This helps to visualize the real geometry that is being manipulating while sculpting with active modifiers.
+   This helps to visualize the real geometry that is being manipulating
+   while sculpting with :doc:`Modifiers </modeling/modifiers/index>`.

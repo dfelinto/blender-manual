@@ -97,7 +97,7 @@ Triangulate
    the mesh itself is not affected.
 
 Apply Modifiers
-   All active modifiers will be applied in a non-destructive way.
+   All :doc:`Modifiers </modeling/modifiers/index>` will be applied in a non-destructive way.
    That is, the modifiers will be applied to copies of the meshes.
 
    Resolution

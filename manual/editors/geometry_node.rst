@@ -34,7 +34,8 @@ Node
 Geometry Node Group
    The :ref:`data-block selector <ui-data-block>` can change the active node group being edited.
 Pin (pin icon)
-   The pin button will keep the current material selection fixed.
+   The pin button will keep the current geometry node group selection fixed,
+   instead of using the :ref:`Active Modifier <modifier-stack-active>`.
    When a geometry node group is pinned, it will remain visible in the Geometry Node editor
    even when another object or modifier is selected elsewhere.
 
@@ -59,8 +60,12 @@ Node
 ^^^^
 
 This tab allows you to edit the geometry node group's inputs and outputs.
-The inputs of the node group can be edited as properties of the
-:doc:`Geometry Node Modifier </modeling/modifiers/generate/geometry_nodes>`.
+
+.. tip::
+
+   The inputs of the node group can be edited as properties of the
+   :doc:`Geometry Node Modifier </modeling/modifiers/generate/geometry_nodes>`.
+
 
 Item
 ^^^^

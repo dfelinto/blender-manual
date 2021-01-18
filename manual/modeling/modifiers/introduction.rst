@@ -167,8 +167,22 @@ In this example, the desired result (on right) is achieved by first mirroring th
 and then calculating the subdivision surface.
 
 
+.. _modifier-stack-active:
+
+Active Modifier
+^^^^^^^^^^^^^^^
+
+A modifier in the stack can be selected to mark in as :term:`Active`,
+the active modifier displays an outline around the modifier's interface.
+To set an active modifier, select an area of the modifier's interface background,
+the modifier's icon, or, select a modifier in the :doc:`/editors/outliner/index`.
+
+The active modifier is used by the :doc:`/editors/geometry_node`
+to determine which node group is being modified.
+
+
 Example
-^^^^^^^
+=======
 
 .. figure:: /images/modeling_modifiers_introduction_stack-example-3.png
 
