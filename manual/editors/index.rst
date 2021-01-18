@@ -30,6 +30,7 @@ See :doc:`User Interface </interface/index>` for documentation on the general in
    uv/index.rst
    shader_editor.rst
    compositor.rst
+   geometry_node.rst
    texture_node/index.rst
    sequencer.rst
    clip/index.rst
