@@ -1,8 +1,5 @@
 .. _bpy.types.NodeGroup:
 
-.. Editors Note: This page gets copied into :doc:`</compositing/types/groups.rst>`
-.. --- copy below this line ---
-
 ***********
 Node Groups
 ***********
@@ -13,7 +10,6 @@ Node Groups
    Example of a node group.
 
 Grouping nodes can simplify a node tree by allowing instancing and hiding parts of the tree.
-Both material and composite nodes can be grouped.
 
 Conceptually, grouping nodes allows you to specify a *set* of nodes that you can treat as
 though it were "just one node". Node groups are similar to functions in programming,
@@ -33,6 +29,8 @@ Also nested node groups are supported. I.e. a node group can be inserted or crea
    Recursive node groups are prohibited for all the current node systems to prevent infinite recursion.
    A node group can never contain itself (or another group that contains it).
 
+
+.. _bpy.ops.node.group_make:
 
 Make Group
 ==========
@@ -66,6 +64,32 @@ so it is recommended to use some naming convention that will allow you to easily
    Output node
       If you include an output node in the group, there will not be an output socket available *from* the group!
 
+
+.. _bpy.ops.node.group_ungroup:
+
+Ungroup
+=======
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      All Modes
+   :Menu:      :menuselection:`Group --> Ungroup`
+   :Hotkey:    :kbd:`Ctrl-Alt-G`
+
+The :kbd:`Ctrl-Alt-G` tool removes the group and places the individual nodes into your editor workspace.
+No internal connections are lost, and now you can thread internal nodes to other nodes in your workspace.
+
+Separate :kbd:`P`
+   Separate selected nodes from the node group.
+
+   Copy
+      Copy to parent node tree, keep group intact.
+   Move
+      Move to parent node tree, remove from group.
+
+
+.. _bpy.ops.node.tree_path_parent:
 
 Edit Group
 ==========
@@ -133,28 +157,6 @@ The larger plus sign buttons below the list will add an unconnected socket of th
 as the selected socket or a value socket if there is no selection.
 The triangle at the bottom of the list has filtering functions to facilitate finding nodes
 if the group has a large number of sockets.
-
-
-Ungroup
-=======
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Mode:      All Modes
-   :Menu:      :menuselection:`Group --> Ungroup`
-   :Hotkey:    :kbd:`Ctrl-Alt-G`
-
-The :kbd:`Ctrl-Alt-G` tool removes the group and places the individual nodes into your editor workspace.
-No internal connections are lost, and now you can thread internal nodes to other nodes in your workspace.
-
-Separate :kbd:`P`
-   Separate selected nodes from the node group.
-
-   Copy
-      Copy to parent node tree, keep group intact.
-   Move
-      Move to parent node tree, remove from group.
 
 
 Group Insert
