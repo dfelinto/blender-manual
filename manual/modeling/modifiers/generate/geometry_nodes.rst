@@ -19,7 +19,7 @@ Options
 Node Group
    A :doc:`Node Group </interface/controls/nodes/groups>` with the geometry input and output.
    Those are respectively what is received and passed to the previous and next modifier in the stack.
-   See :doc:`Nodes </modeling/modifiers/nodes/index>` for all available nodes.
+   See :doc:`Nodes </modeling/geometry_nodes/index>` for all available nodes.
 Inputs
    A list of the node group's inputs which can have unique values even
    if the group is shared among multiple modifiers.

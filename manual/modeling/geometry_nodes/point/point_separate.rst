@@ -23,7 +23,7 @@ the point cloud component of the input geometry is split between the two outputs
 .. tip::
 
    This node can be combined with
-   the :doc:`Attribute Compare </modeling/modifiers/nodes/attribute/attribute_compare>` node
+   the :doc:`Attribute Compare </modeling/geometry_nodes/attribute/attribute_compare>` node
    for a more precise control of which points are separated to a given output geometry.
 
 

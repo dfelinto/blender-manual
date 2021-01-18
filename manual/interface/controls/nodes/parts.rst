@@ -61,7 +61,7 @@ Color (yellow)
 Shader (bright green)
    Used for shaders in :doc:`Cycles </render/cycles/index>` and :doc:`Eevee </render/eevee/index>`.
 Geometry (turquoise)
-   Used in :doc:`Geometry Nodes </modeling/modifiers/nodes/index>`.
+   Used in :doc:`Geometry Nodes </modeling/geometry_nodes/index>`.
 Object (orange)
    Used to pass an object data-block.
 Collection (white)

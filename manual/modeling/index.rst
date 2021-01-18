@@ -16,3 +16,4 @@
    volumes/index.rst
    empties.rst
    modifiers/index.rst
+   geometry_nodes/index.rst
