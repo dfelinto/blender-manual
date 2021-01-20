@@ -11,6 +11,9 @@ Point Distribute
    The Point Distribute Node.
 
 The *Point Distribute* node places points on the surface of the input geometry object.
+Point and corner attributes of the input geometry are transferred to the generated points.
+That includes vertex weights and uv maps.
+Additionally, the generated points will have a *normal*, *id* and *rotation* attribute.
 
 
 Inputs
@@ -41,20 +44,18 @@ Density Attribute
    The name of the attribute to use for influencing the point density.
    The values of this attribute are multiplied by *Density Max* for the final density value.
 
+Seed
+   The random :term:`Seed` to use when generating points.
 
 Properties
 ==========
 
 Distribution Method
    Random
-      Distribute points randomly on the surface.
+      Distribute points randomly on the surface. This is the fastest distribution method.
 
    Poisson Disk
-      Distribute points more evenly on the XY plane, then project them to the mesh along the Z axis.
-
-Seed
-   The random :term:`Seed` to use when generating points.
-
+      Distribute points randomly on the surface while taking a minimum distance into account.
 
 Output
 ======
