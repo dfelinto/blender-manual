@@ -9,8 +9,8 @@ Line Project
    :Mode:      Sculpt Mode
    :Tool:      :menuselection:`Toolbar --> Line Project`
 
-This tool performs a Boolean operation based on plan determined by the camera view and a drawn line.
-The region of the mesh being removed is visualized by the side of the line that is shaded.
+This tool flattens geometry along a plane determined by the camera view and a drawn line.
+The region of the mesh being flattened is visualized by the side of the line that is shaded.
 
 
 Tool Settings
@@ -38,3 +38,17 @@ Snap :kbd:`Ctrl`
    Constrains the line to 15 degree intervals.
 Move :kbd:`Ctrl-Spacebar`
    Changes the location of the line.
+
+
+Example
+=======
+
+.. list-table::
+
+   * - .. figure:: /images/sculpt_paint_sculpting_tool_line_project_before.png
+
+          Before Line Poject
+
+     - .. figure:: /images/sculpt_paint_sculpting_tool_line_project_after.png
+
+          After Line Project.

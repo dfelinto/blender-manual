@@ -35,3 +35,10 @@ Show Grease Pencil
 Transparent
    Creates a transparent background.
    This is useful for doing overlays like rendering out Grease Pencil films via the Sequencer.
+
+
+Limitations
+===========
+
+Scene strips do not render individual :doc:`Render Passes </render/layers/passes>`;
+only the *Combined* render pass will be used.

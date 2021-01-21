@@ -427,8 +427,16 @@ Bake Curve
 
 Baking a curve replaces it with a set of sampled points, and removes the ability to edit the curve.
 
+
+.. _bpy.ops.graph.unbake:
+
 Un-Bake Curve
 =============
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Menu:      :menuselection:`Key --> Un-Bake Curve`
 
 Unbaking a curve replaces the baked curve with an unbaked curve, adding the ability to edit it.
 
