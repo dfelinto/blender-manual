@@ -115,10 +115,10 @@ to generate weights used by the :doc:`Displace </modeling/modifiers/deform/displ
 
           No mapping curve (linear).
 
-   *  - .. figure:: /images/modeling_modifiers_modify_weight-edit_mapping-convex.jpg
-           :width: 400px
+   * - .. figure:: /images/modeling_modifiers_modify_weight-edit_mapping-convex.jpg
+          :width: 400px
 
-           Convex-type mapping curve.
+          Convex-type mapping curve.
 
 .. figure:: /images/modeling_modifiers_modify_weight-edit_exrem-vertices.jpg
    :width: 400px

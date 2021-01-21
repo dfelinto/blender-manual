@@ -12,8 +12,8 @@ Point Translate
 
 The *Point Translate Node* moves every point of the geometry by the specified amount,
 either from the attribute input or a vector input.
-This node is provided for convenience, as it's equivalent to using the
-:doc:`Attribute Vector Math Node </modeling/geometry_nodes/attribute/attribute_vector_math>`
+This node is provided for convenience, as it's equivalent to using
+the :doc:`Attribute Vector Math Node </modeling/geometry_nodes/attribute/attribute_vector_math>`
 with the *Addition* operation and the *position* attribute.
 
 

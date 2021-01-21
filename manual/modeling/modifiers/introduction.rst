@@ -138,12 +138,11 @@ The Modifier Stack
 
 Modifiers are a series of non-destructive operations which can be applied on top of an object's geometry.
 They can be applied in just about any order the user chooses.
-
 This kind of functionality is often referred to as a "modifier stack"
 and is also found in several other 3D applications.
 
 In a modifier stack, the order in which modifiers are applied has an effect on the result.
-Fortunately, modifiers can be rearranged easily by clicking the grab area (``::::``) in the top right,
+Therefore the modifiers can be rearranged by clicking the grab widget (``::::``) in the top right,
 and moving the selected modifier up or down.
 For example, the image below shows :doc:`Subdivision Surface </modeling/modifiers/generate/subdivision_surface>`
 and :doc:`Mirror </modeling/modifiers/generate/mirror>` modifiers that have switched places.
@@ -173,8 +172,8 @@ Active Modifier
 ^^^^^^^^^^^^^^^
 
 A modifier in the stack can be selected to mark in as :term:`Active`,
-the active modifier displays an outline around the modifier's interface.
-To set an active modifier, select an area of the modifier's interface background,
+the active modifier displays an outline around the modifier's panel.
+To set an active modifier, select an area of the modifier's panel background,
 the modifier's icon, or, select a modifier in the :doc:`/editors/outliner/index`.
 
 The active modifier is used by the :doc:`/editors/geometry_node`
