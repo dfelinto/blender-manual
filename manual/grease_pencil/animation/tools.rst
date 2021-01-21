@@ -108,6 +108,7 @@ A breakdown keyframe will be added on every frame between the previous and next 
 
 
 .. _bpy.ops.gpencil.mesh_bake:
+.. _bpy.ops.gpencil.bake_mesh_animation:
 
 Bake Mesh to Grease Pencil
 ==========================
@@ -123,9 +124,11 @@ Converts each frame of a mesh animation within a selected frame range to
 a Grease Pencil object keyframed strokes. The *Bake Action* tool computes the final animation of
 the selected objects with all those modifiers, drivers, and constraints applied, and keyframes the result.
 
+Target Object
+   Select the target Grease Pencil object for the baked animation or a new one if there is nothing yet.
 Start Frame, End Frame
    Start/End frame for the baking process.
-Frame Step
+Step
    Frame steps for the baking process
 Thickness
    Strokes thickness.
@@ -137,8 +140,8 @@ Only Seam Edges
    Convert only edges marked as seam.
 Export Faces
    Convert faces as filled strokes.
-Target Object
-   Select the target Grease Pencil object for the baked animation or a new one if there is nothing yet.
+Only Selected Keyframes
+   Convert only the selected keyframes.
 Target Frame
    Target destination frame for the baked animation.
 Reproject Type

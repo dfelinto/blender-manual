@@ -30,3 +30,9 @@ Grab Active Vertex
    generates a preview of vertices connected to the active vertex.
    This helps to visualize the real geometry that is being manipulating
    while sculpting with :doc:`Modifiers </modeling/modifiers/index>`.
+
+.. _bpy.types.Brush.use_grab_silhouette:
+
+Grab Silhouette
+   Attempts to preserves the object's silhouette shape.
+   The shape of the silhouette is determined by the orientation of the 3D Viewport.

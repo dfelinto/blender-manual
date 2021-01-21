@@ -14,6 +14,63 @@ e.g. in the Audio-Video Interleaved format (``*.avi`` file).
    Do not assume your computer or Blender has locked up if nothing happens for awhile.
 
 
+.. _bpy.ops.sequencer.movie_strip_add:
+
+Add Movie Strip
+===============
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Menu:      :menuselection:`Add --> Movie`
+
+Relative Path
+   Store the location of the image file relative to the blend-file.
+
+Start Frame
+   The :ref:`Start Frame <bpy.types.Sequence.frame_start>` to place the left handle of the strip.
+
+Channel
+   The :ref:`Channel <bpy.types.Sequence.channel>` to place the strip.
+
+Replace Selection
+   Replaces the currently selected strips with the new strip
+
+Fit Method
+   Determines how images with aspect ratios different then the :doc:`Scene's </render/output/properties/dimensions>`
+   are scaled to fit inside the render area.
+
+   Defininition
+      njkfnk re vk;j kj vkjveh m ejhrdkc elnv jkmc ejhbkc ejsbscje abbwej cjb wvjhc.
+
+   :Scale to Fit:
+      Adjusts the strips :ref:`Scale Transforms <bpy.types.SequenceTransform.scale>`
+      so the visual contents of the strip to fit exactly within the project's :doc:`/render/output/properties/dimensions`
+      while maintaining the original aspect ratio.
+
+      This may mean that the transparent areas may be added
+      along the content's border to fit the content in the rendered area.
+   :Scale to Fill:
+      Adjusts the strips :ref:`Scale Transforms <bpy.types.SequenceTransform.scale>`
+      so the visual contents of the strip to span the project's :doc:`/render/output/properties/dimensions`
+      while maintaining the original aspect ratio.
+
+      This may mean that portions of the original image no longer fit the content inside the rendered area.
+   :Stretch to Fill:
+      Adjusts the strips :ref:`Scale Transforms <bpy.types.SequenceTransform.scale>`
+      so the visual contents of the strip to fill the project's :doc:`/render/output/properties/dimensions`.
+      Note, unlike the other two methods described above, *Stretch to Fill* does not maintaining the original aspect ratio.
+
+      This may mean that the original image becomes distorted to fit the content inside the rendered area.
+
+Sound
+   Add a :doc:`Sound Strip </video_editing/sequencer/strips/sound>` that contains the movie's audio track.
+
+Use Movie Framerate
+   Sets the :ref:`Scene Framerate <bpy.types.RenderSettings.fps>` to the framerate encoded in the movie file.
+
+
+
 Example
 =======
 
@@ -62,21 +119,69 @@ All
    the auto-scaling will be disabled and you can manually re-scale by adding the Transform effect.
 
 
+.. _bpy.ops.sequencer.image_strip_add:
+
 Add Image Strip
 ===============
 
-Placeholder Images
-------------------
+.. admonition:: Reference
+   :class: refbox
 
-Image sequences can use placeholder files.
-This works by enabling *Use placeholders* checkbox when adding an image strip.
-The option detects the frame range of opened images using Blender's frame naming scheme
-(``filename + frame number + .extension``) and makes an image sequence
-with all files in between even if they are missing.
-This allows you to render an image sequence with a few frames missing and
-still the image strip will have the correct range to account for the missing frames displayed as black.
-When the missing frames are rendered or placed in the same folder,
-you can :ref:`refresh <bpy.ops.sequencer.refresh_all>`
-the Sequencer and get the missing frames in the strip.
-The option is also available when using the *Change Data/File* operator and
-allows you to add more images to the range.
+   :Menu:      :menuselection:`Add --> Image/Sequence`
+
+Relative Path
+   Store the location of the image file relative to the blend-file.
+
+Start Frame
+   The :ref:`Start Frame <bpy.types.Sequence.frame_start>` to place the left handle of the strip.
+
+End Frame
+   The end frame to place the right handle of the strip.
+
+   .. tip::
+
+      Subtract the *Start Frame* from the *End Frame* to get the strip's duration.
+
+Channel
+   The :ref:`Channel <bpy.types.Sequence.channel>` to place the strip.
+
+Replace Selection
+   Replaces the currently selected strips with the new strip
+
+Fit Method
+   Determines how images with aspect ratios different then the :doc:`Scene's </render/output/properties/dimensions>`
+   are scaled to fit inside the render area.
+
+   :Scale to Fit:
+      Adjusts the strips :ref:`Scale Transforms <bpy.types.SequenceTransform.scale>`
+      so the visual contents of the strip to fit exactly within the project's :doc:`/render/output/properties/dimensions`
+      while maintaining the original aspect ratio.
+
+      This may mean that the transparent areas may be added
+      along the content's border to fit the content in the rendered area.
+   :Scale to Fill:
+      Adjusts the strips :ref:`Scale Transforms <bpy.types.SequenceTransform.scale>`
+      so the visual contents of the strip to span the project's :doc:`/render/output/properties/dimensions`
+      while maintaining the original aspect ratio.
+
+      This may mean that portions of the original image no longer fit the content inside the rendered area.
+   :Stretch to Fill:
+      Adjusts the strips :ref:`Scale Transforms <bpy.types.SequenceTransform.scale>`
+      so the visual contents of the strip to fill the project's :doc:`/render/output/properties/dimensions`.
+      Note, unlike the other two methods described above, *Stretch to Fill* does not maintaining the original aspect ratio.
+
+      This may mean that the original image becomes distorted to fit the content inside the rendered area.
+
+Use placeholders
+   Image sequences can use placeholder files.
+   This works by enabling *Use placeholders* checkbox when adding an image strip.
+   The option detects the frame range of opened images using Blender's frame naming scheme
+   (``filename + frame number + .extension``) and makes an image sequence
+   with all files in between even if they are missing.
+   This allows you to render an image sequence with a few frames missing and
+   still the image strip will have the correct range to account for the missing frames displayed as black.
+   When the missing frames are rendered or placed in the same folder,
+   you can :ref:`refresh <bpy.ops.sequencer.refresh_all>`
+   the Sequencer and get the missing frames in the strip.
+   The option is also available when using the *Change Data/File* operator and
+   allows you to add more images to the range.

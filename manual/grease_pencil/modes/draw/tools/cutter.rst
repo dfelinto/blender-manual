@@ -13,6 +13,13 @@ Cutter Tool
 The Cutter tool delete points in between intersecting strokes.
 
 
+Tool Settings
+=============
+
+Flat Caps
+   Mark newly created :ref:`End Caps <bpy.ops.gpencil.stroke_caps_set>` as *Flat*.
+
+
 Usage
 =====
 

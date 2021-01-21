@@ -427,6 +427,11 @@ Bake Curve
 
 Baking a curve replaces it with a set of sampled points, and removes the ability to edit the curve.
 
+Un-Bake Curve
+=============
+
+Unbaking a curve replaces the baked curve with an unbaked curve, adding the ability to edit it.
+
 
 .. _bpy.ops.graph.euler_filter:
 

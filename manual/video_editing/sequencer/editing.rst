@@ -177,6 +177,103 @@ Insert blank frames between the current frame and the first strips to the right,
 independent of selection or locked state of strips.
 
 
+Image Transform
+===============
+
+.. _bpy.ops.sequencer.strip_transform_fit:
+
+Scale to Fit
+------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Menu:      :menuselection:`Strip --> Image Transform --> Scale to Fit`
+
+Adjusts the strips :ref:`Scale Transforms <bpy.types.SequenceTransform.scale>`
+so the visual contents of the strip to fit exactly within the project's :doc:`/render/output/properties/dimensions`
+while maintaining the original aspect ratio.
+
+This may mean that the transparent areas may be added
+along the content's border to fit the content in the rendered area.
+
+
+Scale to Fill
+-------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Menu:      :menuselection:`Strip --> Image Transform --> Scale to Fill`
+
+Adjusts the strips :ref:`Scale Transforms <bpy.types.SequenceTransform.scale>`
+so the visual contents of the strip to span the project's :doc:`/render/output/properties/dimensions`
+while maintaining the original aspect ratio.
+
+This may mean that portions of the original image no longer fit the content inside the rendered area.
+
+
+Stretch to Fill
+---------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Menu:      :menuselection:`Strip --> Image Transform --> Stretch to Fill`
+
+Adjusts the strips :ref:`Scale Transforms <bpy.types.SequenceTransform.scale>`
+so the visual contents of the strip to fill the project's :doc:`/render/output/properties/dimensions`.
+Note, unlike the other two methods described above, *Stretch to Fill* does not maintaining the original aspect ratio.
+
+This may mean that the original image becomes distorted to fit the content inside the rendered area.
+
+
+.. _bpy.ops.sequencer.strip_transform_clear:
+
+Clear Position
+--------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Menu:      :menuselection:`Strip --> Image Transform --> Clear Position`
+
+Resets the strips :ref:`Position Transforms <bpy.types.SequenceTransform.rotation>` to a value of zero.
+
+
+Clear Scale
+-----------
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Menu:      :menuselection:`Strip --> Image Transform --> Clear Scale`
+
+Resets the strips :ref:`Scale Transforms <bpy.types.SequenceTransform.scale>` to a value of one.
+
+
+Clear Rotation
+--------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Menu:      :menuselection:`Strip --> Image Transform --> Clear Rotation`
+
+Resets the strips :ref:`Rotation Transform <bpy.types.SequenceTransform.rotation>` to a value of zero.
+
+
+Clear All
+---------
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Menu:      :menuselection:`Strip --> Image Transform --> Clear All`
+
+Resets the strips position, scale, and rotation :ref:`Transforms <bpy.types.SequenceTransform>` to their default values.
+
+
 .. _bpy.ops.sequencer.split:
 
 Split

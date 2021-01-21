@@ -15,38 +15,24 @@ The empty editor looks like the image below.
 Header
 ======
 
-Menus
------
+Mode
+   - :doc:`Tracking </movie_clip/tracking/index>`
+   - :doc:`Mask </movie_clip/masking/index>`
 
 View
-   Tools for controlling how the content is displayed in the editor.
+   Menu of operators for controlling how the content is displayed in the editor.
 
    Center View to Cursor
       Centers the view so that the cursor is in the middle of the view.
 Select
-   TODO.
+   Menu of operators for :doc:`Selecting Markers </movie_clip/tracking/clip/selecting>`.
 Clip
-   Open Clip :kbd:`Alt-O`
-      Open a new clip from an image file sequence.
-   Prefetch Frames
-      TODO.
-   Reload Clip
-      TODO.
-   Proxy
-      TODO.
-
-
-Controls
---------
+   Menu of operators for :doc:`Editing Movie Clips </movie_clip/tracking/clip/editing/clip>`.
 
 Clip
    A :ref:`data-block menu <ui-data-block>` used for add a movie file.
    Both movie files and image sequences can be used in the Clip editor.
    When a movie clip is loaded into the Clip editor, extra panels are displayed in the interface.
-
-Modes
-   - :doc:`Motion Tracking </movie_clip/tracking/index>`
-   - :doc:`Masking </movie_clip/masking/index>`
 
 Pivot Point
    See :doc:`Pivot Points </editors/3dview/controls/pivot_point/index>`.

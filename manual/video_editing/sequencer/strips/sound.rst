@@ -57,3 +57,33 @@ There are two ways to render out your audio.
 You can either have it encoded with a video file or in its own audio file.
 Read more on how to select a proper :ref:`audio format <render-output-video-encoding-audio>`
 and how to start :doc:`rendering </render/output/index>`.
+
+
+.. _bpy.ops.sequencer.sound_strip_add:
+
+Add Sound Strip
+===============
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Menu:      :menuselection:`Add --> Sound`
+
+Relative Path
+   Store the location of the image file relative to the blend-file.
+
+Start Frame
+   The :ref:`Start Frame <bpy.types.Sequence.frame_start>` to place the left handle of the strip.
+
+Channel
+   The :ref:`Channel <bpy.types.Sequence.channel>` to place the strip.
+
+Replace Selection
+   Replaces the currently selected strips with the new strip
+
+Cache
+   Cache the sound in memory, enables :ref:`Caching <bpy.types.Sound.use_memory_cache>` in the Source properties.
+
+Mono
+   Merge all the sound's channels into one channel,
+   enables :ref:`Mono <bpy.types.Sound.use_mono>` in the Sound properties.

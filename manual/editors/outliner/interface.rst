@@ -102,15 +102,13 @@ Orphan Data
    by clicking on cross/tick icon in the right side of the Outliner editor.
 
 
-Searching
----------
+.. _bpy.types.SpaceOutliner.filter_text:
+
+Display Filter
+--------------
 
 You can search the view for data-blocks,
 by using Search field in the header of the *Outliner*,
-The `Filter`_ menu lets you toggle the following options:
-
-- Case Sensitive Matches Only
-- Complete Matches Only
 
 
 .. _editors-outliner-interface-filter:
@@ -118,27 +116,63 @@ The `Filter`_ menu lets you toggle the following options:
 Filter
 ------
 
+.. _bpy.types.SpaceOutliner.show_restrict_column:
+
 Restriction Toggles
    Set which `Restriction Columns`_ should be visible.
+
+.. _bpy.types.SpaceOutliner.use_sort_alpha:
+
 Sort Alphabetically
    Sort the entries alphabetically.
+
+.. _bpy.types.SpaceOutliner.use_sync_select:
 
 Sync Selection
    Sync Outliner selection to and from the :doc:`3D Viewport </editors/3dview/index>` and
    :doc:`Video Sequencer </video_editing/index>` editors. Disable to manage collections,
    object relations, and scene data without changing the selection state.
    Selection syncing is only available in Scenes, View Layer, and Video Sequencer display modes.
+
+.. _bpy.types.SpaceOutliner.show_mode_column:
+
 Show Mode Column
    Show the object mode toggling column in View Layer and Scenes display modes.
+
+.. rubric:: Search
+
+.. _bpy.types.SpaceOutliner.use_filter_complete:
+
+Exact Match
+   The results of :ref:`bpy.types.SpaceOutliner.filter_text` must match the full text and not a substring.
+
+.. _bpy.types.SpaceOutliner.use_filter_case_sensitive:
+
+Case Sensitive
+   The results of :ref:`bpy.types.SpaceOutliner.filter_text` are case sensitive.
+
+.. rubric:: Filter
+
+.. _bpy.types.SpaceOutliner.use_filter_collection:
 
 Collections
    List the objects and collections under
    the :doc:`collection hierarchy </scene_layout/collections/index>` of the scene.
    Objects may appear in more than one collection.
+
+.. _bpy.types.SpaceOutliner.use_filter_object:
+
 Objects
    List of all the objects, respecting the other filter options.
    Disabled only if you need an overview of the collections without the objects.
+
+.. _bpy.types.SpaceOutliner.filter_invert:
+.. _bpy.types.SpaceOutliner.filter_state:
+
 Object State
+   List the objects based on there state or restrictions.
+   The results can be inverted using the *Invert* button.
+
    All
       The default option, no restrictions.
    Visible
@@ -153,12 +187,24 @@ Object State
       Lists only the active (often last selected) object.
    Selectable
       List all objects whose :ref:`Selectability <bpy.types.Collection.hide_select>` option is enabled.
+
+.. _bpy.types.SpaceOutliner.use_filter_object_content:
+
 Object Contents
    List materials, modifiers, mesh data, ...
+
+.. _bpy.types.SpaceOutliner.use_filter_children:
+
 Object Children
    List the object children. If the *Collections* option is enabled,
    you will see the object children even if the children are not in the collection.
    However the Outliner shows them as a dashed line.
+
+.. _bpy.types.SpaceOutliner.use_filter_object_mesh:
+.. _bpy.types.SpaceOutliner.use_filter_object_light:
+.. _bpy.types.SpaceOutliner.use_filter_object_camera:
+.. _bpy.types.SpaceOutliner.use_filter_object_empty:
+
 Data-Block
    Allows you to filter out certain data-blocks currently present in the scene.
 

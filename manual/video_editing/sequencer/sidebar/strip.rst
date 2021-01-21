@@ -14,19 +14,13 @@ Mute
    If checked the strip will not produce any output.
 
 
-Adjust Panel
-============
+Compositing
+===========
 
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`Sidebar region --> Strip --> Adjust`
-
-The *Adjust* panel is used to control visual properties of strips.
-
-
-Compositing
------------
+   :Panel:     :menuselection:`Sidebar --> Strip --> Compositing`
 
 Blend
    Mode of blending strip with lower channels.
@@ -36,29 +30,58 @@ Opacity
    is drawn on the strip as a dark section that follows the animation curve.
 
 
-Transform
----------
+.. _bpy.types.SequenceTransform:
 
-Mirror X
+Transform
+=========
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Panel:     :menuselection:`Sidebar --> Strip --> Transform`
+
+.. _bpy.types.SequenceTransform.offset:
+
+Position X, Y
+   Used to move the frames along the X and Y axis.
+
+.. _bpy.types.SequenceTransform.scale:
+
+Scale X, Y
+   Scale the image on the X and Y axis.
+
+.. _bpy.types.SequenceTransform.rotation:
+
+Rotation
+   Rotates the input two-dimensionally along the Z axis.
+
+.. _bpy.types.ImageSequence.use_flip:
+
+Mirror
    Mirrors the image along the X axis (left to right) or the Y axis (top to bottom).
 
 
-Offset
-^^^^^^
-
-Used to move the frames along the X and Y axis.
-Additionally it disables the auto-scaling of the image.
-
+.. _bpy.types.SequenceCrop:
 
 Crop
-^^^^
+====
 
-Used to crop the source image, use *Top*, *Left*,
-*Bottom*, and *Right* to control which part of the image is cropped.
+.. admonition:: Reference
+   :class: refbox
+
+   :Panel:     :menuselection:`Sidebar --> Strip --> Crop`
+
+Used to crop the source image. use *Top*, *Left*,
+*Bottom*, and *Right* to control the number of pixels that are cropped.
 
 
 Video
------
+=====
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Panel:     :menuselection:`Sidebar --> Strip --> Video`
 
 Strobe
    To only display each nth frame. For example, if you set this to 10,
@@ -70,7 +93,12 @@ Reverse Frames
 
 
 Color
------
+=====
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Panel:     :menuselection:`Sidebar --> Strip --> Color`
 
 Saturation
    Increase or decrease the saturation of an image.
@@ -81,7 +109,12 @@ Convert to Float
 
 
 Sound
------
+=====
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Panel:     :menuselection:`Sidebar --> Strip --> Sound`
 
 Volume
    The volume of the sound.
@@ -102,25 +135,33 @@ Pan
 Display Waveform
    Display an approximate waveform of the sound file inside of the sound strip.
    The waveform reflects strip volume and its animation using :doc:`keyframes </animation/keyframes/introduction>`.
+
+.. _bpy.types.Sound.use_mono:
+
 Mono
    Mixdown all audio channels into a single one.
 
 
-Time Panel
-==========
+Time
+====
 
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`Sidebar region --> Strip --> Time`
+   :Panel:     :menuselection:`Sidebar --> Strip --> Time`
 
 The Time panel is used to control source and timeline position of the strip.
 
 Lock (padlock icon)
    Prevents the strip from being moved (found in the panel header).
 
+.. _bpy.types.Sequence.channel:
+
 Channel
    Changes the channel number, or row, of the strip.
+
+.. _bpy.types.Sequence.frame_start:
+
 Start
    Changes the starting frame number of the strip, which is the same as selecting and moving the strip.
 Duration
@@ -141,13 +182,13 @@ Current Frame
    Position of the Playhead relative to the start of the active strip.
 
 
-Source Panel
-============
+Source
+======
 
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`Sidebar region --> Strip --> Source`
+   :Panel:     :menuselection:`Sidebar --> Strip --> Source`
 
 The Source panel is used to control sources of the strip
 such as filename and file path and various methods of interpreting these files.
@@ -189,5 +230,8 @@ Path
    Path to the sound file used by this :ref:`data-block <ui-data-block>` menu.
 Pack
    Pack sound into the blend-file.
+
+.. _bpy.types.Sound.use_memory_cache:
+
 Caching
    Sound file is decoded and loaded into the RAM.

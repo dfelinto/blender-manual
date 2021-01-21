@@ -28,7 +28,7 @@ Type
    Data-block type to link.
 
    Object Data, Materials, Animation Data, Collection, Instance Collection,
-   Modifiers, Fonts
+   Modifiers, Fonts, :doc:`Effects </grease_pencil/visual_effects/index>`.
 
    Transfer UV Maps
       The active UV map of the selected objects will be replaced by a copy of
