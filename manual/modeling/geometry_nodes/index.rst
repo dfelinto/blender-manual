@@ -26,6 +26,7 @@ Attribute
    attribute/attribute_vector_math.rst
    attribute/attribute_randomize.rst
    attribute/attribute_color_ramp.rst
+   attribute/attribute_sample_texture.rst
 
 
 Color
