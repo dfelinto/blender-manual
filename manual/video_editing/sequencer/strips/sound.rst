@@ -79,11 +79,11 @@ Channel
    The :ref:`Channel <bpy.types.Sequence.channel>` to place the strip.
 
 Replace Selection
-   Replaces the currently selected strips with the new strip
+   Replaces the currently selected strips with the new strip.
 
 Cache
    Cache the sound in memory, enables :ref:`Caching <bpy.types.Sound.use_memory_cache>` in the Source properties.
 
 Mono
-   Merge all the sound's channels into one channel,
+   Merge all sound channels into one channel,
    enables :ref:`Mono <bpy.types.Sound.use_mono>` in the Sound properties.

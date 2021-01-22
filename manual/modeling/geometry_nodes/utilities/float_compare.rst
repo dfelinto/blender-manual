@@ -23,7 +23,6 @@ Epsilon
    for the Equal and Not Equal operations.
 
 
-
 Properties
 ==========
 

@@ -266,14 +266,14 @@ Drivers
       with a function of type :math:`y = a + bx`,
       where :math:`a` is an offset in :math:`y` and :math:`b` is the slope.
 
-         #. In the *Modifiers* tab, add a *Generator* of type *Extended Polynomial* for both drivers.
-         #. Play with the values of :math:`a` and :math:`b` so that the curves go from [0.0 , 1.0]
-            in the Y axis and from [0.0 , 2.5] in the X axis.
-            The curves should overlap in the mid area of the X axis and they should have the same slope (:math:`b`).
+      #. In the *Modifiers* tab, add a *Generator* of type *Extended Polynomial* for both drivers.
+      #. Play with the values of :math:`a` and :math:`b` so that the curves go from [0.0 , 1.0]
+         in the Y axis and from [0.0 , 2.5] in the X axis.
+         The curves should overlap in the mid area of the X axis and they should have the same slope (:math:`b`).
 
-            Possible values are *Key 1*: :math:`y = 0.0 + 0.6x` and *Key 2*: :math:`y = -0.5 + 0.6x`.
+         Possible values are *Key 1*: :math:`y = 0.0 + 0.6x` and *Key 2*: :math:`y = -0.5 + 0.6x`.
 
-            .. figure:: /images/animation_drivers_workflow-examples_chained-shape-keys-driver-setup.png
+         .. figure:: /images/animation_drivers_workflow-examples_chained-shape-keys-driver-setup.png
 
-            Note that the functions go outside the range [0.0 , 1.0] for the shape keys' *Value*,
-            but that has no effect because *Value* is clamped in a *Range* in the *Shape Keys* panel.
+         Note that the functions go outside the range [0.0 , 1.0] for the shape keys' *Value*,
+         but that has no effect because *Value* is clamped in a *Range* in the *Shape Keys* panel.

@@ -71,7 +71,7 @@ look and their default behavior.
 
 Unselected Opacity
    Controls the opacity of unselected :doc:`F-Curves </editors/graph_editor/fcurves/index>` against
-   the background of the *Graph Editor*.
+   the background of the Graph Editor.
 Default Smoothing Mode
    Controls the behavior of :ref:`automatic curve handles <editors-graph-fcurves-settings-handles>`
    for newly created F-curves.

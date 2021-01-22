@@ -139,17 +139,19 @@ Sync Selection
 Show Mode Column
    Show the object mode toggling column in View Layer and Scenes display modes.
 
+
 .. rubric:: Search
 
 .. _bpy.types.SpaceOutliner.use_filter_complete:
 
 Exact Match
-   The results of :ref:`bpy.types.SpaceOutliner.filter_text` must match the full text and not a substring.
+   The results of :ref:`bpy.types.SpaceOutliner.filter_text` must match the full text and just a part of it.
 
 .. _bpy.types.SpaceOutliner.use_filter_case_sensitive:
 
 Case Sensitive
    The results of :ref:`bpy.types.SpaceOutliner.filter_text` are case sensitive.
+
 
 .. rubric:: Filter
 
@@ -198,7 +200,7 @@ Object Contents
 Object Children
    List the object children. If the *Collections* option is enabled,
    you will see the object children even if the children are not in the collection.
-   However the Outliner shows them as a dashed line.
+   Yet the Outliner shows them as a dashed line.
 
 .. _bpy.types.SpaceOutliner.use_filter_object_mesh:
 .. _bpy.types.SpaceOutliner.use_filter_object_light:
