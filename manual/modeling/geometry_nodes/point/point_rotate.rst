@@ -11,7 +11,7 @@ Point Rotate
    The Point Rotate node.
 
 The *Point Rotate* node rotates every point of the geometry.
-It does so by modifying the *rotation* attribute.
+It does so by modifying the *Rotation* attribute.
 
 
 Inputs

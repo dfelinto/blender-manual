@@ -271,8 +271,7 @@ Clear All
 
    :Menu:      :menuselection:`Strip --> Image Transform --> Clear All`
 
-Resets the strips position, scale, and rotation :ref:`Transforms <bpy.types.SequenceTransform>` to
-their default values.
+Resets the strips position, scale, and rotation :ref:`Transforms <bpy.types.SequenceTransform>` to their default values.
 
 
 .. _bpy.ops.sequencer.split:

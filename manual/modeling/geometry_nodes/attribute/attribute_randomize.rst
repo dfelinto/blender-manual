@@ -11,9 +11,8 @@ Attribute Randomize
 
    Attribute Randomize Node.
 
-The *Attribute Randomize* node replaces the values in an attribute
-with random values within the given range.
-
+The *Attribute Randomize* node replaces the values in an 
+attribute with random values within the given range.
 
 Inputs
 ======

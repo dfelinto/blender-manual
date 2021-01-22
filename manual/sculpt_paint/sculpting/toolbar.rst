@@ -111,7 +111,7 @@ Toolbar
       Performs a Boolean operation based on lasso select.
 
 :doc:`/sculpt_paint/sculpting/tools/line_project`
-   Flattens the geometry along a drawn line.
+   Flattens geometry along a drawn line.
 
 :doc:`/sculpt_paint/sculpting/tools/mesh_filter`
    Applies a deformation to all vertices in the mesh at the same time.

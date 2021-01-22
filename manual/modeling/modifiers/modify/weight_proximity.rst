@@ -85,7 +85,7 @@ Type
    Random
       Uses a random value for each vertex.
    Median Step
-      Creates binary weights (0.0 or 1.0), with 0.5 as cutting value.
+      Creates binary weights (0.0 or 1.0), with 0.5 as cutting value
 
 Invert ``<-->``
    Inverts the falloff.

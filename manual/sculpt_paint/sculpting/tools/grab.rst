@@ -24,7 +24,7 @@ Brush Settings
 
 Grab Active Vertex
    Snaps the maximum strength of the brush to the highlighted active vertex,
-   making it easier to manipulate low-poly models or meshes with subdivision surfaces.
+   making it easier to manipulate low poly models or meshes with subdivision surfaces.
 
    Enabling this option also enables a dynamic mesh preview which
    generates a preview of vertices connected to the active vertex.

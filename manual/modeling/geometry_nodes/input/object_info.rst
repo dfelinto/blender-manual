@@ -26,7 +26,7 @@ Properties
 ==========
 
 Transform Space
-   The transformation of the vector and geometry outputs.
+   The transformation of the vector and geometry outputs
 
    Original
       Output the geometry relative to the input object transform, and the location,

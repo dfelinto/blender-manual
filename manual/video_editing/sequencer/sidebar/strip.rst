@@ -71,7 +71,7 @@ Crop
 
    :Panel:     :menuselection:`Sidebar --> Strip --> Crop`
 
-Used to crop the source image. Use *Top*, *Left*,
+Used to crop the source image. use *Top*, *Left*,
 *Bottom*, and *Right* to control the number of pixels that are cropped.
 
 
@@ -118,7 +118,7 @@ Sound
 
 Volume
    The volume of the sound.
-   This value, when animated and with the :menuselection:`View --> Show F-Curves` option activated,
+   This value, when animated and with the :menuselection:`View --> Show F-Curves` option turned on,
    is drawn on the strip as a dark section that follows the animation curve.
    The value is also reflected in the waveform.
 Pitch

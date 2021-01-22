@@ -63,8 +63,8 @@ This tab allows you to edit the geometry node group's inputs and outputs.
 
 .. tip::
 
-   The inputs of the node group can be edited as properties of
-   the :doc:`Geometry Node Modifier </modeling/modifiers/generate/geometry_nodes>`.
+   The inputs of the node group can be edited as properties of the
+   :doc:`Geometry Node Modifier </modeling/modifiers/generate/geometry_nodes>`.
 
 
 Item
