@@ -62,3 +62,14 @@ Keyboard selection and navigation starts from the active data-block.
      - Close this and all child data-blocks.
    * - :kbd:`Shift-Right`
      - Open this and all child data-blocks.
+
+
+.. _editors-outliner-properties-sync:
+
+Properties Editor Sync
+======================
+
+When clicking the data-block icons or any other data icon (modifiers, constraints, object data, ect),
+:doc:`/editors/properties_editor` will change to the corresponding tab to modify the properties of that data-block.
+This feature can be enabled or disabled in Properties editor using the
+:ref:`Sync with Outliner <bpy.types.SpaceProperties.outliner_sync>` option.

@@ -168,6 +168,22 @@ This page lists definitions for terms used in Blender and this manual.
       A gamut traditionally refers to the volume of color a particular color model/space can cover.
       In many instances, it is often illustrated via a 2D model using CIE Yxy coordinates.
 
+   Color Model
+      A mechanism for representing colors as numbers.
+
+      RGB
+         An additive system where three primaries; red, green, and blue are combined to make other colors.
+      HSV
+         Three values often considered as more intuitive (human perception) than the RGB system.
+         In this model, colors are represented as :term:`Hue`, :term:`Saturation`, and :term:`Value`.
+      HSL
+         Similar to :term:`HSV` except the colors are represented as :term:`Hue`, :term:`Saturation`, and :term:`Luminance`.
+      YUV
+         Luminance-Chrominance standard used in broadcasting analog PAL (European) video.
+      YCbCr
+         Luminance-ChannelBlue-ChannelRed Component video for digital broadcast use,
+         whose standards have been updated for HDTV and commonly referred to as the HDMI format for component video.
+
    Color Space
       A coordinate system in which a vector represent a color value.
       By doing so, the color space defines three things:
@@ -179,26 +195,6 @@ This page lists definitions for terms used in Blender and this manual.
       sRGB
          A color space that uses the Rec .709 :term:`Primaries` and white point but,
          with a slightly different transfer function.
-      HSV
-         Three values often considered as more intuitive (human perception) than the RGB system.
-
-         Hue
-            The Hue of the color.
-         Saturation
-            Also known as colorfulness, saturation is the quantity of hue in the color
-            (from desaturated -- a shade of gray -- to saturated -- brighter colors).
-         Value
-            The brightness of the color (dark to light).
-      HSL
-         Hue, Saturation
-            See HSV.
-         Luminance
-            See :term:`Luminance`.
-      YUV
-         Luminance-Chrominance standard used in broadcasting analog PAL (European) video.
-      YCbCr
-         Luminance-ChannelBlue-ChannelRed Component video for digital broadcast use,
-         whose standards have been updated for HDTV and commonly referred to as the HDMI format for component video.
 
    Concave Face
       Face in which one vertex is inside a triangle formed by other vertices of the face.
@@ -393,6 +389,9 @@ This page lists definitions for terms used in Blender and this manual.
       ranging from direct sunlight to the deepest shadows.
 
       See also `HDRI <https://en.wikipedia.org/wiki/HDRI>`__ on Wikipedia.
+
+   Hue
+      A shade of light out of the color spectrum.
 
    IOR
    Index of Refraction
@@ -746,6 +745,10 @@ This page lists definitions for terms used in Blender and this manual.
       A grayscale texture that defines how rough or smooth the surface of a material is.
       This may also be known as a :term:`Glossy Map`.
 
+   Saturation
+      Also known as colorfulness, saturation is the quantity of hue in the color
+      (from desaturated -- a shade of gray -- to saturated -- brighter colors).
+
    Scanline
       Rendering technique. Much faster than :term:`Ray Tracing`,
       but allows fewer effects, such as reflections, refractions, motion blur and focal blur.
@@ -843,6 +846,9 @@ This page lists definitions for terms used in Blender and this manual.
       each face of the mesh is mapped to a corresponding face on the texture.
       It is possible and often common practice to map several faces of the mesh to the same
       or overlapping areas of the texture.
+
+   Value
+      The brightness of the color (dark to light).
 
    Vertex
    Vertices

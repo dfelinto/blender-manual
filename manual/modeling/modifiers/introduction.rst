@@ -103,6 +103,7 @@ Specials
 
          Applying a modifier that is not first in the stack will ignore the stack order
          (it will be applied as if it was the first one), and may produce undesired results.
+
    Apply as Shape Key
       Stores the result of that modifier in a new relative :doc:`shape key </animation/shape_keys/introduction>`
       and then deletes the modifier from the modifier stack.
@@ -112,12 +113,20 @@ Specials
 
          Even though it should work with any geometry type that supports shape keys,
          currently it will only work with meshes.
+
    Save as Shape Key
       Stores the result of that modifier in a new relative :doc:`shape key </animation/shape_keys/introduction>`
       and keeps the modifier in the modifier stack.
       This is only available with modifiers that do not affect the topology (typically, *Deform* modifiers only).
+
+   .. _bpy.ops.object.modifier_copy_to_selected:
+
+   Copy to Selected
+      Copies the modifier from the :term:`Active` object to all selected objects.
+
    Duplicate :kbd:`Shift-D`
       Creates a duplicate of the modifier just below current one in the stack.
+
    Move to First/Last
       Moves the modifier to the first or last position in the modifier stack.
 

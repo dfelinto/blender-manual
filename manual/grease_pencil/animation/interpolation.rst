@@ -3,8 +3,14 @@
 Interpolation
 *************
 
-Interpolate Panel
-=================
+Interpolate Popover
+===================
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Draw and Edit Modes
+   :Menu:      :menuselection:`Header --> Interpolate`
 
 When you are animating simple shapes you can use the interpolate tools
 to automatically add new breakdown keyframes.
@@ -37,11 +43,8 @@ Remove Breakdowns
 Interpolate All Layers
    When enabled, interpolated keyframes will be created on all layers, not only the active one.
 
-Interpolate Selected Strokes
+Interpolate Selected Strokes (:guilabel:`Edit Mode Only`)
    When enabled, only selected strokes will be interpolated.
-
-Selection Mask
-   When enabled the interpolation only affect selected strokes.
 
 .. note::
 

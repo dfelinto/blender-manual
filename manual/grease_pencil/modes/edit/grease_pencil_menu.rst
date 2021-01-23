@@ -357,6 +357,22 @@ Keep Original
           Drawing after reprojection operation from the front view.
 
 
+.. _bpy.ops.gpencil.recalc_geometry:
+
+Recalculate Geometry
+====================
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Edit & Draw Mode
+   :Menu:      :menuselection:`Grease Pencil --> Clean Up --> Recalculate Geometry`
+
+This operator update all internal geometry data.
+It is not intended that you will need to use this operator
+but could help in cases where strokes are behaving is a strange way.
+
+
 .. _bpy.ops.gpencil.delete:
 .. _bpy.ops.gpencil.dissolve:
 

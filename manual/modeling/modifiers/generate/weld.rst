@@ -18,6 +18,12 @@ Options
 
    The Weld modifier.
 
+Mode
+   Method for choosing which vertices are merged.
+
+   :All: Merge includes all geometry including loose parts.
+   :Connected: Merge only includes attached geometry i.e. the modifier will not merge loose parts together.
+
 Distance
    Maximum distance that the vertices must have each other to be merged.
 

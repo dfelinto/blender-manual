@@ -85,6 +85,11 @@ Wireframe
    The value slider adjusts which edges to display by only showing wires on prominent edges.
    Lower values hide edges with angles close to 180 degrees while a value of 1 shows all wires.
 
+   .. _bpy.types.View3DOverlay.wireframe_opacity:
+
+   Opacity
+      The transparency of the displayed edges; a value of 1 is fully opaque, a value of 0 is fully transparent.
+
 .. _bpy.types.View3DOverlay.fade_inactive_alpha:
 .. _bpy.types.View3DOverlay.show_fade_inactive:
 
