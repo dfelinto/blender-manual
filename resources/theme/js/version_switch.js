@@ -1,6 +1,8 @@
 (function() {//switch: v1.1
 "use strict";
 
+var versionsFileUrl = "https://docs.blender.org/versions.json"
+
 var all_versions = "";
 var all_langs = {
 	"en": "English",
@@ -50,7 +52,7 @@ init: function() {
 	}
 },
 loadVL: function(that) {
-	$.getJSON("https://docs.blender.org/manual/en/dev/versions.json", function(data) {
+	$.getJSON(versionsFileUrl, function(data) {
 		all_versions = data;
 		that.afterload();
 		return true;

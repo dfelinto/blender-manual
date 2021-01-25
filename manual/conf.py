@@ -235,7 +235,7 @@ if html_theme == "sphinx_rtd_theme":
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied
 # directly to the root of the documentation.
-html_extra_path = ["../resources/versions.json"]
+# html_extra_path = []
 
 # If not None, a 'Last updated on:' timestamp is inserted at every page
 # bottom, using the given strftime format.

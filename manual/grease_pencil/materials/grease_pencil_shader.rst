@@ -92,6 +92,9 @@ Alignment
    Fixed
       Aligns to the screen space; ignoring the drawing path and the object's rotation.
 
+Rotation
+	Rotates the points of *Dot* and *Square* strokes.
+
 Self Overlap
    Disables stencil and overlap self-intersections with alpha materials.
 
