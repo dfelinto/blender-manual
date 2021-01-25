@@ -28,7 +28,8 @@ Color Model
 
       In Blender, the RGB and HSV/HSL values are in Scene Linear color space,
       and are therefore not :term:`Gamma` corrected.
-      On the contrary, *Hex* are automatically :term:`Gamma` corrected for the :term:`sRGB` color space.
+      On the contrary, *Hex* are automatically :term:`Gamma`
+      corrected for the :term:`sRGB Color Space <Color Space>`.
       For more information, see :doc:`Color Management </render/color_management>`.
 
 Color Values
@@ -38,7 +39,7 @@ Color Values
    Shorthand hex colors are also supported as ``RGB``,
    e.g. dark-yellow ``FFCC00``, can be written as ``FC0``.
 
-   For operations that are capable of using :term:`Alpha`, another slider "A" is added.
+   For operations that are capable of using the :term:`Alpha Channel`, another slider "A" is added.
 
 .. _bpy.ops.ui.eyedropper_color:
 

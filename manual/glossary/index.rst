@@ -177,7 +177,7 @@ This page lists definitions for terms used in Blender and this manual.
          Three values often considered as more intuitive (human perception) than the RGB system.
          In this model, colors are represented as :term:`Hue`, :term:`Saturation`, and :term:`Value`.
       HSL
-         Similar to :term:`HSV` except the colors are represented as :term:`Hue`, :term:`Saturation`, and :term:`Luminance`.
+         Similar to *HSV* except the colors are represented as :term:`Hue`, :term:`Saturation`, and :term:`Luminance`.
       YUV
          Luminance-Chrominance standard used in broadcasting analog PAL (European) video.
       YCbCr

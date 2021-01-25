@@ -8,7 +8,9 @@
 Group
 *****
 
-Grouping nodes can simplify a node tree by allowing instancing and hiding parts of the tree.
+:doc:`Group Nodes </interface/controls/nodes/groups.rst>` are a collection of nodes
+that can be combined into a single node while selectively exposing inputs of the embedded nodes.
+Group nodes can simplify a node tree by allowing instancing and hiding parts of the tree.
 
 
 Make Group

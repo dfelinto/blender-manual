@@ -15,39 +15,7 @@ def html_page_context(app, pagename, templatename, context, doctree):
     """Adds a version tag variable to the context which can be accessed by the template."""
 
     if templatename == "404.html":
-        version_nbr = context['version']
-        version_tag = version_nbr
-
-        version_data = read_versions()
-        if version_data:
-            for tag, title in version_data.items():
-                m = re.match(r"\d\.\d[\w\d\.]*", title)
-                if m and m[0] == version_nbr:
-                     version_tag = tag.strip();
-                     break;
-
-        if "versiontag" not in context:
-            context['versiontag'] = version_tag
-        else:
-            logger = logging.getLogger(__name__)
-            logger.error('context override')
-
-        gen_htaccess(app, context['language'], version_tag)
-
-
-def read_versions():
-    current_dir = os.path.abspath(os.path.dirname(__file__))
-    version_fn = os.path.normpath(os.path.join(current_dir, "..", "resources", "versions.json"))
-
-    try:
-        with open(version_fn) as json_data:
-            data = json.load(json_data)
-        return data
-
-    except (IOError, OSError) as err:
-        logger = logging.getLogger(__name__)
-        logger.warning("{0}: cannot read: {1}".format(version_fn, err))
-        return None
+        gen_htaccess(app, context['language'], context['version'])
 
 
 def gen_htaccess(app, lang, version):

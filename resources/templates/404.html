@@ -3,7 +3,7 @@
 {%- set ROOT = "https://docs.blender.org/manual/" %}
 {%- block htmltitle %}
 	{{ super() }}
-	<base href="{{ ROOT + language + '/' + versiontag + '/' }}" />
+	<base href="{{ ROOT + language + '/' + version + '/' }}" />
 {% endblock %}
 {%- block extrahead %}
 	<style>
@@ -27,7 +27,7 @@
 </div>
 
 <noscript>
-<a href="{{ ROOT + language + '/' + versiontag + '/index.html' }}" class="btn btn-neutral" title="{{ _('Return Home') }}">
+<a href="{{ ROOT + language + '/' + version + '/index.html' }}" class="btn btn-neutral" title="{{ _('Return Home') }}">
 <span class="fa fa-home"></span> {{ _('Return Home') }}</a>
 
 <span style="font-style: italic">The search functionality needs JavaScript activated in order to work.</span>
