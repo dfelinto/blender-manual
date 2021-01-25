@@ -72,6 +72,9 @@ Filter Type
       This can be used to delete parts of the sculpt or to fix reprojection artifacts
       after applying a :doc:`Shrinkwrap Modifier </modeling/modifiers/deform/shrinkwrap>`.
 
+      Negative strokes will intensify the displacement details,
+      this method works similar to *Enhance Details* and can give better results in some circumstances.
+
 Strength
    The amount of effect the filter has on the mesh.
 

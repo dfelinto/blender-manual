@@ -47,6 +47,8 @@ Optimal Display
 Subdivisions
 ------------
 
+.. _bpy.ops.object.multires_subdivide:
+
 Subdivide
    Creates a new level of subdivision using the subdivision type specified by *Subdivision Type* (see below).
 
@@ -55,8 +57,12 @@ Simple
 Linear
    Creates a new level of subdivision using linear interpolation of the current sculpted displacement.
 
+.. _bpy.ops.object.multires_unsubdivide:
+
 Unsubdivide
    Rebuild a lower subdivision level of the current base mesh.
+
+.. _bpy.ops.object.multires_higher_levels_delete:
 
 Delete Higher
    Deletes all subdivision levels that are higher than the current one.
@@ -65,11 +71,15 @@ Delete Higher
 Shape
 -----
 
+.. _bpy.ops.object.multires_reshape:
+
 Reshape
    Copies vertex coordinates from another mesh.
 
    To use it, first select a different mesh object with matching topology and vertex indices,
    then :kbd:`Shift` select the object you wish to copy vertex coordinates to, and click *Reshape*.
+
+.. _bpy.ops.object.multires_base_apply:
 
 Apply Base
    Modifies the original unsubdivided mesh to match the form of the subdivided mesh.
@@ -78,10 +88,14 @@ Apply Base
 Generate
 --------
 
+.. _bpy.ops.object.multires_rebuild_subdiv:
+
 Rebuild Subdivisions
    Rebuilds all possible subdivisions levels to generate a lower resolution base mesh.
    This is used to create an optimized multiresolution version of a pre-existing sculpt.
    This option is only available when no subdivision level have been created through the modifier.
+
+.. _bpy.ops.object.multires_external_save:
 
 Save External
    Saves displacements to an external ``.btx`` file.

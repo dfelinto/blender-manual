@@ -23,6 +23,13 @@ Mode
       Grows the face sets boundary by one face based on mesh topology.
    Shrink Face Set
       Shrinks the face sets boundary by one face based on mesh topology.
+   Delete Geometry
+      Deletes the faces that are assigned to the face set.
+   Fair Positions
+      Creates a smooth as possible geometry patch from the face set minimizing changes in vertex positions.
+   Fair Tangency
+      Creates a smooth as possible geometry patch from the face set
+      minimizing changes in vertex :term:`tangents <Tangent>`.
 
 Modify Hidden
    Apply the edit operation to hidden face sets.

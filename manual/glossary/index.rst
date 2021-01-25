@@ -813,6 +813,10 @@ This page lists definitions for terms used in Blender and this manual.
       to define the local Y axis of a bone in :term:`Pose Mode`.
       The smaller of the two ends when displayed as an :term:`Octahedron`.
 
+   Tangent
+      A line that intersects a surface at exactly one point,
+      a tangent is perpendicular to a :term:`Normal <Face Normal>`.
+
    Tessellation
       The tiling of a plane using one or more geometric shapes usually resulting in :term:`Micropolygons`.
 

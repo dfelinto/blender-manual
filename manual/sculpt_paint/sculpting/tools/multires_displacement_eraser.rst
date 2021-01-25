@@ -15,3 +15,7 @@ resetting the mesh to the subdivision limit surface.
 
 This can be used to easily delete parts of the sculpt or to fix reprojection artifacts
 after applying a :doc:`Shrinkwrap Modifier </modeling/modifiers/deform/shrinkwrap>`.
+
+.. tip::
+
+   This brush works best after using :ref:`Apply Base <bpy.ops.object.multires_base_apply>`.
