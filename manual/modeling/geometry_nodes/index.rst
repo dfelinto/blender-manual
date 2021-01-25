@@ -19,6 +19,7 @@ Attribute
 .. toctree::
    :maxdepth: 1
 
+   attributes_reference.rst
    attribute/attribute_compare.rst
    attribute/attribute_fill.rst
    attribute/attribute_math.rst
