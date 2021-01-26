@@ -35,6 +35,11 @@ UV
 Noise Scale
    Control the noise frequency scale.
 
+Noise Offset
+   Moves the noise along the strokes.
+
+Seed
+   :term:`Seed` used by the pseudo-random number generator.
 
 Randomize
 ---------
@@ -44,8 +49,6 @@ When enabled, the noise uses a random value over time.
 Step
    Number of frames before using a new random value.
 
-Seed
-   :term:`Seed` used by the pseudo-random number generator.
 
 
 Influence
