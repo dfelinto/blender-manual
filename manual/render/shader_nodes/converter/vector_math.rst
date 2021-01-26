@@ -24,11 +24,11 @@ The inputs of the node are dynamic. Some inputs are only available in certain op
 For instance, the *Scale* input is only available in the *Scale* operator.
 
 Vector
-   Input vector A.
+   Input vector :math:`A = \begin{pmatrix} A_x \\ A_y \\ A_z \end{pmatrix}`.
 Vector
-   Input vector B.
+   Input vector :math:`B = \begin{pmatrix} B_x \\ B_y \\ B_z \end{pmatrix}`.
 Scale
-   Input Scale.
+   Input Scale :math:`s`.
 
 
 Properties
@@ -39,20 +39,23 @@ Operation
 
    Add
       The sum of A and B.
+      :math:`\begin{pmatrix} A_x + B_x \\ A_y + B_y \\ A_z + B_z \end{pmatrix}`
 
    Subtract
       The difference between A and B.
+      :math:`\begin{pmatrix} A_x - B_x \\ A_y - B_y \\ A_z - B_z \end{pmatrix}`
 
    Multiply
       The entrywise product of A and B.
-      :math:`(A.x * B.x, A.y * B.y, A.z * B.z)`
+      :math:`\begin{pmatrix} A_x \cdot B_x \\ A_y \cdot B_y \\ A_z \cdot B_z \end{pmatrix}`
 
    Divide
       The entrywise division of A by B. Division by zero returns zero.
-      :math:`(A.x / B.x, A.y / B.y, A.z / B.z)`
+      :math:`\begin{pmatrix} A_x / B_x \\ A_y / B_y \\ A_z / B_z \end{pmatrix}`
 
    Cross Product
       The cross product of A and B.
+      :math:`\begin{pmatrix} A_y \cdot B_z - A_z \cdot B_y \\ A_z \cdot B_x - A_x \cdot B_z \\ A_x \cdot B_y - A_y \cdot B_x \end{pmatrix}`
 
    Project
       The projection of A onto B.
@@ -62,18 +65,21 @@ Operation
 
    Dot Product
       The dot product of A and B.
+      :math:`A_x \cdot B_x + A_y \cdot B_y + A_z \cdot B_z`
 
    Distance
       The distance between A and B.
 
    Length
       The length of A.
+      :math:`\sqrt{A_x^2 + A_y^2 + A_z^2}`
 
    Scale
       The result of multiplying A by the scalar input *Scale*.
+      :math:`\begin{pmatrix} s \cdot A_x \\ s \cdot A_y \\ s \cdot A_z \end{pmatrix}`
 
    Normalize
-      The result of normalizing A.
+      The result of normalizing A. The result vector points to the same direction as A and has a length of 1. If A is (0, 0, 0), the result is (0, 0, 0) as well.
 
    Wrap
       `Wrap <https://en.wikipedia.org/wiki/Rounding>`__.

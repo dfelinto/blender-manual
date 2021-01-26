@@ -23,6 +23,30 @@ At the same time ``master`` will be open for the next release,
 giving 2 months to add documentation for new features of the next release, and another month to make improvements.
 
 
+.. highlight:: sh
+
+Switching Branches
+------------------
+
+To switch to the release branch use::
+
+   svn switch https://svn.blender.org/svnroot/bf-manual/branches/blender-{VERSION}-release/
+
+To switch back to the development branch use::
+
+   svn switch https://svn.blender.org/svnroot/bf-manual/trunk/blender_docs/
+
+
+Updating Branches
+-----------------
+
+To merge changes from the release branch to the development branch,
+first switch to the development branch and use::
+
+   svn merge https://svn.blender.org/svnroot/bf-manual/branches/blender-{VERSION}-release/
+   svn ci -m "Merge branch 'blender-{VERSION}-release'"
+
+
 Bcon Phases
 ===========
 
