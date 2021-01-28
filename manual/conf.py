@@ -240,7 +240,7 @@ if html_theme == "sphinx_rtd_theme":
 # If not None, a 'Last updated on:' timestamp is inserted at every page
 # bottom, using the given strftime format.
 # The empty string is equivalent to '%b %d, %Y'.
-#html_last_updated_fmt = None
+html_last_updated_fmt = '%m/%d/%Y'
 
 # If true, Docutils Smart Quotes transform will be used to convert quotes and dashes to
 # typographically correct entities.

@@ -29,15 +29,13 @@ See :ref:`Auto Save Preferences <prefs-auto-save>` for details.
 Recovering Auto Saves
 =====================
 
+Last Session
+------------
+
 .. admonition:: Reference
    :class: refbox
 
    :Menu:      :menuselection:`File --> Recover --> Last Session`
-   :Menu:      :menuselection:`File --> Recover --> Auto Save...`
-
-
-Recover Last Session
---------------------
 
 The *Recover Last Session* will open the ``quit.blend`` file
 that is saved into the :ref:`temp-dir` when you quit Blender under normal operation.
@@ -45,27 +43,35 @@ Note that files in your temporary directory may be deleted when you reboot your 
 (depending on your system configuration).
 
 
-Recover Auto Save
------------------
+Auto Save
+---------
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Menu:      :menuselection:`File --> Recover --> Auto Save`
 
 The *Recover Auto Save* allows you to open the *Auto Saved* file.
 You will have to navigate to your :ref:`temp-dir`.
 The *Auto Saved* files are named using a random number and have a blend extension.
 
-It is important, when browsing, to enable the detailed list view.
-Otherwise, you will not be able to figure out the dates of the auto-saved blend-files.
-See Fig. :ref:`fig-troubleshooting-file-browser`.
+Trusted Source
+   When enabled, Python scripts and drivers that may be included in the file will be run automatically.
+   Enable this only if you created the file yourself,
+   or you trust that the person who gave it to you did not include any malicious code with it.
+   See :doc:`Python Security </advanced/scripting/security>` to configure default trust options.
 
-.. _fig-troubleshooting-file-browser:
+.. tip::
 
-.. figure:: /images/troubleshooting_recover_display-file-date.png
+   It is important, when browsing, to enable the detailed list view.
+   Otherwise, you will not be able to figure out the dates of the auto-saved blend-files.
 
-   File Browser displaying a vertical list.
+   .. figure:: /images/troubleshooting_recover_display-file-date.png
+
+      File Browser displaying a vertical list.
 
 .. warning::
 
-   When recovering an *Auto Saved* file, you will lose any changes made
-   since the last *Auto Save* was performed.
-   Only one *Auto Saved* file exists for each project,
-   i.e. Blender does not keep older versions.
+   When recovering an *Auto Saved* file, you will lose any changes made since the last *Auto Save* was performed.
+   Only one *Auto Saved* file exists for each project, i.e. Blender does not keep older versions.
    Hence, you will not be able to go back more than a few minutes with this tool.

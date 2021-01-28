@@ -27,6 +27,11 @@ Radius
    Occlude Eraser (overlapping squares icon)
       Erase only strokes visible and not occluded by geometry.
 
+   .. _bpy.types.BrushGpencilSettings.use_default_eraser:
+
+   Default Eraser
+      Use this brush when enabling the eraser tool with fast switch key (:kbd:`Ctrl`).
+
 Mode
    Determines how the erase tool behaves.
 

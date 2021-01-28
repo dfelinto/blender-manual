@@ -1,5 +1,6 @@
 .. index:: Nodes; Geometry Nodes
 .. index:: Geometry Nodes
+.. _bpy.types.GeometryNode:
 
 ##################
   Geometry Nodes

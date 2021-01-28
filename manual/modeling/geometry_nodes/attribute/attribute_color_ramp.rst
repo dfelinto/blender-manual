@@ -1,4 +1,5 @@
 .. index:: Geometry Nodes; Attribute Color Ramp
+.. _bpy.types.GeometryNodeAttributeColorRamp:
 
 ********************
 Attribute Color Ramp

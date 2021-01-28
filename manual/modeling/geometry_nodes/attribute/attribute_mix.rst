@@ -1,4 +1,5 @@
 .. index:: Geometry Nodes; Attribute Mix
+.. _bpy.types.GeometryNodeAttributeMix:
 
 *************
 Attribute Mix

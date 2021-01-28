@@ -1,4 +1,5 @@
 .. index:: Geometry Nodes; Random Float
+.. _bpy.types.FunctionNodeRandomFloat:
 
 ************
 Random Float
