@@ -107,6 +107,10 @@ or use the :kbd:`NumpadPlus` and :kbd:`NumpadMinus` keys.
 
           Dragging.
 
+.. note::
+
+   In *Object Mode* the *Circle Select* operates on objects by their origins.
+
 
 .. _bpy.ops.*.select_lasso:
 .. _tool-select-lasso:
@@ -143,6 +147,10 @@ To move the selection area hold :kbd:`Ctrl-Spacebar` while moving the cursor.
           :width: 200px
 
           Complete.
+
+.. note::
+
+   In *Object Mode* the *Lasso Select* operates on objects by their origins.
 
 
 Selecting Modes
