@@ -161,8 +161,7 @@ footer p{ font-size: smaller}
 .footer-contribute {
 	display: block;
 	font-size: smaller;
-	float: right;
-	margin-top: -32px
+	margin-top: -12px
 }
 
 .footer-contribute li {
