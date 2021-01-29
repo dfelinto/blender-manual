@@ -210,12 +210,8 @@ Debug Options
    Enable colors for dependency graph debug messages.
 ``--debug-gpu``
    Enable GPU debug context and information for OpenGL 4.3+.
-``--debug-gpumem``
-   Enable GPU memory stats in status bar.
-``--debug-gpu-shaders``
-   Enable GPU memory stats in status bar.
 ``--debug-gpu-force-workarounds``
-   Enable GPU memory stats in status bar.
+   Enable workarounds for typical GPU issues and disable all GPU extensions.
 ``--debug-wm``
    Enable debug messages for the window manager, shows all operators in search, shows keymap errors.
 ``--debug-xr``
@@ -229,7 +225,7 @@ Debug Options
    Enable debug messages for I/O (Collada, ...).
 
 ``--debug-fpe``
-   Enable floating point exceptions.
+   Enable floating-point exceptions.
 ``--disable-crash-handler``
    Disable the crash handler.
 ``--disable-abort-handler``
@@ -335,4 +331,3 @@ Environment Variables
 :BLENDER_SYSTEM_PYTHON:    Directory for system Python libraries.
 :TEMP:                     Store temporary files here.
 :TMP: or $TMPDIR           Store temporary files here.
-:SDL_AUDIODRIVER:          LibSDL audio driver - alsa, esd, dma.
