@@ -12,6 +12,8 @@ If the inputted pieces contain different types of geometry, the output will cont
 
    The Join Geometry node.
 
+.. note::
+   The node cannot handle the case when more than one geometry input has a volume component.
 
 Inputs
 ======
