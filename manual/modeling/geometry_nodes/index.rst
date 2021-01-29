@@ -27,4 +27,5 @@ Node Types
    point/index.rst
    utilities/index.rst
    vector/index.rst
+   volume/index.rst
    group.rst
