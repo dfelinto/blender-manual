@@ -75,15 +75,17 @@ Curve Guide and Texture fields have very different options.
 
 Shape
    Sets the direction which is used to calculate the effector force.
-   For force fields from an empty object only *Point* and *Plane* shapes are available,
+   For force fields from an empty object only *Point*, *Line* and *Plane* shapes are available,
    as for a field from a 3D object there are additional *Surface* and *Every Point* options,
    and *Curve* for a field from a curve.
 
    Point
       Point with omni-directional influence.
       Uses the object origin as the effector point.
+   Line
+      The force only acts in the local XY plane, using the Z axis line as the effector.
    Plane
-      Influence only in the local Z direction.
+      The force only acts in the local Z direction, using the XY axis plane as the effector.
    Surface
       The force field acts on a 3D object's surface.
       In this case, the Z axis is the surface normal.
@@ -99,9 +101,11 @@ Strength
    allowing you to scale up and down the scene, keeping the same effects.
 
 Flow
-   If non-zero, the effective force depends on the particle velocity.
-   The value defines how quickly the effector force (acceleration)
-   will be converted into the constant "air flow" velocity.
+   If non-zero, this adds a drag force proportional and opposite to the point velocity.
+
+   This effectively re-interprets the force field so that the *Strength* to *Flow* ratio
+   at a certain point defines the velocity of an "air flow" field, and objects are
+   encouraged to follow the flow by the resistance caused by the *Flow* drag force.
 
 Noise Amount
    Adds noise to the strength of the force.
@@ -111,9 +115,12 @@ Seed
 
 Affect
    Location
-      Influence the location of particles.
+      Influence the location of particles and other physics entities.
    Rotation
-      Influence the rotation of particles.
+      Influence the rotation of particles with :doc:`Dynamic Rotation </physics/particles/emitter/rotation>`.
+      The option is not relevant for other types of physics systems.
+
+   Disabling both options completely deactivates the force field.
 
 Absorption
    Force gets absorbed by collision objects.

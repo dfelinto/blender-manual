@@ -294,6 +294,10 @@ Zero Weights
 
 Show Weight Contours
    Show contour lines formed by points with the same interpolated weight.
+
+   This visualizes weight variations too small to be seen from colors and can be useful for judging
+   the smoothness and consistency of gradients, e.g. when using smoothing tools and brushes.
+
 Show Wire
    Use wireframe display in paint modes.
 
