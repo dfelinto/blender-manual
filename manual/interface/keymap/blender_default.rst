@@ -64,6 +64,18 @@ Global Keys
      - Playback animation (reverse).
 
 
+Common Editing Keys
+===================
+
+.. list-table::
+   :widths: 10 90
+
+   * - :kbd:`X`
+     - Deletes the selected item, requires a confirmation dialog.
+   * - :kbd:`Delete`
+     -  Deletes the selected item, does not require a confirmation dialog.
+
+
 Common Editor Keys
 ==================
 
@@ -128,8 +140,8 @@ List of additional macOS specific keys:
 
 .. _keymap-blender_default-prefs:
 
-Preferences
-===========
+Keymap Preferences
+==================
 
 .. _keymap-blender_default-prefs-select_with:
 

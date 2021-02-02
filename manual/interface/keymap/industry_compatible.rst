@@ -21,20 +21,32 @@ General
      - Menu Search.
    * - :kbd:`Shift-Tab`
      - Quick access (favorites)
-   * - :kbd:`Ctrl-D`
-     - Duplicate
-   * - :kbd:`P`
-     - Set Parent
    * - :kbd:`Return`
      - Rename
    * - :kbd:`Ctrl-Return`
      - Render
-   * - :kbd:`B`
-     - Proportional Editing / Soft Selection
    * - :kbd:`Ctrl-[`
      - Toggle Toolbar
    * - :kbd:`Ctrl-]`
      - Toggle Sidebar
+
+
+Common Editing Keys
+===================
+
+.. list-table::
+  :widths: 10 90
+
+  * - :kbd:`Backspace`
+    - Deletes the selected item, requires a confirmation dialog.
+  * - :kbd:`Delete`
+    -  Deletes the selected item, does not require a confirmation dialog.
+  * - :kbd:`Ctrl-D`
+    - Duplicate
+  * - :kbd:`P`
+    - Set Parent
+  * - :kbd:`B`
+    - Proportional Editing / Soft Selection
 
 
 Viewport

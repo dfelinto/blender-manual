@@ -25,7 +25,17 @@ Alpha
 Properties
 ==========
 
-This node has no properties.
+.. _bpy.types.CompositorNodeSetAlpha.mode:
+
+Mode
+   Method to mix the alpha with the input *Image*.
+
+   :Apply Mask:
+      Multiply the input images RGBA channels by the *Alpha* input value.
+      In this cases, the output is using :term:`Premultiplied Alpha`.
+   :Replace Alpha:
+      Replace the inputs alpha channel with the *Alpha* input value.
+      In this cases, the output is using :term:`Straight Alpha`.
 
 
 Outputs

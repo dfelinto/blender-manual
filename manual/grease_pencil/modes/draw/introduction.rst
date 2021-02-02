@@ -67,8 +67,6 @@ Different Guides types can be activated to assist you when drawing new strokes.
 See :doc:`Guides </grease_pencil/modes/draw/guides>` for more information.
 
 
-.. _bpy.types.ToolSettings.use_gpencil_draw_onback:
-.. _bpy.types.ToolSettings.use_gpencil_weight_data_add:
 .. _bpy.types.ToolSettings.use_gpencil_draw_additive:
 
 Drawing Options
@@ -83,6 +81,8 @@ Draw on Back
    For example when you want to paint with a fill material below line strokes on a character and
    they are on the same layer.
 
+.. _bpy.types.ToolSettings.use_gpencil_weight_data_add:
+
 Add Weight Data
    When enabled, weight data is added to new strokes according to the current vertex group and weight.
    If there is no vertex group selected, no weight data is added.
@@ -92,7 +92,18 @@ Add Weight Data
 
    See :doc:`Weight Paint Mode </grease_pencil/modes/weight_paint/introduction>` for more information.
 
+.. _bpy.types.ToolSettings.use_gpencil_draw_onback:
+
 Additive Drawing
    When creating new frames adding strokes with drawing tools,
    the strokes from the previous/active frame are include as a basis for the new one.
    When erasing existing strokes using Additive Drawing a new keyframe will be added.
+
+.. _bpy.types.ToolSettings.use_gpencil_automerge_strokes:
+
+Automerge
+   Joins news stroke with the beginning or end of previously drawn strokes in the active layer.
+
+Interpolate
+   Popover that contains tools and properties to automatically add breakdown keyframes between normal keyframes.
+   See :doc:`Interpolating Strokes </grease_pencil/animation/interpolation>` for more information.

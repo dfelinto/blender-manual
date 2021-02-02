@@ -86,6 +86,16 @@ input[type="number"], input[type="tel"], input[type="color"] {
 	margin: 0;
 }
 
+/* Dont indent field lists */
+.rst-content dl.field-list dt {
+	padding-left: 0 !important;
+}
+
+/* Fix padding for normal definitions nested in field lists */
+.rst-content dl.field-list dd > dl.simple {
+	padding-top: 12px;
+}
+
 /* Without this, paragraphs in bullet points within definition lists have too much vertical padding. */
 .rst-content li > p {
 	margin-bottom: 0px !important;
