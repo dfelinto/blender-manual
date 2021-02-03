@@ -19,7 +19,7 @@ var all_langs = {
 	"pt": "Portugu&ecirc;s",
 	"ru": "&#x3A1;&#x443;&#x441;&#x441;&#x43A;&#x438;&#x439;",
 	"sk": "Slov&aacute;k",
-	"sl": "Sloven&#353;&#269;ina"
+	"sl": "Sloven&#353;&#269;ina",
 	"sr": "&#1089;&#1088;&#1087;&#1089;&#1082;&#1080;",
 	"uk": "Ukra&#1111;na",
 	"vi": "Ti&#x1EBF;ng Vi&#x1EC7;t",
