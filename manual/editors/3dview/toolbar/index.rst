@@ -9,6 +9,11 @@ Toolbar
    :hidden:
 
    measure.rst
+   add_cube.rst
+   add_cone.rst
+   add_cylinder.rst
+   add_uvsphere.rst
+   add_icosphere.rst
 
 The Toolbar contains a list of tools.
 Links to each modes Toolbar are listed below.

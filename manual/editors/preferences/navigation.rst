@@ -35,6 +35,8 @@ Orbit Sensitivity
      of rotation per-pixel to control how fast the 3D Viewport rotates.
    - Trackball: *Orbit Sensitivity* as a simple factor for how fast the 3D Viewport rotates.
 
+.. _prefs-orbit-around-selection:
+
 Orbit Around Selection
    The selection center becomes the rotation center of the viewport.
    When there is no selection the last selection will be used.

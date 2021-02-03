@@ -47,6 +47,18 @@ Transform
 :ref:`Measure <tool-measure>`
    Measure distances in the scene.
 
+:ref:`Add Cube <tool-add-cube>`
+   Interactively add a cube mesh object.
+
+   :ref:`Add Cone <tool-add-cone>`
+      Interactively add a cone mesh object.
+   :ref:`Add Cylinder <tool-add-cylinder>`
+      Interactively add a cylinder mesh object.
+   :ref:`Add UV Sphere <tool-add-cylinder>`
+      Interactively add a UV sphere mesh object.
+   :ref:`Add Ico Sphere <tool-add-icosphere>`
+      Interactively add a Ico sphere mesh object.
+
 :ref:`Extrude Region <tool-mesh-extrude_region>`
    Extrude the selected region together freely or along an axis.
 

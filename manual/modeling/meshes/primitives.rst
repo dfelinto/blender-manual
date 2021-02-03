@@ -1,4 +1,3 @@
-.. _bpy.ops.mesh.primitive*add:
 
 **********
 Primitives
@@ -40,6 +39,8 @@ Radius/Size, Align to View, Location, Rotation
    See :ref:`Common Object Options <object-common-options>`.
 
 
+.. _bpy.ops.mesh.primitive_plane_add:
+
 Plane
 =====
 
@@ -49,6 +50,8 @@ it is not a three-dimensional object because it is flat and has no thickness.
 Objects that can be created with planes include floors, tabletops, or mirrors.
 
 
+.. _bpy.ops.mesh.primitive_cube_add:
+
 Cube
 ====
 
@@ -56,6 +59,8 @@ A standard cube contains eight vertices, twelve edges, and six faces,
 and is a three-dimensional object. Objects that can be created out of cubes include dice,
 boxes, or crates.
 
+
+.. _bpy.ops.mesh.primitive_circle_add:
 
 Circle
 ======
@@ -73,6 +78,8 @@ Fill Type
       Do not fill. Creates only the outer ring of vertices.
 
 
+.. _bpy.ops.mesh.primitive_uv_sphere_add:
+
 UV Sphere
 =========
 
@@ -88,6 +95,8 @@ Rings
 
       Rings are face loops and not edge loops, which would be one less.
 
+
+.. _bpy.ops.mesh.primitive_ico_sphere_add:
 
 Icosphere
 =========
@@ -108,6 +117,8 @@ Subdivisions
    Adding such a dense mesh is a sure way to cause the program to crash.
 
 
+.. _bpy.ops.mesh.primitive_cylinder_add:
+
 Cylinder
 ========
 
@@ -123,6 +134,8 @@ Cap Fill Type
    Objects that can be created out of tubes include pipes or drinking glasses
    (the basic difference between a cylinder and a tube is that the former has closed ends).
 
+
+.. _bpy.ops.mesh.primitive_cone_add:
 
 Cone
 ====
@@ -142,6 +155,8 @@ Depth
 Base Fill Type
    Similar to circle (see above).
 
+
+.. _bpy.ops.mesh.primitive_torus_add:
 
 Torus
 =====
@@ -178,6 +193,8 @@ Dimensions Mode
       this is the radius of the hole in the center.
 
 
+.. _bpy.ops.mesh.primitive_grid_add:
+
 Grid
 ====
 
@@ -190,6 +207,8 @@ X Subdivisions
 Y Subdivisions
    The number of spans in the Y axis.
 
+
+.. _bpy.ops.mesh.primitive_monkey_add:
 
 Monkey
 ======
