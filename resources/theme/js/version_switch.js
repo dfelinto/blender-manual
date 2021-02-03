@@ -6,16 +6,21 @@ var versionsFileUrl = "https://docs.blender.org/versions.json"
 var all_versions = "";
 var all_langs = {
 	"en": "English",
+	"ar": "&#1575;&#1614;&#1604;&#1618;&#1593;&#1614;&#1585;&#1614;&#1576;&#1616;&#1610;&#1614;&#1617;&#1577;&#1615;",
 	"de": "Deutsch",
 	"es": "Espa&ntilde;ol",
+	"fi": "Suomeksi",
 	"fr": "Fran&ccedil;ais",
+	"id": "Bahasa Indonesia",
 	"it": "Italiano",
 	"ja": "&#x65E5;&#x672C;&#x8A9E;",
 	"ko": "&#xD55C;&#xAD6D;&#xC5B4;",
 	"nb": "Norsk Bokm&#x00E5;l",
 	"pt": "Portugu&ecirc;s",
 	"ru": "&#x3A1;&#x443;&#x441;&#x441;&#x43A;&#x438;&#x439;",
-	"fi": "Suomeksi",
+	"sk": "Slov&aacute;k",
+	"sl": "Sloven&#353;&#269;ina"
+	"sr": "&#1089;&#1088;&#1087;&#1089;&#1082;&#1080;",
 	"uk": "Ukra&#1111;na",
 	"vi": "Ti&#x1EBF;ng Vi&#x1EC7;t",
 	"zh-hans": "&#x4E2D;&#x6587;(&#x7B80;&#x4F53;)",

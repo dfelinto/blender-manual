@@ -36,7 +36,7 @@ Scripted Expression - Orbit a Point
 Orbit an object's position around a point with a custom *Scripted Expression*.
 The object's position will change when scrubbing the timeline.
 
-Using trigonometry, circular motion can be defined in 2D using the sinus and cosine functions.
+Using trigonometry, circular motion can be defined in 2D using the sine and cosine functions.
 (See `Unit Circle <https://en.wikipedia.org/wiki/Unit_circle>`__.)
 
 In this example, the current frame is used as the variable that induces the motion.
