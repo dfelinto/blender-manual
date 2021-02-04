@@ -30,6 +30,102 @@ Also nested node groups are supported. I.e. a node group can be inserted or crea
    A node group can never contain itself (or another group that contains it).
 
 
+Interface
+=========
+
+When a node group is created, new *Group Input* and *Group Output* nodes are generated
+to represent the data flow into and out of the group. When created, connections to input sockets coming
+from unselected nodes will become attached to new sockets on the *Group Input* node.
+Similarly, outgoing connections to input sockets of unselected nodes will become attached to
+the new *Group Output* node.
+
+If during node group development an additional parameter needs to be passed into the group,
+an additional socket must be added to the *Group Input* node.
+This is easily done by adding a connection from the hollow socket on the right side of the *Group Input* node
+to the desired input socket on the node requiring input.
+The process is similar for the *Group Output* regarding data
+you want to be made available outside the group.
+
+
+.. _bpy.ops.node.tree_socket_add:
+.. _bpy.ops.node.tree_socket_remove:
+.. _bpy.ops.node.tree_socket_move:
+
+Panel
+-----
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      All Modes
+   :Panel:     :menuselection:`Sidebar --> Node --> Interface`
+
+.. figure:: /images/interface_controls_nodes_groups_interface-panel.png
+   :align: right
+
+   The interface panel for editing groups.
+
+Sockets can be added, re-ordered, or removed, descriptive names can be added and
+the details of the input data value defined here.
+
+If you have multiple inputs or outputs, they can be re-ordered by selecting the socket in the list
+and then moving it up or down with the arrow buttons on the right side of the panel.
+The plus button will add an unconnected socket of the same type
+as the selected socket or a value socket if there is no selection.
+The minus button will remove the selected socket.
+The triangle at the bottom of the list has filtering functions to facilitate finding nodes
+if the group has a large number of sockets.
+
+.. _bpy.types.NodeSocketInterface.name:
+
+Name
+   The name of the socket to display in the node's interface.
+
+.. _bpy.types.NodeSocketInterface*.default_value:
+
+Default
+   The value to to use when nothing is connected to the node socket.
+   Note, this will not affect the current node but will affect instances of the node.
+
+.. _bpy.types.NodeSocketInterface*.min_value:
+.. _bpy.types.NodeSocketInterface*.max_value:
+
+Min, Max
+   The minimum and maximum value for the UI button shown in the node interface.
+   Note, this is not a minimum or maximum for the data that can pass through the node.
+   If a socket passes a higher value than the maximum it will still pass into the node unchanged.
+
+.. _bpy.types.NodeSocketInterface.hide_value:
+
+Hide Value
+   Hide the socket value even when the socket is not connected.
+
+
+.. _bpy.ops.node.tree_path_parent:
+
+Edit Group
+==========
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      All Modes
+   :Menu:      :menuselection:`Node --> Edit Group`
+   :Header:    :menuselection:`Go to Parent Node Tree`
+   :Hotkey:    :kbd:`Tab`, :kbd:`Ctrl-Tab`
+
+With a node group selected, :kbd:`Tab` expands the node to a frame, and the individual nodes within
+it are shown. You can move them around, play with their individual controls, re-thread them internally, etc.
+just like you can if they were a normal part of the editor view. You will not be able, though,
+to thread them to a node outside the group; you have to use the external sockets on the side of the node group.
+While :kbd:`Tab` can be used to both enter and exit a group, :kbd:`Ctrl-Tab` only exits.
+
+.. figure:: /images/render_cycles_optimizations_reducing-noise_glass-group.png
+   :width: 620px
+
+   Example of an expanded node group.
+
+
 .. _bpy.ops.node.group_make:
 
 Make Group
@@ -74,7 +170,7 @@ Ungroup
    :class: refbox
 
    :Mode:      All Modes
-   :Menu:      :menuselection:`Group --> Ungroup`
+   :Menu:      :menuselection:`Node --> Ungroup`
    :Hotkey:    :kbd:`Ctrl-Alt-G`
 
 The :kbd:`Ctrl-Alt-G` tool removes the group and places the individual nodes into your editor workspace.
@@ -89,75 +185,7 @@ Separate :kbd:`P`
       Move to parent node tree, remove from group.
 
 
-.. _bpy.ops.node.tree_path_parent:
-
-Edit Group
-==========
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Mode:      All Modes
-   :Menu:      :menuselection:`Node --> Edit Group`
-   :Header:    :menuselection:`Go to Parent Node Tree`
-   :Hotkey:    :kbd:`Tab`, :kbd:`Ctrl-Tab`
-
-With a node group selected, :kbd:`Tab` expands the node to a frame, and the individual nodes within
-it are shown. You can move them around, play with their individual controls, re-thread them internally, etc.
-just like you can if they were a normal part of the editor view. You will not be able, though,
-to thread them to a node outside the group; you have to use the external sockets on the side of the node group.
-While :kbd:`Tab` can be used to both enter and exit a group, :kbd:`Ctrl-Tab` only exits.
-
-.. figure:: /images/render_cycles_optimizations_reducing-noise_glass-group.png
-   :width: 620px
-
-   Example of an expanded node group.
-
-
-Interface
----------
-
-Interactively
-^^^^^^^^^^^^^
-
-When a node group is created, new *Group Input* and *Group Output* nodes are generated
-to represent the data flow into and out of the group. When created, connections to input sockets coming
-from unselected nodes will become attached to new sockets on the *Group Input* node.
-Similarly, outgoing connections to input sockets of unselected nodes will become attached to
-the new *Group Output* node.
-
-If during node group development an additional parameter needs to be passed into the group,
-an additional socket must be added to the *Group Input* node.
-This is easily done by adding a connection from the hollow socket on the right side of the *Group Input* node
-to the desired input socket on the node requiring input.
-The process is similar for the *Group Output* regarding data
-you want to be made available outside the group.
-
-
-Panel
-^^^^^
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Mode:      All Modes
-   :Panel:     :menuselection:`Sidebar region --> Node --> Interface`
-
-.. figure:: /images/interface_controls_nodes_groups_interface-panel.png
-   :align: right
-
-   The interface panel for editing groups.
-
-Sockets can be added, re-ordered, or removed, descriptive names can be added and
-the details of the input data value defined here.
-
-If you have multiple inputs or outputs, they can be re-ordered by selecting the socket in the list
-and then moving it up or down with the arrow buttons on the right side of the panel.
-The larger plus sign buttons below the list will add an unconnected socket of the same type
-as the selected socket or a value socket if there is no selection.
-The triangle at the bottom of the list has filtering functions to facilitate finding nodes
-if the group has a large number of sockets.
-
+.. _bpy.ops.node.group_insert:
 
 Group Insert
 ============

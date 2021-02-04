@@ -169,4 +169,4 @@ Read Render Layers :kbd:`Ctrl-R`
    Reads all the current scene's render layers from cache, as needed.
    This can be used to save RAM while rendering because the render layers do not have to be saved in RAM.
    This can also be used to recover some information from a failed render.
-   For this to work, :ref:`Save Buffers <render_properties_save-buffers>` must be enabled.
+   For this to work, :ref:`Save Buffers <bpy.types.RenderSettings.use_save_buffers>` must be enabled.
