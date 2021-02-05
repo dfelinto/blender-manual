@@ -36,6 +36,16 @@ Properties
 Axis
    Local axis of the object that is to be rotated towards the vector input.
 
+Pivot
+   The local axis to rotate around.
+
+   Auto
+      The best rotation angle is computed automatically.
+      This minimizes the angle of rotation.
+
+   X, Y, Z
+      Rotate around a specific local axis.
+
 Factor
    Type of the *Factor* input socket.
 
