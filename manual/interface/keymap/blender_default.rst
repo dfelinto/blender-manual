@@ -73,7 +73,7 @@ Common Editing Keys
    * - :kbd:`X`
      - Deletes the selected item, requires a confirmation dialog.
    * - :kbd:`Delete`
-     -  Deletes the selected item, does not require a confirmation dialog.
+     - Deletes the selected item, does not require a confirmation dialog.
 
 
 Common Editor Keys

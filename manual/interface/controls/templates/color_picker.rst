@@ -28,8 +28,8 @@ Color Model
 
       In Blender, the RGB and HSV/HSL values are in Scene Linear color space,
       and are therefore not :term:`Gamma` corrected.
-      On the contrary, *Hex* are automatically :term:`Gamma`
-      corrected for the :term:`sRGB Color Space <Color Space>`.
+      On the contrary, *Hex* are automatically :term:`Gamma` corrected
+      for the :term:`sRGB Color Space <Color Space>`.
       For more information, see :doc:`Color Management </render/color_management>`.
 
 Color Values
@@ -44,9 +44,7 @@ Color Values
 .. _bpy.ops.ui.eyedropper_color:
 
 Eyedropper (pipette icon)
-   Samples a color from inside the Blender window using the :ref:`ui-eyedropper`
-   The :ref:`ui-eyedropper` (pipette icon) can be used
-   to sample a color value from inside the Blender window.
+   Samples a color from inside the Blender window using the :ref:`ui-eyedropper`.
 
 
 Shortcuts

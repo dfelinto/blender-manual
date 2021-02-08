@@ -94,10 +94,11 @@ Alignment
 
 Rotation
    Rotates the points of *Dot* and *Square* strokes.
-	
-.. note::
-   The rotation parameter is limited to a range of *-90* to *90* degrees.
-   
+
+   .. note::
+
+      The *Rotation* option is limited to a range of -90 to 90 degrees.
+
 Self Overlap
    Disables stencil and overlap self-intersections with alpha materials.
 

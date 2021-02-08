@@ -36,7 +36,7 @@ Key Channel
    This button selects the channel, defined by the *Color Space*, to use to determine the matte.
 
 Algorithm
-   Method to calculate the the difference between levels.
+   Method to calculate the difference between levels.
 
    :Max:
       Limit by the maximum of the other two channels other than the *Key Channel*.

@@ -137,10 +137,10 @@ Options
 
 .. _bpy.types.SpaceProperties.outliner_sync:
 
-Sync With Outliner
-   Sync tabs with the outliner data-block selection.
+Sync with Outliner
+   Sync tabs with the Outliner data-block selection.
    See :ref:`editors-outliner-properties-sync` for more information.
 
-   :On: Always sync from outliner editors to this editor.
-   :Off: Never sync from outliner editors to this editor.
-   :Auto: Sync when this editor shares an edge with an Outliner editor.
+   :On: Always sync from Outliner editors to this editor.
+   :Off: Never sync from Outliner editors to this editor.
+   :Auto: Sync when this editor shares an area edge with an Outliner editor.

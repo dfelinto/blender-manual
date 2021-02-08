@@ -29,7 +29,7 @@ It is stored next to your Blender configuration files, in:
 
 - Windows:
 
-  .. parsed-literal:: %APPDATA%\Blender Foundation\Blender\|BLENDER_VERSION|\config\blender_id
+  .. parsed-literal:: %APPDATA%\\Blender Foundation\\Blender\\\ |BLENDER_VERSION|\\config\\blender_id
 
 
 Description

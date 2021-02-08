@@ -101,8 +101,8 @@ Additive Drawing
 
 .. _bpy.types.ToolSettings.use_gpencil_automerge_strokes:
 
-Automerge
-   Joins news stroke with the beginning or end of previously drawn strokes in the active layer.
+AutoMerge
+   Joins new strokes with the beginning or end of previously drawn strokes in the active layer.
 
 Interpolate
    Popover that contains tools and properties to automatically add breakdown keyframes between normal keyframes.

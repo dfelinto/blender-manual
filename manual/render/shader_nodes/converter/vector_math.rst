@@ -50,7 +50,7 @@ Operation
       :math:`\begin{pmatrix} A_x \cdot B_x \\ A_y \cdot B_y \\ A_z \cdot B_z \end{pmatrix}`
 
    Divide
-      The entrywise division of A by B. Division by zero returns zero.
+      The entrywise division of A by B. Division by zero results in zero.
       :math:`\begin{pmatrix} A_x / B_x \\ A_y / B_y \\ A_z / B_z \end{pmatrix}`
 
    Cross Product
@@ -79,7 +79,8 @@ Operation
       :math:`\begin{pmatrix} s \cdot A_x \\ s \cdot A_y \\ s \cdot A_z \end{pmatrix}`
 
    Normalize
-      The result of normalizing A. The result vector points to the same direction as A and has a length of 1. If A is (0, 0, 0), the result is (0, 0, 0) as well.
+      The result of normalizing A. The result vector points to the same direction as A and
+      has a length of 1. If A is (0, 0, 0), the result is (0, 0, 0) as well.
 
    Wrap
       `Wrap <https://en.wikipedia.org/wiki/Rounding>`__.

@@ -166,7 +166,7 @@ This page lists definitions for terms used in Blender and this manual.
 
    Color Gamut
       A gamut traditionally refers to the volume of color a particular color model/space can cover.
-      In many instances, it is often illustrated via a 2D model using CIE Yxy coordinates.
+      In many instances, it is illustrated via a 2D model using CIE Yxy coordinates.
 
    Color Model
       A mechanism for representing colors as numbers.
@@ -177,16 +177,17 @@ This page lists definitions for terms used in Blender and this manual.
          Three values often considered as more intuitive (human perception) than the RGB system.
          In this model, colors are represented as :term:`Hue`, :term:`Saturation`, and :term:`Value`.
       HSL
-         Similar to *HSV* except the colors are represented as :term:`Hue`, :term:`Saturation`, and :term:`Luminance`.
+         Similar to *HSV* except the colors are represented as
+         :term:`Hue`, :term:`Saturation`, and :term:`Luminance`.
       YUV
          Luminance-Chrominance standard used in broadcasting analog PAL (European) video.
       YCbCr
-         Luminance-ChannelBlue-ChannelRed Component video for digital broadcast use,
+         Luminance-ChannelBlue-ChannelRed component video for digital broadcast use,
          whose standards have been updated for HDTV and commonly referred to as the HDMI format for component video.
 
    Color Space
       A coordinate system in which a vector represent a color value.
-      By doing so, the color space defines three things:
+      This way the color space defines three things:
 
       - The exact color of each of the :term:`Primaries`
       - The :term:`White Point`
@@ -846,10 +847,10 @@ This page lists definitions for terms used in Blender and this manual.
       :term:`Face` with exactly three :term:`Vertices <Vertex>`.
 
    UV Map
-      Defines a relation between the surface of a mesh and a 2D texture. In detail,
-      each face of the mesh is mapped to a corresponding face on the texture.
-      It is possible and often common practice to map several faces of the mesh to the same
-      or overlapping areas of the texture.
+      Defines a relation between the surface of a mesh and a 2D texture.
+      In detail, each face of the mesh is mapped to a corresponding face on the texture.
+      It is possible and often common practice to map several faces of the mesh to
+      the same or overlapping areas of the texture.
 
    Value
       The brightness of the color (dark to light).

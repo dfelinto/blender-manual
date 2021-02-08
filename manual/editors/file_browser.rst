@@ -55,7 +55,7 @@ Display Mode
    Controls how files are displayed.
 
    - *Vertical List* displays files and folders in a vertical list.
-   - *Horizontal List*  displays files and folders in a horizontal list.
+   - *Horizontal List* displays files and folders in a horizontal list.
    - *Thumbnails* shows :ref:`previews <file_browser-previews>`.
 
 Sorting

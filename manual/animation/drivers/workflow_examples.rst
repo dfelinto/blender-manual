@@ -4,7 +4,6 @@ Workflow & Examples
 *******************
 
 Simple Drivers can be configured from the pop-over that appears when adding a new Driver.
-
 When adding multiple Drivers or for more advanced configurations,
 it is useful to have open the :doc:`Drivers Editor </editors/drivers_editor>`.
 
@@ -14,7 +13,6 @@ Transform Driver
 
 Control a property with an object's transform.
 In this example, the Y rotation of Object 2 will be driven by the X position of Object 1.
-
 Starting from a simple setup with two objects:
 
 #. Add a Driver to the *Rotation Y* property of the second object via the context menu or with :kbd:`Ctrl-D`.
@@ -35,10 +33,8 @@ Scripted Expression - Orbit a Point
 
 Orbit an object's position around a point with a custom *Scripted Expression*.
 The object's position will change when scrubbing the timeline.
-
 Using trigonometry, circular motion can be defined in 2D using the sine and cosine functions.
 (See `Unit Circle <https://en.wikipedia.org/wiki/Unit_circle>`__.)
-
 In this example, the current frame is used as the variable that induces the motion.
 ``frame`` is a :ref:`Simple Expression <drivers-simple-expressions>` that corresponds to
 ``bpy.context.scene.frame_current``.
@@ -66,7 +62,6 @@ Custom Function - Square Value
 
 Create a custom function to get the square of a value (i.e. *value*\ :sup:`2`).
 Adding the function to the *Driver Namespace* allows it to be used from driver expressions.
-
 The *Driver Namespace* has a list of built-in functions for use in driver expressions,
 as well as constants such as π and e.
 These can be inspected via the Python Console::
@@ -98,7 +93,6 @@ and then added to the ``bpy.app.driver_namespace``.
 
 There are more custom function examples available in Blender's Text Editor
 :menuselection:`Templates --> Python --> Driver Functions`.
-
 Since :ref:`Simple Expressions <drivers-simple-expressions>` cannot access
 custom functions, using them only makes sense for complex computations.
 
@@ -258,7 +252,7 @@ Drivers
       In the *Drivers* tab, configure both drivers to be the *Averaged Value* of
       a variable with the bone's Z location.
    #. Determine the range of the bone's motion in the World Z axis by moving it up so that it is
-      aligned with the top of the mesh when both keys are active. Here we will use [0.0 , 2.5].
+      aligned with the top of the mesh when both keys are active. Here we will use [0.0, 2.5].
    #. Configure the driver functions so that the *Value* of the shape keys (Y axis) is as
       desired for the bone's height (X axis).
 
@@ -267,13 +261,13 @@ Drivers
       where :math:`a` is an offset in :math:`y` and :math:`b` is the slope.
 
       #. In the *Modifiers* tab, add a *Generator* of type *Extended Polynomial* for both drivers.
-      #. Play with the values of :math:`a` and :math:`b` so that the curves go from [0.0 , 1.0]
-         in the Y axis and from [0.0 , 2.5] in the X axis.
+      #. Play with the values of :math:`a` and :math:`b` so that the curves go from [0.0, 1.0]
+         in the Y axis and from [0.0, 2.5] in the X axis.
          The curves should overlap in the mid area of the X axis and they should have the same slope (:math:`b`).
 
          Possible values are *Key 1*: :math:`y = 0.0 + 0.6x` and *Key 2*: :math:`y = -0.5 + 0.6x`.
 
          .. figure:: /images/animation_drivers_workflow-examples_chained-shape-keys-driver-setup.png
 
-         Note that the functions go outside the range [0.0 , 1.0] for the shape keys' *Value*,
+         Note that the functions go outside the range [0.0, 1.0] for the shape keys' *Value*,
          but that has no effect because *Value* is clamped in a *Range* in the *Shape Keys* panel.

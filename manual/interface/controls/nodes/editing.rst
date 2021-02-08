@@ -29,9 +29,7 @@ Interactively
 -------------
 
 :kbd:`LMB`-click on a socket and drag. You will see a line coming out of it: This is called a *link*.
-
 Keep dragging and connect the link to an input socket of another node, then release the :kbd:`LMB`.
-
 While multiple links can route out of an output socket, only a single link can be attached to an input socket.
 
 To reposition the outgoing links of a node, rather than adding a new one,
@@ -168,5 +166,5 @@ Layers
 Read Render Layers :kbd:`Ctrl-R`
    Reads all the current scene's render layers from cache, as needed.
    This can be used to save RAM while rendering because the render layers do not have to be saved in RAM.
-   This can also be used to recover some information from a failed render.
+   And also for recovering some information from a failed render.
    For this to work, :ref:`Save Buffers <bpy.types.RenderSettings.use_save_buffers>` must be enabled.

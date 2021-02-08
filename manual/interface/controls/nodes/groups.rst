@@ -34,15 +34,15 @@ Interface
 =========
 
 When a node group is created, new *Group Input* and *Group Output* nodes are generated
-to represent the data flow into and out of the group. When created, connections to input sockets coming
+to represent the data flow into and out of the group. Furthermore connections to input sockets coming
 from unselected nodes will become attached to new sockets on the *Group Input* node.
 Similarly, outgoing connections to input sockets of unselected nodes will become attached to
 the new *Group Output* node.
 
-If during node group development an additional parameter needs to be passed into the group,
-an additional socket must be added to the *Group Input* node.
-This is easily done by adding a connection from the hollow socket on the right side of the *Group Input* node
-to the desired input socket on the node requiring input.
+If you want to pass an additional parameter into the group,
+an socket must be added to the *Group Input* node.
+Therefore drag a connection from the hollow socket on the right side of the *Group Input* node
+to the desired input socket on the node requiring an input.
 The process is similar for the *Group Output* regarding data
 you want to be made available outside the group.
 
@@ -68,12 +68,12 @@ Panel
 Sockets can be added, re-ordered, or removed, descriptive names can be added and
 the details of the input data value defined here.
 
-If you have multiple inputs or outputs, they can be re-ordered by selecting the socket in the list
-and then moving it up or down with the arrow buttons on the right side of the panel.
+If you have multiple inputs or outputs, they can be re-ordered by selecting the socket in the list.
+and then moving them up or down with the arrow buttons on the right side of the panel.
 The plus button will add an unconnected socket of the same type
 as the selected socket or a value socket if there is no selection.
 The minus button will remove the selected socket.
-The triangle at the bottom of the list has filtering functions to facilitate finding nodes
+The triangle at the bottom of the list has filtering functions to help finding nodes
 if the group has a large number of sockets.
 
 .. _bpy.types.NodeSocketInterface.name:
@@ -84,7 +84,7 @@ Name
 .. _bpy.types.NodeSocketInterface*.default_value:
 
 Default
-   The value to to use when nothing is connected to the node socket.
+   The value to use when nothing is connected to the node socket.
    Note, this will not affect the current node but will affect instances of the node.
 
 .. _bpy.types.NodeSocketInterface*.min_value:
@@ -140,17 +140,17 @@ Make Group
 
 To create a node group, select the nodes you want to include, then
 press :kbd:`Ctrl-G`, :menuselection:`Group --> Make Group`.
-A node group will have a green title bar. All of the selected nodes will now be contained within the node group.
+A node group will have a green title bar. All selected nodes will now be contained within the node group.
 Default naming for the node group is "NodeGroup", "NodeGroup.001" etc.
 There is a name field in the node group you can click into to change the name of the group.
 Change the name of the node group to something meaningful.
 When appending node groups from one blend-file to another,
-Blender does not make a distinction between material node groups or composite node groups,
-so it is recommended to use some naming convention that will allow you to easily distinguish between the two types.
+Blender does not make a distinction between material node groups or composite node groups.
+So it is recommended to use some naming convention that will allow you to distinguish between the two types.
 
 .. tip:: What **not** to include in node groups:
 
-   Remember that the essential idea is that a group should be an easily-reusable,
+   Remember that the essential idea is that a group should be an reusable,
    self-contained software component. Material node groups should **not** include:
 
    Input nodes
@@ -174,7 +174,7 @@ Ungroup
    :Hotkey:    :kbd:`Ctrl-Alt-G`
 
 The :kbd:`Ctrl-Alt-G` tool removes the group and places the individual nodes into your editor workspace.
-No internal connections are lost, and now you can thread internal nodes to other nodes in your workspace.
+No internal connections are lost, and now you can link internal nodes to other nodes in your workspace.
 
 Separate :kbd:`P`
    Separate selected nodes from the node group.

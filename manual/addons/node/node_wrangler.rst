@@ -150,7 +150,7 @@ Batch Change Blend Mode / Math Operation
 Select Mix nodes or Math nodes and change their blend mode or math operation at the same time.
 Use keys specified above. They will change the blend mode or operation accordingly to:
 Mix, Add, Subtract, Divide, Less than, Greater than.
-Use :kbd:`Alt-Up` or  :kbd:`Alt-Down` to go through all available blend modes or math operations.
+Use :kbd:`Alt-Up` or :kbd:`Alt-Down` to go through all available blend modes or math operations.
 
 
 Change Mix Factor

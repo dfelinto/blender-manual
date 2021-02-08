@@ -93,7 +93,7 @@ Tree View
 
    Disclosure (small triangle icon)
       - :kbd:`LMB` -- Expand/collapse subcollections.
-      - :kbd:`Shift-LMB` --  Isolate the tree. Collapses everything but the current item,
+      - :kbd:`Shift-LMB` -- Isolate the tree. Collapses everything but the current item,
         and it’s parents/descendants. Click again to restore the previous state.
       - :kbd:`Ctrl-LMB` -- Expand/collapse subcollections and their descendants.
 

@@ -16,7 +16,7 @@ Open
 Open Cache Render
    Load the current scene's render layers from disk cache, if available.
    This can be used to save RAM while rendering because the render layers do not have to be saved in RAM.
-   This can also be used to recover some information from a fail render.
+   And also for recovering some information from a fail render.
    For this to work, :ref:`Save Buffers <bpy.types.RenderSettings.use_save_buffers>` must be enabled.
 
 Replace

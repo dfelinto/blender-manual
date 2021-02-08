@@ -50,7 +50,7 @@ Subdivisions
 .. _bpy.ops.object.multires_subdivide:
 
 Subdivide
-   Creates a new level of subdivision using the subdivision type specified by *Subdivision Type* (see below).
+   Creates a new level of subdivision using the type specified by *Subdivision Type* (see below).
 
 Simple
    Creates a new level of subdivision using a simple interpolation by subdividing edges without any smoothing.

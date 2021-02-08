@@ -57,7 +57,7 @@ Transform
    :ref:`Add UV Sphere <tool-add-cylinder>`
       Interactively add a UV sphere mesh object.
    :ref:`Add Ico Sphere <tool-add-icosphere>`
-      Interactively add a Ico sphere mesh object.
+      Interactively add an icosphere mesh object.
 
 :ref:`Extrude Region <tool-mesh-extrude_region>`
    Extrude the selected region together freely or along an axis.

@@ -145,7 +145,7 @@ Show Mode Column
 .. _bpy.types.SpaceOutliner.use_filter_complete:
 
 Exact Match
-   The results of :ref:`bpy.types.SpaceOutliner.filter_text` must match the full text and just a part of it.
+   The results of :ref:`bpy.types.SpaceOutliner.filter_text` must match the full text and not just a part of it.
 
 .. _bpy.types.SpaceOutliner.use_filter_case_sensitive:
 

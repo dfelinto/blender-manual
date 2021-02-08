@@ -31,13 +31,14 @@ Mode
 
       UV Offset
          Moves the texture along the strokes.
-		 
+
       Rotation
          Rotates the points of the strokes.
-		 
+
       .. note::
-	     The rotation parameter is limited to a range of *-90* to *90* degrees.
-	
+
+         The *Rotation* option is limited to a range of -90 to 90 degrees.
+
       Scale
          Factor for the texture scale.
 

@@ -365,7 +365,7 @@ Recalculate Geometry
 .. admonition:: Reference
    :class: refbox
 
-   :Mode:      Edit & Draw Mode
+   :Mode:      Edit Mode and Draw Mode
    :Menu:      :menuselection:`Grease Pencil --> Clean Up --> Recalculate Geometry`
 
 This operator update all internal geometry data.

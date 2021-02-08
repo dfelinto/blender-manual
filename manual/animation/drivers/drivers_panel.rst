@@ -57,7 +57,7 @@ The current result of the driver setup. Useful for debug purposes.
 Variables
 ---------
 
-See  `Driver Variables`_.
+See `Driver Variables`_.
 
 
 Update Dependencies

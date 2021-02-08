@@ -68,15 +68,16 @@ Here are some guidelines to help you choose an approach.
 
 .. rubric:: Direct Approach
 
-- Short segments with total render time < 1 hour.
+- Short segments with total render time under one hour.
 - Stable power supply.
 - Computer not needed for other uses.
 
 
 .. rubric:: Frame Sequence Approach
 
-- Total render time > 1 hour.
+- Total render time over one hour.
 - Post-production work needed:
+
   - Color/lighting adjustment
   - Green screen/matte replacement
   - Layering/compositing

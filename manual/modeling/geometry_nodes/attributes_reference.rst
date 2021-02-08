@@ -5,9 +5,7 @@ Attributes
 **********
 
 An *attribute* is a generic term to describe data stored per-element in a geometry data-block.
-For example, every vertex can have an associated number or vector value. 
-
-
+For example, every vertex can have an associated number or vector.
 Attributes can be adjusted by the nodes in the *Attribute* category, but some other nodes can
 change the values of specific attributes.
 
@@ -20,7 +18,7 @@ change the values of specific attributes.
    Attribute data types are converted implicitly where possible, just like node sockets.
 
 
-Built In Attributes
+Built-In Attributes
 ===================
 
 .. list-table::
@@ -29,19 +27,20 @@ Built In Attributes
 
    * - Name
      - Type
-     - Notes 
+     - Notes
 
    * - **position**
      - *Vector*
-     - Built in attribute describing vertex or point locations, in the modifier object's
-       transform space. Any node that changes the location of points will adjust this attribute, like the
-       :doc:`Transform </modeling/geometry_nodes/geometry/transform>` and 
-       :doc:`Point Translate </modeling/geometry_nodes/point/point_translate>` nodes.
+     - Built-in attribute describing vertex or point locations, in the modifier
+       object's transform space. Any node that changes the location of points will adjust
+       this attribute, like the :doc:`Transform </modeling/geometry_nodes/geometry/transform>`
+       and :doc:`Point Translate </modeling/geometry_nodes/point/point_translate>` nodes.
 
    * - **radius**
      - *Float*
      - Used to set the size for the points created by the
-       :doc:`Point Distribute Node </modeling/geometry_nodes/point/point_distribute>` in the viewport.
+       :doc:`Point Distribute Node </modeling/geometry_nodes/point/point_distribute>`
+       in the viewport.
 
 
 Naming Conventions
@@ -57,23 +56,23 @@ Naming Conventions
 
    * - **rotation**
      - *Vector*
-     - Used in the :doc:`Point Distribute </modeling/geometry_nodes/point/point_distribute>`
-       to control the rotation of instanced objects or collections. This is adjusted by the 
-       :doc:`Point Rotate Node </modeling/geometry_nodes/point/point_rotate>` and the 
+     - Used in the :doc:`Point Distribute Node </modeling/geometry_nodes/point/point_distribute>` to
+       control the rotation of instanced objects or collections. This is adjusted by
+       the :doc:`Point Rotate Node </modeling/geometry_nodes/point/point_rotate>` and the
        :doc:`Align Rotation to Vector Node </modeling/geometry_nodes/point/align_rotation_to_vector>`.
 
    * - **scale**
      - *Vector*
-     - Used in the :doc:`Point Distribute </modeling/geometry_nodes/point/point_distribute>`
-       to control the scale. This is adjusted by the 
-       :doc:`Point Scale Node </modeling/geometry_nodes/point/point_rotate>` or other attribute nodes.
+     - Used in the :doc:`Point Distribute Node </modeling/geometry_nodes/point/point_distribute>` to control the scale.
+       This is adjusted by the :doc:`Point Scale Node </modeling/geometry_nodes/point/point_rotate>`
+       or other attribute nodes.
 
    * - **id**
      - *Integer*
-     - Created by the :doc:`Point Distribute </modeling/geometry_nodes/point/point_distribute>`
-       to provide stability when the shape of the input mesh changes. The values are large, with no order.
-       The attribute values are used by nodes that generate randomness, like the 
-       :doc:`Attribute Randomize Node </modeling/geometry_nodes/attribute/attribute_randomize>`.
+     - Created by the :doc:`Point Distribute Node </modeling/geometry_nodes/point/point_distribute>` to
+       provide stability when the shape of the input mesh changes. The values are large,
+       with no order. The attribute values are used by nodes that generate randomness, like
+       the :doc:`Attribute Randomize Node </modeling/geometry_nodes/attribute/attribute_randomize>`.
 
 
 Vertex Groups

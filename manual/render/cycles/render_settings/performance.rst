@@ -36,7 +36,7 @@ Tiles
 .. _bpy.types.RenderSettings.tile_x:
 .. _bpy.types.RenderSettings.tile_y:
 
-Tiles X,Y
+Tiles X, Y
    The size of the tiles for rendering.
 
    Depending on what device you are using for rendering, different tile sizes can give faster renders.
@@ -84,8 +84,8 @@ Save Buffers
 .. _bpy.types.RenderSettings.use_persistent_data:
 
 Persistent Images
-   Keep image data in memory after rendering, for faster re-renders at the cost of extra memory usage when
-   performing other tasks in Blender.
+   Keep image data in memory after rendering, for faster re-renders at the cost of extra memory usage
+   when performing other tasks in Blender.
 
 
 .. _render_cycles_settings_perfomance_viewport:

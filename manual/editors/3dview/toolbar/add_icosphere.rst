@@ -7,10 +7,10 @@ Add Icosphere
 .. admonition:: Reference
    :class: refbox
 
-   :Mode:      Object Mode Edit Mode
+   :Mode:      Object Mode and Edit Mode
    :Tool:      :menuselection:`Toolbar --> Add Icosphere`
 
-Interactively add a :ref:`Icosphere mesh object <bpy.ops.mesh.primitive_ico_sphere_add>`.
+Interactively add an :ref:`Icosphere mesh object <bpy.ops.mesh.primitive_ico_sphere_add>`.
 
 
 Usage
@@ -51,7 +51,7 @@ Orientation
              using the :doc:`/editors/3dview/controls/orientation` as a fallback.
    :Default: Align the object using the default :doc:`/editors/3dview/controls/orientation`.
 
-Snap to
+Snap To
    The target to use while :doc:`/editors/3dview/controls/snapping`.
 
    :Geometry: Snap to all types of geometry (vertices, edges, and faces).
@@ -66,6 +66,7 @@ Plane Axis
 
 Auto Axis
    Select the closest axis when placing objects (surface overrides).
+
 
 .. rubric:: Base
 
@@ -82,6 +83,7 @@ Aspect
 
    :Free: Draws the length and width of the base using an unconstrained aspect.
    :Fixed: Draws the length and width of the base using a 1:1 aspect.
+
 
 .. rubric:: Height
 
@@ -100,12 +102,12 @@ Aspect
    :Fixed: Draws the length and width of the height using a 1:1 aspect.
 
 Subdivisions
-   How many recursions are used to define the sphere.
+   How many vertices are used to define the sphere.
    At level 1 the icosphere is an icosahedron, a solid with 20 equilateral triangular faces.
    Each increase in the number of subdivisions splits each triangular face into four triangles.
 
    .. note::
 
       Subdividing an icosphere raises the vertex count very quickly even with few iterations
-      (10 times creates 5,242,880 triangles),
+      (10 times creates 5,242,880 triangles).
       Adding such a dense mesh is a sure way to cause the program to crash.

@@ -12,8 +12,8 @@ the free and open source 3D creation suite.
 
    This site can be used offline:
 
-   - `Download the manual (HTML) <blender_manual_html.zip>`__
-   - `Download the manual (EPUB) <blender_manual_epub.zip>`__
+   - `Download the manual as web pages (HTML) <blender_manual_html.zip>`__
+   - `Download the manual in an e-book format (EPUB) <blender_manual_epub.zip>`__
 
 
 Getting Started

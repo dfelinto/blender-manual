@@ -43,7 +43,7 @@ Here are some common steps for using the *Measure* tool:
    Move this midpoint to set the vertex of the angle.
    Holding down :kbd:`Ctrl` enables snap to edges and vertices.
    Move the endpoints to change the angle size.
-#. A selected ruler can be deleted with :kbd:`Delete` or  :kbd:`X`.
+#. A selected ruler can be deleted with :kbd:`Delete` or :kbd:`X`.
    To delete all measurements, make the :menuselection:`Sidebar --> View --> Annotations` panel visible.
    Delete the "RulerData3D" layer (see image above).
 

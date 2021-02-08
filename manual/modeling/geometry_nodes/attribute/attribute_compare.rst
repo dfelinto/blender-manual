@@ -12,9 +12,9 @@ Attribute Compare
 
 This node reads two input attributes as floats and allows for basic elementwise comparison operations.
 Like the :doc:`Attribute Math </modeling/geometry_nodes/attribute/attribute_math>` node,
-it is also possible to switch to using single values for inputs. This node can be combined with
-the :doc:`Point Separate </modeling/geometry_nodes/point/point_separate>` node for more flexibility
-for which points to separate to the second output geometry.
+it is also possible to switch to using single values as inputs. This node can be combined with
+the :doc:`Point Separate </modeling/geometry_nodes/point/point_separate>` node for more control over
+which points to separate to the second output geometry.
 
 
 Inputs

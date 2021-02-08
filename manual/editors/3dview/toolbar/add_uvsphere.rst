@@ -7,7 +7,7 @@ Add UV Sphere
 .. admonition:: Reference
    :class: refbox
 
-   :Mode:      Object Mode Edit Mode
+   :Mode:      Object Mode and Edit Mode
    :Tool:      :menuselection:`Toolbar --> Add UV Sphere`
 
 Interactively add a :ref:`UV sphere mesh object <bpy.ops.mesh.primitive_uv_sphere_add>`.
@@ -51,7 +51,7 @@ Orientation
              using the :doc:`/editors/3dview/controls/orientation` as a fallback.
    :Default: Align the object using the default :doc:`/editors/3dview/controls/orientation`.
 
-Snap to
+Snap To
    The target to use while :doc:`/editors/3dview/controls/snapping`.
 
    :Geometry: Snap to all types of geometry (vertices, edges, and faces).
@@ -66,6 +66,7 @@ Plane Axis
 
 Auto Axis
    Select the closest axis when placing objects (surface overrides).
+
 
 .. rubric:: Base
 
@@ -82,6 +83,7 @@ Aspect
 
    :Free: Draws the length and width of the base using an unconstrained aspect.
    :Fixed: Draws the length and width of the base using a 1:1 aspect.
+
 
 .. rubric:: Height
 
