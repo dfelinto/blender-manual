@@ -215,11 +215,7 @@ Debug Options
 ``--debug-gpu``
    Enable GPU debug context and information for OpenGL 4.3+.
 ``--debug-gpu-force-workarounds``
-   Enable GPU memory stats in status bar.
-``--debug-gpu-shaders``
-   Enable GPU memory stats in status bar.
-``--debug-gpumem``
-   Enable GPU memory stats in status bar.
+   Enable workarounds for typical GPU issues and disable all GPU extensions.
 ``--debug-wm``
    Enable debug messages for the window manager, shows all operators in search, shows keymap errors.
 ``--debug-xr``
