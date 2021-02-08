@@ -1,6 +1,5 @@
 .. _bpy.types.GreasePencil.use_curve_edit:
 
-
 *************
 Curve Editing
 *************
@@ -19,20 +18,32 @@ Usage
    - Select strokes to automatically convert them to curves.
 
 .. note::
+
    Selecting :doc:`points in between </grease_pencil/selecting>` is disabled while in curve edit mode.
+
+.. seealso::
+
+   The curve editing handles display can be tweaked in the
+   :ref:`Overlays <bpy.types.View3DOverlay.display_handle>` popover.
+
 
 Curve Editing Popover
 =====================
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`3D Viewport --> Header --> Curve Editing`
 
 .. figure:: /images/grease-pencil_curve_editing_panel.png
 
    Curve Editing popover.
 
-
 .. _bpy.types.GreasePencil.edit_curve_resolution:
 
 Curve Resolution
-   Number of points generated along each curve segment (between two handles) if Apdaptive Resolution is turned off. 
+   Number of points generated along each curve segment (between two handles) if *Adaptive Resolution* is disabled.
 
 .. _bpy.types.GreasePencil.curve_edit_threshold:
 
@@ -49,49 +60,31 @@ Corner Angle
 .. _bpy.types.GreasePencil.use_adaptive_curve_resolution:
 
 Adaptive Resolution
-   When activated, the Curve Resolution is no longer constant for all curve segments but calculated dynamically.
-   The length of each segment is approximated, then multiplied by the Curve Resolution and rounded down. 
+   When activated, the *Curve Resolution* is no longer constant for all curve segments but calculated dynamically.
+   The length of each segment is approximated, then multiplied by the Curve Resolution and rounded down.
    This will be the number of points to generate for that segment.
-   Adaptive resolution will distribute the points more evenly accross all the strokes. 
-   The Curve Resolution parameter will change the point density.
+   Adaptive resolution will distribute the points more evenly across all the strokes.
+   The *Curve Resolution* parameter will change the point density.
 
-.. list-table:: Adaptive Resolution.
+   .. list-table:: Adaptive Resolution.
 
-   * - .. figure:: /images/grease-pencil_curve_editing_adaptive_resolution_off.png
-          :width: 320px
+      * - .. figure:: /images/grease-pencil_curve_editing_adaptive_resolution_off.png
+             :width: 320px
 
-          Off.
+             Off.
 
-     - .. figure:: /images/grease-pencil_curve_editing_adaptive_resolution_on.png
-          :width: 320px
+        - .. figure:: /images/grease-pencil_curve_editing_adaptive_resolution_on.png
+             :width: 320px
 
-          On.
+             On.
 
-Handle Display
-==============
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Mode:      Edit Mode
-   :Panel:     :menuselection:`3D Viewport --> Viewport Overlays --> Edit Grease Pencil`
-
-When Curve Editing is active, curves have special :doc:`overlays </editors/3dview/display/overlays>`
-to control how curves are displayed in the 3D Viewport.
-
-Handles
-   - None
-      No handles are displayed. Just the control points.
-   - Selected
-      Only handles for selected control points are displayed.
-   - All
-      All the handles are displayed.
 
 Curve Data
 ==========
 
 Once a stroke has been converted to a curve, the data will be saved to the file.
-When Curve Editing is turned off and the curve is changed, for example using :doc:`Sculpt Mode </grease_pencil/modes/sculpting/introduction>`,
+When Curve Editing is turned off and the curve is changed, for example using
+:doc:`Sculpt Mode </grease_pencil/modes/sculpting/introduction>`,
 then the curve will be refitted once Curve Editing is activated again.
 
 

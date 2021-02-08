@@ -351,5 +351,13 @@ Vertex Opacity
    Opacity for edit vertices (points).
 Vertex Paint Opacity
    The opacity of the overlay.
+
+.. _bpy.types.View3DOverlay.display_handle:
+
 Handles
-   Curve handle display option. See :doc:`Curve Editing </grease_pencil/modes/edit/curve_editing>` for more information.
+   When :doc:`Curve Editing </grease_pencil/modes/edit/curve_editing>` is active,
+   this option controls how curves are displayed in the 3D Viewport.
+
+   :None: No handles are displayed. Just the control points.
+   :Selected: Only handles for selected control points are displayed.
+   :All: All the handles are displayed.
