@@ -351,3 +351,5 @@ Vertex Opacity
    Opacity for edit vertices (points).
 Vertex Paint Opacity
    The opacity of the overlay.
+Handles
+   Curve handle display option. See :doc:`Curve Editing </grease_pencil/modes/edit/curve_editing>` for more information.

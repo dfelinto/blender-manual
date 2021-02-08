@@ -48,3 +48,6 @@ Screen Space
 
 Thickness Scale
    Sets a thickness scale factor for all strokes.
+
+Curve Resolution
+   See :doc:`Curve Editing </grease_pencil/modes/edit/curve_editing>` for more information.
