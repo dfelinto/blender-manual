@@ -208,10 +208,18 @@ Debug Options
    Enable debug messages from dependency graph related on timing.
 ``--debug-depsgraph-pretty``
    Enable colors for dependency graph debug messages.
+``--debug-depsgraph-uuid``
+   Enable debug messages from dependency graph related on graph construction.
+``--debug-ghost``
+   Enable debug messages for event handling.
 ``--debug-gpu``
    Enable GPU debug context and information for OpenGL 4.3+.
 ``--debug-gpu-force-workarounds``
-   Enable workarounds for typical GPU issues and disable all GPU extensions.
+   Enable GPU memory stats in status bar.
+``--debug-gpu-shaders``
+   Enable GPU memory stats in status bar.
+``--debug-gpumem``
+   Enable GPU memory stats in status bar.
 ``--debug-wm``
    Enable debug messages for the window manager, shows all operators in search, shows keymap errors.
 ``--debug-xr``
@@ -226,10 +234,14 @@ Debug Options
 
 ``--debug-fpe``
    Enable floating-point exceptions.
+``--debug-exit-on-error``
+   Immediately exit when internal errors are detected.
 ``--disable-crash-handler``
    Disable the crash handler.
 ``--disable-abort-handler``
    Disable the abort handler.
+``--verbose`` ``<verbose>``
+   Set the logging verbosity level for debug messages that support it.
 
 
 Misc Options
@@ -257,6 +269,8 @@ Misc Options
 
 ``-h``, ``--help``
    Print this help text and exit.
+``/?``
+   Print this help text and exit (Windows only).
 ``-R``
    Register blend-file extension, then exit (Windows only).
 ``-r``
@@ -270,18 +284,8 @@ Misc Options
 Other Options
 =============
 
-``/?``
-   Print this help text and exit (windows only).
-``--debug-depsgraph-uuid``
-   Enable debug messages from dependency graph related on graph construction.
-``--debug-exit-on-error``
-   Immediately exit when internal errors are detected.
 ``--debug-freestyle``
    Enable debug messages for Freestyle.
-``--debug-ghost``
-   Enable debug messages for event handling.
-``--verbose`` ``<verbose>``
-   Set the logging verbosity level for debug messages that support it.
 
 
 Argument Parsing
