@@ -13,13 +13,6 @@ Point Separate
 The *Point Separate* node produces two geometry outputs. Based on the *Threshold* and the input *Attribute*,
 the point cloud component of the input geometry is split between the two outputs.
 
-.. Don't show this yet because there are no other data types in the geometry socket at this point.
-.. .. note::
-
-..    Every other data type in the geometry besides the point cloud will be moved to both of the
-..    outputs unchanged. For example, if the geometry contains a mesh component, the same mesh will
-..    be moved to both outputs, unaffected by the split.
-
 .. tip::
 
    This node can be combined with
@@ -38,18 +31,11 @@ Mask
    If the attribute has any data type besides Boolean, the value will be implicitly converted,
    so a value of exactly zero is false, and any other value is true.
 
-
-Properties
-==========
-
-This node has no properties.
-
-
 Outputs
 =======
 
 Geometry 1
-   Points with a mask attribute value of "true" will be moved to the first input.
+   Points with a mask attribute value of "false" will be moved to the first output.
 
 Geometry 2
-   Points with a mask attribute value of "false" will be moved to the first input.
+   Points with a mask attribute value of "true" will be moved to the second output.
