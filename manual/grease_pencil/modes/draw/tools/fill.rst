@@ -76,7 +76,7 @@ Layers
 
 Precision
    Multiplier for fill boundary accuracy.
-   Higher values are more accuracate but slower.
+   Higher values are more accurate but slower.
 
 .. _bpy.types.BrushGpencilSettings.show_fill:
 .. _bpy.types.BrushGpencilSettings.fill_threshold:
