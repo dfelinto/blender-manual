@@ -34,6 +34,7 @@
    simplify.rst
    mask.rst
    multires_displacement_eraser.rst
+   multires_displacement_smear.rst
    draw_facesets.rst
    box_mask.rst
    lasso_mask.rst

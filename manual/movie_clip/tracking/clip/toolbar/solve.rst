@@ -3,34 +3,10 @@
 Solve
 *****
 
-.. _clip-tracking-plane:
-.. _bpy.ops.clip.create_plane_track:
-
 Plane Track
 ===========
 
-The *Create Plane Track* operator creates a new plane track.
-Planar tracking takes advantage of the fact that there are often planar surfaces in footage,
-by attaching markers to points on these flat planes.
-It can be used to replace things like billboards and screens on the footage with another image or video.
-It also might be used for masking.
-
-This button will create a plane object
-which is deforming in the same way as plane defined by all selected point tracks.
-At least four feature points tracked across the footage which belongs to
-the plane you want to replace are needed. More tracks will give better estimation of plane motion.
-
-Feature points used to estimate plane motion could be used from any place on the plane,
-meaning it's not necessarily need to be corners. Corners are not always easy to be tracked,
-they might be occluded. In this case you can position tracked features that lay on the same plane
-far away from the actual plane which should be replaced.
-
-This provides more information about the possible deformation of the marker in following frames,
-and such markers can be tracked even if partially occluded (appear and disappear during the time).
-It is only required that two neighbor frames have at least four common tracks.
-
-An image can be projected onto the plane with
-the :doc:`/compositing/types/distort/plane_track_deform` compositing node.
+See :ref:`bpy.ops.clip.create_plane_track`.
 
 
 Solve
@@ -123,10 +99,8 @@ Type
 
 Clean Tracks
    See :ref:`bpy.ops.clip.clean_tracks`.
-
 Filter Tracks
-   This operator deletes obviously bad tracks (for example, the ones which are too short).
-   Additionally, it identifies tracks which has suspicious spikes in their motion and selects them.
+   See :ref:`bpy.ops.clip.filter_tracks`.
 
 
 Geometry
@@ -154,7 +128,7 @@ Set X, Y Axis
 Set Scale
    See :ref:`bpy.ops.clip.set_scale`.
 Apply Scale
-   Similar to Set Scale, but actually modifies the tracking data.
+   See :ref:`bpy.ops.clip.apply_solution_scale`.
 
 Distance
    Distance in active scene units which is used by Set/Apply scale.
@@ -164,11 +138,6 @@ Scene Setup
 ===========
 
 Set as Background
-   Sets the clip currently being edited as the camera background for all visible 3D Viewports.
-   If there is no visible 3D Viewports or the Clip Editor is open in full screen, nothing will happen.
-
+   See :ref:`bpy.ops.clip.set_viewport_background`.
 Setup Tracking Scene
-   Performs all usual steps to set up a VFX scene:
-
-   - Create reference objects for floor and test object.
-   - Create node set up for combining CG with an actual clip.
+   See :ref:`bpy.ops.clip.setup_tracking_scene`.

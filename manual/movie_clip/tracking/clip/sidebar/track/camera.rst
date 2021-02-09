@@ -40,10 +40,8 @@ Optical Center
 
    .. tip:: Optical Center also know as the principal point in photogrammetry.
 
-.. _bpy.ops.clip.set_center_principal:
-
 Set Center
-   Changes the *Optical Center* values to the center of image.
+   See :ref:`bpy.ops.clip.set_center_principal`.
 
 .. _bpy.types.MovieTrackingCamera.distortion_model:
 

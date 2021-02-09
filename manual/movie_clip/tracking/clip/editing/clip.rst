@@ -18,6 +18,34 @@ Open Clip
 Todo.
 
 
+.. _bpy.ops.clip.set_scene_frames:
+
+Set Scene Frames
+================
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Tracking
+   :Menu:      :menuselection:`Clip --> Set Scene Frames`
+
+Sets end scene frame to match current clip duration.
+
+
+.. _bpy.ops.clip.set_center_principal:
+
+Set Prinipal to Center
+=======================
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Tracking
+   :Menu:      :menuselection:`Clip --> Set Prinipal to Center`
+
+Changes the :ref:`Optical Center <bpy.types.MovieTrackingCamera.principal>` values to the center of image.
+
+
 .. _bpy.ops.clip.prefetch:
 
 Prefetch
@@ -54,3 +82,35 @@ Proxy
 =====
 
 Todo.
+
+
+.. _bpy.ops.clip.set_viewport_background:
+
+Set as Background
+=================
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Tracking
+   :Menu:      :menuselection:`Clip --> Set as Background`
+
+Sets the clip currently being edited as the camera background for all visible 3D Viewports.
+If there is no visible 3D Viewports or the Clip Editor is open in full screen, nothing will happen.
+
+
+.. _bpy.ops.clip.setup_tracking_scene:
+
+Setup Tracking Scene
+====================
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Tracking
+   :Menu:      :menuselection:`Clip --> Setup Tracking Scene`
+
+Performs all usual steps to set up a VFX scene:
+
+- Create reference objects for floor and test object.
+- Create node set up for combining CG with an actual clip.

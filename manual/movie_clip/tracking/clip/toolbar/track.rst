@@ -7,7 +7,7 @@ Clip
 ====
 
 Set Scene Frames
-   Sets end scene frame to match current clip duration.
+   See :ref:`bpy.ops.clip.set_scene_frames`.
 Prefetch
    See :ref:`bpy.ops.clip.prefetch`.
 Reload
@@ -19,49 +19,10 @@ Marker
 
 Add
    See :ref:`bpy.ops.clip.add_marker_move`.
-
 Delete
    See :ref:`bpy.ops.clip.delete_track`.
-
-.. _bpy.ops.clip.detect_features:
-
 Detect Features
-   Detects all possible features on the current frame and places markers at these features.
-   This operator does not take other frames into account,
-   so it might place markers on features which belong to moving objects.
-   If the camera is turning away from this shot,
-   no markers could be present within the frames after the camera moved away.
-
-   There are several properties for this operator:
-
-   Placement
-      Controls where to place markers.
-
-      Whole Frame
-         Places markers throughout the whole frame.
-      Inside Annotated Area
-         Places markers inside the area outlined with the :ref:`tool-annotate`.
-         This can be used to outline some areas with interesting features
-         and place markers only inside the outlined area.
-      Outside Annotated Area
-         Places markers outside the area outlined with the :ref:`tool-annotate`.
-         This can be used to outline areas of no interest (like trees, humans, etc.)
-         and place markers outside of these areas.
-   Margin
-      Controls the distance from the image boundary for created markers.
-      If markers are placed too close to the image boundary,
-      they will fail to track really quickly and they should be deleted manually.
-      To reduce the amount of manual clean-up, this parameter can be used.
-   Threshold
-      Limits minimal threshold for placing markers.
-      This value comes from the feature detection algorithm and it means:
-      low values means most probably this feature would fail to track very soon,
-      high value means it is not much such track.
-      Amount of markers to be added can be controlled with this value.
-   Distance
-      Defines the minimal distance between placed markers.
-      It is needed to prevent markers from being placed too close to each other
-      (such placement can confuse the camera solver).
+   See :ref:`bpy.ops.clip.detect_features`.
 
 
 .. _clip-tracking-settings:
@@ -171,56 +132,11 @@ Track
 =====
 
 Track
------
-
-The first row of buttons is used to perform tracking of selected tracks
-(i.e. following the selected feature from frame to frame).
-Tracking can happen (in order of buttons):
-
-- Backward one frame :kbd:`Alt-Left`
-- Backward along the sequence :kbd:`Shift-Ctrl-T`
-- Forward along the whole sequence :kbd:`Ctrl-T`
-- Forward one frame :kbd:`Alt-Right`
-
-This operator depends on settings from the Tracking Settings panel.
-If during sequence tracking the algorithm fails to track some markers,
-they will be disabled and tracking will continue for the rest of the markers.
-If the algorithm fails when tracking frame-by-frame, the marker is not disabled,
-and the most likely position of the feature on the next frame is used.
-
-
+   See :ref:`bpy.ops.clip.track_markers`.
 Clear
------
-
-Action
-   Clear (After/Remained) (left arrow icon) :kbd:`Alt-T`
-      Deletes all tracked and keyframed markers before the current frame for all selected tracks.
-   Clear (Before/Up-to) (right arrow icon) :kbd:`Shift-T`
-      Deletes all tracked and keyframed markers after the current frame for all selected tracks.
-   Clear (Track Path/All) :kbd:`Shift-Alt-T`
-      Clears all markers except the current one from all selected tracks.
-Clear Active
-   Limits clear action to only active track (as opposite to all selected ones).
-
-
+   See :ref:`bpy.ops.clip.clear_track_path`.
 Refine
-------
-
-This operator will run a tracker from previous keyframe to current frame for all selected markers.
-Current markers positions are considering initial position guess
-which could be updated by a tracker for better match.
-
-Useful in cases when feature disappears from the frame and then appears again. Usage in this case is the following:
-
-- When feature point re-appeared on frame, manually place marker on it.
-- Use Refine Markers operation (which is in Track panel) to allow tracker to find a better match.
-
-Depending on direction of tracking use either Forwards or Backwards refining.
-It's easy: if tracking happens forwards, use Refine Forwards, otherwise use Refine Backwards.
-
-
+   See :ref:`bpy.ops.clip.refine_markers`.
 Merge
------
-
-Join Tracks
-   See :ref:`bpy.ops.clip.join_tracks`.
+   Join Tracks
+      See :ref:`bpy.ops.clip.join_tracks`.

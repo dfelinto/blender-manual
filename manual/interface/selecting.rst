@@ -27,8 +27,8 @@ Holding the selection and moving the mouse on interactive items such as objects 
 or keyframes in an animation editor will general move the item with the mouse.
 
 
-.. _tool-select-box:
 .. _bpy.ops.*.select_box:
+.. _tool-select-box:
 
 Box Select
 ----------

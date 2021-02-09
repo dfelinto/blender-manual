@@ -78,6 +78,20 @@ Scale camera or tracking object in a way which makes distance
 between two selected tracks match the given value in *Distance*.
 
 
+.. _bpy.ops.clip.apply_solution_scale:
+
+Apply Solution Scale
+====================
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Tracking
+   :Menu:      :menuselection:`Reconstruction --> Apply Solution Scale`
+
+Similar to :ref:`bpy.ops.clip.set_scale`, but actually modifies the tracking data.
+
+
 .. _bpy.ops.clip.track_to_empty:
 
 Link Empty to Track
