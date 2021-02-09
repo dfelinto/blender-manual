@@ -74,9 +74,9 @@ Layers
 
 .. _bpy.types.BrushGpencilSettings.fill_factor:
 
-Resolution
-   Multiplier for fill resolution.
-   Higher values gives better fill boundary accuracy but slower time for calculations.
+Precision
+   Multiplier for fill boundary accuracy.
+   Higher values are more accuracate but slower.
 
 .. _bpy.types.BrushGpencilSettings.show_fill:
 .. _bpy.types.BrushGpencilSettings.fill_threshold:
