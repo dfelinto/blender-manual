@@ -270,3 +270,6 @@ Version/Revision Milestones
 `2.91 <https://www.blender.org/download/releases/2-91/>`__ -- November 2020:
    Outliner improvements, property search, improved mesh Boolean operations, animation curves,
    volume object and display improvements, and more refined sculpting tools.
+`2.92 <https://www.blender.org/download/releases/2-92/>`__ -- February 2021:
+   Geometry nodes, primitive add tool, sculpting improvements, Grease Pencil curve editing,
+   Cycles vertex color baking, APIC fluid simulations, video sequencer improvements, and much more.
