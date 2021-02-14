@@ -84,6 +84,8 @@ Scene Collection
 
       - :kbd:`LMB` -- Enable the restriction for all collections. Click again to restore the previous state.
       - :kbd:`Shift-LMB` -- Invert the restriction state on all collections.
+      - :kbd:`Shift-Ctrl-LMB` -- Isolate collections with selected objects.
+      - :kbd:`Shift-Alt-LMB` -- Disable collections with selected objects.
       - :kbd:`Ctrl-LMB` -- Copy/paste the restriction state on all collections.
       - :kbd:`Ctrl-Alt-LMB` -- Swap the restriction state on all collections with that of another restriction.
       - :kbd:`Alt-LMB` -- Discard the previous state, and anything that has been stored for Copy/Paste or Swap.
@@ -182,6 +184,8 @@ The header widget is composed of the Quick View Toggles button and 20 QCD slots.
 Quick View Toggles (eye icon)
    - Enable All QCD Slots.
    - Enable All QCD Slots Isolated. (Enables all QCD slots and disables any non QCD slots)
+   - Isolate Selected Objects Collections.
+   - Disable Selected Objects Collections.
    - Disable All Non QCD Slots.
    - Disable All Collections.
    - Select All QCD Objects. (Select all objects that belong to enabled QCD slots)
@@ -240,24 +244,32 @@ The Move Widget shares its layout and indicators with the 3D Viewport header wid
 
 
 3D Viewport Hotkeys
-^^^^^^^^^^^^^^^^^^^
+-------------------
 
 .. rubric:: Object Mode
 
-- :kbd:`0` - :kbd:`9` -- View slot 1-10 (0 is slot 10). Excludes all others.
-- :kbd:`Alt-0` - :kbd:`Alt-9` -- View slot 11-20 (0 is slot 20). Excludes all others.
-- :kbd:`Shift-0` - :kbd:`Shift-9` -- Add/remove slot 1-10 (0 is slot 10) to/from view.
-- :kbd:`Shift-Alt-0` - :kbd:`Shift-Alt-9` -- Add/remove slot 11-20 (0 is slot 20) to/from view.
-- :kbd:`Shift-=` -- Enable All QCD Slots.
-- :kbd:`Shift-Alt-=` -- Enable All QCD Slots Isolated.
-- :kbd:`Shift-Ctrl-=` -- Disable All Non QCD Slots.
-- :kbd:`Ctrl-Alt-=` -- Disable All Collections.
-- :kbd:`Alt-=` -- Select All QCD Objects.
+QCD
+   - :kbd:`0` - :kbd:`9` -- View slot 1-10 (0 is slot 10). Excludes all others.
+   - :kbd:`Alt-0` - :kbd:`Alt-9` -- View slot 11-20 (0 is slot 20). Excludes all others.
+   - :kbd:`Shift-0` - :kbd:`Shift-9` -- Add/remove slot 1-10 (0 is slot 10) to/from view.
+   - :kbd:`Shift-Alt-0` - :kbd:`Shift-Alt-9` -- Add/remove slot 11-20 (0 is slot 20) to/from view.
+   - :kbd:`Shift-=` -- Enable All QCD Slots.
+   - :kbd:`=` -- Isolate Selected Objects Collections.
+   - :kbd:`-` -- Disable Selected Objects Collections.
+   - :kbd:`Shift-Alt-=` -- Disable All Non QCD Slots.
+   - :kbd:`Ctrl-Alt-=` -- Disable All Collections.
+   - :kbd:`Shift-Ctrl-=` -- Select All QCD Objects.
+   - :kbd:`Alt-=` -- Discard QCD History.
+
+Disable Objects (Only available if enabled in the preferences.)
+   - :kbd:`H` -- Disable Selected.
+   - :kbd:`Shift-H` -- Disable Unselected.
+   - :kbd:`Alt-H` -- Restore Disabled Objects.
 
 
 .. rubric:: Edit Mode
 
-All Object Mode hotkeys except for Select All QCD Objects. (Only available if enabled in the preferences.)
+All Object Mode hotkeys except for Select All QCD Objects and the Disable Objects hotkeys. (Only available if enabled in the preferences.)
 
 - :kbd:`AccentGrave` -- Mesh Select Mode menu.
 
@@ -268,6 +280,11 @@ All Object Mode hotkeys except for Select All QCD Objects. (Only available if en
 
 Preferences
 ===========
+
+Disable objects instead of Hiding
+   Replaces the object hiding hotkeys with hotkeys to disable objects instead and adds these options to the :menuselection:`Object --> Show/Hide` menu.
+
+   Disabling objects prevents them from being shown again when a collection's exclude checkbox is toggled off and on, and so will preserve the object's visibility when switching QCD slots.
 
 QCD
    Enable the QCD system.
@@ -295,6 +312,25 @@ Known Issues
 - Linked collections are not supported.
 - Two QCD slots can swap collections if the collections are under the same parent and
   you rename one collection with the name of the other, then undo the rename and redo the rename.
+
+Glossary
+========
+
+General
+   - **Chaining**: Dependent on parents for whether an RTO can be active.
+   - **LMB**: Left Mouse Button.
+   - **QCD**: Quick Content Display.
+   - **QVT**: Quick View Toggles.
+   - **RTO**: Restriction Toggle Option.
+
+RTO Short Forms
+   - **EC**: Exclude Checkbox. (Excludes the collection from the current view layer -- affects both 3d viewport and render -- non-chaining)
+   - **SS**: Selectability. (Disables selection for the collection in all view layers -- affects 3d viewport -- chaining)
+   - **VV**: Visibility. (Hides the collection from the current view layer -- affects 3d viewport -- chaining)
+   - **DV**: Disable Viewports. (Disables the collection in all view layers -- affects 3d viewport -- chaining)
+   - **RR**: Renderability. (Disables the collection from being rendered in all view layers -- affects render -- chaining)
+   - **HH**: Holdout. (Masks out the collection from the view layer -- affects render -- non-chaining)
+   - **IO**: Indirect Only. (Makes the collection only contribute indirectly (shadows/reflections) to the render for the current view layer -- affects render -- non-chaining -- *Cycles only*)
 
 .. admonition:: Reference
    :class: refbox
