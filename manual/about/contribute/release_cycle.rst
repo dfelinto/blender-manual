@@ -30,7 +30,7 @@ Switching Branches
 
 To switch to the release branch use::
 
-   svn switch https://svn.blender.org/svnroot/bf-manual/branches/blender-{VERSION}-release/
+   svn switch https://svn.blender.org/svnroot/bf-manual/branches/blender-{VERSION}-release/blender_docs/
 
 To switch back to the development branch use::
 
@@ -43,7 +43,7 @@ Updating Branches
 To merge changes from the release branch to the development branch,
 first switch to the development branch and use::
 
-   svn merge https://svn.blender.org/svnroot/bf-manual/branches/blender-{VERSION}-release/
+   svn merge https://svn.blender.org/svnroot/bf-manual/branches/blender-{VERSION}-release/blender_docs/
    svn ci -m "Merge branch 'blender-{VERSION}-release'"
 
 
