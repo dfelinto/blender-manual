@@ -6,7 +6,7 @@ Field Weights
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`Properties --> Physics -- Fluid --> Field Weights`
+   :Panel:     :menuselection:`Properties --> Physics --> Fluid --> Field Weights`
    :Type:      Domain
 
 These settings determine how much gravity and
