@@ -17,7 +17,6 @@ Visibility
 
    There are several other :doc:`general visibility </scene_layout/object/properties/visibility>` properties.
 
-
 Mask
    Shadow Catcher
       Enables the object to only receive shadow rays. It is to be noted that,

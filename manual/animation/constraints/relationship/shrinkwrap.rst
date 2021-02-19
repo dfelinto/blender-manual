@@ -85,7 +85,6 @@ Face Cull
       for the opposite direction.
 
 
-
 Nearest Vertex
 ^^^^^^^^^^^^^^
 

@@ -40,7 +40,6 @@ Keyframe
 Keyframe A/B
    Start (A) and End (B) frame of the range used for reconstruction.
 
-
 Refine
    Specifies which parameters should be refined during solve.
    Such refining is useful when you are not sure about some camera intrinsics,
@@ -67,7 +66,6 @@ Refine
 
    Tangential Distortion
       Refine the camera's :ref:`Tangential Distortion Parameters <bpy.types.MovieTrackingCamera.brown_p>`.
-
 
 .. _editors-movie-clip-tracking-clip-solve-motion:
 

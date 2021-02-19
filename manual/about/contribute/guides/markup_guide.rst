@@ -261,7 +261,6 @@ Videos from YouTube\ :sup:`™` can be embedded using::
 
    .. youtube:: ID
 
-
 The ``ID`` is found in the video's URL, e.g:
 
 The ID for ``https://www.youtube.com/watch?v=Ge2Kwy5EGE0`` is ``Ge2Kwy5EGE0``.

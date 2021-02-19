@@ -358,6 +358,6 @@ Handles
    When :doc:`Curve Editing </grease_pencil/modes/edit/curve_editing>` is active,
    this option controls how curves are displayed in the 3D Viewport.
 
-   :None: No handles are displayed. Just the control points.
+   :None: No handles are displayed only the control points.
    :Selected: Only handles for selected control points are displayed.
    :All: All the handles are displayed.

@@ -4,14 +4,14 @@
 Curve Editing
 *************
 
-Curve Editing allows you to edit grease pencil strokes using bézier curves.
+Curve Editing allows you to edit Grease Pencil strokes using Bézier curves.
 
 
 Usage
 =====
 
 #. Select the desired strokes to edit as curves.
-#. Activate curve editing in the 3D Viewport's header with the toggle button (bézier curve icon).
+#. Activate curve editing in the 3D Viewport's header with the toggle button (Bézier curve icon).
 #. Once activated you can:
 
    - Edit the curves with the curve handles.
@@ -19,12 +19,12 @@ Usage
 
 .. note::
 
-   Selecting :doc:`points in between </grease_pencil/selecting>` is disabled while in curve edit mode.
+   Selecting :doc:`points in between </grease_pencil/selecting>` is disabled while in curve editing is active.
 
 .. seealso::
 
-   The curve editing handles display can be tweaked in the
-   :ref:`Overlays <bpy.types.View3DOverlay.display_handle>` popover.
+   The curve editing handles display can be tweaked in
+   the :ref:`Overlays <bpy.types.View3DOverlay.display_handle>` popover.
 
 
 Curve Editing Popover
@@ -61,10 +61,10 @@ Corner Angle
 
 Adaptive Resolution
    When activated, the *Curve Resolution* is no longer constant for all curve segments but calculated dynamically.
-   The length of each segment is approximated, then multiplied by the Curve Resolution and rounded down.
+   The length of each segment is approximated, then multiplied by the *Curve Resolution* and rounded down.
    This will be the number of points to generate for that segment.
-   Adaptive resolution will distribute the points more evenly across all the strokes.
-   The *Curve Resolution* parameter will change the point density.
+   With Adaptive Resolution the points will be distribute more evenly across all the strokes.
+   The *Curve Resolution* option will change the point density.
 
    .. list-table:: Adaptive Resolution.
 
@@ -83,7 +83,7 @@ Curve Data
 ==========
 
 Once a stroke has been converted to a curve, the data will be saved to the file.
-When Curve Editing is turned off and the curve is changed, for example using
+When Curve Editing is deactivated and the curve is changed, for example using
 :doc:`Sculpt Mode </grease_pencil/modes/sculpting/introduction>`,
 then the curve will be refitted once Curve Editing is activated again.
 
@@ -92,14 +92,14 @@ Operators
 =========
 
 Curve editing is currently more limited than stroke editing.
-Every edit mode operation for strokes and stroke points work for curves as well except for the following:
+Every operation in Edit Mode for strokes and stroke points work for curves as well except for the following:
 
- - Duplicate
- - Copy & Paste
- - Snap to Cursor & Cursor to selected
- - Flip
- - Simplify & Simplify Fixed
- - Trim
- - Separate
- - Split
- - Interpolate
+- Duplicate
+- Copy and Paste
+- Snap to Cursor and Cursor to selected
+- Flip
+- Simplify and Simplify Fixed
+- Trim
+- Separate
+- Split
+- Interpolate

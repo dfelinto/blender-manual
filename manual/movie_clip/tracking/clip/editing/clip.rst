@@ -34,14 +34,14 @@ Sets end scene frame to match current clip duration.
 
 .. _bpy.ops.clip.set_center_principal:
 
-Set Prinipal to Center
+Set Principal to Center
 =======================
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Tracking
-   :Menu:      :menuselection:`Clip --> Set Prinipal to Center`
+   :Menu:      :menuselection:`Clip --> Set Principal to Center`
 
 Changes the :ref:`Optical Center <bpy.types.MovieTrackingCamera.principal>` values to the center of image.
 

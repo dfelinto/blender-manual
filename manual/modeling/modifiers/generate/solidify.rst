@@ -26,12 +26,12 @@ Mode
       This is the default solidify algorithm, which simply extrudes the geometry.
       This algorithm does not work on geometry where edges have more than two adjacent faces.
 
-
       .. important::
 
          If the normals of adjacent faces don't point into the same general direction, simple mode
          will not be able to solidify the boundary between those. This happens if the normals
          are not recalculated or for example on one-sided surfaces like a Möbius strip.
+
    Complex
       This is a solidify algorithm which can handle every geometric situation
       to guarantee a manifold output geometry. This algorithm is able to
@@ -61,7 +61,7 @@ Thickness Mode :guilabel:`Complex Mode`
       It adjusts for sharp corners, but may not always work when more than three faces come together.
    Constraints
       This is a more advanced model to try to always get the optimal thickness everywhere.
-      For up to three faces it is always guaranteed to find a optimal solution.
+      For up to three faces it is always guaranteed to find an optimal solution.
 
 Boundary :guilabel:`Complex Mode`
    Choose the kind of boundary that suits the model the most.

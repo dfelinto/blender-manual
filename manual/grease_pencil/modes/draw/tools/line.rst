@@ -12,6 +12,7 @@ Line Tool
 
 The Line tool create straight lines.
 
+
 Tool Settings
 =============
 

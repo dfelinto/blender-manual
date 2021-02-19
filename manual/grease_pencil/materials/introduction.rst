@@ -31,7 +31,6 @@ Setting Up Materials
    :Panel:     :menuselection:`Material --> Material Slots`
    :Hotkey:    :kbd:`U`
 
-
 Grease Pencil materials can be created in the :doc:`Material properties </editors/properties_editor>`
 as any other materials in Blender.
 See :doc:`Material assignment </render/materials/assignment>` for more information.

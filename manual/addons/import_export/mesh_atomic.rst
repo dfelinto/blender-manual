@@ -17,7 +17,7 @@ Atomic Blender (PDB/XYZ) is interesting for scientists, who want to
 visualize their atomic structures described in PDB or XYZ files with Blender.
 Thanks to Blender, fancy graphics of molecules, crystal structures, surfaces,
 nanoparticles, clusters and complex atomic arrangements can be obtained.
-Such graphics meet the standards of top-level journals, which have an high impact factor.
+Such graphics meet the standards of top-level journals, which have a high impact factor.
 See `Examples`_ at the end of this page.
 
 .. seealso:: Info about PDB and XYZ

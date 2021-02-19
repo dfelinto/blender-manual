@@ -82,7 +82,6 @@ Uniform Falloff
    This is especially useful for lattices, where it is common to use non-uniform scaling.
 
 
-
 Example
 =======
 

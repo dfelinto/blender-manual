@@ -62,7 +62,7 @@ Turn Policy
    :Random:   Choose pseudo-randomly.
 
 Mode
-   Determines if the image being traced is an single image or image sequence.
+   Determines if the image being traced is a single image or image sequence.
 
    :Single:   The image empty is a single image or the current frame of an image sequence.
    :Sequence: The image empty is an :ref:`Image Sequence <image-sequence>`.

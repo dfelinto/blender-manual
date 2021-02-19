@@ -116,7 +116,7 @@ This problem is extra apparent in animations.
 .. figure:: /images/addons_render_render-freestyle-svg_pallet.svg
    :align: center
 
-   An example of a SVG result produced by the Freestyle SVG Exporter.
+   An example of an SVG result produced by the Freestyle SVG Exporter.
    Model by `Julien Deswaef <https://github.com/xuv>`__.
 
 Fills support holes and layering. When using layers, the exporter tries to render objects with the same material as

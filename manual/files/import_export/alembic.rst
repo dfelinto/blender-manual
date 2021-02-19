@@ -107,7 +107,6 @@ Custom Properties
 
    - Numbers can be animated as well.
 
-
 Only
    Selected Objects
       When enabled, exports only the selected objects. When disabled, all objects are exported.
@@ -155,7 +154,7 @@ Subdivisions
       before writing to Alembic.
    Use Schema
       Writes polygonal meshes using the "SubD" Alembic schema, rather than the "PolyMesh" schema.
-      This sets a import option for the program, with which the file is opened,
+      This sets an import option for the program, with which the file is opened,
       to apply its form of a non-destructive subdivision.
 
 Triangulate

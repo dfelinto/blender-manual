@@ -25,7 +25,6 @@ Options
 
    The Multiresolution modifier.
 
-
 Levels Viewport
    Set the level of subdivisions to show in Object Mode.
 Sculpt

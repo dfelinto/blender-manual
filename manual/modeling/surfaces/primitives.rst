@@ -31,7 +31,7 @@ In Object/Edit Mode, the *Add Surface* menu, provides six different surface prim
 NURBS Curve
 ===========
 
-Adds an generic curve of four control points forming an arc.
+Adds a generic curve of four control points forming an arc.
 
 
 NURBS Circle

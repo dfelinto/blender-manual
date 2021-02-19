@@ -62,7 +62,6 @@ Stabilize Stroke
       but the drawing sensation feels like as if you were pulling the stroke.
 
 
-
 3D Editor
 ---------
 

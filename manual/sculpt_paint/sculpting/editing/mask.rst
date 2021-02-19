@@ -132,7 +132,7 @@ Iterations
    The number of times that the filter is going to be applied.
 
 Auto Iteration Count
-   Use a automatic number of iterations based on the number of vertices of the sculpt.
+   Use an automatic number of iterations based on the number of vertices of the sculpt.
 
 
 .. _bpy.ops.sculpt.mask_expand:

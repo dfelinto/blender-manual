@@ -93,7 +93,6 @@ Multi Modifier
       *Armature* modifiers can quickly be added to objects by :ref:`parenting <bpy.ops.object.parent_set>`
       them to an armature.
 
-
 Bind to
    Methods to bind the armature to the mesh.
 

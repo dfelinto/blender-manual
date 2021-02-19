@@ -11,7 +11,7 @@ Extrude Vertices
    :Menu:      :menuselection:`Vertex --> Extrude Vertices`
    :Hotkey:    :kbd:`Alt-E`
 
-Extrude vertices as a individual vertices, use :kbd:`Alt-E` to access *Extrude Vertices*.
+Extrude vertices as individual vertices, use :kbd:`Alt-E` to access *Extrude Vertices*.
 
 .. list-table::
 

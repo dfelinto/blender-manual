@@ -61,7 +61,7 @@ What the add-on does is simply that it uses baking in *Textures* mode.
 Switch to Object Mode and deselect any objects except the one to be exported.
 Then execute *Export Paper Model* and in the File Browser switch the *Textures* selector to *From Materials*.
 
-If you choose to export a SVG file, you get several options how to attach the images.
+If you choose to export an SVG file, you get several options how to attach the images.
 All the options are explained in more detail `Properties`_.
 
 The resulting texture does not depend on any scene settings except for the given material,

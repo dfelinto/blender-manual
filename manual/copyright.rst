@@ -40,5 +40,5 @@ If you have questions about the license, feel free to contact the Blender Founda
 foundation (at) blender (dot) org
 
 Previous versions of the Blender Manual are made available under
-a `Open Content License <https://web.archive.org/web/19981206111937/http://www.opencontent.org/opl.shtml>`__
+an `Open Content License <https://web.archive.org/web/19981206111937/http://www.opencontent.org/opl.shtml>`__
 v2.26 -- v2.77.

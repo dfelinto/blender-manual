@@ -9,13 +9,13 @@ Multires Displacement Smear
    :Mode:      Sculpt Mode
    :Tool:      :menuselection:`Toolbar --> Multires Displacement Smear`
 
-This tool deforms displacement information of the
-:doc:`Multires Modifier </modeling/modifiers/generate/multiresolution>`,
-moving the displaced vertices without affecting the base mesh,
+This tool deforms displacement information of
+the :doc:`Multires Modifier </modeling/modifiers/generate/multiresolution>`,
+moving the displaced vertices without affecting the base mesh.
 
-As the tool just modifies displacement values instead of base vertex values,
+As the tool only modifies displacement values instead of base vertex values,
 the total displacement of the affected area does not change.
-This means that this smearing effect can be used multiple times
+Which means that this smearing effect can be used multiple times
 over the same area without generating any artifacts in the topology.
 
 .. tip::

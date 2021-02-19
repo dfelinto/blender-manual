@@ -176,6 +176,7 @@ collections by allowing you to designate up to 20 collections as QCD slots.
 You can then interact with these slots by using hotkeys or the widget
 to view or move objects to them.
 
+
 3D Viewport Header Widget
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -197,7 +198,6 @@ Quick View Toggles (eye icon)
    - :kbd:`LMB` -- Enable All QCD Slots.
    - :kbd:`Alt-LMB` -- Select All QCD Objects.
    - :kbd:`LMB` hold down -- Opens a menu with all Quick View Toggles.
-
 
 QCD Slots
    20 buttons in two rows in groups of five
@@ -255,7 +255,7 @@ QCD
    - :kbd:`Shift-Alt-0` - :kbd:`Shift-Alt-9` -- Add/remove slot 11-20 (0 is slot 20) to/from view.
    - :kbd:`Shift-=` -- Enable All QCD Slots.
    - :kbd:`=` -- Isolate Selected Objects Collections.
-   - :kbd:`-` -- Disable Selected Objects Collections.
+   - :kbd:`Minus` -- Disable Selected Objects Collections.
    - :kbd:`Shift-Alt-=` -- Disable All Non QCD Slots.
    - :kbd:`Ctrl-Alt-=` -- Disable All Collections.
    - :kbd:`Shift-Ctrl-=` -- Select All QCD Objects.
@@ -269,7 +269,8 @@ Disable Objects (Only available if enabled in the preferences.)
 
 .. rubric:: Edit Mode
 
-All Object Mode hotkeys except for Select All QCD Objects and the Disable Objects hotkeys. (Only available if enabled in the preferences.)
+All Object Mode hotkeys except for Select All QCD Objects and the Disable Objects hotkeys.
+(Only available if enabled in the preferences.)
 
 - :kbd:`AccentGrave` -- Mesh Select Mode menu.
 
@@ -281,10 +282,13 @@ All Object Mode hotkeys except for Select All QCD Objects and the Disable Object
 Preferences
 ===========
 
-Disable objects instead of Hiding
-   Replaces the object hiding hotkeys with hotkeys to disable objects instead and adds these options to the :menuselection:`Object --> Show/Hide` menu.
+Disable objects instead of hiding
+   Replaces the object hiding hotkeys with hotkeys to disable objects instead and adds these options to
+   the :menuselection:`Object --> Show/Hide` menu.
 
-   Disabling objects prevents them from being shown again when a collection's exclude checkbox is toggled off and on, and so will preserve the object's visibility when switching QCD slots.
+   Disabling objects prevents them from being shown again
+   when a collection's exclude checkbox is toggled off and on,
+   and so will preserve the object's visibility when switching QCD slots.
 
 QCD
    Enable the QCD system.
@@ -313,24 +317,29 @@ Known Issues
 - Two QCD slots can swap collections if the collections are under the same parent and
   you rename one collection with the name of the other, then undo the rename and redo the rename.
 
+
 Glossary
 ========
 
 General
-   - **Chaining**: Dependent on parents for whether an RTO can be active.
-   - **LMB**: Left Mouse Button.
-   - **QCD**: Quick Content Display.
-   - **QVT**: Quick View Toggles.
-   - **RTO**: Restriction Toggle Option.
+   :Chaining: Dependent on parents for whether an RTO can be active.
+   :LMB: Left Mouse Button.
+   :QCD: Quick Content Display.
+   :QVT: Quick View Toggles.
+   :RTO: Restriction Toggle Option.
 
 RTO Short Forms
-   - **EC**: Exclude Checkbox. (Excludes the collection from the current view layer -- affects both 3d viewport and render -- non-chaining)
-   - **SS**: Selectability. (Disables selection for the collection in all view layers -- affects 3d viewport -- chaining)
-   - **VV**: Visibility. (Hides the collection from the current view layer -- affects 3d viewport -- chaining)
-   - **DV**: Disable Viewports. (Disables the collection in all view layers -- affects 3d viewport -- chaining)
-   - **RR**: Renderability. (Disables the collection from being rendered in all view layers -- affects render -- chaining)
-   - **HH**: Holdout. (Masks out the collection from the view layer -- affects render -- non-chaining)
-   - **IO**: Indirect Only. (Makes the collection only contribute indirectly (shadows/reflections) to the render for the current view layer -- affects render -- non-chaining -- *Cycles only*)
+   :EC: Exclude Checkbox. (Excludes the collection from the current view layer --
+        affects both 3D Viewport and render -- non-chaining.)
+   :SS: Selectability. (Disables selection for the collection in all view layers --
+        affects 3D Viewport -- chaining.)
+   :VV: Visibility. (Hides the collection from the current view layer -- affects 3D Viewport -- chaining.)
+   :DV: Disable Viewports. (Disables the collection in all view layers -- affects 3D Viewport -- chaining.)
+   :RR: Renderability. (Disables the collection from being rendered in all view layers --
+        affects render -- chaining.)
+   :HH: Holdout. (Masks out the collection from the view layer -- affects render -- non-chaining.)
+   :IO: Indirect Only. (Makes the collection only contribute indirectly (shadows/reflections) to the render
+        for the current view layer -- affects render -- non-chaining -- *Cycles only*.)
 
 .. admonition:: Reference
    :class: refbox

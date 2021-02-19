@@ -324,7 +324,6 @@ Preserve Volume
 
              On.
 
-
 Normalized
    When enabled, the results will depend on face sizes. When disabled, geometry spikes may occur.
 

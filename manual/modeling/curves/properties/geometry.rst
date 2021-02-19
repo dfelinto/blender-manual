@@ -239,7 +239,6 @@ Examples
 .. TODO Add some "simple" extrusion examples.
         Add some "bevel" extrusion with *Radius* examples.
 
-
 Open 2D Curve
 -------------
 

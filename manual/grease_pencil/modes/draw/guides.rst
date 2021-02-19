@@ -75,7 +75,7 @@ Reference Point
       Use an object as a reference point.
 
       Object
-         An :ref:`Data ID menu <ui-data-id>` to select the object (usually an empty),
+         A :ref:`Data ID menu <ui-data-id>` to select the object (usually an empty),
          which location will be used as a reference point.
 
 

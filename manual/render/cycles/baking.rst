@@ -22,14 +22,12 @@ Setup
 
 Baking requires a mesh to have a UV map, and either vertex colors
 or an Image Texture node with an image to be baked to.
-
 The :term:`Active` :doc:`Image Texture </render/shader_nodes/textures/image>`
 node or :doc:`Vertex Color </sculpt_paint/vertex_paint/index>` layer is used as the baking target.
 
 Use Render Bake in intensive light/shadow solutions,
 such as AO or soft shadows from area lights. If you bake AO for the main objects,
 you will not have to enable it for the full render, saving render time.
-
 Cycles uses the render settings (samples, bounces, ...) for baking.
 This way the quality of the baked textures should match the result you get from the rendered scene.
 
@@ -99,9 +97,9 @@ Lighting
    Indirect
       Add indirect lighting contribution.
 
+Contributions
    .. _py.types.BakeSettings.use_pass_diffuse:
 
-Contributions
    Diffuse
       Add diffuse contribution.
 
@@ -142,7 +140,8 @@ Contributions
       - If only *Color* is selected you get the pass color,
         which is a property of the surface and independent of sampling refinement.
       - If *Color* is not selected, you get the direct and/or indirect contributions in gray-scale.
-      - If *Color* and either *Direct* or *Indirect* are selected, you get the direct and/or indirect contributions colored.
+      - If *Color* and either *Direct* or *Indirect* are selected,
+        you get the direct and/or indirect contributions colored.
 
 
 .. rubric:: Normal

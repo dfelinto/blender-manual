@@ -8,7 +8,6 @@ Viewport Display
 
    Viewport Display panel.
 
-
 Display settings for Edit Lines in *Edit Mode* and *Sculpt Mode*.
 
 Edit Line Color

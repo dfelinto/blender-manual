@@ -66,7 +66,7 @@ Actions that can be performed in the Assetbar:
 
 - Drag and dropping an object or material directly into the scene.
 - Click on an item to link/append it to the scene.
-- Open the context menu of a item for further interaction:
+- Open the context menu of an item for further interaction:
 
   Open Authors Website
      Opens the link that the author has specified in a web browser.

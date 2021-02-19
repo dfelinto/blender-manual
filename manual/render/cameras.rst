@@ -404,7 +404,6 @@ Harmony
    Triangle B
       Same as A, but with the opposite corners.
 
-
 .. _bpy.types.Camera.show_passepartout:
 .. _bpy.types.Camera.passepartout_alpha:
 

@@ -83,7 +83,6 @@ with parts of the face pointing in different directions.
 Minimum/Maximum
    Minimum/Maximum distortion to display.
 
-
 .. figure:: /images/modeling_meshes_mesh-analysis_distortion.png
    :width: 300px
    :align: center

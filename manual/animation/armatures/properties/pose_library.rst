@@ -24,7 +24,6 @@ The *Pose Library* panel is used to save, apply, and manage armature poses.
 
    :doc:`Pose Library Editing </animation/armatures/posing/editing/pose_library>`.
 
-
 Action
    A :ref:`ui-data-block` for Actions or pose libraries.
 

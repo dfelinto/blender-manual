@@ -68,7 +68,6 @@ Component
       With Mix node: 0 is full Reflection, 1 is full Transmission.
 
 
-
 Outputs
 =======
 

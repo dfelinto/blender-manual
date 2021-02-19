@@ -1,6 +1,5 @@
 .. _bpy.types.LineStyleGeometryModifier_2DOffset:
 
-
 *********
 2D Offset
 *********

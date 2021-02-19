@@ -74,7 +74,7 @@ Fade In
 
 In the next example, the *Factor* is used to make a "Fade In" effect.
 This effect can be animated by adding a *Time* node to feed the *Factor* socket as shown below.
-Over the course of 30 frames, the *Alpha Over* node outputs a image that
+Over the course of 30 frames, the *Alpha Over* node outputs an image that
 starts with the pure background image, and the title slowly appearing.
 
 .. figure:: /images/compositing_types_color_alpha-over_example.png

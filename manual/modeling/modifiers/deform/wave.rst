@@ -37,7 +37,6 @@ Options
 
    The Wave modifier.
 
-
 Motion
    The wave effect deforms vertices/control points in the Z direction,
    originating from the given starting point and propagating along the object with circular wave fronts
@@ -83,7 +82,6 @@ Vertex Group
       now represents vertices that will not be deformed by the modifier.
 
       The setting reverses the weight values of the group.
-
 
 .. important::
 

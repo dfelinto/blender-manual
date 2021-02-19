@@ -39,7 +39,6 @@ Keep Single
    keep at least one weight, even if it is below the limit value!
 
 
-
 Limit Total Vertex Groups
 =========================
 

@@ -46,7 +46,6 @@ Axis Object
    Object Screw
       Use the distance from the *Axis Object* to define the height of one helix iteration.
 
-
 Steps Viewport
    Number of steps used for a single revolution displayed in the 3D Viewport.
 Render

@@ -78,7 +78,7 @@ Background
 Material Preview
 ================
 
-Render the 3D Viewport with :doc:`Eevee </render/eevee/index>` and a HDRI environment.
+Render the 3D Viewport with :doc:`Eevee </render/eevee/index>` and an HDRI environment.
 This mode is particularly suited for previewing materials and texture painting.
 You can select different lighting conditions to test your materials.
 

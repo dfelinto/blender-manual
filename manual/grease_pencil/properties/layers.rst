@@ -20,7 +20,6 @@ Layers List
 
    Grease Pencil Layers panel.
 
-
 Grease Pencil objects each have a list of 2D layers for grouping and arranging strokes
 in a :ref:`List view <ui-list-view>`. Any stroke can only belong to a single 2D layer.
 There is always only one active layer in the list (the selected one).
@@ -118,6 +117,7 @@ Masks
 
 In a :ref:`List view <ui-list-view>` of layers affected by a layer mask.
 See :doc:`Masks </grease_pencil/properties/masks>` for more information.
+
 
 Adjustments
 ===========

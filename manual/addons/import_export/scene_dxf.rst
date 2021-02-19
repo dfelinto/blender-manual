@@ -152,8 +152,8 @@ Pyproj
    If Pyproj is available the DXF importer shows a selection of national coordinate systems
    but lets the user also to enter a custom EPSG / SRID code.
    It also stores the SRID as a custom property to the Blender scene.
-   If a scene has already such a SRID property the coordinates are being converted from
-   your DXF file to target coordinate system and therefore you **must** specify a SRID for the DXF file.
+   If a scene has already such an SRID property the coordinates are being converted from
+   your DXF file to target coordinate system and therefore you **must** specify an SRID for the DXF file.
    If no SRID custom property is available the scene SRID is by default the same as the DXF SRID.
 No Pyproj
    In case Pyproj is not available the DXF importer will only use its built-in lat/lon to X/Y converter.

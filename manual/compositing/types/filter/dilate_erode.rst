@@ -30,9 +30,11 @@ Distance
    A *negative* value erodes (shrinks) its influence.
 Edge
    Edge to inset.
+
    .. TODO2.8 Explain.
 Falloff
    Falloff type the feather.
+
    .. TODO2.8 Explain.
 
 

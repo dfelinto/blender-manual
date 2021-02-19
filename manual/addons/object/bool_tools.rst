@@ -31,7 +31,7 @@ Auto Boolean
    Union :kbd:`Shift-Ctrl-NumpadPlus`
       Add the selected objects to the active object.
    Intersection :kbd:`Shift-Ctrl-NumpadAsterisk`
-      Apply a intersect operation between the selected objects and the active.
+      Apply an intersect operation between the selected objects and the active.
    Slice :kbd:`Shift-Ctrl-NumpadSlash`
       Todo.
 

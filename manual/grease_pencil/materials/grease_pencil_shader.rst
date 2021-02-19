@@ -218,7 +218,6 @@ Style
 Holdout
    Removes the color from strokes underneath the current by using it as a mask.
 
-
 .. list-table:: Samples of different material fill styles.
 
    * - .. figure:: /images/grease-pencil_materials_grease-pencil-shader_fill-solid.png

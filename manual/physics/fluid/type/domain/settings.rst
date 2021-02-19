@@ -354,7 +354,6 @@ Narrow Band Width
    The narrow band is an implementation of `Narrow Band FLIP for Liquid Simulations
    <https://www.in.tum.de/cg/research/publications/2016/narrow-band-flip-for-liquid-simulations/>`__.
 
-
 .. _bpy.types.FluidDomainSettings.use_fractions:
 
 Fractional Obstacles

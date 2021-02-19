@@ -117,7 +117,7 @@ Variable Type
    The type of variable to use.
 
    Single Property
-      Retrieves the value of a RNA property, specified by a data-block reference and a path string.
+      Retrieves the value of an RNA property, specified by a data-block reference and a path string.
 
       In case of transform properties, this will return the exact value of the UI property,
       while Transform Channel will take parenting and/or constraints into account as needed.

@@ -76,6 +76,7 @@ Smooth Shading
    Toggles whether mesh faces are smooth or flat-shaded.
    In dynamic-topology mode all faces have the same type of shading.
 
+
 .. _bpy.types.Brush.topology_rake_factor:
 
 .. rubric:: Topology Rake

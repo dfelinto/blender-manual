@@ -165,6 +165,7 @@ Version/Revision Milestones
    redesign of the internal window manager and event/tool/data handling system, and new Python API.
    The final version of this project was Blender 2.59 in August 2011.
 
+
 .. rubric:: Blender 2.6x to 2.7x -- Improvements & Stabilizing
 
 `2.60 <https://archive.blender.org/wiki/index.php/Dev:Ref/Release_Notes/2.60>`__ -- October 2011:

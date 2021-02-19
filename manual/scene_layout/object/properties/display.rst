@@ -44,7 +44,6 @@ Display As
 Color
    Allows to specify the object's color when using the Workbench renderer.
 
-
 .. _bpy.types.Object.show_bounds:
 .. _bpy.types.Object.display_bounds_type:
 

@@ -79,7 +79,6 @@ Curve Preset
       (From Left to Right) Smooth, Smoother, Sphere, Root,
       Sharp, Linear, Sharper, Inverse square, Constant.
 
-
 Falloff Shape
    Sphere
       Applies brushes influence in a sphere, outwards from the center.

@@ -147,6 +147,7 @@ To bind the geometry to the rig you can use your preferred tools. Just few thing
 
 For more detailed information on armature layers, Armature modifier and weight painting refer to the Blender manual.
 
+
 .. _bpy.types.Armature.rigify:
 
 Advanced Rig Generation

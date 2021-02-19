@@ -26,7 +26,7 @@ Mouse
 =====
 
 Emulate 3 Button Mouse
-   Blender can be configured to work with pointing devices which do not have a :kbd:`MMB`.
+   Blender can be configured to work with pointing devices which do not have an :kbd:`MMB`.
    The functionality of the three mouse buttons by holding :kbd:`Alt-LMB`.
 
    Mouse/Keyboard combinations referenced in this manual
@@ -115,7 +115,7 @@ Softness
 NDOF
 ====
 
-These preferences control how a :ref:`NDOF device <hardware-ndof>` interacts with the 3D Viewport.
+These preferences control how an :ref:`NDOF device <hardware-ndof>` interacts with the 3D Viewport.
 These preferences can also be accessed using the :kbd:`NDOFMenu` button on the NDOF device
 to open a pop-up menu to adjust the settings directly from the 3D Viewport.
 

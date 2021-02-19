@@ -67,7 +67,6 @@ Global Undo
 
    :doc:`Read more about Undo and Redo options </interface/undo_redo>`.
 
-
 Console Scroll-back Lines
    The number of lines, buffered in memory of the console window.
    Useful for debugging purposes and command-line rendering.

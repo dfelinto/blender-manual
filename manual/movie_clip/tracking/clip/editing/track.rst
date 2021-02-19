@@ -45,7 +45,7 @@ Frame Backwards
 
    :Mode:      Tracking
    :Menu:      :menuselection:`Track --> Track Motion --> Frame Backwards`
-   :Hotkey:    kbd:`Alt-Left`
+   :Hotkey:    :kbd:`Alt-Left`
 
 Tracks the motion backward by one frame.
 
@@ -149,8 +149,8 @@ Useful in cases when feature disappears from the frame and then appears again. U
 - When feature point re-appeared on frame, manually place marker on it.
 - Use Refine Markers operation to allow tracker to find a better match.
 
-Depending on direction of tracking use either Forwards or Backwards refining.
-It's easy: if tracking happens forwards, use Refine Forwards, otherwise use Refine Backwards.
+Depending on direction of tracking use either *Forwards* or *Backwards* refining.
+Accordingly if tracking happens forwards, use *Refine Forwards*, otherwise use *Refine Backwards*.
 
 
 Backwards
@@ -195,7 +195,8 @@ and then it can be moved to the needed location. When it is moved to the desired
 Also, :kbd:`Return` and :kbd:`Spacebar` can be used to finish placing the marker.
 But it is faster to use :kbd:`Ctrl-LMB` to place markers directly on the footage.
 This shortcut will place the marker in the place you have clicked.
-One more feature here: until you have released the mouse button,
+
+In addition to this until you have released the mouse button,
 you can adjust the marker position by moving the mouse and
 using the track preview widget to control how accurately the marker is placed.
 

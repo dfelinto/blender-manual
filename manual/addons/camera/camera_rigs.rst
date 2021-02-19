@@ -66,7 +66,6 @@ As you can see in the lower left corner, you can achieve a smoother camera movem
 .. vimeo:: 280727941
    :width: 800px
 
-
 Root Bone
    This is the parent of the entire rig.
    It is the only bone that you should rotate to aim approximately at the action.

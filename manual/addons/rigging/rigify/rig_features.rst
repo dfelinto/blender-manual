@@ -30,7 +30,7 @@ IK Following
 
    When the IK follow is set to 1 the IK limb will follow its parent depending on the Root/Parent slider.
    When set to 0 the IK limb will stay fixed in space whatever the rest of the rig will do.
-   This is an useful option if you want to create your own Child Of constraint on the IK limb toward
+   This is a useful option if you want to create your own Child Of constraint on the IK limb toward
    another part of the rig itself (like parenting the hand to the head).
 
    IK Limb Domain Space Select

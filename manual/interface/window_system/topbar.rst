@@ -9,6 +9,7 @@ Menus
 .. figure:: /images/interface_window-system_topbar_menus.png
    :align: center
 
+
 .. _topbar-app_menu:
 
 App Menu
