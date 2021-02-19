@@ -31,16 +31,6 @@ Zoom :kbd:`Shift-B`
 Fractional Zoom
    Resize the preview in steps from 1:8 to 8:1.
 
-Show Frame Overlay
-   Displays the :ref:`Frame Overlay <bpy.types.SequenceEditor.show_overlay>`,
-   to compare the current frame to a reference frame.
-Show Safe Areas
-   Display an overlay on the preview, marking where title safe region is.
-Show Metadata
-   Display Image metadata in the preview area.
-Show Annotations
-   Displays :doc:`Annotations </interface/annotate_tool>` in the preview region.
-
 Sequence Render Image
    Render the an image at the current frame.
 Sequence Render Animation
@@ -80,6 +70,34 @@ Color and Alpha
    Display preview image with transparency over checkerboard pattern.
 Color
    Ignore transparency of preview image (fully transparent areas will be black).
+
+
+Overlays
+--------
+
+Overlays are information that is displayed on top of the preview region.
+There is a switch to turn off/on all overlays for the preview region.
+
+.. rubric:: Preview Overlays
+
+Frame Overlay
+   Displays the :ref:`Frame Overlay <bpy.types.SequenceEditor.show_overlay>`,
+   to compare the current frame to a reference frame.
+
+.. _bpy.types.SpaceSequenceEditor.show_safe_areas:
+
+Safe Areas
+   Display an overlay on the preview, marking where the title safe regions are.
+
+.. _bpy.types.SpaceSequenceEditor.show_metadata:
+
+Metadata
+   Display Image metadata in the preview area.
+
+.. _bpy.types.SpaceSequenceEditor.show_annotation:
+
+Annotations
+   Displays :doc:`Annotations </interface/annotate_tool>` in the preview region.
 
 
 Gizmos

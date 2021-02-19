@@ -83,10 +83,6 @@ Sync Visible Range
 
 Show Seconds :kbd:`Ctrl-T`
    Shows seconds instead of frames on the time axis.
-Show Offsets
-   Shows overflow bars of "extra" content from either cutting or sliding strips.
-Show F-Curves
-   Show animation curves for opacity and volume values as darkened sections of the strip.
 Show Markers
    Shows the markers region. When disabled, the `Markers Menu`_ is also hidden
    and markers operators are not available in this editor.
@@ -99,10 +95,6 @@ Show Cache
    Final Images, Raw Images, Preprocessed Images, Composite Images
 
    In order for this property to be visible, enable :ref:`Developer Extras <prefs-interface-dev-extras>`.
-
-Show Waveforms
-   Global option to either display the waveform, or the strip info,
-   or use the individual :ref:`strip option <sequencer-sound-waveform>`.
 
 Sequence Render Image
    Render an image of the current frame.
@@ -129,6 +121,50 @@ within an animation. Like with most animation editors, markers are shown at the 
    Markers in animation editor.
 
 For descriptions of the different marker tools see :ref:`Editing Markers <animation-markers-editing>`.
+
+
+Overlays
+--------
+
+Overlays are information that is displayed on top of the strip region.
+There is a switch to turn off/on all overlays for the strip region.
+
+.. rubric:: Sequencer Overlays
+
+.. _bpy.types.SpaceSequenceEditor.show_strip_name:
+
+Name
+   Shows the :ref:`Name <bpy.types.Sequence.name>` on the strip.
+
+.. _bpy.types.SpaceSequenceEditor.show_strip_source:
+
+Source
+   Shows the path to the strip file on the strip.
+
+.. _bpy.types.SpaceSequenceEditor.show_strip_duration:
+
+Duration
+   Shows the length of the strip in frames on the strip.
+
+.. _bpy.types.SpaceSequenceEditor.show_strip_offset:
+
+Offsets
+   Shows overflow bars of "extra" content from either cutting or sliding strips.
+
+.. _bpy.types.SpaceSequenceEditor.show_fcurves:
+
+F-Curves
+   Show animation curves for opacity and volume values as darkened sections of the strip.
+
+.. _bpy.types.SpaceSequenceEditor.waveform_display_type:
+
+Waveform Display
+   Global options for waveform display on sound strips.
+
+   :Waveform Off: Disable waveforms for all strips.
+   :Waveform On: Enable waveforms for all strips.
+   :Use Strip Option: Set waveform per strip configured with
+      :ref:`Display Waveform <bpy.types.SoundSequence.show_waveform>`.
 
 
 Main View

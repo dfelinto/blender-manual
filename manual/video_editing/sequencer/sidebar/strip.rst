@@ -8,6 +8,9 @@ Header
 
 Type
    Strip type represented by an icon.
+
+.. _bpy.types.Sequence.name:
+
 Name
    You can name or rename your strips here.
 Mute
@@ -130,7 +133,7 @@ Pan
    In case of multichannel audio (rear speakers) you can pan to those with the higher values: -2, 2 is back.
    So this value basically represents the angle at which it's played.
 
-.. _sequencer-sound-waveform:
+.. _bpy.types.SoundSequence.show_waveform:
 
 Display Waveform
    Display an approximate waveform of the sound file inside of the sound strip.

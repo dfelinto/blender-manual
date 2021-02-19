@@ -141,6 +141,6 @@ Sync with Outliner
    Sync tabs with the Outliner data-block selection.
    See :ref:`editors-outliner-properties-sync` for more information.
 
-   :On: Always sync from Outliner editors to this editor.
-   :Off: Never sync from Outliner editors to this editor.
-   :Auto: Sync when this editor shares an area edge with an Outliner editor.
+   :Always: Always, when possible, change Property editor tabs when clicking an icon in an outliner.
+   :Never: Never change Property editor tabs when clicking an icon in an outliner.
+   :Auto: Change tabs only when the Property editor editor shares a border with a outliner.
