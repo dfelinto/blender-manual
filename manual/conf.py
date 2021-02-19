@@ -198,7 +198,6 @@ if html_theme == "sphinx_rtd_theme":
         "display_version": False,
         "collapse_navigation": True,
         "navigation_depth": -1,
-        "canonical_url": "https://docs.blender.org/manual/en/latest/",
     }
 
     extensions.append('sphinx_rtd_theme')
@@ -210,6 +209,10 @@ html_title = "Blender Manual"
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
+
+# The base URL which points to the root of the HTML documentation.
+# It is used to indicate the location of document using The Canonical Link Relation.
+html_baseurl = "https://docs.blender.org/manual/en/latest/"
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
