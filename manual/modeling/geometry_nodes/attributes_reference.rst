@@ -42,6 +42,10 @@ Built-In Attributes
        :doc:`Point Distribute Node </modeling/geometry_nodes/point/point_distribute>`
        in the viewport.
 
+   * - **material_index**
+     - *Integer*
+     - Used to specify the material slot for every polygon in a mesh.
+
 
 Naming Conventions
 ==================
@@ -75,10 +79,14 @@ Naming Conventions
        the :doc:`Attribute Randomize Node </modeling/geometry_nodes/attribute/attribute_randomize>`.
 
 
-Vertex Groups
-=============
+Custom Attributes
+=================
 
-All vertex groups can be used as attributes in the node tree when referred to by name.
-However, the result of the node tree does not always produce vertex groups, if a node like
+Vertex groups, uv maps and vertex colors are available as attributes in geometry nodes.
+They are referred to by their name.
+Naming collisions (e.g. a vertex group and a uv map with the same name) should be avoided.
+If there is a naming collision, only one of the attributes is accessible in geometry nodes.
+
+Note, that geometry nodes does not always produce e.g. vertex groups if a node like
 :doc:`Join Geometry </modeling/geometry_nodes/geometry/join_geometry>` is used.
-
+That implies that other functionality in Blender that expects vertex groups, cannot access the attribute anymore.
