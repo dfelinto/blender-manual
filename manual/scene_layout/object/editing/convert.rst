@@ -1,9 +1,9 @@
 .. _object-convert-to:
 .. _bpy.ops.object.convert:
 
-**********
-Convert To
-**********
+*******
+Convert
+*******
 
 Curve
 =====
@@ -12,7 +12,7 @@ Curve
    :class: refbox
 
    :Mode:      Object Mode
-   :Menu:      :menuselection:`Object --> Convert To --> Curve`
+   :Menu:      :menuselection:`Object --> Convert --> Curve`
 
 Converts the selected mesh, or text object to a curve object.
 For mesh objects, only edges belonging to no faces will be taken into account.
@@ -27,7 +27,7 @@ Mesh
    :class: refbox
 
    :Mode:      Object Mode
-   :Menu:      :menuselection:`Object --> Convert To --> Mesh`
+   :Menu:      :menuselection:`Object --> Convert --> Mesh`
 
 Converts the selected curve, metaball, surface, or text object to a mesh object.
 The actual defined resolution of these objects will be taken into account for the conversion.
@@ -41,7 +41,7 @@ Grease Pencil
    :class: refbox
 
    :Mode:      Object Mode
-   :Menu:      :menuselection:`Object --> Convert to --> Grease Pencil from Curve/Mesh`
+   :Menu:      :menuselection:`Object --> Convert --> Grease Pencil`
 
 Converts the selected curve or mesh object to a Grease Pencil object
 with strokes matching the curve/mesh; basic materials are also add.
@@ -64,3 +64,15 @@ Only Seam Edges
    Convert only edges marked as seam.
 Export Faces
    Convert faces as filled strokes.
+
+
+Trace Image to Grease Pencil
+============================
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Object Mode
+   :Menu:      :menuselection:`Object --> Convert --> Trace Image to Grease Pencil`
+
+See :ref:`/grease_pencil/modes/object/trace_image`.

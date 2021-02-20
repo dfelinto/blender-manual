@@ -8,7 +8,7 @@ Convert to Geometry
    :class: refbox
 
    :Mode:      Object Mode
-   :Menu:      :menuselection:`Object --> Convert To --> Path, Bézier Curve, Polygon Curve`
+   :Menu:      :menuselection:`Object --> Convert --> Path, Bézier Curve, Polygon Curve`
 
 In the 3D Viewport, sketches on the active layer can be converted to geometry,
 based on the current view settings, by transforming the points recorded when drawing

@@ -8,7 +8,7 @@ Trace Images to Grease Pencil
    :class: refbox
 
    :Mode:      Object Mode
-   :Menu:      :menuselection:`Object --> Trace Images to Grease Pencil`
+   :Menu:      :menuselection:`Object --> Convert --> Trace Images to Grease Pencil`
 
 The *Trace Images to Grease Pencil* tool traces a black and white image and generates Grease Pencil strokes.
 If the image is not black and white, it will be internally converted.
