@@ -8,4 +8,4 @@
    :maxdepth: 2
 
    introduction.rst
-   grease_pencil_shader.rst
+   properties.rst
