@@ -1,8 +1,8 @@
 .. _bpy.types.GPencilLayer:
 
-*********
-2D Layers
-*********
+******
+Layers
+******
 
 .. admonition:: Reference
    :class: refbox
@@ -37,79 +37,90 @@ See :doc:`Modifiers </grease_pencil/modifiers/introduction>` for more informatio
    Activate *Fade Layers* in overlays to control the opacity of the non-active layers.
    See :doc:`Overlays </editors/3dview/display/overlays>` for more information.
 
-.. _bpy.types.GPencilLayer.mask_layer:
-.. _bpy.types.GPencilLayer.lock:
-.. _bpy.types.GPencilLayer.hide:
-.. _bpy.types.GPencilLayer.use_onion_skinning:
-
 Next to the layer name there are four icons buttons that control common properties of the layer:
 
-.. _bpy.types.GPencilLayer.use_solo_mode:
+.. _bpy.types.GPencilLayer.use_mask_layer:
 
 Mask (mask icon)
    Toggle the :doc:`Masks </grease_pencil/properties/masks>` visibility in the layer.
 
+.. _bpy.types.GPencilLayer.use_onion_skinning:
+
 Onion Skinning (onion skin icon)
    Toggle the use the layer for :doc:`Onion Skinning </grease_pencil/properties/onion_skinning>`.
 
-Viewport/Render Visibility (eye icon)
+.. _bpy.types.GPencilLayer.hide:
+
+Hide (eye icon)
    Toggle layer visibility in the viewport and in render.
+
+.. _bpy.types.GPencilLayer.lock:
 
 Lock (padlock icon)
    Toggle layer from being editable.
 
-.. _bpy.types.GPencilLayer.blend_mode:
-.. _bpy.types.GPencilLayer.opacity:
+--------------
 
-Below the layers list there are additional common settings:
+Layer Specials
+   Operators for working with layers.
 
-Blend
-   The layer blending operation to perform. See :term:`Color Blend Modes`.
+   .. _bpy.ops.gpencil.layer_duplicate:
 
-Opacity
-   Used to set the opacity of the layer.
+   Duplicate Layer
+      Makes an exact copy of the selected layer appending a number to differentiate its name.
 
-Use Lights
-   When enabled, the layer is affected by lights.
+   .. _bpy.ops.gpencil.reveal:
 
+   Show All
+      Turns on the visibility of every layer in the list.
 
-Specials
---------
+   Hide Others
+      Turns off the visibility of every layer in the list except the active one.
 
-Duplicate Layer
-   Makes an exact copy of the selected layer appending a number to differentiate its name.
+   Lock All
+      Locks edition of all the layers in the list.
 
-Show All
-   Turns on the visibility of every layer in the list.
+   Unlock All
+      Unlocks edition of all the layers in the list.
 
-Hide Others
-   Turns off the visibility of every layer in the list except the active one.
+   Autolock Inactive Layer
+      Locks automatically the edition of every layer in the list except the active one.
+      This way you avoid to make unwanted changes in other layers without the need to lock them every time.
 
-Lock All
-   Locks edition of all the layers in the list.
+   Disallow Locked Materials Editing
+      Avoids editing locked materials in the layer. When disabled,
+      any material can be edited even if they are locked in the material list.
 
-Unlock All
-   Unlocks edition of all the layers in the list.
+   Merge Down
+      Merge the selected layer with the layer below, the new layer keeps the name of the lower layer.
 
-Autolock Inactive Layer
-   Locks automatically the edition of every layer in the list except the active one.
-   This way you avoid to make unwanted changes in other layers without the need to lock them every time.
+   Copy Layer to Object
+      Makes a copy of the layer and move it to the selected Grease Pencil object.
 
-Merge Down
-   Merge the selected layer with the layer below, the new layer keeps the name of the lower layer.
-
-Copy Layer to Object
-   Makes a copy of the layer and move it to the selected Grease Pencil object.
-
-
-Lock & Visibility General Controls
-----------------------------------
+Visibility (screen icon)
+   Toggle whether the active layer is the only one that can be edited and is visible.
 
 Lock (padlock icon)
    Toggle whether the active layer is the only one that can be edited.
 
-Visibility (screen icon)
-   Toggle whether the active layer is the only one that can be edited and is visible.
+--------------
+
+Below the layers list there are additional common settings:
+
+.. _bpy.types.GPencilLayer.blend_mode:
+
+Blend
+   The layer blending operation to perform. See :term:`Color Blend Modes`.
+
+.. _bpy.types.GPencilLayer.opacity:
+
+Opacity
+   Used to set the opacity of the layer.
+
+.. _bpy.types.GPencilLayer.use_lights:
+
+Use Lights
+   When enabled, the layer is affected by lights.
 
 
 Masks
@@ -117,6 +128,12 @@ Masks
 
 In a :ref:`List view <ui-list-view>` of layers affected by a layer mask.
 See :doc:`Masks </grease_pencil/properties/masks>` for more information.
+
+
+Transform
+=========
+
+Todo.
 
 
 Adjustments
@@ -127,12 +144,23 @@ Adjustments
 
    Layers adjustment panel.
 
-Tint Color/Factor
+Tint Color
    Color that tint any material colors used in the layer.
-   The *Factor* controls the amount of tint color to apply.
+
+Factor
+   Controls the amount of tint color to apply.
 
 Stroke Thickness
    Thickness value that override the strokes thickness in the layer.
+
+
+Relations
+=========
+
+Parent/Type
+   Select a Parent object and Type to manipulate the layer.
+   The layer will inherit the transformations of the parent,
+   this is especially useful when rigging for cut-out animation.
 
 Pass Index
    The layer index number can be used with some modifiers to restrict changes to only certain areas.
@@ -143,19 +171,6 @@ View Layer
    Defines the View Layer to use for the Grease Pencil layer.
    If empty, the layer will be included in all View Layers.
    This is useful to separate drawings parts for :doc:`compositing </compositing/introduction>`.
-
-Disallow Locked Materials Editing
-   Avoids editing locked materials in the layer. When disabled,
-   any material can be edited even if they are locked in the material list.
-
-
-Relations
-=========
-
-Parent/Type
-   Select a Parent object and Type to manipulate the layer.
-   The layer will inherit the transformations of the parent,
-   this is especially useful when rigging for cut-out animation.
 
 
 Display
