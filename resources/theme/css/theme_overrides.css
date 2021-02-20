@@ -79,6 +79,11 @@ input[type="number"], input[type="tel"], input[type="color"] {
 	display: inline;
 }
 
+/* Fix definisions with different ids. */
+.rst-content dl.simple {
+	margin-bottom: 0px;
+}
+
 /* Fix nested block spacing. */
 .rst-content .document dl dt,
 .rst-content dd dl,
