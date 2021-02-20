@@ -21,6 +21,24 @@ the look of already drawn strokes.
    Same stroke linked to different materials.
 
 
+Grease Pencil Shader
+====================
+
+The Grease Pencil shader creates a material that can work
+with strokes and/or filled areas of a Grease Pencil object.
+
+Stroke and fill components has it own section panel and
+they can be enabled with a checkbox on the panel header.
+
+*Stroke* only has effect on the lines and *Fill* only on the areas
+determined by closed lines (by connecting the lines start and end points).
+
+.. note::
+
+   The shader is not yet a BSDF capable shader and can only be setting up
+   on the Material Properties panel (it is not a shader node).
+
+
 Setting Up Materials
 ====================
 

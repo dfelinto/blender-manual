@@ -1,30 +1,16 @@
 
-********************
-Grease Pencil Shader
-********************
+**********
+Properties
+**********
+
+Surface
+=======
 
 .. figure:: /images/grease-pencil_materials_grease-pencil-shader_panel.png
    :align: right
 
    Shader panel with only Stroke component activated.
 
-The Grease Pencil shader creates a material that can work
-with strokes and/or filled areas of a Grease Pencil object.
-
-Stroke and fill components has it own section panel and
-they can be enabled with a checkbox on the panel header.
-
-*Stroke* only has effect on the lines and *Fill* only on the areas
-determined by closed lines (by connecting the lines start and end points).
-
-.. note::
-
-   The shader is not yet a BSDF capable shader and can only be setting up
-   on the Material Properties panel (it is not a shader node).
-
-
-Properties
-==========
 
 .. _bpy.types.MaterialGPencilStyle.show_stroke:
 .. _bpy.types.MaterialGPencilStyle.mode:
