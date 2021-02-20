@@ -24,7 +24,8 @@ var all_langs = {
 	"uk": "Ukra&#1111;na",
 	"vi": "Ti&#x1EBF;ng Vi&#x1EC7;t",
 	"zh-hans": "&#x4E2D;&#x6587;(&#x7B80;&#x4F53;)",
-	"zh-hant": "&#x4E2D;&#x6587;(&#x7E41;&#x9AD4;)"
+	"zh-hant": "&#x4E2D;&#x6587;(&#x7E41;&#x9AD4;)",
+	"sk": "Sloven&#269;ina"
 };
 
 var Drop=function(){
