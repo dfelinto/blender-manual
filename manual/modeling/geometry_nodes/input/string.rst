@@ -1,0 +1,27 @@
+.. index:: Geometry Nodes; String
+.. _bpy.types.FunctionNodeInputString:
+
+******
+String
+******
+
+.. figure:: /images/modeling_modifiers_nodes_input-string.png
+   :align: right
+
+   String Input Node.
+
+The *String* input node creates a single string. It can be connected to attribute name
+sockets to simplify using the same attribute name in multiple places.
+
+
+Properties
+==========
+
+- String
+
+
+Output
+======
+
+String
+   Standard string output.

@@ -10,7 +10,7 @@ Vector
 
    Vector Node.
 
-The *Vector* node input creates a single vector.
+The *Vector* input node creates a single vector.
 
 
 Inputs

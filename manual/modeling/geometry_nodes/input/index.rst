@@ -10,5 +10,6 @@
    is_viewport.rst
    object_info.rst
    random_float.rst
+   string.rst
    value.rst
    vector.rst
