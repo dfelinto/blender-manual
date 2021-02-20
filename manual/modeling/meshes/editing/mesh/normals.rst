@@ -15,7 +15,7 @@ Normals
    including *Face Strength* (see below).
 
    You can also copy normals from another mesh using Mesh Data Transfer
-   (:doc:`operator </scene_layout/object/editing/relations/transfer_mesh_data>`
+   (:doc:`operator </scene_layout/object/editing/link_transfer/transfer_mesh_data>`
    or :doc:`modifier </modeling/modifiers/modify/data_transfer>`).
 
 

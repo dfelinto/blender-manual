@@ -20,7 +20,7 @@ to a single destination one, using interpolation.
 
 .. seealso::
 
-   :doc:`Transfer Mesh Data Operator </scene_layout/object/editing/relations/transfer_mesh_data>`
+   :doc:`Transfer Mesh Data Operator </scene_layout/object/editing/link_transfer/transfer_mesh_data>`
 
 
 Options

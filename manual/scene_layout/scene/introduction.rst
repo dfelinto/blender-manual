@@ -62,4 +62,4 @@ Delete ``X``
 
 .. seealso:: Linking to a Scene
 
-   You can :ref:`link <data-system-linked-libraries-make-link>` any object from one scene to another.
+   You can :ref:`link <bpy.ops.object.make_links_scene>` any object from one scene to another.

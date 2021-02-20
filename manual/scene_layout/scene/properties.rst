@@ -37,7 +37,7 @@ Background Scene
 
    .. tip::
 
-      This can also be used in combination with :ref:`Linking to a Scene <data-system-linked-libraries-make-link>`,
+      This can also be used in combination with :ref:`Linking to a Scene <bpy.ops.object.make_links_scene>`,
       where one blend-file contains the environment, which can be reused in many places.
 
 .. _scene-active-clip:

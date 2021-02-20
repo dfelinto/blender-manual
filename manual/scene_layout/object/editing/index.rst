@@ -17,7 +17,7 @@
    join.rst
    parent.rst
    relations/index.rst
-   make_links.rst
+   link_transfer/index.rst
    shading.rst
    convert.rst
    show_hide.rst
