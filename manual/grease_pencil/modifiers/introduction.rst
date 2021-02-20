@@ -60,10 +60,12 @@ Influence Filters
 Most of the modifiers share some special properties that restrict the effect only to certain items.
 
 Layer
-   Restricts the effect only to one layer or to any layers that share the same pass index.
+   Restricts the effect only to one layer or to any layers that share the same
+   material :ref:`Pass Index <bpy.types.MaterialGPencilStyle.pass_index>`.
 
 Material
-   Restricts the effect only to material that share the same material or pass index.
+   Restricts the effect only to material that share the same material or
+   material :ref:`Pass Index <bpy.types.MaterialGPencilStyle.pass_index>`.
 
 Vertex Group
    Restricts the effect only to a vertex group.

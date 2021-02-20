@@ -225,3 +225,13 @@ Holdout
           :width: 130px
 
           Style: Texture.
+
+
+Options
+=======
+
+.. _bpy.types.MaterialGPencilStyle.pass_index:
+
+Pass Index
+   This index can be used with some modifiers to restrict changes to only a certain material.
+   See :doc:`Modifiers </grease_pencil/modifiers/introduction>` for more information.
