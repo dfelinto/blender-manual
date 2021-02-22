@@ -49,7 +49,8 @@ If you paint on the mesh, a vertex group is created for the bone.
 If you paint on vertices outside the group, the painted vertices are
 automatically added to the vertex group.
 
-If you have a symmetrical mesh and a symmetrical armature you can use the option *X Mirror*.
+If you have a symmetrical mesh and a symmetrical armature you can use
+:ref:`Vertex Group X <bpy.types.Mesh.use_mirror_vertex_group_x>`.
 Then the mirrored groups with the mirrored weights are automatically created.
 
 .. tip:: Selecting Deform Groups
