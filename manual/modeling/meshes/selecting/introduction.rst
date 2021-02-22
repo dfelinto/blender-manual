@@ -22,24 +22,23 @@ Selection Modes
                (:kbd:`Shift` `Multiple Selection Modes`_,
                :kbd:`Ctrl` `Expand/Contract Selection`_).
 
-.. figure:: /images/modeling_meshes_selecting_mode-buttons.png
-   :align: right
-   :width: 200px
-
-   Edit Mode selection buttons.
-
 In *Edit Mode* there are three different selection modes.
 You can enter the different modes by selecting one of the three buttons in the header.
 
-Vertices
+.. figure:: /images/modeling_meshes_selecting_mode-buttons.png
+   :align: center
+
+   Edit Mode selection buttons from right to left: Vertex, Edge, Face.
+
+Vertex
    In this mode vertices are shown as points.
    Selected vertices are displayed in orange, unselected vertices in black,
    and the active or last selected vertex in white.
-Edges
+Edge
    In this mode the vertices are not shown.
    Instead the selected edges are displayed in orange,
    unselected edges black, and the active or last selected edge in white.
-Faces
+Face
    In this mode the faces are displayed with a selection point in the middle which is used for selecting a face.
    Selected faces and their selection point are displayed in orange,
    unselected faces are displayed in black, and the active or last selected face is highlighted in white.
