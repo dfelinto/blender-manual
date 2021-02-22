@@ -114,7 +114,7 @@ Operation
 
       Attributes are converted implicitly to the input data type.
 
-Type A, B, C
+A, B, C
    Attribute
       The input is a text field that expects an attribute name.
 

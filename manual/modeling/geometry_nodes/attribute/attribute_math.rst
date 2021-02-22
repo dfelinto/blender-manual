@@ -19,7 +19,7 @@ Inputs
 Geometry
    Standard geometry input.
 
-A, B
+A, B, C
    The first and second input to the math operation.
    This is either an attribute name or numeric value.
 
@@ -39,7 +39,7 @@ Operation
 
       Attributes are converted implicitly to the float data type.
 
-Type A, B
+A, B, C
    Attribute
       The input is a text field that expects an attribute name.
 
