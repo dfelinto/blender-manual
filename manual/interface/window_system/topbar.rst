@@ -162,6 +162,9 @@ Rename Active Item
 Batch Rename
    Renames multiple data types at once;
    see :ref:`Batch Rename tool <bpy.ops.wm.batch_rename>` for more information.
+
+.. _bpy.types.ToolSettings.lock_object_mode:
+
 Lock Object Modes
    Restrict select to the current mode.
 Preferences

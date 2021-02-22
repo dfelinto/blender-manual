@@ -35,15 +35,17 @@ Pick up here for modifying automatically assigned weights.
    be red (generally) and fade out through the rainbow to blue for vertices
    farther away from the bone.
 
-When you select a bone of the armature (which remains in *Pose Mode*),
-it will activate the corresponding vertex group and display related weights.
-You can only select one bone at a time in this mode (so :kbd:`Shift-LMB` clicking does not work).
+To select a different bone of the armature use :kbd:`Ctrl-LMB`,
+this action will activate the corresponding vertex group and display related weights.
+
+.. note::
+
+   You can only select one bone at a time in this mode (so :kbd:`Shift-LMB` clicking does not work).
 
 .. tip::
 
    If the mesh skins the bones, you will not be able to see the bones because
-   the mesh is painted. If so, turn on *X-Ray* view
-   (:menuselection:`Properties --> Armature tab`).
+   the mesh is painted. If so, enable :ref:`In Front <bpy.types.Object.show>`.
 
 If you paint on the mesh, a vertex group is created for the bone.
 If you paint on vertices outside the group, the painted vertices are
