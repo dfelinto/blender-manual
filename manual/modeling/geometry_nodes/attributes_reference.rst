@@ -71,7 +71,7 @@ in the "Attribute" nodes is zero.
    * - **rotation**
      - *Vector*
      - Used in the :doc:`Point Instance Node </modeling/geometry_nodes/point/point_instance>` to
-       control the rotation of instances. Adjusted by
+       control the rotation of instanced objects or collections. Adjusted by
        the :doc:`Point Rotate Node </modeling/geometry_nodes/point/point_rotate>` and the
        :doc:`Align Rotation to Vector Node </modeling/geometry_nodes/point/align_rotation_to_vector>`.
 
@@ -101,4 +101,5 @@ Attributes with any other name can also be created by nodes, when the name is us
 
 Note that geometry nodes does not always produce e.g. vertex groups if a node like
 :doc:`Join Geometry </modeling/geometry_nodes/geometry/join_geometry>` is used.
-That implies that other functionality in Blender that expects vertex groups, cannot access the attribute anymore.
+Similarly, if the data type of a vertex group attribute is changed from the initial "Float" type,
+the attribute will no longer be a vertex group.
