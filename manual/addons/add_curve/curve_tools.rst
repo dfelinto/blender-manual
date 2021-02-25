@@ -55,7 +55,7 @@ Outline
 Recursive Offset
    Create an offsetted array.
 Separate Offset/Selected
-   Separate the Outline mesh from the original.
+   Separate the outline mesh from the original.
 
 Subdivide
    Subdivide selection or filleted corners.
@@ -95,7 +95,7 @@ Surfaces
 
 Birail
    It creates a surface from a profile and two paths.
-   The order in which you select the curves and its direction is important to make this work right.
+   The order in which you select the curves and its direction is important to make this function properly.
 Convert Bézier to Surface
    Convert the selected curve to a NURBS surface.
 Convert Faces to Bézier
@@ -133,12 +133,14 @@ Set Origin to Spline Start
 Reset Scale
    Reset the objects scale to (1, 1, 1).
 
+
 .. rubric:: Cleanup:
 
 Remove Doubles
    Remove doubled points.
 Short Splines
    Remove selected splines based on a threshold.
+
 
 .. rubric:: Join Splines:
 
@@ -155,10 +157,12 @@ Utilities
    :Mode:      All Modes
    :Tool:      :menuselection:`Sidebar --> Edit --> Utilities`
 
+
 .. rubric:: Curve Resolution:
 
 Show [ESC]
    Display the resolution in the interface with a colored overlay.
+
 
 .. rubric:: Spline Order:
 

@@ -75,4 +75,4 @@ Trace Image to Grease Pencil
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Convert --> Trace Image to Grease Pencil`
 
-See :ref:`/grease_pencil/modes/object/trace_image`.
+See :doc:`/grease_pencil/modes/object/trace_image`.

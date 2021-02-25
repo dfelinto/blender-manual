@@ -47,7 +47,7 @@ Mask (mask icon)
 .. _bpy.types.GPencilLayer.use_onion_skinning:
 
 Onion Skinning (onion skin icon)
-   Toggle the use the layer for :doc:`Onion Skinning </grease_pencil/properties/onion_skinning>`.
+   Toggle using the layer for :doc:`Onion Skinning </grease_pencil/properties/onion_skinning>`.
 
 .. _bpy.types.GPencilLayer.hide:
 

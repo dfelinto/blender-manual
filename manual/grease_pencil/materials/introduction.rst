@@ -134,5 +134,5 @@ Visibility (screen icon)
 Grease Pencil Shader
 ====================
 
-Grease Pencil materials use a special :doc:`shader </grease_pencil/materials/grease_pencil_shader>`
+Grease Pencil materials use a special :doc:`shader </grease_pencil/materials/properties>`
 that define the appearance of the surface of the stroke and fill.

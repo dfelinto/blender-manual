@@ -1,4 +1,4 @@
-.. index:: Geometry Nodes; Subdivision Surface Simple 
+.. index:: Geometry Nodes; Subdivision Surface Simple
 .. _bpy.types.GeometryNodeSubdivisionSurfaceSimple:
 
 **************************
@@ -10,7 +10,7 @@ Simple Subdivision Surface
 
    Simple Subdivision Surface Node.
 
-The *Simple Subdivision Surface* node deform the geometry using Simple deformation.
+The *Simple Subdivision Surface* node deform the geometry using a simple interpolation for deformation.
 
 
 Inputs

@@ -13,6 +13,19 @@ Is Viewport
 The *Is Viewport* node outputs true when geometry nodes is evaluated for the viewport.
 For the final render the node outputs false.
 
+
+Inputs
+======
+
+This node has no Inputs.
+
+
+Properties
+==========
+
+This node has no properties.
+
+
 Outputs
 =======
 

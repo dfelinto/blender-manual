@@ -143,7 +143,7 @@ Ray Radius
    The starting ray radius to use when `Ray Casting <https://en.wikipedia.org/wiki/Ray_casting>`__
    against vertices or edges. When transferring data between meshes Blender performs a series of
    ray casts to generate mappings. Blender starts with a ray with the radius defined here,
-   if that does not return a hit then the radius is progressively
+   if that does not detect a hit then the radius is progressively
    increased until a positive hit or a limit is reached.
 
    This property acts as an accuracy/performance control;

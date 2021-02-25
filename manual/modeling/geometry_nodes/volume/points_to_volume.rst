@@ -11,7 +11,7 @@ Points to Volume
    The Points to Volume node.
 
 The *Points to Volume* node generates a fog volume sphere around every point in the input geometry.
-The new volume grid is called "density".
+The new volume grid is named "density".
 
 
 Inputs
@@ -32,6 +32,7 @@ Voxel Size
 Radius
    Specify the radius of the sphere generated at each point.
 
+
 Properties
 ==========
 
@@ -40,6 +41,7 @@ Resolution
 
 Radius
    Type of the radius input.
+
 
 Outputs
 =======

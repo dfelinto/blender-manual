@@ -10,8 +10,14 @@ String
 
    String Input Node.
 
-The *String* input node creates a single string. It can be connected to attribute name
-sockets to simplify using the same attribute name in multiple places.
+The *String* input node creates a single string. It can be connected to attribute name sockets
+to make using the same attribute name in multiple places more convenient.
+
+
+Inputs
+======
+
+This node has no Inputs.
 
 
 Properties

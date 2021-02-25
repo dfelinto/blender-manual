@@ -40,7 +40,7 @@ Similarly, outgoing connections to input sockets of unselected nodes will become
 the new *Group Output* node.
 
 If you want to pass an additional parameter into the group,
-an socket must be added to the *Group Input* node.
+a socket must be added to the *Group Input* node.
 Therefore drag a connection from the hollow socket on the right side of the *Group Input* node
 to the desired input socket on the node requiring an input.
 The process is similar for the *Group Output* regarding data
@@ -69,7 +69,7 @@ Sockets can be added, re-ordered, or removed, descriptive names can be added and
 the details of the input data value defined here.
 
 If you have multiple inputs or outputs, they can be re-ordered by selecting the socket in the list.
-and then moving them up or down with the arrow buttons on the right side of the panel.
+And then moving them up or down with the arrow buttons on the right side of the panel.
 The plus button will add an unconnected socket of the same type
 as the selected socket or a value socket if there is no selection.
 The minus button will remove the selected socket.
@@ -144,13 +144,14 @@ A node group will have a green title bar. All selected nodes will now be contain
 Default naming for the node group is "NodeGroup", "NodeGroup.001" etc.
 There is a name field in the node group you can click into to change the name of the group.
 Change the name of the node group to something meaningful.
+
 When appending node groups from one blend-file to another,
 Blender does not make a distinction between material node groups or composite node groups.
 So it is recommended to use some naming convention that will allow you to distinguish between the two types.
 
 .. tip:: What **not** to include in node groups:
 
-   Remember that the essential idea is that a group should be an reusable,
+   Remember that the essential idea is that a group should be a reusable,
    self-contained software component. Material node groups should **not** include:
 
    Input nodes

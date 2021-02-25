@@ -11,7 +11,7 @@ Collection Info
    Collection Info Node.
 
 The *Collection Info* node gets information from collections.
-This can be useful to bring an external collection to control parameters in the geometry node tree.
+This can be useful to make an external collection to control parameters in the geometry node tree.
 
 
 Inputs
@@ -30,8 +30,8 @@ Transform Space
    Original
       Output the geometry relative to the collection offset.
    Relative
-      Bring the input collection geometry into the modified object, maintaining
-      the relative position between the objects in the scene.
+      Join the input collection geometry with the modified object,
+      maintaining the relative position between the objects in the scene.
 
 
 Outputs

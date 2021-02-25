@@ -96,7 +96,7 @@ Tree View
    Disclosure (small triangle icon)
       - :kbd:`LMB` -- Expand/collapse subcollections.
       - :kbd:`Shift-LMB` -- Isolate the tree. Collapses everything but the current item,
-        and it’s parents/descendants. Click again to restore the previous state.
+        and it's parents/descendants. Click again to restore the previous state.
       - :kbd:`Ctrl-LMB` -- Expand/collapse subcollections and their descendants.
 
    Set Active Collection
@@ -261,7 +261,7 @@ QCD
    - :kbd:`Shift-Ctrl-=` -- Select All QCD Objects.
    - :kbd:`Alt-=` -- Discard QCD History.
 
-Disable Objects (Only available if enabled in the preferences.)
+Disable Objects (only available if enabled in the preferences.)
    - :kbd:`H` -- Disable Selected.
    - :kbd:`Shift-H` -- Disable Unselected.
    - :kbd:`Alt-H` -- Restore Disabled Objects.
@@ -323,7 +323,6 @@ Glossary
 
 General
    :Chaining: Dependent on parents for whether an RTO can be active.
-   :LMB: Left Mouse Button.
    :QCD: Quick Content Display.
    :QVT: Quick View Toggles.
    :RTO: Restriction Toggle Option.

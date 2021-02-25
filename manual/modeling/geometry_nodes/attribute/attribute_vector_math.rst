@@ -116,7 +116,7 @@ Operation
 
 A, B, C
    Attribute
-      The input is a text field that expects an attribute name.
+      A text field to input an attribute name.
 
    Vector
       The input is a vector of three float numbers.

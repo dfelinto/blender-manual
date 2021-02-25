@@ -41,6 +41,7 @@ Noise Offset
 Seed
    :term:`Seed` used by the pseudo-random number generator.
 
+
 Randomize
 ---------
 
@@ -48,7 +49,6 @@ When enabled, the noise uses a random value over time.
 
 Step
    Number of frames before using a new random value.
-
 
 
 Influence
