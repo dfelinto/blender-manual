@@ -14,7 +14,7 @@ In general, hook up these nodes to a viewer, set your Image Editor to show the V
 and play with the sliders in real-time using a sample image from the footage,
 to get the settings right. In some cases,
 small adjustments can eliminate artifacts or foreground image degradation.
-Taking out too much green can result in foreground actors looking flat or blueish/purplish.
+Taking out too much green can result in foreground actors looking flat or bluish/purplish.
 
 You can and should chain these nodes together,
 improving your masking and color correction in successive refinements,

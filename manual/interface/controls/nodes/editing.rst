@@ -119,7 +119,7 @@ Delete
 Delete :kbd:`X`, :kbd:`Delete`
    Deletes the selected node(s).
 Delete with Reconnect :kbd:`Ctrl-X`
-   Delete the node(s) without loosing the connections.
+   Delete the node(s) without losing the connections.
 
 
 Mute

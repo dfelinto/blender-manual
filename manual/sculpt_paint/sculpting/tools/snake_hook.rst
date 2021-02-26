@@ -20,7 +20,7 @@ Brush Settings
 
 Magnify
    The *Snake Hook* brush tends to loose volume along the stroke,
-   with *Magnify* value greater than 0.5 it's possible to sculpt shapes without loosing volume.
+   with *Magnify* value greater than 0.5 it's possible to sculpt shapes without losing volume.
 
 .. _bpy.types.Brush.rake_factor:
 

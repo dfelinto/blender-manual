@@ -253,7 +253,7 @@ def text_extract_help(text, args, static_strings):
             write_arg(arg)
         elif l.startswith("BLI_args_print_other_doc("):
             items = list(args.items())
-            # sort as strings since we cant order (None <> str)
+            # sort as strings since we can't order (None <> str)
             items.sort(key=lambda i: str(i[0]))
             for key, value in items:
                 if key not in args_used:

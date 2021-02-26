@@ -26,7 +26,7 @@ You can see the numbers you enter in the 3D Viewport footer.
 
 .. tip::
 
-   Numeric input can also be inputed in
+   Numeric input can also be inputted in
    the :doc:`Properties </scene_layout/object/properties/transforms>` region.
 
 

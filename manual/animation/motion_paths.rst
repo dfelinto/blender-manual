@@ -38,7 +38,7 @@ To create or remove motion paths, it is necessary to first select the bones. The
    Remember that only selected bones and their paths are affected by these actions!
 
 The paths are shown in a light shade of gray for unselected points,
-and a slightly blueish gray for selected ones.
+and a slightly bluish gray for selected ones.
 Around the current frame a glow indicate the direction of movement:
 blue towards future frames and green towards the past.
 Each frame is displayed by a small white dot on the paths.

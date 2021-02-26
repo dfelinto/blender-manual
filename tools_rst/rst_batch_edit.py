@@ -227,7 +227,7 @@ def preset_wrap_lines(fn, data_src):
         l = l_orig.lstrip()
         if len(l_orig) >= MARGIN_MAX:
 
-            # ignore directives since their formatting cant always be split
+            # ignore directives since their formatting can't always be split
             if l.lstrip(" *-").startswith(".. "):
                 print("Ignoring %s:%d: " % (fn, i + 1))
                 print(l_orig)
