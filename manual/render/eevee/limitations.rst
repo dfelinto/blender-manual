@@ -66,9 +66,8 @@ Volumetrics
 Depth of Field
 ==============
 
-- Rendered at half resolution which can create blocky pixel artifacts on tiny features that are nearly in focus.
-- The near and far defocus buffers are in fact one single continuous texture. This can make some bleeding
-  appear on the left and right sides of the image. This can be fixed by using the *overscan* feature.
+- Alpha blended surfaces cannot be correctly handled by the post-processing blur, but will be correctly handled by the
+  sample based method. For this, you need to disable the post-process depth of field by setting the *Max Size* to 0.
 
 
 Screen Space Effects
