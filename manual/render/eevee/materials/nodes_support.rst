@@ -113,8 +113,7 @@ Input Nodes
 -----------
 
 Ambient Occlusion
-   All parameters will have no effects except Normal and Color.
-   This is because the AO is computed before evaluating this node and it uses the scene settings for that.
+   Sample count is not used.
 
 Camera Data
    Everything is compatible.
