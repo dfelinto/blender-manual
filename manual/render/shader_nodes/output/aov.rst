@@ -3,8 +3,6 @@
 AOV Output Node
 ***************
 
-:guilabel:`Cycles Only`
-
 .. figure:: /images/render_shader-nodes_output_aov_node.png
    :align: right
 

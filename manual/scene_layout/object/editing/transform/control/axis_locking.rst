@@ -96,10 +96,10 @@ always constrained around one axis.
 Axis Locking Modes
 ------------------
 
-A single key press constrains movement to the corresponding *Global* axis.
-A second key press of the *same* key constrains movement to the current transform orientation selection
-(except if it is set to *Global*, in which case the *Local* orientation is used).
-Finally, a third key press of the same key removes constraints.
+A single key press constrains movement to the current transform orientation selection.
+A second key press of the *same* key constrains movement to the corresponding *Global* axis
+(except if the transform orientation is set to *Global*, in which case the *Local* orientation is used).
+A third key press of the same key removes constraints.
 
 The orientation can be set
 in the :doc:`Transform Orientation </editors/3dview/controls/orientation>`
@@ -109,8 +109,8 @@ selector of the 3D Viewport header.
 
 For example, if the current transform orientation is set to *Normal*,
 pressing :kbd:`G` to start translation, followed by :kbd:`Z` will lock translation
-in the Z direction relative to the *Global* orientation, pressing :kbd:`Z`
-again will lock translation to the Z axis relative to the *Normal* orientation.
+in the Z direction relative to the *Normal* orientation, pressing :kbd:`Z`
+again will lock translation to the Z axis relative to the *Global* orientation.
 Pressing :kbd:`Z` again will remove all constraints.
 The current mode will be displayed in the left-hand side of the *3D Viewport header*.
 
