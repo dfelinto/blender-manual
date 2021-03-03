@@ -24,7 +24,7 @@ A, B, C
    This is either an attribute name or numeric value.
 
 Result
-   Name of the attribute where the computed result it stored.
+   Name of the attribute where the computed result is stored.
    A new attribute with that name is added if it does not exist yet.
    If it does exist, the values of the existing attribute are overridden.
 
