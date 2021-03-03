@@ -33,9 +33,10 @@ Properties
 
 Clamp Type
    Min Max
-      Clamp values using Min and Max values.
+      Constrain values between Min and Max.
    Range
-      Clamp values between Min and Max range.
+      Constrain values between Min and Max. When Min > Max,
+      constrain between Max and Min instead.
 
 
 Outputs
