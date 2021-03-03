@@ -70,7 +70,8 @@ Jitter Camera
          sample\_count = (ring\_count^{2} + ring\_count) * 3 + 1
 
       where :math:`ring\_count` is the number of ring in the hexaweb pattern.
-      The :math:`ring\_count` is chosen so that the entire pattern contains at least the number of samples set in :doc:`render settings </render/sampling>`.
+      The :math:`ring\_count` is chosen so that the entire pattern contains at least the number of
+      samples set in :doc:`render settings </render/eevee/render_settings/sampling>`.
 
 Overblur
    Scales the post process depth of field radius to reduce artifacts. Higher values will soften the bokeh shape.
