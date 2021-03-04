@@ -24,7 +24,7 @@ Save
 Default to
    Relative Paths
       Default value for :ref:`Relative Paths <files-blend-relative_paths>` when loading external files
-      such as images, sounds, and linked libraries.
+      such as images, sounds, and linked libraries. Ignored if a path is already set.
    Compress File
       Default value for :ref:`Compress file <files-blend-compress>` when saving blend files.
    Load UI
