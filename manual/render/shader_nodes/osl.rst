@@ -155,9 +155,9 @@ Other attributes are listed below:
 ``geom:uv``
    Default render UV map.
 ``geom:dupli_generated``
-   For instances, generated coordinate from duplicator object.
+   For instances, generated coordinate from instancer object.
 ``geom:dupli_uv``
-   For instances, UV coordinate from duplicator object.
+   For instances, UV coordinate from instancer object.
 ``geom:trianglevertices``
    3 vertex coordinates of the triangle.
 ``geom:numpolyvertices``

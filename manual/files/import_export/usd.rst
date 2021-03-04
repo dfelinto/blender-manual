@@ -40,8 +40,8 @@ The following options are available when exporting to USD:
 
 Selection Only
    When checked, only selected objects are exported.
-   Duplicated objects, for example collections that are instanced in the scene,
-   are considered 'selected' when their duplicator is selected.
+   Instanced objects, for example collections that are instanced in the scene,
+   are considered 'selected' when their instancer is selected.
 
 Visible Only
    Only exports objects that are not :doc:`hidden </scene_layout/object/editing/show_hide>`.
