@@ -99,6 +99,8 @@ Display As
 
                 The same armature in Edit Mode.
 
+.. _bpy.types.Armature.show_axes:
+
 Show
    Names
       Displays the name of each bone.
