@@ -11,7 +11,7 @@ Properties
 
 All *Meta* objects of a same :ref:`family <meta-ball-object-families>` in a scene interact with each other.
 The settings in the *Metaball* section apply to all meta objects of the active family.
-In Edit Mode, the *Active Element* panel appears for :ref:`editing <meta-ball-editing>` individual meta elements.
+In Edit Mode, the *Active Element* panel appears for :ref:`editing <meta-ball-editing>` individual metaball elements.
 
 .. list-table::
 

@@ -23,13 +23,13 @@ Active Element
 
    Active Element panel.
 
-These settings apply only to the selected meta element.
+These settings apply only to the selected metaball element.
 
 Type
    Changes the :doc:`primitive shape </modeling/metas/primitives>` of the meta object.
 
 Stiffness
-   Controls the influence range for individual meta elements, unlike *Influence Threshold*
+   Controls the influence range for individual metaball elements, unlike *Influence Threshold*
    which controls the influence for the entire :ref:`meta family <meta-ball-object-families>`.
    This essentially defines how sensitive a meta is to being affected by other metas.
    With a low stiffness, the meta will begin to deform from further away.
@@ -71,7 +71,7 @@ Negative
 
       * - .. figure:: /images/modeling_metas_editing_family.png
 
-             Positive influence of three meta balls.
+             Positive influence of three metaballs.
 
         - .. figure:: /images/modeling_metas_editing_negative-influence.png
 

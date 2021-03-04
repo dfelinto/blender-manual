@@ -89,7 +89,7 @@ Balls/Atoms
 Type of
    Choose either *NURBS*, *Mesh* or *Metaballs* for the atoms.
    For option *Mesh* the *Azimuth* and *Zenith* values can be chosen.
-   Meta balls can lead to some fancy effects: for instance,
+   Metaballs can lead to some fancy effects: for instance,
    if enough large, their shapes melt together showing some kind of surface effect.
 
 .. figure:: /images/addons_import-export_mesh-atomic_import-XYZ.png
