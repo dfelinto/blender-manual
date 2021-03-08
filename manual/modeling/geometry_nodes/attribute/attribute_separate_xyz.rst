@@ -19,14 +19,12 @@ Geometry
    Standard geometry input.
 
 Vector
-   The vector to split into components. This can be a vector attribute or a vector.
+   The vector to split into components. This can be an attribute name or a vector.
 
 Result X, Result Y, Result Z
    The names of the attributes to store the components of the input vector.
    A new attribute with that name is added if it does not exist yet.
    If it does exist, the values of the existing attribute are overridden.
-
-   The resulting components will be float attributes.
 
 
 Properties
@@ -35,8 +33,7 @@ Properties
 Type
    Attribute
       The input is a text field that expects an attribute name.
-      The type of the attribute should be vector.
-   Vector
+   Vector 
       The input is a vector of three float numbers.
 
 

@@ -20,7 +20,6 @@ Geometry
 
 X, Y, Z
    The inputs to the components of the vector.
-   They both should be float attributes if the input type is set to attribute.
 Result
    The name of the attribute where the computed vector is stored.
    A new attribute with that name is added if it does not exist yet.
@@ -30,17 +29,14 @@ Result
 
    The resulting vector is not normalized.
 
-
 Properties
 ==========
 
 X, Y, Z
    Attribute
       The input is a text field that expects an attribute name.
-      The type of the attribute should be float.
-   Float
+   Float 
       The input is a float number.
-
 
 Output
 ======

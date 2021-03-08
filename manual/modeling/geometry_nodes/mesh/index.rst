@@ -8,6 +8,6 @@
 
    boolean.rst
    edge_split.rst
-   simple_subdivision_surface.rst
-   subdivision_surface.rst
+   subdivide.rst
+   subdivide_smooth.rst
    triangulate.rst
