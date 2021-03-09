@@ -61,7 +61,7 @@ Setting up the Build Environment
 
    Every now and then you may want to make sure your dependencies are up to date using::
 
-      sudo pip3 install -r requirements.txt --upgrade
+      sudo pip3 install -r requirements.txt --upgrade --upgrade-strategy eager
 
 
 ------------------------
