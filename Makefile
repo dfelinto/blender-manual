@@ -107,7 +107,6 @@ check_syntax:
 
 check_structure:
 	@python3 tools_rst/rst_check_images.py
-	@python3 tools_rst/rst_check_locale.py
 
 check_spelling:
 	@python3 tools_rst/rst_check_spelling.py

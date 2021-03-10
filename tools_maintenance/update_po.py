@@ -28,12 +28,6 @@ import multiprocessing
 from shlex import quote
 import re
 
-import importlib.util
-mod_file_path = os.path.join(os.path.dirname(__file__), "..", "tools_rst", "rst_check_locale.py")
-spec = importlib.util.spec_from_file_location("rst_check_locale", mod_file_path)
-rst_check_locale = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(rst_check_locale)
-
 
 VERBOSE = False
 USE_MULTI_PROCESS = True
@@ -238,12 +232,6 @@ def main():
         if svn_files_new:
             run_svn(["add", *svn_files_new, *svn_dirs_new])
         del svn_files_new, svn_dirs_new
-
-    # Notify on redundant PO files.
-    try:
-        rst_check_locale.warn_locale()
-    except:
-        print("rst_check_locale.py has no warn_locale function")
 
     # ---------------------
     # Print Commit Messages

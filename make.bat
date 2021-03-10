@@ -125,7 +125,6 @@ if "%1" == "check_spelling" (
 
 if "%1" == "check_structure" (
 	python tools_rst/rst_check_images.py
-	python tools_rst/rst_check_locale.py
 	goto EOF
 
 ) else (
