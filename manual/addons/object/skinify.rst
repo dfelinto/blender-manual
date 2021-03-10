@@ -14,7 +14,7 @@ Activation
 ==========
 
 - Open Blender and go to Preferences then the Add-ons tab.
-- Click Object then Scatter Objects to enable the script.
+- Click Object then Skinify Rig to enable the script.
 
 
 Usage
@@ -22,9 +22,8 @@ Usage
 
 Select your armature in Pose Mode and skin the selected or all bones with a per-bone mesh or whole cover.
 If bones in your rig give unwanted results, often scaling and re-positioning the bones in Edit Mode can help.
-If your doing this to create your own "Skinify Guy" you can also delete bones.
+If you are doing this to create your own "Skinify Guy" you can also delete bones.
 It will work with custom shapes but results may vary.
-More to come...
 
 .. seealso::
 
