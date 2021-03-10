@@ -27,7 +27,7 @@ There is no installer to place Blender on the menu, but there is also no need fo
 With this option, it is possible to have multiple versions of Blender without conflicting,
 as they are not actually installed on the system.
 
-However, if you want a particular version to be registered with your computer the simply run ``blender -r``
+However, if you want a particular version to be registered with your computer then simply run ``blender -r``
 from the :doc:`Command Line </advanced/command_line/arguments>`.
 
 .. tip:: How to Make a Portable Installation
