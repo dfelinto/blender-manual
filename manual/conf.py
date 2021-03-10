@@ -166,8 +166,8 @@ todo_include_todos = True
 # todo_link_only = True
 
 # translations
-locale_dirs = ['../locale/']   # Path to locale
-gettext_compact = False     # optional.
+locale_dirs = ['../locale/']
+gettext_compact = "blender_manual"
 
 # Quit warnings about missing download file
 # suppress_warnings = ['download.not_readable']
