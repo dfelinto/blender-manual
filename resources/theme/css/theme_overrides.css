@@ -185,26 +185,6 @@ footer p{ font-size: smaller}
 	padding-right: 20px;
 }
 
-/* Breadcrumbs "Docs" to icon. */
-.wy-breadcrumbs-aside a {
-	position: absolute;
-	top: 2px;
-	right: 0;
-}
-.wy-breadcrumbs li:first-child a {
-	line-height: 0;
-	font-size: 0;
-}
-.wy-breadcrumbs li:first-child a::before {
-	content: "\f015";
-	font: 16px/1 FontAwesome;
-}
-
-/* Spacing bugfix. */
-.wy-breadcrumbs li a:first-child{padding:5px}
-.wy-breadcrumbs li:first-child a{padding-left:0}
-.wy-breadcrumbs li:nth-last-child(2){padding-left:5px}
-
 /* Block-quote > dl bugfix. */
 .rst-content dl{line-height:normal}
 /* multi-paragraph dl bugfix */
