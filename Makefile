@@ -73,6 +73,9 @@ $(CHAPTERS): $(.DEFAULT_GOAL)
 # End command checking
 # --------------------
 
+livehtml:
+	@QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
+	sphinx-autobuild --open-browser "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 html: .SPHINXBUILD_EXISTS
 	@QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
@@ -132,6 +135,7 @@ help:
 	@echo "=============="
 	@echo "Convenience targets provided for building docs"
 	@echo ""
+	@echo "- livehtml             to auto build on file changes on host on localhost"
 	@echo "- epubpdf              to convert an epub file to pdf"
 	@echo "- readme               to make a 'readme.html' file"
 	@echo "- clean                to delete all old build files"

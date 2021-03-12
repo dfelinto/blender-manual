@@ -48,6 +48,7 @@ if "%1" == "help" (
 	echo.==============
 	echo.Convenience targets provided for building docs
 	echo.
+	echo.- livehtml             to auto build on file changes on host on localhost
 	echo.- readme               to make a 'readme.html' file
 	echo.- clean                to delete all old build files
 	echo.
@@ -63,6 +64,12 @@ if "%1" == "help" (
 	echo.- check_structure      to check the structure of all .rst files
 	echo.- check_syntax         to check the syntax of all .rst files
 	echo.- check_spelling       to check spelling for text in RST files
+	goto EOF
+)
+
+if "%1" == "livehtml" (
+	sphinx-autobuild --open-browser %SOURCEDIR% %BUILDDIR% %SPHINXOPTS% %O%
+	if errorlevel 1 exit /b 1
 	goto EOF
 )
 
