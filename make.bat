@@ -68,7 +68,7 @@ if "%1" == "help" (
 )
 
 if "%1" == "livehtml" (
-	sphinx-autobuild --open-browser %SOURCEDIR% %BUILDDIR% %SPHINXOPTS% %O%
+	sphinx-autobuild --open-browser --delay 0 %SOURCEDIR% %BUILDDIR% %SPHINXOPTS% %O%
 	if errorlevel 1 exit /b 1
 	goto EOF
 )

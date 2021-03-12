@@ -75,7 +75,7 @@ $(CHAPTERS): $(.DEFAULT_GOAL)
 
 livehtml:
 	@QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
-	sphinx-autobuild --open-browser "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+	sphinx-autobuild --open-browser --delay 0 "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 html: .SPHINXBUILD_EXISTS
 	@QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
