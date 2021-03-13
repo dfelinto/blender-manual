@@ -108,9 +108,6 @@ input[type="number"], input[type="tel"], input[type="color"] {
 
 /* TABLE & FIGURE */
 
-/* Moves captions to bottom. */
-table {caption-side: bottom}
-
 /* captions text style */
 .rst-content .figure .caption,
 .rst-content table.docutils caption,
