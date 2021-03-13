@@ -131,10 +131,6 @@ input[type="number"], input[type="tel"], input[type="color"] {
 /* Field list align. */
 .rst-content table.field-list td { padding-top: 8px; }
 
-/* Perma-link to table, hide until hover. */
-.rst-content table.docutils caption .headerlink { visibility: hidden; }
-.rst-content table.docutils caption:hover .headerlink { visibility: visible; }
-
 /* Table header cells border color. */
 .rst-content table.docutils th { border-color: #e1e4e5; }
 
