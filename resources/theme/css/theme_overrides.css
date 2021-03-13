@@ -16,14 +16,6 @@ h5 {margin-bottom: 5px}
 .wy-side-nav-search > a:hover {background: none; opacity: 0.9}
 .wy-side-nav-search > a.icon::before {content: none}
 
-/* 'kbd' role. */
-.kbd.docutils.literal {
-	font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
-	font-size: 85%;
-	font-weight: normal;
-	color: #404040;
-}
-
 /* Ensure background of input fields is light color even when a local theme wants it to be dark. */
 input[type="text"], input[type="search"], input[type="password"],
 input[type="email"], input[type="url"],
@@ -202,9 +194,9 @@ a.external {color:#656AE0;}
 	color:#2980B9;
 }
 
-/* Draws a box around menuselection role. */
-/* Temporary fix for "theme(0.2.5b2)" bug: no box around 'kbd' role. */
+/* Draws a box around menuselection and kbd role. */
 .menuselection, .kbd.docutils.literal {
+	font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
 	font-size: 90%;
 	font-weight: normal;
 	background-color: rgba(255, 255, 255, 0.65);
