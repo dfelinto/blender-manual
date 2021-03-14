@@ -188,14 +188,14 @@ Type
 
 .. _bpy.ops.gpencil.stroke_separate:
 
-Separate Strokes
-================
+Separate
+========
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Grease Pencil --> Separate Strokes`
+   :Menu:      :menuselection:`Grease Pencil --> Separate`
    :Hotkey:    :kbd:`P`
 
 Separate the selected elements into a new Grease Pencil object.
