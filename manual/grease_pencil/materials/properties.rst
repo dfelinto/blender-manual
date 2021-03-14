@@ -25,7 +25,7 @@ Stroke
 When enabled, the shader use the stroke component.
 The *Stroke* component controls how to render the edit lines.
 
-Mode Type
+Line Type
    Defines how to display or distribute the output material over the stroke.
 
    Line
