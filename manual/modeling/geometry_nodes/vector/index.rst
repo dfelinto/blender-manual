@@ -9,3 +9,4 @@
    combine_xyz.rst
    separate_xyz.rst
    vector_math.rst
+   vector_rotate.rst

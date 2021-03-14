@@ -1,5 +1,10 @@
 .. _bpy.types.ShaderNodeVectorRotate:
 
+.. Editors Note: This page gets copied into:
+.. - :doc:`</modeling/geometry_nodes/vector/vector_rotate>`
+
+.. --- copy below this line ---
+
 ******************
 Vector Rotate Node
 ******************
