@@ -66,18 +66,3 @@ Vertices Behind the Camera
 
 When projecting geometry in a perspective view, vertices behind the camera are not properly mapped.
 You can workaround this by subdividing geometry so that faces in front of the camera have correctly mapped UVs.
-
-..
-   Comment: think that is no more relevant for 2.80? (Todo)
-..
-   Perspective Cameras
-   -------------------
-..
-   When using perspective cameras or spot lights,
-   you will likely want to enable the *UV Project* Material Option
-   (available in the materials panel),
-   This uses a different UV interpolation to prevent distortion.
-..
-   .. note::
-..
-      This option is not yet available for Cycles.
