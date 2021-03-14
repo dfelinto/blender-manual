@@ -43,6 +43,7 @@ Creating an Override
 
 There are two ways to create an override of a linked data-block.
 
+
 Single Data-Block Override
 --------------------------
 
@@ -52,6 +53,7 @@ You can override a single data-block from two places:
   of that linked ID will be remapped to the new local override.
 - The data-block menu in the UI (:kbd:`Shift-LMB` on the chain icon to the right),
   in which case only that specific usage will be remapped to the new local override.
+
 
 .. _bpy.ops.object.make_override_library:
 
@@ -70,6 +72,8 @@ of collections and objects, and override all those needed to allow posing/animat
    the character are children of the root (linked and instantiated) one.
    Otherwise, some won't be automatically overridden, and manual work will be needed to fix the override.
 
+
+.. _bpy.ops.object.convert_proxy_to_override:
 
 Converting Proxies to Library Override
 ======================================
@@ -100,6 +104,7 @@ Note that you cannot override-edit an existing animation, you'll have to create 
 
 You can manually define or remove an override from the context menu of the relevant property.
 
+
 .. _bpy.ops.ui.override_type_set_button:
 
 Define Overrides
@@ -115,6 +120,7 @@ Define Overrides
 Mark a property to be overridden in the local blend file. For array properties
 all elements will be overridden.
 
+
 Define Single Override
 ----------------------
 
@@ -126,6 +132,7 @@ Define Single Override
 
 Mark a property to be overridden in the local blend file. For array properties only
 the selected element will be overridden.
+
 
 .. _bpy.ops.ui.remove_override_button:
 
@@ -141,6 +148,7 @@ Remove Overrides
 
 Remove the property from the overrides. The value of the linked in data block will be used.
 For array properties all elements will be removed from the override.
+
 
 Remove Single Override
 ----------------------
@@ -168,6 +176,7 @@ Reset Library Override
 Reset the override to its original values. `Reset Library Override Hierarchy` will also reset
 the overrides of its child data-blocks.
 
+
 Resync Library Override Hierarchy
 =================================
 
@@ -181,6 +190,7 @@ The structure of the linked data (the relationships between linked data-blocks) 
 Overrides need to be resynced to match the new structure. This operator will resync the override
 to the new structure in the library.
 
+
 Delete Library Override Hierarchy
 =================================
 
@@ -192,6 +202,3 @@ Delete Library Override Hierarchy
 
 Remove the library override from the selected data-block and all its children and replace them with
 the original linked data-block. This will revert the `Make Library Override`.
-
-.. _bpy.ops.object.convert_proxy_to_override:
-
