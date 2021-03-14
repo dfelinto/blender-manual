@@ -53,10 +53,10 @@ Difference
 Operand Type
    Choose the type of the operand (target).
 
-   Object
+   :Object:
       The target is a mesh object.
 
-   Collection
+   :Collection:
       The target is a collection.
       When the target is a collection and the Solver is Fast,
       the Intersect operation is not allowed.
@@ -71,20 +71,29 @@ Collection
 Solver
    Algorithm used to calculate the boolean intersections.
 
-   Fast
+   :Fast:
       Uses a mathematically simple solver which offers the best performance;
       however, this solver lacks support for overlapping geometry.
-
-      Overlap Threshold
-         Maximum distance between two faces to consider them as overlapping.
-         This helps solve the limitation of this solver,
-         if the boolean result seems unexpected try using the exact solver.
-
-   Exact
+   :Exact:
       Uses a mathematically complex solver which offers the best results
       and has full support for overlapping geometry;
       however, this solver is much slower than the *Fast Solver*.
 
-      Self
-         Correctly calculates cases when one or both operands have self-intersections,
-         this involves more calculations making it slower.
+
+Solver Options
+--------------
+
+Self :guilabel:`Exact Solver`
+   Correctly calculates cases when one or both operands have self-intersections,
+   this involves more calculations making it slower.
+
+Hole Tollerent :guilabel:`Exact Solver`
+   Optimizes the boolean output for :term:`Non-manifold`
+   geometry at the cost of increased computational time.
+   Because of the performance impact, this option should only be enabled
+   when the *Exact* solver demonstrates errors with non-manifold geometry.
+
+Overlap Threshold :guilabel:`Fast Solver`
+   Maximum distance between two faces to consider them as overlapping.
+   This helps solve the limitation of this solver,
+   if the boolean result seems unexpected try using the exact solver.
