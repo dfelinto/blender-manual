@@ -7,6 +7,7 @@
    :maxdepth: 1
 
    attribute_color_ramp.rst
+   attribute_convert.rst
    attribute_combine_xyz.rst
    attribute_compare.rst
    attribute_fill.rst
