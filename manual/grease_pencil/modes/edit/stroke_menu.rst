@@ -184,14 +184,14 @@ Sets the active object material based on the selected stroke material.
 
 .. _bpy.ops.gpencil.stroke_arrange:
 
-Arrange Strokes
-===============
+Arrange
+=======
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Stroke --> Arrange Strokes`
+   :Menu:      :menuselection:`Stroke --> Arrange`
 
 Change the drawing order of the strokes in the 2D layer.
 
@@ -321,14 +321,14 @@ Reverse the direction of the points in the selected strokes
 (i.e. the start point will become the end one, and vice versa).
 
 
-Scale Stroke Thickness
-======================
+Scale Thickness
+===============
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Stroke --> Scale Stroke Thickness`
+   :Menu:      :menuselection:`Stroke --> Scale Thickness`
 
 When enabled, scales the stroke thickness during scale transformations.
 

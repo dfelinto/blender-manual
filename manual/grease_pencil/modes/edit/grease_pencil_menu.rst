@@ -304,18 +304,18 @@ Removes any duplicated animation frames.
 
 .. _bpy.ops.gpencil.reproject:
 
-Reproject Strokes
------------------
+Reproject
+---------
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Grease Pencil --> Clean Up --> Reproject Strokes`
+   :Menu:      :menuselection:`Grease Pencil --> Clean Up --> Reproject`
 
 Sometimes you may have drawn strokes unintentionally in different locations in the 3D space
 but they look right from a certain plane or from the camera view.
-You can use Reproject Strokes to flatten all the selected strokes from a certain viewpoint.
+You can use Reproject to flatten all the selected strokes from a certain viewpoint.
 
 Reprojected Type
    Front

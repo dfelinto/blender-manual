@@ -5,14 +5,14 @@ Point Menu
 
 .. _bpy.ops.gpencil.extrude_move:
 
-Extrude Points
-==============
+Extrude
+=======
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Point --> Extrude Points`
+   :Menu:      :menuselection:`Point --> Extrude`
    :Tool:      :menuselection:`Toolbar --> Extrude`
    :Hotkey:    :kbd:`E`
 
@@ -27,14 +27,14 @@ The new points stay connected with the original points of the edit line.
 
 .. _bpy.ops.gpencil.stroke_smooth:
 
-Smooth Points
-=============
+Smooth
+======
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Point --> Smooth Points`
+   :Menu:      :menuselection:`Point --> Smooth`
 
 Softens strokes by reducing the differences in the locations of the points along the line,
 while trying to maintain similar values that make the line fluid and smoother.
@@ -63,14 +63,14 @@ UVs
 
 .. _bpy.ops.gpencil.stroke_merge:
 
-Merge Points
-============
+Merge
+=====
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Point --> Merge Points`
+   :Menu:      :menuselection:`Point --> Merge`
 
 Combine all selected points into a unique stroke.
 All the selected points will be connected by new edit lines when needed to create the new stroke.
