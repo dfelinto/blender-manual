@@ -67,3 +67,4 @@ See :doc:`User Interface </interface/index>` for documentation on the general in
    properties_editor.rst
    file_browser.rst
    preferences/index.rst
+   spreadsheet.rst
