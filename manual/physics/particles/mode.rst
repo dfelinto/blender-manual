@@ -127,7 +127,7 @@ Tip
 
 .. _bpy.types.ParticleBrush:
 
-Brush
+Tools
 =====
 
 .. admonition:: Reference
@@ -136,44 +136,74 @@ Brush
    :Mode:      Particle Edit Mode
    :Tool:      :menuselection:`Toolbar`
 
-With the buttons you can select the type of "Comb" utility you want to use.
-
-None
-   No special tool, just edit the keypoints as "normal" vertices.
 Comb
-   Moves the keypoints (similar to the Proportional Editing tool).
+----
+
+Moves the keypoints (similar to the Proportional Editing tool).
+
+Deflect Emitter
+   Hair particles only -- Do not move keypoints through the emitting mesh.
+
+   Distance
+      The distance to keep from the Emitter.
+
+
 Smooth
-   Parallels visually adjacent segments.
+------
+
+Parallels visually adjacent segments.
+
+
 Add
-   Adds new particles.
+---
 
-   Count
-      The number of new particles per step.
-   Interpolate
-      Interpolate the shape of new hairs from existing ones.
-   Steps
-      Amount of brush steps.
-   Keys
-      How many keys to make new particles with.
+Adds new particles.
+
+Count
+   The number of new particles per step.
+Interpolate
+   Interpolate the shape of new hairs from existing ones.
+Steps
+   Amount of brush steps.
+Keys
+   How many keys to make new particles with.
+
+
 Length
-   Scales the segments, so it makes the hair longer with *Grow* or shorter with *Shrink*.
-Puff
-   Rotates the hair around its first keypoint (root).
-   So it makes the hair stand up with *Add* or lay down with *Sub*.
+------
 
-   Puff Volume
-      Apply puff to unselected end points, (Helps to maintain the hair volume when puffing the root.)
+Scales the segments, so it makes the hair longer with *Grow* or shorter with *Shrink*.
+
+Grow/Shrink
+   Sets the brush to add the effect or reverse it.
+
+
+Puff
+----
+
+Rotates the hair around its first keypoint (root).
+So it makes the hair stand up with *Add* or lay down with *Sub*.
+
+Puff Volume
+   Apply puff to unselected end points, (Helps to maintain the hair volume when puffing the root.)
+
+
 Cut
-   Scales the segments until the last keypoint reaches the brush.
+---
+
+Scales the segments until the last keypoint reaches the brush.
+
 
 Weight
-   This is especially useful for soft body animations, because the weight defines the soft body *Goal*.
-   A keypoint with a weight of 1 will not move at all,
-   a keypoint with a weight of 0 subjects fully to soft body animation.
-   This value is scaled by the Strength *Min* to *Max* range of soft body goals...
+------
 
-   .. Not more true, I think: "Weight is only displayed for the complete hair (i.e. with the value of the tip),
-      not for each keypoint, so it's a bit difficult to paint".
+This is especially useful for soft body animations, because the weight defines the soft body *Goal*.
+A keypoint with a weight of 1 will not move at all,
+a keypoint with a weight of 0 subjects fully to soft body animation.
+This value is scaled by the Strength *Min* to *Max* range of soft body goals...
+
+.. Not more true, I think: "Weight is only displayed for the complete hair (i.e. with the value of the tip),
+   not for each keypoint, so it's a bit difficult to paint".
 
 
 Common Options
@@ -185,8 +215,6 @@ Radius :kbd:`F`
    Set the radius of the brush.
 Strength :kbd:`Shift-F`
    Set the strength of the brush effect (not for Add brush).
-Add/Sub Grow/Shrink
-   Sets the brush to add the effect or reverse it.
 
 
 Options
@@ -196,34 +224,35 @@ Options
    :class: refbox
 
    :Mode:      Particle Edit Mode
-   :Panel:     :menuselection:`Sidebar Region --> Tool`
+   :Panel:     :menuselection:`Tool Settings --> Options`
 
-Deflect Emitter
-   Hair particles only -- Do not move keypoints through the emitting mesh.
+Auto-Velocity :guilabel:`Emitter`
+   Recalculate velocities of particles according to their edited paths.
+   Otherwise, the original velocities values remains unchanged
+   regardless of the actual distance that the particles moves.
 
-   Distance
-      The distance to keep from the Emitter.
-Keep
-   Length
+Mirror X
+   Enable mirror editing across the local X axis.
+
+Preserve
+   Strand Length
       Keep the length of the segments between the keypoints when combing or smoothing the hair.
       This is done by moving all the other keypoints.
-   Root
+   Root Positions
       Keep first key unmodified, so you cannot transplant hair.
-Correct
-   Velocity
-      Recalculate velocities of particles according to their edited paths.
-      Otherwise, the original velocities values remains unchanged
-      regardless of the actual distance that the particles moves.
-X Mirror
-   Enable mirror editing across the local X axis.
+
+
+Cut Particles to Shape
+----------------------
+
 Shape Object
    A mesh object which boundary is used by the *Shape Cut* tool.
 
-   Shape Cut
-      This grooming tool trims hairs to a shape defined by the *Shape Object*.
-      This is a quicker way of avoiding protruding hair sections from lengthening than using the Cutting tool.
-      It works especially well for characters with extensive fur,
-      where working in a single plane with the Cutting tool becomes tedious.
+Cut
+   This grooming tool trims hairs to a shape defined by the *Shape Object*.
+   This is a quicker way of avoiding protruding hair sections from lengthening than using the Cutting tool.
+   It works especially well for characters with extensive fur,
+   where working in a single plane with the Cutting tool becomes tedious.
 
 .. list-table:: Shape Cut example.
 
@@ -241,17 +270,17 @@ Viewport Display
 
 Path Steps
    The number of steps used to draw the path; improves the smoothness of the particle path.
-Particles
+Children :guilabel:`Hair`
+   Displays the children of the particles too.
+   This allows to fine-tune the particles and see their effects on the result,
+   but it may slow down your system if you have many children.
+Particles :guilabel:`Emitter`
    Displays the actual particles on top of the paths.
 Fade Time
    Fade out paths and keys further away from current time.
 
    Frames
       How many frames to fade.
-Show Children
-   Displays the children of the particles too.
-   This allows to fine-tune the particles and see their effects on the result,
-   but it may slow down your system if you have many children.
 
 
 Editing
