@@ -15,6 +15,7 @@
    attribute_mix.rst
    attribute_proximity.rst
    attribute_randomize.rst
+   attribute_remove.rst
    attribute_sample_texture.rst
    attribute_vector_math.rst
    attribute_separate_xyz.rst

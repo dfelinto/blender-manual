@@ -1,6 +1,7 @@
 .. index:: Geometry Nodes; String
 .. _bpy.types.FunctionNodeInputString:
 
+.. _input-string-node:
 ******
 String
 ******
