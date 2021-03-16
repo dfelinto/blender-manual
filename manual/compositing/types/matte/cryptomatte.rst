@@ -92,3 +92,4 @@ Limitations
 ===========
 
 * Cryptomatte sidecars are not supported.
+* Cryptomatte node cannot be used in node groups.
