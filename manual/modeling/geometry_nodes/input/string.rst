@@ -2,6 +2,7 @@
 .. _bpy.types.FunctionNodeInputString:
 
 .. _input-string-node:
+
 ******
 String
 ******
