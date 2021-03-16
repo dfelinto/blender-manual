@@ -50,6 +50,7 @@ for green screens, but the best results stem from a combination of techniques.
    color_key.rst
    color_spill.rst
    cryptomatte.rst
+   cryptomatte_legacy.rst
    difference_key.rst
    distance_key.rst
    double_edge_mask.rst

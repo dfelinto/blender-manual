@@ -1,9 +1,9 @@
 
-****************
-Cryptomatte Node
-****************
+*************************
+Cryptomatte Node (Legacy)
+*************************
 
-.. figure:: /images/compositing_node-types_CompositorNodeCryptomatte.png
+.. figure:: /images/compositing_node-types_CompositorNodeCryptomatteLegacy.png
    :align: right
 
    Cryptomatte Node.
@@ -16,36 +16,28 @@ Unlike the Material and Object Index passes, the objects to isolate are selected
 and mattes will be anti-aliased and take into account effects like motion blur and transparency.
 
 
+.. note::
+
+    The Cryptomatte Legacy node is deprecated and replaced by
+    :doc:`Crytomatte Node</compositing/types/matte/cryptomatte>`.
+    The legacy node will be removed in a future Blender release.
+
 Inputs
 ======
 
 Image
    Standard image input.
+Crypto Passes
+   Each crypto layer will be given its own render pass;
+   each of these render passes must be connected to one of these crypto layer inputs.
+   By default there are only four layers, see `Adding/Removing Layers`_ to add more.
 
 
 Properties
 ==========
 
-Source
-   The source of the cryptomatte data.
-
-   Render
-      Use Cryptomatte data that are stored as part of the render.
-
-   Image
-      Use Cryptomatte data that are stored inside a multilayered OpenEXR image.
-
-Scene
-   Scene selector.
-   Only available when Render Source is selected.
-
-Image
-   Image selector.
-   Only available when Image Source is selected.
-
-Cryptomatte Layer
-   Selector of the Cryptomatte layer.
-
+Add/Remove
+   Adds/Removes an object or material from matte, by picking a color from the *Pick* output.
 Matte ID
    List of object and material crypto IDs to include in matte.
    This can be used for example to quickly clear all mattes by deleting the text
@@ -60,23 +52,29 @@ Image
 Matte
    A black-and-white alpha mask of the all the selected crypto layers.
 Pick
-   A colored representation of the Cryptomatte pass which can be used as a higher contrast
-   image for color picking.
+   A colored representation of the Cryptomatte pass which can be used
+   with a Viewer node to select which crypto passes are used to create the matte image.
 
 
 Usage
 =====
 
 #. Enable Cryptomatte Object render pass in the Passes panel, and render.
-#. In the compositing nodes, create a Cryptomatte node and select the cryptomatte
-   layer.
-#. Attach a Viewer node to the combined pass of the render layers.
-#. Use the Cryptomatte Add/Remove button to sample objects from the compositor backdrop.
+#. In the compositing nodes, create a Cryptomatte node and
+   link the Render Layer matching Image and Cryptomatte passes to it.
+#. Attach a Viewer node to the Pick output of the Cryptomatte node.
+#. Use the Cryptomatte Add/Remove button to sample objects in the Pick Viewer node.
 #. Use the Matte output of the Cryptomatte node to get the alpha mask.
 
-The image/uv editor, node backdrop or movie clip editor can be used to pick a cryptomatte sample.
-They don't need to show any cryptomatte layer. The node will use the sample image coordinate to
-sample in the cryptomatte layer that is selected in the node.
+
+Adding/Removing Layers
+----------------------
+
+By default there are only four crypto layers available as inputs to the Cryptomatte node.
+You can add or remove layer inputs through
+:menuselection:`Sidebar --> Item --> Properties --> Add/Remove Crypto Layer`.
+These operators will add/remove layers from the bottom of the pass inputs.
+
 
 Example
 =======
@@ -86,9 +84,3 @@ On the left side you can see a couple of objects that were selected through the 
 Notice how the cube on the left has a sphere shaped cut-out from a sphere that was not selected in the node.
 
 .. figure:: /images/compositing_types_matte_cryptomatte_example.png
-
-
-Limitations
-===========
-
-* Cryptomatte sidecars are not supported.
