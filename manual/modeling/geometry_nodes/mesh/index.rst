@@ -9,5 +9,5 @@
    boolean.rst
    edge_split.rst
    subdivide.rst
-   subdivide_smooth.rst
+   subdivision_surface.rst
    triangulate.rst

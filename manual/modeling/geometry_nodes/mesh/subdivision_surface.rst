@@ -1,0 +1,35 @@
+.. index:: Geometry Nodes; Subdivision Surface
+.. _bpy.types.GeometryNodeSubdivisionSurface:
+
+*******************
+Subdivision Surface
+*******************
+
+.. figure:: /images/modeling_modifiers_nodes_subdivision-surface.png
+   :align: right
+
+   The Subdivision Surface Node.
+
+The *Subdivision Surface* node adds new faces to mesh geometry using a Catmull-Clark subdivision method.
+
+
+Inputs
+======
+
+Geometry
+   Standard geometry input.
+
+Level
+   The number of subdivisions to apply to the input geometry.
+Creases
+   Control how smooth edges should be with :ref:`modifiers-generate-subsurf-creases`.
+Boundary Smooth
+   Controls if open boundaries and corners are smooth.
+Smooth UVs
+   Controls if subdivision smooth is applied to UVs.
+
+Outputs
+=======
+
+Geometry
+   Standard geometry output.
