@@ -17,7 +17,7 @@ For the final render the node outputs false.
 Inputs
 ======
 
-This node has no Inputs.
+This node has no inputs.
 
 
 Properties

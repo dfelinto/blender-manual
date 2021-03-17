@@ -113,7 +113,7 @@ Input Nodes
 -----------
 
 Ambient Occlusion
-   Sample count is not used.
+   The sample count is not used.
 
 Camera Data
    Everything is compatible.

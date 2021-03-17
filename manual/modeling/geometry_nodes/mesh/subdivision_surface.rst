@@ -28,6 +28,13 @@ Boundary Smooth
 Smooth UVs
    Controls if subdivision smooth is applied to UVs.
 
+
+Properties
+==========
+
+This node has no properties.
+
+
 Outputs
 =======
 

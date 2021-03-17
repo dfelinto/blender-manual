@@ -159,7 +159,7 @@ Other attributes are listed below:
 ``geom:dupli_uv``
    For instances, UV coordinate from instancer object.
 ``geom:trianglevertices``
-   3 vertex coordinates of the triangle.
+   Three vertex coordinates of the triangle.
 ``geom:numpolyvertices``
    Number of vertices in the polygon (always returns three currently).
 ``geom:polyvertices``

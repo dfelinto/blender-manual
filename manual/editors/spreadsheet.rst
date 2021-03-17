@@ -10,6 +10,7 @@ Spreadsheet
 
 The Spreadsheet editor is used to debug geometry attributes.
 
+
 Header
 ======
 
@@ -19,7 +20,7 @@ Geometry Component Type
    Mesh
       Mesh component containing point, corner, polygon and edge data.
    Point Cloud
-      Point cloud component containg only point data.
+      Point cloud component containing only point data.
 
 Attribute Domain
    Attribute domain to display.
@@ -38,14 +39,16 @@ Toggle Pin
    When an object is pinned, its data remains visible, even if another object becomes active.
 
 Selected Only
-   This option is only available if the object is in edit mode.
+   This option is only available if the object is in Edit Mode.
    When checked, only data for the selected mesh elements is shown.
+
 
 Main Region
 ===========
 
 The main view allows you to view the actual spreadsheet.
 Row indices and column names remain visible when scrolling down or to the side.
+
 
 Status Bar
 ==========

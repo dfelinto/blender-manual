@@ -66,8 +66,9 @@ Volumetrics
 Depth of Field
 ==============
 
-- Alpha blended surfaces cannot be correctly handled by the post-processing blur, but will be correctly handled by the
-  sample based method. For this, you need to disable the post-process depth of field by setting the *Max Size* to 0.
+- Alpha blended surfaces cannot be correctly handled by the post-processing blur,
+  but will be correctly handled by the sample-based method. For this, you need to
+  disable the post-process depth of field by setting the *Max Size* to 0.
 
 
 Screen Space Effects

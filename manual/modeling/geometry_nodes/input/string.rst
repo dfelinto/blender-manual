@@ -1,8 +1,6 @@
 .. index:: Geometry Nodes; String
 .. _bpy.types.FunctionNodeInputString:
 
-.. _input-string-node:
-
 ******
 String
 ******
@@ -19,7 +17,7 @@ to make using the same attribute name in multiple places more convenient.
 Inputs
 ======
 
-This node has no Inputs.
+This node has no inputs.
 
 
 Properties

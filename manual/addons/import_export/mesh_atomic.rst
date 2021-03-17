@@ -86,7 +86,7 @@ the origin (0.0, 0.0, 0.0) of the 3D world.
 Balls/Atoms
 -----------
 
-Type of
+Type Of
    Choose either *NURBS*, *Mesh* or *Metaballs* for the atoms.
    For option *Mesh* the *Azimuth* and *Zenith* values can be chosen.
    Metaballs can lead to some fancy effects: for instance,

@@ -29,14 +29,16 @@ Result
 
    The resulting vector is not normalized.
 
+
 Properties
 ==========
 
 X, Y, Z
    Attribute
       The input is a text field that expects an attribute name.
-   Float 
+   Float
       The input is a float number.
+
 
 Output
 ======

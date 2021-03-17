@@ -24,7 +24,7 @@ They also have a radius property, only useful for the envelope deformation metho
 
 Roll
 ====
- 
+
 Activating the :ref:`Axes <bpy.types.Armature.show_axes>`
 checkbox will show local axes for each bone's tip. The Y axis is always aligned along the bone,
 oriented from root to tip, this is the "roll" axis of the bones.

@@ -17,7 +17,8 @@ will be updated accordingly.
 
 Library overrides supports:
 
-- Multiple independent overrides of a same linked data (e.g. having the same character multiple times in the same scene).
+- Multiple independent overrides of a same linked data
+  (e.g. having the same character multiple times in the same scene).
 - Adding new modifiers and constraints, anywhere in the stack.
 - Recursively chaining overrides (i.e. link and override overrides from another library file, etc.).
 
@@ -93,15 +94,12 @@ Editing an Override
 
 Essentially, an override is edited the same way as a regular local data-block.
 You can use operators on them, edit their properties from various editors, etc.
-
 There are some limitations however, most notably Edit Mode is not allowed for overrides.
-
 In most cases, as soon as you edit a property, you can see that it's overridden by its teal blue
 outline/background.
 
 You can also animate overrides, animated properties just replace/supersede overrides then.
 Note that you cannot override-edit an existing animation, you'll have to create a new action.
-
 You can manually define or remove an override from the context menu of the relevant property.
 
 
@@ -117,7 +115,7 @@ Define Overrides
    :Property:  :menuselection:`Context Menu --> Define Overrides`
                :menuselection:`Context Menu --> Define Override`
 
-Mark a property to be overridden in the local blend file. For array properties
+Mark a property to be overridden in the local blend-file. For array properties
 all elements will be overridden.
 
 
@@ -130,7 +128,7 @@ Define Single Override
    :Mode:      Object Mode
    :Property:  :menuselection:`Context Menu --> Define Single Override`
 
-Mark a property to be overridden in the local blend file. For array properties only
+Mark a property to be overridden in the local blend-file. For array properties only
 the selected element will be overridden.
 
 
@@ -146,7 +144,7 @@ Remove Overrides
    :Property:  :menuselection:`Context Menu --> Remove Overrides`
                :menuselection:`Context Menu --> Remove Override`
 
-Remove the property from the overrides. The value of the linked in data block will be used.
+Remove the property from the overrides. The value of the linked in data-block will be used.
 For array properties all elements will be removed from the override.
 
 
@@ -159,7 +157,7 @@ Remove Single Override
    :Mode:      Object Mode
    :Property:  :menuselection:`Context Menu --> Remove Single Override`
 
-Remove the property from the overrides. The value of the linked in data block will be used.
+Remove the property from the overrides. The value of the linked in data-block will be used.
 For array properties only the selected elements will be removed from the override.
 
 
@@ -173,7 +171,7 @@ Reset Library Override
    :Outliner:  :menuselection:`Context Menu --> ID Data --> Reset Library Override`
                :menuselection:`Context Menu --> ID Data --> Reset Library Override Hierarchy`
 
-Reset the override to its original values. `Reset Library Override Hierarchy` will also reset
+Reset the override to its original values. *Reset Library Override Hierarchy* will also reset
 the overrides of its child data-blocks.
 
 
@@ -201,4 +199,4 @@ Delete Library Override Hierarchy
    :Outliner:  :menuselection:`Context Menu --> ID Data --> Delete Library Override Hierarchy`
 
 Remove the library override from the selected data-block and all its children and replace them with
-the original linked data-block. This will revert the `Make Library Override`.
+the original linked data-block. This will revert the *Make Library Override*.

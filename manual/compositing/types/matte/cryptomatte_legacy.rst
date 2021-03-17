@@ -15,12 +15,12 @@ or another compositor with Cryptomatte support to create masks for specified obj
 Unlike the Material and Object Index passes, the objects to isolate are selected in compositing,
 and mattes will be anti-aliased and take into account effects like motion blur and transparency.
 
+.. important::
 
-.. note::
+   The Cryptomatte Legacy node is deprecated and replaced by
+   :doc:`Cryptomatte Node </compositing/types/matte/cryptomatte>`.
+   The legacy node will be removed in a future Blender release.
 
-    The Cryptomatte Legacy node is deprecated and replaced by
-    :doc:`Crytomatte Node</compositing/types/matte/cryptomatte>`.
-    The legacy node will be removed in a future Blender release.
 
 Inputs
 ======

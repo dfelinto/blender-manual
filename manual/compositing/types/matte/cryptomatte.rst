@@ -27,7 +27,7 @@ Properties
 ==========
 
 Source
-   The source of the cryptomatte data.
+   The source of the Cryptomatte data.
 
    Render
       Use Cryptomatte data that are stored as part of the render.
@@ -58,7 +58,7 @@ Outputs
 Image
    A colored output of the input image with the matte applied to only include selected layers.
 Matte
-   A black-and-white alpha mask of the all the selected crypto layers.
+   A black-and-white alpha mask of all the selected crypto layers.
 Pick
    A colored representation of the Cryptomatte pass which can be used as a higher contrast
    image for color picking.
@@ -68,15 +68,15 @@ Usage
 =====
 
 #. Enable Cryptomatte Object render pass in the Passes panel, and render.
-#. In the compositing nodes, create a Cryptomatte node and select the cryptomatte
-   layer.
+#. In the compositing nodes, create a Cryptomatte node and select the Cryptomatte layer.
 #. Attach a Viewer node to the combined pass of the render layers.
-#. Use the Cryptomatte Add/Remove button to sample objects from the compositor backdrop.
+#. Use the Cryptomatte Add/Remove button to sample objects from the Compositor backdrop.
 #. Use the Matte output of the Cryptomatte node to get the alpha mask.
 
-The image/uv editor, node backdrop or movie clip editor can be used to pick a cryptomatte sample.
-They don't need to show any cryptomatte layer. The node will use the sample image coordinate to
-sample in the cryptomatte layer that is selected in the node.
+The Image editor, UV editor, node backdrop or Movie Clip editor can be used to pick a Cryptomatte sample.
+They don't need to show any Cryptomatte layer. The node will use the sample image coordinate to
+sample in the Cryptomatte layer that is selected in the node.
+
 
 Example
 =======
@@ -91,5 +91,5 @@ Notice how the cube on the left has a sphere shaped cut-out from a sphere that w
 Limitations
 ===========
 
-* Cryptomatte sidecars are not supported.
-* Cryptomatte node cannot be used in node groups.
+- Cryptomatte sidecars (metadata files) are not supported.
+- Cryptomatte node cannot be used in node groups.

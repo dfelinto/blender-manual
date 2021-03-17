@@ -84,13 +84,13 @@ Keyframe Animation
 
 This example shows you how to animate a cube's location, rotation, and scale.
 
-#. First, in the *Timeline*, or other animation editors, set the frame to 1.
-#. With the *Cube* selected in *Object Mode*, press :kbd:`I` in the 3D Viewport.
-#. From the *Insert Keyframe Menu* select *LocRotScale*.
-   This will record the location, rotation, and scale, for the *Cube* on frame 1.
+#. First, in the Timeline, or other animation editors, set the frame to 1.
+#. With the cube selected in Object Mode, press :kbd:`I` in the 3D Viewport.
+   From the *Insert Keyframe* menu select *LocRotScale*.
+   This will record the location, rotation, and scale, for the cube on frame 1.
 #. Set the frame to 100.
 #. Use Move :kbd:`G`, Rotate :kbd:`R`, Scale :kbd:`S`, to transform the cube.
-#. Press :kbd:`I` in the 3D Viewport. From the *Insert Keyframe Menu*, select *LocRotScale*.
+#. Press :kbd:`I` in the 3D Viewport. From the *Insert Keyframe* menu, select *LocRotScale*.
 
 To test the animation, press :kbd:`Spacebar` to play.
 

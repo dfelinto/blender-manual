@@ -33,7 +33,7 @@ Properties
 Type
    Attribute
       The input is a text field that expects an attribute name.
-   Vector 
+   Vector
       The input is a vector of three float numbers.
 
 

@@ -21,14 +21,14 @@ Save
       are created on demand. To save these previews into your blend-file,
       enable this option (at the cost of increasing the size of your blend-file).
 
-Default to
+Default To
    Relative Paths
       Default value for :ref:`Relative Paths <files-blend-relative_paths>` when loading external files
-      such as images, sounds, and linked libraries. Ignored if a path is already set.
+      such as images, sounds, and linked libraries. It will be ignored if a path is already set.
    Compress File
-      Default value for :ref:`Compress file <files-blend-compress>` when saving blend files.
+      Default value for :ref:`Compress file <files-blend-compress>` when saving blend-files.
    Load UI
-      Default value for :ref:`Load UI <file-load-ui>` when loading blend files.
+      Default value for :ref:`Load UI <file-load-ui>` when loading blend-files.
 
 Text Files
    Tabs as Spaces

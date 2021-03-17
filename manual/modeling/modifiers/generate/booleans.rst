@@ -69,7 +69,7 @@ Collection
    which can be useful in combination with the Self option).
 
 Solver
-   Algorithm used to calculate the boolean intersections.
+   Algorithm used to calculate the Boolean intersections.
 
    :Fast:
       Uses a mathematically simple solver which offers the best performance;
@@ -87,13 +87,13 @@ Self :guilabel:`Exact Solver`
    Correctly calculates cases when one or both operands have self-intersections,
    this involves more calculations making it slower.
 
-Hole Tollerent :guilabel:`Exact Solver`
-   Optimizes the boolean output for :term:`Non-manifold`
-   geometry at the cost of increased computational time.
+Hole Tolerant :guilabel:`Exact Solver`
+   Optimizes the Boolean output for :term:`Non-manifold` geometry
+   at the cost of increased computational time.
    Because of the performance impact, this option should only be enabled
    when the *Exact* solver demonstrates errors with non-manifold geometry.
 
 Overlap Threshold :guilabel:`Fast Solver`
    Maximum distance between two faces to consider them as overlapping.
    This helps solve the limitation of this solver,
-   if the boolean result seems unexpected try using the exact solver.
+   if the Boolean result seems unexpected try using the exact solver.

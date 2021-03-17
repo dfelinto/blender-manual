@@ -35,7 +35,7 @@ See :ref:`tool-select-circle`.
 
 .. _bpy.ops.clip.select_all:
 
-(De)Select All
+(De)select All
 ==============
 
 .. admonition:: Reference
