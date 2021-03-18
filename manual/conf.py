@@ -16,6 +16,8 @@
 import sys
 import os
 
+# Sphinx errors out on single threaded builds see T86621
+sys.setrecursionlimit(2000)
 
 # -----------------------------------------------------------------------------
 # Local Vars
