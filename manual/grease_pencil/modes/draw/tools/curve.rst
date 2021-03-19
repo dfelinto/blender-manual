@@ -32,13 +32,13 @@ Thickness Profile
 
 .. list-table:: Different thickness profile samples.
 
-   * - .. figure:: /images/grease-pencil_modes_draw_tool-settings_curve_thickness-profile-01.png
+   * - .. figure:: /images/grease-pencil_modes_draw_tools_curve_thickness-profile-01.png
           :width: 200px
 
-     - .. figure:: /images/grease-pencil_modes_draw_tool-settings_curve_thickness-profile-02.png
+     - .. figure:: /images/grease-pencil_modes_draw_tools_curve_thickness-profile-02.png
           :width: 200px
 
-     - .. figure:: /images/grease-pencil_modes_draw_tool-settings_curve_thickness-profile-03.png
+     - .. figure:: /images/grease-pencil_modes_draw_tools_curve_thickness-profile-03.png
           :width: 200px
 
 
@@ -69,17 +69,17 @@ or decrease the amount of points in the final curve.
 
 .. list-table::
 
-   * - .. figure:: /images/grease-pencil_modes_draw_tool-settings_curve_example-01.png
+   * - .. figure:: /images/grease-pencil_modes_draw_tools_curve_example-01.png
           :width: 200px
 
           click and dragging the start point.
 
-     - .. figure:: /images/grease-pencil_modes_draw_tool-settings_curve_example-02.png
+     - .. figure:: /images/grease-pencil_modes_draw_tools_curve_example-02.png
           :width: 200px
 
           Tweaking curve with the manipulators.
 
-     - .. figure:: /images/grease-pencil_modes_draw_tool-settings_curve_example-03.png
+     - .. figure:: /images/grease-pencil_modes_draw_tools_curve_example-03.png
           :width: 200px
 
           The curve after confirming.
@@ -93,17 +93,17 @@ to generate multiple connected curves.
 
 .. list-table::
 
-   * - .. figure:: /images/grease-pencil_modes_draw_tool-settings_curve_extrude-01.png
+   * - .. figure:: /images/grease-pencil_modes_draw_tools_curve_extrude-01.png
           :width: 200px
 
           End point extruding.
 
-     - .. figure:: /images/grease-pencil_modes_draw_tool-settings_curve_extrude-02.png
+     - .. figure:: /images/grease-pencil_modes_draw_tools_curve_extrude-02.png
           :width: 200px
 
           Tweaking the last curve with the manipulators.
 
-     - .. figure:: /images/grease-pencil_modes_draw_tool-settings_curve_extrude-03.png
+     - .. figure:: /images/grease-pencil_modes_draw_tools_curve_extrude-03.png
           :width: 200px
 
           The connected curves after confirming.

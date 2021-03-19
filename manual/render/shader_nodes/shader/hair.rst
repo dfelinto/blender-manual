@@ -23,12 +23,12 @@ Color
 Offset
    Controls the way the light is rotated (angular shift) for the reflection/transmission.
 
-   .. figure:: /images/render_shader-nodes_shader_hair-bsdf_reflect-offset.png
+   .. figure:: /images/render_shader-nodes_shader_hair_reflect-offset.png
       :align: center
 
       Reflection Offset.
 
-   .. figure:: /images/render_shader-nodes_shader_hair-bsdf_trans-offset.png
+   .. figure:: /images/render_shader-nodes_shader_hair_trans-offset.png
       :align: center
 
       Transmission Offset.
@@ -38,11 +38,11 @@ Roughness U/V
 
    .. list-table::
 
-      * - .. figure:: /images/render_shader-nodes_shader_hair-bsdf_reflect-roughness-uv.png
+      * - .. figure:: /images/render_shader-nodes_shader_hair_reflect-roughness-uv.png
 
              Reflection Roughness.
 
-        - .. figure:: /images/render_shader-nodes_shader_hair-bsdf_trans-roughness-uv.png
+        - .. figure:: /images/render_shader-nodes_shader_hair_trans-roughness-uv.png
 
              Transmission Roughness.
 
@@ -62,7 +62,7 @@ Component
    Transmission
       The light that passes through the hair and comes out the other side.
 
-   .. figure:: /images/render_shader-nodes_shader_hair-bsdf_mix-node.png
+   .. figure:: /images/render_shader-nodes_shader_hair_mix-node.png
       :align: center
 
       With Mix node: 0 is full Reflection, 1 is full Transmission.

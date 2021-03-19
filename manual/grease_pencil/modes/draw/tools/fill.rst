@@ -106,17 +106,17 @@ the boundary and create a new closed stroke filled with the material selected.
 
 .. list-table::
 
-   * - .. figure:: /images/grease-pencil_modes_draw_tool-settings_fill_example-01.png
+   * - .. figure:: /images/grease-pencil_modes_draw_tools_fill_example-01.png
           :width: 200px
 
           Original Drawing.
 
-     - .. figure:: /images/grease-pencil_modes_draw_tool-settings_fill_example-02.png
+     - .. figure:: /images/grease-pencil_modes_draw_tools_fill_example-02.png
           :width: 200px
 
           Use the fill tool to leak materials on closed areas.
 
-     - .. figure:: /images/grease-pencil_modes_draw_tool-settings_fill_example-03.png
+     - .. figure:: /images/grease-pencil_modes_draw_tools_fill_example-03.png
           :width: 200px
 
           Final filled drawing.
@@ -131,17 +131,17 @@ To create a Boundary Strokes use :kbd:`Alt-LMB` and draw a line to close the des
 
 .. list-table::
 
-   * - .. figure:: /images/grease-pencil_modes_draw_tool-settings_fill_boundary-strokes-01.png
+   * - .. figure:: /images/grease-pencil_modes_draw_tools_fill_boundary-strokes-01.png
           :width: 200px
 
           Original Drawing.
 
-     - .. figure:: /images/grease-pencil_modes_draw_tool-settings_fill_boundary-strokes-02.png
+     - .. figure:: /images/grease-pencil_modes_draw_tools_fill_boundary-strokes-02.png
           :width: 200px
 
           Add Boundary Strokes to close open areas (red lines).
 
-     - .. figure:: /images/grease-pencil_modes_draw_tool-settings_fill_boundary-strokes-03.png
+     - .. figure:: /images/grease-pencil_modes_draw_tools_fill_boundary-strokes-03.png
           :width: 200px
 
           Use Fill Tool to leak material on the new closed area.

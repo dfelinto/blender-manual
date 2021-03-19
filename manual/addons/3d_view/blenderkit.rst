@@ -88,7 +88,7 @@ BlenderKit Profile Panel
 
    :Panel:     :menuselection:`Sidebar --> BlenderKit --> BlenderKit Profile`
 
-.. figure:: /images/addons_3d-view_blenderkit_sidebar-search_bkprofile.jpg
+.. figure:: /images/addons_3d-view_blenderkit_sidebar-search-bkprofile.jpg
    :align: right
    :width: 300px
 
@@ -106,7 +106,7 @@ BlenderKit Login Panel
 
    :Panel:     :menuselection:`Sidebar --> BlenderKit --> BlenderKit Login`
 
-.. figure:: /images/addons_3d-view_blenderkit_sidebar-search_login.jpg
+.. figure:: /images/addons_3d-view_blenderkit_sidebar-search-login.jpg
    :align: right
    :width: 300px
 

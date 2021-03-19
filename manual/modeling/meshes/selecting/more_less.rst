@@ -21,7 +21,7 @@ Face Step
    When deactivated, it will be based on either vertices or edges depending on which
    :doc:`Selection Mode </modeling/meshes/selecting/introduction>` is active.
 
-.. figure:: /images/modeling_meshes_selecting_more-less.png
+.. figure:: /images/modeling_meshes_selecting_more-less_example.png
 
    (From left to right) initial selection, without Face Step,
    with Face Step, and in edge selection mode.

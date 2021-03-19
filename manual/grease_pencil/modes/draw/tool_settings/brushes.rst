@@ -3,7 +3,7 @@
 Brushes
 *******
 
-.. figure:: /images/grease-pencil_modes_draw_tool-settings_brushes_fill-brush_data-block.png
+.. figure:: /images/grease-pencil_modes_draw_tool-settings_brushes_fill-brush-data-block.png
    :align: right
 
    Brush data-block panel.

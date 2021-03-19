@@ -32,13 +32,13 @@ Thickness Profile
 
 .. list-table:: Different thickness profile samples.
 
-   * - .. figure:: /images/grease-pencil_modes_draw_tool-settings_polyline_thickness-profile-01.png
+   * - .. figure:: /images/grease-pencil_modes_draw_tools_polyline_thickness-profile-01.png
           :width: 200px
 
-     - .. figure:: /images/grease-pencil_modes_draw_tool-settings_polyline_thickness-profile-02.png
+     - .. figure:: /images/grease-pencil_modes_draw_tools_polyline_thickness-profile-02.png
           :width: 200px
 
-     - .. figure:: /images/grease-pencil_modes_draw_tool-settings_polyline_thickness-profile-03.png
+     - .. figure:: /images/grease-pencil_modes_draw_tools_polyline_thickness-profile-03.png
           :width: 200px
 
 
@@ -68,17 +68,17 @@ will increase or decrease the amount of points in the final line.
 
 .. list-table::
 
-   * - .. figure:: /images/grease-pencil_modes_draw_tool-settings_polyline_example-01.png
+   * - .. figure:: /images/grease-pencil_modes_draw_tools_polyline_example-01.png
           :width: 200px
 
           click and dragging the start point.
 
-     - .. figure:: /images/grease-pencil_modes_draw_tool-settings_polyline_example-02.png
+     - .. figure:: /images/grease-pencil_modes_draw_tools_polyline_example-02.png
           :width: 200px
 
           Click multiple times to create multiple connected lines.
 
-     - .. figure:: /images/grease-pencil_modes_draw_tool-settings_polyline_example-03.png
+     - .. figure:: /images/grease-pencil_modes_draw_tools_polyline_example-03.png
           :width: 200px
 
           The polyline after confirming.

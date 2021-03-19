@@ -186,13 +186,13 @@ Click and hold :kbd:`LMB` or use the pen tip to make free-hand drawing on the vi
 
 .. list-table:: Drawing free-hand strokes.
 
-   * - .. figure:: /images/grease-pencil_modes_draw_tool-settings_draw_free-hand-01.png
+   * - .. figure:: /images/grease-pencil_modes_draw_tools_draw_free-hand-01.png
           :width: 200px
 
-     - .. figure:: /images/grease-pencil_modes_draw_tool-settings_draw_free-hand-02.png
+     - .. figure:: /images/grease-pencil_modes_draw_tools_draw_free-hand-02.png
           :width: 200px
 
-     - .. figure:: /images/grease-pencil_modes_draw_tool-settings_draw_free-hand-03.png
+     - .. figure:: /images/grease-pencil_modes_draw_tools_draw_free-hand-03.png
           :width: 200px
 
 
@@ -204,11 +204,11 @@ on the brush to have more control while drawing and get smoother lines.
 
 .. list-table:: Drawing strokes using *Stabilize Stroke*.
 
-   * - .. figure:: /images/grease-pencil_modes_draw_tool-settings_draw_stabilizer-01.png
+   * - .. figure:: /images/grease-pencil_modes_draw_tools_draw_stabilizer-01.png
 
-     - .. figure:: /images/grease-pencil_modes_draw_tool-settings_draw_stabilizer-02.png
+     - .. figure:: /images/grease-pencil_modes_draw_tools_draw_stabilizer-02.png
 
-     - .. figure:: /images/grease-pencil_modes_draw_tool-settings_draw_stabilizer-03.png
+     - .. figure:: /images/grease-pencil_modes_draw_tools_draw_stabilizer-03.png
 
 
 Straight Lines

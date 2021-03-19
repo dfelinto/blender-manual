@@ -11,7 +11,7 @@ The *Texture Mapping* Modifier change the strokes texture UV position.
 Options
 =======
 
-.. figure:: /images/grease-pencil_modifiers_color_texture_mapping_panel.png
+.. figure:: /images/grease-pencil_modifiers_color_texture-mapping_panel.png
    :align: right
 
    Texture Mapping.
@@ -66,17 +66,17 @@ Example
 
 .. list-table:: Opacity Factor samples.
 
-   * - .. figure:: /images/grease-pencil_modifiers_color_texture_mapping-1.png
+   * - .. figure:: /images/grease-pencil_modifiers_color_texture-mapping_1.png
           :width: 200px
 
           Rotation: 0°.
 
-     - .. figure:: /images/grease-pencil_modifiers_color_texture_mapping-2.png
+     - .. figure:: /images/grease-pencil_modifiers_color_texture-mapping_2.png
           :width: 200px
 
           Rotation: 45°.
 
-     - .. figure:: /images/grease-pencil_modifiers_color_texture_mapping-3.png
+     - .. figure:: /images/grease-pencil_modifiers_color_texture-mapping_3.png
           :width: 200px
 
           Rotation: 90°.

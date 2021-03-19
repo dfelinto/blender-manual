@@ -36,7 +36,7 @@ Curve Editing Popover
    :Mode:      Edit Mode
    :Panel:     :menuselection:`3D Viewport --> Header --> Curve Editing`
 
-.. figure:: /images/grease-pencil_curve_editing_panel.png
+.. figure:: /images/grease-pencil_modes_edit_curve-editing_panel.png
 
    Curve Editing popover.
 
@@ -68,12 +68,12 @@ Adaptive Resolution
 
    .. list-table:: Adaptive Resolution.
 
-      * - .. figure:: /images/grease-pencil_curve_editing_adaptive_resolution_off.png
+      * - .. figure:: /images/grease-pencil_modes_edit_curve-editing_adaptive-resolution-off.png
              :width: 320px
 
              Off.
 
-        - .. figure:: /images/grease-pencil_curve_editing_adaptive_resolution_on.png
+        - .. figure:: /images/grease-pencil_modes_edit_curve-editing_adaptive-resolution-on.png
              :width: 320px
 
              On.

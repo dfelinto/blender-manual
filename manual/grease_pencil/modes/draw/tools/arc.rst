@@ -32,13 +32,13 @@ Thickness Profile
 
 .. list-table:: Different thickness profile samples.
 
-   * - .. figure:: /images/grease-pencil_modes_draw_tool-settings_arc_thickness-profile-01.png
+   * - .. figure:: /images/grease-pencil_modes_draw_tools_arc_thickness-profile-01.png
           :width: 200px
 
-     - .. figure:: /images/grease-pencil_modes_draw_tool-settings_arc_thickness-profile-02.png
+     - .. figure:: /images/grease-pencil_modes_draw_tools_arc_thickness-profile-02.png
           :width: 200px
 
-     - .. figure:: /images/grease-pencil_modes_draw_tool-settings_arc_thickness-profile-03.png
+     - .. figure:: /images/grease-pencil_modes_draw_tools_arc_thickness-profile-03.png
           :width: 200px
 
 
@@ -69,17 +69,17 @@ will increase or decrease the amount of points in the final arc.
 
 .. list-table::
 
-   * - .. figure:: /images/grease-pencil_modes_draw_tool-settings_arc_example-01.png
+   * - .. figure:: /images/grease-pencil_modes_draw_tools_arc_example-01.png
           :width: 200px
 
           click and dragging the start point.
 
-     - .. figure:: /images/grease-pencil_modes_draw_tool-settings_arc_example-02.png
+     - .. figure:: /images/grease-pencil_modes_draw_tools_arc_example-02.png
           :width: 200px
 
           Tweaking arc with the manipulator.
 
-     - .. figure:: /images/grease-pencil_modes_draw_tool-settings_arc_example-03.png
+     - .. figure:: /images/grease-pencil_modes_draw_tools_arc_example-03.png
           :width: 200px
 
           The arc after confirming.
@@ -93,17 +93,17 @@ to generate multiple connected arcs.
 
 .. list-table::
 
-   * - .. figure:: /images/grease-pencil_modes_draw_tool-settings_arc_extrude-01.png
+   * - .. figure:: /images/grease-pencil_modes_draw_tools_arc_extrude-01.png
           :width: 200px
 
           End point extruding.
 
-     - .. figure:: /images/grease-pencil_modes_draw_tool-settings_arc_extrude-02.png
+     - .. figure:: /images/grease-pencil_modes_draw_tools_arc_extrude-02.png
           :width: 200px
 
           Tweaking the last arc with the manipulator.
 
-     - .. figure:: /images/grease-pencil_modes_draw_tool-settings_arc_extrude-03.png
+     - .. figure:: /images/grease-pencil_modes_draw_tools_arc_extrude-03.png
           :width: 200px
 
           The connected arcs after confirming.

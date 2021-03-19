@@ -5,7 +5,7 @@ Depth of Field
 **************
 
 To render a scene, Eevee uses a pinhole camera model which produces
-a perfectly focused image of the scene. To improve realism, Eevee can simulate
+a perfectly focused image of the scene. For an enhanced realism, Eevee can simulate
 the optical :term:`Depth of Field` using a post-process filter, and a sample-based method.
 The optical settings are located in the :doc:`camera settings </render/cameras>` properties.
 Whereas the quality of the effect can be controlled by the settings found in the present section.
@@ -16,9 +16,9 @@ Whereas the quality of the effect can be controlled by the settings found in the
 
 The post-process method is computed in two passes.
 The first pass is using a blur that fails to produce quality bokeh for highlights but works for the general case.
-The second pass is sprite-based and is reserved for very bright highlights to improve their quality.
-But it is too slow to use for every part of the image.
-So it is only applied to very bright parts of the image that are different from their surroundings.
+Followed by a second pass which is sprite-based and improves only the quality of very bright highlights.
+That is because it is too slow to be applied on every part of the image.
+So it only includes only very bright isolated parts of the image such that are different from their surroundings.
 Which pixels are being processed by second pass can be control with
 the *Sprite Threshold* and *Neighbor Rejection* options.
 
@@ -39,15 +39,15 @@ Max Size
 
 Sprite Threshold
    Minimum brightness a pixel needs to have to be considered by the sprite-based depth of field.
-   Higher values will improve performance but will reduce highlight quality.
-   Brightness is in scene referred color space.
+   Higher values will improve the performance but will also reduce the quality of highlights.
+   Brightness is in the scene's referred color space.
 
 Neighbor Rejection
    Maximum intensity to consider when doing sprite neighborhood rejection.
    This should be set to a brightness value above which there is
-   little visual differences to be noticeable after color management.
-   Lower values will improve the performance but will reduce highlight quality.
-   Brightness is in scene referred color space.
+   small visual differences to be noticeable after color management.
+   Lower values will improve the performance but will also reduce the quality of highlights.
+   Brightness is in the scene's referred color space.
 
 Denoise Amount
    This will reduce the flickering by clamping the color of

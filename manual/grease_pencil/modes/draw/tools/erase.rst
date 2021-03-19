@@ -84,17 +84,17 @@ Dissolve Erasing
 
 .. list-table::
 
-   * - .. figure:: /images/grease-pencil_modes_draw_tool-settings_erase_soft-01.png
+   * - .. figure:: /images/grease-pencil_modes_draw_tools_erase_soft-01.png
           :width: 200px
 
           Original drawing.
 
-     - .. figure:: /images/grease-pencil_modes_draw_tool-settings_erase_soft-02.png
+     - .. figure:: /images/grease-pencil_modes_draw_tools_erase_soft-02.png
           :width: 200px
 
           The eraser affect the transparency of the strokes.
 
-     - .. figure:: /images/grease-pencil_modes_draw_tool-settings_erase_soft-03.png
+     - .. figure:: /images/grease-pencil_modes_draw_tools_erase_soft-03.png
           :width: 200px
 
           Final result.
@@ -111,17 +111,17 @@ Point Erasing
 
 .. list-table::
 
-   * - .. figure:: /images/grease-pencil_modes_draw_tool-settings_erase_point-01.png
+   * - .. figure:: /images/grease-pencil_modes_draw_tools_erase_point-01.png
           :width: 200px
 
           Original drawing.
 
-     - .. figure:: /images/grease-pencil_modes_draw_tool-settings_erase_point-02.png
+     - .. figure:: /images/grease-pencil_modes_draw_tools_erase_point-02.png
           :width: 200px
 
           The eraser delete one point at a time.
 
-     - .. figure:: /images/grease-pencil_modes_draw_tool-settings_erase_point-03.png
+     - .. figure:: /images/grease-pencil_modes_draw_tools_erase_point-03.png
           :width: 200px
 
           Final result.
@@ -138,17 +138,17 @@ Stroke Erasing
 
 .. list-table::
 
-   * - .. figure:: /images/grease-pencil_modes_draw_tool-settings_erase_stroke-01.png
+   * - .. figure:: /images/grease-pencil_modes_draw_tools_erase_stroke-01.png
           :width: 200px
 
           Original drawing.
 
-     - .. figure:: /images/grease-pencil_modes_draw_tool-settings_erase_stroke-02.png
+     - .. figure:: /images/grease-pencil_modes_draw_tools_erase_stroke-02.png
           :width: 200px
 
           The eraser delete one stroke at a time.
 
-     - .. figure:: /images/grease-pencil_modes_draw_tool-settings_erase_stroke-03.png
+     - .. figure:: /images/grease-pencil_modes_draw_tools_erase_stroke-03.png
           :width: 200px
 
           Final result.

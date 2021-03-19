@@ -35,11 +35,11 @@ Click and hold :kbd:`LMB` or use the pen tip to paint onto the stroke points.
 
 .. list-table:: Vertex painting stroke points.
 
-   * - .. figure:: /images/grease-pencil_modes_draw_tool-settings_tint_paint-01.png
+   * - .. figure:: /images/grease-pencil_modes_draw_tools_tint_paint-01.png
           :width: 200px
 
-     - .. figure:: /images/grease-pencil_modes_draw_tool-settings_tint_paint-02.png
+     - .. figure:: /images/grease-pencil_modes_draw_tools_tint_paint-02.png
           :width: 200px
 
-     - .. figure:: /images/grease-pencil_modes_draw_tool-settings_tint_paint-03.png
+     - .. figure:: /images/grease-pencil_modes_draw_tools_tint_paint-03.png
           :width: 200px

@@ -58,17 +58,17 @@ will increase or decrease the amount of points in the final circle.
 
 .. list-table::
 
-   * - .. figure:: /images/grease-pencil_modes_draw_tool-settings_circle_example-01.png
+   * - .. figure:: /images/grease-pencil_modes_draw_tools_circle_example-01.png
           :width: 200px
 
           Click and dragging the start point.
 
-     - .. figure:: /images/grease-pencil_modes_draw_tool-settings_circle_example-02.png
+     - .. figure:: /images/grease-pencil_modes_draw_tools_circle_example-02.png
           :width: 200px
 
           Moving start and end points with manipulators.
 
-     - .. figure:: /images/grease-pencil_modes_draw_tool-settings_circle_example-03.png
+     - .. figure:: /images/grease-pencil_modes_draw_tools_circle_example-03.png
           :width: 200px
 
           The circle after confirming.

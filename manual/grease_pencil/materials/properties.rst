@@ -6,7 +6,7 @@ Properties
 Surface
 =======
 
-.. figure:: /images/grease-pencil_materials_grease-pencil-shader_panel.png
+.. figure:: /images/grease-pencil_materials_properties_panel.png
    :align: right
 
    Shader panel with only Stroke component activated.
@@ -90,22 +90,22 @@ Self Overlap
 
 .. list-table:: Samples of different material strokes mode types and styles.
 
-   * - .. figure:: /images/grease-pencil_materials_grease-pencil-shader_stroke-solid-line.png
+   * - .. figure:: /images/grease-pencil_materials_properties_stroke-solid-line.png
           :width: 130px
 
           Mode Type: Line, Style: Solid.
 
-     - .. figure:: /images/grease-pencil_materials_grease-pencil-shader_stroke-texture-line.png
+     - .. figure:: /images/grease-pencil_materials_properties_stroke-texture-line.png
           :width: 130px
 
           Mode Type: Line, Style: Texture.
 
-     - .. figure:: /images/grease-pencil_materials_grease-pencil-shader_stroke-solid-dot.png
+     - .. figure:: /images/grease-pencil_materials_properties_stroke-solid-dot.png
           :width: 130px
 
           Mode Type: Dot, Style: Solid.
 
-     - .. figure:: /images/grease-pencil_materials_grease-pencil-shader_stroke-texture-dot.png
+     - .. figure:: /images/grease-pencil_materials_properties_stroke-texture-dot.png
           :width: 130px
 
           Mode Type: Dot, Style: Texture.
@@ -206,22 +206,22 @@ Holdout
 
 .. list-table:: Samples of different material fill styles.
 
-   * - .. figure:: /images/grease-pencil_materials_grease-pencil-shader_fill-solid.png
+   * - .. figure:: /images/grease-pencil_materials_properties_fill-solid.png
           :width: 130px
 
           Style: Solid.
 
-     - .. figure:: /images/grease-pencil_materials_grease-pencil-shader_fill-gradient.png
+     - .. figure:: /images/grease-pencil_materials_properties_fill-gradient.png
           :width: 130px
 
           Style: Gradient (Linear).
 
-     - .. figure:: /images/grease-pencil_materials_grease-pencil-shader_fill-gradient-radial.png
+     - .. figure:: /images/grease-pencil_materials_properties_fill-gradient-radial.png
           :width: 130px
 
           Style: Gradient (Radial).
 
-     - .. figure:: /images/grease-pencil_materials_grease-pencil-shader_fill-texture.png
+     - .. figure:: /images/grease-pencil_materials_properties_fill-texture.png
           :width: 130px
 
           Style: Texture.

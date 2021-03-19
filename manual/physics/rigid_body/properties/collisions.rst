@@ -9,7 +9,7 @@ Collisions
    :Panel:     :menuselection:`Physics --> Rigid Body --> Collisions`
 
 .. TODO2.8:
-   .. figure:: /images/physics_rigid-body_properties_collisions.png
+   .. figure:: /images/physics_rigid-body_properties_collisions_panel.png
 
       Rigid Body Collisions panel.
 

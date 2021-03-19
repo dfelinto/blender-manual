@@ -32,13 +32,13 @@ Thickness Profile
 
 .. list-table:: Different thickness profile samples.
 
-   * - .. figure:: /images/grease-pencil_modes_draw_tool-settings_line_thickness-profile-01.png
+   * - .. figure:: /images/grease-pencil_modes_draw_tools_line_thickness-profile-01.png
           :width: 200px
 
-     - .. figure:: /images/grease-pencil_modes_draw_tool-settings_line_thickness-profile-02.png
+     - .. figure:: /images/grease-pencil_modes_draw_tools_line_thickness-profile-02.png
           :width: 200px
 
-     - .. figure:: /images/grease-pencil_modes_draw_tool-settings_line_thickness-profile-03.png
+     - .. figure:: /images/grease-pencil_modes_draw_tools_line_thickness-profile-03.png
           :width: 200px
 
 
@@ -69,17 +69,17 @@ will increase or decrease the amount of points in the final line.
 
 .. list-table::
 
-   * - .. figure:: /images/grease-pencil_modes_draw_tool-settings_line_example-01.png
+   * - .. figure:: /images/grease-pencil_modes_draw_tools_line_example-01.png
           :width: 200px
 
           click and dragging the start point.
 
-     - .. figure:: /images/grease-pencil_modes_draw_tool-settings_line_example-02.png
+     - .. figure:: /images/grease-pencil_modes_draw_tools_line_example-02.png
           :width: 200px
 
           Moving start and end points with manipulators.
 
-     - .. figure:: /images/grease-pencil_modes_draw_tool-settings_line_example-03.png
+     - .. figure:: /images/grease-pencil_modes_draw_tools_line_example-03.png
           :width: 200px
 
           The line after confirming.
@@ -93,17 +93,17 @@ to generate multiple connected lines.
 
 .. list-table::
 
-   * - .. figure:: /images/grease-pencil_modes_draw_tool-settings_line_extrude-01.png
+   * - .. figure:: /images/grease-pencil_modes_draw_tools_line_extrude-01.png
           :width: 200px
 
           End point extruding.
 
-     - .. figure:: /images/grease-pencil_modes_draw_tool-settings_line_extrude-02.png
+     - .. figure:: /images/grease-pencil_modes_draw_tools_line_extrude-02.png
           :width: 200px
 
           Moving the end point of the last line with the manipulator.
 
-     - .. figure:: /images/grease-pencil_modes_draw_tool-settings_line_extrude-03.png
+     - .. figure:: /images/grease-pencil_modes_draw_tools_line_extrude-03.png
           :width: 200px
 
           The connected lines after confirming.
