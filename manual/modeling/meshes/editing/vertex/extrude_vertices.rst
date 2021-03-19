@@ -15,12 +15,12 @@ Extrude vertices as individual vertices, use :kbd:`Alt-E` to access *Extrude Ver
 
 .. list-table::
 
-   * - .. figure:: /images/modeling_meshes_editing_edge_extrude-edges_verts-before.png
+   * - .. figure:: /images/modeling_meshes_editing_vertex_extrude-vertices_verts-before.png
           :width: 320px
 
           Vertex selected.
 
-     - .. figure:: /images/modeling_meshes_editing_edge_extrude-edges_verts-after.png
+     - .. figure:: /images/modeling_meshes_editing_vertex_extrude-vertices_verts-after.png
           :width: 320px
 
           Vertices extrude.

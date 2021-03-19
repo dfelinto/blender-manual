@@ -18,7 +18,7 @@ the :doc:`Pivot Point </editors/3dview/controls/pivot_point/index>`.
 
 The angle of rotation is displayed in the header of the 3D Viewport.
 
-.. figure:: /images/scene-layout_object_editing_transform_basics_rotate-display-values.png
+.. figure:: /images/scene-layout_object_editing_transform_rotate_display-values.png
 
    Rotation values.
 

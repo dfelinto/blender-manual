@@ -18,7 +18,7 @@ The post-process method is computed in two passes.
 The first pass is using a blur that fails to produce quality bokeh for highlights but works for the general case.
 Followed by a second pass which is sprite-based and improves only the quality of very bright highlights.
 That is because it is too slow to be applied on every part of the image.
-So it only includes only very bright isolated parts of the image such that are different from their surroundings.
+So it just includes very bright isolated parts of the image such that are different from their surroundings.
 Which pixels are being processed by second pass can be control with
 the *Sprite Threshold* and *Neighbor Rejection* options.
 

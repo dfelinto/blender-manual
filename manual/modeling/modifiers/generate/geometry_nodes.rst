@@ -7,7 +7,7 @@ Geometry Nodes Modifier
 
 The *Geometry Nodes* modifier creates a modifier with a node group which defines its functionality.
 
-.. figure:: /images/modeling_modifiers_geometry_nodes.png
+.. figure:: /images/modeling_modifiers_generate_geometry-nodes_panel.png
 
    A new Geometry Nodes modifier with a new node group.
 

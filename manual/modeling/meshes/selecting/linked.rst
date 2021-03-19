@@ -38,7 +38,7 @@ Shortest Path
    :Menu:      :menuselection:`Select --> Select Linked --> Shortest Path`
    :Hotkey:    :kbd:`Ctrl-LMB`
 
-.. figure:: /images/modeling_meshes_selecting_shortest-path.png
+.. figure:: /images/modeling_meshes_selecting_linked_shortest-path.png
 
    Select a face or vertex path with :kbd:`Ctrl-LMB`.
 
@@ -96,7 +96,7 @@ Selects all connected faces with a similar angle.
 Sharpness
    Todo.
 
-.. figure:: /images/modeling_meshes_selecting_flat-faces.png
+.. figure:: /images/modeling_meshes_selecting_linked_flat-faces.png
 
 Looking at the image above, when at least one face is selected (as seen on the left),
 *Linked Flat Faces* will select all connecting faces that lie

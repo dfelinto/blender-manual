@@ -69,11 +69,11 @@ Number of Cuts :kbd:`Wheel` or :kbd:`PageUp` / :kbd:`PageDown`
 
    .. list-table::
 
-      * - .. figure:: /images/modeling_meshes_tools_loop_multicut.png
+      * - .. figure:: /images/modeling_meshes_editing_edge_loopcut-slide_multicut.png
 
              Preview of multiple edge loops.
 
-        - .. figure:: /images/modeling_meshes_tools_loop_multicut-after.png
+        - .. figure:: /images/modeling_meshes_editing_edge_loopcut-slide_multicut-after.png
 
              Result of using multiple cuts.
 
@@ -88,11 +88,11 @@ Smoothness :kbd:`Alt-Wheel`
 
    .. list-table::
 
-      * - .. figure:: /images/modeling_meshes_tools_loop_unsmooth.png
+      * - .. figure:: /images/modeling_meshes_editing_edge_loopcut-slide_unsmooth.png
 
              Added edge loops without smoothing.
 
-        - .. figure:: /images/modeling_meshes_tools_loop_smooth.png
+        - .. figure:: /images/modeling_meshes_editing_edge_loopcut-slide_smooth.png
 
              Same edge loops, but with smoothing value.
 

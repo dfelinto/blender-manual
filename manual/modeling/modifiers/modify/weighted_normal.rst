@@ -19,7 +19,7 @@ and custom normals.
 Options
 =======
 
-.. figure:: /images/modeling_modifiers_physics_weighted-normal_panel.png
+.. figure:: /images/modeling_modifiers_modify_weighted-normal_panel.png
    :align: right
    :width: 300px
 

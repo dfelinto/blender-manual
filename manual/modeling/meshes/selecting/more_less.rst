@@ -45,17 +45,17 @@ Next Active
 
 .. list-table::
 
-   * - .. figure:: /images/modeling_meshes_selecting_select-active-1.png
+   * - .. figure:: /images/modeling_meshes_selecting_more-less_select-active-1.png
           :width: 200px
 
           Initial selection.
 
-     - .. figure:: /images/modeling_meshes_selecting_select-active-2.png
+     - .. figure:: /images/modeling_meshes_selecting_more-less_select-active-2.png
           :width: 200px
 
           Using Next Active once.
 
-     - .. figure:: /images/modeling_meshes_selecting_select-active-3.png
+     - .. figure:: /images/modeling_meshes_selecting_more-less_select-active-3.png
           :width: 200px
 
           Using Next Active twice.

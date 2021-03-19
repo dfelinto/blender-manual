@@ -18,7 +18,7 @@ The Curve draw tool allows you to free-hand draw curves.
 Tool Settings
 =============
 
-.. figure:: /images/modeling_curves_editing_other_curve-stroke-panel.png
+.. figure:: /images/modeling_curves_tools_draw_curve-stroke-panel.png
    :align: right
 
    Curve Stroke panel.

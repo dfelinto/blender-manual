@@ -27,7 +27,7 @@ using either :menuselection:`Select --> Edge Loop`.
    In *Vertex* select mode, you can also select edge loops, by using the same hotkeys,
    and clicking on the *edges* (not on the vertices).
 
-.. figure:: /images/modeling_meshes_selecting_edge-loops.png
+.. figure:: /images/modeling_meshes_selecting_loops_edge-loops.png
 
    Longitudinal and latitudinal edge loops.
 
@@ -46,7 +46,7 @@ All boundary edges can be selected by performing a second loop select action on 
 This can be useful for selecting boundaries for meshes that include triangles and n-gons,
 where loop select would not otherwise select the full boundary.
 
-.. figure:: /images/modeling_meshes_selecting_edge-boundary-loops.png
+.. figure:: /images/modeling_meshes_selecting_loops_edge-boundary-loops.png
 
    The second loop select action is shown on the right.
 
@@ -69,7 +69,7 @@ In vertex select mode,
 the same can be accomplished by using :kbd:`Ctrl-Alt` to select an edge,
 which selects the face loop implicitly.
 
-.. figure:: /images/modeling_meshes_selecting_face-loops.png
+.. figure:: /images/modeling_meshes_selecting_loops_face-loops.png
 
    Face loop selection.
 
@@ -77,7 +77,7 @@ This face loop was selected by clicking with :kbd:`Alt-LMB` on an edge,
 in *face* select mode.
 The loop extends perpendicular from the edge that was selected.
 
-.. figure:: /images/modeling_meshes_selecting_face-loops-vertex.png
+.. figure:: /images/modeling_meshes_selecting_loops_face-loops-vertex.png
 
    :kbd:`Alt` versus :kbd:`Ctrl-Alt` in vertex select mode.
 
@@ -114,7 +114,7 @@ using either :menuselection:`Select --> Select Loops --> Edge Rings`.
 
 .. _fig-mesh-select-advanced-loop-ring:
 
-.. figure:: /images/modeling_meshes_selecting_edge-ring.png
+.. figure:: /images/modeling_meshes_selecting_loops_edge-ring.png
 
    A selected edge loop, and a selected edge ring.
 
@@ -150,15 +150,15 @@ While it is possible to use this operator in *Vertex* and *Face* selection modes
 Note that if the selected loop of edges is not closed,
 then all connected edges on the mesh will be considered inside the loop.
 
-.. figure:: /images/modeling_meshes_selecting_inner-region1.png
+.. figure:: /images/modeling_meshes_selecting_loops_inner-region1.png
 
    Loop to Region.
 
-.. figure:: /images/modeling_meshes_selecting_inner-region2.png
+.. figure:: /images/modeling_meshes_selecting_loops_inner-region2.png
 
    This tool handles multiple loops fine, as you can see.
 
-.. figure:: /images/modeling_meshes_selecting_inner-region3.png
+.. figure:: /images/modeling_meshes_selecting_loops_inner-region3.png
 
    This tool handles "holes" just fine as well.
 
@@ -180,6 +180,6 @@ It can operate in any select mode, but when in *Face* mode it will switch to *Ed
 
 All this is much more simple to illustrate with examples:
 
-.. figure:: /images/modeling_meshes_selecting_boundary-loop.png
+.. figure:: /images/modeling_meshes_selecting_loops_boundary-loop.png
 
    Select Boundary Loop does the opposite and forces into Edge Select Mode.

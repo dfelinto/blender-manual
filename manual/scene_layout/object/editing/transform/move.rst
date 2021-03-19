@@ -20,7 +20,7 @@ or element then moves freely according to the mouse pointer's location and camer
 To confirm the action, press :kbd:`LMB`.
 While moving items, the amount of change along the X, Y, and Z axis is displayed in the header of the 3D Viewport.
 
-.. figure:: /images/scene-layout_object_editing_transform_basics_grab-display-values.png
+.. figure:: /images/scene-layout_object_editing_transform_move_grab-display-values.png
 
    Translation Display.
 

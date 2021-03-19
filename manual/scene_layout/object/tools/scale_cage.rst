@@ -17,7 +17,7 @@ Selecting points on the faces of the cube scales along one axis,
 selecting points on the edges of the cube scales along two axes,
 and selecting points on the vertices of the cube scales along all three axes.
 
-.. figure:: /images/scene-layout_object_editing_transform_basics_scale-cage.png
+.. figure:: /images/scene-layout_object_tools_scale-cage_example.png
    :align: center
 
    Scale Cage tool.

@@ -19,14 +19,14 @@ the pointer is moved towards it. If the mouse pointer crosses from the original 
 the :doc:`Pivot Point </editors/3dview/controls/pivot_point/index>`
 to the opposite side, the scale will continue in the negative direction and flip the element.
 
-.. figure:: /images/scene-layout_object_editing_transform_basics_scale-basic-usage.png
+.. figure:: /images/scene-layout_object_editing_transform_scale_basic-usage.png
 
    Basic scale usage. From left to right, the panels show: the original object,
    a scaled down object, a scaled up object and a scale-flipped object.
 
 The amount of scaling will be displayed in the header of the 3D Viewport.
 
-.. figure:: /images/scene-layout_object_editing_transform_basics_scale-display-values.png
+.. figure:: /images/scene-layout_object_editing_transform_scale_display-values.png
 
    Scale values.
 

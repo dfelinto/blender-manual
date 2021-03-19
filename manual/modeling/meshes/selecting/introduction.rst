@@ -25,7 +25,7 @@ Selection Modes
 In *Edit Mode* there are three different selection modes.
 You can enter the different modes by selecting one of the three buttons in the header.
 
-.. figure:: /images/modeling_meshes_selecting_mode-buttons.png
+.. figure:: /images/modeling_meshes_selecting_introduction_mode-buttons.png
    :align: center
 
    Edit Mode selection buttons from right to left: Vertex, Edge, Face.
@@ -66,22 +66,22 @@ without first having to switch mode.
 
 .. list-table:: Selection modes.
 
-   * - .. figure:: /images/modeling_meshes_selecting_vertex-mode-example.png
+   * - .. figure:: /images/modeling_meshes_selecting_introduction_vertex-mode-example.png
           :width: 310px
 
           Vertex mode example.
 
-     - .. figure:: /images/modeling_meshes_selecting_edge-mode-example.png
+     - .. figure:: /images/modeling_meshes_selecting_introduction_edge-mode-example.png
           :width: 310px
 
           Edge mode example.
 
-   * - .. figure:: /images/modeling_meshes_selecting_face-mode-example.png
+   * - .. figure:: /images/modeling_meshes_selecting_introduction_face-mode-example.png
           :width: 310px
 
           Face mode example.
 
-     - .. figure:: /images/modeling_meshes_selecting_mixed-mode-example.png
+     - .. figure:: /images/modeling_meshes_selecting_introduction_mixed-mode-example.png
           :width: 310px
 
           Mixed mode example.
@@ -100,12 +100,12 @@ All selected parts that do not form a complete set in the new mode will be unsel
 
 .. list-table::
 
-   * - .. figure:: /images/modeling_meshes_selecting_edge-mode-example.png
+   * - .. figure:: /images/modeling_meshes_selecting_introduction_edge-mode-example.png
           :width: 310px
 
           Edge mode, the initial selection.
 
-     - .. figure:: /images/modeling_meshes_selecting_face-mode-switched-from-edge.png
+     - .. figure:: /images/modeling_meshes_selecting_introduction_face-mode-switched-from-edge.png
           :width: 310px
 
           Switching to Face mode.
@@ -125,12 +125,12 @@ Or contracting the selection when switching to a lower mode.
 
 .. list-table::
 
-   * - .. figure:: /images/modeling_meshes_selecting_vertex-mode-example.png
+   * - .. figure:: /images/modeling_meshes_selecting_introduction_vertex-mode-example.png
           :width: 310px
 
           Vertex mode, the initial selection.
 
-     - .. figure:: /images/modeling_meshes_selecting_edge-mode-expanding-from-vertex.png
+     - .. figure:: /images/modeling_meshes_selecting_introduction_edge-mode-expanding-from-vertex.png
           :width: 310px
 
           Expanding to Edge mode.
@@ -144,12 +144,12 @@ When enabled, selection isn't occluded by the objects geometry (as if the object
 
 .. list-table::
 
-   * - .. figure:: /images/modeling_meshes_selecting_limit-selection-to-visible-off.png
+   * - .. figure:: /images/modeling_meshes_selecting_introduction_limit-selection-to-visible-off.png
           :width: 310px
 
           X-ray enabled.
 
-     - .. figure:: /images/modeling_meshes_selecting_limit-selection-to-visible-on.png
+     - .. figure:: /images/modeling_meshes_selecting_introduction_limit-selection-to-visible-on.png
           :width: 310px
 
           X-ray disabled.
@@ -253,7 +253,7 @@ This is a limitation with the current selection method, you may workaround this 
 N-Gons in Face Select Mode
 --------------------------
 
-.. figure:: /images/modeling_meshes_selecting_face-mode-ngon-visual-problem.png
+.. figure:: /images/modeling_meshes_selecting_introduction_face-mode-ngon-visual-problem.png
 
    N-gon face having its center dot inside another face.
 

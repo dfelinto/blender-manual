@@ -26,7 +26,7 @@ Axis Sign
       Where *Positive and Negative Axis* select all vertices in a given direction,
       *Aligned Axis* will only select the vertices that are in-line with the active vertex.
 
-.. figure:: /images/modeling_meshes_selecting_side-active_sign.png
+.. figure:: /images/modeling_meshes_selecting_side-of-active_sign.png
 
    While following along the X axis: (from left to right) active vertex, Aligned, Positive, and Negative.
 
