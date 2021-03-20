@@ -11,7 +11,7 @@ Edited Action
 
    :Panel:     :menuselection:`Sidebar --> Edited Action`
 
-.. figure:: /images/editors_nla_properties-modifiers_animation-data-panel.png
+.. figure:: /images/editors_nla_sidebar_animation-data-panel.png
 
    Edited Action panel.
 
@@ -103,7 +103,7 @@ Active Strip
 
    :Panel:     :menuselection:`Sidebar --> Strip --> Active Strip`
 
-.. figure:: /images/editors_nla_properties-modifiers_active-strip-panel.png
+.. figure:: /images/editors_nla_sidebar_active-strip-panel.png
 
    Active Strip panel.
 
@@ -154,7 +154,7 @@ Action Clip
 
    :Panel:     :menuselection:`Sidebar region --> Animations --> Action Clip`
 
-.. figure:: /images/editors_nla_properties-modifiers_action-clip-panel.png
+.. figure:: /images/editors_nla_sidebar_action-clip-panel.png
 
    Action Clip panel.
 

@@ -3,7 +3,7 @@
 Marker
 ******
 
-.. figure:: /images/movie-clip_tracking_clip_properties_track_marker_parameter.svg
+.. figure:: /images/movie-clip_tracking_clip_sidebar_track_marker_parameter.svg
    :width: 520px
    :align: center
 

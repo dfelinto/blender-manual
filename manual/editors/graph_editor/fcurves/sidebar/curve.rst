@@ -11,7 +11,7 @@ Active F-Curve
 
    :Panel:     :menuselection:`Sidebar region --> F-Curve --> Active F-Curve`
 
-.. figure:: /images/editors_graph-editor_fcurves_properties_active-fcurve-panel.png
+.. figure:: /images/editors_graph-editor_fcurves_sidebar_curve_active-fcurve-panel.png
 
    Active F-Curve panel.
 
@@ -86,7 +86,7 @@ Active Keyframe
 
    :Panel:     :menuselection:`Sidebar region --> F-Curve --> Active Keyframe`
 
-.. figure:: /images/editors_graph-editor_fcurves_properties_active-keyframe-panel.png
+.. figure:: /images/editors_graph-editor_fcurves_sidebar_curve_active-keyframe-panel.png
 
    Active Keyframe panel.
 

@@ -78,7 +78,7 @@ Coefficients
       With a mixture of both negative and positive coefficients you can define more complicated
       mustache distortions or other complex distortions, that are less common but not rare.
 
-      .. figure:: /images/movie_clip_tracking_clip_properties_track_camera_lens_distortion_k.png
+      .. figure:: /images/movie-clip_tracking_clip_sidebar_track_camera_lens-distortion-k.png
 
          Example of radial distortion for positive and negative K coefficients.
 
@@ -92,6 +92,6 @@ Coefficients
       while P2 is for compensating sensor rotation in X (horizontal) axes.
       Such distortions can be found in sources from cameras with a sensor stabilization system.
 
-      .. figure:: /images/movie_clip_tracking_clip_properties_track_camera_lens_distortions_p.png
+      .. figure:: /images/movie-clip_tracking_clip_sidebar_track_camera_lens-distortions-p.png
 
          Example of tangential distortion for P coefficients.

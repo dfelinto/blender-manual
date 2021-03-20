@@ -106,7 +106,7 @@ Object Center
 Particle System
    Brush influence is defined by particles from a selected particle system.
 
-   .. figure:: /images/physics_dynamic-paint_solid_smooth_radius.png
+   .. figure:: /images/physics_dynamic-paint_brush_solid-smooth-radius.png
       :align: right
 
    Effect Solid Radius
@@ -122,7 +122,7 @@ Particle System
       If you set "Smooth Radius" to zero, particle will be painted as a solid sphere.
       If you set "Solid Radius" to zero, it gets painted as a smooth halo.
 
-      .. figure:: /images/physics_dynamic-paint_solid_smooth_radius_values.jpg
+      .. figure:: /images/physics_dynamic-paint_brush_solid-smooth-radius-values.jpg
          :align: center
 
       .. figure:: /images/physics_dynamic-paint_brush_source-particle-system.png

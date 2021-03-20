@@ -87,32 +87,32 @@ Example
 
 .. list-table::
 
-   * - .. figure:: /images/render_eevee_motion-blur_1step_nofx.png
+   * - .. figure:: /images/render_eevee_render-settings_motion-blur_1step-nofx.png
           :width: 310px
 
           No motion blur.
 
-     - .. figure:: /images/render_eevee_motion-blur_1step_fx.png
+     - .. figure:: /images/render_eevee_render-settings_motion-blur_1step-fx.png
           :width: 310px
 
           Only post-process blur.
 
-   * - .. figure:: /images/render_eevee_motion-blur_4step_nofx.png
+   * - .. figure:: /images/render_eevee_render-settings_motion-blur_4step-nofx.png
           :width: 310px
 
           4 time steps without post-process blur.
 
-     - .. figure:: /images/render_eevee_motion-blur_4step_fx.png
+     - .. figure:: /images/render_eevee_render-settings_motion-blur_4step-fx.png
           :width: 310px
 
           4 time steps with post-process blur.
 
-   * - .. figure:: /images/render_eevee_motion-blur_32step_nofx.png
+   * - .. figure:: /images/render_eevee_render-settings_motion-blur_32step-nofx.png
           :width: 310px
 
           32 time steps without post-process blur.
 
-     - .. figure:: /images/render_eevee_motion-blur_32step_fx.png
+     - .. figure:: /images/render_eevee_render-settings_motion-blur_32step-fx.png
           :width: 310px
 
           32 time steps with post-process blur.

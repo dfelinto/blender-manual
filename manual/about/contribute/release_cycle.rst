@@ -7,7 +7,7 @@ A new Blender version is targeted to be released every 3 months.
 The actual `release cycle <https://wiki.blender.org/wiki/Process/Release_Cycle>`__ for a specific release is longer,
 and overlaps the previous and next release cycle.
 
-.. figure:: /images/about_contribute_release_cycle.png
+.. figure:: /images/about_contribute_release-cycle_diagram.png
 
 
 Branches

@@ -3,7 +3,7 @@
 Toolbar
 *******
 
-.. figure:: /images/sculpt-paint_sculpting_tools_brushes.png
+.. figure:: /images/sculpt-paint_sculpting_toolbar_brushes.png
    :align: right
 
 :doc:`/sculpt_paint/sculpting/tools/draw`

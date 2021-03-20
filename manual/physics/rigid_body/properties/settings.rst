@@ -9,7 +9,7 @@ Settings
    :Panel:     :menuselection:`Physics --> Rigid Body --> Settings`
 
 .. TODO2.8:
-   .. figure:: /images/physics_rigid-body_properties_panel.png
+   .. figure:: /images/physics_rigid-body_properties_settings_panel.png
 
       Default rigid body panel.
 

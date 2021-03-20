@@ -1,4 +1,4 @@
-.. |gizmo-icon| image:: /images/scene-layout_object_editing_transform_control_gizmos_header.png
+.. |gizmo-icon| image:: /images/editors_3dview_display_gizmo_header.png
 .. _bpy.types.SpaceView3D.show_gizmo:
 
 ***************
@@ -55,22 +55,22 @@ Scale
 
 .. list-table::
 
-   * - .. figure:: /images/scene-layout_object_editing_transform_control_gizmos_options-translate.png
+   * - .. figure:: /images/editors_3dview_display_gizmo_options-translate.png
           :width: 320px
 
           Move.
 
-     - .. figure:: /images/scene-layout_object_editing_transform_control_gizmos_options-rotate.png
+     - .. figure:: /images/editors_3dview_display_gizmo_options-rotate.png
           :width: 320px
 
           Rotate.
 
-     - .. figure:: /images/scene-layout_object_editing_transform_control_gizmos_options-scale.png
+     - .. figure:: /images/editors_3dview_display_gizmo_options-scale.png
           :width: 320px
 
           Scale.
 
-     - .. figure:: /images/scene-layout_object_editing_transform_control_gizmos_options-all.png
+     - .. figure:: /images/editors_3dview_display_gizmo_options-all.png
           :width: 320px
 
           Combination.

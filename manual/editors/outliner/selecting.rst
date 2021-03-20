@@ -3,7 +3,7 @@
 Selecting and Activating
 ************************
 
-.. figure:: /images/editors_outliner_selection.png
+.. figure:: /images/editors_outliner_selecting_example.png
    :align: right
 
    Selected data-blocks with the Cube active.

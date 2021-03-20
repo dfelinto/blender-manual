@@ -120,11 +120,11 @@ Shadow Terminator Offset
 
    .. list-table::
 
-      * - .. figure:: /images/render_cycles_properties_object_shading_terminator_1.jpg
+      * - .. figure:: /images/render_cycles_object-settings_object-data_1.jpg
 
              Shadow Terminator Artifacts.
 
-        - .. figure:: /images/render_cycles_properties_object_shading_terminator_2.jpg
+        - .. figure:: /images/render_cycles_object-settings_object-data_2.jpg
 
              Result of using an offset of 0.15.
 

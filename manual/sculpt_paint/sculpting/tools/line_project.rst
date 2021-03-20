@@ -45,10 +45,10 @@ Example
 
 .. list-table::
 
-   * - .. figure:: /images/sculpt_paint_sculpting_tool_line_project_before.png
+   * - .. figure:: /images/sculpt-paint_sculpting_tools_line-project_before.png
 
           Before Line Project.
 
-     - .. figure:: /images/sculpt_paint_sculpting_tool_line_project_after.png
+     - .. figure:: /images/sculpt-paint_sculpting_tools_line-project_after.png
 
           After Line Project.

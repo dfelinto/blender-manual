@@ -40,7 +40,7 @@ Strip Proxy & Timecode
 
    :Panel:     :menuselection:`Sidebar region --> Proxy & Timecode --> Strip Proxy & Timecode`
 
-.. figure:: /images/video-editing_sequencer_properties_proxy-cache_panel.png
+.. figure:: /images/video-editing_sequencer_sidebar_proxy_panel.png
    :align: right
 
 Once you have chosen the :term:`Proxy`/:term:`Timecode` parameters,

@@ -7,7 +7,7 @@ Mask
 
 Masking to control which areas of the mesh are influenced by sculpting.
 
-.. figure:: /images/sculpt-paint_sculpting_hide-mask_example.jpg
+.. figure:: /images/sculpt-paint_sculpting_editing_mask_example.jpg
 
    Black part is masked.
 

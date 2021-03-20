@@ -4,7 +4,7 @@
 Output
 ******
 
-.. figure:: /images/render_output_settings_panel.png
+.. figure:: /images/render_output_properties_output_panel.png
 
    Output panel.
 
@@ -84,7 +84,7 @@ Encoding
 
    :Panel:     :menuselection:`Properties --> Output --> Encoding`
 
-.. figure:: /images/render_output_file-formats_video-encoding-panel.png
+.. figure:: /images/render_output_properties_output_video-encoding-panel.png
 
    Encoding panel.
 

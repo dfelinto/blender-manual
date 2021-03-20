@@ -35,7 +35,7 @@ Display
 
 You can set the editors display options in this panel.
 
-.. figure:: /images/editors_image_view-tab_panel.png
+.. figure:: /images/editors_image_sidebar_panel.png
    :align: right
 
    Display panel.
@@ -59,7 +59,7 @@ Options for the annotation tool. See :doc:`/interface/annotate_tool`.
 Scopes
 ======
 
-.. figure:: /images/editors_image_scopes_main.png
+.. figure:: /images/editors_image_sidebar_main.png
    :align: right
 
    Scopes in the Image editor.

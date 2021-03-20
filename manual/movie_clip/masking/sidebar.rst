@@ -6,7 +6,7 @@ Sidebar
 Mask Layer
 ==========
 
-.. figure:: /images/movie-clip_masking_properties_mask-layer-panel.png
+.. figure:: /images/movie-clip_masking_sidebar_mask-layer-panel.png
    :align: right
 
    Mask Layer panel.
@@ -38,12 +38,12 @@ Holes
 
 .. list-table::
 
-   * - .. figure:: /images/movie-clip_masking_properties_example-overlap.png
+   * - .. figure:: /images/movie-clip_masking_sidebar_example-overlap.png
           :width: 320px
 
           The Overlap option example.
 
-     - .. figure:: /images/movie-clip_masking_properties_example-holes.png
+     - .. figure:: /images/movie-clip_masking_sidebar_example-holes.png
           :width: 320px
 
           The Holes option example.
@@ -63,7 +63,7 @@ a single motion tracked point can be used to drive the location of the entire ma
 Active Spline
 =============
 
-.. figure:: /images/movie-clip_masking_properties_active-spline-panel.png
+.. figure:: /images/movie-clip_masking_sidebar_active-spline-panel.png
    :align: right
 
    Active Spline panel.
@@ -93,7 +93,7 @@ Self Intersection Check
 Active Point
 ============
 
-.. figure:: /images/movie-clip_masking_properties_active-point-panel.png
+.. figure:: /images/movie-clip_masking_sidebar_active-point-panel.png
    :align: right
 
    Active Point panel.

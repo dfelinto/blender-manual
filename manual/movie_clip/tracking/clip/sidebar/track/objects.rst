@@ -4,7 +4,7 @@
 Objects Panel
 *************
 
-.. figure:: /images/movie-clip_tracking_clip_properties_track_objects_panel.png
+.. figure:: /images/movie-clip_tracking_clip_sidebar_track_objects_panel.png
    :align: right
    :width: 195px
 

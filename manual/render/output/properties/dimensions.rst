@@ -4,7 +4,7 @@
 Dimensions
 **********
 
-.. figure:: /images/render_output_settings_dimensions-panel.png
+.. figure:: /images/render_output_properties_dimensions_panel.png
 
    Dimensions panel.
 

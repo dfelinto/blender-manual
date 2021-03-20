@@ -25,12 +25,12 @@ from the *View Menu* or using the shortcut :kbd:`NumpadSlash`.
 
 .. list-table::
 
-   * - .. figure:: /images/editors_3dview_navigate_views_local1.png
+   * - .. figure:: /images/editors_3dview_navigate_local-view_local1.png
           :width: 320px
 
           Global View.
 
-     - .. figure:: /images/editors_3dview_navigate_views_local2.png
+     - .. figure:: /images/editors_3dview_navigate_local-view_local2.png
           :width: 320px
 
           Local View.

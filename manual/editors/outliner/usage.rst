@@ -6,7 +6,7 @@ Usage
 Relations Management
 ====================
 
-.. figure:: /images/editors_outliner_relations.png
+.. figure:: /images/editors_outliner_usage_relations.png
    :align: right
 
    Linking objects to a collection.

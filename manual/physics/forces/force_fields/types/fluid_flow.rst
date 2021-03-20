@@ -20,7 +20,7 @@ Options
 =======
 
 .. TODO2.8:
-   .. figure:: /images/physics_forces_force-fields_types_smoke-flow_panel.png
+   .. figure:: /images/physics_forces_force-fields_types_fluid-flow_panel.png
 
       UI for a Fluid Flow force field.
 

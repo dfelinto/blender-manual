@@ -3,7 +3,7 @@
 Introduction
 ************
 
-.. figure:: /images/editors_outliner_interface.png
+.. figure:: /images/editors_outliner_introduction_interface.png
    :align: right
 
    The Outliner editor.
@@ -32,6 +32,6 @@ Holding :kbd:`Shift` when clicking on the disclosure triangle will expand child 
 Example
 =======
 
-.. figure:: /images/editors_outliner_example.png
+.. figure:: /images/editors_outliner_introduction_example.png
 
    The Outliner with different kinds of data.

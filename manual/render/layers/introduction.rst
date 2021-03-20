@@ -19,7 +19,7 @@ allowing you to instead re-render only the layer(s) that you have altered.
 View Layers
 ===========
 
-.. figure:: /images/render_layers_layers_list.png
+.. figure:: /images/render_layers_introduction_list.png
 
    View Layers.
 
@@ -72,7 +72,7 @@ Collections
 Per collection you can adjust the way how the render engine needs to render the objects inside.
 Based on the render engine different options can be set.
 
-.. figure:: /images/render_layers_layers_viewlayer-collection.png
+.. figure:: /images/render_layers_introduction_viewlayer-collection.png
 
    Collection/View layer settings.
 

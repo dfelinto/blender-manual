@@ -22,7 +22,7 @@ For example, it is possible to pan and zoom in the Image editor.
 Navigation Gizmo
 ================
 
-.. figure:: /images/editors_3dview_navigate_navigation_gizmo.png
+.. figure:: /images/editors_3dview_navigate_introduction_gizmo.png
    :align: right
 
    Navigation Gizmo.

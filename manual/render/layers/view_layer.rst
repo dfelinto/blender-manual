@@ -8,7 +8,7 @@ View Layer
 
    :Panel:     :menuselection:`Properties --> Scene --> View Layer`
 
-.. figure:: /images/render_layers_layers_panel.png
+.. figure:: /images/render_layers_view-layer_panel.png
 
    View Layer panel (shown here for the Eevee render engine).
 

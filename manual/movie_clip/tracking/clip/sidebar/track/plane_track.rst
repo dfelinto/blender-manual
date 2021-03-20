@@ -3,7 +3,7 @@
 Plane Track
 ***********
 
-.. figure:: /images/movie-clip_tracking_clip_properties_track_plane-track_panel.png
+.. figure:: /images/movie-clip_tracking_clip_sidebar_track_plane-track_panel.png
    :align: right
    :width: 195px
 

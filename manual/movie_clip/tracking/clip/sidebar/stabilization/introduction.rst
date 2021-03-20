@@ -59,7 +59,7 @@ helps to work around image or tracking errors at some point.
 Moreover, when the footage contains perspective induced movements, symmetrically placed tracking points above
 and below the horizon can be used to cancel out spurious movement and get stabilization to the focal area in between.
 
-.. figure:: /images/movie-clip_tracking_clip_properties_stabilization_introduction_perspective.jpg
+.. figure:: /images/movie-clip_tracking_clip_sidebar_stabilization_introduction_perspective.jpg
    :align: center
    :width: 600px
 
@@ -108,13 +108,13 @@ The only solution to deal with that problem is to move the final image frame alo
 thus following the originally intended panning movement. Of course, this time, we do want to perform this
 newly added panning movement in a smooth and clean way.
 
-.. figure:: /images/movie-clip_tracking_clip_properties_stabilization_introduction_panning.jpg
+.. figure:: /images/movie-clip_tracking_clip_sidebar_stabilization_introduction_panning.jpg
    :align: center
    :width: 600px
 
    Stabilizing a panning shot.
 
-.. figure:: /images/movie-clip_tracking_clip_properties_stabilization_introduction_canvas.jpg
+.. figure:: /images/movie-clip_tracking_clip_sidebar_stabilization_introduction_canvas.jpg
    :align: right
    :width: 400px
 
