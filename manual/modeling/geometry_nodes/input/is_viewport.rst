@@ -5,7 +5,7 @@
 Is Viewport
 ***********
 
-.. figure:: /images/modeling_modifiers_nodes_is-viewport.png
+.. figure:: /images/modeling_geometry-nodes_input_is-viewport_panel.png
    :align: right
 
    Is Viewport Node.

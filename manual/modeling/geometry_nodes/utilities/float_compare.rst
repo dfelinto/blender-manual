@@ -5,7 +5,7 @@
 Float Compare
 *************
 
-.. figure:: /images/modeling_modifiers_nodes_float-compare.png
+.. figure:: /images/modeling_geometry-nodes_utilities_float-compare_panel.png
    :align: right
 
    Float Compare Node.

@@ -5,7 +5,7 @@
 Triangulate
 ***********
 
-.. figure:: /images/modeling_modifiers_nodes_triangulate.png
+.. figure:: /images/modeling_geometry-nodes_mesh_triangulate_panel.png
    :align: right
 
    Triangulate Node.

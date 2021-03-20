@@ -5,7 +5,7 @@
 Attribute Compare
 *****************
 
-.. figure:: /images/modeling_modifiers_nodes_attribute_compare.png
+.. figure:: /images/modeling_geometry-nodes_attribute_attribute-compare_panel.png
    :align: right
 
    The Attribute Compare node.

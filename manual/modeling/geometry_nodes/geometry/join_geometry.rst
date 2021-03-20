@@ -8,7 +8,7 @@ Join Geometry
 The *Join Geometry* node merges separately generated pieces of geometry into a single one.
 If the inputted pieces contain different types of geometry, the output will contain multiple types of geometry.
 
-.. figure:: /images/modeling_modifiers_nodes_join-geometry.png
+.. figure:: /images/modeling_geometry-nodes_geometry_join-geometry_panel.png
 
    The Join Geometry node.
 

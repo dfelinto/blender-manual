@@ -5,7 +5,7 @@
 Point Rotate
 ************
 
-.. figure:: /images/modeling_modifiers_nodes_point-rotate.png
+.. figure:: /images/modeling_geometry-nodes_point_point-rotate_panel.png
    :align: right
 
    The Point Rotate node.

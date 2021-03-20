@@ -4,7 +4,7 @@
 Attribute Combine XYZ
 *********************
 
-.. figure:: /images/modeling_modifiers_nodes_attribute-combine-xyz.png
+.. figure:: /images/modeling_geometry-nodes_attribute_attribute-combine-xyz_panel.png
    :align: right
 
    Attribute Combine XYZ Node.

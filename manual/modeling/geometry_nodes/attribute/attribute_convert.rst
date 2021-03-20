@@ -5,7 +5,7 @@
 Attribute Convert
 *****************
 
-.. figure:: /images/modeling_modifiers_nodes_attribute_convert.png
+.. figure:: /images/modeling_geometry-nodes_attribute_attribute-convert_panel.png
    :align: right
 
    The Attribute Convert node.

@@ -5,7 +5,7 @@
 Attribute Remove
 ****************
 
-.. figure:: /images/modeling_modifiers_nodes_attribute-remove.png
+.. figure:: /images/modeling_geometry-nodes_attribute_attribute-remove_panel.png
    :align: right
    :width: 200px
 

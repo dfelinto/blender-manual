@@ -5,7 +5,7 @@
 Edge Split
 **********
 
-.. figure:: /images/modeling_modifiers_nodes_edge-split.png
+.. figure:: /images/modeling_geometry-nodes_mesh_edge-split_panel.png
    :align: right
 
    The Edge Split Node.

@@ -5,7 +5,7 @@
 Vector
 ******
 
-.. figure:: /images/modeling_modifiers_nodes_vector.png
+.. figure:: /images/modeling_geometry-nodes_input_vector_panel.png
    :align: right
 
    Vector Node.

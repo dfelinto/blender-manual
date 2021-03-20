@@ -7,7 +7,7 @@ Attribute Vector Math
 
 Modify an attribute with a math operation.
 
-.. figure:: /images/modeling_modifiers_nodes_attribute-vector-math.png
+.. figure:: /images/modeling_geometry-nodes_attribute_attribute-vector-math_panel.png
    :align: right
 
    The Attribute Vector Math Node.

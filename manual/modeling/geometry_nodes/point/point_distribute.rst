@@ -5,7 +5,7 @@
 Point Distribute
 ****************
 
-.. figure:: /images/modeling_modifiers_nodes_point-distribute.png
+.. figure:: /images/modeling_geometry-nodes_point_point-distribute_panel.png
    :align: right
 
    The Point Distribute Node.

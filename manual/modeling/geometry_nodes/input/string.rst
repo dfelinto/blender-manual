@@ -5,7 +5,7 @@
 String
 ******
 
-.. figure:: /images/modeling_modifiers_nodes_input-string.png
+.. figure:: /images/modeling_geometry-nodes_input_string_panel.png
    :align: right
 
    String Input Node.

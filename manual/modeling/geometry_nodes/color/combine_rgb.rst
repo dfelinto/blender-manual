@@ -4,7 +4,7 @@
 Combine RGB
 ***********
 
-.. figure:: /images/modeling_modifiers_nodes_combine-rgb.png
+.. figure:: /images/modeling_geometry-nodes_color_combine-rgb_panel.png
    :align: right
 
    Combine RGB Node.

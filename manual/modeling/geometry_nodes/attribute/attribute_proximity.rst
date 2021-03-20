@@ -5,7 +5,7 @@
 Attribute Proximity
 *******************
 
-.. figure:: /images/modeling_modifiers_nodes_attribute-proximity.png
+.. figure:: /images/modeling_geometry-nodes_attribute_attribute-proximity_panel.png
    :align: right
    :width: 200px
 
@@ -61,26 +61,26 @@ The different modes of the node: faces, edges and points.
 In this example the geometry nodes modifier is added on the plane.
 Note that the plane is subdivided and the cube is not.
 
-.. figure:: /images/modeling_modifiers_nodes_attribute-proximity-faces.png
+.. figure:: /images/modeling_geometry-nodes_attribute_attribute-proximity_faces.png
    :align: left
    :width: 205px
 
    Target Geometry mode: faces.
 
-.. figure:: /images/modeling_modifiers_nodes_attribute-proximity-edges.png
+.. figure:: /images/modeling_geometry-nodes_attribute_attribute-proximity_edges.png
    :align: left
    :width: 205px
 
    Target Geometry mode: edges.
 
-.. figure:: /images/modeling_modifiers_nodes_attribute-proximity-points.png
+.. figure:: /images/modeling_geometry-nodes_attribute_attribute-proximity_points.png
    :width: 205px
 
    Target Geometry mode: points.
 
 Be sure to set the mode to points when the target is a point cloud.
 
-.. figure:: /images/modeling_modifiers_nodes_attribute-proximity-pointcloud-target.png
+.. figure:: /images/modeling_geometry-nodes_attribute_attribute-proximity_pointcloud-target.png
    :align: left
    :width: 680px
 

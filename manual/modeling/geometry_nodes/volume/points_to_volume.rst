@@ -5,7 +5,7 @@
 Points to Volume
 ****************
 
-.. figure:: /images/modeling_modifiers_nodes_points-to-volume.png
+.. figure:: /images/modeling_geometry-nodes_volume_points-to-volume_panel.png
    :align: center
 
    The Points to Volume node.

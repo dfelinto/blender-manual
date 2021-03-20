@@ -5,7 +5,7 @@
 Attribute Randomize
 *******************
 
-.. figure:: /images/modeling_modifiers_nodes_attribute-randomize.png
+.. figure:: /images/modeling_geometry-nodes_attribute_attribute-randomize_panel.png
    :align: right
    :width: 200px
 

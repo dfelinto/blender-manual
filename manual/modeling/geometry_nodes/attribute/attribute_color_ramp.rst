@@ -8,7 +8,7 @@ Attribute Color Ramp
 Maps values from a float attribute to their corresponding color, based on a color ramp.
 The resulting colors are stored on the geometry in a color attribute.
 
-.. figure:: /images/modeling_modifiers_nodes_attribute-color-ramp.png
+.. figure:: /images/modeling_geometry-nodes_attribute_attribute-color-ramp_panel.png
    :align: center
 
    Attribute Color Ramp Node.
