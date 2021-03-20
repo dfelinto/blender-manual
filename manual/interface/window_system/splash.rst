@@ -8,7 +8,7 @@ When starting Blender, the splash screen appears in the center of the window.
 It contains options to create new projects or open recently opened blend-files.
 A more detailed description can be found below.
 
-.. figure:: /images/interface_splash_current.png
+.. figure:: /images/interface_window-system_splash_current.png
    :align: center
 
    Blender Splash Screen.

@@ -29,7 +29,7 @@ This can be compensated by animating the parameters for the intentional,
 Options
 =======
 
-.. figure:: /images/movie-clip_tracking_clip_properties_stabilization_panel_panel.png
+.. figure:: /images/movie-clip_tracking_clip_sidebar_stabilization_panel_panel.png
    :align: right
    :width: 213px
 

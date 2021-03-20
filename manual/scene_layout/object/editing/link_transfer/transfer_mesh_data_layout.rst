@@ -15,7 +15,7 @@ Transfers layout of data layer(s) from active to selected meshes.
 Data Type
    Which data to transfer.
 
-   .. figure:: /images/scene-layout_object_editing_relations_menu.png
+   .. figure:: /images/scene-layout_object_editing_link-transfer_transfer-mesh-data_menu.png
 
       Data types.
 

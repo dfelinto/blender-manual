@@ -38,7 +38,7 @@ Display
 
 You can set the editors display options in this panel.
 
-.. figure:: /images/editors_uv_sidebar_panel.png
+.. figure:: /images/editors_uv_sidebar_display-panel.png
    :align: right
 
    Display panel: With both an image and UVs selected.

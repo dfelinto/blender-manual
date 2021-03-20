@@ -64,7 +64,7 @@ keyframe values.
 Interpolation, Extrapolation and Handle Type can also be changed from
 the :doc:`Dope Sheet </editors/dope_sheet/index>` editor.
 
-.. figure:: /images/editors_graph-editor_fcurves_properties_auto-smoothing.png
+.. figure:: /images/editors_graph-editor_fcurves_sidebar_curve_auto-smoothing.png
    :align: center
 
    Handle smoothing modes. Yellow: *None*, Cyan: *Continuous Acceleration*.

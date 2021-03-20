@@ -36,7 +36,7 @@ Go to the :doc:`Output Properties </render/output/index>` and enable *Stereoscop
    When you turn on *Stereoscopy* in the scene, you get 3D preview in the viewport,
    as well as multiple panels that are now accessible all over the user interface.
 
-.. figure:: /images/render_output_stereoscopy_usage_viewport.png
+.. figure:: /images/render_output_properties_stereoscopy_usage_viewport.png
 
    Viewport with 3D visualization.
 
@@ -324,7 +324,7 @@ The compositing of a view is completed before the remaining views start to be co
 The pipeline is the same as the single-view workflow, with the difference that you can use images,
 movies or image sequences in any of the supported multi-view formats.
 
-.. figure:: /images/render_output_stereoscopy_usage_compositor.png
+.. figure:: /images/render_output_properties_stereoscopy_usage_compositor.png
 
    Compositor, backdrop and Split Viewer node.
 

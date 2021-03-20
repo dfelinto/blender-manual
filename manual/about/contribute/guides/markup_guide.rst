@@ -189,7 +189,7 @@ Images
 
 Figures should be used to place images::
 
-   .. figure:: /images/interface_splash_current.png
+   .. figure:: /images/interface_window-system_splash_current.png
 
       Image caption.
 

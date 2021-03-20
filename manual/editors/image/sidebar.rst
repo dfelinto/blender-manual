@@ -59,7 +59,7 @@ Options for the annotation tool. See :doc:`/interface/annotate_tool`.
 Scopes
 ======
 
-.. figure:: /images/editors_image_sidebar_main.png
+.. figure:: /images/editors_image_sidebar_scopes.png
    :align: right
 
    Scopes in the Image editor.
