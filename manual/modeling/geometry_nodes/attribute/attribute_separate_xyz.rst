@@ -4,7 +4,7 @@
 Attribute Separate XYZ
 **********************
 
-.. figure:: /images/modeling_geometry-nodes_attribute_attribute-separate-xyz_panel.png
+.. figure:: /images/modeling_geometry-nodes_attribute_attribute-separate-xyz_node.png
    :align: right
 
    Attribute Separate XYZ Node.

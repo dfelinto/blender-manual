@@ -5,7 +5,7 @@
 Attribute Mix
 *************
 
-.. figure:: /images/modeling_geometry-nodes_attribute_attribute-mix_panel.png
+.. figure:: /images/modeling_geometry-nodes_attribute_attribute-mix_node.png
    :align: right
 
    Attribute Mix Node.

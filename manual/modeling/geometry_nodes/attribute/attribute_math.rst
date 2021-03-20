@@ -7,7 +7,7 @@ Attribute Math
 
 Modify an attribute with a math operation.
 
-.. figure:: /images/modeling_geometry-nodes_attribute_attribute-math_panel.png
+.. figure:: /images/modeling_geometry-nodes_attribute_attribute-math_node.png
    :align: right
 
    The Attribute Math Node.

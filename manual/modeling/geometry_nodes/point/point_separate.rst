@@ -5,7 +5,7 @@
 Point Separate
 **************
 
-.. figure:: /images/modeling_geometry-nodes_point_point-separate_panel.png
+.. figure:: /images/modeling_geometry-nodes_point_point-separate_node.png
    :align: right
 
    The Point Separate node.

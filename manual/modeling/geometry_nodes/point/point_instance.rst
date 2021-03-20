@@ -5,7 +5,7 @@
 Point Instance
 **************
 
-.. figure:: /images/modeling_geometry-nodes_point_point-instance_panel.png
+.. figure:: /images/modeling_geometry-nodes_point_point-instance_node.png
    :align: right
 
    The Point Instance Node.

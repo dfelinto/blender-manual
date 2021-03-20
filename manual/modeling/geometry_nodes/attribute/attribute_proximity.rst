@@ -5,7 +5,7 @@
 Attribute Proximity
 *******************
 
-.. figure:: /images/modeling_geometry-nodes_attribute_attribute-proximity_panel.png
+.. figure:: /images/modeling_geometry-nodes_attribute_attribute-proximity_node.png
    :align: right
    :width: 200px
 

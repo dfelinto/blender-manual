@@ -5,7 +5,7 @@
 Attribute Fill
 **************
 
-.. figure:: /images/modeling_geometry-nodes_attribute_attribute-fill_panel.png
+.. figure:: /images/modeling_geometry-nodes_attribute_attribute-fill_node.png
    :align: right
    :width: 200px
 

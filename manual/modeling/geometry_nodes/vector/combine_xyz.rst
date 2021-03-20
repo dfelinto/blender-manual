@@ -4,7 +4,7 @@
 Combine XYZ
 ***********
 
-.. figure:: /images/modeling_geometry-nodes_vector_combine-xyz_panel.png
+.. figure:: /images/modeling_geometry-nodes_vector_combine-xyz_node.png
    :align: right
 
    Combine XYZ Node.

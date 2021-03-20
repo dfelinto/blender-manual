@@ -5,7 +5,7 @@
 Collection Info
 ***************
 
-.. figure:: /images/modeling_geometry-nodes_input_collection-info_panel.png
+.. figure:: /images/modeling_geometry-nodes_input_collection-info_node.png
    :align: right
 
    Collection Info Node.

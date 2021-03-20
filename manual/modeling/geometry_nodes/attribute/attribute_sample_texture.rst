@@ -5,7 +5,7 @@
 Attribute Sample Texture
 ************************
 
-.. figure:: /images/modeling_geometry-nodes_attribute_attribute-sample-texture_panel.png
+.. figure:: /images/modeling_geometry-nodes_attribute_attribute-sample-texture_node.png
    :align: center
 
    Attribute Sample Texture node.

@@ -5,7 +5,7 @@
 Volume to Mesh
 **************
 
-.. figure:: /images/modeling_geometry-nodes_volume_volume-to-mesh_panel.png
+.. figure:: /images/modeling_geometry-nodes_volume_volume-to-mesh_node.png
    :align: center
 
    The Volume to Mesh node.

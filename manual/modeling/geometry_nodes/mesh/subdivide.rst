@@ -5,7 +5,7 @@
 Subdivide
 *********
 
-.. figure:: /images/modeling_geometry-nodes_mesh_subdivide_panel.png
+.. figure:: /images/modeling_geometry-nodes_mesh_subdivide_node.png
    :align: right
 
    Subdivide Node.

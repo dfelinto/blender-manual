@@ -5,7 +5,7 @@
 Point Scale
 ***********
 
-.. figure:: /images/modeling_geometry-nodes_point_point-scale_panel.png
+.. figure:: /images/modeling_geometry-nodes_point_point-scale_node.png
    :align: right
 
    The Point Scale node.

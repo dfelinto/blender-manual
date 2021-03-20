@@ -4,7 +4,7 @@
 Separate RGB
 ************
 
-.. figure:: /images/modeling_geometry-nodes_color_separate-rgb_panel.png
+.. figure:: /images/modeling_geometry-nodes_color_separate-rgb_node.png
    :align: right
 
    Separate RGB Node.

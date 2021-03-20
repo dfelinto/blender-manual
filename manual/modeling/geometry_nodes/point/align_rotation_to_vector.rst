@@ -5,7 +5,7 @@
 Align Rotation to Vector
 ************************
 
-.. figure:: /images/modeling_geometry-nodes_point_align-rotation-to-vector_panel.png
+.. figure:: /images/modeling_geometry-nodes_point_align-rotation-to-vector_node.png
    :align: right
 
    The Align Rotation to Vector node.

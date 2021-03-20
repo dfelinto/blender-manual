@@ -5,7 +5,7 @@
 Transform
 *********
 
-.. figure:: /images/modeling_geometry-nodes_geometry_transform_panel.png
+.. figure:: /images/modeling_geometry-nodes_geometry_transform_node.png
    :align: right
 
    The Transform node.

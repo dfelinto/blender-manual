@@ -5,7 +5,7 @@
 Object Info
 ***********
 
-.. figure:: /images/modeling_geometry-nodes_input_object-info_panel.png
+.. figure:: /images/modeling_geometry-nodes_input_object-info_node.png
    :align: right
 
    Object Info Node.

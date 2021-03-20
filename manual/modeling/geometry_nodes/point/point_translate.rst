@@ -5,7 +5,7 @@
 Point Translate
 ***************
 
-.. figure:: /images/modeling_geometry-nodes_point_point-translate_panel.png
+.. figure:: /images/modeling_geometry-nodes_point_point-translate_node.png
    :align: right
 
    The Point Translate node.
