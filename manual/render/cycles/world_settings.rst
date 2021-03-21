@@ -47,6 +47,11 @@ Mist Pass
 
    :Panel:     :menuselection:`World --> Mist Pass`
 
+.. note::
+
+   The `Mist` pass must be enabled in the `View Layer Properties` tab of the 
+   :doc:`Properties Editor </editors/properties_editor>` before the settings below are available in the `World` tab.
+
 Mist can greatly enhance the illusion of depth in your rendering. To create mist,
 Blender generates a render layer with a depth map ranging between 0.0 and 1.0
 that can be used in the Compositor to generate a mist effect.
