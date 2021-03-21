@@ -51,14 +51,14 @@ Creates a new face set corresponding to the Edit Mode face selection.
 
 .. _bpy.ops.sculpt.face_sets_init:
 
-Init Face Sets
-==============
+Initialize Face Sets
+====================
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Sculpt Mode
-   :Menu:      :menuselection:`Face Sets --> Init Face Sets`
+   :Menu:      :menuselection:`Face Sets --> Initialize Face Sets`
 
 Initializes all face sets on the mesh at once based off one of several mesh attribute properties.
 
