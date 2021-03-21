@@ -124,10 +124,10 @@ Make Single User
    This feature is not yet implemented.
 Delete
    Deletes the selected data-block.
-Add Library Override
-   Add a local :doc:`override </files/linked_libraries/library_overrides>` of this linked data-block.
-Add Library Override Hierarchy
-   Add a local :doc:`override </files/linked_libraries/library_overrides>` of this linked data-block,
+Make Library Override
+   Make a local :doc:`override </files/linked_libraries/library_overrides>` of this linked data-block.
+Make Library Override Hierarchy
+   Mske a local :doc:`override </files/linked_libraries/library_overrides>` of this linked data-block,
    and its hierarchy of dependencies.
 Convert Proxy to Override
    Converts the selected :doc:`Proxy </files/linked_libraries/library_proxies>`

@@ -39,8 +39,8 @@ Creating an Override
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Relations --> Make Override Library...`
-   :Outliner:  :menuselection:`Context Menu --> ID Data --> Add Library Override Hierarchy`
-               :menuselection:`Context Menu --> ID Data --> Add Library Override`
+   :Outliner:  :menuselection:`Context Menu --> ID Data --> Make Library Override Hierarchy`
+               :menuselection:`Context Menu --> ID Data --> Make Library Override`
 
 There are two ways to create an override of a linked data-block.
 
@@ -58,8 +58,8 @@ You can override a single data-block from two places:
 
 .. _bpy.ops.object.make_override_library:
 
-Make Library Override Operator/Add Library Override Hierarchy
--------------------------------------------------------------
+Make Library Override Operator/Make Library Override Hierarchy
+--------------------------------------------------------------
 
 This operator goes over linked objects or local empties instantiating a linked collection
 (typically, a linked character).
