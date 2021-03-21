@@ -94,3 +94,30 @@ use the file's screen layouts and overriding the current layout.
 See :ref:`Load UI <file-load-ui>`.
 
 A custom set of workspaces can be saved as a part of the :doc:`/getting_started/configuration/defaults`.
+
+
+Workspace Settings
+==================
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Editor:    Properties
+   :Menu:      :menuselection:`Active Tool and Workspace Settings --> Workspace`
+
+.. _bpy.types.WorkSpace.object_mode:
+
+Mode
+   Switch to this :doc:`Mode <manual/editors/3dview/modes.rst>` when activating the workspace.
+
+
+.. _bpy.ops.wm.owner_enable:
+.. _bpy.ops.wm.owner_disable:
+.. _bpy.types.WorkSpace.use_filter_by_owner:
+
+Filter Add-ons
+--------------
+
+Filters which :doc:`Add-ons </addons/index>` are enabled in active workspace.
+Keeping the checkbox in the header enables all global add-ons,
+enabling the checkbox allows you to individually enable add-ons from the list.
