@@ -1,3 +1,4 @@
+.. _bpy.types.World:
 
 *****************
 World Environment
@@ -57,3 +58,18 @@ it is not a good assumption that the volume fills the entire space,
 as most of the distance between the sun and the earth is empty space.
 For such effects it is be better to create a volume object surrounding the scene.
 The size of this object will determine how much light is scattered or absorbed.
+
+
+Viewport Display
+================
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Panel:     :menuselection:`World --> Viewport Display`
+
+.. _bpy.types.World.color:
+
+Color
+   The color to render the 3D Viewport background when choosing
+   :ref:`World Background <bpy.types.View3DShading.background_type>`.

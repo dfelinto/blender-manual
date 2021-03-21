@@ -32,6 +32,8 @@ Color
    Random
       A random color will be selected for every object in the scene.
 
+.. _bpy.types.View3DShading.background_type:
+
 Background
    How the background is displayed in the 3D Viewport.
 
