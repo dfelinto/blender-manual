@@ -227,8 +227,8 @@ Holdout
           Style: Texture.
 
 
-Options
-=======
+Settings
+========
 
 .. _bpy.types.MaterialGPencilStyle.pass_index:
 
