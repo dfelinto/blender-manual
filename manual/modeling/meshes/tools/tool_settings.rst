@@ -104,25 +104,31 @@ then delete the default cube and add a Monkey object to the 3D Viewport.
    even though they are not perfectly positioned.
 
 
-Auto Merge
-----------
+.. _bpy.types.ToolSettings.use_mesh_automerge:
+
+Auto Merge Vertices
+-------------------
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Sidebar --> Tool --> Options --> Auto Merge`
+   :Menu:      :menuselection:`Sidebar --> Tool --> Options --> Auto Merge Vertices`
 
-When the *Auto Merge* option is enabled, as soon as a vertex moves closer to another one
+When enabled, as soon as a vertex moves closer to another one
 than the *Threshold* setting, they are automatically merged.
 This option affects interactive operations only
 (tweaks made in the :ref:`ui-undo-redo-adjust-last-operation` panel are considered interactive too).
 If the exact spot where a vertex is moved contains more than one vertex,
 then the merge will be performed between the moved vertex and one of those.
 
+.. _bpy.types.ToolSettings.use_mesh_automerge_and_split:
+
 Split Edges & Faces
    Detects the intersection of each transformed edge, creating a new vertex in place
    and sectioning the edge and the face if any.
 
+.. _bpy.types.ToolSettings.double_threshold:
+
 Threshold
-   Defines the maximum distance between vertices that are merged by the *Auto Merge*.
+   Defines the maximum distance between vertices that are merged.
