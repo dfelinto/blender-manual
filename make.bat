@@ -93,7 +93,7 @@ if "%1" == "latexpdf" (
 )
 
 if "%1" == "readme" (
-	rst2html5.py readme.rst > build/readme.html
+	rst2html5.py readme.rst > %BUILDDIR%/readme.html
 	echo.Build finished. The HTML page is in %BUILDDIR%/readme.html.
 	echo.To view, run:
 	echo.  start %BUILDDIR%/readme.html
