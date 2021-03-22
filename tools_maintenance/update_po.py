@@ -134,11 +134,10 @@ def main():
     # All directories containing '.svn' (the parent directory).
     svn_dirs_all = []
     for svn_dir in os.listdir(LOCALE_DIR):
-        if not svn_dir in ("weblate", "sphinx"):
-            if not svn_dir.startswith((".", "_")):
-                svn_dir = os.path.join(LOCALE_DIR, svn_dir)
-                if os.path.isdir(svn_dir):
-                    svn_dirs_all.append(svn_dir)
+        if not svn_dir.startswith((".", "_")):
+            svn_dir = os.path.join(LOCALE_DIR, svn_dir)
+            if os.path.isdir(svn_dir):
+                svn_dirs_all.append(svn_dir)
     # Only for reproducible execution.
     svn_dirs_all.sort()
 
@@ -182,10 +181,9 @@ def main():
 
     po_lang_all = []
     for po_lang in os.listdir(LOCALE_DIR):
-        if not svn_dir in ("weblate", "sphinx"):
-            if (not po_lang.startswith((".", "_")) and
-                    os.path.isdir(os.path.join(LOCALE_DIR, po_lang))):
-                po_lang_all.append(po_lang)
+        if (not po_lang.startswith((".", "_")) and
+                os.path.isdir(os.path.join(LOCALE_DIR, po_lang))):
+            po_lang_all.append(po_lang)
     # Only for reproducible execution.
     po_lang_all.sort()
 
