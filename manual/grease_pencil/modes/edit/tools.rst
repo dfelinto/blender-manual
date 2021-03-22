@@ -53,6 +53,9 @@ Shear :kbd:`Shift-Ctrl-Alt-S`
 Transform Fill
    Change the Translation, Rotation and scale of strokes fill.
 
+:ref:`Interpolate <tool-grease-pencil-draw-interpolate>` :kbd:`Ctrl-E`
+   Automatically create a breakdown keyframe between two normal keyframes.
+
 :ref:`Annotate <tool-annotate>`
    Draw free-hand annotation.
 

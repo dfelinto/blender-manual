@@ -64,47 +64,20 @@ Deletes the last keyframe in the Dope Sheet or the current keyframe if you are o
 
 
 .. _grease-pencil-animation-tools-interpolation:
-
-Interpolation
-=============
-
-.. _bpy.ops.gpencil.interpolate:
-
-Interpolate
------------
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Mode:      Draw Mode, Edit Mode, Sculpt Mode
-   :Menu:      :menuselection:`Stroke --> Animation --> Interpolate --> Interpolate`
-   :Hotkey:    :kbd:`Ctrl-E`
-
-Interpolates strokes between the previous and next keyframe by adding a *single* keyframe.
-When you are on a frame between two keyframes and press :kbd:`Ctrl-Alt-E` a new breakdown keyframe
-will be added. This way you define the final interpolation for the new stroke.
-
-
 .. _bpy.ops.gpencil.interpolate_sequence:
 
-Sequence
---------
+Interpolate Sequence
+=======================
 
 .. admonition:: Reference
    :class: refbox
 
-   :Mode:      Draw Mode, Edit Mode, Sculpt Mode
-   :Menu:      :menuselection:`Stroke --> Animation --> Interpolate --> Sequence`
+   :Mode:      Draw Mode, Edit Mode
+   :Menu:      :menuselection:`Grease Pencil --> Interpolate Sequence`
    :Hotkey:    :kbd:`Shift-Ctrl-E`
 
 Interpolate strokes between the previous and next keyframe by adding *multiple* keyframes.
 A breakdown keyframe will be added on every frame between the previous and next keyframe.
-
-.. note::
-
-   The *Interpolate* and *Sequence* tools work better when the strokes in the previous and next keyframes
-   have the same amount of points. For example when there are duplicated strokes on different keyframes
-   only with different location, rotation or scale.
 
 
 .. _bpy.ops.gpencil.mesh_bake:

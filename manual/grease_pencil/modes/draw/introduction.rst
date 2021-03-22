@@ -104,6 +104,7 @@ Additive Drawing
 AutoMerge
    Joins new strokes with the beginning or end of previously drawn strokes in the active layer.
 
-Interpolate
-   Popover that contains tools and properties to automatically add breakdown keyframes between normal keyframes.
-   See :doc:`Interpolating Strokes </grease_pencil/animation/interpolation>` for more information.
+Multiframe
+   Allows to draw on several frames at the same time.
+
+   See :doc:`Multiframe </grease_pencil/multiframe>` for more information.

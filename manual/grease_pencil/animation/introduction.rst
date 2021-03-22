@@ -88,6 +88,12 @@ Add Weight Data
 Additive Drawing
    When creating new frames, the strokes from the previous/active frame are include as a basis for the new one.
 
+Multiframe
+   If you need to add new strokes to your animation on several frames you can use multiframe drawing.
+
+   You can activate multiframe drawing with the Multiframe button next to the modes selector (faded lines icon).
+   See :doc:`Multiframe </grease_pencil/multiframe>` for more information.
+
 
 Edit Mode
 ---------
@@ -104,11 +110,6 @@ Multiframe
 
    You can activate multiframe edition with the Multiframe button next to the modes selector (faded lines icon).
    See :doc:`Multiframe </grease_pencil/multiframe>` for more information.
-
-Interpolate
-   When you are animating simple shapes with strokes that have the same amount of points,
-   you can use the Interpolate tool to automatically add new breakdown keyframes.
-   See :doc:`Interpolation </grease_pencil/animation/interpolation>` for more information.
 
 
 Examples

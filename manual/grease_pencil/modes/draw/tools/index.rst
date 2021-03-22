@@ -18,3 +18,4 @@
    curve.rst
    box.rst
    circle.rst
+   interpolate.rst
