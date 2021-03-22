@@ -447,7 +447,7 @@ This page lists definitions for terms used in Blender and this manual.
    Manifold
       Manifold meshes, also called *water-tight* meshes, define a *closed non-self-intersecting volume*
       (see also :term:`Non-manifold`). A manifold mesh is a mesh in which the structure of the connected
-      faces in a closed volume will always point the normals (and there surfaces) to the outside
+      faces in a closed volume will always point the normals (and their surfaces) to the outside
       or to the inside of the mesh without any overlaps. If you recalculate those normals,
       they will always point at a predictable direction (To the outside or to the inside of the volume).
       When working with non-closed volumes, a manifold mesh is a mesh in which
