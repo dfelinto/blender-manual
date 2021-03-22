@@ -92,13 +92,6 @@ if "%1" == "latexpdf" (
 	goto EOF
 )
 
-if "%1" == "translations" (
-	%SPHINXBUILD% -b html -D language='%2' %SPHINXOPTS% %O% %SOURCEDIR% %BUILDDIR%/html
-	if errorlevel 1 exit /b 1
-	echo.  start %BUILDDIR%/html/index.html
-	goto EOF
-)
-
 if "%1" == "readme" (
 	rst2html5.py readme.rst > build/readme.html
 	echo.Build finished. The HTML page is in %BUILDDIR%/readme.html.
