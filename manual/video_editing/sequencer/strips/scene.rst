@@ -17,6 +17,9 @@ The strip length will be determined based on the animation settings in that scen
 Options
 =======
 
+Scene
+   A :ref:`ui-data-block` to select the scene to render from.
+
 Input
    Input type to use for the Scene strip.
 
@@ -29,18 +32,21 @@ Input
       This is similar to how :doc:`Meta Strips </video_editing/sequencer/meta>` work,
       with the added advantage of supporting multiple instances of the same data.
 
-Volume
-   Volume of the audio taken from the chosen scene.
 Camera
    This can be used to override the scene's camera with any other object.
 
    It is useful to support switching views within a single scene.
-Show Grease Pencil
-   Shows :doc:`Grease Pencil </grease_pencil/introduction>`
-   in non render preview i.e. *Solid* mode.
-Transparent
-   Creates a transparent background.
-   This is useful for doing overlays like rendering out Grease Pencil films via the Sequencer.
+
+Volume
+   Volume of the audio taken from the chosen scene.
+
+Show
+   Grease Pencil
+      Shows :doc:`Grease Pencil </grease_pencil/introduction>`
+      in non render preview i.e. *Solid* mode.
+   Transparent
+      Creates a transparent background.
+      This is useful for doing overlays like rendering out Grease Pencil films via the Sequencer.
 
 
 Limitations
