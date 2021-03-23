@@ -222,6 +222,9 @@ Next Workspace
    Switch to the next workspace.
 Previous Workspace
    Switch to the previous workspace.
+
+.. _bpy.types.Screen.show_statusbar:
+
 Show Status Bar
    Choose whether the :doc:`Status Bar </interface/window_system/status_bar>`
    at the bottom of the window should be displayed.

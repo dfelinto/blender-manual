@@ -1,4 +1,5 @@
 .. _bpy.types.Nodes:
+.. _bpy.types.Node:
 .. _bpy.ops.node:
 
 #########

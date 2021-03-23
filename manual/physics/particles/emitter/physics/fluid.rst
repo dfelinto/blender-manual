@@ -1,4 +1,4 @@
-.. _bpy.types.ParticleFluidSettings:
+.. _bpy.types.SPHFluidSettings:
 
 *****
 Fluid

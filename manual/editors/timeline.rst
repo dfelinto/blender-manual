@@ -140,10 +140,15 @@ Audio
 Playback
    Limit Playback to Frame Range
       Don't allow selecting frames outside of the playback range using the mouse.
+
+   .. _bpy.types.Screen.use_follow
+
    Follow Current Frame
       Animation editors can be setup to always follow the time indicator as animation is being played back.
       Following will be done when animating and changing frame:
       When the cursor reaches the end of the screen, the next range of frames of the same width will be displayed.
+
+.. _bpy.types.Screen.use_play:
 
 Play In
    Active Editor
@@ -162,6 +167,8 @@ Play In
       While playing, updates the Node properties for the node editors.
    Video Sequencer
       While playing, updates the Video Sequencer.
+
+.. _bpy.types.Scene.show_subframe:
 
 Show
    Subframes
