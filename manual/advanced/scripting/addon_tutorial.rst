@@ -391,7 +391,7 @@ when the class is registered so they display as buttons in the user interface.
 There are many arguments you can pass to properties to set limits,
 change the default and display a tooltip.
 
-.. seealso:: :mod:`blender_api:bpy.props.IntProperty`
+.. seealso:: :func:`blender_api:bpy.props.IntProperty`
 
 This document doesn't go into details about using other property types.
 However, the link above includes examples of more advanced property usage.
