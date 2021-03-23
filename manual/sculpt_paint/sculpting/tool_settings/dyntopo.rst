@@ -23,10 +23,9 @@ With dynamic topology active, most brushes will subdivide the mesh during the st
 .. _bpy.types.Sculpt.constant_detail_resolution:
 .. _bpy.types.Sculpt.detail_percent:
 
-Detail Size/Percentage, Resolution
+Detail Size/Percentage, Resolution kbd:`Shift-D`
    Each Detail Type's detail is set here. Depending on the Detail Type being used
    this property will rather show as a pixel count (px), or percentage.
-   When using *Constant Detail*, this value can be set interactively with :kbd:`Shift-D`.
 
    Sample Detail Size (pipette icon)
       When using *Constant Detail*, it is possible to sample the detail value of a certain mesh area
