@@ -73,4 +73,4 @@ Remove Unused Material Slots
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Clean Up --> Remove Unused Material Slots`
 
-Removes unused :ref:`material slots <material-slots>`.
+Removes unused :ref:`material slots <bpy.types.MaterialSlot>`.

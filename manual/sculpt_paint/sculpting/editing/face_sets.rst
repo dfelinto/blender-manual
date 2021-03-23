@@ -68,7 +68,7 @@ Mode
    By Loose Parts
       Creates a new face set per discontinuous part of the mesh.
    By Materials
-      Creates a face set per :ref:`Material Slot <material-slots>`.
+      Creates a face set per :ref:`Material Slot <bpy.types.MaterialSlot>`.
    By Normals
       Creates face sets for Faces that have similar :ref:`Normals <modeling-meshes-structure-normals>`.
    By UV Seams

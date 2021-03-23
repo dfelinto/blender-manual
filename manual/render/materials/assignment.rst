@@ -16,7 +16,7 @@ materials is desired, then mixing shader nodes with a :doc:`Mix shader </render/
 is a better solution.
 
 
-.. _material-slots:
+.. _bpy.types.MaterialSlot:
 
 Material Slots
 ==============
@@ -36,14 +36,20 @@ Slot List
 
 The object's material slots and active material displayed in a :ref:`List View <ui-list-view>`.
 
+.. _bpy.ops.material.new:
+
 Add Material Slot
    Add a new material slot on the object.
 
 Remove Material Slot
    Remove a material slot from the object.
 
+.. _bpy.ops.material.copy:
+
 Copy Material
    Copy material shader nodes and settings to clipboard.
+
+.. _bpy.ops.material.paste:
 
 Paste Material
    Paste material shader nodes and settings from clipboard.
@@ -62,7 +68,9 @@ Material
    The Material :ref:`Data-Block Menu <ui-data-block>` for the selected material slot.
    Here new materials can be created, or existing materials can to the material slot.
 
-Data-block Links
+.. _bpy.types.MaterialSlot.link:
+
+Link
    Specifies whether the material is to be linked to the Object or to the Object Data.
 
    The Link selector has two choices, Data and Object.
@@ -95,12 +103,18 @@ Additional buttons will then appear in the material slots panel.
 
    Material slots panel in Edit Mode.
 
+.. _bpy.ops.object.material_slot_assign:
+
 Assign
    Assign active material slot and material to the selected faces in the mesh,
    strokes in a Grease Pencil, and similar for other object types.
 
+.. _bpy.ops.object.material_slot_select:
+
 Select
    Select faces assigned to the active material slot.
+
+.. _bpy.ops.object.material_slot_deselect:
 
 Deselect
    Deselect faces assigned to the active material slot.
