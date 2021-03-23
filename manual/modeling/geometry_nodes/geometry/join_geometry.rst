@@ -21,7 +21,8 @@ Inputs
 ======
 
 Geometry
-   Standard geometry input.
+   Geometries that will be joined. Multiple inputs are allowed.
+   When the node is muted, only the first link will be passed through.
 
 
 Properties
