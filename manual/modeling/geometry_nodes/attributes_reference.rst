@@ -48,6 +48,21 @@ Built-in attributes always exist, and cannot be removed. Their data type can not
      - *Integer*
      - Used to specify the material slot for every polygon in a mesh.
 
+   * - **crease**
+     - *Float*
+     - Edge attribute used by the Subdivision Surface node and modifier.
+       It only allows values between 0 and 1.
+
+   * - **normal**
+     - *Vector*
+     - Normal of a polygon. This is a bit different from the other builtin attributes in that
+       it cannot be modified. It is automatically derived from the mesh. If this attribute is
+       accessed on non-point domains, it might not be normalized, because it is interpolated
+       from normals of neighboring polygons.
+
+   * - **shade_smooth**
+     - *Boolean*
+     - Polygon attribute determining if a polygon should have smooth shading enabled.
 
 Naming Conventions
 ==================
