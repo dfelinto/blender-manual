@@ -14,6 +14,8 @@ The *Object Info* node gets information from objects.
 This can be useful to bring an external object to control parameters in the geometry node tree,
 either directly by using its geometry, or via its transformation parameters.
 
+An *Object Info* node can be added quickly by dragging an object into the node editor.
+
 
 Inputs
 ======
