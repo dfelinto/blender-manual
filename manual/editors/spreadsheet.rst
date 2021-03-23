@@ -30,6 +30,8 @@ Geometry Component Type
       Mesh component containing point, corner, polygon and edge data.
    Point Cloud
       Point cloud component containing only point data.
+   Instances
+      Display which objects and collections are instanced and their transforms.
 
 Attribute Domain
    Attribute domain to display.
