@@ -119,6 +119,8 @@ LOCALE_BUILD_DIR = os.path.join(ROOT_DIR, "build", "gettext")
 
 LOCALE_DIR = os.path.join(ROOT_DIR, "locale")
 
+POT_FILE = os.path.join(LOCALE_DIR, "blender_manual.pot")
+
 # When we cannot use portable API's.
 IS_WIN32 = (os.name == "nt")
 
@@ -173,6 +175,11 @@ def main():
         # Destination.
         LOCALE_BUILD_DIR,
     ])
+
+    # -------------
+    # Copy POT File
+
+    shutil.copy(os.path.join(LOCALE_BUILD_DIR, "blender_manual.pot"), LOCALE_DIR)
 
     # ---------------
     # Update PO Files
@@ -253,6 +260,11 @@ def main():
             print("  " + subprocess.list2cmdline(["svn", "ci", svn_dir, "-m", "Update r" + revision]))
         else:
             print("  svn ci {:s} -m \"Update r{:s}\"".format(quote(svn_dir), revision))
+
+    if IS_WIN32:
+        print("  " + subprocess.list2cmdline(["svn", "ci", POT_FILE, "-m", "Update r" + revision]))
+    else:
+        print("  svn ci {:s} -m \"Update r{:s}\"".format(quote(POT_FILE), revision))
 
 if __name__ == "__main__":
     main()
