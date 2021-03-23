@@ -3,7 +3,7 @@
 BlenderKit
 **********
 
-`BlenderKit <https://www.blenderkit.com/>`__ is an online database of materials, brushes and 3D models
+`BlenderKit <https://www.blenderkit.com/>`__ is an online database of materials, brushes, and 3D models
 which you can search, download, upload and rate directly from the add-on.
 
 
@@ -580,7 +580,7 @@ Management Tools:
       Change asset status.
 
 Downloads:
-   This panel is visible when there are running downloads.
+   This panel is visible when running downloads.
    You can cancel downloading of assets by pressing the ``X`` button.
    This cancels the download and deletes the file on your computer.
 

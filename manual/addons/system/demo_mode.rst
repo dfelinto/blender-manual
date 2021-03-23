@@ -27,7 +27,7 @@ Automatic Configuration
 -----------------------
 
 The *Auto* option selects between *Render* and *Play* option based on the window layout's use of image/node windows.
-If you are happy to use these settings on all files you can leave the *Run Immediately* option enabled and confirm.
+If you are happy to use these settings on all files, you can leave the *Run Immediately* option enabled and confirm.
 
 
 Adjusting the Configuration
@@ -74,7 +74,7 @@ Usage
 Once the demo starts it will play, render and load different files in the same Blender instance.
 Since its using a modal operator you can still use with Blender while the demo runs.
 
-If you want to stop Demo Mode you can press :kbd:`Esc` and continue using Blender.
+If you want to stop Demo Mode, you can press :kbd:`Esc` and continue using Blender.
 To enable again there are three buttons at the right hand side of the file menu to navigate *Prev*/*Pause*/*Next*.
 
 

@@ -74,7 +74,7 @@ Merged Objects
       such as ``LWPOLYLINE`` and ``POLYLINE``.
    By Layer and Closed No-bulge Polygons
       Closed polylines with no bulge, that is no curved edges, can be merged to one single mesh.
-      This makes sense when the DXF polylines have an extrusion and/or an elevation attribute
+      This makes sense when the DXF polylines have an extrusion and/or an elevation attribute,
       which basically describes a location/rotation/scale transformation.
       If this merge option is chosen, line thickness settings will be ignored/disabled.
    By Layer and DXF-Type and Blocks
@@ -93,7 +93,7 @@ Line Thickness and Width
 Represent Line Thickness/Width
    DXF line attributes *thickness* and *width* have an effect on line in Z and X/Y direction respectively.
    A straight line might be turned to a cube by its attributes for instance.
-   Therefore in Blender these attributes are represented with curve extrusion, bevel and taper objects.
+   Therefore, in Blender these attributes are represented with curve extrusion, bevel and taper objects.
 Merge by Attributes
    If both *Merged Objects* and *Represent Line Thickness/Width* are activated
    the object merging needs to be extended to separate all lines width different thickness and width.
@@ -147,7 +147,7 @@ Pyproj
    Pyproj is a Python wrapper to the PROJ library, a well known C library used to
    convert coordinates between different coordinate systems.
    Open source GIS libraries such as PROJ are used directly or indirectly by many authorities and
-   therefore can be considered to be well maintained.
+   therefore can be considered well maintained.
 
    If Pyproj is available the DXF importer shows a selection of national coordinate systems
    but lets the user also to enter a custom EPSG / SRID code.
@@ -183,7 +183,7 @@ Rules of thumb for choosing an SRID
       30, newline, whitespace, whitespace, NUMBER
 
    then ``NUMBER`` will be most likely your coordinates.
-   Probably you can tell from the format and/or the range of the coordinates which coordinate system it should be.
+   You can probably tell from the format and/or the range of the coordinates which coordinate system it should be.
 
 
 .. _dxf-export:

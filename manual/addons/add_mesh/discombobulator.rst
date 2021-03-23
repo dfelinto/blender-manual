@@ -50,7 +50,7 @@ Min/Max Height
    The negative values will create the protrusions on the opposite side of the selected face(s).
 
 Min/Max Taper
-   Adjust the taper of the protrusions. This will affect the pointiness of the protrusions.
+   Adjust the taper of the protrusions. This will affect the pointyness of the protrusions.
 
 1, 2, 3, 4
    These checkboxes provide options for the subdivision of the faces or the amount of protrusions per face.

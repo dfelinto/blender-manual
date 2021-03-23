@@ -562,7 +562,7 @@ After selecting it from the menu, you can choose how many instances of the cube 
 .. note::
 
    Directly executing the script multiple times will add the menu each time too.
-   While not useful behavior, there's nothing to worry about since add-ons will not
+   While not useful behavior, there is nothing to worry about since add-ons will not
    register themselves multiple times when enabled through the Preferences.
 
 

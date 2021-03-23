@@ -33,7 +33,7 @@ Quad from Edge
 
 Similar to the quad from vertex functionality, this is based on open edges.
 The selected edge has to be connected to two open edges.
-The vertices which belong to these edges are used to create a new quad.
+The vertices that belong to these edges are used to create a new quad.
 
 
 Direction Control

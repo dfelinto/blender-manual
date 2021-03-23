@@ -12,7 +12,7 @@ Relax
 The Relax brush makes UVs more evenly distributed.
 The algorithm relies on space, not stretch minimization,
 so most probably a minimize stretch will have to be run for optimal results.
-However it is great to use after stitching islands,
+However, it is great to use after stitching islands
 or when unwrap produces cluttered results to smooth the distribution of UVs.
 
 Relaxation Method

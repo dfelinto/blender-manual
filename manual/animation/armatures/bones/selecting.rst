@@ -109,7 +109,7 @@ To understand this, look at Fig. :ref:`fig-rig-bone-select-deselect`.
 After :kbd:`Shift`-clicking "Bone.003":
 
 - "Bone.003" 's tip (which is same as "Bone.004" 's root) is deselected.
-- "Bone" is "Bone.003" 's parent. Therefore "Bone.003" 's root is same as the tip of "Bone".
+- "Bone" is "Bone.003" 's parent. Therefore, "Bone.003" 's root is the same as the tip of "Bone".
   Since "Bone" is still selected, its tip is selected. Thus the root of "Bone.003" remains selected.
 
 

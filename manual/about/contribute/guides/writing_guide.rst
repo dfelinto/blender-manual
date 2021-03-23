@@ -22,7 +22,7 @@ Complete
    More background information should be provided when necessary to give deeper understanding of a 3D pipeline.
 Concise
    Computer graphics is an incredibly interesting field,
-   there are many rules, exceptions to the rules and interesting details.
+   there are many rules, exceptions to the rules, and interesting details.
    Expanding into details can add unnecessary content,
    so keep the text concise and relevant to the topic at hand.
 Maintainable
@@ -66,7 +66,7 @@ To be avoided:
   Blender often has 100's of bugs fixed between releases, so it is not realistic to reference
   even a fraction of them from the manual, while keeping this list up to date.
 
-  Issues which are known to the developers and are not going to be resolved before the next release
+  Issues that are known to the developers and are not going to be resolved before the next release
   can be documented as *Known Limitations*.
   In some cases, it may be best to include them in the :doc:`troubleshooting </troubleshooting/index>` section.
 - Avoid product placements, i.e. unnecessarily promoting software or hardware brands.

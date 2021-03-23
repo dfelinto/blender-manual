@@ -28,7 +28,7 @@ Located in the :menuselection:`3D Viewport --> Sidebar --> Create` tab.
 Instructions
 ============
 
-After creating your landscape mesh there's three main areas in
+After creating your landscape mesh there are three main areas in
 the :ref:`ui-undo-redo-adjust-last-operation` panel to design your mesh.
 
 - Main Settings: Object and mesh related settings like size and subdivisions.
@@ -68,7 +68,7 @@ Landscape Noise
 
 Here we can adjust the noise settings and refresh only those settings.
 
-There are many settings and noise types here which allow you to customize your landscape.
+There are many settings and noise types that allow you to customize your landscape.
 
 
 Landscape Displace

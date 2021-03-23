@@ -30,7 +30,7 @@ For others operations you can use the view if you wish.
 
 - :kbd:`Shift-Ctrl-X` to call the add-on.
 - :kbd:`RMB` to exit.
-- :kbd:`Ctrl-Z` to Undo (there are no limits, so be careful to doesn't overload).
+- :kbd:`Ctrl-Z` to Undo (there are no limits, so be careful to not overload it).
 - :kbd:`H` to have the help when the screen is large enough to display.
 
 

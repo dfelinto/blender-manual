@@ -26,7 +26,7 @@ Usage
 - Use the Operator Search menu: "Cell fracture selected mesh" (search "cell" will find the list item).
 - This will pop up the add-ons menu's.
 - Then choose your settings (you can try small settings first, large settings may be slow).
-- If you use defaults and the next layer checkbox is active the fractured object will appear on
+- If you use defaults and the next layer checkbox is active, the fractured object will appear on
   the next layer to the active objects layer.
 
 

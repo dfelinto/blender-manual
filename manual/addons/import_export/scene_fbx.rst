@@ -37,7 +37,7 @@ The exporter can bake mesh modifiers and animation into the FBX so the final res
    - Animation support is minimal currently, we read all curves as if they were 'baked' ones
      (i.e. a set of close keyframes with linear interpolation).
    - Imported actions are linked to their related object, bone or shape key, on a 'first one wins' basis.
-     If you export a set of them for a single object you'll have to reassign them yourself.
+     If you export a set of them for a single object, you'll have to reassign them yourself.
 
 .. note:: Saving Just Animations
 
@@ -179,7 +179,7 @@ Transform
 Scale
    Scale the exported data by this value. 10 is the default
    because this fits best with the scale most applications import FBX to.
-Apply Scalings
+Apply Scaling
    TODO.
 Forward / Up
    Since many applications use a different axis for 'Up', these are axis conversions for Forward and

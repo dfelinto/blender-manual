@@ -269,7 +269,7 @@ The ID for ``https://www.youtube.com/watch?v=Ge2Kwy5EGE0`` is ``Ge2Kwy5EGE0``.
 Usage Guides
 ------------
 
-- Avoid adding videos which rely on voice, as this is difficult to translate.
+- Avoid adding videos that rely on voice, as this is difficult to translate.
 - Do not embed video tutorials as a means of explaining a feature, the writing itself should explain it adequately
   (though you may include a link to the video at the bottom of the page under the heading ``Tutorials``).
 

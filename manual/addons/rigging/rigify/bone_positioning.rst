@@ -103,7 +103,7 @@ align the bone at the point where the heel just touches the ground floor.
    From version 0.5 and above there is no more need of manual bone rolls alignment,
    the generate function will take care of that for you evaluating it from bend axis;
    just insert a slight bend in your limb and it's done!
-   If you need more control on the orientation follow the guidelines described in Advanced Usage.
+   If you need more control on the orientation, follow the guidelines described in Advanced Usage.
 
 
 Fingers Bones

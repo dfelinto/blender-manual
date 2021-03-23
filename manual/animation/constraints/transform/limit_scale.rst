@@ -61,7 +61,7 @@ Affect Transform
    the owner can still have scales out of bounds (as shown by the *Transform* panel).
    When you enable this checkbox, this is no longer possible,
    the owner transform properties are also limited by the constraint.
-   However note that, the constraint does not directly modify the scale values:
+   However, note that, the constraint does not directly modify the scale values:
    you have to scale its owner one way or another for this to take effect.
 
 Owner Space

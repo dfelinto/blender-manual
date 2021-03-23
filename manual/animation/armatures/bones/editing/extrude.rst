@@ -60,7 +60,7 @@ see Fig. :ref:`fig-rig-bone-mirror`.
    Canceling the extrude action causes the newly created bones to snap back to the source position,
    (creating zero length bones). These will be removed when exiting Edit Mode,
    however, they can cause confusion and it's unlikely you want to keep them.
-   If you realize the problem immediately undo the extrude action.
+   If you realize the problem immediately, undo the extrude action.
 
 In case you are wondering, you cannot just press :kbd:`X` to solve this as you would in mesh editing,
 because extrusion selects the newly created tips, and as explained below the Delete tool ignores bones' joints.

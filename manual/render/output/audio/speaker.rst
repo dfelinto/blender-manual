@@ -45,7 +45,7 @@ Playback Time
 
 There is no setting to choose the start time when the speaker should start playing,
 because you might want a single speaker to play multiple times.
-Therefore you have to open the *NLA Editor* where you can add sound strips
+Therefore, you have to open the *NLA Editor* where you can add sound strips
 that define when the sound should start (nothing else,
 so any other properties of the strips, like length don't matter).
 When you add a speaker object such a strip will be added at the current frame.
@@ -86,7 +86,7 @@ Directionality relevant settings.
 Imagine a cone with the top at the original of the speaker object
 and the main axis of it facing in the same direction as the speaker.
 There are two cones an inner and an outer cone. The angles represent their opening angles,
-so 360° mean the cone is fully open and there's no directionality anymore.
+so 360° mean the cone is fully open and there is no directionality anymore.
 Inside the inner cone the volume is 100% (1.0),
 outside the outer cone the volume is, whatever one sets for the outer cone volume
 and the volume between those two cones, linearly interpolated between this two volumes.

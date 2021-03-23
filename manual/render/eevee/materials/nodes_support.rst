@@ -3,7 +3,7 @@
 Supported Nodes
 ***************
 
-Most nodes are taken from Cycles. However some features are missing and
+Most nodes are taken from Cycles. However, some features are missing and
 may (or may not) be implemented in Eevee in the future.
 
 .. seealso::
@@ -119,7 +119,7 @@ Camera Data
    Everything is compatible.
 
 Geometry
-   Pointiness is not supported.
+   Pointyness is not supported.
 
 Random per Island
    Random per Island is not supported.

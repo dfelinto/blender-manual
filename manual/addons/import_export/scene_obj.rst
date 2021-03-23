@@ -80,13 +80,13 @@ Geometry
 
 Split/Keep Vertex Order
    When importing an OBJ it's useful to split up the objects into Blender objects,
-   named according to the OBJ-file. However, this splitting looses the vertex order which
-   is needed when using OBJ-files as morph targets. It also looses any vertices that
+   named according to the OBJ-file. However, this splitting loses the vertex order which
+   is needed when using OBJ-files as morph targets. It also loses any vertices that
    are not connected to a face so this must be disabled if you want to keep the vertex order.
 Split by Object & Split by Group
    When importing an OBJ it's useful to split up the objects into Blender objects,
-   named according to the OBJ-file. However, this splitting looses the vertex order which
-   is needed when using OBJ-files as morph targets. It also looses any vertices that
+   named according to the OBJ-file. However, this splitting loses the vertex order which
+   is needed when using OBJ-files as morph targets. It also loses any vertices that
    are not connected to a face, so this must be disabled if you want to keep the vertex order.
 
    As far as Blender is concerned OBJ Objects and Groups are no difference,
@@ -108,7 +108,7 @@ Objects as OBJ Objects / Groups
    .. note::
 
       Note that as far as Blender is concerned there is no difference between OBJ Groups and Objects,
-      this option is only included for applications which treat them differently.
+      this option is only included for applications that treat them differently.
 
 Material Groups
    Create OBJ groups per material.
@@ -138,7 +138,7 @@ Path Mode
    :Copy: Copy the file on exporting and reference it with a relative path.
 
 Forward / Up
-   Since many applications use a different axis for 'Up', there are axis conversion there settings,
+   Since many applications use a different axis for 'Up', there are axis conversion settings,
    Forward and Up axis -- By mapping these to different axis you can convert rotations
    between applications default up and forward axis.
 

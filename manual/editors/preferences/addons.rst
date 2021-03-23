@@ -49,7 +49,7 @@ The add-on functionality should be immediately available.
 
    Add-ons that activate or change multiple hotkeys have a special system of activation.
    For example, with the "UI: Pie Menu Official" add-on
-   for each menu there's a selection box to activate the menu and its hotkey.
+   for each menu there is a selection box to activate the menu and its hotkey.
 
 .. tip::
 

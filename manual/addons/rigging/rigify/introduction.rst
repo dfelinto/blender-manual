@@ -21,7 +21,7 @@ Main Features
 
 Modular rigging
    Rigify build blocks can be mixed together to rig any character you want.
-   If you need to build a character with five arms and one leg
+   If you need to build a character with five arms and one leg,
    Rigify can handle it for you creating all the required complex controls system
    (FK, IK, and all the relative snapping tools and the UI) in few seconds.
 

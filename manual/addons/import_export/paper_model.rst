@@ -231,7 +231,7 @@ Textures
 
    No Texture
       Just creates the net on a white background (this used to be called "Pure Net").
-      The remaining options invoke texture baking and therefore are noticeable slower.
+      The remaining options invoke texture baking and therefore are noticeably slower.
    From Materials
       Exports the image that is assigned to each of the model's faces in their active material.
    Full Render, Selected to Active

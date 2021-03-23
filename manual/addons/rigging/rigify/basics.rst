@@ -115,13 +115,13 @@ With the bones in the correct positions, jump back in Object Mode, go to the Arm
 scroll down to the bottom and click on the *Generate* button to finalize the rig creation.
 The generation process will take from few seconds to one minute depending on
 rig complexity and hardware specifications of your machine.
-If the generated rig needs tweaking you can modify the meta-rig accordingly and
+If the generated rig needs tweaking, you can modify the meta-rig accordingly and
 then click again on the generate button. If the rig already exists,
 Rigify will simply overwrite it retaining all your modifiers and constraints and -- where possible --
 all the previously generated features.
 
 If you need to generate more than one rig in the scene or update a specific one
-(when there are more than one in the same file) follow the instructions in the `Advanced Rig Generation`_ section.
+(when there are more than one in the same file), follow the instructions in the `Advanced Rig Generation`_ section.
 
 .. tip:: Rig Updating
 
@@ -143,7 +143,7 @@ To bind the geometry to the rig you can use your preferred tools. Just few thing
 - Eyes and Teeth bones are not deforming. You are supposed to bind the eyes and teeth geometry
   through Child Of constraints.
 - Usually armature deform with automatic weights do a really good job out of the box
-  if you correctly place your bones (and there's enough topology to work with!).
+  if you correctly place your bones (and there is enough topology to work with!).
 
 For more detailed information on armature layers, Armature modifier and weight painting refer to the Blender manual.
 

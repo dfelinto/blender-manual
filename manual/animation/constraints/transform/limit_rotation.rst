@@ -56,7 +56,7 @@ Affect Transform
    the owner can still have rotations out of bounds (as shown by the *Transform* panel).
    When you enable this checkbox, this is no more possible --
    the owner transform properties are also limited by the constraint.
-   However note that, the constraint does not directly modifies the rotation values:
+   However, note that, the constraint does not directly modify the rotation values:
    you have to rotate one way or the other its owner, for this to take effect...
 
 Owner Space

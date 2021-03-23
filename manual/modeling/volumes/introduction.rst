@@ -32,7 +32,7 @@ Limitations
 
 - OpenVDB excels at representing sparse volumes, that aren't necessarily
   concentrated within a tight bounding box but may be spread out through space.
-  However in Blender, these are still rendered as dense volumes
+  However, in Blender, these are still rendered as dense volumes
   which is not ideal for performance and memory usage. This will be improved in future releases.
 
 - OpenVDB files can also store level sets and points.

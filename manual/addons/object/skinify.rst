@@ -22,7 +22,7 @@ Usage
 
 Select your armature in Pose Mode and skin the selected or all bones with a per-bone mesh or whole cover.
 If bones in your rig give unwanted results, often scaling and re-positioning the bones in Edit Mode can help.
-If you are doing this to create your own "Skinify Guy" you can also delete bones.
+If you are doing this to create your own "Skinify Guy", you can also delete bones.
 It will work with custom shapes but results may vary.
 
 .. seealso::

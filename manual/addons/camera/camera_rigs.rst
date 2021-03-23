@@ -173,7 +173,7 @@ By pressing this, it will make this camera the active one.
 Camera Switching
 ----------------
 
-If you wish to switch cameras during an animation you can do this with the *Add Marker and Bind* button.
+If you wish to switch cameras during an animation, you can do this with the *Add Marker and Bind* button.
 This uses Blender's built-in camera binding tool to a Timeline marker.
 When pressed, it will add a marker to the Timeline and bind it to the camera controlled by the selected rig.
 Go to another frame, select a different camera rig and press it again.

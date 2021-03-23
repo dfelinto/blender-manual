@@ -21,7 +21,7 @@ Activation
 
 .. note::
 
-   If you have trouble accessing the add-on in the interface:
+   If you are have trouble accessing the add-on in the interface:
    You may need to set the :menuselection:`Preferences --> Keymaps --> Spacebar Action` to *Tools*
    and save your preferences.
 
