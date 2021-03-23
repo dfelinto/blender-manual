@@ -11,7 +11,7 @@ Point Distribute
    The Point Distribute Node.
 
 The *Point Distribute* node places points on the surface of the input geometry object.
-Point and corner attributes of the input geometry are transferred to the generated points.
+Point, corner and polygon attributes of the input geometry are transferred to the generated points.
 That includes vertex weights and UV maps.
 Additionally, the generated points will have a *normal*, *id* and *rotation* attribute.
 
