@@ -14,6 +14,15 @@ The Spreadsheet editor is used to debug geometry attributes.
 Header
 ======
 
+Object Evaluation State
+   Display the data of an object at different states of its evaluation.
+
+   Final
+      Display data from object with all modifiers applied.
+
+   Original
+      Display data from original object without any modifiers applied.
+
 Geometry Component Type
    Part of the geometry to display data from.
 
