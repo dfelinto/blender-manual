@@ -155,9 +155,9 @@ Driver
       under which the shape key should be activated.
 
       #. In the Drivers tab, select the *Averaged Value* of the rotation of
-         the bone you're posing.
+         the bone you are posing.
 
-         Understand the rotation axis that you're interested in by enabling axes display
+         Understand the rotation axis that you are interested in by enabling axes display
          in the armature or by observing the bone's transform values in the Properties.
 
          Select the rotation channel and set it to local, meaning, the bone's
@@ -187,7 +187,7 @@ Driver
          "TAR-" (target) or "COR-" (corrective).
 
       #. In the Drivers tab, select the *Averaged Value* of the rotational difference
-         between the bone you're rotating and the target bone.
+         between the bone you are rotating and the target bone.
          A rotational difference is the minimum angle between two objects in World Space.
          It is therefore important that the bones have the same root,
          so that the only thing affecting the angle between the bones is the rotation of one of them.

@@ -14,7 +14,7 @@ Usage:
  2) # Reorganize the document structure, rename files.
  3) rst_remap.py finish
 
-note: you can't change the contents of the files you're remapping.
+note: you can't change the contents of the files you are remapping.
 """
 
 

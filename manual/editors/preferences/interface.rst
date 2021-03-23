@@ -78,7 +78,7 @@ Navigation Controls
 
    .. note::
 
-      If you're familiar with navigation key shortcuts, this can be disabled.
+      If you are familiar with navigation key shortcuts, this can be disabled.
 
 .. _prefs-interface-color-picker-type:
 

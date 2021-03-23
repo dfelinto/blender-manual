@@ -20,7 +20,7 @@ From the `Alembic home page <https://www.alembic.io/>`__:
    Alembic will not attempt to store a representation of the network of computations (rigs, basically)
    which are required to produce the final, animated vertex positions and animated transforms.
 
-:abbr:`TL;DR (Too long; didn't read.)`: Alembic can be used to write an animated mesh to a drive, and
+:abbr:`TL;DR (Too long; did not read.)`: Alembic can be used to write an animated mesh to a drive, and
 read it back quickly and efficiently. This means that a mesh can be animated with a very CPU-intensive rig,
 'baked' to an Alembic file, and loaded into the shot file for shading and lighting
 with only moderate CPU usage.

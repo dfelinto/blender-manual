@@ -34,7 +34,7 @@ declare -A pattern_list=(
 ["Language-Team:.*>"]="Language-Team: $YOUR_TRANSLATION_TEAM"
 )
 
-#This is for the language line. This line is required by POEdit, if you're using it for editing PO files.
+#This is for the language line. This line is required by POEdit, if you are using it for editing PO files.
 #Inserting this line before the MIME-Version.
 re_language_code="Language:.*$YOUR_LANGUAGE_CODE"
 language_code="\"Language: $YOUR_LANGUAGE_CODE\\\\n\"\n"
@@ -152,7 +152,7 @@ function replaceAllChangedFiles()
 #MAIN portion of your script
 #take current_working_directory (cwd) as the 1st element of script parameter
 #then change the directory to the one provided.
-#Notice the use of environment variables. If you're using some directory constantly then comment
+#Notice the use of environment variables. If you are using some directory constantly then comment
 #out this section and directory using 'cd $SOME_DIRECTORY' directly.
 cwd=$1
 if [[ ! -z  "$cwd" ]]; then

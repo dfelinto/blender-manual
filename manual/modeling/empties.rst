@@ -99,7 +99,7 @@ Side
 
    .. tip::
 
-      This is useful if you're using an image as a reference where you have photos from
+      This is useful if you are using an image as a reference where you have photos from
       both the front and back,
       so two empty images can be set only to show when viewed from the correct side.
 

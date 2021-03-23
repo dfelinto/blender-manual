@@ -75,7 +75,7 @@ Profile Brush
 When in profile mode, flat objects are present by default.
 You can add your own with the ``ProfilCreate.py`` file that will be explain after (ToDo).
 
-:kbd:`B` to enter this mode when you're in basic Boolean operations.
+:kbd:`B` to enter this mode when you are in basic Boolean operations.
 If you move your mouse over the object, you will see an overview of the pattern that
 you can use and a preview at the bottom right.
 

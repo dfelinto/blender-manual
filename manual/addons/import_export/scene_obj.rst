@@ -124,7 +124,7 @@ Scale
    Global scale to use on export.
 Path Mode
    When referencing paths in exported files you may want some control as to the method used since absolute paths
-   may only be correct on you're own system. Relative paths on the other hand are more portable
+   may only be correct on you are own system. Relative paths on the other hand are more portable
    but mean you have to keep your files grouped when moving about on your local file system.
    In some cases the path doesn't matter since the target application will search
    a set of predefined paths anyway so you have the option to strip the path too.

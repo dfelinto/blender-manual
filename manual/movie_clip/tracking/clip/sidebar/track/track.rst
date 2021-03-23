@@ -63,7 +63,7 @@ Weight
    as feature disappear or become difficult to track.
 
    Another use of Track Weights is when you want to reconstruct a scene from your camera solution.
-   In that case you can first carefully track and solve your scene, and once you're done,
+   In that case you can first carefully track and solve your scene, and once you are done,
    lock all your markers with :kbd:`Ctrl-L`, set the tracker weight in the Extra Settings of
    the tracker settings to zero and use the feature detection to quickly add lots of markers.
    Now track them and solve the scene again. Since their weight is zero

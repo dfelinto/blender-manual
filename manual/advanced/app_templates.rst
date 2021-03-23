@@ -157,7 +157,7 @@ This has the following advantages:
 On activation a ``register`` function is called, ``unregister`` is called when another template is selected.
 
 As these only run once, any changes to defaults must be made via handler.
-Two handlers you're likely to use are:
+Two handlers you are likely to use are:
 
 - ``bpy.app.handlers.load_factory_preferences_post``
 - ``bpy.app.handlers.load_factory_startup_post``

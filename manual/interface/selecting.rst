@@ -86,7 +86,7 @@ Circle Select
 *Circle Select* :kbd:`C` allows you to select multiple items within a circular area.
 Move your mouse over any items within the circular area (shown with a dotted circle)
 while holding :kbd:`LMB` to select those items. Alternatively, use
-:kbd:`MMB` to deselect them. When you're done selecting, press :kbd:`RMB` or
+:kbd:`MMB` to deselect them. When you are done selecting, press :kbd:`RMB` or
 :kbd:`Esc`. To change the diameter of the circle, scroll with the :kbd:`Wheel`
 or use the :kbd:`NumpadPlus` and :kbd:`NumpadMinus` keys.
 

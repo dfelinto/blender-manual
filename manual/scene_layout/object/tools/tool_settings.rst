@@ -35,7 +35,7 @@ Affect Only
          Changing the object location and the object-data may impact
          modifiers, constraints and keyframe animation.
 
-         If you're only temporarily setting the pivot point,
+         If you are only temporarily setting the pivot point,
          use the :ref:`3D cursor <editors-3dview-3d_cursor>` instead.
 
    Locations

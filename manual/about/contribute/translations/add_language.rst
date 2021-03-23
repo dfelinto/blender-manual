@@ -103,7 +103,7 @@ Generating the Set of Files for the Target Language
    This will download all language sets available in the repository into the ``locale`` directory of your drive.
    You can go to the ``locale`` directory to see the hidden subdirectory ``.svn`` within it,
    together with directories of languages.
-   You'll need to add your own set of files for the language you're trying to translating to.
+   You'll need to add your own set of files for the language you are trying to translating to.
 
 #. From the ``blender_docs`` directory to generate a set of files for ``fr`` language::
 

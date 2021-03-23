@@ -105,7 +105,7 @@ project = 'Blender %s Manual' % blender_version
 copyright = ': This page is licensed under a CC-BY-SA 4.0 Int. License'
 author = 'Blender Documentation Team'
 
-# The version info for the project you're documenting, acts as replacement for
+# The version info for the project you are documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
 #

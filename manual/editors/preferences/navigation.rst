@@ -14,7 +14,7 @@ Orbit & Pan
 ===========
 
 Orbit Method
-   Choose you're preferred method of interactively rotating the 3D Viewport.
+   Choose you are preferred method of interactively rotating the 3D Viewport.
 
    Turntable
       Rotates the view keeping the horizon horizontal.
