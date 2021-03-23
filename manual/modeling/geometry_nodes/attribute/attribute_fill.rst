@@ -32,6 +32,10 @@ Value
 Properties
 ==========
 
+Domain
+   Domain of the output attribute. If this is set to *Auto*, it will use the domain
+   of the attribute if it exists already, otherwise it uses the *Point* domain.
+
 Data Type
    The type of data to fill the attribute with.
 
