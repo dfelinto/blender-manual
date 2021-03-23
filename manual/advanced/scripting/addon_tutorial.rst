@@ -467,10 +467,10 @@ this allows you to have multiple keys accessing the same operator with different
 
 For API documentation on the functions listed above, see:
 
-- :class:`blender_api:bpy.types.KeyMaps.new`,
-- :class:`blender_api:bpy.types.KeyMap`,
-- :class:`blender_api:bpy.types.KeyMapItems.new`,
-- :class:`blender_api:bpy.types.KeyMapItem`.
+- :meth:`blender_api:bpy.types.KeyMaps.new`
+- :class:`blender_api:bpy.types.KeyMap`
+- :meth:`blender_api:bpy.types.KeyMapItems.new`
+- :class:`blender_api:bpy.types.KeyMapItem`
 
 
 Bringing It All Together
