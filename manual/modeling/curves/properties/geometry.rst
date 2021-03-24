@@ -72,17 +72,15 @@ Taper Object
 .. _bpy.types.Curve.taper_mode:
 
 Taper Mode
-   For curves using a Taper Object, this option defines how the effective curve radius is computed from the
-   Taper Object. The option can be any of the following:
+   For curves using a taper object, this option defines
+   how the effective curve radius is computed from the Taper Object.
 
-   - Override: The curve radius is ignored and the effective radius is equal to the taper radius.
-   - Multiply: The effective radius is computed by multiplying the taper radius with the curve radius.
-   - Add: The effective radius is computed by adding the taper radius to the curve radius.
-
-   The following examples demonstrate each of the modes on a curve with a radius of zero on one end and a
-   radius of one on the other end:
+   :Override: The curve radius is ignored and the effective radius is equal to the taper radius.
+   :Multiply: The effective radius is computed by multiplying the taper radius with the curve radius.
+   :Add: The effective radius is computed by adding the taper radius to the curve radius.
 
    .. list-table::
+      Examples of a curve with a radius of zero on one end and a radius of one on the other end.
 
       * - .. figure:: /images/modeling_curves_properties_geometry_taper-mode-override.png
 
