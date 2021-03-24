@@ -132,9 +132,9 @@ Geometry
 Example
 =======
 
-Here are nodes to move points along the normals of a mesh or point from the 
+Here are nodes to move points along the normals of a mesh or points from the 
 :doc:`Point Distribute Node </modeling/geometry_nodes/point/point_distribute>` node. First the normal attribute
-is moved to the `Point` domain. Then it is normalized, the length is changed, and added to the position.
+is moved to the `Point` domain. Then it is normalized, the length is changed, and it is added to the position.
 The "Factor" input could instead be an attribute to vary the displacement per-point.
 
 .. figure:: /images/modeling_geometry-nodes_attribute_attribute-vector-math_example.png
