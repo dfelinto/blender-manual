@@ -24,6 +24,7 @@ Node Types
    geometry/index.rst
    input/index.rst
    mesh/index.rst
+   mesh_primitives/index.rst
    point/index.rst
    utilities/index.rst
    vector/index.rst
