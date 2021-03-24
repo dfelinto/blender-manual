@@ -66,3 +66,6 @@ Mode
 
    :Single:   The image empty is a single image or the current frame of an image sequence.
    :Sequence: The image empty is an :ref:`Image Sequence <image-sequence>`.
+
+Start at Current Frame
+   When enabled, Start the tracing process at the Current image frame.

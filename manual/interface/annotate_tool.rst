@@ -43,6 +43,9 @@ in it multiple annotation layers can be managed.
 Color
    Adjusts the color of existing and new strokes.
 
+Opacity
+   Adjusts the opacity of existing and new strokes.
+
 Thickness
    Adjusts the thickness of existing and new strokes.
 

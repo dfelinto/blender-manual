@@ -19,6 +19,8 @@ Tool Settings
 Flat Caps
    Mark newly created :ref:`End Caps <bpy.ops.gpencil.stroke_caps_set>` as *Flat*.
 
+Threshold
+   Determine the threshold for stroke intersections.
 
 Usage
 =====

@@ -28,6 +28,7 @@ By default the view order of the layers in the viewport is top to bottom.
 
 Every layer correspond to a channel in the Dope Sheet editor (in Grease Pencil mode).
 See :doc:`Dope Sheet </editors/dope_sheet/grease_pencil>` for more information.
+
 Layers can also be used together with Modifiers to only affects part of your drawing.
 See :doc:`Modifiers </grease_pencil/modifiers/introduction>` for more information.
 
@@ -68,6 +69,10 @@ Layer Specials
 
    Duplicate Layer
       Makes an exact copy of the selected layer appending a number to differentiate its name.
+
+   Duplicate Empty Keyframes
+      Makes a copy of the selected layer but with empty keyframes.
+      Useful to easily have empty keyframes preset to work on the cleanup or filling process.
 
    .. _bpy.ops.gpencil.reveal:
 
@@ -133,7 +138,7 @@ See :doc:`Masks </grease_pencil/properties/masks>` for more information.
 Transform
 =========
 
-Todo.
+Allows per layers location, rotation and scale transformations.
 
 
 Adjustments

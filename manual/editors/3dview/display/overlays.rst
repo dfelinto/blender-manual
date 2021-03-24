@@ -326,6 +326,7 @@ Grease Pencil
 
 Onion Skin
    Show ghosts of the keyframes before and after the current frame.
+   If Multiframe is enabled Keyframes before and after of the active frame are displayed using onion colors.
 Canvas
    Display a grid over Grease Pencil drawing plane.
    The opacity of the grid can be controlled with the slider.

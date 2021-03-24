@@ -28,6 +28,12 @@ Direction :kbd:`Ctrl`
    Inverted
       Fills the area outside the shape under the cursor.
 
+.. _bpy.types.BrushGpencilSettings.fill_factor:
+
+Precision
+   Multiplier for fill boundary accuracy.
+   Higher values are more accurate but slower.
+
 .. _bpy.types.BrushGpencilSettings.fill_leak:
 
 Leak Size
@@ -35,12 +41,6 @@ Leak Size
 
 Thickness
    The thickness radius of the boundary stroke in pixels.
-
-.. _bpy.types.BrushGpencilSettings.fill_simplify_level:
-
-Simplify
-   Number of simplify steps to apply to the boundary line.
-   Higher values reduce the accuracy of the final filled area.
 
 
 Advanced
@@ -72,11 +72,17 @@ Layers
    :All Above: Calculates boundaries based on all layers above the active layer.
    :All Below: Calculates boundaries based on all layers below the active layer.
 
-.. _bpy.types.BrushGpencilSettings.fill_factor:
+Stroke Extension
+   Extends the actual stroke to close gaps in the fill area. The extended strokes are temporarily and will be not be rendered.
+   The value control the extension length to use. Zero value means disabled.
 
-Precision
-   Multiplier for fill boundary accuracy.
-   Higher values are more accurate but slower.
+   Show Extend Lines (grid icon)
+      Toggle show extended lines helper.
+
+.. _bpy.types.BrushGpencilSettings.fill_simplify_level:
+
+Simplify
+   Number of simplify steps to apply to the boundary line. Higher values reduce the accuracy of the final filled area.
 
 .. _bpy.types.BrushGpencilSettings.show_fill:
 .. _bpy.types.BrushGpencilSettings.fill_threshold:
@@ -86,6 +92,8 @@ Ignore Transparent
 
    The value slider controls the threshold to consider a material transparent.
 
+Limit to Viewport
+   When enabled, fill only visible areas in the viewport.
 
 Usage
 =====
@@ -149,6 +157,32 @@ To create a Boundary Strokes use :kbd:`Alt-LMB` and draw a line to close the des
 When you are satisfied with the fill result you can delete the Boundary strokes using
 the *Clean Up* tool in the :doc:`Grease Pencil Menu </grease_pencil/modes/edit/grease_pencil_menu>` in Edit Mode.
 
+Stroke Extension
+-----------------
+
+A more automatic way to close gaps in an area that you want fill is using temporarily extended lines.
+*Stroke Extension* are temporary extended help lines for closing open shapes.
+Set a value more than zero to use the extended lines, click over the area you want to be filled 
+and change the lenght of the Strokes using :kbd:`PageUp` :kbd:`PageDown` or :kbd:`Wheel`
+
+When you are satisfied with the lenght and you are sure the temporarily strokes cross each other, click again to fill the area.
+
+.. list-table::
+
+   * - .. figure:: /images/grease-pencil_modes_draw_tools_fill_extended-strokes-01.png
+          :width: 200px
+
+          Original Drawing.
+
+     - .. figure:: /images/grease-pencil_modes_draw_tools_fill_extended-strokes-02.png
+          :width: 200px
+
+          Use Strokes extension to close open areas (cyan lines).
+
+     - .. figure:: /images/grease-pencil_modes_draw_tools_fill_extended-strokes-03.png
+          :width: 200px
+
+          Use Fill Tool to leak material on the new closed area.
 
 Switch to Draw Tool
 -------------------
