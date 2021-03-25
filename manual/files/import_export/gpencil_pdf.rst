@@ -1,27 +1,28 @@
 
 ************************************************
-Portable Document Fromat (PDF) as Grease Pencil
+Portable Document Format (PDF) as Grease Pencil
 ************************************************
 
-.. admonition:: Reference
-   :class: refbox
+This format is use for interchanging PDF between applications,
+it support the export of Grease Pencil animation creating one page in the PDF document for each keyframe selected.
 
-   :Category:  Import-Export
-   :Menu:      :menuselection:`File --> Export --> Grease Pencil as PDF`
+.. warning:: The exporter only works in Object Mode.
 
-.. warning:: .. warning:: This script only works in Object Mode.
+Export Options
+===============
 
-Properties
-==========
+The following options are available when exporting to PDF:
 
 Object
-   Determine wich objects include in the export
+   Determine which objects will be included in the export.
 
    :Active: Export only the active Grease Pencil object.
    :Selected: Export all selected Grease Pencil objects.
    :Visible: Export all visible Grease Pencil object in the scene.
 
 Frame
+   Determine which frames will be included in the export.
+
    :Active: Export only the active keyframe.
    :Selected: Export all selected keyframes as different PDF pages.
 
@@ -37,9 +38,4 @@ Fill
 Normalize
    When enabled, Export strokes with constant thickness.
 
-
-Usage
-=====
-
-This format is use for interchanging PDF between applications,
-it support the export of Grease Pencil animation creating one page in the PDF document for each keyframe selected.
+.. note:: The export of the Grease Pencil strokes is doing always from camera view.

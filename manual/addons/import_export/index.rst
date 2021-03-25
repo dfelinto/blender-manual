@@ -26,8 +26,6 @@
    anim_nuke_chan.rst
    mesh_stl.rst
    curve_svg.rst
-   gpencil_svg.rst
-   gpencil_pdf.rst
    mesh_ply.rst
    mesh_uv_layout.rst
    scene_obj.rst
