@@ -41,14 +41,9 @@ Properties
 Fill Type
    How the circles at the top and bottom are filled with faces when their radius is larger than zero.
 
-   None
-      Do not fill the circles.
-
-   N-Gon
-      Fill the circles with a single face.
-
-   Triangles
-      Fill the circles with triangles connected to a new vertex on the Z axis.
+   :None: Do not fill the circles.
+   :N-Gon: Fill the circles with a single face.
+   :Triangles: Fill the circles with triangles connected to a new vertex on the Z axis.
 
 
 Outputs

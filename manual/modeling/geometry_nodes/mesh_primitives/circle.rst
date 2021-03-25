@@ -30,14 +30,10 @@ Properties
 Fill Type
    How the circle is filled with faces.
 
-   None
-      Output just the edge ring without any faces.
+   :None: Output just the edge ring without any faces.
+   :N-Gon: Fill the circle with a single face.
+   :Triangles: Fill the circle with triangles connected to a new vertex at the origin.
 
-   N-Gon
-      Fill the circle with a single face.
-
-   Triangles
-      Fill the circle with triangles connected to a new vertex at the origin.
 
 Outputs
 =======

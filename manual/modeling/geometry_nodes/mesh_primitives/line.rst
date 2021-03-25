@@ -43,21 +43,15 @@ Properties
 Mode
    Inputs to use to control the line.
 
-   Offset
-      Specify the offset from one vertex to the next.
-
-   End Points
-      Specify the start and end point of the line.
+   :Offset: Specify the offset from one vertex to the next.
+   :End Points: Specify the start and end point of the line.
 
 Count Mode
    Determines how the number of vertices is choosen.
    This is only available when the mode is set to *End Points*.
 
-   Count
-      Specify the total number of vertices.
-
-   Resolution
-      Specify the distance between vertices.
+   :Count: Specify the total number of vertices.
+   :Resolution: Specify the distance between vertices.
 
 
 Outputs
