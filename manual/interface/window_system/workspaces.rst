@@ -108,7 +108,7 @@ Workspace Settings
 .. _bpy.types.WorkSpace.object_mode:
 
 Mode
-   Switch to this :doc:`Mode <manual/editors/3dview/modes.rst>` when activating the workspace.
+   Switch to this :doc:`Mode <manual/editors/3dview/modes>` when activating the workspace.
 
 
 .. _bpy.ops.wm.owner_enable:

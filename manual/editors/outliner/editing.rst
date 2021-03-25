@@ -127,7 +127,7 @@ Delete
 Make Library Override
    Make a local :doc:`override </files/linked_libraries/library_overrides>` of this linked data-block.
 Make Library Override Hierarchy
-   Mske a local :doc:`override </files/linked_libraries/library_overrides>` of this linked data-block,
+   Make a local :doc:`override </files/linked_libraries/library_overrides>` of this linked data-block,
    and its hierarchy of dependencies.
 Convert Proxy to Override
    Converts the selected :doc:`Proxy </files/linked_libraries/library_proxies>`

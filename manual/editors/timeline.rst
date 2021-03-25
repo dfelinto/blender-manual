@@ -141,7 +141,7 @@ Playback
    Limit Playback to Frame Range
       Don't allow selecting frames outside of the playback range using the mouse.
 
-   .. _bpy.types.Screen.use_follow
+   .. _bpy.types.Screen.use_follow:
 
    Follow Current Frame
       Animation editors can be setup to always follow the time indicator as animation is being played back.
