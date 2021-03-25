@@ -26,6 +26,10 @@ Show Markers
 Show Local Markers
    Shows action-local markers on the strip, this is useful when synchronizing time across strips.
 
+   .. figure:: /images/editors_nla_tracks_local_markers.png
+
+      Local markers shown on a strip.
+
 Set Preview Range :kbd:`P`
    Selecting a preview range by dragging in the NLA Editor.
 Clear Preview Range :kbd:`Alt-P`
