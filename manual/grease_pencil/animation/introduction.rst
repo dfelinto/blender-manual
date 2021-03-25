@@ -41,7 +41,8 @@ Traditional animation in Grease Pencil is achieved with the use of
 :doc:`keyframes </animation/keyframes/introduction>`
 that hold the strokes information at a particular frame or frame range.
 
-With Auto keyframe activated, every time you create a stroke in Grease Pencil object Draw Mode
+With :ref:`Auto keyframe <bpy.types.ToolSettings.use_keyframe_insert_auto>` activated,
+every time you create a stroke in Grease Pencil object Draw Mode
 a new keyframe is added at the current frame on the active channel.
 
 With Auto keyframe deactivated, you will have to add manually

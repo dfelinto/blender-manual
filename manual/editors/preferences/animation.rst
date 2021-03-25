@@ -60,7 +60,7 @@ Auto-Keyframing
 
    .. seealso::
 
-      Learn more about :ref:`Auto-Keyframing <animation-editors-timeline-autokeyframe>`.
+      Learn more about :ref:`Auto-Keyframing <bpy.types.ToolSettings.use_keyframe_insert_auto>`.
 
 
 F-Curves

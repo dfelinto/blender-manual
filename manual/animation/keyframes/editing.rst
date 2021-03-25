@@ -32,7 +32,7 @@ Auto Keyframe
 Auto Keyframe is the record button in the *Timeline* header. Auto Keyframe adds
 keyframes automatically to the set frame if the value for transform type properties changes.
 
-See :ref:`Timeline Keyframe Control <animation-editors-timeline-autokeyframe>` for more info.
+See :ref:`Timeline Keyframe Control <bpy.types.ToolSettings.use_keyframe_insert_auto>` for more info.
 
 
 .. _bpy.ops.anim.keyframe_delete:
