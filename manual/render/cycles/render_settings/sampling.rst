@@ -136,6 +136,19 @@ Viewport
 Start Sample
    Sample to start :ref:`denoising <render-cycles-settings-viewport-denoising>` in the 3D Viewport.
 
+.. _bpy.types.CyclesRenderSettings.preview_denoising_input_passes:
+
+Input Passes
+   Controls which :doc:`Render Pass </render/layers/passes>` the OptiX AI denoiser should use as input,
+   which can have different effects on the denoised image.
+   Generally, the more passes the denoiser has to denoise the better the result.
+   It is recommended to at least use *Color + Albedo* as just *Color* can blur out details,
+   especially at lower sample counts.
+
+   :Color: Denoise the color data.
+   :Color + Albedo: Denoise the color and albedo data.
+   :Color + Albedo + Normal: Denoise the color, albedo, and normal pass data.
+
 
 Advanced
 ========
