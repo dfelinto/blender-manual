@@ -37,7 +37,7 @@ Step
    The number of frames between generated interpolated frames.
 Layer
    Restrict the interpolation to Active or All layers.
-Only selected (:guilabel:`Edit Mode Only`)
+Only selected :guilabel:`Edit Mode`
    When enabled, only selected strokes will be interpolated.
 Flip Mode
    Invert strokes start and end. Automatic will try to found the right mode for every stroke.
@@ -47,4 +47,3 @@ Iterations
    Number of time to smooth newly created strokes.
 Type
    Interpolation method to use for the sequence.
-
