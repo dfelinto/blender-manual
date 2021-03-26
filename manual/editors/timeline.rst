@@ -208,7 +208,7 @@ New Keyframe Type
 
 
 .. Move to some content to animation?
-.. _animation-editors-timeline-autokeyframe:
+.. _bpy.types.ToolSettings.use_keyframe_insert_auto:
 
 Auto Keying Popover
 ^^^^^^^^^^^^^^^^^^^
