@@ -214,11 +214,11 @@ Type
    Overwrite All
       Removes all previous keyframes and replaces them with the pasted keyframes.
    Overwrite Range
-      TODO
+      Overwrite keys in pasted range.
    Overwrite Entire Range
-      TODO
+      Overwrite keys in pasted range, using the range of all copied keys.
 Flipped
-   TODO
+   Paste keyframes from mirrored bones if they exist.
 
 
 .. _bpy.ops.graph.duplicate_move:
