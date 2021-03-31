@@ -119,7 +119,7 @@ Camera Data
    Everything is compatible.
 
 Geometry
-   Pointyness is not supported.
+   Pointiness is not supported.
 
 Random per Island
    Random per Island is not supported.

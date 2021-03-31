@@ -10,7 +10,7 @@ Cylinder
 
    Cylinder Node.
 
-The *Cyliner* node generates a cylinder mesh.
+The *Cylinder* node generates a cylinder mesh.
 It is similar to the cone node but always uses the same radius for the circle at the top and bottom.
 
 

@@ -3,7 +3,7 @@
 Workspaces
 **********
 
-*Workspaces* are essentially predefined window layouts.
+Workspaces are essentially predefined window layouts.
 Blender's flexibility with :doc:`Areas </interface/window_system/areas>`
 lets you create customized workspaces for different tasks such as
 modeling, animating, and scripting. It is often useful to quickly switch between
@@ -108,7 +108,7 @@ Workspace Settings
 .. _bpy.types.WorkSpace.object_mode:
 
 Mode
-   Switch to this :doc:`Mode <manual/editors/3dview/modes>` when activating the workspace.
+   Switch to this :doc:`Mode </editors/3dview/modes>` when activating the workspace.
 
 
 .. _bpy.ops.wm.owner_enable:
@@ -118,6 +118,6 @@ Mode
 Filter Add-ons
 --------------
 
-Filters which :doc:`Add-ons </addons/index>` are enabled in active workspace.
+Filters which :doc:`Add-ons </addons/index>` are enabled in the active workspace.
 Keeping the checkbox in the header enables all global add-ons,
 enabling the checkbox allows you to individually enable add-ons from the list.

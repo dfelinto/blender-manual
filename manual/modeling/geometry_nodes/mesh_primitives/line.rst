@@ -17,13 +17,13 @@ Inputs
 ======
 
 Count
-   Number of vertices on the line
+   Number of vertices on the line.
 
 Resolution
    Length of individual edges.
    The node tries to fit as many vertices as possible between the start and end point.
    The exact end point might not be hit.
-   This is only availabe when the mode is set to *End Points* and the count mode is set to *Resolution*.
+   This is only available when the mode is set to *End Points* and the count mode is set to *Resolution*.
 
 Start Location
    Position of the first vertex.
@@ -47,7 +47,7 @@ Mode
    :End Points: Specify the start and end point of the line.
 
 Count Mode
-   Determines how the number of vertices is choosen.
+   Determines how the number of vertices is chosen.
    This is only available when the mode is set to *End Points*.
 
    :Count: Specify the total number of vertices.

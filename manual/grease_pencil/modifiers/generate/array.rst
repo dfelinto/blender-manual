@@ -66,10 +66,10 @@ Scale X, Y, Z
    Add random scale values to the copies.
 
 Uniform Scale
-   Use the same random seed for each scale axis in the copies for a uniform scale
+   Use the same random *Seed* for each scale axis in the copies for a uniform scale.
 
 Seed
-   Seed used by the pseudo-random number generator.
+   :term:`Seed` used by the pseudo-random number generator.
 
 .. note::
 

@@ -22,6 +22,7 @@ Flat Caps
 Threshold
    Determine the threshold for stroke intersections.
 
+
 Usage
 =====
 

@@ -5,7 +5,7 @@
 Spreadsheet
 ***********
 
-The Spreadsheet editor is used to debug geometry attributes.
+The Spreadsheet editor is used to inspect geometry attributes.
 
 .. figure:: /images/editors_spreadsheet_interface.png
    :align: center

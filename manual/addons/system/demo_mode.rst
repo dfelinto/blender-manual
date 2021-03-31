@@ -26,7 +26,7 @@ play an animation with options as to how many cycles to play, time to wait after
 Automatic Configuration
 -----------------------
 
-The *Auto* option selects between *Render* and *Play* option based on the window layout's use of image/node windows.
+The *Auto* option selects between *Render* and *Play* option based on the window layout's use of image/node editors.
 If you are happy to use these settings on all files, you can leave the *Run Immediately* option enabled and confirm.
 
 

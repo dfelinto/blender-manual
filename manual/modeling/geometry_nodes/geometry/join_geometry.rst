@@ -21,7 +21,7 @@ Inputs
 ======
 
 Geometry
-   Geometries that will be joined. Multiple inputs are allowed.
+   Pieces of geometry that will be joined. Multiple inputs are allowed.
    When the node is muted, only the first link will be passed through.
 
 

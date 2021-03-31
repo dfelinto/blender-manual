@@ -52,8 +52,8 @@ Layer Previous/Next (down/up arrow peak icon)
 
       These still work when you are not editing the action used by an NLA Strip.
       If you are just animating a new action normally,
-      it is possible to use the "down arrow" to temporarily jump down to the previous action
-      without losing the new action you are working on, and then use the "up arrow" to get back to
+      it is possible to use the down arrow button to temporarily jump down to the previous action.
+      Without losing the new action you are working on, and then use the up arrow button to get back to
       it once you are done checking the other action(s).
 
 .. _dopesheet-action-action:

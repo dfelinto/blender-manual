@@ -33,13 +33,13 @@ in Fig. :ref:`fig-mesh-screw-wood` and Fig. :ref:`fig-mesh-screw-spring`.
 
        .. figure:: /images/modeling_meshes_editing_edge_screw_example-shell.png
 
-          Wood Screw tip done with the Screw tool.
+          Wood Screw tip created with the Screw tool.
 
      - .. _fig-mesh-screw-spring:
 
        .. figure:: /images/modeling_meshes_editing_edge_screw_example-spring.png
 
-          Spring done with the Screw tool.
+          Spring created with the Screw tool.
 
 
 Usage

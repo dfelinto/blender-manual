@@ -20,7 +20,7 @@ Typically, either the name of a UV map or the *position* attribute is used.
    UV maps can only be accessed after a Point Distribute node currently.
    This is a limitation that will be resolved.
 
-A *Attribute Sample Texture* node can be added quickly by dragging a texture data-block into the node editor.
+An *Attribute Sample Texture* node can be added quickly by dragging a texture data-block into the node editor.
 
 
 Inputs

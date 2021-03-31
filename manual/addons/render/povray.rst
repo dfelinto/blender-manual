@@ -337,7 +337,7 @@ one or more alphabetic characters and possibly a numeric value.
    For "Continue trace" is able to recover the point at which your last render stopped and
    continue it from there (even if you switched off your computer).
 ``/EXIT``: Close POV-Ray after rendering the image
-   There is an option in POV-Ray for windows interface to do the same:
+   There is an option in POV-Ray for Windows interface to do the same:
    The "On Completion" option to "Exit POV-Ray for Windows" (in the *Render* menu).
 
 .. tip:: Fast Preview Renders

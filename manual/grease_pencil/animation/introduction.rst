@@ -44,7 +44,6 @@ that hold the strokes information at a particular frame or frame range.
 With :ref:`Auto keyframe <bpy.types.ToolSettings.use_keyframe_insert_auto>` activated,
 every time you create a stroke in Grease Pencil object Draw Mode
 a new keyframe is added at the current frame on the active channel.
-
 With Auto keyframe deactivated, you will have to add manually
 a new keyframe or your new strokes will be added on the active keyframe.
 
@@ -57,7 +56,6 @@ See :doc:`Keyframe Editing </animation/keyframes/editing>` for more information.
 Grease Pencil has its own mode in the Dope Sheet to work with keyframes.
 See Grease Pencil mode in the :doc:`Dope Sheet </editors/dope_sheet/grease_pencil>`
 section for more information.
-
 There are also several tools on the Stroke menu to work with keyframes and strokes.
 See :doc:`Animation tools </grease_pencil/animation/tools>` for more information.
 
@@ -129,12 +127,12 @@ with a traditional 2D animation technique and Grease Pencil.
 
 First, go to menu :menuselection:`File --> New --> 2D Animation` to start with a new 2D animation template.
 The template is ready to quick start your animation with a Grease Pencil object already created,
-onion skinning activated, Auto keyframe enabled and in camera view.
+Onion Skinning activated, Auto Keyframe enabled and in camera view.
 
 #. Set the range of the animation in the Timeline from 1 to 24.
 #. In the 3D Viewport draw a ball on the upper left corner with the Draw Tool (extreme).
 #. Move to frame 12 and draw a squashed ball in the bottom center (breakdown).
 #. Move to frame 24 and draw a ball in the top right corner of the 3D Viewport (extreme).
-#. Keep drawing all the inbetweens frames you want using the onion skinning ghost as a reference.
+#. Keep drawing all the inbetween frames you want using the onion skinning ghost as a reference.
 
 To test the animation, press :kbd:`Spacebar` to play.

@@ -31,7 +31,7 @@ The newly created quad has the same material and normal direction as the neighbo
 Quad from Edge
 --------------
 
-Similar to the quad from vertex functionality, this is based on open edges.
+Similar to the *Quad from Vertex* functionality, this is based on open edges.
 The selected edge has to be connected to two open edges.
 The vertices that belong to these edges are used to create a new quad.
 

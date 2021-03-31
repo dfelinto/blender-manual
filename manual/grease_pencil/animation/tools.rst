@@ -67,7 +67,7 @@ Deletes the last keyframe in the Dope Sheet or the current keyframe if you are o
 .. _bpy.ops.gpencil.interpolate_sequence:
 
 Interpolate Sequence
-=======================
+====================
 
 .. admonition:: Reference
    :class: refbox

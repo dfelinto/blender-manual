@@ -55,6 +55,7 @@ Interactively
 
 Drag the link from an input socket and let it go keeping it unconnected.
 
+
 Mute Links
 ----------
 
@@ -67,16 +68,16 @@ Mute Links
 
 Mute links works as a mute/unmute toggle depending on the existing state of the link.
 
-To mute a link between sockets click in an empty area, near the link you want to mute, and
-drag: You will see a little mute icon appearing at your mouse pointer.
-Move it over the link itself, and release. 
+To mute a link between sockets click in an empty area, near the link you want to mute, and drag:
+You will see a little mute icon appearing at your mouse pointer.
+Move it over the link itself, and release.
 
-When muting links connected to a reroute node, links connected to the reroute node will 
-also be muted.
+When muting links connected to a reroute node, links connected to the reroute node will also be muted.
 
-Muting links temporarily disconnects sockets but leaves the link connected. The muted link is displayed in red 
-with a bar accross. The controls for sockets are normally hidden when connected, when links are muted the 
-controls are shown. 
+Muting links temporarily disconnects sockets but leaves the link connected.
+The muted link is displayed in red with a bar across.
+The controls for sockets are normally hidden when connected,
+when links are muted the controls are shown.
 
 .. figure:: /images/interface_controls_nodes_editing_mute_links.png
 
@@ -91,8 +92,8 @@ Cut Links
    :Menu:      :menuselection:`Node --> Cut Links`
    :Hotkey:    :kbd:`Ctrl-RMB`
 
-To break a link between sockets click in an empty area, near the link you want to disconnect, and
-drag: You will see a little cutter icon appearing at your mouse pointer.
+To break a link between sockets click in an empty area, near the link you want to disconnect, and drag:
+You will see a little cutter icon appearing at your mouse pointer.
 Move it over the link itself, and release.
 
 Detach Links :kbd:`Alt-D`, :kbd:`Alt-LMB` drag

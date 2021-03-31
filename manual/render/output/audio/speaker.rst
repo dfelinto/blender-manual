@@ -74,7 +74,7 @@ Distance
       If the object is farther away than this distance, this distance is used to calculate the distance-based volume.
       Influence of this value also depends on the distance model.
    Reference
-      The distance at which the volume is 100% (1.0). Set this value to the distance used for recording the sound.
+      The distance at which the volume is full (1.0). Set this value to the distance used for recording the sound.
       Usually sound effects recordings should be made exactly 1 m away from sound to get an accurate volume.
 
 
@@ -87,7 +87,7 @@ Imagine a cone with the top at the original of the speaker object
 and the main axis of it facing in the same direction as the speaker.
 There are two cones an inner and an outer cone. The angles represent their opening angles,
 so 360° mean the cone is fully open and there is no directionality anymore.
-Inside the inner cone the volume is 100% (1.0),
+Inside the inner cone the volume is full (1.0),
 outside the outer cone the volume is, whatever one sets for the outer cone volume
 and the volume between those two cones, linearly interpolated between this two volumes.
 
@@ -95,7 +95,7 @@ Angle
    Outer
       Angle of the outer cone in degrees. Outside this cone, the volume is equal to the *Outer* volume.
    Inner
-      Angle of the inner cone in degrees. Inside the cone, the volume is 100%.
+      Angle of the inner cone in degrees. Inside the cone, the volume is full.
 Volume
    Outer
       Volume outside the outer cone.

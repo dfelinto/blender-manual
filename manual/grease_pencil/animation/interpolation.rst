@@ -4,7 +4,7 @@ Interpolation
 *************
 
 Interpolate
-============
+===========
 
 .. admonition:: Reference
    :class: refbox
@@ -20,7 +20,7 @@ See :ref:`Interpolate tool <tool-grease-pencil-draw-interpolate>` for more detai
 
 
 Interpolate Sequence
-=====================
+====================
 
 .. admonition:: Reference
    :class: refbox
@@ -37,7 +37,7 @@ Step
    The number of frames between generated interpolated frames.
 Layer
    Restrict the interpolation to Active or All layers.
-Only selected :guilabel:`Edit Mode`
+Only Selected :guilabel:`Edit Mode`
    When enabled, only selected strokes will be interpolated.
 Flip Mode
    Invert strokes start and end. Automatic will try to found the right mode for every stroke.

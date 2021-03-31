@@ -368,9 +368,9 @@ Recalculate Geometry
    :Mode:      Edit Mode and Draw Mode
    :Menu:      :menuselection:`Grease Pencil --> Clean Up --> Recalculate Geometry`
 
-This operator update all internal geometry data.
-It is not intended that you will need to use this operator
-but could help in cases where strokes are behaving in a strange way or when you opened old files.
+This operator updates all internal geometry data.
+It is not intended that you will have to use this operator
+but it can help in cases where strokes are drawn in a strange way or when you opened an old file.
 
 
 .. _bpy.ops.gpencil.delete:

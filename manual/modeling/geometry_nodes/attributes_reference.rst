@@ -17,18 +17,19 @@ change the values of specific attributes.
 
    Attribute data types are converted implicitly where possible, just like node sockets.
 
-Attribute Domains
-===========================
 
-All attributes have a domain and type associated with them. Knowing the domain of an attribute is
-important to know which parts of the geometry the attribute can affect. You can use the
-:doc:`Spreadsheet Editor </editors/spreadsheet>` to determine the domains of attributes.
+Attribute Domains
+=================
+
+All attributes have a domain and type associated with them. Knowing the domain of an attribute is important
+because it defines which parts of the geometry the attribute can affect.
+You can use the :doc:`Spreadsheet Editor </editors/spreadsheet>` to determine the domains of attributes.
 
 #. Point domain attributes are associated with the vertices of the mesh or the points in a point cloud.
 #. Edge domain attributes are associated with the edges of the mesh.
 #. Face domain attributes are associated with the faces of the mesh.
-#. Face corner domain attributes are associated with the corners of the faces of the mesh. An example is the
-   *UVMap* attribute.
+#. Face corner domain attributes are associated with the corners of the faces of the mesh.
+   An example is the *UVMap* attribute.
 
 .. note::
 
@@ -36,8 +37,8 @@ important to know which parts of the geometry the attribute can affect. You can 
 
 .. tip::
 
-  Use the :doc:`Attribute Convert </modeling/geometry_nodes/attribute/attribute_convert>` node to change
-  the domain and type of attributes.
+   Use the :doc:`Attribute Convert </modeling/geometry_nodes/attribute/attribute_convert>` node to change
+   the domain and type of attributes.
 
 
 Built-In Attributes
@@ -78,7 +79,7 @@ Built-in attributes always exist, and cannot be removed. Their data type and dom
      - *Float*
      - *Edge*
      - Edge attribute used by the Subdivision Surface node and modifier.
-       It only allows values between 0 and 1.
+       The values are limited to a range of 0 and 1.
 
    * - **normal**
      - *Vector*
@@ -92,6 +93,7 @@ Built-in attributes always exist, and cannot be removed. Their data type and dom
      - *Boolean*
      - *Face*
      - Attribute determining if a face should have smooth shading enabled.
+
 
 Naming Conventions
 ==================

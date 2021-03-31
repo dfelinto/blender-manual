@@ -9,7 +9,6 @@ Assignment
    :Panel:     :menuselection:`Material --> Material Slots`
 
 Materials are data-blocks that can be created and then assigned to one or more objects.
-
 An object can also have multiple materials assigned in different material slots,
 which correspond to different parts of an object. If a smooth transition between
 materials is desired, then mixing shader nodes with a :doc:`Mix shader </render/shader_nodes/shader/mix>`
@@ -22,7 +21,6 @@ Material Slots
 ==============
 
 Material slots link materials to objects and meshes.
-
 By default objects only have a single material slot, which assigns a material to the entire object.
 If different parts of the mesh need different materials, multiple material slots can be created.
 
@@ -71,7 +69,7 @@ Material
 .. _bpy.types.MaterialSlot.link:
 
 Link
-   Specifies whether the material is to be linked to the Object or to the Object Data.
+   Specifies whether the material is to be linked to the object or to the object data.
 
    The Link selector has two choices, Data and Object.
    These two menu choices determine whether the material is linked to the object or to the data

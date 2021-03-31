@@ -1,18 +1,19 @@
 
-************************************************
+***********************************************
 Scalable Vector Graphics (SVG) as Grease Pencil
-************************************************
+***********************************************
 
-This format is use for interchanging vector based illustrations between applications and is supported by applications such as Inkscape, 
-Illustrator, Corel Draw, and modern browsers among others.
+This format is use for interchanging vector based illustrations between applications
+and is supported by vector graphics editors such as Inkscape, and modern browsers among others.
 
 .. warning:: The exporter only works in Object Mode.
+
 
 Import
 ======
 
 Options
---------
+-------
 
 Resolution
    Resolution for generated strokes.
@@ -20,14 +21,15 @@ Resolution
 Scale
    Generated strokes scale.
 
+
 Export
 ======
 
 Options
---------
+-------
 
 Object
-   Determine wich objects include in the export
+   Determine which objects include in the export.
 
    :Active: Export only the active Grease Pencil object.
    :Selected: Export all selected Grease Pencil objects.

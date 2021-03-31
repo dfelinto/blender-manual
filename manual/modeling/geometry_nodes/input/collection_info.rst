@@ -11,7 +11,7 @@ Collection Info
    Collection Info Node.
 
 The *Collection Info* node gets information from collections.
-This can be useful to make an external collection to control parameters in the geometry node tree.
+This can be useful to control parameters in the geometry node tree with an external collection.
 
 A *Collection Info* node can be added quickly by dragging a collection into the node editor.
 

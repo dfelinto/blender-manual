@@ -24,9 +24,9 @@ Input
    Input type to use for the Scene strip.
 
    :Camera:
-      Use the Scene’s 3D camera as input.
+      Use the Scene's 3D camera as input.
    :Sequencer:
-      Use the scene's sequencer timeline as input, allowing one scene to reuse
+      Use the scene's Sequencer timeline as input, allowing one scene to reuse
       another scene's edit (instead of taking the render output from the scene).
 
       This is similar to how :doc:`Meta Strips </video_editing/sequencer/meta>` work,

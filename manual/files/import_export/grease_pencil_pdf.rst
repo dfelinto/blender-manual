@@ -1,15 +1,16 @@
 
-************************************************
+***********************************************
 Portable Document Format (PDF) as Grease Pencil
-************************************************
+***********************************************
 
-This format is use for interchanging PDF between applications,
+This format is use for interchanging PDFs between applications,
 it support the export of Grease Pencil animation creating one page in the PDF document for each keyframe selected.
 
 .. warning:: The exporter only works in Object Mode.
 
+
 Export Options
-===============
+==============
 
 The following options are available when exporting to PDF:
 

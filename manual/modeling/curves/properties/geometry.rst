@@ -72,7 +72,7 @@ Taper Object
 .. _bpy.types.Curve.taper_mode:
 
 Taper Mode
-   For curves using a taper object, this option defines
+   For curves using a *Taper Object*, this option defines
    how the effective curve radius is computed from the Taper Object.
 
    :Override: The curve radius is ignored and the effective radius is equal to the taper radius.
