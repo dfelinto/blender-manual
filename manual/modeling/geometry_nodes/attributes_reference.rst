@@ -17,22 +17,46 @@ change the values of specific attributes.
 
    Attribute data types are converted implicitly where possible, just like node sockets.
 
+Attribute Domains
+===========================
+
+All attributes have a domain and type associated with them. Knowing the domain of an attribute is
+important to know which parts of the geometry the attribute can affect. You can use the
+:doc:`Spreadsheet Editor </editors/spreadsheet>` to determine the domains of attributes.
+
+#. Point domain attributes are associated with the vertices of the mesh or the points in a point cloud.
+#. Edge domain attributes are associated with the edges of the mesh.
+#. Face domain attributes are associated with the faces of the mesh.
+#. Face corner domain attributes are associated with the corners of the faces of the mesh. An example is the
+   *UVMap* attribute.
+
+.. note::
+
+   For point cloud objects, every attribute has the *point* domain.
+
+.. tip::
+
+  Use the :doc:`Attribute Convert </modeling/geometry_nodes/attribute/attribute_convert>` node to change
+  the domain and type of attributes.
+
 
 Built-In Attributes
 ===================
 
-Built-in attributes always exist, and cannot be removed. Their data type can not be changed.
+Built-in attributes always exist, and cannot be removed. Their data type and domain can not be changed.
 
 .. list-table::
-   :widths: 10 10 50
+   :widths: 10 10 10 50
    :header-rows: 1
 
    * - Name
      - Type
+     - Domain
      - Notes
 
    * - **position**
      - *Vector*
+     - *Point*
      - Built-in attribute describing vertex or point locations, in the modifier
        object's transform space. Any node that changes the location of points will adjust
        this attribute, like the :doc:`Transform </modeling/geometry_nodes/geometry/transform>`
@@ -40,29 +64,34 @@ Built-in attributes always exist, and cannot be removed. Their data type can not
 
    * - **radius**
      - *Float*
+     - *Point*
      - A built-in attribute on point cloud data created by
        the :doc:`Point Distribute Node </modeling/geometry_nodes/point/point_distribute>`
        Used to set the size for the points in the viewport.
 
    * - **material_index**
      - *Integer*
-     - Used to specify the material slot for every polygon in a mesh.
+     - *Face*
+     - Used to specify the material slot for every face in a mesh.
 
    * - **crease**
      - *Float*
+     - *Edge*
      - Edge attribute used by the Subdivision Surface node and modifier.
        It only allows values between 0 and 1.
 
    * - **normal**
      - *Vector*
-     - Normal of a polygon. This is a bit different from the other builtin attributes in that
+     - *Face*
+     - Normal of a face. This is a bit different from the other builtin attributes in that
        it cannot be modified. It is automatically derived from the mesh. If this attribute is
        accessed on non-point domains, it might not be normalized, because it is interpolated
-       from normals of neighboring polygons.
+       from normals of neighboring faces.
 
    * - **shade_smooth**
      - *Boolean*
-     - Polygon attribute determining if a polygon should have smooth shading enabled.
+     - *Face*
+     - Attribute determining if a face should have smooth shading enabled.
 
 Naming Conventions
 ==================

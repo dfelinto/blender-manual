@@ -29,7 +29,7 @@ Object Evaluation State
 Geometry Component Type
    Part of the geometry to display data from.
 
-   :Mesh: Mesh component containing point, corner, polygon and edge data.
+   :Mesh: Mesh component containing point, corner, face and edge data.
    :Point Cloud: Point cloud component containing only point data.
    :Instances: Display which objects and collections are instanced and their transforms.
 
@@ -39,8 +39,8 @@ Attribute Domain
    Attribute domain to display.
 
    :Point: Display attributes that are stored per point.
-   :Corner: Display attributes that are stored per polygon corner.
-   :Polygon: Display attributes that are stored per polygon.
+   :Corner: Display attributes that are stored per face corner.
+   :Face: Display attributes that are stored per face.
    :Edge: Display attributes that are stored per edge.
 
 .. _bpy.ops.spreadsheet.toggle_pin:
