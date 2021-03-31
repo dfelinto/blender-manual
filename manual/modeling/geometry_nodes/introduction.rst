@@ -24,9 +24,13 @@ Input
    Nodes used mainly as input to other nodes.
 Mesh
    Nodes that only operate on meshes.
+Mesh Primitives
+   Nodes that create a primitive mesh, e.g. a cube.
 Point
    Nodes that modify the object elements, e.g. vertices.
 Utilities
    Nodes with general purpose for modifying data.
 Vector
    Nodes for modifying vector quantities.
+Volume
+   Nodes for creating or working with volumes.
