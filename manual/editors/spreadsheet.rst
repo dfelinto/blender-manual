@@ -39,9 +39,9 @@ Attribute Domain
    Attribute domain to display.
 
    :Point: Display attributes that are stored per point.
-   :Corner: Display attributes that are stored per face corner.
-   :Face: Display attributes that are stored per face.
    :Edge: Display attributes that are stored per edge.
+   :Face: Display attributes that are stored per face.
+   :Face Corner: Display attributes that are stored per face corner.
 
 .. _bpy.ops.spreadsheet.toggle_pin:
 
