@@ -1,23 +1,26 @@
-.. index:: Geometry Nodes; Plane
-.. _bpy.types.GeometryNodeMeshPlane:
+.. index:: Geometry Nodes; Grid
+.. _bpy.types.GeometryNodeMeshGrid:
 
-*****
-Plane
-*****
+****
+Grid
+****
 
 .. figure:: /images/modeling_geometry-nodes_mesh-primitives_plane_node.png
    :align: right
 
-   Plane Node.
+   Grid Node.
 
-The *Plane* node generates a planar mesh on the XY plane.
+The *Grid* node generates a planar mesh on the XY plane.
 
 
 Inputs
 ======
 
-Size
-   Side length of the plane.
+Size X
+   Side length of the plane in the X direction.
+
+Size Y
+   Side length of the plane in the Y direction.
 
 Vertices X
    Number of vertices in the X direction.
@@ -27,15 +30,8 @@ Vertices Y
    Number of vertices in the Y direction.
    If this is smaller than two, no mesh is generated.
 
-
-Properties
-==========
-
-This node has no properties.
-
-
 Outputs
 =======
 
 Geometry
-   Standard geometry output.
+   Standard geometry output containing the generated mesh.
