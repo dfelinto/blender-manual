@@ -25,11 +25,11 @@ All attributes have a domain and type associated with them. Knowing the domain o
 because it defines which parts of the geometry the attribute can affect.
 You can use the :doc:`Spreadsheet Editor </editors/spreadsheet>` to determine the domains of attributes.
 
-#. Point domain attributes are associated with the vertices of the mesh or the points in a point cloud.
-#. Edge domain attributes are associated with the edges of the mesh.
-#. Face domain attributes are associated with the faces of the mesh.
-#. Face corner domain attributes are associated with the corners of the faces of the mesh.
-   An example is the *UVMap* attribute.
+- Point domain attributes are associated with the vertices of the mesh or the points in a point cloud.
+- Edge domain attributes are associated with the edges of the mesh.
+- Face domain attributes are associated with the faces of the mesh.
+- Face corner domain attributes are associated with the corners of the faces of the mesh.
+  An example is the *UVMap* attribute.
 
 .. note::
 
