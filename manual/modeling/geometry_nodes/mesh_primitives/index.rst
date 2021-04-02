@@ -12,5 +12,5 @@
    cylinder.rst
    icosphere.rst
    line.rst
-   plane.rst
+   grid.rst
    uv_sphere.rst
