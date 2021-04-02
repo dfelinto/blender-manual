@@ -20,6 +20,7 @@ Geometry
 
 X, Y, Z
    The inputs to the components of the vector.
+
 Result
    The name of the attribute where the computed vector is stored.
    A new attribute with that name is added if it does not exist yet.
@@ -45,4 +46,3 @@ Output
 
 Geometry
    Standard geometry output.
-

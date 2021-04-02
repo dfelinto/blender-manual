@@ -33,8 +33,13 @@ Properties
 ==========
 
 Domain
-   Domain of the output attribute. If this is set to *Auto*, it will use the domain
-   of the attribute if it exists already, otherwise it uses the *Point* domain.
+   Domain of the output attribute.
+
+   :Auto: Chooses the domain of the attribute if it exists already, otherwise it uses the *Point* domain.
+   :Point: Store the resulting attribute per point.
+   :Edge: Store the resulting attribute per edge.
+   :Face: Store the resulting attribute per face.
+   :Face Corner: Store the resulting attribute per face corner
 
 Data Type
    The type of data to fill the attribute with.

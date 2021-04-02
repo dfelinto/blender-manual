@@ -47,11 +47,16 @@ Domain
    This determines which domain is to be used to save the result attribute.
    Where the source attribute resides on a different domain, the data is interpolated.
 
-   The *Auto* domain mode chooses the domain based on the following rules.
+   :Auto:
+      Chooses the domain based on the following rules.
 
-   #. If the result attribute already exists, use that domain.
-   #. If the result attribute doesn't exist, use the source attribute domain.
-   #. Otherwise use the default domain (points).
+      #. If the result attribute already exists, use that domain.
+      #. If the result attribute doesn't exist, use the source attribute domain.
+      #. Otherwise use the default domain (points).
+   :Point: Store the resulting attribute per point.
+   :Edge: Store the resulting attribute per edge.
+   :Face: Store the resulting attribute per face.
+   :Face Corner: Store the resulting attribute per face corner
 
 Data Type
    This determines the data type of the result attribute.
