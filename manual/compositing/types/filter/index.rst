@@ -10,6 +10,7 @@ post-processing effect on the image.
 .. toctree::
    :maxdepth: 1
 
+   anti_aliasing.rst
    bilateral_blur.rst
    blur_node.rst
    bokeh_blur.rst
