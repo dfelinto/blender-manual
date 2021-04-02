@@ -10,7 +10,7 @@
    cone.rst
    cube.rst
    cylinder.rst
+   grid.rst
    icosphere.rst
    line.rst
-   grid.rst
    uv_sphere.rst
