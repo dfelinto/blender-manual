@@ -21,8 +21,6 @@ For that reason, we suggest to mainly use this for baking or
 still frame renders where render time is not as much of an issue.
 The Bevel modifier is a faster option when it works, but sometimes fails on complex or messy geometry.
 
-.. note:: This node is unsupported on :ref:`OptiX <render-cycles-gpu-optix>` GPU rendering.
-
 
 Inputs
 ======

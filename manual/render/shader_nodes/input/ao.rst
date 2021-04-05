@@ -15,8 +15,6 @@ This can be used for procedural texturing, for example to add weathering effects
 For Cycles, this is an expensive shader and can slow down render significantly.
 If render time is a concern, using Pointiness from the Geometry node or baking Ambient Occlusion will render faster.
 
-.. note:: This node is unsupported on :ref:`OptiX <render-cycles-gpu-optix>` GPU rendering.
-
 
 Inputs
 ======
