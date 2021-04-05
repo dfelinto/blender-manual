@@ -1,9 +1,5 @@
 sphinx==3.5.2
 sphinx-intl==2.0.1
-sphinx_rtd_theme==0.5.1
-
-# Latest release of docutils causes issues with the theme, see:
-# https://github.com/readthedocs/sphinx_rtd_theme/issues/1112
-docutils<0.17
+sphinx_rtd_theme==0.5.2
 
 sphinx-autobuild
