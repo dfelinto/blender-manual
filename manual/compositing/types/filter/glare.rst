@@ -24,33 +24,31 @@ Properties
 ==========
 
 Glare Type
-----------
-
-Ghosts
-   Creates a haze over the image.
-Streaks
-   Creates bright streaks used to simulate lens flares.
-
+   Ghosts
+      Creates a haze over the image.
    Streaks
-      Total number of streaks.
+      Creates bright streaks used to simulate lens flares.
 
-   Angle Offset
-      The rotation offset factor of the streaks.
-   Fade
-      Fade out factor for the streaks.
-Fog Glow
-   Looks similar to *Ghost*. However, it is much smaller in size
-   and gives more of an atmospheric haze or "glow" around the image.
+      Streaks
+         Total number of streaks.
 
-   Size
-      Scale of the glow relative to the size of the original bright pixels.
-Simple Star
-   Works similar to *Streaks* but gives a simpler shape looking like a star.
+      Angle Offset
+         The rotation offset factor of the streaks.
+      Fade
+         Fade out factor for the streaks.
+   Fog Glow
+      Looks similar to *Ghost*. However, it is much smaller in size
+      and gives more of an atmospheric haze or "glow" around the image.
 
-   Fade
-      Fade out factor for the streaks.
-   Rotate 45
-      Rotate the streaks by 45°.
+      Size
+         Scale of the glow relative to the size of the original bright pixels.
+   Simple Star
+      Works similar to *Streaks* but gives a simpler shape looking like a star.
+
+      Fade
+         Fade out factor for the streaks.
+      Rotate 45
+         Rotate the streaks by 45°.
 
 
 Common Options

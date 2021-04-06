@@ -1,4 +1,4 @@
-.. _bpy.types.CompositorNodeBlur:
+:.. _bpy.types.CompositorNodeBlur:
 
 *********
 Blur Node
@@ -27,25 +27,17 @@ Properties
 ==========
 
 Type
-   The difference between the types is in the way they handle sharp edges, smooth gradients and
-   preserve the highs and the lows.
+   The difference between the types is in the way they handle sharp edges,
+   smooth gradients and preserve the highs and the lows.
 
-   Flat
-      Simply blurs everything uniformly.
-   Tent
-      Preserves the high and the lows better by making a linear falloff.
-   Quadratic
-      Looks similar to *Gaussian* but can be a little faster but slightly worse looking.
-   Cubic
-      Preserve the highs, but give an almost out-of-focus blur while smoothing sharp edges.
-   Gaussian
-      Gives the best looking results but tends to be the slowest.
-   Fast Gaussian
-      An approximation of the Gaussian.
-   Catmull-Rom
-      Catmull-Rom keeps sharp contrast edges crisp.
-   Mitch
-      Preserve the highs, but give an almost out-of-focus blur while smoothing sharp edges.
+   :Flat: Simply blurs everything uniformly.
+   :Tent: Preserves the high and the lows better by making a linear falloff.
+   :Quadratic: Looks similar to *Gaussian* but can be a little faster but slightly worse looking.
+   :Cubic: Preserve the highs, but give an almost out-of-focus blur while smoothing sharp edges.
+   :Gaussian: Gives the best looking results but tends to be the slowest.
+   :Fast Gaussian: An approximation of the Gaussian.
+   :Catmull-Rom: Catmull-Rom keeps sharp contrast edges crisp.
+   :Mitch: Preserve the highs, but give an almost out-of-focus blur while smoothing sharp edges.
 
 Variable Size
    Allows a variable blur radius, if the size input is an image.

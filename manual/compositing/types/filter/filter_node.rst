@@ -28,20 +28,13 @@ Type
    The Soften, Laplace, Sobel, Prewitt and Kirsch all perform edge detection
    (in slightly different ways) based on vector calculus and set theory equations.
 
-   Soften
-      Slightly blurs the image.
-   Sharpen
-      Increases the contrast, especially at edges.
-   Laplace
-      Softens around edges.
-   Sobel
-      Creates a negative image that highlights edges.
-   Prewitt
-      Tries to do Sobel one better.
-   Kirsch
-      Giving a better blending than Sobel or Prewitt, when approaching an edge.
-   Shadow
-      Performs a relief, emboss effect, darkening outside edges.
+   :Soften: Slightly blurs the image.
+   :Sharpen: Increases the contrast, especially at edges.
+   :Laplace: Softens around edges.
+   :Sobel: Creates a negative image that highlights edges.
+   :Prewitt: Tries to do Sobel one better.
+   :Kirsch: Giving a better blending than Sobel or Prewitt, when approaching an edge.
+   :Shadow: Performs a relief, emboss effect, darkening outside edges.
 
 
 Outputs

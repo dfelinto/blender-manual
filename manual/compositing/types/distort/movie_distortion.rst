@@ -40,9 +40,9 @@ Movie Clip
    This can be useful if more than one movie clips are present, each having a different distortion setting.
    For controls see :ref:`ui-data-block`.
 Distortion Method
-   Undistort
+   :Undistort:
       Used to undistort the image received, and is usually used for the raw distorted movie clip.
-   Distort
+   :Distort:
       Used to distort the image received, and is usually used for rendered images.
 
 

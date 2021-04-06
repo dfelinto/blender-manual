@@ -24,22 +24,19 @@ Properties
 Movie Clip
    Used to select a Movie Clip data-block to use, for controls see :ref:`ui-data-block`.
 
-   Tracking Object
-      Camera object to get track information from.
-   Track Name
-      The name of the track to get track information from.
+Tracking Object
+   Camera object to get track information from.
+
+Track Name
+   The name of the track to get track information from.
 
 Position
    Which marker position to use for output.
 
-   Absolute
-      Outputs an absolute position of a marker.
-   Relative Start
-      Outputs the positions of a marker relative to the first marker of a track.
-   Relative Frame
-      Outputs the positions of a marker relative to the markers of the given *Frame*.
-   Absolute Frame
-      Outputs the absolute positions of a marker at the given *Frame*.
+   :Absolute: Outputs an absolute position of a marker.
+   :Relative Start: Outputs the positions of a marker relative to the first marker of a track.
+   :Relative Frame: Outputs the positions of a marker relative to the markers of the given *Frame*.
+   :Absolute Frame: Outputs the absolute positions of a marker at the given *Frame*.
 
 
 Outputs

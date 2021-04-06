@@ -36,17 +36,17 @@ Rotation
 Mask Type
    Operation to use against the input mask.
 
-   Add
+   :Add:
       This yields the *union* of the input mask and the generated mask:
       Areas covered by the generated mask are set to the specified *Value*.
       Other parts of the input masked are passed through unchanged, or set to black if there is no input mask.
-   Subtract
+   :Subtract:
       Values of the input mask have the specified *Value* subtracted from them.
-   Multiply
+   :Multiply:
       This yields the *intersection* of this generated mask and the input mask:
       Values of the input mask are multiplied by the specified *Value* for the area covered by the generated mask.
       All other areas become black.
-   Not
+   :Not:
       Any area covered by both the input mask and the generated mask becomes black.
       Areas covered by the generated mask that are black on the input mask become the specified *Value*.
       Areas uncovered by the generated mask remain unchanged.

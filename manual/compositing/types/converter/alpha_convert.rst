@@ -37,9 +37,9 @@ Mapping
    The direction of convert alpha.
    For details on the difference between both ways to store alpha values see :term:`Alpha Channel`.
 
-   To Premultiplied
+   :To Premultiplied:
       Converts from :term:`Straight Alpha` to :term:`Premultiplied Alpha`.
-   To Straight
+   :To Straight:
       Converts from :term:`Premultiplied Alpha` to :term:`Straight Alpha`.
 
 

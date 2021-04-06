@@ -27,12 +27,9 @@ Properties
 Filter
    Interpolation Methods.
 
-   Nearest
-      No interpolation, uses nearest neighboring pixel.
-   Bilinear
-      Simple interpolation between adjacent pixels.
-   Bicubic
-      Highest quality interpolation.
+   :Nearest: No interpolation, uses nearest neighboring pixel.
+   :Bilinear: Simple interpolation between adjacent pixels.
+   :Bicubic: Highest quality interpolation.
 
 
 Outputs

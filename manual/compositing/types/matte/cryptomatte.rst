@@ -29,10 +29,9 @@ Properties
 Source
    The source of the Cryptomatte data.
 
-   Render
+   :Render:
       Use Cryptomatte data that are stored as part of the render.
-
-   Image
+   :Image:
       Use Cryptomatte data that are stored inside a multilayered OpenEXR image.
 
 Scene

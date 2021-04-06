@@ -26,10 +26,10 @@ Properties
 ==========
 
 Inner Edge
-   All
+   :All:
       All shapes in the *Inner Mask* contribute to the gradient, even ones that do
       not touch the *Outer Mask* shape.
-   Adjacent Only
+   :Adjacent Only:
       Only shapes in the *Inner Mask* that overlap with the *Outer Mask* contribute
       to the gradient.
 
@@ -44,10 +44,10 @@ Inner Edge
              Adjacent Only.
 
 Buffer Edge
-   Keep In
+   :Keep In:
       Parts of the *Outer Mask* that touch the edge of the image are treated as if
       they stop at the edge.
-   Bleed Out
+   :Bleed Out:
       Parts of the *Outer Mask* that touch the edge of the image are extended
       beyond the boundary of the image.
 
