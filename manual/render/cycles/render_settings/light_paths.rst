@@ -101,10 +101,10 @@ Volume
 
 .. _render-cycles-integrator-clamp-samples:
 
-Clamp
------
+Clamping
+--------
 
-Clamp Direct
+Direct Light
    This option limits the maximum intensity a sample from rays which have not yet bounced can contribute to a pixel.
    It reduces noise at the cost of accuracy. Setting this option to 0.0 disables clamping altogether.
    Lower have a greater affect (dimmer samples) on the resulting image than higher values.
@@ -118,8 +118,8 @@ Clamp Direct
       losing intentionally bright parts. It is often useful to clamp indirect bounces separately,
       as they tend to cause more fireflies than direct bounces. See the *Clamp Indirect* setting.
 
-Clamp Indirect
-   The same as *Clamp Direct*, but for rays which have bounced multiple times.
+Indirect Light
+   The same as *Direct Light*, but for rays which have bounced multiple times.
 
 
 Caustics
@@ -158,3 +158,36 @@ Caustics
       This option can be unchecked, to disable reflective caustics.
    Refractive
       The same as above, but for refractive caustics.
+
+
+.. _bpy.types.CyclesRenderSettings.use_fast_gi:
+
+Fast GI Approximation
+---------------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Panel:     :menuselection:`Render --> Light Paths --> Fast GI Approximation`
+
+Approximate diffuse indirect light with background tinted ambient occlusion.
+This provides fast alternative to full global illumination,
+for interactive viewport rendering or final renders with reduced quality
+
+.. _bpy.types.CyclesRenderSettings.ao_bounces:
+
+Viewport Bounces
+   Replace global illumination with ambient occlusion after the specified number of bounces
+   when rendering in the 3D Viewport. This can reduce noise in interior scenes with little visual difference.
+
+.. _bpy.types.CyclesRenderSettings.ao_bounces_render:
+
+Render Bounces
+   Replace global illumination with ambient occlusion after the specified number of bounces,
+   when rendering final renders. This can reduce noise in interior scenes with little visual difference.
+
+Distance
+   Distance from shading point to trace rays.
+   A shorter distance emphasizes nearby features,
+   while longer distances make it also take objects farther away into account.
+   Note, this setting is stored per :doc:`/render/lights/world`.
