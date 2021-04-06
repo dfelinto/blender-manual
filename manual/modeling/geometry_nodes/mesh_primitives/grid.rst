@@ -5,7 +5,7 @@
 Grid
 ****
 
-.. figure:: /images/modeling_geometry-nodes_mesh-primitives_plane_node.png
+.. figure:: /images/modeling_geometry-nodes_mesh-primitives_grid_node.png
    :align: right
 
    Grid Node.
