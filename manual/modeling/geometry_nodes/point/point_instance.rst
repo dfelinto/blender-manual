@@ -40,14 +40,14 @@ Properties
 ==========
 
 Type
-   Object
+   :Object:
       Instance a single object on each point.
-   Collection
-      Instance either an entire collection or a random choice from its objects or subcollections.
+   :Collection:
+      Instance either an entire collection or a random choice from its objects or sub-collections.
 
 Whole Collection
    When instancing collections, this property chooses between instancing the entire collection or
-   a random choice of its objects and subcollections.
+   a random choice of its objects and sub-collections.
 
 Seed
    When *Whole Collection* is deactivated, a :term:`Seed` to affect the choice of the collection's children.

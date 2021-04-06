@@ -31,9 +31,9 @@ Properties
 ==========
 
 Type
-   Attribute
+   :Attribute:
       Use the values from the attribute to move each point by a different amount.
-   Vector
+   :Vector:
       Use a single vector to translate every single point.
       Equivalent to the :doc:`Transform Node </modeling/geometry_nodes/geometry/transform>`.
 

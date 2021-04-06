@@ -51,10 +51,9 @@ Properties
 ==========
 
 Distribution Method
-   Random
+   :Random:
       Distribute points randomly on the surface. This is the fastest distribution method.
-
-   Poisson Disk
+   :Poisson Disk:
       Distribute points randomly on the surface while taking a minimum distance into account.
 
 Output

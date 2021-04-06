@@ -30,10 +30,10 @@ Properties
 Transform Space
    The transformation of the vector and geometry outputs.
 
-   Original
+   :Original:
       Output the geometry relative to the input object transform, and the location,
       rotation and scale relative to the world origin.
-   Relative
+   :Relative:
       Bring the input object geometry, location, rotation and scale into the modified object,
       maintaining the relative position between the two objects in the scene.
 

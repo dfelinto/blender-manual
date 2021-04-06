@@ -36,90 +36,42 @@ Properties
 Operation
    The math function to perform.
 
-   Add
-      The sum of A and B.
-
-   Subtract
-      The difference between A and B.
-
-   Multiply
+   :Add: The sum of A and B.
+   :Subtract: The difference between A and B.
+   :Multiply:
       The entrywise product of A and B.
       :math:`(A.x * B.x, A.y * B.y, A.z * B.z)`
-
-   Divide
+   :Divide:
       The entrywise division of A by B. Division by zero results in zero.
       :math:`(A.x / B.x, A.y / B.y, A.z / B.z)`
-
-   Cross Product
-      The cross product of A and B.
-
-   Project
-      The projection of A onto B.
-
-   Reflect
-      The reflection of A around the normal B. B need not be normalized.
-
-   Dot Product
-      The dot product of A and B.
-
-   Distance
-      The distance between A and B.
-
-   Length
-      The length of A.
-
-   Scale
-      The result of multiplying A by the scalar input *Scale*.
-
-   Normalize
-      The result of normalizing A.
-
-   Wrap
-      `Wrap <https://en.wikipedia.org/wiki/Rounding>`__.
-
-   Snap
-      The result of rounding A to the largest integer multiple of B less than or equal A.
-
-   Floor
-      The entrywise floor of A.
-
-   Ceil
-      The entrywise ceiling of A.
-
-   Modulo
-      The entrywise modulo of A by B.
-
-   Fraction
-      The fractional part of A.
-
-   Absolute
-      The entrywise absolute value of A.
-
-   Minimum
-      The entrywise minimum from A and B.
-
-   Maximum
-      The entrywise maximum from A and B.
-
-   Sine
-      The entrywise `Sine <https://en.wikipedia.org/wiki/Sine>`__ of A.
-
-   Cosine
-      The entrywise `Cosine <https://en.wikipedia.org/wiki/Trigonometric_functions>`__ of A.
-
-   Tangent
-      The entrywise `Tangent <https://en.wikipedia.org/wiki/Trigonometric_functions>`__ of A.
+   :Cross Product: The cross product of A and B.
+   :Project: The projection of A onto B.
+   :Reflect: The reflection of A around the normal B. B need not be normalized.
+   :Dot Product: The dot product of A and B.
+   :Distance: The distance between A and B.
+   :Length: The length of A.
+   :Scale: The result of multiplying A by the scalar input *Scale*.
+   :Normalize: The result of normalizing A.
+   :Wrap: `Wrap <https://en.wikipedia.org/wiki/Rounding>`__.
+   :Snap: The result of rounding A to the largest integer multiple of B less than or equal A.
+   :Floor: The entrywise floor of A.
+   :Ceil: The entrywise ceiling of A.
+   :Modulo: The entrywise modulo of A by B.
+   :Fraction: The fractional part of A.
+   :Absolute: The entrywise absolute value of A.
+   :Minimum: The entrywise minimum from A and B.
+   :Maximum: The entrywise maximum from A and B.
+   :Sine: The entrywise `Sine <https://en.wikipedia.org/wiki/Sine>`__ of A.
+   :Cosine: The entrywise `Cosine <https://en.wikipedia.org/wiki/Trigonometric_functions>`__ of A.
+   :Tangent: The entrywise `Tangent <https://en.wikipedia.org/wiki/Trigonometric_functions>`__ of A.
 
    .. note::
 
       Attributes are converted implicitly to the input data type.
 
 A, B, C
-   Attribute
-      A text field to input an attribute name.
-
-   Vector
-      The input is a vector of three float numbers.
+   :Attribute: A text field to input an attribute name.
+   :Vector: The input is a vector of three float numbers.
 
 
 Output

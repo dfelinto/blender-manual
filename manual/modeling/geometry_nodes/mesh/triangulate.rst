@@ -30,19 +30,19 @@ Properties
 ==========
 
 Quad Method
-   Beauty
+   :Beauty:
       Split the quads in nice triangles, slower method.
-   Fixed
+   :Fixed:
       Split the quads on their 1st and 3rd vertices.
-   Fixed Alternate
+   :Fixed Alternate:
       Split the quads on their 2nd and 4th vertices.
-   Shortest Diagonal
+   :Shortest Diagonal:
       Split the quads based on the diagonal distance between their vertices.
 
 N-gon Method
-   Beauty
+   :Beauty:
       Arrange the new triangles nicely, slower method.
-   Clip
+   :Clip:
       Splits n-gons using an ear-clipping algorithm
       (gives similar results to the tessellation used for the viewport rendering).
 

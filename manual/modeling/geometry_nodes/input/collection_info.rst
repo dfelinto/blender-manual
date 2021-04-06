@@ -29,9 +29,9 @@ Properties
 Transform Space
    The transformation of the geometry outputs.
 
-   Original
+   :Original:
       Output the geometry relative to the collection offset.
-   Relative
+   :Relative:
       Join the input collection geometry with the modified object,
       maintaining the relative position between the objects in the scene.
 

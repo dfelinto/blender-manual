@@ -48,16 +48,14 @@ Properties
 Resolution Mode
    Mode for how the resolution of the final mesh is controlled.
 
-   Grid
+   :Grid:
       This makes the resolution dependent on the resolution of the grid that is converted.
       Higher resolution grids result in a higher resolution mesh.
       In many cases, that is the most efficient mode.
-
-   Voxel Amount
+   :Voxel Amount:
       Specifies the approximate resolution of the final mesh.
       The voxel size is adapted to the size of the entire volume.
-
-   Voxel Size
+   :Voxel Size:
       Use a fixed resolution that does not change when the volume changes.
 
 

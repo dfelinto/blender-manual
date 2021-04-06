@@ -35,10 +35,8 @@ Properties
 ==========
 
 X, Y, Z
-   Attribute
-      The input is a text field that expects an attribute name.
-   Float
-      The input is a float number.
+   :Attribute: The input is a text field that expects an attribute name.
+   :Float: The input is a float number.
 
 
 Output

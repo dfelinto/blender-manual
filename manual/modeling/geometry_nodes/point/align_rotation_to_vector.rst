@@ -39,11 +39,10 @@ Axis
 Pivot
    The local axis to rotate around.
 
-   Auto
+   :Auto:
       The best rotation angle is computed automatically.
       This minimizes the angle of rotation.
-
-   X, Y, Z
+   :X, Y, Z:
       Rotate around a specific local axis.
 
 Factor

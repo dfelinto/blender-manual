@@ -24,12 +24,9 @@ Properties
 ==========
 
 Mode
-   And
-      True if both inputs are true.
-   Or
-      True if either or both inputs are true.
-   Not
-      True if both inputs are false.
+   :And: True if both inputs are true.
+   :Or: True if either or both inputs are true.
+   :Not: True if both inputs are false.
 
 
 Output

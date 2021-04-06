@@ -37,18 +37,16 @@ Properties
 ==========
 
 Rotation Type
-   Axis Angle
+   :Axis Angle:
       Use separate axis and angle inputs to control the rotation.
-
-   Euler
+   :Euler:
       Use an Euler input to control the rotation.
 
 Space
-   Object
+   :Object:
       Rotate every point in the local space of the object that is being evaluated.
       The same space is used for every point.
-
-   Point
+   :Point:
       Rotate every point in its local space as specified by its *rotation* attribute.
 
 

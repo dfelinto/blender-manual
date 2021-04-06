@@ -40,11 +40,8 @@ Operation
       Attributes are converted implicitly to the float data type.
 
 A, B, C
-   Attribute
-      The input is a text field that expects an attribute name.
-
-   Float
-      The input is a number field.
+   :Attribute: The input is a text field that expects an attribute name.
+   :Float: The input is a number field.
 
 
 Output
