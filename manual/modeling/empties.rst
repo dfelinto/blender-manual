@@ -136,14 +136,15 @@ Apply Scale :kbd:`Ctrl-A`
    and combines this with the existing empty *Display Size* to maintain the correct dimensions on that axis.
 
 
-.. _bpy.types.Object.empty_display_type:
-.. _bpy.types.Object.empty_display_size:
-
 Properties
 ==========
 
+.. _bpy.types.Object.empty_display_type:
+
 Display As
    The `Primitives`_ empty type to display in the 3D Viewport.
+
+.. _bpy.types.Object.empty_display_size:
 
 Size
    Controls the size of the empties visualization. This does not change its scale, but functions as an offset.

@@ -248,13 +248,13 @@ Mapping Start, End
    Allows to control the relation between the *Factor Start, End* (number between 0 and 1)
    and the rendered start and end point of the spline's geometry.
 
-   Resolution
+   :Resolution:
       Maps the start and end factor to the number of subdivisions of a spline (U resolution).
-   Segments
+   :Segments:
       Maps the start and end factor to the length of its segments.
       Mapping to segments treats the subdivisions in each segment
       of a curve as if they would have all the same length.
-   Spline
+   :Spline:
       Maps the start and end factor to the length of a spline.
 
 

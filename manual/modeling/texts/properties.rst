@@ -203,27 +203,27 @@ Alignment
 ---------
 
 Horizontal Alignment
-   Left
+   :Left:
       Aligns text to the left of the frames when using them,
       else uses the origin of the text object as the starting point of the text (which grows to the right).
-   Center
+   :Center:
       Centers text in the frames when using them,
       else uses the origin of the text object as the mid-point of the text
       (which grows equally to the left and right).
-   Right
+   :Right:
       Aligns text to the right of the frames when using them,
       else uses the origin of the text object as the ending point of the text (which grows to the left).
-   Justify
+   :Justify:
       Only flushes a line when it is terminated by a word-wrap (**not** by a newline),
       and uses *white-space* instead of *character spacing* (kerning) to fill lines.
-   Flush
+   :Flush:
       Always flushes the line, even when it is still being typed-in.
       It uses character spacing (kerning) to fill lines.
 
    .. note:: Both *Justify* and *Flush* only work within frames.
 
 Vertical Alignment
-   Top Base-Line
+   :Top Base-Line:
       - With text boxes, aligns the 'top' base-line of the text to the top of the frames.
       - With no text box, aligns the actual base-line of the text to the origin of the object,
         and grows to the bottom.
@@ -233,17 +233,17 @@ Vertical Alignment
          That difference of reference point in the first line
          depending on usage of boxes or not is indeed confusing.
 
-   Top
+   :Top:
       - With text boxes, aligns the top of the text to the top of the frames.
       - With no text box, aligns the top of the text to the origin of the object, and grows to the bottom.
-   Center
+   :Center:
       - With text boxes, centers the text in the frames.
       - With no text box, centers the text on the origin of the object,
         and grows in both top and bottom directions equally.
-   Bottom
+   :Bottom:
       - With text boxes, align the bottom of the text to the bottom of the frames.
       - With no text box, align the bottom of the text to the origin of the object, and grows to the top.
-   Bottom Base-Line
+   :Bottom Base-Line:
       - With text boxes, aligns the base-line of the text to the bottom of the frames.
       - With no text box, aligns the base-line of the text to the origin of the object, and grows to the top.
 
@@ -261,7 +261,7 @@ Word Spacing
 Line Spacing
    A factor by which the vertical space between lines is scaled.
 
-Offset X/Y
+Offset X, Y
    These settings control the X and Y offset of the text position within the object.
    This applies relatively to the object's origin, either to the whole text or, when using text boxes, to each frame.
 
@@ -299,13 +299,11 @@ Delete ``X``
 Overflow
    How to handle text overflowing available space in the defined boxes.
 
-   Overflow
+   :Overflow:
       Just keep text running out of the last box.
-
-   Scale to Fit
+   :Scale to Fit:
       Scale text to fit into the available space.
-
-   Truncate
+   :Truncate:
       Hide the end of the text that does not fit into the available space.
 
       .. note::
@@ -313,11 +311,11 @@ Overflow
          It will only truncate in *Object Mode*,
          in *Edit Mode* the whole text remains visible (and overflows as needed).
 
-Size X/Y
+Size X, Y
    Specifies the width and height of the text box, if set to **zero** no word-wrap happens
    (it is ignored, and the whole text box system is disabled if all are set to a null size).
 
-Offset X/Y
+Offset X, Y
    Controls the *X* and *Y* offset of the frame, i.e. its position.
 
 .. figure:: /images/modeling_texts_properties_frame-example4.png

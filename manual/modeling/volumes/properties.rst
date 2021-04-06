@@ -45,13 +45,13 @@ Sequence
    Mode
       Animation setting of the volume sequence before the start frame and after the end frame.
 
-      Clip
+      :Clip:
          Hides frames outside the specified frame range.
-      Extend
+      :Extend:
          Repeats the start frame before, and the end frame after the frame range.
-      Repeat
+      :Repeat:
          Cycles the frames in the sequence; restarting at frame one.
-      Ping-Pong
+      :Ping-Pong:
          Repeats the frames, reversing the playback direction on every other cycle.
 
 
@@ -67,13 +67,13 @@ Wireframe
    For heavy volume data sets, it can be useful to set the object to always display as wireframe.
    This way the 3D Viewport remains responsive but the volume still appears in the final render.
 
-   None
+   :None:
       The volume is not displayed in wireframe mode.
-   Bounds
+   :Bounds:
       Displays the volume as :term:`Bounding Box` for the entire volume grid.
-   Boxes
+   :Boxes:
       Displays a bounding boxes for nodes in the volume tree.
-   Points
+   :Points:
       Displays points for nodes in the volume tree.
 
 .. _bpy.types.VolumeDisplay.wireframe_detail:
@@ -81,9 +81,9 @@ Wireframe
 Detail
    The amount of detail to display for *Boxes* or *Points* wireframe mode.
 
-   Coarse
+   :Coarse:
       Display one box or point for each intermediate tree node.
-   Fine
+   :Fine:
       Display a box or point for each leaf node containing 8×8 voxels.
 
 .. _bpy.types.VolumeDisplay.density:
@@ -98,13 +98,11 @@ Density
 Interpolation
    Interpolation method to use for the visualization of the fluid grid.
 
-   Linear
+   :Linear:
       Linear interpolation between voxels. Gives good smoothness and speed.
-
-   Cubic
+   :Cubic:
       Cubic interpolation between voxels. Gives smoothed high quality interpolation, but is slower.
-
-   Closest
+   :Closest:
       No interpolation between voxels. Gives raw voxels.
 
 
@@ -118,10 +116,9 @@ Renders only a single 2D section of the domain object.
 .. _bpy.types.VolumeDisplay.slice_axis:
 
 Axis
-   Auto
+   :Auto:
       Adjust slice direction according to the view direction.
-
-   X/Y/Z
+   :X/Y/Z:
       Slice along the X/Y/Z axis.
 
 .. _bpy.types.VolumeDisplay.slice_depth:
@@ -140,9 +137,9 @@ Render
 Space
    Specifies how volume density and step size are computed relative either to the object or world.
 
-   Object
+   :Object:
       Keeps volume *Density* and *Detail* the same regardless of object scale.
-   World
+   :World:
       Specify *Step Size* and *Density* in world space.
 
 .. _bpy.types.VolumeRender.step_size:
