@@ -83,10 +83,13 @@ Save Buffers
 
 .. _bpy.types.RenderSettings.use_persistent_data:
 
-Persistent Images
-   Keep image data in memory after rendering, for faster re-renders at the cost of extra memory usage
-   when performing other tasks in Blender.
+Persistent Data
+   Keep render data in memory after rendering for faster re-renders and animation renders
+   at the cost of extra memory usage while performing other tasks in Blender.
 
+   When using multiple :doc:`View Layers </render/layers/view_layer>`,
+   only data from a single view layer is preserved to keep memory usage somewhat under control;
+   however, objects shared between view layers are preserved.
 
 .. _render_cycles_settings_perfomance_viewport:
 
