@@ -62,7 +62,7 @@ Smooth
 
 Fill Mode
    Fill determines the way a curve is displayed when it is beveled (see below for details on Beveling).
-   When set to *Half* (the default) the curve is displayed as half a cylinder.
+   When set to *Half* the curve is displayed as half a cylinder.
 
    .. list-table::
 
