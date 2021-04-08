@@ -120,8 +120,6 @@ All
    Include all combinations.
 Reset All/Single to Default Value(s)
    Replaces the current value by the default (keyboard shortcut :kbd:`Backspace`).
-Unset
-   TODO.
 Copy Data Path
    Copies the Python property Data path, relative to the data-block.
    Useful for Python scripting.
