@@ -125,6 +125,7 @@ Add the following script to the Text editor in Blender::
 Click the :ref:`Run Script button <editors-text-run-script>`,
 all objects in the active scene are moved by 1.0 unit.
 
+.. _advanced-scripting-write-the-add-on-simple:
 
 Write the Add-on (Simple)
 -------------------------
@@ -212,7 +213,7 @@ Open the :menuselection:`Preferences --> Add-ons --> Install...` and select the 
 
 Now the add-on will be listed and you can enable it by pressing the checkbox,
 if you want it to be enabled on restart, press *Save as Default*. The operator
-can be run in the same way as described in the `previous section <Write the Add-on (Simple)>`_.
+can be run in the same way as described in the :ref:`previous section <advanced-scripting-write-the-add-on-simple>`.
 
 When the add-on is enabled, Blender executes the code and runs the ``register()`` function.
 When the add-on is disabled, Blender runs the ``unregister()`` function.
