@@ -20,9 +20,7 @@ Activation
 Interface
 =========
 
-Located in the :menuselection:`3D Viewport --> Sidebar --> Create tab`.
-
-Located in the :menuselection:`3D Viewport --> Add --> Curve menu`.
+Located in the :menuselection:`3D Viewport --> Add --> Curve`.
 
 
 Information
