@@ -118,42 +118,56 @@ Single
    Set or get single value.
 All
    Include all combinations.
-Reset All/Single to Default Value(s)
-   Replaces the current value by the default (keyboard shortcut :kbd:`Backspace`).
-Copy Data Path
+
+Reset to Default Value(s) :kbd:`Backspace`
+   Replaces the current value by the default.
+
+Copy Data Path :kbd:`Shift-Ctrl-C`
    Copies the Python property Data path, relative to the data-block.
    Useful for Python scripting.
+
+Copy Full Data Path :kbd:`Shift-Ctrl-Alt-C`
+   Copies the full Python property Data path including any needed context information.
+
 Copy As New Driver
    Creates a new driver using this property as input, and copies it to the clipboard.
    Use Paste Driver to add the driver to a different property, or Paste Driver Variables
    to extend an existing driver with a new input variable.
+
 Copy To Selected
    Copies the property value to the selected object's corresponding property.
    A use case is if the Properties context is pinned.
+
 Assign Shortcut
    Lets you define a keyboard or mouse shortcut for an operation.
    To define the shortcut you must first move the mouse cursor over the button that pops up,
    and when "Press a key" appears you must press and/or click the desired shortcut.
    Press :kbd:`Esc` to cancel.
+
+   .. seealso::
+
+      :doc:`/interface/keymap/introduction`.
+
 Change Shortcut
    Lets you redefine the shortcut.
+
 Remove Shortcut
    Unlinks the existing shortcut.
-Online Manual
+
+Online Manual :kbd:`F1`
    Opens an online page of Blender Manual in a web browser.
+
 Online Python Reference
    Context-sensitive access to
    the `Python API Reference <https://docs.blender.org/api/current/>`__.
+
 Edit Source
    For UI development -- Creates a text data-block with the source code associated with the control,
    in case the control is based on a Python script.
    In the Text Editor it points at the code line where the element is defined.
+
 Edit Translation
    For UI development -- Points at the translation code line.
-
-.. seealso::
-
-   :doc:`/interface/keymap/introduction`.
 
 
 .. |specials-button| image:: /images/interface_controls_buttons_menus_specials.png
