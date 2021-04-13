@@ -8,14 +8,14 @@ with a few deviations:
 You can only select *whole bones* in *Pose Mode*, not roots/tips...
 
 
-Flip Active
-===========
+Select Mirror
+=============
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Select --> Flip Active`
+   :Menu:      :menuselection:`Select --> Select Mirror`
    :Hotkey:    :kbd:`Shift-Ctrl-M`
 
 Flip the selection from one side to another.

@@ -135,14 +135,14 @@ Selects the active camera, this is especially handy in complex scene.
 
 .. _bpy.ops.object.select_mirror:
 
-Mirror Selection
-----------------
+Select Mirror
+-------------
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      All Modes
-   :Menu:      :menuselection:`Select --> Mirror Selection`
+   :Menu:      :menuselection:`Select --> Select Mirror`
 
 Select the Mirror objects of the selected object,
 based on their names, e.g. "sword.L" and "sword.R".

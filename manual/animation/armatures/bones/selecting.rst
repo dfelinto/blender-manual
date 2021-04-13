@@ -113,14 +113,14 @@ After :kbd:`Shift`-clicking "Bone.003":
   Since "Bone" is still selected, its tip is selected. Thus the root of "Bone.003" remains selected.
 
 
-Mirror
-======
+Select Mirror
+=============
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Select --> Mirror`
+   :Menu:      :menuselection:`Select --> Select Mirror`
    :Hotkey:    :kbd:`Shift-Ctrl-M`
 
 Flip the selection from one side to another.

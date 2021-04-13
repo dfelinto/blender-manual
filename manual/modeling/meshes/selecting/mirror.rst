@@ -1,19 +1,19 @@
 
-****************
-Mirror Selection
-****************
+*************
+Select Mirror
+*************
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Select --> Mirror Selection`
+   :Menu:      :menuselection:`Select --> Select Mirror`
    :Hotkey:    :kbd:`Shift-Ctrl-M`
 
-*Mirror Selection* flips a selection to the opposite side of the mesh.
+Select Mirror flips a selection to the opposite side of the mesh.
 
 Axis
-   Choose on which axis the *Mirror Selection* will occur. The axis is based on the meshes origin.
+   Choose on which axis the selection will occur. The axis is based on the meshes origin.
    Therefore, if the origin is not centered within the mesh, the selection will have varying results.
 
 Extend
@@ -21,7 +21,7 @@ Extend
 
 .. figure:: /images/modeling_meshes_selecting_mirror_extend.png
 
-   (From left to right) initial selection, after Mirror Selection on the X axis, with Extend.
+   (From left to right) initial selection, after Select Mirror on the X axis, with Extend.
 
 .. tip::
 

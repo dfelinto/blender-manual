@@ -233,7 +233,7 @@ Select Linked
 Select Side of Active
    Selects all vertices on the mesh in a single axis relative to the active vertex.
    In Vertex selection mode only.
-Mirror Selection :kbd:`Shift-Ctrl-M`
+Select Mirror :kbd:`Shift-Ctrl-M`
    Select mesh items at the mirrored location across the chosen axis.
 
 
