@@ -42,6 +42,12 @@ These tabs contain settings for the active scene.
 - :doc:`World </render/lights/world>`
 
 
+Collection
+----------
+
+This tabs contain settings for the active :ref:`Collection <scene-layout_collections_collections_tab>`.
+
+
 .. _properties-data-tabs:
 
 Object

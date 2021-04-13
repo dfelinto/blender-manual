@@ -13,6 +13,48 @@ Collections are used to just logically organize your scene,
 or to facilitate one-step appending or linking between files or across scenes.
 
 
+.. _scene-layout_collections_collections_tab:
+
+Collections Tab
+===============
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Menu:      :menuselection:`Properties --> Collection Properties`
+
+
+Restrictions
+------------
+
+Selectable
+   Toggles the ability to select the objects from the 3D Viewport.
+   This is useful for if you have placed something in the scene and do not want to accidentally select it when working on something else.
+
+Disable in Renders
+   Enables/disables visibility of the collection in renders.
+
+Holdout
+   Objects inside this collection will generate a holdout/mask in the active view layer.
+
+Indirect Only
+   Objects inside this collection will only contribute to the final image
+   indirectly through shadows and reflections.
+
+
+Instancing
+----------
+
+Instance Offset X, Y Z
+   Applies a spatial offset of the instanced collections from the original object’s origin.
+
+
+Line Art
+--------
+
+Todo.
+
+
 Collections Menu
 ================
 

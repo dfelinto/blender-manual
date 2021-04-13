@@ -50,6 +50,7 @@ Visibility (eye icon)
 .. _bpy.types.Collection.hide_select:
 
 Selectability (mouse cursor icon)
+   Toggles the ability to select the objects from the 3D Viewport.
    This is useful for if you have placed something in the scene
    and do not want to accidentally select it when working on something else.
 
