@@ -108,11 +108,19 @@ Show Sliders
    See the Fig. :ref:`fig-dope-sheet-action`.
 AutoMerge Keyframes
    Automatically merge nearby keyframes.
+
 Show Markers
    Shows the markers region. When disabled, the `Markers Menu`_ is also hidden
    and markers operators are not available in this editor.
+
 Use High Quality Display
    Display F-curves using :term:`Anti-Aliasing` and other fancy effects (disable for a better performance).
+
+.. _bpy.types.SpaceGraphEditor.show_extrapolation:
+
+Show Extrapolation
+   Toggles the visibility of the :ref:`extrapolated <editors-graph-fcurves-settings-extrapolation>`
+   portion of curves.
 Show Handles :kbd:`Ctrl-H`
    Toggles the display of a curve's handles in the curve view.
 Only Selected Curve Keyframes
