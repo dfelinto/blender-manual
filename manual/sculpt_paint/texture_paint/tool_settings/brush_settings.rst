@@ -123,7 +123,7 @@ Anti-Aliasing :guilabel:`2D Painting Only`
    :hidden:
 
    Texture </sculpt_paint/brush/texture.rst>
-   Texture Mask </sculpt_paint/brush/texture.rst>
+   Texture Mask </sculpt_paint/brush/texture_mask.rst>
    Stroke </sculpt_paint/brush/stroke.rst>
    Falloff </sculpt_paint/brush/falloff.rst>
    Cursor </sculpt_paint/brush/cursor.rst>
