@@ -24,6 +24,8 @@ In other words, you can select a bone's joint or body the same way regardless of
 the bone visualization chosen.
 
 
+.. _bpy.ops.armature.select_all:
+
 Selecting Bone Joints
 =====================
 
@@ -113,6 +115,8 @@ After :kbd:`Shift`-clicking "Bone.003":
   Since "Bone" is still selected, its tip is selected. Thus the root of "Bone.003" remains selected.
 
 
+.. _bpy.ops.armature.select_mirror:
+
 Select Mirror
 =============
 
@@ -125,6 +129,9 @@ Select Mirror
 
 Flip the selection from one side to another.
 
+
+.. _bpy.ops.armature.select_more:
+.. _bpy.ops.armature.select_less:
 
 More/Less
 =========
@@ -140,6 +147,8 @@ More :kbd:`Ctrl-NumpadPlus`
 Less :kbd:`Ctrl-NumpadMinus`
    Contrast the selection, deselect bones at the boundaries of each selection region.
 
+
+.. _bpy.ops.armature.select_linked():
 
 Linked
 ======
@@ -169,6 +178,8 @@ All Forks
           Its whole chain selected with Linked.
 
 
+.. _bpy.ops.armature.select_hierarchy:
+
 Parent/Child
 ============
 
@@ -182,6 +193,8 @@ Extend Parent/Child
 Extend Parent :kbd:`Shift-[`, Extend Child :kbd:`Shift-]`
    Similar to *Parent*/*Child* but it keeps the active bone in the selection.
 
+
+.. _bpy.ops.armature.select_similar:
 
 Similar
 =======

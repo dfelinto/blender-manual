@@ -88,6 +88,8 @@ See :ref:`graph-view-menu` for how to show these sliders.
 Editing
 =======
 
+.. _bpy.ops.anim.channels_delete:
+
 Delete Channels
 ---------------
 
@@ -107,6 +109,9 @@ Deletes the whole channel from the current action
    it will delete the selected keyframes.
 
 
+.. _bpy.ops.anim.channels_group:
+.. _bpy.ops.anim.channels_ungroup:
+
 Un/Group Channels
 -----------------
 
@@ -119,6 +124,10 @@ Un/Group Channels
 Un/Groups the selected channels into a collection that can be renamed by double clicking on the group name.
 For example, this helps to group channels that relate a part of an armature to keep the editor more organized.
 
+
+.. _bpy.ops.anim.channels_setting_toggle:
+.. _bpy.ops.anim.channels_enable_toggle:
+.. _bpy.ops.anim.channels_disable_toggle:
 
 Toggle/Enable/Disable Channel Settings
 --------------------------------------
@@ -135,6 +144,8 @@ Protect, Mute
    Todo.
 
 
+.. _bpy.ops.anim.channels_editable_toggle:
+
 Toggle Channel Editability
 --------------------------
 
@@ -146,6 +157,8 @@ Toggle Channel Editability
 
 Locks or unlocks a channel for editing.
 
+
+.. _bpy.ops.graph.extrapolation_type:
 
 Extrapolation Mode
 ------------------
@@ -159,17 +172,8 @@ Extrapolation Mode
 Change the :ref:`extrapolation <editors-graph-fcurves-settings-extrapolation>` between selected keyframes.
 
 
-Expand/Collapse Channels
-------------------------
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Menu:      :menuselection:`Channel --> Toggle Channel Editability`
-   :Hotkey:    :kbd:`NumpadPlus`, :kbd:`NumpadMinus`
-
-Expands or collapses selected channels.
-
+.. _bpy.ops.graph.hide:
+.. _bpy.ops.graph.reveal:
 
 Show/Hide
 ---------
@@ -182,6 +186,23 @@ Reveal Curves :kbd:`Alt-H`
    Show all previous hidden curves.
 
 
+.. _bpy.ops.anim.channels_expand:
+.. _bpy.ops.anim.channels_collapse:
+
+Expand/Collapse Channels
+------------------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Menu:      :menuselection:`Channel --> Toggle Channel Editability`
+   :Hotkey:    :kbd:`NumpadPlus`, :kbd:`NumpadMinus`
+
+Expands or collapses selected channels.
+
+
+.. _bpy.ops.anim.channels_move:
+
 Move
 ----
 
@@ -193,6 +214,8 @@ Move
 This allows you to move selected channels up/down :kbd:`PageUp`, :kbd:`PageDown`,
 or directly to the top/bottom :kbd:`Shift-PageUp`, :kbd:`Shift-PageDown`.
 
+
+.. _bpy.ops.anim.channels_fcurves_enable:
 
 Revive Disabled F-Curves
 ------------------------

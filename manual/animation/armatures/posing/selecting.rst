@@ -1,3 +1,4 @@
+.. _bpy.ops.pose.select_all:
 
 *********
 Selecting
@@ -7,6 +8,8 @@ Selection in *Pose Mode* is very similar to the one in :doc:`Edit Mode </animati
 with a few deviations:
 You can only select *whole bones* in *Pose Mode*, not roots/tips...
 
+
+.. _bpy.ops.pose.select_mirror:
 
 Select Mirror
 =============
@@ -21,11 +24,21 @@ Select Mirror
 Flip the selection from one side to another.
 
 
+.. _bpy.ops.pose.select_constraint_target:
+
 Constraint Target
 =================
 
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Pose Mode
+   :Menu:      :menuselection:`Select --> Constraint Target`
+
 Todo.
 
+
+.. _bpy.ops.pose.select_linked:
 
 Linked
 ======
@@ -33,7 +46,7 @@ Linked
 .. admonition:: Reference
    :class: refbox
 
-   :Mode:      Edit Mode
+   :Mode:      Pose Mode
    :Menu:      :menuselection:`Select --> Linked`
    :Hotkey:    :kbd:`L`
 
@@ -55,13 +68,15 @@ All Forks
           Its whole chain selected with Linked.
 
 
+.. _bpy.ops.pose.select_hierarchy:
+
 Select More/Less
 ================
 
 .. admonition:: Reference
    :class: refbox
 
-   :Mode:      Edit Mode
+   :Mode:      Pose Mode
    :Menu:      :menuselection:`Select --> Select More/Less`
 
 Parent :kbd:`[`, Child :kbd:`]`
@@ -69,6 +84,8 @@ Parent :kbd:`[`, Child :kbd:`]`
 Extend Parent :kbd:`Shift-[`, Extend Child :kbd:`Shift-]`
    Similar to *Parent*/*Child* but it keeps the active bone in the selection.
 
+
+.. _bpy.ops.pose.select_grouped:
 
 Grouped
 =======
