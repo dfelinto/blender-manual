@@ -85,40 +85,121 @@ allowing you to change the value on the current keyframes, or to add new keyfram
 See :ref:`graph-view-menu` for how to show these sliders.
 
 
-Menu
-====
+Editing
+=======
 
-Delete Channels :kbd:`X`
-   Deletes the whole channel from the current action
-   (i.e. unlink the underlying F-curve data-block from this action data-block).
+Delete Channels
+---------------
 
-   .. warning::
+.. admonition:: Reference
+   :class: refbox
 
-      The :kbd:`X` shortcut is area-dependent: if you use it in the left list part,
-      it will delete the selected channels, whereas if you use it in the main area,
-      it will delete the selected keyframes.
+   :Menu:      :menuselection:`Channel --> Delete Channels`
+   :Hotkey:    :kbd:`X`
 
-Un/Group Channels :kbd:`Ctrl-Alt-G`, :kbd:`Ctrl-G`
-   Un/Groups the selected channels into a collection that can be renamed by double clicking on the group name.
-   For example, this helps to group channels that relate a part of an armature to keep the editor more organized.
-Settings Toggle/Enable/Disable, :kbd:`Shift-W`, :kbd:`Shift-Ctrl-W`, :kbd:`Alt-W`
-   Enable/disable a channel's setting (selected in the menu that pops up).
+Deletes the whole channel from the current action
+(i.e. unlink the underlying F-curve data-block from this action data-block).
 
-   Protect, Mute
-Toggle Channel Editability :kbd:`Tab`
-   Locks or unlocks a channel for editing.
-Extrapolation Mode :kbd:`Shift-E`
-   Change the :ref:`extrapolation <editors-graph-fcurves-settings-extrapolation>` between selected keyframes.
-Expand Channels, Collapse Channels :kbd:`NumpadPlus`, :kbd:`NumpadMinus`
-   Expands or collapses selected channels.
+.. warning::
+
+   The :kbd:`X` shortcut is area-dependent: if you use it in the left list part,
+   it will delete the selected channels, whereas if you use it in the main area,
+   it will delete the selected keyframes.
+
+
+Un/Group Channels
+-----------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Menu:      :menuselection:`Channel --> Un/Group Channels`
+   :Hotkey:    :kbd:`Ctrl-Alt-G`, :kbd:`Ctrl-G`
+
+Un/Groups the selected channels into a collection that can be renamed by double clicking on the group name.
+For example, this helps to group channels that relate a part of an armature to keep the editor more organized.
+
+
+Toggle/Enable/Disable Channel Settings
+--------------------------------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Menu:      :menuselection:`Channel --> Toggle/Enable/Disable Channel Settings`
+   :Hotkey:    :kbd:`Shift-W`, :kbd:`Shift-Ctrl-W`, :kbd:`Alt-W`
+
+Enable/disable a channel's setting (selected in the menu that pops up).
+
+Protect, Mute
+   Todo.
+
+
+Toggle Channel Editability
+--------------------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Menu:      :menuselection:`Channel --> Toggle Channel Editability`
+   :Hotkey:    :kbd:`Tab`
+
+Locks or unlocks a channel for editing.
+
+
+Extrapolation Mode
+------------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Menu:      :menuselection:`Channel --> Toggle Channel Editability`
+   :Hotkey:    :kbd:`Shift-E`
+
+Change the :ref:`extrapolation <editors-graph-fcurves-settings-extrapolation>` between selected keyframes.
+
+
+Expand/Collapse Channels
+------------------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Menu:      :menuselection:`Channel --> Toggle Channel Editability`
+   :Hotkey:    :kbd:`NumpadPlus`, :kbd:`NumpadMinus`
+
+Expands or collapses selected channels.
+
+
+Show/Hide
+---------
+
 Hide Selected Curves :kbd:`H`
    Hides the selected curves.
 Hide Unselected :kbd:`Shift-H`
    Show only the selected curve (and hide everything else).
 Reveal Curves :kbd:`Alt-H`
    Show all previous hidden curves.
-Move...
-   This allows you to move selected channels up/down :kbd:`PageUp`, :kbd:`PageDown`,
-   or directly to the top/bottom :kbd:`Shift-PageUp`, :kbd:`Shift-PageDown`.
+
+
+Move
+----
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Menu:      :menuselection:`Channel --> Move...`
+
+This allows you to move selected channels up/down :kbd:`PageUp`, :kbd:`PageDown`,
+or directly to the top/bottom :kbd:`Shift-PageUp`, :kbd:`Shift-PageDown`.
+
+
 Revive Disabled F-Curves
-   Clears "disabled" tag from all F-curves to get broken F-curves working again.
+------------------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Menu:      :menuselection:`Channel --> Toggle Channel Editability`
+
+Clears "disabled" tag from all F-curves to get broken F-curves working again.
