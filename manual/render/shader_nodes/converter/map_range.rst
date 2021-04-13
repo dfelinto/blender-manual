@@ -38,14 +38,12 @@ Properties
 ==========
 
 Interpolation Type
-   Linear
-      Linear interpolation between From Min and From Max values.
-   Stepped Linear
-      Stepped linear interpolation between From Min and From Max values.
-   Smooth Step
-      Smooth Hermite edge interpolation between From Min and From Max values.
-   Smoother Step
-      Smoother Hermite edge interpolation between From Min and From Max values.
+   The mathematical method used to transition between gaps in the numerical inputs.
+
+   :Linear: Linear interpolation between From Min and From Max values.
+   :Stepped Linear: Stepped linear interpolation between From Min and From Max values.
+   :Smooth Step: Smooth Hermite edge interpolation between From Min and From Max values.
+   :Smoother Step: Smoother Hermite edge interpolation between From Min and From Max values.
 
 Clamp
    If enabled, the output is clamped to the target range.

@@ -22,11 +22,15 @@ Inputs
 ======
 
 Value
-   Standard value input.
-From Min/Max
-   Start/End of the input value range.
-To Min/Max
-   Start/End of the destination range.
+   The input value to be remapped.
+From Min
+   The lower bound of the range to remap from.
+From Max
+   The higher bound of the range to remap from.
+To Min
+   The lower bound of the target range.
+To Max
+   The higher bound of the target range.
 
 
 Properties
