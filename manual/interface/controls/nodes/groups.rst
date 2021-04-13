@@ -58,7 +58,7 @@ Panel
    :class: refbox
 
    :Mode:      All Modes
-   :Panel:     :menuselection:`Sidebar --> Node --> Interface`
+   :Panel:     :menuselection:`Sidebar --> Group --> Interface`
 
 .. figure:: /images/interface_controls_nodes_groups_interface-panel.png
    :align: right

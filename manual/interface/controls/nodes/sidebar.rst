@@ -3,19 +3,19 @@
 Sidebar
 *******
 
-Item
+Node
 ====
 
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`Sidebar region --> Item`
+   :Panel:     :menuselection:`Sidebar --> Node`
 
 .. figure:: /images/interface_controls_nodes_sidebar_item.png
    :width: 200px
    :align: right
 
-   Item tab with a compositing Render Layers node selected.
+   Node tab with a compositing Render Layers node selected.
 
 
 Node
