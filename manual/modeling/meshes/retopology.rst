@@ -49,10 +49,10 @@ to generate better topology after blocking out the initial shape.
 Voxel
 -----
 
-The Voxel Remesher uses an OpenVDB to generate a new manifold mesh from the current geometry.
+The Voxel Remesher uses OpenVDB to generate a new manifold mesh from the current geometry.
 It produces a mesh with perfectly even distributed topology and
 it does not have any performance penalty once the new mesh is calculated.
-This makes the voxel remesher great for sculpting has it is possible to
+This makes the voxel remesher great for sculpting as it is possible to
 sculpt at a much higher level of detail than using other features
 like dyntopo which often adds more performance overhead.
 
