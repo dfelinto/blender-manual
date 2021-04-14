@@ -59,6 +59,7 @@ Blender also has several other workspaces added by default:
 :Animation: Tools for making properties of objects dependent on time.
 :Rendering: For viewing and analyzing rendering results.
 :Compositing: Combining and post-processing of images and rendering information.
+:Geometry Nodes: For procedural modeling using :doc:`/modeling/geometry_nodes/index`.
 :Scripting: Programming workspace for writing scripts.
 
 
