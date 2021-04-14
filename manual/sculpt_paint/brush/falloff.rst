@@ -17,13 +17,8 @@ Curve Preset
    Custom
       The user can choose how the strength of the falloff is determined from the center of the brush
       to the borders by manually manipulating the control points within the Curve Widget.
-   Custom Presets
-      - Smooth
-      - Sphere
-      - Root
-      - Sharp
-      - Linear
-      - Constant
+      There are also a handful of preset custom curves displayed at the bottom of the curve widget
+      that can be used on their own or tweaked to get the perfect look.
 
       .. list-table:: Custom Preset types.
 
@@ -68,7 +63,7 @@ Curve Preset
       the strength will consistently weaken as it reaches the border of the brush.
    Sharper
       Similar to *Sharp* but the center point is more condensed.
-   Inverse square
+   Inverse Square
       A hybrid between *Smooth* and *Sphere*.
    Constant
       The strength of the brush remains unified across the entire brush.
@@ -80,9 +75,12 @@ Curve Preset
       Sharp, Linear, Sharper, Inverse square, Constant.
 
 Falloff Shape
-   Sphere
+   Use projected or spherical falloff.
+   Note, this is not supported in Texture Paint mode.
+
+   :Sphere:
       Applies brushes influence in a sphere, outwards from the center.
-   Projected
+   :Projected:
       This turns the brush influence into a cylinder (the depth along the view is ignored) instead of a sphere.
       It can be used along the outline of a mesh to adjust its silhouette.
 
