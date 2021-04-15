@@ -25,7 +25,7 @@ sys.setrecursionlimit(2000)
 # Not used directly by Sphinx, only used by this file.
 #
 
-blender_version = '2.93'
+blender_version = '3.0'
 
 
 # If extensions (or modules to document with autodoc) are in another directory,
