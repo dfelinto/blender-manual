@@ -38,7 +38,7 @@ Geometry Component Type
 Attribute Domain
    Attribute domain to display.
 
-   :Point: Display attributes that are stored per point.
+   :Vertex: Display attributes that are stored per vertex.
    :Edge: Display attributes that are stored per edge.
    :Face: Display attributes that are stored per face.
    :Face Corner: Display attributes that are stored per face corner.
