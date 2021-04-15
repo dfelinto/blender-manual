@@ -125,6 +125,7 @@ Add the following script to the Text editor in Blender::
 Click the :ref:`Run Script button <editors-text-run-script>`,
 all objects in the active scene are moved by 1.0 unit.
 
+
 .. _advanced-scripting-write-the-add-on-simple:
 
 Write the Add-on (Simple)

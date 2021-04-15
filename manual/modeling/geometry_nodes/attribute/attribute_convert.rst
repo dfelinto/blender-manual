@@ -56,7 +56,7 @@ Domain
    :Point: Store the resulting attribute per point.
    :Edge: Store the resulting attribute per edge.
    :Face: Store the resulting attribute per face.
-   :Face Corner: Store the resulting attribute per face corner
+   :Face Corner: Store the resulting attribute per face corner.
 
 Data Type
    This determines the data type of the result attribute.

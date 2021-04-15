@@ -138,7 +138,7 @@ See :doc:`Masks </grease_pencil/properties/masks>` for more information.
 Transform
 =========
 
-Allows per-layers location, rotation and scale transformations.
+Allows per-layer location, rotation and scale transformations.
 
 
 Adjustments

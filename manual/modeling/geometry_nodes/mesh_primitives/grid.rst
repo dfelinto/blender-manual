@@ -30,8 +30,15 @@ Vertices Y
    Number of vertices in the Y direction.
    If this is smaller than two, no mesh is generated.
 
+
+Properties
+==========
+
+This node has no properties.
+
+
 Outputs
 =======
 
 Geometry
-   Standard geometry output containing the generated mesh.
+   Standard geometry output.

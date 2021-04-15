@@ -4,7 +4,7 @@
 Texture Mask
 ************
 
-Whit a Texture Mask the brush strength is masked with a texture.
+With a Texture Mask the brush strength is masked by a texture.
 
 Texture
    In paint modes the texture is used as a color source,

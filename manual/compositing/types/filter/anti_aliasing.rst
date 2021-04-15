@@ -31,7 +31,7 @@ Contrast Limit
    The human eye does not perceive all edges equally. For instance,
    it tends to mask low contrast edges in the presence of much higher contrasts in the surrounding area.
    Therefore, applying anti-aliasing to unperceived edges will produce artifacts.
-   This parameter quantifies the difference between low contrast and high contrast neighboring edges.
+   This option quantifies the difference between low contrast and high contrast neighboring edges.
 
 Corner Rounding
    Detect corners to help preserve the original shape.
@@ -65,11 +65,9 @@ Examples
 
    * - .. figure:: /images/compositing_types_filter_antialiasing-node_example-3-corner_rounding-off.png
 
-         Corner detection and rounding off (set to 0).
-         Notice how anti-aliasing node smooths the corner because it treats it as an artifact.
+          Corner detection and rounding off (set to 0).
+          Notice how corners are smoothed because they are treated as artifacts.
 
      - .. figure:: /images/compositing_types_filter_antialiasing-node_example-3-corner_rounding-on.png
 
-         Corner detection and rounding on.
-         Setting this value to 1 tells the anti-aliasing node the sharp edges
-         around the corner are not an artifact and should therefore be reserved.
+          Full corner detection and rounding preserves the sharp edges around the corner.

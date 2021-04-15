@@ -151,8 +151,6 @@ Move Strips Down
 Todo.
 
 
-.. _bpy.ops.anim.channels_move:
-
 Track Ordering
 ==============
 

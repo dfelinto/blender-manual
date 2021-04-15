@@ -15,10 +15,10 @@ Read more about using the :ref:`ui-curve-widget`.
 
 Curve Preset
    Custom
-      The user can choose how the strength of the falloff is determined from the center of the brush
-      to the borders by manually manipulating the control points within the Curve Widget.
-      There are also a handful of preset custom curves displayed at the bottom of the curve widget
-      that can be used on their own or tweaked to get the perfect look.
+      You can choose how the strength of the falloff is determined from the center of the brush
+      to the borders by manually manipulating the control points within the curve widget.
+      There are also a couple of preset custom curves displayed at the bottom of the curve widget
+      that can be used on their own or as a starting point for tweaking.
 
       .. list-table:: Custom Preset types.
 
@@ -76,7 +76,7 @@ Curve Preset
 
 Falloff Shape
    Use projected or spherical falloff.
-   Note, this is not supported in Texture Paint mode.
+   Note, this is not supported in Texture Paint Mode.
 
    :Sphere:
       Applies brushes influence in a sphere, outwards from the center.

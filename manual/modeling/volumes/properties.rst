@@ -119,7 +119,7 @@ Axis
    :Auto:
       Adjust slice direction according to the view direction.
    :X/Y/Z:
-      Slice along the X/Y/Z axis.
+      Slice along the X, Y, or Z axis.
 
 .. _bpy.types.VolumeDisplay.slice_depth:
 

@@ -48,8 +48,9 @@ you need to select all strips for which you want proxies to be built.
 Then use :menuselection:`Strip --> Rebuild Proxy and Timecode indices`, or button in `Proxy Settings`_ panel.
 Once all proxies are built, they will be ready to use.
 
-In order to use proxies, you have to select matching :ref:`Proxy Render Size <bpy.types.SpaceSequenceEditor.proxy_render_size>`
-in Sequencer preview Sidebar panel.
+In order to use proxies, you have to select matching
+:ref:`Proxy Render Size <bpy.types.SpaceSequenceEditor.proxy_render_size>` in
+the Sequencer preview Sidebar panel.
 
 Custom Proxy
    Directory

@@ -43,7 +43,7 @@ Properties
 
 Tone :guilabel:`Compositor Only`
    :Standard: TODO 2.8
-   :Film like: TODO 2.8
+   :Film Like: TODO 2.8
 
 Channel
    Clicking on one of the channels displays the curve for each.

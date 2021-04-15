@@ -13,8 +13,7 @@ Proxy Render Size
    Using a smaller preview size will increase speed.
 
    :No Display: Disables the preview.
-   :Scene Size:
-      Matches proxy size to the final render :ref:`resolution <bpy.types.RenderSettings.resolution_y>`.
+   :Scene Size: Matches proxy size to the final render :ref:`resolution <bpy.types.RenderSettings.resolution_y>`.
    :25%, 50%, 75%, 100%: Proxies are sized to be the selected percent of the original input.
 
 .. _bpy.types.SpaceSequenceEditor.use_proxies:
@@ -28,7 +27,7 @@ Use Proxies
 
 Prefetch Frames
    Automatically fill the cache with frames after the current frame in the background.
-   Use this feature to achieve more consistent playback speed.
+   Use this to achieve a more consistent playback speed.
    This feature currently doesn't support rendering scene strips.
 
 .. _bpy.types.SpaceSequenceEditor.display_channel:

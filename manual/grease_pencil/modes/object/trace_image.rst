@@ -68,4 +68,4 @@ Mode
    :Sequence: The image empty is an :ref:`Image Sequence <image-sequence>`.
 
 Start at Current Frame
-   When enabled, Start the tracing process at the Current image frame.
+   When enabled, start the tracing process at the current image frame.

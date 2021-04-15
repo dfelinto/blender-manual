@@ -114,7 +114,7 @@ Show Markers
    and markers operators are not available in this editor.
 
 Use High Quality Display
-   Display F-curves using :term:`Anti-Aliasing` and other fancy effects (disable for a better performance).
+   Display F-curves using :term:`Anti-Aliasing` and other effects (disable for a better performance).
 
 .. _bpy.types.SpaceGraphEditor.show_extrapolation:
 

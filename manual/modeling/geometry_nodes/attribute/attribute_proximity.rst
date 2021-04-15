@@ -40,9 +40,9 @@ Properties
 
 Target Geometry
    :Faces:
-      Calculate the closest point anywhere on the faces of the target geometry's mesh.
+      Calculate the closest point anywhere on the faces of the target's mesh geometry.
    :Edges:
-      Calculate the closest point anywhere on the edges of the target geometry's mesh.
+      Calculate the closest point anywhere on the edges of the target's mesh geometry.
    :Points:
       Calculate the closest point or vertex on the target geometry. This mode is usually the fastest.
 

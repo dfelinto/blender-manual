@@ -171,8 +171,8 @@ Fast GI Approximation
    :Panel:     :menuselection:`Render --> Light Paths --> Fast GI Approximation`
 
 Approximate diffuse indirect light with background tinted ambient occlusion.
-This provides fast alternative to full global illumination,
-for interactive viewport rendering or final renders with reduced quality
+This provides fast alternative to full global illumination (GI),
+for interactive viewport rendering or final renders with reduced quality.
 
 .. _bpy.types.CyclesRenderSettings.ao_bounces:
 
@@ -183,11 +183,9 @@ Viewport Bounces
 .. _bpy.types.CyclesRenderSettings.ao_bounces_render:
 
 Render Bounces
-   Replace global illumination with ambient occlusion after the specified number of bounces,
-   when rendering final renders. This can reduce noise in interior scenes with little visual difference.
+   Number of bounces when rendering final renders.
 
 Distance
-   Distance from shading point to trace rays.
-   A shorter distance emphasizes nearby features,
+   Distance from shading point to trace rays. A shorter distance emphasizes nearby features,
    while longer distances make it also take objects farther away into account.
    Note, this setting is stored per :doc:`/render/lights/world`.

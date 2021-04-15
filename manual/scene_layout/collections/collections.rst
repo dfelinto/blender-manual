@@ -29,7 +29,8 @@ Restrictions
 
 Selectable
    Toggles the ability to select the objects from the 3D Viewport.
-   This is useful for if you have placed something in the scene and do not want to accidentally select it when working on something else.
+   This is useful for if you have placed something in the scene and
+   do not want to accidentally select it when working on something else.
 
 Disable in Renders
    Enables/disables visibility of the collection in renders.
@@ -46,7 +47,7 @@ Instancing
 ----------
 
 Instance Offset X, Y Z
-   Applies a spatial offset of the instanced collections from the original object’s origin.
+   Applies a spatial offset of the instanced collections from the original object's origin.
 
 
 Line Art

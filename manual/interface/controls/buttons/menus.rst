@@ -123,15 +123,15 @@ Reset to Default Value(s) :kbd:`Backspace`
    Replaces the current value by the default.
 
 Copy Data Path :kbd:`Shift-Ctrl-C`
-   Copies the Python property Data path, relative to the data-block.
+   Copies the Python property data path, relative to the data-block.
    Useful for Python scripting.
 
 Copy Full Data Path :kbd:`Shift-Ctrl-Alt-C`
-   Copies the full Python property Data path including any needed context information.
+   Copies the full Python property data path including any needed context information.
 
 Copy As New Driver
    Creates a new driver using this property as input, and copies it to the clipboard.
-   Use Paste Driver to add the driver to a different property, or Paste Driver Variables
+   Use *Paste Driver* to add the driver to a different property, or *Paste Driver Variables*
    to extend an existing driver with a new input variable.
 
 Copy To Selected
@@ -140,8 +140,8 @@ Copy To Selected
 
 Assign Shortcut
    Lets you define a keyboard or mouse shortcut for an operation.
-   To define the shortcut you must first move the mouse cursor over the button that pops up,
-   and when "Press a key" appears you must press and/or click the desired shortcut.
+   To define the shortcut you must first move the mouse cursor over the button that pops up.
+   When "Press a key" appears you must press and/or click the desired shortcut.
    Press :kbd:`Esc` to cancel.
 
    .. seealso::

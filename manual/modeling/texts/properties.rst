@@ -214,8 +214,8 @@ Horizontal Alignment
       Aligns text to the right of the frames when using them,
       else uses the origin of the text object as the ending point of the text (which grows to the left).
    :Justify:
-      Only flushes a line when it is terminated by a word-wrap (**not** by a newline),
-      and uses *white-space* instead of *character spacing* (kerning) to fill lines.
+      Only flushes a line when it is terminated by a word wrap (**not** by a newline),
+      and uses *whitespace* instead of *character spacing* (kerning) to fill lines.
    :Flush:
       Always flushes the line, even when it is still being typed-in.
       It uses character spacing (kerning) to fill lines.
@@ -223,9 +223,9 @@ Horizontal Alignment
    .. note:: Both *Justify* and *Flush* only work within frames.
 
 Vertical Alignment
-   :Top Base-Line:
-      - With text boxes, aligns the 'top' base-line of the text to the top of the frames.
-      - With no text box, aligns the actual base-line of the text to the origin of the object,
+   :Top Baseline:
+      - With text boxes, aligns the 'top' baseline of the text to the top of the frames.
+      - With no text box, aligns the actual baseline of the text to the origin of the object,
         and grows to the bottom.
 
       .. note::
@@ -243,9 +243,9 @@ Vertical Alignment
    :Bottom:
       - With text boxes, align the bottom of the text to the bottom of the frames.
       - With no text box, align the bottom of the text to the origin of the object, and grows to the top.
-   :Bottom Base-Line:
-      - With text boxes, aligns the base-line of the text to the bottom of the frames.
-      - With no text box, aligns the base-line of the text to the origin of the object, and grows to the top.
+   :Bottom Baseline:
+      - With text boxes, aligns the baseline of the text to the bottom of the frames.
+      - With no text box, aligns the baseline of the text to the origin of the object, and grows to the top.
 
 
 Spacing
@@ -257,7 +257,7 @@ Character Spacing
    In Edit Mode in the 3D Viewport, you can also control individual kerning
    at text cursor position by pressing :kbd:`Alt-Left` / :kbd:`Alt-Right` to decrease/increase it.
 Word Spacing
-   A factor by which white-space between words is scaled in width.
+   A factor by which whitespace between words is scaled in width.
 Line Spacing
    A factor by which the vertical space between lines is scaled.
 
@@ -312,7 +312,7 @@ Overflow
          in *Edit Mode* the whole text remains visible (and overflows as needed).
 
 Size X, Y
-   Specifies the width and height of the text box, if set to **zero** no word-wrap happens
+   Specifies the width and height of the text box, if set to **zero** no word wrapping happens
    (it is ignored, and the whole text box system is disabled if all are set to a null size).
 
 Offset X, Y

@@ -154,12 +154,9 @@ Creates a mask radiating outwards from the active vertex in a uniform manner.
 
    This operator is meant to be used interactively through the shortcut.
 
-.. rubric:: Hotkeys
 
-:Confirm: :kbd:`LMB`
-   Confirms the action of the operator.
-:Cancel: :kbd:`Esc`/:kbd:`RMB`
-   Cancels the action of the operator.
+.. rubric:: Shortcuts
+
 :Invert: :kbd:`F`
    Flips between expanding a positive mask (value of one) or a negative mask (value of zero).
    In the case of face sets, this option flips between including areas inside the masked area
@@ -186,12 +183,12 @@ Creates a mask radiating outwards from the active vertex in a uniform manner.
 :Snap Expanded to Face Sets: :kbd:`Ctrl`
    Isolates the expanded region to the boundary of the face set under the cursor.
 :Loop Count Increase: :kbd:`W`
-   Increase the number of loops or iterations the operator is run; using four loops will split the mask into 4 parts.
+   Increase the number of loops or iterations the operator is run; using four loops will split the mask into four parts.
 :Loop Count Decrease: :kbd:`Q`
-   Decrease the number of loops or iterations the operator is run; using four loops will split the mask into 4 parts.
+   Decrease the number of loops or iterations the operator is run; using four loops will split the mask into four parts.
 :Toggle Brush Gradient: :kbd:`B`
    Similar to linear gradient but uses the current brush :doc:`Falloff </sculpt_paint/brush/falloff>`
-   to define the shape of the falloff
+   to define the shape of the falloff.
 :Texture Distortion Increase: :kbd:`Y`
    Increases the falloff distance when using a texture to distort the mask shape.
 :Texture Distortion Decrease: :kbd:`T`
@@ -224,7 +221,7 @@ Expand Mask by Normals
 
 Creates a mask radiating outwards from the active vertex while following the curvature of the mesh.
 This operator uses the same internal operator as :ref:`bpy.ops.sculpt.expand`
-meaning all the hotkeys and functionality works the same as that tool.
+meaning all the shortcuts and functionality works the same as that tool.
 
 .. note::
 

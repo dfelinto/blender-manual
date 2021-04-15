@@ -166,7 +166,7 @@ Extrapolation Mode
 .. admonition:: Reference
    :class: refbox
 
-   :Menu:      :menuselection:`Channel --> Toggle Channel Editability`
+   :Menu:      :menuselection:`Channel --> Extrapolation Mode`
    :Shortcut:  :kbd:`Shift-E`
 
 Change the :ref:`extrapolation <editors-graph-fcurves-settings-extrapolation>` between selected keyframes.
@@ -195,7 +195,7 @@ Expand/Collapse Channels
 .. admonition:: Reference
    :class: refbox
 
-   :Menu:      :menuselection:`Channel --> Toggle Channel Editability`
+   :Menu:      :menuselection:`Channel --> Expand/Collapse Channels`
    :Shortcut:  :kbd:`NumpadPlus`, :kbd:`NumpadMinus`
 
 Expands or collapses selected channels.
@@ -223,6 +223,6 @@ Revive Disabled F-Curves
 .. admonition:: Reference
    :class: refbox
 
-   :Menu:      :menuselection:`Channel --> Toggle Channel Editability`
+   :Menu:      :menuselection:`Channel --> Revive Disabled F-Curves`
 
 Clears "disabled" tag from all F-curves to get broken F-curves working again.

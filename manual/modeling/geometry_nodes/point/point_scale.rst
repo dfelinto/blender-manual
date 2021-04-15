@@ -37,8 +37,8 @@ Type
    :Attribute:
       Use the values from the attribute to move each point by a different amount.
    :Float:
-      Use a single value to translate every single point, this is a shortcut for assigning the same value
-      for the X, Y, and Z, components of the vector input, and allows adjusting the scale in a uniform way.
+      Use a single value to translate every single point. This is a shortcut for assigning the same value
+      for the X, Y, and Z components of the vector input, and allows adjusting the scale in a uniform way.
    :Vector:
       Use a single vector to translate every single point.
       Equivalent to the :doc:`Transform Node </modeling/geometry_nodes/geometry/transform>`.

@@ -85,7 +85,7 @@ Name
 
 Tooltip
    The message displayed when hovering over socket properties.
-   Currently only supported for :doc:`Geometry Node Editor </editors/geometry_node>`
+   Currently only supported for :doc:`Geometry Node Editor </editors/geometry_node>`.
 
 .. _bpy.types.NodeSocketInterface*.default_value:
 
