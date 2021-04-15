@@ -9,7 +9,7 @@ Snap
 
    :Mode:      Object, Edit, and Pose Mode
    :Menu:      :menuselection:`Object/Object type --> Snap`
-   :Hotkey:    :kbd:`Shift-S`
+   :Shortcut:  :kbd:`Shift-S`
 
 The *Snap* menu (also available from the 3D header in both *Object Mode* and *Edit Mode*
 :menuselection:`Object --> Snap` and :menuselection:`Mesh --> Snap`).

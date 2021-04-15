@@ -12,7 +12,7 @@ Proportional Editing
 
    :Mode:      Object and Edit Mode
    :Header:    Via the |prop-edit-icon| icon in the header.
-   :Hotkey:    :kbd:`O`
+   :Shortcut:  :kbd:`O`
 
 .. figure:: /images/editors_3dview_controls_proportional-editing_tool.png
    :align: right

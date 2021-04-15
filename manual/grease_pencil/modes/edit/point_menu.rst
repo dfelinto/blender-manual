@@ -14,7 +14,7 @@ Extrude
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Point --> Extrude`
    :Tool:      :menuselection:`Toolbar --> Extrude`
-   :Hotkey:    :kbd:`E`
+   :Shortcut:  :kbd:`E`
 
 Extrudes points by duplicating the selected points, which then can be moved.
 The new points stay connected with the original points of the edit line.

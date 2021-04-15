@@ -112,7 +112,7 @@ Edit Group
    :Mode:      All Modes
    :Menu:      :menuselection:`Node --> Edit Group`
    :Header:    :menuselection:`Go to Parent Node Tree`
-   :Hotkey:    :kbd:`Tab`, :kbd:`Ctrl-Tab`
+   :Shortcut:  :kbd:`Tab`, :kbd:`Ctrl-Tab`
 
 With a node group selected, :kbd:`Tab` expands the node to a frame, and the individual nodes within
 it are shown. You can move them around, play with their individual controls, re-thread them internally, etc.
@@ -136,7 +136,7 @@ Make Group
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Node --> Make Group`
-   :Hotkey:    :kbd:`Ctrl-G`
+   :Shortcut:  :kbd:`Ctrl-G`
 
 To create a node group, select the nodes you want to include, then
 press :kbd:`Ctrl-G`, :menuselection:`Group --> Make Group`.
@@ -172,7 +172,7 @@ Ungroup
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Node --> Ungroup`
-   :Hotkey:    :kbd:`Ctrl-Alt-G`
+   :Shortcut:  :kbd:`Ctrl-Alt-G`
 
 The :kbd:`Ctrl-Alt-G` tool removes the group and places the individual nodes into your editor workspace.
 No internal connections are lost, and now you can link internal nodes to other nodes in your workspace.

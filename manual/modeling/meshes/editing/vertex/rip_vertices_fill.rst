@@ -8,7 +8,7 @@ Rip Vertices and Fill
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Vertex --> Rip Vertices and Fill`
-   :Hotkey:    :kbd:`Alt-V`
+   :Shortcut:  :kbd:`Alt-V`
 
 Rip fill works the same as the Rip tool above, but instead of leaving a hole,
 it fills in the gap with geometry.

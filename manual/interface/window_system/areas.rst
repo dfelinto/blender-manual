@@ -127,7 +127,7 @@ Toggle Maximize Area
    :class: refbox
 
    :Menu:      :menuselection:`View --> Area --> Toggle Maximize Area`
-   :Hotkey:    :kbd:`Ctrl-Spacebar`
+   :Shortcut:  :kbd:`Ctrl-Spacebar`
 
 The maximized area fill the whole application window. You can maximize an area
 with :menuselection:`View --> Area --> Toggle Maximize Area` menu entry or keyboard shortcut.
@@ -146,7 +146,7 @@ Toggle Fullscreen Area
    :class: refbox
 
    :Menu:      :menuselection:`View --> Area --> Toggle Fullscreen Area`
-   :Hotkey:    :kbd:`Ctrl-Alt-Spacebar`
+   :Shortcut:  :kbd:`Ctrl-Alt-Spacebar`
 
 The fullscreen area contains only the main region of the editor.
 To exit fullscreen use the keyboard shortcut or move the mouse to the top right corner

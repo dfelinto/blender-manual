@@ -8,7 +8,7 @@ Primitives
 
    :Mode:      Object Mode and Edit Mode
    :Menu:      :menuselection:`Add --> Metaball`
-   :Hotkey:    :kbd:`Shift-A`
+   :Shortcut:  :kbd:`Shift-A`
 
 There are five predefined metaball "primitives" (or configurations)
 available in the :menuselection:`Add --> Metaball` submenu:

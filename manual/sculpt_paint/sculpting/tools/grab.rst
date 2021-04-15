@@ -8,7 +8,7 @@ Grab
 
    :Mode:      Sculpt Mode
    :Tool:      :menuselection:`Toolbar --> Grab`
-   :Hotkey:    :kbd:`G`
+   :Shortcut:  :kbd:`G`
 
 Used to drag a group of vertices around. *Grab* selects a group of vertices on mouse-down,
 and pulls them to follow the mouse. And unlike other brushes,

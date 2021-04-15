@@ -8,7 +8,7 @@ Layer
 
    :Mode:      Sculpt Mode
    :Tool:      :menuselection:`Toolbar --> Layer`
-   :Hotkey:    :kbd:`L`
+   :Shortcut:  :kbd:`L`
 
 This brush is similar to *Draw*, except that the height of the displacement layer is capped.
 This creates the appearance of a solid layer being drawn.

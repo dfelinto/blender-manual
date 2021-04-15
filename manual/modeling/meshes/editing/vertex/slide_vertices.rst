@@ -10,7 +10,7 @@ Slide Vertices
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Vertex --> Slide Vertices`
-   :Hotkey:    :kbd:`Shift-V`
+   :Shortcut:  :kbd:`Shift-V`
 
 Vertex Slide will transform a vertex along one of its adjacent edges.
 Use :kbd:`Shift-V` to activate tool.

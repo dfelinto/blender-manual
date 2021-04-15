@@ -125,7 +125,7 @@ Select Mirror
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Select Mirror`
-   :Hotkey:    :kbd:`Shift-Ctrl-M`
+   :Shortcut:  :kbd:`Shift-Ctrl-M`
 
 Flip the selection from one side to another.
 
@@ -158,7 +158,7 @@ Linked
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Linked`
-   :Hotkey:    :kbd:`Ctrl-L`
+   :Shortcut:  :kbd:`Ctrl-L`
 
 Selects all the bones in the chain which the active (last selected) bone belongs to.
 
@@ -204,7 +204,7 @@ Similar
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Similar`
-   :Hotkey:    :kbd:`Shift-G`
+   :Shortcut:  :kbd:`Shift-G`
 
 Children
    Extends the selection to all hierarchical descendant bones.

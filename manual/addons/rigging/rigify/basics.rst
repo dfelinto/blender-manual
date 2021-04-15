@@ -21,7 +21,7 @@ Add a Predefined Meta-Rig
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Add --> Armature`
-   :Hotkey:    :kbd:`Shift-A`
+   :Shortcut:  :kbd:`Shift-A`
 
 Rigify stores all the information required to generate complex rig controls and mechanism in
 more simple armatures called "meta-rigs".

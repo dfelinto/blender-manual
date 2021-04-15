@@ -9,7 +9,7 @@ Connect Vertex Path
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Vertex --> Connect Vertex Path`
-   :Hotkey:    :kbd:`J`
+   :Shortcut:  :kbd:`J`
 
 This tool connects vertices in the order they are selected, splitting the faces between them.
 When there are only two vertices selected, a cut will be made across unselected faces,

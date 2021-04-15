@@ -19,7 +19,7 @@ Undo
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Edit --> Undo`
-   :Hotkey:    :kbd:`Ctrl-Z`
+   :Shortcut:  :kbd:`Ctrl-Z`
 
 If you want to undo your last action, just press :kbd:`Ctrl-Z`.
 
@@ -38,7 +38,7 @@ Redo
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Edit --> Redo`
-   :Hotkey:    :kbd:`Shift-Ctrl-Z`
+   :Shortcut:  :kbd:`Shift-Ctrl-Z`
 
 To roll back the Undo action, press :kbd:`Shift-Ctrl-Z`.
 
@@ -53,7 +53,7 @@ Adjust Last Operation
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Edit --> Adjust Last Operation...`
-   :Hotkey:    :kbd:`F9`
+   :Shortcut:  :kbd:`F9`
 
 After an operation is complete you can tweak the parameters of the operation afterwards.
 In editors that support it, there is a "head-up display" panel in the bottom left
@@ -139,7 +139,7 @@ Repeat Last
 
    :Mode:      All Modes
    :Panel:     :menuselection:`Edit --> Repeat Last`
-   :Hotkey:    :kbd:`Shift-R`
+   :Shortcut:  :kbd:`Shift-R`
 
 The Repeat Last feature will repeat your last action when you press :kbd:`Shift-R`.
 

@@ -13,7 +13,7 @@ Copy/Paste Pose
    :Menu:      :menuselection:`Pose --> Copy Pose`,
                :menuselection:`Pose --> Paste Pose`,
                :menuselection:`Pose --> Paste Pose Flipped`
-   :Hotkey:    :kbd:`Ctrl-C`,
+   :Shortcut:  :kbd:`Ctrl-C`,
                :kbd:`Ctrl-V`,
                :kbd:`Shift-Ctrl-V`
 

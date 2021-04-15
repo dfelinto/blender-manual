@@ -52,7 +52,7 @@ Mirror
    :Editor:    UV Editor
    :Mode:      Edit Mode
    :Menu:      :menuselection:`UV --> Mirror`
-   :Hotkey:    :kbd:`Ctrl-M`
+   :Shortcut:  :kbd:`Ctrl-M`
 
 UVs can be mirrored on the Y axis or the X axis:
 
@@ -94,7 +94,7 @@ Snap
    :Editor:    UV Editor
    :Mode:      Edit Mode
    :Menu:      :menuselection:`UV --> Snap`
-   :Hotkey:    :kbd:`Shift-S`
+   :Shortcut:  :kbd:`Shift-S`
 
 Snapping in the UV Editor is similar to
 :doc:`Snapping in 3D </editors/3dview/controls/snapping>`.
@@ -126,7 +126,7 @@ Merge
    :Editor:    UV Editor
    :Mode:      Edit Mode
    :Menu:      :menuselection:`UV --> Merge`
-   :Hotkey:    :kbd:`M`
+   :Shortcut:  :kbd:`M`
 
 At Center
    Moves selected UVs to their average position.
@@ -150,7 +150,7 @@ Split
    :Editor:    UV Editor
    :Mode:      Edit Mode
    :Menu:      :menuselection:`UV --> Split`
-   :Hotkey:    :kbd:`Alt-M`
+   :Shortcut:  :kbd:`Alt-M`
 
 Selection :kbd:`Y`
    Splits (disconnects) the selection from the rest of the UV.
@@ -169,7 +169,7 @@ Unwrap
    :Editor:    UV Editor
    :Mode:      Edit Mode
    :Menu:      :menuselection:`UV --> Unwrap`
-   :Hotkey:    :kbd:`U`
+   :Shortcut:  :kbd:`U`
 
 Blender offers several ways of mapping UVs.
 The simpler projection methods use formulas that map 3D space onto 2D space,
@@ -196,7 +196,7 @@ Pin & Unpin
    :Editor:    UV Editor
    :Mode:      Edit Mode
    :Menu:      :menuselection:`UV --> Pin/Unpin`
-   :Hotkey:    :kbd:`P`, :kbd:`Alt-P`
+   :Shortcut:  :kbd:`P`, :kbd:`Alt-P`
 
 You can pin UVs so they do not move between multiple unwrap operations.
 When Unwrapping a model it is sometimes useful to "Lock" certain UVs,
@@ -256,7 +256,7 @@ Pack Islands
    :Editor:    UV Editor
    :Mode:      Edit Mode
    :Menu:      :menuselection:`UV --> Pack Islands`
-   :Hotkey:    :kbd:`Ctrl-P`
+   :Shortcut:  :kbd:`Ctrl-P`
 
 The *Pack Islands* tool generates an optimized UV layout with non-overlapping islands
 that tries to efficiently fill the :term:`Texture Space`.
@@ -276,7 +276,7 @@ Average Island Scale
    :Editor:    UV Editor
    :Mode:      Edit Mode
    :Menu:      :menuselection:`UV --> Average Island Scale`
-   :Hotkey:    :kbd:`Ctrl-A`
+   :Shortcut:  :kbd:`Ctrl-A`
 
 Using the *Average Island Scale* tool, will scale each
 UV island so that they are all approximately the same scale.
@@ -293,7 +293,7 @@ Minimize Stretch
    :Editor:    UV Editor
    :Mode:      Edit Mode
    :Menu:      :menuselection:`UV --> Minimize Stretch`
-   :Hotkey:    :kbd:`Ctrl-V`
+   :Shortcut:  :kbd:`Ctrl-V`
 
 The *Minimize Stretch* tool, reduces UV stretch by minimizing angles. This essentially relaxes the UVs.
 
@@ -309,7 +309,7 @@ Stitch
    :Editor:    UV Editor
    :Mode:      Edit Mode
    :Menu:      :menuselection:`UV --> Stitch`
-   :Hotkey:    :kbd:`V`
+   :Shortcut:  :kbd:`V`
 
 The *Stitch* tool, will join selected UVs that share vertices.
 You set the tool to limit stitching by distance in the :ref:`ui-undo-redo-adjust-last-operation` panel,
@@ -327,7 +327,7 @@ Align
    :Editor:    UV Editor
    :Mode:      Edit Mode
    :Menu:      :menuselection:`UV --> Align`
-   :Hotkey:    :kbd:`Shift-W`
+   :Shortcut:  :kbd:`Shift-W`
 
 Straighten
    Auto, X, Y
@@ -379,7 +379,7 @@ Proportional Editing
    :Mode:      Edit Mode
    :Header:    :menuselection:`Proportional Editing`
    :Menu:      :menuselection:`UV --> Proportional Editing`
-   :Hotkey:    :kbd:`O`
+   :Shortcut:  :kbd:`O`
 
 Proportional Editing is available in UV editing. The controls are the same as in the 3D Viewport.
 See :doc:`Proportional Editing in 3D </editors/3dview/controls/proportional_editing>`

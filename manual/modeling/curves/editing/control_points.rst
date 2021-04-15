@@ -14,7 +14,7 @@ Extrude Curve and Move
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Extrude Curve and Move`
-   :Hotkey:    :kbd:`E`
+   :Shortcut:  :kbd:`E`
 
 Extrudes points by duplicating the selected points, which then can be moved,
 and connecting those points back to the original curve creating a continuous curve.
@@ -31,7 +31,7 @@ Make Segment
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Make Segment`
-   :Hotkey:    :kbd:`F`
+   :Shortcut:  :kbd:`F`
 
 Connects two disconnected control points.
 The selection must be loose points, or the first/last point of a curve, then press :kbd:`F`.
@@ -63,7 +63,7 @@ Tilt
    :Mode:      Edit Mode
    :Tool:      :menuselection:`Toolbar --> Tilt`
    :Menu:      :menuselection:`Control Points --> Tilt`
-   :Hotkey:    :kbd:`Ctrl-T`
+   :Shortcut:  :kbd:`Ctrl-T`
 
 This setting controls how the normals (visualized as arrows)
 twist around each control point -- so it is only relevant with 3D curves!
@@ -86,7 +86,7 @@ Clear Tilt
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Control Points --> Clear Tilt`
-   :Hotkey:    :kbd:`Alt-T`
+   :Shortcut:  :kbd:`Alt-T`
 
 You can also reset the tilt to its default value (i.e. perpendicular to the original curve plane).
 With NURBS, the tilt is always smoothly interpolated. However, with Bézier,
@@ -103,7 +103,7 @@ Set Handle Type
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Control Points --> Set Handle Type`
-   :Hotkey:    :kbd:`V`
+   :Shortcut:  :kbd:`V`
 
 Handle types are a property of :ref:`Bézier curves <curve-bezier>` and
 can be used to alter features of the curve.
@@ -124,7 +124,7 @@ Recalculate Handles
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Control Points --> Recalculate Handles`
-   :Hotkey:    :kbd:`Shift-N`
+   :Shortcut:  :kbd:`Shift-N`
 
 The *Recalculate Handles* operator rotates the selected control point's handle to be tangential to the curve.
 This can be used to make curves smoother and more consistent looking.
@@ -214,7 +214,7 @@ Hooks
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Control Points --> Hooks`
-   :Hotkey:    :kbd:`Ctrl-H`
+   :Shortcut:  :kbd:`Ctrl-H`
 
 :doc:`Hooks </modeling/modifiers/deform/hooks>` can be added to control one or more points with other objects.
 
@@ -227,7 +227,7 @@ Make Vertex Parent
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Control Points --> Make Vertex Parent`
-   :Hotkey:    :kbd:`Ctrl-P`
+   :Shortcut:  :kbd:`Ctrl-P`
 
 You can make other selected objects :ref:`children <object-parenting>`
 of one or three control points, as with mesh objects.

@@ -41,7 +41,7 @@ Radius
    :Mode:      Edit Mode
    :Tool:      :menuselection:`Toolbar --> Radius`
    :Menu:      :menuselection:`Curve --> Transform --> Radius`
-   :Hotkey:    :kbd:`Alt-S`
+   :Shortcut:  :kbd:`Alt-S`
 
 The Radius allows you to directly control the width of the extrusion along the "spinal" curve.
 The radius will be interpolated from point to point (you can check it with the normals).
@@ -62,7 +62,7 @@ Mirror
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Mirror`
-   :Hotkey:    :kbd:`Ctrl-M`
+   :Shortcut:  :kbd:`Ctrl-M`
 
 The *Mirror* tool is also available, behaving exactly as with
 :doc:`mesh vertices </modeling/meshes/editing/mesh/mirror>`.
@@ -76,7 +76,7 @@ Snap
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Snap`
-   :Hotkey:    :kbd:`Shift-S`
+   :Shortcut:  :kbd:`Shift-S`
 
 :doc:`Mesh snapping </editors/3dview/controls/snapping>`
 also works with curve components.
@@ -109,7 +109,7 @@ Add Duplicate
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Add Duplicate`
-   :Hotkey:    :kbd:`Shift-D`
+   :Shortcut:  :kbd:`Shift-D`
 
 This tool duplicates the selected control points,
 along with the curve segments implicitly selected (if any).
@@ -127,7 +127,7 @@ Split
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Split`
-   :Hotkey:    :kbd:`Y`
+   :Shortcut:  :kbd:`Y`
 
 The *Split* operator splits a selected segment of a curve from the rest of the curve.
 This curve can then be moved or altered without affecting the other curve.
@@ -145,7 +145,7 @@ Separate
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Separate`
-   :Hotkey:    :kbd:`P`
+   :Shortcut:  :kbd:`P`
 
 Curve objects that are made of multiple distinct curves can be separated into their own
 objects by selecting the desired segments and pressing :kbd:`P`.
@@ -164,7 +164,7 @@ Toggle Cyclic
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Toggle Cyclic`
-   :Hotkey:    :kbd:`Alt-C`
+   :Shortcut:  :kbd:`Alt-C`
 
 This toggles between an open curve and closed curve (Cyclic).
 Only curves with at least one selected control point will be closed/open.
@@ -220,7 +220,7 @@ Show/Hide
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Show/Hide`
-   :Hotkey:    :kbd:`Alt-H`, :kbd:`H`, :kbd:`Shift-H`
+   :Shortcut:  :kbd:`Alt-H`, :kbd:`H`, :kbd:`Shift-H`
 
 When in *Edit Mode*, you can hide and reveal elements from the display.
 You can only show or hide control points, as segments are always shown,
@@ -268,7 +268,7 @@ Delete
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Delete...`
-   :Hotkey:    :kbd:`X`, :kbd:`Delete`; :kbd:`Ctrl-X`
+   :Shortcut:  :kbd:`X`, :kbd:`Delete`; :kbd:`Ctrl-X`
 
 Options for the *Delete* pop-up menu:
 

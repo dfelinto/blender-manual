@@ -9,7 +9,7 @@ Clear
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Clear --> Location / Scale / Rotation / Origin`
-   :Hotkey:    :kbd:`Alt-G`, :kbd:`Alt-S`, :kbd:`Alt-R`
+   :Shortcut:  :kbd:`Alt-G`, :kbd:`Alt-S`, :kbd:`Alt-R`
 
 Clearing transforms resets the transform values.
 The objects location and rotation values are set to 0, and the scale to 1.

@@ -9,7 +9,7 @@ Duplicate Linked
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Duplicate Linked`
-   :Hotkey:    :kbd:`Alt-D`
+   :Shortcut:  :kbd:`Alt-D`
 
 You also have the choice of creating a *Linked Duplicate* rather than a *Duplicate*;
 this is called a deep link. This will create a new object with **all** of its data linked to

@@ -10,7 +10,7 @@ Fill
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Face --> Fill`
-   :Hotkey:    :kbd:`Alt-F`
+   :Shortcut:  :kbd:`Alt-F`
 
 The *Fill* option will create *triangular* faces from any group of selected edges
 or vertices, as long as they form one or more complete perimeters.

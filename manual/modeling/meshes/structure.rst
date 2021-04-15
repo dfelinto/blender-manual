@@ -169,7 +169,7 @@ Editing Custom Split Normals
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Normals`
-   :Hotkey:    :kbd:`Alt-N`
+   :Shortcut:  :kbd:`Alt-N`
 
 There are a number of tools for editing custom split normals.
 The custom normal mesh edit tools can affect all normals (the default), or only selected ones.

@@ -20,7 +20,7 @@ Tweak
 .. admonition:: Reference
    :class: refbox
 
-   :Hotkey:    :kbd:`LMB`
+   :Shortcut:  :kbd:`LMB`
 
 Clicking on an item selects it, using modifier keys you can perform other operations.
 Holding the selection and moving the mouse on interactive items such as objects in the 3D Viewport
@@ -37,7 +37,7 @@ Box Select
    :class: refbox
 
    :Menu:      :menuselection:`Select --> Box Select`
-   :Hotkey:    :kbd:`B`
+   :Shortcut:  :kbd:`B`
 
 To activate the tool, press :kbd:`B` or click and drag :kbd:`LMB`.
 With *Select Box* you draw a rectangle while holding down :kbd:`LMB`.
@@ -81,7 +81,7 @@ Circle Select
    :class: refbox
 
    :Menu:      :menuselection:`Select --> Circle Select`
-   :Hotkey:    :kbd:`C`
+   :Shortcut:  :kbd:`C`
 
 *Circle Select* :kbd:`C` allows you to select multiple items within a circular area.
 Move your mouse over any items within the circular area (shown with a dotted circle)
@@ -121,7 +121,7 @@ Lasso Select
 .. admonition:: Reference
    :class: refbox
 
-   :Hotkey:    :kbd:`Ctrl-RMB`
+   :Shortcut:  :kbd:`Ctrl-RMB`
 
 *Lasso Select* is used to create a free-form selection. Simply hold :kbd:`Ctrl-RMB`
 while drawing a dotted line around the items you want to select.

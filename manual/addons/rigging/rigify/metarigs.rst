@@ -43,7 +43,7 @@ Add a new Armature Object
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Add --> Armature --> Single Bone`
-   :Hotkey:    :kbd:`Shift-A`
+   :Shortcut:  :kbd:`Shift-A`
 
 Building your own meta-rig from scratch requires an armature object to work with.
 Just add a single bone from the *Add* menu.

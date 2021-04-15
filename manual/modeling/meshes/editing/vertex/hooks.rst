@@ -10,7 +10,7 @@ Hooks
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Vertex --> Hooks`
-   :Hotkey:    :kbd:`Ctrl-H`
+   :Shortcut:  :kbd:`Ctrl-H`
 
 Adds a :doc:`Hook Modifier </modeling/modifiers/deform/hooks>`
 (using either a new empty, or the current selected object) linked to the selection.

@@ -9,7 +9,7 @@ Move, Rotate, Scale
    :Mode:      Edit Mode
    :Tool:      :menuselection:`Toolbar --> Move, Rotate, Scale`
    :Menu:      :menuselection:`Mesh --> Transform --> Move, Rotate, Scale`
-   :Hotkey:    :kbd:`G`, :kbd:`R`, :kbd:`S`
+   :Shortcut:  :kbd:`G`, :kbd:`R`, :kbd:`S`
 
 Once you have a selection of one or more elements, you can move :kbd:`G`,
 rotate :kbd:`R` or scale :kbd:`S` them, like many other things in Blender,

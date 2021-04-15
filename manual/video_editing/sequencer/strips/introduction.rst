@@ -18,7 +18,7 @@ Adding Strips
    :class: refbox
 
    :Menu:      :menuselection:`Add`
-   :Hotkey:    :kbd:`Shift-A`
+   :Shortcut:  :kbd:`Shift-A`
 
 .. figure:: /images/video-editing_sequencer_strips_introduction_add-menu.png
    :align: right

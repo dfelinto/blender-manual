@@ -11,7 +11,7 @@ Interpolate
 
    :Mode:      Draw and Edit Modes
    :Tool:      :menuselection:`Toolbar --> Interpolate`
-   :Hotkey:    :kbd:`Ctrl-E`
+   :Shortcut:  :kbd:`Ctrl-E`
 
 When you are animating simple shapes you can use the interpolate tool
 to automatically add new breakdown keyframes.
@@ -27,7 +27,7 @@ Interpolate Sequence
 
    :Mode:      Draw and Edit Modes
    :Menu:      :menuselection:`Header --> Interpolate`
-   :Hotkey:    :kbd:`Shift-Ctrl-E`
+   :Shortcut:  :kbd:`Shift-Ctrl-E`
 
 Interpolate strokes between the previous and next keyframe by adding *multiple* keyframes.
 When you are on a frame between two keyframes and click the sequence button

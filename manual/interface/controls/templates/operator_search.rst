@@ -14,7 +14,7 @@ Menu Search
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Edit --> Menu Search`
-   :Hotkey:    :kbd:`F3`
+   :Shortcut:  :kbd:`F3`
 
 The Menu Search pop-up searches Blender's interface for a desired tool and allows you to execute that tool.
 It returns a list of matches and shows which menu the tool was found in.

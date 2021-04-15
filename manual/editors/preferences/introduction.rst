@@ -9,7 +9,7 @@ Introduction
    :class: refbox
 
    :Menu:      :menuselection:`Edit --> Preferences...`
-   :Hotkey:    :kbd:`F4`, :kbd:`P`
+   :Shortcut:  :kbd:`F4`, :kbd:`P`
 
 This chapter explains how to change Blender's default configuration with the *Preferences* editor.
 

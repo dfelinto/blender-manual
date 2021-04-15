@@ -8,7 +8,7 @@ Extrude
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Extrude`
-   :Hotkey:    :kbd:`Alt-E`
+   :Shortcut:  :kbd:`Alt-E`
 
 
 Extrude Faces

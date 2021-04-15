@@ -8,7 +8,7 @@ Perspective/Orthographic
 
    :Mode:      All modes
    :Menu:      :menuselection:`View --> Perspective/Orthographic`
-   :Hotkey:    :kbd:`Numpad5`
+   :Shortcut:  :kbd:`Numpad5`
 
 This operator changes the projection of the viewport camera.
 Each 3D Viewport supports two different types of projection.

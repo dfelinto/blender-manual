@@ -8,7 +8,7 @@ Separate Bones
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Armature --> Separate Bones`
-   :Hotkey:    :kbd:`P`
+   :Shortcut:  :kbd:`P`
 
 You can, as with meshes, separate the selected bones in a new armature object
 :menuselection:`Armature --> Separate`, :kbd:`Ctrl-Alt-P` and of course,

@@ -13,7 +13,7 @@ Box Select
 
    :Mode:      All modes
    :Menu:      :menuselection:`Select --> Box Select`
-   :Hotkey:    :kbd:`B`
+   :Shortcut:  :kbd:`B`
 
 See :ref:`tool-select-box`.
 
@@ -28,7 +28,7 @@ Circle Select
 
    :Mode:      All modes
    :Menu:      :menuselection:`Select --> Circle Select`
-   :Hotkey:    :kbd:`C`
+   :Shortcut:  :kbd:`C`
 
 See :ref:`tool-select-circle`.
 
@@ -43,7 +43,7 @@ See :ref:`tool-select-circle`.
 
    :Mode:      All modes
    :Menu:      :menuselection:`Select --> (De)select All`
-   :Hotkey:    :kbd:`A`
+   :Shortcut:  :kbd:`A`
 
 Selects all items.
 
@@ -56,7 +56,7 @@ Inverse
 
    :Mode:      All modes
    :Menu:      :menuselection:`Select --> Inverse`
-   :Hotkey:    :kbd:`Ctrl-I`
+   :Shortcut:  :kbd:`Ctrl-I`
 
 Selects non-selected items and deselects existing selection.
 
@@ -71,7 +71,7 @@ Select Grouped
 
    :Mode:      All modes
    :Menu:      :menuselection:`Select --> Select Grouped`
-   :Hotkey:    :kbd:`Shift-G`
+   :Shortcut:  :kbd:`Shift-G`
 
 Select all tracks from specified group.
 

@@ -13,7 +13,7 @@ Clipping Region
 
    :Mode:      All modes
    :Menu:      :menuselection:`View --> View Regions --> Clipping Region...`
-   :Hotkey:    :kbd:`Alt-B`
+   :Shortcut:  :kbd:`Alt-B`
 
 Allows you to define a clipping region to limit the 3D Viewport display to a portion of 3D space.
 It can assist in the process of working with complex models and scenes.
@@ -77,7 +77,7 @@ Render Region
    :Mode:      All modes
    :Menu:      :menuselection:`View --> View Regions --> Render Region...`
                :menuselection:`View --> View Regions --> Clear Render Region`
-   :Hotkey:    Mark: :kbd:`Ctrl-B`
+   :Shortcut:  Mark: :kbd:`Ctrl-B`
                Clear: :kbd:`Ctrl-Alt-B`
 
 When using :ref:`rendered shading <view3d-viewport-shading>` mode,

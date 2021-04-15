@@ -9,7 +9,7 @@ Primitives
 
    :Mode:      Object Mode and Edit Mode
    :Menu:      :menuselection:`Add --> Curve`
-   :Hotkey:    :kbd:`Shift-A`
+   :Shortcut:  :kbd:`Shift-A`
 
 .. seealso::
 

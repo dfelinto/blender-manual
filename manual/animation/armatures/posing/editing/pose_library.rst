@@ -30,7 +30,7 @@ Browse Poses
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Pose --> Pose Library --> Browse Poses`
-   :Hotkey:    :kbd:`Alt-L`
+   :Shortcut:  :kbd:`Alt-L`
 
 Interactively browse poses in the 3D Viewport.
 After running the operator, cycle through poses using the :kbd:`Left` and :kbd:`Right` arrow keys.
@@ -52,7 +52,7 @@ Add Pose
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Pose --> Pose Library --> Add Pose`
-   :Hotkey:    :kbd:`Shift-L`
+   :Shortcut:  :kbd:`Shift-L`
 
 If a pose is added, a :ref:`pose marker <marker-pose-add>` is created.
 The :ref:`Whole Character keying set <whole-character-keying-set>` is used to
@@ -80,7 +80,7 @@ Rename Pose
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Pose --> Pose Library --> Rename Pose`
-   :Hotkey:    :kbd:`Shift-Ctrl-L`
+   :Shortcut:  :kbd:`Shift-Ctrl-L`
 
 Changes the name of the specified pose from the active pose library.
 
@@ -100,6 +100,6 @@ Remove Pose
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Pose --> Pose Library --> Remove Pose`
-   :Hotkey:    :kbd:`Shift-Alt-L`
+   :Shortcut:  :kbd:`Shift-Alt-L`
 
 Deletes the specified pose from the active pose library.

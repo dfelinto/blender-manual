@@ -9,7 +9,7 @@ Loop Cut and Slide
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Edge --> Loop Cut and Slide`
-   :Hotkey:    :kbd:`Ctrl-R`
+   :Shortcut:  :kbd:`Ctrl-R`
 
 *Loop Cut and Slide* splits a loop of faces by inserting a new edge loop intersecting the chosen edge.
 

@@ -58,7 +58,7 @@ Axis Locking
    :class: refbox
 
    :Mode:      Object and Edit Modes (move, rotate, scale, extrude)
-   :Hotkey:    :kbd:`X`, :kbd:`Y`, :kbd:`Z` or :kbd:`MMB` after moving the mouse in the desired direction.
+   :Shortcut:  :kbd:`X`, :kbd:`Y`, :kbd:`Z` or :kbd:`MMB` after moving the mouse in the desired direction.
 
 Axis locking limits the transformation to a single axis (or forbids transformations along two axes).
 An object, face, vertex or other selectable item will only be able to move,
@@ -74,7 +74,7 @@ Plane Locking
    :class: refbox
 
    :Mode:      Object and Edit Modes (move, scale)
-   :Hotkey:    :kbd:`Shift-X`, :kbd:`Shift-Y`, :kbd:`Shift-Z` or :kbd:`Shift-MMB`
+   :Shortcut:  :kbd:`Shift-X`, :kbd:`Shift-Y`, :kbd:`Shift-Z` or :kbd:`Shift-MMB`
                after moving the mouse in the desired direction.
 
 .. figure:: /images/scene-layout_object_editing_transform_control_axis-locking_plane-locking.png

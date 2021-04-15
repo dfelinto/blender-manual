@@ -9,7 +9,7 @@ Loop Cut
 
    :Mode:      Edit Mode
    :Tool:      :menuselection:`Toolbar --> Loop Cut`
-   :Hotkey:    :kbd:`Ctrl-R`
+   :Shortcut:  :kbd:`Ctrl-R`
 
 The *Loop Cut* tool is a modal tool version of the :ref:`bpy.ops.mesh.loopcut_slide` operator.
 This tool splits a loop of faces by inserting new edge loops intersecting the chosen edge.

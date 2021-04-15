@@ -9,7 +9,7 @@ Properties
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Armature --> Bone Settings --> ...`
-   :Hotkey:    :kbd:`Shift-W`, :kbd:`Shift-Ctrl-W`, :kbd:`Alt-W`
+   :Shortcut:  :kbd:`Shift-W`, :kbd:`Shift-Ctrl-W`, :kbd:`Alt-W`
 
 Most bones' properties (except the transform ones) are regrouped in each bone's panels,
 in the *Bones* tab in *Edit Mode*. Let us detail them.

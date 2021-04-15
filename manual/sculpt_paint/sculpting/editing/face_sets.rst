@@ -101,7 +101,7 @@ Grow/Shrink Face Sets
    :Mode:      Sculpt Mode
    :Menu:      :menuselection:`Face Sets --> Grow/Shrink Face Sets`
    :Tool:      :doc:`/sculpt_paint/sculpting/tools/edit_face_set`
-   :Hotkey:    :kbd:`Ctrl-W`, :kbd:`Ctrl-Alt-W`
+   :Shortcut:  :kbd:`Ctrl-W`, :kbd:`Ctrl-Alt-W`
 
 Expands or contracts the face set under the cursor by adding or removing surrounding faces.
 
@@ -114,7 +114,7 @@ Expand Face Set by Topology
 
    :Mode:      Sculpt Mode
    :Menu:      :menuselection:`Face Sets --> Expand Face Set by Topology`
-   :Hotkey:    :kbd:`Shift-W`
+   :Shortcut:  :kbd:`Shift-W`
 
 Creates a face set radiating outwards from the active vertex in a uniform manner.
 This operator uses the same internal operator as :ref:`bpy.ops.sculpt.expand`
@@ -133,7 +133,7 @@ Expand Active Face Set
 
    :Mode:      Sculpt Mode
    :Menu:      :menuselection:`Face Sets --> Expand Face Set by Topology`
-   :Hotkey:    :kbd:`Shift-Alt-W`
+   :Shortcut:  :kbd:`Shift-Alt-W`
 
 Expands a face set by radiating outwards from the face set in a uniform manner.
 This operator uses the same internal operator as :ref:`bpy.ops.sculpt.expand`

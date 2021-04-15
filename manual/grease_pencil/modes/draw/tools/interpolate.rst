@@ -9,7 +9,7 @@ Interpolate
 
    :Mode:      Draw Mode
    :Tool:      :menuselection:`Toolbar --> Interpolate`
-   :Hotkey:    :kbd:`Ctrl-E`
+   :Shortcut:  :kbd:`Ctrl-E`
 
 The Interpolate tool interpolates strokes between the previous and next keyframe by adding a *single* keyframe.
 When you are on a frame between two keyframes and click and drag a new breakdown keyframe will be added.

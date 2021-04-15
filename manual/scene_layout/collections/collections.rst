@@ -63,7 +63,7 @@ Collections Menu
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Collection`
-   :Hotkey:    :kbd:`M`, :kbd:`Shift-M`, :kbd:`Ctrl-G`, etc.
+   :Shortcut:  :kbd:`M`, :kbd:`Shift-M`, :kbd:`Ctrl-G`, etc.
 
 Move to Collection :kbd:`M`
    Move selected objects to an existing or new collection.

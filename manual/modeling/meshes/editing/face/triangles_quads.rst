@@ -10,7 +10,7 @@ Triangles to Quads
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Face --> Triangles to Quads`
-   :Hotkey:    :kbd:`Alt-J`
+   :Shortcut:  :kbd:`Alt-J`
 
 This tool converts the selected triangles into quads by taking adjacent triangles and
 removing the shared edge to create a quad, based on a threshold.

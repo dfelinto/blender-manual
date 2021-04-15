@@ -13,7 +13,7 @@ Linked
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Select Linked --> Linked`
-   :Hotkey:    :kbd:`Ctrl-L`
+   :Shortcut:  :kbd:`Ctrl-L`
 
 Select geometry connected to already selected elements.
 This is often useful when a mesh has disconnected, overlapping parts,
@@ -36,7 +36,7 @@ Shortest Path
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Select Linked --> Shortest Path`
-   :Hotkey:    :kbd:`Ctrl-LMB`
+   :Shortcut:  :kbd:`Ctrl-LMB`
 
 .. figure:: /images/modeling_meshes_selecting_linked_shortest-path.png
 

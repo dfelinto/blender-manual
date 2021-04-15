@@ -10,7 +10,7 @@ Knife
 
    :Mode:      Edit Mode
    :Tool:      :menuselection:`Toolbar --> Knife`
-   :Hotkey:    :kbd:`K`
+   :Shortcut:  :kbd:`K`
 
 The Knife tool can be used to interactively subdivide (cut up)
 geometry by drawing lines or closed loops to create holes.

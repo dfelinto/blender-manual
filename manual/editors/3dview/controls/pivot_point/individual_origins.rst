@@ -9,7 +9,7 @@ Individual Origins
 
    :Mode:      Object Mode and Edit Mode
    :Header:    |pivot-icon| :menuselection:`Pivot Point --> Individual Origins`
-   :Hotkey:    :kbd:`Period`
+   :Shortcut:  :kbd:`Period`
 
 
 In Object Mode

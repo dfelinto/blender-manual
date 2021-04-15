@@ -11,7 +11,7 @@ Extrude Individual Faces
    :Mode:      Edit Mode
    :Tool:      :menuselection:`Toolbar --> Extrude Region --> Extrude Individual`
    :Menu:      :menuselection:`Mesh --> Extrude --> Individual Faces`
-   :Hotkey:    :kbd:`Alt-E`
+   :Shortcut:  :kbd:`Alt-E`
 
 This tool allows you to extrude a selection of multiple faces as individuals, instead of as a region.
 The faces are extruded along their own normals, rather than their average.

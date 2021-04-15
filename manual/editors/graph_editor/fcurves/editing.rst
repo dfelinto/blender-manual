@@ -40,7 +40,7 @@ Snap
    :class: refbox
 
    :Menu:      :menuselection:`Key --> Snap`
-   :Hotkey:    :kbd:`Shift-S`
+   :Shortcut:  :kbd:`Shift-S`
 
 Keyframes can be snapped to different properties by using the *Snap Keys* tool.
 
@@ -85,7 +85,7 @@ Mirror
    :class: refbox
 
    :Menu:      :menuselection:`Key --> Mirror`
-   :Hotkey:    :kbd:`Ctrl-M`
+   :Shortcut:  :kbd:`Ctrl-M`
 
 Selected keyframes can be mirrored over different properties using the *Mirror Keys* tool.
 
@@ -110,7 +110,7 @@ Insert Keyframes
    :class: refbox
 
    :Menu:      :menuselection:`Key --> Insert Keyframes`
-   :Hotkey:    :kbd:`Ctrl-RMB`, :kbd:`Shift-Ctrl-RMB`
+   :Shortcut:  :kbd:`Ctrl-RMB`, :kbd:`Shift-Ctrl-RMB`
 
 Inserts a keyframe to the active F-curve at the mouse position.
 The newly added keyframes will be selected, making it easier to quickly tweak the newly added keyframes.
@@ -124,7 +124,7 @@ Add F-Curve Modifier
    :class: refbox
 
    :Menu:      :menuselection:`Key --> Add F-Curve Modifier`
-   :Hotkey:    :kbd:`Shift-Ctrl-M`
+   :Shortcut:  :kbd:`Shift-Ctrl-M`
 
 Opens a pop-up allowing you to add modifiers to the active F-curve.
 Settings for the :doc:`modifier </editors/graph_editor/fcurves/sidebar/modifiers>` can be found in
@@ -178,7 +178,7 @@ Jump to Keyframes
    :class: refbox
 
    :Menu:      :menuselection:`Key --> Jump to keyframes`
-   :Hotkey:    :kbd:`Ctrl-G`
+   :Shortcut:  :kbd:`Ctrl-G`
 
 Places the 2D cursor at the center of the selected keyframes.
 
@@ -192,7 +192,7 @@ Copy/Paste
 .. admonition:: Reference
 
    :Menu:      :menuselection:`Key --> Copy Keyframes`, :menuselection:`Key --> Paste Keyframes`
-   :Hotkey:    :kbd:`Ctrl-C`, :kbd:`Ctrl-V`
+   :Shortcut:  :kbd:`Ctrl-C`, :kbd:`Ctrl-V`
 
 Use :kbd:`Ctrl-C` to copy selected keyframes and :kbd:`Ctrl-V` to paste the previously copied keyframes.
 During the paste action, the :ref:`ui-undo-redo-adjust-last-operation` panel provides some options in
@@ -230,7 +230,7 @@ Duplicate
    :class: refbox
 
    :Menu:      :menuselection:`Key --> Duplicate`
-   :Hotkey:    :kbd:`Shift-D`
+   :Shortcut:  :kbd:`Shift-D`
 
 Duplicates the selected keyframes. You can reposition them by moving the mouse.
 
@@ -244,7 +244,7 @@ Delete Keyframes
    :class: refbox
 
    :Menu:      :menuselection:`Key --> Delete Keyframes`
-   :Hotkey:    :kbd:`X`, :kbd:`Delete`
+   :Shortcut:  :kbd:`X`, :kbd:`Delete`
 
 Pressing :kbd:`X` or :kbd:`Delete` opens a pop-up menu from where you can delete the selected keyframes.
 
@@ -258,7 +258,7 @@ Handle Type
    :class: refbox
 
    :Menu:      :menuselection:`Key --> Handle Type`
-   :Hotkey:    :kbd:`V`
+   :Shortcut:  :kbd:`V`
 
 Sets the :ref:`handle type <editors-graph-fcurves-settings-handles>` of the selected keyframes.
 
@@ -272,7 +272,7 @@ Interpolation Mode
    :class: refbox
 
    :Menu:      :menuselection:`Key --> Interpolation Mode`
-   :Hotkey:    :kbd:`T`
+   :Shortcut:  :kbd:`T`
 
 Sets the :ref:`interpolation mode <editors-graph-fcurves-settings-interpolation>` between the selected keyframes.
 
@@ -286,7 +286,7 @@ Easing Mode
    :class: refbox
 
    :Menu:      :menuselection:`Key --> Easing Mode`
-   :Hotkey:    :kbd:`Ctrl-E`
+   :Shortcut:  :kbd:`Ctrl-E`
 
 Sets the :ref:`easing mode <editors-graph-fcurves-settings-easing>` of the selected keyframes.
 
@@ -326,7 +326,7 @@ Clean Keyframes
    :class: refbox
 
    :Menu:      :menuselection:`Key --> Clean Keyframes`
-   :Hotkey:    :kbd:`X`
+   :Shortcut:  :kbd:`X`
 
 *Clean Keyframes* resets the keyframe tangents on selected keyframes
 to their auto-clamped shape, if they have been modified.
@@ -349,7 +349,7 @@ Clean Channels
    :class: refbox
 
    :Menu:      :menuselection:`Key --> Clean Channels`
-   :Hotkey:    :kbd:`X`
+   :Shortcut:  :kbd:`X`
 
 Acts like the *Clean Keyframes* tool but will also delete the channel itself if it is only left with
 a single keyframe containing the default property value and
@@ -372,7 +372,7 @@ Smooth Keys
    :class: refbox
 
    :Menu:      :menuselection:`Key --> Smooth Keys`
-   :Hotkey:    :kbd:`Alt-O`
+   :Shortcut:  :kbd:`Alt-O`
 
 There is also an option to smooth the selected curves, but beware: its algorithm seems to be
 to divide by two the distance between each keyframe and the average linear value of the curve,
@@ -399,7 +399,7 @@ Sample Keyframes
    :class: refbox
 
    :Menu:      :menuselection:`Key --> Sample Keyframes`
-   :Hotkey:    :kbd:`Shift-Alt-O`
+   :Shortcut:  :kbd:`Shift-Alt-O`
 
 Sampling a set of keyframes replaces interpolated values with a new keyframe for each frame.
 
@@ -423,7 +423,7 @@ Bake Curve
    :class: refbox
 
    :Menu:      :menuselection:`Key --> Bake Curve`
-   :Hotkey:    :kbd:`Alt-C`
+   :Shortcut:  :kbd:`Alt-C`
 
 Baking a curve replaces it with a set of sampled points, and removes the ability to edit the curve.
 

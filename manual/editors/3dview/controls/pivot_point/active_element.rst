@@ -9,7 +9,7 @@ Active Element
 
    :Mode:      Object Mode and Edit Mode
    :Header:    |pivot-icon| :menuselection:`Pivot Point --> Active Element`
-   :Hotkey:    :kbd:`Alt-Period`
+   :Shortcut:  :kbd:`Alt-Period`
 
 The *active element* can be an object, vertex, edge or a face.
 The active element is the last one to be selected and

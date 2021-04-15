@@ -17,7 +17,7 @@ Quad View
 
    :Mode:      All modes
    :Menu:      :menuselection:`View --> Area --> Toggle Quad View`
-   :Hotkey:    :kbd:`Ctrl-Alt-Q`
+   :Shortcut:  :kbd:`Ctrl-Alt-Q`
 
 Toggling Quad View will split the 3D Viewport into four views:
 Three *Orthographic* "side views" and one *Camera*/*User View*.

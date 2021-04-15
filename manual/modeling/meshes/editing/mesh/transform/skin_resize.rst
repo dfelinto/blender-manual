@@ -9,7 +9,7 @@ Skin Resize
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Transform --> Skin Resize`
-   :Hotkey:    :kbd:`Ctrl-A`
+   :Shortcut:  :kbd:`Ctrl-A`
 
 This tool is used to set a skin radius per vertex when using
 a :doc:`Skin Modifier </modeling/modifiers/generate/skin>`.

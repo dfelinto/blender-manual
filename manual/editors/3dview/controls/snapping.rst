@@ -10,7 +10,7 @@ Snapping
 
    :Mode:      Object, Edit, and Pose Mode
    :Header:    :menuselection:`Snap`
-   :Hotkey:    :kbd:`Shift-Tab`
+   :Shortcut:  :kbd:`Shift-Tab`
 
 The ability to snap objects and mesh element to various types of scene elements during
 a transformation is available by toggling the magnet icon in the 3D Viewport's header buttons.
@@ -31,7 +31,7 @@ Snap Element
 
    :Mode:      Object, Edit, and Pose Mode
    :Header:    :menuselection:`Snapping --> Snap to`
-   :Hotkey:    :kbd:`Shift-Ctrl-Tab`
+   :Shortcut:  :kbd:`Shift-Ctrl-Tab`
 
 .. figure:: /images/editors_3dview_controls_snapping_element-menu.png
    :align: right
@@ -82,7 +82,7 @@ Snap Target
 
    :Mode:      Object, Edit, and Pose Mode
    :Header:    :menuselection:`Snapping --> Snap with`
-   :Hotkey:    :kbd:`Shift-Ctrl-Tab`
+   :Shortcut:  :kbd:`Shift-Ctrl-Tab`
 
 Snap target options become active when either *Vertex*, *Edge*,
 *Face*, or *Volume* is selected as the snap element.

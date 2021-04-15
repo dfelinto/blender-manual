@@ -11,7 +11,7 @@ Transform
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Node --> Move, Rotate, Resize`
-   :Hotkey:    :kbd:`G`, :kbd:`R`, :kbd:`S`
+   :Shortcut:  :kbd:`G`, :kbd:`R`, :kbd:`S`
 
 Move a single node by clicking and dragging it around. A node can be clicked almost anywhere to start dragging.
 Multiple nodes can be moved after pressing :kbd:`G`.
@@ -64,7 +64,7 @@ Mute Links
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Node --> Mute Links`
-   :Hotkey:    :kbd:`Ctrl-Alt-RMB`
+   :Shortcut:  :kbd:`Ctrl-Alt-RMB`
 
 Mute links works as a mute/unmute toggle depending on the existing state of the link.
 
@@ -90,7 +90,7 @@ Cut Links
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Node --> Cut Links`
-   :Hotkey:    :kbd:`Ctrl-RMB`
+   :Shortcut:  :kbd:`Ctrl-RMB`
 
 To break a link between sockets click in an empty area, near the link you want to disconnect, and drag:
 You will see a little cutter icon appearing at your mouse pointer.
@@ -108,7 +108,7 @@ Duplicate
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Node --> Duplicate`
-   :Hotkey:    :kbd:`Shift-D`
+   :Shortcut:  :kbd:`Shift-D`
 
 Click :kbd:`LMB` or :kbd:`RMB` on the desired node, press :kbd:`Shift-D` and
 move the mouse away to see the duplicate of the selected node appearing under the mouse pointer.
@@ -129,7 +129,7 @@ Copy/Paste
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Node --> Copy`, :menuselection:`Node --> Paste`
-   :Hotkey:    :kbd:`Ctrl-C`, :kbd:`Ctrl-V`
+   :Shortcut:  :kbd:`Ctrl-C`, :kbd:`Ctrl-V`
 
 Not only the selected nodes but also the connections between them are copied to the clipboard.
 
@@ -156,7 +156,7 @@ Mute
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Node --> Toggle Node Mute`
-   :Hotkey:    :kbd:`M`
+   :Shortcut:  :kbd:`M`
 
 Muting a node removes the contribution of the node to the node tree,
 and makes all links pass through that node without change.

@@ -10,7 +10,7 @@ Extrude Region
 
    :Mode:      Edit Mode
    :Tool:      :menuselection:`Toolbar --> Extrude Region`
-   :Hotkey:    :kbd:`E`
+   :Shortcut:  :kbd:`E`
 
 Extrusion tools duplicate vertices, while keeping the new geometry connected with the original vertices.
 Vertices are turned into edges and edges will form faces.

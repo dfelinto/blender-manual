@@ -8,7 +8,7 @@
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Link/Transfer Data`
-   :Hotkey:    :kbd:`Ctrl-L`
+   :Shortcut:  :kbd:`Ctrl-L`
 
 .. toctree::
    :maxdepth: 2

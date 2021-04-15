@@ -9,7 +9,7 @@ Duplicate
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Duplicate`
-   :Hotkey:    :kbd:`Shift-D`
+   :Shortcut:  :kbd:`Shift-D`
 
 This tool simply duplicates the selected elements,
 without creating any connections with the rest of the mesh (unlike extrude, for example),

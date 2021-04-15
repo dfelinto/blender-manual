@@ -8,7 +8,7 @@ Mirror
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Mirror`
-   :Hotkey:    :kbd:`Ctrl-M`
+   :Shortcut:  :kbd:`Ctrl-M`
 
 The Mirror tool mirrors a selection across a selected axis.
 

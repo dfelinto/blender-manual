@@ -8,7 +8,7 @@ Fill Between Joints
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Armature --> Fill Between Joints`
-   :Hotkey:    :kbd:`F`
+   :Shortcut:  :kbd:`F`
 
 The main use of this tool is to create one bone between two selected joints by pressing
 :kbd:`F`, similar to how in mesh editing you can "create edges/faces".

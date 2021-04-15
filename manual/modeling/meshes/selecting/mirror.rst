@@ -8,7 +8,7 @@ Select Mirror
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Select Mirror`
-   :Hotkey:    :kbd:`Shift-Ctrl-M`
+   :Shortcut:  :kbd:`Shift-Ctrl-M`
 
 Select Mirror flips a selection to the opposite side of the mesh.
 

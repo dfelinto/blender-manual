@@ -8,7 +8,7 @@ Duplicate
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Armature --> Duplicate`
-   :Hotkey:    :kbd:`Shift-D`
+   :Shortcut:  :kbd:`Shift-D`
 
 .. note::
 

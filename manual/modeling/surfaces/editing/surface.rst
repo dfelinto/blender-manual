@@ -40,7 +40,7 @@ Mirror
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Mirror`
-   :Hotkey:    :kbd:`Ctrl-M`
+   :Shortcut:  :kbd:`Ctrl-M`
 
 The *Mirror* tool is also available, behaving exactly as with
 :doc:`mesh vertices </modeling/meshes/editing/mesh/mirror>`.
@@ -54,7 +54,7 @@ Snap
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Snap`
-   :Hotkey:    :kbd:`Shift-S`
+   :Shortcut:  :kbd:`Shift-S`
 
 :doc:`Mesh snapping </editors/3dview/controls/snapping>`
 also works with control points, except for within itself (other components of the active spline).
@@ -92,7 +92,7 @@ Add Duplicate
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Surface --> Add Duplicate`
-   :Hotkey:    :kbd:`Shift-D`
+   :Shortcut:  :kbd:`Shift-D`
 
 Similar as with meshes and curves, this tool duplicates the selection.
 The copy is selected and placed in move mode, so you can move it to another place.
@@ -122,7 +122,7 @@ Split
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Surface --> Split`
-   :Hotkey:    :kbd:`Y`
+   :Shortcut:  :kbd:`Y`
 
 The *Split* operator splits a selected segment of a surface from the rest of the surface.
 This segment can then be moved or altered without affecting the other surface.
@@ -138,7 +138,7 @@ Separate
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Surface --> Separate`
-   :Hotkey:    :kbd:`P`
+   :Shortcut:  :kbd:`P`
 
 Surface objects that are made of multiple distinct parts can be separated into their own
 objects by selecting the desired segments and using *Separate*.
@@ -154,7 +154,7 @@ Toggle Cyclic
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Surface --> Toggle Cyclic`
-   :Hotkey:    :kbd:`Alt-C`
+   :Shortcut:  :kbd:`Alt-C`
 
 As in :ref:`curves <modeling-curves-toggle-cyclic>`,
 surfaces can be closed (cyclic) or open. However, as surfaces are 2D,
@@ -191,7 +191,7 @@ Show/Hide
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Show/Hide`
-   :Hotkey:    :kbd:`Alt-H`, :kbd:`H`, :kbd:`Shift-H`
+   :Shortcut:  :kbd:`Alt-H`, :kbd:`H`, :kbd:`Shift-H`
 
 When in *Edit Mode*, you can hide and reveal elements from the display.
 You can only show or hide control points, as segments are always shown,
@@ -223,7 +223,7 @@ Delete
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Surface --> Delete`
-   :Hotkey:    :kbd:`X`, :kbd:`Delete`
+   :Shortcut:  :kbd:`X`, :kbd:`Delete`
 
 The selection must abide by the following rules:
 

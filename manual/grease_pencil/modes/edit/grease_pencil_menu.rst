@@ -18,7 +18,7 @@ Move, Rotate & Scale
    :Mode:      Edit Mode
    :Tool:      :menuselection:`Toolbar --> Move, Rotate, Scale`
    :Menu:      :menuselection:`Grease Pencil --> Transform --> Move, Rotate, Scale`
-   :Hotkey:    :kbd:`G`, :kbd:`R`, :kbd:`S`
+   :Shortcut:  :kbd:`G`, :kbd:`R`, :kbd:`S`
 
 Like other elements in Blender, points and strokes can be
 moved :kbd:`G`, rotated :kbd:`R` or scaled :kbd:`S` as described in
@@ -57,7 +57,7 @@ Mirror
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Grease Pencil --> Mirror`
-   :Hotkey:    :kbd:`Ctrl-M`
+   :Shortcut:  :kbd:`Ctrl-M`
 
 The *Mirror* tool is also available, behaving exactly the same as with
 :doc:`mesh vertices </modeling/meshes/editing/mesh/mirror>`.
@@ -71,7 +71,7 @@ Snap
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Grease Pencil --> Snap`
-   :Hotkey:    :kbd:`Shift-S`
+   :Shortcut:  :kbd:`Shift-S`
 
 :doc:`Mesh snapping </editors/3dview/controls/snapping>`
 also works with Grease Pencil components.
@@ -85,7 +85,7 @@ Active Layer
 
    :Mode:      Edit Mode, Draw Mode
    :Menu:      :menuselection:`Grease Pencil --> Active Layer`
-   :Hotkey:    :kbd:`Y`
+   :Shortcut:  :kbd:`Y`
 
 Select the active layer.
 
@@ -98,7 +98,7 @@ Animation
 
    :Mode:      Edit Mode, Draw Mode
    :Menu:      :menuselection:`Grease Pencil --> Animation`
-   :Hotkey:    :kbd:`I`
+   :Shortcut:  :kbd:`I`
 
 The stroke animation tools are described
 in the :doc:`Animation </grease_pencil/animation/tools>` section.
@@ -127,7 +127,7 @@ Duplicate
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Grease Pencil --> Duplicate`
-   :Hotkey:    :kbd:`Shift-D`
+   :Shortcut:  :kbd:`Shift-D`
 
 Duplicates the selected elements, without creating any connections
 with the rest of the strokes (unlike *Extrude*, for example),
@@ -144,7 +144,7 @@ Split
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Grease Pencil --> Split`
-   :Hotkey:    :kbd:`V`
+   :Shortcut:  :kbd:`V`
 
 Splits (disconnects) the selected points from the rest of the stroke.
 The separated points are left exactly at the same position as the original points but they belong to a new stroke.
@@ -160,7 +160,7 @@ Copy
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Grease Pencil --> Copy`
-   :Hotkey:    :kbd:`Ctrl-C`
+   :Shortcut:  :kbd:`Ctrl-C`
 
 Copy the selected points/strokes to the clipboard.
 
@@ -175,7 +175,7 @@ Paste & Paste by Layer
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Grease Pencil --> Paste`, :menuselection:`Grease Pencil --> Paste by Layer`
-   :Hotkey:    :kbd:`Ctrl-V`
+   :Shortcut:  :kbd:`Ctrl-V`
 
 Type
    Paste to Active
@@ -196,7 +196,7 @@ Separate
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Grease Pencil --> Separate`
-   :Hotkey:    :kbd:`P`
+   :Shortcut:  :kbd:`P`
 
 Separate the selected elements into a new Grease Pencil object.
 
@@ -384,7 +384,7 @@ Delete
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Grease Pencil --> Delete`
-   :Hotkey:    :kbd:`X`, :kbd:`Delete`, :kbd:`Ctrl-X`
+   :Shortcut:  :kbd:`X`, :kbd:`Delete`, :kbd:`Ctrl-X`
 
 Options for the Erase pop-up menu:
 

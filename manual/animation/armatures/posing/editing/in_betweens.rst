@@ -57,7 +57,7 @@ Push Pose from Breakdown
    :Mode:      Pose Mode
    :Tool:      :menuselection:`Toolbar --> In-Betweens Tools --> Push`
    :Menu:      :menuselection:`Pose --> In-Betweens --> Push Pose from Breakdown`
-   :Hotkey:    :kbd:`Ctrl-E`
+   :Shortcut:  :kbd:`Ctrl-E`
 
 *Push Pose* interpolates the current pose by making it closer to the next keyframed position.
 
@@ -73,7 +73,7 @@ Relax Pose to Breakdown
    :Mode:      Pose Mode
    :Tool:      :menuselection:`Toolbar --> In-Betweens Tools --> Relax`
    :Menu:      :menuselection:`Pose --> In-Betweens --> Relax Pose to Breakdown`
-   :Hotkey:    :kbd:`Alt-E`
+   :Shortcut:  :kbd:`Alt-E`
 
 Relax pose is somewhat related to the above topic, but it is only useful with keyframed bones.
 When you edit such a bone (and hence take it "away" from its "keyed position"),
@@ -92,7 +92,7 @@ Pose Breakdowner
    :Mode:      Pose Mode
    :Tool:      :menuselection:`Toolbar region --> In-Betweens Tools --> Breakdowner`
    :Menu:      :menuselection:`Pose --> In-Betweens --> Pose Breakdowner`
-   :Hotkey:    :kbd:`LMB`-drag
+   :Shortcut:  :kbd:`LMB`-drag
 
 Creates a suitable breakdown pose on the current frame.
 

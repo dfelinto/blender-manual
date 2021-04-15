@@ -10,7 +10,7 @@ Rip
 
    :Mode:      Edit Mode
    :Tool:      :menuselection:`Toolbar --> Rip`
-   :Hotkey:    :kbd:`V`
+   :Shortcut:  :kbd:`V`
 
 The Rip tool separates UV components (vertices, edges, faces) from connected components.
 The components are ripped in the direction of the mouse pointer position.

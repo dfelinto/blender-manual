@@ -13,7 +13,7 @@ Toggle Local View
 
    :Mode:      All modes
    :Menu:      :menuselection:`View --> Local View --> Toggle Local View`
-   :Hotkey:    :kbd:`NumpadSlash`, :kbd:`Slash`
+   :Shortcut:  :kbd:`NumpadSlash`, :kbd:`Slash`
 
 Global view shows all 3D objects in the scene. Local view isolates the selected object or
 objects, so that they are the only ones visible in the viewport. This is useful for working on
@@ -62,7 +62,7 @@ Remove from Local View
 
    :Mode:      All modes
    :Menu:      :menuselection:`View --> Local View --> Remove from Local View`
-   :Hotkey:    :kbd:`M`
+   :Shortcut:  :kbd:`M`
 
 Objects can be removed from Local View by selecting them and using the *Remove from Local View* operator.
 This will move the selected object back to global view and all other objects will remain in local view.

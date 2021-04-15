@@ -11,7 +11,7 @@ Inset Faces
    :Mode:      Edit Mode
    :Tool:      :menuselection:`Toolbar --> Inset Faces`
    :Menu:      :menuselection:`Face --> Inset Faces`
-   :Hotkey:    :kbd:`I`
+   :Shortcut:  :kbd:`I`
 
 This tool takes the currently selected faces and creates an inset of them,
 with adjustable thickness and depth. Think of it as like creating an edge loop,

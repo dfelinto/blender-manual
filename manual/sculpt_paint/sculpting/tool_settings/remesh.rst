@@ -9,7 +9,7 @@ Remesh
    :Mode:      All Paint Modes
    :Header:    :menuselection:`Tool Settings --> Remesh`
    :Panel:     :menuselection:`Sidebar --> Tool --> Remesh`
-   :Hotkey:    :kbd:`Ctrl-R` (Voxel), :kbd:`Ctrl-Alt-R` (Quadriflow)
+   :Shortcut:  :kbd:`Ctrl-R` (Voxel), :kbd:`Ctrl-Alt-R` (Quadriflow)
 
 Remeshing is a technique that automatically rebuilds the geometry with a more uniform topology.
 Remeshing can either add or remove the amount of topology depending on a defined resolution.

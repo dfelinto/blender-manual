@@ -10,7 +10,7 @@ Separate
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Separate`
-   :Hotkey:    :kbd:`P`
+   :Shortcut:  :kbd:`P`
 
 At some point, you will come to a time when you need to cut parts away from a mesh to be separate.
 

@@ -8,7 +8,7 @@ Extrude
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Armature --> Extrude`
-   :Hotkey:    :kbd:`E`, :kbd:`Shift-E`
+   :Shortcut:  :kbd:`E`, :kbd:`Shift-E`
 
 When you press :kbd:`E`, for each selected tip
 (either explicitly or implicitly), a new bone is created.
@@ -75,7 +75,7 @@ Mouse Clicks
    :class: refbox
 
    :Mode:      Edit Mode
-   :Hotkey:    :kbd:`Ctrl-RMB`
+   :Shortcut:  :kbd:`Ctrl-RMB`
 
 If at least one bone is selected, :kbd:`Ctrl-RMB`-clicking adds a new bone.
 

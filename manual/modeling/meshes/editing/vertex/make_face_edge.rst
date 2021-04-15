@@ -9,7 +9,7 @@ New Edge/Face from Vertices
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Vertex --> New Edge/Face from Vertices`
-   :Hotkey:    :kbd:`F`
+   :Shortcut:  :kbd:`F`
 
 This is a context-sensitive tool which creates geometry by filling in the selection.
 When only two vertices are selected it will create an edge, otherwise it will create faces.

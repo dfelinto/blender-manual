@@ -9,7 +9,7 @@ Blade
 
    :Mode:      Sequencer Mode
    :Tool:      :menuselection:`Toolbar --> Blade`
-   :Hotkey:    :kbd:`Shift-K`
+   :Shortcut:  :kbd:`Shift-K`
 
 Soft
    This cuts the strip in two at the location of the click.

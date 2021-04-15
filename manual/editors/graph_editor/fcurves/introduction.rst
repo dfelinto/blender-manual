@@ -81,7 +81,7 @@ Interpolation Mode
    :class: refbox
 
    :Menu:      :menuselection:`Key --> Interpolation Mode`
-   :Hotkey:    :kbd:`T`
+   :Shortcut:  :kbd:`T`
 
 Mode for the :term:`Interpolation` between the current and next keyframe.
 
@@ -186,7 +186,7 @@ Easing Type
    :class: refbox
 
    :Menu:      :menuselection:`Key --> Easing Type`
-   :Hotkey:    :kbd:`Ctrl-E`
+   :Shortcut:  :kbd:`Ctrl-E`
 
 The Easing Type controls which end of the segment between the two keyframes that the easing effects apply to.
 
@@ -210,7 +210,7 @@ Extrapolation Mode
    :class: refbox
 
    :Menu:      :menuselection:`Channel --> Extrapolation Mode`
-   :Hotkey:    :kbd:`Shift-E`
+   :Shortcut:  :kbd:`Shift-E`
 
 Extrapolation defines the behavior of a curve before the first and after the last keyframes.
 
@@ -246,7 +246,7 @@ Handle Type
    :class: refbox
 
    :Menu:      :menuselection:`Key --> Handle Type`
-   :Hotkey:    :kbd:`V`
+   :Shortcut:  :kbd:`V`
 
 When using Bézier-interpolated curves it is possible to control the slope of the curve at the control points.
 This is done via the curve point *handles*; you can set the type of handle to use

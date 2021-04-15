@@ -15,7 +15,7 @@ Deleting Elements
 .. admonition:: Reference
    :class: refbox
 
-   :Hotkey:    :kbd:`X`, :kbd:`Delete`
+   :Shortcut:  :kbd:`X`, :kbd:`Delete`
 
 You can only delete the active element, no fancy options here.
 

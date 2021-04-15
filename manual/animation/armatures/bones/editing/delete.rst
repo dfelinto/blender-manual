@@ -13,7 +13,7 @@ Bones
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Armature --> Delete --> Bones`
-   :Hotkey:    :kbd:`X`
+   :Shortcut:  :kbd:`X`
 
 This tool delete selected bones, selected *joints* are ignored.
 
@@ -41,6 +41,6 @@ Dissolve
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Armature --> Delete --> Dissolve`
-   :Hotkey:    :kbd:`Ctrl-X`
+   :Shortcut:  :kbd:`Ctrl-X`
 
 Todo 2.76.

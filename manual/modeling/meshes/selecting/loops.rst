@@ -13,7 +13,7 @@ Edge Loops
 
    :Mode:      Edit Mode (Vertex or Edge select mode)
    :Menu:      :menuselection:`Select --> Select Loops --> Edge Loops`
-   :Hotkey:    :kbd:`Alt-LMB`, or :kbd:`Shift-Alt-LMB` for modifying existing selection.
+   :Shortcut:  :kbd:`Alt-LMB`, or :kbd:`Shift-Alt-LMB` for modifying existing selection.
 
 Holding :kbd:`Alt` while selecting an edge selects a loop of edges that are connected in
 a line end-to-end, passing through the edge under the mouse pointer.
@@ -60,7 +60,7 @@ Face Loops
    :class: refbox
 
    :Mode:      Edit Mode (Face or Vertex select modes)
-   :Hotkey:    :kbd:`Alt-LMB` or :kbd:`Shift-Alt-LMB` for modifying existing selection.
+   :Shortcut:  :kbd:`Alt-LMB` or :kbd:`Shift-Alt-LMB` for modifying existing selection.
 
 In face select mode, holding :kbd:`Alt` while selecting an *edge* selects a loop of
 faces that are connected in a line end-to-end, along their opposite edges.
@@ -98,7 +98,7 @@ Edge Rings
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Select Loops --> Edge Rings`
-   :Hotkey:    :kbd:`Ctrl-Alt-LMB`
+   :Shortcut:  :kbd:`Ctrl-Alt-LMB`
 
 In *Edge* select mode, holding :kbd:`Ctrl-Alt`
 while selecting an edge (or two vertices) selects a sequence of edges that are not connected,

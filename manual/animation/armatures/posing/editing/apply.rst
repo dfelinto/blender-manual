@@ -9,7 +9,7 @@ Apply
 
    :Mode:      Pose Mode
    :Menu:      :menuselection:`Pose --> Apply`
-   :Hotkey:    :kbd:`Ctrl-A`
+   :Shortcut:  :kbd:`Ctrl-A`
 
 Pose as Rest Pose
    Conversely, you may define the current pose as the new rest pose

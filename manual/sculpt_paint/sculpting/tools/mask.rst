@@ -8,7 +8,7 @@ Mask
 
    :Mode:      Sculpt Mode
    :Tool:      :menuselection:`Toolbar --> Mask`
-   :Hotkey:    :kbd:`M`
+   :Shortcut:  :kbd:`M`
 
 Lets you select mesh parts to be unaffected by other brushes by painting vertex colors.
 The mask values are shown as gray-scale.

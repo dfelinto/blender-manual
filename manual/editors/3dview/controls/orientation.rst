@@ -13,7 +13,7 @@ Transform Orientations
 
    :Mode:      Object and Edit Modes
    :Panel:     :menuselection:`Header --> Transform Orientations`
-   :Hotkey:    :kbd:`Comma`
+   :Shortcut:  :kbd:`Comma`
 
 *Transform Orientations* affect the behavior of
 :doc:`Transformations </scene_layout/object/editing/transform/index>`.

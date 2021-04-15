@@ -9,7 +9,7 @@ Propagate
 
    :Mode:      Pose Mode
    :Menu:      :menuselection:`Pose --> Propagate`
-   :Hotkey:    :kbd:`Alt-P`
+   :Shortcut:  :kbd:`Alt-P`
 
 The Propagate tool copies the pose of the selected bones on the current frame over
 to the keyframes delimited by the *Termination Mode*.

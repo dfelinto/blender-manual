@@ -8,7 +8,7 @@ Flatten
 
    :Mode:      Sculpt Mode
    :Tool:      :menuselection:`Toolbar --> Flatten`
-   :Hotkey:    :kbd:`Shift-T`
+   :Shortcut:  :kbd:`Shift-T`
 
 The *Flatten* brush determines an "area plane"
 located by default at the average height above/below the vertices within the brush area.

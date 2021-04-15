@@ -89,7 +89,7 @@ Editing Vertex Groups
    :Mode:      Edit Mode
    :Panel:     :menuselection:`Object Data tab --> Vertex Groups`
    :Menu:      :menuselection:`Vertex --> Vertex Groups`
-   :Hotkey:    :kbd:`Ctrl-G`
+   :Shortcut:  :kbd:`Ctrl-G`
 
 .. figure:: /images/modeling_meshes_properties_vertex-groups_vertex-groups_panel-edit.png
    :align: right

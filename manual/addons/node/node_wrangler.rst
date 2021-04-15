@@ -32,7 +32,7 @@ Lazy Connect
 .. admonition:: Reference
    :class: refbox
 
-   :Hotkey:    :kbd:`Ctrl-RMB`-drag, :kbd:`Shift-Ctrl-RMB`
+   :Shortcut:  :kbd:`Ctrl-RMB`-drag, :kbd:`Shift-Ctrl-RMB`
 
 Make links between the nodes without having to precisely select the sockets.
 Just drag from one node to another while holding :kbd:`Ctrl-RMB`.
@@ -49,7 +49,7 @@ Lazy Mix
 .. admonition:: Reference
    :class: refbox
 
-   :Hotkey:    :kbd:`Alt-RMB`-drag
+   :Shortcut:  :kbd:`Alt-RMB`-drag
 
 Merge outputs of two nodes using a Mix node or Mix Shader node by dragging from one node to another
 while holding down :kbd:`Alt-RMB`. A Mix node or Mix Shader node will be added and
@@ -69,7 +69,7 @@ Merge with Automatic Type Detection
 .. admonition:: Reference
    :class: refbox
 
-   :Hotkey:    :kbd:`Ctrl-0`, :kbd:`Shift-Ctrl-=`, :kbd:`Ctrl-Minus`, :kbd:`Shift-Ctrl-8`, :kbd:`Ctrl-Slash`,
+   :Shortcut:  :kbd:`Ctrl-0`, :kbd:`Shift-Ctrl-=`, :kbd:`Ctrl-Minus`, :kbd:`Shift-Ctrl-8`, :kbd:`Ctrl-Slash`,
                :kbd:`Shift-Ctrl-Comma`, :kbd:`Shift-Ctrl-Period`
 
 Selected nodes' outputs will be merged using Mix, Math, Mix Shader or Add Shader nodes,
@@ -97,7 +97,7 @@ Merge Using Mix Node
 .. admonition:: Reference
    :class: refbox
 
-   :Hotkey:    :kbd:`Shift-Ctrl-Alt-=`, :kbd:`Ctrl-Alt-Minus`, :kbd:`Shift-Ctrl-Alt-8`, :kbd:`Ctrl-Alt-Slash`
+   :Shortcut:  :kbd:`Shift-Ctrl-Alt-=`, :kbd:`Ctrl-Alt-Minus`, :kbd:`Shift-Ctrl-Alt-8`, :kbd:`Ctrl-Alt-Slash`
 
 Using :kbd:`Ctrl-Alt` with proper keys will force to use Mix node for merging
 no matter what types of nodes are selected.
@@ -109,7 +109,7 @@ Merge Using Z-Combine Node
 .. admonition:: Reference
    :class: refbox
 
-   :Hotkey:    :kbd:`Ctrl-NumpadPeriod`
+   :Shortcut:  :kbd:`Ctrl-NumpadPeriod`
 
 Z-Combine nodes will be used for merging. If possible -- image and Z-Depth outputs will be linked.
 
@@ -120,7 +120,7 @@ Merge Using Alpha Over Node
 .. admonition:: Reference
    :class: refbox
 
-   :Hotkey:    :kbd:`Ctrl-Alt-0`
+   :Shortcut:  :kbd:`Ctrl-Alt-0`
 
 Alpha Over nodes will be used for merging.
 
@@ -131,7 +131,7 @@ Merge Using Math Node
 .. admonition:: Reference
    :class: refbox
 
-   :Hotkey:    :kbd:`Shift-Ctrl-=`, :kbd:`Shift-Ctrl-Minus`, :kbd:`Shift-Ctrl-8`,
+   :Shortcut:  :kbd:`Shift-Ctrl-=`, :kbd:`Shift-Ctrl-Minus`, :kbd:`Shift-Ctrl-8`,
                :kbd:`Shift-Ctrl-Slash`, :kbd:`Shift-Ctrl-Comma`, :kbd:`Shift-Ctrl-Period`
 
 Using :kbd:`Shift-Ctrl` with proper keys will force to use Math node for merging
@@ -144,7 +144,7 @@ Batch Change Blend Mode / Math Operation
 .. admonition:: Reference
    :class: refbox
 
-   :Hotkey:    :kbd:`Alt-Up`, :kbd:`Alt-Down`, :kbd:`Alt-0`, :kbd:`Shift-Alt-=`, :kbd:`Alt-Minus`,
+   :Shortcut:  :kbd:`Alt-Up`, :kbd:`Alt-Down`, :kbd:`Alt-0`, :kbd:`Shift-Alt-=`, :kbd:`Alt-Minus`,
                :kbd:`Shift-Alt-8`, :kbd:`Alt-Slash`, :kbd:`Shift-Alt-Comma`, :kbd:`Shift-Alt-Period`
 
 Select Mix nodes or Math nodes and change their blend mode or math operation at the same time.
@@ -159,7 +159,7 @@ Change Mix Factor
 .. admonition:: Reference
    :class: refbox
 
-   :Hotkey:    :kbd:`Alt-Left`, :kbd:`Shift-Alt-Left`, :kbd:`Alt-Right`, :kbd:`Shift-Alt-Right`
+   :Shortcut:  :kbd:`Alt-Left`, :kbd:`Shift-Alt-Left`, :kbd:`Alt-Right`, :kbd:`Shift-Alt-Right`
 
 Change Factor of selected Mix nodes or Mix Shader nodes.
 
@@ -177,7 +177,7 @@ Delete Unused Nodes
 .. admonition:: Reference
    :class: refbox
 
-   :Hotkey:    :kbd:`Alt-X`
+   :Shortcut:  :kbd:`Alt-X`
 
 Clean your node tree. Delete all of the nodes that don't contribute to the final result.
 
@@ -188,7 +188,7 @@ Swap Links
 .. admonition:: Reference
    :class: refbox
 
-   :Hotkey:    :kbd:`Alt-S`
+   :Shortcut:  :kbd:`Alt-S`
 
 Select two nodes that have something linked to their outputs. :kbd:`Alt-S` will swap the outputs.
 What originally was linked to output of the first node will now be linked to
@@ -207,7 +207,7 @@ Reset Backdrop
 .. admonition:: Reference
    :class: refbox
 
-   :Hotkey:    :kbd:`Z`
+   :Shortcut:  :kbd:`Z`
 
 Reset position and scale of the backdrop.
 
@@ -240,7 +240,7 @@ Shader Viewer
 .. admonition:: Reference
    :class: refbox
 
-   :Hotkey:    :kbd:`Shift-Ctrl-LMB`
+   :Shortcut:  :kbd:`Shift-Ctrl-LMB`
 
 Viewer Node for shaders. :kbd:`Shift-Ctrl-LMB` and the output of the node will be linked to
 newly created Emission shader and Material Output. This is an easy way of previewing textures.
@@ -252,7 +252,7 @@ Frame Selected
 .. admonition:: Reference
    :class: refbox
 
-   :Hotkey:    :kbd:`Shift-P`
+   :Shortcut:  :kbd:`Shift-P`
 
 Select nodes and "wrap" them in Frame node by hitting :kbd:`Shift-P`.
 Immediately after that hit :kbd:`F6` to set the color and label of the Frame.
@@ -264,7 +264,7 @@ Reload Images
 .. admonition:: Reference
    :class: refbox
 
-   :Hotkey:    :kbd:`Alt-R`
+   :Shortcut:  :kbd:`Alt-R`
 
 All of the images used in the node tree (Image inputs, textures) can be reloaded by hitting :kbd:`Alt-R`.
 
@@ -275,7 +275,7 @@ Switch Node Type
 .. admonition:: Reference
    :class: refbox
 
-   :Hotkey:    :kbd:`Shift-S`
+   :Shortcut:  :kbd:`Shift-S`
 
 Change the type of selected node(s) to any other type. Hit :kbd:`Shift-S` and
 you'll get the menu ordered exactly the same as :menuselection:`Add --> Node` menu. Choose the new type.
@@ -287,7 +287,7 @@ Copy Settings
 .. admonition:: Reference
    :class: refbox
 
-   :Hotkey:    :kbd:`Shift-C`
+   :Shortcut:  :kbd:`Shift-C`
 
 Copy settings of active node to all selected nodes of the same type.
 
@@ -298,7 +298,7 @@ Copy Label
 .. admonition:: Reference
    :class: refbox
 
-   :Hotkey:    :kbd:`Shift-C`
+   :Shortcut:  :kbd:`Shift-C`
 
 Copy labels all selected nodes based on various criteria.
 Labels can be copied from labels (names) of active node :kbd:`Shift-V`,
@@ -313,7 +313,7 @@ Clear Label
 .. admonition:: Reference
    :class: refbox
 
-   :Hotkey:    :kbd:`Alt-L`
+   :Shortcut:  :kbd:`Alt-L`
 
 Clear labels of selected nodes.
 
@@ -324,7 +324,7 @@ Modify Label
 .. admonition:: Reference
    :class: refbox
 
-   :Hotkey:    :kbd:`Shift-Alt-L`
+   :Shortcut:  :kbd:`Shift-Alt-L`
 
 Batch change labels of selected nodes.
 Add text to beginning, to end, replace parts of text.
@@ -336,7 +336,7 @@ Add Texture Setup
 .. admonition:: Reference
    :class: refbox
 
-   :Hotkey:    :kbd:`Ctrl-T`
+   :Shortcut:  :kbd:`Ctrl-T`
 
 Select any shader node, :kbd:`Ctrl-T` and an image texture with nodes controlling coordinates will be added.
 If you select any texture node, only the Texture Coordinate and Mapping nodes will be added.
@@ -349,7 +349,7 @@ Add Reroutes to Outputs
 .. admonition:: Reference
    :class: refbox
 
-   :Hotkey:    :kbd:`Slash`
+   :Shortcut:  :kbd:`Slash`
 
 Reroute nodes will be added and linked to each output of each selected node.
 
@@ -360,7 +360,7 @@ Link Active to Selected
 .. admonition:: Reference
    :class: refbox
 
-   :Hotkey:    :kbd:`Backslash`, :kbd:`K`, :kbd:`Shift-K`, :kbd:`'`, :kbd:`Shift-'`, :kbd:`;`, :kbd:`Shift-;`
+   :Shortcut:  :kbd:`Backslash`, :kbd:`K`, :kbd:`Shift-K`, :kbd:`'`, :kbd:`Shift-'`, :kbd:`;`, :kbd:`Shift-;`
 
 Link active node to selected nodes basing on various criteria.
 
@@ -378,7 +378,7 @@ Align Nodes
 .. admonition:: Reference
    :class: refbox
 
-   :Hotkey:    :kbd:`Shift-=`
+   :Shortcut:  :kbd:`Shift-=`
 
 Align nodes horizontally or vertically. Same as :kbd:`S X 0` or :kbd:`S Y 0`,
 but with even spacing between the nodes.
@@ -397,7 +397,7 @@ Detach Outputs
 .. admonition:: Reference
    :class: refbox
 
-   :Hotkey:    :kbd:`Shift-Alt-D`
+   :Shortcut:  :kbd:`Shift-Alt-D`
 
 Detach output of selected node leaving linked inputs.
 
@@ -408,7 +408,7 @@ Link to Output Node
 .. admonition:: Reference
    :class: refbox
 
-   :Hotkey:    :kbd:`O`
+   :Shortcut:  :kbd:`O`
 
 In compositing -- link to Composite output.
 In materials -- link to Material Output node.

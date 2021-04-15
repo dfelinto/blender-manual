@@ -119,7 +119,7 @@ Join
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Stroke --> Join --> Join, Join and Copy`
-   :Hotkey:    :kbd:`Ctrl-J`, :kbd:`Shift-Ctrl-J`
+   :Shortcut:  :kbd:`Ctrl-J`, :kbd:`Shift-Ctrl-J`
 
 Join two or more strokes into a single one.
 
@@ -144,7 +144,7 @@ Move to Layer
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Stroke --> Move to Layer`
-   :Hotkey:    :kbd:`M`
+   :Shortcut:  :kbd:`M`
 
 A pop-up menu to move the stroke to a different layer.
 You can choose the layer to move the selected strokes to
@@ -216,7 +216,7 @@ Close
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Stroke --> Close`
-   :Hotkey:    :kbd:`F`
+   :Shortcut:  :kbd:`F`
 
 Close or open strokes by connecting the last and first point.
 

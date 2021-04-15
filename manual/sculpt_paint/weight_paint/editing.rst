@@ -427,7 +427,7 @@ Locks
 
    :Mode:      Edit Mode and Weight Paint Mode
    :Menu:      :menuselection:`Weights --> Locks`
-   :Hotkey:    :kbd:`K`
+   :Shortcut:  :kbd:`K`
 
 Vertex groups can be locked to prevent undesired edits to a particular vertex group.
 

@@ -19,7 +19,7 @@ Select Mirror
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Select Mirror`
-   :Hotkey:    :kbd:`Shift-Ctrl-M`
+   :Shortcut:  :kbd:`Shift-Ctrl-M`
 
 Flip the selection from one side to another.
 
@@ -48,7 +48,7 @@ Linked
 
    :Mode:      Pose Mode
    :Menu:      :menuselection:`Select --> Linked`
-   :Hotkey:    :kbd:`L`
+   :Shortcut:  :kbd:`L`
 
 Selects all the bones in the chain which the active (last selected) bone belongs to.
 
@@ -95,7 +95,7 @@ Grouped
 
    :Mode:      Pose Mode
    :Menu:      :menuselection:`Select --> Grouped`
-   :Hotkey:    :kbd:`Shift-G`
+   :Shortcut:  :kbd:`Shift-G`
 
 You can select bones based on their group and/or layer, through the *Select Grouped* pop-up menu :kbd:`Shift-G`:
 

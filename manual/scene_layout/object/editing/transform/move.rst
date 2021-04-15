@@ -9,7 +9,7 @@ Move
 
    :Mode:      Object Mode, Edit Mode, and Pose Mode
    :Menu:      :menuselection:`Object/Mesh/Curve/Surface --> Transform --> Move`
-   :Hotkey:    :kbd:`G`
+   :Shortcut:  :kbd:`G`
 
 In Object Mode, the move option lets you move objects.
 Translation means changing location of objects. It also lets you move any elements

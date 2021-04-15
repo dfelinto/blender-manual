@@ -8,9 +8,9 @@ Select More/Less
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Select More/Less --> More`
-   :Hotkey:    :kbd:`Ctrl-NumpadPlus`
+   :Shortcut:  :kbd:`Ctrl-NumpadPlus`
    :Menu:      :menuselection:`Select --> Select More/Less --> Less`
-   :Hotkey:    :kbd:`Ctrl-NumpadMinus`
+   :Shortcut:  :kbd:`Ctrl-NumpadMinus`
 
 With at least one vertex, edge, or face selected, *Select More/Less* expands or shrinks the selection.
 However, if there is only one selection in any selection mode, *Less* will deselect it.
@@ -35,9 +35,9 @@ Select Next/Previous Active
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Select More/Less --> Next Active`
-   :Hotkey:    :kbd:`Shift-Ctrl-NumpadPlus`
+   :Shortcut:  :kbd:`Shift-Ctrl-NumpadPlus`
    :Menu:      :menuselection:`Select --> Select More/Less --> Previous Active`
-   :Hotkey:    :kbd:`Shift-Ctrl-NumpadMinus`
+   :Shortcut:  :kbd:`Shift-Ctrl-NumpadMinus`
 
 Next Active
    This uses selection history to select the next vertex, edge, or face based on the surrounding topology.

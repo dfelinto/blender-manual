@@ -123,7 +123,7 @@ Select Linked
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Select Linked`
-   :Hotkey:    :kbd:`L`, :kbd:`Ctrl-L`, :kbd:`Shift-L`
+   :Shortcut:  :kbd:`L`, :kbd:`Ctrl-L`, :kbd:`Shift-L`
 
 :kbd:`L` (or :kbd:`Ctrl-L` for all) will add to the selection the cursor's nearest control point,
 and all the linked ones, i.e. all points belonging to the same curve. Note that for Bézier,
@@ -138,7 +138,7 @@ Select Similar
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Select Similar`
-   :Hotkey:    :kbd:`Shift-G`
+   :Shortcut:  :kbd:`Shift-G`
 
 Selects control points that have certain similar properties to the active one.
 The :ref:`ui-undo-redo-adjust-last-operation` panel provides several selection options:
@@ -197,7 +197,7 @@ Select More/Less
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> More/Less`
-   :Hotkey:    :kbd:`Ctrl-NumpadPlus`, :kbd:`Ctrl-NumpadMinus`
+   :Shortcut:  :kbd:`Ctrl-NumpadPlus`, :kbd:`Ctrl-NumpadMinus`
 
 Their purpose, based on the currently selected control points, is to reduce or enlarge this selection.
 
@@ -224,7 +224,7 @@ Pick Shortest Path
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Menu Search --> Pick Shortest Path`
-   :Hotkey:    :kbd:`Ctrl-LMB`
+   :Shortcut:  :kbd:`Ctrl-LMB`
 
 Selects the curve segments between two control points: the active and the one under the cursor.
 In the case of a closed curve, the shortest path will be selected.

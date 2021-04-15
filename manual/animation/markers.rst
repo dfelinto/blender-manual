@@ -92,7 +92,7 @@ Add Marker
 
    :Mode:      All modes
    :Menu:      :menuselection:`Marker --> Add Marker`
-   :Hotkey:    :kbd:`M`
+   :Shortcut:  :kbd:`M`
 
 The simplest way to add a marker is to move to the frame where you would like it to appear,
 and press :kbd:`M`.
@@ -118,7 +118,7 @@ Selecting
    :class: refbox
 
    :Mode:      All modes
-   :Hotkey:    :kbd:`LMB`
+   :Shortcut:  :kbd:`LMB`
 
 Click :kbd:`LMB` on the marker's triangle to select it.
 Use :kbd:`Shift-LMB` to select multiple markers.
@@ -143,7 +143,7 @@ Duplicate Marker
 
    :Mode:      All modes
    :Menu:      :menuselection:`Marker --> Duplicate Marker`
-   :Hotkey:    :kbd:`Shift-D`
+   :Shortcut:  :kbd:`Shift-D`
 
 You can duplicate the selected markers by pressing :kbd:`Shift-D`. Once duplicated,
 the new ones are automatically placed in select mode, so you can move them to the desired location.
@@ -175,7 +175,7 @@ Delete Marker
 
    :Mode:      All modes
    :Menu:      :menuselection:`Marker --> Delete Marker`
-   :Hotkey:    :kbd:`X`
+   :Shortcut:  :kbd:`X`
 
 To delete the selected markers simply press :kbd:`X`,
 and confirm the pop-up message with :kbd:`LMB`.
@@ -189,7 +189,7 @@ Rename Marker
 
    :Mode:      All modes
    :Menu:      :menuselection:`Marker --> Rename Marker`
-   :Hotkey:    :kbd:`Ctrl-M`
+   :Shortcut:  :kbd:`Ctrl-M`
 
 Having dozens of markers scattered throughout your scene's time will not help you much unless you
 know what they stand for. You can name a marker by selecting it, pressing :kbd:`Ctrl-M`,
@@ -204,7 +204,7 @@ Move Marker
 
    :Mode:      All modes
    :Menu:      :menuselection:`Marker --> Move Marker`
-   :Hotkey:    :kbd:`G`
+   :Shortcut:  :kbd:`G`
 
 Once you have one or more markers selected, press :kbd:`G`,
 while hovering with the mouse over the marker bar,
@@ -266,7 +266,7 @@ Bind Camera to Markers
 
    :Editor:    Timeline
    :Menu:      :menuselection:`Marker --> Bind Camera to Markers`
-   :Hotkey:    :kbd:`Ctrl-B`
+   :Shortcut:  :kbd:`Ctrl-B`
 
 *Bind Camera to Markers* is a special operator only available in the *Timeline*.
 The operator allows markers to be used to set the active object as the active camera.

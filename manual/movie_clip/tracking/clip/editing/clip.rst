@@ -13,7 +13,7 @@ Open Clip
 
    :Mode:      All modes
    :Menu:      :menuselection:`Clip --> Open Clip`
-   :Hotkey:    :kbd:`Alt-O`
+   :Shortcut:  :kbd:`Alt-O`
 
 Todo.
 
@@ -56,7 +56,7 @@ Prefetch
 
    :Mode:      All modes
    :Menu:      :menuselection:`Clip --> Prefetch`
-   :Hotkey:    :kbd:`P`
+   :Shortcut:  :kbd:`P`
 
 Fills cache with frames. As many frames as fits into cache are load form the drive.
 This allows to fill in the cache as fast as possible when you really need to track something,
@@ -73,7 +73,7 @@ Reload Clip
 
    :Mode:      All modes
    :Menu:      :menuselection:`Clip --> Open Clip`
-   :Hotkey:    :kbd:`Alt-O`
+   :Shortcut:  :kbd:`Alt-O`
 
 Force reload the currently loaded movie clip. Is mainly useful when the clip gets edited outside of Blender.
 

@@ -18,7 +18,7 @@ Selection Modes
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`3D Viewport Header --> Select Mode`
-   :Hotkey:    :kbd:`1`, :kbd:`2`, :kbd:`3`
+   :Shortcut:  :kbd:`1`, :kbd:`2`, :kbd:`3`
                (:kbd:`Shift` `Multiple Selection Modes`_,
                :kbd:`Ctrl` `Expand/Contract Selection`_).
 

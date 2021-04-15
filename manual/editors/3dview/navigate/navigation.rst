@@ -13,7 +13,7 @@ Orbit
 
    :Mode:      All modes
    :Menu:      :menuselection:`View --> Navigation --> Orbit`
-   :Hotkey:    :kbd:`MMB`, :kbd:`Numpad2`, :kbd:`Numpad4`, :kbd:`Numpad6`,
+   :Shortcut:  :kbd:`MMB`, :kbd:`Numpad2`, :kbd:`Numpad4`, :kbd:`Numpad6`,
                :kbd:`Numpad8`, :kbd:`Ctrl-Alt-Wheel`, :kbd:`Shift-Alt-Wheel`
 
 Rotate the view around the point of interest.
@@ -48,7 +48,7 @@ Roll
 
    :Mode:      All modes
    :Menu:      :menuselection:`View --> Navigation --> Roll`
-   :Hotkey:    :kbd:`Shift-Numpad4`, :kbd:`Shift-Numpad6`
+   :Shortcut:  :kbd:`Shift-Numpad4`, :kbd:`Shift-Numpad6`
 
 Rotate the viewport camera around its local Z axis in 15° discrete steps.
 
@@ -63,7 +63,7 @@ Pan
 
    :Mode:      All modes
    :Menu:      :menuselection:`View --> Navigation --> Pan`
-   :Hotkey:    :kbd:`Shift-MMB`, :kbd:`Ctrl-Numpad2`, :kbd:`Ctrl-Numpad4`,
+   :Shortcut:  :kbd:`Shift-MMB`, :kbd:`Ctrl-Numpad2`, :kbd:`Ctrl-Numpad4`,
                :kbd:`Ctrl-Numpad6`, :kbd:`Ctrl-Numpad8`
 
 Moves the view up, down, left and right.
@@ -86,7 +86,7 @@ Zoom In/Out
 
    :Mode:      All modes
    :Menu:      :menuselection:`View --> Navigation --> Zoom In/Out`
-   :Hotkey:    :kbd:`Ctrl-MMB`, :kbd:`Wheel`, :kbd:`NumpadPlus`, :kbd:`NumpadMinus`
+   :Shortcut:  :kbd:`Ctrl-MMB`, :kbd:`Wheel`, :kbd:`NumpadPlus`, :kbd:`NumpadMinus`
 
 Moves the camera forwards and backwards.
 You can zoom in and out by holding down :kbd:`Ctrl` and dragging :kbd:`MMB`.
@@ -111,7 +111,7 @@ Zoom Region
 
    :Mode:      All modes
    :Menu:      :menuselection:`View --> Navigation --> Zoom Region...`
-   :Hotkey:    :kbd:`Shift-B`
+   :Shortcut:  :kbd:`Shift-B`
 
 The *Zoom Region* tool allows you to specify a rectangular region and zoom in
 so that the region fills the 3D Viewport.
@@ -131,7 +131,7 @@ Dolly Zoom
    :class: refbox
 
    :Mode:      All modes
-   :Hotkey:    :kbd:`Shift-Ctrl-MMB`
+   :Shortcut:  :kbd:`Shift-Ctrl-MMB`
 
 In most cases its sufficient to zoom the view to get a closer look at something,
 however, you may notice that at a certain point you cannot zoom any closer.

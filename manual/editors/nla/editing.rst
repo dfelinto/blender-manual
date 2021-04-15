@@ -26,7 +26,7 @@ Duplicate
    :class: refbox
 
    :Menu:      :menuselection:`Edit --> Duplicate`
-   :Hotkey:    :kbd:`Shift-D`
+   :Shortcut:  :kbd:`Shift-D`
 
 Creates a new instance of the selected strips with a copy of the action.
 
@@ -38,7 +38,7 @@ Linked Duplicate
    :class: refbox
 
    :Menu:      :menuselection:`Edit --> Linked Duplicate`
-   :Hotkey:    :kbd:`Alt-D`
+   :Shortcut:  :kbd:`Alt-D`
 
 The contents of one Action strip can be instanced multiple times. To instance another strip,
 select a strip, go to :menuselection:`Edit --> Linked Duplicate`.
@@ -118,7 +118,7 @@ Make Single User
    :class: refbox
 
    :Menu:      :menuselection:`Edit --> Make Single User`
-   :Hotkey:    :kbd:`U`
+   :Shortcut:  :kbd:`U`
 
 This tool ensures that none of the selected strips use an action which is also used by any other strips.
 
@@ -189,7 +189,7 @@ Start Editing Stashed Action
    :class: refbox
 
    :Menu:      :menuselection:`Edit --> Start Editing Stashed Action`
-   :Hotkey:    :kbd:`Shift-Tab`
+   :Shortcut:  :kbd:`Shift-Tab`
 
 It will enter and exit Tweak Mode as usual, but will also make sure that the action can be edited in isolation
 (by flagging the NLA track that the action strip comes from as being "solo").
@@ -203,7 +203,7 @@ Start Tweaking Strips Action
    :class: refbox
 
    :Menu:      :menuselection:`Edit --> Start Tweaking Strips Action`
-   :Hotkey:    :kbd:`Tab`
+   :Shortcut:  :kbd:`Tab`
 
 The contents of Action strips can be edited, but you must be in *Tweak Mode* to do so.
 The keyframes of the action can then be edited in the Dope Sheet.

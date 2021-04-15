@@ -9,7 +9,7 @@ Bend
 
    :Mode:      Object and Edit Modes
    :Menu:      :menuselection:`Object/Mesh/Curve/Surface --> Transform --> Bend`
-   :Hotkey:    :kbd:`Shift-W`
+   :Shortcut:  :kbd:`Shift-W`
 
 .. list-table:: Bend Transform with Clamp on and off.
 

@@ -118,7 +118,7 @@ Shortest Path
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Select Linked --> Shortest Path`
-   :Hotkey:    :kbd:`Ctrl-LMB`
+   :Shortcut:  :kbd:`Ctrl-LMB`
 
 Selects all UV components along the shortest path from
 the active component to the one which was selected.
@@ -155,7 +155,7 @@ Select Edge Loops
    :class: refbox
 
    :Mode:      Edit Mode
-   :Hotkey:    :kbd:`Alt-LMB`, or :kbd:`Shift-Alt-LMB` for modifying existing selection.
+   :Shortcut:  :kbd:`Alt-LMB`, or :kbd:`Shift-Alt-LMB` for modifying existing selection.
 
 Holding :kbd:`Alt` while selecting a UV component selects a loop of edges that are connected in
 a line end-to-end, passing through the edge under the mouse pointer.

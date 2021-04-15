@@ -20,7 +20,7 @@ Delete
 .. admonition:: Reference
    :class: refbox
 
-   :Hotkey:    :kbd:`X`, :kbd:`Delete`
+   :Shortcut:  :kbd:`X`, :kbd:`Delete`
 
 Deletes selected vertices, edges, or faces. This operation can also be limited to:
 
@@ -123,7 +123,7 @@ Dissolve (Context-Sensitive)
 .. admonition:: Reference
    :class: refbox
 
-   :Hotkey:    :kbd:`Ctrl-X`
+   :Shortcut:  :kbd:`Ctrl-X`
 
 This is a convenient shortcut that dissolves
 based on the current selection mode (vertex, edge, face).
@@ -172,7 +172,7 @@ Collapse Edges & Faces
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Delete --> Collapse Edges & Faces`
-   :Hotkey:    :kbd:`X`, :menuselection:`Collapse Edges & Faces`
+   :Shortcut:  :kbd:`X`, :menuselection:`Collapse Edges & Faces`
 
 Collapse each isolated edge and face region into single vertices,
 with support for face data such as UVs and vertex colors.
@@ -211,7 +211,7 @@ Edge Loops
 
    :Mode:      Edit Mode (Vertex or Edge select modes)
    :Menu:      :menuselection:`Mesh --> Delete --> Edge Loops`
-   :Hotkey:    :kbd:`X` or :kbd:`Delete`, :menuselection:`Edge Loops`
+   :Shortcut:  :kbd:`X` or :kbd:`Delete`, :menuselection:`Edge Loops`
 
 *Edge Loop* allows you to delete a selected edge loop if it is between two other edge loops.
 This will create one face loop where two previously existed.

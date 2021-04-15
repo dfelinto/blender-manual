@@ -11,7 +11,7 @@ Extrude Curve and Move
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Surface --> Extrude Curve and Move`
-   :Hotkey:    :kbd:`E`
+   :Shortcut:  :kbd:`E`
 
 Unlike meshes or curves, you cannot generally directly add new control points to a surface,
 as you can only extend a surface by adding a whole U or V row at once.
@@ -89,7 +89,7 @@ Make Segment
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Surface --> Make Segment`
-   :Hotkey:    :kbd:`F`
+   :Shortcut:  :kbd:`F`
 
 Just like :ref:`curves <modeling-curves-make-segment>`,
 merging two surfaces requires that a single edge, a border row of control points,
@@ -159,7 +159,7 @@ Hooks
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Surface --> Control Points --> Hooks`
-   :Hotkey:    :kbd:`Ctrl-H`
+   :Shortcut:  :kbd:`Ctrl-H`
 
 :doc:`Hooks </modeling/modifiers/deform/hooks>` can be added to control one or more points with other objects.
 
@@ -172,7 +172,7 @@ Make Vertex Parent
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Surface --> Control Points --> Make Vertex Parent`
-   :Hotkey:    :kbd:`Ctrl-P`
+   :Shortcut:  :kbd:`Ctrl-P`
 
 You can make other selected objects :ref:`children <object-parenting>`
 of one or three control points, as with mesh objects.

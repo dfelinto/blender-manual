@@ -9,7 +9,7 @@ Rotate
 
    :Mode:      Object and Edit Modes
    :Menu:      :menuselection:`Object/Mesh/Curve/Surface --> Transform --> Rotate`
-   :Hotkey:    :kbd:`R`
+   :Shortcut:  :kbd:`R`
 
 Rotation is also known as a spin, twist, orbit, pivot, revolve, or roll and
 involves changing the orientation of elements (vertices, edges, faces, objects, etc.)
@@ -56,6 +56,6 @@ Trackball Rotation
    :class: refbox
 
    :Mode:      Object and Edit Modes
-   :Hotkey:    :kbd:`R R`
+   :Shortcut:  :kbd:`R R`
 
 A free rotation mode. Press :kbd:`R R` to enable Trackball rotation.

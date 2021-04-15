@@ -9,7 +9,7 @@ Object Types
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Add`
-   :Hotkey:    :kbd:`Shift-A`
+   :Shortcut:  :kbd:`Shift-A`
 
 New objects can be created with the *Add* menu in the 3D Viewport's header.
 

@@ -9,7 +9,7 @@ Layers
 
    :Mode:      All Modes
    :Panel:     :menuselection:`Object Data tab --> Layers`
-   :Hotkey:    :kbd:`Y`
+   :Shortcut:  :kbd:`Y`
 
 
 Layers List

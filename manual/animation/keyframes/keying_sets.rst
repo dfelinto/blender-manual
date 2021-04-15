@@ -112,7 +112,7 @@ Adding Properties
    :class: refbox
 
    :Menu:      :menuselection:`Context menu --> Add All/Single to Keying Set`
-   :Hotkey:    :kbd:`K`
+   :Shortcut:  :kbd:`K`
 
 Some ways to add properties to keying sets.
 

@@ -47,7 +47,7 @@ All
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Select --> All`
-   :Hotkey:    :kbd:`A`
+   :Shortcut:  :kbd:`A`
 
 Select all selectable objects.
 
@@ -60,7 +60,7 @@ None
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Select --> None`
-   :Hotkey:    :kbd:`Alt-A`
+   :Shortcut:  :kbd:`Alt-A`
 
 Deselect all objects, but the active object stays the same.
 
@@ -73,7 +73,7 @@ Invert
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Select --> Invert`
-   :Hotkey:    :kbd:`Ctrl-I`
+   :Shortcut:  :kbd:`Ctrl-I`
 
 Toggle the selection state of all visible objects.
 
@@ -86,7 +86,7 @@ Box Select
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Select --> Box Select`
-   :Hotkey:    :kbd:`B`
+   :Shortcut:  :kbd:`B`
 
 Interactive :ref:`box selection <tool-select-box>`.
 
@@ -99,7 +99,7 @@ Circle Select
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Select --> Circle Select`
-   :Hotkey:    :kbd:`C`
+   :Shortcut:  :kbd:`C`
 
 Interactive :ref:`circle selection <tool-select-circle>`.
 
@@ -178,7 +178,7 @@ Select More/Less
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Select --> More/Less`
-   :Hotkey:    :kbd:`Ctrl-NumpadPlus`, :kbd:`Ctrl-NumpadMinus`
+   :Shortcut:  :kbd:`Ctrl-NumpadPlus`, :kbd:`Ctrl-NumpadMinus`
 
 Their purpose, based on the hierarchical.
 
@@ -206,7 +206,7 @@ Select Grouped
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Select --> Select Grouped`
-   :Hotkey:    :kbd:`Shift-G`
+   :Shortcut:  :kbd:`Shift-G`
 
 There are two ways to organize the objects in relation to one another.
 The first one is *parenting*, and the second is simple *grouping*.
@@ -250,7 +250,7 @@ Select Linked
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Select --> Select Linked`
-   :Hotkey:    :kbd:`Shift-L`
+   :Shortcut:  :kbd:`Shift-L`
 
 Selects all objects which share a common data-block with the active object.
 *Select Linked* uses the active object as a basis to select all others.

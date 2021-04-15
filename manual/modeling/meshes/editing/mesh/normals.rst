@@ -47,7 +47,7 @@ Recalculate
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Normals --> Recalculate Outside` and
                :menuselection:`Mesh --> Normals --> Recalculate Inside`
-   :Hotkey:    :kbd:`Ctrl-N` and :kbd:`Shift-Ctrl-N`
+   :Shortcut:  :kbd:`Ctrl-N` and :kbd:`Shift-Ctrl-N`
 
 These tools will recalculate the normals of selected faces so that they point outside
 (respectively inside) the volume that the face belongs to.
@@ -80,7 +80,7 @@ Rotate
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Normals --> Rotate`
-   :Hotkey:    :kbd:`R N`
+   :Shortcut:  :kbd:`R N`
 
 This is an interactive tool. As you move the mouse around, the selected normals are rotated.
 You can also invoke the Rotate Normals tool by pressing the Rotate transform key :kbd:`R`,
@@ -97,7 +97,7 @@ Point to Target
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Normals --> Point to Target`
-   :Hotkey:    :kbd:`Alt-L`
+   :Shortcut:  :kbd:`Alt-L`
 
 All selected normals are set to point from their vertex to the target
 after confirmed by :kbd:`Return` or :kbd:`LMB`.

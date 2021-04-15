@@ -36,7 +36,7 @@ Usage
    :class: refbox
 
    :Menu:      :menuselection:`File --> Open...`
-   :Hotkey:    :kbd:`Ctrl-O`
+   :Shortcut:  :kbd:`Ctrl-O`
 
 The upper text field displays the current directory path,
 and the lower text field contains the selected filename.
@@ -101,13 +101,13 @@ Usage
    :class: refbox
 
    :Menu:      :menuselection:`File --> Save`
-   :Hotkey:    :kbd:`Ctrl-S`
+   :Shortcut:  :kbd:`Ctrl-S`
 
 .. admonition:: Reference
    :class: refbox
 
    :Menu:      :menuselection:`File --> Save As...`
-   :Hotkey:    :kbd:`Shift-Ctrl-S`
+   :Shortcut:  :kbd:`Shift-Ctrl-S`
 
 .. admonition:: Reference
    :class: refbox

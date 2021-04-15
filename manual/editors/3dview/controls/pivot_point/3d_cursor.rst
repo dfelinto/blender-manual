@@ -9,7 +9,7 @@
 
    :Mode:      Object Mode and Edit Mode
    :Header:    |pivot-icon| :menuselection:`Pivot Point --> 3D Cursor`
-   :Hotkey:    :kbd:`Period`
+   :Shortcut:  :kbd:`Period`
 
 The 3D cursor is the most intuitive of the pivot points.
 With the 3D cursor selected as the active pivot point

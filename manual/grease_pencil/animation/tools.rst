@@ -14,7 +14,7 @@ Insert Blank Keyframe
    :Mode:      Draw Mode, Edit Mode, Sculpt Mode
    :Menu:      :menuselection:`Stroke --> Animation --> Insert Blank Keyframe (Active Layer)`
                :menuselection:`Stroke --> Animation --> Insert Blank Keyframe (All Layers)`
-   :Hotkey:    :kbd:`Shift-I`
+   :Shortcut:  :kbd:`Shift-I`
 
 Active Layer
    Add a new blank keyframe to the active layer at the current frame.
@@ -58,7 +58,7 @@ Delete Active Keyframe
    :Mode:      Draw Mode, Edit Mode, Sculpt Mode
    :Menu:      :menuselection:`Stroke --> Animation --> Delete Active Keyframe (Active Layer)`
                :menuselection:`Stroke --> Animation --> Delete Active Keyframes (All Layers)`
-   :Hotkey:    :kbd:`Shift-X`
+   :Shortcut:  :kbd:`Shift-X`
 
 Deletes the last keyframe in the Dope Sheet or the current keyframe if you are on one.
 
@@ -74,7 +74,7 @@ Interpolate Sequence
 
    :Mode:      Draw Mode, Edit Mode
    :Menu:      :menuselection:`Grease Pencil --> Interpolate Sequence`
-   :Hotkey:    :kbd:`Shift-Ctrl-E`
+   :Shortcut:  :kbd:`Shift-Ctrl-E`
 
 Interpolate strokes between the previous and next keyframe by adding *multiple* keyframes.
 A breakdown keyframe will be added on every frame between the previous and next keyframe.

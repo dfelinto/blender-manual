@@ -9,7 +9,7 @@ Scale
 
    :Mode:      Object and Edit Modes
    :Menu:      :menuselection:`Object/Mesh/Curve/Surface --> Transform --> Scale`
-   :Hotkey:    :kbd:`S`
+   :Shortcut:  :kbd:`S`
 
 Scaling means changing proportions of objects. Pressing :kbd:`S` will enter
 the *Scale* transformation mode where the selected element is scaled inward or

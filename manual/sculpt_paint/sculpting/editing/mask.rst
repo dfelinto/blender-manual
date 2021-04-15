@@ -39,7 +39,7 @@ Invert Mask
 
    :Mode:      Sculpt Mode
    :Menu:      :menuselection:`Mask --> Invert Mask`
-   :Hotkey:    :kbd:`Ctrl-I`
+   :Shortcut:  :kbd:`Ctrl-I`
 
 Inverts an existing mask.
 
@@ -66,7 +66,7 @@ Clear Mask
 
    :Mode:      Sculpt Mode
    :Menu:      :menuselection:`Mask --> Invert Mask`
-   :Hotkey:    :kbd:`Alt-M`
+   :Shortcut:  :kbd:`Alt-M`
 
 Fills the mask with a value of 0. To completely remove the mask data, see `Clear Sculpt-Mask Data`_.
 
@@ -81,7 +81,7 @@ Box Mask
 
    :Mode:      Sculpt Mode
    :Menu:      :menuselection:`Mask --> Box Mask`
-   :Hotkey:    :kbd:`B`
+   :Shortcut:  :kbd:`B`
 
 Works like the *Box Select* tool, it creates a rectangular mask region.
 Hold :kbd:`Shift` to clear the mask of the selected region.
@@ -97,7 +97,7 @@ Lasso Mask
 
    :Mode:      Sculpt Mode
    :Menu:      :menuselection:`Mask --> Lasso Mask`
-   :Hotkey:    :kbd:`Shift-Ctrl-LMB`
+   :Shortcut:  :kbd:`Shift-Ctrl-LMB`
 
 Can be used to create a free-form mask, similar to the *Lasso Select* tool.
 
@@ -146,7 +146,7 @@ Expand Mask by Topology
 
    :Mode:      Sculpt Mode
    :Menu:      :menuselection:`Mask --> Expand Mask by Topology`
-   :Hotkey:    :kbd:`Shift-A`
+   :Shortcut:  :kbd:`Shift-A`
 
 Creates a mask radiating outwards from the active vertex in a uniform manner.
 
@@ -220,7 +220,7 @@ Expand Mask by Normals
 
    :Mode:      Sculpt Mode
    :Menu:      :menuselection:`Mask --> Expand Mask by Normals`
-   :Hotkey:    :kbd:`Shift-Alt-A`
+   :Shortcut:  :kbd:`Shift-Alt-A`
 
 Creates a mask radiating outwards from the active vertex while following the curvature of the mesh.
 This operator uses the same internal operator as :ref:`bpy.ops.sculpt.expand`

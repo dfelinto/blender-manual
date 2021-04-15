@@ -46,7 +46,7 @@ Context-Sensitive Manual Access
 
    :Mode:      All modes
    :Menu:      :menuselection:`Context menu --> Online Manual`
-   :Hotkey:    :kbd:`Alt-F1`
+   :Shortcut:  :kbd:`Alt-F1`
 
 You may want to access help for a tool or area from within Blender.
 

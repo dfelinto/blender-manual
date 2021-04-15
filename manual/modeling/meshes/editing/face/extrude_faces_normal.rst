@@ -10,7 +10,7 @@ Extrude Faces Along Normals
    :Mode:      Edit Mode
    :Tool:      :menuselection:`Toolbar --> Extrude Region --> Extrude Along Normals`
    :Menu:      :menuselection:`Mesh --> Extrude --> Extrude Faces Along Normals`
-   :Hotkey:    :kbd:`Alt-E`
+   :Shortcut:  :kbd:`Alt-E`
 
 Extrusion and offset will be locked in to only move along the local normals of the selected mesh.
 

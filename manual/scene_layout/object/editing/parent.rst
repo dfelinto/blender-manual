@@ -26,7 +26,7 @@ Make Parent
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Parent`
-   :Hotkey:    :kbd:`Ctrl-P`
+   :Shortcut:  :kbd:`Ctrl-P`
 
 To parent objects, select at least two objects
 (select the child objects first, and select the parent object last),
@@ -336,7 +336,7 @@ Clear Parent
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Parent`
-   :Hotkey:    :kbd:`Alt-P`
+   :Shortcut:  :kbd:`Alt-P`
 
 You can *remove* a parent-child relationship via :kbd:`Alt-P`.
 

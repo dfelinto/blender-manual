@@ -9,7 +9,7 @@ UV Tools
    :Editor:    3D Viewport
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Header --> UV`
-   :Hotkey:    :kbd:`U`
+   :Shortcut:  :kbd:`U`
 
 Blender offers several ways of mapping UVs.
 The simpler projection methods use formulas that map 3D space onto 2D space,
@@ -28,7 +28,7 @@ Unwrap
    :Editor:    3D Viewport and UV Editor
    :Mode:      Edit Mode
    :Menu:      :menuselection:`UV --> Unwrap`
-   :Hotkey:    :kbd:`U`
+   :Shortcut:  :kbd:`U`
 
 Flattens the mesh surface by cutting along :doc:`seams </modeling/meshes/uv/unwrapping/seams>`.
 Useful for organic shapes.
@@ -92,7 +92,7 @@ Smart UV Project
    :Editor:    3D Viewport
    :Mode:      Edit Mode
    :Menu:      :menuselection:`UV --> Smart UV Project`
-   :Hotkey:    :kbd:`U`
+   :Shortcut:  :kbd:`U`
 
 Smart UV Project, cuts the mesh based on an angle threshold (angular changes in your mesh).
 This gives you fine control over how automatic seams are be created.
@@ -143,7 +143,7 @@ Lightmap Pack
    :Editor:    3D Viewport
    :Mode:      Edit Mode
    :Menu:      :menuselection:`UV --> Lightmap Pack`
-   :Hotkey:    :kbd:`U`
+   :Shortcut:  :kbd:`U`
 
 Lightmap Pack takes each of a mesh's faces, or selected faces,
 and packs them into the UV bounds. Lightmaps are used primarily in realtime rendering,
@@ -193,7 +193,7 @@ Follow Active Quads
    :Editor:    3D Viewport
    :Mode:      Edit Mode
    :Menu:      :menuselection:`UV --> Follow Active Quads`
-   :Hotkey:    :kbd:`U`
+   :Shortcut:  :kbd:`U`
 
 The Follow Active Quads tool takes the selected faces and lays them out
 by following continuous face loops, even if the mesh face is irregularly-shaped.
@@ -230,7 +230,7 @@ Cube Projection
    :Editor:    3D Viewport
    :Mode:      Edit Mode
    :Menu:      :menuselection:`UV --> Cube Projection`
-   :Hotkey:    :kbd:`U`
+   :Shortcut:  :kbd:`U`
 
 Cube Projection maps the mesh onto the faces of a cube, which is then unfolded.
 It projects the mesh onto six separate planes, creating six UV islands.
@@ -272,7 +272,7 @@ Cylinder Projection
    :Editor:    3D Viewport
    :Mode:      Edit Mode
    :Menu:      :menuselection:`UV --> Cylinder Projection`
-   :Hotkey:    :kbd:`U`
+   :Shortcut:  :kbd:`U`
 
 Normally, to unwrap a cylinder (tube) as if you slit it lengthwise and folded it flat,
 Blender wants the view to be vertical, with the tube standing "up".
@@ -314,7 +314,7 @@ Sphere Projection
    :Editor:    3D Viewport
    :Mode:      Edit Mode
    :Menu:      :menuselection:`UV --> Sphere Projection`
-   :Hotkey:    :kbd:`U`
+   :Shortcut:  :kbd:`U`
 
 Spherical mappings is similar to cylinder but the difference is that
 a cylindrical mapping projects the UVs on a plane toward the cylinder shape,
@@ -370,7 +370,7 @@ Project from View
    :Editor:    3D Viewport
    :Mode:      Edit Mode
    :Menu:      :menuselection:`UV --> Project from View`
-   :Hotkey:    :kbd:`U`
+   :Shortcut:  :kbd:`U`
 
 Project from View takes the current view in the 3D Viewport and flattens the mesh as it appears.
 Use this option if you are using a picture of a real object as a UV Texture for an object that
@@ -395,7 +395,7 @@ Project from View (Bounds)
    :Editor:    3D Viewport
    :Mode:      Edit Mode
    :Menu:      :menuselection:`UV --> Project from View (Bounds)`
-   :Hotkey:    :kbd:`U`
+   :Shortcut:  :kbd:`U`
 
 Similar to `Project from View`_,
 but with *Scale to Bounds* and *Correct Aspect* activated.
@@ -412,7 +412,7 @@ Reset
    :Editor:    3D Viewport and UV Editor
    :Mode:      Edit Mode
    :Menu:      :menuselection:`UV --> Reset`
-   :Hotkey:    :kbd:`U`
+   :Shortcut:  :kbd:`U`
 
 Reset UVs maps each face to fill the UV grid, giving each face the same mapping.
 

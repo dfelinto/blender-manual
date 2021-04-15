@@ -18,7 +18,7 @@ Edge Crease
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Edge --> Edge Crease`
                :menuselection:`Sidebar region --> Transform --> Edge Crease`
-   :Hotkey:    :kbd:`Shift-E`
+   :Shortcut:  :kbd:`Shift-E`
 
 This edge property, a value between (0.0 to 1.0), is used by
 the :doc:`Subdivision Surface Modifier </modeling/modifiers/generate/subdivision_surface>`

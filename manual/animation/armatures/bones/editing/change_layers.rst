@@ -33,6 +33,6 @@ Change Bone Layers
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Armature --> Change Bone Layers`
-   :Hotkey:    :kbd:`M`
+   :Shortcut:  :kbd:`M`
 
 Todo.

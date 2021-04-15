@@ -9,7 +9,7 @@ Parenting
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Armature --> Parent`
    :Panel:     :menuselection:`Properties --> Bones --> Relations`
-   :Hotkey:    :kbd:`Ctrl-P`, :kbd:`Alt-P`
+   :Shortcut:  :kbd:`Ctrl-P`, :kbd:`Alt-P`
 
 You can edit the relationships between bones (and hence create/modify the chains of bones)
 both from the 3D Viewport and the Properties. Whatever method you prefer,

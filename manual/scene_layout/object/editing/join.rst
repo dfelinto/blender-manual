@@ -10,7 +10,7 @@ Join
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Join`
-   :Hotkey:    :kbd:`Ctrl-J`
+   :Shortcut:  :kbd:`Ctrl-J`
 
 Join merges all selected objects into the last selected *Active* object.
 All object data is linked to the active object (which must be selected).

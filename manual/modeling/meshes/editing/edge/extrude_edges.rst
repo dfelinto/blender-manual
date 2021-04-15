@@ -9,7 +9,7 @@ Extrude Edges
 
    :Mode:      Edit Mode, Edge Selection mode
    :Menu:      :menuselection:`Edge --> Extrude Edges`
-   :Hotkey:    :kbd:`Alt-E`
+   :Shortcut:  :kbd:`Alt-E`
 
 Extrude edges as individual edges, use :kbd:`Alt-E` to access the *Extrude Edges*.
 

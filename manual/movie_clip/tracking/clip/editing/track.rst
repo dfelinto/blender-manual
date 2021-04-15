@@ -32,7 +32,7 @@ Backwards
 
    :Mode:      Tracking
    :Menu:      :menuselection:`Track --> Track Motion --> Backwards`
-   :Hotkey:    :kbd:`Shift-Ctrl-T`
+   :Shortcut:  :kbd:`Shift-Ctrl-T`
 
 Tracks the motion backward along the sequence.
 
@@ -45,7 +45,7 @@ Frame Backwards
 
    :Mode:      Tracking
    :Menu:      :menuselection:`Track --> Track Motion --> Frame Backwards`
-   :Hotkey:    :kbd:`Alt-Left`
+   :Shortcut:  :kbd:`Alt-Left`
 
 Tracks the motion backward by one frame.
 
@@ -58,7 +58,7 @@ Forwards
 
    :Mode:      Tracking
    :Menu:      :menuselection:`Track --> Track Motion --> Forwards`
-   :Hotkey:    :kbd:`Ctrl-T`
+   :Shortcut:  :kbd:`Ctrl-T`
 
 Tracks the motion forward along the whole sequence.
 
@@ -71,7 +71,7 @@ Frame Forwards
 
    :Mode:      Tracking
    :Menu:      :menuselection:`Track --> Track Motion --> Frame Forwards`
-   :Hotkey:    :kbd:`Alt-Right`
+   :Shortcut:  :kbd:`Alt-Right`
 
 Tracks the motion forward one frame.
 
@@ -89,7 +89,7 @@ Before
 
    :Mode:      Tracking
    :Menu:      :menuselection:`Track --> Clear --> Before`
-   :Hotkey:    :kbd:`Shift-T`
+   :Shortcut:  :kbd:`Shift-T`
 
 Deletes all tracked and keyframed markers after the current frame for all selected tracks.
 
@@ -105,7 +105,7 @@ After
 
    :Mode:      Tracking
    :Menu:      :menuselection:`Track --> Clear --> After`
-   :Hotkey:    :kbd:`Alt-T`
+   :Shortcut:  :kbd:`Alt-T`
 
 Deletes all tracked and keyframed markers before the current frame for all selected tracks.
 
@@ -121,7 +121,7 @@ Track Path
 
    :Mode:      Tracking
    :Menu:      :menuselection:`Track --> Clear --> Track Path`
-   :Hotkey:    :kbd:`Shift-Alt-T`
+   :Shortcut:  :kbd:`Shift-Alt-T`
 
 Clears all markers except the current one from all selected tracks.
 
@@ -324,7 +324,7 @@ Join Tracks
 
    :Mode:      Tracking
    :Menu:      :menuselection:`Track --> Join Tracks`
-   :Hotkey:    :kbd:`Ctrl-J`
+   :Shortcut:  :kbd:`Ctrl-J`
 
 This operator joins all selected tracks into one.
 Selected tracks should not have common tracked or keyframed markers at the same frame.
@@ -416,7 +416,7 @@ Delete Track
 
    :Mode:      Tracking
    :Menu:      :menuselection:`Track --> Delete Track`
-   :Hotkey:    :kbd:`X`
+   :Shortcut:  :kbd:`X`
 
 Delete all selected tracks.
 
@@ -429,6 +429,6 @@ Delete Marker
 
    :Mode:      Tracking
    :Menu:      :menuselection:`Track --> Delete Marker`
-   :Hotkey:    :kbd:`Shift-X`
+   :Shortcut:  :kbd:`Shift-X`
 
 Todo.

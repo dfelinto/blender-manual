@@ -9,7 +9,7 @@ Split
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Split`
-   :Hotkey:    :kbd:`Alt-M`
+   :Shortcut:  :kbd:`Alt-M`
 
 
 Selection
@@ -20,7 +20,7 @@ Selection
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Split --> Selection`
-   :Hotkey:    :kbd:`Y`
+   :Shortcut:  :kbd:`Y`
 
 Splits (disconnects) the selection from the rest of the mesh.
 The border edge to any non-selected elements are duplicated.

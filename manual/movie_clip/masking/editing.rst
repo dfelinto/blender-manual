@@ -61,7 +61,7 @@ Toggle Cyclic
 
    :Mode:      Mask Mode
    :Menu:      :menuselection:`Mask --> Toggle Cyclic`
-   :Hotkey:    :kbd:`Alt-C`
+   :Shortcut:  :kbd:`Alt-C`
 
 Toggle to create a closed curve or open it again.
 Close the mask by joining the last control point to the first.
@@ -75,7 +75,7 @@ Set Handle Type
 
    :Mode:      Mask Mode
    :Menu:      :menuselection:`Mask --> Set Handle Type`
-   :Hotkey:    :kbd:`V`
+   :Shortcut:  :kbd:`V`
 
 Set handle type for selected spline points.
 
@@ -88,7 +88,7 @@ Recalculate Handles
 
    :Mode:      Mask Mode
    :Menu:      :menuselection:`Mask --> Recalculate Handles`
-   :Hotkey:    :kbd:`Ctrl-N`
+   :Shortcut:  :kbd:`Ctrl-N`
 
 Make normals (handle directions) consistent.
 
@@ -165,7 +165,7 @@ Delete
 
    :Mode:      Mask Mode
    :Menu:      :menuselection:`Mask --> Delete`
-   :Hotkey:    :kbd:`X`
+   :Shortcut:  :kbd:`X`
 
 Removes control points.
 

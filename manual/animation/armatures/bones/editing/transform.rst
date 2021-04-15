@@ -42,7 +42,7 @@ Scale Radius
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Armature --> Transform --> Scale Radius`
-   :Hotkey:    :kbd:`Alt-S`
+   :Shortcut:  :kbd:`Alt-S`
 
 You can alter the radius that a bone has by selecting the head, body or tail of a bone,
 and then press :kbd:`Alt-S` and move the mouse left or right.
@@ -85,7 +85,7 @@ Scale Envelope Distance
 
    :Mode:      Edit Mode and Pose Mode
    :Menu:      :menuselection:`Armature --> Transform --> Scale Envelope Distance`
-   :Hotkey:    :kbd:`Ctrl-Alt-S`
+   :Shortcut:  :kbd:`Ctrl-Alt-S`
 
 You can alter the size of the Bone Envelope volume by clicking on the body of the bone you want to alter,
 :kbd:`Ctrl-Alt-S` then drag your mouse left or right and the Bone Envelope volume will alter accordingly.
@@ -130,6 +130,6 @@ Align Bones
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Armature --> Transform --> Align Bones`
-   :Hotkey:    :kbd:`Ctrl-Alt-A`
+   :Shortcut:  :kbd:`Ctrl-Alt-A`
 
 Rotates the selected bones to achieve the same orientation as the active one.

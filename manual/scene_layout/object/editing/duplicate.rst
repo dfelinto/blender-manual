@@ -9,7 +9,7 @@ Duplicate
 
    :Mode:      Edit and Object Modes
    :Menu:      :menuselection:`Object --> Duplicate Objects`
-   :Hotkey:    :kbd:`Shift-D`
+   :Shortcut:  :kbd:`Shift-D`
 
 This will create a visually-identical copy of the selected object(s).
 The copy is created at the same position as the original object and

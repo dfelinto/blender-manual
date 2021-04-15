@@ -52,7 +52,7 @@ A Meta strip can be moved and duplicated like a normal strip.
    :class: refbox
 
    :Menu:      :menuselection:`Add --> Add Meta-Strips`
-   :Hotkey:    :kbd:`Shift-G`
+   :Shortcut:  :kbd:`Shift-G`
 
 .. list-table::
 
@@ -72,4 +72,4 @@ A Meta strip still contains the underlying strips. You can ungroup a Meta strip.
    :class: refbox
 
    :Menu:      :menuselection:`Add --> Remove Meta-Strips`
-   :Hotkey:    :kbd:`Alt-G`
+   :Shortcut:  :kbd:`Alt-G`

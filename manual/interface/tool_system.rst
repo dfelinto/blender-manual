@@ -26,7 +26,7 @@ Toolbar
 .. admonition:: Reference
    :class: refbox
 
-   :Hotkey:    :kbd:`T`
+   :Shortcut:  :kbd:`T`
 
 .. figure:: /images/interface_tool-system_buttons-popup.png
    :align: right
@@ -50,7 +50,7 @@ Pop-Up Toolbar
 .. admonition:: Reference
    :class: refbox
 
-   :Hotkey:    :kbd:`Shift-Spacebar`
+   :Shortcut:  :kbd:`Shift-Spacebar`
 
 You can switch tools with a toolbar that will pop up at the location of your cursor
 after pressing :kbd:`Shift-Spacebar`.
@@ -71,7 +71,7 @@ Quick Favorites
 .. admonition:: Reference
    :class: refbox
 
-   :Hotkey:    :kbd:`Q`
+   :Shortcut:  :kbd:`Q`
 
 The Quick Favorites menu gather your favorite tools.
 Any tool or menu can be added to this pop-up menu via the context menu of buttons and menus.

@@ -13,7 +13,7 @@ Insert Keyframe
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Animation --> Insert Keyframe...`
-   :Hotkey:    :kbd:`I`
+   :Shortcut:  :kbd:`I`
 
 There are several methods of adding new keys. Namely:
 
@@ -45,7 +45,7 @@ Delete Keyframes
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Animation --> Delete Keyframes...`
-   :Hotkey:    :kbd:`Alt-I`
+   :Shortcut:  :kbd:`Alt-I`
 
 There are several methods of removing keyframes:
 

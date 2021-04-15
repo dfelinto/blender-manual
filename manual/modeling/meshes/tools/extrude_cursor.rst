@@ -8,7 +8,7 @@ Extrude to Cursor
    :class: refbox
 
    :Mode:      Edit Mode
-   :Hotkey:    :kbd:`Ctrl-RMB`
+   :Shortcut:  :kbd:`Ctrl-RMB`
 
 Interactively places new vertices with :kbd:`Ctrl-RMB` at the mouse cursor position.
 

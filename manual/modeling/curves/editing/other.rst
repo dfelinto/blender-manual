@@ -31,7 +31,7 @@ Add Vertex
    :class: refbox
 
    :Mode:      Edit Mode
-   :Hotkey:    :kbd:`Ctrl-RMB`
+   :Shortcut:  :kbd:`Ctrl-RMB`
 
 Interactively places new points with :kbd:`Ctrl-RMB` at the cursor position.
 With the selection it deals in same manner as the *Extrude Curve and Move* tool.

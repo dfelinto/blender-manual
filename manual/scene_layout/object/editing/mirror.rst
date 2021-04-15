@@ -9,7 +9,7 @@ Mirror
 
    :Mode:      Object and Edit Modes
    :Menu:      :menuselection:`Object/Mesh --> Mirror`
-   :Hotkey:    :kbd:`Ctrl-M`
+   :Shortcut:  :kbd:`Ctrl-M`
 
 Mirroring an object or mesh selection will create a reversed version of the selection.
 The position of the mirrored version of the selection is determined by

@@ -8,7 +8,7 @@ Snake Hook
 
    :Mode:      Sculpt Mode
    :Tool:      :menuselection:`Toolbar --> Snake Hook`
-   :Hotkey:    :kbd:`K`
+   :Shortcut:  :kbd:`K`
 
 Pulls vertices along with the movement of the brush to create long, snake-like forms.
 

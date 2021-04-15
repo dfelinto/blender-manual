@@ -31,7 +31,7 @@ Viewing the Active Camera
 
    :Mode:      All modes
    :Menu:      :menuselection:`View --> Cameras --> Active Camera`
-   :Hotkey:    :kbd:`Numpad0`
+   :Shortcut:  :kbd:`Numpad0`
 
 This switches the view to the active camera.
 The triangle above the camera will become shaded when active.
@@ -45,7 +45,7 @@ Setting the Active Camera
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`View --> Cameras --> Set Active Object as Camera`
-   :Hotkey:    :kbd:`Ctrl-Numpad0`
+   :Shortcut:  :kbd:`Ctrl-Numpad0`
 
 .. figure:: /images/editors_3dview_navigate_camera-view_cameras.png
 
@@ -83,7 +83,7 @@ Frame Camera Bounds
 
    :Mode:      All Modes
    :Menu:      :menuselection:`View --> Cameras --> Frame Camera Bounds`
-   :Hotkey:    :kbd:`Home`
+   :Shortcut:  :kbd:`Home`
 
 Centers the camera view inside the 3D Viewport's screen area
 and resizes the view to fit within the area's bounds.
@@ -111,7 +111,7 @@ Move Active Camera to View
    :class: refbox
 
    :Mode:      Object Mode
-   :Hotkey:    :kbd:`Ctrl-Alt-Numpad0`
+   :Shortcut:  :kbd:`Ctrl-Alt-Numpad0`
 
 This matches the active camera to a regular (non camera) view,
 for a convenient method of placing the camera without having to move the object directly.

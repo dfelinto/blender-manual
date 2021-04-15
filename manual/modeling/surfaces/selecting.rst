@@ -111,7 +111,7 @@ Select Linked
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Select Linked`
-   :Hotkey:    :kbd:`L`, :kbd:`Ctrl-L`
+   :Shortcut:  :kbd:`L`, :kbd:`Ctrl-L`
 
 *Select Linked* will add to the selection the mouse cursor's nearest control point,
 and all the linked ones, i.e. all points belonging to the same surface.
@@ -125,7 +125,7 @@ Select Similar
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Select Similar`
-   :Hotkey:    :kbd:`Shift-G`
+   :Shortcut:  :kbd:`Shift-G`
 
 Selects control points that have certain similar properties to the active one.
 The :ref:`ui-undo-redo-adjust-last-operation` panel provides several selection options:
@@ -156,7 +156,7 @@ Select Control Point Row
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Control Point Row`
-   :Hotkey:    :kbd:`Shift-R`
+   :Shortcut:  :kbd:`Shift-R`
 
 This option works a bit like
 :ref:`edge loop selection <bpy.ops.mesh.loop_multi_select>` for meshes,
@@ -175,7 +175,7 @@ Select More/Less
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> More/Less`
-   :Hotkey:    :kbd:`Ctrl-NumpadPlus` / :kbd:`Ctrl-NumpadMinus`
+   :Shortcut:  :kbd:`Ctrl-NumpadPlus` / :kbd:`Ctrl-NumpadMinus`
 
 Expand or contract the selection based on current selected control points.
 

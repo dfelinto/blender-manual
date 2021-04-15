@@ -97,7 +97,7 @@ Delete Channels
    :class: refbox
 
    :Menu:      :menuselection:`Channel --> Delete Channels`
-   :Hotkey:    :kbd:`X`
+   :Shortcut:  :kbd:`X`
 
 Deletes the whole channel from the current action
 (i.e. unlink the underlying F-curve data-block from this action data-block).
@@ -119,7 +119,7 @@ Un/Group Channels
    :class: refbox
 
    :Menu:      :menuselection:`Channel --> Un/Group Channels`
-   :Hotkey:    :kbd:`Ctrl-Alt-G`, :kbd:`Ctrl-G`
+   :Shortcut:  :kbd:`Ctrl-Alt-G`, :kbd:`Ctrl-G`
 
 Un/Groups the selected channels into a collection that can be renamed by double clicking on the group name.
 For example, this helps to group channels that relate a part of an armature to keep the editor more organized.
@@ -136,7 +136,7 @@ Toggle/Enable/Disable Channel Settings
    :class: refbox
 
    :Menu:      :menuselection:`Channel --> Toggle/Enable/Disable Channel Settings`
-   :Hotkey:    :kbd:`Shift-W`, :kbd:`Shift-Ctrl-W`, :kbd:`Alt-W`
+   :Shortcut:  :kbd:`Shift-W`, :kbd:`Shift-Ctrl-W`, :kbd:`Alt-W`
 
 Enable/disable a channel's setting (selected in the menu that pops up).
 
@@ -153,7 +153,7 @@ Toggle Channel Editability
    :class: refbox
 
    :Menu:      :menuselection:`Channel --> Toggle Channel Editability`
-   :Hotkey:    :kbd:`Tab`
+   :Shortcut:  :kbd:`Tab`
 
 Locks or unlocks a channel for editing.
 
@@ -167,7 +167,7 @@ Extrapolation Mode
    :class: refbox
 
    :Menu:      :menuselection:`Channel --> Toggle Channel Editability`
-   :Hotkey:    :kbd:`Shift-E`
+   :Shortcut:  :kbd:`Shift-E`
 
 Change the :ref:`extrapolation <editors-graph-fcurves-settings-extrapolation>` between selected keyframes.
 
@@ -196,7 +196,7 @@ Expand/Collapse Channels
    :class: refbox
 
    :Menu:      :menuselection:`Channel --> Toggle Channel Editability`
-   :Hotkey:    :kbd:`NumpadPlus`, :kbd:`NumpadMinus`
+   :Shortcut:  :kbd:`NumpadPlus`, :kbd:`NumpadMinus`
 
 Expands or collapses selected channels.
 

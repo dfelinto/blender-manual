@@ -10,7 +10,7 @@ Selecting
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`3D Viewport Header --> Select Mode`
-   :Hotkey:    :kbd:`1`, :kbd:`2`, :kbd:`3`
+   :Shortcut:  :kbd:`1`, :kbd:`2`, :kbd:`3`
 
 .. figure:: /images/grease-pencil_selecting_mode-buttons.png
    :align: right
@@ -50,7 +50,7 @@ Select Linked
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Linked`
-   :Hotkey:    :kbd:`L`, :kbd:`Ctrl-L`
+   :Shortcut:  :kbd:`L`, :kbd:`Ctrl-L`
 
 :kbd:`L` (or :kbd:`Ctrl-L` for all) will add to the selection the cursor's nearest control point,
 and all the linked ones, i.e. all points belonging to the same stroke.
@@ -64,7 +64,7 @@ Select Alternated
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Alternated`
-   :Hotkey:    :kbd:`Shift-L`
+   :Shortcut:  :kbd:`Shift-L`
 
 Selects alternate points in the selected strokes.
 
@@ -77,7 +77,7 @@ Select Grouped
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Grouped`
-   :Hotkey:    :kbd:`Shift-G`
+   :Shortcut:  :kbd:`Shift-G`
 
 Layer
    Selects all the points/strokes on the same layer.
@@ -123,7 +123,7 @@ Select More/Less
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> More/Less`
-   :Hotkey:    :kbd:`Ctrl-NumpadPlus`, :kbd:`Ctrl-NumpadMinus`
+   :Shortcut:  :kbd:`Ctrl-NumpadPlus`, :kbd:`Ctrl-NumpadMinus`
 
 The purpose of these tools is to reduce or enlarge the current selection within a stroke
 (i.e. they will never "go outside" of a stroke or "jump" to another stroke in the same object).

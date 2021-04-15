@@ -101,7 +101,7 @@ Each operator should have a reference admonition documenting the context of the 
 
       :Mode:      Edit Mode
       :Menu:      :menuselection:`Curve --> Snap`
-      :Hotkey:    :kbd:`Shift-S`
+      :Shortcut:  :kbd:`Shift-S`
 
 
 Panels

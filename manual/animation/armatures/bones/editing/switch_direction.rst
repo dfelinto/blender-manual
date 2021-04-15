@@ -8,7 +8,7 @@ Switch Direction
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Armature --> Switch Direction`
-   :Hotkey:    :kbd:`Alt-F`
+   :Shortcut:  :kbd:`Alt-F`
 
 This tool allows you to switch the direction of the selected bones
 (i.e. their root will become their tip, and vice versa).

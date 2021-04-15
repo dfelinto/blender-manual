@@ -17,7 +17,7 @@ Add Driver
    :class: refbox
 
    :Menu:      :menuselection:`Context menu --> Add Driver`
-   :Hotkey:    :kbd:`Ctrl-D`
+   :Shortcut:  :kbd:`Ctrl-D`
 
 The usual way to add a driver to a property is to :kbd:`RMB` click a property,
 then choose *Add Driver* in the context menu.
@@ -107,7 +107,7 @@ Removing Drivers
 
    :Menu:      :menuselection:`Context menu --> Delete Driver(s)`
    :Menu:      :menuselection:`Context menu --> Delete Single Driver`
-   :Hotkey:    :kbd:`Ctrl-Alt-D`
+   :Shortcut:  :kbd:`Ctrl-Alt-D`
 
 Removes driver(s) associated with the property, either for the single selected property
 or sub-channel, or all components of a vector.

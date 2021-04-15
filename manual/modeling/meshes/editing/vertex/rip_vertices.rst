@@ -10,7 +10,7 @@ Rip Vertices
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Vertex --> Rip Vertices`
-   :Hotkey:    :kbd:`V`
+   :Shortcut:  :kbd:`V`
 
 Rip creates a "hole" in the mesh by making a copy of selected vertices and edges,
 still linked to the neighboring non-selected vertices,

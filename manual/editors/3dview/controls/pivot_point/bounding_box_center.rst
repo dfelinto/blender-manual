@@ -9,7 +9,7 @@ Bounding Box Center
 
    :Mode:      Object Mode and Edit Mode
    :Header:    |pivot-icon| :menuselection:`Pivot Point --> Bounding Box Center`
-   :Hotkey:    :kbd:`Period`
+   :Shortcut:  :kbd:`Period`
 
 The bounding box is a rectangular box that is wrapped as tightly as possible around the selection.
 It is oriented parallel to the world axes. In this mode the pivot point lies at the center of the bounding box.

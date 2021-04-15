@@ -11,7 +11,7 @@ Shear
    :Mode:      Object and Edit Mode
    :Tool:      :menuselection:`Toolbar --> Shear`
    :Menu:      :menuselection:`Object/Mesh/Curve/Surface --> Transform --> Shear`
-   :Hotkey:    :kbd:`Shift-Ctrl-Alt-S`
+   :Shortcut:  :kbd:`Shift-Ctrl-Alt-S`
 
 Shearing is a form of movement where parallel surfaces move past one another. During this transform,
 movement of the selected elements will occur along the horizontal axis of the current view.

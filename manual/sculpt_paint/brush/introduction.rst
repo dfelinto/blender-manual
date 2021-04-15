@@ -66,7 +66,7 @@ Vertex Selection Masking
 
    :Mode:      Vertex and Weight Paint Modes
    :Header:    :menuselection:`Vertex Selection`
-   :Hotkey:    :kbd:`V`
+   :Shortcut:  :kbd:`V`
 
 In this mode you can select one or more vertices and then paint only on the selection.
 All unselected vertices are protected from unintentional changes.

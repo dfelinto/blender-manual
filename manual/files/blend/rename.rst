@@ -12,7 +12,7 @@ Rename Active Item
    :class: refbox
 
    :Menu:      :menuselection:`Edit --> Rename Active Item`
-   :Hotkey:    :kbd:`F2`
+   :Shortcut:  :kbd:`F2`
 
 The *Rename Active Item* operator renames the active
 :doc:`Bone </animation/armatures/bones/index>`,
@@ -34,7 +34,7 @@ Batch Rename
    :class: refbox
 
    :Menu:      :menuselection:`Edit --> Batch Rename`
-   :Hotkey:    :kbd:`Ctrl-F2`
+   :Shortcut:  :kbd:`Ctrl-F2`
 
 The *Batch Rename* operator can rename many data-block names at once.
 This uses a pop-up dialog with operations and their options to change the name.

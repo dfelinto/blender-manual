@@ -9,7 +9,7 @@ Primitives
 
    :Mode:      Object Mode and Edit Mode
    :Menu:      :menuselection:`Add --> Grease Pencil`
-   :Hotkey:    :kbd:`Shift-A`
+   :Shortcut:  :kbd:`Shift-A`
 
 In Object Mode, the *Add Grease Pencil* menu provides three different Grease Pencil primitives:
 

@@ -19,7 +19,7 @@ Recalculate
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Armature --> Bone Roll --> Recalculate`
-   :Hotkey:    :kbd:`Ctrl-N`
+   :Shortcut:  :kbd:`Ctrl-N`
 
 Axis Orientation
    Local Tangent
@@ -52,6 +52,6 @@ Set
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Armature --> Bone Roll --> Set`
-   :Hotkey:    :kbd:`Ctrl-R`
+   :Shortcut:  :kbd:`Ctrl-R`
 
 This is a transform mode where you can edit the roll of all selected bones.
