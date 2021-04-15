@@ -81,6 +81,12 @@ if the group has a large number of sockets.
 Name
    The name of the socket to display in the node's interface.
 
+.. _bpy.types.NodeSocketInterface.description:
+
+Tooltip
+   The message displayed when hovering over socket properties.
+   Currently only supported for :doc:`Geometry Node Editor </editors/geometry_node>`
+
 .. _bpy.types.NodeSocketInterface*.default_value:
 
 Default
