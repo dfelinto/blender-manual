@@ -67,6 +67,10 @@ Mode
 
    By Loose Parts
       Creates a new face set per discontinuous part of the mesh.
+   By Face Set Boundary
+      Creates a face set for each isolated face set.
+      This mode is useful for splitting the patterns created by `Expand Face Set by Topology`_
+      into individual Face Sets for further editing.
    By Materials
       Creates a face set per :ref:`Material Slot <bpy.types.MaterialSlot>`.
    By Normals
