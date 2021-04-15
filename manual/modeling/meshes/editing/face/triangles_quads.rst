@@ -39,8 +39,6 @@ which means some triangles could remain.
 
           After converting tris to quads.
 
-All the menu entries and hotkeys use the settings defined in the *Operator* panel:
-
 Max Angle
    This value, between (0 to 180), controls the threshold for this tool to work on adjacent triangles.
    With a threshold of 0.0,

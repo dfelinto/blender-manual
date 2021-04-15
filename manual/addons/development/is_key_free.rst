@@ -3,7 +3,7 @@
 Is Key Free
 ***********
 
-Primarily used to check the availability of hotkeys and the editor types they are associated with.
+Primarily used to check the availability of shortcuts and the editor types they are associated with.
 
 
 Activation

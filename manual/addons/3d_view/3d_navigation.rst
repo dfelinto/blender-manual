@@ -27,7 +27,7 @@ This add-on is split over two panels.
    :align: right
    :width: 220px
 
-This panel provides some common navigation tools and emulates the numpad hotkeys.
+This panel provides some common navigation tools and emulates the numpad shortcuts.
 
 View Global/Local
    Switch Global/Local view.

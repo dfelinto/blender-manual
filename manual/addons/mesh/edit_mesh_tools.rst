@@ -12,7 +12,7 @@ Edit Mode vertex/edge/face selection modes for quick access to some tools, befor
 
 In the UI there are a variety of tools in each category, most tools have a tooltip to provide
 some usage information to help users understand each tools basic requirements.
-Most significant hotkeys is in Edit Mode double :kbd:`RMB`-click brings up the Vertex/Edge/Face menus
+The most significant hotkey is in Edit Mode double :kbd:`RMB` brings up the Vertex/Edge/Face menus
 depending on vertex/edge/face selection mode.
 Menu Integration is main tools into the Edit Mode context menu, selection tools into the Edit Mode select menu.
 

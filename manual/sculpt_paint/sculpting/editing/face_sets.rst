@@ -122,7 +122,7 @@ meaning all the hotkeys and functionality works the same as that tool.
 
 .. note::
 
-   This operator is meant to be used interactively through the shortcut and available hotkeys.
+   This operator is meant to be used interactively through the shortcut.
 
 
 Expand Active Face Set
@@ -141,7 +141,7 @@ meaning all the hotkeys and functionality works the same as that tool.
 
 .. note::
 
-   This operator is meant to be used interactively through the shortcut and available hotkeys.
+   This operator is meant to be used interactively through the shortcut.
 
 
 .. _bpy.ops.mesh.face_set_extract:

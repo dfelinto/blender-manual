@@ -59,7 +59,7 @@ UVs can be mirrored on the Y axis or the X axis:
 - Mirror X
 - Mirror Y
 
-You can also use the hotkey :kbd:`Ctrl-M`, then enter :kbd:`X` or :kbd:`Y`,
+You can also use the hotkeys :kbd:`X` or :kbd:`Y`,
 or hold the :kbd:`MMB` and drag in the mirror direction.
 
 

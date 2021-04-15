@@ -75,8 +75,7 @@ Handle Types
 ^^^^^^^^^^^^
 
 There are four Bézier curve handle types.
-They can be accessed by pressing :kbd:`V` and selecting from the list that appears,
-or by pressing the appropriate hotkey combination.
+They can be accessed by pressing :kbd:`V` and selecting from the list that appears.
 
 .. figure:: /images/modeling_curves_structure_bezier-handle-types.png
    :align: right

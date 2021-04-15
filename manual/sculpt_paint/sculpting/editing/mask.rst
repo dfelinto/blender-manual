@@ -152,7 +152,7 @@ Creates a mask radiating outwards from the active vertex in a uniform manner.
 
 .. note::
 
-   This operator is meant to be used interactively through the shortcut and available hotkeys.
+   This operator is meant to be used interactively through the shortcut.
 
 .. rubric:: Hotkeys
 
@@ -228,7 +228,7 @@ meaning all the hotkeys and functionality works the same as that tool.
 
 .. note::
 
-   This operator is meant to be used interactively through the shortcut and available hotkeys.
+   This operator is meant to be used interactively through the shortcut.
 
 
 .. _bpy.ops.mesh.paint_mask_extract:

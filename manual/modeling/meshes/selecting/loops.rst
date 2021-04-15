@@ -19,12 +19,9 @@ Holding :kbd:`Alt` while selecting an edge selects a loop of edges that are conn
 a line end-to-end, passing through the edge under the mouse pointer.
 Holding :kbd:`Shift-Alt` while clicking adds to the current selection.
 
-Edge loops can also be selected based on an existing edge selection,
-using either :menuselection:`Select --> Edge Loop`.
-
 .. note:: *Vertex* mode
 
-   In *Vertex* select mode, you can also select edge loops, by using the same hotkeys,
+   In *Vertex* select mode, you can also select edge loops, by using the same shortcuts,
    and clicking on the *edges* (not on the vertices).
 
 .. figure:: /images/modeling_meshes_selecting_loops_edge-loops.png
@@ -109,7 +106,7 @@ using either :menuselection:`Select --> Select Loops --> Edge Rings`.
 
 .. note:: *Vertex* mode
 
-   In *Vertex* select mode, you can use the same hotkeys when *clicking on the edges* (not on the vertices),
+   In *Vertex* select mode, you can use the same shortcuts when *clicking on the edges* (not on the vertices),
    but this will directly select the corresponding face loop...
 
 .. _fig-mesh-select-advanced-loop-ring:

@@ -15,7 +15,7 @@ Move
    :class: refbox
 
    :Menu:      :menuselection:`Strip --> Transform --> Move`
-   :Hotkey:    :kbd:`G`
+   :Shortcut:  :kbd:`G`
 
 Pressing :kbd:`G` moves all the selected strip(s).
 Move your mouse horizontally (left/right) to change the strip's position in time.
@@ -77,7 +77,7 @@ Move/Extend from Current Frame
    :class: refbox
 
    :Menu:      :menuselection:`Strip --> Transform --> Move/Extend from Current Frame`
-   :Hotkey:    :kbd:`E`
+   :Shortcut:  :kbd:`E`
 
 With a number of strips selected, pressing :kbd:`E` lets you interactively extend the strips.
 This is similar to moving but is useful for extending (or shortening) time around the current frame.
@@ -95,7 +95,7 @@ Slip Strip Contents
    :class: refbox
 
    :Menu:      :menuselection:`Strip --> Transform --> Slip Strip Contents`
-   :Hotkey:    :kbd:`S`
+   :Shortcut:  :kbd:`S`
 
 The Slip tool allows you to change the position of the contents of a strip without moving the strip itself.
 
@@ -109,7 +109,7 @@ Snap Strips to the Current Frame
    :class: refbox
 
    :Menu:      :menuselection:`Strip --> Transform --> Snap Strips to the Current Frame`
-   :Hotkey:    :kbd:`Shift-S`
+   :Shortcut:  :kbd:`Shift-S`
 
 Moves the strip or control point to the current frame.
 
@@ -123,7 +123,7 @@ Clear Strips Offset
    :class: refbox
 
    :Menu:      :menuselection:`Strip --> Transform --> Clear Strips Offset`
-   :Hotkey:    :kbd:`Alt-O`
+   :Shortcut:  :kbd:`Alt-O`
 
 To reset the (soft) start/end frame handles.
 
@@ -153,7 +153,7 @@ Remove Gaps
    :class: refbox
 
    :Menu:      :menuselection:`Strip --> Transform --> Insert Gaps`
-   :Hotkey:    :kbd:`Backspace`
+   :Shortcut:  :kbd:`Backspace`
 
 Remove blank frames between the current frame and the first strip to the left,
 independent of selection or locked state of strips.
@@ -171,7 +171,7 @@ Insert Gaps
    :class: refbox
 
    :Menu:      :menuselection:`Strip --> Transform --> Insert Gaps`
-   :Hotkey:    :kbd:`Equals`
+   :Shortcut:  :kbd:`Equals`
 
 Insert blank frames between the current frame and the first strips to the right,
 independent of selection or locked state of strips.
@@ -284,7 +284,7 @@ Split
    :class: refbox
 
    :Menu:      :menuselection:`Strip --> Split`
-   :Hotkey:    :kbd:`K`
+   :Shortcut:  :kbd:`K`
 
 This splits the selected strip in two at the current frame.
 This will result in two strips which use the same source, fitting the original strip's timing and length.
@@ -302,7 +302,7 @@ Hold Split
    :class: refbox
 
    :Menu:      :menuselection:`Strip --> Hold Split`
-   :Hotkey:    :kbd:`Shift-K`
+   :Shortcut:  :kbd:`Shift-K`
 
 Like *Split*, it splits a strip in two distinct strips;
 however you will not be able to drag the endpoints to show the frames past the split of each resulting strip.
@@ -325,7 +325,7 @@ Duplicate Strips
    :class: refbox
 
    :Menu:      :menuselection:`Strip --> Duplicate Strips`
-   :Hotkey:    :kbd:`Shift-D`
+   :Shortcut:  :kbd:`Shift-D`
 
 Duplicate a strip to make an unlinked copy;
 drag it to a time and channel, and drop it by :kbd:`LMB` click.
@@ -340,7 +340,7 @@ Delete
    :class: refbox
 
    :Menu:      :menuselection:`Strip --> Delete`
-   :Hotkey:    :kbd:`Delete`, :kbd:`X`
+   :Shortcut:  :kbd:`Delete`, :kbd:`X`
 
 Delete the selected strip(s).
 
@@ -352,7 +352,7 @@ Separate Images
    :class: refbox
 
    :Menu:      :menuselection:`Strip --> Separate Images`
-   :Hotkey:    :kbd:`Y`
+   :Shortcut:  :kbd:`Y`
 
 For images sequence only -- Converts the strip into multiple strips, one strip for each frame.
 Useful for slide shows and other cases where you want to bring in a set on non-continuous images.
@@ -430,7 +430,7 @@ Reassign Inputs
    :class: refbox
 
    :Menu:      :menuselection:`Strip --> Effect Strip --> Reassign Inputs`
-   :Hotkey:    :kbd:`R`
+   :Shortcut:  :kbd:`R`
 
 This tool can be used to assign (reconnect) effect strips in a different way.
 Select three arbitrary strips and press :kbd:`R`.
@@ -446,7 +446,7 @@ Swap Inputs
    :class: refbox
 
    :Menu:      :menuselection:`Strip --> Effect Strip --> Swap Inputs`
-   :Hotkey:    :kbd:`Alt-S`
+   :Shortcut:  :kbd:`Alt-S`
 
 Swaps the first two inputs for the effect strip.
 
