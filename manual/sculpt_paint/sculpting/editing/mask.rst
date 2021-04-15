@@ -136,6 +136,7 @@ Auto Iteration Count
 
 
 .. _bpy.ops.sculpt.mask_expand:
+.. _bpy.ops.sculpt.expand:
 
 Expand Mask by Topology
 -----------------------
@@ -149,18 +150,85 @@ Expand Mask by Topology
 
 Creates a mask radiating outwards from the active vertex in a uniform manner.
 
+.. note::
 
-Expand Mask by Curvature
-------------------------
+   This operator is meant to be used interactively through the shortcut and available hotkeys.
+
+.. rubric:: Hotkeys
+
+:Confirm: :kbd:`LMB`
+   Confirms the action of the operator.
+:Cancel: :kbd:`Esc`/:kbd:`RMB`
+   Cancels the action of the operator.
+:Invert: :kbd:`F`
+   Flips between expanding a positive mask (value of one) or a negative mask (value of zero).
+   In the case of face sets, this option flips between including areas inside the masked area
+   or areas outside the masked area.
+:Toggle Preserve State: :kbd:`E`
+   Accumulates the new mask on top of the previous one instead of replacing it.
+   For Face Sets, this creates Face Sets boundaries instead of replacing the existing Face Set.
+:Toggle Gradient: :kbd:`G`
+   Enables linear gradient, creates a linear gradient of values from the origin to the current active vertex.
+:Geodesic Recursive Step: :kbd:`R`
+   Generate a new :term:`Geodesic` falloff from the boundary of the enabled vertices of the current falloff.
+:Topology Recursive Step: :kbd:`Alt-R`
+   Generate a new topology flood fill falloff from the boundary of the enabled vertices of the current falloff.
+:Move Origin: :kbd:`Spacebar`
+   Moves the initial vertex used for calculating the falloff.
+:Geodesic Falloff: :kbd:`1`
+   Uses a falloff based on the :term:`Geodesic` distances from the edge boundary to the active vertex.
+:Topology Falloff: :kbd:`2`
+   Uses a falloff based on a flood fill using edges.
+:Diagonals Falloff: :kbd:`3`
+   Uses a falloff based on a flood fill using polygon diagonals and edges.
+:Spherical Falloff: :kbd:`4`
+   Uses a falloff based on the Euclidean distances from the edge boundary to the active vertex.
+:Snap Expanded to Face Sets: :kbd:`Ctrl`
+   Isolates the expanded region to the boundary of the face set under the cursor.
+:Loop Count Increase: :kbd:`W`
+   Increase the number of loops or iterations the operator is run; using four loops will split the mask into 4 parts.
+:Loop Count Decrease: :kbd:`Q`
+   Decrease the number of loops or iterations the operator is run; using four loops will split the mask into 4 parts.
+:Toggle Brush Gradient: :kbd:`B`
+   Similar to linear gradient but uses the current brush :doc:`Falloff </sculpt_paint/brush/falloff>`
+   to define the shape of the falloff
+:Texture Distortion Increase: :kbd:`Y`
+   Increases the falloff distance when using a texture to distort the mask shape.
+:Texture Distortion Decrease: :kbd:`T`
+   Decreases the falloff distance when using a texture to distort the mask shape.
+
+
+Usage
+^^^^^
+
+.. rubric:: Textures
+
+Textures can be used to affect the "strength" of the mask.
+This feature can be combined with loops and recursion to create really unique looking masks.
+To enable textures, you first need to create/select a texture to use,
+this is done by in the Properties editor's :doc:`Texture Properties </render/materials/legacy_textures/index>`.
+Next select the texture in the :doc:`Texture </sculpt_paint/brush/texture>` Brush Settings,
+while there **make sure** to enable *3D* :ref:`Mapping <bpy.types.BrushTextureSlot.map_mode>`.
+Now, you can use :kbd:`Y` and :kbd:`T` to increase or decrease the affect the texture has on the edge of the mask.
+
+
+Expand Mask by Normals
+----------------------
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Sculpt Mode
-   :Menu:      :menuselection:`Mask --> Expand Mask by Curvature`
+   :Menu:      :menuselection:`Mask --> Expand Mask by Normals`
    :Hotkey:    :kbd:`Shift-Alt-A`
 
 Creates a mask radiating outwards from the active vertex while following the curvature of the mesh.
+This operator uses the same internal operator as :ref:`bpy.ops.sculpt.expand`
+meaning all the hotkeys and functionality works the same as that tool.
+
+.. note::
+
+   This operator is meant to be used interactively through the shortcut and available hotkeys.
 
 
 .. _bpy.ops.mesh.paint_mask_extract:

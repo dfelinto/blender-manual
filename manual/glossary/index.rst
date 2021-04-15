@@ -350,6 +350,9 @@ This page lists definitions for terms used in Blender and this manual.
 
       See also `Gamma correction <https://en.wikipedia.org/wiki/Gamma_correction>`__ on Wikipedia.
 
+   Geodesic
+      Relating to the shortest possible path between two points on a curved surface.
+
    Geometric Center
       The mean average of the positions of all vertices making up the object.
 

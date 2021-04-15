@@ -1,3 +1,4 @@
+.. _bpy.types.ImageTexture:
 
 **************
 Image or Movie
@@ -219,7 +220,7 @@ Filter
          Uses several isotropic probes at several points along a line in texture space to produce
          an anisotropic filter to reduce aliasing artifacts without considerably increasing rendering time.
 
-         Probes
+         Light Probes
             Number of probes to use. An integer between 1 and 256.
             Further reading: McCormack, J; Farkas, KI; Perry, R; Jouppi, NP (1999)
             `Simple and Table Feline: Fast Elliptical Lines for Anisotropic Texture Mapping
@@ -230,7 +231,7 @@ Filter
          Eccentricity
             Maximum Eccentricity. Higher values give less blur at distant/oblique angles, but is slower.
 
-   Filter Size
+   Size
       The filter size used by MIP Map and Interpolation.
-   Minimum Filter Size
+   Minimum Size
       Use Filter Size as a minimal filter value in pixels.

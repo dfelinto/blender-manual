@@ -67,7 +67,7 @@ Texture
    .. tip::
 
       By clicking on the right-most button of this field (with the settings icon),
-      you can go directly to the selected texture's settings in the *Texture Properties* editor.
+      you can go directly to the selected texture's settings in the *Texture Properties* tab.
 
 Texture Coordinates
    The texture's coordinates to get each vertex' value:

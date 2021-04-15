@@ -102,6 +102,44 @@ Grow/Shrink Face Sets
 Expands or contracts the face set under the cursor by adding or removing surrounding faces.
 
 
+Expand Face Set by Topology
+===========================
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Sculpt Mode
+   :Menu:      :menuselection:`Face Sets --> Expand Face Set by Topology`
+   :Hotkey:    :kbd:`Shift-W`
+
+Creates a face set radiating outwards from the active vertex in a uniform manner.
+This operator uses the same internal operator as :ref:`bpy.ops.sculpt.expand`
+meaning all the hotkeys and functionality works the same as that tool.
+
+.. note::
+
+   This operator is meant to be used interactively through the shortcut and available hotkeys.
+
+
+Expand Active Face Set
+======================
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Sculpt Mode
+   :Menu:      :menuselection:`Face Sets --> Expand Face Set by Topology`
+   :Hotkey:    :kbd:`Shift-Alt-W`
+
+Expands a face set by radiating outwards from the face set in a uniform manner.
+This operator uses the same internal operator as :ref:`bpy.ops.sculpt.expand`
+meaning all the hotkeys and functionality works the same as that tool.
+
+.. note::
+
+   This operator is meant to be used interactively through the shortcut and available hotkeys.
+
+
 .. _bpy.ops.mesh.face_set_extract:
 
 Extract Face Set

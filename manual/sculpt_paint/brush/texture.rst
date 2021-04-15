@@ -1,3 +1,4 @@
+.. _bpy.types.BrushTextureSlot:
 
 *******
 Texture
@@ -21,6 +22,8 @@ The example to the right shows the effects of painting with a Voronoi texture.
 Texture
    In paint modes the texture is used as a color source,
    while for sculpting it is used to determine the strength of the brush.
+
+.. _bpy.types.BrushTextureSlot.map_mode:
 
 Mapping
    Sets the way the texture is applied to the brush stroke.
