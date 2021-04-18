@@ -34,7 +34,8 @@ function Drop(id){
 	this.listlabel = this.type ? "Versions" : "Language";
 	this.label = this.listlabel;
 	this.$btn = $('#' + id);
-	this.$list = this.$btn.next();
+	this.$dialog = this.$btn.next();
+	this.$list = this.$dialog.children("ul");
 	this.sel = null;
 	this.beforeInit();
 }
@@ -43,7 +44,7 @@ Drop.prototype={
 beforeInit: function() {
 	var that=this;
 	this.$btn.on("click", function(e){that.init();e.preventDefault();e.stopPropagation();});
-	this.$btn.on("keydown", function(e) { if(that.keybtnfilter(e)){that.init();e.preventDefault();e.stopPropagation();} });
+	this.$btn.on("keydown", function(e) { if(that.btnKeyFilter(e)){that.init();e.preventDefault();e.stopPropagation();} });
 },
 init: function() {
 	this.$btn.off("click");
@@ -75,23 +76,23 @@ afterload: function() {
 	var lang = DOCUMENTATION_OPTIONS.LANGUAGE;
 	if(!lang || lang === "None" || lang === "") {lang = "en";}
 
-	this.warn_old(release, all_versions);
+	this.warnOld(release, all_versions);
 
-	var version = this.get_named(release);
+	var version = this.getNamed(release);
 	this.label = this.type ? all_versions[version] : all_langs[lang];
-	var list = this.build_list(version, lang);
+	var list = this.buildList(version, lang);
 
 	this.$list.children(":first-child").remove();
 	this.$list.append(list);
 	var that = this;
-	this.$list.on("keydown", function(e) {that.keymove(e);});
+	this.$list.on("keydown", function(e) {that.keyMove(e);});
 
 	this.$btn.removeClass("wait");
-	this.btnhandler();
-	this.$btn.on("mousedown", function(e){that.btnhandler(); e.preventDefault()});
-	this.$btn.on("keydown", function(e){ if(that.keybtnfilter(e)){that.btnhandler();} });
+	this.btnOpenHandler();
+	this.$btn.on("mousedown", function(e){that.btnOpenHandler(); e.preventDefault()});
+	this.$btn.on("keydown", function(e){ if(that.btnKeyFilter(e)){that.btnOpenHandler();} });
 },
-warn_old: function(release, all_versions) {
+warnOld: function(release, all_versions) {
 	// Note this is effectively disabled now, two issues must fixed:
 	// * versions.js does not contain a current entry, because that leads to
 	//   duplicate version numbers in the menu. These need to be deduplicated.
@@ -125,8 +126,8 @@ warn_old: function(release, all_versions) {
 		body.prepend(warning);
 	}
 },
-build_list: function(v, l) {
-	var neutral_url = this.get_neutral();
+buildList: function(v, l) {
+	var neutral_url = this.getNeutral();
 	if(this.type) {
 		var dyn = all_versions;
 		var cur = v;
@@ -152,12 +153,12 @@ build_list: function(v, l) {
 	});
 	return buf.join('');
 },
-get_neutral: function() {
+getNeutral: function() {
 	var url = window.location.href;
 	var url_re = /\/manual\/([\w|\-|\.]*\/(?:dev|latest|\d\.\d[\w\d\.]*))\//;
 	return url.replace(url_re, "/manual/");
 },
-get_named: function(v) {
+getNamed: function(v) {
 	$.each(all_versions, function(ix, title) {
 		if (ix === "dev" || ix === "latest") {
 			var m = title.match(/\d\.\d[\w\d\.]*/)[0];
@@ -169,31 +170,30 @@ get_named: function(v) {
 	});
 	return v;
 },
-listtoggle: function(speed) {
+dialogToggle: function(speed) {
 	var wasClose = !this.isOpen;
 	var that=this;
 	if(!this.isOpen) {
 		this.$btn.addClass("version-btn-open");
 		this.$btn.removeClass("version-btn");
 		this.$btn.attr("aria-pressed", true);
-		this.$list.attr("aria-hidden", false);
+		this.$dialog.attr("aria-hidden", false);
 		this.$btn.html(this.listlabel);
-		this.$list.slideDown(speed, function() {
-			that.$list.on("focusout", function(e) {that.lvefohandler(e); e.stopImmediatePropagation();})
-			that.$btn.on("mouseleave", function(e){that.lvefohandler(e); e.stopImmediatePropagation();});
-			that.$list.on("mouseleave", function(e){that.lvehandler(e); e.stopImmediatePropagation();});
+		this.$dialog.fadeIn(speed, function() {
+			that.$btn.parent().on("blur", function(e) {that.outHandler(); e.stopImmediatePropagation();})
+			that.$btn.parent().on("mouseleave", function(e){that.outHandler(); e.stopImmediatePropagation();});
 		});
 		this.isOpen = true;
 	} else {
 		this.$btn.addClass("version-btn");
 		this.$btn.removeClass("version-btn-open");
 		this.$btn.attr("aria-pressed", false);
-		this.$list.attr("aria-hidden", true);
+		this.$dialog.attr("aria-hidden", true);
 		this.$btn.html(this.label);
-		this.$btn.off("mouseleave");
-		this.$list.off("mouseleave");
-		this.$list.off("focusout");
-		this.$list.slideUp(speed, function() {
+		this.$btn.parent().off("blur");
+		this.$btn.parent().off("mouseleave");
+		// this.$dialog.off("focusout");
+		this.$dialog.fadeOut(speed, function() {
 			if(document.activeElement !== null && document.activeElement !== document && document.activeElement !== document.body) {
 				if(that.$sel) {that.$sel.attr("tabindex", -1);}
 				that.$btn.focus();
@@ -204,69 +204,39 @@ listtoggle: function(speed) {
 
 	if(wasClose) {
 		if(document.activeElement !== null && document.activeElement !== document && document.activeElement !== document.body) {
-			var $nw = this.listEnter(this.$btn);
+			var $nw = this.listEnter();
 			$nw.attr("tabindex", 0);
 			$nw.focus();
 			this.$sel = $nw;
 		}
 	}
 },
-btnhandler: function() {
-	this.listtoggle(300);
+btnOpenHandler: function() {
+	this.dialogToggle(300);
 },
-lvefohandler: function(e) {
-	var element = e.toElement || e.relatedTarget;
-	var i = 0;
-	while(i < 4 && element !== null && element.tagName !== "DIV" && element.tagName !== "UL")  {
-		element =  element.parentNode;
-		i++;
-	}
-	if(!this.$list.is(element)) {
-		this.listtoggle(200);
-	}
-	$(e.target).attr("tabindex", -1);
-	if($(e.target).attr("id") === "version-dropdown" || $(e.target).attr("id") === "lang-dropdown") {$(e.target).attr("tabindex", 0);}
+outHandler: function() {
+	this.dialogToggle(200);
 },
-lvehandler: function(e) {
-	var element = e.toElement || e.relatedTarget;
-	if(element !== null && element.tagName !== "SPAN") {
-		if(!this.$btn.is(element)) {
-			this.listtoggle(300);
-		}
-	}
-},
-keybtnfilter: function(e) {
+btnKeyFilter: function(e) {
 	if (e.ctrlKey || e.shiftKey) {return false;}
-	var k = e.which || e.keyCode;
-	if(e.key === " " || e.key === "Enter" || (e.key === "ArrowDown" && e.altKey) || e.key === "ArrowDown" || e.key === "ArrowUp" ||
-			k === 32 || k === 13 || (k === 40 && e.altKey) || k === 40 || k === 38) {
+	if(e.key === " " || e.key === "Enter" || (e.key === "ArrowDown" && e.altKey) || e.key === "ArrowDown" || e.key === "ArrowUp") {
 		return true;
 	}
 	return false;
 },
-keymove: function(e) {
+keyMove: function(e) {
 	if (e.ctrlKey || e.shiftKey) {return true;}
-	var p = false;
-	var k = e.which || e.keyCode;
+	var p = true;
 	var $nw = $(e.target);
-	if(e.key === "ArrowUp" || k === 38) {
-		p = true;
-		$nw = this.listPrev($nw);
-	} else if (e.key === "ArrowDown" || k === 40) {
-		p = true;
-		$nw = this.listNext($nw);
-	} else if (e.key === "Home" || k === 36) {
-		p = true;
-		$nw = this.listFirst($nw);
-	} else if (e.key === "End" || k === 35) {
-		p = true;
-		$nw = this.listLast($nw);
-	} else if (e.key === "Escape" || k === 27) {
-		p = true;
-		$nw = this.listExit($nw);
-	} else if (e.key === "ArrowLeft" || k === 37 || e.key === "ArrowRight" || k === 39) {
-		p = true;
-		$nw = this.listExit($nw);
+	switch(e.key) {
+		case "ArrowUp": $nw = this.listPrev($nw); break;
+		case "ArrowDown": $nw = this.listNext($nw); break;
+		case "Home": $nw = this.listFirst(); break;
+		case "End": $nw = this.listLast(); break;
+		case "Escape": $nw = this.listExit(); break;
+		case "ArrowLeft": $nw = this.listExit(); break;
+		case "ArrowRight": $nw = this.listExit(); break;
+		default: p = false;
 	}
 	if(p) {
 		$nw.attr("tabindex", 0);
@@ -280,27 +250,27 @@ listPrev: function($nw) {
 	if ($nw.parent().prev().length !== 0) {
 		return $nw.parent().prev().children(":first-child");
 	} else {
-		return this.listLast($nw);
+		return this.listLast();
 	}
 },
 listNext: function($nw) {
 	if ($nw.parent().next().length !== 0) {
 		return $nw.parent().next().children(":first-child");
 	} else {
-		return this.listFirst($nw);
+		return this.listFirst();
 	}
 },
-listFirst: function($nw) {
-	return $nw.parent().parent().children(":first-child").children(":first-child");
+listFirst: function() {
+	return this.$list.children(":first-child").children(":first-child");
 },
-listLast: function($nw) {
-	return $nw.parent().parent().children(":last-child").children(":first-child");
+listLast: function() {
+	return this.$list.children(":last-child").children(":first-child");
 },
-listExit: function($nw) {
-	return $nw.parent().parent().prev();
+listExit: function() {
+	return this.$btn;
 },
-listEnter: function($nw) {
-	return $nw.next().children(":first-child").children(":first-child");
+listEnter: function() {
+	return this.$list.children(":first-child").children(":first-child");
 }
 };
 return Drop}();
