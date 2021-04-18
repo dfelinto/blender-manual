@@ -180,8 +180,8 @@ dialogToggle: function(speed) {
 		this.$dialog.attr("aria-hidden", false);
 		this.$btn.html(this.listlabel);
 		this.$dialog.fadeIn(speed, function() {
-			that.$btn.parent().on("blur", function(e) {that.outHandler(); e.stopImmediatePropagation();})
-			that.$btn.parent().on("mouseleave", function(e){that.outHandler(); e.stopImmediatePropagation();});
+			that.$btn.parent().on("focusout", function(e) {that.focusoutHandler(); e.stopImmediatePropagation();})
+			that.$btn.parent().on("mouseleave", function(e){that.mouseoutHandler(); e.stopImmediatePropagation();});
 		});
 		this.isOpen = true;
 	} else {
@@ -190,12 +190,11 @@ dialogToggle: function(speed) {
 		this.$btn.attr("aria-pressed", false);
 		this.$dialog.attr("aria-hidden", true);
 		this.$btn.html(this.label);
-		this.$btn.parent().off("blur");
+		this.$btn.parent().off("focusout");
 		this.$btn.parent().off("mouseleave");
-		// this.$dialog.off("focusout");
 		this.$dialog.fadeOut(speed, function() {
+			that.$btn.attr("tabindex", 0);
 			if(document.activeElement !== null && document.activeElement !== document && document.activeElement !== document.body) {
-				if(that.$sel) {that.$sel.attr("tabindex", -1);}
 				that.$btn.focus();
 			}
 		});
@@ -203,6 +202,7 @@ dialogToggle: function(speed) {
 	}
 
 	if(wasClose) {
+		if (this.$sel) {this.$sel.attr("tabindex", -1);}
 		if(document.activeElement !== null && document.activeElement !== document && document.activeElement !== document.body) {
 			var $nw = this.listEnter();
 			$nw.attr("tabindex", 0);
@@ -214,7 +214,16 @@ dialogToggle: function(speed) {
 btnOpenHandler: function() {
 	this.dialogToggle(300);
 },
-outHandler: function() {
+focusoutHandler: function() {
+	var list = this.$list;
+	var that = this;
+	setTimeout(function() {
+		if (list.find(":focus").length == 0) {
+			that.dialogToggle(200);
+		}
+	}, 200);
+},
+mouseoutHandler: function() {
 	this.dialogToggle(200);
 },
 btnKeyFilter: function(e) {
@@ -241,6 +250,7 @@ keyMove: function(e) {
 	if(p) {
 		$nw.attr("tabindex", 0);
 		$nw.focus();
+		if (this.$sel) {this.$sel.attr("tabindex", -1);}
 		this.$sel = $nw;
 		e.preventDefault();
 		e.stopPropagation();
@@ -267,6 +277,7 @@ listLast: function() {
 	return this.$list.children(":last-child").children(":first-child");
 },
 listExit: function() {
+	this.mouseoutHandler();
 	return this.$btn;
 },
 listEnter: function() {
