@@ -3,7 +3,7 @@
 
 var versionsFileUrl = "https://docs.blender.org/versions.json"
 
-var all_versions = "";
+var all_versions;
 var all_langs = {
 	"en": "English",
 	"ar": "&#1575;&#1614;&#1604;&#1618;&#1593;&#1614;&#1585;&#1614;&#1576;&#1616;&#1610;&#1614;&#1617;&#1577;&#1615;",
@@ -31,8 +31,6 @@ var Drop=function(){
 function Drop(id){
 	this.isOpen=false;
 	this.type = (id === "version-dropdown");
-	this.listlabel = this.type ? "Versions" : "Language";
-	this.label = this.listlabel;
 	this.$btn = $('#' + id);
 	this.$dialog = this.$btn.next();
 	this.$list = this.$dialog.children("ul");
@@ -50,7 +48,7 @@ init: function() {
 	this.$btn.off("click");
 	this.$btn.off("keydown");
 
-	if(all_versions === "") {
+	if(all_versions === undefined) {
 		this.$btn.addClass("wait");
 		this.loadVL(this);
 	} else {
@@ -79,7 +77,6 @@ afterload: function() {
 	this.warnOld(release, all_versions);
 
 	var version = this.getNamed(release);
-	this.label = this.type ? all_versions[version] : all_langs[lang];
 	var list = this.buildList(version, lang);
 
 	this.$list.children(":first-child").remove();
@@ -175,24 +172,21 @@ dialogToggle: function(speed) {
 	var that=this;
 	if(!this.isOpen) {
 		this.$btn.addClass("version-btn-open");
-		this.$btn.removeClass("version-btn");
 		this.$btn.attr("aria-pressed", true);
 		this.$dialog.attr("aria-hidden", false);
-		this.$btn.html(this.listlabel);
 		this.$dialog.fadeIn(speed, function() {
 			that.$btn.parent().on("focusout", function(e) {that.focusoutHandler(); e.stopImmediatePropagation();})
 			that.$btn.parent().on("mouseleave", function(e){that.mouseoutHandler(); e.stopImmediatePropagation();});
 		});
 		this.isOpen = true;
 	} else {
-		this.$btn.addClass("version-btn");
 		this.$btn.removeClass("version-btn-open");
 		this.$btn.attr("aria-pressed", false);
 		this.$dialog.attr("aria-hidden", true);
-		this.$btn.html(this.label);
 		this.$btn.parent().off("focusout");
 		this.$btn.parent().off("mouseleave");
 		this.$dialog.fadeOut(speed, function() {
+			if (this.$sel) {this.$sel.attr("tabindex", -1);}
 			that.$btn.attr("tabindex", 0);
 			if(document.activeElement !== null && document.activeElement !== document && document.activeElement !== document.body) {
 				that.$btn.focus();
@@ -218,7 +212,7 @@ focusoutHandler: function() {
 	var list = this.$list;
 	var that = this;
 	setTimeout(function() {
-		if (list.find(":focus").length == 0) {
+		if (list.find(":focus").length === 0) {
 			that.dialogToggle(200);
 		}
 	}, 200);
