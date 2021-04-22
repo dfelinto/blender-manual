@@ -63,6 +63,9 @@ Merge
       The maximum distance between a vertex and its mirror copy at which they are merged together
       (being snapped on the mirror plane). Needs *Merge* to be enabled.
 
+Bisect Distance
+   Distance from the bisect plane within which vertices are removed.
+
 
 Data
 ----
