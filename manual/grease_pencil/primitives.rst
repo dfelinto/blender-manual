@@ -40,3 +40,24 @@ It creates a 2D monkey head. The Monkey's name is "Suzanne" and is Blender's mas
 
    Adding Stroke or Monkey primitives also adds a set of preset materials and 2D layers
    to help start drawing with the new object.
+
+
+Scene Line Art
+==============
+
+Sets up a :doc:`/grease_pencil/modifiers/generate/lineart` for the active scen
+by creating an "empty" Grease Pencil object with a Line Art modifier referencing each object in the scene.
+
+
+Collection Line Art
+===================
+
+Sets up a :doc:`/grease_pencil/modifiers/generate/lineart` for the active collection
+by creating an "empty" Grease Pencil object with a Line Art modifier referencing each object in the collection.
+
+
+Object Line Art
+===============
+
+Sets up a :doc:`/grease_pencil/modifiers/generate/lineart` for the active object
+by creating an "empty" Grease Pencil object with a Line Art modifier referencing the active object.

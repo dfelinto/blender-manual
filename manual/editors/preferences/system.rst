@@ -98,14 +98,20 @@ Use Disk Cache
    Writes cached strips to disk which can store a lot more than
    to use Disk Cache, this option must be enabled,
    the *Disk Cache Directory* and *Disk Cache Limit*, and then save or reopen existing blend-file.
-Disk Cache Directory
+Directory
    The location on disk to store the cache.
-Disk Cache Limit
+Cache Limit
    Upper limit of the Video Sequencer's disk cache (in gigabytes), setting to zero disables disk cache.
-Disk Cache Compression Level
+Compression
    The level of compression to compress image in the disk cache.
    This has a trade off between saving disk space and requiring more processing.
    The more compression used requires faster disk write/read speeds and more CPU usage.
+
+Proxy Setup
+   When and how :doc:`Proxies </video_editing/sequencer/sidebar/proxy>` are created.
+
+   :Automatic: Build proxies for added movie and image strips in each preview size
+   :Manual: Set up proxies manually.
 
 .. seealso::
 
@@ -126,12 +132,12 @@ and :ref:`Audio Panel <data-scenes-audio>`.
 Audio Device
    Sets the audio engine to use to process and output audio.
 
-   None
+   :None:
       No Audio support (audio strips can still be loaded normally).
-   SDL
+   :SDL:
       Uses Simple Direct Media Layer API from `libsdl.org <https://www.libsdl.org>`__
       to render sounds directly to the sound device output. Very useful for sequencer strips editing.
-   OpenAL
+   :OpenAL:
       Provides buffered sound rendering with 3D/spatial support.
       Used for 3D source support by speaker objects.
 

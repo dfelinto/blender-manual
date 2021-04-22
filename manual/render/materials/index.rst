@@ -12,4 +12,5 @@
    assignment.rst
    preview.rst
    settings.rst
+   lineart.rst
    legacy_textures/index.rst

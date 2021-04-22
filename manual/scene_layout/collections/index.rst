@@ -8,3 +8,4 @@
 
    introduction.rst
    collections.rst
+   properties.rst

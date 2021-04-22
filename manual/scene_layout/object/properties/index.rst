@@ -12,3 +12,4 @@
    instancing/index.rst
    visibility.rst
    display.rst
+   lineart.rst

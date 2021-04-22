@@ -28,30 +28,43 @@ Use the :ref:`List View <ui-list-view>` to manage attributes.
 Attribute Types
 ^^^^^^^^^^^^^^^
 
-Position
-   The position of the point in 3D space.
+.. seealso::
 
-   :Type: Vector
+   See :ref:`geometry-nodes_builtin-attributes` for infomation about common attributes.
 
-Radius
-   The radius of each point.
+.. list-table::
+   :widths: 10 10 10 50
+   :header-rows: 1
 
-   :Type: Float
+   * - Name
+     - Type
+     - Domain
+     - Notes
 
-Color
-   The color of each point.
+   * - **position**
+     - *Vector*
+     - *Point*
+     - Built-in attribute describing vertex or point locations, in the modifier object's transform space.
 
-   :Type: Color
+   * - **radius**
+     - *Float*
+     - *Point*
+     - The radius of each point.
 
-Particle ID
-   A unique identifier given to each particle.
+   * - **radius**
+     - *Color*
+     - *Point*
+     - The color of each point.
 
-   :Type: Integer
+   * - **id**
+     - *Integer*
+     - *Point*
+     - A unique identifier given to each particle.
 
-Velocity
-   The speed and direction that the particle is traveling.
-
-   :Type: Vector
+   * - **velocity**
+     - *Vector*
+     - *Point*
+     - The speed and direction that the particle is traveling.
 
 Custom Attributes
    Custom attribute can be given to particles to hold a custom characteristic.
