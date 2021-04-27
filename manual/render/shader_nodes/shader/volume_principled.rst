@@ -43,6 +43,12 @@ Temperature Attribute
    Volume grid to define the temperature, typically "temperature".
 
 
+Properties
+==========
+
+This node has no properties.
+
+
 Outputs
 =======
 

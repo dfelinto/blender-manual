@@ -1,4 +1,4 @@
-.. _bpy.types.ShaderNodeTexMusgrave:
+::.. _bpy.ShaderNodeTexMusgrave:
 
 *********************
 Musgrave Texture Node
@@ -48,14 +48,10 @@ Properties
 Dimensions
    The dimensions of the space to evaluate the noise in.
 
-   1D
-      Evaluate the noise in 1D space at the input *W*.
-   2D
-      Evaluate the noise in 2D space at the input *Vector*. The Z component is ignored.
-   3D
-      Evaluate the noise in 3D space at the input *Vector*.
-   4D
-      Evaluate the noise in 4D space at the input *Vector* and the input *W* as the fourth dimension.
+   :1D: Evaluate the noise in 1D space at the input *W*.
+   :2D: Evaluate the noise in 2D space at the input *Vector*. The Z component is ignored.
+   :3D: Evaluate the noise in 3D space at the input *Vector*.
+   :4D: Evaluate the noise in 4D space at the input *Vector* and the input *W* as the fourth dimension.
 
 Higher dimensions corresponds to higher render time, so lower dimensions should be used
 unless higher dimensions are necessary.
@@ -63,19 +59,19 @@ unless higher dimensions are necessary.
 Type
    Type of the Musgrave texture.
 
-   fBM (fractal Brownian Motion)
+   :fBM (fractal Brownian Motion):
       Produces an unnatural homogeneous and isotropic result.
       Uses an additive cascade, the values are simply added together.
-   Multifractal
+   :Multifractal:
       The result is more uneven (varies with location), more similar to a real terrain.
       Uses a multiplicative cascade.
-   Hybrid Multifractal
+   :Hybrid Multifractal:
       Creates peaks and valleys with different roughness values, like real mountains rise out of flat plains.
       Combines the additive cascade with a multiplicative cascade.
-   Ridged Multifractal
+   :Ridged Multifractal:
       Creates sharp peaks. Calculates the absolute value of the noise,
       creating "canyons", and then flips the surface upside down.
-   Hetero Terrain (Heterogeneous Terrain)
+   :Hetero Terrain (Heterogeneous Terrain):
       Similar to *Hybrid Multifractal* creates a heterogeneous terrain, but with the likeness of river channels.
 
 

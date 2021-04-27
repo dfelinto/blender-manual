@@ -30,6 +30,11 @@ Style
 
 Font
    :ref:`ui-data-block` to choose which font-file is used to render the text.
+
+   Bold
+      Use a bold font face with a strong/thick visual appearance.
+   Italics
+      Use an italizized font face with a slanted visual appearance.
 Size
    Size of the text.
 Color

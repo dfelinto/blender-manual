@@ -31,13 +31,15 @@ Properties
 ==========
 
 Type
-   Axis Angle
+   The type of angle input.
+
+   :Axis Angle:
       Rotates the vector around an axis defined by the *Axis* input vector
       and the amount of rotation is defined by the *Angle* input.
-   X, Y, Z Axis
+   :X, Y, Z Axis:
       Rotates the vector around the defined axis and
       the amount of rotation is defined by the *Angle* input.
-   Euler
+   :Euler:
       Rotates the vector about the *Center* and defined by the *Rotation*
       input vector to control the amount of rotation on each axis.
 Invert

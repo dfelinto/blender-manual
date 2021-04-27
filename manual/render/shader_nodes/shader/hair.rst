@@ -57,10 +57,8 @@ Component
    There are two components that can be used to control the look of the hair.
    Usually you are going to want each of these and use a :doc:`Mix Node </render/shader_nodes/shader/mix>`.
 
-   Reflection
-      The light that bounces off the surface of the hair.
-   Transmission
-      The light that passes through the hair and comes out the other side.
+   :Reflection: The light that bounces off the surface of the hair.
+   :Transmission: The light that passes through the hair and comes out the other side.
 
    .. figure:: /images/render_shader-nodes_shader_hair_mix-node.png
       :align: center

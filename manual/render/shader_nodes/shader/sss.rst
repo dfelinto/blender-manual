@@ -52,28 +52,28 @@ Texture Blur
 Properties
 ==========
 
-Method
+Falloff
    Rendering method to simulate subsurface scattering.
 
-   Christensen-Burley
-      Is an approximation to physically-based volume scattering.
-      Gives less blurry results than Cubic and Gaussian functions.
-   Random Walk :guilabel:`Cycles Only`
-      Provides the most accurate results for thin and curved objects.
-      This comes at the cost of increased render time or noise for more dense media like skin,
-      but also better geometry detail preservation.
-      Random Walk uses true volumetric scattering inside the mesh,
-      which means that it works best for closed meshes.
-      Overlapping faces and holes in the mesh can cause problems.
-   Cubic
+   :Cubic:
       Is a sharp falloff useful for many simple materials. The function is :math:`(radius - x)^3`.
-   Gaussian
+   :Gaussian:
       Gives a smoother falloff following a normal distribution,
       which is particularly useful for more advanced materials that use measured
       data that was fitted to one or more such Gaussian functions.
       The function is :math:`e^{-8x^2/ radius^2}`,
       such that the radius roughly matches the maximum falloff distance.
       To match a given measured variance *v*, set :math:`radius = sqrt(16 × v)`.
+   :Christensen-Burley:
+      Is an approximation to physically-based volume scattering.
+      Gives less blurry results than Cubic and Gaussian functions.
+   :Random Walk: :guilabel:`Cycles Only`
+      Provides the most accurate results for thin and curved objects.
+      This comes at the cost of increased render time or noise for more dense media like skin,
+      but also better geometry detail preservation.
+      Random Walk uses true volumetric scattering inside the mesh,
+      which means that it works best for closed meshes.
+      Overlapping faces and holes in the mesh can cause problems.
 
 
 Outputs

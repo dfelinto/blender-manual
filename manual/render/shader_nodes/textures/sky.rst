@@ -26,11 +26,11 @@ Properties
 Sky Type
    Sky model to use.
 
-   Preetham
+   :Preetham:
       Based on the 1999 `paper <https://doi.org/10.1145/311535.311545>`__ by Preetham et al.
-   Hosek/Wilkie
+   :Hosek/Wilkie:
       Based on the 2012 `paper <https://cgg.mff.cuni.cz/projects/SkylightModelling/>`__ by Hosek and Wilkie.
-   Nishita
+   :Nishita:
       Improved version of the 1993
       `model <https://www.scratchapixel.com/lessons/procedural-generation-virtual-worlds/simulating-sky/simulating-colors-of-the-sky>`__
       by Nishita et al.
@@ -65,7 +65,7 @@ Sun Rotation
    Rotation of the sun around the zenith (in degrees).
 
 Altitude
-   The distance in kilometers from sea level to the location of the camera.
+   The distance from sea level to the location of the camera.
    For example, if the camera is placed on a beach a value of 0 should be used.
    However, if the camera is in the cockpit of a flying airplane a value of 10 km will be more suitable.
    Note, this is limited to 60 km because the mathematical model only accounts

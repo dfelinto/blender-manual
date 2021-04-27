@@ -35,14 +35,10 @@ Properties
 Dimensions
    The dimensions of the space to evaluate the noise in.
 
-   1D
-      The *W* input is used as seed.
-   2D
-      The X and Y components of the *Vector* input are used as seed.
-   3D
-      The *Vector* input is used as seed.
-   4D
-      Both the *Vector* input and the *W* input are used as seed.
+   :1D: The *W* input is used as seed.
+   :2D: The X and Y components of the *Vector* input are used as seed.
+   :3D: The *Vector* input is used as seed.
+   :4D: Both the *Vector* input and the *W* input are used as seed.
 
 
 Outputs

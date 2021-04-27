@@ -76,7 +76,7 @@ Radius
    Lights with larger size have softer shadows and specular highlights.
 
 
-Spot Shape
+Beam Shape
 ----------
 
 .. figure:: /images/render_lights_light-object_terms.png
@@ -169,6 +169,21 @@ Shape
 
 Size / Size X / Size Y
    Dimensions for the *Square* or *Rectangle*.
+
+
+Beam Shape
+----------
+
+.. _bpy.types.AreaLight.spread:
+
+Spread :guilabel:`Cycles Only`
+   How wide the emitted light fans out controling how diffused the light is.
+   Larger values create soft shadows while smaller values create sharper light
+   simulating a `gridded softbox <https://en.wikipedia.org/wiki/Softbox>`__.
+
+   .. figure:: /images/render_lights_light-object-area-spread.png
+
+      Example of Spread at different angles.
 
 
 .. _light-type-sun:

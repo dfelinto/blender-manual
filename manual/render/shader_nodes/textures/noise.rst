@@ -44,17 +44,15 @@ Properties
 Dimensions
    The dimensions of the space to evaluate the noise in.
 
-   1D
-      Evaluate the noise in 1D space at the input *W*.
-   2D
-      Evaluate the noise in 2D space at the input *Vector*. The Z component is ignored.
-   3D
-      Evaluate the noise in 3D space at the input *Vector*.
-   4D
-      Evaluate the noise in 4D space at the input *Vector* and the input *W* as the fourth dimension.
+   :1D: Evaluate the noise in 1D space at the input *W*.
+   :2D: Evaluate the noise in 2D space at the input *Vector*. The Z component is ignored.
+   :3D: Evaluate the noise in 3D space at the input *Vector*.
+   :4D: Evaluate the noise in 4D space at the input *Vector* and the input *W* as the fourth dimension.
 
-Higher dimensions corresponds to higher render time, so lower dimensions should be used
-unless higher dimensions are necessary.
+   .. note::
+
+      Higher dimensions corresponds to higher render time,
+      so lower dimensions should be used unless higher dimensions are necessary.
 
 
 Outputs

@@ -98,20 +98,21 @@ Quality
 UV Smooth
    Controls how subdivision smoothing is applied to UVs.
 
-   None
-      UVs remain unchanged.
-   Keep Corners
-      UV islands are smoothed, but their boundary remain unchanged.
-   All
-      UVs and their boundaries are smoothed.
+   :None: UVs remain unchanged.
+   :Keep Corners: UV islands are smoothed, but their boundary remain unchanged.
+   :Keep Corners, Junctions:
+      UVs are smoothed, corners on discontinuous boundary and junctions of 3 or more regions are kept sharp.
+   :Keep Corners, Junctions, Concave:
+      UVs are smoothed, corners on discontinuous boundary,
+      junctions of 3 or more regions and darts and concave corners are kept sharp.
+   :Keep Boundaries: UVs are smoothed, boundaries are kept sharp.
+   :All: UVs and their boundaries are smoothed.
 
 Boundary Smooth
    Controls how open boundaries (and corners) are smoothed.
 
-   All
-      Smooth boundaries, including corners.
-   Keep Corners
-      Smooth boundaries, but corners are kept sharp.
+   :All: Smooth boundaries, including corners.
+   :Keep Corners: Smooth boundaries, but corners are kept sharp.
 
 Use Creases
    Use the :ref:`modifiers-generate-subsurf-creases` values stored in edges to control how smooth they are made.

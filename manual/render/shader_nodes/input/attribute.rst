@@ -27,7 +27,7 @@ Name
 Type
    Specifies the type of the attribute.
 
-   Geometry
+   :Geometry:
       The attribute is associated with the geometry of the object, and its value varies from vertex
       to vertex, or within the volume of the object.
 
@@ -35,20 +35,6 @@ Type
 
       Vertex Color Layers
          These can be retrieved this by their names.
-      Density
-         Gives a scalar defining the density of any smoke inside
-         the :doc:`Fluid Domain </physics/fluid/type/domain/index>`.
-      Color
-         Gives the color of the smoke inside the :doc:`Fluid Domain </physics/fluid/type/domain/index>`.
-         The color and vector outputs are the same. The Factor output is an average of the channels.
-      Temperature
-         Gives a scalar defining the temperature of the volume. Values in the range 0 - 1 map to 0 - 1000 kelvin.
-         This may be used to render physically-based fire with the Blackbody or Principled Volume shaders.
-         All three outputs are the same.
-      Flame
-         Gives a scalar defining the density of any fire inside
-         the :doc:`Fluid Domain </physics/fluid/type/domain/index>`.
-         All three outputs are the same.
       Ocean Foam
          Gives a scalar defining where foam might appear when using
          an :doc:`Ocean Modifier </modeling/modifiers/physics/ocean>`.
@@ -58,8 +44,7 @@ Type
 
          For a full list of options see `This Thread <https://blender.stackexchange.com/questions/14262#14267>`__
          on the Blender Stack Exchange.
-
-   Object
+   :Object:
       The attribute name specifies a :ref:`custom property <files-data_blocks-custom-properties>` name,
       or an RNA path to a built-in property (like the single property :ref:`driver variables <drivers-variables>`).
 
@@ -75,8 +60,7 @@ Type
          The ``color`` attribute will output the value of the Color field in
          the :ref:`Viewport Display <properties-object-viewport-display>` panel of
          the object, unless overridden by a custom property.
-
-   Instancer
+   :Instancer:
       Similar to *Object*, but the attribute is looked up in the instancer particle system settings,
       followed by the instancer object. If the current object is not instanced, or the property is
       not found, it falls back to the *Object* mode.

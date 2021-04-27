@@ -51,7 +51,7 @@ Keyboard Input
 
    - Press :kbd:`Return` or :kbd:`LMB` outside the field to apply the change.
    - Press :kbd:`Esc` or :kbd:`RMB` to cancel.
-   - Press :kbd:`Tab` to jump to the next field or :kbd:`Ctrl-Tab` to go to the previous field.
+   - Press :kbd:`Tab` to jump to the next field or :kbd:`Shift-Tab` to go to the previous field.
    - Press :kbd:`Minus` while hovering over a number field to negate the value.
 
 

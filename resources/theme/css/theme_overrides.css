@@ -25,9 +25,6 @@ input[type="number"], input[type="tel"], input[type="color"] {
 	background-color:#FCFCFC;
 }
 
-/* Fixes overlay of "align-right" images on block. */
-.rst-content .admonition {overflow: auto}
-
 /* Boxed paragraphs. */
 .rst-content .refbox .admonition-title {background-color: #bbb}
 .rst-content .refbox {
@@ -169,11 +166,6 @@ footer p{ font-size: smaller}
 	list-style-type: none;
 	padding-right: 20px;
 }
-
-/* Block-quote > dl bugfix. */
-.rst-content dl{line-height:normal}
-/* multi-paragraph dl bugfix */
-.rst-content dl p{line-height:inherit}
 
 /* Quotes for Fig. "link". */
 a[href^="#fig-"]::before {content: "\201c";}

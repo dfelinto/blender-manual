@@ -30,18 +30,19 @@ HDRI Preview Size
    Diameter of the HDRI sphere overlay.
 
 3D Viewport Axis
-   Interactive Navigation
+   :Interactive Navigation:
       Display the axis as an interactive gizmo.
-
-      :Click: Sets the viewport to display along this axis.
-      :Drag: Orbit the view.
-   Simple Axis
+      Click sets the viewport to display along this axis and dragging orbits the view.
+   :Simple Axis:
       Display simple, less intrusive axis in the viewport.
 
-      :Size: Size of the simple axis.
-      :Brightness: How vivid the colors of the simple axis are.
-   Off
+      Brightness
+         How vivid the colors of the simple axis are.
+   :Off:
       Disables the viewport axis.
+
+Size
+   Diameter of the *3D Viewport Axis* widget.
 
 
 .. _prefs-system-multisampling:
@@ -78,12 +79,12 @@ Clip Alpha
 Image Display Method
    Method to render images; the following options are supported:
 
-   Automatic
+   :Automatic:
       Automatically use *GLSL* which runs on the GPU for performance but falls back to
       the CPU for large images which might be slow when loaded with the GPU.
-   2D Texture
+   :2D Texture:
       Uses CPU for display transform and render images as a 2D texture.
-   GLSL
+   :GLSL:
       Fastest method using GLSL for display transform and render images as a 2D texture.
 
 

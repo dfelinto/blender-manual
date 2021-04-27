@@ -38,21 +38,17 @@ Interpolation
 
    .. same as in the Environment Texture node
 
-   Linear
-      Regular quality interpolation.
-   Cubic
-      Smoother, better quality interpolation. For bump maps this should be used to get best results.
-   Closest
-      No interpolation, use only closest pixel for rendering pixel art.
-   Smart :guilabel:`Cycles Only`
+   :Linear: Regular quality interpolation.
+   :Cubic: Smoother, better quality interpolation. For bump maps this should be used to get best results.
+   :Closest: No interpolation, use only closest pixel for rendering pixel art.
+   :Smart: :guilabel:`Cycles Only`
       Only for Open Shading Language. Use cubic interpolation when scaling up and linear when scaling down,
       for a better performance and sharpness.
 Projection
    Projection to use for mapping the textures.
 
-   Flat
-      Uses the XY coordinates for mapping.
-   Box
+   :Flat: Uses the XY coordinates for mapping.
+   :Box:
       Maps the image to the six sides of a virtual box, based on the normal,
       using XY, YZ and XYZ coordinates depending on the side.
 
@@ -62,11 +58,11 @@ Projection
          Blending is useful to map a procedural-like image texture pattern seamlessly on a model.
          0.0 gives no blending; higher values give a smoother transition.
 
-   Sphere
+   :Sphere:
       Sphere mapping is the best type for mapping a sphere,
       and it is perfect for making planets and similar objects.
       It is often very useful for creating organic objects.
-   Tube
+   :Tube:
       Maps the texture around an object like a label on a bottle.
       The texture is therefore more stretched on the cylinder.
       This mapping is of course very good for making the label on a bottle,
@@ -76,12 +72,9 @@ Projection
 Extension
    Extension defines how the image is extrapolated past the original bounds:
 
-   Repeat
-      Will repeat the image horizontally and vertically giving tiled-looking result.
-   Extend
-      Will extend the image by repeating pixels on its edges.
-   Clip
-      Clip to the original image size and set all the exterior pixels values to transparent black.
+   :Repeat: Will repeat the image horizontally and vertically giving tiled-looking result.
+   :Extend: Will extend the image by repeating pixels on its edges.
+   :Clip: Clip to the original image size and set all the exterior pixels values to transparent black.
 
 
 Outputs

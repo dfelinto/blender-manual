@@ -45,10 +45,8 @@ Bands/Rings Direction
 Wave Profile
    Controls the look of the wave type.
 
-   Saw
-      Uses a sawtooth profile.
-   Sine
-      Uses the standard sine profile.
+   :Saw: Uses a sawtooth profile.
+   :Sine: Uses the standard sine profile.
 
 
 Outputs

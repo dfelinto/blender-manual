@@ -32,10 +32,10 @@ Properties
 ==========
 
 Component
-   Diffuse
-      Use shading based on the Diffuse BSDF.
-   Glossy
-      Use shading based on the Glossy BSDF for specular reflection.
+   The material component to base the toon effect.
+
+   :Diffuse: Use shading based on the Diffuse BSDF.
+   :Glossy: Use shading based on the Glossy BSDF for specular reflection.
 
 
 Outputs

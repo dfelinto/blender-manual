@@ -38,23 +38,17 @@ Texture Interpolation
 
    .. same as in the Image Texture node
 
-   Linear
-      Regular quality interpolation.
-   Closest
-      No interpolation, use closest pixel.
-   Cubic
-      Smoother, better quality interpolation.
-   Smart
-      Bicubic when magnifying, otherwise Bilinear is used.
+   :Linear: Regular quality interpolation.
+   :Closest: No interpolation, use closest pixel.
+   :Cubic: Smoother, better quality interpolation.
+   :Smart: Bicubic when magnifying, otherwise Bilinear is used.
       This is only available for :doc:`OSL </render/shader_nodes/osl>`.
 
 Projection Method
    Allows you to use different types of environmental maps. The following methods are supported:
 
-   Equirectangular
-      Projection from an Equirectangular photo.
-   Mirror Ball
-      Projection from an orthographic photo or mirror ball.
+   :Equirectangular: Projection from an Equirectangular photo.
+   :Mirror Ball: Projection from an orthographic photo or mirror ball.
 
 
 Outputs

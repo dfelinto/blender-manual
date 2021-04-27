@@ -42,8 +42,8 @@ Next to the layer name there are four icons buttons that control common properti
 
 .. _bpy.types.GPencilLayer.use_mask_layer:
 
-Mask (mask icon)
-   Toggle the :doc:`Masks </grease_pencil/properties/masks>` visibility in the layer.
+Use Mask (mask icon)
+   Toggle the affect of :doc:`Masks </grease_pencil/properties/masks>` on the layer.
 
 .. _bpy.types.GPencilLayer.use_onion_skinning:
 

@@ -36,7 +36,7 @@ Properties
 Vector Type
    The node applies the transformation differently depending on the semantic type of the input vector.
 
-   Point
+   :Point:
       For this vector type, the node performs a straightforward transformation.
 
       Transforming a texture coordinates is analogous to transforming a UV map.
@@ -50,8 +50,7 @@ Vector Type
       - Translation moves the input along the local rotation axis.
       - Rotation rotates the input around the origin of the space.
       - Scaling scales the input along the global axis.
-
-   Texture
+   :Texture:
       For this vector type, the node performs an inverse transformation.
 
       Inverse transforming a texture coordinates would, as opposed to the *Point* type,
@@ -65,11 +64,9 @@ Vector Type
       - Translation moves the input along the global axis.
       - Rotation rotates the input around the translation vector.
       - Scaling scales the input along the local rotation axis.
-
-   Vector
+   :Vector:
       For this vector type, a *Point* transformation is performed, but with zero translation.
-
-   Normal
+   :Normal:
       For this vector type, the node performs the inverse transpose of the transformation and normalize the result.
       Such transformation ensures correct normals after non-uniform scaling.
       So this type should be used when transforming normals.

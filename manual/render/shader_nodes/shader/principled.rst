@@ -129,10 +129,10 @@ Properties
 Distribution
    Microfacet distribution to use.
 
-   GGX
+   :GGX:
       A method that is faster than *Multiple-scattering GGX*
       but is less physically accurate. Selecting it enables the *Transmission Roughness* input.
-   Multiple-scattering GGX
+   :Multiple-scattering GGX:
       Takes multiple bounce (scattering) events between microfacets into account.
       This gives a more energy conserving results,
       which would otherwise be visible as excessive darkening.
@@ -140,10 +140,10 @@ Distribution
 Subsurface Method
    Rendering method to simulate subsurface scattering.
 
-   Christensen-Burley
+   :Christensen-Burley:
       Is an approximation to physically-based volume scattering.
       Gives less blurry results than Cubic and Gaussian functions.
-   Random Walk
+   :Random Walk:
       Provides the most accurate results for thin and curved objects.
       This comes at the cost of increased render time or noise for more dense media like skin,
       but also better geometry detail preservation.

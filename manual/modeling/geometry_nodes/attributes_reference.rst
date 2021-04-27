@@ -41,6 +41,8 @@ You can use the :doc:`Spreadsheet Editor </editors/spreadsheet>` to determine th
    the domain and type of attributes.
 
 
+.. _geometry-nodes_builtin-attributes:
+
 Built-In Attributes
 ===================
 

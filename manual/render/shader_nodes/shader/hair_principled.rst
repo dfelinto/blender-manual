@@ -189,11 +189,11 @@ Properties
 Color Parametrization
    The shader provides three different ways, or *parametrizations*, to color the hair strands.
 
-   Direct Coloring
+   :Direct Coloring:
       Choose the desired RGB color and the shader will approximate
       the necessary *absorption coefficient* (below).
 
-   Melanin Concentration
+   :Melanin Concentration:
       This mode defines the color as the quantity and
       ratio of the pigments which are commonly found in hair and fur,
       *eumelanin* (prevalent in brown-black hair) and *pheomelanin* (red hair).
@@ -208,7 +208,7 @@ Color Parametrization
 
       Additionally, the *Tint* inputs allows to dye the hair with the desired color.
 
-   Absorption Coefficient
+   :Absorption Coefficient:
       Specifies the attenuation coefficient :math:`\sigma_{a}`, as applied by the `Beer-Lambert law
       <https://en.wikipedia.org/wiki/Beer%E2%80%93Lambert_law#Expression_with_attenuation_coefficient>`__.
       This mode is intended mainly for technical users who want to use coefficients from the literature

@@ -111,17 +111,10 @@ Properties
 Dimensions
    The dimensions of the space to evaluate the noise in.
 
-   1D
-      Evaluate the noise in 1D space at the input W.
-
-   2D
-      Evaluate the noise in 2D space at the input Vector. The Z component is ignored.
-
-   3D
-      Evaluate the noise in 3D space at the input Vector.
-
-   4D
-      Evaluate the noise in 4D space at the input Vector and the input W as the fourth dimension.
+   :1D: Evaluate the noise in 1D space at the input W.
+   :2D: Evaluate the noise in 2D space at the input Vector. The Z component is ignored.
+   :3D: Evaluate the noise in 3D space at the input Vector.
+   :4D: Evaluate the noise in 4D space at the input Vector and the input W as the fourth dimension.
 
    Higher dimensions corresponds to higher render time,
    so lower dimensions should be used unless higher dimensions are necessary.
@@ -129,7 +122,7 @@ Dimensions
 Feature
    The Voronoi feature that the node will compute and return.
 
-   F1
+   :F1:
       Compute and return the distance to the closest feature point as well as its position and color.
 
       .. list-table::
@@ -146,7 +139,7 @@ Feature
 
                 Position.
 
-   F2
+   :F2:
       Compute and return the distance to the second closest feature point as well as its position and color.
 
       .. list-table::
@@ -163,7 +156,7 @@ Feature
 
                 Position.
 
-   Smooth F1
+   :Smooth F1:
       Compute and return a smooth version of F1.
 
       .. list-table::
@@ -180,7 +173,7 @@ Feature
 
                 Position.
 
-   Distance to Edge
+   :Distance to Edge:
       Compute and return the distance to the edges of the Voronoi cells.
 
       .. list-table::
@@ -193,7 +186,7 @@ Feature
 
                 Distance < 0.05.
 
-   N-Sphere Radius
+   :N-Sphere Radius:
       Compute and return the radius of the n-sphere inscribed in the Voronoi cells.
       In other words, it is half the distance between the closest feature point and the feature point closest to it.
 
@@ -210,13 +203,13 @@ Feature
 Distance Metric
    The distance metric used to compute the texture.
 
-   Euclidean
+   :Euclidean:
       Use the `Euclidean distance metric <https://en.wikipedia.org/wiki/Euclidean_distance>`__.
-   Manhattan
+   :Manhattan:
       Use the `Manhattan distance metric <https://en.wikipedia.org/wiki/Taxicab_geometry>`__.
-   Chebychev
+   :Chebychev:
       Use the `Chebychev distance metric <https://en.wikipedia.org/wiki/Chebyshev_distance>`__.
-   Minkowski
+   :Minkowski:
       Use the `Minkowski distance metric <https://en.wikipedia.org/wiki/Minkowski_distance>`__.
       The Minkowski distance is a generalization of the aforementioned metrics with an *Exponent* as a parameter.
       Minkowski with an exponent of one is equivalent to the *Manhattan* distance metric.
