@@ -62,7 +62,7 @@ Target Material
     The Grease Pencil :ref:`bpy.types.MaterialGPencilStyle` to generate strokes with.
 
 Remove Doubles
-    Perform an automatic "merge by distance" operation when loading geometries into Line Art.
+    Perform an automatic merge by distance operation when loading geometries into Line Art.
     The threshold of this operation is internally set to a value that is optimal for Line Art algorithm precision.
 
 Overlapping Edges As Contour
@@ -151,7 +151,7 @@ Threshold
     between them are within the specified threshold.
 
 Angle Splitting
-    Split a chain at sharp "turning" points specified by this angle.
+    Split a chain at sharp `turning` points specified by this angle.
 
 
 Vertex Weight Transfer
