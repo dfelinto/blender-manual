@@ -21,29 +21,29 @@ You know that a data is packed when you see a little "gift box" icon displayed n
 Pack Data
 =========
 
-Pack All
---------
+Pack Resources
+--------------
 
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`File --> External Data --> Pack All Into .blend`
+   :Panel:     :menuselection:`File --> External Data --> Pack Resources`
 
-Mark all eligible external files used by the blend-file as packed.
+Mark all eligible external resource files used by the blend-file as packed.
 Actual packing will happen on the next save of the blend-file.
 
 
-Automatically Pack
-------------------
+Automatically Pack Resources
+----------------------------
 
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`File --> External Data --> Automatically Pack Into .blend`
+   :Panel:     :menuselection:`File --> External Data --> Automatically Pack Resources`
 
-When enabled, this option will ensure that all eligible external files, existing or added later,
+When enabled, this option will ensure that all eligible external resource files, existing or added later,
 are systematically marked as packed.
-As with *Pack All Into .blend*, the blend-file must be saved to the drive for this to have an effect.
+As with *Pack Resources*, the blend-file must be saved to the drive for this to have an effect.
 
 Disabling that option won't unpack anything, but future external files
 won't be automatically marked as packed anymore.
@@ -58,15 +58,15 @@ A single file can be packed by clicking on the little "gift box" icon to the lef
 Unpack Data
 ===========
 
-Unpack All
+Unpack Resources
 ----------
 
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`File --> External Data --> Unpack All Into Files`
+   :Panel:     :menuselection:`File --> External Data --> Unpack Resources`
 
-Unpack all external files stored into a blend-file.
+Unpack all external resource files stored into a blend-file.
 
 
 Options
@@ -84,7 +84,7 @@ Use files in original location (create when necessary)
 Write files to original location (overwrite existing files)
    As with previous option, but if the final file exists already, it will overwrite it.
 Disable AutoPack, keep all packed files
-   Only deactivates the *Automatically Pack Into .blend* option.
+   Only deactivates the *Automatically Pack Resources* option.
 
 
 Selective Unpacking
@@ -110,3 +110,28 @@ Overwrite <original file path>
    mark it as unpacked and overwrite the on-drive file with the packed version.
 Create <original file path>
    If the original file path does not exist, mark it as unpacked and write it to drive.
+
+
+Pack Linked Libraries
+=====================
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Panel:     :menuselection:`File --> External Data --> Pack Linked Libraries`
+
+
+Mark all linked library files into the current .blend as packed.
+Actual packing will happen on othe next save of the blend-file.
+
+
+Unpack Linked Libraries
+=======================
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Panel:     :menuselection:`File --> External Data --> Unpack Linked Libraries`
+
+Unpack all used linked library files from this .blend file.
+
