@@ -21,6 +21,8 @@ You know that a data is packed when you see a little "gift box" icon displayed n
 Pack Data
 =========
 
+.. _bpy.ops.file.pack_all:
+
 Pack Resources
 --------------
 
@@ -32,6 +34,8 @@ Pack Resources
 Mark all eligible external resource files used by the blend-file as packed.
 Actual packing will happen on the next save of the blend-file.
 
+
+.. _bpy.ops.file.autopack_toggle:
 
 Automatically Pack Resources
 ----------------------------
@@ -58,8 +62,10 @@ A single file can be packed by clicking on the little "gift box" icon to the lef
 Unpack Data
 ===========
 
+.. _bpy.ops.file.unpack_all:
+
 Unpack Resources
-----------
+----------------
 
 .. admonition:: Reference
    :class: refbox
@@ -112,6 +118,8 @@ Create <original file path>
    If the original file path does not exist, mark it as unpacked and write it to drive.
 
 
+.. _bpy.ops.file.pack_libraries:
+
 Pack Linked Libraries
 =====================
 
@@ -125,6 +133,8 @@ Mark all linked library files into the current .blend as packed.
 Actual packing will happen on othe next save of the blend-file.
 
 
+.. _bpy.ops.file.unpack_libraries:
+
 Unpack Linked Libraries
 =======================
 
@@ -134,4 +144,3 @@ Unpack Linked Libraries
    :Panel:     :menuselection:`File --> External Data --> Unpack Linked Libraries`
 
 Unpack all used linked library files from this .blend file.
-
