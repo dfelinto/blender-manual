@@ -47,6 +47,11 @@ Operation
    :Cross Product: The cross product of A and B.
    :Project: The projection of A onto B.
    :Reflect: The reflection of A around the normal B. B need not be normalized.
+   :Refract:
+      For a given incident vector A, surface normal B and ratio of indices of refraction (IOR)
+      refract outputs the refraction vector R.
+   :Faceforward: Orients a vector A to point away from a surface B as defined by its normal C.
+      Computes :math:`(dot(B, C) < 0) ? A : -A`.
    :Dot Product: The dot product of A and B.
    :Distance: The distance between A and B.
    :Length: The length of A.

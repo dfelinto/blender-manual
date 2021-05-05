@@ -177,7 +177,7 @@ Beam Shape
 .. _bpy.types.AreaLight.spread:
 
 Spread :guilabel:`Cycles Only`
-   How wide the emitted light fans out controling how diffused the light is.
+   How wide the emitted light fans out controlling how diffused the light is.
    Larger values create soft shadows while smaller values create sharper light
    simulating a `gridded softbox <https://en.wikipedia.org/wiki/Softbox>`__.
 

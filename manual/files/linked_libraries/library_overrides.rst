@@ -37,10 +37,11 @@ Creating an Override
 .. admonition:: Reference
    :class: refbox
 
+   :Editor:    3D Viewport and Outliner
    :Mode:      Object Mode
-   :Menu:      :menuselection:`Object --> Relations --> Make Override Library...`
-   :Outliner:  :menuselection:`Context Menu --> ID Data --> Make Library Override Hierarchy`
-               :menuselection:`Context Menu --> ID Data --> Make Library Override`
+   :Menu:      :menuselection:`3D Viewport --> Header --> Object --> Relations --> Make Override Library`
+               :menuselection:`Outliner --> Context Menu --> ID Data --> Make Library Override Hierarchy`
+               :menuselection:`Outliner --> Context Menu --> ID Data --> Make Library Override`
 
 There are two ways to create an override of a linked data-block.
 
@@ -82,8 +83,10 @@ Converting Proxies to Library Override
 .. admonition:: Reference
    :class: refbox
 
+   :Editor:    3D Viewport and Outliner
    :Mode:      Object Mode
-   :Menu:      :menuselection:`Object --> Relations --> Convert Proxy to Library Override`
+   :Menu:      :menuselection:`3D Viewport --> Header --> Object --> Relations --> Convert Proxy to Library Override`
+               :menuselection:`Outliner -->  ID Data --> Convert Proxy to Library Override`
 
 Converts a :doc:`Proxy </files/linked_libraries/library_proxies>` to a local override.
 This operator is used to help convert older blend-files to the new override system.
@@ -111,6 +114,7 @@ Define Overrides
 .. admonition:: Reference
    :class: refbox
 
+   :Editor:    Any
    :Mode:      Object Mode
    :Property:  :menuselection:`Context Menu --> Define Overrides`
                :menuselection:`Context Menu --> Define Override`
@@ -125,6 +129,7 @@ Define Single Override
 .. admonition:: Reference
    :class: refbox
 
+   :Editor:    Any
    :Mode:      Object Mode
    :Property:  :menuselection:`Context Menu --> Define Single Override`
 
@@ -140,6 +145,7 @@ Remove Overrides
 .. admonition:: Reference
    :class: refbox
 
+   :Editor:    Any
    :Mode:      Object Mode
    :Property:  :menuselection:`Context Menu --> Remove Overrides`
                :menuselection:`Context Menu --> Remove Override`
@@ -154,6 +160,7 @@ Remove Single Override
 .. admonition:: Reference
    :class: refbox
 
+   :Editor:    Any
    :Mode:      Object Mode
    :Property:  :menuselection:`Context Menu --> Remove Single Override`
 
@@ -167,6 +174,7 @@ Reset Library Override
 .. admonition:: Reference
    :class: refbox
 
+   :Editor:    Outliner
    :Mode:      Object Mode
    :Outliner:  :menuselection:`Context Menu --> ID Data --> Reset Library Override`
                :menuselection:`Context Menu --> ID Data --> Reset Library Override Hierarchy`
@@ -181,6 +189,7 @@ Resync Library Override Hierarchy
 .. admonition:: Reference
    :class: refbox
 
+   :Editor:    Outliner
    :Mode:      Object Mode
    :Outliner:  :menuselection:`Context Menu --> ID Data --> Resync Library Override Hierarchy`
 
@@ -195,6 +204,7 @@ Delete Library Override Hierarchy
 .. admonition:: Reference
    :class: refbox
 
+   :Editor:    Outliner
    :Mode:      Object Mode
    :Outliner:  :menuselection:`Context Menu --> ID Data --> Delete Library Override Hierarchy`
 

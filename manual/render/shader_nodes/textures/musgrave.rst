@@ -1,4 +1,4 @@
-::.. _bpy.ShaderNodeTexMusgrave:
+.. _bpy.ShaderNodeTexMusgrave:
 
 *********************
 Musgrave Texture Node
@@ -59,7 +59,7 @@ unless higher dimensions are necessary.
 Type
    Type of the Musgrave texture.
 
-   :fBM (fractal Brownian Motion):
+   :FBM (Fractal Brownian Motion):
       Produces an unnatural homogeneous and isotropic result.
       Uses an additive cascade, the values are simply added together.
    :Multifractal:

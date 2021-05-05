@@ -13,22 +13,22 @@ Line Art
 The *Line Art* panel is used to enable extra display options for customizing
 line art rendering for a specific object.
 
-.. figure:: /images/scene-layout_object_properties_lineart_panel.png
+.. figure:: /images/scene-layout_object_properties_line-art_panel.png
 
    Line Art panel.
 
 .. _bpy.types.ObjectLineArt.usage:
 
 Usage
-   How the object is loaded into line art. Default is "Inherit".
-   This property overrides the parent collection's :ref:`scene_layout-collections-lineart` usage.
+   How the object is loaded into line art.
+   This property overrides the parent collection's :ref:`scene_layout-collections-line-art` usage.
 
    :Inherit:
       No special loading strategy for line art.
       Loading of the object is controlled by parent collection's line art settings.
    :Include:
-      Force include the object into line art calculation even if
-      its parent collection specifies otherwise.
+      Force include the object into line art calculation
+      even if its parent collection specifies otherwise.
    :Intersection Only:
       The object will only produce intersection lines in the scene and its own geometry stays invisible.
    :Occlusion Only:

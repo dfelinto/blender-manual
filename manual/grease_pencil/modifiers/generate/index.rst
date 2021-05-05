@@ -8,7 +8,7 @@
 
    array.rst
    build.rst
-   lineart.rst
+   line_art.rst
    mirror.rst
    multiple_strokes.rst
    simplify.rst

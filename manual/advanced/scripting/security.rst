@@ -6,9 +6,7 @@ Scripting & Security
 The ability to include Python scripts within blend-files is valuable for advanced tasks
 such as rigging and automation. However, it poses a security risk since
 Python does not restrict what a script can do.
-
 Therefore, you should only run scripts from sources you know and trust.
-
 Automatic execution is disabled by default,
 however, some blend-files need this to function properly.
 
@@ -53,7 +51,6 @@ from a blend-file are allowed to automatically execute.
 
 First of all, the File Browser has the option **Trusted Source** which you can use on
 a case-by-case basis to control auto execution.
-
 However, you may forget to set this,
 or open a file without going through the File Browser --
 so you can change the default (described next).
@@ -63,10 +60,8 @@ Setting Defaults
 ----------------
 
 In the Preferences, there is the toggle to :ref:`Auto Run Python Scripts <prefs-auto-execution>`.
-
 This means the **Trusted Source** option in the File Browser will be enabled by default,
 and scripts can run when blend-files are loaded without using the File Browser.
-
 Once enabled you have the option to exclude certain directories,
 a typical configuration would be to trust all paths except for the download directory.
 
@@ -80,7 +75,6 @@ Command Line
 
 You may want to perform batch rendering or some other task from the command line --
 running Blender without an interface.
-
 In this case, the Preferences are still used but you may want to override them:
 
 - Enable with ``-y`` or ``--enable-autoexec``

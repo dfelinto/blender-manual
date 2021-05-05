@@ -15,12 +15,12 @@ F-Curve Modifiers
 
 F-Curve modifiers are similar to object modifiers, in that they add non-destructive effects,
 that can be adjusted at any time, and layered to create more complex effects.
-Like object modifiers, F-Curve modifiers are evaluated from the top down.
+Like object modifiers, F-curve modifiers are evaluated from the top down.
 In other words, the top modifier is calculated first and consequent modifiers are calculated in order.
 Modifiers can be moved by dragging the modifier box from the top right.
 
-Modifiers can be muted or hidden by toggling the checkbox in the modifier's header region.
-Modifiers can be removed using the delete button in the modifier's header region.
+Modifiers can be muted or hidden by toggling the checkbox in the modifier's panel header.
+They can be removed using the delete button in the modifier's panel header.
 
 
 Adding a Modifier
@@ -44,14 +44,14 @@ Types of Modifiers
 Generator Modifier
 ------------------
 
-Generator creates Polynomial function.
+Generator creates a polynomial function.
 These are basic mathematical formulas that represent lines, parabolas,
 and other more complex curves, depending on the values used.
 
 Mode
    Method used to represent the equation.
 
-   :Expanded Polynomial:  Equation in the form :math:`y = x^1 + x^2 + ... + x^n`.
+   :Expanded Polynomial:   Equation in the form :math:`y = x^1 + x^2 + ... + x^n`.
    :Factorized Polynomial: Equation in the form :math:`y = (Ax + B)(Cx + D)`.
 
 Additive
@@ -69,16 +69,16 @@ Order
       for more information on polynomials.
 
 Influence
-   Controls the percentage of affect the modifier has on the F-Curve.
+   Controls the percentage of affect the modifier has on the F-curve.
 
 
 Restrict Frame Range
 ^^^^^^^^^^^^^^^^^^^^
 
 Start/End
-   The frame the modifier's affect starts/ends
+   The frame the modifier's affect starts/ends.
 Blend In, Out
-   The number of frames, relative the the start/end values above, the modifier takes to fade in/out.
+   The number of frames, relative the start/end values above, the modifier takes to fade in/out.
 
 
 .. index:: F-Curve Modifiers; Built-in Function Modifier
@@ -113,16 +113,16 @@ Value Offset
    Adjusts the Y offset.
 
 Influence
-   Controls the percentage of affect the modifier has on the F-Curve.
+   Controls the percentage of affect the modifier has on the F-curve.
 
 
 Restrict Frame Range
 ^^^^^^^^^^^^^^^^^^^^
 
 Start/End
-   The frame the modifier's affect starts/ends
+   The frame the modifier's affect starts/ends.
 Blend In, Out
-   The number of frames, relative the the start/end values above, the modifier takes to fade in/out.
+   The number of frames, relative the start/end values above, the modifier takes to fade in/out.
 
 
 .. index:: F-Curve Modifiers; Envelope Modifier
@@ -153,16 +153,16 @@ Point
       Specifies the upper control point's position.
 
 Influence
-   Controls the percentage of affect the modifier has on the F-Curve.
+   Controls the percentage of affect the modifier has on the F-curve.
 
 
 Restrict Frame Range
 ^^^^^^^^^^^^^^^^^^^^
 
 Start/End
-   The frame the modifier's affect starts/ends
+   The frame the modifier's affect starts/ends.
 Blend In, Out
-   The number of frames, relative the the start/end values above, the modifier takes to fade in/out.
+   The number of frames, relative the start/end values above, the modifier takes to fade in/out.
 
 
 .. index:: F-Curve Modifiers; Cycles Modifier
@@ -191,16 +191,16 @@ Count
    Set the number of times to cycle the data. A value of 0 cycles the data infinitely.
 
 Influence
-   Controls the percentage of affect the modifier has on the F-Curve.
+   Controls the percentage of affect the modifier has on the F-curve.
 
 
 Restrict Frame Range
 ^^^^^^^^^^^^^^^^^^^^
 
 Start/End
-   The frame the modifier's affect starts/ends
+   The frame the modifier's affect starts/ends.
 Blend In, Out
-   The number of frames, relative the the start/end values above, the modifier takes to fade in/out.
+   The number of frames, relative the start/end values above, the modifier takes to fade in/out.
 
 
 Trivially Cyclic Curves
@@ -245,16 +245,16 @@ Depth
    Adjusts how detailed the noise function is.
 
 Influence
-   Controls the percentage of affect the modifier has on the F-Curve.
+   Controls the percentage of affect the modifier has on the F-curve.
 
 
 Restrict Frame Range
 ^^^^^^^^^^^^^^^^^^^^
 
 Start/End
-   The frame the modifier's affect starts/ends
+   The frame the modifier's affect starts/ends.
 Blend In, Out
-   The number of frames, relative the the start/end values above, the modifier takes to fade in/out.
+   The number of frames, relative the start/end values above, the modifier takes to fade in/out.
 
 
 .. index:: F-Curve Modifiers; Limits Modifier
@@ -271,16 +271,16 @@ Minimum X, Y
    Truncates the curve values to a range.
 
 Influence
-   Controls the percentage of affect the modifier has on the F-Curve.
+   Controls the percentage of affect the modifier has on the F-curve.
 
 
 Restrict Frame Range
 ^^^^^^^^^^^^^^^^^^^^
 
 Start/End
-   The frame the modifier's affect starts/ends
+   The frame the modifier's affect starts/ends.
 Blend In, Out
-   The number of frames, relative the the start/end values above, the modifier takes to fade in/out.
+   The number of frames, relative the start/end values above, the modifier takes to fade in/out.
 
 
 .. index:: F-Curve Modifiers; Stepped Interpolation Modifier
@@ -302,13 +302,13 @@ End Frame
    Restrict modifier to only act after its "start" frame.
 
 Influence
-   Controls the percentage of affect the modifier has on the F-Curve.
+   Controls the percentage of affect the modifier has on the F-curve.
 
 
 Restrict Frame Range
 ^^^^^^^^^^^^^^^^^^^^
 
 Start/End
-   The frame the modifier's affect starts/ends
+   The frame the modifier's affect starts/ends.
 Blend In, Out
-   The number of frames, relative the the start/end values above, the modifier takes to fade in/out.
+   The number of frames, relative the start/end values above, the modifier takes to fade in/out.

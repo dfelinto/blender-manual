@@ -58,7 +58,7 @@ Component
    Usually you are going to want each of these and use a :doc:`Mix Node </render/shader_nodes/shader/mix>`.
 
    :Reflection: The light that bounces off the surface of the hair.
-   :Transmission: The light that passes through the hair and comes out the other side.
+   :Transmission: The light that passes through the hair and exits on the other side.
 
    .. figure:: /images/render_shader-nodes_shader_hair_mix-node.png
       :align: center

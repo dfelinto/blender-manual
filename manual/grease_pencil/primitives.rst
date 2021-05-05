@@ -45,19 +45,19 @@ It creates a 2D monkey head. The Monkey's name is "Suzanne" and is Blender's mas
 Scene Line Art
 ==============
 
-Sets up a :doc:`/grease_pencil/modifiers/generate/lineart` for the active scen
+Sets up a :doc:`/grease_pencil/modifiers/generate/line_art` for the active scene
 by creating an "empty" Grease Pencil object with a Line Art modifier referencing each object in the scene.
 
 
 Collection Line Art
 ===================
 
-Sets up a :doc:`/grease_pencil/modifiers/generate/lineart` for the active collection
+Sets up a :doc:`/grease_pencil/modifiers/generate/line_art` for the active collection
 by creating an "empty" Grease Pencil object with a Line Art modifier referencing each object in the collection.
 
 
 Object Line Art
 ===============
 
-Sets up a :doc:`/grease_pencil/modifiers/generate/lineart` for the active object
+Sets up a :doc:`/grease_pencil/modifiers/generate/line_art` for the active object
 by creating an "empty" Grease Pencil object with a Line Art modifier referencing the active object.

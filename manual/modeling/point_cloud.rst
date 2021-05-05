@@ -21,7 +21,6 @@ Attributes
 ----------
 
 The *Attributes* panel contains different point cloud characteristics such as the position and size of points.
-
 Use the :ref:`List View <ui-list-view>` to manage attributes.
 
 
@@ -30,7 +29,7 @@ Attribute Types
 
 .. seealso::
 
-   See :ref:`geometry-nodes_builtin-attributes` for infomation about common attributes.
+   See :ref:`geometry-nodes_builtin-attributes` for information about common attributes.
 
 .. list-table::
    :widths: 10 10 10 50

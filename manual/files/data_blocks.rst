@@ -37,92 +37,6 @@ bones, sequence strips or vertex groups e.g. are not,
 they belong to armature, scene and mesh types respectively.
 
 
-Life Time
-=========
-
-Every data-block has its usage counted (reference count), when there is more than one,
-you can see the number of current users of a data-block to the right of its name in the UI.
-
-Blender follows the general rule that unused data is eventually removed.
-
-Since it is common to add and remove a lot of data while working,
-this has the advantage of not having to manually manage every single data-block.
-
-This works by skipping zero user data-blocks when writing blend-files.
-
-
-.. _data-system-datablock-fake-user:
-
-Protected
----------
-
-Since zero user data-blocks are not saved,
-there are times when you want to force the data to be kept irrespective of its users.
-
-If you are building a blend-file to serve as a library of things that you intend to link to and from other files,
-you will need to make sure that they do not accidentally get deleted from the library file.
-
-To protect a data-block, use the button with the shield icon next to its name.
-The data-block will then never be silently deleted by Blender,
-but you can still do it manually if needed.
-
-
-Sharing
-=======
-
-Data-blocks can be shared among other data-blocks.
-
-Examples where sharing data is common:
-
-- Sharing textures among materials.
-- Sharing meshes between objects (instances).
-- Sharing animated actions between objects,
-  for example to make all the lights dim together.
-
-You can also share data-blocks between files, see
-:doc:`linked libraries </files/linked_libraries/index>`.
-
-
-.. _data-system-datablock-make-single-user:
-
-Making Single User
-==================
-
-When a data-block is shared between several users, you can make a copy of it for a given user.
-To do so, click on the user count button to the right of its name.
-This will duplicate that data-block and assign the newly created copy to that usage only.
-
-.. note::
-
-   Objects have a set of more advanced actions to become single-user,
-   see :ref:`their documentation <bpy.ops.object.make_single_user>`.
-
-
-Removing Data-Blocks
-====================
-
-As covered in `Life Time`_, data-blocks are typically removed when they are no longer used.
-
-They can also be manually *unlinked* or *deleted*.
-
-Unlinking a data-block means that its user won't use it anymore.
-This can be achieved by clicking on the "X" icon next to a data-block's name.
-
-If you unlink a data-block from all of its users,
-it will eventually be deleted by Blender as described above (unless it is a protected one).
-
-Deleting a data-block directly erases it from the blend-file, automatically unlinking it from all of its users.
-This can be achieved by :kbd:`Shift-LMB` on the "X" icon next to its name.
-
-.. warning::
-
-   Deleting some data-blocks can lead to deletion of some of its users, which would become invalid without them.
-   The main example is that object-data deletion (like mesh, curve, camera...) will also delete all objects using it.
-
-Those two operations are also available in the context menu
-when :kbd:`RMB`-clicking on a data-block in the *Outliner*.
-
-
 .. _data-system-datablock-types:
 
 Data-Block Types
@@ -144,11 +58,11 @@ Data-Block Types
 
 For reference, here is a table of data-blocks types stored in blend-files.
 
-:Link:
+Link
    Library Linking, supports being linked into other blend-files.
-:Pack:
+Pack
    File Packing, supports file contents being packed into the blend-file
-   *(not applicable for most data-blocks which have no file reference)*.
+   (**not** applicable for most data-blocks which have no file reference).
 
 .. EDITORS NOTE:
    For each data-block, we have 2 lines.
@@ -328,7 +242,7 @@ For reference, here is a table of data-blocks types stored in blend-files.
    * - :doc:`Window Manager </interface/window_system/introduction>`
      - |cross|
      - |none|
-     - | The overarching manager for all of Blender's UI.
+     - | The overarching manager for all of Blender's user interface.
        | Includes Workspaces, notification system, operators, and keymaps.
    * - :doc:`World </render/lights/world>`
      - |tick|
@@ -339,6 +253,88 @@ For reference, here is a table of data-blocks types stored in blend-files.
      - |none|
      - | UI layout.
        | Used by each window, which has its own workspace.
+
+
+Life Time
+=========
+
+Every data-block has its usage counted (reference count), when there is more than one,
+you can see the number of current users of a data-block to the right of its name in the interface.
+Blender follows the general rule that unused data is eventually removed.
+
+Since it is common to add and remove a lot of data while working,
+this has the advantage of not having to manually manage every single data-block.
+This works by skipping zero user data-blocks when writing blend-files.
+
+
+.. _data-system-datablock-fake-user:
+
+Protected
+---------
+
+Since zero user data-blocks are not saved,
+there are times when you want to force the data to be kept irrespective of its users.
+
+If you are building a blend-file to serve as a library of assets that you intend to link to and from other files,
+you will need to make sure that they do not accidentally get deleted from the library file.
+
+To protect a data-block, use the button with the shield icon next to its name.
+The data-block will then never be silently deleted by Blender,
+but you can still manually remove it if needed.
+
+
+Sharing
+=======
+
+Data-blocks can be shared among other data-blocks.
+
+Examples where sharing data is common:
+
+- Sharing textures among materials.
+- Sharing meshes between objects (instances).
+- Sharing animated actions between objects,
+  for example to make all the lights dim together.
+
+You can also share data-blocks between files, see
+:doc:`linked libraries </files/linked_libraries/index>`.
+
+
+.. _data-system-datablock-make-single-user:
+
+Making Single User
+==================
+
+When a data-block is shared between several users, you can make a copy of it for a given user.
+To do so, click on the user count button to the right of its name.
+This will duplicate that data-block and assign the newly created copy to that usage only.
+
+.. note::
+
+   Objects have a set of more advanced actions to become single-user,
+   see :ref:`their documentation <bpy.ops.object.make_single_user>`.
+
+
+Removing Data-Blocks
+====================
+
+As covered in `Life Time`_, data-blocks are typically removed when they are no longer used.
+They can also be manually *unlinked* or *deleted*.
+
+Unlinking a data-block means that its user won't use it anymore.
+This can be achieved by clicking on the "X" icon next to a data-block's name.
+If you unlink a data-block from all of its users,
+it will eventually be deleted by Blender as described above (unless it is a protected one).
+
+Deleting a data-block directly erases it from the blend-file, automatically unlinking it from all of its users.
+This can be achieved by :kbd:`Shift-LMB` on the "X" icon next to its name.
+
+.. warning::
+
+   Deleting some data-blocks can lead to deletion of some of its users, which would become invalid without them.
+   The main example is that object-data deletion (like mesh, curve, camera...) will also delete all objects using it.
+
+Those two operations are also available in the context menu
+when :kbd:`RMB`-clicking on a data-block in the *Outliner*.
 
 
 .. _files-data_blocks-custom-properties:

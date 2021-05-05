@@ -12,6 +12,7 @@
    attribute_compare.rst
    attribute_convert.rst
    attribute_fill.rst
+   attribute_map_range.rst
    attribute_math.rst
    attribute_mix.rst
    attribute_proximity.rst

@@ -36,7 +36,7 @@ Particle System
 Space
    The coordinate system for mapping points.
 
-   :World Space: Map each point exactly where the source particle/vertex is.
+   :World Space: Map each point exactly where the source particle or vertex is.
    :Object Space:
       Fit the points from the source particles/vertices
       inside the bounding box of the object with the point density texture.

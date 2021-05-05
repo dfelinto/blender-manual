@@ -9,13 +9,26 @@ For example, every vertex can have an associated number or vector.
 Attributes can be altered by the nodes in the *Attribute* category, but also some other nodes can
 change the values of specific attributes.
 
-.. hint::
-
-   The blue attribute sockets are just string sockets, used to define which attribute in the geometry to use.
-
 .. note::
 
    Attribute data types are converted implicitly where possible, just like node sockets.
+
+
+Attribute Sockets
+=================
+
+The blue attribute sockets are just string sockets, used to define which attribute in the geometry to use.
+When a node part of the evaluated node tree (connected to the root group input and output),
+the string input allows you to search and choose existing attributes.
+
+.. figure:: /images/modeling_geometry-nodes_attribute-reference_search.png
+   :align: center
+
+   Attribute Search.
+
+The attribute search gives a bit of context about each attribute.
+To the left of the menu, the attribute domain is shown followed by the attribute name.
+To the right of the menu, the attribute data type is shown.
 
 
 Attribute Domains
@@ -28,7 +41,7 @@ You can use the :doc:`Spreadsheet Editor </editors/spreadsheet>` to determine th
 - Point domain attributes are associated with the vertices of the mesh or the points in a point cloud.
 - Edge domain attributes are associated with the edges of the mesh.
 - Face domain attributes are associated with the faces of the mesh.
-- Face corner domain attributes are associated with the corners of the faces of the mesh.
+- Face Corner domain attributes are associated with the corners of the faces of the mesh.
   An example is the *UVMap* attribute.
 
 .. note::

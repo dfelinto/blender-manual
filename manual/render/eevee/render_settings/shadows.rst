@@ -23,7 +23,7 @@ Cascade Size
 
 High Bitdepth
    This option can help reduce some artifacts due to float imprecision inside the shadow maps.
-   This option effectively double the memory usage of shadow maps and will slow down their update.
+   This option effectively doubles the memory usage of shadow maps and will slow down their update.
 
 Soft Shadows
    Randomize the shadow maps origin to create soft shadows. It needs a lot of samples to get rid of the banding.

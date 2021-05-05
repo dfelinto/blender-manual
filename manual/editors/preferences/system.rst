@@ -95,9 +95,9 @@ Memory Cache Limit
    Upper limit of the Video Sequencer and Movie Clip Editor memory cache (in megabytes).
    For an optimal Clip editor and Sequencer performance, high values are recommended.
 Use Disk Cache
-   Writes cached strips to disk which can store a lot more than
-   to use Disk Cache, this option must be enabled,
-   the *Disk Cache Directory* and *Disk Cache Limit*, and then save or reopen existing blend-file.
+   Writes cached strips to disk which can store a lot more than RAM.
+   To use the Disk Cache, this option must be enabled,
+   the *Disk Cache Directory* and *Disk Cache Limit* set, then save or reopen the existing blend-file.
 Directory
    The location on disk to store the cache.
 Cache Limit
@@ -110,7 +110,7 @@ Compression
 Proxy Setup
    When and how :doc:`Proxies </video_editing/sequencer/sidebar/proxy>` are created.
 
-   :Automatic: Build proxies for added movie and image strips in each preview size
+   :Automatic: Build proxies for added movie and image strips in each preview size.
    :Manual: Set up proxies manually.
 
 .. seealso::

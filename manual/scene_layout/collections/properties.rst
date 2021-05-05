@@ -40,7 +40,7 @@ Instance Offset
    Offset from the origin when instancing.
 
 
-.. _scene_layout-collections-lineart:
+.. _scene_layout-collections-line-art:
 
 Line Art
 ========
@@ -56,10 +56,10 @@ Usage
       Include all objects in this collection into line art calculation.
    :Intersection Only:
       Objects in the collection will only produce intersection lines in
-      the scene and their own geometries stay invisible.
+      the scene and their own geometry stay invisible.
    :Occlusion Only:
       Objects in the collection will only cause occlusion to existing feature lines
-      and their geometries stay invisible.
+      and their geometry stay invisible.
    :Exclude:
       Objects in this collection will not be loaded into line art at all.
    :No Intersection:

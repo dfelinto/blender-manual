@@ -120,10 +120,10 @@ Dimensions
    so lower dimensions should be used unless higher dimensions are necessary.
 
 Feature
-   The Voronoi feature that the node will compute and return.
+   The Voronoi feature that the node will compute.
 
    :F1:
-      Compute and return the distance to the closest feature point as well as its position and color.
+      The distance to the closest feature point as well as its position and color.
 
       .. list-table::
 
@@ -140,7 +140,7 @@ Feature
                 Position.
 
    :F2:
-      Compute and return the distance to the second closest feature point as well as its position and color.
+      The distance to the second closest feature point as well as its position and color.
 
       .. list-table::
 
@@ -157,7 +157,7 @@ Feature
                 Position.
 
    :Smooth F1:
-      Compute and return a smooth version of F1.
+      A smooth version of F1.
 
       .. list-table::
 
@@ -174,7 +174,7 @@ Feature
                 Position.
 
    :Distance to Edge:
-      Compute and return the distance to the edges of the Voronoi cells.
+      The distance to the edges of the Voronoi cells.
 
       .. list-table::
 
@@ -184,10 +184,10 @@ Feature
 
            - .. figure:: /images/render_shader-nodes_textures_voronoi_distance-to-edge-less-than.png
 
-                Distance < 0.05.
+                Distance smaller than 0.05.
 
    :N-Sphere Radius:
-      Compute and return the radius of the n-sphere inscribed in the Voronoi cells.
+      The radius of the n-sphere inscribed in the Voronoi cells.
       In other words, it is half the distance between the closest feature point and the feature point closest to it.
 
       .. list-table::

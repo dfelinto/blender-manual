@@ -34,7 +34,7 @@ Font
    Bold
       Use a bold font face with a strong/thick visual appearance.
    Italics
-      Use an italizized font face with a slanted visual appearance.
+      Use an italicized font face with a slanted visual appearance.
 Size
    Size of the text.
 Color
@@ -63,4 +63,4 @@ Example
 
 .. figure:: /images/video-editing_sequencer_strips_text_example.png
 
-   Text Effect.
+   Text effect.

@@ -45,6 +45,14 @@ Type
    :Vector: Array of three (floating-point) values.
    :Boolean: A true or false value.
 
+Operation
+   How new random attribute values relate to the existing attribute values.
+
+   :Replace/Create: Replace the value and data type of an existing attribute, or create a new one.
+   :Add: Add the random values to the existing attribute values.
+   :Subtract: Subtract random values from the existing attribute values.
+   :Multiply: Multiply the existing attribute values with the random values.
+
 
 Outputs
 =======
