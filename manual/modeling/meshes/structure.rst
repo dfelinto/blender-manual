@@ -19,7 +19,7 @@ Vertices
 
 The most elementary part of a mesh is the vertex (vertices plural) which is a single point or position in 3D space.
 Vertices are represented in the 3D Viewport in Edit Mode as small dots.
-The vertices of and object are stored as an array of coordinates.
+The vertices of an object are stored as an array of coordinates.
 
 .. tip::
 
@@ -247,7 +247,7 @@ deform very well in animation.
 
 Take Fig. :ref:`fig-mesh-topo-loop` in organic modeling as an example: the edge loops follow
 the natural contours and deformation lines of the skin and the underlying muscles and
-are more dense in areas that deform more when the character moves, for example at the shoulders or knees.
+are denser in areas that deform more when the character moves, for example at the shoulders or knees.
 
 Further details on working with edge loops can be found in
 :ref:`Edge Loop Selection <bpy.ops.mesh.loop_multi_select>`.
