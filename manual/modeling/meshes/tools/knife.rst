@@ -54,12 +54,12 @@ Only Selected :kbd:`Shift-K`
 Controls
 ========
 
-Confirm :kbd:`LMB` or :kbd:`Return`
+Confirm :kbd:`Spacebar` or :kbd:`Return`
    Confirms the cut.
    :kbd:`Return` will leave selected every edge except the new edges created from the cut.
 
-Cancel
-   Cancels the tool.
+Cancel :kbd:`RMB`
+   Cancels the cut.
 
 Draw a Continuous Line :kbd:`LMB` drag.
    So you can draw a free-hand line over a surface,
