@@ -34,6 +34,17 @@ It will then restart the player with the new data.
    To do this, select it in the :doc:`Preferences </editors/preferences/file_paths>`.
 
 
+Player Options
+--------------
+
+Ping Pong
+   When enabled, playback loops forwards than backwards.
+X/Y Flip
+   Flip the image horizontally or vertically.
+
+   *Viewing the animation from a different perspective can help you see the animation with "fresh eyes".*
+
+
 Shortcuts
 ---------
 
@@ -120,19 +131,35 @@ The following table shows the available hotkeys for the animation player.
      - :kbd:`Ctrl-NumpadMinus`
 
 
-.. rubric:: Frame rate
+.. rubric:: Frame Rate
 
-- 60 fps :kbd:`Numpad1`
-- 50 fps :kbd:`Numpad2`
-- 30 fps :kbd:`Numpad3`
-- 25 fps :kbd:`Numpad4`
-- 24 fps :kbd:`Shift-Numpad4`
-- 20 fps :kbd:`Numpad5`
-- 15 fps :kbd:`Numpad6`
-- 12 fps :kbd:`Numpad7`
-- 10 fps :kbd:`Numpad8`
-- |numsp|\ 6 fps :kbd:`Numpad9`
-- |numsp|\ 5 fps :kbd:`NumpadSlash`
+.. list-table::
+   :header-rows: 1
+
+   * - Action
+     - Hotkey
+   * - 60 fps
+     - :kbd:`Numpad1`
+   * - 50 fps
+     - :kbd:`Numpad2`
+   * - 30 fps
+     - :kbd:`Numpad3`
+   * - 25 fps
+     - :kbd:`Numpad4`
+   * - 24 fps
+     - :kbd:`Shift-Numpad4`
+   * - 20 fps
+     - :kbd:`Numpad5`
+   * - 15 fps
+     - :kbd:`Numpad6`
+   * - 12 fps
+     - :kbd:`Numpad7`
+   * - 10 fps
+     - :kbd:`Numpad8`
+   * - |numsp|\ 6 fps
+     - :kbd:`Numpad9`
+   * - |numsp|\ 5 fps
+     - :kbd:`NumpadSlash`
 
 
 Frame Cache
@@ -140,7 +167,7 @@ Frame Cache
 
 Image files are cached during playback for faster access.
 
-While loading images isn't always a bottleneck,
+While loading images is rarely a bottleneck,
 there are situations where high resolution images may slow down playback causing frame skipping.
 
 .. seealso::
