@@ -9,7 +9,7 @@ import re
 # using primitive regex parsing.
 #
 # e.g:
-# python tools_maintenance/blender_help_extract.py /src/blender/source/creator/creator_args.c manual/advanced/command_line/arguments.rst
+# python tools_maintenance/blender_help_extract.py ../blender/source/creator/creator_args.c manual/advanced/command_line/arguments.rst
 
 
 def text_remove_comments(text):
@@ -226,9 +226,24 @@ def text_extract_help(text, args, static_strings):
                 # Run the C-style string format.
                 l = l[0] % l[1:]
             if l.lstrip() == l and l.strip("\n").endswith(":"):
-                # create rst heading
+                # Create RST heading & unique reference target.
                 l = l.strip(":\n")
-                l = "\n\n" + l + "\n" + len(l) * "=" + "\n\n"
+                l = (
+                    "\n"
+                    "\n"
+                    ".. _command-line-args-%s:\n"
+                    "\n"
+                    "%s\n"
+                    "%s\n"
+                    "\n"
+                ) % (
+                    # Create reference so each heading can be linked to.
+                    "".join([(c if c.isalpha() else "-") for c in l.lower()]),
+                    # The heading.
+                    l,
+                    # Heading underline.
+                    len(l) * "=",
+                )
                 ind_re = None
             else:
                 # unindent to the previous min indent
