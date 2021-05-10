@@ -7,8 +7,23 @@
 Animation Player
 ****************
 
-The :menuselection:`Topbar --> Render --> View Animation`
-menu will play back the rendered animation in a new window.
+The animation player is a utility typically used for previewing rendered animations,
+supporting all image and video formats supported by Blender.
+
+This is a convenient way to play back image sequences at the correct frame-rate.
+
+
+Usage
+=====
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Menu:    :menuselection:`Topbar --> Render --> View Animation`
+   :Shortcut:  :kbd:`Ctrl-F11`
+
+Launching the animation player opens a new window,
+playing back images or video located at the render output of the current scene.
 
 You can also drop images or movie files in a running animation player.
 It will then restart the player with the new data.
@@ -20,7 +35,7 @@ It will then restart the player with the new data.
 
 
 Shortcuts
-=========
+---------
 
 The following table shows the available hotkeys for the animation player.
 
@@ -118,3 +133,19 @@ The following table shows the available hotkeys for the animation player.
 - 10 fps :kbd:`Numpad8`
 - |numsp|\ 6 fps :kbd:`Numpad9`
 - |numsp|\ 5 fps :kbd:`NumpadSlash`
+
+
+Frame Cache
+-----------
+
+Image files are cached during playback for faster access.
+
+While loading images isn't always a bottleneck,
+there are situations where high resolution images may slow down playback causing frame skipping.
+
+.. seealso::
+
+   :ref:`Memory Cache Limit <prefs-system-memory-cache-limit>` preference to control this limit,
+   which may be increased to cache more images during playback.
+
+   :ref:`command-line-args-animation-playback-options` to specify this value when launching from the command line.

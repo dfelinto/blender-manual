@@ -91,6 +91,8 @@ VBO Time Out
 Video Sequencer
 ===============
 
+.. _prefs-system-memory-cache-limit:
+
 Memory Cache Limit
    Upper limit of the Video Sequencer and Movie Clip Editor memory cache (in megabytes).
    For an optimal Clip editor and Sequencer performance, high values are recommended.
