@@ -15,6 +15,8 @@ Blender |BLENDER_VERSION|
 Usage: blender [args ...] [file] [args ...]
 
 
+.. _command-line-args-render-options:
+
 Render Options
 ==============
 
@@ -63,6 +65,8 @@ Render Options
    [1-64], 0 for systems processor count.
 
 
+.. _command-line-args-format-options:
+
 Format Options
 ==============
 
@@ -76,6 +80,8 @@ Format Options
 ``-x``, ``--use-extension`` ``<bool>``
    Set option to add the file extension to the end of the file.
 
+
+.. _command-line-args-animation-playback-options:
 
 Animation Playback Options
 ==========================
@@ -98,7 +104,12 @@ Animation Playback Options
       Play from ``<frame>``.
    ``-e`` ``<frame>``
       Play until ``<frame>``.
+   ``-c`` ``<cache_memory>``
+      Amount of memory in megabytes to allow for caching images during playback.
+      Zero disables (clamping to a fixed number of frames instead).
 
+
+.. _command-line-args-window-options:
 
 Window Options
 ==============
@@ -118,6 +129,8 @@ Window Options
 ``--no-window-focus``
    Open behind other windows and without taking focus.
 
+
+.. _command-line-args-python-options:
 
 Python Options
 ==============
@@ -144,6 +157,8 @@ Python Options
    Comma separated list of add-ons (no spaces).
 
 
+.. _command-line-args-logging-options:
+
 Logging Options
 ===============
 
@@ -151,6 +166,8 @@ Logging Options
    Enable logging categories, taking a single comma separated argument.
    Multiple categories can be matched using a ``.*`` suffix,
    so ``--log "wm.*"`` logs every kind of window-manager message.
+   Sub-string can be matched using a ``*`` prefix and suffix,
+   so ``--log "*undo*"`` logs every kind of undo-related message.
    Use "^" prefix to ignore, so ``--log "*,^wm.operator.*"`` logs all except for ``wm.operators.*``
    Use "*" to log everything.
 ``--log-level`` ``<level>``
@@ -165,6 +182,8 @@ Logging Options
 ``--log-file`` ``<filename>``
    Set a file to output the log to.
 
+
+.. _command-line-args-debug-options:
 
 Debug Options
 =============
@@ -240,9 +259,13 @@ Debug Options
    Set the logging verbosity level for debug messages that support it.
 
 
+.. _command-line-args-misc-options:
+
 Misc Options
 ============
 
+``--open-last``
+   Open the most recently opened blend file, instead of the default startup file.
 ``--app-template`` ``<template>``
    Set the application template (matching the directory name), use ``default`` for none.
 ``--factory-startup``
@@ -261,7 +284,7 @@ Misc Options
    Force sound system to None.
 ``-setaudio``
    Force sound system to a specific device.
-   ``NULL`` ``SDL`` ``OPENAL`` ``JACK``.
+   ``None`` ``SDL`` ``OpenAL`` ``CoreAudio`` ``JACK`` ``PulseAudio`` ``WASAPI``.
 
 ``-h``, ``--help``
    Print this help text and exit.
@@ -277,12 +300,16 @@ Misc Options
    End option processing, following arguments passed unchanged. Access via Python's ``sys.argv``.
 
 
+.. _command-line-args-other-options:
+
 Other Options
 =============
 
 ``--debug-freestyle``
    Enable debug messages for Freestyle.
 
+
+.. _command-line-args-argument-parsing:
 
 Argument Parsing
 ================
@@ -295,6 +322,8 @@ Arguments must be separated by white space, eg:
 
 ...will exit since ``-ba`` is an unknown argument.
 
+
+.. _command-line-args-argument-order:
 
 Argument Order
 ==============
@@ -319,6 +348,8 @@ Arguments are executed in the order they are given. eg:
 
 ...works as expected.
 
+
+.. _command-line-args-environment-variables:
 
 Environment Variables
 =====================
