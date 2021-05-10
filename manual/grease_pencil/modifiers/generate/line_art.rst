@@ -84,7 +84,7 @@ Clipping Boundaries
 Style
 -----
 
-.. figure:: /images/grease-pencil_modifiers_generate_lineart_style_panel.png
+.. figure:: /images/grease-pencil_modifiers_generate_line-art_style-panel.png
    :align: right
 
    Style subpanel.
