@@ -8,7 +8,7 @@ Smooth
 
    :Mode:      Sculpt Mode
    :Tool:      :menuselection:`Toolbar --> Smooth`
-   :Shortcut:  :kbd:`S`
+   :Shortcut:  :kbd:`Shift-S`
 
 Eliminates irregularities in the area of the mesh within the brush's
 influence by smoothing the positions of the vertices.
