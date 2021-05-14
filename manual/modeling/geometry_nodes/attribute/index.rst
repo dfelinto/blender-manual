@@ -7,6 +7,7 @@
    :maxdepth: 1
 
    attribute_clamp.rst
+   attribute_curve_map.rst
    attribute_color_ramp.rst
    attribute_combine_xyz.rst
    attribute_compare.rst
