@@ -29,18 +29,14 @@ Inputs
 Geometry
    Standard geometry input.
 
+Texture
+   The texture the node should sample colors from.
+
 Mapping
    Name of the attribute that determines where the texture is evaluated.
 
 Result
    Name of the attribute where the results are stored.
-
-
-Properties
-==========
-
-Texture
-   The texture the node should sample colors from.
 
 
 Outputs
