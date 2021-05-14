@@ -20,4 +20,5 @@
    attribute_remove.rst
    attribute_sample_texture.rst
    attribute_separate_xyz.rst
+   attribute_transfer.rst
    attribute_vector_math.rst
