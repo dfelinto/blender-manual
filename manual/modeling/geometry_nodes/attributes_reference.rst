@@ -109,6 +109,16 @@ Built-in attributes always exist, and cannot be removed. Their data type and dom
      - *Face*
      - Attribute determining if a face should have smooth shading enabled.
 
+   * - **resolution**
+     - *Integer*
+     - *Spline*
+     - Determines the number of evaluated points between two control points of a spline.
+
+   * - **cyclic**
+     - *Boolean*
+     - *Spline*
+     - Determines whether the spline is cyclic or not.
+
 
 Naming Conventions
 ==================
