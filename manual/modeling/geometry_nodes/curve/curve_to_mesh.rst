@@ -1,0 +1,33 @@
+.. index:: Geometry Nodes; Curve to Mesh
+.. _bpy.types.GeometryNodeCurveToMesh:
+
+*************
+Curve to Mesh
+*************
+
+.. figure:: /images/modeling_geometry-nodes_curve_curve-to-mesh_node.png
+   :align: center
+
+   The Curve to Mesh node.
+
+The Curve to Mesh node converts all splines of a curve to a mesh.
+Optionally, a profile curve can be provided to give the curve a custom shape.
+
+
+Inputs
+======
+
+Curve
+   Standard geometry input.
+   All non-curve components are ignored.
+
+Profile Curve
+   If no profile curve is provided, the generated mesh will just be a chain of edges.
+   If there is a profile curve, it will be extruded along all splines.
+
+
+Outputs
+=======
+
+Mesh
+   Standard geometry output.

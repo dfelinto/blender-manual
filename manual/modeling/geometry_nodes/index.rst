@@ -21,6 +21,7 @@ Node Types
 
    attribute/index.rst
    color/index.rst
+   curve/index.rst
    geometry/index.rst
    input/index.rst
    mesh/index.rst
