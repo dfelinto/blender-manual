@@ -1,6 +1,7 @@
 .. _bpy.types.CompositorNodeGroup:
 .. Editors Note: This page gets copied into:
    - :doc:`/editors/texture_node/types/groups`
+   - :doc:`/modeling/geometry_nodes/group`
    - :doc:`/render/shader_nodes/groups`
 .. --- copy below this line ---
 
@@ -23,6 +24,20 @@ Ungroup
 =======
 
 Removes the selected nodes from a group, see :ref:`bpy.ops.node.group_ungroup` for more information.
+
+
+Group Input
+===========
+
+Adds a group input node, this serves as a convenient way to re-add the input node incase it is accidentally deleted.
+Note, groups can only have one input/output, if more than one is added they are essentially duplicates of each other.
+
+
+Group Output
+============
+
+Adds a group output node, this serves as a convenient way to re-add the out node incase it is accidentally deleted.
+Note, groups can only have one input/output, if more than one is added they are essentially duplicates of each other.
 
 
 Node Groups

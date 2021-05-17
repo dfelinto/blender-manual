@@ -33,33 +33,8 @@ Category
    Add-ons are divided into categories by what areas of Blender they affect.
 
 
-Enabling and Disabling
-======================
-
-Enable and disable an add-on by checking or unchecking the box to the right
-of the add-on you chose, as shown in the figure below.
-
-.. figure:: /images/editors_preferences_addons_enable.png
-
-   Enabling an add-on.
-
-The add-on functionality should be immediately available.
-
-.. note::
-
-   Add-ons that activate or change multiple hotkeys have a special system of activation.
-   For example, with the "UI: Pie Menu Official" add-on
-   for each menu there is a selection box to activate the menu and its hotkey.
-
-.. tip::
-
-   If the Add-on does not activate when enabled,
-   check the :doc:`Console window </advanced/command_line/introduction>`
-   for any errors that may have occurred.
-
-
-3rd Party Add-ons
------------------
+Installing Add-ons
+==================
 
 There are hundreds of add-ons that are not distributed with Blender and are developed by others.
 To add them to the list of other add-ons, they must be installed into Blender.
@@ -90,6 +65,31 @@ Refresh
    Blender will copy newly installed add-ons under the directory selected in your Preferences.
 
 
+Enabling & Disabling Add-ons
+============================
+
+To enable or disable an add-on check or uncheck the box to the right
+of the add-onas shown in the figure below.
+
+.. figure:: /images/editors_preferences_addons_enable.png
+
+   Enabling an add-on.
+
+The add-on functionality should be immediately available.
+
+.. note::
+
+   Add-ons that activate or change multiple hotkeys have a special system of activation.
+   For example, with the :doc:`/addons/interface/viewport_pies` add-on
+   for each menu there is a selection box to activate the menu and its hotkey.
+
+.. tip::
+
+   If the Add-on does not activate when enabled,
+   check the :doc:`Console window </advanced/command_line/introduction>`
+   for any errors that may have occurred.
+
+
 Add-on Information
 ==================
 
@@ -98,7 +98,6 @@ its location, a description and a link to the documentation.
 Here you can also find a button to report a bug specific of this add-on.
 
 
-.. _prefs-addons-prefs:
 .. _bpy.types.AddonPreferences:
 
 Add-on Preferences

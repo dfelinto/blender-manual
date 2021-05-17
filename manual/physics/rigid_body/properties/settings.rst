@@ -13,22 +13,21 @@ Settings
 
       Default rigid body panel.
 
+.. _bpy.types.RigidBodyObject.mass:
+
 Mass
    Specifies how heavy the object is and "weights" irrespective of gravity.
-   There are predefined mass presets available with *Calculate Mass*
-   in the :menuselection:`Object --> Rigid Body` menu.
 
-   Calculate Mass
-      Automatically calculate mass values for rigid body objects based on their volume.
-      There are many useful presets available from the menu, listing real-world objects.
+   .. tip::
 
-      .. note::
+      There are predefined mass presets available with the :ref:`bpy.ops.rigidbody.mass_calculate` operator.
 
-         You can also have a *Custom* mass material type,
-         which is achieved by setting a custom density value (kg/m\ :sup:`3`).
+.. _bpy.types.RigidBodyObject.enabled:
 
 Dynamic
    Enables/disables rigid body simulation for the object.
+
+.. _bpy.types.RigidBodyObject.kinematic:
 
 Animated
    Allows the rigid body to additionally be controlled by the animation system.

@@ -99,13 +99,9 @@ Display As
 
                 The same armature in Edit Mode.
 
-.. _bpy.types.Armature.show_axes:
-
 Show
    Names
       Displays the name of each bone.
-   Axes
-      When enabled, the (local) axes of each bone are displayed (only relevant for *Edit Mode* and *Pose Mode*).
    Shapes
       When enabled, the default standard bone shape is replaced,
       in *Object Mode* and *Pose Mode*, by the shape of a chosen object
@@ -118,3 +114,12 @@ Show
       the solid objects (meshes, surfaces, ...). I.e. they will always be visible and selectable
       (this is the same option as the one found in the *Display* panel of the *Object data* tab).
       Very useful when not in *Wireframe* mode.
+
+.. _bpy.types.Armature.show_axes:
+
+Axis
+   When enabled, the (local) axes of each bone are displayed (only relevant for *Edit Mode* and *Pose Mode*).
+
+   Position
+      The position for the axes display on the bone.
+      Increasing the value moves it closer to the tip; decreasing moves it closer to the root.

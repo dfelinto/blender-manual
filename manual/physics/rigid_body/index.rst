@@ -10,6 +10,7 @@
    :maxdepth: 2
 
    introduction.rst
+   editing.rst
    properties/index.rst
    world.rst
    constraints/index.rst

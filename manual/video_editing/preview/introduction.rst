@@ -16,6 +16,8 @@ Header
    Sequencer Display header.
 
 
+.. _bpy.types.SpaceSequenceEditor.show:
+
 View Menu
 ---------
 
@@ -23,6 +25,9 @@ Sidebar :kbd:`N`
    Show or hide the :ref:`Sidebar <ui-region-sidebar>`.
 Toolbar :kbd:`T`
    Show or hide the :ref:`Toolbar <ui-region-toolbar>`.
+
+Preview During Tranform
+   Show a preview of the start or end frame while transforming a strip's start/end handles.
 
 Fit Preview in Window :kbd:`Home`
    Resize the preview so that it fits in the area.

@@ -416,30 +416,43 @@ Snap to Pixels
 .. _bpy.types.SpaceUVEditor.lock_bounds:
 
 Constraining to Image Bounds
-   Turning on *Constrain to Image Bounds* will prevent UVs from being moved outside the 0 to 1 UV range.
+   For standard textures, this option prevents UVs from being moved outside the 0 to 1 UV range.
+   For :doc:`UDIMs </modeling/meshes/uv/workflows/udims>` textures,
+   this option prevents UVs from being moved outside the nearest UDIM tile.
 
 
 3D Viewport
 ===========
 
 .. _bpy.ops.mesh.uvs_rotate:
-.. _bpy.ops.mesh.uvs_reverse:
-.. _uv-image-rotate-reverse-uvs:
 
-Rotate UVs & Reverse UVs
-------------------------
+Rotate UVs
+----------
 
 .. admonition:: Reference
    :class: refbox
 
    :Editor:    3D Viewport
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Face --> Face Data --> Rotate UVs/Reverse UVs`
+   :Menu:      :menuselection:`Face --> Face Data --> Rotate UVs`
 
 The orientation of the UV texture is defined by each face.
 If the image is, for example, upside down or laying on its side,
 use the :menuselection:`Face --> Rotate UVs` (in the 3D Viewport in Face Select mode)
 menu to rotate the UVs per face in 90-degree turns.
+
+
+.. _bpy.ops.mesh.uvs_reverse:
+
+Reverse UVs
+-----------
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Editor:    3D Viewport
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Face --> Face Data --> Reverse UVs`
 
 The :menuselection:`Face --> Reverse UVs` tool mirrors the UVs per face,
 which flips the image over, showing you the image reversed.

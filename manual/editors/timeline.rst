@@ -184,6 +184,8 @@ Keying Popover
 
 The *Keying* popover contains options that affect keyframe insertion.
 
+.. _bpy.types.KeyingSetsAll.active:
+
 Active Keying Set
    .. figure:: /images/editors_timeline_keying-sets.png
       :align: right
@@ -198,13 +200,31 @@ Active Keying Set
    Custom keying sets can be defined in the panels
    :menuselection:`Properties --> Scene --> Keying Sets + Active Keying Set`.
 
+   .. _bpy.ops.anim.keyframe_insert:
+
    Insert Keyframes (plus icon)
       Insert keyframes on the current frame for the properties in the active *Keying Set*.
+
+   .. _bpy.ops.anim.keyframe_delete:
+
    Delete Keyframes (minus icon)
       Delete keyframes on the current frame for the properties in the active *Keying Set*.
 
+.. _bpy.types.ToolSettings.keyframe_type:
+
 New Keyframe Type
    :ref:`keyframe-type` on insertion.
+
+.. _bpy.types.ToolSettings.use_keyframe_cycle_aware:
+
+Cycle-Aware Keying
+   When inserting keyframes into :ref:`trivially cyclic curves <bpy.types.FModifierCycles>`, special handling
+   is applied to preserve the cycle integrity (most useful while tweaking an established cycle):
+
+   - If a key insertion is attempted outside of the main time range of the cycle,
+     it is remapped back inside the range.
+   - When overwriting one of the end keys,
+     the other one is updated appropriately.
 
 
 .. Move to some content to animation?
@@ -247,15 +267,6 @@ Only Active Keying Set
 
 Layered Recording
    Adds a new NLA Track and strip for every loop/pass made over the animation to allow non-destructive tweaking.
-
-Cycle-Aware Keying
-   When inserting keyframes into :ref:`trivially cyclic curves <bpy.types.FModifierCycles>`, special handling
-   is applied to preserve the cycle integrity (most useful while tweaking an established cycle):
-
-   - If a key insertion is attempted outside of the main time range of the cycle,
-     it is remapped back inside the range.
-   - When overwriting one of the end keys,
-     the other one is updated appropriately.
 
 
 Menus

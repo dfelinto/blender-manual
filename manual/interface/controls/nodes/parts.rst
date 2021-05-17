@@ -79,6 +79,9 @@ Each input socket, except for the green shader input, when disconnected,
 has a default value which can be edited via a color, numeric, or vector interface input.
 In the screenshot of the node above, the second color option is set by a color interface input.
 
+Some nodes have special sockets that can accept multiple inputs into a single socket.
+These sockets will have an ellipsis shape rather than a circle to indicate its special behavior.
+
 
 Outputs
 -------

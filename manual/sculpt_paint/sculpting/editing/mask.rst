@@ -295,6 +295,27 @@ Dirty Mask
 Generates a mask based on the geometry cavity and pointiness.
 
 
+.. _bpy.ops.sculpt.mask_init:
+
+Random Mask
+-----------
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Sculpt Mode
+   :Menu:      :menuselection:`Mask --> Random Mask`
+
+Generates a mask with random values for the entire object based on different mesh data.
+
+Per Vertex
+   Assigns a random mask value for each vertex.
+Per Face Set
+   Assigns a random mask value for each :doc:`Face Set </sculpt_paint/sculpting/editing/face_sets>`.
+Per Loose Mask
+   Assigns a random mask value for each disjoint part of the mesh.
+
+
 .. _bpy.types.Sculpt.show_mask:
 .. _bpy.types.View3DOverlay.sculpt_mode_mask_opacity:
 
