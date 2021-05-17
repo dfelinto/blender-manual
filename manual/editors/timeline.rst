@@ -200,13 +200,8 @@ Active Keying Set
    Custom keying sets can be defined in the panels
    :menuselection:`Properties --> Scene --> Keying Sets + Active Keying Set`.
 
-   .. _bpy.ops.anim.keyframe_insert:
-
    Insert Keyframes (plus icon)
       Insert keyframes on the current frame for the properties in the active *Keying Set*.
-
-   .. _bpy.ops.anim.keyframe_delete:
-
    Delete Keyframes (minus icon)
       Delete keyframes on the current frame for the properties in the active *Keying Set*.
 
