@@ -28,8 +28,8 @@ Type
    Specifies the type of the attribute.
 
    :Geometry:
-      The attribute is associated with the geometry of the object, and its value varies from vertex
-      to vertex, or within the volume of the object.
+      The attribute is associated with the geometry of the object, and its value varies from
+      vertex to vertex, or within the volume of the object.
 
       Most geometry attributes are directly accessible through the various input nodes, except for these:
 

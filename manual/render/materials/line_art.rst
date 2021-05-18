@@ -4,9 +4,9 @@ Line Art
 ********
 
 .. admonition:: Reference
-    :class: refbox
+   :class: refbox
 
-    :Panel:     :menuselection:`Material --> Line Art`
+   :Panel:     :menuselection:`Material --> Line Art`
 
 .. figure:: /images/render_materials_line-art_panel.png
    :align: right

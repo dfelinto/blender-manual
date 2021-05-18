@@ -138,7 +138,7 @@ Audio Device
       No Audio support (audio strips can still be loaded normally).
    :SDL:
       Uses Simple Direct Media Layer API from `libsdl.org <https://www.libsdl.org>`__
-      to render sounds directly to the sound device output. Very useful for sequencer strips editing.
+      to render sounds directly to the sound device output. Very useful for Sequencer strips editing.
    :OpenAL:
       Provides buffered sound rendering with 3D/spatial support.
       Used for 3D source support by speaker objects.

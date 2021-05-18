@@ -128,9 +128,8 @@ Pack Linked Libraries
 
    :Panel:     :menuselection:`File --> External Data --> Pack Linked Libraries`
 
-
-Mark all linked library files into the current .blend as packed.
-Actual packing will happen on othe next save of the blend-file.
+Mark all linked library files in the current blend-file as packed.
+Actual packing will happen on the next save of the blend-file.
 
 
 .. _bpy.ops.file.unpack_libraries:

@@ -727,8 +727,7 @@ This page lists definitions for terms used in Blender and this manual.
       The process of computationally generating a 2D image from 3D geometry.
 
    Resource
-      External files such as Images, Sounds, Fonts and Volumes that can be packed into
-      the .blend file.
+      External files such as images, sounds, fonts and volumes files that can be packed into the blend-file.
 
    RGB
       A color model based on the traditional primary colors, Red/Green/Blue.

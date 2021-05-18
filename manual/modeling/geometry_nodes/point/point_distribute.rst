@@ -47,6 +47,7 @@ Density Attribute
 Seed
    The random :term:`Seed` to use when generating points.
 
+
 Properties
 ==========
 
@@ -56,13 +57,14 @@ Distribution Method
    :Poisson Disk:
       Distribute points randomly on the surface while taking a minimum distance into account.
 
+
 Output
 ======
 
 Geometry
    Generated points. Several attributes are created on the output points based on the input mesh:
 
-   :id (int):
+   :id (integer):
 
       An identifier for each point used for stability when the mesh is deformed,
       used in the :doc:`/modeling/geometry_nodes/attribute/attribute_randomize`

@@ -39,6 +39,12 @@ Result
    Name of the attribute where the results are stored.
 
 
+Properties
+==========
+
+This node has no properties.
+
+
 Outputs
 =======
 

@@ -38,7 +38,7 @@ Min
    i.e. how far the box extends in each of the negative axes directions.
 
 Max
-   The coordinates corresponding to the cubes +X, +Y, +Z position values.
+   The coordinates corresponding to the cubes +X, +Y, +Z position values,
    i.e. how far the box extends in each of the positive axes directions.
 
 

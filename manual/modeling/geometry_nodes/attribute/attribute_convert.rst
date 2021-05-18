@@ -60,7 +60,7 @@ Domain
 
 Data Type
    This determines the data type of the result attribute.
-   If this is *Auto*, the data type from the original attribute is used.
+   If this is set to *Auto*, the data type from the original attribute is used.
 
 
 Output

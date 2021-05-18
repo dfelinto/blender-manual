@@ -64,7 +64,7 @@ Target Material
    The Grease Pencil :ref:`bpy.types.MaterialGPencilStyle` to generate strokes with.
 
 Remove Doubles
-   Perform an "merge by distance" operation when loading geometry into Line Art.
+   Perform a "merge by distance" operation when loading geometry into Line Art.
    The threshold of this operation is internally set to a value that is optimal for Line Art algorithm precision.
 
 Overlapping Edges as Contour
@@ -145,7 +145,6 @@ Chain Intersection with Contour
    Intersection lines that have not been able to chain with any nearby contour lines will remain
    as intersection lines.
 
-
 Chain All Lines
    Enabling this option will cause all lines to have the type of contour and to be chained together.
 
@@ -166,7 +165,7 @@ Vertex Weight Transfer
    Vertex Weight Transfer subpanel.
 
 Filter Source
-   If source mesh has vertex groups whose name starts with this string, then the vertex weight info
+   If source mesh has vertex groups whose name starts with this text, then the vertex weight info
    will be transferred into weight groups in Grease Pencil strokes.
 
 Match Output
@@ -189,7 +188,7 @@ Baking
 Bake Line Art
    Bakes Line Art strokes for active Grease Pencil object within the *start*, *end* frame range in scene.
    Bake Line Art (All) bakes all Grease Pencil objects that contains at least one Line Art modifier.
-   After baking, baked Line Art modifier will be deactivated automatically.
+   After baking, baked Line Art modifiers will be deactivated automatically.
 
 Clear Baked Line Art
    Clears baked line art frames within the scene frame range for active Grease Pencil object.

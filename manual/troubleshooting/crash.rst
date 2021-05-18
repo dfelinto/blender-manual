@@ -64,10 +64,11 @@ After crash, macOS Crash Reporter shows a window with backtrace after some time,
 is opened again. Copy the text in the crash report and save it in a text file. That file should be attached
 to the bug report while following other bug reporting guidelines.
 
-Some ``.crash`` files can also be found in ``~/Library/Logs/DiagnosticReports/`` with the name of
-format: ``Blender_YYYY-MM-DD-HHMMSS_MACNAME.crash``. If a report is present corresponding to the
-time of crash, that file can also provide hints about cause of the crash. Alternatively, Console.app
-can be used to navigate all "User Reports" (see sidebar in the app).
+Some ``.crash`` files can also be found in ``~/Library/Logs/DiagnosticReports/`` with the name of format:
+``Blender_YYYY-MM-DD-HHMMSS_MACNAME.crash``. If a report is present corresponding to the time of crash,
+that file can also provide hints about cause of the crash. Alternatively, Console.app can be used to
+navigate all "User Reports" (see sidebar in the app).
+
 
 Linux
 -----

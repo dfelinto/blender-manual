@@ -246,8 +246,8 @@ relatively few vertices that look very natural when used as subdivision surfaces
 deform very well in animation.
 
 Take Fig. :ref:`fig-mesh-topo-loop` in organic modeling as an example: the edge loops follow
-the natural contours and deformation lines of the skin and the underlying muscles and
-are denser in areas that deform more when the character moves, for example at the shoulders or knees.
+the natural contours and deformation lines of the skin and the underlying muscles.
+The loops are denser in areas that deform more when the character moves, for example at the shoulders or knees.
 
 Further details on working with edge loops can be found in
 :ref:`Edge Loop Selection <bpy.ops.mesh.loop_multi_select>`.

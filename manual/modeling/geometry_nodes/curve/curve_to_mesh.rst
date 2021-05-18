@@ -22,8 +22,8 @@ Curve
    All non-curve components are ignored.
 
 Profile Curve
-   If no profile curve is provided, the generated mesh will just be a chain of edges.
-   If there is a profile curve, it will be extruded along all splines.
+   If a profile curve is provided, it will be extruded along all splines.
+   Otherwise the generated mesh will just be a chain of edges.
 
 
 Outputs

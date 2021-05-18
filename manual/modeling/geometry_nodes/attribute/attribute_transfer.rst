@@ -12,6 +12,7 @@ Attribute Transfer
 
 The *Attribute Transfer* node transfers an attribute from one geometry to another.
 
+
 Inputs
 ======
 
@@ -35,7 +36,7 @@ Domain
    Domain that the attribute is transferred to.
    For example, it is possible to transfer a point attribute from
    one geometry to the face domain of another geometry.
-   In *Auto* mode, the node tries to guess the domain based on what domain the attribute is on.
+   In *Auto* mode, the node tries to guess the domain based on what domain the attribute belongs to.
 
 Mapping
    How elements from the destination geometry are mapped to points on the source geometry.
