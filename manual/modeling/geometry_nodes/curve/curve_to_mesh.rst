@@ -26,6 +26,12 @@ Profile Curve
    Otherwise the generated mesh will just be a chain of edges.
 
 
+Properties
+==========
+
+This node has no properties.
+
+
 Outputs
 =======
 

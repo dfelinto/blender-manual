@@ -35,7 +35,7 @@ Properties
 Domain
    Domain of the output attribute.
 
-   :Auto: Chooses the domain of the attribute if it exists already, otherwise it uses the *Point* domain.
+   :Auto: Chooses the domain of the attribute if it exists already, otherwise it uses the *point* domain.
    :Point: Store the resulting attribute per point.
    :Edge: Store the resulting attribute per edge.
    :Face: Store the resulting attribute per face.

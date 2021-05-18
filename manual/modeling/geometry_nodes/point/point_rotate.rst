@@ -11,7 +11,7 @@ Point Rotate
    The Point Rotate node.
 
 The *Point Rotate* node rotates every point of the geometry.
-It does so by modifying the *rotation* attribute.
+It does so by modifying the ``rotation`` attribute.
 
 
 Inputs
@@ -47,7 +47,7 @@ Space
       Rotate every point in the local space of the object that is being evaluated.
       The same space is used for every point.
    :Point:
-      Rotate every point in its local space as specified by its *rotation* attribute.
+      Rotate every point in its local space as specified by its ``rotation`` attribute.
 
 
 Outputs

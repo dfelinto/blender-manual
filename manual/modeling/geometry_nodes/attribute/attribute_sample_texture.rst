@@ -13,7 +13,7 @@ Attribute Sample Texture
 The *Attribute Sample Texture* node evaluates a texture for every point and
 stores the resulting colors in a new attribute.
 The mapping attribute can be anything that can be converted to a 3D vector.
-Typically, either the name of a UV map or the *position* attribute is used.
+Typically, either the name of a UV map or the ``position`` attribute is used.
 
 .. note::
 

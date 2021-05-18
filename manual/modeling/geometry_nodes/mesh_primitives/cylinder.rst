@@ -22,7 +22,7 @@ Vertices
    No geometry is generated if the number is below three.
 
 Radius
-   Distance of the vertices from the z axis.
+   Distance of the vertices from the Z axis.
    If this is zero, the output will be a single line.
 
 Depth

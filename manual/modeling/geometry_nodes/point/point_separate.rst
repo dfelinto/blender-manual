@@ -31,11 +31,18 @@ Mask
    If the attribute has any data type besides Boolean, the value will be implicitly converted,
    so a value of exactly zero is false, and any other value is true.
 
+
+Properties
+==========
+
+This node has no properties.
+
+
 Outputs
 =======
 
 Geometry 1
-   Points with a mask attribute value of "false" will be moved to the first output.
+   Points with a *Mask* attribute value of "false" will be moved to the first output.
 
 Geometry 2
-   Points with a mask attribute value of "true" will be moved to the second output.
+   Points with a *Mask* attribute value of "true" will be moved to the second output.

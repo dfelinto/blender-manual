@@ -11,7 +11,7 @@ Align Rotation to Vector
    The Align Rotation to Vector node.
 
 The *Align Rotation to Vector* node rotates points into the given direction.
-It does so by modifying the *Rotation* attribute.
+It does so by modifying the ``rotation`` attribute.
 
 
 Inputs

@@ -42,7 +42,7 @@ You can use the :doc:`Spreadsheet Editor </editors/spreadsheet>` to determine th
 - Edge domain attributes are associated with the edges of the mesh.
 - Face domain attributes are associated with the faces of the mesh.
 - Face Corner domain attributes are associated with the corners of the faces of the mesh.
-  An example is the *UVMap* attribute.
+  An example is the ``UVMap`` attribute.
 
 .. note::
 
@@ -70,7 +70,7 @@ Built-in attributes always exist, and cannot be removed. Their data type and dom
      - Domain
      - Notes
 
-   * - **position**
+   * - ``position``
      - *Vector*
      - *Point*
      - Built-in attribute describing vertex or point locations, in the modifier
@@ -78,25 +78,25 @@ Built-in attributes always exist, and cannot be removed. Their data type and dom
        this attribute, like the :doc:`Transform </modeling/geometry_nodes/geometry/transform>`
        and :doc:`Point Translate </modeling/geometry_nodes/point/point_translate>` nodes.
 
-   * - **radius**
+   * - ``radius``
      - *Float*
      - *Point*
      - A built-in attribute on point cloud data created by
        the :doc:`Point Distribute Node </modeling/geometry_nodes/point/point_distribute>`
        Used to set the size for the points in the viewport.
 
-   * - **material_index**
+   * - ``material_index``
      - *Integer*
      - *Face*
      - Used to specify the material slot for every face in a mesh.
 
-   * - **crease**
+   * - ``crease``
      - *Float*
      - *Edge*
      - Edge attribute used by the Subdivision Surface node and modifier.
        The values are limited to a range of 0 and 1.
 
-   * - **normal**
+   * - ``normal``
      - *Vector*
      - *Face*
      - Normal of a face. This is a bit different from the other builtin attributes in that
@@ -104,17 +104,17 @@ Built-in attributes always exist, and cannot be removed. Their data type and dom
        accessed on non-point domains, it might not be normalized, because it is interpolated
        from normals of neighboring faces.
 
-   * - **shade_smooth**
+   * - ``shade_smooth``
      - *Boolean*
      - *Face*
      - Attribute determining if a face should have smooth shading enabled.
 
-   * - **resolution**
+   * - ``resolution``
      - *Integer*
      - *Spline*
      - Determines the number of evaluated points between two control points of a spline.
 
-   * - **cyclic**
+   * - ``cyclic``
      - *Boolean*
      - *Spline*
      - Determines whether the spline is cyclic or not.
@@ -128,7 +128,7 @@ these attributes can be changed, just like any attribute besides the built-in at
 
 If the attributes don't exist yet, a default value is used, which can depend on the situation.
 For example, in the :doc:`Point Instance Node </modeling/geometry_nodes/point/point_instance>`,
-the default value for *scale* is a unit scale of (1, 1, 1), but the default value for new attributes
+the default value for ``scale`` is a unit scale of (1, 1, 1), but the default value for new attributes
 in the "attribute" nodes is zero.
 
 .. list-table::
@@ -139,20 +139,20 @@ in the "attribute" nodes is zero.
      - Type
      - Notes
 
-   * - **rotation**
+   * - ``rotation``
      - *Vector*
      - Used in the :doc:`Point Instance Node </modeling/geometry_nodes/point/point_instance>` to
        control the rotation of instanced objects or collections. Adjusted by
        the :doc:`Point Rotate Node </modeling/geometry_nodes/point/point_rotate>` and
        the :doc:`Align Rotation to Vector Node </modeling/geometry_nodes/point/align_rotation_to_vector>`.
 
-   * - **scale**
+   * - ``scale``
      - *Vector*
      - Used in the :doc:`Point Distribute Node </modeling/geometry_nodes/point/point_distribute>` to control
        the scale of instances. Adjusted by the :doc:`Point Scale Node </modeling/geometry_nodes/point/point_rotate>`
        or other attribute nodes.
 
-   * - **id**
+   * - ``id``
      - *Integer*
      - Created by the :doc:`Point Distribute Node </modeling/geometry_nodes/point/point_distribute>` to
        provide stability when the shape of the input mesh changes. The values are large,

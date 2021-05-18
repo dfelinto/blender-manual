@@ -25,7 +25,7 @@ A, B
 
 Result
    Name of the attribute where the computed result is stored.
-   The output attribute type is *Color* by default.
+   The output attribute type is color by default.
    When the result attribute exists already, its type is not changed.
 
 
