@@ -24,7 +24,7 @@ Count
    Number of control points on the new splines.
 
 Length
-   Approximate length between the control points on the new splines.
+   Approximate length between the control points of the new splines.
 
 
 Properties
@@ -38,6 +38,7 @@ Mode
 
    Length
       Calculate the number of samples by splitting each spline into segments with the specified length.
+      The length will be rounded down so that an whole number of sample will fit in each input spline.
 
 
 Outputs
