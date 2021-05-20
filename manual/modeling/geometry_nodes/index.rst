@@ -24,6 +24,7 @@ Node Types
    curve/index.rst
    geometry/index.rst
    input/index.rst
+   material/index.rst
    mesh/index.rst
    mesh_primitives/index.rst
    point/index.rst
