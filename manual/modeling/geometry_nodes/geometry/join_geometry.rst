@@ -22,7 +22,15 @@ Materials
 
 When multiple mesh inputs contain different materials, the material slots from each mesh geometry
 are merged so that the output mesh will contain all the input materials.
-   
+
+Attributes
+==========
+
+When merging attributes from multiple input geometries, the highest complexity data type is chosen
+for the output attribute. In other words, if a `weight` attribute has a boolean type on one geometry
+input and a vector data type on another geometry, the `weight` attribute on the output geometry will
+have a vector data type. The same heuristic is used for attribute domains-- the domain with the most
+information will be used for the output.
 
 Inputs
 ======
