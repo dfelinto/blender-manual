@@ -15,9 +15,9 @@ Optionally, a profile curve can be provided to give the curve a custom shape.
 
 .. tip::
 
-   The output mesh has auto smooth set and sharp edges from the profile curve tagged automatically.
-   If any splines in the profile curve are Bezier splines and any of the control points use *Free* or
-   *Vector* handles, the corresponding edges will be shaded sharp.
+   The output mesh has :ref:`auto smooth <auto-smooth>` set and :ref:`sharp edges <modeling_meshes_normals_sharp_edge>`
+   from the profile curve tagged automatically. If any splines in the profile curve are Bezier splines and any of the
+   control points use *Free* or *Vector* handles, the corresponding edges will be shaded sharp.
 
 
 Inputs

@@ -33,12 +33,11 @@ Properties
 Mode
    How to specify the amount of samples.
 
-   Count
+   :Count:
       Sample the specified number of points along each spline.
-
-   Length
+   :Length:
       Calculate the number of samples by splitting each spline into segments with the specified length.
-      The length will be rounded down so that an whole number of sample will fit in each input spline.
+      The length will be rounded down so that a whole number of samples will fit in each input spline.
 
 
 Outputs
