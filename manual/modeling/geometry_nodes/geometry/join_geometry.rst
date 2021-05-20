@@ -6,7 +6,7 @@ Join Geometry
 *************
 
 The *Join Geometry* node merges separately generated pieces of geometry into a single one.
-If the inputted pieces contain different types of geometry, the output will contain multiple types of geometry.
+If the geometry inputs contain different types of data, the output will also contain different data types.
 
 .. figure:: /images/modeling_geometry-nodes_geometry_join-geometry_node.png
 
@@ -16,6 +16,13 @@ If the inputted pieces contain different types of geometry, the output will cont
 
    The node cannot handle the case when more than one geometry input has a volume component.
 
+
+Materials
+=========
+
+When multiple mesh inputs contain different materials, the material slots from each mesh geometry
+are merged so that the output mesh will contain all the input materials.
+   
 
 Inputs
 ======
