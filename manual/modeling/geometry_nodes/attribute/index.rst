@@ -23,3 +23,4 @@
    attribute_separate_xyz.rst
    attribute_transfer.rst
    attribute_vector_math.rst
+   attribute_vector_rotate.rst
