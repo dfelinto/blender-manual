@@ -8,7 +8,7 @@ Transfer Mesh Data Layout
    :class: refbox
 
    :Mode:      Object Mode
-   :Menu:      :menuselection:`Object --> Relations --> Transfer Mesh Data Layout`
+   :Menu:      :menuselection:`Object --> Link/Transfer Data --> Transfer Mesh Data Layout`
 
 Transfers layout of data layer(s) from active to selected meshes.
 

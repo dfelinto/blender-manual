@@ -336,6 +336,32 @@ Selected tracks should not have common tracked or keyframed markers at the same 
    but this allows to prevent camera jump which is much more annoying than sight camera slide.
 
 
+.. _bpy.ops.clip.average_tracks:
+
+Average Tracks
+==============
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Tracking
+   :Menu:      :menuselection:`Track --> Average Tracks`
+
+The Average Tracks operator creates a new tracking marker by averaging the data from the selected tracks.
+This can be used to improve stability of tracking on blurry or non-very-sharp feature shapes.
+The operator takes into account all :doc:`Marker properties </movie_clip/tracking/clip/sidebar/track/marker>`
+however, disabled markers do not affect the averaging.
+
+Gaps in the original tracks will be linearly interpolated, to reduce result track jump.
+Note that this only applies to gaps "inbetween".
+This means that if an track does not have markers in the beginning or end of it,
+there is nothing to interpolate with and the resulting track will jump.
+
+Keep Orignial
+   When enabled, the selected tracks are not deleted;
+   when disabled, the selected tracks are deleted.
+
+
 Copy Tracks
 ===========
 

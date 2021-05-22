@@ -69,7 +69,7 @@ Enabling & Disabling Add-ons
 ============================
 
 To enable or disable an add-on check or uncheck the box to the right
-of the add-onas shown in the figure below.
+of the add-ons shown in the figure below.
 
 .. figure:: /images/editors_preferences_addons_enable.png
 

@@ -213,13 +213,12 @@ New Keyframe Type
 .. _bpy.types.ToolSettings.use_keyframe_cycle_aware:
 
 Cycle-Aware Keying
-   When inserting keyframes into :ref:`trivially cyclic curves <bpy.types.FModifierCycles>`, special handling
-   is applied to preserve the cycle integrity (most useful while tweaking an established cycle):
+   When inserting keyframes into :ref:`trivially cyclic curves <bpy.types.FModifierCycles>`,
+   special handling is applied to preserve the cycle integrity (most useful while tweaking an established cycle):
 
    - If a key insertion is attempted outside of the main time range of the cycle,
      it is remapped back inside the range.
-   - When overwriting one of the end keys,
-     the other one is updated appropriately.
+   - When overwriting one of the end keys, the other one is updated appropriately.
 
 
 .. Move to some content to animation?

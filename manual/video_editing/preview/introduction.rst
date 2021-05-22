@@ -26,7 +26,7 @@ Sidebar :kbd:`N`
 Toolbar :kbd:`T`
    Show or hide the :ref:`Toolbar <ui-region-toolbar>`.
 
-Preview During Tranform
+Preview During Transform
    Show a preview of the start or end frame while transforming a strip's start/end handles.
 
 Fit Preview in Window :kbd:`Home`

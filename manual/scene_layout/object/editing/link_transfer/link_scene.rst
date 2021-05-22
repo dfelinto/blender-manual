@@ -8,7 +8,7 @@ Link Objects to Scene
    :class: refbox
 
    :Mode:      Object Mode
-   :Menu:      :menuselection:`Object --> Relations --> Transfer Mesh Data`
+   :Menu:      :menuselection:`Object --> Link/Transfer Data --> Link Objects to Scene`
 
 Links the selected objects into a different scene than the current one.
 The *Link Objects to Scene* in the :ref:`ui-undo-redo-adjust-last-operation` panel lets you choose between scenes.

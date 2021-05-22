@@ -38,6 +38,7 @@ Guidelines
 
    guides/writing_guide.rst
    guides/markup_guide.rst
+   guides/templates.rst
    guides/maintenance_guide.rst
 
 

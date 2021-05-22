@@ -21,19 +21,39 @@ Node
 Node
 ----
 
+.. _bpy.types.Node.name:
+
 Name
    A unique node identifier inside this node tree.
+
+.. _bpy.types.Node.label:
+
 Label
    Nodes can be given a title by modifying the text field.
 
 
+.. _bpy.types.Node.use_custom_color:
+
 Color
 ^^^^^
 
-Color Presets
-   Colors saved as a preset for reuse in other nodes.
+By default, the nodes background color is defined by the user theme.
+This color can be overiden by selecting a custom color in this panel.
+Custom node colors can be used to provide a visual cue to help distinguish some nodes from others.
+In the panel header, colors can be saved as a preset for reuse in other nodes or other projects .
+
+.. _bpy.types.Node.color:
+
 Color
-   Color of the node background. Node colors can be used to provide a visual cue.
+   Color of the node background.
+
+   Node Color Specials
+      This menu contains operators for working with nodes with custom colors.
+
+      .. _bpy.ops.node.node_copy_color:
+
+      Copy Color
+         Copies the color of the :term:`Active` node and applies it to all selected nodes.
 
 
 Properties

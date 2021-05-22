@@ -40,6 +40,7 @@ Guidelines
 
    contribute/guides/writing_guide.rst
    contribute/guides/markup_guide.rst
+   contribute/guides/templates.rst
    contribute/guides/maintenance_guide.rst
 
 

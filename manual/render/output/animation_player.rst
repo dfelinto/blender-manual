@@ -8,9 +8,8 @@ Animation Player
 ****************
 
 The animation player is a utility typically used for previewing rendered animations,
-supporting all image and video formats supported by Blender.
-
-This is a convenient way to play back image sequences at the correct frame-rate.
+supporting all image and video formats also supported by Blender.
+This is a convenient way to play back image sequences at the correct frame rate.
 
 
 Usage
@@ -19,12 +18,11 @@ Usage
 .. admonition:: Reference
    :class: refbox
 
-   :Menu:    :menuselection:`Topbar --> Render --> View Animation`
+   :Menu:      :menuselection:`Topbar --> Render --> View Animation`
    :Shortcut:  :kbd:`Ctrl-F11`
 
 Launching the animation player opens a new window,
-playing back images or video located at the render output of the current scene.
-
+playing back images or a video located at the render output of the current scene.
 You can also drop images or movie files in a running animation player.
 It will then restart the player with the new data.
 
@@ -174,5 +172,4 @@ there are situations where high resolution images may slow down playback causing
 
    :ref:`Memory Cache Limit <prefs-system-memory-cache-limit>` preference to control this limit,
    which may be increased to cache more images during playback.
-
    :ref:`command-line-args-animation-playback-options` to specify this value when launching from the command line.

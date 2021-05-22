@@ -23,7 +23,7 @@ A mask is a black-and-white picture which, after multiplication with a "normal" 
 only show this one in the white areas of the mask (everything else is black).
 
 The opening title sequence to James Bond movies,
-where the camera is looking down the barrel of a gun at James, is a good example of this effect.
+where the camera is facing down the barrel of a gun at James, is a good example of this effect.
 
 
 .. rubric:: With Uniform Colors

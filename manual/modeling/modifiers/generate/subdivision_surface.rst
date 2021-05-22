@@ -166,7 +166,7 @@ Edge Loops
    Subdivision Level 2 cube, the same with an extra Edge Loop, and the same with six extra Edge Loops.
 
 The *Subdivision Surface* modifier demonstrates why good, clean topology is so important.
-As you can see in the figure, the it has a drastic effect on a default cube.
+As you can see in the figure, it has a drastic effect on a default cube.
 Until you add in additional loops (with e.g. :ref:`Loop Cut and Slide <bpy.ops.mesh.loopcut_slide>`),
 the shape is almost unrecognizable as a cube.
 

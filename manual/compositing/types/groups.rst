@@ -29,7 +29,7 @@ Removes the selected nodes from a group, see :ref:`bpy.ops.node.group_ungroup` f
 Group Input
 ===========
 
-Adds a group input node, this serves as a convenient way to re-add the input node incase it is accidentally deleted.
+Adds a group input node, this serves as a convenient way to re-add the input node in case it is accidentally deleted.
 Note, groups can only have one input/output, if more than one is added they are essentially duplicates of each other.
 
 

@@ -90,86 +90,6 @@ Interface Elements
 - ``:menuselection:`3D Viewport --> Add --> Mesh --> Monkey``` -- menus.
 
 
-Operator Menus
---------------
-
-Each operator should receive its own heading or page based on the length of the content.
-Each operator should have a reference admonition documenting the context of the operator::
-
-   .. admonition:: Reference
-      :class: refbox
-
-      :Mode:      Edit Mode
-      :Menu:      :menuselection:`Curve --> Snap`
-      :Shortcut:  :kbd:`Shift-S`
-
-
-Panels
-------
-
-Panels should be documented by their own heading, nested panels should use decreasing heading levels.
-Each panel could have its own page based on the length of documentation and/or the amount of panels.
-Expanded menus that toggle what properties are presented to the user should be treated like subpanels::
-
-   Panel Title
-   ===========
-
-   Nested Panel Title
-   ------------------
-
-
-Properties
-----------
-
-Properties should be documented using definition lists.
-Properties that are hidden based on other properties should used nested definitions::
-
-   Property
-      Property description.
-
-      Hidden Property
-         Hidden property description.
-
-Enum based menus should be documented using the following syntax::
-
-   Menu Label
-      General description of the menu.
-
-      :Menu Item: Menu Item Definition.
-      :Menu Item: Menu Item Definition.
-      :Menu Item: Menu Item Definition.
-
-
-Context Sensitive Manual Access
-===============================
-
-It is possible to link to a specific part of the manual from in Blender by
-right clicking on a property or operator and selecting *Online Manual*.
-In order for this to work, this needs to be accounted for in the documentation.
-To link a property or operator to a specific part of the manual you need to add
-an external reference link tag whose ID matches Blender's RNA tag.
-The easiest way to find out what the tag for a property is to right click on
-the property/operator and select *Online Python Reference* to extract the tag from the URL.
-Some examples of how this looks in the RST document are given below::
-
-   .. _bpy.types.FluidDomainSettings.use_fractions:
-
-   Fractional Obstacles
-      Enables finer resolution in fluid / obstacle regions (second order obstacles)...
-
-      .. _bpy.types.FluidDomainSettings.fractions_distance:
-
-      Obstacle Distance
-         Determines how far apart fluid and obstacles are...
-
-For an operator::
-
-   .. _bpy.ops.curve.subdivide:
-
-   Subdivide
-   =========
-
-
 Code Samples
 ============
 
@@ -312,49 +232,34 @@ Linking to the outside world::
    `Blender Website <https://www.blender.org>`__
 
 
-Directory Layout
-================
+Context Sensitive Manual Access
+-------------------------------
 
-Sections should be generally structured as follows:
+It is possible to link to a specific part of the manual from in Blender by opening
+the context menu (right click) of a property or operator and selecting *Online Manual*.
+In order for this to work, this needs to be accounted for in the documentation.
+To link a property or operator to a specific part of the manual you need to add
+an external reference link tag whose ID matches Blender's RNA tag.
+The easiest way to find out what the tag for a property is to open the context menu of
+the property/operator and select *Online Python Reference* to extract the tag from the URL.
+Some examples of how this looks in the RST document are given below::
 
-- ``directory_name/``
+   .. _bpy.types.FluidDomainSettings.use_fractions:
 
-  - ``index.rst`` (contains links to internal files)
-  - ``introduction.rst``
-  - ``section_1.rst``
-  - ``section_2.rst``
+   Fractional Obstacles
+      Enables finer resolution in fluid / obstacle regions (second order obstacles)...
 
-For example:
+      .. _bpy.types.FluidDomainSettings.fractions_distance:
 
-- ``rendering/``
+      Obstacle Distance
+         Determines how far apart fluid and obstacles are...
 
-  - ``index.rst``
-  - ``cycles/``
+For an operator::
 
-    - ``index.rst``
-    - ``introduction.rst``
-    - ``materials/``
+   .. _bpy.ops.curve.subdivide:
 
-      - ``index.rst``
-      - ``introduction.rst``
-      - ``volumes.rst``
-
-The idea is to enclose all the content of a section inside of a folder. Ideally every section
-should have an ``index.rst`` (containing the TOC for that section) and an ``introduction.rst``
-(introducing) to the contents of the section.
-
-
-Table of Contents
------------------
-
-By default, a table of contents should show two levels of depth::
-
-   .. toctree::
-      :maxdepth: 2
-
-      introduction.rst
-      perspective.rst
-      depth_of_field.rst
+   Subdivide
+   =========
 
 
 Further Reading

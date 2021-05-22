@@ -30,15 +30,15 @@ Evaluation Time
    By default, it is linked to the global frame number,
    but could be keyframed to give more control over the path animation.
 
+.. _bpy.types.Curve.use_path_clamp:
+
+Clamp
+   Clamp the curve path children so they can't travel past the start/end point of the curve.
+
 .. _bpy.types.Curve.use_path_follow:
 
 Follow
    Make the curve path children rotate along the curvature of the path.
-
-.. note::
-
-   Deprecated, but still available use.
-   A more future-proof method is the :doc:`/animation/constraints/relationship/follow_path`.
 
 
 Example

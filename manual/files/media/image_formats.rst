@@ -120,7 +120,7 @@ Relative Path
 Detect Sequences
    Automatically looks for image sequences in the selected images (based on the file name).
    Disable this when you do want to get single images that are part of a sequence.
-Detect UDIMs
+   Detect UDIMs
    Automatically looks for :doc:`UDIM </modeling/meshes/uv/workflows/udims>`
    tiles in the directory of the selected image; if matches are found they are loaded into Blender as UDIMs.
    This works by detecting if the filename has a ``.xxxx`` (four digit number) before the file extension.
@@ -156,15 +156,15 @@ Color Depth
    Some image file formats support a varying number of bits per pixel.
    This affects the color quality and file size. Commonly used depths:
 
-   8-bit (256 levels)
+   :8-bit:
       Most common for on-screen graphics and video.
-   10, 12, 16-bit
+   :10, 12, 16-bit:
       Used for some formats focusing on photography and digital films
       (such as DPX and JPEG 2000).
-   16-bit Half Float
+   :16-bit Half Float:
       Since full 32bit float is often more than enough precision,
       half float can save drive space while still providing a high dynamic range.
-   32-bit Float
+   :32-bit Float:
       Highest quality color depth.
 
    .. note::
@@ -224,17 +224,17 @@ Color Depth
 
    Float (Half), Float (Full)
 Codec
-   ``PXR24``
+   :``PXR24``:
       Lossy algorithm from Pixar, converting 32-bit floats to 24-bit floats.
-   ``ZIP``
+   :``ZIP``:
       Standard lossless compression using Zlib, operating on 16 scanlines at a time.
-   ``PIZ``
+   :``PIZ``:
       Lossless wavelet compression. Compresses images with grain well.
-   ``RLE``
+   :``RLE``:
       Run-length encoded, lossless, works well when scanlines have same values.
-   ``ZIPS``
+   :``ZIPS``:
       Standard lossless compression using Zlib, operating on a single scanline at a time.
-   ``DWAA``
+   :``DWAA``:
       JPEG-like lossy algorithm from DreamWorks.
 Z Buffer
    Save the depth information.

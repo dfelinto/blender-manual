@@ -1,4 +1,7 @@
-.. _bpy.types.ColorManaged:
+.. _bpy.types.ColorManagedSequencerColorspaceSettings:
+.. _bpy.types.ColorManagedDisplaySettings:
+.. _bpy.types.ColorManagedViewSettings:
+
 
 ****************
 Color Management
@@ -31,6 +34,8 @@ Rendering and compositing is best done in *scene linear* color space,
 which corresponds more closely to nature, and makes computations more physically accurate.
 
 .. figure:: /images/render_color-management_linear-workflow.svg
+   :width: 100%
+   :align: center
 
    An example of a linear workflow.
 
@@ -62,6 +67,8 @@ e.g. as if they have been printed on real camera film.
 The default Filmic transform does this.
 
 .. figure:: /images/render_color-management_linear-display-space.svg
+   :width: 100%
+   :align: center
 
    Conversion from linear to display device space.
 
@@ -93,15 +100,15 @@ Settings
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`Properties --> Render --> Color Management`
+   :Editor:    Properties
+   :Panel:     :menuselection:`Render Properties --> Color Management`
 
 .. figure:: /images/render_color-management_panel.png
+   :align: right
 
-   Render settings for color management.
+   Color Management properties.
 
-
-Display
--------
+.. _bpy.types.ColorManagedDisplaySettings.display_device:
 
 Display Device
    The device that the image is being viewed on.
@@ -111,54 +118,65 @@ Display Device
    It would typically be changed when viewing the image on another display device connected to the computer,
    or when writing out image files intended to be displayed on another device.
 
-   Rec709 is commonly used for HDTVs, while XYZ and DCI-P3 are common for digital projectors.
+   *Rec709* is commonly used for HDTVs, while *XYZ* and *DCI-P3* are common for digital projectors.
 
    Color management can be disabled by setting the device to None.
 
+.. _bpy.types.ColorManagedViewSettings.view_transform:
 
-Render
-------
-
-View
+View Transform
    These are different ways to view the image on the same display device.
 
-   Standard
+   :Standard:
       Does no extra conversion besides the conversion for the display device. Often used for
       non-photorealistic results or video editing where a specific look is already baked into
       the input video.
-   Filmic
+   :Filmic:
       For photorealistic results and better handling of high dynamic range colors.
       The contrast can be adjusted by changing the *Look* option for the Filmic view transform.
-   Filmic Log
+   :Filmic Log:
       Converts to Filmic log color space. This can be used for export to color grading applications,
       or to inspect the image by flattening out very dark and light areas.
-   Raw
+   :Raw:
       Intended for inspecting the image but not for final export.
       Raw gives the image without any color space conversion.
-   False Color
+   :False Color:
       Shows a heat map of image intensities, to visualize the dynamic range.
+
+.. _bpy.types.ColorManagedViewSettings.look:
+
+Look
+   Choose an artistic effect from a set of measured film response data
+   which roughly emulates the look of certain film types. Applied before color space conversion.
+
+.. _bpy.types.ColorManagedViewSettings.exposure:
+
 Exposure
    Used to control the image brightness (in stops) applied before color space conversion.
    It is calculated as follows: :math:`output\_value = render\_value × 2^{(exposure)}`
+
+.. _bpy.types.ColorManagedViewSettings.gamma:
+
 Gamma
    Extra gamma correction applied after color space conversion.
    Note that the default display transforms already perform the appropriate conversion,
    so this mainly acts as an additional effect for artistic tweaks.
-Look
-   Choose an artistic effect from a set of measured film response data
-   which roughly emulates the look of certain film types. Applied before color space conversion.
-Use Curves
-   Adjust RGB Curves to control image colors before color space conversion.
-   Read more about using the :ref:`ui-curve-widget`.
 
+.. _bpy.types.ColorManagedSequencerColorspaceSettings.name:
 
 Sequencer
----------
-
-Color Space
    The color space that the Sequencer operates in. By default, the Sequencer operates in sRGB space,
    but it can also be set to work in Linear space like the Compositing nodes, or another color space.
    Different color spaces will give different results for color correction, crossfades, and other operations.
+
+
+.. _bpy.types.ColorManagedViewSettings.use_curve_mapping:
+
+Use Curves
+----------
+
+Adjust RGB Curves to control image colors before color space conversion.
+Read more about using the :ref:`ui-curve-widget`.
 
 
 Image Files

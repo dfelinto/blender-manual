@@ -15,8 +15,8 @@ These parts include the Title, Sockets, Preview and more.
 Title
 =====
 
-The *Title* shows the name/type of the node.
-It can be overridden by changing the value of Label in the *Node* section of the *Sidebar region* :kbd:`N`.
+The *Title* shows the name/type of the node;
+it can be overridden by changing the node's :ref:`Label <bpy.types.Node.label>`.
 On the left side of the title is the *collapse toggle*
 which can be used to collapse the node. This can also be done with :kbd:`H`.
 
