@@ -4,8 +4,6 @@
 Wavelength Node
 ***************
 
-:guilabel:`Cycles Only`
-
 .. figure:: /images/render_shader-nodes_converter_wavelength_node.png
    :align: right
 

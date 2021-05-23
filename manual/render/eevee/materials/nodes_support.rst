@@ -213,8 +213,5 @@ Image Texture
 Material Output
    Displacement output behavior is broken compared to Cycles.
 
-Wavelength
-   Not supported.
-
 Point Density
    Not supported.
