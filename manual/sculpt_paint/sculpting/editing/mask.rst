@@ -183,9 +183,11 @@ Creates a mask radiating outwards from the active vertex in a uniform manner.
 :Snap Expanded to Face Sets: :kbd:`Ctrl`
    Isolates the expanded region to the boundary of the face set under the cursor.
 :Loop Count Increase: :kbd:`W`
-   Increase the number of loops or iterations the operator is run; using four loops will split the mask into four parts.
+   Increase the number of loops or iterations the operator is run;
+   using four loops will split the mask into four parts.
 :Loop Count Decrease: :kbd:`Q`
-   Decrease the number of loops or iterations the operator is run; using four loops will split the mask into four parts.
+   Decrease the number of loops or iterations the operator is run;
+   using four loops will split the mask into four parts.
 :Toggle Brush Gradient: :kbd:`B`
    Similar to linear gradient but uses the current brush :doc:`Falloff </sculpt_paint/brush/falloff>`
    to define the shape of the falloff.

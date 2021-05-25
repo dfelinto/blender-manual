@@ -87,8 +87,10 @@ Scene Collection
    Select All Objects in the Collection (multiple icons)
       - :kbd:`LMB` -- Select all of the objects in the collection (deselects all other objects).
       - :kbd:`Shift-LMB` -- Add/Remove all of the objects in the collection to/from the selection.
-      - :kbd:`Ctrl-LMB` -- Select all of the objects in the collection and all of its subcollections (deselects all other objects).
-      - :kbd:`Ctrl-Shift-LMB` -- Add/Remove all of the objects in the collection and all of its subcollections to/from the selection.
+      - :kbd:`Ctrl-LMB` -- Select all of the objects in the collection and all of its subcollections
+        (deselects all other objects).
+      - :kbd:`Shift-Ctrl-LMB` -- Add/Remove all of the objects in the collection and all of its
+        subcollections to/from the selection.
 
       Icons and button highlights are used to show the selection state:
          - ``no icon`` -- No objects are present in this collection to be selected.
@@ -96,11 +98,15 @@ Scene Collection
          - ``Diamond outline`` -- Objects are present in the collection.
          - ``highlight`` -- One or more objects are selected in this collection.
          - ``Filled diamond`` -- All objects are selected in this collection.
-         - ``small dot and greyed out`` -- No objects can be selected in this collection (the collection is hidden or marked as not selectable or all objects are marked as not selectable, etc.)  *Note: The button isn't disabled to allow selecting subcollections; however, if you left click on it it will deselect all objects.*
+         - ``small dot and greyed out`` -- No objects can be selected in this collection
+           (the collection is hidden or marked as not selectable or all objects are marked as not selectable, etc.)
+           *Note: The button isn't disabled to allow selecting subcollections;
+           however, if you left click on it it will deselect all objects.*
 
          .. hint::
 
-            If you try to select all the objects in the collection but the diamond doesn't fill, that means you have one or more unselectable objects in the collection.
+            If you try to select all the objects in the collection but the diamond doesn't fill,
+            that means you have one or more unselectable objects in the collection.
 
    Set Object (multiple icons)
       - :kbd:`LMB` -- Move selected object(s) to collection.
@@ -109,7 +115,8 @@ Scene Collection
       Icons are used to show the object/selection state:
          - ``Grid`` -- No objects are present in this collection.
          - ``Box outline`` -- Objects are present, but none are selected in this collection.
-         - ``3 boxes with dashed outline`` -- The collection contains objects that are selected, but does not contain the active object in the selection.
+         - ``3 boxes with dashed outline`` -- The collection contains objects that are selected,
+           but does not contain the active object in the selection.
          - ``Filled box`` -- The collection contains the active object in the selection.
 
          .. note::
@@ -127,8 +134,10 @@ Scene Collection
       - :kbd:`Shift-LMB` -- Invert the restriction state on all collections.
       - :kbd:`Shift-Ctrl-LMB` -- Isolate collections with selected objects.
       - :kbd:`Shift-Alt-LMB` -- Disable collections with selected objects.
-      - :kbd:`Ctrl-LMB` -- Copy/paste the restriction state on all collections.  Click on an RTO to copy the restriction state, then click on another RTO to paste it.
-      - :kbd:`Ctrl-Alt-LMB` -- Swap the restriction state on all collections with that of another restriction.  Click on an RTO to copy the restriction state, then click on another RTO to swap the two.
+      - :kbd:`Ctrl-LMB` -- Copy/paste the restriction state on all collections.
+        Click on an RTO to copy the restriction state, then click on another RTO to paste it.
+      - :kbd:`Ctrl-Alt-LMB` -- Swap the restriction state on all collections with that of another restriction.
+        Click on an RTO to copy the restriction state, then click on another RTO to swap the two.
       - :kbd:`Alt-LMB` -- Discard the previous state, and anything that has been stored for Copy/Paste or Swap.
 
 Tree View
@@ -153,8 +162,10 @@ Tree View
    Select All Objects in the Collection (multiple icons)
       - :kbd:`LMB` -- Select all of the objects in the collection (deselects all other objects).
       - :kbd:`Shift-LMB` -- Add/Remove all of the objects in the collection to/from the selection.
-      - :kbd:`Ctrl-LMB` -- Select all of the objects in the collection and all of its subcollections (deselects all other objects).
-      - :kbd:`Ctrl-Shift-LMB` -- Add/Remove all of the objects in the collection and all of its subcollections to/from the selection.
+      - :kbd:`Ctrl-LMB` -- Select all of the objects in the collection and all of its subcollections
+        (deselects all other objects).
+      - :kbd:`Shift-Ctrl-LMB` -- Add/Remove all of the objects in the collection and all of its
+        subcollections to/from the selection.
 
       .. note::
 
