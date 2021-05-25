@@ -164,9 +164,17 @@ View
 
 The view menu is part of the context menu and supported in all the Outliner elements.
 
+.. _bpy.ops.outliner.show_active:
+
 Show Active :kbd:`Period`
    Centers the Tree View to selected object.
+
+.. _bpy.ops.outliner.show_hierarchy:
+
 Show Hierarchy :kbd:`Home`
    To collapse all levels of the tree.
+
+.. _bpy.ops.outliner.show_one_level:
+
 Show/Hide One Level :kbd:`NumpadPlus`/ :kbd:`NumpadMinus`
    Expand one level down in the tree or collapse one level using the keyboard shortcuts.

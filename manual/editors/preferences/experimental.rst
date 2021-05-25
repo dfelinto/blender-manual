@@ -16,3 +16,7 @@ Debugging
 
 Cycles Debug
    Show the Cycles rendering :doc:`Debug Panel </render/cycles/render_settings/debug>`.
+
+Override Auto Resync
+   Enables library overrides automatic resync detection and process on file load.
+   Disable when dealing with older blend-files that need manual Resync (Enforce) handling.

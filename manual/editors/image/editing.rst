@@ -90,8 +90,7 @@ Edit Externally
    :class: refbox
 
    :Mode:      All Modes
-   :Menu:      :menuselection:`Image --> Reload`
-   :Shortcut:  :kbd:`Alt-R`
+   :Menu:      :menuselection:`Image --> Edit Externally`
 
 Using the *Edit Externally* tool Blender will open an external image editor,
 as specified in the *Preferences* and load in the image to be edited.
@@ -106,7 +105,7 @@ Save
    :class: refbox
 
    :Mode:      All Modes
-   :Menu:      :menuselection:`Image --> Reload`
+   :Menu:      :menuselection:`Image --> Save`
    :Shortcut:  :kbd:`Alt-S`
 
 Save the image, if the image is already a file.
@@ -172,7 +171,7 @@ Invert
 Invert Image Colors
    Invert the colors of an image.
 Invert Channel
-   Red, Green, Blue, AlphaSave Buffers
+   Red, Green, Blue, Alpha
 
 
 .. _bpy.ops.image.resize:
@@ -205,8 +204,8 @@ Use this to alter the perspective of an image giving an alternative viewpoint;
 this can make an image more visually appealing or highlight some visual flaw.
 
 Horizontally
-   Mirrors the image so the left-side becomes the right-side.
-Virtically
+   Mirrors the image so the left side becomes the right side.
+Vertically
    Mirrors the image so the top becomes the bottom.
 
 

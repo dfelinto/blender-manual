@@ -38,9 +38,9 @@ Color
 ^^^^^
 
 By default, the nodes background color is defined by the user theme.
-This color can be overiden by selecting a custom color in this panel.
+This color can be overridden by selecting a custom color in this panel.
 Custom node colors can be used to provide a visual cue to help distinguish some nodes from others.
-In the panel header, colors can be saved as a preset for reuse in other nodes or other projects .
+In the panel header, colors can be saved as a preset for reuse in other nodes or other projects.
 
 .. _bpy.types.Node.color:
 

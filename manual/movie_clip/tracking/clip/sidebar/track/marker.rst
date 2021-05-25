@@ -19,13 +19,13 @@ Position X, Y
    The X/Y positions of the marker at frame in screen coordinates.
 
 Offset X, Y
-   The X/Y offser to parenting point.
+   The X/Y offset to parenting point.
 
-Pattern Area Width/Height
+Pattern Area Width, Height
    The width/height of a marker's pattern in screen coordinates.
 
 Search Area X, Y
    The X/Y position of search at frame relative to the marker's position.
 
-Search Area Width/Height
+Search Area Width, Height
    The width/height of the markers search in screen coordinates.

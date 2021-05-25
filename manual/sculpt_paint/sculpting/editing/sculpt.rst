@@ -72,3 +72,21 @@ Rebuild BVH
 
 Recalculates the :term:`BVH` used by :doc:`/sculpt_paint/sculpting/tool_settings/dyntopo`
 which can improve performance which might degrade over time while using Dyntopo.
+
+
+.. _bpy.ops.object.transfer_mode:
+
+Transfer Sculpt Mode
+====================
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Sculpt Mode
+   :Menu:      :menuselection:`Sculpt --> Transfer Sculpt Mode`
+   :Shortcut:  :kbd:`D`
+
+Adds the object under the mouse to Sculpt Mode and removes the :term:`Active` from Sculpt Mode.
+This operator is useful to easily switch between objects when you want to sculpt on multiple objects at once.
+
+When accessed from the menu, an :ref:`ui-eyedropper` is used to select the object to add to Sculpt Mode.

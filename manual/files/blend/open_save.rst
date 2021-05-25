@@ -19,18 +19,10 @@ Opening and saving blend-files is usually done using the :doc:`File Browser </ed
    of the *Preferences*.
 
 
-.. _files-blend-open:
+.. _bpy.ops.wm.open_mainfile:
 
 Opening Files
 =============
-
-.. figure:: /images/files_blend_open-save_file-browser-open.png
-
-   The File Browser in open configuration.
-
-
-Usage
------
 
 .. admonition:: Reference
    :class: refbox
@@ -41,6 +33,9 @@ Usage
 The upper text field displays the current directory path,
 and the lower text field contains the selected filename.
 
+.. figure:: /images/files_blend_open-save_file-browser-open.png
+
+   The File Browser in open configuration.
 
 Options
 -------
@@ -66,36 +61,56 @@ Trusted Source
 
 .. _other-file-open-options:
 
-Other File Open Options
------------------------
-
-From the *File* menu, you can also open files with the following tools:
-
 Open Recent
-   Lists recently used files. Click on one to load it in.
-Recover Last Session
-   This will load the ``quit.blend`` file Blender automatically saved just before exiting.
-   This option enables you to recover your last work session if, for example, you closed Blender by accident.
-Recover Auto Save
-   This will allow you to open an automatically saved file to recover it.
+===========
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Menu:      :menuselection:`File --> Open Recent`
+   :Shortcut:  :kbd:`Shift-Ctrl-O`
+
+Lists recently used files. Click on one to load it in.
+
+
+Recover
+=======
 
 .. seealso::
 
    :ref:`Auto Saves <troubleshooting-file-recovery>`
 
+.. _bpy.ops.wm.recover_last_session:
 
-.. _files-blend-save:
+Last Session
+------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Menu:      :menuselection:`File --> Recover --> Last Session`
+
+This will load the ``quit.blend`` file Blender automatically saved just before exiting.
+This option enables you to recover your last work session if, for example, you closed Blender by accident.
+
+
+.. _bpy.ops.wm.recover_auto_save:
+
+Auto Save
+---------
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Menu:      :menuselection:`File --> Recover --> Auto Save`
+
+This will allow you to open an automatically saved file to recover it.
+
+
+.. _bpy.ops.wm.save_mainfile:
 
 Saving Files
 ============
-
-.. figure:: /images/files_blend_open-save_file-browser-save.png
-
-   The File Browser in save configuration.
-
-
-Usage
------
 
 .. admonition:: Reference
    :class: refbox
@@ -103,26 +118,29 @@ Usage
    :Menu:      :menuselection:`File --> Save`
    :Shortcut:  :kbd:`Ctrl-S`
 
+Save current blend-file over itself (if it was not saved yet, this will automatically switch to *Save As...*).
+
+.. figure:: /images/files_blend_open-save_file-browser-save.png
+
+   The File Browser in save configuration.
+
+.. seealso::
+
+   :ref:`Auto Save <troubleshooting-file-recovery>`
+
+
+.. _bpy.ops.wm.save_as_mainfile:
+
+Save As
+=======
+
 .. admonition:: Reference
    :class: refbox
 
    :Menu:      :menuselection:`File --> Save As...`
    :Shortcut:  :kbd:`Shift-Ctrl-S`
 
-.. admonition:: Reference
-   :class: refbox
-
-   :Menu:      :menuselection:`File --> Save Copy...`
-
-There are a number of slightly different methods you can use to save your blend-file to your drive:
-
-Save :kbd:`Ctrl-S`
-   Save current blend-file over itself (if it was not saved yet, this will automatically switch to *Save As...*).
-Save As... :kbd:`Shift-Ctrl-S`
-   Choose a file path to save the blend-file to.
-Save Copy
-   Choose a file path to save the blend-file to, but return to editing the original file upon completion.
-   This can be used to save backups of the current working state without modifying the original file.
+Choose a file path to save the blend-file to.
 
 .. warning::
 
@@ -151,10 +169,7 @@ Compress File
 
       This option may slow down Blender when you quit,
       or under normal operation when Blender is saving your backup files.
-
-   .. seealso::
-
-      Linked Libraries :ref:`files-linked_libraries-known_limitations-compression`.
+      See :ref:`files-linked_libraries-known_limitations-compression` for more information.
 
 Remap Relative
    This option remaps :ref:`files-blend-relative_paths`
@@ -162,9 +177,19 @@ Remap Relative
 Save Copy
    This option saves a copy of the actual working state but does not make the saved file active.
 
-.. seealso::
 
-   :ref:`Auto Save <troubleshooting-file-recovery>`
+Save Copy
+=========
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Menu:      :menuselection:`File --> Save Copy...`
+
+Choose a file path to save the blend-file to, but return to editing the original file upon completion.
+This can be used to save backups of the current working state without modifying the original file.
+
+For options see :ref:`bpy.ops.wm.save_as_mainfile`.
 
 
 .. _files-blend-relative_paths:
@@ -199,5 +224,5 @@ in the :doc:`File </editors/preferences/file_paths>` tab of the *Preferences*.
 .. hint::
 
    If it is necessary to relocate a blend-file relative to its linked resources,
-   use Blender's File :ref:`Save As... <files-blend-save>`
+   use Blender's File :ref:`Save As... <bpy.ops.wm.save_mainfile>`
    function which has an option to *Remap Relative* file links.

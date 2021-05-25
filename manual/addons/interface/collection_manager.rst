@@ -60,7 +60,7 @@ Undo
 
    .. note::
 
-      Clears any in progress copy/swap actions.
+      Clears any in progress copy or swap actions.
 
 Redo
    Redoes the previously undone action.
@@ -85,45 +85,47 @@ Scene Collection
       This is static and can't be edited.
 
    Select All Objects in the Collection (multiple icons)
-      - :kbd:`LMB` -- Select all of the objects in the collection (deselects all other objects).
-      - :kbd:`Shift-LMB` -- Add/Remove all of the objects in the collection to/from the selection.
-      - :kbd:`Ctrl-LMB` -- Select all of the objects in the collection and all of its subcollections
+      - :kbd:`LMB` -- Select all objects in the collection (deselects all other objects).
+      - :kbd:`Shift-LMB` -- Add/Remove all objects in the collection to/from the selection.
+      - :kbd:`Ctrl-LMB` -- Select all objects in the collection and all of its subcollections
         (deselects all other objects).
-      - :kbd:`Shift-Ctrl-LMB` -- Add/Remove all of the objects in the collection and all of its
-        subcollections to/from the selection.
+      - :kbd:`Shift-Ctrl-LMB` -- Add/Remove all objects in the collection
+        and all its subcollections to/from the selection.
 
-      Icons and button highlights are used to show the selection state:
-         - ``no icon`` -- No objects are present in this collection to be selected.
-         - ``no highlight`` -- No objects are selected in this collection.
-         - ``Diamond outline`` -- Objects are present in the collection.
-         - ``highlight`` -- One or more objects are selected in this collection.
-         - ``Filled diamond`` -- All objects are selected in this collection.
-         - ``small dot and greyed out`` -- No objects can be selected in this collection
-           (the collection is hidden or marked as not selectable or all objects are marked as not selectable, etc.)
-           *Note: The button isn't disabled to allow selecting subcollections;
-           however, if you left click on it it will deselect all objects.*
+      Icons and button highlights are used to show the selection state
 
-         .. hint::
+      - ``no icon`` -- No objects are present in this collection to be selected.
+      - ``no highlight`` -- No objects are selected in this collection.
+      - ``Diamond outline`` -- Objects are present in the collection.
+      - ``highlight`` -- One or more objects are selected in this collection.
+      - ``Filled diamond`` -- All objects are selected in this collection.
+      - ``small dot and greyed out`` -- No objects can be selected in this collection
+        (the collection is hidden or marked as not selectable or all objects are marked as not selectable, etc.).
+        *Note*: The button isn't disabled to allow selecting subcollections; however, if you :kbd:`LMB` click on
+        it it will deselect all objects.
 
-            If you try to select all the objects in the collection but the diamond doesn't fill,
-            that means you have one or more unselectable objects in the collection.
+      .. hint::
+
+         If you try to select all the objects in the collection but the diamond doesn't fill,
+         that means you have one or more unselectable objects in the collection.
 
    Set Object (multiple icons)
       - :kbd:`LMB` -- Move selected object(s) to collection.
       - :kbd:`Shift-LMB` -- Add/Remove selected object(s) to/from collection.
 
       Icons are used to show the object/selection state:
-         - ``Grid`` -- No objects are present in this collection.
-         - ``Box outline`` -- Objects are present, but none are selected in this collection.
-         - ``3 boxes with dashed outline`` -- The collection contains objects that are selected,
-           but does not contain the active object in the selection.
-         - ``Filled box`` -- The collection contains the active object in the selection.
 
-         .. note::
+      - ``Grid`` -- No objects are present in this collection.
+      - ``Box outline`` -- Objects are present, but none are selected in this collection.
+      - ``3 boxes with dashed outline`` -- The collection contains objects that are selected,
+        but does not contain the active object in the selection.
+      - ``Filled box`` -- The collection contains the active object in the selection.
 
-            The active object must also be selected to be indicated/moved.
+      .. note::
 
-            If no objects are selected the button is disabled.
+         The active object must also be selected to be indicated/moved.
+
+         If no objects are selected the button is disabled.
 
 
    Global Restrictions (checkbox, cursor, eye, screen, camera, holdout, indirect only icons)
@@ -135,7 +137,8 @@ Scene Collection
       - :kbd:`Shift-Ctrl-LMB` -- Isolate collections with selected objects.
       - :kbd:`Shift-Alt-LMB` -- Disable collections with selected objects.
       - :kbd:`Ctrl-LMB` -- Copy/paste the restriction state on all collections.
-        Click on an RTO to copy the restriction state, then click on another RTO to paste it.
+        Click on an RTO to copy the restriction state, then click on
+        another RTO to paste it.
       - :kbd:`Ctrl-Alt-LMB` -- Swap the restriction state on all collections with that of another restriction.
         Click on an RTO to copy the restriction state, then click on another RTO to swap the two.
       - :kbd:`Alt-LMB` -- Discard the previous state, and anything that has been stored for Copy/Paste or Swap.
@@ -160,12 +163,12 @@ Tree View
       Double :kbd:`LMB`-click to rename the collection.
 
    Select All Objects in the Collection (multiple icons)
-      - :kbd:`LMB` -- Select all of the objects in the collection (deselects all other objects).
-      - :kbd:`Shift-LMB` -- Add/Remove all of the objects in the collection to/from the selection.
-      - :kbd:`Ctrl-LMB` -- Select all of the objects in the collection and all of its subcollections
+      - :kbd:`LMB` -- Select all objects in the collection (deselects all other objects).
+      - :kbd:`Shift-LMB` -- Add/Remove all objects in the collection to/from the selection.
+      - :kbd:`Ctrl-LMB` -- Select all objects in the collection and all of its subcollections
         (deselects all other objects).
-      - :kbd:`Shift-Ctrl-LMB` -- Add/Remove all of the objects in the collection and all of its
-        subcollections to/from the selection.
+      - :kbd:`Ctrl-Shift-LMB` -- Add/Remove all objects in the collection
+        and all its subcollections to/from the selection.
 
       .. note::
 

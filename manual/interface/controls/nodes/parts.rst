@@ -15,9 +15,9 @@ These parts include the Title, Sockets, Preview and more.
 Title
 =====
 
-The *Title* shows the name/type of the node;
+The title shows the name/type of the node;
 it can be overridden by changing the node's :ref:`Label <bpy.types.Node.label>`.
-On the left side of the title is the *collapse toggle*
+On the left side of the title is the *collapse* toggle
 which can be used to collapse the node. This can also be done with :kbd:`H`.
 
 .. figure:: /images/interface_controls_nodes_parts_collapsed.png
@@ -33,7 +33,7 @@ Sockets
 .. figure:: /images/interface_controls_nodes_parts_sockets.png
    :align: right
 
-The *Sockets* input and output values from the node.
+The sockets input and output values from the node.
 They appear as little colored circles on either side of the node.
 Unused sockets can be hidden with :kbd:`Ctrl-H`.
 There are two kinds of sockets: `inputs`_ and `outputs`_.
@@ -73,7 +73,7 @@ Image (apricot)
 Inputs
 ------
 
-The *Inputs* are located on bottom left side of the node,
+The inputs are located on bottom left side of the node,
 and provide the data the node needs to perform its function.
 Each input socket, except for the green shader input, when disconnected,
 has a default value which can be edited via a color, numeric, or vector interface input.
@@ -86,7 +86,7 @@ These sockets will have an ellipsis shape rather than a circle to indicate its s
 Outputs
 -------
 
-The *Outputs* are located on the top right side of the node,
+The outputs are located on the top right side of the node,
 and can be connected to the input of nodes further down the node tree.
 
 

@@ -61,6 +61,11 @@ Fit Method
 
       This may mean that the original image becomes distorted to fit the content inside the rendered area.
 
+Set View Transform
+   Automatically sets an appropriate :ref:`View Transform <bpy.types.ColorManagedViewSettings.view_transform>`
+   based on the :term:`Color Space` of the imported media. In most cases, the *Standard* should be used;
+   using the wrong transform could result in inaccurate colors or degraded rendering performance.
+
 Sound
    Add a :doc:`Sound Strip </video_editing/sequencer/strips/sound>` that contains the movie's audio track.
 
@@ -170,6 +175,11 @@ Fit Method
       the other two methods described above, *Stretch to Fill* does not maintaining the original aspect ratio.
 
       This may mean that the original image becomes distorted to fit the content inside the rendered area.
+
+Set View Transform
+   Automatically sets an appropriate :ref:`View Transform <bpy.types.ColorManagedViewSettings.view_transform>`
+   based on the :term:`Color Space` of the imported media. In most cases, the *Standard* should be used;
+   using the wrong transform could result in inaccurate colors or degraded rendering performance.
 
 Use Placeholders
    Image sequences can use placeholder files.

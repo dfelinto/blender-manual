@@ -53,7 +53,7 @@ The options to manage files are:
 New :kbd:`Ctrl-N`
    Clears the current scene and loads the selected application template.
 Open :kbd:`Ctrl-O`
-   :ref:`Open <files-blend-open>` a blend-file.
+   :ref:`Open <bpy.ops.wm.open_mainfile>` a blend-file.
 Open Recent :kbd:`Shift-Ctrl-O`
    Displays a list of :ref:`recently <other-file-open-options>` saved blend-files to open.
 Revert
@@ -67,11 +67,11 @@ Recover
       This will open an automatically saved file
       to :doc:`recover </troubleshooting/recover>` it.
 Save :kbd:`Ctrl-S`
-   :ref:`Save <files-blend-save>` the current blend-file.
+   :ref:`Save <bpy.ops.wm.save_mainfile>` the current blend-file.
 Save As... :kbd:`Shift-Ctrl-S`
-   Opens the File Browser to specify file name and location of :ref:`save <files-blend-save>`.
+   Opens the File Browser to specify file name and location of :ref:`save <bpy.ops.wm.save_mainfile>`.
 Save Copy...
-   :ref:`Saves <files-blend-save>` a copy of the current file.
+   :ref:`Saves <bpy.ops.wm.save_mainfile>` a copy of the current file.
 Link...
    Links data from an external blend-file (library) to the current scene.
    The edition of that data is only possible in the external library.

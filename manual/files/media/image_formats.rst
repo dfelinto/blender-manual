@@ -131,13 +131,21 @@ Detect UDIMs
 Opening an Image Sequence
 -------------------------
 
-The filename of the images must contain a digit, indicating the frame.
-The sequence could be opened by the selection of the images and
+To load image sequence in any of the supported image file formats,
+the filename of the images must contain a digit to indicate the frame order
+(e.g. ``*-0001.jpg``, ``*-0002.jpg``, ``*-0003.jpg``, etc, of any image format), indicating the frame.
+
+The sequence could be opened by the selection of the images with any of the following methods
 by the confirmation with the *Open Image* button or :kbd:`Return`.
 
-.. (alt) To load image sequence in any of the supported image
-   file formats, first click on the first frame and then Accept.
-   Then change the Source to Image Sequence, and enter the ending frame number of this sequence.
+Range
+   Navigate into the directory and :kbd:`LMB` click and drag over a range of names to highlight multiple files.
+   You can page down and continue :kbd:`Shift-LMB` click-dragging to add more to the selection.
+Batch
+   :kbd:`Shift-LMB` click selected non-related stills for batch processing; each image will be one frame,
+   in sort order, and can be a mix of file types (``jpg``, ``png``, ``exr``, etc.).
+All
+   Press :kbd:`A` to select/deselect all files in the directory.
 
 
 .. _bpy.types.ImageFormatSettings:

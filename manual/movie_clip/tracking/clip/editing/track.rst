@@ -354,12 +354,11 @@ however, disabled markers do not affect the averaging.
 
 Gaps in the original tracks will be linearly interpolated, to reduce result track jump.
 Note that this only applies to gaps "inbetween".
-This means that if an track does not have markers in the beginning or end of it,
+This means that if a track does not have markers in the beginning or end of it,
 there is nothing to interpolate with and the resulting track will jump.
 
-Keep Orignial
-   When enabled, the selected tracks are not deleted;
-   when disabled, the selected tracks are deleted.
+Keep Original
+   When enabled, the selected tracks are *not* deleted;
 
 
 Copy Tracks

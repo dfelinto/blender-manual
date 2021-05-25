@@ -8,7 +8,7 @@ Transfer Mesh Data
    :class: refbox
 
    :Mode:      Object Mode
-   :Menu:      :menuselection:`Object --> Link./Transfer Data --> Transfer Mesh Data`
+   :Menu:      :menuselection:`Object --> Link/Transfer Data --> Transfer Mesh Data`
 
 The *Data Transfer* tool transfers several types of data from one mesh to another.
 Data types include vertex groups, UV maps, vertex colors, custom normals...

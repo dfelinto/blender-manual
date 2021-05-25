@@ -119,8 +119,7 @@ Display Device
    or when writing out image files intended to be displayed on another device.
 
    *Rec709* is commonly used for HDTVs, while *XYZ* and *DCI-P3* are common for digital projectors.
-
-   Color management can be disabled by setting the device to None.
+   Color management can be disabled by setting the device to *None*.
 
 .. _bpy.types.ColorManagedViewSettings.view_transform:
 
@@ -165,7 +164,8 @@ Gamma
 .. _bpy.types.ColorManagedSequencerColorspaceSettings.name:
 
 Sequencer
-   The color space that the Sequencer operates in. By default, the Sequencer operates in sRGB space,
+   The color space that the :doc:`Sequencer </editors/sequencer>` operates in.
+   By default, the Sequencer operates in sRGB space,
    but it can also be set to work in Linear space like the Compositing nodes, or another color space.
    Different color spaces will give different results for color correction, crossfades, and other operations.
 
@@ -175,7 +175,7 @@ Sequencer
 Use Curves
 ----------
 
-Adjust RGB Curves to control image colors before color space conversion.
+Adjust RGB Curves to control the image colors before the color space conversion.
 Read more about using the :ref:`ui-curve-widget`.
 
 
