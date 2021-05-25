@@ -40,8 +40,8 @@ Type
       Rotates the vector around any arbitrary axis defined by the *Axis* input vector.
       The amount of rotation is defined by the *Angle* input.
    :Euler:
-      Rotates the vector about the *Center* with the *Rotation*
-      input vector to control the amount of rotation on each axis.
+      Rotates the vector about the *Center* with the *Rotation* input vector to control
+      the amount of rotation on each axis.
 Invert
    Inverts the rotation angle.
 

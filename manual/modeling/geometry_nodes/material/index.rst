@@ -1,7 +1,7 @@
 
-##############
-Material Nodes
-##############
+##################
+  Material Nodes
+##################
 
 .. toctree::
    :maxdepth: 1

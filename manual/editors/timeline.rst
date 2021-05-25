@@ -218,7 +218,7 @@ Cycle-Aware Keying
 
    - If a key insertion is attempted outside of the main time range of the cycle,
      it is remapped back inside the range.
-   - When overwriting one of the end keys, the other one is updated appropriately.
+   - When overwriting one of the end keys, the other one is updated accordingly.
 
 
 .. Move to some content to animation?
