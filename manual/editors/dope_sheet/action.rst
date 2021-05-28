@@ -66,7 +66,7 @@ Action
    Unlink ``X``
       When :kbd:`Shift-LMB` clicking it clears the Fake User and
       removes the stashed action from the NLA stack too.
-Push Down (double down arrow peak icon)
+Push Down (strips with down arrow icon)
    Adds the active action on to the NLA stack as a contributing strip.
    This is basically the same as pressing the Push Down button in the NLA Editor.
 Stash (snowflake icon)
