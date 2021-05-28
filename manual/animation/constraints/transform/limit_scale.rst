@@ -13,7 +13,7 @@ through lower and upper bounds.
 
    This constraint does not tolerate negative scale values
    (those you might use to mirror an object...): when you add it to an object or bone,
-   even if no axis limit is enabled, nor the *For Transform* button,
+   even if no axis limit is enabled, nor the *Affect Transform* option,
    as soon as you scale your object,
    all negative scale values are instantaneously inverted to positive ones...
    And the boundary settings can only take strictly positive values.
@@ -30,7 +30,7 @@ its ex-owner will seem to jump to its internally-specified scale.
 
 Similarly, if its owner has an internal scale that is beyond the limits, scaling it back into
 the limit area will appear to do nothing until the internal scale values are back
-within the limit threshold (unless you enabled the *For Transform* option,
+within the limit threshold (unless you enabled the *Affect Transform* option,
 see below, or your owner has some negative scale values).
 
 Setting equal the min and max values of an axis locks the owner's scaling along that axis.

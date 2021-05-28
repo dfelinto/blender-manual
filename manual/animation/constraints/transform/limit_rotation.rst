@@ -20,7 +20,7 @@ its ex-owner will seem to jump to its internally specified rotation.
 
 Similarly, if its owner has an internal rotation that is beyond the limit, rotating it back
 into the limit area will appear to do nothing until the internal rotation values are back
-within the limit threshold (unless you enabled the *For Transform* option, see below).
+within the limit threshold (unless you enabled the *Affect Transform* option, see below).
 
 Setting equal the min and max values of an axis,
 locks the owner's rotation around that axis... Although this is possible,

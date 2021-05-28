@@ -23,7 +23,7 @@ its ex-owner will seem to jump to its internally specified location.
 
 Similarly, if its owner has an internal location that is beyond the limits, dragging it back
 into the limit area will appear to do nothing until the internal coordinates are back within
-the limit threshold (unless you enabled the *For Transform* option, see below).
+the limit threshold (unless you enabled the *Affect Transform* option, see below).
 
 Setting equal the min and max values of an axis,
 locks the owner's movement along that axis... Although this is possible,
