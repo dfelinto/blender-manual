@@ -80,7 +80,7 @@ Channel
    This selector controls which transform property
    (location, rotation or scale along/around one of its axes) from the target to use as "action driver".
 
-Target Space
+Target
    This constraint allows you to choose in which space to evaluate its target's transform properties.
 
 Range Min, Max

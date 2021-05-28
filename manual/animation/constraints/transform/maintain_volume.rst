@@ -40,7 +40,7 @@ Free Axis
 Volume
    The bone's rest volume.
 
-Owner Space
+Owner
    This constraint allows you to choose in which space to evaluate its owner's transform properties.
    See :ref:`common constraint properties <rigging-constraints-interface-common-space>` for more information.
 

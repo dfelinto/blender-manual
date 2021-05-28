@@ -57,7 +57,7 @@ Affect Transform
    However, note that, the constraint does not directly modify the coordinates:
    you have to select its owner one way or another for this to take effect...
 
-Owner Space
+Owner
    This constraint allows you to choose in which space to evaluate its owner's transform properties.
    See :ref:`common constraint properties <rigging-constraints-interface-common-space>` for more information.
 

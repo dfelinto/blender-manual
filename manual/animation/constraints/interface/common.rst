@@ -59,21 +59,21 @@ moving, rotating and scaling the target in many different ways.
 .. figure:: /images/animation_constraints_interface_common_space.png
 
    This constraint is set to use World Space as the frame of reference for both
-   its Target Space and its Owner Space.
+   its *Target* space and its *Owner* space.
 
 
 Target Space & Owner Space
 --------------------------
 
-The space used to evaluate the target of the constraint is called the Target Space.
-The space used to evaluate the constrained object (the object that owns the constraint) is called the Owner Space.
+The space used to evaluate the target of the constraint is called the *Target* space.
+The space used to evaluate the constrained object (the object that owns the constraint) is called the *Owner* space.
 Hover over the space select menu(s) to learn whether it affects the space of the target
 or the space of the owner.
 
-When the constraints use a Target and/or/nor an Owner space there will be no, one or two selector(s).
-The Copy Location constraint in example use both Target **and** Owner space.
+When the constraints use a *Target* and/or/nor an *Owner* space there will be no, one or two selector(s).
+The Copy Location constraint in example use both Target **and** *Owner* space.
 
-When a constraint uses both Target and Owner space,
+When a constraint uses both *Target* and *Owner* space,
 the Target and Owner can be any combination of space types.
 
 

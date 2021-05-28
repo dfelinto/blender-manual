@@ -40,7 +40,7 @@ Options
 
 Limit X, Y, Z
    These buttons enable the rotation limit around respectively the X, Y and Z axes of the owner,
-   in the chosen *Owner Space*.
+   in the chosen *Owner* space.
    The *Min* and *Max* number fields to their right control the value of
    their lower and upper boundaries, respectively.
 
@@ -59,7 +59,7 @@ Affect Transform
    However, note that, the constraint does not directly modify the rotation values:
    you have to rotate one way or the other its owner, for this to take effect...
 
-Owner Space
+Owner
    This constraint allows you to choose in which space evaluate its owner's transform properties.
    See :ref:`common constraint properties <rigging-constraints-interface-common-space>` for more information.
 
