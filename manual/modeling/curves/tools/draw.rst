@@ -83,7 +83,7 @@ Depth
 Options
 =======
 
-After the tool is run, these options are available in the :ref:`ui-undo-redo-adjust-last-operation` panel.
+After the tool is run, these options are available in the :ref:`bpy.ops.screen.redo_last` panel.
 
 Error
    Error distance in object units. This can be seen similar to a subdivision rate for the curve.

@@ -93,7 +93,7 @@ Adjust Last Operation
 
 The *Adjust Last Operation* is a region that shows tool options when tools (operators) are run.
 
-This is further documented here: :ref:`Adjust Last Operation <ui-undo-redo-adjust-last-operation>`.
+This is further documented here: :ref:`Adjust Last Operation <bpy.ops.screen.redo_last>`.
 
 
 .. _ui-region-sidebar:

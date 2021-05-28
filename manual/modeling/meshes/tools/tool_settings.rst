@@ -118,7 +118,7 @@ Auto Merge Vertices
 When enabled, as soon as a vertex moves closer to another one
 than the *Threshold* setting, they are automatically merged.
 This option affects interactive operations only
-(tweaks made in the :ref:`ui-undo-redo-adjust-last-operation` panel are considered interactive too).
+(tweaks made in the :ref:`bpy.ops.screen.redo_last` panel are considered interactive too).
 If the exact spot where a vertex is moved contains more than one vertex,
 then the merge will be performed between the moved vertex and one of those.
 

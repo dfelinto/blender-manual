@@ -41,7 +41,7 @@ it can to preserve edges and faces only partly involved in the reunion.
    the order is lost, for instance, after changing selection mode.
 
 UVs
-   If *UVs* is ticked in the :ref:`ui-undo-redo-adjust-last-operation` panel,
+   If *UVs* is ticked in the :ref:`bpy.ops.screen.redo_last` panel,
    the UV mapping coordinates, if existing, will be corrected to avoid image distortion.
 
 

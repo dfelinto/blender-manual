@@ -120,7 +120,7 @@ a regular and straightforward UV layout for you.
 Options
 -------
 
-The :ref:`ui-undo-redo-adjust-last-operation` panel allows fine control over how the mesh is unwrapped:
+The :ref:`bpy.ops.screen.redo_last` panel allows fine control over how the mesh is unwrapped:
 
 Angle Limit
    This controls how faces are grouped: a higher limit will lead to many small groups but less distortion,

@@ -33,7 +33,7 @@ yet modifiers and constraints may depend on object transformation.
    this does **not** apply to their pose location, animation curves or constraints.
    This tool should be used before rigging and animation.
 
-When running *Apply Transform*, the :ref:`ui-undo-redo-adjust-last-operation` panel lets you choose
+When running *Apply Transform*, the :ref:`bpy.ops.screen.redo_last` panel lets you choose
 the combination of transformations to apply.
 
 
@@ -57,7 +57,7 @@ Rotation and Scale
    Apply (set) the rotation and scale of the selection. Do the above two applications simultaneously.
 Apply Properties
    Modify properties such as curve vertex radius, font size and bone envelope
-   according to the applied transformation. (Found in the :ref:`ui-undo-redo-adjust-last-operation` panel)
+   according to the applied transformation. (Found in the :ref:`bpy.ops.screen.redo_last` panel)
 
 
 .. _bpy.ops.object.transforms_to_deltas:

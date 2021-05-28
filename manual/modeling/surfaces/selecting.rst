@@ -128,7 +128,7 @@ Select Similar
    :Shortcut:  :kbd:`Shift-G`
 
 Selects control points that have certain similar properties to the active one.
-The :ref:`ui-undo-redo-adjust-last-operation` panel provides several selection options:
+The :ref:`bpy.ops.screen.redo_last` panel provides several selection options:
 
 Type
    Type

@@ -146,10 +146,10 @@ click the "+" button on the *Transform Orientations* panel.
 
 .. figure:: /images/editors_3dview_controls_orientation_custom-name.png
 
-   Create Orientation :ref:`ui-undo-redo-adjust-last-operation` panel.
+   Create Orientation :ref:`bpy.ops.screen.redo_last` panel.
 
 Just after creating the orientation,
-the *Create Orientation* :ref:`ui-undo-redo-adjust-last-operation` panel gives a few options:
+the *Create Orientation* :ref:`bpy.ops.screen.redo_last` panel gives a few options:
 
 Name
    Text field for naming the new orientation.

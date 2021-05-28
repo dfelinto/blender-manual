@@ -53,7 +53,7 @@ you can also inhibit Blender from rotating sources using the shortcut :kbd:`Shif
 In this case, Blender will not rotate the source dividing the angle between those edges when creating a face.
 
 For both cases, Blender will inform the user about the source rotation during the creation process.
-If you look at the :ref:`ui-undo-redo-adjust-last-operation` panel and press :kbd:`Ctrl-RMB`,
+If you look at the :ref:`bpy.ops.screen.redo_last` panel and press :kbd:`Ctrl-RMB`,
 you will see that the Rotate Source is automatically checked and if :kbd:`Shift-Ctrl-RMB` is used,
 it will be automatically unchecked.
 

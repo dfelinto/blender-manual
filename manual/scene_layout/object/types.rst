@@ -77,7 +77,7 @@ New objects can be created with the *Add* menu in the 3D Viewport's header.
 Common Options
 ==============
 
-You can change the options of the object in the :ref:`ui-undo-redo-adjust-last-operation` panel
+You can change the options of the object in the :ref:`bpy.ops.screen.redo_last` panel
 just after creating it:
 
 Type

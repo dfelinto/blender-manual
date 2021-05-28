@@ -82,7 +82,7 @@ Cache/Bone Cache
       You cannot modify this range without deleting the motion path first.
 Calculate/Update Paths
    If no paths have been calculated, Calculate Paths will create a new motion path in cache based on
-   the options specified in the pop-up menu or the :ref:`ui-undo-redo-adjust-last-operation` panel.
+   the options specified in the pop-up menu or the :ref:`bpy.ops.screen.redo_last` panel.
 
    If a path has already been calculated, Update Paths will update the path shape to the current animation.
    To change the frame range of the calculated path, you need to delete the path and calculate it again.

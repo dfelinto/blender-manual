@@ -58,8 +58,8 @@ Global Undo
    .. warning::
 
       While disabling this option does save memory,
-      it stops the :ref:`Redo Panel <ui-undo-redo-adjust-last-operation>`
-      from functioning, also preventing tool options from being changed in some cases.
+      it stops the :ref:`bpy.ops.screen.redo_last` panel from functioning,
+      also preventing tool options from being changed in some cases.
 
       For typical usage, its best to keep this enabled.
 

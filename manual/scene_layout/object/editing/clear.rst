@@ -40,4 +40,4 @@ Options
 
 Clear Delta
    Clear the :ref:`delta transform <bpy.types.Object.delta>` in addition to clearing the primary transforms.
-   (Appears in the :ref:`ui-undo-redo-adjust-last-operation` panel.)
+   (Appears in the :ref:`bpy.ops.screen.redo_last` panel.)

@@ -45,7 +45,7 @@ will mirror the selection along the X axis of the *Normal Orientation*.
 
 .. figure:: /images/scene-layout_object_editing_mirror_panel.png
 
-   Mirror :ref:`ui-undo-redo-adjust-last-operation` panel.
+   Mirror :ref:`bpy.ops.screen.redo_last` panel.
 
 You can alternatively hold the :kbd:`MMB` to interactively mirror the object by moving
 the mouse in the direction of the mirror axis.

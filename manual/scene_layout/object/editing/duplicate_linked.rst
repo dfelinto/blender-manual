@@ -24,7 +24,7 @@ they will be set to the same values by the animation system.
 If this is not desired, make the action a single-user copy in the :ref:`Action or NLA Editor <actions-workflow>`.
 
 Linked
-   In the *Duplicate Objects* :ref:`ui-undo-redo-adjust-last-operation` panel the *Linked* checkbox is checked
+   In the *Duplicate Objects* :ref:`bpy.ops.screen.redo_last` panel the *Linked* checkbox is checked
    unlike with *Duplicate*.
 
 .. hint::

@@ -124,7 +124,7 @@ Options
 This tool is an interactive and modal tool, and only works in *Edit Mode*.
 
 Once you select the *Screw* tool,
-Blender will enter the *Screw* interactive mode, and the :ref:`ui-undo-redo-adjust-last-operation` panel
+Blender will enter the *Screw* interactive mode, and the :ref:`bpy.ops.screen.redo_last` panel
 in the 3D Viewport will be replaced so you can adjust the values explained below.
 
 Once you perform any other operation,
@@ -157,7 +157,7 @@ Continuous operations without changing the selection will repeat the operation c
 
 .. figure:: /images/modeling_meshes_editing_edge_screw_interactive-panel.png
 
-   Screw tools :ref:`ui-undo-redo-adjust-last-operation` panel (in Edit Mode).
+   Screw tools :ref:`bpy.ops.screen.redo_last` panel (in Edit Mode).
 
 Center
    These number fields specify the center of the spin. When the tool is called for the first time,

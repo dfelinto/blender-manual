@@ -105,7 +105,7 @@ The orientation can be set
 in the :doc:`Transform Orientation </editors/3dview/controls/orientation>`
 selector of the 3D Viewport header.
 
-.. or independent in the :ref:`ui-undo-redo-adjust-last-operation` panel?
+.. or independent in the :ref:`bpy.ops.screen.redo_last` panel?
 
 For example, if the current transform orientation is set to *Normal*,
 pressing :kbd:`G` to start translation, followed by :kbd:`Z` will lock translation

@@ -24,7 +24,7 @@ Active Particle System
          Copies all particle systems from the active object to all selected objects.
       Duplicate Particle Systems
          Duplicates the particle system within the active object.
-         The *Duplicate Settings* option (in the :ref:`ui-undo-redo-adjust-last-operation` panel) will duplicate
+         The *Duplicate Settings* option (in the :ref:`bpy.ops.screen.redo_last` panel) will duplicate
          settings as well, so the new particle system uses its own settings.
 
 Particle Settings

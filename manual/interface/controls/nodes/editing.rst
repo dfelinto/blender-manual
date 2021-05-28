@@ -39,6 +39,8 @@ This works for single as well as for multiple outgoing links.
 Nodes that have no connections can be inserted on a link.
 Just move the node over the link and release when the link is highlighted.
 
+.. _bpy.ops.node.link_make:
+
 Make Links :kbd:`F`
    Select multiple nodes with open sockets, then use the Make Links to create links between them.
    Use Make Links again if there are other nodes which can be connected.
@@ -55,6 +57,8 @@ Interactively
 
 Drag the link from an input socket and let it go keeping it unconnected.
 
+
+.. _bpy.ops.node.links_mute:
 
 Mute Links
 ----------
@@ -82,6 +86,8 @@ when links are muted the controls are shown.
 .. figure:: /images/interface_controls_nodes_editing_mute_links.png
 
 
+.. _bpy.ops.node.links_cut:
+
 Cut Links
 ---------
 
@@ -99,6 +105,8 @@ Move it over the link itself, and release.
 Detach Links :kbd:`Alt-D`, :kbd:`Alt-LMB` drag
    Use Detach Links in order to cut all links attached to selected nodes at once.
 
+
+.. _bpy.ops.node.duplicate_move:
 
 Duplicate
 =========
@@ -121,6 +129,9 @@ move the mouse away to see the duplicate of the selected node appearing under th
    When in doubt, select a node and move it slightly to see if something is hidden underneath.
 
 
+.. _bpy.ops.node.clipboard_copy:
+.. _bpy.ops.node.clipboard_paste:
+
 Copy/Paste
 ==========
 
@@ -139,14 +150,21 @@ Not only the selected nodes but also the connections between them are copied to 
    Use the same cautions as when duplicating.
 
 
+.. _bpy.ops.node.delete:
+
 Delete
 ======
 
 Delete :kbd:`X`, :kbd:`Delete`
    Deletes the selected node(s).
+
+.. _bpy.ops.node.delete_reconnect:
+
 Delete with Reconnect :kbd:`Ctrl-X`
    Delete the node(s) without losing the connections.
 
+
+.. _bpy.ops.node.mute_toggle:
 
 Mute
 ====
@@ -162,27 +180,44 @@ Muting a node removes the contribution of the node to the node tree,
 and makes all links pass through that node without change.
 Links will appear red as an indicator of passing through the muted node.
 
+.. tip::
+
+   Individual node wires can be muted with :ref:``
+
 
 Show/Hide
 =========
 
+.. _bpy.ops.node.hide_toggle:
+
 Hide :kbd:`H`
    Collapses the node so only the node header is visible.
    This can also be toggled by clicking the triangle at the top left of the node header.
+
+.. _bpy.ops.node.preview_toggle:
+
 Toggle Node Preview :kbd:`Shift-H`
    Shows/Hides a preview region on the node that displays the frame
    after that node's operation has been applied. This can also be toggled
    by clicking the material ball icon in the node header.
+
+.. _bpy.ops.node.hide_socket_toggle:
+
 Toggle Hidden Node Sockets :kbd:`Ctrl-H`
    Collapses/Expands any input or output sockets that have no other nodes connected to them.
+
+.. _bpy.ops.node.options_toggle:
+
 Toggle Node Options
    Shows/Hides all node properties.
+
+.. _bpy.ops.node.collapse_hide_unused_toggle:
+
 Collapse and Hide Unused Sockets
    Applies both the *Toggle Hidden Node Sockets* and *Hide* operations.
 
 
 .. _bpy.ops.node.read_viewlayers:
-.. _bpy.ops.node.read_fullsamplelayers:
 
 Layers
 ======

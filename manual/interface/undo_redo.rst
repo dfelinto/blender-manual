@@ -43,7 +43,7 @@ Redo
 To roll back the Undo action, press :kbd:`Shift-Ctrl-Z`.
 
 
-.. _ui-undo-redo-adjust-last-operation:
+.. _bpy.ops.screen.redo_last:
 
 Adjust Last Operation
 =====================

@@ -274,3 +274,6 @@ Version/Revision Milestones
 `2.92 <https://www.blender.org/download/releases/2-92/>`__ -- February 2021:
    Geometry nodes, primitive add tool, sculpting improvements, Grease Pencil curve editing,
    Cycles vertex color baking, APIC fluid simulations, video sequencer improvements, and much more.
+`2.93 <https://www.blender.org/download/releases/2-93/>`__ -- June 2021:
+   New geometry nodes, sculpting improvements, Grease Pencil LineArt modifier along with other improvements,
+   an improve DOF for the Eevee render engine, Redesigned Cryptomatte Workflow, and more.

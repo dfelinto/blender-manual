@@ -29,7 +29,7 @@ Instructions
 ============
 
 After creating your landscape mesh there are three main areas in
-the :ref:`ui-undo-redo-adjust-last-operation` panel to design your mesh.
+the :ref:`bpy.ops.screen.redo_last` panel to design your mesh.
 
 - Main Settings: Object and mesh related settings like size and subdivisions.
 - Noise Settings: Noise related settings that give shape to your terrain.

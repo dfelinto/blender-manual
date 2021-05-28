@@ -11,7 +11,7 @@ Link Objects to Scene
    :Menu:      :menuselection:`Object --> Link/Transfer Data --> Link Objects to Scene`
 
 Links the selected objects into a different scene than the current one.
-The *Link Objects to Scene* in the :ref:`ui-undo-redo-adjust-last-operation` panel lets you choose between scenes.
+The *Link Objects to Scene* in the :ref:`bpy.ops.screen.redo_last` panel lets you choose between scenes.
 
 This makes the same object exist in more than one scene at once,
 including its position and animation data.

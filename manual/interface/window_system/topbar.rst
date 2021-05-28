@@ -125,8 +125,24 @@ External Data
 
 Clean Up
    Unused Data-Blocks
-      Remove all unused data-blocks from the file (cannot be undone).
+      Remove unused data-blocks from both the current blend-file and any
+      :doc:`Linked Data </files/linked_libraries/link_append>` (cannot be undone).
       See the :ref:`Outliner <bpy.ops.outliner.orphans_purge>` for more information.
+   Recusive Unused Data-Blocks
+      Remove all unused data-blocks from both the current blend-file and any
+      :doc:`Linked Data </files/linked_libraries/link_append>`
+      including any indirectly used data-blocks i.e. those only used by unused data-blocks.
+   Unused Linked Data-Blocks
+      Remove unused data-blocks from only :doc:`Linked Data </files/linked_libraries/link_append>`
+   Recusive Unused Linked Data-Blocks
+      Remove all unused data-blocks from only :doc:`Linked Data </files/linked_libraries/link_append>`
+      including any indirectly used data-blocks i.e. those only used by unused data-blocks.
+   Unused Local Data-Blocks
+      Remove all unused data-blocks from only the current blend-file.
+   Recusive Unused Local Data-Blocks
+      Remove all unused data-blocks from only the current blend-file
+      including any indirectly used data-blocks i.e. those only used by unused data-blocks.
+
 
 .. _startup-file:
 

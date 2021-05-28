@@ -195,7 +195,7 @@ Copy/Paste
    :Shortcut:  :kbd:`Ctrl-C`, :kbd:`Ctrl-V`
 
 Use :kbd:`Ctrl-C` to copy selected keyframes and :kbd:`Ctrl-V` to paste the previously copied keyframes.
-During the paste action, the :ref:`ui-undo-redo-adjust-last-operation` panel provides some options in
+During the paste action, the :ref:`bpy.ops.screen.redo_last` panel provides some options in
 how the paste is applied.
 
 Offset

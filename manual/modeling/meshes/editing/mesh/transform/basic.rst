@@ -18,7 +18,7 @@ To move, rotate and scale selected components, either use the *Move*, *Rotate*, 
 the :doc:`transform gizmos </editors/3dview/display/gizmo>`,
 or the shortcuts: :kbd:`G`, :kbd:`R`, and :kbd:`S` respectively.
 
-After moving a selection, the options in the :ref:`ui-undo-redo-adjust-last-operation` panel allow you to
+After moving a selection, the options in the :ref:`bpy.ops.screen.redo_last` panel allow you to
 fine-tune your changes, limit the effect to certain axes, turn Proportional Editing on and off, etc.
 Of course, when you move an element of a given type (e.g. an edge),
 you also modify the implicitly related elements of other kinds (e.g. vertices and faces).
