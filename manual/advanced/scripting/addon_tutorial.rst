@@ -36,6 +36,11 @@ To best troubleshoot any error message Python prints while writing scripts, you 
 See `Use The Terminal
 <https://docs.blender.org/api/current/info_tips_and_tricks.html#use-the-terminal>`__.
 
+.. tip::
+
+   You can enable :ref:`Developer Extras <prefs-interface-dev-extras>`
+   in the preferences to enable features that make developing add-ons easier.
+
 
 Documentation Links
 ===================
@@ -157,9 +162,12 @@ This add-on takes the body of the script above, and adds it to an operator's ``e
 
            return {'FINISHED'}            # Lets Blender know the operator finished successfully.
 
+   def menu_func(self, context):
+       self.layout.operator(ObjectMoveX.bl_idname)
+
    def register():
        bpy.utils.register_class(ObjectMoveX)
-
+       bpy.types.VIEW3D_MT_object.append(menu_func)  # Adds the new operator to an existing menu.
 
    def unregister():
        bpy.utils.unregister_class(ObjectMoveX)
