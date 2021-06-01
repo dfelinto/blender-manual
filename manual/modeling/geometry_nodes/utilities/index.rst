@@ -11,3 +11,4 @@
    float_compare.rst
    map_range.rst
    math.rst
+   switch.rst
