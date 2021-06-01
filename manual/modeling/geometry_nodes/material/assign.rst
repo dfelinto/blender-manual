@@ -1,11 +1,11 @@
 .. index:: Geometry Nodes; Material Assign
-.. _bpy.types.GeometryNodeMaterial Assign:
+.. _bpy.types.GeometryNodeMaterialAssign:
 
 ***************
 Material Assign
 ***************
 
-.. figure:: /images/modeling_geometry-nodes_material_assign.png
+.. figure:: /images/modeling_geometry-nodes_material_material-assign_node.png
    :align: right
    :width: 300px
 
