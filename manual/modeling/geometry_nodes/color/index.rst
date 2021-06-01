@@ -9,3 +9,4 @@
    color_ramp.rst
    combine_rgb.rst
    separate_rgb.rst
+   rgb_curves.rst
