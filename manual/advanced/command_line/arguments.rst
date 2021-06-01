@@ -360,5 +360,6 @@ Environment Variables
 :BLENDER_USER_DATAFILES:   Directory for user data files (icons, translations, ..).
 :BLENDER_SYSTEM_DATAFILES: Directory for system wide data files.
 :BLENDER_SYSTEM_PYTHON:    Directory for system Python libraries.
+:OCIO:                     Path to override the OpenColorIO config file.
 :TEMP:                     Store temporary files here.
 :TMP: or $TMPDIR           Store temporary files here.
