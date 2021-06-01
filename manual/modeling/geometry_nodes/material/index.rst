@@ -7,3 +7,4 @@
    :maxdepth: 1
 
    assign.rst
+   replace.rst
