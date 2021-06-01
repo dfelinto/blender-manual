@@ -30,7 +30,7 @@ Frame Method
    Defines how the footage is fitted in the camera frame.
 
 Camera
-   Select the camera to which the motion is parented to (if active an empty scene camera is used).
+   Select the camera to which the motion is parented to (if empty, the active scene camera is used).
 
 Depth Object
    If this object is set, constrained objects will be projected onto the surface
