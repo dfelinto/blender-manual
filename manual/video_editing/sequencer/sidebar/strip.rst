@@ -220,8 +220,17 @@ Stream Index
 Deinterlace
    Removes fields in a video file. For example,
    if it is an analog video and it has even or odd interlacing fields.
-Resolution
-   Resolution of the active strip image output.
+
+Source Information
+   Displays information about the strip's media.
+
+   Resolution
+      Resolution of the active strip image output.
+   FPS
+      Movie strip only -- The frame rate encoded into the video file.
+      If this value does not match the scene :ref:`Frame Rate <bpy.types.RenderSettings.fps>`
+      the percieved speed of the media will be wrong unless the speed is
+      :ref:`changed <video_editing-change_fps>` to account for the difference in frame rate.
 
 
 Options for Sound Strips

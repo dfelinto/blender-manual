@@ -96,6 +96,8 @@ to set the curve interpolation to Linear since the default Bézier will rarely b
    :ref:`Refresh All <bpy.ops.sequencer.refresh_all>` or the changes will not take effect.
 
 
+.. _video_editing-change_fps:
+
 Changing Video Frame Rates
 --------------------------
 
