@@ -167,7 +167,7 @@ Tree View
       - :kbd:`Shift-LMB` -- Add/Remove all objects in the collection to/from the selection.
       - :kbd:`Ctrl-LMB` -- Select all objects in the collection and all of its subcollections
         (deselects all other objects).
-      - :kbd:`Ctrl-Shift-LMB` -- Add/Remove all objects in the collection
+      - :kbd:`Shift-Ctrl-LMB` -- Add/Remove all objects in the collection
         and all its subcollections to/from the selection.
 
       .. note::

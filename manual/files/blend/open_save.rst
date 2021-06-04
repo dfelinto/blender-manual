@@ -37,6 +37,7 @@ and the lower text field contains the selected filename.
 
    The File Browser in open configuration.
 
+
 Options
 -------
 
@@ -76,10 +77,6 @@ Lists recently used files. Click on one to load it in.
 Recover
 =======
 
-.. seealso::
-
-   :ref:`Auto Saves <troubleshooting-file-recovery>`
-
 .. _bpy.ops.wm.recover_last_session:
 
 Last Session
@@ -105,6 +102,10 @@ Auto Save
    :Menu:      :menuselection:`File --> Recover --> Auto Save`
 
 This will allow you to open an automatically saved file to recover it.
+
+.. seealso::
+
+   :ref:`Auto Saves <troubleshooting-file-recovery>`
 
 
 .. _bpy.ops.wm.save_mainfile:
@@ -224,5 +225,5 @@ in the :doc:`File </editors/preferences/file_paths>` tab of the *Preferences*.
 .. hint::
 
    If it is necessary to relocate a blend-file relative to its linked resources,
-   use Blender's File :ref:`Save As... <bpy.ops.wm.save_mainfile>`
+   use Blender's File :ref:`Save As <bpy.ops.wm.save_mainfile>`
    function which has an option to *Remap Relative* file links.

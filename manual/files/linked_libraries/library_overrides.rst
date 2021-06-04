@@ -4,9 +4,10 @@ Library Overrides
 *****************
 
 Library Overrides is a system designed to replace and supersede
-:doc:`Proxies </files/linked_libraries/library_proxies>`.
-Most types of linked data-blocks can be overridden, and the properties of those overrides can then be edited.
-When the library data changes, unmodified properties of the overridden one will be updated accordingly.
+:doc:`Proxies </files/linked_libraries/library_proxies>`. Most types of
+linked data-blocks can be overridden, and the properties of those overrides
+can then be edited. When the library data changes, unmodified properties of
+the overridden one will be updated accordingly.
 
 .. note::
 
@@ -228,11 +229,11 @@ Resync Library Override Hierarchy Enforce
    :Outliner:  :menuselection:`Context Menu --> ID Data --> Resync Library Override Hierarchy Enforce`
 
 In some cases, especially with older blend-files that were saved with 'broken' (non-hierarchy-matching) overrides,
-a regular resync itself cannot rebuild properly the override as expected (some objects might go missing e.g.).
+a regular resync itself cannot rebuild properly the override as expected (e.g. some objects might go missing).
 To solve this issue, this operator rebuilds the local override from its linked reference,
 as well as its hierarchy of dependencies, enforcing that hierarchy to match the linked data
-(i.e. ignoring exiting overrides on data-blocks properties).
-This is similar to a regular resync but is more aggressive resync,
+(i.e. ignoring existing overrides on data-blocks properties).
+This is similar to a regular resync but is a more forceful resync,
 at the cost of a potential loss of some overrides on ID pointers properties.
 
 

@@ -182,7 +182,7 @@ Links will appear red as an indicator of passing through the muted node.
 
 .. tip::
 
-   Individual node wires can be muted with :ref:`bpy.ops.node.links_mute`
+   Individual node links can be muted with :ref:`bpy.ops.node.links_mute`.
 
 
 Show/Hide

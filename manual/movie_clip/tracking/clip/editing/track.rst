@@ -358,7 +358,7 @@ This means that if a track does not have markers in the beginning or end of it,
 there is nothing to interpolate with and the resulting track will jump.
 
 Keep Original
-   When enabled, the selected tracks are *not* deleted;
+   When enabled, the selected tracks are *not* deleted.
 
 
 Copy Tracks

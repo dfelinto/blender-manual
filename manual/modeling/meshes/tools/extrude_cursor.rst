@@ -54,7 +54,7 @@ In this case, Blender will not rotate the source dividing the angle between thos
 
 For both cases, Blender will inform the user about the source rotation during the creation process.
 If you look at the :ref:`bpy.ops.screen.redo_last` panel and press :kbd:`Ctrl-RMB`,
-you will see that the Rotate Source is automatically checked and if :kbd:`Shift-Ctrl-RMB` is used,
+you will see that the *Rotate Source* is automatically checked and if :kbd:`Shift-Ctrl-RMB` is used,
 it will be automatically unchecked.
 
 If you have three or more vertices selected, and :kbd:`Ctrl-RMB` click,

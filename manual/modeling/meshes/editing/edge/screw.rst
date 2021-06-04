@@ -122,8 +122,7 @@ Options
 =======
 
 This tool is an interactive and modal tool, and only works in *Edit Mode*.
-
-Once you select the *Screw* tool,
+When you select the *Screw* tool,
 Blender will enter the *Screw* interactive mode, and the :ref:`bpy.ops.screen.redo_last` panel
 in the 3D Viewport will be replaced so you can adjust the values explained below.
 
