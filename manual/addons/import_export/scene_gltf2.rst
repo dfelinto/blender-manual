@@ -445,60 +445,61 @@ and may be used for any user-specific or application-specific purposes.
 Animation
 =========
 
-A glTF animation changes the transforms of objects or pose bones, or the values of
-shape keys. One animation can affect multiple things, and there can be multiple
-animations in a glTF file.
+A glTF animation changes the transforms of objects or pose bones, or the values of shape keys.
+One animation can affect multiple objects, and there can be multiple animations in a glTF file.
+
 
 Import
 ------
 
-Imported models are set up so that the first animation in the file is playing
-automatically. Just scrub the Timeline to see it play.
+Imported models are set up so that the first animation in the file is playing automatically.
+Scrub the Timeline to see it play.
 
-When there are multiple animations, the rest will be organized using the
-:doc:`Nonlinear Animation Editor </editors/nla/tracks>`. Each animation becomes an
-action stashed to an NLA track. The track name is the name of the glTF animation.
-To play an animation, simply star its track.
+When the file contains multiple animations, the rest will be organized using
+the :doc:`Nonlinear Animation editor </editors/nla/tracks>`. Each animation
+becomes an action stashed to an NLA track. The track name is the name of the glTF animation.
+To make the animation within that track visible, click Solo (star icon) next to the track you want to play.
 
-.. figure:: /images/addons_import-export_scene-gltf2-animation-star-track.png
+.. _fig-gltf-solo-track:
 
-   Click Solo (star icon) next to the track you want to play to make that track's
-   animation visible.  This is the `fox sample model <https://github.com/KhronosGroup/glTF-Sample-Models/tree/master/2.0/Fox>`__
-   showing its Run animation.
+.. figure:: /images/addons_import-export_scene-gltf2_animation-solo-track.png
+
+   This is the `fox sample model <https://github.com/KhronosGroup/glTF-Sample-Models/tree/master/2.0/Fox>`__
+   showing its "Run" animation.
 
 If an animation affects multiple objects, it will be broken up into multiple parts.
-The part of the animation that affects one object becomes an action stashed on that
-object. Use the track names to tell which actions are part of the same animation.
-To play the whole animation, you'd need to star all its tracks.
+The part of the animation that affects one object becomes an action stashed on that object.
+Use the track names to tell which actions are part of the same animation.
+To play the whole animation, you need to enable Solo (star icon) for all its tracks.
 
 .. note::
 
-   There is currently no way to see the un-animated pose of a model that had animations.
+   There is currently no way to see the non-animated pose of a model that had animations.
+
 
 Export
 ------
 
-You can export animations by creating actions. How glTF animations are made from
-actions is controlled by the :menuselection:`Animation --> Group by NLA Track` export
-option.
+You can export animations by creating actions. How glTF animations are made from actions is controlled by
+the :menuselection:`Animation --> Group by NLA Track` export option.
+
 
 .. rubric:: Group by NLA Track on (default)
 
-An action will be exported if it is the active action on an object, or it is stashed
-to an NLA track (eg. with the Stash or Push Down buttons in the
-:doc:`Action Editor </editors/dope_sheet/action>`).
-**Actions which are not associated with an object in one of these ways are not exported.
-If you have multiple actions you want to export, make sure they are stashed!**
+An action will be exported if it is the active action on an object, or it is stashed to an NLA track
+(e.g. with the *Stash* or *Push Down* buttons in the :doc:`Action Editor </editors/dope_sheet/action>`).
+Actions which are **not** associated with an object in one of these ways are **not exported**.
+If you have multiple actions you want to export, make sure they are stashed!
 
 A glTF animation can have a name, which is the action name by default. You can override it
-by renaming its NLA track from "NLATrack"/"[Action Stash]" to the name you want to use.
-For example, the fox model shown above will export with three animations, "Survey", "Walk",
-and "Run".
-
+by renaming its NLA track from ``NLATrack``/``[Action Stash]`` to the name you want to use.
+For example, the Fig. :ref:`fox model <fig-gltf-solo-track>` will export with three animations,
+"Survey", "Walk", and "Run".
 If you rename two tracks on two different objects to the same name, they will become part
 of the same glTF animation and will play together.
 
 The importer organizes actions so they will be exported correctly with this mode.
+
 
 .. rubric:: Group by NLA Track off
 

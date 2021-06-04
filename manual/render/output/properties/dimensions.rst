@@ -66,12 +66,12 @@ Step
 .. _bpy.types.RenderSettings.fps_base:
 
 Frame Rate
-   The number of frames that are displayed per second, relavent for :doc:`Animation </render/output/animation>`.
+   The number of frames that are displayed per second, relevant for :doc:`Animation </render/output/animation>`.
    The menu gives several common frame rates, custom frame rates can be used by selecting *Custom*
    which gives access to the following properties:
 
    FPS
-      The framerate, expressed in frames per second.
+      The frame rate, expressed in frames per second.
    Base
       Some standards require more precise frame rate, for example NTSC.
       To get such precise frame rates it is possible to represent the frame rate as a fraction.

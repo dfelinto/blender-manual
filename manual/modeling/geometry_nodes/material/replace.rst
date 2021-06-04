@@ -5,7 +5,7 @@
 Material Replace
 ****************
 
-.. figure:: /images/modeling_geometry-nodes_material_material-replace_node.png
+.. figure:: /images/modeling_geometry-nodes_material_replace_node.png
    :align: right
    :width: 300px
 
@@ -13,7 +13,8 @@ Material Replace
 
 The *Material Replace* node swaps one material with another.
 Replacing a material with this node is more efficient than creating a selection of all faces
-with the old material and then using the *Material Assign* node.
+with the old material and then using
+the :doc:`Material Assign </modeling/geometry_nodes/material/assign>` node.
 
 .. note::
 

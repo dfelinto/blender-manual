@@ -5,8 +5,6 @@
 Attribute Vector Rotate
 ***********************
 
-Modify an attribute with a math operation.
-
 .. figure:: /images/modeling_geometry-nodes_attribute_attribute-vector-rotate_node.png
    :align: right
    :width: 300px
@@ -40,6 +38,7 @@ Rotation
 Invert
    Inverts the rotation angle.
 
+
 Properties
 ==========
 
@@ -50,7 +49,7 @@ Mode
       Rotates the vector around the given axis.
       The amount of rotation is defined by the *Angle* input.
    :Axis Angle:
-      Rotates the vector around any arbitrary axis defined by the *Axis* input vector attribute
+      Rotates the vector around any arbitrary axis defined by the *Axis* input vector attribute.
       The amount of rotation is defined by the *Angle* input attribute.
    :Euler: 
       Rotates the vector about the *Center* input values with the *Rotation*
@@ -60,6 +59,7 @@ Vector, Center, Axis, Angle, Rotation
    :Attribute: A text field to input an attribute name.
    :Vector: The input is a vector of three float numbers.
    :Float: The input is a number field.
+
 
 Output
 ======

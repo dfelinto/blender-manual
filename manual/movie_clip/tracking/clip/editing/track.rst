@@ -353,7 +353,7 @@ The operator takes into account all :doc:`Marker properties </movie_clip/trackin
 however, disabled markers do not affect the averaging.
 
 Gaps in the original tracks will be linearly interpolated, to reduce result track jump.
-Note that this only applies to gaps "inbetween".
+Note that this only applies to gaps "in between".
 This means that if a track does not have markers in the beginning or end of it,
 there is nothing to interpolate with and the resulting track will jump.
 

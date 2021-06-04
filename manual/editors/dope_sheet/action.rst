@@ -30,10 +30,10 @@ Header
 ======
 
 Layer Previous/Next (down/up arrow peak icon)
-   Switch between different actions stacked/stashed on top of each other in the NLA Stack,
+   Switch between different actions stacked/stashed on top of each other in the NLA stack,
    without having to go to the NLA Editor and leaving tweak mode and reentering it on the other strip.
 
-   Clicking on the up/down arrow buttons to go to the action in the NLA Track above/below the NLA Strip being
+   Clicking on the up/down arrow buttons to go to the action in the NLA track above/below the NLA Strip being
    whose action is being tweaked in the Action Editor.
 
    If there are multiple actions/strips on the same layer/track,
@@ -42,10 +42,10 @@ Layer Previous/Next (down/up arrow peak icon)
    The operators will take into account the settings to view/edit the action in isolation (i.e. Solo and NLA Muting).
    This was done to make it easier to preview different stashed actions.
 
-   - If moving from a solo'd NLA Track to the active action,
+   - If moving from a solo'd NLA track to the active action,
      the NLA stack will be muted so that the action can be edited in isolation.
    - Likewise, if the NLA stack is muted when editing the action,
-     the NLA Track below it will be edited with solo enabled.
+     the NLA track below it will be edited with solo enabled.
    - If switching between NLA Tracks, the solo status for the previous track will be transferred to the new track.
 
    .. note::

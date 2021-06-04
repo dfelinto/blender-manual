@@ -84,7 +84,7 @@ You can also have the tool operate on multiple inputs at the same time and mix t
 
 Method
    Best Fit
-      When *Best Fit* is selected a circle is calculated using a non-linear least squares method.
+      When *Best Fit* is selected a circle is calculated using a nonlinear least squares method.
       This basically means that the circle that is calculated with this option best fits the vertices you selected.
 
    Fit Inside

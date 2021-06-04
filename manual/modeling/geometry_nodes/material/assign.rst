@@ -5,7 +5,7 @@
 Material Assign
 ***************
 
-.. figure:: /images/modeling_geometry-nodes_material_material-assign_node.png
+.. figure:: /images/modeling_geometry-nodes_material_assign_node.png
    :align: right
    :width: 300px
 

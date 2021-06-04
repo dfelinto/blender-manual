@@ -40,27 +40,27 @@ Attribute Types
      - Domain
      - Notes
 
-   * - **position**
+   * - ``position``
      - *Vector*
      - *Point*
      - Built-in attribute describing vertex or point locations, in the modifier object's transform space.
 
-   * - **radius**
+   * - ``radius``
      - *Float*
      - *Point*
      - The radius of each point.
 
-   * - **radius**
+   * - ``radius``
      - *Color*
      - *Point*
      - The color of each point.
 
-   * - **id**
+   * - ``id``
      - *Integer*
      - *Point*
      - A unique identifier given to each particle.
 
-   * - **velocity**
+   * - ``velocity``
      - *Vector*
      - *Point*
      - The speed and direction that the particle is traveling.

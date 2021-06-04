@@ -99,7 +99,7 @@ The copy is selected and placed in move mode, so you can move it to another plac
 
 However, with surfaces there are some selections that cannot be duplicated,
 in which case they will just be placed in move mode... In fact,
-only selections forming a *single* valid sub-grid are copiable; let us see this in practice:
+only selections forming a *single* valid sub-grid are copyable; let us see this in practice:
 
 - You can copy a single control point.
   From it, you will be able to "extrude" a "surface curve" along the U axis,

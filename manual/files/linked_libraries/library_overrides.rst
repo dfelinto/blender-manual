@@ -95,7 +95,7 @@ This operator is used to help convert older blend-files to the new override syst
 Syncing Overrides
 =================
 
-The relationships between linked data-blocks can be changed resulting in outdated overrides
+The relationships between linked data-blocks can be changed resulting in outdated overrides.
 When this happens overrides need to be resynced to match the new structure.
 Overrides are automatically resynced when opening blend-files, however,
 overrides can be resynced manually using `Resync Library Override Hierarchy`_.

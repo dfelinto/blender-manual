@@ -92,14 +92,14 @@ Scene Collection
       - :kbd:`Shift-Ctrl-LMB` -- Add/Remove all objects in the collection
         and all its subcollections to/from the selection.
 
-      Icons and button highlights are used to show the selection state
+      Icons and button highlights are used to show the selection state:
 
       - ``no icon`` -- No objects are present in this collection to be selected.
       - ``no highlight`` -- No objects are selected in this collection.
       - ``Diamond outline`` -- Objects are present in the collection.
       - ``highlight`` -- One or more objects are selected in this collection.
       - ``Filled diamond`` -- All objects are selected in this collection.
-      - ``small dot and greyed out`` -- No objects can be selected in this collection
+      - ``small dot and grayed out`` -- No objects can be selected in this collection
         (the collection is hidden or marked as not selectable or all objects are marked as not selectable, etc.).
         *Note*: The button isn't disabled to allow selecting subcollections; however, if you :kbd:`LMB` click on
         it it will deselect all objects.
