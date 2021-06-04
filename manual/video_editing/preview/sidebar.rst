@@ -3,8 +3,17 @@
 Sidebar
 *******
 
+Tool
+====
+
+Displayes information about the active tool.
+
+
+View
+====
+
 View Settings
-=============
+-------------
 
 .. _bpy.types.SpaceSequenceEditor.proxy_render_size:
 
@@ -50,7 +59,7 @@ Show Overexposed
 .. _bpy.types.SequenceEditor.show_overlay:
 
 Frame Overlay
-=============
+-------------
 
 Option to enable the overlay.
 It can be used for comparing the current frame to a reference frame.
@@ -87,7 +96,7 @@ Overlay Lock
 
 
 Safe Areas
-==========
+----------
 
 Shows guides used to position elements to ensure that
 the most important parts of the video can be seen across all screens.
@@ -98,7 +107,7 @@ the most important parts of the video can be seen across all screens.
 
 
 Scene Strip Display
-===================
+-------------------
 
 It allows you to control how the images of :doc:`Scene Strips </video_editing/sequencer/strips/scene>`
 are displayed in the preview.
@@ -113,7 +122,7 @@ Override Scene Settings
 
 
 Annotations
-===========
+-----------
 
 Allows you to use :doc:`Annotations </interface/annotate_tool>` in the Sequencer.
 
