@@ -67,8 +67,8 @@ Resolutions
 Overwrite
    Saves over any existing proxies in the proxy storage directory.
 
-Build JPEG Quality
-   Defines the quality of the JPEG images used for proxies.
+Quality
+   Defines the quality of the images used for proxies.
 
 Timecode Index
    When you are working with footage directly copied from a camera without pre-processing it,
