@@ -18,7 +18,8 @@ Types
 
    scene.rst
    clip_mask.rst
-   movie_image.rst
+   movie.rst
+   image.rst
    sound.rst
    color.rst
    text.rst
