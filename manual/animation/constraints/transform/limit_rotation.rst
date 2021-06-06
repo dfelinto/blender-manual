@@ -49,15 +49,18 @@ Limit X, Y, Z
       - If a min value is higher than its corresponding max value,
         the constraint behaves as if it had the same value as the max one.
       - Unlike the :doc:`Limit Location constraint </animation/constraints/transform/limit_location>`,
-        you cannot enable separately lower or upper limits...
+        you cannot separately enable lower or upper limits.
+      - The constraint can be used to simply remove shear from the owner transformation
+        by leaving all limits disabled.
+
+Order
+   Allows specifying which :term:`Euler` order to use when applying the limits.
+   Defaults to the order of the owner.
 
 Affect Transform
-   As pointed out before by default, even though visually constrained,
-   the owner can still have rotations out of bounds (as shown by the *Transform* panel).
-   When you enable this checkbox, this is no more possible --
-   the owner transform properties are also limited by the constraint.
-   However, note that, the constraint does not directly modify the rotation values:
-   you have to rotate one way or the other its owner, for this to take effect...
+   The constraint is taken into account when the object is manually rotated using
+   transformation tools in the blender UI. This prevents assigning transformation
+   property values (as shown in the *Transform* panel) that exceed the specified limits.
 
 Owner
    This constraint allows you to choose in which space evaluate its owner's transform properties.
