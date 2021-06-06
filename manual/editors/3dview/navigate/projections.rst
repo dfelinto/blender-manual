@@ -43,7 +43,7 @@ To change toggle between the two projections for the 3D Viewport, select
 :kbd:`Numpad5`. Changing the projection for a 3D Viewport does not affect
 the way the scene will be rendered. Rendering is in perspective by default.
 If you need to create an orthographic rendering, select the camera, go to
-the Camera tab and press the *Orthographic* button in the *Lens* panel.
+the Camera tab and set the type *Orthographic* in the *Lens* panel.
 
 .. seealso::
 
