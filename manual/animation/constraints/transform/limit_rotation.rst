@@ -28,7 +28,7 @@ using the *Transformation Properties* axis locking feature is probably easier.
 
 This transform does not constrain the bone if it is manipulated by the IK solver.
 For constraining the rotation of a bone for IK purposes,
-see the "Inverse Kinematics" section of Bone properties.
+see :doc:`Inverse Kinematics </animation/armatures/posing/bone_constraints/inverse_kinematics/introduction>`.
 
 
 Options
