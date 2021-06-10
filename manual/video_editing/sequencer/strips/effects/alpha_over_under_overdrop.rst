@@ -1,7 +1,7 @@
 
-*****************************
-Alpha Over, Under & Over Drop
-*****************************
+************************************
+Alpha Over, Under & Over Drop Strips
+************************************
 
 Using the alpha (transparency channel),
 this effect composites a result based on transparent areas of the dominant image.

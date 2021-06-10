@@ -1,8 +1,8 @@
 .. _bpy.types.SpeedControlSequence:
 
-*************
-Speed Control
-*************
+*******************
+Speed Control Strip
+*******************
 
 Speed Control time-warps the strip, making it play faster or slower than it normally would.
 A *Global Speed* less than 1.0 makes the strip play slower; greater than 1.0

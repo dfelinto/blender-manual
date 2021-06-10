@@ -1,8 +1,8 @@
 .. _bpy.types.SceneSequence:
 
-************
-Scene Strips
-************
+***********
+Scene Strip
+***********
 
 Scene strips are a way to insert the render output of another scene into your sequence.
 Instead of rendering out a video, then inserting the video file, you can insert the scene directly.

@@ -1,8 +1,8 @@
 .. _bpy.types.MovieSequence:
 
-************
-Movie Strips
-************
+***********
+Movie Strip
+***********
 
 To add a movie (with or without audio) select a movie file(s) in the File Browser
 e.g. in the Audio-Video Interleaved format (``*.avi`` file).

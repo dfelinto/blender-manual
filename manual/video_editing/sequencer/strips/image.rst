@@ -1,8 +1,8 @@
 .. _bpy.types.ImageSequence:
 
-*********************
-Image/Sequence Strips
-*********************
+********************
+Image/Sequence Strip
+********************
 
 Single Image
 ============

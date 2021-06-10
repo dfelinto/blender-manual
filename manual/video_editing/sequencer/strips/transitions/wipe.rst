@@ -1,8 +1,8 @@
 .. _bpy.types.WipeSequence:
 
-****
-Wipe
-****
+**********
+Wipe Strip
+**********
 
 The *Wipe* transition strip can be used to transition from one strip to the next.
 The wipe will have no effect if created from a single strip instead of two strips.

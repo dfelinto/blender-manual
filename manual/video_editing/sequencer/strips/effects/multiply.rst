@@ -1,8 +1,8 @@
 .. _bpy.types.MultiplySequence:
 
-********
-Multiply
-********
+**************
+Multiply Strip
+**************
 
 The *Multiply* effect multiplies two colors.
 Blender uses values between (0.0 to 1.0) for the colors.

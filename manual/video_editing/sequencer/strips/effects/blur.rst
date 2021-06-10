@@ -1,8 +1,8 @@
 .. _bpy.types.GaussianBlurSequence:
 
-*************
-Gaussian Blur
-*************
+*******************
+Gaussian Blur Strip
+*******************
 
 The Gaussian Blur strip is used to blur the input strip in a defined direction.
 This can be used to blur a background or to blur a transition strip.

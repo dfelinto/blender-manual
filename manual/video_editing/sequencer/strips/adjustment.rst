@@ -1,8 +1,8 @@
 .. _bpy.types.AdjustmentSequence:
 
-***********************
-Adjustment Layer Strips
-***********************
+**********************
+Adjustment Layer Strip
+**********************
 
 The Adjustment Layer strip works like a regular input file strip except for the fact,
 that it considers all strips below it as its input.

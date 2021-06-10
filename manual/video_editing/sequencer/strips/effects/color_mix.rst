@@ -1,8 +1,8 @@
 .. _bpy.types.ColorMixSequence:
 
-*********
-Color Mix
-*********
+***************
+Color Mix Strip
+***************
 
 The *Color Mix* effect strip mixes two strips by working on
 the individual and corresponding pixels of the two input strips.

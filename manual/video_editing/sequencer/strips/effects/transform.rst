@@ -1,8 +1,8 @@
 .. _bpy.types.TransformSequence:
 
-*********
-Transform
-*********
+***************
+Transform Strip
+***************
 
 Transform is a swiss-army knife of image manipulation.
 It moves, rotates, and scales the images within a strip.

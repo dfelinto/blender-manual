@@ -1,8 +1,8 @@
 .. _bpy.types.SubtractSequence:
 
-***************
-Subtract Effect
-***************
+**************
+Subtract Strip
+**************
 
 This effect takes away one strip's color from the second.
 

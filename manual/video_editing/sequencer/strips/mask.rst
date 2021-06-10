@@ -1,8 +1,8 @@
 .. _bpy.types.MaskSequence:
 
-***********
-Mask Strips
-***********
+**********
+Mask Strip
+**********
 
 The Mask strip generates a mask image from the selected mask data-block generated
 in the :doc:`Movie Clip Editor </movie_clip/masking/index>`.

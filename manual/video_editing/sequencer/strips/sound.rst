@@ -1,8 +1,8 @@
 .. _bpy.types.SoundSequence:
 
-************
-Sound Strips
-************
+***********
+Sound Strip
+***********
 
 As well as images and movies the VSE can also edit audio tracks.
 You can add Waveform Audio format ``WAV``, ``mp3`` and other audio formats files from your drive,

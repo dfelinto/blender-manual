@@ -1,8 +1,8 @@
 .. _bpy.types.MulticamSequence:
 
-*****************
-Multicam Selector
-*****************
+***********************
+Multicam Selector Strip
+***********************
 
 The Multicam Selector strip is used for multi-camera editing.
 Multi-camera editing is when a scene is recorded using multiple cameras from different angles

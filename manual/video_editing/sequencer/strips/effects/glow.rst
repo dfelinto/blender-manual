@@ -1,8 +1,8 @@
 .. _bpy.types.GlowSequence:
 
-****
-Glow
-****
+**********
+Glow Strip
+**********
 
 This effect makes parts of an image glow brighter by working on
 the luminance channel of an image.

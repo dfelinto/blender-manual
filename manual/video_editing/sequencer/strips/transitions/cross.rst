@@ -11,9 +11,9 @@ Because this simply animates a value it does not create a strip like other effec
 
 .. _bpy.types.CrossSequence:
 
-*****
-Cross
-*****
+***********
+Cross Strip
+***********
 
 The *Cross* transition fades from one strip to another, also known as a crossfade.
 Strips can be overlapping or have a gap between them,
@@ -43,9 +43,9 @@ Example
 
 .. _bpy.types.GammaCrossSequence:
 
-***********
-Gamma Cross
-***********
+*****************
+Gamma Cross Strip
+*****************
 
 The *Gamma Cross* transition is similar to the `Cross`_ transition,
 however, the *Gamma Cross* transition uses color correction while transitioning between the two strips,
