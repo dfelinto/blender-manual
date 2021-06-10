@@ -17,10 +17,11 @@ Types
    :titlesonly:
 
    scene.rst
-   clip_mask.rst
+   clip.rst
+   mask.rst
    movie.rst
-   image.rst
    sound.rst
+   image.rst
    color.rst
    text.rst
    adjustment.rst
