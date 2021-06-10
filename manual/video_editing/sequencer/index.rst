@@ -7,7 +7,7 @@
    :maxdepth: 2
 
    introduction.rst
-   toolbar/tools.rst
+   toolbar/index.rst
    navigating.rst
    strips/index.rst
    selecting.rst
