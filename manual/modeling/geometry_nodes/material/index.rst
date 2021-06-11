@@ -8,3 +8,4 @@
 
    assign.rst
    replace.rst
+   select_by_material.rst
