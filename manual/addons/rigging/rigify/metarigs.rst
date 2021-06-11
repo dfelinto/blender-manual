@@ -16,15 +16,25 @@ Rigify Meta-Rigs are split in multiple Sub-Rigs
    A meta-rig is an assembly of bone chains. A bone chain is identified by the *Connected* attribute.
    Bone chains can be further connected together by parenting them without using the *Connected* attribute
    (i.e. using the *Keep Offset* option while parenting).
+
 A custom attribute is set on the first bone of the sub-rig chain
    Each first bone of a bone chain has a custom attribute on it which is a Rigify custom property
    that identifies the sub-rig type. At rig generation time Rigify will determine which controls and
    deform bones will be created processing the meta-rig from the first bone to the last of each chain.
 
+   .. figure:: /images/addons_rigging_rigify_metarigs_split-samples.png
+
+      Human meta-rig split by samples.
+
 New meta-rigs are created assembling sub-rigs samples
    Since a meta-rig is just a collection of sub-rigs,
    new meta-rigs can be built assembling sub-rigs in different ways.
    This way an infinite number of meta-rigs can be built from the same rigging blocks.
+
+   .. figure:: /images/addons_rigging_rigify_metarigs_built-samples.png
+
+      Human meta-rig split by samples.
+
 All the mechanics, deformation bones and widget are created on a single click
    The meta-rig contains more information than the visualized bones.
    In fact at generation time Rigify will identify each sub-rig type and depending on

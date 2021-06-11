@@ -8,17 +8,37 @@ Face Bones
 
 Start by identifying basic face landmarks to follow as guide for bones placement.
 
+.. figure:: /images/addons_rigging_rigify_bone-positioning_face-landmarks.png
+   :align: center
+
+   Basic Face Landmarks.
+
 - Orange lines represent bones that should be placed in closed loops.
 - Yellow lines represent bones whose position depends on surrounding bone loops.
 - Red lines represent outer edge bones.
 - Purple lines represent bridging bones used to cover deforming flesh.
 
+.. figure:: /images/addons_rigging_rigify_bone-positioning_face-eyes-nose-landmarks.png
+   :align: center
+
+   Eyes-Nose Landmarks.
+
 The eyes-nose loop area is split in different parts identified by bone names. Follow the image to place the bones.
+
+.. figure:: /images/addons_rigging_rigify_bone-positioning_face-eyes-nose-bones.png
+   :align: center
+
+   Eyes-Nose Bone Positions.
 
 .. tip:: Brow Placement
 
    Keeping aligned the mid bones in "brow", "brow.b", "lid.t", "lid.t" and
    cheek will give better results after rig generation.
+
+.. figure:: /images/addons_rigging_rigify_bone-positioning_face-jaw-ear-bones.png
+   :align: center
+
+   Jaw-Ear Bone Positions.
 
 Also the jaw-ear area is split in different parts identified by bone names. Follow the image to place the bones.
 
@@ -28,10 +48,20 @@ Also the jaw-ear area is split in different parts identified by bone names. Foll
    Do the same with temple bone trying to cover the part you don't want to move with the jaw,
    this way you will also determine the jaw pivot position.
 
+.. figure:: /images/addons_rigging_rigify_bone-positioning_face-lips-merge-point.png
+   :align: center
+
+   Lips Merge Point.
+
 .. warning::
 
    While placing the lip bones you should keep the opposite bone chains merged in the middle.
    Tearing the merge point apart may result in a misalignment of controls in the final rig.
+
+.. figure:: /images/addons_rigging_rigify_bone-positioning_face-stretcher-bones.png
+   :align: center
+
+   Face Stretcher Bones.
 
 After the main face bones are placed use the cheek bone to connect the eye-nose area to the jaw mouth area.
 Then do the same with the brow area. This process will automatically define face muscles compression areas.
@@ -42,6 +72,11 @@ Then do the same with the brow area. This process will automatically define face
 
 Position the eye bones in the eye pivot point facing right **toward** the face on the Y axis.
 
+.. figure:: /images/addons_rigging_rigify_bone-positioning_face-eyes-pivot-position.png
+   :align: center
+
+   Eyes Pivot Position.
+
 .. tip:: Eye Pivot
 
    If your eye has a spherical shape you can define its pivot by entering Edit Mode.
@@ -50,6 +85,11 @@ Position the eye bones in the eye pivot point facing right **toward** the face o
    If your eye is a complete sphere and its location it's not applied, then you can just use its center of mass.
 
 Finally position the teeth bones on your teeth geometry and the tongue bone chain as described in the figure.
+
+.. figure:: /images/addons_rigging_rigify_bone-positioning_face-mouth-teeth-positions.png
+   :align: center
+
+   Mouth and Teeth Positions.
 
 .. tip:: Tongue
 
@@ -67,12 +107,22 @@ Head, chest and pelvis are rigid zones, so they require less bones.
 Having a good edge loop placement around zone boundaries on your model
 will help in having correct deformation after armature binding.
 
+.. figure:: /images/addons_rigging_rigify_bone-positioning_torso-landmarks.png
+   :align: center
+
+   Torso Landmarks.
+
 Starting from the side view, place the main spine bones trying to use
 one bone for the rigid areas and two for the flexible ones.
 In addition to the main spine, the torso is provided with additional pelvis bones (to oppose the leg bending),
 two breast controls and two shoulder bones.
 
 Even if the pelvis bones will not appear in the final rig as controls, they will contribute to deformation.
+
+.. figure:: /images/addons_rigging_rigify_bone-positioning_torso-bones.png
+   :align: center
+
+   Torso Bones Positioning.
 
 .. tip:: Bone Placement
 
@@ -89,10 +139,20 @@ the shoulder to the hand in both front and top view. After this is done just add
 This can be easily done by going in the top view, entering armature Edit Mode and
 sliding the bone junction between forearm and upper_arm slightly toward the world's Y axis.
 
+.. figure:: /images/addons_rigging_rigify_bone-positioning_limbs-arm-bones.png
+   :align: center
+
+   Arm Bones Positioning.
+
 For the leg you can follow a similar process. Start by aligning the leg bones creating a straight line from
 the hips to the ankle, then place the foot and the toe accordingly.
 Remember to add a slight bend to the knee. This can be easily done by going in the side view,
 entering armature Edit Mode and sliding the bone junction between thigh and shin slightly toward the world's Y axis.
+
+.. figure:: /images/addons_rigging_rigify_bone-positioning_limbs-leg-bones.png
+   :align: center
+
+   Leg Bones Positioning.
 
 Finally align the heel bone by going in the front view and placing the head and tail to
 fill the foot size from side to side then, in the side view,
@@ -117,6 +177,11 @@ Start by placing, finger by finger, all the knuckles in place.
    the corresponding edge loop in Edit Mode and use the *Cursor to Selection* snap.
    Then you can snap the bone to the corresponding loop using the *Selection to Cursor* snap.
 
+.. figure:: /images/addons_rigging_rigify_bone-positioning_fingers-edge-loops.png
+   :align: center
+
+   Knuckles Edge Loops and Cursor Snapping.
+
 Finalize the positioning by taking care of bone rolls (the X axis is set as bend axis).
 
 .. tip:: Bone Roll
@@ -131,7 +196,17 @@ Finalize the positioning by taking care of bone rolls (the X axis is set as bend
    This should cause the fingers to curl. If they are rotating on the wrong axis,
    change the Bend Rotation Axis parameter on the first finger's parameters under Rigify Type.
 
+.. figure:: /images/addons_rigging_rigify_bone-positioning_fingers-bend-axis.png
+   :align: center
+
+   Fingers Bend Axis.
+
 When the fingers are in place proceed placing the palm bones.
+
+.. figure:: /images/addons_rigging_rigify_bone-positioning_fingers-palm-alignment.png
+   :align: center
+
+   Palm Alignment.
 
 .. tip:: Palm Placement
 

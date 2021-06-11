@@ -56,6 +56,10 @@ Will create a full featured bendy and stretchy arm depending on the user-defined
 
 Requirement: A chain of three connected bones (upper_arm, forearm, hand).
 
+.. figure:: /images/addons_rigging_rigify_rig-types_limbs_arm-required.png
+
+   Arm required bones.
+
 IK Wrist Pivot
    Generates an extra child of the hand IK control that rotates around the tail of the hand bone.
 
@@ -81,6 +85,10 @@ Will create a full featured bendy and stretchy leg depending on the user-defined
 Requirement: A chain of four connected bones (thigh, shin, foot, toe) with one unconnected
 child of the foot to be used as the heel pivot.
 
+.. figure:: /images/addons_rigging_rigify_rig-types_limbs_leg-required.png
+
+   Leg required bones.
+
 Rotation Axis (Automatic, X, Z)
    Defines the bend axis for the IK chain. FK chains will have a totally free degree of rotation on all axes.
 Limb Segments (integer)
@@ -101,6 +109,10 @@ Assign Tweak Layers
 Will create a full featured bendy and stretchy paw depending on the user-defined options.
 
 Requirement: A chain of four or five connected bones (thigh, shin, paw, *optional* digit, toe).
+
+.. figure:: /images/addons_rigging_rigify_rig-types_limbs_leg-required.png
+
+   Leg required bones.
 
 Rotation Axis (Automatic, X, Z)
    Defines the bend axis for the IK chain. FK chains will have a totally free degree of rotation on all axes.

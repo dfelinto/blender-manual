@@ -14,6 +14,10 @@ your bone chain and user defined options.
 
 Requirement: A chain of at least three connected bones (base system).
 
+.. figure:: /images/addons_rigging_rigify_rig-types_spines-required.png
+
+   Spine required bones.
+
 Pivot Position (integer)
    Defines the pivot position for torso and hips.
 Head (Boolean)
@@ -27,3 +31,12 @@ Tail (Boolean)
 
    Tail Position (integer)
       Defines the bone where the tail system starts. The next bone will always be the hips system.
+
+
+.. figure:: /images/addons_rigging_rigify_rig-types_spines-default.png
+
+   Spine default bones.
+
+.. figure:: /images/addons_rigging_rigify_rig-types_spines-example.png
+
+   Spine with tail bones.
