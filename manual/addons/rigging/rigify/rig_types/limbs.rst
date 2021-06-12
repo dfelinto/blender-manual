@@ -110,9 +110,9 @@ Will create a full featured bendy and stretchy paw depending on the user-defined
 
 Requirement: A chain of four or five connected bones (thigh, shin, paw, *optional* digit, toe).
 
-.. figure:: /images/addons_rigging_rigify_rig-types_limbs_leg-required.png
+.. figure:: /images/addons_rigging_rigify_rig-types_limbs_paw-required.png
 
-   Leg required bones.
+   Front/Rear paw required bones.
 
 Rotation Axis (Automatic, X, Z)
    Defines the bend axis for the IK chain. FK chains will have a totally free degree of rotation on all axes.
