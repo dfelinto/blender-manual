@@ -1,5 +1,5 @@
 .. index:: Geometry Nodes; Delete Geometry
-.. _bpy.types.GeometryNodeDeleteGeometry
+.. _bpy.types.GeometryNodeDeleteGeometry:
 
 ***************
 Delete Geometry
