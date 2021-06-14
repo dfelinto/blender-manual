@@ -451,19 +451,23 @@ Swap Inputs
 Swaps the first two inputs for the effect strip.
 
 
-Lock/Mute
-=========
-
 .. _bpy.ops.sequencer.lock:
 .. _bpy.ops.sequencer.unlock:
+
+Lock/Unlock
+===========
 
 Lock Strips :kbd:`Shift-L`
    Disables the strip from being transformed.
 Unlock Strips :kbd:`Shift-Alt-L`
    Enables disabled strips allowing them to be transformed.
 
+
 .. _bpy.ops.sequencer.mute:
 .. _bpy.ops.sequencer.unmute:
+
+Mute/Unmute
+===========
 
 Mute/Unmute Strips :kbd:`H`, :kbd:`Alt-H`
    Mute or unmute the selected strips.
