@@ -1,4 +1,4 @@
-.. _bpy.types.SpaceView3D.show:
+.. _bpy.types.SpaceClipEditor.show:
 
 ###########
   Display

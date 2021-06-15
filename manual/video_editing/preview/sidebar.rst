@@ -6,7 +6,7 @@ Sidebar
 Tool
 ====
 
-Displayes information about the active tool.
+Displays information about the active tool.
 
 
 View

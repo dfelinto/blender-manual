@@ -9,9 +9,8 @@ Delete Geometry
 
    The Delete Geometry node.
 
-The *Delete Geometry* node removes the part of the geometry that is selected.
-
-For meshes, which elements are deleted depeds on the domain of the input seletion attribute.
+The *Delete Geometry* node removes the selected part of a geometry.
+For meshes, which elements are deleted depends on the domain of the input selection attribute.
 For example, if it is a face selection, faces are removed.
 
 
@@ -22,7 +21,7 @@ Geometry
    Standard geometry input.
 
 Selection
-   Name of the attribute that is used as selection. Typically this is a boolean attribute.
+   Name of the attribute that is used as selection. Typically this is a Boolean attribute.
    If this is empty, the node does nothing.
 
 Invert

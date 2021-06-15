@@ -92,7 +92,7 @@ Type
    The icon on the left specifies the accepted data-block type.
 Name
    The text field functions as a search field by matching elements in the list.
-   Press :kbd:`Tab` to auto-complete names up to the level a match is found.
+   Press :kbd:`Enter` to auto-complete names up to the level a match is found.
    If more than one match exists, you have to continue typing.
    If you type an invalid name, the value will remain unchanged.
 List

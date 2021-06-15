@@ -1,7 +1,7 @@
 
-*******
-Toolbar
-*******
+###########
+  Toolbar
+###########
 
 .. toctree::
    :maxdepth: 2

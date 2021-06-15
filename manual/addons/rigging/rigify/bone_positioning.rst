@@ -155,7 +155,7 @@ entering armature Edit Mode and sliding the bone junction between thigh and shin
    Leg Bones Positioning.
 
 Finally align the heel bone by going in the front view and placing the head and tail to
-fill the foot size from side to side then, in the side view,
+fill the foot size from side to side. Then, in the side view,
 align the bone at the point where the heel just touches the ground floor.
 
 .. note::

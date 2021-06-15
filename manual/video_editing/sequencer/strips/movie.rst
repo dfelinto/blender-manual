@@ -73,7 +73,6 @@ Use Movie Frame Rate
    Sets the :ref:`Scene Frame Rate <bpy.types.RenderSettings.fps>` to the frame rate encoded in the movie file.
 
 
-
 Example
 =======
 

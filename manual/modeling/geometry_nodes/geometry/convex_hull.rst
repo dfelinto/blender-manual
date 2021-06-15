@@ -12,6 +12,7 @@ Convex Hull
 The *Convex Hull* node outputs a convex mesh that is enclosing all points in the input geometry.
 
 .. note::
+
    Volumes are not supported and attributes are not transferred currently.
 
 

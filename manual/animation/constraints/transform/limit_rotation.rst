@@ -59,7 +59,7 @@ Order
 
 Affect Transform
    The constraint is taken into account when the object is manually rotated using
-   transformation tools in the blender UI. This prevents assigning transformation
+   transformation tools in the editors. This prevents assigning transformation
    property values (as shown in the *Transform* panel) that exceed the specified limits.
 
 Owner

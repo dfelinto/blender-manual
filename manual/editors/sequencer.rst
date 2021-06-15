@@ -46,6 +46,6 @@ The next level of cache is a disk cache which stores cached strips on disk.
 A disk cache can generally cache more than a RAM cache, but it can be slower.
 Both of these cache options can be configured in the :ref:`Preferences <prefs-system-sound>`.
 
-Another way to improve performance is by using :ref:`Strip Proxies <bpy.types.SequenceProxy>`
+Another way to improve performance is by using :ref:`Strip Proxies <bpy.types.SequenceProxy>`.
 These are used to cache images or movies in a file that is easier to playback
 by reducing the image quality by either decreasing the resolution and/or compressing the image.
