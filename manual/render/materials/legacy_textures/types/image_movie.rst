@@ -87,14 +87,14 @@ Calculate
    .. list-table:: The image with various alpha and gray-scale values.
 
       * - .. figure:: /images/render_materials_legacy-textures_types_image-movie_alpha-use.png
-               :width: 320px
+             :width: 320px
 
-               Image with *Use* alpha. The alpha values of the pixels are evaluated.
+             Image with *Use* alpha. The alpha values of the pixels are evaluated.
 
-         - .. figure:: /images/render_materials_legacy-textures_types_image-movie_alpha-calculate.png
-               :width: 320px
+        - .. figure:: /images/render_materials_legacy-textures_types_image-movie_alpha-calculate.png
+             :width: 320px
 
-               Image with *Calculate* alpha only, *Use Alpha* in the *Image* panel is disabled.
+             Image with *Calculate* alpha only, *Use Alpha* in the *Image* panel is disabled.
 
 Invert
    Reverses the alpha value.

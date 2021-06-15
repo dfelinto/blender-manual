@@ -7,5 +7,5 @@ Movie Clip Editor
    :maxdepth: 2
 
    introduction.rst
+   display/index.rst
    sidebar.rst
-   main_view.rst

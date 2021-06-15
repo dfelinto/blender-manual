@@ -111,10 +111,34 @@ Copy Paste
 Todo.
 
 
-Parent
-======
+.. _bpy.ops.mask.parent_clear:
 
-Todo.
+Clear Parent
+============
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Mask Mode
+   :Menu:      :menuselection:`Mask --> Clear Parent`
+   :Shortcut:  :kbd:`Alt-P`
+
+Clears any parenting relationship for the selected spline points.
+
+
+.. _bpy.ops.mask.parent_set:
+
+Make Parent
+===========
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Mask Mode
+   :Menu:      :menuselection:`Mask --> Make Parent`
+   :Shortcut:  :kbd:`Ctrl-P`
+
+Parents one or more selected spline points to the active motion tracker.
 
 
 Animation

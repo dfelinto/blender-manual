@@ -4,7 +4,7 @@
 2D Stabilization Panel
 **********************
 
-The purpose of this feature is to smooth out jerky camera handling on existing real-world footage.
+The purpose of 2D stabilization is to smooth out jerky camera handling on existing real-world footage.
 To activate the 2D stabilizer, you need to set the toggle in the panel, and additionally you need to enable
 *Show Stable* in the Clip Display pop-over.
 Then you'll need to set up some tracking points to detect the image movements.
@@ -25,6 +25,8 @@ This can be compensated by animating the parameters for the intentional,
    To *activate* the 2D stabilizer, you need to set the toggle in the panel,
    and additionally you need to enable *Show Stable* in the *Clip Display* pop-over.
 
+
+.. _bpy.types.MovieTrackingStabilization.use_2d_stabilization:
 
 Options
 =======

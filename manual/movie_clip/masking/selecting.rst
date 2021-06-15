@@ -1,3 +1,9 @@
+.. _bpy.ops.mask.select_all:
+.. _bpy.ops.mask.select_box:
+.. _bpy.ops.mask.select_circle:
+.. _bpy.ops.mask.select_more:
+.. _bpy.ops.mask.select_less:
+.. _bpy.ops.mask.select_linked:
 
 *********
 Selecting

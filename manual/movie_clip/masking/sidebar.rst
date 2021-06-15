@@ -3,6 +3,18 @@
 Sidebar
 *******
 
+Mask Settings
+=============
+
+.. _bpy.types.Mask.frame_start:
+.. _bpy.types.Mask.frame_end:
+
+Start Frame, End Frame
+   Set the frame range of the mask for *Sequencer*.
+
+
+.. _bpy.types.MaskLayer:
+
 Mask Layer
 ==========
 
@@ -60,6 +72,8 @@ creating a hole, as would happen if they were on the same layer. If the motion i
 a single motion tracked point can be used to drive the location of the entire mask layer.
 
 
+.. _bpy.types.MaskSpline:
+
 Active Spline
 =============
 
@@ -101,30 +115,20 @@ Active Point
 This panel is shown when both a tracking marker and mask is selected.
 
 
+.. _bpy.types.MaskParent:
+
 Parent
 ------
 
 In the *Movie Clip Editor* it is possible to link the whole mask or its points to motion tracks.
 This way the mask or points will follow the tracks.
 
-Make Parent :kbd:`Ctrl-P`
-   Parents one or more selected spline points to the active motion tracker.
-Clear Parent :kbd:`Alt-P`
-   Clears any parenting relationship for the selected spline points.
-
 Parent
    :ref:`Data ID <ui-data-id>` to which the mask or spline is parented to
    in case of parenting to movie tracking data set to Movie Clip data-block.
-Type
+Parent Type
    Point Track, Plane Track
 Object
    :ref:`Object <movie-clip-tracking-properties-object>` to parent to.
 Track
    Name of individual tracks.
-
-
-Mask Settings
-=============
-
-Start Frame, End Frame
-   Set the frame range of the mask for *Sequencer*.

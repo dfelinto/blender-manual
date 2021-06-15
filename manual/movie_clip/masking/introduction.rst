@@ -49,7 +49,7 @@ View
 Add
    Use to add primitive shapes.
 Mask
-   TODO
+   Operators used to :doc:`Edit </movie_clip/masking/editing>` masks.
 
 
 Controls
@@ -60,18 +60,6 @@ Mask
    Any image, movie clip, render or compositing result can be used as a backdrop to display masks over.
 
    New ``+`` :kbd:`Alt-N`
+
 Mask Display
-   This popover controls mask display options.
-
-   Smooth
-      Display the edge anti-aliased.
-   Edge Display Type
-      Style of the edge.
-   Overlay
-      Added mask overlay to both Image and Clip editors.
-
-      Mode
-         Alpha Channel
-            Which displays the rasterized mask as a grayscale image.
-         Combined
-            Which multiplies the image/clip with the mask.
+   See :doc:`/editors/clip/display/mask_display`.

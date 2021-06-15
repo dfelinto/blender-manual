@@ -28,6 +28,9 @@ the other feathers will be automatically stretched uniformly along that segment
 and the overall shape will be almost the same as artists would want it to be.
 
 
+.. _bpy.ops.mask.primitive_circle_add:
+.. _bpy.ops.mask.primitive_square_add:
+
 Primitives
 ==========
 
