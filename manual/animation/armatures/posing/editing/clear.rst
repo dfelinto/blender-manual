@@ -8,7 +8,6 @@ Clear Transform
 
    :Mode:      Pose Mode
    :Menu:      :menuselection:`Pose --> Clear Transform`
-   :Shortcut:  :kbd:`Ctrl-A`
 
 Once you have transformed some bones, if you want to return to their rest position,
 just clear their transformations.
