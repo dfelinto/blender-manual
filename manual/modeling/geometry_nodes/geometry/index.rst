@@ -11,4 +11,5 @@
    delete_geometry.rst
    join_geometry.rst
    raycast.rst
+   separate_components.rst
    transform.rst
