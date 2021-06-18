@@ -10,4 +10,5 @@
    convex_hull.rst
    delete_geometry.rst
    join_geometry.rst
+   raycast.rst
    transform.rst
