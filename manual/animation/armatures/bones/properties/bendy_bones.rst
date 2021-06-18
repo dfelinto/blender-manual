@@ -58,7 +58,7 @@ The initial shape of a B-Bone can be defined in Edit Mode as a rest pose of that
 This is useful for curved facial features like curved eyebrows or mouths.
 
 B-Bones have two sets of the Bendy Bone properties -- one for Edit Mode (i.e. the Rest Pose/Base Rig) and
-another for Pose Mode -- adding together their values to get the final transforms.
+another for Pose Mode -- adding or multiplying together their values to get the final transforms.
 
 
 Example
@@ -99,6 +99,11 @@ we can see how the bones' segments smoothly "blend" into each other, even for ro
 Options
 =======
 
+.. figure:: /images/animation_armatures_bones_properties_bendy-bones_options.png
+   :align: right
+
+   Bendy Bones panel.
+
 Segments
 --------
 
@@ -106,12 +111,17 @@ The *Segments* number field allows you to set the number of segments, which the 
 Segments are small, rigid linked child bones that interpolate between the root and the tip.
 The higher this setting, the smoother "bends" the bone, but the heavier the pose calculations.
 
+Display Size
+------------
 
-Curve XY Offsets
+Controls the visible thickness of the bone segments when the armature is rendered in the *B-Bones* mode.
+
+
+Curve XZ Offsets
 ----------------
 
 Applies offsets to the curve handle positions on the plane perpendicular to the bone's primary (Y) axis.
-As a result, the handle moves per axis (XY) further from its original location, causing the curve to bend.
+As a result, the handle moves per axis (XZ) further from its original location, causing the curve to bend.
 
 
 Roll
@@ -120,7 +130,8 @@ Roll
 Roll In, Out
    The roll value (or twisting around the main Y axis of the bone) is interpolated per segment,
    between the start and end roll values.
-   It is applied as a rotational offset on top of the previous rotation.
+   It is applied as a rotational offset on top of the rotation defined by the handle bones.
+
 Inherit End Roll
    If enabled, the *Roll Out* value of the *Start Handle* bone (connected parent by default)
    will be implicitly added to the *Roll In* setting of the current bone.
@@ -129,9 +140,14 @@ Inherit End Roll
 Scale
 -----
 
-Scale In X/Y, Scale Out X/Y
-   Scaling factor that adjusts the thickness of each segment for the X and Y axes only,
-   i.e. length (Z axis) is not affected. Similar to *Roll* it is interpolated per segment.
+Scale In X/Y/Z, Scale Out X/Y/Z
+   Scaling factors that adjust the thickness of each segment for the X and Z axes,
+   or introduce non-uniform spacing along the Y axis. Similar to *Roll* it is
+   interpolated per segment.
+
+   Since all segments are still uniformly scaled in the Y direction to fit the
+   actual length of the curve, only the ratio between *Scale In Y* and *Scale Out Y*
+   actually matters.
 
 
 Easing
@@ -144,6 +160,12 @@ Ease In, Out
    These values are proportional to the default length,
    which of course automatically varies depending on bone length,
    angle with the reference handle, and so on.
+
+   Although easing is a scale-like value, the Edit Mode and Pose Mode versions of the values are added,
+   so they are correspondingly initialized to 1 and 0 by default.
+
+Scale Easing
+   If enabled, the final easing values are implicitly multiplied by the corresponding *Scale Y* values.
 
 .. list-table:: Ease In/Out settings example, with a materialized Bézier curve.
 
@@ -187,6 +209,14 @@ Custom Handle
 
    It is valid for two bones to refer to each other as handles -- this correlation is applied
    in connected chains with *Automatic* handles.
+
+Scale X/Y/Z/Ease
+   If enabled, the final Scale and/or Ease values are multiplied by the corresponding local scale
+   channels of the handle bone. This step is applied independently of *Scale Easing* and doesn't
+   interact with it, i.e. enabling *Y* and *Scale Easing* doesn't replace the *Ease* toggle.
+
+   These toggles are a more efficient replacement for up to 8 trivial drivers feeding segment scale
+   data from the handle bones into the B-Bone option properties.
 
 .. tip:: Keying Set
 
