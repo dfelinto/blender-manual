@@ -69,7 +69,7 @@ Deselect
 
 .. seealso::
 
-   A single bone can be assigned to a group in the :ref:`Relations panel <bone-relations-bone-group>`.
+   A single bone can be assigned to a group in the :ref:`Relations panel <bpy.types.PoseBone.bone_group>`.
 
 .. seealso::
 

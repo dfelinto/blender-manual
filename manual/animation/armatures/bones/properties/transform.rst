@@ -25,3 +25,23 @@ Whereas in *Pose Mode* you can only set location for the main bone, and you can 
 
 In addition, in *Pose Mode* it is possible to restrict changes in position,
 rotation and scale by axis on each bone in the armature.
+
+.. _bpy.types.EditBone.head:
+
+Head X, Y, Z
+   Location of head end of the bone.
+
+.. _bpy.types.EditBone.tail:
+
+Tail X, Y, Z
+   Location of tail end of the bone.
+
+.. _bpy.types.EditBone.roll:
+
+Roll
+   Bone rotation around head-tail axis.
+
+.. _bpy.types.EditBone.lock:
+
+Lock
+   Bone is not able to be transformed when in Edit Mode.

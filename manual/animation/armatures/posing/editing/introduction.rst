@@ -14,7 +14,7 @@ In *Pose Mode*, bones behave like objects. So the transform actions
 (all available ones are regrouped in the :menuselection:`Pose --> Transform` submenu). However,
 there are some important specificities:
 
-- Bones' relationships are crucial (see :ref:`bone-relations-parenting`).
+- Bones' relationships are crucial (see :ref:`Bone Parenting <bpy.types.EditBone.parent>`).
 - The "transform center" of a given bone
   (i.e. its default pivot point, when it is the only selected one) is *its root*.
   Note by the way that some pivot point options seem to not work properly. In fact,

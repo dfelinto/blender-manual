@@ -16,6 +16,8 @@ Relations
 In this panel you can arrange sets of bones in different layers for easier manipulation.
 
 
+.. _bpy.types.EditBone.layers:
+
 Bone Layers
 ===========
 
@@ -34,38 +36,26 @@ First of all, you have to select the chosen bone(s)!
   Note that this way, you assign the same layers to all selected bones.
 
 
-.. _bone-relations-bone-group:
-
-Bone Group
-==========
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Mode:      Pose Mode
-
-To assign a selected bone to a given bone group use the *Bone Group* data ID.
-
-
-Object Children
-===============
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Mode:      Pose Mode
-
-Relative Parenting
-   Changes how transformation of the bone is applied to its child Objects.
-
-
-.. _bone-relations-parenting:
-
 Parenting
 =========
 
+.. _bpy.types.EditBone.parent:
+
 Parent
    A :ref:`ui-data-id` to select the bone to set as a parent.
+
+.. _bpy.types.Bone.use_relative_parent:
+
+Relative Parenting :guilabel:`Pose Mode Only`
+   Changes how transformation of the bone is applied to its child Objects.
+
+.. _bpy.types.PoseBone.bone_group:
+
+Bone Group :guilabel:`Pose Mode Only`
+   To assign a selected bone to a given bone group use the *Bone Group* data ID.
+
+.. _bpy.types.EditBone.use_connect:
+
 Connected
    The *Connected* checkbox set the head of the bone to be connected with its parent root.
 
@@ -101,34 +91,40 @@ By default, children bones inherit:
 Exactly like standard children objects. You can modify this behavior on a per-bone basis,
 using the Relations panel in the *Bones* tab:
 
-.. _bone-relations-inherit-settings:
+.. _bpy.types.EditBone.use_local_location:
 
 Local Location
    When disabled, the location transform property is evaluated in the parent bone's local space,
    rather than using the bone's own *rest pose* local space orientation.
+
+.. _bpy.types.EditBone.use_inherit_rotation:
+
 Inherit Rotation
    When disabled, this will "break" the rotation relationship to the bone's parent.
    This means that the child will keep its rotation in the armature object space when its parent is rotated.
+
+.. _bpy.types.EditBone.inherit_scale:
+
 Inherit Scale
    Specifies which effects of parent scaling the bone inherits:
 
-   Full
+   :Full:
       The bone inherits all effects of parent scaling and shear.
-   Fix Shear
+   :Fix Shear:
       Full parent effects are applied to the rest state of the child, after which any shear is
       removed in a way that preserves the bone direction, length and volume, and minimally affects
       roll on average. The result is combined with the local transformation of the child.
 
       If the inherited scale is non-uniform, this does not prevent shear from reappearing due to
       local rotation of the child bone, or of its children.
-   Aligned
+   :Aligned:
       Parent scaling is inherited as if the child was oriented the same as the parent, always
       applying parent X scale over child X scale, and so on.
-   Average
+   :Average:
       Inherits a uniform scaling factor that is the total change in the volume of the parent.
-   None
+   :None:
       Ignores all scaling and shear of the parent.
-   None (Legacy)
+   :None (Legacy):
       Ignores all scaling, provided the parent is not sheared. If it is, there are no guarantees.
 
       This choice replicates the behavior of the old Inherit Scale checkbox, and may be removed in a future release.

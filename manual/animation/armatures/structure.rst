@@ -55,4 +55,4 @@ their relationships have no effect on bone transformations in this mode
 (i.e. transforming a parent bone will not affect its children).
 
 The easiest way to manage bones relationships is to use
-the :ref:`Relations panel <bone-relations-parenting>` in the *Bone* tab.
+the :ref:`Relations panel <bpy.types.EditBone.parent>` in the *Bone* tab.

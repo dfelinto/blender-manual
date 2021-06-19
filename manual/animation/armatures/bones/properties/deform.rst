@@ -1,3 +1,4 @@
+.. _bpy.types.Bone.use_deform:
 
 ******
 Deform
@@ -52,6 +53,8 @@ shown in the *Envelope* visualization:
 
    The :doc:`editing pages </animation/armatures/bones/editing/transform>` for how to edit these properties.
 
+.. _bpy.types.Bone.envelope_distance:
+
 Envelope Distance
    The Distance defines a volume which is the range within the bone
    has an influence on vertices of the deformed object.
@@ -60,6 +63,8 @@ Envelope Distance
    .. figure:: /images/animation_armatures_bones_properties_deform_envelope-distance.png
 
       Single bone with various different envelope sizes.
+
+.. _bpy.types.Bone.envelope_weight:
 
 Envelope Weight
    A bone property, that controls the global influence of the bone over the deformed object,
@@ -70,15 +75,7 @@ Envelope Weight
    have more influence on the result than one with a low weight...
    Note that when set to 0.0, it has the same effect as disabling the *Deform* option.
 
-Radius
-   Set the radius for the head and the tail of envelope bones.
-   Inside this volume, the geometry if fully affected by the bone.
-
-   .. figure:: /images/animation_armatures_bones_properties_deform_envelope-radius.png
-
-      Three Armature Bones all using Envelope Weight.
-
-      The 1st with a default radius value, the two others with differing Tail and Head radius values.
+.. _bpy.types.Bone.use_envelope_multiply:
 
 Envelope Multiply
    This option controls how the two deforming methods interact, when they are both enabled.
@@ -87,3 +84,16 @@ Envelope Multiply
    When you enable this option, the "deformation influence" that this bone would have on a vertex
    (based from its envelope settings) is multiplied with this vertex's weight in the corresponding vertex group.
    In other words, the vertex groups method is further "weighted" by the envelopes method.
+
+.. _bpy.types.Bone.head_radius:
+.. _bpy.types.Bone.tail_radius:
+
+Radius Head, Tail
+   Set the radius for the head and the tail of envelope bones.
+   Inside this volume, the geometry if fully affected by the bone.
+
+   .. figure:: /images/animation_armatures_bones_properties_deform_envelope-radius.png
+
+      Three Armature Bones all using Envelope Weight.
+
+      The 1st with a default radius value, the two others with differing Tail and Head radius values.

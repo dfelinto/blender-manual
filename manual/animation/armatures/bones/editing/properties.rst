@@ -32,7 +32,7 @@ Multiply Vertex Group by Envelope
    This will be detailed in the :doc:`skinning part </animation/armatures/skinning/index>`.
 Inherit Rotation
    The bone automatically rotates together with its parent in *Pose Mode*. For more details,
-   see the :ref:`relations page <bone-relations-parenting>`.
+   see the :ref:`relations page <bpy.types.EditBone.parent>`.
 Lock
    (also :kbd:`Shift-W` :menuselection:`--> (Locked, ...)`)
    This will prevent all editing of the bone in *Edit Mode*;

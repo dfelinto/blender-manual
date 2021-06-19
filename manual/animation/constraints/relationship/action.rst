@@ -56,12 +56,12 @@ Mix
    Before Original
       The action transformation is added before the existing transformation, as if it was
       applied to an imaginary parent of the constraint owner. Scale is handled like in
-      the :ref:`Aligned Inherit Scale <bone-relations-inherit-settings>` mode of bones
+      the :ref:`Aligned Inherit Scale <bpy.types.EditBone.inherit_scale>` mode of bones
       to avoid creating shear.
    After Original
       The action transformation is added after the existing transformation, as if it was
       applied locally to an imaginary child of the constraint owner. Scale is handled like
-      in the :ref:`Aligned Inherit Scale <bone-relations-inherit-settings>` mode of bones
+      in the :ref:`Aligned Inherit Scale <bpy.types.EditBone.inherit_scale>` mode of bones
       to avoid creating shear.
    After Original (Full Scale)
       The action transformation is added after the existing transformation, as if it was

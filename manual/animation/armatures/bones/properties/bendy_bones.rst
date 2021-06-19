@@ -104,43 +104,44 @@ Options
 
    Bendy Bones panel.
 
+.. _bpy.types.EditBone.bbone_segments:
+
 Segments
---------
+   The number of segments, which the given bone is subdivided into.
+   Segments are small, rigid linked child bones that interpolate between the root and the tip.
+   The higher this setting, the smoother "bends" the bone, but the heavier the pose calculations.
 
-The *Segments* number field allows you to set the number of segments, which the given bone is subdivided into.
-Segments are small, rigid linked child bones that interpolate between the root and the tip.
-The higher this setting, the smoother "bends" the bone, but the heavier the pose calculations.
+.. _bpy.types.EditBone.bbone_x:
+.. _bpy.types.EditBone.bbone_z:
 
-Display Size
-------------
+Display Size X, Z
+   Controls the visible thickness of the bone segments when the armature is rendered in the *B-Bones* mode.
 
-Controls the visible thickness of the bone segments when the armature is rendered in the *B-Bones* mode.
+.. _bpy.types.EditBone.bbone_curveinx:
+.. _bpy.types.EditBone.bbone_curveinz:
 
+Curve In/Out X, Y, Z
+   Applies offsets to the curve handle positions on the plane perpendicular to the bone's primary (Y) axis.
+   As a result, the handle moves per axis (XZ) further from its original location, causing the curve to bend.
 
-Curve XZ Offsets
-----------------
-
-Applies offsets to the curve handle positions on the plane perpendicular to the bone's primary (Y) axis.
-As a result, the handle moves per axis (XZ) further from its original location, causing the curve to bend.
-
-
-Roll
-----
+.. _bpy.types.EditBone.bbone_rollin:
+.. _bpy.types.EditBone.bbone_rollout:
 
 Roll In, Out
    The roll value (or twisting around the main Y axis of the bone) is interpolated per segment,
    between the start and end roll values.
    It is applied as a rotational offset on top of the rotation defined by the handle bones.
 
+.. _bpy.types.EditBone.use_endroll_as_inroll:
+
 Inherit End Roll
    If enabled, the *Roll Out* value of the *Start Handle* bone (connected parent by default)
    will be implicitly added to the *Roll In* setting of the current bone.
 
+.. _bpy.types.EditBone.bbone_scalein:
+.. _bpy.types.EditBone.bbone_scaleout:
 
-Scale
------
-
-Scale In X/Y/Z, Scale Out X/Y/Z
+Scale In/Out X, Y, Z
    Scaling factors that adjust the thickness of each segment for the X and Z axes,
    or introduce non-uniform spacing along the Y axis. Similar to *Roll* it is
    interpolated per segment.
@@ -149,9 +150,8 @@ Scale In X/Y/Z, Scale Out X/Y/Z
    actual length of the curve, only the ratio between *Scale In Y* and *Scale Out Y*
    actually matters.
 
-
-Easing
-------
+.. _bpy.types.EditBone.bbone_easein:
+.. _bpy.types.EditBone.bbone_easeout:
 
 Ease In, Out
    The *Ease In/Out* number fields, change the "length" of the :ref:`"auto" <curve-handle-type-auto>` Bézier handle
@@ -164,20 +164,23 @@ Ease In, Out
    Although easing is a scale-like value, the Edit Mode and Pose Mode versions of the values are added,
    so they are correspondingly initialized to 1 and 0 by default.
 
+
+   .. list-table:: Ease In/Out settings example, with a materialized Bézier curve.
+
+      * - .. figure:: /images/animation_armatures_bones_properties_bendy-bones_curve-in-out-1.png
+             :width: 320px
+
+             Bone.004 with default In and Out (1.0).
+
+        - .. figure:: /images/animation_armatures_bones_properties_bendy-bones_curve-in-out-2.png
+             :width: 320px
+
+             Bone.004 with In at 2.0, and Out at 0.0.
+
+.. _bpy.types.EditBone.use_scale_easing:
+
 Scale Easing
    If enabled, the final easing values are implicitly multiplied by the corresponding *Scale Y* values.
-
-.. list-table:: Ease In/Out settings example, with a materialized Bézier curve.
-
-   * - .. figure:: /images/animation_armatures_bones_properties_bendy-bones_curve-in-out-1.png
-          :width: 320px
-
-          Bone.004 with default In and Out (1.0).
-
-     - .. figure:: /images/animation_armatures_bones_properties_bendy-bones_curve-in-out-2.png
-          :width: 320px
-
-          Bone.004 with In at 2.0, and Out at 0.0.
 
 
 Custom Handles
@@ -185,23 +188,29 @@ Custom Handles
 
 B-Bones can use custom bones as their reference bone handles, instead of only using the connected parent/child bones.
 
-Start, End Handle Type
+.. _bpy.types.EditBone.bbone_handle_type_start:
+.. _bpy.types.EditBone.bbone_handle_type_end:
+
+Start/End Handle
    Specifies the type of the handle from the following choices:
 
-   Automatic
+   :Automatic:
       The connected parent (or first connected child) of the bone is chosen as the handle.
       Calculations are done according to the *Absolute* handle type below.
-   Absolute
+   :Absolute:
       The Bézier handle is controlled by the **position** of the head (tail)
       of the handle bone relative to the head (tail) of the current bone.
       Note that for this to work, there must be a non-zero distance between these bones.
       If the handle is also a B-Bone, additional processing is applied to further
       smooth the transition, assuming that the bones in effect form a chain.
-   Relative
+   :Relative:
       The Bézier handle is controlled by the **offset** of the head (tail) of the handle bone from its rest pose.
       The use of this type is not recommended due to numerical stability issues near zero offset.
-   Tangent
+   :Tangent:
       The Bézier handle is controlled by the **orientation** of the handle bone, independent of its location.
+
+.. _bpy.types.EditBone.bbone_custom_handle_start:
+.. _bpy.types.EditBone.bbone_custom_handle_end:
 
 Custom Handle
    For types other than *Automatic*, a bone to use as handle has to be manually selected.
@@ -209,6 +218,11 @@ Custom Handle
 
    It is valid for two bones to refer to each other as handles -- this correlation is applied
    in connected chains with *Automatic* handles.
+
+.. _bpy.types.EditBone.bbone_handle_use_scale_start:
+.. _bpy.types.EditBone.bbone_handle_use_scale_end:
+.. _bpy.types.EditBone.bbone_handle_use_ease_start:
+.. _bpy.types.EditBone.bbone_handle_use_ease_end:
 
 Scale X/Y/Z/Ease
    If enabled, the final Scale and/or Ease values are multiplied by the corresponding local scale
@@ -220,11 +234,7 @@ Scale X/Y/Z/Ease
 
 .. tip:: Keying Set
 
-   The "BBone Shape" Keying Set includes all Bendy Bones properties.
-
-
-Example
--------
+   The "BBone Shape" :doc:`Keying Set </animation/keyframes/keying_sets>` includes all Bendy Bones properties.
 
 .. figure:: /images/animation_armatures_bones_properties_bendy-bones_settings-demo.png
 
