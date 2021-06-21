@@ -33,9 +33,9 @@ if errorlevel 9009 (
 
 :sphinx_ok
 
-REM Default to HTML
+REM Default to livehtml
 if "%1" == "" (
-	goto html
+	goto livehtml
 )
 
 if "%1" == "help" (
@@ -48,7 +48,7 @@ if "%1" == "help" (
 	echo.==============
 	echo.Convenience targets provided for building docs
 	echo.
-	echo.- livehtml             to auto build on file changes on host on localhost
+	echo.- livehtml (default)   to auto build on file changes and host on localhost
 	echo.- readme               to make a 'readme.html' file
 	echo.- clean                to delete all old build files
 	echo.
@@ -68,17 +68,9 @@ if "%1" == "help" (
 )
 
 if "%1" == "livehtml" (
-	sphinx-autobuild --open-browser --delay 0 %SOURCEDIR% %BUILDDIR% %SPHINXOPTS% %O%
+	:livehtml
+	sphinx-autobuild --open-browser --delay 0 %SOURCEDIR% %BUILDDIR%/html %SPHINXOPTS% %O%
 	if errorlevel 1 exit /b 1
-	goto EOF
-)
-
-if "%1" == "html" (
-	:html
-	%SPHINXBUILD% -b html %SPHINXOPTS% %O% %SOURCEDIR% %BUILDDIR%/html
-	if errorlevel 1 exit /b 1
-	echo.To view, run:
-	echo.  start %BUILDDIR%/html/index.html
 	goto EOF
 )
 

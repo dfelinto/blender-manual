@@ -49,7 +49,7 @@ ifneq "$(findstring singlehtml, $(MAKECMDGOALS))" ""
 else ifneq "$(findstring latexpdf, $(MAKECMDGOALS))" ""
 	.DEFAULT_GOAL := latexpdf
 else
-	.DEFAULT_GOAL := html
+	.DEFAULT_GOAL := livehtml
 endif
 
 
@@ -75,13 +75,7 @@ $(CHAPTERS): $(.DEFAULT_GOAL)
 
 livehtml:
 	@QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
-	sphinx-autobuild --open-browser --delay 0 "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
-
-html: .SPHINXBUILD_EXISTS
-	@QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
-	$(SPHINXBUILD) -M html "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
-	@echo "To view, run:"
-	@echo "  "$(OPEN_CMD) $(shell pwd)"/$(BUILDDIR)/html/$(CONTENTS_HTML)"
+	sphinx-autobuild --open-browser --delay 0 "$(SOURCEDIR)" "$(BUILDDIR)/html" $(SPHINXOPTS) $(O)
 
 latexpdf: .SPHINXBUILD_EXISTS
 	@QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
@@ -135,7 +129,7 @@ help:
 	@echo "=============="
 	@echo "Convenience targets provided for building docs"
 	@echo ""
-	@echo "- livehtml             to auto build on file changes on host on localhost"
+	@echo "- livehtml (default)   to auto build on file changes and host on localhost"
 	@echo "- epubpdf              to convert an epub file to pdf"
 	@echo "- readme               to make a 'readme.html' file"
 	@echo "- clean                to delete all old build files"
