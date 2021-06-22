@@ -174,6 +174,7 @@ html_theme_path = []
 
 if html_theme == "sphinx_rtd_theme":
     html_theme_options = {
+        "analytics_id": "UA-1418081-1",
         # included in the title
         "display_version": False,
         "collapse_navigation": True,
