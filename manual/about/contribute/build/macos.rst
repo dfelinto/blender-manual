@@ -26,21 +26,6 @@ and refresh the HTML pages as necessary.
 The building process may take several minutes the first time (or after any major changes),
 but for subsequent changes it should only take a few seconds.
 
-Now that you are able to build the manual, the next paragraph is about an optional quick build.
-
-
-Building a Single Chapter
-=========================
-
-If you are working on a specific chapter of the manual, you can build it quickly using::
-
-   make <chapter name>
-
-For example, to build only the documentation for the modifiers, use ``make modeling``.
-You can then view this quick build by opening :file:`build/html/contents_quicky.html`.
-
-This will build very quickly, but it will mean your next complete build of all the chapters will be slow.
-
 
 ------------------------
 

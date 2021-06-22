@@ -14,25 +14,9 @@ BF_LANG       ?= en
 SPHINXOPTS    ?= -j auto -D language='$(BF_LANG)'
 LATEXOPTS     ?= "-interaction nonstopmode"
 
-# full paths
-CHAPTERS_FULL:=$(filter %/, $(wildcard manual/*/))
-# names only
-CHAPTERS:=$(notdir $(sort $(CHAPTERS_FULL:%/=%)))
-# intersect make goals and possible chapters
-QUICKY_CHAPTERS=$(filter $(MAKECMDGOALS),$(CHAPTERS))
-# Remove chapters from command line arguments.
-CMD_ARGS_WITHOUT_CHAPTERS=$(filter-out $(CHAPTERS),$@)
-
 
 # -----------------------
 # for echoing output only
-ifeq ($(QUICKY_CHAPTERS), )
-	CONTENTS_HTML="index.html"
-else
-	CONTENTS_HTML="contents_quicky.html"
-endif
-
-# os specific
 ifeq ($(OS), Darwin)
 	# OSX
 	OPEN_CMD="open"
@@ -74,12 +58,10 @@ $(CHAPTERS): $(.DEFAULT_GOAL)
 # --------------------
 
 livehtml:
-	@QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
-	sphinx-autobuild --open-browser --delay 0 "$(SOURCEDIR)" "$(BUILDDIR)/html" $(SPHINXOPTS) $(O)
+	@sphinx-autobuild --open-browser --delay 0 "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 latexpdf: .SPHINXBUILD_EXISTS
-	@QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
-	$(SPHINXBUILD) -M latexpdf "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+	@$(SPHINXBUILD) -M latexpdf "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 	@make -C "$(BUILDDIR)/latex" LATEXOPTS="-interaction nonstopmode"
 	@echo "To view, run:"
 	@echo "  "$(OPEN_CMD) $(shell pwd)"/$(BUILDDIR)/latex/blender_manual.pdf"
@@ -129,13 +111,10 @@ help:
 	@echo "=============="
 	@echo "Convenience targets provided for building docs"
 	@echo ""
-	@echo "- livehtml (default)   to auto build on file changes and host on localhost"
+	@echo "- livehtml             to auto build on file changes on host on localhost"
 	@echo "- epubpdf              to convert an epub file to pdf"
 	@echo "- readme               to make a 'readme.html' file"
 	@echo "- clean                to delete all old build files"
-	@echo ""
-	@echo "Chapters               to quickly build a single chapter"
-	@$(foreach ch,$(CHAPTERS),echo "- "$(ch);)
 	@echo ""
 	@echo "Translations"
 	@echo "------------"
@@ -155,11 +134,5 @@ help:
 
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option. $(O) is meant as a shortcut for $(SPHINXOPTS).
-#
-# $(CMD_ARGS_WITHOUT_CHAPTERS) is used so building single chapters doesn't interfere
-# with sphinx arguments.
 %: Makefile .SPHINXBUILD_EXISTS
-	@if [ -n "$(CMD_ARGS_WITHOUT_CHAPTERS)" ]; then \
-		QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
-		$(SPHINXBUILD) -M $(CMD_ARGS_WITHOUT_CHAPTERS) "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O); \
-	fi
+	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)

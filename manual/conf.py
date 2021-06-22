@@ -78,28 +78,6 @@ source_suffix = '.rst'
 # The master toctree document.
 master_doc = 'index'
 
-if os.environ.get('QUICKY_CHAPTERS') is None:
-    exclude_patterns = ["contents_quicky.rst"]
-    master_doc = 'index'
-else:
-    # Call quicky_index_gen.from_chapters()
-    # and use the QUICKY_CHAPTERS env var if its set
-
-    def exec_file(fn):
-        code = compile(open(fn, 'r').read(), fn, 'exec')
-        namespace = {"__file__": fn}
-        exec(code, namespace, namespace)
-        return namespace
-
-    mod_path = os.path.join(os.path.dirname(__file__), "quicky_index_gen.py")
-    namespace = exec_file(mod_path)
-    del mod_path
-
-    master_doc, exclude_patterns = namespace["from_chapters"]()
-    del namespace
-
-print("Using Index:", master_doc)
-
 # General information about the project.
 project = 'Blender %s Manual' % blender_version
 copyright = ': This page is licensed under a CC-BY-SA 4.0 Int. License'
@@ -132,7 +110,7 @@ language = 'en'
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This patterns also effect to html_static_path and html_extra_path
-exclude_patterns += ['_build']
+# exclude_patterns = ['_build']
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.
