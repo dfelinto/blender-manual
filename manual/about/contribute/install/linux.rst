@@ -25,6 +25,7 @@ Debian/Ubuntu::
 Redhat/Fedora::
 
       sudo yum install python python-pip
+
 Arch Linux::
 
       sudo pacman -S python python-pip subversion
