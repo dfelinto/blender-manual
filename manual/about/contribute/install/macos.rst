@@ -54,4 +54,4 @@ Setting up the Build Environment
 
    Every now and then you may want to make sure your dependencies are up to date using::
 
-      sudo pip install -r requirements.txt --upgrade --upgrade-strategy eager
+      sudo pip install -r requirements.txt --upgrade
