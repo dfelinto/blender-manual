@@ -1,3 +1,4 @@
+.. highlight:: console
 
 *************
 Release Cycle
@@ -22,8 +23,6 @@ The ``blender-v{VERSION}-release`` branch will be available for 5 weeks prior to
 At the same time ``master`` will be open for the next release,
 giving 2 months to add documentation for new features of the next release, and another month to make improvements.
 
-
-.. highlight:: sh
 
 Switching Branches
 ------------------

@@ -25,7 +25,7 @@ The following guides lead you through the process.
    :maxdepth: 1
 
    contribute/install/index.rst
-   contribute/build/index.rst
+   contribute/build.rst
    contribute/editing.rst
    contribute/patch_commit.rst
    contribute/release_cycle.rst

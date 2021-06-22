@@ -13,7 +13,7 @@ If the language you want to translate has not been started by someone else alrea
 you wish to create a set of new files for the desired language, say 'fr' (French),
 then you must first use the environment you have created,
 as guided in :ref:`Getting Started <about-getting-started>`,
-in particular :doc:`/about/contribute/install/index` and :doc:`/about/contribute/build/index` sections.
+in particular :doc:`/about/contribute/install/index` and :doc:`/about/contribute/build` sections.
 
 This will give you a foundation environment for:
 

@@ -1,4 +1,4 @@
-.. highlight:: sh
+.. highlight:: console
 
 *********************
 Installation on Linux
@@ -18,17 +18,14 @@ Below are listed the installation commands for popular Linux distributions.
 
 For the appropriate system, run the command in a terminal:
 
-Debian/Ubuntu
-   .. code-block:: sh
+Debian/Ubuntu::
 
       sudo apt-get install python3 python3-pip subversion
 
-Redhat/Fedora
-   .. code-block:: sh
+Redhat/Fedora::
 
       sudo yum install python python-pip
-Arch Linux
-   .. code-block:: sh
+Arch Linux::
 
       sudo pacman -S python python-pip subversion
 
@@ -62,8 +59,3 @@ Setting up the Build Environment
    Every now and then you may want to make sure your dependencies are up to date using::
 
       sudo pip3 install -r requirements.txt --upgrade --upgrade-strategy eager
-
-
-------------------------
-
-Continue with the next step: :doc:`Building </about/contribute/build/linux>`.

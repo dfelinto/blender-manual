@@ -1,4 +1,4 @@
-.. highlight:: sh
+.. highlight:: console
 
 ***********************
 Installation on Windows
@@ -70,8 +70,3 @@ However, if any errors occur, they may cause some problems.
    Every now and then you may want to make sure your dependencies are up to date using::
 
       pip install -r requirements.txt --upgrade --upgrade-strategy eager
-
-
-------------------------
-
-Continue with the next step: :doc:`Building </about/contribute/build/windows>`.

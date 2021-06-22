@@ -1,4 +1,4 @@
-.. highlight:: sh
+.. highlight:: console
 
 **********
 Contribute

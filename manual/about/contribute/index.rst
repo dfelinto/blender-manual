@@ -23,7 +23,7 @@ The following guides lead you through the process.
    :maxdepth: 1
 
    install/index.rst
-   build/index.rst
+   build.rst
    editing.rst
    patch_commit.rst
    release_cycle.rst

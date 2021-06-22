@@ -1,3 +1,4 @@
+.. highlight:: console
 
 ******************
 Editing the Manual
@@ -15,9 +16,7 @@ For a local preview, you convert (build) the manual source files from RST into H
 Update
 ======
 
-Firstly, make sure that your local copy of the manual is up to date with the online repository using:
-
-.. code-block:: sh
+Firstly, make sure that your local copy of the manual is up to date with the online repository using::
 
    svn update
 
@@ -75,7 +74,7 @@ for more information.
 Preview
 =======
 
-To view your changes, build the manual :doc:`as instructed </about/contribute/build/index>`.
+To view your changes, build the manual :doc:`as instructed </about/contribute/build>`.
 Keep in mind that you can also build only the chapter you just edited to view it quickly.
 Open the generated ``.html`` files inside the ``build/html`` folder using your web browser,
 or refresh the page if you have it open already.
