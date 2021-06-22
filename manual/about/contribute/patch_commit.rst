@@ -1,4 +1,4 @@
-.. highlight:: console
+.. highlight:: sh
 
 **************
 Patch & Commit

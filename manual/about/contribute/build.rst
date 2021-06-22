@@ -1,4 +1,4 @@
-.. highlight:: console
+.. highlight:: sh
 
 *******************
 Building the Manual
