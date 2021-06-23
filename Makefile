@@ -1,3 +1,6 @@
+# -*- mode: gnumakefile; tab-width: 4; indent-tabs-mode: t; -*-
+# vim: tabstop=4
+
 # -----------
 # System Vars
 OS:=$(shell uname -s)
