@@ -1,6 +1,32 @@
 # -*- mode: gnumakefile; tab-width: 4; indent-tabs-mode: t; -*-
 # vim: tabstop=4
 
+define HELP_TEXT
+Custom Targets
+==============
+
+Convenience targets provided for building docs.
+
+- livehtml             to auto build on file changes on host on localhost.
+- epubpdf              to convert an epub file to PDF.
+- readme               to make a 'readme.html' file.
+- clean                to delete all old build files.
+
+Translations
+------------
+
+- update_po            to update PO message catalogs.
+- report_po_progress   to check the progress/fuzzy strings.
+
+Checking
+--------
+
+- check_structure      to check the structure of all .rst files.
+- check_syntax         to check the syntax of all .rst files.
+- check_spelling       to check spelling for text in RST files.
+endef
+# HELP_TEXT (end)
+
 # -----------
 # System Vars
 OS:=$(shell uname -s)
@@ -101,6 +127,7 @@ report_po_progress:
 # ----------------------
 # Help for build targets
 
+export HELP_TEXT
 help:
 	@echo ""
 	@echo "Sphinx"
@@ -108,28 +135,7 @@ help:
 	@echo ""
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 	@echo ""
-	@echo "Custom Targets"
-	@echo "=============="
-	@echo "Convenience targets provided for building docs"
-	@echo ""
-	@echo "- livehtml             to auto build on file changes on host on localhost"
-	@echo "- epubpdf              to convert an epub file to pdf"
-	@echo "- readme               to make a 'readme.html' file"
-	@echo "- clean                to delete all old build files"
-	@echo ""
-	@echo "Translations"
-	@echo "------------"
-	@echo ""
-	@echo "- update_po            to update PO message catalogs"
-	@echo "- report_po_progress   to check the progress/fuzzy strings"
-	@echo ""
-	@echo "Checking"
-	@echo "--------"
-	@echo ""
-	@echo "- check_structure      to check the structure of all .rst files"
-	@echo "- check_syntax         to check the syntax of all .rst files"
-	@echo "- check_spelling       to check spelling for text in RST files"
-	@echo ""
+	@echo "$$HELP_TEXT"
 
 .PHONY: help Makefile
 
