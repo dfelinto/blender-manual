@@ -37,9 +37,6 @@ else
 endif
 
 
-$(CHAPTERS): $(.DEFAULT_GOAL)
-
-
 # --------------------
 # Check commands exist
 
