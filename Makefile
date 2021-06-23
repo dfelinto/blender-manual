@@ -33,7 +33,7 @@ ifneq "$(findstring singlehtml, $(MAKECMDGOALS))" ""
 	.DEFAULT_GOAL := singlehtml
 else ifneq "$(findstring latexpdf, $(MAKECMDGOALS))" ""
 	.DEFAULT_GOAL := latexpdf
-else ifneq "$(which $(SPHINXAUTOBUILD) > /dev/null 2>&1)" ""
+else ifneq ("$(shell which $(SPHINXAUTOBUILD) 2> /dev/null)", "")
 	.DEFAULT_GOAL := livehtml
 else
 	.DEFAULT_GOAL := html
