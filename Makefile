@@ -22,11 +22,9 @@ LATEXOPTS       ?= "-interaction nonstopmode"
 # -----------------------
 # for echoing output only
 ifeq ($(OS), Darwin)
-	# OSX
-	OPEN_CMD="open"
+	OPEN_CMD="open" # MACOS.
 else
-	# Linux/FreeBSD
-	OPEN_CMD="xdg-open"
+	OPEN_CMD="xdg-open" # Linux/FreeBSD.
 endif
 # end output for echoing
 # ----------------------
