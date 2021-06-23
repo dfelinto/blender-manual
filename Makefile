@@ -7,12 +7,13 @@ OS:=$(shell uname -s)
 
 # You can set these variables from the command line, and also
 # from the environment for the first two.
-SPHINXBUILD   ?= sphinx-build
-SOURCEDIR     = ./manual
-BUILDDIR      = build
-BF_LANG       ?= en
-SPHINXOPTS    ?= -j auto -D language='$(BF_LANG)'
-LATEXOPTS     ?= "-interaction nonstopmode"
+SPHINXBUILD     ?= sphinx-build
+SPHINXAUTOBUILD	?= sphinx-autobuild
+SOURCEDIR        = ./manual
+BUILDDIR         = build
+BF_LANG         ?= en
+SPHINXOPTS      ?= -j auto -D language='$(BF_LANG)'
+LATEXOPTS       ?= "-interaction nonstopmode"
 
 
 # -----------------------
@@ -32,8 +33,10 @@ ifneq "$(findstring singlehtml, $(MAKECMDGOALS))" ""
 	.DEFAULT_GOAL := singlehtml
 else ifneq "$(findstring latexpdf, $(MAKECMDGOALS))" ""
 	.DEFAULT_GOAL := latexpdf
-else
+else ifneq "$(which $(SPHINXAUTOBUILD) > /dev/null 2>&1)" ""
 	.DEFAULT_GOAL := livehtml
+else
+	.DEFAULT_GOAL := html
 endif
 
 
@@ -55,7 +58,7 @@ endif
 # --------------------
 
 livehtml:
-	@sphinx-autobuild --open-browser --delay 0 "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+	@$(SPHINXAUTOBUILD) --open-browser --delay 0 "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 latexpdf: .SPHINXBUILD_EXISTS
 	@$(SPHINXBUILD) -M latexpdf "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
