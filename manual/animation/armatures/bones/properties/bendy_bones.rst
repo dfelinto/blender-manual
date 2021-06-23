@@ -146,9 +146,8 @@ Scale In/Out X, Y, Z
    or introduce non-uniform spacing along the Y axis. Similar to *Roll* it is
    interpolated per segment.
 
-   Since all segments are still uniformly scaled in the Y direction to fit the
-   actual length of the curve, only the ratio between *Scale In Y* and *Scale Out Y*
-   actually matters.
+   Since all segments are still uniformly scaled in the Y direction to fit the actual length of the curve,
+   only the ratio between *Scale In Y* and *Scale Out Y* actually matters.
 
 .. _bpy.types.EditBone.bbone_easein:
 .. _bpy.types.EditBone.bbone_easeout:
@@ -156,14 +155,12 @@ Scale In/Out X, Y, Z
 Ease In, Out
    The *Ease In/Out* number fields, change the "length" of the :ref:`"auto" <curve-handle-type-auto>` Bézier handle
    to control the "root handle" and "tip handle" of the bone, respectively.
-
    These values are proportional to the default length,
    which of course automatically varies depending on bone length,
    angle with the reference handle, and so on.
 
    Although easing is a scale-like value, the Edit Mode and Pose Mode versions of the values are added,
-   so they are correspondingly initialized to 1 and 0 by default.
-
+   so they get corresponding start values of 1 and 0 by default.
 
    .. list-table:: Ease In/Out settings example, with a materialized Bézier curve.
 
@@ -228,9 +225,8 @@ Scale X/Y/Z/Ease
    If enabled, the final Scale and/or Ease values are multiplied by the corresponding local scale
    channels of the handle bone. This step is applied independently of *Scale Easing* and doesn't
    interact with it, i.e. enabling *Y* and *Scale Easing* doesn't replace the *Ease* toggle.
-
-   These toggles are a more efficient replacement for up to 8 trivial drivers feeding segment scale
-   data from the handle bones into the B-Bone option properties.
+   These toggles are a more efficient replacement for up to eight trivial drivers passing segment scale data
+   from the handle bones into the B-Bone option properties.
 
 .. tip:: Keying Set
 

@@ -62,7 +62,7 @@ Envelope Distance
 
    .. figure:: /images/animation_armatures_bones_properties_deform_envelope-distance.png
 
-      Single bone with various different envelope sizes.
+      Single bone with various envelope sizes.
 
 .. _bpy.types.Bone.envelope_weight:
 

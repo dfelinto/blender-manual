@@ -49,10 +49,10 @@ and the last bone of a chain is the *tip bone*
 (do not confuse them with similar names of bones' joints!).
 
 Chains of bones are a particularly important topic in :doc:`posing </animation/armatures/posing/index>`
-(especially with the standard *forward kinematics* versus "automatic" *inverse kinematics* posing techniques).
+(especially with the standard *forward* kinematics versus "automatic" *inverse* kinematics posing techniques).
 You create/edit them in *Edit Mode*, but except in case of connected bones,
 their relationships have no effect on bone transformations in this mode
 (i.e. transforming a parent bone will not affect its children).
 
 The easiest way to manage bones relationships is to use
-the :ref:`Relations panel <bpy.types.EditBone.parent>` in the *Bone* tab.
+the :ref:`Relations panel <bpy.types.EditBone.parent>` in the Bone tab.

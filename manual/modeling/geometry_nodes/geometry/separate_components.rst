@@ -13,6 +13,7 @@ Separate Components
 The *Separate Components* node splits a geometry into its separate components.
 
 .. note::
+
    If the input contains multiple volume instances, only the first volume component is output for now.
 
 

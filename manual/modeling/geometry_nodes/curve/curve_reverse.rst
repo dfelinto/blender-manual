@@ -12,7 +12,6 @@ Curve Reverse
 
 The *Curve Reverse* node swaps the start and end of splines.
 The shape of the splines is not changed.
-An optional spline selection can be used to reverse only some of the splines.
 
 
 Inputs

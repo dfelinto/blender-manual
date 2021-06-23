@@ -16,9 +16,9 @@ Open a terminal or Command Prompt in the ``~/blender_docs`` directory and simply
    run the command without having to open the Command Prompt and typing commands.
 
 This is the command you should use when building the docs,
-however, other commands are avaible by typing ``make help``.
+however, other commands are available by typing ``make help``.
 This command will convert the RST-files into HTML pages
-and automaticlly open your default web browser to view the result.
+and automatically open your default web browser to view the result.
 The command will continue to run and watch for changes made to the RST-files
 and refresh the HTML pages as necessary.
 

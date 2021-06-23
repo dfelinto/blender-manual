@@ -11,16 +11,9 @@ Raycast
    Raycast node.
 
 The *Raycast* node intersects rays from one geometry onto another.
-It computes hit points on the target mesh and returns normals, distances
+A ray starts on each point of the input geometry.
+It computes hit points on the target mesh and outputs normals, distances
 and any surface attribute specified by the user.
-
-A ray starts on each point of the input *Geometry*. Rays continue
-in the *Ray Direction* until they either hit the *Target Geometry*
-or reach the *Ray Length* limit. If the target is hit, the value of the *Is Hit*
-attribute in the output mesh will be true. *Hit Position*, *Hit Normal* and
-*Hit Distance* are the properties of the target mesh at the intersection point.
-In addition, a *Target Attribute* can be specified that is interpolated
-at the hit point and the result stored in *Hit Attribute*.
 
 
 Inputs
@@ -39,7 +32,8 @@ Ray Length
    Maximum distance a ray can travel before being considered "no hit".
 
 Target Attribute
-   An optional attribute of the *Target Geometry* that will be interpolated at the hit points. The resulting values are stored in the output attribute named by *Hit Attribute*.
+   An optional attribute of the *Target Geometry* that will be interpolated at the hit points.
+   The resulting values are stored in the output attribute named by *Hit Attribute*.
 
 Is Hit
    Boolean output attribute that is true for each ray which has hit the *Target Geometry*.
