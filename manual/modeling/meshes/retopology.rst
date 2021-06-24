@@ -72,9 +72,6 @@ Adaptivity
 Fix Poles
    Tries to produce less :term:`Poles <Pole>` at the cost of some performance to produce a better topological flow.
 
-Smooth Normals
-   Applies the :ref:`Smooth Normals <bpy.ops.object.shade_smooth>` operator to the resulting mesh.
-
 Preserve
    Volume
       Tells the algorithm to try to preserve the original volume of the mesh.
@@ -128,12 +125,9 @@ Smooth Normals
 Mode
    How to specify the amount of detail for the new mesh.
 
-   Ratio
-      Specify target number of faces relative to the current mesh.
-   Edge Length
-      Input target edge length in the new mesh.
-   Faces
-      Input target number of faces in the new mesh.
+   :Ratio: Specify target number of faces relative to the current mesh.
+   :Edge Length: Input target edge length in the new mesh.
+   :Faces: Input target number of faces in the new mesh.
 
 Seed
    Random :term:`Seed` to use with the solver;

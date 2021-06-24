@@ -48,9 +48,6 @@ Adaptivity
 Fix Poles
    Tries to produce less :term:`poles <Pole>` at the cost of some performance to produce a better topological flow.
 
-Smooth Normals
-   Applies the :ref:`Smooth Normals <bpy.ops.object.shade_smooth>` operator to the resulting mesh.
-
 Preserve
    Volume
       Tells the algorithm to try to preserve the original volume of the mesh.
