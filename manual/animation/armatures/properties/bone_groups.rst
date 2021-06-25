@@ -1,3 +1,4 @@
+.. _bpy.types.BoneGroups:
 
 ***********
 Bone Groups
@@ -34,16 +35,16 @@ Color Set
 You can assign a "color theme" to a group (each bone will have these colors).
 Remember you have to enable the *Colors* checkbox (*Display* panel) to see these colors.
 
-Bone Color Set
+Color Set
    A select menu.
 
-   - *Default Colors*: The default (gray) colors.
-   - *nn* - *Theme Color Set*: One of the twenty Blender presets by the theme.
-   - *Custom Set*: A custom set of colors, which is specific to each group.
+   :Default Colors: The default (gray) colors.
+   :*nn* - Theme Color Set: One of the twenty Blender presets by the theme.
+   :Custom Set: A custom set of colors, which is specific to each group.
 
-Normal
+Regular
    The first color field is the color of unselected bones.
-Selected
+Select
    The second color field is the outline color of selected bones.
 Active
    The third color field is the outline color of the active bone.
@@ -57,20 +58,31 @@ Assign and Select
 In the 3D Viewport, using the :menuselection:`Pose --> Bone Groups` menu entries,
 and/or the *Bone Groups* pop-up menu :kbd:`Ctrl-G`, you can:
 
+.. _bpy.ops.pose.group_assign:
+
 Assign
    Assigns the selected bones to the active bone group.
    It is important to note that a bone can only belong to one group.
+
+.. _bpy.ops.pose.group_unassign:
+
 Remove
    Removes the selected bones from the active bone group.
+
+.. _bpy.ops.pose.group_select:
+
 Select
    Selects the bones in the active bone group.
+
+.. _bpy.ops.pose.group_deselect:
+
 Deselect
    Deselects the bones in the active bone group.
 
-.. seealso::
+.. note::
 
    A single bone can be assigned to a group in the :ref:`Relations panel <bpy.types.PoseBone.bone_group>`.
 
-.. seealso::
+.. tip::
 
    Bones belonging to multiple groups is possible with the *Selection Sets* add-on.

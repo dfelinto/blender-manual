@@ -1,3 +1,5 @@
+.. _bpy.ops.armature.parent_set:
+.. _bpy.ops.armature.parent_clear:
 
 *********
 Parenting

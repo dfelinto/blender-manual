@@ -1,7 +1,7 @@
 
-**********************
-Viewport Display Panel
-**********************
+****************
+Viewport Display
+****************
 
 .. admonition:: Reference
    :class: refbox
@@ -13,6 +13,8 @@ Viewport Display Panel
    .. figure:: /images/animation_armatures_properties_display_panel.png
 
       The Display panel.
+
+.. _bpy.types.Armature.display_type:
 
 Display As
    This controls the way the bones appear in the 3D Viewport; you have four different visualizations you can select.
@@ -99,6 +101,8 @@ Display As
 
                 The same armature in Edit Mode.
 
+.. _bpy.types.Armature.show:
+
 Show
    Names
       Displays the name of each bone.
@@ -119,6 +123,8 @@ Show
 
 Axis
    When enabled, the (local) axes of each bone are displayed (only relevant for *Edit Mode* and *Pose Mode*).
+
+   .. _bpy.types.Armature.axes_position:
 
    Position
       The position for the axes display on the bone.

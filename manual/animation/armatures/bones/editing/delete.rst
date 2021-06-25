@@ -33,6 +33,8 @@ to avoid deforming the whole armature.
           previously connected to the deleted Bone.001, is now parented but not connected to Bone.
 
 
+.. _bpy.ops.armature.dissolve:
+
 Dissolve
 ========
 

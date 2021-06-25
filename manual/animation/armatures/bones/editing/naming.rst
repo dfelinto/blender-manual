@@ -66,14 +66,14 @@ This will enable you to use some tools that will probably save you time and effo
 
 .. _bpy.ops.armature.autoside_names:
 
-AutoName
-========
+Auto-Name
+=========
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Armature --> Names --> AutoName Left/Right, Front/Back, Top/Bottom`
+   :Menu:      :menuselection:`Armature --> Names --> Auto-Name Left/Right, Front/Back, Top/Bottom`
 
 The three *AutoName* entries of the :menuselection:`Armature --> Names` menu allow you to
 automatically add a suffix to all selected bones, based on the position of their root

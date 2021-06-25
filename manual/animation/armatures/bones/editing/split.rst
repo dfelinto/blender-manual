@@ -1,3 +1,4 @@
+.. _bpy.ops.armature.split:
 
 *****
 Split

@@ -1,3 +1,4 @@
+.. _bpy.ops.armature.switch_direction:
 
 ****************
 Switch Direction

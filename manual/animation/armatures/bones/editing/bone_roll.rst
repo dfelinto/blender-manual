@@ -11,15 +11,17 @@ However, after editing the armature, or when using :term:`Euler Rotation`,
 you may want to set the bone roll.
 
 
-Recalculate
-===========
+.. _bpy.ops.armature.calculate_roll:
+
+Recalculate Roll
+================
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Armature --> Bone Roll --> Recalculate`
-   :Shortcut:  :kbd:`Ctrl-N`
+   :Menu:      :menuselection:`Armature --> Bone Roll --> Recalculate Roll`
+   :Shortcut:  :kbd:`Shift-N`
 
 Axis Orientation
    Local Tangent
@@ -44,14 +46,14 @@ Shortest Rotation
 
 .. _tool-bone-role:
 
-Set
-===
+Set Roll
+========
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Armature --> Bone Roll --> Set`
+   :Menu:      :menuselection:`Armature --> Bone Roll --> Set Roll`
    :Shortcut:  :kbd:`Ctrl-R`
 
 This is a transform mode where you can edit the roll of all selected bones.

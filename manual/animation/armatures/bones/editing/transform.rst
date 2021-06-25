@@ -122,6 +122,8 @@ within which it can influence vertices of child objects.
           The same armature in Object Mode and B-Bone visualization, with Bone.004's size scaled up.
 
 
+.. _bpy.ops.armature.align:
+
 Align Bones
 ===========
 
