@@ -24,7 +24,7 @@ can use the same or different collections.
 Outliner
 ========
 
-You can edit the current *view layer* collections in the :ref:`Outliner <editors-outliner-editing-collections>`.
+You can edit the *view layer* collections in the :ref:`Outliner <editors-outliner-editing-collections>`.
 
 .. figure:: /images/scene-layout_view-layers_introduction_outliner.png
 
