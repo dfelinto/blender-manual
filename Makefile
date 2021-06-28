@@ -84,6 +84,11 @@ endif
 # End command checking
 # --------------------
 
+html: .SPHINXBUILD_EXISTS
+	$(SPHINXBUILD) -M html "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+	@echo "To view, run:"
+	@echo "  "$(OPEN_CMD) $(shell pwd)"/$(BUILDDIR)/html/index.html"
+
 livehtml:
 	@$(SPHINXAUTOBUILD) --open-browser --delay 0 "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
