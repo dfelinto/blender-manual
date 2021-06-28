@@ -7,7 +7,9 @@ Custom Targets
 
 Convenience targets provided for building docs.
 
-- livehtml             to auto build on file changes on host on localhost.
+- html                 to build the HTML web-site.
+- singlehtml           to build the HTML web-site as a single page.
+- livehtml (default)   to auto build on file changes on host on localhost.
 - epubpdf              to convert an epub file to PDF.
 - readme               to make a 'readme.html' file.
 - clean                to delete all old build files.
@@ -101,8 +103,8 @@ latexpdf: .SPHINXBUILD_EXISTS
 epubpdf: .SPHINXBUILD_EXISTS
 	@$(SPHINXBUILD) -M epub "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 	@ebook-convert $(BUILDDIR)/epub/*.epub blender_manual.pdf \
-	--pdf-default-font-size 16 \
-	--pdf-mono-font-size 14
+	               --pdf-default-font-size 16 \
+	               --pdf-mono-font-size 14
 
 readme:
 	@rst2html5 readme.rst > $(BUILDDIR)/readme.html
@@ -127,7 +129,7 @@ update_po:
 
 report_po_progress:
 	@python3 tools_report/report_translation_progress.py --quiet \
-	        `find locale/ -maxdepth 1 -mindepth 1 -type d -not -iwholename '*.svn*' -printf 'locale/%f\n' | sort`
+	         `find locale/ -maxdepth 1 -mindepth 1 -type d -not -iwholename '*.svn*' -printf 'locale/%f\n' | sort`
 
 # ----------------------
 # Help for build targets
