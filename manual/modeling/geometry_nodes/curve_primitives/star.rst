@@ -19,7 +19,7 @@ Inputs
 ======
 
 Points
-   Number of vertices on each of the circles.
+   Number of points on each of the circles.
 
 Inner Radius, Outer Radius
    Radii of the two circles.
