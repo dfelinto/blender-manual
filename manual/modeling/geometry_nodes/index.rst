@@ -22,6 +22,7 @@ Node Types
    attribute/index.rst
    color/index.rst
    curve/index.rst
+   curve_primitives/index.rst
    geometry/index.rst
    input/index.rst
    material/index.rst
