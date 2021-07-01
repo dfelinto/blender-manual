@@ -16,6 +16,10 @@ The Draw tool allows you to draw free-hand strokes.
 Brush Settings
 ==============
 
+.. figure:: /images/grease-pencil_modes_draw_tools_draw_settings.png
+   :width: 275px
+   :align: right
+
 Material
    Data-block selector for the :doc:`material </grease_pencil/materials/introduction>`.
 
