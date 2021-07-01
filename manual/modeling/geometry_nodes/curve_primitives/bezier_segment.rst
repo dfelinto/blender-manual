@@ -30,12 +30,12 @@ Start Handle, End Handle
 Properties
 ==========
 
-Position
-   The handle inputs are the absolute positions of the handles in 3D space.
-
-Offset 
-   The handle positions are relative to the control point on the curve.
-   The handle inputs give the offset from the control points.
+Mode
+   :Position:
+      The handle inputs are the absolute positions of the handles in 3D space.
+   :Offset: 
+      The handle positions are relative to the control point on the curve.
+      The handle inputs give the offset from the control points.
 
 
 Outputs

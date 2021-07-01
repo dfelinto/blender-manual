@@ -6,7 +6,8 @@
 .. toctree::
    :maxdepth: 1
 
-   star.rst
-   spiral.rst
-   quadratic_bezier.rst
    bezier_segment.rst
+   circle.rst
+   quadratic_bezier.rst
+   spiral.rst
+   star.rst
