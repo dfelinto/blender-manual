@@ -13,7 +13,9 @@ BioVision Motion Capture (BVH)
 Usage
 =====
 
-.. todo:: |TODO|
+Used for import/export of .bvh or files with Biovision Hierarchical data
+or data of skeleton (rig) with the animation in it
+Useful for importing data from motion capture devices.
 
 
 Properties
@@ -23,7 +25,10 @@ Import
 ------
 
 Target
-   .. todo:: |TODO|
+   The motion capture data type.
+
+   :Armature: The bvh-file contains an animated rigged skeleton such as a walking motion capture.
+   :Object: The bvh-file contains a static (not animated) mesh object such as a character model.
 
 
 Transform
