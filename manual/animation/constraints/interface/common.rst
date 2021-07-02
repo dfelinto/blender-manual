@@ -94,12 +94,12 @@ Local Space
    and orientation of the bone itself. Only transformations applied to the object or bone itself
    are taken into account.
 
-Local with Parent (bones only)
+Local with Parent :guilabel:`Bones Only`
    The bone position and orientation is evaluated relative to its rest pose location and orientation,
    thus including both its own transformations and those caused by a possible parent relationship
    (i.e. the chain's transformations above the bone).
 
-Pose Space (bones only)
+Pose Space :guilabel:`Bones Only`
    The bone position and orientation is evaluated in the armature object local space
    (i.e. independently from the armature transformations in *Object Mode*).
    Hence, if the armature object has null transformations,
@@ -110,6 +110,20 @@ Custom Space
    an arbitrary object or bone that is specified via additional input fields that appear when this option is selected.
    This can be used to evaluate the constraint using an arbitrary coordinate system.
 
+Local Space (Owner Orientation) :guilabel:`Bone Targets Only`
+   This space works like *Local Space*, with an additional coordinate space transformation
+   that compensates for the difference in the rest pose orientations of the owner and target
+   bones. If applied as the *Local Space* of the owner, this will produce the same global
+   space movement as the target, provided parents are still at rest pose.
+
+   This option replaces the following setup with two additional bones:
+
+   1. An extra `child` bone of the `target`, rotated the same as `owner` in rest pose.
+   2. An extra `sibling` bone of the `target`, positioned same as `child` in rest pose and using
+      :doc:`Copy Transforms </animation/constraints/transform/copy_transforms>` in *World Space* from `child`.
+   3. The constraint uses *Local Space* of `sibling`.
+
+   .. TODO: add a demonstration video
 
 .. _bpy.types.constraint.influence:
 
