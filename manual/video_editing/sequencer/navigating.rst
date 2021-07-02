@@ -60,9 +60,9 @@ Range
    Clear Preview Range :kbd:`Alt-P`
       Clears preview range.
    Set Start Frame :kbd:`Ctrl-Home`
-      Set Start of animation range to current playhead position.
+      Set Start of animation range to the current frame.
    Set End Frame :kbd:`Ctrl-End`
-      Set End of animation range to current playhead position.
+      Set End of animation range to the current frame.
    Set Frame Range to Strips
       Sets the frame range of preview and render animation to the frame range of the selected strips.
 
@@ -187,10 +187,10 @@ Use these shortcuts to adjust the sequence area of the VSE:
 Playhead
 --------
 
-The playhead is the blue vertical line with the current frame number at the top.
+The Playhead is the blue vertical line with the current frame number at the top.
 It can be set or moved to a new position by pressing or holding :kbd:`LMB`
 in scrubbing area at the top of the timeline.
-You can move the playhead in increments by pressing :kbd:`Left` or :kbd:`Right`, or by using :kbd:`Alt-Wheel`.
+You can move the Playhead in increments by pressing :kbd:`Left` or :kbd:`Right`, or by using :kbd:`Alt-Wheel`.
 You can also jump to the beginning or end frame by pressing :kbd:`Shift-Left` or :kbd:`Shift-Right`.
 As you do, the image for that frame is displayed in the Preview region.
 

@@ -19,7 +19,7 @@ Move, Rotate, Scale
    moved, rotated, or scaled as described in
    :doc:`Basic Transformations </scene_layout/object/editing/transform/introduction>`.
 Extend
-   Moves keyframes relative to the Playhead.
+   Moves keyframes relative to the current frame.
    If the mouse is to the left of the Playhead,
    this operator only affects the selected keyframes that are to the left of the Playhead.
    On the contrary, if the mouse is to the right of the Playhead,
@@ -45,7 +45,7 @@ Snap
 Keyframes can be snapped to different properties by using the *Snap Keys* tool.
 
 Selection to Current Frame
-   Snap the selected keyframes to the *Playhead*.
+   Snap the selected keyframes to the current frame.
 Selection to Cursor Value
    Snap the selected keyframes to the *2D Cursor*.
 Selection to Nearest Frame
@@ -90,7 +90,7 @@ Mirror
 Selected keyframes can be mirrored over different properties using the *Mirror Keys* tool.
 
 By Times over Current Frame
-   Mirror horizontally over the playhead.
+   Mirror horizontally over the current frame.
 By Values over Cursor Value
    Mirror vertically over the 2D cursor.
 By Times over Time 0
@@ -202,12 +202,12 @@ Offset
    No Offset
       Pastes the keyframes in the location they were copied from.
    Frame Relative
-      Pastes the keyframe relative to the Playhead position based on the locations of
-      the keyframes relative to the Playhead when they were copied.
+      Pastes the keyframe relative to the current frame based on the locations of
+      the keyframes relative to the current frame when they were copied.
    Frame Start
-      Pastes the keyframes with the first keyframe of the copied set placed at the Playhead.
+      Pastes the keyframes with the first keyframe of the copied set placed at the current frame.
    Frame End
-      Pastes the keyframes with the last keyframe of the copied set placed at the Playhead.
+      Pastes the keyframes with the last keyframe of the copied set placed at the current frame.
 Type
    Mix
       Integrates the pasted keyframes in with existing keyframes only overwriting keyframes that share a frame.

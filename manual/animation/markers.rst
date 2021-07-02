@@ -253,7 +253,7 @@ Jump to Next/Previous Marker
    :Mode:      All modes
    :Menu:      :menuselection:`Marker --> Jump to Next/Previous Marker`
 
-Moves the playhead to the next/previous marker relative to the current playhead position.
+Moves the Playhead to the next/previous marker relative to the current frame.
 
 
 .. _bpy.ops.marker.camera_bind:

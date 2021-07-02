@@ -14,8 +14,8 @@
 Timeline
 ********
 
-The *Timeline* editor, identified by a clock icon, is used for manipulating keyframes and
-scrubbing the playhead.
+The *Timeline* editor, identified by a clock icon,
+is used for manipulating keyframes and scrubbing the Playhead.
 
 .. figure:: /images/editors_timeline_interface.png
 
@@ -133,7 +133,7 @@ Sync
 Audio
    Scrubbing
       If your animation has sound, this option plays bits of the sound wave
-      while you move the playhead with :kbd:`LMB` or keyboard arrows (like a moving playhead).
+      while you move the Playhead with :kbd:`LMB` or keyboard arrows.
    Mute
       Mute the sound from any audio source.
 

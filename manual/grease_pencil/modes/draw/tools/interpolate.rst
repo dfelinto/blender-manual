@@ -19,6 +19,6 @@ This way you define the final interpolation for the new stroke.
 Usage
 =====
 
-Set the playhead on the Timeline between the two keyframes you want to interpolate.
+Set the Playhead on the Timeline between the two keyframes you want to interpolate.
 Click and drag from left to right to set the desired interpolation percentage
 and release to confirm, a new breakdown keyframe will be added.
