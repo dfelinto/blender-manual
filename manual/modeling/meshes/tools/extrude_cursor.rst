@@ -52,11 +52,6 @@ But if you do not want Blender to rotate and smooth edges automatically when ext
 you can also inhibit Blender from rotating sources using the shortcut :kbd:`Shift-Ctrl-RMB`.
 In this case, Blender will not rotate the source dividing the angle between those edges when creating a face.
 
-For both cases, Blender will inform the user about the source rotation during the creation process.
-If you look at the :ref:`bpy.ops.screen.redo_last` panel and press :kbd:`Ctrl-RMB`,
-you will see that the *Rotate Source* is automatically checked and if :kbd:`Shift-Ctrl-RMB` is used,
-it will be automatically unchecked.
-
 If you have three or more vertices selected, and :kbd:`Ctrl-RMB` click,
 you will also create planar faces, but along the vertices selected, following the direction of the cursor.
 This operation is similar to an extrude operation.
