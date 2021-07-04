@@ -123,7 +123,9 @@ Local Space (Owner Orientation) :guilabel:`Bone Targets Only`
       :doc:`Copy Transforms </animation/constraints/transform/copy_transforms>` in *World Space* from `child`.
    3. The constraint uses *Local Space* of `sibling`.
 
-   .. TODO: add a demonstration video
+   This video demonstrates the difference from ordinary *Local Space*:
+
+   .. youtube:: UtqZXs7u2Zw
 
 .. _bpy.types.constraint.influence:
 

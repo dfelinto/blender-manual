@@ -56,8 +56,6 @@ Mix
       Unlike *Aligned*, in this mode location channels are simply added together, so rotation
       and scale components of the input transformations cannot affect the resulting location.
 
-   .. TODO: add video comparing mix modes
-
 Target/Owner
    Standard conversion between spaces.
    See :ref:`common constraint properties <rigging-constraints-interface-common-space>` for more information.
@@ -69,5 +67,11 @@ Influence
 
 Example
 =======
+
+This video shows the difference between the mix modes. The right input is mixed after the left one:
+
+.. youtube:: b3XqJnVUp8I
+
+A general demonstration of the constraint:
 
 .. vimeo:: 171108888
