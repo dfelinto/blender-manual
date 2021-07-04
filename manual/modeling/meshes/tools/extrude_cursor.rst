@@ -42,7 +42,7 @@ If you have two vertices selected and already connected with an edge, :kbd:`Ctrl
 will create a planar face, also known as a quad. Blender will follow your mouse cursor
 and will use the planar view from your viewport to create those quads.
 
-For :kbd:`Ctrl-LMB`, Blender will automatically rotate the last selected Edge (the source)
+For :kbd:`Ctrl-RMB`, Blender will automatically rotate the last selected Edge (the source)
 for the subsequent operations if you have at least one face created, dividing the angles created between
 the newly created edge and the last two edges, creating a smooth angle between them. Blender will calculate
 this angle using the last positive and negative position of the last X and Y coordinates
