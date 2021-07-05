@@ -17,7 +17,7 @@ Viewport Display
 .. _bpy.types.Armature.display_type:
 
 Display As
-   This controls the way the bones appear in the 3D Viewport; you have four different visualizations you can select.
+   This controls the way the bones appear in the 3D Viewport.
 
    .. list-table::
 
