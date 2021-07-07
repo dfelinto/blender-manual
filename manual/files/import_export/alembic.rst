@@ -110,10 +110,15 @@ Custom Properties
 Only
    Selected Objects
       When enabled, exports only the selected objects. When disabled, all objects are exported.
-   Renderable Objects
-      This is useful to, for example, avoid exporting custom bone shapes.
    Visible Objects
       Limits the export to scene collections that are currently visible.
+
+Use Settings for
+   Determines visibility of objects, modifier settings,
+   and other areas where there are different settings for viewport and rendering.
+
+   :Render: Use Render settings for object visibility, modifier settings, etc.
+   :Viewport: Use Viewport settings for object visibility, modifier settings, etc.
 
 
 Object Options
