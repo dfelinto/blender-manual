@@ -24,7 +24,7 @@ Sequencer
    View timeline and strip properties.
 Preview
    View preview window and preview properties.
-Sequencer/Preview
+Sequencer & Preview
    Combined view of preview and timeline and properties of both.
 
 It is possible to create multiple instances of any view type in single workspace.
