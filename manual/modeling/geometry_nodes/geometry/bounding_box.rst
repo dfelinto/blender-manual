@@ -30,7 +30,7 @@ This node has no properties.
 Outputs
 =======
 
-Geometry
+Bounding Box
    The resulting box or cube to encapsulate the input geometry.
 
 Min
