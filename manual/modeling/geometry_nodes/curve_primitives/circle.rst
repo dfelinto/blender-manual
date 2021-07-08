@@ -1,16 +1,16 @@
-.. index:: Geometry Nodes; Circle
+.. index:: Geometry Nodes; Curve Circle
 .. _bpy.types.GeometryNodeCurveCircle:
 
-*******
-Circle
-*******
+************
+Curve Circle
+************
 
 .. figure:: /images/modeling_geometry-nodes_curve-primitives_circle_node.png
    :align: right
 
    Circle Node.
 
-The *Circle* node generates a poly spline circle.
+The *Curve Circle* node generates a poly spline circle.
 
 
 Inputs
@@ -52,4 +52,3 @@ Curve
 
 Center
    The center of the circle defined by the three points.
-

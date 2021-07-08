@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Bezier Segment
 .. _bpy.types.GeometryNodeCurvePrimitiveBezierSegment:
 
-****************
+**************
 Bezier Segment
-****************
+**************
 
 .. figure:: /images/modeling_geometry-nodes_curve-primitives_bezier-segment_node.png
    :align: right

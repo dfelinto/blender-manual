@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Spiral
 .. _bpy.types.GeometryNodeCurveSpiral:
 
-*******
-Spiral
-*******
+************
+Curve Spiral
+************
 
 .. figure:: /images/modeling_geometry-nodes_curve-primitives_spiral_node.png
    :align: right

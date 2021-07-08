@@ -1,16 +1,16 @@
-.. index:: Geometry Nodes; Subdivide
-.. _bpy.types.GeometryNodeSubdivide:
+.. index:: Geometry Nodes; Mesh Subdivide
+.. _bpy.types.GeometryNodeMeshSubdivide:
 
-*********
-Subdivide
-*********
+**************
+Mesh Subdivide
+**************
 
 .. figure:: /images/modeling_geometry-nodes_mesh_subdivide_node.png
    :align: right
 
-   Subdivide Node.
+   Mesh Subdivide Node.
 
-The *Subdivide* node adds new faces to mesh geometry using a simple interpolation for deformation.
+The *Mesh Subdivide* node adds new faces to mesh geometry using a simple interpolation for deformation.
 
 
 Inputs

@@ -1,16 +1,16 @@
-.. index:: Geometry Nodes; Line
+.. index:: Geometry Nodes; Mesh Line
 .. _bpy.types.GeometryNodeMeshLine:
 
-****
-Line
-****
+*********
+Mesh Line
+*********
 
 .. figure:: /images/modeling_geometry-nodes_mesh-primitives_line_node.png
    :align: right
 
-   Line Node.
+   Mesh Line Node.
 
-The *Line* node generates vertices in a line and connects them with edges.
+The *Mesh Line* node generates vertices in a line and connects them with edges.
 
 
 Inputs

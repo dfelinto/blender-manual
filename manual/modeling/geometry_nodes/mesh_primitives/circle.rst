@@ -1,16 +1,16 @@
-.. index:: Geometry Nodes; Circle
+.. index:: Geometry Nodes; Mesh Circle
 .. _bpy.types.GeometryNodeMeshCircle:
 
-******
-Circle
-******
+***********
+Mesh Circle
+***********
 
 .. figure:: /images/modeling_geometry-nodes_mesh-primitives_circle_node.png
    :align: right
 
-   Circle Node.
+   Mesh Circle Node.
 
-The *Circle* node generates a circular ring of edges that is optionally filled with faces.
+The *Mesh Circle* node generates a circular ring of edges that is optionally filled with faces.
 
 
 Inputs

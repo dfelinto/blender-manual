@@ -10,7 +10,7 @@ Mesh to Curve
 
    The Mesh to Curve node.
 
-The *Curve to Mesh* node converts all or a selection of edges to splines.
+The *Mesh to Curve* node converts all or a selection of edges to splines.
 Vertices connected to exactly two edges will join the splines corresponding to both edges.
 Vertices connected one or more than two edges become end points of splines.
 Circular splines are supported as well.
