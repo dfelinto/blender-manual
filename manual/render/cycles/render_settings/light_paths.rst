@@ -87,16 +87,17 @@ Diffuse
    Maximum number of diffuse bounces.
 Glossy
    Maximum number of glossy bounces.
-Transparency
-   Maximum number of transparency bounces.
-
-   The maximum number of transparent bounces is controlled separately from other bounces.
-   It is also possible to use probabilistic termination of transparent bounces,
-   which might help rendering many layers of transparency.
 Transmission
    Maximum number of transmission bounces.
 Volume
    Maximum number of volume scattering bounces.
+
+Transparent
+   Maximum number of transparency bounces.
+
+   Note, the maximum number of transparent bounces is controlled separately from other bounces.
+   It is also possible to use probabilistic termination of transparent bounces,
+   which might help rendering many layers of transparency.
 
 
 .. _render-cycles-integrator-clamp-samples:
