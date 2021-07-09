@@ -32,14 +32,6 @@ Render Undistorted
    Applies the *Lens Distortion* settings to the viewport image in order to display the footage undistorted.
    It is only a preview option, which does not actually change the footage itself.
 
-.. _bpy.types.SpaceClipEditor.lock_selection:
-
-Lock to Selection :kbd:`L`
-   Makes the editor display selected tracks at the same screen position
-   along the whole footage during playback or tracking.
-   This option helps to control the tracking process and
-   stop it when the track is starting to slide off or when it jumped.
-
 .. _bpy.types.SpaceClipEditor.show_stable:
 
 Show Stable

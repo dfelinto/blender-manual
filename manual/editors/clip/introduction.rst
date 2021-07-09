@@ -37,5 +37,14 @@ Clip
 Pivot Point
    See :doc:`Pivot Points </editors/3dview/controls/pivot_point/index>`.
 
+.. _bpy.types.SpaceClipEditor.lock_selection:
+.. _bpy.ops.clip.lock_selection_toggle:
+
+Toggle Lock Selection :kbd:`L`
+   Makes the editor display selected tracks at the same screen position
+   along the whole footage during playback or tracking.
+   This option helps to control the tracking process and
+   stop it when the track is starting to slide off or when it jumped.
+
 Clip Display
    See :doc:`/editors/clip/display/clip_display`.
