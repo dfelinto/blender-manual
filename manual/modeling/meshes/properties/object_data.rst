@@ -53,6 +53,14 @@ Face Maps are currently not fully implemented in Blender and require add-ons to 
 
    `Auto Face Map Widgets add-on <https://developer.blender.org/diffusion/BAC/browse/master/object_facemap_auto/>`__
 
+Attributes
+==========
+
+An attribute is a generic data layer that is attached to the geometry.
+Every attribute has a data type, domain and name.
+This panel only lists generic attributes. That excludes all the built-in attributes like ``position`` and other attributes like vertex groups.
+
+See :doc:`Attributes Reference </modeling/geometry_nodes/attributes_reference>` for more information.
 
 Normals
 =======
