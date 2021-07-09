@@ -8,6 +8,7 @@
 
    bezier_segment.rst
    circle.rst
+   line.rst
    quadratic_bezier.rst
    spiral.rst
    star.rst
