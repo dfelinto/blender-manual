@@ -44,9 +44,9 @@ and work on other things (be careful with the RAM space!).
 The Direct Approach, which is highly **not** recommended and not a standard practice,
 is where you set your output format to an AVI or MOV format,
 and click *Animation* to render your scene directly out to a movie file.
-Blender creates one file that holds all the frames of your animation. You can then use
-Blender's VSE to add an audio track to the animation and render out to an MPEG format to
-complete your movie.
+Blender creates one file that holds all the frames of your animation.
+You can then use Blender's :doc:`Video Sequencer </editors/sequencer>`
+to add an audio track to the animation and render out to an MPEG format to complete your movie.
 
 
 .. rubric:: Frame Sequence
@@ -58,7 +58,7 @@ where each image is a frame in the sequence.
 
 Blender creates a file for each frame of the animation.
 You can then use Blender's Compositor to perform any frame manipulation (post-processing).
-You can then use Blender's VSE to load that final image sequence,
+You can then use Blender's :doc:`Video Sequencer </editors/sequencer>` to load that final image sequence,
 add an audio track to the animation, and render out to an MPEG format to complete your movie.
 The Frame Sequence approach is a little more complicated and takes more drive space,
 but gives you more flexibility.
@@ -101,11 +101,11 @@ Frame Sequence Workflow
 #. Press the *Animation* button and once the animation is finished,
    use your file manager to navigate to the output folder (``render`` in this example).
    You will see lots of images that have a sequence number attached to. These are the single frames.
-#. In Blender, open the :doc:`Video Sequence editor </video_editing/index>`.
+#. In Blender, open the :doc:`Video Sequencer </video_editing/index>`.
 
    .. note::
 
-      The :doc:`VSE </video_editing/index>` does not support multi-layer EXR files.
+      The Video Sequencer does not support multi-layer EXR files.
       To render to a video format you will have to skip the next three steps and
       instead use an :doc:`Image Input node </compositing/types/input/image>`
       in the :doc:`Compositor </compositing/types/input/image>`.

@@ -4,7 +4,7 @@
 Sound Strip
 ***********
 
-As well as images and movies the VSE can also edit audio tracks.
+As well as images and movies the Video Sequencer can also edit audio tracks.
 You can add Waveform Audio format ``WAV``, ``mp3`` and other audio formats files from your drive,
 or from sound encoded within a movie, and mix them using an F-curve as a volume control.
 
@@ -16,7 +16,7 @@ or from sound encoded within a movie, and mix them using an F-curve as a volume 
 Working with Audio Tracks
 =========================
 
-A sound strip is just like any other strip in the VSE. You can select and move it,
+A sound strip is just like any other strip in the Video Sequencer. You can select and move it,
 adjust its starting offset using :kbd:`LMB` over the strip handles,
 and :kbd:`K` cut it into pieces.
 A useful example is cutting out the "um's" and dead voice time.

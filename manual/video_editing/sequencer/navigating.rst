@@ -173,7 +173,7 @@ Main View
 Adjusting the View
 ------------------
 
-Use these shortcuts to adjust the sequence area of the VSE:
+Use these shortcuts to adjust the sequence area of the editor:
 
 - Pan: :kbd:`MMB`
 - Zoom: :kbd:`Wheel`
