@@ -28,6 +28,7 @@ Node Types
    material/index.rst
    mesh/index.rst
    mesh_primitives/index.rst
+   output/index.rst
    point/index.rst
    utilities/index.rst
    vector/index.rst

@@ -25,6 +25,7 @@ Radius
 Point 1, Point 2, Point 3
    The three points on the circle.
    The order of the points determines the direction (clockwise or counterclockwise) of the circle.
+
 .. note::
    Because of the finite resolution, the three points do not necessarily lie on the generated curve.
 
