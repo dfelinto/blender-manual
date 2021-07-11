@@ -20,9 +20,9 @@ Target
    See :ref:`common constraint properties <rigging-constraints-interface-common-target>` for more information.
 
 Remove Target Shear
-   Removes shearing from the target transformation after the target space conversion, ensuring it consists purely
-   of translation, rotation and scale. Note that :doc:`Copy Rotation </animation/constraints/transform/copy_rotation>`
-   always does this.
+   Removes shearing from the target transformation after the target space conversion,
+   ensuring it consists purely of translation, rotation and scale.
+   Note that :doc:`Copy Rotation </animation/constraints/transform/copy_rotation>` always does this.
 
 Mix
    Specifies how the copied transformation is combined with the existing transformation.

@@ -90,11 +90,11 @@ Info
    Names and status for selected tracks are displayed.
 
 3D Markers
-   Makes sense after solving the movie clip,
-   and it works in the following way: the solved position of each track gets
-   projected back to the movie clip and displayed as a small point. The color of the point depends on the distance
-   between the projected coordinate and the original coordinate: if they are close enough, the point is green,
-   otherwise it will be red. This helps to find tracks which were not solved nicely and need to be tweaked.
+   Shows the markers after solving the movie clip, Therefor the solved position of each track is
+   projected back to the movie clip and displayed as a small point.
+   The color of the point depends on the distance between the projected coordinate and
+   the original coordinate: if they are close enough, the point is green, otherwise it will be red.
+   This helps to find tracks which were not solved nicely and need to be tweaked.
 
 Display Thin
    The way in which markers are displayed compact (black outline and yellow foreground color)

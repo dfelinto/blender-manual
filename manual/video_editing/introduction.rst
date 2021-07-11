@@ -3,7 +3,7 @@
 Introduction
 ************
 
-In addition to modeling and animation, Blender can be used to edit video.
+In addition to modeling and animation, Blender can be used to edit videos.
 There are two possible methods for this, one being the :doc:`Compositor </compositing/introduction>`
 and the other, described in this chapter, being the Video Sequencer.
 The Video Sequencer within Blender is a complete video editing system that allows you to combine multiple

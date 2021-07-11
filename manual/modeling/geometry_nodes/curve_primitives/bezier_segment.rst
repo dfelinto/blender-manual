@@ -1,16 +1,16 @@
-.. index:: Geometry Nodes; Bezier Segment
+.. index:: Geometry Nodes; Bézier Segment
 .. _bpy.types.GeometryNodeCurvePrimitiveBezierSegment:
 
 **************
-Bezier Segment
+Bézier Segment
 **************
 
 .. figure:: /images/modeling_geometry-nodes_curve-primitives_bezier-segment_node.png
    :align: right
 
-   Bezier Segment Node.
+   Bézier Segment Node.
 
-The *Bezier Segment* node generates a 2D bezier spline from the given control points and handles.
+The *Bézier Segment* node generates a 2D Bézier spline from the given control points and handles.
 
 
 Inputs
@@ -24,7 +24,6 @@ Start, End
 
 Start Handle, End Handle
    Positions of the handles used to define the shape of the curve. 
-
 
 
 Properties
@@ -42,4 +41,4 @@ Outputs
 =======
 
 Curve
-   Bezier spline generated from the inputs.
+   Bézier spline generated from the inputs.

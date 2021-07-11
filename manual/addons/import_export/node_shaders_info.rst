@@ -12,10 +12,8 @@ Especially for exporting from Blender materials, the node system must follow som
 
 .. note::
 
-   Currently, only the
-   :doc:`OBJ </addons/import_export/scene_obj>` and
-   :doc:`FBX </addons/import_export/scene_fbx>`
-   IO add-ons uses that method.
+   Currently, only the :doc:`OBJ </addons/import_export/scene_obj>` and
+   :doc:`FBX </addons/import_export/scene_fbx>` IO add-ons uses that method.
 
 .. tip::
 

@@ -1,16 +1,16 @@
-.. index:: Geometry Nodes; Quadratic Bezier
+.. index:: Geometry Nodes; Quadratic Bézier
 .. _bpy.types.GeometryNodeCurveQuadraticBezier:
 
 ****************
-Quadratic Bezier
+Quadratic Bézier
 ****************
 
 .. figure:: /images/modeling_geometry-nodes_curve-primitives_quadratic-bezier_node.png
    :align: right
 
-   Quadratic Bezier Node.
+   Quadratic Bézier Node.
 
-The *Quadratic Bezier* node generates a poly spline curve from the given control points.
+The *Quadratic Bézier* node generates a poly spline curve from the given control points.
 The generated shape is a parabola.
 
 
@@ -24,7 +24,6 @@ Start, Middle, End
    Positions of the three control points.
    The generated curve passes through the two end points, and is tangent to the lines between
    the middle point and the two end points.
-
 
 
 Properties

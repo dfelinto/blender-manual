@@ -19,8 +19,8 @@ but also computationally more expensive pressure solving step.
 Even when there are no guiding objects baked or there is no guiding domain attached,
 the fluid solver will still perform the more expensive pressure guiding algorithm
 if guiding is enabled. It is
-therefore recommended to only enable *Guides* when there is a clear intention to use guiding in the
-simulation.
+therefore recommended to only enable *Guides* when there is a clear intention to
+use guiding in the simulation.
 
 .. seealso::
 

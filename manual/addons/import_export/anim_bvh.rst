@@ -9,12 +9,8 @@ BioVision Motion Capture (BVH)
    :Category:  Import-Export
    :Menu:      :menuselection:`File --> Import/Export --> Motion Capture (.bvh)`
 
-
-Usage
-=====
-
-Used for import/export of .bvh or files with Biovision Hierarchical data
-or data of skeleton (rig) with the animation in it
+Imports or exports bvh-files or files with BioVision Hierarchical data
+or data of a skeleton (rig) including its animation.
 Useful for importing data from motion capture devices.
 
 

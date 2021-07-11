@@ -81,7 +81,7 @@ Disk Cache
    .. note::
 
       When using :doc:`/files/linked_libraries/library_overrides`,
-      data-blocks only support *Disk Cache* storage
+      data-blocks only support *Disk Cache* storage.
 
 Use Library Path
    Share the disk cache when the physics object is

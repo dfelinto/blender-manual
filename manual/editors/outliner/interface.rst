@@ -90,7 +90,7 @@ Case Sensitive
 
 All View Layers
    Toggle between only the active or all the :doc:`view layers </scene_layout/view_layers/index>` of the scene.
-   Combined with disabling the Objects filter it gives a compact overview of all the collections in relation
+   Combined with disabling the *Objects* filter it gives a compact overview of all the collections in relation
    to the view layers.
 
 .. _bpy.types.SpaceOutliner.use_filter_collection:

@@ -112,7 +112,7 @@ using one for display and the other(s) for rendering.
 Why does a scene that renders on the CPU not render on the GPU?
 ---------------------------------------------------------------
 
-There maybe be multiple causes,
+There may be multiple causes,
 but the most common one is that there is not enough memory on your graphics card.
 Typically, the GPU can only use the amount of memory that is on the GPU
 (see `Would multiple GPUs increase available memory?`_ for more information).

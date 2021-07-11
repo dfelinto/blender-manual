@@ -78,10 +78,9 @@ Shader
       the main component. This node group is essentially a mix between a Diffuse
       and an Emission shader controlled by a Light Path node.
    Emit
-      Creates a new material for the plane with an
-      :doc:`Emission shader </render/shader_nodes/shader/emission>`
-      node as the main component. The base color of the node comes from
-      an Image Texture node that is linked to the imported image.
+      Creates a new material for the plane with
+      an :doc:`Emission shader </render/shader_nodes/shader/emission>` node as the main component.
+      The base color of the node comes from an Image Texture node that is linked to the imported image.
       The strength can be set.
 
 Override Material

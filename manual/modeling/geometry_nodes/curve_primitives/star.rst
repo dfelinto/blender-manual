@@ -1,18 +1,18 @@
 .. index:: Geometry Nodes; Star
 .. _bpy.types.GeometryNodeCurveStar:
 
-******
+****
 Star
-******
+****
 
 .. figure:: /images/modeling_geometry-nodes_curve-primitives_star_node.png
    :align: right
 
    Star Node.
 
-The *Star* node generates a poly spline in a star pattern by connecting alternating points of two circles. 
-The points on the inner circle are offset by a rotation so that they lie in between the points on the outer
-circle. This offset can be changed with the twist input.
+The *Star* node generates a poly spline in a star pattern by connecting alternating points of two circles.
+The points on the inner circle are offset by a rotation so that they lie in between the points on the outer circle.
+This offset can be changed with the twist input.
 
 
 Inputs

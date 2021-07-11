@@ -32,7 +32,7 @@ Height
    Height of the spiral.
 
 Reverse
-   Boolean value that changes the direction from clockwise to counterclockwise when turned on.
+   Boolean value that changes the direction from clockwise to counterclockwise when it is enabled.
 
 
 Properties

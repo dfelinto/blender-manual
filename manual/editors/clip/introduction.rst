@@ -41,7 +41,7 @@ Pivot Point
 .. _bpy.ops.clip.lock_selection_toggle:
 
 Toggle Lock Selection :kbd:`L`
-   Makes the editor display selected tracks at the same screen position
+   Display selected tracks at the same screen position
    along the whole footage during playback or tracking.
    This option helps to control the tracking process and
    stop it when the track is starting to slide off or when it jumped.

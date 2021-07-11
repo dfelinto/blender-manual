@@ -106,26 +106,29 @@ Pose Space :guilabel:`Bones Only`
    *Pose Space* will have the same effect as *World Space*.
 
 Custom Space
-   The position and orientation is evaluated relative to the current position and orientation of
-   an arbitrary object or bone that is specified via additional input fields that appear when this option is selected.
+   The position and orientation is evaluated relative to the current position and
+   orientation of an arbitrary object or bone that is specified via additional input fields
+   that appear when this option is selected.
    This can be used to evaluate the constraint using an arbitrary coordinate system.
 
 Local Space (Owner Orientation) :guilabel:`Bone Targets Only`
    This space works like *Local Space*, with an additional coordinate space transformation
-   that compensates for the difference in the rest pose orientations of the owner and target
-   bones. If applied as the *Local Space* of the owner, this will produce the same global
-   space movement as the target, provided parents are still at rest pose.
+   that compensates for the difference in the rest pose orientations of the owner and target bones.
+   If applied as the *Local Space* of the owner, this will produce the same global space movement as
+   the target, provided parents are still at rest pose.
 
    This option replaces the following setup with two additional bones:
 
-   1. An extra `child` bone of the `target`, rotated the same as `owner` in rest pose.
-   2. An extra `sibling` bone of the `target`, positioned same as `child` in rest pose and using
-      :doc:`Copy Transforms </animation/constraints/transform/copy_transforms>` in *World Space* from `child`.
-   3. The constraint uses *Local Space* of `sibling`.
+   #. An extra child bone of the target, rotated the same as its owner bone in rest pose.
+   #. An extra sibling bone of the target, positioned same as the child in rest pose
+      and using :doc:`Copy Transforms </animation/constraints/transform/copy_transforms>`
+      in *World Space* from the child.
+   #. The constraint uses *Local Space* of the sibling.
 
    This video demonstrates the difference from ordinary *Local Space*:
 
    .. youtube:: UtqZXs7u2Zw
+
 
 .. _bpy.types.constraint.influence:
 

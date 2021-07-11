@@ -10,8 +10,8 @@ Float To Integer
 
    Float To Integer Node.
 
-The *Float To Integer* node takes a single floating point number input and converts it to an 
-integer with a choice of methods.
+The *Float To Integer* node takes a single floating point number input and converts it to
+an integer with a choice of methods.
 
 
 Inputs
@@ -25,11 +25,11 @@ Properties
 ==========
 
 Rounding Mode
-   :Round: Returns the closest integer to Float, rounding either up or down based on the value.
-   :Floor: Returns the closest integer less than Float, always rounding down.
-   :Ceiling: Returns the closest integer greater than Float, always rounding up.
-   :Truncate: Returns the closest integer between Float and zero.  For positive numbers, acts like Floor.
-              For negative numbers, acts as Ceiling. 
+   :Round: Outputs the closest integer to Float, rounding either up or down based on the value.
+   :Floor: Outputs the closest integer less than Float, always rounding down.
+   :Ceiling: Outputs the closest integer greater than Float, always rounding up.
+   :Truncate: Outputs the closest integer between Float and zero. For positive numbers, acts like Floor.
+              For negative numbers, acts as Ceiling.
 
 
 Output
@@ -37,6 +37,7 @@ Output
 
 Result
    Standard integer output.
+
 
 Examples
 ========

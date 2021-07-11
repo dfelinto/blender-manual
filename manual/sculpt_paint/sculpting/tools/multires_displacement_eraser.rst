@@ -9,8 +9,8 @@ Multires Displacement Eraser
    :Mode:      Sculpt Mode
    :Tool:      :menuselection:`Toolbar --> Multires Displacement Erase`
 
-This brush deletes displacement information of the
-:doc:`Multires Modifier </modeling/modifiers/generate/multiresolution>`,
+This brush deletes displacement information of
+the :doc:`Multires Modifier </modeling/modifiers/generate/multiresolution>`,
 resetting the mesh to the subdivision limit surface.
 
 This can be used to delete parts of the sculpt or to fix reprojection artifacts

@@ -5,17 +5,29 @@
 Viewer
 ******
 
-
 .. figure:: /images/modeling_geometry-nodes_output_viewer_node.png
    :align: center
 
    The Viewer node.
 
-Using a *Viewer* node a geometry can be displayed in the spreadsheet.
-A node can be plugged into a viewer node by pressing :kbd:`Shift-Ctrl-LMB` on it, just like in the compositor.
+Using a *Viewer* node a geometry can be displayed in the Spreadsheet.
+A node can be plugged into a viewer node by pressing :kbd:`Shift-Ctrl-LMB` on it, just like in the Compositor.
+
 
 Inputs
 ======
 
 Geometry
-   Geometry that will be displayed in the spreadsheet.
+   Geometry that will be displayed in the Spreadsheet.
+
+
+Properties
+==========
+
+This node has no properties.
+
+
+Outputs
+=======
+
+This node has no outputs.

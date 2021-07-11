@@ -113,7 +113,7 @@ Only
    Visible Objects
       Limits the export to scene collections that are currently visible.
 
-Use Settings for
+Use Settings For
    Determines visibility of objects, modifier settings,
    and other areas where there are different settings for viewport and rendering.
 
