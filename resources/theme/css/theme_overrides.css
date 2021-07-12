@@ -27,12 +27,7 @@ input[type="number"], input[type="tel"], input[type="color"] {
 
 /* Boxed paragraphs. */
 .rst-content .refbox .admonition-title {background-color: #bbb}
-.rst-content .refbox {
-	-webkit-font-smoothing: antialiased;
-	background-color: #e3e3e3;
-	line-height: 24px;
-	margin-bottom: 24px; padding: 12px;
-}
+.rst-content .refbox {background-color: #e3e3e3}
 .rst-content .seealso .admonition-title {background-color: #7a87e6}
 .rst-content .seealso {background-color: #e7ebfa}
 .rst-content .important .admonition-title {background-color: #ddca3b}
