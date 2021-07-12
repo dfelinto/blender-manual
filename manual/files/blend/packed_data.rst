@@ -26,8 +26,7 @@ Pack Data
 Pack Resources
 --------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`File --> External Data --> Pack Resources`
 
@@ -40,8 +39,7 @@ Actual packing will happen on the next save of the blend-file.
 Automatically Pack Resources
 ----------------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`File --> External Data --> Automatically Pack Resources`
 
@@ -67,8 +65,7 @@ Unpack Data
 Unpack Resources
 ----------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`File --> External Data --> Unpack Resources`
 
@@ -123,8 +120,7 @@ Create <original file path>
 Pack Linked Libraries
 =====================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`File --> External Data --> Pack Linked Libraries`
 
@@ -137,8 +133,7 @@ Actual packing will happen on the next save of the blend-file.
 Unpack Linked Libraries
 =======================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`File --> External Data --> Unpack Linked Libraries`
 

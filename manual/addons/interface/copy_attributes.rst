@@ -134,8 +134,7 @@ The result should look exactly the same even if the bone's numbers do not match.
 Constraints on the selected bones may prevent this from working (or drivers for that matter):
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Interface
    :Description: Copy Attributes Menu.

@@ -9,8 +9,7 @@ Search
 Menu Search
 ===========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Edit --> Menu Search`
@@ -38,8 +37,7 @@ navigate with :kbd:`Down` and :kbd:`Up`, run the tool by pressing :kbd:`Return`.
 Operator Search
 ===============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Edit --> Operator Search`

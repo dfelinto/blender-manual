@@ -9,8 +9,7 @@ This page covers the basics of curve editing.
 Transform
 =========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Transform`
@@ -35,8 +34,7 @@ Move/Scale Texture Space
 Radius
 ------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Tool:      :menuselection:`Toolbar --> Radius`
@@ -57,8 +55,7 @@ The *Radius* of the points is set using the *Radius* transform tool. Or in the S
 Mirror
 ======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Mirror`
@@ -71,8 +68,7 @@ The *Mirror* tool is also available, behaving exactly as with
 Snap
 ====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Snap`
@@ -88,8 +84,7 @@ Snapping works with 2D curves but points will be constrained to the local XY axe
 Spin
 ====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Spin`
@@ -104,8 +99,7 @@ the full feature is documented in :ref:`Surface editing <bpy.ops.curve.spin>`.
 Add Duplicate
 =============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Add Duplicate`
@@ -122,8 +116,7 @@ The copy is selected and placed in select mode, so you can move it to another pl
 Split
 =====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Split`
@@ -140,8 +133,7 @@ leaving the previously selected control point attached to the rest of the curve.
 Separate
 ========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Separate`
@@ -159,8 +151,7 @@ Note, if there is only one curve in a Curve object,
 Toggle Cyclic
 =============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Toggle Cyclic`
@@ -192,8 +183,7 @@ Remember that when a 2D curve is closed, it creates a renderable flat face.
 Set Spline Type
 ===============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Set Spline Type`
@@ -215,8 +205,7 @@ each group of three NURBS control points become a unique Bézier one (center poi
 Show/Hide
 =========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Show/Hide`
@@ -239,8 +228,7 @@ Cleanup
 Decimate Curve
 --------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Clean Up --> Decimate Curve`
@@ -263,8 +251,7 @@ Ratio
 Delete
 ======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Delete...`

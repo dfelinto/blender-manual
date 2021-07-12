@@ -33,8 +33,7 @@ Instructions
 #. Paste the name into the text editor of choice to use it in your add-on.
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Development
    :Description: Click an icon to copy its name to the clipboard.

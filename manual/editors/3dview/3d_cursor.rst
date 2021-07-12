@@ -45,8 +45,7 @@ in the :doc:`Preferences </editors/preferences/editing>`.
 3D Cursor Panel
 ---------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Panel:     :menuselection:`Sidebar region --> View --> 3D Cursor`

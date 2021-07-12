@@ -5,8 +5,7 @@
 Blend from Shape
 ****************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Vertex --> Blend from Shape`

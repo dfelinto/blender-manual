@@ -22,8 +22,7 @@ Todo.
 Duplicate
 =========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Edit --> Duplicate`
    :Shortcut:  :kbd:`Shift-D`
@@ -34,8 +33,7 @@ Creates a new instance of the selected strips with a copy of the action.
 Linked Duplicate
 ================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Edit --> Linked Duplicate`
    :Shortcut:  :kbd:`Alt-D`
@@ -114,8 +112,7 @@ Todo.
 Make Single User
 ================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Edit --> Make Single User`
    :Shortcut:  :kbd:`U`
@@ -162,8 +159,7 @@ Todo.
 Remove Empty Animation Data
 ===========================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Edit --> Remove Empty Animation Data`
 
@@ -183,8 +179,7 @@ and is particularly distracting in the NLA Editor.
 Start Editing Stashed Action
 ============================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Edit --> Start Editing Stashed Action`
    :Shortcut:  :kbd:`Shift-Tab`
@@ -197,8 +192,7 @@ This is useful for editing stashed actions, without the rest of the NLA Stack in
 Start Tweaking Strips Action
 ============================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Edit --> Start Tweaking Strips Action`
    :Shortcut:  :kbd:`Tab`

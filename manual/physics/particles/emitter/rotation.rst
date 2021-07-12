@@ -4,8 +4,7 @@
 Rotation
 ********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Particle System --> Rotation`
 
@@ -55,8 +54,7 @@ Dynamic
 Angular Velocity
 ================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Particle System --> Rotation --> Angular Velocity`
 

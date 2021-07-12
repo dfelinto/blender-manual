@@ -4,8 +4,7 @@
 Drawing Planes
 **************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Draw Mode and Sculpt Mode
    :Header:    :menuselection:`Drawing Planes`

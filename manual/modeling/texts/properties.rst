@@ -6,8 +6,7 @@ Properties
 Shape
 =====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Panel:     :menuselection:`Properties --> Text --> Shape`
@@ -31,8 +30,7 @@ See :ref:`Generated UV Properties <properties-texture-space>` for more informati
 Geometry
 ========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Panel:     :menuselection:`Properties --> Font --> Geometry`
@@ -66,8 +64,7 @@ please refer to those for details.
 Font
 ====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Panel:     :menuselection:`Properties --> Font --> Font`
@@ -186,8 +183,7 @@ Small Caps Scale
 Paragraph
 =========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All
    :Panel:     :menuselection:`Properties --> Font --> Paragraph`
@@ -271,8 +267,7 @@ Offset X, Y
 Text Boxes
 ==========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All
    :Panel:     :menuselection:`Properties --> Font --> Text Boxes`

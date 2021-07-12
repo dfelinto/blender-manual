@@ -8,8 +8,7 @@ Navigation
 Orbit
 =====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All modes
    :Menu:      :menuselection:`View --> Navigation --> Orbit`
@@ -43,8 +42,7 @@ you can press and hold :kbd:`Alt` while dragging :kbd:`LMB` in the viewport's ar
 Roll
 ====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All modes
    :Menu:      :menuselection:`View --> Navigation --> Roll`
@@ -58,8 +56,7 @@ Rotate the viewport camera around its local Z axis in 15° discrete steps.
 Pan
 ===
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All modes
    :Menu:      :menuselection:`View --> Navigation --> Pan`
@@ -81,8 +78,7 @@ If your input device has no middle button, you can hold :kbd:`Shift-Alt` while d
 Zoom In/Out
 ===========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All modes
    :Menu:      :menuselection:`View --> Navigation --> Zoom In/Out`
@@ -106,8 +102,7 @@ If you have a wheel mouse, you can zoom by rotating the :kbd:`Wheel`.
 Zoom Region
 ===========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All modes
    :Menu:      :menuselection:`View --> Navigation --> Zoom Region...`
@@ -127,8 +122,7 @@ Alternatively you can zoom out using the :kbd:`MMB`.
 Dolly Zoom
 ==========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All modes
    :Shortcut:  :kbd:`Shift-Ctrl-MMB`

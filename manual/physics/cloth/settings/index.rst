@@ -4,8 +4,7 @@
   Settings
 ############
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Physics --> Cloth`
 

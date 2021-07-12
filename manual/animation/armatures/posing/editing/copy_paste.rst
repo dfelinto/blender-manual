@@ -6,8 +6,7 @@
 Copy/Paste Pose
 ***************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Pose Mode
    :Menu:      :menuselection:`Pose --> Copy Pose`,

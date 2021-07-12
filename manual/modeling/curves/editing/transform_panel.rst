@@ -4,8 +4,7 @@
 Transform Panel
 ***************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Panel:     :menuselection:`Sidebar --> Transform`

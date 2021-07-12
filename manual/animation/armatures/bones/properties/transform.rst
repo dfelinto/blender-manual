@@ -3,8 +3,7 @@
 Transform
 *********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode and Pose Mode
    :Panel:     :menuselection:`Bone --> Transform`

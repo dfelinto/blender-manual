@@ -3,8 +3,7 @@
 Newtonian
 *********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Particle System --> Physics`
    :Type:      Newtonian
@@ -24,8 +23,7 @@ according to the given integrator chosen by the animator.
 Forces
 ======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Particle System --> Physics --> Forces`
 
@@ -43,8 +41,7 @@ Damp
 Integration
 ===========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Particle System --> Physics --> Integration`
 
@@ -97,8 +94,7 @@ Adaptive
 Deflection
 ==========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Particle System --> Physics --> Deflection`
 

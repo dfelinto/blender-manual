@@ -3,8 +3,7 @@
 Select Sharp Edges
 ******************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Select Sharp Edges`

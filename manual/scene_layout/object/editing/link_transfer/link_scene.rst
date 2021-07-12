@@ -4,8 +4,7 @@
 Link Objects to Scene
 *********************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Link/Transfer Data --> Link Objects to Scene`

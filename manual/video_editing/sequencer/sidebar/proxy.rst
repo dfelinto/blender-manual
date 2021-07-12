@@ -6,8 +6,7 @@ Proxy
 Proxy Settings
 ==============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Sidebar region --> Proxy & Timecode --> Proxy Settings`
 
@@ -35,8 +34,7 @@ Rebuild Proxy and Timecode Indices
 Strip Proxy & Timecode
 ======================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Sidebar region --> Proxy & Timecode --> Strip Proxy & Timecode`
 

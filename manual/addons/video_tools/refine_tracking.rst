@@ -29,8 +29,7 @@ Usage
 #. Refine your camera motion path solution.
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Video Tools
    :Description: Refine motion solution by setting track weight according to reprojection error.

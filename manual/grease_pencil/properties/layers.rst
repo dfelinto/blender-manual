@@ -4,8 +4,7 @@
 Layers
 ******
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Panel:     :menuselection:`Object Data tab --> Layers`

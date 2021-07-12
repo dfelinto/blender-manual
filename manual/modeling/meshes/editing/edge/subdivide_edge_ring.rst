@@ -4,8 +4,7 @@
 Subdivide Edge-Ring
 *******************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Panel:     :menuselection:`Edge --> Subdivide Edge-Ring`

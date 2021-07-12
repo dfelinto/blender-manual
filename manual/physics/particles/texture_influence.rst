@@ -7,8 +7,7 @@
 Texture Influence
 *****************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Texture --> Influence`
 

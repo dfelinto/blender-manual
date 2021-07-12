@@ -12,8 +12,7 @@ Each will be an element, with its own shape, editing rings (in the viewport), an
 Deleting Elements
 =================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Shortcut:  :kbd:`X`, :kbd:`Delete`
 

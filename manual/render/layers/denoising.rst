@@ -3,8 +3,7 @@
 Denoising
 *********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Render Layers --> Denoising`
 

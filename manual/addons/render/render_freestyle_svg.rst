@@ -18,8 +18,7 @@ Activation
 This add-on can be enabled via :menuselection:`Preferences --> Add-ons --> Render --> Freestyle SVG Exporter`.
 The interface for the exporter should now be visible as a new panel in the Render tab.
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Render
    :Panel:     :menuselection:`Properties --> Render --> Freestyle SVG Export`
@@ -69,8 +68,7 @@ Stroke Cap Style
 Exportable Properties
 =====================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Properties --> View Layers --> Freestyle Line Style SVG Export`
 

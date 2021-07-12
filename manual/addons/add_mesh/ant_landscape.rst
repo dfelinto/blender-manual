@@ -85,8 +85,7 @@ Usage
 To Do
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Add Mesh
    :Description: Another Noise Tool: Landscape, erosion and displace.

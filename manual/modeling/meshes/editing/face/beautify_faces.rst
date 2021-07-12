@@ -4,8 +4,7 @@
 Beautify Faces
 **************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Face --> Beautify Faces`

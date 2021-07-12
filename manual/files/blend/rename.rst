@@ -8,8 +8,7 @@ Rename
 Rename Active Item
 ==================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Edit --> Rename Active Item`
    :Shortcut:  :kbd:`F2`
@@ -30,8 +29,7 @@ The text field shows the name of the current item and can be overwritten to rena
 Batch Rename
 ============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Edit --> Batch Rename`
    :Shortcut:  :kbd:`Ctrl-F2`

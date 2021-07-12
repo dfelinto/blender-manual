@@ -66,8 +66,7 @@ Color Blender
 Each script has a number of different options which can be used to create some very interesting effects.
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Add Curve
    :Description: Tools for converting/animating objects/particles into curves.

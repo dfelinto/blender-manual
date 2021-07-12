@@ -4,8 +4,7 @@
 Boid
 ****
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Physics --> Force Fields`
    :Type:      Boid

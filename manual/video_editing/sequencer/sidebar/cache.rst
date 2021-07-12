@@ -17,8 +17,7 @@ In order for this tab to be visible, enable :ref:`Developer Extras <prefs-interf
 Cache Settings
 ==============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Sidebar --> Cache --> Cache Settings`
 
@@ -38,8 +37,7 @@ Cache
 Strip Cache
 ===========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Sidebar --> Cache --> Cache Settings`
 

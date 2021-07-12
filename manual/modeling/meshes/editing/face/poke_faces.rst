@@ -4,8 +4,7 @@
 Poke Faces
 **********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Faces --> Poke Faces`

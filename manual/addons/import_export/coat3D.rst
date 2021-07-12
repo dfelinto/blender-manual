@@ -3,8 +3,7 @@
 3D-Coat Applink
 ***************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Import-Export
    :Panel:     :menuselection:`Properties --> Scene --> 3D-Coat Settings`

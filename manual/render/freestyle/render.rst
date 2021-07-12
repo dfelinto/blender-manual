@@ -3,8 +3,7 @@
 Render Properties
 *****************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Properties --> Render --> Freestyle`
 

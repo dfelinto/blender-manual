@@ -3,8 +3,7 @@
 Editing
 *******
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Vertex Paint Mode
    :Menu:      :menuselection:`Paint`

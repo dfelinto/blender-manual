@@ -34,8 +34,7 @@ and the overall shape will be almost the same as artists would want it to be.
 Primitives
 ==========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Mask Mode
    :Tool:      :menuselection:`Add`

@@ -4,8 +4,7 @@
 Propagate to Shapes
 *******************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Vertex --> Propagate to Shapes`

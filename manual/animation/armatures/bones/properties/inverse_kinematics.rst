@@ -3,8 +3,7 @@
 Inverse Kinematics
 ******************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Pose Mode
    :Panel:     :menuselection:`Bone --> Inverse Kinematics`

@@ -887,8 +887,7 @@ Importing POV-Ray Files
 #. You can then select one or several files.
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Render
    :Description: POV-Ray 3.7 integration for Blender.

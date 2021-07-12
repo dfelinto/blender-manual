@@ -41,8 +41,7 @@ Instructions
    You can also adjust the world settings in the Shader editor.
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Lighting
    :Description: Creates a Dynamic Sky for Cycles/Eevee.

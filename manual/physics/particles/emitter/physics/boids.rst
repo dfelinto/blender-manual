@@ -5,8 +5,7 @@
 Boids
 *****
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Particle System --> Physics`
    :Type:      Boids
@@ -29,8 +28,7 @@ In certain situations only the first three parameter are evaluated.
 Movement
 ========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Particle System --> Physics --> Movement`
 
@@ -83,8 +81,7 @@ Collision Collection
 Battle
 ======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Particle System --> Physics --> Battle`
 
@@ -103,8 +100,7 @@ Range
 Misc
 ====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Particle System --> Physics --> Misc`
 
@@ -119,8 +115,7 @@ Height
 Relations
 =========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Particle System --> Physics --> Relations`
 
@@ -161,8 +156,7 @@ according to the (respectively) *Avoid* and *Goal* rules of the *Boid Brain*.
 Boid Brain
 ==========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Particle System --> Physics --> Boid Brain`
 

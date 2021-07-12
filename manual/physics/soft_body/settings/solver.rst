@@ -4,8 +4,7 @@
 Solver
 ******
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Physics --> Soft Body --> Solver`
 

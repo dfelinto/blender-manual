@@ -5,8 +5,7 @@
 Bridge Edge Loops
 *****************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Edge --> Bridge Edge Loops`

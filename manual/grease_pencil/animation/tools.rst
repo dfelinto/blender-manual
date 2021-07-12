@@ -8,8 +8,7 @@ Animation Tools
 Insert Blank Keyframe
 =====================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Draw Mode, Edit Mode, Sculpt Mode
    :Menu:      :menuselection:`Stroke --> Animation --> Insert Blank Keyframe (Active Layer)`
@@ -30,8 +29,7 @@ All Layers
 Duplicate Active Keyframe
 =========================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Draw Mode, Edit Mode, Sculpt Mode
    :Menu:      :menuselection:`Stroke --> Animation --> Duplicate Active Keyframe (Active Layer)`
@@ -52,8 +50,7 @@ Mode
 Delete Active Keyframe
 ======================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Draw Mode, Edit Mode, Sculpt Mode
    :Menu:      :menuselection:`Stroke --> Animation --> Delete Active Keyframe (Active Layer)`
@@ -69,8 +66,7 @@ Deletes the last keyframe in the Dope Sheet or the current keyframe if you are o
 Interpolate Sequence
 ====================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Draw Mode, Edit Mode
    :Menu:      :menuselection:`Grease Pencil --> Interpolate Sequence`
@@ -86,8 +82,7 @@ A breakdown keyframe will be added on every frame between the previous and next 
 Bake Mesh to Grease Pencil
 ==========================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    3D Viewport
    :Mode:      Object and Pose Modes

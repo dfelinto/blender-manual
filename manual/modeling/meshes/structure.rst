@@ -84,8 +84,7 @@ in the :ref:`Mesh Display Viewport Overlays panel <mesh-display-normals>`.
 Properties
 ----------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Properties --> Object Data --> Normals`
 
@@ -144,8 +143,7 @@ per a set of neighbor face corners, or per vertex.
 Enabling Custom Split Normals
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Normals --> Split`
@@ -164,8 +162,7 @@ enable custom normals if they are not already enabled.
 Editing Custom Split Normals
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Normals`

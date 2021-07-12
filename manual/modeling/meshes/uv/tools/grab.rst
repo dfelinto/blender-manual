@@ -3,8 +3,7 @@
 Grab
 ****
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Tool:      :menuselection:`Toolbar --> Grab`
@@ -61,8 +60,7 @@ See :doc:`Painting Falloff </sculpt_paint/brush/falloff>` for more information.
 Options
 -------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Panel:     :menuselection:`Sidebar --> Tool --> Options`

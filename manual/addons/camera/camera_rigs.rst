@@ -118,8 +118,7 @@ only ones that are created after you change the setting.)
 Panel
 -----
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Panel:     :menuselection:`3D Viewport --> Sidebar --> Item --> Camera Rig`
@@ -194,8 +193,7 @@ enabled in the Preferences :menuselection:`Preferences --> Save & Load --> Auto 
    - A `blog post <http://lacuisine.tech/blog/2018/07/19/2d-camera-rig/>`__ explaining the 2D rig by its authors.
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Camera
    :Description: Adds a camera rig with a UI.

@@ -5,8 +5,7 @@
 Snapping
 ********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object, Edit, and Pose Mode
    :Header:    :menuselection:`Snap`
@@ -26,8 +25,7 @@ a transformation is available by toggling the magnet icon in the 3D Viewport's h
 Snap Element
 ============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object, Edit, and Pose Mode
    :Header:    :menuselection:`Snapping --> Snap to`
@@ -77,8 +75,7 @@ Edge Perpendicular
 Snap Target
 ===========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object, Edit, and Pose Mode
    :Header:    :menuselection:`Snapping --> Snap with`

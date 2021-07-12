@@ -4,8 +4,7 @@
 Split
 *****
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Split`
@@ -15,8 +14,7 @@ Split
 Selection
 =========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Split --> Selection`
@@ -34,8 +32,7 @@ Note that the "copy" is left exactly at the same position as the original, so yo
 Faces by Edges
 ==============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Split --> Faces by Edges`
@@ -60,8 +57,7 @@ and the selected edges will be duplicated to form the border of the hole.
 Faces & Edges by Vertices
 =========================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Split --> Faces & Edges by Vertices`

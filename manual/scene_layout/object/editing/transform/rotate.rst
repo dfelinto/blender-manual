@@ -4,8 +4,7 @@
 Rotate
 ******
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object and Edit Modes
    :Menu:      :menuselection:`Object/Mesh/Curve/Surface --> Transform --> Rotate`
@@ -52,8 +51,7 @@ Proportional Editing
 Trackball Rotation
 ==================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object and Edit Modes
    :Shortcut:  :kbd:`R R`

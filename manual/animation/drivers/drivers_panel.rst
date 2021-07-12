@@ -8,16 +8,14 @@ Drivers Panel
 
    Edit Driver popover.
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    Graph editor
    :Mode:      Drivers
    :Panel:     :menuselection:`Sidebar region --> Drivers`
    :Shortcut:  :kbd:`N`
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Context menu --> Edit Driver`
    :Shortcut:  :kbd:`Ctrl-D`

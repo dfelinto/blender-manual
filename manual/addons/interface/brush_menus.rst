@@ -30,8 +30,7 @@ this add-on by going to the Add-ons tab in Preferences and expanding the add-on.
 .. figure:: /images/addons_interface_brush-menus_ui.jpg
    :align: center
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Interface
    :Description: Fast access to brushes & tools in Sculpt and Paint Modes.

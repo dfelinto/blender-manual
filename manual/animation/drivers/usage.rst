@@ -13,8 +13,7 @@ or via a simplified *Edit Driver* popover invoked from the property context menu
 Add Driver
 ==========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Context menu --> Add Driver`
    :Shortcut:  :kbd:`Ctrl-D`
@@ -30,8 +29,7 @@ and displays the *Edit Driver* popover.
 Edit Driver
 ===========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Context menu --> Edit Driver`
 
@@ -45,8 +43,7 @@ component, so this reduced interface is sufficient.
 Open Drivers Editor
 ===================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Context menu --> Open Drivers Editor`
 
@@ -57,8 +54,7 @@ selects the driver associated with the property.
 Copy & Paste
 ============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Context menu --> Copy Driver`
    :Menu:      :menuselection:`Context menu --> Paste Driver`
@@ -72,8 +68,7 @@ When adding drivers with the same settings, this can save time modifying setting
 Copy As New Driver
 ==================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Context menu --> Copy As New Driver`
 
@@ -102,8 +97,7 @@ Some examples:
 Removing Drivers
 ================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Context menu --> Delete Driver(s)`
    :Menu:      :menuselection:`Context menu --> Delete Single Driver`

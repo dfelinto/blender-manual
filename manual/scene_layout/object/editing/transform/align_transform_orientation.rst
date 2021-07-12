@@ -4,8 +4,7 @@
 Align to Transform Orientation
 ******************************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode and Edit Mode
    :Menu:      :menuselection:`Object --> Transform --> Align to Transform Orientation`

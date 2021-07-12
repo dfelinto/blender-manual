@@ -5,8 +5,7 @@
 Shear
 *****
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object and Edit Mode
    :Tool:      :menuselection:`Toolbar --> Shear`

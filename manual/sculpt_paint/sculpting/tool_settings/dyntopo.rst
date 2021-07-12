@@ -3,8 +3,7 @@
 Dyntopo
 *******
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sculpt Mode
    :Panel:     :menuselection:`Sidebar --> Tool --> Dyntopo`
@@ -79,8 +78,7 @@ Smooth Shading
 
 .. rubric:: Topology Rake
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sculpt Mode
    :Panel:     :menuselection:`Tool Settings --> Brush --> Topology Rake`

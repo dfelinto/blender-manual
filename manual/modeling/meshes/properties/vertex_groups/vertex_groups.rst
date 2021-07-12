@@ -3,8 +3,7 @@
 Vertex Groups Panel
 *******************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Panel:     :menuselection:`Object Data tab --> Vertex Groups`
@@ -83,8 +82,7 @@ Active Vertex Group
 Editing Vertex Groups
 =====================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Panel:     :menuselection:`Object Data tab --> Vertex Groups`

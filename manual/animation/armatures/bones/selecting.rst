@@ -120,8 +120,7 @@ After :kbd:`Shift`-clicking "Bone.003":
 Select Mirror
 =============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Select Mirror`
@@ -136,8 +135,7 @@ Flip the selection from one side to another.
 More/Less
 =========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> More/Less`
@@ -153,8 +151,7 @@ Less :kbd:`Ctrl-NumpadMinus`
 Linked
 ======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Linked`
@@ -199,8 +196,7 @@ Extend Parent :kbd:`Shift-[`, Extend Child :kbd:`Shift-]`
 Similar
 =======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Similar`
@@ -231,8 +227,7 @@ Shape
 Select Pattern
 ==============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Select --> Select Pattern...`

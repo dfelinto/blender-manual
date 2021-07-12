@@ -5,8 +5,7 @@
 Measure
 *******
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Tool:      :menuselection:`Toolbar --> Measure`

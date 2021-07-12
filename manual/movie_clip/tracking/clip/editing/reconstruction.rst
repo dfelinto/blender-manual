@@ -11,8 +11,7 @@ Scene orientation tools can be used for orienting object to bundles.
 Set Origin
 ==========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Tracking
    :Menu:      :menuselection:`Reconstruction --> Set Origin`
@@ -26,8 +25,7 @@ Only translation is applied to the camera.
 Set Floor
 =========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Tracking
    :Menu:      :menuselection:`Reconstruction --> Set Floor`
@@ -39,8 +37,7 @@ Camera will be transformed in a way which makes the selected markers to be flat 
 Set Wall
 ========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Tracking
    :Menu:      :menuselection:`Reconstruction --> Set Wall`
@@ -53,8 +50,7 @@ Similar to the floor orientation, but defines a wall (selected tracks are placed
 Set X/Y Axis
 ============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Tracking
    :Menu:      :menuselection:`Reconstruction --> Set X/Y Axis`
@@ -68,8 +64,7 @@ No translation is applied, meaning scene origin which was specified before will 
 Set Scale
 =========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Tracking
    :Menu:      :menuselection:`Reconstruction --> Set Scale`
@@ -83,8 +78,7 @@ between two selected tracks match the given value in *Distance*.
 Apply Solution Scale
 ====================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Tracking
    :Menu:      :menuselection:`Reconstruction --> Apply Solution Scale`
@@ -97,8 +91,7 @@ Similar to :ref:`bpy.ops.clip.set_scale`, but actually modifies the tracking dat
 Link Empty to Track
 ===================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Tracking
    :Menu:      :menuselection:`Reconstruction --> Link Empty to Track`
@@ -111,8 +104,7 @@ Creates new empty in 3D Viewport and appends constraint which parts it to the ac
 3D Markers to Mesh
 ==================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Tracking
    :Menu:      :menuselection:`Reconstruction --> 3D Markers to Mesh`

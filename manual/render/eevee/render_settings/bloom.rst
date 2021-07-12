@@ -7,8 +7,7 @@ Bloom
 Bloom is a post-process effect that diffuses very bright pixels. This mimics lens artifacts of real cameras.
 This allows a better sense of what the actual intensities of the pixels are.
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Render --> Bloom`
 

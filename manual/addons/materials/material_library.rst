@@ -81,8 +81,7 @@ Category Tools:
       Remove the current selected category from the list.
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Material
    :Description: Materials Library VX system for library creation.

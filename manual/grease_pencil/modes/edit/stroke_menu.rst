@@ -13,8 +13,7 @@ some also work with point selections.
 Subdivide
 =========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Stroke --> Subdivide`
@@ -53,8 +52,7 @@ UVs
 Simplify
 ========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Stroke --> Simplify`
@@ -88,8 +86,7 @@ Sample
 Trim
 ====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Stroke --> Trim`
@@ -114,8 +111,7 @@ Trims selected stroke to first loop or intersection.
 Join
 ====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Stroke --> Join --> Join, Join and Copy`
@@ -139,8 +135,7 @@ Leave Gaps
 Move to Layer
 =============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Stroke --> Move to Layer`
@@ -157,8 +152,7 @@ You can also add a new layer to move the selected stroke to.
 Assign Material
 ===============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Stroke --> Assign Material`
@@ -173,8 +167,7 @@ from a list of materials of the current Grease Pencil object.
 Set as Active Material
 ======================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Stroke --> Set as Active Material`
@@ -187,8 +180,7 @@ Sets the active object material based on the selected stroke material.
 Arrange
 =======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Stroke --> Arrange`
@@ -211,8 +203,7 @@ Send to Back
 Close
 =====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Stroke --> Close`
@@ -240,8 +231,7 @@ Create Geometry
 Toggle Cyclic
 =============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Stroke --> Toggle Cyclic`
@@ -268,8 +258,7 @@ Type
 Toggle Caps
 ===========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Stroke --> Toggle Caps`
@@ -311,8 +300,7 @@ End
 Switch Direction
 ================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Stroke --> Switch Direction`
@@ -324,8 +312,7 @@ Reverse the direction of the points in the selected strokes
 Scale Thickness
 ===============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Stroke --> Scale Thickness`
@@ -336,8 +323,7 @@ When enabled, scales the stroke thickness during scale transformations.
 Reset Fill Transform
 ====================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Stroke --> Reset Fill Transform`

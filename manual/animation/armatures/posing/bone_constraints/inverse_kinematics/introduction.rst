@@ -21,8 +21,7 @@ This effort is effectively avoided by use of IK.
 Automatic IK
 ============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Pose Mode
    :Panel:     :menuselection:`Sidebar region --> Tool --> Pose Options`
@@ -62,8 +61,7 @@ Please refer to these pages for detail about the settings for the constraints:
 Armature IK Panel
 =================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Pose Mode
    :Panel:     :menuselection:`Properties --> Armature --> Inverse Kinematics`
@@ -223,8 +221,7 @@ Max Velocity
 Bone IK Panel
 =============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Pose Mode
    :Panel:     :menuselection:`Properties --> Bone --> Inverse Kinematics`

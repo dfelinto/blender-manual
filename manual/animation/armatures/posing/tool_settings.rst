@@ -11,8 +11,7 @@ Pose Options
 Auto IK
 -------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Pose Mode
    :Panel:     :menuselection:`Sidebar --> Tool --> Pose Options --> Auto IK`
@@ -28,8 +27,7 @@ and only works by applying the resulting transform to the bones in the chain.
 X-Axis Mirror
 -------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit and Pose Mode
    :Panel:     :menuselection:`Sidebar --> Tool --> Options --> X-Axis Mirror`
@@ -49,8 +47,7 @@ it is an easy way to keep the model symmetrical.
 Relative Mirror
 ---------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit and Pose Mode
    :Panel:     :menuselection:`Sidebar --> Tool --> Options --> Relative Mirror`

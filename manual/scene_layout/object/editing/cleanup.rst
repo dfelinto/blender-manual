@@ -6,8 +6,7 @@ Clean Up
 Clean Vertex Group Weights
 ==========================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Clean Up --> Clean Vertex Group Weights`
@@ -42,8 +41,7 @@ Keep Single
 Limit Total Vertex Groups
 =========================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Clean Up --> Limit Total Vertex Groups`
@@ -67,8 +65,7 @@ Limit
 Remove Unused Material Slots
 ============================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Clean Up --> Remove Unused Material Slots`

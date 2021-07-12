@@ -3,8 +3,7 @@
 Relations
 *********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Panel:     :menuselection:`Properties --> Object Properties --> Relations`

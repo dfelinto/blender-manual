@@ -23,8 +23,7 @@ This add-on is split into sub panels with each panel having it's own specific se
 Curve Info
 ----------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Tool:      :menuselection:`Sidebar --> Edit --> Curve Info`
@@ -42,8 +41,7 @@ Length
 Curve Edit
 ----------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Tool:      :menuselection:`Sidebar --> Edit --> Curve Edit`
@@ -72,8 +70,7 @@ Array Splines
 Intersect
 ---------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Tool:      :menuselection:`Sidebar --> Edit --> Intersect`
@@ -87,8 +84,7 @@ Intersect Curves
 Surfaces
 --------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Tool:      :menuselection:`Sidebar --> Edit --> Surfaces`
@@ -105,8 +101,7 @@ Convert Faces to Bézier
 Loft
 ^^^^
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Tool:      :menuselection:`Sidebar --> Edit --> Surfaces --> Loft`
@@ -122,8 +117,7 @@ Update Auto Loft
 Sanitize
 --------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Tool:      :menuselection:`Sidebar --> Edit --> Sanitize`
@@ -151,8 +145,7 @@ Join Neighboring Splines
 Utilities
 ---------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Tool:      :menuselection:`Sidebar --> Edit --> Utilities`
@@ -173,8 +166,7 @@ Show [ESC]
 Path Finder
 ^^^^^^^^^^^
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Tool:      :menuselection:`Sidebar --> Edit --> Utilities --> Path Finder`
@@ -182,8 +174,7 @@ Path Finder
 Tools for paths.
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Add Curve
    :Description: Adds functionality for Bézier/NURBS curve/surface modeling.

@@ -8,8 +8,7 @@ Operators
 Operator Cheat Sheet
 ====================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Help --> Operator Cheat Sheet`
    :Context:   Enable :ref:`Developer Extras <prefs-interface-dev-extras>`
@@ -31,8 +30,7 @@ System Operators
 Reload Scripts
 --------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Topbar --> Blender --> System --> Reload Scripts`
@@ -47,8 +45,7 @@ any changes that have been made in the Text Editor will be lost!
 Memory Statistics
 -----------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      ``--debug-memory``
    :Menu:      :menuselection:`Topbar --> Blender --> System --> Memory Statistics`
@@ -67,8 +64,7 @@ will print useful information about memory objects, their size and user count.
 Debug Menu
 ----------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Topbar --> Blender --> System --> Debug Menu`
@@ -94,8 +90,7 @@ for a description of what each value does.
 Redraw Timer
 ------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Topbar --> Blender --> System --> Redraw Timer`
@@ -110,8 +105,7 @@ to benchmark UI render times along with undo/redo functions.
 Clean Up Space-Data
 -------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Topbar --> Blender --> System --> Clean Up Space-data`

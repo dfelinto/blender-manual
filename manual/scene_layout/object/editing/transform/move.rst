@@ -4,8 +4,7 @@
 Move
 ****
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode, Edit Mode, and Pose Mode
    :Menu:      :menuselection:`Object/Mesh/Curve/Surface --> Transform --> Move`

@@ -13,8 +13,7 @@ If the objects have hierarchical descendants, it also applies those transformati
 Transforms
 ==========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Apply --> Location / Rotation / Scale / Rotation & Scale`
@@ -66,8 +65,7 @@ Apply Properties
 Transforms to Deltas
 ====================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Apply --> Location / Rotation / Scale to Deltas`
@@ -99,8 +97,7 @@ Reset Values
 Visual Transform
 ================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Apply --> Visual Transform`
@@ -112,8 +109,7 @@ Apply (set) the result of a constraint and apply this back to the object's locat
 Visual Geometry as Mesh
 =======================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Apply --> Visual Geometry to Mesh`
@@ -130,8 +126,7 @@ For details, see the :ref:`object-convert-to` mesh.
 Make Instances Real
 ===================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Apply --> Make Instances Real`

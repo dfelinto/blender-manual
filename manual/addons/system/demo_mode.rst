@@ -85,8 +85,7 @@ Limitations
   set one mode to ``RENDER`` the other to ``PLAY``.
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  System
    :Description: Demo Mode lets you select multiple blend-files and loop over them.

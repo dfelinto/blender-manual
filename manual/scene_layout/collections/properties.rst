@@ -3,8 +3,7 @@
 Collection Properties
 *********************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Panel:     :menuselection:`Properties --> Collection Properties`

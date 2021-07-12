@@ -77,8 +77,7 @@ extension behavior, and the type of handles.
 Interpolation Mode
 ------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Key --> Interpolation Mode`
    :Shortcut:  :kbd:`T`
@@ -182,8 +181,7 @@ Back
 Easing Type
 -----------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Key --> Easing Type`
    :Shortcut:  :kbd:`Ctrl-E`
@@ -206,8 +204,7 @@ Ease In Out
 Extrapolation Mode
 ------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Channel --> Extrapolation Mode`
    :Shortcut:  :kbd:`Shift-E`
@@ -242,8 +239,7 @@ are located in the :doc:`F-Curve Modifiers </editors/graph_editor/fcurves/sideba
 Handle Type
 -----------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Key --> Handle Type`
    :Shortcut:  :kbd:`V`

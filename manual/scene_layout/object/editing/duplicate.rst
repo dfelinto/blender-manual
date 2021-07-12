@@ -4,8 +4,7 @@
 Duplicate
 *********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit and Object Modes
    :Menu:      :menuselection:`Object --> Duplicate Objects`

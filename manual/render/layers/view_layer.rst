@@ -3,8 +3,7 @@
 View Layer
 **********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Properties --> Scene --> View Layer`
 

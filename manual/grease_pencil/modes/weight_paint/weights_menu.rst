@@ -3,8 +3,7 @@
 Weights Menu
 ************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Weights`
@@ -15,8 +14,7 @@ This page covers many of the tools in the *Weights* menu.
 Normalize All
 =============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Weights --> Normalize All`
@@ -31,8 +29,7 @@ Lock Active
 Normalize
 =========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Weights --> Normalize`
@@ -45,8 +42,7 @@ such that the highest weight value is 1.0.
 Invert
 ======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Weights --> Invert`
@@ -71,8 +67,7 @@ Remove Weights
 Smooth
 ======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Weights --> Smooth`
@@ -83,8 +78,7 @@ Smooths the weights of the active vertex group.
 Generate Weights
 ================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Weights --> Generate Weights`

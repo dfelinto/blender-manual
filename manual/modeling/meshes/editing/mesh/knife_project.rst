@@ -4,8 +4,7 @@
 Knife Project
 *************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Knife Project`

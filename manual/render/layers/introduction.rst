@@ -114,8 +114,7 @@ Clear Holdout
 Cycles
 ======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`View Layers --> Layer`
 

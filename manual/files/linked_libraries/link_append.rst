@@ -17,8 +17,7 @@ Look in the *Outliner*, with display mode set to *Blender File*, to see all your
 Link
 ====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    Topbar
    :Mode:      All Modes
@@ -58,8 +57,7 @@ Instance Object Data
 Append
 ======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    Topbar
    :Mode:      All Modes
@@ -133,15 +131,13 @@ the lost data can be automatically restored.
 Make Local
 ==========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    3D Viewport
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Relations --> Make Local...`
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    Outliner
    :Menu:      :menuselection:`Context menu --> ID Data --> Make Local`

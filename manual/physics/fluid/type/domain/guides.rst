@@ -4,8 +4,7 @@
 Guides
 ******
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Physics --> Fluid --> Guides`
    :Type:      Domain

@@ -6,8 +6,7 @@ Interpolation
 Interpolate
 ===========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Draw and Edit Modes
    :Tool:      :menuselection:`Toolbar --> Interpolate`
@@ -22,8 +21,7 @@ See :ref:`Interpolate tool <tool-grease-pencil-draw-interpolate>` for more detai
 Interpolate Sequence
 ====================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Draw and Edit Modes
    :Menu:      :menuselection:`Header --> Interpolate`

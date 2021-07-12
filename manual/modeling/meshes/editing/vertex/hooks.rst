@@ -5,8 +5,7 @@
 Hooks
 *****
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Vertex --> Hooks`

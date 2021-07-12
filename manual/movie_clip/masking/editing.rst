@@ -16,8 +16,7 @@ Editing of mask splines happens in a way similar to editing Bézier curves or pa
 Transform
 =========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Mask Mode
    :Menu:      :menuselection:`Mask --> Transform`
@@ -44,8 +43,7 @@ Scale Feather :kbd:`Alt-S`
 Clear Feather Weight
 ====================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Mask Mode
    :Menu:      :menuselection:`Mask --> Clear Feather Weight`
@@ -56,8 +54,7 @@ Resets the feather weight to zero.
 Toggle Cyclic
 =============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Mask Mode
    :Menu:      :menuselection:`Mask --> Toggle Cyclic`
@@ -70,8 +67,7 @@ Close the mask by joining the last control point to the first.
 Set Handle Type
 ===============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Mask Mode
    :Menu:      :menuselection:`Mask --> Set Handle Type`
@@ -83,8 +79,7 @@ Set handle type for selected spline points.
 Recalculate Handles
 ===================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Mask Mode
    :Menu:      :menuselection:`Mask --> Recalculate Handles`
@@ -96,8 +91,7 @@ Make normals (handle directions) consistent.
 Switch Direction
 ================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Mask Mode
    :Menu:      :menuselection:`Mask --> Switch Direction`
@@ -116,8 +110,7 @@ Todo.
 Clear Parent
 ============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Mask Mode
    :Menu:      :menuselection:`Mask --> Clear Parent`
@@ -131,8 +124,7 @@ Clears any parenting relationship for the selected spline points.
 Make Parent
 ===========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Mask Mode
    :Menu:      :menuselection:`Mask --> Make Parent`
@@ -144,8 +136,7 @@ Parents one or more selected spline points to the active motion tracker.
 Animation
 =========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Mask Mode
    :Menu:      :menuselection:`Mask --> Animation`
@@ -170,8 +161,7 @@ Re-Key Points of Selected Shapes
 Show/Hide
 =========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Mask Mode
    :Menu:      :menuselection:`Mask --> Show/Hide`
@@ -184,8 +174,7 @@ Show/Hide
 Delete
 ======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Mask Mode
    :Menu:      :menuselection:`Mask --> Delete`

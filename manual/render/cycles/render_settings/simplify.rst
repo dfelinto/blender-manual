@@ -6,8 +6,7 @@
 Simplify
 ********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Render --> Simplify`
 

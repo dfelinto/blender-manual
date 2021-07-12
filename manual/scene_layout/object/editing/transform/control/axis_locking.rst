@@ -54,8 +54,7 @@ Axis Locking Types
 Axis Locking
 ------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object and Edit Modes (move, rotate, scale, extrude)
    :Shortcut:  :kbd:`X`, :kbd:`Y`, :kbd:`Z` or :kbd:`MMB` after moving the mouse in the desired direction.
@@ -70,8 +69,7 @@ scale or rotate in a single dimension.
 Plane Locking
 -------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object and Edit Modes (move, scale)
    :Shortcut:  :kbd:`Shift-X`, :kbd:`Shift-Y`, :kbd:`Shift-Z` or :kbd:`Shift-MMB`

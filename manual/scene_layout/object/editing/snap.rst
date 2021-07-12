@@ -4,8 +4,7 @@
 Snap
 ****
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object, Edit, and Pose Mode
    :Menu:      :menuselection:`Object/Object type --> Snap`

@@ -4,8 +4,7 @@
 Bone Groups
 ***********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Pose Mode
    :Panel:     :menuselection:`Properties --> Armature --> Bone Groups`

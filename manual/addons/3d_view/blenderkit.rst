@@ -49,8 +49,7 @@ Interface
 Assetbar
 --------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Assetbar`
 
@@ -83,8 +82,7 @@ Actions that can be performed in the Assetbar:
 BlenderKit Profile Panel
 ------------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Sidebar --> BlenderKit --> BlenderKit Profile`
 
@@ -101,8 +99,7 @@ See My Uploads
 BlenderKit Login Panel
 ----------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Sidebar --> BlenderKit --> BlenderKit Login`
 
@@ -124,8 +121,7 @@ Log Out
 Find and Upload Assets Panel
 ----------------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Sidebar --> BlenderKit --> Find and Upload`
 
@@ -142,8 +138,7 @@ Search/Upload
 Search and Download
 -------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Sidebar --> BlenderKit --> Find and Upload --> Search`
 
@@ -169,8 +164,7 @@ Style
 Models Search Options
 ^^^^^^^^^^^^^^^^^^^^^
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Sidebar --> BlenderKit --> Find and Upload --> Search --> Models`
 
@@ -218,8 +212,7 @@ Search Filters:
 Categories
 ^^^^^^^^^^
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Sidebar --> BlenderKit --> Find and Upload --> Search --> Models --> Categories`
 
@@ -236,8 +229,7 @@ Return ``↲``
 Import Method
 ^^^^^^^^^^^^^
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Sidebar --> BlenderKit --> Find and Upload --> Search --> Models --> Import settings`
 
@@ -277,8 +269,7 @@ Threshold
 Materials Search Options
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Sidebar --> BlenderKit --> Find and Upload --> Search --> Materials`
 
@@ -303,8 +294,7 @@ File Size
 Categories
 ^^^^^^^^^^
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Sidebar --> BlenderKit --> Find and Upload --> Search --> Materials --> Categories`
 
@@ -543,8 +533,7 @@ Render Thumbnail with Cycles
 Selected Model/Name Panel
 -------------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Sidebar --> BlenderKit --> Selected model`
 
@@ -642,8 +631,7 @@ Tutorials
 .. youtube:: pSay3yaBWV0
    :width: 500px
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Add Mesh
    :Description: Online Blenderkit Library, materials, models, brushes and more.

@@ -20,8 +20,7 @@ Mute
 Compositing
 ===========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Sidebar --> Strip --> Compositing`
 
@@ -38,8 +37,7 @@ Opacity
 Transform
 =========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Sidebar --> Strip --> Transform`
 
@@ -69,8 +67,7 @@ Mirror
 Crop
 ====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Sidebar --> Strip --> Crop`
 
@@ -81,8 +78,7 @@ Used to crop the source image. Use *Top*, *Left*,
 Video
 =====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Sidebar --> Strip --> Video`
 
@@ -98,8 +94,7 @@ Reverse Frames
 Color
 =====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Sidebar --> Strip --> Color`
 
@@ -114,8 +109,7 @@ Convert to Float
 Sound
 =====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Sidebar --> Strip --> Sound`
 
@@ -148,8 +142,7 @@ Mono
 Time
 ====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Sidebar --> Strip --> Time`
 
@@ -188,8 +181,7 @@ Current Frame
 Source
 ======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Sidebar --> Strip --> Source`
 

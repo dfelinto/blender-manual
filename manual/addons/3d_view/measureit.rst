@@ -54,8 +54,7 @@ As all measure definitions are saved in the blend-file, you can save the file an
 the next time you use it, the measures will be ready.
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  3D View
    :Description: Tools for measuring objects in the 3D Viewport.

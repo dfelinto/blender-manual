@@ -4,8 +4,7 @@
 Extrude
 *******
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Armature --> Extrude`
@@ -72,8 +71,7 @@ then select the bones and :ref:`delete <bpy.ops.armature.delete>` them.
 Mouse Clicks
 ============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Shortcut:  :kbd:`Ctrl-RMB`

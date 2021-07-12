@@ -4,8 +4,7 @@
 Duplicate Linked
 ****************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Duplicate Linked`

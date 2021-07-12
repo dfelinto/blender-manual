@@ -3,8 +3,7 @@
 Aligning
 ********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`View --> Align View`
 

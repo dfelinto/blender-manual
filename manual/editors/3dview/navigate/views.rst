@@ -12,8 +12,7 @@ These views can change how the overall 3D Viewport looks or how you interact wit
 Quad View
 =========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All modes
    :Menu:      :menuselection:`View --> Area --> Toggle Quad View`
@@ -42,8 +41,7 @@ In this arrangement, you can zoom and pan each view independently but you cannot
 Options
 -------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All modes
    :Menu:      :menuselection:`Sidebar --> View --> Quad View`

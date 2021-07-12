@@ -22,8 +22,7 @@ and then tweak the layout.
 Transform
 =========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    UV Editor
    :Mode:      Edit Mode
@@ -46,8 +45,7 @@ Also, holding the :kbd:`MMB` will constrain movement to the X or Y axis.
 Mirror
 ======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    UV Editor
    :Mode:      Edit Mode
@@ -66,8 +64,7 @@ or hold the :kbd:`MMB` and drag in the mirror direction.
 Copy Mirrored UV Coordinates
 ----------------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    UV Editor
    :Mode:      Edit Mode
@@ -88,8 +85,7 @@ Precision
 Snap
 ====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    UV Editor
    :Mode:      Edit Mode
@@ -120,8 +116,7 @@ Cursor to Selected
 Merge
 =====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    UV Editor
    :Mode:      Edit Mode
@@ -144,8 +139,7 @@ By Distance
 Split
 =====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    UV Editor
    :Mode:      Edit Mode
@@ -163,8 +157,7 @@ Selection :kbd:`Y`
 Unwrap
 ======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    UV Editor
    :Mode:      Edit Mode
@@ -190,8 +183,7 @@ The more advanced methods can be used with more complex models, and have more sp
 Pin & Unpin
 ===========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    UV Editor
    :Mode:      Edit Mode
@@ -219,8 +211,7 @@ This helps with fitting a UV island to a certain shape or region.
 Mark/Clear Seams
 ================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    UV Editor
    :Mode:      Edit Mode
@@ -234,8 +225,7 @@ See :doc:`/modeling/meshes/uv/unwrapping/seams`.
 Seams from Islands
 ==================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      View mode
    :Menu:      :menuselection:`UV --> Seams from Islands`
@@ -250,8 +240,7 @@ This is useful when modifying the UVs of already unwrapped meshes.
 Pack Islands
 ============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    UV Editor
    :Mode:      Edit Mode
@@ -270,8 +259,7 @@ then individually transform each island so that they fill up the UV space as muc
 Average Island Scale
 ====================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    UV Editor
    :Mode:      Edit Mode
@@ -287,8 +275,7 @@ UV island so that they are all approximately the same scale.
 Minimize Stretch
 ================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    UV Editor
    :Mode:      Edit Mode
@@ -303,8 +290,7 @@ The *Minimize Stretch* tool, reduces UV stretch by minimizing angles. This essen
 Stitch
 ======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    UV Editor
    :Mode:      Edit Mode
@@ -321,8 +307,7 @@ by activating *Use Limit* and adjusting the *Limit Distance*.
 Align
 =====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    UV Editor
    :Mode:      Edit Mode
@@ -340,8 +325,7 @@ Align
 Show/Hide Faces
 ===============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    UV Editor
    :Mode:      Edit Mode
@@ -355,8 +339,7 @@ Show/Hide Faces
 Export UV Layout
 ================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    UV Editor
    :Mode:      Edit Mode
@@ -372,8 +355,7 @@ If you are using an external application, you need to know where on the mesh you
 Proportional Editing
 ====================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    UV Editor
    :Mode:      Edit Mode
@@ -389,8 +371,7 @@ for a full reference.
 UV Options
 ==========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    UV Editor
    :Mode:      Edit Mode
@@ -429,8 +410,7 @@ Constraining to Image Bounds
 Rotate UVs
 ----------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    3D Viewport
    :Mode:      Edit Mode
@@ -447,8 +427,7 @@ menu to rotate the UVs per face in 90-degree turns.
 Reverse UVs
 -----------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    3D Viewport
    :Mode:      Edit Mode

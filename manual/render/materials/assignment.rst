@@ -3,8 +3,7 @@
 Assignment
 **********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Material --> Material Slots`
 

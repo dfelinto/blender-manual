@@ -4,8 +4,7 @@
 Clear
 *****
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Clear --> Location / Scale / Rotation / Origin`

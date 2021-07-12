@@ -24,8 +24,7 @@ Opening and saving blend-files is usually done using the :doc:`File Browser </ed
 Opening Files
 =============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`File --> Open...`
    :Shortcut:  :kbd:`Ctrl-O`
@@ -65,8 +64,7 @@ Trusted Source
 Open Recent
 ===========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`File --> Open Recent`
    :Shortcut:  :kbd:`Shift-Ctrl-O`
@@ -82,8 +80,7 @@ Recover
 Last Session
 ------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`File --> Recover --> Last Session`
 
@@ -96,8 +93,7 @@ This option enables you to recover your last work session if, for example, you c
 Auto Save
 ---------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`File --> Recover --> Auto Save`
 
@@ -113,8 +109,7 @@ This will allow you to open an automatically saved file to recover it.
 Saving Files
 ============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`File --> Save`
    :Shortcut:  :kbd:`Ctrl-S`
@@ -135,8 +130,7 @@ Save current blend-file over itself (if it was not saved yet, this will automati
 Save As
 =======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`File --> Save As...`
    :Shortcut:  :kbd:`Shift-Ctrl-S`
@@ -182,8 +176,7 @@ Save Copy
 Save Copy
 =========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`File --> Save Copy...`
 

@@ -42,8 +42,7 @@ and what ever physics field effect is on a common layer.
 Soft Body Field Weights
 -----------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Physics --> Soft Body --> Field Weights`
 

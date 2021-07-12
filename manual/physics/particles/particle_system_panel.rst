@@ -3,8 +3,7 @@
 Particle System Panel
 *********************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Particle System --> Particle System`
 

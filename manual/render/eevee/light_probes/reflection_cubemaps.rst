@@ -30,8 +30,7 @@ If multiple Reflection Cubemaps overlap, smaller (in volume) ones will always ha
 If an object is not inside any Reflection Cubemap influence,
 or if the indirect lighting has not been baked, the world's cubemap will be used to shade it.
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Object Data --> Probe`
 
@@ -70,8 +69,7 @@ Visibility Collection
 Custom Parallax
 ===============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Object Data --> Custom Parallax`
 

@@ -4,8 +4,7 @@
 Loop Cut
 ********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Tool:      :menuselection:`Toolbar --> Loop Cut`

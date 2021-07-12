@@ -16,8 +16,7 @@ you may want to set the bone roll.
 Recalculate Roll
 ================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Armature --> Bone Roll --> Recalculate Roll`
@@ -49,8 +48,7 @@ Shortest Rotation
 Set Roll
 ========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Armature --> Bone Roll --> Set Roll`

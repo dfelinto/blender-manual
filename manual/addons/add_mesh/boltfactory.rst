@@ -29,8 +29,7 @@ Usage
 To Do
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Add Mesh
    :Description: Add a bolt or nut.

@@ -36,8 +36,7 @@ Interface
 Located in the :menuselection:`3D Viewport --> Sidebar --> Create` tab.
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Add Mesh
    :Description: Generate rooms, doors, windows and architecture objects.

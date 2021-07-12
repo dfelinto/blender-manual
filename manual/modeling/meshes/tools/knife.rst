@@ -5,8 +5,7 @@
 Knife
 *****
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Tool:      :menuselection:`Toolbar --> Knife`

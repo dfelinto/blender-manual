@@ -3,8 +3,7 @@
 Editing
 *******
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode and Weight Paint Mode
    :Menu:      :menuselection:`Weights`
@@ -422,8 +421,7 @@ Accuracy
 Locks
 =====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode and Weight Paint Mode
    :Menu:      :menuselection:`Weights --> Locks`

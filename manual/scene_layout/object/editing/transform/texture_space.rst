@@ -4,8 +4,7 @@
 Move/Scale Texture Space
 ************************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode and Edit Mode
    :Menu:      :menuselection:`Object --> Transform --> Move/Scale Texture Space`

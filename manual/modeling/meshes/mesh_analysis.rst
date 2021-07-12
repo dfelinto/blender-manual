@@ -5,8 +5,7 @@
 Mesh Analysis
 *************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Panel:     :menuselection:`Header --> Overlays --> Mesh Analysis`

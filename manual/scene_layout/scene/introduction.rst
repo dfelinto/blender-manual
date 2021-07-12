@@ -18,8 +18,7 @@ in the :doc:`Topbar </interface/window_system/topbar>`.
 Controls
 ========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Topbar --> Scene`
 

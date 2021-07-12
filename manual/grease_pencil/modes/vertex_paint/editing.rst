@@ -8,8 +8,7 @@ Editing
 Set Vertex Colors
 =================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Vertex Paint Mode
    :Menu:      :menuselection:`Paint --> Set Vertex Colors`
@@ -22,8 +21,7 @@ Sets the :ref:`active color <grease-pencil-vertex-paint-brush-color>` to all sel
 Reset Vertex Colors
 ===================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Vertex Paint Mode
    :Menu:      :menuselection:`Paint --> Reset Vertex Colors`
@@ -37,8 +35,7 @@ if no strokes are selected, all strokes are reset.
 Invert
 ======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Vertex Paint Mode
    :Menu:      :menuselection:`Paint --> Invert`
@@ -51,8 +48,7 @@ Invert RGB values.
 Levels
 ======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Vertex Paint Mode
    :Menu:      :menuselection:`Paint --> Levels`
@@ -65,8 +61,7 @@ Adjust levels of vertex colors.
 Hue Saturation Value
 ====================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Vertex Paint Mode
    :Menu:      :menuselection:`Paint --> Hue Saturation Value`
@@ -79,8 +74,7 @@ Adjust vertex color HSV values.
 Bright/Contrast
 ===============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Vertex Paint Mode
    :Menu:      :menuselection:`Paint --> Bright/Contrast`

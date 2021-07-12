@@ -16,8 +16,7 @@ Basic Rig Generation
 Add a Predefined Meta-Rig
 -------------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Add --> Armature`

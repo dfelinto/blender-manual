@@ -3,8 +3,7 @@
 Film
 ****
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Render --> Film`
 

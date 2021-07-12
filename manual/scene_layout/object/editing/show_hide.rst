@@ -5,8 +5,7 @@
 Show/Hide
 *********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Object --> Show/Hide`

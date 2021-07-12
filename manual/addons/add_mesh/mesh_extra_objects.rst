@@ -64,8 +64,7 @@ Wall Factory by dudecon, jambay
    Add castle type walls with settings for openings.
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Add Mesh
    :Description: Create many extra object types.

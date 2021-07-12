@@ -19,8 +19,7 @@ Description
 See `Blender translation how-to <https://wiki.blender.org/wiki/Dev:Doc/How_to/Translate_Blender>`__ in the Wiki.
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  System
    :Description: Allows managing UI translations directly from within Blender

@@ -4,8 +4,7 @@
 Viewport Display
 ****************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object and Pose Mode
    :Panel:     :menuselection:`Bone --> Viewport Display`

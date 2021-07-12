@@ -21,8 +21,7 @@ To execute the script either :menuselection:`Context Menu --> Relax`
 or use :menuselection:`Mesh --> Vertices --> Relax` instead.
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Mesh
    :Description: Relax the selected vertices while retaining the shape.

@@ -64,8 +64,7 @@ You can select a face and extrude it inwards or outwards, creating new faces to 
 Note: Also known as *Push/Pull Face*.
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Mesh
    :Description: Mesh modeling toolkit. Several tools to aid modeling.

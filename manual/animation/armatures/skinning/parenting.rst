@@ -3,8 +3,7 @@
 Armature Deform Parent
 **********************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode and Pose Mode
    :Menu:      :menuselection:`Object/Pose --> Parent --> Armature Deform`

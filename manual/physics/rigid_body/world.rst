@@ -5,8 +5,7 @@
 Rigid Body World
 ****************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Scene --> Rigid Body World`
 
@@ -56,8 +55,7 @@ Solver Iterations
 Rigid Body Cache
 ================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Scene --> Rigid Body World --> Cache`
 
@@ -90,8 +88,7 @@ so save your file first or the cache may be lost.
 Rigid Body Field Weights
 ========================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Scene --> Rigid Body World --> Field Weights`
 

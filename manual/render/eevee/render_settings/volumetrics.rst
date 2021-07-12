@@ -11,8 +11,7 @@ The texture dimensions can be tweaked using the *Tile Size* and *Samples* parame
 
 Object volumes have some :ref:`limitations <eevee-limitations-volumetrics>`.
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Properties --> Render --> Volumetrics`
 

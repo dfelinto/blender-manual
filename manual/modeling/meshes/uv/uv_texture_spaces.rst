@@ -38,8 +38,7 @@ Add ``+``
 Texture Space
 =============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Panel:     :menuselection:`Properties --> Object Data --> Texture Space`
@@ -72,8 +71,7 @@ Match Texture Space
 Editing
 -------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode and Edit Mode
    :Menu:      :menuselection:`Object --> Transform --> Scale/Move Texture Space`

@@ -14,8 +14,7 @@ It is defined by a *Start Frame* and a *Length*, and is displayed as a colored h
 Adding Strips
 =============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Add`
    :Shortcut:  :kbd:`Shift-A`

@@ -29,8 +29,7 @@ Activation
 
    .. clear
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Interface
    :Description: Object and mode context sensitive pop-up menu.

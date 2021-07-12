@@ -22,8 +22,7 @@ In the add-on's preferences you can set the path to your directory.
 The directory or folder can have multiple blend-files and all node groups they contain will be available.
 All node editors are supported, you can add compositing, texture and material node groups.
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Render
    :Description: Add node presets.

@@ -8,8 +8,7 @@ Selecting
 Box Select
 ==========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All modes
    :Menu:      :menuselection:`Select --> Box Select`
@@ -23,8 +22,7 @@ See :ref:`tool-select-box`.
 Circle Select
 =============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All modes
    :Menu:      :menuselection:`Select --> Circle Select`
@@ -38,8 +36,7 @@ See :ref:`tool-select-circle`.
 (De)select All
 ==============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All modes
    :Menu:      :menuselection:`Select --> (De)select All`
@@ -66,8 +63,7 @@ Selects non-selected items and deselects existing selection.
 Select Grouped
 ==============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All modes
    :Menu:      :menuselection:`Select --> Select Grouped`
@@ -92,8 +88,7 @@ Action
 Select Stabilization Tracks
 ===========================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Tracking mode
    :Menu:      :menuselection:`Select --> Select Stabilization Tracks`
@@ -106,8 +101,7 @@ Select tracks which are used for translation stabilization.
 Select Stabilization Rotation Tracks
 ====================================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Tracking mode
    :Menu:      :menuselection:`Select --> Select Stabilization Rotation Tracks`

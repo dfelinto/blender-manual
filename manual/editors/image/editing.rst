@@ -8,8 +8,7 @@ Editing
 New
 ===
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Image --> New`
@@ -23,8 +22,7 @@ Creates a new :ref:`image-generated` Image.
 Open
 ====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Image --> Open`
@@ -38,8 +36,7 @@ Load image from a file.
 Open Cache Render
 =================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Image --> Open Cache Render`
@@ -56,8 +53,7 @@ For this to work, :ref:`Save Buffers <bpy.types.RenderSettings.use_save_buffers>
 Replace
 =======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Image --> Replace`
@@ -71,8 +67,7 @@ Replaces the current image throughout the blend-file with another image.
 Reload
 ======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Image --> Reload`
@@ -86,8 +81,7 @@ Reload the image from the file on drive.
 Edit Externally
 ===============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Image --> Edit Externally`
@@ -101,8 +95,7 @@ as specified in the *Preferences* and load in the image to be edited.
 Save
 ====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Image --> Save`
@@ -120,8 +113,7 @@ Save the image, if the image is already a file.
 Save As
 =======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Image --> Save As`
@@ -133,8 +125,7 @@ Save the (rendered) image in a separate file.
 Save a Copy
 ===========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Image --> Save a Copy`
@@ -148,8 +139,7 @@ but will keep the old one open in the Image editor.
 Save All Images
 ===============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Image --> Save All Images`
@@ -162,8 +152,7 @@ Save all modified images. Packed images will be repacked.
 Invert
 ======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Image --> Invert`
@@ -179,8 +168,7 @@ Invert Channel
 Resize
 ======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Image --> Resize`
@@ -193,8 +181,7 @@ Adjust the image size in pixels.
 Flip
 ====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Image --> Flip`
@@ -214,8 +201,7 @@ Vertically
 Pack
 ====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Image --> Pack`
@@ -229,8 +215,7 @@ See :ref:`pack-unpack-data`.
 Unpack
 ======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Image --> Unpack`
@@ -243,8 +228,7 @@ Unpack the image to a drive.
 Extract Palette
 ===============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Image --> Extract Palette`
@@ -257,8 +241,7 @@ Extracts a :ref:`Color Palette <ui-color-palette>` from the image for use by oth
 Generate Grease Pencil
 ======================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Image --> Generate Grease Pencil`

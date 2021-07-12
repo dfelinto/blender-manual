@@ -100,8 +100,7 @@ A custom set of workspaces can be saved as a part of the :doc:`/getting_started/
 Workspace Settings
 ==================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    Properties
    :Menu:      :menuselection:`Active Tool and Workspace Settings --> Workspace`

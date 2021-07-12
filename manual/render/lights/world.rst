@@ -18,8 +18,7 @@ With volume shaders the entire scene can be covered in mist or other volumetric 
 Surface
 =======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`World --> Surface`
 
@@ -42,8 +41,7 @@ and *Mirror Ball* mapping for converting photos of mirror balls to environment m
 Volume
 ======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`World --> Volume`
 
@@ -63,8 +61,7 @@ The size of this object will determine how much light is scattered or absorbed.
 Viewport Display
 ================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`World --> Viewport Display`
 

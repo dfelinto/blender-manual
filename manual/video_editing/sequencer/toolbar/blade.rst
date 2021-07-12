@@ -4,8 +4,7 @@
 Blade
 *****
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sequencer Mode
    :Tool:      :menuselection:`Toolbar --> Blade`

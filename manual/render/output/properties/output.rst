@@ -79,8 +79,7 @@ Image Sequence
 Encoding
 ========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Properties --> Output --> Encoding`
 

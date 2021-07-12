@@ -3,8 +3,7 @@
 Images as Planes
 ****************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Import-Export
    :Menu:      :menuselection:`File --> Import --> Images as Planes`,

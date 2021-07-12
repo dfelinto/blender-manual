@@ -78,8 +78,7 @@ Further comprehensive documentation can be found in the co-author's
 `Github repository <https://github.com/ChrisHinde/MaterialUtilities/blob/master/README.md>`__.
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Material
    :Description: Menu of material tools (assign, select...) in the 3D Viewport.

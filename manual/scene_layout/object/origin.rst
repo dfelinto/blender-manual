@@ -28,8 +28,7 @@ state of the object.
 Set Origin
 ==========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object and Edit Modes
    :Menu:      :menuselection:`Object --> Set Origin`

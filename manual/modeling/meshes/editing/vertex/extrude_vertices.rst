@@ -4,8 +4,7 @@
 Extrude Vertices
 ****************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode, Vertex Select mode
    :Menu:      :menuselection:`Vertex --> Extrude Vertices`

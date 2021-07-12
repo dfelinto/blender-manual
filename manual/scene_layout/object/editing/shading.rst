@@ -8,8 +8,7 @@ Shading
 Shade Smooth
 ============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Shade Smooth`
@@ -38,8 +37,7 @@ to that shown in the first image above.
 Shade Flat
 ==========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Shade Flat`

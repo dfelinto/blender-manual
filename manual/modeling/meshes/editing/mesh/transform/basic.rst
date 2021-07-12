@@ -3,8 +3,7 @@
 Move, Rotate, Scale
 *******************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Tool:      :menuselection:`Toolbar --> Move, Rotate, Scale`
@@ -33,8 +32,7 @@ the :doc:`Proportional Editing </editors/3dview/controls/proportional_editing>`.
 Transform Panel
 ===============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Panel:     :menuselection:`Sidebar region --> Transform`

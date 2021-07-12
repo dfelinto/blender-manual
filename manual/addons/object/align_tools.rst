@@ -40,8 +40,7 @@ Align to Active Object
 - Scale Z
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Interface
    :Description: Align selected objects to the active object.

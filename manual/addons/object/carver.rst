@@ -106,8 +106,7 @@ Brush Type :kbd:`T`
       To do a union Boolean (does not work with multiple objects).
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Object
    :Description: Multiple tools to carve or to create objects.

@@ -7,8 +7,7 @@ World Settings
 Ambient Occlusion
 =================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`World --> Ambient Occlusion`
 
@@ -42,8 +41,7 @@ the :doc:`Ambient Occlusion </render/shader_nodes/input/ao>` shader.
 Mist Pass
 =========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`World --> Mist Pass`
 
@@ -88,8 +86,7 @@ Falloff
 Settings
 ========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`World --> Settings`
 
@@ -165,8 +162,7 @@ Step Size
 Ray Visibility
 ==============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`World --> Ray Visibility`
 

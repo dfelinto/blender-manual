@@ -24,8 +24,7 @@ Todo 2.81.
 Remeshing
 =========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode, Sculpt Mode
    :Panel:     :menuselection:`Properties --> Object Data --> Remesh`

@@ -6,8 +6,7 @@ Editing
 Transform
 =========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Key --> Transform`
@@ -36,8 +35,7 @@ Extend
 Snap
 ====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Key --> Snap`
    :Shortcut:  :kbd:`Shift-S`
@@ -81,8 +79,7 @@ Cursor Value to Selection
 Mirror
 ======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Key --> Mirror`
    :Shortcut:  :kbd:`Ctrl-M`
@@ -106,8 +103,7 @@ By Times over First Selected Marker
 Insert Keyframes
 ================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Key --> Insert Keyframes`
    :Shortcut:  :kbd:`Ctrl-RMB`, :kbd:`Shift-Ctrl-RMB`
@@ -120,8 +116,7 @@ All previously selected keyframes are kept selected by using :kbd:`Shift-Ctrl-RM
 Add F-Curve Modifier
 ====================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Key --> Add F-Curve Modifier`
    :Shortcut:  :kbd:`Shift-Ctrl-M`
@@ -136,8 +131,7 @@ the :menuselection:`Sidebar --> Modifiers` tab.
 Bake Sound to F-Curves
 ======================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Key --> Bake Sound to F-Curves`
 
@@ -174,8 +168,7 @@ Square
 Jump to Keyframes
 =================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Key --> Jump to keyframes`
    :Shortcut:  :kbd:`Ctrl-G`
@@ -226,8 +219,7 @@ Flipped
 Duplicate
 =========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Key --> Duplicate`
    :Shortcut:  :kbd:`Shift-D`
@@ -240,8 +232,7 @@ Duplicates the selected keyframes. You can reposition them by moving the mouse.
 Delete Keyframes
 ================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Key --> Delete Keyframes`
    :Shortcut:  :kbd:`X`, :kbd:`Delete`
@@ -254,8 +245,7 @@ Pressing :kbd:`X` or :kbd:`Delete` opens a pop-up menu from where you can delete
 Handle Type
 ===========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Key --> Handle Type`
    :Shortcut:  :kbd:`V`
@@ -268,8 +258,7 @@ Sets the :ref:`handle type <editors-graph-fcurves-settings-handles>` of the sele
 Interpolation Mode
 ==================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Key --> Interpolation Mode`
    :Shortcut:  :kbd:`T`
@@ -282,8 +271,7 @@ Sets the :ref:`interpolation mode <editors-graph-fcurves-settings-interpolation>
 Easing Mode
 ===========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Key --> Easing Mode`
    :Shortcut:  :kbd:`Ctrl-E`
@@ -296,8 +284,7 @@ Sets the :ref:`easing mode <editors-graph-fcurves-settings-easing>` of the selec
 Decimate
 ========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Key --> Decimate (Ratio)`
    :Menu:      :menuselection:`Key --> Decimate (Allowed Change)`
@@ -322,8 +309,7 @@ Mode
 Clean Keyframes
 ===============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Key --> Clean Keyframes`
    :Shortcut:  :kbd:`X`
@@ -345,8 +331,7 @@ to their auto-clamped shape, if they have been modified.
 Clean Channels
 ==============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Key --> Clean Channels`
    :Shortcut:  :kbd:`X`
@@ -368,8 +353,7 @@ it's not being used by any generative F-curve modifiers or drivers.
 Smooth Keys
 ===========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Key --> Smooth Keys`
    :Shortcut:  :kbd:`Alt-O`
@@ -395,8 +379,7 @@ seem to be never modified by this tool.
 Sample Keyframes
 ================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Key --> Sample Keyframes`
    :Shortcut:  :kbd:`Shift-Alt-O`
@@ -419,8 +402,7 @@ Sampling a set of keyframes replaces interpolated values with a new keyframe for
 Bake Curve
 ==========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Key --> Bake Curve`
    :Shortcut:  :kbd:`Alt-C`
@@ -433,8 +415,7 @@ Baking a curve replaces it with a set of sampled points, and removes the ability
 Un-Bake Curve
 =============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Key --> Un-Bake Curve`
 

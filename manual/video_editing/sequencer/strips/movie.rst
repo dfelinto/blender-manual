@@ -19,8 +19,7 @@ e.g. in the Audio-Video Interleaved format (``*.avi`` file).
 Add Movie Strip
 ===============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Add --> Movie`
 

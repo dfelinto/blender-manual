@@ -11,8 +11,7 @@ These tools are to help cleanup degenerate geometry and fill in missing areas of
 Decimate Geometry
 =================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Clean up --> Decimate Geometry`
@@ -42,8 +41,7 @@ Symmetry
 Fill Holes
 ==========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Clean up --> Fill Holes`
@@ -63,8 +61,7 @@ This is different from the face creation operator in three important respects:
 Make Planar Faces
 =================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Clean up --> Make Planar Faces`
@@ -84,8 +81,7 @@ Iterations
 Split Non-Planar Faces
 ======================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Clean up --> Split Non-Planar Faces`
@@ -99,8 +95,7 @@ a given limit.
 Split Concave Faces
 ===================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Clean up --> Split Concave Faces`
@@ -114,8 +109,7 @@ by splitting the concave into two or more convex faces.
 Delete Loose
 ============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Clean up --> Delete Loose`
@@ -128,8 +122,7 @@ This tool removes disconnected vertices and edges (optionally faces).
 Degenerate Dissolve
 ===================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Clean up --> Degenerate Dissolve`
@@ -146,8 +139,7 @@ This tool collapses / removes geometry which you typically will not want.
 Merge by Distance
 =================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Vertex --> Merge by Distance`,

@@ -5,8 +5,7 @@
 Bevel Edges
 ***********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Edge --> Bevel Edges`

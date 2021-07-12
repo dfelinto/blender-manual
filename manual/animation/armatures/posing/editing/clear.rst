@@ -3,8 +3,7 @@
 Clear Transform
 ***************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Pose Mode
    :Menu:      :menuselection:`Pose --> Clear Transform`

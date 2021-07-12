@@ -9,8 +9,7 @@ What is described on this page about Object Constraints can be also be applied o
 Tab
 ===
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Properties --> Constraint tab`
@@ -31,8 +30,7 @@ Menu
 Add Constraint (with Targets)
 -----------------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode and Pose Mode
    :Menu:      :menuselection:`Object --> Constraint --> Add Constraint (with Targets)`
@@ -54,8 +52,7 @@ provided that armature is in Pose Mode.
 Copy Constraints to Selected Objects
 ------------------------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode and Pose Mode
    :Menu:      :menuselection:`Object --> Constraint --> Copy Constraints to Selected Objects`
@@ -68,8 +65,7 @@ Copies the active object Constraints to the rest of the selected objects.
 Clear Object Constraints
 ------------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode and Pose Mode
    :Panel:     :menuselection:`Object --> Constraint --> Clear Object Constraints`
@@ -83,8 +79,7 @@ Removes all Constraints of the selected object(s).
 Track
 =====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Panel:     :menuselection:`Object --> Track`

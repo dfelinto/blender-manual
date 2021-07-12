@@ -4,8 +4,7 @@
 Trace Images to Grease Pencil
 *****************************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Convert --> Trace Images to Grease Pencil`

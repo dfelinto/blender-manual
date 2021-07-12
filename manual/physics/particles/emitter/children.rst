@@ -3,8 +3,7 @@
 Children
 ********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Particle System --> Children`
 
@@ -46,8 +45,7 @@ Seed
 Clumping
 --------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Particle System --> Children --> Clumping`
 
@@ -76,8 +74,7 @@ Clump Noise Size
 Roughness
 ---------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Particle System --> Children --> Roughness`
 
@@ -97,8 +94,7 @@ Random, Size, Threshold
 Kink
 ----
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Particle System --> Children --> Kink`
 

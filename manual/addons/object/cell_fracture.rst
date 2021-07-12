@@ -30,8 +30,7 @@ Usage
    the fractured object will appear on the next layer to the active objects layer.
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Object
    :Description: Tool for the fracturing of objects.

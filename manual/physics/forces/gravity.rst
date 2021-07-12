@@ -4,8 +4,7 @@
 Gravity
 *******
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Scene --> Gravity`
 

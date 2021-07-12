@@ -3,8 +3,7 @@
 Cache
 *****
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Physics --> Fluid --> Cache`
    :Type:      Domain

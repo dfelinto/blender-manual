@@ -3,8 +3,7 @@
 Paper Model
 ***********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Import-Export
    :Menu:      :menuselection:`File --> Export --> Paper Model (.pdf/.svg)`

@@ -33,8 +33,7 @@ To access the previously opened text files, select them from the header data-blo
    the few usage cases where it is currently needed.
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Development
    :Description: Opens source file of chosen operator or call locations, if source not available.

@@ -14,8 +14,7 @@ animation constraints and drivers.
 Creating a Rigid Body
 =====================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Panel:     :menuselection:`Properties --> Physics --> Rigid Body`

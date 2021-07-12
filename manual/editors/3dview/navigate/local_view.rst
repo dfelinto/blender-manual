@@ -8,8 +8,7 @@ Local View
 Toggle Local View
 =================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All modes
    :Menu:      :menuselection:`View --> Local View --> Toggle Local View`
@@ -57,8 +56,7 @@ from the *View Menu* or using the shortcut :kbd:`NumpadSlash`.
 Remove from Local View
 ----------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All modes
    :Menu:      :menuselection:`View --> Local View --> Remove from Local View`

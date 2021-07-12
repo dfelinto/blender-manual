@@ -5,8 +5,7 @@
 Parenting
 *********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Armature --> Parent`

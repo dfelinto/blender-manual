@@ -7,8 +7,7 @@
 Proportional Editing
 ********************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object and Edit Mode
    :Header:    Via the |prop-edit-icon| icon in the header.

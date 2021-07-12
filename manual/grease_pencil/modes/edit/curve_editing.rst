@@ -30,8 +30,7 @@ Usage
 Curve Editing Popover
 =====================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Panel:     :menuselection:`3D Viewport --> Header --> Curve Editing`

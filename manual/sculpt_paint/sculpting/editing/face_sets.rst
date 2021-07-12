@@ -16,8 +16,7 @@ A pie menu to edit face sets can be accessed with :kbd:`W`.
 Face Set from Masked
 ====================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sculpt Mode
    :Menu:      :menuselection:`Face Sets --> Face Set from Masked`
@@ -28,8 +27,7 @@ Creates a new face set from :ref:`Masked Geometry <sculpt-mask-menu>`.
 Face Set from Visible
 =====================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sculpt Mode
    :Menu:      :menuselection:`Face Sets --> Face Set from Visible`
@@ -40,8 +38,7 @@ Creates a new face set from all visible geometry.
 Face Set from Edit Mode Selection
 =================================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sculpt Mode
    :Menu:      :menuselection:`Face Sets --> Face Set from Edit Mode Selection`
@@ -54,8 +51,7 @@ Creates a new face set corresponding to the Edit Mode face selection.
 Initialize Face Sets
 ====================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sculpt Mode
    :Menu:      :menuselection:`Face Sets --> Initialize Face Sets`
@@ -95,8 +91,7 @@ Threshold
 Grow/Shrink Face Sets
 =====================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sculpt Mode
    :Menu:      :menuselection:`Face Sets --> Grow/Shrink Face Sets`
@@ -109,8 +104,7 @@ Expands or contracts the face set under the cursor by adding or removing surroun
 Expand Face Set by Topology
 ===========================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sculpt Mode
    :Menu:      :menuselection:`Face Sets --> Expand Face Set by Topology`
@@ -128,8 +122,7 @@ meaning all the hotkeys and functionality works the same as that tool.
 Expand Active Face Set
 ======================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sculpt Mode
    :Menu:      :menuselection:`Face Sets --> Expand Face Set by Topology`
@@ -149,8 +142,7 @@ meaning all the hotkeys and functionality works the same as that tool.
 Extract Face Set
 ================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sculpt Mode
    :Menu:      :menuselection:`Face Sets --> Grow/Shrink Face Sets`
@@ -165,8 +157,7 @@ After the operator is finished the new mesh will be selected in Object Mode.
 Invert Visible Face Sets
 ========================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sculpt Mode
    :Menu:      :menuselection:`Face Sets --> Invert Visible Face Sets`
@@ -177,8 +168,7 @@ Hides all geometry that is part of a face set and makes all hidden geometry that
 Show All Face Sets
 ==================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sculpt Mode
    :Menu:      :menuselection:`Face Sets --> Show All Face Sets`
@@ -191,8 +181,7 @@ Shows all hidden geometry that is part of a face set.
 Randomize Colors
 ================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sculpt Mode
    :Menu:      :menuselection:`Face Sets --> Randomize Colors`

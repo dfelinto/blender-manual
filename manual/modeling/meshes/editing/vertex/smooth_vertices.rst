@@ -5,8 +5,7 @@
 Smooth Vertices
 ***************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Vertex --> Smooth Vertices`,

@@ -3,8 +3,7 @@
 Snake Hook
 **********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sculpt Mode
    :Tool:      :menuselection:`Toolbar --> Snake Hook`

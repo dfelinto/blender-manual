@@ -3,8 +3,7 @@
 Side of Active
 **************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Side of Active`

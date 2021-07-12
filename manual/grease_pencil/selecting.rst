@@ -5,8 +5,7 @@
 Selecting
 *********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`3D Viewport Header --> Select Mode`
@@ -45,8 +44,7 @@ Box/Circle/All/None/Invert Select
 Select Linked
 =============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Linked`
@@ -59,8 +57,7 @@ and all the linked ones, i.e. all points belonging to the same stroke.
 Select Alternated
 =================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Alternated`
@@ -72,8 +69,7 @@ Selects alternate points in the selected strokes.
 Select Grouped
 ==============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Grouped`
@@ -90,8 +86,7 @@ Material
 Select Vertex Color
 ===================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Vertex Paint Mode
    :Menu:      :menuselection:`Select --> Vertex Color`
@@ -105,8 +100,7 @@ Tolerance
 Select First/Last
 =================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> First/Last`
@@ -118,8 +112,7 @@ This is useful to quickly find the start of a stroke.
 Select More/Less
 ================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> More/Less`

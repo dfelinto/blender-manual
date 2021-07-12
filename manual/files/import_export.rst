@@ -5,8 +5,7 @@
 Importing & Exporting Files
 ***************************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Topbar --> File --> Import/Export`
 

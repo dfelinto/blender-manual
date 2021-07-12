@@ -6,8 +6,7 @@ Sculpt
 Show & Hide
 ===========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sculpt Mode
    :Menu:      :menuselection:`Sculpt`
@@ -34,8 +33,7 @@ Hide Masked
 Set Pivot
 =========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sculpt Mode
    :Menu:      :menuselection:`Sculpt --> Set Pivot`
@@ -64,8 +62,7 @@ Surface
 Rebuild BVH
 ===========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sculpt Mode
    :Menu:      :menuselection:`Sculpt --> Rebuild BVH`
@@ -79,8 +76,7 @@ which can improve performance which might degrade over time while using Dyntopo.
 Transfer Sculpt Mode
 ====================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sculpt Mode
    :Menu:      :menuselection:`Sculpt --> Transfer Sculpt Mode`

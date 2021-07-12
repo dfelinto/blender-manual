@@ -28,8 +28,7 @@ List All Shortcuts
    Print a list of all used shortcuts to the Text editor.
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Development
    :Description: Find free shortcuts, inform about used and print a key list.

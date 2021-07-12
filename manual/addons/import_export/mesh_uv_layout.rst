@@ -3,8 +3,7 @@
 UV Layout
 *********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Import-Export
    :Menu:      :menuselection:`UV Editor --> UV --> Export UV Layout`

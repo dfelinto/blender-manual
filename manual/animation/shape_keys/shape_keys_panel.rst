@@ -8,8 +8,7 @@ Shape Keys Panel
 
    Shape Keys panel.
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    Properties
    :Mode:      All modes

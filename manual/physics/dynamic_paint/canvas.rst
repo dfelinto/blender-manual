@@ -4,8 +4,7 @@
 Canvas
 ******
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Physics --> Dynamic Paint`
    :Type:      Canvas
@@ -56,8 +55,7 @@ Frames
 Surface
 =======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Type:      Canvas
    :Panel:     :menuselection:`Physics --> Dynamic Paint --> Surface`
@@ -195,8 +193,7 @@ Influence Scale, Radius Scale
 Output
 ======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Type:      Canvas
    :Panel:     :menuselection:`Physics --> Dynamic Paint --> Output`
@@ -228,8 +225,7 @@ you can define used UV maps and output file saving directory, filenames and imag
 Initial Color
 =============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Type:      Canvas
    :Panel:     :menuselection:`Physics --> Dynamic Paint --> Initial Color`
@@ -245,8 +241,7 @@ Allows you to define the initial color of the canvas. (Todo 2.62)
 Effects
 =======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Type:      Canvas
    :Panel:     :menuselection:`Physics --> Dynamic Paint --> Effects`
@@ -277,8 +272,7 @@ movement becomes slower until it stops.
 Cache
 =====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Type:      Canvas
    :Panel:     :menuselection:`Physics --> Dynamic Paint --> Cache`

@@ -14,8 +14,7 @@ The *Armature* tab in Properties contains various panels gathering the armature 
 Motion Paths
 ============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Panel:     :menuselection:`Armature --> Motion Paths`
@@ -27,8 +26,7 @@ of the motion path your skeleton leaves when animated.
 Inverse Kinematics
 ==================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Panel:     :menuselection:`Armature --> Inverse Kinematics`
@@ -45,8 +43,7 @@ used in your animation.
 Custom Properties
 =================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Panel:     :menuselection:`Armature --> Custom Properties`

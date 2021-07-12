@@ -10,8 +10,7 @@ Scene Properties
 Scene
 =====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Properties --> Scene --> Scene`
 
@@ -52,8 +51,7 @@ Active Clip
 Units
 =====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Properties --> Scene --> Units`
 
@@ -171,8 +169,7 @@ Temperature
 Gravity
 =======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Properties --> Scene --> Gravity`
 
@@ -184,8 +181,7 @@ See the :doc:`Physics chapter </physics/forces/gravity>` for more information.
 Keying Sets
 ===========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Properties --> Scene --> Keying Sets`
 
@@ -201,8 +197,7 @@ See :doc:`/animation/keyframes/keying_sets`.
 Audio
 =====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Properties --> Scene --> Audio`
 
@@ -237,8 +232,7 @@ Update Animation Cache
 Rigid Body World
 ================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Properties --> Scene --> Rigid Body World`
 

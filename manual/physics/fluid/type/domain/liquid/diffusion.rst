@@ -8,8 +8,7 @@
 Diffusion
 *********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Type:      Domain
    :Panel:     :menuselection:`Physics --> Fluid --> Diffusion`

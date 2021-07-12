@@ -8,8 +8,7 @@
 Transform Orientations
 **********************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object and Edit Modes
    :Panel:     :menuselection:`Header --> Transform Orientations`
@@ -112,8 +111,7 @@ Examples
 Custom Orientations
 -------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object and Edit Modes
    :Panel:     :menuselection:`Header --> Transform Orientations`

@@ -125,8 +125,7 @@ Example
 .. vimeo:: 132720942
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Mesh
    :Description: Tools for computational design.

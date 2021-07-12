@@ -3,8 +3,7 @@
 Field Weights
 *************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Properties --> Physics --> Fluid --> Field Weights`
    :Type:      Domain

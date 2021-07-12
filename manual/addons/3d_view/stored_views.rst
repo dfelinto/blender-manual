@@ -64,8 +64,7 @@ Instructions
 As all stored definitions are saved in the blend-file, you can save the file and
 the next time you use it, the stored views or point of view will be ready.
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  3D View
    :Description: Save and restore user defined views, :abbr:`POV (Point Of View)` and camera locations.

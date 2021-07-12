@@ -18,8 +18,7 @@ or to facilitate one-step appending or linking between files or across scenes.
 Collections Tab
 ===============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Properties --> Collection Properties`
 
@@ -59,8 +58,7 @@ Todo.
 Collections Menu
 ================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Collection`
@@ -92,8 +90,7 @@ Remove Selected from Active Collection :kbd:`Shift-Alt-G`
 Collections Panel
 =================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Panel:     :menuselection:`Object tab --> Collections`

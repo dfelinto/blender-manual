@@ -35,8 +35,7 @@ This way the quality of the baked textures should match the result you get from 
 Settings
 ========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Render --> Bake`
 

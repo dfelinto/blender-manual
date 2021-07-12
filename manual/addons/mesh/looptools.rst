@@ -227,8 +227,7 @@ Influence
    for the archived original docs.
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Mesh
    :Description: Mesh modeling toolkit. Several tools to aid modeling.

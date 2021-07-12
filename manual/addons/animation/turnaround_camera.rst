@@ -31,8 +31,7 @@ the selected object position or cursor position if chosen.
 The rotation can be defined by revolutions in X/Y/Z axis.
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Animation
    :Description: Add a camera rotation around selected object.

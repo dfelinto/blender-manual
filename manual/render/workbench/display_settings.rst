@@ -15,8 +15,7 @@ Object
 The Viewport Display panel in the Object Properties has several settings that
 are used by the Workbench Engine.
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Properties --> Object --> Viewport Display`
 
@@ -38,8 +37,7 @@ Material
 The Viewport Display panel in the Material Properties has several settings that
 are used by the Workbench Engine.
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Properties --> Material --> Viewport Display`
 
@@ -62,8 +60,7 @@ World
 The Viewport Display panel in the World Properties has several settings that
 are used by the Workbench Engine.
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Properties --> World --> Viewport Display`
 

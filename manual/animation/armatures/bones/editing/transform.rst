@@ -37,8 +37,7 @@ as well as its :ref:`roll rotation <armature-bone-roll>`.
 Scale Radius
 ============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Armature --> Transform --> Scale Radius`
@@ -80,8 +79,7 @@ Therefore, it is advisable to place all the bones first, and only then edit thei
 Scale Envelope Distance
 =======================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode and Pose Mode
    :Menu:      :menuselection:`Armature --> Transform --> Scale Envelope Distance`
@@ -127,8 +125,7 @@ within which it can influence vertices of child objects.
 Align Bones
 ===========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Armature --> Transform --> Align Bones`

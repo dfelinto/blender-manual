@@ -20,8 +20,7 @@ You can use these systems to create a variety of static and dynamic effects such
 Quick Effects
 =============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    3D Viewport
    :Mode:      Object Mode

@@ -5,8 +5,7 @@
 Subdivision
 ***********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Render --> Subdivision`
 

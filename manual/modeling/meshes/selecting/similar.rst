@@ -4,8 +4,7 @@
 Select Similar
 **************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Similar`
@@ -73,8 +72,7 @@ Face Selection Mode:
 Face Regions
 ============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Similar --> Face Regions`

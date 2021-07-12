@@ -86,8 +86,7 @@ These settings allow you to add materials to the sides and tops of the protrusio
 #. Run Discombobulator and you can pick the material for the top or sides.
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Add Mesh
    :Description: Add Greeble type effect to a mesh.

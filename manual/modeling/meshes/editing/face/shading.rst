@@ -18,8 +18,7 @@ In Edit Mode, individual faces can be selected to determine which faces are smoo
 Shade Smooth
 ============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Face --> Shade Smooth`
@@ -32,8 +31,7 @@ Using interpolated vertex normals, the mesh faces will blur at the edges and app
 Shade Flat
 ==========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Face --> Shade Flat`

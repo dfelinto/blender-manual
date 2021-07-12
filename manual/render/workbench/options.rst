@@ -3,8 +3,7 @@
 Options
 *******
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Properties --> Render --> Options` panel.
 

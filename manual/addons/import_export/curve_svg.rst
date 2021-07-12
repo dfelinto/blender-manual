@@ -3,8 +3,7 @@
 Scalable Vector Graphics (SVG)
 ******************************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Import-Export
    :Menu:      :menuselection:`File --> Import --> Scalable Vector Graphics (.svg)`

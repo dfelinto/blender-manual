@@ -3,8 +3,7 @@
 Rip Vertices and Fill
 *********************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Vertex --> Rip Vertices and Fill`

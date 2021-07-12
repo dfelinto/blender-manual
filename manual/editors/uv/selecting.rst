@@ -113,8 +113,7 @@ Select Overlap
 Shortest Path
 =============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Select Linked --> Shortest Path`
@@ -151,8 +150,7 @@ Checker Deselect Options
 Select Edge Loops
 =================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Shortcut:  :kbd:`Alt-LMB`, or :kbd:`Shift-Alt-LMB` for modifying existing selection.

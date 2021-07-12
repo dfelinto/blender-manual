@@ -4,8 +4,7 @@
 Physical Properties
 *******************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Physics --> Cloth --> Physical Properties`
 

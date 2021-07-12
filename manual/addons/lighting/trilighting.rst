@@ -32,8 +32,7 @@ Usage
 #. The created lights are pointed at and locked to the active object using a Track To constraint.
 #. In the :menuselection:`Properties --> Light tab` you can further edit the properties of your lights.
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Lighting
    :Description: Add three point lighting to the selected or active object.

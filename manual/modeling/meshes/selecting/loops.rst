@@ -8,8 +8,7 @@ Select Loops
 Edge Loops
 ==========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode (Vertex or Edge select mode)
    :Menu:      :menuselection:`Select --> Select Loops --> Edge Loops`
@@ -53,8 +52,7 @@ where loop select would not otherwise select the full boundary.
 Face Loops
 ==========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode (Face or Vertex select modes)
    :Shortcut:  :kbd:`Alt-LMB` or :kbd:`Shift-Alt-LMB` for modifying existing selection.
@@ -90,8 +88,7 @@ the entire face.
 Edge Rings
 ==========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Select Loops --> Edge Rings`
@@ -136,8 +133,7 @@ One is based on edges during computation and the other is based on faces.
 Select Loop Inner-Region
 ========================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode (Edge select mode)
    :Menu:      :menuselection:`Select --> Select Loops --> Select Loop Inner-Region`
@@ -165,8 +161,7 @@ then all connected edges on the mesh will be considered inside the loop.
 Select Boundary Loop
 ====================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode (Edge select mode)
    :Menu:      :menuselection:`Select --> Select Loops --> Select Boundary Loop`

@@ -3,8 +3,7 @@
 Introduction
 ************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Properties --> View Layer --> Freestyle Line Style`
 

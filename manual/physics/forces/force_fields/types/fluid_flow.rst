@@ -4,8 +4,7 @@
 Fluid Flow
 **********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Physics --> Force Fields`
    :Type:      Fluid Flow

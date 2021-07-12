@@ -176,8 +176,7 @@ Preferences
 
 The preferences for the add-on make some features optional, so you can hide those you don't use.
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Lighting
    :Description: Show Sun position with objects and/or sky texture.

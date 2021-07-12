@@ -64,8 +64,7 @@ Inverse :kbd:`Ctrl-I`
 Select Random
 =============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Select Random`
@@ -83,8 +82,7 @@ Action
 Checker Deselect
 ================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Checker Deselect`
@@ -106,8 +104,7 @@ Offset
 Select Linked
 =============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Select Linked`
@@ -120,8 +117,7 @@ and all the linked ones, i.e. all points belonging to the same surface.
 Select Similar
 ==============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Select Similar`
@@ -151,8 +147,7 @@ Threshold
 Select Control Point Row
 ========================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Control Point Row`
@@ -170,8 +165,7 @@ removing *everything else* from the selection.
 Select More/Less
 ================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> More/Less`

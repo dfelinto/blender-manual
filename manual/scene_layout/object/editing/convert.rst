@@ -8,8 +8,7 @@ Convert
 Curve
 =====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Convert --> Curve`
@@ -23,8 +22,7 @@ smooth segments as described in :ref:`curve-convert-type`.
 Mesh
 ====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Convert --> Mesh`
@@ -37,8 +35,7 @@ Note that it also keeps the faces and volumes created by closed and extruded cur
 Grease Pencil
 =============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Convert --> Grease Pencil`
@@ -69,8 +66,7 @@ Export Faces
 Trace Image to Grease Pencil
 ============================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Convert --> Trace Image to Grease Pencil`

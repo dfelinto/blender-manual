@@ -3,8 +3,7 @@
 Viewport Display
 ****************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Panel:     :menuselection:`Armature --> Viewport Display`

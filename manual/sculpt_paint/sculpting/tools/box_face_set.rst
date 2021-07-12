@@ -3,8 +3,7 @@
 Box Face Set
 ************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sculpt Mode
    :Tool:      :menuselection:`Toolbar --> Box Face Set`

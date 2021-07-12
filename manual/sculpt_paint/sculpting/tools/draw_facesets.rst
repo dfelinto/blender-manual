@@ -3,8 +3,7 @@
 Draw Face Sets
 **************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sculpt Mode
    :Tool:      :menuselection:`Toolbar --> Draw Face Sets`

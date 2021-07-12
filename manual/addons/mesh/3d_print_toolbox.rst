@@ -3,8 +3,7 @@
 3D Print Toolbox
 ****************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Mesh
    :Description: Utilities for 3D printing.

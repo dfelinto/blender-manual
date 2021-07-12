@@ -3,8 +3,7 @@
 Web3D X3D/VRML2
 ***************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Import-Export
    :Menu:      :menuselection:`File --> Import/Export --> X3D Extensible 3D (.x3d/.wrl)`

@@ -4,8 +4,7 @@
 Align Objects
 *************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Transform --> Align Objects`

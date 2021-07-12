@@ -11,8 +11,7 @@ Transform
 Move
 ----
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Strip --> Transform --> Move`
    :Shortcut:  :kbd:`G`
@@ -73,8 +72,7 @@ The frame number label over the strip displays the end frame of the strip.
 Move/Extend from Current Frame
 ------------------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Strip --> Transform --> Move/Extend from Current Frame`
    :Shortcut:  :kbd:`E`
@@ -91,8 +89,7 @@ so you can change the duration of the current frame.
 Slip Strip Contents
 -------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Strip --> Transform --> Slip Strip Contents`
    :Shortcut:  :kbd:`S`
@@ -105,8 +102,7 @@ The Slip tool allows you to change the position of the contents of a strip witho
 Snap Strips to the Current Frame
 --------------------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Strip --> Transform --> Snap Strips to the Current Frame`
    :Shortcut:  :kbd:`Shift-S`
@@ -119,8 +115,7 @@ Moves the strip or control point to the current frame.
 Clear Strips Offset
 -------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Strip --> Transform --> Clear Strips Offset`
    :Shortcut:  :kbd:`Alt-O`
@@ -133,8 +128,7 @@ To reset the (soft) start/end frame handles.
 Swap Strips
 -----------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Strip --> Transform --> Swap Strips`
 
@@ -149,8 +143,7 @@ Right :kbd:`Alt-Right`
 Remove Gaps
 -----------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Strip --> Transform --> Insert Gaps`
    :Shortcut:  :kbd:`Backspace`
@@ -167,8 +160,7 @@ All Gaps
 Insert Gaps
 -----------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Strip --> Transform --> Insert Gaps`
    :Shortcut:  :kbd:`Equals`
@@ -185,8 +177,7 @@ Image Transform
 Scale to Fit
 ------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Strip --> Image Transform --> Scale to Fit`
 
@@ -201,8 +192,7 @@ along the content's border to fit the content in the rendered area.
 Scale to Fill
 -------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Strip --> Image Transform --> Scale to Fill`
 
@@ -216,8 +206,7 @@ This may mean that portions of the original image no longer fit the content insi
 Stretch to Fill
 ---------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Strip --> Image Transform --> Stretch to Fill`
 
@@ -233,8 +222,7 @@ This may mean that the original image becomes distorted to fit the content insid
 Clear Position
 --------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Strip --> Image Transform --> Clear Position`
 
@@ -244,8 +232,7 @@ Resets the strips :ref:`Position Transforms <bpy.types.SequenceTransform.rotatio
 Clear Scale
 -----------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Strip --> Image Transform --> Clear Scale`
 
@@ -255,8 +242,7 @@ Resets the strips :ref:`Scale Transforms <bpy.types.SequenceTransform.scale>` to
 Clear Rotation
 --------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Strip --> Image Transform --> Clear Rotation`
 
@@ -266,8 +252,7 @@ Resets the strips :ref:`Rotation Transform <bpy.types.SequenceTransform.rotation
 Clear All
 ---------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Strip --> Image Transform --> Clear All`
 
@@ -280,8 +265,7 @@ their default values.
 Split
 =====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Strip --> Split`
    :Shortcut:  :kbd:`K`
@@ -298,8 +282,7 @@ This will result in two strips which use the same source, fitting the original s
 Hold Split
 ==========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Strip --> Hold Split`
    :Shortcut:  :kbd:`Shift-K`
@@ -321,8 +304,7 @@ number fields in the *Strip Info* panel.
 Duplicate Strips
 ================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Strip --> Duplicate Strips`
    :Shortcut:  :kbd:`Shift-D`
@@ -336,8 +318,7 @@ drag it to a time and channel, and drop it by :kbd:`LMB` click.
 Delete
 ======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Strip --> Delete`
    :Shortcut:  :kbd:`Delete`, :kbd:`X`
@@ -348,8 +329,7 @@ Delete the selected strip(s).
 Separate Images
 ===============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Strip --> Separate Images`
    :Shortcut:  :kbd:`Y`
@@ -369,8 +349,7 @@ Movie Strip
 Set Render Size
 ---------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Strip --> Set Render Size`
 
@@ -382,8 +361,7 @@ Sets the render resolution and aspect to match the strip's resolution.
 Deinterlace Movies
 ------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Strip --> Deinterlace Movies`
 
@@ -400,8 +378,7 @@ Effect Strip
 Change Effect Input
 -------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Strip --> Effect Strip --> Change Effect Type`
 
@@ -413,8 +390,7 @@ Swaps which strips are the input for the effect strip.
 Change Effect Type
 ------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Strip --> Effect Strip --> Change Effect Type`
 
@@ -426,8 +402,7 @@ Switch the effects on a selected Effect strip.
 Reassign Inputs
 ---------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Strip --> Effect Strip --> Reassign Inputs`
    :Shortcut:  :kbd:`R`
@@ -442,8 +417,7 @@ If you don't create a cycle, those will be connected to a new effect chain.
 Swap Inputs
 -----------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Strip --> Effect Strip --> Swap Inputs`
    :Shortcut:  :kbd:`Alt-S`
@@ -506,8 +480,7 @@ In this menu you can quickly access some commonly used tools.
 Fades
 =====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Add --> Fades`
 

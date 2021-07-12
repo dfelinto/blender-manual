@@ -70,8 +70,7 @@ The :doc:`NLA Editor </editors/nla/index>` is used to blend multiple actions tog
 Bake Action
 ===========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    3D Viewport
    :Mode:      Object and Pose Modes

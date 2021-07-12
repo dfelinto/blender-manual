@@ -3,8 +3,7 @@
 Extrude
 *******
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Extrude`
@@ -52,8 +51,7 @@ See :ref:`bpy.ops.mesh.extrude_vertices_move`.
 Extrude Repeat
 ==============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Extrude --> Extrude Repeat`

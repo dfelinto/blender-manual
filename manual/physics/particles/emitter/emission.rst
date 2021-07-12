@@ -3,8 +3,7 @@
 Emission
 ********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Particle System --> Emission`
 
@@ -47,8 +46,7 @@ Lifetime Randomness
 Source
 ======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Particle System --> Emission --> Source`
 

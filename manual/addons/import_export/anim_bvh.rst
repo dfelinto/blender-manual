@@ -3,8 +3,7 @@
 BioVision Motion Capture (BVH)
 ******************************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Import-Export
    :Menu:      :menuselection:`File --> Import/Export --> Motion Capture (.bvh)`

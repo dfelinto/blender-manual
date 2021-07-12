@@ -65,8 +65,7 @@ adjust the circle's vertex count. Then press *Make Circle Mesh* to add a new cir
 This is a little bit experimental, but works fine.
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Mesh
    :Description: Mesh modeling toolkit. Several tools to aid modeling.

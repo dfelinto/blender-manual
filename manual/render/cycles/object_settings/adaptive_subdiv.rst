@@ -6,8 +6,7 @@
 Adaptive Subdivision
 ********************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Modifier --> Subdivision Surface`
 

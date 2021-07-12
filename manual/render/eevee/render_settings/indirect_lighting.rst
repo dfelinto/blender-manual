@@ -28,8 +28,7 @@ while injecting the previous bake result into the bake.
 Light bounces only concerns diffuse lighting.
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Render --> Indirect Lighting`
 

@@ -4,8 +4,7 @@
 Stroke Placement
 ****************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Draw Mode
    :Header:    :menuselection:`Stroke Placement`

@@ -28,8 +28,7 @@ Accordingly the post-process blurring radius is scaled down to remove undersampl
 Yet some scenes might still need more post-process blur in order to remove the noticeable sample pattern.
 This is exactly what the *Overblur* option does, but it will also reduce the bokeh shape sharpness.
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Render --> Depth of Field`
 

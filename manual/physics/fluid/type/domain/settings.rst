@@ -3,8 +3,7 @@
 Settings
 ********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Physics --> Fluid --> Settings`
    :Type:      Domain
@@ -121,8 +120,7 @@ Delete in Obstacle
 Border Collisions
 =================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Physics --> Fluid --> Settings --> Border Collisions`
    :Type:      Domain (Gas)
@@ -134,8 +132,7 @@ without influencing the rest of the simulation, and which sides will deflect flu
 Smoke
 =====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Physics --> Fluid --> Settings --> Smoke`
    :Type:      Domain (Gas)
@@ -203,8 +200,7 @@ Slow
 Fire
 ====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Type:      Domain
    :Panel:     :menuselection:`Physics --> Fluid --> Settings --> Fire`
@@ -248,8 +244,7 @@ Flame Color
 Liquid
 ======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Type:      Domain
    :Panel:     :menuselection:`Physics --> Fluid --> Settings --> Liquid`

@@ -5,8 +5,7 @@
 Slide Vertices
 **************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Vertex --> Slide Vertices`

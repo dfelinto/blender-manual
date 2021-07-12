@@ -48,8 +48,7 @@ Meta strips group strips together as a whole, so you can move them as one.
 If you find yourself moving a lot of strips together, you can group them into a Meta strip.
 A Meta strip can be moved and duplicated like a normal strip.
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Add --> Add Meta-Strips`
    :Shortcut:  :kbd:`Shift-G`
@@ -68,8 +67,7 @@ A Meta strip can be moved and duplicated like a normal strip.
 
 A Meta strip still contains the underlying strips. You can ungroup a Meta strip.
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Add --> Remove Meta-Strips`
    :Shortcut:  :kbd:`Alt-G`

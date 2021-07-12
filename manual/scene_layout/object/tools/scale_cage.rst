@@ -4,8 +4,7 @@
 Scale Cage
 **********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object and Edit Modes
    :Tool:      :menuselection:`Toolbar --> Scale --> Scale Cage`

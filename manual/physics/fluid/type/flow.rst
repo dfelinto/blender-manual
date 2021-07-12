@@ -16,8 +16,7 @@ a default fluid flow source object.
 Settings
 ========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Physics --> Fluid --> Settings`
    :Type:      Flow
@@ -213,8 +212,7 @@ Initial X, Y, Z
 Texture
 -------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Type:      Flow
    :Panel:     :menuselection:`Physics --> Fluid --> Settings --> Texture`

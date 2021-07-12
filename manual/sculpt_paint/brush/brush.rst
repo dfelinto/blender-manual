@@ -8,8 +8,7 @@
 Brushes
 *******
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sculpt Mode
    :Panel:     :menuselection:`Sidebar --> Tools --> Brushes`

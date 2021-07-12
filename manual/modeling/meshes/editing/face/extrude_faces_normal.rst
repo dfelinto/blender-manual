@@ -4,8 +4,7 @@
 Extrude Faces Along Normals
 ***************************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Tool:      :menuselection:`Toolbar --> Extrude Region --> Extrude Along Normals`

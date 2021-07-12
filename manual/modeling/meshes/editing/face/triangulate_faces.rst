@@ -4,8 +4,7 @@
 Triangulate Faces
 *****************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Face --> Triangulate Faces`

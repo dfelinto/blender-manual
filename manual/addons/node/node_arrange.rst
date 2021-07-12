@@ -31,8 +31,7 @@ Usage
 Todo.
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Node
    :Description: Node Tree Arrangement Tools.

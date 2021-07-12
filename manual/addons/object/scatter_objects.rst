@@ -3,8 +3,7 @@
 Scatter Objects
 ***************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Object
    :Description: Distribute object instances on another object.

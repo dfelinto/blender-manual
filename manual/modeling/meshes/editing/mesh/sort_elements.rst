@@ -5,8 +5,7 @@
 Sort Elements
 *************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Sort Elements...`

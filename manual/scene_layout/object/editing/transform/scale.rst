@@ -4,8 +4,7 @@
 Scale
 *****
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object and Edit Modes
    :Menu:      :menuselection:`Object/Mesh/Curve/Surface --> Transform --> Scale`

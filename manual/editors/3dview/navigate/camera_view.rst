@@ -26,8 +26,7 @@ The rendered image will contain everything within the dashed line.
 Viewing the Active Camera
 =========================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All modes
    :Menu:      :menuselection:`View --> Cameras --> Active Camera`
@@ -40,8 +39,7 @@ The triangle above the camera will become shaded when active.
 Setting the Active Camera
 =========================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`View --> Cameras --> Set Active Object as Camera`
@@ -78,8 +76,7 @@ See :ref:`Animating Cameras <bpy.ops.marker.camera_bind>`.
 Frame Camera Bounds
 ===================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`View --> Cameras --> Frame Camera Bounds`
@@ -107,8 +104,7 @@ you have to move or rotate the camera.
 Move Active Camera to View
 --------------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Shortcut:  :kbd:`Ctrl-Alt-Numpad0`

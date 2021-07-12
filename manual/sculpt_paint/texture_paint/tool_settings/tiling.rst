@@ -4,8 +4,7 @@
 Tiling
 ******
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    Image Editor
    :Mode:      Paint Mode

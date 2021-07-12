@@ -8,8 +8,7 @@ Select Linked
 Linked
 ======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Select Linked --> Linked`
@@ -31,8 +30,7 @@ This works differently in that it uses the geometry under the cursor instead of 
 Shortest Path
 =============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Select Linked --> Shortest Path`
@@ -85,8 +83,7 @@ Checker Deselect Options
 Linked Flat Faces
 =================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Select Linked --> Linked`

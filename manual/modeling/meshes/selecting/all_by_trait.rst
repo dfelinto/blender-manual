@@ -8,8 +8,7 @@ Select All by Trait
 Non-Manifold
 ============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Select All by Trait --> Non-Manifold`
@@ -37,8 +36,7 @@ Vertices
 Loose Geometry
 ==============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Select All by Trait --> Loose Geometry`
@@ -53,8 +51,7 @@ In face selection mode it selects all faces that do not share edges with other f
 Interior Faces
 ==============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Select All by Trait --> Interior Faces`
@@ -67,8 +64,7 @@ Selects faces where all edges have more than two faces.
 Faces by Sides
 ==============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Select All by Trait --> Faces by Sides`
@@ -81,8 +77,7 @@ Selects all faces that have a specified number of edges.
 Ungrouped Vertices
 ==================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Select All by Trait --> Ungrouped Vertices`

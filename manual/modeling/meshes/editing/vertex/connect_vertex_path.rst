@@ -4,8 +4,7 @@
 Connect Vertex Path
 *******************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Vertex --> Connect Vertex Path`

@@ -130,8 +130,7 @@ Tip
 Tools
 =====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Particle Edit Mode
    :Tool:      :menuselection:`Toolbar`
@@ -221,8 +220,7 @@ Strength :kbd:`Shift-F`
 Options
 =======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Particle Edit Mode
    :Panel:     :menuselection:`Tool Settings --> Options`
@@ -308,8 +306,7 @@ while high settings produce a smooth curve.
 Mirror
 ------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Particle Edit Mode
    :Menu:      :menuselection:`Particle --> Mirror`
@@ -328,8 +325,7 @@ you can use *Merge by Distance* from the *Particle* menu.
 Unify Length
 ------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Particle Edit Mode
    :Menu:      :menuselection:`Particle --> Unify Length`
@@ -340,8 +336,7 @@ This tool is used to make all selected hair uniform length by finding the averag
 Show/Hide
 ---------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Particle Edit Mode
    :Menu:      :menuselection:`Particle --> Show/Hide`

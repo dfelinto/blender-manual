@@ -3,8 +3,7 @@
 Snap Utilities Line
 *******************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Mesh
    :Description: Extends Blender Snap controls.

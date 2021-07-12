@@ -4,8 +4,7 @@
 Switch Direction
 ****************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Armature --> Switch Direction`

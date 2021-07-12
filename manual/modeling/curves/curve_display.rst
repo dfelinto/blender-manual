@@ -3,8 +3,7 @@
 Curve Display
 *************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Panel:     :menuselection:`3D Viewport --> Viewport Overlays --> Curve Edit Mode`

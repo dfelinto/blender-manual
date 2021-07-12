@@ -10,8 +10,7 @@
 Cursor
 ******
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Paint Modes
    :Header:    :menuselection:`Tool Settings --> Brush Settings --> Cursor`

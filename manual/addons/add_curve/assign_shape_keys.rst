@@ -56,8 +56,7 @@ You need to confirm the new positions by pressing :kbd:`Return`.
 Pressing :kbd:`Esc`, reverts the positions to the earlier order.
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Add Curve
    :Description: Assigns one or more Bézier curves as a shape key for another Bézier curve.

@@ -6,8 +6,7 @@ Tool Settings
 Options
 =======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Panel:     :menuselection:`Sidebar --> Tool tab --> Options panel`
@@ -109,8 +108,7 @@ then delete the default cube and add a Monkey object to the 3D Viewport.
 Auto Merge Vertices
 -------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Sidebar --> Tool --> Options --> Auto Merge Vertices`

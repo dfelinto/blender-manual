@@ -34,8 +34,7 @@ Editing
 Join in New Frame
 -----------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Node --> Join in new Frame`
@@ -47,8 +46,7 @@ Make a new frame including the selected nodes.
 Add to Frame
 ------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Shortcut:  :kbd:`Ctrl-P`
@@ -61,8 +59,7 @@ This can be thought of as Parenting the selection to the frame.
 Remove from Frame
 -----------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Node --> Remove from Frame`

@@ -4,8 +4,7 @@
 Individual Origins
 ******************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode and Edit Mode
    :Header:    |pivot-icon| :menuselection:`Pivot Point --> Individual Origins`

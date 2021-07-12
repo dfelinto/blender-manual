@@ -3,8 +3,7 @@
 Viewport Display
 ****************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Panel:     :menuselection:`Properties --> Object Properties --> Viewport Display`

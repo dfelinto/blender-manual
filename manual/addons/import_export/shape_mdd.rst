@@ -3,8 +3,7 @@
 NewTek MDD
 **********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Import-Export
    :Menu:      :menuselection:`File --> Import/Export --> Lightwave Point Cache (.mdd)`

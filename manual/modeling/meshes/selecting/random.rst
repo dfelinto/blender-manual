@@ -4,8 +4,7 @@
 Select Random
 *************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Select --> Select Random`

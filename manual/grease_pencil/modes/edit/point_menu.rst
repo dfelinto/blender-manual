@@ -8,8 +8,7 @@ Point Menu
 Extrude
 =======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Point --> Extrude`
@@ -30,8 +29,7 @@ The new points stay connected with the original points of the edit line.
 Smooth
 ======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Point --> Smooth`
@@ -66,8 +64,7 @@ UVs
 Merge
 =====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Point --> Merge`

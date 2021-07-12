@@ -38,16 +38,14 @@ The workflow is the following:
 Mark Seam
 =========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    3D Viewport
    :Mode:      Edit Mode
    :Tool:      :menuselection:`UV --> Mark/Clear Seam`
    :Menu:      :menuselection:`Edge --> Mark/Clear Seam`
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    UV Editor
    :Mode:      View mode
@@ -101,8 +99,7 @@ the right side of the face will match the left, etc.
 Seams from Islands
 ------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      View mode
    :Menu:      :menuselection:`UV --> Seams from Islands`

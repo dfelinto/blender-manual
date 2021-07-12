@@ -17,8 +17,7 @@ Selection Tools
 Tweak
 -----
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Shortcut:  :kbd:`LMB`
 
@@ -33,8 +32,7 @@ or keyframes in an animation editor will general move the item with the mouse.
 Box Select
 ----------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Select --> Box Select`
    :Shortcut:  :kbd:`B`
@@ -77,8 +75,7 @@ To move the selection area hold :kbd:`Ctrl-Spacebar` while moving the cursor.
 Circle Select
 -------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Select --> Circle Select`
    :Shortcut:  :kbd:`C`
@@ -118,8 +115,7 @@ or use the :kbd:`NumpadPlus` and :kbd:`NumpadMinus` keys.
 Lasso Select
 ------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Shortcut:  :kbd:`Ctrl-RMB`
 
@@ -156,8 +152,7 @@ To move the selection area hold :kbd:`Ctrl-Spacebar` while moving the cursor.
 Selecting Modes
 ===============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Tool:      Select Tools
    :Panel:     :menuselection:`Tool Settings --> Mode`

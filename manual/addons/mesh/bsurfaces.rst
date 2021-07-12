@@ -13,8 +13,7 @@ Activation
 - Click Mesh then Bsurfaces GPL Edition to enable the script.
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Mesh
    :Description: Modeling and retopology tool.

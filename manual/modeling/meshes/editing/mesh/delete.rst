@@ -3,8 +3,7 @@
 Deleting & Dissolving
 *********************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Delete`
@@ -17,8 +16,7 @@ These tools can be used to remove components.
 Delete
 ======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Shortcut:  :kbd:`X`, :kbd:`Delete`
 
@@ -55,8 +53,7 @@ You can add detail where you need it, or quickly remove it where you do not.
 Dissolve Vertices
 -----------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Delete --> Dissolve Vertices`
@@ -87,8 +84,7 @@ Examples
 Dissolve Edges
 --------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Delete --> Dissolve Edges`
@@ -103,8 +99,7 @@ The options are the same as for the `Dissolve Vertices`_ tool.
 Dissolve Faces
 --------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Delete --> Dissolve Faces`
@@ -120,8 +115,7 @@ Merges regions of faces that share edges into a single face.
 Dissolve (Context-Sensitive)
 ----------------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Shortcut:  :kbd:`Ctrl-X`
 
@@ -134,8 +128,7 @@ based on the current selection mode (vertex, edge, face).
 Limited Dissolve
 ================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Delete --> Limited Dissolve`
@@ -167,8 +160,7 @@ Delimit
 Collapse Edges & Faces
 ======================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Delete --> Collapse Edges & Faces`
@@ -206,8 +198,7 @@ removing the face loop it ran through.
 Edge Loops
 ==========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode (Vertex or Edge select modes)
    :Menu:      :menuselection:`Mesh --> Delete --> Edge Loops`

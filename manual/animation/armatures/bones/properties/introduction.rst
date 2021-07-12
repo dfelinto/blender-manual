@@ -3,8 +3,7 @@
 Introduction
 ************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode, Edit Mode and Pose Mode
    :Panel:     :menuselection:`Properties --> Bone`

@@ -12,8 +12,7 @@ from the basics of surface editing to more advanced topics, like retopology.
 Transform
 =========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Surface --> Transform`
@@ -35,8 +34,7 @@ Move/Scale Texture Space
 Mirror
 ======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Mirror`
@@ -49,8 +47,7 @@ The *Mirror* tool is also available, behaving exactly as with
 Snap
 ====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Snap`
@@ -66,8 +63,7 @@ Snapping works with 2D surfaces but points will be constrained to the local XY a
 Spin
 ====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Surface --> Spin`
@@ -87,8 +83,7 @@ as for the *NURBS Tube* or *NURBS Donut* primitives.
 Add Duplicate
 =============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Surface --> Add Duplicate`
@@ -117,8 +112,7 @@ only selections forming a *single* valid sub-grid are copyable; let us see this 
 Split
 =====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Surface --> Split`
@@ -133,8 +127,7 @@ leaving the previously selected control point attached to the rest of the surfac
 Separate
 ========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Surface --> Separate`
@@ -149,8 +142,7 @@ Note, if there is only one surface in a surface object,
 Toggle Cyclic
 =============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Surface --> Toggle Cyclic`
@@ -174,8 +166,7 @@ The corresponding surface's outer edges will join together to form a "closed" su
 Set Spline Type
 ===============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Surface --> Set Spline Type`
@@ -186,8 +177,7 @@ This feature only works for :doc:`Curves </modeling/curves/index>`.
 Show/Hide
 =========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Show/Hide`
@@ -206,8 +196,7 @@ in which case the surface is fully hidden.
 Cleanup
 =======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Surface --> Cleanup`
@@ -218,8 +207,7 @@ This feature only works for :doc:`Curves </modeling/curves/index>`.
 Delete
 ======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Surface --> Delete`

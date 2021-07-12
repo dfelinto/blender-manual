@@ -88,8 +88,7 @@ Zoom In/Out
 Roll Left/Right
    Roll the view left/right.
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  3D View
    :Description: Navigate the 3D Viewport and camera from the Sidebar.

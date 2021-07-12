@@ -3,8 +3,7 @@
 Dynamics
 ********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Physics --> Rigid Body --> Dynamics`
 

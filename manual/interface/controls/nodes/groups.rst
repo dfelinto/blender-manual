@@ -54,8 +54,7 @@ you want to be made available outside the group.
 Panel
 -----
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Panel:     :menuselection:`Sidebar --> Group --> Interface`
@@ -112,8 +111,7 @@ Hide Value
 Edit Group
 ==========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Node --> Edit Group`
@@ -137,8 +135,7 @@ While :kbd:`Tab` can be used to both enter and exit a group, :kbd:`Ctrl-Tab` onl
 Make Group
 ==========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Node --> Make Group`
@@ -173,8 +170,7 @@ So it is recommended to use some naming convention that will allow you to distin
 Ungroup
 =======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Node --> Ungroup`
@@ -197,8 +193,7 @@ Separate :kbd:`P`
 Group Insert
 ============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Node --> Group Insert`
@@ -216,8 +211,7 @@ The node group must be edited to contain a single *Group Input* and a single *Gr
 Appending Node Groups
 =====================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    Topbar
    :Mode:      All Modes

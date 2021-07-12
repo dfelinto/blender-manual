@@ -3,8 +3,7 @@
 Warp
 ****
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Modes
    :Menu:      :menuselection:`Object/Mesh/Curve/Surface --> Transform --> Warp`

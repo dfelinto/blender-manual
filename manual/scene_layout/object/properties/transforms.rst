@@ -3,8 +3,7 @@
 Transform
 *********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Panel:     :menuselection:`Properties --> Object Properties --> Transform`
@@ -91,8 +90,7 @@ Transform Properties Locking
 Delta Transforms
 ================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Panel:     :menuselection:`Properties --> Object Properties --> Transform --> Delta Transforms`

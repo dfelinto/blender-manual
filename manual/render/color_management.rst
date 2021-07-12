@@ -97,8 +97,7 @@ that no color space conversion happens on them.
 Settings
 ========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    Properties
    :Panel:     :menuselection:`Render Properties --> Color Management`

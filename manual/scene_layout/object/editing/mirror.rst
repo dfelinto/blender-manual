@@ -4,8 +4,7 @@
 Mirror
 ******
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object and Edit Modes
    :Menu:      :menuselection:`Object/Mesh --> Mirror`

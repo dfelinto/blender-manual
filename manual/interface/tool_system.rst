@@ -23,8 +23,7 @@ Some tools define gizmos (*Shear* and *Spin* for example) to help control the to
 Toolbar
 =======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Shortcut:  :kbd:`T`
 
@@ -47,8 +46,7 @@ Expanding it further will display the icon and its text.
 Pop-Up Toolbar
 ==============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Shortcut:  :kbd:`Shift-Spacebar`
 
@@ -68,8 +66,7 @@ See :ref:`Spacebar Action <keymap-blender_default-spacebar_action>`.
 Quick Favorites
 ===============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Shortcut:  :kbd:`Q`
 

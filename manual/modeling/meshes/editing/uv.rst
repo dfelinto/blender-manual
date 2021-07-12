@@ -3,8 +3,7 @@
 UV Tools
 ********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    3D Viewport
    :Mode:      Edit Mode
@@ -22,8 +21,7 @@ The more advanced methods can be used with more complex models, and have more sp
 Unwrap
 ======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    3D Viewport and UV Editor
    :Mode:      Edit Mode
@@ -90,8 +88,7 @@ Margin
 Smart UV Project
 ================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    3D Viewport
    :Mode:      Edit Mode
@@ -141,8 +138,7 @@ Area Weight
 Lightmap Pack
 =============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    3D Viewport
    :Mode:      Edit Mode
@@ -191,8 +187,7 @@ Margin
 Follow Active Quads
 ===================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    3D Viewport
    :Mode:      Edit Mode
@@ -228,8 +223,7 @@ Edge Length Mode
 Cube Projection
 ===============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    3D Viewport
    :Mode:      Edit Mode
@@ -270,8 +264,7 @@ Scale to Bounds
 Cylinder Projection
 ===================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    3D Viewport
    :Mode:      Edit Mode
@@ -312,8 +305,7 @@ Radius
 Sphere Projection
 =================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    3D Viewport
    :Mode:      Edit Mode
@@ -368,8 +360,7 @@ Radius
 Project from View
 =================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    3D Viewport
    :Mode:      Edit Mode
@@ -393,8 +384,7 @@ Orthographic
 Project from View (Bounds)
 ==========================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    3D Viewport
    :Mode:      Edit Mode
@@ -410,8 +400,7 @@ but with *Scale to Bounds* and *Correct Aspect* activated.
 Reset
 =====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    3D Viewport and UV Editor
    :Mode:      Edit Mode

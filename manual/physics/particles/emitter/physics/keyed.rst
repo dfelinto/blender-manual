@@ -6,8 +6,7 @@
 Keyed
 *****
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Particle System --> Physics`
    :Type:      Keyed
@@ -42,8 +41,7 @@ Use Timing
 Relations
 =========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Particle System --> Physics --> Relations`
 

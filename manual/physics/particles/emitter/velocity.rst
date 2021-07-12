@@ -3,8 +3,7 @@
 Velocity
 ********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Particle System --> Velocity`
 

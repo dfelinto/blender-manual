@@ -4,8 +4,7 @@
 Naming
 ******
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Panel:     :menuselection:`Properties --> Bone Properties`
@@ -69,8 +68,7 @@ This will enable you to use some tools that will probably save you time and effo
 Auto-Name
 =========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Armature --> Names --> Auto-Name Left/Right, Front/Back, Top/Bottom`
@@ -100,8 +98,7 @@ AutoName Top/Bottom
 Flip Names
 ==========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Armature --> Names --> Flip Names`

@@ -4,8 +4,7 @@
 Hinge Constraint
 ****************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Physics --> Rigid Body Constraint`
    :Type:      Hinge

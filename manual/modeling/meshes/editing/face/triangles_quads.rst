@@ -5,8 +5,7 @@
 Triangles to Quads
 ******************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Face --> Triangles to Quads`

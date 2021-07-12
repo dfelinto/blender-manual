@@ -4,8 +4,7 @@
 Fluid
 *****
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Particle System --> Physics`
    :Type:      Fluid
@@ -47,8 +46,7 @@ Buoyancy
 Advanced
 --------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Particle System --> Physics --> Advanced`
 
@@ -66,8 +64,7 @@ Rest Density
 Springs
 -------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Particle System --> Physics --> Springs`
 

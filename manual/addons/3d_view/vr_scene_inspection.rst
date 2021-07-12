@@ -85,8 +85,7 @@ Mirror VR Session
    Make the current 3D Viewport follow the perspective of the VR view.
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  3D View
    :Description: View the viewport with virtual reality glasses (head-mounted displays).

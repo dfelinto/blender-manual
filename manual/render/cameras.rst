@@ -22,8 +22,7 @@ when a camera is the active object.
 Properties
 ==========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Editor:    :menuselection:`Properties --> Camera`

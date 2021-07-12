@@ -3,8 +3,7 @@
 Dependency Graph Debug
 **********************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Development
    :Description: Various dependency graph debugging tools.

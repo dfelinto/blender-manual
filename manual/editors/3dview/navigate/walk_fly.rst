@@ -36,8 +36,7 @@ Recording Animation
 Walk Navigation
 ===============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All modes
    :Shortcut:  :kbd:`Shift-AccentGrave`
@@ -79,8 +78,7 @@ in the :doc:`Preferences </editors/preferences/index>` you can select a few opti
 Fly Navigation
 ==============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All modes
    :Shortcut:  :kbd:`Shift-AccentGrave`

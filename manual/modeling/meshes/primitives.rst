@@ -3,8 +3,7 @@
 Primitives
 **********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode and Edit Mode
    :Menu:      :menuselection:`Add --> Mesh`

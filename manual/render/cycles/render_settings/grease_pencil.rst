@@ -3,8 +3,7 @@
 Grease Pencil
 *************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Render --> Grease Pencil`
 

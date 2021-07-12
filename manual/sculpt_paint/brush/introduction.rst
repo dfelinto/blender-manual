@@ -61,8 +61,7 @@ The following standard selection operations are supported:
 Vertex Selection Masking
 ------------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Vertex and Weight Paint Modes
    :Header:    :menuselection:`Vertex Selection`
@@ -81,8 +80,7 @@ All unselected vertices are protected from unintentional changes.
 Face Selection Masking
 ----------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Texture, Vertex, and Weight Paint Modes
    :Header:    :menuselection:`Paint Mask`

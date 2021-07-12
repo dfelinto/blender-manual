@@ -6,8 +6,7 @@ Transforms
 Move
 ====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sculpt Mode
    :Tool:      :menuselection:`Toolbar --> Move`
@@ -18,8 +17,7 @@ Translation tool.
 Rotate
 ======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sculpt Mode
    :Tool:      :menuselection:`Toolbar --> Rotate`
@@ -30,8 +28,7 @@ Rotation tool.
 Scale
 =====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sculpt Mode
    :Tool:      :menuselection:`Toolbar --> Scale`
@@ -42,8 +39,7 @@ Scale tool.
 Transform
 =========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sculpt Mode
    :Tool:      :menuselection:`Toolbar --> Transform`

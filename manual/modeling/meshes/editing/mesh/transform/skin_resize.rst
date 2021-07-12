@@ -4,8 +4,7 @@
 Skin Resize
 ***********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Transform --> Skin Resize`

@@ -4,8 +4,7 @@
 Arc Tool
 ********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Draw Mode
    :Tool:      :menuselection:`Toolbar --> Arc`

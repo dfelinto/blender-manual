@@ -21,8 +21,7 @@ and so on, of an object.
 Make Parent
 ===========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Parent`
@@ -316,8 +315,7 @@ and avoid the tedious effort of establishing each parent-child vertex relationsh
 Make Parent without Inverse
 ===========================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Parent --> Make Parent without Inverse`
@@ -331,8 +329,7 @@ As a result, the object will move to the location of the parent, but keep its ro
 Clear Parent
 ============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Parent`

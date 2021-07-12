@@ -43,8 +43,7 @@ If there are multiple ways to create a new quad, the position of the mouse curso
 Of the multiple new faces which are possible, the one which will be closest to
 the mouse cursor (in 2D screen space) is the one which will be created.
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Mesh
    :Description: Extends the 'Make Edge/Face' functionality.

@@ -4,8 +4,7 @@
 Make Single User
 ****************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Relations --> Make Single User`

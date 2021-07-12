@@ -21,8 +21,7 @@ To edit the mask, select the *Mask Brush* from the Brush panel.
 Editing
 =======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sculpt Mode
    :Menu:      :menuselection:`Mask`
@@ -34,8 +33,7 @@ Using :kbd:`A` opens a pie menu to choose different operations.
 Invert Mask
 -----------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sculpt Mode
    :Menu:      :menuselection:`Mask --> Invert Mask`
@@ -49,8 +47,7 @@ Inverts an existing mask.
 Fill Mask
 ---------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sculpt Mode
    :Menu:      :menuselection:`Mask --> Invert Mask`
@@ -61,8 +58,7 @@ Fills the whole mask with a value of 1.
 Clear Mask
 ----------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sculpt Mode
    :Menu:      :menuselection:`Mask --> Invert Mask`
@@ -76,8 +72,7 @@ Fills the mask with a value of 0. To completely remove the mask data, see `Clear
 Box Mask
 --------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sculpt Mode
    :Menu:      :menuselection:`Mask --> Box Mask`
@@ -92,8 +87,7 @@ Hold :kbd:`Shift` to clear the mask of the selected region.
 Lasso Mask
 ----------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sculpt Mode
    :Menu:      :menuselection:`Mask --> Lasso Mask`
@@ -112,8 +106,7 @@ Can be used to create a free-form mask, similar to the *Lasso Select* tool.
 Mask Filters
 ------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sculpt Mode
    :Menu:      :menuselection:`Mask --> Mask Filters`
@@ -141,8 +134,7 @@ Auto Iteration Count
 Expand Mask by Topology
 -----------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sculpt Mode
    :Menu:      :menuselection:`Mask --> Expand Mask by Topology`
@@ -214,8 +206,7 @@ Now, you can use :kbd:`Y` and :kbd:`T` to increase or decrease the affect the te
 Expand Mask by Normals
 ----------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sculpt Mode
    :Menu:      :menuselection:`Mask --> Expand Mask by Normals`
@@ -235,8 +226,7 @@ meaning all the shortcuts and functionality works the same as that tool.
 Mask Extract
 ------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sculpt Mode
    :Menu:      :menuselection:`Mask --> Mask Extract`
@@ -265,8 +255,7 @@ Extract as Solid
 Mask Slice
 ----------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sculpt Mode
    :Menu:      :menuselection:`Mask --> Mask Slice`
@@ -288,8 +277,7 @@ Slice to New Object
 Dirty Mask
 ----------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sculpt Mode
    :Menu:      :menuselection:`Mask --> Dirty Mask`
@@ -302,8 +290,7 @@ Generates a mask based on the geometry cavity and pointiness.
 Random Mask
 -----------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sculpt Mode
    :Menu:      :menuselection:`Mask --> Random Mask`
@@ -324,8 +311,7 @@ Per Loose Mask
 Display Settings
 ================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sculpt Mode
    :Popover:   :menuselection:`Viewport Overlays -- Sculpt --> Mask`
@@ -340,8 +326,7 @@ In the overlay popover, the opacity of the mask overlay can be adjusted to make 
 Clear Sculpt-Mask Data
 ======================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object/Edit Mode
    :Menu:      :menuselection:`Properties --> Object Data --> Geometry Data --> Clear Sculpt-Mask Data`

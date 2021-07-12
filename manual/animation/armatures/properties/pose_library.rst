@@ -3,8 +3,7 @@
 Pose Library
 ************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Panel:     :menuselection:`Properties --> Object Data Properties --> Pose Library`

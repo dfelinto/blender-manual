@@ -5,8 +5,7 @@
 Collections
 ***********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Type:      Domain
    :Panel:     :menuselection:`Properties --> Physics --> Fluid --> Collections`

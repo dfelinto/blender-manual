@@ -3,8 +3,7 @@
 Vertex Weights
 **************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit and Weight Paint Modes
    :Panel:     :menuselection:`Sidebar region --> Vertex Weights`

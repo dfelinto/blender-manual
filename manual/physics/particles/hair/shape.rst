@@ -3,8 +3,7 @@
 Shape
 *****
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Particle System --> Hair Shape`
 

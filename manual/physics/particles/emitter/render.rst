@@ -3,8 +3,7 @@
 Render
 ******
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Particle System --> Render`
 
@@ -78,8 +77,7 @@ Steps
 Timing
 ------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Particle System --> Render --> Timing`
    :Type:      Hair
@@ -95,8 +93,7 @@ Random
 Object
 ------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Particle System --> Render --> Object`
 
@@ -114,8 +111,7 @@ Object Scale
 Collection
 ----------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Particle System --> Render --> Collection`
 
@@ -139,8 +135,7 @@ Object Scale
 Use Count
 ^^^^^^^^^
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Particle System --> Render --> Collection --> Use Count`
 
@@ -152,8 +147,7 @@ You can duplicate an object in the list with the ``+`` button, or remove a dupli
 Extra
 =====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Particle System --> Render --> Extra`
 

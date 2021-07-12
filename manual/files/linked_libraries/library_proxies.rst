@@ -19,8 +19,7 @@ A new system, more powerful and flexible, is currently being implemented:
 Make Proxy
 ==========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    3D Viewport
    :Mode:      Object Mode

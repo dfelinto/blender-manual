@@ -24,8 +24,7 @@ You can find the add-on's full documentation on the author's website:
 - `Getting started <https://www.gdquest.com/docs/power-sequencer/getting-started/>`__
 - `Features reference <https://www.gdquest.com/docs/power-sequencer/reference/>`__
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Sequencer
    :Description: Video editing tools for content creators.

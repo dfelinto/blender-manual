@@ -4,8 +4,7 @@
 Delete
 ******
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Delete`
@@ -17,8 +16,7 @@ Delete the selected objects from the current scene.
 Delete Globally
 ===============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Delete Globally`

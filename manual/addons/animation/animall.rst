@@ -25,8 +25,7 @@ Description
 .. youtube:: xlJ71XChDuY
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Animation
    :Description: Allows animation of mesh, lattice, curve and surface data.

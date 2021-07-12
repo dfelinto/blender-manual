@@ -13,8 +13,7 @@ Activation
 - Click UV then Magic UV to enable the script.
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  UV
    :Description: UV tool set. See add-ons preferences for details.

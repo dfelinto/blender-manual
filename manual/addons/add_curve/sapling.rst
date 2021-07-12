@@ -157,8 +157,7 @@ It's recommended to finalize all your settings now.
 Settings include speed, wind strength and leaf animation.
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Add Curve
    :Description: Adds a parametric tree.

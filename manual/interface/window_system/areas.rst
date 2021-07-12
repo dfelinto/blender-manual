@@ -101,8 +101,7 @@ though they must be inside the same window.
 Duplicate Area into new Window
 ==============================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`View --> Area --> Duplicate Area into new Window`
 
@@ -123,8 +122,7 @@ The window can be closed with the OS *Close Window* button.
 Toggle Maximize Area
 ====================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`View --> Area --> Toggle Maximize Area`
    :Shortcut:  :kbd:`Ctrl-Spacebar`
@@ -142,8 +140,7 @@ To return to normal size, use the keyboard shortcut again or the *Back to Previo
 Toggle Fullscreen Area
 ======================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`View --> Area --> Toggle Fullscreen Area`
    :Shortcut:  :kbd:`Ctrl-Alt-Spacebar`

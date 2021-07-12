@@ -67,8 +67,7 @@ One cool thing about this algorithm is that if you move upwards or downwards
    for the archived original docs.
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Mesh
    :Description: Make an inset inside selection using straight skeleton algorithm.

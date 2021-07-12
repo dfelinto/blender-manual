@@ -45,8 +45,7 @@ Known Limitations
   Mesh used for Boolean operation or objects that share linked data).
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Interface
    :Description: Modifiers specials show/hide/apply selected.

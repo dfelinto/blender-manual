@@ -3,8 +3,7 @@
 Multires Displacement Smear
 ***************************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sculpt Mode
    :Tool:      :menuselection:`Toolbar --> Multires Displacement Smear`

@@ -99,8 +99,7 @@ Frame All :kbd:`Home`
 Adding Nodes
 ============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Tool:      :menuselection:`Toolbar`

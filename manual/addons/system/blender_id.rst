@@ -37,8 +37,7 @@ Description
 
 - To Do
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  System
    :Description: Stores your Blender ID credentials for usage with other add-ons.

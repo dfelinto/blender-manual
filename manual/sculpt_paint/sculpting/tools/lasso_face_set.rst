@@ -3,8 +3,7 @@
 Lasso Face Set
 **************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sculpt Mode
    :Tool:      :menuselection:`Toolbar --> Lasso Face Set`

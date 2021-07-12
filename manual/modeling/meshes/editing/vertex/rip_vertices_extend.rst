@@ -5,8 +5,7 @@
 Rip Vertices and Extend
 ***********************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Vertex --> Rip Vertices and Extend`

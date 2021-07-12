@@ -36,8 +36,7 @@ in the Edit Linked Library panel of the Sidebar.
 .. vimeo:: 41440647
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Object
    :Description: Allows editing of objects linked from a blend-file library.

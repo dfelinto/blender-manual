@@ -4,8 +4,7 @@
 Pose Library
 ************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Pose Mode
    :Menu:      :menuselection:`Pose --> Pose Library`
@@ -25,8 +24,7 @@ They are not generally used as actions, but can be converted to and from.
 Browse Poses
 ============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Pose --> Pose Library --> Browse Poses`
@@ -47,8 +45,7 @@ Pose
 Add Pose
 ========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Pose --> Pose Library --> Add Pose`
@@ -75,8 +72,7 @@ Replace Existing
 Rename Pose
 ===========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Pose --> Pose Library --> Rename Pose`
@@ -95,8 +91,7 @@ Pose
 Remove Pose
 ===========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Pose --> Pose Library --> Remove Pose`

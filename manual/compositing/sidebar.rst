@@ -6,8 +6,7 @@ Sidebar
 View
 ====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Sidebar region --> View`
 
@@ -44,8 +43,7 @@ Reset Backdrop
 Options
 =======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Sidebar region --> Options`
 

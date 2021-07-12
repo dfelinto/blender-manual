@@ -87,8 +87,7 @@ In the NLA editor pose markers are shown as a red dashed line inside the relativ
 Add Marker
 ==========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All modes
    :Menu:      :menuselection:`Marker --> Add Marker`
@@ -114,8 +113,7 @@ a new pose in the :doc:`Pose Library </animation/armatures/properties/pose_libra
 Selecting
 =========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All modes
    :Shortcut:  :kbd:`LMB`
@@ -138,8 +136,7 @@ Editing
 Duplicate Marker
 ----------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All modes
    :Menu:      :menuselection:`Marker --> Duplicate Marker`
@@ -158,8 +155,7 @@ the new ones are automatically placed in select mode, so you can move them to th
 Duplicate Marker to Scene
 -------------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All modes
    :Menu:      :menuselection:`Marker --> Duplicate Marker to Scene...`
@@ -170,8 +166,7 @@ Duplicates the selected markers into another scene.
 Delete Marker
 -------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All modes
    :Menu:      :menuselection:`Marker --> Delete Marker`
@@ -184,8 +179,7 @@ and confirm the pop-up message with :kbd:`LMB`.
 Rename Marker
 -------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All modes
    :Menu:      :menuselection:`Marker --> Rename Marker`
@@ -199,8 +193,7 @@ typing the name, and pressing the OK button.
 Move Marker
 -----------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All modes
    :Menu:      :menuselection:`Marker --> Move Marker`
@@ -221,8 +214,7 @@ the markers will move in steps corresponding to 1 second (according to the scene
 Show Pose Markers
 -----------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    Dope Sheet
    :Mode:      Action Editor or Shape Keys Editor mode
@@ -234,8 +226,7 @@ Shows markers belonging to the active action instead of scene markers.
 Make Markers Local
 ------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All modes
    :Menu:      :menuselection:`Marker --> Make Markers Local`
@@ -247,8 +238,7 @@ Note that the original marker will be gone. If you want to keep it, make a dupli
 Jump to Next/Previous Marker
 ----------------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All modes
    :Menu:      :menuselection:`Marker --> Jump to Next/Previous Marker`
@@ -261,8 +251,7 @@ Moves the Playhead to the next/previous marker relative to the current frame.
 Bind Camera to Markers
 ======================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    Timeline
    :Menu:      :menuselection:`Marker --> Bind Camera to Markers`

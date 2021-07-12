@@ -80,8 +80,7 @@ Affected Scenes:
       except the current one. Only enabled scenes will receive the copied settings!
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Render
    :Description: Allows to copy a selection of render settings from current scene to others.

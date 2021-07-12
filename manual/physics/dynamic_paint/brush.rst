@@ -4,8 +4,7 @@
 Brush
 *****
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Physics --> Dynamic Paint`
    :Type:      Brush
@@ -37,8 +36,7 @@ Erase Paint
 Source
 ======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Type:      Brush
    :Panel:     :menuselection:`Physics --> Dynamic Paint --> Source`
@@ -157,8 +155,7 @@ Falloff
 Velocity
 ========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Type:      Brush
    :Panel:     :menuselection:`Physics --> Dynamic Paint --> Velocity`
@@ -196,8 +193,7 @@ Do Smudge
 Waves
 =====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Type:      Brush
    :Panel:     :menuselection:`Physics --> Dynamic Paint --> Waves`

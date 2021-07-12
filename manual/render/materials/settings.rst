@@ -3,8 +3,7 @@
 Settings
 ********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Material --> Settings`
 

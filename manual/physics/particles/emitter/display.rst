@@ -3,8 +3,7 @@
 Viewport Display
 ****************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Particle System --> Viewport Display`
 

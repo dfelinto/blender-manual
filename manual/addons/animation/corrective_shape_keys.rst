@@ -48,8 +48,7 @@ Known Limitations
   both settings will be disabled in the modifier.
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Animation
    :Description: Creates a corrective shape key for the current pose.

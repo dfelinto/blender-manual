@@ -32,8 +32,7 @@ It will work with custom shapes but results may vary.
    for the archived original docs.
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Object
    :Description: Creates a mesh object from selected bones.

@@ -5,8 +5,7 @@ Color
 
 The colors that the Workbench uses to render objects can be changed.
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Render --> Color`
 

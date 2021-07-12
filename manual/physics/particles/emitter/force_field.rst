@@ -6,8 +6,7 @@ Force Fields
 Field Weights
 =============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Particle System --> Field Weights`
 
@@ -26,8 +25,7 @@ All
 Force Fields Settings
 =====================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Particle System --> Force Fields Settings`
 

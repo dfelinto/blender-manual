@@ -6,8 +6,7 @@ Segments
 Subdivide
 =========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Surface --> Segments --> Subdivide`
@@ -28,8 +27,7 @@ Number of Cuts
 Switch Direction
 ================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Surface --> Segments --> Switch Direction`

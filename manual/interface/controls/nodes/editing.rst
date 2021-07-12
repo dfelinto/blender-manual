@@ -6,8 +6,7 @@ Editing
 Transform
 =========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Node --> Move, Rotate, Resize`
@@ -63,8 +62,7 @@ Drag the link from an input socket and let it go keeping it unconnected.
 Mute Links
 ----------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Node --> Mute Links`
@@ -91,8 +89,7 @@ when links are muted the controls are shown.
 Cut Links
 ---------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Node --> Cut Links`
@@ -111,8 +108,7 @@ Detach Links :kbd:`Alt-D`, :kbd:`Alt-LMB` drag
 Duplicate
 =========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Node --> Duplicate`
@@ -135,8 +131,7 @@ move the mouse away to see the duplicate of the selected node appearing under th
 Copy/Paste
 ==========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Node --> Copy`, :menuselection:`Node --> Paste`
@@ -169,8 +164,7 @@ Delete with Reconnect :kbd:`Ctrl-X`
 Mute
 ====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Node --> Toggle Node Mute`

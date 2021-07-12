@@ -9,8 +9,7 @@ Control Points
 Extrude Curve and Move
 ======================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Extrude Curve and Move`
@@ -26,8 +25,7 @@ and connecting those points back to the original curve creating a continuous cur
 Make Segment
 ============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Make Segment`
@@ -57,8 +55,7 @@ Additionally, you can close a curve by toggling cyclic.
 Tilt
 ====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Tool:      :menuselection:`Toolbar --> Tilt`
@@ -81,8 +78,7 @@ The tilt will be interpolated from point to point (you can check it with the nor
 Clear Tilt
 ==========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Control Points --> Clear Tilt`
@@ -98,8 +94,7 @@ you can choose the :ref:`interpolation algorithm <bpy.types.Spline.tilt_interpol
 Set Handle Type
 ===============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Control Points --> Set Handle Type`
@@ -119,8 +114,7 @@ Toggle Free/Align
 Recalculate Handles
 ===================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Control Points --> Recalculate Handles`
@@ -138,8 +132,7 @@ Length
 Smooth
 ======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Control Points --> Smooth`
@@ -166,8 +159,7 @@ while keeping the neighbors anchored. Does not effect control point tangents.
 Smooth Curve Tilt
 =================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Control Points --> Smooth Curve Tilt`
@@ -181,8 +173,7 @@ This will reduce sharp changes in the curve's *Tilt* and give a smooth transitio
 Smooth Curve Radius
 ===================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Control Points --> Smooth Curve Radius`
@@ -196,8 +187,7 @@ This will reduce sharp changes in the curve's *Radius* and give a smooth transit
 Smooth Curve Weight
 ===================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Control Points --> Smooth Curve Weight`
@@ -209,8 +199,7 @@ This will reduce sharp changes in the curve's *Weight* and give a smooth transit
 Hooks
 =====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Control Points --> Hooks`
@@ -222,8 +211,7 @@ Hooks
 Make Vertex Parent
 ==================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Control Points --> Make Vertex Parent`

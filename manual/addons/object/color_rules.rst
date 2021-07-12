@@ -3,8 +3,7 @@
 Object Color Rules
 ******************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Object
    :Description: Rules for assigning object color (for object and wireframe colors).

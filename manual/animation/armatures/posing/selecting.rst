@@ -14,8 +14,7 @@ You can only select *whole bones* in *Pose Mode*, not roots/tips...
 Select Mirror
 =============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Select Mirror`
@@ -29,8 +28,7 @@ Flip the selection from one side to another.
 Constraint Target
 =================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Pose Mode
    :Menu:      :menuselection:`Select --> Constraint Target`
@@ -43,8 +41,7 @@ Todo.
 Linked
 ======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Pose Mode
    :Menu:      :menuselection:`Select --> Linked`
@@ -73,8 +70,7 @@ All Forks
 Select More/Less
 ================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Pose Mode
    :Menu:      :menuselection:`Select --> Select More/Less`
@@ -90,8 +86,7 @@ Extend Parent :kbd:`Shift-[`, Extend Child :kbd:`Shift-]`
 Grouped
 =======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Pose Mode
    :Menu:      :menuselection:`Select --> Grouped`
@@ -112,8 +107,7 @@ Keying Set
 Select Pattern
 ==============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Select --> Select Pattern...`

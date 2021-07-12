@@ -8,8 +8,7 @@ Change Layers
 Change Armature Layers
 ======================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Armature --> Change Armature Layers`
@@ -28,8 +27,7 @@ To move bones to a given layer, use :ref:`bpy.ops.armature.bone_layers`.
 Change Bone Layers
 ==================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Armature --> Change Bone Layers`

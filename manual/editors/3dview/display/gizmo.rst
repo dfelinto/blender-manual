@@ -5,8 +5,7 @@
 Viewport Gizmos
 ***************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object and Edit Modes
    :Header:    |gizmo-icon| :menuselection:`Viewport Gizmos --> Object Gizmos`

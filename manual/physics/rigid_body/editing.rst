@@ -8,8 +8,7 @@ Editing
 Calculate Mass
 ==============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    3D Viewport
    :Mode:      Object Mode

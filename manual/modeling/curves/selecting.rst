@@ -76,8 +76,7 @@ Inverse :kbd:`Ctrl-I`
 Select Random
 =============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Select Random`
@@ -95,8 +94,7 @@ Action
 Checker Deselect
 ================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Checker Deselect`
@@ -118,8 +116,7 @@ Offset
 Select Linked
 =============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Select Linked`
@@ -133,8 +130,7 @@ using :kbd:`L` with a handle selected will select the whole control point and al
 Select Similar
 ==============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Select Similar`
@@ -162,8 +158,7 @@ Threshold
 (De)select First/Last
 =====================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> (De)select First`,
@@ -177,8 +172,7 @@ in the object. This is useful to quickly find the start of a curve
 Select Next/Previous
 ====================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Select Next`, :menuselection:`Select --> Select Previous`
@@ -192,8 +186,7 @@ In case of a cyclic curve, the first and last points are not considered as neigh
 Select More/Less
 ================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> More/Less`
@@ -219,8 +212,7 @@ This implies two points:
 Pick Shortest Path
 ==================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Menu Search --> Pick Shortest Path`

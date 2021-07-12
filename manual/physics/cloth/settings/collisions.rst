@@ -24,8 +24,7 @@ there are several items that have to be set up and working together:
 Collision Settings
 ==================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Physics --> Cloth --> Collision`
 

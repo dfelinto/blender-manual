@@ -4,8 +4,7 @@
 New Edge/Face from Vertices
 ***************************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Vertex --> New Edge/Face from Vertices`

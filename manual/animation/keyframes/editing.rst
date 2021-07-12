@@ -8,8 +8,7 @@ Editing
 Insert Keyframe
 ===============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Animation --> Insert Keyframe...`
@@ -40,8 +39,7 @@ See :ref:`Timeline Keyframe Control <bpy.types.ToolSettings.use_keyframe_insert_
 Delete Keyframes
 ================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Animation --> Delete Keyframes...`
@@ -59,8 +57,7 @@ There are several methods of removing keyframes:
 Clear Keyframes
 ===============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Animation --> Clear Keyframes...`

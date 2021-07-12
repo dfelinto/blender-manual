@@ -5,8 +5,7 @@
 Introduction
 ************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Edit --> Preferences...`
    :Shortcut:  :kbd:`F4`, :kbd:`P`

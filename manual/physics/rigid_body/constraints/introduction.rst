@@ -45,8 +45,7 @@ for the selected empty object or the one of the two constrained objects with the
 Common Options
 ==============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Physics --> Rigid Body Constraint`
 

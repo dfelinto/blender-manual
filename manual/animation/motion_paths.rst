@@ -5,15 +5,13 @@
 Motion Paths
 ************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    3D Viewport, Properties
    :Mode:      Object Mode
    :Panel:     :menuselection:`Properties --> Object Properties --> Motion Paths`
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    3D Viewport, Properties
    :Mode:      Pose Mode

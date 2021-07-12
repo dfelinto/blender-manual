@@ -4,8 +4,7 @@
 Extrude Edges
 *************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode, Edge Selection mode
    :Menu:      :menuselection:`Edge --> Extrude Edges`

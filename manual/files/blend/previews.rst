@@ -34,8 +34,7 @@ These previews can then be used by the *Thumbnail* view of the File Browser, whe
 Refresh Data-Block Previews
 ---------------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`File --> Data Previews --> Refresh Data-blocks Previews`
 
@@ -48,8 +47,7 @@ in the current blend-file. You still need to save the file if you want to write 
 Batch Generate Previews
 -----------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`File --> Data Previews --> Batch Generate Previews`
 
@@ -82,8 +80,7 @@ Save Backups
 Clear Data-Block Previews
 -------------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`File --> Data Previews --> Clear Data-blocks Previews`
 
@@ -96,8 +93,7 @@ You still need to save the file if you want to clear them from the drive.
 Batch Clear Previews
 --------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`File --> Data Previews --> Batch Clear Previews`
 

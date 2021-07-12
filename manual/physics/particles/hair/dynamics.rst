@@ -4,8 +4,7 @@
 Hair Dynamics
 *************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Particle System --> Hair Dynamics`
 
@@ -47,8 +46,7 @@ Collision Collection
 Structure
 =========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Particle System --> Hair Dynamics --> Structure`
 
@@ -67,8 +65,7 @@ Damping
 Volume
 ======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Particle System --> Hair Dynamics --> Volume`
 

@@ -24,8 +24,7 @@ Normals
 Flip
 ====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Normals --> Flip`
@@ -41,8 +40,7 @@ as only the selected faces are flipped.
 Recalculate
 ===========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Normals --> Recalculate Outside` and
@@ -61,8 +59,7 @@ For example, with a *Grid* primitive, recalculating normals does not have a mean
 Set from Faces
 ==============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Normals --> Set from Faces`
@@ -75,8 +72,7 @@ Set the custom normals at corners to be the same as the face normal that the cor
 Rotate
 ======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Normals --> Rotate`
@@ -92,8 +88,7 @@ followed by :kbd:`N`.
 Point to Target
 ===============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Normals --> Point to Target`
@@ -129,8 +124,7 @@ Reset :kbd:`R`
 Merge
 =====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Normals --> Merge`
@@ -143,8 +137,7 @@ Merge all of the normals at selected vertices, making one average normal for all
 Split
 =====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Normals --> Split`
@@ -158,8 +151,7 @@ pointing in the same direction as those faces.
 Average
 =======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Normals --> Average`
@@ -170,8 +162,7 @@ Average all of the normals in each fan of faces between sharp edges at a vertex.
 Copy Vectors
 ============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Normals --> Copy Vectors`
@@ -182,8 +173,7 @@ If a single normal is selected, copy it to an internal vector buffer.
 Paste Vectors
 =============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Normals --> Paste Vectors`
@@ -196,8 +186,7 @@ Replace the selected normals with the one in the internal vector buffer.
 Smooth Vectors
 ==============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Normals --> Smooth Vectors`
@@ -208,8 +197,7 @@ Adjust the normals to bring them closer to their adjacent vertex normals.
 Reset Vectors
 =============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Normals --> Reset Vectors`
@@ -222,8 +210,7 @@ Put normals back the to default calculation of the normals.
 Select by Face Strength
 =======================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Normals --> Select by Face Strength`
@@ -245,8 +232,7 @@ Then this tool selects those faces that have the chosen face strength.
 Set Face Strength
 =================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Normals --> Set Face Strength`

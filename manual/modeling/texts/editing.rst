@@ -36,8 +36,7 @@ in Edit Mode do not exist for texts. The second place is the Properties, especia
 Text
 ====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`3D Viewport --> Text`
@@ -166,8 +165,7 @@ In Object Mode, it is possible to convert a text object to a mesh or curve one, 
 Assigning Materials
 ===================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit
    :Panel:     :menuselection:`Properties --> Materials`

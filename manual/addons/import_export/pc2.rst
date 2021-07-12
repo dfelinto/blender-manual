@@ -3,8 +3,7 @@
 Pointcache (pc2)
 ****************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Import-Export
    :Menu:      :menuselection:`File --> Export --> Pointcache (.pc2)`

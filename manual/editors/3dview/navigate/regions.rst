@@ -8,8 +8,7 @@ View Regions
 Clipping Region
 ===============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All modes
    :Menu:      :menuselection:`View --> View Regions --> Clipping Region...`
@@ -71,8 +70,7 @@ all of 3D space will become visible again.
 Render Region
 =============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All modes
    :Menu:      :menuselection:`View --> View Regions --> Render Region...`

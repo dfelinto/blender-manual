@@ -152,8 +152,7 @@ The superformula settings add a variety of settings such as pinching, twisting, 
 more complex edit types.
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Add Mesh
    :Description: Create Geodesic object types.

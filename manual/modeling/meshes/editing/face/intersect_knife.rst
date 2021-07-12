@@ -4,8 +4,7 @@
 Intersect (Knife)
 *****************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Face --> Intersect (Knife)`

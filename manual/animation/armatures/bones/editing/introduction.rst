@@ -29,8 +29,7 @@ Thus you should in general be sure that your armature is definitive before start
 Add Menu
 ========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Add`

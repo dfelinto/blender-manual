@@ -23,8 +23,7 @@ or the Keying Set panel, or press :kbd:`Shift-Ctrl-Alt-I` in the 3D Viewport.
 Keying Set Panel
 ================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    Properties
    :Panel:     :menuselection:`Scene --> Keying Set`
@@ -71,8 +70,7 @@ Common Settings
 Active Keying Set Panel
 =======================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    Properties
    :Panel:     :menuselection:`Scene --> Active Keying Set`
@@ -108,8 +106,7 @@ F-Curve Grouping
 Adding Properties
 =================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Context menu --> Add All/Single to Keying Set`
    :Shortcut:  :kbd:`K`

@@ -11,8 +11,7 @@ the *Active Element* panel is shown for :ref:`editing <meta-ball-editing>` indiv
 Metaball
 ========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object and Edit Mode
    :Panel:     :menuselection:`Properties --> Metaball --> Metaball`
@@ -77,8 +76,7 @@ Update on Edit
 Active Element
 ==============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Panel:     :menuselection:`Properties --> Metaball --> Active Element`

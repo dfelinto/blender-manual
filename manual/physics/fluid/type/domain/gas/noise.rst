@@ -4,8 +4,7 @@
 Noise
 *****
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Type:      Domain
    :Panel:     :menuselection:`Physics --> Fluid --> Noise`

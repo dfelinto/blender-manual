@@ -29,8 +29,7 @@ Because of its mathematical nature, CSG uses little memory, but requires lots of
 Type
 ====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Panel:     :menuselection:`Sidebar region --> Transform panel --> Type`,

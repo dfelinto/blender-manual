@@ -21,8 +21,7 @@ that were already described in the armature editing pages. See the links above..
 Push Pose from Rest Pose
 ========================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Pose Mode
    :Menu:      :menuselection:`Pose --> In-Betweens --> Push Pose from Rest Pose`
@@ -36,8 +35,7 @@ Only one keyframe is needed for this tool unlike two for the other.
 Relax Pose to Rest Pose
 =======================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Pose Mode
    :Menu:      :menuselection:`Pose --> In-Betweens --> Relax Pose to Rest Pose`
@@ -51,8 +49,7 @@ Only one keyframe is needed for this tool unlike two for the other.
 Push Pose from Breakdown
 ========================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Pose Mode
    :Tool:      :menuselection:`Toolbar --> In-Betweens Tools --> Push`
@@ -67,8 +64,7 @@ Push Pose from Breakdown
 Relax Pose to Breakdown
 =======================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Pose Mode
    :Tool:      :menuselection:`Toolbar --> In-Betweens Tools --> Relax`
@@ -86,8 +82,7 @@ with smaller and smaller steps as it comes near it.
 Pose Breakdowner
 ================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Pose Mode
    :Tool:      :menuselection:`Toolbar region --> In-Betweens Tools --> Breakdowner`

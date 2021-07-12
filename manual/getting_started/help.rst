@@ -41,8 +41,7 @@ Python
 Context-Sensitive Manual Access
 ===============================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All modes
    :Menu:      :menuselection:`Context menu --> Online Manual`

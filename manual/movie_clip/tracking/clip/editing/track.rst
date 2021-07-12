@@ -27,8 +27,7 @@ and the most likely position of the feature on the next frame is used.
 Backwards
 ---------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Tracking
    :Menu:      :menuselection:`Track --> Track Motion --> Backwards`
@@ -40,8 +39,7 @@ Tracks the motion backward along the sequence.
 Frame Backwards
 ---------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Tracking
    :Menu:      :menuselection:`Track --> Track Motion --> Frame Backwards`
@@ -53,8 +51,7 @@ Tracks the motion backward by one frame.
 Forwards
 --------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Tracking
    :Menu:      :menuselection:`Track --> Track Motion --> Forwards`
@@ -66,8 +63,7 @@ Tracks the motion forward along the whole sequence.
 Frame Forwards
 --------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Tracking
    :Menu:      :menuselection:`Track --> Track Motion --> Frame Forwards`
@@ -84,8 +80,7 @@ Clear
 Before
 ------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Tracking
    :Menu:      :menuselection:`Track --> Clear --> Before`
@@ -100,8 +95,7 @@ Clear Active
 After
 -----
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Tracking
    :Menu:      :menuselection:`Track --> Clear --> After`
@@ -116,8 +110,7 @@ Clear Active
 Track Path
 ----------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Tracking
    :Menu:      :menuselection:`Track --> Clear --> Track Path`
@@ -156,8 +149,7 @@ Accordingly if tracking happens forwards, use *Refine Forwards*, otherwise use *
 Backwards
 ---------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Tracking
    :Menu:      :menuselection:`Track --> Refine --> Backwards`
@@ -168,8 +160,7 @@ Refine the track backwards.
 Forwards
 --------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Tracking
    :Menu:      :menuselection:`Track --> Refine --> Forwards`
@@ -182,8 +173,7 @@ Refine the track forwards.
 Add Marker
 ==========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Tracking
    :Menu:      :menuselection:`Track --> Add Marker`
@@ -206,8 +196,7 @@ using the track preview widget to control how accurately the marker is placed.
 Detect Features
 ===============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Tracking
    :Menu:      :menuselection:`Track --> Detect Features`
@@ -256,8 +245,7 @@ Distance
 Create Plane Track
 ==================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Tracking
    :Menu:      :menuselection:`Track --> Create Plane Track`
@@ -291,8 +279,7 @@ the :doc:`/compositing/types/distort/plane_track_deform` compositing node.
 Solve Solution
 ==============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Tracking
    :Menu:      :menuselection:`Track --> Solve Solution`
@@ -319,8 +306,7 @@ or that values for focal length or distortion coefficients were set incorrectly.
 Join Tracks
 ===========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Tracking
    :Menu:      :menuselection:`Track --> Join Tracks`
@@ -341,8 +327,7 @@ Selected tracks should not have common tracked or keyframed markers at the same 
 Average Tracks
 ==============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Tracking
    :Menu:      :menuselection:`Track --> Average Tracks`
@@ -393,8 +378,7 @@ Clean Up
 Clean Tracks
 ------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Tracking
    :Menu:      :menuselection:`Track --> Clean Up --> Clean Tracks`
@@ -421,8 +405,7 @@ Action
 Filter Tracks
 -------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Tracking
    :Menu:      :menuselection:`Track --> Clean Up --> Filter Tracks`
@@ -436,8 +419,7 @@ Additionally, it identifies tracks which has suspicious spikes in their motion a
 Delete Track
 ============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Tracking
    :Menu:      :menuselection:`Track --> Delete Track`
@@ -449,8 +431,7 @@ Delete all selected tracks.
 Delete Marker
 =============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Tracking
    :Menu:      :menuselection:`Track --> Delete Marker`

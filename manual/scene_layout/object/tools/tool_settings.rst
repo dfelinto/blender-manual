@@ -6,8 +6,7 @@ Tool Settings
 Options
 =======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode and Pose Mode
    :Header:    :menuselection:`Sidebar --> Tool --> Options`

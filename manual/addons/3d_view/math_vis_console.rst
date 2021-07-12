@@ -45,8 +45,7 @@ In the Python Console define a mathutils variable::
 
 You should now be able to see this point in the 3D Viewport!
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  3D View
    :Description: Display console defined mathutils variables in the 3D Viewport.

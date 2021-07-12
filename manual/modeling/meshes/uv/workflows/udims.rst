@@ -56,8 +56,7 @@ This works for either 2D Painting or :doc:`3D Painting </sculpt_paint/texture_pa
 UDIM Tiles
 ==========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    Image Editor, UV Editor
    :Mode:      All Modes

@@ -33,8 +33,7 @@ You can manually move the Reflection Plane above the surface enough for it to no
 Alternatively you can put a floor object inside a collection and
 use this collection as a Visibility Collection (inverted) inside the Reflection Plane's probe settings.
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Object Data --> Probe`
 
@@ -75,8 +74,7 @@ Visibility Collection
 Viewport Display
 ================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Object Data --> Viewport Display`
 

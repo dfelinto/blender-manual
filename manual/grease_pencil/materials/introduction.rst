@@ -42,8 +42,7 @@ determined by closed lines (by connecting the lines start and end points).
 Setting Up Materials
 ====================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Drawing Mode
    :Panel:     :menuselection:`Material --> Material Slots`

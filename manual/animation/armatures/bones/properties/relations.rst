@@ -3,8 +3,7 @@
 Relations
 *********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Panel:     :menuselection:`Bone --> Relations`

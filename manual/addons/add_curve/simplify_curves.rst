@@ -33,8 +33,7 @@ The *Simplify F-Curves* tool can be accessed by enabling :ref:`Developer Extras 
 and using the :ref:`bpy.ops.wm.search_menu` to search for "Simplify F-Curves" in the Dope Sheet or Graph Editor.
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Add Curve
    :Description: Simplify curves in the 3D Viewport, and Dope Sheet, merge by distance in 3D Viewport.

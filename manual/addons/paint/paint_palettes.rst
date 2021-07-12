@@ -51,8 +51,7 @@ Weight Palette
 Select the weight value from the eleven values. These can be adjusted with the *Weight* slider.
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Paint
    :Description: Palettes for color and weight paint modes.

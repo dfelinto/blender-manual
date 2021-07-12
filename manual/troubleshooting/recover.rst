@@ -32,8 +32,7 @@ Recovering Auto Saves
 Last Session
 ------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`File --> Recover --> Last Session`
 
@@ -46,8 +45,7 @@ Note that files in your temporary directory may be deleted when you reboot your 
 Auto Save
 ---------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`File --> Recover --> Auto Save`
 

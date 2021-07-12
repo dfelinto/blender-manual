@@ -8,8 +8,7 @@ Clip
 Open Clip
 =========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All modes
    :Menu:      :menuselection:`Clip --> Open Clip`
@@ -23,8 +22,7 @@ Todo.
 Set Scene Frames
 ================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Tracking
    :Menu:      :menuselection:`Clip --> Set Scene Frames`
@@ -37,8 +35,7 @@ Sets end scene frame to match current clip duration.
 Set Principal to Center
 =======================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Tracking
    :Menu:      :menuselection:`Clip --> Set Principal to Center`
@@ -51,8 +48,7 @@ Changes the :ref:`Optical Center <bpy.types.MovieTrackingCamera.principal>` valu
 Prefetch
 ========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All modes
    :Menu:      :menuselection:`Clip --> Prefetch`
@@ -68,8 +64,7 @@ but this keeps CPU and drive bandwidth idle if you've got a Clip editor opened b
 Reload Clip
 ===========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All modes
    :Menu:      :menuselection:`Clip --> Open Clip`
@@ -89,8 +84,7 @@ Todo.
 Set as Background
 =================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Tracking
    :Menu:      :menuselection:`Clip --> Set as Background`
@@ -104,8 +98,7 @@ If there is no visible 3D Viewports or the Clip Editor is open in full screen, n
 Setup Tracking Scene
 ====================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Tracking
    :Menu:      :menuselection:`Clip --> Setup Tracking Scene`

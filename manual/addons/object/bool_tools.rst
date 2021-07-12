@@ -72,8 +72,7 @@ Fast Transformation
    when another high-poly brush is applied it will be slow yet
    since we have a bad Dependency Graph handling of that situation.
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Object
    :Description: Boolean modifier tools.

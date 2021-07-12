@@ -29,8 +29,7 @@ Description
 Lazy Connect
 ------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Shortcut:  :kbd:`Ctrl-RMB`-drag, :kbd:`Shift-Ctrl-RMB`
 
@@ -46,8 +45,7 @@ since you can easily make connections without having to zoom in and out a lot.
 Lazy Mix
 --------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Shortcut:  :kbd:`Alt-RMB`-drag
 
@@ -66,8 +64,7 @@ that will merge outputs of selected nodes.
 Merge with Automatic Type Detection
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Shortcut:  :kbd:`Ctrl-0`, :kbd:`Shift-Ctrl-=`, :kbd:`Ctrl-Minus`, :kbd:`Shift-Ctrl-8`, :kbd:`Ctrl-Slash`,
                :kbd:`Shift-Ctrl-Comma`, :kbd:`Shift-Ctrl-Period`
@@ -94,8 +91,7 @@ Less than :kbd:`Shift-Ctrl-Period`
 Merge Using Mix Node
 ^^^^^^^^^^^^^^^^^^^^
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Shortcut:  :kbd:`Shift-Ctrl-Alt-=`, :kbd:`Ctrl-Alt-Minus`, :kbd:`Shift-Ctrl-Alt-8`, :kbd:`Ctrl-Alt-Slash`
 
@@ -106,8 +102,7 @@ no matter what types of nodes are selected.
 Merge Using Z-Combine Node
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Shortcut:  :kbd:`Ctrl-NumpadPeriod`
 
@@ -117,8 +112,7 @@ Z-Combine nodes will be used for merging. If possible -- image and Z-Depth outpu
 Merge Using Alpha Over Node
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Shortcut:  :kbd:`Ctrl-Alt-0`
 
@@ -128,8 +122,7 @@ Alpha Over nodes will be used for merging.
 Merge Using Math Node
 ^^^^^^^^^^^^^^^^^^^^^
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Shortcut:  :kbd:`Shift-Ctrl-=`, :kbd:`Shift-Ctrl-Minus`, :kbd:`Shift-Ctrl-8`,
                :kbd:`Shift-Ctrl-Slash`, :kbd:`Shift-Ctrl-Comma`, :kbd:`Shift-Ctrl-Period`
@@ -141,8 +134,7 @@ no matter what types of nodes are selected.
 Batch Change Blend Mode / Math Operation
 ----------------------------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Shortcut:  :kbd:`Alt-Up`, :kbd:`Alt-Down`, :kbd:`Alt-0`, :kbd:`Shift-Alt-=`, :kbd:`Alt-Minus`,
                :kbd:`Shift-Alt-8`, :kbd:`Alt-Slash`, :kbd:`Shift-Alt-Comma`, :kbd:`Shift-Alt-Period`
@@ -156,8 +148,7 @@ Use :kbd:`Alt-Up` or :kbd:`Alt-Down` to go through all available blend modes or 
 Change Mix Factor
 -----------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Shortcut:  :kbd:`Alt-Left`, :kbd:`Shift-Alt-Left`, :kbd:`Alt-Right`, :kbd:`Shift-Alt-Right`
 
@@ -174,8 +165,7 @@ Change Factor of selected Mix nodes or Mix Shader nodes.
 Delete Unused Nodes
 -------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Shortcut:  :kbd:`Alt-X`
 
@@ -185,8 +175,7 @@ Clean your node tree. Delete all of the nodes that don't contribute to the final
 Swap Links
 ----------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Shortcut:  :kbd:`Alt-S`
 
@@ -204,8 +193,7 @@ If more than two inputs are linked, the two with matching types will be swapped
 Reset Backdrop
 --------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Shortcut:  :kbd:`Z`
 
@@ -215,8 +203,7 @@ Reset position and scale of the backdrop.
 Add UV Layout Attribute Node
 ----------------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Header --> Add menu`
 
@@ -226,8 +213,7 @@ Add Attribute node with the attribute set to UV Layout.
 Add Vertex Color Attribute Node
 -------------------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Header --> Add menu`
 
@@ -237,8 +223,7 @@ Add an Attribute node with the attribute set to vertex color.
 Shader Viewer
 -------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Shortcut:  :kbd:`Shift-Ctrl-LMB`
 
@@ -249,8 +234,7 @@ newly created Emission shader and Material Output. This is an easy way of previe
 Frame Selected
 --------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Shortcut:  :kbd:`Shift-P`
 
@@ -261,8 +245,7 @@ Immediately after that hit :kbd:`F6` to set the color and label of the Frame.
 Reload Images
 -------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Shortcut:  :kbd:`Alt-R`
 
@@ -272,8 +255,7 @@ All of the images used in the node tree (Image inputs, textures) can be reloaded
 Switch Node Type
 ----------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Shortcut:  :kbd:`Shift-S`
 
@@ -284,8 +266,7 @@ you'll get the menu ordered exactly the same as :menuselection:`Add --> Node` me
 Copy Settings
 -------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Shortcut:  :kbd:`Shift-C`
 
@@ -295,8 +276,7 @@ Copy settings of active node to all selected nodes of the same type.
 Copy Label
 ----------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Shortcut:  :kbd:`Shift-C`
 
@@ -310,8 +290,7 @@ All options will be revealed in submenu after hitting :kbd:`Shift-C`.
 Clear Label
 -----------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Shortcut:  :kbd:`Alt-L`
 
@@ -321,8 +300,7 @@ Clear labels of selected nodes.
 Modify Label
 ------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Shortcut:  :kbd:`Shift-Alt-L`
 
@@ -333,8 +311,7 @@ Add text to beginning, to end, replace parts of text.
 Add Texture Setup
 -----------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Shortcut:  :kbd:`Ctrl-T`
 
@@ -346,8 +323,7 @@ A background shader will get an Environment Texture node with generated mapping.
 Add Reroutes to Outputs
 -----------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Shortcut:  :kbd:`Slash`
 
@@ -357,8 +333,7 @@ Reroute nodes will be added and linked to each output of each selected node.
 Link Active to Selected
 -----------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Shortcut:  :kbd:`Backslash`, :kbd:`K`, :kbd:`Shift-K`, :kbd:`'`, :kbd:`Shift-'`, :kbd:`;`, :kbd:`Shift-;`
 
@@ -375,8 +350,7 @@ Link active node to selected nodes basing on various criteria.
 Align Nodes
 -----------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Shortcut:  :kbd:`Shift-=`
 
@@ -394,8 +368,7 @@ Select within Frame (Parent/Children)
 Detach Outputs
 --------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Shortcut:  :kbd:`Shift-Alt-D`
 
@@ -405,8 +378,7 @@ Detach output of selected node leaving linked inputs.
 Link to Output Node
 -------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Shortcut:  :kbd:`O`
 
@@ -417,8 +389,7 @@ In materials -- link to Material Output node.
 Add Image Sequence
 ------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Add --> Input` menu for composite nodes,
                or :menuselection:`Add --> Texture` menu for shader nodes
@@ -430,8 +401,7 @@ it will automatically detect the length of the sequence and set the node appropr
 Add Multiple Images
 -------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Add --> Input` menu for composite nodes,
                or :menuselection:`Add --> Texture` menu for shader nodes
@@ -447,8 +417,7 @@ Simply allows you to select more than one image and adds a node for each.
    for the archived original docs.
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Node
    :Description: Various tools to enhance and speed up node-based workflow.

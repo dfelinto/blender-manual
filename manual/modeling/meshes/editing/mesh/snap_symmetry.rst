@@ -4,8 +4,7 @@
 Snap to Symmetry
 ****************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Snap to Symmetry`

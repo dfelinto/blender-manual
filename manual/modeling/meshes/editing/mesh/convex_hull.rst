@@ -4,8 +4,7 @@
 Convex Hull
 ***********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Convex Hull`

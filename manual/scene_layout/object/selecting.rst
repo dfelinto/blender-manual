@@ -42,8 +42,7 @@ Select Menu
 All
 ---
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Select --> All`
@@ -55,8 +54,7 @@ Select all selectable objects.
 None
 ----
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Select --> None`
@@ -68,8 +66,7 @@ Deselect all objects, but the active object stays the same.
 Invert
 ------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Select --> Invert`
@@ -81,8 +78,7 @@ Toggle the selection state of all visible objects.
 Box Select
 ----------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Select --> Box Select`
@@ -94,8 +90,7 @@ Interactive :ref:`box selection <tool-select-box>`.
 Circle Select
 -------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Select --> Circle Select`
@@ -109,8 +104,7 @@ Interactive :ref:`circle selection <tool-select-circle>`.
 Select All by Type
 ------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Select --> Select All by Type`
@@ -124,8 +118,7 @@ For a description of all object types see :doc:`Object Types </scene_layout/obje
 Select Active Camera
 --------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Select --> Select Active Camera`
@@ -138,8 +131,7 @@ Selects the active camera, this is especially handy in complex scene.
 Select Mirror
 -------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Select --> Select Mirror`
@@ -153,8 +145,7 @@ based on their names, e.g. "sword.L" and "sword.R".
 Select Random
 -------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Select --> Select Random`
@@ -173,8 +164,7 @@ that will be selected.
 Select More/Less
 ----------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Select --> More/Less`
@@ -201,8 +191,7 @@ Extend Child
 Select Grouped
 --------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Select --> Select Grouped`
@@ -245,8 +234,7 @@ Light Type
 Select Linked
 -------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Select --> Select Linked`
@@ -279,8 +267,7 @@ Library (Object Data)
 Select Pattern
 --------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Select --> Select Pattern...`

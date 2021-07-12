@@ -12,8 +12,7 @@
 Modifiers
 *********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Sidebar region --> Modifiers --> Modifiers`
 

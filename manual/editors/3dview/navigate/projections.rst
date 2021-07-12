@@ -3,8 +3,7 @@
 Perspective/Orthographic
 ************************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All modes
    :Menu:      :menuselection:`View --> Perspective/Orthographic`

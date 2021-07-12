@@ -3,8 +3,7 @@
 Precision
 *********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object and Edit Modes
    :Shortcut:  :kbd:`Ctrl` and/or :kbd:`Shift`

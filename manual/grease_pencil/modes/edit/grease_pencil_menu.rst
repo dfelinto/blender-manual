@@ -12,8 +12,7 @@ Strokes can be edited by transforming the locations of points.
 Move, Rotate & Scale
 --------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Tool:      :menuselection:`Toolbar --> Move, Rotate, Scale`
@@ -38,8 +37,7 @@ See :doc:`Move, Rotate, Scale Basics </modeling/meshes/editing/mesh/transform/ba
 Tools
 -----
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Grease Pencil --> Transform`
@@ -52,8 +50,7 @@ in the :doc:`Editing tools </grease_pencil/modes/edit/tools>` section.
 Mirror
 ======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Grease Pencil --> Mirror`
@@ -66,8 +63,7 @@ The *Mirror* tool is also available, behaving exactly the same as with
 Snap
 ====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Grease Pencil --> Snap`
@@ -80,8 +76,7 @@ also works with Grease Pencil components.
 Active Layer
 ============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode, Draw Mode
    :Menu:      :menuselection:`Grease Pencil --> Active Layer`
@@ -93,8 +88,7 @@ Select the active layer.
 Animation
 =========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode, Draw Mode
    :Menu:      :menuselection:`Grease Pencil --> Animation`
@@ -107,8 +101,7 @@ in the :doc:`Animation </grease_pencil/animation/tools>` section.
 Interpolation
 =============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode, Draw Mode
    :Menu:      :menuselection:`Grease Pencil --> Interpolation`
@@ -122,8 +115,7 @@ in the :ref:`Animation <grease-pencil-animation-tools-interpolation>` section.
 Duplicate
 =========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Grease Pencil --> Duplicate`
@@ -139,8 +131,7 @@ and places the duplicate at the location of the original elements.
 Split
 =====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Grease Pencil --> Split`
@@ -155,8 +146,7 @@ The separated points are left exactly at the same position as the original point
 Copy
 ====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Grease Pencil --> Copy`
@@ -170,8 +160,7 @@ Copy the selected points/strokes to the clipboard.
 Paste & Paste by Layer
 ======================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Grease Pencil --> Paste`, :menuselection:`Grease Pencil --> Paste by Layer`
@@ -191,8 +180,7 @@ Type
 Separate
 ========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Grease Pencil --> Separate`
@@ -223,8 +211,7 @@ These tools help to cleanup degenerate geometry on the strokes.
 Boundary Strokes
 ----------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Grease Pencil --> Clean Up --> Boundary Strokes`
@@ -242,8 +229,7 @@ Mode
 Boundary Strokes All Frames
 ---------------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Grease Pencil --> Clean Up --> Boundary Strokes all Frames`
@@ -256,8 +242,7 @@ Same as `Boundary Strokes`_ but *Mode* is set to *All Frames*.
 Delete Loose Points
 -------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Grease Pencil --> Clean Up --> Delete Loose Points`
@@ -270,8 +255,7 @@ Removes unconnected points.
 Merge by Distance
 -----------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Grease Pencil --> Clean Up --> Merge by Distance`
@@ -293,8 +277,7 @@ Unselected
 Delete Duplicate Frames
 -----------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Grease Pencil --> Clean Up --> Delete Duplicated Frames`
@@ -307,8 +290,7 @@ Removes any duplicated animation frames.
 Reproject
 ---------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Grease Pencil --> Clean Up --> Reproject`
@@ -362,8 +344,7 @@ Keep Original
 Recalculate Geometry
 ====================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode and Draw Mode
    :Menu:      :menuselection:`Grease Pencil --> Clean Up --> Recalculate Geometry`
@@ -379,8 +360,7 @@ but it can help in cases where strokes are drawn in a strange way or when you op
 Delete
 ======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Grease Pencil --> Delete`

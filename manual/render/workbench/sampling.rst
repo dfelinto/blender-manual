@@ -11,8 +11,7 @@ The setting for the 3D Viewport is a user preference to specify the anti-aliasin
 that runs best on the used system. The setting for viewport rendering
 and final rendering is saved per scene.
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Render --> Sampling`
                :menuselection:`Preferences --> Viewport`

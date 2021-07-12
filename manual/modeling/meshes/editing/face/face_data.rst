@@ -8,8 +8,7 @@ Face Data
 Rotate Colors
 =============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Face --> Face Data --> Rotate Colors`
@@ -22,8 +21,7 @@ Rotates the Vertex Colors inside faces either clockwise or counterclockwise.
 Reverse Colors
 ==============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Face --> Face Data --> Reverse Colors`
@@ -34,8 +32,7 @@ Flips the direction of Vertex Colors inside the selected faces.
 Rotate UVs
 ==========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Face --> Face Data --> Rotate UVs`
@@ -46,8 +43,7 @@ See :ref:`bpy.ops.mesh.uvs_rotate`.
 Reverse UVs
 ===========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Face --> Face Data --> Reverse UVs`
@@ -60,8 +56,7 @@ See :ref:`bpy.ops.mesh.uvs_reverse`.
 Mark Freestyle Face
 ===================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Face --> Face Data --> Mark Freestyle Face`
@@ -72,8 +67,7 @@ Todo.
 Clear Freestyle Face
 ====================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Face --> Face Data --> Clear Freestyle Face`

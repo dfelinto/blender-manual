@@ -4,8 +4,7 @@
 Add Cone
 ********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode and Edit Mode
    :Tool:      :menuselection:`Toolbar --> Add Cone`

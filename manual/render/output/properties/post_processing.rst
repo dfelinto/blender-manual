@@ -4,8 +4,7 @@
 Post Processing
 ***************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Properties --> Output --> Post Processing`
 

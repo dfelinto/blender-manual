@@ -41,8 +41,7 @@ All
 Add Image Strip
 ===============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Add --> Image/Sequence`
 

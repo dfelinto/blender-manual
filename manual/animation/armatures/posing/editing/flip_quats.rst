@@ -4,8 +4,7 @@
 Flip Quats
 **********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Pose Mode
    :Menu:      :menuselection:`Pose --> Flip Quats`

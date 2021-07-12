@@ -4,8 +4,7 @@
 Screw
 *****
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Edge --> Screw`

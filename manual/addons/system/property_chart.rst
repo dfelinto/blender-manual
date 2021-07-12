@@ -19,8 +19,7 @@ Description
 
 - To Do
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  System
    :Description: Edit arbitrary selected properties for objects/sequence strips of the same type.

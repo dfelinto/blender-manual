@@ -40,8 +40,7 @@ but probably some rectangular ones on the edges, disable *Consistent Tiles*.
    The most recent documentation and info can be found at
    the `authors site <http://gregzaal.github.io/auto-tile-size/>`__.
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Render
    :Description: Estimate and set the tile size that will render the fastest.

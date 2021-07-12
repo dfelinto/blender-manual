@@ -62,8 +62,7 @@ View Numpad :kbd:`Q`
    Numpad View Directions.
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Interface
    :Description: Individual and optional pie menu activation.

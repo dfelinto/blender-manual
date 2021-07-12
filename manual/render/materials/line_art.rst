@@ -3,8 +3,7 @@
 Line Art
 ********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Material --> Line Art`
 

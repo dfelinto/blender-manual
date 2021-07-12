@@ -4,8 +4,7 @@
 Laplacian Smooth
 ****************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Context Menu --> Laplacian Smooth`

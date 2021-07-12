@@ -8,8 +8,7 @@ Object
 Visibility
 ==========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Object Properties --> Visibility`
 
@@ -81,8 +80,7 @@ Use Distance Cull
 Motion Blur
 ===========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Properties --> Object Properties --> Motion Blur`
 
@@ -109,8 +107,7 @@ Deformation
 Shading
 =======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Properties --> Object Properties --> Shading`
 

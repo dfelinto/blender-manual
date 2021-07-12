@@ -64,8 +64,7 @@ and how to start :doc:`rendering </render/output/index>`.
 Add Sound Strip
 ===============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Add --> Sound`
 

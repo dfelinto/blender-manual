@@ -20,8 +20,7 @@ Then select *Effector* as the fluid *Type*.
 Settings
 ========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Physics --> Fluid --> Settings`
    :Type:      Effector

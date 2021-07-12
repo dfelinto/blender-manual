@@ -5,8 +5,7 @@
 Rotate Edge
 ***********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Edge --> Rotate Edge CW / Rotate Edge CCW`

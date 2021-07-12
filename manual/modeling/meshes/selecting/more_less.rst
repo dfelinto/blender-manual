@@ -3,8 +3,7 @@
 Select More/Less
 ****************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Select More/Less --> More`
@@ -30,8 +29,7 @@ Face Step
 Select Next/Previous Active
 ===========================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Select More/Less --> Next Active`

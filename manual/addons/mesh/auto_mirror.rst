@@ -21,8 +21,7 @@ Usage
 #. Press *Auto Mirror* and depending on the settings, your object will be in Edit Mode, with mirror set up for you.
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Mesh
    :Description: Super fast cutting and mirroring for mesh.

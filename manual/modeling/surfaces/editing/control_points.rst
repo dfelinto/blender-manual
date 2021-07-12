@@ -6,8 +6,7 @@ Control Points
 Extrude Curve and Move
 ======================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Surface --> Extrude Curve and Move`
@@ -84,8 +83,7 @@ until you have reached the final shape for your model.
 Make Segment
 ============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Surface --> Make Segment`
@@ -141,8 +139,7 @@ Fig. :ref:`fig-surface-edit-join-complete` is the result of joining the two curv
 Smooth
 ======
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Surface --> Control Points --> Smooth`
@@ -154,8 +151,7 @@ by reducing the distance between neighboring control points.
 Hooks
 =====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Surface --> Control Points --> Hooks`
@@ -167,8 +163,7 @@ Hooks
 Make Vertex Parent
 ==================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Surface --> Control Points --> Make Vertex Parent`

@@ -5,8 +5,7 @@
 Grid Fill
 *********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Face --> Grid Fill`

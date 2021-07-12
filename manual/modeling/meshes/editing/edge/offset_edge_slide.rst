@@ -4,8 +4,7 @@
 Offset Edge Slide
 *****************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Tool:      :menuselection:`Edge --> Offset Edge Slide`

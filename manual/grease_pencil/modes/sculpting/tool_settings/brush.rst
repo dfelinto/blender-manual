@@ -3,8 +3,7 @@
 Brush Settings
 **************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sculpt Mode
    :Panel:     :menuselection:`Sidebar --> Tool --> Brush Settings`

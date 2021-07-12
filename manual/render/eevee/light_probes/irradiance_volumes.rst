@@ -17,8 +17,7 @@ If Ambient Occlusion is enabled, it will be applied onto diffuse indirect lighti
 If both Ambient Occlusion and "Bent Normals" are enabled
 the indirect lighting will be sampled from the least occluded direction and appear more correct.
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Object Data --> Probe`
 

@@ -4,8 +4,7 @@
 Transfer Mesh Data Layout
 *************************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Link/Transfer Data --> Transfer Mesh Data Layout`

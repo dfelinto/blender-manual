@@ -8,8 +8,7 @@ Delete
 Bones
 =====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Armature --> Delete --> Bones`
@@ -38,8 +37,7 @@ to avoid deforming the whole armature.
 Dissolve
 ========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Armature --> Delete --> Dissolve`

@@ -14,8 +14,7 @@ by picking from a list of recent actions recorded by Blender.
 Undo
 ====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Edit --> Undo`
@@ -33,8 +32,7 @@ If you want to undo your last action, just press :kbd:`Ctrl-Z`.
 Redo
 ====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Edit --> Redo`
@@ -48,8 +46,7 @@ To roll back the Undo action, press :kbd:`Shift-Ctrl-Z`.
 Adjust Last Operation
 =====================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Edit --> Adjust Last Operation...`
@@ -106,8 +103,7 @@ the contents of *Adjust Last Operation* are different, because of the mode (Edit
 Undo History
 ============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Edit --> Undo History`
@@ -134,8 +130,7 @@ Selecting one of the entries in the list takes the current status to that positi
 Repeat Last
 ===========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Panel:     :menuselection:`Edit --> Repeat Last`
@@ -167,8 +162,7 @@ Using repeat :kbd:`Shift-R`, the *Monkey* was also duplicated and moved.
 Repeat History
 ==============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Edit --> Repeat History...`

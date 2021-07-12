@@ -15,8 +15,7 @@ This is a convenient way to play back image sequences at the correct frame rate.
 Usage
 =====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Topbar --> Render --> View Animation`
    :Shortcut:  :kbd:`Ctrl-F11`

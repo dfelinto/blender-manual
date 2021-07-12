@@ -34,8 +34,7 @@ Library overrides supports:
 Creating an Override
 ====================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    3D Viewport and Outliner
    :Mode:      Object Mode
@@ -80,8 +79,7 @@ of collections and objects, and override all those needed to allow posing/animat
 Converting Proxies to Library Override
 ======================================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    3D Viewport and Outliner
    :Mode:      Object Mode
@@ -124,8 +122,7 @@ You can manually define or remove an override from the context menu of the relev
 Define Overrides
 ----------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    Any
    :Mode:      Object Mode
@@ -139,8 +136,7 @@ all elements will be overridden.
 Define Single Override
 ----------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    Any
    :Mode:      Object Mode
@@ -155,8 +151,7 @@ the selected element will be overridden.
 Remove Overrides
 ----------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    Any
    :Mode:      Object Mode
@@ -170,8 +165,7 @@ For array properties all elements will be removed from the override.
 Remove Single Override
 ----------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    Any
    :Mode:      Object Mode
@@ -184,8 +178,7 @@ For array properties only the selected elements will be removed from the overrid
 Reset Library Override
 ======================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    Outliner
    :Mode:      Object Mode
@@ -199,8 +192,7 @@ the overrides of its child data-blocks.
 Resync Library Override Hierarchy
 =================================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    Outliner
    :Mode:      Object Mode
@@ -221,8 +213,7 @@ to the new structure in the library.
 Resync Library Override Hierarchy Enforce
 =========================================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    Outliner
    :Mode:      Object Mode
@@ -240,8 +231,7 @@ at the cost of a potential loss of some overrides on ID pointers properties.
 Delete Library Override Hierarchy
 =================================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Editor:    Outliner
    :Mode:      Object Mode

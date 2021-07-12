@@ -6,8 +6,7 @@ Sidebar
 Node
 ====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Sidebar --> Node`
 
@@ -66,8 +65,7 @@ e.g. a Mix node has different properties than a Mask node.
 Tool
 ====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Sidebar region --> Tool`
 
@@ -81,8 +79,7 @@ The info in this panel changes with the selected tool.
 View
 ====
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Sidebar region --> View`
 

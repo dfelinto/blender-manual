@@ -60,8 +60,7 @@ Flipped UV
    Todo.
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Object
    :Description: Tools for objects, render, shapes, and files.

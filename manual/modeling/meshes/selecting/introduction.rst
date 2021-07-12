@@ -13,8 +13,7 @@ First we will go through these modes and after that a look is taken at basic sel
 Selection Modes
 ===============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`3D Viewport Header --> Select Mode`

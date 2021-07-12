@@ -3,8 +3,7 @@
 Symmetry
 ********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Sculpt Mode
    :Tool:      :menuselection:`Toolbar --> Tool --> Symmetry`

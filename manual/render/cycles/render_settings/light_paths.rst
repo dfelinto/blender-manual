@@ -4,8 +4,7 @@
 Light Paths
 ***********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Render --> Light Paths`
 
@@ -166,8 +165,7 @@ Caustics
 Fast GI Approximation
 ---------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Render --> Light Paths --> Fast GI Approximation`
 

@@ -75,8 +75,7 @@ This is available in Draw Mode in the :ref:`Brushes panel <grease-pencil-draw-co
 
    This feature will be removed once the Blender official asset manager is released.
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Object
    :Description: Set of tools for Grease Pencil drawing.

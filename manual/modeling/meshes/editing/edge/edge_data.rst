@@ -12,8 +12,7 @@ Edges can have several different attributes that affect how certain other tools 
 Edge Crease
 ===========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Edge --> Edge Crease`
@@ -36,8 +35,7 @@ To clear the crease edge property, enter a value of -1.
 Edge Bevel Weight
 =================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Edge --> Edge Bevel Weight`
@@ -63,8 +61,7 @@ this operator alters the average weight of the edges.
 Mark Seam & Clear Seam
 ======================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Edge --> Mark Seam/Clear Seam`
@@ -79,8 +76,7 @@ These operators set or unset this mark for selected edges.
 Mark Sharp & Clear Sharp
 ========================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Edge --> Mark Sharp/Clear Sharp`

@@ -25,8 +25,7 @@ You may limit the effect on particles to a group of objects
 Creating a Force Field
 ======================
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Add --> Force Field`

@@ -4,8 +4,7 @@
 Extrude to Cursor
 *****************
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Shortcut:  :kbd:`Ctrl-RMB`

@@ -6,8 +6,7 @@ Lighting
 The Workbench engine does not use the lights of the scene.
 The lighting conditions that will be used can be set in the Lighting panel.
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Properties --> Render --> Lighting`
 

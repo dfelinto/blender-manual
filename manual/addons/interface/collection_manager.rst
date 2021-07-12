@@ -410,8 +410,7 @@ RTO Short Forms
    :IO: Indirect Only. (Makes the collection only contribute indirectly (shadows/reflections) to the render
         for the current view layer -- affects render -- non-chaining -- *Cycles only*.)
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Interface
    :Description: Collection management system.

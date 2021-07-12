@@ -6,8 +6,7 @@ Sidebar
 Edited Action
 =============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Sidebar --> Edited Action`
 
@@ -98,8 +97,7 @@ Mute
 Active Strip
 ------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Sidebar --> Strip --> Active Strip`
 
@@ -149,8 +147,7 @@ Same as *Animated Influence*, but with *Strip Time*.
 Action Clip
 -----------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Sidebar region --> Animations --> Action Clip`
 
@@ -193,8 +190,7 @@ Repeat
 Modifiers
 =========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Sidebar region --> Modifiers --> Modifiers`
 

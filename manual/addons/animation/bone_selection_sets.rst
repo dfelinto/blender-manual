@@ -35,8 +35,7 @@ A bone can belong to more than one selection set.
    :doc:`/animation/armatures/properties/bone_groups` for a way to visually distinguish groups of bones.
 
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Animation
    :Description: List of Bone sets for easy selection while animating.

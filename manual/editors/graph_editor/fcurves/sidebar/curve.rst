@@ -6,8 +6,7 @@ F-Curve
 Active F-Curve
 ==============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Sidebar region --> F-Curve --> Active F-Curve`
 
@@ -81,8 +80,7 @@ Handle Smoothing
 Active Keyframe
 ===============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Sidebar region --> F-Curve --> Active Keyframe`
 

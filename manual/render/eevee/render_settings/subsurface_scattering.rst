@@ -6,8 +6,7 @@ Subsurface Scattering
 
 This effect mimics real subsurface scattering by blurring the diffuse lighting in screen space.
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Render --> Subsurface Scattering`
 

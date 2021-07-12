@@ -12,8 +12,7 @@ This page describes other curve editing tools that are not accessible via the ed
 Set Goal Weight
 ===============
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Context Menu --> Set Goal Weight`
@@ -27,8 +26,7 @@ If more than one control point is selected this will set the *Mean Weight*.
 Add Vertex
 ==========
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Edit Mode
    :Shortcut:  :kbd:`Ctrl-RMB`

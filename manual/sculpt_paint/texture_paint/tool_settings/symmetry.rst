@@ -3,8 +3,7 @@
 Symmetry
 ********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Texture Paint Mode
    :Tool:      :menuselection:`Toolbar --> Tool --> Symmetry`

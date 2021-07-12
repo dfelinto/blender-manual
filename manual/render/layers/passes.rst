@@ -4,8 +4,7 @@
 Passes
 ******
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Scene --> View Layers --> Passes`
 

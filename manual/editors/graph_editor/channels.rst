@@ -93,8 +93,7 @@ Editing
 Delete Channels
 ---------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Channel --> Delete Channels`
    :Shortcut:  :kbd:`X`
@@ -115,8 +114,7 @@ Deletes the whole channel from the current action
 Un/Group Channels
 -----------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Channel --> Un/Group Channels`
    :Shortcut:  :kbd:`Ctrl-Alt-G`, :kbd:`Ctrl-G`
@@ -132,8 +130,7 @@ For example, this helps to group channels that relate a part of an armature to k
 Toggle/Enable/Disable Channel Settings
 --------------------------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Channel --> Toggle/Enable/Disable Channel Settings`
    :Shortcut:  :kbd:`Shift-W`, :kbd:`Shift-Ctrl-W`, :kbd:`Alt-W`
@@ -149,8 +146,7 @@ Protect, Mute
 Toggle Channel Editability
 --------------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Channel --> Toggle Channel Editability`
    :Shortcut:  :kbd:`Tab`
@@ -163,8 +159,7 @@ Locks or unlocks a channel for editing.
 Extrapolation Mode
 ------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Channel --> Extrapolation Mode`
    :Shortcut:  :kbd:`Shift-E`
@@ -192,8 +187,7 @@ Reveal Curves :kbd:`Alt-H`
 Expand/Collapse Channels
 ------------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Channel --> Expand/Collapse Channels`
    :Shortcut:  :kbd:`NumpadPlus`, :kbd:`NumpadMinus`
@@ -206,8 +200,7 @@ Expands or collapses selected channels.
 Move
 ----
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Channel --> Move...`
 
@@ -220,8 +213,7 @@ or directly to the top/bottom :kbd:`Shift-PageUp`, :kbd:`Shift-PageDown`.
 Revive Disabled F-Curves
 ------------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Menu:      :menuselection:`Channel --> Revive Disabled F-Curves`
 

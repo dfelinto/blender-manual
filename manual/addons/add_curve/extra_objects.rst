@@ -50,8 +50,7 @@ Bevel/Taper Curve, by Cmomoney
 Surface Objects, by Folkert de Vries
    Adds a NURBS surface Plane, Cone, Star, Wedge.
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  Add Curve
    :Description: Add multiple extra curve object types.

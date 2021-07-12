@@ -48,8 +48,7 @@ Creating a new Meta-rig
 Add a new Armature Object
 -------------------------
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Add --> Armature --> Single Bone`

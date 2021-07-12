@@ -4,8 +4,7 @@
 Motion Blur
 ***********
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Render --> Motion Blur`
 

@@ -24,8 +24,7 @@ Description
 
 - To Do
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Category:  System
    :Description: Show information about the blend-file.

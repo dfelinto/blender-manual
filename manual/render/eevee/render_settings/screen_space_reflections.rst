@@ -15,8 +15,7 @@ it will be used as the source for tracing rays more efficiently and fix the part
 However, the reflected color will not contain the following effects:
 Subsurface scattering, volumetrics, screen space reflections, screen space refractions.
 
-.. admonition:: Reference
-   :class: refbox
+.. reference::
 
    :Panel:     :menuselection:`Render --> Screen Space Reflections`
 
