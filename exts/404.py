@@ -64,5 +64,6 @@ def write_htaccess(build_dir, text):
 def setup(app):
     app.connect('html-page-context', html_page_context)
     return {
-        "parallel_read_safe": True,
+        'parallel_read_safe': True,
+        'parallel_write_safe': True,
     }

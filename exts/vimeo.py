@@ -150,5 +150,6 @@ def setup(app):
     #event listener: replace node if not html builder
     app.connect('doctree-resolved', process_vimeo_node)
     return {
-        "parallel_read_safe": True,
+        'parallel_read_safe': True,
+        'parallel_write_safe': True,
     }
