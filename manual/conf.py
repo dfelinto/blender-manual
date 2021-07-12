@@ -50,6 +50,7 @@ needs_sphinx = '3.3'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'reference',
     'youtube',
     'vimeo',
     'sphinx.ext.mathjax',
