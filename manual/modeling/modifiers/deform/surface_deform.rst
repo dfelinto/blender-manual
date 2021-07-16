@@ -56,6 +56,11 @@ Vertex Group
 
       The setting reverses the weight values of the group.
 
+Sparse Bind
+   Only record bind data for vertices that have nonzero weights in the group at the time
+   of bind. This completely removes the memory and evaluation time overhead for the excluded
+   vertices, but adding new vertices to the group would require a rebind.
+
 Bind
    Bind the current state of the modified mesh to the current state of the target mesh,
    such that any later change in the target mesh will deform the modified mesh as well.

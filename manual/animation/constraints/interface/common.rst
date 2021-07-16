@@ -119,11 +119,11 @@ Local Space (Owner Orientation) :guilabel:`Bone Targets Only`
 
    This option replaces the following setup with two additional bones:
 
-   #. An extra child bone of the target, rotated the same as its owner bone in rest pose.
+   #. An extra child bone of the target, rotated the same as the owner bone in rest pose.
    #. An extra sibling bone of the target, positioned same as the child in rest pose
       and using :doc:`Copy Transforms </animation/constraints/transform/copy_transforms>`
       in *World Space* from the child.
-   #. The constraint uses *Local Space* of the sibling.
+   #. The constraint uses *Local Space* of the sibling instead of the original target.
 
    This video demonstrates the difference from ordinary *Local Space*:
 
