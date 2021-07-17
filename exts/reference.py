@@ -6,8 +6,6 @@ from docutils.parsers.rst.directives.admonitions import BaseAdmonition
 
 from sphinx.locale import _
 from sphinx.util.docutils import SphinxDirective
-from sphinx.util.typing import OptionSpec
-
 
 class refbox(nodes.Admonition, nodes.Element):
     pass
@@ -27,7 +25,7 @@ class ReferenceDirective(BaseAdmonition, SphinxDirective):
     required_arguments = 0
     optional_arguments = 0
     final_argument_whitespace = False
-    option_spec: OptionSpec = {
+    option_spec = {
         'class': directives.class_option,
         'name': directives.unchanged,
     }
