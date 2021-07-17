@@ -51,6 +51,7 @@ needs_sphinx = '3.3'
 # ones.
 extensions = [
     'reference',
+    'peertube',
     'youtube',
     'vimeo',
     'sphinx.ext.mathjax',
