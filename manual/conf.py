@@ -66,6 +66,7 @@ if "latex" in sys.argv:
     extensions.append('sphinx.ext.imgconverter')
     image_converter = "magick"
 
+peertube_instance = "https://video.blender.org/"
 intersphinx_mapping = {'blender_api': ('https://docs.blender.org/api/' + blender_version + '/', None)}
 
 # Add any paths that contain templates here, relative to this directory.

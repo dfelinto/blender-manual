@@ -4,6 +4,11 @@
 import re
 from docutils import nodes
 from docutils.parsers.rst import directives, Directive
+from sphinx.environment import BuildEnvironment
+from sphinx.locale import __
+from sphinx.util import logging
+
+logger = logging.getLogger(__name__)
 
 CONTROL_HEIGHT = 30
 
@@ -21,9 +26,17 @@ def css(d):
 class peertube(nodes.General, nodes.Element): pass
 
 def visit_peertube_node(self, node):
+    instance = node["instance"]
     aspect = node["aspect"]
     width = node["width"]
     height = node["height"]
+
+    if not (self.config.peertube_instance or instance):
+        logger.warning(__("No peertube instance defined"))
+        return
+
+    if instance is None:
+        instance = self.config.peertube_instance
 
     if aspect is None:
         aspect = 16, 9
@@ -45,7 +58,7 @@ def visit_peertube_node(self, node):
             "border": "0",
         }
         attrs = {
-            "src": "<https://video.blender.org/videos/embed/%s" % node["id"],
+            "src": instance + "videos/embed/%s" % node["id"],
             "style": css(style),
         }
     else:
@@ -62,7 +75,7 @@ def visit_peertube_node(self, node):
             "border": "0",
         }
         attrs = {
-            "src": "https://video.blender.org/videos/embed/%s" % node["id"],
+            "src": instance + "videos/embed/%s" % node["id"],
             "style": css(style),
         }
     attrs["allowfullscreen"] = "true"
@@ -77,8 +90,17 @@ def visit_peertube_node(self, node):
 def depart_peertube_node(self, node):
     pass
 
-def visit_peertube_node_latex(self,node):
-    self.body.append(r'\begin{quote}\begin{center}\fbox{\url{https://video.blender.org/videos/watch/%s}}\end{center}\end{quote}'%node['id'])
+def visit_peertube_node_latex(self, node):
+    instance = node["instance"]
+
+    if not (self.config.peertube_instance or instance):
+        logger.warning(__("No peertube instance defined"))
+        return
+
+    if instance is None:
+        instance = self.config.peertube_instance
+
+    self.body.append(r'\begin{quote}\begin{center}\fbox{\url{' + instance + r'videos/watch/%s}}\end{center}\end{quote}'%node['id'])
 
 
 class PeerTube(Directive):
@@ -87,12 +109,14 @@ class PeerTube(Directive):
     optional_arguments = 0
     final_argument_whitespace = False
     option_spec = {
+        "instance": directives.unchanged,
         "width": directives.unchanged,
         "height": directives.unchanged,
         "aspect": directives.unchanged,
     }
 
     def run(self):
+        instance = self.options.get("instance")
         if "aspect" in self.options:
             aspect = self.options.get("aspect")
             m = re.match("(\d+):(\d+)", aspect)
@@ -103,7 +127,7 @@ class PeerTube(Directive):
             aspect = None
         width = get_size(self.options, "width")
         height = get_size(self.options, "height")
-        return [peertube(id=self.arguments[0], aspect=aspect, width=width, height=height)]
+        return [peertube(id=self.arguments[0], instance=instance, aspect=aspect, width=width, height=height)]
 
 
 def unsupported_visit_peertube(self, node):
@@ -123,6 +147,7 @@ _NODE_VISITORS = {
 def setup(app):
     app.add_node(peertube, **_NODE_VISITORS)
     app.add_directive("peertube", PeerTube)
+    app.add_config_value('peertube_instance', "", True, [str])
     return {
         'parallel_read_safe': True,
         'parallel_write_safe': True,
