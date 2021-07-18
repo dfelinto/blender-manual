@@ -10,5 +10,6 @@
    circle.rst
    line.rst
    quadratic_bezier.rst
+   quadrilateral.rst
    spiral.rst
    star.rst
