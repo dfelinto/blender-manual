@@ -24,27 +24,6 @@ Object Evaluation State
    :Evaluated: Display data from object with all modifiers applied.
    :Original: Display data from original object without any modifiers applied.
 
-.. _bpy.types.SpaceSpreadsheet.geometry_component_type:
-
-Geometry Component Type
-   Part of the geometry to display data from.
-
-   :Mesh: Mesh component containing point, corner, face and edge data.
-   :Point Cloud: Point cloud component containing only point data.
-   :Instances: Display which objects and collections are instanced and their transforms.
-
-.. _bpy.types.SpaceSpreadsheet.attribute_domain:
-
-Attribute Domain
-   Attribute domain to display.
-
-   :Vertex: Display attributes that are stored per vertex.
-   :Edge: Display attributes that are stored per edge.
-   :Face: Display attributes that are stored per face.
-   :Face Corner: Display attributes that are stored per face corner.
-
-.. _bpy.types.SpaceSpreadsheet.display_context_path_collapsed:
-
 Breadcrumbs
    The breadcrumbs shows three key parts of the path the evaluated object
    takes before showing the information in the `Main Region`_.
@@ -74,6 +53,35 @@ Main Region
 
 The main view allows you to view the actual spreadsheet.
 Row indices and column names remain visible when scrolling down or to the side.
+
+
+Dataset Region
+==============
+
+The dataset region on the left allows choosing wich geometry component and geometry domain to view.
+Each attribute domain also displays its size, for example the number of faces.
+
+.. _bpy.types.SpaceSpreadsheet.geometry_component_type:
+
+Geometry Component Type
+   Part of the geometry to display data from.
+
+   :Mesh: Mesh component containing point, corner, face and edge data.
+   :Point Cloud: Point cloud component containing only point data.
+   :Curve: Display curve data: the attributes on splines and control points.
+   :Instances: Display which objects and collections are instanced and their transforms.
+
+.. _bpy.types.SpaceSpreadsheet.attribute_domain:
+
+Attribute Domain
+   Attribute domain to display.
+
+   :Vertex: Display attributes that are stored per vertex.
+   :Edge: Display attributes that are stored per edge.
+   :Face: Display attributes that are stored per face.
+   :Face Corner: Display attributes that are stored per face corner.
+
+.. _bpy.types.SpaceSpreadsheet.display_context_path_collapsed:
 
 
 Status Bar
