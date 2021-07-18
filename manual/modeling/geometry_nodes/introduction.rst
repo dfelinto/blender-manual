@@ -34,14 +34,3 @@ Vector
    Nodes for modifying vector quantities.
 Volume
    Nodes for creating or working with volumes.
-
-
-.. _bpy.ops.node.active_preview_toggle:
-
-Node Data Previews
-==================
-
-The data values for :doc:`Attributes </modeling/geometry_nodes/attributes_reference>`
-are shown in the :doc:`Spreadsheet editor </editors/spreadsheet>`.
-You can also preview the attributes up to a certain node
-by toggling the node preview with the button to the right of the node label.
