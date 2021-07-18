@@ -83,6 +83,45 @@ Attribute Domain
 
 .. _bpy.types.SpaceSpreadsheet.display_context_path_collapsed:
 
+Property Region
+===============
+
+.. _bpy.ops.spreadsheet.add_row_filter_rule:
+
+The property region contains row filters, which allow not including rows based on their value.
+The "Add Row Filter" button adds a new row filter.
+
+.. _bpy.types.SpaceSpreadsheetRowFilter.enabled:
+
+Enabled
+   Each row filter can be enabled or disabled. Disabled row filters are grayed out, and aren't used for filtering.
+
+.. _bpy.types.SpaceSpreadsheetRowFilter.column_name:
+
+Column
+   Row filters remove rows from the view based on the values of the currently column with the
+   provided name. The choice of name in the "Column" field determine which column is chosen.
+   If the column is not currently available, the row filter will be grayed out.
+
+.. tip:: To filter values based on a geometry attribute on a different domain, the 
+   :doc:`Attribute Convert </modeling/geometry_nodes/attribute/attribute_convert>` node can be used
+   to move an attribute's values to any of a geometry component's other domains.
+
+.. _bpy.types.SpaceSpreadsheetRowFilter.operation:
+
+Operation
+   For spreadsheet column types besides boolean columns and name or "string" columns, it is possible
+   to choose which operation to filter with.
+
+   :Equal To: Display the row when data values are within the provided threshold from the row filter's value.
+   :Greater Than: Display the row when data values are greater than the row filter's value.
+   :Less Than: Display the row when data values are less than the row filter's value.
+
+.. _bpy.types.SpaceSpreadsheetRowFilter.threshold:
+
+Threshold
+   The distance from the row filter's value for the equality operation.
+
 
 Status Bar
 ==========
