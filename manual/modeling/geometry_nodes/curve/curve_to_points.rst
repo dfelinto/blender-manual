@@ -1,4 +1,4 @@
-.. index:: Geometry Nodes; Curve to Point
+.. index:: Geometry Nodes; Curve to Points
 .. _bpy.types.GeometryNodeCurveToPoints:
 
 ***************
@@ -6,7 +6,7 @@ Curve to Points
 ***************
 
 .. figure:: /images/modeling_geometry-nodes_curve_curve-to-points_node.png
-   :align: center
+   :align: right
 
    The Curve to Points node.
 
@@ -15,7 +15,7 @@ The generated points have a ``tangent``, ``normal`` and ``rotation`` attribute t
 
 .. note::
 
-   The radius of the generated points the radius of the curve divided by 10.
+   The radius of the generated points is the radius of the curve divided by 10.
 
 
 Inputs
