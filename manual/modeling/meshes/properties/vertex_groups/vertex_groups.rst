@@ -18,7 +18,6 @@ Vertex groups are maintained within the *Object Data* Properties, in the *Vertex
 .. _bpy.ops.object.vertex_group_add:
 .. _bpy.ops.object.vertex_group_sort:
 .. _bpy.ops.object.vertex_group_copy:
-.. _bpy.ops.object.vertex_group_copy_to_linked:
 .. _bpy.ops.object.vertex_group_copy_to_selected:
 .. _bpy.ops.object.vertex_group_remove_from:
 .. _bpy.ops.object.vertex_group_remove:
@@ -46,8 +45,6 @@ Active Vertex Group
          The new group will be named like the original group with "_copy" appended at the end of its name.
          And it will contain associations to exactly the same vertices
          with the exact same weights as in the source vertex group.
-      Copy Vertex Groups to Linked
-         Copy vertex groups of this mesh to all linked objects which use the same mesh data (all users of the data).
       Copy Vertex Group to Selected
          Copy all vertex groups to other selected objects provided they have matching indices
          (typically this is true for copies of the mesh which are only deformed and not otherwise edited).
@@ -112,11 +109,3 @@ Weight
 
 Set Active Group
    Lets you select the group that will become the active one (menu only).
-
-.. hint::
-
-   Multiple objects sharing the same mesh data have
-   the peculiar property that the group names are stored on the object,
-   but the weights in the mesh. This allows you to name groups
-   differently on each object, but take care because removing
-   a vertex group will remove the group from all objects sharing this mesh.
