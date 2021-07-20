@@ -30,7 +30,7 @@ To Min
 To Max
    The higher bound of the target range.
 Steps
-   The number of values allowed between *To Max* and *To Max* when using *Stepped Linear* interpolation.
+   The number of values allowed between *To Min* and *To Max* when using *Stepped Linear* interpolation.
    A higher value will give a smoother interpolation while lower values will progressively quantize the input.
 
 
