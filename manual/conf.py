@@ -67,7 +67,12 @@ if "latex" in sys.argv:
     image_converter = "magick"
 
 peertube_instance = "https://video.blender.org/"
-intersphinx_mapping = {'blender_api': ('https://docs.blender.org/api/' + blender_version + '/', None)}
+intersphinx_mapping = {
+    'blender_api': (
+        'https://docs.blender.org/api/' +
+        blender_version +
+        '/',
+        None)}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['../resources/templates']
@@ -155,7 +160,7 @@ gettext_compact = "blender_manual"
 # Quit warnings about missing download file
 # suppress_warnings = ['download.not_readable']
 
-# -- Options for HTML output ---------------------------------------------------
+# -- Options for HTML output ---------------------------------------------
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 html_theme = "default"
@@ -195,7 +200,8 @@ html_title = "Blender Manual"
 #html_short_title = None
 
 # The base URL which points to the root of the HTML documentation.
-# It is used to indicate the location of document using The Canonical Link Relation.
+# It is used to indicate the location of document using The Canonical Link
+# Relation.
 html_baseurl = "https://docs.blender.org/manual/en/latest/"
 
 # The name of an image file (relative to this directory) to place at the top
@@ -282,23 +288,23 @@ html_use_opensearch = 'https://docs.blender.org/manual/' + language + '/latest'
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'Blender Reference Manual'
 
-# -- Options for LaTeX output --------------------------------------------------
+# -- Options for LaTeX output --------------------------------------------
 # see https://github.com/sphinx-doc/sphinx/issues/3289
 
 latex_engine = 'xelatex'
 
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
-  'papersize': 'a4paper',
+    'papersize': 'a4paper',
 
-# The font size ('10pt', '11pt' or '12pt').
-  'pointsize': '10pt',
+    # The font size ('10pt', '11pt' or '12pt').
+    'pointsize': '10pt',
 
-# Additional stuff for the LaTeX preamble.
+    # Additional stuff for the LaTeX preamble.
 
-  'sphinxsetup': 'hmargin=0.75in, vmargin=1in',
+    'sphinxsetup': 'hmargin=0.75in, vmargin=1in',
 
-  'classoptions': ',openany,oneside',
+    'classoptions': ',openany,oneside',
     #  'babel': '\\usepackage[english]{babel}',
     # note that xelatex will use polyglossia by default,
     # but if 'babel' key is redefined like above, it will use babel package.
@@ -309,7 +315,7 @@ latex_elements = {
 \setmonofont{DejaVu Sans Mono}
 ''',
 
-   'preamble': u'''
+    'preamble': u'''
 \\renewenvironment{wrapfigure}[2]{\\begin{figure}[H]}{\\end{figure}}
 \\usepackage{newunicodechar}
 
@@ -343,7 +349,8 @@ latex_documents = [
 # the title page.
 
 # Disable for now, causes:
-# LaTeX Error: Cannot determine size of graphic in blender-logo.svg (no Boundin gBox).
+# LaTeX Error: Cannot determine size of graphic in blender-logo.svg (no
+# Boundin gBox).
 
 '''
 latex_logo = "../resources/theme/blender-logo.svg"
@@ -366,7 +373,7 @@ latex_show_urls = "no"
 #latex_domain_indices = True
 
 
-# -- Options for manual page output --------------------------------------------
+# -- Options for manual page output --------------------------------------
 
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
@@ -379,7 +386,7 @@ man_pages = [
 man_show_urls = False
 
 
-# -- Options for Texinfo output ------------------------------------------------
+# -- Options for Texinfo output ------------------------------------------
 
 # Grouping the document tree into Texinfo files. List of tuples
 # (source start file, target name, title, author,
@@ -494,12 +501,15 @@ epub_show_urls = 'no'
 #
 # See: https://lists.blender.org/pipermail/bf-docboard/2017-October/005259.html
 
+
 def monkey_patch_babl_locale_dash():
     try:
         from sphinx.util.i18n import CatalogInfo
     except ImportError:
         return
     CatalogInfo._write_mo_real = CatalogInfo.write_mo
-    CatalogInfo.write_mo = lambda self, locale: CatalogInfo._write_mo_real(self, locale.replace('-', '_'))
+    CatalogInfo.write_mo = lambda self, locale: CatalogInfo._write_mo_real(
+        self, locale.replace('-', '_'))
+
 
 monkey_patch_babl_locale_dash()
