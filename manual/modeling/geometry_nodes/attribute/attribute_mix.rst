@@ -10,7 +10,7 @@ Attribute Mix
 
    Attribute Mix Node.
 
-Mix attributes to creates to create a new attribute.
+Mix attributes to create a new attribute.
 
 
 Inputs
