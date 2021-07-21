@@ -10,6 +10,7 @@
    :maxdepth: 2
 
    introduction.rst
+   inspection.rst
    attributes_reference.rst
 
 
