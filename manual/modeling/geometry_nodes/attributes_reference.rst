@@ -82,7 +82,7 @@ Built-in attributes always exist, and cannot be removed. Their data type and dom
      - *Float*
      - *Point*
      - A built-in attribute on point cloud data created by
-       the :doc:`Point Distribute Node </modeling/geometry_nodes/point/point_distribute>`
+       the :doc:`Point Distribute Node </modeling/geometry_nodes/point/point_distribute>`.
        Used to set the size for the points in the viewport.
 
    * - ``material_index``
