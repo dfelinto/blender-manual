@@ -26,10 +26,10 @@ Attribute
    If there is no attribute with the given name, a new one is created.
 
 Min
-   The random value will be at least those values.
+   The random value will be at least this value.
 
 Max
-   The random values will be no more than those values.
+   The random value will be no more than this value.
 
 Seed
    :term:`Seed` to change the random sequence.
