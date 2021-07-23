@@ -36,6 +36,16 @@ Zoom :kbd:`Shift-B`
 Fractional Zoom
    Resize the preview in steps from 1:8 to 8:1.
 
+Refresh All
+   To force Blender to re-read in files, and to force a re-render of the 3D Viewport,
+   click the *Refresh Sequencer* button.
+   Blender will update and synchronize all cached images and compute the current frame.
+
+   Certain operations, like moving an object in the 3D Viewport, may not force the *Sequencer*
+   to call for a refresh of the rendered image (since the movement may not affect the rendered image).
+   If an image or video, used as a strip, is changed by some application outside of Blender,
+   Blender has no real way of being notified from your operating system.
+
 Sequence Render Image
    Render the an image at the current frame.
 Sequence Render Animation
