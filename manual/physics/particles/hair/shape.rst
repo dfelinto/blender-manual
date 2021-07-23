@@ -25,4 +25,4 @@ Radius Scale
    .. Particle width scaling relative to the object scale.
 
 Close Tip
-   Sets the thickness at the tip to zero, even when using a non-zero tip multiplier.
+   Sets the thickness at the tip to zero, even when using a nonzero tip multiplier.

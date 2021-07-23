@@ -128,7 +128,7 @@ Dash values define the lengths of dash strokes,
 while gap values specify intervals between two dashes.
 
 If a zero gap is specified,
-then the corresponding dash is ignored even if it has a non-zero value.
+then the corresponding dash is ignored even if it has a nonzero value.
 
 Dashes are treated as separate strokes, meaning that you can apply line caps,
 as well as color, alpha and thickness modifiers.

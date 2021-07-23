@@ -53,7 +53,7 @@ The typical workflow for pinning:
 #. Model clothing that encloses but does not penetrate the character's mesh.
 #. Parent the clothing objects to the armature. The armature will now have several child meshes bound to it.
 #. Create a new vertex group on each cloth object for its pinned vertices.
-#. Add vertices to be pinned to this vertex group and give these vertices non-zero weights
+#. Add vertices to be pinned to this vertex group and give these vertices nonzero weights
    (you probably want weight = 1).
    For example the belt area of the tunic would be in the vertex group and have weight one.
 #. Designate the clothing objects as "cloth" in the Physics tab of the Properties.

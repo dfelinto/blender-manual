@@ -46,7 +46,7 @@ Face Maps
 =========
 
 Face Maps create custom gizmos to deform meshes by assigning faces to *Face Maps*.
-Face Maps can be used to rig quickly within Object Mode and without making complicated rigging setups.
+They can be used to rig quickly within Object Mode and without making complicated rigging setups.
 Face Maps are currently not fully implemented in Blender and require add-ons to take full advantage of this feature.
 
 .. seealso::
@@ -57,9 +57,9 @@ Face Maps are currently not fully implemented in Blender and require add-ons to 
 Attributes
 ==========
 
-An attribute is a generic data layer that is attached to the geometry.
-Every attribute has a data type, domain and name. This panel only lists generic attributes.
-That excludes all the built-in attributes like ``position`` and other attributes like vertex groups.
+An attribute is data stored per mesh element. Every attribute has a data type, domain and name.
+This panel only lists generic attributes which excludes all the built-in attributes like ``position`` and
+other attributes like vertex groups.
 
 See :doc:`Attributes Reference </modeling/geometry_nodes/attributes_reference>` for more information.
 

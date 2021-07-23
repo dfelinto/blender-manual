@@ -49,7 +49,7 @@ Factor
    Values below 0.0 or above 1.0 exaggerate the deformation, sometimes in interesting ways.
 
 Radius
-   If non-zero, this radius defines a sphere of influence.
+   If nonzero, this radius defines a sphere of influence.
    Vertices outside it are not affected by the modifier.
 
 Size

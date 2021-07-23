@@ -282,7 +282,7 @@ FLIP Ratio :guilabel:`Simulation FLIP Only`:
 .. _bpy.types.FluidDomainSettings.sys_particle_maximum:
 
 System Maximum
-   Maximum number of fluid particles that are allowed in the simulation. If this field is set to a non-zero value
+   Maximum number of fluid particles that are allowed in the simulation. If this field is set to a nonzero value
    the simulation will never contain more than this number of fluid particles. Otherwise, with a value of zero
    the solver will always sample new particles when needed.
 

@@ -7,7 +7,7 @@ Quadrilateral
 
 .. figure:: /images/modeling_geometry-nodes_curve-primitives_quadrilateral_node.png
 
-Quadrilateral Node.
+   Quadrilateral Node.
 
 The *Quadrilateral* node generates a polygon with four points, with different modes.
 
@@ -16,20 +16,20 @@ Inputs
 ======
 
 Width / Bottom Width / Top Width
-   The X axis size of the shape
+   The X axis size of the shape.
 
 Height
    The Y axis size of the shape.
 
 Bottom Height / Top Height
-   The bottom and top point's distance from the X axis, in `Kite` mode.
+   The bottom and top point's distance from the X axis, in *Kite* mode.
 
 Offset
-   In `Parallelogram` mode, the relative X difference between the top and bottom edge.
-   In `Trapezoid` mode, the amount to move the top edge in the positive X axis.
+   In *Parallelogram* mode, the relative X difference between the top and bottom edge.
+   In *Trapezoid* mode, the amount to move the top edge in the positive X axis.
 
-Point 1, Point 2, Point 3, Point 4
-   Input vectors for the `Points` mode.
+Point 1 - 4
+   Input vectors for the *Points* mode.
 
 
 Properties

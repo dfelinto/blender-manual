@@ -99,7 +99,7 @@ The margin is *not embedded* for these shapes:
 - Passive Triangle Mesh: Can be set to 0 most of the time.
 
 Margin
-   Threshold of distance near the surface where collisions are still considered (best results when non-zero).
+   Threshold of distance near the surface where collisions are still considered (best results when nonzero).
 
 
 Collections

@@ -234,7 +234,7 @@ channels if they are not needed.
 Clearcoat
 ^^^^^^^^^
 
-When the *Clearcoat* input on the Principled BSDF node has a non-zero default value or
+When the *Clearcoat* input on the Principled BSDF node has a nonzero default value or
 Image Texture node connected, the ``KHR_materials_clearcoat`` glTF extension will be
 included in the export. This extension will also include a value or Image Texture
 from the *Clearcoat Roughness* input if available.
@@ -259,7 +259,7 @@ All Image Texture nodes used for clearcoat shading should have their *Color Spac
 Transmission
 ^^^^^^^^^^^^
 
-When the Transmission input on the Principled BSDF node has a non-zero default value or
+When the Transmission input on the Principled BSDF node has a nonzero default value or
 Image Texture node connected, the ``KHR_materials_transmission`` glTF extension will be
 included in the export. When a texture is used, glTF stores the values in the red (``R``) channel.
 The *Color Space* should be set to Non-Color.

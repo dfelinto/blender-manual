@@ -90,7 +90,7 @@ Info
    Names and status for selected tracks are displayed.
 
 3D Markers
-   Shows the markers after solving the movie clip, Therefor the solved position of each track is
+   Shows the markers after solving the movie clip. Therefor the solved position of each track is
    projected back to the movie clip and displayed as a small point.
    The color of the point depends on the distance between the projected coordinate and
    the original coordinate: if they are close enough, the point is green, otherwise it will be red.

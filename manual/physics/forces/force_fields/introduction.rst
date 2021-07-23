@@ -100,7 +100,7 @@ Strength
    allowing you to scale up and down the scene, keeping the same effects.
 
 Flow
-   If non-zero, this adds a drag force proportional and opposite to the point velocity.
+   If nonzero, this adds a drag force proportional and opposite to the point velocity.
 
    This effectively re-interprets the force field so that the *Strength* to *Flow* ratio
    at a certain point defines the velocity of an "air flow" field, and objects are

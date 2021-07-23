@@ -196,7 +196,7 @@ Start/End Handle
    :Absolute:
       The Bézier handle is controlled by the **position** of the head (tail)
       of the handle bone relative to the head (tail) of the current bone.
-      Note that for this to work, there must be a non-zero distance between these bones.
+      Note that for this to work, there must be a nonzero distance between these bones.
       If the handle is also a B-Bone, additional processing is applied to further
       smooth the transition, assuming that the bones in effect form a chain.
    :Relative:

@@ -56,7 +56,7 @@ Multi-Paint
    .. tip::
 
       While Multi-Paint cannot directly paint on zero-weight vertices,
-      it is possible to use the *Smooth Weight* tool to copy a reasonable non-zero weight distribution
+      it is possible to use the *Smooth Weight* tool to copy a reasonable nonzero weight distribution
       from adjacent vertices without leaving Multi-Paint mode or changing bone selection.
 
       To do that, enable vertex selection, select target vertices, and apply one iteration of
