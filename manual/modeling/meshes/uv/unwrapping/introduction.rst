@@ -3,8 +3,8 @@
 Introduction
 ************
 
-The first step is to unwrap your mesh. You want to unwrap when you feel your mesh is complete
-with respect to the number of faces it needs to have.
+The first step is to unwrap your mesh. Generally, it is a good idea to unwrap when you
+feel that your model is mostly complete.
 If you do add faces or subdivide existing faces when a model is already unwrapped,
 Blender will add those new faces for you,
 but you may need to do additional mapping or editing. In this fashion,
@@ -18,12 +18,14 @@ Every point in the UV map corresponds to a vertex in the mesh.
 The lines joining the UVs correspond to edges in the mesh.
 Each face in the UV map corresponds to a mesh face.
 
+Think of a UV map as projecting the surface of your 3D model onto a 2D image.
+
 Each face of a mesh can have many UV textures.
 Each UV texture can have an individual image assigned to it.
 When you unwrap a face to a UV texture in the UV Editor, each face of the mesh is
 automatically assigned four UV coordinates: These coordinates define the way an image or
-a texture is mapped onto the face. These are 2D coordinates, which is why they are called UV,
-to distinguish them from XYZ coordinates.
+a texture is mapped onto the face. To distunguish from xyz coordinates, we use the U and V
+axes to mark the coordinates of each point. Hence the name, UV unwrapping.
 These coordinates can be used for rendering or for real-time viewport display as well.
 
 Every face in Blender can have a link to a different image.
@@ -41,10 +43,10 @@ These are described more fully in the next sections.
 Getting Started
 ===============
 
-.. figure:: /images/modeling_meshes_uv_unwrapping_introduction_screenlayout.png
+.. figure:: /images/modeling_meshes_uv_unwrapping_introduction_uvtab.png
    :width: 620px
 
-   UV Editing screen layout.
+   Default UV editing workspace
 
 By default, meshes are not created with UVs. First you must map the faces, then
 you can :doc:`edit them </modeling/meshes/uv/editing>`.
@@ -62,17 +64,16 @@ You can be in vertex, face, or edge selection mode.
 Workflow
 --------
 
-The process for unwrapping is straightforward, but there are a lot of options available,
-each of which dramatically affect the outcome of the unwrap.
-By understanding the meaning behind the options, you will become more efficient at unwrapping.
+The general workflow is as follows, but know that different models may require different approaches
+to unwrapping.
 
 The process is:
 
-#. Mark Seams if necessary.
-#. Select all of the mesh components.
-#. Select a UV mapping method from the UV Unwrap menu.
-#. Adjust the unwrap settings.
-#. Add a test image to see if there will be any distortion.
-   See :doc:`Applying Images to UVs </modeling/meshes/uv/applying_image>`.
-#. Adjust UVs in the UV editor.
-   See :doc:`Editing UVs </modeling/meshes/uv/editing>`.
+#. Mark Seams if necessary. See more about :doc:`marking seams </modeling/meshes/uv/unwrapping/seams>`.
+#. Select all of the mesh components in the 3D viewport.
+#. Select a UV mapping method from the UV Unwrap menu. Select a method from the dropdown named "UV" under the 
+   proportional editing button in the 3D viewport.
+#. Adjust the unwrap settings found in the pop up box at the bottom right of the 3D viewport.
+#. Add a test image to see if there will be any distortion. See 
+   :doc:`Applying Images to UVs </modeling/meshes/uv/applying_image>`.
+#. Adjust UVs in the UV editor. See :doc:`Editing UVs </modeling/meshes/uv/editing>`.

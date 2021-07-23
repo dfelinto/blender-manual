@@ -13,7 +13,7 @@ Think of this method as peeling an orange or skinning an animal.
 You make a series of cuts in the skin, then peel it off. You could then flatten it out,
 applying some amount of stretching. These cuts are the same as seams.
 
-.. figure:: /images/modeling_meshes_uv_unwrapping_seams_simple.png
+.. figure:: /images/modeling_meshes_uv_unwrapping_seams_cylinder.png
 
    Simple seam on a cylinder.
 
@@ -27,7 +27,7 @@ as opposed to 2D texturing, where it is difficult to match the edges of differen
 
 The workflow is the following:
 
-#. Create seams.
+#. Mark seams.
 #. Unwrap.
 #. Adjust seams and repeat.
 #. Manually adjust UVs.
