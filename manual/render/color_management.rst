@@ -2,7 +2,6 @@
 .. _bpy.types.ColorManagedDisplaySettings:
 .. _bpy.types.ColorManagedViewSettings:
 
-
 ****************
 Color Management
 ****************

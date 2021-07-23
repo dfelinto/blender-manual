@@ -9,11 +9,20 @@ The eyedropper can be used to select different kinds of data:
 
 Color
    This is the most common usage, the eyedropper is used to sample a pixels color from anywhere within Blender.
+
+   .. note::
+
+      The color management's :ref:`View Transform <bpy.types.ColorManagedViewSettings.view_transform>`
+      affects eyedropper's functionality. In order to get consistent results, it should be set to "Standard".
+      If it's set to any other option, the eyedropper may return an inaccurate color. 
+
 Color Ramp
    Dragging the cursor over the window to sample a line which is converted into a color ramp.
+
 Objects/Object-Data
    This is used with object buttons (such as parent, constraints or modifiers) to
    select an object from the 3D Viewport or Outliner.
+
 Camera Depth
    Number fields effecting distance can also use the eyedropper.
 
