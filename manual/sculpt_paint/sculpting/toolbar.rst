@@ -10,7 +10,7 @@ Toolbar
    Moves vertices inward or outward based on the average normal.
 
 :doc:`/sculpt_paint/sculpting/tools/draw_sharp`
-   Move vertices inward or outward based the original coordinates
+   Moves vertices inward or outward based the original coordinates
    and uses the *Sharper* :doc:`Falloff </sculpt_paint/brush/falloff>`.
 
 :doc:`/sculpt_paint/sculpting/tools/clay`

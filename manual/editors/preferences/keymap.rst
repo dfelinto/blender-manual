@@ -68,6 +68,7 @@ for options available in the default keymap.
 
 
 .. _bpy.ops.preferences.keyitem:
+.. _bpy.types.KeyMapItem:
 
 Editor
 ======
