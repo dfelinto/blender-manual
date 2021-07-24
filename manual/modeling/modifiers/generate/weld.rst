@@ -12,7 +12,7 @@ collapsing the surrounding geometry.
 Options
 =======
 
-.. figure:: /images/modeling_modifiers_generate_weld_panel.png
+.. figure:: /images/modeling_modifiers_generate_weld_panel_connected.png
    :align: right
    :width: 300px
 
@@ -27,9 +27,8 @@ Mode
 Distance
    Maximum distance that the vertices must have each other to be merged.
 
-Duplicate Limit
-   For a better performance, limits the number of elements found per vertex.
-   0 makes it infinite.
+Only Loose Edges :guilabel:`Connected Mode`
+   Only collapse short edges which are not adjacent to any face. This is useful for example to stich the seams used in cloth simulations.
 
 Vertex Group
    When the *Vertex Group* option is selected, only vertices with weight above zero will be affected by the modifier.
