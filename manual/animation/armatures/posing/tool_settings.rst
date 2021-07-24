@@ -16,10 +16,26 @@ Auto IK
    :Mode:      Pose Mode
    :Panel:     :menuselection:`Sidebar --> Tool --> Pose Options --> Auto IK`
 
-The auto IK option in the Sidebar enables a temporary IK constraint when posing bones.
-The chain acts from the tip of the selected bone to root of the upper-most parent bone.
-Note that this mode lacks options,
-and only works by applying the resulting transform to the bones in the chain.
+Automatic IK is a tool for quick posing, when enabled, translating a bone will activate
+inverse kinematics and rotate the parent bone, and the parent's parent, and so on, to
+follow the selected bone. The IK chain can only extend from a child to a parent bone
+if the child is *connected* to it.
+
+While moving bones, the length of the chain (the number of affected bones)
+can be increased or decreased using keyboard hotkeys.
+Pressing :kbd:`PageUp` will increase in chain length by one
+and :kbd:`PageDown` decreases the length by one.
+The chain length can also be controled with :kbd:`WheelUp` or :kbd:`WheelDown`.
+
+The initial chain length is 0, which effectively means follow
+the connections to parent bones as far as possible, with no length limit.
+So pressing increasing the chain length the first time sets the length to 1 (move only the selected bone),
+and at this point, decreasing the length point sets it back to 0 (unlimited) again.
+Thus, you have to increase the chain length *more than once* from the initial state
+to set a finite chain length greater than 1.
+
+This is a more limited feature than using an IK constraint,
+which can be configured, but it can be useful for quick posing.
 
 
 .. _bpy.types.Pose.use_mirror_x:
