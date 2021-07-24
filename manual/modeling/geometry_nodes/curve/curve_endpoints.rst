@@ -10,7 +10,7 @@ Curve Endpoints
 
    The Curve Endpoints node.
 
-The *Curve Endpoints* node creates a point cloud containing either the start of end points from every spline.
+The *Curve Endpoints* node creates a point cloud containing either the start or end points from every spline.
 The generated points have a ``tangent``, ``normal`` and ``rotation`` attribute that can be used for instancing.
 
 .. note::
