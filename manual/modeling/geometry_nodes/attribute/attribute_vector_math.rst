@@ -25,7 +25,7 @@ A, B, C
    except for the *Scale* operation, where the second input uses a float type.
 
 Result
-   The name of the attribute where the computed result it stored.
+   The name of the attribute where the computed result is stored.
    A new attribute with that name is added if it does not exist yet.
    If it does exist, the values of the existing attribute are overridden.
 
