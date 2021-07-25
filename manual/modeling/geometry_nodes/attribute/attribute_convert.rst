@@ -35,7 +35,7 @@ Attribute
    Name of the attribute that is to be converted.
 
 Result
-   Name of the attribute where the computed result it stored.
+   Name of the attribute where the computed result is stored.
    If an attribute with this name does not exist yet, a new attribute is added.
    If it does exist, the values of the attribute are overridden.
 

@@ -32,7 +32,7 @@ Threshold
    the *Equal* and *Not Equal* operations.
 
 Result
-   Name of the attribute where the computed result it stored.
+   Name of the attribute where the computed result is stored.
    If an attribute with this name does not exist yet, a new attribute with a Boolean data type is added.
    If it does exist, the values of the existing attribute are overridden.
 
