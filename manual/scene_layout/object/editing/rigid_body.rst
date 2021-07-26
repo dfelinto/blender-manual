@@ -1,7 +1,7 @@
 
-*******
-Editing
-*******
+**********
+Rigid Body
+**********
 
 .. _bpy.ops.rigidbody.mass_calculate:
 

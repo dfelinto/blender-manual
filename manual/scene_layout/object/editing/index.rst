@@ -19,7 +19,7 @@
    relations/index.rst
    link_transfer/index.rst
    shading.rst
-   Rigid Body </physics/rigid_body/editing.rst>
+   rigid_body.rst
    convert.rst
    show_hide.rst
    cleanup.rst

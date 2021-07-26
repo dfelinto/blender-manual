@@ -38,3 +38,12 @@ The scale of the rigid body object also influences the simulation, but is always
 
 Rigid body physics on the object can be *removed* with the *Rigid Body* button
 in the *Physics* tab in the Properties or in the :menuselection:`Object --> Rigid Body` menu.
+
+
+Working with Rigid Bodies
+=========================
+
+Several object operators exist for working with rigid bodies,
+these operators can be found in the :doc:`/scene_layout/object/editing/rigid_body` object menu.
+These operators include functions to add/remove rigid bodies, modify their properties,
+and add :doc:`Rigid Body Constraints <manual/physics/rigid_body/constraints/index>`.
