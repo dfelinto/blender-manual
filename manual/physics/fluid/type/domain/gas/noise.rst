@@ -30,11 +30,6 @@ Upres Factor
    Factor by which to enhance the resolution of the noise. The scaling factor is coupled
    to the :ref:`Resolution Divisions <bpy.types.FluidDomainSettings.resolution_max>`.
 
-.. _bpy.types.FluidDomainSettings.noise_type:
-
-Method
-   The method used to create the noise. "Wavelet" turbulence is currently the only method available.
-
 .. _bpy.types.FluidDomainSettings.noise_strength:
 
 Strength
