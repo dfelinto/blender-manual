@@ -47,4 +47,4 @@ Example
 
 .. figure:: /images/modeling_geometry-nodes_geometry_bounding-box_example.png
 
-   Bounding Box node used to create a cube that encapsulates the geometry a monkey mesh.
+   Bounding Box node used to create a cube that encapsulates the monkey mesh geometry.
