@@ -67,7 +67,7 @@ Operation
       :Smooth Maximum: `Smooth Maximum <https://en.wikipedia.org/wiki/Smooth_maximum>`__.
 
    Rounding
-      :Round: Round the input value to the nearest integer.
+      :Round: Rounds the input value to the nearest integer.
       :Floor: Rounds the input value down to the nearest integer.
       :Ceil: Rounds the input value up to the nearest integer.
       :Truncate: Outputs the integer part of the *value*.
@@ -76,7 +76,7 @@ Operation
       :Wrap:
          Outputs a value between *Min* and *Max* based on the absolute difference between
          the input value and the nearest integer multiple of *Max* less than the value.
-      :Snap: Round the input value to down to the nearest integer multiple of *Increment*.
+      :Snap: Rounds the input value to down to the nearest integer multiple of *Increment*.
       :Ping-pong: The output value is moved between 0.0 and the *Scale* based on the input value.
 
    Trigonometric
