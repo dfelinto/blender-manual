@@ -145,6 +145,8 @@ input[type="number"], input[type="tel"], input[type="color"] {
 iframe {
 	display: block;
 	margin: 0 auto 24px auto;
+	border: 0;
+	max-width: 100%;
 }
 
 /* Copyright font scale down. */
