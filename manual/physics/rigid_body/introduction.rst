@@ -46,4 +46,4 @@ Working with Rigid Bodies
 Several object operators exist for working with rigid bodies,
 these operators can be found in the :doc:`/scene_layout/object/editing/rigid_body` object menu.
 These operators include functions to add/remove rigid bodies, modify their properties,
-and add :doc:`Rigid Body Constraints <manual/physics/rigid_body/constraints/index>`.
+and add :doc:`Rigid Body Constraints </physics/rigid_body/constraints/index>`.
