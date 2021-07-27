@@ -177,19 +177,26 @@ Usage Guides
 Videos
 ======
 
-Videos from YouTube\ :sup:`™` can be embedded using::
+Videos can be embedded from Blender's own `PeerTube <https://joinpeertube.org/>`__
+instance which can be found at `video.blender.org <https://video.blender.org/>`__.
+To embend a video using the following directive::
 
-   .. youtube:: ID
+   .. peertube:: ID
 
 The ``ID`` is found in the video's URL, e.g:
 
-The ID for ``https://www.youtube.com/watch?v=Ge2Kwy5EGE0`` is ``Ge2Kwy5EGE0``.
+The ID for ``https://video.blender.org/videos/watch/47448bc1-0cc0-4bd1-b6c8-9115d8f7e08c``
+is ``47448bc1-0cc0-4bd1-b6c8-9115d8f7e08c``.
+
+To get a new video uploaded, contact a
+`Documentation Project Administrator <https://developer.blender.org/project/view/53/>`__
+or in your :doc:`Patch </about/contribute/patch_commit>` upload the video in the patch description.
 
 
 Usage Guides
 ------------
 
-- Avoid adding videos that rely on voice, as this is difficult to translate.
+- Avoid adding videos that rely on voice or words, as this is difficult to translate.
 - Do not embed video tutorials as a means of explaining a feature, the writing itself should explain it adequately
   (though you may include a link to the video at the bottom of the page under the heading ``Tutorials``).
 
