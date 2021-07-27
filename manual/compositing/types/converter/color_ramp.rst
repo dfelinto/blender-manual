@@ -46,7 +46,7 @@ Creating an Alpha Mask
 
 An often overlooked use case of the Color Ramp is to create an alpha mask,
 or a mask that is overlaid on top of another image.
-Such a mask allows you to select parts of the background to be show through.
+Such a mask allows you to select parts of the background to be shown through.
 
 .. figure:: /images/compositing_types_converter_color-ramp_create-alpha-mask.png
    :width: 600px
