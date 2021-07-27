@@ -65,7 +65,7 @@ gravity and the repulsion force of the face balance out.
 The speed at which the vertex is pulled out of the collision zone is influenced by the *Choke* parameter
 in the :ref:`Soft Body Solver settings <physics-softbody-settings-solver>`.
 
-.. youtube:: YnerUKP1ptQ
+.. peertube:: fe40b174-484d-4715-82ac-70e10fa5bba5
 
 .. seealso::
 

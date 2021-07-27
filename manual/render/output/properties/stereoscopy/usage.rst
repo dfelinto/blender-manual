@@ -91,7 +91,7 @@ In the Render Output panel you can choose the output *Views Format*.
 The options include individual files per view, top-bottom, anaglyph among others.
 Pick the one that fits your display requirements.
 
-.. youtube:: COmIIjlH-to
+.. peertube:: 47448bc1-0cc0-4bd1-b6c8-9115d8f7e08c
 
 
 Rendering and Image Editor
