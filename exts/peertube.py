@@ -10,8 +10,6 @@ from sphinx.util import logging
 
 logger = logging.getLogger(__name__)
 
-CONTROL_HEIGHT = 30
-
 def get_size(d, key):
     if key not in d:
         return None
@@ -44,7 +42,6 @@ def visit_peertube_node(self, node):
     div_style = {}
     if (height is None) and (width is not None) and (width[1] == "%"):
         div_style = {
-            "padding-top": "%dpx" % CONTROL_HEIGHT,
             "padding-bottom": "%f%%" % (width[0] * aspect[1] / aspect[0]),
             "width": "%d%s" % width,
             "position": "relative",
@@ -70,7 +67,7 @@ def visit_peertube_node(self, node):
             height = width[0] * aspect[1] / aspect[0], "px"
         style = {
             "width": "%d%s" % width,
-            "height": "%d%s" % (height[0] + CONTROL_HEIGHT, height[1]),
+            "height": "%d%s" % (height[0], height[1]),
         }
         attrs = {
             "src": instance + "videos/embed/%s" % node["id"],
