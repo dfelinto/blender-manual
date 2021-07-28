@@ -112,9 +112,13 @@ Scene Strip Display
 It allows you to control how the images of :doc:`Scene Strips </video_editing/sequencer/strips/scene>`
 are displayed in the preview.
 
+.. _bpy.types.RenderSettings.sequencer_gl_preview:
+
 Shading
    Method for rendering the viewport.
    See the 3D Viewport's :ref:`view3d-viewport-shading` options.
+
+.. _bpy.types.RenderSettings.use_sequencer_override_scene_strip:
 
 Override Scene Settings
    Use the Workbench render settings from the sequencer scene,

@@ -41,9 +41,10 @@ Volume
    Volume of the audio taken from the chosen scene.
 
 Show
-   Grease Pencil
-      Shows :doc:`Grease Pencil </grease_pencil/introduction>`
-      in non render preview i.e. *Solid* mode.
+   Annotations
+      Shows :doc:`Annotations </interface/annotate_tool>` while in in non render
+      :ref:`Preview Shading Modes <bpy.types.RenderSettings.sequencer_gl_preview>`
+      i.e. *Solid* or *Wireframe* mode.
    Transparent
       Creates a transparent background.
       This is useful for doing overlays like rendering out Grease Pencil films via the Sequencer.
