@@ -160,9 +160,14 @@ directive_ignore_recursive.content = True
 
 # ones we want to check
 directives.register_directive('index', directive_ignore)
+directives.register_directive('reference', directive_ignore)
 directives.register_directive('seealso', directive_ignore)
 directives.register_directive('only', directive_ignore)
 directives.register_directive('hlist', directive_ignore)
+
+# Custom.
+directives.register_directive('peertube', directive_ignore)
+
 # directives.register_directive('glossary', directive_ignore)  # wash this data instead
 # Custom directives from extensions
 directives.register_directive('todo', directive_ignore)
@@ -218,6 +223,7 @@ roles.register_canonical_role('kbd', role_ignore_recursive)
 roles.register_canonical_role('mod', role_ignore_recursive)
 roles.register_canonical_role('ref', role_ignore_recursive)
 roles.register_canonical_role('term', role_ignore_recursive)
+roles.register_canonical_role('meth', role_ignore_recursive)  # Python API reference.
 
 # -----------------------------------------------------------------------------
 # Special logic to wash filedata
