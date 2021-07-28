@@ -127,7 +127,7 @@ Local Space (Owner Orientation) :guilabel:`Bone Targets Only`
 
    This video demonstrates the difference from ordinary *Local Space*:
 
-   .. youtube:: UtqZXs7u2Zw
+   .. peertube:: 8d81917d-1c9d-41a7-bcbf-74f026e4e2aa
 
 
 .. _bpy.types.constraint.influence:

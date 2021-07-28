@@ -70,7 +70,7 @@ Example
 
 This video shows the difference between the mix modes. The right input is mixed after the left one:
 
-.. youtube:: b3XqJnVUp8I
+.. peertube:: d6b5e955-aceb-4ba8-abd2-768413efc2d9
 
 A general demonstration of the constraint:
 
