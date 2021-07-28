@@ -110,7 +110,7 @@ BlenderKit Login Panel
 .. _bpy.ops.wm.blenderkit_login:
 
 Log In
-   Log in online on BlenderKit webpage.
+   Log in online on BlenderKit web-page.
 
 .. _bpy.ops.wm.blenderkit_logout:
 

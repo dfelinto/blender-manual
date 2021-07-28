@@ -46,7 +46,7 @@ Operation
    :Divide: The entrywise division of A by B. Division by zero results in zero.
       :math:`\begin{pmatrix} A_x / B_x \\ A_y / B_y \\ A_z / B_z \end{pmatrix}`
    :Multiply Add:
-      The entrywise combination of the multiply and additon operations.
+      The entrywise combination of the multiply and addition operations.
       :math:`A * B + C`
    :Cross Product: The cross product of A and B.
       :math:`\begin{pmatrix} A_y \cdot B_z - A_z \cdot B_y \\ A_z \cdot B_x - A_x \cdot B_z \\ A_x \cdot B_y - A_y \cdot B_x \end{pmatrix}`

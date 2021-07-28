@@ -75,7 +75,7 @@ It only works on selected "surfaces" made of *one U row* (and not with one V row
 so-called "surface curves", by "extruding" this "cross section" in a square pattern,
 automatically adjusting the weights of control points to get a perfect circular extrusion
 (this also implies closing the surface along the V axis), following exactly the same principle
-as for the *NURBS Tube* or *NURBS Donut* primitives.
+as for the *NURBS Tube* or *NURBS Torus* primitives.
 
 
 .. _modeling_surface_editing_duplicating:

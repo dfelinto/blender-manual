@@ -27,6 +27,7 @@ dict_custom = {
     "recurse",
     "screencast",
     "selectability",
+    "stylization",
     "subclass", "subclasses", "subclassing",
     "subdirectory",
     "unregister",

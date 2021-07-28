@@ -45,7 +45,7 @@ Operation
       The entrywise division of A by B. Division by zero results in zero.
       :math:`(A.x / B.x, A.y / B.y, A.z / B.z)`
    :Multiply Add:
-      The entrywise combination of the multiply and additon operations.
+      The entrywise combination of the multiply and addition operations.
       :math:`A * B + C`
    :Cross Product: The cross product of A and B.
    :Project: The projection of A onto B.

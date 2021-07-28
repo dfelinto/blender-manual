@@ -71,9 +71,9 @@ The process is:
 
 #. Mark Seams if necessary. See more about :doc:`marking seams </modeling/meshes/uv/unwrapping/seams>`.
 #. Select all of the mesh components in the 3D viewport.
-#. Select a UV mapping method from the UV Unwrap menu. Select a method from the dropdown named "UV" under the 
+#. Select a UV mapping method from the UV Unwrap menu. Select a method from the drop-down named "UV" under the
    proportional editing button in the 3D viewport.
 #. Adjust the unwrap settings found in the pop up box at the bottom right of the 3D viewport.
-#. Add a test image to see if there will be any distortion. See 
+#. Add a test image to see if there will be any distortion. See
    :doc:`Applying Images to UVs </modeling/meshes/uv/applying_image>`.
 #. Adjust UVs in the UV editor. See :doc:`Editing UVs </modeling/meshes/uv/editing>`.

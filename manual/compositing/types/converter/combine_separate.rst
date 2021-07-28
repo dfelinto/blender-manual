@@ -169,7 +169,7 @@ Properties
 ----------
 
 Mode
-   ITU 601, ITU 709, Jpeg
+   ITU 601, ITU 709, JPEG
 
 
 Examples
