@@ -28,7 +28,8 @@ Distance
    Maximum distance that the vertices must have each other to be merged.
 
 Only Loose Edges :guilabel:`Connected Mode`
-   Only collapse short edges which are not adjacent to any face. This is useful for example to stich the seams used in cloth simulations.
+   Only collapse short edges which are not adjacent to any face.
+   This is useful for example to stich the seams used in cloth simulations.
 
 Vertex Group
    When the *Vertex Group* option is selected, only vertices with weight above zero will be affected by the modifier.

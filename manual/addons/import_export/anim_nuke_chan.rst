@@ -32,7 +32,7 @@ Usage
 The add-on gets the currently active object (works in Object Mode only) and
 saves/loads its transformations from or to a simple ASCII file, through the whole animation range
 (set either in the Timeline or in the render settings). All you need to do is to select an object
-and run the add-on in :menuselection:`File --> Import/Export --> Nuke(*.chan)`.
+and run the add-on in :menuselection:`File --> Import/Export --> Nuke (.chan)`.
 
 Note that Chan saves only the raw property values (``rotation_x``, ``rotation_y``, ``rotation_z``, etc.),
 so you have to mind the rotation order. In other words --
