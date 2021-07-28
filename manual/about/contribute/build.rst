@@ -12,7 +12,7 @@ Open a terminal or Command Prompt in the ``~/blender_docs`` directory and simply
 
 .. tip::
 
-   On MS-Windows you can simply open the :file:`make.bat` file to easily
+   On MS-Windows you can simply open the ``make.bat`` file to easily
    run the command without having to open the Command Prompt and typing commands.
 
 This is the command you should use when building the docs,
@@ -25,7 +25,7 @@ and refresh the HTML pages as necessary.
 .. note::
 
    The converted pages can also be viewed manually by browsing the build directory: ``~/blender_docs/build/html``.
-   For example to open the home page, open :file:`build/html/index.html` to read the manual.
+   For example to open the home page, open ``build/html/index.html`` to read the manual.
 
 The building process may take several minutes the first time (or after any major changes),
 but for subsequent changes it should only take a few seconds.
