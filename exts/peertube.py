@@ -55,7 +55,6 @@ def visit_peertube_node(self, node):
             "left": "0",
             "width": "100%",
             "height": "100%",
-            "border": "0",
         }
         attrs = {
             "src": instance + "videos/embed/%s" % node["id"],
@@ -72,7 +71,6 @@ def visit_peertube_node(self, node):
         style = {
             "width": "%d%s" % width,
             "height": "%d%s" % (height[0] + CONTROL_HEIGHT, height[1]),
-            "border": "0",
         }
         attrs = {
             "src": instance + "videos/embed/%s" % node["id"],
