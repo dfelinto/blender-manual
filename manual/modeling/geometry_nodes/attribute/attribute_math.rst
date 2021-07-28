@@ -76,7 +76,7 @@ Operation
       :Wrap:
          Outputs a value between *Min* and *Max* based on the absolute difference between
          the input value and the nearest integer multiple of *Max* less than the value.
-      :Snap: Rounds the input value to down to the nearest integer multiple of *Increment*.
+      :Snap: Rounds the input value down to the nearest integer multiple of *Increment*.
       :Ping-pong: The output value is moved between 0.0 and the *Scale* based on the input value.
 
    Trigonometric
