@@ -10,7 +10,7 @@ Is Viewport
 
    Is Viewport Node.
 
-The *Is Viewport* node outputs true when geometry nodes is evaluated for the viewport.
+The *Is Viewport* node outputs true when geometry nodes are evaluated for the viewport.
 For the final render the node outputs false.
 
 
@@ -30,4 +30,4 @@ Outputs
 =======
 
 Is Viewport
-   Boolean value that indicates whether geometry nodes is evaluated for preview.
+   Boolean value that indicates whether geometry nodes are evaluated for preview.
