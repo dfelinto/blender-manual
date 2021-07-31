@@ -177,8 +177,8 @@ Target
    If there are multiple weight groups copied into target, then the highest weight value is copied into it.
 
 
-Baking
-------
+Bake
+----
 
 .. figure:: /images/grease-pencil_modifiers_generate_line-art_baking-panel.png
    :align: right
