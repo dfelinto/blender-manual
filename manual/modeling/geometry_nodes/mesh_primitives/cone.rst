@@ -32,7 +32,7 @@ Depth
 
 .. note::
 
-   If the top and bottom radius is zero, this node will output a single line.
+   If the top and bottom radius are zero, this node will output a single line.
 
 
 Properties
