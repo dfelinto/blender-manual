@@ -143,7 +143,7 @@ to achieve certain common effects. For example, snappy movements.
 .. seealso::
 
    For more info and a few live demos, see https://easings.net and
-   http://www.robertpenner.com/easing/
+   http://robertpenner.com/easing/
 
 
 Dynamic Effects

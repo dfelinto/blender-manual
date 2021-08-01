@@ -260,7 +260,7 @@ all POV-Ray users who are not used to have one.
 
 .. seealso::
 
-   More details on `POV-Ray Wiki <http://wiki.povray.org/content/HowTo:Use_radiosity>`__.
+   More details on `POV-Ray Wiki <https://wiki.povray.org/content/HowTo:Use_radiosity>`__.
 
 
 Anti-Aliasing
@@ -291,7 +291,7 @@ The default threshold is 0.3 but it may be changed using this ``Antialias_Thresh
 
 .. seealso::
 
-   More details on `POV-Ray Wiki <http://wiki.povray.org/content/Reference:Tracing_Options#Anti-Aliasing_Options>`__.
+   More details on `POV-Ray Wiki <https://wiki.povray.org/content/Reference:Tracing_Options#Anti-Aliasing_Options>`__.
 
 .. tip:: Depth of Field Without Anti-Aliasing
 
@@ -307,7 +307,7 @@ as it's generally the most efficient (POV-Ray 3.7 only) but other acceleration m
 
 .. seealso::
 
-   More details on `POV-Ray Wiki <http://wiki.povray.org/content/Reference:Tracing_Options#BSP_Bounding>`__.
+   More details on `POV-Ray Wiki <https://wiki.povray.org/content/Reference:Tracing_Options#BSP_Bounding>`__.
 
 
 Command Line Switches
@@ -319,7 +319,7 @@ one or more alphabetic characters and possibly a numeric value.
 
 .. seealso::
 
-   More details on `POV-Ray Wiki <http://wiki.povray.org/content/Category:Command-Line_and_INI-File_Options>`__.
+   More details on `POV-Ray Wiki <https://wiki.povray.org/content/Category:Command-Line_and_INI-File_Options>`__.
 
 
 .. rubric:: Some Commonly Used Commands:
@@ -347,7 +347,7 @@ one or more alphabetic characters and possibly a numeric value.
    (Other features might get turned off from this panel in future versions of the exporter.)
 
    Alternatively, use
-   the `Quality <http://wiki.povray.org/content/Reference:Tracing_Options#Quality_Settings>`__ command line switches
+   the `Quality <https://wiki.povray.org/content/Reference:Tracing_Options#Quality_Settings>`__ command line switches
    ``+q1`` to ``+q11``. These allow you to easily disable most of the CPU-intensive features.
 
 
@@ -491,7 +491,7 @@ Illumination from the back of a surface.
 
 .. seealso::
 
-   More details on `POV-Ray Wiki <http://wiki.povray.org/content/Reference:Finish#Diffuse>`__.
+   More details on `POV-Ray Wiki <https://wiki.povray.org/content/Reference:Finish#Diffuse>`__.
 
 
 IOR Mirror
@@ -569,7 +569,7 @@ For image textures (read POV-Ray 3.7 docs before using since it generally needs 
 .. seealso::
 
    More details on
-   `POV-Ray Wiki <http://wiki.povray.org/content/Documentation:Tutorial_Section_3.3#Gamma_Handling>`__.
+   `POV-Ray Wiki <https://wiki.povray.org/content/Documentation:Tutorial_Section_3.3#Gamma_Handling>`__.
 
 
 Custom POV Code
@@ -704,7 +704,7 @@ Please report if you would rather have a different default scale.
 
 .. seealso::
 
-   More details on `POV-Ray Wiki <http://wiki.povray.org/content/Reference:Plane>`__.
+   More details on `POV-Ray Wiki <https://wiki.povray.org/content/Reference:Plane>`__.
 
 
 Box
@@ -714,7 +714,7 @@ Based on a mesh cube the object can be transformed using move/rotate/scale
 
 .. seealso::
 
-   More details on `POV-Ray Wiki <http://wiki.povray.org/content/Reference:Box>`__.
+   More details on `POV-Ray Wiki <https://wiki.povray.org/content/Reference:Box>`__.
 
 
 Sphere
@@ -724,7 +724,7 @@ The sphere has a radius parameter, a location and a scale.
 
 .. seealso::
 
-   More details on `POV-Ray Wiki <http://wiki.povray.org/content/Reference:Sphere>`__.
+   More details on `POV-Ray Wiki <https://wiki.povray.org/content/Reference:Sphere>`__.
 
 
 Cylinder
@@ -735,7 +735,7 @@ For convenience, move/rotate/scale can be used to the same effect.
 
 .. seealso::
 
-   More details on `POV-Ray Wiki <http://wiki.povray.org/content/Reference:Cylinder>`__.
+   More details on `POV-Ray Wiki <https://wiki.povray.org/content/Reference:Cylinder>`__.
 
 
 Cone
@@ -745,7 +745,7 @@ Cones have a basis radius and end radius.
 
 .. seealso::
 
-   More details on `POV-Ray Wiki <http://wiki.povray.org/content/Reference:Cone>`__.
+   More details on `POV-Ray Wiki <https://wiki.povray.org/content/Reference:Cone>`__.
 
 
 Torus
@@ -755,7 +755,7 @@ Torus has a main radius and a section radius.
 
 .. seealso::
 
-   More details on `POV-Ray Wiki <http://wiki.povray.org/content/Reference:Torus>`__.
+   More details on `POV-Ray Wiki <https://wiki.povray.org/content/Reference:Torus>`__.
 
 
 Parametric
@@ -765,7 +765,7 @@ This is a surface generated from the combination of three mathematical equations
 
 .. seealso::
 
-   More details on `POV-Ray Wiki <http://wiki.povray.org/content/Reference:Parametric>`__.
+   More details on `POV-Ray Wiki <https://wiki.povray.org/content/Reference:Parametric>`__.
 
 
 Rainbow
@@ -775,7 +775,7 @@ The rainbow is a view dependent effect.
 
 .. seealso::
 
-   More details on `POV-Ray Wiki <http://wiki.povray.org/content/Reference:Rainbow>`__.
+   More details on `POV-Ray Wiki <https://wiki.povray.org/content/Reference:Rainbow>`__.
 
 
 Lathe
@@ -787,7 +787,7 @@ so you won't see any polygons no matter how close you zoom.
 
 .. seealso::
 
-   More details on `POV-Ray Wiki <http://wiki.povray.org/content/Reference:Lathe>`__.
+   More details on `POV-Ray Wiki <https://wiki.povray.org/content/Reference:Lathe>`__.
 
 
 Prism
@@ -797,7 +797,7 @@ This is a POV-Ray primitive that simply extrudes a shape.
 
 .. seealso::
 
-   More details on `POV-Ray Wiki <http://wiki.povray.org/content/Reference:Prism>`__.
+   More details on `POV-Ray Wiki <https://wiki.povray.org/content/Reference:Prism>`__.
 
 
 Superquadric Ellipsoid
@@ -807,7 +807,7 @@ A quite versatile tool that can provide quick models for cushion or star shaped 
 
 .. seealso::
 
-   More details on `POV-Ray Wiki <http://wiki.povray.org/content/Reference:Superquadric_Ellipsoid>`__.
+   More details on `POV-Ray Wiki <https://wiki.povray.org/content/Reference:Superquadric_Ellipsoid>`__.
 
 
 Height Field
@@ -818,7 +818,7 @@ so you don't need to subdivide anything before.
 
 .. seealso::
 
-   More details on `POV-Ray Wiki <http://wiki.povray.org/content/Reference:Height_Field>`__.
+   More details on `POV-Ray Wiki <https://wiki.povray.org/content/Reference:Height_Field>`__.
 
 
 Sphere Sweep
@@ -829,7 +829,7 @@ that can have variations of radius along the spline. It is also used to export h
 
 .. seealso::
 
-   More details on `POV-Ray Wiki <http://wiki.povray.org/content/Reference:Sphere_Sweep>`__.
+   More details on `POV-Ray Wiki <https://wiki.povray.org/content/Reference:Sphere_Sweep>`__.
 
 
 Blob Sphere
@@ -839,7 +839,7 @@ Like Blender metaballs.
 
 .. seealso::
 
-   More details on `POV-Ray Wiki <http://wiki.povray.org/content/Reference:Blob>`__.
+   More details on `POV-Ray Wiki <https://wiki.povray.org/content/Reference:Blob>`__.
 
 
 Isosurfaces
@@ -849,7 +849,7 @@ In POV-Ray isosurfaces are objects that can combine and be deformed using pigmen
 
 .. seealso::
 
-   More details on `POV-Ray Wiki <http://wiki.povray.org/content/Reference:Isosurface>`__.
+   More details on `POV-Ray Wiki <https://wiki.povray.org/content/Reference:Isosurface>`__.
 
 Isosurface Box
    An isosurface component shaped as a box.

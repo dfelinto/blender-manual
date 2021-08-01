@@ -135,7 +135,7 @@ enter this information in the DXF importer interface as follows:
 
 Pyproj
    Installation: Download (`Windows <https://github.com/pyproj4/pyproj>`__,
-   `macOS <http://www.ia.arch.ethz.ch/wp-content/uploads/2013/11/pyproj.zip>`__) Pyproj and copy it to your
+   `macOS <https://archive.arch.ethz.ch/ia/wp-content/uploads/2013/11/pyproj.zip>`__) Pyproj and copy it to your
 
    .. parsed-literal:: AppData/ApplicationSupport Folder/Blender/|BLENDER_VERSION|/scripts/modules/.
 

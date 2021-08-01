@@ -5,7 +5,7 @@ License
 *******
 
 Blender itself is released under
-the `GNU General Public License <http://www.gnu.org/licenses/gpl.html>`__.
+the `GNU General Public License <https://www.gnu.org/licenses/old-licenses/gpl-2.0.html>`__.
 More info
 `blender.org/about/license <https://www.blender.org/about/license/>`__.
 
