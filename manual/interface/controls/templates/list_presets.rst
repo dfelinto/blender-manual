@@ -30,7 +30,7 @@ Resize
 Filter
    Click the *Show filtering options* button (triangle on bottom left) to show or hide filter option panel.
 
-   Search
+   Search :kbd:`Ctrl-F`
       Type part of a list item's name in the filter text field to filter items by part of their name.
 
    Filter Include
