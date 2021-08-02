@@ -58,7 +58,7 @@ Show
 
    Line Numbers, Word Wrap, Syntax Highlighting
 Script Node Update (refresh icon)
-   When an `OSL-file <https://github.com/imageworks/OpenShadingLanguage>`__
+   When an `OSL-file <https://github.com/AcademySoftwareFoundation/OpenShadingLanguage>`__
    is opened, this updates the :ref:`Shader Script <bpy.types.ShaderNodeScript>` node
    with new options and sockets from the script.
 

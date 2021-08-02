@@ -28,7 +28,7 @@ This means that the following meshes can be exported:
 
 .. figure:: /images/files_import-export_usd_example.png
 
-   Shot from `Spring <https://cloud.blender.org/p/spring/>`__ exported to USD and opened in USDView.
+   Shot from `Spring <https://cloud.blender.org/films/spring/>`__ exported to USD and opened in USDView.
 
 
 .. _bpy.ops.wm.usd_export:

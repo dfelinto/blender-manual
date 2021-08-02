@@ -27,7 +27,7 @@ Sky Type
    Sky model to use.
 
    :Preetham:
-      Based on the 1999 `paper <https://doi.org/10.1145/311535.311545>`__ by Preetham et al.
+      Based on the 1999 `paper <https://dl.acm.org/doi/10.1145/311535.311545>`__ by Preetham et al.
    :Hosek/Wilkie:
       Based on the 2012 `paper <https://cgg.mff.cuni.cz/projects/SkylightModelling/>`__ by Hosek and Wilkie.
    :Nishita:

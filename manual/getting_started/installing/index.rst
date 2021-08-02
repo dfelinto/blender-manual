@@ -40,7 +40,7 @@ Each package described below has something just right for everyone.
    and will not have any new features, API changes or improvements.
    A new long-term support version is available every year.
 
-`Daily Builds <https://builder.blender.org/download>`__
+`Daily Builds <https://builder.blender.org/download/>`__
    A package updated daily to include the newest changes in development.
    These versions are not as thoroughly tested as the stable release, and might break,
    although they are official and usually not highly experimental.

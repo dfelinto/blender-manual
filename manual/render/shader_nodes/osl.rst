@@ -6,7 +6,7 @@ Open Shading Language
 :guilabel:`Cycles Only`
 
 It is also possible to create your own nodes using
-`Open Shading Language <https://github.com/imageworks/OpenShadingLanguage>`__ (OSL).
+`Open Shading Language <https://github.com/AcademySoftwareFoundation/OpenShadingLanguage>`__ (OSL).
 Note that these nodes will only work for CPU rendering;
 there is no support for running OSL code on the GPU.
 
@@ -60,7 +60,7 @@ Writing Shaders
 ===============
 
 For more details on how to write shaders, see the
-`OSL specification <https://github.com/imageworks/OpenShadingLanguage/blob/master/src/doc/osl-languagespec.pdf>`__.
+`OSL specification <https://github.com/AcademySoftwareFoundation/OpenShadingLanguage/blob/master/src/doc/osl-languagespec.pdf>`__.
 Here is a simple example:
 
 .. code-block:: cpp

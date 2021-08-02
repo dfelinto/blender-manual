@@ -230,8 +230,8 @@ which was used in the Disney film, "Zootopia"\ :sup:`®`.
 
 .. [CBTB16] Chiang, M. J. , Bitterli, B. , Tappan, C. and Burley, B. (2016),
    A Practical and Controllable Hair and Fur Model for Production Path Tracing. Computer Graphics Forum, 35: 275-283.
-   `doi:10.1111/cgf.12830 <https://doi.org/10.1111/cgf.12830>`__
+   `doi:10.1111/cgf.12830 <https://onlinelibrary.wiley.com/doi/10.1111/cgf.12830>`__
 
 .. [EFHLA11] d'Eon, E. , Francois, G. , Hill, M. , Letteri, J. and Aubry, J. (2011),
    An Energy‐Conserving Hair Reflectance Model. Computer Graphics Forum, 30: 1181-1187.
-   `doi:10.1111/j.1467-8659.2011.01976.x <https://doi.org/10.1111/j.1467-8659.2011.01976.x>`__
+   `doi:10.1111/j.1467-8659.2011.01976.x <https://onlinelibrary.wiley.com/doi/10.1111/j.1467-8659.2011.01976.x>`__

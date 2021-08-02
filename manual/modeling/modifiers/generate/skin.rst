@@ -122,5 +122,5 @@ External Links
 - Ji, Zhongping; Liu, Ligang; Wang, Yigang (2010).
   B-Mesh: A Fast Modeling System for Base Meshes of 3D Articulated Shapes,
   Computer Graphics Forum 29(7), pp. 2169-2178. -- The work this modifier is based on
-  (`DOI 10.1111/j.1467-8659.2010.01805.x <https://doi.org/10.1111/j.1467-8659.2010.01805.x>`__).
+  (`DOI 10.1111/j.1467-8659.2010.01805.x <https://onlinelibrary.wiley.com/doi/10.1111/j.1467-8659.2010.01805.x>`__).
 - `Related thread on Blender artists <https://blenderartists.org/t/499364>`__.
