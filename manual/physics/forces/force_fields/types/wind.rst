@@ -25,4 +25,4 @@ The strength of the force is visualized by the spacing of the circles shown.
 Example
 =======
 
-.. vimeo:: 173807567
+.. peertube:: 8963507e-cf97-4dec-9d27-276126023a87

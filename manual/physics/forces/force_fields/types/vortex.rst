@@ -33,4 +33,4 @@ Inflow
 Example
 =======
 
-.. vimeo:: 173811208
+.. peertube:: bb03c2b0-58bc-4b25-bb65-70d59d6afa8e

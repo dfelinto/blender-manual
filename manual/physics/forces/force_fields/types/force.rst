@@ -27,4 +27,4 @@ and are blown away from a field with positive strength.
 Example
 =======
 
-.. vimeo:: 173807488
+.. peertube:: ea6ce3d3-b1da-4173-904f-6c4c0273eac4
