@@ -20,6 +20,18 @@ As the modifier is only a container its actual options are configured in the *Pa
 See the :doc:`Particle Systems Properties </physics/particles/index>` for more information.
 
 
+Converting Particle Systems
+===========================
+
+Make Instances Real
+   Creates a new object of each instanced :ref:`object <particle-object>` or :ref:`collection <particle-collection>`.
+   See :ref:`bpy.ops.object.duplicates_make_real` for more information.
+
+Convert to Mesh
+   Converts :ref:`path <particle-path>` particles to mesh objects.
+   See :ref:`bpy.ops.object.convert` for more information.
+
+
 Example
 =======
 

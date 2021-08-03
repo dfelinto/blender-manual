@@ -49,6 +49,8 @@ Although they are not really lights because they do not cast light into the scen
 They are called *Halos* because you can see them, but they do not have any substance.
 
 
+.. _particle-path:
+
 Path
 ----
 
@@ -90,6 +92,8 @@ Random
    Give the path length a random variation.
 
 
+.. _particle-object:
+
 Object
 ------
 
@@ -107,6 +111,8 @@ Object Rotation
 Object Scale
    Use the size of the object.
 
+
+.. _particle-collection:
 
 Collection
 ----------
