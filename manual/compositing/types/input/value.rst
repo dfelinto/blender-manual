@@ -40,7 +40,7 @@ Example
 =======
 
 In the example below the *Value Node* is used to control multiple values at once,
-this make the node a useful organizational tool.
+this makes the node a useful organizational tool.
 
 .. figure:: /images/compositing_types_input_value_example.png
 
