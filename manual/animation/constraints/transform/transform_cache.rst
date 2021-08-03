@@ -6,13 +6,15 @@ Transform Cache Constraint
 **************************
 
 The *Transform Cache Constraint* is used to stream animations from
-:doc:`Alembic </files/import_export/alembic>` made at the transformation matrix level
-(for example rigid bodies, or camera movements).
+:doc:`Alembic </files/import_export/alembic>` or :doc:`USD </files/import_export/usd>` 
+made at the transformation matrix level (for example rigid bodies, or camera movements).
 
-When :doc:`importing an Alembic file </files/import_export/alembic>`,
+When importing an :doc:`Alembic </files/import_export/alembic>` or
+:doc:`USD </files/import_export/usd>` file,
 Transform Cache constraints are automatically added to objects with animated transforms.
 For time-varying meshes (so deforming animations),
 the :doc:`Mesh Sequence Cache modifier </modeling/modifiers/modify/mesh_sequence_cache>` is used.
+
 
 
 Options
@@ -23,10 +25,10 @@ Options
    Transform Cache Constraint.
 
 Cache File
-   Data-block menu to select the Alembic file.
+   Data-block menu to select the Alembic or USD file.
 
 File Path
-   Path to Alembic file.
+   Path to the Alembic or USD file.
 
 Sequence
    Whether or not the cache is separated in a series of files.
@@ -48,17 +50,21 @@ Manual Scale
 Velocity Attribute
    The name of the Alembic attribute used for generating motion blur data;
    by default, this is ``.velocities`` which is standard for most Alembic files.
+   
+   .. note:: The **Velocity Attribute** option is currently for Alembic files only.
 
 Velocity Unit
-   Defines how the velocity vectors are interpreted with regard to time.
+   Defines how the velocity vectors are interpreted with regard to time. 
 
    Frame
       The velocity unit was encoded in frames and does not need to be scaled by scene FPS.
    Second
       The velocity unit was encoded in seconds and needs to be scaled by the scene FPS (1 / FPS).
 
+   .. note:: The **Velocity Unit** option is currently for Alembic files only.
+
 Object Path
-   The path to the Alembic object inside the archive.
+   The path to the Alembic or USD object inside the archive or stage.
 
 Influence
    Controls the percentage of affect the constraint has on the object.
