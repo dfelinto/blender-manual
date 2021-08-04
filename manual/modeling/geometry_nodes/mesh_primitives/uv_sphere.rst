@@ -22,7 +22,7 @@ Segments
 
 Rings
    Vertical resolution of the sphere.
-   If this is smaller than three, no mesh is generated.
+   If this is smaller than two, no mesh is generated.
 
 Radius
    Distance of vertices to the origin.
