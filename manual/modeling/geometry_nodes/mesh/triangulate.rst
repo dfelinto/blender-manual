@@ -43,7 +43,7 @@ N-gon Method
    :Beauty:
       Arrange the new triangles nicely, slower method.
    :Clip:
-      Splits n-gons using an ear-clipping algorithm
+      Split n-gons using an ear-clipping algorithm
       (gives similar results to the tessellation used for the viewport rendering).
 
 
