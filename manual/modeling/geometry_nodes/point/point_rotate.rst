@@ -21,7 +21,7 @@ Geometry
    Standard geometry input.
 
 Rotation
-   Specifies how much the point is rotate around each axis.
+   Specifies how much the point is rotated around each axis.
    This input is only available when the rotation type is set to *Euler*.
 
 Axis
