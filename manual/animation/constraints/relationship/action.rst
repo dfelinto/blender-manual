@@ -52,21 +52,38 @@ Evaluation Time
 
 Mix
    Specifies how the keyframed transformation from the action is combined with the existing transformation.
+   These modes are the same as in the :doc:`Copy Transforms </animation/constraints/transform/copy_transforms>`
+   constraint.
 
-   Before Original
-      The action transformation is added before the existing transformation, as if it was
-      applied to an imaginary parent of the constraint owner. Scale is handled like in
-      the :ref:`Aligned Inherit Scale <bpy.types.EditBone.inherit_scale>` mode of bones
-      to avoid creating shear.
-   After Original
-      The action transformation is added after the existing transformation, as if it was
-      applied locally to an imaginary child of the constraint owner. Scale is handled like
-      in the :ref:`Aligned Inherit Scale <bpy.types.EditBone.inherit_scale>` mode of bones
-      to avoid creating shear.
-   After Original (Full Scale)
-      The action transformation is added after the existing transformation, as if it was
-      applied locally to an imaginary child of the constraint owner with ordinary parenting.
-      This mode can create shear and is thus not recommended for use.
+   Before/After Original (Full)
+      The keyframed transformation is added before/after the existing transformation, as if it was
+      applied to an imaginary parent/child of the constraint owner. Scale is handled like in
+      the most basic :ref:`Full Inherit Scale <bpy.types.EditBone.inherit_scale>` mode of bones,
+      so combining non-uniform scale and rotation will create shear.
+
+   Before/After Original (Aligned)
+      The keyframed transformation is added before/after the existing transformation, as if it was
+      applied to an imaginary parent/child of the constraint owner. Scale is handled like in
+      the :ref:`Aligned Inherit Scale <bpy.types.EditBone.inherit_scale>` mode of bones to
+      avoid creating shear.
+
+      This is equivalent to using the *Split Channels* option, but replacing the location component with
+      the result of *Full*. If only uniform scale is used, the result is identical to *Full*.
+
+   Before/After Original (Split Channels)
+      Combines location, rotation and scale components of the transformation separately, similar
+      to a sequence of three :doc:`Copy Location </animation/constraints/transform/copy_location>`,
+      :doc:`Copy Rotation </animation/constraints/transform/copy_rotation>` and
+      :doc:`Copy Scale </animation/constraints/transform/copy_scale>` (with Offset)
+      constraints bundled together in one operation; the result may be slightly different
+      in case of sheared inputs.
+
+      Unlike *Aligned*, in this mode location channels are simply added together, so rotation
+      and scale components of the input transformations cannot affect the resulting location.
+
+   .. warning::
+      For technical reasons modes other than *After Original (Full)* and *After Original (Aligned)* may
+      not work as expected for constraints on *objects* (not bones) without a parent.
 
 Influence
    Controls the percentage of affect the constraint has on the object.
