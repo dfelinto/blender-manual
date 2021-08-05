@@ -86,7 +86,7 @@ Linked Flat Faces
 .. reference::
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Select --> Select Linked --> Linked`
+   :Menu:      :menuselection:`Select --> Select Linked --> Linked Flat Faces`
 
 Selects all connected faces with a similar angle.
 
