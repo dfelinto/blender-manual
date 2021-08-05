@@ -26,8 +26,8 @@ Inputs
 Geometry
    Standard geometry input.
 
-Translation
-   The attribute or vector input.
+Factor
+   The attribute, float or vector input.
 
 
 Properties
