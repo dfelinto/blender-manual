@@ -91,7 +91,7 @@ Linked Flat Faces
 Selects all connected faces with a similar angle.
 
 Sharpness
-   Todo.
+   Select connected faces with a reference angle less than the value specified.
 
 .. figure:: /images/modeling_meshes_selecting_linked_flat-faces.png
 
