@@ -66,12 +66,11 @@ You may also need to test your UV mapping with a test image:
 
 When you render, the mesh will have the test grid as its colors,
 and the UV texture will be the size image you specified.
+Note that Blender has a built-in test image. To use it, press the New button of the data-block menu
+in the Image editor header and change the *Generated Type* to UV Grid.
 
-Note that Blender has a built in test image. To use it, press the "new" button at the top of the UV editor
-and change the generated type from "Blank" to "UV grid"
 
-
-Modifying your Image Texture
+Modifying Your Image Texture
 ============================
 
 .. seealso::

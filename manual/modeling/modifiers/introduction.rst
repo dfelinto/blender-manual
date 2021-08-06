@@ -20,7 +20,7 @@ and *Apply* a modifier if you wish to make its changes permanent.
 They can be added to the active object using the *Add Modifier* drop-down menu at the top of their properties tab.
 New modifiers are always added at the bottom of the :ref:`stack <modifier-stack>` (i.e. will be applied last).
 
-There are four types of modifiers:
+There are four categories of modifiers:
 
 Modify
    These are tools similar to the *Deform* ones (see below),

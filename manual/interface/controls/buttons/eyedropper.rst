@@ -12,9 +12,9 @@ Color
 
    .. note::
 
-      The color management's :ref:`View Transform <bpy.types.ColorManagedViewSettings.view_transform>`
-      affects eyedropper's functionality. In order to get consistent results, it should be set to "Standard".
-      If it's set to any other option, the eyedropper may return an inaccurate color. 
+      The :ref:`View Transform <bpy.types.ColorManagedViewSettings.view_transform>` of the color management
+      affects the color. In order to get consistent results, it should be set to *Standard*.
+      If it's set to any other option, the eyedropper may return an inaccurate color.
 
 Color Ramp
    Dragging the cursor over the window to sample a line which is converted into a color ramp.

@@ -24,7 +24,7 @@ Attribute (Multi-Input)
    The name of the attribute to remove.
    Multiple attributes can be removed at once by connecting
    multiple :doc:`String Input </modeling/geometry_nodes/input/string>` nodes.
-   Built-in attributes and attributes that don't exist can't be removed.
+   Built-in and nonexistent attributes cannot be removed.
 
 
 Properties

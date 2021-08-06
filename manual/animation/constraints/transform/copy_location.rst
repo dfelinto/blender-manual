@@ -53,21 +53,20 @@ Examples
 Animation
 ---------
 
-Let us animate the *Copy Location* constraint and its *Offset* button. For example,
-you can make your owner (let us call it "moon") describe perfect circles centered on the (0.0, 0.0, 0.0)
-point (using e.g. pydriven *LocX*/*LocY* animation curves, see :doc:`Drivers </animation/drivers/index>`),
-and then make it copy the location of a target (call it "earth", for example) with the *Offset* button enabled.
-Congratulation, you just modeled a satellite in a (simplified) orbit around its planet.
-Just do the same thing with its planet around its star (which you might call "sun", what do you think?),
-and why not, for the star around its galaxy.
+Let us animate a solar system with the *Copy Location* constraint and its *Offset* option.
+You can make the owner, called "moon", describe perfect circles centered on the world origin
+(using e.g. *Location X/Y* sine and cosine F-curves, see :ref:`bpy.types.FModifierFunctionGenerator`).
+Then copy the location of a target "earth" with the *Offset* checkbox enabled
+to model a satellite in a (simplified) orbit around its planet.
+Repeat these steps for more planets circling around its center star "sun".
 
-Here is a small animation of a "solar" system created using (among a few others)
-the technique described above:
+Following video is a small animation of a solar system created using (among a few others)
+the previously described technique:
 
 .. vimeo:: 15187945
 
-Note that, this "solar" system is not realistic at all
-(the wrong scale, the "earth" is rotating in the wrong direction around the "sun", ...).
+Note that, this 'solar' system is not realistic at all
+(the wrong scale, the earth is rotating in the wrong direction around the sun, ...).
 
 You can download
 the `blend-file <https://wiki.blender.org/wiki/File:ManAnimationTechsUsingConstraintsExSolarSys.blend>`__
@@ -75,5 +74,5 @@ used to create this animation.
 
 Furthermore you can also animate a few properties of each constraint using animation curves:
 e.g. you can animate the *Influence* of a constraint.
-It is used to first stick the camera to the "moon", then to the "earth",
-and finally to nothing, using two *Copy Location* constraints with *Offset* set.
+It is used to first let the camera follow the moon, then the earth,
+and finally using two *Copy Location* constraints with *Offset* set.

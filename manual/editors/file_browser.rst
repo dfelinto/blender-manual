@@ -119,7 +119,7 @@ File Region
 File Path
    Text field for the current folder path.
    :kbd:`Tab` will auto-complete an existing path.
-   If you type a non-existing directory path, you will be prompted to create that new directory.
+   If you type a nonexistent directory path, you will be prompted to create that new directory.
 File Name
    Text field to edit the file name and extension.
    When saving, if the background is red, a file with same name already exists in the folder.

@@ -17,8 +17,8 @@ as you may have to adjust all the parent bones first.
 
 This effort is effectively avoided by use of IK.
 
-IK is mostly done with bone constraints although there is also a simple
-:ref:`bpy.types.Pose.use_auto_ik` feature in pose mode.
+IK is mostly done with bone constraints although there is also
+a simple :ref:`bpy.types.Pose.use_auto_ik` feature in Pose Mode.
 They work by the same method but the constraints offer more options and control.
 Please refer to the following pages for details about these constraints:
 

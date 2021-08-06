@@ -308,13 +308,12 @@ Examples
    * - .. figure:: /images/addons_import-export_mesh-atomic_JPCC-2014.jpg
 
           Functionalized [5]helicene molecules on the NaCl(001) surface
-          (Clemens Barth et al. -- `Link to publication <https://pubs.acs.org/doi/abs/10.1021/jp501738c>`__).
+          (Clemens Barth et al. -- `Link to publication <https://doi.org/10.1021/jp501738c>`__).
 
      - .. figure:: /images/addons_import-export_mesh-atomic_ESE-2017.jpeg
 
           Solar cell structure to underline the properties of silicon nanocrystals deposited by pulsed spray system
-          (Mickael Lozac'h et al. --
-          `Link to publication <https://onlinelibrary.wiley.com/doi/abs/10.1002/ese3.174>`__).
+          (Mickael Lozac'h et al. -- `Link to publication <https://doi.org/10.1002/ese3.174>`__).
 
 The following movie was created by Sébastien Coget (responsible researcher: Frank Palmino)
 at the `Femto-ST institute <https://www.femto-st.fr/en>`__ in Besançon (France).

@@ -55,7 +55,7 @@ Node Warnings
 .. figure:: /images/modeling_geometry-nodes_inspection_node-warning.png
    :align: center
 
-   Node Warnings.
+   Node Warning.
 
-When the inputs to a node are invalid, it can have a warning displayed in the title.
+When the inputs to a node are invalid, it displays a warning in the title.
 Hovering over the warning icon shows the error message.

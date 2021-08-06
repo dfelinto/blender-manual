@@ -124,7 +124,7 @@ while the Y axis represents the number of pixels in that tonal range. A predomin
 image would have most of its information toward the left side of the graph.
 
 Use this mode to balance out the tonal range in an image.
-A well balanced image should have nice and smooth distribution of color values.
+A well-balanced image should have nice and smooth distribution of color values.
 
 .. figure:: /images/video-editing_preview_display-mode_example.jpg
 

@@ -36,10 +36,11 @@ Settings
 Common
 ------
 
-Color / Annotation Layer
-   Adjusts the color of existing and new strokes.
-   Next to the color selector is a pop-over menu to access the
-   :ref:`Annotation Layers <bpy.types.GPencilLayer.use_annotation_onion_skinning>`.
+Color
+   Adjust the color of existing and new strokes.
+
+Annotation Layer
+   A pop-over menu, showing the name of the current layer, to access the `Annotation Layers`_.
 
 .. _bpy.types.ToolSettings.annotation_stroke_placement_view3d:
 .. _bpy.types.ToolSettings.annotation_stroke_placement_view2d:
@@ -48,8 +49,8 @@ Placement
    Determines where the annotations are drawn.
 
    :3D Cursor:
-      Draw annotations on an imaginary plane that goes through the
-      :doc:`/editors/3dview/3d_cursor` and is aligned to your view.
+      Draw annotations on an imaginary plane that goes through
+      the :doc:`/editors/3dview/3d_cursor` and is aligned to your view.
    :View:
       Draw annotations in screen space rather than 3D space;
       meaning the annotations will stay on the same position in the screen,
@@ -85,8 +86,8 @@ can be found in the :menuselection:`Tool --> Active Tool` panel in the right Sid
 Annotation Layers
 =================
 
-There is a panel, :menuselection:`Sidebar --> View --> Annotations`,
-in it multiple annotation layers can be managed.
+In the :menuselection:`Sidebar --> View --> Annotations` panel
+multiple annotation layers can be managed.
 
 Opacity
    Adjusts the opacity of existing and new strokes.

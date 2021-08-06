@@ -50,7 +50,7 @@ Context-Sensitive Manual Access
 You may want to access help for a tool or area from within Blender.
 
 Use the key-shortcut, or context menu to visit pages from this reference manual within Blender.
-This opens a webpage relating to the button under the cursor, supporting both tool and value buttons.
+This opens a web page relating to the button under the cursor, supporting both tool and value buttons.
 
 .. note::
 

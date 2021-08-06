@@ -25,7 +25,7 @@ While moving bones, the length of the chain (the number of affected bones)
 can be increased or decreased using keyboard hotkeys.
 Pressing :kbd:`PageUp` will increase in chain length by one
 and :kbd:`PageDown` decreases the length by one.
-The chain length can also be controled with :kbd:`WheelUp` or :kbd:`WheelDown`.
+The chain length can also be controlled with :kbd:`WheelUp` or :kbd:`WheelDown`.
 
 The initial chain length is 0, which effectively means follow
 the connections to parent bones as far as possible, with no length limit.

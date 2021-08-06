@@ -45,7 +45,7 @@ Faces
 Faces are used to build the actual surface of the object.
 They are what you see when you render the mesh.
 If this area does not contain a face,
-it will simply be transparent or non-existent in the rendered image.
+it will simply be transparent or nonexistent in the rendered image.
 
 A face is defined as the area between either three (triangles), four (quadrangles) or more (n-gons) vertices,
 with an edge on every side. The faces are often abbreviated to *tris, quads & n-gons*.

@@ -74,7 +74,7 @@ while the Y axis represents the number of pixels in that tonal range.
 A predominantly dark image would have most of its information toward the left side of the graph.
 
 Use this mode to balance out the tonal range in an image.
-A well balanced image should have a nice smooth distribution of color values.
+A well-balanced image should have a nice smooth distribution of color values.
 
 Luma
    Shows the luminosity of an image.

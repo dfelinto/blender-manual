@@ -95,9 +95,11 @@ Local Space
    are taken into account.
 
    .. warning::
-      For objects without a parent Local Space has a special meaning, different from the
-      normal behavior of local space for bones or objects that have a parent. This behavior is
-      kept for backward compatibility, but may be removed in the future and shouldn't be used.
+
+      For objects without a parent Local Space has a special meaning, different from
+      the normal behavior of local space for bones or objects that have a parent.
+      This behavior is kept for backwards compatibility, but may be removed in the future
+      and shouldn't be used.
 
 Local with Parent :guilabel:`Bones Only`
    The bone position and orientation is evaluated relative to its rest pose location and orientation,

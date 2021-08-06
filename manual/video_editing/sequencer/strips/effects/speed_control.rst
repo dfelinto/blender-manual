@@ -7,8 +7,8 @@ Speed Control Strip
 Speed Control time-warps the strip, making it play faster or slower than it normally would.
 Playing faster means that some frames are skipped,
 and the strip will run out of frames before the end frame.
-When the strip runs out of frames to display, it will just keep repeating the last one
-action will appear to freeze. To avoid this,
+When the strip runs out of frames to display, it will just keep repeating
+the last one action that will appear to be frozen. To avoid this,
 position the next strip under the original at a point where you want the motion to continue.
 
 
@@ -17,11 +17,11 @@ Options
 
 Stretch
    Automatically calculates the *Speed Factor* based on the length of the input strip.
-   So if you make a strip 1/2 the original size the sequence will play back at 2 times the speed.
+   If you scale a strip to 1/2 the original size the sequence will play back at 2 times the speed.
 
 Multiply
    Multiplies the current speed of the sequence by a *Factor*.
-   So, a value of 0.5 will make the sequence half as fast while 2 would make the sequence twice as fast.
+   Thus a value of 0.5 will make the sequence half as fast while 2 would make the sequence twice as fast.
 
    .. note::
 
@@ -33,7 +33,7 @@ Frame Number
    This can then be manually :doc:`keyframed </animation/keyframes/index>` to recreate the animation.
 
 Length
-   Maps the frame range on a 0%-100% scale. For example, using this and a value of 50%
+   Maps the frame range on a percentage scale. For example, using this and a value of 50%
    will select the frame halfway through the sequence.
 
 Interpolation
@@ -49,8 +49,8 @@ Creating a Slow-Motion Effect
 Suppose you want to slow your strip down.
 You need to affect the speed of the video clip without affecting the overall frame rate.
 Select the clip and :menuselection:`Add --> Effect --> Speed Control` effect strip.
-Click to drop it and press :kbd:`N` to get the Properties.
-Choose the *Multiply* option in the Effect Strip section.
+
+Choose the *Multiply* option in the Effect Strip panel in the Sidebar.
 Set the Multiply Factor to be the factor by which you want to adjust the speed.
 To cut the displayed speed by 50%, enter 0.5.
 Now, a 275-frame clip will play at half speed, and thus display only the first 137 frames.
@@ -96,10 +96,11 @@ Changing Video Frame Rates
 You can use the speed control to change the frame rate in frames per second (fps) of a video.
 If you are rendering your video to a sequence set,
 you can effectively increase or decrease the number of individual image files created,
-by using a Multiply value less than or greater than one, respectively. For example,
-if you captured a five-minute video at 30 fps and wanted to transfer that to film,
+by using a Multiply value less than or greater than one, respectively.
+
+For example, if you captured a five-minute video at 30 fps and wanted to transfer that to film,
 which runs at 24 fps, you would enter a Multiply Factor of 30/24, or 1.25
-(and Enable Frame Blending to give that film blur feel).
+(and enable *Interpolation* frame blending to create a film blur effect).
 Instead of producing ``5 × 60 × 30 = 9000`` frames,
 Blender would produce ``9000 / 1.25 = 7200 = 5 × 60 × 24`` frames.
 In this case, you set a *start* = 1 and *end* = 7200, set your Format output to ``jpeg`` 30fps,

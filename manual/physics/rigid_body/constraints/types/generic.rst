@@ -17,8 +17,8 @@ Clamping the min/max to zero has the same effect as the Point constraint.
 Clamping the relative rotation to zero keeps the objects in alignment.
 Combining an absolute rotation and translation clamp would behave much like the Fixed constraint.
 
-Using a nonzero spread on any parameter allows it to rattle
-around in that range throughout the course of the simulation.
+Using a nonzero spread on any parameter allows it to oscillate
+in that range throughout the course of the simulation.
 
 
 Options

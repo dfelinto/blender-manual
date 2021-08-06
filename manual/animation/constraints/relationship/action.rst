@@ -82,6 +82,7 @@ Mix
       and scale components of the input transformations cannot affect the resulting location.
 
    .. warning::
+
       For technical reasons modes other than *After Original (Full)* and *After Original (Aligned)* may
       not work as expected for constraints on *objects* (not bones) without a parent.
 

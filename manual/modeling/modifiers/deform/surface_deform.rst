@@ -58,7 +58,7 @@ Vertex Group
 
 Sparse Bind
    Only record bind data for vertices that have nonzero weights in the group at the time of bind.
-   This is a optimization, but adding new vertices to the group will require a rebind.
+   This is an optimization, but adding new vertices to the group will require a rebind.
 
 Bind
    Bind the current state of the modified mesh to the current state of the target mesh,

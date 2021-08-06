@@ -15,7 +15,6 @@ When importing an :doc:`Alembic </files/import_export/alembic>` or
 Mesh Sequence Cache modifiers are automatically added to time-varying meshes.
 For time-varying object transforms (so animation of rotation, location, or scale),
 the :ref:`Transform Cache Constraint <bpy.types.TransformCacheConstraint>` is used.
-
 Files other than Alembic or USD, like MDD and PC2 files, can be loaded using
 the :doc:`Mesh Cache modifier </modeling/modifiers/modify/mesh_cache>`.
 
@@ -51,7 +50,7 @@ Velocity Attribute
    The name of the Alembic attribute used for generating motion blur data;
    by default, this is ``.velocities`` which is standard for most Alembic files.
 
-   .. note:: The **Velocity Attribute** option is currently for Alembic files only.
+   .. note:: The *Velocity Attribute* option is currently for Alembic files only.
 
 
 Velocity Unit
@@ -61,8 +60,8 @@ Velocity Unit
       The velocity unit was encoded in frames and does not need to be scale by scene FPS.
    Second
       The velocity unit was encoded in seconds and needs to be scaled by the scene FPS (1 / FPS).
-      
-   .. note:: The **Velocity Unit** option is currently for Alembic files only.
+
+   .. note:: The *Velocity Unit* option is currently for Alembic files only.
 
 Object Path
    The path to the Alembic or USD object inside the archive or stage.
@@ -75,5 +74,5 @@ Read Data
 
 Velocity Scale
    Multiplier used to control the magnitude of the velocity vector for time effects such as motion blur.
-   
-   **Note:** The **Velocity Scale** option is currently for Alembic files only.
+
+   .. note:: The *Velocity Scale* option is currently for Alembic files only.

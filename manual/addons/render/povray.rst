@@ -291,7 +291,8 @@ The default threshold is 0.3 but it may be changed using this ``Antialias_Thresh
 
 .. seealso::
 
-   More details on `POV-Ray Wiki <https://wiki.povray.org/content/Reference:Tracing_Options#Anti-Aliasing_Options>`__.
+   More details on
+   `POV-Ray Wiki <https://wiki.povray.org/content/Reference:Tracing_Options#Anti-Aliasing_Options>`__.
 
 .. tip:: Depth of Field Without Anti-Aliasing
 

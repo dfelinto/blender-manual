@@ -22,7 +22,7 @@ Height
    The Y axis size of the shape.
 
 Bottom Height / Top Height
-   The bottom and top point's distance from the X axis, in *Kite* mode.
+   The distance between the bottom or top point and the X axis, in *Kite* mode.
 
 Offset
    In *Parallelogram* mode, the relative X difference between the top and bottom edge.

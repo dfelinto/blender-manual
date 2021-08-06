@@ -197,8 +197,8 @@ application.
   In the menu it opens, select the *Set up OpenXR*.
 - Enable the :doc:`VR Scene Inspection add-on </addons/3d_view/vr_scene_inspection>` in Blender.
 
-For more information, refer to Windows'
-`Getting Started Guide for OpenXR <https://docs.microsoft.com/en-us/windows/mixed-reality/develop/native/openxr-getting-started>`__.
+For more information, refer to Windows' `Getting Started Guide for OpenXR
+<https://docs.microsoft.com/en-us/windows/mixed-reality/develop/native/openxr-getting-started>`__.
 
 
 Monado

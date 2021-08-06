@@ -59,8 +59,8 @@ macOS
 Writing Shaders
 ===============
 
-For more details on how to write shaders, see the
-`OSL specification <https://github.com/AcademySoftwareFoundation/OpenShadingLanguage/blob/master/src/doc/osl-languagespec.pdf>`__.
+For more details on how to write shaders, see the `OSL specification
+<https://github.com/AcademySoftwareFoundation/OpenShadingLanguage/blob/master/src/doc/osl-languagespec.pdf>`__.
 Here is a simple example:
 
 .. code-block:: cpp

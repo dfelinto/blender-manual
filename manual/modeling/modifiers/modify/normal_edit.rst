@@ -96,8 +96,8 @@ Example
 .. figure:: /images/modeling_modifiers_modify_normal-edit_example.jpg
    :width: 680px
 
-   Examples of editing custom normals to point towards a given direction,
-   see `example blend-file <https://download.blender.org/ftp/mont29/persistent_data/sapling_CN.blend>`__.
+   Editing custom normals to point towards a given direction
+   (`blend-file <https://download.blender.org/ftp/mont29/persistent_data/sapling_CN.blend>`__).
 
 The left tree mesh has unmodified normals, while on the right one a *Normal Edit* modifier is used to bend them
 towards the camera. This shading trick is often used in games to fake scattering in trees and other vegetation.

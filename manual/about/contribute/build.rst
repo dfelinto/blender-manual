@@ -12,7 +12,7 @@ Open a terminal or Command Prompt in the ``~/blender_docs`` directory and simply
 
 .. tip::
 
-   On MS-Windows you can simply open the ``make.bat`` file to easily
+   On Microsoft Windows you can simply open the ``make.bat`` file to easily
    run the command without having to open the Command Prompt and typing commands.
 
 This is the command you should use when building the docs,

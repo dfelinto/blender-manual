@@ -72,8 +72,8 @@ This tool is a bit similar to its :doc:`mesh counterpart </modeling/meshes/tools
 but with less control and options (in fact, there is none!).
 
 It only works on selected "surfaces" made of *one U row* (and not with one V row),
-so-called "surface curves", by "extruding" this "cross section" in a square pattern,
-automatically adjusting the weights of control points to get a perfect circular extrusion
+so-called "surface curves", by "extruding" this "cross section" in a square pattern.
+While automatically adjusting the weights of control points to get a perfect circular extrusion
 (this also implies closing the surface along the V axis), following exactly the same principle
 as for the *NURBS Tube* or *NURBS Torus* primitives.
 

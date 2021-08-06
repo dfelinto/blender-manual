@@ -33,11 +33,11 @@ Workflow
       and their effects together using :doc:`Meta Strips </video_editing/sequencer/meta>`.
 
 #. Split the editor into many :doc:`Previews </video_editing/preview/index>`, one for each input track.
-   You will want to change the :ref:`Display Channel <bpy.types.SpaceSequenceEditor.display_channel>`
+   Then change the :ref:`Display Channel <bpy.types.SpaceSequenceEditor.display_channel>`
    of each of the previews to the channel number of the input track.
 #. Add a Multicam Selector strip *above* all the video channel tracks.
 
-   After completing these steps you should get something similar to the image below:
+   After completing these steps you should get something similar to the following image:
 
    .. figure:: /images/video-editing_sequencer_strips_effects_multicam_example.png
 
@@ -53,10 +53,9 @@ Workflow
 #. You will end up with a small Multicam Selector strip for every cut.
 
 In reality, it boils down to: watch a few seconds to see, what is coming,
-watch it again and do a rough cut using the number keys,
-do some fine-tuning by selecting the outer handles of two neighboring Multicam for A/B rolling.
+watch it again and do a rough cut using the number keys.
+Then fine-tune the placement by selecting the outer handles of two neighboring Multicam for A/B rolling.
 
 .. tip::
 
-   To improve playback performance remember to also enable
-   :doc:`Proxies </video_editing/sequencer/sidebar/proxy>`.
+   To improve playback performance enable :doc:`Proxies </video_editing/sequencer/sidebar/proxy>`.

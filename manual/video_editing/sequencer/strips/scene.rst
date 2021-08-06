@@ -42,7 +42,7 @@ Volume
 
 Show
    Annotations
-      Shows :doc:`Annotations </interface/annotate_tool>` while in in non render
+      Shows :doc:`Annotations </interface/annotate_tool>` while in non-render
       :ref:`Preview Shading Modes <bpy.types.RenderSettings.sequencer_gl_preview>`
       i.e. *Solid* or *Wireframe* mode.
    Transparent

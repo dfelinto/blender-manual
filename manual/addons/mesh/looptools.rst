@@ -220,7 +220,7 @@ Influence
 .. seealso::
 
    For an illustrated explanation of all the tool settings visit
-   the `script homepage <https://sites.google.com/site/bartiuscrouch/looptools>`__.
+   the `script home page <https://sites.google.com/site/bartiuscrouch/looptools>`__.
 
    Please see the
    `old Wiki <https://archive.blender.org/wiki/index.php/Extensions:2.6/Py/Scripts/Modeling/LoopTools/>`__

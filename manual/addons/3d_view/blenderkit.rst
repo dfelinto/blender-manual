@@ -110,7 +110,7 @@ BlenderKit Login Panel
 .. _bpy.ops.wm.blenderkit_login:
 
 Log In
-   Log in online on BlenderKit web-page.
+   Log in online on BlenderKit web page.
 
 .. _bpy.ops.wm.blenderkit_logout:
 
@@ -457,7 +457,7 @@ Design Properties:
 
    Designer
       Author of the original design piece depicted.
-      Usually not you -- fill in your name and personal statement in your profile on BlenderKit webpage.
+      Usually not you -- fill in your name and personal statement in your profile on BlenderKit web page.
 
    .. _bpy.objects.blenderkit.designer_collection:
 

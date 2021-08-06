@@ -127,6 +127,6 @@ For rendering materials like skin or milk that require multiple scattering,
 subsurface scattering is more efficient and easier to control. Particularly the random walk
 method can accurately render such materials.
 
-For materials such as clouds or smoke that do not have a well defined surface,
+For materials such as clouds or smoke that do not have a well-defined surface,
 volume rendering is required. These look best with many scattering bounces,
 but in practice one might have to limit the number of bounces to keep render times acceptable.
