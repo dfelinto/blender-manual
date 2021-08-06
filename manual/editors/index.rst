@@ -32,7 +32,7 @@ See :doc:`User Interface </interface/index>` for documentation on the general in
    compositor.rst
    geometry_node.rst
    texture_node/index.rst
-   sequencer.rst
+   video_sequencer/index.rst
    clip/index.rst
 
 
