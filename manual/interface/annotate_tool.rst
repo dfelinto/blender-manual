@@ -1,4 +1,3 @@
-.. _tool-annotate:
 
 *************
 Annotate Tool
@@ -7,23 +6,32 @@ Annotate Tool
 The annotation tool is available in multiple editors.
 It can be used to add notes to e.g. 3D objects or node setups.
 
+.. figure:: /images/interface_annotate-tool_node-editor.png
+   :align: center
+
+   Annotations tool in a node editor.
+
 The annotation tool can be activated in the Toolbar on the left side.
 It has a couple of sub-tools listed below.
 
+.. _tool-annotate:
+
 Annotate
    Draw free-hand strokes in the main area.
+
+.. _tool-annotate-line:
 
 Annotate Line
    Click and drag to create a line.
    Optionally, you can select the arrow style for the start and end of the line.
 
+.. _tool-annotate-polygon:
+
 Annotate Polygon
    Click multiple times to create multiple connected lines.
    The current polygon is finished when :kbd:`Esc` is pressed.
 
-   Style Start, End
-      The decoration to use at the beginning or end of the line segment.
-      This can be used for example to create arrows to point out specific details in a scene.
+.. _tool-annotate-eraser:
 
 Annotate Eraser
    Click and drag to remove lines.
@@ -71,23 +79,19 @@ Stabilize Stroke
       but the drawing sensation feels like as if you were pulling the stroke.
 
 
-2D Editors
-----------
+Annotate Line
+-------------
 
-When the annotation tool is enabled, the settings for managing multiple layers
-can be found in the :menuselection:`Tool --> Active Tool` panel in the right Sidebar.
-
-.. figure:: /images/interface_annotate-tool_node-editor.png
-   :align: center
-
-   Annotations tool in a node editor.
+Style Start, End
+   The decoration to use at the beginning or end of the line segment.
+   This can be used for example to create arrows to point out specific details in a scene.
 
 
 Annotation Layers
 =================
 
-In the :menuselection:`Sidebar --> View --> Annotations` panel
-multiple annotation layers can be managed.
+When the annotation tool is enabled, the settings for managing multiple layers
+can be found in the :menuselection:`Sidebar --> View --> Annotations` panel.
 
 Opacity
    Adjusts the opacity of existing and new strokes.

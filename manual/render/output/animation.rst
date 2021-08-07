@@ -45,7 +45,7 @@ The Direct Approach, which is highly **not** recommended and not a standard prac
 is where you set your output format to an AVI or MOV format,
 and click *Animation* to render your scene directly out to a movie file.
 Blender creates one file that holds all the frames of your animation.
-You can then use Blender's :doc:`Video Sequencer </editors/sequencer>`
+You can then use Blender's :doc:`Video Sequencer </editors/video_sequencer/index>`
 to add an audio track to the animation and render out to an MPEG format to complete your movie.
 
 
@@ -58,7 +58,7 @@ where each image is a frame in the sequence.
 
 Blender creates a file for each frame of the animation.
 You can then use Blender's Compositor to perform any frame manipulation (post-processing).
-You can then use Blender's :doc:`Video Sequencer </editors/sequencer>` to load that final image sequence,
+You can then use Blender's :doc:`Video Sequencer </editors/video_sequencer/index>` to load that final image sequence,
 add an audio track to the animation, and render out to an MPEG format to complete your movie.
 The Frame Sequence approach is a little more complicated and takes more drive space,
 but gives you more flexibility.

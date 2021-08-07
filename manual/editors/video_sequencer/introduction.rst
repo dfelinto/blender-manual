@@ -44,6 +44,8 @@ Toolbar
    Toggle on or off with :kbd:`T` key.
 
 
+.. _bpy.types.SpaceSequenceEditor.view_type:
+
 View Types
 ==========
 

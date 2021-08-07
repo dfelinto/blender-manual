@@ -33,15 +33,17 @@ Scale
 
 Transform
    Tool to adjust the objects translation, rotations and scale.
+
 :ref:`Annotate <tool-annotate>`
    Draw free-hand annotation.
 
-   Annotate Line
+   :ref:`Annotate Line <tool-annotate-line>`
       Draw straight line annotation.
-   Annotate Polygon
+   :ref:`Annotate Polygon <tool-annotate-polygon>`
       Draw a polygon annotation.
-   Annotate Eraser
+   :ref:`Annotate Eraser <tool-annotate-eraser>`
       Erase previous drawn annotations.
+
 :ref:`Measure <tool-measure>`
    Measure distances in the scene.
 
