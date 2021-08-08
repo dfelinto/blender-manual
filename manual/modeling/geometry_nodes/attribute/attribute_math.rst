@@ -46,7 +46,7 @@ Operation
       :Square Root: The square root of the value.
       :Inverse Square Root: One divided by the square root of the value.
       :Absolute:
-         The input value is read with without regard to its sign.
+         The input value is read without regard to its sign.
          This turns negative values into positive values.
       :Exponent:
          Raises `Euler's number <https://en.wikipedia.org/wiki/E_(mathematical_constant)>`__
