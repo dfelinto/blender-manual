@@ -16,7 +16,7 @@ Input
 =====
 
 Vector
-   Standard vector output.
+   Standard vector input.
 
 
 Properties
