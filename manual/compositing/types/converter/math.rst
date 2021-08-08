@@ -78,7 +78,7 @@ Operation
       :Square Root: The square root of the value.
       :Inverse Square Root: One divided by the square root of the value.
       :Absolute:
-         The input value is read with without regard to its sign.
+         The input value is read without regard to its sign.
          This turns negative values into positive values.
       :Exponent:
          Raises `Euler's number <https://en.wikipedia.org/wiki/E_(mathematical_constant)>`__
@@ -99,7 +99,7 @@ Operation
       :Smooth Maximum: `Smooth Maximum <https://en.wikipedia.org/wiki/Smooth_maximum>`__.
 
    Rounding
-      :Round: Round the input value to the nearest integer.
+      :Round: Rounds the input value to the nearest integer.
       :Floor: Rounds the input value down to the nearest integer.
       :Ceil: Rounds the input value up to the nearest integer.
       :Truncate: Outputs the integer part of the *value*.
@@ -108,7 +108,7 @@ Operation
       :Wrap:
          Outputs a value between *Min* and *Max* based on the absolute difference between
          the input value and the nearest integer multiple of *Max* less than the value.
-      :Snap: Round the input value to down to the nearest integer multiple of *Increment*.
+      :Snap: Rounds the input value down to the nearest integer multiple of *Increment*.
       :Ping-pong: The output value is moved between 0.0 and the *Scale* based on the input value.
 
    Trigonometric
@@ -240,5 +240,5 @@ rounds the value to the nearest whole number (produces 0, 1, 2, 3, 4, 5),
 and then divides the image pixel color by five (0.0, 0.2, 0.4, 0.6, 0.8, 1.0).
 
 In the case of a color image,
-you need split it into separate RGB channels using *Separate/Combine RGBA* nodes
+you need to split it into separate RGB channels using *Separate/Combine RGBA* nodes
 and perform this operation on each channel independently.
