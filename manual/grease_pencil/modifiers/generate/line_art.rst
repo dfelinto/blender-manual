@@ -28,7 +28,7 @@ Source Type
 
    Scene, Collection, Object
 
-Source Selector
+Object/Collection
    Based on the source type, collection or object can be selected as source geometry.
 
 .. note::
@@ -36,13 +36,10 @@ Source Selector
    Line Art will still load and calculate the entire visible scene to produce correct occlusion result,
    unless specified to do otherwise in object or collection Line Art *Usage* property.
 
-Crease Threshold
-   Edge angles that are smaller than this value will be treated as crease.
-
-Target Layer
+Layer
    The Grease Pencil :ref:`bpy.types.GPencilLayer` to put the result in.
 
-Target Material
+Material
    The Grease Pencil :ref:`bpy.types.MaterialGPencilStyle` to generate strokes with.
 
 Remove Doubles
@@ -82,6 +79,9 @@ Intersections
 
 Crease
    Where the edge angle is small enough. Controlled by *Crease Threshold* property.
+
+   Crease Threshold
+      Edge angles that are smaller than this value will be treated as crease.
 
 
 Style
