@@ -36,24 +36,6 @@ Source Selector
    Line Art will still load and calculate the entire visible scene to produce correct occlusion result,
    unless specified to do otherwise in object or collection Line Art *Usage* property.
 
-Edge Types
-   Line Art can identify different edge types. Selected edge types will be included in the result.
-
-   Contour
-      Where the edge becomes the separation line of front/backfacing faces.
-
-   Material Borders
-      Where the edge separates faces with different materials.
-
-   Edge Marks
-      Freestyle edge marks.
-
-   Intersections
-      Intersection lines between faces.
-
-   Crease
-      Where the edge angle is small enough. Controlled by *Crease Threshold* property.
-
 Crease Threshold
    Edge angles that are smaller than this value will be treated as crease.
 
@@ -79,6 +61,27 @@ Instanced Objects
 Clipping Boundaries
    When enabled, line art will generate clipping lines as contour type at the place
    where near or far clipping planes cut the model. Otherwise there will be no lines.
+
+
+Edge Types
+----------
+
+Line Art can identify different edge types. Selected edge types will be included in the result.
+
+Contour
+   Where the edge becomes the separation line of front/backfacing faces.
+
+Material Borders
+   Where the edge separates faces with different materials.
+
+Edge Marks
+   Freestyle edge marks.
+
+Intersections
+   Intersection lines between faces.
+
+Crease
+   Where the edge angle is small enough. Controlled by *Crease Threshold* property.
 
 
 Style
@@ -183,7 +186,7 @@ Bake
 .. figure:: /images/grease-pencil_modifiers_generate_line-art_baking-panel.png
    :align: right
 
-   Baking subpanel.
+   Bake options.
 
 Bake Line Art
    Bakes Line Art strokes for active Grease Pencil object within the *start*, *end* frame range in scene.
