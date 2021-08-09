@@ -80,7 +80,7 @@ Transfer Sculpt Mode
 
    :Mode:      Sculpt Mode
    :Menu:      :menuselection:`Sculpt --> Transfer Sculpt Mode`
-   :Shortcut:  :kbd:`D`
+   :Shortcut:  :kbd:`Alt-Q`
 
 Adds the object under the mouse to Sculpt Mode and removes the :term:`Active` from Sculpt Mode.
 This operator is useful to easily switch between objects when you want to sculpt on multiple objects at once.
