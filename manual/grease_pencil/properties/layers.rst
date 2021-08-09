@@ -95,7 +95,7 @@ Layer Specials
       Avoids editing locked materials in the layer. When disabled,
       any material can be edited even if they are locked in the material list.
 
-   Merge Down
+   Merge Down :kbd:`Ctrl-Shift-M`
       Merge the selected layer with the layer below, the new layer keeps the name of the lower layer.
 
    Copy Layer to Object
