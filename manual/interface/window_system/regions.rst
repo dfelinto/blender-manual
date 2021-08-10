@@ -66,8 +66,15 @@ Show Menus
    Toggles whether the :ref:`Menus <ui-header-menu>` are collapsed or not.
 Flip to Bottom/Top
    Toggles whether the header or Tool Settings appear on the top or bottom of the editor.
-Maximize Area
+Vertical/Horizontal Split
+   Shows an indicator line that lets you select the area and position where to split.
+   :kbd:`Tab` switches between vertical/horizontal.
+Maximize/Full Screen Area
    See :ref:`bpy.ops.screen.screen_full_area`.
+Duplicate Area into New Window
+   See :ref:`bpy.ops.screen.area_dupli`.
+Close Area
+   Closes the area and replaces it with the expansion of a neighboring area.
 
 
 Toolbar

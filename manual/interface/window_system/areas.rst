@@ -59,20 +59,14 @@ Joining
    :width: 250px
    :figwidth: 250px
 
-   The Properties is being joined to the Outliner.
+   Properties is being joined to the Outliner.
 
 Dragging from an area corner **outward** will *join* two areas.
-The area that will be closed gets a dark overlaid arrow.
+The area that will be closed gets a dark overlay.
 You can select which area will be closed by moving the mouse over areas.
 Release the :kbd:`LMB` to complete the join.
 If you press :kbd:`Esc` or :kbd:`RMB` before releasing the mouse,
 the operation will be aborted.
-
-.. note::
-
-   Areas to be joined must be the same size (width or height)
-   in the direction you wish to join, otherwise nothing will happen.
-   This is so that the combined area remains a rectangle.
 
 
 Area Options
@@ -80,7 +74,7 @@ Area Options
 
 :kbd:`RMB` on the border opens the *Area Options*.
 
-Split Area
+Vertical/Horizontal Split
    Shows an indicator line that lets you select the area and position where to split.
    :kbd:`Tab` switches between vertical/horizontal.
 Join Areas
