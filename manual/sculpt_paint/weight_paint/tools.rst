@@ -75,7 +75,7 @@ Sample
    Vertex Group
       Displays a list of possible vertex groups to select that are under the cursor.
 
-:ref:`Annotate <tool-annotate>`
+:ref:`Annotate <tool-annotate-freehand>`
    Draw free-hand annotation.
 
    :ref:`Annotate Line <tool-annotate-line>`

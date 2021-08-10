@@ -26,7 +26,7 @@ Scale
 Transform
    Tool to adjust the UVs translation, rotations and scale.
 
-:ref:`Annotate <tool-annotate>`
+:ref:`Annotate <tool-annotate-freehand>`
    Draw free-hand annotation.
 
    :ref:`Annotate Line <tool-annotate-line>`

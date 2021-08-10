@@ -6,7 +6,7 @@
 Sample
    Used to sample a pixel's color from anywhere within Blender.
 
-:ref:`Annotate <tool-annotate>`
+:ref:`Annotate <tool-annotate-freehand>`
    Draw free-hand annotation.
 
    :ref:`Annotate Line <tool-annotate-line>`

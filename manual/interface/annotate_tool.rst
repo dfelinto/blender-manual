@@ -1,4 +1,6 @@
 
+.. _tool-annotate:
+
 *************
 Annotate Tool
 *************
@@ -14,7 +16,7 @@ It can be used to add notes to e.g. 3D objects or node setups.
 The annotation tool can be activated in the Toolbar on the left side.
 It has a couple of sub-tools listed below.
 
-.. _tool-annotate:
+.. _tool-annotate-freehand:
 
 Annotate
    Draw free-hand strokes in the main area.

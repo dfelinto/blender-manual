@@ -17,7 +17,7 @@ Smear
    Smudges colors by grabbing the colors under the brush and "dragging" them.
    This can be imagined as a finger painting tool.
 
-:ref:`Annotate <tool-annotate>`
+:ref:`Annotate <tool-annotate-freehand>`
    Draw free-hand annotation.
 
    :ref:`Annotate Line <tool-annotate-line>`

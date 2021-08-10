@@ -47,7 +47,7 @@ Clone
    Adds copies of the strokes in the clipboard in the center of the brush.
    You have to copy the selected strokes you want into the clipboard with :kbd:`Ctrl-C` before using the tool.
 
-:ref:`Annotate <tool-annotate>`
+:ref:`Annotate <tool-annotate-freehand>`
    Draw free-hand annotation.
 
    :ref:`Annotate Line <tool-annotate-line>`

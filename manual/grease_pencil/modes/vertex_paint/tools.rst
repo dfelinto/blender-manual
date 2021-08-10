@@ -23,7 +23,7 @@ Smear
 Replace
    Change the color only to the stroke points that already have vertex color applied.
 
-:ref:`Annotate <tool-annotate>`
+:ref:`Annotate <tool-annotate-freehand>`
    Draw free-hand annotation.
 
    :ref:`Annotate Line <tool-annotate-line>`

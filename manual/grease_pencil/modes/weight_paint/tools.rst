@@ -14,7 +14,7 @@ See :doc:`Brush </grease_pencil/modes/weight_paint/tool_settings/brush>` for mor
 Draw
    Paints a specified weight over the strokes.
 
-:ref:`Annotate <tool-annotate>`
+:ref:`Annotate <tool-annotate-freehand>`
    Draw free-hand annotation.
 
    :ref:`Annotate Line <tool-annotate-line>`

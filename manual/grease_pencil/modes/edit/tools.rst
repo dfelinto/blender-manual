@@ -56,7 +56,7 @@ Transform Fill
 :ref:`Interpolate <tool-grease-pencil-draw-interpolate>` :kbd:`Ctrl-E`
    Automatically create a breakdown keyframe between two normal keyframes.
 
-:ref:`Annotate <tool-annotate>`
+:ref:`Annotate <tool-annotate-freehand>`
    Draw free-hand annotation.
 
    :ref:`Annotate Line <tool-annotate-line>`
