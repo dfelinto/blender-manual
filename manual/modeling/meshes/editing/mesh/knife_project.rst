@@ -73,3 +73,10 @@ Examples
           :width: 320px
 
           Resulting knife projection (extruded after).
+
+
+Known Limitations
+=================
+
+When cutting multiple meshes in edit-mode at once,
+geometry from these meshes does not occlude separate mesh objects behind them.
