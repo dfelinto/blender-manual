@@ -11,6 +11,8 @@ and can have connected children controlled by a different rig type.
 This is unlike chain-based rig types that usually consume the whole connected chain.
 
 
+.. _rigify.rigs.basic.copy_chain:
+
 ``basic.copy_chain``
 ====================
 
@@ -25,6 +27,8 @@ Deform (Boolean)
    When enabled deform bones will be created.
 
 
+.. _rigify.rigs.basic.pivot:
+
 ``basic.pivot``
 ===============
 
@@ -36,6 +40,9 @@ merely changes the pivot point used by rotation or scaling.
 Master Control
    When enabled an extra parent control bone with a box widget is created to allow moving the rig.
    It is also required by all other options besides *Deform Bone*.
+
+Widget Type
+   Allows selecting one of the predefined widgets to generate for the master control instead of the default cube.
 
 Switchable Parent
    Generates a mechanism for switching the effective parent of the rig based on the value of a custom property.
@@ -64,6 +71,8 @@ Pivot Control
 Deform Bone
    When enabled a deform bone will be created.
 
+
+.. _rigify.rigs.basic.raw_copy:
 
 ``basic.raw_copy``
 ==================
@@ -95,6 +104,8 @@ Relink Constraints
    if it has no parent; enter ``root`` in the *Parent* field if that is necessary.
 
 
+.. _rigify.rigs.basic.super_copy:
+
 ``basic.super_copy``
 ====================
 
@@ -104,8 +115,11 @@ adding custom features or specific deform bones to your rigs.
 Control (Boolean)
    When enabled a control bone and widget will be created.
 Widget (Boolean)
-   When enabled a circle widget will be created in replacement to the standard.
+   When enabled a widget will be created in replacement to the standard.
+Widget Type (String):
+   Allows selecting one of the predefined widget types to generate instead of the default circle.
 Deform (Boolean)
    When enabled a deform bone will be created.
 Relink Constraints
-   Works the same as in the `basic.raw_copy`_ rig.
+   Works the same as in the `basic.raw_copy`_ rig. In addition, when enabled any constraints that have
+   names prefixed with ``CTRL:`` are moved to the control, and with ``DEF:`` to the deform bone.

@@ -139,7 +139,7 @@ For best results, the shin bone should not be parallel to either thigh or paw in
 i.e. there should be some degree of bend in all joints of the paw.
 
 Heel IK Influence
-   Influence of the extended IK. At fully rotating the main IK control or digit bone would
+   Influence of the extended IK. At full rotating the main IK control or digit bone would
    not affect the rotation of the paw bone, while lower values provide some blending.
 
 

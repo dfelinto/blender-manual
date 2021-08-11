@@ -55,8 +55,10 @@ Also the jaw-ear area is split in different parts identified by bone names. Foll
 
 .. warning::
 
-   While placing the lip bones you should keep the opposite bone chains merged in the middle.
-   Tearing the merge point apart may result in a misalignment of controls in the final rig.
+   While moving the face bones it is necessary to preserve merge points, i.e. whenever heads
+   or tails of two or more bones overlap at the same point, they should still do so after
+   repositioning. Tearing a merge point apart may result in multiple controls being created
+   instead of one, or even generation errors.
 
 .. figure:: /images/addons_rigging_rigify_bone-positioning_face-stretcher-bones.png
    :align: center
@@ -65,10 +67,6 @@ Also the jaw-ear area is split in different parts identified by bone names. Foll
 
 After the main face bones are placed use the cheek bone to connect the eye-nose area to the jaw mouth area.
 Then do the same with the brow area. This process will automatically define face muscles compression areas.
-
-.. tip:: Merge Points
-
-   The rig will generically work as its best if you keep the bone connected at their merge points.
 
 Position the eye bones in the eye pivot point facing right **toward** the face on the Y axis.
 
