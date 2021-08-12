@@ -15,21 +15,20 @@ Start Frame, End Frame
 
 .. _bpy.types.MaskLayer:
 
-Mask Layer
-==========
+Mask Layers
+===========
 
 .. figure:: /images/movie-clip_masking_sidebar_mask-layer-panel.png
    :align: right
 
    Mask Layer panel.
 
-Mask Layers
-   Mask layers consists of one or several splines and used to "grouped" operation on splines.
-   Layers can be used to create complex shapes and to define how the splines interact with each other.
-   Splines belonging to the same layer can be animated together, for example by an item
-   from motion tracker footage.
-   Example of such tools might be parenting the whole set of splines to single motion tracking data or
-   simple to transform all of them together.
+Mask layers consists of one or several splines and used to "grouped" operation on splines.
+Layers can be used to create complex shapes and to define how the splines interact with each other.
+Splines belonging to the same layer can be animated together, for example by an item
+from motion tracker footage.
+Example of such tools might be parenting the whole set of splines to single motion tracking data or
+simple to transform all of them together.
 
 Opacity
    Used to set the opacity of the mask layer.
@@ -85,9 +84,9 @@ Active Spline
 Feather Offset
    The method used for calculating the offset of the mask spline feather.
 
-   Even
+   :Even:
       Preserves the thickness of the feather, but can give undesirable loops of the feather curve.
-   Smooth
+   :Smooth:
       Gives a nicer and smoother shape,
       but can also give an undesirable sharp feather when a curve segment forms an S-shape.
 
