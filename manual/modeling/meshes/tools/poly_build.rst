@@ -45,5 +45,5 @@ Extruding Edges :kbd:`LMB`
 
 .. tip::
 
-   It is useful to enable :ref:`vertex snapping <transform-snap-element>`
+   It is useful to enable :ref:`vertex snapping <bpy.types.ToolSettings.snap_elements>`
    and use :ref:`bpy.ops.mesh.remove_doubles` while tweaking vertices to combine them.

@@ -10,7 +10,7 @@ Precision
 
 Holding :kbd:`Ctrl` during a transform operation (such as move, rotate or scale)
 will toggle :ref:`Transform Snapping <transform-snap>`.
-When the :ref:`Snap Element <transform-snap-element>` is set to *Increment*,
+When using :ref:`Increment Snap <bpy.types.ToolSettings.snap_elements>`
 this allows the transformation to be performed in discrete amounts.
 
 Holding :kbd:`Shift` during a transform operation will transform
@@ -23,7 +23,7 @@ the movement to revert back to its normal mode of operation.
 .. note::
 
    The snapping behaviors described on this page **only** apply
-   when :ref:`Increment Snap <transform-snap-element>` is selected.
+   when :ref:`Increment Snap <bpy.types.ToolSettings.snap_elements>` is selected.
 
 .. tip::
 
@@ -105,8 +105,8 @@ Holding :kbd:`Ctrl` will cause size changes in increments of 0.1 units.
 
 .. note:: Snapping modes
 
-   Note that if you have a :ref:`Snap Element <transform-snap-element>` option enabled,
-   holding :kbd:`Ctrl` will cause the selection to snap to the nearest element.
+   Note that when you are :ref:`Snapping To <bpy.types.ToolSettings.snap_elements` something other than *Increment*,
+   holding :kbd:`Ctrl` will cause the selection to snap to that nearest element.
 
    Read more about :doc:`snapping </editors/3dview/controls/snapping>`.
 

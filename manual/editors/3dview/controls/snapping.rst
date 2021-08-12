@@ -18,23 +18,22 @@ a transformation is available by toggling the magnet icon in the 3D Viewport's h
 
    Magnet icon in the 3D Viewport header (blue when enabled).
 
+.. figure:: /images/editors_3dview_controls_snapping_element-menu.png
+   :align: right
+
+   Snap menu.
+
 
 .. _bpy.types.ToolSettings.snap_elements:
-.. _transform-snap-element:
 
-Snap Element
-============
+Snap To
+=======
 
 .. reference::
 
    :Mode:      Object, Edit, and Pose Mode
-   :Header:    :menuselection:`Snapping --> Snap to`
+   :Header:    :menuselection:`Snapping --> Snap To`
    :Shortcut:  :kbd:`Shift-Ctrl-Tab`
-
-.. figure:: /images/editors_3dview_controls_snapping_element-menu.png
-   :align: right
-
-   Snap Element menu.
 
 Increment
    Snap to grid points. When in Orthographic view, the snapping increment changes depending on zoom level.
@@ -72,8 +71,8 @@ Edge Perpendicular
 
 .. _bpy.types.ToolSettings.snap_target:
 
-Snap Target
-===========
+Snap With
+=========
 
 .. reference::
 
@@ -109,8 +108,8 @@ Closest
           Median.
 
 
-Additional Snap Options
-=======================
+Additional Options
+==================
 
 .. figure:: /images/editors_3dview_controls_snapping_options.png
 
