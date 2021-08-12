@@ -1,7 +1,10 @@
 
-**********
-Annotation
-**********
+****
+View
+****
+
+Annotations
+===========
 
 Annotation tool strokes can be enabled/disabled with the checkbox in the panel header.
 It is a standard annotations panel where annotation layers and frames can be controlled.
