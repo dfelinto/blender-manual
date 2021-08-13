@@ -85,7 +85,7 @@ so you can change the duration of the current frame.
 
 .. hint::
 
-   Extend is a convenient way to adjust the time of rough edits such as an "animatics" (sequenced story boards)
+   Extend is a convenient way to adjust the time of rough edits such as an "animatic" (sequenced story boards)
    where it's possible to select everything and increase or decrease the length of strips around the current frame.
 
    This can be especially useful when adding in audio or other elements that could cause the timing to need adjustment.
@@ -93,7 +93,7 @@ so you can change the duration of the current frame.
    When performing this operation you may want to enable :menuselection:`Markers --> Sync Markers`
    so markers are updated too.
 
-   This is just a convenience operation, the same functionality can be achieved by manually selecting strips
+   This simply a convenience operation, the same functionality can be achieved by manually selecting strips
    on one sidebar of the current frame, as well as handles of strips that are overlapping.
    Then the same again for markers.
 
