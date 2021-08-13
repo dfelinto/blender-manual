@@ -83,6 +83,22 @@ This is similar to moving but is useful for extending (or shortening) time aroun
 All selected strip handles to the "mouse side" of the current frame indicator will transform together,
 so you can change the duration of the current frame.
 
+.. hint::
+
+   Extend is a convenient way to adjust the time of rough edits such as an "animatics" (sequenced story boards)
+   where it's possible to select everything and increase or decrease the length of strips around the current frame.
+
+   This can be especially useful when adding in audio or other elements that could cause the timing to need adjustment.
+
+   When performing this operation you may want to enable :menuselection:`Markers --> Sync Markers`
+   so markers are updated too.
+
+   This is just a convenience operation, the same functionality can be achieved by manually selecting strips
+   on one sidebar of the current frame, as well as handles of strips that are overlapping.
+   Then the same again for markers.
+
+   This avoids the manual process, so re-timing can be accessed quickly.
+
 
 .. _bpy.ops.sequencer.slip:
 
