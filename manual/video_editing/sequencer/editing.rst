@@ -81,7 +81,7 @@ With a number of strips selected, pressing :kbd:`E` lets you interactively exten
 This is similar to moving but is useful for extending (or shortening) time around the current frame.
 
 All selected strip handles to the "mouse side" of the current frame indicator will transform together,
-so you can change the duration of the current frame.
+so you can change the duration of strips at the current frame.
 
 .. hint::
 
