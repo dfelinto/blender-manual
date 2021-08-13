@@ -113,7 +113,7 @@ Save As :kbd:`Shift-Ctrl-Alt-S`.
    a :doc:`File Browser </editors/file_browser>` is opened to select the directory
    to save the file along with giving the file a name / file extension.
 Register
-   Registers the current text data-block as a module on loading (the text name must end with ``.py``).
+   Run the text data-block as a Python script on loading the blend file.
    Read more about the registration of Python modules in
    `API documentation <https://docs.blender.org/api/current/info_overview.html#registration>`__.
 Live Edit
