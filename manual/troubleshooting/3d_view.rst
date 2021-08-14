@@ -40,7 +40,7 @@ To avoid this:
 
 When perspective is disabled only the far Clip End is used, very high values can still give artifacts.
 
-This is **not** specific to Blender, all OpenGL/DirectX graphics applications have these same limitations.
+This is **not** specific to Blender, all graphical applications have these same limitations.
 
 
 Objects Invisible in Camera View
