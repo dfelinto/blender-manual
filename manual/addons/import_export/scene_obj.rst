@@ -81,7 +81,8 @@ Split/Keep Vertex Order
    When importing an OBJ it's useful to split up the objects into Blender objects,
    named according to the OBJ-file. However, this splitting loses the vertex order which
    is needed when using OBJ-files as morph targets. It also loses any vertices that
-   are not connected to a face so this must be disabled if you want to keep the vertex order.
+   are not connected to a face or edge
+   so this must be disabled if you want to keep the vertex order and loose vertices.
 Split by Object & Split by Group
    When importing an OBJ it's useful to split up the objects into Blender objects,
    named according to the OBJ-file. However, this splitting loses the vertex order which
