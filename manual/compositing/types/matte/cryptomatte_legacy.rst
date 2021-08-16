@@ -81,6 +81,6 @@ Example
 
 In the example below, you can see the pass output on the right side.
 On the left side you can see a couple of objects that were selected through the *Cryptomatte* node.
-Notice how the cube on the left has a sphere shaped cut-out from a sphere that was not selected in the node.
+Notice how the cube on the left has a sphere-shaped cut-out from a sphere that was not selected in the node.
 
 .. figure:: /images/compositing_types_matte_cryptomatte_example.png

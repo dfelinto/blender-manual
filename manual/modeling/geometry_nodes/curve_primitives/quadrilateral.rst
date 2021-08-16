@@ -37,11 +37,11 @@ Properties
 
 Mode
    :Rectangle:
-      Generate a rectangle shaped curve with a width and a height.
+      Generate a rectangle-shaped curve with a width and a height.
    :Parallelogram:
       Generate a rectangle with an offset for the different X values of the top and bottom edges.
    :Trapezoid:
-      Generate a trapezoid shaped curve with a height, a width for the top and bottom, and an offset.
+      Generate a trapezoid-shaped curve with a height, a width for the top and bottom, and an offset.
    :Kite:
       Generate a kite shape with a width, and the top and bottom points distance from the X axis.
    :Points:

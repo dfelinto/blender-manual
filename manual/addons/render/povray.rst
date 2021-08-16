@@ -804,7 +804,7 @@ This is a POV-Ray primitive that simply extrudes a shape.
 Superquadric Ellipsoid
 ^^^^^^^^^^^^^^^^^^^^^^
 
-A quite versatile tool that can provide quick models for cushion or star shaped objects.
+A quite versatile tool that can provide quick models for cushion or star-shaped objects.
 
 .. seealso::
 
