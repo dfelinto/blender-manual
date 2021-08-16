@@ -170,7 +170,7 @@ The following USD data types can be imported as Blender objects:
 - Volume
 
 For more information on how the various data types are handled,
-see the following descriptions of the import options.
+see the following descriptions of the `Import Options`_.
 
 
 Xform and Scope Primitives
@@ -290,7 +290,7 @@ Set Frame Range
    Update the scene's start and end frame to match those of the USD stage.
 
 Relative Path
-   Select the file relative to the blend file.
+   Select the file relative to the blend-file.
 
 Create Collection
    Add all imported objects to a new collection.

@@ -62,11 +62,11 @@ Joining
    Properties is being joined to the Outliner.
 
 Dragging from an area corner **outward** will *join* two areas.
-The area that will be closed gets a dark overlay.
+The area that will be closed shows a dark overlay.
 You can select which area will be closed by moving the mouse over areas.
 Release the :kbd:`LMB` to complete the join.
 If you press :kbd:`Esc` or :kbd:`RMB` before releasing the mouse,
-the operation will be aborted.
+the operation will be canceled.
 
 
 Area Options

@@ -78,5 +78,5 @@ Examples
 Known Limitations
 =================
 
-When cutting multiple meshes in edit-mode at once,
+When cutting multiple meshes in Edit Mode at once,
 geometry from these meshes does not occlude separate mesh objects behind them.

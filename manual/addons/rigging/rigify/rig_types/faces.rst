@@ -12,4 +12,5 @@ Requirement: All the face bones bundled in the ``faces.super_face`` sample had t
 child of the master bone that has the Rigify-type *face* property set.
 
 .. note::
+
    This rig type is being deprecated in favor of a new modular face rigging system.

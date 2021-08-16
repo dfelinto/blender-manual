@@ -103,9 +103,9 @@ Scale
 
 Holding :kbd:`Ctrl` will cause size changes in increments of 0.1 units.
 
-.. note:: Snapping modes
+.. note:: Snapping Modes
 
-   Note that when you are :ref:`Snapping To <bpy.types.ToolSettings.snap_elements` something other than *Increment*,
+   Note that when you are :ref:`Snapping To <bpy.types.ToolSettings.snap_elements>` something other than *Increment*,
    holding :kbd:`Ctrl` will cause the selection to snap to that nearest element.
 
    Read more about :doc:`snapping </editors/3dview/controls/snapping>`.

@@ -58,7 +58,7 @@ Also the jaw-ear area is split in different parts identified by bone names. Foll
    While moving the face bones it is necessary to preserve merge points, i.e. whenever heads
    or tails of two or more bones overlap at the same point, they should still do so after
    repositioning. Tearing a merge point apart may result in multiple controls being created
-   instead of one, or even generation errors.
+   instead of one, or even the generation of errors.
 
 .. figure:: /images/addons_rigging_rigify_bone-positioning_face-stretcher-bones.png
    :align: center

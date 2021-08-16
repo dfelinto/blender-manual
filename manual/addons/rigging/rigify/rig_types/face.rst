@@ -27,15 +27,15 @@ Primary Control Layers
 Implements a skin system :ref:`parent controller <rigify.rigs.skin.skin_parents>` that manages
 two skin chains for the top and bottom eyelids in addition to generating the eye rotation mechanism.
 
-The rig must have two child skin chains with names tagged with `.T` and `.B` symmetry
+The rig must have two child skin chains with names tagged with ``.T`` and ``.B`` symmetry
 to mark the top and bottom eyelid, which are connected at their ends forming eye corners.
 The chains are rigged to follow the surface of the eye and twist to its normal.
 
-In addition, it creates target controls for aiming the eye, including a master control shared by all
-eyes under the same parent rig, and the eyelids are rigged to follow the movement of the eyeball with
-adjustable influence.
+In addition, it creates target controls for aiming the eye, including a master control shared by
+all eyes under the same parent rig. The eyelids are rigged to follow the movement of the eyeball
+with adjustable influence.
 
-Eyeball And Iris Deforms
+Eyeball and Iris Deforms
    Generates deform bones for the eyeball and the iris, the latter copying XZ scale from
    the eye target control. The iris is located at the tail of the ORG bone.
 Eyelid Detach Option
@@ -55,12 +55,12 @@ Eyelids Follow Default
 Implements a skin system :ref:`parent controller <rigify.rigs.skin.skin_parents>` that manages
 one or more loops of mouth skin chains in response to the movement of jaw and mouth controls.
 
-The rig must have one or more child chain loops, each formed by 4 skin chains tagged
-with `.T`/`.B` `.L`/`.R` symmetrical names.
+The rig must have one or more child chain loops, each formed by four skin chains tagged
+with ``.T``/``.B`` and ``.L``/``.R`` symmetrical names.
 
 The lip loops are sorted into layers based on the distance from corners to the common
-center and rigged with blended influence of the jaw and the master mouth control. Other
-child rigs simply become children of the jaw.
+center and rigged with blended influence of the jaw and the master mouth control.
+Other child rigs become children of the jaw.
 
 Bottom Lip Influence
    Specifies the influence of the jaw on the inner bottom lip with mouth lock disabled.

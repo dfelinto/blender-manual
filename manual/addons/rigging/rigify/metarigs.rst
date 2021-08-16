@@ -110,13 +110,12 @@ Using Rig Types (Advanced)
 .. _bpy.types.RigifySelectionColors:
 .. _bpy.types.RigifyArmatureLayer:
 
-
 Custom Root Bone
 ^^^^^^^^^^^^^^^^
 
-If the meta-rig contains a bone called 'root', it is used as the root control bone instead of creating
-a new one. This allows changing the rest position of the root bone, assigning a custom widget, or adding
-custom properties to the bone.
+If the meta-rig contains a bone called "root", it is used as the root control bone instead of creating a new one.
+This allows changing the rest position of the root bone, assigning a custom widget,
+or adding custom properties to the bone.
 
 The custom root bone must use the :ref:`basic.raw_copy <rigify.rigs.basic.raw_copy>` sub-rig
 type, either explicitly or implicitly by not selecting any type.

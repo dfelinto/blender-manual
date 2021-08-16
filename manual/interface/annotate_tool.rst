@@ -1,4 +1,3 @@
-
 .. _tool-annotate:
 
 *************
@@ -13,8 +12,7 @@ It can be used to add notes to e.g. 3D objects or node setups.
 
    Annotations tool in a node editor.
 
-The annotation tool can be activated in the Toolbar on the left side.
-It has a couple of sub-tools listed below.
+The annotation tool can be activated in the Toolbar and has following sub-tools:
 
 .. _tool-annotate-freehand:
 

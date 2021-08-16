@@ -10,7 +10,7 @@ Point Separate
 
    The Point Separate node.
 
-The *Point Separate* node produces two geometry outputs. Based on the mask input,
+The *Point Separate* node produces two geometry outputs. Based on the *Mask* input,
 the point cloud component of the input geometry is split between the two outputs.
 
 .. tip::
@@ -25,11 +25,10 @@ Inputs
 
 Mask
    The name of the attribute used to calculate which geometry output each point will belong to.
-   Any value of "true" will move the point to the second output, and any value of "false" will move the point
-   to the first output.
-
-   If the attribute datatype is not boolean, the value will be implicitly converted,
-   such that negative values return false and positive values return true.
+   Any value of true will move the point to the second output,
+   and any value of false will move the point to the first output.
+   If the attribute data type is not Boolean, the value will be implicitly converted,
+   such that negative values are false and positive values are true.
 
 
 Properties

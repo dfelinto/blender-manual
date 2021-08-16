@@ -96,7 +96,7 @@ Set View Transform
 
 Use Placeholders
    Image sequences can use placeholder files.
-   This works by enabling *Use placeholders* checkbox when adding an image strip.
+   This works by enabling *Use Placeholders* checkbox when adding an image strip.
    The option detects the frame range of opened images using Blender's frame naming scheme
    (``filename + frame number + .extension``) and makes an image sequence
    with all files in between even if they are missing.

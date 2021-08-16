@@ -9,7 +9,7 @@ Sequencer Overlays
 ==================
 
 Overlays are information that is displayed on top of the strip region.
-There is a switch to turn off/on all overlays for the strip region.
+There is a toggle to display or hide all overlays for the strip region.
 
 .. _bpy.types.SpaceSequenceEditor.show_strip_name:
 

@@ -111,9 +111,9 @@ Save :kbd:`Alt-S`
 Save As :kbd:`Shift-Ctrl-Alt-S`.
    Saves text as a new text file,
    a :doc:`File Browser </editors/file_browser>` is opened to select the directory
-   to save the file along with giving the file a name / file extension.
+   to save the file along with giving the file a name and file extension.
 Register
-   Run the text data-block as a Python script on loading the blend file.
+   Run the text data-block as a Python script on loading the blend-file.
    Read more about the registration of Python modules in
    `API documentation <https://docs.blender.org/api/current/info_overview.html#registration>`__.
 Live Edit

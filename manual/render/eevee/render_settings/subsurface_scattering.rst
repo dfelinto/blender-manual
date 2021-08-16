@@ -15,7 +15,7 @@ Samples
 
 Jitter Threshold
    For the effect to be efficient, samples need to be coherent and not random.
-   This can lead to a cross shaped pattern when the scattering radius is high.
+   This can lead to a cross-shaped pattern when the scattering radius is high.
    Increasing the Jitter Threshold will rotate the samples below this radius percentage
    in a random pattern in order to hide the visible pattern.
    This affects the performance if the scattering radius is large.

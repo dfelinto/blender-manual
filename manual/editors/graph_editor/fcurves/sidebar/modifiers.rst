@@ -64,7 +64,7 @@ Order
 
    .. seealso::
 
-      `The Wikipedia Page <https://en.wikipedia.org/wiki/Polynomial>`__
+      The `Wikipedia Page <https://en.wikipedia.org/wiki/Polynomial>`__
       for more information on polynomials.
 
 Influence

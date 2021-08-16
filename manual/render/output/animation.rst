@@ -52,8 +52,8 @@ to add an audio track to the animation and render out to an MPEG format to compl
 .. rubric:: Frame Sequence
 
 The Frame Sequence is a much more stable approach,
-where you set your output format to a still format (such as JPG, PNG or a multi-layer format),
-and click *Animation* to render your scene out to a set of images,
+where you set your output format to a still format (such as JPG, PNG or a multi-layer format).
+Click *Animation* to render your scene out to a set of images,
 where each image is a frame in the sequence.
 
 Blender creates a file for each frame of the animation.

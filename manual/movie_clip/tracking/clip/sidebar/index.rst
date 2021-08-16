@@ -8,4 +8,4 @@
 
    track/index.rst
    stabilization/index.rst
-   annotation.rst
+   view.rst

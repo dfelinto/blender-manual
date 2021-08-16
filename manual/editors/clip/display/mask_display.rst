@@ -16,4 +16,4 @@ Overlay Mode
    :Alpha Channel:
       Which displays the rasterized mask as a grayscale image.
    :Combined:
-      Which multiplies the image/clip with the mask.
+      Which multiplies the image or clip with the mask.
