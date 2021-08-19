@@ -115,22 +115,28 @@ Rim
       since the rims are generated from the borders of the original geometry.
 
 Vertex Group
-   Only vertices in this group are solidified. Their weights are multiplied by the thickness,
-   so vertices with lower weights will be less thick.
+   The weights of the selected vertex group are multiplied onto the *Thickness*,
+   so vertices with lower weights will be less thick. The vertices which are not part
+   of the vertex group will be used as if their weight was zero.
 
    Invert
-      Reverses the vertex group, so that only vertices which are **not** in the vertex group are solidified.
+      Reverses the vertex group weights, so that the used weight is one minus the actual weight.
 
    Factor
       How much the vertex weights are taken into account.
 
-      - On 0.0 , vertices with zero weight will have no thickness at all (creates duplicate vertices).
+      - On 0.0 , vertices with zero weight will have no thickness at all.
       - On 0.5 , vertices with zero weight will be half as thick as those with full weight.
       - On 1.0 , the weights are ignored and the *Thickness* value is used for every vertex.
 
    Flat Faces :guilabel:`Complex Mode`
       Use the minimal vertex weight assigned to the vertices of a face to make sure that
-      new faces stays parallel to their original ones. This is slow, so disable it when it is not needed.
+      new faces stay parallel to their original ones. This is slow, so disable it when it is not needed.
+
+   .. note::
+
+      If the final thickness of a vertex is zero, it will still be solidified.
+      Therefore duplicate geometry is created, which sometimes needs extra care.
 
 
 Normals
