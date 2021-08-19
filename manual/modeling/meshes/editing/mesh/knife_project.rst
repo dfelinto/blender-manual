@@ -11,8 +11,9 @@ Knife Project
 
 Knife projection is a non-interactive tool where you can use objects to cookie-cut into
 the mesh rather than hand drawing the line.
-This works by using the outlines of other selected objects in Edit Mode to cut the mesh
-along the view axis, resulting geometry inside the cutters outline will be selected.
+This works by using the outline of selected objects that are out of edit mode to cut the
+mesh along the view axis of objects that are in edit mode,
+resulting geometry inside the cutters outline will be selected.
 Outlines can be a wireframe or boundary edges (i.e. the unconnected edges of a mesh).
 
 .. note::
@@ -23,9 +24,8 @@ Outlines can be a wireframe or boundary edges (i.e. the unconnected edges of a m
    :ref:`Select Non-Manifold <bpy.ops.mesh.select_non_manifold>`
    (Wire, Boundaries) will highlight the cutting edges of mesh objects.
 
-To use Knife Project, first while in *Object Mode*, select the cutting object
-then add to that selection with :kbd:`Shift-LMB` the object to be cut.
-Now, enter *Edit Mode* and choose :menuselection:`Mesh --> Knife Project`.
+To use Knife Project, in *Edit Mode*, select the cutting object (Ctrl + Select)
+and choose :menuselection:`Mesh --> Knife Project`.
 
 .. hint::
 
