@@ -36,7 +36,7 @@ Note, groups can only have one input/output, if more than one is added they are 
 Group Output
 ============
 
-Adds a group output node, this serves as a convenient way to re-add the out node in case it is accidentally deleted.
+Adds a group output node, this serves as a convenient way to re-add the output node in case it is accidentally deleted.
 Note, groups can only have one input/output, if more than one is added they are essentially duplicates of each other.
 
 
