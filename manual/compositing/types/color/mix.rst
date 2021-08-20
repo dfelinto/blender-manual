@@ -2,6 +2,7 @@
 .. Editors Note: This page gets copied into:
 .. - :doc:`</render/cycles/nodes/types/color/mix>`
 .. - :doc:`</physics/simulation/nodes/color/mix_rgb>`
+.. - :doc:`</modeling/geometry_nodes/color/mix_rgb>`
 
 .. --- copy below this line ---
 
@@ -15,7 +16,7 @@ Mix Node
    Mix Node.
 
 The *Mix Node* mixes images by working on the individual and corresponding pixels
-of the two input images. Called "MixRGB" in the shader and texture context.
+of the two input images. Called "MixRGB" in the shader, geometry, and texture context.
 
 
 Inputs
