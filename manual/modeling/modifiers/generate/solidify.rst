@@ -136,7 +136,7 @@ Vertex Group
    .. note::
 
       If the final thickness of a vertex is zero, it will still be solidified.
-      Therefore duplicate geometry is created, which sometimes needs extra care.
+      Therefore creating duplicate geometry, which sometimes needs extra care.
 
 
 Normals

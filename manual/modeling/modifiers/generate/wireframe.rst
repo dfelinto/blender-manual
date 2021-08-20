@@ -64,12 +64,23 @@ Material Offset
 Vertex Group
 ------------
 
-Restrict the modifier to only this vertex group.
+The weights of the selected vertex group are multiplied onto the *Thickness*,
+so vertices with lower weights will be less thick. The vertices which are not part
+of the vertex group will be used as if their weight was zero.
 
 Invert
-   Inverts the vertex group weights.
+   Reverses the vertex group weights, so that the used weight is one minus the actual weight.
 Factor
-   Percentage that the vertex has influence over the final wireframe result.
+   How much the vertex weights are taken into account.
+
+   - On 0.0 , vertices with zero weight will have no thickness at all.
+   - On 0.5 , vertices with zero weight will be half as thick as those with full weight.
+   - On 1.0 , the weights are ignored and the *Thickness* value is used for every vertex.
+
+.. note::
+
+   If the final thickness of a vertex is zero, it will still generate a wireframe.
+   Therefore creating duplicate geometry, which sometimes needs extra care.
 
 
 Examples
