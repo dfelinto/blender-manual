@@ -96,7 +96,7 @@ input[type="number"], input[type="tel"], input[type="color"] {
 
 /* captions text style */
 .rst-content .figure .caption,
-.rst-content figure figcaption p,
+.rst-content figure figcaption > p,
 .rst-content table.docutils caption,
 .rst-content table.field-list caption {
 	font: italic 90%/18px Lato, proxima-nova, 'Helvetica Neue', Arial, sans-serif;
