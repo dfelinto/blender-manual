@@ -47,6 +47,8 @@ Include
       Includes the name of the last marker.
    Filename
       Includes the filename of the blend-file.
+   Strip Name
+      Includes the name of the foreground sequence strip.
 
 
 Note
