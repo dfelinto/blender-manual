@@ -96,6 +96,7 @@ input[type="number"], input[type="tel"], input[type="color"] {
 
 /* captions text style */
 .rst-content .figure .caption,
+.rst-content figure figcaption,
 .rst-content table.docutils caption,
 .rst-content table.field-list caption {
 	font: italic 90%/18px Lato, proxima-nova, 'Helvetica Neue', Arial, sans-serif;
@@ -103,7 +104,10 @@ input[type="number"], input[type="tel"], input[type="color"] {
 }
 
 /* Captions top padding. */
-.rst-content .figure .caption { margin-top: 4px; }
+.rst-content .figure .caption,
+.rst-content figure figcaption {
+	margin-top: 4px;
+}
 .rst-content table.docutils caption { padding: 0.5em; }
 
 /* Text word wrap. */
@@ -121,7 +125,8 @@ input[type="number"], input[type="tel"], input[type="color"] {
 .rst-content table.docutils th { border-color: #e1e4e5; }
 
 /* Figure in table margin. */
-.rst-content td div.figure {
+.rst-content td div.figure,
+.rst-content td figure {
 	margin-top: 4px; margin-bottom: 0;
 }
 
@@ -249,6 +254,7 @@ a.external {color:#656AE0;}
 	border-radius: .3em;
 	user-select: none;
 }
+.descr div.figure,
 .descr div.figure {
 	margin-bottom: 0px;
 	display: block;
