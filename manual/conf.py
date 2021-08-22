@@ -82,7 +82,7 @@ rst_epilog = """
 
 # If set to a major.minor version string like '1.1', Sphinx will compare it
 # with its version and refuse to build if it is too old.
-needs_sphinx = '4.0'
+needs_sphinx = '3.3'
 
 # The default language to highlight source code in.
 highlight_language = 'python3'
