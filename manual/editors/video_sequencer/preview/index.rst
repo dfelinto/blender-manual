@@ -3,9 +3,9 @@
 Preview
 *******
 
-The Preview contains two areas (see figure 1), the *header* is show
-in a yellow outline with the black *Preview window* (red outline) underneath.
-This Preview window has no fixed dimensions; you can zoom in or move indefinitely.
+The Preview contains two regions (see figure 1), the Header is shown
+in a yellow outline with the *Preview* (red outline) underneath.
+This Preview has no fixed dimensions; you can zoom in or move indefinitely.
 However, in figure 1 you see a checkered area (green outline).
 This preview has the aspect ratio of the Project Dimensions; e.g. 1920 x 1080 pixels in figure 1.
 But, because the source strip could be scaled in a different resolution,

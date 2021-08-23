@@ -43,5 +43,6 @@ Waveform Display
 
    :Waveform Off: Disable waveforms for all strips.
    :Waveform On: Enable waveforms for all strips.
-   :Use Strip Option: Set waveform per strip configured with
+   :Use Strip Option:
+      Set waveform per strip configured with
       :ref:`Display Waveform <bpy.types.SoundSequence.show_waveform>`.

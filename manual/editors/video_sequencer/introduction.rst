@@ -18,13 +18,14 @@ to read more about usage of the Video Sequencer read the :doc:`Video Editing </v
 Editor Layout
 =============
 
-The VSE is composed of multiple areas (see figure 1). They are described in more detail in the next sections.
-Figure 1 shows the combined view *Sequencer/Preview*. You can select this view with the View Type selector.
-This view can contain the following areas:
+The Video Sequencer is composed of multiple regions (see figure 1).
+They are described in more detail in the next sections.
+Figure 1 shows the combined *Sequencer & Preview* view type.
+This view can be broken up into the following regions:
 
 .. figure:: /images/editors_vse_overview.svg
    
-   Figure 1: Sequence Editor shown in the Sequencer & Preview view.
+   Figure 1: Sequence Editor shown in the Sequencer & Preview view type.
    
    Header (red), Preview (Yellow), Sequencer (blue), Properties (Grey),
    Panels & Tabs (Yellow), Toolbar (Purple)
@@ -49,7 +50,8 @@ Toolbar
 View Types
 ==========
 
-The Video Sequencer has three view types which can be changed with the View Type menu (see figure 1; top left).
+The Video Sequencer has three view types which can be
+changed with the View Type menu (see figure 1; top left).
 
 .. figure:: /images/editors_vse_view_types.svg
    
