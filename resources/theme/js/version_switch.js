@@ -1,4 +1,4 @@
-(function() {//switch: v1.1
+(function() {//switch: v1.2
 "use strict";
 
 var versionsFileUrl = "https://docs.blender.org/versions.json"
@@ -27,10 +27,10 @@ var all_langs = {
 	"zh-hant": "&#x4E2D;&#x6587;(&#x7E41;&#x9AD4;)",
 };
 
-var Drop=function(){
-function Drop(id){
+var Popover=function(){
+function Popover(id){
 	this.isOpen=false;
-	this.type = (id === "version-dropdown");
+	this.type = (id === "version-popover");
 	this.$btn = $('#' + id);
 	this.$dialog = this.$btn.next();
 	this.$list = this.$dialog.children("ul");
@@ -38,7 +38,7 @@ function Drop(id){
 	this.beforeInit();
 }
 
-Drop.prototype={
+Popover.prototype={
 beforeInit: function() {
 	var that=this;
 	this.$btn.on("click", function(e){that.init();e.preventDefault();e.stopPropagation();});
@@ -278,13 +278,13 @@ listEnter: function() {
 	return this.$list.children(":first-child").children(":first-child");
 }
 };
-return Drop}();
+return Popover}();
 
 $(document).ready(function() {
 	var lang = DOCUMENTATION_OPTIONS.LANGUAGE;
 	if(!lang || lang === "None") {lang = "en";}
-	if(all_langs.hasOwnProperty(lang)) {$("#lang-dropdown").html(all_langs[lang]);}
-	var lng_drop=new Drop("version-dropdown");
-	var vsn_drop=new Drop("lang-dropdown");
+	if(all_langs.hasOwnProperty(lang)) {$("#lang-popover").html(all_langs[lang]);}
+	var lng_popover=new Popover("version-popover");
+	var vsn_popover=new Popover("lang-popover");
 });
 })();

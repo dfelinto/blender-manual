@@ -67,9 +67,10 @@
 	background-color: #0003;
 	border-radius: 3px;
 	box-shadow: 0 0 6px #000C;
-	z-index: 399;
+	z-index: 999;
 	max-height: calc(100vh - 30px);
 	overflow-y: auto;
+	cursor: default;
 }
 .version-title {
 	padding: 5px;
@@ -84,6 +85,7 @@
 	text-align: center;
 	background-color: #000C;
 	border: solid 1px gray;
+	border-radius: 0px 0px 3px 3px;
 }
 .version-list a, .version-list span, .version-list li {
 	position: relative;
