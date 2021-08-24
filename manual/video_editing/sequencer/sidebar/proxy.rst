@@ -78,13 +78,13 @@ Timecode Index
    #. Preprocess your video with e.g. MEncoder to repair the file header and insert the correct keyframes.
    #. Use Proxy/Timecode option in Blender.
 
-   The following timecodes are supported:
-
-   - No TC in use -- do not use any timecode
-   - Record Run
-   - Free Run
-   - Free Run (rec date)
-   - Record Run No Gaps
+   :No TC in use: do not use any timecode.
+   :Record Run: Use images in the order they are recorded.
+   :Free Run: Use global timestamp written by recording device.
+   :Free Run (rec date):
+      Interpolate a global timestamp using the record date and time written by recording device.
+   :Record Run No Gaps:
+      Record run, but ignore timecode, changes in framerate or dropouts
 
    .. note::
 

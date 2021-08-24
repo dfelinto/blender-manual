@@ -306,7 +306,7 @@ Background Source
 
          .. seealso::
 
-            To build a proxy, the :ref:`Movie Clip Editor Proxy settings <clip-editor-proxy>` have to be used.
+            To build a proxy, the :ref:`Movie Clip Editor Proxy settings <bpy.types.MovieClipProxy>` have to be used.
             Otherwise the proxy settings here have no effect.
 
 Opacity
