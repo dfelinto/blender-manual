@@ -243,10 +243,6 @@ Foam Fade
    it is possible to approximate that behavior, by accumulating foam from previous frames,
    leaving it remaining on the surface.
 
-   .. vimeo:: 17517981
-      :width: 500
-      :height: 256
-
 
 Examples
 ========

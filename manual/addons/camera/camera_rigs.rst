@@ -59,12 +59,12 @@ With it, you can frame the action by moving two of the corners of the camera, in
 and rotating it. It produces smooth movements that would be hard to achieve without it,
 by using complex drivers to calculate the appropriate camera settings.
 
-The following video shows a comparison of an animated camera movement
-without (top) and with (bottom) the help of the rig.
-As you can see in the lower left corner, you can achieve a smoother camera movement, without the frame moving around.
+.. seealso::
 
-.. vimeo:: 280727941
-   :width: 800px
+   `This video <https://vimeo.com/280727941>`__ shows a comparison
+   of an animated camera movement without (top) and with (bottom) the help of the rig.
+   As you can see in the lower left corner, you can achieve a smoother camera movement,
+   without the frame moving around.
 
 Root Bone
    This is the parent of the entire rig.

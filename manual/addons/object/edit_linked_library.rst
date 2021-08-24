@@ -33,9 +33,6 @@ By default, this add-on automatically saves your current file before opening the
 returning to the original file. This can be disabled using the *Autosave* toggle
 in the Edit Linked Library panel of the Sidebar.
 
-.. vimeo:: 41440647
-
-
 .. reference::
 
    :Category:  Object

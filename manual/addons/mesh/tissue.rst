@@ -122,8 +122,7 @@ Preserve Borders
 Example
 =======
 
-.. vimeo:: 132720942
-
+See `this video <https://vimeo.com/132720942>`__ for an example of the Tissue add-on in action.
 
 .. reference::
 

@@ -10,9 +10,3 @@
 
 3D-Coat is a sculpting/painting program. With this 3D-Coat/Blender applink add-on you can exchange
 objects and textures between these two programs.
-
-
-Usage
-=====
-
-.. vimeo:: 30723894
