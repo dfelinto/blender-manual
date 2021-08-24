@@ -19,11 +19,11 @@ Interface
 Located in the :menuselection:`3D Viewport --> Sidebar --> Animate tab`.
 
 
-Description
-===========
+Tutorial
+========
 
-.. youtube:: xlJ71XChDuY
-
+See `this video <https://www.youtube.com/watch?v=xlJ71XChDuY>`
+for a tutorial on how to activate the add-on along with basic usage.
 
 .. reference::
 

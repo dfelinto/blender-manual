@@ -5,8 +5,9 @@ Turnaround Camera
 
 This add-on creates an animated camera turn around an object,
 suitable for product visualizations and character turnarounds.
-
-.. youtube:: sgjx0ycmTAo
+Executing the script creates an empty object linked to the camera at
+the selected object position or cursor position if chosen.
+The rotation can be defined by revolutions in X/Y/Z axis.
 
 
 Activation
@@ -22,13 +23,11 @@ Interface
 Located in the :menuselection:`3D Viewport --> Sidebar --> View tab`.
 
 
-Description
-===========
+Tutorial
+========
 
-This tool creates a camera rotation around one object.
-Executing the script creates an empty object linked to the camera at
-the selected object position or cursor position if chosen.
-The rotation can be defined by revolutions in X/Y/Z axis.
+See `this video <https://www.youtube.com/watch?v=sgjx0ycmTAo>`
+for a tutorial on how to activate the add-on along with basic usage.
 
 
 .. reference::

@@ -6,8 +6,6 @@ Assign Shape Keys
 This add-on lets you assign one or more Bézier curve(s) as shape keys to other curve.
 Useful for morphing curves and curve based text objects.
 
-.. youtube:: Ly64vezt0Go
-
 
 Activation
 ==========
@@ -55,6 +53,12 @@ the marker moves to this selected vertex, indicating the new starting vertex.
 You need to confirm the new positions by pressing :kbd:`Return`.
 Pressing :kbd:`Esc`, reverts the positions to the earlier order.
 
+
+Tutorial
+========
+
+See `this video <https://www.youtube.com/watch?v=Ly64vezt0Go>`
+for a tutorial on how to activate the add-on along with basic usage.
 
 .. reference::
 

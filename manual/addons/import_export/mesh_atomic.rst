@@ -315,10 +315,8 @@ Examples
           Solar cell structure to underline the properties of silicon nanocrystals deposited by pulsed spray system
           (Mickael Lozac'h et al. -- `Link to publication <https://doi.org/10.1002/ese3.174>`__).
 
-The following movie was created by Sébastien Coget (responsible researcher: Frank Palmino)
+`This video <https://www.youtube.com/watch?v=8WmCn5xGebs>`__
+was created by Sébastien Coget (responsible researcher: Frank Palmino)
 at the `Femto-ST institute <https://www.femto-st.fr/en>`__ in Besançon (France).
 The movie demonstrates that with Blender, professional movies can be done for research.
 It was rendered with Cycles.
-
-.. youtube:: 8WmCn5xGebs
-   :width: 600

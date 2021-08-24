@@ -582,15 +582,6 @@ This means that no matter how many features this exporter could support,
 POV-Ray will always have much more under the hood.
 
 
-Video Tutorial
---------------
-
-Here is a demonstration of the exporter by SMcA.
-This video is currently being worked on and may get replaced in the future.
-
-.. youtube:: PD4PmGLMyys
-
-
 Step by Step
 ------------
 
