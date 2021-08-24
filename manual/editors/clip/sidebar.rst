@@ -3,8 +3,11 @@
 Sidebar Region
 **************
 
-Proxy/Timecode Panel
-====================
+Footage
+=======
+
+Proxy/Timecode
+--------------
 
 Once you have chosen the Proxy/Timecode parameters,
 you need to use :menuselection:`Clip --> Proxy --> Rebuild Proxy and Timecode indices`
@@ -15,7 +18,7 @@ to generate the proxy clip and it will be available after Blender makes it.
 .. _clip-editor-proxy:
 
 Proxy
------
+^^^^^
 
 .. figure:: /images/editors_clip_sidebar_proxy-panel.png
    :align: right
@@ -49,7 +52,7 @@ Proxy Render Size
 
 
 Timecode
---------
+^^^^^^^^
 
 When you are working with footage directly copied from a camera without pre-processing it,
 there might be bunch of artifacts, mostly due to seeking a given frame in sequence.
@@ -75,6 +78,6 @@ The following timecodes are supported:
 
 
 Footage Settings
-================
+----------------
 
 See :doc:`/editors/image/image_settings`.
