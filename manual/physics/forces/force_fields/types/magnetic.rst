@@ -21,4 +21,4 @@ It simulates the force of magnetism on magnetized objects.
 Example
 =======
 
-.. vimeo:: 173818957
+.. peertube:: a3e8b059-f09b-4fca-9901-f6f73eba6fb1
