@@ -516,6 +516,22 @@ To Current Frame
    Fade from the start of sequences under the Playhead to the current frame.
 
 
+Snap
+====
+
+It is possible to enable snapping in the header of the VSE. The snapping behavior can be configured
+as follows:
+
+Snap to Current Frame
+   Snaps the tranformed selection to the playhead.
+Ignore Muted Strips
+   Muted Strips are not considered as snap targets.
+Ignore Sound Strips
+   Sound Strips are not considered as snap targets.
+Current Frame Snap to Strips
+   Snaps the playhead to all strips.
+
+
 Overlap Mode
 ============
 
