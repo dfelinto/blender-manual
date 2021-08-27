@@ -514,3 +514,19 @@ From Current Frame
    Fade from the current frame to the end of overlapping sequences.
 To Current Frame
    Fade from the start of sequences under the Playhead to the current frame.
+
+
+Overlap Mode
+============
+
+Overlap Mode defines the result of transforming a strip so that it overlaps another strip.
+
+Shuffle
+   The default behavior. The overlapping strip will be moved to the nearest free space so that
+   it does not overlap.
+Overwrite
+   The overlapped strip will be overwritten, trimmed or split by the overlapping strip.
+Expand
+   All strips on the right side of (each) transformed will be shifted forward to accommodate 
+   the overlapping strip.
+
