@@ -12,18 +12,19 @@
 	content: "";
 }
 #versionwrap {
-	display: block;
-	padding: 2px 0px 30px;
+	display: flex;
+	padding-top: 2px;
 	font-size: 90%;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 .version-btn {
-	position: relative;
 	display: inline-block;
 	background-color: #272525;
 	width: 140px;
 	text-align: center;
 	padding: 3px 10px;
-	margin: 0 5px;
+	margin: 0px 5px 4px;
 	vertical-align: middle;
 	color: #27AE60;
 	border: solid 1px #444444;
