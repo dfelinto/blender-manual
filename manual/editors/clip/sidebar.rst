@@ -47,7 +47,7 @@ Timecode
    #. Preprocess your video with e.g. MEncoder to repair the file header and insert the correct keyframes.
    #. Use Proxy/Timecode option in Blender.
 
-   :No TC in use: do not use any timecode.
+   :None: Do not use any timecode.
    :Record Run: Use images in the order they are recorded.
    :Free Run: Use global timestamp written by recording device.
    :Free Run (rec date):
