@@ -23,16 +23,29 @@ Level
    The number of subdivisions to apply to the input geometry.
 Use Creases
    Controls how smooth edges should be with :ref:`modifiers-generate-subsurf-creases`.
-Boundary Smooth
-   Controls if open boundaries and corners are smooth.
-Smooth UVs
-   Controls if whether smoothing is applied to UVs.
 
 
 Properties
 ==========
 
-This node has no properties.
+UV Smooth
+   Controls how subdivision smoothing is applied to UVs.
+
+   :None: UVs remain unchanged.
+   :Keep Corners: UV islands are smoothed, but their boundary remain unchanged.
+   :Keep Corners, Junctions:
+      UVs are smoothed, corners on discontinuous boundary and junctions of three or more regions are kept sharp.
+   :Keep Corners, Junctions, Concave:
+      UVs are smoothed, corners on discontinuous boundary,
+      junctions of three or more regions and darts and concave corners are kept sharp.
+   :Keep Boundaries: UVs are smoothed, boundaries are kept sharp.
+   :All: UVs and their boundaries are smoothed.
+
+Boundary Smooth
+   Controls how open boundaries (and corners) are smoothed.
+
+   :All: Smooth boundaries, including corners.
+   :Keep Corners: Smooth boundaries, but corners are kept sharp.
 
 
 Outputs
