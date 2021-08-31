@@ -516,21 +516,7 @@ To Current Frame
    Fade from the start of sequences under the Playhead to the current frame.
 
 
-Snap
-====
-
-It is possible to enable snapping in the header of the VSE. The snapping behavior can be configured
-as follows:
-
-Snap to Current Frame
-   Snaps the tranformed selection to the playhead.
-Ignore Muted Strips
-   Muted Strips are not considered as snap targets.
-Ignore Sound Strips
-   Sound Strips are not considered as snap targets.
-Current Frame Snap to Strips
-   Snaps the playhead to all strips.
-
+.. _bpy.types.SequencerToolSettings.overlap_mode:
 
 Overlap Mode
 ============
@@ -546,3 +532,35 @@ Expand
    All strips on the right side of (each) transformed will be shifted forward to accommodate 
    the overlapping strip.
 
+
+.. _bpy.types.ToolSettings.use_snap_sequencer:
+
+Snapping
+========
+
+It is possible to enable snapping in the header of the VSE.
+The snapping behavior can be configured as follows:
+
+.. _bpy.types.SequencerToolSettings.snap_to_current_frame:
+.. _bpy.types.SequencerToolSettings.snap_to_hold_offset:
+
+Snap to
+   Current Frame
+      Snaps the tranformed selection to the Playhead.
+   Hold Offset
+      Snaps the tranformed selection to the :ref:`Hold Offset <sequencer-duration-hard>`.
+
+.. _bpy.types.SequencerToolSettings.snap_ignore_muted:
+.. _bpy.types.SequencerToolSettings.snap_ignore_sound:
+
+Ignore
+   Muted Strips
+      Muted Strips are not considered as snap targets.
+   Sound Strips
+      Sound Strips are not considered as snap targets.
+
+.. _bpy.types.SequencerToolSettings.use_snap_current_frame_to_strips:
+
+Current Frame
+   Snap to Strips
+      Snaps the Playhead to all strips.
