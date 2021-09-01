@@ -147,7 +147,7 @@ buildList: function(v, l) {
 		} else {
 			pathSplit[2 + that.type] = ix;
 			var href = new URL(url);
-			var href.pathname = pathSplit.join('/');
+			href.pathname = pathSplit.join('/');
 			buf.push(' tabindex="-1" role="presentation"><a href ="' + href + '" tabindex="-1">' + title + '</a></li>');
 		}
 	});
