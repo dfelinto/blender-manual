@@ -52,13 +52,13 @@ init: function() {
 		this.$btn.addClass("wait");
 		this.loadVL(this);
 	} else {
-		this.afterload();
+		this.afterLoad();
 	}
 },
 loadVL: function(that) {
 	$.getJSON(versionsFileUrl, function(data) {
 		all_versions = data;
-		that.afterload();
+		that.afterLoad();
 		return true;
 	})
 	.fail( function() {
@@ -67,7 +67,7 @@ loadVL: function(that) {
 		return false;
 	});
 },
-afterload: function() {
+afterLoad: function() {
 	var release = DOCUMENTATION_OPTIONS.VERSION;
 	const m = release.match(/\d\.\d+/g);
 	if (m) {release = m[0];}
@@ -124,7 +124,13 @@ warnOld: function(release, all_versions) {
 	}
 },
 buildList: function(v, l) {
-	var neutral_url = this.getNeutral();
+	var url = new URL(window.location.href);
+	let pathSplit = ["", "manual", l, v];
+	if (url.pathname.startsWith("/manual/")) {
+		pathSplit.append(url.pathname.split('/').slice(4).join('/'));
+	} else {
+		pathSplit.append(url.pathname.substring(1));
+	}
 	if(this.type) {
 		var dyn = all_versions;
 		var cur = v;
@@ -139,21 +145,13 @@ buildList: function(v, l) {
 		if (ix === cur) {
 			buf.push(' class="selected" tabindex="-1" role="presentation"><span tabindex="-1" role="menuitem" aria-current="page">' + title + '</spanp></li>');
 		} else {
-			if(that.type) {
-				v = ix;
-			} else {
-				l = ix;
-			}
-			var new_url = neutral_url.replace(/\/manual\//, '/manual/' + l + '/' + v + '/');
-			buf.push(' tabindex="-1" role="presentation"><a href ="' + new_url + '" tabindex="-1">' + title + '</a></li>');
+			pathSplit[2 + that.type] = ix;
+			var href = new URL(url);
+			var href.pathname = pathSplit.join('/');
+			buf.push(' tabindex="-1" role="presentation"><a href ="' + href + '" tabindex="-1">' + title + '</a></li>');
 		}
 	});
 	return buf.join('');
-},
-getNeutral: function() {
-	var url = window.location.href;
-	var url_re = /\/manual\/([\w|\-|\.]*\/(?:dev|latest|\d\.\d[\w\d\.]*))\//;
-	return url.replace(url_re, "/manual/");
 },
 getNamed: function(v) {
 	$.each(all_versions, function(ix, title) {
