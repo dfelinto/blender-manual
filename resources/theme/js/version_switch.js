@@ -127,9 +127,9 @@ buildList: function(v, l) {
 	var url = new URL(window.location.href);
 	let pathSplit = ["", "manual", l, v];
 	if (url.pathname.startsWith("/manual/")) {
-		pathSplit.append(url.pathname.split('/').slice(4).join('/'));
+		pathSplit.push(url.pathname.split('/').slice(4).join('/'));
 	} else {
-		pathSplit.append(url.pathname.substring(1));
+		pathSplit.push(url.pathname.substring(1));
 	}
 	if(this.type) {
 		var dyn = all_versions;
