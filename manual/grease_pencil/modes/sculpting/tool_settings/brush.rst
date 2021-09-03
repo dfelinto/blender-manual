@@ -48,9 +48,6 @@ Sculpt Strokes
    Affect Thickness
       Toggles the brush effect on the thickness of the stroke points.
 
-   Affect Pressure
-      Toggles the brush effect on the pressure values of the stroke points.
-
    Affect UV
       Toggles the brush effect on the UV rotation of the stroke points.
 
