@@ -93,6 +93,8 @@ Annotation Layers
 When the annotation tool is enabled, the settings for managing multiple layers
 can be found in the :menuselection:`Sidebar --> View --> Annotations` panel.
 
+.. _bpy.types.GPencilLayer.annotation_opacity:
+
 Opacity
    Adjusts the opacity of existing and new strokes.
 
