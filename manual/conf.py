@@ -48,7 +48,6 @@ extensions = [
     'reference',
     'peertube',
     'youtube',
-    'vimeo',
     'sphinx.ext.mathjax',
     'sphinx.ext.intersphinx',
     'sphinx.ext.todo',
