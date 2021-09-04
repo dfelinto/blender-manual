@@ -132,6 +132,6 @@ the :doc:`Wave </modeling/modifiers/deform/wave>` modifier.
 
           Custom Mapping enabled.
 
-.. vimeo:: 30188814
+.. peertube:: 40378a39-cd90-404a-89bf-64ee9a39310a
 
 `The blend-file <https://wiki.blender.org/wiki/File:ManModifiersWeightVGroupEx.blend>`__, TEST_4 scene.

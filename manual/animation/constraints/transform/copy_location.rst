@@ -47,7 +47,7 @@ Influence
 Examples
 ========
 
-.. vimeo:: 170198049
+.. peertube:: 2f3dc43b-ef61-42ae-9d8e-7924a1758411
 
 
 Animation
@@ -63,7 +63,7 @@ Repeat these steps for more planets circling around its center star "sun".
 Following video is a small animation of a solar system created using (among a few others)
 the previously described technique:
 
-.. vimeo:: 15187945
+.. peertube:: ff427260-9631-40d9-bd39-65f21f95e9ad
 
 Note that, this 'solar' system is not realistic at all
 (the wrong scale, the earth is rotating in the wrong direction around the sun, ...).

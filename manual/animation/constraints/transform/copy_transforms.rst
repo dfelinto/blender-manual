@@ -74,4 +74,4 @@ This video shows the difference between the mix modes. The right input is mixed 
 
 A general demonstration of the constraint:
 
-.. vimeo:: 171108888
+.. peertube:: b18eea6f-c9a1-45a4-a83b-f2fffceedfd2

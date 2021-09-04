@@ -168,4 +168,4 @@ Notes
 Example
 =======
 
-.. vimeo:: 171554048
+.. peertube:: c138e7b5-34cb-49cb-af07-d5d5f27f1cfb

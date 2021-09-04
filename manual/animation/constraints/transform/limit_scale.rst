@@ -76,4 +76,4 @@ Influence
 Example
 =======
 
-.. vimeo:: 171275278
+.. peertube:: b73800d7-dda8-4888-b48b-f649e9b7ae3b

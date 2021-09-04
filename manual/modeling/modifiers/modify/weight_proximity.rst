@@ -104,6 +104,6 @@ Example
 This example shows the usage of distance from a target object to dynamically control
 a :doc:`Wave </modeling/modifiers/deform/wave>` modifier with a modified vertex group:
 
-.. vimeo:: 30187079
+.. peertube:: 579d7bd1-3f25-4441-ad7e-2d52667845c1
 
 `The blend-file <https://wiki.blender.org/wiki/File:ManModifiersWeightVGroupEx.blend>`__, TEST_1 scene.

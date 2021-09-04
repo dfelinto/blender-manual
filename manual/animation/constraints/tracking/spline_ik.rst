@@ -103,4 +103,4 @@ Use Original Scale
 Example
 =======
 
-.. vimeo:: 171282278
+.. peertube:: c17c1489-e4ae-440a-85e5-3ca5349d0cb9

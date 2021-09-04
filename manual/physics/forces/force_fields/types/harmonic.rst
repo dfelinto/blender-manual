@@ -37,4 +37,4 @@ So particles will move to the place of other particles, thus forming shapes.
 Example
 =======
 
-.. vimeo:: 173822500
+.. peertube:: 4309e609-f7cb-4872-8614-10f686486920

@@ -143,4 +143,4 @@ Mix
 Example
 =======
 
-.. vimeo:: 171275353
+.. peertube:: a7206092-8ae1-4290-93d3-85ba8440bfe1

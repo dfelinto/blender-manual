@@ -126,7 +126,7 @@ Shape
 Examples
 ========
 
-.. vimeo:: 182780872
+.. peertube:: 9d3c912f-041d-480a-a357-c906042aa0eb
 
 .. figure:: /images/physics_forces_force-fields_types_curve-guide_example.png
    :align: center

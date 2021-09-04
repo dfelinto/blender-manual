@@ -244,11 +244,10 @@ Foam Fade
    leaving it remaining on the surface.
 
 
-Examples
-========
+Example
+=======
 
-.. vimeo:: 18911131
-   :width: 500
-   :height: 256
+The following example was created and rendered in Blender,
+notice how the peaks of the waves are white; an effect generated from the foam data.
 
-Simulated and baked to image maps in Blender, rendered in 3Delight.
+.. peertube:: 509d3fe2-80f5-4a03-8496-95a51b8e6917

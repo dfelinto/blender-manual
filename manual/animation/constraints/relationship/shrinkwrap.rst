@@ -151,4 +151,4 @@ The alignment is performed via smallest rotation, like in
 Example
 =======
 
-.. vimeo:: 171554427
+.. peertube:: 41a7d6c3-5bd2-450e-a49e-67edf078fe3a

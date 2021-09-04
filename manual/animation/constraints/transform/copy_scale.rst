@@ -68,4 +68,4 @@ Influence
 Example
 =======
 
-.. vimeo:: 171077617
+.. peertube:: 2d3eab8a-cc80-4d90-a3f1-419e2aa063f3

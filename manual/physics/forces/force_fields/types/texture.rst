@@ -66,4 +66,4 @@ Examples
   If you use an object for the coordinates, you can use the object to push particles around.
 - An animated wood texture can be used to create a wave like motion.
 
-.. vimeo:: 182778301
+.. peertube:: 5e17a045-6f20-4fef-b63d-37ab9f79547b

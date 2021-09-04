@@ -27,4 +27,4 @@ which is probably something for the nuclear physicists among us.
 Example
 =======
 
-.. vimeo:: 182775330
+.. peertube:: 4c067375-ec7c-45dc-9d9d-e661634eedf8

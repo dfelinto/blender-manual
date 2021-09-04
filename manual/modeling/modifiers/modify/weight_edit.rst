@@ -125,6 +125,6 @@ to generate weights used by the :doc:`Displace </modeling/modifiers/deform/displ
 
    Vertices with a computed weight below 0.1 removed from the vertex group.
 
-.. vimeo:: 30188564
+.. peertube:: 5c73d2a3-d624-4c66-9adf-a9345690b843
 
 `The blend-file <https://wiki.blender.org/wiki/File:ManModifiersWeightVGroupEx.blend>`__, TEST_2 scene.
