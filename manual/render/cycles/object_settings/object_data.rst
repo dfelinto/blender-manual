@@ -16,6 +16,8 @@ Visibility
 
    There are several other :doc:`general visibility </scene_layout/object/properties/visibility>` properties.
 
+.. _bpy.types.Object.is_shadow_catcher:
+
 Mask
    Shadow Catcher
       Enables the object to only receive shadow rays. It is to be noted that,
@@ -26,13 +28,8 @@ Mask
 
          Example of the shadow catcher. Note how the material of the plane can still be viewed in the spheres.
 
-   Holdout
-      Render objects as a holdout or matte, creating a hole in the image with zero :term:`Alpha <Alpha Channel>`,
-      to fill out in :doc:`compositing </compositing/index>` with real footage or another render.
-
 
 .. _cycles-ray-visibility:
-.. _bpy.types.CyclesVisibilitySettings:
 
 Ray Visibility
 --------------
@@ -47,16 +44,34 @@ that achieves the same effect.
 Objects invisible to a certain ray will be skipped in ray traversal already,
 leading to fewer ray casts and shader executions.
 
+
+.. _bpy.types.Object.visible_camera:
+
 Camera
    Makes the object visible in camera rays.
+
+.. _bpy.types.Object.visible_diffuse:
+
 Diffuse
    Makes the object visible in diffuse rays.
+
+.. _bpy.types.Object.visible_glossy:
+
 Glossy
    Makes the object visible in glossy rays.
+
+.. _bpy.types.Object.visible_transmission:
+
 Transmission
    Makes the object visible in transmission rays.
+
+.. _bpy.types.Object.visible_volume_scatter:
+
 Volume Scatter
    Makes the object visible in transmission rays.
+
+.. _bpy.types.Object.visible_shadow:
+
 Shadow
    Enables the object to cast shadows.
 
@@ -67,8 +82,13 @@ Culling
 In order to activate these options the respectively camera cull options have to be enabled
 in the scene :ref:`simplify panel <render-cycles-settings-scene-simplify>`.
 
+.. _bpy.types.CyclesObjectSettings.use_camera_cull:
+
 Use Camera Cull
    Ignore and this way make objects invisible to rays outside of the camera frustum.
+
+.. _bpy.types.CyclesObjectSettings.use_distance_cull:
+
 Use Distance Cull
    Will cull any objects further from the camera than a given distance. When used in combination with
    camera frustum culling, this can be used to avoid culling nearby objects that are outside the camera frustum,

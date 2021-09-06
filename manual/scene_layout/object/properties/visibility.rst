@@ -33,3 +33,10 @@ Show In
 
    Cycles has additional :ref:`Visibility properties <render-cycles-object-settings-visibility>`
    and also Grease Pencil objects have additional :ref:`Visibility properties <grease_pencil-object-visibility>`.
+
+.. _bpy.types.Object.is_holdout:
+
+Mask
+   Holdout
+      Render objects as a holdout or matte, creating a hole in the image with zero :term:`Alpha <Alpha Channel>`,
+      to fill out in :doc:`compositing </compositing/index>` with real footage or another render.
