@@ -15,26 +15,29 @@ position the next strip under the original at a point where you want the motion 
 Options
 =======
 
-Stretch
-   Automatically calculates the *Speed Factor* based on the length of the input strip.
-   If you scale a strip to 1/2 the original size the sequence will play back at 2 times the speed.
+Speed Control
+   The method used to adjust the speed of the strip.
 
-Multiply
-   Multiplies the current speed of the sequence by a *Factor*.
-   Thus a value of 0.5 will make the sequence half as fast while 2 would make the sequence twice as fast.
+   :Stretch:
+      Automatically calculates the speed effect based on the length of the input strip.
+      If you scale a strip to 1/2 the original size the sequence will play back at 2 times the speed.
+   :Multiply:
+      Multiplies the current speed of the sequence by a *Multiply Factor*.
+      Thus a value of 0.5 will make the sequence half as fast while 2 would make the sequence twice as fast.
+      Negative values will reverse the input while also adjusting the speed,
+      so a value of negative two will play in reverse and twice as fast as normal.
 
-   .. note::
+      .. note::
 
-      You will have to manually re-adjust the length of the strip accordingly.
+         You will have to manually re-adjust the length of the strip accordingly.
 
-Frame Number
-   Specifies a frame to remap the current frame to,
-   for example, setting this value to 50 displays the 50th frame.
-   This can then be manually :doc:`keyframed </animation/keyframes/index>` to recreate the animation.
-
-Length
-   Maps the frame range on a percentage scale. For example, using this and a value of 50%
-   will select the frame halfway through the sequence.
+   :Frame Number:
+      Specifies a frame to remap the current frame to,
+      for example, setting the *Frame Number* value to 50 displays the 50th frame.
+      This can then be manually :doc:`keyframed </animation/keyframes/index>` to recreate the animation.
+   :Length:
+      Maps the frame range on a percentage scale. For example, using this and a value of 50%
+      will select the frame halfway through the sequence.
 
 Interpolation
    Crossfades between frames to reduce screen tearing when the speed is slower than the original frame rate.
