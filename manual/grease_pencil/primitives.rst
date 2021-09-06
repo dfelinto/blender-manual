@@ -10,7 +10,7 @@ Primitives
    :Menu:      :menuselection:`Add --> Grease Pencil`
    :Shortcut:  :kbd:`Shift-A`
 
-In Object Mode, the *Add Grease Pencil* menu provides three different Grease Pencil primitives:
+In Object Mode, the *Add Grease Pencil* menu provides three different Grease Pencil primitives with preset materials and 2D layers:
 
 .. figure:: /images/grease-pencil_primitives_all.png
 
@@ -34,11 +34,6 @@ Monkey
 
 It creates a 2D monkey head. The Monkey's name is "Suzanne" and is Blender's mascot.
 2D Suzanne is very useful as a standard test.
-
-.. note:: Materials and 2D Layers
-
-   Adding Stroke or Monkey primitives also adds a set of preset materials and 2D layers
-   to help start drawing with the new object.
 
 
 Scene Line Art

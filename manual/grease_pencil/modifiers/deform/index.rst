@@ -9,6 +9,7 @@
    armature.rst
    hook.rst
    lattice.rst
+   length.rst
    noise.rst
    offset.rst
    smooth.rst

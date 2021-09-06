@@ -98,8 +98,11 @@ Layer Specials
    Merge Down :kbd:`Shift-Ctrl-M`
       Merge the selected layer with the layer below, the new layer keeps the name of the lower layer.
 
-   Copy Layer to Object
-      Makes a copy of the layer and move it to the selected Grease Pencil object.
+   Copy Layer to Selected
+      Copy the active layer to the selected Grease Pencil object.
+
+   Copy All Layers to Selected
+      Copy all layers to the selected Grease Pencil object.
 
 Visibility (screen icon)
    Toggle whether the active layer is the only one that can be edited and is visible.
@@ -176,6 +179,8 @@ View Layer
    If empty, the layer will be included in all View Layers.
    This is useful to separate drawings parts for :doc:`compositing </compositing/introduction>`.
 
+Disable Masks in Render
+  If checked no masks on the layer are included in the view layer render.
 
 Display
 =======

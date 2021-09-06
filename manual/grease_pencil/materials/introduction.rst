@@ -106,19 +106,24 @@ Lock Unselected
 Lock Unused
    Locks and hides all unused materials.
 
-Remove Unused Slots
-   Remove all unused materials.
-
-Merge Similar
-   Combines similar materials in the list and replace the strokes that use the one of
-   the merged materials with the new one.
-
 Convert Materials to Vertex Color
    Only keeps necessary materials and convert all materials base color to vertex color.
 
 Extract Palette from Vertex Color
    Add all used vertex color to a new Color Palette. See :ref:`ui-color-palette`.
 
+Copy Material to Selected
+   Copy the active material to the selected Grease Pencil object.
+
+Copy All Materials to Selected
+   Copy all materials to the selected Grease Pencil object.
+
+Merge Similar
+   Combines similar materials in the list and replace the strokes that use the one of
+   the merged materials with the new one.
+
+Remove Unused Slots
+   Remove all unused materials.
 
 Lock & Visibility General Controls
 ----------------------------------

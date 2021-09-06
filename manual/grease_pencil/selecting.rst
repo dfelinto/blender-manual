@@ -66,6 +66,29 @@ Select Alternated
 Selects alternate points in the selected strokes.
 
 
+Select Random
+==============
+
+.. reference::
+
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Select --> Random`
+
+Randomly selects unselected points or strokes.
+
+Ratio
+  The likelihood of an unselected elements being selected. Note that this is not the percentage amount of elements that will be selected.
+
+Random seed
+   :term:`Seed` used by the pseudo-random number generator.
+
+Action
+  Selection or deselection of elements.
+
+Unselect Ends
+  Excludes the selection of stroke end points .
+
+
 Select Grouped
 ==============
 

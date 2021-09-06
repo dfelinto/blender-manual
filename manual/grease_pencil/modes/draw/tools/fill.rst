@@ -35,8 +35,8 @@ Precision
 
 .. _bpy.types.BrushGpencilSettings.fill_leak:
 
-Leak Size
-   Size in pixel to consider the leak as closed.
+Dilate
+  Size in pixel to expand the fill area.
 
 Thickness
    The thickness radius of the boundary stroke in pixels.
@@ -80,6 +80,9 @@ Stroke Extension
       Toggle show extended lines helper.
 
 .. _bpy.types.BrushGpencilSettings.fill_simplify_level:
+
+Leak Size
+   Size in pixel to consider the leak as closed.
 
 Simplify
    Number of simplify steps to apply to the boundary line.

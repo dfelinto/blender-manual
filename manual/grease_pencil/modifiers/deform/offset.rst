@@ -26,6 +26,24 @@ Rotation X, Y, Z
 Scale X, Y, Z
    Sets strokes scale.
 
+Randomize
+---------
+
+Offset X, Y, Z
+   Add random offset values to the strokes.
+
+Rotation X, Y, Z
+   Add random rotation values to the strokes.
+
+Scale X, Y, Z
+   Add random scale values to the strokes.
+
+Uniform Scale
+   Use the same random *Seed* for each scale axis in the strokes for a uniform scale.
+
+Seed
+   :term:`Seed` used by the pseudo-random number generator.
+
 
 Influence
 ---------
