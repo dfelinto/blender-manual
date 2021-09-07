@@ -42,6 +42,10 @@ Layer
 Material
    The Grease Pencil :ref:`bpy.types.MaterialGPencilStyle` to generate strokes with.
 
+
+Geometry Processing
+-------------------
+
 Remove Doubles
    Perform a "merge by distance" operation when loading geometry into Line Art.
    The threshold of this operation is internally set to a value that is optimal for Line Art algorithm precision.
@@ -114,14 +118,17 @@ Level
    Desired occlusion level to be selected as line art result. A value of 0 means visible lines (no occlusion).
    A value of 1 means selecting lines that have been occluded by exactly 1 layer of faces.
 
+
 Transparency
-   If enabled, Line Art will only select lines that are occluded by certain faces whose material
-   have specific occlusion masks set.
+^^^^^^^^^^^^
+
+If enabled, Line Art will only select lines that are occluded by certain faces whose material
+have specific occlusion masks set.
 
 Masks
    To select edges that have been occluded by selected masks.
 
-Match All Masks
+Exact Match
    If enabled, only lines that are occluded with the exact transparency bit combination will be selected.
    Otherwise, lines that have been occluded by any one of specified transparency masks will be selected.
 
@@ -139,19 +146,20 @@ Chaining
 
    Chaining subpanel.
 
-Chain Intersection with Contour
-   Allows intersection lines to be chained together with contour lines.
+Chain
+   Intersection with Contour
+      Allows intersection lines to be chained together with contour lines.
 
-.. note::
+      .. note::
 
-   Enabling this option will lead to ambiguity in intersection edge types.
-   Intersection lines that have not been able to chain with any nearby contour lines will remain
-   as intersection lines.
+         Enabling this option will lead to ambiguity in intersection edge types.
+         Intersection lines that have not been able to chain with any nearby contour lines will remain
+         as intersection lines.
 
-Chain All Lines
-   Enabling this option will cause all lines to have the type of contour and to be chained together.
+   All Lines
+      Enabling this option will cause all lines to have the type of contour and to be chained together.
 
-Threshold
+Image Threshold
    Allow the end point of short segments to be chained together if the 2D image space distance
    between them are within the specified threshold.
 
