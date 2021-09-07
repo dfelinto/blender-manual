@@ -6,7 +6,8 @@
 .. toctree::
    :maxdepth: 2
 
-   dimensions.rst
+   format.rst
+   frame_range.rst
    stereoscopy/index.rst
    output.rst
    metadata.rst

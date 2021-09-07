@@ -65,26 +65,25 @@ Replace Selection
    Replaces the currently selected strips with the new strip.
 
 Fit Method
-   Determines how images with an aspect ratio different than
-   the :doc:`Scene's </render/output/properties/dimensions>` are scaled to
-   fit inside the render area.
+   Determines how images with an aspect ratio different than the scene's
+   :ref:`Resolution <bpy.types.RenderSettings.resolution_x>` are scaled to fit inside the render area.
 
    :Scale to Fit:
       Adjusts the strips :ref:`Scale Transforms <bpy.types.SequenceTransform.scale>` so the visual contents of
-      the strip to fit exactly within the project's :doc:`/render/output/properties/dimensions` while maintaining
-      the original aspect ratio.
+      the strip to fit exactly within the project's :ref:`Resolution <bpy.types.RenderSettings.resolution_x>`
+      while maintaining the original aspect ratio.
 
       This may mean that the transparent areas may be added
       along the content's border to fit the content in the rendered area.
    :Scale to Fill:
       Adjusts the strips :ref:`Scale Transforms <bpy.types.SequenceTransform.scale>`
-      so the visual contents of the strip to span the project's :doc:`/render/output/properties/dimensions`
-      while maintaining the original aspect ratio.
+      so the visual contents of the strip to span the project's
+      :ref:`Resolution <bpy.types.RenderSettings.resolution_x>` while maintaining the original aspect ratio.
 
       This may mean that portions of the original image no longer fit the content inside the rendered area.
    :Stretch to Fill:
       Adjusts the strips :ref:`Scale Transforms <bpy.types.SequenceTransform.scale>` so the visual contents of
-      the strip to fill the project's :doc:`/render/output/properties/dimensions`. Note, unlike
+      the strip to fill the project's :ref:`Resolution <bpy.types.RenderSettings.resolution_x>`. Note, unlike
       the other two methods described above, *Stretch to Fill* does not maintaining the original aspect ratio.
 
       This may mean that the original image becomes distorted to fit the content inside the rendered area.

@@ -1,12 +1,11 @@
-.. _render-tab-dimensions:
 
-**********
-Dimensions
-**********
+******
+Format
+******
 
-.. figure:: /images/render_output_properties_dimensions_panel.png
+.. figure:: /images/render_output_properties_format_panel.png
 
-   Dimensions panel.
+   Format panel.
 
 Several render presets exist with common resolution and frame rates
 for TVs and screens can be selected in the panel header.
@@ -19,9 +18,9 @@ Resolution X, Y
 
    .. _bpy.types.RenderSettings.resolution_percentage:
 
-   Percentage
-      Slider to reduce or increase the size of the rendered image relative to the X/Y values above.
-      This is useful for small test renders that have the same proportions as the final image.
+Percentage
+   Slider to reduce or increase the size of the rendered image relative to the X/Y values above.
+   This is useful for small test renders that have the same proportions as the final image.
 
 .. _bpy.types.RenderSettings.pixel_aspect_x:
 .. _bpy.types.RenderSettings.pixel_aspect_y:
@@ -51,17 +50,6 @@ Crop to Render Region
    Crops the rendered image to the size of the render region,
    instead of rendering a transparent background around it.
 
-.. _bpy.types.Scene.frame_start:
-.. _bpy.types.Scene.frame_end:
-
-Frame Start, End
-   Set the *Start* and *End* frames for :doc:`Rendering Animations </render/output/animation>`.
-
-.. _bpy.types.Scene.frame_step:
-
-Step
-   Controls the number of frames to advance by for each frame in the timeline.
-
 .. _bpy.types.RenderSettings.fps:
 .. _bpy.types.RenderSettings.fps_base:
 
@@ -77,19 +65,3 @@ Frame Rate
       To get such precise frame rates it is possible to represent the frame rate as a fraction.
       The *Base* value is used as the fraction's denominator with the FPS being the numerator:
       :math:`\frac{FPS}{Base}`.
-
-
-Time Remapping
-==============
-
-Use to remap the length of an animation.
-
-.. _bpy.types.RenderSettings.frame_map_old:
-
-Old
-   The length in frames of the original animation.
-
-.. _bpy.types.RenderSettings.frame_map_new:
-
-New
-   The length in frames the new animation will last.

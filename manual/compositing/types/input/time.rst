@@ -43,8 +43,7 @@ Outputs
 =======
 
 Factor
-   A speed of time factor (from 0.0 to 1.0) relative to the frame rate
-   defined in the :ref:`Render Dimensions Panel <render-tab-dimensions>`.
+   A speed of time factor (from 0.0 to 1.0) relative to the scene's :ref:`Frame Rate <bpy.types.RenderSettings.fps>`.
    The factor changes according to the defined curve.
 
 .. hint:: Output values
