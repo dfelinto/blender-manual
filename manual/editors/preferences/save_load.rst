@@ -91,21 +91,21 @@ Excluded Paths
 File Browser
 ============
 
-Filter File Extensions
-   By activating this, the file region in the File Browser will only show appropriate files
-   (i.e. blend-files when loading a complete Blender setting).
-   The selection of file types may be changed in the file region.
+Defaults
+   Filter Files
+      By activating this, the file region in the File Browser will only show appropriate files
+      (i.e. blend-files when loading a complete Blender setting).
+      The selection of file types may be changed in the file region.
 
-Hide
-   Dot File & Data-blocks
+   Show Hidden Files/Data-locks
       Hide files which start with ``.`` on File Browsers and ID selector.
 
       .. hint::
 
          Data-blocks beginning with a ``.`` can be selected by typing in the ``.`` characters.
          When explicitly written, the setting to hide these data-blocks is ignored.
-   Recent Locations
+   Show Recent Locations
       Hide the *Recent* panel of the :doc:`File Browser </editors/file_browser>`
       which displays recently accessed folders.
-   System Bookmarks
+   Show System Locations
       Hide System Bookmarks in the *File Browser*.
