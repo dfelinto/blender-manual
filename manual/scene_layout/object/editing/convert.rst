@@ -41,8 +41,8 @@ Grease Pencil
    :Menu:      :menuselection:`Object --> Convert --> Grease Pencil`
 
 Converts the selected curve, mesh or text object to a Grease Pencil object
-with strokes matching the curve/mesh/text; basic materials are also added.
-When multiple curves/meshes/text are selected, they are all converted into
+with strokes matching the curve, mesh, or text; basic materials are also added.
+When multiple curves, meshes, or texts are selected, they are all converted into
 the same Grease Pencil object.
 
 

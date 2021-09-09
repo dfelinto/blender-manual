@@ -20,8 +20,8 @@ for the big images and may take some time. After computing them, though,
 editing functions like scrubbing and scrolling is much faster but gives a low-res result.
 Make sure to disable proxies before final rendering.
 
-Once you have chosen the Proxy/Timecode parameters,
-you need to use :menuselection:`Clip --> Proxy --> Rebuild Proxy and Timecode indices`
+Once you have chosen the Proxy/Timecode options,
+you need to use :menuselection:`Clip --> Proxy --> Rebuild Proxy and Timecode Indices`
 to generate the proxy clip and it will be available after Blender makes it.
 
 Build Original
@@ -50,14 +50,14 @@ Timecode
    :None: Do not use any timecode.
    :Record Run: Use images in the order they are recorded.
    :Free Run: Use global timestamp written by recording device.
-   :Free Run (rec date):
+   :Free Run (Rec Date):
       Interpolate a global timestamp using the record date and time written by recording device.
    :Record Run No Gaps:
-      Record run, but ignore timecode, changes in framerate or dropouts
+      Record run, but ignore timecode, changes in frame rate or dropouts.
 
    .. note::
 
-      Record Run is the timecode which usually is best to use, but if the clip's file is totally damaged,
+      Record Run is the timecode which usually is best to use, but if the source file is totally damaged,
       *Record Run No Gaps* will be the only chance of getting acceptable result.
 
 Proxy Render Size

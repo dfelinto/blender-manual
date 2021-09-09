@@ -36,7 +36,7 @@ Precision
 .. _bpy.types.BrushGpencilSettings.fill_leak:
 
 Dilate
-  Size in pixel to expand the fill area.
+   Size in pixel to expand the fill area.
 
 Thickness
    The thickness radius of the boundary stroke in pixels.

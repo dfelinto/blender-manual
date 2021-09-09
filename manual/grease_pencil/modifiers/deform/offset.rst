@@ -26,6 +26,7 @@ Rotation X, Y, Z
 Scale X, Y, Z
    Sets strokes scale.
 
+
 Randomize
 ---------
 

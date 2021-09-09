@@ -26,7 +26,7 @@ Set Selected Strip Proxies
 
 Rebuild Proxy and Timecode Indices
    Generates Proxies and Timecodes for all selected strips,
-   same as doing :menuselection:`Strip --> Rebuild Proxy and Timecode indices`.
+   same as doing :menuselection:`Strip --> Rebuild Proxy and Timecode Indices`.
 
 
 .. _bpy.types.SequenceProxy:
@@ -41,7 +41,7 @@ Strip Proxy & Timecode
 .. figure:: /images/video-editing_sequencer_sidebar_proxy_panel.png
    :align: right
 
-Once you have chosen the :term:`Proxy`/:term:`Timecode` parameters,
+Once you have chosen the :term:`Proxy`/:term:`Timecode` options,
 you need to select all strips for which you want proxies to be built.
 Then use :menuselection:`Strip --> Rebuild Proxy and Timecode indices`, or button in `Proxy Settings`_ panel.
 Once all proxies are built, they will be ready to use.
@@ -81,12 +81,12 @@ Timecode Index
    :None: Do not use any timecode.
    :Record Run: Use images in the order they are recorded.
    :Free Run: Use global timestamp written by recording device.
-   :Free Run (rec date):
+   :Free Run (Rec Date):
       Interpolate a global timestamp using the record date and time written by recording device.
    :Record Run No Gaps:
-      Record run, but ignore timecode, changes in framerate or dropouts
+      Record run, but ignore timecode, changes in frame rate or dropouts.
 
    .. note::
 
-      Record Run is the timecode which usually is best to use, but if the clip's file is totally damaged,
+      Record Run is the timecode which usually is best to use, but if the source file is totally damaged,
       *Record Run No Gaps* will be the only chance of getting acceptable result.

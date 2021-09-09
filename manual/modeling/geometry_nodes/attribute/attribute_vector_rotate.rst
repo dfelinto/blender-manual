@@ -51,7 +51,7 @@ Mode
    :Axis Angle:
       Rotates the vector around any arbitrary axis defined by the *Axis* input vector attribute.
       The amount of rotation is defined by the *Angle* input attribute.
-   :Euler: 
+   :Euler:
       Rotates the vector about the *Center* input values with the *Rotation*
       input vector values to control the amount of rotation on each axis.
 

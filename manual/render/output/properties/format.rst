@@ -16,10 +16,10 @@ for TVs and screens can be selected in the panel header.
 Resolution X, Y
    The number of pixels horizontally and vertically in the image.
 
-   .. _bpy.types.RenderSettings.resolution_percentage:
+.. _bpy.types.RenderSettings.resolution_percentage:
 
 Percentage
-   Slider to reduce or increase the size of the rendered image relative to the X/Y values above.
+   Slider to reduce or increase the size of the rendered image relative to the *Resolution* values.
    This is useful for small test renders that have the same proportions as the final image.
 
 .. _bpy.types.RenderSettings.pixel_aspect_x:
@@ -61,7 +61,7 @@ Frame Rate
    FPS
       The frame rate, expressed in frames per second.
    Base
-      Some standards require more precise frame rate, for example NTSC.
-      To get such precise frame rates it is possible to represent the frame rate as a fraction.
-      The *Base* value is used as the fraction's denominator with the FPS being the numerator:
+      Some standards require a more precise frame rate, for example NTSC.
+      These can be represent as a fraction where the *Base* value
+      is used as the fraction's denominator and the FPS being the numerator:
       :math:`\frac{FPS}{Base}`.

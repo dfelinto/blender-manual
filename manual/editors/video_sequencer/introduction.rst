@@ -24,11 +24,11 @@ Figure 1 shows the combined *Sequencer & Preview* view type.
 This view can be broken up into the following regions:
 
 .. figure:: /images/editors_vse_overview.svg
-   
+
    Figure 1: Sequence Editor shown in the Sequencer & Preview view type.
-   
-   Header (red), Preview (Yellow), Sequencer (blue), Properties (Grey),
-   Panels & Tabs (Yellow), Toolbar (Purple)
+
+   Header (red), Preview (yellow), Sequencer (blue), Properties (gray),
+   Panels & Tabs (yellow), Toolbar (purple).
 
 Header
    This region displays menus and buttons for interacting with the editor.
@@ -54,7 +54,7 @@ The Video Sequencer has three view types which can be
 changed with the View Type menu (see figure 1; top left).
 
 .. figure:: /images/editors_vse_view_types.svg
-   
+
    Figure 2: Three view types for the Video Sequence Editor
 
 Sequencer

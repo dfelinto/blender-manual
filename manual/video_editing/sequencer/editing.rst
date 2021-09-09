@@ -527,12 +527,11 @@ Overlap Mode
 Overlap Mode defines the result of transforming a strip so that it overlaps another strip.
 
 Shuffle
-   The default behavior. The overlapping strip will be moved to the nearest free space so that
-   it does not overlap.
+   The overlapping strip will be moved to the nearest free space so that it does not overlap.
 Overwrite
    The overlapped strip will be overwritten, trimmed or split by the overlapping strip.
 Expand
-   All strips on the right side of (each) transformed will be shifted forward to accommodate 
+   All strips on the right side of (each) transformed will be shifted forward to accommodate
    the overlapping strip.
 
 
@@ -549,9 +548,9 @@ The snapping behavior can be configured as follows:
 
 Snap to
    Current Frame
-      Snaps the tranformed selection to the Playhead.
+      Snaps the transformed selection to the Playhead.
    Hold Offset
-      Snaps the tranformed selection to the :ref:`Hold Offset <sequencer-duration-hard>`.
+      Snaps the transformed selection to the :ref:`Hold Offset <sequencer-duration-hard>`.
 
 .. _bpy.types.SequencerToolSettings.snap_ignore_muted:
 .. _bpy.types.SequencerToolSettings.snap_ignore_sound:

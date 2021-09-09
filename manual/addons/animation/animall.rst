@@ -22,8 +22,8 @@ Located in the :menuselection:`3D Viewport --> Sidebar --> Animate tab`.
 Tutorial
 ========
 
-See `this video <https://www.youtube.com/watch?v=xlJ71XChDuY>`
-for a tutorial on how to activate the add-on along with basic usage.
+See this `tutorial video <https://www.youtube.com/watch?v=xlJ71XChDuY>`__
+on how to activate the add-on along with basic usage.
 
 .. reference::
 

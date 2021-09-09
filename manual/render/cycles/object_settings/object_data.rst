@@ -44,7 +44,6 @@ that achieves the same effect.
 Objects invisible to a certain ray will be skipped in ray traversal already,
 leading to fewer ray casts and shader executions.
 
-
 .. _bpy.types.Object.visible_camera:
 
 Camera

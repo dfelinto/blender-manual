@@ -10,7 +10,7 @@ Curve Spiral
 
    Spiral Node.
 
-The *Spiral* node generates a poly spline in a spiral shape.  
+The *Spiral* node generates a poly spline in a spiral shape.
 It can be used to create springs or other similar objects.
 By default the spiral twists in a clockwise fashion.
 
@@ -22,7 +22,7 @@ Resolution
    Number of edges for each full rotation.
 
 Rotations
-   Number of times the spiral makes a full rotation. 
+   Number of times the spiral makes a full rotation.
 
 Start Radius, End Radius
    Radius of the start point and end point of the spiral.

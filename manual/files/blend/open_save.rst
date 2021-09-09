@@ -156,31 +156,28 @@ Options
 
 Compress
    Reduces the file size of the resulting blend-file but takes longer to save and load.
-   This option is useful for distributing files online and saving drive space for large projects,
-   however it does have some has drawbacks.
-
-   This option may slow down Blender when you quit,
-   or under normal operation when Blender is saving your backup files.
+   This option is useful for distributing files online and saving drive space for large projects.
+   But it can cause slowdowns when quitting Blender,
+   or under normal operation when auto-saving backup files.
    See :ref:`files-linked_libraries-known_limitations-compression` for more information.
 
-   .. note::
+   .. hint::
 
-      This is accomplished using the Zstandard compression algorthim,
-      this algorthim is not unique to Blender so files can be compressed/decrompressed
-      with external tools as long as that tool supports Zstandard compression.
+      The used compression algorithm is Zstandard.
+      It is not unique to Blender so files can be compressed/decrompressed with external tools.
 
    .. versionchanged:: 3.0
 
-      Prior to this version, the compression algorthim used was Gzip.
-      This means to open newer Blend-files in versions prior to 3.0,
-      blend-files must first be resaved without compression in a newer version of Blender
+      Prior to this version, the compression algorithm used was Gzip.
+      This means to open newer blend-files in versions prior to 3.0,
+      blend-files must first be saved without compression in a newer version of Blender
       or decompressed using an external Gzip tool.
 
 Remap Relative
    This option remaps :ref:`files-blend-relative_paths`
    (such as linked libraries and images) when saving a file in a new location.
 Save Copy
-   This option saves a copy of the actual working state but does not make the saved file active.
+   Saves a copy of the actual working state but does not make the saved file active.
 
 
 Save Copy

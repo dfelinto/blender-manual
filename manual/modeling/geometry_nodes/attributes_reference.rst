@@ -99,7 +99,7 @@ Built-in attributes always exist, and cannot be removed. Their data type and dom
    * - ``normal``
      - *Vector*
      - *Face*
-     - Normal of a face. This is a bit different from the other built-in attributes in that
+     - Normal of a face. This is different from the other built-in attributes in that
        it cannot be modified. It is automatically derived from the mesh. If this attribute is
        accessed on non-face domains, it might not be normalized, because it is interpolated
        from normals of neighboring faces.

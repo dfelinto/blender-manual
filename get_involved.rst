@@ -46,7 +46,7 @@ How to Get Started
 Communication
 =============
 
-- :ref:`blender-chat` -- Chat with documenters & developers.
+- :ref:`blender-chat` -- Chat with documenters and developers.
 - `Mailing list <http://wiki.blender.org/index.php/Dev:Doc/Contact#Mailing_Lists>`__ -- Subscribe to
   the `bf-docboard <http://projects.blender.org/mailman/listinfo/bf-docboard>`__
   to communicate with others about the documentation project

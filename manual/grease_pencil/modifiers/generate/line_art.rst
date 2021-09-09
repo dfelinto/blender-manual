@@ -116,7 +116,7 @@ Range
 
 Level
    Desired occlusion level to be selected as line art result. A value of 0 means visible lines (no occlusion).
-   A value of 1 means selecting lines that have been occluded by exactly 1 layer of faces.
+   A value of 1 means selecting lines that have been occluded by exactly one layer of faces.
 
 
 Transparency

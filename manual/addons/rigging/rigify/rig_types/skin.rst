@@ -97,7 +97,7 @@ Sharpen Corner
 Orientation
    Specifies that the controls should be oriented the same as the selected bone, rather than being
    aligned to the chain.
-   
+
    Copy To Selected
       Copy to selected rigs that have the same option. Thus allowing to indiscriminately selecting bones
       without assigning unnecessary values.

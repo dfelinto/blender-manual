@@ -319,6 +319,7 @@ Scale Thickness
 
 When enabled, scales the stroke thickness during scale transformations.
 
+
 Normalize Thickness
 ===================
 
@@ -330,13 +331,14 @@ Normalize Thickness
 Makes the thickness equal for the entire stroke.
 
 Mode
-  Stroke Property to normalize.
+   Stroke Property to normalize.
 
 Value
-  Thickness value to use on all points of the stroke.
+   Thickness value to use on all points of the stroke.
+
 
 Normalize Opacity
-==================
+=================
 
 .. reference::
 
@@ -346,10 +348,10 @@ Normalize Opacity
 Makes the opacity equal for the entire stroke.
 
 Mode
-  Stroke Property to normalize.
+   Stroke Property to normalize.
 
 Value
-  Opacity value to use on all points of the stroke.
+   Opacity value to use on all points of the stroke.
 
 
 Reset Fill Transform

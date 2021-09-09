@@ -33,7 +33,7 @@ Useful for organic shapes.
 
 .. note::
 
-   The Unwrap operator is the only UV unwrapping operator that takes into account seams. 
+   The Unwrap operator is the only UV unwrapping operator that takes into account seams.
 
 Begin by selecting all faces you want to unwrap.
 In the 3D Viewport, select :menuselection:`UV --> Unwrap` or :kbd:`U` and select Unwrap.

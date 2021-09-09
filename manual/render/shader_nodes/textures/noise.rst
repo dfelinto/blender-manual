@@ -75,11 +75,11 @@ Examples
 Notes
 =====
 
-While the noise is random in nature, it follows a certain pattern that might not
-evaluate to random values in some configurations. For instance, consider the
-following configuration where a grid of objects have a material that evaluates
-a noise texture at their locations. One might expect the objects to have random
-values since they have different locations, but this is not the case.
+While the noise is random in nature, it follows a certain pattern that might not evaluate to
+random values in some configurations. For instance, consider the following configuration
+where a grid of objects have a material that evaluates a noise texture at their locations.
+One might expect the objects to have random values since they have different locations,
+but this is not the case.
 
 .. figure:: /images/render_shader-nodes_textures_noise_issue-constant-value.png
 
@@ -92,25 +92,22 @@ look at the following plot of a 1D noise texture.
 
    A plot of a 1D noise with zero details and zero distortion.
 
-The horizontal line denotes a value of 0.5 and the vertical lines denotes whole
-numbers assuming a noise scale of 1. As can be seen, the noise always intersects
-the 0.5 line at whole numbers. Since the aforementioned objects were distributed
-on a grid and have whole number locations, they all evaluate to 0.5. Which
-explains the issue at hand.
+The horizontal line denotes a value of 0.5 and the vertical lines denotes whole numbers assuming
+a noise scale of 1. As can be seen, the noise always intersects the 0.5 line at whole numbers.
+Since the aforementioned objects were distributed on a grid and have whole number locations,
+they all evaluate to 0.5. Which explains the issue at hand.
 
-Generally, any discrete evaluation of noise at integer multiples of the
-reciprocal of the noise scale will always evaluate to 0.5. It also follows that
-evaluations closer to that will have values close to 0.5. In such cases, it is
-almost always preferred to use the White Noise Texture.
+Generally, any discrete evaluation of noise at integer multiples of the reciprocal of
+the noise scale will always evaluate to 0.5. It also follows that evaluations closer to
+that will have values close to 0.5. In such cases, it is almost always preferred to use
+the White Noise Texture.
 
 Regardless, one can mitigate this issue in a number of ways:
 
-- Adjust the scale of the noise to avoid aligning the noise with the evaluation
-  domain.
-- Add an arbitrary offset to the texture coordinates to break the alignment with
-  the evaluation domain.
-- Evaluate the noise at a higher dimension and adjust the extra dimension until
-  a satisfactory result is achieved.
+- Adjust the scale of the noise to avoid aligning the noise with the evaluation domain.
+- Add an arbitrary offset to the texture coordinates to break the alignment with the evaluation domain.
+- Evaluate the noise at a higher dimension and adjust the extra dimension
+  until a satisfactory result is achieved.
 
 .. list-table::
 
@@ -130,19 +127,19 @@ Regardless, one can mitigate this issue in a number of ways:
 
           Mitigating the issue by evaluating at a higher dimension.
 
-Similarly, in other configurations, one might experience some banding patterns
-in the noise, where there are bands of high contrast areas followed by banding
-of low contrast areas. For instance, planer surfaces that are slightly tilted
-along one of the axis will have such a banding pattern.
+Similarly, in other configurations, one might experience some banding patterns in the noise,
+where there are bands of high contrast areas followed by banding of low contrast areas.
+For instance, planar surfaces that are slightly tilted along one of the axis
+will have such a banding pattern.
 
 .. figure:: /images/render_shader-nodes_textures_noise_issue-banding.png
 
    An example configuration where the noise have a banding pattern.
 
 This happens because the slight tilt along one of the axis causes values along
-the perpendicular axis to change very slowly making the grid structure of the
-noise more apparent. The easiest way to mitigate this issue to rotate the
-coordinates by an arbitrary amount.
+the perpendicular axis to change very slowly making the grid structure of
+the noise more apparent. The easiest way to mitigate this issue to rotate
+the coordinates by an arbitrary amount.
 
 .. figure:: /images/render_shader-nodes_textures_noise_solution-banding.png
 

@@ -628,8 +628,8 @@ Show BlenderKit Search in 3D Header
 Tutorials
 =========
 
-See `this video <https://www.youtube.com/watch?v=pSay3yaBWV0>`
-for a tutorial on how to activate the add-on along with basic usage.
+See this `tutorial video <https://www.youtube.com/watch?v=pSay3yaBWV0>`__
+on how to activate the add-on along with basic usage.
 
 .. reference::
 

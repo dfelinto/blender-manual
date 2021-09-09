@@ -180,7 +180,8 @@ View Layer
    This is useful to separate drawings parts for :doc:`compositing </compositing/introduction>`.
 
 Disable Masks in Render
-  If checked no masks on the layer are included in the view layer render.
+   If enabled no masks on the layer are included in the view layer render.
+
 
 Display
 =======

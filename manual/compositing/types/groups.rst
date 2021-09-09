@@ -30,14 +30,15 @@ Group Input
 ===========
 
 Adds a group input node, this serves as a convenient way to re-add the input node in case it is accidentally deleted.
-Note, groups can only have one input/output, if more than one is added they are essentially duplicates of each other.
+Note, groups can only have one input, if more than one is added they are duplicates of each other.
 
 
 Group Output
 ============
 
-Adds a group output node, this serves as a convenient way to re-add the output node in case it is accidentally deleted.
-Note, groups can only have one input/output, if more than one is added they are essentially duplicates of each other.
+Adds a group output node, this serves as a convenient way to re-add the output node
+in case it is accidentally deleted. Note, groups can only have one output,
+if more than one is added they are duplicates of each other.
 
 
 Node Groups

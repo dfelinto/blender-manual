@@ -10,7 +10,8 @@ Primitives
    :Menu:      :menuselection:`Add --> Grease Pencil`
    :Shortcut:  :kbd:`Shift-A`
 
-In Object Mode, the *Add Grease Pencil* menu provides three different Grease Pencil primitives with preset materials and 2D layers:
+In Object Mode, the *Add* menu provides three different Grease Pencil primitives
+with preset materials and 2D layers:
 
 .. figure:: /images/grease-pencil_primitives_all.png
 

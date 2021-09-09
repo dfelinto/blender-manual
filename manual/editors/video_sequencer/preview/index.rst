@@ -19,7 +19,7 @@ The gizmos however are unique for the Preview.
 
 .. figure:: /images/editors_vse_type.svg
    :alt: Preview window
- 
+
    Figure 1: Preview window of VSE
 
 Sequencer preview is used to display result of rendering Sequencer timeline.

@@ -11,7 +11,7 @@ Optional, there can be a *Toolbar* at the left and a *Sidebar* at the right; in 
    :alt: Sequencer
 
    Figure 1: Sequencer and components
-   
+
 Although the Sidebar and Toolbar belong to the Timeline area, they are discussed in a separate section.
 
 .. toctree::

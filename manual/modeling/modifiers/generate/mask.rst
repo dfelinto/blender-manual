@@ -15,7 +15,7 @@ Mode
    The Mask Modifier can hide parts of a mesh based on two different modes, selectable from this select menu.
 
    Vertex Group
-      Hides all vertices except for vertices that satisfy the defined *Threshold* from the chosen vertex group.
+      Hides all vertices not included in the chosen vertex group.
 
       .. list-table:: The Mask modifier in Vertex Group mode.
 

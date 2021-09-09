@@ -57,8 +57,8 @@ Pressing :kbd:`Esc`, reverts the positions to the earlier order.
 Tutorial
 ========
 
-See `this video <https://www.youtube.com/watch?v=Ly64vezt0Go>`
-for a tutorial on how to activate the add-on along with basic usage.
+See this `tutorial video <https://www.youtube.com/watch?v=Ly64vezt0Go>`__
+on how to activate the add-on along with basic usage.
 
 .. reference::
 

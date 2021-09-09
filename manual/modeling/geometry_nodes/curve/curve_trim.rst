@@ -26,7 +26,7 @@ Curve
 
 Start
    The factor or length used to determine where to start each output spline.
-   
+
 End
    The factor or length used to determine where to end each output spline.
 

@@ -1,10 +1,10 @@
 .. index:: Grease Pencil Modifiers; Length Modifier
 
-******************
+***************
 Length Modifier
-******************
+***************
 
-The *Length* Modifier expand or contract the original strokes length.
+The *Length* Modifier extends or shortens the original strokes length.
 
 
 Options
@@ -19,7 +19,7 @@ Mode
    Defines the mode to use for the length calculation.
 
 Factor Start/End
-   length difference for each stroke.
+   Length difference for each stroke.
 
 Overshoot
    Sets the calculation precision for the extremes overshoot.
