@@ -20,6 +20,8 @@ Expand (down/right arrow icon)
 Icon
    The constraint type icon.
 
+.. _bpy.types.Constraint.name:
+
 Name
    Give the constraint a meaningful name in this text field, which describes its purpose.
    Meaningful names help you and your team members understand what each constraint is supposed to do.
@@ -29,12 +31,43 @@ Name
    When this Copy Location constraint has a valid target in the *target field*
    it will turn gray and begin to function.
 
+.. _bpy.types.Constraint.enabled:
+
 Mute (eye icon)
    Enable or Disable the constraint. Disabling a constraint will stop its affect on the scene.
 
    Disabling a constraint is useful for turning off a constraint without losing all of its settings.
    Disabling means you can enable the constraint at a later time with the settings intact.
    Disabling is similar to setting the :ref:`Influence <bpy.types.constraint.influence>` to 0.0.
+
+.. _bpy.ops.constraint.apply:
+
+Extras
+   Apply :kbd:`Ctrl-A`
+      Makes the constraint "real" by applying any transformations caused by the constraint
+      to make the original object to match the results of the constraint and deletes the constraint.
+
+      .. warning::
+
+         Applying a constraint that is not first in the stack will ignore the stack order
+         (it will be applied as if it was the first one), and may produce undesired results.
+
+   .. _bpy.ops.constraint.copy:
+
+   Duplicate :kbd:`Shift-D` 
+      Creates a duplicate of the constraint just below current one in the stack.
+   
+   .. _bpy.ops.constraint.copy_to_selected:
+
+   Copy to Selected
+      Copies the constraint from the :term:`Active` object to all selected objects.
+
+   .. _bpy.ops.constraint.move_to_index:
+
+   Move to First/Last
+      Moves the constraint to the first or last position in the constraint stack.
+
+.. _bpy.ops.constraint.delete:
 
 Delete ``X`` :kbd:`X`, :kbd:`Delete`
    Delete the constraint from the stack.
