@@ -33,8 +33,6 @@ Precision
    Multiplier for fill boundary accuracy.
    Higher values are more accurate but slower.
 
-.. _bpy.types.BrushGpencilSettings.fill_leak:
-
 Dilate
    Size in pixel to expand the fill area.
 
@@ -79,10 +77,12 @@ Stroke Extension
    Show Extend Lines (grid icon)
       Toggle show extended lines helper.
 
-.. _bpy.types.BrushGpencilSettings.fill_simplify_level:
+.. _bpy.types.BrushGpencilSettings.fill_leak:
 
 Leak Size
    Size in pixel to consider the leak as closed.
+
+.. _bpy.types.BrushGpencilSettings.fill_simplify_level:
 
 Simplify
    Number of simplify steps to apply to the boundary line.
