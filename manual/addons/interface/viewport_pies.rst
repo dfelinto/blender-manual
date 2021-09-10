@@ -58,7 +58,7 @@ Select :kbd:`A`
 Shading :kbd:`Z`
    Shading viewport display.
 
-View Numpad :kbd:`Q`
+View Numpad :kbd:`Alt-Q`
    Numpad View Directions.
 
 
