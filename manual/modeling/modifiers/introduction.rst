@@ -58,11 +58,17 @@ The icons each represent different settings for the modifier (left to right):
 
 Expand (down/right arrow icon)
    Collapse modifier to show only the header and not its options.
-Type
+
+Icon
    An icon as a quick visual reference of the modifier's type.
+
+.. _bpy.types.Modifier.name:
+
 Name
    Every modifier has a unique name per object. Two modifiers on one object must have unique names,
    but two modifiers on different objects can have the same name. The default name is based on the modifier type.
+
+.. _bpy.types.Modifier.show_on_cage:
 
 Show on Cage (vertices-triangle icon) -- Meshes only
    Depends on the previous setting, if enabled, the modified geometry can also be edited directly,
@@ -73,10 +79,19 @@ Show on Cage (vertices-triangle icon) -- Meshes only
       While it shows edited items in their final, modified positions, you are still actually editing original data.
       This can lead to strong and unpredictable effects with some tools,
       and should be disabled whenever you need to perform complex or precise editing on the mesh.
+
+.. _bpy.types.Modifier.show_in_editmode:
+
 Show in Edit Mode (vertices-square icon)
    Display the modified geometry in Edit Mode, as well as the original geometry which you can edit.
+
+.. _bpy.types.Modifier.show_viewport:
+
 Show in Viewport (screen icon)
    Toggle visibility of the modifier's effect in the 3D Viewport.
+
+.. _bpy.types.Modifier.show_render:
+
 Render (camera icon)
    Toggle visibility of the modifier's effect in the render.
 
@@ -84,6 +99,8 @@ Render (camera icon)
 
       The *Square*, *Triangle* and *Surface* icons may not be available,
       depending on the type of object and modifier.
+
+.. _bpy.types.Modifier.use_apply_on_spline:
 
 Apply On Spline Points (point surface icon) -- Curves, surfaces and texts only
    Apply the whole modifier stack up to and including that one on the curve or surface control points,
@@ -94,7 +111,9 @@ Apply On Spline Points (point surface icon) -- Curves, surfaces and texts only
       By default, curves, texts and surfaces are always converted to mesh-like geometry
       before that the modifier stack is evaluated on them.
 
-Specials
+.. _bpy.ops.object.modifier_apply:
+
+Extras
    Apply :kbd:`Ctrl-A`
       Makes the modifier "real": converts the object's geometry to match the applied modifier's results,
       and deletes the modifier.
@@ -103,6 +122,8 @@ Specials
 
          Applying a modifier that is not first in the stack will ignore the stack order
          (it will be applied as if it was the first one), and may produce undesired results.
+
+   .. _bpy.ops.object.modifier_apply_as_shapekey:
 
    Apply as Shape Key
       Stores the result of that modifier in a new relative :doc:`shape key </animation/shape_keys/introduction>`
@@ -119,16 +140,22 @@ Specials
       and keeps the modifier in the modifier stack.
       This is only available with modifiers that do not affect the topology (typically, *Deform* modifiers only).
 
+   .. _bpy.ops.object.modifier_copy:
+
+   Duplicate :kbd:`Shift-D`
+      Creates a duplicate of the modifier just below current one in the stack.
+
    .. _bpy.ops.object.modifier_copy_to_selected:
 
    Copy to Selected
       Copies the modifier from the :term:`Active` object to all selected objects.
 
-   Duplicate :kbd:`Shift-D`
-      Creates a duplicate of the modifier just below current one in the stack.
+   .. _bpy.ops.object.modifier_move_to_index:
 
    Move to First/Last
       Moves the modifier to the first or last position in the modifier stack.
+
+.. _bpy.ops.object.modifier_remove:
 
 Delete :kbd:`X`, :kbd:`Delete`
    Delete the modifier.
