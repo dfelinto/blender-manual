@@ -34,11 +34,11 @@ RNA Array Index
 Display Color
    The method used to determine the color of the F-curve shown in the Graph editor.
 
-   Auto Rainbow
+   :Auto Rainbow:
       Increment the hue of the F-curve color based on the channel index.
-   Auto XYZ to RGB
+   :Auto XYZ to RGB:
       For property sets like location XYZ, automatically set the set of colors to red, green, blue.
-   User Defined
+   :User Defined:
       Define a custom color for the active F-curve.
 
 .. _bpy.types.FCurve.auto_smoothing:
@@ -54,7 +54,7 @@ Handle Smoothing
 
       From left to right, four *Auto Clamped* keys, one *Vector*, and the rest are *Automatic*.
 
-   None
+   :None:
       Only directly adjacent key values are considered when computing the handles.
       Vector handles are pointed directly at the adjacent keyframes.
 
@@ -62,7 +62,7 @@ Handle Smoothing
       truly smooth curves in the most trivial cases. Note the kinks in the yellow curve
       around the keys located between the extremes, and near the Vector handles.
 
-   Continuous Acceleration
+   :Continuous Acceleration:
       A system of equations is solved in order to avoid or minimize jumps in acceleration
       at every keyframe. Vector handles are integrated into the curves as smooth transitions
       to imaginary straight lines beyond the keyframe.

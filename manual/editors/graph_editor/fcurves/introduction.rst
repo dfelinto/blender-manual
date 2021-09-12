@@ -85,37 +85,39 @@ Interpolation Mode
 Mode for the :term:`Interpolation` between the current and next keyframe.
 
 
-Interpolation
-^^^^^^^^^^^^^
+.. rubric:: Interpolation
 
-Constant
-   There is no interpolation at all. The curve holds the value of its last keyframe,
-   giving a discrete (stairway) "curve".
-   Usually only used during the initial "blocking" stage in pose-to-pose animation workflows.
-
+:Constant:
    .. figure:: /images/editors_graph-editor_fcurves_introduction_constant.png
+      :align: right
       :width: 300px
 
       Constant.
 
-Linear
-   This simple interpolation creates a straight segment, giving a non-continuous line.
-   It can be useful when using only two keyframes and the *Extrapolation* extend mode,
-   to easily get an infinite straight line (i.e. a linear curve).
+   There is no interpolation at all. The curve holds the value of its last keyframe,
+   giving a discrete (stairway) "curve".
+   Usually only used during the initial "blocking" stage in pose-to-pose animation workflows.
 
+:Linear:
    .. figure:: /images/editors_graph-editor_fcurves_introduction_linear.png
+      :align: right
       :width: 300px
 
       Linear.
 
-Bézier
-   The more powerful and useful interpolation, and the default one.
-   It gives nicely smoothed curves, i.e. smooth animations!
+   This simple interpolation creates a straight segment, giving a non-continuous line.
+   It can be useful when using only two keyframes and the *Extrapolation* extend mode,
+   to easily get an infinite straight line (i.e. a linear curve).
 
+:Bézier:
    .. figure:: /images/editors_graph-editor_fcurves_editing_clean1.png
+      :align: right
       :width: 300px
 
       Bézier.
+
+   The more powerful and useful interpolation, and the default one.
+   It gives nicely smoothed curves, i.e. smooth animations!
 
 .. note::
 
@@ -123,8 +125,7 @@ Bézier
    in which case they are always shown as if constant interpolated, whatever option you chose.
 
 
-Easing (by strength)
-^^^^^^^^^^^^^^^^^^^^
+.. rubric:: Easing (by strength)
 
 Different methods of easing interpolations for F-curve segment.
 The "Robert Penner easing equations" (basically, equations which define some preset ways that
@@ -146,13 +147,12 @@ to achieve certain common effects. For example, snappy movements.
    http://robertpenner.com/easing/
 
 
-Dynamic Effects
-^^^^^^^^^^^^^^^
+.. rubric:: Dynamic Effects
 
 These additional easing types imitate (fake) physics-based effects like bouncing/springing effects.
 The corresponding settings can be found in the :menuselection:`Sidebar region --> Active Keyframe panel`.
 
-Back
+:Back:
    Cubic easing with overshoot and settle.
    Use this one when you want a bit of an overshoot coming into the next keyframe,
    or perhaps for some wind-up anticipation.
@@ -160,11 +160,11 @@ Back
    Back
       The back property controls the size and direction (i.e. above/below the curve) of the overshoot.
 
-Bounce
+:Bounce:
    Exponentially decaying parabolic bounce, like when objects collide.
    e.g. for Bouncing balls, etc.
 
-Elastic
+:Elastic:
    Exponentially decaying sine wave, like an elastic band.
    This is like bending a stiff pole stuck to some surface,
    and watching it rebound and settle back to its original state.
@@ -192,14 +192,14 @@ The Easing Type controls which end of the segment between the two keyframes that
 The Easing Type has no effect if the :ref:`Interpolation Mode <editors-graph-fcurves-settings-interpolation>`
 is set to either *Constant*, *Linear*, or *Bézier*.
 
-Automatic Easing
+:Automatic Easing:
    The most commonly expected of the below behaviors is used.
    For the transitional effects, this is basically *ease in*, while for the physics effects it is *ease out*.
-Ease In
+:Ease In:
    Effect builds up to the second keyframe.
-Ease Out
+:Ease Out:
    Effect fades out from the first keyframe.
-Ease In Out
+:Ease In Out:
    Effect occurs on both ends of the segment.
 
 
@@ -217,22 +217,24 @@ Extrapolation defines the behavior of a curve before the first and after the las
 
 There are two basic extrapolation modes:
 
-Constant
-   The default one, curves before their first keyframe and after their last one have a constant value
-   (the one of these first and last keyframes).
-
+:Constant:
    .. figure:: /images/editors_graph-editor_fcurves_introduction_extrapolate1.png
+      :align: right
       :width: 300px
 
       Constant extrapolation.
 
-Linear
-   Curves ends are straight lines (linear), as defined by the slope of their first and last keyframes.
+   The default one, curves before their first keyframe and after their last one have a constant value
+   (the one of these first and last keyframes).
 
+:Linear:
    .. figure:: /images/editors_graph-editor_fcurves_introduction_extrapolate2.png
+      :align: right
       :width: 300px
 
       Linear extrapolation.
+
+   Curves ends are straight lines (linear), as defined by the slope of their first and last keyframes.
 
 Additional extrapolation methods (e.g. the *Cycles* modifier)
 are located in the :doc:`F-Curve Modifiers </editors/graph_editor/fcurves/sidebar/modifiers>`.
@@ -261,45 +263,50 @@ the :ref:`Auto Handle Smoothing <bpy.types.FCurve.auto_smoothing>` properties.
 
 By using the other, non-automatic modes, you have full manual control over the slope.
 
-Automatic
-   Handle positions are automatically chosen to produce smooth curves.
-
+:Automatic:
    .. figure:: /images/editors_graph-editor_fcurves_introduction_auto.png
-      :width: 400px
+      :align: right
+      :width: 300px
 
       Auto handles.
 
-Auto Clamped
-   Automatic handles clamped to prevent overshoots and
-   changes in the curve direction between keyframes (S-shapes).
+   Handle positions are automatically chosen to produce smooth curves.
 
+:Auto Clamped:
    .. figure:: /images/editors_graph-editor_fcurves_introduction_autoclamped.png
-      :width: 400px
+      :align: right
+      :width: 300px
 
       Auto clamped handles.
 
-Vector
-   Creates automatic linear interpolation between keyframes. The segments remain linear when
-   keyframe centers are moved. However, when the handles are moved, the handle type switches to *Free*.
+   Automatic handles clamped to prevent overshoots and
+   changes in the curve direction between keyframes (S-shapes).
 
+:Vector:
    .. figure:: /images/editors_graph-editor_fcurves_introduction_vector.png
-      :width: 400px
+      :align: right
+      :width: 300px
 
       Vector handles.
 
-Aligned
-   The two handles of the curve point are locked together to always point in exactly opposite directions.
-   This results in a curve that is always smooth at the control point.
+   Creates automatic linear interpolation between keyframes. The segments remain linear when
+   keyframe centers are moved. However, when the handles are moved, the handle type switches to *Free*.
 
+:Aligned:
    .. figure:: /images/editors_graph-editor_fcurves_introduction_aligned.png
-      :width: 400px
+      :align: right
+      :width: 300px
 
       Aligned handles.
 
-Free
-   The handles can be moved completely independently, and thus can result in a sharp change of direction.
+   The two handles of the curve point are locked together to always point in exactly opposite directions.
+   This results in a curve that is always smooth at the control point.
 
+:Free:
    .. figure:: /images/editors_graph-editor_fcurves_introduction_free.png
-      :width: 400px
+      :align: right
+      :width: 300px
 
       Free handles.
+
+   The handles can be moved completely independently, and thus can result in a sharp change of direction.
