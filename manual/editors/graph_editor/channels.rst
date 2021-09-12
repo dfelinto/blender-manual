@@ -154,6 +154,7 @@ Toggle Channel Editability
 Locks or unlocks a channel for editing.
 
 
+.. _editors-graph-fcurves-settings-extrapolation:
 .. _bpy.ops.graph.extrapolation_type:
 
 Extrapolation Mode
@@ -164,7 +165,33 @@ Extrapolation Mode
    :Menu:      :menuselection:`Channel --> Extrapolation Mode`
    :Shortcut:  :kbd:`Shift-E`
 
-Change the :ref:`extrapolation <editors-graph-fcurves-settings-extrapolation>` between selected keyframes.
+Change the extrapolation between selected keyframes.
+
+Extrapolation defines the behavior of a curve before the first and after the last keyframes.
+
+There are two basic extrapolation modes:
+
+:Constant:
+   .. figure:: /images/editors_graph-editor_fcurves_introduction_extrapolate1.png
+      :align: right
+      :width: 300px
+
+      Constant extrapolation.
+
+   The default one, curves before their first keyframe and after their last one have a constant value
+   (the one of these first and last keyframes).
+
+:Linear:
+   .. figure:: /images/editors_graph-editor_fcurves_introduction_extrapolate2.png
+      :align: right
+      :width: 300px
+
+      Linear extrapolation.
+
+   Curves ends are straight lines (linear), as defined by the slope of their first and last keyframes.
+
+Additional extrapolation methods (e.g. the *Cycles* modifier)
+are located in the :doc:`F-Curve Modifiers </editors/graph_editor/fcurves/sidebar/modifiers>`.
 
 
 .. _bpy.ops.graph.hide:
