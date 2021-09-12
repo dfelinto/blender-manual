@@ -152,6 +152,18 @@ Dynamic Effects
 These additional easing types imitate (fake) physics-based effects like bouncing/springing effects.
 The corresponding settings can be found in the :menuselection:`Sidebar region --> Active Keyframe panel`.
 
+Back
+   Cubic easing with overshoot and settle.
+   Use this one when you want a bit of an overshoot coming into the next keyframe,
+   or perhaps for some wind-up anticipation.
+
+   Back
+      The back property controls the size and direction (i.e. above/below the curve) of the overshoot.
+
+Bounce
+   Exponentially decaying parabolic bounce, like when objects collide.
+   e.g. for Bouncing balls, etc.
+
 Elastic
    Exponentially decaying sine wave, like an elastic band.
    This is like bending a stiff pole stuck to some surface,
@@ -164,16 +176,6 @@ Elastic
    Period
       The period property controls the frequency with which oscillations occur.
       Higher values result in denser oscillations.
-Bounce
-   Exponentially decaying parabolic bounce, like when objects collide.
-   e.g. for Bouncing balls, etc.
-Back
-   Cubic easing with overshoot and settle.
-   Use this one when you want a bit of an overshoot coming into the next keyframe,
-   or perhaps for some wind-up anticipation.
-
-   Back
-      The back property controls the size and direction (i.e. above/below the curve) of the overshoot.
 
 
 .. _editors-graph-fcurves-settings-easing:
@@ -187,6 +189,8 @@ Easing Type
    :Shortcut:  :kbd:`Ctrl-E`
 
 The Easing Type controls which end of the segment between the two keyframes that the easing effects apply to.
+The Easing Type has no effect if the :ref:`Interpolation Mode <editors-graph-fcurves-settings-interpolation>`
+is set to either *Constant*, *Linear*, or *Bézier*.
 
 Automatic Easing
    The most commonly expected of the below behaviors is used.
