@@ -18,10 +18,19 @@ This panel displays properties for the active F-curve.
 
 Channel Name
    ID Type + Channel name (X Location).
-RNA Path
+
+.. _bpy.types.FCurve.data_path:
+
+Data Path
    RNA Path to property.
+
+.. _bpy.types.FCurve.array_index:
+
 RNA Array Index
    Index to the specific property affected by the F-curve if applicable.
+
+.. _bpy.types.FCurve.color_mode:
+
 Display Color
    The method used to determine the color of the F-curve shown in the Graph editor.
 
@@ -32,7 +41,7 @@ Display Color
    User Defined
       Define a custom color for the active F-curve.
 
-.. _graph_editor-auto-handle-smoothing:
+.. _bpy.types.FCurve.auto_smoothing:
 
 Handle Smoothing
    Selects the method used to compute :ref:`automatic Bézier handles <editors-graph-fcurves-settings-handles>`
@@ -88,14 +97,25 @@ Active Keyframe
 
    Active Keyframe panel.
 
+
 Interpolation
    Set the forward :ref:`editors-graph-fcurves-settings-interpolation` for the active keyframe.
-Key Value
-   Set the value for the active keyframe.
-Frame
-   Set the frame for the active keyframe.
-Left/Right Handle Frame/Value
-   Set the position of the left/right interpolation handle for the active keyframe.
 
-   Type
-      See :ref:`editors-graph-fcurves-settings-handles`.
+.. _bpy.types.Keyframe.co_ui:
+
+Key Frame
+   Set the frame for the active keyframe.
+Value
+   Set the value for the active keyframe.
+
+.. _bpy.types.Keyframe.handle_left_type:
+.. _bpy.types.Keyframe.handle_right_type:
+
+Left/Right Handle Type
+   See :ref:`editors-graph-fcurves-settings-handles`.
+
+.. _bpy.types.Keyframe.handle_left:
+.. _bpy.types.Keyframe.handle_right:
+
+Frame, Value
+   Set the frame and value for the left/right interpolation handle for the active keyframe.

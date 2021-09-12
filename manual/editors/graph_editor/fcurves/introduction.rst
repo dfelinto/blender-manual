@@ -257,7 +257,7 @@ There are three automatic modes, *Automatic*, *Auto Clamped*, and *Vector*,
 where Blender automatically determines the curve's slope at each control point.
 The neighboring control points have the most influence of the slope,
 and points further away have a smaller influence. This can be controlled per F-curve with
-the :ref:`Auto Handle Smoothing <graph_editor-auto-handle-smoothing>` properties.
+the :ref:`Auto Handle Smoothing <bpy.types.FCurve.auto_smoothing>` properties.
 
 By using the other, non-automatic modes, you have full manual control over the slope.
 

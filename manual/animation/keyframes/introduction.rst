@@ -70,7 +70,7 @@ the :doc:`Dope Sheet </editors/dope_sheet/index>` editor.
    Handle smoothing modes. Yellow: *None*, Cyan: *Continuous Acceleration*.
 
 The method how the three automatic handle types are computed is controlled by
-the per-curve :ref:`Auto Handle Smoothing <graph_editor-auto-handle-smoothing>` setting.
+the per-curve :ref:`Auto Handle Smoothing <bpy.types.FCurve.auto_smoothing>` setting.
 The *None* mode resembles how most other software works and only considers the values
 of the immediately adjacent keys. The *Continuous Acceleration* mode considers the shape
 of the whole curve, which produces smoother results out of the box, but means that changes
