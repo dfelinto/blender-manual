@@ -122,7 +122,7 @@ Add F-Curve Modifier
    :Shortcut:  :kbd:`Shift-Ctrl-M`
 
 Opens a pop-up allowing you to add modifiers to the active F-curve.
-Settings for the :doc:`modifier </editors/graph_editor/fcurves/sidebar/modifiers>` can be found in
+Settings for the :doc:`modifier </editors/graph_editor/fcurves/modifiers>` can be found in
 the :menuselection:`Sidebar --> Modifiers` tab.
 
 

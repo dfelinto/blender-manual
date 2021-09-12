@@ -31,7 +31,7 @@ Handles
    These handles are represented by extruding lines with circular ends
    and can be selected and modified to change the shape of the curve.
 
-   See :ref:`editors-graph-fcurves-settings-handles` for more information.
+   See :ref:`F-Curve Handles <editors-graph-fcurves-settings-handles>` for more information.
 
 .. figure:: /images/editors_graph-editor_introduction_f-curve-example.png
 
@@ -281,6 +281,6 @@ Further Tabs
 ------------
 
 F-Curve Tab
-   See :doc:`F-Curve </editors/graph_editor/fcurves/sidebar/curve>`.
+   See :doc:`F-Curve </editors/graph_editor/fcurves/properties>`.
 Modifiers Tab
-   See :doc:`F-Curve Modifiers </editors/graph_editor/fcurves/sidebar/modifiers>`.
+   See :doc:`F-Curve Modifiers </editors/graph_editor/fcurves/modifiers>`.

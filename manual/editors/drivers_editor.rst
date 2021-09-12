@@ -27,7 +27,7 @@ Handles
    Each point on the driver curve has a handle that helps determine the relationship between the two values.
    They can be selected and modified to change the shape of the curve.
 
-   See :ref:`editors-graph-fcurves-settings-handles` for more information.
+   See :ref:`F-Curve Handles <editors-graph-fcurves-settings-handles>` for more information.
 
 .. figure:: /images/editors_graph-editor_introduction_f-curve-example.png
 
@@ -141,7 +141,7 @@ See :doc:`/animation/drivers/drivers_panel`.
 Modifiers Tab
 -------------
 
-See :doc:`F-Curve Modifiers </editors/graph_editor/fcurves/sidebar/modifiers>`.
+See :doc:`F-Curve Modifiers </editors/graph_editor/fcurves/modifiers>`.
 
 
 .. (Todo) duplicated here: \editors\graph_editor\fcurves\properties.rst

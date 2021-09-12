@@ -197,4 +197,4 @@ Modifiers
 Like its counterparts in graph and video editing,
 Modifiers can stack different combinations of effects for strips.
 
-See :doc:`F-Curve Modifiers </editors/graph_editor/fcurves/sidebar/modifiers>`.
+See :doc:`F-Curve Modifiers </editors/graph_editor/fcurves/modifiers>`.

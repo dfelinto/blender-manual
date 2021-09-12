@@ -52,7 +52,7 @@ the property will be 2.0.
 The driver function can be defined artistically with Bézier curve handles or
 mathematically with trigonometric functions or polynomial expressions such as :math:`y = a + bx`.
 Furthermore, the function can also be procedurally modulated with noise or cyclic repetitions.
-See :doc:`Modifiers </editors/graph_editor/fcurves/sidebar/modifiers>` for more details.
+See :doc:`Modifiers </editors/graph_editor/fcurves/modifiers>` for more details.
 
 
 Driver Configuration

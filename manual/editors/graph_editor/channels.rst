@@ -191,7 +191,7 @@ There are two basic extrapolation modes:
    Curves ends are straight lines (linear), as defined by the slope of their first and last keyframes.
 
 Additional extrapolation methods (e.g. the *Cycles* modifier)
-are located in the :doc:`F-Curve Modifiers </editors/graph_editor/fcurves/sidebar/modifiers>`.
+are located in the :doc:`F-Curve Modifiers </editors/graph_editor/fcurves/modifiers>`.
 
 
 .. _bpy.ops.graph.hide:
