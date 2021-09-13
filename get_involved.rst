@@ -27,9 +27,9 @@ Volunteers interested in documentation translations can contact the team as well
 `Read more » <https://www.blender.org/get-involved/documenters>`__
 
 
-*************
-Documentation
-*************
+****************
+`Documentation`_
+****************
 
 About
 =====
@@ -54,7 +54,7 @@ How to Get Started
 Communication
 =============
 
-- `Blender chat <https://blender.chat>`__ -- Chat with documenters and developers.
+- `Blender chat <https://blender.chat/channel/docs>`__ -- Chat with documenters and developers.
 - `Mailing list <http://wiki.blender.org/index.php/Dev:Doc/Contact#Mailing_Lists>`__ -- Subscribe to
   the `bf-docboard <http://projects.blender.org/mailman/listinfo/bf-docboard>`__
   to communicate with others about the documentation project
