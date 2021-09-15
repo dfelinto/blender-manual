@@ -34,7 +34,7 @@ Controls
 Flip :kbd:`F`
    Changes the side of the line that the tool removes geometry.
 Snap :kbd:`Ctrl`
-   Constrains the line to 15 degree intervals.
+   Constrains the rotation of the line to 15 degree intervals.
 Move :kbd:`Ctrl-Spacebar`
    Changes the location of the line.
 
