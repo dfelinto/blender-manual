@@ -54,7 +54,7 @@ Rolling Shutter Duration
 
    Each object has its own settings to control motion blur.
    These options can be found in the Object tab of the Properties.
-   See :ref:`object setting <render-cycles-settings-object-motion-blur>` for more information.
+   See :ref:`object setting <bpy.types.CyclesObjectSettings.use_motion_blur>` for more information.
 
 
 Shutter Curve

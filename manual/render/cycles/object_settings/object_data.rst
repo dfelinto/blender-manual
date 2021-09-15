@@ -94,7 +94,7 @@ Use Distance Cull
    but still visible in reflections. It is also useful to cull small objects far from the camera.
 
 
-.. _render-cycles-settings-object-motion-blur:
+.. _bpy.types.CyclesObjectSettings.use_motion_blur:
 
 Motion Blur
 ===========
@@ -105,12 +105,15 @@ Motion Blur
 
 Each object has its own motion blur settings along with
 the :doc:`Scene Level Motion Blur </render/cycles/render_settings/motion_blur>`
-These settings can be found
-in the Object Properties tab of the Properties.
+These settings can be found in the Object Properties tab of the Properties.
+
+.. _bpy.types.CyclesObjectSettings.motion_steps:
 
 Steps
    Controls accuracy of deformation motion blur, more steps uses more memory.
    The actual number of time steps is :math:`2^{steps -1}`.
+
+.. _bpy.types.CyclesObjectSettings.use_deform_motion:
 
 Deformation
    Enables motion blur for deformed meshes such as animated characters, including hair.

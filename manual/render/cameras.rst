@@ -94,8 +94,8 @@ Orthographic
          :width: 50%
 
 Panoramic
-   Panoramic cameras only work in Cycles.
-   See the Cycles :ref:`panoramic camera <cycles-panoramic-camera>` settings for more information.
+   Panoramic cameras only work in Cycles. See the Cycles
+   :ref:`panoramic camera <bpy.types.CyclesCameraSettings.panorama_type>` settings for more information.
 
 Shift
    Allows for the adjustment of *vanishing points*.

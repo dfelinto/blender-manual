@@ -1,6 +1,4 @@
 .. _render-cycles-settings-object-subdivision:
-.. _bpy.types.CyclesObjectSettings.use_adaptive_subdivision:
-.. _bpy.types.CyclesObjectSettings.dicing_rate:
 
 ********************
 Adaptive Subdivision
@@ -20,31 +18,21 @@ gets changed to control the subdivision of a mesh at the time of rendering.
 For this, all the other settings are the same except the *View* and *Render* settings.
 These before mentioned settings get removed/renamed and the following settings are added:
 
+.. _bpy.types.CyclesObjectSettings.use_adaptive_subdivision:
 
-.. rubric:: Viewport
-
-Levels
-   The levels of subdivision to see in the 3D Viewport,
-   this works the same as the *View* setting on the original *Subdivision Modifier*.
-
-
-.. rubric:: Render
-
-Adaptive
+Adaptive Subdivision
    Use OpenSubdiv to give different subdivision levels to near and far objects automatically.
    This allows nearer objects to get more subdivisions and far objects to get less.
 
-   Dicing Rate
-      When using *Adaptive* the *Render Levels* property gets changed to *Dicing Rate*,
-      this property is used to multiply the :ref:`scene dicing rate <cycles-subdivision-rate>`.
+   .. _bpy.types.CyclesObjectSettings.dicing_rate:
+
+   Dicing Scale
+      Multiplier of the :ref:`scene dicing rate <cycles-subdivision-rate>` to determine the final size of micropolygons in pixels.
 
       .. figure:: /images/render_cycles_object-settings_adaptive-subdiv_displacement-dicing.png
 
-         Subdivision Off/On, Dicing Rate: 1.0 - 0.3 - 0.05 (monkeys look identical in viewport, no modifiers).
+         Subdivision Off/On, Dicing Scale: 1.0 - 0.3 - 0.05 (monkeys look identical in viewport, no modifiers).
 
-Levels
-   The levels of subdivision to see in the final render,
-   this works the same as the *Render* setting on the original *Subdivision Modifier*.
 
 
 Known Limitations
