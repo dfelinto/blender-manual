@@ -82,10 +82,9 @@ Edge types can also be excluded from calculation by pressing the *X* next to the
    Silhouette (green), Crease (black), Border (blue) and Edge Marks (red)
    (`blend-file <https://wiki.blender.org/wiki/File:EdgeType.zip>`__ by LightBWK).
 
+.. _bpy.types.FreestyleLineSet.select_silhouette:
+
 Type
-
-   .. _bpy.types.FreestyleLineSet.select_silhouette:
-
    Silhouette
       Draws silhouettes around your closed objects by rendering lines where the surface normal transitions between
       pointing toward and away from the camera. It is often good for organic objects (like Suzanne & Sphere),
