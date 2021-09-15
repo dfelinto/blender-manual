@@ -38,12 +38,13 @@ Text Info
 
 Statistics
    Show information about the amount of objects and geometry.
+   Note the counters that are displayed depends on the current selection,
+   for example selecting a mesh gives info on the number of vertices, edges, and faces,
+   while selecting other object such as lights shows a count of the lights in the scene.
 
-   Objects
-      Number of the selected objects and the total count.
-   Geometry
-      Displays information about the current scene depending on the mode and object type.
-      This can be the number of vertices, faces, triangles, or bones.
+   - Objects -- Number of the selected objects and the total count.
+   - Geometry -- Displays information about the current scene depending on the mode and object type.
+     This can be the number of vertices, faces, triangles, or bones.
 
 HDRI Preview
    Show two spheres, one glossy and one diffuse,
