@@ -122,35 +122,53 @@ This section covers only the Render Layer settings appropriate for the Cycles re
 For the engine-independent settings, see :ref:`this section <render-layers>`.
 
 
-.. _bpy.types.ViewLayer.use_sky:
-.. _bpy.types.ViewLayer.use_ao:
-.. _bpy.types.ViewLayer.use_solid:
-.. _bpy.types.ViewLayer.use_strand:
-
 Filter
 ------
+
+.. _bpy.types.ViewLayer.use_sky:
 
 Include
    Environment
       Disables rendering the *Environment* render pass in the final render.
+   
+   .. _bpy.types.ViewLayer.use_ao:
+
    Ambient Occlusion
       Disables rendering the *Ambient Occlusion* render pass in the final render.
+   
+   .. _bpy.types.ViewLayer.use_solid:
+   
    Surfaces
       Disables rendering object materials in the final render.
+   
+   .. _bpy.types.ViewLayer.use_strand:
+
    Hair
       Disables rendering hair strands in the final render.
+   
+   .. _bpy.types.ViewLayer.use_volumes:
+
    Volume
       Disables rendering :doc:`Volumes </modeling/volumes/index>` in the final render.
 
+.. _bpy.types.ViewLayer.use_motion_blur:
 
-.. _bpy.types.ViewLayer.material_override:
-.. _bpy.types.ViewLayer.samples:
+Use
+   Motion Blur
+      Render motion blur for this Layer,
+      if enabled in the :ref:`Render Settings <bpy.types.RenderSettings.use_motion_blur>`.
+
 
 Override
 --------
 
+.. _bpy.types.ViewLayer.material_override:
+
 Material Override
    Overrides all materials in the render layer.
+
+.. _bpy.types.ViewLayer.samples:
+
 Samples
    View layer samples to override the scene samples.
    Controlled by the :ref:`layer samples <render-cycles-integrator-layer-samples>` in the Sampling panel.
