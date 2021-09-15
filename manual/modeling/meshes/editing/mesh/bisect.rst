@@ -27,6 +27,18 @@ Axis Threshold
    Cut along the straight plane or along the existing geometry below the distance from the plane.
 
 
+Controls
+========
+
+Move :kbd:`Ctrl-Spacebar`
+   Changes the location of the line.
+Snap :kbd:`Ctrl`
+   Constrains the rotation of the line to 15 degree intervals.
+Flip :kbd:`F`
+   Changes the side of the line that is the inner/outer side;
+   this option is useful when using *Clear Inner*, *Clear Outer* and/or *Fill*.
+
+
 Examples
 ========
 
