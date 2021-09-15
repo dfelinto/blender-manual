@@ -18,6 +18,8 @@ Freestyle can be enabled/disabled per View Layer by toggling the checkbox in the
 
    View Layer: Freestyle panel.
 
+.. _bpy.types.FreestyleSettings.mode:
+
 Control Mode
    Which detected edges are actually rendered, and how, can be controlled either through:
 
@@ -29,6 +31,8 @@ Control Mode
       and each line set is linked to one line style.
    :Python Scripting Mode:
       Lines are rendered via :doc:`Python scripting </render/freestyle/python>`, powerful but complex.
+
+.. _bpy.types.FreestyleSettings.use_view_map_cache:
 
 View Map Cache
    An option to reuse a previously computed view map for subsequent rendering.
@@ -45,6 +49,8 @@ View Map Cache
    then the cached view map for one view layer is replaced by a new view map
    for another view layer and hence no performance gain is expected.
 
+.. _bpy.types.FreestyleSettings.as_render_pass:
+
 As Render Pass
    Freestyle lines will not immediately be visible on top of the render image.
    Instead, Freestyle lines are rendered as a :doc:`Render Pass </render/layers/passes>`
@@ -54,17 +60,25 @@ As Render Pass
 Edge Detection
 ==============
 
+.. _bpy.types.FreestyleSettings.crease_angle:
+
 Crease Angle
    If two adjacent faces form an angle less than the defined *Crease Angle*,
    the edge between them will be rendered when using *Crease* edge type selection in a line set.
    The value also affects *Silhouette* edge type selection.
 
+.. _bpy.types.FreestyleSettings.use_culling:
+
 Culling
    Ignore the edges that are out of view.
    (Saves some processing time and memory, but may reduce the quality of the result in some cases.)
 
+.. _bpy.types.FreestyleSettings.use_smoothness:
+
 Face Smoothness
    Takes *Smooth Shading* into account for edges calculation.
+
+.. _bpy.types.FreestyleSettings.sphere_radius:
 
 Sphere Radius
    Affects the calculation of curvatures for *Ridge*, *Valley*
@@ -72,6 +86,8 @@ Sphere Radius
    The curvature at each vertex is computed by averaging the shape
    of the surface within the specified radius.
    Increasing the value reduces noise and detail.
+
+.. _bpy.types.FreestyleSettings.kr_derivative_epsilon:
 
 Kr Derivative Epsilon
    Controls the threshold on the minimum rate of change of curvature used to filter the output

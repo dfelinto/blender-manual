@@ -17,6 +17,7 @@ which ones will be rendered using its attached
 
    Freestyle Line Set panel.
 
+.. _bpy.types.FreestyleLineSet.select_by_image_border:
 
 Select By
    Image Border
@@ -27,6 +28,8 @@ Select By
 
 Visibility
 ==========
+
+.. _bpy.types.FreestyleLineSet.visibility:
 
 Type
    Determine how to use visibility for feature edge selection.
@@ -46,6 +49,9 @@ Type
    :QI Range:
       QI stands for *Quantitative Invisibility*. Lines occluded by a number of surfaces in the given range are rendered.
 
+      .. _bpy.types.FreestyleLineSet.qi_start:
+      .. _bpy.types.FreestyleLineSet.qi_end:
+
       Start, End
          Min/max number of occluding surfaces for a line to be rendered.
 
@@ -56,6 +62,9 @@ Type
          QI Range proof of concept demo, Start: 3, End: 7, by LightBWK
          (`blend-file <https://wiki.blender.org/wiki/File:QI-Range.zip>`__)
 
+
+.. _bpy.types.FreestyleLineSet.exclude:
+.. _bpy.types.FreestyleLineSet.select_by_edge_types:
 
 Edge Types
 ==========
@@ -74,10 +83,15 @@ Edge types can also be excluded from calculation by pressing the *X* next to the
    (`blend-file <https://wiki.blender.org/wiki/File:EdgeType.zip>`__ by LightBWK).
 
 Type
+
+   .. _bpy.types.FreestyleLineSet.select_silhouette:
+
    Silhouette
       Draws silhouettes around your closed objects by rendering lines where the surface normal transitions between
       pointing toward and away from the camera. It is often good for organic objects (like Suzanne & Sphere),
       and bad for sharp edges, like a box. It cannot render open mesh objects like open cylinders and flat planes.
+
+   .. _bpy.types.FreestyleLineSet.select_crease:
 
    Crease
       Shows only edges whose adjacent faces form an angle sharper than the defined view map's *Crease Angle*.
@@ -89,15 +103,23 @@ Type
          Crease Angle proof of concept for 121° by LightBWK
          (`blend-file <https://wiki.blender.org/wiki/File:CreaseAngle.zip>`__).
 
+   .. _bpy.types.FreestyleLineSet.select_border:
+
    Border
       Border shows open mesh edges, i.e. edges that belong to only one face. An open cylinder has open edges at
       the top and bottom, and a plane is open all around. Suzanne's eye socket is an open edge.
 
+   .. _bpy.types.FreestyleLineSet.select_edge_mark:
+
    Edge Marks
       Renders marked edges. See `Edge Marks`_ for details.
 
+   .. _bpy.types.FreestyleLineSet.select_contour:
+
    Contour
       Draws lines around each object, separating it from other objects behind it, or the scene background.
+
+   .. _bpy.types.FreestyleLineSet.select_external_contour:
 
    External Contour
       Draws lines around all objects, separating them from the scene background, but not each other.
@@ -107,15 +129,21 @@ Type
       :width: 60%
 
       Left pair: Contour; Right pair: External Contour.
+   
+   .. _bpy.types.FreestyleLineSet.select_material_boundary:
 
    Material Boundary
       Draws lines where two materials meet on the same object.
+   
+   .. _bpy.types.FreestyleLineSet.select_suggestive_contour:
 
    Suggestive Contour
       Draws some lines which would form the *Silhouette* of the mesh if the view point was shifted.
       Depends on your view map settings for *Kr Derivative Epsilon* and *Sphere Radius*
       (further information: `File:Manual-2.6-Render-Freestyle-PrincetownLinestyle.pdf
       <https://wiki.blender.org/wiki/File:Manual-2.6-Render-Freestyle-PrincetownLinestyle.pdf>`__).
+      
+   .. _bpy.types.FreestyleLineSet.select_ridge_valley:
 
    Ridge & Valley
       Draws lines marking crests of ridges and valleys, i.e. places where the surface curvature is at
@@ -168,6 +196,8 @@ What are edge marks not good for?
 - Round outer edges (use instead *Contour/External Contour/Silhouette*).
 
 
+.. _bpy.types.FreestyleLineSet.select_by_face_marks:
+
 Face Marks
 ==========
 
@@ -194,8 +224,12 @@ On the right is a render without face marks activated.
 
 The line selection can be controlled via inclusion and faces options:
 
+.. _bpy.types.FreestyleLineSet.face_mark_negation:
+
 Negation
    Whether to include or exclude edges matching defined face mark conditions from the line set.
+
+.. _bpy.types.FreestyleLineSet.face_mark_condition:
 
 Condition
    :One Face:
@@ -222,14 +256,20 @@ Condition
           Exclusive, Both Faces.
 
 
+.. _bpy.types.FreestyleLineSet.select_by_collection:
+
 Collection
 ==========
 
 Include or exclude objects for line calculation,
 based on their belonging to a :doc:`Collection </scene_layout/collections/index>`.
 
-Linset Collection
+.. _bpy.types.FreestyleLineSet.collection:
+
+Line Set Collection
    The name of the object collection to use.
+
+.. _bpy.types.FreestyleLineSet.collection_negation:
 
 Negation
    Whether to include or exclude lines from those objects in this line set.

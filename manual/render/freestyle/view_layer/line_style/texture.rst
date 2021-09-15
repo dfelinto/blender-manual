@@ -11,10 +11,16 @@ Assigns a texture to the Freestyle stroke.
 
    Line Style: Texture.
 
+.. _bpy.types.FreestyleLineStyle.use_nodes:
+
 Use Nodes
    In Cycles textures are defined by means of shader `Nodes`_.
+
+.. _bpy.types.FreestyleLineStyle.texture_spacing:
+
 Spacing Along Stroke
    Allows to set the "pace" of textures mapped along the length of strokes.
+
 Go to Linestyle Textures
    A shortcut to the line style texture properties in the other *Textures* tab of the Properties.
    Make sure to first enable *Use Nodes*.

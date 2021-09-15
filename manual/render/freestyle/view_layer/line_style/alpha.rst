@@ -11,9 +11,13 @@ In this tab you control the alpha (transparency) of your strokes.
 
    Line Style: Alpha.
 
+.. _bpy.types.FreestyleLineStyle.alpha:
+
 Base Transparency
    The base alpha for this line style.
 
+
+.. _bpy.ops.scene.freestyle_alpha_modifier_add:
 
 Modifiers
 =========

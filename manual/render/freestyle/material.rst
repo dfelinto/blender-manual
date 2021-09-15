@@ -7,8 +7,12 @@ Material Properties
 
    :Panel:     :menuselection:`Properties --> Material --> Freestyle Line`
 
+.. _bpy.types.Material.line_color:
+
 Line Color
    Specifies the line colors on a per-material basis.
+
+.. _bpy.types.Material.line_priority:
 
 Priority
    Specify the ordering of competing line colors at material boundaries.

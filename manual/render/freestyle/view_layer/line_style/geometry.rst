@@ -19,6 +19,8 @@ As with other modifier stacks in Blender, they are applied from top to bottom.
    Line Style: Geometry.
 
 
+.. _bpy.ops.scene.freestyle_geometry_modifier_add:
+
 Modifiers
 =========
 

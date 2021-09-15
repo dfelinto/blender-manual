@@ -11,9 +11,13 @@ In this tab you control the color of your strokes.
 
    Line Style: Color.
 
+.. _bpy.types.FreestyleLineStyle.color:
+
 Base Color
    The base color for this line style.
 
+
+.. _bpy.ops.scene.freestyle_color_modifier_add:
 
 Modifiers
 =========
