@@ -27,7 +27,8 @@ Adaptive Subdivision
    .. _bpy.types.CyclesObjectSettings.dicing_rate:
 
    Dicing Scale
-      Multiplier of the :ref:`scene dicing rate <cycles-subdivision-rate>` to determine the final size of micropolygons in pixels.
+      Multiplier of the :ref:`scene dicing rate <bpy.types.CyclesRenderSettings.dicing_rate>`
+      to determine the final size of :term:`Micropolygons` in pixels.
 
       .. figure:: /images/render_cycles_object-settings_adaptive-subdiv_displacement-dicing.png
 

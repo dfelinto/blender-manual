@@ -76,20 +76,34 @@ Settings
 Max Bounces
 -----------
 
-.. _cycles-bounces:
+.. _bpy.types.CyclesRenderSettings.max_bounces:
 
 Total
    Maximum number of light bounces. For best quality, this should be set to the maximum.
    However, in practice, it may be good to set it to lower values for faster rendering.
    A value of 0 bounces results in direct lighting only.
+
+.. _bpy.types.CyclesRenderSettings.diffuse_bounces:
+
 Diffuse
    Maximum number of diffuse bounces.
+
+.. _bpy.types.CyclesRenderSettings.glossy_bounces:
+
 Glossy
    Maximum number of glossy bounces.
+
+.. _bpy.types.CyclesRenderSettings.transmission_bounces:
+
 Transmission
    Maximum number of transmission bounces.
+
+.. _bpy.types.CyclesRenderSettings.volume_bounces:
+
 Volume
    Maximum number of volume scattering bounces.
+
+.. _bpy.types.CyclesRenderSettings.max_transparent_bounces:
 
 Transparent
    Maximum number of transparency bounces.
@@ -103,6 +117,8 @@ Transparent
 
 Clamping
 --------
+
+.. _bpy.types.CyclesRenderSettings.sample_clamp_direct:
 
 Direct Light
    This option limits the maximum intensity a sample from rays which have not yet bounced can contribute to a pixel.
@@ -118,6 +134,8 @@ Direct Light
       losing intentionally bright parts. It is often useful to clamp indirect bounces separately,
       as they tend to cause more fireflies than direct bounces. See the *Clamp Indirect* setting.
 
+.. _bpy.types.CyclesRenderSettings.sample_clamp_indirect:
+
 Indirect Light
    The same as *Direct Light*, but for rays which have bounced multiple times.
 
@@ -132,7 +150,7 @@ A common source of noise is :term:`Caustics`.
    See :ref:`Reducing Noise <render-cycles-reducing-noise-clamp-samples>`
    for examples of the clamp settings in use.
 
-.. _render-cycles-integrator-filter-glossy:
+.. _bpy.types.CyclesRenderSettings.blur_glossy:
 
 Filter Glossy
    When using a value higher than 0.0, this will blur glossy reflections after blurry bounces,
@@ -149,7 +167,7 @@ Filter Glossy
    Often this blurring will hardly be noticeable, because it is blurred by the material anyway,
    but there are also cases where this will lead to a loss of detail in lighting.
 
-.. _render-cycles-integrator-no-caustics:
+.. _bpy.types.CyclesRenderSettings.caustics:
 
 Caustics
    Reflective

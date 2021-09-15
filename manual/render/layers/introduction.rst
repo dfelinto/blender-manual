@@ -171,4 +171,4 @@ Material Override
 
 Samples
    View layer samples to override the scene samples.
-   Controlled by the :ref:`layer samples <render-cycles-integrator-layer-samples>` in the Sampling panel.
+   Controlled by the :ref:`layer samples <bpy.types.CyclesRenderSettings.use_layer_samples>` in the Sampling panel.

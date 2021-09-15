@@ -18,27 +18,30 @@ both in a movie frame and in a photograph from a real-world camera.
    Motion blur example.
    (`blend-file <https://en.blender.org/uploads/0/03/Blender2.65_motion_blur.blend>`__)
 
+.. _bpy.types.CyclesRenderSettings.motion_blur_position:
+
 Position
    Controls at what point the shutter opens in relation to the current frame.
 
-   Start on Frame
-      Shutter is starting to open at the current frame.
-   Center on Frame
-      Shutter is fully opened at the current frame.
-   End on Frame
-      Shutter is fully closed at the current frame.
+   :Start on Frame: Shutter is starting to open at the current frame.
+   :Center on Frame: Shutter is fully opened at the current frame.
+   :End on Frame: Shutter is fully closed at the current frame.
+
+.. _bpy.types.RenderSettings.motion_blur_shutter:
 
 Shutter
    Time (in frames) between when the shutter starts to open and fully closed.
    For example, shutter time 1.0 blurs over the length of 1 frame.
 
+.. _bpy.types.CyclesRenderSettings.rolling_shutter_type:
+
 Rolling Shutter
    Creates a :term:`Rolling Shutter` effect.
 
-   None
-      No rolling shutter effect.
-   Top-Bottom
-      Renders rolling shutter from the top of the image to the bottom.
+   :None: No rolling shutter effect.
+   :Top-Bottom: Renders rolling shutter from the top of the image to the bottom.
+
+.. _bpy.types.CyclesRenderSettings.rolling_shutter_duration:
 
 Rolling Shutter Duration
    Controls balance between pure rolling shutter effect (if the value is zero)
@@ -56,6 +59,8 @@ Rolling Shutter Duration
    These options can be found in the Object tab of the Properties.
    See :ref:`object setting <bpy.types.CyclesObjectSettings.use_motion_blur>` for more information.
 
+
+.. _bpy.ops.render.shutter_curve_preset:
 
 Shutter Curve
 =============

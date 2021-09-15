@@ -42,8 +42,12 @@ Tiles X, Y
    For CPU rendering smaller tiles sizes (like 32 × 32) tend to be faster, while for
    :doc:`GPU rendering </render/cycles/gpu_rendering>` larger tile sizes give a better performance (like 256 × 256).
 
+.. _bpy.types.CyclesRenderSettings.tile_order:
+
 Order
    Order of rendering tiles. This does not significantly affect the performance.
+
+.. _bpy.types.CyclesRenderSettings.use_progressive_refine:
 
 Progressive Refine
    Instead of rendering each tile until it has finished every sample, refine the whole image progressively.
@@ -56,14 +60,20 @@ Progressive Refine
 Acceleration Structure
 ======================
 
+.. _bpy.types.CyclesRenderSettings.debug_use_spatial_splits:
+
 Use Spatial Splits
    Spatial splits improve the rendering performance in scenes with a mix of large and small polygons.
    The downsides are longer BVH build times and slightly increased memory usage.
+
+.. _bpy.types.CyclesRenderSettings.debug_use_hair_bvh:
 
 Use Hair BVH
    Use a special type of :term:`BVH` for rendering hair.
    The bounding boxes are not axis aligned allowing a spatially closer fit to the hair geometry.
    Disabling this option will reduce memory, at the cost of increasing hair render time.
+
+.. _bpy.types.CyclesRenderSettings.debug_bvh_time_steps:
 
 BVH Time Steps
    Split BVH primitives by this number of time steps to speed up render time at the expense of memory.
@@ -91,8 +101,6 @@ Persistent Data
    however, objects shared between view layers are preserved.
 
 
-.. _render_cycles_settings_perfomance_viewport:
-
 Viewport
 ========
 
@@ -101,6 +109,8 @@ Viewport
 Pixel Size
    Option to control the resolution for viewport rendering.
    Allows you to speed up viewport rendering, which is especially useful for displays with high DPI.
+
+.. _bpy.types.CyclesRenderSettings.preview_start_resolution:
 
 Start Pixels
    Resolution to start rendering preview at, progressively increase it to the full viewport size.

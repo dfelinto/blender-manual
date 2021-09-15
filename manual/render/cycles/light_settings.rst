@@ -27,7 +27,7 @@ Samples
    Point lights might need only one sample, while area lights typically need more.
 Max Bounces
    Maximum number of times light from the light is allowed to :term:`Bounce <Light Bounces>`.
-   Limited by :ref:`scene-wide bounce settings <cycles-bounces>`.
+   Limited by :ref:`scene-wide bounce settings <bpy.types.CyclesRenderSettings.max_bounces>`.
 Cast Shadow
    By disabling this option, light from lights will not be blocked by objects in between.
    This can speed up rendering by not having to trace rays to the light source.

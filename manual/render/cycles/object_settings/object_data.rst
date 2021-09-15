@@ -79,7 +79,7 @@ Culling
 -------
 
 In order to activate these options the respectively camera cull options have to be enabled
-in the scene :ref:`simplify panel <render-cycles-settings-scene-simplify>`.
+in the scene :ref:`simplify panel <render-cycles-settings-scene-simplify-culling>`.
 
 .. _bpy.types.CyclesObjectSettings.use_camera_cull:
 

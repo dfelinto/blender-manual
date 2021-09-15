@@ -1,5 +1,3 @@
-.. _bpy.types.CyclesRenderSettings.*dicing_rate:
-.. _cycles-subdivision-rate:
 
 ***********
 Subdivision
@@ -15,10 +13,11 @@ Subdivision
 
 These settings are used to control :doc:`Adaptive Subdivision </render/cycles/object_settings/adaptive_subdiv>`.
 
-Render
-   Size of :term:`Micropolygons` in pixels.
-Viewport
-   Size of :term:`Micropolygons` in pixels while preview rendering.
+.. _bpy.types.CyclesRenderSettings.preview_dicing_rate:
+.. _bpy.types.CyclesRenderSettings.dicing_rate:
+
+Dicing Rate Render, Viewport
+   Size of :term:`Micropolygons` in pixels for the final/viewport render.
 
 .. _bpy.types.CyclesRenderSettings.offscreen_dicing_scale:
 

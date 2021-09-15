@@ -80,7 +80,7 @@ With some tricks we can reduce this noise. If we blur the bright spots,
 they become bigger and less intense, making them easier to find and less noisy.
 This will not give the same exact result,
 but often it's close enough when viewed through a diffuse or soft glossy reflection.
-Below is an example of using :ref:`Glossy Filter <render-cycles-integrator-filter-glossy>`
+Below is an example of using :ref:`Glossy Filter <bpy.types.CyclesRenderSettings.blur_glossy>`
 and :doc:`Light Falloff </render/shader_nodes/color/light_falloff>`.
 
 .. list-table::
@@ -144,7 +144,7 @@ Caustics and Filter Glossy
 Caustics are a well-known source of noise, causing :term:`Fireflies`.
 They happen because the renderer has difficulty finding specular highlights
 viewed through a soft glossy or diffuse reflection.
-There is a :ref:`No Caustics <render-cycles-integrator-no-caustics>`
+There is a :ref:`No Caustics <bpy.types.CyclesRenderSettings.caustics>`
 option to disable glossy behind a diffuse reflection entirely.
 Many renderers will typically disable caustics by default.
 
@@ -167,7 +167,7 @@ Many renderers will typically disable caustics by default.
 
 However, using No Caustics will result in missing light,
 and it still does not cover the case where a sharp glossy reflection is viewed through a soft glossy reflection.
-There is a :ref:`Filter Glossy <render-cycles-integrator-filter-glossy>`
+There is a :ref:`Filter Glossy <bpy.types.CyclesRenderSettings.blur_glossy>`
 option to reduce the noise from such cases at the cost of accuracy.
 This will blur the sharp glossy reflection to make it easier to find, by increasing the shader Roughness.
 
