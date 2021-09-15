@@ -1,8 +1,8 @@
 .. _bpy.types.FreestyleModuleSettings:
 
-*********************
-Python Scripting Mode
-*********************
+****************
+Python Scripting
+****************
 
 The Python Scripting mode offers full programmable line stylizes.
 In this control mode, all styling operations are written as Python scripts referred to as

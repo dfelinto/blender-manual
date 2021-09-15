@@ -18,9 +18,9 @@ Freestyle can be activated with the checkbox in the header of the Freestyle pane
 Line Thickness Mode
    There are two different modes for defining the base line thickness:
 
-   Absolute
+   :Absolute:
       The line thickness is given by a user-specified number of pixels.
-   Relative
+   :Relative:
       The unit line thickness is scaled by the proportion of the present vertical image resolution to 480 pixels.
       For instance, the "unit line thickness" is 1.0 when the image height set to 480px, 1.5 with 720px
       and 2.0 with 960px.

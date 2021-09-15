@@ -10,15 +10,6 @@
 
    introduction.rst
    render.rst
-   view_layer.rst
+   view_layer/index.rst
    material.rst
-
-
-Control Modes
-=============
-
-.. toctree::
-   :maxdepth: 1
-
-   parameter_editor/index.rst
    python.rst

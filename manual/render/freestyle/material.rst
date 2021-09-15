@@ -9,6 +9,7 @@ Material Properties
 
 Line Color
    Specifies the line colors on a per-material basis.
+
 Priority
    Specify the ordering of competing line colors at material boundaries.
 
