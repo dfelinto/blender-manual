@@ -32,7 +32,7 @@ Include
          When depth values need to be blended in case of motion blur or :term:`Depth of Field`, use the mist pass.
    Mist
       Distance to visible surfaces, mapped to the 0.0 - 1.0 range.
-      When enabled, settings are in :ref:`World tab <render-cycles-integrator-world-mist>`.
+      When enabled, settings are in :ref:`World tab <bpy.types.WorldMistSettings>`.
       This pass can be used in compositing to fade out objects that are farther away.
    Normal
       Surface normal used for shading.

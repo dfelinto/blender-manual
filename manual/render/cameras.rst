@@ -364,7 +364,7 @@ Show
       Toggles viewing of the mist limits on and off.
       The limits are shown as two connected white dots on the camera line of sight.
       The mist limits and other options are set in the *World* panel,
-      in the :ref:`Mist section <render-cycles-integrator-world-mist>`.
+      in the :ref:`Mist section <bpy.types.WorldMistSettings>`.
    Sensor
       Displays a dotted frame in camera view.
    Name

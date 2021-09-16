@@ -135,7 +135,7 @@ Shading
 
 
 Shadow Terminator
-=================
+-----------------
 
 .. _bpy.types.CyclesObjectSettings.shadow_terminator_geometry_offset:
 
