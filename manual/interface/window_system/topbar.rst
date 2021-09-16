@@ -10,10 +10,10 @@ Menus
    :align: center
 
 
-.. _topbar-app_menu:
+.. _topbar-blender_menu:
 
-App Menu
---------
+Blender Menu
+------------
 
 Splash Screen
    Open the :ref:`splash`.
