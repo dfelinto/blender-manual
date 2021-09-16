@@ -34,10 +34,6 @@ In this arrangement, you can zoom and pan each view independently but you cannot
    Quad View.
 
 
-.. _bpy.types.RegionView3D.lock_rotation:
-.. _bpy.types.RegionView3D.show_sync_view:
-.. _bpy.types.RegionView3D.use_box_clip:
-
 Options
 -------
 
@@ -46,9 +42,17 @@ Options
    :Mode:      All modes
    :Menu:      :menuselection:`Sidebar --> View --> Quad View`
 
-Lock
+.. _bpy.types.RegionView3D.lock_rotation:
+
+Lock Rotation
    If you want to be able to rotate each view, you can uncheck the *Locked* option.
-Box
+
+.. _bpy.types.RegionView3D.show_sync_view:
+
+Sync View/Pan 
    Syncs the view position between side views. (Requires *Lock* to be enabled.)
-Clip
+
+.. _bpy.types.RegionView3D.use_box_clip:
+
+Clip Contents
    Clip objects based on what is visible in other side views. (Requires *Box* to be enabled.)
