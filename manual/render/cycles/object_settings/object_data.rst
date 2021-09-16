@@ -133,6 +133,15 @@ Shading
 
    :Panel:     :menuselection:`Properties --> Object Properties --> Shading`
 
+Fast GI Approximation
+---------------------
+
+.. _bpy.types.CyclesObjectSettings.ao_distance:
+
+AO Distance
+   Override for the world's :ref:`AO Distance <bpy.types.WorldLighting.distance>`,
+   if the value is zero the world's distance is used.
+
 
 Shadow Terminator
 -----------------
