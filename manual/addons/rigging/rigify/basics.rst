@@ -160,6 +160,7 @@ When Advanced Options are enabled, user will be able to:
 - Generate more than one rig per scene.
 - Generate a rig with a specific name.
 - Update/Overwrite a specific rig.
+- Execute a script datablock after generation.
 
 
 Advanced Options Activation
@@ -198,6 +199,27 @@ Overwrite Rig Mode
 The *Overwrite* rig mode will let the user specify a target rig to be overwritten.
 If none is set Rigify will search and eventually overwrite an armature object named "rig" and
 a Python script named ``rig_ui.py``.
+
+
+Run Script
+^^^^^^^^^^
+
+It is possible to configure Rigify to execute a python script contained in a text datablock
+after generation in order to apply user-defined customizations.
+
+The simplest use of this may be adjusting properties of generated constraints when Rigify rig types
+don't have any relevant metarig settings. That can be done simply by using the *Copy Full Data Path*
+context menu option on the property, pasting it into the script and making an assignment, e.g.::
+
+   import bpy
+
+   bpy.data.objects["rig"].pose.bones["MCH-spine.003"].constraints[0].influence = 0.6
+
+Doing such changes via a script would ensure they aren't lost if the rig is re-generated.
+
+Users familiar with Rigify scripting can import Rigify utility modules, and access the generator
+instance through ``rigify.get_generator()``; note however that since generation is already
+finished, the only use of that is reading data created in the generation process.
 
 
 Library Linking
