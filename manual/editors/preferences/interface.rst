@@ -68,10 +68,6 @@ Region Overlap
    This makes regions overlap the viewport. It means that the *Toolbar* and *Sidebar* regions,
    will be displayed overlapping the main area.
 
-Corner Splitting
-   Split and join by dragging from the corners.
-   When disabled, you can use the context menu for area separators to perform these operations.
-
 Navigation Controls
    Show navigation controls at top right of the area.
    This impacts the 3D Viewport as well as image spaces.
