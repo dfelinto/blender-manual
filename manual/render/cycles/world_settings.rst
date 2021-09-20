@@ -164,7 +164,7 @@ Sampling
 
              Multiple Importance Sample on.
 
-.. _bpy.types.CyclesWorldSettings.sample_mbpy.types.CyclesWorldSettings.sample_map_resolutionbpy.types.CyclesWorldSettings.sample_map_resolutionap_resolution:
+.. _bpy.types.CyclesWorldSettings.sample_map_resolution:
 
 Map Resolution
    Sets the resolution of the importance map.
