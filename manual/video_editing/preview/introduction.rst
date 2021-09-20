@@ -87,6 +87,8 @@ Color
    Ignore transparency of preview image (fully transparent areas will be black).
 
 
+.. _bpy.types.SequencerPreviewOverlay:
+
 Overlays
 --------
 
@@ -99,17 +101,17 @@ Frame Overlay
    Displays the :ref:`Frame Overlay <bpy.types.SequenceEditor.show_overlay>`,
    to compare the current frame to a reference frame.
 
-.. _bpy.types.SpaceSequenceEditor.show_safe_areas:
+.. _bpy.types.SequencerPreviewOverlay.show_safe_areas:
 
 Safe Areas
    Display an overlay on the preview, marking where the title safe regions are.
 
-.. _bpy.types.SpaceSequenceEditor.show_metadata:
+.. _bpy.types.SequencerPreviewOverlay.show_metadata:
 
 Metadata
    Display Image metadata in the preview area.
 
-.. _bpy.types.SpaceSequenceEditor.show_annotation:
+.. _bpy.types.SequencerPreviewOverlay.show_annotation:
 
 Annotations
    Displays :doc:`Annotations </interface/annotate_tool>` in the preview region.
