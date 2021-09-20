@@ -16,7 +16,7 @@ without requiring a separate Blender installation or overwriting your personal s
 Application templates can be selected from the splash screen or :menuselection:`File --> New` submenu.
 When there are no templates found the menu will not be displayed on the splash screen.
 
-New application templates can be installed from the :ref:`topbar-app_menu`.
+New application templates can be installed from the :ref:`topbar-blender_menu`.
 If you would like to keep the current application template active on restarting Blender, save your preferences.
 
 
