@@ -36,21 +36,40 @@ The main purpose of this is to be able to drag-and-drop media files:
 Header
 ======
 
-Navigation
-   Icon buttons for navigation of files.
+View Menu
+---------
 
-   Left Arrow :kbd:`Backspace`, :kbd:`Alt-Left`
-      Move to previous folder (in navigation history).
-   Right Arrow :kbd:`Shift-Backspace`, :kbd:`Alt-Right`
-      Move to next folder (in navigation history).
-   Up Arrow :kbd:`P`, :kbd:`Alt-Up`
-      Move up to parent directory.
-   Cycle Arrows :kbd:`R`, :kbd:`NumpadPeriod`
-      Refresh current folder.
+Select
+------
+
+
+File Path
+=========
+
+Previous Folder :kbd:`Backspace`, :kbd:`Alt-Left`
+   Move to previous folder (in navigation history).
+Next Folder :kbd:`Shift-Backspace`, :kbd:`Alt-Right`
+   Move to next folder (in navigation history).
+Parent File :kbd:`P`, :kbd:`Alt-Up`
+   Move up to parent directory.
+Refresh File List :kbd:`R`, :kbd:`NumpadPeriod`
+   Refresh current folder.
 
 Create Directory :kbd:`I`
    Will ask you to confirm and create a new directory inside current one,
    scroll to it in the main view, and let you enter its name.
+
+File Path
+   Text field for the current folder path.
+   :kbd:`Tab` will auto-complete an existing path.
+   If you type a nonexistent directory path, you will be prompted to create that new directory.
+
+Search :kbd:`Ctrl-F`
+   Filter items by name.
+   The wildcard ``*`` will match anything, e.g. ``bl*er`` will match both ``blender`` and ``blogger``.
+   There is always an implicit wildcard at start and end of the search text,
+   so ``blender`` will also match ``test_blender_file.blend``.
+   This field can also be used to filter some specific file extension (e.g. ``.png`` will list all PNG files).
 
 Display Mode
    Controls how files are displayed.
@@ -59,17 +78,14 @@ Display Mode
    :Horizontal List: Displays files and folders in a horizontal list.
    :Thumbnails: Shows :ref:`previews <file_browser-previews>`.
 
-Sorting
-   Sorts items by one of the four proposed methods (alphabetically, by types, by dates, or by size):
-Show Hidden :kbd:`H`
-   Shows hidden files (starting with a ``.``).
 
 
-View Menu
----------
+Display Settings
+----------------
 
 Display Size
    The size of the thumbnails, or the width of the columns.
+
 Recursion
    The number of directory levels to show at once in a flat way.
 
@@ -94,43 +110,48 @@ Recursion
       (typically, it will be exponential, showing three levels at once
       may take three orders of magnitude more time to be fully listed).
 
+Sort By
+   Sorts items by one of the four methods:
 
-File Filtering
---------------
+   :Name: Sort the file list alphabetically.
+   :Extension: Sort the file list by extension/type.
+   :Modified Date: Sort files by modification time.
+   :Size: Sort files by size.
 
-To the right of the header are the filtering options.
 
+Filter Settings
+---------------
+
+On the right side of the file path are the filtering options.
 The first "funnel" button controls whether filtering is enabled or not.
 
 File Types
    Filters files by categories, like folders, blend-files, images, etc.
+
 Data-Block Types
    When appending or linking, you can also filter by data-block categories, like scenes, animations, materials, etc.
-Search :kbd:`Ctrl-F`
-   Filter items by name.
-   The wildcard ``*`` will match anything, e.g. ``bl*er`` will match both ``blender`` and ``blogger``.
-   There is always an implicit wildcard at start and end of the search text,
-   so ``blender`` will also match ``test_blender_file.blend``.
-   This field can also be used to filter some specific file extension (e.g. ``.png`` will list all PNG files).
 
 
-File Region
-===========
+Show Hidden :kbd:`H`
+   Shows hidden files (starting with a ``.``).
 
-File Path
-   Text field for the current folder path.
-   :kbd:`Tab` will auto-complete an existing path.
-   If you type a nonexistent directory path, you will be prompted to create that new directory.
+
+File Name & Execution
+=====================
+
 File Name
    Text field to edit the file name and extension.
    When saving, if the background is red, a file with same name already exists in the folder.
    :kbd:`Tab` will auto-complete to existing names in the current directory.
-Increment Filename ``-``, ``+``
-   Removes/Decreases or adds/increases a trailing number to your file name
-   (used e.g. to store different versions of a file).
+
+   Increment Filename ``-``, ``+``
+      Removes/Decreases or adds/increases a trailing number to your file name
+      (used e.g. to store different versions of a file).
+
 Confirm :kbd:`Return`
    The main button to validate the operation, which defines its name.
    Double-clicking on a non-directory item will have the same effect.
+
 Cancel :kbd:`Esc`
    Cancels the file selection (and the underlying operation), and closes the File Browser.
    Using the *Back to Previous* button in the :doc:`Topbar </interface/window_system/topbar>`
