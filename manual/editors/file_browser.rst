@@ -51,12 +51,13 @@ Navigation
 Create Directory :kbd:`I`
    Will ask you to confirm and create a new directory inside current one,
    scroll to it in the main view, and let you enter its name.
+
 Display Mode
    Controls how files are displayed.
 
-   - *Vertical List* displays files and folders in a vertical list.
-   - *Horizontal List* displays files and folders in a horizontal list.
-   - *Thumbnails* shows :ref:`previews <file_browser-previews>`.
+   :Vertical List: Displays files and folders in a vertical list.
+   :Horizontal List: Displays files and folders in a horizontal list.
+   :Thumbnails: Shows :ref:`previews <file_browser-previews>`.
 
 Sorting
    Sorts items by one of the four proposed methods (alphabetically, by types, by dates, or by size):
@@ -72,11 +73,11 @@ Display Size
 Recursion
    The number of directory levels to show at once in a flat way.
 
-   - None (default, shows only the current directory content)
-   - Blend File (the whole content of a blend-file, only available when linking or appending data-blocks)
-   - One Levels
-   - Two Levels
-   - Three Levels
+   :None: List only the current directory content.
+   :Blend File: List the whole content of a blend-file (only available when linking or appending data-blocks).
+   :One Levels: List all sub-directories’ content, one level of recursion.
+   :Two Levels: List all sub-directories’ content, two level of recursion.
+   :Three Levels: List all sub-directories’ content, three levels of recursion
 
    .. hint::
 
