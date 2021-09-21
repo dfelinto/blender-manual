@@ -1,3 +1,6 @@
+.. _bpy.ops.file:
+.. _bpy.types.FileSelectParams:
+.. _bpy.types.SpaceFileBrowser:
 
 ************
 File Browser
