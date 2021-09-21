@@ -46,23 +46,40 @@ Select
 File Path
 =========
 
+.. _bpy.ops.file.previous:
+
 Previous Folder :kbd:`Backspace`, :kbd:`Alt-Left`
    Move to previous folder (in navigation history).
+
+.. _bpy.ops.file.next:
+
 Next Folder :kbd:`Shift-Backspace`, :kbd:`Alt-Right`
    Move to next folder (in navigation history).
+
+.. _bpy.ops.file.parent:
+
 Parent File :kbd:`P`, :kbd:`Alt-Up`
    Move up to parent directory.
+
+.. _bpy.ops.file.refresh:
+
 Refresh File List :kbd:`R`, :kbd:`NumpadPeriod`
    Refresh current folder.
+
+.. _bpy.ops.file.directory_new:
 
 Create Directory :kbd:`I`
    Will ask you to confirm and create a new directory inside current one,
    scroll to it in the main view, and let you enter its name.
 
+.. _bpy.types.FileSelectParams.directory:
+
 File Path
    Text field for the current folder path.
    :kbd:`Tab` will auto-complete an existing path.
    If you type a nonexistent directory path, you will be prompted to create that new directory.
+
+.. _bpy.types.FileSelectParams.filter_search:
 
 Search :kbd:`Ctrl-F`
    Filter items by name.
@@ -70,6 +87,8 @@ Search :kbd:`Ctrl-F`
    There is always an implicit wildcard at start and end of the search text,
    so ``blender`` will also match ``test_blender_file.blend``.
    This field can also be used to filter some specific file extension (e.g. ``.png`` will list all PNG files).
+
+.. _bpy.types.FileSelectParams.display_type:
 
 Display Mode
    Controls how files are displayed.
@@ -83,8 +102,12 @@ Display Mode
 Display Settings
 ----------------
 
+.. _bpy.types.FileSelectParams.display_size:
+
 Display Size
    The size of the thumbnails, or the width of the columns.
+
+.. _bpy.types.FileSelectParams.recursion_level:
 
 Recursion
    The number of directory levels to show at once in a flat way.
@@ -110,6 +133,8 @@ Recursion
       (typically, it will be exponential, showing three levels at once
       may take three orders of magnitude more time to be fully listed).
 
+.. _bpy.types.FileSelectParams.sort_method:
+
 Sort By
    Sorts items by one of the four methods:
 
@@ -118,6 +143,8 @@ Sort By
    :Modified Date: Sort files by modification time.
    :Size: Sort files by size.
 
+
+.. _bpy.types.FileSelectParams.use_filter:
 
 Filter Settings
 ---------------
@@ -128,9 +155,12 @@ The first "funnel" button controls whether filtering is enabled or not.
 File Types
    Filters files by categories, like folders, blend-files, images, etc.
 
-Data-Block Types
+.. _bpy.types.FileSelectIDFilter:
+
+Blender IDs
    When appending or linking, you can also filter by data-block categories, like scenes, animations, materials, etc.
 
+.. _bpy.types.FileSelectParams.show_hidden:
 
 Show Hidden :kbd:`H`
    Shows hidden files (starting with a ``.``).
@@ -138,6 +168,8 @@ Show Hidden :kbd:`H`
 
 File Name & Execution
 =====================
+
+.. _bpy.types.FileSelectParams.filename:
 
 File Name
    Text field to edit the file name and extension.
@@ -148,14 +180,18 @@ File Name
       Removes/Decreases or adds/increases a trailing number to your file name
       (used e.g. to store different versions of a file).
 
-Confirm :kbd:`Return`
-   The main button to validate the operation, which defines its name.
-   Double-clicking on a non-directory item will have the same effect.
+.. _bpy.ops.file.cancel:
 
 Cancel :kbd:`Esc`
    Cancels the file selection (and the underlying operation), and closes the File Browser.
    Using the *Back to Previous* button in the :doc:`Topbar </interface/window_system/topbar>`
    will have the same effect.
+
+.. _bpy.ops.file.execute:
+
+Confirm :kbd:`Return`
+   The main button to validate the operation, which defines its name.
+   Double-clicking on a non-directory item will have the same effect.
 
 
 Source List
@@ -166,17 +202,23 @@ The region is divided into separate panels each containing a :ref:`UI List <ui-l
 Clicking on one of the directories will immediately navigate to that folder.
 
 
+.. _bpy.types.SpaceFileBrowser.system_folders:
+
 Volumes
 -------
 
 Contains all OS-defined available volumes, e.g. drives or network mounts.
 
 
+.. _bpy.types.SpaceFileBrowser.system_bookmarks:
+
 System
 ------
 
 Contains OS-defined common directories, like the main user folder...
 
+
+.. _bpy.types.SpaceFileBrowser.bookmarks:
 
 Bookmarks
 ---------
@@ -186,10 +228,15 @@ To the right of that list are buttons to perform basic management actions on you
 e.g. add/remove an entry, move it up or down in the list, etc.
 
 
+.. _bpy.types.SpaceFileBrowser.recent_folders:
+
 Recent
 ------
 
 Contains recently accessed folders.
+
+.. _bpy.ops.file.reset_recent:
+
 The ``X`` button to the right allows you to fully erase this list.
 
 You can control how many folders appear in this list with the *Recent Files* number field
