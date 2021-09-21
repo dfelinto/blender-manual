@@ -268,13 +268,12 @@ File Management
 ---------------
 
 Delete Files :kbd:`Delete`, :kbd:`X`
-   Delete the currently selected files.
+   Delete the currently selected files or directories by moving them to the operating system's "trash".
+
+   Note, on Linux deleting directories requires KDE or GNOME.
+
 Rename :kbd:`F2`
    Change the name for the currently selected file or directory.
-
-.. warning::
-
-   Be careful, there is no way to undo those actions!
 
 
 .. _file_browser-previews:
