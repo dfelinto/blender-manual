@@ -178,11 +178,11 @@ System
 Contains OS-defined common directories, like the main user folder...
 
 
-Favorites
+Bookmarks
 ---------
 
 Contains folders that you want to be able to access often without having to navigate to them in the File Browser.
-To the right of that list are buttons to perform basic management actions on your favorites,
+To the right of that list are buttons to perform basic management actions on your bookmarks,
 e.g. add/remove an entry, move it up or down in the list, etc.
 
 
