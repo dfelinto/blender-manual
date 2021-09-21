@@ -15,18 +15,11 @@ The File Browser is used in all the file-related operations. These include:
 - Picking new locations for existing file paths (images, videos, fonts...).
 
 The most common way to use this editor is through modal operators (like opening or saving a blend-file).
-It will appear maximized, waiting for the operation to complete,
-and then close and return to the former screen layout.
+The File Browser will appear in a new window, waiting for the operation to complete,
+and then close returning the main window.
 
-.. note::
-
-   You can always select several entries in the File Browser,
-   the last selected one is considered as the active one.
-   If the calling operation expects a single path (like e.g. the main blend-file *Open* one),
-   it will get that active item's path, other selected ones will just be ignored.
-
-You can also keep the File Browser open, as any other editor type, to browse through the file system.
-The main purpose of this is to be able to drag-and-drop media files:
+You can us the File Browser as any other editor type, to browse through the file system.
+The main purpose of this is to be able to drag-and-drop from the File Browser into other editors.
 
 - Images into the :ref:`editors-3dview-index` (to set as background or apply as material texture).
 - Media files into the :ref:`editors-sequencer-index`.
@@ -294,6 +287,14 @@ Select
    Toggles selecting all files.
 Dragging
    Dragging with :kbd:`LMB` starts a :ref:`box selection <tool-select-box>`.
+
+
+.. note::
+
+   You can always select several entries in the File Browser,
+   the last selected one is considered as the active one.
+   If the calling operation expects a single path (like e.g. the main blend-file *Open* one),
+   it will get that active item's path, other selected ones will just be ignored.
 
 
 Arrow Keys
