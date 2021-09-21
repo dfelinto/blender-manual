@@ -137,38 +137,48 @@ Cancel :kbd:`Esc`
    will have the same effect.
 
 
-Toolbar
-=======
+Source List
+===========
 
-The left region is divided in two areas, Bookmarks on top, and the Operator panel at the bottom.
+The left region displays different ways to quickly access some directories.
+The region is divided into separate panels each containing a :ref:`UI List <ui-list-view>` of directories.
+Clicking on one of the directories will immediately navigate to that folder.
 
-
-Bookmarks
----------
-
-The top one displays different ways to quickly access some directories, in four :ref:`lists <ui-list-view>`.
-Clicking on one of the shortcut entries will immediately navigate to that folder.
 
 Volumes
-   Contains all OS-defined available volumes, e.g. drives or network mounts.
+-------
+
+Contains all OS-defined available volumes, e.g. drives or network mounts.
+
+
 System
-   Contains OS-defined common directories, like the main user folder...
+------
+
+Contains OS-defined common directories, like the main user folder...
+
+
 Favorites
-   Contains folders that you want to be able to access often without having to navigate to them in the File Browser.
-   To the right of that list are buttons to perform basic management actions on your favorites,
-   e.g. add/remove an entry, move it up or down in the list, etc.
+---------
+
+Contains folders that you want to be able to access often without having to navigate to them in the File Browser.
+To the right of that list are buttons to perform basic management actions on your favorites,
+e.g. add/remove an entry, move it up or down in the list, etc.
+
+
 Recent
-   Contains recently accessed folders.
-   The ``X`` button to the right allows you to fully erase this list.
+------
 
-   You can control how many folders appear in this list with the *Recent Files* number field
-   of the :ref:`Save & Load <prefs-save-load>` tab in the Preferences.
+Contains recently accessed folders.
+The ``X`` button to the right allows you to fully erase this list.
+
+You can control how many folders appear in this list with the *Recent Files* number field
+of the :ref:`Save & Load <prefs-save-load>` tab in the Preferences.
 
 
-Operator Panel
---------------
+Operator Options
+================
 
-Shows the options of the calling operator.
+The right region shows the options of the calling operator.
 Besides common actions listed below, many import/export add-ons will also expose their options there.
 
 Open, Save, Save As Blender File
