@@ -17,10 +17,10 @@ Inputs
 ======
 
 Min
-   The random value will be at least those values.
+   The random value will be greater than or equal to this value.
 
 Max
-   The random values will be no more than those values.
+   The random value will be less than or equal to this values.
 
 Seed
    Change the random sequence.
@@ -36,4 +36,4 @@ Outputs
 =======
 
 Value
-   The random generated value.
+   The generated random value.
