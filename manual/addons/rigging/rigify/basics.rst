@@ -201,14 +201,35 @@ If none is set Rigify will search and eventually overwrite an armature object na
 a Python script named ``rig_ui.py``.
 
 
+Force Widget Update
+^^^^^^^^^^^^^^^^^^^
+
+If enabled, Rigify will generate new widgets every time the rig is re-generated. By default,
+it tries to reuse the already generated widget objects, allowing them to be manually edited
+to fit the character better.
+
+
+Mirror Widgets
+^^^^^^^^^^^^^^
+
+When enabled, Rigify generates widgets for left and right side bones as linked duplicates,
+using negative X scale to flip the right side version. This enforces symmetry and reduces the
+number of meshes to adjust to fit the character.
+
+When reusing an already generated widget, Rigify detects if it was originally generated mirrored
+by checking object scale to avoid flipping existing controls. Therefore switching to mirrored
+widgets for an existing character requires deleting the right side widgets, or *Force Widget Update*.
+
+
 Run Script
 ^^^^^^^^^^
 
 It is possible to configure Rigify to execute a python script contained in a text datablock
-after generation in order to apply user-defined customizations.
+after generation in order to apply user-defined customizations. The script is called with
+the generated rig active and selected in Object mode.
 
 The simplest use of this may be adjusting properties of generated constraints when Rigify rig types
-don't have any relevant metarig settings. That can be done simply by using the *Copy Full Data Path*
+don't have any relevant metarig settings. That can be done easily by using the *Copy Full Data Path*
 context menu option on the property, pasting it into the script and making an assignment, e.g.::
 
    import bpy
@@ -217,9 +238,10 @@ context menu option on the property, pasting it into the script and making an as
 
 Doing such changes via a script would ensure they aren't lost if the rig is re-generated.
 
-Users familiar with Rigify scripting can import Rigify utility modules, and access the generator
-instance through ``rigify.get_generator()``; note however that since generation is already
-finished, the only use of that is reading data created in the generation process.
+Users familiar with `Rigify scripting <https://wiki.blender.org/wiki/Process/Addons/Rigify>`__
+can import Rigify utility modules, and access the generator instance through ``rigify.get_generator()``;
+note however that since generation is already finished, the only use of that is reading data created
+in the generation process.
 
 
 Library Linking
