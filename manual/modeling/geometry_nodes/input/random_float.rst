@@ -20,7 +20,7 @@ Min
    The random value will be greater than or equal to this value.
 
 Max
-   The random value will be less than or equal to this values.
+   The random value will be less than or equal to this value.
 
 Seed
    Change the random sequence.

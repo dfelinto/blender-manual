@@ -10,7 +10,7 @@ Bounding Box
 
    The Bounding Box node.
 
-The *Bounding Box* node creates a cube with the minimum volume that encapsulates the geometry of the input.
+The *Bounding Box* node creates a box with the minimum volume that encapsulates the geometry of the input.
 The node also can output the vector positions of the bounding dimensions.
 
 
@@ -31,14 +31,14 @@ Outputs
 =======
 
 Bounding Box
-   The resulting box or cube to encapsulate the input geometry.
+   The resulting box that encapsulate the input geometry.
 
 Min
-   The coordinates corresponding to the cubes -X, -Y, -Z position values,
+   The coordinates corresponding to the box's -X, -Y, -Z position values,
    i.e. how far the box extends in each of the negative axes directions.
 
 Max
-   The coordinates corresponding to the cubes +X, +Y, +Z position values,
+   The coordinates corresponding to the box's +X, +Y, +Z position values,
    i.e. how far the box extends in each of the positive axes directions.
 
 
@@ -47,4 +47,4 @@ Example
 
 .. figure:: /images/modeling_geometry-nodes_geometry_bounding-box_example.png
 
-   Bounding Box node used to create a cube that encapsulates the monkey mesh geometry.
+   Bounding Box node used to create a box that encapsulates the geometry of the monkey mesh.
