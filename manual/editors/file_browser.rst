@@ -29,18 +29,14 @@ The main purpose of this is to be able to drag-and-drop from the File Browser in
    The File Browser.
 
 
-Header
-======
-
-View Menu
----------
-
-Select
-------
-
-
-File Path
+Interface
 =========
+
+Header Region
+-------------
+
+File Path Region
+----------------
 
 .. _bpy.ops.file.previous:
 
@@ -94,9 +90,8 @@ Display Mode
    :Thumbnails: Shows :ref:`previews <file_browser-previews>`.
 
 
-
 Display Settings
-----------------
+^^^^^^^^^^^^^^^^
 
 .. _bpy.types.FileSelectParams.display_size:
 
@@ -143,7 +138,7 @@ Sort By
 .. _bpy.types.FileSelectParams.use_filter:
 
 Filter Settings
----------------
+^^^^^^^^^^^^^^^
 
 On the right side of the file path are the filtering options.
 The first "funnel" button controls whether filtering is enabled or not.
@@ -162,8 +157,8 @@ Show Hidden :kbd:`H`
    Shows hidden files (starting with a ``.``).
 
 
-File Name & Execution
-=====================
+Execution Region
+----------------
 
 .. _bpy.types.FileSelectParams.filename:
 
@@ -190,8 +185,8 @@ Confirm :kbd:`Return`
    Double-clicking on a non-directory item will have the same effect.
 
 
-Source List
-===========
+Source List Region
+------------------
 
 The left region displays different ways to quickly access some directories.
 The region is divided into separate panels each containing a :ref:`UI List <ui-list-view>` of directories.
@@ -239,8 +234,8 @@ You can control how many folders appear in this list with the *Recent Files* num
 of the :ref:`Save & Load <prefs-save-load>` tab in the Preferences.
 
 
-Operator Options
-================
+Operator Options Region
+-----------------------
 
 The right region shows the options of the calling operator.
 Besides common actions listed below, many import/export add-ons will also expose their options there.
@@ -259,10 +254,29 @@ Relative Path
 
 
 Main Region
-===========
+-----------
 
-Navigation
-----------
+.. _file_browser-previews:
+
+Previews
+^^^^^^^^
+
+.. figure:: /images/editors_file-browser_previews.png
+
+   The File Browser in *Thumbnail* mode.
+
+In its *Thumbnail* display mode, the File Browser supports many types of previews. These include:
+
+- Image and video formats
+- Fonts
+- Blend-files
+- Internal :doc:`Data-blocks </files/data_blocks>`
+
+See :doc:`Blend-files Previews </files/blend/previews>` for how to manage Blender data previews.
+
+
+Navigating
+==========
 
 Entering a Directory
    A single :kbd:`LMB` click on a directory enters it.
@@ -271,14 +285,14 @@ Parent Directory :kbd:`P`
 
 
 File Drop
-^^^^^^^^^
+---------
 
 You can also drag and drop a file or directory from your file manager into the Blender File Browser.
 This will move it to the directory of the dropped file, and the file will be selected.
 
 
-Selection
----------
+Selecting
+=========
 
 Select
    Both :kbd:`LMB` and :kbd:`RMB` clicks work.
@@ -287,7 +301,6 @@ Select
    Toggles selecting all files.
 Dragging
    Dragging with :kbd:`LMB` starts a :ref:`box selection <tool-select-box>`.
-
 
 .. note::
 
@@ -298,7 +311,7 @@ Dragging
 
 
 Arrow Keys
-^^^^^^^^^^
+----------
 
 It is also possible to select/deselect files by "walking" through them using the arrow keys:
 
@@ -315,8 +328,8 @@ If you select a directory and hit :kbd:`Return`, you will go into that directory
 (and highlighting 'parent' ``..`` entry will bring you up one level).
 
 
-File Management
----------------
+Editing
+=======
 
 Delete Files :kbd:`Delete`, :kbd:`X`
    Delete the currently selected files or directories by moving them to the operating system's "trash".
@@ -325,22 +338,3 @@ Delete Files :kbd:`Delete`, :kbd:`X`
 
 Rename :kbd:`F2`
    Change the name for the currently selected file or directory.
-
-
-.. _file_browser-previews:
-
-Previews
---------
-
-.. figure:: /images/editors_file-browser_previews.png
-
-   The File Browser in *Thumbnail* mode.
-
-In its *Thumbnail* display mode, the File Browser supports many types of previews. These include:
-
-- Image and video formats
-- Fonts
-- Blend-files
-- Internal :doc:`Data-blocks </files/data_blocks>`
-
-See :doc:`Blend-files Previews </files/blend/previews>` for how to manage Blender data previews.
