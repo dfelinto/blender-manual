@@ -32,11 +32,41 @@ The main purpose of this is to be able to drag-and-drop from the File Browser in
 Interface
 =========
 
-Header Region
--------------
+Main Region
+-----------
+
+The main region of the file browser acts similar to the file browser built into you operating system.
+The region contains an array of files, folders, or internal blend-file data in a grid or list of items.
+You can `navigate <Navigating>`_, `select <Selecting>`_,
+and `edit <Editing>`_ these items just as you would in your operating system's file browser.
+
+
+.. _file_browser-previews:
+
+Previews
+^^^^^^^^
+
+In its *Thumbnail* display mode, the File Browser supports many types of previews. These include:
+
+- Image and video formats
+- Fonts
+- Blend-files
+- Internal :doc:`Data-blocks </files/data_blocks>`
+
+In order to get previews for data-block, there previews must be generated.
+See :doc:`Blend-files Previews </files/blend/previews>` for how to generate and manage Blender data previews.
+
+.. figure:: /images/editors_file-browser_previews.png
+   :align: center
+   :width: 50%   
+
+   The File Browser in *Thumbnail* mode.
+
 
 File Path Region
 ----------------
+
+The File Path is above the main region and can aid in navigating and adjust how items are displayed.
 
 .. _bpy.ops.file.previous:
 
@@ -196,7 +226,7 @@ Clicking on one of the directories will immediately navigate to that folder.
 .. _bpy.types.SpaceFileBrowser.system_folders:
 
 Volumes
--------
+^^^^^^^
 
 Contains all OS-defined available volumes, e.g. drives or network mounts.
 
@@ -204,7 +234,7 @@ Contains all OS-defined available volumes, e.g. drives or network mounts.
 .. _bpy.types.SpaceFileBrowser.system_bookmarks:
 
 System
-------
+^^^^^^
 
 Contains OS-defined common directories, like the main user folder...
 
@@ -212,7 +242,7 @@ Contains OS-defined common directories, like the main user folder...
 .. _bpy.types.SpaceFileBrowser.bookmarks:
 
 Bookmarks
----------
+^^^^^^^^^
 
 Contains folders that you want to be able to access often without having to navigate to them in the File Browser.
 To the right of that list are buttons to perform basic management actions on your bookmarks,
@@ -222,7 +252,7 @@ e.g. add/remove an entry, move it up or down in the list, etc.
 .. _bpy.types.SpaceFileBrowser.recent_folders:
 
 Recent
-------
+^^^^^^
 
 Contains recently accessed folders.
 
@@ -253,26 +283,14 @@ Relative Path
    See :ref:`files-blend-relative_paths`.
 
 
-Main Region
------------
+Header Region
+-------------
 
-.. _file_browser-previews:
+Often the header for the file browser is hidden as most of the
+functionality is contained in the regions described above.
 
-Previews
-^^^^^^^^
-
-.. figure:: /images/editors_file-browser_previews.png
-
-   The File Browser in *Thumbnail* mode.
-
-In its *Thumbnail* display mode, the File Browser supports many types of previews. These include:
-
-- Image and video formats
-- Fonts
-- Blend-files
-- Internal :doc:`Data-blocks </files/data_blocks>`
-
-See :doc:`Blend-files Previews </files/blend/previews>` for how to manage Blender data previews.
+You will find two small menus, one with you standard editor *View* controls
+and the other to expose a few `Selecting`_ operators for the sake of discoverability.
 
 
 Navigating
