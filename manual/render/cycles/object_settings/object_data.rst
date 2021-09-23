@@ -27,7 +27,9 @@ Mask
       .. note::
 
          The *Shadow Catcher* outputs different results depending on if the *Shadow Catcher* pass is enabled in
-         :ref:`Render Layer <render_layers_passes_data>` settings.
+         :ref:`Render Layer <render_layers_passes_data>` settings. With the *Shadow Catcher* pass enabled, all 
+         indirect light interactions are captured. With it disabled, a simple approximation is used instead.
+         The simple approximation is used in viewport rendering.
 
       .. figure:: /images/render_cycles_object-settings_object-data_shadow-catcher.jpg
 
