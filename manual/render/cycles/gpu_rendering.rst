@@ -10,7 +10,7 @@ On the other hand, they also have some limitations in rendering complex scenes, 
 and issues with interactivity when using the same graphics card for display and rendering.
 
 To enable GPU rendering, go into the :menuselection:`Preferences --> System --> Cycles Render Devices`,
-and select either *CUDA*, *OptiX* or *OpenCL*. Next, you must configure each scene to use GPU rendering in
+and select either *CUDA* or *OptiX*. Next, you must configure each scene to use GPU rendering in
 :menuselection:`Properties --> Render --> Device`.
 
 .. note::
@@ -39,10 +39,7 @@ To make sure your GPU is supported,
 see the `list of Nvidia graphics cards <https://developer.nvidia.com/cuda-gpus#compute>`__
 with the compute capabilities and supported graphics cards.
 
-.. note:: Unsupported Features:
-
-   - Open Shading Language
-   - Advanced volume light sampling to reduce noise
+.. note:: Open Shading Language is not supported.
 
 
 .. _render-cycles-gpu-optix:
@@ -55,42 +52,7 @@ To make sure your GPU is supported,
 see the `list of Nvidia graphics cards <https://developer.nvidia.com/cuda-gpus#compute>`__
 OptiX works best on RTX graphics cards with hardware ray tracing support (e.g. Turing and above).
 
-.. note:: Unsupported Features:
-
-   - Open Shading Language
-   - Advanced volume light sampling to reduce noise
-   - Branched Path Tracing
-
-
-AMD
----
-
-:abbr:`OpenCL (Open Computing Language)` is supported for GPU rendering with AMD graphics cards.
-Blender supports GPU rendering on graphics cards with :abbr:`GCN (Graphics Core Next)` generation 2 and above.
-To make sure your GPU is supported,
-see the `list of GCN generations <https://en.wikipedia.org/wiki/Graphics_Core_Next#Generations>`__
-with the GCN generation and supported graphics cards.
-
-On Windows and Linux, the latest Pro drivers should be installed from
-the `AMD website <https://www.amd.com/en/support>`__.
-
-.. note:: Unsupported Features:
-
-   - Open Shading Language
-   - Advanced volume light sampling to reduce noise
-
-
-Intel
------
-
-:abbr:`OpenCL (Open Computing Language)` is supported for GPU rendering with Intel graphics cards.
-Blender supports GPU rendering on Intel Iris and Xe graphics cards.
-Currently OpenCL rendering on Intel only works on Windows and Linux, macOS is currently is unsupported.
-
-.. note:: Unsupported Features:
-
-   - Open Shading Language
-   - Advanced volume light sampling to reduce noise
+.. note:: Open Shading Language is not supported.
 
 
 Frequently Asked Questions
@@ -119,7 +81,6 @@ Typically, the GPU can only use the amount of memory that is on the GPU
 This is usually much smaller than the amount of system memory the CPU can access.
 With CUDA and OptiX devices, if the GPU memory is full Blender will automatically try to use system memory.
 This has a performance impact, but will usually still result in a faster render than using CPU rendering.
-This feature does not work for OpenCL rendering.
 
 
 Can multiple GPUs be used for rendering?
@@ -135,7 +96,7 @@ Typically, no, each GPU can only access its own memory, however, some GPUs can s
 This is can be enabled with :ref:`Distributed Memory Across Devices <prefs-system-cycles-distributive-memory>`.
 
 
-What renders faster, Nvidia or AMD, CUDA, OptiX or OpenCL?
+What renders faster?
 ----------------------------------------------------------
 
 This varies depending on the hardware used. Different technologies also have different compute times
@@ -146,7 +107,7 @@ browse the `Blender Open Data <https://opendata.blender.org/>`__ resource.
 Error Messages
 ==============
 
-In case of problems, be sure to install the official graphics drivers from the Nvidia or AMD website,
+In case of problems, be sure to install the official graphics drivers from the GPU manufacturers website,
 or through the package manager on Linux.
 
 
