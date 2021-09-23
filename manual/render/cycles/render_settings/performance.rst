@@ -35,26 +35,8 @@ Tiles
 .. _bpy.types.RenderSettings.tile_x:
 .. _bpy.types.RenderSettings.tile_y:
 
-Tiles X, Y
-   The size of the tiles for rendering.
-
-   Depending on what device you are using for rendering, different tile sizes can give faster renders.
-   For CPU rendering smaller tiles sizes (like 32 × 32) tend to be faster, while for
-   :doc:`GPU rendering </render/cycles/gpu_rendering>` larger tile sizes give a better performance (like 256 × 256).
-
-.. _bpy.types.CyclesRenderSettings.tile_order:
-
-Order
-   Order of rendering tiles. This does not significantly affect the performance.
-
-.. _bpy.types.CyclesRenderSettings.use_progressive_refine:
-
-Progressive Refine
-   Instead of rendering each tile until it has finished every sample, refine the whole image progressively.
-   Note that progressive rendering is slightly slower than tiled rendering,
-   but time can be saved by manually stopping the render when the noise level is low enough.
-
-   For rendering animations it is best to disable this feature, as stopping a frame early is not possible.
+Tile Size
+   This value is used to control the size of the tile used for rendering. Decreasing the size reduces memory usuage.
 
 
 Acceleration Structure
@@ -82,14 +64,6 @@ BVH Time Steps
 Final Render
 ============
 
-.. _bpy.types.RenderSettings.use_save_buffers:
-
-Save Buffers
-   Saves all render layers and passes to the temp directory on a drive,
-   and reads them back after rendering has finished. This saves memory (RAM) usage during rendering,
-   particularly when using many render layers and passes. This can be read back in the Compositor
-   and Image editor by using :ref:`bpy.ops.node.read_viewlayers`.
-
 .. _bpy.types.RenderSettings.use_persistent_data:
 
 Persistent Data
@@ -109,8 +83,3 @@ Viewport
 Pixel Size
    Option to control the resolution for viewport rendering.
    Allows you to speed up viewport rendering, which is especially useful for displays with high DPI.
-
-.. _bpy.types.CyclesRenderSettings.preview_start_resolution:
-
-Start Pixels
-   Resolution to start rendering preview at, progressively increase it to the full viewport size.
