@@ -5,48 +5,6 @@
 World Settings
 **************
 
-.. _bpy.types.WorldLighting.use_ambient_occlusion:
-
-Ambient Occlusion
-=================
-
-.. reference::
-
-   :Panel:     :menuselection:`World --> Ambient Occlusion`
-
-Ambient occlusion is a lighting method based on how much a point on a surface is occluded by
-nearby surfaces. It simulates soft global illumination shadows by faking darkness
-perceived in corners and at mesh intersections, creases, and cracks,
-where ambient light is occluded, or blocked.
-This is a trick that is not physically accurate,
-but it is useful to emphasize the shapes of surfaces,
-or as a cheap way to get an effect that looks a bit like indirect lighting.
-
-.. _bpy.types.WorldLighting.ao_factor:
-
-Factor
-   The strength of the ambient occlusion; value 1.0 is like a white world shader.
-
-.. _bpy.types.WorldLighting.distance:
-
-Distance
-   Distance from shading point to trace rays.
-   A shorter distance emphasizes nearby features,
-   while longer distances make it also take objects farther away into account.
-   
-   This option can also be overridden per object in the
-   :ref:`Object Properties <bpy.types.CyclesObjectSettings.ao_distance>`,
-   which is useful when you have both small and large scale objects in the same scene.
-
-Lighting from ambient occlusion is only applied to diffuse reflection BSDFs;
-glossy or transmission BSDFs are not affected.
-Transparency of surfaces will be taken into account, i.e.
-a half-transparent surface will only half occlude.
-
-An alternative method of using Ambient Occlusion on a per-shader basis is to use
-the :doc:`Ambient Occlusion </render/shader_nodes/input/ao>` shader.
-
-
 .. _bpy.types.WorldMistSettings:
 
 Mist Pass
