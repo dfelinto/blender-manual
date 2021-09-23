@@ -181,5 +181,5 @@ Fast GI Approximation
 .. _bpy.types.CyclesObjectSettings.ao_distance:
 
 AO Distance
-   Override for the world's :ref:`AO Distance <bpy.types.WorldLighting.distance>`,
+   Override for the world's :ref:`AO Distance <bpy.types.CyclesRenderSettings.use_fast_gi>`,
    if the value is zero the world's distance is used.
