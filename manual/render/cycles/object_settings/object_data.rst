@@ -23,6 +23,11 @@ Mask
       Enables the object to only receive shadow rays. It is to be noted that,
       shadow catcher objects will interact with other CG objects via indirect light interaction.
       This simplifies compositing :abbr:`CGI (Computer-Generated Imagery)` elements into real-world footage.
+      
+      .. note::
+
+         The *Shadow Catcher* outputs different results depending on if the *Shadow Catcher* pass is enabled in
+         :ref:`Render Layer <render_layers_passes_data>` settings.
 
       .. figure:: /images/render_cycles_object-settings_object-data_shadow-catcher.jpg
 
@@ -133,16 +138,6 @@ Shading
 
    :Panel:     :menuselection:`Properties --> Object Properties --> Shading`
 
-Fast GI Approximation
----------------------
-
-.. _bpy.types.CyclesObjectSettings.ao_distance:
-
-AO Distance
-   Override for the world's :ref:`AO Distance <bpy.types.WorldLighting.distance>`,
-   if the value is zero the world's distance is used.
-
-
 Shadow Terminator
 -----------------
 
@@ -176,3 +171,13 @@ Shading Offset
 
       This property artificially alters the scene's lighting
       and is not energy conserving and consequently not physically accurate see *Geometry Offset* instead).
+
+
+Fast GI Approximation
+---------------------
+
+.. _bpy.types.CyclesObjectSettings.ao_distance:
+
+AO Distance
+   Override for the world's :ref:`AO Distance <bpy.types.WorldLighting.distance>`,
+   if the value is zero the world's distance is used.
