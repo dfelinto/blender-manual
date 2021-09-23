@@ -12,10 +12,6 @@ This has a few different purposes, most commonly:
   as a base for texture painting or further edits.
 - Creating light maps to provide global illumination or speed up rendering in games.
 
-.. note::
-
-   Baking is not supported on :ref:`OptiX <render-cycles-gpu-optix>` GPU rendering.
-
 
 Setup
 =====
@@ -184,8 +180,6 @@ For even more control you can use a *Cage Object*.
 
    There is a CPU fixed memory footprint for every object used to bake from.
    In order to avoid crashes due to lack of memory, the high-poly objects can be joined before the baking process.
-   The render tiles parameter also influence the memory usage, so the bigger the tile the less overhead you have,
-   but the more memory it will take during baking (either in GPU or CPU).
 
 .. _bpy.types.BakeSettings.use_cage:
 
