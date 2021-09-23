@@ -22,9 +22,6 @@ Common
 Cycles
 ======
 
-Samples
-   For the branch path tracing integrator, this specifies the number of direct light samples per AA sample.
-   Point lights might need only one sample, while area lights typically need more.
 Max Bounces
    Maximum number of times light from the light is allowed to :term:`Bounce <Light Bounces>`.
    Limited by :ref:`scene-wide bounce settings <bpy.types.CyclesRenderSettings.max_bounces>`.
