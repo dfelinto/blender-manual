@@ -32,11 +32,17 @@ Threads
 Tiles
 =====
 
-.. _bpy.types.RenderSettings.tile_x:
-.. _bpy.types.RenderSettings.tile_y:
+.. _bpy.types.RenderSettings.use_auto_tile:
+
+Auto Tiles
+   Enables or disables the use of tiles. Tiles are used to reduce memory usage while rendering high
+   resolution images.
+
+.. _bpy.types.RenderSettings.tile_size:
 
 Tile Size
-   This value is used to control the size of the tile used for rendering. Decreasing the size reduces memory usuage.
+   This value is used to control the size of the tile used for rendering. Decreasing the size reduces
+   memory usuage.
 
 
 Acceleration Structure

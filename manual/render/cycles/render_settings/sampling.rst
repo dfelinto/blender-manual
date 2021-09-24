@@ -18,17 +18,26 @@ or the world background. To find lights and surfaces emitting light,
 both indirect light sampling (letting the ray follow the surface BSDF)
 and direct light sampling (picking a light source and tracing a ray towards it) are used.
 
-.. _bpy.types.CyclesRenderSettings.samples:
+.. _bpy.types.CyclesRenderSettings.preview_samples:
 
-Render
+Viewport Samples
+   Number of samples for viewport rendering. Setting this value to zero
+   enables indefinite sampling of the viewport.
+   
+   .. _bpy.types.CyclesRenderSettings.samples:
+
+Render Samples
    Number of paths to trace for each pixel in the final render. As more samples are taken,
    the solution becomes less noisy and more accurate.
 
-.. _bpy.types.CyclesRenderSettings.preview_samples:
+   .. _bpy.types.CyclesRenderSettings.time_limit:
 
-Viewport
-   Number of samples for viewport rendering. Setting this value to zero
-   enables indefinite sampling of the viewport.
+Time Limit
+   Renders scene until time limit or sample count is reached. When the time is 0,
+   the sample count is used to determine when the render stops.
+   
+   .. note:: The time limit does not include pre-render processing time, only render time. 
+   
 
 
 .. _bpy.types.CyclesRenderSettings.use_adaptive_sampling:
@@ -49,6 +58,7 @@ Then render samples can then be set to a high value,
 and the renderer will automatically choose the appropriate amount of samples.
 
 .. _bpy.types.CyclesRenderSettings.adaptive_threshold:
+.. _bpy.types.CyclesRenderSettings.preview_adaptive_threshold:
 
 Noise Threshold
    The error threshold to decide whether to continue sampling a pixel or not.
@@ -56,6 +66,7 @@ Noise Threshold
    Setting it to exactly 0 lets Cycles guess an automatic value for it based on the total sample count.
 
 .. _bpy.types.CyclesRenderSettings.adaptive_min_samples:
+.. _bpy.types.CyclesRenderSettings.preview_adaptive_min_samples:
 
 Min Samples
    The minimum number of samples a pixel receives before adaptive sampling is applied.
@@ -108,6 +119,7 @@ Start Sample
    Sample to start :ref:`denoising <render-cycles-settings-viewport-denoising>` in the 3D Viewport.
 
 .. _bpy.types.CyclesRenderSettings.preview_denoising_input_passes:
+.. _bpy.types.CyclesRenderSettings.denoising_input_passes:
 
 Input Passes
    Controls which :doc:`Render Pass </render/layers/passes>` the denoiser should use as input,
@@ -119,6 +131,9 @@ Input Passes
    :Color: Denoise the color data.
    :Color + Albedo: Denoise the color and albedo data.
    :Color + Albedo + Normal: Denoise the color, albedo, and normal pass data.
+
+.. _bpy.types.CyclesRenderSettings.preview_denoising_prefilter:
+.. _bpy.types.CyclesRenderSettings.denoising_prefilter:
 
 Prefilter
    Controls whether or not prefiltering is applied to auxiliary passes (Albedo and Normal) for use when

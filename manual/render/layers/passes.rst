@@ -34,6 +34,8 @@ Include
       Distance to visible surfaces, mapped to the 0.0 - 1.0 range.
       When enabled, settings are in :ref:`World tab <bpy.types.WorldMistSettings>`.
       This pass can be used in compositing to fade out objects that are farther away.
+   Position
+      World position of objects in the scene.
    Normal
       Surface normal used for shading.
    Vector
