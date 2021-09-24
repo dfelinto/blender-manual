@@ -33,7 +33,7 @@ Render Samples
    .. _bpy.types.CyclesRenderSettings.time_limit:
 
 Time Limit
-   Renders scene until time limit or sample count is reached. When the time is 0,
+   Renders scene until time limit or sample count is reached. When the time is set to 0,
    the sample count is used to determine when the render stops.
    
    .. note:: The time limit does not include pre-render processing time, only render time. 
