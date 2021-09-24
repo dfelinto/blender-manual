@@ -112,5 +112,27 @@ Only Selected Keyframes
    Convert only the selected keyframes.
 Target Frame
    Target destination frame for the baked animation.
-Reproject Type
-   Sets the reprojection type to use for the converted strokes.
+Projection Type
+   Sets the projection type to use for the converted strokes.
+
+Bake Object Transform to Grease Pencil
+=======================================
+
+.. reference::
+
+   :Editor:    3D Viewport
+   :Mode:      Object and Pose Modes
+   :Menu:      :menuselection:`Object --> Animation --> Bake Object Transform to Grease Pencil...`
+
+Applies all transform animation at Object level within a selected frame range to Grease Pencil object keyframes.
+
+Start Frame, End Frame
+   Start/End frame for the baking process.
+Step
+   Frame steps for the baking process
+Only Selected Keyframes
+   Convert only the selected keyframes.
+Target Frame
+   Target destination frame for the baked animation.
+Projection Type
+   Sets the projection type to use for the converted strokes.

@@ -12,3 +12,4 @@
    generate/index.rst
    deform/index.rst
    color/index.rst
+   modify/index.rst

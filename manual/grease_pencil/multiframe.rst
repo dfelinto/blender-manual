@@ -31,3 +31,7 @@ Usage
 Use Falloff
    When enabled, the effects on the strokes start to falloff from the current frame
    as defined by a :doc:`curve widget </interface/controls/templates/curve>`.
+
+.. note::
+
+   Not all operators support Multiframe mode.

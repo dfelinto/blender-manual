@@ -14,4 +14,3 @@
    offset.rst
    smooth.rst
    thickness.rst
-   time_offset.rst
