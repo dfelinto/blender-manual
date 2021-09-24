@@ -37,14 +37,16 @@ Properties
 
 Prefilter
    :None: 
-      Assumes that the *auxiliary passes* (Albedo and Normal) are noise free while denoising and does not do 
-      any preprocessing on the *auxiliary passes*. This option retains the most detail and is the fastest.
+      Does not apply any prefiltering to the *auxiliary passes*. This option retains the most detail and
+      is the fastest, but assumes the *auxiliary passes* are noise free which may require a high sample
+      count. If the *auxilary passes* aren't noise free, then noise will remain in the image after 
+      denoising.
    :Fast: 
-      Assumes the *auxiliary passes* are not noise free, but does not apply processing to the 
-      *auxiliary passes*. This option is faster than *Accurate* but generally produces a blurrier result.
+      Assumes the *auxiliary passes* are not noise free, but does not apply prefiltering to the 
+      *auxiliary passes*. This option is faster than *Accurate* but produces a blurrier result.
    :Accurate: 
       Prefilters the auxiliary passes before denoising to reduce noise. This option usually produces
-      more detailed results than *Fast* with increase processing time.
+      more detailed results than *Fast* with increased processing time.
 HDR
    Preserve colors outside the 0 to 1 range.
 

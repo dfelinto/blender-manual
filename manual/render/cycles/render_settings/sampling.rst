@@ -128,28 +128,30 @@ Input Passes
    It is recommended to at least use *Color + Albedo* as just *Color* can blur out details,
    especially at lower sample counts.
 
-   :Color: Denoise the color data.
-   :Color + Albedo: Denoise the color and albedo data.
-   :Color + Albedo + Normal: Denoise the color, albedo, and normal pass data.
+   :Color: Denoises the image using color data.
+   :Color + Albedo: Denoises the image using color and albedo data.
+   :Color + Albedo + Normal: Denoises the image using color, albedo, and normal pass data.
 
 .. _bpy.types.CyclesRenderSettings.preview_denoising_prefilter:
 .. _bpy.types.CyclesRenderSettings.denoising_prefilter:
 
 Prefilter
+   Visible only when using *OpenImageDenoise*
+   
    Controls whether or not prefiltering is applied to auxiliary passes (Albedo and Normal) for use when
    denoising.
 
    :None: 
-      Assumes that the *auxiliary passes* are noise free while denoising and does not do any preprocessing
-      on the *auxiliary passes*. This option retains the most detail and is the fastest.
+      Does not apply any prefiltering to the *auxiliary passes*. This option retains the most detail and
+      is the fastest, but assumes the *auxiliary passes* are noise free which may require a high sample
+      count. If the *auxilary passes* aren't noise free, then noise will remain in the image after 
+      denoising.
    :Fast: 
-      Assumes the *auxiliary passes* are not noise free, but does not apply processing to the 
-      *auxiliary passes*. This option is faster than *Accurate* but generally produces a blurrier result.
+      Assumes the *auxiliary passes* are not noise free, but does not apply prefiltering to the 
+      *auxiliary passes*. This option is faster than *Accurate* but produces a blurrier result.
    :Accurate: 
       Prefilters the auxiliary passes before denoising to reduce noise. This option usually produces
-      more detailed results than *Fast* with increase processing time.
-
-   Visible only when using *OpenImageDenoise*
+      more detailed results than *Fast* with increased processing time.
 
 
 Advanced
