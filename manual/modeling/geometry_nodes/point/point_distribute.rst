@@ -31,7 +31,7 @@ Distance Min
    This option is only available on distribution methods that support it.
 
 Density Max
-   The point density for the point distribution. The units are number of points per square meter.
+   The point density for the point distribution. The unit is in number of points per square meter.
    This value is multiplied by the values from the *Density Attribute*.
 
    .. note::
