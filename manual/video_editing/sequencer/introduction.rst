@@ -7,7 +7,7 @@ The Sequencer region is horizontally divided into channels,
 each channel can contain what is called a strip.
 A strip can be an image, animation, or any number of effects.
 Each channel is numbered consecutively on the Y axis,
-starting from zero and allows up to 32 total channels.
+starting from zero and allows up to 128 total channels.
 The X axis represents time. Each channel can contain as many strips
 as it needs as long as they do not overlap. If a strip needs to overlap another,
 it needs to be placed on a channel above or below the other strip.
