@@ -1,7 +1,6 @@
 .. _bpy.types.CompositorNodeInvert:
 .. Editors Note: This page gets copied into:
 .. - :doc:`</render/cycles/nodes/types/color/invert>`
-.. - :doc:`</physics/simulation/nodes/color/invert>`
 
 .. --- copy below this line ---
 

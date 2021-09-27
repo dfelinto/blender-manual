@@ -1,6 +1,5 @@
 .. _bpy.types.ShaderNodeVectorMath:
 .. Editors Note: This page gets copied into:
-.. - :doc:`</physics/simulation/nodes/converter/vector_math>`
 .. - :doc:`</modeling/nodes/vector/vector_math>`
 
 .. --- copy below this line ---

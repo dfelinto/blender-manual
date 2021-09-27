@@ -1,8 +1,4 @@
 .. _bpy.types.ShaderNodeTexNoise:
-.. Editors Note: This page gets copied into:
-.. - :doc:`</physics/simulation/nodes/noise/noise_texture>`
-
-.. --- copy below this line ---
 
 ******************
 Noise Texture Node
