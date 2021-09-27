@@ -35,14 +35,14 @@ Tiles
 .. _bpy.types.RenderSettings.use_auto_tile:
 
 Auto Tiles
-   Enables or disables the use of tiles. Tiles are used to reduce memory usage while rendering high
-   resolution images.
+   Automatically render high resolution images in tiles to reduce memory usage.
+   Tiles are cached to disk while rendering to save memory
 
 .. _bpy.types.RenderSettings.tile_size:
 
 Tile Size
-   This value is used to control the size of the tile used for rendering. Decreasing the size reduces
-   memory usuage.
+   This value is used to control the size of the tile used for rendering;
+   decreasing the size reduces memory usage.
 
 
 Acceleration Structure
