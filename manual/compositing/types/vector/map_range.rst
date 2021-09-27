@@ -1,8 +1,4 @@
 .. _bpy.types.CompositorNodeMapRange:
-.. Editors Note: This page gets copied into:
-.. - :doc:`</modeling/modifiers/nodes/utilities/map_range>`
-
-.. --- copy below this line ---
 
 **************
 Map Range Node
