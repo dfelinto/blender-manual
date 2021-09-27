@@ -35,7 +35,7 @@ Properties
 Blend Type
    Operation that is performed on the inputs.
 
-Factor A, B
+Factor, A, B
    Input type for the corresponding socket.
 
 
