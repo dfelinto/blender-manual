@@ -23,11 +23,11 @@ Mask
       Enables the object to only receive shadow rays. It is to be noted that,
       shadow catcher objects will interact with other CG objects via indirect light interaction.
       This simplifies compositing :abbr:`CGI (Computer-Generated Imagery)` elements into real-world footage.
-      
+
       .. note::
 
          The *Shadow Catcher* outputs different results depending on if the *Shadow Catcher* pass is enabled in
-         :ref:`Render Layer <render_layers_passes_data>` settings. With the *Shadow Catcher* pass enabled, all 
+         :ref:`Render Layer <render_layers_passes_data>` settings. With the *Shadow Catcher* pass enabled, all
          indirect light interactions are captured. With it disabled, a simple approximation is used instead.
          The simple approximation is used in viewport rendering.
 
@@ -111,7 +111,7 @@ Motion Blur
    :Panel:     :menuselection:`Properties --> Object Properties --> Motion Blur`
 
 Each object has its own motion blur settings along with
-the :doc:`Scene Level Motion Blur </render/cycles/render_settings/motion_blur>`
+the :doc:`Scene Level Motion Blur </render/cycles/render_settings/motion_blur>`.
 These settings can be found in the Object Properties tab of the Properties.
 
 .. _bpy.types.CyclesObjectSettings.motion_steps:
@@ -140,13 +140,14 @@ Shading
 
    :Panel:     :menuselection:`Properties --> Object Properties --> Shading`
 
+
 Shadow Terminator
 -----------------
 
 .. _bpy.types.CyclesObjectSettings.shadow_terminator_geometry_offset:
 
 Geometry Offset
-   Offset rays from the surface to reduce shadow terminator artifact on low poly geometry.
+   Offset rays from the surface to reduce shadow terminator artifacts on low-poly geometry.
    Higher values affect more triangles, a value of one affecting all triangles and zero having no affect.
    The default value only affects triangles at grazing angles to light and should eliminate most artifacts.
 
@@ -172,7 +173,7 @@ Shading Offset
    .. note::
 
       This property artificially alters the scene's lighting
-      and is not energy conserving and consequently not physically accurate see *Geometry Offset* instead).
+      and is not energy conserving and consequently not physically accurate (see *Geometry Offset* instead).
 
 
 Fast GI Approximation

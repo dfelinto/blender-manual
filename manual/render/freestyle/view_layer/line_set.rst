@@ -44,10 +44,11 @@ Type
          :width: 60%
 
          Proof of concept of visible and hidden edges by LightBWK
-         (`blend-file <https://wiki.blender.org/wiki/File:HiddenCreaseEdgeMark.zip>`__)
+         (`blend-file <https://wiki.blender.org/wiki/File:HiddenCreaseEdgeMark.zip>`__).
 
    :QI Range:
-      QI stands for *Quantitative Invisibility*. Lines occluded by a number of surfaces in the given range are rendered.
+      QI stands for *Quantitative Invisibility*. Lines occluded by
+      a number of surfaces in the given range are rendered.
 
       .. _bpy.types.FreestyleLineSet.qi_start:
       .. _bpy.types.FreestyleLineSet.qi_end:
@@ -60,7 +61,7 @@ Type
          :width: 60%
 
          QI Range proof of concept demo, Start: 3, End: 7, by LightBWK
-         (`blend-file <https://wiki.blender.org/wiki/File:QI-Range.zip>`__)
+         (`blend-file <https://wiki.blender.org/wiki/File:QI-Range.zip>`__).
 
 
 .. _bpy.types.FreestyleLineSet.exclude:
@@ -128,12 +129,12 @@ Type
       :width: 60%
 
       Left pair: Contour; Right pair: External Contour.
-   
+
    .. _bpy.types.FreestyleLineSet.select_material_boundary:
 
    Material Boundary
       Draws lines where two materials meet on the same object.
-   
+
    .. _bpy.types.FreestyleLineSet.select_suggestive_contour:
 
    Suggestive Contour
@@ -141,7 +142,7 @@ Type
       Depends on your view map settings for *Kr Derivative Epsilon* and *Sphere Radius*
       (further information: `File:Manual-2.6-Render-Freestyle-PrincetownLinestyle.pdf
       <https://wiki.blender.org/wiki/File:Manual-2.6-Render-Freestyle-PrincetownLinestyle.pdf>`__).
-      
+
    .. _bpy.types.FreestyleLineSet.select_ridge_valley:
 
    Ridge & Valley

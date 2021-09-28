@@ -18,7 +18,7 @@ The most common way to use this editor is through modal operators (like opening 
 The File Browser will appear in a new window, waiting for the operation to complete,
 and then close returning the main window.
 
-You can us the File Browser as any other editor type, to browse through the file system.
+You can use the File Browser as any other editor type, to browse through the file system.
 The main purpose of this is to be able to drag-and-drop from the File Browser into other editors.
 
 - Images into the :ref:`editors-3dview-index` (to set as background or apply as material texture).
@@ -35,7 +35,7 @@ Interface
 Main Region
 -----------
 
-The main region of the file browser acts similar to the file browser built into you operating system.
+The main region of the File Browser acts similar to the file browser built into you operating system.
 The region contains an array of files, folders, or internal blend-file data in a grid or list of items.
 You can `navigate <Navigating>`_, `select <Selecting>`_,
 and `edit <Editing>`_ these items just as you would in your operating system's file browser.
@@ -58,7 +58,7 @@ See :doc:`Blend-files Previews </files/blend/previews>` for how to generate and 
 
 .. figure:: /images/editors_file-browser_previews.png
    :align: center
-   :width: 50%   
+   :width: 50%
 
    The File Browser in *Thumbnail* mode.
 
@@ -135,9 +135,9 @@ Recursion
 
    :None: List only the current directory content.
    :Blend File: List the whole content of a blend-file (only available when linking or appending data-blocks).
-   :One Levels: List all sub-directories’ content, one level of recursion.
-   :Two Levels: List all sub-directories’ content, two level of recursion.
-   :Three Levels: List all sub-directories’ content, three levels of recursion
+   :One Levels: List all subdirectories' content, one level of recursion.
+   :Two Levels: List all subdirectories' content, two level of recursion.
+   :Three Levels: List all subdirectories' content, three levels of recursion
 
    .. hint::
 
@@ -171,7 +171,7 @@ Filter Settings
 ^^^^^^^^^^^^^^^
 
 On the right side of the file path are the filtering options.
-The first "funnel" button controls whether filtering is enabled or not.
+The toggle with the funnel icon controls whether filtering is enabled or not.
 
 File Types
    Filters files by categories, like folders, blend-files, images, etc.
@@ -286,11 +286,9 @@ Relative Path
 Header Region
 -------------
 
-Often the header for the file browser is hidden as most of the
-functionality is contained in the regions described above.
-
-You will find two small menus, one with you standard editor *View* controls
-and the other to expose a few `Selecting`_ operators for the sake of discoverability.
+The header only contains two menus, one with you standard editor *View* controls
+and the other to list a few `Selecting`_ operators for the sake of discoverability.
+Often it is hidden as most of the functionality is contained in the regions described previously.
 
 
 Navigating

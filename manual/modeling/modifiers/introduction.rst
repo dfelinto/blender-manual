@@ -59,7 +59,7 @@ The icons each represent different settings for the modifier (left to right):
 Expand (down/right arrow icon)
    Collapse modifier to show only the header and not its options.
 
-Icon
+Type
    An icon as a quick visual reference of the modifier's type.
 
 .. _bpy.types.Modifier.name:
@@ -70,7 +70,7 @@ Name
 
 .. _bpy.types.Modifier.show_on_cage:
 
-Show on Cage (vertices-triangle icon) -- Meshes only
+Show on Cage (vertices triangle icon) -- Meshes only
    Depends on the previous setting, if enabled, the modified geometry can also be edited directly,
    instead of the original one.
 
@@ -82,7 +82,7 @@ Show on Cage (vertices-triangle icon) -- Meshes only
 
 .. _bpy.types.Modifier.show_in_editmode:
 
-Show in Edit Mode (vertices-square icon)
+Show in Edit Mode (vertices square icon)
    Display the modified geometry in Edit Mode, as well as the original geometry which you can edit.
 
 .. _bpy.types.Modifier.show_viewport:

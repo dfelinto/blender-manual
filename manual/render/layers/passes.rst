@@ -134,9 +134,10 @@ Other
       Ambient occlusion from directly visible surfaces. BSDF color or AO factor is not included; i.e.
       it gives a 'normalized' value between 0 and 1.
    Shadow Catcher
-      Extra indirect light information collected by objects with the
-      :ref:`Shadow Catcher <render-cycles-object-settings-visibility>` option enabled. This pass is multiplied
-      with existing footage in compositing to add the indirect lighting information to the footage.
+      Extra indirect light information collected by objects with
+      the :ref:`Shadow Catcher <render-cycles-object-settings-visibility>` option enabled.
+      This pass is multiplied with existing footage in compositing to add
+      the indirect lighting information to the footage.
 
 .. note::
 

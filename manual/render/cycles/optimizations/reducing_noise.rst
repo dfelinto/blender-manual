@@ -144,8 +144,8 @@ Caustics and Filter Glossy
 Caustics are a well-known source of noise, causing :term:`Fireflies`.
 They happen because the renderer has difficulty finding specular highlights
 viewed through a soft glossy or diffuse reflection.
-There is a :ref:`No Caustics <bpy.types.CyclesRenderSettings.caustics>`
-option to disable glossy behind a diffuse reflection entirely.
+There is a :ref:`No Caustics <bpy.types.CyclesRenderSettings.caustics>` option
+to disable glossy behind a diffuse reflection entirely.
 Many renderers will typically disable caustics by default.
 
 .. list-table::
@@ -165,10 +165,10 @@ Many renderers will typically disable caustics by default.
 
           Filter Glossy greater than zero.
 
-However, using No Caustics will result in missing light,
+However, using *No Caustics* will result in missing light,
 and it still does not cover the case where a sharp glossy reflection is viewed through a soft glossy reflection.
-There is a :ref:`Filter Glossy <bpy.types.CyclesRenderSettings.blur_glossy>`
-option to reduce the noise from such cases at the cost of accuracy.
+There is a :ref:`Filter Glossy <bpy.types.CyclesRenderSettings.blur_glossy>` option
+to reduce the noise from such cases at the cost of accuracy.
 This will blur the sharp glossy reflection to make it easier to find, by increasing the shader Roughness.
 
 The above images show default settings, no caustics, and filter glossy set to 1.0.

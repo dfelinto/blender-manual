@@ -23,7 +23,7 @@ the *Face Smoothness* option has to be turned on and the object needs to have *S
 Curvature Min, Max
    The limits of the mapping.
    If the current point of the stroke is at *Min Curvature* or less from the target,
-   it will take the start point of the mapping, and conversely,
+   it will take the start point of the mapping. And conversely,
    if it is at *Max Curvature* or more from the target, it will take the end-point value of the mapping.
 
 .. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_color_curvature-3d_example.png

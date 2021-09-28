@@ -12,8 +12,7 @@ dashed pattern, etc.
    :align: center
    :width: 50%
 
-   Line Style: Strokes
-
+   Line Style: Strokes.
 
 .. _bpy.types.FreestyleLineStyle.caps:
 
@@ -69,7 +68,7 @@ which can be useful for line styles which depend on accurate representation of t
 Splitting
 =========
 
-You can split up chains of Freestyle lines by checking one of the following:
+You can split up chains of Freestyle lines by enabling one of the following:
 
 .. _bpy.types.FreestyleLineStyle.use_angle_min:
 .. _bpy.types.FreestyleLineStyle.use_angle_max:
@@ -192,4 +191,4 @@ Dash 1, 2, 3
 .. _bpy.types.FreestyleLineStyle.gap:
 
 Gap 1, 2, 3
-   Length of the specified gap for dashed lines
+   Length of the specified gap for dashed lines.

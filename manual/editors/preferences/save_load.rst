@@ -97,8 +97,8 @@ Defaults
       (i.e. blend-files when loading a complete Blender setting).
       The selection of file types may be changed in the file region.
 
-   Show Hidden Files/Data-locks
-      Hide files which start with ``.`` on File Browsers and ID selector.
+   Show Hidden Files/Data-Blocks
+      Hide files which start with ``.`` in File Browsers and data IDs.
 
       .. hint::
 

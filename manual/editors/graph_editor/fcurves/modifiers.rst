@@ -60,7 +60,7 @@ Order
    Specify the order of the polynomial, or the highest power of ``X`` for this polynomial.
    (Number of coefficients: 1.)
 
-   Change the Coefficient values to change the shape of the curve.
+   Change the Coefficient values to reshape the curve.
 
    .. seealso::
 
@@ -75,7 +75,7 @@ Restrict Frame Range
 ^^^^^^^^^^^^^^^^^^^^
 
 Start/End
-   The frame the modifier's affect starts/ends.
+   The frame on which the modifier's effect starts/ends.
 Blend In, Out
    The number of frames, relative the start/end values above, the modifier takes to fade in/out.
 
@@ -119,7 +119,7 @@ Restrict Frame Range
 ^^^^^^^^^^^^^^^^^^^^
 
 Start/End
-   The frame the modifier's affect starts/ends.
+   The frame on which the modifier's effect starts/ends.
 Blend In, Out
    The number of frames, relative the start/end values above, the modifier takes to fade in/out.
 
@@ -159,7 +159,7 @@ Restrict Frame Range
 ^^^^^^^^^^^^^^^^^^^^
 
 Start/End
-   The frame the modifier's affect starts/ends.
+   The frame on which the modifier's effect starts/ends.
 Blend In, Out
    The number of frames, relative the start/end values above, the modifier takes to fade in/out.
 
@@ -197,7 +197,7 @@ Restrict Frame Range
 ^^^^^^^^^^^^^^^^^^^^
 
 Start/End
-   The frame the modifier's affect starts/ends.
+   The frame on which the modifier's effect starts/ends.
 Blend In, Out
    The number of frames, relative the start/end values above, the modifier takes to fade in/out.
 
@@ -251,7 +251,7 @@ Restrict Frame Range
 ^^^^^^^^^^^^^^^^^^^^
 
 Start/End
-   The frame the modifier's affect starts/ends.
+   The frame on which the modifier's effect starts/ends.
 Blend In, Out
    The number of frames, relative the start/end values above, the modifier takes to fade in/out.
 
@@ -277,7 +277,7 @@ Restrict Frame Range
 ^^^^^^^^^^^^^^^^^^^^
 
 Start/End
-   The frame the modifier's affect starts/ends.
+   The frame on which the modifier's effect starts/ends.
 Blend In, Out
    The number of frames, relative the start/end values above, the modifier takes to fade in/out.
 
@@ -308,6 +308,6 @@ Restrict Frame Range
 ^^^^^^^^^^^^^^^^^^^^
 
 Start/End
-   The frame the modifier's affect starts/ends.
+   The frame on which the modifier's effect starts/ends.
 Blend In, Out
    The number of frames, relative the start/end values above, the modifier takes to fade in/out.

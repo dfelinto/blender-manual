@@ -45,11 +45,11 @@ Options
 .. _bpy.types.RegionView3D.lock_rotation:
 
 Lock Rotation
-   If you want to be able to rotate each view, you can uncheck the *Locked* option.
+   If you want to be able to rotate each view, you can disable the *Locked* option.
 
 .. _bpy.types.RegionView3D.show_sync_view:
 
-Sync View/Pan 
+Sync View/Pan
    Syncs the view position between side views. (Requires *Lock* to be enabled.)
 
 .. _bpy.types.RegionView3D.use_box_clip:

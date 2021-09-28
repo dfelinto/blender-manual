@@ -23,21 +23,20 @@ and direct light sampling (picking a light source and tracing a ray towards it) 
 Viewport Samples
    Number of samples for viewport rendering. Setting this value to zero
    enables indefinite sampling of the viewport.
-   
-   .. _bpy.types.CyclesRenderSettings.samples:
+
+.. _bpy.types.CyclesRenderSettings.samples:
 
 Render Samples
    Number of paths to trace for each pixel in the final render. As more samples are taken,
    the solution becomes less noisy and more accurate.
 
-   .. _bpy.types.CyclesRenderSettings.time_limit:
+.. _bpy.types.CyclesRenderSettings.time_limit:
 
 Time Limit
    Renders scene until time limit or sample count is reached. When the time is set to 0,
    the sample count is used to determine when the render stops.
-   
-   .. note:: The time limit does not include pre-render processing time, only render time. 
-   
+
+   .. note:: The time limit does not include pre-render processing time, only render time.
 
 
 .. _bpy.types.CyclesRenderSettings.use_adaptive_sampling:
@@ -136,20 +135,17 @@ Input Passes
 .. _bpy.types.CyclesRenderSettings.denoising_prefilter:
 
 Prefilter
-   Visible only when using *OpenImageDenoise*
-   
-   Controls whether or not prefiltering is applied to auxiliary passes (Albedo and Normal) for use when
-   denoising.
+   Controls whether or not prefiltering is applied to auxiliary passes (Albedo and Normal) for use
+   when denoising. Visible only when using *OpenImageDenoise*.
 
-   :None: 
-      Does not apply any prefiltering to the *auxiliary passes*. This option retains the most detail and
-      is the fastest, but assumes the *auxiliary passes* are noise free which may require a high sample
-      count. If the *auxilary passes* aren't noise free, then noise will remain in the image after 
-      denoising.
-   :Fast: 
-      Assumes the *auxiliary passes* are not noise free, but does not apply prefiltering to the 
-      *auxiliary passes*. This option is faster than *Accurate* but produces a blurrier result.
-   :Accurate: 
+   :None:
+      Does not apply any prefiltering to the auxiliary passes. This option retains the most detail and
+      is the fastest, but assumes the auxiliary passes are noise free which may require a high sample count.
+      If the auxiliary passes aren't noise free, then noise will remain in the image after denoising.
+   :Fast:
+      Assumes the auxiliary passes are not noise free, yet does not apply prefiltering to the auxiliary passes.
+      This option is faster than *Accurate* but produces a blurrier result.
+   :Accurate:
       Prefilters the auxiliary passes before denoising to reduce noise. This option usually produces
       more detailed results than *Fast* with increased processing time.
 

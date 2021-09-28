@@ -115,8 +115,9 @@ Target Frame
 Projection Type
    Sets the projection type to use for the converted strokes.
 
+
 Bake Object Transform to Grease Pencil
-=======================================
+======================================
 
 .. reference::
 
@@ -129,7 +130,7 @@ Applies all transform animation at Object level within a selected frame range to
 Start Frame, End Frame
    Start/End frame for the baking process.
 Step
-   Frame steps for the baking process
+   Frame steps for the baking process.
 Only Selected Keyframes
    Convert only the selected keyframes.
 Target Frame

@@ -15,7 +15,6 @@ Render time can be reduced by increasing the step size, at the cost of
 potentially losing some volume detail. For procedural volume shaders
 that add detail, step size can be increased per object, material or world.
 
-
 .. _bpy.types.CyclesRenderSettings.volume_step_rate:
 
 Step Rate Render

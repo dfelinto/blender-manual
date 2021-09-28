@@ -54,9 +54,9 @@ Extras
 
    .. _bpy.ops.constraint.copy:
 
-   Duplicate :kbd:`Shift-D` 
+   Duplicate :kbd:`Shift-D`
       Creates a duplicate of the constraint just below current one in the stack.
-   
+
    .. _bpy.ops.constraint.copy_to_selected:
 
    Copy to Selected

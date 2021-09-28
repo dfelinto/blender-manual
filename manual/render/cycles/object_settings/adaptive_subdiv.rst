@@ -32,7 +32,7 @@ Adaptive Subdivision
 
       .. figure:: /images/render_cycles_object-settings_adaptive-subdiv_displacement-dicing.png
 
-         Subdivision Off/On, Dicing Scale: 1.0 - 0.3 - 0.05 (monkeys look identical in viewport, no modifiers).
+         Subdivision off/on, Dicing Scale: 1.0 - 0.3 - 0.05 (monkeys look identical in viewport, no modifiers).
 
 
 

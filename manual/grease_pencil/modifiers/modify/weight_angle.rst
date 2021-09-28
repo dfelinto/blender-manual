@@ -1,7 +1,7 @@
 
-******************************
+****************************
 Vertex Weight Angle Modifier
-******************************
+****************************
 
 This modifier sets the weights of the given vertex group,
 based on a predetermined angle.
@@ -28,17 +28,18 @@ Vertex Group
       Inverts the influence of the selected vertex group. The setting reverses the weight values of the group.
 
 Angle
-   Sets the angle for the maxiumum weights value.
+   Sets the angle for the maximum weights value.
 
 Axis
    The axis along which the angle affects the weights.
-   X/Y/Z.
+
+   X, Y, Z
 
 Space
    Coordinate space to be used.
 
 Minimum
-  Minimum value for vertex weight.
+   Minimum value for vertex weight.
 
 Multiply Weights
    Multiply the calculated weights with the existing values in the vertex group.

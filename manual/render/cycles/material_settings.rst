@@ -15,8 +15,8 @@ Surface
 .. _bpy.types.CyclesMaterialSettings.sample_as_light:
 
 Multiple Importance Sample
-   By default objects with emitting materials use both direct and indirect light sampling methods,
-   but in some cases it may lead to less noise overall to disable direct light sampling for some materials.
+   By default objects with emitting materials use both direct and indirect light sampling methods.
+   But in some cases it may lead to less noise overall to disable direct light sampling for some materials.
    This can be done by disabling the *Multiple Importance Sample* option.
    This is especially useful on large objects that emit little light compared to other light sources.
 

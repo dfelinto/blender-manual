@@ -50,8 +50,9 @@ Handle Smoothing
    .. figure:: /images/editors_graph-editor_fcurves_sidebar_curve_auto-smoothing.png
       :align: center
 
-      Handle smoothing mode comparison. Yellow: *None*, Cyan: *Continuous Acceleration*.
+      Handle smoothing mode comparison.
 
+      Yellow: *None*, Cyan: *Continuous Acceleration*.
       From left to right, four *Auto Clamped* keys, one *Vector*, and the rest are *Automatic*.
 
    :None:
@@ -67,16 +68,16 @@ Handle Smoothing
       at every keyframe. Vector handles are integrated into the curves as smooth transitions
       to imaginary straight lines beyond the keyframe.
 
-      This produces much smoother curves out of the box, but necessarily means that
+      It produces much smoother curves out of the box, but necessarily means that
       any changes in the key values may affect interpolation over a significant stretch
       of the curve; although the amount of change decays exponentially with distance.
       This change propagation is stopped by any key with *Free*, *Aligned*, or *Vector*
       handles, as well as by extremes with *Auto Clamped* handles.
 
-      This mode also tends to overshoot and oscillate more with fully *Automatic* handles
-      in some cases (see the right end of the image above), so it is recommended to use
-      *Auto Clamped* by default, and only switch to *Automatic* handles in places where this
-      is desired behavior. This effect can also be reduced by adding in-between keys.
+      The mode also tends to overshoot and oscillate more with fully *Automatic* handles
+      in some cases (see the right end of the image above). So it is recommended to use
+      *Auto Clamped* by default, and only switch to *Automatic* handles in places
+      where this is desired behavior. That effect can also be reduced by adding in-between keys.
 
       .. tip::
 
@@ -102,6 +103,7 @@ Active Keyframe
 
 Interpolation
    Mode for the :term:`Interpolation` between the current and next keyframe.
+
 
    .. rubric:: Interpolation
 
@@ -199,7 +201,7 @@ Interpolation
 
 Easing
    The Easing Type controls which end of the segment between the two keyframes that the easing effects apply to.
-   The Easing Type has no effect if the :ref:`Interpolation Mode <editors-graph-fcurves-settings-interpolation>`
+   It has no effect if the :ref:`Interpolation Mode <editors-graph-fcurves-settings-interpolation>`
    is set to either *Constant*, *Linear*, or *Bézier*.
 
    :Automatic Easing:

@@ -212,7 +212,7 @@ Factor
 Distance
    Distance from shading point to trace rays. A shorter distance emphasizes nearby features,
    while longer distances make it also take objects farther away into account.
-   
-   This option can also be overridden per object in the
-   :ref:`Object Properties <bpy.types.CyclesObjectSettings.ao_distance>`,
+
+   This option can also be overridden per object
+   in the :ref:`Object Properties <bpy.types.CyclesObjectSettings.ao_distance>`,
    which is useful when you have both small and large scale objects in the same scene.

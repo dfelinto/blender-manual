@@ -36,15 +36,14 @@ Properties
 ==========
 
 Prefilter
-   :None: 
-      Does not apply any prefiltering to the *auxiliary passes*. This option retains the most detail and
-      is the fastest, but assumes the *auxiliary passes* are noise free which may require a high sample
-      count. If the *auxilary passes* aren't noise free, then noise will remain in the image after 
-      denoising.
-   :Fast: 
-      Assumes the *auxiliary passes* are not noise free, but does not apply prefiltering to the 
-      *auxiliary passes*. This option is faster than *Accurate* but produces a blurrier result.
-   :Accurate: 
+   :None:
+      Does not apply any prefiltering to the auxiliary passes. This option retains the most detail and
+      is the fastest, but assumes the auxiliary passes are noise free which may require a high sample
+      count. If the auxiliary passes are not noise free, then noise will remain in the image after denoising.
+   :Fast:
+      Assumes the auxiliary passes are not noise free, yet does not apply prefiltering to the auxiliary passes.
+      This option is faster than *Accurate* but produces a blurrier result.
+   :Accurate:
       Prefilters the auxiliary passes before denoising to reduce noise. This option usually produces
       more detailed results than *Fast* with increased processing time.
 HDR

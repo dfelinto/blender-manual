@@ -37,7 +37,7 @@ Type
       Rotates the vector around the defined axis and
       the amount of rotation is defined by the *Angle* input.
    :Axis Angle:
-      Rotates the vector around any arbitrary axis defined by the *Axis* input vector.
+      Rotates the vector around an arbitrary axis defined by the *Axis* input vector.
       The amount of rotation is defined by the *Angle* input.
    :Euler:
       Rotates the vector about a center point defined by the *Center* input vector.

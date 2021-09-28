@@ -6,10 +6,8 @@ Time Offset Modifier
 ********************
 
 The *Time Offset* Modifier offsets the position of Grease Pencil keyframes.
-
 For example can be used to start the same animation loop
 at different times and avoid an unappealing synchronization of the loops.
-
 Or if you have different character poses in several keyframes,
 the Time Offset Modifier can be use to select which pose to show at a particular time in the animation.
 This is especially useful for cut-out animation.

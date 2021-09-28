@@ -67,7 +67,6 @@ Distance Cull
 Grease Pencil
 =============
 
-
 .. _bpy.types.RenderSettings_simplify_gpencil_onplay:
 
 Playback Only

@@ -24,7 +24,7 @@ Grid
 Floor
    Show the ground plane.
 Axis
-   Show the X and/or Y and/or Z axis line.
+   Show the X, Y and/or Z axis line.
 
 Scale
    The distance between lines in the grid/floor.
@@ -38,8 +38,8 @@ Text Info
 
 Statistics
    Show information about the amount of objects and geometry.
-   Note the counters that are displayed depends on the current selection,
-   for example selecting a mesh gives info on the number of vertices, edges, and faces,
+   Note the counters that are displayed depends on the current selection.
+   For example selecting a mesh gives info on the number of vertices, edges, and faces,
    while selecting other object such as lights shows a count of the lights in the scene.
 
    - Objects -- Number of the selected objects and the total count.

@@ -159,8 +159,8 @@ When Advanced Options are enabled, user will be able to:
 
 - Generate more than one rig per scene.
 - Generate a rig with a specific name.
-- Update/Overwrite a specific rig.
-- Execute a script datablock after generation.
+- Update/Override a specific rig.
+- Execute a script data-block after generation.
 
 
 Advanced Options Activation
@@ -212,9 +212,10 @@ to fit the character better.
 Mirror Widgets
 ^^^^^^^^^^^^^^
 
-When enabled, Rigify generates widgets for left and right side bones as linked duplicates,
-using negative X scale to flip the right side version. This enforces symmetry and reduces the
-number of meshes to adjust to fit the character.
+When enabled, Rigify generates widgets for left and right side bones as
+linked duplicates, using negative X scale to flip the right side version.
+This enforces symmetry and reduces the number of meshes to adjust to
+fit the character.
 
 When reusing an already generated widget, Rigify detects if it was originally generated mirrored
 by checking object scale to avoid flipping existing controls. Therefore switching to mirrored
@@ -224,23 +225,23 @@ widgets for an existing character requires deleting the right side widgets, or *
 Run Script
 ^^^^^^^^^^
 
-It is possible to configure Rigify to execute a python script contained in a text datablock
-after generation in order to apply user-defined customizations. The script is called with
-the generated rig active and selected in Object mode.
+It is possible to configure Rigify to execute a Python script contained in a text data-block
+after generation in order to apply user-defined customizations. The script is executed with
+the generated rig active and selected in Object Mode.
 
 The simplest use of this may be adjusting properties of generated constraints when Rigify rig types
-don't have any relevant metarig settings. That can be done easily by using the *Copy Full Data Path*
+don't have any relevant meta-rig settings. That can be done by using the *Copy Full Data Path*
 context menu option on the property, pasting it into the script and making an assignment, e.g.::
 
    import bpy
 
    bpy.data.objects["rig"].pose.bones["MCH-spine.003"].constraints[0].influence = 0.6
 
-Doing such changes via a script would ensure they aren't lost if the rig is re-generated.
+Doing such changes via a script ensures they aren't lost if the rig is re-generated.
 
 Users familiar with `Rigify scripting <https://wiki.blender.org/wiki/Process/Addons/Rigify>`__
-can import Rigify utility modules, and access the generator instance through ``rigify.get_generator()``;
-note however that since generation is already finished, the only use of that is reading data created
+can import Rigify utility modules, and access the generator instance through ``rigify.get_generator()``.
+Yet note that, since generation is already finished, the only use of that is reading data created
 in the generation process.
 
 

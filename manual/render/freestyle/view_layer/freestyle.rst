@@ -42,7 +42,7 @@ View Map Cache
    when the camera-space mesh geometry is static, as well as for repeated still renders
    with updates of line stylization options.
 
-   Although the ''View map cache'' checkbox is a view layer option,
+   Although the *View map cache* checkbox is a view layer option,
    the cache memory is shared by all view layers and scenes.
    This means that if Freestyle is used for two or more view layers
    (possibly in different scenes through the Compositor),

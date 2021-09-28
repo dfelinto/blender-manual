@@ -37,7 +37,7 @@ Highest
    Distance mapping to 1.0 weight.
 
 Minimum
-  Minimum value for vertex weight.
+   Minimum value for vertex weight.
 
 Multiply Weights
    Multiply the calculated weights with the existing values in the vertex group.

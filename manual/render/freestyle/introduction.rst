@@ -10,13 +10,13 @@ or technical (hard line) looks.
 
 Freestyle can generate a powerful diversity of line styles and results.
 There are currently, two ways to define the way lines look;
-the first uses a series of parameter to create a :doc:`Line Style </render/freestyle/view_layer/line_style/index>`
+the first uses a series of parameter to create a :doc:`Line Style </render/freestyle/view_layer/line_style/index>`.
 This mode allows intuitive editing of features such as dotted lines
 and easy setup of multiple line types and edge definitions.
 On top of all of that, with line style modifiers, the sky is the limit!
 
 The second method of generating lines is by using :doc:`Python Scripting </render/freestyle/python>`.
-This method is much more advanced but Blender includes many pre-scripted syles
+This method is much more advanced but Blender includes many pre-scripted styles
 such as Japanese big brush, cartoon, blueprint, and thickness-with-depth.
 
 .. list-table::

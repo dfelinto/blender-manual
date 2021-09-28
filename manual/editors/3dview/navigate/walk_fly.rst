@@ -140,6 +140,6 @@ In case you want to go back from where you started, press :kbd:`Esc` or :kbd:`RM
    * - :kbd:`Alt`
      - Precision (slow the momentum).
    * - :kbd:`Ctrl`
-     - Disable rotation -- while held, the view rotation doesn't influence the flight direction,
-       this allows you to fly past an object, keeping it centered in the view,
+     - Disable rotation -- while held, the view rotation doesn't influence the flight direction.
+       This allows you to fly past an object, keeping it centered in the view,
        even as you fly away from it.

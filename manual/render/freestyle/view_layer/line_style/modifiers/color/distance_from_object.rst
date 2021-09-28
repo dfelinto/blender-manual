@@ -17,7 +17,7 @@ Target
 Range Min, Max
    The limits of the mapping from "distance to camera" to "property in mapping".
    If the current point of the stroke is at *Range Min* or less from the active camera or the object,
-   it will take the start value, and conversely,
+   it will take the start value. And conversely,
    if it is at *Max* or more from the camera/object, it will take the end value.
    These values are in the current scene's units, not in pixels!
 

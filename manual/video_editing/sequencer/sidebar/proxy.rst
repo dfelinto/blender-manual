@@ -43,7 +43,7 @@ Strip Proxy & Timecode
 
 Once you have chosen the :term:`Proxy`/:term:`Timecode` options,
 you need to select all strips for which you want proxies to be built.
-Then use :menuselection:`Strip --> Rebuild Proxy and Timecode indices`, or button in `Proxy Settings`_ panel.
+Then use :menuselection:`Strip --> Rebuild Proxy and Timecode Indices`, or button in `Proxy Settings`_ panel.
 Once all proxies are built, they will be ready to use.
 
 In order to use proxies, you have to select matching

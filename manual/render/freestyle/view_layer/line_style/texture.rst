@@ -114,9 +114,9 @@ Example
 
 The image below shows a typical shader node tree that maps a floral texture image along strokes.
 The UV Along Stroke input node retrieves UV maps defined by Freestyle along generated strokes, and
-feeds them to the Vector input channel of the Image Texture node.
+passes them to the Vector input channel of the Image Texture node.
 A texture image is selected in the Image Texture node,
-and its color is fed to the Alpha channel of the Line Style Output node.
+and its color is inputted to the Alpha channel of the Line Style Output node.
 Since the Alpha Factor is set to one, the texture image replaces the base alpha transparency of the active line style
 (shown in the Freestyle Line Style panel).
 On the other hand, the Mix blend mode is selected in the Line Style Output node with the Color Factor set to zero,
@@ -129,5 +129,5 @@ so that the gradient line color specified in the active line style is applied al
 
 It is noted that the texture image ``FS_floral_brush.png``
 shown in the screen capture is an example of Freestyle brush images with tips.
-Specifically, the upper half of the image is used as a seamless horizontal tile of the stroke body,
-whereas the parts in the lower half are tips (stroke caps) at both ends of the stroke.
+Specifically, the upper half of the image is used as a seamless horizontal tile of the stroke body.
+Whereas the parts in the lower half are tips (stroke caps) at both ends of the stroke.
