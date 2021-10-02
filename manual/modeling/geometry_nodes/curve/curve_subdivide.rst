@@ -21,18 +21,8 @@ Geometry
 
 Cuts
    Number of times each segment is cut.
-
-
-Properties
-==========
-
-Cuts Type
-   :Integer:
-      Cut all segments with the same number of cuts.
-   :Attribute:
-      Use an attribute to determine the number of cuts for each segment.
-      The number of cuts of a segment is determined by the attribute value of the previous point.
-
+   When the input is a field, the number of cuts for a segment is determined by
+   the value of the field when evaluated at the previous point.
 
 Outputs
 =======
