@@ -124,29 +124,29 @@ Input Passes
    Controls which :doc:`Render Pass </render/layers/passes>` the denoiser should use as input,
    which can have different effects on the denoised image.
    Generally, the more passes the denoiser has to denoise the better the result.
-   It is recommended to at least use *Color + Albedo* as just *Color* can blur out details,
+   It is recommended to at least use *Albedo* as *None* can blur out details,
    especially at lower sample counts.
 
-   :Color: Denoises the image using color data.
-   :Color + Albedo: Denoises the image using color and albedo data.
-   :Color + Albedo + Normal: Denoises the image using color, albedo, and normal pass data.
+   :None: Denoises the image using color data.
+   :Albedo: Denoises the image using color and albedo data.
+   :Albedo + Normal: Denoises the image using color, albedo, and normal pass data.
 
 .. _bpy.types.CyclesRenderSettings.preview_denoising_prefilter:
 .. _bpy.types.CyclesRenderSettings.denoising_prefilter:
 
 Prefilter
-   Controls whether or not prefiltering is applied to auxiliary passes (Albedo and Normal) for use
-   when denoising. Visible only when using *OpenImageDenoise*.
+   Controls whether or not prefiltering is applied to input passes for use when denoising.
+   Visible only when using *OpenImageDenoise*.
 
    :None:
-      Does not apply any prefiltering to the auxiliary passes. This option retains the most detail and
-      is the fastest, but assumes the auxiliary passes are noise free which may require a high sample count.
-      If the auxiliary passes aren't noise free, then noise will remain in the image after denoising.
+      Does not apply any prefiltering to the input passes. This option retains the most detail and
+      is the fastest, but assumes the input passes are noise free which may require a high sample count.
+      If the input passes aren't noise free, then noise will remain in the image after denoising.
    :Fast:
-      Assumes the auxiliary passes are not noise free, yet does not apply prefiltering to the auxiliary passes.
+      Assumes the input passes are not noise free, yet does not apply prefiltering to the input passes.
       This option is faster than *Accurate* but produces a blurrier result.
    :Accurate:
-      Prefilters the auxiliary passes before denoising to reduce noise. This option usually produces
+      Prefilters the input passes before denoising to reduce noise. This option usually produces
       more detailed results than *Fast* with increased processing time.
 
 
