@@ -14,5 +14,6 @@
    curve_to_mesh.rst
    curve_to_points.rst
    curve_trim.rst
+   handle_type_selection.rst
    mesh_to_curve.rst
    resample_curve.rst
