@@ -13,6 +13,10 @@ Resample Curve
 The Resample Curve node creates a poly spline for each input spline.
 In the new poly splines the control points will have uniform spacing.
 
+.. tip::
+   Use a field as an input to have a different count/length for each
+   spline.
+
 
 Inputs
 ======
@@ -38,6 +42,9 @@ Mode
    :Length:
       Calculate the number of samples by splitting each spline into segments with the specified length.
       The length will be rounded down so that a whole number of samples will fit in each input spline.
+   :Evaluated:
+      Evaluate the spline's points based on the resolution attribute for NURBS and Bezier splines.
+      Changes nothing for poly splines.
 
 
 Outputs
