@@ -45,6 +45,10 @@ Subsurface Radius
    The X, Y and Z values are mapped to the R, G and B values, respectively.
 Subsurface Color
    Subsurface scattering base color.
+Subsurface IOR :guilabel:`Cycles Only`
+   Index of refraction for *Subsurface Scattering*.
+Subsurface Anisotropy :guilabel:`Cycles Only`
+   Controls the directionality of subsurface scattering.
 Metallic
    Blends between a non-metallic and metallic material model.
    A value of 1.0 gives a fully specular reflection tinted with the base color,
@@ -139,17 +143,20 @@ Distribution
 
 Subsurface Method
    Rendering method to simulate subsurface scattering.
+   
+   .. note:: Eevee does not use these subsurface scatter methods but instead uses an approximation.
 
-   :Christensen-Burley:
-      Is an approximation to physically-based volume scattering.
-      Gives less blurry results than Cubic and Gaussian functions.
-   :Random Walk:
-      Provides the most accurate results for thin and curved objects.
-      This comes at the cost of increased render time or noise for more dense media like skin,
-      but also better geometry detail preservation.
+   :Random Walk (Fixed Radius):
+      Provides accurate results for thin and curved objects.
       Random Walk uses true volumetric scattering inside the mesh,
       which means that it works best for closed meshes.
       Overlapping faces and holes in the mesh can cause problems.
+   :Random Walk:
+      Behaves similarly to *Random Walk (Fixed Radius)* but modulates 
+      the *Subsurface Radius* based on the *Color*,
+      *Subsurface Anisotropy*, and *Subsurface IOR*. This method
+      thereby attempts to retain greater surface detail and color than
+      *Random Walk (Fixed Radius)*.
 
 
 Outputs
