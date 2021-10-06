@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Collection Info
 .. _bpy.types.GeometryNodeCollectionInfo:
 
-***************
-Collection Info
-***************
+********************
+Collection Info Node
+********************
 
 .. figure:: /images/modeling_geometry-nodes_input_collection-info_node.png
    :align: right

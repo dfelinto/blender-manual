@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; UV Sphere
 .. _bpy.types.GeometryNodeMeshUVSphere:
 
-*********
-UV Sphere
-*********
+**************
+UV Sphere Node
+**************
 
 .. figure:: /images/modeling_geometry-nodes_mesh-primitives_uv-sphere_node.png
    :align: right

@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Separate Components
 .. _bpy.types.GeometryNodeSeparateComponents:
 
-*******************
-Separate Components
-*******************
+************************
+Separate Components Node
+************************
 
 .. figure:: /images/modeling_geometry-nodes_geometry_separate-components_node.png
    :align: center

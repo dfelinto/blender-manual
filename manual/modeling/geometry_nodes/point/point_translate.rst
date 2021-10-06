@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Point
 .. _bpy.types.GeometryNodePointTranslate:
 
-***************
-Point Translate
-***************
+********************
+Point Translate Node
+********************
 
 .. figure:: /images/modeling_geometry-nodes_point_point-translate_node.png
    :align: right

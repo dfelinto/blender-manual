@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Point
 .. _bpy.types.GeometryNodePointScale:
 
-***********
-Point Scale
-***********
+****************
+Point Scale Node
+****************
 
 .. figure:: /images/modeling_geometry-nodes_point_point-scale_node.png
    :align: right

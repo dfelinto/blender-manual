@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes: Volume to Mesh
 .. _bpy.types.GeometryNodeVolumeToMesh:
 
-**************
-Volume to Mesh
-**************
+*******************
+Volume to Mesh Node
+*******************
 
 .. figure:: /images/modeling_geometry-nodes_volume_volume-to-mesh_node.png
    :align: center

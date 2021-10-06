@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Star
 .. _bpy.types.GeometryNodeCurveStar:
 
-****
-Star
-****
+*********
+Star Node
+*********
 
 .. figure:: /images/modeling_geometry-nodes_curve-primitives_star_node.png
    :align: right

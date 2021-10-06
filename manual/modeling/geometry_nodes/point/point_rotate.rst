@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Point
 .. _bpy.types.GeometryNodePointRotate:
 
-************
-Point Rotate
-************
+*****************
+Point Rotate Node
+*****************
 
 .. figure:: /images/modeling_geometry-nodes_point_point-rotate_node.png
    :align: right

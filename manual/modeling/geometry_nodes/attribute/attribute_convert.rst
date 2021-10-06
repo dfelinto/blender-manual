@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Attribute Convert
 .. _bpy.types.GeometryNodeAttributeConvert:
 
-*****************
-Attribute Convert
-*****************
+**********************
+Attribute Convert Node
+**********************
 
 .. figure:: /images/modeling_geometry-nodes_attribute_attribute-convert_node.png
    :align: right

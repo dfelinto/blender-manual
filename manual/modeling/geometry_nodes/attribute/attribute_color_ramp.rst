@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Attribute Color Ramp
 .. _bpy.types.GeometryNodeAttributeColorRamp:
 
-********************
-Attribute Color Ramp
-********************
+*************************
+Attribute Color Ramp Node
+*************************
 
 Maps values from a float attribute to their corresponding color, based on a color ramp.
 The resulting colors are stored on the geometry in a color attribute.

@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Join Geometry
 .. _bpy.types.GeometryNodeJoinGeometry:
 
-*************
-Join Geometry
-*************
+******************
+Join Geometry Node
+******************
 
 The *Join Geometry* node merges separately generated pieces of geometry into a single one.
 If the geometry inputs contain different types of data, the output will also contain different data types.

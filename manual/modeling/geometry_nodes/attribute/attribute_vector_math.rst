@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Attribute Vector Math
 .. _bpy.types.GeometryNodeAttributeVectorMath:
 
-*********************
-Attribute Vector Math
-*********************
+**************************
+Attribute Vector Math Node
+**************************
 
 Modify an attribute with a math operation.
 

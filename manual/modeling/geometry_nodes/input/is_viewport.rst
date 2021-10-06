@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Is Viewport
 .. _bpy.types.GeometryNodeIsViewport:
 
-***********
-Is Viewport
-***********
+****************
+Is Viewport Node
+****************
 
 .. figure:: /images/modeling_geometry-nodes_input_is-viewport_node.png
    :align: right

@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Attribute Curve Map
 .. _bpy.types.GeometryNodeAttributeCurveMap:
 
-*******************
-Attribute Curve Map
-*******************
+************************
+Attribute Curve Map Node
+************************
 
 .. figure:: /images/modeling_geometry-nodes_attribute_attribute-curve-map_node.png
    :align: center

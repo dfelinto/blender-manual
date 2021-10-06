@@ -1,8 +1,8 @@
 .. index:: Geometry Nodes; Separate XYZ
 
-************
-Separate XYZ
-************
+*****************
+Separate XYZ Node
+*****************
 
 .. figure:: /images/modeling_geometry-nodes_vector_separate-xyz_node.png
    :align: right

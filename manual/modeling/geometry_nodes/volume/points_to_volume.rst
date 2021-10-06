@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Points to Volume
 .. _bpy.types.GeometryNodePointsToVolume:
 
-****************
-Points to Volume
-****************
+*********************
+Points to Volume Node
+*********************
 
 .. figure:: /images/modeling_geometry-nodes_volume_points-to-volume_node.png
    :align: center

@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Curve to Points
 .. _bpy.types.GeometryNodeCurveToPoints:
 
-***************
-Curve to Points
-***************
+********************
+Curve to Points Node
+********************
 
 .. figure:: /images/modeling_geometry-nodes_curve_curve-to-points_node.png
    :align: right

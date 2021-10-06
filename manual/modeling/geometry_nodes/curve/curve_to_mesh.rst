@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Curve to Mesh
 .. _bpy.types.GeometryNodeCurveToMesh:
 
-*************
-Curve to Mesh
-*************
+******************
+Curve to Mesh Node
+******************
 
 .. figure:: /images/modeling_geometry-nodes_curve_curve-to-mesh_node.png
    :align: center

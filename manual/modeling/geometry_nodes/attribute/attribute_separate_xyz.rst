@@ -1,8 +1,8 @@
 .. index:: Geometry Nodes; Attribute Separate XYZ
 
-**********************
-Attribute Separate XYZ
-**********************
+***************************
+Attribute Separate XYZ Node
+***************************
 
 .. figure:: /images/modeling_geometry-nodes_attribute_attribute-separate-xyz_node.png
    :align: right

@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Attribute Sample Texture
 .. _bpy.types.GeometryNodeAttributeSampleTexture:
 
-************************
-Attribute Sample Texture
-************************
+*****************************
+Attribute Sample Texture Node
+*****************************
 
 .. figure:: /images/modeling_geometry-nodes_attribute_attribute-sample-texture_node.png
    :align: center

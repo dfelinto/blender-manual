@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Switch
 .. _bpy.types.GeometryNodeSwitch:
 
-******
-Switch
-******
+***********
+Switch Node
+***********
 
 .. figure:: /images/modeling_geometry-nodes_utilities_switch_node.png
    :align: right

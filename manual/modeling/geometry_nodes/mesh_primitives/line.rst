@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Mesh Line
 .. _bpy.types.GeometryNodeMeshLine:
 
-*********
-Mesh Line
-*********
+**************
+Mesh Line Node
+**************
 
 .. figure:: /images/modeling_geometry-nodes_mesh-primitives_line_node.png
    :align: right

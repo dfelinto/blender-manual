@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Attribute Proximity
 .. _bpy.types.GeometryNodeAttributeProximity:
 
-*******************
-Attribute Proximity
-*******************
+************************
+Attribute Proximity Node
+************************
 
 .. figure:: /images/modeling_geometry-nodes_attribute_attribute-proximity_node.png
    :align: right

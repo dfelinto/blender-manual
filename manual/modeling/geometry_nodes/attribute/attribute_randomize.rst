@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Attribute Randomize
 .. _bpy.types.GeometryNodeAttributeRandomize:
 
-*******************
-Attribute Randomize
-*******************
+************************
+Attribute Randomize Node
+************************
 
 .. figure:: /images/modeling_geometry-nodes_attribute_attribute-randomize_node.png
    :align: right

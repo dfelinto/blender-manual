@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Point
 .. _bpy.types.GeometryNodeAlignRotationToVector:
 
-************************
-Align Rotation to Vector
-************************
+*****************************
+Align Rotation to Vector Node
+*****************************
 
 .. figure:: /images/modeling_geometry-nodes_point_align-rotation-to-vector_node.png
    :align: right

@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Attribute Mix
 .. _bpy.types.GeometryNodeAttributeMix:
 
-*************
-Attribute Mix
-*************
+******************
+Attribute Mix Node
+******************
 
 .. figure:: /images/modeling_geometry-nodes_attribute_attribute-mix_node.png
    :align: right

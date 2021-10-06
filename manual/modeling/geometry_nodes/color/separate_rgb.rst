@@ -1,8 +1,8 @@
 .. index:: Geometry Nodes; Separate RGB
 
-************
-Separate RGB
-************
+*****************
+Separate RGB Node
+*****************
 
 .. figure:: /images/modeling_geometry-nodes_color_separate-rgb_node.png
    :align: right

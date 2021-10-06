@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Boolean
 .. _bpy.types.GeometryNodeBoolean:
 
-*******
-Boolean
-*******
+************
+Boolean Node
+************
 
 The *Boolean Node* allows you to cut, subtract, and join the geometry of two inputs.
 This node offers the same operations as the :doc:`Boolean modifier </modeling/modifiers/generate/booleans>`.

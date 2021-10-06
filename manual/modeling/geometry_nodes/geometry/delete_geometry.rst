@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Delete Geometry
 .. _bpy.types.GeometryNodeDeleteGeometry:
 
-***************
-Delete Geometry
-***************
+********************
+Delete Geometry Node
+********************
 
 .. figure:: /images/modeling_geometry-nodes_geometry_delete-geometry_node.png
 

@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Transform
 .. _bpy.types.GeometryNodeTransform:
 
-*********
-Transform
-*********
+**************
+Transform Node
+**************
 
 .. figure:: /images/modeling_geometry-nodes_geometry_transform_node.png
    :align: right

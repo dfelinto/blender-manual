@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Cone
 .. _bpy.types.GeometryNodeMeshCone:
 
-****
-Cone
-****
+*********
+Cone Node
+*********
 
 .. figure:: /images/modeling_geometry-nodes_mesh-primitives_cone_node.png
    :align: right

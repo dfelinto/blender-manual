@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Material
 .. _bpy.types.GeometryNodeInputMaterial:
 
-********
-Material
-********
+*************
+Material Node
+*************
 
 .. figure:: /images/modeling_geometry-nodes_input_material_node.png
    :align: right

@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; String
 .. _bpy.types.FunctionNodeInputString:
 
-******
-String
-******
+***********
+String Node
+***********
 
 .. figure:: /images/modeling_geometry-nodes_input_string_node.png
    :align: right

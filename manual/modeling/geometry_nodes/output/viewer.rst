@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Viewer
 .. _bpy.types.GeometryNodeViewer:
 
-******
-Viewer
-******
+***********
+Viewer Node
+***********
 
 .. figure:: /images/modeling_geometry-nodes_output_viewer_node.png
    :align: center

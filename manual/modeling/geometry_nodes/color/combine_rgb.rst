@@ -1,8 +1,8 @@
 .. index:: Geometry Nodes; Combine RGB
 
-***********
-Combine RGB
-***********
+****************
+Combine RGB Node
+****************
 
 .. figure:: /images/modeling_geometry-nodes_color_combine-rgb_node.png
    :align: right

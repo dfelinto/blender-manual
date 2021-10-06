@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Handle Type Selection
 .. _bpy.types.GeometryNodeCurveHandleTypeSelection:
 
-**********************
-Handle Type Selection
-**********************
+**************************
+Handle Type Selection Node
+**************************
 
 .. figure:: /images/modeling_geometry-nodes_curve_handle-type-selection_node.png
    :align: center

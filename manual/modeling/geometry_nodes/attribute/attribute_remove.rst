@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Attribute Remove
 .. _bpy.types.GeometryNodeAttributeRemove:
 
-****************
-Attribute Remove
-****************
+*********************
+Attribute Remove Node
+*********************
 
 .. figure:: /images/modeling_geometry-nodes_attribute_attribute-remove_node.png
    :align: right

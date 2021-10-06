@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Point Distribute
 .. _bpy.types.GeometryNodePointDistribute:
 
-****************
-Point Distribute
-****************
+*********************
+Point Distribute Node
+*********************
 
 .. figure:: /images/modeling_geometry-nodes_point_point-distribute_node.png
    :align: right

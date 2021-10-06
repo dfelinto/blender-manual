@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Mesh Circle
 .. _bpy.types.GeometryNodeMeshCircle:
 
-***********
-Mesh Circle
-***********
+****************
+Mesh Circle Node
+****************
 
 .. figure:: /images/modeling_geometry-nodes_mesh-primitives_circle_node.png
    :align: right

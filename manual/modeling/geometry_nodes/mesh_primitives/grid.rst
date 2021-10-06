@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Grid
 .. _bpy.types.GeometryNodeMeshGrid:
 
-****
-Grid
-****
+*********
+Grid Node
+*********
 
 .. figure:: /images/modeling_geometry-nodes_mesh-primitives_grid_node.png
    :align: right

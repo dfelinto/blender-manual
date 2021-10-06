@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Bounding Box
 .. _bpy.types.GeometryNodeBoundBox:
 
-************
-Bounding Box
-************
+*****************
+Bounding Box Node
+*****************
 
 .. figure:: /images/modeling_geometry-nodes_geometry_bounding-box_node.png
    :align: right

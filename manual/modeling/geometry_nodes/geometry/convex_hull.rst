@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Convex Hull
 .. _bpy.types.GeometryNodeConvexHull:
 
-***********
-Convex Hull
-***********
+****************
+Convex Hull Node
+****************
 
 .. figure:: /images/modeling_geometry-nodes_geometry_convex-hull_node.png
 

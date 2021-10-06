@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Point Separate
 .. _bpy.types.GeometryNodePointSeparate:
 
-**************
-Point Separate
-**************
+*******************
+Point Separate Node
+*******************
 
 .. figure:: /images/modeling_geometry-nodes_point_point-separate_node.png
    :align: right

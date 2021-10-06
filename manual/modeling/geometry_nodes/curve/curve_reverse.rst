@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Curve Reverse
 .. _bpy.types.GeometryNodeCurveReverse:
 
-*************
-Curve Reverse
-*************
+******************
+Curve Reverse Node
+******************
 
 .. figure:: /images/modeling_geometry-nodes_curve_curve-reverse_node.png
    :align: center

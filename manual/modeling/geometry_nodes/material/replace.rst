@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Material Replace
 .. _bpy.types.GeometryNodeMaterialReplace:
 
-****************
-Material Replace
-****************
+*********************
+Material Replace Node
+*********************
 
 .. figure:: /images/modeling_geometry-nodes_material_replace_node.png
    :align: right

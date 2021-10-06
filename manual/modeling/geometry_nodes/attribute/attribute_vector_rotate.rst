@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Attribute Vector Rotate
 .. _bpy.types.GeometryNodeAttributeVectorRotate:
 
-***********************
-Attribute Vector Rotate
-***********************
+****************************
+Attribute Vector Rotate Node
+****************************
 
 .. figure:: /images/modeling_geometry-nodes_attribute_attribute-vector-rotate_node.png
    :align: right

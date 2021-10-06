@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Curve Endpoints
 .. _bpy.types.GeometryNodeCurveEndpoints:
 
-***************
-Curve Endpoints
-***************
+********************
+Curve Endpoints Node
+********************
 
 .. figure:: /images/modeling_geometry-nodes_curve_curve-endpoints_node.png
    :align: right

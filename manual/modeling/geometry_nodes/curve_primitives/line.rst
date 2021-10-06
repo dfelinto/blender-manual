@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Curve Line
 .. _bpy.types.GeometryNodeCurveLine:
 
-**********
-Curve Line
-**********
+***************
+Curve Line Node
+***************
 
 .. figure:: /images/modeling_geometry-nodes_curve-primitives_line_node.png
 

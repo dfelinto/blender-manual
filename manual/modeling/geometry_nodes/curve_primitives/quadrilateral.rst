@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Curve Quadrilateral
 .. _bpy.types.GeometryNodeCurveQuadrilateral:
 
-*************
-Quadrilateral
-*************
+******************
+Quadrilateral Node
+******************
 
 .. figure:: /images/modeling_geometry-nodes_curve-primitives_quadrilateral_node.png
 

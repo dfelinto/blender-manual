@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Mesh Subdivide
 .. _bpy.types.GeometryNodeMeshSubdivide:
 
-**************
-Mesh Subdivide
-**************
+*******************
+Mesh Subdivide Node
+*******************
 
 .. figure:: /images/modeling_geometry-nodes_mesh_subdivide_node.png
    :align: right

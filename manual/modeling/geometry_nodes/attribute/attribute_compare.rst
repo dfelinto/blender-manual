@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Attribute Compare
 .. _bpy.types.GeometryNodeAttributeCompare:
 
-*****************
-Attribute Compare
-*****************
+**********************
+Attribute Compare Node
+**********************
 
 .. figure:: /images/modeling_geometry-nodes_attribute_attribute-compare_node.png
    :align: right

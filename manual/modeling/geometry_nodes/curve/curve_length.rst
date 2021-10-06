@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Curve Length
 .. _bpy.types.GeometryNodeCurveLength:
 
-************
-Curve Length
-************
+*****************
+Curve Length Node
+*****************
 
 .. figure:: /images/modeling_geometry-nodes_curve_curve-length_node.png
 

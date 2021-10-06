@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Float Compare
 .. _bpy.types.FunctionNodeFloatCompare:
 
-*************
-Float Compare
-*************
+******************
+Float Compare Node
+******************
 
 .. figure:: /images/modeling_geometry-nodes_utilities_float-compare_node.png
    :align: right

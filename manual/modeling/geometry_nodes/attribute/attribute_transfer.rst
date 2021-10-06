@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Attribute Transfer
 .. _bpy.types.GeometryNodeAttributeTransfer:
 
-******************
-Attribute Transfer
-******************
+***********************
+Attribute Transfer Node
+***********************
 
 .. figure:: /images/modeling_geometry-nodes_attribute_attribute-transfer_node.png
    :align: center

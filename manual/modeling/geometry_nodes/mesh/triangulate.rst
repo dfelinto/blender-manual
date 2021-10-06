@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Triangulate
 .. _bpy.types.GeometryNodeTriangulate:
 
-***********
-Triangulate
-***********
+****************
+Triangulate Node
+****************
 
 .. figure:: /images/modeling_geometry-nodes_mesh_triangulate_node.png
    :align: right

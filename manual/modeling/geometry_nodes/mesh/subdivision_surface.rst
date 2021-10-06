@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Subdivision Surface
 .. _bpy.types.GeometryNodeSubdivisionSurface:
 
-*******************
-Subdivision Surface
-*******************
+************************
+Subdivision Surface Node
+************************
 
 .. figure:: /images/modeling_geometry-nodes_mesh_subdivision-surface_node.png
    :align: right

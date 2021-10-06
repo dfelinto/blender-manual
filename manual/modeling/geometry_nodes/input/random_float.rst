@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Random Float
 .. _bpy.types.FunctionNodeRandomFloat:
 
-************
-Random Float
-************
+*****************
+Random Float Node
+*****************
 
 .. figure:: /images/modeling_geometry-nodes_input_random-float_node.png
    :align: right

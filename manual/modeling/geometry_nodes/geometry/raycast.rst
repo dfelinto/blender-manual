@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Raycast
 .. _bpy.types.GeometryNodeRaycast:
 
-*******
-Raycast
-*******
+************
+Raycast Node
+************
 
 .. figure:: /images/modeling_geometry-nodes_geometry_raycast_node.png
    :align: center

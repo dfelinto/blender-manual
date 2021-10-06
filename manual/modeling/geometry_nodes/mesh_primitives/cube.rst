@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Cube
 .. _bpy.types.GeometryNodeMeshCube:
 
-****
-Cube
-****
+*********
+Cube Node
+*********
 
 .. figure:: /images/modeling_geometry-nodes_mesh-primitives_cube_node.png
    :align: right

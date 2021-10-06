@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Cylinder
 .. _bpy.types.GeometryNodeMeshCylinder:
 
-********
-Cylinder
-********
+*************
+Cylinder Node
+*************
 
 .. figure:: /images/modeling_geometry-nodes_mesh-primitives_cylinder_node.png
    :align: right

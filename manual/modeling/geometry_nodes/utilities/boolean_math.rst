@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Boolean Math
 .. _bpy.types.FunctionNodeBooleanMath:
 
-************
-Boolean Math
-************
+*****************
+Boolean Math Node
+*****************
 
 .. figure:: /images/modeling_geometry-nodes_utilities_boolean-math_node.png
    :align: right

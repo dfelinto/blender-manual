@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Object Info
 .. _bpy.types.GeometryNodeObjectInfo:
 
-***********
-Object Info
-***********
+****************
+Object Info Node
+****************
 
 .. figure:: /images/modeling_geometry-nodes_input_object-info_node.png
    :align: right

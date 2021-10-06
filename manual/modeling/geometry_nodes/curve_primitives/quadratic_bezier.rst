@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Quadratic Bézier
 .. _bpy.types.GeometryNodeCurveQuadraticBezier:
 
-****************
-Quadratic Bézier
-****************
+*********************
+Quadratic Bézier Node
+*********************
 
 .. figure:: /images/modeling_geometry-nodes_curve-primitives_quadratic-bezier_node.png
    :align: right

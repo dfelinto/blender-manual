@@ -1,8 +1,8 @@
 .. index:: Geometry Nodes; Attribute Combine XYZ
 
-*********************
-Attribute Combine XYZ
-*********************
+**************************
+Attribute Combine XYZ Node
+**************************
 
 .. figure:: /images/modeling_geometry-nodes_attribute_attribute-combine-xyz_node.png
    :align: right

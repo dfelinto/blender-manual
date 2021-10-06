@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Select by Material
 .. _bpy.types.GeometryNodeSelectByMaterial:
 
-******************
-Select by Material
-******************
+***********************
+Select by Material Node
+***********************
 
 .. figure:: /images/modeling_geometry-nodes_material_select-by-material_node.png
 

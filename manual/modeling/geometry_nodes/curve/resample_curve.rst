@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Resample Curve
 .. _bpy.types.GeometryNodeResampleCurve:
 
-**************
-Resample Curve
-**************
+*******************
+Resample Curve Node
+*******************
 
 .. figure:: /images/modeling_geometry-nodes_curve_resample-curve_node.png
    :align: center

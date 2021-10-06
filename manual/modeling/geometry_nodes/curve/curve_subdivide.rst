@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Curve Subdivide
 .. _bpy.types.GeometryNodeCurveSubdivide:
 
-***************
-Curve Subdivide
-***************
+********************
+Curve Subdivide Node
+********************
 
 .. figure:: /images/modeling_geometry-nodes_curve_curve-subdivide_node.png
    :align: center

@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Vector
 .. _bpy.types.FunctionNodeInputVector:
 
-******
-Vector
-******
+***********
+Vector Node
+***********
 
 .. figure:: /images/modeling_geometry-nodes_input_vector_node.png
    :align: right

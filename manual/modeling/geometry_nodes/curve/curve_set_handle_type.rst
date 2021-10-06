@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Curve Set Handle Type
 .. _bpy.types.GeometryNodeCurveSetHandles:
 
-**********************
-Curve Set Handle Type
-**********************
+**************************
+Curve Set Handle Type Node
+**************************
 
 .. figure:: /images/modeling_geometry-nodes_curve_set-handles_node.png
    :align: right

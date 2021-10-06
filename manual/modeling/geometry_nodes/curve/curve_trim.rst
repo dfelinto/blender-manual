@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Curve Trim
 .. _bpy.types.GeometryNodeCurveTrim:
 
-**********
-Curve Trim
-**********
+***************
+Curve Trim Node
+***************
 
 .. figure:: /images/modeling_geometry-nodes_curve_curve-trim_node.png
    :align: center

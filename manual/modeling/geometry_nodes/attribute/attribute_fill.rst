@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Attribute Fill
 .. _bpy.types.GeometryNodeAttributeFill:
 
-**************
-Attribute Fill
-**************
+*******************
+Attribute Fill Node
+*******************
 
 .. figure:: /images/modeling_geometry-nodes_attribute_attribute-fill_node.png
    :align: right

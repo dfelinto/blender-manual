@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Point Instance
 .. _bpy.types.GeometryNodePointInstance:
 
-**************
-Point Instance
-**************
+*******************
+Point Instance Node
+*******************
 
 .. figure:: /images/modeling_geometry-nodes_point_point-instance_node.png
    :align: right
