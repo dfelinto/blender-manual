@@ -10,14 +10,18 @@ Cube Node
 
    Cube Node.
 
-The *Cube* node generates a cube mesh with a uniform side length.
+The *Cube* node generates a cuboid mesh with variable side lengths and subdivisions.
+The inside of the mesh is still hollow like a normal cube.
 
 
 Inputs
 ======
 
 Size
-   Side length of the cube.
+   Side lengths along each of the main axes.
+Vertices X, Y, Z
+   Number of vertices for each side of the cube.
+   The number of vertices should be at least 1.
 
 
 Properties
