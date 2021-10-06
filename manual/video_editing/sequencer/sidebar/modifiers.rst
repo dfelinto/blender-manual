@@ -1,11 +1,6 @@
 .. index:: Modifiers; Video Sequencer Modifiers
 .. index:: Video Sequencer Modifiers
 
-.. _bpy.types.BrightContrastModifier:
-.. _bpy.types.ColorBalanceModifier:
-.. _bpy.types.CurvesModifier:
-.. _bpy.types.HueCorrectModifier:
-.. _bpy.types.WhiteBalanceModifier:
 .. _bpy.types.SequenceModifier:
 
 *********
@@ -64,6 +59,7 @@ Currently, the following modifiers are supported:
 
 
 .. index:: Video Sequencer Modifiers; Color Balance Modifier
+.. _bpy.types.ColorBalanceModifier:
 
 Color Balance Modifier
 ----------------------
@@ -74,6 +70,7 @@ This modifier works the same as the :doc:`Color Balance Node </compositing/types
 
 
 .. index:: Video Sequencer Modifiers; Curves Modifier
+.. _bpy.types.CurvesModifier:
 
 Curves Modifier
 ---------------
@@ -84,6 +81,7 @@ This modifier works the same as the :doc:`Curves Node </compositing/types/color/
 
 
 .. index:: Video Sequencer Modifiers; Hue Correct Modifier
+.. _bpy.types.HueCorrectModifier:
 
 Hue Correct Modifier
 --------------------
@@ -94,6 +92,7 @@ This modifier works the same as the :doc:`Curves Node </compositing/types/color/
 
 
 .. index:: Video Sequencer Modifiers; Bright/Contrast Modifier
+.. _bpy.types.BrightContrastModifier:
 
 Bright/Contrast Modifier
 ------------------------
@@ -116,6 +115,7 @@ This mask will be applied on all the others modifiers below it in the stack.
 
 
 .. index:: Video Sequencer Modifiers; White Balance Modifier
+.. _bpy.types.WhiteBalanceModifier:
 
 White Balance Modifier
 ----------------------
