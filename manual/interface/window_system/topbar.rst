@@ -244,8 +244,19 @@ Previous Workspace
 Show Status Bar
    Choose whether the :doc:`Status Bar </interface/window_system/status_bar>`
    at the bottom of the window should be displayed.
+
+.. _bpy.ops.screen.screenshot:
+
 Save Screenshot
-   Capture a picture of the active area of whole Blender window.
+   Capture a picture of the current Blender window.
+   A File Browser will open to choose where the screenshot is saved.
+
+.. _bpy.ops.screen.screenshot_area:
+
+Save Screenshot (Editor)
+   Capture a picture of the selected Editor.
+   Select the Editor by :LMB: within its area after running the operator.
+   A File Browser will open to choose where the screenshot is saved.
 
 
 Help Menu
