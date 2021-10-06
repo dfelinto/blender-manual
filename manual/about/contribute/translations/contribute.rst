@@ -83,14 +83,22 @@ Now you will have a build of the manual with translations applied.
 Editing Translation Files
 =========================
 
-Now you can edit the PO translation files, e.g:
+Now you can edit the PO translation files, in the ``LC_MESSAGES`` folder you have two files:
 
-Original RST File
-   ``manual/getting_started/about_blender/introduction.rst``
-Generated PO File
-   ``locale/fr/LC_MESSAGES/getting_started/about_blender/introduction.po``
+- ``blender_manual.po`` -- This is the main translation file that you will be editing.
+- ``sphinx.po`` -- This translation file is much smaller and contains translations for the website theme.
 
-The modified ``.po`` files can be edited and committed back to svn.
+To edit these files open them up in your translation editor, ie Poedit.
+Once in your editor you will see a list of texts, each of these items represent some part of the user manual.
+You may need to adjust your editor to sort the list in a way that makes sense for example "by source".
+
+You can now select an untranslated string and your editor will have an input box to add the translation.
+The modified ``.po`` files can now submitted as a patch or committed back to svn.
+
+.. tip::
+
+   Make sure that you `Building with Translations`_ to catch any syntax errors you may make while translating.
+   These errors will be displayed as warnings while building the manual.
 
 
 Commit Translation Files
