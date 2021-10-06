@@ -1,14 +1,14 @@
-.. index:: Geometry Nodes; Curve Set Handle Type
+.. index:: Geometry Nodes; Set Handle Type
 .. _bpy.types.GeometryNodeCurveSetHandles:
 
-**************************
-Curve Set Handle Type Node
-**************************
+*********************
+Set Handle Type Node
+*********************
 
 .. figure:: /images/modeling_geometry-nodes_curve_set-handles_node.png
    :align: right
 
-   The Curve Set Handle Type node.
+   The Set Handle Type node.
 
 Sets the handle type for the points on the Bézier curve that
 are in the selection. 
@@ -30,9 +30,9 @@ Mode
    Whether to update left and/or right handles.
 
    :Left:
-      Update the left handles
+      Update the left handles.
    :Right:
-      Update the right handles
+      Update the right handles.
 
 Handle type
    The handle type to switch to.

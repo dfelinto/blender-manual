@@ -30,6 +30,7 @@ and transformed to alter the resulting shape of the spline.
 
    :doc:`Curve Editing </modeling/curves/editing/index>`
 
+.. _curve-spline-types:
 
 Spline Types
 ============

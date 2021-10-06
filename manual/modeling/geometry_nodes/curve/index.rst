@@ -9,7 +9,6 @@
    curve_endpoints.rst
    curve_length.rst
    curve_reverse.rst
-   curve_set_handle_type.rst
    curve_subdivide.rst
    curve_to_mesh.rst
    curve_to_points.rst
@@ -17,3 +16,5 @@
    handle_type_selection.rst
    mesh_to_curve.rst
    resample_curve.rst
+   set_handle_type.rst
+   set_spline_type.rst
