@@ -1,4 +1,4 @@
-.. index:: Geometry Nodes; Point
+.. index:: Geometry Nodes; Point Scale
 .. _bpy.types.GeometryNodePointScale:
 
 ****************

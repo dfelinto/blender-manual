@@ -1,4 +1,4 @@
-.. index:: Geometry Nodes; Point
+.. index:: Geometry Nodes; Align Rotation to Vector
 .. _bpy.types.GeometryNodeAlignRotationToVector:
 
 *****************************

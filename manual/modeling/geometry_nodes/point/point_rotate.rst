@@ -1,4 +1,4 @@
-.. index:: Geometry Nodes; Point
+.. index:: Geometry Nodes; Point Rotate
 .. _bpy.types.GeometryNodePointRotate:
 
 *****************

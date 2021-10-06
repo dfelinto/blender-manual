@@ -1,4 +1,4 @@
-.. index:: Geometry Nodes; Point
+.. index:: Geometry Nodes; Point Translate
 .. _bpy.types.GeometryNodePointTranslate:
 
 ********************
