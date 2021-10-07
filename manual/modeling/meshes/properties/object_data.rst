@@ -58,7 +58,7 @@ Attributes
 ==========
 
 An attribute is data stored per mesh element. Every attribute has a data type, domain and name.
-This panel only lists generic attributes which excludes all the built-in attributes like ``position`` and
+This panel only lists custom attributes which excludes all the built-in attributes like ``position`` and
 other attributes like vertex groups.
 
 See :doc:`Attributes Reference </modeling/geometry_nodes/attributes_reference>` for more information.

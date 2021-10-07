@@ -1,52 +1,44 @@
-.. _bpy.types.Mesh.*customdata:
-.. _bpy.ops.mesh.customdata:
-.. _modeling_meshes_properties_custom-data:
 
-***********
-Custom Data
-***********
+*************
+Geometry Data
+*************
 
-Sculpt Mask
-===========
+.. _bpy.ops.mesh.customdata_mask_clear:
 
 Clear Sculpt-Mask Data
    Removes the sculpting mask data layer. See :ref:`sculpt_mask_clear-data` for more information.
 
-
-Skin Data
-=========
+.. _bpy.ops.mesh.customdata_skin_clear:
+.. _bpy.ops.mesh.customdata_skin_add:
 
 Add/Clear Skin Data
    Used to manage the skin data layer which is used by the :doc:`/modeling/modifiers/generate/skin`.
    This operator can be needed in case a Skin modifier is created but no skin data exist.
 
 
-Custom Split Normals
-====================
+.. _bpy.ops.mesh.customdata_custom_splitnormals_clear:
+.. _bpy.ops.mesh.customdata_custom_splitnormals_add:
 
-Add Custom Split Normals Data
+Add/Clear Custom Split Normals Data
    Adds a :ref:`custom split normals <modeling_meshes_normals_custom>` data layer, if none exists yet.
 
 
-Vertex Data
-===========
+.. _bpy.types.Mesh.use_customdata_vertex_bevel:
 
-Bevel Weight
-------------
+Store
+   Vertex Bevel Weight
+      Save the :ref:`Vertex Bevel Weight <modeling-vertex-bevel-weight>` with the mesh data.
+      
+   .. _bpy.types.Mesh.use_customdata_edge_bevel:
 
-Todo.
+   Edge Bevel Weight
+      Save the :ref:`Edge Bevel Weight <modeling-edges-bevel-weight>` with the mesh data.
 
+   .. _bpy.types.Mesh.use_customdata_edge_crease:
 
-Edge Data
-=========
+   Edge Crease
+      Save the :ref:`Edge Bevel Weight <modeling-edges-bevel-weight>` with the mesh data..
 
-Bevel Weight
-------------
+   .. warning::
 
-Todo.
-
-
-Edge Crease
------------
-
-Todo.
+      Disabling any of these properties will result in the data loss of these values.

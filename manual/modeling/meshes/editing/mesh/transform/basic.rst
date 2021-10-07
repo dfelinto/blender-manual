@@ -53,11 +53,12 @@ Space
 Vertex Data
 -----------
 
+.. _modeling-vertex-bevel-weight:
+
 Bevel Weight
    This vertex property, a value between (0.0 to 1.0),
    is used by the :doc:`Bevel Modifier </modeling/modifiers/generate/bevel>`
-   to control the bevel intensity of the vertices,
-   when the Only Vertices option is active.
+   to control the bevel intensity of the vertices, when the *Only Vertices* option is active.
 
 
 Edge Data
@@ -65,7 +66,19 @@ Edge Data
 
 When an edge is selected, the following options are available. More buttons appear:
 
+.. _modeling-edges-bevel-weight:
+
 Bevel Weight
-   See :ref:`Edge bevel weight <modeling-edges-bevel-weight>`.
+   This edge property, a value between (0.0 to 1.0),
+   is used by the :doc:`Bevel Modifier </modeling/modifiers/generate/bevel>`
+   to control the bevel intensity of the edges.
+
+   This property can also be set using the :ref:`bpy.ops.transform.edge_bevelweight` operator.
+
+.. todo move to attribute page
+.. _modeling-edges-crease-subdivision:
+
 Crease
-   The :ref:`crease <modeling-edges-crease-subdivision>` value of the edge.
+   This edge property, a value between (0.0 to 1.0), is used by
+   the :doc:`Subdivision Surface Modifier </modeling/modifiers/generate/subdivision_surface>`
+   to control the sharpness of the edges in the subdivided mesh.
