@@ -41,12 +41,11 @@ Domain
 Mapping
    How elements from the destination geometry are mapped to points on the source geometry.
 
-   Nearest Face Interpolated
+   :Nearest Face Interpolated:
       Transfer the attribute from the nearest point on the surface.
       Non-face attributes are interpolated across the surface (edge attributes are not supported yet).
       Loose points and edges are ignored.
-
-   Nearest
+   :Nearest:
       Transfer the attribute from the nearest element.
       No interpolation is done.
 

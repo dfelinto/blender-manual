@@ -5,6 +5,12 @@
 Attribute Color Ramp Node
 *************************
 
+.. warning::
+
+   This node is considered legacy and will be removed in Blender 4.0.
+
+   Please use the :doc:`/modeling/geometry_nodes/color/color_ramp` instead.
+
 Maps values from a float attribute to their corresponding color, based on a color ramp.
 The resulting colors are stored on the geometry in a color attribute.
 

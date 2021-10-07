@@ -5,6 +5,12 @@
 Attribute Map Range
 *******************
 
+.. warning::
+
+   This node is considered legacy and will be removed in Blender 4.0.
+
+   Please use the :doc:`/modeling/geometry_nodes/utilities/map_range` instead.
+
 .. figure:: /images/modeling_geometry-nodes_attribute_attribute-map_node.png
    :align: right
 

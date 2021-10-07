@@ -9,6 +9,7 @@
    bounding_box.rst
    convex_hull.rst
    delete_geometry.rst
+   geometry_proximity.rst
    join_geometry.rst
    raycast.rst
    separate_components.rst

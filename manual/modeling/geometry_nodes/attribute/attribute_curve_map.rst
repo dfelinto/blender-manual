@@ -5,6 +5,12 @@
 Attribute Curve Map Node
 ************************
 
+.. warning::
+
+   This node is considered legacy and will be removed in Blender 4.0.
+
+   Please use the :doc:`/modeling/geometry_nodes/utilities/float_curve` instead.
+
 .. figure:: /images/modeling_geometry-nodes_attribute_attribute-curve-map_node.png
    :align: center
 

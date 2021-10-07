@@ -5,6 +5,12 @@
 Attribute Vector Math Node
 **************************
 
+.. warning::
+
+   This node is considered legacy and will be removed in Blender 4.0.
+
+   Please use the :doc:`/modeling/geometry_nodes/vector/vector_math` instead.
+
 Modify an attribute with a math operation.
 
 .. figure:: /images/modeling_geometry-nodes_attribute_attribute-vector-math_node.png

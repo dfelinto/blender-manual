@@ -9,6 +9,7 @@
    boolean_math.rst
    clamp.rst
    float_compare.rst
+   float_curve.rst
    float_to_int.rst
    map_range.rst
    math.rst

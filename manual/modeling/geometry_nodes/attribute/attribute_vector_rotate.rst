@@ -5,6 +5,12 @@
 Attribute Vector Rotate Node
 ****************************
 
+.. warning::
+
+   This node is considered legacy and will be removed in Blender 4.0.
+
+   Please use the :doc:`/modeling/geometry_nodes/vector/vector_rotate` instead.
+
 .. figure:: /images/modeling_geometry-nodes_attribute_attribute-vector-rotate_node.png
    :align: right
    :width: 300px

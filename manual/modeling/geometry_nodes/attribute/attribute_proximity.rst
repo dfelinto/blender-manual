@@ -5,6 +5,12 @@
 Attribute Proximity Node
 ************************
 
+.. warning::
+
+   This node is considered legacy and will be removed in Blender 4.0.
+
+   Please use the :doc:`/modeling/geometry_nodes/geometry/geometry_proximity` instead.
+
 .. figure:: /images/modeling_geometry-nodes_attribute_attribute-proximity_node.png
    :align: right
    :width: 200px

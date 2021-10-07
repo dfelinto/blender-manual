@@ -5,6 +5,10 @@
 Attribute Randomize Node
 ************************
 
+.. warning::
+
+   This node is considered legacy and will be removed in Blender 4.0.
+
 .. figure:: /images/modeling_geometry-nodes_attribute_attribute-randomize_node.png
    :align: right
    :width: 200px
