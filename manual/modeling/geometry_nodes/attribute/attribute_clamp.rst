@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Attribute Clamp
 .. _bpy.types.GeometryNodeAttributeClamp:
 
-***************
-Attribute Clamp
-***************
+********************
+Attribute Clamp Node
+********************
 
 .. figure:: /images/modeling_geometry-nodes_attribute_attribute-clamp_node.png
    :align: right
