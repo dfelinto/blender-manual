@@ -6,7 +6,8 @@ Geometry Data
 .. _bpy.ops.mesh.customdata_mask_clear:
 
 Clear Sculpt-Mask Data
-   Removes the sculpting mask data layer. See :ref:`sculpt_mask_clear-data` for more information.
+   Completely frees the mask data layer from the mesh. While not a huge benefit,
+   this can speed-up sculpting if the mask is no longer being used.
 
 .. _bpy.ops.mesh.customdata_skin_clear:
 .. _bpy.ops.mesh.customdata_skin_add:
@@ -37,7 +38,7 @@ Store
    .. _bpy.types.Mesh.use_customdata_edge_crease:
 
    Edge Crease
-      Save the :ref:`Edge Bevel Weight <modeling-edges-bevel-weight>` with the mesh data..
+      Save the :ref:`Edge Crease <modeling-edges-crease-subdivision>` with the mesh data..
 
    .. warning::
 

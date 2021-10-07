@@ -320,7 +320,6 @@ The mask display can be toggled as a :doc:`viewport overlay </editors/3dview/dis
 In the overlay popover, the opacity of the mask overlay can be adjusted to make it more or less visible on the mesh.
 
 
-.. _bpy.ops.mesh.customdata_mask_clear:
 .. _sculpt_mask_clear-data:
 
 Clear Sculpt-Mask Data

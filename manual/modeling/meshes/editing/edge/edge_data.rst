@@ -16,7 +16,7 @@ Edge Crease
    :Menu:      :menuselection:`Edge --> Edge Crease`
    :Shortcut:  :kbd:`Shift-E`
 
-This operator interactively sets the :ref:`Edge Crease` amount
+This operator interactively sets the :ref:`Edge Crease <modeling-edges-crease-subdivision>` amount
 by moving the mouse (or typing a value with the keyboard).
 Selecting more than one edge will adjust the mean (average) crease value.
 A negative value will subtract from the actual crease value, if present.
