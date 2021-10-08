@@ -39,9 +39,6 @@ Properties
 Resolution
    How the voxel size is specified.
 
-Radius
-   Type of the radius input.
-
 
 Outputs
 =======
