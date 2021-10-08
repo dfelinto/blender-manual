@@ -21,7 +21,7 @@ Curve
    Standard geometry input.
 
 Selection
-   Optional selection attribute that determines which splines are reversed.
+   The points whose splines are reversed.
 
 
 Properties
