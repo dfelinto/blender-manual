@@ -40,15 +40,16 @@ Options
 
    The Boolean modifier.
 
-Intersect
-   Everything inside both the target mesh and the modified mesh is kept.
-   If the target is a collection, then only the inside of *all* meshes is kept.
-Union
-   The target mesh or collection is added to the modified mesh,
-   removing any interior faces.
-Difference
-   The target mesh, or collection of meshes, is subtracted from the modified mesh
-   (everything *outside* of the target mesh or collection is kept).
+Operation
+   :Intersect:
+      Everything inside both the target mesh and the modified mesh is kept.
+      If the target is a collection, then only the inside of *all* meshes is kept.
+   :Union:
+      The target mesh or collection is added to the modified mesh,
+      removing any interior faces.
+   :Difference:
+      The target mesh, or collection of meshes, is subtracted from the modified mesh
+      (everything *outside* of the target mesh or collection is kept).
 
 Operand Type
    Choose the type of the operand (target).
@@ -83,7 +84,7 @@ Solver
 Solver Options
 --------------
 
-Self :guilabel:`Exact Solver`
+Self Intersection :guilabel:`Exact Solver`
    Correctly calculates cases when one or both operands have self-intersections,
    this involves more calculations making it slower.
 
