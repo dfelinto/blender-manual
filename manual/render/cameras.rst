@@ -198,8 +198,21 @@ Ratio
 Camera
 ------
 
-Camera Presets
-   :ref:`Presets <ui-presets>` to match real cameras.
+These settings adjusts properties that relate to a physical camera body.
+Several :ref:`Presets <ui-presets>` can be chosen to match real world cameras.
+
+Sensor Fit
+   Adjusts how the camera's sensor fits within the outputs dimension adjusting the angular field of view.
+
+   :Auto:
+      Calculates a square sensor size based on the larger of the
+      :ref:`Resolution <bpy.types.RenderSettings.resolution_y>` dimensions.
+   :Horizontal:
+      Manually adjust the *Width* of the sensor, the *Height* is calculated based
+      on the based on the aspect ratio of the output's :ref:`Resolution <bpy.types.RenderSettings.resolution_y>`.
+   :vertical:
+      Manually adjust the *Height* of the sensor, the *Width* is calculated based
+      on the based on the aspect ratio of the output's :ref:`Resolution <bpy.types.RenderSettings.resolution_y>`.
 
 .. _render-camera-sensor-size:
 
@@ -207,8 +220,6 @@ Sensor Size
    This setting is an alternative way to control the field of view, as opposed to modifying the focal length.
    It is useful to match a camera in Blender to a physical camera and lens combination,
    e.g. for :doc:`motion tracking </movie_clip/index>`.
-Sensor Fit
-   Option to control which dimension (vertical or horizontal) along which field of view angle fits.
 
 
 .. _bpy.types.DisplaySafeAreas:
