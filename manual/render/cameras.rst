@@ -205,14 +205,14 @@ Sensor Fit
    Adjusts how the camera's sensor fits within the outputs dimension adjusting the angular field of view.
 
    :Auto:
-      Calculates a square sensor size based on the larger of the
-      :ref:`Resolution <bpy.types.RenderSettings.resolution_y>` dimensions.
+      Calculates a square sensor size based on the larger of
+      the :ref:`Resolution <bpy.types.RenderSettings.resolution_y>` dimensions.
    :Horizontal:
-      Manually adjust the *Width* of the sensor, the *Height* is calculated based
-      on the based on the aspect ratio of the output's :ref:`Resolution <bpy.types.RenderSettings.resolution_y>`.
-   :vertical:
-      Manually adjust the *Height* of the sensor, the *Width* is calculated based
-      on the based on the aspect ratio of the output's :ref:`Resolution <bpy.types.RenderSettings.resolution_y>`.
+      Manually adjust the *Width* of the sensor, the *Height* is calculated based on
+      the aspect ratio of the output's :ref:`Resolution <bpy.types.RenderSettings.resolution_y>`.
+   :Vertical:
+      Manually adjust the *Height* of the sensor, the *Width* is calculated based on
+      the aspect ratio of the output's :ref:`Resolution <bpy.types.RenderSettings.resolution_y>`.
 
 .. _render-camera-sensor-size:
 

@@ -54,17 +54,17 @@ Subsurface Method
       which means that it works best for closed meshes.
       Overlapping faces and holes in the mesh can cause problems.
    :Random Walk:
-      Behaves similarly to *Random Walk (Fixed Radius)* but modulates 
-      the *Radius* based on the *Color*, *Anisotropy*, and *IOR*. 
-      This method thereby attempts to retain greater surface detail and
-      color than *Random Walk (Fixed Radius)*.
+      Behaves similarly to *Random Walk (Fixed Radius)* but modulates
+      the *Radius* based on the *Color*, *Anisotropy*, and *IOR*.
+      This method thereby attempts to retain greater surface detail and color
+      than *Random Walk (Fixed Radius)*.
 
 
 Outputs
 =======
 
 BSSRDF
-   :abbr:`BSSRDF (Bidirectional subsurface scattering distribution function)` shader output.
+   :abbr:`BSSRDF (Bidirectional SubSurface Scattering Distribution Function)` shader output.
 
 
 Examples
@@ -72,4 +72,4 @@ Examples
 
 .. figure:: /images/render_shader-nodes_shader_sss_example.jpg
 
-   Random Walk subsurface scattering.
+   Random walk subsurface scattering.

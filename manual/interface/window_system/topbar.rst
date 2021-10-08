@@ -255,7 +255,7 @@ Save Screenshot
 
 Save Screenshot (Editor)
    Capture a picture of the selected Editor.
-   Select the Editor by :LMB: within its area after running the operator.
+   Select the Editor by :kbd:`LMB` within its area after running the operator.
    A File Browser will open to choose where the screenshot is saved.
 
 

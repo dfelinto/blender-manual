@@ -135,7 +135,7 @@ Input Passes
 .. _bpy.types.CyclesRenderSettings.denoising_prefilter:
 
 Prefilter
-   Controls whether or not prefiltering is applied to input passes for use when denoising.
+   Controls whether or not prefiltering is applied to *Input Passes* for use when denoising.
    Visible only when using *OpenImageDenoise*.
 
    :None:

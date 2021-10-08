@@ -10,19 +10,21 @@ Handle Type Selection Node
 
    The Handle Type Selection node.
 
-Creates a selection based on the handle types of the control points.  
+Creates a selection based on the handle types of the control points.
+
 
 Inputs
 ======
 
 This node has no inputs.
 
+
 Properties
 ==========
 
 Mode
    Whether to consider left and/or right handles.
-   When both are selected, the returned value is true
+   When both are selected, the outputted value is true
    if either of the handles are of the chosen type.
 
    :Left:
@@ -30,7 +32,7 @@ Mode
    :Right:
       Consider the right handle.
 
-Handle type
+Handle Type
    Handle type for which the selection will be true.
    Read the :ref:`Bézier curves <curve-bezier-handle-type>` page for more details
    on the different handle types.
@@ -41,5 +43,3 @@ Outputs
 
 Selection
    Boolean field set to true wherever the handle type matches.
-
-

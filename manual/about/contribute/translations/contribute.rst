@@ -88,12 +88,12 @@ Now you can edit the PO translation files, in the ``LC_MESSAGES`` folder you hav
 - ``blender_manual.po`` -- This is the main translation file that you will be editing.
 - ``sphinx.po`` -- This translation file is much smaller and contains translations for the website theme.
 
-To edit these files open them up in your translation editor, ie Poedit.
+To edit these files open them up in your translation editor, i.e. Poedit.
 Once in your editor you will see a list of texts, each of these items represent some part of the user manual.
 You may need to adjust your editor to sort the list in a way that makes sense for example "by source".
 
 You can now select an untranslated string and your editor will have an input box to add the translation.
-The modified ``.po`` files can now submitted as a patch or committed back to svn.
+The modified ``.po`` files can now submitted as a patch or committed back to SVN.
 
 .. tip::
 

@@ -10,7 +10,7 @@ Levels Node
    Levels Node.
 
 The Levels Node read the input color channels and outputs analytical values.
-The output is a one dimensional meaning the visualization will be a uniform grey color.
+The output is one-dimensional meaning the visualization will be a uniform gray color.
 
 
 Inputs

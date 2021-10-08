@@ -25,7 +25,7 @@ marked with small green squares. Red squares are already defined cuts.
 Surrounding red squares mean that there is a cut already in that position,
 so no additional vertex will be created (besides the first one).
 
-If multiple objects are selected before entering Edit mode,
+If multiple objects are selected before entering Edit Mode,
 then knife cuts will affect all of those objects.
 
 .. list-table::
@@ -53,17 +53,22 @@ Only Selected :kbd:`Shift-K`
    Only cuts through selected geometry.
 
 X-Ray
-   Show cut points on non-visible geometry too, when Occlude Geometry is off.
+   Show cut points on non-visible geometry too, when *Occlude Geometry* is deactivated.
 
 Measurement
-   Which visible measurements to show: a choice of *Distance*, *Angle*, *None*, or *Both*.
+   Which visible measurements to show.
 
-Angle snapping
-   Whether or not dragged lines should be contrained to particular angles, and if so,
-   which coordinate system the angle is relative to. A choice of *None*, *Screen*, or *Relative*.
+   Distance, Angle, None, Both
 
-Angle snapping increment
+Angle Snapping
+   Whether or not dragged lines should be constrained to particular angles, and if so,
+   which coordinate system the angle is relative to.
+
+   None, Screen, Relative
+
+Angle Snapping Increment
    When angle snapping is on, the angle will be constrained to a multiple of this angle.
+
 
 Controls
 ========
@@ -72,7 +77,7 @@ Confirm :kbd:`Spacebar` or :kbd:`Return`
    Confirms the cut.
    :kbd:`Return` will leave selected every edge except the new edges created from the cut.
 
-Cancel :kbd:`ESC`
+Cancel :kbd:`Esc`
    Cancels the cut.
 
 Draw a Continuous Line :kbd:`LMB` drag.
@@ -105,7 +110,7 @@ Ignore Snap :kbd:`Ctrl`
    unlike the default where mouse cursor snaps to near edges.
 
 Cut Through: :kbd:`C`
-   Allow the Cut tool to cut through to obscured faces, instead of only the visible ones.
+   Allow the Cut tool to cut through to occluded faces, instead of only the visible ones.
 
 Angle Constrain :kbd:`A`
    Constrains the cut line to certain degree increments.
@@ -114,7 +119,7 @@ Angle Constrain :kbd:`A`
    The default angles are in the plane of the screen, but typing :kbd:`A` again
    makes it relative to the last cut edge.
    If the last cut edge is ambiguous (because the cut was on a vertex),
-   typing :kbd:`R` cyles through the possible reference edges.
+   typing :kbd:`R` cycles through the possible reference edges.
 
    .. list-table::
 
@@ -130,15 +135,16 @@ Angle Constrain :kbd:`A`
 
 Axis Constrain :kbd:`X`, :kbd:`Y`, or :kbd:`Z`
    Constrains the cut line to one of the coordinate system axes.
-   Intitially it will be the global axis with the given name,
-   but pressing the same key again switches to the Object's local axis system.
-   Additionally, the if the scene transformation orientation is set to some
-   custom orientation (say, from a face), the constraints will be in that coordinate system.
+   Initially it will be the global axis with the given name,
+   but pressing the same key again switches to the object's local axis system.
+   Additionally, if the scene transformation orientation is set to
+   a custom orientation (e.g. from a face), the constraints will be in that coordinate system.
 
 Visible Measurements :kbd:`S`
    Shows measurements of the cuts being made: angles with respect to a mesh edge, lengths, or both.
-   Pressing :kbd:`S` repeatedly cycles between what can be shown:
-   *Only Distance*, *Only Angles*, *Both*, or *None*.
+   Pressing :kbd:`S` repeatedly cycles between what can be shown.
+
+   Only Distance, Only Angles, Both, None
 
 Undo :kbd:`Ctrl-Z`
    Undoes the previous cut segment. The starting point for the next cut is adjusted accordingly.
@@ -146,6 +152,7 @@ Undo :kbd:`Ctrl-Z`
 
 X-Ray Mode :kbd:`V`
    Toggles whether or not cuts to segments behind the visible geometry are shown.
+
 
 Known Limitations
 =================

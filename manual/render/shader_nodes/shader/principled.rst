@@ -143,7 +143,7 @@ Distribution
 
 Subsurface Method
    Rendering method to simulate subsurface scattering.
-   
+
    .. note:: Eevee does not use these subsurface scatter methods but instead uses an approximation.
 
    :Random Walk (Fixed Radius):
@@ -152,11 +152,10 @@ Subsurface Method
       which means that it works best for closed meshes.
       Overlapping faces and holes in the mesh can cause problems.
    :Random Walk:
-      Behaves similarly to *Random Walk (Fixed Radius)* but modulates 
-      the *Subsurface Radius* based on the *Color*,
-      *Subsurface Anisotropy*, and *Subsurface IOR*. This method
-      thereby attempts to retain greater surface detail and color than
-      *Random Walk (Fixed Radius)*.
+      Behaves similarly to *Random Walk (Fixed Radius)* but modulates
+      the *Subsurface Radius* based on the *Color*, *Subsurface Anisotropy*, and *Subsurface IOR*.
+      This method thereby attempts to retain greater surface detail and color
+      than *Random Walk (Fixed Radius)*.
 
 
 Outputs

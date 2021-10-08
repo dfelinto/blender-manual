@@ -137,7 +137,7 @@ Recursion
    :Blend File: List the whole content of a blend-file (only available when linking or appending data-blocks).
    :One Levels: List all subdirectories' content, one level of recursion.
    :Two Levels: List all subdirectories' content, two level of recursion.
-   :Three Levels: List all subdirectories' content, three levels of recursion
+   :Three Levels: List all subdirectories' content, three levels of recursion.
 
    .. hint::
 
