@@ -9,7 +9,7 @@ Glossy BSDF
 
    Glossy BSDF.
 
-The *Glossy* :abbr:`BSDF (Bidirectional scattering distribution function)`
+The *Glossy* :abbr:`BSDF (Bidirectional Scattering Distribution Function)`
 node is used to add reflection with microfacet distribution, used for materials such as metal or mirrors.
 
 

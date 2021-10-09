@@ -12,7 +12,7 @@ Principled Hair BSDF
 
 :guilabel:`Cycles Only`
 
-The *Principled Hair* :abbr:`BSDF (Bidirectional scattering distribution function)` is a physically-based,
+The *Principled Hair* :abbr:`BSDF (Bidirectional Scattering Distribution Function)` is a physically-based,
 easy-to-use shader for rendering hair and fur.
 
 .. tip::

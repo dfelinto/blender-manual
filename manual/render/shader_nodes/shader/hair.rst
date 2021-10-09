@@ -11,7 +11,7 @@ Hair BSDF
 
 :guilabel:`Cycles Only`
 
-The *Hair* :abbr:`BSDF (Bidirectional scattering distribution function)`
+The *Hair* :abbr:`BSDF (Bidirectional Scattering Distribution Function)`
 node is used to add shading for :doc:`Hair </physics/particles/hair/index>`.
 
 

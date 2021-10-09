@@ -9,7 +9,7 @@ Transparent BSDF
 
    Transparent BSDF.
 
-The *Transparent* :abbr:`BSDF (Bidirectional scattering distribution function)`
+The *Transparent* :abbr:`BSDF (Bidirectional Scattering Distribution Function)`
 is used to add transparency without refraction, passing straight through the surface,
 as if there were no geometry there. Useful with alpha maps, for example.
 This shader :ref:`affects light paths somewhat differently <render-cycles-light-paths-transparency>`

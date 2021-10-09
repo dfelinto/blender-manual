@@ -9,7 +9,7 @@ Principled BSDF
 
    Principled BSDF.
 
-The *Principled* :abbr:`BSDF (Bidirectional scattering distribution function)`
+The *Principled* :abbr:`BSDF (Bidirectional Scattering Distribution Function)`
 that combines multiple layers into a single easy to use node.
 It is based on the Disney principled model also known as the "PBR" shader,
 making it compatible with other software such as Pixar's Renderman\ :sup:`®`

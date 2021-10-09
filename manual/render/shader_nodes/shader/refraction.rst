@@ -9,7 +9,7 @@ Refraction BSDF
 
    Refraction BSDF.
 
-The *Refraction* :abbr:`BSDF (Bidirectional scattering distribution function)`
+The *Refraction* :abbr:`BSDF (Bidirectional Scattering Distribution Function)`
 is used to add glossy refraction with sharp or microfacet distribution,
 used for materials that transmit light. For best results this node should be considered as
 a building block and not be used on its own,

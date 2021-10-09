@@ -9,7 +9,7 @@ Glass BSDF
 
    Glass BSDF.
 
-The *Glass* :abbr:`BSDF (Bidirectional scattering distribution function)`
+The *Glass* :abbr:`BSDF (Bidirectional Scattering Distribution Function)`
 is used to add a Glass-like shader mixing refraction and reflection at grazing angles.
 Like the transparent shader, only pure white will make it transparent.
 The glass shader tends to cause noise due to caustics.

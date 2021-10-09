@@ -11,7 +11,7 @@ Specular BSDF
 
 :guilabel:`Eevee Only`
 
-The *Specular* :abbr:`BSDF (Bidirectional scattering distribution function)`
+The *Specular* :abbr:`BSDF (Bidirectional Scattering Distribution Function)`
 combines multiple layers into a single easy to use node.
 
 It is similar to the :doc:`Principled BSDF </render/shader_nodes/shader/principled>` node

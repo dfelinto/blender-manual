@@ -11,7 +11,7 @@ Toon BSDF
 
 :guilabel:`Cycles Only`
 
-The *Toon* :abbr:`BSDF (Bidirectional scattering distribution function)`
+The *Toon* :abbr:`BSDF (Bidirectional Scattering Distribution Function)`
 is used to create *Diffuse* and *Glossy* materials with cartoon light effects.
 
 

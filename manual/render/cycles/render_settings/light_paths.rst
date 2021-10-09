@@ -56,7 +56,7 @@ This will still converge to the same image, but renders faster while possibly be
 Transparency
 ============
 
-The transparent :abbr:`BSDF (Bidirectional scattering distribution function)` shader is given
+The transparent :abbr:`BSDF (Bidirectional Scattering Distribution Function)` shader is given
 special treatment. When a ray passes through it, light passes straight on,
 as if there was no geometry there.
 The ray type does not change when passing through a transparent BSDF.

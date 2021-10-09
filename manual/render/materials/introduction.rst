@@ -85,7 +85,7 @@ though there are a few things to keep in mind.
 In order for materials to work well with global illumination, they should be energy conserving.
 That means they cannot reflect more light than comes in.
 This property is not strictly enforced, but if colors are in the range 0.0 to 1.0, and
-:abbr:`BSDF (Bidirectional scattering distribution function)`\ s are only mixed together with
+:abbr:`BSDF (Bidirectional Scattering Distribution Function)`\ s are only mixed together with
 the Mix Shader node, this will automatically be true.
 
 It is however, possible to break this,

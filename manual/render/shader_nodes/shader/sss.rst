@@ -64,7 +64,7 @@ Outputs
 =======
 
 BSSRDF
-   :abbr:`BSSRDF (Bidirectional SubSurface Scattering Distribution Function)` shader output.
+   :abbr:`BSSRDF (Bidirectional Scattering Surface Reflectance Distribution Function)` shader output.
 
 
 Examples
