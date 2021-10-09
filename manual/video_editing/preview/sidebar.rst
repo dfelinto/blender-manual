@@ -103,7 +103,7 @@ the most important parts of the video can be seen across all screens.
 
 .. seealso::
 
-   See :ref:`Safe Areas <camera-safe-areas>` in the camera docs.
+   See :ref:`Safe Areas <bpy.types.DisplaySafeAreas>` in the camera docs.
 
 
 Scene Strip Display

@@ -1,6 +1,5 @@
 .. _bpy.types.Camera:
 .. _bpy.ops.camera:
-.. _cameras-index:
 
 *******
 Cameras
@@ -193,13 +192,13 @@ Ratio
    and a higher number will cause a vertical distortion.
 
 
-.. _bpy.types.Camera.sensor:
-
 Camera
 ------
 
 These settings adjusts properties that relate to a physical camera body.
 Several :ref:`Presets <ui-presets>` can be chosen to match real world cameras.
+
+.. _bpy.types.Camera.sensor_fit:
 
 Sensor Fit
    Adjusts how the camera's sensor fits within the outputs dimension adjusting the angular field of view.
@@ -214,17 +213,17 @@ Sensor Fit
       Manually adjust the *Height* of the sensor, the *Width* is calculated based on
       the aspect ratio of the output's :ref:`Resolution <bpy.types.RenderSettings.resolution_y>`.
 
-.. _render-camera-sensor-size:
+.. _bpy.types.Camera.sensor_height:
+.. _bpy.types.Camera.sensor_width:
 
-Sensor Size
+Size / Width, Height 
    This setting is an alternative way to control the field of view, as opposed to modifying the focal length.
    It is useful to match a camera in Blender to a physical camera and lens combination,
    e.g. for :doc:`motion tracking </movie_clip/index>`.
 
 
-.. _bpy.types.DisplaySafeAreas:
 .. _bpy.ops.safe_areas:
-.. _camera-safe-areas:
+.. _bpy.types.DisplaySafeAreas:
 
 Safe Areas
 ----------
@@ -301,15 +300,13 @@ or animation (when using a video as background), etc.
 Background Source
    The source of the background image.
 
-   Image
+   :Image:
       Use an external image, image sequence, video file or generated texture.
-   Movie Clip
+   :Movie Clip:
       Use one of the Movie Clip data-blocks.
 
       Active Clip
          Follow the scene's :ref:`active clip <scene-active-clip>`.
-      Color Space
-         The color space the image or video file uses within Blender.
       Render Undistorted
          Draw the background image using undistorted proxies when available.
       Proxy Render Size
@@ -320,30 +317,37 @@ Background Source
             To build a proxy, the :ref:`Movie Clip Editor Proxy settings <bpy.types.MovieClipProxy>` have to be used.
             Otherwise the proxy settings here have no effect.
 
+Color Space
+   The color space the image or video file uses within Blender.
+
 Opacity
    Controls the transparency of the background image.
+
 Depth
    Choose whether the image is shown behind all objects, or in front of everything.
+
 Frame Method
    Controls how the image is placed in the camera view.
 
-   Stretch
-      Forces the image dimensions to match the camera bounds (may alter the aspect ratio).
-   Fit
-      Scales the image down to fit inside the camera view without altering the aspect ratio.
-   Crop
+   :Stretch: Forces the image dimensions to match the camera bounds (may alter the aspect ratio).
+   :Fit: Scales the image down to fit inside the camera view without altering the aspect ratio.
+   :Crop:
       Scales the image up so that it fills the entire camera view,
       but without altering the aspect ratio (some of the image will be cropped).
-Offset X/Y
+
+Offset X, Y
    Positions the background image using these offsets.
 
    In orthographic views, this is measured in the normal scene units.
    In the camera view, this is measured relative to the camera bounds
    (0.1 will offset it by 10% of the view width/height).
+
 Rotation
    Rotates the image around its center.
+
 Scale
    Scales the image up or down from its center.
+
 Flip
    X
       Swaps the image around, such that the left side is now on the right, and the right now on the left.
