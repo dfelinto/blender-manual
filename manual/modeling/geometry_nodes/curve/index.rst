@@ -6,6 +6,7 @@
 .. toctree::
    :maxdepth: 1
 
+   curve_fill.rst
    curve_endpoints.rst
    curve_length.rst
    curve_reverse.rst
