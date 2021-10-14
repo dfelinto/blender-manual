@@ -26,11 +26,14 @@ Node Types
    curve_primitives/index.rst
    geometry/index.rst
    input/index.rst
+   instances/index.rst
    material/index.rst
    mesh/index.rst
    mesh_primitives/index.rst
    output/index.rst
    point/index.rst
+   text/index.rst
+   texture/index.rst
    utilities/index.rst
    vector/index.rst
    volume/index.rst

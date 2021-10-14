@@ -1,16 +1,16 @@
-.. index:: Geometry Nodes; Point Instance
-.. _bpy.types.GeometryNodePointInstance:
+.. index:: Geometry Nodes; Instance on Points
+.. _bpy.types.GeometryNodeInstanceOnPoints:
 
-*******************
-Point Instance Node
-*******************
+***********************
+Instance on Points Node
+***********************
 
 .. figure:: /images/modeling_geometry-nodes_point_point-instance_node.png
    :align: right
 
-   The Point Instance Node.
+   The Instance on Points Node.
 
-The *Point Instance* node instances an element to each of the points present in the input geometry.
+The *Instance on Points* node instances an element to each of the points present in the input geometry.
 It works for both point cloud and mesh vertices.
 
 .. warning::

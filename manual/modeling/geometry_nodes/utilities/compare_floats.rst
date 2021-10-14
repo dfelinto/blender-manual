@@ -1,16 +1,16 @@
-.. index:: Geometry Nodes; Compare Float
-.. _bpy.types.FunctionNodeCompareFloat:
+.. index:: Geometry Nodes; Compare Floats
+.. _bpy.types.FunctionNodeCompareFloats:
 
-******************
-Compare Float Node
-******************
+*******************
+Compare Floats Node
+*******************
 
 .. figure:: /images/modeling_geometry-nodes_utilities_float-compare_node.png
    :align: right
 
-   Compare Float Node.
+   Compare Floats Node.
 
-The *Compare Float* node takes two inputs and does a math comparison between them.
+The *Compare Floats* node takes two inputs and does a math comparison between them.
 
 
 Inputs

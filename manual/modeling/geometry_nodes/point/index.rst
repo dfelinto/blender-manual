@@ -6,10 +6,16 @@
 .. toctree::
    :maxdepth: 1
 
-   align_rotation_to_vector.rst
-   point_distribute.rst
-   point_instance.rst
-   point_rotate.rst
-   point_scale.rst
-   point_separate.rst
-   point_translate.rst
+   distribute_points_on_faces.rst
+   points_to_volume.rst
+
+.. raw:: html
+
+   <hr>
+
+.. toctree::
+   :maxdepth: 1
+
+.. missing documentation::
+   points_to_vertices.rst
+   set_point_radius.rst

@@ -11,6 +11,9 @@
    delete_geometry.rst
    geometry_proximity.rst
    join_geometry.rst
-   raycast.rst
    separate_components.rst
+   separate_geometry.rst
    transform.rst
+
+.. missing documentation::
+   set_position.rst

@@ -1,14 +1,14 @@
-.. index:: Geometry Nodes; Point Separate
-.. _bpy.types.GeometryNodePointSeparate:
+.. index:: Geometry Nodes; Separate Geometry
+.. _bpy.types.GeometryNodeSeparateGeometry:
 
-*******************
-Point Separate Node
-*******************
+**********************
+Separate Geometry Node
+**********************
 
 .. figure:: /images/modeling_geometry-nodes_point_point-separate_node.png
    :align: right
 
-   The Point Separate node.
+   The Separate Geometry node.
 
 The *Point Separate* node produces two geometry outputs. Based on the *Mask* input,
 the point cloud component of the input geometry is split between the two outputs.
@@ -16,7 +16,7 @@ the point cloud component of the input geometry is split between the two outputs
 .. tip::
 
    This node can be combined with
-   the :doc:`Attribute Compare </modeling/geometry_nodes/attribute/attribute_compare>` node
+   the :doc:`Compare Floats </modeling/geometry_nodes/utilities/compare_floats>` node
    for a more precise control of which points are separated to a given output geometry.
 
 

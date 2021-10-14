@@ -66,8 +66,8 @@ Geometry
 
    ``id`` (integer)
       An identifier for each point used for stability when the mesh is deformed,
-      used in the :doc:`/modeling/geometry_nodes/attribute/attribute_randomize`
-      and :doc:`/modeling/geometry_nodes/point/point_instance` nodes.
+      used in the :doc:`/modeling/geometry_nodes/utilities/random_value`
+      and :doc:`/modeling/geometry_nodes/instances/instance_on_points` nodes.
 
    ``normal`` (vector)
       The :term:`Normal` of the triangle on which each point is scattered.
