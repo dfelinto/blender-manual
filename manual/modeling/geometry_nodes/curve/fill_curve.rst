@@ -1,16 +1,16 @@
-.. index:: Geometry Nodes; Curve Fill
-.. _bpy.types.GeometryNodeCurveFill:
+.. index:: Geometry Nodes; Fill Curve
+.. _bpy.types.GeometryNodeFillCurve:
 
 ******************
-Curve Fill Node
+Fill Curve Node
 ******************
 
 .. figure:: /images/modeling_geometry-nodes_curve_curve-fill_node.png
    :align: center
 
-   The Curve Fill node.
+   The Fill Curve node.
 
-The *Curve Fill* node generates a mesh using the Constrained Delaunay Triangulation
+The *Fill Curve* node generates a mesh using the Constrained Delaunay Triangulation
 algorithm with the curves as boundaries. The mesh is only generated at z = 0,
 i.e. on the ground plane.
 

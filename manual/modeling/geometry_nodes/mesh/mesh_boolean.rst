@@ -1,16 +1,16 @@
-.. index:: Geometry Nodes; Boolean
-.. _bpy.types.GeometryNodeBoolean:
+.. index:: Geometry Nodes; Mesh Boolean
+.. _bpy.types.GeometryNodeMeshBoolean:
 
-************
-Boolean Node
-************
+*****************
+Mesh Boolean Node
+*****************
 
-The *Boolean Node* allows you to cut, subtract, and join the geometry of two inputs.
+The *Mesh Boolean Node* allows you to cut, subtract, and join the geometry of two inputs.
 This node offers the same operations as the :doc:`Boolean modifier </modeling/modifiers/generate/booleans>`.
 
 .. figure:: /images/modeling_geometry-nodes_mesh_boolean_node.png
 
-   The Boolean node.
+   The Mesh Boolean node.
 
 
 Inputs

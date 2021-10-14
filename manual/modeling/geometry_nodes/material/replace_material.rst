@@ -1,20 +1,20 @@
-.. index:: Geometry Nodes; Material Replace
-.. _bpy.types.GeometryNodeMaterialReplace:
+.. index:: Geometry Nodes; Replace Material
+.. _bpy.types.GeometryNodeReplaceMaterial:
 
 *********************
-Material Replace Node
+Replace Material Node
 *********************
 
 .. figure:: /images/modeling_geometry-nodes_material_replace_node.png
    :align: right
    :width: 300px
 
-   The Material Replace Node.
+   The Replace Material Node.
 
-The *Material Replace* node swaps one material with another.
+The *Replace Material* node swaps one material with another.
 Replacing a material with this node is more efficient than creating a selection of all faces
 with the old material and then using
-the :doc:`Material Assign </modeling/geometry_nodes/material/assign>` node.
+the :doc:`Assign Material </modeling/geometry_nodes/material/assign_material>` node.
 
 .. note::
 

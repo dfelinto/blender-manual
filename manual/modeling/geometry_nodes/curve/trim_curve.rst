@@ -1,16 +1,16 @@
-.. index:: Geometry Nodes; Curve Trim
-.. _bpy.types.GeometryNodeCurveTrim:
+.. index:: Geometry Nodes; Trim Curve
+.. _bpy.types.GeometryNodeTrimCurve:
 
 ***************
-Curve Trim Node
+Trim Curve Node
 ***************
 
 .. figure:: /images/modeling_geometry-nodes_curve_curve-trim_node.png
    :align: center
 
-   The *Curve Trim* node.
+   The *Trim Curve* node.
 
-The *Curve Trim* node shortens each spline in the curve by removing sections at
+The *Trim Curve* node shortens each spline in the curve by removing sections at
 the start and end of each spline.
 
 Bézier splines will still be Bézier splines in the output, with the first and last control point and

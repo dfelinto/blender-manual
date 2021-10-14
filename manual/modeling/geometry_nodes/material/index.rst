@@ -6,6 +6,6 @@
 .. toctree::
    :maxdepth: 1
 
-   assign.rst
-   replace.rst
+   assign_material.rst
+   replace_material.rst
    select_by_material.rst

@@ -1,16 +1,16 @@
-.. index:: Geometry Nodes; Curve Subdivide
-.. _bpy.types.GeometryNodeCurveSubdivide:
+.. index:: Geometry Nodes; Subdivide Curve
+.. _bpy.types.GeometryNodeSubdivideCurve:
 
 ********************
-Curve Subdivide Node
+Subdivide Curve Node
 ********************
 
 .. figure:: /images/modeling_geometry-nodes_curve_curve-subdivide_node.png
    :align: center
 
-   The Curve Subdivide node.
+   The Subdivide Curve node.
 
-The *Curve Subdivide* node cuts spline segments without changing their shape.
+The *Subdivide Curve* node cuts spline segments without changing their shape.
 
 
 Inputs

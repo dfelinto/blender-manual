@@ -1,16 +1,16 @@
-.. index:: Geometry Nodes; Curve Reverse
-.. _bpy.types.GeometryNodeCurveReverse:
+.. index:: Geometry Nodes; Reverse Curve
+.. _bpy.types.GeometryNodeReverseCurve:
 
 ******************
-Curve Reverse Node
+Reverse Curve Node
 ******************
 
 .. figure:: /images/modeling_geometry-nodes_curve_curve-reverse_node.png
    :align: center
 
-   The Curve Reverse node.
+   The Reverse Curve node.
 
-The *Curve Reverse* node swaps the start and end of splines.
+The *Reverse Curve* node swaps the start and end of splines.
 The shape of the splines is not changed.
 
 

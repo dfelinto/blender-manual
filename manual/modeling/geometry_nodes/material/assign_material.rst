@@ -1,17 +1,17 @@
-.. index:: Geometry Nodes; Material Assign
-.. _bpy.types.GeometryNodeMaterialAssign:
+.. index:: Geometry Nodes; Assign Material
+.. _bpy.types.GeometryNodeAssignMaterial:
 
 ********************
-Material Assign Node
+Assign Material Node
 ********************
 
 .. figure:: /images/modeling_geometry-nodes_material_assign_node.png
    :align: right
    :width: 300px
 
-   The Material Assign Node.
+   The Assign Material Node.
 
-The *Material Assign* changes the material assignment in the specified selection.
+The *Assign Material* changes the material assignment in the specified selection.
 
 .. note::
 
