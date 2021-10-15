@@ -5,43 +5,33 @@
 Set Handle Type Node
 ********************
 
-.. figure:: /images/modeling_geometry-nodes_curve_set-handles_node.png
+.. figure:: /images/modeling_geometry-nodes_curve_set-handle-type_node.png
    :align: right
 
-   The Set Handle Type node.
+   Set Handle Type Node
 
-Sets the handle type for the points on the Bézier curve that are in the selection.
-
+The *Set Handle Type* ...
 
 Inputs
 ======
 
-Curve
-   Bézier curve.
+Geometry
+   zzzzz
 
 Selection
-   The points whose handle types will be changed.
-
+   zzzzz
 
 Properties
 ==========
 
-Mode
-   Whether to update left or right or both handles.
+Left / Right
+   XXXXXXXX
 
-   :Left:
-      Update the left handles.
-   :Right:
-      Update the right handles.
-
-Handle Type
-   The handle type to switch to.
-   Read the :ref:`Bézier curves <curve-bezier-handle-type>` page for more details
-   on the different handle types.
-
+Type
+   XXXXXXXX
 
 Outputs
 =======
 
-Curve
-   Standard curve output.
+Geometry
+   zzzzz

@@ -33,6 +33,14 @@ but the output is always a normalized `unit vector <https://en.wikipedia.org/wik
       which depends on the twist method. The normal vector is always perpendicular to the direction
       of the curve's path at every point.
 
+   .. warning::
+
+      For NURBS and Bezier spline curves, keep in mind that the value retrieved from this node is the
+      value at every control point, which may not correspond to the visible *evaluated* points. For
+      NURBS splines the difference may be even more pronounced and the result may not be as expected.
+      A :doc:`</modeling/geometry_nodes/curve/resample_curve>` node can be used to create a Poly spline,
+      where there is a control point for every evaluated point.
+
 
 Inputs
 ======
