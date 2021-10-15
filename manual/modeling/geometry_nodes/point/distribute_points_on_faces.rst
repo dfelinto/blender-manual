@@ -1,20 +1,23 @@
-.. index:: Geometry Nodes; Point Distribute
-.. _bpy.types.GeometryNodePointDistribute:
+.. index:: Geometry Nodes; Distribute Points on Faces
+.. _bpy.types.GeometryNodeDistributePointsOnFaces:
 
-*********************
-Point Distribute Node
-*********************
+**************************
+Distribute Points on Faces
+**************************
 
 .. figure:: /images/modeling_geometry-nodes_point_point-distribute_node.png
    :align: right
 
-   The Point Distribute Node.
+   The Distribute Points on Faces Node.
 
-The *Point Distribute* node places points on the surface of the input geometry object.
+The *Distribute Points on Faces* node places points on the surface of the input geometry object.
 Point, corner and polygon attributes of the input geometry are transferred to the generated points.
 That includes vertex weights and UV maps.
-Additionally, the generated points will have a ``normal``, ``id`` and ``rotation`` attribute.
+Additionally, the node has *Normal* and *Rotation* outputs.
 
+The node also generates a "Random ID" output, which is an identifier for each point used for stability
+when the mesh is deformed or the density changes, used in the :doc:`/modeling/geometry_nodes/utilities/random_value`
+and :doc:`/modeling/geometry_nodes/instances/instance_on_points` nodes.
 
 Inputs
 ======
@@ -26,13 +29,18 @@ Geometry
 
       The input geometry must contain a mesh with faces.
 
+Selection
+   The selection of which face corners should be considered for point distribution.
+
 Distance Min
    The minimal distance points can have to each other.
-   This option is only available on distribution methods that support it.
+   This option is only available for the *Poisson Disk* distribution method.
+   At its default value of zero, the node's behavior is the same as it is in *Random* mode,
+   because none of the internally generated points are removed.
 
 Density Max
    The point density for the point distribution. The unit is in number of points per square meter.
-   This value is multiplied by the values from the *Density Attribute*.
+   This value is multiplied by the values from the *Density* input. Only available in *Poisson Disk* mode.
 
    .. note::
 
@@ -40,9 +48,11 @@ Density Max
       If the density is greater than what the minimal distance allows,
       no new points will be added after this threshold has been passed.
 
-Density Attribute
-   The name of the attribute to use for influencing the point density.
-   The values of this attribute are multiplied by *Density Max* for the final density value.
+Density
+   The point density for the point distribution. The unit is in number of points per square meter.
+   This value is multiplied by the values from the *Density Attribute*. 
+
+   In *Poisson Disk* mode, this value is multiplied by the *Density Max* input for the final density.
 
 Seed
    The random :term:`Seed` to use when generating points.
@@ -62,15 +72,14 @@ Output
 ======
 
 Geometry
-   Generated points. Several attributes are created on the output points based on the input mesh:
+   Generated points. Named attributes are copied to the result mesh, along with the data in the other
+   attribute field outputs.
 
-   ``id`` (integer)
-      An identifier for each point used for stability when the mesh is deformed,
-      used in the :doc:`/modeling/geometry_nodes/utilities/random_value`
-      and :doc:`/modeling/geometry_nodes/instances/instance_on_points` nodes.
+Normal
+   The :term:`Normal` of the triangle on which each point is scattered.
 
-   ``normal`` (vector)
-      The :term:`Normal` of the triangle on which each point is scattered.
-
-   ``rotation`` (vector)
-      An XYZ :term:`Euler` rotation built from the normal attribute for convenience.
+Rotation:
+   An XYZ :term:`Euler` rotation built from the normal attribute for convenience. Such a value can also be
+   built from the normal with the :doc:`/modeling/geometry_nodes/utilities/rotate_euler`. Keep in mind that
+   the Z axis of the result rotation will be arbitrary, since the mesh normal used to create the rotation
+   does not have enough information to set all three rotation axes.

@@ -15,7 +15,7 @@
    map_range.rst
    math.rst
    switch.rst
+   random_value.rst
 
 .. missing documentation:
-   random_value.rst
    rotate_euler.rst

@@ -1,25 +1,25 @@
 .. index:: Nodes; Geometry Nodes
 .. index:: Geometry Nodes
 .. _bpy.types.GeometryNode:
-
+ 
 ##################
   Geometry Nodes
 ##################
 
-.. toctree::
+ .. toctree::
    :maxdepth: 2
-
+ 
    introduction.rst
    inspection.rst
    attributes_reference.rst
-
-
+ 
+ 
 Node Types
-==========
+========== 
 
-.. toctree::
+ .. toctree::
    :maxdepth: 2
-
+ 
    attribute/index.rst
    color/index.rst
    curve/index.rst
