@@ -14,14 +14,12 @@
    value.rst
    vector.rst
 
-.. raw:: html
-
-   <hr>
+------------------------
 
 .. toctree::
    :maxdepth: 1
 
-.. missing documentation::
+.. missing documentation:
    color.rst
    input_index.rst
    normal.rst

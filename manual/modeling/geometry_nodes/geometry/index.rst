@@ -15,5 +15,5 @@
    separate_geometry.rst
    transform.rst
 
-.. missing documentation::
+.. missing documentation:
    set_position.rst

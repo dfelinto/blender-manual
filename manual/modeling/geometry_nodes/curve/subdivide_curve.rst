@@ -24,6 +24,13 @@ Cuts
    When the input is a field, the number of cuts for a segment is determined by
    the value of the field when evaluated at the previous point.
 
+
+Properties
+==========
+
+This node has no properties.
+
+
 Outputs
 =======
 

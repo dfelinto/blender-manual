@@ -14,18 +14,14 @@
    subdivide_curve.rst
    trim_curve.rst
 
-.. raw:: html
-
-   <hr>
+------------------------
 
 .. toctree::
    :maxdepth: 1
 
    handle_type_selection.rst
 
-.. raw:: html
-
-   <hr>
+------------------------
 
 .. toctree::
    :maxdepth: 1

@@ -8,16 +8,14 @@
 
    replace_material.rst
 
-.. raw:: html
-
-   <hr>
+------------------------
 
 .. toctree::
    :maxdepth: 1
 
    set_material.rst
 
-.. missing documentation::
+.. missing documentation:
    material_index.rst
    material_selection.rst
    set_material_index.rst

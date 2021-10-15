@@ -6,6 +6,6 @@
 .. toctree::
    :maxdepth: 1
 
-.. missing documentation::
+.. missing documentation:
    attribute_statistic.rst
    capture_attribute.rst

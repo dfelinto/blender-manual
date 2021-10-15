@@ -10,7 +10,7 @@ The higher the *Distance Error* threshold is set the more control points are rem
 The Simplify F-Curves tool works the same way, but on selected F-curves.
 
 *Merge by Distance* tool glues nearby points on a single Bézier curve.
-In fact it is an analogue of the usual *Merge by Distance* on a mesh, but for curves.
+In fact it is an analog of the usual *Merge by Distance* on a mesh, but for curves.
 Unlike the mesh one, it does not connect the points from different parts of the curves,
 even if they are on the ends of the two curves.
 To glue such points, you must first connect them with *Make Segment*.

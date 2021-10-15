@@ -8,7 +8,7 @@
 
    instance_on_points.rst
 
-.. missing documentation::
+.. missing documentation:
    realize_instances.rst
    rotate_instances.rst
    scale_instances.rst

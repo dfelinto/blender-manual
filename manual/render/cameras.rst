@@ -196,7 +196,7 @@ Camera
 ------
 
 These settings adjusts properties that relate to a physical camera body.
-Several :ref:`Presets <ui-presets>` can be chosen to match real world cameras.
+Several :ref:`Presets <ui-presets>` can be chosen to match real-world cameras.
 
 .. _bpy.types.Camera.sensor_fit:
 
@@ -216,7 +216,7 @@ Sensor Fit
 .. _bpy.types.Camera.sensor_height:
 .. _bpy.types.Camera.sensor_width:
 
-Size / Width, Height 
+Size / Width, Height
    This setting is an alternative way to control the field of view, as opposed to modifying the focal length.
    It is useful to match a camera in Blender to a physical camera and lens combination,
    e.g. for :doc:`motion tracking </movie_clip/index>`.

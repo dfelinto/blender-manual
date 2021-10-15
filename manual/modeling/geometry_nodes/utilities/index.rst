@@ -16,6 +16,6 @@
    math.rst
    switch.rst
 
-.. missing documentation::
+.. missing documentation:
    random_value.rst
    rotate_euler.rst
