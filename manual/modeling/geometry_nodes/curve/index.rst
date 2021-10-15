@@ -21,7 +21,6 @@
    :maxdepth: 1
 
    handle_type_selection.rst
-   is_spline_cyclic.rst
    spline_length.rst
    spline_resolution.rst
 
@@ -45,3 +44,4 @@
    curve_parameter.rst
    curve_tangent.rst
    curve_tilt.rst
+   is_spline_cyclic.rst
