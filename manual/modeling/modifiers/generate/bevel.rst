@@ -82,7 +82,7 @@ Limit Method
    None
       No limit, all edges will be beveled.
    Angle
-      Only bevels edges whose angle of adjacent faces plus the defined *Angle* is less than 180 degrees.
+      Only bevels edges whose angle of adjacent face normals plus the defined *Angle* is less than 180 degrees.
       Intended to allow you to bevel only the sharp edges of an object without affecting its smooth surfaces.
    Weight
       Use each edge's bevel weight to determine the width of the bevel.
