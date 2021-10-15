@@ -14,8 +14,8 @@
    float_to_integer.rst
    map_range.rst
    math.rst
-   switch.rst
    random_value.rst
+   switch.rst
 
 .. missing documentation:
    rotate_euler.rst
