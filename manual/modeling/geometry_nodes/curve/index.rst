@@ -24,6 +24,7 @@
    set_handle_positions.rst
    set_spline_cyclic.rst
    set_spline_resolution.rst
+   set_handle_type.rst
 
 ------------------------
 
@@ -47,5 +48,3 @@
    curve_parameter.rst
    curve_tangent.rst
    curve_tilt.rst
-   
-   set_handle_type.rst
