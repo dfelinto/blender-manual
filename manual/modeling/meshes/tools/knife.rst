@@ -146,6 +146,23 @@ Visible Measurements :kbd:`S`
 
    Only Distance, Only Angles, Both, None
 
+   .. list-table::
+
+     * - .. figure:: /images/modeling_meshes_tools_knife-measurement-distance.png
+            :width: 640px
+
+            Only Distance.
+
+       - .. figure:: /images/modeling_meshes_tools_knife-measurement-angles.png
+            :width: 640px
+
+            Only Angles.
+
+       - .. figure:: /images/modeling_meshes_tools_knife-measurement-both.png
+            :width: 640px
+
+            Both angles and distance.
+
 Undo :kbd:`Ctrl-Z`
    Undoes the previous cut segment. The starting point for the next cut is adjusted accordingly.
    If a cut is a drag cut, the entire drag cut is undone.
