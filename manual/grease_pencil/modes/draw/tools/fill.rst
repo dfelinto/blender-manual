@@ -63,7 +63,7 @@ Layers
    Determines which :doc:`Layers </grease_pencil/properties/layers>` are used for boundary strokes.
 
    :Visible: Calculates boundaries based on all visible layers.
-   :Active:  Calculates boundaries based on the active later.
+   :Active:  Calculates boundaries based on the active layer.
    :Layer Above: Calculates boundaries based on the layer above the active layer.
    :Layer Below: Calculates boundaries based on the layer below the active layer.
    :All Above: Calculates boundaries based on all layers above the active layer.
