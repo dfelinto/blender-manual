@@ -5,43 +5,63 @@
 Separate Geometry Node
 **********************
 
-.. figure:: /images/modeling_geometry-nodes_point_point-separate_node.png
+.. figure:: /images/modeling_geometry-nodes_geometry_separate-geometry_node.png
    :align: right
 
    The Separate Geometry node.
 
-The *Point Separate* node produces two geometry outputs. Based on the *Mask* input,
-the point cloud component of the input geometry is split between the two outputs.
+The *Separate Geometry* node produces two geometry outputs. Based on the *Selection* input,
+the input geometry is split between the two outputs.
 
 .. tip::
 
    This node can be combined with
    the :doc:`Compare Floats </modeling/geometry_nodes/utilities/compare_floats>` node
-   for a more precise control of which points are separated to a given output geometry.
+   for a more precise control of which parts are separated to a given output geometry.
 
 
 Inputs
 ======
 
-Mask
-   The name of the attribute used to calculate which geometry output each point will belong to.
-   Any value of true will move the point to the second output,
-   and any value of false will move the point to the first output.
-   If the attribute data type is not Boolean, the value will be implicitly converted,
-   such that negative values are false and positive values are true.
+Geometry
+   Standard Geometry input.
+
+Selection
+   Boolean field used to calculate which output each part of the geometry will go to.
+   Parts in the selection will move to the *Selection* output.
+   Parts not in the selection will move to the *Inverted* output.
 
 
 Properties
 ==========
 
-This node has no properties.
+Domain
+   The domain on which the selection field is evaluated.
+
+   :Point:
+      The selection is on the points, control points, and vertices of the geometry.
+   :Edge:
+      The selection is on the edges of the mesh component. The other components
+      are not modified.
+   :Faces:
+      The selection is on the faces of the mesh component. The other components
+      are not modified.
+   :Spline:
+      The selection is on the splines in the curve component. For each spline, it
+      is either entirely in the selection or not at all. The other components are not
+      modified.
+
+   .. note::
+
+      When selecting a domain that doesn't modify all components, the unmodified
+      components will appear in both outputs.
 
 
 Outputs
 =======
 
-Geometry 1
-   Points with a *Mask* attribute value of "false" will be moved to the first output.
+Selection
+   The parts of the geometry in the selection.
 
-Geometry 2
-   Points with a *Mask* attribute value of "true" will be moved to the second output.
+Inverted
+   The parts of the geometry not in the selection.
