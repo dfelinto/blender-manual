@@ -17,7 +17,7 @@ Additionally, the node has *Normal* and *Rotation* outputs.
 
 The node also generates a "Random ID" output, which is an identifier for each point used for stability
 when the mesh is deformed or the density changes, used in the :doc:`/modeling/geometry_nodes/utilities/random_value`
-and :doc:`/modeling/geometry_nodes/instances/instance_on_points` nodes.
+and :doc:`Instance on Points </modeling/geometry_nodes/instances/instance_on_points>` nodes.
 
 Inputs
 ======
