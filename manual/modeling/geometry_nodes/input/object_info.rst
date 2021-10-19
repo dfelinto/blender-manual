@@ -23,6 +23,9 @@ Inputs
 Object
    Object to get the properties from.
 
+As Instance
+   Output the entire object as single instance instead of realized geometry. 
+   This allows instancing non-geometry object types, because the output will contain an instance of the object.
 
 Properties
 ==========

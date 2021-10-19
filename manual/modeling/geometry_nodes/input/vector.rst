@@ -32,7 +32,3 @@ Output
 
 Vector
    Standard vector output.
-
-.. note::
-
-   The vector is not normalized.

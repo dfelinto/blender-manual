@@ -12,7 +12,7 @@ Normal Node
 
 The *Normal Node* returns a vector for each evaluated point indicating the normal
 direction. The output can depend on the attribute domain used in the node evaluating the field,
-but the output is always a normalized `unit vector <https://en.wikipedia.org/wiki/Unit_vector>`.
+but the output is always a normalized `unit vector <https://en.wikipedia.org/wiki/Unit_vector>`__.
 
    :Face: 
       On the face domain, the normal is the "up" direction of the face.
@@ -38,7 +38,7 @@ but the output is always a normalized `unit vector <https://en.wikipedia.org/wik
       For NURBS and Bezier spline curves, keep in mind that the value retrieved from this node is the
       value at every control point, which may not correspond to the visible *evaluated* points. For
       NURBS splines the difference may be even more pronounced and the result may not be as expected.
-      A :doc:`Resample Curve /modeling/geometry_nodes/curve/resample_curve`> node can be used to create
+      A :doc:`/modeling/geometry_nodes/curve/resample_curve` can be used to create
       a Poly spline, where there is a control point for every evaluated point.
 
 
