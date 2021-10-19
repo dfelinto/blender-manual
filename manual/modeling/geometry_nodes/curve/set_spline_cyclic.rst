@@ -14,7 +14,8 @@ The *Set Spline Cyclic* controls whether each spline will loop back on itself.
 Each spline has the same number of control points whether or not it is set as cyclic, but
 when displaying in the viewport and for operations with other nodes, a connection will be made
 between the first and last control points.
-The input node for this data is the :doc:`</modeling/geometry_nodes/curve/is_spline_cyclic>`.
+
+The input node for this data is the :doc:`Is Spline Cyclic node </modeling/geometry_nodes/curve/is_spline_cyclic>`.
 
 
 

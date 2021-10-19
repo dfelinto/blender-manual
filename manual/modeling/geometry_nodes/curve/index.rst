@@ -9,6 +9,7 @@
    curve_length.rst
    curve_to_mesh.rst
    fill_curve.rst
+   fillet_curve.rst
    resample_curve.rst
    reverse_curve.rst
    sample_curve.rst
@@ -20,7 +21,12 @@
 .. toctree::
    :maxdepth: 1
 
+   curve_handle_position.rst
+   curve_parameter.rst
+   curve_tangent.rst
+   curve_tilt.rst
    handle_type_selection.rst
+   is_spline_cyclic.rst
    spline_length.rst
    spline_resolution.rst
 
@@ -36,12 +42,3 @@
    set_spline_cyclic.rst
    set_spline_resolution.rst
    set_spline_type.rst
-
-.. missing documentation
-   fillet_curve.rst
-
-   curve_handle_position.rst
-   curve_parameter.rst
-   curve_tangent.rst
-   curve_tilt.rst
-   is_spline_cyclic.rst

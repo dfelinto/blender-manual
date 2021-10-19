@@ -25,6 +25,7 @@ See the :ref:`Bézier curves <curve-bezier-handle-type>` page for more details.
    The left and right handles cannot be changed at the same time in this node, because that would
    break the alignment for left and right handles at the same control point.
 
+
 Inputs
 ======
 
@@ -49,6 +50,7 @@ Properties
 Left / Right
    Whether to set the handle position of the left or right handle.
    The *Left* handle is closer to the start of the spline, and the *Right* handle is closer to the end.
+
 
 Outputs
 =======

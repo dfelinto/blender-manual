@@ -18,7 +18,7 @@ interpolated from the values at the evalauted curve points at each side of the s
 
    When the curve contains multiple splines, the sample position is found based on the total accumulated
    length, including the lengths of all previous splines. The order of the splines is the same order as
-   determined shown in the :doc:`Spreadsheet Editor </editors/spreadsheet>`.
+   displayed in the :doc:`Spreadsheet Editor </editors/spreadsheet>`.
 
 Inputs
 ======

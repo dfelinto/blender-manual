@@ -13,6 +13,7 @@ Set Spline Type Node
 Sets the spline type for the splines in the curve component that
 are in the selection.
 
+
 Inputs
 ======
 

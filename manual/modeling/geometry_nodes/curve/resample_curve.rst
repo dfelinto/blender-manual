@@ -32,7 +32,7 @@ Length
    
    .. tip::
 
-      A :doc:`</modeling/geometry_nodes/curve/trim_curve>` node can be used with a multiple of the
+      A :doc:`Resample Curve </modeling/geometry_nodes/curve/trim_curve>` node can be used with a multiple of the
       input length to make the distance between each sampled point exact, even when the length of the spline changes.
 
 
