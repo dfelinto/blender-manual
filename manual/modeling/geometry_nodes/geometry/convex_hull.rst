@@ -13,7 +13,13 @@ The *Convex Hull* node outputs a convex mesh that is enclosing all points in the
 
 .. note::
 
-   Volumes are not supported and attributes are not transferred currently.
+   When the node is used on a geometry with instances, the algorithm will run once per instance,
+   resulting in many convex hull meshes in the instance geometries. The realize instances node can
+   be used to get a convex hull of an entire geometry.
+
+.. warning::
+
+   Volumes are not supported by this node, and attributes are not automatically transferred to the result.
 
 
 Inputs
