@@ -12,6 +12,7 @@ Value to String Node
 
 The *Value to String* node generates string representation of the input value.
 
+
 Inputs
 ======
 
@@ -20,6 +21,7 @@ Value
 
 Decimals
    Integer value used to determine the precision of the output value.
+
 
 Properties
 ==========

@@ -7,7 +7,7 @@
    :maxdepth: 1
 
    collection_info.rst
-   color.rst 
+   color.rst
    input_index.rst
    is_viewport.rst
    material.rst

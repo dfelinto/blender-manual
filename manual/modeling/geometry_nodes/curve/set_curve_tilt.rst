@@ -8,17 +8,18 @@ Set Curve Tilt Node
 .. figure:: /images/modeling_geometry-nodes_curve_set-curve-tilt_node.png
    :align: right
 
-   Set Curve Tilt Node
+   Set Curve Tilt node.
 
-The *Set Curve Tilt* controls the tilt angle at each curve control point. That angle rotates normal vector
-which is generated at each point when evaluating the curve. The normal then can be retrieved with the
-:doc:`Normal Input Node </modeling/geometry_nodes/input/normal>`. The rotation is an :term:`Axis Angle`
-rotation, or the operation of the :doc:`Vector Rotate node </modeling/geometry_nodes/vector/vector_rotate>`, 
-with the tangent vector as the axis, the raw evaluated normal as the original vector, and the tilt as the 
-rotation angle.
+The *Set Curve Tilt* controls the tilt angle at each curve control point.
+That angle rotates normal vector which is generated at each point
+when evaluating the curve. The normal then can be retrieved with
+the :doc:`Normal Input Node </modeling/geometry_nodes/input/normal>`.
+If the rotation is an :term:`Axis Angle` rotation, or the operation of
+the :doc:`Vector Rotate node </modeling/geometry_nodes/vector/vector_rotate>`,
+with the tangent vector as the axis, then the raw evaluated normal is used as
+the original vector, and the tilt as the rotation angle.
 
-
-The input node for this data is the :doc:`Curve Tilt node </modeling/geometry_nodes/curve/curve_tilt>`.
+The input node for this data is the :doc:`Curve Tilt </modeling/geometry_nodes/curve/curve_tilt>` node.
 
 
 Inputs
@@ -39,6 +40,7 @@ Properties
 ==========
 
 This node has no properties.
+
 
 Outputs
 =======

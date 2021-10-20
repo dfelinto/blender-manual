@@ -35,7 +35,7 @@ Mesh
 Mesh Primitives
    Nodes that create a primitive mesh, e.g. a cube.
 Output
-   Nodes that communicate with outside the node tree.
+   Nodes that output to outside the node tree.
 Point
    Nodes that modify the object elements, e.g. vertices.
 Text

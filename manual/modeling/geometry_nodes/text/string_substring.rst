@@ -12,6 +12,7 @@ String Substring Node
 
 The *String Substring* extracts a string segment from a larger string.
 
+
 Inputs
 ======
 
@@ -24,6 +25,7 @@ Position
 
 Length
    Integer value used to determine how many characters are extracted from the input string.
+
 
 Properties
 ==========

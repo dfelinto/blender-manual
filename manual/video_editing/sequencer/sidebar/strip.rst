@@ -221,7 +221,7 @@ Source Information
    FPS
       Movie strip only -- The frame rate encoded into the video file.
       If this value does not match the scene :ref:`Frame Rate <bpy.types.RenderSettings.fps>`
-      the percieved speed of the media will be wrong unless the speed is
+      the perceived speed of the media will be wrong unless the speed is
       :ref:`changed <video_editing-change_fps>` to account for the difference in frame rate.
 
 

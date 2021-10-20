@@ -8,11 +8,11 @@ Set Curve Radius Node
 .. figure:: /images/modeling_geometry-nodes_curve_set-curve-radius_node.png
    :align: right
 
-   Set Curve Radius Node
+   Set Curve Radius node.
 
 The *Set Curve Radius* controls the radius of the curve, used for operations like the size of the profile
-in the :doc:`Curve to Mesh </modeling/geometry_nodes/curve/curve_to_mesh>` node. The value is set for every
-control point, and is then interpolated to each evaluated point in between the control points.
+in the :doc:`Curve to Mesh </modeling/geometry_nodes/curve/curve_to_mesh>` node. The value is set for
+every control point, and is then interpolated to each evaluated point in between the control points.
 
 The input node for this data is the :doc:`Curve Radius node </modeling/geometry_nodes/input/radius>`.
 
@@ -30,13 +30,15 @@ Selection
 Radius
    The radius value for each control point.
 
+
 Properties
 ==========
 
 This node has no properties.
 
+
 Outputs
 =======
 
 Geometry
-   Standard geometry input, containing a curve.
+   Standard geometry output.

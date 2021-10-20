@@ -10,7 +10,7 @@ Points to Vertices Node
 
    The Points to Vertices node.
 
-The *Points to Vertices* node generate a mesh vertex in the output geometry for 
+The *Points to Vertices* node generate a mesh vertex in the output geometry for
 each point cloud point in the input geometry.
 
 

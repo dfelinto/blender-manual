@@ -5,7 +5,6 @@
 String Length Node
 ******************
 
-
 .. figure:: /images/modeling_geometry-nodes_text_string-length_node.png
    :align: center
 

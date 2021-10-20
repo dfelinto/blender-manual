@@ -57,10 +57,10 @@ The main view allows you to view the actual spreadsheet.
 Row indices and column names remain visible when scrolling down or to the side.
 
 
-Dataset Region
-==============
+Data Set Region
+===============
 
-With the Dataset region on the left you can choose which geometry component and geometry domain to view.
+With the Data Set region on the left you can choose which geometry component and geometry domain to view.
 For each attribute domain its size is displayed, for example the number of faces.
 
 .. _bpy.types.SpaceSpreadsheet.geometry_component_type:
@@ -104,7 +104,7 @@ Column
    The choice of name in the Column field determine which column is chosen.
    If the column is not currently available, the row filter will be grayed out.
 
-.. tip::
+.. TODO 3.0 relink Attribute Convert node replacement tip:
 
    To filter values based on a geometry attribute on a different domain,
    the :doc:`Attribute Convert </modeling/geometry_nodes/attribute/attribute_convert>` node

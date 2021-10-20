@@ -8,7 +8,7 @@ Object Info Node
 .. figure:: /images/modeling_geometry-nodes_input_object-info_node.png
    :align: right
 
-   Object Info Node.
+   Object Info node.
 
 The *Object Info* node gets information from objects.
 This can be useful to control parameters in the geometry node tree with an external object,
@@ -24,7 +24,7 @@ Object
    Object to get the properties from.
 
 As Instance
-   Output the entire object as single instance instead of realized geometry. 
+   Output the entire object as single instance instead of realized geometry.
    This allows instancing non-geometry object types, because the output will contain an instance of the object.
 
 Properties

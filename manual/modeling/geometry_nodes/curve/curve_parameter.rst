@@ -8,7 +8,7 @@ Curve Parameter Node
 .. figure:: /images/modeling_geometry-nodes_curve_curve-parameter_node.png
    :align: right
 
-   Curve Parameter Node
+   Curve Parameter node.
 
 The *Curve Parameter* node outputs how far along each spline a control point is, with a value between
 zero and one. The output is different from dividing the index by the total number of control points,
@@ -23,10 +23,10 @@ in the :doc:`Spreadsheet Editor </editors/spreadsheet>`.
 
 .. warning::
 
-   For NURBS and Bezier spline curves, keep in mind that the value retrieved from this node is the
-   value at every control point, which may not correspond to the visible *evaluated* points. For
-   NURBS splines the difference may be even more pronounced and the result may not be as expected.
-   A :doc:`/modeling/geometry_nodes/curve/resample_curve` node can be used to create a Poly spline,
+   For NURBS and Bézier spline curves, keep in mind that the value retrieved from this node is
+   the value at every control point, which may not correspond to the visible *evaluated* points.
+   For NURBS splines the difference may be even more pronounced and the result may not be as expected.
+   A :doc:`/modeling/geometry_nodes/curve/resample_curve` node can be used to create a poly spline,
    where there is a control point for every evaluated point.
 
 
