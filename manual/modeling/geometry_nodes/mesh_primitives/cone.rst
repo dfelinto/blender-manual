@@ -20,6 +20,14 @@ Vertices
    Number of points on the circle at the top and bottom.
    No geometry is generated if the number is below three.
 
+Side Segments
+   Number of segments along the sides of the cone.
+   No geometry is generated if the number is below one.
+
+Fill Segments
+   Number of concentric segments of the circular areas at the top and bottom.
+   No geometry is generated if the number is below one.
+
 Radius Top
    The distance of the vertices in the top circle from the Z axis.
    If this is zero, the vertices in the circle are merged into one.
@@ -42,8 +50,8 @@ Fill Type
    How the circles at the top and bottom are filled with faces when their radius is larger than zero.
 
    :None: Do not fill the circles.
-   :N-Gon: Fill the circles with a single face.
-   :Triangles: Fill the circles with triangles connected to a new vertex on the Z axis.
+   :N-Gon: Fill the innermost segment of the circles with a single face.
+   :Triangles: Fill the innermost segment of the circles with triangles connected to a new vertex on the Z axis.
 
 
 Outputs
