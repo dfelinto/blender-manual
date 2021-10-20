@@ -3,6 +3,8 @@
   Mesh Primitive Nodes
 ########################
 
+Nodes that create a primitive mesh, e.g. a cube.
+
 .. toctree::
    :maxdepth: 1
 

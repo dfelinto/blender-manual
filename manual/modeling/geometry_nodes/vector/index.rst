@@ -3,6 +3,8 @@
   Vector Nodes
 ################
 
+Nodes for modifying vector quantities.
+
 .. toctree::
    :maxdepth: 1
 

@@ -3,6 +3,8 @@
   Text Nodes
 ##############
 
+Nodes to manipulate strings.
+
 .. toctree::
    :maxdepth: 1
 

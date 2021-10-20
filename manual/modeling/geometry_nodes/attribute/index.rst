@@ -3,6 +3,8 @@
   Attribute Nodes
 ###################
 
+Nodes for working with data stored per object element, e.g. vertex groups.
+
 .. toctree::
    :maxdepth: 1
 

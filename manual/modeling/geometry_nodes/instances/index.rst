@@ -3,6 +3,8 @@
   Instances Nodes
 ###################
 
+Nodes that only operate on instances.
+
 .. toctree::
    :maxdepth: 1
 

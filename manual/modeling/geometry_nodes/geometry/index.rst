@@ -3,6 +3,8 @@
   Geometry Nodes
 ##################
 
+Nodes that can operate on different geometry types (volume, mesh).
+
 .. toctree::
    :maxdepth: 1
 

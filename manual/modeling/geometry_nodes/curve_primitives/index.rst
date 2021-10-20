@@ -3,6 +3,8 @@
   Curve Primitive Nodes
 #########################
 
+Nodes that create a primitive curve, e.g., a circle.
+
 .. toctree::
    :maxdepth: 1
 

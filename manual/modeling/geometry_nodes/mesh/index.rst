@@ -3,6 +3,8 @@
   Mesh Nodes
 ##############
 
+Nodes that only operate on meshes.
+
 .. toctree::
    :maxdepth: 1
 

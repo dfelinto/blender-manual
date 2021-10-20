@@ -3,6 +3,8 @@
   Color Nodes
 ###############
 
+Nodes for modifying color data passed through color sockets.
+
 .. toctree::
    :maxdepth: 1
 

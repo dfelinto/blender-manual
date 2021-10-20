@@ -3,6 +3,8 @@
   Volume Nodes
 ################
 
+Nodes for creating or working with volumes.
+
 .. toctree::
    :maxdepth: 1
 

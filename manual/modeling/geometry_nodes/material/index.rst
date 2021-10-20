@@ -3,6 +3,8 @@
   Material Nodes
 ##################
 
+Nodes that work with materials.
+
 .. toctree::
    :maxdepth: 1
 

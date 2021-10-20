@@ -46,4 +46,4 @@ Outputs
 =======
 
 Geometry
-   Standard geometry input, containing a curve.
+   Standard geometry output.

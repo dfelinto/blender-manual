@@ -3,6 +3,8 @@
   Curve Nodes
 ###############
 
+Nodes that only operate on curves.
+
 .. toctree::
    :maxdepth: 1
 

@@ -3,6 +3,8 @@
   Texture Nodes
 #################
 
+Nodes to add textures.
+
 .. toctree::
    :maxdepth: 1
 

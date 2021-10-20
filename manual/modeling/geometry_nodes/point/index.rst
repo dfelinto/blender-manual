@@ -3,6 +3,8 @@
   Point Nodes
 ###############
 
+Nodes that modify the object elements, e.g. vertices.
+
 .. toctree::
    :maxdepth: 1
 
