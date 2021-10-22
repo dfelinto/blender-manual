@@ -25,6 +25,10 @@ Install those packages or make sure you have them in your system.
 - `PIP <https://pip.pypa.io/en/latest/installing/>`__
 - `Subversion <https://subversion.apache.org/>`__
 
+.. warning::
+
+   Python 3.10 is not yet support, it is recommended to use Python 3.9 or earlier.
+
 
 Downloading the Repository
 ==========================

@@ -15,7 +15,7 @@ Installing Python
 =================
 
 #. Download the `Python installation package <https://www.python.org/downloads/>`__ for Windows.
-   In this guide version 3.6.x is used.
+   In this guide version 3.9.x is used.
 #. Install Python with the installation wizard.
    Please make sure that you enable the "Add Python to PATH" option:
 
@@ -24,6 +24,10 @@ Installing Python
       The option must be enabled so you can build the manual with the make script.
 
    All other settings can remain as set by default.
+
+.. warning::
+
+   Python 3.10 is not yet support, it is recommended to use Python 3.9 or earlier.
 
 
 Installing SVN and Downloading the Repository
