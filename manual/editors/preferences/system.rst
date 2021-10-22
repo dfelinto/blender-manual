@@ -125,7 +125,7 @@ Sound
 =====
 
 This panel contains the sound settings for live playback
-within Blender and are only available with *SDL* or *OpenAL*.
+within Blender and are only available with a device other than *None*.
 To control these settings for exporting sound
 see the :ref:`Encoding Panel <render-output-video-encoding-panel>`
 and :ref:`Audio Panel <data-scenes-audio>`.
@@ -134,13 +134,25 @@ Audio Device
    Sets the audio engine to use to process and output audio.
 
    :None:
-      No Audio support (audio strips can still be loaded normally).
+      No audio playback support (audio strips can still be loaded and rendered normally).
+   :CoreAudio:
+      On macOS, CoreAudio is the native audio API.
+      This is the default setting for macOS users and should be preferred.
+   :PulseAudio:
+      PulseAudio is the most commonly used sound server on modern Linux distributions.
+      If PulseAudio is available, this should be the preferred setting on Linux.
+   :WASAPI:
+      On Windows, WASAPI is the native audio API introduced with Windows Vista.
+      This is the default setting for Windows users and should be preferred.
+   :Jack:
+      High quality professional audio engine that needs a properly configured server running on your system.
+      Supports accurate synchronization with other professional audio applications using Jack.
+   :OpenAL:
+      Available on all platforms in case the native engines do not work.
+      The played back 3D audio might sound different than when rendered.
    :SDL:
       Uses Simple Direct Media Layer API from `libsdl.org <https://www.libsdl.org>`__
-      to render sounds directly to the sound device output. Very useful for Sequencer strips editing.
-   :OpenAL:
-      Provides buffered sound rendering with 3D/spatial support.
-      Used for 3D source support by speaker objects.
+      which supports all platforms. Might be of lower quality and thus should only be used as backup.
 
 Channels
    Sets the audio channel count.

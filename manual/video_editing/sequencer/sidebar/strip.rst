@@ -122,10 +122,13 @@ Pitch
    Coefficient of playback speed.
    This value will affect length of the strip, that will not be represented in the timeline.
 Pan
-   Used to pan the audio from left and right channels. Only works for mono sources.
-   Values can be between -2 and 2, where 0 means front/center, -1 means to the left and 1 to the right.
-   In case of multichannel audio (rear speakers) you can pan to those with the higher values: -2, 2 is back.
-   So this value basically represents the angle at which it's played.
+   Used to pan the audio between speakers in multichannel audio. Only works for mono sources.
+   The number of audio channels can be configured in the :ref:`Audio Output <render-output-video-encoding-audio>` settings.
+   For stereo output panning works from left (-1) to right (1) .
+   When the output uses more than two channels, values can be between -2 and 2, where 0 means front/center, -1 means to the left and 1 to the right.
+   To address rear speakers, you can pan to those with the higher values: -2, 2 is back.
+   This value basically represents the angle at which it's played if you multiply the value by 90 degrees.
+   For smooth animation you can assign values outside the soft bounds, since the angle wraps around over multiple rotations.
 
 .. _bpy.types.SoundSequence.show_waveform:
 
