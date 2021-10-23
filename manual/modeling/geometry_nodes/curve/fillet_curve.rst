@@ -39,7 +39,7 @@ Method
    :Bézier:
       Only two control points will be generated for every filleted control point. The shape generated
       by the aligned handles on the generated control points on either side of the fillet is used to
-      create the circle portion shape. Meaning that the number of segments in the fillet shape depends on
+      create the circle portion shape, meaning that the number of segments in the fillet shape depends on
       the :doc:`spline's resolution value </modeling/geometry_nodes/curve/spline_resolution>`.
    :Poly:
       The number of control points generated for each field
