@@ -139,17 +139,22 @@ This standard is new and therefore support for it is still limited.
    * - Platform
      - Operating System
      - Notes
-   * - `Monado <https://monado.dev/>`__
+   * - `HTC Vive Cosmos`_
+     - Windows
+     - `Developer Preview <https://forum.vive.com/topic/9046-vive-openxr-support-for-vive-cosmos/>`__
+   * - `Monado`_
      - GNU/Linux
      - *Not* recommended for general use yet.
-   * - `Oculus <https://www.oculus.com/>`__ (Rift and Quest)
+   * - `Oculus`_ (Rift and Quest)
      - Windows
-     - `Prototype Release <https://developer.oculus.com/blog/openxr-for-oculus/>`__,
-       Oculus Link required for Quest.
-   * - `SteamVR <https://www.steamvr.com/>`__
+     - Requires Oculus v31 Software Update. Oculus Link required for Quest.
+   * - `SteamVR`_
      - Windows, GNU/Linux
-     - `Developer Preview <https://store.steampowered.com/newshub/app/250820/view/2396425843528787269>`_.
-   * - `Windows Mixed Reality <https://www.microsoft.com/windows/windows-mixed-reality>`__
+     - Requires SteamVR 1.16 or greater.
+   * - `Varjo`_
+     - Windows
+     - --
+   * - `Windows Mixed Reality`_
      - Windows
      - Requires Windows 10 May 2019 Update (1903).
 
@@ -161,31 +166,79 @@ The following subsections describe how an HMD can be set up for usage with the `
 If this is not done, Blender will report an error when trying to start a virtual reality session.
 
 
+HTC Vive Cosmos
+^^^^^^^^^^^^^^^
+
+The dedicated platform for 
+the `HTC Vive Cosmos <https://www.vive.com/eu/product/vive-cosmos/overview/>`__
+is currently targeted at developers and may lack features found in other platforms.   
+ 
+- Follow the steps from 
+  the `Vive Developer Forums <https://forum.vive.com/topic/9046-vive-openxr-support-for-vive-cosmos/>`__.
+- Enable the :doc:`VR Scene Inspection add-on </addons/3d_view/vr_scene_inspection>` in Blender.
+
+
+Monado
+^^^^^^
+
+`Monado <https://monado.dev/>`__ is a :doc:`free and open source </getting_started/about/license>` XR platform for Linux.
+It is not yet ready for production usage and should only be used for testing purposes.
+
+- Packages are available for the following distributions:
+
+  - Ubuntu (`Eoan, Focal <https://launchpad.net/~monado-xr/+archive/ubuntu/monado>`__)
+  - Debian (`bullseye <https://packages.debian.org/bullseye/libopenxr1-monado>`__,
+    `sid <https://packages.debian.org/sid/libopenxr1-monado>`__)
+
+  For other systems, it has to be compiled from source, which in this case is not
+  recommended for people with little experience in compiling software.
+  Follow the `Getting Started Guides <https://gitlab.freedesktop.org/monado/monado/-/blob/master/README.md>`__
+  from Monado to do so nevertheless.
+- Enable the :doc:`VR Scene Inspection add-on </addons/3d_view/vr_scene_inspection>` in Blender.
+
+
 Oculus
 ^^^^^^
 
-Oculus provides prototype OpenXR support. To use it, Blender has to be started in a special way, as described below.
+`Oculus <https://www.oculus.com/>`__ provides full support for OpenXR as of the Oculus v31 Software Update.
 
-- Download and install the `Oculus Rift software <https://www.oculus.com/setup/>`__.
-- Start Blender by double clicking the ``blender_oculus`` script inside the installation directory.
-  It will open a command-line window with further information.
+- Download and install the `Oculus Rift/Oculus Link software <https://www.oculus.com/setup/>`__.
+- Set Oculus as the active OpenXR runtime via the *Beta* tab in the Oculus App Settings.
+
+.. figure:: /images/getting-started_configuration_hardware_xr_runtime_oculus.jpg
+   :scale: 50 %
+
 - Enable the :doc:`VR Scene Inspection add-on </addons/3d_view/vr_scene_inspection>` in Blender.
 
 
 SteamVR
 ^^^^^^^
 
-OpenXR support in SteamVR is a developer preview. It requires SteamVR beta features.
+`SteamVR <https://www.steamvr.com/>`__ provides full support for OpenXR as of SteamVR 1.16.
 
-- `Enable SteamVR beta updates <https://www.vive.com/us/support/vive/category_howto/optin-to-steamvr-beta.html>`__.
-- Launch SteamVR. It should show a prompt for making SteamVR the default OpenXR runtime. Click ``Set as default``.
+- Set SteamVR as the active OpenXR runtime via the *Developer* tab in the SteamVR Settings.
+
+.. figure:: /images/getting-started_configuration_hardware_xr_runtime_steamvr.jpg
+   :scale: 50 %
+
+- Enable the :doc:`VR Scene Inspection add-on </addons/3d_view/vr_scene_inspection>` in Blender.
+
+**Note:** The SteamVR runtime can also be used for HTC Vive Cosmos, Oculus, and Windows Mixed Reality HMDs.
+
+
+Varjo
+^^^^^
+
+`Varjo <https://varjo.com/>`__ includes full OpenXR support with its required Varjo Base software.
+
 - Enable the :doc:`VR Scene Inspection add-on </addons/3d_view/vr_scene_inspection>` in Blender.
 
 
 Windows Mixed Reality
 ^^^^^^^^^^^^^^^^^^^^^
 
-To check if a PC meets the requirements to run Windows Mixed Reality, Microsoft offers
+`Windows Mixed Reality <https://www.microsoft.com/windows/windows-mixed-reality>`__ provides full support for OpenXR.
+To check if a PC meets the requirements to run the software, Microsoft offers
 the `Windows Mixed Reality PC Check <https://www.microsoft.com/en-us/p/windows-mixed-reality-pc-check/9nzvl19n7cnc>`__
 application.
 
@@ -197,23 +250,10 @@ application.
   In the menu it opens, select the *Set up OpenXR*.
 - Enable the :doc:`VR Scene Inspection add-on </addons/3d_view/vr_scene_inspection>` in Blender.
 
-For more information, refer to Windows' `Getting Started Guide for OpenXR
-<https://docs.microsoft.com/en-us/windows/mixed-reality/develop/native/openxr-getting-started>`__.
-
-
-Monado
-^^^^^^
-
-Monado is a :doc:`free and open source </getting_started/about/license>` XR platform for Linux.
-It is not yet ready for production usage and should only be used for testing purposes.
-
-Packages are available for the following distributions:
-
-- Ubuntu (`Eoan, Focal <https://launchpad.net/~monado-xr/+archive/ubuntu/monado>`__)
-- Debian (`bullseye <https://packages.debian.org/bullseye/libopenxr1-monado>`__,
-  `sid <https://packages.debian.org/sid/libopenxr1-monado>`__)
-
-For other systems, it has to be compiled from source, which in this case is not
-recommended for people with little experience in compiling software.
-Follow the `Getting Started Guides <https://gitlab.freedesktop.org/monado/monado/-/blob/master/README.md>`__
-from Monado to do so nevertheless.
+**Note:** To switch to Windows Mixed Reality from another OpenXR runtime (e.g. SteamVR),
+download the OpenXR Developer Tools from
+the `Microsoft Store <https://www.microsoft.com/en-us/p/openxr-developer-tools-for-windows-mixed-reality/9n5cvvl23qbt>`__
+and set Windows Mixed Reality as the active runtime.
+  
+.. figure:: /images/getting-started_configuration_hardware_xr_runtime_wmr.jpg
+   :scale: 50 %
