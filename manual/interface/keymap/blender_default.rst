@@ -156,22 +156,22 @@ Spacebar Action
    Controls the action of :kbd:`Spacebar`.
    These and other shortcuts can be modified in the :doc:`keymap preferences </editors/preferences/keymap>`.
 
-   Play
+   :Play:
       Starts playing through the :doc:`Timeline </editors/timeline>`,
       this option is good for animation or video editing work.
-   Tools
+   :Tools:
       Opens the Toolbar underneath the cursor to quickly change the active tool.
       This option is good if you are doing a lot of modeling or rigging work.
-   Search
+   :Search:
       Opens up the :doc:`Menu Search </interface/controls/templates/operator_search>`.
       This option is good for someone who is new to Blender and is unfamiliar with the menus and shortcuts.
 
 Activate Gizmo Event
    The activation event for gizmos that support drag motion.
 
-   Press
+   :Press:
       Allows immediate activation, preventing click events being passed to the tool.
-   Drag
+   :Drag:
       Allows click events to pass through to the tool, adding a small delay.
 
 Select All Toggles
@@ -185,23 +185,23 @@ Alt Click Tool Prompt
 -----------
 
 Grave Accent / Tilde Action
-   Navigate
+   :Navigate:
       Navigation pie menu, useful on systems without a numeric keypad.
-   Gizmos
+   :Gizmos:
       Transform gizmos pie menu, useful for quickly switching between transform gizmos.
 
 Middle Mouse Action
    The action when :kbd:`MMB` dragging in the viewport, this also applies to trackpads.
 
-   Orbit
+   :Orbit:
       Rotates the view around a pivot point, :kbd:`Shift-MMB` is used for panning the view.
-   Pan
+   :Pan:
       Shifts the view towards the mouse, :kbd:`Shift-MMB` is used for orbiting the view.
 
 Alt Middle Mouse Drag Action
-   Relative
+   :Relative:
       Set the view axis where each mouse direction maps to an axis relative to the current orientation.
-   Absolute
+   :Absolute:
       Set the view axis where each mouse direction always maps to the same axis.
 
 .. _keymap-pref-py_menu_on_drag:
