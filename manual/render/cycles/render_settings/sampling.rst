@@ -168,6 +168,8 @@ Seed
 
 Pattern
    Random sampling pattern used by the integrator.
+   When :ref:`bpy.types.CyclesRenderSettings.use_adaptive_sampling` is enabled,
+   *Progressive Multi-Jitter* is always used instead of *Sobol*.
 
    :Sobol:
       Uses a Sobol pattern to decide the random sampling pattern used by the integrator.
