@@ -6,7 +6,7 @@ Bone Selection Sets
 This add-on allows the creation, deletion and editing of selection sets.
 
 Selection Sets are a feature that allows the definition of sets of bones for easy selection while animating.
-The sets can be created in local and linked proxy armatures.
+The sets can be created in local and linked armature overrides.
 
 
 Activation

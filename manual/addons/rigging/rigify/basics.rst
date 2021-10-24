@@ -250,8 +250,8 @@ Library Linking
 
 When linking a rig into another file, you generally want to create a collection that includes
 the generated rig and the character mesh, with another nested and hidden collection for the "WGT-" objects.
-You do not need to include the meta-rig. You then link in the collection, and either run *Make Proxy*
-and select the rig object, or run *Make Library Override*.
+You do not need to include the meta-rig. You then link in the collection and run
+:ref:`Make Library Override <bpy.ops.object.make_override_library>.
 
 The ``rig_ui.py`` text data-block responsible for the rig UI will be automatically linked along with
 the rig, you don't need to link it separately. However, the script will not run until you run it
