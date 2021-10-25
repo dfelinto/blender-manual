@@ -1,32 +1,56 @@
 .. index:: Geometry Nodes; String to Curves
-.. _bpy.types.GeometryNodeStringToCurves:
+.. _bpy.types.GeometryNodeString to Curves:
 
 *********************
 String to Curves Node
 *********************
 
 .. figure:: /images/modeling_geometry-nodes_text_string-to-curves_node.png
-   :align: center
+   :align: right
 
-   The String to Curves Node.
+   String to Curves Node
 
-In progress.
+The *String to Curves* ...
 
 
 Inputs
 ======
 
-In progress.
+String
+   xxxxxxxxxx
 
+Size
+   xxxxxxxxxx
+
+Character Spacing
+   xxxxxxxxxx
+
+Word Spacing
+   xxxxxxxxx
+
+Line Spacing
+   xxxxxxxxx
+
+Max Width
+   xxxxxxxxxx
 
 Properties
 ==========
 
-In progress.
+Font
+   xxxxxxxxxx
 
+Overflow
+   xxxxxxxxxx
+
+Alignment
+   xxxxxxxxxxxx
+
+Align Y
+   xxxxxxxxxxx
 
 Outputs
 =======
 
-In progress.
-
+Curves
+   xxxxxxxxxxxxxxxxxx

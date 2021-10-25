@@ -1,5 +1,5 @@
-.. index:: Geometry Nodes; RandomValue
-.. _bpy.types.FunctionNodeRandomValue:
+.. index:: Geometry Nodes; Random Value
+.. _bpy.types.GeometryNodeRandom Value:
 
 *****************
 Random Value Node
@@ -8,24 +8,34 @@ Random Value Node
 .. figure:: /images/modeling_geometry-nodes_utilities_random-value_node.png
    :align: right
 
-   Random Value node.
+   Random Value Node
 
-The *Random Value* node outputs a white noise like value.
+The *Random Value* ...
 
 
 Inputs
 ======
 
-In progress.
+Min
+   xxxxxxxxxxx
 
+Max
+   xxxxxxxxxxx
+
+ID
+   xxxxxxxxxxx
+
+Seed
+   xxxxxxxxxxxx
 
 Properties
 ==========
 
-In progress.
+Data Type
+   xxxxxxxxxxxxxxx
 
+Outputs
+=======
 
-Output
-======
-
-In progress.
+Value
+   xxxxxxxxxxxxxx
