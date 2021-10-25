@@ -5,7 +5,7 @@
 Distribute Points on Faces
 **************************
 
-.. figure:: /images/modeling_geometry-nodes_point_point-distribute_node.png
+.. figure:: /images/modeling_geometry-nodes_point_distribute-points-on-faces_node.png
    :align: right
 
    The Distribute Points on Faces node.

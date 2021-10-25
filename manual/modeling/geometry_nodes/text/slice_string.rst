@@ -5,7 +5,7 @@
 Slice String Node
 *****************
 
-.. figure:: /images/modeling_geometry-nodes_text_string-substring_node.png
+.. figure:: /images/modeling_geometry-nodes_text_slice-string_node.png
    :align: center
 
    The Slice String node.
