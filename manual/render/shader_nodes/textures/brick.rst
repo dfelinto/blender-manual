@@ -15,8 +15,10 @@ The *Brick Texture* is used to add a procedural texture producing bricks.
 Inputs
 ======
 
-Color 1/2 and Mortar
-   Color of the bricks and mortar.
+Color 1/2
+   Color of the bricks.
+Mortar
+   The color of the area between bricks.
 Scale
    Overall texture scale.
 Mortar Size
