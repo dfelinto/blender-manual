@@ -46,8 +46,12 @@ Properties
 Subsurface Method
    Rendering method to simulate subsurface scattering.
 
-   .. note:: Eevee does use not these subsurface scatter methods but instead uses an approximation.
+   .. note:: Eevee does use not support the *Random Walk* methods.
 
+   :Christensen-Burley:
+      An approximation to physically-based volume scattering.
+      This method is less accurate than *Random Walk* however,
+      in some situations this method will resolve noise faster.
    :Random Walk (Fixed Radius):
       Provides accurate results for thin and curved objects.
       Random Walk uses true volumetric scattering inside the mesh,
