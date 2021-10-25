@@ -8,9 +8,7 @@ Nodes that only operate on meshes.
 .. toctree::
    :maxdepth: 1
 
-   is_shade_smooth.rst
    mesh_boolean.rst
-   set_shade_smooth.rst
    split_edges.rst
    subdivide_mesh.rst
    subdivision_surface.rst
@@ -21,5 +19,15 @@ Nodes that only operate on meshes.
 .. toctree::
    :maxdepth: 1
 
+   is_shade_smooth.rst
+
+------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   set_shade_smooth.rst
+
 .. needs documentation::
+   mesh_to_curve.rst
    mesh_to_points.rst

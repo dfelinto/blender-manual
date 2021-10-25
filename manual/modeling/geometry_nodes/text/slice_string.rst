@@ -1,16 +1,16 @@
-.. index:: Geometry Nodes; String Substring
+.. index:: Geometry Nodes; Slice String
 .. _bpy.types.GeometryNodeStringSubstring:
 
-*********************
-String Substring Node
-*********************
+*****************
+Slice String Node
+*****************
 
 .. figure:: /images/modeling_geometry-nodes_text_string-substring_node.png
    :align: center
 
-   The String Substring node.
+   The Slice String node.
 
-The *String Substring* extracts a string segment from a larger string.
+The *Slice String* node extracts a string segment from a larger string.
 
 
 Inputs

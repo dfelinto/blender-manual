@@ -44,3 +44,7 @@ Nodes that only operate on curves.
    set_spline_cyclic.rst
    set_spline_resolution.rst
    set_spline_type.rst
+
+.. missing documentation:
+   curve_to_points.rst
+   end_point_selection.rst

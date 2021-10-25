@@ -18,4 +18,5 @@ Nodes that can operate on different geometry types (volume, mesh).
    transform.rst
 
 .. missing documentation:
+   ray_cast.rst
    set_position.rst

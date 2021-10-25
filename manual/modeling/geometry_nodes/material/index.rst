@@ -15,6 +15,11 @@ Nodes that work with materials.
 .. toctree::
    :maxdepth: 1
 
+------------------------
+
+.. toctree::
+   :maxdepth: 1
+
    set_material.rst
 
 .. missing documentation:
