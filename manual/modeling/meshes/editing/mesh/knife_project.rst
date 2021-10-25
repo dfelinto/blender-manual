@@ -22,7 +22,8 @@ Outlines can be a wireframe or boundary edges (i.e. the unconnected edges of a m
    :ref:`Select Non-Manifold <bpy.ops.mesh.select_non_manifold>`
    (Wire, Boundaries) will highlight the cutting edges of mesh objects.
 
-To use Knife Project, in *Edit Mode*, select the cutting object (:kbd:`Ctrl-LMB`)
+To use Knife Project, first in *Object Mode* select the object to be cut,
+then in *Edit Mode*, select the cutting object (:kbd:`Ctrl-LMB`),
 and choose :menuselection:`Mesh --> Knife Project`.
 
 .. hint::
