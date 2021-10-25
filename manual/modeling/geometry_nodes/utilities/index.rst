@@ -17,7 +17,6 @@ Nodes with general purpose for modifying data.
    map_range.rst
    math.rst
    random_value.rst
+   rotate_euler.rst
    switch.rst
 
-.. missing documentation:
-   rotate_euler.rst

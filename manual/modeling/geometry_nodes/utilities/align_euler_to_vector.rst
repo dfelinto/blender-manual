@@ -5,20 +5,19 @@
 Align Euler to Vector Node
 **************************
 
-.. figure:: /images/modeling_geometry-nodes_point_align-rotation-to-vector_node.png
+.. figure:: /images/modeling_geometry-nodes_point_align-euler-to-vector_node.png
    :align: right
 
    The Align Euler to Vector node.
 
-The *Align Euler to Vector* node rotates points into the given direction.
-It does so by modifying the ``rotation`` attribute.
+The *Align Euler to Vector* node rotates an euler rotation into the given direction.
 
 
 Inputs
 ======
 
-Geometry
-   Standard geometry input.
+Rotation
+   The euler rotation to align.
 
 Factor
    Determines how much the points are rotated towards the vector.
@@ -45,15 +44,9 @@ Pivot
    :X, Y, Z:
       Rotate around a specific local axis.
 
-Factor
-   Type of the *Factor* input socket.
-
-Vector
-   Type of the *Vector* input socket.
-
 
 Outputs
 =======
 
-Geometry
-   Standard geometry output.
+Rotation
+   The rotated euler rotation.

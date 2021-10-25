@@ -21,7 +21,7 @@ Geometry
 
 Level
    The number of subdivisions to apply to the input geometry.
-Use Creases
+Crease
    Controls how smooth edges should be with :ref:`modifiers-generate-subsurf-creases`.
 
 
