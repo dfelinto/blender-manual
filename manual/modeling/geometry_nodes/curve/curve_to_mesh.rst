@@ -33,6 +33,9 @@ Profile Curve
    If a profile curve is provided, it will be extruded along all splines.
    Otherwise the generated mesh will just be a chain of edges.
 
+Fill Caps
+   If the profile spline is cyclic, fill the ends of the generated mesh with N-gons.
+
 
 Properties
 ==========
