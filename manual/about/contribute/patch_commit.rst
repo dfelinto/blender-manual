@@ -68,3 +68,25 @@ and password before the change is committed.
 Your modified files are uploaded to the central repository for others to work with and continue collaborating.
 Commits are tracked in the repositories `Diffusion <https://developer.blender.org/diffusion/BM/>`__.
 Soon after your changes become visible in the online manual.
+
+
+Writing a Good Commit Message
+-----------------------------
+
+When making changes to the manual that directly relate to a specific commit (change) in Blender,
+it is helpful to make the title of the commit the same as the commit made to Blender.
+It is requested that you include the commit hash of the commit made to the Blender source code.
+
+For example, the commit `rBM8473 <https://developer.blender.org/rBM8473>`
+includes a descriptive indicative of the changes made along with the hash ``rBa71d2b260170``.
+The hash can be extracted from the URL provided in the Documentation task for a specific upcoming release.
+
+----------
+
+Other more general changes do not have to follow the above policy however,
+it is still important to make the description clear about what changes you made and why.
+It can be helpful to prefix the commit title with a prefix word such as ``Cleanup:`` or ``Fix:``
+when you are making general cleanups or fixes respectively.
+
+Writing good commit messages helps administrators keep track of
+changes made and ensures all new features are properly documented. 
