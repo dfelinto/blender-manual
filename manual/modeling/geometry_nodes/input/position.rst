@@ -17,7 +17,9 @@ automatically interpolated to the new domain. For example, when used as part of 
 the mesh :doc:`edge split </modeling/geometry_nodes/mesh/split_edges>` node, the position for each edge
 will be the average position of the edges two vertices.
 
-For instances, the output is the origin of each instance.
+For instances, the output is the origin of each instance. However, if the node is for a geometry node
+that adjusts data inside instances, the position output of this node will be in the local space of
+each instance.
 
 
 Inputs

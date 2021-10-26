@@ -24,6 +24,4 @@ Nodes that can operate on different geometry types (volume, mesh).
    :maxdepth: 1
 
    set_id.rst
-
-.. missing documentation:
    set_position.rst
