@@ -80,8 +80,3 @@ Rotation:
    built from the normal with the :doc:`/modeling/geometry_nodes/utilities/rotate_euler`. Keep in mind that
    the Z axis of the result rotation will be arbitrary, since the mesh normal used to create the rotation
    does not have enough information to set all three rotation axes.
-
-Stable ID
-   The node also generates a "Random ID" output, which is an identifier for each point used for stability.
-   When the mesh is deformed or the density changes, used in the :doc:`/modeling/geometry_nodes/utilities/random_value`
-   and :doc:`Instance on Points </modeling/geometry_nodes/instances/instance_on_points>` nodes.
