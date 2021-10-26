@@ -10,14 +10,22 @@ Realize Instances Node
 
    Realize Instances Node
 
-The *Realize Instances* node
+The *Realize Instances* node makes any instances (efficient duplicates of the same geometry) into real
+geometry data. This makes it possible to affect each instance uniquely, whereas without this node, the
+exact same changes are applied to every instance of the same geometry. However, performance can become
+much worse when the input contains many instances of complex geometry, which is a fundamental limitation
+when procedurally processing geometry.
+
+.. note::
+
+   If the input contains multiple volume instances, only the first volume component is moved to the output.
 
 
 Inputs
 ======
 
 Geometry
-   xxxxxxxxx
+   Standard geometry input.
 
 
 Properties
@@ -30,4 +38,4 @@ Outputs
 =======
 
 Geometry
-   xxxxxxxxx
+   Standard geometry output.

@@ -13,6 +13,4 @@ Nodes that only operate on instances.
    rotate_instances.rst
    scale_instances.rst
    translate_instances.rst
-
-.. missing documentation:
    realize_instances.rst
