@@ -17,6 +17,13 @@ Nodes that can operate on different geometry types (volume, mesh).
    separate_geometry.rst
    transform.rst
 
+------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   set_id.rst
+
 .. missing documentation:
    ray_cast.rst
    set_position.rst

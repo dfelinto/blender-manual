@@ -18,7 +18,7 @@ Nodes used mainly as input to other nodes.
    vector.rst
 
 ------------------------
-
+set_id
 .. toctree::
    :maxdepth: 1
 
@@ -26,6 +26,7 @@ Nodes used mainly as input to other nodes.
    normal.rst
    position.rst
    radius.rst
+   id.rst
 
 .. missing documentation
    boolean.rst
