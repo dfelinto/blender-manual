@@ -8,36 +8,28 @@ Translate Instances Node
 .. figure:: /images/modeling_geometry-nodes_instances_translate-instances_node.png
    :align: right
 
-   Translate Instances Node
+   The Translate Instances node.
 
-The *Translate Instances* ...
+The *Translate Instances* node translates instances in local or global space.
 
 
 Inputs
 ======
 
 Geometry
-   xxxxxxxxx
+   Standard geometry input.
 
 Selection
-   xxxxxxxxxx
+   The instances that will be translated.
 
 Translation
-   xxxxxxxxx
+   The vector to translate the instances by.
 
 Local Space
-   xxxxxxxxx
-
-
-Properties
-==========
-
-This node has no properties.
-
+   If checked, the instances are translated in local space otherwise they are translated in global space.
 
 Outputs
 =======
 
 Geometry
-   xxxxxxxxx
-
+   Standard geometry output.

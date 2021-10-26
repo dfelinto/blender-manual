@@ -8,39 +8,31 @@ Rotate Instances Node
 .. figure:: /images/modeling_geometry-nodes_instances_rotate-instances_node.png
    :align: right
 
-   Rotate Instances Node
+   The Rotate Instances node.
 
-The *Rotate Instances* ...
+The *Rotate Instances* node rotates instances in local or global space.
 
 
 Inputs
 ======
 
 Geometry
-   xxxxxxxxx
+   Standard geometry input.
 
 Selection
-   xxxxxxxxxx
+   The instances that will be rotated.
 
 Rotation
-   xxxxxxxxx
+   The euler rotation to rotate the instances by.
 
 Pivot Point
-   xxxxxxxxx
+   The position where the instances are rotated.
 
 Local Space
-   xxxxxxxxx
-
-
-Properties
-==========
-
-This node has no properties.
-
+   If checked, the instances are rotated in local space otherwise they are rotated in global space.
 
 Outputs
 =======
 
 Geometry
-   xxxxxxxxx
-
+   Standard geometry output.

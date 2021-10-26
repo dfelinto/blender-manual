@@ -8,39 +8,31 @@ Scale Instances Node
 .. figure:: /images/modeling_geometry-nodes_instances_scale-instances_node.png
    :align: right
 
-   Scale Instances Node
+   The Scale Instances node.
 
-The *Scale Instances* ...
+The *Scale Instances* node scales instances in local or global space.
 
 
 Inputs
 ======
 
 Geometry
-   xxxxxxxxx
+   Standard geometry input.
 
 Selection
-   xxxxxxxxxx
+   The instances that will be scaled.
 
 Scale
-   xxxxxxxxx
+   Scales the instances in given dimensions. 
 
 Center
-   xxxxxxxxx
+   The position where instances are scaled.
 
 Local Space
-   xxxxxxxxx
-
-
-Properties
-==========
-
-This node has no properties.
-
+   If checked, the instances are scaled in local space otherwise they are scaled in global space.
 
 Outputs
 =======
 
 Geometry
-   xxxxxxxxx
-
+   Standard geometry output.
