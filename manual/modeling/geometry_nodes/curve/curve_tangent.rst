@@ -19,9 +19,10 @@ The output values are normalized vectors.
 
    For NURBS and Bézier spline curves, keep in mind that the value retrieved from this node is
    the value at every control point, which may not correspond to the visible *evaluated* points.
-   For NURBS splines the difference may be even more pronounced and the result may not be as expected.
-   A :doc:`/modeling/geometry_nodes/curve/resample_curve` node can be used to create a poly spline,
-   where there is a control point for every evaluated point.
+   For example, a Bézier spline might have 48 evaluated points, but only four control points,
+   if its resolution is 12. For NURBS splines the difference may be even more pronounced and the
+   result may not be as expected. A :doc:`/modeling/geometry_nodes/curve/resample_curve` can
+   be used to create a poly spline, where there is a control point for every evaluated point.
 
 
 Inputs
