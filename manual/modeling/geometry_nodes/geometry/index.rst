@@ -13,6 +13,7 @@ Nodes that can operate on different geometry types (volume, mesh).
    delete_geometry.rst
    geometry_proximity.rst
    join_geometry.rst
+   raycast.rst
    separate_components.rst
    separate_geometry.rst
    transform.rst
@@ -25,5 +26,4 @@ Nodes that can operate on different geometry types (volume, mesh).
    set_id.rst
 
 .. missing documentation:
-   ray_cast.rst
    set_position.rst
