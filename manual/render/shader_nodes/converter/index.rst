@@ -10,6 +10,7 @@
    clamp.rst
    color_ramp.rst
    combine_separate.rst
+   float_curve.rst
    map_range.rst
    math.rst
    rgb_to_bw.rst
