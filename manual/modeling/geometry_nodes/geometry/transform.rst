@@ -23,11 +23,13 @@ Geometry
    Standard geometry input.
 
 Translation
-   Translates the geometry in the local space of the modified object.
+   Translation of the entire geometry in the local space of the modified object.
+
 Rotation
-   Euler rotation in local space.
+   Euler rotation in the local space of the modified object.
+
 Scale
-   Scale to transform the geometry in local space.
+   Scale for the geometry in the local space of the modified object.
 
 
 Properties
