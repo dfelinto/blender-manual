@@ -21,9 +21,6 @@ Inputs
 Geometry
    Standard geometry inputs.
 
-Density
-   Name of the :ref:`volume grid <bpy.types.VolumeGrids>` attribute the mesh is created from.
-
 Voxel Amount
    Specifies the approximate resolution of the final mesh.
    The voxel size is adapted to the size of the entire volume.

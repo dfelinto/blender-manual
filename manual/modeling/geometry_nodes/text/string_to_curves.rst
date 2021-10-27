@@ -1,5 +1,5 @@
 .. index:: Geometry Nodes; String to Curves
-.. _bpy.types.GeometryNodeString to Curves:
+.. _bpy.types.GeometryNodeStringtoCurves:
 
 *********************
 String to Curves Node
@@ -10,47 +10,57 @@ String to Curves Node
 
    String to Curves Node
 
-The *String to Curves* ...
+The *String to Curves* converts a string to curve geometry.
 
 
 Inputs
 ======
 
 String
-   xxxxxxxxxx
+   Standard string input.
 
 Size
-   xxxxxxxxxx
+   Size of the curve.
 
 Character Spacing
-   xxxxxxxxxx
+   A factor by which space between each character (kerning) is scaled in width.
 
 Word Spacing
-   xxxxxxxxx
+   A factor by which white-space between words is scaled in width.
 
 Line Spacing
-   xxxxxxxxx
+   A factor by which the vertical space between lines is scaled.
 
 Max Width
-   xxxxxxxxxx
+   Maximum width of the text
 
 Properties
 ==========
 
 Font
-   xxxxxxxxxx
+   Font glyph used to generate the curve.
 
 Overflow
-   xxxxxxxxxx
+   :Overflow: Allows the text to use more space than the specified height.
+   :Scale To Fit: Scales the text size to fit the width and height.
+   :Truncate: Only outputs curves that fit within the width and height.
 
 Alignment
-   xxxxxxxxxxxx
+   :Left: Aligns the text to the left.
+   :Center: Aligns the text to the center.
+   :Right: Aligns the text to the right.
+   :Justify: Aligns the text to the left and right.
+   :Flush: Alignts the text to the left and right with equal character spacing.
 
 Align Y
-   xxxxxxxxxxx
+   :Top Baseline: Aligns the text to the top baseline.
+   :Top: Aligns the text to the top.
+   :Middle: Aligns the text to the middle.
+   :Bottom Baseline: Aligns the text to the bottom baseline.
+   :Bottom: Aligns the text to the bottom.
 
 Outputs
 =======
 
 Curves
-   xxxxxxxxxxxxxxxxxx
+   Generated curve.

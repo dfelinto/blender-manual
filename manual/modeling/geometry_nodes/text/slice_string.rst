@@ -1,5 +1,5 @@
 .. index:: Geometry Nodes; Slice String
-.. _bpy.types.GeometryNodeStringSubstring:
+.. _bpy.types.GeometryNodeSliceString:
 
 *****************
 Slice String Node
