@@ -8,7 +8,7 @@ Mesh to Curve Node
 .. figure:: /images/modeling_geometry-nodes_mesh_mesh-to-curve_node.png
    :align: right
 
-   Mesh to Curve Node
+   Mesh to Curve node.
 
 The *Mesh to Curve* node generates a curve from a mesh.
 

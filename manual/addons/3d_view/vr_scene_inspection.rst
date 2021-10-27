@@ -39,10 +39,10 @@ Start VR Session
    Try to set up a connection to the OpenXR platform to share the viewport with
    an :ref:`HMD <hardware-head-mounted-displays>`.
 Tracking
-   - Positional
+   Positional
       Only track rotational changes of the head, do not allow the HMD
       to affect the location of the viewer in virtual space.
-   - Absolute
+   Absolute
       Skip eye offsets that are normally added for placing the viewer
       exactly at landmarks. This allows the tracking origin to be defined
       independently of the HMD position.
@@ -59,21 +59,21 @@ View
    :width: 220px
 
 Show
-   - Floor
+   Floor
       Set visibility of the ground plane in the VR view.
-   - Annotations
+   Annotations
       Set visibility of annotation strokes in the VR view.
-   - Selection
+   Selection
       Set visibility of selection outlines in the VR view.
-   - Controllers
-      Set visibility of VR motion controllers. 
-      Requires enabling the `Use Controller Actions <VR Session_>`_ option.
-   - Custom Overlays
+   Controllers
+      Set visibility of VR motion controllers.
+      Requires enabling the `Use Controller Actions <VR Session>`_ option.
+   Custom Overlays
       Set visibility of custom operator drawing (e.g. default teleport beam).
 Controller Style
-   Preferred visualization of VR motion controllers. 
+   Preferred visualization of VR motion controllers.
 Clip Start/End
-   Clipping values of the VR view, :ref:`as in the 3D Viewport<3dview-view-clip>`.
+   Clipping values of the VR view, :ref:`as in the 3D Viewport <3dview-view-clip>`.
 
 
 Landmarks
@@ -119,14 +119,14 @@ Gamepad
    VR actions such as viewport navigation.
 Extensions
    Enable additional controller bindings to ensure correct input-to-action mappings.
-   Note that a given extension may not be supported by all 
-   :ref:`VR platforms <hardware-head-mounted-displays>`. 
+   Note that a given extension may not be supported by all
+   :ref:`VR platforms <hardware-head-mounted-displays>`.
 
-   - HP Reverb G2
+   HP Reverb G2
       Enable bindings for the HP Reverb G2 controllers.
-   - HTC Vive Cosmos
+   HTC Vive Cosmos
       Enable bindings for the HTC Vive Cosmos controllers.
-   - Huawei
+   Huawei
       Enable bindings for the Huawei controllers.
 
 
@@ -142,9 +142,9 @@ Show VR Camera
    in the current 3D Viewport.
 Show VR Controllers
    Draw indicators of tracked VR motion controllers in the current 3D viewport.
-   Requires enabling the `Use Controller Actions <VR Session_>`_ option.
+   Requires enabling the `Use Controller Actions <VR Session>`_ option.
 Show Landmarks
-   Draw `landmark <Landmarks_>`_ indicators in the current 3D Viewport.
+   Draw `landmark <Landmarks>`_ indicators in the current 3D Viewport.
 Mirror VR Session
    Make the current 3D Viewport follow the perspective of the VR view.
 

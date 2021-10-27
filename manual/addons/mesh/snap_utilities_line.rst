@@ -3,15 +3,6 @@
 Snap Utilities Line
 *******************
 
-.. reference::
-
-   :Category:  Mesh
-   :Description: Extends Blender Snap controls.
-   :Location: :menuselection:`3D Viewport --> Tools --> Line Tool`
-   :File: mesh_snap_utilities_line folder
-   :Author: Germano Cavalcante
-
-
 Installation
 ============
 
@@ -20,62 +11,65 @@ Installation
 - Click Mesh then Snap Utilities Line to enable the script.
 
 
-Usage and Workflow
-==================
+Make Line
+=========
 
-Once activated, a new Snap Utilities Toool will be added to the viewport toolbar, so long as a mesh object is selected.
+.. reference::
 
-The tool is shown in both Object Mode and Edit Mode.
+   :Mode:      Object Mode and Edit Mode
+   :Tool:      :menuselection:`Toolbar --> Make Line`
 
-The basic workflow is to first select an object, select LINE tool, and perform the operation with the LMB, when satisfied, finalize the transaction with a double click of the RMB.
-
-
-Using LINE tool
-===============
-
-After selecting the first point with the "RMB" you can specify the length of the line just by typing a value and pressing "Enter".
-
-When approaching the cursor to a face, edge or vertex, the cursor is automatically snapped to the element - The cursor can also be snapped to center or perpendicular of an edge.
-
-The controllers 'X', 'Y', 'Z' and 'Shift' constrain the cursor movement around the highlighted element.
+Creates edges and operationally faces by snapping to mesh elements.
+When moving the cursor close to a face, edge or vertex, the cursor is snapped to the highlighted element.
+It can also be snapped to center or perpendicular of an edge.
+After selecting the first point you can specify the length of the line by typing a value and
+confirming with :kbd:`Enter`.
 
 
-Using constraint Shift
-======================
+Controls
+========
 
-The constrain ‘Shift’ is useful for making parallel lines. To the constrain work, you need to have your cursor over an edge.
+Axis Constrain :kbd:`X`, :kbd:`Y`, :kbd:`Z'`
+  Constraint the cursor movement on the  X, Y, or Z axis.
+
+Edge Constrain :kbd:`Shift`
+   Constraint the cursor movement towards an edge. For the constrain work, you need to have
+   your cursor over an edge. This is useful for creating parallel lines. 
+
+Confirm Input :kbd:`Enter`
+   Confirms the numerical value written in the header for the line length.
+
+Cut Line :kbd:`LMB`
+   Starts the lines drawing.
+
+Confirm :kbd:`RMB`
+   Single click stops the lines drawing. Double-clicks completes the tool's execution.
+
+:kbd:`Tab`
+   Snap limited to only faces.
+
+Cancel :kbd:`Esc` 
+   Cancel the operation.
 
 
-Creating Faces
-==============
 
-In version 3.9, was implemented the option "create faces".
+Options
+=======
 
-A face is created when:
+Create Faces
+   A face is created when:
 
-- it detects the drawing of a closed segment
-- the last vertex of the segment binds to an edge that connects another vertex of the segment
-- it detects a isolated edge loop
-- redrawn existing edges and the vertex of the last segment binds to an edge that connects another vertex of the segment
+   - It detects the drawing of a closed segment.
+   - The last vertex of the segment binds to an edge that connects another vertex of the segment.
+   - It detects an isolated edge loop.
+   - Redrawn existing edges and the vertex of the last segment binds to an edge
+     that connects another vertex of the segment.
 
 
-Controllers
-===========
+.. reference::
 
-'X' = Constraint the cursor movement on the axis X
-
-'Y' = Constraint the cursor movement on the axis Y
-
-'Z' = Constraint the cursor movement on the axis Z
-
-'Shift' = Constraint the cursor movement towards an edge
-
-'Enter' = Confirms the numerical value written in the header for the line length
-
-'LeftMouse' = starts the lines drawing
-
-'RightMouse' = 1 click stops the lines drawing, 2 clicks completes the tool's execution
-
-'TAB' = Snap limited only Faces
-
-'ESC' = cancel
+   :Category:  Mesh
+   :Description: Extends Blender Snap controls.
+   :Location: :menuselection:`3D Viewport --> Tools --> Line Tool`
+   :File: mesh_snap_utilities_line folder
+   :Author: Germano Cavalcante

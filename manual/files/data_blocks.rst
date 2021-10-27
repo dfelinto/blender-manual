@@ -361,9 +361,8 @@ Only certain data supports custom properties:
 - Sequence strips.
 
 To add a custom property, search for the *Custom Properties* panel,
-found at the bottom of most :doc:`Properties </editors/properties_editor>` or Sidebar region, and hit *New*.
+found at the bottom of most :doc:`Properties </editors/properties_editor>` or Sidebar region, and click *New*.
 Properties can be removed from the same location with the delete icon.
-
 Once properties are added they can be configured via the edit icon to work for a particular use case;
 see `Editing Properties`_ for more information.
 
@@ -396,7 +395,7 @@ Type
    :Float Array:
       A collection of multiple float data types e.g. ``[3.141, 5.0, 6.125]`` .
       This data type can also be used for data that can be represented as a float array such as colors.
-      These special float arrays can be set in the *Subtype* drop down.
+      These special float arrays can be set in the *Subtype* selector.
    :Integer: A numeric value without any decimals e.g. 1, 2, 3, or 4.
    :Integer Array: A collection of multiple integer data types e.g. ``[1, 2, 3, 4]`` .
    :String: A sequence of characters such as "Some Text".
@@ -411,14 +410,14 @@ Type
       a Boolean having one lower, off, value and a higher, on, value.
 
 Array Length
-  The number of elements in the array.
-  Note that if the array length is greater than 7 you cannot directly edit its elements,
-  you must press *Edit Value* to edit the elements of the array.
+   The number of elements in the array.
+   Note that if the array length is greater than 7 you cannot directly edit its elements,
+   you must press *Edit Value* to edit the elements of the array.
 
 Property Name
    The text that is displayed to the left of the value.
    This name is also used to access the property via Python.
-   
+
 Default Value
    This sets the default value of the property used by the *Reset to Default Value* operator.
 
@@ -443,10 +442,10 @@ Use Soft Limits
       The minimum/maximum value for the soft limit.
 
 Step
-  A multiplier to control how much the data type is incremented at a time.
-  The internal step size for floats is 0.01, so a *Step* value of 5 will
-  increment at a rate of 0.05 and a *Step* value of 100 will increment by 1.0.
-  For integers the internal step size is 1.
+   A multiplier to control how much the data type is incremented at a time.
+   The internal step size for floats is 0.01, so a *Step* value of 5 will
+   increment at a rate of 0.05 and a *Step* value of 100 will increment by 1.0.
+   For integers the internal step size is 1.
 
 Precision
    The number of digits after the decimal to display in the user interface for float data types.

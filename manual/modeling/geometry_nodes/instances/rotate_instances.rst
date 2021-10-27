@@ -23,13 +23,20 @@ Selection
    The instances that will be rotated.
 
 Rotation
-   The euler rotation to rotate the instances by.
+   The Euler rotation to rotate the instances by.
 
 Pivot Point
    The position where the instances are rotated.
 
 Local Space
-   If checked, the instances are rotated in local space otherwise they are rotated in global space.
+   If enabled, the instances are rotated in local space otherwise they are rotated in global space.
+
+
+Properties
+==========
+
+This node has no properties.
+
 
 Outputs
 =======

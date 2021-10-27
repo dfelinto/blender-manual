@@ -7,7 +7,7 @@ Nodes to add textures.
 
 .. tip::
 
-   Texture nodes can produce details at a higher frequency 
+   Texture nodes can produce details at a higher frequency
    than geometry can show. This is more evident with textures
    that produce abrupt changes such as brick and checker.
 
@@ -24,4 +24,4 @@ Nodes to add textures.
    voronoi.rst
    wave.rst
    white_noise.rst
-   
+

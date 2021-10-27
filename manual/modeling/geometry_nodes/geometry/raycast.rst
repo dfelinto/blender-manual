@@ -24,11 +24,11 @@ Target Geometry
 
 Attribute
    An optional field input evaluated on the *Target Geometry* that will be interpolated at the hit points.
-   The resulting values are outputted with the *Attribute* output
+   The resulting values are outputted with the *Attribute* output.
 
 Source Position
-   The position from where to start each ray. By default, this is the same as if the
-   :doc:`/modeling/geometry_nodes/input/position` was connected.
+   The position from where to start each ray. By default, this is the same as
+   if the :doc:`/modeling/geometry_nodes/input/position` was connected.
 
 Ray Direction
    Direction of each ray from the starting position.
@@ -68,4 +68,3 @@ Hit Distance
 
 Attribute
    Interpolated values of the *Attribute* input sampled at the *Hit Position*.
-

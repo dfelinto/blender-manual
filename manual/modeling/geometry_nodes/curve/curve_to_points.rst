@@ -8,7 +8,7 @@ Curve to Points Node
 .. figure:: /images/modeling_geometry-nodes_curve_curve-to-points_node.png
    :align: right
 
-   Curve to Points Node
+   Curve to Points node.
 
 The *Curve to Points* node generates a point cloud from a curve.
 
@@ -29,7 +29,8 @@ Properties
 ==========
 
 Mode
-   :Evaluated: Creates points from the curve's evaluated points based on the resolution attribute for NURBS and Bezier splines.
+   :Evaluated: Creates points from the curve's evaluated points based on
+               the resolution attribute for NURBS and Bézier splines.
    :Count: Samples each spline by evenly distributing the specified number of points.
    :Length: Samples each spline by splitting it into segments with specified length.
 
@@ -39,4 +40,3 @@ Outputs
 
 Points
    Generated point cloud.
-

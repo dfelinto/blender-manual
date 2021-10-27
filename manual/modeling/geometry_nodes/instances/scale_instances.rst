@@ -23,13 +23,20 @@ Selection
    The instances that will be scaled.
 
 Scale
-   Scales the instances in given dimensions. 
+   Scales the instances in given dimensions.
 
 Center
    The position where instances are scaled.
 
 Local Space
-   If checked, the instances are scaled in local space otherwise they are scaled in global space.
+   If enabled, the instances are scaled in local space otherwise they are scaled in global space.
+
+
+Properties
+==========
+
+This node has no properties.
+
 
 Outputs
 =======

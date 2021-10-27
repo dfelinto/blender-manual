@@ -23,7 +23,7 @@ Find
    The substring to find in *String* to be replaced.
 
 Replace
-   A string segment which replaces occurrences of the *Find* substring. 
+   A string segment which replaces occurrences of the *Find* substring.
 
 
 Properties
@@ -36,4 +36,4 @@ Outputs
 =======
 
 String
-   String value which may contain the replaced substring.
+   Standard string output.

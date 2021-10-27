@@ -169,11 +169,11 @@ If this is not done, Blender will report an error when trying to start a virtual
 HTC Vive Cosmos
 ^^^^^^^^^^^^^^^
 
-The dedicated platform for 
+The dedicated platform for
 the `HTC Vive Cosmos <https://www.vive.com/eu/product/vive-cosmos/overview/>`__
-is currently targeted at developers and may lack features found in other platforms.   
- 
-- Follow the steps from 
+is currently targeted at developers and may lack features found in other platforms.
+
+- Follow the steps from
   the `Vive Developer Forums <https://forum.vive.com/topic/9046-vive-openxr-support-for-vive-cosmos/>`__.
 - Enable the :doc:`VR Scene Inspection add-on </addons/3d_view/vr_scene_inspection>` in Blender.
 
@@ -181,8 +181,8 @@ is currently targeted at developers and may lack features found in other platfor
 Monado
 ^^^^^^
 
-`Monado <https://monado.dev/>`__ is a :doc:`free and open source </getting_started/about/license>` XR platform for Linux.
-It is not yet ready for production usage and should only be used for testing purposes.
+`Monado <https://monado.dev/>`__ is a :doc:`free and open source </getting_started/about/license>` XR
+platform for Linux. It is not yet ready for production usage and should only be used for testing purposes.
 
 - Packages are available for the following distributions:
 
@@ -223,7 +223,9 @@ SteamVR
 
 - Enable the :doc:`VR Scene Inspection add-on </addons/3d_view/vr_scene_inspection>` in Blender.
 
-**Note:** The SteamVR runtime can also be used for HTC Vive Cosmos, Oculus, and Windows Mixed Reality HMDs.
+.. note::
+
+   The SteamVR runtime can also be used for HTC Vive Cosmos, Oculus, and Windows Mixed Reality HMDs.
 
 
 Varjo
@@ -237,9 +239,9 @@ Varjo
 Windows Mixed Reality
 ^^^^^^^^^^^^^^^^^^^^^
 
-`Windows Mixed Reality <https://www.microsoft.com/windows/windows-mixed-reality>`__ provides full support for OpenXR.
-To check if a PC meets the requirements to run the software, Microsoft offers
-the `Windows Mixed Reality PC Check <https://www.microsoft.com/en-us/p/windows-mixed-reality-pc-check/9nzvl19n7cnc>`__
+`Windows Mixed Reality <https://www.microsoft.com/windows/windows-mixed-reality>`__ provides full
+support for OpenXR. To check if a PC meets the requirements to run the software, Microsoft offers the
+`Windows Mixed Reality PC Check <https://www.microsoft.com/en-us/p/windows-mixed-reality-pc-check/9nzvl19n7cnc>`__
 application.
 
 - Make sure the Windows 10 May 2019 Update (1903) is installed.
@@ -250,10 +252,12 @@ application.
   In the menu it opens, select the *Set up OpenXR*.
 - Enable the :doc:`VR Scene Inspection add-on </addons/3d_view/vr_scene_inspection>` in Blender.
 
-**Note:** To switch to Windows Mixed Reality from another OpenXR runtime (e.g. SteamVR),
-download the OpenXR Developer Tools from
-the `Microsoft Store <https://www.microsoft.com/en-us/p/openxr-developer-tools-for-windows-mixed-reality/9n5cvvl23qbt>`__
-and set Windows Mixed Reality as the active runtime.
-  
+.. note::
+
+   To switch to Windows Mixed Reality from another OpenXR runtime
+   (e.g. SteamVR), download the OpenXR Developer Tools from the `Microsoft Store
+   <https://www.microsoft.com/en-us/p/openxr-developer-tools-for-windows-mixed-reality/9n5cvvl23qbt>`__
+   and set Windows Mixed Reality as the active runtime.
+
 .. figure:: /images/getting-started_configuration_hardware_xr_runtime_wmr.jpg
    :scale: 50 %

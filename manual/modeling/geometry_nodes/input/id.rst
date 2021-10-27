@@ -10,15 +10,15 @@ ID Node
 
    ID node.
 
-The *ID* node gives an integer value indicating the stable random ID of each element on the point domain,
-which is stored in the *id* attribute.
+The *ID* node gives an integer value indicating the stable random identifier of each element on the point domain,
+which is stored in the ``id`` attribute.
 
 The node to set this data is the :doc:`/modeling/geometry_nodes/geometry/set_id` node.
 
 .. note::
 
-   Unlike other built-in attribtutes, the *id* attribute does not always exist. In that case, this
-   node will output zero.
+   Unlike other built-in attributes, the ``id`` attribute does not always exist.
+   In that case, this node will output zero.
 
 
 Inputs

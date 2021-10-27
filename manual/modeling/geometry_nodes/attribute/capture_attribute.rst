@@ -8,10 +8,10 @@ Capture Attribute Node
 .. figure:: /images/modeling_geometry-nodes_attribute_capture-attribute_node.png
    :align: right
 
-   Capture Attribute Node
+   Capture Attribute node.
 
-The *Capture Attribute* node stores the result of a field on a geometry, and outputs the data as a node
-socket so it can be used by other nodes.
+The *Capture Attribute* node stores the result of a field on a geometry, and outputs the data as a node socket
+so it can be used by other nodes.
 
 
 Inputs
@@ -38,4 +38,3 @@ Geometry
 
 Attribute
    The result of the evaluated field, stored on the geometry.
-   

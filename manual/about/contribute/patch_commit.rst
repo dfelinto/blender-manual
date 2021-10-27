@@ -77,7 +77,7 @@ When making changes to the manual that directly relate to a specific commit (cha
 it is helpful to make the title of the commit the same as the commit made to Blender.
 It is requested that you include the commit hash of the commit made to the Blender source code.
 
-For example, the commit `rBM8473 <https://developer.blender.org/rBM8473>`
+For example, the commit `rBM8473 <https://developer.blender.org/rBM8473>`__
 includes a descriptive indicative of the changes made along with the hash ``rBa71d2b260170``.
 The hash can be extracted from the URL provided in the Documentation task for a specific upcoming release.
 

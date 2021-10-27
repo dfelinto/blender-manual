@@ -26,7 +26,14 @@ Translation
    The vector to translate the instances by.
 
 Local Space
-   If checked, the instances are translated in local space otherwise they are translated in global space.
+   If enabled, the instances are translated in local space otherwise they are translated in global space.
+
+
+Properties
+==========
+
+This node has no properties.
+
 
 Outputs
 =======

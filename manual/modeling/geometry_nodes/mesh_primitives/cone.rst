@@ -8,7 +8,7 @@ Cone Node
 .. figure:: /images/modeling_geometry-nodes_mesh-primitives_cone_node.png
    :align: right
 
-   Cone Node.
+   Cone node.
 
 The *Cone* node generates a cone mesh that is optionally truncated.
 

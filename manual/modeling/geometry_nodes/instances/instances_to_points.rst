@@ -10,11 +10,13 @@ Instances to Points Node
 
    The Instances to Points node.
 
-The *Instances to Points* node generates points on top-level instances' origins.
+The *Instances to Points* node generates points on origins of top-level instances.
 
 .. note::
 
-   Top-level instances are those that are owned by the node's input geometry. Instances owned by other instances, i.e. nested instances, are not considered by this node.
+   Top-level instances are those that are owned by the node's input geometry.
+   Instances owned by other instances, i.e. nested instances, are not considered
+   by this node.
 
 
 Inputs
@@ -30,7 +32,14 @@ Position
    Overrides the default position of generated point.
 
 Radius
-   Controls the specified points' radius.
+   Controls the specified radius of points.
+
+
+Properties
+==========
+
+This node has no properties.
+
 
 Outputs
 =======

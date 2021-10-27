@@ -8,7 +8,7 @@ Mesh to Points Node
 .. figure:: /images/modeling_geometry-nodes_mesh_mesh-to-points_node.png
    :align: right
 
-   Mesh to Points Node
+   Mesh to Points node.
 
 The *Mesh to Points* node generates a point cloud from a mesh.
 

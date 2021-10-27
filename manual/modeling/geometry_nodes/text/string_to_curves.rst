@@ -8,7 +8,7 @@ String to Curves Node
 .. figure:: /images/modeling_geometry-nodes_text_string-to-curves_node.png
    :align: right
 
-   String to Curves Node
+   String to Curves node.
 
 The *String to Curves* converts a string to curve geometry.
 
@@ -34,6 +34,7 @@ Line Spacing
 Max Width
    Maximum width of the text
 
+
 Properties
 ==========
 
@@ -50,7 +51,7 @@ Alignment
    :Center: Aligns the text to the center.
    :Right: Aligns the text to the right.
    :Justify: Aligns the text to the left and right.
-   :Flush: Alignts the text to the left and right with equal character spacing.
+   :Flush: Aligns the text to the left and right with equal character spacing.
 
 Align Y
    :Top Baseline: Aligns the text to the top baseline.
@@ -58,6 +59,7 @@ Align Y
    :Middle: Aligns the text to the middle.
    :Bottom Baseline: Aligns the text to the bottom baseline.
    :Bottom: Aligns the text to the bottom.
+
 
 Outputs
 =======

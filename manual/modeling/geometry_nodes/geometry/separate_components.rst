@@ -11,7 +11,7 @@ Separate Components Node
    The Separate Components node.
 
 The *Separate Components* node splits a geometry into a separate output
-for each type of data in the geometry. 
+for each type of data in the geometry.
 
 
 Inputs
@@ -44,6 +44,6 @@ Volume
 
 Instances
    Instances component of the input geometry. Even if the instances contain geometry data with
-   one of the other types, all instances will be added to this output. 
+   one of the other types, all instances will be added to this output.
    A :doc:`/modeling/geometry_nodes/instances/realize_instances` can be added to move the data from
    geometry instances to their corresponding outputs.

@@ -22,6 +22,7 @@ Geometry
 Attribute
    The attribute field to query a statistic from.
 
+
 Properties
 ==========
 
@@ -35,6 +36,7 @@ Domain
    :Corner: Data is queried from each corner.
    :Edge: Data is queried from each edge.
    :Point: Data is queried from each point.
+
 
 Outputs
 =======

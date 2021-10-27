@@ -15,11 +15,11 @@ Point, corner and polygon attributes of the input geometry are transferred to th
 That includes vertex weights and UV maps.
 Additionally, the node has *Normal* and *Rotation* outputs.
 
-The node also generates a stable ID, stored in the builtin *id* attribute, used as a stable
-identifier for each point. When the mesh is deformed or the density changes the values will
-be consistent for each remaining point. This attribute is used in the 
-:doc:`Random Value </modeling/geometry_nodes/utilities/random_value>`
-and :doc:`Instance on Points </modeling/geometry_nodes/instances/instance_on_points>` nodes.
+The node also generates a stable ID, stored in the built-in ``id`` attribute, used as
+a stable identifier for each point. When the mesh is deformed or the density changes
+the values will be consistent for each remaining point. This attribute is used in
+the :doc:`Random Value </modeling/geometry_nodes/utilities/random_value>` and
+:doc:`Instance on Points </modeling/geometry_nodes/instances/instance_on_points>` nodes.
 
 
 Inputs

@@ -34,7 +34,7 @@ Profile Curve
    Otherwise the generated mesh will just be a chain of edges.
 
 Fill Caps
-   If the profile spline is cyclic, fill the ends of the generated mesh with N-gons.
+   If the profile spline is cyclic, fill the ends of the generated mesh with n-gons.
 
 
 Properties

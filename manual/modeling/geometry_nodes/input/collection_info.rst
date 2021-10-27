@@ -25,10 +25,9 @@ Collection
    Collection to get the properties from.
 
 Separate Children
-   Output each child of the collection as a separate instance.
-   The list of instances will be sorted alphabetically with the objects and child
-   collections sorted together. This can be used with the *Pick Instance* option in
-   the :doc:`/modeling/geometry_nodes/instances/instance_on_points` to
+   Output each child of the collection as a separate instance. The list of instances will be sorted
+   alphabetically with the objects and child collections sorted together. This can be used with
+   the *Pick Instance* option in the :doc:`/modeling/geometry_nodes/instances/instance_on_points` to
    choose between collection children at each point.
 
 Reset Children

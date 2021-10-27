@@ -5,18 +5,18 @@
 Geometry Proximity Node
 ***********************
 
-
 .. figure:: /images/modeling_geometry-nodes_geometry_geometry-proximity_node.png
    :align: center
 
    The Geometry Proximity node.
 
-The *Geometry Proximity* node finds the closest location on the target geometry.
+The *Geometry Proximity* node computes the closest location on the target geometry.
 
 .. tip::
 
    The :doc:`/modeling/geometry_nodes/utilities/map_range` is often helpful to use with the distance
    output of this node to create a falloff with a maximum distance.
+
 
 Inputs
 ======
@@ -25,7 +25,8 @@ Target
    Standard geometry input.
 
 Source Position
-   The given position to find the closest location on the target.
+   The given position to calculate the closest location on the target.
+
 
 Properties
 ==========
@@ -38,6 +39,7 @@ Target Element
    :Points:
       Calculate the closest point or vertex on the target geometry. This mode is usually the fastest.
       This mode works for both point cloud and mesh geometry, the other modes only work for meshes.
+
 
 Outputs
 =======
@@ -54,13 +56,13 @@ Examples
 ========
 
 The different modes of the node: faces, edges and points.
-In this example the geometry nodes modifier is added on the larget plane.
+In this example the geometry nodes modifier is added on the target plane.
 Note that the larger plane is subdivided and the smaller plane is not.
 
 .. figure:: /images/modeling_geometry-nodes_geometry-proximity_modes.png
    :align: center
 
-   The three target element modes: faces, edges, and points
+   The three target element modes: faces, edges, and points.
 
 .. figure:: /images/modeling_geometry-nodes_geometry-proximity_example.png
    :align: center

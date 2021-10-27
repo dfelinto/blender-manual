@@ -8,7 +8,7 @@ Cylinder Node
 .. figure:: /images/modeling_geometry-nodes_mesh-primitives_cylinder_node.png
    :align: right
 
-   Cylinder Node.
+   Cylinder node.
 
 The *Cylinder* node generates a cylinder mesh.
 It is similar to the cone node but always uses the same radius for the circles at the top and bottom.
@@ -35,10 +35,6 @@ Radius
 
 Depth
    Height of the cylinder.
-
-.. note::
-
-   If the radius is zero, this node will output a single line.
 
 
 Properties
