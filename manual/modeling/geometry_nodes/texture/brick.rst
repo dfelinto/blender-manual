@@ -14,7 +14,7 @@ Brick Texture Node
 .. tip::
 
    Texture nodes can produce details at a higher frequency
-   than geometry can show. This may cause aritfacts such 
+   than geometry can show. This may cause artifacts such 
    as moire type patterns or a lack of detail due to 
    insufficient sampling points.
 

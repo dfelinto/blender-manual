@@ -10,7 +10,7 @@ Nodes to add textures.
    Texture nodes can produce details at a higher frequency
    than geometry can show. This is more evident with textures
    that produce abrupt changes such as brick and checker.
-   This may cause aritfacts such as moire type patterns 
+   This may cause artifacts such as moire type patterns 
    or a lack of detail due to insufficient sampling points.
 
 .. toctree::
