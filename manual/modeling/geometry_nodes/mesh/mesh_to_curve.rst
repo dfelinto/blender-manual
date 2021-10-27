@@ -17,10 +17,10 @@ Inputs
 ======
 
 Mesh
-   xxxxxxxxx
+   Standard mesh input.
 
 Selection
-   xxxxxxxxx
+   The meshes that will be converted to curves.
 
 
 Properties

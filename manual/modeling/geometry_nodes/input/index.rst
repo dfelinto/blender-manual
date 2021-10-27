@@ -8,8 +8,10 @@ Nodes used mainly as input to other nodes.
 .. toctree::
    :maxdepth: 1
 
+   boolean.rst
    collection_info.rst
    color.rst
+   integer.rst
    is_viewport.rst
    material.rst
    object_info.rst
@@ -18,7 +20,7 @@ Nodes used mainly as input to other nodes.
    vector.rst
 
 ------------------------
-set_id
+
 .. toctree::
    :maxdepth: 1
 
@@ -27,7 +29,3 @@ set_id
    position.rst
    radius.rst
    id.rst
-
-.. missing documentation
-   boolean.rst
-   integer.rst

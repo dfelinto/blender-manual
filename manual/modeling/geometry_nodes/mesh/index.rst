@@ -9,6 +9,8 @@ Nodes that only operate on meshes.
    :maxdepth: 1
 
    mesh_boolean.rst
+   mesh_to_curve.rst
+   mesh_to_points.rst
    split_edges.rst
    subdivide_mesh.rst
    subdivision_surface.rst
@@ -27,7 +29,3 @@ Nodes that only operate on meshes.
    :maxdepth: 1
 
    set_shade_smooth.rst
-
-.. needs documentation::
-   mesh_to_curve.rst
-   mesh_to_points.rst

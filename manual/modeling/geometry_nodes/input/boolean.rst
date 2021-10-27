@@ -10,7 +10,7 @@ Boolean Node
 
    Boolean Node
 
-The *Boolean* node...
+The *Boolean* node provides a boolean value.
 
 
 Inputs
@@ -29,5 +29,5 @@ Outputs
 =======
 
 Boolean
-   xxxxxxxxx
+   Standard boolean output.
 

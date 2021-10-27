@@ -15,7 +15,7 @@ which is stored in the *id* attribute.
 
 The node to set this data is the :doc:`/modeling/geometry_nodes/geometry/set_id` node.
 
-.. node::
+.. note::
 
    Unlike other built-in attribtutes, the *id* attribute does not always exist. In that case, this
    node will output zero.

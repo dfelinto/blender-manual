@@ -17,23 +17,26 @@ Inputs
 ======
 
 Mesh
-   xxxxxxxxx
+   Standard Mesh input.
 
 Selection
-   xxxxxxxxx
+   The meshes used to generate a point cloud.
 
 Position
-   xxxxxxxxx
+   Positions of generated points.
 
 Radius
-   xxxxxxxxx
+   Radii of generated points.
 
 
 Properties
 ==========
 
 Mode
-   xxxxxxxxx
+   :Vertices: Points are generated for each vertex.
+   :Edges: Points are generated for each edge.
+   :Faces: Points are generated for each face.
+   :Corners: Points are generated for each corner.
 
 
 Outputs

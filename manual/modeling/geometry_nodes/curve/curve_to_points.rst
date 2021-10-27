@@ -17,19 +17,21 @@ Inputs
 ======
 
 Curve
-   xxxxxxxxx
+   Standard curve input.
 
 Count
-   xxxxxxxxx
+   Number of points generated. This input is only available for *Count* mode.
 
+Length
+   Length of the curve. This input is only available for *Length* mode.
 
 Properties
 ==========
 
 Mode
-   :Evaluated: xxxxxxxxx
-   :Count: xxxxxxxxx
-   :Length: xxxxxxxxx
+   :Evaluated: Creates points from the curve's evaluated points based on the resolution attribute for NURBS and Bezier splines.
+   :Count: Samples each spline by evenly distributing the specified number of points.
+   :Length: Samples each spline by splitting it into segments with specified length.
 
 
 Outputs

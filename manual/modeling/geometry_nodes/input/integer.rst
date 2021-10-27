@@ -10,7 +10,7 @@ Integer Node
 
    Integer Node
 
-The *Integer* node...
+The *Integer* node provides an integer value.
 
 
 Inputs
@@ -29,5 +29,4 @@ Outputs
 =======
 
 Integer
-   xxxxxxxxx
-
+   Standard integer output

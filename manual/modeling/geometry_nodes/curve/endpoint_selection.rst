@@ -10,17 +10,17 @@ Endpoint Selection Node
 
    Endpoint Selection Node
 
-The *Endpoint Selection* node ...
+The *Endpoint Selection* node provides a selection for an arbitrary number of endpoints in each spline in a curve.
 
 
 Inputs
 ======
 
 Start Size
-   xxxxxxxxx
+   The number of points to select from the start.
 
 End Size
-   xxxxxxxxxx
+   The number of points to select from the end.
 
 Properties
 ==========
@@ -32,5 +32,5 @@ Outputs
 =======
 
 Selection
-   xxxxxxxxx
+   Selection of start and end of each spline of the curve.
 

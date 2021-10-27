@@ -10,14 +10,14 @@ Material Selection Node
 
    Material Selection Node
 
-The *Material Selection* ...
+The *Material Selection* node provides a selection for meshes that use this material.
 
 
 Inputs
 ======
 
 Material
-   xxxxxxxxxxxx
+   Standard material input.
 
 
 Properties
@@ -30,4 +30,4 @@ Outputs
 =======
 
 Selection
-   xxxxxxxxxxxxxxxxx
+   Selection of meshes that use the input material.

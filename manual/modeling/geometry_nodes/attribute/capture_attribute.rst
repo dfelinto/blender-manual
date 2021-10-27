@@ -18,10 +18,10 @@ Inputs
 ======
 
 Geometry
-   Standard geometry input
+   Standard geometry input.
 
 Value
-   Float or Vector input to evaluate 
+   Float or Vector input to evaluate.
 
 
 Properties
@@ -34,7 +34,7 @@ Outputs
 =======
 
 Geometry
-   The standard geometry output
+   Standard geometry output.
 
 Attribute
    The result of the evaluated field, stored on the geometry.

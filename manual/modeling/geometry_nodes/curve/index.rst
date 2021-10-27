@@ -10,6 +10,7 @@ Nodes that only operate on curves.
 
    curve_length.rst
    curve_to_mesh.rst
+   curve_to_points.rst
    fill_curve.rst
    fillet_curve.rst
    resample_curve.rst
@@ -27,6 +28,7 @@ Nodes that only operate on curves.
    curve_parameter.rst
    curve_tangent.rst
    curve_tilt.rst
+   endpoint_selection.rst
    handle_type_selection.rst
    is_spline_cyclic.rst
    spline_length.rst
@@ -44,7 +46,3 @@ Nodes that only operate on curves.
    set_spline_cyclic.rst
    set_spline_resolution.rst
    set_spline_type.rst
-
-.. missing documentation:
-   curve_to_points.rst
-   end_point_selection.rst
