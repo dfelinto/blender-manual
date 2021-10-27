@@ -24,7 +24,7 @@ Interface
 
 Located in the :menuselection:`3D Viewport --> Sidebar --> VR tab`.
 
-.. figure:: /images/addons_3d-view_vr-scene-inspection_example.jpg
+.. figure:: /images/addons_3d-view_vr-scene-inspection_interface.jpg
    :width: 220px
 
 
