@@ -12,7 +12,7 @@ Material Index Node
 
 The *Material Index* node outputs the material index for a geometry.
 
-The node to set this data is the :doc:`/modeling/geometry_nodes/geometry/set_material_index` node.
+The node to set this data is the :doc:`Set Material Index </modeling/geometry_nodes/material/set_material_index>` node.
 
 Inputs
 ======
