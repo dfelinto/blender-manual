@@ -1,17 +1,15 @@
 .. index:: Geometry Nodes; Texture
 .. _bpy.types.GeoNodeImageTexture:
 
+******************
+Image Texture Node
+******************
+
 .. note::
 
    Unlike the other texture nodes, this node operates differently
    in geometry nodes compared to the equivalent shader node.
    When not connected the Vector input has an implicit ``position`` attribute value.
-
-.. _bpy.types.ShaderNodeTexImage:
-
-******************
-Image Texture Node
-******************
 
 .. figure:: /images/modeling_geometry-nodes_texture-nodes_image_texture_node.jpg
    :align: right
@@ -60,7 +58,15 @@ Outputs
 =======
 
 Color
-   RGBA color from the image. If the image has alpha, the color is premultiplied with alpha
-   if the Alpha output is used, and unpremultiplied or straight if the Alpha output is not used.
+   RGBA color from the image. 
 Alpha
    Alpha channel from image.
+   
+Examples
+========
+
+.. figure:: /images/modeling_geometry-nodes_texture-nodes_image_texture_node_example.jpg
+   
+   Image Texture displacing a plane.
+
+   
