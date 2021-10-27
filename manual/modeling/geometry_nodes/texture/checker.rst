@@ -10,6 +10,13 @@ Checker Texture Node
    referencing the shader version of the node.
    This node accepts field inputs and outputs.
    When not connected the Vector input has an implicit ``position`` attribute value.
+   
+.. tip::
+
+   Texture nodes can produce details at a higher frequency
+   than geometry can show. This may cause aritfacts such 
+   as moire type patterns or a lack of detail due to 
+   insufficient sampling points.   
 
 .. figure:: /images/render_shader-nodes_textures_checker_node.png
    :align: right
@@ -17,7 +24,6 @@ Checker Texture Node
    Checker Texture Node.
 
 The *Checker Texture* is used to add a checkerboard texture.
-
 
 Inputs
 ======
