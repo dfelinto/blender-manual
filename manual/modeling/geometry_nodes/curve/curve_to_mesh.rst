@@ -35,6 +35,8 @@ Profile Curve
 
 Fill Caps
    If the profile spline is cyclic, fill the ends of the generated mesh with n-gons.
+   The resulting mesh is :term:`Manifold`, the two new faces for each spline are
+   simply connected to existing edges.
 
 
 Properties

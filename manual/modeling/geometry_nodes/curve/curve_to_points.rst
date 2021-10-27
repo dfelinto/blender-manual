@@ -29,10 +29,20 @@ Properties
 ==========
 
 Mode
-   :Evaluated: Creates points from the curve's evaluated points based on
-               the resolution attribute for NURBS and Bézier splines.
-   :Count: Samples each spline by evenly distributing the specified number of points.
-   :Length: Samples each spline by splitting it into segments with specified length.
+   :Evaluated: 
+      Creates points from the curve's evaluated points based on the
+      :doc:`resolution </modeling/geometry_nodes/curve/spline_resolution>`
+      attribute for NURBS and Bézier splines. This mode will generally be the fastest, 
+      since the second step of sampling equal lengths is not necessary.
+
+   :Count: 
+      Sample each spline by evenly distributing the specified number of points.
+
+   :Length: 
+      Sample each spline by splitting it into segments with specified length.
+      The length will be rounded down so that a whole number of samples will fit in each input spline.
+      To counteract jumping when the length of the spline changes, the 
+      :doc:`/modeling/geometry_nodes/curve/trim_curve` can be used with a multiple of this length.
 
 
 Outputs

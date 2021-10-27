@@ -59,5 +59,24 @@ Position
 Tangent
    The normalized :doc:`curve tangent </modeling/geometry_nodes/curve/curve_tangent>` at the sample.
 
+   .. tip::
+
+      This output can be combined with the :doc:`/modeling/geometry_nodes/utilities/align_euler_to_vector`.
+      to create a rotation that lines up with direction of the curve. Including the *Normal* output
+      in a second align node after can align the other rotation axis.
+
 Normal
    The normalized :doc:`curve normal </modeling/geometry_nodes/input/normal>` at the sample.
+
+
+Examples
+========
+
+.. figure:: /images/modeling_geometry-nodes_curve_sample-curve_example.png
+   :align: center
+
+Here, the *Count* mode of the :doc:`/modeling/geometry_nodes/curve/resample_curve` is recreated,
+except a mesh is used for the result instead of a curve. The Z axis of the position can be used
+as the sample factor because the position is between zero and one for the entire line.
+
+

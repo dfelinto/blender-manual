@@ -13,6 +13,11 @@ Reverse Curve Node
 The *Reverse Curve* node swaps the start and end of splines.
 The shape of the splines is not changed.
 
+.. tip::
+
+   When used on the *Profile* input of the :doc:`/modeling/geometry_nodes/curve/curve_to_mesh`,
+   this node fill flip the normals of the resulting mesh.
+
 
 Inputs
 ======

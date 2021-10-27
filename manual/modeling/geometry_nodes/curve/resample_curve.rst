@@ -11,7 +11,8 @@ Resample Curve Node
    The Resample Curve node.
 
 The Resample Curve node creates a poly spline for each input spline.
-In the new poly splines, the control points will have uniform spacing.
+In the *Count* and *Length* modes, the control points of the new poly
+splines will have uniform spacing.
 
 .. tip::
 
@@ -21,7 +22,7 @@ In the new poly splines, the control points will have uniform spacing.
 Inputs
 ======
 
-Geometry
+Curve
    Standard geometry input.
 
 Count
@@ -32,7 +33,7 @@ Length
 
    .. tip::
 
-      A :doc:`Resample Curve </modeling/geometry_nodes/curve/trim_curve>` node can be used with
+      A :doc:`/modeling/geometry_nodes/curve/trim_curve` can be used with
       a multiple of the input length to make the distance between each sampled point exact,
       even when the length of the spline changes.
 
@@ -57,5 +58,5 @@ Mode
 Outputs
 =======
 
-Geometry
+Curve
    Standard geometry output.

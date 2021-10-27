@@ -38,3 +38,20 @@ Outputs
 
 Mesh
    The filled in curves.
+
+
+Examples
+========
+
+A single point spline can be used to customize the triangulation of the resulting mesh.
+
+.. figure:: /images/modeling_geometry-nodes_curve_curve-to-points_example_1.png
+   :align: center
+
+   Here a curve object with a single spline with a single point at the origin is joined with the
+   star primitive to customize triangulation.
+
+.. figure:: /images/modeling_geometry-nodes_curve_curve-to-points_example_2.png
+   :align: center
+
+   This is the default triangulation without the single point.

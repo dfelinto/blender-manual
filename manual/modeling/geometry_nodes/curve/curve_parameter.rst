@@ -47,3 +47,12 @@ Outputs
 
 Factor
    The portion of the total length of the spline at each control point.
+
+Examples
+========
+
+.. figure:: /images/modeling_geometry-nodes_curve_curve-parameter_example.png
+   :align: right
+
+   The parameter used to control the radius of the curve. The beginning of the
+   spline has a radius of 0, the end has a radius of 1.

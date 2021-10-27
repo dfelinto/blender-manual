@@ -10,17 +10,22 @@ Subdivide Curve Node
 
    The Subdivide Curve node.
 
-The *Subdivide Curve* node cuts spline segments without changing their shape.
+The *Subdivide Curve* node adds more control points in between existing control points on the curve input.
+For Bézier and poly splines, the shape of the spline will not be changed at all.
+
+With Bézier curves, this can be used to increase the control on the shape of the curve while still
+having the higher-level provided by Bézier splines, unlike the :doc:`/modeling/geometry_nodes/curve/resample_curve`,
+where they are converted to poly splines.
 
 
 Inputs
 ======
 
-Geometry
+Curve
    Standard geometry input.
 
 Cuts
-   Number of times each segment is cut.
+   The number of control points to add on each segment.
    When the input is a field, the number of cuts for a segment is determined by
    the value of the field when evaluated at the previous point.
 
@@ -34,5 +39,5 @@ This node has no properties.
 Outputs
 =======
 
-Geometry:
+Curve
    Standard geometry output.

@@ -52,3 +52,18 @@ Outputs
 
 Curve
    Standard geometry input with a curve component.
+
+
+Examples
+========
+
+.. figure:: /images/modeling_geometry-nodes_curve_fillet-curve_example_1.png
+   :align: center
+
+   The node can be used to round the corners of simple 3D poly splines.
+
+.. figure:: /images/modeling_geometry-nodes_curve_fillet-curve_example_2.png
+   :align: center
+
+   The node can be combined with the curve primitive nodes to make more interesting shapes.
+

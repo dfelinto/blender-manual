@@ -15,14 +15,14 @@ Each spline has the same number of control points whether or not it is set as cy
 But when displaying in the viewport or for operations with other nodes,
 a connection will be made between the first and last control points.
 
-The input node for this data is the :doc:`Is Spline Cyclic node </modeling/geometry_nodes/curve/is_spline_cyclic>`.
+The input node for this data is the :doc:`/modeling/geometry_nodes/curve/is_spline_cyclic`.
 
 
 Inputs
 ======
 
-Geometry
-   Standard geometry input, containing a curve.
+Curve
+   Standard geometry input.
 
 Selection
    Whether or not to change the cyclic value on each spline. True values mean the value will be changed,
@@ -41,5 +41,5 @@ This node has no properties.
 Outputs
 =======
 
-Geometry
+Curve
    Standard geometry output.

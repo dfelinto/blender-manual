@@ -12,6 +12,7 @@ Handle Type Selection Node
 
 Creates a selection based on the handle types of the control points.
 
+The handle type of each control point can be changed with the :doc:`/modeling/geometry_nodes/curve/set_handle_type`.
 
 Inputs
 ======
@@ -24,7 +25,7 @@ Properties
 
 Mode
    Whether to consider left and/or right handles.
-   When both are selected, the outputted value is true
+   When both are selected, the output value is true
    if either of the handles are of the chosen type.
 
    :Left:
@@ -34,7 +35,7 @@ Mode
 
 Handle Type
    Handle type for which the selection will be true.
-   Read the :ref:`Bézier curves <curve-bezier-handle-type>` page for more details
+   See the :ref:`Bézier curves <curve-bezier-handle-type>` page for more details
    on the different handle types.
 
 

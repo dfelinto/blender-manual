@@ -12,6 +12,17 @@ Endpoint Selection Node
 
 The *Endpoint Selection* node provides a selection for an arbitrary number of endpoints in each spline in a curve.
 
+.. note::
+
+   The selection operates for every control point, which may not correspond to the evaluated
+   points displayed in the viewport for NURBS and Bézier splines, where one control point may
+   corrspond to many evaluated points.
+
+.. tip::
+
+   To use this data after the curve has been converted to another data type like mesh or a point cloud,
+   the :doc:`/modeling/geometry_nodes/attribute/capture_attribute` can be used.
+
 
 Inputs
 ======
@@ -35,3 +46,13 @@ Outputs
 Selection
    Selection of start and end of each spline of the curve.
 
+Examples
+========
+
+.. figure:: /images/modeling_geometry-nodes_curve_endpoint-selection_example.png
+   :align: center
+
+Anywhere the geometry is a curve, this node can be used to generate a selection of
+only the first and last points of each spline. Here, the *Points* input of the
+:doc:`/modeling/geometry_nodes/point/distribute_points_on_faces` is a curve
+consisting of the poly spline shown in edit mode.
