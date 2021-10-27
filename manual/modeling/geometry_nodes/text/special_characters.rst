@@ -15,9 +15,10 @@ The *Special Characters* node is used to output string characters that can't be 
 
 .. tip::
 
-   This node can be used to create a multiline string for
-   the :doc:`String to Curves </modeling/geometry_nodes/text/string_to_curves>` node,
-   when combined with the :doc:`Join Strings </modeling/geometry_nodes/text/join_strings>` node.
+   This node can be used to create a multi-line string for
+   the :doc:`/modeling/geometry_nodes/text/string_to_curves`,
+   when combined with the :doc:`/modeling/geometry_nodes/text/join_strings`
+   or the :doc:`/modeling/geometry_nodes/text/replace_string`.
 
 
 Inputs

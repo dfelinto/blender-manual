@@ -15,10 +15,10 @@ The order of the result depends on the vertical ordering of the inputs in the mu
 
 .. tip::
 
-   This node can be used to create a multiline string for
-   the :doc:`String to Curves </modeling/geometry_nodes/text/string_to_curves>` node,
+   This node can be used to create a multi-line string for
+   the :doc:`/modeling/geometry_nodes/text/string_to_curves`,
    when combined with the line break output from
-   the :doc:`Special Characters </modeling/geometry_nodes/text/special_characters>` node.
+   the :doc:`/modeling/geometry_nodes/text/special_characters`.
 
 
 Inputs

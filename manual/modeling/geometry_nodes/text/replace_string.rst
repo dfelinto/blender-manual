@@ -6,7 +6,7 @@ Replace String Node
 *******************
 
 .. figure:: /images/modeling_geometry-nodes_text_replace-string_node.png
-   :align: center
+   :align: right
 
    The Replace String node.
 
@@ -37,3 +37,12 @@ Outputs
 
 String
    Standard string output.
+
+
+Examples
+========
+
+.. figure:: /images/modeling_geometry-nodes_text_replace-string_example.png
+   :align: center
+
+   Using the node to add the new-line character to a string.
