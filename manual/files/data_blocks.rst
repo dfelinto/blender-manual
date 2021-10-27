@@ -361,8 +361,14 @@ Only certain data supports custom properties:
 - Sequence strips.
 
 To add a custom property, search for the *Custom Properties* panel,
-found at the bottom of most :doc:`Properties </editors/properties_editor>` or Sidebar region, and hit *Add*.
+found at the bottom of most :doc:`Properties </editors/properties_editor>` or Sidebar region, and hit *New*.
+Properties can be removed from the same location with the delete icon.
 
+Once properties are added they can be configured via the edit icon to work for a particular use case;
+see `Editing Properties`_ for more information.
+
+
+.. _bpy.ops.wm.properties_edit:
 
 Editing Properties
 ------------------
@@ -370,42 +376,51 @@ Editing Properties
 User Interface
 ^^^^^^^^^^^^^^
 
-Custom properties can be edited using the panel available for data types that support it.
-
 .. figure:: /images/files_data-blocks_edit.png
    :align: right
 
    Custom Properties edit pop-up.
 
-Property Name
-   The name of the custom property.
+Custom properties can be edited using the panel available for data types that support it.
+Editing the properties allows you to configure things such as default values,
+ranges, and even add a custom tooltip.
 
-Property Value
-   This does two things: first it sets the current value of the custom property, and
-   second, it defines the data type of the property.
+.. container:: lead
 
-   Custom properties can be of the following types: integers, floats,
-   strings, Boolean values, colors, or vectors of integers or floats.
+   .. clear
 
-   See the table below for a list of examples for each:
+Type
+   The data type of the property; different data types have can only have specific data properties.
 
-   :Integer: 1, 2, 3, 4,
-   :Float: 3.141, 5.0, or 6.125
-   :String: any text
-   :Boolean: ``True`` or ``False``
-   :Vector: ``[1, 2, 3]`` or ``[1.0, 2.0, 3.0]``
-   :Color: ``[1.0, 1.0, 1.0]`` or ``[1.0, 1.0, 1.0, 1.0]`` (must specify *Subtype*)
+   :Float: A numeric value with decimals e.g. 3.141, 5.0, or 6.125.
+   :Float Array:
+      A collection of multiple float data types e.g. ``[3.141, 5.0, 6.125]`` .
+      This data type can also be used for data that can be represented as a float array such as colors.
+      These special float arrays can be set in the *Subtype* drop down.
+   :Integer: A numeric value without any decimals e.g. 1, 2, 3, or 4.
+   :Integer Array: A collection of multiple integer data types e.g. ``[1, 2, 3, 4]`` .
+   :String: A sequence of characters such as "Some Text".
+   :Python: Edit a python data type directly, used for unsupported data types.
 
    .. note::
 
-      Boolean values are handled very similar to integers and only work
-      when using Min/Max values that are integers and that are no more than 1 apart.
+      Boolean values must be handled as integers and only work
+      when using *Min*/*Max* values that are integers and that are no more than 1 apart.
 
       At this point, the Boolean values will still look like integers but behave like
       a Boolean having one lower, off, value and a higher, on, value.
 
+Array Length
+  The number of elements in the array.
+  Note that if the array length is greater than 7 you cannot directly edit its elements,
+  you must press *Edit Value* to edit the elements of the array.
+
+Property Name
+   The text that is displayed to the left of the value.
+   This name is also used to access the property via Python.
+   
 Default Value
-   This sets the default value of the property used by the Reset to Default Value operator.
+   This sets the default value of the property used by the *Reset to Default Value* operator.
 
    .. warning::
 
@@ -416,11 +431,6 @@ Default Value
 Min, Max
    The minimum/maximum value the custom property can take.
 
-.. figure:: /images/files_data-blocks_edit-color.png
-   :align: right
-
-   Custom Property settings for a color with alpha.
-
 Is Library Overridable
    Allow the property to be :doc:`overridden </files/linked_libraries/library_overrides>`
    when the data-block is linked.
@@ -429,11 +439,17 @@ Use Soft Limits
    Enables limits that the *Property Value* slider can be adjusted to
    without having to input the value numerically.
 
-Soft Min, Max
-   The minimum/maximum value for the soft limit.
+   Soft Min, Max
+      The minimum/maximum value for the soft limit.
 
-Tooltip
-   Allows you to write a custom :doc:`Tooltip </getting_started/help>` for your property.
+Step
+  A multiplier to control how much the data type is incremented at a time.
+  The internal step size for floats is 0.01, so a *Step* value of 5 will
+  increment at a rate of 0.05 and a *Step* value of 100 will increment by 1.0.
+  For integers the internal step size is 1.
+
+Precision
+   The number of digits after the decimal to display in the user interface for float data types.
 
 Subtype
    Specifies the type of data the property contains, which affects how it appears in the user interface.
@@ -446,6 +462,9 @@ Subtype
    :Gamma-Corrected Color: Color in gamma corrected color space.
    :Euler Angles: :term:`Euler Rotation` angles.
    :Quaternion Angles: :term:`Quaternion Rotation` angles.
+
+Description
+   Allows you to write a custom :doc:`Tooltip </getting_started/help>` for your property.
 
 
 Python Access
