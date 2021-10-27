@@ -90,13 +90,23 @@ Converts a :doc:`Proxy </files/linked_libraries/library_proxies>` to a local ove
 This operator is used to help convert older blend-files to the new override system.
 
 
-Syncing Overrides
-=================
+Resyncing Overrides
+===================
 
 The relationships between linked data-blocks can be changed resulting in outdated overrides.
 When this happens overrides need to be resynced to match the new structure.
 Overrides are automatically resynced when opening blend-files, however,
 overrides can be resynced manually using `Resync Library Override Hierarchy`_.
+
+.. tip::
+
+   Blender is also able to resync library overrides from external libraries, that are then linked into a
+   working file. However, this is a costly process that needs to be fully redone every time the working
+   file is loaded, since Blender cannot edit/modify the external library directly.
+   
+   So users linking overrides (or creating recursive overrides) should ensure that their library files are
+   regularly updated, to avoid this overhead on file load (typically, opening and saving those library files
+   should be enough to update them).
 
 .. tip::
 
