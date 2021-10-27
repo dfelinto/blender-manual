@@ -20,3 +20,7 @@ Cycles Debug
 Override Auto Resync
    Enables library overrides automatic resync detection and process on file load.
    Disable when dealing with older blend-files that need manual Resync (Enforce) handling.
+
+Proxy to Override Auto Conversion
+   Enables conversion of proxies to library overrides on file load.
+   Disable if you want to keep existing proxies, and deal with their conversion yourself.
