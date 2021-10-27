@@ -7,12 +7,16 @@ Geometry Proximity Node
 
 
 .. figure:: /images/modeling_geometry-nodes_geometry_geometry-proximity_node.png
-   :align: right
+   :align: center
 
    The Geometry Proximity node.
 
-The *Geometry Proximity* node finds the closest location on the target.
+The *Geometry Proximity* node finds the closest location on the target geometry.
 
+.. tip::
+
+   The :doc:`/modeling/geometry_nodes/utilities/map_range` is often helpful to use with the distance
+   output of this node to create a falloff with a maximum distance.
 
 Inputs
 ======
@@ -26,17 +30,39 @@ Source Position
 Properties
 ==========
 
-Target Geometry
-   :Points: Calculate the proximity to the target's points (faster than the other modes).
-   :Edges: Calculate the proximity to the target's edges.
-   :Faces: Calculate the proximity to the target's faces.
-
+Target Element
+   :Faces:
+      Calculate the closest point anywhere on the faces of the target's mesh geometry.
+   :Edges:
+      Calculate the closest point anywhere on the edges of the target's mesh geometry.
+   :Points:
+      Calculate the closest point or vertex on the target geometry. This mode is usually the fastest.
+      This mode works for both point cloud and mesh geometry, the other modes only work for meshes.
 
 Outputs
 =======
 
 Position
-   Closest location in the target.
+   Closest location on the surface of the target mesh, or the closest point in the target point cloud
+   in *Points* mode.
 
 Distance
    Distance (as floating-point value) from the source position to the closest location in the target.
+
+
+Examples
+========
+
+The different modes of the node: faces, edges and points.
+In this example the geometry nodes modifier is added on the larget plane.
+Note that the larger plane is subdivided and the smaller plane is not.
+
+.. figure:: /images/modeling_geometry-nodes_geometry-proximity_modes.png
+   :align: center
+
+   The three target element modes: faces, edges, and points
+
+.. figure:: /images/modeling_geometry-nodes_geometry-proximity_example.png
+   :align: center
+
+   Points distributed on a sphere used as a target for a distance used in a shader.
