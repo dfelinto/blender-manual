@@ -21,7 +21,7 @@ sys.setrecursionlimit(2000)
 
 # -- Local Vars --------------------------------------------------------------
 
-# Not used directly by Sphinx, only used by this file.
+# Not used directly by Sphinx, but used by this file and the buildbot.
 
 blender_version = '3.1'
 
