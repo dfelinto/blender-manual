@@ -26,13 +26,14 @@ Instances
    Standard geometry input.
 
 Selection
-   The instances used to generate points.
+   The instances used to generate points. True values mean a point is created for the instance,
+   false values mean the instance is skipped.
 
 Position
    Overrides the default position of generated point.
 
 Radius
-   Controls the specified radius of points.
+   Controls the radius of the result points.
 
 
 Properties
@@ -45,4 +46,4 @@ Outputs
 =======
 
 Points
-   Generated points.
+   Standard geometry output.

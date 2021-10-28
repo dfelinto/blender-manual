@@ -111,3 +111,19 @@ or want to animate multiple characters at once.
 - There are limits to the kinds of operations that can run on multiple objects.
 
   *You can't for example create an edge that has vertices from different objects.*
+
+
+.. _bpy.ops.object.transfer_mode:
+
+Transferring Objects
+====================
+
+.. reference::
+
+   :Mode:      All Modes
+   :Shortcut:  :kbd:`Alt-Q`
+
+Adds the object under the mouse to the current mode and removes the :term:`Active` object.
+Use this operator to quickly switch between multiple objects without having to first go to object mode.
+
+When accessed from a menu, an :ref:`ui-eyedropper` is used to select the object to add to current mode.

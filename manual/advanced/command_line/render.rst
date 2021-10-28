@@ -110,8 +110,8 @@ Cycles has additional options to further control its behavior.
 
 ``--cycles-device CPU``
    Override the device that is used to render frames.
-   Currently supported options are ``CPU``, ``CUDA``, ``OPTIX`` and ``OPENCL``.
-   Additionally, you can use ``CUDA+CPU`` or ``OPENCL+CPU`` in order to use both CPU and GPU rendering.
+   Currently supported options are ``CPU``, ``CUDA``, and ``OPTIX``.
+   Additionally, you can use ``OPTIX+CPU`` in order to use both CPU and GPU rendering.
 
 ``--cycles-print-stats``
    Show detailed statistics about memory and time usage for Cycles renders on the console.

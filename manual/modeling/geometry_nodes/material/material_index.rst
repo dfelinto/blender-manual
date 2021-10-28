@@ -10,7 +10,9 @@ Material Index Node
 
    Material Index node.
 
-The *Material Index* node outputs the material index for a geometry.
+The *Material Index* node outputs which material in the geometry data's list of materals
+each element corresponds to. Currently the node supports mesh data, where ``material_index``
+is a built-in attribute on faces.
 
 The node to set this data is
 the :doc:`Set Material Index </modeling/geometry_nodes/material/set_material_index>` node.
@@ -32,4 +34,4 @@ Outputs
 =======
 
 Material Index
-   Standard integer value
+   Standard integer value, with a minimum value of zero.

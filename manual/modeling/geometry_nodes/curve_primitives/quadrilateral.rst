@@ -1,4 +1,4 @@
-.. index:: Geometry Nodes; Curve Quadrilateral
+.. index:: Geometry Nodes; Quadrilateral
 .. _bpy.types.GeometryNodeCurveQuadrilateral:
 
 ******************

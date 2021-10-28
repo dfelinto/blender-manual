@@ -17,7 +17,7 @@ It functions the same as the :ref:`Triangulate <bpy.ops.mesh.quads_convert_to_tr
 Inputs
 ======
 
-Geometry
+Mesh
    Standard geometry input.
 
 Minimum Vertices
@@ -50,7 +50,7 @@ N-gon Method
 Outputs
 =======
 
-Geometry
+Mesh
    Standard geometry output.
 
 

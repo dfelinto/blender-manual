@@ -13,15 +13,11 @@ Split Edges Node
 Like the :doc:`/modeling/modifiers/generate/edge_split`, the *Split Edges* node splits and duplicates edges
 within a mesh, breaking 'links' between faces around those split edges.
 
-.. note::
-
-   Splitting edges effectively breaks the mesh topology.
-
 
 Inputs
 ======
 
-Geometry
+Mesh
    Standard geometry input.
 
 Selection
@@ -41,5 +37,5 @@ This node has no properties.
 Outputs
 =======
 
-Geometry
+Mesh
    Standard geometry output.

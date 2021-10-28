@@ -1,4 +1,4 @@
-.. index:: Geometry Nodes; Texture
+.. index:: Geometry Nodes; White Noise Texture
 
 ************************
 White Noise Texture Node
@@ -52,8 +52,6 @@ Value
 Color
    Output random color.
 
-
-.. _shader-white-noise-notes:
 
 Notes
 =====

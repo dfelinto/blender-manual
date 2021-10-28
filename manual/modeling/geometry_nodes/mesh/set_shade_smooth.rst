@@ -17,7 +17,7 @@ The input node for this data is the :doc:`Is Shade Smooth </modeling/geometry_no
 Inputs
 ======
 
-Geometry
+Mesh
    Standard geometry input.
 
 Shade Smooth
@@ -37,5 +37,5 @@ This node has no properties.
 Outputs
 =======
 
-Geometry
+Mesh
    Standard geometry output.

@@ -16,7 +16,7 @@ The *Subdivision Surface* node adds new faces to mesh geometry using a Catmull-C
 Inputs
 ======
 
-Geometry
+Mesh
    Standard geometry input.
 
 Level
@@ -51,5 +51,5 @@ Boundary Smooth
 Outputs
 =======
 
-Geometry
+Mesh
    Standard geometry output.

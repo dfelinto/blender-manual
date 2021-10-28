@@ -16,7 +16,7 @@ The *Subdivide Mesh* node adds new faces to mesh geometry using a simple interpo
 Inputs
 ======
 
-Geometry
+Mesh
    Standard geometry input.
 
 Level
@@ -32,5 +32,5 @@ This node has no properties.
 Outputs
 =======
 
-Geometry
+Mesh
    Standard geometry output.

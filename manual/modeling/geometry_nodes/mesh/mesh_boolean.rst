@@ -16,18 +16,18 @@ This node offers the same operations as the :doc:`Boolean modifier </modeling/mo
 Inputs
 ======
 
-Geometry 1/2
+Mesh 1/2
    Standard geometry input.
 
 Self Intersection
-   Correctly calculates cases when one or both operands have self-intersections,
-   this involves more calculations making it slower.
+   Correctly calculates cases when one or both operands have self-intersections.
+   This involves more calculations making the node slower.
 
 Hole Tolerant
    Optimizes the Boolean output for :term:`Non-manifold` geometry
    at the cost of increased computational time.
    Because of the performance impact, this option should only be enabled
-   when the *Exact* solver demonstrates errors with non-manifold geometry.
+   when the solver demonstrates errors with non-manifold geometry.
 
 
 Properties
@@ -45,5 +45,5 @@ Operation
 Output
 ======
 
-Geometry
+Mesh
    Standard geometry output.

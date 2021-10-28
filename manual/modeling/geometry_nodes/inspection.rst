@@ -46,7 +46,7 @@ Viewer Node
 ===========
 
 The Viewer node is used to display intermediate geometry in the spreadsheet.
-For more information see :doc:`Viewer node </modeling/geometry_nodes/output/viewer>`.
+For more information see :doc:`/modeling/geometry_nodes/output/viewer`.
 
 
 Node Warnings

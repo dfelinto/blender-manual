@@ -37,6 +37,12 @@ Offsets
 F-Curves
    Show animation curves for opacity and volume values as darkened sections of the strip.
 
+.. _bpy.types.SequencerTimelineOverlay.show_grid:
+
+Grid
+   Show vertical and horizontal lines in the sequence timeline
+   to add visual separation and a dimension of scale to the timeline.
+
 .. _bpy.types.SequencerTimelineOverlay.waveform_display_type:
 
 Waveform Display

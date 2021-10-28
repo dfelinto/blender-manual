@@ -1,4 +1,4 @@
-.. index:: Geometry Nodes; Texture
+.. index:: Geometry Nodes; Voronoi Texture
 
 ********************
 Voronoi Texture Node

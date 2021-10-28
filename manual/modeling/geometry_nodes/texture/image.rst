@@ -1,4 +1,4 @@
-.. index:: Geometry Nodes; Texture
+.. index:: Geometry Nodes; Image Texture
 .. _bpy.types.GeoNodeImageTexture:
 
 ******************

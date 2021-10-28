@@ -11,7 +11,9 @@ Set Material Node
 
    The Set Material Node.
 
-The *Set Material* changes the material assignment in the specified selection.
+The *Set Material* changes the material assignment in the specified selection,
+by adjusting the ``material_index`` attribute. If the material is already used
+on the geometry, the existing material index will be reused.
 
 .. note::
 

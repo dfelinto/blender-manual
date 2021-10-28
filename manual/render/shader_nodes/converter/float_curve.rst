@@ -1,4 +1,5 @@
 .. _bpy.types.ShaderNodeFloatCurve:
+.. --- copy below this line ---
 
 ***********
 Float Curve

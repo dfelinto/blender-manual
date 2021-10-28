@@ -30,6 +30,8 @@ Nvidia
 :abbr:`CUDA (Compute Unified Device Architecture)` and OptiX are supported
 for GPU rendering with Nvidia graphics cards.
 
+.. note:: :doc:`/render/shader_nodes/osl` is not supported.
+
 
 CUDA
 ^^^^
@@ -39,20 +41,16 @@ To make sure your GPU is supported,
 see the `list of Nvidia graphics cards <https://developer.nvidia.com/cuda-gpus#compute>`__
 with the compute capabilities and supported graphics cards.
 
-.. note:: Open Shading Language is not supported.
-
 
 .. _render-cycles-gpu-optix:
 
 OptiX
 ^^^^^
 
-OptiX requires graphics cards with compute capability 5.0 and higher.
+OptiX requires graphics cards with compute capability 5.0 and higher and a driver version of at least 470.
 To make sure your GPU is supported,
 see the `list of Nvidia graphics cards <https://developer.nvidia.com/cuda-gpus#compute>`__
 OptiX works best on RTX graphics cards with hardware ray tracing support (e.g. Turing and above).
-
-.. note:: Open Shading Language is not supported.
 
 
 Frequently Asked Questions

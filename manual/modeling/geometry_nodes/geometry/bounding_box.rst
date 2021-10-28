@@ -13,6 +13,10 @@ Bounding Box Node
 The *Bounding Box* node creates a box with the minimum volume that encapsulates the geometry of the input.
 The node also can output the vector positions of the bounding dimensions.
 
+For instanced geometry, a bounding box is computed for each instance rather than the whole geometry.
+To compute the bounding box of the whole geometry,
+you must use a :ref:`/modeling/geometry_nodes/instances/realize_instances`.
+
 
 Inputs
 ======

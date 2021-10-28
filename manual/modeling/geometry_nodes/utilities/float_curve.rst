@@ -1,5 +1,4 @@
-.. index:: Geometry Nodes; Utility
-.. _bpy.types.ShaderNodeFloatCurve:
+.. index:: Geometry Nodes; Float Curve
 
 .. include:: /render/shader_nodes/converter/float_curve.rst
-
+   :start-after: .. --- copy below this line ---

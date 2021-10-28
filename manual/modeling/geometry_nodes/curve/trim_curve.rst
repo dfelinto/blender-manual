@@ -17,6 +17,15 @@ Bézier splines will still be Bézier splines in the output, with the first and 
 its handles moved as necessary to preserve the shape.
 NURBS splines will be transformed into poly splines in order to be trimmed.
 
+.. warning::
+
+   Currently the trim curve node does not support 
+   :doc:`cyclic </modeling/geometry_nodes/curve/is_spline_cyclic>` splines.
+
+.. note::
+
+   If the *Start* input is larger than the *End*, then the resulting spline
+   will have a single point, located at the sample location of the *Start* value.
 
 Inputs
 ======

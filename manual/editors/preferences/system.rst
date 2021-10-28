@@ -30,8 +30,6 @@ CUDA
    If the system has a compatible Nvidia CUDA device, it will show up an option for rendering with Cycles.
 OptiX
    If the system has a compatible Nvidia OptiX device, it will show up an option for rendering with Cycles.
-OpenCL
-   If the system has a compatible AMD OpenCL device, it will show up an option for rendering with Cycles.
 
 .. _prefs-system-cycles-distributive-memory:
 
@@ -40,6 +38,20 @@ Distribute Memory Across Devices
    effectively freeing up space for larger scenes. Note that in order for this option to be available,
    the GPUs must be connected together with a high bandwidth communication protocol.
    Currently only NVLink on Nvidia GPUs is supported.
+
+
+Operating System Settings
+=========================
+
+Make this installation your default Blender.
+
+.. note::
+
+   This panel of options is only available on Microsoft Windows.
+
+Make default
+   Make the currently in use Blender installation the default
+   for generating thumbnails and the default for opening blend-files.
 
 
 Memory & Limits
