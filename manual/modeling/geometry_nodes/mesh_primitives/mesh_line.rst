@@ -57,5 +57,5 @@ Count Mode
 Outputs
 =======
 
-Geometry
+Mesh
    Standard geometry output.

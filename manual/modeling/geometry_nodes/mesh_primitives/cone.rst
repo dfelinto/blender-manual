@@ -57,5 +57,5 @@ Fill Type
 Outputs
 =======
 
-Geometry
+Mesh
    Standard geometry output.

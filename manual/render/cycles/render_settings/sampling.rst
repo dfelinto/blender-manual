@@ -208,7 +208,6 @@ Scrambling Distance
    Viewport Scrambling Distance
       Allows other `Scrambling Distance` settings to impact viewport rendering.
 
-
 .. _bpy.types.CyclesRenderSettings.min_light_bounces:
 
 Min Light Bounces

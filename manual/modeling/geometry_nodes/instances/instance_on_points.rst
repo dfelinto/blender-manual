@@ -26,8 +26,14 @@ Inputs
 
 Geometry
    Standard geometry input. The position of the points of this geometry affect the transforms of
-   each instance output. If this geometry contains instances, the node will create more instances
-   on the points inside the instances, creating nested instancing.
+   each instance output. 
+   
+   .. note::
+
+      If the input geometry contains instances, the node will create more instances on the points inside
+      the instances, creating nested instancing. When this happens, each new instance will have the
+      transform created by the node from the *Rotation* and *Scale* inputs, but it will *also* be
+      transformed based on the parent instances.
 
 Selection
    Whether to instance on each point. True values mean the an instance will be generated on the point,
@@ -49,10 +55,15 @@ Instance Index
    Negative values or values that are too large are wrapped around to the other end of the instance list.
 
 Rotation
-   The :term:`Euler` rotation for every instance.
+   The :term:`Euler` rotation for every instance. This can use the rotation output of nodes like
+   :doc:`Distribute Points on Faces </modeling/geometry_nodes/point/distribute_points_on_faces>` 
+   and :doc:`Curve to Points </modeling/geometry_nodes/curve/curve_to_points>`, however,
+   an Euler rotatation can also be created from a direction vector like the 
+   :doc:`normal </modeling/geometry_nodes/input/normal>` with the
+   :doc:`/modeling/geometry_nodes/utilities/align_euler_to_vector`.
 
 Scale
-   The size of every generated instance.
+   The size of each generated instance.
 
 
 Properties

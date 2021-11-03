@@ -40,5 +40,5 @@ This node has no properties.
 Outputs
 =======
 
-Geometry
+Mesh
    Standard geometry output.

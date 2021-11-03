@@ -44,6 +44,14 @@ Attributes exposed in Blender's interface all have names. However, for convenien
 can be passed around with node sockets in geometry nodes groups. In these cases, an *Attribute Field*
 output is created, which can be used by nodes to find attribute data in an input geometry.
 
+Anonymous attributes are still stored on the geometry like other attributes, and they are even
+automatically interpolated when the geometry changes with other nodes, except for a few cases.
+So generally, if the node link is still accessible, the attribute it references will be too.
+
+However, Anonymous attributes cannot be connected to a separate geometry that wasn't created
+from their source though. To transfer attributes between geometries, the 
+:doc:`/modeling/geometry_nodes/attribute/transfer_attribute` can be used.
+
 
 Attribute Domains
 =================

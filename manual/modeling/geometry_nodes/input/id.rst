@@ -18,7 +18,7 @@ The node to set this data is the :doc:`/modeling/geometry_nodes/geometry/set_id`
 .. note::
 
    Unlike other built-in attributes, the ``id`` attribute does not always exist.
-   In that case, this node will output zero.
+   In that case, this node will output the :doc:`index </modeling/geometry_nodes/input/index>`.
 
 
 Inputs
