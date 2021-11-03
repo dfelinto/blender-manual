@@ -12,7 +12,7 @@ Extrude Curve and Move
 .. reference::
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Curve --> Extrude Curve and Move`
+   :Menu:      :menuselection:`Control Points --> Extrude Curve and Move`
    :Shortcut:  :kbd:`E`
 
 Extrudes points by duplicating the selected points, which then can be moved,
@@ -28,7 +28,7 @@ Make Segment
 .. reference::
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Curve --> Make Segment`
+   :Menu:      :menuselection:`Control Points --> Make Segment`
    :Shortcut:  :kbd:`F`
 
 Connects two disconnected control points.
@@ -97,7 +97,7 @@ Set Handle Type
 .. reference::
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Curve --> Control Points --> Set Handle Type`
+   :Menu:      :menuselection:`Control Points --> Set Handle Type`
    :Shortcut:  :kbd:`V`
 
 Handle types are a property of :ref:`Bézier curves <curve-bezier>` and
@@ -117,7 +117,7 @@ Recalculate Handles
 .. reference::
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Curve --> Control Points --> Recalculate Handles`
+   :Menu:      :menuselection:`Control Points --> Recalculate Handles`
    :Shortcut:  :kbd:`Shift-N`
 
 The *Recalculate Handles* operator rotates the selected control point's handle to be tangential to the curve.
@@ -135,7 +135,7 @@ Smooth
 .. reference::
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Curve --> Control Points --> Smooth`
+   :Menu:      :menuselection:`Control Points --> Smooth`
 
 For Bézier curves, this smoothing operation reduces the distance between
 the selected control point(s) and their neighbors,
@@ -162,7 +162,7 @@ Smooth Curve Tilt
 .. reference::
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Curve --> Control Points --> Smooth Curve Tilt`
+   :Menu:      :menuselection:`Control Points --> Smooth Curve Tilt`
 
 The *Smooth Curve Tilt* operator interpolates the *Tilt* value for the selected control points.
 This will reduce sharp changes in the curve's *Tilt* and give a smooth transition between points.
@@ -176,7 +176,7 @@ Smooth Curve Radius
 .. reference::
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Curve --> Control Points --> Smooth Curve Radius`
+   :Menu:      :menuselection:`Control Points --> Smooth Curve Radius`
 
 The *Smooth Curve Radius* operator interpolates the *Radius* value for the selected control points.
 This will reduce sharp changes in the curve's *Radius* and give a smooth transition between points.
@@ -190,7 +190,7 @@ Smooth Curve Weight
 .. reference::
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Curve --> Control Points --> Smooth Curve Weight`
+   :Menu:      :menuselection:`Control Points --> Smooth Curve Weight`
 
 The *Smooth Curve Weight* operator interpolates the *Weight* value for the selected control points.
 This will reduce sharp changes in the curve's *Weight* and give a smooth transition between points.
@@ -202,7 +202,7 @@ Hooks
 .. reference::
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Curve --> Control Points --> Hooks`
+   :Menu:      :menuselection:`Control Points --> Hooks`
    :Shortcut:  :kbd:`Ctrl-H`
 
 :doc:`Hooks </modeling/modifiers/deform/hooks>` can be added to control one or more points with other objects.
@@ -214,7 +214,7 @@ Make Vertex Parent
 .. reference::
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Curve --> Control Points --> Make Vertex Parent`
+   :Menu:      :menuselection:`Control Points --> Make Vertex Parent`
    :Shortcut:  :kbd:`Ctrl-P`
 
 You can make other selected objects :ref:`children <object-parenting>`
