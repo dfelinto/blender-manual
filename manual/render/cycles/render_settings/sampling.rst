@@ -182,6 +182,33 @@ Pattern
       See `this Pixar paper <https://graphics.pixar.com/library/ProgressiveMultiJitteredSampling/paper.pdf>`__
       for more information.
 
+.. _bpy.types.CyclesRenderSettings.scrambling_distance:
+
+Scrambling Distance
+   Controls the correlation between pixels by limiting the maximum deviation of the sample values between pixels.
+   Lowering the *Scrambling Distance* increases the correlation, which reduces noise, but can cause noticeable
+   visual artifacts unless the *Sample Count* is set relatively high. Lowering *Scrambling Distance* generally leads
+   to better rendering performance when rendering with a GPU.
+   
+   .. note:: *Scrambling Distance* can not be enabled while *Adaptive Sampling* is enabled.
+
+   .. _bpy.types.CyclesRenderSettings.adaptive_scrambling_distance:
+
+   Adaptive Scrambling Distance
+      Automatically picks a *Scrambling Distance* value based on your current *Sample Count* that provides the benefits
+      of *Scrambling Distace* while keeping artifacts at a minimum. 
+      
+      .. note::
+      
+         *Scrambling Distance* can still be adjusted while *Adaptive Scrambling Distance* is enabled. In this situation
+         *Scrambling Distance* behaves like a modifier for the *Adaptive Scrambling Distance* value.
+
+   .. _bpy.types.CyclesRenderSettings.preview_scrambling_distance:
+
+   Viewport Scrambling Distance
+      Allows other `Scrambling Distance` settings to impact viewport rendering.
+
+
 .. _bpy.types.CyclesRenderSettings.min_light_bounces:
 
 Min Light Bounces
