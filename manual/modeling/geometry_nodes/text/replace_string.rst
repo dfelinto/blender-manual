@@ -45,4 +45,4 @@ Examples
 .. figure:: /images/modeling_geometry-nodes_text_replace-string_example.png
    :align: center
 
-   Using the node to add the new-line character to a string.
+   Using the node to add the newline character to a string.

@@ -29,8 +29,8 @@ Selection
    True values mean the value will be changed, false values mean the value will remain the same.
 
 ID
-   The value for each element. By default, this input uses the 
-   :doc:`index </modeling/geometry_nodes/input/index>`, which is useful
+   The value for each element. By default, this input uses
+   the :doc:`index </modeling/geometry_nodes/input/index>`, which is useful
    when stable IDs are desired when deleting a dynamic number of instances.
 
 

@@ -29,20 +29,21 @@ Properties
 ==========
 
 Mode
-   :Evaluated: 
-      Creates points from the curve's evaluated points based on the
-      :doc:`resolution </modeling/geometry_nodes/curve/spline_resolution>`
-      attribute for NURBS and Bézier splines. This mode will generally be the fastest, 
+   :Evaluated:
+      Creates points from the curve's evaluated points based on
+      the :doc:`resolution </modeling/geometry_nodes/curve/spline_resolution>` attribute
+      for NURBS and Bézier splines. This mode will generally be the fastest,
       since the second step of sampling equal lengths is not necessary.
 
-   :Count: 
+   :Count:
       Sample each spline by evenly distributing the specified number of points.
 
-   :Length: 
+   :Length:
       Sample each spline by splitting it into segments with specified length.
-      The length will be rounded down so that a whole number of samples will fit in each input spline.
-      To counteract jumping when the length of the spline changes, the 
-      :doc:`/modeling/geometry_nodes/curve/trim_curve` can be used with a multiple of this length.
+      The length will be rounded down so that a whole number of samples will fit in
+      each input spline. To counteract jumping when the length of the spline changes,
+      the :doc:`/modeling/geometry_nodes/curve/trim_curve` can be used with
+      a multiple of this length.
 
 
 Outputs
@@ -50,3 +51,15 @@ Outputs
 
 Points
    Generated point cloud.
+
+Tangent
+   The normalized :doc:`curve tangent </modeling/geometry_nodes/curve/curve_tangent>` at the sampled
+   position, or the direct evaluated normal in *Evaluated* mode.
+
+Normal
+   The normal value from the evaluated curve at each result point.
+   This is the same value from the :doc:`/modeling/geometry_nodes/input/normal`
+   at those positions.
+
+Rotation
+   The :term:`Euler` rotation build from the *Tangent* and *Normal* outputs, for convenience.

@@ -32,10 +32,11 @@ Index
    Which index to use when retrieving the data from the input field in *Index* mode.
    By default, the :doc:`/modeling/geometry_nodes/input/index` is connected, meaning that
    the data from the source attribute is copied directly to the output. However, a different
-   index can be connected, resulting in a "shuffling" of the values. 
+   index can be connected, resulting in a "shuffling" of the values.
    Indices that are either too large or below 0 are clamped.
 
    .. tip::
+
       To retrieve a single attribute value instead of a field, a single integer input
       or the :doc:`/modeling/geometry_nodes/input/integer` can be connected to this socket.
 
@@ -53,7 +54,7 @@ Mapping
 
    :Index:
       Copy the attribute data from the value at the input index.
-      In thise mode, the target geometry can consist of a mesh, point cloud, or curve. The matching
+      In this mode, the target geometry can consist of a mesh, point cloud, or curve. The matching
       component type from the context will be chosen if possible, otherwise a component will be chosen
       in that order.
 
@@ -61,7 +62,7 @@ Mapping
       Transfer the attribute from the nearest point from anywhere on the surface.
       Non-face attributes are interpolated across the surface (edge attributes are not supported yet).
       Loose points and edges are ignored.
-   
+
    :Nearest:
       Transfer the attribute from the nearest element (with a domain chosen by the *Domain* input).
       No interpolation is done.
@@ -72,6 +73,7 @@ Outputs
 
 Attribute
    The data retrieved from the *Target* geometry, mapped based on the node's settings and inputs.
+
 
 Examples
 ========

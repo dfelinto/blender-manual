@@ -19,7 +19,7 @@ NURBS splines will be transformed into poly splines in order to be trimmed.
 
 .. warning::
 
-   Currently the trim curve node does not support 
+   Currently the trim curve node does not support
    :doc:`cyclic </modeling/geometry_nodes/curve/is_spline_cyclic>` splines.
 
 .. note::

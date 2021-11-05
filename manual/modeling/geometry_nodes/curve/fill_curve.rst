@@ -48,8 +48,8 @@ A single point spline can be used to customize the triangulation of the resultin
 .. figure:: /images/modeling_geometry-nodes_curve_curve-to-points_example_1.png
    :align: center
 
-   Here a curve object with a single spline with a single point at the origin is joined with the
-   star primitive to customize triangulation.
+   Here a curve object with a single spline with a single point at the origin is joined with
+   the star primitive to customize triangulation.
 
 .. figure:: /images/modeling_geometry-nodes_curve_curve-to-points_example_2.png
    :align: center

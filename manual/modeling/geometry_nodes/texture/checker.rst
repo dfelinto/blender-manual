@@ -14,14 +14,14 @@ Checker Texture Node
 .. tip::
 
    Texture nodes can produce details at a higher frequency
-   than geometry can show. This may cause artifacts such 
-   as moire type patterns or a lack of detail due to 
-   insufficient sampling points.   
+   than geometry can show. This may cause artifacts such
+   as Moiré type patterns or a lack of detail due to
+   insufficient sampling points.
 
 .. figure:: /images/render_shader-nodes_textures_checker_node.png
    :align: right
 
-   Checker Texture Node.
+   Checker Texture node.
 
 The *Checker Texture* is used to add a checkerboard texture.
 
@@ -44,7 +44,7 @@ Scale
    Overall texture scale. The scale is a factor of the bounding box of the face divided by the scale.
    For example, a scale of 15 will result in 15 alternate patterns over the overall UV bounding box.
    Different patterns could be achieved using other nodes to give different input patterns to this socket.
-   For example, using the Math Node.
+   For example, using the Math node.
 
 
 Properties

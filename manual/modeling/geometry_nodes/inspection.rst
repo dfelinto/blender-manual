@@ -24,9 +24,13 @@ Socket Inspection
    Socket Inspection.
 
 Socket inspection shows information about the value in a socket during the last evaluation.
-For primitive data types such as integer and float the actual value is shown.
-For geometry sockets only some metadata about the geometry is stored.
-That includes the set of geometry components and the quantity of elements.
+For primitive data types such as integers, vectors, and strings the actual value is shown.
+For geometry sockets only some data about the geometry is stored, including the set of
+data types the geometry contains, and a count of their elements.
+
+Socket values are only logged from when the node tree was executed, so a node must be
+connected to the group output to have a value for inspection. Values are not logged during
+rendering, to improve performance.
 
 
 Attribute Search
@@ -37,15 +41,15 @@ Attribute Search
 
    Attribute Search.
 
-The attribute search is shown when clicking on a string socket.
-It contains a list of all the attributes that are available in
-the geometry inputs of the same node.
+The attribute search is shown when clicking on an attribute input in the modifier.
+It contains a list of all the attributes that were available at that point in
+the modifier or node execution.
 
 
 Viewer Node
 ===========
 
-The Viewer node is used to display intermediate geometry in the spreadsheet.
+The Viewer node is used to display intermediate geometry in the Spreadsheet.
 For more information see :doc:`/modeling/geometry_nodes/output/viewer`.
 
 
@@ -58,4 +62,6 @@ Node Warnings
    Node Warning.
 
 When the inputs to a node are invalid, it displays a warning in the title.
-Hovering over the warning icon shows the error message.
+Hovering over the warning icon shows the error message. These warnings are only
+generated when the node is executed, so a node must be connected to the group output
+to have a warning.

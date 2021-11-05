@@ -18,7 +18,7 @@ Named Attributes
 ================
 
 In the modifier, it is possible to access attributes with names, created and used in other areas
-of Blender like shaders, painting, and UV mapping. The attribute can be chosen with a name, 
+of Blender like shaders, painting, and UV mapping. The attribute can be chosen with a name,
 and the string input allows you to search and choose existing attributes.
 
 .. figure:: /images/modeling_geometry-nodes_attribute-reference_search.png
@@ -37,20 +37,21 @@ Anonymous Attributes
 .. figure:: /images/modeling_geometry-nodes_attribute-reference_attribute-field.png
    :align: center
 
-   The *Normal* and *Rotation* ouputs are examples of attribute fields,
+   The *Normal* and *Rotation* outputs are examples of attribute fields,
    which refer to an attribute stored on a geometry.
 
-Attributes exposed in Blender's interface all have names. However, for convenience, attributes
-can be passed around with node sockets in geometry nodes groups. In these cases, an *Attribute Field*
-output is created, which can be used by nodes to find attribute data in an input geometry.
+Attributes exposed in Blender's interface all have names. However, for convenience,
+attributes can be passed around with node sockets in geometry nodes groups.
+In these cases, an *Attribute Field* output is created, which can be used by
+nodes to find attribute data in an input geometry.
 
 Anonymous attributes are still stored on the geometry like other attributes, and they are even
 automatically interpolated when the geometry changes with other nodes, except for a few cases.
 So generally, if the node link is still accessible, the attribute it references will be too.
 
-However, Anonymous attributes cannot be connected to a separate geometry that wasn't created
-from their source though. To transfer attributes between geometries, the 
-:doc:`/modeling/geometry_nodes/attribute/transfer_attribute` can be used.
+However, Anonymous attributes cannot be connected to a separate geometry
+that was not created from their source though. To transfer attributes between pieces of geometry,
+the :doc:`/modeling/geometry_nodes/attribute/transfer_attribute` can be used.
 
 
 Attribute Domains
@@ -60,19 +61,107 @@ All attributes have an associated domain and type. Knowing the domain of an attr
 because it defines how it may be interpolated and used in nodes and shading.
 You can use the :doc:`Spreadsheet Editor </editors/spreadsheet>` to determine the domains of attributes.
 
-- **Point** domain attributes are associated with single locations in space with a position.
-   * Vertices of a mesh
-   * Points of a point cloud
-   * Curve control points
+- **Point** domain attributes are associated with single locations in space with a position:
+
+   - Vertices of a mesh
+   - Points of a point cloud
+   - Curve control points
 - **Edge** domain attributes are associated with the edges of a mesh.
 - **Face** domain attributes are associated with the faces of a mesh.
 - **Face Corner** domain attributes are associated with the corners of the faces of the mesh.
   An example is a UV map attribute.
-- **Spline** domain attributes are associated with a group of connected curve control points.
+- **Spline** domain attributes are associated with a group of connected
+  curve control points.
 
-.. note::
+Attributes are automatically interpolated to other domains. For example, when the 
+:doc:`/modeling/geometry_nodes/input/position` is connected to the selection input of
+the :doc:`/modeling/geometry_nodes/material/set_material` node, the values are interpolated
+from the *Point* domain to the *Face* domain. Normally, domain conversions use simple averages
+for values, but *Boolean* data type attributes have special rules for interpolation:
 
-   For point cloud objects, every attribute has the *point* domain.
+
+Boolean Domain Interpolation
+----------------------------
+
+.. list-table::
+   :header-rows: 1
+   :widths: 10 10 50
+
+   * - From
+     - To
+     - Conversion
+
+   * - Point
+     - Edge
+     - An edge is selected if both of its vertices were selected.
+
+   * - Point
+     - Face
+     - A face is selected if all of its vertices were selected too.
+
+   * - Point
+     - Corner
+     - Each corner's value is simply a copy of the value at its vertex.
+
+   * - Point
+     - Spline
+     - A spline is selected if all of its control points were selected.
+
+   * - ..
+     - ..
+     - ..
+
+   * - Edge
+     - Point
+     - A vertex is selected if any connected edge was selected.
+
+   * - Edge
+     - Face
+     - A face is selected if all of its edges are selected
+
+   * - Edge
+     - Corner
+     - A corner is selected if its two adjacent edges were selected.
+
+   * - ..
+     - ..
+     - ..
+
+   * - Face
+     - Point
+     - A vertex is selected if any of the connected faces were selected.
+
+   * - Face
+     - Edge
+     - An edge is selected if any connected face was selected.
+
+   * - Face
+     - Edge
+     - Each corner's value is simply a copy of the value at its face.
+
+   * - ..
+     - ..
+     - ..
+
+   * - Corner
+     - Point
+     - A vertex is selected if all connected face corners were selected and it is not a loose vertex.
+
+   * - Corner
+     - Edge
+     - An edge is selected if all corners on adjacent faces were selected.
+
+   * - Corner
+     - Face
+     - A face is selected if all of its corners were selected.
+
+   * - ..
+     - ..
+     - ..
+
+   * - Spline
+     - Point
+     - Each point's value is simply a copy of the corresponding value of the spline.
 
 
 Attribute Data Types
@@ -80,14 +169,14 @@ Attribute Data Types
 
 The type of an attribute is the kind of data stored at each element.
 
-   :Float: Floating-point value
-   :Integer: 32-bit integer
-   :Boolean: True or false value
-   :Vector: 3D vector with floating-point values
-   :Color: RGBA color with floating-point precision
+:Float: Floating-point value
+:Integer: 32-bit integer
+:Boolean: True or false value
+:Vector: 3D vector with floating-point values
+:Color: RGBA color with floating-point precision
+
 
 .. _geometry-nodes_builtin-attributes:
-
 
 Built-In Attributes
 ===================
@@ -106,8 +195,8 @@ Built-in attributes always exist, and cannot be removed. Their data type and dom
    * - ``position``
      - *Vector*
      - *Point*
-     - Built-in attribute describing vertex or point locations, in a geometry's local space.
-       Any node that changes the location of points will adjust this attribute, 
+     - Built-in attribute describing vertex or point locations, in the local space of a geometry.
+       Any node that changes the location of points will adjust this attribute,
        like the :doc:`Transform </modeling/geometry_nodes/geometry/transform>`
        and :doc:`Set Position </modeling/geometry_nodes/geometry/set_position>` nodes.
 
@@ -121,10 +210,11 @@ Built-in attributes always exist, and cannot be removed. Their data type and dom
    * - ``id``
      - *Integer*
      - *Point*
-     - Created by the :doc:`/modeling/geometry_nodes/point/distribute_points_on_faces` to
-       provide stability when the shape of the input mesh changes, and used on instances to create
-       motion blur. The values expected to be large, with no order. The attribute values are used 
-       by nodes that generate randomness, like the :doc:`/modeling/geometry_nodes/utilities/random_value`.
+     - Created by the :doc:`/modeling/geometry_nodes/point/distribute_points_on_faces`
+       to provide stability when the shape of the input mesh changes,
+       and used on instances to create motion blur.
+       The values expected to be large, with no order. The attribute values are used by nodes
+       that generate randomness, like the :doc:`/modeling/geometry_nodes/utilities/random_value`.
        Unlike other built-in attributes, this attribute is not required, and can be removed if necessary.
 
    * - ``material_index``
@@ -170,8 +260,8 @@ Naming Conventions
 ==================
 
 These attributes do not exist by default, but are used implicitly by certain parts of Blender.
-The data type of these attributes can be changed, just like any attribute besides the built-in 
-attributes. However, the attributes might be expected by Blender to have a certain type.
+The data type of these attributes can be changed, just like any attribute besides the built-in attributes.
+However, the attributes might be expected by Blender to have a certain type.
 
 .. list-table::
    :widths: 10 10 50

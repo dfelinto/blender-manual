@@ -27,13 +27,16 @@ Properties
 ==========
 
 Data Type
-   :Float: The output will be a single floating-point value.
-   :Vector: The output will be a vector of three floating-point values.
+   :Float:
+      The output will be a single floating-point value.
+   :Vector: 
+      The output will be a vector of three floating-point values.
+      All calculations are element-wise.
 
 Domain
    :Spline: Data is queried from each spline.
    :Face Corner: Data is queried from each face corner.
-   :Corner: Data is queried from each corner.
+   :Corner: Data is queried from each face corner.
    :Edge: Data is queried from each edge.
    :Point: Data is queried from each point.
 
@@ -60,7 +63,9 @@ Range
    The difference between the max and min value.
 
 Standard Deviation
-   The standard deviation of all data.
+   How much values differ from the mean.
+   A low standard deviation indicates that the values are grouped tightly together at the mean.
+   A high standard deviation indicates that the values are spread out over a large range.
 
 Variance
-   The variance of all data.
+   The variance of all data, defined as the square of the standard deviation

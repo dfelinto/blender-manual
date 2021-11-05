@@ -67,9 +67,6 @@ Examples
 .. figure:: /images/modeling_geometry-nodes_curve_set-handle-positions_example.png
    :align: center
 
-Here, the handles are adjusted to the same position as the control points, but offset down in the
-Z direction slightly. With the :doc:`/modeling/geometry_nodes/curve/set_spline_type`, 
-the curve can be a poly spline in edit mode, to make adjustment simpler for the user of the node group.
-
-
-
+Here, the handles are adjusted to the same position as the control points, but offset down in
+the Z direction slightly. With the :doc:`/modeling/geometry_nodes/curve/set_spline_type`,
+the curve can be a poly spline in Edit Mode, to make adjustment simpler for the user of the node group.

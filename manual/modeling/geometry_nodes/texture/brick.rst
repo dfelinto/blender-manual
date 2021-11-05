@@ -14,8 +14,8 @@ Brick Texture Node
 .. tip::
 
    Texture nodes can produce details at a higher frequency
-   than geometry can show. This may cause artifacts such 
-   as moire type patterns or a lack of detail due to 
+   than geometry can show. This may cause artifacts such
+   as Moiré type patterns or a lack of detail due to
    insufficient sampling points.
 
 .. figure:: /images/render_shader-nodes_textures_brick_node.png
@@ -24,7 +24,8 @@ Brick Texture Node
    Brick Texture node.
 
 The *Brick Texture* is used to add a procedural texture producing bricks.
-  
+
+
 Inputs
 ======
 

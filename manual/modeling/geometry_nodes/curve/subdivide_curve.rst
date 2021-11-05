@@ -13,9 +13,9 @@ Subdivide Curve Node
 The *Subdivide Curve* node adds more control points in between existing control points on the curve input.
 For Bézier and poly splines, the shape of the spline will not be changed at all.
 
-With Bézier curves, this can be used to increase the control on the shape of the curve while still
-having the higher-level provided by Bézier splines, unlike the :doc:`/modeling/geometry_nodes/curve/resample_curve`,
-where they are converted to poly splines.
+With Bézier curves, this can be used to increase the control on the shape of the curve
+while still having the higher-level provided by Bézier splines.
+Unlike the :doc:`/modeling/geometry_nodes/curve/resample_curve`, where they are converted to poly splines.
 
 
 Inputs

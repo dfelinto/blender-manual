@@ -185,28 +185,20 @@ Pattern
 .. _bpy.types.CyclesRenderSettings.scrambling_distance:
 
 Scrambling Distance
-   Controls the correlation between pixels by limiting the maximum deviation of the sample values between pixels.
-   Lowering the *Scrambling Distance* increases the correlation, which reduces noise, but can cause noticeable
-   visual artifacts unless the *Sample Count* is set relatively high. Lowering *Scrambling Distance* generally leads
-   to better rendering performance when rendering with a GPU.
-   
-   .. note:: *Scrambling Distance* can not be enabled while *Adaptive Sampling* is enabled.
+   Lower values give faster rendering with GPU rendering and less noise
+   with all devices at the cost of possible artifacts if set too low.
+   Only works when not using adaptive sampling.
 
    .. _bpy.types.CyclesRenderSettings.adaptive_scrambling_distance:
 
-   Adaptive Scrambling Distance
-      Automatically picks a *Scrambling Distance* value based on your current *Sample Count* that provides the benefits
-      of *Scrambling Distace* while keeping artifacts at a minimum. 
-      
-      .. note::
-      
-         *Scrambling Distance* can still be adjusted while *Adaptive Scrambling Distance* is enabled. In this situation
-         *Scrambling Distance* behaves like a modifier for the *Adaptive Scrambling Distance* value.
+   Adaptive
+      Uses a formula to adapt the scrambling distance strength based on the sample count.
 
    .. _bpy.types.CyclesRenderSettings.preview_scrambling_distance:
 
-   Viewport Scrambling Distance
-      Allows other `Scrambling Distance` settings to impact viewport rendering.
+   Viewport
+      Uses the *Scrambling Distance* value for the viewport rendering.
+      This will make the rendering faster but may cause flickering.
 
 .. _bpy.types.CyclesRenderSettings.min_light_bounces:
 

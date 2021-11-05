@@ -124,6 +124,5 @@ Transferring Objects
    :Shortcut:  :kbd:`Alt-Q`
 
 Adds the object under the mouse to the current mode and removes the :term:`Active` object.
-Use this operator to quickly switch between multiple objects without having to first go to object mode.
-
+Use this operator to quickly switch between multiple objects without having to first go to Object Mode.
 When accessed from a menu, an :ref:`ui-eyedropper` is used to select the object to add to current mode.

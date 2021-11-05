@@ -11,7 +11,7 @@ Is Spline Cyclic Node
    Is Spline Cyclic node.
 
 The *Is Spline Cyclic* controls whether each of the curve splines start and endpoints form a connection.
-The output corresponds to the built-in ``cyclic`` attribute on the curve spline domain.
+Its output corresponds to the built-in ``cyclic`` attribute on the curve spline domain.
 
 The node to set this data is the :doc:`/modeling/geometry_nodes/curve/set_spline_cyclic`.
 

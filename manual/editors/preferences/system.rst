@@ -49,7 +49,7 @@ Make this installation your default Blender.
 
    This panel of options is only available on Microsoft Windows.
 
-Make default
+Make Default
    Make the currently in use Blender installation the default
    for generating thumbnails and the default for opening blend-files.
 

@@ -12,7 +12,7 @@ Fillet Curve Node
 
 The *Fillet Curve* rounds corners on curve control points, similar to the effect of
 the :doc:`Bevel Modifier </modeling/modifiers/generate/bevel>` on a 2D mesh.
-However, a key difference is that the rounded portions created by the Curve Fillet node
+However, a key difference is that the rounded portions created by the Fillet Curve node
 are always portions of a circle.
 
 

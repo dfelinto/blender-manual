@@ -21,7 +21,7 @@ Geometry
    Standard geometry input.
 
 Selection
-   Boolean value used to determine if a given point will be converted to a vertex.
+   Boolean field used to determine if each point will be converted to a vertex.
 
 
 Properties
