@@ -15,6 +15,7 @@
    duplicate.rst
    duplicate_linked.rst
    join.rst
+   asset.rst
    parent.rst
    relations/index.rst
    link_transfer/index.rst

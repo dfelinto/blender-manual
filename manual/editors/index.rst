@@ -66,5 +66,6 @@ See :doc:`User Interface </interface/index>` for documentation on the general in
    outliner/index.rst
    properties_editor.rst
    file_browser.rst
+   asset_browser.rst
    preferences/index.rst
    spreadsheet.rst

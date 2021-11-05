@@ -97,6 +97,12 @@ I18n Branches
    The path to the ``/branches`` directory of your local svn-translation copy, to allow translating from the UI.
 
 
+Asset Libraries
+===============
+
+Todo Asset Browsing.
+
+
 Known Limitations
 =================
 

@@ -22,7 +22,7 @@ Each level can be expanded/collapsed by the small arrow to the left of its heade
 .. _bpy.types.DopeSheet.use_filter_invert:
 .. _bpy.types.DopeSheet.filter_text:
 
-Name Filter
+Name Filter :kbd:`Ctrl-F`
    Only displays channels that match the search text.
    Pressing the invert button displays all channels except the channels that match the search text.
 

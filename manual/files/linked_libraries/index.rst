@@ -10,3 +10,4 @@
    link_append.rst
    library_proxies.rst
    library_overrides.rst
+   assets.rst
