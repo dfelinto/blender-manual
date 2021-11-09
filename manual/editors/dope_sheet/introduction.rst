@@ -105,7 +105,8 @@ Selecting
 Box Selecting
    Click and drag to box select multiple keyframes at once.
    You can hold :kbd:`Shift` to extend or :kbd:`Ctrl` to subtract from the current selection.
-
+Select Lasso
+   See :ref:`tool-select-lasso`.
 Select/Deselect All
    - To select all keys, press :kbd:`A`.
    - To deselect all keys, press :kbd:`Alt-A`.

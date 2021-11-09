@@ -31,6 +31,20 @@ Circle Select
 See :ref:`tool-select-circle`.
 
 
+.. _bpy.ops.clip.select_lasso:
+
+Lasso Select
+============
+
+.. reference::
+
+   :Mode:      All modes
+   :Menu:      :menuselection:`Select --> Lasso Select`
+   :Shortcut:  :kbd:`Ctrl-Alt-LMB`
+
+See :ref:`tool-select-lasso`.
+
+
 .. _bpy.ops.clip.select_all:
 
 (De)select All
@@ -48,8 +62,7 @@ Selects all items.
 Inverse
 =======
 
-.. admonition:: Reference
-   :class: refaabox
+.. reference::
 
    :Mode:      All modes
    :Menu:      :menuselection:`Select --> Inverse`

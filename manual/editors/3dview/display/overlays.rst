@@ -239,6 +239,11 @@ Normals
 Size
    The size to show the selected normals.
 
+   .. _bpy.types.View3DOverlay.use_normals_constant_screen_size:
+
+   Constant Screen Size Normals
+      Keep size of normals constant in relation to the zoom level.
+
 
 Developer
 ---------

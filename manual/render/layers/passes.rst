@@ -53,7 +53,7 @@ Include
       Note, the passes adapt to the :ref:`denoiser <render-cycles-settings-viewport-denoising>`
       selected for rendering.
 
-   .. note:: The Z, Object Index and Material Index passes are not anti-aliased.
+   .. note:: The Z, Object Index, and Material Index passes are not anti-aliased.
 
 Indexes
    Object Index

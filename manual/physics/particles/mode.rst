@@ -72,6 +72,8 @@ or that you do not like the latest changes you have made.
       This will display key points along the particle path.
 
 
+.. _particle-edit-selecting:
+
 Selecting
 =========
 
@@ -79,6 +81,8 @@ Selecting
 - All: :kbd:`A`.
 - Linked: Move the mouse over a keypoint and press :kbd:`L`.
 - Box select: :kbd:`B`.
+- Circle Select :kbd:`C`.
+- Lasso Select :kbd:`Ctrl-Alt-LMB`.
 - Root/Tips: :menuselection:`Select --> Roots / Tips`.
 
 You may also use the *Select* Menu.

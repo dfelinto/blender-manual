@@ -99,6 +99,18 @@ Circle Select
 Interactive :ref:`circle selection <tool-select-circle>`.
 
 
+Lasso Select
+------------
+
+.. reference::
+
+   :Mode:      All modes
+   :Menu:      :menuselection:`Select --> Lasso Select`
+   :Shortcut:  :kbd:`Ctrl-Alt-LMB`
+
+See :ref:`tool-select-lasso`.
+
+
 .. _bpy.ops.object.select_by_type:
 
 Select All by Type

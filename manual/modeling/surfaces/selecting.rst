@@ -35,6 +35,8 @@ Inverse :kbd:`Ctrl-I`
    Interactive box selection.
 :ref:`Circle Select <tool-select-circle>` :kbd:`C`
    Interactive circle selection.
+:ref:`Lasso Select <tool-select-lasso>`
+   Interactive freeform selection.
 
 ------------------------
 

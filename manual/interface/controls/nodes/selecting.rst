@@ -8,7 +8,8 @@ Box Select
    Alternatively, :kbd:`B` starts the bounding box selection process as well.
 Lasso Select
    :kbd:`Ctrl-Alt-LMB` click and drag starts a lasso selection.
-
+Lasso Select
+   See :ref:`tool-select-lasso`.
 Select All :kbd:`A`
    Select all nodes.
 Deselect All :kbd:`Alt-A`

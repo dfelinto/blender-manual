@@ -47,3 +47,9 @@ Pose Mode
 =========
 
 :doc:`Pose Mode </animation/armatures/posing/selecting>`
+
+
+Particle Edit Mode
+==================
+
+:ref:`Particle Edit Mode <particle-edit-selecting>`.

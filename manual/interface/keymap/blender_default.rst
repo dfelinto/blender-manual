@@ -168,17 +168,42 @@ Spacebar Action
 
 Activate Gizmo Event
    The activation event for gizmos that support drag motion.
+   This option is only available when Left click *Select with Mouse Button* is chosen.
 
    :Press:
       Allows immediate activation, preventing click events being passed to the tool.
    :Drag:
       Allows click events to pass through to the tool, adding a small delay.
 
-Select All Toggles
-   Causes selection shortcut :kbd:`A` to deselect all when any selection exists.
+Right Mouse Select Action
+   The default action for the right mouse button.
+   This option is only available when Right click *Select with Mouse Button* is chosen.
+
+   :Select & Tweak: Right mouse always tweaks the selected item.
+   :Selection Tool: Right mouse uses the selection tool.
+
+Tool Keys
+   The method of keys to activate tools such as move, rotate, and scale.
+
+   :Immediate: Activate actions immediately.
+   :Active Tool: Activate the tool for editors that support tools.
 
 Alt Click Tool Prompt
    Tapping :kbd:`Alt` shows a prompt in the Status Bar prompting a second keystroke to activate the tool.
+   Note this option is not available when using :ref:`Emulate 3 Button Mouse <preferences-input-emulate-mouse>`.
+
+Alt Tool Access
+   Hold :kbd:`Alt` to use the :doc:`Active Tool </interface/tool_system>` when the gizmo would normally be required.
+   This option is only available when Left click *Select with Mouse Button* is chosen.
+   Note this option is not available when using :ref:`Emulate 3 Button Mouse <preferences-input-emulate-mouse>`.
+
+Alt Cursor Access
+   Hold :kbd:`Alt-LMB` to place the Cursor (instead of :kbd:`LMB`), allows tools to activate on press instead of drag.
+   This option is only available when Right click *Select with Mouse Button* is chosen.
+   Note this option is not available when using :ref:`Emulate 3 Button Mouse <preferences-input-emulate-mouse>`.
+
+Select All Toggles
+   Causes selection shortcut :kbd:`A` to deselect all when any selection exists.
 
 
 3D Viewport
@@ -224,3 +249,10 @@ Pie Menu on Drag
 
 Extra Shading Pie Menu Items
    Show additional items in the shading menu (:kbd:`Z` key).
+
+
+File Browser
+------------
+
+Open Folders on Single Click
+  Navigate into folders by clicking on them once instead of twice.

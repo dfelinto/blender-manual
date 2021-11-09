@@ -9,6 +9,41 @@ with a few deviations:
 You can only select *whole bones* in *Pose Mode*, not roots/tips...
 
 
+Box Select
+==========
+
+.. reference::
+
+   :Mode:      All Modes
+   :Menu:      :menuselection:`Select --> Box Select`
+   :Shortcut:  :kbd:`B`
+
+Interactive :ref:`box selection <tool-select-box>`.
+
+
+Circle Select
+=============
+
+.. reference::
+
+   :Mode:      All Modes
+   :Menu:      :menuselection:`Select --> Circle Select`
+   :Shortcut:  :kbd:`C`
+
+Interactive :ref:`circle selection <tool-select-circle>`.
+
+
+Lasso Select
+============
+
+.. reference::
+
+   :Mode:      All modes
+   :Menu:      :menuselection:`Select --> Lasso Select`
+   :Shortcut:  :kbd:`Ctrl-Alt-LMB`
+
+See :ref:`tool-select-lasso`.
+
 .. _bpy.ops.pose.select_mirror:
 
 Select Mirror

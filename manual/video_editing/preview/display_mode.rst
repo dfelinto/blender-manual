@@ -1,9 +1,11 @@
+.. _bpy.types.SpaceSequenceEditor.display_mode:
 
 ************
 Display Mode
 ************
 
-There are different display modes available, each having a specific purpose.
+The display mode affects how the image of the current frame is represented in the preview region.
+There are several modes available, each having a specific purpose.
 
 
 Image Preview

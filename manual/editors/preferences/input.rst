@@ -25,6 +25,8 @@ Default to Advanced Numeric Input
 Mouse
 =====
 
+.. _preferences-input-emulate-mouse:
+
 Emulate 3 Button Mouse
    Blender can be configured to work with pointing devices which do not have an :kbd:`MMB`.
    The functionality of the three mouse buttons by holding :kbd:`Alt-LMB`.
