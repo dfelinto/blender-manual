@@ -18,15 +18,15 @@ Inputs
 ======
 
 Vertices
-   Number of points on the circle at the top and bottom.
+   Number of vertices on the circle at the top and bottom.
    No geometry is generated if the number is below three.
 
 Side Segments
-   Number of segments along the sides of the cone.
+   Number of edges running vertically along the side of the cone.
    No geometry is generated if the number is below one.
 
 Fill Segments
-   Number of concentric segments of the circular areas at the top and bottom.
+   Number of concentric rings used to fill the round faces at the top and bottom.
    No geometry is generated if the number is below one.
 
 Radius

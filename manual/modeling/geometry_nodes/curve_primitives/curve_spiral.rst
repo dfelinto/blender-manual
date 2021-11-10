@@ -19,7 +19,7 @@ Inputs
 ======
 
 Resolution
-   Number of edges for each full rotation.
+   Number of points in one rotation of the spiral.
 
 Rotations
    Number of times the spiral makes a full rotation.

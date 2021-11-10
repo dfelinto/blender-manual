@@ -28,7 +28,7 @@ Direction
    This is only available in the *Direction* mode.
 
 Length
-   Length of the poly spline.
+   Length of the line.
    This is only available in the *Direction* mode.
 
 
