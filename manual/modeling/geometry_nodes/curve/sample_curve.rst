@@ -40,7 +40,7 @@ Properties
 
 Mode
    How to find endpoint positions for the trimmed spline.
-   The option acts the same as it does in the :doc:`/modeling/geometry_nodes/curve/curve_tilt`.
+   The option acts the same as it does in the :doc:`/modeling/geometry_nodes/curve/trim_curve`.
 
    :Factor:
       Find the endpoint positions using a factor of each spline's length.

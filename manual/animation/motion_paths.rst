@@ -103,6 +103,8 @@ Cache/Bone Cache From, To
 Calculate
    If no paths have been calculated, Calculate Paths will create a new motion path in cache based on
    the options specified in the pop-up menu or the :ref:`bpy.ops.screen.redo_last` panel.
+   Note, if the current context is an Armature calculating the objects motion paths, and not the bones,
+   this operator will calculate the motion paths for all the bones within the armature as well.
 
    Start, End
       These are the start/end frames of the range in which motion paths are shown.
@@ -123,11 +125,16 @@ Update Paths
    In the case a path has already been calculated, this operator will update the path shape to the current animation.
    To change the frame range of the calculated path, you need to delete the path and calculate it again.
 
-.. _bpy.ops.pose.paths_clear:
-.. _bpy.ops.object.paths_clear:
+   .. _bpy.ops.pose.paths_clear:
+   .. _bpy.ops.object.paths_clear:
 
-Clear Paths ``X``
-   Clears paths on all objects/bones or just the selected ones when holding :kbd:`Shift`.
+   Clear Paths ``X``
+      Clears paths on all objects/bones or just the selected ones when holding :kbd:`Shift`.
+
+.. _bpy.ops.object.paths_update_visible:
+
+Update All Paths
+   Recalculates the motion paths for all visible objects and poses
 
 
 Display

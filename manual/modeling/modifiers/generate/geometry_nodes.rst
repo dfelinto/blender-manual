@@ -11,7 +11,7 @@ The *Geometry Nodes* modifier creates a modifier with a node group which defines
 
    A new Geometry Nodes modifier with a new node group.
 
-This modifier is supported by mesh, curve, and volume objects.
+This modifier is supported by mesh, curve, text, and volume objects.
 
 
 Options

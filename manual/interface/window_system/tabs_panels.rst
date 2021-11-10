@@ -93,3 +93,30 @@ The zoom factor of a whole region with panels can be changed by
 :kbd:`Ctrl-MMB` clicking and moving the mouse anywhere within that region
 or use the :kbd:`NumpadPlus` and :kbd:`NumpadMinus` to zoom in and out the contents.
 Pressing :kbd:`Home` (Show All) will reset the zooming at the screen/panel focused by the mouse pointer.
+
+
+.. _bpy.ops.script.execute_preset:
+.. _ui-presets:
+
+Presets
+-------
+
+.. figure:: /images/interface_controls_templates_list-presets_preset.png
+   :align: right
+
+   Example Presets menu.
+
+.. Share between properties. i.e. different nodes color presets.
+
+Selector
+   A list of available presets. A selection will override the included properties.
+Add ``+``
+   New presets can be added based on currently applied set of properties, which will be saved for later reuse.
+   A pop-up opens where you can set a name, after which you can select it from the list and
+   in some cases additional settings.
+Remove ``-``
+   Deletes the selected preset.
+Specials
+   Optional :ref:`Specials <ui-specials-menu>` menu with tools to operate on list entries.
+
+.. saving preset: data-system?
