@@ -21,7 +21,7 @@ and select either *CUDA* or *OptiX*. Next, you must configure each scene to use 
 Supported Hardware
 ==================
 
-Blender supports different technologies to render on the GPU depending on the particular GPU manufacture.
+Blender supports different technologies to render on the GPU depending on the particular GPU manufacturer.
 
 
 Nvidia
@@ -95,7 +95,7 @@ This is can be enabled with :ref:`Distributed Memory Across Devices <prefs-syste
 
 
 What renders faster?
-----------------------------------------------------------
+--------------------
 
 This varies depending on the hardware used. Different technologies also have different compute times
 depending on the scene tested. For the most up to date information on the performance of different devices,

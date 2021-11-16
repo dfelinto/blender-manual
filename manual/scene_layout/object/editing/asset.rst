@@ -5,7 +5,7 @@ Asset
 
 Todo Asset Browser.
 
-Mark As Asset
+Mark as Asset
 =============
 
 See :ref:`bpy.ops.asset.mark`.

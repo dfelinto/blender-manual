@@ -1,4 +1,3 @@
-
 .. _bpy.types.SequencerPreviewOverlay:
 
 ********
@@ -6,7 +5,8 @@ Overlays
 ********
 
 Overlays are information that is displayed on top of the preview region.
-There is a switch to turn off/on all overlays for the preview region.
+There is a toggle to show or hide all overlays for the preview region.
+
 
 .. rubric:: Preview Overlays
 
@@ -28,4 +28,3 @@ Metadata
 
 Annotations
    Displays :doc:`Annotations </interface/annotate_tool>` in the preview region.
-

@@ -14,6 +14,7 @@ or why it is not working.
    Generally, the inspection tools display data from the last time the node tree has been evaluated.
    If it has not been evaluated, no information is available.
 
+.. _socket-inspection:
 
 Socket Inspection
 =================

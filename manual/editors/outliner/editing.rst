@@ -159,7 +159,7 @@ Select Linked
    Selects the linked data, see :ref:`bpy.ops.object.select_linked` for more information.
 
 
-Mark As Asset
+Mark as Asset
 -------------
 
 See :ref:`bpy.ops.asset.mark`.

@@ -189,7 +189,7 @@ Tool Keys
    :Active Tool: Activate the tool for editors that support tools.
 
 Alt Click Tool Prompt
-   Tapping :kbd:`Alt` shows a prompt in the Status Bar prompting a second keystroke to activate the tool.
+   Tapping :kbd:`Alt` shows a prompt in the status bar prompting a second keystroke to activate the tool.
    Note this option is not available when using :ref:`Emulate 3 Button Mouse <preferences-input-emulate-mouse>`.
 
 Alt Tool Access
@@ -198,8 +198,8 @@ Alt Tool Access
    Note this option is not available when using :ref:`Emulate 3 Button Mouse <preferences-input-emulate-mouse>`.
 
 Alt Cursor Access
-   Hold :kbd:`Alt-LMB` to place the Cursor (instead of :kbd:`LMB`), allows tools to activate on press instead of drag.
-   This option is only available when Right click *Select with Mouse Button* is chosen.
+   Hold :kbd:`Alt-LMB` to place the Cursor (instead of :kbd:`LMB`), allows tools to activate on press
+   instead of drag. This option is only available when Right click *Select with Mouse Button* is chosen.
    Note this option is not available when using :ref:`Emulate 3 Button Mouse <preferences-input-emulate-mouse>`.
 
 Select All Toggles
@@ -255,4 +255,4 @@ File Browser
 ------------
 
 Open Folders on Single Click
-  Navigate into folders by clicking on them once instead of twice.
+   Navigate into folders by clicking on them once instead of twice.

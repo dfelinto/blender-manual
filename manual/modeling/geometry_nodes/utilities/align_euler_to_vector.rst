@@ -10,7 +10,7 @@ Align Euler to Vector Node
 
    The Align Euler to Vector node.
 
-The *Align Euler to Vector* node rotates an euler rotation into the given direction.
+The *Align Euler to Vector* node rotates an Euler rotation into the given direction.
 
 
 Inputs
@@ -19,8 +19,9 @@ Inputs
 Rotation
    The :term:`Euler` rotation to align.
 
-   .. warning::
-      This input expects a rotation input. Be careful not to connect a direction vector
+   .. important::
+
+      This input has to be a rotation input. Be careful not to connect a direction vector
       like the :doc:`normal </modeling/geometry_nodes/input/normal>`.
 
 Factor
@@ -53,4 +54,4 @@ Outputs
 =======
 
 Rotation
-   The rotated euler rotation.
+   The rotated Euler rotation.

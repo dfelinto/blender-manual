@@ -29,9 +29,9 @@ Properties
 Data Type
    :Float:
       The output will be a single floating-point value.
-   :Vector: 
+   :Vector:
       The output will be a vector of three floating-point values.
-      All calculations are element-wise.
+      All calculations are elementwise.
 
 Domain
    :Spline: Data is queried from each spline.
@@ -68,4 +68,4 @@ Standard Deviation
    A high standard deviation indicates that the values are spread out over a large range.
 
 Variance
-   The variance of all data, defined as the square of the standard deviation
+   The variance of all data, defined as the square of the standard deviation.

@@ -17,8 +17,8 @@ with a *Point* domain, including meshes, point clouds, and curve control points.
 
 .. tip::
 
-   The :ref:`bpy.ops.object.duplicates_make_real` tool can be used to create objects from instances
-   generated with this node.
+   The :ref:`bpy.ops.object.duplicates_make_real` operator can be used to create objects
+   from instances generated with this node.
 
 
 Inputs
@@ -31,9 +31,9 @@ Geometry
    .. note::
 
       If the input geometry contains instances, the node will create more instances on
-      the points inside the instances, creating nested instancing. When this happens,
-      each new instance will have the transform created by the node from the *Rotation* and *Scale* inputs,
-      but it will *also* be transformed based on the parent instances.
+      the points inside the instances, creating :ref:`nested instancing <geometry-nodes_nested-instancing>`.
+      When this happens, each new instance will have the transform created by the node from the *Rotation*
+      and *Scale* inputs, but it will *also* be transformed based on the parent instances.
 
 Selection
    Whether to instance on each point. True values mean the an instance will be generated on the point,

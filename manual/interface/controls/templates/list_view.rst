@@ -1,8 +1,8 @@
 .. _ui-list-view:
 
-**********
-List Views
-**********
+*********
+List View
+*********
 
 .. figure:: /images/interface_controls_templates_list-presets_view-filter.png
    :align: right
@@ -29,7 +29,7 @@ Filter
    Search :kbd:`Ctrl-F`
       Type part of a list item's name in the filter text field to filter items by part of their name.
    Invert ``<->``
-      Toggle between including items that match the search string and those that do not contain the search string.
+      Toggle between including items that match the search term and those that do not contain the search term.
 
    Sort by Name
       This button switches between alphabetical and non-alphabetical ordering.

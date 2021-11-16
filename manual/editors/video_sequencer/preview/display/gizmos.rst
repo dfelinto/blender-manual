@@ -4,8 +4,8 @@
 Gizmos
 ******
 
-Which gizmos that are displayed in the preview region can be changed via the Gizmos pop-over.
-There is a switch to turn off all gizmos by clicking the icon next to the pop-over.
+Which gizmos that are displayed in the preview region can be changed via the Gizmos popover.
+There is a toggle to hide all gizmos by clicking the toggle next to the popover.
 
 
 Viewport Gizmos

@@ -1,16 +1,16 @@
 .. index:: Geometry Nodes; Ico Sphere
 .. _bpy.types.GeometryNodeMeshIcoSphere:
 
-***************
-Ico Sphere Node
-***************
+**************
+Icosphere Node
+**************
 
 .. figure:: /images/modeling_geometry-nodes_mesh-primitives_icosphere_node.png
    :align: right
 
-   Ico Sphere Node.
+   Icosphere Node.
 
-The *Ico Sphere* node generates a spherical mesh that consists of equally sized triangles.
+The *Icosphere* node generates a spherical mesh that consists of equally sized triangles.
 
 
 Inputs

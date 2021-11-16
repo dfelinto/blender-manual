@@ -22,6 +22,12 @@ This node is essential because field input nodes like the :doc:`/modeling/geomet
 work in the context of the node they are connected to. Meaning that in order to pass data like ``radius``
 to a geometry that doesn't have radius, an explicit node link with the output of this node must be used.
 
+.. note::
+
+   Because this node stores an :ref:`anonymous attribute <anonymous-attributes>` in the geometry,
+   it's essential use the geometry output for further operations in the node tree. The anonymous
+   attribute will not exist for any other geometry besides the output.
+
 
 Inputs
 ======
@@ -57,8 +63,8 @@ Examples
 Here, a noise texture is evaluated in along the path of the curve in 1 dimension
 and rendered with a shader. The capture node is essential because the output of
 the :doc:`/modeling/geometry_nodes/curve/curve_to_mesh` does not have "Curve Parameter",
-so the :doc:`/modeling/geometry_nodes/curve/curve_parameter` must be evaluated
-while the geometry is still a curve.
+since it is a mesh and not a curve. So the :doc:`/modeling/geometry_nodes/curve/curve_parameter`
+must be evaluated while the geometry is still a curve.
 
 Internally, after the noise texture is evaluated on the curve,
 it is automatically copied to the mesh result of the curve to mesh node.

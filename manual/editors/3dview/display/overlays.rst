@@ -5,7 +5,7 @@ Viewport Overlays
 *****************
 
 Using the Viewport Overlays pop-over settings for the overlays can be configured.
-There is a switch to turn off all overlays for the 3D Viewport.
+There is a toggle to hide all overlays for the 3D Viewport.
 
 The options that are visible in the pop-over depend on the mode that the 3D Viewport is in.
 
@@ -242,7 +242,7 @@ Size
    .. _bpy.types.View3DOverlay.use_normals_constant_screen_size:
 
    Constant Screen Size Normals
-      Keep size of normals constant in relation to the zoom level.
+      Keep the size of normals constant in relation to the zoom level.
 
 
 Developer

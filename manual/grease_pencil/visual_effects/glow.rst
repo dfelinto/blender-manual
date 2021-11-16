@@ -19,17 +19,16 @@ Options
 Mode
    Determines the mode for the glow effect.
 
-   Luminance
+   :Luminance:
       The glow light illuminates the entire object.
-
-      Threshold
-         Limits the colors affected by the glow light. (A value of 1 means no colors affected.)
-
-   Color
+   :Color:
       The glow light only affect a single color.
 
       Select Color
          Allows to select a single color to apply the glow light.
+
+Threshold
+   Limits the colors affected by the glow light. (A value of 1 means no colors affected.)
 
 Glow Color
    Defines the glow color.

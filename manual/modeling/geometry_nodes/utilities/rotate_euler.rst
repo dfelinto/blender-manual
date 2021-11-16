@@ -47,4 +47,4 @@ Outputs
 =======
 
 Rotation
-   The rotated euler rotation.
+   The rotated Euler rotation.

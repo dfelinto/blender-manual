@@ -52,4 +52,4 @@ Pose Mode
 Particle Edit Mode
 ==================
 
-:ref:`Particle Edit Mode <particle-edit-selecting>`.
+:ref:`Particle Edit Mode <particle-edit-selecting>`

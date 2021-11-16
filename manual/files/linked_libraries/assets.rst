@@ -25,7 +25,7 @@ Editing
 
 .. _bpy.ops.asset.mark:
 
-Mark As Asset
+Mark as Asset
 -------------
 
 Todo.

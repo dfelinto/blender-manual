@@ -30,6 +30,7 @@ The attribute search gives a bit of context about each attribute.
 To the left of the menu, the attribute domain is shown followed by the attribute name.
 To the right of the menu, the attribute data type is shown.
 
+.. _anonymous-attributes:
 
 Anonymous Attributes
 ====================
@@ -40,26 +41,41 @@ Anonymous Attributes
    The *Normal* and *Rotation* outputs are examples of attribute fields,
    which refer to an attribute stored on a geometry.
 
-Attributes exposed in Blender's interface all have names. However, for convenience,
-attributes can be passed around with node sockets in geometry nodes groups.
-In these cases, an *Attribute Field* output is created, which can be used by
+An anonymous attribute is a set of generic data stored on a geometry that doesn't have a name.
+
+Usually, attributes exposed in Blender's interface all have names. However,
+in geometry nodes, attributes can be passed around with node sockets.
+In these cases, an *Attribute Field* output is created, which is used by
 nodes to find attribute data in an input geometry.
 
 Anonymous attributes are still stored on the geometry like other attributes, and they are even
 automatically interpolated when the geometry changes with other nodes, except for a few cases.
 So generally, if the node link is still accessible, the attribute it references will be too.
 
-However, Anonymous attributes cannot be connected to a separate geometry
-that was not created from their source though. To transfer attributes between pieces of geometry,
+However, anonymous attributes cannot be connected to a completely separate geometry
+that was not created from their source. To transfer attributes between separate geometries,
 the :doc:`/modeling/geometry_nodes/attribute/transfer_attribute` can be used.
+
+
+Attribute Data Types
+====================
+
+The type of an attribute is the kind of data stored at each element.
+
+:Float: Floating-point value
+:Integer: 32-bit integer
+:Boolean: True or false value
+:Vector: 3D vector with floating-point values
+:Color: RGBA color with floating-point precision
 
 
 Attribute Domains
 =================
 
-All attributes have an associated domain and type. Knowing the domain of an attribute is important
-because it defines how it may be interpolated and used in nodes and shading.
-You can use the :doc:`Spreadsheet Editor </editors/spreadsheet>` to determine the domains of attributes.
+The domain of an attribute refers to what type of geometry element the attribute corresponds to.
+Knowing the domain of an attribute is important because it defines how it may be interpolated and
+used in nodes and shading. You can use the :doc:`Spreadsheet Editor </editors/spreadsheet>`
+to determine the domains of attributes.
 
 - **Point** domain attributes are associated with single locations in space with a position:
 
@@ -164,18 +180,6 @@ Boolean Domain Interpolation
      - Each point's value is simply a copy of the corresponding value of the spline.
 
 
-Attribute Data Types
-====================
-
-The type of an attribute is the kind of data stored at each element.
-
-:Float: Floating-point value
-:Integer: 32-bit integer
-:Boolean: True or false value
-:Vector: 3D vector with floating-point values
-:Color: RGBA color with floating-point precision
-
-
 .. _geometry-nodes_builtin-attributes:
 
 Built-In Attributes
@@ -213,9 +217,9 @@ Built-in attributes always exist, and cannot be removed. Their data type and dom
      - Created by the :doc:`/modeling/geometry_nodes/point/distribute_points_on_faces`
        to provide stability when the shape of the input mesh changes,
        and used on instances to create motion blur.
-       The values expected to be large, with no order. The attribute values are used by nodes
+       Values are expected to be large, with no order. This attribute is used by nodes
        that generate randomness, like the :doc:`/modeling/geometry_nodes/utilities/random_value`.
-       Unlike other built-in attributes, this attribute is not required, and can be removed if necessary.
+       Unlike other built-in attributes, this attribute is not required, and can be removed.
 
    * - ``material_index``
      - *Integer*
@@ -225,23 +229,24 @@ Built-in attributes always exist, and cannot be removed. Their data type and dom
    * - ``crease``
      - *Float*
      - *Edge*
-     - Edge attribute used by the Subdivision Surface node and modifier.
+     - Edge attribute used by the Subdivision Surface modifier.
        The values are limited to a range of 0 and 1.
 
    * - ``shade_smooth``
      - *Boolean*
      - *Face*
-     - Attribute determining if a face should have smooth shading enabled.
+     - Attribute determining if a face should have smooth shading enabled in the viewport or a render.
 
    * - ``resolution``
      - *Integer*
      - *Spline*
      - Determines the number of evaluated points between two control points of a spline.
+       Only NURBS and Bézier splines have this attribute, for poly splines, the value is always one.
 
    * - ``cyclic``
      - *Boolean*
      - *Spline*
-     - Determines whether the spline is cyclic or not.
+     - Determines whether the spline has a segment that connects its first and last control points.
 
    * - ``handle_left``
      - *Vector*

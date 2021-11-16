@@ -74,15 +74,15 @@ Paths Type
 .. _bpy.types.AnimVizMotionPaths.frame_end:
 
 Frame Range Start, End
-      Starting and Ending frame of range of paths to display/calculate
-      (not for *Around Current Frame* Onion-skinning method).
+   Starting and Ending frame of range of paths to display/calculate
+   (not for *Around Current Frame* onion skinning method).
 
 .. _bpy.types.AnimVizMotionPaths.frame_before:
 .. _bpy.types.AnimVizMotionPaths.frame_after:
 
 Frame Range Before, After
-      Number of frames to show before and after the current frame
-      (only for *Around Current Frame* Onion-skinning method).
+   Number of frames to show before and after the current frame
+   (only for *Around Current Frame* onion skinning method).
 
 .. _bpy.types.AnimVizMotionPaths.frame_step:
 
@@ -110,10 +110,10 @@ Calculate
       These are the start/end frames of the range in which motion paths are shown.
       The start frame is *inclusive*, so if you set *Start* to 1,
       you will really see the frame 1 as starting point of the paths...
-   
+
    Bake Location
       Which point on the bones is used when calculating paths.
-      Only available for bones while in Pose mode.
+      Only available for bones while in Pose Mode.
 
       :Heads: Calculates the path position of the bone's heads.
       :Tails: Calculates the path position of the bone's heads.
@@ -134,7 +134,7 @@ Update Paths
 .. _bpy.ops.object.paths_update_visible:
 
 Update All Paths
-   Recalculates the motion paths for all visible objects and poses
+   Recalculates the motion paths for all visible objects and poses.
 
 
 Display

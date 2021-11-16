@@ -11,7 +11,7 @@ Viewport Gizmos
    :Header:    |gizmo-icon| :menuselection:`Viewport Gizmos --> Object Gizmos`
 
 The way how gizmos are displayed in the 3D Viewport can be changed in the Viewport Gizmos pop-over.
-There is a switch to turn off all gizmos for the 3D Viewport.
+There is a toggle to hide all gizmos for the 3D Viewport.
 
 
 Viewport Gizmos
