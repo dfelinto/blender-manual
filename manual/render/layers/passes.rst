@@ -136,8 +136,8 @@ Other
    Shadow Catcher
       Extra indirect light information collected by objects with
       the :ref:`Shadow Catcher <render-cycles-object-settings-visibility>` option enabled.
-      This pass is multiplied with existing footage in compositing to add
-      the indirect lighting information to the footage.
+      Multiply this pass with existing footage using the :doc:`/compositing/types/color/mix` in the
+      :doc:`Compositor </editors/compositor>` to add the indirect lighting information to the footage.
 
 .. note::
 
