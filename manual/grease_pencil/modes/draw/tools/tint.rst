@@ -12,6 +12,17 @@ Tint Tool
 The Tint tool allows you to paint onto strokes point mixing the material base color with a selected vertex color.
 
 
+Brush Settings
+==============
+
+Mode
+   Defines how vertex color affect to the strokes.
+
+   :Stroke and Fill: Vertex Color affects both the Stroke and Fill materials.
+   :Stroke: Vertex Color affects the Stroke material only.
+   :Fill: Vertex Color affects the Fill material only.
+
+
 Usage
 =====
 

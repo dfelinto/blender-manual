@@ -13,6 +13,15 @@ Type
 
 Name
    You can name or rename your strips here.
+
+   .. _bpy.ops.sequencer.strip_color_tag_set:
+
+   Color Tag
+      Besides the set of :ref:`Default Strip Colors <sequencer-strip-colors>`
+      strips can also be given an alternative predefined color.
+      This can be useful to help organize your sequence by for example,
+      giving a special color to all graphic overlays and a different color for footage.
+
 Mute
    If checked the strip will not produce any output.
 

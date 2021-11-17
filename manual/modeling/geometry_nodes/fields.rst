@@ -10,45 +10,43 @@ Fields
    A field input to a node.
 
 
-
 What Are Fields?
 ================
 
-Fundamentally, a field is a function: aset of instructions that can transform an arbitrary number
+Fundamentally, a field is a function: a set of instructions that can transform an arbitrary number
 of inputs into a single output. A field's result can then be calculated many times with different
 input data. They are used all over geometry nodes to allow calculations that have different results
 for every element (mesh vertices, faces, etc.).
 
-For example, in the screenshot above, the field connected to the "Set Position" node
+For example, in the figure above, the field connected to the "Set Position" node
 depends on two inputs, :doc:`position </modeling/geometry_nodes/input/position>` and 
 :doc:`index </modeling/geometry_nodes/input/index>`, and transforms them into
 into a vector using a single instruction.
 
 
-Node Socket Types
-=================
+Field Visualization
+===================
 
 Socket shapes are used to convey which sockets are fields and which regular data.
-There are three possible socket shapes, each conveying the socket's "field status".
+There are three possible socket shapes, each conveying the socket's "field status":
 
-Socket Shapes
-   :Circle:
-      The socket requires a single real value, it cannot accept a field input.
-      For output sockets, this means the node always outputs a single value.
-   :Diamond:
-      The socket can accept a field input, or it outputs a field. A constant single
-      value can be connected to these sockets, but then the output will often not
-      vary per element.
-   :Diamond with Dot:
-      The socket can be a field, but it is currently a single value. This is helpful
-      because it allows tracking where single values are calculated, instead of a field
-      with many different results. It also means that :ref:`socket-inspection` will show
-      the value instead of field input names.
+:Circle:
+   The socket requires a single real value, it cannot accept a field input.
+   For output sockets, this means the node always outputs a single value.
+:Diamond:
+   The socket can accept a field input, or it outputs a field. A constant single
+   value can be connected to these sockets, but then the output will often not
+   vary per element.
+:Diamond with Dot:
+   The socket can be a field, but it is currently a single value. This is helpful
+   because it allows tracking where single values are calculated, instead of a field
+   with many different results. It also means that :ref:`socket-inspection` will show
+   the value instead of field input names.
 
 .. figure:: /images/modeling_geometry-nodes_fields_constant.png
    :align: center
 
-   The socket shape is a diamon with a dot, meaning the field has the same value
+   The socket shape is a diamond with a dot, meaning the field has the same value
    for every element. Every point will be moved up by 5m.
 
 .. figure:: /images/modeling_geometry-nodes_fields_varying.png
@@ -57,7 +55,6 @@ Socket Shapes
    The socket shape is a diamond and the field input now has a varying input. In other words, 
    the value can be different for every element. In this case, the position will be doubled,
    since the offset for every point is the point's position.
-
 
 .. tip::
 
@@ -68,6 +65,12 @@ Socket Shapes
    to retrieve a single value from a field evaluated on a geometry.
 
 
+When a connection is made between two node sockets that support
+fields the node connection will be drawn as a dashed line.
+If you make the mistake of connecting a non field socket to a field socket,
+the connection will be drawn as a solid red line indicating that there is an error in the connection.
+
+
 Node Types
 ==========
 
@@ -76,19 +79,21 @@ geometries, and field nodes that operate on data per-element. Field nodes can be
 bring geometry data into the node tree, or function nodes that operate on that data.
 
 Data Flow Nodes
-~~~~~~~~~~~~~~~
+---------------
 
 Nodes with a geometry input and a geometry output will almost always be data flow nodes, meaning
 they actually change geometry data that will be outputed from the geometry nodes modifier.
 
 Function Nodes
-~~~~~~~~~~~~~~
+--------------
+
 Nodes with diamond socket inputs and outputs are field nodes, and resemble the instructions
 that will be evaluated by data flow nodes. Examples of function nodes are the math nodes
 and also more complex nodes like the :doc:`/modeling/geometry_nodes/geometry/geometry_proximity`.
 
 Input Nodes
-~~~~~~~~~~~~
+-----------
+
 Input nodes provide data to the field evaluation process. By themselves, they mean nothing; they
 must be evaluated within the context of a data flow node (geometry) to actually output a value.
 Examples of input nodes are the built-in attribute input nodes like 

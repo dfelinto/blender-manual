@@ -22,9 +22,9 @@ You can also configure the brush main settings exposed on the Tool Settings for 
 Direction :kbd:`Ctrl`
    The portion of area to fill.
 
-   Normal
+   :Normal:
       Fills the area inside the shape under the cursor.
-   Inverted
+   :Inverted:
       Fills the area outside the shape under the cursor.
 
 .. _bpy.types.BrushGpencilSettings.fill_factor:
@@ -32,6 +32,8 @@ Direction :kbd:`Ctrl`
 Precision
    Multiplier for fill boundary accuracy.
    Higher values are more accurate but slower.
+
+.. _bpy.types.BrushGpencilSettings.dilate:
 
 Dilate
    Size in pixel to expand the fill area.
@@ -69,12 +71,16 @@ Layers
    :All Above: Calculates boundaries based on all layers above the active layer.
    :All Below: Calculates boundaries based on all layers below the active layer.
 
+.. _bpy.types.BrushGpencilSettings.extend_stroke_factor:
+
 Stroke Extension
    Extends the actual stroke to close gaps in the fill area.
    The extended strokes are temporarily and will be not be rendered.
    The value control the extension length to use. Zero value means disabled.
 
-   Show Extend Lines (grid icon)
+   .. _bpy.types.BrushGpencilSettings.show_fill_extend:
+
+   Show Extend Lines (eye icon)
       Toggle show extended lines helper.
 
 .. _bpy.types.BrushGpencilSettings.fill_leak:
@@ -95,6 +101,8 @@ Ignore Transparent
    When enabled, strokes with transparency does not take into account on fill boundary calculations.
 
    The value slider controls the threshold to consider a material transparent.
+
+.. _bpy.types.BrushGpencilSettings.use_fill_limit:
 
 Limit to Viewport
    When enabled, fill only visible areas in the viewport.

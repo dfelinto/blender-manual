@@ -88,4 +88,4 @@ Gizmos
 
 You can use gizmos to pan and zoom image in the Sequencer preview region.
 
-See :ref:`/editors/video_sequencer/preview/display/gizmos` to manage the visibility of gizmos.
+See :doc:`/editors/video_sequencer/preview/display/gizmos` to manage the visibility of gizmos.

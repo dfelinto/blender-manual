@@ -67,6 +67,8 @@ If you picked the wrong effect from the menu,
 you can always exchange it using :ref:`sequencer-edit-change`.
 
 
+.. _sequencer-strip-colors:
+
 Visualization
 =============
 
@@ -80,3 +82,11 @@ They all become a color-coded strip in the Video Sequencer:
 - Sound strip: Turquoise.
 
 Each of the effect strips has its own color.
+
+Besides each of these default colors you can also assign individual strips an
+alternative color in the :ref:`Strip Properties <bpy.ops.sequencer.strip_color_tag_set>`.
+
+.. note::
+
+   These colors are dependent on the user interface :doc:`Theme </editors/preferences/themes>`.
+   The colors described above are in reference to Blender's default theme.

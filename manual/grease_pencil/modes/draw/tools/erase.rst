@@ -31,32 +31,43 @@ Radius
    Default Eraser
       Use this brush when enabling the eraser tool with fast switch key (:kbd:`Ctrl`).
 
+
+.. _bpy.types.BrushGpencilSettings.eraser_mode:
+
 Mode
    Determines how the erase tool behaves.
 
-   Dissolve
+   :Dissolve:
       To simulate a raster type eraser, this eraser type
       affects the strength and thickness of the strokes before actually delete a point.
-
-      Strength
-         Control how much will affect the eraser has on the stroke transparency (alpha).
-
-         You can change the brush strength interactively by pressing :kbd:`Shift-F`
-         in the 3D Viewport and then moving the pointer and then :kbd:`LMB`.
-         You can also enter the size numerically.
-
-         Use Pressure (pressure sensitivity icon)
-            Uses stylus pressure to control how strong the effect is.
-
-      Affect Stroke Strength
-         The amount of deletion of the stroke strength (alpha) while erasing.
-      Affect Stroke Thickness
-         The amount of deletion of the stroke thickness while erasing.
-
-   Point
+   :Point:
       Delete one point at a time.
-   Stroke
+   :Stroke:
       Delete an entire stroke.
+
+.. _bpy.types.BrushGpencilSettings.pen_strength:
+
+Strength
+   Control how much will affect the eraser has on the stroke transparency (alpha).
+
+   You can change the brush strength interactively by pressing :kbd:`Shift-F`
+   in the 3D Viewport and then moving the pointer and then :kbd:`LMB`.
+   You can also enter the size numerically.
+
+   .. _bpy.types.BrushGpencilSettings.use_strength_pressure:
+
+   Use Pressure (pressure sensitivity icon)
+      Uses stylus pressure to control how strong the effect is.
+
+.. _bpy.types.BrushGpencilSettings.eraser_strength_factor:
+
+Affect Stroke Strength
+   The amount of deletion of the stroke strength (alpha) while erasing.
+
+.. _bpy.types.BrushGpencilSettings.eraser_thickness_factor:
+
+Affect Stroke Thickness
+   The amount of deletion of the stroke thickness while erasing.
 
 Display Cursor
    Shows the brush shape in the viewport.

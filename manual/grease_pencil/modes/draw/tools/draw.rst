@@ -46,9 +46,19 @@ Strength
       The gradient of the pressure can be customized using
       the :doc:`curve widget </interface/controls/templates/curve>`.
 
+.. _bpy.types.BrushGpencilSettings.caps_type:
+
+Caps Type
+   The shape of the start and end of the stroke.
+
+   :Round: Strokes start and stop with a curved shape.
+   :Flat: Strokes start and stop with a straight cutoff.
+
 
 Advanced
 --------
+
+.. _bpy.types.BrushGpencilSettings.input_samples:
 
 Input Samples
    Controls how often the input device is read to generate points on the stroke.
@@ -60,27 +70,37 @@ Input Samples
    the right balance between accuracy and softness for your strokes.
    See :doc:`Input Device </getting_started/configuration/hardware>` for more information.
 
+.. _bpy.types.BrushGpencilSettings.active_smooth_factor:
+
 Active Smooth
    The number of smoothing iterations to apply to the stroke while drawing.
+
+.. _bpy.types.BrushGpencilSettings.angle:
 
 Angle
    Direction of the input device that gives the maximum thickness to the stroke (0° for horizontal).
 
-   Factor
-      Amount of thickness reduction when the stroke is perpendicular to the *Angle* value.
+.. _bpy.types.BrushGpencilSettings.angle_factor:
+
+Factor
+   Amount of thickness reduction when the stroke is perpendicular to the *Angle* value.
+
+.. _bpy.types.BrushGpencilSettings.hardness:
 
 Hardness
    Amount of transparency (alpha) to apply from the border of the point to the center.
    Works only when the brush is using stroke materials of *Dot* or *Box* style.
 
-   Aspect Ratio
-      Controls the width and height of the alpha gradient.
+.. _bpy.types.BrushGpencilSettings.aspect:
 
-      X, Y
+Aspect X, Y
+   Controls the width and height of the alpha gradient.
 
 
 Stroke
 ------
+
+.. _bpy.types.BrushGpencilSettings.use_settings_postprocess:
 
 Post-Processing
 ^^^^^^^^^^^^^^^
@@ -89,27 +109,33 @@ Post-processing methods that are executed on the strokes
 when you finished drawing, right after releasing the :kbd:`LMB` or :kbd:`Pen` tip.
 You can toggle the use of post-processing using the checkbox in the section panel header.
 
+.. _bpy.types.BrushGpencilSettings.pen_smooth_factor:
+
 Smooth
    Strength of smoothing process on the points location along the stroke.
 
-   Iterations
-      The number of smoothing iterations to apply to the stroke.
+.. _bpy.types.BrushGpencilSettings.pen_smooth_steps:
+
+Iterations
+   The number of smoothing iterations to apply to the stroke.
+
+.. _bpy.types.BrushGpencilSettings.pen_subdivision_steps:
 
 Subdivision Steps
    Number of subdivisions to apply to newly created strokes.
 
+.. _bpy.types.BrushGpencilSettings.simplify_factor:
+
 Simplify
    Reduces final points numbers in the stroke with an adaptive algorithm.
+
+.. _bpy.types.BrushGpencilSettings.use_trim:
 
 Trim Strokes End
    Automatically trim intersection strokes ends.
 
 
 .. _bpy.types.BrushGpencilSettings.use_settings_random:
-.. _bpy.types.BrushGpencilSettings.random:
-.. _bpy.types.BrushGpencilSettings.uv_random:
-.. _bpy.types.BrushGpencilSettings.pen_jitter:
-.. _bpy.types.BrushGpencilSettings.use_jitter_pressure:
 
 Randomize
 ^^^^^^^^^
@@ -117,17 +143,43 @@ Randomize
 Adds randomness to the position of the points along the stroke.
 You can toggle the use of Randomize using the checkbox in the section panel header.
 
+
+.. _bpy.types.BrushGpencilSettings.use_stroke_random_radius:
+.. _bpy.types.BrushGpencilSettings.use_random_press_radius:
+.. _bpy.types.BrushGpencilSettings.random:
+
 Radius
    The amount of randomness to apply using the pressure of the input device.
+
+.. _bpy.types.BrushGpencilSettings.use_stroke_random_strength:
+.. _bpy.types.BrushGpencilSettings.use_random_press_strength:
+.. _bpy.types.BrushGpencilSettings.random_strength:
 
 Strength
    The amount of randomness to apply to the stroke strength value (alpha).
 
+.. _bpy.types.BrushGpencilSettings.use_stroke_random_uv:
+.. _bpy.types.BrushGpencilSettings.use_random_press_uv:
+.. _bpy.types.BrushGpencilSettings.uv_random:
+
 UV
    The amount of randomness to apply to the UV rotation.
 
+.. _bpy.types.BrushGpencilSettings.use_stroke_random_hue:
+.. _bpy.types.BrushGpencilSettings.use_random_press_hue:
+.. _bpy.types.BrushGpencilSettings.random_hue_factor:
+.. _bpy.types.BrushGpencilSettings.use_stroke_random_sat:
+.. _bpy.types.BrushGpencilSettings.use_random_press_sat:
+.. _bpy.types.BrushGpencilSettings.random_saturation_factor:
+.. _bpy.types.BrushGpencilSettings.use_stroke_random_val:
+.. _bpy.types.BrushGpencilSettings.use_random_press_val:
+.. _bpy.types.BrushGpencilSettings.random_value_factor:
+
 Hue, Saturation, Value
    Randomizes the hue, saturation, and value of the stroke's :ref:`Color <grease-pencil-draw-color>`.
+
+.. _bpy.types.BrushGpencilSettings.use_jitter_pressure:
+.. _bpy.types.BrushGpencilSettings.pen_jitter:
 
 Jitter
    The amount of jittering to add to the stroke.
@@ -144,9 +196,7 @@ Use Pressure (pressure sensitivity icon)
    the :doc:`curve widget </interface/controls/templates/curve>`.
 
 
-.. _grease-pencil-draw-brushes-stabilizer:
 .. _bpy.types.BrushGpencilSettings.use_settings_stabilizer:
-.. _bpy.types.Brush.smooth_stroke:
 
 Stabilize Stroke
 ^^^^^^^^^^^^^^^^
@@ -155,8 +205,13 @@ Stabilize Stroke
 delaying and correcting the location of points.
 You can toggle the use of *Stabilize Stroke* using the checkbox in the section panel header.
 
+.. _bpy.types.Brush.smooth_stroke_radius:
+
 Radius
    Minimum distance from the last point before the stroke continues.
+
+.. _bpy.types.Brush.smooth_stroke_factor:
+
 Factor
    A smooth factor, where higher values result in smoother strokes but the drawing sensation
    feels like as if you were pulling the stroke.
@@ -166,6 +221,8 @@ Cursor
 ------
 
 The cursor can be disabled by toggling the checkbox in the *Cursor* header.
+
+.. _bpy.types.BrushGpencilSettings.show_lasso:
 
 Show Fill Color while Drawing
    Shows the brush linked material color in the viewport.
@@ -202,7 +259,7 @@ Click and hold :kbd:`LMB` or use the pen tip to make free-hand drawing on the vi
 Stabilize Stroke
 ----------------
 
-:kbd:`Shift-LMB` toggle the use of :ref:`Stabilize Stroke <grease-pencil-draw-brushes-stabilizer>`
+:kbd:`Shift-LMB` toggle the use of :ref:`Stabilize Stroke <bpy.types.BrushGpencilSettings.use_settings_stabilizer>`
 on the brush to have more control while drawing and get smoother lines.
 
 .. list-table:: Drawing strokes using *Stabilize Stroke*.
