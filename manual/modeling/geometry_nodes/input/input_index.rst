@@ -5,7 +5,7 @@
 Index Node
 **********
 
-.. figure:: /images/modeling_geometry-nodes_input_input-index_node.png
+.. figure:: /images/modeling_geometry-nodes_input_index_node.png
    :align: right
 
    Index node.

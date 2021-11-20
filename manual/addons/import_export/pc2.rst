@@ -46,4 +46,5 @@ then the pointcache data can be attached to the object.
 
   .. code-block:: sh
 
-     cacheFile -pc2 1 -pcf "<insert filepath of source>" -f "<insert target filename w/o extension>" -dir "<insert directory path for target>" -format "OneFile";
+     cacheFile -pc2 1 -pcf "<insert filepath of source>" -f "<insert target filename w/o extension>" 
+     -dir "<insert directory path for target>" -format "OneFile";

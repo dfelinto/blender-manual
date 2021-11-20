@@ -15,7 +15,7 @@ The *White Noise Texture* node returns a random number based on an input :term:`
 The seed can be a number, a 2D vector, a 3D vector, or a 4D vector; depending on the *Dimensions* property.
 The output number ranges between zero and one.
 
-.. figure:: /images/render_shader-nodes_textures_white-noise_node.png
+.. figure:: /images/modeling_geometry-nodes_texture_white-noise-texture_node.png
    :align: right
 
    White Noise Texture Node.

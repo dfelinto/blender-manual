@@ -44,7 +44,8 @@ Attributes
 
 These keyword arguments show up in generated ``demo.py``, e.g::
 
-   dict(anim_cycles=2, anim_render=False, anim_screen_switch=0.0, anim_time_max=8.0, anim_time_min=4.0, display_render=4.0, file='foobar.blend', mode='AUTO'),
+   dict(anim_cycles=2, anim_render=False, anim_screen_switch=0.0, anim_time_max=8.0, anim_time_min=4.0, 
+   display_render=4.0, file='foobar.blend', mode='AUTO'),
 
 - ``anim_cycles`` -- Number of times to play the animation.
 - ``anim_render`` -- Render entire animation (applies to ``mode='RENDER'`` only).

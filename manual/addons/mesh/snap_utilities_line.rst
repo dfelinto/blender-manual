@@ -23,20 +23,20 @@ Creates edges and operationally faces by snapping to mesh elements.
 When moving the cursor close to a face, edge or vertex, the cursor is snapped to the highlighted element.
 It can also be snapped to center or perpendicular of an edge.
 After selecting the first point you can specify the length of the line by typing a value and
-confirming with :kbd:`Enter`.
+confirming with :kbd:`Return`.
 
 
 Controls
 ========
 
-Axis Constrain :kbd:`X`, :kbd:`Y`, :kbd:`Z'`
+Axis Constrain :kbd:`X`, :kbd:`Y`, :kbd:`Z`
   Constraint the cursor movement on the  X, Y, or Z axis.
 
 Edge Constrain :kbd:`Shift`
    Constraint the cursor movement towards an edge. For the constrain work, you need to have
    your cursor over an edge. This is useful for creating parallel lines. 
 
-Confirm Input :kbd:`Enter`
+Confirm Input :kbd:`Return`
    Confirms the numerical value written in the header for the line length.
 
 Cut Line :kbd:`LMB`

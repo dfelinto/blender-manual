@@ -7,7 +7,6 @@ Set Material Node
 
 .. figure:: /images/modeling_geometry-nodes_set-material_node.png
    :align: right
-   :width: 250px
 
    The Set Material node.
 

@@ -49,8 +49,9 @@ Crop Region Values
    So, the numbers defines a position in the input image.
 
    Secondly, depending on which one is bigger, *Left* should be interpreted as *Right* and vice versa.
-   If *Left* is greater than *Right* then both values are switched and *Left* gets the value of *Right* and vice versa.
-   The same operation is done for *Up* and *Down*, where you can think of them as the top and bottom of the image.
+   If *Left* is greater than *Right* then both values are switched and *Left* gets the value of *Right*
+   and vice versa. The same operation is done for *Up* and *Down*, where you can think of them as the top 
+   and bottom of the image.
 
    Thirdly, the terms *Up* and *Down* are ambiguous and suggest an action; e.g. "Crop down".
    The values, however, are not amounts but positions.
