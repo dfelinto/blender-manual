@@ -10,8 +10,9 @@ Translate Instances Node
 
    The Translate Instances node.
 
-The *Translate Instances* node translates instances in local or global space.
+The *Translate Instances* node moves a geometry's top-level instances in local or global space.
 
+The :doc:`/modeling/geometry_nodes/instances` page contains more information about geometry instances.
 
 Inputs
 ======
@@ -20,13 +21,14 @@ Geometry
    Standard geometry input.
 
 Selection
-   The instances that will be translated.
+   Boolean field used to determine if an instance will be translated.
 
 Translation
    The vector to translate the instances by.
 
 Local Space
-   If enabled, the instances are translated in local space otherwise they are translated in global space.
+   If enabled, the instances are translated relative to their initial rotation.
+   Otherwise they are translated in the local space of the modifier object.
 
 
 Properties

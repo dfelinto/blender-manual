@@ -10,7 +10,9 @@ Scale Instances Node
 
    The Scale Instances node.
 
-The *Scale Instances* node scales instances in local or global space.
+The *Scale Instances* node scales a geometry's instances in local or global space.
+
+The :doc:`/modeling/geometry_nodes/instances` page contains more information about geometry instances.
 
 
 Inputs
@@ -20,16 +22,20 @@ Geometry
    Standard geometry input.
 
 Selection
-   The instances that will be scaled.
+   Boolean field used to determine if an instance will be scaled.
 
 Scale
-   Scales the instances in given dimensions.
+   The scale factor to apply to the instance's transform on each axis.
 
 Center
-   The position where instances are scaled.
+   The position from which the instance origins are scaled. Each instance will move away from this
+   location. When the *Local Space* input is enabled, this location is relative to the initial
+   transform of each instance.
 
 Local Space
-   If enabled, the instances are scaled in local space otherwise they are scaled in global space.
+   If enabled, the instances are scaled in local space. In other words, they are scaled in the
+   directions the described by each instance's initial transform. When the input is disabled, the
+   *Center* and *Scale* inputs are specified in the local space of the modifier object.
 
 
 Properties

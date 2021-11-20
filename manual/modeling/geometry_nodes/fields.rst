@@ -105,9 +105,12 @@ Field inputs may also come from other nodes that process geometry like the
 :doc:`/modeling/geometry_nodes/point/distribute_points_on_faces`, 
 in the form of :ref:`anonymous-attributes`.
 
-
 Field Context
 =============
+
+All field nodes work in the context of the data flow node they are connected to.
+The context usually consists of a geometry component type and an attribute domain,
+so it determines what data is retrieved from input nodes. 
 
 One common misunderstanding is that the same field network used in multipled places will
 output the same data. This is not necessarily true, because the field network will be evaluated

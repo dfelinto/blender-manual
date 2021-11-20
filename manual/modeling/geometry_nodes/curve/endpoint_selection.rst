@@ -44,7 +44,7 @@ Outputs
 =======
 
 Selection
-   Selection of start and end of each spline of the curve.
+   Selection of the start and end of each spline of the curve.
 
 
 Examples
