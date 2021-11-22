@@ -30,6 +30,7 @@ The attribute search gives a bit of context about each attribute.
 To the left of the menu, the attribute domain is shown followed by the attribute name.
 To the right of the menu, the attribute data type is shown.
 
+
 .. _anonymous-attributes:
 
 Anonymous Attributes
@@ -42,7 +43,6 @@ Anonymous Attributes
    which refer to an attribute stored on a geometry.
 
 An anonymous attribute is a set of generic data stored on a geometry that doesn't have a name.
-
 Usually, attributes exposed in Blender's interface all have names. However,
 in geometry nodes, attributes can be passed around with node sockets.
 In these cases, an *Attribute Field* output is created, which is used by
@@ -51,9 +51,8 @@ nodes to find attribute data in an input geometry.
 Anonymous attributes are still stored on the geometry like other attributes, and they are even
 automatically interpolated when the geometry changes with other nodes, except for a few cases.
 So generally, if the node link is still accessible, the attribute it references will be too.
-
 However, anonymous attributes cannot be connected to a completely separate geometry
-that was not created from their source. To transfer attributes between separate geometries,
+that was not created from their source. To transfer attributes between separate pieces of geometry,
 the :doc:`/modeling/geometry_nodes/attribute/transfer_attribute` can be used.
 
 

@@ -195,8 +195,8 @@ Scrambling Distance
       Uses a formula to adapt the scrambling distance strength based on the sample count.
 
       .. note::
-      
-         When *Adaptive Scrambling Distance* is enabled, *Scrambling Distance* behaves like a modifier for
+
+         When *Adaptive Scrambling Distance* is enabled, *Scrambling Distance* functions like a modifier for
          the *Adaptive Scrambling Distance* value.
 
    .. _bpy.types.CyclesRenderSettings.preview_scrambling_distance:

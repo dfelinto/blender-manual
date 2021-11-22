@@ -14,10 +14,11 @@ The *Transform Node* allows you to move, rotate or scale the geometry.
 The transformation is applied to the entire geometry, and not per element.
 The :doc:`/modeling/geometry_nodes/geometry/set_position` is used for moving
 individual points of a geometry. For transforming instances individually, the instance
-:doc:`translate </modeling/geometry_nodes/instances/translate_instances>`, 
+:doc:`translate </modeling/geometry_nodes/instances/translate_instances>`,
 :doc:`rotate </modeling/geometry_nodes/instances/translate_instances>`, or
 :doc:`scale </modeling/geometry_nodes/instances/translate_instances>`
 nodes can be used.
+
 
 Inputs
 ======

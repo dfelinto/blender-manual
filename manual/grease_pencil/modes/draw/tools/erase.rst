@@ -29,7 +29,7 @@ Radius
    .. _bpy.types.BrushGpencilSettings.use_default_eraser:
 
    Default Eraser
-      Use this brush when enabling the eraser tool with fast switch key (:kbd:`Ctrl`).
+      Use this brush when enabling the eraser tool with the fast switch key (:kbd:`Ctrl`).
 
 
 .. _bpy.types.BrushGpencilSettings.eraser_mode:

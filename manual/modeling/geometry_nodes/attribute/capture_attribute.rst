@@ -25,8 +25,8 @@ to a geometry that doesn't have radius, an explicit node link with the output of
 .. note::
 
    Because this node stores an :ref:`anonymous attribute <anonymous-attributes>` in the geometry,
-   it's essential use the geometry output for further operations in the node tree. The anonymous
-   attribute will not exist for any other geometry besides the output.
+   it's essential to use the geometry output for further operations in the node tree.
+   The anonymous attribute will not exist for any other geometry besides the output.
 
 
 Inputs
@@ -60,10 +60,10 @@ Examples
 
 .. figure:: /images/modeling_geometry-nodes_attribute_capture-attribute_example.png
 
-Here, a noise texture is evaluated in along the path of the curve in 1 dimension
-and rendered with a shader. The capture node is essential because the output of
-the :doc:`/modeling/geometry_nodes/curve/curve_to_mesh` does not have "Curve Parameter",
-since it is a mesh and not a curve. So the :doc:`/modeling/geometry_nodes/curve/curve_parameter`
+Here, a noise texture is evaluated in along the path of the curve in one dimension
+and rendered with a shader. The capture node is required because the output of
+the :doc:`/modeling/geometry_nodes/curve/curve_to_mesh` does not have a "curve parameter",
+since it is a mesh and not a curve. So, the :doc:`/modeling/geometry_nodes/curve/curve_parameter`
 must be evaluated while the geometry is still a curve.
 
 Internally, after the noise texture is evaluated on the curve,

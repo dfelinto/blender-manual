@@ -10,7 +10,7 @@ Rotate Instances Node
 
    The Rotate Instances node.
 
-The *Rotate Instances* node rotates a geometry's instances in local or global space.
+The *Rotate Instances* node rotates geometry instances in local or global space.
 
 The :doc:`/modeling/geometry_nodes/instances` page contains more information about geometry instances.
 
@@ -32,9 +32,10 @@ Pivot Point
    the location is relative to the initial transform of the instance.
 
 Local Space
-   If enabled, the instances are rotated in local space. In other words, they are rotated around the
-   axes described by each instance's initial transform. When the input is disabled, the pivot point
-   and rotation are specified in the local space of the modifier object.
+   If enabled, the instances are rotated in local space. In other words,
+   they are rotated around the axes described by the initial transform of each instance.
+   When the input is disabled, the pivot point and rotation are specified in
+   the local space of the modifier object.
 
 
 Properties

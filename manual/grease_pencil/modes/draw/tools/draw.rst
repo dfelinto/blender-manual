@@ -143,7 +143,6 @@ Randomize
 Adds randomness to the position of the points along the stroke.
 You can toggle the use of Randomize using the checkbox in the section panel header.
 
-
 .. _bpy.types.BrushGpencilSettings.use_stroke_random_radius:
 .. _bpy.types.BrushGpencilSettings.use_random_press_radius:
 .. _bpy.types.BrushGpencilSettings.random:

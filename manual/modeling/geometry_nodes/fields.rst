@@ -9,26 +9,22 @@ Fields
 
    A field input to a node.
 
-
-What Are Fields?
-================
-
 Fundamentally, a field is a function: a set of instructions that can transform an arbitrary number
-of inputs into a single output. A field's result can then be calculated many times with different
-input data. They are used all over geometry nodes to allow calculations that have different results
+of inputs into a single output. A field's result can then be calculated many times with different input data.
+They are used all over geometry nodes to allow calculations that have different results
 for every element (mesh vertices, faces, etc.).
 
 For example, in the figure above, the field connected to the "Set Position" node
-depends on two inputs, :doc:`position </modeling/geometry_nodes/input/position>` and 
+depends on two inputs, :doc:`position </modeling/geometry_nodes/input/position>` and
 :doc:`index </modeling/geometry_nodes/input/index>`, and transforms them into
-into a vector using a single instruction.
+a vector using a single instruction.
 
 
 Field Visualization
 ===================
 
 Socket shapes are used to convey which sockets are fields and which regular data.
-There are three possible socket shapes, each conveying the socket's "field status":
+There are three possible socket shapes, each visualizing its "field status":
 
 :Circle:
    The socket requires a single real value, it cannot accept a field input.
@@ -47,12 +43,12 @@ There are three possible socket shapes, each conveying the socket's "field statu
    :align: center
 
    The socket shape is a diamond with a dot, meaning the field has the same value
-   for every element. Every point will be moved up by 5m.
+   for every element. Every point will be moved up by 5 m.
 
 .. figure:: /images/modeling_geometry-nodes_fields_varying.png
    :align: center
 
-   The socket shape is a diamond and the field input now has a varying input. In other words, 
+   The socket shape is a diamond and the field input now has a varying input. In other words,
    the value can be different for every element. In this case, the position will be doubled,
    since the offset for every point is the point's position.
 
@@ -64,25 +60,26 @@ There are three possible socket shapes, each conveying the socket's "field statu
    or the :doc:`/modeling/geometry_nodes/attribute/attribute_statistic` can be used
    to retrieve a single value from a field evaluated on a geometry.
 
-
 When a connection is made between two node sockets that support
 fields the node connection will be drawn as a dashed line.
-If you make the mistake of connecting a non field socket to a field socket,
-the connection will be drawn as a solid red line indicating that there is an error in the connection.
+If you make the mistake of connecting a non-field socket to a field socket,
+the connection will be drawn as a solid red line indicating that there is an error.
 
 
 Node Types
 ==========
 
-Nodes can be separated into two categories categories-- data flow nodes that usually pass around
-geometries, and field nodes that operate on data per-element. Field nodes can be input nodes that
+Nodes can be separated into two categories: data flow nodes that usually pass geometry,
+and field nodes that operate on data per-element. Field nodes can be input nodes that
 bring geometry data into the node tree, or function nodes that operate on that data.
+
 
 Data Flow Nodes
 ---------------
 
-Nodes with a geometry input and a geometry output will almost always be data flow nodes, meaning
-they actually change geometry data that will be outputed from the geometry nodes modifier.
+Nodes with a geometry input and a geometry output will almost always be data flow nodes.
+Meaning that they actually change geometry data that will be outputted from the geometry nodes modifier.
+
 
 Function Nodes
 --------------
@@ -91,52 +88,53 @@ Nodes with diamond socket inputs and outputs are field nodes, and resemble the i
 that will be evaluated by data flow nodes. Examples of function nodes are the math nodes
 and also more complex nodes like the :doc:`/modeling/geometry_nodes/geometry/geometry_proximity`.
 
+
 Input Nodes
 -----------
 
 Input nodes provide data to the field evaluation process. By themselves, they mean nothing; they
 must be evaluated within the context of a data flow node (geometry) to actually output a value.
-Examples of input nodes are the built-in attribute input nodes like 
-:doc:`position </modeling/geometry_nodes/input/position>` and 
-:doc:`ID </modeling/geometry_nodes/input/id>`, but also selection nodes like 
+Examples of input nodes are the built-in attribute input nodes like
+:doc:`position </modeling/geometry_nodes/input/position>` and
+:doc:`ID </modeling/geometry_nodes/input/id>`, but also selection nodes like
 :doc:`endpoint selection </modeling/geometry_nodes/curve/endpoint_selection>`.
 
-Field inputs may also come from other nodes that process geometry like the 
-:doc:`/modeling/geometry_nodes/point/distribute_points_on_faces`, 
+Field inputs may also come from other nodes that process geometry like
+the :doc:`/modeling/geometry_nodes/point/distribute_points_on_faces`,
 in the form of :ref:`anonymous-attributes`.
+
 
 Field Context
 =============
 
 All field nodes work in the context of the data flow node they are connected to.
 The context usually consists of a geometry component type and an attribute domain,
-so it determines what data is retrieved from input nodes. 
+so it determines what data is retrieved from input nodes.
 
-One common misunderstanding is that the same field network used in multipled places will
-output the same data. This is not necessarily true, because the field network will be evaluated
+One common misunderstanding is that the same field node tree used in multiple places will
+output the same data. This is not necessarily true, because the field node tree will be evaluated
 for every data flow node, potentially retrieving data from a different or changed geometry.
 
 .. figure:: /images/modeling_geometry-nodes_fields_flow-1.png
    :align: center
 
-Here, the :doc:`set position </modeling/geometry_nodes/geometry/set_position>`
-node's input field is evaluated once. To evalaute the field, the node travels
+Here, the :doc:`Set Position </modeling/geometry_nodes/geometry/set_position>` node's
+input field is evaluated once. To evaluate the field, the node traverses
 backwards to retrieve the inputs from the field input nodes.
 
 .. figure:: /images/modeling_geometry-nodes_fields_flow-2.png
    :align: center
 
-When a second set position node is added, the same field network is evaluated twice,
-once for each data flow node. At the second set position node, the results will be
-different since its geometry input will already have the changed position from the
-first node.
+When a second set position node is added, the same field node tree is evaluated twice, once for each data flow node.
+At the second set position node, the results will be different since its geometry input will already have
+the changed position from the first node.
 
 .. figure:: /images/modeling_geometry-nodes_fields_flow-3.png
    :align: center
 
 However, often it's necessary to use the same field values even after changing the geometry.
 The :doc:`/modeling/geometry_nodes/attribute/capture_attribute` evaluates a field, copying
-the result to an :ref:`anonymous attribute <anonymous-attributes>` on the geometry
+the result to an :ref:`anonymous attribute <anonymous-attributes>` on the geometry.
 
 Here, a capture attribute node stores a copy of the initial position.
 Notice that evaluating the field input of the capture attribute node is an entirely

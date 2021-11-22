@@ -32,8 +32,8 @@ Installing Blender via the distribution's native mechanisms ensures consistency 
 and may provide other features (given by the package manager),
 such as listing of packages, update notifications and automatic menu configuration.
 Be aware, though, that the package may be outdated compared to the latest official release,
-or not include some features of Blender.
-For example, some distributions do not build Blender with CUDA support, for licensing reasons.
+or not include some features of Blender. For example, some distributions do not build Blender with
+Cycles GPU rendering support, for licensing or other reasons.
 
 If there is a specific package for your distribution, you may choose what is preferable and most convenient,
 otherwise, the official binary is available on `blender.org <https://www.blender.org/download/>`__.

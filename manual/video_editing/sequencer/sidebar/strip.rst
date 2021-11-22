@@ -23,7 +23,7 @@ Name
       giving a special color to all graphic overlays and a different color for footage.
 
 Mute
-   If checked the strip will not produce any output.
+   If enabled the strip will not produce any output.
 
 
 Compositing

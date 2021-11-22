@@ -10,7 +10,7 @@ On the other hand, they also have some limitations in rendering complex scenes, 
 and issues with interactivity when using the same graphics card for display and rendering.
 
 To enable GPU rendering, go into the :menuselection:`Preferences --> System --> Cycles Render Devices`,
-and select either *CUDA* or *OptiX*. Next, you must configure each scene to use GPU rendering in
+and select either *CUDA*, *OptiX*, or *HIP*. Next, you must configure each scene to use GPU rendering in
 :menuselection:`Properties --> Render --> Device`.
 
 .. note::
@@ -51,6 +51,21 @@ OptiX requires graphics cards with compute capability 5.0 and higher and a drive
 To make sure your GPU is supported,
 see the `list of Nvidia graphics cards <https://developer.nvidia.com/cuda-gpus#compute>`__
 OptiX works best on RTX graphics cards with hardware ray tracing support (e.g. Turing and above).
+
+
+AMD
+---
+
+:abbr:`HIP (Heterogeneous-Compute Interface for Portability)` is supported for GPU rendering with AMD graphics cards
+on Windows. Blender supports GPU rendering on discrete graphics cards with the RDNA architecture or newer
+and GPU driver version 21.Q4 or newer. To make sure your GPU is supported, see the
+`list of AMD graphics cards <https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units>`__
+and their architectures.
+
+.. note:: Unsupported Features:
+
+   - :doc:`/render/shader_nodes/osl`
+   - *Clip* extension mode in the :doc:`/render/shader_nodes/textures/image`
 
 
 Frequently Asked Questions

@@ -83,8 +83,8 @@ They all become a color-coded strip in the Video Sequencer:
 
 Each of the effect strips has its own color.
 
-Besides each of these default colors you can also assign individual strips an
-alternative color in the :ref:`Strip Properties <bpy.ops.sequencer.strip_color_tag_set>`.
+Besides each of these default colors you can also assign individual strips an alternative color in
+the :ref:`Strip Properties <bpy.ops.sequencer.strip_color_tag_set>`.
 
 .. note::
 
