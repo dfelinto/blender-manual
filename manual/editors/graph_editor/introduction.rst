@@ -152,9 +152,8 @@ Set Preview Range :kbd:`P`
    the :ref:`Timeline editor header <animation-editors-timeline-headercontrols>`).
 Clear Preview Range :kbd:`Alt-P`
    Clears the preview range.
-Auto-Set Preview Range :kbd:`Ctrl-Alt-P`
-   Automatically sets the preview range to playback the whole action or
-   the selected NLA strips.
+Set Preview Range to Selected :kbd:`Ctrl-Alt-P`
+   Sets the preview range to playback the selected NLA strips.
 
 
 Markers Menu

@@ -184,20 +184,15 @@ Pattern
 
 .. _bpy.types.CyclesRenderSettings.scrambling_distance:
 
-Scrambling Distance
-   Lower values give faster rendering with GPU rendering and less noise
-   with all devices at the cost of possible artifacts if set too low.
+Scrambling Distance Multiplier
+   Lower values Reduce randomization between pixels to improve GPU rendering performance,
+   at the cost of possible rendering artifacts if set too low.
    Only works when not using adaptive sampling.
-
+   
    .. _bpy.types.CyclesRenderSettings.adaptive_scrambling_distance:
 
-   Adaptive
+   Automatic
       Uses a formula to adapt the scrambling distance strength based on the sample count.
-
-      .. note::
-
-         When *Adaptive Scrambling Distance* is enabled, *Scrambling Distance* functions like a modifier for
-         the *Adaptive Scrambling Distance* value.
 
    .. _bpy.types.CyclesRenderSettings.preview_scrambling_distance:
 

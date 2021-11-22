@@ -20,6 +20,7 @@ overlaying another image, etc.
    hue_saturation.rst
    invert.rst
    mix.rst
+   posterize.rst
    rgb_curves.rst
    tone_map.rst
-   z_combine.rst
+   z_combine.rst 
