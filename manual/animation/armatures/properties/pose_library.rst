@@ -8,6 +8,13 @@ Pose Library
    :Mode:      All Modes
    :Panel:     :menuselection:`Properties --> Object Data Properties --> Pose Library`
 
+.. warning::
+   This properties panel is obsolete and will be removed in a future release.
+
+   The :doc:`Asset Browser based pose library </animation/armatures/posing/editing/pose_library>`
+   was introduced in Blender 3.0 and replaces this pose library panel.
+   To convert poses to the new pose library, see :ref:`pose-library-convert-old`.
+
 .. figure:: /images/animation_armatures_properties_pose-library_panel.png
    :align: right
 
@@ -63,3 +70,7 @@ Pose Libraries
 
    Move (up/down arrow icon)
       Moves the pose up/down in the list.
+
+   Convert Old-Style Pose Library
+      Converts the pose library to pose assets. For more information, see
+      :ref:`pose-library-convert-old`.

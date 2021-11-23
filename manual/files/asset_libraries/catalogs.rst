@@ -14,9 +14,9 @@ For more technical information, see `Asset Catalogs on the Blender
 Wiki <https://wiki.blender.org/wiki/Source/Architecture/Asset_System/Catalogs>`_.
 
 .. figure:: /images/asset-browser-catalogs.png
-  :width: 640px
+   :width: 640px
 
-  Example filesystem and catalog structures.
+   Example filesystem and catalog structures.
 
 
 The Home Location of Assets
@@ -32,13 +32,18 @@ to the new location of the catalog.
 
 Selecting a catalog in the asset browser will show all assets in that catalog
 and in child catalogs. So, in the example above, selecting
-`Characters/Ellie/Poses` will also show assets from
-`Characters/Ellie/Poses/Head` and `Characters/Ellie/Poses/Hands`.
+``Characters/Ellie/Poses`` will also show assets from
+``Characters/Ellie/Poses/Head`` and ``Characters/Ellie/Poses/Hands``.
 
 Assigning an Asset
 ==============================
 
-To assign an action to a catalog, just drag the asset on top of the catalog.
+.. figure:: /images/asset_browser-assign_catalog.png
+
+   Assigning a selection of "Scale material" assets to a catalog.
+
+To assign assets to a catalog, just select and drag the assets on top of the catalog.
+
 
 Components of a Catalog
 ==============================
@@ -51,14 +56,14 @@ Catalog Path
 ------------------------------
 
 The path of a catalog determines where in the catalog hierarchy the catalog is
-shown. Examples are `Characters/Ellie/Poses/Hand` or `Kitbash/City/Skyscrapers`,
+shown. Examples are ``Characters/Ellie/Poses/Hand`` or ``Kitbash/City/Skyscrapers``,
 which would result in the following catalog tree. The highlighted catalog has
-path `Characters/Ellie/Poses/Hand`.
+path ``Characters/Ellie/Poses/Hand``.
 
 .. figure:: /images/asset-catalog-tree.png
-  :width: 257px
+   :width: 257px
 
-  Example tree of asset catalogs
+   Example tree of asset catalogs
 
 
 UUID
@@ -93,7 +98,7 @@ Catalog Definition Files
 
 Asset catalogs are stored in Catalog Definition Files (CDFs). Blender 3.0
 supports a single CDF per asset library. It is stored in
-`blender_assets.cats.txt` in the root directory of the asset library. If the
+``blender_assets.cats.txt`` in the root directory of the asset library. If the
 file does not exist, Blender will create it when the catalogs are saved.
 
 Which File To Write To
@@ -108,28 +113,28 @@ Format
 
 Catalog Definition Files (CDFs) are relatively simple text files, encoded in
 UTF-8. Each CDF consists of a version indicator, and a line of text per catalog.
-Each catalog line is colon-separated, of the form `{UUID}:{path}:{simple name}`.
+Each catalog line is colon-separated, of the form ``{UUID}:{path}:{simple name}``.
 
 Example
 ------------------------------
 
 This is an example of a valid catalog definition file::
 
-  # This is an Asset Catalog Definition file for Blender.
-  #
-  # Empty lines and lines starting with `#` will be ignored.
-  # The first non-ignored line should be the version indicator.
-  # Subsequent lines are of the format "CATALOG_UUID:catalog/path/for/assets:simple catalog name"
+   # This is an Asset Catalog Definition file for Blender.
+   #
+   # Empty lines and lines starting with `#` will be ignored.
+   # The first non-ignored line should be the version indicator.
+   # Subsequent lines are of the format "CATALOG_UUID:catalog/path/for/assets:simple catalog name"
 
-  VERSION 1
+   VERSION 1
 
-  313ea471-7c81-4de6-af81-fb04c3535d0e:catalog/without/simple/name:
-  ee9c7b60-02f1-4058-bed6-539b8d2a6d34:character/Ellie/poselib:character-Ellie-poselib
-  cd66bf52-58f4-45cb-a4e2-dc0e0ee8f3fe:character/Ellie/poselib:character-Ellie
-  4eb44ec6-3424-405b-9782-ca006953e799:character/Ellie/poselib/white space:character-Ellie-poselib-white space
-  b63ed357-2511-4b96-8728-1b5a7093824c:character/Ružena/poselib:Ružena pose library
-  dcdee4df-926e-4d72-b995-33106983bb9a:character/Ružena/poselib/face:Ružena face
-  fb698f2e-9e2b-4146-a539-3af292d44899:character/Ružena/poselib/hand:Ružena hands
+   313ea471-7c81-4de6-af81-fb04c3535d0e:catalog/without/simple/name:
+   ee9c7b60-02f1-4058-bed6-539b8d2a6d34:character/Ellie/poselib:character-Ellie-poselib
+   cd66bf52-58f4-45cb-a4e2-dc0e0ee8f3fe:character/Ellie/poselib:character-Ellie
+   4eb44ec6-3424-405b-9782-ca006953e799:character/Ellie/poselib/white space:character-Ellie-poselib-white space
+   b63ed357-2511-4b96-8728-1b5a7093824c:character/Ružena/poselib:Ružena pose library
+   dcdee4df-926e-4d72-b995-33106983bb9a:character/Ružena/poselib/face:Ružena face
+   fb698f2e-9e2b-4146-a539-3af292d44899:character/Ružena/poselib/hand:Ružena hands
 
 
 Valid Catalog Paths
@@ -137,10 +142,16 @@ Valid Catalog Paths
 
 Catalog paths follow the following rules:
 
-- All paths are absolute; there is no difference between `/a/b` and `a/b`.
-- Only `/` as separator (no `\\`; think less filesystem path and more URL).
+- All paths are absolute; there is no difference between ``/a/b`` and ``a/b``.
+- Only ``/`` as separator (no ``\``; think less filesystem path and more URL).
 - Not empty (it's required for a valid catalog).
-- No empty components (so not `a//b`; `a/b` is fine).
-- Invalid characters: `:`, `\\`.
+- No empty components (so not ``a//b``; ``a/b`` is fine).
+- Invalid characters: ``:``, ``\``.
 - Paths are always interpreted as UTF-8.
 
+Standard Catalogs
+=================
+
+There are a few standardised top-level catalogs that can be used by anyone who
+wants to build an asset bundle that's compatible with others. These are
+documented on the `Blender Wiki <https://wiki.blender.org/wiki/Source/Architecture/Asset_System/Catalogs#Standard_Catalogs>`_

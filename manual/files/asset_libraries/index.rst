@@ -11,20 +11,23 @@ releases.
 .. _blog-workshop: https://code.blender.org/2021/06/asset-browser-workshop-outcomes/
 
 .. seealso::
-  - :doc:`/editors/asset_browser`
-  - :doc:`/animation/armatures/posing/editing/pose_library`
+   - :doc:`/editors/asset_browser`
+   - :doc:`catalogs`
+   - :doc:`/animation/armatures/posing/editing/pose_library`
 
-  The following blog posts were written during the design & development of the asset browser. They are linked here for historical reasons, and to give some more context to the current design.
+   The following blog posts were written during the design & development of the
+   asset browser. They are linked here for historical reasons, and to give some
+   more context to the current design.
 
-  - `2020-03: Asset Manager <https://code.blender.org/2020/03/asset-manager/>`_
-  - `2021-06: Asset Browser Project Update <https://code.blender.org/2020/03/asset-manager/>`_
-  - `2021-06: Asset Browser Workshop Outcomes <https://code.blender.org/2020/03/asset-manager/>`_
+   - `2020-03: Asset Manager <https://code.blender.org/2020/03/asset-manager/>`_
+   - `2021-06: Asset Browser Project Update <https://code.blender.org/2020/03/asset-manager/>`_
+   - `2021-06: Asset Browser Workshop Outcomes <https://code.blender.org/2020/03/asset-manager/>`_
 
 What is an Asset?
 ======================================
 
-    | **An asset is a data-block with meaning.**
-    | *Ton Roosendaal*
+   | **An asset is a data-block with meaning.**
+   | *Ton Roosendaal*
 
 A .blend file is a database with multiple data-blocks: objects, textures,
 materials, etc. When planning to re-use or share these, the data needs a
@@ -32,10 +35,10 @@ meaning. What is this? What is this for? **Assets are curated data-blocks that
 are meant for reuse.**
 
 .. note::
-  The general term "asset" often also refers to other file types, such as
-  images, sounds, video files, etc. These are currently not supported as asset
-  in Blender.
-  For more info, see :ref:`asset-libraries-future-development`.
+   The general term "asset" often also refers to other file types, such as
+   images, sounds, video files, etc. These are currently not supported as asset
+   in Blender.
+   For more info, see :ref:`asset-libraries-future-development`.
 
 What is an Asset Library?
 ======================================
@@ -43,21 +46,22 @@ What is an Asset Library?
 An Asset Library is a directory on your harddisk that is registered in the
 Preferences as an asset library. Registering it means that you give the library
 a name (like "Sprite Fright") and the location on disk (like
-`/home/sybren/projects/sprite-fright/assets`).
+``/home/sybren/projects/sprite-fright/assets``).
 
-.. TODO::
-  add image of preferences, so that it's clear what things look like and where the settings are.
+.. figure:: /images/asset_browser-asset_library_preferences.png
+
+   Name & Location of asset libraries in the Preferences.
 
 Once registered, you can select the asset library in the asset browser. All the
 .blend files in the asset library will be scanned for assets, and all those
 assets will be shown in the asset browser.
 
 .. note::
-  Note that this scanning process may take a while, depending on the number of
-  blend files and the number of assets contained within them. Blender 3.1 will
-  add indexing of these assets, greatly improving the speed at which an asset
-  library can be reopened. See `T91406 <https://developer.blender.org/T91406>`_
-  for more info.
+   Note that this scanning process may take a while, depending on the number of
+   blend files and the number of assets contained within them. Blender 3.1 will
+   add indexing of these assets, greatly improving the speed at which an asset
+   library can be reopened. See `T91406 <https://developer.blender.org/T91406>`_
+   for more info.
 
 The .blend files can be directly in the asset library's top-level directory, or
 in any sub-directory. The on-disk organisation of asset libraries is all up to
@@ -86,6 +90,8 @@ from its blend file, and then the pose is applied to the active Armature.
 In the future, the asset type definition will be expanded; see
 :ref:`asset-libraries-future-development` for more info.
 
+.. _asset-library-current-file:
+
 The *Current File* Asset Library
 ======================================
 
@@ -105,6 +111,7 @@ Life Cycle of an Asset
 This section describes how to create, edit, share, and use assets.
 
 .. _asset-create:
+.. _bpy.ops.asset.mark:
 
 Creating an Asset
 ---------------------------
@@ -143,6 +150,8 @@ click the **Assign Action** button to assign the pose action to the currently
 selected armature. Then you can use all of the animation tooling to edit the
 pose, remove or add keys, etc.
 
+Editing asset metadata can be done via the :ref:`Asset Browser <editing-asset-metadata>`.
+
 
 Sharing Assets
 ---------------------------
@@ -162,9 +171,10 @@ Using Assets
 Assets can be used from the :doc:`/editors/asset_browser`.
 
 .. TODO::
-  Add documentation for / link to docs of the Asset View, which is used in the
-  pose library.
+   Add documentation for / link to docs of the Asset View, which is used in the
+   pose library.
 
+.. _asset-libraries-design-limitations:
 
 Design Limitations
 ======================================
@@ -227,7 +237,7 @@ is actually simple, but often enough it gets quite complex. For example, when
 you want to push an object into an external asset library, should that also copy
 the materials? What about the texture images referenced by those materials? What
 about objects referenced by custom properties, constraints, or modifiers? And in
-which files would they have to go? Do they all go into one big `assets.blend`,
+which files would they have to go? Do they all go into one big ``assets.blend``,
 individual Blend files, or into a directory per asset type? Blender should not
 be making such decisions for you.
 
