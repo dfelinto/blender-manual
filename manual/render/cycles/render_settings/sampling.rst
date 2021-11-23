@@ -48,9 +48,6 @@ With adaptive sampling Cycles automatically reduces the number of samples in are
 for faster rendering and more even noise distribution.
 For example hair on a character may need many samples, but the background may need very few.
 
-By default, the threshold to stop sampling pixels is adapted to the number of samples.
-This reduces overall render time, and particularly after denoising the result will be almost indistinguishable.
-
 With adaptive sampling it is also possible to render images with a target amount of noise.
 This is done by settings the *Noise Threshold*, typical values are in the range from 0.1 to 0.001.
 Then render samples can then be set to a high value,
