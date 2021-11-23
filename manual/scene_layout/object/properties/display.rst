@@ -29,6 +29,9 @@ Show
       Displays the objects :term:`Texture Space`.
    Shadow
       Allows the object to cast shadows in the viewport.
+
+   .. _bpy.types.Object.show_in_front:
+
    In Front
       Makes the object display in front of others. (Unsupported for instanced objects.)
 

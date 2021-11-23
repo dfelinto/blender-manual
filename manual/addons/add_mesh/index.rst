@@ -10,7 +10,6 @@ These add-ons relate to Mesh object creation.
 
    ant_landscape.rst
    archimesh.rst
-   archipack.rst
    boltfactory.rst
    discombobulator.rst
    geodesic_domes.rst

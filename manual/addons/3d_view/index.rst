@@ -9,7 +9,6 @@ These add-ons relate to drawing or manipulating the 3D Viewport.
    :maxdepth: 1
 
    3d_navigation.rst
-   blenderkit.rst
    math_vis_console.rst
    measureit.rst
    stored_views.rst

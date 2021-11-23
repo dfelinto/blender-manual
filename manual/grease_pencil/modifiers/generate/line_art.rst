@@ -188,6 +188,20 @@ Target
    If there are multiple weight groups copied into target, then the highest weight value is copied into it.
 
 
+Composition
+-----------
+
+.. figure:: /images/grease-pencil_modifiers_generate_line-art_composition-panel.png
+
+   Composition subpanel.
+
+.. _bpy.types.LineartGpencilModifier.stroke_depth_offset:
+
+Depth Offset
+   Move strokes slightly towards the camera to avoid clipping while preserve depth for the viewport.
+   This option will be grayed out unless :ref:`Show in Front <bpy.types.Object.show_in_front>` is disabled.
+
+
 Bake
 ----
 

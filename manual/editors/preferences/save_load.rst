@@ -16,10 +16,18 @@ Save
    Save Prompt
       Asks for confirmation before closing or opening a new blend-file
       if the current file has unsaved changes.
-   Save Preview Images
-      Previews of images and materials in the :doc:`File Browser </editors/file_browser>`
-      are created on demand. To save these previews into your blend-file,
-      enable this option (at the cost of increasing the size of your blend-file).
+
+File Preview Types
+   Select how blend-file preview are generated.
+   These previews are used both in the :doc:`File Browser </editors/file_browser>`
+   and for previews shown in the operating system's file browser.
+
+   :None: Do not generate any blend-file previews
+   :Auto:
+      If there is no camera in the 3D Viewport a preview using a screenshot of the active Workspace is generated.
+      If a camera is in the scene, a preview of the viewport from the camera view is used.
+   :Screenshot: Generate a preview by taking a screenshot of the active Workspace.
+   :Camera View: Generate a preview of a workbench render from the camera's point of view.
 
 Default To
    Relative Paths
