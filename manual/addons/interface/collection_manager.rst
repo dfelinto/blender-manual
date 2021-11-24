@@ -72,6 +72,9 @@ Specials
    Purge All Collections Without Objects
       Remove all collections that have no objects regardless of whether they have subcollections.
 
+   Select All Cumulative Objects
+      Select all objects that are in more than one collection.
+
 Display Options (funnel icon)
    Choose which restriction toggles are shown in the interface
    and whether the restriction toggles are aligned to the right in
@@ -109,13 +112,13 @@ Scene Collection
          If you try to select all the objects in the collection but the diamond doesn't fill,
          that means you have one or more unselectable objects in the collection.
 
-   Set Object (multiple icons)
+   Send Objects to Collection (multiple icons)
       - :kbd:`LMB` -- Move selected object(s) to collection.
       - :kbd:`Shift-LMB` -- Add/Remove selected object(s) to/from collection.
 
       Icons are used to show the object/selection state:
 
-      - ``Grid`` -- No objects are present in this collection.
+      - ``Import`` -- No objects are present in this collection.
       - ``Box outline`` -- Objects are present, but none are selected in this collection.
       - ``3 boxes with dashed outline`` -- The collection contains objects that are selected,
         but does not contain the active object in the selection.
@@ -175,7 +178,7 @@ Tree View
          See the section in the Scene Collection for more details.
 
 
-   Set Object (multiple icons)
+   Send Objects to Collection (multiple icons)
       - :kbd:`LMB` -- Move selected object(s) to collection.
       - :kbd:`Shift-LMB` -- Add/Remove selected object(s) to/from collection.
 
@@ -200,11 +203,11 @@ Tree View
       By Name
          A text field to filter collections by name.
 
-      Invert (magnifying glass icon)
+      Invert ``<->``
          Invert filtering (inverts the collections shown in the tree view so that what is
          shown is hidden and what was hidden is shown).
 
-      By Selected (box icon)
+      By Selected (3 boxes with dashed outline icon)
          Filter collections by selected objects (show only collections that contain
          the selected objects).
 
@@ -253,6 +256,7 @@ to view or move objects to them.
 The header widget is composed of the Quick View Toggles button and 20 QCD slots.
 
 Quick View Toggles (eye icon)
+   - Create All QCD Slots. (Creates any missing QCD slots so you end up with a full 20)
    - Enable All QCD Slots.
    - Enable All QCD Slots Isolated. (Enables all QCD slots and disables any non QCD slots)
    - Isolate Selected Objects Collections.
@@ -284,7 +288,7 @@ QCD Slots
    - ``dot icon`` -- the active object is in this slot.
 
 
-   .. rubric:: Hotkeys
+   .. rubric:: Assigned Slot Hotkeys
 
    - :kbd:`LMB` -- View single slot excluding all others.
    - :kbd:`Shift-LMB` -- Add/remove slot to/from view.
@@ -292,6 +296,19 @@ QCD Slots
    - :kbd:`Shift-Ctrl-LMB` -- Add/remove selected objects to/from slot.
    - :kbd:`Alt-LMB` -- Replace selection with objects in this slot.
    - :kbd:`Shift-Alt-LMB` -- Add/remove slot objects to/from the selection.
+
+
+   .. rubric:: Unassigned Slot Hotkeys
+
+   - :kbd:`LMB` -- Create the slot.
+   - :kbd:`Shift-LMB` -- Create the slot and isolate it, excluding all others from view.
+   - :kbd:`Ctrl-LMB` -- Create the slot and move the selected objects to it.
+   - :kbd:`Shift-Ctrl-LMB` -- Create the slot and add the selected objects to it.
+
+   .. note::
+
+      The slot number and its associated collection name, as well as all the relevant hotkeys,
+      are shown in the tooltip when hovering over the slot.
 
 
 Move Widget
