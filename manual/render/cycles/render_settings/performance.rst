@@ -34,7 +34,7 @@ Tiles
 
 .. _bpy.types.RenderSettings.use_auto_tile:
 
-Using Tiling
+Use Tiling
    Render high resolution images in tiles to reduce memory usage.
    Tiles are cached to disk while rendering to save memory
 
