@@ -92,7 +92,7 @@ but the most common one is that there is not enough memory on your graphics card
 Typically, the GPU can only use the amount of memory that is on the GPU
 (see `Would multiple GPUs increase available memory?`_ for more information).
 This is usually much smaller than the amount of system memory the CPU can access.
-With CUDA and OptiX devices, if the GPU memory is full Blender will automatically try to use system memory.
+With CUDA, OptiX and HIP devices, if the GPU memory is full Blender will automatically try to use system memory.
 This has a performance impact, but will usually still result in a faster render than using CPU rendering.
 
 
