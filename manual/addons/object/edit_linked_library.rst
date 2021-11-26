@@ -3,7 +3,7 @@
 Edit Linked Library
 *******************
 
-When working in larger projects that involve scenes with assets linked from a blend-file library,
+When working in larger projects that involve scenes with :doc:`/files/data_blocks` linked from a blend-file library,
 it can get very time-consuming to save your current scene, track down the proper linked blend-file,
 make your modifications, save, and return to your original scene file.
 This add-on allows you to accomplish this process with only a pair of mouse clicks
