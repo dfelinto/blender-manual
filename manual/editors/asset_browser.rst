@@ -11,6 +11,7 @@ assets, and design choices, see :doc:`/files/asset_libraries/index`.
 *The Asset Browser was introduced in Blender 3.0, and will be improved and
 expanded over multiple subsequent releases.*
 
+
 Interface
 =========
 
@@ -33,17 +34,19 @@ Depending on the selected keymap, either use :kbd:`RMB` or :kbd:`W` to show the
 asset browser context menu.
 
 
-Navigation & Usage Panel
-------------------------
+Source List Region
+------------------
 
 The left-hand panel, toggled with :kbd:`T`, can be used for navigating and
 :ref:`using assets <assets-using>`.
+
+.. _bpy.types.FileAssetSelectParams.asset_library_ref:
 
 Library Selector
    Shows the active :doc:`asset library </files/asset_libraries/index>`, and
    allows switching between Asset Libraries. The library
    ":ref:`Current File <asset-library-current-file>`" is special, and will
-   always show the assets from the current .blend file, regardless of whether it
+   always show the assets from the current blend-file, regardless of whether it
    is part of an Asset Library or not.
 
 .. _bpy.ops.asset.bundle_install:
@@ -67,47 +70,81 @@ Optional Panels
    can show custom panels here.
 
 
+.. _bpy.types.AssetMetaData:
 .. _editing-asset-metadata:
 
-Asset Metadata Panel
+Asset Details Region
 --------------------
 
 The right-hand panel, toggled with :kbd:`N`, shows metadata of the active asset.
-**Only metadata of assets contained in the current .blend file can be edited.**
+**Only metadata of assets contained in the current blend-file can be edited.**
 
 Name
    The asset datablock name. This name is unique for the asset data type within
-   the same .blend file.
+   the same blend-file.
+
+.. _bpy.types.WindowManager.asset_path_dummy:
+
 Source
-   The full path of the .blend file that contains the asset.
+   The full path of the blend-file that contains the asset.
 
-.. _bpy.ops.asset.open_containing_blend_file:
+   .. _bpy.ops.asset.open_containing_blend_file:
 
-Open Blend File
-   This button will start a new Blender instance and open the .blend file that
-   contains the asset. In the background Blender will keep monitoring that new
-   Blender instance; when it quits, the Asset Browser will be refreshed to show
-   any updated assets.
+   Open Blend File
+      This button will start a new Blender instance and open the blend-file that
+      contains the asset. In the background Blender will keep monitoring that new
+      Blender instance; when it quits, the Asset Browser will be refreshed to show
+      any updated assets.
+
+.. _bpy.types.AssetMetaData.description:
+
 Description
    Optional field for the asset description. Not used by Blender itself.
+
+.. _bpy.types.AssetMetaData.author:
+
 Author
    Optional field for the asset author. Not used by Blender itself.
-Preview
-   Shows the preview image of the asset. See :ref:`asset-previews`.
-Tags
-   Panel for viewing & editing asset tags. These do not have any meaning to
-   Blender, and can be chosen freely. When using the search bar to filter the
-   assets, those assets whose tags (partially) match the search string will also
-   be shown.
 
-Depending on the current object mode and the selected asset types, more panels
-may appear. For example, see :doc:`/animation/armatures/posing/editing/pose_library`.
+
+Preview
+^^^^^^^
+
+Shows the preview image of the asset. See :ref:`asset-previews`.
+
+.. _bpy.ops.ed.lib_id_load_custom_preview:
+
+Load Custom Preview
+   Opens a window with the File Browser to select an image for the asset preview.
+
+.. _bpy.ops.ed.lib_id_generate_preview:
+
+Generate Preview
+   Generate/update a preview for the asset.
+
+
+.. _bpy.ops.asset.tag_add:
+.. _bpy.ops.asset.tag_remove:
+.. _bpy.types.AssetMetaData.active_tag:
+
+Tags
+^^^^
+
+Panel for viewing & editing asset tags. These do not have any meaning to
+Blender, and can be chosen freely. When using the search bar to filter the
+assets, those assets whose tags (partially) match the search string will also
+be shown.
+
+.. note::
+
+   Depending on the current object mode and the selected asset types, more panels
+   may appear. For example, see :doc:`/animation/armatures/posing/editing/pose_library`.
 
 
 .. _assets-using:
 
 Using Assets
-=====================
+============
 
 As a general rule, **an asset can be used by dragging it from the Asset Browser
 to the desired location**. Objects and Worlds can be dragged from the asset
@@ -167,34 +204,30 @@ Materials automatically up to date with any changes in the asset library.
 .. _asset-previews:
 
 Asset Previews
-===================
+==============
 
 Preview images are typically automatically generated when you
 :ref:`mark a data-block as asset <bpy.ops.asset.mark>`.
 
 
-
-
 .. _asset-bundles:
 
 Asset Bundles
-==============
+=============
 
-*Asset Bundles* are .blend files that do not reference any other file, and whose
+*Asset Bundles* are blend-files that do not reference any other file, and whose
 name ends in ``_bundle.blend``. Any textures and other external files need to be
 :doc:`packed </files/blend/packed_data>` into the current blend file.
 
-Asset Bundles can be installed via the :ref:`Asset Browser
-<bpy.ops.asset.bundle_install>`:
+Asset Bundles can be installed via the :ref:`Asset Browser <bpy.ops.asset.bundle_install>`:
 
-- Open the asset bundle .blend file.
+- Open the asset bundle blend-file.
 - Switch its Asset Browser to Current File (if it's not set at that already).
 - Click on *Copy Bundle to Asset Library*.
 - Choose the asset library to copy it to.
 - A file dialog will open, showing the files of the selected Asset Library.
-  Choose the desired location of the .blend file, and click the *Copy to Asset
+  Choose the desired location of the blend-file, and click the *Copy to Asset
   Library* button.
-- The .blend file will be saved at the chosen location, and any
-  :ref:`catalogs </files/asset_libraries/catalogs>` of the asset bundle will be
+- The blend-file will be saved at the chosen location, and any
+  :doc:`catalogs </files/asset_libraries/catalogs>` of the asset bundle will be
   merged into the target asset library.
-

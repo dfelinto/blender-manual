@@ -12,12 +12,12 @@ This was mostly aimed at character animation.
 They are now fully deprecated as of Blender 3.0, replaced by the new
 :doc:`Library Overrides </files/linked_libraries/library_overrides>`.
 
-Existing proxies in older .blend files will be converted to library overrides when
+Existing proxies in older blend-files will be converted to library overrides when
 opening it in Blender 3.0.
 
 .. note::
 
-   It is currently possible to keep existing proxies when opening an older .blend file,
+   It is currently possible to keep existing proxies when opening an older blend-file,
    by disabling the :doc:`Proxy to Override Auto Conversion </editors/preferences/experimental>`
    experimental option in the Preferences.
    

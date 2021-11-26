@@ -65,8 +65,10 @@ Gradient
    Strength
       Lower values can be used so the gradient mixes in with the existing weights (just like with the brush).
    Type
-      - Linear: :kbd:`Alt-LMB` and drag.
-      - Radial: :kbd:`Ctrl-Alt-LMB` and drag.
+      The shape of the gradient.
+
+      :Linear: Create gradient that forms a straight line. :kbd:`Alt-LMB` and drag.
+      :Radial: Create gradient that forms a circle. :kbd:`Ctrl-Alt-LMB` and drag.
 
 Sample
    Weights

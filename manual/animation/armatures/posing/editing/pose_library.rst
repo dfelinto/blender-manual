@@ -8,15 +8,15 @@ This section describes the Pose Library, which is based on the
 :doc:`/editors/asset_browser`. For an overview of the asset system, see the
 :doc:`/files/asset_libraries/index` section.
 
-
 .. note::
+
    At the moment of writing, the pose library is meant to be used in Pose Mode.
    In other words, it only works when posing an armature, and not for general
    object animation.
 
 
 What is a Pose Asset?
-=================================
+=====================
 
 A *pose asset* is an Action that has been :ref:`marked as asset <asset-create>`,
 and that contains exactly **one frame of animation** data. Usually these are created
@@ -31,9 +31,9 @@ it can get its own name, its own preview image, and can be organised in
 .. _bpy.ops.poselib.create_pose_asset:
 
 Creating a Pose Library
-=================================
+=======================
 
-A *pose library file* is typically a .blend file that is dedicated to poses. It
+A *pose library file* is typically a blend-file that is dedicated to poses. It
 can link in a character, props, etc., which can then not only be used to create
 the poses, but also for :ref:`rendering previews <poselib-preview-images>`.
 
@@ -43,7 +43,7 @@ the poses, but also for :ref:`rendering previews <poselib-preview-images>`.
 
 
 Pose Creation via Action Editor
---------------------------------------------
+-------------------------------
 
 To create a pose in the library from the Action Editor, **pose the character,
 select the relevant bones, and click the *Create Pose Asset* button**. This will
@@ -74,6 +74,7 @@ you can also click the *Assign Action* button to explicitly assign the selected
 pose asset as the armature’s active Action.
 
 .. note::
+
    The **Create Pose Asset** button creates a new Action. To make sure that this
    is actually visible in the user interface, so that you know that something
    happened, it tries to make sure that the Asset Browser shows the newly
@@ -88,7 +89,7 @@ pose asset as the armature’s active Action.
 .. _bpy.ops.poselib.restore_previous_action:
 
 Pose Creation from Existing Animation
---------------------------------------------
+-------------------------------------
 
 Animators eat and breathe time, so there is a fair chance that you already have
 some poses lined up on the timeline. Creating a pose asset from existing
@@ -115,7 +116,7 @@ differences:
 .. _bpy.ops.poselib.copy_as_asset:
 
 Pose Creation by Copying from Other File
---------------------------------------------
+----------------------------------------
 
 As described in :ref:`asset-libraries-design-limitations`, Blender only writes
 data to the currently open blend file. To copy a pose from some other file into
@@ -144,7 +145,7 @@ a pose library file, see the following steps:
 
 
 Automatically Assigned Catalog
---------------------------------------------
+------------------------------
 
 When you create a pose asset, Blender may automatically assign it to an asset
 catalog. This only works if there is an asset browser visible; Blender then
@@ -156,12 +157,13 @@ browsers open, it performs the following steps:
 - Otherwise Blender goes over the other windows (if there are any), and do a
   similar search. The first window it sees that has an asset browser wins.
 
+
 .. _poselib-preview-images:
 
 Controlling the Look of Preview Images
---------------------------------------------
+---------------------------------------
 
-The preview images are rendered with the active :ref:`Scene camera <bpy-types-scene-camera>`.
+The preview images are rendered with the active :ref:`Scene camera <bpy.types.Scene.camera>`.
 This approach was preferred over rendering a specific 3D Viewport for two main
 reasons:
 
@@ -180,8 +182,9 @@ with the current settings.
 You can also animate settings, such as the background colour, light positions
 and intensities, etc. Use this to your advantage!
 
+
 Scene Animation for Preview Images
---------------------------------------------
+----------------------------------
 
 Sometimes it’s handy to have a few different background colours or camera angles
 for your poses. Many facial poses are made with a specific camera angle in mind.
@@ -189,7 +192,7 @@ for your poses. Many facial poses are made with a specific camera angle in mind.
 - Background colour can be animated. In this case just for fun, but for more
   serious applications this could be used to indicate a certain character, or a
   mood, or anything else.
-- The active camera can be switched by using :ref:`camera markers <bind-camera-to-markers>`.
+- The active camera can be switched by using :ref:`camera markers <bpy.ops.marker.camera_bind>`.
 
 Both make it possible to choose a specific frame to pick the background colour
 and camera angle. Pose the character, click the *Create Pose Asset* button, and
@@ -198,9 +201,8 @@ the pose and refresh its preview image, because you know exactly which frame it
 was originally created on.
 
 
-
 Using the Pose Library
-=================================
+======================
 
 The Pose Library can be used to pose a character in a few different ways. In
 short, you can fully apply a pose or blend it into the character's current pose
@@ -210,7 +212,7 @@ Viewport.
 
 
 Use from the Asset Browser
---------------------------------------------
+--------------------------
 
 The Pose Library can be used directly from the Asset Browser. The **Pose Library
 panels will appear** when the active object is an Armature and in pose mode. The
@@ -242,7 +244,7 @@ remind yourself what was part of the pose and what wasn’t.
 
 
 Use from 3D Viewport
---------------------------------------------
+--------------------
 
 .. figure:: /images/asset_browser-pose_library-use_from_viewport.png
 
@@ -290,11 +292,12 @@ the new system. The old pose library will be removed in a future release
 
    The old Pose Library panel.
 
+
 .. _pose-library-convert-old:
 .. _bpy.ops.poselib.convert_old_poselib:
 
 Converting Old Pose Libraries
---------------------------------------------
+-----------------------------
 
 Old-style pose libraries can be converted to pose assets in the following way:
 
@@ -320,6 +323,7 @@ Browse Poses (Old Pose Library)
 -------------------------------
 
 .. warning::
+
    This section describes the deprecated pose library. For the new, Asset
    Browser based pose library, see :doc:`pose_library`.
 

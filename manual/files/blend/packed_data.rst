@@ -137,4 +137,4 @@ Unpack Linked Libraries
 
    :Panel:     :menuselection:`File --> External Data --> Unpack Linked Libraries`
 
-Unpack all used linked library files from this .blend file.
+Unpack all used linked library files from this blend-file.

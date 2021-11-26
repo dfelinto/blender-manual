@@ -1,14 +1,18 @@
-.. _asset-catalogs:
 
-################
- Asset Catalogs
-################
+**************
+Asset Catalogs
+**************
 
-Asset Catalogs help you to organise your assets. They look a little bit
+Asset Catalogs help you to organize your assets. They look a little bit
 like directories on disk, but they're totally independent of the location of
-your .blend files. Assign each asset in a .blend file to its own catalog, or
-have one big catalog with all the assets of all the .blend files combined. It's
+your blend-files. Assign each asset in a blend-file to its own catalog, or
+have one big catalog with all the assets of all the blend-files combined. It's
 all up to you.
+
+Similar to :doc:`/scene_layout/collections/collections`, catalogs can be nested
+i.e. you can have a main catalog that contains several nested catalogs.
+For example, this allows you to have a catalog of assets for "Furniture"
+with sub catalogs of "Tables", "Chairs", Lamps, ect...
 
 For more technical information, see `Asset Catalogs on the Blender
 Wiki <https://wiki.blender.org/wiki/Source/Architecture/Asset_System/Catalogs>`_.
@@ -20,7 +24,7 @@ Wiki <https://wiki.blender.org/wiki/Source/Architecture/Asset_System/Catalogs>`_
 
 
 The Home Location of Assets
-==============================
+===========================
 
 There can be as many catalogs as you want, but **an asset can be assigned to a
 single catalog** at a time. This is similar to a file system, where a file is
@@ -35,8 +39,9 @@ and in child catalogs. So, in the example above, selecting
 ``Characters/Ellie/Poses`` will also show assets from
 ``Characters/Ellie/Poses/Head`` and ``Characters/Ellie/Poses/Hands``.
 
+
 Assigning an Asset
-==============================
+==================
 
 .. figure:: /images/asset_browser-assign_catalog.png
 
@@ -44,16 +49,22 @@ Assigning an Asset
 
 To assign assets to a catalog, just select and drag the assets on top of the catalog.
 
+.. tip::
+
+   You can assign an asset to the "Unassigned" catalog,
+   this will remove it from any existing catalogs.
+
 
 Components of a Catalog
-==============================
+=======================
 
 Each catalog consists of a *catalog path*, a *UUID*, and a *simple name*.
 Normally you'd only deal with the catalog path; the rest is for internal Blender
 use and/or for emergency situations.
 
+
 Catalog Path
-------------------------------
+------------
 
 The path of a catalog determines where in the catalog hierarchy the catalog is
 shown. Examples are ``Characters/Ellie/Poses/Hand`` or ``Kitbash/City/Skyscrapers``,
@@ -67,7 +78,7 @@ path ``Characters/Ellie/Poses/Hand``.
 
 
 UUID
-------------------------------
+----
 
 Each catalog has a `UUID <https://en.wikipedia.org/wiki/Universally_unique_identifier>`_,
 which is normally hidden from the user interface (enable Developer Extras and
@@ -77,8 +88,9 @@ catalog can be renamed or moved around (i.e. you can change its path), and all
 assets that are contained in it will move along with it. This only requires a
 change to the catalog itself, and not to any asset blend file.
 
+
 Simple Name
-------------------------------
+-----------
 
 Each catalog has an optional *simple name*. This name is stored along with the
 UUID in each asset. The purpose is to make it possible for humans to recognise
@@ -93,30 +105,31 @@ asset browser.
 .. _asset-catalog-definition-file:
 
 Catalog Definition Files
-==============================
-
+========================
 
 Asset catalogs are stored in Catalog Definition Files (CDFs). Blender 3.0
 supports a single CDF per asset library. It is stored in
 ``blender_assets.cats.txt`` in the root directory of the asset library. If the
 file does not exist, Blender will create it when the catalogs are saved.
 
+
 Which File To Write To
-------------------------------
+----------------------
 
 Asset catalogs can be saved independently of the blend file; the catalog editor
 has its own "Save" button.
 
 
 Format
-------------------------------
+------
 
 Catalog Definition Files (CDFs) are relatively simple text files, encoded in
 UTF-8. Each CDF consists of a version indicator, and a line of text per catalog.
 Each catalog line is colon-separated, of the form ``{UUID}:{path}:{simple name}``.
 
+
 Example
-------------------------------
+-------
 
 This is an example of a valid catalog definition file::
 
@@ -138,7 +151,7 @@ This is an example of a valid catalog definition file::
 
 
 Valid Catalog Paths
-------------------------------
+-------------------
 
 Catalog paths follow the following rules:
 
@@ -149,9 +162,10 @@ Catalog paths follow the following rules:
 - Invalid characters: ``:``, ``\``.
 - Paths are always interpreted as UTF-8.
 
+
 Standard Catalogs
 =================
 
 There are a few standardised top-level catalogs that can be used by anyone who
 wants to build an asset bundle that's compatible with others. These are
-documented on the `Blender Wiki <https://wiki.blender.org/wiki/Source/Architecture/Asset_System/Catalogs#Standard_Catalogs>`_
+documented on the `Blender Wiki <https://wiki.blender.org/wiki/Source/Architecture/Asset_System/Catalogs#Standard_Catalogs>`__

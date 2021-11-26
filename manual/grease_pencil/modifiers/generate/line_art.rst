@@ -63,6 +63,16 @@ Clipping Boundaries
    When enabled, line art will generate clipping lines as contour type at the place
    where near or far clipping planes cut the model. Otherwise there will be no lines.
 
+.. _bpy.types.LineartGpencilModifier.use_crease_on_smooth:
+
+Crease on Smooth
+   Allow crease edges to show inside smooth surfaces.
+
+.. _bpy.types.LineartGpencilModifier.use_crease_on_sharp:
+
+Crease on Sharp
+   Allow creases to show on sharp edges.
+
 
 Edge Types
 ----------
@@ -163,6 +173,11 @@ Image Threshold
    Allow the end point of short segments to be chained together if the 2D image space distance
    between them are within the specified threshold.
 
+.. _bpy.types.LineartGpencilModifier.smooth_tolerance:
+
+Smooth Tolerance
+   The strength of smoothing applied on jagged chains.
+
 Angle Splitting
    Split a chain at sharp "turning" points specified by this angle.
 
@@ -194,6 +209,14 @@ Composition
 .. figure:: /images/grease-pencil_modifiers_generate_line-art_composition-panel.png
 
    Composition subpanel.
+
+.. _bpy.types.LineartGpencilModifier.overscan:
+
+Overscan
+   To optimize rendering, Blender only renders the lines for portions of the object that are in the camera's view.
+   This optimization however, can result in strokes ending abruptly at the edge of the image.
+
+   This value prevents this error by adding a margin outside the camera's view to continue computing strokes.
 
 .. _bpy.types.LineartGpencilModifier.stroke_depth_offset:
 
