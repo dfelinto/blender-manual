@@ -43,6 +43,7 @@ are meant for reuse.**
 
    For more info, see :ref:`asset-libraries-future-development`.
 
+.. _what-is-asset-library:
 
 What is an Asset Library?
 =========================
