@@ -7,9 +7,14 @@ Blender 3.0, and will be improved and expanded over multiple subsequent releases
 
 .. seealso::
 
-   - :doc:`/editors/asset_browser`
-   - :doc:`catalogs`
-   - :doc:`/animation/armatures/posing/editing/pose_library`
+   :doc:`/editors/asset_browser`
+      the main interface for organising and using assets
+
+   :doc:`/files/asset_libraries/catalogs`
+      for organizing assets.
+
+   :doc:`/animation/armatures/posing/editing/pose_library`
+      build on top of the Asset Browser.
 
    The following blog posts were written during the design & development of the
    asset browser. They are linked here for historical reasons, and to give some

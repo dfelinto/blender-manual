@@ -9,7 +9,7 @@ Pose Library
    :Panel:     :menuselection:`Properties --> Object Data Properties --> Pose Library`
 
 .. warning::
-   This properties panel is obsolete and will be removed in a future release.
+   This properties panel is obsolete and will be removed in Blender 3.1.
 
    The :doc:`Asset Browser based pose library </animation/armatures/posing/editing/pose_library>`
    was introduced in Blender 3.0 and replaces this pose library panel.

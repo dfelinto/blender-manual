@@ -250,7 +250,7 @@ Use from 3D Viewport
 
    The pose library as a side-panel of the 3D Viewport.
 
-The right-hand panel of the 3D Viewport (toggle it with the N key) has a **Pose
+The right-hand panel of the 3D Viewport (toggle it with the :kbd:`N` key) has a **Pose
 Library panel in the Animations tab**. Contrary to the Asset Browser, which can
 be used for different asset types and also for some asset management tasks, this
 panel is dedicated to applying poses. This means that it can allow faster
@@ -265,18 +265,24 @@ previous section.
 **Drag the pose thumbnail left to right to blend it** into the character's
 current pose. Just release the mouse button to confirm.
 
-To search for poses, hover your mouse over the poses, then press Ctrl+F and type
-a search query. This will filter the poses to match what you typed.
+To **search for poses**, hover your mouse over the poses, then press
+:kbd:`Ctrl-F` and type a search query. This will filter the poses to match what
+you typed. The scrollable area will automatically scroll the search box into
+view.
 
 
 Old Pose Library
 ================
 
-The Asset Browser based pose library, described above, was introduced in Blender
-3.0. It replaces the old pose library, which was introduced in Blender 2.46.
-This section describes the old pose library, including how to convert poses to
-the new system. The old pose library will be removed in a future release
-(potentially 3.1, but this has yet to be decided).
+The Asset Browser based pose library, described above, replaces the old pose
+library. This section describes that old pose library, including how to convert
+poses to the new system.
+
+.. warning::
+   The old pose library is deprecated in Blender 3.0, and will be mostly removed
+   Blender 3.1. Only the Python interface will remain a bit longer, and be
+   removed in Blender 3.2. The necessary functionality to convert old pose
+   libraries to pose assets will remain in Blender for the forseeable future.
 
 .. reference::
 

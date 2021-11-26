@@ -4,12 +4,22 @@
 Asset Browser
 *************
 
-This section describes the *Asset Browser*. For general information on Blender's
-asset library system, how to :ref:`create <asset-create>` and :ref:`edit <asset-edit>`
-assets, and design choices, see :doc:`/files/asset_libraries/index`.
+This section describes the *Asset Browser*, which is the main interface for
+organising and using assets.
 
-*The Asset Browser was introduced in Blender 3.0, and will be improved and
-expanded over multiple subsequent releases.*
+The Asset Browser was introduced in Blender 3.0, and will be improved and
+expanded over multiple subsequent releases.
+
+.. seealso::
+
+   :doc:`/files/asset_libraries/index`
+      for general information on Blender's asset library system, including how to :ref:`create <asset-create>` and :ref:`edit <asset-edit>` assets, and design choices.
+
+   :doc:`/files/asset_libraries/catalogs`
+      for organizing assets.
+
+   :doc:`/animation/armatures/posing/editing/pose_library`
+      build on top of the Asset Browser.
 
 
 Interface
@@ -17,7 +27,7 @@ Interface
 
 .. figure:: /images/asset_browser-gold-material.png
 
-   Asset Browser, showing materials in a small asset library.
+   Asset Browser, showing materials in an asset library.
 
 
 Main Region
