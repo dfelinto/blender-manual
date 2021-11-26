@@ -31,7 +31,7 @@ What is an Asset?
    | **An asset is a data-block with meaning.**
    | *Ton Roosendaal*
 
-A blend-file is a database with multiple data-blocks: objects, textures,
+A blend-file is a database with multiple :doc:`/files/data_blocks`: objects, textures,
 materials, etc. When planning to re-use or share these, the data needs a
 meaning. What is this? What is this for? **Assets are curated data-blocks that
 are meant for reuse.**
@@ -81,7 +81,7 @@ Asset Types
 ===========
 
 Assets can be broadly divided into two types: **primitive** and **preset**
-assets. Which is which depends on the data-block type.
+assets. Which is which depends on the :doc:`/files/data_blocks` type.
 
 Primitive assets are data-blocks that are either **linked or appended** to the
 current file. Examples are Objects, Materials, and Worlds. These can be dragged
