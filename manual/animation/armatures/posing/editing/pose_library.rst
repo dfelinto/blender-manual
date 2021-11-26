@@ -242,6 +242,7 @@ Finally, the **Select** and **Deselect** buttons (de)select the bones that are
 used in the pose. This can be used to create a selection set, or simply to
 remind yourself what was part of the pose and what wasn’t.
 
+.. _pose-library-from-viewport:
 
 Use from 3D Viewport
 --------------------
