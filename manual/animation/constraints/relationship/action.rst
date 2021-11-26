@@ -161,7 +161,7 @@ Notes
   (e.g. if the constrained bone is named "arm", it will use and only use the action's bone channel named "arm"...).
   Unfortunately, using a *Pose* action on a whole armature object
   (to affect all the keyed bones in the action at once) will not work...
-- Actions can also be marked as *Asset*, but with certain limitations. For more info, see
+- Actions can also be marked as :term:`Asset`, but with certain limitations. For more info, see
   :doc:`</animation/armatures/posing/editing/pose_library>`.
 
 

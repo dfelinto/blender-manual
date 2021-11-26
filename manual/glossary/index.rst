@@ -78,6 +78,31 @@ This page lists definitions for terms used in Blender and this manual.
    Armature
       An :term:`Object` consisting of :term:`Bones <Bone>`. Used to :term:`Rig` characters, props, etc.
 
+   Asset
+      Curated data-blocks that are meant for reuse, usually contained in an :term:`Asset Library`.
+      See also :doc:`Asset Libraries </files/asset_libraries/introduction>`.
+
+      Note that there are other meanings of the word "asset" -- sometimes this
+      is used more generically, and refers to any "useful thing", like images,
+      models, materials, and more.
+
+   Asset Catalog
+      Container for assets, similar to what a directory is for files.
+      See also :doc:`/files/asset_libraries/catalogs`.
+
+   Asset Library
+      Directory on disk, registered in the list of asset libraries in the preferences.
+      See also :doc:`Asset Libraries </files/asset_libraries/introduction>` and :term:`Current File Asset Library`.
+
+   Asset Metadata
+      Asset-related information, such as its :term:`catalog <Asset Catalog>`,
+      description, author, preview, and tags. See :ref:`editing-asset-metadata`.
+
+   Current File Asset Library
+      Asset Library that is not a directory on disk, but only reflects the
+      assets in the current .blend file. This library is available regardless
+      of the location of the .blend file. See :ref:`asset-library-current-file`.
+
    Axis
       A reference line which defines coordinates along one cardinal direction in n-dimensional space.
 
