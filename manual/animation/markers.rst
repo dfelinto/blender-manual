@@ -107,7 +107,7 @@ Pose Markers
 ------------
 
 If *Show Pose Markers* is checked, a pose marker and
-a new pose in the :doc:`Pose Library </animation/armatures/properties/pose_library>` are added.
+a new pose in the :ref:`Old Pose Library <pose-library-old>` are added.
 
 
 Selecting

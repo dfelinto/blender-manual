@@ -271,6 +271,8 @@ you typed. The scrollable area will automatically scroll the search box into
 view.
 
 
+.. _pose-library-old:
+
 Old Pose Library
 ================
 
