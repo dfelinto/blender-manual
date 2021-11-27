@@ -4,6 +4,12 @@
 Image/Sequence Strip
 ********************
 
+.. tip::
+
+   Image strips can display thumbnails in the Sequencer overlaid on their strips
+   by enabling the :ref:`Thumbnails <bpy.types.SequencerTimelineOverlay.show_thumbnails>` overlay.
+
+
 Single Image
 ============
 

@@ -163,7 +163,8 @@ browsers open, it performs the following steps:
 Controlling the Look of Preview Images
 ---------------------------------------
 
-The preview images are rendered with the active :ref:`Scene camera <bpy.types.Scene.camera>`.
+The pose library preview images are rendered with the active
+:ref:`Scene camera <bpy.types.Scene.camera>`.
 This approach was preferred over rendering a specific 3D Viewport for two main
 reasons:
 

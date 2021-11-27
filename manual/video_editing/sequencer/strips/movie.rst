@@ -13,6 +13,11 @@ e.g. in the Audio-Video Interleaved format (``*.avi`` file).
    Loading it, even over a high-speed LAN can take some time.
    Do not assume your computer or Blender has locked up if nothing happens for awhile.
 
+.. tip::
+
+   Movie strips can display thumbnails in the Sequencer overlaid on their strips
+   by enabling the :ref:`Thumbnails <bpy.types.SequencerTimelineOverlay.show_thumbnails>` overlay.
+
 
 .. _bpy.ops.sequencer.movie_strip_add:
 

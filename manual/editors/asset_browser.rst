@@ -216,8 +216,18 @@ Materials automatically up to date with any changes in the asset library.
 Asset Previews
 ==============
 
+.. figure:: /images/asset-browser-preview-panel.png
+   :align: right
+
+   Preview panel in the Asset Browser.
+
 Preview images are typically automatically generated when you
 :ref:`mark a data-block as asset <bpy.ops.asset.mark>`.
+
+It's also possible to load image files from disk, to replace the auto-generated
+previews.
+
+For previews of pose assets, see :ref:`poselib-preview-images`.
 
 
 .. _asset-bundles:

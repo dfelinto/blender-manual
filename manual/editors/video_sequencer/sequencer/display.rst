@@ -37,6 +37,18 @@ Offsets
 F-Curves
    Show animation curves for opacity and volume values as darkened sections of the strip.
 
+.. _bpy.types.SequencerTimelineOverlay.show_thumbnails:
+
+Thumbnails
+   Displays a preview of the strip contents overtop the strip for Movie and Image strips.
+   To draw thumbnails, this overlay has to be enabled and the strip's height must be tall enough.
+   See the :ref:`User Interface <interface_window-system_regions_scroll_range>`
+   documentation on how to adjust the height of strips.
+
+   The larger the strip's height the bigger the thumbnails are displayed.
+   The number of thumbnails displayed depends on the thumbnail size
+   and the strip length (which depends on the zoom level).
+
 .. _bpy.types.SequencerTimelineOverlay.show_grid:
 
 Grid
