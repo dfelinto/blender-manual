@@ -177,7 +177,6 @@ Tree View
 
          See the section in the Scene Collection for more details.
 
-
    Send Objects to Collection (multiple icons)
       - :kbd:`LMB` -- Move selected object(s) to collection.
       - :kbd:`Shift-LMB` -- Add/Remove selected object(s) to/from collection.
@@ -266,8 +265,7 @@ Quick View Toggles (eye icon)
    - Select All QCD Objects. (Select all objects that belong to enabled QCD slots)
    - Discard QCD History. (Discards previous QCD slot states)
 
-
-   .. rubric:: Hotkeys
+   Hotkeys:
 
    - :kbd:`LMB` -- Enable All QCD Slots.
    - :kbd:`Alt-LMB` -- Select All QCD Objects.
@@ -287,8 +285,7 @@ QCD Slots
    - ``circle icon`` -- one or more objects in this slot are selected.
    - ``dot icon`` -- the active object is in this slot.
 
-
-   .. rubric:: Assigned Slot Hotkeys
+   Assigned Slot Hotkeys:
 
    - :kbd:`LMB` -- View single slot excluding all others.
    - :kbd:`Shift-LMB` -- Add/remove slot to/from view.
@@ -297,8 +294,7 @@ QCD Slots
    - :kbd:`Alt-LMB` -- Replace selection with objects in this slot.
    - :kbd:`Shift-Alt-LMB` -- Add/remove slot objects to/from the selection.
 
-
-   .. rubric:: Unassigned Slot Hotkeys
+   Unassigned Slot Hotkeys:
 
    - :kbd:`LMB` -- Create the slot.
    - :kbd:`Shift-LMB` -- Create the slot and isolate it, excluding all others from view.

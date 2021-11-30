@@ -45,7 +45,7 @@ Playback Time
 
 There is no setting to choose the start time when the speaker should start playing,
 because you might want a single speaker to play multiple times.
-Therefore, you have to open the *NLA Editor* where you can add sound strips
+Therefore, you have to open the *NLA Editor* where you can add Sound strips
 that define when the sound should start (nothing else,
 so any other properties of the strips, like length don't matter).
 When you add a speaker object such a strip will be added at the current frame.

@@ -266,7 +266,7 @@ Vertex Colors
    Convert the USD mesh ``displayColor`` values to Blender mesh vertex colors.
 
 Subdivision
-   Create subdivision surface modifiers based on the USD ``SubdivisionScheme`` attribute.
+   Create Subdivision Surface modifiers based on the USD ``SubdivisionScheme`` attribute.
 
 Import Instance Proxies
    Create unique Blender objects for USD instances.

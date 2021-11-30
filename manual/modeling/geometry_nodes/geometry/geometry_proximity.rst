@@ -56,7 +56,7 @@ Examples
 ========
 
 The different modes of the node: faces, edges and points.
-In this example the geometry nodes modifier is added on the target plane.
+In this example the Geometry Nodes modifier is added on the target plane.
 Note that the larger plane is subdivided and the smaller plane is not.
 
 .. figure:: /images/modeling_geometry-nodes_geometry-proximity_modes.png

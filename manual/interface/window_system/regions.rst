@@ -133,16 +133,18 @@ while the mouse hovers over it.
 
 .. _interface_window-system_regions_scroll_range:
 
-Some regions, in particular animation timelines have scroll bars with added control points
+Some regions, in particular animation timelines have scrollbars with added control points
 to adjust the vertical or horizontal range of the region.
-These special scroll bars will have added widgets at the ends, as shown in the image below:
+These special scrollbars will have added widgets at the ends, as shown in the following image:
 
 .. figure:: /images/interface_window-system_regions_scrollbar_widget.png
    :align: center
+   
+   Scrollbars with zoom widgets.
 
 This can be used to stretch or compress the range to show more or less detail within the available screen space.
 To use these control select the dot and drag it to either increase or decrease the displayed range.
-You can also use the short cut :kbd:`Ctrl-MMB` and move the mouse left/right to adjust the horizontal range
+You can also use the shortcut :kbd:`Ctrl-MMB` and move the mouse left/right to adjust the horizontal range
 and move the mouse up/down to adjust the vertical range.
 
 

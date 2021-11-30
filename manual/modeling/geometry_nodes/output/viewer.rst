@@ -12,7 +12,7 @@ Viewer Node
 
 Using a *Viewer* node a geometry, and optionally a field evaluated it,
 can be displayed in the :doc:`Spreadsheet Editor </editors/spreadsheet>`.
-A node can be connected with a viewer node by pressing :kbd:`Shift-Ctrl-LMB`,
+A node can be connected with a Viewer node by pressing :kbd:`Shift-Ctrl-LMB`,
 while hovering the mouse over it, just like in the Compositor.
 
 

@@ -5,7 +5,7 @@ Color Strip
 ***********
 
 This effect generates solid color frames.
-By default, when it is created, the color strip is 25 frames long, but
+By default, when it is created, the Color strip is 25 frames long, but
 you can extend it by selecting and moving one of the ends.
 Use this strip crossed with your main movie to provide a fade-in or fade-out.
 

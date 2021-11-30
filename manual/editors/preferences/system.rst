@@ -7,7 +7,7 @@ System
 The *System* section allows you to set graphics card options, memory limits & sound settings.
 
 If your hardware does not support some of the options described on this page,
-then they will either not show up or be corrected on startup.
+then they will either not be displayed or be corrected on startup.
 
 .. figure:: /images/editors_preferences_section_system.png
 
@@ -27,11 +27,11 @@ None
    When set to *None* or when the only option is *None*:
    the CPU will be used as the computing device for Cycles.
 CUDA
-   If the system has a compatible Nvidia CUDA device, it will show up as an option for rendering with Cycles.
+   If the system has a compatible Nvidia CUDA device, it will be available as an option for rendering with Cycles.
 OptiX
-   If the system has a compatible Nvidia OptiX device, it will show up as an option for rendering with Cycles.
+   If the system has a compatible Nvidia OptiX device, it will be available as an option for rendering with Cycles.
 HIP
-   If the system has a compatible AMD HIP device, it will show up as an option for rendering with Cycles.
+   If the system has a compatible AMD HIP device, it will available as an option for rendering with Cycles.
 
 .. _prefs-system-cycles-distributive-memory:
 

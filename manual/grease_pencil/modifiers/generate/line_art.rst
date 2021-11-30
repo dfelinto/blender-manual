@@ -51,7 +51,7 @@ Remove Doubles
    The threshold of this operation is internally set to a value that is optimal for Line Art algorithm precision.
 
 Overlapping Edges as Contour
-   This option allows overlapping edges (e.g. from an edge split modifier or imported geometry where
+   This option allows overlapping edges (e.g. from an Edge Split modifier or imported geometry where
    two edges occupy the exact same space) to be drawn as contour. Enabling this option will slow down
    the calculation slightly but it will handle edge overlapping cases without erroneous occlusion results.
 

@@ -91,7 +91,7 @@ This page lists definitions for terms used in Blender and this manual.
       See also :doc:`/files/asset_libraries/catalogs`.
 
    Asset Library
-      Directory on disk, registered in the list of asset libraries in the preferences.
+      Directory on drive, registered in the list of asset libraries in the preferences.
       See also :doc:`Asset Libraries </files/asset_libraries/introduction>` and :term:`Current File Asset Library`.
 
    Asset Metadata
@@ -99,9 +99,9 @@ This page lists definitions for terms used in Blender and this manual.
       description, author, preview, and tags. See :ref:`editing-asset-metadata`.
 
    Current File Asset Library
-      Asset Library that is not a directory on disk, but only reflects the
-      assets in the current .blend file. This library is available regardless
-      of the location of the .blend file. See :ref:`asset-library-current-file`.
+      Asset library that is not a directory on drive, but only reflects the assets in
+      the current blend-file. This library is available regardless of the location of
+      the blend-file. See :ref:`asset-library-current-file`.
 
    Axis
       A reference line which defines coordinates along one cardinal direction in n-dimensional space.

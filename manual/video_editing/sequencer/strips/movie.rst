@@ -81,6 +81,6 @@ Example
 
 .. figure:: /images/video-editing_sequencer_strips_movie-image_example.png
 
-   Imported movie strip with audio track underneath.
+   Imported Movie strip with audio track underneath.
 
 In the strip itself, you can see strip name, path to source file, and strip length.

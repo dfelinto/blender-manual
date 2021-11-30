@@ -16,12 +16,12 @@ or from sound encoded within a movie, and mix them using an F-curve as a volume 
 Working with Audio Tracks
 =========================
 
-A sound strip is just like any other strip in the Video Sequencer. You can select and move it,
+A Sound strip is just like any other strip in the Video Sequencer. You can select and move it,
 adjust its starting offset using :kbd:`LMB` over the strip handles,
 and :kbd:`K` cut it into pieces.
 A useful example is cutting out the "um's" and dead voice time.
 
-You can have as many sound strips as you wish and the result will be the mixing of all of them.
+You can have as many Sound strips as you wish and the result will be the mixing of all of them.
 You can give each strip its own name and volume via the Sidebar region.
 
 Overlapping strips are automatically mixed down during the rendering process.
@@ -37,9 +37,9 @@ and Foley sound effects on channel 7.
 Animating Audio Track Properties
 ================================
 
-To animate sound strips simply hit :kbd:`I` over any of its values.
+To animate Sound strips simply hit :kbd:`I` over any of its values.
 Examples of animating an audio strip are to fade in/out background music or to adjust volume levels.
-Layered/crossed sound strips are added together;
+Layered/crossed Sound strips are added together;
 the lower channel does not override and cut out higher channels (unlike image and video strips).
 This makes Blender an audio mixer.
 By adding audio tracks and using the curves to adjust each tracks' sound level,

@@ -23,7 +23,7 @@ Object Evaluation State
 
    :Evaluated: Display data from the object with all modifiers applied.
    :Original: Display data from the original object without any modifiers applied.
-   :Viewer Node: Display data from the active viewer node of the active object.
+   :Viewer Node: Display data from the active Viewer node of the active object.
 
 .. _bpy.types.SpaceSpreadsheet.display_context_path_collapsed:
 
@@ -33,7 +33,7 @@ Breadcrumbs
    In the order from left to right, the first item displayed is the :term:`Active` object.
    The next two items are displayed when the *Viewer* node evaluation state is chosen.
    The first of these next items is the name of the Geometry Nodes modifier,
-   the last item shown is the name of the active viewer node.
+   the last item shown is the name of the active Viewer node.
 
    Clicking the arrow between items hides the name of the active modifier.
 

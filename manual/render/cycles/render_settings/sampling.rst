@@ -185,7 +185,7 @@ Scrambling Distance Multiplier
    Lower values Reduce randomization between pixels to improve GPU rendering performance,
    at the cost of possible rendering artifacts if set too low.
    Only works when not using adaptive sampling.
-   
+
    .. _bpy.types.CyclesRenderSettings.adaptive_scrambling_distance:
 
    Automatic

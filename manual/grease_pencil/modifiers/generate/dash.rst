@@ -17,23 +17,24 @@ Options
    The Dot Dash modifier.
 
 Offset
-   Deterimines the starting offset of the pattern.
+   Determines the starting offset of the pattern.
 
 Segment
    Makes up individual stroke of a dot dash pattern.
 
-   Use the +/- button on the side of the list to add/remove segments.
+   Use the plus/minus button on the side of the list to add/remove segments.
 
    Dash
       The number of consecutive points from the original stroke to include in this segment.
    Gap
-      The number of points skipped after the the segment ends.
+      The number of points skipped after the segment ends.
    Radius
-      The factor to apply to the origina point's radius for the new points.
+      The factor to apply to the original point's radius for the new points.
    Opacity
-      The factor to apply to the origina point's opacity for the new points.
+      The factor to apply to the original point's opacity for the new points.
    Material Index
       Use this index on generated segment, use -1 for existing material.
+
 
 Influence Filters
 -----------------

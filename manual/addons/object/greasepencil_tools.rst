@@ -73,7 +73,8 @@ This is available in Draw Mode in the :ref:`Brushes panel <grease-pencil-draw-co
 
 .. note::
 
-   This feature will be removed once the  :doc:`Blender Asset Browser </editors/asset_browser>`  has support for brushes.
+   This feature will be removed once the :doc:`Blender Asset Browser </editors/asset_browser>`
+   has support for brushes.
 
 .. reference::
 

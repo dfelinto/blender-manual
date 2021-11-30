@@ -67,6 +67,6 @@ since it is a mesh and not a curve. So, the :doc:`/modeling/geometry_nodes/curve
 must be evaluated while the geometry is still a curve.
 
 Internally, after the noise texture is evaluated on the curve,
-it is automatically copied to the mesh result of the curve to mesh node.
+it is automatically copied to the mesh result of the Curve to Mesh node.
 This means that anywhere *Attribute* output of this node can be connected along
 the same stream of geometry nodes, the internal attribute will be available.

@@ -78,7 +78,7 @@ Data Flow Nodes
 ---------------
 
 Nodes with a geometry input and a geometry output will almost always be data flow nodes.
-Meaning that they actually change geometry data that will be outputted from the geometry nodes modifier.
+Meaning that they actually change geometry data that will be outputted from the Geometry Nodes modifier.
 
 
 Function Nodes
@@ -125,8 +125,8 @@ backwards to retrieve the inputs from the field input nodes.
 .. figure:: /images/modeling_geometry-nodes_fields_flow-2.png
    :align: center
 
-When a second set position node is added, the same field node tree is evaluated twice, once for each data flow node.
-At the second set position node, the results will be different since its geometry input will already have
+When a second Set Position node is added, the same field node tree is evaluated twice, once for each data flow node.
+At the second Set Position node, the results will be different since its geometry input will already have
 the changed position from the first node.
 
 .. figure:: /images/modeling_geometry-nodes_fields_flow-3.png
@@ -136,7 +136,7 @@ However, often it's necessary to use the same field values even after changing t
 The :doc:`/modeling/geometry_nodes/attribute/capture_attribute` evaluates a field, copying
 the result to an :ref:`anonymous attribute <anonymous-attributes>` on the geometry.
 
-Here, a capture attribute node stores a copy of the initial position.
-Notice that evaluating the field input of the capture attribute node is an entirely
-different step. Later on, the input fields to the set position nodes don't use
+Here, a Capture Attribute node stores a copy of the initial position.
+Notice that evaluating the field input of the Capture Attribute node is an entirely
+different step. Later on, the input fields to the Set Position nodes don't use
 the actual position, but the anonymous attribute copy of it.

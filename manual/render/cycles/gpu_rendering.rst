@@ -56,10 +56,10 @@ OptiX works best on RTX graphics cards with hardware ray tracing support (e.g. T
 AMD
 ---
 
-:abbr:`HIP (Heterogeneous-Compute Interface for Portability)` is supported for GPU rendering with AMD graphics cards
-on Windows. Blender supports GPU rendering on discrete graphics cards with the RDNA architecture or newer
-and GPU driver version 21.Q4 or newer. To make sure your GPU is supported, see the
-`list of AMD graphics cards <https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units>`__
+:abbr:`HIP (Heterogeneous-compute Interface for Portability)` is supported for GPU rendering with
+AMD graphics cards on Windows. Blender supports GPU rendering on discrete graphics cards with
+the RDNA architecture or newer and GPU driver version 21.Q4 or newer. To make sure your GPU is supported,
+see the `list of AMD graphics cards <https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units>`__
 and their architectures.
 
 .. note:: Unsupported Features:

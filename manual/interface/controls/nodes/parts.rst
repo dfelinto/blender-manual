@@ -101,13 +101,13 @@ Once a socket conversion is made data may be lost and cannot be retrieved later 
 Implicit socket conversion can sometimes change the data units as well.
 When plugging a *Value* input node into an angle socket will default to use radians
 regardless of the scene :ref:`bpy.types.UnitSettings`.
-This happens because the value node has no unit while the angle input does.
+This happens because the Value node has no unit while the angle input does.
 
 Valid conversions:
 
 - Between color and vector -- in this case the using individual color channels to store the vector.
 - Between color and float -- the color data is converted to its gray scale equivalent.
-- Color/float/vector to Shader -- implicitly converts to color and gives the result of using an emission node.
+- Color/float/vector to Shader -- implicitly converts to color and gives the result of using an Emission node.
 
 Explicit conversion requires the use of a conversion node for example
 the :doc:`/render/shader_nodes/converter/shader_to_rgb` node

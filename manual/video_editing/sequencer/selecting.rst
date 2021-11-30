@@ -71,7 +71,7 @@ Grouped :kbd:`Shift-G`
 
    Type
       Selects any strips of the same type within a category for example,
-      if you have a cross strip selected this will select all other effect strips.
+      if you have a Cross strip selected this will select all other effect strips.
    Global Type
       Selects any strips of the same type, e.g. Effect, Image, Movie, etc.
    Effect Type

@@ -40,7 +40,7 @@ F-Curves
 .. _bpy.types.SequencerTimelineOverlay.show_thumbnails:
 
 Thumbnails
-   Displays a preview of the strip contents overtop the strip for Movie and Image strips.
+   Displays a preview of the strip contents on top of the strip for movie and image strips.
    To draw thumbnails, this overlay has to be enabled and the strip's height must be tall enough.
    See the :ref:`User Interface <interface_window-system_regions_scroll_range>`
    documentation on how to adjust the height of strips.
@@ -58,7 +58,7 @@ Grid
 .. _bpy.types.SequencerTimelineOverlay.waveform_display_type:
 
 Waveform Display
-   Global options for waveform display on sound strips.
+   Global options for waveform display on Sound strips.
 
    :Waveform Off: Disable waveforms for all strips.
    :Waveform On: Enable waveforms for all strips.

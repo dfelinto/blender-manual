@@ -108,9 +108,9 @@ differences:
 - Blender remembers which action was previously assigned to the armature.
 - The new pose Action is assigned to the armature so you can give it a name and
   inspect/adjust its contents.
-- Click **the “back” button** that appeared next to the Create Pose Asset button.
-  This **reassigns the previous Action**, so that you’re back at the animation you
-  had before.
+- Click the *Restore Previous Action* button (back arrow icon) that appeared
+  next to the Create Pose Asset button. This **reassigns the previous Action**,
+  so that you’re back at the animation you had before.
 
 
 .. _bpy.ops.poselib.copy_as_asset:
@@ -174,30 +174,30 @@ reasons:
   rendering the thumbnails. Pose library files are intended for that purpose: to
   contain the poses and render their preview images.
 
-The preview images are rendered using the
-:doc:`Workbench Engine </render/workbench/index>`. Switch the scene to use that
-as render engine, and you’ll see various options to influence the look. Select a
-pose asset and press the Generate Preview button to re-render the preview image
-with the current settings.
+The preview images are rendered using the :doc:`Workbench Engine </render/workbench/index>`. Switch
+the scene to use that as render engine, and you'll see various options to influence the look.
+Select a pose asset and press the Generate Preview button to re-render the preview image with
+the current settings.
 
-You can also animate settings, such as the background colour, light positions
-and intensities, etc. Use this to your advantage!
+You can also animate settings such as matcap rendering, light positions, and
+intensities, etc. Use this to your advantage!
 
 
 Scene Animation for Preview Images
 ----------------------------------
 
-Sometimes it’s handy to have a few different background colours or camera angles
+Sometimes it's handy to have a few different background colors or camera angles
 for your poses. Many facial poses are made with a specific camera angle in mind.
 
-- Background colour can be animated. In this case just for fun, but for more
-  serious applications this could be used to indicate a certain character, or a
-  mood, or anything else.
+- Background color can be animated by placing a plane behind the character and
+  animating its material. In this case just for fun, but for more serious
+  applications this could be used to indicate a certain character, or a mood, or
+  anything else.
 - The active camera can be switched by using :ref:`camera markers <bpy.ops.marker.camera_bind>`.
 
-Both make it possible to choose a specific frame to pick the background colour
+Both make it possible to choose a specific frame to pick the background color
 and camera angle. Pose the character, click the *Create Pose Asset* button, and
-the pose Action will be keyed on the current frame. This means it’s easy to edit
+the pose action will be keyed on the current frame. This means it's easy to edit
 the pose and refresh its preview image, because you know exactly which frame it
 was originally created on.
 
@@ -220,28 +220,31 @@ panels will appear** when the active object is an Armature and in pose mode. The
 :doc:`catalog system </files/asset_libraries/catalogs>` and the filter bar at
 the top can be used to search for specific poses.
 
-Click the **Apply** button to apply the pose to the character. If there are any
-bones selected, the pose will be applied only to those bones. This makes it
-possible to create a “finger guns” pose by applying a fist pose to the hand, and
-then an “open hand” pose for only the index finger and thumb. Double-clicking a
-pose will also apply it.
+Apply
+   Applies the pose to the character. If there are any bones selected, the pose
+   will be applied only to those bones. This makes it possible to create a
+   “finger guns” pose by applying a fist pose to the hand, and then an “open
+   hand” pose for only the index finger and thumb. Double-clicking a pose will
+   also apply it.
 
-The **Interactive Blend** button allows you to gradually blend a pose from the
-library into the character’s pose. Click the button, then move the mouse
-left/right to determine the desired blend. While blending, you can use the Tab
-key to toggle between the original and the blended pose. As usual in Blender,
-left-click or press Enter to confirm; right-click or press Escape to cancel the
-operator.
+Interactive Blend
+   Allows you to gradually blend a pose from the library into the character’s
+   pose. Click the button, then move the mouse left/right to determine the
+   desired blend. While blending, you can use the Tab key to toggle between the
+   original and the blended pose. As usual in Blender, left-click or press Enter
+   to confirm; right-click or press Escape to cancel the operator.
 
-The **Flip Pose** checkbox will mirror the pose from left to right and vice
-versa. This makes it possible, for example, to apply a left-hand pose to the
-right hand, reducing the number of poses you have to put into the library. This
-can of course also be applied for asymmetrical facial expressions that depend on
-the camera angle.
+Flip Pose
+   Will mirror the pose from left to right and vice versa. This makes it
+   possible, for example, to apply a left-hand pose to the right hand, reducing
+   the number of poses you have to put into the library. This can of course also
+   be applied for asymmetrical facial expressions that depend on the camera
+   angle.
 
-Finally, the **Select** and **Deselect** buttons (de)select the bones that are
-used in the pose. This can be used to create a selection set, or simply to
-remind yourself what was part of the pose and what wasn’t.
+Select & Deselect
+   Select or deselect the bones that are used in the pose. This can be used to
+   create a selection set, or simply to remind yourself what was part of the
+   pose and what wasn’t.
 
 .. _pose-library-from-viewport:
 

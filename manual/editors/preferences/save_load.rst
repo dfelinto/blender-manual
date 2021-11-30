@@ -22,12 +22,12 @@ File Preview Types
    These previews are used both in the :doc:`File Browser </editors/file_browser>`
    and for previews shown in the operating system's file browser.
 
-   :None: Do not generate any blend-file previews
+   :None: Do not generate any blend-file previews.
    :Auto:
       If there is no camera in the 3D Viewport a preview using a screenshot of the active Workspace is generated.
       If a camera is in the scene, a preview of the viewport from the camera view is used.
    :Screenshot: Generate a preview by taking a screenshot of the active Workspace.
-   :Camera View: Generate a preview of a workbench render from the camera's point of view.
+   :Camera View: Generate a preview of a Workbench render from the camera's point of view.
 
 Default To
    Relative Paths

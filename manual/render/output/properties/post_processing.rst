@@ -29,7 +29,7 @@ Pipeline
 
    Sequencer
       Renders the output of the Video Sequence editor, instead of the view from the 3D scene's active camera.
-      If the sequence contains scene strips, these will also be rendered as part of the pipeline.
+      If the sequence contains Scene strips, these will also be rendered as part of the pipeline.
       If *Compositing* is also enabled, the Scene strip will be the output of the Compositor.
 
 .. _bpy.types.RenderSettings.dither_intensity:

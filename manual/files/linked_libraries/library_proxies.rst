@@ -20,8 +20,6 @@ opening it in Blender 3.0.
    It is currently possible to keep existing proxies when opening an older blend-file,
    by disabling the :doc:`Proxy to Override Auto Conversion </editors/preferences/experimental>`
    experimental option in the Preferences.
-   
-   Existing Proxies will still work as expected in Blender 3.0.
-   
-   Removal of this option and the full proxy code is scheduled for Blender 3.1.
 
+   Existing Proxies will still work as expected in Blender 3.0.
+   Removal of this option and the full proxy code is scheduled for Blender 3.1.

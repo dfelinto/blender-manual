@@ -23,4 +23,4 @@ overlaying another image, etc.
    posterize.rst
    rgb_curves.rst
    tone_map.rst
-   z_combine.rst 
+   z_combine.rst

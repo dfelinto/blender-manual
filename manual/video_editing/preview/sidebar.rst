@@ -37,7 +37,7 @@ Use Proxies
 Prefetch Frames
    Automatically fill the cache with frames after the current frame in the background.
    Use this to achieve a more consistent playback speed.
-   This feature currently doesn't support rendering scene strips.
+   This feature currently doesn't support rendering Scene strips.
 
 .. _bpy.types.SpaceSequenceEditor.display_channel:
 

@@ -146,7 +146,7 @@ Pan
 .. _bpy.types.SoundSequence.show_waveform:
 
 Display Waveform
-   Display an approximate waveform of the sound file inside of the sound strip.
+   Display an approximate waveform of the sound file inside of the Sound strip.
    The waveform reflects strip volume and its animation using :doc:`keyframes </animation/keyframes/introduction>`.
 
 .. _bpy.types.Sound.use_mono:

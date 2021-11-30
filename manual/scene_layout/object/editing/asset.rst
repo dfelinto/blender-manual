@@ -5,6 +5,7 @@ Asset
 
 Operations for managing the :term:`Asset` status of an object.
 
+
 Mark as Asset
 =============
 
