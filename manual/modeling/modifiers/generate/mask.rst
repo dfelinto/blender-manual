@@ -34,6 +34,12 @@ Mode
 
            - .. figure:: /images/modeling_modifiers_generate_mask_panel-armature.png
 
+Smooth
+   When using Vertex Group *Mode*, use weights to cut faces at the weight contour.
+   This option will result in a mask that has smoother removing the sharp edges along the mask edges.
+
+   .. figure:: /images/modeling_modifiers_generate_mask_vertex-group_smooth.png
+
 Invert
    Normally, vertices belonging to the selected vertex group (or group associated with the active pose bone)
    will be shown. The *Invert* toggle allows you to reverse this behavior, instead only showing vertices

@@ -50,6 +50,15 @@ Interpolation
    *None*, or *Linear*, which will blend between frames.
    Use linear when the frames in the cache file do not match up exactly with the frames in the blend-file.
 
+Vertex Group
+   If set, restrict the effect to the only vertices in that vertex group.
+
+   Invert ``<->``
+      Inverts the influence of the selected vertex group, meaning that the group
+      now represents vertices that will not be deformed by the modifier.
+
+      The setting reverses the weight values of the group.
+
 
 Time Remapping
 --------------
@@ -57,19 +66,19 @@ Time Remapping
 Time Mode
    Select how time is calculated.
 
-   Frame
+   :Frame:
       Allows you to control the frames,
       which will ignore timing data in the file but is often useful since it gives simple control.
-   Time
+   :Time:
       Evaluates time in seconds,
       taking into account timing information from the file (offset and frame-times).
-   Factor
+   :Factor:
       Evaluates the entire animation as a value in the [0, 1] range.
 
 Play Mode
    Select how playback operates.
 
-   Scene
+   :Scene:
       Use the current frame from the scene to control playback.
 
       Frame Start
@@ -77,7 +86,7 @@ Play Mode
       Frame Scale
          Scale time by this factor (applied after the start value).
 
-   Custom
+   :Custom:
       Control animation timing manually.
 
       Evaluation Value

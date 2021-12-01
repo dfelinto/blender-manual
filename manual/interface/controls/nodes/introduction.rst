@@ -68,6 +68,25 @@ Snapping
    Change options for snapping node positions to achieve a cleaner node tree layout.
 
 
+.. _bpy.types.SpaceNodeOverlay.show_overlays:
+
+Overlays
+^^^^^^^^
+
+Overlays are information that is displayed on top of the nodes and node trees.
+There is a toggle to show or hide all overlays for the node editor next to the overlay pop over.
+
+.. _bpy.types.SpaceNodeOverlay.show_wire_color:
+
+Wire Colors
+   Color node links based on their connected sockets
+
+.. _bpy.types.SpaceNodeEditor.show_annotation:
+
+Annotations
+   Displays :doc:`Annotations </interface/annotate_tool>` in the preview region.
+
+
 Toolbar
 -------
 

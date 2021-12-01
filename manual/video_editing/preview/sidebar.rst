@@ -56,6 +56,27 @@ Show Overexposed
    The threshold can be adjust with the slider.
 
 
+.. _editors_sequencer_preview_2d-cursor:
+
+2D Cursor
+---------
+
+The 2D cursor is the white-red circle with a crosshair that is shown in the image preview region.
+It can be used by setting the :ref:`Pivot Point <bpy.types.SequencerToolSettings.pivot_point>`
+to 2D Cursor to transform all strips in relation to the location of thr 2D Cursor.
+
+The visibility of the 2D Cursor can be controlled with the
+:ref:`2D Cursor <bpy.types.SequencerPreviewOverlay.show_cursor>` overlay option.
+
+.. _bpy.types.SpaceSequenceEditor.cursor_location:
+
+Location X, Y
+   The location of the 2D Cursor relative to the center of the preview region.
+   The edge of the image with be 0.5 away, so (0.5, 0.5) will be the top right corner.
+
+   The 2D Cursor's location can also be set with Cursor tool or by :kbd:`Shift-RMB`.
+
+
 .. _bpy.types.SequenceEditor.show_overlay:
 
 Frame Overlay

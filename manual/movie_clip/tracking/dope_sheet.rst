@@ -33,22 +33,25 @@ Header
 
    Sort order of the channels.
 
-Show
-   Only Selected (mouse cursor icon)
-      Limits Dope Sheet channels to only information about selected tracks.
-   Hidden (ghost icon)
-      Includes information from hidden tracks.
+Show Only Selected (mouse cursor icon)
+   Limits Dope Sheet channels to only information about selected tracks.
+Hidden (ghost icon)
+   Includes information from hidden tracks.
+
+.. _bpy.types.MovieTrackingDopesheet.sort_method:
+
 Sort Method
    Sort order of the tracks.
 
-   Name
-      Sort selected tracks in alphabetical order based on their names.
-   Longest
-      Sort tracks by longest tracked segment length.
-   Total
-      Sort tracks by overall amount of frames.
-   Average Error
-      Sort tracks by their average reprojection error after solving camera or object motion.
+   :Name: Sort selected tracks in alphabetical order based on their names.
+   :Longest: Sort tracks by longest tracked segment length.
+   :Total: Sort tracks by overall amount of frames.
+   :Average Error: Sort tracks by their average reprojection error after solving camera or object motion.
+   :Start Frame: Sort channels by first frame number.
+   :End Frame: Sort channels by last frame number.
+
+.. _bpy.types.MovieTrackingDopesheet.use_invert_sort:
+
 Invert
    To change the sort order from ascending to descending.
 

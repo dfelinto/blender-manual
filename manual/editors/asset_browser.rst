@@ -62,9 +62,9 @@ Library Selector
 .. _bpy.ops.asset.bundle_install:
 
 Copy Asset Bundle to Library
-   Shown when the Library Selector is set to Current File, the current .blend
-   file is considered an :ref:`Asset Bundle <asset-bundles>`, and is not yet
-   located inside any Asset Library.
+   Shown when the Library Selector is set to Current File, the current
+   blend-file file is considered an :ref:`Asset Bundle <asset-bundles>`,
+   and is not yet located inside any Asset Library.
 
    The Copy Asset Bundle operator makes it simple to copy the file into the
    asset library. The catalogs of the asset bundle will be merged into the asset
@@ -73,6 +73,10 @@ Copy Asset Bundle to Library
 Catalog Tree
    Shows the :doc:`catalogs </files/asset_libraries/catalogs>` of the active
    Asset Library.
+
+   Catalogs can be remained by double clicking on there name.
+   Catalogs can also be nested inside others by dragging and dropping one
+   catalog into another.
 
 Optional Panels
    Add-ons and features like the

@@ -71,3 +71,22 @@ Footage Settings
 ----------------
 
 See :doc:`/editors/image/image_settings`.
+
+
+View
+====
+
+2D Cursor
+---------
+
+The 2D cursor is the dashed grey crosshair that is shown in the image preview region.
+It can be used by setting the Pivot Point to 2D Cursor to transform all points
+in relation to the location of thr 2D Cursor.
+
+.. _bpy.types.SpaceClipEditor.cursor_location:
+
+Location X, Y
+   The location of the 2D Cursor relative to the bottom left of the preview region.
+   The edge of the image with be 1 away, so (0.5, 0.5) will be the the center of the image.
+
+   The 2D Cursor's location can also be set with :kbd:`Shift-RMB`.

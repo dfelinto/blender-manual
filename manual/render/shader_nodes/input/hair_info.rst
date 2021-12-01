@@ -31,6 +31,9 @@ Is Strand
    Returns 1 when the shader is acting on a strand, otherwise 0.
 Intercept
    The point along the strand where the ray hits the strand (1 at the tip and 0 at the root).
+Length
+   The total measurement from the root to the tip of the strand,
+   interpreted as a grey scale value from 0 to infinity.
 Thickness
    The thickness of the strand at the point where the ray hits the strand.
 Tangent Normal

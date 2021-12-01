@@ -10,6 +10,11 @@ There is a toggle to show or hide all overlays for the preview region.
 
 .. rubric:: Preview Overlays
 
+.. _bpy.types.SequencerPreviewOverlay.show_cursor:
+
+2D Cursor
+   Shows the :ref:`editors_sequencer_preview_2d-cursor` in the image preview region.
+
 Frame Overlay
    Displays the :ref:`Frame Overlay <bpy.types.SequenceEditor.show_overlay>`,
    to compare the current frame to a reference frame.
