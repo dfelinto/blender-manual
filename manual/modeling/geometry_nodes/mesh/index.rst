@@ -8,6 +8,7 @@ Nodes that only operate on meshes.
 .. toctree::
    :maxdepth: 1
 
+   dual_mesh.rst
    mesh_boolean.rst
    mesh_to_curve.rst
    mesh_to_points.rst
