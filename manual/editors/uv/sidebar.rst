@@ -68,10 +68,25 @@ Annotations
 Options for the :doc:`annotation tool </interface/annotate_tool>`.
 
 
+.. _bpy.types.SpaceUVEditor.use_custom_grid:
+
+Custom Grid
+-----------
+
+Displays a grid that does not depend on the zoom level to determine
+the number of subdivisions. The Custom Grid is useful in combination with
+:ref:`Absolute Grid Snap <bpy.types.ToolSettings.use_snap_uv_grid_absolute>`
+to create precise incremental snapping.
+
+.. _bpy.types.SpaceUVEditor.custom_grid_subdivisions:
+
+Subdivisions
+   The number of grid units in UV that make one UV unit.
+
+
 .. (TODO add) images per type
 
 Scopes
 ======
 
 See :ref:`editors-image-scopes` in the Image Editor.
-

@@ -136,7 +136,7 @@ UVs
 Pack UV Islands
    Generates an optimized UV layout with non-overlapping islands
    that tries to efficiently fill the :term:`Texture Space`.
-   See the :ref:`pack islands operator <editors-uv-editing-layout-pack_islands>`
+   See the :ref:`pack islands operator <bpy.ops.uv.pack_islands>`
    that works with the same principle for more information.
 
 Normals

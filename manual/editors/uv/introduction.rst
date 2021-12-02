@@ -144,16 +144,17 @@ Active UV Loop Layer
 Display Channels
    Select what color channels are displayed.
 
-   Color and Alpha
+   :Color and Alpha:
       Replaces transparent pixels with background checkerboard, denoting the alpha channel.
-   Color
+   :Color:
       Display the colored image, without alpha channel.
-   Alpha
-      Displays the Alpha channel a grayscale image. White areas are opaque, black areas have an alpha of 0.
-   Z-Buffer
+   :Alpha:
+      Displays the Alpha channel a grayscale image.
+      White areas are opaque, black areas have an alpha of 0.
+   :Z-Buffer:
       Display the depth from the camera, from Clip Start to Clip End,
       as specified in the :doc:`Camera settings </render/cameras>`.
-   Red, Green, Blue
+   :Red, Green, Blue:
       Single Color Channel visualized as a grayscale image.
 
 
@@ -162,7 +163,7 @@ Tool Settings
 
 Pivot
    Similar to working with pivot points in the 3D Viewport.
-UV Snapping
-   Similar to Snapping in the 3D Viewport.
+:doc:`UV Snapping </editors/uv/controls/snapping>`
+   Controls to snap UV points, similar to snapping in the 3D Viewport.
 Proportional Editing
    See :doc:`Proportional Editing </editors/3dview/controls/proportional_editing>`.

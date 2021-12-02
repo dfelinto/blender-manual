@@ -13,3 +13,4 @@
    overlays.rst
    sidebar.rst
    selecting.rst
+   controls/snapping.rst
