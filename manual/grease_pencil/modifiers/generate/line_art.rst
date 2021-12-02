@@ -23,6 +23,15 @@ Options
 
    The Line Art modifier.
 
+.. _bpy.types.LineartGpencilModifier.use_cache:
+
+Use Cache
+   Optimize rendering by using cached scene data from the first line art modifier in the stack.
+   This option has the disadvantage of certain settings becoming unavailable
+
+   This option only available when you have more than one Line Art modifier
+   is the same modifier stack and the modifier is not the first Line Art modifier in the stack.
+
 Source Type
    What type of geometry source should line art be generated from.
 
@@ -45,6 +54,13 @@ Material
 
 Geometry Processing
 -------------------
+
+.. _bpy.types.LineartGpencilModifier.source_camera:
+.. _bpy.types.LineartGpencilModifier.use_custom_camera:
+
+Custom Camera
+   Use custom camera instead of the active camera for calculating strokes.
+   Useful when baking multiple shots in different angle as well as for motion graphics effects.
 
 Remove Doubles
    Perform a "merge by distance" operation when loading geometry into Line Art.
@@ -82,6 +98,11 @@ Line Art can identify different edge types. Selected edge types will be included
 Contour
    Where the edge becomes the separation line of front/backfacing faces.
 
+.. _bpy.types.LineartGpencilModifier.use_loose:
+
+Loose
+   Generate strokes for edges that do not form a :term:`Face`.
+
 Material Borders
    Where the edge separates faces with different materials.
 
@@ -96,6 +117,12 @@ Crease
 
    Crease Threshold
       Edge angles that are smaller than this value will be treated as crease.
+
+.. _bpy.types.LineartGpencilModifier.use_overlap_edge_type_support:
+
+Allow Overlap
+   Allow an edge to have multiple overlapping types.
+   This will create a separate stroke for each overlapping type.
 
 
 Style
@@ -129,23 +156,69 @@ Level
    A value of 1 means selecting lines that have been occluded by exactly one layer of faces.
 
 
-Transparency
-^^^^^^^^^^^^
+Material Mask
+^^^^^^^^^^^^^
 
 If enabled, Line Art will only select lines that are occluded by certain faces whose material
 have specific occlusion masks set.
 
 Masks
-   To select edges that have been occluded by selected masks.
+   To select edges that have been occluded by the selected
+   :ref:`Material Mask <bpy.types.MaterialLineArt.use_material_mask_bits>`.
 
 Exact Match
-   If enabled, only lines that are occluded with the exact transparency bit combination will be selected.
-   Otherwise, lines that have been occluded by any one of specified transparency masks will be selected.
+   If enabled, only lines that are occluded with the exact mask bit combination will be selected.
+   Otherwise, lines that have been occluded by any one of specified material masks will be selected.
 
 .. figure:: /images/grease-pencil_modifiers_generate_line-art_transparency-mask.png
    :align: right
 
-   Demonstration of the usage of transparency masks.
+   Demonstration of the usage of material masks.
+
+
+Intersection
+------------
+
+Allows you to select edges that intersect between two collections.
+
+.. _bpy.types.LineartGpencilModifier.use_intersection_mask:
+
+Collection Mask
+   Mask bits to match from :ref:`Collection Line Art <bpy.types.Collection.lineart_intersection_mask>` properties.
+
+.. _bpy.types.LineartGpencilModifier.use_intersection_match:
+
+Exact Match
+   Require matching all intersection masks instead of just one.
+
+.. figure:: /images/grease-pencil_modifiers_generate_line-art_collection-mask.png
+
+   Demonstration of the usage of collection masks.
+
+
+.. _bpy.types.LineartGpencilModifier.use_face_mark:
+
+Face Mark Filtering
+-------------------
+
+.. figure:: /images/grease-pencil_modifiers_generate_line-art_face-mark-filtering-panel.png
+
+   Face Mark Filtering subpanel.
+
+*Face Mark Filtering* can be used to have manual control over which
+feature edges produce strokes by using Freestyle face marks.
+
+.. _bpy.types.LineartGpencilModifier.use_face_mark_invert:
+
+Invert
+   Invert face mark filtering.
+
+.. _bpy.types.LineartGpencilModifier.use_face_mark_boundaries:
+
+Boundaries
+   Filter feature lines based on face mark boundaries.
+
+.. figure:: /images/grease-pencil_modifiers_generate_line-art_face-mark-filtering-example.png
 
 
 Chaining
@@ -168,6 +241,15 @@ Chain
 
    All Lines
       Enabling this option will cause all lines to have the type of contour and to be chained together.
+
+   Loose Edges
+      Allow floating Edges that do not form a face to be chained together.
+   
+   Loose as Contour
+      Edges that do not form a face will be classified as contour lines.
+
+   Geometry Space
+      Use geometry distance for chaining instead of image space.
 
 Image Threshold
    Allow the end point of short segments to be chained together if the 2D image space distance
@@ -228,6 +310,11 @@ Image Boundary Trimming
 Depth Offset
    Move strokes slightly towards the camera to avoid clipping while preserve depth for the viewport.
    This option will be grayed out unless :ref:`Show in Front <bpy.types.Object.show_in_front>` is disabled.
+
+.. _bpy.types.LineartGpencilModifier.use_offset_towards_custom_camera:
+
+Towards Custom Camera
+   Offset strokes towards selected camera (see *Custom Camera* above) instead of the active camera.
 
 
 Bake

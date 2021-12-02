@@ -34,7 +34,7 @@ Camera
    is used for placing objects in the scene.
 Grid Floor
    The gray squares forming a floor mark the zero height of the world.
-   The red and green lines are the axis of the world coordinate system.
+   The red and green lines are the axes of the world coordinate system.
    They meet at the origin, which is also the position of the *Cube*.
    The Grid Floor settings are in the :doc:`Viewport Overlays </editors/3dview/display/overlays>` popover.
 
