@@ -45,7 +45,7 @@ Zoom Out (minus magnifying glass icon)
    You cannot zoom out further than the clipping region (see *Clipping* below).
 
 Specials ``v``
-   A :ref:`Specials <ui-specials-menu>` menu with tools to operate on control points or to set properties.
+   A :ref:`Specials <ui-specials-menu>` menu with operators to edit control points or to set properties.
 
    Reset View
       Resets the view of the curve.

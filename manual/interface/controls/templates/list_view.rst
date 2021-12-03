@@ -43,6 +43,6 @@ Add ``+``
 Remove ``-``
    Removes the selected item.
 Specials ``v``
-   A :ref:`Specials <ui-specials-menu>` menu with tools to operate on list entries.
+   A :ref:`Specials <ui-specials-menu>` menu with operators to edit list entries.
 Move (up/down arrow icon)
    Moves the selected item up/down one position.

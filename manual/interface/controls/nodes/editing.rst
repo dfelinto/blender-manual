@@ -216,7 +216,7 @@ Collapse and Hide Unused Sockets
 Layers
 ======
 
-.. note:: The tools are only used in the :doc:`Compositor </compositing/index>`.
+.. note:: These operators are only used in the :doc:`Compositor </compositing/index>`.
 
 Read Render Layers :kbd:`Ctrl-R`
    Reads all the current scene's render layers from cache, as needed.

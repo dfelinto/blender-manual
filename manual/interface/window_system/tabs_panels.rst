@@ -116,7 +116,5 @@ Add ``+``
    in some cases additional settings.
 Remove ``-``
    Deletes the selected preset.
-Specials
-   Optional :ref:`Specials <ui-specials-menu>` menu with tools to operate on list entries.
 
 .. saving preset: data-system?

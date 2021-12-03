@@ -4,7 +4,7 @@
 Frame Node
 **********
 
-The Frame node is a useful tool for organizing nodes by collecting related nodes together in a common area.
+The Frame node is useful for organizing nodes by collecting related nodes together in a common area.
 Frames are useful when a node setup becomes large and confusing yet the re-usability of a Node Group is not required.
 
 .. figure:: /images/interface_controls_nodes_frame_example.png

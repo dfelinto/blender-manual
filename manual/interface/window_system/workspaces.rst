@@ -53,14 +53,14 @@ Blender also has several other workspaces added by default:
 
 :Modeling: For modification of geometry by modeling tools.
 :Sculpting: For modification of meshes by sculpting tools.
-:UV Editing: Mapping of image texture coordinates to 3D surfaces.
-:Texture Paint: Tools for coloring image textures in the 3D Viewport.
-:Shading: Tools for specifying material properties for rendering.
-:Animation: Tools for making properties of objects dependent on time.
+:UV Editing: For mapping of image texture coordinates to 3D surfaces.
+:Texture Paint: For coloring image textures in the 3D Viewport.
+:Shading: For specifying material properties for rendering.
+:Animation: For making properties of objects dependent on time.
 :Rendering: For viewing and analyzing rendering results.
-:Compositing: Combining and post-processing of images and rendering information.
+:Compositing: For combining and post-processing of images and rendering information.
 :Geometry Nodes: For procedural modeling using :doc:`/modeling/geometry_nodes/index`.
-:Scripting: Programming workspace for writing scripts.
+:Scripting: For interacting with Blender's Python API and writing scripts.
 
 
 Additional Workspaces
@@ -77,13 +77,13 @@ Blender has a couple additional Workspaces to choose from when adding a new Work
 
 .. rubric:: VFX
 
-:Masking: Tools to create 2D masks for compositing.
-:Motion Tracking: Tools to motion track and stabilize footage.
+:Masking: For creating 2D masks for compositing or video editing.
+:Motion Tracking: For calculation camera motion and stabilizing video footage.
 
 
 .. rubric:: Video Editing
 
-:Video Editing: Sequence together media into one video.
+:Video Editing: For sequencing together media into one video.
 
 
 Save and Override

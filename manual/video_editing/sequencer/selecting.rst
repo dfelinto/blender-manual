@@ -39,6 +39,8 @@ Box Select (Include Handles) :kbd:`Ctrl-B`
 Side of Frame
    Left/Right :kbd:`[`/:kbd:`]`
       Select strips laying left or right to the current frame.
+   Current
+      Select strips intersecting with the current frame.
 
 .. _bpy.ops.sequencer.select_handles:
 

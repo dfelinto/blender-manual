@@ -98,3 +98,18 @@ by pressing the following keys while the tool is active:
 - :kbd:`B`: Bendy bones
 - :kbd:`C`: custom properties
 - :kbd:`X`, :kbd:`Y`, :kbd:`Z`: to the corresponding axes
+
+
+.. _bpy.ops.pose.blend_to_neighbour:
+
+Blend to Neighbor
+=================
+
+.. reference::
+
+   :Mode:      Pose Mode
+   :Menu:      :menuselection:`Pose --> In-Betweens --> Blend to Neighbor`
+   :Shortcut:  :kbd:`Shift-Alt-E`
+
+Transitions the current pose with the neighbouring keyframes in the timeline.
+In order for this operator to work, there must be a keyframe before and after the current frame.

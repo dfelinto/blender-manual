@@ -4,7 +4,7 @@
 Menus
 *****
 
-Blender uses a variety of different menus for accessing options and tools.
+Blender uses a variety of different menus for accessing options and operators.
 Selecting menus can be interacted with in the following ways:
 
 Mouse selection
@@ -43,7 +43,7 @@ Header Menus
    Image menu in the Header of the Image editor.
 
 Most :ref:`headers <ui-region-header>` exhibit a set of menus, located at the start of the header.
-Header menus are used to configure the editor and access tools.
+Header menus are used to configure the editor and access operators.
 All menu entries show the relevant shortcut keys, if any.
 
 

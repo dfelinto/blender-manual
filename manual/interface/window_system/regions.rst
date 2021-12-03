@@ -98,7 +98,7 @@ with the *Flip to Bottom/Top* operator.
 Adjust Last Operation
 =====================
 
-The *Adjust Last Operation* is a region that shows tool options when tools (operators) are run.
+The *Adjust Last Operation* is a region that shows options when operators are run.
 
 This is further documented here: :ref:`Adjust Last Operation <bpy.ops.screen.redo_last>`.
 
@@ -118,7 +118,7 @@ Footer
 ======
 
 Some editors show a bar (on top/bottom of the editor area)
-that displays information about for example the active tool.
+that displays information about for example the active tool or operator.
 
 
 Arranging
