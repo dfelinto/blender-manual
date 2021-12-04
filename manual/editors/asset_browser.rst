@@ -243,7 +243,8 @@ Asset Bundles
 name ends in ``_bundle.blend``. Any textures and other external files need to be
 :doc:`packed </files/blend/packed_data>` into the current blend file.
 
-Asset Bundles can be installed via the :ref:`Asset Browser <bpy.ops.asset.bundle_install>`:
+Asset Bundles can be copied to an asset library via the
+:ref:`Asset Browser <bpy.ops.asset.bundle_install>`:
 
 - Open the asset bundle blend-file.
 - Switch its Asset Browser to Current File (if it's not set at that already).
@@ -255,3 +256,11 @@ Asset Bundles can be installed via the :ref:`Asset Browser <bpy.ops.asset.bundle
 - The blend-file will be saved at the chosen location, and any
   :doc:`catalogs </files/asset_libraries/catalogs>` of the asset bundle will be
   merged into the target asset library.
+
+
+.. note::
+   Both the word "asset" and the word "bundle" are commonly used, and not
+   necessarily with the same meaning as described here. Not everything that's
+   presented as an "asset bundle" will have the "Copy to Asset Library"
+   functionality available; for that, the bundle file needs to adhere to the
+   definition above.

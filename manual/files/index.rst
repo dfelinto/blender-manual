@@ -11,6 +11,5 @@
    data_blocks.rst
    linked_libraries/index.rst
    asset_libraries/index.rst
-   asset_libraries/catalogs.rst
    media/index.rst
    import_export.rst

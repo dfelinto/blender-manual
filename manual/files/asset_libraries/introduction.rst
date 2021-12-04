@@ -28,13 +28,12 @@ Blender 3.0, and will be improved and expanded over multiple subsequent releases
 What is an Asset?
 =================
 
-   | **An asset is a data-block with meaning.**
-   | *Ton Roosendaal*
+**An asset is a data-block with meaning.**
 
 A blend-file is a database with multiple :doc:`/files/data_blocks`: objects, textures,
 materials, etc. When planning to re-use or share these, the data needs a
 meaning. What is this? What is this for? **Assets are curated data-blocks that
-are meant for reuse.**
+are meant for easy reuse.**
 
 .. note::
 
@@ -199,11 +198,12 @@ Viewport menu.
    *Clear Asset* in the Asset Browser.
 
 Clear Asset
-   Removes the asset metadata (catalog, description, author, preview, tags),
+   Removes the asset metadata (catalog, description, author, tags),
    effectively turning an asset into a regular data-block. As such, the same
    removal rules apply as with other data-blocks. For example, if a mesh object
    is still placed in the scene, *Clear Asset* will not remove it from the
-   scene. See :ref:`data-system-datablock-life-time`.
+   scene. See :ref:`data-system-datablock-life-time`. The preview will be kept
+   inside the data-block and not be removed.
 
 Clear Asset (Set Fake User)
    Performs the same operation as *Clear Asset*, and then marks the data-block
