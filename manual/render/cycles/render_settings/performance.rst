@@ -36,13 +36,19 @@ Tiles
 
 Use Tiling
    Render high resolution images in tiles to reduce memory usage.
-   Tiles are cached to disk while rendering to save memory
+   Tiles are cached to disk while rendering to save memory.
 
 .. _bpy.types.RenderSettings.tile_size:
 
 Tile Size
    This value is used to control the size of the tile used for rendering;
    decreasing the size reduces memory usage.
+   
+   .. note::
+
+      In some cases changing the *Tile Size* can result in increased performance.
+      For example when a small object renders slowly compared to other objects,
+      using a small *Tiles Size* can lead to an increase in performance.
 
 
 Acceleration Structure
