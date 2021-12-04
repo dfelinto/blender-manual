@@ -15,7 +15,7 @@ Snap To
 
 Increment
    Snap elements along points on a fixed scale.
-   These pointes are defined by the grid's intersection points
+   These points are defined by the intersection points of the grid
    and the scale of the increments depending on zoom level,
    unless using :ref:`bpy.types.SpaceUVEditor.use_custom_grid`.
 
@@ -43,7 +43,7 @@ Absolute Grid Snap
    Snap to the visual grid, instead of snapping in increments relative to the current location.
 
 Target
-    See :ref:`3D Viewport Snapping <bpy.types.ToolSettings.snap_target>` for more information.
+   See :ref:`3D Viewport Snapping <bpy.types.ToolSettings.snap_target>` for more information.
 
 
 Affect

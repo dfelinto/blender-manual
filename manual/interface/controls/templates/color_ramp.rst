@@ -57,15 +57,15 @@ Color Mode
 .. _bpy.types.ColorRamp.interpolation:
 
 Color Interpolation
-   Enables the user to choose the types of calculations for the color interpolation for each color stop.
+   Enables you to choose the types of calculations for the color interpolation for each color stop.
 
    RGB
-      :B-Spline: Uses a *B-Spline* Interpolation for the color stops.
-      :Cardinal: Uses a *Cardinal* Interpolation for the color stops.
-      :Linear: Uses a *Linear* Interpolation for the color stops.
-      :Ease: Uses an *Ease* Interpolation for the color stops.
-      :Constant: Uses a *Constant* Interpolation for the color stops.
-   
+      :B-Spline: Uses a B-spline interpolation for the color stops.
+      :Cardinal: Uses a cardinal interpolation for the color stops.
+      :Linear: Uses a linear interpolation for the color stops.
+      :Ease: Uses an ease interpolation for the color stops.
+      :Constant: Uses a constant interpolation for the color stops.
+
    HSV/HSL
       :Clockwise: Clockwise interpolation around the HSV/HSL wheel.
       :Counter-Clockwise: Counterclockwise around the HSV/HSL wheel.

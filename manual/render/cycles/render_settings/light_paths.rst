@@ -191,7 +191,6 @@ Approximate diffuse indirect light with background tinted ambient occlusion.
 This provides fast alternative to full global illumination (GI),
 for interactive viewport rendering or final renders with reduced quality.
 
-
 .. _bpy.types.CyclesRenderSettings.fast_gi_method:
 
 Method

@@ -16,7 +16,7 @@ Menu Search
    :Shortcut:  :kbd:`F3`
 
 The Menu Search pop-up searches Blender's interface for a desired operator and allows you to execute that operator.
-It returns a list of matches and shows which menu the operator was found in.
+It displays a list of matches and shows which menu the operator was found in.
 Start typing the name of the operator you want to refine the list.
 When the list is sufficiently narrowed, :kbd:`LMB` on the desired operator or
 navigate with :kbd:`Down` and :kbd:`Up`, run the selected operator by pressing :kbd:`Return`.

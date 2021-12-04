@@ -33,8 +33,8 @@ New objects can be created with the *Add* menu in the 3D Viewport's header.
 :doc:`Text </modeling/texts/introduction>`
    Create a two-dimensional representation of a text.
 :doc:`Volume </modeling/volumes/introduction>`
-   Container for OpenVDB files that can be load files
-   from other software or Blender's :doc:`Fluid Simulator </physics/fluid/index>`.
+   Container for OpenVDB files that is generated
+   by other software or Blender's :doc:`Fluid Simulator </physics/fluid/index>`.
 :doc:`Grease Pencil </grease_pencil/primitives>`
    Objects created by painting strokes.
 

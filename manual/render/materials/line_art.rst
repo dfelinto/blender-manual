@@ -16,13 +16,13 @@ Line Art
 .. _bpy.types.MaterialLineArt.use_material_mask:
 
 Material Mask
-   Material masks provide line art a way to record extra information about faces
-   that caused the occlusion, so edges occluded by those faces can be selected to have different styles.
+   Material masks are a way to provide Line Art extra information about faces that caused the occlusion.
+   So edges occluded by those faces can be selected to have different styles.
 
 .. _bpy.types.MaterialLineArt.use_material_mask_bits:
 
 Masks
-   The layer to to include faces of the current material.
+   The layer to include faces of the current material.
 
 .. _bpy.types.MaterialLineArt.mat_occlusion:
 

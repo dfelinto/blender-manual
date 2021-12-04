@@ -93,7 +93,7 @@ and at the place where you clicked to start performing the operation
 
 .. figure:: /images/modeling_meshes_editing_edge_screw_error-msg-info-editor.png
 
-   Screw Error message in the Status Bar.
+   Screw error message in the status bar.
 
 .. _fig-mesh-screw-error-popup:
 

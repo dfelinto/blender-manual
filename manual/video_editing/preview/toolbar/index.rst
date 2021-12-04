@@ -4,23 +4,22 @@
 ###########
 
 Sample
-   Used to sample a pixel's color from the image preview.
+   Used to sample a pixel's color from the preview.
 
-   To use the sample tool, :kbd:`LMB` anywhere in the Image Preview.
-   Information about the pixel under the mouse cursor appears in an overlay at the bottom of the editor.
+   To use the Sample tool, :kbd:`LMB` anywhere in the preview.
+   Information about the pixel under the mouse cursor is shown in an overlay at the bottom of the editor.
 
    In the order of appearance, the following information is shown:
 
    - The X and Y coordinates of the clicked pixel. Remember that the left bottom corner is location (0, 0).
-   - The values for the Red, Green, and Blue component as from the Color Picker.
-   - The Alpha value of the pixel.
-   - The Color Managed values of the Red, Green, and Blue component (the color as you see in the Preview).
-   - The Hue, Saturation, Value, and Luminance equivalent values of the Color Managed values.
+   - The values for the red, green, and blue component as from the color picker.
+   - The alpha value of the pixel.
+   - The color-managed values of the red, green, and blue component (the color as you see in the preview).
+   - The hue, saturation, value, and luminance equivalent values of the color-managed values.
 
    .. figure:: /images/editors_vse_preview_sample-tool.png
-      :alt: Sample Tool
 
-      Sample Tool example.
+      Sample tool example.
 
 :ref:`Annotate <tool-annotate-freehand>`
    Draw free-hand annotation.

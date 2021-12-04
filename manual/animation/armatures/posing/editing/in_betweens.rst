@@ -111,5 +111,5 @@ Blend to Neighbor
    :Menu:      :menuselection:`Pose --> In-Betweens --> Blend to Neighbor`
    :Shortcut:  :kbd:`Shift-Alt-E`
 
-Transitions the current pose with the neighbouring keyframes in the timeline.
+Transitions the current pose with the neighboring keyframes in the timeline.
 In order for this operator to work, there must be a keyframe before and after the current frame.

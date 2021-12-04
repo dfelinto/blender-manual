@@ -252,7 +252,7 @@ that tries to efficiently fill the :term:`Texture Space`.
 First it will uniformly scale the selected island,
 then individually transform each island so that they fill up the UV space as much as possible.
 
-Pack to
+Pack To
    The :doc:`UDIM </modeling/meshes/uv/workflows/udims>` grid to pack UV islands into.
 
    :Closest UDIM: Pack islands to closest UDIM.

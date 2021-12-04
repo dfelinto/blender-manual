@@ -3,14 +3,14 @@
 Overlays
 ********
 
-The Overlays pop-over configures the overlays that are displayed on top of images.
+The Overlays popover configures the overlays that are displayed on top of images.
 In the header, there is a button to turn off all overlays for the UV Editor.
 This option also toggles the visibility of :doc:`/modeling/meshes/uv/workflows/udims` tile information.
 The options that are visible in the pop-over depend on the UV Editor mode.
 
 .. seealso::
 
-   Addition :doc:`View Properties </editors/uv/sidebar>` can be configured in the sidebar.
+   Addition :doc:`View Properties </editors/uv/sidebar>` can be configured in the Sidebar.
 
 
 UV Editing

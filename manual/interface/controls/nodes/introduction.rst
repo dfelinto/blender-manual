@@ -74,12 +74,12 @@ Overlays
 ^^^^^^^^
 
 Overlays are information that is displayed on top of the nodes and node trees.
-There is a toggle to show or hide all overlays for the node editor next to the overlay pop over.
+There is a toggle to show or hide all overlays for the node editor next to the overlay popover.
 
 .. _bpy.types.SpaceNodeOverlay.show_wire_color:
 
 Wire Colors
-   Color node links based on their connected sockets
+   Color node links based on their connected sockets.
 
 .. _bpy.types.SpaceNodeEditor.show_annotation:
 

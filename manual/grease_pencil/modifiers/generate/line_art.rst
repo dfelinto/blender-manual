@@ -27,7 +27,7 @@ Options
 
 Use Cache
    Optimize rendering by using cached scene data from the first line art modifier in the stack.
-   This option has the disadvantage of certain settings becoming unavailable
+   This option has the disadvantage of certain settings becoming unavailable.
 
    This option only available when you have more than one Line Art modifier
    is the same modifier stack and the modifier is not the first Line Art modifier in the stack.
@@ -244,7 +244,7 @@ Chain
 
    Loose Edges
       Allow floating Edges that do not form a face to be chained together.
-   
+
    Loose as Contour
       Edges that do not form a face will be classified as contour lines.
 
@@ -309,7 +309,7 @@ Image Boundary Trimming
 
 Depth Offset
    Move strokes slightly towards the camera to avoid clipping while preserve depth for the viewport.
-   This option will be grayed out unless :ref:`Show in Front <bpy.types.Object.show_in_front>` is disabled.
+   This option is unavailable unless :ref:`Show in Front <bpy.types.Object.show_in_front>` is disabled.
 
 .. _bpy.types.LineartGpencilModifier.use_offset_towards_custom_camera:
 
