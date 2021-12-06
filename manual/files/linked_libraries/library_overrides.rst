@@ -11,9 +11,9 @@ the overridden one will be updated accordingly.
 
 .. note::
 
-   The current proxy system will be kept alongside for a few releases.
-   Automatic conversion from proxies to library overrides *is not planned*,
-   there will be a manual operator to do that, but results on complex characters are not guaranteed.
+   The old proxy system has been deprecated in Blender 3.0, and will be fully removed in Blender 3.1.
+   Automatic conversion from proxies to library overrides happens by default when loading a blend-file,
+   but results on complex characters are not guaranteed and may need manual fixes.
 
 Library overrides supports:
 
