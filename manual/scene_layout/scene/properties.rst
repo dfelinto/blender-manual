@@ -30,7 +30,7 @@ Background Scene
    This scene can have its own animation, physics simulations, etc,
    but you will have to select it from the *Scene* data-block menu, if you want to edit any of its contents.
 
-   Sets can themselves have a background set (they're recursively included).
+   Background Scenes can themselves have a Background Scene (they're recursively included).
    So you can always make additions to existing scenes by using them as a background
    to a newly created scene where your additions are made.
 
