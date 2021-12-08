@@ -24,8 +24,11 @@ NURBS splines will be transformed into poly splines in order to be trimmed.
 
 .. note::
 
-   If the *Start* input is larger than the *End*, then the resulting spline
-   will have a single point, located at the sample location of the *Start* value.
+   Since curve :doc:`normals </modeling/geometry_nodes/input/normal>` are calculated the final curve,
+   this node may change the resulting normals when the `Minimum` twist method is used, since the `Minimum`
+   method considers the entire length of the curve to decide the final normals. In some cases the
+   :doc:`/modeling/geometry_nodes/attribute/capture_attribute` could be used to avoid this,
+   by saving the original normals to be used later.
 
 Inputs
 ======
@@ -35,6 +38,11 @@ Curve
 
 Start
    The factor or length used to determine where to start each output spline.
+
+   .. note::
+
+      If the *Start* input is larger than the *End*, then the resulting spline
+      will have a single point, located at the sample location of the *Start* value.
 
 End
    The factor or length used to determine where to end each output spline.

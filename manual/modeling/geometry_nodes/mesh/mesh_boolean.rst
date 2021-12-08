@@ -37,7 +37,7 @@ Operation
    :Intersect:
       Produce a new geometry containing only the volume inside of both geometry 1 and geometry 2.
    :Union:
-      The two input pieces of geometry are joined, then any interior elements are removed.
+      The two input meshes are joined, then any interior elements are removed.
    :Difference:
       Geometry 2 is subtracted from geometry 1 (everything outside of geometry 2 is kept).
 

@@ -5,7 +5,7 @@
 Join Geometry Node
 ******************
 
-The *Join Geometry* node merges separately generated pieces of geometry into a single one.
+The *Join Geometry* node merges separately generated geometries into a single one.
 If the geometry inputs contain different types of data, the output will also contain different data types.
 
 .. figure:: /images/modeling_geometry-nodes_geometry_join-geometry_node.png
@@ -33,12 +33,20 @@ and a vector data type on another geometry, the ``weight`` attribute on the outp
 a vector data type. The same heuristic is used for attribute domains, the domain with the most information
 will be used for the output.
 
+.. warning::
+
+   Like other geometry nodes, this node always outputs generic typed attributes. So instead of a
+   :term:`Vertex Group` attribute, it will create a "Float" attribute on the result, and it will
+   create a generic 2D vector attribute instead of a special "UV Map" attribute. Some other areas
+   of Blender don't properly handle generic attributes in version 3.0. 
+   
+   Custom face corner normals are also not transferred currently.
 
 Inputs
 ======
 
 Geometry
-   Pieces of geometry that will be joined. Multiple inputs are allowed.
+   Geometry that will be joined. Multiple inputs are allowed.
    When the node is muted, only the first link will be passed through.
 
 

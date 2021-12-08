@@ -20,6 +20,11 @@ with a *Point* domain, including meshes, point clouds, and curve control points.
    The :ref:`bpy.ops.object.duplicates_make_real` operator can be used to create objects
    from instances generated with this node.
 
+.. note::
+
+   To instance object types that do not contain geometry, like a light object, the
+   :doc:`/modeling/geometry_nodes/input/object_info` can be used. Other objects like
+   :doc:`Metaball </modeling/metas/introduction>` objects are not supported for instancing.
 
 Inputs
 ======

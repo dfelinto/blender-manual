@@ -24,6 +24,12 @@ The main node used to create instances in geometry nodes
 is the :doc:`/modeling/geometry_nodes/instances/instance_on_points`.
 
 
+.. warning::
+
+   Currently instancing from geometry nodes cannot be mixed with instancing from the
+   :doc:`/scene_layout/object/properties/instancing/index` panel in the property editor.
+
+
 .. _geometry-nodes_nested-instancing:
 
 Nested Instancing

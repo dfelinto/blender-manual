@@ -4,19 +4,19 @@
 Fields
 ******
 
-.. figure:: /images/modeling_geometry-nodes_fields_title.png
-   :align: center
-
-   A field input to a node.
-
 Fundamentally, a field is a function: a set of instructions that can transform an arbitrary number
 of inputs into a single output. A field's result can then be calculated many times with different input data.
 They are used all over geometry nodes to allow calculations that have different results
 for every element (mesh vertices, faces, etc.).
 
+.. figure:: /images/modeling_geometry-nodes_fields_title.png
+   :align: center
+
+   A field input to a node.
+
 For example, in the figure above, the field connected to the "Set Position" node
 depends on two inputs, :doc:`position </modeling/geometry_nodes/input/position>` and
-:doc:`index </modeling/geometry_nodes/input/index>`, and transforms them into
+:doc:`index </modeling/geometry_nodes/input/input_index>`, and transforms them into
 a vector using a single instruction.
 
 

@@ -3,14 +3,10 @@
   Instancing
 ##############
 
-There are currently three ways in Blender to procedurally instantiate (or duplicate)
-objects directly from other objects.
-These options are located in the :menuselection:`Properties --> Object Properties --> Instancing` panel.
-
 .. note::
 
-   There are other ways to indirectly instantiate objects,
-   e.g. from a :doc:`particle system </physics/particles/emitter/render>`...
+   Geometry nodes provides a more flexible way to instance objects, with the
+   :doc:`/modeling/geometry_nodes/instances/instance_on_points`.
 
 Vertices
    This creates an instance of all children of this object on each vertex

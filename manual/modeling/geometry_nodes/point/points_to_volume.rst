@@ -15,6 +15,10 @@ The new volume grid is named "density".
 
 It usually makes sense to combine this node with the :doc:`/modeling/geometry_nodes/volume/volume_to_mesh`.
 
+.. warning::
+
+   This node expects that point positions are not extremely large.
+   For position values of many billions, the behavior isn't guaranteed, and it may be unstable.
 
 Inputs
 ======

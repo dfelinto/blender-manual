@@ -52,7 +52,7 @@ Anonymous attributes are still stored on the geometry like other attributes, and
 automatically interpolated when the geometry changes with other nodes, except for a few cases.
 So generally, if the node link is still accessible, the attribute it references will be too.
 However, anonymous attributes cannot be connected to a completely separate geometry
-that was not created from their source. To transfer attributes between separate pieces of geometry,
+that was not created from their source. To transfer attributes between separate geometries,
 the :doc:`/modeling/geometry_nodes/attribute/transfer_attribute` can be used.
 
 
@@ -61,12 +61,16 @@ Attribute Data Types
 
 The type of an attribute is the kind of data stored at each element.
 
-:Float: Floating-point value
-:Integer: 32-bit integer
-:Boolean: True or false value
-:Vector: 3D vector with floating-point values
-:Color: RGBA color with floating-point precision
+   :Boolean: True or false value
+   :Integer: 32-bit integer
+   :Float: Floating-point value
+   :Vector: 3D vector with floating-point values
+   :Color: RGBA color with floating-point precision
 
+The above list is in the order of least to most "complex" (An integer can contain more data than a
+boolean, so it is more complicated). When joining separate geometries together, the more complex data
+type is preferred when there are matching names. This is particularly important when joining geometry
+with named attributes with the :doc:`/modeling/geometry_nodes/geometry/join_geometry`
 
 Attribute Domains
 =================
