@@ -67,7 +67,7 @@ Show
       Set visibility of selection outlines in the VR view.
    Controllers
       Set visibility of VR motion controllers.
-      Requires enabling the `Use Controller Actions <VR Session>`_ option.
+      Requires enabling the `Use Controller Actions <VR Session_>`_ option.
    Custom Overlays
       Set visibility of custom operator drawing (e.g. default teleport beam).
 Controller Style
@@ -92,12 +92,25 @@ Landmark
    Selected Landmark
       Defines which landmark's settings are shown below the list.
       Changing the selected landmark does not have an influence on the VR view.
-   Activate (circle icon)
+   Activate ``〇``
       Activates a landmark, making it change the base pose of the VR view.
    Add ``+``
       Create a landmark.
    Remove ``-``
-      Deletes the selected landmark.
+      Delete the selected landmark.
+   Add from Session ``⊕``
+      Create a landmark from the viewer pose of the running VR session.
+   Landmark Controls ``v``
+      Add Landmark from Camera
+         Add a new landmark from the active camera object.
+      Update Custom Landmark
+         Update the selected landmark from the current VR viewer pose.
+      Cursor to Landmark
+         Move the 3D Cursor to the selected landmark.
+      Scene Camera to Landmark
+         Position the scene camera at the selected landmark.
+      Camera from Landmark
+         Create a new camera from the selected landmark.
 Type
    Scene Camera
       Follow the :ref:`scene's active camera<scene-camera>` to define the base pose of the viewer.
@@ -142,9 +155,9 @@ Show VR Camera
    in the current 3D Viewport.
 Show VR Controllers
    Draw indicators of tracked VR motion controllers in the current 3D viewport.
-   Requires enabling the `Use Controller Actions <VR Session>`_ option.
+   Requires enabling the `Use Controller Actions <VR Session_>`_ option.
 Show Landmarks
-   Draw `landmark <Landmarks>`_ indicators in the current 3D Viewport.
+   Draw `landmark <Landmarks_>`_ indicators in the current 3D Viewport.
 Mirror VR Session
    Make the current 3D Viewport follow the perspective of the VR view.
 
@@ -154,7 +167,7 @@ Mirror VR Session
    :Category:  3D View
    :Description: View the viewport with virtual reality glasses (head-mounted displays).
    :Location: :menuselection:`3D Viewport --> Sidebar --> VR tab`
-   :File: viewport_vr_preview/__init__.py
+   :File: viewport_vr_preview folder
    :Author: Julian Eisel, Sebastian Koenig, Peter Kim
    :Maintainer: Julian Eisel, Peter Kim
    :License: GPL
