@@ -50,7 +50,7 @@ Snapping
 Toolbar
 -------
 
-The Geometry Node editor has several tools to work with tools that can be accessed from the toolbar.
+The Geometry Node editor has several tools to work with tools that can be accessed from the Toolbar.
 
 
 Sidebar

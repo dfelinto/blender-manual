@@ -184,7 +184,7 @@ Selected/Active Colors
 
 Bone Groups can be added and deleted as done in the general Bone Group panel
 by clicking on the ``+`` or ``-`` buttons.
-All Bone Groups can be deleted at once by clicking on the specials menu.
+All Bone Groups can be deleted at once by clicking on the Specials menu.
 
 To add the predefined Rigify Default Bone Groups list click on *Add Standard* button.
 

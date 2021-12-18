@@ -138,7 +138,7 @@ Or contracting the selection when switching to a lower mode.
 X-Ray
 =====
 
-The :ref:`x-ray <3dview-shading-xray>` setting is not just for shading, it impacts selection too.
+The :ref:`X-Ray <3dview-shading-xray>` setting is not just for shading, it impacts selection too.
 When enabled, selection isn't occluded by the objects geometry (as if the object was solid).
 
 .. list-table::

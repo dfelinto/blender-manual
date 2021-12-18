@@ -10,7 +10,7 @@ Boolean Node
 
    Boolean node.
 
-The *Boolean* node provides a boolean value.
+The *Boolean* node provides a Boolean value.
 
 
 Inputs
@@ -22,12 +22,12 @@ This node has no input sockets.
 Properties
 ==========
 
-Single boolean value (true/false).
+Single Boolean value (true/false).
 
 
 Outputs
 =======
 
 Boolean
-   Standard boolean output.
+   Standard Boolean output.
 

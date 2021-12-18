@@ -135,7 +135,7 @@ Path Mode
    :Auto: Uses relative paths for files which are in a subdirectory of the exported location,
           absolute for any directories outside that.
    :Absolute: Uses full paths.
-   :Relative: Uses relative paths in every case (except when on a different drive on windows).
+   :Relative: Uses relative paths in every case (except when on a different drive on Windows).
    :Match: Uses relative / absolute paths based on the paths used in Blender.
    :Strip Path: Only write the filename and omit the path component.
    :Copy: Copy the file on exporting and reference it with a relative path.

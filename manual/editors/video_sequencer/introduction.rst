@@ -34,7 +34,7 @@ Header
    This region displays menus and buttons for interacting with the editor.
    The header changes slightly depending on the selected view type (see below).
 Preview
-   This region shows the output of the sequencer at the time of the playhead.
+   This region shows the output of the Sequencer at the time of the Playhead.
 Sequencer
    This region shows timeline for managing the montage of strips.
 Properties

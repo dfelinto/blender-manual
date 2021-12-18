@@ -21,7 +21,7 @@ Mesh
    Standard geometry input.
 
 Selection
-   A standard boolean selection input to determine which edges will be split.
+   A standard Boolean selection input to determine which edges will be split.
 
 .. note::
 

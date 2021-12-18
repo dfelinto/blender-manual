@@ -401,7 +401,7 @@ Type
    :Integer: A numeric value without any decimals e.g. 1, 2, 3, or 4.
    :Integer Array: A collection of multiple integer data types e.g. ``[1, 2, 3, 4]`` .
    :String: A sequence of characters such as "Some Text".
-   :Python: Edit a python data type directly, used for unsupported data types.
+   :Python: Edit a Python data type directly, used for unsupported data types.
 
    .. note::
 

@@ -30,7 +30,7 @@ The OBJ format is a popular plain text format, however, it has only basic geomet
 .. warning::
 
    - Importing very large OBJ-files (over a few 100mb), can use a lot of RAM.
-   - OBJ's export using Unix line endings ``\n`` even on windows,
+   - OBJ's export using Unix line endings ``\n`` even on Windows,
      if you open the files in a text editor it must recognize ``\n`` line endings.
 
 
@@ -132,7 +132,7 @@ Path Mode
    :Auto: Uses relative paths for files which are in a subdirectory of the exported location,
           absolute for any directories outside that.
    :Absolute: Uses full paths.
-   :Relative: Uses relative paths in every case (except when on a different drive on windows).
+   :Relative: Uses relative paths in every case (except when on a different drive on Windows).
    :Match: Uses relative / absolute paths based on the paths used in Blender.
    :Strip Path: Only write the filename and omit the path component.
    :Copy: Copy the file on exporting and reference it with a relative path.

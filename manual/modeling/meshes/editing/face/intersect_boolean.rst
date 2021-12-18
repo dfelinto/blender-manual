@@ -22,7 +22,7 @@ Boolean Operation
       The target mesh is subtracted from the modified mesh (everything *outside* of the target mesh is kept).
 
 Solver
-   Algorithm used to calculate the boolean intersections.
+   Algorithm used to calculate the Boolean intersections.
 
    :Fast:
       Uses a mathematically simple solver which offers the best performance;
