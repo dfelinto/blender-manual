@@ -10,12 +10,8 @@ On the other hand, they also have some limitations in rendering complex scenes, 
 and issues with interactivity when using the same graphics card for display and rendering.
 
 To enable GPU rendering, go into the :menuselection:`Preferences --> System --> Cycles Render Devices`,
-and select either *CUDA*, *OptiX*, or *HIP*. Next, you must configure each scene to use GPU rendering in
+and select either *CUDA*, *OptiX*, *HIP*, or *Metal*. Next, you must configure each scene to use GPU rendering in
 :menuselection:`Properties --> Render --> Device`.
-
-.. note::
-
-   GPU rendering is only supported on Windows and Linux; macOS is currently not supported.
 
 
 Supported Hardware
@@ -75,6 +71,14 @@ information about AMD graphics cards and their architectures.
 
    - :doc:`/render/shader_nodes/osl`
    - *Clip* extension mode in the :doc:`/render/shader_nodes/textures/image`
+
+
+Apple
+-----
+
+Metal is enabled for GPU rendering on Apple Silicon using macOS 12.0 (Monterey) and newer.
+
+.. note:: :doc:`/render/shader_nodes/osl` is not supported.
 
 
 Frequently Asked Questions
