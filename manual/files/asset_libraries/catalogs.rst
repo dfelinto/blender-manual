@@ -3,40 +3,38 @@
 Asset Catalogs
 **************
 
-Asset Catalogs help you to organize your assets. They look a little bit
-like directories on disk, but they're totally independent of the location of
-your blend-files. Assign each asset in a blend-file to its own catalog, or
-have one big catalog with all the assets of all the blend-files combined. It's
-all up to you.
+Asset Catalogs help you to organize your assets. They look a little bit like file directories,
+but they are completely independent of the location of your blend-files.
+Assign each asset in a blend-file to its own catalog, or have one big catalog
+with all the assets of all the blend-files combined. It's all up to you.
 
 Similar to :doc:`/scene_layout/collections/collections`, catalogs can be nested
 i.e. you can have a main catalog that contains several nested catalogs.
 For example, this allows you to have a catalog of assets for "Furniture"
-with sub catalogs of "Tables", "Chairs", Lamps, ect...
+with sub-catalogs of "Tables", "Chairs", "Lamps", etc...
 
-For more technical information, see `Asset Catalogs on the Blender
-Wiki <https://wiki.blender.org/wiki/Source/Architecture/Asset_System/Catalogs>`_.
+For more technical information,
+see `Asset Catalogs on the Blender Wiki <https://wiki.blender.org/wiki/Source/Architecture/Asset_System/Catalogs>`__.
 
 .. figure:: /images/asset-browser-catalogs.png
    :width: 640px
 
-   Example filesystem and catalog structures.
+   Example file system and catalog structures.
 
 
 The Home Location of Assets
 ===========================
 
-There can be as many catalogs as you want, but **an asset can be assigned to a
-single catalog** at a time. This is similar to a file system, where a file is
-only in one directory (ignoring advanced things like symbolic links).
+There can be as many catalogs as you want, but **an asset can be assigned to a single catalog** at a time.
+This is similar to a file system, where a file is only in one directory
+(ignoring advanced things like symbolic links).
 
-Catalogs themselves can be nested and moved around by dragging & dropping.
-Moving a catalog will not modify the assets in it; they will simply move along
+Catalogs themselves can be nested and moved by dragging and dropping.
+Moving a catalog will not modify the assets it contains; they will simply move along
 to the new location of the catalog.
 
-Selecting a catalog in the asset browser will show all assets in that catalog
-and in child catalogs. So, in the example above, selecting
-``Characters/Ellie/Poses`` will also show assets from
+Selecting a catalog in the Asset Browser will show all assets in that catalog and in child catalogs.
+So, in the preceding example, selecting ``Characters/Ellie/Poses`` will also show assets from
 ``Characters/Ellie/Poses/Head`` and ``Characters/Ellie/Poses/Hands``.
 
 
@@ -59,47 +57,45 @@ Components of a Catalog
 =======================
 
 Each catalog consists of a *catalog path*, a *UUID*, and a *simple name*.
-Normally you'd only deal with the catalog path; the rest is for internal Blender
+Normally you would only deal with the catalog path; the rest is for internal Blender
 use and/or for emergency situations.
 
 
 Catalog Path
 ------------
 
-The path of a catalog determines where in the catalog hierarchy the catalog is
-shown. Examples are ``Characters/Ellie/Poses/Hand`` or ``Kitbash/City/Skyscrapers``,
-which would result in the following catalog tree. The highlighted catalog has
-path ``Characters/Ellie/Poses/Hand``.
+The path of a catalog determines where in the catalog hierarchy the catalog is shown.
+Examples are ``Characters/Ellie/Poses/Hand`` or ``Kitbash/City/Skyscrapers``,
+which would result in the following catalog tree.
+The highlighted catalog has path ``Characters/Ellie/Poses/Hand``.
 
 .. figure:: /images/asset-catalog-tree.png
    :width: 257px
 
-   Example tree of asset catalogs
+   Example tree of asset catalogs.
 
 
 UUID
 ----
 
-Each catalog has a `UUID <https://en.wikipedia.org/wiki/Universally_unique_identifier>`_,
-which is normally hidden from the user interface (enable Developer Extras and
-the experimental Asset Debug Info option to see them). This is what is stored in
-the asset, and what determines the "identity" of the catalog. As a result, a
-catalog can be renamed or moved around (i.e. you can change its path), and all
-assets that are contained in it will move along with it. This only requires a
-change to the catalog itself, and not to any asset blend file.
+Each catalog has a `UUID <https://en.wikipedia.org/wiki/Universally_unique_identifier>`__,
+which is normally hidden from the user interface
+(enable Developer Extras and the experimental Asset Debug Info option to see them).
+This is what is stored in the asset, and what determines the "identity" of the catalog.
+As a result, a catalog can be renamed or moved around (i.e. you can change its path),
+and all assets that are contained in it will move along with it.
+This only requires a change to the catalog itself, and not to any asset blend-file.
 
 
 Simple Name
 -----------
 
-Each catalog has an optional *simple name*. This name is stored along with the
-UUID in each asset. The purpose is to make it possible for humans to recognise
-the catalog the asset was assigned to, even when the *catalog definition file*
-(see below) is lost.
+Each catalog has an optional *simple name*. This name is stored along with the UUID in each asset.
+The purpose is to make it possible for humans to recognize the catalog the asset was assigned to,
+even when the *catalog definition file* (see below) is lost.
 
 Like the UUID, the simple name is normally hidden from the user interface.
-Enable Developer Extras in the interface preferences to make it visible in the
-asset browser.
+Enable Developer Extras in the interface preferences to make it visible in the Asset Browser.
 
 
 .. _asset-catalog-definition-file:
@@ -107,24 +103,22 @@ asset browser.
 Catalog Definition Files
 ========================
 
-Asset catalogs are stored in Catalog Definition Files (CDFs). Blender 3.0
-supports a single CDF per asset library. It is stored in
-``blender_assets.cats.txt`` in the root directory of the asset library. If the
-file does not exist, Blender will create it when the catalogs are saved.
+Asset catalogs are stored in Catalog Definition Files (CDFs). Blender 3.0 supports a single CDF per asset library.
+It is stored in ``blender_assets.cats.txt`` in the root directory of the asset library. If the file does not exist,
+Blender will create it when the catalogs are saved.
 
 
-Which File To Write To
+Which File to Write To
 ----------------------
 
-Asset catalogs can be saved independently of the blend file; the catalog editor
-has its own "Save" button.
+Asset catalogs can be saved independently of the blend-file; the catalog editor has its own "Save" button.
 
 
 Format
 ------
 
-Catalog Definition Files (CDFs) are relatively simple text files, encoded in
-UTF-8. Each CDF consists of a version indicator, and a line of text per catalog.
+Catalog Definition Files (CDFs) are relatively simple text files, encoded in UTF-8.
+Each CDF consists of a version indicator, and a line of text per catalog.
 Each catalog line is colon-separated, of the form ``{UUID}:{path}:{simple name}``.
 
 
