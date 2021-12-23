@@ -31,7 +31,7 @@ CUDA
 OptiX
    If the system has a compatible Nvidia OptiX device, it will be available as an option for rendering with Cycles.
 HIP
-   If the system has a compatible AMD HIP device, it will available as an option for rendering with Cycles.
+   If the system has a compatible AMD HIP device, it will be available as an option for rendering with Cycles.
 
 .. _prefs-system-cycles-distributive-memory:
 
