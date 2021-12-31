@@ -48,6 +48,3 @@ Alpha
 
 Depending on the Render passes that are enabled, other sockets are available.
 See :doc:`render passes </render/layers/passes>`.
-
-Z
-   By default the Z depth pass is enabled.
