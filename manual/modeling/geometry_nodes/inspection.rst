@@ -31,7 +31,7 @@ For geometry sockets only some data about the geometry is stored, including the 
 data types the geometry contains, and a count of their elements.
 
 Socket values are only logged from when the node tree was executed, so a node must be
-connected to the group output to have a value for inspection. Values are not logged during
+connected to the *Group Output* to have a value for inspection. Values are not logged during
 rendering, to improve performance.
 
 
@@ -65,5 +65,29 @@ Node Warnings
 
 When the inputs to a node are invalid, it displays a warning in the title.
 Hovering over the warning icon shows the error message. These warnings are only
-generated when the node is executed, so a node must be connected to the group output
+generated when the node is executed, so a node must be connected to the *Group Output*
 to have a warning.
+
+
+Node Timings Overlay
+====================
+
+.. figure:: /images/modeling_geometry-nodes_inspection_node-timings.png
+   :align: center
+
+   The node timings overlay.
+
+Node timings show how long a node took to execute the last time the node group was evaluated.
+They can be turned on in the overlays popover on the top right of the node editor.
+When a node group is used in multiple places, the timings depend on the context of
+the node editor, which is displayed in the path on the top left.
+
+Frame nodes display the total time from all of the contained nodes
+and the *Group Output* node displays the total time for the entire node group.
+
+The displayed timings should only be considered an approximation, since they can
+also take into account actions like copying or deleting a geometry input that aren't
+part of the node's operation. Also, when a node uses multiple CPU cores, the evaluation
+system might work on other nodes at the same time. It's also important to remember
+that :ref:`field nodes <field-node-types>` generally don't do work by themselves,
+so their execution time is only added to the data-flow nodes they are connected to.

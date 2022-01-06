@@ -65,6 +65,7 @@ fields the node connection will be drawn as a dashed line.
 If you make the mistake of connecting a non-field socket to a field socket,
 the connection will be drawn as a solid red line indicating that there is an error.
 
+.. _field-node-types:
 
 Node Types
 ==========
