@@ -17,9 +17,10 @@ but also many nodes can change the values of specific attributes.
 Named Attributes
 ================
 
-In the modifier, it is possible to access attributes with names, created and used in other areas
-of Blender like shaders, painting, and UV mapping. The attribute can be chosen with a name,
-and the string input allows you to search and choose existing attributes.
+Named attributes are created and used in other areas of Blender like shaders, painting, and UV mapping.
+In the :doc:`modifier panel </modeling/modifiers/generate/geometry_nodes>`, a named attribute can
+be used for input by clicking the icon to the left of the value button. The string input input
+allows you to search and choose existing attributes from the modifier's input geometry.
 
 .. figure:: /images/modeling_geometry-nodes_attribute-reference_search.png
    :align: center
