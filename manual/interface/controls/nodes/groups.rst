@@ -57,7 +57,7 @@ Panel
 .. reference::
 
    :Mode:      All Modes
-   :Panel:     :menuselection:`Sidebar --> Group --> Interface`
+   :Panel:     :menuselection:`Sidebar --> Group --> Inputs`, :menuselection:`Sidebar --> Group --> Outputs`
 
 .. figure:: /images/interface_controls_nodes_groups_interface-panel.png
    :align: right
