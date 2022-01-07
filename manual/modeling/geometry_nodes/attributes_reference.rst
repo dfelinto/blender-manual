@@ -73,6 +73,8 @@ boolean, so it is more complicated). When joining separate geometries together, 
 type is preferred when there are matching names. This is particularly important when joining geometry
 with named attributes with the :doc:`/modeling/geometry_nodes/geometry/join_geometry`
 
+.. _attribute-domains:
+
 Attribute Domains
 =================
 

@@ -28,9 +28,14 @@ Inputs
 
    .. _bpy.ops.object.geometry_nodes_input_attribute_toggle:
 
-   If the input is to a :doc:`Field </modeling/geometry_nodes/fields>` socket,
-   this will be a toggle to switch between an attribute or a single value to
-   define the data for every element.
+   If the input is connected to a :doc:`Field </modeling/geometry_nodes/fields>` socket,
+   there will be a toggle to switch between using a single value for the input or
+   using an attribute on the input geometry. Using an attribute for input means the
+   value can be different for every element.
+
+   .. note::
+      The :ref:`attribute domain <attribute-domains>` used to access the attribute is defined by the
+      node the input is connected to.
 
 
 Output Attributes
