@@ -30,7 +30,7 @@ Set Origin
 
 .. reference::
 
-   :Mode:      Object and Edit Modes
+   :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Set Origin`
 
 The object origin and geometry can be moved relative to each other and to the 3D cursor.
