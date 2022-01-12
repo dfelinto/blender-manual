@@ -30,8 +30,8 @@ Probability
 
 ID
    An ID to drive the random number generator seed. By default, this input uses the same value
-   as if the :doc:`/modeling/geometry_nodes/input/id`, which is the ``id`` attribute of the context
-   geometry if it exists, and otherwise the :doc:`index </modeling/geometry_nodes/input/index>`.
+   as of the :doc:`/modeling/geometry_nodes/input/id`, which is the ``id`` attribute of the context
+   geometry if it exists, and otherwise the :doc:`index </modeling/geometry_nodes/input/input_index>`.
 
 Seed
    A field to :term:`Seed` the random number generator. This can be used to generate

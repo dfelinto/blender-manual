@@ -30,7 +30,7 @@ Selection
 
 ID
    The value for each element. By default, this input uses
-   the :doc:`index </modeling/geometry_nodes/input/index>`, which is useful
+   the :doc:`index </modeling/geometry_nodes/input/input_index>`, which is useful
    when stable IDs are desired when deleting a dynamic number of instances.
 
 

@@ -30,7 +30,7 @@ Source Position
 
 Index
    Which index to use when retrieving the data from the input field in *Index* mode.
-   By default, the :doc:`/modeling/geometry_nodes/input/index` is connected, meaning that
+   By default, the :doc:`index </modeling/geometry_nodes/input/input_index>` is used, meaning that
    the data from the source attribute is copied directly to the output. However, a different
    index can be connected, resulting in a "shuffling" of the values.
    Indices that are either too large or below 0 are clamped.
