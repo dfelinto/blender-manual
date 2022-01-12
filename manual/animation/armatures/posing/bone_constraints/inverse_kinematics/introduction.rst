@@ -248,4 +248,4 @@ or by using other constraints.
 
    `IK Arm Example <https://wiki.blender.org/wiki/File:IK_Arm_Example.blend>`__.
 
-Note that, if a *Pole Target* is used, IK locking will not work on the root boot.
+Note that, if a *Pole Target* is used, IK locking will not work on the root bone.
