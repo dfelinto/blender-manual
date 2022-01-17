@@ -11,7 +11,7 @@ Importing & Exporting Files
 
 Sometimes you may want to utilize files that either came from other 2D or 3D software,
 or you may want to use the things you have made in Blender and edit them in other software.
-Luckily, Blender offers a wide range of file formats (e.g. OBJ, FBX, 3DS, PLY, STL, etc.)
+Luckily, Blender offers a wide range of file formats (e.g. ABC, USD, OBJ, FBX, PLY, STL, etc.)
 that can be used to import and export.
 
 Popular formats are enabled by default, other formats are also supported and distributed with Blender,
