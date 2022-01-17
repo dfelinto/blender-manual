@@ -55,14 +55,14 @@ Only per-object sorting is available and is automatically done on all transparen
 
 .. note::
 
-   This per-object sorting has already a cost and having thousands of
+   Per-object sorting has a performance cost and having thousands of
    these objects in a scene will greatly degrade performance.
 
 Show Backside
    If enabled, all transparent fragments will be rendered.
    If disabled, only the front-most surface fragments will be rendered.
    Disable this option to ensure correct appearance of transparency from any point of view.
-   Then using *Alpha Blending* this option should be disabled because with *Alpha Blending*,
+   When using *Alpha Blending* this option should be disabled because with *Alpha Blending*,
    the order in which triangles are sorted is important.
 
 
