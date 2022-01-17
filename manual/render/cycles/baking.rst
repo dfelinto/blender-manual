@@ -228,12 +228,6 @@ Target
       Bake to the image data-block associated with the :term:`Active`
       :doc:`Image Texture </render/shader_nodes/textures/image>` node.
 
-      .. _bpy.types.BakeSettings.margin:
-
-      Margin
-         Baked result is extended this many pixels beyond the border of each UV "island",
-         to soften seams in the texture.
-
       .. _bpy.types.BakeSettings.use_clear:
 
       Clear Image
@@ -242,3 +236,25 @@ Target
    :Vertex Colors:
       Bake to the :term:`Active` :doc:`Vertex Color </sculpt_paint/vertex_paint/index>` layer on the active mesh.
       Note, the active object must be a mesh as other object types do not have vertex colors.
+
+Margin
+------
+
+When baking to images, by default a margin is generated around UV "islands".
+This is important to avoid discontinuities at UV seams, due to texture filtering and mipmapping.
+
+.. _bpy.types.BakeSettings.margin_type:
+
+Type
+   Method to generate the margin.
+
+   :Extend:
+      Extend border pixels outwards.
+
+   :Adjacent Faces:
+      Fill margin using pixels from adjacent faces across UV seams.
+
+.. _bpy.types.BakeSettings.margin:
+
+Size
+   Size of the margin in pixels.
