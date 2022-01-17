@@ -37,7 +37,9 @@ Quad Method
    :Fixed Alternate:
       Split the quads on their 2nd and 4th vertices.
    :Shortest Diagonal:
-      Split the quads based on the diagonal distance between their vertices.
+      Split the quads along their shortest diagonal.
+   :Longest Diagonal:
+      Split the quads along their longest diagonal. This is the preferred mode for cloth simulations.
 
 N-gon Method
    :Beauty:
