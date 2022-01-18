@@ -25,6 +25,6 @@ As such, they have no input sockets; only outputs.
    render_layers.rst
    rgb.rst
    texture.rst
-   time.rst
+   time_curve.rst
    track_position.rst
    value.rst

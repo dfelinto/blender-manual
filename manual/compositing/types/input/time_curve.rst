@@ -2,16 +2,16 @@
 
 .. --- copy below this line ---
 
-*********
-Time Node
-*********
+***************
+Time Curve Node
+***************
 
-.. figure:: /images/compositing_node-types_CompositorNodeTime.png
+.. figure:: /images/compositing_node-types_CompositorNodeTimeCurve.png
    :align: right
 
-   Time Node.
+   Time Curve Node.
 
-The *Time node* generates a factor value (from 0.0 to 1.0)
+The *Time Curve node* generates a factor value (from 0.0 to 1.0)
 that changes according to the curve as time progresses through the *Timeline*.
 
 
@@ -50,13 +50,13 @@ Factor
 
    The :doc:`Map Value </compositing/types/vector/map_value>`
    node can be used to map the output to a more appropriate value.
-   With sometimes curves, it is possible that the Time node may output a number larger than one or less than zero.
+   With sometimes curves, it is possible that the Time Curve node may output a number larger than one or less than zero.
    To be safe, use the Min/Max clamping function of the Map Value node to limit output.
 
 
 Example
 =======
 
-.. figure:: /images/compositing_types_input_time_example.png
+.. figure:: /images/compositing_types_input_time_curve_example.png
 
    Time controls from left to right: no effect, slow down, freeze, accelerate, reverse.

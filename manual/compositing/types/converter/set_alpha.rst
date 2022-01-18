@@ -70,7 +70,7 @@ The node tree below shows how to do this using the Set Alpha node.
    Fade to black.
 
 In the example above, the alpha channel of the swirl image is ignored.
-Instead, a :doc:`Time node </compositing/types/input/time>`
+Instead, a :doc:`Time Curve node </compositing/types/input/time_curve>`
 introduces a factor from 0.0 to 1.0 over 60 frames, or about 2 seconds,
 to the Set Alpha node. Note that the time curve is exponentially-shaped,
 so that the overall blackness will fade in slowly and then accelerate toward the end.
