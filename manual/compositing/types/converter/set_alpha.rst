@@ -99,7 +99,7 @@ Fade In a Title
 To introduce your animation,
 you will want to present the title of your animation over a background.
 You can have the title fly in, or fade it in. To fade it in,
-use the Set Alpha node with the Time node as shown below.
+use the Set Alpha node with the Time Curve node as shown below.
 
 .. figure:: /images/compositing_types_converter_set-alpha_fade-in-title.png
 
