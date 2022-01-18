@@ -24,6 +24,7 @@ As such, they have no input sockets; only outputs.
    movie_clip.rst
    render_layers.rst
    rgb.rst
+   scene_time.rst
    texture.rst
    time_curve.rst
    track_position.rst

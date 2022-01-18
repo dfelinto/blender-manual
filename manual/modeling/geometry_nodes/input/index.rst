@@ -15,6 +15,7 @@ Nodes used mainly as input to other nodes.
    is_viewport.rst
    material.rst
    object_info.rst
+   scene_time.rst
    string.rst
    value.rst
    vector.rst
