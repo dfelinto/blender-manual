@@ -58,6 +58,8 @@ Make Default
    for generating thumbnails and the default for opening blend-files.
 
 
+.. _prefs-system-memory-and-limits:
+
 Memory & Limits
 ===============
 
