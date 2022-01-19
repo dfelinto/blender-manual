@@ -10,21 +10,21 @@ Transfer Attribute Node
 
    Transfer Attribute node.
 
-The *Transfer Attribute* node retrieves values from a target geometry and provides them as a field,
+The *Transfer Attribute* node retrieves values from a source geometry and provides them as a field,
 so they can be used anywhere.
 
 
 Inputs
 ======
 
-Target
+Source
    The geometry to retrieve the attribute from.
 
 Attribute
-   A field to evaluate on the *Target* geometry for use with the transfer method.
+   A field to evaluate on the *Source* geometry for use with the transfer method.
 
 Source Position
-   The position to start from when finding the closest location on the target mesh or point cloud.
+   The position to start from when finding the closest location on the source mesh or point cloud.
    Used in the *Nearest Face Interpolated* and *Nearest* modes. By default, this is the same as
    if the :doc:`/modeling/geometry_nodes/input/position` was connected.
 
@@ -54,7 +54,7 @@ Mapping
 
    :Index:
       Copy the attribute data from the value at the input index.
-      In this mode, the target geometry can consist of a mesh, point cloud, or curve. The matching
+      In this mode, the source geometry can consist of a mesh, point cloud, or curve. The matching
       component type from the context will be chosen if possible, otherwise a component will be chosen
       in that order.
 
@@ -72,7 +72,7 @@ Outputs
 =======
 
 Attribute
-   The data retrieved from the *Target* geometry, mapped based on the node's settings and inputs.
+   The data retrieved from the *Source* geometry, mapped based on the node's settings and inputs.
 
 
 Examples
