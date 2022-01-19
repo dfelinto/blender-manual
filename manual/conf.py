@@ -101,6 +101,9 @@ language = 'en'
 locale_dirs = ['../locale/']
 gettext_compact = "blender_manual"
 
+# If true, “fuzzy” messages in the message catalogs are used for translation.
+gettext_allow_fuzzy_translations = False
+
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -195,6 +198,9 @@ html_show_copyright = True
 
 # If true, “Created using Sphinx” is shown in the HTML footer.
 html_show_sphinx = False
+
+# If true, the text around the keyword is shown as summary of each search result.
+html_show_search_summary = True
 
 
 # -- Options for HTML help output --------------------------------------------
