@@ -86,7 +86,7 @@ Align Y
 Outputs
 =======
 
-Curves
+Curve Instances
    Curve instances geometry.
 
 Remainder
