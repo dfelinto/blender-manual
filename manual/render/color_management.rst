@@ -234,9 +234,9 @@ Blender currently use the following color space rules:
    Color space used for rendering, compositing, and storing all float precision images in memory.
 ``data``
    Color space for non-color data.
-``XYZ``
-   Standard linear XYZ color space. Used for effects such as blackbody emission to convert
-   from physical units to the *scene_linear* color space.
+``aces_interchange``
+   ACES2065-1 color space. Used to derive chromaticites of the *scene_linear* color space, for
+   effects such as blackbody emission.
 ``color_picking``
    Defines the distribution of colors in color pickers. It is expected to
    be approximately perceptually linear, have the same gamut as the *scene_linear* color space,
