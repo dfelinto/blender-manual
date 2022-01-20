@@ -22,6 +22,11 @@ Collections Tab
 
    :Menu:      :menuselection:`Properties --> Collection Properties`
 
+Collection properties tab allows convenient access to properties for the active collection.
+
+.. figure:: /images/scene-layout_collections_property_panel.png
+
+   Collection properties.
 
 Restrictions
 ------------
@@ -55,12 +60,19 @@ Line Art
 .. _bpy.types.Collection.lineart_usage:
 
 Usage
-   How to use this collection in Line Art.
+   How the collection is loaded into line art.
+   Child objects of the collection can override this setting
+   if they wish in :ref:`Object Properties <bpy.types.ObjectLineArt.usage>`.
 
    :Include: Generate feature lines for this collection.
-   :Occlusion Only: Only use the collection to produce occlusion.
-   :Exclude: Don't use this collection in Line Art.
-   :Intersection Only: Only generate intersection lines for this collection.
+   :Occlusion Only:
+      Objects in the collection will only cause occlusion to existing feature lines
+      and their geometry stay invisible.
+   :Exclude:
+      Objects in this collection will not be loaded into line art at all.
+   :Intersection Only:
+      Objects in the collection will only produce intersection lines in
+      the scene and their own geometry stay invisible.
    :No Intersection: Include this collection but do not generate intersection lines.
 
 .. _bpy.types.Collection.lineart_use_intersection_mask:
@@ -88,7 +100,8 @@ Collections Menu
 Move to Collection :kbd:`M`
    Move selected objects to an existing or new collection.
 Link to Collection :kbd:`Shift-M`
-   Link selected objects to a collection.
+   Add selected objects to a collection, while keeping them in their current collection.
+   This way objects can appear in multiple collections.
    A new collection can be created in the pop-up.
 Create New Collection :kbd:`Ctrl-G`
    Creates a new collection and adds the selected object(s) to it.
