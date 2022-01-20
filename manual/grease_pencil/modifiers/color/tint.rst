@@ -19,7 +19,7 @@ Options
 Mode
    The color transformation will be applied on the stroke and/or the fill color.
 
-   Stroke and Fill, Stroke, Fill
+   Stroke & Fill, Stroke, Fill
 
 Strength
    Controls the amount for the color mixing.

@@ -26,14 +26,11 @@ Color Palette
    Active Color Palette. See :ref:`ui-color-palette`.
 
 Mode
-   Stroke
-      Only paint over strokes.
+   The color transformation will be applied on the stroke and/or the fill color.
 
-   Fill
-      Only paint over fill areas.
-
-   Stroke and Fill
-      Paint over strokes and fill areas.
+   :Stroke: Only paint over strokes.
+   :Fill: Only paint over fill areas.
+   :Stroke & Fill: Paint over strokes and fill areas.
 
 Mix Factor
    Mixing factor between the selected color and the base material color.

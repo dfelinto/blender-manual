@@ -28,12 +28,9 @@ Strength
       if you are using a :ref:`Graphics Tablet <hardware-tablet>`.
 
 Mode
-   Stroke
-      Only paint over strokes.
-   Fill
-      Only paint over fill areas.
-   Stroke and Fill
-      Paint over strokes and fill areas.
+   :Stroke: Only paint over strokes.
+   :Fill: Only paint over fill areas.
+   :Stroke & Fill: Paint over strokes and fill areas.
 
 Cursor
    See the global brush settings for :doc:`Cursor </sculpt_paint/brush/cursor>` settings.
