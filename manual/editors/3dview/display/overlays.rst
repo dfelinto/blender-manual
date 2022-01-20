@@ -204,7 +204,7 @@ Measurement
 -----------
 
 Numerical measures of the selected elements on screen as part of the text info overlay.
-The :ref:`data-scenes-props-units` can be set in the Scene properties.
+The :ref:`bpy.types.UnitSettings` can be set in the Scene properties.
 
 Edge Length
    Show the length of selected edges.

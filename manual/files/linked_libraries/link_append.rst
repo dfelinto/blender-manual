@@ -181,7 +181,8 @@ Object Rigid Body Constraints
 
 When linking objects *directly* into a blend-file, the *Rigid Body* settings
 **will not** be linked in since they are associated with their scene's world.
-As an alternative, you can link in the entire scene and set it as a :ref:`Background Set <scene-background-set>`.
+As an alternative, you can link in the entire scene and set it as a
+:ref:`Background Set <bpy.types.Scene.background_set>`.
 
 
 .. _files-linked_libraries-known_limitations-compression:

@@ -113,7 +113,8 @@ Landmark
          Create a new camera from the selected landmark.
 Type
    Scene Camera
-      Follow the :ref:`scene's active camera<scene-camera>` to define the base pose of the viewer.
+      Follow the scene's :ref:`active camera <bpy.types.Scene.camera>`
+      to define the base pose of the viewer.
    Custom Object
       Set an arbitrary object to define the base pose of the viewer.
    Custom Pose

@@ -3,10 +3,6 @@
 Scene Properties
 ****************
 
-.. _bpy.types.Scene.camera:
-.. _bpy.types.Scene.background_set:
-.. _bpy.types.Scene.active_clip:
-
 Scene
 =====
 
@@ -14,13 +10,13 @@ Scene
 
    :Panel:     :menuselection:`Properties --> Scene --> Scene`
 
-.. _scene-camera:
+.. _bpy.types.Scene.camera:
 
 Camera
    Used to select which camera is used as the active camera.
    You can also set the active camera in the 3D Viewport with :kbd:`Ctrl-Numpad0`.
 
-.. _scene-background-set:
+.. _bpy.types.Scene.background_set:
 
 Background Scene
    Allows you to use a scene as a background,
@@ -39,13 +35,12 @@ Background Scene
       This can also be used in combination with :ref:`Linking to a Scene <bpy.ops.object.make_links_scene>`,
       where one blend-file contains the environment, which can be reused in many places.
 
-.. _scene-active-clip:
+.. _bpy.types.Scene.active_clip:
 
 Active Clip
    Active movie clip for constraints and viewport display.
 
 
-.. _data-scenes-props-units:
 .. _bpy.types.UnitSettings:
 
 Units
@@ -55,14 +50,18 @@ Units
 
    :Panel:     :menuselection:`Properties --> Scene --> Units`
 
+.. _bpy.types.UnitSettings.system:
+
 Unit System
-   None
+   The unit system to use for user interface controls.
+
+   :None:
       Use units that have with no relation to the real world,
       practically this is the same as *Metric* just without unit names.
-   Metric
-      Use the metric unit system in this scene.
-   Imperial
-      Use the imperial unit system in this scene.
+   :Metric: Use the metric unit system in this scene.
+   :Imperial: Use the imperial unit system in this scene.
+
+.. _bpy.types.UnitSettings.scale_length:
 
 Unit Scale
    Scale factor to use when converting between internal units and values displayed in the user interface.
@@ -74,29 +73,43 @@ Unit Scale
       and not how things behave internally. For example, physics simulations
       don't take the unit scale into account.
 
+.. _bpy.types.UnitSettings.use_separate:
+
 Separate Units
    When using *Metric* or *Imperial*, display properties as multiple values.
    For example, ``2.285m`` will become ``2m 28.5cm``.
 
+.. _bpy.types.UnitSettings.system_rotation:
+
 Rotation
-   Degrees
-      Use degrees for angles in the user interface.
-   Radians
-      Use radians for angles in the user interface.
+   Unit to use for displaying/editing rotation values.
+
+   :Degrees: Use degrees for angles in the user interface.
+   :Radians: Use radians for angles in the user interface.
+
+.. _bpy.types.UnitSettings.length_unit:
 
 Length
-   Adaptive
+   Unit that will be used to display length values.
+
+   :Adaptive:
       The unit used for a specific value depends on the magnitude of the value.
       For example, some values might be displayed as ``23cm`` while others are
       displayed as ``10km``.
-   Meters/Centimeters/Feet/...
+   :Meters/Centimeters/Feet:
       A fixed unit that will be used for all lengths in the user interface.
+
+.. _bpy.types.UnitSettings.mass_unit:
 
 Mass
    See *Length*.
 
+.. _bpy.types.UnitSettings.time_unit:
+
 Time
    See *Length*.
+
+.. _bpy.types.UnitSettings.temperature_unit:
 
 Temperature
    See *Length*.
@@ -189,10 +202,6 @@ See :doc:`/animation/keyframes/keying_sets`.
 
 
 .. _data-scenes-audio:
-.. _bpy.types.Scene.audio_volume:
-.. _bpy.types.Scene.audio_distance_model:
-.. _bpy.types.Scene.audio_doppler_speed:
-.. _bpy.types.Scene.audio_doppler_factor:
 
 Audio
 =====
@@ -205,8 +214,12 @@ Options to control global audio settings.
 To control how sounds is played back from within Blender, see the audio settings
 in the :ref:`Preferences <prefs-system-sound>`.
 
+.. _bpy.types.Scene.audio_volume:
+
 Volume
    Volume for the scene.
+
+.. _bpy.types.Scene.audio_distance_model:
 
 Distance Model
    Changes how the sound attenuation is calculated based on the distance.
@@ -216,9 +229,15 @@ Distance Model
    that means if the distance is smaller than the reference distance, the volume is always 100%.
    For an exact description of each option
    see the `OpenAL documentation <https://www.openal.org/documentation/>`__.
+
+.. _bpy.types.Scene.audio_doppler_speed:
+
 Doppler Speed
    Speed of the sound for the Doppler effect calculations.
    The typical value is 343.3 m/s in air, in water for example this value is around 1560 m/s.
+
+.. _bpy.types.Scene.audio_doppler_factor:
+
 Doppler Factor
    Controls how strong the Doppler effect is.
    You can exaggerate or attenuate the change of pitch, but physically correct is a factor of 1.0.

@@ -114,7 +114,7 @@ Units
 
 As well as expressions, you can specify numbers and units.
 If no unit is given, then a default unit is applied.
-The unit system can be changed in :ref:`scene settings <data-scenes-props-units>`.
+The unit system can be changed in :ref:`scene settings <bpy.types.UnitSettings>`.
 
 You can use either the unit abbreviation or the full name after the value.
 
