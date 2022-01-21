@@ -62,8 +62,8 @@ If you leave out ``-m "message"``, you will be prompted to type the message in a
 
 Do not forget to always run ``svn update`` before committing.
 
-Then you will be asked for your user name (from ``developer.blender.org``)
-and password before the change is committed.
+Then you will be asked for your username and password
+(from ``developer.blender.org``) before the change is committed.
 
 Your modified files are uploaded to the central repository for others to work with and continue collaborating.
 Commits are tracked in the repositories `Diffusion <https://developer.blender.org/diffusion/BM/>`__.
