@@ -26,7 +26,7 @@ Options
    Camera Solver Constraint panel.
 
 Active Clip
-   Receive tracking data from the movie clip active in the Movie Clip editor.
+   Receive tracking data from the scene's :ref:`Active Clip <bpy.types.Scene.active_clip>`.
    If unchecked, an option appears to choose from the other clips.
 
 Constraint to F-Curve

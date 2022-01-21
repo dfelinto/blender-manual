@@ -24,6 +24,8 @@ Interface
    interface/stack.rst
 
 
+.. _constraints-motion-tracking:
+
 Motion Tracking
 ===============
 

@@ -306,9 +306,9 @@ Background Source
       Use one of the Movie Clip data-blocks.
 
       Active Clip
-         Follow the scene's :ref:`active clip <bpy.types.Scene.active_clip>`.
+         Display a Movie Clip from the scene's :ref:`Active Clip <bpy.types.Scene.active_clip>`.
       Render Undistorted
-         Draw the background image using undistorted proxies when available.
+         Display the background image using undistorted proxies when available.
       Proxy Render Size
          Select between full (non-proxy) display or a proxy size to draw the background image.
 
