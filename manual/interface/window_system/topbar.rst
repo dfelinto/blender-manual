@@ -26,7 +26,7 @@ About Blender
       Date when Blender was compiled.
    Hash
       The Git Hash of the build. This can be useful to give to
-      support personal when diagnosing a problem.
+      support personnel when diagnosing a problem.
    Branch
       Optional branch name.
    Release Notes
