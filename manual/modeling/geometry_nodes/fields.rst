@@ -15,15 +15,15 @@ for every element (mesh vertices, faces, etc.).
    A field input to a node.
 
 For example, in the figure above, the field connected to the "Set Position" node
-depends on two inputs, :doc:`position </modeling/geometry_nodes/input/position>` and
-:doc:`index </modeling/geometry_nodes/input/input_index>`, and transforms them into
+depends on two inputs, :doc:`Position </modeling/geometry_nodes/input/position>` and
+:doc:`Index </modeling/geometry_nodes/input/input_index>`, and transforms them into
 a vector using a single instruction.
 
 
 Field Visualization
 ===================
 
-Socket shapes are used to convey which sockets are fields and which regular data.
+Socket shapes are used to convey which sockets are fields and which are regular data.
 There are three possible socket shapes, each visualizing its "field status":
 
 :Circle:
@@ -96,9 +96,9 @@ Input Nodes
 Input nodes provide data to the field evaluation process. By themselves, they mean nothing; they
 must be evaluated within the context of a data flow node (geometry) to actually output a value.
 Examples of input nodes are the built-in attribute input nodes like
-:doc:`position </modeling/geometry_nodes/input/position>` and
+:doc:`Position </modeling/geometry_nodes/input/position>` and
 :doc:`ID </modeling/geometry_nodes/input/id>`, but also selection nodes like
-:doc:`endpoint selection </modeling/geometry_nodes/curve/endpoint_selection>`.
+:doc:`Endpoint Selection </modeling/geometry_nodes/curve/endpoint_selection>`.
 
 Field inputs may also come from other nodes that process geometry like
 the :doc:`/modeling/geometry_nodes/point/distribute_points_on_faces`,
