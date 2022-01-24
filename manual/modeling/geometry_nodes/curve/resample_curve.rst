@@ -25,6 +25,10 @@ Inputs
 Curve
    Standard geometry input.
 
+Selection
+   Whether or not to resample each spline. True values mean spline will be resampled to a poly spline,
+   false values mean the spline will be unaffected.
+
 Count
    The number of control points on the new splines.
 
