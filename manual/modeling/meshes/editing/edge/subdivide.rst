@@ -48,7 +48,8 @@ Number of Cuts
    By default this is 1, cutting edges in half. A value of 2 will cut it into thirds, and so on.
 Smoothness
    Displaces subdivisions to maintain approximate curvature.
-   The effect is similar to the way the Subdivision Surface Modifier might deform the mesh.
+   The effect is similar to the way the :doc:`/modeling/modifiers/generate/subdivision_surface`
+   might deform the mesh.
 
    .. list-table::
 
