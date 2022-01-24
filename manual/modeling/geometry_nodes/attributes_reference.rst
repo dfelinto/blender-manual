@@ -94,6 +94,9 @@ to determine the domains of attributes.
   An example is a UV map attribute.
 - **Spline** domain attributes are associated with a group of connected
   curve control points.
+- **Instance** domain attributes exist on the :doc:`/modeling/geometry_nodes/instances` in a geometry.
+  They can be used to store different values on copies of geometry data. Instance domain attributes are
+  only supported in geometry nodes.
 
 Attributes are automatically interpolated to other domains. For example, when the 
 :doc:`/modeling/geometry_nodes/input/position` is connected to the selection input of
