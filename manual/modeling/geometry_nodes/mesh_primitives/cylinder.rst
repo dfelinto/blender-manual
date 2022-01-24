@@ -53,3 +53,14 @@ Outputs
 
 Mesh
    Standard geometry output.
+
+Top
+   A boolean attribute field with a selection of the faces on the top of the cylinder. If the *Fill Type*
+   property is *None*, then this will be a selection of the top edges instead. If the *Radius* is
+   zero, this will be a selection of the top point.
+
+Side
+   A boolean attribute field with a selection of the faces on the side of the cylinder.
+
+Bottom
+   This is the same as the *Top* selection output, but on the bottom side of the geometry instead.
