@@ -22,8 +22,8 @@ Points
    Number of points on each of the circles.
 
 Inner Radius, Outer Radius
-   Radii of the two circles.
-   The inner radius can be bigger than the outer radius.
+   Radii of the two circles on which to place the control points.
+   The inner radius can be larger than the outer radius.
 
 Twist
    Angle offset of the inner circle.
@@ -42,3 +42,7 @@ Outputs
 
 Curve
    Poly spline generated from the inputs.
+
+Outer Points
+   A boolean attribute field with a selection of the points on the *Outer Radius*, which is every
+   other point.
