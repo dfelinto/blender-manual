@@ -45,6 +45,10 @@ Position
    The handle positions are the global position of the handle, they are not relative to
    the position of the corresponding control point.
 
+Offset
+   An optional translation for each handle. This is evaluated at the same time as the *Position* input,
+   meaning that fields evaluated for it will not reflect the changed position.
+
 
 Properties
 ==========
