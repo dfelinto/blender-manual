@@ -26,7 +26,8 @@ Curve
    Standard geometry input.
 
 Selection
-   The points whose splines are reversed.
+   Whether or not to change the direction of each spline. True values mean the direction will be changed,
+   false values mean the spline will be unaffected.
 
 
 Properties
