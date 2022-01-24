@@ -41,10 +41,8 @@ These actions are applied in order, from first to last.
 Data Source
    Where to look for the data-blocks that are intended to be renamed.
 
-   Selected
-      Operates on the currently selected objects.
-   All
-      Operates on all data in the blend file.
+   :Selected: Operates on the currently selected objects.
+   :All: Operates on all data in the blend file.
 
 Data Type
    The :ref:`data-block type <data-system-datablock-types>` to perform the batch rename operations on.
@@ -82,12 +80,12 @@ Set Name
 by renaming the current data-block without having to do a find and replace operation.
 
 Method
-   New
+   :New:
       Disregards the current name replacing it with the "new" name.
-   Prefix
+   :Prefix:
       Adds text to the beginning of the current name.
       This is useful for tools that look for special text in the prefix of a data-block name.
-   Suffix
+   :Suffix:
       Adds text to the end of the current name.
       This is useful for tools that look for special text in the suffix of a data-block name.
 Name
@@ -101,11 +99,11 @@ Strip Characters
 character types from either the beginning or the end of the name.
 
 Characters
-   Spaces
+   :Spaces:
       Strips any space characters from the name, e.g. "Living Room   " becomes "Living Room".
-   Digits
+   :Digits:
       Strips any numerical characters from the name, e.g. ``cube.001`` becomes ``cube.``.
-   Punctuation
+   :Punctuation:
       Strips any punctuation characters (``,.?!:;`` etc.) from the name, e.g. ``cube?`` becomes ``cube``.
 
    .. tip::
@@ -113,10 +111,8 @@ Characters
       Multiple character types can be removed at once by :kbd:`Shift-LMB` on the types.
 
 Strip From
-   Start
-      Strips any leading characters in the name.
-   End
-      Strips any trailing characters in the name.
+   :Start: Strips any leading characters in the name.
+   :End: Strips any trailing characters in the name.
 
 
 Change Case
