@@ -74,7 +74,7 @@ Distribution Method
 Outputs
 =======
 
-Geometry
+Points
    Generated points. Named attributes are copied to the result mesh, along with the data in the other
    attribute field outputs.
 
