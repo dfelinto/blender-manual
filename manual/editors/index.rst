@@ -1,4 +1,3 @@
-.. _editors-index:
 .. _bpy.types.Space:
 
 ###########
@@ -6,11 +5,13 @@
 ###########
 
 Blender provides a number of different editors for displaying and modifying different aspects of data.
+An Editor is contained inside an :doc:`Area </interface/window_system/areas>`
+which determines the size and placement of the editor with in the Blender window.
+Every area in Blender may contain any type of editor.
 
 The *Editor Type* selector, the first button at the left side of a header,
-allows you to change the editor in that :doc:`area </interface/window_system/areas>`.
-Every area in Blender may contain any type of editor
-and it is also possible to open the same type multiple times.
+allows you to change the Editor in that area,
+it is also possible to open the same Editor type in different areas at the same time.
 
 See :doc:`User Interface </interface/index>` for documentation on the general interface.
 
