@@ -10,8 +10,8 @@ Curve Parameter Node
 
    Curve Parameter node.
 
-The *Curve Parameter* node outputs how far along each spline a control point is, with a value between
-zero and one. The output is different from dividing the index by the total number of control points,
+The *Curve Parameter* node outputs how far along each spline a control point is.
+The *Factor* output is different from dividing the index by the total number of control points,
 because the control points might not be equally spaced along the curve.
 
 The first value is zero, so the output corresponds to the length at the control point rather than
@@ -46,7 +46,14 @@ Outputs
 =======
 
 Factor
-   The portion of the total length of the spline at each control point.
+   When the node is used on the point domain, the value is the portion of the spline's
+   total length at each control point. On the spline domain it is the portion of the
+   curve's total length at the start of the spline.
+
+Length
+   When the node is used on the point domain, the value is the distance along the spline to each
+   control point. On the spline domain it is the length along the entire curve at the start
+   of the spline.
 
 
 Examples
