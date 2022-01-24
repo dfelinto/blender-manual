@@ -30,9 +30,9 @@ Bias
    The color variation between *Color 1/2*.
    Values of -1 and 1 only use one of the two colors; values in between mix the colors.
 Brick Width
-   The width of the bricks.
+   The ratio of brick's width relative to the texture scale.
 Row Height
-   The height of the brick rows.
+   The ratio of brick's row height relative to the texture scale.
 
 
 Properties
@@ -41,11 +41,12 @@ Properties
 Offset
    Determines the brick offset of the various rows.
 Frequency
-   Determines the offset frequency. A value of 2 gives an even/uneven pattern of rows.
+   How often rows are offset; a value of 2 gives an even/uneven pattern of rows.
+
 Squash
-   Amount of brick squashing.
+   Factor to adjust the brick's width for particular rows determined by the *Frequency*
 Frequency
-   Brick squashing frequency.
+   How often rows consist of "squished" bricks.
 
 
 Outputs
