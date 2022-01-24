@@ -43,14 +43,18 @@ Options
    The Subdivision Surface modifier.
 
 Catmull-Clark
-   The default option, subdivides and smooths the surfaces.
+   Subdivides and smooths the surfaces to create a more pleasant looking mesh.
    According to its `Wikipedia page <https://en.wikipedia.org/wiki/Catmull%E2%80%93Clark_subdivision_surface>`__,
    the "arbitrary-looking formula was chosen by Catmull and Clark based on the aesthetic appearance of
    the resulting surfaces rather than on a mathematical derivation."
 Simple
-   Only subdivides the surfaces, without any smoothing
+   Only subdivides the surfaces, this often does not provide any smoothing
+   unless the surface is :term:`non-coplanar <Coplanar>`
    (the same as the :ref:`Subdivide <bpy.ops.mesh.subdivide>` operator, in Edit Mode).
-   Can be used, for example, to increase base mesh resolution when using displacement maps.
+   To work around this behavior for non-coplanar geometry,
+   :doc:`triangulate </modeling/modifiers/generate/triangulate>` to ensure all geometry is coplanar.
+   
+   Simple mode can be used, for example, to increase the base mesh resolution when using displacement maps.
 
 Levels Viewport, Render
    The number of subdivision levels shown in the 3D Viewport or the final render.
