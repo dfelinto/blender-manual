@@ -20,6 +20,11 @@ Inputs
 Source
    The geometry to retrieve the attribute from.
 
+   .. note::
+
+      This node only supports instances in the source geometry when the *Mapping*
+      method is set to *Index*.
+
 Attribute
    A field to evaluate on the *Source* geometry for use with the transfer method.
 
