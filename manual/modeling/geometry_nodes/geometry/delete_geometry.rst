@@ -43,6 +43,10 @@ Domain
       The selection is on the splines in the curve component. For each spline, it
       will either be deleted entirely or not at all. The other components are not
       modified.
+   :Instances:
+      The selection is on the top-level instances, and the entire instance is
+      removed if it is selected. If the input also contains realized geometry,
+      that will be unaffected.
 
 Mode
    The type of elements to be affected.
