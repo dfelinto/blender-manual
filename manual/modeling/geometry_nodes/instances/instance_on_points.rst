@@ -12,8 +12,11 @@ Instance on Points Node
 
 The *Instance on Points* node adds a reference to a geometry to each of the points present
 in the input geometry. Instances are a fast way to add the same geometry to a scene many times
-without duplicating the geometry. The node works on any geometry type
+without duplicating the underlying data. The node works on any geometry type
 with a *Point* domain, including meshes, point clouds, and curve control points.
+
+Any attributes on the points from the *Geometry* input will be available on the instance
+domain of the generated instances.
 
 .. tip::
 
@@ -37,7 +40,7 @@ Geometry
 
       If the input geometry contains instances, the node will create more instances on
       the points inside the instances, creating :ref:`nested instancing <geometry-nodes_nested-instancing>`.
-      When this happens, each new instance will have the transform created by the node from the *Rotation*
+      In this case, each new instance will have the transform created by the node from the *Rotation*
       and *Scale* inputs, but it will *also* be transformed based on the parent instances.
 
 Selection
@@ -63,7 +66,7 @@ Instance Index
 Rotation
    The :term:`Euler` rotation for every instance. This can use the rotation output of nodes like
    :doc:`Distribute Points on Faces </modeling/geometry_nodes/point/distribute_points_on_faces>`
-   and :doc:`Curve to Points </modeling/geometry_nodes/curve/curve_to_points>`. Yet an Euler rotation
+   and :doc:`Curve to Points </modeling/geometry_nodes/curve/curve_to_points>`. An Euler rotation
    can also be created from a direction vector like the :doc:`normal </modeling/geometry_nodes/input/normal>`
    with the :doc:`/modeling/geometry_nodes/utilities/align_euler_to_vector`.
 
