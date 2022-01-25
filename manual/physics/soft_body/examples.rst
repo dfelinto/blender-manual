@@ -53,6 +53,4 @@ You can now bake the simulation, give the cube materials and textures and render
 The Result
 ----------
 
-The rendered bouncing cube:
-
-.. youtube:: 3PzgB9jw9iA
+`The rendered bouncing cube <https://www.youtube.com/watch?v=3PzgB9jw9iA>`__

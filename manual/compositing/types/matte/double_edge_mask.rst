@@ -72,4 +72,4 @@ Mask
 Example
 =======
 
-.. youtube:: VcjEfoNIHZs
+`Double Edge Mask Example Video <https://www.youtube.com/watch?v=VcjEfoNIHZs>`__

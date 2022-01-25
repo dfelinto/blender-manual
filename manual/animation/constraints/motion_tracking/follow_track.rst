@@ -47,4 +47,4 @@ Influence
 Example
 =======
 
-.. youtube:: KZalGrjGKSA
+`Follow Track Example Video <https://www.youtube.com/watch?v=KZalGrjGKSA>`__

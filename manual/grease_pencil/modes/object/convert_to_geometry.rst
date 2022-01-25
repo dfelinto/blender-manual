@@ -96,9 +96,8 @@ Gap Duration
 Example
 =======
 
-Here is a simple "hand writing" video created with curves converted from sketch data:
-
-.. youtube:: VwWEXrnQAFI
+Here is a simple `"hand writing" video <https://www.youtube.com/watch?v=VwWEXrnQAFI>`__
+created with curves converted from sketch data.
 
 The blend-file from the above example can be found
 `here <https://wiki.blender.org/wiki/File:ManGreasePencilConvertToCurveDynamicExample.blend>`__.

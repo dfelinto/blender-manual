@@ -107,4 +107,5 @@ Examples
 
    The Remesh Modifier applied to a text to improve its topology.
 
-.. youtube:: Mh-gUnS2c0Y
+
+`Animated Example <https://www.youtube.com/watch?v=Mh-gUnS2c0Y>`__

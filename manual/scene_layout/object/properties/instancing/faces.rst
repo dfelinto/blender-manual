@@ -114,6 +114,4 @@ Use the *Merge by Distance* button in the Tools panel.
 
 .. rubric:: Demo Video
 
-A short video illustrating this workflow:
-
-.. youtube:: diI8xJ9oo_8
+`A short video illustrating this workflow <https://www.youtube.com/watch?v=diI8xJ9oo_8>`__
