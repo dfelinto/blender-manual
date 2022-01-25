@@ -11,7 +11,7 @@ Nodes with general purpose for modifying data.
    align_euler_to_vector.rst
    boolean_math.rst
    clamp.rst
-   compare_floats.rst
+   compare.rst
    float_curve.rst
    float_to_integer.rst
    map_range.rst

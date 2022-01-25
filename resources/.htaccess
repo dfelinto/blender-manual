@@ -2,3 +2,4 @@
 ErrorDocument 404 /manual/en/3.1/404.html
 RedirectMatch \"^/manual/en/3.1/addons/import_export/io_(.*)\" \"/manual/en/3.1/addons/import_export/$1\"
 RedirectMatch \"^/manual/{lang}/{version}/modeling/geometry_nodes/curve/curve_parameter.html\" \"/manual/{lang}/{version}/modeling/geometry_nodes/curve/spline_parameter.html\" 
+RedirectMatch \"^/manual/{lang}/{version}/modeling/geometry_nodes/utilities/compare_floats.html\" \"/manual/{lang}/{version}/modeling/geometry_nodes/utilities/compare.html\" 

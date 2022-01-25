@@ -15,8 +15,7 @@ the input geometry is split between the two outputs.
 
 .. tip::
 
-   This node can be combined with
-   the :doc:`Compare Floats </modeling/geometry_nodes/utilities/compare_floats>` node
+   This node can be combined with the :doc:`/modeling/geometry_nodes/utilities/compare`
    for a more precise control of which parts are separated to a given output geometry.
 
 
