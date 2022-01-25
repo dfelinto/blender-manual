@@ -1,16 +1,16 @@
-.. index:: Geometry Nodes; Curve Parameter
-.. _bpy.types.GeometryNodeCurveParameter:
+.. index:: Geometry Nodes; Spline Parameter
+.. _bpy.types.GeometryNodeSplineParameter:
 
-********************
-Curve Parameter Node
-********************
+*********************
+Spline Parameter Node
+*********************
 
-.. figure:: /images/modeling_geometry-nodes_curve_curve-parameter_node.png
+.. figure:: /images/modeling_geometry-nodes_curve_spline-parameter_node.png
    :align: right
 
-   Curve Parameter node.
+   Spline Parameter node.
 
-The *Curve Parameter* node outputs how far along each spline a control point is.
+The *Spline Parameter* node outputs how far along each spline a control point is.
 The *Factor* output is different from dividing the index by the total number of control points,
 because the control points might not be equally spaced along the curve.
 
@@ -54,6 +54,11 @@ Length
    When the node is used on the point domain, the value is the distance along the spline to each
    control point. On the spline domain it is the length along the entire curve at the start
    of the spline.
+
+Index
+   Each control point's index on its spline. This is different from the output of the
+   :doc:`index node</modeling/geometry_nodes/input/input_index>`, which also counts the
+   control points in all previous splines.
 
 
 Examples

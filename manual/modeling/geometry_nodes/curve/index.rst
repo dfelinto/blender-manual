@@ -25,13 +25,13 @@ Nodes that only operate on curves.
    :maxdepth: 1
 
    curve_handle_position.rst
-   curve_parameter.rst
    curve_tangent.rst
    curve_tilt.rst
    endpoint_selection.rst
    handle_type_selection.rst
    is_spline_cyclic.rst
    spline_length.rst
+   spline_parameter.rst
    spline_resolution.rst
 
 ------------------------
