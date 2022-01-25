@@ -22,6 +22,10 @@ Geometry
 Attribute
    The attribute field to query a statistic from.
 
+Selection
+   A boolean field input for each element indicating whether to include its value in the statistics result
+   If the boolean is false, the corresponding value from the *Attribute* input will be ignored.
+
 
 Properties
 ==========
