@@ -220,6 +220,10 @@ Cycle-Aware Keying
      it is remapped back inside the range.
    - When overwriting one of the end keys, the other one is updated accordingly.
 
+   In addition, when adding a new curve into an action with a :ref:`Manual Frame Range <actions-frame-range>`
+   and *Cyclic Animation* enabled, the curve is automatically made cyclic with the period matching the frame range.
+   For convenience this check and conversion is also done before adding the second keyframe to such a curve.
+
 
 .. Move to some content to animation?
 .. _bpy.types.ToolSettings.use_keyframe_insert_auto:

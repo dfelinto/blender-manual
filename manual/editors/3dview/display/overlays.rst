@@ -317,12 +317,17 @@ Stencil Mask Opacity
    The opacity of the stencil mask overlay in Texture Paint Mode.
 
 
-Pose Mode
-=========
+Bones
+=====
 
 Fade Geometry
    Show the bones on top and face other geometry to the back.
    The opacity can be controlled with the slider.
+
+Bone Wireframe Opacity
+   Specifies the maximum opacity used for bones drawn in the *wireframe* style in Edit, Pose,
+   or Weight Paint modes. This is helpful when it is necessary to reduce clutter and focus on
+   the mesh rather than bones.
 
 
 .. _3dview-overlay-grease-pencil:

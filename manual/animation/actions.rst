@@ -84,3 +84,41 @@ modifiers, drivers, and constraints applied, and keyframes the result.
 
 This can be useful for adding deviation to a cyclic action like a :term:`Walk Cycle`,
 or to create a keyframe animation created from drivers or constraints.
+
+
+.. _actions-frame-range:
+
+Manual Frame Range
+==================
+
+.. figure:: /images/animation_actions_range.png
+   :align: center
+
+   Actions with and without a Manual Frame Range in Dope Sheet.
+
+It is possible to manually specify the intended useful frame range of an action via a panel
+available in the :doc:`Dope Sheet </editors/dope_sheet/introduction>` or the :doc:`NLA Editor </editors/nla/sidebar>`
+when a channel or NLA track is selected.
+
+Manual Frame Range
+   Specifies if the manual frame range should be used, and the frame values.
+
+   When the range is set, it is used instead of the actual range occupied by key frames
+   when adding a new track based on the action to NLA. It can also be used by exporters
+   to determine the range of frames to export.
+
+   The range is displayed in the background of the editor as diagonal hash fill, to
+   distinguish it from the solid fill of the current playback range.
+
+   The frame values are most commonly expected to be integers, but can be fractional.
+
+Cyclic Animation
+   Specifies that the action is intended to be cyclic over the specified range. The first and last
+   frames of the range should represent the same pose of the cycle one loop apart, i.e. the range
+   should include the duplicated initial key of the loop.
+
+   .. note::
+      This option signifies intent and does **not** make the action cycle on its own. However,
+      if :ref:`Cycle-Aware Keying <bpy.types.ToolSettings.use_keyframe_cycle_aware>` is enabled,
+      it will automatically enable cyclic extrapolation and set up the loop period for curves
+      newly added to the action.

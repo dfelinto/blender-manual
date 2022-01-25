@@ -94,6 +94,9 @@ On these channels lay the keyframes, which can show different information:
    * - Downwards arrow
      - Minimum Extreme keyframe (visible if :menuselection:`View --> Show Curve Extremes` are enabled)
 
+A diagonal hash fill in the background is used to display the
+:ref:`Manual Frame Range <actions-frame-range>` of the action the channel belong to.
+
 
 Selecting Keyframes
 -------------------
@@ -254,3 +257,19 @@ Sort Data-Blocks
 Summary
    Toggles the "Dope Sheet Summary" channel at the top of the `Channels Region`_.
    This is used to give an overview of all the channels by combining all the actions into one channel.
+
+
+Sidebar Region
+--------------
+
+Action Panel
+^^^^^^^^^^^^
+
+.. figure:: /images/animation_actions_range.png
+   :align: center
+
+   Actions with and without a Manual Frame Range in Dope Sheet.
+
+When the editor is in the Action mode, or a channel belonging to an action is selected in
+Dope Sheet mode, this panel allows changing some settings of the selected action, specifically
+the :ref:`Manual Frame Range <actions-frame-range>`.

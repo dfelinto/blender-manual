@@ -187,6 +187,17 @@ Repeat
    Also expands the strip, but by looping from the first keyframe and going forward.
 
 
+Action
+------
+
+.. reference::
+
+   :Panel:     :menuselection:`Sidebar region --> Animations --> Action`
+
+This panel is identical to the one in Dope Sheet, and allows viewing or changing properties of the
+action used in the Action Clip, i.e. :ref:`Manual Frame Range <actions-frame-range>`.
+
+
 Modifiers
 =========
 
