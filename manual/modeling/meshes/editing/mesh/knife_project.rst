@@ -10,10 +10,15 @@ Knife Project
    :Menu:      :menuselection:`Mesh --> Knife Project`
 
 Knife projection is a non-interactive tool where you can use objects to cookie-cut into
-the mesh rather than hand drawing the line. The outline of selected objects
-that *are not* in Edit Mode are used to cut the mesh along the view axis of objects
-that are in Edit Mode. Afterwards the resulting geometry inside the cutters outline will be selected.
-Outlines can be a wireframe or boundary edges (i.e. the unconnected edges of a mesh).
+one or more meshes rather than hand drawing the line. The outline of selected objects
+that *are not* in Edit Mode are used to cut the meshes along the view axis of objects
+that *are* in Edit Mode. Afterwards the resulting geometry inside the cutters outline will be selected.
+Outlines can be a wireframe or boundary edges (i.e. the unconnected edges of a mesh), as well as 
+Curve objects.
+
+Keep in mind that Knife Project works from the current view's perspective.  For best results, make sure
+to rotate your view to exactly the position you require before using this tool.  Orthographic views such
+as Right, Front, and Top are commonly used for more predictable results.
 
 .. note::
 
@@ -22,9 +27,12 @@ Outlines can be a wireframe or boundary edges (i.e. the unconnected edges of a m
    :ref:`Select Non-Manifold <bpy.ops.mesh.select_non_manifold>`
    (Wire, Boundaries) will highlight the cutting edges of mesh objects.
 
-To use Knife Project, first in *Object Mode* select the object to be cut,
-then in *Edit Mode*, select the cutting object (:kbd:`Ctrl-LMB`),
-and choose :menuselection:`Mesh --> Knife Project`.
+   In general, for flat shapes, you will usually want to select "Faces Only" from the delete menu to leave 
+   behind only edges.
+
+To use Knife Project, first in *Object Mode* select the objects to be cut,
+then switch to *Edit Mode* and select the cutting objects in the Outliner (:kbd:`Ctrl-LMB`),
+and finally choose :menuselection:`Mesh --> Knife Project`.
 
 .. hint::
 
@@ -35,7 +43,7 @@ Options
 =======
 
 Cut Through
-   Projects the cut through the entire mesh.
+   Projects the cut through the entire mesh, including back faces not currently visible.
 
 
 Examples
