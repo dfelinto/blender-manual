@@ -47,7 +47,6 @@ release = blender_version
 extensions = [
     'reference',
     'peertube',
-    'youtube',
     'sphinx.ext.mathjax',
     'sphinx.ext.intersphinx',
     'sphinx.ext.todo',
