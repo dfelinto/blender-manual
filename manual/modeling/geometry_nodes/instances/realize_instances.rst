@@ -30,6 +30,14 @@ for the output attribute. In other words, if a ``weight`` attribute has a Boolea
 and a vector data type on another geometry, the ``weight`` attribute on the output geometry will have
 a vector data type.
 
+Named and anonymous attributes are propagated from the :ref:`instance domain <attribute-domains>`
+to the realized geometry. If the same attribute exists on the geometry and on an instance,
+the attribute values from the geometry has precedence over the values on the instances.
+
+In order to avoid creating duplicate values, the ``id`` attribute has special handling.
+The ``id`` values or indices of each instance are combined with id values from the points on
+geometry data.
+
 .. warning::
 
    Like other geometry nodes, this node always outputs generic typed attributes. So instead of a
