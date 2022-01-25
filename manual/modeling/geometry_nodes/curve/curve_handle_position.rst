@@ -11,6 +11,7 @@ Curve Handle Position Node
    Curve Handle Position node.
 
 The *Curve Handle Position* node outputs the position of each of a Bézier spline's handles.
+If the curve does not contain Bézier splines, the node will output zero.
 
 The node to set this data is the :doc:`/modeling/geometry_nodes/curve/set_handle_positions`.
 
@@ -18,8 +19,9 @@ The node to set this data is the :doc:`/modeling/geometry_nodes/curve/set_handle
 Inputs
 ======
 
-This node has no inputs.
-
+Relative
+   Output the handle positions relative to the corresponding control point
+   instead of in the local space of the geometry.
 
 Properties
 ==========
@@ -31,7 +33,7 @@ Outputs
 =======
 
 Left
-   The position of the curve's left handles.
+   The position of the each control point's left handle.
 
 Right
-   The position of the curve's right handles.
+   The position of the each control point's right handle.
