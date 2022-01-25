@@ -43,8 +43,12 @@ Max Blur
 
       High maximum blur values may also reduce the quality.
 
-   It uses a fast post-process vector blur using a vector motion pass.
+   Eevee uses a fast post-process vector blur using a vector motion pass.
    This blurs the image between three time steps using pixel velocity.
+   This technique is fast and produces clean gradients, but issues can occur at object borders
+   or if the motion is locally too complex;
+   for example, if there are many vector variations in a small area.
+
    This technique is fast and produce clean gradients but issues can occur at object borders
    or if the motion is locally too complex (many vector variations in a small area).
 

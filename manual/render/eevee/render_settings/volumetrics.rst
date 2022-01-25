@@ -4,9 +4,9 @@
 Volumetrics
 ***********
 
-Eevee simulate volumetric scattering by evaluating all volume objects inside the view frustum.
+Eevee simulates volumetric scattering by evaluating all volume objects inside the view frustum.
 
-For this it uses several 3D textures which have a high video memory usage.
+To achieve this, Eevee uses several 3D textures which have a high video memory usage.
 The texture dimensions can be tweaked using the *Tile Size* and *Samples* parameters.
 
 Object volumes have some :ref:`limitations <eevee-limitations-volumetrics>`.
