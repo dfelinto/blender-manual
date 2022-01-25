@@ -10,4 +10,5 @@ Nodes for working with data stored per object element, e.g. vertex groups.
 
    attribute_statistic.rst
    capture_attribute.rst
+   domain_size.rst
    transfer_attribute.rst
