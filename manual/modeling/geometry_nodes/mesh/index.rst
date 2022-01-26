@@ -27,6 +27,7 @@ Nodes that only operate on meshes.
    face_area.rst
    face_neighbors.rst
    is_shade_smooth.rst
+   mesh_island.rst
    vertex_neighbors.rst
 
 ------------------------
