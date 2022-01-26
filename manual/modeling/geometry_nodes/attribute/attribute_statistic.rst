@@ -19,12 +19,12 @@ Inputs
 Geometry
    Standard geometry input.
 
-Attribute
-   The attribute field to query a statistic from.
-
 Selection
    A boolean field input for each element indicating whether to include its value in the statistics result
    If the boolean is false, the corresponding value from the *Attribute* input will be ignored.
+
+Attribute
+   The attribute field to query a statistic from.
 
 
 Properties
@@ -38,11 +38,8 @@ Data Type
       All calculations are elementwise.
 
 Domain
-   :Spline: Data is queried from each spline.
-   :Face Corner: Data is queried from each face corner.
-   :Corner: Data is queried from each face corner.
-   :Edge: Data is queried from each edge.
-   :Point: Data is queried from each point.
+   The :ref:`attribute domain <attribute-domains>` used for the statistics
+   and to evaluate the input *Attribute* field on.
 
 
 Outputs

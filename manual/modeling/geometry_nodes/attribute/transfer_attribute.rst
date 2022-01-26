@@ -50,9 +50,9 @@ Properties
 ==========
 
 Domain
-   Domain that the attribute is transferred from, or in other words, the attribute domain used
-   to evaluate the *Attribute* input. For example, it is possible to transfer a point attribute
-   from one geometry to the face domain of another geometry.
+   The :ref:`attribute domain <attribute-domains>` that the attribute is transferred from, or in other words, 
+   the domain used to evaluate the *Attribute* input. For example, it is possible to transfer data from the
+   faces of one geometry to the points of another.
 
 Mapping
    How elements from the destination geometry are mapped to the output.
