@@ -82,6 +82,17 @@ Align Y
    :Bottom Baseline: Aligns the text to the bottom baseline.
    :Bottom: Aligns the text to the bottom.
 
+Pivot Point
+   Controls where on each character the output *Pivot Point* is placed.
+
+   :Midpoint: Place the pivot points at the center of each character's bounds.
+   :Top Left: Place the pivot points at the top left of each character's bounds.
+   :Top Center: Place the pivot points at the middle of the top of each character's bounds.
+   :Top Right: Place the pivot points at the top right of each character's bounds.
+   :Bottom Left: Place the pivot points at the bottom left of each character's bounds.
+   :Bottom Center: Place the pivot points at the middle of bottom of each character's bounds.
+   :Bottom Right: Place the pivot points at the bottom right of each character's bounds.
+
 
 Outputs
 =======
@@ -92,6 +103,13 @@ Curve Instances
 Remainder
    The part of the text that did not fit in the box described by the *Text Box Height* and
    *Text Box Width* inputs. Only used in the *Truncate* overflow mode.
+
+Line
+   An attribute field containing which the index of the each character's line in the text layout
+   (on the :ref:`instance domain <attribute-domains>`).
+
+Pivot Point
+   Outputs the position described by the *Pivot Point* drop-down in the local space of each instance.
 
 
 Examples
