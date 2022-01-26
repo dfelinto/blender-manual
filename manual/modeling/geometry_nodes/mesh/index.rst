@@ -22,6 +22,7 @@ Nodes that only operate on meshes.
 .. toctree::
    :maxdepth: 1
 
+   edge_neighbors.rst
    edge_vertices.rst
    face_area.rst
    face_neighbors.rst
