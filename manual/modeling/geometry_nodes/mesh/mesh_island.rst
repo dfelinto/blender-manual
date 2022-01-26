@@ -1,5 +1,5 @@
 .. index:: Geometry Nodes; Mesh Island
-.. _bpy.types.GeometryNodeEdgeNeighbors:
+.. _bpy.types.GeometryNodeMeshIsland:
 
 ****************
 Mesh Island Node

@@ -8,6 +8,7 @@ Nodes with general purpose for modifying data.
 .. toctree::
    :maxdepth: 1
 
+   accumulate_field.rst
    align_euler_to_vector.rst
    boolean_math.rst
    clamp.rst
