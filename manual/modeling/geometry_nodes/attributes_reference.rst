@@ -1,5 +1,8 @@
 .. index:: Geometry Nodes; Attribute Reference
 
+.. _bpy.ops.object.attribute_add:
+.. _bpy.ops.object.attribute_remove:
+
 **********
 Attributes
 **********
