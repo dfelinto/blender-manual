@@ -1,5 +1,5 @@
 .. index:: Geometry Nodes; Vertex Neighbors
-.. _bpy.types.GeometryNodeVertexNeighbors:
+.. _bpy.types.GeometryNodeInputMeshVertexNeighbors:
 
 *********************
 Vertex Neighbors Node

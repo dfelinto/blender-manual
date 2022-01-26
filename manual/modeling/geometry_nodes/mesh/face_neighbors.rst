@@ -1,5 +1,5 @@
 .. index:: Geometry Nodes; Face Neighbors
-.. _bpy.types.GeometryNodeFaceNeighbors:
+.. _bpy.types.GeometryNodeInputMeshFaceNeighbors:
 
 *******************
 Face Neighbors Node

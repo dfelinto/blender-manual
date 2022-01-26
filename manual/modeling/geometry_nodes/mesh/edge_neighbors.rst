@@ -1,5 +1,5 @@
 .. index:: Geometry Nodes; Edge Neighbors
-.. _bpy.types.GeometryNodeEdgeNeighbors:
+.. _bpy.types.GeometryNodeInputMeshEdgeNeighbors:
 
 *******************
 Edge Neighbors Node

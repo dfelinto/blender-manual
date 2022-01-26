@@ -1,5 +1,5 @@
 .. index:: Geometry Nodes; Edge Vertices
-.. _bpy.types.GeometryNodeEdgeVertices:
+.. _bpy.types.GeometryNodeInputMeshEdgeVertices:
 
 ******************
 Edge Vertices Node

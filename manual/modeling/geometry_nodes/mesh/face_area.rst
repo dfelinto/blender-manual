@@ -1,5 +1,5 @@
 .. index:: Geometry Nodes; Face Area
-.. _bpy.types.GeometryNodeFaceArea:
+.. _bpy.types.GeometryNodeInputMeshFaceArea:
 
 **************
 Face Area Node
