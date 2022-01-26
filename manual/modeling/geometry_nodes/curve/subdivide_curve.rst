@@ -25,7 +25,7 @@ Curve
    Standard geometry input.
 
 Cuts
-   The number of control points to add on each segment.
+   The number of control points to create on the segment following each point.
    When the input is a field, the number of cuts for a segment is determined by
    the value of the field when evaluated at the previous point.
 

@@ -36,5 +36,5 @@ This node has no properties.
 Outputs
 =======
 
-Index
+ID
    Integer value.
