@@ -14,6 +14,7 @@ Nodes that can operate on different geometry types (volume, mesh).
    geometry_proximity.rst
    geometry_to_instance.rst
    join_geometry.rst
+   merge_by_distance.rst
    raycast.rst
    separate_components.rst
    separate_geometry.rst
