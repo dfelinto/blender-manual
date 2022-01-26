@@ -12,6 +12,7 @@ Nodes that can operate on different geometry types (volume, mesh).
    convex_hull.rst
    delete_geometry.rst
    geometry_proximity.rst
+   geometry_to_instance.rst
    join_geometry.rst
    raycast.rst
    separate_components.rst
