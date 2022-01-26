@@ -1,4 +1,4 @@
-.. index:: Geometry Nodes; Mesh Boolean
+.. index:: Geometry Nodes; Dual Mesh
 .. _bpy.types.GeometryNodeDualMesh:
 
 ***************

@@ -10,9 +10,10 @@ Normal Node
 
    Normal node.
 
-The *Normal* node returns a vector for each evaluated point indicating the normal direction.
-The output can depend on the attribute domain used in the node evaluating the field,
-but the output is always a normalized `unit vector <https://en.wikipedia.org/wiki/Unit_vector>`__.
+The *Normal* node returns a vector for each evaluated point indicating the 
+:ref:`normal direction <modeling-meshes-structure-normals>`. The output can depend
+on the attribute domain used in the node evaluating the field, but the output
+is always a normalized `unit vector <https://en.wikipedia.org/wiki/Unit_vector>`__.
 
 :Face:
    On the face domain, the normal is the "up" direction of the face.
