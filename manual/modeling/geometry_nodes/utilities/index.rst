@@ -13,6 +13,7 @@ Nodes with general purpose for modifying data.
    boolean_math.rst
    clamp.rst
    compare.rst
+   field_at_index.rst
    float_curve.rst
    float_to_integer.rst
    map_range.rst

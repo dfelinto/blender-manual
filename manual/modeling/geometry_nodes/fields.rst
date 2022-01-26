@@ -104,6 +104,7 @@ Field inputs may also come from other nodes that process geometry like
 the :doc:`/modeling/geometry_nodes/point/distribute_points_on_faces`,
 in the form of :ref:`anonymous-attributes`.
 
+.. _field-context:
 
 Field Context
 =============

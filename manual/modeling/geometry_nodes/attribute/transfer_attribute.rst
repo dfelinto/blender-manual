@@ -60,8 +60,8 @@ Mapping
    :Index:
       Copy the attribute data from the value at the input index.
       In this mode, the source geometry can consist of a mesh, point cloud, or curve. The matching
-      component type from the context will be chosen if possible, otherwise a component will be chosen
-      in that order.
+      component type from the :ref:`context <field-context>` will be chosen if possible,
+      otherwise a component will be chosen in that order.
 
    :Nearest Face Interpolated:
       Transfer the attribute from the nearest point from anywhere on the surface.
