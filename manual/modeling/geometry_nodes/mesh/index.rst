@@ -13,6 +13,7 @@ Nodes that only operate on meshes.
    mesh_boolean.rst
    mesh_to_curve.rst
    mesh_to_points.rst
+   scale_elements.rst
    split_edges.rst
    subdivide_mesh.rst
    subdivision_surface.rst
