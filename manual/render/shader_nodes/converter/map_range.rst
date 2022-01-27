@@ -19,8 +19,8 @@ The *Map Range* node remaps a value from a range to a target range.
 Inputs
 ======
 
-Value
-   The input value to be remapped.
+Value/Vector
+   The input value or vector to be remapped.
 From Min
    The lower bound of the range to remap from.
 From Max
@@ -37,6 +37,10 @@ Steps
 Properties
 ==========
 
+Data Type
+   Map Range supports both Float and Vector data types. Changing the data type will 
+   also update the sockets to reflect the data type chosen. 
+   
 Interpolation Type
    The mathematical method used to transition between gaps in the numerical inputs.
 
@@ -52,7 +56,7 @@ Clamp
 Outputs
 =======
 
-Result
+Result/Vector
    The input value after remapping.
 
 
