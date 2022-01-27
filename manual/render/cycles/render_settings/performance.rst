@@ -71,6 +71,9 @@ Use Hair BVH
 
 BVH Time Steps
    Split BVH primitives by this number of time steps to speed up render time at the expense of memory.
+   
+Use Compact BVH
+   Use a more compact BVH structure, which can reduce ram usage but render slower.
 
 
 Final Render
