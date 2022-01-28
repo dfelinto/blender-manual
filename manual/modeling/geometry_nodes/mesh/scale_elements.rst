@@ -5,7 +5,7 @@
 Scale Elements Node
 *******************
 
-.. figure:: /images/modeling_geometry-nodes_flip-faces_node.png
+.. figure:: /images/modeling_geometry-nodes_scale-elements_node.png
    :align: right
 
    The Scale Elements node.
@@ -61,5 +61,5 @@ Examples
 .. figure:: /images/modeling_geometry-nodes_flip-faces_extrude.png
    :align: right
 
-The node is useful when combined with the :doc:`/modeling/geometry_nodes/mesh/extrude`,
+The node is useful when combined with the :doc:`/modeling/geometry_nodes/mesh/extrude_mesh`,
 especially in *Individual* mode, where face islands don't need to be scaled together.
