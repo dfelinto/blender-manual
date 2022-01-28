@@ -61,7 +61,7 @@ Mode
 
       .. note::
          
-         Depending on th situation, the normals of the new edges may be arbitrary. If the selected
+         Depending on the situation, the normals of the new faces may be arbitrary. If the selected
          edges only have one selected face, then the node can pick a consistent orientation for the
          new faces, but if there is more than one connected face, or no connected faces, the normals
          may have to be adjusted afterwards.
