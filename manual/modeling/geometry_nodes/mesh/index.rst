@@ -9,6 +9,7 @@ Nodes that only operate on meshes.
    :maxdepth: 1
 
    dual_mesh.rst
+   extrude_mesh.rst
    flip_faces.rst
    mesh_boolean.rst
    mesh_to_curve.rst
