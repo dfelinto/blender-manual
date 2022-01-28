@@ -307,3 +307,40 @@ Note that geometry nodes does not always produce e.g. vertex groups if a node li
 :doc:`Join Geometry </modeling/geometry_nodes/geometry/join_geometry>` is used.
 Similarly, if the data type of a vertex group attribute is changed from the initial "Float" type,
 the attribute will no longer be a vertex group.
+
+
+.. _bpy.ops.object.attribute_convert:
+
+Attribute Conversion Operator
+=============================
+
+.. figure:: /images/modeling_geometry-nodes_attribute-reference_convert.png
+   :align: center
+
+This operator found in the *Attributes* panel of the property editor can change the
+domain or data type of an attribute.
+
+Due to ongoing development in the area of attributes, many areas of Blender can not yet work with
+the generic (identified with a name, stored on any domain with any data type)attributes used by
+geometry nodes. That makes this operator an essential workaround in some cases where existing
+tools must be used with data generated from geometry nodes.
+
+Mode
+   :Generic:
+      Inerpolate and convert the attribute between the domains and data types described on this page.
+   :UV Map:
+      Create a :term:`UV Map` layer, editable in the UV editor. These would otherwise
+      be represented by a 2D vector attribute on the face corner domain.
+   :Vertex Group:
+      Create a :doc:`Vertex Group </modeling/meshes/properties/vertex_groups/index>`
+      from the attribute, which corresponds to a float attribute on the point domain.
+   :Vertex Color:
+      Create a :doc:`Vertex Color </sculpt_paint/vertex_paint/index>`
+      from the attribute, which, despite it's name, corresponds to a color attribute on the
+      *face corner* domain.
+
+.. note::
+   
+   This operator only works on *original* object data, not including the results of modifiers,
+   so any attributes added or changed by geometry nodes will not be affected. To change the type
+   of an attribute generated procedurally, modifiers must be applied.
