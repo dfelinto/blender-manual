@@ -16,8 +16,8 @@ on the geometry, the existing material index will be reused.
 
 .. note::
 
-   This node adjusts mesh and volume data, other data types do not support materials.
-   However, volumes only support a single material, so this input will be ignored for volumes.
+   This node adjusts mesh, point clouds, and volume data;
+   other data types do not support materials.
 
 
 Inputs
@@ -32,6 +32,9 @@ Material
 Selection
    Whether to change the material of each face.
    True values mean the material will be changed, false values mean it will remain the same.
+
+   Note, volumes and point clouds only support a single material,
+   in these cases a field input will be ignored.
 
 
 Properties

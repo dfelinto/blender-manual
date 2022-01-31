@@ -23,6 +23,7 @@ these can be enabled in the Preferences through the use of :doc:`Add-ons </edito
    import_export/alembic.rst
    import_export/collada.rst
    import_export/usd.rst
+   import_export/obj.rst
    import_export/grease_pencil_svg.rst
    import_export/grease_pencil_pdf.rst
 

@@ -20,6 +20,9 @@ Inputs
 Mesh
    Standard geometry input.
 
+Selection
+   A standard Boolean selection input to determine which faces will be triangulated.
+
 Minimum Vertices
    Minimum number of vertices a face must have to be triangulated.
    For example, setting this value to 5, will prevent triangulation of :term:`Quads <Quad>`

@@ -62,7 +62,7 @@ Normal
 Gimbal
    Align each axis to the Euler rotation axis as used for input.
    Uses a :term:`Gimbal` behavior that can be changed
-   depending on the current :ref:`Rotation Mode <rotation-modes>`.
+   depending on the current :ref:`Rotation Mode <bpy.types.Object.rotation_mode>`.
 
 View
    Align the transformation axes to the window of the 3D Viewport:

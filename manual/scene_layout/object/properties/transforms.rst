@@ -30,28 +30,28 @@ all its *vertices* and faces.
 .. _bpy.types.Object.location:
 
 Location
-   The object's origin location in global coordinates.
+   The object's origin location in local coordinates.
 
 .. _bpy.types.Object.rotation:
 
 Rotation
-   The object's orientation, relative to the global axes and its own origin.
+   The object's local orientation, relative to the global axes and its own origin.
 
-   .. _rotation-modes:
+.. _bpy.types.Object.rotation_mode:
 
-   Rotation Mode
-      Method for calculating rotations, additional information can be found
-      in the :doc:`manual's appendix </advanced/appendices/rotations>`.
+Rotation Mode
+   Method for calculating rotations, additional information can be found
+   in the :doc:`manual's appendix </advanced/appendices/rotations>`.
 
-      Euler
-         The gizmo handles are aligned to the :term:`Euler` axis,
-         allowing you to see the discreet XYZ axis underlying the Euler rotation,
-         as well as possible :term:`Gimbal Lock`.
-      Axis Angle
-         The X, Y, and Z coordinates define a point relative to the object origin.
-         This point and the origin define an axis around the W value defines the rotation.
-      Quaternion
-         X, Y, Z and W correspond to the :term:`Quaternion` components.
+   :Euler:
+      The gizmo handles are aligned to the :term:`Euler` axis,
+      allowing you to see the discreet XYZ axis underlying the Euler rotation,
+      as well as possible :term:`Gimbal Lock`.
+   :Axis Angle:
+      The X, Y, and Z coordinates define a point relative to the object origin.
+      This point and the origin define an axis around the W value defines the rotation.
+   :Quaternion:
+      X, Y, Z and W correspond to the :term:`Quaternion` components.
 
 .. _bpy.types.Object.scale:
 
