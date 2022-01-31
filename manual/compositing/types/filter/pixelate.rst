@@ -17,7 +17,7 @@ Inputs
 ======
 
 Color
-   Standard image input.
+   Standard color input.
 
 
 Properties
@@ -30,7 +30,7 @@ Outputs
 =======
 
 Color
-   Standard image output.
+   Standard color output.
 
 
 Example

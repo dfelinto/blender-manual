@@ -18,7 +18,7 @@ Inputs
 ======
 
 Image
-   Standard image input.
+   Standard color input.
 Brightness
    An additive-type factor by which to increase the overall brightness
    of the image. Use a negative number to darken an image.
@@ -41,7 +41,7 @@ Outputs
 =======
 
 Image
-   Standard image output.
+   Standard color output.
 
 
 Notes

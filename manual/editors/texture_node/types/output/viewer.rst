@@ -15,7 +15,7 @@ Inputs
 ======
 
 Color
-   Standard image input.
+   Standard color input.
 
 
 Properties

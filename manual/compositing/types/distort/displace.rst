@@ -19,7 +19,7 @@ Inputs
 ======
 
 Image
-   Standard image input.
+   Standard color input.
 Vector
    Input of the displacement map.
    If the a color output is implicitly converted in the vector input,
@@ -43,4 +43,4 @@ Outputs
 =======
 
 Image
-   Standard image output.
+   Standard color output.

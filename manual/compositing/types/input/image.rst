@@ -36,7 +36,7 @@ Outputs
 The first two sockets are the minimum.
 
 Image
-   Standard image output.
+   Standard color output.
 Alpha
    Separate Alpha value.
 Z

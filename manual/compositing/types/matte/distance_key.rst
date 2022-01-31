@@ -20,7 +20,7 @@ Inputs
 ======
 
 Image
-   Standard image input.
+   Standard color input.
 Key Color
    The color that is to be keyed.
 

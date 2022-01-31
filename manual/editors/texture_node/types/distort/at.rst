@@ -15,7 +15,7 @@ Inputs
 ======
 
 Texture
-   Standard image input.
+   Standard color input.
 Coordinates
    The point at which to sample the color. For images, the space is between -1 and 1 for X and Y.
    If the coordinates are not spatially varying, the node will return a single color.
@@ -31,4 +31,4 @@ Outputs
 =======
 
 Texture
-   Standard image output.
+   Standard color output.

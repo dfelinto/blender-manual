@@ -16,7 +16,7 @@ Inputs
 ======
 
 Image
-   Standard image input.
+   Standard color input.
 Size
    The optional Size input will be multiplied with the X and Y blur radius values.
    It also accepts a value image, to control the blur radius with a mask.
@@ -62,7 +62,7 @@ Outputs
 =======
 
 Image
-   Standard image output.
+   Standard color output.
 
 
 Example

@@ -26,7 +26,7 @@ Inputs
 ======
 
 Image
-   Standard image input.
+   Standard color input.
 Crypto Passes
    Each crypto layer will be given its own render pass;
    each of these render passes must be connected to one of these crypto layer inputs.

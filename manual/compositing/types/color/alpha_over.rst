@@ -51,7 +51,7 @@ Outputs
 =======
 
 Image
-   Standard image output.
+   Standard color output.
 
 
 Examples

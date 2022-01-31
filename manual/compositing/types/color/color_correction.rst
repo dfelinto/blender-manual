@@ -57,7 +57,7 @@ Inputs
 ======
 
 Image
-   Standard image input.
+   Standard color input.
 Mask
    Controls the amount of influence the node exerts on the output image.
 
@@ -66,4 +66,4 @@ Outputs
 =======
 
 Color
-   Standard image output.
+   Standard color output.

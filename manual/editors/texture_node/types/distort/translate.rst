@@ -15,7 +15,7 @@ Inputs
 ======
 
 Color
-   Standard image input.
+   Standard color input.
 Offset
    The amount to offset the coordinates in each of the three axes.
 
@@ -30,4 +30,4 @@ Outputs
 =======
 
 Color
-   Standard image output.
+   Standard color output.

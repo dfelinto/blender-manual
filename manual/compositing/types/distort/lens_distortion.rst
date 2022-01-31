@@ -16,7 +16,7 @@ Inputs
 ======
 
 Image
-   Standard image input.
+   Standard color input.
 Distort
    This creates a bulging or pinching effect from the center of the image.
 Dispersion
@@ -40,4 +40,4 @@ Outputs
 =======
 
 Image
-   Standard image output.
+   Standard color output.

@@ -23,7 +23,7 @@ Inputs
 Factor
    Controls the amount of influence the node exerts on the output image.
 Image
-   Standard image input.
+   Standard color input.
 Black Level :guilabel:`Compositor Only`
    Defines the input color that is (linear) mapped to black.
 White Level :guilabel:`Compositor Only`
@@ -58,7 +58,7 @@ Outputs
 =======
 
 Image
-   Standard image output.
+   Standard color output.
 
 
 Examples

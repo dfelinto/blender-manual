@@ -30,4 +30,4 @@ Outputs
 =======
 
 Color
-   Standard image output.
+   Standard color output.

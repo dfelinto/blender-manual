@@ -16,7 +16,7 @@ Inputs
 ======
 
 Image
-   Standard image input.
+   Standard color input.
 Degr
    Rotation angle in degree. Positive values rotate clockwise and negative ones counterclockwise.
 
@@ -36,4 +36,4 @@ Outputs
 =======
 
 Image
-   Standard image output.
+   Standard color output.

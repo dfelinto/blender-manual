@@ -21,7 +21,7 @@ Inputs
 ======
 
 Image
-   Standard image input.
+   Standard color input.
 Exposure
    Scalar factor to adjust the exposure of the image.
 
@@ -36,7 +36,7 @@ Outputs
 =======
 
 Image
-   Standard image output.
+   Standard color output.
 
 
 Examples

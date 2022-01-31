@@ -15,7 +15,7 @@ Inputs
 ======
 
 Color
-   Standard image input.
+   Standard color input.
 Turns
    The number of times to rotate the coordinates 360 degrees about the specified axis.
 Axis
@@ -32,4 +32,4 @@ Outputs
 =======
 
 Color
-   Standard image output.
+   Standard color output.

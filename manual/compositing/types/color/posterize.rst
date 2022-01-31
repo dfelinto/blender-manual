@@ -18,7 +18,7 @@ Inputs
 ======
 
 Image
-   Standard image input.
+   Standard color input.
 Steps
    The number of colors per channel;
    A value of 8 will result is :math:`3^8 = 512` total colors.
@@ -34,4 +34,4 @@ Outputs
 =======
 
 Image
-   Standard image output.
+   Standard color output.

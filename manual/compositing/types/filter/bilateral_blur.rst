@@ -21,7 +21,7 @@ Inputs
 ======
 
 Image
-   Standard image input.
+   Standard color input.
    If only the image input is connected,
    the node blurs the image depending on the edges present in the source image.
 Determinator
@@ -47,7 +47,7 @@ Outputs
 =======
 
 Image
-   Standard image output.
+   Standard color output.
 
 
 Example

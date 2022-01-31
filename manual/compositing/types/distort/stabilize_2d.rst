@@ -19,7 +19,7 @@ Inputs
 ======
 
 Image
-   Standard image input.
+   Standard color input.
 
 
 Properties
@@ -45,4 +45,4 @@ Outputs
 =======
 
 Image
-   Standard image input.
+   Standard color input.

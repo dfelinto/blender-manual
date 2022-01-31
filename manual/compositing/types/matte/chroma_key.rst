@@ -19,7 +19,7 @@ Inputs
 ======
 
 Image
-   Standard image input.
+   Standard color input.
 Key Color
    The background color usually selected using the color picker and the original image.
 

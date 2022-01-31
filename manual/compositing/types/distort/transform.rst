@@ -18,7 +18,7 @@ Inputs
 ======
 
 Image
-   Standard image input.
+   Standard color input.
 X, Y
    Used to move the input image horizontally and vertically.
 Angle
@@ -44,4 +44,4 @@ Outputs
 =======
 
 Image
-   Standard image output.
+   Standard color output.

@@ -17,7 +17,7 @@ Inputs
 ======
 
 Image
-   Standard image input. If no image is selected, an image filled with the selected color is used.
+   Standard color input. If no image is selected, an image filled with the selected color is used.
    You can use and crop this image in combination with another background image.
 
 
@@ -62,7 +62,7 @@ Outputs
 =======
 
 Image
-   Standard image output.
+   Standard color output.
 
 
 Usage

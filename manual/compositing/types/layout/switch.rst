@@ -32,7 +32,7 @@ Outputs
 =======
 
 Image
-   Standard image output.
+   Standard color output.
 
 .. tip::
 

@@ -20,7 +20,7 @@ Inputs
 ======
 
 Image
-   Standard image input.
+   Standard color input.
 Z
    Z-buffer input, but could also be a (grayscale) image used as a mask, or a single value input.
 
@@ -76,7 +76,7 @@ Outputs
 =======
 
 Image
-   Standard image output.
+   Standard color output.
 
 
 Examples

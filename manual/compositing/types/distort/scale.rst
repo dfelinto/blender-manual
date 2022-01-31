@@ -16,7 +16,7 @@ Inputs
 ======
 
 Image
-   Standard image input.
+   Standard color input.
 X, Y
    Scale in the axis directions, only available if *Space* is set to *Relative* or *Absolute*.
 
@@ -50,7 +50,7 @@ Outputs
 =======
 
 Image
-   Standard image output.
+   Standard color output.
 
 
 Examples

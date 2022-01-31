@@ -17,7 +17,7 @@ Inputs
 ======
 
 Image
-   Standard image input.
+   Standard color input.
 Corners
    Four vector inputs to define the plane warping. (Z component of vector inputs is ignored.)
 
@@ -32,7 +32,7 @@ Outputs
 =======
 
 Image
-   Standard image output. (The image after distorting.)
+   Standard color output. (The image after distorting.)
 Plane
    A black-and-white alpha mask of the plane.
 

@@ -32,7 +32,7 @@ Outputs
 =======
 
 Image
-   Standard image output.
+   Standard color output.
 Alpha
    Standard alpha output.
 

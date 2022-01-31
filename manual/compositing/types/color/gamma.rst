@@ -20,7 +20,7 @@ Inputs
 ======
 
 Image
-   Standard image input.
+   Standard color input.
 Gamma
    An exponential brightness factor.
 
@@ -35,7 +35,7 @@ Outputs
 =======
 
 Image
-   Standard image output.
+   Standard color output.
 
 
 Examples

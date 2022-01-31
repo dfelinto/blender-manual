@@ -22,7 +22,7 @@ Inputs
 ======
 
 Image
-   Standard image input.
+   Standard color input.
 Bokeh
    This is an input for the :doc:`Bokeh Image </compositing/types/input/bokeh_image>` node.
 Size
@@ -51,7 +51,7 @@ Outputs
 =======
 
 Image
-   Standard image output.
+   Standard color output.
 
 
 Examples
