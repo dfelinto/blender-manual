@@ -96,7 +96,7 @@ Set Overlay Region
 Frame Offset
    The slider controls the offset of the reference frame relative to current frame.
 
-.. _bpy.types.SpaceSequenceEditor.overlay_type:
+.. _bpy.types.SpaceSequenceEditor.overlay_frame_type:
 
 Overlay Type
    It describes the way the reference frame should be displayed.
@@ -110,7 +110,7 @@ Overlay Type
       It is possible to have several Sequence Editors opened and they can use different overlay types.
       So it is possible to have current and reference frames displayed in different editor spaces.
 
-.. _bpy.types.SequenceEditor.use_overlay_lock:
+.. _bpy.types.SequenceEditor.use_overlay_frame_lock:
 
 Overlay Lock
    It's still possible to lock the reference frame to its current position.
