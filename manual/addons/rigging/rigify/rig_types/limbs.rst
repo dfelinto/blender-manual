@@ -89,6 +89,14 @@ child of the foot to be used as the heel pivot.
 
    Leg required bones.
 
+Foot Pivot (Ankle, Toe, Ankle & Toe)
+   Specifies where to put the pivot location of the main IK control, or whether to generate an additional
+   pivot control at the base of the toe.
+
+Separate IK Toe
+   Specifies that two separate toe controls should be generated for IK and FK instead of sharing one bone.
+   This is necessary to get fully correct IK-FK snapping in all possible poses.
+
 Rotation Axis (Automatic, X, Z)
    Defines the bend axis for the IK chain. FK chains will have a totally free degree of rotation on all axes.
 Limb Segments (integer)

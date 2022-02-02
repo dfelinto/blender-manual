@@ -10,7 +10,7 @@ Basic Rig Generation
 
 #. Add a meta-rig structure from the :menuselection:`Add --> Armature` menu.
 #. Edit the bone positions to match the character geometry.
-#. In the armature properties click on the *Generate* button to generate the rig.
+#. In the armature properties click on the *Generate Rig* button to generate the rig.
 
 
 Add a Predefined Meta-Rig
@@ -25,10 +25,10 @@ Add a Predefined Meta-Rig
 Rigify stores all the information required to generate complex rig controls and mechanism in
 more simple armatures called "meta-rigs".
 
-The precompiled meta-rigs can be found in the *Add* menu.
+The predefined meta-rigs can be found in the *Add* menu.
 Currently available meta-rig types are:
 
-- Basic Human
+- Basic Human (doesn't include face and fingers)
 - Basic Quadruped
 - Human
 - Cat
@@ -48,7 +48,7 @@ This can be achieved in two different ways: Pose Mode or Edit Mode.
    Rigify assumes that 1 unit corresponds to 1 meter. So a human is about 2 units tall.
    If your character is in a different scale and you are more familiar with modeling rather than rigging,
    it is suggested to scale it to Rigify dimensions before positioning the meta-rig bones.
-   f you want to scale the character's geometry, we suggest you to first scale up the character in Object Mode,
+   If you want to scale the character's geometry, we suggest you to first scale up the character in Object Mode,
    then apply the geometry scale with the *Apply Scale* tool.
 
 
@@ -111,7 +111,7 @@ Generating the Rig
 ------------------
 
 With the bones in the correct positions, jump back in Object Mode, go to the Armature tab,
-scroll down to the bottom and click on the *Generate* button to finalize the rig creation.
+scroll down to the bottom and click on the *Generate Rig* button to finalize the rig creation.
 The generation process will take from few seconds to one minute depending on
 rig complexity and hardware specifications of your machine.
 If the generated rig needs tweaking, you can modify the meta-rig accordingly and
@@ -119,13 +119,22 @@ then click again on the generate button. If the rig already exists,
 Rigify will simply overwrite it retaining all your modifiers and constraints and -- where possible --
 all the previously generated features.
 
-If you need to generate more than one rig in the scene or update a specific one
-(when there are more than one in the same file), follow the instructions in the `Advanced Rig Generation`_ section.
+For information about additional generation options, see the `Advanced Rig Generation`_ section.
 
-.. tip:: Rig Updating
+.. tip::
+
+   If the metarig uses the legacy :doc:`face rig <rig_types/faces>`, you can use the
+   *Upgrade Face Rig* button that appears above *Generate Rig* to automatically upgrade
+   to the new modular face system.
+
+   The upgrade will preserve compatibility with existing skinning, but existing poses and
+   animations will likely not be compatible due to subtle changes in control behavior.
+
+.. note::
 
    To make the rig overwriting work as expected, you need to have **both** the rig and
-   the meta-rig visible before generating again.
+   the meta-rig visible before generating again. Rigify will try to unhide them in simple
+   cases, but will abort generation if that fails.
 
 .. warning::
 
@@ -139,8 +148,8 @@ Binding the Geometry to the Rig
 To bind the geometry to the rig you can use your preferred tools. Just few things you have to know:
 
 - All the deforming bones are on the armature layer 30.
-- Eyes and Teeth bones are not deforming. You are supposed to bind the eyes and teeth geometry
-  through Child Of constraints.
+- Eyes and Teeth bones of the legacy face are not deforming. You are supposed to bind the eyes and
+  teeth geometry through Child Of constraints.
 - Usually armature deform with automatic weights do a really good job out of the box
   if you correctly place your bones (and there is enough topology to work with!).
 
@@ -155,103 +164,94 @@ Advanced Rig Generation
 Advanced Options Features
 -------------------------
 
-When Advanced Options are enabled, user will be able to:
+By using options in the Advanced sub-panel, it is possible to:
 
 - Generate more than one rig per scene.
-- Generate a rig with a specific name.
 - Update/Override a specific rig.
+- Force previously generated widget objects to be overwritten.
+- Choose whether to use linked duplicates for left and right side widgets.
 - Execute a script data-block after generation.
 
 
-Advanced Options Activation
----------------------------
+Advanced Options Sub-Panel
+--------------------------
 
-Advanced Rig Generation Options are locked by default. Click on the *Advanced Options* button to enable.
-With Advanced Options enabled the panel will be updated displaying two main modes:
+Advanced rig generation options are by default hidden in a sub-panel. Click on the *Advanced* line to open it.
 
-- Overwrite
-- New
+Some of the options will be automatically set by Rigify if they have no value when a rig is generated,
+while others are fully controlled by the user.
 
-By default overwrite is selected. At this stage if you don't touch anything in the UI the generate function
-will be invoked as is, meaning in fact that generating the rig now will create a new rig from the meta-rig
-if none is present in the scene, or overwrite the default one if you have already generated a rig from a meta-rig.
-For further information about the Rigify generate function look at basic usage section.
+Target Rig :guilabel:`auto`
+   This option specifies the generated rig to overwrite when re-generating from this metarig.
 
+   If the option is not set, Rigify will generate a new rig object and store it in this option.
+   The new object will be named based on the name of the metarig according to the following rules:
 
-New Rig Mode
-^^^^^^^^^^^^
+   * If the name contains ``META``, it is replaced with ``RIG``.
+   * If the name contains ``metarig``, it is replaced with ``rig``.
+   * Otherwise, ``RIG-`` is prepended to the name.
 
-The *New* rig mode will let the user generate a new rig from the meta-rig regardless of
-an already generated rig is present in the scene.
-A specific name for the rig can be set by the user through the specific *Rig Name* text field.
-If no name is set, Rigify will generate an armature object named "rig" and a Python script named ``rig_ui.py``.
+   When overwriting an existing rig object specified by the option, its name is not changed,
+   allowing it to be freely renamed if the default naming scheme doesn't fit.
 
-.. note::
+   .. note::
+      When the option isn't set, Rigify will create a brand new rig object even if an object
+      with a matching name already exists.
 
-   Keep in mind that along with the rig, Rigify generates also a ``rig_ui`` Python script
-   which controls the UI in the 3D Viewport. This Python script will be named accordingly with
-   the specified rig name.
+Rig UI Script :guilabel:`auto`
+   This option specifies the generated script datablock to overwrite when re-generating, and
+   works in the same manner as *Target Rig*.
 
+   The script controls the UI in the 3D Viewport that allows conveniently switching visible
+   bone layers, changing custom properties, converting between IK and FK and so on.
 
-Overwrite Rig Mode
-^^^^^^^^^^^^^^^^^^
-
-The *Overwrite* rig mode will let the user specify a target rig to be overwritten.
-If none is set Rigify will search and eventually overwrite an armature object named "rig" and
-a Python script named ``rig_ui.py``.
-
+Widgets Collection :guilabel:`auto`
+   This reference specifies the collection containing generated widgets, and
+   works in the same manner as *Target Rig*.
 
 Force Widget Update
-^^^^^^^^^^^^^^^^^^^
-
-If enabled, Rigify will generate new widgets every time the rig is re-generated. By default,
-it tries to reuse the already generated widget objects, allowing them to be manually edited
-to fit the character better.
-
+   If enabled, Rigify will generate new widgets every time the rig is re-generated. By default,
+   it tries to reuse the already generated widget objects that exist in the widget collection,
+   allowing them to be manually edited to fit the character better.
 
 Mirror Widgets
-^^^^^^^^^^^^^^
+   When enabled, Rigify generates widgets for left and right side bones as
+   linked duplicates, using negative X scale to flip the right side version.
+   This enforces symmetry and reduces the number of meshes to adjust to
+   fit the character.
 
-When enabled, Rigify generates widgets for left and right side bones as
-linked duplicates, using negative X scale to flip the right side version.
-This enforces symmetry and reduces the number of meshes to adjust to
-fit the character.
-
-When reusing an already generated widget, Rigify detects if it was originally generated mirrored
-by checking object scale to avoid flipping existing controls. Therefore switching to mirrored
-widgets for an existing character requires deleting the right side widgets, or *Force Widget Update*.
-
+   When reusing an already generated widget, Rigify detects if it was originally generated mirrored
+   by checking object scale to avoid flipping existing controls. Therefore switching to mirrored
+   widgets for an existing character requires deleting the right side widgets, or *Force Widget Update*.
 
 Run Script
-^^^^^^^^^^
+   It is possible to configure Rigify to execute a Python script contained in a text data-block
+   after generation in order to apply user-defined customizations. The script is executed with
+   the generated rig active and selected in Object Mode.
 
-It is possible to configure Rigify to execute a Python script contained in a text data-block
-after generation in order to apply user-defined customizations. The script is executed with
-the generated rig active and selected in Object Mode.
+   The simplest use of this may be adjusting properties of generated constraints when Rigify rig types
+   don't have any relevant meta-rig settings. That can be done by using the *Copy Full Data Path*
+   context menu option on the property, pasting it into the script and making an assignment, e.g.::
 
-The simplest use of this may be adjusting properties of generated constraints when Rigify rig types
-don't have any relevant meta-rig settings. That can be done by using the *Copy Full Data Path*
-context menu option on the property, pasting it into the script and making an assignment, e.g.::
+      import bpy
 
-   import bpy
+      bpy.data.objects["rig"].pose.bones["MCH-spine.003"].constraints[0].influence = 0.6
 
-   bpy.data.objects["rig"].pose.bones["MCH-spine.003"].constraints[0].influence = 0.6
+   Doing such changes via a script ensures they aren't lost if the rig is re-generated.
 
-Doing such changes via a script ensures they aren't lost if the rig is re-generated.
-
-Users familiar with `Rigify scripting <https://wiki.blender.org/wiki/Process/Addons/Rigify>`__
-can import Rigify utility modules, and access the generator instance through ``rigify.get_generator()``.
-Yet note that, since generation is already finished, the only use of that is reading data created
-in the generation process.
+   Users familiar with `Rigify scripting <https://wiki.blender.org/wiki/Process/Addons/Rigify>`__
+   can import Rigify utility modules, and access the generator instance through ``rigify.get_generator()``.
+   Yet note that, since generation is already finished, the only use of that is reading data created
+   in the generation process.
 
 
 Library Linking
 ===============
 
 When linking a rig into another file, you generally want to create a collection that includes
-the generated rig and the character mesh, with another nested and hidden collection for
-the "WGT-" objects. You do not need to include the meta-rig. You then link in the collection
-and run :ref:`Make Library Override <bpy.ops.object.make_override_library>`.
+the generated rig and the character mesh. You do not need to include the meta-rig or the widget
+object collection. You then link in the collection and run
+:ref:`Make Library Override <bpy.ops.object.make_override_library>`.
 
 The ``rig_ui.py`` text data-block responsible for the rig UI will be automatically linked along with the rig,
 you don't need to link it separately. However, the script will not run until you run it

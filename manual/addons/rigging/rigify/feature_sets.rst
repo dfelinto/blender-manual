@@ -16,7 +16,12 @@ These are some examples of *Feature Sets* currently provided by past and current
    were changed, so meta-rigs designed for legacy mode aren't directly compatible.
 
 `Experimental Rigs by Alexander Gavrilov <https://github.com/angavrilov/angavrilov-rigs>`__
-   Rig experiments, some of which might be included in Rigify in the future.
+   Rig experiments, some of which might be included in Rigify in the future. Examples include
+   limbs with an extra IK system based at knee/elbow, a spline based tentacle, and more.
+
+`Cloud Rig <https://gitlab.com/blender/CloudRig>`__
+   This major conversion feature set by Demeter Dzadik implements the rig used by
+   the Blender Animation Studio using the Rigify framework.
 
 You can install these packages by clicking :menuselection:`Clone --> Download ZIP`,
 and then install the downloaded file through Rigify settings.

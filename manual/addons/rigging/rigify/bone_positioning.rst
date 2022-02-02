@@ -69,6 +69,7 @@ After the main face bones are placed use the cheek bone to connect the eye-nose 
 Then do the same with the brow area. This process will automatically define face muscles compression areas.
 
 Position the eye bones in the eye pivot point facing right **toward** the face on the Y axis.
+The length of the eye bones should correspond to the radius of the eye.
 
 .. figure:: /images/addons_rigging_rigify_bone-positioning_face-eyes-pivot-position.png
    :align: center

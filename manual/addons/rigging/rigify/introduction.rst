@@ -42,7 +42,8 @@ Shareable animation through all Rigify rigs
 Extendable feature set
    You can save and encode your meta-rigs to a button to have them available at any time
    without recreating it by hand or share your meta-rigs with other people.
-   Through Python scripting you can also extend Rigify with new Rigify-types or new rig samples.
+   Through Python scripting you can also extend Rigify with new Rigify-types or new rig samples
+   by implementing your own :doc:`feature set <feature_sets>` package.
 
 Ready to go
    Once you generate your rig you won't need Rigify or any other add-on to use it.
