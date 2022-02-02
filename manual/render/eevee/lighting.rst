@@ -27,8 +27,10 @@ Eevee
 
 Specular
    Specular Light intensity multiplier. Use it for artistic control.
-   Defines the intensity with which the light object will be visible in reflections on the surface of specular objects, like metals or mirrors.
-   Setting this to 0 will make the light object disappear from specular reflections. Keep it exactly at 1.0 for photorealistic results.
+   Defines the intensity with which the light object will be visible in reflections on the surface of specular objects,
+   like metals or mirrors.
+   Setting this to 0 will make the light object disappear from specular reflections. Keep it exactly at 1.0 for
+   photo-realistic results.
 Custom Distance
    If enabled, uses *Distance* as the custom attenuation distance instead of global Light Threshold.
    In order to avoid long setup times, this distance is first computed
@@ -64,7 +66,8 @@ Bias
    Bias applied to the depth test to reduce self-shadowing artifacts.
    This determines, what size of surface details (for example, bumps) will cast shadows on the object itself.
    If this value is low, small bumps will cast shadows on the object's surface.
-   This might cause jagged shadow edge between the sunny and shadowy side of the object, but it can be smoothed out by turning on :doc:`Soft Shadows </render/eevee/render_settings/shadows>`
+   This might cause jagged shadow edge between the sunny and shadowy side of the object,
+   but it can be smoothed out by turning on :doc:`Soft Shadows </render/eevee/render_settings/shadows>`
 
 
 Contact Shadows
@@ -97,10 +100,12 @@ Cascaded Shadow Map
 
 Sun lights usually illuminate a large scene with many objects, some close, some far away.
 To optimize shadow calculation in this situation, a technique called Cascaded Shadow Maps is used.
-The distance between the camera's near clip and far clip point is divided into as many equal intervals (called cascades) as you set the Count parameter below.
-For each cascade a different resolution shadow will be displayed: higher resolution for closer cascades and lower resolution for distant ones.
-Do note that cascade shadow maps are always updated because they depend on the camera position or your view origin in the 3D-Viewport.
-This means they have a high performance impact.
+The distance between the camera's near clip and far clip point is divided into as many equal intervals
+(called cascades) as you set the Count parameter below.
+For each cascade a different resolution shadow will be displayed: higher resolution for closer cascades and lower
+resolution for distant ones.
+Do note that cascade shadow maps are always updated because they depend on the camera position or your view origin in
+the 3D-Viewport. This means they have a high performance impact.
 
 .. note::
 
@@ -111,8 +116,8 @@ Count
    Number of cascades to use. More cascades means better shadow precision but a lower update rate.
 
 Fade
-   When the Fade is greater than 0, the size of each cascade (distance interval) is increased so that neighboring cascades overlap.
-   Then a fade is applied in the overlapping region to provide a smooth transition between cascades.
+   When the Fade is greater than 0, the size of each cascade (distance interval) is increased so that neighboring
+   cascades overlap. Then a fade is applied in the overlapping region to provide a smooth transition between cascades.
    Higher values mean the cascade's size is increased more, which decreases the available shadow resolution
    inside the cascade since some of it is used in the overlapping region.
 

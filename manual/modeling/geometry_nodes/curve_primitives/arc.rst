@@ -1,9 +1,9 @@
 .. index:: Geometry Nodes; Arc
 .. _bpy.types.GeometryNodeArc:
 
-*****************
+********
 Arc Node
-*****************
+********
 
 .. figure:: /images/modeling_geometry-nodes_curve-primitives_arc_node.png
    :align: right
@@ -21,18 +21,18 @@ Resolution
 
 Radius
    The radius of the arc. *Radius* mode only.
-   
+
 Start Angle
    Starting angle of the arc.  *Radius* mode only.
 
 Sweep Angle
    Length of the arc.   *Radius* mode only.
-   
-Connect Center
-   Connect the arc at the center.  
 
-Invert Arc   
-   Invert and draw opposite arc.  
+Connect Center
+   Connect the arc at the center.
+
+Invert Arc
+   Invert and draw opposite arc.
 
 Start, Middle, End
    The three points on the arc. *Points* mode only.
@@ -54,7 +54,7 @@ Properties
 Mode
    :Points:
       The position and radius of the arc are determined by three points.
-      The center of the arc, radius and normal are also given as outputs.      
+      The center of the arc, radius and normal are also given as outputs.
    :Radius:
       The arc is determined by the radius, start angle and sweep angle.
 
@@ -68,7 +68,7 @@ Curve
 Center
    The center of the arc described by the three points. *Points* mode only.
 Normal
-   The normal direction of the plane described by the three points, 
+   The normal direction of the plane described by the three points,
    pointing towards the positive Z axis. *Points* mode only.
 Radius
    The radius of the arc described by the three points. *Points* mode only.

@@ -56,7 +56,8 @@ See `Examples`_ at the end of this page.
 .. hint:: **Defects in an Atomic Structure**
 
    If you want to show defects like vacancies in an atomic structure, use an 'X' for
-   the element name in the PDB or XYZ file (`see here <https://development.root-1.de/Atomic_Blender_PDB_XYZ_Remarks.php>`__).
+   the element name in the PDB or XYZ file
+   (`see here <https://development.root-1.de/Atomic_Blender_PDB_XYZ_Remarks.php>`__).
    A defect is shown in the form of a cube.
 
 
@@ -130,8 +131,8 @@ Type
    Instancing Vertices
       The sticks of one element are put into one instancing vertice structure and the sticks appear as cylinders.
       The instancing vertice structure makes the displaying and loading of many sticks relatively fast
-      (see Section `The instancing vertice structure`_ for more info). Options *Unit* is the length of a unit (a small cylinder):
-      several of such units are put together forming actually the stick (cylinder).
+      (see Section `The instancing vertice structure`_ for more info). Options *Unit* is the length of a unit
+      (a small cylinder): several of such units are put together forming actually the stick (cylinder).
       The longer the unit length is the less is the number of such units and
       thus the faster is the displaying. However, if the unit length is too long the stick becomes
       eventually longer than the bond length (distance between atoms).
