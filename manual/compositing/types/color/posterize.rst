@@ -1,4 +1,4 @@
-.. _bpy.types.CompositorNodeHueSat:
+.. _bpy.types.CompositorNodePosterize:
 
 *********
 Posterize
