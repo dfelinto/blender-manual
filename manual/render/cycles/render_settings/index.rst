@@ -16,4 +16,3 @@
    motion_blur.rst
    film.rst
    performance.rst
-   debug.rst
