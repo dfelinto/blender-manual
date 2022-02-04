@@ -52,7 +52,7 @@ Density Max
       no new points will be added after this threshold has been passed.
 
 Density
-   The point density for the point distribution. The unit is in number of points per square meter.
+   The number of points to distribute per square meter on each mesh face.
    This value is multiplied by the values from the *Density Attribute*.
 
    In *Poisson Disk* mode, this value is multiplied by the *Density Max* input for the final density.
