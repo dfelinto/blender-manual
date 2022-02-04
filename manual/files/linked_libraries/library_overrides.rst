@@ -4,15 +4,14 @@ Library Overrides
 *****************
 
 Library Overrides is a system designed to replace and supersede
-:doc:`Proxies </files/linked_libraries/library_proxies>`. Most types of
-linked data-blocks can be overridden, and the properties of those overrides
-can then be edited. When the library data changes, unmodified properties of
-the overridden one will be updated accordingly.
+Proxies. Most types of linked data-blocks can be overridden, and the properties
+of those overrides can then be edited. When the library data changes,
+unmodified properties of the overridden one will be updated accordingly.
 
 .. note::
 
-   The old proxy system has been deprecated in Blender 3.0, and will be fully removed in Blender 3.1.
-   Automatic conversion from proxies to library overrides happens by default when loading a blend-file,
+   The old proxy system has been deprecated in Blender 3.0, and fully removed in Blender 3.2.
+   Automatic conversion from proxies to library overrides happens when loading a blend-file,
    but results on complex characters are not guaranteed and may need manual fixes.
 
 Library overrides supports:
@@ -72,22 +71,6 @@ of collections and objects, and override all those needed to allow posing/animat
    For this operator to work properly, it is crucial that **all** the collections needed by
    the character are children of the root (linked and instantiated) one.
    Otherwise, some won't be automatically overridden, and manual work will be needed to fix the override.
-
-
-.. _bpy.ops.object.convert_proxy_to_override:
-
-Converting Proxies to Library Override
-======================================
-
-.. reference::
-
-   :Editor:    3D Viewport and Outliner
-   :Mode:      Object Mode
-   :Menu:      :menuselection:`3D Viewport --> Header --> Object --> Relations --> Convert Proxy to Library Override`
-               :menuselection:`Outliner -->  ID Data --> Convert Proxy to Library Override`
-
-Converts a :doc:`Proxy </files/linked_libraries/library_proxies>` to a local override.
-This operator is used to help convert older blend-files to the new override system.
 
 
 Resyncing Overrides
