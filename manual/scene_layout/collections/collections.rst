@@ -54,6 +54,8 @@ Instance Offset X, Y Z
    Applies a spatial offset of the instanced collections from the original object's origin.
 
 
+.. _scene_layout-collections-line-art:
+
 Line Art
 --------
 
