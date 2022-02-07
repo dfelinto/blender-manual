@@ -37,7 +37,7 @@ Armature Layers
 .. _bpy.types.Armature.layers_protected:
 
 Protected Layers
-   You can lock a given bone layer for all :ref:`proxies <object-proxy>`
+   You can lock a given bone layer for all :doc:`/files/linked_libraries/library_proxies`
    of your armature, i.e. all bones in this layer will not be editable.
 
    .. note::

@@ -129,10 +129,6 @@ Make Library Override
 Make Library Override Hierarchy
    Make a local :doc:`override </files/linked_libraries/library_overrides>` of this linked data-block,
    and its hierarchy of dependencies.
-Convert Proxy to Override
-   Converts the selected :doc:`Proxy </files/linked_libraries/library_proxies>`
-   data-block to an :doc:`override </files/linked_libraries/library_overrides>`
-   and its hierarchy of dependencies. See also, :ref:`bpy.ops.object.convert_proxy_to_override`.
 Reset Library Override
    Reset this local :doc:`override </files/linked_libraries/library_overrides>` to its linked values.
 Reset Library Override Hierarchy

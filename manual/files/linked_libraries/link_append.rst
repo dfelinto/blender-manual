@@ -25,7 +25,7 @@ Link
 
 *Link* creates a reference to the data in the source file such that
 changes made there will be reflected in the referencing file the next time it is reloaded.
-But linked data is not editable (to some extent, see :ref:`object-proxy`).
+But linked data is not editable (to some extent, see :doc:`/files/linked_libraries/library_proxies`).
 
 In the :doc:`File Browser </editors/file_browser>`,
 navigate to the external source blend-file and select the data-block you want to reuse.
