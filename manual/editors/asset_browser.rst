@@ -126,6 +126,16 @@ Load Custom Preview
 Generate Preview
    Generate/update a preview for the asset.
 
+Preview
+   Menu of additional preview operators.
+
+   .. _bpy.ops.ed.lib_id_generate_preview_from_object:
+
+   Render Active Object
+      Generates a preview by based on the 3D Viewport's :term:`Active` object.
+      This is useful for node groups, particularly for geometry nodes,
+      which cannot automatically generate their own preview.
+
 
 .. _bpy.ops.asset.tag_add:
 .. _bpy.ops.asset.tag_remove:

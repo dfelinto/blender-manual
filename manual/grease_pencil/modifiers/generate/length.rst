@@ -29,23 +29,26 @@ End
 Used Length
    Define what portion of the stroke is used to calculate the direction of the extension.
 
+
 Curvature
-   When enabled, the extension will follow the curvature of the stroke.
+---------
 
-   Point Density
-      Multiplied by Start/End for the total point count.
+When enabled, the extension will follow the curvature of the stroke.
 
-   Segment Influence
-      Factor to determine how much the length of the individual segments
-      should influence the final computed curvature. Higher factors makes
-      small segments influence the overall curvature less.
+Point Density
+   Multiplied by Start/End for the total point count.
 
-   Filter Angle
-      Ignore points on the stroke that deviate from their neighbors by more
-      than this angle when determining the extrapolation shape.
+Segment Influence
+   Factor to determine how much the length of the individual segments
+   should influence the final computed curvature. Higher factors makes
+   small segments influence the overall curvature less.
 
-   Invert
-      Invert the curvature of the stroke's extension.
+Filter Angle
+   Ignore points on the stroke that deviate from their neighbors by more
+   than this angle when determining the extrapolation shape.
+
+Invert
+   Invert the curvature of the stroke's extension.
 
 
 Influence Filters

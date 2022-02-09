@@ -56,7 +56,6 @@ Panel
 
 .. reference::
 
-   :Mode:      All Modes
    :Panel:     :menuselection:`Sidebar --> Group --> Inputs`, :menuselection:`Sidebar --> Group --> Outputs`
 
 .. figure:: /images/interface_controls_nodes_groups_interface-panel.png
@@ -113,7 +112,6 @@ Edit Group
 
 .. reference::
 
-   :Mode:      All Modes
    :Menu:      :menuselection:`Node --> Edit Group`
    :Header:    :menuselection:`Go to Parent Node Tree`
    :Shortcut:  :kbd:`Tab`, :kbd:`Ctrl-Tab`
@@ -137,7 +135,6 @@ Make Group
 
 .. reference::
 
-   :Mode:      All Modes
    :Menu:      :menuselection:`Node --> Make Group`
    :Shortcut:  :kbd:`Ctrl-G`
 
@@ -172,7 +169,6 @@ Ungroup
 
 .. reference::
 
-   :Mode:      All Modes
    :Menu:      :menuselection:`Node --> Ungroup`
    :Shortcut:  :kbd:`Ctrl-Alt-G`
 
@@ -195,7 +191,6 @@ Group Insert
 
 .. reference::
 
-   :Mode:      All Modes
    :Menu:      :menuselection:`Node --> Group Insert`
 
 .. move node into selected group
@@ -214,7 +209,6 @@ Appending Node Groups
 .. reference::
 
    :Editor:    Topbar
-   :Mode:      All Modes
    :Menu:      :menuselection:`File --> Link/Append`
 
 Once you have appended a Node Tree to your blend-file, you can make use of it in a node editor by

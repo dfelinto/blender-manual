@@ -213,6 +213,8 @@ Save as Render
    This is useful for saving linear OpenEXR to e.g. PNG or JPEG files in display space.
 
 
+.. _ocio-config:
+
 OpenColorIO Configuration
 =========================
 

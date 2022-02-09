@@ -133,14 +133,19 @@ Use Multi-View
 .. _bpy.types.ColorManagedInputColorspaceSettings.name:
 
 Color Space
-   :term:`Color Space`.
+   The :term:`Color Space` the image file was saved in.
+   Once loaded into Blender, the color will be treated as linear color.
+   This option ensure the correct conversion to linear color is used.
+
+   The list of color spaces depends on the active :ref:`OCIO config <ocio-config>`.
+   Using the default config will list the following options:
 
    :sRGB: Standard RGB display space.
    :Linear: Linear 709 (full range). Blender native linear space.
    :Linear ACES: ACES linear space.
    :XYZ: Standard linear XYZ space.
    :Non-Color: Color space used for images which contains non-color data (e.g. normal maps).
-   :Raw: Same as Non-Color.
+   :Raw: Does not automatically convert to linear; same as Non-Color.
    :Filmic Log: Intermediate log color space of Filmic view transform.
 
 .. _bpy.types.Image.alpha_mode:

@@ -8,7 +8,6 @@ Transform
 
 .. reference::
 
-   :Mode:      All Modes
    :Menu:      :menuselection:`Node --> Move, Rotate, Resize`
    :Shortcut:  :kbd:`G`, :kbd:`R`, :kbd:`S`
 
@@ -64,7 +63,6 @@ Mute Links
 
 .. reference::
 
-   :Mode:      All Modes
    :Menu:      :menuselection:`Node --> Mute Links`
    :Shortcut:  :kbd:`Ctrl-Alt-RMB`
 
@@ -91,7 +89,6 @@ Cut Links
 
 .. reference::
 
-   :Mode:      All Modes
    :Menu:      :menuselection:`Node --> Cut Links`
    :Shortcut:  :kbd:`Ctrl-RMB`
 
@@ -110,7 +107,6 @@ Duplicate
 
 .. reference::
 
-   :Mode:      All Modes
    :Menu:      :menuselection:`Node --> Duplicate`
    :Shortcut:  :kbd:`Shift-D`
 
@@ -133,7 +129,6 @@ Copy/Paste
 
 .. reference::
 
-   :Mode:      All Modes
    :Menu:      :menuselection:`Node --> Copy`, :menuselection:`Node --> Paste`
    :Shortcut:  :kbd:`Ctrl-C`, :kbd:`Ctrl-V`
 
@@ -166,7 +161,6 @@ Mute
 
 .. reference::
 
-   :Mode:      All Modes
    :Menu:      :menuselection:`Node --> Toggle Node Mute`
    :Shortcut:  :kbd:`M`
 

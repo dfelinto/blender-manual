@@ -92,7 +92,7 @@ html: .SPHINXBUILD_EXISTS
 	@echo "  "$(OPEN_CMD) $(shell pwd)"/$(BUILDDIR)/html/index.html"
 
 livehtml:
-	@$(SPHINXAUTOBUILD) --open-browser --delay 0 "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+	@$(SPHINXAUTOBUILD) --open-browser --delay 0 "$(SOURCEDIR)" "$(BUILDDIR)/html" $(SPHINXOPTS) $(O)
 
 latexpdf: .SPHINXBUILD_EXISTS
 	@$(SPHINXBUILD) -M latexpdf "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)

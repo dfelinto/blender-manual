@@ -16,6 +16,7 @@ and :abbr:`HDMI (High Definition Media Interface)` formats.
    :maxdepth: 1
 
    alpha_convert.rst
+   color_space.rst
    color_ramp.rst
    combine_separate.rst
    id_mask.rst

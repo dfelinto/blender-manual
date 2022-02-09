@@ -36,7 +36,6 @@ Join in New Frame
 
 .. reference::
 
-   :Mode:      All Modes
    :Menu:      :menuselection:`Node --> Join in new Frame`
    :Shortcut:  :kbd:`Ctrl-J`
 
@@ -48,7 +47,6 @@ Add to Frame
 
 .. reference::
 
-   :Mode:      All Modes
    :Shortcut:  :kbd:`Ctrl-P`
 
 Once a frame node is placed, nodes can be added by dropping them onto the frame or
@@ -61,7 +59,6 @@ Remove from Frame
 
 .. reference::
 
-   :Mode:      All Modes
    :Menu:      :menuselection:`Node --> Remove from Frame`
    :Shortcut:  :kbd:`Alt-P`
 

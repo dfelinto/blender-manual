@@ -120,9 +120,13 @@ Adding Nodes
 
 .. reference::
 
-   :Mode:      All Modes
-   :Tool:      :menuselection:`Toolbar`
    :Menu:      :menuselection:`Add`
    :Shortcut:  :kbd:`Shift-A`
 
-Nodes are added via the *Add* menu or using the :kbd:`Shift-A` shortcut.
+Nodes are added via the *Add* menu which can be accessed from the Editor's Header or using shortcut.
+
+Nodes can also be added by dragging a connection from an existing node's input or output socket
+and dropping the connection above an empty space instead connecting to another socket.
+This action will open a search menu with a list of compatible nodes
+and their sockets that can be added and connected to the existing node.
+Confirming the menu selection will add the node which can be moved and placed in the node tree space.

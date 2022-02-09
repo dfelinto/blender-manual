@@ -40,6 +40,10 @@ Outputs
 Normal
    Standard normal output.
 
+.. tip::
+   If the *Height* input is not connected, the node becomes a :doc:`no-op </render/cycles/optimizations/nodes>`
+   that outputs its *Normal* input as is, or defaults to the geometry normal if not connected. Routing a node
+   group input via a no-op Bump node before doing math effectively makes it default to normal.
 
 Examples
 ========
