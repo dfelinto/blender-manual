@@ -244,6 +244,8 @@ Codec
       Standard lossless compression using Zlib, operating on a single scanline at a time.
    :``DWAA``:
       JPEG-like lossy algorithm from DreamWorks.
+   :``DWAB``:
+      JPEG-like lossy algorithm from DreamWorks.
 Z Buffer
    Save the depth information.
    In Blender, this now is written in floats too,
