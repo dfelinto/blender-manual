@@ -1,5 +1,4 @@
-.. _bpy.ops.render.play-rendered-anim:
-.. _render-output-animation_player:
+.. _bpy.ops.render.play_rendered_anim:
 
 .. |numsp| unicode:: U+2007
 
@@ -7,18 +6,14 @@
 Animation Player
 ****************
 
-The animation player is a utility typically used for previewing rendered animations,
-supporting all image and video formats also supported by Blender.
-This is a convenient way to play back image sequences at the correct frame rate.
-
-
-Usage
-=====
-
 .. reference::
 
    :Menu:      :menuselection:`Topbar --> Render --> View Animation`
    :Shortcut:  :kbd:`Ctrl-F11`
+
+The animation player is a utility typically used for previewing rendered animations,
+supporting all image and video formats also supported by Blender.
+This is a convenient way to play back image sequences at the correct frame rate.
 
 Launching the animation player opens a new window,
 playing back images or a video located at the render output of the current scene.
@@ -32,7 +27,7 @@ It will then restart the player with the new data.
 
 
 Player Options
---------------
+==============
 
 Ping Pong
    When enabled, playback loops forwards than backwards.
@@ -42,8 +37,8 @@ X/Y Flip
    *Viewing the animation from a different perspective can help you see the animation with "fresh eyes".*
 
 
-Shortcuts
----------
+Hotkeys
+=======
 
 The following table shows the available hotkeys for the animation player.
 
@@ -160,7 +155,7 @@ The following table shows the available hotkeys for the animation player.
 
 
 Frame Cache
------------
+===========
 
 Image files are cached during playback for faster access.
 

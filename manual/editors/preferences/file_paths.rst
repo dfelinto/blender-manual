@@ -82,7 +82,7 @@ Animation Player
    :ref:`View Animation <topbar-render-view_animation>`.
 
    By default this is set to *Internal* which uses Blender's built-in
-   :ref:`animation player <render-output-animation_player>`.
+   :ref:`animation player <bpy.ops.render.play_rendered_anim>`.
 
    This has the advantage that all image formats supported by Blender can be played back
    and no 3rd party application needs to be installed.

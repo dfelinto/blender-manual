@@ -22,7 +22,7 @@ the :doc:`Video Sequencer </video_editing/sequencer/index>` and choosing an appr
 
 .. tip::
 
-   Rendered image sequences can be played back in the :ref:`Animation Player <render-output-animation_player>`.
+   Rendered image sequences can be played back in the :ref:`Animation Player <bpy.ops.render.play_rendered_anim>`.
 
 .. seealso::
 

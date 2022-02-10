@@ -216,7 +216,7 @@ View Animation :kbd:`Ctrl-F11`
 
    .. seealso::
 
-      - :ref:`Animation player <render-output-animation_player>` for details.
+      - :ref:`Animation player <bpy.ops.render.play_rendered_anim>` for details.
       - :ref:`Animation player <prefs-file_paths-animation_player>` preferences to select
         different animation players.
 Lock Interface
