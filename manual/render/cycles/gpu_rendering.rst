@@ -14,48 +14,41 @@ and select either *CUDA*, *OptiX*, *HIP*, or *Metal*. Next, you must configure e
 :menuselection:`Properties --> Render --> Device`.
 
 
-Supported Hardware
-==================
+Rendering Technologies
+======================
 
-Blender supports different technologies to render on the GPU depending on the particular GPU manufacturer.
+Blender supports different technologies to render on the GPU depending on the particular GPU manufacturer
+and operating system.
 
-
-Nvidia
-------
-
-:abbr:`CUDA (Compute Unified Device Architecture)` and OptiX are supported
-for GPU rendering with Nvidia graphics cards.
-
-.. note:: :doc:`/render/shader_nodes/osl` is not supported.
+.. note:: With all GPU rendering technologies, :doc:`/render/shader_nodes/osl` is not supported.
 
 
-CUDA
-^^^^
+CUDA -- NVIDIA
+--------------
 
-CUDA requires graphics cards with compute capability 3.0 and higher.
-To make sure your GPU is supported,
+:abbr:`CUDA (Compute Unified Device Architecture)` is supported on Windows and Linux and requires a 
+Nvidia graphics cards with compute capability 3.0 and higher. To make sure your GPU is supported,
 see the `list of Nvidia graphics cards <https://developer.nvidia.com/cuda-gpus#compute>`__
 with the compute capabilities and supported graphics cards.
 
 
 .. _render-cycles-gpu-optix:
 
-OptiX
-^^^^^
+OptiX -- NVIDIA
+---------------
 
-OptiX requires graphics cards with compute capability 5.0 and higher and a driver version of at least 470.
-To make sure your GPU is supported,
+OptiX is supported on Windows and Linux and requires a Nvidia graphics cards with compute capability 5.0 and higher
+and a driver version of at least 470. To make sure your GPU is supported,
 see the `list of Nvidia graphics cards <https://developer.nvidia.com/cuda-gpus#compute>`__
 OptiX works best on RTX graphics cards with hardware ray tracing support (e.g. Turing and above).
 
 
-AMD
----
+HIP -- AMD
+----------
 
-:abbr:`HIP (Heterogeneous-compute Interface for Portability)` is enabled
-for GPU rendering with AMD graphics cards on Windows. Blender supports GPU rendering
-on discrete graphics cards with the AMD RDNA architecture or newer
-and AMD Radeon Software 21.12.1 or AMD Radeon PRO Software 21.Q4 GPU drivers or newer.
+:abbr:`HIP (Heterogeneous-compute Interface for Portability)` is supported on Windows and requires a 
+discrete AMD graphics card with the RDNA architecture or newer and AMD Radeon Software 21.12.1
+or AMD Radeon PRO Software 21.Q4 GPU drivers and newer.
 
 Support GPUs include:
 
@@ -66,19 +59,13 @@ Support GPUs include:
 Please refer to `AMD's website <https://www.amd.com/en/graphics>`__ for more
 information about AMD graphics cards and their architectures.
 
-
-.. note:: Unsupported Features:
-
-   - :doc:`/render/shader_nodes/osl`
-   - *Clip* extension mode in the :doc:`/render/shader_nodes/textures/image`
+.. note:: The *Clip* extension mode in the :doc:`/render/shader_nodes/textures/image` is not supported.
 
 
-Apple
------
+Metal -- Apple (macOS)
+----------------------
 
 Metal is enabled for GPU rendering on Apple Silicon using macOS 12.0 (Monterey) and newer.
-
-.. note:: :doc:`/render/shader_nodes/osl` is not supported.
 
 
 Frequently Asked Questions
