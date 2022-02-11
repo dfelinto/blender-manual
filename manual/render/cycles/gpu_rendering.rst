@@ -65,7 +65,8 @@ information about AMD graphics cards and their architectures.
 Metal -- Apple (macOS)
 ----------------------
 
-Metal is enabled for GPU rendering on Apple Silicon using macOS 12.0 (Monterey) and newer.
+Metal is supported on Apple computers with Apple Silicon or AMD graphics cards. macOS 12.2 is required to use Metal
+with Apple Silicon while macOS 12.3 is required to use Metal with AMD graphics cards.
 
 
 Frequently Asked Questions
