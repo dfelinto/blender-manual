@@ -40,6 +40,11 @@ Source Type
 Object/Collection
    Based on the source type, collection or object can be selected as source geometry.
 
+   .. _bpy.types.LineartGpencilModifier.use_invert_collection:
+
+   Invert Collection Filtering
+      Select everything except lines from specified collection.
+
 .. note::
 
    Line Art will still load and calculate the entire visible scene to produce correct occlusion result,

@@ -126,6 +126,14 @@ Distance
    :doc:`Read more about Grease Pencil </grease_pencil/index>`.
 
 
+Text Editor
+===========
+
+Auto Close
+   Automatically insert the corresponding character to close an expression
+   when typing characters such as quotes, brackets, braces, or parentheses.
+
+
 Miscellaneous
 =============
 
