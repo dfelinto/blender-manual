@@ -146,10 +146,6 @@ Normals
 Vertex Colors
    When enabled, exports vertex colors.
 
-   .. note::
-
-      Currently this only supports static vertex colors, and not dynamically animated vertex colors.
-
 Face Sets
    Exports the material names per face. The material data is not exported but only material names.
 

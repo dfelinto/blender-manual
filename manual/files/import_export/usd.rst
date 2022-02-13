@@ -68,9 +68,14 @@ Normals
    When checked, includes normals for exported meshes. This includes custom loop normals.
 
 Materials
-   When checked, exports the viewport materials of meshes.
-   When a mesh has multiple materials assigned, a geometry subset is created for each material.
+   Exports material information of the object.
+   By default the exporter approximates the :doc:`/render/shader_nodes/shader/principled`
+   node tree by converting it to USD's Preview Surface format.
+   If *To USD Preview Surface* is disabled, the material is set to the viewport materials of meshes.
 
+   Additional material properties are set in the *Material* grouping of options.
+
+   When a mesh has multiple materials assigned, a geometry subset is created for each material.
    The first material (if any) is always applied to the mesh itself as well
    (regardless of the existence of geometry subsets),
    because the Hydra viewport does not support materials on subsets.
@@ -80,6 +85,32 @@ Materials
 Use Settings for
    Determines the whether to use *Viewport* or *Render* visibility of collection, modifiers,
    or any other property that can be set for both the *Viewport* and *Render*.
+
+
+Materials
+---------
+
+Additional options when *Materials* are enabled for export.
+
+To USD Preview Surface
+   When exporting materials, approximate a :doc:`/render/shader_nodes/shader/principled`
+   node tree to by converting it to USD's Preview Surface format.
+   If disabled, the material is set to the viewport materials of meshes.
+
+   .. warning::
+
+      Not all nodes are supported; currently only Diffuse,
+      Principle, Image Textures, and UVMap nodes are support.
+
+Export Textures
+   Export textures referenced by shader nodes to a "textures"
+   folder which in the same directory as the USD file.
+
+Overwrite Textures
+   Allow overwriting existing texture files when exporting textures.
+
+Relative Texture Paths
+   Make texture asset paths relative to the exported USD file.
 
 
 Experimental

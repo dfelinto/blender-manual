@@ -43,6 +43,11 @@ Distribute Memory Across Devices
    the GPUs must be connected together with a high bandwidth communication protocol.
    Currently only NVLink on Nvidia GPUs is supported.
 
+MetalRT (Experimental)
+   MetalRT for ray tracing uses less memory for scenes which use curves extensively,
+   and can give better performance in specific cases.
+   However this support is experimental and some scenes may render incorrectly.
+
 
 Operating System Settings
 =========================
