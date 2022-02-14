@@ -30,10 +30,10 @@ Type
 
    :Soften: Slightly blurs the image.
    :Sharpen: Increases the contrast, especially at edges.
-   :Laplace: Softens around edges.
+   :Laplace: Edge highlighting filter susceptible to highlighting visual noise.
    :Sobel: Creates a negative image that highlights edges.
-   :Prewitt: Tries to do Sobel one better.
-   :Kirsch: Giving a better blending than Sobel or Prewitt, when approaching an edge.
+   :Prewitt: Produces a similar results to Sobel.
+   :Kirsch: Gives better blending than Sobel or Prewitt, when approaching an edge.
    :Shadow: Performs a relief, emboss effect, darkening outside edges.
 
 
