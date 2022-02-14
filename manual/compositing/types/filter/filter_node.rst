@@ -29,7 +29,8 @@ Type
    (in slightly different ways) based on vector calculus and set theory equations.
 
    :Soften: Slightly blurs the image.
-   :Sharpen: Increases the contrast, especially at edges.
+   :Box Sharpen: Increases the contrast, especially at edges.
+   :Diamond Sharpen: Less aggressive than box sharpen, reducing sharpening artifacts. 
    :Laplace: Edge highlighting filter susceptible to highlighting visual noise.
    :Sobel: Creates a negative image that highlights edges.
    :Prewitt: Produces a similar results to Sobel.
@@ -47,7 +48,7 @@ Image
 Example
 =======
 
-.. list-table:: The Filter node has seven modes, shown here.
+.. list-table:: The Filter node has eight modes, shown here.
 
    * - .. figure:: /images/compositing_types_filter_filter-node_example-1-original.png
 
@@ -57,26 +58,32 @@ Example
 
           Soften.
 
-   * - .. figure:: /images/compositing_types_filter_filter-node_example-3-sharpen.png
+   * - .. figure:: /images/compositing_types_filter_filter-node_example-3-box-sharpen.png
 
-          Sharpen.
+          Box Sharpen.
 
-     - .. figure:: /images/compositing_types_filter_filter-node_example-4-laplace.png
+     - .. figure:: /images/compositing_types_filter_filter-node_example-4-diamond-sharpen.png
+
+          Diamond Sharpen.
+
+   * - .. figure:: /images/compositing_types_filter_filter-node_example-5-laplace.png
 
           Laplace.
 
-   * - .. figure:: /images/compositing_types_filter_filter-node_example-5-sobel.png
+     - .. figure:: /images/compositing_types_filter_filter-node_example-6-sobel.png
 
           Sobel.
 
-     - .. figure:: /images/compositing_types_filter_filter-node_example-6-prewitt.png
+   * - .. figure:: /images/compositing_types_filter_filter-node_example-7-prewitt.png
 
           Prewitt.
 
-   * - .. figure:: /images/compositing_types_filter_filter-node_example-7-kirsch.png
+     - .. figure:: /images/compositing_types_filter_filter-node_example-8-kirsch.png
 
           Kirsch.
 
-     - .. figure:: /images/compositing_types_filter_filter-node_example-8-shadow.png
+   * - .. figure:: /images/compositing_types_filter_filter-node_example-9-shadow.png
 
           Shadow.
+
+     -
