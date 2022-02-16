@@ -17,6 +17,7 @@
    light_path.rst
    object_info.rst
    particle_info.rst
+   point_info.rst
    rgb.rst
    tangent.rst
    texture_coordinate.rst

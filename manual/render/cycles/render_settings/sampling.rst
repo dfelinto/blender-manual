@@ -179,6 +179,13 @@ Pattern
       See `this Pixar paper <https://graphics.pixar.com/library/ProgressiveMultiJitteredSampling/paper.pdf>`__
       for more information.
 
+.. _bpy.types.CyclesRenderSettings.sample_offset:
+
+Sample Offset
+   The number of samples to skip when starting render.
+   This can be used to distribute a render accross multiple computers
+   then combine the images with `bpy.ops.cycles.merge_images`
+
 .. _bpy.types.CyclesRenderSettings.scrambling_distance:
 
 Scrambling Distance Multiplier
