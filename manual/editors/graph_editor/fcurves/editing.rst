@@ -65,6 +65,22 @@ Flatten Handles
 
              After Flatten Handles.
 
+.. _bpy.ops.graph.equalize_handles:
+
+Equalize Handles
+   Ensure selected keyframes' handles have equal length.
+
+   Side
+      Side of the keyframes' Bézier handles to affect
+
+      :Left: Equalize selected keyframes' left handles.
+      :Right: Equalize selected keyframes' right handles.
+      :Both: Equalize both of a keyframe's handles.
+   Handle Length
+      Length to make selected keyframes' Bézier handles.
+   Flatten
+      Make the values of the selected keyframes' handles the same as their respective keyframes.
+
 Cursor to Selected :kbd:`Ctrl-G`
    Places the cursor at the midpoint between selected keyframes.
 
@@ -304,8 +320,8 @@ Mode
       which controls how much the new decimated curve is allowed to deviate from the original.
 
 
-Slider Operations
-=================
+Slider Operators
+================
 
 .. _bpy.ops.graph.breakdown:
 
@@ -314,12 +330,30 @@ Breakdown
 
 .. reference::
 
-   :Menu:      :menuselection:`Key --> Slider Operations --> Breakdown`
+   :Menu:      :menuselection:`Key --> Slider Operators --> Breakdown`
 
 Moves the selected keyframes to an in between position relative to the adjacent keyframes.
 Drag the mouse left or right to adjust the operator's *Factor* property.
 
 Factor
+   The amount to favor either the left or the right key. Values less than 0.5 favor the left keyframe,
+   values greater than 0.5 favor the right keyframe, a value of 0.5 results in no change.
+
+
+.. _bpy.ops.graph.blend_to_neighbor:
+
+Blend to Neighbor
+-----------------
+
+.. reference::
+
+   :Menu:      :menuselection:`Key --> Slider Operators --> Blend to Neighbor`
+
+Transitions the current keyframe with the neighboring keyframes in the timeline.
+In order for this operator to work, there must be a keyframe before and after the current frame.
+Drag the mouse left or right to adjust the operator's *Blend* property.
+
+Blend
    The amount to favor either the left or the right key. Values less than 0.5 favor the left keyframe,
    values greater than 0.5 favor the right keyframe, a value of 0.5 results in no change.
 

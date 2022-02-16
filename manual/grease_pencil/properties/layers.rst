@@ -95,8 +95,13 @@ Layer Specials
       Avoids editing locked materials in the layer. When disabled,
       any material can be edited even if they are locked in the material list.
 
+   .. _bpy.ops.gpencil.layer_merge:
+
    Merge Down :kbd:`Shift-Ctrl-M`
-      Merge the selected layer with the layer below, the new layer keeps the name of the lower layer.
+      Combine the selected layer with the layer below, the new layer keeps the name of the lower layer.
+   
+   Merge All
+      Combine all layers into the active layer.
 
    Copy Layer to Selected
       Copy the active layer to the selected Grease Pencil object.
