@@ -57,31 +57,41 @@ The main view allows you to view the actual spreadsheet.
 Row indices and column names remain visible when scrolling down or to the side.
 
 
+.. _bpy.types.SpaceSpreadsheet.geometry_component_type:
+.. _bpy.types.SpaceSpreadsheet.attribute_domain:
+
 Data Set Region
 ===============
 
 With the Data Set region on the left you can choose which geometry component and geometry domain to view.
 For each attribute domain its size is displayed, for example the number of faces.
 
-.. _bpy.types.SpaceSpreadsheet.geometry_component_type:
-
-Geometry Component Type
-   Part of the geometry to display data from.
-
-   :Mesh: Mesh component containing point, corner, face and edge data.
-   :Point Cloud: Point cloud component containing only point data.
-   :Curve: Display curve data which are the attributes on splines and control points.
-   :Instances: Display which objects and collections are instanced and their transforms.
-
-.. _bpy.types.SpaceSpreadsheet.attribute_domain:
-
-Attribute Domain
-   Attribute domain to display.
+Mesh
+   Mesh component containing point, corner, face and edge data.
 
    :Vertex: Display attributes that are stored per vertex.
    :Edge: Display attributes that are stored per edge.
    :Face: Display attributes that are stored per face.
    :Face Corner: Display attributes that are stored per face corner.
+
+Curve
+   Display curve data which are the attributes on splines and control points.
+
+   :Control Point: Display attributes that are stored per control point.
+   :Spline: Display attributes that are stored per spline.
+      
+Point Cloud
+   Point cloud component containing only point data.
+
+   :Point: Display attributes that are stored per point.
+
+Volume Grids
+   Display OpenVDB volume drid data, each grid will be represented
+   with the *Grid Name*, the *Data Type*, and the *Class*.
+   The class can be either of: Fog Volume, Level Set, or Unknown.
+
+Instances
+   Display which objects and collections are instanced and their transforms.
 
 
 Sidebar

@@ -81,6 +81,11 @@ There is a toggle to show or hide all overlays for the node editor next to the o
 Wire Colors
    Color node links based on their connected sockets.
 
+.. _bpy.types.SpaceNodeOverlay.show_context_path:
+
+Context Path
+   Display breadcrumbs in the upper left for the current node tree's datablock location.
+
 .. _bpy.types.SpaceNodeEditor.show_annotation:
 
 Annotations
