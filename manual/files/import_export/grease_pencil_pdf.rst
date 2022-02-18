@@ -26,6 +26,7 @@ Frame
 
    :Active: Export only the active keyframe.
    :Selected: Export all selected keyframes as different PDF pages.
+   :Scene: Export all frames as different PDF pages.
 
 .. note:: To enable multi-keyframe selection you must enable Multiframe Edition.
    See :doc:`Multiframe Edition </grease_pencil/multiframe>` for more information.
