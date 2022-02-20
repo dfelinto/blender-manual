@@ -7,7 +7,7 @@ Add Cylinder
 .. reference::
 
    :Mode:      Object Mode and Edit Mode
-   :Tool:      :menuselection:`Toolbar --> Add Add Cylinder`
+   :Tool:      :menuselection:`Toolbar --> Add Cylinder`
 
 Interactively add a :ref:`cylinder mesh object <bpy.ops.mesh.primitive_cylinder_add>`.
 
