@@ -50,6 +50,27 @@ Other than using a third-party application to edit the UDIM texture it is possib
 This works for either 2D Painting or :doc:`3D Painting </sculpt_paint/texture_paint/index>`.
 
 
+File Substitution Tokens
+========================
+
+Substitution tokens are special sequences of characters in a filename
+that can be replaced with more meaningful and context aware information.
+In this case, tokens are identified by being text wrapped in angle bracket characters.
+
+This substitution is used while load loading or saving an image
+to automatically identify the tile associated with a particular texture in the UDIM array.
+
+The following tokens are supported:
+
+- ``<UDIM>``: A 4-digit notation calculated as ``1001 + u-tile + v-tile * 10``.
+- ``<UVTILE>``: A notation defined as ``u(u-tile + 1)_v(v-tile + 1)``.
+
+Examples:
+
+- ``monster-basecolor.<UDIM>.png`` will load/save files like ``monster-basecolor.1021.png`` etc.
+- ``monster-basecolor.<UVTILE>.png`` will load/save files like ``monster-basecolor.u1_v3.png`` etc.
+
+
 .. _bpy.ops.image.tile:
 .. _bpy.types.UDIMTiles:
 

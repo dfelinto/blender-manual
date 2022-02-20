@@ -113,18 +113,20 @@ Bitflag Groups
    Todo.
 
 
+Importing
+=========
+
+Importing OBJ-files is currently handled by a python importer which is included as an addon.
+It's documentation can be found here: `OBJ Importer </addons/import_export/scene_obj>`.
+
+
 Compatibility
 =============
 
 NURBS surfaces, text3D and metaballs are converted to meshes at export time.
-
-
-Missing
--------
 
 Some of the following features are missing:
 
 - NURBS Surfaces -- this could be added but is not widely used.
 - Advanced Material Settings -- There are material options documented
   but very few files use them and there are few examples available.
-- Normals -- Blender ignores normals from imported files, recalculating them based on the geometry.
