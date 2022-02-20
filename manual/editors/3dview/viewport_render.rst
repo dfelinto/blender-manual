@@ -77,7 +77,7 @@ As with a normal render, you can abort it with :kbd:`Esc`.
 Render a Still Image
    To render a still image, use :menuselection:`3D Viewport --> View --> Viewport Render Image`.
 Render an Animation
-   to render an animation, use :menuselection:`3D Viewport --> View --> Viewport Render Animation`.
+   To render an animation, use :menuselection:`3D Viewport --> View --> Viewport Render Animation`.
 Render Keyframes
    To render an animation, but only those frames that have a keyframe,
    use :menuselection:`3D Viewport --> View --> Viewport Render Keyframes`.
