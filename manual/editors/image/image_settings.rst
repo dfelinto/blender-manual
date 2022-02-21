@@ -24,7 +24,7 @@ Image
 Source
 ------
 
-See about supported :doc:`/files/media/image_formats`.
+See about :doc:`/files/media/image_formats`.
 
 
 Single Image
