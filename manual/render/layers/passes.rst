@@ -46,14 +46,10 @@ Include
       This is represented through the red and green channels of the image.
       The blue channel is encoded with a constant value of 1 but does not hold any information.
    Denoising Data
-      Passes needed by the denoiser, for performing animation denoising
-      in a second pass after rendering the entire animation.
-      For still image denoising as part of the render process these are not needed.
-      This also includes a render pass of the original combined pass before denoising.
-      Note, the passes adapt to the :ref:`denoiser <render-cycles-settings-viewport-denoising>`
-      selected for rendering.
+      Includes *Denoising Albedo*, *Denoising Normal*, and a render pass of the original combined
+      pass before denoising.
 
-   .. note:: The Z, Object Index, and Material Index passes are not anti-aliased.
+   .. note:: The Z, Position, Object Index, and Material Index passes are not anti-aliased.
 
 Indexes
    Object Index
