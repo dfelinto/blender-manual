@@ -93,8 +93,9 @@ but the most common one is that there is not enough memory on your graphics card
 Typically, the GPU can only use the amount of memory that is on the GPU
 (see `Would multiple GPUs increase available memory?`_ for more information).
 This is usually much smaller than the amount of system memory the CPU can access.
-With CUDA, OptiX and HIP devices, if the GPU memory is full Blender will automatically try to use system memory.
-This has a performance impact, but will usually still result in a faster render than using CPU rendering.
+With CUDA, OptiX, HIP and Metal devices, if the GPU memory is full Blender will automatically
+try to use system memory. This has a performance impact, but will usually still result in a faster render
+than using CPU rendering.
 
 
 Can multiple GPUs be used for rendering?
@@ -176,8 +177,8 @@ In this case you can:
 Normally users do not need to install the CUDA toolkit as Blender comes with precompiled kernels.
 
 
-CUDA Error: Out of memory
--------------------------
+Error: Out of memory
+--------------------
 
 This usually means there is not enough memory to store the scene for use by the GPU.
 
