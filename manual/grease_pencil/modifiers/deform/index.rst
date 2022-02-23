@@ -11,5 +11,6 @@
    lattice.rst
    noise.rst
    offset.rst
+   shrinkwrap.rst
    smooth.rst
    thickness.rst
