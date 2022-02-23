@@ -51,6 +51,28 @@ Invert
    Invert the curvature of the stroke's extension.
 
 
+Random Offsets
+--------------
+
+Random Offset Start/End
+   Size of random length added to the start/end of each stroke.
+
+Random Noise Offset
+   Smoothly offset each stroke's random value.
+
+Seed
+   Number used to generate different noise patterns.
+
+
+Randomize
+^^^^^^^^^
+
+Re-randomizes values over time.
+
+Step
+   Number of frames before recalculate random values again.
+
+
 Influence Filters
 -----------------
 

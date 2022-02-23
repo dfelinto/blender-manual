@@ -129,19 +129,9 @@ Auxiliary Target
 Nearest Vertex
 --------------
 
-.. figure:: /images/grease-pencil_modifiers_deform_shrinkwrap_nearest-vertex.png
-   :align: right
-   :width: 300px
-
-   Nearest Vertex mode.
-
 This will snap vertices to the nearest vertex of the shrunk target. It adds no extra options.
 
 This method doesn't support the *Snap Mode* setting.
-
-.. container:: lead
-
-   .. clear
 
 
 Target Normal Project

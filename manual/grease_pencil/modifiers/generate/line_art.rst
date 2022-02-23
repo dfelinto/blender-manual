@@ -94,6 +94,12 @@ Crease on Smooth
 Crease on Sharp
    Allow creases to show on sharp edges.
 
+.. _bpy.types.LineartGpencilModifier.use_back_face_culling:
+
+Force Backface Culling
+   Remove all back faces to speed up calculation.
+   Note, removing back faces will create edges in different occlusion levels than when disabled.
+
 
 Edge Types
 ----------
@@ -223,6 +229,11 @@ Invert
 Boundaries
    Filter feature lines based on face mark boundaries.
 
+.. _bpy.types.LineartGpencilModifier.use_face_mark_keep_contour:
+
+Keep Contour
+   Preserve contour lines while filtering.
+
 .. figure:: /images/grease-pencil_modifiers_generate_line-art_face-mark-filtering-example.png
 
 
@@ -252,6 +263,10 @@ Chain
 
    Loose as Contour
       Edges that do not form a face will be classified as contour lines.
+
+   Preserve Details
+      Instead of splitting at each occlusion change, keep small details from the initial chain.
+      When details are not kept, will create a much smoother result.
 
    Geometry Space
       Use geometry distance for chaining instead of image space.
