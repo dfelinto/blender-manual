@@ -55,15 +55,10 @@ Remove View Layer
 Usage
 =====
 
-Each Render Layer has an associated set of :doc:`Collections </scene_layout/collections/collections>`.
-Objects which are on one of the associated collections are shown in that Render Layer,
-as long as that collection is also visible.
-
-.. warning::
-
-   Only the objects in visible Scene Layers will be rendered.
-   So, if only Collection 1 is visible and your Render Layer set specifies to render only Collections 2 and 3,
-   nothing will be rendered.
+Each :doc:`Scene </scene_layout/scene/introduction>` has an associated set of
+:doc:`Collections </scene_layout/collections/collections>`.
+The visibility settings of each collection can be changed per View Layer to separate the
+rendering of different objects and lights into layers.
 
 
 Collections
