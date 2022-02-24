@@ -11,9 +11,6 @@ Scene management and library appending/linking are based on Blender's
 so it is a good idea to read that manual page first,
 if you are not familiar with the basics of that system.
 
-You can select and create scenes with the *Scene* data-block menu
-in the :doc:`Topbar </interface/window_system/topbar>`.
-
 
 Controls
 ========
@@ -21,6 +18,9 @@ Controls
 .. reference::
 
    :Menu:      :menuselection:`Topbar --> Scene`
+
+You can select and create scenes with the *Scene* data-block menu
+in the :doc:`Topbar </interface/window_system/topbar>`.
 
 .. figure:: /images/scene-layout_scene_introduction_menu.png
    :align: right

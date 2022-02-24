@@ -6,7 +6,8 @@ Introduction
 Each blend-file contains a database.
 This database contains all scenes, objects, meshes, textures, etc. that are in the file.
 
-A file can contain multiple scenes and each scene can contain multiple objects.
+A file can contain multiple :doc:`Scenes </scene_layout/scene/introduction>`
+and each scene can contain multiple :doc:`Objects </scene_layout/object/introduction>`.
 Objects can contain multiple materials which can contain many textures.
 It is also possible to create links between different objects, or share data between objects.
 A file can link data from other Blender files.

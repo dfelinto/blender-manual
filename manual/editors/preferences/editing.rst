@@ -19,8 +19,8 @@ Link Materials to
    To understand this option properly, you need to understand how Blender works with Objects.
    Almost everything in Blender is organized in a hierarchy of data-blocks.
    A data-block can be thought of as containers for certain pieces of information. For example,
-   the Object data-block contains information about the Object's location while the Object Data
-   "ObData" data-block contains information about the mesh.
+   the Object data-block contains information about the Object's location, rotation, and scale
+   while the associated linked Object Data data-block contains information about the mesh.
 
    .. figure:: /images/editors_preferences_editing_data-blocks-hierarchy.png
 
