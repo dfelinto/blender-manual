@@ -50,7 +50,7 @@ Fill Mask
 .. reference::
 
    :Mode:      Sculpt Mode
-   :Menu:      :menuselection:`Mask --> Invert Mask`
+   :Menu:      :menuselection:`Mask --> Fill Mask`
 
 Fills the whole mask with a value of 1.
 
@@ -61,7 +61,7 @@ Clear Mask
 .. reference::
 
    :Mode:      Sculpt Mode
-   :Menu:      :menuselection:`Mask --> Invert Mask`
+   :Menu:      :menuselection:`Mask --> Clear Mask`
    :Shortcut:  :kbd:`Alt-M`
 
 Fills the mask with a value of 0. To completely remove the mask data, see `Clear Sculpt-Mask Data`_.
@@ -147,7 +147,7 @@ Creates a mask radiating outwards from the active vertex in a uniform manner.
    This operator is meant to be used interactively through the shortcut.
 
 
-.. rubric:: Shortcuts
+.. rubric:: Hotkeys
 
 :Invert: :kbd:`F`
    Flips between expanding a positive mask (value of one) or a negative mask (value of zero).

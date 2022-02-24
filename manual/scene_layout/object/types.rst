@@ -35,8 +35,9 @@ New objects can be created with the *Add* menu in the 3D Viewport's header.
 :doc:`Volume </modeling/volumes/introduction>`
    Container for OpenVDB files that is generated
    by other software or Blender's :doc:`Fluid Simulator </physics/fluid/index>`.
-:doc:`Grease Pencil </grease_pencil/primitives>`
-   Objects created by painting strokes.
+:doc:`Grease Pencil </grease_pencil/introduction>`
+   Objects created by drawing strokes.
+   See :doc:`Grease Pencil Primitives </grease_pencil/primitives>`
 
 :doc:`Armature </animation/armatures/index>`
    Used for rigging 3D models to make them poseable and animatable.
