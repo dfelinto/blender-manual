@@ -5,35 +5,21 @@ Wavefront OBJ
 
 .. reference::
 
-   :Category:  Import-Export
    :Menu:      :menuselection:`File --> Import/Export --> Wavefront (.obj)`
 
 OBJ is a widely used de facto standard in the 3D industry.
 The OBJ format is a popular plain text format, however, it has only basic geometry and material support.
 
-- Mesh: vertices, faces, edges, normals, UVs
-- Separation by groups/objects
-- Materials/textures
-- NURBS curves and surfaces
-
 .. note::
 
-   There is no support for mesh vertex colors, armatures, animation,
-   lights, cameras, empty objects, parenting, or transformations.
-
-.. note::
-
-   Blender now only supports complex node-based shading. OBJ having a fixed pipeline-like support of materials,
-   this add-on uses the :doc:`generic wrapper </addons/import_export/node_shaders_info>`
-   featured by Blender to convert between both.
+   There is no support for armatures, lights, cameras, empty objects, parenting, or transformations.
+   See `Compatibility`_ for more information.
 
 
 Usage
 =====
 
-Import/Export geometry and curves to the OBJ format.
-
-If there is a matching ``.MTL`` for the OBJ then its materials will be imported too.
+Export geometry and curves to the OBJ format.
 
 
 .. _bpy.ops.wm.obj_export:
@@ -51,7 +37,7 @@ Animation
    Exports a numbered OBJ for each frame from the start to the end frame.
    Please be aware that this can take quite a long time.
 Frame Start, End
-   Todo.
+   The first and last frame to export, used to determine the range of exported frames.
 
 
 Object Properties
@@ -69,10 +55,11 @@ Scale
 Selected Only
    Only export the selected objects. Otherwise export all objects in the scene.
 Properties
-   Todo.
+   For properties that have different settings for the viewport/final render pick which is used for output.
+   One example where this is important is the :doc:`/modeling/modifiers/generate/subdivision_surface`.
 
-   :Viewport (Default): todo.
-   :Render: todo.
+   :Viewport (Default): Use viewport properties.
+   :Render: Use final render properties.
 
 
 Geometry Export
@@ -106,11 +93,12 @@ Object Groups
 Material Groups
    Create OBJ groups per material.
 Vertex Groups
-   Todo.
+   Export the name of the vertex group of a face.
+   It is approximated by choosing the vertex group with the most members among the vertices of a face.
 Smooth Groups
    Write Blender's sharp edges as smooth groups.
 Bitflag Groups
-   Todo.
+   Generate Bitflags for smooth Groups.
 
 
 Importing
@@ -124,9 +112,3 @@ Compatibility
 =============
 
 NURBS surfaces, text3D and metaballs are converted to meshes at export time.
-
-Some of the following features are missing:
-
-- NURBS Surfaces -- this could be added but is not widely used.
-- Advanced Material Settings -- There are material options documented
-  but very few files use them and there are few examples available.
