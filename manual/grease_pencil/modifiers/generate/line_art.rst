@@ -96,7 +96,7 @@ Crease on Sharp
 
 .. _bpy.types.LineartGpencilModifier.use_back_face_culling:
 
-Force Backface Culling
+Back Face Culling
    Remove all back faces to speed up calculation.
    Note, removing back faces will create edges in different occlusion levels than when disabled.
 
