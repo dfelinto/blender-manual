@@ -20,7 +20,6 @@ Hide
 
 
 .. _bpy.types.PoseBone.custom_shape:
-.. _bpy.types.Bone.show_wire:
 
 Custom Shape
 ============
@@ -32,12 +31,24 @@ In order to be visible the *Shapes* checkbox has to be enabled
 
 Custom Object
    Object that defines the custom shape of the selected bone.
+
+Scale X, Y, Z
+   Additional scaling factor to apply to the custom shape.
+
+Translation X, Y, Z
+   Additional translation factor to apply to the custom shape.
+
+Rotation X, Y, Z
+   Additional rotation factor to apply to the custom shape.
+
 Override Transform
    Bone that defines the display transform of the custom shape.
-Scale
-   Additional scaling factor to apply to the custom shape.
+
 Scale to Bone Length
    Option not to use bones length, so that changes in Edit Mode don't resize the custom shape.
+
+.. _bpy.types.Bone.show_wire:
+
 Wireframe
    When enabled, bone is displayed in wireframe mode regardless of the viewport display mode.
    Useful for non-obstructive custom bone chains.

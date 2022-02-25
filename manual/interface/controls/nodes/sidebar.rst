@@ -47,7 +47,7 @@ Color
    Color of the node background.
 
    Node Color Specials
-      This menu contains operators for working with nodes with custom colors.
+      This menu contains :doc:`/interface/operators` for working with nodes with custom colors.
 
       .. _bpy.ops.node.node_copy_color:
 

@@ -14,8 +14,9 @@ Operator Buttons
 
    Operator button.
 
-Operator buttons perform an action when clicked with :kbd:`LMB`.
-Button may show an icon, text, or both.
+Operator buttons execute an :doc:`Operator </interface/operators>`
+which in summary execute an action when clicked with :kbd:`LMB`.
+Operator buttons may be an icon, text, or text with an icon.
 
 .. container:: lead
 

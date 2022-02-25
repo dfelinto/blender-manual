@@ -33,8 +33,8 @@ the availability of additional regions are different between editors.
 See specific documentation about each editor in the :doc:`Editors </editors/index>` chapter.
 
 
-.. _ui-region-header:
 .. _bpy.types.Header:
+.. _ui-region-header:
 
 Header
 ======
@@ -139,7 +139,7 @@ These special scrollbars will have added widgets at the ends, as shown in the fo
 
 .. figure:: /images/interface_window-system_regions_scrollbar_widget.png
    :align: center
-   
+
    Scrollbars with zoom widgets.
 
 This can be used to stretch or compress the range to show more or less detail within the available screen space.

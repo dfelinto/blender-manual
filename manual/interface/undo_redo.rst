@@ -52,7 +52,7 @@ Adjust Last Operation
    :Menu:      :menuselection:`Edit --> Adjust Last Operation...`
    :Shortcut:  :kbd:`F9`
 
-After an operation is complete you can tweak the parameters of the operation afterwards.
+After an operation is complete you can tweak the parameters of :doc:`/interface/operators` afterwards.
 In editors that support it, there is a "head-up display" panel in the bottom left
 based on the last performed operation; dependent on mode and context.
 Alternatively, you can create a pop-up with :kbd:`F9` which does the same thing.

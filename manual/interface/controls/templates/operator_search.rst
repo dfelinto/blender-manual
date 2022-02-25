@@ -15,7 +15,8 @@ Menu Search
    :Menu:      :menuselection:`Edit --> Menu Search`
    :Shortcut:  :kbd:`F3`
 
-The Menu Search pop-up searches Blender's interface for a desired operator and allows you to execute that operator.
+The Menu Search pop-up searches Blender's interface for a desired
+:doc:`/interface/operators` and allows you to execute that operator.
 It displays a list of matches and shows which menu the operator was found in.
 Start typing the name of the operator you want to refine the list.
 When the list is sufficiently narrowed, :kbd:`LMB` on the desired operator or
@@ -44,7 +45,8 @@ Operator Search
 
 When :ref:`Developer Extras <prefs-interface-dev-extras>` are activated
 the Operator Search can be accessed from the Edit menu in the Topbar.
-This search menu search all operators within Blender even if they are not exposed in a menu.
+This search menu search all :doc:`/interface/operators`
+within Blender even if they are not exposed in a menu.
 This is useful for Python developers for testing purposes.
 Blender might also include a few advanced operators that are not
 exposed in a menu and can only be accessed via this search menu.

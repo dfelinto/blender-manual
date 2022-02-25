@@ -60,6 +60,20 @@ Field of View
    Field of view angle, going to 360 and more to capture the whole environment.
 
 
+Fisheye Lens Polynomial
+-----------------------
+
+Match a real world camera by specifying the coordinates of a 4th degree polynomial.
+A position :math:`(x, y)` on the camera sensor in mm is mapped to a direction with
+spherical coordinates :math:`(1, \theta, \phi)` in radians as follows: 
+
+.. math::
+  & r = \sqrt{x^2 + y^2}\\
+  & \theta = k_0 + k_1 r + k_2 r^2 + k_3 r^3 + k_4 r^4\\
+  & \phi = acos(x/r)
+
+This can be used to model both fisheye and perspective cameras.
+
 Mirror Ball
 -----------
 

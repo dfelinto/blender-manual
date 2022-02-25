@@ -29,10 +29,10 @@ See :doc:`User Interface </interface/index>` for documentation on the general in
    3dview/index.rst
    image/index.rst
    uv/index.rst
-   shader_editor.rst
    compositor.rst
-   geometry_node.rst
    texture_node/index.rst
+   geometry_node.rst
+   shader_editor.rst
    video_sequencer/index.rst
    clip/index.rst
 
@@ -68,5 +68,5 @@ See :doc:`User Interface </interface/index>` for documentation on the general in
    properties_editor.rst
    file_browser.rst
    asset_browser.rst
-   preferences/index.rst
    spreadsheet.rst
+   preferences/index.rst

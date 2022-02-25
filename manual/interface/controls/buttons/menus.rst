@@ -4,7 +4,7 @@
 Menus
 *****
 
-Blender uses a variety of different menus for accessing options and operators.
+Blender uses a variety of different menus for accessing options and :doc:`/interface/operators`.
 Selecting menus can be interacted with in the following ways:
 
 Mouse selection
@@ -31,8 +31,8 @@ Scrolling is done by moving the mouse below or above the scrolling indicator.
   or by :kbd:`LMB` clicking anywhere out of it.
 
 
-.. _ui-header-menu:
 .. _bpy.types.UIPopupMenu:
+.. _ui-header-menu:
 
 Header Menus
 ============

@@ -50,9 +50,6 @@ Orbit Around Selection
       it can be inconvenient for larger objects such as a terrain mesh,
       where the center is not necessarily a point of interest.
 
-Natural Trackpad Direction
-   Todo (macOS only).
-
 .. _prefs-interface-auto-perspective:
 .. _prefs-auto-depth:
 
