@@ -75,6 +75,39 @@ Animating this effect on a broader scale will make the object appear to "phase" 
 as an "out-of-phase" time-traveling sync effect.
 
 
+Separate/Combine XYZ Nodes
+===========================
+
+.. figure:: /images/modeling_geometry-nodes_vector_combine-xyz_node.png
+   :width: 190px
+   :align: right
+
+   Combine XYZ Node.
+
+.. figure:: /images/modeling_geometry-nodes_vector_separate-xyz_node.png
+   :width: 190px
+   :align: right
+
+   Separate XYZ Node.
+
+
+Input/Output
+------------
+
+Image
+   Standard vector in/output.
+
+- X (X Vector)
+- Y (Y Vector)
+- Z (Z Vector)
+
+
+Properties
+----------
+
+This node has no properties.
+
+
 Separate/Combine HSVA Nodes
 ===========================
 
