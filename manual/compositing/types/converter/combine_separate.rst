@@ -18,8 +18,8 @@ Each type is differentiated in the applied :term:`Color Space`.
 
 In compositing and texture context each node supports the Alpha channel.
 In the texture context only RGB color space is available.
-In the shading context of Cycles combine and separate nodes are added
-for HSV and vectors (XYZ).
+In the shading context of Cycles and Eevee, a combine and separate node is added
+for HSV.
 
 The Combine nodes can also be used to input single color values.
 For RGBA and HSVA color spaces it is recommended to use the :doc:`/compositing/types/input/rgb`.
