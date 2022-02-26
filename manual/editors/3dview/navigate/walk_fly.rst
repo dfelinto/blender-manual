@@ -90,6 +90,8 @@ in the :doc:`Preferences </editors/preferences/index>`.
      - Jump -- only available if *Gravity* is on.
    * - :kbd:`Tab`
      - Toggle *Gravity*.
+   * - :kbd:`Z`
+     - Enable Z axis correction by disabling momentum along the Z axis.
 
 
 Fly Navigation
