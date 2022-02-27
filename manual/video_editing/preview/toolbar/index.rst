@@ -3,6 +3,19 @@
   Toolbar
 ###########
 
+Tweak :kbd:`W`
+   Perform a multiple actions; first of it can be select images and by consequence their associated strip.
+   Second it can move strips using the same principles as the :ref:`Move tool <tool-vse-preview-move>`.
+   Using the shortcut :kbd:`W`, will cycle between this tool and other sub-tools described below.
+
+   :ref:`Select Box <tool-select-box>` :kbd:`B`
+      Selects images within a rectangular box drawn in the Preview area.
+
+      To use the tool, :kbd:`LMB` and drag within the preview area to draw a rectangle,
+      releasing the mouse confirms the selection.
+
+      You can also just :kbd:`LMB` to preform a normal single item selection.
+
 Cursor
    Changes the location of the :ref:`editors_sequencer_preview_2d-cursor`.
 
@@ -18,6 +31,8 @@ Cursor
    While the operation is running a message will display in the header indicating
    the distance in pixels the cursor has moved in each of the cardinal directions.
    The third number, between parenthesis, is the Euclidean distance the cursor has moved.
+
+.. _tool-vse-preview-move:
 
 Move :kbd:`G`
    Changes the location of the selected image by adjusting the strip's
