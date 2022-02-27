@@ -1,3 +1,4 @@
+
 ****************
 Before You Begin
 ****************
@@ -26,8 +27,10 @@ The first thing to establish is the ``Working Plane``, here a number of choices 
 .. container:: lead
 
    .. clear
+
+
 Setting the Working Plane.
-=========================
+==========================
 
 Whatever your ``View`` is set to other than **View**, it does not matter how the view is oriented, inputs are always along global axes.
 
@@ -40,8 +43,10 @@ The second thing is whether you want Cursor, or Pivot Point locations to be base
 .. container:: lead
 
    .. clear
+
+
 Setting the Cursor/Pivot Point Movement Mode.
-============================================
+=============================================
 
 Then you can set the type of Operation you want to undertake, these will be discussed on another page. There are a number of Operations, shown below:
 
@@ -61,6 +66,8 @@ Then you can set the type of Operation you want to undertake, these will be disc
 .. container:: lead
 
    .. clear
+
+
 Setting the Operation Mode.
 ===========================
 
@@ -75,6 +82,7 @@ Below is a table showing which options are available in which Modes, including E
 .. container:: lead
 
    .. clear
+
 Note! Only Edit and Object Modes are supported by PDT at present, Further, only Mesh Objects are supported, not Curves for now.
 
 Note! From Version 1.1.8, Menu widths will affect how the menus are arranged, with less items per row as the width decreases below a threshold set in the PDT Add-on's Preferences. Here are two sample Images:
@@ -86,13 +94,15 @@ Note! From Version 1.1.8, Menu widths will affect how the menus are arranged, wi
 .. container:: lead
 
    .. clear
-   .. figure:: /images/addons_pdt_op_2.png
-      :align: left
-      :width: 300px
 
-   .. container:: lead
+.. figure:: /images/addons_pdt_op_2.png
+   :align: left
+   :width: 300px
 
-      .. clear
+.. container:: lead
+
+   .. clear
+
 Note! PDT Add-on Preferences now also sets the Parts Library location and Debug mode.
 
 .. figure:: /images/addons_pdt_op_3.png

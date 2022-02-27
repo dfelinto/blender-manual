@@ -1,3 +1,4 @@
+
 *****************
 PDT Parts Library
 *****************
@@ -11,9 +12,11 @@ The Menu For Parts library
 .. container:: lead
 
    .. clear
+
 This module is in its infancy for releases up to and including 1.1.5 and is an attempt to organise a collection of parts, as objects, in a central repository. This library will consist of Objects, Collections and Materials. For now, these are placed in a holding blend file in Blender’s:
 
 "...../Scripts/Addons/clockworxpdt" folder (the location of the PDT Add-on).
+
 
 Principles:
 ===========
@@ -31,7 +34,9 @@ PDT Parts Library uses the same method to store, recall and place parts at the c
 .. container:: lead
 
    .. clear
+
 This shows the Parts Library Menu and some sample parts brought in by either ``Appending``, or ``Linking``.
+
 
 Parts Library File:
 ===================
@@ -45,7 +50,9 @@ The Parts Libraries can be located wherever you want them on your system. The lo
 .. container:: lead
 
    .. clear
+
 You can either type in the location and name of the file, or click the ``Folder`` icon and use Blender file select tools to navigate to your file. The Selectors in PDT are then automatically updated with your file's objects, collections and materials, subject to any search criteria. this can be changed at any time in your session to access data from another library file.
+
 
 The Options are:
 ================
@@ -85,6 +92,7 @@ Here is an example of a series of engines that are used in many different bikes,
 .. container:: lead
 
    .. clear
+
 Each engine is modelled as a set of individual objects, organised as collections in the library blend file. All individual objects in each collection share a common origin point so they can be placed in the correct relative location.
 
 An alternative under consideration at this stage would be to store in the parts library, only the unique components of these engines, they share cylinder barrels for example, then append, or link these into a project file and build whichever engine is required.

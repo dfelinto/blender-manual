@@ -1,3 +1,4 @@
+
 ************
 PDT Examples
 ************
@@ -13,12 +14,14 @@ This first one may not look too remarkable, except that it is totally accurate t
 .. container:: lead
 
    .. clear
+
 The draught angles on this half-casting are exactly 5 degrees, the length of sides between the radii are exactly to a dimension. All intersect points of faces have been placed accurately using PDT, not guessed from a zoomed in view. All fillets are exactly to a dimension and exactly in the right place.
 
 Most of the accuracy of this model would be either impossible, or so very complicated, to achieve with Blender on its own. With PDT and Offset Edges, it was quick and easy to achieve this kind of topology, suitable for mechanical models, at a very high level of precision (constrained only by the storage of coordinates in Blender). You can also see the Pivot Point of this model, stored in its Custom Property.
 
+
 Example 1 Construct a Casting:
-==========
+==============================
 
 **Stage 1:**
 
@@ -38,6 +41,7 @@ This example has been executed from the PDT Command Line section.
 .. container:: lead
 
    .. clear
+
 **Stage 2:**
 
 * Duplicate first Vertex 150 in X 100 in Z – Command **dd150,,100**
@@ -54,6 +58,7 @@ This example has been executed from the PDT Command Line section.
 .. container:: lead
 
    .. clear
+
 **Stage 3:**
 
 * Spin in Top View – Blender Spin Command, 62.5 degrees
@@ -69,6 +74,7 @@ This example has been executed from the PDT Command Line section.
 .. container:: lead
 
    .. clear
+
 Then simply extrude the two front face corners level with the cursor in X and then selected vertices to make the faces with F key.
 
 This model is accurate to dimensions, draught angles and corner radii. All the command line inputs could be replaced by using the ``Operation`` options and ``Command`` buttons instead.
@@ -82,7 +88,9 @@ Optionally, to improve topology, one could rationalise the top faces to this:
 .. container:: lead
 
    .. clear
+
 It would depend on what we wanted to do ultimately with the top faces, like maybe cut holes in them.
+
 
 Example 2 - Modify a Hydraulic Cylinder:
 ========================================
@@ -96,6 +104,7 @@ Take this mesh, we have no idea at what angle the mesh lies, since it was drawn 
 .. container:: lead
 
    .. clear
+
 We now want to make it longer along the angle at which it lies, by a known amount, so we first use the ``Set A/S 2D`` tool to set the angle:
 
 .. figure:: /images/addons_pdt_examples_8.png
@@ -105,6 +114,7 @@ We now want to make it longer along the angle at which it lies, by a known amoun
 .. container:: lead
 
    .. clear
+
 You can see the angle was 9.9935 degrees, we then input the distance we require in the ``Distance`` input box, set ``Operation`` to ``Move`` and click the ``Direction`` command to get this:
 
 .. figure:: /images/addons_pdt_examples_9.png
@@ -114,4 +124,5 @@ You can see the angle was 9.9935 degrees, we then input the distance we require 
 .. container:: lead
 
    .. clear
+
 You can see the selected vertices have been moved exactly 3000mm at exactly 9.9935 degrees. This is one of the main reasons why PDT exists, to do just this type of precise alteration of geometry.

@@ -1,3 +1,4 @@
+
 ************
 Command Line
 ************
@@ -13,6 +14,7 @@ The Menu For Command Line
 .. container:: lead
 
    .. clear
+
 Here the Cursor has been set with the command **cd-1.5,,** placing the cursor negative 1.5 in X from the selected vertex.
 
 PDT has a **Command Input**, which activates when you press Return. this takes two letters, followed by numbers separated by commas “,”. Valid Primary letters are, can be capitals, or lower case:
@@ -34,12 +36,14 @@ Valid Secondary letters are, can be capitals, or lower case:
 * I = Direction and requires a distance and an angle, separated by a comma, from View Horizontal, so **ei2,135.6** means extrude geometry 2 units at 135.6 degrees from positive view X axis. Valid Angle range is +-180.
 * P = Use a percentage value to, for example, split an edge, so **sp30** means split edge at 30% of the way along it.
 
+
 Principles:
 ===========
 
 To operate the Command Line, first you must RMB-click in the input box, then type, or amend the command there, then press ``Return`` to activate the command. I will explore ways of capturing commands directly from the keyboard, maybe by using a “trigger” input first.
 
 For example, key ALT+P first then the command, with a “watcher” routine to send subsequent inputs to the command line, I do not know if this is possible yet.
+
 
 Operations (First Letter):
 ==========================
@@ -59,6 +63,7 @@ A command of **pi1,135** will place the Pivot Point 1m at 135 degrees from the A
 .. container:: lead
 
    .. clear
+
 **Grab** commands will move selected objects, or vertices by the values input, so if ``Plane`` is set to ``View`` and the command is **gi1.5,38.75** the selection will be moved a distance of 1.5 at 38.75 degrees to the view’s horizontal axis and in line with the views orientation to your screen.
 
 **New Vertex** commands will place a new vertex as described by the values, so **na1.5,,1.2** will place a new vertex at Absolute (Global if you prefer) X = 1.5, Y = 0 , Z = 1.2.
@@ -78,6 +83,7 @@ A command of **pi1,135** will place the Pivot Point 1m at 135 degrees from the A
 .. container:: lead
 
    .. clear
+
 Image showing the new vertex inserted 25% of the way along the edge using the command **sp25**.
 
 In this next scenario, we have split an extruded Face, producing an Ngon:
@@ -89,6 +95,7 @@ In this next scenario, we have split an extruded Face, producing an Ngon:
 .. container:: lead
 
    .. clear
+
 Command was **sd0.2,,** a new edge has been created and topological integrity preserved.
 
 In all cases the edges are split in two and then new vertex/vertices from these operations are then moved according to the command parameters. If you select such a combination of edges as to make a face, an error message is returned and the operation cancelled as this will, in all likelihood, result in bad topology.
@@ -100,6 +107,7 @@ Note!
 =====
 
 Obviously unworkable commands like **da1,3,4** (duplicate geometry to an absolute location, resulting in all duplicate vertices having the same location) will quite reasonably result in an error message.
+
 
 Maths Mode:
 ===========
@@ -123,6 +131,7 @@ So, in the option quoted above, a command of **mx(1.2*sin(radians(54)))** result
 .. container:: lead
 
    .. clear
+
 Alternatively a command of **md4*sqrt(2)** results in the Distance input being set to **5.65685**:
 
 .. figure:: /images/addons_pdt_command_5.png
@@ -132,6 +141,7 @@ Alternatively a command of **md4*sqrt(2)** results in the Distance input being s
 .. container:: lead
 
    .. clear
+
 From Version 1.1.8, Maths Function now can output to the Maths Output field:
 
 .. figure:: /images/addons_pdt_command_7.png
@@ -141,9 +151,11 @@ From Version 1.1.8, Maths Function now can output to the Maths Output field:
 .. container:: lead
 
    .. clear
+
 Here the command **mosqrt(34)*(2.3**3)** was used, meaning; Maths, Output, Square Root of 34 times 2.3 cubed. This value can be copied by floating your mouse over the field and keying CTRL+C, it can then be pasted anywhere.
 
 There is also a **Re-Run Last Command** button to submit the last command line input, as shown in the image above.
+
 
 Command Line Additions for v1.2.0 & above.
 ==========================================

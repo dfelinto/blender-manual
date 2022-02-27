@@ -1,3 +1,4 @@
+
 ***********
 Pivot Point
 ***********
@@ -13,7 +14,9 @@ The Menu For Pivot Point
 .. container:: lead
 
    .. clear
+
 Here the pivot point has been placed relative to the selected vertex.
+
 
 Operations:
 ===========
@@ -39,6 +42,7 @@ On the next row is ``To Selected``, which locates the PP on a selected set of ge
 .. container:: lead
 
    .. clear
+
 Here the PP has been located on the weighted centre of the selected face.
 
 The next row has **Rotate** and **Angle**, To rotate selected geometry about the PP, first set the ``Angle`` and click ``Rotate``. Geometry is rotated about the View Plane (an axis normal to your screen).
@@ -50,6 +54,7 @@ The next row has **Rotate** and **Angle**, To rotate selected geometry about the
 .. container:: lead
 
    .. clear
+
 Here the selected geometry has been rotated 30 degrees about the PP.
 
 The next row has ``Scale`` on the left, this button is used to scale the selected geometry about the PP. this uses factors as set in the last row showing X, Y and Z values. the scaling is performed about the ``Global`` Axes. There are many ways in Blender to Scale about different axes, so it was decided not to replicate all this, this is the function I use the most for scaling.
@@ -58,8 +63,9 @@ The button on the right is ``Cursor To Pivot``, it will locate the 3D Cursor to 
 
 The PP cannot be used to move geometry, it was decided that there are already sufficient methods of doing this in Blender.
 
+
 Setting Scales by Two Measures:
-==============================
+===============================
 
 Underneath you will see the ``Scale Distance`` & ``System Distance`` Inputs, ``System Distance`` is merely a copy of ``Distance`` from the ``PDT Design`` Section. This can be set by a variety of methods, one of which is to select two vertices and then use the Set A/D 2D Tool, found in PDT Design, or you can just type a value in.
 
@@ -67,8 +73,9 @@ There are circumstances where you know that a dimension in the model, lets say t
 
 You would then select the required geometry, set the position of the PP and use the PP ``Scale`` button.
 
+
 Read & Write PP to Object:
-=========================
+==========================
 
 You can write the PP location to the **Object** using the ``PP Write`` button, these are stored in the form a ``Custom Property``, you will be required to confirm this, clicking OK on the popup accepts this operation, moving your cursor off the confirm dialogue cancels the operation. This facility allows you to store a PP location, easily readable, against each object, this could be, for example, the rotational centre of a hydraulic cylinder for example, where you do not want this location to also be the object origin point.
 
@@ -81,6 +88,7 @@ You can then read back this information to place the PP using the ``PP Read`` bu
 .. container:: lead
 
    .. clear
+
 Confirmation is Required for the Write Operation.
 
 .. figure:: /images/addons_pdt_pivot_5.png
@@ -90,4 +98,5 @@ Confirmation is Required for the Write Operation.
 .. container:: lead
 
    .. clear
+
 This is the custom property stored against the Object.

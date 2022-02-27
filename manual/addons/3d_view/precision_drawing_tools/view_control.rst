@@ -1,3 +1,4 @@
+
 ************
 View Control
 ************
@@ -11,7 +12,9 @@ The Menu for View Control.
 .. container:: lead
 
    .. clear
+
 This section deals with the View Control section of PDT, this menu uses its own variables.
+
 
 Rotate Absolute:
 ================
@@ -24,30 +27,36 @@ Uses: ``X Rot``, ``Y Rot`` & ``Z Rot``.
 
 The next row of icons Orbit the view about its horizontal & vertical screen axes, or Roll the view about its normal axis to your screen. All of these 5 options use the ``Angle`` input from this menu.
 
+
 Orbit Left:
 ===========
 
 Set Angle, click ``Orbit Left`` icon (Left Arrow), view rotates about its vertical axis.
+
 
 Orbit Right:
 ============
 
 Set Angle, click ``Orbit Right`` icon (Right Arrow), view rotates about its vertical axis.
 
+
 Orbit Up:
 =========
 
 Set Angle, click ``Orbit Up`` icon (Up Arrow), view rotates about its horizontal axis.
+
 
 Orbit Down:
 ===========
 
 Set Angle, click ``Orbit Down`` icon (Down Arrow), view rotates about its horizontal axis.
 
+
 Roll View:
 ==========
 
 Set angle, click ``Roll View`` icon (Roll), view rotates about its normal axis to your screen.
+
 
 Isometric View:
 ===============
@@ -63,4 +72,5 @@ This button sets the view orientation to what a Draughtsman understands as a tru
 .. container:: lead
 
    .. clear
+
 The Top Plane Axes Appear to be at 30 degrees to the View's Horizontal Axis.

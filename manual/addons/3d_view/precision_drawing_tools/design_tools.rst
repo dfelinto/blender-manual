@@ -1,3 +1,4 @@
+
 ************
 Design Tools
 ************
@@ -11,6 +12,7 @@ The Menu for PDT Tools:
 .. container:: lead
 
    .. clear
+
 This section of the menu deals with the Tools, which work with their own variables, in some cases, they also use the Working Plane.
 
 Set A/D 2D:
@@ -33,7 +35,9 @@ Selection: in Edit Mode select two vertices with your mouse, the Active vertex i
 .. container:: lead
 
    .. clear
+
 Parameters set from two Vertices in Front Working Plane.
+
 
 Set A/D 3D:
 ===========
@@ -47,6 +51,7 @@ Selection: in Edit Mode select three vertices with your mouse, the Active vertex
 **Example 1**: Set the Input variables to three vertices in Edit Mode, select the two rotational vertices, select the centre vertex. The Distance variable is set to the real separation of the first vertex and centre vertex in the front view, the Angle is set to the real angle between the three vertices, X, Y & Z inputs are set to the delta offset between the first and centre vertices.
 
 **Example 2**: Set the Input variables to three objects in Object Mode, select the two rotational objects, select the centre object. The Distance variable is set to the real separation of the first vertex and centre vertex in the front view, the Angle is set to the real angle between the three vertices, X, Y & Z inputs are set to the delta offset between the first and centre objects.
+
 
 Join 2 Vertices:
 ================
@@ -64,7 +69,9 @@ Selection: Select two vertices by any method.
 .. container:: lead
 
    .. clear
+
 The two Vertices have been joined to form, in this case, a Closed Loop, Before on the Left, After on the Right.
+
 
 Origin To Cursor:
 =================
@@ -74,6 +81,7 @@ This button is used to set the Object Origin to the current Cursor location. You
 Selection: None required in Edit Mode, select one object in Object Mode.
 
 **Example 1**: Set Object Origin to 1,3,2 in Edit Mode, set X, Y & Z inputs to 1,3,2 respectively, set _Operation_ to Cursor, click _Absolute_ button to move cursor. Click ``Origin To Cursor`` Tool, Origin is moved, but geometry is not moved from its absolute position in World Space.
+
 
 Taper:
 ======
@@ -95,6 +103,7 @@ The significance of ``RotY,MovX`` is that the Y axis is used as the rotation axi
 .. container:: lead
 
    .. clear
+
 Before, the face is at 90 degrees to horizontal.
 
 .. figure:: /images/addons_pdt_design_11.png
@@ -104,7 +113,9 @@ Before, the face is at 90 degrees to horizontal.
 .. container:: lead
 
    .. clear
+
 After the face is now at 65 degrees to horizontal.
+
 
 Intersect All:
 ==============
@@ -122,6 +133,7 @@ Selection: Select a set of Edges by any method.
 .. container:: lead
 
    .. clear
+
 Selected Edges Before.
 
 .. figure:: /images/addons_pdt_design_13.png
@@ -131,6 +143,7 @@ Selected Edges Before.
 .. container:: lead
 
    .. clear
+
 Selected Edges After, some have been removed.
 
 .. figure:: /images/addons_pdt_design_14.png
@@ -140,7 +153,9 @@ Selected Edges After, some have been removed.
 .. container:: lead
 
    .. clear
+
 Selected Edges After Extrusion.
+
 
 Bisect:
 =======
@@ -158,7 +173,9 @@ Selection: Select two Edges by any method.
 .. container:: lead
 
    .. clear
+
 Bisected Edges, Before on Left, After on Right, you can see both Bisectors have been drawn.
+
 
 Edge To Face:
 =============
@@ -178,7 +195,9 @@ The intersection point need to lie within the area of the face.
 .. container:: lead
 
    .. clear
+
 Edge Extended, Before on Left, After on Right.
+
 
 Fillet:
 =======
@@ -200,6 +219,7 @@ The Profile settings is the same as for Blender Bevel command, i.e. ranges from 
 .. container:: lead
 
    .. clear
+
 The image shows two Before and Afters, in the bottom set Use Vertices was checked, in the top set it was not, this is how to fillet edges.
 
 .. figure:: /images/addons_pdt_design_24.png
@@ -209,6 +229,7 @@ The image shows two Before and Afters, in the bottom set Use Vertices was checke
 .. container:: lead
 
    .. clear
+
 Another Before and After, you can see the settings used to produce this.
 
 Tip! Using an **even** number of segments will result in better topology (no tris) where three bevels meet at 90 degree offsets, for example.
@@ -222,4 +243,5 @@ Note! From version 1.1.8 the Fillet Tool now has an **Intersect** checkbox. When
 .. container:: lead
 
    .. clear
+
 Two examples of Before on the Left and After on the Right.

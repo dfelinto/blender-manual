@@ -1,3 +1,4 @@
+
 ******************
 Download & Install
 ******************
@@ -25,6 +26,7 @@ Installation should only be carried out in accordance with standard Blender Add-
 .. container:: lead
 
    .. clear
+
 Add-on will be displayed in the "N" (Ui) Panel of the 3D view under its own Tab as shown below:
 
 .. figure:: /images/addons_pdt_ui_menu.png
@@ -34,7 +36,9 @@ Add-on will be displayed in the "N" (Ui) Panel of the 3D view under its own Tab 
 .. container:: lead
 
    .. clear
+
 Only one PDT menu (Design) is shown as expanded, by default all menus are expanded when the add-on is loaded.
+
 
 Optional Button Labels, Messages, Descriptions, etc.
 ====================================================
@@ -48,6 +52,7 @@ All Button labels, Input Descriptions & Messages in PDT are stored in the file: 
 .. container:: lead
 
    .. clear
+
 It is recommended that you save a backup of this file in a safe location on your computer before performing any edits.
 
 You might also like to translate these into your own language, again only edit the message section in quotes, not the PDT assignments.

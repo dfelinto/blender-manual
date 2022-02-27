@@ -1,18 +1,22 @@
+
 **********
 Operations
 **********
 
 This section will deal with explaining what the various **Operations** do. You can see a full list of available options in the table on the previous page (Before You Begin) for both Edit and Object modes.
 
+
 Cursor:
 =======
 
 This operation is concerned with placing the **Cursor** according to the various operators. it can place the Cursor by ``Absolute`` coordinates, ``Delta`` Coordinates, ``Directional`` Coordinates and either relative to its current position or an ``Active`` vertex, or Object.
 
+
 Pivot Point:
 ============
 
 This operation is concerned with placing the **Pivot Point** according to the various operators. it can place the Cursor by ``Absolute`` coordinates, ``Delta`` Coordinates, ``Directional`` Coordinates and either relative to its current position or an ``Active`` vertex, or Object.
+
 
 Move:
 =====
@@ -28,7 +32,9 @@ This operation is concerned with **Moving** Geometry, or Objects according to th
 .. container:: lead
 
    .. clear
+
 You can see the geometry Before and After the move.
+
 
 New Vertex:
 ===========
@@ -44,7 +50,9 @@ This operation is concerned with placing a **New Vertex** according to the vario
 .. container:: lead
 
    .. clear
+
 A new Vertex has been placed at the intersection of the two Edges.
+
 
 Extrude Vertices:
 =================
@@ -60,7 +68,9 @@ This operation only **Extrudes** the vertices from selected geometry, so if you 
 .. container:: lead
 
    .. clear
+
 Only the Vertices from the Face have been extruded as edges.
+
 
 Split Edges:
 ============
@@ -78,7 +88,9 @@ This operation will **Split** edges according to the operator you use. It will r
 .. container:: lead
 
    .. clear
+
 You can see Before and after of the two examples described above.
+
 
 Duplicate Geometry:
 ===================
@@ -94,7 +106,9 @@ This operation will duplicate geometry according to which operator is chosen.
 .. container:: lead
 
    .. clear
+
 You can see Before and After states of a Duplication.
+
 
 Extrude Geometry:
 =================
@@ -110,4 +124,5 @@ This operation will **Extrude** geometry, not just the vertices as with Extrude 
 .. container:: lead
 
    .. clear
+
 You can see the Top Face has been Extruded in all three axes as one operation.
