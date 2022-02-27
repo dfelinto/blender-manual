@@ -13,7 +13,11 @@ In this page we will show how to make complex parts of this book scanner using P
 
    .. clear
 
-This is considered a typical CAD design and consists of many parts that can be made by extruding a profile to make the 3D mesh. It should be noted that this is a preferred manner to work in the CAD environment, rather than starting with a 3D mesh and carving bits out of it. We will start with a component that has a hole in it so that process is explained properly.
+This is considered a typical CAD design and consists of many parts
+that can be made by extruding a profile to make the 3D mesh.
+It should be noted that this is a preferred manner to work in the CAD environment,
+rather than starting with a 3D mesh and carving bits out of it.
+We will start with a component that has a hole in it so that process is explained properly.
 
 **Making the End Panels.**
 
@@ -29,7 +33,10 @@ The End Panel in Edit Mode
 
 For this we will start with a single vertex object at 0,0,0 (You will need to load the "Extra Objects" Add-on).
 
-I placed all objects, apart from the wheels at the World Centre for ease, so the start point for this component is 0.39,-0.32,-0.3. The first thing to do therefore is move this single vertex in Edit mode to that location. For this there are two choices:
+I placed all objects, apart from the wheels at the World Centre for ease,
+so the start point for this component is 0.39,-0.32,-0.3.
+The first thing to do therefore is move this single vertex in Edit mode to that location.
+For this there are two choices:
 
 + Set Cartesian Coordinates to 0.39,-0.32,-0.3 respectively, set operation to ``Move`` and click ``Delta``.
 + **OR** Key gd0.39,-0.32,-0.3 into Command Line.
@@ -204,7 +211,8 @@ You should now have this:
 
    .. clear
 
-Select both outer edge rings and choose ``Edge`` => ``Bridge Edge Loops``, repeat for inner edge loops to get all the faces:
+Select both outer edge rings and choose ``Edge`` => ``Bridge Edge Loops``,
+repeat for inner edge loops to get all the faces:
 
 .. figure:: /images/addons_pdt_scan_13.png
    :align: left
@@ -235,9 +243,13 @@ You should now have two ends like this:
 
    .. clear
 
-You should be able to see the advantages of making end profiles, then bridging the edge loops to make an extruded shape. This avoids duplicated geometry and also allows for holes in the object by making faces that split across the hole. I would then add an **Edge Modifier** to the objects to clean up the shading and of course make a suitable material.
+You should be able to see the advantages of making end profiles,
+then bridging the edge loops to make an extruded shape.
+This avoids duplicated geometry and also allows for holes in the object by making faces that split across the hole.
+I would then add an **Edge Modifier** to the objects to clean up the shading and of course make a suitable material.
 
-You can also see that we can either use ``PDT Design Functions & Tools``, or use ``PDT Command Line`` to just type in the commands.
+You can also see that we can either use ``PDT Design Functions & Tools``,
+or use ``PDT Command Line`` to just type in the commands.
 
 We can use the same principles to make all the other components.
 

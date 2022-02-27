@@ -13,4 +13,5 @@ child of the master bone that has the Rigify-type *face* property set.
 
 .. note::
 
-   This rig type is being deprecated in favor of a new modular :doc:`skin <skin>` and :doc:`face <face>` rigging system.
+   This rig type is being deprecated in favor of a new modular
+   :doc:`skin <skin>` and :doc:`face <face>` rigging system.

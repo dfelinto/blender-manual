@@ -5,7 +5,8 @@ PDT Examples
 
 Example Models will be shown here, built Exclusively with PDT, Offset Edges and MeasureIt Add-ons.
 
-This first one may not look too remarkable, except that it is totally accurate to dimensions, not approximately, taken from tracing a reference image.
+This first one may not look too remarkable, except that it is totally accurate to dimensions,
+not approximately, taken from tracing a reference image.
 
 .. figure:: /images/addons_pdt_examples_1.png
    :align: left
@@ -15,9 +16,16 @@ This first one may not look too remarkable, except that it is totally accurate t
 
    .. clear
 
-The draught angles on this half-casting are exactly 5 degrees, the length of sides between the radii are exactly to a dimension. All intersect points of faces have been placed accurately using PDT, not guessed from a zoomed in view. All fillets are exactly to a dimension and exactly in the right place.
+The draught angles on this half-casting are exactly 5 degrees,
+the length of sides between the radii are exactly to a dimension.
+All intersect points of faces have been placed accurately using PDT,
+not guessed from a zoomed in view. All fillets are exactly to a dimension and exactly in the right place.
 
-Most of the accuracy of this model would be either impossible, or so very complicated, to achieve with Blender on its own. With PDT and Offset Edges, it was quick and easy to achieve this kind of topology, suitable for mechanical models, at a very high level of precision (constrained only by the storage of coordinates in Blender). You can also see the Pivot Point of this model, stored in its Custom Property.
+Most of the accuracy of this model would be either impossible, or so very complicated,
+to achieve with Blender on its own. With PDT and Offset Edges,
+it was quick and easy to achieve this kind of topology, suitable for mechanical models,
+at a very high level of precision (constrained only by the storage of coordinates in Blender).
+You can also see the Pivot Point of this model, stored in its Custom Property.
 
 
 Example 1 Construct a Casting:
@@ -75,9 +83,12 @@ This example has been executed from the PDT Command Line section.
 
    .. clear
 
-Then simply extrude the two front face corners level with the cursor in X and then selected vertices to make the faces with F key.
+Then simply extrude the two front face corners level with the cursor
+in X and then selected vertices to make the faces with F key.
 
-This model is accurate to dimensions, draught angles and corner radii. All the command line inputs could be replaced by using the ``Operation`` options and ``Command`` buttons instead.
+This model is accurate to dimensions, draught angles and corner radii.
+All the command line inputs could be replaced by using the ``Operation``
+options and ``Command`` buttons instead.
 
 Optionally, to improve topology, one could rationalise the top faces to this:
 
@@ -95,7 +106,8 @@ It would depend on what we wanted to do ultimately with the top faces, like mayb
 Example 2 - Modify a Hydraulic Cylinder:
 ========================================
 
-Take this mesh, we have no idea at what angle the mesh lies, since it was drawn to a delta measurement not a directional measurement:
+Take this mesh, we have no idea at what angle the mesh lies,
+since it was drawn to a delta measurement not a directional measurement:
 
 .. figure:: /images/addons_pdt_examples_7.png
    :align: left
@@ -105,7 +117,8 @@ Take this mesh, we have no idea at what angle the mesh lies, since it was drawn 
 
    .. clear
 
-We now want to make it longer along the angle at which it lies, by a known amount, so we first use the ``Set A/S 2D`` tool to set the angle:
+We now want to make it longer along the angle at which it lies, by a known amount,
+so we first use the ``Set A/S 2D`` tool to set the angle:
 
 .. figure:: /images/addons_pdt_examples_8.png
    :align: left
@@ -115,7 +128,8 @@ We now want to make it longer along the angle at which it lies, by a known amoun
 
    .. clear
 
-You can see the angle was 9.9935 degrees, we then input the distance we require in the ``Distance`` input box, set ``Operation`` to ``Move`` and click the ``Direction`` command to get this:
+You can see the angle was 9.9935 degrees, we then input the distance we require in the ``Distance`` input box,
+set ``Operation`` to ``Move`` and click the ``Direction`` command to get this:
 
 .. figure:: /images/addons_pdt_examples_9.png
    :align: left
@@ -125,4 +139,5 @@ You can see the angle was 9.9935 degrees, we then input the distance we require 
 
    .. clear
 
-You can see the selected vertices have been moved exactly 3000mm at exactly 9.9935 degrees. This is one of the main reasons why PDT exists, to do just this type of precise alteration of geometry.
+You can see the selected vertices have been moved exactly 3000mm at exactly 9.9935 degrees.
+This is one of the main reasons why PDT exists, to do just this type of precise alteration of geometry.

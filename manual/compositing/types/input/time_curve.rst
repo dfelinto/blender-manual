@@ -50,7 +50,8 @@ Factor
 
    The :doc:`Map Value </compositing/types/vector/map_value>`
    node can be used to map the output to a more appropriate value.
-   With sometimes curves, it is possible that the Time Curve node may output a number larger than one or less than zero.
+   With sometimes curves, it is possible that the Time Curve node
+   may output a number larger than one or less than zero.
    To be safe, use the Min/Max clamping function of the Map Value node to limit output.
 
 

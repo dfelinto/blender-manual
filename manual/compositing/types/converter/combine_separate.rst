@@ -76,7 +76,7 @@ as an "out-of-phase" time-traveling sync effect.
 
 
 Separate/Combine XYZ Nodes
-===========================
+==========================
 
 .. figure:: /images/modeling_geometry-nodes_vector_combine-xyz_node.png
    :width: 190px
