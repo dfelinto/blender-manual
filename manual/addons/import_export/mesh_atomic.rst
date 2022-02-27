@@ -9,7 +9,7 @@ PDB (``.pdb``) and XYZ files (``.xyz``) (`Import PDB/XYZ`_). The add-on reads th
 all atoms in the PDB/XYZ file and represents the atoms as balls in the Blender world.
 Also the sticks, which are described in PDB files only,
 are shown if the sticks are *explicitly* listed in the PDB file.
-The :doc:`Principled BSDF shader </render/shader_nodes/shader/principled.html>`
+The :doc:`Principled BSDF shader </render/shader_nodes/shader/principled>`
 is used to describe the material properties of the atoms.
 
 For the import, many options can be chosen, which allow representing the atoms and sticks in different ways.
@@ -283,10 +283,8 @@ RGBA(1.0, 1.0, 1.0, 1.0) corresponds to white and RGBA(0.0, 0.0, 0.0, 1.0) is
 black. Note that the last value of a color tuple is the alpha value of the
 color. Furthermore, several other properties such as ``Metallic``,
 ``Roughness`` and ``Transmission`` can be changed. These are the properties
-in the
-`Principled BSDF shader <https://docs.blender.org/manual/en/dev/render/shader_nodes/shader/principled.html>`__.
-There are also some properties for
-`Eevee <https://docs.blender.org/manual/en/dev/render/eevee/index.html>`__, which
+in the :doc:`Principled BSDF shader </render/shader_nodes/shader/principled>`.
+There are also some properties for :doc:`Eevee </render/eevee/index>`, which
 can be used to determine the object's transparency etc.
 
 
