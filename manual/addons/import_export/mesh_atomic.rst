@@ -7,8 +7,9 @@ The Atomic Blender (PDB/XYZ) add-on imports atomic structures
 (molecules, crystals, clusters, particles, surfaces, etc.), which are described in
 PDB (``.pdb``) and XYZ files (``.xyz``) (`Import PDB/XYZ`_). The add-on reads the coordinates of
 all atoms in the PDB/XYZ file and represents the atoms as balls in the Blender world.
-Also the sticks, which are described in PDB files only, are shown if the sticks are *explicitly* listed in the PDB file.
-The `Principled BSDF shader <https://docs.blender.org/manual/en/dev/render/shader_nodes/shader/principled.html>`__
+Also the sticks, which are described in PDB files only,
+are shown if the sticks are *explicitly* listed in the PDB file.
+The :doc:`Principled BSDF shader </render/shader_nodes/shader/principled.html>`
 is used to describe the material properties of the atoms.
 
 For the import, many options can be chosen, which allow representing the atoms and sticks in different ways.
