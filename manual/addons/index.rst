@@ -36,7 +36,6 @@ Add-ons Category Listings
    node/index.rst
    object/index.rst
    paint/index.rst
-   precision_drawing_tools/index.rst
    render/index.rst
    rigging/index.rst
    sequencer/index.rst
