@@ -36,6 +36,7 @@ Located in the :menuselection:`3D Viewport --> Sidebar --> PDT`.
    command.rst
    pivot_point.rst
    library.rst
+   trig_waves.rst
    examples.rst
    book_scanner.rst
 
