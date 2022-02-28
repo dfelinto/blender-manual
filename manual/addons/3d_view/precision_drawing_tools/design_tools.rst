@@ -115,7 +115,7 @@ setting is irrelevant. This Tool works in Edit & Object Modes.
 Selection: None required in Edit Mode, select one object in Object Mode.
 
 **Example 1**: Set Object Origin to 1,3,2 in Edit Mode, set X, Y & Z inputs to 1,3,2 respectively,
-set _Operation_ to Cursor, click _Absolute_ button to move cursor. Click ``Origin To Cursor`` Tool,
+set ``Operation`` to Cursor, click ``Absolute`` button to move cursor. Click ``Origin To Cursor`` Tool,
 Origin is moved, but geometry is not moved from its absolute position in World Space.
 
 
