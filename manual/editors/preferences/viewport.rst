@@ -96,3 +96,12 @@ OpenGL Depth Picking
    It is only used for selecting with the cursor (not box select, lasso, circle select, etc.).
 
    Performance varies depending on your OpenGL hardware and drivers.
+
+
+Subdivision
+===========
+
+GPU Subdivision
+   Under certain circumstances, the GPU will be used to subdivide a mesh with a 
+   :doc:`Subdivision Surface modifier </modeling/modifiers/generate/subdivision_surface>`.
+   This typically results in increased subdivision performance. 
