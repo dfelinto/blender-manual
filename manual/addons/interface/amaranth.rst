@@ -1,29 +1,24 @@
 
-################
+****************
 Amaranth Toolset
-################
+****************
 
 A collection of tools and settings to improve productivity.
 
-**********
+
 Activation
-**********
+==========
 
 - Open Blender and go to Edit menu, Preferences, then Add-ons.
 - Search for Amaranth, and activate the add-on.
 
-
-***********
-Description
-***********
-
-----
 
 3D View
 =======
 
 Set Camera Bounds as Render Border
 ----------------------------------
+
 When in camera view, we can now set the border-render to be the same size of the camera,
 so we don't render outside the view. Makes faster render preview.
 
@@ -32,6 +27,7 @@ Usage: Context menus (:kbd:`RMB`) when in Camera View.
 
 Select Meshlights
 -----------------
+
 Select all the meshes that emit light.
 
 Usage: On the header of the 3D View, top of the select menu.
@@ -39,6 +35,7 @@ Usage: On the header of the 3D View, top of the select menu.
 
 Adjust Passepartout
 -------------------
+
 The passepartout value of local Cameras is now available via the context menu,
 while in Camera view.
 
@@ -47,6 +44,7 @@ Usage: Context menus (:kbd:`RMB`) when in Camera View.
 
 Scene, Cameras, and Meshlights Count
 ------------------------------------
+
 Add the number of scenes, cameras, and light emitting meshes to the stats in the Status Bar.
 
 Disabled by default as there has been reports of very minor slowdown on scenes with many hi-poly objects.
@@ -78,14 +76,11 @@ All Scenes
    Handy when working with linked scenes, where it's impossible to access the Wireframe option from the UI.
 
 
-----
-
-
 Render
 ======
 
 UI: Final Resolution
-------------------------
+--------------------
 
 Display a **Final Resolution** label with the size in pixels of your render.
 It also displays the final size for border renders.
@@ -112,9 +107,6 @@ this will auto-run on startup and set the Pass Index. Remember to have auto-run 
 
 Usage: Select an Instanced Collection and set a Pass Index (other than zero) and press "Apply Object ID to Duplis"
 in the Relations panel in Object Properties.
-
-
-----
 
 
 Nodes Editor
@@ -185,9 +177,6 @@ Experimental feature.
 Usage: Find it in the Nodes Editor sidebar (:kbd:`N`).
 
 
-----
-
-
 Animation
 =========
 
@@ -223,9 +212,6 @@ Match Current Frame Range
    Set the current frame range as motion path range.
 
 
-----
-
-
 Scene
 =====
 
@@ -247,11 +233,8 @@ Refresh the current scene, useful when working with libraries or drivers.
 Usage: Press :kbd:`F5` or find it in the context menu :kbd:`W`
 
 
-----
-
-
 Debug
-===========
+=====
 
 List Missing Images
 -------------------
@@ -314,9 +297,6 @@ From this list it is possible to adjust Ray Visibility (Camera, Diffuse, Glossy,
 Usage: Find it in the Lighter's Corner panel, on Scene Properties.
 
 
-----
-
-
 File Browser
 ============
 
@@ -335,9 +315,6 @@ That way you can quickly go to the folders related to the file.
 Usage: Find it in the **Libraries** panel in File Browser. Click on any path to go to that directory.
 
 
-----
-
-
 Timeline
 ========
 
@@ -349,9 +326,6 @@ Display amount of frames left until Frame End, very handy especially when render
 Display current/end time in `SMPTE <http://en.wikipedia.org/wiki/SMPTE_timecode>`_.
 
 Usage: Find it in the Timeline Editor's header.
-
-
-----
 
 
 Modeling
@@ -369,9 +343,6 @@ Make Symmetric
    Move selected vertices to match the position of those on the other side.
 
 Usage: Search (:kbd:`Spacebar`) for **Find Asymmetric**, and **Make Symmetric** operators.
-
-
-----
 
 
 Miscellaneous
@@ -409,7 +380,6 @@ EXR Render: Warn when Z not connected
 Display a warning label when exporting EXR, with Z Buffer enabled, but the Z input in the **Composite** node is not connected.
 
 Usage: Find it in the Output panel, Render properties.
-
 
 .. reference::
 
