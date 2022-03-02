@@ -90,10 +90,6 @@ Scale :kbd:`S`
 
    The amount of scaling is relative meaning a scale value of 0.4 will scale the image to 40% of its size.
 
-   message will display in the header indicating
-   the distance in pixels the image has moved in each of the cardinal directions.
-   The third number, between parenthesis, is the Euclidean distance the image has moved.
-
    While the operation is running a message will display in the header indicating
    the amount the image has been scaled in each of the cardinal directions.
 
