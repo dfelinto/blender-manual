@@ -46,6 +46,11 @@ Straightforward patches are bound to be accepted very quickly.
 Once you get accustomed to making changes and no longer need feedback,
 we cut out the middle man and give you direct access to edit the manual.
 
+.. seealso::
+
+   See :doc:`/about/contribute/release_cycle` for documentation on how to make
+   commits to a specific release branch and how to create merge commits.
+
 
 Commit Directly
 ===============
@@ -64,6 +69,10 @@ Do not forget to always run ``svn update`` before committing.
 
 Then you will be asked for your username and password
 (from ``developer.blender.org``) before the change is committed.
+
+.. note::
+
+   Make sure to use your username (case sensitive) and not your email.
 
 Your modified files are uploaded to the central repository for others to work with and continue collaborating.
 Commits are tracked in the repositories `Diffusion <https://developer.blender.org/diffusion/BM/>`__.
@@ -89,4 +98,4 @@ It can be helpful to prefix the commit title with a prefix word such as ``Cleanu
 when you are making general cleanups or fixes respectively.
 
 Writing good commit messages helps administrators keep track of
-changes made and ensures all new features are properly documented. 
+changes made and ensures all new features are properly documented.

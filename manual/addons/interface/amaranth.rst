@@ -56,7 +56,8 @@ Usage: Once enabled in the add-on preferences, it will appear in the Status Bar.
 Wireframe Toggle
 ----------------
 
-Enable or disable wireframe display on mesh objects. It even works on linked objects/scenes too, where this option is not accessible.
+Enable or disable wireframe display on mesh objects.
+It even works on linked objects/scenes too, where this option is not accessible.
 
 "Display" will enable the wireframe, while "Clear" will disable it.
 
@@ -117,7 +118,8 @@ Display Image Node in Image Editor
 
 A quick way to view an image assigned to an Image node.
 
-Usage: Double-click an Image Node in the Nodes Editor (Compositor or Cycles), there must be at least 1 image editor available.
+Usage: Double-click an Image Node in the Nodes Editor (Compositor or Cycles),
+there must be at least 1 image editor available.
 
 
 Node Templates: Vignette
@@ -142,9 +144,11 @@ Usage: Find it in the Properties panel, when selecting a Normal node.
 Object / Material Indices Panel
 -------------------------------
 
-When working with ID Masks in the Nodes Editor, it's hard to follow track of which Objects/Materials have which Pass Index.
+When working with ID Masks in the Nodes Editor,
+it's hard to follow track of which Objects/Materials have which Pass Index.
 
-This adds a panel on the sidebar when an ID Mask node is selected. The active object is highlighted between [square brackets]
+This adds a panel on the sidebar when an ID Mask node is selected.
+The active object is highlighted between [square brackets]
 
 Usage: On the Nodes Editor's sidebar, when an ID Mask node is selected.
 
@@ -194,10 +198,12 @@ Usage: Find it in Preferences, Animation section, Timeline panel.
 Current Frame Slider
 --------------------
 
-Currently the only way to change the current frame is to have a Timeline editor open, but sometimes you don't have one,
-or you're fullscreen. This feature adds the `Current Frame` slider to the context menu.
+Currently the only way to change the current frame is to have a Timeline editor open,
+but sometimes you don't have one, or you're fullscreen.
+This feature adds the `Current Frame` slider to the context menu.
 
-Usage: Find it in the :kbd:`RMB` (context or :kbd:`W` in right-click select keymap) menu in Object mode or Pose mode,
+Usage: Find it in the :kbd:`RMB` (context or :kbd:`W`
+in right-click select keymap) menu in Object mode or Pose mode,
 click-drag sideways or click in the middle to set the frame manually.
 
 
@@ -272,7 +278,8 @@ Sometimes because the material was linked and the link got lost.
 
 The "List Empty Material Slots" button will print a list of all the objects that have empty material slots.
 
-If the objects are linked, it will show a list of the libraries paths, click on them to open a new Blender instance with that library.
+If the objects are linked, it will show a list of the libraries paths,
+click on them to open a new Blender instance with that library.
 
 Usage: Find it in the Scene Debug panel, on Scene Properties.
 
@@ -353,7 +360,8 @@ Color Management Presets
 
 Save your Color Management options as presets, for easy re-use.
 
-Store most options in the Color Management panel, such as the look and color settings. Storing curve points is not supported yet.
+Store most options in the Color Management panel, such as the look and color settings.
+Storing curve points is not supported yet.
 
 Usage: Find the presets selector on the top of the **Color Management** panel under Render Properties.
 
@@ -361,7 +369,8 @@ Usage: Find the presets selector on the top of the **Color Management** panel un
 Instancing: Show Path of Libraries
 ----------------------------------
 
-Display the library path of a linked Collection Instance. Click on the path to open that .blend file in a new Blender instance.
+Display the library path of a linked Collection Instance.
+Click on the path to open that .blend file in a new Blender instance.
 
 Usage: Find it in the **Instancing** panel, when a Collection Instance (linked) is active.
 
@@ -369,7 +378,8 @@ Usage: Find it in the **Instancing** panel, when a Collection Instance (linked) 
 Sequencer: Display Image File Name
 ----------------------------------
 
-When seeking through an image sequence, display the active strips' file name for the current frame, and its playhead (in square brackets).
+When seeking through an image sequence, display the active strips'
+file name for the current frame, and its playhead (in square brackets).
 
 Usage: Find it in the VSE header.
 
@@ -377,7 +387,8 @@ Usage: Find it in the VSE header.
 EXR Render: Warn when Z not connected
 -------------------------------------
 
-Display a warning label when exporting EXR, with Z Buffer enabled, but the Z input in the **Composite** node is not connected.
+Display a warning label when exporting EXR, with Z Buffer enabled,
+but the Z input in the **Composite** node is not connected.
 
 Usage: Find it in the Output panel, Render properties.
 
