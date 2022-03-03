@@ -21,6 +21,12 @@ Safe Areas are enabled and an Annotation is added.
 Tool
 ====
 
+.. reference::
+
+   :Editor:    Video Sequencer
+   :View Type: Preview
+   :Panel:     :menuselection:`Sidebar --> Tool tab`
+
 Displays information about the active :ref:`tool </editors/video_sequencer/preview/toolbar>`.
 
 
@@ -29,6 +35,12 @@ View
 
 View Settings
 -------------
+
+.. reference::
+
+   :Editor:    Video Sequencer
+   :View Type: Preview
+   :Panel:     :menuselection:`Sidebar --> View tab --> View Settings`
 
 .. _bpy.types.SpaceSequenceEditor.proxy_render_size:
 
@@ -76,6 +88,12 @@ Show Overexposed
 2D Cursor
 ---------
 
+.. reference::
+
+   :Editor:    Video Sequencer
+   :View Type: Preview
+   :Panel:     :menuselection:`Sidebar --> View tab --> 2D Cursor`
+
 The 2D cursor is the white-red circle with a cross-hair that is shown in the main region.
 It can be used by setting the :ref:`Pivot Point <bpy.types.SequencerToolSettings.pivot_point>`
 to *2D Cursor* to transform all strips in relation to the location of the 2D cursor.
@@ -96,6 +114,12 @@ Location X, Y
 
 Frame Overlay
 -------------
+
+.. reference::
+
+   :Editor:    Video Sequencer
+   :View Type: Preview
+   :Panel:     :menuselection:`Sidebar --> View tab --> Frame Overlay`
 
 Option to enable the overlay.
 It can be used for comparing the current frame to a reference frame.
@@ -134,16 +158,28 @@ Overlay Lock
 Safe Areas
 ----------
 
+.. reference::
+
+   :Editor:    Video Sequencer
+   :View Type: Preview
+   :Panel:     :menuselection:`Sidebar --> View tab --> Safe Areas`
+
 Shows guides used to position elements to ensure that
 the most important parts of the video can be seen across all screens.
 
 .. seealso::
 
-   See :ref:`Safe Areas <bpy.types.DisplaySafeAreas>` in the camera docs.
+   :ref:`Camera Safe Areas <bpy.types.DisplaySafeAreas>`.
 
 
 Scene Strip Display
 -------------------
+
+.. reference::
+
+   :Editor:    Video Sequencer
+   :View Type: Preview
+   :Panel:     :menuselection:`Sidebar --> View tab --> Scene Strip Display`
 
 It allows you to control how the images of :doc:`Scene Strips </video_editing/sequencer/strips/scene>`
 are displayed in the preview.
@@ -164,11 +200,23 @@ Override Scene Settings
 Annotations
 -----------
 
+.. reference::
+
+   :Editor:    Video Sequencer
+   :View Type: Preview
+   :Panel:     :menuselection:`Sidebar --> View tab --> Annotations`
+
 Allows you to use :doc:`Annotations </interface/annotate_tool>` in the Sequencer.
 
 
 Metadata
 ========
+
+.. reference::
+
+   :Editor:    Video Sequencer
+   :View Type: Preview
+   :Panel:     :menuselection:`Sidebar --> Metadata tab`
 
 A list of metadata of the displayed image.
 
