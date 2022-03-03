@@ -9,4 +9,5 @@
    introduction.rst
    controls/index.rst
    display/index.rst
+   toolbar.rst
    sidebar.rst
