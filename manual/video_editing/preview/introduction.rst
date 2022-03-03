@@ -65,7 +65,7 @@ Toggle Sequencer/Preview :kbd:`Ctrl-Tab`
 Display Mode
 ------------
 
-See :doc:`/video_editing/preview/display_mode`.
+See :doc:`/editors/video_sequencer/preview/display/display_mode`.
 
 
 Display Channels
