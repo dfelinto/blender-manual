@@ -6,8 +6,7 @@ Split Viewer Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeSplitViewer.png
    :align: right
-
-   Split Viewer Node.
+   :alt: Split Viewer Node.
 
 The *Split Viewer* node takes two images and displays these side-by-side
 as backdrop or as a Viewer Node output.

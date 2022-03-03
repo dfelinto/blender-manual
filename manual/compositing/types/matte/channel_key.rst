@@ -6,8 +6,7 @@ Channel Key Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeChannelMatte.png
    :align: right
-
-   Channel Key Node.
+   :alt: Channel Key Node.
 
 The *Channel Key* node determines background objects from foreground objects by
 the difference in the selected channel's levels.

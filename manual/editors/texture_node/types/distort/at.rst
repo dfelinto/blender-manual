@@ -5,8 +5,7 @@ At Node
 
 .. figure:: /images/editors_texture-node_types_distort_at_node.png
    :align: right
-
-   At node.
+   :alt: At node.
 
 Returns the color of a texture at the specified coordinates.
 

@@ -7,8 +7,7 @@ Curve to Points Node
 
 .. figure:: /images/modeling_geometry-nodes_curve_curve-to-points_node.png
    :align: right
-
-   Curve to Points node.
+   :alt: Curve to Points node.
 
 The *Curve to Points* node generates a point cloud from a curve.
 

@@ -6,8 +6,7 @@ Combine XYZ Node
 
 .. figure:: /images/modeling_geometry-nodes_vector_combine-xyz_node.png
    :align: right
-
-   Combine XYZ Node.
+   :alt: Combine XYZ Node.
 
 The *Combine XYZ Node* combines a vector from its individual components.
 

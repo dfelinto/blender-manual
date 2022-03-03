@@ -7,8 +7,7 @@ Align Euler to Vector Node
 
 .. figure:: /images/modeling_geometry-nodes_point_align-euler-to-vector_node.png
    :align: center
-
-   The Align Euler to Vector node.
+   :alt: Align Euler to Vector node.
 
 The *Align Euler to Vector* node rotates an Euler rotation into the given direction.
 

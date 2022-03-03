@@ -7,8 +7,7 @@ Accumulate Field Node
 
 .. figure:: /images/modeling_geometry-nodes_accumulate-field_node.png
    :align: right
-
-   Accumulate Field Node.
+   :alt: Accumulate Field Node.
 
 The *Accumulate Field* node counts a running total of its input values, in the order defined
 by the geometry's :doc:`indices </modeling/geometry_nodes/input/input_index>`. The node's essential
@@ -46,7 +45,7 @@ Data Type
 
 Domain
    The :ref:`attribute domain <attribute-domains>` used for accumulation
-   and for evaluation of the *Value* input. If the 
+   and for evaluation of the *Value* input. If the
 
 
 Output

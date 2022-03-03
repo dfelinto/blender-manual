@@ -6,8 +6,7 @@ Color Key Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeColorMatte.png
    :align: right
-
-   Color Key node.
+   :alt: Color Key node.
 
 The Color Key node creates a matte based on a specified color of the input image.
 

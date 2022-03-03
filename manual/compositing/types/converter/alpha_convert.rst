@@ -6,8 +6,7 @@ Alpha Convert Node
 
 .. figure:: /images/compositing_node-types_CompositorNodePremulKey.png
    :align: right
-
-   Alpha Convert Node.
+   :alt: Alpha Convert Node.
 
 The *Alpha Convert Node* converts the alpha channel interpretation of an image.
 

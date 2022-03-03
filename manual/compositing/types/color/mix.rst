@@ -11,8 +11,7 @@ Mix Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeMixRGB.png
    :align: right
-
-   Mix Node.
+   :alt: Mix Node.
 
 The *Mix Node* mixes images by working on the individual and corresponding pixels
 of the two input images. Called "MixRGB" in the shader, geometry, and texture context.

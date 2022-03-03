@@ -6,8 +6,7 @@ Gradient Texture Node
 
 .. figure:: /images/render_shader-nodes_textures_gradient_node.png
    :align: right
-
-   Gradient Texture Node.
+   :alt: Gradient Texture Node.
 
 The *Gradient Texture* node generates interpolated color and intensity values based on the input vector.
 

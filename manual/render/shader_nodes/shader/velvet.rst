@@ -6,8 +6,7 @@ Velvet BSDF
 
 .. figure:: /images/render_shader-nodes_shader_velvet_node.png
    :align: right
-
-   Velvet BSDF.
+   :alt: Velvet BSDF node.
 
 :guilabel:`Cycles Only`
 

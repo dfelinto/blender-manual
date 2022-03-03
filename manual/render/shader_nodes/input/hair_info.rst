@@ -6,8 +6,7 @@ Hair Info Node
 
 .. figure:: /images/render_shader-nodes_input_hair-info_node.png
    :align: right
-
-   Hair Info Node.
+   :alt: Hair Info Node.
 
 The *Hair Info* node gives access to :doc:`Hair </physics/particles/hair/index>` information.
 

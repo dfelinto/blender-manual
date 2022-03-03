@@ -6,8 +6,7 @@ Inpaint Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeInpaint.png
    :align: right
-
-   Inpaint Node.
+   :alt: Inpaint Node.
 
 The *Inpaint node* is used to extend borders of an image into transparent or masked regions.
 This can be useful to solve problems like "wire removal" and holes created during chroma keying.

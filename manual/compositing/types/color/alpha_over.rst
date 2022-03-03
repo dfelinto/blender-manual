@@ -6,8 +6,7 @@ Alpha Over Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeAlphaOver.png
    :align: right
-
-   Alpha Over Node.
+   :alt: Alpha Over Node.
 
 The *Alpha Over* node is used to layer images on top of one another.
 Where the foreground image pixels have an alpha greater than 0, it will be overlaid over the background image.

@@ -6,8 +6,7 @@ Normalize Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeNormalize.png
    :align: right
-
-   Normalize Node.
+   :alt: Normalize Node.
 
 Find the minimum and maximum values of a single channel.
 Then map the values to a range of 0 and 1.

@@ -6,8 +6,7 @@ Filter Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeFilter.png
    :align: right
-
-   Filter Node.
+   :alt: Filter Node.
 
 The Filter node implements various common image enhancement filters.
 
@@ -30,7 +29,7 @@ Type
 
    :Soften: Slightly blurs the image.
    :Box Sharpen: Increases the contrast, especially at edges.
-   :Diamond Sharpen: Less aggressive than box sharpen, reducing sharpening artifacts. 
+   :Diamond Sharpen: Less aggressive than box sharpen, reducing sharpening artifacts.
    :Laplace: Edge highlighting filter susceptible to highlighting visual noise.
    :Sobel: Creates a negative image that highlights edges.
    :Prewitt: Produces a similar results to Sobel.

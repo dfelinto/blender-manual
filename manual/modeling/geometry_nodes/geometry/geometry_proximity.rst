@@ -7,8 +7,7 @@ Geometry Proximity Node
 
 .. figure:: /images/modeling_geometry-nodes_geometry_geometry-proximity_node.png
    :align: center
-
-   The Geometry Proximity node.
+   :alt: Geometry Proximity node.
 
 The *Geometry Proximity* node computes the closest location on the target geometry.
 

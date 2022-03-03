@@ -7,8 +7,7 @@ Set Material Node
 
 .. figure:: /images/modeling_geometry-nodes_set-material_node.png
    :align: right
-
-   The Set Material node.
+   :alt: Set Material node.
 
 The *Set Material* changes the material assignment in the specified selection,
 by adjusting the ``material_index`` attribute. If the material is already used

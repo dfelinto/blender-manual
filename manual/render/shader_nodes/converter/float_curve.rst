@@ -7,8 +7,7 @@ Float Curve
 
 .. figure:: /images/render_shader-nodes_converter_float-curve_node.jpg
    :align: right
-
-   Float Curve node.
+   :alt: Float Curve node.
 
 The Float Curve node maps an input float to a curve and outputs a float value.
 

@@ -6,8 +6,7 @@ Texture Coordinate Node
 
 .. figure:: /images/render_shader-nodes_input_texture-coordinate_node.png
    :align: right
-
-   Texture Coordinate Node.
+   :alt: Texture Coordinate Node.
 
 The *Texture Coordinate* node is commonly used for the coordinates of textures,
 typically used as inputs for the *Vector* input for texture nodes.

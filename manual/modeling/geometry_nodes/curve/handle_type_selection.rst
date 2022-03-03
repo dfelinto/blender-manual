@@ -7,8 +7,7 @@ Handle Type Selection Node
 
 .. figure:: /images/modeling_geometry-nodes_curve_handle-type-selection_node.png
    :align: center
-
-   The Handle Type Selection node.
+   :alt: The Handle Type Selection node.
 
 Creates a selection based on the handle types of the control points.
 

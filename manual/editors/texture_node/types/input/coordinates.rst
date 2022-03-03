@@ -5,8 +5,7 @@ Coordinates Node
 
 .. figure:: /images/editors_texture-node_types_input_coordinates_node.png
    :align: right
-
-   Coordinates node.
+   :alt: Coordinates node.
 
 
 Inputs

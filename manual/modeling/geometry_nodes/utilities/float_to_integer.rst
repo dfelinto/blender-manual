@@ -7,8 +7,7 @@ Float To Integer Node
 
 .. figure:: /images/modeling_geometry-nodes_utilities_float-to-int_node.png
    :align: right
-
-   Float To Integer Node.
+   :alt: Float To Integer Node.
 
 The *Float To Integer* node takes a single floating point number input and converts it to
 an integer with a choice of methods.

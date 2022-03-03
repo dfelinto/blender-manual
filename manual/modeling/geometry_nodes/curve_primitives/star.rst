@@ -7,8 +7,7 @@ Star Node
 
 .. figure:: /images/modeling_geometry-nodes_curve-primitives_star_node.png
    :align: right
-
-   Star Node.
+   :alt: Star Node.
 
 The *Star* node generates a poly spline in a star pattern by connecting alternating points of two circles.
 The points on the inner circle are offset by a rotation so that they lie in between the points on the outer circle.

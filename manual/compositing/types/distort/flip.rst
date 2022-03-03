@@ -6,8 +6,7 @@ Flip Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeFlip.png
    :align: right
-
-   Flip Node.
+   :alt: Flip Node.
 
 This node flips an image at defined axis.
 

@@ -7,8 +7,7 @@ Compare Node
 
 .. figure:: /images/modeling_geometry-nodes_utilities_compare_node.png
    :align: center
-
-   Compare Node.
+   :alt: Compare Node.
 
 The *Compare* node takes two inputs and does an operation to determine whether they are similar.
 The node can work on all generic data types, and has modes for vectors that contain more complex
@@ -47,17 +46,17 @@ Mode
       The vectors are normalized, so their length does not matter.
 
 Operation
-   :Less Than: 
+   :Less Than:
       True when the first input is smaller than second input.
-   :Less Than or Equal: 
+   :Less Than or Equal:
       True when the first input is smaller than the second input or equal.
-   :Greater Than: 
+   :Greater Than:
       True when the first input is greater than the second input.
-   :Greater Than or Equal: 
+   :Greater Than or Equal:
       True when the first input is greater than the second input or equal.
-   :Equal: 
+   :Equal:
       True when both the difference between the two inputs is smaller than the *Epsilon* input.
-   :Not Equal: 
+   :Not Equal:
       True when both the difference between the two inputs is larger than the *Epsilon* input.
    :Brighter:
       True when the first color input is brighter than the second.

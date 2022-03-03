@@ -5,8 +5,7 @@ Rotate Node
 
 .. figure:: /images/editors_texture-node_types_distort_rotate_node.png
    :align: right
-
-   Rotate node.
+   :alt: Rotate node.
 
 Rotate the texture coordinates of an image or texture.
 

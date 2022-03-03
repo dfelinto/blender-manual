@@ -6,8 +6,7 @@ Color Spill Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeColorSpill.png
    :align: right
-
-   Color Spill Node.
+   :alt: Color Spill Node.
 
 The *Color Spill* node reduces one of the RGB channels so that it is not greater
 than any of the others.

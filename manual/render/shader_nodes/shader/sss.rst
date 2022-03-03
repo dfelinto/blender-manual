@@ -6,8 +6,7 @@ Subsurface Scattering
 
 .. figure:: /images/render_shader-nodes_shader_sss_node.png
    :align: right
-
-   Subsurface Scattering Shader.
+   :alt: Subsurface Scattering node.
 
 The *Subsurface Scattering* node is used to add simple subsurface multiple scattering,
 for materials such as skin, wax, marble, milk and others. For these materials,

@@ -6,8 +6,7 @@ Render Layers Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeRLayers.png
    :align: right
-
-   Render Layers Node.
+   :alt: Render Layers Node.
 
 This node is the starting place for getting a picture of your scene into the compositing node tree.
 

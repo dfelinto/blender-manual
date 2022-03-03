@@ -7,8 +7,7 @@ Set Spline Cyclic Node
 
 .. figure:: /images/modeling_geometry-nodes_curve_set-spline-cyclic_node.png
    :align: right
-
-   Set Spline Cyclic node.
+   :alt: Set Spline Cyclic node.
 
 The *Set Spline Cyclic* controls whether each spline will loop back on itself.
 Each spline has the same number of control points whether or not it is set as cyclic.

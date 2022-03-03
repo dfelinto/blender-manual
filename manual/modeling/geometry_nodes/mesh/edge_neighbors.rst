@@ -7,8 +7,7 @@ Edge Neighbors Node
 
 .. figure:: /images/modeling_geometry-nodes_input_edge-neighbors_node.png
    :align: right
-
-   Edge Neighbors Node.
+   :alt: Edge Neighbors Node.
 
 The *Edge Neighbors* node outputs topology information relating to each edge of a mesh.
 

@@ -7,8 +7,7 @@ Grid Node
 
 .. figure:: /images/modeling_geometry-nodes_mesh-primitives_grid_node.png
    :align: right
-
-   Grid Node.
+   :alt: Grid Node.
 
 The *Grid* node generates a planar mesh on the XY plane.
 

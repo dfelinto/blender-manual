@@ -10,8 +10,7 @@ Bright/Contrast Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeBrightContrast.png
    :align: right
-
-   Brightness/Contrast Node.
+   :alt: Brightness/Contrast Node.
 
 
 Inputs

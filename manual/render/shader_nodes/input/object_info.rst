@@ -6,8 +6,7 @@ Object Info Node
 
 .. figure:: /images/render_shader-nodes_input_object-info_node.png
    :align: right
-
-   Object Info Node.
+   :alt: Object Info Node.
 
 The *Object Info* node gives information about the object instance.
 This can be useful to give some variation to a single material assigned to multiple instances,

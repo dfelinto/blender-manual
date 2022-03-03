@@ -6,8 +6,7 @@ Z Combine Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeZcombine.png
    :align: right
-
-   Z Combine Node.
+   :alt: Z Combine Node.
 
 The Z Combine node combines two images based on their Z-depth maps.
 It overlays the images using the provided Z values to

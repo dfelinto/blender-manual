@@ -6,8 +6,7 @@ Difference Key Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeDiffMatte.png
    :align: right
-
-   Difference Key Node.
+   :alt: Difference Key Node.
 
 This node produces a matte that isolates foreground content by comparing it with a reference background image.
 

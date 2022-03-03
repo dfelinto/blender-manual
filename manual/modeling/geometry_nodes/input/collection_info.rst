@@ -7,8 +7,7 @@ Collection Info Node
 
 .. figure:: /images/modeling_geometry-nodes_input_collection-info_node.png
    :align: right
-
-   Collection Info node.
+   :alt: Collection Info node.
 
 The *Collection Info* node gets information from collections.
 This can be useful to control parameters in the geometry node tree with an external collection.

@@ -7,8 +7,7 @@ Fillet Curve Node
 
 .. figure:: /images/modeling_geometry-nodes_curve_fillet-curve_node.png
    :align: right
-
-   Fillet Curve node.
+   :alt: Fillet Curve node.
 
 The *Fillet Curve* rounds corners on curve control points, similar to the effect of
 the :doc:`Bevel Modifier </modeling/modifiers/generate/bevel>` on a 2D mesh.

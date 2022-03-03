@@ -5,8 +5,7 @@ Checker Node
 
 .. figure:: /images/editors_texture-node_types_patterns_checker_node.png
    :align: right
-
-   Checker node.
+   :alt: Checker node.
 
 The Checker node creates a checkerboard pattern.
 

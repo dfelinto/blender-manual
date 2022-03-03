@@ -7,8 +7,7 @@ Attribute Statistic Node
 
 .. figure:: /images/modeling_geometry-nodes_attribute_attribute-statistic_node.png
    :align: right
-
-   The Attribute Statistic node.
+   :alt: Attribute Statistic node.
 
 The *Attribute Statistic* node evaluates a field on a geometry and outputs a statistic about the entire data set.
 

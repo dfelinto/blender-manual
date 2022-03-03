@@ -6,8 +6,7 @@ Bricks Node
 
 .. figure:: /images/editors_texture-node_types_patterns_bricks_node.png
    :align: right
-
-   Bricks node.
+   :alt: Bricks node.
 
 The Bricks node creates a brick like pattern.
 

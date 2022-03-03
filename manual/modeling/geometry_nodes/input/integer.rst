@@ -7,8 +7,7 @@ Integer Node
 
 .. figure:: /images/modeling_geometry-nodes_input_integer_node.png
    :align: right
-
-   Integer node.
+   :alt: Integer node.
 
 The *Integer* node provides an integer value.
 

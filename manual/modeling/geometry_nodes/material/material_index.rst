@@ -7,8 +7,7 @@ Material Index Node
 
 .. figure:: /images/modeling_geometry-nodes_material_material-index_node.png
    :align: right
-
-   Material Index node.
+   :alt: Material Index node.
 
 The *Material Index* node outputs which material in the list of materials of the geometry
 each element corresponds to. Currently the node supports mesh data, where ``material_index``

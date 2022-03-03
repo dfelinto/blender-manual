@@ -6,8 +6,7 @@ Despeckle Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeDespeckle.png
    :align: right
-
-   Despeckle Node.
+   :alt: Despeckle Node.
 
 The *Despeckle node* is used to smooth areas of an image in which noise is noticeable,
 while leaving complex areas untouched.

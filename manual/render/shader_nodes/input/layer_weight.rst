@@ -6,8 +6,7 @@ Layer Weight Node
 
 .. figure:: /images/render_shader-nodes_input_layer-weight_node.png
    :align: right
-
-   Layer Weight Node.
+   :alt: Layer Weight Node.
 
 The *Layer Weight* node outputs a weight typically used for layering shaders with the *Mix Shader* node.
 

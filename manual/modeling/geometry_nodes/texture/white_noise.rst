@@ -17,8 +17,7 @@ The output number ranges between zero and one.
 
 .. figure:: /images/modeling_geometry-nodes_texture_white-noise-texture_node.png
    :align: right
-
-   White Noise Texture Node.
+   :alt: White Noise Texture Node.
 
 
 Inputs

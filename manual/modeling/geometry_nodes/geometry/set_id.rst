@@ -7,8 +7,7 @@ Set ID Node
 
 .. figure:: /images/modeling_geometry-nodes_geometry_set-id_node.png
    :align: right
-
-   Set ID node.
+   :alt: Set ID node.
 
 The *Set ID* node fills the ``id`` attribute on the input geometry. If the attribute does not
 exist yet, it will be created with a default value of zero. The ID is also created by

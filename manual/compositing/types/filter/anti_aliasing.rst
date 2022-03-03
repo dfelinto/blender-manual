@@ -6,8 +6,7 @@ Anti-Aliasing
 
 .. figure:: /images/compositing_node-types_CompositorAntiAliasing.png
    :align: right
-
-   Anti-Aliasing Node.
+   :alt: Anti-Aliasing Node.
 
 The Anti-Aliasing node removes distortion artifacts around edges known as aliasing.
 

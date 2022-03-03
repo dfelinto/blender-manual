@@ -7,8 +7,7 @@ Switch Node
 
 .. figure:: /images/modeling_geometry-nodes_utilities_switch_node.png
    :align: right
-
-   Switch Node.
+   :alt: Switch Node.
 
 The *Switch* node outputs one of two inputs depending on a condition.
 Only the input that is passed through the node is computed.

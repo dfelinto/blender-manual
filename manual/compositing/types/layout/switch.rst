@@ -5,8 +5,7 @@ Switch Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeSwitch.png
    :align: right
-
-   Switch Node.
+   :alt: Switch Node.
 
 Switch between two images using a checkbox.
 

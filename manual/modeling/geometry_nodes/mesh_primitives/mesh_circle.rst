@@ -7,8 +7,7 @@ Mesh Circle Node
 
 .. figure:: /images/modeling_geometry-nodes_mesh-primitives_circle_node.png
    :align: right
-
-   Mesh Circle Node.
+   :alt: Mesh Circle Node.
 
 The *Mesh Circle* node generates a circular ring of edges that is optionally filled with faces.
 

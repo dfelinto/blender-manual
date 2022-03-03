@@ -6,8 +6,7 @@ Diffuse BSDF
 
 .. figure:: /images/render_shader-nodes_shader_diffuse_node.png
    :align: right
-
-   Diffuse BSDF.
+   :alt: Diffuse BSDF node.
 
 The *Diffuse* :abbr:`BSDF (Bidirectional Scattering Distribution Function)`
 node is used to add Lambertian and Oren-Nayar diffuse reflection.

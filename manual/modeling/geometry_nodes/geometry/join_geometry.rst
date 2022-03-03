@@ -9,8 +9,7 @@ The *Join Geometry* node merges separately generated geometries into a single on
 If the geometry inputs contain different types of data, the output will also contain different data types.
 
 .. figure:: /images/modeling_geometry-nodes_geometry_join-geometry_node.png
-
-   The Join Geometry node.
+   :alt: Join Geometry node.
 
 .. note::
 
@@ -38,8 +37,8 @@ will be used for the output.
    Like other geometry nodes, this node always outputs generic typed attributes. So instead of a
    :term:`Vertex Group` attribute, it will create a "Float" attribute on the result, and it will
    create a generic 2D vector attribute instead of a special "UV Map" attribute. Some other areas
-   of Blender don't properly handle generic attributes in version 3.0. 
-   
+   of Blender don't properly handle generic attributes in version 3.0.
+
    Custom face corner normals are also not transferred currently.
 
 Inputs

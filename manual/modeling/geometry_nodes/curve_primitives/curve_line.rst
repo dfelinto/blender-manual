@@ -6,8 +6,7 @@ Curve Line Node
 ***************
 
 .. figure:: /images/modeling_geometry-nodes_curve-primitives_line_node.png
-
-   Curve Line node.
+   :alt: Curve Line node.
 
 The *Curve Line* node generates poly spline line.
 

@@ -6,8 +6,7 @@ Combine RGB Node
 
 .. figure:: /images/modeling_geometry-nodes_color_combine-rgb_node.png
    :align: right
-
-   Combine RGB Node.
+   :alt: Combine RGB Node.
 
 The *Combine RGB Node* combines an image from its composite color channels.
 

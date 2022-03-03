@@ -6,8 +6,7 @@ Keying Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeKeying.png
    :align: right
-
-   Keying Node.
+   :alt: Keying Node.
 
 The *Keying* node is a one-stop-shop for "green screen" / "blue screen" removal.
 It performs both chroma keying to remove the backdrop and despill to correct color cast from the backdrop.

@@ -6,8 +6,7 @@ Displace Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeDisplace.png
    :align: right
-
-   Displace Node.
+   :alt: Displace Node.
 
 The *Displace Node* displaces the pixel position based on an input vector.
 

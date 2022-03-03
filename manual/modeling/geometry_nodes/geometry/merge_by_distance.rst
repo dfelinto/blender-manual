@@ -7,8 +7,7 @@ Merge by Distance Node
 
 .. figure:: /images/modeling_geometry-nodes_geometry_merge-by-distance_node.png
    :align: right
-
-   The Merge by Distance node.
+   :alt: Merge by Distance node.
 
 The *Merge by Distance* node merges selected mesh vertices or point cloud points within a given distance,
 merging surrounding geometry where necessary. This operation is similar to the :ref:`bpy.ops.mesh.remove_doubles`

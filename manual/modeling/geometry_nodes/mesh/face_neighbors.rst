@@ -7,8 +7,7 @@ Face Neighbors Node
 
 .. figure:: /images/modeling_geometry-nodes_input_face-neighbors_node.png
    :align: right
-
-   Face Neighbors Node.
+   :alt: Face Neighbors Node.
 
 The *Face Neighbors* node outputs topology information relating to each face of a mesh.
 

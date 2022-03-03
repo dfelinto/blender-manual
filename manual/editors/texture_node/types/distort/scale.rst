@@ -5,8 +5,7 @@ Scale Node
 
 .. figure:: /images/editors_texture-node_types_distort_scale_node.png
    :align: right
-
-   Scale node.
+   :alt: Scale node.
 
 Scale the texture coordinates of an image or texture.
 

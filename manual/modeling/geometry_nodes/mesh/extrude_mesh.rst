@@ -7,11 +7,10 @@ Extrude Mesh Node
 
 .. figure:: /images/modeling_geometry-nodes_extrude-mesh_node.png
    :align: right
-
-   The Extrude Mesh node.
+   :alt: Extrude Mesh node.
 
 The *Extrude Mesh Node* generates new vertices, edges, or faces, on selected geometry
-and transforms them based on an offset. 
+and transforms them based on an offset.
 
 The operations are similar to the :doc:`extrude tools </modeling/meshes/editing/mesh/extrude>`
 in mesh edit mode, though there are some differences. Most importantly, the node never keeps the back-faces
@@ -35,7 +34,7 @@ Offset
    of the input vectors is used.
 
    .. tip::
-      
+
       Because the default input is the mesh's normals, they may need to be calculated just for this node.
       If the extrusion is only in one direction anyway, a potential performance improvement is to connect
       a :doc:`/modeling/geometry_nodes/input/vector` instead.
@@ -60,12 +59,12 @@ Mode
       original selected vertices are also shared in the duplicated edges.
 
       .. note::
-         
+
          Depending on the situation, the normals of the new faces may be arbitrary. If the selected
          edges only have one selected face, then the node can pick a consistent orientation for the
          new faces, but if there is more than one connected face, or no connected faces, the normals
          may have to be adjusted afterwards.
- 
+
    :Faces:
       Extrudes contiguous regions of selected faces, or each selected face individually,
       depending on the *Individual* boolean input.
@@ -84,7 +83,7 @@ Mesh
 
 Top
    A boolean field output containing the top new top geometry. The :ref:`domain <attribute-domains>`
-   depends on the selected mode. In *Vertex* mode, this is a selection of the new vertices. 
+   depends on the selected mode. In *Vertex* mode, this is a selection of the new vertices.
    In *Edge* mode, this is a selection of the duplicated edges
    and in *Face* mode, it is a selection of the new faces.
 
@@ -116,7 +115,7 @@ Generally boolean attributes are propagated with "or", meaning any connected
 "true" value that is mixed in for other types will cause the new value
 to be "true" as well.
 
-The following sectopms descrone 
+The following sectopms descrone
 
 Vertex Mode
 -----------

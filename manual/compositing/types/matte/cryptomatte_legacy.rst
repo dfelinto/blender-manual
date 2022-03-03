@@ -5,8 +5,7 @@ Cryptomatte Node (Legacy)
 
 .. figure:: /images/compositing_node-types_CompositorNodeCryptomatteLegacy.png
    :align: right
-
-   Cryptomatte Node.
+   :alt: Cryptomatte Node.
 
 The Cryptomatte node uses the Cryptomatte standard to efficiently create mattes for compositing.
 Cycles and Eevee output the required render passes, which can then be used in the Compositor

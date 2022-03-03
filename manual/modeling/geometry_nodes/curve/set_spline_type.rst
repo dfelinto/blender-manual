@@ -7,8 +7,7 @@ Set Spline Type Node
 
 .. figure:: /images/modeling_geometry-nodes_curve_spline-type_node.png
    :align: right
-
-   The Set Spline Type node.
+   :alt: The Set Spline Type node.
 
 Sets the spline type for the splines in the curve component that
 are in the selection.

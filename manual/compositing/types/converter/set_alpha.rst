@@ -6,8 +6,7 @@ Set Alpha Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeSetAlpha.png
    :align: right
-
-   Set Alpha Node.
+   :alt: Set Alpha Node.
 
 The *Set Alpha Node* adds an alpha channel to an image.
 

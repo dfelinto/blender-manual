@@ -20,8 +20,7 @@ Script Node
 
 .. figure:: /images/render_shader-nodes_osl_script-node.png
    :align: right
-
-   Script Node.
+   :alt: Script Node.
 
 OSL was designed for node-based shading,
 and *each* OSL shader corresponds to *one* node in a node setup.

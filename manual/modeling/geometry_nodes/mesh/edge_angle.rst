@@ -7,11 +7,10 @@ Edge Angle Node
 
 .. figure:: /images/modeling_geometry-nodes_input_edge-angle_node.png
    :align: right
-
-   Edge Angle Node.
+   :alt: Edge Angle Node.
 
 The *Edge Angle* node calculates the angle in radians between two faces that meet at an edge.
-For the Face, Face Corner, and Point :ref:`domains <attribute-domains>`, 
+For the Face, Face Corner, and Point :ref:`domains <attribute-domains>`,
 the node uses simple domain interpolation to move values from the mesh's edges.
 
 .. note::
@@ -40,7 +39,7 @@ Unsigned Angle
    The range of the data is from zero to PI. Flat edges and :term:`Non-manifold`
    edges have an angle of zero. An edge between two faces completely folded
    back on each other has an angle of PI, or 180 degrees.
-   
+
    .. tip::
 
       Computing this value is slightly faster than the signed angle, so if there is no need to distinguish

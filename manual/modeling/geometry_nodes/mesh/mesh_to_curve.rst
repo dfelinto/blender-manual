@@ -7,8 +7,7 @@ Mesh to Curve Node
 
 .. figure:: /images/modeling_geometry-nodes_mesh_mesh-to-curve_node.png
    :align: right
-
-   Mesh to Curve node.
+   :alt: Mesh to Curve node.
 
 The *Mesh to Curve* node generates a curve from a mesh.
 The result is a poly spline, with a point for every selected vertex on the mesh.

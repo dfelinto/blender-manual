@@ -7,8 +7,7 @@ Face Area Node
 
 .. figure:: /images/modeling_geometry-nodes_input_face-area_node.png
    :align: right
-
-   Face Area Node.
+   :alt: Face Area Node.
 
 The *Face Area* node outputs the surface area of a mesh's faces.
 The units are in Blender units no matter the unit system,

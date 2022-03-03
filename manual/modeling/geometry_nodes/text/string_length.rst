@@ -7,8 +7,7 @@ String Length Node
 
 .. figure:: /images/modeling_geometry-nodes_text_string-length_node.png
    :align: center
-
-   The String Length node.
+   :alt: String Length node.
 
 The *String Length* node outputs the number of characters in the input string.
 

@@ -10,8 +10,7 @@ Gamma Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeGamma.png
    :align: right
-
-   Gamma Node.
+   :alt: Gamma Node.
 
 Use this node to apply a gamma correction.
 

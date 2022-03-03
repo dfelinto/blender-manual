@@ -6,8 +6,7 @@ Bokeh Blur Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeBokehBlur.png
    :align: right
-
-   Bokeh Blur Node.
+   :alt: Bokeh Blur Node.
 
 The Bokeh Blur node generates a bokeh type blur similar to Defocus.
 Unlike defocus an in-focus region is defined in the Compositor.

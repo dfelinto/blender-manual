@@ -7,8 +7,7 @@ Set Curve Radius Node
 
 .. figure:: /images/modeling_geometry-nodes_curve_set-curve-radius_node.png
    :align: right
-
-   Set Curve Radius node.
+   :alt: Set Curve Radius node.
 
 The *Set Curve Radius* controls the radius of the curve, used for operations like the size of the profile
 in the :doc:`Curve to Mesh </modeling/geometry_nodes/curve/curve_to_mesh>` node. The value is set for

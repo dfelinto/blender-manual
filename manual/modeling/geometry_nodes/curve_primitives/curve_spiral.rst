@@ -7,8 +7,7 @@ Curve Spiral Node
 
 .. figure:: /images/modeling_geometry-nodes_curve-primitives_spiral_node.png
    :align: right
-
-   Curve Spiral Node.
+   :alt: Curve Spiral Node.
 
 The *Curve Spiral* node generates a poly spline in a spiral shape.
 It can be used to create springs or other similar objects.

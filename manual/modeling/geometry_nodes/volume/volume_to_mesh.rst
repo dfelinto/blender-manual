@@ -7,8 +7,7 @@ Volume to Mesh Node
 
 .. figure:: /images/modeling_geometry-nodes_volume_volume-to-mesh_node.png
    :align: center
-
-   The Volume to Mesh node.
+   :alt: The Volume to Mesh node.
 
 The *Volume to Mesh* node generates a mesh on the "surface" of a volume.
 The surface is defined by a threshold value.

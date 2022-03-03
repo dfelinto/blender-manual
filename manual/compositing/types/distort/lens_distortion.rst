@@ -6,8 +6,7 @@ Lens Distortion Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeLensdist.png
    :align: right
-
-   Lens Distortion Node.
+   :alt: Lens Distortion Node.
 
 Use this node to simulate distortions that real camera lenses produce.
 

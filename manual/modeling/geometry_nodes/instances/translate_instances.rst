@@ -7,8 +7,7 @@ Translate Instances Node
 
 .. figure:: /images/modeling_geometry-nodes_instances_translate-instances_node.png
    :align: right
-
-   The Translate Instances node.
+   :alt: Translate Instances node.
 
 The *Translate Instances* node moves top-level geometry instances in local or global space.
 

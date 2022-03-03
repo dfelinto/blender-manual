@@ -7,8 +7,7 @@ Join Strings Node
 
 .. figure:: /images/modeling_geometry-nodes_text_join-strings_node.png
    :align: center
-
-   The Join Strings node.
+   :alt: Join Strings node.
 
 The *Join Strings* node combines any number of input strings into the output string.
 The order of the result depends on the vertical ordering of the inputs in the multi-input socket.

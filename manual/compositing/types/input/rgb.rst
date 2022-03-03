@@ -9,8 +9,7 @@ RGB Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeRGB.png
    :align: right
-
-   RGB Node.
+   :alt: RGB Node.
 
 
 Inputs

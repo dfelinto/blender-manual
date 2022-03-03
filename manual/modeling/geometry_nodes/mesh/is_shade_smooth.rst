@@ -7,8 +7,7 @@ Is Shade Smooth Node
 
 .. figure:: /images/modeling_geometry-nodes_input_is-shade-smooth_node.png
    :align: right
-
-   Is Shade Smooth Node.
+   :alt: Is Shade Smooth Node.
 
 The *Is Shade Smooth* node outputs true for each face of the mesh if that face
 is marked to render smooth shaded. Otherwise, if the face is marked to render as flat

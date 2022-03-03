@@ -6,8 +6,7 @@ Mix Shader
 
 .. figure:: /images/render_shader-nodes_shader_mix_node.png
    :align: right
-
-   Mix Shader.
+   :alt: Mix Shader node.
 
 The *Mix* node is used to mix two shaders together. Mixing can be used for material layering,
 where the *Factor* input may, for example, be connected to a *Blend Weight* node.

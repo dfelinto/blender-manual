@@ -7,8 +7,7 @@ Arc Node
 
 .. figure:: /images/modeling_geometry-nodes_curve-primitives_arc_node.png
    :align: right
-
-   Arc Node.
+   :alt: Arc Node.
 
 The *Arc* node generates a poly spline arc. The node has two modes, Radius and Points.
 

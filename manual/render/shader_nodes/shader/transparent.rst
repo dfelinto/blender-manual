@@ -6,8 +6,7 @@ Transparent BSDF
 
 .. figure:: /images/render_shader-nodes_shader_transparent_node.png
    :align: right
-
-   Transparent BSDF.
+   :alt: Transparent BSDF node.
 
 The *Transparent* :abbr:`BSDF (Bidirectional Scattering Distribution Function)`
 is used to add transparency without refraction, passing straight through the surface,

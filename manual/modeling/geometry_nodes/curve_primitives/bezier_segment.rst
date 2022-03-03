@@ -7,8 +7,7 @@ Bézier Segment Node
 
 .. figure:: /images/modeling_geometry-nodes_curve-primitives_bezier-segment_node.png
    :align: right
-
-   Bézier Segment Node.
+   :alt: Bézier Segment Node.
 
 The *Bézier Segment* node generates a 2D Bézier spline from the given control points and handles.
 

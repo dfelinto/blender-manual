@@ -10,8 +10,7 @@ Map Range Node
 
 .. figure:: /images/render_shader-nodes_converter_map-range_node.png
    :align: right
-
-   Map Range Node.
+   :alt: Map Range Node.
 
 The *Map Range* node remaps a value from a range to a target range.
 
@@ -38,9 +37,9 @@ Properties
 ==========
 
 Data Type
-   Map Range supports both Float and Vector data types. Changing the data type will 
-   also update the sockets to reflect the data type chosen. 
-   
+   Map Range supports both Float and Vector data types. Changing the data type will
+   also update the sockets to reflect the data type chosen.
+
 Interpolation Type
    The mathematical method used to transition between gaps in the numerical inputs.
 

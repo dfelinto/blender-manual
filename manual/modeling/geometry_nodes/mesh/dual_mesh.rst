@@ -7,8 +7,7 @@ Dual Mesh Node
 
 .. figure:: /images/modeling_geometry-nodes_dual-mesh_node.png
    :align: right
-
-   The Dual Mesh node.
+   :alt: Dual Mesh node.
 
 The *Dual Mesh Node* converts a mesh into it's dual, i.e. faces are turned into
 vertices and vertices are turned into faces. This also means that attributes

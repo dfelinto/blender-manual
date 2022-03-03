@@ -7,8 +7,7 @@ Instances to Points Node
 
 .. figure:: /images/modeling_geometry-nodes_point_instances-to-points_node.png
    :align: right
-
-   The Instances to Points node.
+   :alt: Instances to Points node.
 
 The *Instances to Points* node generates points at the origins of top-level instances.
 Attributes on the :ref:`instance domain <attribute-domains>` are moved to the point cloud points.

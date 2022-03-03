@@ -13,8 +13,7 @@ Noise Texture Node
 
 .. figure:: /images/modeling_geometry-nodes_texture_noise-texture_node.png
    :align: right
-
-   Noise Texture Node.
+   :alt: Noise Texture Node.
 
 The *Noise Texture* node evaluates a fractal Perlin noise at the input texture coordinates.
 

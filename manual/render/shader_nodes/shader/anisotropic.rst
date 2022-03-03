@@ -6,8 +6,7 @@ Anisotropic BSDF
 
 .. figure:: /images/render_shader-nodes_shader_anisotropic_node.png
    :align: right
-
-   Anisotropic BSDF.
+   :alt: Anisotropic BSDF node.
 
 :guilabel:`Cycles Only`
 

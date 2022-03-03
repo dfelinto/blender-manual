@@ -6,8 +6,7 @@ Principled BSDF
 
 .. figure:: /images/render_shader-nodes_shader_principled_node.png
    :align: right
-
-   Principled BSDF.
+   :alt: Principled BSDF node.
 
 The *Principled* :abbr:`BSDF (Bidirectional Scattering Distribution Function)`
 that combines multiple layers into a single easy to use node.

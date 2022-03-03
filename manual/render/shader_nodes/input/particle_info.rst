@@ -8,8 +8,7 @@ Particle Info Node
 
 .. figure:: /images/render_shader-nodes_input_particle-info_node.png
    :align: right
-
-   Particle Info Node.
+   :alt: Particle Info Node.
 
 The *Particle Info* node can be used in the material node tree for objects that are used as the instancing objects,
 when you use *Object* or *Group* :doc:`Render mode </physics/particles/emitter/render>` of a particle system.

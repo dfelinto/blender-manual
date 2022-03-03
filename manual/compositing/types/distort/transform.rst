@@ -6,8 +6,7 @@ Transform Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeTransform.png
    :align: right
-
-   Transform Node.
+   :alt: Transform Node.
 
 This node combines the functionality of three other nodes: :doc:`Scale </compositing/types/distort/scale>`,
 :doc:`translate </compositing/types/distort/translate>`,

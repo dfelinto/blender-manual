@@ -6,8 +6,7 @@ Toon BSDF
 
 .. figure:: /images/render_shader-nodes_shader_toon_node.png
    :align: right
-
-   Toon BSDF.
+   :alt: Toon BSDF node.
 
 :guilabel:`Cycles Only`
 

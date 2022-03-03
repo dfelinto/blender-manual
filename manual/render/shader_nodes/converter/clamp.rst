@@ -10,8 +10,7 @@ Clamp Node
 
 .. figure:: /images/render_shader-nodes_converter_clamp_node.png
    :align: right
-
-   Clamp Node.
+   :alt: Clamp Node.
 
 The *Clamp* node clamps a value between a minimum and a maximum.
 

@@ -7,8 +7,7 @@ Reverse Curve Node
 
 .. figure:: /images/modeling_geometry-nodes_curve_curve-reverse_node.png
    :align: center
-
-   The Reverse Curve node.
+   :alt: Reverse Curve node.
 
 The *Reverse Curve* node swaps the start and end of splines.
 The shape of the splines is not changed.

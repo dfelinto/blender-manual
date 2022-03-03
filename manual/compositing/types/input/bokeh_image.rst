@@ -6,8 +6,7 @@ Bokeh Image Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeBokehImage.png
    :align: right
-
-   Bokeh Image Node.
+   :alt: Bokeh Image Node.
 
 The *Bokeh Image* node generates a special input image for use with
 the :doc:`Bokeh Blur </compositing/types/filter/bokeh_blur>` filter node.

@@ -7,8 +7,7 @@ Sample Curve Node
 
 .. figure:: /images/modeling_geometry-nodes_curve_sample-curve_node.png
    :align: right
-
-   Sample Curve node.
+   :alt: Sample Curve node.
 
 The *Sample Curve* calculates a point on a curve at a certain distance from the start of the curve,
 specified by the length or factor inputs. It also outputs data retrieved from that position on the curve.

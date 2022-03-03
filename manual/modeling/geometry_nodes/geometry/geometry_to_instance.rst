@@ -7,8 +7,7 @@ Geometry to Instance Node
 
 .. figure:: /images/modeling_geometry-nodes_geometry_geometry-to-instance_node.png
    :align: right
-
-   The Geometry to Instance node.
+   :alt: Geometry to Instance node.
 
 The *Geometry to Instance* node turns every connected input geometry into an instance.
 Visually, the node has a similar result as the :doc:`/modeling/geometry_nodes/geometry/join_geometry`,

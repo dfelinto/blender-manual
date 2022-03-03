@@ -6,8 +6,7 @@ Image Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeImage.png
    :align: right
-
-   Image Node.
+   :alt: Image Node.
 
 The *Image* node injects any image :doc:`format that is supported by Blender </files/media/image_formats>`.
 

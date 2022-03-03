@@ -7,8 +7,7 @@ Rotate Euler Node
 
 .. figure:: /images/modeling_geometry-nodes_utilities_rotate-euler_node.png
    :align: right
-
-   The Rotate Euler node.
+   :alt: Rotate Euler node.
 
 The *Rotate Euler* node rotates an Euler rotation.
 

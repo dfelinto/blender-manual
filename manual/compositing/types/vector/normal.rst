@@ -9,8 +9,7 @@ Normal Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeNormal.png
    :align: right
-
-   Normal Node.
+   :alt: Normal Node.
 
 The Normal node generates a normal vector and a dot product.
 

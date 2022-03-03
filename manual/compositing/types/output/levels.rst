@@ -6,8 +6,7 @@ Levels Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeLevels.png
    :align: right
-
-   Levels Node.
+   :alt: Levels Node.
 
 The Levels Node read the input color channels and outputs analytical values.
 The output is one-dimensional meaning the visualization will be a uniform gray color.

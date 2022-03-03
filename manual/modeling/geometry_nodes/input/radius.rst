@@ -7,8 +7,7 @@ Radius Node
 
 .. figure:: /images/modeling_geometry-nodes_input_radius_node.png
    :align: right
-
-   Radius node.
+   :alt: Radius node.
 
 The *Radius* node outputs the radius value at each point on the evaluated geometry.
 For curves, this value is used for things like determining the size of the mesh created in

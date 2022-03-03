@@ -7,8 +7,7 @@ Resample Curve Node
 
 .. figure:: /images/modeling_geometry-nodes_curve_resample-curve_node.png
    :align: center
-
-   The Resample Curve node.
+   :alt: Resample Curve node.
 
 The Resample Curve node creates a poly spline for each input spline.
 In the *Count* and *Length* modes, the control points of the new poly

@@ -6,8 +6,7 @@ ID Mask Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeIDMask.png
    :align: right
-
-   ID Mask Node.
+   :alt: ID Mask Node.
 
 The *ID Mask Node* can be used to access an alpha mask per object or per material.
 

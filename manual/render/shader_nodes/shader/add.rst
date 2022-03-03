@@ -6,8 +6,7 @@ Add Shader
 
 .. figure:: /images/render_shader-nodes_shader_add_node.png
    :align: right
-
-   Add Shader.
+   :alt: Add Shader node.
 
 The *Add* node is used to add two *Shaders* together.
 

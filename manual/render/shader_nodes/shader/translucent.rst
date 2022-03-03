@@ -6,8 +6,7 @@ Translucent BSDF
 
 .. figure:: /images/render_shader-nodes_shader_translucent_node.png
    :align: right
-
-   Translucent BSDF.
+   :alt: Translucent BSDF node.
 
 The *Translucent* :abbr:`BSDF (Bidirectional Scattering Distribution Function)`
 is used to add Lambertian diffuse transmission.

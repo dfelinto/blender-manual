@@ -6,8 +6,7 @@ Separate XYZ Node
 
 .. figure:: /images/modeling_geometry-nodes_vector_separate-xyz_node.png
    :align: right
-
-   Separate XYZ Node.
+   :alt: Separate XYZ Node.
 
 The *Separate XYZ Node* splits a vector into its individual components.
 

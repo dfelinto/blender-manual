@@ -6,8 +6,7 @@ Exposure Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeExposure.png
    :align: right
-
-   Exposure Node.
+   :alt: Exposure Node.
 
 The Exposure Node adjusts the perceived brightness of an image by a scalar value.
 This node allows you to make areas of an image brighter or dimmer.

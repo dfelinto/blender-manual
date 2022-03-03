@@ -5,8 +5,7 @@ Point Density Node
 
 .. figure:: /images/render_shader-nodes_textures_point-density_node.png
    :align: right
-
-   Point Density Node.
+   :alt: Point Density Node.
 
 The *Point Density* node is used to add volumetric points for each particle or vertex of another object.
 

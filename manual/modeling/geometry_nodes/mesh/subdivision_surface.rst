@@ -7,8 +7,7 @@ Subdivision Surface Node
 
 .. figure:: /images/modeling_geometry-nodes_mesh_subdivision-surface_node.png
    :align: right
-
-   The Subdivision Surface Node.
+   :alt: Subdivision Surface Node.
 
 The *Subdivision Surface* node adds new faces to mesh geometry using a Catmull-Clark subdivision method.
 

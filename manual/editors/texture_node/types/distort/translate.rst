@@ -5,8 +5,7 @@ Translate Node
 
 .. figure:: /images/editors_texture-node_types_distort_translate_node.png
    :align: right
-
-   Translate node.
+   :alt: Translate node.
 
 Translate the texture coordinates of an image or texture.
 

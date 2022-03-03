@@ -7,8 +7,7 @@ Raycast Node
 
 .. figure:: /images/modeling_geometry-nodes_geometry_raycast_node.png
    :align: center
-
-   Raycast node.
+   :alt: Raycast node.
 
 The *Raycast* node intersects rays from one geometry onto another. The source geometry is defined by
 the context of the node that the *Raycast* node is connected to.

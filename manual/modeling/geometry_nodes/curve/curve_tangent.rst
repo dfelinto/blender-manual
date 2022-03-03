@@ -7,8 +7,7 @@ Curve Tangent Node
 
 .. figure:: /images/modeling_geometry-nodes_curve_curve-tangent_node.png
    :align: right
-
-   Curve Tangent node.
+   :alt: Curve Tangent node.
 
 The *Curve Tangent* node outputs the direction that a curve points in at each control point,
 depending on the direction of the curve (which can be controlled with

@@ -6,8 +6,7 @@ Map UV Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeMapUV.png
    :align: right
-
-   Map UV node.
+   :alt: Map UV node.
 
 With this node objects can be "re-textured" after they have been rendered.
 

@@ -7,10 +7,9 @@ Normal Node
 
 .. figure:: /images/modeling_geometry-nodes_input_normal_node.png
    :align: right
+   :alt: Normal node.
 
-   Normal node.
-
-The *Normal* node returns a vector for each evaluated point indicating the 
+The *Normal* node returns a vector for each evaluated point indicating the
 :ref:`normal direction <modeling-meshes-structure-normals>`. The output can depend
 on the attribute domain used in the node evaluating the field, but the output
 is always a normalized `unit vector <https://en.wikipedia.org/wiki/Unit_vector>`__.

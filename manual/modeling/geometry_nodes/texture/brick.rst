@@ -10,7 +10,7 @@ Brick Texture Node
    referencing the shader version of the node.
    This node accepts field inputs and outputs.
    When not connected the Vector input has an implicit ``position`` attribute value.
-   
+
 .. tip::
 
    Texture nodes can produce details at a higher frequency
@@ -20,8 +20,7 @@ Brick Texture Node
 
 .. figure:: /images/render_shader-nodes_textures_brick_node.png
    :align: right
-
-   Brick Texture node.
+   :alt: Brick Texture node.
 
 The *Brick Texture* is used to add a procedural texture producing bricks.
 

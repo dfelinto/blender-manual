@@ -7,8 +7,7 @@ Curve to Mesh Node
 
 .. figure:: /images/modeling_geometry-nodes_curve_curve-to-mesh_node.png
    :align: center
-
-   The Curve to Mesh node.
+   :alt: The Curve to Mesh node.
 
 The Curve to Mesh node converts all splines of a curve to a mesh.
 Optionally, a profile curve can be provided to give the curve a custom shape.

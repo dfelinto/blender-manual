@@ -6,8 +6,7 @@ Keying Screen Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeKeyingScreen.png
    :align: right
-
-   Keying Screen node.
+   :alt: Keying Screen node.
 
 The Keying Screen node creates plates for use as a color reference for keying nodes.
 It generates gradients from sampled colors on motion tracking points on movie clips.

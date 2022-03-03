@@ -6,8 +6,7 @@ Attribute Node
 
 .. figure:: /images/render_shader-nodes_input_attribute_node.png
    :align: right
-
-   Attribute Node.
+   :alt: Attribute Node.
 
 The *Attribute* node allows you to retrieve attributes attached to an object or mesh.
 

@@ -6,8 +6,7 @@ Separate RGB Node
 
 .. figure:: /images/modeling_geometry-nodes_color_separate-rgb_node.png
    :align: right
-
-   Separate RGB Node.
+   :alt: Separate RGB Node.
 
 The *Separate RGB Node* splits an image into its composite color channels.
 

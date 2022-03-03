@@ -10,8 +10,7 @@ Invert Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeInvert.png
    :align: right
-
-   Invert Node.
+   :alt: Invert Node.
 
 The *Invert Node* inverts the colors in the input image, producing a negative.
 

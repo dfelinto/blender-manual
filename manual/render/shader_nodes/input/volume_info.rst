@@ -6,8 +6,7 @@ Volume Info Node
 
 .. figure:: /images/render_shader-nodes_input_volume-info_node.png
    :align: right
-
-   Volume Info Node.
+   :alt: Volume Info Node.
 
 The *Volume Info* node provides information about *Smoke Domains*.
 

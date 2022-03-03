@@ -11,8 +11,7 @@ Value Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeValue.png
    :align: right
-
-   Value Node.
+   :alt: Value Node.
 
 The *Value Node* is a simple node to input numerical values to other nodes in the tree.
 

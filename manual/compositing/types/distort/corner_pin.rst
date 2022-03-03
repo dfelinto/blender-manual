@@ -5,8 +5,7 @@ Corner Pin Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeCornerPin.png
    :align: right
-
-   Corner Pin Node.
+   :alt: Corner Pin Node.
 
 The Corner Pin node uses explicit corner values for a plane warp transformation.
 It works like the Plane Track Deform node,

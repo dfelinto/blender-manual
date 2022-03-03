@@ -6,8 +6,7 @@ Texture Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeTexture.png
    :align: right
-
-   Texture Node.
+   :alt: Texture Node.
 
 The Texture node makes 3D textures available to the Compositor.
 

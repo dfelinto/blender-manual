@@ -7,15 +7,14 @@ Flip Faces Node
 
 .. figure:: /images/modeling_geometry-nodes_flip-faces_node.png
    :align: right
-
-   The Flip Faces node.
+   :alt: Flip Faces node.
 
 The *Flip Faces Node* reverses the order of the vertices and edges of each selected face.
 The most common use of this node is to flip the normals of a face.
 Any :ref:`face corner domain <attribute-domains>` attributes of selected faces are also reversed.
 
 Though this node is usually used to affect normals, it is not called "Flip Normals" for an important reason.
-The node does not actually interact with normals directly. Normals are defined by the 
+The node does not actually interact with normals directly. Normals are defined by the
 `right hande rule <https://en.wikipedia.org/wiki/Right-hand_rule#Curve_orientation_and_normal_vectors>`__,
 so if a face's vertex list is reversed, then its normal will point in the opposite direction.
 

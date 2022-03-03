@@ -6,8 +6,7 @@ Movie Distortion Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeMovieDistortion.png
    :align: right
-
-   Movie Distortion Node.
+   :alt: Movie Distortion Node.
 
 In the real world, all camera lenses produce some or the other sort of lens distortion.
 But, whatever we render has got no distortion. So, this node helps in removing distortion from movies

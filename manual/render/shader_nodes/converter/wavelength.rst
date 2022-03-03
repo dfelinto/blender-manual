@@ -6,8 +6,7 @@ Wavelength Node
 
 .. figure:: /images/render_shader-nodes_converter_wavelength_node.png
    :align: right
-
-   Wavelength Node.
+   :alt: Wavelength Node.
 
 The *Wavelength* node converts a wavelength value to an RGB value.
 This can be used to achieve a specific color on the light spectrum.

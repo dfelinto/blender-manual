@@ -8,8 +8,7 @@ Replace Material Node
 .. figure:: /images/modeling_geometry-nodes_material_replace_node.png
    :align: right
    :width: 300px
-
-   The Replace Material Node.
+   :alt: Replace Material Node.
 
 The *Replace Material* node swaps one material with another.
 Replacing a material with this node is more efficient than creating a selection of all faces

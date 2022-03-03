@@ -6,8 +6,7 @@ Refraction BSDF
 
 .. figure:: /images/render_shader-nodes_shader_refraction_node.png
    :align: right
-
-   Refraction BSDF.
+   :alt: Refraction BSDF node.
 
 The *Refraction* :abbr:`BSDF (Bidirectional Scattering Distribution Function)`
 is used to add glossy refraction with sharp or microfacet distribution,

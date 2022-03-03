@@ -6,8 +6,7 @@ Posterize
 
 .. figure:: /images/compositing_node-types_CompositorNodePosterize.png
    :align: right
-
-   Posterize Node.
+   :alt: Posterize Node.
 
 The *Posterize Node* reduces the number of colors that compose the image
 by converting portions of continuous gradation into abrupt changes from one color to another.

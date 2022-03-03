@@ -7,8 +7,7 @@ Set Position Node
 
 .. figure:: /images/modeling_geometry-nodes_geometry_set-position_node.png
    :align: right
-
-   Set Position node.
+   :alt: Set Position node.
 
 The *Set Position* node controls the location of each point, the same way as controlling
 the ``position`` attribute.

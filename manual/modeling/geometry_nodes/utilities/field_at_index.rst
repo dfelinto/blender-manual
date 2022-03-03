@@ -7,8 +7,7 @@ Field at Index Node
 
 .. figure:: /images/modeling_geometry-nodes_field-at-index_node.png
    :align: right
-
-   Field at Index Node.
+   :alt: Field at Index Node.
 
 The *Field at Index* node allows accessing data of other elements in the context geometry.
 It is similar to the :doc:`/modeling/geometry_nodes/attribute/transfer_attribute` in *Index*
@@ -32,7 +31,7 @@ Properties
 
 Domain
    The :ref:`attribute domain <attribute-domains>` used for accumulation
-   and for evaluation of the *Value* input. If the 
+   and for evaluation of the *Value* input. If the
 
 
 Output

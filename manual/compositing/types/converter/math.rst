@@ -12,8 +12,7 @@ Math Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeMath.png
    :align: right
-
-   Math node.
+   :alt: Math node.
 
 The *Math Node* performs math operations.
 

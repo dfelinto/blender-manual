@@ -6,8 +6,7 @@ Ellipse Mask Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeEllipseMask.png
    :align: right
-
-   Ellipse Mask Node.
+   :alt: Ellipse Mask Node.
 
 The *Ellipse Mask* node creates an image suitable for use as a simple matte or vignette mask.
 

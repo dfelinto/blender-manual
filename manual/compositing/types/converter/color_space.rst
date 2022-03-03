@@ -6,8 +6,7 @@ Color Space Node
 
 .. figure:: /images/compositing_node-CompositorNodeConvertColorSpace.png
    :align: right
-
-   Color Space Node.
+   :alt: Color Space Node.
 
 The *Color Space Node* converts images from one :term:`color spaces <Color Space>`.
 

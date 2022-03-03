@@ -7,8 +7,7 @@ Slice String Node
 
 .. figure:: /images/modeling_geometry-nodes_text_slice-string_node.png
    :align: center
-
-   The Slice String node.
+   :alt: Slice String node.
 
 The *Slice String* node extracts a string segment from a larger string.
 

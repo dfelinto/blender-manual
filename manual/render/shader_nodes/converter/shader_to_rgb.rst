@@ -5,8 +5,7 @@ Shader To RGB
 
 .. figure:: /images/render_shader-nodes_converter_shader-to-rgb_node.png
    :align: right
-
-   Shader to RGB.
+   :alt: Shader to RGB.
 
 :guilabel:`Eevee Only`
 

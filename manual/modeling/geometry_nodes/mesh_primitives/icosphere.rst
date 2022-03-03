@@ -7,8 +7,7 @@ Icosphere Node
 
 .. figure:: /images/modeling_geometry-nodes_mesh-primitives_icosphere_node.png
    :align: right
-
-   Icosphere Node.
+   :alt: Icosphere Node.
 
 The *Icosphere* node generates a spherical mesh that consists of equally sized triangles.
 

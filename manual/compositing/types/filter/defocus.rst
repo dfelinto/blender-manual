@@ -7,8 +7,7 @@ Defocus Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeDefocus.png
    :align: right
-
-   Defocus Node.
+   :alt: Defocus Node.
 
 The *Defocus Node* blurs areas of an image based on a map/mask input.
 

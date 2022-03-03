@@ -6,8 +6,7 @@ Bump Node
 
 .. figure:: /images/render_shader-nodes_vector_bump_node.png
    :align: right
-
-   Bump Node.
+   :alt: Bump Node.
 
 The *Bump* node generates a perturbed normal from a height texture, for bump mapping.
 The height value will be sampled at the shading point and two nearby points

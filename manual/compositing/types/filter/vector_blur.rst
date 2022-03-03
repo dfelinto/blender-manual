@@ -6,8 +6,7 @@ Vector (Motion) Blur Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeVecBlur.png
    :align: right
-
-   Vector Blur Node.
+   :alt: Vector Blur Node.
 
 The Vector Blur node is a fast method for simulating :term:`Motion Blur` in compositing.
 It uses the vector speed render pass to blur the image pixels in 2D.

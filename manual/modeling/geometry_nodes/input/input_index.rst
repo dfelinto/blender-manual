@@ -7,16 +7,15 @@ Index Node
 
 .. figure:: /images/modeling_geometry-nodes_input_index_node.png
    :align: right
-
-   Index node.
+   :alt: Index node.
 
 The *Index* node gives an integer value indicating the position of each element in the list,
 starting at zero. This depends on the internal order of the data in the geometry, which is not
-necessarily visible in the 3D Viewport. However, the index value is visible in the left-most column 
+necessarily visible in the 3D Viewport. However, the index value is visible in the left-most column
 in the :doc:`Spreadsheet Editor </editors/spreadsheet>`.
 
 .. note::
-   
+
    Indices in geometry data are often defined by the internals of complex algorithms that creat it.
    If no inputs change, indices will be the same when the same node tree is executed multiple times.
    However, they may not be predictable when inputs to nodes that generate geometry or change its

@@ -7,8 +7,7 @@ ID Node
 
 .. figure:: /images/modeling_geometry-nodes_input_input-id_node.png
    :align: right
-
-   ID node.
+   :alt: ID node.
 
 The *ID* node gives an integer value indicating the stable random identifier of each element on the point domain,
 which is stored in the ``id`` attribute.

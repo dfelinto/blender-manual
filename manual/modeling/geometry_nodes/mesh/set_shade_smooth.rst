@@ -7,8 +7,7 @@ Set Shade Smooth Node
 
 .. figure:: /images/modeling_geometry-nodes_mesh_set-shade-smooth_node.png
    :align: right
-
-   The Set Shade Smooth node.
+   :alt: Set Shade Smooth node.
 
 The *Set Shade Smooth* node controls whether the mesh's faces look smooth in the viewport and renders.
 The input node for this data is the :doc:`Is Shade Smooth </modeling/geometry_nodes/mesh/is_shade_smooth>` node.

@@ -8,8 +8,7 @@ Time Curve Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeTimeCurve.png
    :align: right
-
-   Time Curve Node.
+   :alt: Time Curve Node.
 
 The *Time Curve node* generates a factor value (from 0.0 to 1.0)
 that changes according to the curve as time progresses through the *Timeline*.

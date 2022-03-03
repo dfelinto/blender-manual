@@ -13,8 +13,7 @@ Magic Texture Node
 
 .. figure:: /images/render_shader-nodes_textures_magic_node.png
    :align: right
-
-   Magic Texture Node.
+   :alt: Magic Texture Node.
 
 The *Magic Texture* node is used to add a psychedelic color texture.
 

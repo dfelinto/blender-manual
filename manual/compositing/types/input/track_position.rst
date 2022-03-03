@@ -6,8 +6,7 @@ Track Position Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeTrackPos.png
    :align: right
-
-   Track Position Node.
+   :alt: Track Position Node.
 
 The *Track Position node* is used to return information about a tracking marker to the Compositor.
 

@@ -6,8 +6,7 @@ Tangent Node
 
 .. figure:: /images/render_shader-nodes_input_tangent_node.png
    :align: right
-
-   Tangent Node.
+   :alt: Tangent Node.
 
 The *Tangent* node generates a tangent direction for the Anisotropic BSDF.
 

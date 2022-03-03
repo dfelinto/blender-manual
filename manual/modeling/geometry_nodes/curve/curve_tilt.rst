@@ -7,8 +7,7 @@ Curve Tilt Node
 
 .. figure:: /images/modeling_geometry-nodes_curve_curve-tilt_node.png
    :align: right
-
-   Curve Tilt node.
+   :alt: Curve Tilt node.
 
 The *Curve Tilt* node outputs the angle used to turn the curve normal
 around the direction of the curve tangent in its evaluated points.

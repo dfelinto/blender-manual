@@ -8,8 +8,7 @@ Point Info
 
 .. figure:: /images/render_shader-nodes_input_point-info_node.png
    :align: right
-
-   Point Info Node.
+   :alt: Point Info Node.
 
 The *Point Info* node can be used in the material node tree for point cloud objects
 and gives access to the data of individual points.

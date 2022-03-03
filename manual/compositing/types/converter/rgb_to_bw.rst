@@ -9,8 +9,7 @@ RGB to BW Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeRGBToBW.png
    :align: right
-
-   RGB to BW Node.
+   :alt: RGB to BW Node.
 
 The *RGB to BW Node* maps an RGB color image to a gray-scale by the luminance.
 

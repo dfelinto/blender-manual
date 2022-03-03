@@ -7,8 +7,7 @@ Delete Geometry Node
 
 .. figure:: /images/modeling_geometry-nodes_geometry_delete-geometry_node.png
    :align: center
-
-   The Delete Geometry node.
+   :alt: Delete Geometry node.
 
 The *Delete Geometry* node removes the selected part of a geometry.
 It behaves similarly to the :ref:`Delete <bpy.ops.mesh.delete>` tool in Edit Mode.

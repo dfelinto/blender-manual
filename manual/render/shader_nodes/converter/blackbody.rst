@@ -6,8 +6,7 @@ Blackbody Node
 
 .. figure:: /images/render_shader-nodes_converter_blackbody_node.png
    :align: right
-
-   Blackbody Node.
+   :alt: Blackbody Node.
 
 The *Blackbody* node converts a blackbody temperature to RGB value.
 This can be useful for materials that emit light at natural occurring frequencies.

@@ -6,8 +6,7 @@ Light Node
 
 .. figure:: /images/render_shader-nodes_output_light_node.png
    :align: right
-
-   Light Node.
+   :alt: Light Node.
 
 The *Light Output* node is used to output light information to a light object.
 

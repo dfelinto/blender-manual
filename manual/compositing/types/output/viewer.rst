@@ -6,8 +6,7 @@ Viewer Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeViewer.png
    :align: right
-
-   Viewer Node.
+   :alt: Viewer Node.
 
 The *Viewer* node is a temporary, in-process viewer.
 It can be plug in anywhere to inspect an image or value map in your node tree.

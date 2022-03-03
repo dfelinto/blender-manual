@@ -7,8 +7,7 @@ Vertex Neighbors Node
 
 .. figure:: /images/modeling_geometry-nodes_input_is-vertex-neighbors_node.png
    :align: right
-
-   Vertex Neighbors Node.
+   :alt: Vertex Neighbors Node.
 
 The *Vertex Neighbors* node outputs topology information relating to each vertex of a mesh.
 

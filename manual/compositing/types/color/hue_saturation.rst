@@ -10,8 +10,7 @@ Hue Saturation Value Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeHueSat.png
    :align: right
-
-   Hue Saturation Node.
+   :alt: Hue Saturation Node.
 
 The *Hue Saturation Value Node* applies a color transformation in the HSV color space.
 

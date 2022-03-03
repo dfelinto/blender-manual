@@ -6,8 +6,7 @@ Rotate Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeRotate.png
    :align: right
-
-   Rotate Node.
+   :alt: Rotate Node.
 
 This node rotates an image.
 

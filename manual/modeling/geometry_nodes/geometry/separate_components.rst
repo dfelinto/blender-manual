@@ -7,8 +7,7 @@ Separate Components Node
 
 .. figure:: /images/modeling_geometry-nodes_geometry_separate-components_node.png
    :align: center
-
-   The Separate Components node.
+   :alt: Separate Components node.
 
 The *Separate Components* node splits a geometry into a separate output
 for each type of data in the geometry.

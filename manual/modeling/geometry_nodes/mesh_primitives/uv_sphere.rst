@@ -7,8 +7,7 @@ UV Sphere Node
 
 .. figure:: /images/modeling_geometry-nodes_mesh-primitives_uv-sphere_node.png
    :align: right
-
-   UV Sphere Node.
+   :alt: UV Sphere Node.
 
 The *UV Sphere* node generates a spherical mesh mostly out of quads except for triangles at the top and bottom.
 

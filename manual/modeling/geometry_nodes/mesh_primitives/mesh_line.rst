@@ -7,8 +7,7 @@ Mesh Line Node
 
 .. figure:: /images/modeling_geometry-nodes_mesh-primitives_line_node.png
    :align: right
-
-   Mesh Line Node.
+   :alt: Mesh Line Node.
 
 The *Mesh Line* node generates vertices in a line and connects them with edges.
 

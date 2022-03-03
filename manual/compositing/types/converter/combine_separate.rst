@@ -31,13 +31,11 @@ Separate/Combine RGBA Nodes
 
 .. figure:: /images/compositing_node-types_CompositorNodeCombRGBA.png
    :align: right
-
-   Combine RGBA Node.
+   :alt: Combine RGBA Node.
 
 .. figure:: /images/compositing_node-types_CompositorNodeSepRGBA.png
    :align: right
-
-   Separate RGBA Node.
+   :alt: Separate RGBA Node.
 
 
 Input/Output
@@ -81,14 +79,12 @@ Separate/Combine XYZ Nodes
 .. figure:: /images/modeling_geometry-nodes_vector_combine-xyz_node.png
    :width: 190px
    :align: right
-
-   Combine XYZ Node.
+   :alt: Combine XYZ Node.
 
 .. figure:: /images/modeling_geometry-nodes_vector_separate-xyz_node.png
    :width: 190px
    :align: right
-
-   Separate XYZ Node.
+   :alt: Separate XYZ Node.
 
 
 Input/Output
@@ -113,13 +109,11 @@ Separate/Combine HSVA Nodes
 
 .. figure:: /images/compositing_node-types_CompositorNodeCombHSVA.png
    :align: right
-
-   Combine HSVA Node.
+   :alt: Combine HSVA Node.
 
 .. figure:: /images/compositing_node-types_CompositorNodeSepHSVA.png
    :align: right
-
-   Separate HSVA Node.
+   :alt: Separate HSVA Node.
 
 
 Input/Output
@@ -145,13 +139,11 @@ Separate/Combine YUVA Nodes
 
 .. figure:: /images/compositing_node-types_CompositorNodeCombYUVA.png
    :align: right
-
-   Combine YUVA Node.
+   :alt: Combine YUVA Node.
 
 .. figure:: /images/compositing_node-types_CompositorNodeSepYUVA.png
    :align: right
-
-   Separate YUVA Node.
+   :alt: Separate YUVA Node.
 
 
 Input/Output
@@ -177,13 +169,11 @@ Separate/Combine YCbCrA Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeCombYCCA.png
    :align: right
-
-   Combine YCbCrA Node.
+   :alt: Combine YCbCrA Node.
 
 .. figure:: /images/compositing_node-types_CompositorNodeSepYCCA.png
    :align: right
-
-   Separate YCbCrA Node.
+   :alt: Separate YCbCrA Node.
 
 
 Input/Output

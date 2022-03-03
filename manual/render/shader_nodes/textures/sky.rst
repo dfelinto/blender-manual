@@ -6,8 +6,7 @@ Sky Texture Node
 
 .. figure:: /images/render_shader-nodes_textures_sky_node.png
    :align: right
-
-   Sky Texture Node.
+   :alt: Sky Texture Node.
 
 The *Sky Texture* node adds a procedural Sky texture.
 

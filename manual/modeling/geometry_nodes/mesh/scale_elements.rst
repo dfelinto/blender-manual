@@ -7,8 +7,7 @@ Scale Elements Node
 
 .. figure:: /images/modeling_geometry-nodes_scale-elements_node.png
    :align: right
-
-   The Scale Elements node.
+   :alt: Scale Elements node.
 
 The *Scale Elements Node* scales groups of connected edges and faces.
 When multiple selected faces/edges share the same vertices, they are scaled together.

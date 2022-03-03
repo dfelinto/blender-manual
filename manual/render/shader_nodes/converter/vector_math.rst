@@ -10,8 +10,7 @@ Vector Math Node
 
 .. figure:: /images/render_shader-nodes_converter_vector-math_node.png
    :align: right
-
-   Vector Math Node.
+   :alt: Vector Math Node.
 
 The *Vector Math* node performs the selected math operation on the input vectors.
 
@@ -48,7 +47,7 @@ Operation
       The entrywise combination of the multiply and addition operations.
       :math:`A * B + C`
    :Cross Product: The cross product of A and B.
-      :math:`\begin{pmatrix} A_y \cdot B_z - A_z \cdot B_y \\ A_z \cdot B_x - A_x \cdot B_z 
+      :math:`\begin{pmatrix} A_y \cdot B_z - A_z \cdot B_y \\ A_z \cdot B_x - A_x \cdot B_z
       \\ A_x \cdot B_y - A_y \cdot B_x \end{pmatrix}`
    :Project: The projection of A onto B.
    :Reflect: The reflection of A around the normal B. B need not be normalized.

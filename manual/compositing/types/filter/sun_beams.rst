@@ -6,8 +6,7 @@ Sun Beams Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeSunBeams.png
    :align: right
-
-   Sun Beams Node.
+   :alt: Sun Beams Node.
 
 The Sun Beams node provides a computationally cheap way of
 creating the name giving effect based on the image brightness alone.

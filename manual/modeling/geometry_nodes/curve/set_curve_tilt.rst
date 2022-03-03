@@ -7,8 +7,7 @@ Set Curve Tilt Node
 
 .. figure:: /images/modeling_geometry-nodes_curve_set-curve-tilt_node.png
    :align: right
-
-   Set Curve Tilt node.
+   :alt: Set Curve Tilt node.
 
 The *Set Curve Tilt* controls the tilt angle at each curve control point.
 That angle rotates normal vector which is generated at each point

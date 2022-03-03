@@ -7,8 +7,7 @@ Boolean Node
 
 .. figure:: /images/modeling_geometry-nodes_input_boolean_node.png
    :align: right
-
-   Boolean node.
+   :alt: Boolean node.
 
 The *Boolean* node provides a Boolean value.
 

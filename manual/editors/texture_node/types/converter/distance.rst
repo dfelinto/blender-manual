@@ -5,8 +5,7 @@ Distance Node
 
 .. figure:: /images/editors_texture-node_types_converter_distance_node.png
    :align: right
-
-   Distance node.
+   :alt: Distance node.
 
 Computes the distance between two 3D coordinates.
 

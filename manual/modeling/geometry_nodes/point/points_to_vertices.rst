@@ -7,8 +7,7 @@ Points to Vertices Node
 
 .. figure:: /images/modeling_geometry-nodes_point_points-to-vertices_node.png
    :align: center
-
-   The Points to Vertices node.
+   :alt: Points to Vertices node.
 
 The *Points to Vertices* node generate a mesh vertex in the output geometry for
 each point cloud point in the input geometry.

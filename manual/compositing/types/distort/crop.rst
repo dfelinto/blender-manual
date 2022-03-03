@@ -6,8 +6,7 @@ Crop Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeCrop.png
    :align: right
-
-   Crop Node.
+   :alt: Crop Node.
 
 The Crop node crops an input image to a selected region
 by either making the cropped area transparent or by resizing the input image.
@@ -50,7 +49,7 @@ Crop Region Values
 
    Secondly, depending on which one is bigger, *Left* should be interpreted as *Right* and vice versa.
    If *Left* is greater than *Right* then both values are switched and *Left* gets the value of *Right*
-   and vice versa. The same operation is done for *Up* and *Down*, where you can think of them as the top 
+   and vice versa. The same operation is done for *Up* and *Down*, where you can think of them as the top
    and bottom of the image.
 
    Thirdly, the terms *Up* and *Down* are ambiguous and suggest an action; e.g. "Crop down".

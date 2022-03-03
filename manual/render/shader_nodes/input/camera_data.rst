@@ -6,8 +6,7 @@ Camera Data Node
 
 .. figure:: /images/render_shader-nodes_input_camera-data_node.png
    :align: right
-
-   Camera Data Node.
+   :alt: Camera Data Node.
 
 The *Camera Data* node is used to get information about the position of
 the object relative to the camera. This could be used for example to change

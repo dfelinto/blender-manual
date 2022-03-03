@@ -7,8 +7,7 @@ Vector Node
 
 .. figure:: /images/modeling_geometry-nodes_input_vector_node.png
    :align: right
-
-   Vector Node.
+   :alt: Vector Node.
 
 The *Vector* input node creates a single vector.
 

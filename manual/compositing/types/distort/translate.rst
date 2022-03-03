@@ -6,8 +6,7 @@ Translate Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeTranslate.png
    :align: right
-
-   Translate Node.
+   :alt: Translate Node.
 
 The Translate node moves an image.
 

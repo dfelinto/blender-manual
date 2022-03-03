@@ -6,8 +6,7 @@ Emission
 
 .. figure:: /images/render_shader-nodes_shader_emission_node.png
    :align: right
-
-   Emission Shader.
+   :alt: Emission Shader node.
 
 The *Emission* node is used to add Lambertian emission shader.
 This can for example, be used for material and light surface outputs.

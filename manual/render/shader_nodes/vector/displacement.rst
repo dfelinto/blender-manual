@@ -6,8 +6,7 @@ Displacement Node
 
 .. figure:: /images/render_shader-nodes_vector_displacement_node.png
    :align: right
-
-   Displacement Node.
+   :alt: Displacement Node.
 
 The *Displacement* node is used to displace the surface along the surface normal,
 to add more detail to the geometry. Both procedural textures and baked displacement maps

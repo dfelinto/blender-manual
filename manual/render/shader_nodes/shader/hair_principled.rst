@@ -5,10 +5,8 @@ Principled Hair BSDF
 ********************
 
 .. figure:: /images/render_shader-nodes_shader_hair-principled_node-melaninconcentration.png
-   :figwidth: 30 %
    :align: right
-
-   Principled Hair BSDF under Melanin concentration.
+   :alt: Principled Hair BSDF node under Melanin concentration.
 
 :guilabel:`Cycles Only`
 

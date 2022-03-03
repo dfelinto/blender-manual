@@ -7,8 +7,7 @@ Object Info Node
 
 .. figure:: /images/modeling_geometry-nodes_input_object-info_node.png
    :align: right
-
-   Object Info node.
+   :alt: Object Info node.
 
 The *Object Info* node gets information from objects.
 This can be useful to control parameters in the geometry node tree with an external object,

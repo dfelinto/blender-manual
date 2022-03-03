@@ -7,8 +7,7 @@ Cube Node
 
 .. figure:: /images/modeling_geometry-nodes_mesh-primitives_cube_node.png
    :align: right
-
-   Cube Node.
+   :alt: Cube Node.
 
 The *Cube* node generates a cuboid mesh with variable side lengths and subdivisions.
 The inside of the mesh is still hollow like a normal cube.

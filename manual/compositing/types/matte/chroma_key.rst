@@ -6,8 +6,7 @@ Chroma Key Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeChromaMatte.png
    :align: right
-
-   Chroma Key Node.
+   :alt: Chroma Key Node.
 
 The *Chroma Key* node determines if a pixel is a foreground or background
 (and thereby should be transparent) based on its chroma values.

@@ -6,8 +6,7 @@ Denoise Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeDenoise.png
    :align: right
-
-   Denoise Node.
+   :alt: Denoise Node.
 
 The Denoise node is used to denoise renders from :doc:`Cycles </render/cycles/index>`
 and other ray tracing renderers. This helps to significantly reduce render time by

@@ -7,8 +7,7 @@ Set Handle Type Node
 
 .. figure:: /images/modeling_geometry-nodes_curve_set-handles_node.png
    :align: right
-
-   The Set Handle Type node.
+   :alt: Set Handle Type node.
 
 Sets the handle type for the points on the Bézier curve that are in the selection.
 

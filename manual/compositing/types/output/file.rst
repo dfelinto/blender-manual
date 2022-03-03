@@ -7,8 +7,7 @@ File Output Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeOutputFile.png
    :align: right
-
-   File Output Node.
+   :alt: File Output Node.
 
 This node writes out an image, for each frame range specified,
 to the filename entered, as part of a frameset sequence.

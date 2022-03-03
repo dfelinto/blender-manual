@@ -8,8 +8,7 @@ Color Ramp Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeValToRGB.png
    :align: right
-
-   Color Ramp Node.
+   :alt: Color Ramp Node.
 
 The Color Ramp Node is used for mapping values to colors with the use of a gradient.
 

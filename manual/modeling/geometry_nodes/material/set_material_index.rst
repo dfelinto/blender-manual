@@ -7,8 +7,7 @@ Set Material Index Node
 
 .. figure:: /images/modeling_geometry-nodes_material_set-material-index_node.png
    :align: right
-
-   Set Material Index node.
+   :alt: Set Material Index node.
 
 The *Set Material Index* node sets the material index for a geometry.
 

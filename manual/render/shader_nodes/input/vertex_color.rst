@@ -6,8 +6,7 @@ Vertex Color Node
 
 .. figure:: /images/render_shader-nodes_input_vertex-color_node.png
    :align: right
-
-   Vertex Color node.
+   :alt: Vertex Color node.
 
 The *Vertex Color* node provides vertex colors as well as their alpha value.
 

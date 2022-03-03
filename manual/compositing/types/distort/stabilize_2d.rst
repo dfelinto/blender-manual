@@ -6,8 +6,7 @@ Stabilize 2D Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeStabilize.png
    :align: right
-
-   Stabilize 2D Node.
+   :alt: Stabilize 2D Node.
 
 Stabilizes the footage according to the settings set in
 :menuselection:`Movie Clip Editor --> Properties --> Stabilization --> 2D Stabilization`.

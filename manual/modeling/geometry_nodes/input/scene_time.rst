@@ -9,10 +9,9 @@ Scene Time Node
 
 .. figure:: /images/modeling_geometry-nodes_input_scene_time_node.png
    :align: right
+   :alt: Scene Time node.
 
-   Scene Time node.
-
-The *Scene Time* node outputs the current time in the scene's animation in units of seconds or frames. 
+The *Scene Time* node outputs the current time in the scene's animation in units of seconds or frames.
 
 
 Inputs

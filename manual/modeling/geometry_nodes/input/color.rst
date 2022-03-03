@@ -7,8 +7,7 @@ Color Node
 
 .. figure:: /images/modeling_geometry-nodes_input_color_node.png
    :align: right
-
-   Color node.
+   :alt: Color node.
 
 The *Color* node outputs the color value chosen with the color picker widget.
 

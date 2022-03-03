@@ -6,8 +6,7 @@ Pixelate Node
 
 .. figure:: /images/compositing_node-types_CompositorNodePixelate.png
    :align: right
-
-   Pixelate Node.
+   :alt: Pixelate Node.
 
 Add this node in front of a :doc:`Scale node </compositing/types/distort/scale>`
 to get a pixelated (non-smoothed) image from the resultant upscaled image.

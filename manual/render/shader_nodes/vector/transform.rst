@@ -6,8 +6,7 @@ Vector Transform Node
 
 .. figure:: /images/render_shader-nodes_vector_transform_node.png
    :align: right
-
-   Vector Transform node.
+   :alt: Vector Transform node.
 
 The *Vector Transform* node allows converting a vector, point, or normal between
 world and camera and object coordinate space.

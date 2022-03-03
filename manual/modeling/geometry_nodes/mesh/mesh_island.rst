@@ -7,8 +7,7 @@ Mesh Island Node
 
 .. figure:: /images/modeling_geometry-nodes_input_mesh-island_node.png
    :align: right
-
-   Mesh Island Node.
+   :alt: Mesh Island Node.
 
 The *Mesh Island* node outputs information about separate connected regions, or "islands" of a mesh.
 Whenever two vertices are connected together by an edge, they are considered as part of the same island,
@@ -35,7 +34,7 @@ Outputs
 =======
 
 Island Index
-   The index of the each vertex's island. Indices are decided based on the 
+   The index of the each vertex's island. Indices are decided based on the
    lowest vertex index contained in each island
 
 Island Count

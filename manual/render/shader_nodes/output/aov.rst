@@ -5,8 +5,7 @@ AOV Output Node
 
 .. figure:: /images/render_shader-nodes_output_aov_node.png
    :align: right
-
-   AOV Output Node.
+   :alt: AOV Output Node.
 
 Shader AOVs (Arbitrary Output Variables) provide custom render passes for arbitrary shader node components.
 As an artist this can be a good way to debug or tweak very fine details of a scene in post-processing.

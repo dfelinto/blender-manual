@@ -7,8 +7,7 @@ Viewer Node
 
 .. figure:: /images/modeling_geometry-nodes_output_viewer_node.png
    :align: center
-
-   The Viewer node.
+   :alt: The Viewer node.
 
 Using a *Viewer* node a geometry, and optionally a field evaluated it,
 can be displayed in the :doc:`Spreadsheet Editor </editors/spreadsheet>`.

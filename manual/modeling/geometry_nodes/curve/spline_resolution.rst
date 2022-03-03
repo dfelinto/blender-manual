@@ -7,8 +7,7 @@ Spline Resolution Node
 
 .. figure:: /images/modeling_geometry-nodes_curve_spline-resolution_node.png
    :align: right
-
-   Spline Resolution node.
+   :alt: Spline Resolution node.
 
 The *Spline Resolution* outputs the number of evaluated curve points that will be generated for
 every control point on the spline. This node works for NURBS and Bézier splines, for poly splines, there

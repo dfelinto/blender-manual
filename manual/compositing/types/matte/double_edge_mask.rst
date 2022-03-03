@@ -6,8 +6,7 @@ Double Edge Mask Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeDoubleEdgeMask.png
    :align: right
-
-   Double Edge Mask Node.
+   :alt: Double Edge Mask Node.
 
 The *Double Edge Mask* node creates a gradient between two masks.
 

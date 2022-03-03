@@ -6,8 +6,7 @@ Luminance Key Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeLuminanceKey.png
    :align: right
-
-   Luminance Key Node.
+   :alt: Luminance Key Node.
 
 The *Luminance Key* node determines background objects from foreground objects by
 the difference in the luminance (brightness) levels.

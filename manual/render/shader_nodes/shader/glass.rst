@@ -6,8 +6,7 @@ Glass BSDF
 
 .. figure:: /images/render_shader-nodes_shader_glass_node.png
    :align: right
-
-   Glass BSDF.
+   :alt: Glass BSDF node.
 
 The *Glass* :abbr:`BSDF (Bidirectional Scattering Distribution Function)`
 is used to add a Glass-like shader mixing refraction and reflection at grazing angles.

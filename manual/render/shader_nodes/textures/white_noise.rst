@@ -10,8 +10,7 @@ The output number ranges between zero and one.
 
 .. figure:: /images/render_shader-nodes_textures_white-noise_node.png
    :align: right
-
-   White Noise Texture Node.
+   :alt: White Noise Texture Node.
 
 
 Inputs

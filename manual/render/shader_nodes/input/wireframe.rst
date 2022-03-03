@@ -6,8 +6,7 @@ Wireframe Node
 
 .. figure:: /images/render_shader-nodes_input_wireframe_node.png
    :align: right
-
-   Wireframe Node.
+   :alt: Wireframe Node.
 
 The Wireframe node is used to retrieve the edges of an object as it appears to Cycles.
 As meshes are triangulated before being processed by Cycles,

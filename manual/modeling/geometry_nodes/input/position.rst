@@ -7,8 +7,7 @@ Position Node
 
 .. figure:: /images/modeling_geometry-nodes_input_position_node.png
    :align: right
-
-   Position node.
+   :alt: Position node.
 
 The *Position* node outputs a vector of each point of the geometry the node is connected to.
 

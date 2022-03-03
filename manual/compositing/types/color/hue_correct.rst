@@ -8,8 +8,7 @@ The *Hue Correct Node* is able to adjust the Hue, Saturation, and Value of an im
 with an input curve.
 
 .. figure:: /images/compositing_node-types_CompositorNodeHueCorrect.png
-
-   Hue Correct Node.
+   :alt: Hue Correct Node.
 
 
 Inputs

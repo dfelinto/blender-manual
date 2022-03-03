@@ -5,8 +5,7 @@ Value to Normal Node
 
 .. figure:: /images/editors_texture-node_types_converter_value-to-normal_node.png
    :align: right
-
-   Value to Normal node.
+   :alt: Value to Normal node.
 
 Computes a normal map.
 

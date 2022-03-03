@@ -8,8 +8,7 @@ Light Falloff Node
 
 .. figure:: /images/render_shader-nodes_color_light-falloff_node.png
    :align: right
-
-   Light Falloff Node.
+   :alt: Light Falloff Node.
 
 The *Light Falloff* node allows you to manipulate how light intensity decreases over distance.
 In reality light will always fall off quadratically; however,

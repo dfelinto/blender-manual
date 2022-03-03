@@ -6,8 +6,7 @@ Output Node
 
 .. figure:: /images/editors_texture-node_types_output_output_node.png
    :align: right
-
-   Output node.
+   :alt: Output node.
 
 This node contains the result of the node texture.
 

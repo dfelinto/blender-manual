@@ -7,8 +7,7 @@ Replace String Node
 
 .. figure:: /images/modeling_geometry-nodes_text_replace-string_node.png
    :align: right
-
-   The Replace String node.
+   :alt: Replace String node.
 
 The *Replace String* node replaces a string segment with another.
 

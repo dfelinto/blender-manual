@@ -7,8 +7,7 @@ Material Selection Node
 
 .. figure:: /images/modeling_geometry-nodes_material_material-selection_node.png
    :align: right
-
-   Material Selection node.
+   :alt: Material Selection node.
 
 The *Material Selection* node provides a selection for meshes that use this material.
 Since the ``material_index`` is stored on each face, the output will be implicitly interpolated to

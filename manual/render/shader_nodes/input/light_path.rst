@@ -6,8 +6,7 @@ Light Path Node
 
 .. figure:: /images/render_shader-nodes_input_light-path_node.png
    :align: right
-
-   Light Path Node.
+   :alt: Light Path Node.
 
 The *Light Path* node is used to find out for which kind of incoming ray the shader is being executed;
 particularly useful for non-physically-based tricks. More information about the meaning of each type

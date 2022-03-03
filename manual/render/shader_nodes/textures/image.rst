@@ -6,8 +6,7 @@ Image Texture Node
 
 .. figure:: /images/render_shader-nodes_textures_image_node.png
    :align: right
-
-   Image Texture Node.
+   :alt: Image Texture Node.
 
 The *Image Texture* is used to add an image file as a texture.
 

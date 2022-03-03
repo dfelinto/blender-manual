@@ -6,8 +6,7 @@ Box Mask Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeBoxMask.png
    :align: right
-
-   Box Mask Node.
+   :alt: Box Mask Node.
 
 The *Box Mask* node creates an image suitable for use as a simple matte.
 

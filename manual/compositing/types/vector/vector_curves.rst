@@ -9,8 +9,7 @@ Vector Curves Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeCurveVec.png
    :align: right
-
-   Vector Curves Node.
+   :alt: Vector Curves Node.
 
 The Vector Curves node maps an input vector components to a curve.
 

@@ -6,8 +6,7 @@ Map Range Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeMapRange.png
    :align: right
-
-   Map Range Node.
+   :alt: Map Range Node.
 
 This node converts (maps) an input value range into a destination range.
 By default, values outside the specified input range will be proportionally mapped as well.

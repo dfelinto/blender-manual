@@ -7,8 +7,7 @@ Spline Length Node
 
 .. figure:: /images/modeling_geometry-nodes_curve_spline-length_node.png
    :align: right
-
-   Spline Length node.
+   :alt: Spline Length node.
 
 The *Spline Length* node outputs the total length of each spline, as a distance, or a number of points.
 This is different than the :doc:`Curve Length </modeling/geometry_nodes/curve/curve_length>` node,

@@ -7,8 +7,7 @@ Quadratic Bézier Node
 
 .. figure:: /images/modeling_geometry-nodes_curve-primitives_quadratic-bezier_node.png
    :align: right
-
-   Quadratic Bézier Node.
+   :alt: Quadratic Bézier Node.
 
 The *Quadratic Bézier* node generates a poly spline curve from the given control points.
 The generated shape is a parabola.

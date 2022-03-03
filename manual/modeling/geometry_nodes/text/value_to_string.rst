@@ -7,8 +7,7 @@ Value to String Node
 
 .. figure:: /images/modeling_geometry-nodes_text_value-to-string_node.png
    :align: center
-
-   The Value to String node.
+   :alt: Value to String node.
 
 The *Value to String* node generates string representation of the input value.
 

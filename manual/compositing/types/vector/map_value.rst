@@ -6,8 +6,7 @@ Map Value Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeMapValue.png
    :align: right
-
-   Map Value Node.
+   :alt: Map Value Node.
 
 Map Value node is used to scale, offset and clamp values.
 

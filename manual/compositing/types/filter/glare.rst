@@ -6,8 +6,7 @@ Glare Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeGlare.png
    :align: right
-
-   Glare Node.
+   :alt: Glare Node.
 
 The *Glare node* is used to add lens flares, fog,
 glows around exposed parts of an image and much more.

@@ -6,8 +6,7 @@ Blur Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeBlur.png
    :align: right
-
-   Blur Node.
+   :alt: Blur Node.
 
 The Blur node blurs an image, providing several blur modes.
 

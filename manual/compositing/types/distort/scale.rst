@@ -6,8 +6,7 @@ Scale Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeScale.png
    :align: right
-
-   Scale Node.
+   :alt: Scale Node.
 
 This node scales the size of an image.
 

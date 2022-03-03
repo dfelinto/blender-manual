@@ -13,8 +13,7 @@ Musgrave Texture Node
 
 .. figure:: /images/render_shader-nodes_textures_musgrave_node.png
    :align: right
-
-   Musgrave Texture Node.
+   :alt: Musgrave Texture Node.
 
 The *Musgrave Texture* node evaluates a fractal Perlin noise at the input texture coordinates.
 Unlike the *Noise Texture*, which is also a fractal Perlin noise,

@@ -6,8 +6,7 @@ Dilate/Erode Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeDilateErode.png
    :align: right
-
-   Dilate/Erode Node.
+   :alt: Dilate/Erode Node.
 
 The *Dilate/Erode node* provides a morphology (mathematical shape analysis) filter.
 

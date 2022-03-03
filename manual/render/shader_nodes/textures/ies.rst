@@ -6,8 +6,7 @@ IES Texture Node
 
 .. figure:: /images/render_shader-nodes_textures_ies_node.png
    :align: right
-
-   Gradient Texture Node.
+   :alt: Gradient Texture Node.
 
 The *IES Texture* is used to match real world lights based on IES files
 (:abbr:`IES (Illuminating Engineering Society of North America)`).

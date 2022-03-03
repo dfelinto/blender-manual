@@ -6,8 +6,7 @@ Material Node
 
 .. figure:: /images/render_shader-nodes_output_material_node.png
    :align: right
-
-   Material Node.
+   :alt: Material Node.
 
 The *Material Output* node is used to output surface material information to a surface object.
 

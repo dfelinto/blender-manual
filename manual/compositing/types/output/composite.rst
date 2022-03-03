@@ -6,8 +6,7 @@ Composite Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeComposite.png
    :align: right
-
-   Composite Node.
+   :alt: Composite Node.
 
 The Composite node is where the actual output from the Compositor
 is connected to the renderer.

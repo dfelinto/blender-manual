@@ -8,8 +8,7 @@ Special Characters Node
 
 .. figure:: /images/modeling_geometry-nodes_text_special-characters_node.png
    :align: center
-
-   The Special Characters node.
+   :alt: Special Characters node.
 
 The *Special Characters* node is used to output string characters that can't be typed directly with the keyboard.
 

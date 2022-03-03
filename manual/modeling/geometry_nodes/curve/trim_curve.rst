@@ -7,8 +7,7 @@ Trim Curve Node
 
 .. figure:: /images/modeling_geometry-nodes_curve_curve-trim_node.png
    :align: center
-
-   The *Trim Curve* node.
+   :alt: Trim Curve node.
 
 The *Trim Curve* node shortens each spline in the curve by removing sections at
 the start and end of each spline.

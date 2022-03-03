@@ -7,8 +7,7 @@ Transfer Attribute Node
 
 .. figure:: /images/modeling_geometry-nodes_attribute_transfer-attribute_node.png
    :align: center
-
-   Transfer Attribute node.
+   :alt: Transfer Attribute node.
 
 The *Transfer Attribute* node retrieves values from a source geometry and provides them as a field,
 so they can be used anywhere.
@@ -50,7 +49,7 @@ Properties
 ==========
 
 Domain
-   The :ref:`attribute domain <attribute-domains>` that the attribute is transferred from, or in other words, 
+   The :ref:`attribute domain <attribute-domains>` that the attribute is transferred from, or in other words,
    the domain used to evaluate the *Attribute* input. For example, it is possible to transfer data from the
    faces of one geometry to the points of another.
 

@@ -6,8 +6,7 @@ Directional Blur Node
 
 .. figure:: /images/compositing_node-types_CompositorNodeDBlur.png
    :align: right
-
-   Directional Blur Node.
+   :alt: Directional Blur Node.
 
 Blurs an image in a specified direction and magnitude. Can be used to fake motion blur.
 

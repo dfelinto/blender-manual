@@ -13,8 +13,7 @@ Image Texture Node
 
 .. figure:: /images/modeling_geometry-nodes_texture-nodes_image_texture_node.jpg
    :align: right
-
-   Image Texture node.
+   :alt: Image Texture node.
 
 The *Image Texture* node is used to add an image file as a texture.
 The image data is sampled with the input Vector and outputs a Color and Alpha value.
@@ -58,15 +57,15 @@ Outputs
 =======
 
 Color
-   RGBA color from the image. 
+   RGBA color from the image.
 Alpha
    Alpha channel from image.
-   
+
 Examples
 ========
 
 .. figure:: /images/modeling_geometry-nodes_texture-nodes_image_texture_node_example.jpg
-   
+
    Image Texture displacing a plane.
 
-   
+
