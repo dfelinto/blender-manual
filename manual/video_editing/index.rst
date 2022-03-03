@@ -12,4 +12,3 @@
 
    introduction.rst
    sequencer/index.rst
-   preview/index.rst
