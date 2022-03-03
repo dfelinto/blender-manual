@@ -1,5 +1,3 @@
-.. _editors-sequencer-index:
-.. _bpy.types.SpaceSequenceEditor:
 .. _bpy.types.Sequence:
 .. _bpy.ops.sequencer:
 

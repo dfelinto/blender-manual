@@ -22,7 +22,7 @@ You can use the File Browser as any other editor type, to browse through the fil
 The main purpose of this is to be able to drag-and-drop from the File Browser into other editors.
 
 - Images into the :ref:`editors-3dview-index` (to set as background or apply as material texture).
-- Media files into the :ref:`editors-sequencer-index`.
+- Media files into the :doc:`/video_editing/index`.
 
 .. figure:: /images/editors_file-browser_editor.png
 
