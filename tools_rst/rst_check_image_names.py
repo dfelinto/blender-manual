@@ -189,7 +189,8 @@ def check_image_names_report(name_data):
         if len(name_report[id]) != 0:
             print_title_multiline("List of images " + messages[id])
             for ent in name_report[id]:
-                print(ent["filepath"] + ":" + str(ent["lineno"] + 1) + " " + ent["image_name"] + ent["image_ext"])
+                print(ent["filepath"] + ":" + str(ent["lineno"] + 1) +
+                      " " + ent["image_name"] + ent["image_ext"])
                 print("   Should be: " + ent["file_derive"])
 
 

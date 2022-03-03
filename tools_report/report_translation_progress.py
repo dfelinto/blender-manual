@@ -19,6 +19,7 @@ import os
 
 from file_translation_progress import parse_file
 
+
 def po_files(path):
     for dirpath, dirnames, filenames in os.walk(path):
         if dirpath.startswith("."):
@@ -29,6 +30,7 @@ def po_files(path):
             if ext.lower() == ".po":
                 yield os.path.join(dirpath, filename)
 
+
 def report_fuzzy_filepaths(report, filepaths, limited=False, number=10):
     if limited and len(filepaths) > number:
         filepaths = sorted(filepaths)[:number]
@@ -38,6 +40,7 @@ def report_fuzzy_filepaths(report, filepaths, limited=False, number=10):
 
     for po_filepath in filepaths:
         report(' ' * 9 + "%s" % po_filepath)
+
 
 def report_progress(path, report, quiet=False):
 
@@ -53,7 +56,8 @@ def report_progress(path, report, quiet=False):
 
     for po_filepath in po_files(path):
 
-        (msgstrs_file_complete, msgstrs_file_empty, msgstrs_file_fuzzy) = parse_file(po_filepath)
+        (msgstrs_file_complete, msgstrs_file_empty,
+         msgstrs_file_fuzzy) = parse_file(po_filepath)
 
         if msgstrs_file_fuzzy > 0:
             msgstrs_all_fuzzy_files.add(po_filepath)
@@ -82,15 +86,16 @@ def report_progress(path, report, quiet=False):
            (msgstrs_all_empty,
             msgstrs_all_complete,
             0.0 if not msgstrs_all_complete else
-            ((1.0 - ((msgstrs_all_empty + msgstrs_all_fuzzy ) /
+            ((1.0 - ((msgstrs_all_empty + msgstrs_all_fuzzy) /
               msgstrs_all_complete)) * 100.0)))
+
 
 def main():
     import argparse
 
     parser = argparse.ArgumentParser(
         usage=__doc__
-        )
+    )
 
     parser.add_argument(
         "-q", "--quiet",
@@ -99,14 +104,14 @@ def main():
         action='store_true',
         help="only print the final summary",
         required=False,
-        )
+    )
 
     parser.add_argument(
         "paths",
         nargs="+",
         help="directories containing PO files",
         metavar="DIRS"
-        )
+    )
 
     args = parser.parse_args()
     for path in args.paths:
@@ -115,6 +120,7 @@ def main():
         else:
             print('%s isn\'t a directory' % (path))
         print()
+
 
 if __name__ == "__main__":
     main()

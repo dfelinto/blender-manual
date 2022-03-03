@@ -50,7 +50,7 @@ def run_svn(args, with_output=False):
 
 def run_multiprocess__single(arg_list):
     return_codes = [None] * len(arg_list)
-     # Single process.
+    # Single process.
     for args_index, args in enumerate(arg_list):
         proc = subprocess.Popen(["sphinx-intl", *args])
         proc.wait()
@@ -84,7 +84,8 @@ def run_multiprocess__multi(arg_list, job_total=1):
         sys.stdout.flush()
         sys.stderr.flush()
 
-        processes.append((args_index, subprocess.Popen(["sphinx-intl", *args])))
+        processes.append(
+            (args_index, subprocess.Popen(["sphinx-intl", *args])))
 
     while processes:
         processes_clear_finished()
@@ -113,7 +114,8 @@ else:
 os.environ["LANG"] = "en_US.UTF-8"
 
 # Ensure we're in the repo's base:
-ROOT_DIR = os.path.normpath(os.path.join(os.path.abspath(os.path.dirname(__file__)), ".."))
+ROOT_DIR = os.path.normpath(os.path.join(
+    os.path.abspath(os.path.dirname(__file__)), ".."))
 os.chdir(ROOT_DIR)
 LOCALE_BUILD_DIR = os.path.join(ROOT_DIR, "build", "gettext")
 
@@ -131,7 +133,8 @@ IS_WIN32 = (os.name == "nt")
 def main():
 
     # True when all languages are checked out under "locale/".
-    has_complete_locale_checkout = os.path.exists(os.path.join(LOCALE_DIR, ".svn"))
+    has_complete_locale_checkout = os.path.exists(
+        os.path.join(LOCALE_DIR, ".svn"))
 
     # All directories containing '.svn' (the parent directory).
     svn_dirs_all = []
@@ -179,7 +182,8 @@ def main():
     # -------------
     # Copy POT File
 
-    shutil.copy(os.path.join(LOCALE_BUILD_DIR, "blender_manual.pot"), LOCALE_DIR)
+    shutil.copy(os.path.join(LOCALE_BUILD_DIR,
+                "blender_manual.pot"), LOCALE_DIR)
 
     # ---------------
     # Update PO Files
@@ -212,10 +216,10 @@ def main():
         print("Warning, the following commands returned non-zero exit codes:")
         for returncode, arg in zip(sphinx_intl_return_codes, sphinx_intl_arg_list):
             if returncode != 0:
-                print("returncode:", returncode, "from command:", "sphinx-intl", arg)
+                print("returncode:", returncode,
+                      "from command:", "sphinx-intl", arg)
         print("Some manual corrections might need to be done.")
     del sphinx_intl_return_codes, sphinx_intl_arg_list
-
 
     # ----------
     # Handle SVN
@@ -257,14 +261,19 @@ def main():
         # 'shlex.quote' causes path separator to be converted to forward slashes,
         # causing the command to fail.
         if IS_WIN32:
-            print("  " + subprocess.list2cmdline(["svn", "ci", svn_dir, "-m", "Update r" + revision]))
+            print(
+                "  " + subprocess.list2cmdline(["svn", "ci", svn_dir, "-m", "Update r" + revision]))
         else:
-            print("  svn ci {:s} -m \"Update r{:s}\"".format(quote(svn_dir), revision))
+            print(
+                "  svn ci {:s} -m \"Update r{:s}\"".format(quote(svn_dir), revision))
 
     if IS_WIN32:
-        print("  " + subprocess.list2cmdline(["svn", "ci", POT_FILE, "-m", "Update r" + revision]))
+        print(
+            "  " + subprocess.list2cmdline(["svn", "ci", POT_FILE, "-m", "Update r" + revision]))
     else:
-        print("  svn ci {:s} -m \"Update r{:s}\"".format(quote(POT_FILE), revision))
+        print(
+            "  svn ci {:s} -m \"Update r{:s}\"".format(quote(POT_FILE), revision))
+
 
 if __name__ == "__main__":
     main()

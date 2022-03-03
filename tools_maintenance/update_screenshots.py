@@ -24,6 +24,7 @@ Example Usage
 """
 
 
+import bpy
 import sys
 import os
 if "bpy" not in sys.modules:
@@ -82,6 +83,7 @@ SCREENSHOT_WAIT_TICKS = 4
 # ----------------------------------------------------------------------
 # Blender Defaults
 
+
 def setup_default_preferences(preferences):
     """ Set preferences useful for automation.
     """
@@ -91,10 +93,6 @@ def setup_default_preferences(preferences):
     preferences.filepaths.use_auto_save_temporary_files = False
 
     bpy.app.use_userpref_skip_save_on_exit = False
-
-
-
-import bpy
 
 
 # ----------------------------------------------------------------------
@@ -251,7 +249,8 @@ def screenshot_preferences(window):
     yield from window_tap_key(window=window, type='F4')
     yield from window_tap_key(window=window, type='P')
 
-    prefs_window = next(iter([w for w in context.window_manager.windows if w.screen.is_temporary]))
+    prefs_window = next(
+        iter([w for w in context.window_manager.windows if w.screen.is_temporary]))
     area = prefs_window.screen.areas[0]
 
     prefs_sections = tuple(
@@ -265,14 +264,14 @@ def screenshot_preferences(window):
             "editors_preferences_section_" + section.lower().replace("_", "-") + ".png",
         )
         if section == 'EXPERIMENTAL':
-          prefs.view.show_developer_ui = True
+            prefs.view.show_developer_ui = True
 
         setattr(prefs, "active_section", section)
 
         yield from window_screenshot_to_filepath(window=prefs_window, filepath=filepath)
 
         if section == 'EXPERIMENTAL':
-          prefs.view.show_developer_ui = False
+            prefs.view.show_developer_ui = False
 
     bpy.ops.wm.window_close({"window": prefs_window})
 
@@ -300,8 +299,10 @@ def generate_preview_html():
 
         for filename in os.listdir(IMAGE_DIR_PREVIEW):
 
-            file_old = os.path.relpath(os.path.join(IMAGE_DIR_FINAL, filename), ROOT_DIR)
-            file_new = os.path.relpath(os.path.join(IMAGE_DIR_PREVIEW, filename), ROOT_DIR)
+            file_old = os.path.relpath(os.path.join(
+                IMAGE_DIR_FINAL, filename), ROOT_DIR)
+            file_new = os.path.relpath(os.path.join(
+                IMAGE_DIR_PREVIEW, filename), ROOT_DIR)
 
             fw('  <tr>\n')
             fw('    <td><img src="{:s}" style="width: 100%"></td>\n'.format(file_old))

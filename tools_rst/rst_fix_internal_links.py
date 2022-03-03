@@ -11,7 +11,8 @@ ROOT_DIR = os.path.normpath(os.path.join(CURRENT_DIR, "..", "manual"))
 EDIT_FILE = os.path.join(CURRENT_DIR, "broken_doc_links.txt")
 ROLE = ":doc:"
 
-to_print = [["#   Location of broken link:", "Line:", "    Link Target:"]]  # list of lists as: [file_with_link, path]
+# list of lists as: [file_with_link, path]
+to_print = [["#   Location of broken link:", "Line:", "    Link Target:"]]
 
 
 def clear_console():
@@ -39,12 +40,14 @@ def get_broken_doc_links(fname, anchors='INCLUDE', target_chapter=''):
     for i, l in enumerate(lines):
         if ROLE in l:
             links = l.split(ROLE + "`")
-            del links[0]  # first split item will be "blah blah :doc:`" and not a link path
+            # first split item will be "blah blah :doc:`" and not a link path
+            del links[0]
             for path in links:
                 if "`" in path:
                     path = path.split("`")[0]
                     if "<" in path and path.endswith(">"):
-                        path = path.split("<")[-1][:-1]  # turns "Text <path>" into "path"
+                        # turns "Text <path>" into "path"
+                        path = path.split("<")[-1][:-1]
                     lfname = path.split('/')[-1]
                     do_append = False
                     if anchors in ['ONLY', 'INCLUDE'] and '#' in lfname:
@@ -54,7 +57,8 @@ def get_broken_doc_links(fname, anchors='INCLUDE', target_chapter=''):
 
                     if do_append:
                         if path.startswith("/" + target_chapter):
-                            paths.append([path, str(i + 1) + ' '])  # using i+1 so line number starts from 1
+                            # using i+1 so line number starts from 1
+                            paths.append([path, str(i + 1) + ' '])
 
     # Then check validity
     for path in paths:
@@ -116,8 +120,10 @@ def fix_links():
                     # newline is empty str to ensure that the original line ending is not changed
                     flines = f.readlines()
                 lorig = flines[lineno]
-                flines[lineno] = flines[lineno].replace('<' + target_orig + '>', '<' + target + '>')
-                flines[lineno] = flines[lineno].replace('`' + target_orig + '`', '`' + target + '`')
+                flines[lineno] = flines[lineno].replace(
+                    '<' + target_orig + '>', '<' + target + '>')
+                flines[lineno] = flines[lineno].replace(
+                    '`' + target_orig + '`', '`' + target + '`')
                 print(lorig + flines[lineno])
                 with io.open(fullp, "w", encoding="utf-8", newline='') as f:
                     f.write(''.join(flines))
@@ -156,8 +162,10 @@ def auto_fix_links():
                     with io.open(fullp, "r", encoding="utf-8", newline='') as f:
                         flines = f.readlines()
                     lorig = flines[lineno]
-                    flines[lineno] = flines[lineno].replace('<' + target + '>', '<' + fix + '>')
-                    flines[lineno] = flines[lineno].replace('`' + target + '`', '`' + fix + '`')
+                    flines[lineno] = flines[lineno].replace(
+                        '<' + target + '>', '<' + fix + '>')
+                    flines[lineno] = flines[lineno].replace(
+                        '`' + target + '`', '`' + fix + '`')
                     print(lorig + flines[lineno])
                     with io.open(fullp, "w", encoding="utf-8", newline='') as f:
                         f.write(''.join(flines))

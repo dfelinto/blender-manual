@@ -15,8 +15,10 @@ import os
 import subprocess
 
 import importlib.util
-mod_file_path = os.path.join(os.path.dirname(__file__), "..", "tools_report", "file_translation_progress.py")
-spec = importlib.util.spec_from_file_location("file_translation_progress", mod_file_path)
+mod_file_path = os.path.join(os.path.dirname(
+    __file__), "..", "tools_report", "file_translation_progress.py")
+spec = importlib.util.spec_from_file_location(
+    "file_translation_progress", mod_file_path)
 file_translation_progress = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(file_translation_progress)
 

@@ -8,6 +8,13 @@ Check spelling for all RST files in the repository.
 - TODO: some words get extracted that shouldn't.
 """
 
+import docutils.parsers.rst
+from docutils.parsers.rst import directives, roles
+import docutils
+from rst_check_spelling_config import (
+    dict_custom,
+    dict_ignore,
+)
 import os
 import sys
 import re
@@ -17,10 +24,6 @@ import re
 import enchant
 dict_spelling = enchant.Dict("en_US")
 
-from rst_check_spelling_config import (
-    dict_custom,
-    dict_ignore,
-)
 
 USE_ONCE = True
 once_words = set()
@@ -118,9 +121,6 @@ def main():
 # -----------------------------------------------------------------------------
 # Register dummy directives
 
-import docutils
-from docutils.parsers.rst import directives, roles
-
 
 def directive_ignore(
         name, arguments, options, content, lineno,
@@ -197,7 +197,8 @@ def role_ignore(
 ):
     # Recursively parse the contents of the index term, in case it
     # contains a substitution (like |alpha|).
-    nodes, msgs = inliner.parse(text, lineno, memo=inliner, parent=inliner.parent)
+    nodes, msgs = inliner.parse(
+        text, lineno, memo=inliner, parent=inliner.parent)
     # 'text' instead of 'rawtext' because it doesn't contain the :role:
     return [RoleIgnore(text, '', *nodes, **options)], []
 
@@ -223,12 +224,14 @@ roles.register_canonical_role('kbd', role_ignore_recursive)
 roles.register_canonical_role('mod', role_ignore_recursive)
 roles.register_canonical_role('ref', role_ignore_recursive)
 roles.register_canonical_role('term', role_ignore_recursive)
-roles.register_canonical_role('meth', role_ignore_recursive)  # Python API reference.
+# Python API reference.
+roles.register_canonical_role('meth', role_ignore_recursive)
 
 # -----------------------------------------------------------------------------
 # Special logic to wash filedata
 #
 # Special Case
+
 
 def filedata_glossary_wash(filedata):
     """
@@ -255,8 +258,6 @@ def filedata_glossary_wash(filedata):
 
 
 # -----------------------------------------------------------------------------
-
-import docutils.parsers.rst
 
 
 def rst_to_doctree(filedata, filename):

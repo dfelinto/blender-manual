@@ -140,7 +140,8 @@ def preset_replace_table(fn, data_src):
                     table_content.append([[] for k in range(tot_row)])
 
                 add_col()
-                tot_indent = len(lines[is_table]) - len(lines[is_table].lstrip())
+                tot_indent = len(lines[is_table]) - \
+                    len(lines[is_table].lstrip())
                 for j in range(is_table + 1, i - 1):
                     l = lines[j].strip()
                     # print(l)
@@ -281,7 +282,8 @@ def preset_wrap_lines(fn, data_src):
 
             if index_best != -1:
                 index_best += 1
-                lines[i:i + 1] = [l_orig[:index_best].rstrip(), (indent * " ") + l_orig[index_best:].lstrip()]
+                lines[i:i + 1] = [l_orig[:index_best].rstrip(),
+                                  (indent * " ") + l_orig[index_best:].lstrip()]
                 i -= 1
             else:
                 print("Not found %s:%d: " % (fn, i + 1))
@@ -318,7 +320,8 @@ def operation_from_args():
                 operations.append((op, op_arg, op_fn))
     operations.sort()
 
-    operations_map = {op_arg: (op, op_fn) for (op, op_arg, op_fn) in operations}
+    operations_map = {op_arg: (op, op_fn)
+                      for (op, op_arg, op_fn) in operations}
 
     operation = None
     for arg in sys.argv:

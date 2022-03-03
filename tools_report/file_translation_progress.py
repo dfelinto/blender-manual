@@ -7,6 +7,7 @@
 Module of Translation Tracker: report the number of complete strings in a file.
 '''
 
+
 def parse_file(po_filepath):
     msgstrs_complete = -1  # First lines contain a "fake" msgstr
     msgstrs_empty = 0
@@ -28,6 +29,7 @@ def parse_file(po_filepath):
                     msgstrs_fuzzy += 1
             last_line_was_empty_msg_str = False
     return msgstrs_complete, msgstrs_empty, msgstrs_fuzzy
+
 
 def parse_line(line):
     if line.startswith('msgstr'):

@@ -74,7 +74,8 @@ def rst_files_report(img_refs):
     """
     Outputs the results of unused/missing images
     """
-    imgpath = os.path.normpath(os.path.join(os.path.abspath(os.path.dirname(__file__)), "..", "manual", "images"))
+    imgpath = os.path.normpath(os.path.join(os.path.abspath(
+        os.path.dirname(__file__)), "..", "manual", "images"))
     img_files_set = set([f for f in os.listdir(imgpath)])
     img_refs_set = set(img_refs)
 

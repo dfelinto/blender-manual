@@ -101,7 +101,8 @@ def warn_role_kbd(fn, data_src):
                     out = content
                     if content != k:
                         out += "| " + k
-                    print(fn + ":" + str(lineno + 1) + ": '" + out + "' " + "invalid keyboard shortcut")
+                    print(fn + ":" + str(lineno + 1) + ": '" +
+                          out + "' " + "invalid keyboard shortcut")
 
     return None
 
@@ -185,7 +186,7 @@ def warn_title(fn, data_src):
         # Quick & dirty way to check we're a title.
         if l.startswith(title_chars) and len(set(l.rstrip())) == 1:
             if i + 1 == len_lines:
-                l_next  = ""
+                l_next = ""
             else:
                 l_next = lines[i + 1]
 
@@ -210,10 +211,12 @@ def warn_title(fn, data_src):
 
             if l_test:
                 if len(l_test) + expect_extra != len(l):
-                    print("%s:%d: title %s mismatch %d" % (fn, i + 1, what, len(l)))
+                    print("%s:%d: title %s mismatch %d" %
+                          (fn, i + 1, what, len(l)))
                 indent = len(l_test) - len(l_test.lstrip())
                 if expect_indent != indent:
-                    print("%s:%d: title %s expected indent of %d, got %d" % (fn, i + 1, what, expect_indent, indent))
+                    print("%s:%d: title %s expected indent of %d, got %d" %
+                          (fn, i + 1, what, expect_indent, indent))
 
         l_prev = l
 

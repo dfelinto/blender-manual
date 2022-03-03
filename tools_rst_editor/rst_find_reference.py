@@ -50,7 +50,10 @@ def find_rst_root(test, files=("index.rst", "index.txt", "contents.rst", "conten
     return test_found
 
 
-re_find_references = re.compile(r"(^[ \t]*\.\.\s+_)([a-zA-Z0-9_\-]+):", re.MULTILINE)
+re_find_references = re.compile(
+    r"(^[ \t]*\.\.\s+_)([a-zA-Z0-9_\-]+):", re.MULTILINE)
+
+
 def find_references(fn, data, find_ref):
     """
     Use to find instances of the :ref: role.
@@ -145,7 +148,8 @@ def main(argv=None):
                         break
         if line is None:
             print(
-                "Could not find reference:", repr(role_data), "in", repr(rst_root),
+                "Could not find reference:", repr(
+                    role_data), "in", repr(rst_root),
                 file=sys.stderr,
             )
             sys.exit(1)
@@ -181,7 +185,6 @@ def main(argv=None):
         # - term
         print("Role", role_id, "not handled!", file=sys.stderr)
         sys.exit(1)
-
 
     assert(line is not None)
     print("%s:%d:%d" % (fn, line, col))

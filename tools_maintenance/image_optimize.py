@@ -14,6 +14,7 @@ VERBOSE = False
 # Ignore result unless it's at least 7.5% improvement
 FACTOR = 0.075
 
+
 def find_vcs_root(test, dirs=(".svn", ".git"), default=None):
     import os
     prev, test = None, os.path.abspath(test)
