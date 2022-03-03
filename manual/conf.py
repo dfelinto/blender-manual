@@ -85,6 +85,12 @@ needs_sphinx = '3.3'
 # The default language to highlight source code in.
 highlight_language = 'python3'
 
+# If true, figures, tables and code-blocks are automatically numbered if they have a caption.
+numfig = False
+
+# if set to 0, figures, tables and code-blocks are continuously numbered starting at 1.
+numfig_secnum_depth = 0
+
 # The style name to use for Pygments highlighting of source code.
 pygments_style = 'default'
 
