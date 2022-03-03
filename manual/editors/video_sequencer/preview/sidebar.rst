@@ -3,10 +3,25 @@
 Sidebar
 *******
 
+The sidebar of the Preview can be toggled with the menu:
+:menuselection:`View --> Sidebar` or with the shortcut :kbd:`N`.
+
+:ref:`fig-editors_vse_preview_sidebar-overview` shows the sidebar of the Preview,
+but also the sidebar of the sequencer. In the Preview sidebar,
+the View tab is active and all panels are expanded.
+Safe Areas are enabled and an Annotation is added.
+
+.. _fig-editors_vse_preview_sidebar-overview:
+.. figure:: /images/editors_vse_preview_sidebar-overview.svg
+   :alt: Sidebar overview
+
+   Video Sequence Editor with two sidebars: Preview and Sequencer.
+
+
 Tool
 ====
 
-Displays information about the active tool.
+Displays information about the active :ref:`tool </editors/video_sequencer/preview/toolbar>`.
 
 
 View
