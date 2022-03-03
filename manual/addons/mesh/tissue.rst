@@ -23,7 +23,7 @@ Activation
 .. _tissue tools:
 
 Tissue Tools
-===========
+============
 
 .. figure:: /images/addons_mesh_tissue_tissue-tools.jpg
 
@@ -161,7 +161,7 @@ Preserve Borders
    Prevent alteration of the open boundaries of the mesh.
 
 Convert to Curve
-----------
+----------------
 
 Generate a Curve object from the *Loops*, *Edges* or *Particles* of the active object.
 
@@ -169,34 +169,40 @@ Generate a Curve object from the *Loops*, *Edges* or *Particles* of the active o
 
 (To Do)
 
+
 Refresh
-------
+-------
 
 Update the active object according to the changes in the base geometries.
 This operator works on the objects generated through *Tessellate* and *Convert to Curve*.
 
+
 Rotate Faces
-------
+------------
 
 (To Do)
+
 
 Convert to Dual Mesh
-------
+--------------------
 
 (To Do)
+
 
 Polyhedra Wireframe
-------
+-------------------
 
 (To Do)
+
 
 Lattice Along Surface
-------
+---------------------
 
 (To Do)
 
+
 UV to Mesh
-------
+----------
 
 Convert the active UV-map to mesh trying to preserve the original 3D model total surface area.
 
@@ -204,17 +210,19 @@ Convert the active UV-map to mesh trying to preserve the original 3D model total
 
 
 Random Materials
-------
+----------------
 
 (To Do)
+
 
 Weight to Materials
-------
+-------------------
 
 (To Do)
 
+
 Tissue Render Animation
-------
+-----------------------
 
 (To Do)
 
@@ -222,12 +230,13 @@ Tissue Render Animation
 .. _tissue weight tools:
 
 Tissue Weight Tools
-===========
+===================
 
 .. figure:: /images/addons_mesh_tissue_weight-tools.jpg
 
+
 Area
-------
+----
 
 Weight from Faces area (Automatic Bounds, Manual Bounds)
 
@@ -235,7 +244,7 @@ Weight from Faces area (Automatic Bounds, Manual Bounds)
 
 
 Curvature
-------
+---------
 
 Weight from Curvature (Based on Dirty Vertex Colors)
 
@@ -243,58 +252,65 @@ Weight from Curvature (Based on Dirty Vertex Colors)
 
 
 Weight Distance
-------
+---------------
 
 Generate a vertex group according to the distance from the selected vertices.
 Different methods can be used: *Geodesic*, *Euclidean* or *Topology* distance.
 
 .. figure:: /images/addons_mesh_tissue_weight-distance.jpg
 
+
 Weight Formula
-------
+--------------
 
 Weight based on Vertices parameters. Allows to use vertices coordinates and normals direction. Integer and Float sliders can be created in order to find the proper parameters more easily.
 
 .. figure:: /images/addons_mesh_tissue_weight-formula.jpg
 
+
 Weight Laplacian
-------
+----------------
 
 (To Do)
 
+
 Harmonic
-------
+--------
 
 Harmonic function based on active Weight
 
 .. figure:: /images/addons_mesh_tissue_weight-harmonic.jpg
+
 
 Random
 ------
 
 (To Do)
 
+
 Edges Deformation
-------
+-----------------
 
 Generate a Vertex Group based on Edges Deformation evaluated on the Modifiers result (Deformation Modifiers and Simulations)
 
 .. figure:: /images/addons_mesh_tissue_weight-edges-deformation.jpg
 
+
 Edges Bending
-------
+-------------
 
 Generate a Vertex Group based on Edges Bending evaluated on the Modifiers result (Deformation Modifiers and Simulations)
 
 .. figure:: /images/addons_mesh_tissue_weight-edges-bending.jpg
 
+
 Streamlines Curves
-------
+------------------
 
 (To Do)
 
 Contour Curves
-------
+--------------
 
 Generates isocurves based on Active Weight.
 
@@ -302,7 +318,7 @@ Generates isocurves based on Active Weight.
 
 
 Contour Displace
-------
+----------------
 
 Cut the mesh according to active Weight in a variable number of isocurves and automatically add a Displace Modifier.
 
@@ -310,7 +326,7 @@ Cut the mesh according to active Weight in a variable number of isocurves and au
 
 
 Contour Mask
-------
+------------
 
 Trim the mesh according to active Weight.
 
@@ -318,30 +334,34 @@ Trim the mesh according to active Weight.
 
 
 Reaction Diffusion
-------
+------------------
 
 (To Do)
+
 
 Radom Materials
-------
+---------------
 
 (To Do)
+
 
 Weight to Materials
-------
+-------------------
 
 (To Do)
 
+
 Convert to Colors
-------
+-----------------
 
 Convert To
    Value Channel, Red Channel, Green Channel, Blue Channel, False Color
 Invert
    Invert the values read from vertex weight.
 
+
 Convert to UV
-------
+-------------
 
 (To Do)
 
@@ -349,12 +369,13 @@ Convert to UV
 .. _tissue color tools:
 
 Tissue Color Tools
-===========
+==================
 
 .. figure:: /images/addons_mesh_tissue_color-tools.jpg
 
+
 Convert to Weight
-------
+-----------------
 
 Red Channel
    Add a vertex group derived to red channel of the active vertex color.
