@@ -8,4 +8,3 @@
 
    introduction.rst
    toolbar/index.rst
-   sidebar.rst
