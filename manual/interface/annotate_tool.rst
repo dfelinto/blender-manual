@@ -1,8 +1,7 @@
-.. _tool-annotate:
 
-*************
-Annotate Tool
-*************
+***********
+Annotations
+***********
 
 The annotation tool is available in multiple editors.
 It can be used to add notes to e.g. 3D objects or node setups.
@@ -11,6 +10,12 @@ It can be used to add notes to e.g. 3D objects or node setups.
    :align: center
 
    Annotations tool in a node editor.
+
+
+.. _tool-annotate:
+
+Annotation Tools
+================
 
 The annotation tool can be activated in the Toolbar and has following sub-tools:
 
@@ -38,8 +43,8 @@ Annotate Eraser
    The eraser has a *Radius* setting found in :menuselection:`Tool Settings --> Eraser`.
 
 
-Settings
-========
+Tool Settings
+=============
 
 Common
 ------

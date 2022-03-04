@@ -23,4 +23,4 @@ Data Source
 
 .. seealso::
 
-   The :ref:`tool-annotate` for more information on general annotation layers.
+   :ref:`tool-annotate` for more information on general annotation layers.
