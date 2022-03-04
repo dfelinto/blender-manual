@@ -10,6 +10,8 @@ General settings for Grease Pencil strokes.
 
    Strokes panel.
 
+.. _bpy.types.GreasePencil.stroke_depth_order:
+
 Stroke Depth Order
    Defines how the strokes are ordered in 3D space (for objects not displayed *In Front*).
 
@@ -32,6 +34,8 @@ Stroke Depth Order
 
              Blue, Green and Red strokes in three different layers using 3D Location depth order.
 
+.. _bpy.types.GreasePencil.stroke_thickness_space:
+
 Stroke Thickness
    The basis for how the stroke thickness is calculated.
 
@@ -42,8 +46,12 @@ Stroke Thickness
       The thickness is relative to screen space.
       Stroke thickness remains the same regardless of the screen zoom factor.
 
+.. _bpy.types.GreasePencil.pixel_factor:
+
 Thickness Scale
    Sets a thickness scale factor for all strokes.
+
+.. _bpy.types.GreasePencil.edit_curve_resolution:
 
 Curve Resolution
    See :ref:`Curve Editing <bpy.types.GreasePencil.edit_curve_resolution>` for more information.

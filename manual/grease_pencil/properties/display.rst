@@ -10,9 +10,13 @@ Viewport Display
 
 Display settings for Edit Lines in *Edit Mode* and *Sculpt Mode*.
 
+.. _bpy.types.GreasePencil.edit_line_color:
+
 Edit Line Color
    Sets the color of the Edit Lines.
 
+
+.. _bpy.types.GreasePencilGrid:
 
 Canvas
 ======
@@ -23,14 +27,22 @@ You can enable the Canvas visualization in the :ref:`Viewport Overlays <3dview-o
 
 See :doc:`Drawing Plane </grease_pencil/modes/draw/drawing_planes>` for more information.
 
+.. _bpy.types.GreasePencilGrid.color:
+
 Color
    Color of the Canvas grid lines.
+
+.. _bpy.types.GreasePencilGrid.scale:
 
 Scale X/Y
    Defines the X and Y scale of the Canvas.
 
+.. _bpy.types.GreasePencilGrid.offset:
+
 Offset X/Y
    Sets the Canvas position offset from the object's origin.
+
+.. _bpy.types.GreasePencilGrid.lines:
 
 Subdivisions
    Specifies the number of subdivisions to use for the grid.

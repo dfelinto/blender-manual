@@ -99,7 +99,7 @@ Layer Specials
 
    Merge Down :kbd:`Shift-Ctrl-M`
       Combine the selected layer with the layer below, the new layer keeps the name of the lower layer.
-   
+
    Merge All
       Combine all layers into the active layer.
 
@@ -109,10 +109,12 @@ Layer Specials
    Copy All Layers to Selected
       Copy all layers to the selected Grease Pencil object.
 
+.. _bpy.ops.gpencil.layer_isolate:
+
 Visibility (screen icon)
    Toggle whether the active layer is the only one that can be edited and is visible.
 
-Lock (padlock icon)
+Isolate Lock (padlock icon)
    Toggle whether the active layer is the only one that can be edited.
 
 ------------------------
@@ -142,6 +144,10 @@ In a :ref:`List view <ui-list-view>` of layers affected by a layer mask.
 See :doc:`Masks </grease_pencil/properties/masks>` for more information.
 
 
+.. _bpy.types.GPencilLayer.location:
+.. _bpy.types.GPencilLayer.rotation:
+.. _bpy.types.GPencilLayer.scale:
+
 Transform
 =========
 
@@ -156,11 +162,17 @@ Adjustments
 
    Layers adjustment panel.
 
+.. _bpy.types.GPencilLayer.tint_color:
+
 Tint Color
    Color that tint any material colors used in the layer.
 
+.. _bpy.types.GPencilLayer.tint_factor:
+
 Factor
    Controls the amount of tint color to apply.
+
+.. _bpy.types.GPencilLayer.line_change:
 
 Stroke Thickness
    Thickness value that override the strokes thickness in the layer.
@@ -169,20 +181,29 @@ Stroke Thickness
 Relations
 =========
 
+.. _bpy.types.GPencilLayer.parent:
+.. _bpy.types.GPencilLayer.parent_type:
+
 Parent/Type
    Select a Parent object and Type to manipulate the layer.
    The layer will inherit the transformations of the parent,
    this is especially useful when rigging for cut-out animation.
+
+.. _bpy.types.GPencilLayer.pass_index:
 
 Pass Index
    The layer index number can be used with some modifiers to restrict changes to only certain areas.
 
    See :doc:`Modifiers </grease_pencil/modifiers/introduction>` for more information.
 
+.. _bpy.types.GPencilLayer.viewlayer_render:
+
 View Layer
    Defines the View Layer to use for the Grease Pencil layer.
    If empty, the layer will be included in all View Layers.
    This is useful to separate drawings parts for :doc:`compositing </compositing/introduction>`.
+
+.. _bpy.types.GPencilLayer.use_viewlayer_masks:
 
 Disable Masks in Render
    If enabled no masks on the layer are included in the view layer render.
@@ -191,8 +212,12 @@ Disable Masks in Render
 Display
 =======
 
+.. _bpy.types.GPencilLayer.channel_color:
+
 Custom Channel Color
    Sets the color to use in the channel region of the :doc:`Dope Sheet </editors/dope_sheet/grease_pencil>`.
+
+.. _bpy.types.GPencilLayer.use_solo_mode:
 
 Show Only On Keyframed
    Makes the layer visible in the viewport only if it has a keyframe in the actual frame.
