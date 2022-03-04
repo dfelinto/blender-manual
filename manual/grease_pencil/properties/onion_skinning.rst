@@ -19,21 +19,25 @@ See :doc:`2D Layers </grease_pencil/properties/layers>` for more information.
 Options
 =======
 
+.. _bpy.types.GreasePencil.onion_mode:
+
 Mode
-   Keyframes
-      Shows Keyframes in the range determined by the *Before*/*After* settings.
-   Frames
-      Shows Frames in the range determined by the *Before*/*After* settings.
-   Selected
-      Shows only on the manually selected keyframes in the Dope Sheet.
+   :Keyframes: Shows Keyframes in the range determined by the *Before*/*After* settings.
+   :Frames: Shows Frames in the range determined by the *Before*/*After* settings.
+   :Selected: Shows only on the manually selected keyframes in the Dope Sheet.
+
+.. _bpy.types.GreasePencil.onion_factor:
 
 Opacity
    Control the opacity of the ghost frames.
 
+.. _bpy.types.GreasePencil.onion_keyframe_type:
+
 Filter by Type
    Filters what type of frames to show in the Onion Skinning range.
 
-.. _Keyframes-range:
+.. _bpy.types.GreasePencil.ghost_before_range:
+.. _bpy.types.GreasePencil.ghost_after_range:
 
 Keyframes Before/After
    Sets how many frames or keyframes, depending on the *Mode*, to show before and after the current frame.
@@ -42,6 +46,9 @@ Keyframes Before/After
 Custom Colors
 =============
 
+.. _bpy.types.GreasePencil.before_color:
+.. _bpy.types.GreasePencil.after_color:
+
 Before/After
    Color to use before and after the current frame on ghost frames.
 
@@ -49,13 +56,19 @@ Before/After
 Display
 =======
 
+.. _bpy.types.GreasePencil.use_ghosts_always:
+
 View in Render
    Show the onion skinning in final render image e.g. for a motion blur effect.
+
+.. _bpy.types.GreasePencil.use_onion_fade:
 
 Fade
    Opacity of the ghosts frames decrease the further away from the current frame.
 
-Loop
+.. _bpy.types.GreasePencil.use_onion_loop:
+
+Show Start Frame
    Help working on loop animations showing the first keyframe/frame
    as ghost when you are on the last frame of your animation.
 
