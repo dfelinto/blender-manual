@@ -108,10 +108,6 @@ Thickness
 
 
 .. _bpy.types.GPencilLayer.use_annotation_onion_skinning:
-.. _bpy.types.GPencilLayer.annotation_onion_before_color:
-.. _bpy.types.GPencilLayer.annotation_onion_before_range:
-.. _bpy.types.GPencilLayer.annotation_onion_after_color:
-.. _bpy.types.GPencilLayer.annotation_onion_after_range:
 
 Onion Skin
 ----------
@@ -120,3 +116,12 @@ Shows a ghosted image of strokes made in frames before and after the current fra
 Onion skinning only works in the 3D Viewport and Sequencer.
 See the Grease Pencil documentation for an explanation of
 :doc:`Onion Skinning </grease_pencil/properties/onion_skinning>`.
+
+.. _bpy.types.GPencilLayer.annotation_onion_before_color:
+.. _bpy.types.GPencilLayer.annotation_onion_before_range:
+.. _bpy.types.GPencilLayer.annotation_onion_after_color:
+.. _bpy.types.GPencilLayer.annotation_onion_after_range:
+
+Before/After
+   Color to use before and after the current frame on ghost frames.
+   The number defines how many frames to show before and after the current frame.
