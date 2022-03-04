@@ -209,6 +209,8 @@ Annotations
 Allows you to use :doc:`Annotations </interface/annotate_tool>` in the Sequencer.
 
 
+.. _editors_vse_preview_sidebar-metadata:
+
 Metadata
 ========
 
@@ -218,9 +220,27 @@ Metadata
    :View Type: Preview
    :Panel:     :menuselection:`Sidebar --> Metadata tab`
 
-A list of metadata of the displayed image.
+Lists information that has been encoded in the currently displayed movie or image strip;
+note that this is the strip under the playhead, *not* the active (selected) strip.
+Note, this metadata is readonly and cannot be edited in Blender.
+Metadata can include the filename, the date created, the camera model etc.
+The metadata from saved from a Blender render is also displayed in the appropriate fields (camera, time, etc...;
+see :doc:`Rendered Output </render/output/properties/metadata>` for a full list.
+Some other graphic program also store some metadata, however,
+only the text stored in the header field "Comments" can be read
+
+Some of this metadata can also be made visible in the Preview with the
+:ref:`Metadata <bpy.types.SequencerPreviewOverlay.show_metadata>` overlay.
+
+.. tip::
+
+   To edit a files metadata you can use an external program such as exiftool.
+   For example, the command to change the "Comments" field is::
+
+      exiftool --comments="My new comment" name-of-file.png
 
 .. note::
 
-   The metadata will only be displayed for the image, that has not been processed by any effect.
-   By default images are processed by alpha over blending.
+   The metadata will only be displayed for the image/ movie strip and not from strips processed by any effect strip.
+   For example, adding an effect strip (eg. Glow) will hide the metadata from view.
+   Of course, the metadata isn't removed from the file. Hiding the effect strip will display it again.

@@ -27,7 +27,7 @@ Safe Areas
 .. _bpy.types.SequencerPreviewOverlay.show_metadata:
 
 Metadata
-   Display Image metadata in the preview area.
+   Display :ref:`Image Metadata <editors_vse_preview_sidebar-metadata>` in the preview area.
 
 .. _bpy.types.SequencerPreviewOverlay.show_annotation:
 
