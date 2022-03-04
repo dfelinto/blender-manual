@@ -17,10 +17,8 @@ The *Metadata* panel includes options for writing metadata into render output.
 Metadata Input
    Where to grab metadata from.
 
-   Scene
-      Use metadata from the current scene.
-   Sequencer Strips
-      Use metadata from the strips in the Sequencer.
+   :Scene: Use metadata from the current scene.
+   :Sequencer Strips: Use metadata from the strips in the Sequencer.
 
 Include
    Date
