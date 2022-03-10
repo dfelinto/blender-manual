@@ -58,7 +58,7 @@ Face
    Select faces.
 
 
-.. _bpy.types.SpaceUVEditor.sticky_select_mode:
+.. _bpy.types.ToolSettings.uv_sticky_select_mode:
 
 Sticky Selection Mode
 =====================

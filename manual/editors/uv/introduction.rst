@@ -112,7 +112,7 @@ Selection Mode
 
 Sticky Selection Mode
    Option to automatically expand selection.
-   See :ref:`Sticky Selection Mode <bpy.types.SpaceUVEditor.sticky_select_mode>` for more details.
+   See :ref:`Sticky Selection Mode <bpy.types.ToolSettings.uv_sticky_select_mode>` for more details.
 
 View
    Tools for controlling how the content is displayed in the editor.
