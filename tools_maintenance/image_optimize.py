@@ -6,7 +6,9 @@ This tool optimizes images if their size can be improved.
 Currently only performs lossless compression on PNG images using 'pngcrush'.
 """
 
+import multiprocessing
 import os
+
 BASEDIR = os.path.abspath(os.path.dirname(__file__))
 
 VERBOSE = False
@@ -46,47 +48,53 @@ def files_recursive(path, ext_test):
                 yield os.path.join(dirpath, filename)
 
 
+def exec(f):
+    # ensure we never used a stale file
+    TMP_NAME = f + ".tmp"
+
+    if os.path.exists(TMP_NAME):
+        os.remove(TMP_NAME)
+
+    if os.path.exists(TMP_NAME):
+        print("Error removing %r" % TMP_NAME)
+
+    cmd = [
+        "pngcrush",
+        "-brute",
+        "-reduce",
+        "-m", "7",
+        f,
+        TMP_NAME,
+    ]
+
+    run(cmd)
+
+    if os.path.exists(TMP_NAME):
+        s = os.path.getsize(f)
+        d = os.path.getsize(TMP_NAME)
+
+        if d != 0:
+            fac = d / s
+            if fac < (1.0 - FACTOR):
+                print("Replacing: %r" % f)
+                os.remove(f)
+                os.rename(TMP_NAME, f)
+            else:
+                os.remove(TMP_NAME)
+
+
 def main():
     vcs_dir = find_vcs_root(BASEDIR)
-    print(vcs_dir)
     if vcs_dir is None:
         print("Can't find version directory, aborting!")
         return
 
-    TMP_NAME = "out.png"
-    for f in sorted(files_recursive(vcs_dir, ".png")):
+    images = os.path.join(vcs_dir, "manual", "images")
 
-        # ensure we never used a stale file
-        if os.path.exists(TMP_NAME):
-            os.remove(TMP_NAME)
-
-        if os.path.exists(TMP_NAME):
-            print("Error removing %r" % TMP_NAME)
-
-        cmd = [
-            "pngcrush",
-            "-brute",
-            "-reduce",
-            "-m", "7",
-            f,
-            TMP_NAME,
-        ]
-
-        run(cmd)
-
-        if os.path.exists(TMP_NAME):
-            s = os.path.getsize(f)
-            d = os.path.getsize(TMP_NAME)
-
-            if d != 0:
-                fac = d / s
-                if fac < (1.0 - FACTOR):
-                    print("Replacing: %r" % f)
-                    os.remove(f)
-                    os.rename(TMP_NAME, f)
-
-    if os.path.exists(TMP_NAME):
-        os.remove(TMP_NAME)
+    pool = multiprocessing.Pool()
+    pool.map_async(exec, files_recursive(images, ".png"))
+    pool.close()
+    pool.join()
 
 
 if __name__ == "__main__":
