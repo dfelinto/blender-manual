@@ -13,8 +13,8 @@ BASEDIR = os.path.abspath(os.path.dirname(__file__))
 
 VERBOSE = False
 
-# Ignore result unless it's at least 7.5% improvement
-FACTOR = 0.075
+# Ignore result unless it's at least 5% improvement
+FACTOR = 0.05
 
 
 def find_vcs_root(test, dirs=(".svn", ".git"), default=None):
