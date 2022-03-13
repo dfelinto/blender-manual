@@ -193,8 +193,9 @@ Shading
 .. _bpy.types.RenderSettings.use_sequencer_override_scene_strip:
 
 Override Scene Settings
-   Use the Workbench render settings from the sequencer scene,
-   instead of each individual scene used in the strip.
+   Use the :ref:`Workbench render settings </render/workbench/index>` from the sequencer scene,
+   *not* the Workbench render settings from the source scene.
+   This option is only available, if *Solid* shading is activate.
 
 
 Annotations
