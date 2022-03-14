@@ -1,4 +1,4 @@
-.. _getting-started-index:
+:orphan:
 
 ###################
   Getting Started

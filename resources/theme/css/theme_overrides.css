@@ -16,6 +16,10 @@ h5 {margin-bottom: 5px}
 .wy-side-nav-search > a:hover {background: none; opacity: 0.9}
 .wy-side-nav-search > a.icon::before {content: none}
 
+.wy-menu-vertical p.caption {
+	color: #e6e6e6;
+}
+
 /* Ensure background of input fields is light color even when a local theme wants it to be dark. */
 input[type="text"], input[type="search"], input[type="password"],
 input[type="email"], input[type="url"],
