@@ -32,7 +32,7 @@ Workflow
       To make syncing strips easier you can group cameras, their audio,
       and their effects together using :doc:`Meta Strips </video_editing/sequencer/meta>`.
 
-#. Split the editor into many :doc:`Previews </video_editing/preview/index>`, one for each input track.
+#. Split the editor into many :doc:`Previews </editors/video_sequencer/preview/index>`, one for each input track.
    Then change the :ref:`Display Channel <bpy.types.SpaceSequenceEditor.display_channel>`
    of each of the previews to the channel number of the input track.
 #. Add a Multicam Selector strip *above* all the video channel tracks.

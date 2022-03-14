@@ -27,7 +27,7 @@ Tool
    :View Type: Preview
    :Panel:     :menuselection:`Sidebar --> Tool tab`
 
-Displays information about the active :ref:`tool </editors/video_sequencer/preview/toolbar>`.
+Displays information about the active :doc:`tool </editors/video_sequencer/preview/toolbar>`.
 
 
 View
@@ -193,7 +193,7 @@ Shading
 .. _bpy.types.RenderSettings.use_sequencer_override_scene_strip:
 
 Override Scene Settings
-   Use the :ref:`Workbench render settings </render/workbench/index>` from the sequencer scene,
+   Use the :doc:`Workbench render settings </render/workbench/index>` from the sequencer scene,
    *not* the Workbench render settings from the source scene.
    This option is only available, if *Solid* shading is activate.
 

@@ -17,7 +17,7 @@ forms the background and the highest the foreground.
 .. note::
 
    The first channel 0 is unusable as a place to put strips.
-   This is because it is used by the :doc:`Sequencer Display </video_editing/preview/introduction>`
+   This is because it is used by the :doc:`Sequencer Display </editors/video_sequencer/preview/introduction>`
    to show a composite of all strips above channel 0.
 
 This region is where strips can be :doc:`selected </video_editing/sequencer/selecting>`,
