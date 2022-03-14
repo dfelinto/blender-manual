@@ -5,8 +5,8 @@ Select Loops
 
 .. _bpy.ops.mesh.loop_multi_select:
 
-Edge Loops
-==========
+Select Edge Loops
+=================
 
 .. reference::
 
@@ -34,8 +34,8 @@ the right sphere shows an edge that was selected latitudinally and has formed a 
 This is because the algorithm hit the first edge that it started with.
 
 
-Edge Loops (All Boundaries)
----------------------------
+Select Edge Loops (All Boundaries)
+----------------------------------
 
 All boundary edges can be selected by performing a second loop select action on a boundary edge.
 
@@ -49,8 +49,8 @@ where loop select would not otherwise select the full boundary.
 
 .. _modeling-meshes-selecting-face-loops:
 
-Face Loops
-==========
+Select Face Loops
+=================
 
 .. reference::
 
@@ -85,8 +85,8 @@ the entire face.
 
 .. _modeling-meshes-selecting-edge-rings:
 
-Edge Rings
-==========
+Select Edge Rings
+=================
 
 .. reference::
 

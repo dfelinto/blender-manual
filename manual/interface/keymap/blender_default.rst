@@ -111,7 +111,7 @@ These keys are shared across editors such as the 3D Viewport, UV and Graph edito
    * - :kbd:`Ctrl-Tab`
      - Mode switching pie menu (toggles Pose Mode for armatures).
    * - :kbd:`1` - :kbd:`3`
-     - Edit mesh vertex/edge/face toggle (:kbd:`Shift` extends, :kbd:`Ctrl` expands).
+     - Edit mesh vertex/edge/face toggle (:kbd:`Shift` extends, :kbd:`Ctrl` expands & contracts).
    * - :kbd:`AccentGrave`
      - 3D Viewport navigation pie menu.
    * - :kbd:`Ctrl-AccentGrave`

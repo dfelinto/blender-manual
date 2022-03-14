@@ -57,13 +57,19 @@ Running from the Terminal
 See :doc:`Launching from the terminal </advanced/command_line/launch/linux>`.
 
 
-Avoiding Alt+Mouse Conflict
+Avoiding Alt-Mouse Conflict
 ===========================
 
-Many Window Managers default to :kbd:`Alt-LMB` for moving windows,
-which is a shortcut that Blender uses to simulate a three button mouse.
-You can either have this feature disabled :menuselection:`Preferences --> Input --> Emulate 3 Button Mouse`
-or you can change the Window Manager settings to use the *Meta* key instead (also called *Super* or *Windows key*):
+Some window-managers default to :kbd:`Alt-LMB` and :kbd:`Alt-RMB` for moving and resizing windows.
+
+Blender uses Alt mouse buttons for various operations, notably:
+
+- :ref:`Emulate 3 Button Mouse <preferences-input-emulate-mouse>`.
+- :ref:`bpy.ops.mesh.loop_multi_select`.
+- :ref:`Changing multiple properties at once <keymap-common-properties>`.
+
+To access Blender's full feature set you can change the window-manager settings to use the *Meta* key instead
+(also called *Super* or *Windows key*):
 
 Gnome
    Enter the following in a command line (effective at next login):

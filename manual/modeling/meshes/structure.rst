@@ -219,7 +219,7 @@ They start and end at the same vertex and divide the model into two partitions.
 Loops can be a quick and powerful tool to work with specific,
 continuous regions of a mesh and are a prerequisite for organic character animation.
 For a detailed description of how to work with loops in Blender, see:
-:ref:`Edge Loop Selection <bpy.ops.mesh.loop_multi_select>`.
+:ref:`bpy.ops.mesh.loop_multi_select`.
 
 .. note::
 
@@ -246,8 +246,7 @@ Take Fig. :ref:`fig-mesh-topo-loop` in organic modeling as an example: the edge 
 the natural contours and deformation lines of the skin and the underlying muscles.
 The loops are denser in areas that deform more when the character moves, for example at the shoulders or knees.
 
-Further details on working with edge loops can be found in
-:ref:`Edge Loop Selection <bpy.ops.mesh.loop_multi_select>`.
+Further details on working with edge loops can be found in :ref:`bpy.ops.mesh.loop_multi_select`.
 
 
 .. rubric:: Face Loops
