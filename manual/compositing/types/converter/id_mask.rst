@@ -62,3 +62,9 @@ to multiply the smoothed edges of the image, thus removing those nasty lines, th
 .. figure:: /images/compositing_types_converter_id-mask_example.png
 
    ID Mask node example.
+
+
+Limitations
+===========
+
+- :doc:`Volume Objects </modeling/volumes/introduction>` are not supported.

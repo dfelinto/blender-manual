@@ -91,3 +91,4 @@ Limitations
 
 - Cryptomatte sidecars (metadata files) are not supported.
 - Cryptomatte node cannot be used in node groups.
+- :doc:`Volume Objects </modeling/volumes/introduction>` are not supported.
