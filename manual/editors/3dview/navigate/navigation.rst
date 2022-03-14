@@ -70,8 +70,6 @@ For discrete steps, use the hotkeys :kbd:`Ctrl-Numpad8`, :kbd:`Ctrl-Numpad2`,
 :kbd:`Ctrl-Numpad4` and :kbd:`Ctrl-Numpad6` as with orbiting
 (note: you can replace :kbd:`Ctrl` with :kbd:`Shift`).
 
-If your input device has no middle button, you can hold :kbd:`Shift-Alt` while dragging with :kbd:`LMB`.
-
 
 .. _bpy.ops.view3d.zoom:
 .. _editors_3dview_navigation_zoom:
