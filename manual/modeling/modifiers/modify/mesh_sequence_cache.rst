@@ -1,4 +1,5 @@
 .. index:: Modeling Modifiers; Mesh Sequence Cache Modifier
+.. _bpy.types.MeshSequenceCacheModifier:
 
 ****************************
 Mesh Sequence Cache Modifier
@@ -32,6 +33,19 @@ Cache File
 File Path
    Path to Alembic or USD file.
 
+Object Path
+   The path to the Alembic or USD object inside the archive or stage.
+
+Read Data
+   Type of data to read for a mesh object, respectively: vertices,
+   polygons, UV maps and Vertex Color layers.
+
+   Vertices, Faces, UV, Color
+
+
+Time
+----
+
 Sequence
    Whether or not the cache is separated in a series of files.
 
@@ -46,31 +60,25 @@ Frame Offset
    Subtracted from the current frame to use for looking up the data in the cache file,
    or to determine which file to use in a file sequence.
 
+
+Velocity
+--------
+
 Velocity Attribute
    The name of the Alembic attribute used for generating motion blur data;
    by default, this is ``.velocities`` which is standard for most Alembic files.
 
    .. note:: The *Velocity Attribute* option is currently for Alembic files only.
 
-
 Velocity Unit
    Defines how the velocity vectors are interpreted with regard to time.
 
-   Frame
+   :Frame:
       The velocity unit was encoded in frames and does not need to be scale by scene FPS.
-   Second
+   :Second:
       The velocity unit was encoded in seconds and needs to be scaled by the scene FPS (1 / FPS).
 
    .. note:: The *Velocity Unit* option is currently for Alembic files only.
-
-Object Path
-   The path to the Alembic or USD object inside the archive or stage.
-
-Read Data
-   Type of data to read for a mesh object, respectively: vertices,
-   polygons, UV maps and Vertex Color layers.
-
-   Vertices, Faces, UV, Color
 
 Velocity Scale
    Multiplier used to control the magnitude of the velocity vector for time effects such as motion blur.
