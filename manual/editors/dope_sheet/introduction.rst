@@ -227,8 +227,11 @@ See :doc:`F-Curve </editors/graph_editor/fcurves/index>`.
 Filters
 ^^^^^^^
 
+.. _bpy.types.DopeSheet.show_only_selected:
+
 Only Show Selected
-   Only include keyframes related to the selected objects and data.
+   Only include keyframes related to the selected item this item
+   could be sequencer strips, nodes, objects, or any other type of data.
 Show Hidden
    Include keyframes from objects or bones that are not visible.
 Only Show Errors
