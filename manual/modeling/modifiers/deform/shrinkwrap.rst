@@ -29,7 +29,7 @@ Wrap Method
    This selector specifies the method to be used to determine the nearest
    point on the target's surface for each vertex of the modified object.
    Some options will add some extra, specific controls to the panel.
-   See :ref:`modeling_modifiers_deform_shrinkwrap_methods` for an explanation of each method.
+   See `Wrap Methods`_ for an explanation of each method.
 
 Snap Mode
    Most modes support an additional setting to control how the vertex
@@ -66,8 +66,6 @@ Vertex Group
    The vertex group to control whether and how much each vertex is displaced to its target position.
    If a vertex is not a member of this group, it is not displaced (same as weight 0).
 
-
-.. _modeling_modifiers_deform_shrinkwrap_methods:
 
 Wrap Methods
 ============

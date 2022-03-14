@@ -26,7 +26,7 @@ Wrap Method
    This selector specifies the method to be used to determine the nearest
    point on the target's surface for each point of the modified object.
    Some options will add some extra, specific controls to the panel.
-   See :ref:`modeling_modifiers_deform_shrinkwrap_methods` for an explanation of each method.
+   See `Wrap Methods`_ for an explanation of each method.
 
 Snap Mode
    Most modes support an additional setting to control how the point
@@ -71,8 +71,6 @@ Influence
 
 See :ref:`grease-pencil-modifier-influence-filters`.
 
-
-.. _modeling_modifiers_deform_shrinkwrap_methods:
 
 Wrap Methods
 ============
