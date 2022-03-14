@@ -27,9 +27,8 @@ Eevee
 =====
 
 Specular
-   Specular Light intensity multiplier. Use it for artistic control.
-   Defines the intensity with which the light object will be visible in reflections on the surface of specular objects,
-   like metals or mirrors.
+   Specular Light intensity multiplier. Use it for artistic control. Defines the intensity with which the light object
+   will be visible in reflections on the surface of specular objects, like metals or mirrors.
    Setting this to 0 will make the light object disappear from specular reflections. Keep it exactly at 1.0 for
    photo-realistic results.
 Custom Distance

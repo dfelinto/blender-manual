@@ -7,7 +7,8 @@ Tissue
 .. figure:: /images/addons_mesh_tissue_cover.jpg
 
 Tissue is a collection of tools that facilitate the use of computational-design techniques inside Blender.
-It consists of different tools, visible in the right panel. According to the active mode, different tools are displayed:
+It consists of different tools, visible in the right panel.
+According to the active mode, different tools are displayed:
 
 - :ref:`Tissue Tools <tissue tools>` (visible in Edit Mode and Object Mode)
 - :ref:`Tissue Weight Tools <tissue weight tools>`  (visible in Weight Paint Mode)
@@ -46,7 +47,8 @@ Once the *Tessellate* button was pressed, then more options will appear in the t
 
 .. figure:: /images/addons_mesh_tissue_tessellate-operator.jpg
 
-Later it will be possible to change them, together with more advanced settings from the *Object Data Panel* of the generated object.
+Later it will be possible to change them,
+together with more advanced settings from the *Object Data Panel* of the generated object.
 
 .. figure:: /images/addons_mesh_tissue_tessellate-panel.jpg
 
@@ -112,7 +114,8 @@ Thickness
       Allows to control the alignment of the components in relation to the Base object surface.
 
 Weight and Morphing
-  Combine the Vertex Groups of the base object with the Shape Keys from the component, in order to generate morphing components.
+  Combine the Vertex Groups of the base object with the Shape Keys from the component,
+  in order to generate morphing components.
 
   .. figure:: /images/addons_mesh_tissue_tessellate-weight-and-morphing.jpg
 
@@ -144,8 +147,9 @@ Iterations
       All
         Combine the tessellation with all the faces from the previous iteration.
 
+
 Dual Mesh
-----------
+---------
 
 *Dual Mesh* modifies the selected meshes creating dual meshes.
 Dual Mesh output is a polygonal mesh derived from the triangular mesh.
@@ -159,6 +163,7 @@ Polygon Method
    Methods for splitting the polygons into triangles. (Inherited from the *Triangulate Faces* tool.)
 Preserve Borders
    Prevent alteration of the open boundaries of the mesh.
+
 
 Convert to Curve
 ----------------
@@ -263,7 +268,8 @@ Different methods can be used: *Geodesic*, *Euclidean* or *Topology* distance.
 Weight Formula
 --------------
 
-Weight based on Vertices parameters. Allows to use vertices coordinates and normals direction. Integer and Float sliders can be created in order to find the proper parameters more easily.
+Weight based on Vertices parameters. Allows to use vertices coordinates and normals direction.
+Integer and Float sliders can be created in order to find the proper parameters more easily.
 
 .. figure:: /images/addons_mesh_tissue_weight-formula.jpg
 
@@ -291,7 +297,8 @@ Random
 Edges Deformation
 -----------------
 
-Generate a Vertex Group based on Edges Deformation evaluated on the Modifiers result (Deformation Modifiers and Simulations)
+Generate a Vertex Group based on Edges Deformation evaluated on the Modifiers result
+(Deformation Modifiers and Simulations)
 
 .. figure:: /images/addons_mesh_tissue_weight-edges-deformation.jpg
 
@@ -299,7 +306,8 @@ Generate a Vertex Group based on Edges Deformation evaluated on the Modifiers re
 Edges Bending
 -------------
 
-Generate a Vertex Group based on Edges Bending evaluated on the Modifiers result (Deformation Modifiers and Simulations)
+Generate a Vertex Group based on Edges Bending evaluated on the Modifiers result
+(Deformation Modifiers and Simulations).
 
 .. figure:: /images/addons_mesh_tissue_weight-edges-bending.jpg
 

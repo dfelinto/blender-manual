@@ -187,7 +187,7 @@ Animation
 Jump N Frames
 -------------
 
-Press :kbd:`Shift+Up` or :kbd:`Shift+Down` to jump forward/backwards a custom number of frames.
+Press :kbd:`Shift-Up` or :kbd:`Shift-Down` to jump forward/backwards a custom number of frames.
 
 Useful for example when animating at 12 frames per second, to be able to jump every 1 second with a shortcut.
 Make sure to save the preferences so this value is stored and used in the future.
@@ -228,7 +228,7 @@ When working with linked libraries, very often you need to save and load again t
 
 Note: Since this feature is meant to speed-up the save/reload process, there is no prompt on save.
 
-Usage: Press :kbd:`Ctrl+Shift+W` or find it at the bottom of the File menu
+Usage: Press :kbd:`Shift-Ctrl-W` or find it at the bottom of the File menu
 
 
 Refresh Scene
