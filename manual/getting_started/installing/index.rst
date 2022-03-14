@@ -63,8 +63,10 @@ Follow the steps for your platform.
    Blender doesn't have a built-in updating system. This means you will need to update Blender yourself
    by following the upgrade steps described in the sections below.
 
+
 .. toctree::
    :maxdepth: 1
+   :caption: Installation Guides
 
    linux.rst
    macos.rst
