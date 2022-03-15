@@ -42,7 +42,7 @@ nested instances by instancing on the points real geometry and instanced geometr
 
 .. figure:: /images/modeling_geometry-nodes_instances-nested.png
    :align: center
-  
+
    A node group that creates nested instancing by chaining
    :doc:`instance on points </modeling/geometry_nodes/instances/instance_on_points>` nodes.
 
@@ -62,7 +62,7 @@ were more complicated.
 
 .. warning::
 
-   Only eight levels of nested instancing are supported for rendering and the viewport currently. 
+   Only eight levels of nested instancing are supported for rendering and the viewport currently.
    Though deeper trees of instances can be made inside geometry nodes, they must be realized at the
    end of the node tree.
 

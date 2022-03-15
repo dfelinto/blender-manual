@@ -101,7 +101,7 @@ to determine the domains of attributes.
   They can be used to store different values on copies of geometry data. Instance domain attributes are
   only supported in geometry nodes.
 
-Attributes are automatically interpolated to other domains. For example, when the 
+Attributes are automatically interpolated to other domains. For example, when the
 :doc:`/modeling/geometry_nodes/input/position` is connected to the selection input of
 the :doc:`/modeling/geometry_nodes/material/set_material` node, the values are interpolated
 from the *Point* domain to the *Face* domain. Normally, domain conversions use simple averages
@@ -340,7 +340,7 @@ Mode
       *face corner* domain.
 
 .. note::
-   
+
    This operator only works on *original* object data, not including the results of modifiers,
    so any attributes added or changed by geometry nodes will not be affected. To change the type
    of an attribute generated procedurally, modifiers must be applied.

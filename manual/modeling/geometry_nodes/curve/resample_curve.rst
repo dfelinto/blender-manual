@@ -41,7 +41,6 @@ Length
       even when the length of the spline changes.
 
 
-
 Properties
 ==========
 

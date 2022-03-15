@@ -42,7 +42,6 @@ Getting Started
          :doc:`/getting_started/help`
 
 
-
 Sections
 ========
 

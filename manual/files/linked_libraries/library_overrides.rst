@@ -86,7 +86,7 @@ overrides can be resynced manually using `Resync Library Override Hierarchy`_.
    Blender is also able to resync library overrides from external libraries, that are then linked into a
    working file. However, this is a costly process that needs to be fully redone every time the working
    file is loaded, since Blender cannot edit/modify the external library directly.
-   
+
    So users linking overrides (or creating recursive overrides) should ensure that their library files are
    regularly updated, to avoid this overhead on file load (typically, opening and saving those library files
    should be enough to update them).

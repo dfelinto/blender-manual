@@ -26,7 +26,7 @@ and operating system.
 CUDA -- NVIDIA
 --------------
 
-:abbr:`CUDA (Compute Unified Device Architecture)` is supported on Windows and Linux and requires a 
+:abbr:`CUDA (Compute Unified Device Architecture)` is supported on Windows and Linux and requires a
 Nvidia graphics cards with compute capability 3.0 and higher. To make sure your GPU is supported,
 see the `list of Nvidia graphics cards <https://developer.nvidia.com/cuda-gpus#compute>`__
 with the compute capabilities and supported graphics cards.
@@ -46,7 +46,7 @@ OptiX works best on RTX graphics cards with hardware ray tracing support (e.g. T
 HIP -- AMD
 ----------
 
-:abbr:`HIP (Heterogeneous-compute Interface for Portability)` is supported on Windows and requires a 
+:abbr:`HIP (Heterogeneous-compute Interface for Portability)` is supported on Windows and requires a
 discrete AMD graphics card with the RDNA architecture or newer and AMD Radeon Software 21.12.1
 or AMD Radeon PRO Software 21.Q4 GPU drivers and newer.
 

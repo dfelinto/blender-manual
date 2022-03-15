@@ -397,7 +397,6 @@ Invert
    Invert the values read from vertex weight.
 
 
-
 Example
 =======
 

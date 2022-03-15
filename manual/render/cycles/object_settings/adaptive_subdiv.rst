@@ -35,7 +35,6 @@ Adaptive Subdivision
          Subdivision off/on, Dicing Scale: 1.0 - 0.3 - 0.05 (monkeys look identical in viewport, no modifiers).
 
 
-
 Known Limitations
 =================
 

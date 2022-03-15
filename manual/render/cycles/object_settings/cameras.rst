@@ -65,7 +65,7 @@ Fisheye Lens Polynomial
 
 Match a real world camera by specifying the coordinates of a 4th degree polynomial.
 A position :math:`(x, y)` on the camera sensor in mm is mapped to a direction with
-spherical coordinates :math:`(1, \theta, \phi)` in radians as follows: 
+spherical coordinates :math:`(1, \theta, \phi)` in radians as follows:
 
 .. math::
   & r = \sqrt{x^2 + y^2}\\

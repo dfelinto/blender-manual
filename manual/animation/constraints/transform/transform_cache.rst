@@ -16,7 +16,6 @@ For time-varying meshes (so deforming animations),
 the :doc:`Mesh Sequence Cache modifier </modeling/modifiers/modify/mesh_sequence_cache>` is used.
 
 
-
 Options
 =======
 

@@ -53,7 +53,7 @@ Simple
    (the same as the :ref:`Subdivide <bpy.ops.mesh.subdivide>` operator, in Edit Mode).
    To work around this behavior for non-coplanar geometry,
    :doc:`triangulate </modeling/modifiers/generate/triangulate>` to ensure all geometry is coplanar.
-   
+
    Simple mode can be used, for example, to increase the base mesh resolution when using displacement maps.
 
 Levels Viewport, Render

@@ -79,7 +79,7 @@ Curve
 
    :Control Point: Display attributes that are stored per control point.
    :Spline: Display attributes that are stored per spline.
-      
+
 Point Cloud
    Point cloud component containing only point data.
 

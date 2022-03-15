@@ -43,7 +43,7 @@ Use Tiling
 Tile Size
    This value is used to control the size of the tile used for rendering;
    decreasing the size reduces memory usage.
-   
+
    .. note::
 
       In some cases changing the *Tile Size* can result in increased performance.
@@ -71,7 +71,7 @@ Use Hair BVH
 
 BVH Time Steps
    Split BVH primitives by this number of time steps to speed up render time at the expense of memory.
-   
+
 Use Compact BVH
    Use a more compact BVH structure, which can reduce RAM usage but render slower.
 

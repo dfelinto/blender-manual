@@ -13,7 +13,7 @@ Knife projection is a non-interactive tool where you can use objects to cookie-c
 one or more meshes rather than hand drawing the line. The outline of selected objects
 that *are not* in Edit Mode are used to cut the meshes along the view axis of objects
 that *are* in Edit Mode. Afterwards the resulting geometry inside the cutters outline will be selected.
-Outlines can be a wireframe or boundary edges (i.e. the unconnected edges of a mesh), as well as 
+Outlines can be a wireframe or boundary edges (i.e. the unconnected edges of a mesh), as well as
 Curve objects.
 
 Keep in mind that Knife Project works from the current view's perspective.  For best results, make sure
@@ -27,7 +27,7 @@ as Right, Front, and Top are commonly used for more predictable results.
    :ref:`Select Non-Manifold <bpy.ops.mesh.select_non_manifold>`
    (Wire, Boundaries) will highlight the cutting edges of mesh objects.
 
-   In general, for flat shapes, you will usually want to select "Faces Only" from the delete menu to leave 
+   In general, for flat shapes, you will usually want to select "Faces Only" from the delete menu to leave
    behind only edges.
 
 To use Knife Project, first in *Object Mode* select the objects to be cut,

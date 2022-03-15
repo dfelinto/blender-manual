@@ -24,5 +24,5 @@ Geometry nodes can modify different types of geometry:
 * :doc:`Instances </modeling/geometry_nodes/instances>`
 
 
-The interface of the modifier is described in the 
+The interface of the modifier is described in the
 :doc:`Modifier </modeling/modifiers/generate/geometry_nodes>` page.

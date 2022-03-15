@@ -52,7 +52,6 @@ Mode
       (`NIMPLY <https://en.wikipedia.org/wiki/NIMPLY_gate>`__)
 
 
-
 Output
 ======
 

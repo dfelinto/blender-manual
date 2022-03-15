@@ -246,7 +246,6 @@ panel can be used, see the next Section.
    structure, there is only *one representative ball object*!
 
 
-
 Atomic Blender Utilities Panel
 ==============================
 

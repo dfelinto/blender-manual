@@ -34,7 +34,7 @@ Axis Constrain :kbd:`X`, :kbd:`Y`, :kbd:`Z`
 
 Edge Constrain :kbd:`Shift`
    Constraint the cursor movement towards an edge. For the constrain work, you need to have
-   your cursor over an edge. This is useful for creating parallel lines. 
+   your cursor over an edge. This is useful for creating parallel lines.
 
 Confirm Input :kbd:`Return`
    Confirms the numerical value written in the header for the line length.
@@ -48,9 +48,8 @@ Confirm :kbd:`RMB`
 :kbd:`Tab`
    Snap limited to only faces.
 
-Cancel :kbd:`Esc` 
+Cancel :kbd:`Esc`
    Cancel the operation.
-
 
 
 Options
