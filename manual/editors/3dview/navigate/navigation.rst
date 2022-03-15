@@ -3,6 +3,7 @@
 Navigation
 **********
 
+
 .. _bpy.ops.view3d.view_orbit:
 
 Orbit
@@ -20,24 +21,17 @@ Click and drag :kbd:`MMB` on the viewport's area.
 If you start in the middle of the area and move up and down or left and right,
 the view is rotated around the middle of the area.
 
+Holding :kbd:`Alt` while dragging locks to axes.
+
 To change the viewing angle in discrete steps, use :kbd:`Numpad8` and :kbd:`Numpad2`
 or use :kbd:`Numpad4` and :kbd:`Numpad6`
 to rotate the scene around the global Z axis from your current point of view.
 Finally :kbd:`Numpad9` switches to the opposite side of the view.
 
-Or if the :ref:`Emulate 3 Button Mouse <preferences-input-emulate-mouse>`
-option is select in the Preferences you can press and hold :kbd:`Alt`
-while dragging :kbd:`LMB` in the viewport's area.
-
-.. note:: Hotkeys
-
-   Remember that most hotkeys affect the **active** area (the one that has focus),
-   so check that the mouse cursor is in the area you want to work in before you use the hotkeys.
-
 .. seealso::
 
    - :ref:`Orbit Style Preference <prefs-input-orbit-style>`
-   - :ref:`Auto-Perspective Preference <prefs-interface-auto-perspective>`
+   - :ref:`Auto-Perspective Preference <prefs-navigation-auto_perspective>`
 
 
 Roll
@@ -49,7 +43,8 @@ Roll
    :Menu:      :menuselection:`View --> Navigation --> Roll`
    :Shortcut:  :kbd:`Shift-Numpad4`, :kbd:`Shift-Numpad6`
 
-Rotate the viewport camera around its local Z axis in 15° discrete steps.
+Rotate the viewport camera around its local Z axis in 15° discrete steps by default,
+see :ref:`rotation angle <prefs-navigation-rotation_angle>` preference to configure.
 
 
 .. _bpy.ops.view3d.view_pan:

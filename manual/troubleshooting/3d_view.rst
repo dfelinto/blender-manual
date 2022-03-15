@@ -126,7 +126,7 @@ Solutions
 
 - Use :ref:`View Dolly <3dview-nav-zoom-dolly>`.
 - Use :ref:`Walk/Fly Navigation <3dview-fly-walk>`.
-- Use :ref:`Auto Depth <prefs-auto-depth>` and :ref:`Zoom to Mouse Position <prefs-zoom-mouse-pos>`.
+- Use :ref:`Auto Depth <prefs-navigation-auto_depth>` and :ref:`Zoom to Mouse Position <prefs-zoom-mouse-pos>`.
   These tools will make sure the distance is always the value under the mouse cursor,
 - Use :ref:`3dview-nav-zoom-region` as it also resets the center point when zooming.
 - Center the view around the mouse cursor :kbd:`Alt-MMB`.

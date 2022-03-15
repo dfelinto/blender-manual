@@ -46,5 +46,6 @@ the Camera tab and set the type *Orthographic* in the *Lens* panel.
 
 .. seealso::
 
+   - :ref:`Auto-Perspective Preference <prefs-navigation-auto_perspective>`
    - :ref:`Render perspective <camera-lens-type>`
    - :term:`Camera Projections <Projection>`

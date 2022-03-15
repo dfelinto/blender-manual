@@ -55,6 +55,6 @@ Modified
 Format
    Select the type of image file to save (``.png``, ``.eps``, ``.svg``).
 Size
-   select the size of the image in pixels. The image be square.
+   Select the size of the image in pixels.
 Fill Opacity
    Set the opacity of the fill.

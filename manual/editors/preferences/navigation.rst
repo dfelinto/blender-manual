@@ -35,7 +35,7 @@ Orbit Sensitivity
      of rotation per-pixel to control how fast the 3D Viewport rotates.
    - Trackball: *Orbit Sensitivity* as a simple factor for how fast the 3D Viewport rotates.
 
-.. _prefs-orbit-around-selection:
+.. _prefs-navigation-orbit_around_selection:
 
 Orbit Around Selection
    The selection center becomes the rotation center of the viewport.
@@ -50,15 +50,18 @@ Orbit Around Selection
       it can be inconvenient for larger objects such as a terrain mesh,
       where the center is not necessarily a point of interest.
 
-.. _prefs-interface-auto-perspective:
-.. _prefs-auto-depth:
 
 Auto
+   .. _prefs-navigation-auto_depth:
+
    Perspective
       When enabled, the view switches to perspective when orbiting the view,
       setting axis views (Top, Side, Front, Back, etc.), sets the view to orthographic.
 
       When disabled, orthographic/perspective mode needs to be changed manually.
+
+   .. _prefs-navigation-auto_perspective:
+
    Auto Depth
       Use the depth under the mouse to improve view pan, rotate, zoom functionality.
       Useful in combination with *Zoom To Mouse Position*.
@@ -66,6 +69,8 @@ Auto
 Smooth View
    Time (in milliseconds) the animation takes when changing views
    (Top/Side/Front/Camera...). Reduce to zero to remove the animation.
+
+.. _prefs-navigation-rotation_angle:
 
 Rotation Angle
    Rotation step size in degrees, when :kbd:`Numpad4`, :kbd:`Numpad6`, :kbd:`Numpad8`,
@@ -111,7 +116,7 @@ Zoom to Mouse Position
 
    .. tip::
 
-      This is useful in combination with :ref:`Auto Depth <prefs-auto-depth>`
+      This is useful in combination with :ref:`Auto Depth <prefs-navigation-auto_depth>`
       to quickly zoom into the point under the cursor.
 
 Invert Zoom Direction
