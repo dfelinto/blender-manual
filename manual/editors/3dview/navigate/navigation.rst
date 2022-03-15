@@ -13,8 +13,7 @@ Orbit
 
    :Mode:      All modes
    :Menu:      :menuselection:`View --> Navigation --> Orbit`
-   :Shortcut:  :kbd:`MMB`, :kbd:`Numpad2`, :kbd:`Numpad4`, :kbd:`Numpad6`,
-               :kbd:`Numpad8`, :kbd:`Ctrl-Alt-Wheel`, :kbd:`Shift-Alt-Wheel`
+   :Shortcut:  :kbd:`MMB`, :kbd:`Numpad2`, :kbd:`Numpad4`, :kbd:`Numpad6`, :kbd:`Numpad8`.
 
 Rotate the view around the point of interest.
 Click and drag :kbd:`MMB` on the viewport's area.
@@ -62,8 +61,7 @@ Pan
 Moves the view up, down, left and right.
 To pan the view, hold down :kbd:`Shift` and drag :kbd:`MMB` in the 3D Viewport.
 For discrete steps, use the hotkeys :kbd:`Ctrl-Numpad8`, :kbd:`Ctrl-Numpad2`,
-:kbd:`Ctrl-Numpad4` and :kbd:`Ctrl-Numpad6` as with orbiting
-(note: you can replace :kbd:`Ctrl` with :kbd:`Shift`).
+:kbd:`Ctrl-Numpad4` and :kbd:`Ctrl-Numpad6` as with orbiting.
 
 
 .. _bpy.ops.view3d.zoom:
@@ -81,14 +79,12 @@ Zoom In/Out
 Moves the camera forwards and backwards.
 You can zoom in and out by holding down :kbd:`Ctrl` and dragging :kbd:`MMB`.
 To zoom in with discrete steps, use the hotkeys :kbd:`NumpadPlus` and :kbd:`NumpadMinus`.
-If you have a wheel mouse, you can zoom by rotating the :kbd:`Wheel`.
+If you have a wheel mouse, you can also zoom using :kbd:`Wheel`.
 
 .. hint:: If You Get Lost
 
-   If you get lost in 3D space, which is not uncommon, two hotkeys will help you:
-   :kbd:`Home` changes the view so that you can see all objects :menuselection:`View --> Frame All`,
-   while :kbd:`NumpadPeriod` zooms the view to the currently selected objects
-   when in perspective mode :menuselection:`View --> Frame Selected`.
+   If you get lost in 3D space (which is not uncommon) :ref:`3dview-nav-frame_all` and :ref:`3dview-nav-frame_selected`
+   can be used to show the contents of your scene.
 
 
 .. _3dview-nav-zoom-region:
@@ -129,3 +125,35 @@ It works well in many cases, but sometimes you want to move the view-point to a 
 This is what Dolly supports, allowing you to transport the view from one place to another.
 
 You can dolly back and forth by holding down :kbd:`Shift-Ctrl` and dragging with :kbd:`MMB`.
+
+
+.. NOTE(@campbellbarton): "Frame All" & "Frame Selected" could be documented elsewhere,
+   however there doesn't seem to be an ideal location as only items in the View sub-menus have their own files.
+   Loosely speaking these are navigation - so keep here.
+
+.. _3dview-nav-frame_all:
+
+Frame All
+=========
+
+.. reference::
+
+   :Mode:      All modes
+   :Menu:      :menuselection:`View --> Frame All`
+   :Shortcut:  :kbd:`Home`
+
+Moves the viewpoint so that you can see all objects.
+
+
+.. _3dview-nav-frame_selected:
+
+Frame Selected
+==============
+
+.. reference::
+
+   :Mode:      All modes
+   :Menu:      :menuselection:`View --> Frame Selected`
+   :Shortcut:  :kbd:`NumpadPeriod`
+
+Moves the viewpoint so that you can see the selection.
