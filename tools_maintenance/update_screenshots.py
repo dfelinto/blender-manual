@@ -24,7 +24,6 @@ Example Usage
 """
 
 
-import bpy
 import sys
 import os
 if "bpy" not in sys.modules:
@@ -94,6 +93,10 @@ def setup_default_preferences(preferences):
 
     bpy.app.use_userpref_skip_save_on_exit = False
 
+
+# WARNING: do not relocate this import,
+# it's important to postpone so this script can run outside of Blender.
+import bpy
 
 # ----------------------------------------------------------------------
 # Blender Timer Wrapper
@@ -174,7 +177,7 @@ def crop(filepath, size_dst):
         min[1] + size_dst[1],
     )
     ibuf.crop(min=min, max=max)
-    imbuf.write(ibuf, filepath)
+    imbuf.write(ibuf, filepath=filepath)
 
 
 # ----------------------------------------------------------------------
