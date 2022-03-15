@@ -15,7 +15,7 @@ all springs are assumed to be perfectly stiff: no stretch and no squeeze.
 You can adjust the stiffness of all those edge springs, allowing your mesh to sag, to bend,
 to flutter in the breeze, or to puddle up on the ground.
 
-------------------------
+----
 
 To create a connection between the vertices of a soft body object there have to be forces
 that hold the vertices together. These forces are effective along the edges in a mesh,

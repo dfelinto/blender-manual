@@ -90,7 +90,7 @@ For example, the commit `rBM8473 <https://developer.blender.org/rBM8473>`__
 includes a descriptive indicative of the changes made along with the hash ``rBa71d2b260170``.
 The hash can be extracted from the URL provided in the Documentation task for a specific upcoming release.
 
-----------
+----
 
 Other more general changes do not have to follow the above policy however,
 it is still important to make the description clear about what changes you made and why.

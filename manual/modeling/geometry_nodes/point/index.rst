@@ -12,7 +12,7 @@ Nodes that modify the object elements, e.g. vertices.
    points_to_vertices.rst
    points_to_volume.rst
 
-------------------------
+----
 
 .. toctree::
    :maxdepth: 1

@@ -29,7 +29,7 @@ None :kbd:`Alt-A`
 Inverse :kbd:`Ctrl-I`
    Selects all the geometry that is not selected, and deselect currently selected components.
 
-------------------------
+----
 
 :ref:`Box Select <tool-select-box>` :kbd:`B`
    Interactive box selection.
@@ -38,7 +38,7 @@ Inverse :kbd:`Ctrl-I`
 :ref:`Lasso Select <tool-select-lasso>`
    Interactive free-form selection.
 
-------------------------
+----
 
 `Select Random`_
    Select random control points.
@@ -52,12 +52,12 @@ Inverse :kbd:`Ctrl-I`
 `Select Similar`_ :kbd:`Shift-G`
    Select control points that have similar properties to the current selection.
 
-------------------------
+----
 
 `Select Control Point Row`_
    Select a whole :ref:`row <modeling-surfaces-rows-grids>` of control points.
 
-------------------------
+----
 
 `Select More/Less`_
    Select objects based on their parent child relationships.

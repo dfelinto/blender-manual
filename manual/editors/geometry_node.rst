@@ -29,7 +29,7 @@ Add
 Node
    Menu for :doc:`Editing Nodes </interface/controls/nodes/editing>`.
 
------
+----
 
 Geometry Node Group
    The :ref:`data-block selector <ui-data-block>` can change the active node group being edited.
@@ -39,7 +39,7 @@ Pin (pin icon)
    When a geometry node group is pinned, it will remain visible in the Geometry Node editor
    even when another object or modifier is selected elsewhere.
 
------
+----
 
 Parent Node Tree
    Jumps up a node group level, see :ref:`bpy.ops.node.tree_path_parent` for more information.

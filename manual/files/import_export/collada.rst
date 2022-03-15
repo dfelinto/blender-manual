@@ -218,7 +218,7 @@ Auto Connect
    When this option is enabled, then children will automatically
    be connected to their parents, if the parent has only one child.
 
--------
+----
 
 Keep Bind Info
    When this option is enabled, then the importer creates two custom properties for each bone:

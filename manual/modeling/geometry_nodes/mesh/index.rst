@@ -20,7 +20,7 @@ Nodes that only operate on meshes.
    subdivision_surface.rst
    triangulate.rst
 
-------------------------
+----
 
 .. toctree::
    :maxdepth: 1
@@ -34,7 +34,7 @@ Nodes that only operate on meshes.
    mesh_island.rst
    vertex_neighbors.rst
 
-------------------------
+----
 
 .. toctree::
    :maxdepth: 1

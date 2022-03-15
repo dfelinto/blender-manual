@@ -135,7 +135,7 @@ Would be written like this instead, putting a definition first::
       Similar to Bump Mapping, but instead operates on the mesh's actual geometry.
       This relies on the mesh having enough geometry.
 
-------------------------
+----
 
 This entry::
 
@@ -149,7 +149,7 @@ Would be written more like this, avoiding the immediate repetition of the term::
       Perceived change in pitch that occurs
       when the source of a sound is moving relative to the listener.
 
-------------------------
+----
 
 This entry::
 

@@ -20,7 +20,7 @@ Nodes that can operate on different geometry types (volume, mesh).
    separate_geometry.rst
    transform.rst
 
-------------------------
+----
 
 .. toctree::
    :maxdepth: 1

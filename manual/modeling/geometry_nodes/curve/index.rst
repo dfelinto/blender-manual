@@ -19,7 +19,7 @@ Nodes that only operate on curves.
    subdivide_curve.rst
    trim_curve.rst
 
-------------------------
+----
 
 .. toctree::
    :maxdepth: 1
@@ -34,7 +34,7 @@ Nodes that only operate on curves.
    spline_parameter.rst
    spline_resolution.rst
 
-------------------------
+----
 
 .. toctree::
    :maxdepth: 1

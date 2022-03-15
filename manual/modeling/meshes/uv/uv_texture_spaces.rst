@@ -54,7 +54,7 @@ Auto Texture Space
       the location and size of the texture space relative to the base object.
       These can also be adjusted from the 3D Viewport, see `Editing`_ for more information.
 
-------------------------
+----
 
 Texture Mesh
    Use another mesh for texture indices, the vertex of the two objects must be perfectly aligned.

@@ -78,19 +78,19 @@ The same links can also be found in the :ref:`splash`.
 `Support <https://www.blender.org/support>`__
    Links to various sites, providing both community and professional support.
 
-------------------------
+----
 
 `User Communities <https://www.blender.org/community/>`__
    Lists of many different community sites and support venues.
 `Developer Community <https://devtalk.blender.org>`__
    Blender's developer forum.
 
-------------------------
+----
 
 `Python API Reference <https://docs.blender.org/api/current/>`__
    Python application programming interface (API)
 
-------------------------
+----
 
 `Report a Bug <https://developer.blender.org/maniphest/task/edit/form/1/>`__
    The Blender Bug Tracker (registration needed).

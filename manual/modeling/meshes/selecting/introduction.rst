@@ -164,7 +164,7 @@ None :kbd:`Alt-A`
 Inverse :kbd:`Ctrl-I`
    Selects all the geometry that is not selected, and deselect currently selected components.
 
-------------------------
+----
 
 :ref:`Box Select <tool-select-box>` :kbd:`B`
    Interactive box selection.
@@ -173,30 +173,30 @@ Inverse :kbd:`Ctrl-I`
 :ref:`Lasso Select <tool-select-lasso>`
    Interactive free-form selection.
 
-------------------------
+----
 
 :ref:`Select Random <bpy.ops.mesh.select_random>`
    Selects a random group of vertices, edges, or faces, based on a percentage value.
 :ref:`Checker Deselect <bpy.ops.mesh.select_nth>`
    Deselect alternate elements relative to the active item.
 
-------------------------
+----
 
 Select Sharp Edges
    This tool selects all edges between two faces forming an angle greater than the angle value,
    where an increasing angle selects sharper edges.
 
-------------------------
+----
 
 :ref:`Select Similar <bpy.ops.mesh.select_similar>` :kbd:`Shift-G`
    Select elements similar to the current selection.
 
-------------------------
+----
 
 :doc:`Select All by Trait </modeling/meshes/selecting/all_by_trait>`
    Select geometry by querying its characteristics.
 
-------------------------
+----
 
 Select More/Less
    More :kbd:`Ctrl-NumpadPlus`
@@ -208,7 +208,7 @@ Select More/Less
    Previous Active :kbd:`Shift-Ctrl-NumpadMinus`
       Select previous just removes the last selected element.
 
-------------------------
+----
 
 Select Loops
    :ref:`Edge Loops <bpy.ops.mesh.loop_multi_select>`
@@ -218,7 +218,7 @@ Select Loops
    :ref:`Edge Rings <modeling-meshes-selecting-edge-rings>`
       Select connected edge ring.
 
-------------------------
+----
 
 Select Linked
    :ref:`Select Linked <bpy.ops.mesh.select_linked>`
@@ -229,7 +229,7 @@ Select Linked
       Select connected faces based on a threshold of the angle between them.
       This is useful for selecting faces that are planar.
 
-------------------------
+----
 
 Select Side of Active
    Selects all vertices on the mesh in a single axis relative to the active vertex.

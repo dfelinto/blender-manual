@@ -10,7 +10,7 @@ Nodes that work with materials.
 
    replace_material.rst
 
-------------------------
+----
 
 .. toctree::
    :maxdepth: 1
@@ -18,7 +18,7 @@ Nodes that work with materials.
    material_index.rst
    material_selection.rst
 
-------------------------
+----
 
 .. toctree::
    :maxdepth: 1

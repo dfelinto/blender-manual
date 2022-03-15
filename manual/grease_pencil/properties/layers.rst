@@ -59,7 +59,7 @@ Hide (eye icon)
 Lock (padlock icon)
    Toggle layer from being editable.
 
-------------------------
+----
 
 Layer Specials
    Operators for working with layers.
@@ -117,7 +117,7 @@ Visibility (screen icon)
 Isolate Lock (padlock icon)
    Toggle whether the active layer is the only one that can be edited.
 
-------------------------
+----
 
 Below the layers list there are additional common settings:
 

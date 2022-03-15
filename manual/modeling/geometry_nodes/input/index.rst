@@ -20,7 +20,7 @@ Nodes used mainly as input to other nodes.
    value.rst
    vector.rst
 
-------------------------
+----
 
 .. toctree::
    :maxdepth: 1
