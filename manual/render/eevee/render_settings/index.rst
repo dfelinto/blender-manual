@@ -17,6 +17,7 @@
    motion_blur
    volumetrics.rst
    performance.rst
+   hair.rst
    shadows.rst
    indirect_lighting.rst
    film.rst

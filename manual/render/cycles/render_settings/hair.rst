@@ -26,3 +26,12 @@ Shape
    :3D Curves:
       Render hair as 3D curve, for accurate results when viewing hair close up.
       Hair curves are automatically subdivided until the curve is smooth.
+
+Viewport Display
+----------------
+
+These settings control the hair rendering settings used when the 3D viewport is set to
+:ref:`Material Preview <3dview-material-preview>`
+
+.. include:: /render/eevee/render_settings/hair.rst
+   :start-after: .. --- copy below this line ---
