@@ -109,12 +109,13 @@ Alternatively you can zoom out using the :kbd:`MMB`.
 
 .. _3dview-nav-zoom-dolly:
 
-Dolly Zoom
+Dolly View
 ==========
 
 .. reference::
 
    :Mode:      All modes
+   :Menu:      :menuselection:`View --> Navigation --> Dolly View...`
    :Shortcut:  :kbd:`Shift-Ctrl-MMB`
 
 In most cases its sufficient to zoom the view to get a closer look at something,
