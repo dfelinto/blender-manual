@@ -198,8 +198,7 @@ def role_ignore(
 ):
     # Recursively parse the contents of the index term, in case it
     # contains a substitution (like |alpha|).
-    nodes, msgs = inliner.parse(
-        text, lineno, memo=inliner, parent=inliner.parent)
+    nodes, msgs = inliner.parse(text, lineno, memo=inliner, parent=inliner.parent)
     # 'text' instead of 'rawtext' because it doesn't contain the :role:
     return [RoleIgnore(text, '', *nodes, **options)], []
 

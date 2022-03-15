@@ -101,8 +101,7 @@ def warn_role_kbd(fn, data_src):
                     out = content
                     if content != k:
                         out += "| " + k
-                    print(fn + ":" + str(lineno + 1) + ": '" +
-                          out + "' " + "invalid keyboard shortcut")
+                    print(fn + ":" + str(lineno + 1) + ": '" + out + "' " + "invalid keyboard shortcut")
 
     return None
 
@@ -211,12 +210,10 @@ def warn_title(fn, data_src):
 
             if l_test:
                 if len(l_test) + expect_extra != len(l):
-                    print("%s:%d: title %s mismatch %d" %
-                          (fn, i + 1, what, len(l)))
+                    print("%s:%d: title %s mismatch %d" % (fn, i + 1, what, len(l)))
                 indent = len(l_test) - len(l_test.lstrip())
                 if expect_indent != indent:
-                    print("%s:%d: title %s expected indent of %d, got %d" %
-                          (fn, i + 1, what, expect_indent, indent))
+                    print("%s:%d: title %s expected indent of %d, got %d" % (fn, i + 1, what, expect_indent, indent))
 
         l_prev = l
 

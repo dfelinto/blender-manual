@@ -116,8 +116,7 @@ def main(lang):
 
     table_compiled = []
     for key, value in table:
-        pattern_str = r'(\:' + ROLE + \
-            r'\:["\s]*?`[^`]*?)\b' + key + r'\b([^`]*?`)'
+        pattern_str = r'(\:' + ROLE + r'\:["\s]*?`[^`]*?)\b' + key + r'\b([^`]*?`)'
         replace = r'\1' + value + r'\2'
         table_compiled.append((re.compile(pattern_str, re.MULTILINE),
                                replace))
@@ -146,8 +145,7 @@ def main(lang):
             with open(filename, 'w', encoding="utf-8") as f:
                 f.write("".join(text_dst))
 
-            print(filename[filename.find('LC_MESSAGES')+11:] +
-                  ':', n_total, 'change(s).')
+            print(filename[filename.find('LC_MESSAGES')+11:] + ':', n_total, 'change(s).')
 
 
 if __name__ == "__main__":

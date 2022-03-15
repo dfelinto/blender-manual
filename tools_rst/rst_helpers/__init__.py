@@ -41,8 +41,7 @@ def _re_iter_edit(fn, find_text, find_re):
             ls = ls_orig[:]
             yield ls
             if ls != ls_orig:
-                data_dst_ls[-1:] = [data_dst_ls[-1][:offset]] + \
-                    ls + [data_dst_ls[-1][offset_next:]]
+                data_dst_ls[-1:] = [data_dst_ls[-1][:offset]] + ls + [data_dst_ls[-1][offset_next:]]
                 offset = 0
             else:
                 offset = offset_next
@@ -85,8 +84,7 @@ def role_iter(fn, role, angle_brackets=False):
     """
     import re
     if angle_brackets:
-        role_re = re.compile(
-            r"(\:" + role + r"\:\`)([^\<,\n]*)(\s+\<)([^\,\n>]+)(\>\`)")
+        role_re = re.compile(r"(\:" + role + r"\:\`)([^\<,\n]*)(\s+\<)([^\,\n>]+)(\>\`)")
     else:
         role_re = re.compile(r"(\:" + role + r"\:\`)([^`,\n]*)(\`)")
 
@@ -118,7 +116,6 @@ def directive_iter(fn, directive):
     # ..·image::·/images/foo.png
     # As well as substitutions
     # ..·|my-image|·image::·/images/foo.png
-    directive_re = re.compile(
-        r"(\.\.\s+)(\|[^\|]+\|\s+)?(" + directive + r")(\:\:\s+)([^\s,\n]*)")
+    directive_re = re.compile(r"(\.\.\s+)(\|[^\|]+\|\s+)?(" + directive + r")(\:\:\s+)([^\s,\n]*)")
 
     yield from _re_iter_edit(fn, directive, directive_re)

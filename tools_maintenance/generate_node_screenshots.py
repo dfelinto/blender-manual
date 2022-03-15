@@ -39,10 +39,8 @@ def node_region_rect(region, node):
     dimensions = node.dimensions
 
     view_to_region = region.view2d.view_to_region
-    bottom_left = view_to_region(
-        location.x, location.y - dimensions.y, clip=False)
-    top_right = view_to_region(
-        location.x + dimensions.x, location.y, clip=False)
+    bottom_left = view_to_region(location.x, location.y - dimensions.y, clip=False)
+    top_right = view_to_region(location.x + dimensions.x, location.y, clip=False)
 
     return Rectangle(bottom_left[0], bottom_left[1], top_right[0] - bottom_left[0], top_right[1] - bottom_left[1])
 

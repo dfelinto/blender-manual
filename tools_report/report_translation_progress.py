@@ -56,8 +56,7 @@ def report_progress(path, report, quiet=False):
 
     for po_filepath in po_files(path):
 
-        (msgstrs_file_complete, msgstrs_file_empty,
-         msgstrs_file_fuzzy) = parse_file(po_filepath)
+        (msgstrs_file_complete, msgstrs_file_empty, msgstrs_file_fuzzy) = parse_file(po_filepath)
 
         if msgstrs_file_fuzzy > 0:
             msgstrs_all_fuzzy_files.add(po_filepath)

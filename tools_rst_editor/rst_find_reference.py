@@ -50,8 +50,7 @@ def find_rst_root(test, files=("index.rst", "index.txt", "contents.rst", "conten
     return test_found
 
 
-re_find_references = re.compile(
-    r"(^[ \t]*\.\.\s+_)([a-zA-Z0-9_\-]+):", re.MULTILINE)
+re_find_references = re.compile(r"(^[ \t]*\.\.\s+_)([a-zA-Z0-9_\-]+):", re.MULTILINE)
 
 
 def find_references(fn, data, find_ref):
@@ -147,11 +146,7 @@ def main(argv=None):
                     if line is not None:
                         break
         if line is None:
-            print(
-                "Could not find reference:", repr(
-                    role_data), "in", repr(rst_root),
-                file=sys.stderr,
-            )
+            print("Could not find reference:", repr(role_data), "in", repr(rst_root), file=sys.stderr)
             sys.exit(1)
 
     elif role_id == "doc":
@@ -172,10 +167,7 @@ def main(argv=None):
             fn_attempts.append(fn_test)
 
         if fn is None:
-            print(
-                "Could not find files:", repr(fn_attempts),
-                file=sys.stderr,
-            )
+            print("Could not find files:", repr(fn_attempts), file=sys.stderr)
             sys.exit(1)
 
         line = 1

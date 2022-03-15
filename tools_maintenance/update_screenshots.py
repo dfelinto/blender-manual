@@ -302,10 +302,8 @@ def generate_preview_html():
 
         for filename in os.listdir(IMAGE_DIR_PREVIEW):
 
-            file_old = os.path.relpath(os.path.join(
-                IMAGE_DIR_FINAL, filename), ROOT_DIR)
-            file_new = os.path.relpath(os.path.join(
-                IMAGE_DIR_PREVIEW, filename), ROOT_DIR)
+            file_old = os.path.relpath(os.path.join(IMAGE_DIR_FINAL, filename), ROOT_DIR)
+            file_new = os.path.relpath(os.path.join(IMAGE_DIR_PREVIEW, filename), ROOT_DIR)
 
             fw('  <tr>\n')
             fw('    <td><img src="{:s}" style="width: 100%"></td>\n'.format(file_old))

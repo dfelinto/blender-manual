@@ -84,8 +84,7 @@ def run_multiprocess__multi(arg_list, job_total=1):
         sys.stdout.flush()
         sys.stderr.flush()
 
-        processes.append(
-            (args_index, subprocess.Popen(["sphinx-intl", *args])))
+        processes.append((args_index, subprocess.Popen(["sphinx-intl", *args])))
 
     while processes:
         processes_clear_finished()
@@ -133,8 +132,7 @@ IS_WIN32 = (os.name == "nt")
 def main():
 
     # True when all languages are checked out under "locale/".
-    has_complete_locale_checkout = os.path.exists(
-        os.path.join(LOCALE_DIR, ".svn"))
+    has_complete_locale_checkout = os.path.exists(os.path.join(LOCALE_DIR, ".svn"))
 
     # All directories containing '.svn' (the parent directory).
     svn_dirs_all = []
@@ -216,8 +214,7 @@ def main():
         print("Warning, the following commands returned non-zero exit codes:")
         for returncode, arg in zip(sphinx_intl_return_codes, sphinx_intl_arg_list):
             if returncode != 0:
-                print("returncode:", returncode,
-                      "from command:", "sphinx-intl", arg)
+                print("returncode:", returncode, "from command:", "sphinx-intl", arg)
         print("Some manual corrections might need to be done.")
     del sphinx_intl_return_codes, sphinx_intl_arg_list
 
@@ -261,18 +258,14 @@ def main():
         # 'shlex.quote' causes path separator to be converted to forward slashes,
         # causing the command to fail.
         if IS_WIN32:
-            print(
-                "  " + subprocess.list2cmdline(["svn", "ci", svn_dir, "-m", "Update r" + revision]))
+            print("  " + subprocess.list2cmdline(["svn", "ci", svn_dir, "-m", "Update r" + revision]))
         else:
-            print(
-                "  svn ci {:s} -m \"Update r{:s}\"".format(quote(svn_dir), revision))
+            print("  svn ci {:s} -m \"Update r{:s}\"".format(quote(svn_dir), revision))
 
     if IS_WIN32:
-        print(
-            "  " + subprocess.list2cmdline(["svn", "ci", POT_FILE, "-m", "Update r" + revision]))
+        print("  " + subprocess.list2cmdline(["svn", "ci", POT_FILE, "-m", "Update r" + revision]))
     else:
-        print(
-            "  svn ci {:s} -m \"Update r{:s}\"".format(quote(POT_FILE), revision))
+        print("  svn ci {:s} -m \"Update r{:s}\"".format(quote(POT_FILE), revision))
 
 
 if __name__ == "__main__":

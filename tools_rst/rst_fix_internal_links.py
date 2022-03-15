@@ -120,10 +120,8 @@ def fix_links():
                     # newline is empty str to ensure that the original line ending is not changed
                     flines = f.readlines()
                 lorig = flines[lineno]
-                flines[lineno] = flines[lineno].replace(
-                    '<' + target_orig + '>', '<' + target + '>')
-                flines[lineno] = flines[lineno].replace(
-                    '`' + target_orig + '`', '`' + target + '`')
+                flines[lineno] = flines[lineno].replace('<' + target_orig + '>', '<' + target + '>')
+                flines[lineno] = flines[lineno].replace('`' + target_orig + '`', '`' + target + '`')
                 print(lorig + flines[lineno])
                 with io.open(fullp, "w", encoding="utf-8", newline='') as f:
                     f.write(''.join(flines))

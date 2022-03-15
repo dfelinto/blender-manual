@@ -17,13 +17,12 @@ Usage:
 note: you can't change the contents of the files you are remapping.
 """
 
-
-# -----------------------------------------------------------------------------
-# Generic Functions
-
 import sys
 import os
 
+
+# -----------------------------------------------------------------------------
+# Generic Functions
 
 def uuid_from_file(fn, block_size=1 << 20):
     """
@@ -109,12 +108,10 @@ def remap_data_create(base_path):
     remap_rst = {}
     for fn in rst_files(base_path):
         file_hash = uuid_from_file(fn)
-        file_path = compat_path(os.path.splitext(
-            os.path.relpath(fn, base_path))[0])
+        file_path = compat_path(os.path.splitext(os.path.relpath(fn, base_path))[0])
         file_path_prev = remap_rst.get(file_hash)
         if file_path_prev is not None:
-            print("Duplicate file contents: %r, %r" %
-                  (file_path_prev, file_path))
+            print("Duplicate file contents: %r, %r" % (file_path_prev, file_path))
         else:
             remap_rst[file_hash] = file_path
 
@@ -125,8 +122,7 @@ def remap_data_create(base_path):
         file_path = compat_path(os.path.relpath(fn, base_path))
         file_path_prev = remap_images.get(file_hash)
         if file_path_prev is not None:
-            print("Duplicate file contents: %r, %r" %
-                  (file_path_prev, file_path))
+            print("Duplicate file contents: %r, %r" % (file_path_prev, file_path))
         else:
             remap_images[file_hash] = file_path
 
@@ -137,24 +133,21 @@ def remap_start(base_path):
     filepath_remap = os.path.join(base_path, RST_MAP_ID)
 
     if os.path.exists(filepath_remap):
-        fatal("Remap in progress, run with 'finish' or remove %r" %
-              filepath_remap)
+        fatal("Remap in progress, run with 'finish' or remove %r" % filepath_remap)
 
     remap_data_src = remap_data_create(base_path)
 
     with open(filepath_remap, 'wb') as fh:
         import pickle
         pickle.dump(remap_data_src, fh, pickle.HIGHEST_PROTOCOL)
-    print("Remap started, tracking (%d rst, %d image) files." %
-          (len(remap_data_src[0]), len(remap_data_src[1])))
+    print("Remap started, tracking (%d rst, %d image) files." % (len(remap_data_src[0]), len(remap_data_src[1])))
 
 
 def remap_finish(base_path):
     filepath_remap = os.path.join(base_path, RST_MAP_ID)
 
     if not os.path.exists(filepath_remap):
-        fatal("Remap not started, run with 'start', (%r not found)" %
-              filepath_remap)
+        fatal("Remap not started, run with 'start', (%r not found)" % filepath_remap)
 
     with open(filepath_remap, 'rb') as fh:
         import pickle
