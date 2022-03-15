@@ -19,12 +19,21 @@ the *Save on Quit* functionality cannot be disabled.
    used to roll back from mistakes under normal operation, or return back to a specific action.
    See :doc:`/interface/undo_redo`.
 
-The *File* tab of the *Preferences* allows you to configure the two ways
-that Blender provides for you to regress to a previous version of your work.
-See :ref:`Auto Save Preferences <prefs-auto-save>` for details.
+
+.. _troubleshooting-file_recovery-save_versions:
+
+Recovering Save Versions
+========================
+
+By default Blender keeps an additional backup when saving files.
+So saving renames the previously saved file with a ``.blend1`` extension instead of overwriting it.
+
+This file can be used to revert to a previous state.
+
+See :ref:`Save Versions <prefs-save_load-backups>` to configure the number of versions kept.
 
 
-.. _troubleshooting-file-recovery:
+.. _troubleshooting-file_recovery-auto_save:
 
 Recovering Auto Saves
 =====================
@@ -53,6 +62,8 @@ The *Recover Auto Save* allows you to open the *Auto Saved* file.
 You will have to navigate to your :ref:`temp-dir`.
 The *Auto Saved* files are named using a random number and have a blend extension.
 
+See :ref:`Auto Save Preferences <prefs-auto-save>` to configure auto-save.
+
 Trusted Source
    When enabled, Python scripts and drivers that may be included in the file will be run automatically.
    Enable this only if you created the file yourself,
@@ -61,8 +72,7 @@ Trusted Source
 
 .. tip::
 
-   It is important, when browsing, to enable the detailed list view.
-   Otherwise, you will not be able to figure out the dates of the auto-saved blend-files.
+   Enable the detailed list view when browsing auto-saved files to show which is the most recent.
 
    .. figure:: /images/troubleshooting_recover_display-file-date.png
 
@@ -70,6 +80,6 @@ Trusted Source
 
 .. warning::
 
-   When recovering an *Auto Saved* file, you will lose any changes made since the last *Auto Save* was performed.
-   Only one *Auto Saved* file exists for each project, i.e. Blender does not keep older versions.
-   Hence, you will not be able to go back more than a few minutes with this tool.
+   When recovering an *Auto Saved* file, any changes made since the last *Auto Save* will be lost.
+   Only one *Auto Saved* file exists for each ``.blend`` file, i.e. Blender does not keep older versions.
+   Therefor, you will only be able to restore the most recent *Auto Save* file.

@@ -101,7 +101,7 @@ This will allow you to open an automatically saved file to recover it.
 
 .. seealso::
 
-   :ref:`Auto Saves <troubleshooting-file-recovery>`
+   :ref:`Auto Save <troubleshooting-file_recovery-auto_save>`
 
 
 .. _bpy.ops.wm.save_mainfile:
@@ -119,10 +119,6 @@ Save current blend-file over itself (if it was not saved yet, this will automati
 .. figure:: /images/files_blend_open-save_file-browser-save.png
 
    The File Browser in save configuration.
-
-.. seealso::
-
-   :ref:`Auto Save <troubleshooting-file-recovery>`
 
 
 .. _bpy.ops.wm.save_as_mainfile:
