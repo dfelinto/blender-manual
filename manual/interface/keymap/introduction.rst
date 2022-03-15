@@ -28,8 +28,8 @@ such as :kbd:`Esc`, :kbd:`Tab`, :kbd:`F1` to :kbd:`F12`.
 Of special note are the arrow keys, :kbd:`Left`, :kbd:`Right` and so on.
 
 
-Mice
-----
+Mouse
+-----
 
 This manual refers to mouse buttons as:
 
@@ -39,24 +39,16 @@ This manual refers to mouse buttons as:
    Right Mouse Button
 :kbd:`MMB`
    Middle Mouse Button
-:kbd:`Wheel`
+:kbd:`Wheel`, :kbd:`WheelUp` & :kbd:`WheelDown`
    Scrolling the wheel.
 
+.. note::
 
-Mouse
-=====
+   Blender's default key-map has two main interaction modes left-click-select & right-click-select.
+   See the :ref:`Select with Mouse Button <keymap-blender_default-prefs-select_with>` preference.
 
-Blender's default keymap has two main interaction modes: Right- and left-click-select.
-
-In the past, Blender has used right-click-select to have a more clear
-distinction between selection and action.
-In this mode, the :kbd:`RMB` (Right Mouse Button) is generally used for
-selection and the :kbd:`LMB` (Left Mouse Button) initiates or confirms actions.
-
-Today, Blender users can choose between the older right-click-select method
-and left-click-select, which makes Blender feel more like other software.
-
-Video: `Learn the benefits of right-click-select <https://vimeo.com/76335056>`__.
+   While :kbd:`LMB` select is default, both are fully supported and there are advantages with :kbd:`RMB` selection,
+   see: `Learn the benefits of right-click-select <https://vimeo.com/76335056>`__.
 
 
 Hovering
