@@ -164,6 +164,7 @@ directives.register_directive('reference', directive_ignore)
 directives.register_directive('seealso', directive_ignore)
 directives.register_directive('only', directive_ignore)
 directives.register_directive('hlist', directive_ignore)
+directives.register_directive('versionchanged', directive_ignore)
 
 # Custom.
 directives.register_directive('peertube', directive_ignore)
