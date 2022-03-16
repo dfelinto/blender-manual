@@ -84,6 +84,8 @@ In the NLA editor pose markers are shown as a red dashed line inside the relativ
    .. clear
 
 
+.. _bpy.ops.marker.add:
+
 Add Marker
 ==========
 
@@ -110,6 +112,8 @@ If *Show Pose Markers* is checked, a pose marker and
 a new pose in the :ref:`Old Pose Library <pose-library-old>` are added.
 
 
+.. _bpy.ops.marker.select:
+
 Selecting
 =========
 
@@ -133,6 +137,8 @@ The corresponding options are found in the Select menu of these editors.
 Editing
 =======
 
+.. _bpy.ops.marker.duplicate:
+
 Duplicate Marker
 ----------------
 
@@ -152,6 +158,8 @@ the new ones are automatically placed in select mode, so you can move them to th
    (no ``.001`` numeric counter append).
 
 
+.. _bpy.ops.marker.make_links_scene:
+
 Duplicate Marker to Scene
 -------------------------
 
@@ -162,6 +170,8 @@ Duplicate Marker to Scene
 
 Duplicates the selected markers into another scene.
 
+
+.. _bpy.ops.marker.delete:
 
 Delete Marker
 -------------
@@ -176,6 +186,8 @@ To delete the selected markers simply press :kbd:`X`,
 and confirm the pop-up message with :kbd:`LMB`.
 
 
+.. _bpy.ops.marker.rename:
+
 Rename Marker
 -------------
 
@@ -189,6 +201,8 @@ Having dozens of markers scattered throughout your scene's time will not help yo
 know what they stand for. You can name a marker by selecting it, pressing :kbd:`Ctrl-M`,
 typing the name, and pressing the OK button.
 
+
+.. _bpy.ops.marker.move:
 
 Move Marker
 -----------
@@ -223,6 +237,8 @@ Show Pose Markers
 Shows markers belonging to the active action instead of scene markers.
 
 
+.. _bpy.ops.action.markers_make_local:
+
 Make Markers Local
 ------------------
 
@@ -234,6 +250,8 @@ Make Markers Local
 It is possible to convert standard markers into pose markers with :menuselection:`Marker --> Make Markers Local`.
 Note that the original marker will be gone. If you want to keep it, make a duplicate before you convert.
 
+
+.. _bpy.ops.screen.marker_jump:
 
 Jump to Next/Previous Marker
 ----------------------------
