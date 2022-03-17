@@ -79,10 +79,6 @@ Specular Tint
 Roughness
    Specifies microfacet roughness of the surface for diffuse and specular reflection.
 
-   .. hint::
-
-      When converting from the older *Glossy BSDF* node, use the square root of the original value.
-
 Anisotropic :guilabel:`Cycles Only`
    Amount of anisotropy for specular reflection. Higher values give elongated highlights along the tangent direction;
    negative values give highlights shaped perpendicular to the tangent direction.
