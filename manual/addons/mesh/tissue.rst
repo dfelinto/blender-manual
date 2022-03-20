@@ -347,8 +347,8 @@ Reaction Diffusion
 (To Do)
 
 
-Radom Materials
----------------
+Random Materials
+----------------
 
 (To Do)
 

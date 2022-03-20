@@ -32,12 +32,12 @@ Bone State Colors
 
 The color of the bones are based on their state.
 There are six different color codes, ordered here by precedence
-(i.e. the bone will be of the color of the bottommost valid state):
+(i.e. the bone will be of the color of the bottom-most valid state):
 
 .. hue rotation based on the bone solid.
 
 - Gray: Default.
-- Blue wireframe: in Pose Mode.
+- Blue wire-frame: in Pose Mode.
 - Green: with Constraint.
 - Yellow: with :doc:`IK Solver constraint </animation/constraints/tracking/ik_solver>`.
 - Orange: with Targetless Solver constraint.

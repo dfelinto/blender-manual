@@ -83,7 +83,8 @@ If you have a wheel mouse, you can also zoom using :kbd:`Wheel`.
 
 .. hint:: If You Get Lost
 
-   If you get lost in 3D space (which is not uncommon) :ref:`3dview-nav-frame_all` and :ref:`3dview-nav-frame_selected`
+   If you get lost in 3D space (which is not uncommon)
+   :ref:`3dview-nav-frame_all` and :ref:`3dview-nav-frame_selected`
    can be used to show the contents of your scene.
 
 

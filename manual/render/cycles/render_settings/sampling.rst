@@ -183,7 +183,7 @@ Pattern
 
 Sample Offset
    The number of samples to skip when starting render.
-   This can be used to distribute a render accross multiple computers
+   This can be used to distribute a render across multiple computers
    then combine the images with `bpy.ops.cycles.merge_images`
 
 .. _bpy.types.CyclesRenderSettings.scrambling_distance:

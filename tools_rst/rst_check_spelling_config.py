@@ -4,6 +4,7 @@
 
 # correct spelling but ignore
 dict_custom = {
+    "adaptively",
     "adjoint", "adjugate",
     "allocator",
     "atomicity",
