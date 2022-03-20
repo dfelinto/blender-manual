@@ -37,17 +37,7 @@ It's possible to configure a single key to perform multiple operations
 using *Click* event instead of *Press*. Then you may bind *Drag* to a separate action.
 
 This is useful for mixing actions where one uses a drag event, e.g:
-Toggle a setting using with tab, drag to open a pie menu showing all options related to the setting.
-
-
-Click/Tweak
-^^^^^^^^^^^
-
-Unlike click/drag, this only works for the mouse buttons,
-but has the advantage that tweak events can be directional.
-
-To use this, events in this keymap must use *Click* instead of *Press*,
-then you can bind *Tweak* actions to the mouse buttons.
+Toggle a setting using with :kbd:`Tab`, drag to open a pie menu showing all options related to the setting.
 
 This is used in the default keymap in the 3D Viewport,
 :kbd:`Alt-MMB` dragging in different directions rotates the view.
