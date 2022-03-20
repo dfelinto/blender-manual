@@ -1,11 +1,13 @@
 # Apache License, Version 2.0
 
-# these must be all lower case for comparisons
+# These must be all lower case for comparisons.
 
-# correct spelling but ignore
+# Custom dictionary.
 dict_custom = {
+    # Correct spelling.
     "adaptively",
-    "adjoint", "adjugate",
+    "adjoint",
+    "adjugate",
     "allocator",
     "atomicity",
     "boolean",
@@ -29,23 +31,28 @@ dict_custom = {
     "screencast",
     "selectability",
     "stylization",
-    "subclass", "subclasses", "subclassing",
+    "subclass",
+    "subclasses",
+    "subclassing",
     "subdirectory",
     "unregister",
     "unselected",
     "variadic",
 
-    # accepted abbreviations
+    # Accepted abbreviations.
     "autocomplete",
     "config",
-    "coord", "coords",
-    "keyframe", "keyframing",
-    "lookup", "lookups",
+    "coord",
+    "coords",
+    "keyframe",
+    "keyframing",
+    "lookup",
+    "lookups",
     "multi",
     "multithreading",
     "tooltip",
 
-    # general computer terms
+    # General computer terms.
     "app",
     "autorepeat",
     "boids",
@@ -57,10 +64,12 @@ dict_custom = {
     "diffs",
     "endian",
     "env",
-    "euler", "eulers",
+    "euler",
+    "eulers",
     "hashable",
     "http",
-    "jitter", "jittering",
+    "jitter",
+    "jittering",
     "keymap",
     "lerp",
     "metadata",
@@ -73,16 +82,20 @@ dict_custom = {
     "stdin",
     "stdout",
     "sudo",
-    "touchpad", "touchpads",
-    "trackpad", "trackpads",
+    "touchpad",
+    "touchpads",
+    "trackpad",
+    "trackpads",
     "unicode",
     "url",
-    "vert", "verts",
+    "vert",
+    "verts",
     "volumetric",
-    "voxel", "voxels",
+    "voxel",
+    "voxels",
     "wiki",
 
-    # general computer graphics terms
+    # General computer graphics terms.
     "atomics",
     "autofocus",
     "barycentric",
@@ -98,9 +111,12 @@ dict_custom = {
     "fresnel",
     "kerning",
     "lacunarity",
-    "multisample", "multisampling", "multisampled",
+    "multisample",
+    "multisampled",
+    "multisampling",
     "musgrave",
-    "ngon", "ngons",
+    "ngon",
+    "ngons",
     "normals",
     "nurbs",
     "octree",
@@ -109,11 +125,12 @@ dict_custom = {
     "quaternions",
     "radiosity",
     "reflectance",
-    "shader", "shaders",
+    "shader",
+    "shaders",
     "specular",
     "uber",
 
-    # specific computer terms/brands
+    # Specific computer terms/brands.
     "ffmpeg",
     "macos",
     "nvidia",
@@ -124,7 +141,8 @@ dict_custom = {
     "xinerama",
 
     # Blender specific terms
-    "matcap", "matcaps",
+    "matcap",
+    "matcaps",
 
     # should have apostrophe but ignore for now
     # unless we want to get really picky!
@@ -132,23 +150,26 @@ dict_custom = {
     "vertices",
 }
 
-# incorrect spelling but ignore anyway
+# Incorrect spelling but ignore anyway.
 dict_ignore = {
     "a-z",
-    "arg", "args",
+    "arg",
+    "args",
     "bool",
     "dirpath",
     "dof",
     "dupli",
     "eg",
-    "filename", "filenames",
+    "filename",
+    "filenames",
     "filepath",
     "filepaths",
     "loc",
     "node-trees",
     "quad",
     "readonly",
-    "submodule", "submodules",
+    "submodule",
+    "submodules",
     "tri",
     "ui",
     "uv",
@@ -157,7 +178,7 @@ dict_ignore = {
     "y-axis",
     "z-axis",
 
-    # acronyms
+    # Acronyms.
     "api",
     "bvh",
     "cpu",
@@ -176,13 +197,13 @@ dict_ignore = {
     "rgb",
     "rgba",
 
-    # file formats
+    # File formats.
     "fbx",
     "svg",
     "png",
     "exr",
 
-    # names
+    # Names.
     "Dalai",
     "Goralczyk",
     "Roosendaal",
