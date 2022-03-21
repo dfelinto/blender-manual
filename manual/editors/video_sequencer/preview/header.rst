@@ -39,7 +39,7 @@ Refresh All
    Blender has no real way of being notified from your operating system.
 
 Sequence Render Image
-   Render the an image at the current frame.
+   Render the image at the current frame.
 Sequence Render Animation
    Render timeline from Preview Start to Preview End Frame to a Video file or series of images.
 

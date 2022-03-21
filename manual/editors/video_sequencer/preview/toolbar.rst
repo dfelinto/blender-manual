@@ -72,7 +72,7 @@ Rotate :kbd:`R`
 Scale :kbd:`S`
    Changes the size of the image by adjusting the strip's
    :ref:`Scale <bpy.types.SequenceTransform.scale>` properties.
-   The scaling used the :ref:`Pivot Point <bpy.types.SequencerToolSettings.pivot_point>` as reference.
+   The scaling use the :ref:`Pivot Point <bpy.types.SequencerToolSettings.pivot_point>` as reference.
    So, for example, if the Pivot Point is set to *2D Cursor*,
    scaling down a strip will also move the strip in the direction of the 2D cursor.
 
