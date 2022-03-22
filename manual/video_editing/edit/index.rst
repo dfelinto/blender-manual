@@ -7,3 +7,4 @@ Edit Your Project
    :maxdepth: 2
 
    introduction.rst
+   montage/index.rst
