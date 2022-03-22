@@ -181,7 +181,7 @@ Scene Strip Display
    :View Type: Preview
    :Panel:     :menuselection:`Sidebar --> View tab --> Scene Strip Display`
 
-It allows you to control how the images of :doc:`Scene Strips </video_editing/sequencer/strips/scene>`
+It allows you to control how the images of :doc:`Scene Strips </video_editing/edit/montage/strips/scene>`
 are displayed in the preview.
 
 .. _bpy.types.RenderSettings.sequencer_gl_preview:

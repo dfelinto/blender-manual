@@ -102,7 +102,7 @@ Sequence Render Animation
    Render timeline from Preview Start to Preview End Frame to a Video file or series of images.
 
 Export Subtitles
-   Exports :doc:`Text strips </video_editing/sequencer/strips/text>`,
+   Exports :doc:`Text strips </video_editing/edit/montage/strips/text>`,
    which can act as subtitles, to a `SubRip <https://en.wikipedia.org/wiki/SubRip>`__ file (``.srt``).
    The exported file contains all Text strips in the video sequence.
 

@@ -43,7 +43,7 @@ Force Reload
 
 Animate Image Sequences
    Import sequentially numbers images as
-   an animated :doc:`image sequence </video_editing/sequencer/strips/image>` instead of separate planes.
+   an animated :doc:`image sequence </video_editing/edit/montage/strips/image>` instead of separate planes.
    They will be imported as a *Clip* texture on a single plane.
    The frame range will automatically be set but can be changed later.
 

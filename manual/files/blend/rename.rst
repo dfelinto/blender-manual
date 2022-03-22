@@ -17,7 +17,7 @@ The *Rename Active Item* operator renames the active
 :doc:`Bone </animation/armatures/bones/index>`,
 :doc:`Node </interface/controls/nodes/index>`,
 :doc:`Object </scene_layout/object/index>` and
-:doc:`Sequence Strip </video_editing/sequencer/strips/index>`.
+:doc:`Sequence Strip </video_editing/edit/montage/strips/index>`.
 
 When the operator is executed, a pop-up dialog appears.
 The text field shows the name of the current item and can be overwritten to rename the item.

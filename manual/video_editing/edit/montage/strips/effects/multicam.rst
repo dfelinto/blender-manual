@@ -25,12 +25,12 @@ Workflow
 
 #. First you are going to want to add in each of your video strips.
 #. Next, you will want to sync all your cameras by either using
-   :doc:`Audio Waveforms </video_editing/sequencer/strips/sound>` or by the movement of objects.
+   :doc:`Audio Waveforms </video_editing/edit/montage/strips/sound>` or by the movement of objects.
 
    .. tip::
 
       To make syncing strips easier you can group cameras, their audio,
-      and their effects together using :doc:`Meta Strips </video_editing/sequencer/meta>`.
+      and their effects together using :doc:`Meta Strips </video_editing/edit/montage/meta>`.
 
 #. Split the editor into many :doc:`Previews </editors/video_sequencer/preview/index>`, one for each input track.
    Then change the :ref:`Display Channel <bpy.types.SpaceSequenceEditor.display_channel>`

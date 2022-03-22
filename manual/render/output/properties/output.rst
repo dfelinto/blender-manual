@@ -198,14 +198,14 @@ Tips
    have to re-render all frames from the beginning. If you first render out a set
    of static images such as the default PNG format or the higher-quality OpenEXR
    (which can retain HDR pixel data), you can combine them as
-   an :doc:`Image Strip </video_editing/sequencer/strips/image>`
+   an :doc:`Image Strip </video_editing/edit/montage/strips/image>`
    in the Video Sequencer. This way, you can easily:
 
    - Restart the rendering from the place (the frame) where any problem occurred.
    - Try out different video encoding options in seconds,
      rather than minutes or hours as encoding is usually much faster than rendering the 3D scene.
    - Enjoy the rest of the features of the Video Sequencer, such as adding
-     :doc:`Image Strips </video_editing/sequencer/strips/image>`
+     :doc:`Image Strips </video_editing/edit/montage/strips/image>`
      from previous renders, audio, video clips, etc.
 
 .. tip::

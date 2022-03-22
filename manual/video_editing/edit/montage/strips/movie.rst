@@ -70,7 +70,7 @@ Set View Transform
    using the wrong transform could result in inaccurate colors or degraded rendering performance.
 
 Sound
-   Add a :doc:`Sound Strip </video_editing/sequencer/strips/sound>` that contains the movie's audio track.
+   Add a :doc:`Sound Strip </video_editing/edit/montage/strips/sound>` that contains the movie's audio track.
 
 Use Movie Frame Rate
    Sets the :ref:`Scene Frame Rate <bpy.types.RenderSettings.fps>` to the frame rate encoded in the movie file.

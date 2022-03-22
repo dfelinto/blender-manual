@@ -4,7 +4,7 @@
 Gamma Cross Strip
 *****************
 
-The Gamma Cross transition is similar to the :doc:`/video_editing/sequencer/strips/transitions/cross` transition,
+The Gamma Cross transition is similar to the :doc:`/video_editing/edit/montage/strips/transitions/cross` transition,
 however, the Gamma Cross strip transition uses color correction while transitioning between the two strips,
 resulting in a smoother transition that is easier on the eyes.
 
