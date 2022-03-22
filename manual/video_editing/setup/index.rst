@@ -7,3 +7,4 @@ Setup Your Project
    :maxdepth: 2
 
    introduction.rst
+   directory_structure.rst
