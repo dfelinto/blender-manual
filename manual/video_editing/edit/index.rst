@@ -4,6 +4,6 @@ Edit Your Project
 *****************
 
 .. toctree::
-   :hidden:
+   :maxdepth: 2
 
    introduction.rst
