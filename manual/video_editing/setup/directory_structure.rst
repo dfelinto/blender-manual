@@ -29,7 +29,6 @@ Figure 1 shows a possible example, based on our categorization of the assets abo
 The directories are numbered so that they mimic a normal workflow.
 
 .. figure:: /images/vse_setup_project_dir-structure-example.png
-   :scale: 50 %
    :alt: Organizing your project
 
    Figure 1: Organizing your project.
