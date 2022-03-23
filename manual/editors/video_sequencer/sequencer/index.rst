@@ -17,4 +17,8 @@ Although the Sidebar and Toolbar belong to the Timeline area, they are discussed
 .. toctree::
    :maxdepth: 2
 
+   introduction.rst
    display.rst
+   toolbar/index.rst
+   navigating.rst
+   sidebar/index.rst

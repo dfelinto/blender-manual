@@ -132,14 +132,14 @@ Compression
    The more compression used requires faster disk write/read speeds and more CPU usage.
 
 Proxy Setup
-   When and how :doc:`Proxies </video_editing/sequencer/sidebar/proxy>` are created.
+   When and how :doc:`Proxies </editors/video_sequencer/sequencer/sidebar/proxy>` are created.
 
    :Automatic: Build proxies for added movie and image strips in each preview size.
    :Manual: Set up proxies manually.
 
 .. seealso::
 
-   :doc:`Sequencer Cache Properties </video_editing/sequencer/sidebar/cache>`
+   :doc:`Sequencer Cache Properties </editors/video_sequencer/sequencer/sidebar/cache>`
 
 
 .. _prefs-system-sound:

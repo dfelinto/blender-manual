@@ -58,4 +58,4 @@ Then fine-tune the placement by selecting the outer handles of two neighboring M
 
 .. tip::
 
-   To improve playback performance enable :doc:`Proxies </video_editing/sequencer/sidebar/proxy>`.
+   To improve playback performance enable :doc:`Proxies </editors/video_sequencer/sequencer/sidebar/proxy>`.

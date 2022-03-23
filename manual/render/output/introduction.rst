@@ -17,7 +17,7 @@ This is useful if the animation takes a long time to render
 and the computers resources are needed for something else.
 
 Images can then be encoded to a video by adding the rendered image sequence into
-the :doc:`Video Sequencer </video_editing/sequencer/index>` and choosing an appropriate
+the :doc:`Video Sequencer </editors/video_sequencer/sequencer/index>` and choosing an appropriate
 :doc:`Video Output </files/media/video_formats>`.
 
 .. tip::

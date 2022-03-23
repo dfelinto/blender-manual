@@ -90,7 +90,7 @@ Show Markers
 .. _bpy.types.SequenceEditor.show_cache:
 
 Show Cache
-   Show which frames are :doc:`Cached </video_editing/sequencer/sidebar/cache>`
+   Show which frames are :doc:`Cached </editors/video_sequencer/sequencer/sidebar/cache>`
    Show all enabled types;
    Final Images, Raw Images, Preprocessed Images, Composite Images
 

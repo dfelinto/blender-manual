@@ -30,7 +30,7 @@ Developer Extras
    Show settings and menu items which are intended to help developers, this includes:
 
    - :doc:`Operator Search </interface/controls/templates/operator_search>`
-   - :doc:`Sequencer Cache Settings </video_editing/sequencer/sidebar/cache>`
+   - :doc:`Sequencer Cache Settings </editors/video_sequencer/sequencer/sidebar/cache>`
 
    Button Context Menu
       Online Python Reference

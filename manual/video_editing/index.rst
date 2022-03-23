@@ -11,4 +11,3 @@
    introduction.rst
    setup/index.rst
    edit/index.rst
-   sequencer/index.rst
