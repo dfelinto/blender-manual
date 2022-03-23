@@ -4,7 +4,7 @@ Montage
 *******
 
 .. toctree::
-   :hidden:
+   :maxdepth: 2
 
    introduction.rst
    strips/index.rst
