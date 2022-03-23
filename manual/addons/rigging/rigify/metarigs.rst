@@ -136,7 +136,7 @@ Rigify layers are displayed in a vertical layout inside their own separate panel
   It is just redrawn here for a simplicity.
 
 - The third column sets a specific layer name to be used to build the rig UI of the final rig.
-  If set, a button with the specified name will be created in the rig_ui to control the visibility of
+  If set, a button with the specified name will be created in the ``rig_ui_template`` to control the visibility of
   this specific armature layer. If layer contains at least one bone but its name field is empty,
   a button with no name will be created in the rig UI.
 
