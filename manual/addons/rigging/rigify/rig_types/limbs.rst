@@ -42,6 +42,13 @@ IK Control
 Assign Tweak Layers
    If enabled, allows placing the Tweak controls on different layers from the main controls.
 
+.. note::
+
+   Rotation Axis (Bend Rotation Axis in the case of ``limbs.super_finger``)
+   affects the :doc:`roll </animation/armatures/bones/editing/bone_roll>` of the generated bones.
+   Automatic mode recalculates the generated bones roll while
+   any of the Manual modes copy the roll of the meta-rig bones.
+
 
 ``limbs.super_limb``
 ====================
