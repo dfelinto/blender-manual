@@ -140,7 +140,7 @@ Python Options
 ``-Y``, ``--disable-autoexec``
    Disable automatic Python script execution (pydrivers & startup scripts).
 
-``-P``, ``--python`` ``<filename>``
+``-P``, ``--python`` ``<filepath>``
    Run the given Python script file.
 ``--python-text`` ``<name>``
    Run the given Python script text block.
@@ -154,7 +154,7 @@ Python Options
 ``--python-use-system-env``
    Allow Python to use system environment variables such as ``PYTHONPATH`` and the user site-packages directory.
 ``--addons`` ``<addon(s)>``
-   Comma separated list of add-ons (no spaces).
+   Comma separated list (no spaces) of add-ons to enable in addition to any default add-ons.
 
 
 .. _command-line-args-logging-options:
@@ -179,7 +179,7 @@ Logging Options
    Show a back trace for each log message (debug builds only).
 ``--log-show-timestamp``
    Show a timestamp for each log message in seconds since start.
-``--log-file`` ``<filename>``
+``--log-file`` ``<filepath>``
    Set a file to output the log to.
 
 
@@ -228,7 +228,7 @@ Debug Options
 ``--debug-depsgraph-pretty``
    Enable colors for dependency graph debug messages.
 ``--debug-depsgraph-uuid``
-   Enable debug messages from dependency graph related on graph construction.
+   Verify validness of session-wide identifiers assigned to ID datablocks.
 ``--debug-ghost``
    Enable debug messages for event handling.
 ``--debug-gpu``
