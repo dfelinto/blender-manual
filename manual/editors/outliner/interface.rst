@@ -86,6 +86,8 @@ Case Sensitive
 
 .. rubric:: Filter
 
+Some options will only show if compatible with the active `Display Mode`_.
+
 .. _bpy.types.SpaceOutliner.use_filter_view_layers:
 
 All View Layers
@@ -149,16 +151,12 @@ Object Children
 Data-Block
    Allows you to filter out certain data-blocks currently present in the scene.
 
-.. _bpy.types.SpaceOutliner.use_filter_lib_override:
-
-Library Overrides
-   Shows the data-block properties have been overridden.
-
 .. _bpy.types.SpaceOutliner.use_filter_lib_override_system:
 
 System Overrides
-   Shows the data-block properties that are defined/controlled automatically
-   (e.g. to make users of an overridden data-block point to the override data, not the original linked data).
+   Shows the data-block properties that are defined/controlled automatically (e.g. to make users of an overridden
+   data-block point to the override data, not the original linked data). Only available in the *Library Overrides*
+   `Display Mode`_.
 
 
 .. _bpy.ops.outliner.orphans_purge:
