@@ -9,6 +9,7 @@
    array.rst
    build.rst
    dash.rst
+   envelope.rst
    length.rst
    line_art.rst
    mirror.rst

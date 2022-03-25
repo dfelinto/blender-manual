@@ -34,6 +34,8 @@ Opacity
    The factor to apply to the original point's opacity for the new points.
 Material Index
    Use this index on generated segment, use -1 for existing material.
+Use Cyclic
+   Close the segment.
 
 
 Influence Filters

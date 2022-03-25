@@ -37,6 +37,9 @@ Repeat
    The number of smoothing iterations, equivalent to executing the Smooth tool multiple times.
    High values can reduce the animation performance (FPS).
 
+Keep shape
+   When enabled, the smoothing algorithm will try to maintain as close as possible the overall shape of the original stroke.
+
 
 Influence
 ---------
