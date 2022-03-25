@@ -105,7 +105,8 @@ Catalog Definition Files
 
 Asset catalogs are stored in Catalog Definition Files (CDFs). Blender 3.0 supports a single CDF per asset library.
 It is stored in ``blender_assets.cats.txt`` in the root directory of the asset library. If the file does not exist,
-Blender will create it when the catalogs are saved.
+Blender will create it when the catalogs are saved. When catalogs are changed, Blender updates that file, but also
+creates a backup of the previous state to a file named ``blender_assets.cats.txt~``.
 
 
 Which File to Write To
