@@ -16,7 +16,7 @@ in the :doc:`Spreadsheet Editor </editors/spreadsheet>`.
 
 .. note::
 
-   Indices in geometry data are often defined by the internals of complex algorithms that creat it.
+   Indices in geometry data are often defined by the internals of complex algorithms that create it.
    If no inputs change, indices will be the same when the same node tree is executed multiple times.
    However, they may not be predictable when inputs to nodes that generate geometry or change its
    topology are adjusted. Additionally, updates to geometry processing algorithms in newer versions
