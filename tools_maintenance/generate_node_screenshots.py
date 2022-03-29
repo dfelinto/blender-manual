@@ -39,15 +39,27 @@ def node_region_rect(region, node):
     dimensions = node.dimensions
 
     view_to_region = region.view2d.view_to_region
-    bottom_left = view_to_region(location.x, location.y - dimensions.y, clip=False)
-    top_right = view_to_region(location.x + dimensions.x, location.y, clip=False)
+    bottom_left = view_to_region(
+        location.x, location.y - dimensions.y, clip=False)
+    top_right = view_to_region(
+        location.x + dimensions.x, location.y, clip=False)
 
     return Rectangle(bottom_left[0], bottom_left[1], top_right[0] - bottom_left[0], top_right[1] - bottom_left[1])
 
 
-def iter_node_names():
-    for cls in bpy.types.CompositorNode.__subclasses__():
-        yield cls.__name__
+def iter_node_names(tree_type):
+    if tree_type == 'GEOMETRY':
+        for cls in bpy.types.GeometryNode.__subclasses__():
+            yield cls.__name__
+    elif tree_type == 'COMPOSITING':
+        for cls in bpy.types.CompositorNode.__subclasses__():
+            yield cls.__name__
+    elif tree_type == 'SHADER':
+        for cls in bpy.types.ShaderNode.__subclasses__():
+            yield cls.__name__
+    elif tree_type == 'TEXTURE':
+        for cls in bpy.types.TextureNode.__subclasses__():
+            yield cls.__name__
 
 
 class MakeScreenshotsOperator(bpy.types.Operator):
@@ -57,7 +69,8 @@ class MakeScreenshotsOperator(bpy.types.Operator):
     def invoke(self, context, event):
         context.window_manager.modal_handler_add(self)
 
-        self.node_names_iterator = islice(iter_node_names(), 10000)
+        tree_type = context.space_data.node_tree.type
+        self.node_names_iterator = islice(iter_node_names(tree_type), 10000)
 
         return self.prepare_next_node(context)
 
@@ -78,8 +91,8 @@ class MakeScreenshotsOperator(bpy.types.Operator):
 
     def modal(self, context, event):
         temp_path = f"/home/jacques/Downloads/temp.png"
-        filepath = f"/home/jacques/Downloads/compositing_node-types_{self.current_name}.png"
-        bpy.ops.screen.screenshot(full=False, filepath=temp_path)
+        filepath = f"/home/jacques/Downloads/node-types_{self.current_name}.png"
+        bpy.ops.screen.screenshot_area(filepath=temp_path)
 
         rect = node_region_rect(context.region, self.current_node)
         margin = 15
@@ -88,7 +101,7 @@ class MakeScreenshotsOperator(bpy.types.Operator):
         rect.width += margin * 2
         rect.height += margin * 2
 
-        bpy.ops.screen.screenshot(full=False, filepath=filepath)
+        bpy.ops.screen.screenshot_area(filepath=filepath)
 
         cut_image(temp_path, filepath, rect)
         context.area.tag_redraw()
