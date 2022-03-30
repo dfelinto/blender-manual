@@ -57,7 +57,7 @@ image_regex = re.compile(
     # figure/image::
     "(?:figure|image)\:\:\s+"
     # image path
-    "/images/(.*?\.(?:png|gif|jpg|jpeg|svg))",
+    "/images/(.*?\.(?:png|gif|jpg|jpeg|svg|webp))",
     re.MULTILINE
 )
 
