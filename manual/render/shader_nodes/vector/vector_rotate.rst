@@ -10,7 +10,7 @@ Vector Rotate Node
 ******************
 
 .. figure:: /images/node-types_ShaderNodeVectorDisplacement.webp
-   :align: right
+   :align: center
    :alt: Vector Rotate Node.
 
 The *Vector Rotate Node* provides the ability to rotate a vector around a pivot point (*Center*).

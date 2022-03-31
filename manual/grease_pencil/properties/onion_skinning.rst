@@ -11,7 +11,7 @@ but Grease Pencil Onion Skinning is per-layer and the visibility can be toggle i
 See :doc:`2D Layers </grease_pencil/properties/layers>` for more information.
 
 .. figure:: /images/grease-pencil_properties_onion-skinning_panel.png
-   :align: right
+   :align: center
 
    Onion Skinning panel.
 

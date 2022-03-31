@@ -47,7 +47,7 @@ Interface
 .. _fig-modifiers-panel-layout:
 
 .. figure:: /images/modeling_modifiers_introduction_panel-layout.png
-   :align: right
+   :align: center
 
    Panel layout (Subdivision Surface as an example).
 

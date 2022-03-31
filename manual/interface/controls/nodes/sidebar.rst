@@ -11,8 +11,7 @@ Node
    :Panel:     :menuselection:`Sidebar --> Node`
 
 .. figure:: /images/interface_controls_nodes_sidebar_item.png
-   :width: 200px
-   :align: right
+   :align: center
 
    Node tab with a compositing Render Layers node selected.
 

@@ -11,7 +11,7 @@ Regions can have smaller structuring elements like
 with buttons, controls and widgets placed within them.
 
 .. figure:: /images/interface_window-system_regions_3d-view.png
-   :align: center
+   :align: left
 
    The regions of the 3D Viewport showing the Sidebar and
    the Adjust Last Operation panel after adding a Cube.

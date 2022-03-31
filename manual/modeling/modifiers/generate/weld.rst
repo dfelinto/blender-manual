@@ -13,7 +13,7 @@ Options
 =======
 
 .. figure:: /images/modeling_modifiers_generate_weld_panel_connected.png
-   :align: right
+   :align: center
    :width: 300px
 
    The Weld modifier.

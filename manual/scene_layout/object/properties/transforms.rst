@@ -23,7 +23,7 @@ rotation and/or scaling. These fields change the object's origin and then affect
 all its *vertices* and faces.
 
 .. figure:: /images/scene-layout_object_properties_transforms_panel.png
-   :align: right
+   :align: center
 
    Transform Properties.
 

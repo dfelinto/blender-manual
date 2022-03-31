@@ -16,8 +16,7 @@ Options
 =======
 
 .. figure:: /images/grease-pencil_modifiers_modify_weight-angle_panel.png
-   :align: right
-   :width: 300px
+   :align: center
 
    The Vertex Weight Proximity modifier panel.
 

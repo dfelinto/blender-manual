@@ -12,7 +12,7 @@ Options
 =======
 
 .. figure:: /images/grease-pencil_visual-effects_glow_panel.png
-   :align: right
+   :align: center
 
    Glow Visual Effect.
 

@@ -7,7 +7,7 @@ Text & Search Fields
 ====================
 
 .. figure:: /images/interface_controls_buttons_fields_text-search.png
-   :align: right
+   :align: center
 
    A text and a search field.
 

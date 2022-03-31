@@ -35,7 +35,7 @@ Options
 =======
 
 .. figure:: /images/modeling_modifiers_generate_booleans_panel.png
-   :align: right
+   :align: center
    :width: 300px
 
    The Boolean modifier.
