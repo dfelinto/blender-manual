@@ -5,7 +5,7 @@
 Face Area Node
 **************
 
-.. figure:: /images/modeling_geometry-nodes_input_face-area_node.png
+.. figure:: /images/node-types_GeometryNodeInputMeshFaceArea.webp
    :align: right
    :alt: Face Area Node.
 

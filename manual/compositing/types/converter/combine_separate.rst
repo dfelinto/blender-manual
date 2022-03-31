@@ -29,11 +29,11 @@ Some common operations could easier be executed with the :doc:`/compositing/type
 Separate/Combine RGBA Nodes
 ===========================
 
-.. figure:: /images/compositing_node-types_CompositorNodeCombRGBA.png
+.. figure:: /images/compositing_node-types_CompositorNodeCombRGBA.webp
    :align: right
    :alt: Combine RGBA Node.
 
-.. figure:: /images/compositing_node-types_CompositorNodeSepRGBA.png
+.. figure:: /images/compositing_node-types_CompositorNodeSepRGBA.webp
    :align: right
    :alt: Separate RGBA Node.
 
@@ -76,12 +76,12 @@ as an "out-of-phase" time-traveling sync effect.
 Separate/Combine XYZ Nodes
 ==========================
 
-.. figure:: /images/modeling_geometry-nodes_vector_combine-xyz_node.png
+.. figure:: /images/compositing_node-types_CompositorNodeCombineXYZ.webp
    :width: 190px
    :align: right
    :alt: Combine XYZ Node.
 
-.. figure:: /images/modeling_geometry-nodes_vector_separate-xyz_node.png
+.. figure:: /images/compositing_node-types_CompositorNodeSeparateXYZ.webp
    :width: 190px
    :align: right
    :alt: Separate XYZ Node.
@@ -107,11 +107,11 @@ This node has no properties.
 Separate/Combine HSVA Nodes
 ===========================
 
-.. figure:: /images/compositing_node-types_CompositorNodeCombHSVA.png
+.. figure:: /images/compositing_node-types_CompositorNodeCombHSVA.webp
    :align: right
    :alt: Combine HSVA Node.
 
-.. figure:: /images/compositing_node-types_CompositorNodeSepHSVA.png
+.. figure:: /images/compositing_node-types_CompositorNodeSepHSVA.webp
    :align: right
    :alt: Separate HSVA Node.
 
@@ -137,11 +137,11 @@ This node has no properties.
 Separate/Combine YUVA Nodes
 ===========================
 
-.. figure:: /images/compositing_node-types_CompositorNodeCombYUVA.png
+.. figure:: /images/compositing_node-types_CompositorNodeCombYUVA.webp
    :align: right
    :alt: Combine YUVA Node.
 
-.. figure:: /images/compositing_node-types_CompositorNodeSepYUVA.png
+.. figure:: /images/compositing_node-types_CompositorNodeSepYUVA.webp
    :align: right
    :alt: Separate YUVA Node.
 
@@ -167,11 +167,11 @@ This node has no properties.
 Separate/Combine YCbCrA Node
 ============================
 
-.. figure:: /images/compositing_node-types_CompositorNodeCombYCCA.png
+.. figure:: /images/compositing_node-types_CompositorNodeCombYCCA.webp
    :align: right
    :alt: Combine YCbCrA Node.
 
-.. figure:: /images/compositing_node-types_CompositorNodeSepYCCA.png
+.. figure:: /images/compositing_node-types_CompositorNodeSepYCCA.webp
    :align: right
    :alt: Separate YCbCrA Node.
 

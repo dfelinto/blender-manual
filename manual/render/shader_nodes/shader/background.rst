@@ -4,7 +4,7 @@
 Background
 **********
 
-.. figure:: /images/render_shader-nodes_shader_background_node.png
+.. figure:: /images/node-types_ShaderNodeBackground.webp
    :align: right
    :alt: Background Shader node.
 

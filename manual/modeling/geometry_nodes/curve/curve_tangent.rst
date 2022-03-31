@@ -5,7 +5,7 @@
 Curve Tangent Node
 ******************
 
-.. figure:: /images/modeling_geometry-nodes_curve_curve-tangent_node.png
+.. figure:: /images/node-types_GeometryNodeInputTangent.webp
    :align: right
    :alt: Curve Tangent node.
 

@@ -5,7 +5,7 @@
 Quadratic Bézier Node
 *********************
 
-.. figure:: /images/modeling_geometry-nodes_curve-primitives_quadratic-bezier_node.png
+.. figure:: /images/node-types_GeometryNodeCurveQuadraticBezier.webp
    :align: right
    :alt: Quadratic Bézier Node.
 

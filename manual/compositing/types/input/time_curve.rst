@@ -6,7 +6,7 @@
 Time Curve Node
 ***************
 
-.. figure:: /images/compositing_node-types_CompositorNodeTimeCurve.png
+.. figure:: /images/compositing_node-types_CompositorNodeTime.webp
    :align: right
    :alt: Time Curve Node.
 

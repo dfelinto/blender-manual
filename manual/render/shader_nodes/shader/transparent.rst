@@ -4,7 +4,7 @@
 Transparent BSDF
 ****************
 
-.. figure:: /images/render_shader-nodes_shader_transparent_node.png
+.. figure:: /images/node-types_ShaderNodeBsdfTransparent.webp
    :align: right
    :alt: Transparent BSDF node.
 

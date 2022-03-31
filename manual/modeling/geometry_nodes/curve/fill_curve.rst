@@ -5,7 +5,7 @@
 Fill Curve Node
 ***************
 
-.. figure:: /images/modeling_geometry-nodes_curve_curve-fill_node.png
+.. figure:: /images/node-types_GeometryNodeFillCurve.webp
    :align: center
    :alt: Fill Curve node.
 

@@ -5,7 +5,7 @@
 Set Spline Cyclic Node
 **********************
 
-.. figure:: /images/modeling_geometry-nodes_curve_set-spline-cyclic_node.png
+.. figure:: /images/node-types_GeometryNodeSetSplineCyclic.webp
    :align: right
    :alt: Set Spline Cyclic node.
 

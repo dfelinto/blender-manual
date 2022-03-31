@@ -5,7 +5,7 @@
 ID Node
 *******
 
-.. figure:: /images/modeling_geometry-nodes_input_input-id_node.png
+.. figure:: /images/node-types_GeometryNodeInputID.webp
    :align: right
    :alt: ID node.
 

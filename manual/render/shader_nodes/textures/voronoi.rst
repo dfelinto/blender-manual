@@ -4,7 +4,7 @@
 Voronoi Texture Node
 ********************
 
-.. figure:: /images/render_shader-nodes_textures_voronoi_node.png
+.. figure:: /images/node-types_ShaderNodeTexVoronoi.webp
    :align: right
    :alt: Voronoi Texture Node.
 

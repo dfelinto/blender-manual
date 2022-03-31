@@ -4,7 +4,7 @@
 Object Info Node
 ****************
 
-.. figure:: /images/render_shader-nodes_input_object-info_node.png
+.. figure:: /images/node-types_ShaderNodeObjectInfo.webp
    :align: right
    :alt: Object Info Node.
 

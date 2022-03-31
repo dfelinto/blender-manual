@@ -5,7 +5,7 @@
 Instances to Points Node
 ************************
 
-.. figure:: /images/modeling_geometry-nodes_point_instances-to-points_node.png
+.. figure:: /images/node-types_GeometryNodeInstancesToPoints.webp
    :align: right
    :alt: Instances to Points node.
 

@@ -1,9 +1,10 @@
+.. _bpy.types.TextureNodeDistance:
 
 *************
 Distance Node
 *************
 
-.. figure:: /images/editors_texture-node_types_converter_distance_node.png
+.. figure:: /images/node-types_TextureNodeDistance.webp
    :align: right
    :alt: Distance node.
 

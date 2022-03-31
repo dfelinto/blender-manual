@@ -11,7 +11,7 @@ Gradient Texture Node
    This node accepts field inputs and outputs.
    When not connected the Vector input has an implicit ``position`` attribute value.
 
-.. figure:: /images/render_shader-nodes_textures_gradient_node.png
+.. figure:: /images/node-types_ShaderNodeTexGradient.webp
    :align: right
    :alt: Gradient Texture Node.
 

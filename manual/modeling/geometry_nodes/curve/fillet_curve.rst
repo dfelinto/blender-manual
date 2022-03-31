@@ -5,7 +5,7 @@
 Fillet Curve Node
 *****************
 
-.. figure:: /images/modeling_geometry-nodes_curve_fillet-curve_node.png
+.. figure:: /images/node-types_GeometryNodeFilletCurve.webp
    :align: right
    :alt: Fillet Curve node.
 

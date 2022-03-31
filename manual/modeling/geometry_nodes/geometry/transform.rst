@@ -5,7 +5,7 @@
 Transform Node
 **************
 
-.. figure:: /images/modeling_geometry-nodes_geometry_transform_node.png
+.. figure:: /images/node-types_GeometryNodeTransform.webp
    :align: right
    :alt: Transform node.
 

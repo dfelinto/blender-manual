@@ -4,7 +4,7 @@
 Map UV Node
 ***********
 
-.. figure:: /images/compositing_node-types_CompositorNodeMapUV.png
+.. figure:: /images/compositing_node-types_CompositorNodeMapUV.webp
    :align: right
    :alt: Map UV node.
 

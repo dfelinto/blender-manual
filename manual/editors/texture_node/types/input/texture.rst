@@ -4,7 +4,7 @@
 Texture Node
 ************
 
-.. figure:: /images/editors_texture-node_types_input_texture_node.png
+.. figure:: /images/node-types_TextureNodeTexture.webp
    :align: right
    :alt: Texture node.
 

@@ -5,7 +5,7 @@
 Set Point Radius Node
 *********************
 
-.. figure:: /images/modeling_geometry-nodes_point_set-point-radius_node.png
+.. figure:: /images/node-types_GeometryNodeSetPointRadius.webp
    :align: right
    :alt: Set Point Radius node.
 

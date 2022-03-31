@@ -4,7 +4,7 @@
 Output Node
 ***********
 
-.. figure:: /images/editors_texture-node_types_output_output_node.png
+.. figure:: /images/node-types_TextureNodeOutput.webp
    :align: right
    :alt: Output node.
 

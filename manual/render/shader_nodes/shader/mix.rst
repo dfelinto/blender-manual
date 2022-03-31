@@ -4,7 +4,7 @@
 Mix Shader
 **********
 
-.. figure:: /images/render_shader-nodes_shader_mix_node.png
+.. figure:: /images/node-types_ShaderNodeMixShader.webp
    :align: right
    :alt: Mix Shader node.
 

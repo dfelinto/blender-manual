@@ -1,9 +1,10 @@
+.. _bpy.types.TextureNodeScale:
 
 **********
 Scale Node
 **********
 
-.. figure:: /images/editors_texture-node_types_distort_scale_node.png
+.. figure:: /images/node-types_TextureNodeScale.webp
    :align: right
    :alt: Scale node.
 

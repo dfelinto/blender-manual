@@ -5,7 +5,7 @@
 Delete Geometry Node
 ********************
 
-.. figure:: /images/modeling_geometry-nodes_geometry_delete-geometry_node.png
+.. figure:: /images/node-types_GeometryNodeDeleteGeometry.webp
    :align: center
    :alt: Delete Geometry node.
 

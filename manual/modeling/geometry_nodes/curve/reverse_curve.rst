@@ -5,7 +5,7 @@
 Reverse Curve Node
 ******************
 
-.. figure:: /images/modeling_geometry-nodes_curve_curve-reverse_node.png
+.. figure:: /images/node-types_GeometryNodeReverseCurve.webp
    :align: center
    :alt: Reverse Curve node.
 

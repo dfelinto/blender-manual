@@ -5,7 +5,7 @@
 Mesh Circle Node
 ****************
 
-.. figure:: /images/modeling_geometry-nodes_mesh-primitives_circle_node.png
+.. figure:: /images/node-types_GeometryNodeMeshCircle.webp
    :align: right
    :alt: Mesh Circle Node.
 

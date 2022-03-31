@@ -5,7 +5,7 @@
 Defocus Node
 ************
 
-.. figure:: /images/compositing_node-types_CompositorNodeDefocus.png
+.. figure:: /images/compositing_node-types_CompositorNodeDefocus.webp
    :align: right
    :alt: Defocus Node.
 

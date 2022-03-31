@@ -4,7 +4,7 @@
 Tone Map Node
 *************
 
-.. figure:: /images/compositing_node-types_CompositorNodeTonemap.png
+.. figure:: /images/compositing_node-types_CompositorNodeTonemap.webp
    :align: right
    :alt: Tone Map Node.
 

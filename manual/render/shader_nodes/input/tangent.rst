@@ -4,7 +4,7 @@
 Tangent Node
 ************
 
-.. figure:: /images/render_shader-nodes_input_tangent_node.png
+.. figure:: /images/node-types_ShaderNodeTangent.webp
    :align: right
    :alt: Tangent Node.
 

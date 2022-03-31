@@ -4,7 +4,7 @@
 Specular BSDF
 *************
 
-.. figure:: /images/render_shader-nodes_shader_specular-bsdf_node.png
+.. figure:: /images/node-types_ShaderNodeEeveeSpecular.webp
    :align: right
    :alt: Specular BSDF node.
 

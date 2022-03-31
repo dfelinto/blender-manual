@@ -5,7 +5,7 @@
 Separate Components Node
 ************************
 
-.. figure:: /images/modeling_geometry-nodes_geometry_separate-components_node.png
+.. figure:: /images/node-types_GeometryNodeSeparateComponents.webp
    :align: center
    :alt: Separate Components node.
 

@@ -5,7 +5,7 @@
 Float Curve
 ***********
 
-.. figure:: /images/render_shader-nodes_converter_float-curve_node.jpg
+.. figure:: /images/node-types_ShaderNodeFloatCurve.webp
    :align: right
    :alt: Float Curve node.
 

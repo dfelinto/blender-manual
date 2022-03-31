@@ -8,7 +8,7 @@ Mesh Boolean Node
 The *Mesh Boolean Node* allows you to cut, subtract, and join the geometry of two inputs.
 This node offers the same operations as the :doc:`Boolean modifier </modeling/modifiers/generate/booleans>`.
 
-.. figure:: /images/modeling_geometry-nodes_mesh_boolean_node.png
+.. figure:: /images/node-types_GeometryNodeMeshBoolean.webp
    :alt: Mesh Boolean node.
 
 

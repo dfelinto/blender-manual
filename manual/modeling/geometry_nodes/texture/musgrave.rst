@@ -11,7 +11,7 @@ Musgrave Texture Node
    This node accepts field inputs and outputs.
    When not connected the Vector input has an implicit ``position`` attribute value.
 
-.. figure:: /images/render_shader-nodes_textures_musgrave_node.png
+.. figure:: /images/node-types_ShaderNodeTexMusgrave.webp
    :align: right
    :alt: Musgrave Texture Node.
 

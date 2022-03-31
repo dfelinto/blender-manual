@@ -4,7 +4,7 @@
 Combine RGB Node
 ****************
 
-.. figure:: /images/modeling_geometry-nodes_color_combine-rgb_node.png
+.. figure:: /images/node-types_ShaderNodeCombineRGB.webp
    :align: right
    :alt: Combine RGB Node.
 

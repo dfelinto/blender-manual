@@ -18,7 +18,7 @@ Checker Texture Node
    as Moiré type patterns or a lack of detail due to
    insufficient sampling points.
 
-.. figure:: /images/render_shader-nodes_textures_checker_node.png
+.. figure:: /images/node-types_ShaderNodeTexChecker.webp
    :align: right
    :alt: Checker Texture node.
 

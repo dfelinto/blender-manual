@@ -5,7 +5,7 @@
 Boolean Math Node
 *****************
 
-.. figure:: /images/modeling_geometry-nodes_utilities_boolean-math_node.png
+.. figure:: /images/node-types_FunctionNodeBooleanMath.webp
    :align: right
    :alt: Boolean Math Node.
 

@@ -4,7 +4,7 @@
 Separate XYZ Node
 *****************
 
-.. figure:: /images/modeling_geometry-nodes_vector_separate-xyz_node.png
+.. figure:: /images/compositing_node-types_CompositorNodeSeparateXYZ.webp
    :align: right
    :alt: Separate XYZ Node.
 

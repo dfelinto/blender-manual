@@ -1,11 +1,11 @@
 .. index:: Geometry Nodes; String to Curves
-.. _bpy.types.GeometryNodeStringtoCurves:
+.. _bpy.types.GeometryNodeStringToCurves:
 
 *********************
 String to Curves Node
 *********************
 
-.. figure:: /images/modeling_geometry-nodes_text_string-to-curves_node.png
+.. figure:: /images/node-types_GeometryNodeStringToCurves.webp
    :align: right
    :alt: String to Curves node.
 

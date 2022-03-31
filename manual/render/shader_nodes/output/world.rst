@@ -4,7 +4,7 @@
 World Node
 **********
 
-.. figure:: /images/render_shader-nodes_output_world_node.png
+.. figure:: /images/node-types_ShaderNodeOutputWorld.webp
    :align: right
    :alt: World Node.
 

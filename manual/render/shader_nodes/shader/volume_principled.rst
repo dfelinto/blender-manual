@@ -4,7 +4,7 @@
 Principled Volume
 *****************
 
-.. figure:: /images/render_shader-nodes_shader_volume-principled_node.png
+.. figure:: /images/node-types_ShaderNodeVolumePrincipled.webp
    :align: right
    :alt: Principled Volume node.
 

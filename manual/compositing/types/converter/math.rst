@@ -10,7 +10,7 @@
 Math Node
 *********
 
-.. figure:: /images/compositing_node-types_CompositorNodeMath.png
+.. figure:: /images/compositing_node-types_CompositorNodeMath.webp
    :align: right
    :alt: Math node.
 

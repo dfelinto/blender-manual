@@ -4,7 +4,7 @@
 Crop Node
 *********
 
-.. figure:: /images/compositing_node-types_CompositorNodeCrop.png
+.. figure:: /images/compositing_node-types_CompositorNodeCrop.webp
    :align: right
    :alt: Crop Node.
 

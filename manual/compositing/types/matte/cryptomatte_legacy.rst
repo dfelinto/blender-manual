@@ -1,9 +1,10 @@
+.. _bpy.types.CompositorNodeCryptomatte:
 
 *************************
 Cryptomatte Node (Legacy)
 *************************
 
-.. figure:: /images/compositing_node-types_CompositorNodeCryptomatteLegacy.png
+.. figure:: /images/compositing_node-types_CompositorNodeCryptomatte.webp
    :align: right
    :alt: Cryptomatte Node.
 

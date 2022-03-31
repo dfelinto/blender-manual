@@ -1,10 +1,10 @@
-.. _bpy.types.ShaderNodeGeometry:
+.. _bpy.types.ShaderNodeNewGeometry:
 
 *************
 Geometry Node
 *************
 
-.. figure:: /images/render_shader-nodes_input_geometry_node.png
+.. figure:: /images/node-types_ShaderNodeNewGeometry.webp
    :align: right
    :alt: Geometry Node.
 

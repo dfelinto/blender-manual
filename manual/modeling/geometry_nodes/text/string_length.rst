@@ -1,11 +1,11 @@
 .. index:: Geometry Nodes; String Length
-.. _bpy.types.GeometryNodeStringLength:
+.. _bpy.types.FunctionNodeStringLength:
 
 ******************
 String Length Node
 ******************
 
-.. figure:: /images/modeling_geometry-nodes_text_string-length_node.png
+.. figure:: /images/node-types_FunctionNodeStringLength.webp
    :align: center
    :alt: String Length node.
 

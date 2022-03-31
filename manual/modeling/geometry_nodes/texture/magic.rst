@@ -11,7 +11,7 @@ Magic Texture Node
    This node accepts field inputs and outputs.
    When not connected the Vector input has an implicit ``position`` attribute value.
 
-.. figure:: /images/render_shader-nodes_textures_magic_node.png
+.. figure:: /images/node-types_ShaderNodeTexMagic.webp
    :align: right
    :alt: Magic Texture Node.
 

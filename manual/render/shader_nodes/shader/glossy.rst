@@ -4,7 +4,7 @@
 Glossy BSDF
 ***********
 
-.. figure:: /images/render_shader-nodes_shader_glossy_node.png
+.. figure:: /images/node-types_ShaderNodeBsdfGlossy.webp
    :align: right
    :alt: Glossy BSDF node.
 

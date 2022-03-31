@@ -5,7 +5,7 @@
 Convex Hull Node
 ****************
 
-.. figure:: /images/modeling_geometry-nodes_geometry_convex-hull_node.png
+.. figure:: /images/node-types_GeometryNodeConvexHull.webp
    :alt: Convex Hull node.
 
 The *Convex Hull* node outputs a convex mesh that is enclosing all points in the input geometry.

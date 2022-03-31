@@ -4,7 +4,7 @@
 Subsurface Scattering
 *********************
 
-.. figure:: /images/render_shader-nodes_shader_sss_node.png
+.. figure:: /images/node-types_ShaderNodeSubsurfaceScattering.webp
    :align: right
    :alt: Subsurface Scattering node.
 

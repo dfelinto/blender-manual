@@ -1,11 +1,11 @@
 .. index:: Geometry Nodes; Quadrilateral
-.. _bpy.types.GeometryNodeCurveQuadrilateral:
+.. _bpy.types.GeometryNodeCurvePrimitiveQuadrilateral:
 
 ******************
 Quadrilateral Node
 ******************
 
-.. figure:: /images/modeling_geometry-nodes_curve-primitives_quadrilateral_node.png
+.. figure:: /images/node-types_GeometryNodeCurvePrimitiveQuadrilateral.webp
    :alt: Quadrilateral Node.
 
 The *Quadrilateral* node generates a polygon with four points, with different modes.

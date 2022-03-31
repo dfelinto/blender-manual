@@ -18,7 +18,7 @@ Brick Texture Node
    as Moiré type patterns or a lack of detail due to
    insufficient sampling points.
 
-.. figure:: /images/render_shader-nodes_textures_brick_node.png
+.. figure:: /images/node-types_ShaderNodeTexBrick.webp
    :align: right
    :alt: Brick Texture node.
 

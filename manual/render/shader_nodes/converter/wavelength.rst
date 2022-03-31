@@ -4,7 +4,7 @@
 Wavelength Node
 ***************
 
-.. figure:: /images/render_shader-nodes_converter_wavelength_node.png
+.. figure:: /images/node-types_ShaderNodeWavelength.webp
    :align: right
    :alt: Wavelength Node.
 

@@ -5,7 +5,7 @@
 Collection Info Node
 ********************
 
-.. figure:: /images/modeling_geometry-nodes_input_collection-info_node.png
+.. figure:: /images/node-types_GeometryNodeCollectionInfo.webp
    :align: right
    :alt: Collection Info node.
 

@@ -5,7 +5,7 @@
 Spline Resolution Node
 **********************
 
-.. figure:: /images/modeling_geometry-nodes_curve_spline-resolution_node.png
+.. figure:: /images/node-types_GeometryNodeInputSplineResolution.webp
    :align: right
    :alt: Spline Resolution node.
 

@@ -5,7 +5,7 @@
 Field at Index Node
 *******************
 
-.. figure:: /images/modeling_geometry-nodes_field-at-index_node.png
+.. figure:: /images/node-types_GeometryNodeFieldAtIndex.webp
    :align: right
    :alt: Field at Index Node.
 

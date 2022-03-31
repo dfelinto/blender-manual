@@ -9,7 +9,7 @@
 Value Node
 **********
 
-.. figure:: /images/compositing_node-types_CompositorNodeValue.png
+.. figure:: /images/compositing_node-types_CompositorNodeValue.webp
    :align: right
    :alt: Value Node.
 

@@ -4,7 +4,7 @@
 Image Texture Node
 ******************
 
-.. figure:: /images/render_shader-nodes_textures_image_node.png
+.. figure:: /images/node-types_ShaderNodeTexImage.webp
    :align: right
    :alt: Image Texture Node.
 

@@ -4,7 +4,7 @@
 Normalize Node
 **************
 
-.. figure:: /images/compositing_node-types_CompositorNodeNormalize.png
+.. figure:: /images/compositing_node-types_CompositorNodeNormalize.webp
    :align: right
    :alt: Normalize Node.
 

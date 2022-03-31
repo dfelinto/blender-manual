@@ -1,9 +1,10 @@
+.. _bpy.types.TextureNodeViewer:
 
 ***********
 Viewer Node
 ***********
 
-.. figure:: /images/editors_texture-node_types_output_viewer_node.png
+.. figure:: /images/node-types_TextureNodeViewer.webp
    :align: right
    :alt: Viewer node.
 

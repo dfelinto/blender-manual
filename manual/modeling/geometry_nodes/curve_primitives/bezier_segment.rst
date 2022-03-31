@@ -5,7 +5,7 @@
 Bézier Segment Node
 *******************
 
-.. figure:: /images/modeling_geometry-nodes_curve-primitives_bezier-segment_node.png
+.. figure:: /images/node-types_GeometryNodeCurvePrimitiveBezierSegment.webp
    :align: right
    :alt: Bézier Segment Node.
 

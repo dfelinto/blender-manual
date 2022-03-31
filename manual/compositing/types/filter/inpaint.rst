@@ -4,7 +4,7 @@
 Inpaint Node
 ************
 
-.. figure:: /images/compositing_node-types_CompositorNodeInpaint.png
+.. figure:: /images/compositing_node-types_CompositorNodeInpaint.webp
    :align: right
    :alt: Inpaint Node.
 

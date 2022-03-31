@@ -1,9 +1,10 @@
+.. _bpy.types.ShaderNodeTexPointDensity:
 
 ******************
 Point Density Node
 ******************
 
-.. figure:: /images/render_shader-nodes_textures_point-density_node.png
+.. figure:: /images/node-types_ShaderNodeTexPointDensity.webp
    :align: right
    :alt: Point Density Node.
 

@@ -5,7 +5,7 @@
 Index Node
 **********
 
-.. figure:: /images/modeling_geometry-nodes_input_index_node.png
+.. figure:: /images/node-types_GeometryNodeInputIndex.webp
    :align: right
    :alt: Index node.
 

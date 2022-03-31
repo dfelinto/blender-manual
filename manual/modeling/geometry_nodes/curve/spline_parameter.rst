@@ -5,7 +5,7 @@
 Spline Parameter Node
 *********************
 
-.. figure:: /images/modeling_geometry-nodes_curve_spline-parameter_node.png
+.. figure:: /images/node-types_GeometryNodeSplineParameter.webp
    :align: right
    :alt: Spline Parameter node.
 

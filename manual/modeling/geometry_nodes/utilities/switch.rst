@@ -5,7 +5,7 @@
 Switch Node
 ***********
 
-.. figure:: /images/modeling_geometry-nodes_utilities_switch_node.png
+.. figure:: /images/node-types_GeometryNodeSwitch.webp
    :align: right
    :alt: Switch Node.
 

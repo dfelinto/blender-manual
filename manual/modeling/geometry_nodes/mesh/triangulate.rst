@@ -5,7 +5,7 @@
 Triangulate Node
 ****************
 
-.. figure:: /images/modeling_geometry-nodes_mesh_triangulate_node.png
+.. figure:: /images/node-types_GeometryNodeTriangulate.webp
    :align: right
    :alt: Triangulate Node.
 

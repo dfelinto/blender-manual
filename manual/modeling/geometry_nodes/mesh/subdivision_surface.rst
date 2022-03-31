@@ -5,7 +5,7 @@
 Subdivision Surface Node
 ************************
 
-.. figure:: /images/modeling_geometry-nodes_mesh_subdivision-surface_node.png
+.. figure:: /images/node-types_GeometryNodeSubdivisionSurface.webp
    :align: right
    :alt: Subdivision Surface Node.
 

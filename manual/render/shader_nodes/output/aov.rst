@@ -1,9 +1,10 @@
+.. _bpy.types.ShaderNodeOutputAOV:
 
 ***************
 AOV Output Node
 ***************
 
-.. figure:: /images/render_shader-nodes_output_aov_node.png
+.. figure:: /images/node-types_ShaderNodeOutputAOV.webp
    :align: right
    :alt: AOV Output Node.
 

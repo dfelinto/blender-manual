@@ -7,7 +7,7 @@
 Scene Time Node
 ***************
 
-.. figure:: /images/modeling_geometry-nodes_input_scene_time_node.png
+.. figure:: /images/node-types_GeometryNodeInputSceneTime.webp
    :align: right
    :alt: Scene Time node.
 

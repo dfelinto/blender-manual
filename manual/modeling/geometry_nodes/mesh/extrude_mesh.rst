@@ -5,7 +5,7 @@
 Extrude Mesh Node
 *****************
 
-.. figure:: /images/modeling_geometry-nodes_extrude-mesh_node.png
+.. figure:: /images/node-types_GeometryNodeExtrudeMesh.webp
    :align: right
    :alt: Extrude Mesh node.
 

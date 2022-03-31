@@ -1,11 +1,11 @@
 .. index:: Geometry Nodes; Align Euler to Vector
-.. _bpy.types.GeometryNodeAlignEulerToVector:
+.. _bpy.types.FunctionNodeAlignEulerToVector:
 
 **************************
 Align Euler to Vector Node
 **************************
 
-.. figure:: /images/modeling_geometry-nodes_point_align-euler-to-vector_node.png
+.. figure:: /images/node-types_FunctionNodeAlignEulerToVector.webp
    :align: center
    :alt: Align Euler to Vector node.
 

@@ -1,9 +1,10 @@
+.. _bpy.types.TextureNodeTranslate:
 
 **************
 Translate Node
 **************
 
-.. figure:: /images/editors_texture-node_types_distort_translate_node.png
+.. figure:: /images/node-types_TextureNodeTranslate.webp
    :align: right
    :alt: Translate node.
 

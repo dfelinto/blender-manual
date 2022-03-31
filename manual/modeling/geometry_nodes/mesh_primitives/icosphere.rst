@@ -5,7 +5,7 @@
 Icosphere Node
 **************
 
-.. figure:: /images/modeling_geometry-nodes_mesh-primitives_icosphere_node.png
+.. figure:: /images/node-types_GeometryNodeMeshIcoSphere.webp
    :align: right
    :alt: Icosphere Node.
 

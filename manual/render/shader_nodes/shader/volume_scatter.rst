@@ -4,7 +4,7 @@
 Volume Scatter
 **************
 
-.. figure:: /images/render_shader-nodes_shader_volume-scatter_node.png
+.. figure:: /images/node-types_ShaderNodeVolumeScatter.webp
    :align: right
    :alt: Volume Scatter node.
 

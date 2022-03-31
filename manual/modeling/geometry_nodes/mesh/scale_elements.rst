@@ -5,7 +5,7 @@
 Scale Elements Node
 *******************
 
-.. figure:: /images/modeling_geometry-nodes_scale-elements_node.png
+.. figure:: /images/node-types_GeometryNodeScaleElements.webp
    :align: right
    :alt: Scale Elements node.
 

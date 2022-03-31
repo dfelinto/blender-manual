@@ -3,7 +3,7 @@
 Corner Pin Node
 ***************
 
-.. figure:: /images/compositing_node-types_CompositorNodeCornerPin.png
+.. figure:: /images/compositing_node-types_CompositorNodeCornerPin.webp
    :align: right
    :alt: Corner Pin Node.
 

@@ -4,7 +4,7 @@
 Fresnel Node
 ************
 
-.. figure:: /images/render_shader-nodes_input_fresnel_node.png
+.. figure:: /images/node-types_ShaderNodeFresnel.webp
    :align: right
    :alt: Fresnel Node.
 

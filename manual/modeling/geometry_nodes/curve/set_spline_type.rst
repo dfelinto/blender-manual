@@ -5,7 +5,7 @@
 Set Spline Type Node
 ********************
 
-.. figure:: /images/modeling_geometry-nodes_curve_spline-type_node.png
+.. figure:: /images/node-types_GeometryNodeCurveSplineType.webp
    :align: right
    :alt: The Set Spline Type node.
 

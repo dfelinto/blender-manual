@@ -4,7 +4,7 @@
 Glass BSDF
 **********
 
-.. figure:: /images/render_shader-nodes_shader_glass_node.png
+.. figure:: /images/node-types_ShaderNodeBsdfGlass.webp
    :align: right
    :alt: Glass BSDF node.
 

@@ -4,7 +4,7 @@
 Combine XYZ Node
 ****************
 
-.. figure:: /images/modeling_geometry-nodes_vector_combine-xyz_node.png
+.. figure:: /images/compositing_node-types_CompositorNodeSeparateXYZ.webp
    :align: right
    :alt: Combine XYZ Node.
 

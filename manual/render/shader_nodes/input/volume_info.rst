@@ -4,7 +4,7 @@
 Volume Info Node
 ****************
 
-.. figure:: /images/render_shader-nodes_input_volume-info_node.png
+.. figure:: /images/node-types_ShaderNodeVolumeInfo.webp
    :align: right
    :alt: Volume Info Node.
 

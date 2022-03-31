@@ -4,7 +4,7 @@
 Sky Texture Node
 ****************
 
-.. figure:: /images/render_shader-nodes_textures_sky_node.png
+.. figure:: /images/node-types_ShaderNodeTexSky.webp
    :align: right
    :alt: Sky Texture Node.
 

@@ -4,7 +4,7 @@
 Camera Data Node
 ****************
 
-.. figure:: /images/render_shader-nodes_input_camera-data_node.png
+.. figure:: /images/node-types_ShaderNodeCameraData.webp
    :align: right
    :alt: Camera Data Node.
 

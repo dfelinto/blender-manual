@@ -5,7 +5,7 @@
 Curve Handle Position Node
 **************************
 
-.. figure:: /images/modeling_geometry-nodes_curve_curve-handle-positions_node.png
+.. figure:: /images/node-types_GeometryNodeInputCurveHandlePositions.webp
    :align: right
    :alt: Curve Handle Position node.
 

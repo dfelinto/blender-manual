@@ -1,11 +1,11 @@
 .. index:: Geometry Nodes; Float To Integer
-.. _bpy.types.GeometryNodeFloatToInt:
+.. _bpy.types.FunctionNodeFloatToInt:
 
 *********************
 Float To Integer Node
 *********************
 
-.. figure:: /images/modeling_geometry-nodes_utilities_float-to-int_node.png
+.. figure:: /images/node-types_FunctionNodeFloatToInt.webp
    :align: right
    :alt: Float To Integer Node.
 

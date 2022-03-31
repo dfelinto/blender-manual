@@ -5,7 +5,7 @@
 Geometry to Instance Node
 *************************
 
-.. figure:: /images/modeling_geometry-nodes_geometry_geometry-to-instance_node.png
+.. figure:: /images/node-types_GeometryNodeGeometryToInstance.webp
    :align: right
    :alt: Geometry to Instance node.
 

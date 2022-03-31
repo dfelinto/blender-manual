@@ -5,7 +5,7 @@
 Realize Instances Node
 **********************
 
-.. figure:: /images/modeling_geometry-nodes_instances_realize-instances_node.png
+.. figure:: /images/node-types_GeometryNodeRealizeInstances.webp
    :align: right
    :alt: Realize Instances node.
 

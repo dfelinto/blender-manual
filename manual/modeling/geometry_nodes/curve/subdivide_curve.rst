@@ -5,7 +5,7 @@
 Subdivide Curve Node
 ********************
 
-.. figure:: /images/modeling_geometry-nodes_curve_curve-subdivide_node.png
+.. figure:: /images/node-types_GeometryNodeSubdivideCurve.webp
    :align: center
    :alt: The Subdivide Curve node.
 

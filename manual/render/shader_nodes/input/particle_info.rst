@@ -6,7 +6,7 @@ Particle Info Node
 
 :guilabel:`Cycles Only`
 
-.. figure:: /images/render_shader-nodes_input_particle-info_node.png
+.. figure:: /images/node-types_ShaderNodeParticleInfo.webp
    :align: right
    :alt: Particle Info Node.
 

@@ -1,11 +1,11 @@
 .. index:: Geometry Nodes; Value to String
-.. _bpy.types.GeometryNodeValueToString:
+.. _bpy.types.FunctionNodeValueToString:
 
 ********************
 Value to String Node
 ********************
 
-.. figure:: /images/modeling_geometry-nodes_text_value-to-string_node.png
+.. figure:: /images/node-types_FunctionNodeValueToString.webp
    :align: center
    :alt: Value to String node.
 

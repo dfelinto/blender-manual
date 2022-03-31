@@ -4,7 +4,7 @@
 Velvet BSDF
 ***********
 
-.. figure:: /images/render_shader-nodes_shader_velvet_node.png
+.. figure:: /images/node-types_ShaderNodeBsdfVelvet.webp
    :align: right
    :alt: Velvet BSDF node.
 

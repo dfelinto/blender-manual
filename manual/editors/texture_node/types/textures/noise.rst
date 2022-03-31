@@ -1,9 +1,10 @@
+.. _bpy.types.TextureNodeTexNoise:
 
 **********
 Noise Node
 **********
 
-.. figure:: /images/editors_texture-node_types_textures_noise_node.png
+.. figure:: /images/node-types_TextureNodeTexNoise.webp
    :alt: Noise Node.
 
 See :doc:`Here </render/materials/legacy_textures/types/noise>`.

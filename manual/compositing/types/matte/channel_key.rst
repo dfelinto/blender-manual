@@ -4,7 +4,7 @@
 Channel Key Node
 ****************
 
-.. figure:: /images/compositing_node-types_CompositorNodeChannelMatte.png
+.. figure:: /images/compositing_node-types_CompositorNodeChannelMatte.webp
    :align: right
    :alt: Channel Key Node.
 

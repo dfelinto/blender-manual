@@ -5,7 +5,7 @@
 Separate Geometry Node
 **********************
 
-.. figure:: /images/modeling_geometry-nodes_geometry_separate-geometry_node.png
+.. figure:: /images/node-types_GeometryNodeSeparateGeometry.webp
    :align: right
    :alt: Separate Geometry node.
 

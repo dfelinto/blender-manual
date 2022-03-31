@@ -6,7 +6,7 @@ Light Falloff Node
 
 :guilabel:`Cycles Only`
 
-.. figure:: /images/render_shader-nodes_color_light-falloff_node.png
+.. figure:: /images/node-types_ShaderNodeLightFalloff.webp
    :align: right
    :alt: Light Falloff Node.
 

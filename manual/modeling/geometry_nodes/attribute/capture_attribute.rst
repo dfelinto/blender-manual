@@ -5,7 +5,7 @@
 Capture Attribute Node
 **********************
 
-.. figure:: /images/modeling_geometry-nodes_attribute_capture-attribute_node.png
+.. figure:: /images/node-types_GeometryNodeCaptureAttribute.webp
    :align: right
    :alt: Capture Attribute node.
 

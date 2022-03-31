@@ -1,11 +1,11 @@
 .. index:: Geometry Nodes; Random Value
-.. _bpy.types.GeometryNodeRandomValue:
+.. _bpy.types.FunctionNodeRandomValue:
 
 *****************
 Random Value Node
 *****************
 
-.. figure:: /images/modeling_geometry-nodes_utilities_random-value_node.png
+.. figure:: /images/node-types_FunctionNodeRandomValue.webp
    :align: right
    :alt: Random Value node.
 

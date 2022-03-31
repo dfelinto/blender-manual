@@ -5,7 +5,7 @@
 Replace Material Node
 *********************
 
-.. figure:: /images/modeling_geometry-nodes_material_replace_node.png
+.. figure:: /images/node-types_GeometryNodeReplaceMaterial.webp
    :align: right
    :width: 300px
    :alt: Replace Material Node.

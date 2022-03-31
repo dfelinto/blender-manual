@@ -4,7 +4,7 @@
 Posterize
 *********
 
-.. figure:: /images/compositing_node-types_CompositorNodePosterize.png
+.. figure:: /images/compositing_node-types_CompositorNodePosterize.webp
    :align: right
    :alt: Posterize Node.
 

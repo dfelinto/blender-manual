@@ -5,7 +5,7 @@
 UV Sphere Node
 **************
 
-.. figure:: /images/modeling_geometry-nodes_mesh-primitives_uv-sphere_node.png
+.. figure:: /images/node-types_GeometryNodeMeshUVSphere.webp
    :align: right
    :alt: UV Sphere Node.
 

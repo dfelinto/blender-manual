@@ -4,7 +4,7 @@
 Wireframe Node
 **************
 
-.. figure:: /images/render_shader-nodes_input_wireframe_node.png
+.. figure:: /images/node-types_ShaderNodeWireframe.webp
    :align: right
    :alt: Wireframe Node.
 

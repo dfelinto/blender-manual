@@ -1,11 +1,11 @@
 .. index:: Geometry Nodes; Color
-.. _bpy.types.GeometryNodeInputColor:
+.. _bpy.types.FunctionNodeInputColor:
 
 **********
 Color Node
 **********
 
-.. figure:: /images/modeling_geometry-nodes_input_color_node.png
+.. figure:: /images/node-types_FunctionNodeInputColor.webp
    :align: right
    :alt: Color node.
 

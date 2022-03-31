@@ -9,7 +9,7 @@
 Mix Node
 ********
 
-.. figure:: /images/compositing_node-types_CompositorNodeMixRGB.png
+.. figure:: /images/compositing_node-types_CompositorNodeMixRGB.webp
    :align: right
    :alt: Mix Node.
 

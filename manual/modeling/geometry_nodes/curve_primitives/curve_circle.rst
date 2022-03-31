@@ -1,11 +1,11 @@
 .. index:: Geometry Nodes; Curve Circle
-.. _bpy.types.GeometryNodeCurveCircle:
+.. _bpy.types.GeometryNodeCurvePrimitiveCircle:
 
 *****************
 Curve Circle Node
 *****************
 
-.. figure:: /images/modeling_geometry-nodes_curve-primitives_circle_node.png
+.. figure:: /images/node-types_GeometryNodeCurvePrimitiveCircle.webp
    :align: right
    :alt: Circle Node.
 

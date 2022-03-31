@@ -5,7 +5,7 @@
 Material Node
 *************
 
-.. figure:: /images/modeling_geometry-nodes_input_material_node.png
+.. figure:: /images/node-types_GeometryNodeInputMaterial.webp
    :align: right
    :width: 300px
    :alt: Material Input Node.

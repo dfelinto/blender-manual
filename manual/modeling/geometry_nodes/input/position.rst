@@ -5,7 +5,7 @@
 Position Node
 *************
 
-.. figure:: /images/modeling_geometry-nodes_input_position_node.png
+.. figure:: /images/node-types_GeometryNodeInputPosition.webp
    :align: right
    :alt: Position node.
 

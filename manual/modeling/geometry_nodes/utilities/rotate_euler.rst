@@ -1,11 +1,11 @@
 .. index:: Geometry Nodes; Rotate Euler
-.. _bpy.types.GeometryNodeRotateEuler:
+.. _bpy.types.FunctionNodeRotateEuler:
 
 *****************
 Rotate Euler Node
 *****************
 
-.. figure:: /images/modeling_geometry-nodes_utilities_rotate-euler_node.png
+.. figure:: /images/node-types_FunctionNodeRotateEuler.webp
    :align: right
    :alt: Rotate Euler node.
 

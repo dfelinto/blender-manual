@@ -4,7 +4,7 @@
 IES Texture Node
 ****************
 
-.. figure:: /images/render_shader-nodes_textures_ies_node.png
+.. figure:: /images/node-types_ShaderNodeTexIES.webp
    :align: right
    :alt: Gradient Texture Node.
 

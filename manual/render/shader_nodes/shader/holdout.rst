@@ -4,7 +4,7 @@
 Holdout
 *******
 
-.. figure:: /images/render_shader-nodes_shader_holdout_node.png
+.. figure:: /images/node-types_ShaderNodeHoldout.webp
    :align: right
    :alt: Holdout node.
 

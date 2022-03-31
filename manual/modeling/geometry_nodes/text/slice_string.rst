@@ -1,11 +1,11 @@
 .. index:: Geometry Nodes; Slice String
-.. _bpy.types.GeometryNodeSliceString:
+.. _bpy.types.FunctionNodeSliceString:
 
 *****************
 Slice String Node
 *****************
 
-.. figure:: /images/modeling_geometry-nodes_text_slice-string_node.png
+.. figure:: /images/node-types_FunctionNodeSliceString.webp
    :align: center
    :alt: Slice String node.
 

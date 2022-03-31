@@ -4,7 +4,7 @@
 Attribute Node
 **************
 
-.. figure:: /images/render_shader-nodes_input_attribute_node.png
+.. figure:: /images/node-types_ShaderNodeAttribute.webp
    :align: right
    :alt: Attribute Node.
 

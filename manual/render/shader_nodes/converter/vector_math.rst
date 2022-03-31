@@ -8,7 +8,7 @@
 Vector Math Node
 ****************
 
-.. figure:: /images/render_shader-nodes_converter_vector-math_node.png
+.. figure:: /images/node-types_ShaderNodeVectorMath.webp
    :align: right
    :alt: Vector Math Node.
 

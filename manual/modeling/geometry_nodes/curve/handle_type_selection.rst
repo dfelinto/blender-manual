@@ -5,7 +5,7 @@
 Handle Type Selection Node
 **************************
 
-.. figure:: /images/modeling_geometry-nodes_curve_handle-type-selection_node.png
+.. figure:: /images/node-types_GeometryNodeCurveHandleTypeSelection.webp
    :align: center
    :alt: The Handle Type Selection node.
 

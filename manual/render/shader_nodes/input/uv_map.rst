@@ -4,7 +4,7 @@
 UV Map Node
 ***********
 
-.. figure:: /images/render_shader-nodes_input_uv-map_node.png
+.. figure:: /images/node-types_ShaderNodeUVMap.webp
    :align: right
    :alt: UV Map Node.
 

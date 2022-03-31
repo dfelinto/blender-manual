@@ -1,5 +1,5 @@
 .. index:: Geometry Nodes; Image Texture
-.. _bpy.types.GeoNodeImageTexture:
+.. _bpy.types.GeometryNodeImageTexture:
 
 ******************
 Image Texture Node
@@ -11,7 +11,7 @@ Image Texture Node
    in geometry nodes compared to the equivalent shader node.
    When not connected the Vector input has an implicit ``position`` attribute value.
 
-.. figure:: /images/modeling_geometry-nodes_texture-nodes_image_texture_node.jpg
+.. figure:: /images/node-types_GeometryNodeImageTexture.webp
    :align: right
    :alt: Image Texture node.
 

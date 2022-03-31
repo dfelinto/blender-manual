@@ -4,7 +4,7 @@
 Separate RGB Node
 *****************
 
-.. figure:: /images/modeling_geometry-nodes_color_separate-rgb_node.png
+.. figure:: /images/node-types_ShaderNodeSeparateRGB.webp
    :align: right
    :alt: Separate RGB Node.
 

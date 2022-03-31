@@ -1,11 +1,11 @@
 .. index:: Geometry Nodes; Mesh to Points
-.. _bpy.types.GeometryNodeMeshtoPoints:
+.. _bpy.types.GeometryNodeMeshToPoints:
 
 *******************
 Mesh to Points Node
 *******************
 
-.. figure:: /images/modeling_geometry-nodes_mesh_mesh-to-points_node.png
+.. figure:: /images/node-types_GeometryNodeMeshToPoints.webp
    :align: right
    :alt: Mesh to Points node.
 

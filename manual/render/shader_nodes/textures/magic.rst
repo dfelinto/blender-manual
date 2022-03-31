@@ -4,7 +4,7 @@
 Magic Texture Node
 ******************
 
-.. figure:: /images/render_shader-nodes_textures_magic_node.png
+.. figure:: /images/node-types_ShaderNodeTexMagic.webp
    :align: right
    :alt: Magic Texture Node.
 

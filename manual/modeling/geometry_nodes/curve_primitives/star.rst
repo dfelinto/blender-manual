@@ -5,7 +5,7 @@
 Star Node
 *********
 
-.. figure:: /images/modeling_geometry-nodes_curve-primitives_star_node.png
+.. figure:: /images/node-types_GeometryNodeCurveStar.webp
    :align: right
    :alt: Star Node.
 

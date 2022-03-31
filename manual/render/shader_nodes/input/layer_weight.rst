@@ -4,7 +4,7 @@
 Layer Weight Node
 *****************
 
-.. figure:: /images/render_shader-nodes_input_layer-weight_node.png
+.. figure:: /images/node-types_ShaderNodeLayerWeight.webp
    :align: right
    :alt: Layer Weight Node.
 

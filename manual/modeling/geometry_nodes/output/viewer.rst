@@ -5,7 +5,7 @@
 Viewer Node
 ***********
 
-.. figure:: /images/modeling_geometry-nodes_output_viewer_node.png
+.. figure:: /images/node-types_GeometryNodeViewer.webp
    :align: center
    :alt: The Viewer node.
 

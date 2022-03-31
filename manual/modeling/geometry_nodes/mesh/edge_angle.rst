@@ -5,7 +5,7 @@
 Edge Angle Node
 ***************
 
-.. figure:: /images/modeling_geometry-nodes_input_edge-angle_node.png
+.. figure:: /images/node-types_GeometryNodeInputMeshEdgeAngle.webp
    :align: right
    :alt: Edge Angle Node.
 

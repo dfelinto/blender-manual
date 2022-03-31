@@ -5,7 +5,7 @@
 Vertex Neighbors Node
 *********************
 
-.. figure:: /images/modeling_geometry-nodes_input_is-vertex-neighbors_node.png
+.. figure:: /images/node-types_GeometryNodeInputMeshVertexNeighbors.webp
    :align: right
    :alt: Vertex Neighbors Node.
 

@@ -8,7 +8,7 @@
 Map Range Node
 **************
 
-.. figure:: /images/render_shader-nodes_converter_map-range_node.png
+.. figure:: /images/node-types_ShaderNodeMapRange.webp
    :align: right
    :alt: Map Range Node.
 

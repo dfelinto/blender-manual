@@ -4,7 +4,7 @@
 Difference Key Node
 *******************
 
-.. figure:: /images/compositing_node-types_CompositorNodeDiffMatte.png
+.. figure:: /images/compositing_node-types_CompositorNodeDiffMatte.webp
    :align: right
    :alt: Difference Key Node.
 

@@ -4,7 +4,7 @@
 Chroma Key Node
 ***************
 
-.. figure:: /images/compositing_node-types_CompositorNodeChromaMatte.png
+.. figure:: /images/compositing_node-types_CompositorNodeChromaMatte.webp
    :align: right
    :alt: Chroma Key Node.
 

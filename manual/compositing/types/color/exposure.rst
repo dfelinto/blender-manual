@@ -4,7 +4,7 @@
 Exposure Node
 *************
 
-.. figure:: /images/compositing_node-types_CompositorNodeExposure.png
+.. figure:: /images/compositing_node-types_CompositorNodeExposure.webp
    :align: right
    :alt: Exposure Node.
 

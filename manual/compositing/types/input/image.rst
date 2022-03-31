@@ -4,7 +4,7 @@
 Image Node
 **********
 
-.. figure:: /images/compositing_node-types_CompositorNodeImage.png
+.. figure:: /images/compositing_node-types_CompositorNodeImage.webp
    :align: right
    :alt: Image Node.
 

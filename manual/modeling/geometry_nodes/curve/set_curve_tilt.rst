@@ -5,7 +5,7 @@
 Set Curve Tilt Node
 *******************
 
-.. figure:: /images/modeling_geometry-nodes_curve_set-curve-tilt_node.png
+.. figure:: /images/node-types_GeometryNodeSetCurveTilt.webp
    :align: right
    :alt: Set Curve Tilt node.
 

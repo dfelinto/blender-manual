@@ -5,7 +5,7 @@
 Set ID Node
 ***********
 
-.. figure:: /images/modeling_geometry-nodes_geometry_set-id_node.png
+.. figure:: /images/node-types_GeometryNodeSetID.webp
    :align: right
    :alt: Set ID node.
 

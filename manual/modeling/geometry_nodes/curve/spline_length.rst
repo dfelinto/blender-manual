@@ -5,7 +5,7 @@
 Spline Length Node
 ******************
 
-.. figure:: /images/modeling_geometry-nodes_curve_spline-length_node.png
+.. figure:: /images/node-types_GeometryNodeSplineLength.webp
    :align: right
    :alt: Spline Length node.
 

@@ -4,7 +4,7 @@
 Noise Texture Node
 ******************
 
-.. figure:: /images/render_shader-nodes_textures_noise_node.png
+.. figure:: /images/node-types_ShaderNodeTexNoise.webp
    :align: right
    :alt: Noise Texture Node.
 

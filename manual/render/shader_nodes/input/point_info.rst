@@ -6,7 +6,7 @@ Point Info
 
 :guilabel:`Cycles Only`
 
-.. figure:: /images/render_shader-nodes_input_point-info_node.png
+.. figure:: /images/node-types_ShaderNodePointInfo.webp
    :align: right
    :alt: Point Info Node.
 

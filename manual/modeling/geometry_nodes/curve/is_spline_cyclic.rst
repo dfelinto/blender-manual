@@ -5,7 +5,7 @@
 Is Spline Cyclic Node
 *********************
 
-.. figure:: /images/modeling_geometry-nodes_curve_is-spline-cyclic_node.png
+.. figure:: /images/node-types_GeometryNodeInputSplineCyclic.webp
    :align: right
    :alt: Is Spline Cyclic node.
 

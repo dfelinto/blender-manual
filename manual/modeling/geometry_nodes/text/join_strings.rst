@@ -1,11 +1,11 @@
 .. index:: Geometry Nodes; Join Strings
-.. _bpy.types.GeometryNodeJoinStrings:
+.. _bpy.types.GeometryNodeStringJoin:
 
 *****************
 Join Strings Node
 *****************
 
-.. figure:: /images/modeling_geometry-nodes_text_join-strings_node.png
+.. figure:: /images/node-types_GeometryNodeStringJoin.webp
    :align: center
    :alt: Join Strings node.
 

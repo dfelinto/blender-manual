@@ -5,7 +5,7 @@
 Set Handle Type Node
 ********************
 
-.. figure:: /images/modeling_geometry-nodes_curve_set-handles_node.png
+.. figure:: /images/node-types_GeometryNodeCurveSetHandles.webp
    :align: right
    :alt: Set Handle Type node.
 

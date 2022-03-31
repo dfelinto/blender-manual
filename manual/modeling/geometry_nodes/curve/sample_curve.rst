@@ -5,7 +5,7 @@
 Sample Curve Node
 *****************
 
-.. figure:: /images/modeling_geometry-nodes_curve_sample-curve_node.png
+.. figure:: /images/node-types_GeometryNodeSampleCurve.webp
    :align: right
    :alt: Sample Curve node.
 

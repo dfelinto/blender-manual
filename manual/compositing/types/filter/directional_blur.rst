@@ -4,7 +4,7 @@
 Directional Blur Node
 *********************
 
-.. figure:: /images/compositing_node-types_CompositorNodeDBlur.png
+.. figure:: /images/compositing_node-types_CompositorNodeDBlur.webp
    :align: right
    :alt: Directional Blur Node.
 

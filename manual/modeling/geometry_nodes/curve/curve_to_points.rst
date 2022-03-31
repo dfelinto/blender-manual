@@ -5,7 +5,7 @@
 Curve to Points Node
 ********************
 
-.. figure:: /images/modeling_geometry-nodes_curve_curve-to-points_node.png
+.. figure:: /images/node-types_GeometryNodeCurveToPoints.webp
    :align: right
    :alt: Curve to Points node.
 

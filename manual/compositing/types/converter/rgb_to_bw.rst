@@ -7,7 +7,7 @@
 RGB to BW Node
 **************
 
-.. figure:: /images/compositing_node-types_CompositorNodeRGBToBW.png
+.. figure:: /images/compositing_node-types_CompositorNodeRGBToBW.webp
    :align: right
    :alt: RGB to BW Node.
 

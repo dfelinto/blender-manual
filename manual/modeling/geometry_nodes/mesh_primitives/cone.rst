@@ -5,7 +5,7 @@
 Cone Node
 *********
 
-.. figure:: /images/modeling_geometry-nodes_mesh-primitives_cone_node.png
+.. figure:: /images/node-types_GeometryNodeMeshCone.webp
    :align: right
    :alt: Cone node.
 

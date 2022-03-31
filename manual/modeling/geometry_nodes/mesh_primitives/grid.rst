@@ -5,7 +5,7 @@
 Grid Node
 *********
 
-.. figure:: /images/modeling_geometry-nodes_mesh-primitives_grid_node.png
+.. figure:: /images/node-types_GeometryNodeMeshGrid.webp
    :align: right
    :alt: Grid Node.
 

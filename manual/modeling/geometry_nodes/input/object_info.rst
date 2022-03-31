@@ -5,7 +5,7 @@
 Object Info Node
 ****************
 
-.. figure:: /images/modeling_geometry-nodes_input_object-info_node.png
+.. figure:: /images/node-types_GeometryNodeObjectInfo.webp
    :align: right
    :alt: Object Info node.
 

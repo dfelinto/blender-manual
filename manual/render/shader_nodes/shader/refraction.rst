@@ -4,7 +4,7 @@
 Refraction BSDF
 ***************
 
-.. figure:: /images/render_shader-nodes_shader_refraction_node.png
+.. figure:: /images/node-types_ShaderNodeBsdfRefraction.webp
    :align: right
    :alt: Refraction BSDF node.
 

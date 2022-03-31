@@ -5,7 +5,7 @@
 Instance on Points Node
 ***********************
 
-.. figure:: /images/modeling_geometry-nodes_point_instance-on-points_node.png
+.. figure:: /images/node-types_GeometryNodeInstanceOnPoints.webp
    :align: center
    :alt: Instance on Points node.
 

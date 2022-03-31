@@ -4,7 +4,7 @@
 Checker Texture Node
 ********************
 
-.. figure:: /images/render_shader-nodes_textures_checker_node.png
+.. figure:: /images/node-types_ShaderNodeTexChecker.webp
    :align: right
    :alt: Checker Texture Node.
 

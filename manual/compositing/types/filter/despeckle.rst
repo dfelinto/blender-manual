@@ -4,7 +4,7 @@
 Despeckle Node
 **************
 
-.. figure:: /images/compositing_node-types_CompositorNodeDespeckle.png
+.. figure:: /images/compositing_node-types_CompositorNodeDespeckle.webp
    :align: right
    :alt: Despeckle Node.
 

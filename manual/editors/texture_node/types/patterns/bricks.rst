@@ -4,7 +4,7 @@
 Bricks Node
 ***********
 
-.. figure:: /images/editors_texture-node_types_patterns_bricks_node.png
+.. figure:: /images/node-types_TextureNodeBricks.webp
    :align: right
    :alt: Bricks node.
 

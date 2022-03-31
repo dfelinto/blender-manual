@@ -5,7 +5,7 @@
 Edge Neighbors Node
 *******************
 
-.. figure:: /images/modeling_geometry-nodes_input_edge-neighbors_node.png
+.. figure:: /images/node-types_GeometryNodeInputMeshEdgeNeighbors.webp
    :align: right
    :alt: Edge Neighbors Node.
 

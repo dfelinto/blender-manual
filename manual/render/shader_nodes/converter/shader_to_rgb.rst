@@ -1,9 +1,10 @@
+.. _bpy.types.ShaderNodeShaderToRGB:
 
 *************
 Shader To RGB
 *************
 
-.. figure:: /images/render_shader-nodes_converter_shader-to-rgb_node.png
+.. figure:: /images/node-types_ShaderNodeShaderToRGB.webp
    :align: right
    :alt: Shader to RGB.
 

@@ -4,7 +4,7 @@
 Stabilize 2D Node
 *****************
 
-.. figure:: /images/compositing_node-types_CompositorNodeStabilize.png
+.. figure:: /images/compositing_node-types_CompositorNodeStabilize.webp
    :align: right
    :alt: Stabilize 2D Node.
 

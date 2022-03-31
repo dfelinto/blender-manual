@@ -5,7 +5,7 @@
 Rotate Instances Node
 *********************
 
-.. figure:: /images/modeling_geometry-nodes_instances_rotate-instances_node.png
+.. figure:: /images/node-types_GeometryNodeRotateInstances.webp
    :align: right
    :alt: Rotate Instances node.
 

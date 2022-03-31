@@ -6,7 +6,7 @@
 Color Ramp Node
 ***************
 
-.. figure:: /images/compositing_node-types_CompositorNodeValToRGB.png
+.. figure:: /images/compositing_node-types_CompositorNodeValToRGB.webp
    :align: right
    :alt: Color Ramp Node.
 

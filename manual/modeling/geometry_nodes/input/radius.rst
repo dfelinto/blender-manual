@@ -5,7 +5,7 @@
 Radius Node
 ***********
 
-.. figure:: /images/modeling_geometry-nodes_input_radius_node.png
+.. figure:: /images/node-types_GeometryNodeInputRadius.webp
    :align: right
    :alt: Radius node.
 

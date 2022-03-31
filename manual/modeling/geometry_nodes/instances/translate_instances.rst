@@ -5,7 +5,7 @@
 Translate Instances Node
 ************************
 
-.. figure:: /images/modeling_geometry-nodes_instances_translate-instances_node.png
+.. figure:: /images/node-types_GeometryNodeTranslateInstances.webp
    :align: right
    :alt: Translate Instances node.
 

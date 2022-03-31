@@ -1,11 +1,11 @@
 .. index:: Geometry Nodes; Domain Size
-.. _bpy.types.GeometryNodeDomainSize:
+.. _bpy.types.GeometryNodeAttributeDomainSize:
 
 ****************
 Domain Size Node
 ****************
 
-.. figure:: /images/modeling_geometry-nodes_attribute_domain-size_node.png
+.. figure:: /images/node-types_GeometryNodeAttributeDomainSize.webp
    :align: right
    :alt: Domain Size node.
 

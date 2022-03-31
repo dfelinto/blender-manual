@@ -6,7 +6,7 @@ Special Characters Node
 ***********************
 
 
-.. figure:: /images/modeling_geometry-nodes_text_special-characters_node.png
+.. figure:: /images/node-types_FunctionNodeInputSpecialCharacters.webp
    :align: center
    :alt: Special Characters node.
 

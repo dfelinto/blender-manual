@@ -5,7 +5,7 @@
 Resample Curve Node
 *******************
 
-.. figure:: /images/modeling_geometry-nodes_curve_resample-curve_node.png
+.. figure:: /images/node-types_GeometryNodeResampleCurve.webp
    :align: center
    :alt: Resample Curve node.
 

@@ -1,9 +1,10 @@
+.. _bpy.types.TextureNodeTexBlend:
 
 **********
 Blend Node
 **********
 
-.. figure:: /images/editors_texture-node_types_textures_blend_node.png
+.. figure:: /images/node-types_TextureNodeTexBlend.webp
    :alt: Blend node.
 
 See :doc:`Here </render/materials/legacy_textures/types/blend>`.

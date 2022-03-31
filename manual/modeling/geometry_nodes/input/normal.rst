@@ -5,7 +5,7 @@
 Normal Node
 ***********
 
-.. figure:: /images/modeling_geometry-nodes_input_normal_node.png
+.. figure:: /images/node-types_GeometryNodeInputNormal.webp
    :align: right
    :alt: Normal node.
 

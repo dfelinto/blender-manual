@@ -5,7 +5,7 @@
 Merge by Distance Node
 **********************
 
-.. figure:: /images/modeling_geometry-nodes_geometry_merge-by-distance_node.png
+.. figure:: /images/node-types_GeometryNodeMergeByDistance.webp
    :align: right
    :alt: Merge by Distance node.
 

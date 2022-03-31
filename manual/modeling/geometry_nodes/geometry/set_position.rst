@@ -5,7 +5,7 @@
 Set Position Node
 *****************
 
-.. figure:: /images/modeling_geometry-nodes_geometry_set-position_node.png
+.. figure:: /images/node-types_GeometryNodeSetPosition.webp
    :align: right
    :alt: Set Position node.
 

@@ -5,7 +5,7 @@
 Mesh Island Node
 ****************
 
-.. figure:: /images/modeling_geometry-nodes_input_mesh-island_node.png
+.. figure:: /images/node-types_GeometryNodeInputMeshIsland.webp
    :align: right
    :alt: Mesh Island Node.
 

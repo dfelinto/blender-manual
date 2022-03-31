@@ -4,7 +4,7 @@
 Environment Texture Node
 ************************
 
-.. figure:: /images/render_shader-nodes_textures_environment_node.png
+.. figure:: /images/node-types_ShaderNodeTexEnvironment.webp
    :align: right
    :alt: Environment Texture Node.
 

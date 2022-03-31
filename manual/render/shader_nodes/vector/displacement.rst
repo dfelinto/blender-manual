@@ -4,7 +4,7 @@
 Displacement Node
 *****************
 
-.. figure:: /images/render_shader-nodes_vector_displacement_node.png
+.. figure:: /images/node-types_ShaderNodeDisplacement.webp
    :align: right
    :alt: Displacement Node.
 

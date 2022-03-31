@@ -4,7 +4,7 @@
 Texture Node
 ************
 
-.. figure:: /images/compositing_node-types_CompositorNodeTexture.png
+.. figure:: /images/compositing_node-types_CompositorNodeTexture.webp
    :align: right
    :alt: Texture Node.
 

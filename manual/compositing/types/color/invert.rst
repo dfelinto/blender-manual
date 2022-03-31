@@ -8,7 +8,7 @@
 Invert Node
 ***********
 
-.. figure:: /images/compositing_node-types_CompositorNodeInvert.png
+.. figure:: /images/compositing_node-types_CompositorNodeInvert.webp
    :align: right
    :alt: Invert Node.
 

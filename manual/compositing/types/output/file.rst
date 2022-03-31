@@ -5,7 +5,7 @@
 File Output Node
 ****************
 
-.. figure:: /images/compositing_node-types_CompositorNodeOutputFile.png
+.. figure:: /images/compositing_node-types_CompositorNodeOutputFile.webp
    :align: right
    :alt: File Output Node.
 

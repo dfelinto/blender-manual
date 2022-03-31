@@ -8,7 +8,7 @@
 Clamp Node
 **********
 
-.. figure:: /images/render_shader-nodes_converter_clamp_node.png
+.. figure:: /images/node-types_ShaderNodeClamp.webp
    :align: right
    :alt: Clamp Node.
 

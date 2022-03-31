@@ -5,7 +5,7 @@
 Curve Spiral Node
 *****************
 
-.. figure:: /images/modeling_geometry-nodes_curve-primitives_spiral_node.png
+.. figure:: /images/node-types_GeometryNodeCurveSpiral.webp
    :align: right
    :alt: Curve Spiral Node.
 

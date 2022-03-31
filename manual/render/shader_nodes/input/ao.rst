@@ -4,7 +4,7 @@
 Ambient Occlusion
 *****************
 
-.. figure:: /images/render_shader-nodes_input_ao_node.png
+.. figure:: /images/node-types_ShaderNodeAmbientOcclusion.webp
    :align: right
    :alt: Ambient Occlusion node.
 

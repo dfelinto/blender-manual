@@ -5,7 +5,7 @@
 Vector Node
 ***********
 
-.. figure:: /images/modeling_geometry-nodes_input_vector_node.png
+.. figure:: /images/node-types_FunctionNodeInputVector.webp
    :align: right
    :alt: Vector Node.
 

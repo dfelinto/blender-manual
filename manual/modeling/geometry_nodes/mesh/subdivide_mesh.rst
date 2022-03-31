@@ -5,7 +5,7 @@
 Subdivide Mesh Node
 *******************
 
-.. figure:: /images/modeling_geometry-nodes_mesh_subdivide_node.png
+.. figure:: /images/node-types_GeometryNodeSubdivideMesh.webp
    :align: right
    :alt: Subdivide Mesh Node.
 

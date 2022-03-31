@@ -5,7 +5,7 @@
 Volume to Mesh Node
 *******************
 
-.. figure:: /images/modeling_geometry-nodes_volume_volume-to-mesh_node.png
+.. figure:: /images/node-types_GeometryNodeVolumeToMesh.webp
    :align: center
    :alt: The Volume to Mesh node.
 

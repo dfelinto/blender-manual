@@ -4,7 +4,7 @@
 Vector (Motion) Blur Node
 *************************
 
-.. figure:: /images/compositing_node-types_CompositorNodeVecBlur.png
+.. figure:: /images/compositing_node-types_CompositorNodeVecBlur.webp
    :align: right
    :alt: Vector Blur Node.
 

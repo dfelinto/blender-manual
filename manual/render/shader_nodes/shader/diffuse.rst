@@ -4,7 +4,7 @@
 Diffuse BSDF
 ************
 
-.. figure:: /images/render_shader-nodes_shader_diffuse_node.png
+.. figure:: /images/node-types_ShaderNodeBsdfDiffuse.webp
    :align: right
    :alt: Diffuse BSDF node.
 

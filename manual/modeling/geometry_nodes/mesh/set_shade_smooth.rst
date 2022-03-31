@@ -5,7 +5,7 @@
 Set Shade Smooth Node
 *********************
 
-.. figure:: /images/modeling_geometry-nodes_mesh_set-shade-smooth_node.png
+.. figure:: /images/node-types_GeometryNodeSetShadeSmooth.webp
    :align: right
    :alt: Set Shade Smooth node.
 

@@ -4,7 +4,7 @@
 Vertex Color Node
 *****************
 
-.. figure:: /images/render_shader-nodes_input_vertex-color_node.png
+.. figure:: /images/node-types_ShaderNodeVertexColor.webp
    :align: right
    :alt: Vertex Color node.
 

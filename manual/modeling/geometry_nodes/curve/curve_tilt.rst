@@ -5,7 +5,7 @@
 Curve Tilt Node
 ***************
 
-.. figure:: /images/modeling_geometry-nodes_curve_curve-tilt_node.png
+.. figure:: /images/node-types_GeometryNodeInputCurveTilt.webp
    :align: right
    :alt: Curve Tilt node.
 

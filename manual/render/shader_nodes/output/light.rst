@@ -4,7 +4,7 @@
 Light Node
 **********
 
-.. figure:: /images/render_shader-nodes_output_light_node.png
+.. figure:: /images/node-types_ShaderNodeOutputLight.webp
    :align: right
    :alt: Light Node.
 

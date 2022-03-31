@@ -6,7 +6,7 @@ Bevel Node
 
 :guilabel:`Cycles Only`
 
-.. figure:: /images/render_shader-nodes_input_bevel_node.png
+.. figure:: /images/node-types_ShaderNodeBevel.webp
    :align: right
    :alt: Bevel Node.
 

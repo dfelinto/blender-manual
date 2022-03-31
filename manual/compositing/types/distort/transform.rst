@@ -4,7 +4,7 @@
 Transform Node
 **************
 
-.. figure:: /images/compositing_node-types_CompositorNodeTransform.png
+.. figure:: /images/compositing_node-types_CompositorNodeTransform.webp
    :align: right
    :alt: Transform Node.
 

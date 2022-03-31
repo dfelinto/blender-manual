@@ -4,7 +4,7 @@
 Principled BSDF
 ***************
 
-.. figure:: /images/render_shader-nodes_shader_principled_node.png
+.. figure:: /images/node-types_ShaderNodeBsdfPrincipled.webp
    :align: right
    :alt: Principled BSDF node.
 

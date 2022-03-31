@@ -4,7 +4,7 @@
 Plane Track Deform Node
 ***********************
 
-.. figure:: /images/compositing_node-types_CompositorNodePlaneTrackDeform.png
+.. figure:: /images/compositing_node-types_CompositorNodePlaneTrackDeform.webp
    :align: right
    :alt: Plane Track Deform Node.
 

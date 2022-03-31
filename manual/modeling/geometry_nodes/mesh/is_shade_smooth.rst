@@ -1,11 +1,11 @@
 .. index:: Geometry Nodes; Is Shade Smooth
-.. _bpy.types.GeometryNodeIsShadeSmooth:
+.. _bpy.types.GeometryNodeInputShadeSmooth:
 
 ********************
 Is Shade Smooth Node
 ********************
 
-.. figure:: /images/modeling_geometry-nodes_input_is-shade-smooth_node.png
+.. figure:: /images/node-types_GeometryNodeInputShadeSmooth.webp
    :align: right
    :alt: Is Shade Smooth Node.
 

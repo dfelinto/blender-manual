@@ -5,7 +5,7 @@
 Cube Node
 *********
 
-.. figure:: /images/modeling_geometry-nodes_mesh-primitives_cube_node.png
+.. figure:: /images/node-types_GeometryNodeMeshCube.webp
    :align: right
    :alt: Cube Node.
 

@@ -6,7 +6,7 @@ Mapping Node
 
 The *Mapping* node transforms the input vector by applying translation, rotation, and scaling.
 
-.. figure:: /images/render_shader-nodes_vector_mapping_node.png
+.. figure:: /images/node-types_ShaderNodeMapping.webp
    :alt: Mapping node.
 
 

@@ -4,7 +4,7 @@
 Toon BSDF
 *********
 
-.. figure:: /images/render_shader-nodes_shader_toon_node.png
+.. figure:: /images/node-types_ShaderNodeBsdfToon.webp
    :align: right
    :alt: Toon BSDF node.
 

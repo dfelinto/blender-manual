@@ -1,11 +1,11 @@
 .. index:: Geometry Nodes; Geometry Proximity
-.. _bpy.types.GeometryNodeGeometryProximity:
+.. _bpy.types.GeometryNodeProximity:
 
 ***********************
 Geometry Proximity Node
 ***********************
 
-.. figure:: /images/modeling_geometry-nodes_geometry_geometry-proximity_node.png
+.. figure:: /images/node-types_GeometryNodeProximity.webp
    :align: center
    :alt: Geometry Proximity node.
 

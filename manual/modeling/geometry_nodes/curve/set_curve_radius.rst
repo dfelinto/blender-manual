@@ -5,7 +5,7 @@
 Set Curve Radius Node
 *********************
 
-.. figure:: /images/modeling_geometry-nodes_curve_set-curve-radius_node.png
+.. figure:: /images/node-types_GeometryNodeSetCurveRadius.webp
    :align: right
    :alt: Set Curve Radius node.
 

@@ -4,7 +4,7 @@
 Light Path Node
 ***************
 
-.. figure:: /images/render_shader-nodes_input_light-path_node.png
+.. figure:: /images/node-types_ShaderNodeLightPath.webp
    :align: right
    :alt: Light Path Node.
 

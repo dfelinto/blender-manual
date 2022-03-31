@@ -8,7 +8,7 @@
 Gamma Node
 **********
 
-.. figure:: /images/compositing_node-types_CompositorNodeGamma.png
+.. figure:: /images/compositing_node-types_CompositorNodeGamma.webp
    :align: right
    :alt: Gamma Node.
 

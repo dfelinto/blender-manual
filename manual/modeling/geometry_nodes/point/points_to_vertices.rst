@@ -5,7 +5,7 @@
 Points to Vertices Node
 ***********************
 
-.. figure:: /images/modeling_geometry-nodes_point_points-to-vertices_node.png
+.. figure:: /images/node-types_GeometryNodePointsToVertices.webp
    :align: center
    :alt: Points to Vertices node.
 

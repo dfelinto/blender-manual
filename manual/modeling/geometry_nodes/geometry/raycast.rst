@@ -5,7 +5,7 @@
 Raycast Node
 ************
 
-.. figure:: /images/modeling_geometry-nodes_geometry_raycast_node.png
+.. figure:: /images/node-types_GeometryNodeRaycast.webp
    :align: center
    :alt: Raycast node.
 

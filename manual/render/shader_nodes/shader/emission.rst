@@ -4,7 +4,7 @@
 Emission
 ********
 
-.. figure:: /images/render_shader-nodes_shader_emission_node.png
+.. figure:: /images/node-types_ShaderNodeEmission.webp
    :align: right
    :alt: Emission Shader node.
 

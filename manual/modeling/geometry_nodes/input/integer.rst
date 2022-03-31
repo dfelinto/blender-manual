@@ -1,11 +1,11 @@
 .. index:: Geometry Nodes; Integer
-.. _bpy.types.GeometryNodeInteger:
+.. _bpy.types.FunctionNodeInputInt:
 
 ************
 Integer Node
 ************
 
-.. figure:: /images/modeling_geometry-nodes_input_integer_node.png
+.. figure:: /images/node-types_FunctionNodeInputInt.webp
    :align: right
    :alt: Integer node.
 

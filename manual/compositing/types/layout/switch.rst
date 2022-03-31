@@ -1,9 +1,10 @@
+.. _bpy.types.CompositorNodeSwitch:
 
 ***********
 Switch Node
 ***********
 
-.. figure:: /images/compositing_node-types_CompositorNodeSwitch.png
+.. figure:: /images/compositing_node-types_CompositorNodeSwitch.webp
    :align: right
    :alt: Switch Node.
 

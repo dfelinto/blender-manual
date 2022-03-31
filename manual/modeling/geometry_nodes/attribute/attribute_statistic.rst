@@ -5,7 +5,7 @@
 Attribute Statistic Node
 ************************
 
-.. figure:: /images/modeling_geometry-nodes_attribute_attribute-statistic_node.png
+.. figure:: /images/node-types_GeometryNodeAttributeStatistic.webp
    :align: right
    :alt: Attribute Statistic node.
 

@@ -4,7 +4,7 @@
 Flip Node
 *********
 
-.. figure:: /images/compositing_node-types_CompositorNodeFlip.png
+.. figure:: /images/compositing_node-types_CompositorNodeFlip.webp
    :align: right
    :alt: Flip Node.
 

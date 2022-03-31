@@ -5,7 +5,7 @@
 Dual Mesh Node
 **************
 
-.. figure:: /images/modeling_geometry-nodes_dual-mesh_node.png
+.. figure:: /images/node-types_GeometryNodeDualMesh.webp
    :align: right
    :alt: Dual Mesh node.
 

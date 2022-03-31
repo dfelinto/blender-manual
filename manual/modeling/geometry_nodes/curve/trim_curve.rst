@@ -5,7 +5,7 @@
 Trim Curve Node
 ***************
 
-.. figure:: /images/modeling_geometry-nodes_curve_curve-trim_node.png
+.. figure:: /images/node-types_GeometryNodeTrimCurve.webp
    :align: center
    :alt: Trim Curve node.
 

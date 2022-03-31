@@ -5,7 +5,7 @@
 Mesh Line Node
 **************
 
-.. figure:: /images/modeling_geometry-nodes_mesh-primitives_line_node.png
+.. figure:: /images/node-types_GeometryNodeMeshLine.webp
    :align: right
    :alt: Mesh Line Node.
 

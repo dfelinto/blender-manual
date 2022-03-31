@@ -1,11 +1,11 @@
 .. index:: Geometry Nodes; Curve Line
-.. _bpy.types.GeometryNodeCurveLine:
+.. _bpy.types.GeometryNodeCurvePrimitiveLine:
 
 ***************
 Curve Line Node
 ***************
 
-.. figure:: /images/modeling_geometry-nodes_curve-primitives_line_node.png
+.. figure:: /images/node-types_GeometryNodeCurvePrimitiveLine.webp
    :alt: Curve Line node.
 
 The *Curve Line* node generates poly spline line.

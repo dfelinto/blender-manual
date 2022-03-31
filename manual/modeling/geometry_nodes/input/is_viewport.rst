@@ -5,7 +5,7 @@
 Is Viewport Node
 ****************
 
-.. figure:: /images/modeling_geometry-nodes_input_is-viewport_node.png
+.. figure:: /images/node-types_GeometryNodeIsViewport.webp
    :align: right
    :alt: Is Viewport Node.
 

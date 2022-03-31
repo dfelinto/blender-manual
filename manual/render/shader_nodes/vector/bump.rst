@@ -4,7 +4,7 @@
 Bump Node
 *********
 
-.. figure:: /images/render_shader-nodes_vector_bump_node.png
+.. figure:: /images/node-types_ShaderNodeBump.webp
    :align: right
    :alt: Bump Node.
 

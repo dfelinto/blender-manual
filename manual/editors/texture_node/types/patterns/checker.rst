@@ -1,9 +1,10 @@
+.. _bpy.types.TextureNodeChecker:
 
 ************
 Checker Node
 ************
 
-.. figure:: /images/editors_texture-node_types_patterns_checker_node.png
+.. figure:: /images/node-types_TextureNodeChecker.webp
    :align: right
    :alt: Checker node.
 

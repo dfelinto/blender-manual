@@ -5,7 +5,7 @@
 Bounding Box Node
 *****************
 
-.. figure:: /images/modeling_geometry-nodes_geometry_bounding-box_node.png
+.. figure:: /images/node-types_GeometryNodeBoundBox.webp
    :align: right
    :alt: Bounding Box node.
 

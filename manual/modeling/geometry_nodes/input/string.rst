@@ -5,7 +5,7 @@
 String Node
 ***********
 
-.. figure:: /images/modeling_geometry-nodes_input_string_node.png
+.. figure:: /images/node-types_FunctionNodeInputString.webp
    :align: right
    :alt: String Input Node.
 

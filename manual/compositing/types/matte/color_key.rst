@@ -4,7 +4,7 @@
 Color Key Node
 **************
 
-.. figure:: /images/compositing_node-types_CompositorNodeColorMatte.png
+.. figure:: /images/compositing_node-types_CompositorNodeColorMatte.webp
    :align: right
    :alt: Color Key node.
 

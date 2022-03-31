@@ -5,7 +5,7 @@
 Set Material Node
 *****************
 
-.. figure:: /images/modeling_geometry-nodes_set-material_node.png
+.. figure:: /images/node-types_GeometryNodeSetMaterial.webp
    :align: right
    :alt: Set Material node.
 

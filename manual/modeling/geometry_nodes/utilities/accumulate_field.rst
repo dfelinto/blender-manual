@@ -5,7 +5,7 @@
 Accumulate Field Node
 *********************
 
-.. figure:: /images/modeling_geometry-nodes_accumulate-field_node.png
+.. figure:: /images/node-types_GeometryNodeAccumulateField.webp
    :align: right
    :alt: Accumulate Field Node.
 

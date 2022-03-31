@@ -5,7 +5,7 @@
 Edge Vertices Node
 ******************
 
-.. figure:: /images/modeling_geometry-nodes_input_edge-vertices_node.png
+.. figure:: /images/node-types_GeometryNodeInputMeshEdgeVertices.webp
    :align: right
    :alt: Edge Vertices Node.
 

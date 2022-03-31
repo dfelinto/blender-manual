@@ -4,7 +4,7 @@
 Anisotropic BSDF
 ****************
 
-.. figure:: /images/render_shader-nodes_shader_anisotropic_node.png
+.. figure:: /images/node-types_ShaderNodeBsdfAnisotropic.webp
    :align: right
    :alt: Anisotropic BSDF node.
 

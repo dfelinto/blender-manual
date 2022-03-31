@@ -4,7 +4,7 @@
 Normal Map Node
 ***************
 
-.. figure:: /images/render_shader-nodes_vector_normal-map_node.png
+.. figure:: /images/node-types_ShaderNodeNormalMap.webp
    :align: right
    :alt: Normal Map Node.
 

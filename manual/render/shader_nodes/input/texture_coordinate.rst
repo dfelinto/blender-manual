@@ -4,7 +4,7 @@
 Texture Coordinate Node
 ***********************
 
-.. figure:: /images/render_shader-nodes_input_texture-coordinate_node.png
+.. figure:: /images/node-types_ShaderNodeTexCoord.webp
    :align: right
    :alt: Texture Coordinate Node.
 

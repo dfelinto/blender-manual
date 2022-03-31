@@ -4,7 +4,7 @@
 Add Shader
 **********
 
-.. figure:: /images/render_shader-nodes_shader_add_node.png
+.. figure:: /images/node-types_ShaderNodeAddShader.webp
    :align: right
    :alt: Add Shader node.
 

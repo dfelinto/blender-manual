@@ -4,7 +4,7 @@
 Color Space Node
 ****************
 
-.. figure:: /images/compositing_node-CompositorNodeConvertColorSpace.png
+.. figure:: /images/compositing_node-types_CompositorNodeConvertColorSpace.webp
    :align: right
    :alt: Color Space Node.
 

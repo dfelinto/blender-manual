@@ -4,7 +4,7 @@
 Pixelate Node
 *************
 
-.. figure:: /images/compositing_node-types_CompositorNodePixelate.png
+.. figure:: /images/compositing_node-types_CompositorNodePixelate.webp
    :align: right
    :alt: Pixelate Node.
 

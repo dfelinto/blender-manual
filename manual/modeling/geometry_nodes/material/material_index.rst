@@ -5,7 +5,7 @@
 Material Index Node
 *******************
 
-.. figure:: /images/modeling_geometry-nodes_material_material-index_node.png
+.. figure:: /images/node-types_GeometryNodeInputMaterialIndex.webp
    :align: right
    :alt: Material Index node.
 

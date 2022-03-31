@@ -7,7 +7,7 @@
 RGB Node
 ********
 
-.. figure:: /images/compositing_node-types_CompositorNodeRGB.png
+.. figure:: /images/compositing_node-types_CompositorNodeRGB.webp
    :align: right
    :alt: RGB Node.
 

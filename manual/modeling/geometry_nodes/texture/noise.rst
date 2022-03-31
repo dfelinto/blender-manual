@@ -11,7 +11,7 @@ Noise Texture Node
    This node accepts field inputs and outputs.
    When not connected the Vector input has an implicit ``position`` attribute value.
 
-.. figure:: /images/modeling_geometry-nodes_texture_noise-texture_node.png
+.. figure:: /images/node-types_ShaderNodeTexNoise.webp
    :align: right
    :alt: Noise Texture Node.
 

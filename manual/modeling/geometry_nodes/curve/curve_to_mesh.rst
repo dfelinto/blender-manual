@@ -5,7 +5,7 @@
 Curve to Mesh Node
 ******************
 
-.. figure:: /images/modeling_geometry-nodes_curve_curve-to-mesh_node.png
+.. figure:: /images/node-types_GeometryNodeCurveToMesh.webp
    :align: center
    :alt: The Curve to Mesh node.
 

@@ -4,7 +4,7 @@
 Hair Info Node
 **************
 
-.. figure:: /images/render_shader-nodes_input_hair-info_node.png
+.. figure:: /images/node-types_ShaderNodeHairInfo.webp
    :align: right
    :alt: Hair Info Node.
 

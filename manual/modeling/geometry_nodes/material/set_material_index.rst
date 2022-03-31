@@ -5,7 +5,7 @@
 Set Material Index Node
 ***********************
 
-.. figure:: /images/modeling_geometry-nodes_material_set-material-index_node.png
+.. figure:: /images/node-types_GeometryNodeSetMaterialIndex.webp
    :align: right
    :alt: Set Material Index node.
 

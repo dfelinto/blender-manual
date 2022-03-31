@@ -1,11 +1,11 @@
 .. index:: Geometry Nodes; Replace String
-.. _bpy.types.GeometryNodeReplaceString:
+.. _bpy.types.FunctionNodeReplaceString:
 
 *******************
 Replace String Node
 *******************
 
-.. figure:: /images/modeling_geometry-nodes_text_replace-string_node.png
+.. figure:: /images/node-types_FunctionNodeReplaceString.webp
    :align: right
    :alt: Replace String node.
 

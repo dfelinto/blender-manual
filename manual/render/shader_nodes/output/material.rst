@@ -4,7 +4,7 @@
 Material Node
 *************
 
-.. figure:: /images/render_shader-nodes_output_material_node.png
+.. figure:: /images/node-types_ShaderNodeOutputMaterial.webp
    :align: right
    :alt: Material Node.
 

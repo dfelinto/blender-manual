@@ -1,9 +1,10 @@
+.. _bpy.types.TextureNodeValToNor:
 
 ********************
 Value to Normal Node
 ********************
 
-.. figure:: /images/editors_texture-node_types_converter_value-to-normal_node.png
+.. figure:: /images/node-types_TextureNodeValToNor.webp
    :align: right
    :alt: Value to Normal node.
 

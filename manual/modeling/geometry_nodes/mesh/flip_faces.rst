@@ -5,7 +5,7 @@
 Flip Faces Node
 ***************
 
-.. figure:: /images/modeling_geometry-nodes_flip-faces_node.png
+.. figure:: /images/node-types_GeometryNodeFlipFaces.webp
    :align: right
    :alt: Flip Faces node.
 

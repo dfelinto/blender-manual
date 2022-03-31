@@ -1,10 +1,10 @@
 .. _bpy.types.CompositorNodeAntiAliasing:
 
-*************
-Anti-Aliasing
-*************
+******************
+Anti-Aliasing Node
+******************
 
-.. figure:: /images/compositing_node-types_CompositorAntiAliasing.png
+.. figure:: /images/compositing_node-types_CompositorNodeAntiAliasing.webp
    :align: right
    :alt: Anti-Aliasing Node.
 

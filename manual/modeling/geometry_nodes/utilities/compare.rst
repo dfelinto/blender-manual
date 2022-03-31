@@ -5,7 +5,7 @@
 Compare Node
 ************
 
-.. figure:: /images/modeling_geometry-nodes_utilities_compare_node.png
+.. figure:: /images/node-types_FunctionNodeCompare.webp
    :align: center
    :alt: Compare Node.
 

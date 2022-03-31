@@ -5,7 +5,7 @@
 Set Spline Resolution Node
 **************************
 
-.. figure:: /images/modeling_geometry-nodes_curve_set-spline-resolution_node.png
+.. figure:: /images/node-types_GeometryNodeSetSplineResolution.webp
    :align: right
    :alt: Set Spline Resolution node.
 

@@ -4,7 +4,7 @@
 Ellipse Mask Node
 *****************
 
-.. figure:: /images/compositing_node-types_CompositorNodeEllipseMask.png
+.. figure:: /images/compositing_node-types_CompositorNodeEllipseMask.webp
    :align: right
    :alt: Ellipse Mask Node.
 

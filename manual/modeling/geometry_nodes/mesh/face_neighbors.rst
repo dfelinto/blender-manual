@@ -5,7 +5,7 @@
 Face Neighbors Node
 *******************
 
-.. figure:: /images/modeling_geometry-nodes_input_face-neighbors_node.png
+.. figure:: /images/node-types_GeometryNodeInputMeshFaceNeighbors.webp
    :align: right
    :alt: Face Neighbors Node.
 

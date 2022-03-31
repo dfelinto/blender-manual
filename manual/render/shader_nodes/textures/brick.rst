@@ -4,7 +4,7 @@
 Brick Texture Node
 ******************
 
-.. figure:: /images/render_shader-nodes_textures_brick_node.png
+.. figure:: /images/node-types_ShaderNodeTexBrick.webp
    :align: right
    :alt: Brick Texture node.
 

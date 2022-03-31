@@ -1,11 +1,11 @@
 .. index:: Geometry Nodes; Arc
-.. _bpy.types.GeometryNodeArc:
+.. _bpy.types.GeometryNodeCurveArc:
 
 ********
 Arc Node
 ********
 
-.. figure:: /images/modeling_geometry-nodes_curve-primitives_arc_node.png
+.. figure:: /images/node-types_GeometryNodeCurveArc.webp
    :align: right
    :alt: Arc Node.
 

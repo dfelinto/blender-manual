@@ -1,11 +1,11 @@
 .. index:: Geometry Nodes; Boolean
-.. _bpy.types.GeometryNodeBoolean:
+.. _bpy.types.FunctionNodeInputBool:
 
 ************
 Boolean Node
 ************
 
-.. figure:: /images/modeling_geometry-nodes_input_boolean_node.png
+.. figure:: /images/node-types_FunctionNodeInputBool.webp
    :align: right
    :alt: Boolean node.
 

@@ -1,9 +1,10 @@
+.. _bpy.types.TextureNodeAt:
 
 *******
 At Node
 *******
 
-.. figure:: /images/editors_texture-node_types_distort_at_node.png
+.. figure:: /images/node-types_TextureNodeAt.webp
    :align: right
    :alt: At node.
 

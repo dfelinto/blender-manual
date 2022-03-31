@@ -4,7 +4,7 @@
 Movie Clip Node
 ***************
 
-.. figure:: /images/compositing_node-types_CompositorNodeMovieClip.png
+.. figure:: /images/compositing_node-types_CompositorNodeMovieClip.webp
    :align: right
    :alt: Movie Clip node.
 

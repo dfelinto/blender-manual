@@ -5,7 +5,7 @@
 Set Handle Positions Node
 *************************
 
-.. figure:: /images/modeling_geometry-nodes_curve_set-handle-positions_node.png
+.. figure:: /images/node-types_GeometryNodeSetCurveHandlePositions.webp
    :align: right
    :alt: Set Handle Positions node.
 

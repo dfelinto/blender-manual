@@ -1,11 +1,11 @@
 .. index:: Geometry Nodes; Endpoint Selection
-.. _bpy.types.GeometryNodeEndpointSelection:
+.. _bpy.types.GeometryNodeCurveEndpointSelection:
 
 ***********************
 Endpoint Selection Node
 ***********************
 
-.. figure:: /images/modeling_geometry-nodes_curve_endpoint-selection_node.png
+.. figure:: /images/node-types_GeometryNodeCurveEndpointSelection.webp
    :align: right
    :alt: Endpoint Selection node.
 

@@ -1,11 +1,11 @@
 .. index:: Geometry Nodes; Edge Split
-.. _bpy.types.GeometryNodeEdgeSplit:
+.. _bpy.types.GeometryNodeSplitEdges:
 
 ****************
 Split Edges Node
 ****************
 
-.. figure:: /images/modeling_geometry-nodes_mesh_split-edges_node.png
+.. figure:: /images/node-types_GeometryNodeSplitEdges.webp
    :align: right
    :alt: Split Edges node.
 

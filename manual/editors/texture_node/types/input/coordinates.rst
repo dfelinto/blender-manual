@@ -1,9 +1,10 @@
+.. _bpy.types.TextureNodeCoordinates:
 
 ****************
 Coordinates Node
 ****************
 
-.. figure:: /images/editors_texture-node_types_input_coordinates_node.png
+.. figure:: /images/node-types_TextureNodeCoordinates.webp
    :align: right
    :alt: Coordinates node.
 

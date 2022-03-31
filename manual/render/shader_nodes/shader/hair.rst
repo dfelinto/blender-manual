@@ -4,7 +4,7 @@
 Hair BSDF
 *********
 
-.. figure:: /images/render_shader-nodes_shader_hair_node.png
+.. figure:: /images/node-types_ShaderNodeBsdfHair.webp
    :align: right
    :alt: Hair BSDF node.
 

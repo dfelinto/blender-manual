@@ -4,7 +4,7 @@
 Volume Absorption
 *****************
 
-.. figure:: /images/render_shader-nodes_shader_volume-absorption_node.png
+.. figure:: /images/node-types_ShaderNodeVolumeAbsorption.webp
    :align: right
    :alt: Volume Absorption node.
 

@@ -4,7 +4,7 @@
 Wave Texture Node
 *****************
 
-.. figure:: /images/render_shader-nodes_textures_wave_node.png
+.. figure:: /images/node-types_ShaderNodeTexWave.webp
    :align: right
    :alt: Wave Texture Node.
 

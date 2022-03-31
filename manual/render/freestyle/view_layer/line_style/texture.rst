@@ -32,7 +32,7 @@ Nodes
 UV Along Stroke Node
 --------------------
 
-.. figure:: /images/render_freestyle_parameter-editor_line-style_texture_uv-along-stroke-node.png
+.. figure:: /images/node-types_ShaderNodeUVAlongStroke.webp
    :align: right
 
    UV Along Stroke Node.
@@ -71,7 +71,7 @@ UV
 Line Style Output Node
 ----------------------
 
-.. figure:: /images/render_freestyle_parameter-editor_line-style_texture_output-node.png
+.. figure:: /images/node-types_ShaderNodeOutputLineStyle.webp
    :align: right
 
    Line Style Output Node.

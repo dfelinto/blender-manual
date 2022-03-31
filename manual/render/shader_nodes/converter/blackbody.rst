@@ -4,7 +4,7 @@
 Blackbody Node
 **************
 
-.. figure:: /images/render_shader-nodes_converter_blackbody_node.png
+.. figure:: /images/node-types_ShaderNodeBlackbody.webp
    :align: right
    :alt: Blackbody Node.
 
