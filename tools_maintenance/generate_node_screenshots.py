@@ -51,6 +51,8 @@ def iter_node_names(tree_type):
     if tree_type == 'GEOMETRY':
         for cls in bpy.types.GeometryNode.__subclasses__():
             yield cls.__name__
+        for cls in bpy.types.FunctionNode.__subclasses__():
+            yield cls.__name__
     elif tree_type == 'COMPOSITING':
         for cls in bpy.types.CompositorNode.__subclasses__():
             yield cls.__name__
