@@ -184,3 +184,48 @@ Fast GI Approximation
 AO Distance
    Override for the world's :ref:`AO Distance <bpy.types.CyclesRenderSettings.use_fast_gi>`,
    if the value is zero the world's distance is used.
+
+
+Caustics
+--------
+
+Mark objects as caustic casters or receivers. This is used in conjunction with a light with
+:ref:`Shadow Caustics <bpy.types.CyclesObjectSettings.is_caustics_light>` enabled to selectively
+speed up caustic rendering of objects in your scene. 
+
+.. note:: 
+
+   The rendering technique used to speed up the rendering of caustics is based on
+   :abbr:`MNEE (Manifold Next Event Estimation)`. There are a number of limitations with this technique
+   and it's implementation in Cycles:   
+
+   - Only refractive caustics in the shadows of objects work. Caustics from reflections or caustics that
+     fall outside shadows are not rendered with this technique.
+
+   - MNEE Caustics are not supported when the microfacet distribution is set to *Multiscatter GGX*.
+
+   - Caustics render best with objects with smooth normals.
+
+   - Bump and normal maps are ignored.
+
+   - The Metal GPU rendering backend is not supported.
+
+.. _bpy.types.CyclesObjectSettings.is_caustics_caster:
+
+Cast Shadow Caustics
+   Mark an object as a caustic caster.
+
+.. _bpy.types.CyclesObjectSettings.is_caustics_receiver:
+
+Receive Shadow Caustics
+   Mark an object as a caustic receiver.
+
+.. list-table::
+
+   * - .. figure:: /images/render_cycles_object-settings_caustics-example1.png
+
+          Rendering caustics inside an eye without MNEE at 32 samples per pixel.
+
+     - .. figure:: /images/render_cycles_object-settings_caustics-example2.png
+
+          Rendering caustics inside an eye using MNEE at 32 samples per pixel.
