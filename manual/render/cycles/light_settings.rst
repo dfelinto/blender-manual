@@ -22,26 +22,26 @@ Common
 Cycles
 ======
 
-.. _bpy.types.CyclesObjectSettings.is_caustics_caster:
+.. _bpy.types.CyclesLightSettings.max_bounces:
 
 Max Bounces
    Maximum number of times light from the light is allowed to :term:`Bounce <Light Bounces>`.
    Limited by :ref:`scene-wide bounce settings <bpy.types.CyclesRenderSettings.max_bounces>`.
 
-.. _bpy.types.CyclesObjectSettings.is_caustics_caster:
+.. _bpy.types.CyclesLightSettings.cast_shadow:
 
 Cast Shadow
    By disabling this option, light from lights will not be blocked by objects in between.
    This can speed up rendering by not having to trace rays to the light source.
 
-.. _bpy.types.CyclesObjectSettings.is_caustics_caster:
+.. _bpy.types.CyclesLightSettings.use_multiple_importance_sampling:
 
 Multiple Importance Sample
    By default lights use only direct light sampling. For area lights and sharp glossy reflections, however,
    this can be noisy,
    and enabling this option will enable indirect light sampling to be used in addition to reduce noise.
 
-.. _bpy.types.CyclesObjectSettings.is_caustics_light:
+.. _bpy.types.CyclesLightSettings.is_caustics_light:
 
 Shadow Caustics
    Mark a light to be a refractive caustic caster. This setting can be used in conjunction with the
