@@ -190,7 +190,7 @@ Caustics
 --------
 
 Mark objects as caustic casters or receivers. This is used in conjunction with a light with
-:ref:`Shadow Caustics <bpy.types.CyclesObjectSettings.is_caustics_light>` enabled to selectively
+:ref:`Shadow Caustics <bpy.types.CyclesLightSettings.is_caustics_light>` enabled to selectively
 speed up caustic rendering of objects in your scene. 
 
 .. note:: 
@@ -203,11 +203,13 @@ speed up caustic rendering of objects in your scene.
      fall outside shadows are not rendered with this technique.
 
    - MNEE Caustics are not supported when the microfacet distribution is set to *Multiscatter GGX*.
-   
+
    - :ref:`Filter Glossy <bpy.types.CyclesRenderSettings.blur_glossy>` settings are ignored when using
      MNEE for refractive caustics.
 
-   - Caustics render best with objects with smooth normals.
+   - MNEE Caustics are treated as direct lighting instead of indirect lighting.
+
+   - MNEE Caustics render best with objects with smooth normals.
 
    - Bump and normal maps are ignored.
 
