@@ -203,6 +203,9 @@ speed up caustic rendering of objects in your scene.
      fall outside shadows are not rendered with this technique.
 
    - MNEE Caustics are not supported when the microfacet distribution is set to *Multiscatter GGX*.
+   
+   - :ref:`Filter Glossy <bpy.types.CyclesRenderSettings.blur_glossy>` settings are ignored when using
+     MNEE for refractive caustics.
 
    - Caustics render best with objects with smooth normals.
 
