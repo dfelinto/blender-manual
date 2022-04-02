@@ -11,6 +11,8 @@ Vector Curves Node
    :align: right
    :alt: Vector Curves Node.
 
+   Vector Curves Node.
+
 The Vector Curves node maps an input vector components to a curve.
 
 Use this curve node to slow things down or speed them up from the original scene.

@@ -8,6 +8,8 @@ Map Value Node
    :align: right
    :alt: Map Value Node.
 
+   Map Value Node.
+
 Map Value node is used to scale, offset and clamp values.
 
 

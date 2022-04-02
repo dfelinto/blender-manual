@@ -10,6 +10,8 @@ Color Ramp Node
    :align: right
    :alt: Color Ramp Node.
 
+   Color Ramp Node.
+
 The Color Ramp Node is used for mapping values to colors with the use of a gradient.
 
 

@@ -8,6 +8,8 @@ Viewer Node
    :align: right
    :alt: Viewer Node.
 
+   Viewer Node.
+
 The *Viewer* node is a temporary, in-process viewer.
 It can be plug in anywhere to inspect an image or value map in your node tree.
 

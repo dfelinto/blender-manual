@@ -8,6 +8,8 @@ Image Node
    :align: right
    :alt: Image Node.
 
+   Image Node.
+
 The *Image* node injects any image :doc:`format that is supported by Blender </files/media/image_formats>`.
 
 

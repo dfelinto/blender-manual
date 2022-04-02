@@ -8,6 +8,8 @@ Render Layers Node
    :align: right
    :alt: Render Layers Node.
 
+   Render Layers Node.
+
 This node is the starting place for getting a picture of your scene into the compositing node tree.
 
 

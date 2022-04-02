@@ -8,6 +8,8 @@ Set Alpha Node
    :align: right
    :alt: Set Alpha Node.
 
+   Set Alpha Node.
+
 The *Set Alpha Node* adds an alpha channel to an image.
 
 

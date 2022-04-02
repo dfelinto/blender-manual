@@ -8,6 +8,8 @@ Translate Node
    :align: right
    :alt: Translate Node.
 
+   Translate Node.
+
 The Translate node moves an image.
 
 Could also be used to add a 2D camera shake.

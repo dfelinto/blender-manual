@@ -8,6 +8,8 @@ Denoise Node
    :align: right
    :alt: Denoise Node.
 
+   Denoise Node.
+
 The Denoise node is used to denoise renders from :doc:`Cycles </render/cycles/index>`
 and other ray tracing renderers. This helps to significantly reduce render time by
 rendering with fewer samples.

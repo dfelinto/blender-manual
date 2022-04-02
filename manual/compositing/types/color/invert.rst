@@ -12,6 +12,8 @@ Invert Node
    :align: right
    :alt: Invert Node.
 
+   Invert Node.
+
 The *Invert Node* inverts the colors in the input image, producing a negative.
 
 

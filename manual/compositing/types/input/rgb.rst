@@ -11,6 +11,8 @@ RGB Node
    :align: right
    :alt: RGB Node.
 
+   RGB Node.
+
 
 Inputs
 ======

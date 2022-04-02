@@ -7,6 +7,8 @@ Corner Pin Node
    :align: right
    :alt: Corner Pin Node.
 
+   Corner Pin Node.
+
 The Corner Pin node uses explicit corner values for a plane warp transformation.
 It works like the Plane Track Deform node,
 but without using "plane track" data from the Movie Clip Editor.

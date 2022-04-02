@@ -8,6 +8,8 @@ Luminance Key Node
    :align: right
    :alt: Luminance Key Node.
 
+   Luminance Key Node.
+
 The *Luminance Key* node determines background objects from foreground objects by
 the difference in the luminance (brightness) levels.
 

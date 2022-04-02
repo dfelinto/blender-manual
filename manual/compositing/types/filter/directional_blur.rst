@@ -8,6 +8,8 @@ Directional Blur Node
    :align: right
    :alt: Directional Blur Node.
 
+   Directional Blur Node.
+
 Blurs an image in a specified direction and magnitude. Can be used to fake motion blur.
 
 

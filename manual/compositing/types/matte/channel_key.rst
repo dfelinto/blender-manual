@@ -8,6 +8,8 @@ Channel Key Node
    :align: right
    :alt: Channel Key Node.
 
+   Channel Key Node.
+
 The *Channel Key* node determines background objects from foreground objects by
 the difference in the selected channel's levels.
 

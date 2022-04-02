@@ -14,6 +14,8 @@ Math Node
    :align: right
    :alt: Math node.
 
+   Math node.
+
 The *Math Node* performs math operations.
 
 

@@ -9,6 +9,8 @@ File Output Node
    :align: right
    :alt: File Output Node.
 
+   File Output Node.
+
 This node writes out an image, for each frame range specified,
 to the filename entered, as part of a frameset sequence.
 

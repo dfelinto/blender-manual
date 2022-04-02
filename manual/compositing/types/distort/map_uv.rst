@@ -8,6 +8,8 @@ Map UV Node
    :align: right
    :alt: Map UV node.
 
+   Map UV node.
+
 With this node objects can be "re-textured" after they have been rendered.
 
 To apply a texture to individual enumerated objects

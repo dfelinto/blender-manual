@@ -8,6 +8,8 @@ Alpha Over Node
    :align: right
    :alt: Alpha Over Node.
 
+   Alpha Over Node.
+
 The *Alpha Over* node is used to layer images on top of one another.
 Where the foreground image pixels have an alpha greater than 0, it will be overlaid over the background image.
 
