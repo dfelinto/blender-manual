@@ -9,6 +9,8 @@ Cube Node
    :align: right
    :alt: Cube Node.
 
+   Cube Node.
+
 The *Cube* node generates a cuboid mesh with variable side lengths and subdivisions.
 The inside of the mesh is still hollow like a normal cube.
 

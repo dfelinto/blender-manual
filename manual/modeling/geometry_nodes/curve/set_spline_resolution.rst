@@ -9,6 +9,8 @@ Set Spline Resolution Node
    :align: right
    :alt: Set Spline Resolution node.
 
+   Set Spline Resolution node.
+
 The *Set Spline Resolution* node sets the value for how many evaluated points should be generated on the curve for
 every control point. It only has an effect on :term:`NURBS` and :term:`Bézier` splines. The evaluated points
 are displayed in the viewport, used in the :doc:`/modeling/geometry_nodes/curve/curve_to_mesh` node,

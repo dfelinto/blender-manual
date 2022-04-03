@@ -10,6 +10,8 @@ Special Characters Node
    :align: center
    :alt: Special Characters node.
 
+   Special Characters node.
+
 The *Special Characters* node is used to output string characters that can't be typed directly with the keyboard.
 
 .. tip::

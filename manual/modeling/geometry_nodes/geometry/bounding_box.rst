@@ -9,6 +9,8 @@ Bounding Box Node
    :align: right
    :alt: Bounding Box node.
 
+   Bounding Box node.
+
 The *Bounding Box* node creates a box mesh with the minimum volume that encapsulates
 the geometry of the input. The node also can output the vector positions of the bounding dimensions.
 

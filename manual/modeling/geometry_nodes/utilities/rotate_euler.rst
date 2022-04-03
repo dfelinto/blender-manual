@@ -9,6 +9,8 @@ Rotate Euler Node
    :align: right
    :alt: Rotate Euler node.
 
+   Rotate Euler node.
+
 The *Rotate Euler* node rotates an Euler rotation.
 
 

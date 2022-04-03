@@ -9,6 +9,8 @@ Edge Vertices Node
    :align: right
    :alt: Edge Vertices Node.
 
+   Edge Vertices Node.
+
 The *Edge Vertices* node outputs the position and index of the two vertices of each of a mesh's edges.
 
 .. note::

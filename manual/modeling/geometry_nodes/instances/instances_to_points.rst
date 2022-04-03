@@ -9,6 +9,8 @@ Instances to Points Node
    :align: right
    :alt: Instances to Points node.
 
+   Instances to Points node.
+
 The *Instances to Points* node generates points at the origins of top-level instances.
 Attributes on the :ref:`instance domain <attribute-domains>` are moved to the point cloud points.
 

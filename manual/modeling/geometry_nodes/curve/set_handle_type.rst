@@ -9,6 +9,8 @@ Set Handle Type Node
    :align: right
    :alt: Set Handle Type node.
 
+   Set Handle Type node.
+
 Sets the handle type for the points on the Bézier curve that are in the selection.
 
 A selection for a certain handle type can be retrieved with

@@ -9,6 +9,8 @@ Vector Node
    :align: right
    :alt: Vector Node.
 
+   Vector Node.
+
 The *Vector* input node creates a single vector.
 
 

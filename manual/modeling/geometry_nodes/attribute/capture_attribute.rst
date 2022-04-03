@@ -9,6 +9,8 @@ Capture Attribute Node
    :align: right
    :alt: Capture Attribute node.
 
+   Capture Attribute node.
+
 The *Capture Attribute* node stores the result of a field on a geometry,
 and outputs the data as a node socket so it can be used by other nodes.
 

@@ -8,6 +8,8 @@ Checker Node
    :align: right
    :alt: Checker node.
 
+   Checker node.
+
 The Checker node creates a checkerboard pattern.
 
 

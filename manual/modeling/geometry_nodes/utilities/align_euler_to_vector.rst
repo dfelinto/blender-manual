@@ -9,6 +9,8 @@ Align Euler to Vector Node
    :align: center
    :alt: Align Euler to Vector node.
 
+   Align Euler to Vector node.
+
 The *Align Euler to Vector* node rotates an Euler rotation into the given direction.
 
 

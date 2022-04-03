@@ -9,6 +9,8 @@ Separate Components Node
    :align: center
    :alt: Separate Components node.
 
+   Separate Components node.
+
 The *Separate Components* node splits a geometry into a separate output
 for each type of data in the geometry.
 

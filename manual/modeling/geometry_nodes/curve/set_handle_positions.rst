@@ -9,6 +9,8 @@ Set Handle Positions Node
    :align: right
    :alt: Set Handle Positions node.
 
+   Set Handle Positions node.
+
 The *Set Handle Positions* node sets the positions for the handles of :ref:`Bézier curves <curve-bezier>`.
 They can be used to alter the generated shape of the curve.
 The input node for this data is the :doc:`/modeling/geometry_nodes/curve/curve_handle_position`.

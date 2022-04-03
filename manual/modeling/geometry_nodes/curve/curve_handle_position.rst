@@ -9,6 +9,8 @@ Curve Handle Position Node
    :align: right
    :alt: Curve Handle Position node.
 
+   Curve Handle Position node.
+
 The *Curve Handle Position* node outputs the position of each of a Bézier spline's handles.
 If the curve does not contain Bézier splines, the node will output zero.
 

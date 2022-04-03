@@ -19,6 +19,8 @@ The output number ranges between zero and one.
    :align: right
    :alt: White Noise Texture Node.
 
+   White Noise Texture Node.
+
 
 Inputs
 ======

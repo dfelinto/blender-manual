@@ -9,6 +9,8 @@ Geometry Proximity Node
    :align: center
    :alt: Geometry Proximity node.
 
+   Geometry Proximity node.
+
 The *Geometry Proximity* node computes the closest location on the target geometry.
 
 .. tip::

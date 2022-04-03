@@ -8,6 +8,8 @@ Combine XYZ Node
    :align: right
    :alt: Combine XYZ Node.
 
+   Combine XYZ Node.
+
 The *Combine XYZ Node* combines a vector from its individual components.
 
 

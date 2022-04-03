@@ -9,6 +9,8 @@ Dual Mesh Node
    :align: right
    :alt: Dual Mesh node.
 
+   Dual Mesh node.
+
 The *Dual Mesh Node* converts a mesh into it's dual, i.e. faces are turned into
 vertices and vertices are turned into faces. This also means that attributes
 which were on the face domain are transferred to the point domain in the dual mesh.

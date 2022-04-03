@@ -9,6 +9,8 @@ Cone Node
    :align: right
    :alt: Cone node.
 
+   Cone node.
+
 The *Cone* node generates a cone mesh that is optionally truncated.
 
 

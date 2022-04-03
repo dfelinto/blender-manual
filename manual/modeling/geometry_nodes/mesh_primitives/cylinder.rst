@@ -9,6 +9,8 @@ Cylinder Node
    :align: right
    :alt: Cylinder node.
 
+   Cylinder node.
+
 The *Cylinder* node generates a cylinder mesh.
 It is similar to the Cone node but always uses the same radius for the circles at the top and bottom.
 

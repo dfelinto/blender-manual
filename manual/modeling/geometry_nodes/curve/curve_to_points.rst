@@ -9,6 +9,8 @@ Curve to Points Node
    :align: right
    :alt: Curve to Points node.
 
+   Curve to Points node.
+
 The *Curve to Points* node generates a point cloud from a curve.
 
 

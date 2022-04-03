@@ -9,6 +9,8 @@ Set Point Radius Node
    :align: right
    :alt: Set Point Radius node.
 
+   Set Point Radius node.
+
 The *Set Point Radius* node controls the size each selected point cloud point should display with in the viewport.
 
 The input node for this data is the :doc:`/modeling/geometry_nodes/input/radius`.

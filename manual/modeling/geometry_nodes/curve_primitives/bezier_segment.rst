@@ -9,6 +9,8 @@ Bézier Segment Node
    :align: right
    :alt: Bézier Segment Node.
 
+   Bézier Segment Node.
+
 The *Bézier Segment* node generates a 2D Bézier spline from the given control points and handles.
 
 

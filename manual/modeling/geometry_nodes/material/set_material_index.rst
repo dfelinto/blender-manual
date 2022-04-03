@@ -9,6 +9,8 @@ Set Material Index Node
    :align: right
    :alt: Set Material Index node.
 
+   Set Material Index node.
+
 The *Set Material Index* node sets the material index for a geometry.
 
 The node to get this data is the :doc:`Material Index </modeling/geometry_nodes/material/material_index>` node.

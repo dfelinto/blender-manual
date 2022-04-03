@@ -8,6 +8,8 @@ Rotate Node
    :align: right
    :alt: Rotate node.
 
+   Rotate node.
+
 Rotate the texture coordinates of an image or texture.
 
 

@@ -13,6 +13,8 @@ Vector Rotate Node
    :align: center
    :alt: Vector Rotate Node.
 
+   Vector Rotate Node.
+
 The *Vector Rotate Node* provides the ability to rotate a vector around a pivot point (*Center*).
 
 

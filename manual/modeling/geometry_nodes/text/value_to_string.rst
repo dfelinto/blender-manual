@@ -9,6 +9,8 @@ Value to String Node
    :align: center
    :alt: Value to String node.
 
+   Value to String node.
+
 The *Value to String* node generates string representation of the input value.
 
 

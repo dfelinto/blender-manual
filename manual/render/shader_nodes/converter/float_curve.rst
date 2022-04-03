@@ -9,6 +9,8 @@ Float Curve
    :align: right
    :alt: Float Curve node.
 
+   Float Curve node.
+
 The Float Curve node maps an input float to a curve and outputs a float value.
 
 

@@ -9,6 +9,8 @@ Star Node
    :align: right
    :alt: Star Node.
 
+   Star Node.
+
 The *Star* node generates a poly spline in a star pattern by connecting alternating points of two circles.
 The points on the inner circle are offset by a rotation so that they lie in between the points on the outer circle.
 This offset can be changed with the twist input.

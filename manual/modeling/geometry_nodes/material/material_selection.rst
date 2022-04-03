@@ -9,6 +9,8 @@ Material Selection Node
    :align: right
    :alt: Material Selection node.
 
+   Material Selection node.
+
 The *Material Selection* node provides a selection for meshes that use this material.
 Since the ``material_index`` is stored on each face, the output will be implicitly interpolated to
 a different domain when necessary. For example, every vertex connected to

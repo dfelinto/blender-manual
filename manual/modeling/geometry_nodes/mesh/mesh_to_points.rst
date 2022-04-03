@@ -9,6 +9,8 @@ Mesh to Points Node
    :align: right
    :alt: Mesh to Points node.
 
+   Mesh to Points node.
+
 The *Mesh to Points* node generates a point cloud from a mesh.
 
 

@@ -9,6 +9,8 @@ Color Node
    :align: right
    :alt: Color node.
 
+   Color node.
+
 The *Color* node outputs the color value chosen with the color picker widget.
 
 

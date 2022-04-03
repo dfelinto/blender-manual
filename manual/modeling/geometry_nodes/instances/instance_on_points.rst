@@ -9,6 +9,8 @@ Instance on Points Node
    :align: center
    :alt: Instance on Points node.
 
+   Instance on Points node.
+
 The *Instance on Points* node adds a reference to a geometry to each of the points present
 in the input geometry. Instances are a fast way to add the same geometry to a scene many times
 without duplicating the underlying data. The node works on any geometry type

@@ -8,6 +8,7 @@ Coordinates Node
    :align: right
    :alt: Coordinates node.
 
+   Coordinates node.
 
 Inputs
 ======

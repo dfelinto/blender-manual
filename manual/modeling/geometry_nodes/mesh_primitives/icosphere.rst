@@ -9,6 +9,8 @@ Icosphere Node
    :align: right
    :alt: Icosphere Node.
 
+   Icosphere Node.
+
 The *Icosphere* node generates a spherical mesh that consists of equally sized triangles.
 
 

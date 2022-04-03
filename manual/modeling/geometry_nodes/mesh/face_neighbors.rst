@@ -9,6 +9,8 @@ Face Neighbors Node
    :align: right
    :alt: Face Neighbors Node.
 
+   Face Neighbors Node.
+
 The *Face Neighbors* node outputs topology information relating to each face of a mesh.
 
 

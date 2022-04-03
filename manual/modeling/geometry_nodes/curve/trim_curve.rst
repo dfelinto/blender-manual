@@ -9,6 +9,8 @@ Trim Curve Node
    :align: center
    :alt: Trim Curve node.
 
+   Trim Curve node.
+
 The *Trim Curve* node shortens each spline in the curve by removing sections at
 the start and end of each spline.
 

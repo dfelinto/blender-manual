@@ -9,6 +9,8 @@ Split Edges Node
    :align: right
    :alt: Split Edges node.
 
+   Split Edges node.
+
 Like the :doc:`/modeling/modifiers/generate/edge_split`, the *Split Edges* node splits and duplicates edges
 within a mesh, breaking 'links' between faces around those split edges.
 

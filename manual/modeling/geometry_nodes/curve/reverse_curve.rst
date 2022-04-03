@@ -9,6 +9,8 @@ Reverse Curve Node
    :align: center
    :alt: Reverse Curve node.
 
+   Reverse Curve node.
+
 The *Reverse Curve* node swaps the start and end of splines.
 The shape of the splines is not changed.
 

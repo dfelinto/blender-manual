@@ -8,6 +8,8 @@ Combine RGB Node
    :align: right
    :alt: Combine RGB Node.
 
+   Combine RGB Node.
+
 The *Combine RGB Node* combines an image from its composite color channels.
 
 

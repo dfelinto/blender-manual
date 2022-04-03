@@ -9,6 +9,8 @@ Index Node
    :align: right
    :alt: Index node.
 
+   Index node.
+
 The *Index* node gives an integer value indicating the position of each element in the list,
 starting at zero. This depends on the internal order of the data in the geometry, which is not
 necessarily visible in the 3D Viewport. However, the index value is visible in the left-most column

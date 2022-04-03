@@ -8,6 +8,8 @@ At Node
    :align: right
    :alt: At node.
 
+   At node.
+
 Returns the color of a texture at the specified coordinates.
 
 

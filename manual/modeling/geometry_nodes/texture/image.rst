@@ -15,6 +15,8 @@ Image Texture Node
    :align: right
    :alt: Image Texture node.
 
+   Image Texture node.
+
 The *Image Texture* node is used to add an image file as a texture.
 The image data is sampled with the input Vector and outputs a Color and Alpha value.
 

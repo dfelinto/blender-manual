@@ -9,6 +9,8 @@ Slice String Node
    :align: center
    :alt: Slice String node.
 
+   Slice String node.
+
 The *Slice String* node extracts a string segment from a larger string.
 
 

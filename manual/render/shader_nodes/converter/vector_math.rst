@@ -12,6 +12,8 @@ Vector Math Node
    :align: right
    :alt: Vector Math Node.
 
+   Vector Math Node.
+
 The *Vector Math* node performs the selected math operation on the input vectors.
 
 

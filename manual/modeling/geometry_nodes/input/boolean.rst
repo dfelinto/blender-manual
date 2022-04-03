@@ -9,6 +9,8 @@ Boolean Node
    :align: right
    :alt: Boolean node.
 
+   Boolean node.
+
 The *Boolean* node provides a Boolean value.
 
 

@@ -9,6 +9,8 @@ Curve Tilt Node
    :align: right
    :alt: Curve Tilt node.
 
+   Curve Tilt node.
+
 The *Curve Tilt* node outputs the angle used to turn the curve normal
 around the direction of the curve tangent in its evaluated points.
 Keep in mind that the output is per control point, just like the values

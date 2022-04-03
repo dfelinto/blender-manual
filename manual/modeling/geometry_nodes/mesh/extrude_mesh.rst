@@ -9,6 +9,8 @@ Extrude Mesh Node
    :align: right
    :alt: Extrude Mesh node.
 
+   Extrude Mesh node.
+
 The *Extrude Mesh Node* generates new vertices, edges, or faces, on selected geometry
 and transforms them based on an offset.
 

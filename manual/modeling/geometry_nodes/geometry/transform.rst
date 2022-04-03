@@ -9,6 +9,8 @@ Transform Node
    :align: right
    :alt: Transform node.
 
+   Transform node.
+
 The *Transform Node* allows you to move, rotate or scale the geometry.
 The transformation is applied to the entire geometry, and not per element.
 The :doc:`/modeling/geometry_nodes/geometry/set_position` is used for moving

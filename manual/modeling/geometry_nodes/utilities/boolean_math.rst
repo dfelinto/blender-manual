@@ -9,6 +9,8 @@ Boolean Math Node
    :align: right
    :alt: Boolean Math Node.
 
+   Boolean Math Node.
+
 The *Boolean Math* node performs a basic logical operation on its inputs.
 
 

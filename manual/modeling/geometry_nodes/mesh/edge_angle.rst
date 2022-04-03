@@ -9,6 +9,8 @@ Edge Angle Node
    :align: right
    :alt: Edge Angle Node.
 
+   Edge Angle Node.
+
 The *Edge Angle* node calculates the angle in radians between two faces that meet at an edge.
 For the Face, Face Corner, and Point :ref:`domains <attribute-domains>`,
 the node uses simple domain interpolation to move values from the mesh's edges.

@@ -8,6 +8,8 @@ Curve Line Node
 .. figure:: /images/node-types_GeometryNodeCurvePrimitiveLine.webp
    :alt: Curve Line node.
 
+   Curve Line node.
+
 The *Curve Line* node generates poly spline line.
 
 

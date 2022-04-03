@@ -9,6 +9,8 @@ Set Spline Type Node
    :align: right
    :alt: The Set Spline Type node.
 
+   The Set Spline Type node.
+
 Sets the spline type for the splines in the curve component that
 are in the selection.
 

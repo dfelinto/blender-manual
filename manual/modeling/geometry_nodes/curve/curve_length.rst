@@ -8,6 +8,8 @@ Curve Length Node
 .. figure:: /images/node-types_GeometryNodeCurveLength.webp
    :alt: The Curve Length node.
 
+   The Curve Length node.
+
 The *Curve Length* node outputs the length of all splines added together.
 
 

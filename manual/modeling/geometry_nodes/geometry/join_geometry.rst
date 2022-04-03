@@ -11,6 +11,8 @@ If the geometry inputs contain different types of data, the output will also con
 .. figure:: /images/node-types_GeometryNodeJoinGeometry.webp
    :alt: Join Geometry node.
 
+   Join Geometry node.
+
 .. note::
 
    The node cannot handle the case when more than one geometry input has a volume component.

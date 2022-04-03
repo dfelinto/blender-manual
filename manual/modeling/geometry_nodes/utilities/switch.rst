@@ -9,6 +9,8 @@ Switch Node
    :align: right
    :alt: Switch Node.
 
+   Switch Node.
+
 The *Switch* node outputs one of two inputs depending on a condition.
 Only the input that is passed through the node is computed.
 

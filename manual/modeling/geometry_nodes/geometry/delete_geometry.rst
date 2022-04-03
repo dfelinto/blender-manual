@@ -9,6 +9,8 @@ Delete Geometry Node
    :align: center
    :alt: Delete Geometry node.
 
+   Delete Geometry node.
+
 The *Delete Geometry* node removes the selected part of a geometry.
 It behaves similarly to the :ref:`Delete <bpy.ops.mesh.delete>` tool in Edit Mode.
 The type of elements to be deleted can be specified with the domain and mode properties.

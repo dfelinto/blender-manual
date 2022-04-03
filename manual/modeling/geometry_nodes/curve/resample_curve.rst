@@ -9,6 +9,8 @@ Resample Curve Node
    :align: center
    :alt: Resample Curve node.
 
+   Resample Curve node.
+
 The Resample Curve node creates a poly spline for each input spline.
 In the *Count* and *Length* modes, the control points of the new poly
 splines will have uniform spacing.

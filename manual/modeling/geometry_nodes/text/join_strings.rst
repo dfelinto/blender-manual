@@ -9,6 +9,8 @@ Join Strings Node
    :align: center
    :alt: Join Strings node.
 
+   Join Strings node.
+
 The *Join Strings* node combines any number of input strings into the output string.
 The order of the result depends on the vertical ordering of the inputs in the multi-input socket.
 
