@@ -16,16 +16,33 @@ It helps to narrow the list of objects so that you can find things quickly and e
 
 Scenes
    Shows *everything* the *Outliner* can display (in all scenes, all view layers, etc.).
+
 View Layer
    Shows all the collections and objects in the current view layer.
+
 Video Sequencer
    Lists data, images and videos, that are used by the :doc:`Video Sequencer </video_editing/index>`.
+
 Blender File
    Lists all data in the current blend-file.
+
 Data API
    Lists every :doc:`data-block </files/data_blocks>` along with any properties that they might have.
+
+.. _bpy.types.SpaceOutliner.lib_override_view_mode:
+
 Library Overrides
-   Display data-blocks with library overrides and list their overridden properties.
+   Display library override data in the current blend-file. Separated further into two view modes:
+
+   Properties:
+      Display data-blocks with overridden properties. The overridden properties are listed together with widgets to
+      modify the value of the properties.
+   Hierarchies:
+      Visualize the hierarchical dependencies between data-blocks with library overrides. For example, to create a
+      library override of a mesh used by an object inside of a linked collection, Blender automatically creates
+      (disabled) library overrides for the object and the collection, resulting in a collection > object > mesh
+      library override hierarchy.
+
 Orphan Data
    Lists :doc:`data-blocks </files/data_blocks>`
    which are unused and/or will be lost when the file is reloaded.
