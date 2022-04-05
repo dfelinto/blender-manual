@@ -140,6 +140,15 @@ Max Bounces
    See :doc:`Reducing Noise </render/cycles/optimizations/reducing_noise>`
    for more information on how to reduce noise.
 
+.. _bpy.types.CyclesWorldSettings.is_caustics_light:
+
+Shadow Caustics
+   Mark the World Shader as a refractive caustic caster. This setting can be used in conjunction with the
+   :ref:`Cast and Receive caustics object settings <bpy.types.CyclesObjectSettings.is_caustics_caster>`
+   to selectively speed up refractive caustic rendering of select objects.
+
+
+
 
 Volume
 ------

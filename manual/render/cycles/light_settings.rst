@@ -44,7 +44,7 @@ Multiple Importance Sample
 .. _bpy.types.CyclesLightSettings.is_caustics_light:
 
 Shadow Caustics
-   Mark a light to be a refractive caustic caster. This setting can be used in conjunction with the
+   Mark a light as a refractive caustic caster. This setting can be used in conjunction with the
    :ref:`Cast and Receive caustics object settings <bpy.types.CyclesObjectSettings.is_caustics_caster>`
    to selectively speed up refractive caustic rendering of select objects.
 

@@ -189,9 +189,10 @@ AO Distance
 Caustics
 --------
 
-Mark objects as caustic casters or receivers. This is used in conjunction with a light with
-:ref:`Shadow Caustics <bpy.types.CyclesLightSettings.is_caustics_light>` enabled to selectively
-speed up caustic rendering of objects in your scene. 
+Mark objects as caustic casters or receivers. This is used in conjunction with a
+:ref:`Light <bpy.types.CyclesLightSettings.is_caustics_light>` or
+:ref:`World Shader <bpy.types.CyclesWorldSettings.is_caustics_light>` with *Shadow Caustics* enabled
+to selectively speed up caustic rendering of objects in your scene. 
 
 .. note:: 
 
@@ -207,11 +208,16 @@ speed up caustic rendering of objects in your scene.
    - :ref:`Filter Glossy <bpy.types.CyclesRenderSettings.blur_glossy>` settings are ignored when using
      MNEE for refractive caustics.
 
+   - MNEE Caustic rays can pass through up to 6 Caustic Caster surfaces between a Caustic Reciever and a
+     Shadow Caustic light before the ray is terminated and caustics are ignored.
+
    - MNEE Caustics are treated as direct lighting instead of indirect lighting.
 
    - MNEE Caustics render best with objects with smooth normals.
 
-   - Bump and normal maps are ignored.
+   - Volumetric materials can not recieve MNEE caustics.
+
+   - Bump and normal maps are ignored when calculating caustics.
 
    - The Metal GPU rendering backend is not supported.
 
