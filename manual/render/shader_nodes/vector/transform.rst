@@ -8,6 +8,8 @@ Vector Transform Node
    :align: right
    :alt: Vector Transform node.
 
+   Vector Transform node.
+
 The *Vector Transform* node allows converting a vector, point, or normal between
 world and camera and object coordinate space.
 

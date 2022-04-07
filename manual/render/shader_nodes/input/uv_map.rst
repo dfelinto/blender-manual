@@ -8,6 +8,8 @@ UV Map Node
    :align: right
    :alt: UV Map Node.
 
+   UV Map Node.
+
 The *UV Map* node is used to retrieve specific UV maps.
 Unlike the :doc:`Texture Coordinate Node </render/shader_nodes/input/texture_coordinate>`
 which only provides the active UV map,

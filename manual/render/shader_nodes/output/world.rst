@@ -8,6 +8,8 @@ World Node
    :align: right
    :alt: World Node.
 
+   World Node.
+
 The *World Output* node is used to output light a color information
 to the scene's :doc:`World </render/lights/world>`.
 

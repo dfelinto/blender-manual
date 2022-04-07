@@ -8,6 +8,8 @@ Fresnel Node
    :align: right
    :alt: Fresnel Node.
 
+   Fresnel Node.
+
 The *Fresnel* or *Dielectric Fresnel* node computes how much light is reflected off a layer,
 where the rest will be refracted through the layer.
 The resulting weight can be used for layering shaders with the *Mix Shader* node.

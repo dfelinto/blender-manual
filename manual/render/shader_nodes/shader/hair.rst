@@ -8,6 +8,8 @@ Hair BSDF
    :align: right
    :alt: Hair BSDF node.
 
+   Hair BSDF node.
+
 :guilabel:`Cycles Only`
 
 The *Hair* :abbr:`BSDF (Bidirectional Scattering Distribution Function)`

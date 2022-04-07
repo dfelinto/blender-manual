@@ -8,6 +8,8 @@ Shader To RGB
    :align: right
    :alt: Shader to RGB.
 
+   Shader to RGB.
+
 :guilabel:`Eevee Only`
 
 The Shader to RGB node is typically used for non-photorealistic rendering,

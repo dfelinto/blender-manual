@@ -8,6 +8,8 @@ Diffuse BSDF
    :align: right
    :alt: Diffuse BSDF node.
 
+   Diffuse BSDF node.
+
 The *Diffuse* :abbr:`BSDF (Bidirectional Scattering Distribution Function)`
 node is used to add Lambertian and Oren-Nayar diffuse reflection.
 

@@ -8,6 +8,8 @@ Principled Volume
    :align: right
    :alt: Principled Volume node.
 
+   Principled Volume node.
+
 The *Principled Volume* shader combines all volume shading components into
 a single easy to use node. Volumes like smoke and fire can be rendered with
 a single shader node, which includes scattering, absorption and blackbody emission.

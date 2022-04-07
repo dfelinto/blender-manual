@@ -8,6 +8,8 @@ Normal Map Node
    :align: right
    :alt: Normal Map Node.
 
+   Normal Map Node.
+
 The *Normal Map* node generates a perturbed normal from an RGB normal map image.
 This is usually chained with an *Image Texture* node in the color input,
 to specify the normal map image. For tangent space normal maps,

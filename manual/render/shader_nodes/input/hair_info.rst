@@ -8,6 +8,8 @@ Hair Info Node
    :align: right
    :alt: Hair Info Node.
 
+   Hair Info Node.
+
 The *Hair Info* node gives access to :doc:`Hair </physics/particles/hair/index>` information.
 
 

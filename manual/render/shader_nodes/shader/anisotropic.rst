@@ -8,6 +8,8 @@ Anisotropic BSDF
    :align: right
    :alt: Anisotropic BSDF node.
 
+   Anisotropic BSDF node.
+
 :guilabel:`Cycles Only`
 
 The *Anisotropic* :abbr:`BSDF (Bidirectional Scattering Distribution Function)`

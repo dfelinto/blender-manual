@@ -8,6 +8,8 @@ Holdout
    :align: right
    :alt: Holdout node.
 
+   Holdout node.
+
 The *Holdout* shader node is used to create a "hole" in the image with zero alpha
 transparency, which is useful for compositing (see :term:`Alpha Channel`).
 

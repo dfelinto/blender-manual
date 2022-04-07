@@ -8,6 +8,8 @@ Bump Node
    :align: right
    :alt: Bump Node.
 
+   Bump Node.
+
 The *Bump* node generates a perturbed normal from a height texture, for bump mapping.
 The height value will be sampled at the shading point and two nearby points
 on the surface to determine the local direction of the normal.

@@ -8,6 +8,8 @@ Environment Texture Node
    :align: right
    :alt: Environment Texture Node.
 
+   Environment Texture Node.
+
 The Node *Environmental Texture* is used to light your scene using an environment map image file as a texture.
 
 

@@ -10,6 +10,8 @@ Point Info
    :align: right
    :alt: Point Info Node.
 
+   Point Info Node.
+
 The *Point Info* node can be used in the material node tree for point cloud objects
 and gives access to the data of individual points.
 It can be useful to give some variation to a single material assigned a point cloud object.

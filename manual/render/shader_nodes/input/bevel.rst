@@ -10,6 +10,8 @@ Bevel Node
    :align: right
    :alt: Bevel Node.
 
+   Bevel Node.
+
 The Bevel shader node can be used for rendering rounded corners.
 Like bump mapping, this does not modify the actual geometry, only the shading is affected.
 Slight rounding on edges helps to capture specular highlights that you would also see in the real world.

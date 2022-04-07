@@ -8,6 +8,8 @@ Blackbody Node
    :align: right
    :alt: Blackbody Node.
 
+   Blackbody Node.
+
 The *Blackbody* node converts a blackbody temperature to RGB value.
 This can be useful for materials that emit light at natural occurring frequencies.
 

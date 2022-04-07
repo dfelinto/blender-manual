@@ -8,6 +8,8 @@ Attribute Node
    :align: right
    :alt: Attribute Node.
 
+   Attribute Node.
+
 The *Attribute* node allows you to retrieve attributes attached to an object or mesh.
 
 

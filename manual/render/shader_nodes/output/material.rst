@@ -8,6 +8,8 @@ Material Node
    :align: right
    :alt: Material Node.
 
+   Material Node.
+
 The *Material Output* node is used to output surface material information to a surface object.
 
 

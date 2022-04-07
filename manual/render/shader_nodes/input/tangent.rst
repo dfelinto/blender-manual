@@ -8,6 +8,8 @@ Tangent Node
    :align: right
    :alt: Tangent Node.
 
+   Tangent Node.
+
 The *Tangent* node generates a tangent direction for the Anisotropic BSDF.
 
 

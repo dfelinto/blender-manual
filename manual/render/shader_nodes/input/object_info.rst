@@ -8,6 +8,8 @@ Object Info Node
    :align: right
    :alt: Object Info Node.
 
+   Object Info Node.
+
 The *Object Info* node gives information about the object instance.
 This can be useful to give some variation to a single material assigned to multiple instances,
 either manually controlled through the object index, based on the object location,

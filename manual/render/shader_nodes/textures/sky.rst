@@ -8,6 +8,8 @@ Sky Texture Node
    :align: right
    :alt: Sky Texture Node.
 
+   Sky Texture Node.
+
 The *Sky Texture* node adds a procedural Sky texture.
 
 

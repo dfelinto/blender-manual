@@ -8,6 +8,8 @@ Vertex Color Node
    :align: right
    :alt: Vertex Color node.
 
+   Vertex Color node.
+
 The *Vertex Color* node provides vertex colors as well as their alpha value.
 
 
