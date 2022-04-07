@@ -9,8 +9,6 @@ Viewer Node
    :align: center
    :alt: The Viewer node.
 
-   The Viewer node.
-
 Using a *Viewer* node a geometry, and optionally a field evaluated it,
 can be displayed in the :doc:`Spreadsheet Editor </editors/spreadsheet>`.
 A node can be connected with a Viewer node by pressing :kbd:`Shift-Ctrl-LMB`,

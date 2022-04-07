@@ -9,8 +9,6 @@ Domain Size Node
    :align: right
    :alt: Domain Size node.
 
-   Domain Size node.
-
 The *Domain Size* outputs the size of an attribute domain on the selected geometry type,
 for example, the number of edges in a mesh, or the number of points in a point cloud.
 

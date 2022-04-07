@@ -8,8 +8,6 @@ Scale Node
    :align: right
    :alt: Scale node.
 
-   Scale node.
-
 Scale the texture coordinates of an image or texture.
 
 

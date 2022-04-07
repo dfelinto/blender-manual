@@ -9,8 +9,6 @@ Mesh Island Node
    :align: right
    :alt: Mesh Island Node.
 
-   Mesh Island Node.
-
 The *Mesh Island* node outputs information about separate connected regions, or "islands" of a mesh.
 Whenever two vertices are connected together by an edge, they are considered as part of the same island,
 and will have the same *Island Index* output.

@@ -9,8 +9,6 @@ Points to Vertices Node
    :align: center
    :alt: Points to Vertices node.
 
-   Points to Vertices node.
-
 The *Points to Vertices* node generate a mesh vertex in the output geometry for
 each point cloud point in the input geometry.
 

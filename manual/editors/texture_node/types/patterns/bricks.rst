@@ -8,8 +8,6 @@ Bricks Node
    :align: right
    :alt: Bricks node.
 
-   Bricks node.
-
 The Bricks node creates a brick like pattern.
 
 

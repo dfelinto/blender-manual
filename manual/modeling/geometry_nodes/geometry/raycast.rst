@@ -9,8 +9,6 @@ Raycast Node
    :align: center
    :alt: Raycast node.
 
-   Raycast node.
-
 The *Raycast* node intersects rays from one geometry onto another. The source geometry is defined by
 the context of the node that the *Raycast* node is connected to.
 Each ray computes hit points on the target mesh and outputs normals, distances

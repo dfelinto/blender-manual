@@ -9,8 +9,6 @@ Volume to Mesh Node
    :align: center
    :alt: The Volume to Mesh node.
 
-   The Volume to Mesh node.
-
 The *Volume to Mesh* node generates a mesh on the "surface" of a volume.
 The surface is defined by a threshold value.
 All voxels with a larger value than the threshold are considered to be inside.

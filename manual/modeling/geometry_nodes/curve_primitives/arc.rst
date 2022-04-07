@@ -9,8 +9,6 @@ Arc Node
    :align: right
    :alt: Arc Node.
 
-   Arc Node.
-
 The *Arc* node generates a poly spline arc. The node has two modes, Radius and Points.
 
 

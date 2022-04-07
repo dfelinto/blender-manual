@@ -8,8 +8,6 @@ Viewer Node
    :align: right
    :alt: Viewer node.
 
-   Viewer node.
-
 The Viewer node can be used to preview the results of a node.
 
 

@@ -9,8 +9,6 @@ Spline Parameter Node
    :align: right
    :alt: Spline Parameter node.
 
-   Spline Parameter node.
-
 The *Spline Parameter* node outputs how far along each spline a control point is.
 The *Factor* output is different from dividing the index by the total number of control points,
 because the control points might not be equally spaced along the curve.

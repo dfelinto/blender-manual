@@ -9,8 +9,6 @@ Collection Info Node
    :align: right
    :alt: Collection Info node.
 
-   Collection Info node.
-
 The *Collection Info* node gets information from collections.
 This can be useful to control parameters in the geometry node tree with an external collection.
 

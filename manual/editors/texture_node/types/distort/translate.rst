@@ -8,8 +8,6 @@ Translate Node
    :align: right
    :alt: Translate node.
 
-   Translate node.
-
 Translate the texture coordinates of an image or texture.
 
 

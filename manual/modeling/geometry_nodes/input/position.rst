@@ -9,8 +9,6 @@ Position Node
    :align: right
    :alt: Position node.
 
-   Position node.
-
 The *Position* node outputs a vector of each point of the geometry the node is connected to.
 
 The node can work on geometry domains besides points. In that case, the position data will be

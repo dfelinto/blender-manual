@@ -9,8 +9,6 @@ Realize Instances Node
    :align: right
    :alt: Realize Instances node.
 
-   Realize Instances node.
-
 The *Realize Instances* node makes any instances (efficient duplicates of the same geometry)
 into real geometry data. This makes it possible to affect each instance individually,
 whereas without this node, the exact same changes are applied to every instance of

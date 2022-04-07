@@ -9,8 +9,6 @@ UV Sphere Node
    :align: right
    :alt: UV Sphere Node.
 
-   UV Sphere Node.
-
 The *UV Sphere* node generates a spherical mesh mostly out of quads except for triangles at the top and bottom.
 
 

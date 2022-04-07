@@ -9,8 +9,6 @@ String Node
    :align: right
    :alt: String Input Node.
 
-   String Input Node.
-
 The *String* input node creates a single string. It can be connected to attribute name sockets
 to make using the same attribute name in multiple places more convenient.
 

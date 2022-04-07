@@ -9,8 +9,6 @@ Flip Faces Node
    :align: right
    :alt: Flip Faces node.
 
-   Flip Faces node.
-
 The *Flip Faces Node* reverses the order of the vertices and edges of each selected face.
 The most common use of this node is to flip the normals of a face.
 Any :ref:`face corner domain <attribute-domains>` attributes of selected faces are also reversed.

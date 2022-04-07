@@ -9,8 +9,6 @@ Float To Integer Node
    :align: right
    :alt: Float To Integer Node.
 
-   Float To Integer Node.
-
 The *Float To Integer* node takes a single floating point number input and converts it to
 an integer with a choice of methods.
 

@@ -9,8 +9,6 @@ Sample Curve Node
    :align: right
    :alt: Sample Curve node.
 
-   Sample Curve node.
-
 The *Sample Curve* calculates a point on a curve at a certain distance from the start of the curve,
 specified by the length or factor inputs. It also outputs data retrieved from that position on the curve.
 The sampled values are linearly interpolated from the values at the evaluated curve points

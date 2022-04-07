@@ -8,8 +8,6 @@ Separate XYZ Node
    :align: right
    :alt: Separate XYZ Node.
 
-   Separate XYZ Node.
-
 The *Separate XYZ Node* splits a vector into its individual components.
 
 

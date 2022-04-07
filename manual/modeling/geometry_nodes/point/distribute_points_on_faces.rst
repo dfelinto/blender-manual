@@ -9,8 +9,6 @@ Distribute Points on Faces
    :align: right
    :alt: Distribute Points on Faces node.
 
-   Distribute Points on Faces node.
-
 The *Distribute Points on Faces* node places points on the surface of the input geometry object.
 Point, corner and polygon attributes of the input geometry are transferred to the generated points.
 That includes vertex weights and UV maps.

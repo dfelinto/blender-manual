@@ -9,8 +9,6 @@ Set Position Node
    :align: right
    :alt: Set Position node.
 
-   Set Position node.
-
 The *Set Position* node controls the location of each point, the same way as controlling
 the ``position`` attribute.
 If the input geometry contains instances, this node will affect the location of the origin of each instance.

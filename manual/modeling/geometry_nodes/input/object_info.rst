@@ -9,8 +9,6 @@ Object Info Node
    :align: right
    :alt: Object Info node.
 
-   Object Info node.
-
 The *Object Info* node gets information from objects.
 This can be useful to control parameters in the geometry node tree with an external object,
 either directly by using its geometry, or via its transformation properties.

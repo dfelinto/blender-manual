@@ -8,8 +8,6 @@ Quadrilateral Node
 .. figure:: /images/node-types_GeometryNodeCurvePrimitiveQuadrilateral.webp
    :alt: Quadrilateral Node.
 
-   Quadrilateral Node.
-
 The *Quadrilateral* node generates a polygon with four points, with different modes.
 
 

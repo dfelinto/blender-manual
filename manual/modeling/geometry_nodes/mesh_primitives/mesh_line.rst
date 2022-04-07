@@ -9,8 +9,6 @@ Mesh Line Node
    :align: right
    :alt: Mesh Line Node.
 
-   Mesh Line Node.
-
 The *Mesh Line* node generates vertices in a line and connects them with edges.
 
 

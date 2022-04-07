@@ -9,8 +9,6 @@ Scale Elements Node
    :align: right
    :alt: Scale Elements node.
 
-   Scale Elements node.
-
 The *Scale Elements Node* scales groups of connected edges and faces.
 When multiple selected faces/edges share the same vertices, they are scaled together.
 The center and scaling factor is averaged in this case.

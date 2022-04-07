@@ -9,8 +9,6 @@ Fill Curve Node
    :align: center
    :alt: Fill Curve node.
 
-   Fill Curve node.
-
 The *Fill Curve* node generates a mesh using the constrained Delaunay triangulation algorithm
 with the curves as boundaries. The mesh is only generated flat with a local Z of 0.
 

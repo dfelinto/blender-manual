@@ -12,8 +12,6 @@ Clamp Node
    :align: right
    :alt: Clamp Node.
 
-   Clamp Node.
-
 The *Clamp* node clamps a value between a minimum and a maximum.
 
 

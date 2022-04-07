@@ -9,8 +9,6 @@ Triangulate Node
    :align: right
    :alt: Triangulate Node.
 
-   Triangulate Node.
-
 The *Triangulate* node converts all faces in a mesh (quads and n-gons) to triangular faces.
 It functions the same as the :ref:`Triangulate <bpy.ops.mesh.quads_convert_to_tris>` tool in Edit Mode.
 

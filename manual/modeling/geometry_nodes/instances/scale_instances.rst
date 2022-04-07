@@ -9,8 +9,6 @@ Scale Instances Node
    :align: right
    :alt: Scale Instances node.
 
-   Scale Instances node.
-
 The *Scale Instances* node scales geometry instances in local or global space.
 
 The :doc:`/modeling/geometry_nodes/instances` page contains more information about geometry instances.

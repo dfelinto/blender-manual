@@ -9,8 +9,6 @@ Curve Circle Node
    :align: right
    :alt: Circle Node.
 
-   Circle Node.
-
 The *Curve Circle* node generates a poly spline circle.
 
 

@@ -9,8 +9,6 @@ Separate Geometry Node
    :align: right
    :alt: Separate Geometry node.
 
-   Separate Geometry node.
-
 The *Separate Geometry* node produces two geometry outputs. Based on the *Selection* input,
 the input geometry is split between the two outputs.
 

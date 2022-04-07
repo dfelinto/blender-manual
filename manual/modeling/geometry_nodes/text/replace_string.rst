@@ -9,8 +9,6 @@ Replace String Node
    :align: right
    :alt: Replace String node.
 
-   Replace String node.
-
 The *Replace String* node replaces a string segment with another.
 
 

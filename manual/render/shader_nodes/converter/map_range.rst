@@ -12,8 +12,6 @@ Map Range Node
    :align: right
    :alt: Map Range Node.
 
-   Map Range Node.
-
 The *Map Range* node remaps a value from a range to a target range.
 
 

@@ -8,8 +8,6 @@ Value to Normal Node
    :align: right
    :alt: Value to Normal node.
 
-   Value to Normal node.
-
 Computes a normal map.
 
 

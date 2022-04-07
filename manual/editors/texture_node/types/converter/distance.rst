@@ -8,8 +8,6 @@ Distance Node
    :align: right
    :alt: Distance node.
 
-   Distance node.
-
 Computes the distance between two 3D coordinates.
 
 

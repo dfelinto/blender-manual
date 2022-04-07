@@ -9,8 +9,6 @@ Accumulate Field Node
    :align: right
    :alt: Accumulate Field Node.
 
-   Accumulate Field Node.
-
 The *Accumulate Field* node counts a running total of its input values, in the order defined
 by the geometry's :doc:`indices </modeling/geometry_nodes/input/input_index>`. The node's essential
 operation is just addition, but instead of only outputting the final total, it outputs the current

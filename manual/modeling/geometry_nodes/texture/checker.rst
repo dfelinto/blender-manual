@@ -22,8 +22,6 @@ Checker Texture Node
    :align: right
    :alt: Checker Texture node.
 
-   Checker Texture node.
-
 The *Checker Texture* is used to add a checkerboard texture.
 
 Inputs

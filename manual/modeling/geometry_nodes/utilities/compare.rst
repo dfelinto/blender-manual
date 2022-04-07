@@ -9,8 +9,6 @@ Compare Node
    :align: center
    :alt: Compare Node.
 
-   Compare Node.
-
 The *Compare* node takes two inputs and does an operation to determine whether they are similar.
 The node can work on all generic data types, and has modes for vectors that contain more complex
 comparisons, which can help to reduce the number of necessary nodes, and make a node tree more readable.

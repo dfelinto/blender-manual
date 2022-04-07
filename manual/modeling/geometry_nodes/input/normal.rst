@@ -6,10 +6,8 @@ Normal Node
 ***********
 
 .. figure:: /images/node-types_GeometryNodeInputNormal.webp
-   :align: center
+   :align: right
    :alt: Normal node.
-
-   Normal node.
 
 The *Normal* node returns a vector for each evaluated point indicating the
 :ref:`normal direction <modeling-meshes-structure-normals>`. The output can depend

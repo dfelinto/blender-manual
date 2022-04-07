@@ -9,8 +9,6 @@ String Length Node
    :align: center
    :alt: String Length node.
 
-   String Length node.
-
 The *String Length* node outputs the number of characters in the input string.
 
 

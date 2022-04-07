@@ -9,8 +9,6 @@ Curve Spiral Node
    :align: right
    :alt: Curve Spiral Node.
 
-   Curve Spiral Node.
-
 The *Curve Spiral* node generates a poly spline in a spiral shape.
 It can be used to create springs or other similar objects.
 By default the spiral twists in a clockwise fashion.

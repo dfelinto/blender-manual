@@ -9,8 +9,6 @@ Grid Node
    :align: right
    :alt: Grid Node.
 
-   Grid Node.
-
 The *Grid* node generates a planar mesh on the XY plane.
 
 

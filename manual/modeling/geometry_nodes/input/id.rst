@@ -9,8 +9,6 @@ ID Node
    :align: right
    :alt: ID node.
 
-   ID node.
-
 The *ID* node gives an integer value indicating the stable random identifier of each element on the point domain,
 which is stored in the ``id`` attribute.
 

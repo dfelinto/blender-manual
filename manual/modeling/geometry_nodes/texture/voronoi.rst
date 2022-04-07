@@ -15,8 +15,6 @@ Voronoi Texture Node
    :align: right
    :alt: Voronoi Texture Node.
 
-   Voronoi Texture Node.
-
 The *Voronoi Texture* node evaluates a `Worley Noise <https://en.wikipedia.org/wiki/Worley_noise>`__ at
 the input texture coordinates.
 

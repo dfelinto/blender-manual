@@ -8,8 +8,6 @@ Output Node
    :align: right
    :alt: Output node.
 
-   Output node.
-
 This node contains the result of the node texture.
 
 Multiple output nodes can exist in a node texture, however, only one of them is active.

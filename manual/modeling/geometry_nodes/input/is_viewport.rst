@@ -9,8 +9,6 @@ Is Viewport Node
    :align: right
    :alt: Is Viewport Node.
 
-   Is Viewport Node
-
 The *Is Viewport* node outputs true when geometry nodes are evaluated for the viewport.
 For the final render the node outputs false.
 

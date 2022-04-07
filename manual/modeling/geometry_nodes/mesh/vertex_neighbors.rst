@@ -9,8 +9,6 @@ Vertex Neighbors Node
    :align: right
    :alt: Vertex Neighbors Node.
 
-   Vertex Neighbors Node.
-
 The *Vertex Neighbors* node outputs topology information relating to each vertex of a mesh.
 
 

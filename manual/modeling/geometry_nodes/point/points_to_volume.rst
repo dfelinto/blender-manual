@@ -9,8 +9,6 @@ Points to Volume Node
    :align: center
    :alt: Points to Volume node.
 
-   Points to Volume node.
-
 The *Points to Volume* node generates a fog volume sphere around every point in the input geometry.
 The new volume grid is named "density".
 

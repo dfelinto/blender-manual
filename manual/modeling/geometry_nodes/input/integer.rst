@@ -9,8 +9,6 @@ Integer Node
    :align: right
    :alt: Integer node.
 
-   Integer node.
-
 The *Integer* node provides an integer value.
 
 

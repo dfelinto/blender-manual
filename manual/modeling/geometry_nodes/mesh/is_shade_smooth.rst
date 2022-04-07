@@ -9,8 +9,6 @@ Is Shade Smooth Node
    :align: right
    :alt: Is Shade Smooth Node.
 
-   Is Shade Smooth Node.
-
 The *Is Shade Smooth* node outputs true for each face of the mesh if that face
 is marked to render smooth shaded. Otherwise, if the face is marked to render as flat
 shaded, so the node outputs false.

@@ -9,8 +9,6 @@ Face Area Node
    :align: right
    :alt: Face Area Node.
 
-   Face Area Node.
-
 The *Face Area* node outputs the surface area of a mesh's faces.
 The units are in Blender units no matter the unit system,
 equivalent to meters-squared at the default unit scale.

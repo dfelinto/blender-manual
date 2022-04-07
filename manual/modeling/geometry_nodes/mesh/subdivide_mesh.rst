@@ -9,8 +9,6 @@ Subdivide Mesh Node
    :align: right
    :alt: Subdivide Mesh Node.
 
-   Subdivide Mesh Node.
-
 The *Subdivide Mesh* node adds new faces to mesh geometry using a simple interpolation for deformation.
 
 

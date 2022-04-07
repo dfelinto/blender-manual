@@ -9,8 +9,6 @@ String to Curves Node
    :align: right
    :alt: String to Curves node.
 
-   String to Curves node.
-
 The *String to Curves* converts a string to curve instances. Each unique character used in the string
 is converted to a curve once, and further uses of that character are more instances of the same geometry.
 

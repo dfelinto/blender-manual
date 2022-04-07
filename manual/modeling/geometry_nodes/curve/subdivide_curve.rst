@@ -9,8 +9,6 @@ Subdivide Curve Node
    :align: center
    :alt: The Subdivide Curve node.
 
-   Subdivide Curve node.
-
 The *Subdivide Curve* node adds more control points in between existing control points on the curve input.
 For Bézier and poly splines, the shape of the spline will not be changed at all.
 

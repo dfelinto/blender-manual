@@ -9,8 +9,6 @@ Random Value Node
    :align: right
    :alt: Random Value node.
 
-   Random Value node.
-
 The *Random Value* node outputs a white noise like value as a *Float*, *Integer*, *Vector*, or *Boolean* field.
 
 

@@ -9,8 +9,6 @@ Endpoint Selection Node
    :align: right
    :alt: Endpoint Selection node.
 
-   Endpoint Selection node.
-
 The *Endpoint Selection* node provides a selection for an arbitrary number of endpoints in each spline in a curve.
 
 .. note::

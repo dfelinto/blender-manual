@@ -9,8 +9,6 @@ Rotate Instances Node
    :align: right
    :alt: Rotate Instances node.
 
-   Rotate Instances node.
-
 The *Rotate Instances* node rotates geometry instances in local or global space.
 
 The :doc:`/modeling/geometry_nodes/instances` page contains more information about geometry instances.

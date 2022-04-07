@@ -8,8 +8,6 @@ Image Node
    :align: right
    :alt: Image node.
 
-   Image node.
-
 The Image node can be used to load an external image.
 
 

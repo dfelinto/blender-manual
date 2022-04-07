@@ -11,8 +11,6 @@ This node offers the same operations as the :doc:`Boolean modifier </modeling/mo
 .. figure:: /images/node-types_GeometryNodeMeshBoolean.webp
    :alt: Mesh Boolean node.
 
-   Mesh Boolean node.
-
 
 Inputs
 ======

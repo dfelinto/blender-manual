@@ -9,8 +9,6 @@ Mesh Circle Node
    :align: right
    :alt: Mesh Circle Node.
 
-   Mesh Circle Node.
-
 The *Mesh Circle* node generates a circular ring of edges that is optionally filled with faces.
 
 

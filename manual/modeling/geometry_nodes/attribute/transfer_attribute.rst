@@ -6,10 +6,8 @@ Transfer Attribute Node
 ***********************
 
 .. figure:: /images/node-types_GeometryNodeAttributeTransfer.webp
-   :align: right
+   :align: center
    :alt: Transfer Attribute node.
-
-   Transfer Attribute node.
 
 The *Transfer Attribute* node retrieves values from a source geometry and provides them as a field,
 so they can be used anywhere.

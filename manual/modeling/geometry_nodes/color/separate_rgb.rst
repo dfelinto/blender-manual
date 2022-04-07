@@ -8,8 +8,6 @@ Separate RGB Node
    :align: right
    :alt: Separate RGB Node.
 
-   Separate RGB Node.
-
 The *Separate RGB Node* splits an image into its composite color channels.
 
 
