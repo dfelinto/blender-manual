@@ -8,8 +8,6 @@ Chroma Key Node
    :align: right
    :alt: Chroma Key Node.
 
-   Chroma Key Node.
-
 The *Chroma Key* node determines if a pixel is a foreground or background
 (and thereby should be transparent) based on its chroma values.
 

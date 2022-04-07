@@ -12,8 +12,6 @@ RGB Curves Node
    :align: right
    :alt: RGB Curves Node.
 
-   RGB Curves Node.
-
 The *RGB Curves Node* allows color corrections for each color channel
 and levels adjustments in the compositing context.
 

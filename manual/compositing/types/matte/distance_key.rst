@@ -8,8 +8,6 @@ Distance Key Node
    :align: right
    :alt: Distance Key Node.
 
-   Distance Key Node.
-
 The Distance Key node determines a pixel's alpha value based on the three-dimensional
 distance between the image pixel color and the key color in a 3D color space.
 

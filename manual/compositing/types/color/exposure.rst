@@ -8,8 +8,6 @@ Exposure Node
    :align: right
    :alt: Exposure Node.
 
-   Exposure Node.
-
 The Exposure Node adjusts the perceived brightness of an image by a scalar value.
 This node allows you to make areas of an image brighter or dimmer.
 

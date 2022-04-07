@@ -7,8 +7,6 @@ Color Correction Node
 .. figure:: /images/compositing_node-types_CompositorNodeColorCorrection.webp
    :alt: Color Balance Node.
 
-   Color Correction Node.
-
 The Color Correction node can adjust the color of an image, separately in several tonal ranges
 (highlights, midtones and shadows) and only affect the necessary RGB channels.
 

@@ -8,8 +8,6 @@ Color Space Node
    :align: right
    :alt: Color Space Node.
 
-   Color Space Node.
-
 The *Color Space Node* converts images from one :term:`color spaces <Color Space>`.
 
 .. note::

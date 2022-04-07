@@ -8,8 +8,6 @@ Color Key Node
    :align: right
    :alt: Color Key node.
 
-   Color Key node.
-
 The Color Key node creates a matte based on a specified color of the input image.
 
 

@@ -10,7 +10,6 @@ with an input curve.
 .. figure:: /images/compositing_node-types_CompositorNodeHueCorrect.webp
    :alt: Hue Correct Node.
 
-   Hue Correct Node.
 
 Inputs
 ======

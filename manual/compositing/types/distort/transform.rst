@@ -8,8 +8,6 @@ Transform Node
    :align: right
    :alt: Transform Node.
 
-   Transform Node.
-
 This node combines the functionality of three other nodes: :doc:`Scale </compositing/types/distort/scale>`,
 :doc:`translate </compositing/types/distort/translate>`,
 and :doc:`rotate </compositing/types/distort/rotate>` nodes.

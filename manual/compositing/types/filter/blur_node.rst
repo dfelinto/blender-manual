@@ -8,8 +8,6 @@ Blur Node
    :align: right
    :alt: Blur Node.
 
-   Blur Node.
-
 The Blur node blurs an image, providing several blur modes.
 
 

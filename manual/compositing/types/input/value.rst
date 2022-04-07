@@ -13,8 +13,6 @@ Value Node
    :align: right
    :alt: Value Node.
 
-   Value Node.
-
 The *Value Node* is a simple node to input numerical values to other nodes in the tree.
 
 

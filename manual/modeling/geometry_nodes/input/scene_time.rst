@@ -11,8 +11,6 @@ Scene Time Node
    :align: right
    :alt: Scene Time node.
 
-   Scene Time node.
-
 The *Scene Time* node outputs the current time in the scene's animation in units of seconds or frames.
 
 

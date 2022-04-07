@@ -8,8 +8,6 @@ Box Mask Node
    :align: right
    :alt: Box Mask Node.
 
-   Box Mask Node.
-
 The *Box Mask* node creates an image suitable for use as a simple matte.
 
 

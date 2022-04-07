@@ -8,8 +8,6 @@ Scale Node
    :align: right
    :alt: Scale Node.
 
-   Scale Node.
-
 This node scales the size of an image.
 
 

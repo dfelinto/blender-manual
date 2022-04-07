@@ -8,8 +8,6 @@ Keying Node
    :align: right
    :alt: Keying Node.
 
-   Keying Node.
-
 The *Keying* node is a one-stop-shop for "green screen" / "blue screen" removal.
 It performs both chroma keying to remove the backdrop and despill to correct color cast from the backdrop.
 Additionally, you can perform common operations used to tweak the resulting matte.

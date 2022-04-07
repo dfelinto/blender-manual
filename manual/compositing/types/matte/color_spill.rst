@@ -8,8 +8,6 @@ Color Spill Node
    :align: right
    :alt: Color Spill Node.
 
-   Color Spill Node.
-
 The *Color Spill* node reduces one of the RGB channels so that it is not greater
 than any of the others.
 

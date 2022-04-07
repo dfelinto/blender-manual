@@ -10,8 +10,6 @@ Time Curve Node
    :align: right
    :alt: Time Curve Node.
 
-   Time Curve Node.
-
 The *Time Curve node* generates a factor value (from 0.0 to 1.0)
 that changes according to the curve as time progresses through the *Timeline*.
 

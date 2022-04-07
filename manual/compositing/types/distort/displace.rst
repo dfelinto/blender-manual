@@ -8,8 +8,6 @@ Displace Node
    :align: right
    :alt: Displace Node.
 
-   Displace Node.
-
 The *Displace Node* displaces the pixel position based on an input vector.
 
 This node could be used to model phenomena, like hot air distortion,

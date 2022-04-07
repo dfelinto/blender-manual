@@ -8,8 +8,6 @@ Glare Node
    :align: right
    :alt: Glare Node.
 
-   Glare Node.
-
 The *Glare node* is used to add lens flares, fog,
 glows around exposed parts of an image and much more.
 

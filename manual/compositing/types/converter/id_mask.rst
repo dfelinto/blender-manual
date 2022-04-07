@@ -8,8 +8,6 @@ ID Mask Node
    :align: right
    :alt: ID Mask Node.
 
-   ID Mask Node.
-
 The *ID Mask Node* can be used to access an alpha mask per object or per material.
 
 

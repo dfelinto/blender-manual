@@ -8,8 +8,6 @@ Dilate/Erode Node
    :align: right
    :alt: Dilate/Erode Node.
 
-   Dilate/Erode Node.
-
 The *Dilate/Erode node* provides a morphology (mathematical shape analysis) filter.
 
 

@@ -8,8 +8,6 @@ Bilateral Blur Node
    :align: right
    :alt: Bilateral Blur Node.
 
-   Bilateral Blur Node.
-
 The Bilateral Blur node performs a high-quality adaptive blur on the source image,
 allowing to blur images while retaining their sharp edges.
 

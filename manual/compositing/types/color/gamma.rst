@@ -12,8 +12,6 @@ Gamma Node
    :align: right
    :alt: Gamma Node.
 
-   Gamma Node.
-
 Use this node to apply a gamma correction.
 
 

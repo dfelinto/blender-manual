@@ -8,8 +8,6 @@ Switch Node
    :align: right
    :alt: Switch Node.
 
-   Switch Node.
-
 Switch between two images using a checkbox.
 
 

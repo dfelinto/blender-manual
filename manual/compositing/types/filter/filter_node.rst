@@ -8,8 +8,6 @@ Filter Node
    :align: right
    :alt: Filter Node.
 
-   Filter Node.
-
 The Filter node implements various common image enhancement filters.
 
 

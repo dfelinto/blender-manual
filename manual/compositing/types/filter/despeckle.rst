@@ -8,8 +8,6 @@ Despeckle Node
    :align: right
    :alt: Despeckle Node.
 
-   Despeckle Node.
-
 The *Despeckle node* is used to smooth areas of an image in which noise is noticeable,
 while leaving complex areas untouched.
 

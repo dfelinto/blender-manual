@@ -8,8 +8,6 @@ Lens Distortion Node
    :align: right
    :alt: Lens Distortion Node.
 
-   Lens Distortion Node.
-
 Use this node to simulate distortions that real camera lenses produce.
 
 

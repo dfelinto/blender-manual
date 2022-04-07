@@ -9,8 +9,6 @@ Defocus Node
    :align: right
    :alt: Defocus Node.
 
-   Defocus Node.
-
 The *Defocus Node* blurs areas of an image based on a map/mask input.
 
 It is typically used to emulate depth of field (:term:`DOF`) using a post-processing method with a Z-buffer input.

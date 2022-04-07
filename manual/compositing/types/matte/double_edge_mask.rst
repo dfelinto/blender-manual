@@ -8,8 +8,6 @@ Double Edge Mask Node
    :align: right
    :alt: Double Edge Mask Node.
 
-   Double Edge Mask Node.
-
 The *Double Edge Mask* node creates a gradient between two masks.
 
 

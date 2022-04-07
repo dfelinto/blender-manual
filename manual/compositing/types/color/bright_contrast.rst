@@ -12,7 +12,6 @@ Bright/Contrast Node
    :align: right
    :alt: Brightness/Contrast Node.
 
-   Brightness/Contrast Node.
 
 Inputs
 ======

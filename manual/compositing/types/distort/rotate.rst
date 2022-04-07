@@ -8,8 +8,6 @@ Rotate Node
    :align: right
    :alt: Rotate Node.
 
-   Rotate Node.
-
 This node rotates an image.
 
 

@@ -8,8 +8,6 @@ Alpha Convert Node
    :align: right
    :alt: Alpha Convert Node.
 
-   Alpha Convert Node.
-
 The *Alpha Convert Node* converts the alpha channel interpretation of an image.
 
 For compositing and rendering, :term:`Premultiplied Alpha` is the standard in Blender.

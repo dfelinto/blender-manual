@@ -8,8 +8,6 @@ Crop Node
    :align: right
    :alt: Crop Node.
 
-   Crop Node.
-
 The Crop node crops an input image to a selected region
 by either making the cropped area transparent or by resizing the input image.
 

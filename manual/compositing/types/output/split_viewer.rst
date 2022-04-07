@@ -8,8 +8,6 @@ Split Viewer Node
    :align: right
    :alt: Split Viewer Node.
 
-   Split Viewer Node.
-
 The *Split Viewer* node takes two images and displays these side-by-side
 as backdrop or as a Viewer Node output.
 
