@@ -183,6 +183,12 @@ Batch Rename
 
 Lock Object Modes
    Restrict select to the current mode.
+
+   .. note::
+
+      This is useful to enable while animating in pose-mode
+      where failure to select a bone could select background scenery, exiting pose-mode.
+
 Preferences
    Open the Preferences window.
 
