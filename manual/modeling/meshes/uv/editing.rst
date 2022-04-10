@@ -304,7 +304,7 @@ Stitch
    :Editor:    UV Editor
    :Mode:      Edit Mode
    :Menu:      :menuselection:`UV --> Stitch`
-   :Shortcut:  :kbd:`V`
+   :Shortcut:  :kbd:`Alt-V`
 
 The *Stitch* tool, will join selected UVs that share vertices.
 You set the tool to limit stitching by distance in the :ref:`bpy.ops.screen.redo_last` panel,
