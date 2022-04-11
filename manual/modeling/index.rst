@@ -1,4 +1,4 @@
-.. _modeling-index:
+.. _bpy.ops.geometry:
 
 ############
   Modeling

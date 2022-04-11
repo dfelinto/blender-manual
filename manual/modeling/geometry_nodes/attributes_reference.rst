@@ -2,6 +2,8 @@
 
 .. _bpy.ops.object.attribute_add:
 .. _bpy.ops.object.attribute_remove:
+.. _bpy.ops.geometry.attribute_add:
+.. _bpy.ops.geometry.attribute_remove:
 
 **********
 Attributes
