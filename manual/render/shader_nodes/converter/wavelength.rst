@@ -8,8 +8,6 @@ Wavelength Node
    :align: right
    :alt: Wavelength Node.
 
-   Wavelength Node.
-
 The *Wavelength* node converts a wavelength value to an RGB value.
 This can be used to achieve a specific color on the light spectrum.
 

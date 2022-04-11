@@ -8,8 +8,6 @@ Principled Hair BSDF
    :align: right
    :alt: Principled Hair BSDF node under Melanin concentration.
 
-   Principled Hair BSDF node under Melanin concentration.
-
 :guilabel:`Cycles Only`
 
 The *Principled Hair* :abbr:`BSDF (Bidirectional Scattering Distribution Function)` is a physically-based,

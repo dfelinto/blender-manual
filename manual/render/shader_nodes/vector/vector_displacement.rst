@@ -8,8 +8,6 @@ Vector Displacement Node
    :align: right
    :alt: Vector Displacement Node.
 
-   Vector Displacement Node.
-
 The *Vector Displacement* node is used to displace the surface along arbitrary directions,
 unlike the regular Displacement node which only displaces along the surface normal.
 

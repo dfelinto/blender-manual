@@ -8,8 +8,6 @@ Gradient Texture Node
    :align: right
    :alt: Gradient Texture Node.
 
-   Gradient Texture Node.
-
 The *Gradient Texture* node generates interpolated color and intensity values based on the input vector.
 
 

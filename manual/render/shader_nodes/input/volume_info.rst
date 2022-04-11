@@ -8,8 +8,6 @@ Volume Info Node
    :align: right
    :alt: Volume Info Node.
 
-   Volume Info Node.
-
 The *Volume Info* node provides information about *Smoke Domains*.
 
 

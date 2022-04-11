@@ -8,8 +8,6 @@ AOV Output Node
    :align: right
    :alt: AOV Output Node.
 
-   AOV Output Node.
-
 Shader AOVs (Arbitrary Output Variables) provide custom render passes for arbitrary shader node components.
 As an artist this can be a good way to debug or tweak very fine details of a scene in post-processing.
 To use shader AOVs create the pass in the :ref:`Shader AOV <bpy.types.AOV>` panel

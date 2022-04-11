@@ -9,8 +9,6 @@ The *Mapping* node transforms the input vector by applying translation, rotation
 .. figure:: /images/node-types_ShaderNodeMapping.webp
    :alt: Mapping node.
 
-   Mapping node.
-
 
 Inputs
 ======

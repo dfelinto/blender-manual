@@ -8,8 +8,6 @@ Add Shader
    :align: right
    :alt: Add Shader node.
 
-   Add Shader node.
-
 The *Add* node is used to add two *Shaders* together.
 
 .. (TODO) explain the difference Add vs Mix shaders (it's not obvious)

@@ -8,8 +8,6 @@ Geometry Node
    :align: right
    :alt: Geometry Node.
 
-   Geometry Node.
-
 The *Geometry* node gives geometric information about the current shading point.
 All vector coordinates are in *World Space*. For volume shaders,
 only the position and incoming vector are available.

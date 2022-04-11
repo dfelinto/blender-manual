@@ -8,8 +8,6 @@ Background
    :align: right
    :alt: Background Shader node.
 
-   Background Shader node.
-
 The *Background* shader node is used to add background light emission.
 This node should only be used for the world surface output.
 

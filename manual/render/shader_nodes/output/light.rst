@@ -8,8 +8,6 @@ Light Node
    :align: right
    :alt: Light Node.
 
-   Light Node.
-
 The *Light Output* node is used to output light information to a light object.
 
 

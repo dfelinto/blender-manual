@@ -8,8 +8,6 @@ Velvet BSDF
    :align: right
    :alt: Velvet BSDF node.
 
-   Velvet BSDF node.
-
 :guilabel:`Cycles Only`
 
 The *Velvet* :abbr:`BSDF (Bidirectional Scattering Distribution Function)`

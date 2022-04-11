@@ -8,8 +8,6 @@ Brick Texture Node
    :align: right
    :alt: Brick Texture node.
 
-   Brick Texture node.
-
 The *Brick Texture* is used to add a procedural texture producing bricks.
 
 

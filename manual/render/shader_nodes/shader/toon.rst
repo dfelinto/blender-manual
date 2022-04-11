@@ -8,8 +8,6 @@ Toon BSDF
    :align: right
    :alt: Toon BSDF node.
 
-   Toon BSDF node.
-
 :guilabel:`Cycles Only`
 
 The *Toon* :abbr:`BSDF (Bidirectional Scattering Distribution Function)`

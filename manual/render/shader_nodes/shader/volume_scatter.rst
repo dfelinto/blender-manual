@@ -8,8 +8,6 @@ Volume Scatter
    :align: right
    :alt: Volume Scatter node.
 
-   Volume Scatter node.
-
 The *Volume Scatter* node allows light to be scattered as it passes through the volume.
 Typical usage would be to add fog to a scene. It can also be used with
 the :doc:`Volume Absorption </render/shader_nodes/shader/volume_absorption>`

@@ -8,8 +8,6 @@ Ambient Occlusion
    :align: right
    :alt: Ambient Occlusion node.
 
-   Ambient Occlusion node.
-
 The *Ambient Occlusion* shader computes how much the hemisphere above the shading point is occluded.
 This can be used for procedural texturing, for example to add weathering effects to corners only.
 
