@@ -240,3 +240,17 @@ Receive Shadow Caustics
      - .. figure:: /images/render_cycles_object-settings_caustics-example2.png
 
           Rendering caustics inside an eye using MNEE at 32 samples per pixel.
+
+
+Light Group
+-----------
+
+.. _bpy.types.Object.lightgroup:
+Light Group
+   Select the :ref:`Light Group <bpy.types.ViewLayer.active_lightgroup_index>` to add the
+   current *Object* or *Light* too.
+
+   Add Light Group
+      If the name input into the *Light Group* field does not align with an existing
+      Light Group, then pressing this button will create a *Light Group* with that name
+      and assign the selected *Object* or *Light* to it.  

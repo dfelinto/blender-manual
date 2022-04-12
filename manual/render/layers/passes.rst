@@ -261,6 +261,23 @@ Data Type
    A *Value* type can be used for any single numerical value.
 
 
+Light Groups
+============
+
+:guilabel:`Cycles only`
+
+Light Groups provide render passes that only contains information from the lights within that group.
+Light Groups can be used to easily tweak the lighting color and intensity of specific lights without
+having to re-render the scene.
+
+.. _bpy.types.ViewLayer.active_lightgroup_index:
+
+Active Light Group Index
+   The name of the render pass. This is the name that is used when adding 
+   :ref:`World Shaders <bpy.types.World.lightgroup>`, :ref:`Lights and Objects <bpy.types.Object.lightgroup>`
+   to *Light Groups*.
+
+
 Combining
 =========
 
