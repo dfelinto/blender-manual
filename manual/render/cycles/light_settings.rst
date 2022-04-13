@@ -74,4 +74,13 @@ Portals
 Beam Shape
 ----------
 
-Todo.
+.. _bpy.types.AreaLight.spread:
+
+Spread
+   How wide the emitted light fans out controlling how diffused the light is.
+   Larger values create soft shadows while smaller values create sharper light
+   simulating a `gridded softbox <https://en.wikipedia.org/wiki/Softbox>`__.
+
+   .. figure:: /images/render_lights_light-object-area-spread.png
+
+      Example of Spread at different angles.
