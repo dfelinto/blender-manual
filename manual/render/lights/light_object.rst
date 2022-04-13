@@ -75,8 +75,8 @@ Radius
    Lights with larger size have softer shadows and specular highlights.
 
 
-Beam Shape
-----------
+Beam/Spot Shape
+---------------
 
 .. figure:: /images/render_lights_light-object_terms.png
    :width: 610px
