@@ -60,9 +60,16 @@ Remove from Local View
 
    :Mode:      All modes
    :Menu:      :menuselection:`View --> Local View --> Remove from Local View`
-   :Shortcut:  :kbd:`M`
+   :Shortcut:  :kbd:`Alt-NumpadSlash`, :kbd:`Alt-Slash`
 
 Objects can be removed from Local View by selecting them and using the *Remove from Local View* operator.
 This will move the selected object back to global view and all other objects will remain in local view.
 If the last remaining object is removed,
 the local view will be left empty and you will have to exit local view to see any objects.
+
+.. hint::
+
+   This is useful when working with objects in dense scenes where painstakingly selecting objects to include in
+   the local view isn't practical, especially when they intersect or are obscured by objects you don't want to include.
+   In this case it's simpler to select many objects in a region and enter local view,
+   then subtract objects from local view once they're visible.
