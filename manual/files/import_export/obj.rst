@@ -91,7 +91,7 @@ Object Groups
       Note that as far as Blender is concerned there is no difference between OBJ Groups and Objects,
       this option is only included for applications that treat them differently.
 Material Groups
-   Create OBJ groups per material.
+   Generate an OBJ group for each part of a geometry using a different material.
 Vertex Groups
    Export the name of the vertex group of a face.
    It is approximated by choosing the vertex group with the most members among the vertices of a face.
