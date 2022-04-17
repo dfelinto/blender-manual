@@ -192,13 +192,13 @@ Caustics
 Mark objects as caustic casters or receivers. This is used in conjunction with a
 :ref:`Light <bpy.types.CyclesLightSettings.is_caustics_light>` or
 :ref:`World Shader <bpy.types.CyclesWorldSettings.is_caustics_light>` with *Shadow Caustics* enabled
-to selectively speed up caustic rendering of objects in your scene. 
+to selectively speed up caustic rendering of objects in your scene.
 
-.. note:: 
+.. note::
 
    The rendering technique used to speed up the rendering of caustics is based on
    :abbr:`MNEE (Manifold Next Event Estimation)`. There are a number of limitations with this technique
-   and it's implementation in Cycles:   
+   and it's implementation in Cycles:
 
    - Only refractive caustics in the shadows of objects work. Caustics from reflections or caustics that
      fall outside shadows are not rendered with this technique.
@@ -246,6 +246,7 @@ Light Group
 -----------
 
 .. _bpy.types.Object.lightgroup:
+
 Light Group
    Select the :ref:`Light Group <bpy.types.ViewLayer.active_lightgroup_index>` to add the
    current *Object* or *Light* too.
@@ -253,4 +254,4 @@ Light Group
    Add Light Group
       If the name input into the *Light Group* field does not align with an existing
       Light Group, then pressing this button will create a *Light Group* with that name
-      and assign the selected *Object* or *Light* to it.  
+      and assign the selected *Object* or *Light* to it.
