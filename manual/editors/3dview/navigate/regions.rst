@@ -99,4 +99,4 @@ This can be very useful for reducing render times for quick previews on an area 
 
 .. seealso::
 
-   :ref:`3dview-nav-zoom-region`.
+   :ref:`bpy.ops.view3d.zoom_border`.

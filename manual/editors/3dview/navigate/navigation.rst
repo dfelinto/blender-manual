@@ -33,6 +33,8 @@ Finally :kbd:`Numpad9` switches to the opposite side of the view.
    - :ref:`Auto-Perspective Preference <prefs-navigation-auto_perspective>`
 
 
+.. _bpy.ops.view3d.view_roll:
+
 Roll
 ====
 
@@ -65,7 +67,6 @@ For discrete steps, use the hotkeys :kbd:`Ctrl-Numpad8`, :kbd:`Ctrl-Numpad2`,
 
 
 .. _bpy.ops.view3d.zoom:
-.. _editors_3dview_navigation_zoom:
 
 Zoom In/Out
 ===========
@@ -84,11 +85,11 @@ If you have a wheel mouse, you can also zoom using :kbd:`Wheel`.
 .. hint:: If You Get Lost
 
    If you get lost in 3D space (which is not uncommon)
-   :ref:`3dview-nav-frame_all` and :ref:`3dview-nav-frame_selected`
+   :ref:`bpy.ops.view3d.view_all` and :ref:`bpy.ops.view3d.view_selected`
    can be used to show the contents of your scene.
 
 
-.. _3dview-nav-zoom-region:
+.. _bpy.ops.view3d.zoom_border:
 
 Zoom Region
 ===========
@@ -108,7 +109,7 @@ then :kbd:`LMB` click and drag a rectangle to zoom into.
 Alternatively you can zoom out using the :kbd:`MMB`.
 
 
-.. _3dview-nav-zoom-dolly:
+.. _bpy.ops.view3d.dolly:
 
 Dolly View
 ==========
@@ -133,7 +134,7 @@ You can dolly back and forth by holding down :kbd:`Shift-Ctrl` and dragging with
    however there doesn't seem to be an ideal location as only items in the View sub-menus have their own files.
    Loosely speaking these are navigation - so keep here.
 
-.. _3dview-nav-frame_all:
+.. _bpy.ops.view3d.view_all:
 
 Frame All
 =========
@@ -147,7 +148,7 @@ Frame All
 Moves the viewpoint so that you can see all objects.
 
 
-.. _3dview-nav-frame_selected:
+.. _bpy.ops.view3d.view_selected:
 
 Frame Selected
 ==============

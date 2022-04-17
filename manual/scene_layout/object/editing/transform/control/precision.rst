@@ -80,7 +80,7 @@ Move
 
 Snapping while moving objects changes the object location in 1 unit increments.
 While in an :doc:`aligned view </editors/3dview/navigate/align>`,
-The increment amount is changed based on the :ref:`zoom level <editors_3dview_navigation_zoom>`.
+The increment amount is changed based on the :ref:`zoom level <bpy.ops.view3d.zoom>`.
 For example, at a base zoom level objects are moved in increments of 1 unit (i.e. between the two light gray lines).
 Zooming in enough to see the next set of gray lines will snap in increments of 1/10 of a unit.
 Zooming in further until will snap in increments of 1/100 of a unit and so on until the zoom limit is reached.

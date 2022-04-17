@@ -124,11 +124,11 @@ However, this makes it awkward to explore a scene or model an object from the 'i
 Solutions
 ^^^^^^^^^
 
-- Use :ref:`View Dolly <3dview-nav-zoom-dolly>`.
+- Use :ref:`View Dolly <bpy.ops.view3d.dolly>`.
 - Use :ref:`Walk/Fly Navigation <3dview-fly-walk>`.
 - Use :ref:`Auto Depth <prefs-navigation-auto_depth>` and :ref:`Zoom to Mouse Position <prefs-zoom-mouse-pos>`.
   These tools will make sure the distance is always the value under the mouse cursor,
-- Use :ref:`3dview-nav-zoom-region` as it also resets the center point when zooming.
+- Use :ref:`bpy.ops.view3d.zoom_border` as it also resets the center point when zooming.
 - Center the view around the mouse cursor :kbd:`Alt-MMB`.
   This will take the position under the cursor and make it your viewpoint center.
 - Use an :abbr:`NDOF (N-Degrees of Freedom)`, also known as a 3D mouse,
