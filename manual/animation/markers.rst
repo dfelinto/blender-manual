@@ -186,8 +186,6 @@ To delete the selected markers simply press :kbd:`X`,
 and confirm the pop-up message with :kbd:`LMB`.
 
 
-.. _bpy.ops.marker.rename:
-
 Rename Marker
 -------------
 
@@ -195,11 +193,11 @@ Rename Marker
 
    :Mode:      All modes
    :Menu:      :menuselection:`Marker --> Rename Marker`
-   :Shortcut:  :kbd:`Ctrl-M`
+   :Shortcut:  :kbd:`F2`
 
 Having dozens of markers scattered throughout your scene's time will not help you much unless you
-know what they stand for. You can name a marker by selecting it, pressing :kbd:`Ctrl-M`,
-typing the name, and pressing the OK button.
+know what they stand for. You can name a marker by selecting it, pressing :kbd:`F2`,
+typing the name, and press :kbd:`Enter`
 
 
 .. _bpy.ops.marker.move:
