@@ -138,8 +138,8 @@ Include
 
    .. _bpy.types.ViewLayer.use_strand:
 
-   Hair
-      Disables rendering hair strands in the final render.
+   Curves
+      Disables rendering curve strands in the final render.
 
    .. _bpy.types.ViewLayer.use_volumes:
 

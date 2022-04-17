@@ -116,7 +116,7 @@ Ambient Occlusion
    The sample count is not used.
 
 Camera Data
-   Everything is compatible.
+   EveHair Inforything is compatible.
 
 Geometry
    Pointiness is not supported.
@@ -134,7 +134,7 @@ Bevel
 Fresnel
    Everything is compatible.
 
-Hair Info
+Curves Info
    The Random output uses a different :abbr:`RNG (Random Number Generator)` algorithm.
    Range and statistical distribution of the values should be the same but the values will be different.
 

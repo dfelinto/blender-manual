@@ -1,14 +1,14 @@
 .. _bpy.types.ShaderNodeHairInfo:
 
-**************
-Hair Info Node
-**************
+****************
+Curves Info Node
+****************
 
 .. figure:: /images/node-types_ShaderNodeHairInfo.webp
    :align: right
-   :alt: Hair Info Node.
+   :alt: Curves Info Node.
 
-The *Hair Info* node gives access to :doc:`Hair </physics/particles/hair/index>` information.
+The *Curves Info* node gives access to :doc:`Hair </physics/particles/hair/index>` information.
 
 
 Inputs
@@ -38,5 +38,5 @@ Thickness
 Tangent Normal
    Tangent normal of the strand.
 Random
-   A random per-hair value in the range from 0 to 1.
-   It can for example be used in combination with a color ramp, to randomize the hair color.
+   A random per-curve value in the range from 0 to 1.
+   It can for example be used in combination with a color ramp, to randomize the curve's color.

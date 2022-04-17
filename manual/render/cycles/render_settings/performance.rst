@@ -62,10 +62,10 @@ Use Spatial Splits
 
 .. _bpy.types.CyclesRenderSettings.debug_use_hair_bvh:
 
-Use Hair BVH
-   Use a special type of :term:`BVH` for rendering hair.
-   The bounding boxes are not axis aligned allowing a spatially closer fit to the hair geometry.
-   Disabling this option will reduce memory, at the cost of increasing hair render time.
+Use Curves BVH
+   Use a special type of :term:`BVH` for rendering curves.
+   The bounding boxes are not axis aligned allowing a spatially closer fit to the curve geometry.
+   Disabling this option will reduce memory, at the cost of increasing curve render time.
 
 .. _bpy.types.CyclesRenderSettings.debug_bvh_time_steps:
 
