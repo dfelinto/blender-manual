@@ -53,7 +53,7 @@ Frames
    Maximum number of frames that the build effect can run for.
    (Unless another Grease Pencil keyframe occurs before this time has elapsed.)
 
-Use Factor
+Factor
    Use a defined percentage factor to control the amount of the stroke that is visible.
 
 
