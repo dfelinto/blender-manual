@@ -7,7 +7,7 @@ The ability to include Python scripts within blend-files is valuable for advance
 such as rigging and automation. However, it poses a security risk since
 Python does not restrict what a script can do.
 Therefore, you should only run scripts from sources you know and trust.
-Automatic execution is disabled by default,
+Automatic execution is disabled by default;
 however, some blend-files need this to function properly.
 
 When a blend-file tries to execute a script and is not allowed, a dialog will appear.
@@ -49,11 +49,11 @@ Controlling Script Execution
 Blender provides a number of ways to control whether scripts
 from a blend-file are allowed to automatically execute.
 
-First of all, the File Browser has the option **Trusted Source** which you can use on
+First, the File Browser has the option **Trusted Source** which you can use on
 a case-by-case basis to control auto execution.
-However, you may forget to set this,
-or open a file without going through the File Browser --
-so you can change the default (described next).
+Since you may forget to set this,
+or may open a file without going through the File Browser,
+you can change the default (described next).
 
 
 Setting Defaults
@@ -62,7 +62,7 @@ Setting Defaults
 In the Preferences, there is the toggle to :ref:`Auto Run Python Scripts <prefs-auto-execution>`.
 This means the **Trusted Source** option in the File Browser will be enabled by default,
 and scripts can run when blend-files are loaded without using the File Browser.
-Once enabled you have the option to exclude certain directories,
+Once enabled you have the option to exclude certain directories;
 a typical configuration would be to trust all paths except for the download directory.
 
 .. figure:: /images/animation_drivers_troubleshooting_autorun-user-preference.png
@@ -73,7 +73,7 @@ a typical configuration would be to trust all paths except for the download dire
 Command Line
 ------------
 
-You may want to perform batch rendering or some other task from the command line --
+You may want to perform batch rendering or some other task from the command line,
 running Blender without an interface.
 In this case, the Preferences are still used but you may want to override them:
 
@@ -84,7 +84,7 @@ In this case, the Preferences are still used but you may want to override them:
 Example
 ^^^^^^^
 
-Rendering an animation in background mode, allowing drivers and other scripts to run:
+To render an animation in background mode, allowing drivers and other scripts to run:
 
 .. code-block:: sh
 

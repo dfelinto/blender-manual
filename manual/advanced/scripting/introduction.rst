@@ -69,7 +69,7 @@ Extending Blender
 Add-ons
 -------
 
-Add-ons are scripts that enable Blender to gain extra functionality,
+Add-ons are scripts that enable Blender to gain extra functionality;
 they can be enabled from the :doc:`Preferences </editors/preferences/addons>`.
 
 Outside of the Blender executable, there are hundreds of add-ons written by many people:
@@ -97,7 +97,7 @@ Apart from add-ons, there are several other types of scripts that extend Blender
    These files are imported when starting Blender.
    They define most of Blender's UI, as well as some additional core operators.
 :Custom Scripts:
-   In contrast to add-ons they are typically intended for one-time execution via
+   In contrast to add-ons, they are typically intended for one-time execution via
    the :doc:`Text Editor </editors/text_editor>`.
 
 
