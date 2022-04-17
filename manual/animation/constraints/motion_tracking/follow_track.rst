@@ -37,7 +37,7 @@ Depth Object
    of this depth object which can be used to create facial makeup visual effects.
 
 Constraint to F-Curve
-   Creates F-curves for the object that copies the movement caused by the constraint.
+   Creates F-Curves for the object that copies the movement caused by the constraint.
 
 Influence
    Controls the percentage of affect the constraint has on the object.

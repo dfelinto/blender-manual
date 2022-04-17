@@ -14,8 +14,8 @@ The Graph Editor allows users to adjust animation curves over time for any anima
 Main Region
 ===========
 
-The curve view allows you to view and edit F-curves.
-An F-curve has several key parts:
+The curve view allows you to view and edit F-Curves.
+An F-Curve has several key parts:
 
 Curve
    The curve defines the value (Y axis) of the property over time (X axis).
@@ -114,7 +114,7 @@ Show Markers
    and markers operators are not available in this editor.
 
 Use High Quality Display
-   Display F-curves using :term:`Anti-Aliasing` and other effects (disable for a better performance).
+   Display F-Curves using :term:`Anti-Aliasing` and other effects (disable for a better performance).
 
 .. _bpy.types.SpaceGraphEditor.show_extrapolation:
 
@@ -243,7 +243,7 @@ Pivot Point
    Individual Centers
       Rotate the selected keyframe *Bézier* handles.
 
-Create Ghost Curves (framed F-curve icon)
+Create Ghost Curves (framed F-Curve icon)
    Creates a picture with the current shape of the curves.
 
 

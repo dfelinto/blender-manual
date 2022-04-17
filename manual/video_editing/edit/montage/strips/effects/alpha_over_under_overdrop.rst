@@ -71,5 +71,5 @@ but puts preference to the top or second image,
 giving more of a gradual overlay effect than a blend like the Cross does. Of course,
 all of the Alpha effects respect the alpha (transparency) channel, whereas Cross does not.
 
-The degree of Alpha applied, and thus color mixing, can be controlled by an F-curve.
+The degree of Alpha applied, and thus color mixing, can be controlled by an F-Curve.
 Creating a Sine wave could have the effect of the foreground fading in and out.

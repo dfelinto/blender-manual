@@ -15,7 +15,7 @@ The copy is created at the same position as the original object and
 you are automatically placed in move mode. See the examples below.
 
 This copy is a new object, which shares data-blocks with the original object
-(by default, all the materials, textures, and F-curves), but which has copied others,
+(by default, all the materials, textures, and F-Curves), but which has copied others,
 like the mesh, for example. That is why this form of duplication is sometimes called "shallow link",
 because not all data-blocks are shared; some of them are "hard copied"!
 

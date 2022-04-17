@@ -14,8 +14,8 @@ See :doc:`Drivers </animation/drivers/index>` and :doc:`F-Curves </editors/graph
 Main Region
 ===========
 
-The main view allows you to view and edit Driver F-curves.
-An F-curve has several key parts:
+The main view allows you to view and edit Driver F-Curves.
+An F-Curve has several key parts:
 
 Axes
    The curve defines the relationship between two properties:

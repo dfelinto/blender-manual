@@ -9,7 +9,7 @@ Goal
    :Panel:     :menuselection:`Physics --> Soft Body --> Goal`
 
 Enabling this tells Blender to use the motion from animations
-(F-curves, armatures, parents, lattices, etc.) in the simulation.
+(F-Curves, armatures, parents, lattices, etc.) in the simulation.
 The "goal" is the desired end position for vertices based on this animation.
 
 See :ref:`exterior forces <physics-softbody-forces-exterior-goal>` for details.

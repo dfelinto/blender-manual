@@ -22,7 +22,7 @@ if all objects have *X location* and *Y location* properties beneath them.
 
 .. figure:: /images/animation_actions_keyframes.png
 
-   Graph Editor. Each channel has an F-curve represented by the lines between the keyframes.
+   Graph Editor. Each channel has an F-Curve represented by the lines between the keyframes.
 
 Actions
    Record and contain animation data.
@@ -77,7 +77,7 @@ Bake Action
    :Menu:      :menuselection:`Object/Pose --> Animation --> Bake Action...`
 
 The final motion of objects or bones depends not only on the keyframed animation,
-but also on any active F-curve modifiers, drivers, and constraints.
+but also on any active F-Curve modifiers, drivers, and constraints.
 On each frame of all the scene's frames, the *Bake Action* tool computes
 the final animation of the selected objects or bones with all those
 modifiers, drivers, and constraints applied, and keyframes the result.

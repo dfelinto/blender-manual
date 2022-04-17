@@ -11,7 +11,7 @@ Transform
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Key --> Transform`
 
-An F-curve can be edited by transforming the locations of the keyframes.
+An F-Curve can be edited by transforming the locations of the keyframes.
 
 Move, Rotate, Scale
    Like other elements in Blender, keyframes can be
@@ -124,7 +124,7 @@ Insert Keyframes
    :Menu:      :menuselection:`Key --> Insert Keyframes`
    :Shortcut:  :kbd:`Ctrl-RMB`, :kbd:`Shift-Ctrl-RMB`
 
-Inserts a keyframe to the active F-curve at the mouse position.
+Inserts a keyframe to the active F-Curve at the mouse position.
 The newly added keyframes will be selected, making it easier to quickly tweak the newly added keyframes.
 All previously selected keyframes are kept selected by using :kbd:`Shift-Ctrl-RMB`.
 
@@ -137,7 +137,7 @@ Add F-Curve Modifier
    :Menu:      :menuselection:`Key --> Add F-Curve Modifier`
    :Shortcut:  :kbd:`Shift-Ctrl-M`
 
-Opens a pop-up allowing you to add modifiers to the active F-curve.
+Opens a pop-up allowing you to add modifiers to the active F-Curve.
 Settings for the :doc:`modifier </editors/graph_editor/fcurves/modifiers>` can be found in
 the :menuselection:`Sidebar --> Modifiers` tab.
 
@@ -305,7 +305,7 @@ Decimate
    :Menu:      :menuselection:`Key --> Decimate (Ratio)`
    :Menu:      :menuselection:`Key --> Decimate (Allowed Change)`
 
-The *Decimate* tool simplifies an F-curve by removing
+The *Decimate* tool simplifies an F-Curve by removing
 keyframes that influence the curve shape the least.
 
 Mode
@@ -315,7 +315,7 @@ Mode
       Deletes a defined percentage of keyframes,
       the amount of keyframes to delete is define by the *Remove* property.
    Error Margin
-      Deletes keyframes which only allowing the F-curve to change by a defined amount.
+      Deletes keyframes which only allowing the F-Curve to change by a defined amount.
       The amount of change is controlled by the *Max Error Margin*
       which controls how much the new decimated curve is allowed to deviate from the original.
 
@@ -392,12 +392,12 @@ Clean Channels
 
 Acts like the *Clean Keyframes* tool but will also delete the channel itself if it is only left with
 a single keyframe containing the default property value and
-it's not being used by any generative F-curve modifiers or drivers.
+it's not being used by any generative F-Curve modifiers or drivers.
 
 .. note::
 
    The modified curve left after the *Clean* tool is run is not the same as the original,
-   so this tool is better used before doing custom editing of F-curves and after initial keyframe insertion,
+   so this tool is better used before doing custom editing of F-Curves and after initial keyframe insertion,
    to get rid of any unwanted keyframes inserted while doing mass keyframe insertion
    (by selecting all bones and pressing :kbd:`I` for instance).
 

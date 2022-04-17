@@ -14,7 +14,7 @@ Active F-Curve
 
    Active F-Curve panel.
 
-This panel displays properties for the active F-curve.
+This panel displays properties for the active F-Curve.
 
 Channel Name
    ID Type + Channel name (X Location).
@@ -27,19 +27,19 @@ Data Path
 .. _bpy.types.FCurve.array_index:
 
 RNA Array Index
-   Index to the specific property affected by the F-curve if applicable.
+   Index to the specific property affected by the F-Curve if applicable.
 
 .. _bpy.types.FCurve.color_mode:
 
 Display Color
-   The method used to determine the color of the F-curve shown in the Graph editor.
+   The method used to determine the color of the F-Curve shown in the Graph editor.
 
    :Auto Rainbow:
-      Increment the hue of the F-curve color based on the channel index.
+      Increment the hue of the F-Curve color based on the channel index.
    :Auto XYZ to RGB:
       For property sets like location XYZ, automatically set the set of colors to red, green, blue.
    :User Defined:
-      Define a custom color for the active F-curve.
+      Define a custom color for the active F-Curve.
 
 .. _bpy.types.FCurve.auto_smoothing:
 
@@ -141,13 +141,13 @@ Interpolation
 
    .. note::
 
-      Remember that some F-curves can only take discrete values,
+      Remember that some F-Curves can only take discrete values,
       in which case they are always shown as if constant interpolated, whatever option you chose.
 
 
    .. rubric:: Easing (by strength)
 
-   Different methods of easing interpolations for F-curve segment.
+   Different methods of easing interpolations for F-Curve segment.
    The "Robert Penner easing equations" (basically, equations which define some preset ways that
    one keyframe transitions to another) which reduce the amount of manual work (inserting and tweaking keyframes)
    to achieve certain common effects. For example, snappy movements.
@@ -234,7 +234,7 @@ Left/Right Handle Type
    There are three automatic modes, *Automatic*, *Auto Clamped*, and *Vector*,
    where Blender automatically determines the curve's slope at each control point.
    The neighboring control points have the most influence of the slope,
-   and points further away have a smaller influence. This can be controlled per F-curve with
+   and points further away have a smaller influence. This can be controlled per F-Curve with
    the :ref:`Auto Handle Smoothing <bpy.types.FCurve.auto_smoothing>` properties.
 
    By using the other, non-automatic modes, you have full manual control over the slope.

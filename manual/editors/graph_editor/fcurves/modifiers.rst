@@ -14,7 +14,7 @@ F-Curve Modifiers
 
 F-Curve modifiers are similar to object modifiers, in that they add non-destructive effects,
 that can be adjusted at any time, and layered to create more complex effects.
-Like object modifiers, F-curve modifiers are evaluated from the top down.
+Like object modifiers, F-Curve modifiers are evaluated from the top down.
 In other words, the top modifier is calculated first and consequent modifiers are calculated in order.
 Modifiers can be moved by dragging the modifier box from the top right.
 
@@ -29,7 +29,7 @@ Adding a Modifier
 
    Modifiers panel.
 
-The F-curve modifier panel is located in the Sidebar region.
+The F-Curve modifier panel is located in the Sidebar region.
 Select a curve by selecting one of its curve points, or by selecting the channel list.
 Click on the *Add Modifier* menu to select a modifier.
 
@@ -68,7 +68,7 @@ Order
       for more information on polynomials.
 
 Influence
-   Controls the percentage of affect the modifier has on the F-curve.
+   Controls the percentage of affect the modifier has on the F-Curve.
 
 
 Restrict Frame Range
@@ -112,7 +112,7 @@ Value Offset
    Adjusts the Y offset.
 
 Influence
-   Controls the percentage of affect the modifier has on the F-curve.
+   Controls the percentage of affect the modifier has on the F-Curve.
 
 
 Restrict Frame Range
@@ -152,7 +152,7 @@ Point
       Specifies the upper control point's position.
 
 Influence
-   Controls the percentage of affect the modifier has on the F-curve.
+   Controls the percentage of affect the modifier has on the F-Curve.
 
 
 Restrict Frame Range
@@ -190,7 +190,7 @@ Count
    Set the number of times to cycle the data. A value of 0 cycles the data infinitely.
 
 Influence
-   Controls the percentage of affect the modifier has on the F-curve.
+   Controls the percentage of affect the modifier has on the F-Curve.
 
 
 Restrict Frame Range
@@ -244,7 +244,7 @@ Depth
    Adjusts how detailed the noise function is.
 
 Influence
-   Controls the percentage of affect the modifier has on the F-curve.
+   Controls the percentage of affect the modifier has on the F-Curve.
 
 
 Restrict Frame Range
@@ -270,7 +270,7 @@ Minimum X, Y
    Truncates the curve values to a range.
 
 Influence
-   Controls the percentage of affect the modifier has on the F-curve.
+   Controls the percentage of affect the modifier has on the F-Curve.
 
 
 Restrict Frame Range
@@ -301,7 +301,7 @@ End Frame
    Restrict modifier to only act after its "start" frame.
 
 Influence
-   Controls the percentage of affect the modifier has on the F-curve.
+   Controls the percentage of affect the modifier has on the F-Curve.
 
 
 Restrict Frame Range

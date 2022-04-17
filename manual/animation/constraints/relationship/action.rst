@@ -11,7 +11,7 @@ an :doc:`Action </editors/dope_sheet/action>` using the transformations of anoth
 
 The underlying idea of the *Action* constraint is very similar to the one behind
 the :doc:`Drivers </animation/drivers/index>`, except that the former uses a whole action
-(i.e. multiple F-curves of the same type), while the latter controls a single F-curve of their "owner"...
+(i.e. multiple F-Curves of the same type), while the latter controls a single F-Curve of their "owner"...
 
 Note that even if the constraint accepts the *Mesh* action type,
 only the *Object*, *Pose* and *Constraint* types are really working,

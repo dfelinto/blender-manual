@@ -85,7 +85,7 @@ Animation
 
 - :kbd:`I` -- Insert a keyframe.
 - :kbd:`Alt-I` -- Clear the keyframe.
-- :kbd:`Shift-Alt-I` -- Clear all keyframes (removing all F-curves).
+- :kbd:`Shift-Alt-I` -- Clear all keyframes (removing all F-Curves).
 - :kbd:`Ctrl-D` -- Assign a driver.
 - :kbd:`Ctrl-Alt-D` -- Clear the driver.
 - :kbd:`K` -- Add a Keying Set.

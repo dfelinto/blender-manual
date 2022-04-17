@@ -91,7 +91,7 @@ Pack
    * - :doc:`Action </animation/actions>`
      - |tick|
      - |none|
-     - | Stores animation F-curves.
+     - | Stores animation F-Curves.
        | Used as data-block animation data,
        | and the Nonlinear Animation editor.
    * - :doc:`Armature </animation/armatures/introduction>`

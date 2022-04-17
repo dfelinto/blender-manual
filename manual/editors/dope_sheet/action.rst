@@ -4,17 +4,17 @@ Action Editor
 *************
 
 The *Action Editor* is where you can define and control :doc:`actions </animation/actions>`.
-It enables you to view and edit the F-curve data-blocks you defined as Actions in the *F-Curve editor*.
+It enables you to view and edit the F-Curve data-blocks you defined as Actions in the *F-Curve editor*.
 So it takes place somewhere in between the low-level
 :doc:`F-Curves </editors/graph_editor/introduction>`, and the high-level :doc:`NLA editor </editors/nla/index>`.
 
-It gives you a slightly simplified view of the F-curve data-blocks
-(somewhat similar to F-curve shown without handles).
+It gives you a slightly simplified view of the F-Curve data-blocks
+(somewhat similar to F-Curve shown without handles).
 The editor can list all Action data-blocks of an object at once.
 
 Each Action data-block forms a top-level channel (see below).
 Note that an object can have several *Constraint* (one per animated constraint)
-and *Pose* (for armatures, one per animated bone) F-curve data-blocks,
+and *Pose* (for armatures, one per animated bone) F-Curve data-blocks,
 and hence an action can have several of these channels.
 
 ..

@@ -45,7 +45,7 @@ The **Y axis** shows the value applied to the target property. The units depend 
 
 In the example image, if the driver value is 2.0 the property value will be 0.5.
 
-The default F-curve is an identity map, i.e. the value produced by the driver configuration
+The default F-Curve is an identity map, i.e. the value produced by the driver configuration
 is applied to the driven property unchanged. If the driver output value is 2.0,
 the property will be 2.0.
 

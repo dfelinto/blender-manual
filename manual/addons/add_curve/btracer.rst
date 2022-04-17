@@ -58,7 +58,7 @@ Grow Curve Animation
    Animate the radius of a curve over time. Can be run alone on a curve object, or run with the tools above.
 
 F-Curve Noise
-   Quick link to add an F-curve modifier to an object.
+   Quick link to add an F-Curve modifier to an object.
 
 Color Blender
    Assign colors, create color palettes and randomize colors.

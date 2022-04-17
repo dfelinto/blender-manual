@@ -114,7 +114,7 @@ Animation
 ^^^^^^^^^
 
 In Animation mode, iTaSC operates like an IK solver:
-it is stateless and uses the pose from F-curves interpolation as the start pose before the IK convergence.
+it is stateless and uses the pose from F-Curves interpolation as the start pose before the IK convergence.
 The target velocity is ignored and the solver converges until the given precision is obtained.
 Still the new solver is usually faster than the old one and provides features that are inherent to iTaSC:
 multiple targets per bone and multiple types of constraints.

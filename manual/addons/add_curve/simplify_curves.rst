@@ -7,7 +7,7 @@ The Simplify Curves tool works on a single selected curve object.
 It generates a new curve based on the original one.
 The higher the *Distance Error* threshold is set the more control points are removed.
 
-The Simplify F-Curves tool works the same way, but on selected F-curves.
+The Simplify F-Curves tool works the same way, but on selected F-Curves.
 
 *Merge by Distance* tool glues nearby points on a single Bézier curve.
 In fact it is an analog of the usual *Merge by Distance* on a mesh, but for curves.

@@ -55,7 +55,7 @@ Animation
 
 Let us animate a solar system with the *Copy Location* constraint and its *Offset* option.
 You can make the owner, called "moon", describe perfect circles centered on the world origin
-(using e.g. *Location X/Y* sine and cosine F-curves, see :ref:`bpy.types.FModifierFunctionGenerator`).
+(using e.g. *Location X/Y* sine and cosine F-Curves, see :ref:`bpy.types.FModifierFunctionGenerator`).
 Then copy the location of a target "earth" with the *Offset* checkbox enabled
 to model a satellite in a (simplified) orbit around its planet.
 Repeat these steps for more planets circling around its center star "sun".

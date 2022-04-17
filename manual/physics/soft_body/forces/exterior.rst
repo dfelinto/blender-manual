@@ -89,7 +89,7 @@ A "goal" is a shape that a soft body object tries to conform to.
 It acts like a pin on a chosen set of vertices, controlling how much of an effect soft body has on them.
 
 Enabling *Soft Body Goal* tells Blender to use the position (or animated position) of a vertex in the simulation.
-Animating the vertices can be done in all the usual ways (F-curves, armatures, parents, lattices, etc.)
+Animating the vertices can be done in all the usual ways (F-Curves, armatures, parents, lattices, etc.)
 before the soft body simulation is applied. The "goal" is the desired end position for vertices.
 How a soft body tries to achieve this goal can be defined using stiffness forces and damping.
 

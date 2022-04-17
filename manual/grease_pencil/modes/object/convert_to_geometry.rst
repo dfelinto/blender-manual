@@ -56,7 +56,7 @@ Timing
 ------
 
 Grease Pencil stores "dynamic" data, i.e. how fast strokes are drawn.
-When converting to curve, this data can be used to create an *Evaluate Time* F-curve
+When converting to curve, this data can be used to create an *Evaluate Time* F-Curve
 (in other words, a path animation), that can be used
 e.g. to control another object's position along that curve
 (*Follow Path* constraint, or, through a driver, *Curve* modifier).

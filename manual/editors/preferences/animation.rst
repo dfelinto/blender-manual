@@ -54,7 +54,7 @@ Auto-Keyframing
    Show Warning
       Displays a warning at the top right of the *3D Viewport*, when moving objects, if *Auto Keyframe* is on.
    Only Insert Available
-      This will only add keyframes to channels of F-curves that already exist.
+      This will only add keyframes to channels of F-Curves that already exist.
    Enable in New Scenes
       Enables *Auto Keyframe* by default for new scenes.
 
@@ -74,12 +74,12 @@ Unselected Opacity
    the background of the Graph Editor.
 Default Smoothing Mode
    Controls the behavior of :ref:`automatic curve handles <editors-graph-fcurves-settings-handles>`
-   for newly created F-curves.
+   for newly created F-Curves.
 Default Interpolation
    Controls the default :ref:`Interpolation <editors-graph-fcurves-settings-interpolation>`
    for newly created keyframes.
 Default Handles
-   Controls the default :ref:`Handle <editors-graph-fcurves-settings-handles>` for newly created F-curves.
+   Controls the default :ref:`Handle <editors-graph-fcurves-settings-handles>` for newly created F-Curves.
 XYZ to RGB
    Color for X, Y, or Z animation curves (location, scale or rotation)
    is the same as the color for the X, Y, and Z axis.

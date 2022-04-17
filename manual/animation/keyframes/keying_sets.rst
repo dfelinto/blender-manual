@@ -60,11 +60,11 @@ Active Set Override
 
 Common Settings
    Only Needed
-      Only insert keyframes where they are needed in the relevant F-curves.
+      Only insert keyframes where they are needed in the relevant F-Curves.
    Visual Keying
       Insert keyframes based on the visual transformation.
    XYZ to RGB
-      For new F-curves, set the colors to RGB for the property set, Location XYZ for example.
+      For new F-Curves, set the colors to RGB for the property set, Location XYZ for example.
 
 
 Active Keying Set Panel

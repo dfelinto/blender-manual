@@ -20,7 +20,7 @@ Termination Mode
    While Held
       The most complicated of the modes available, as it tries to guess when to stop propagating by
       examining the pauses in the animation curves per control
-      (i.e. all F-curves for a bone, instead of per F-curve).
+      (i.e. all F-Curves for a bone, instead of per F-Curve).
    To Next Keyframe
       Simply copies the pose to the first keyframe after (but not including any keyframe on) the current frame.
    To Last Keyframe
