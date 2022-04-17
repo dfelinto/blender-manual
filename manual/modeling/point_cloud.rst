@@ -1,5 +1,10 @@
 :orphan:
 
+.. important::
+
+   This feature is currently :doc:`experimental </editors/preferences/experimental>`
+   and not available in current releases.
+
 .. _bpy.ops.object.pointcloud:
 
 ***********
