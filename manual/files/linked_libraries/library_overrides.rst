@@ -30,6 +30,37 @@ Library overrides supports:
    <https://developer.blender.org/T73318>`__, for more details.
 
 
+Override Hierarchies
+====================
+
+Hierarchy is a very important concept to understand when working with library overrides.
+In Blender, a real-life asset (a character, a prop, a set, etc.) is almost never made of a
+single data-block, but is rather a group of data-blocks with dependency relationships to each-other.
+E.g. a character sill typically have an armature object, several geometry objects,
+rig-controllers objects, the object data for all of those objects, materials, textures, etc. 
+
+Those relationships can be represented as a tree, with a root data-block 'linking-in' all its
+dependencies, recursively. With library overrides, typically, the root of the hierarchy is also
+the data-block that is directly linked when importing the asset (usually a collection).
+
+This concept of hierarchy can also be seen as some sort of super meta-data-block. It is critical
+when there are several overrides of the same linked data, since it allows to clearly identify a given
+data-block to one override, leaving no ambiguity to processes that affect the whole hierarchy
+(e.g. resyncing overrides with their linked data). It also allows to share relationships between
+data-blocks of different hierarchies, like a parenting relationships between two different overrides
+of a same character. 
+
+
+Non-Editable Overrides
+=======================
+
+For technical reasons (how relationships between data-blocks are stored), Blender needs to create
+overrides of a lot of data-blocks, even when only one or two of them actually needs to be edited
+by the user. To reduce the amount of information and risk of potential unwanted editing, most of
+those data-blocks are now marked as non-editable by default. This can be changed once the
+override has been created.
+
+
 Creating an Override
 ====================
 
@@ -39,9 +70,28 @@ Creating an Override
    :Mode:      Object Mode
    :Menu:      :menuselection:`3D Viewport --> Header --> Object --> Relations --> Make Override Library`
                :menuselection:`Outliner --> Context Menu --> ID Data --> Make Library Override Hierarchy`
-               :menuselection:`Outliner --> Context Menu --> ID Data --> Make Library Override`
+               :menuselection:`Outliner --> Context Menu --> ID Data --> Make Library Override`Single
 
 There are two ways to create an override of a linked data-block.
+
+
+.. _bpy.ops.object.make_override_library:
+
+Make Library Override Operator/Make Library Override Hierarchy
+--------------------------------------------------------------
+
+This is the main, recommended way to create overrides.
+This operator goes over linked objects or local empties instantiating a linked collection
+(typically, a linked character).
+
+The operator will go through the whole hierarchy
+of collections and objects, and override all those needed to allow posing/animation of a character.
+
+.. note:: Proper Collections Layout Matters
+
+   For this operator to work properly, it is crucial that **all** the collections needed by
+   the character are children of the root (linked and instantiated) one, such that there is a clear hierarchy.
+   Otherwise, some won't be automatically overridden, and manual work will be needed to fix the override.
 
 
 Single Data-Block Override
@@ -54,32 +104,21 @@ You can override a single data-block from two places:
 - The data-block menu in the UI (:kbd:`Shift-LMB` on the chain icon to the right),
   in which case only that specific usage will be remapped to the new local override.
 
+.. note:: Single Overrides Should Be Used With Caution
 
-.. _bpy.ops.object.make_override_library:
-
-Make Library Override Operator/Make Library Override Hierarchy
---------------------------------------------------------------
-
-This operator goes over linked objects or local empties instantiating a linked collection
-(typically, a linked character).
-
-The operator will go through the whole hierarchy
-of collections and objects, and override all those needed to allow posing/animation of a character.
-
-.. note:: Proper Collections Layout Matters
-
-   For this operator to work properly, it is crucial that **all** the collections needed by
-   the character are children of the root (linked and instantiated) one.
-   Otherwise, some won't be automatically overridden, and manual work will be needed to fix the override.
+   While it is always possible to do manual partial override of a hierarchy, this is relatively
+   time consuming and error-prone, and can easily live the override hierarchy in an inconsistent
+   state (regarding relationships between its data-blocks). This can back-fire later, when a resync
+   with the linked data becomes needed e.g.
 
 
 Resyncing Overrides
 ===================
 
-The relationships between linked data-blocks can be changed resulting in outdated overrides.
-When this happens overrides need to be resynced to match the new structure.
-Overrides are automatically resynced when opening blend-files, however,
-overrides can be resynced manually using `Resync Library Override Hierarchy`_.
+The relationships between linked data-blocks can change, resulting in outdated overrides.
+When this happens, overrides need to be resynced to match the new structure.
+Overrides are automatically resynced if needed on blend-files opening. However,
+they can also be resynced manually using `Resync Library Override Hierarchy`_.
 
 .. tip::
 
@@ -108,6 +147,19 @@ outline/background.
 You can also animate overrides, animated properties just replace/supersede overrides then.
 Note that you cannot override-edit an existing animation, you'll have to create a new action.
 You can manually define or remove an override from the context menu of the relevant property.
+If an override is not editable, you have to make it editable first.
+
+
+Make Library Override Editable
+------------------------------
+
+.. reference::
+
+   :Editor:    Outliner
+   :Mode:      Object Mode
+   :Outliner:  :menuselection:`Context Menu --> ID Data --> Make Library Override Editable`
+
+Make the selected library override data-block editable byt the user.
 
 
 .. _bpy.ops.ui.override_type_set_button:
@@ -175,11 +227,12 @@ Reset Library Override
 
    :Editor:    Outliner
    :Mode:      Object Mode
-   :Outliner:  :menuselection:`Context Menu --> ID Data --> Reset Library Override`
+   :Outliner:  :menuselection:`Context Menu --> ID Data --> Reset Library Override Single`
                :menuselection:`Context Menu --> ID Data --> Reset Library Override Hierarchy`
 
 Reset the override to its original values. *Reset Library Override Hierarchy* will also reset
-the overrides of its child data-blocks.
+the overrides of its child data-blocks. Unlike the Clear operations below, this never removes
+the override data-blocks themselves.
 
 
 Resync Library Override Hierarchy
@@ -221,14 +274,27 @@ This is similar to a regular resync but is a more forceful resync,
 at the cost of a potential loss of some overrides on ID pointers properties.
 
 
-Delete Library Override Hierarchy
-=================================
+Clear Library Override Single
+=============================
 
 .. reference::
 
    :Editor:    Outliner
    :Mode:      Object Mode
-   :Outliner:  :menuselection:`Context Menu --> ID Data --> Delete Library Override Hierarchy`
+   :Outliner:  :menuselection:`Context Menu --> ID Data --> Clear Library Override Single`
+
+Reset the override to its original values, and if possible without breaking the existing hierarchy,
+replace it by its linked data. Otherwise, keep the override but mark it as non-editable.
+
+
+Clear Library Override Hierarchy
+================================
+
+.. reference::
+
+   :Editor:    Outliner
+   :Mode:      Object Mode
+   :Outliner:  :menuselection:`Context Menu --> ID Data --> Clear Library Override Hierarchy`
 
 Remove the library override from the selected data-block and all its children and replace them with
 the original linked data-block. This will revert the *Make Library Override*.
