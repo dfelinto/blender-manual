@@ -1,6 +1,5 @@
 .. _sculpt-paint-brush-display:
 .. _bpy.types.Paint.show_brush:
-.. _bpy.types.Brush.cursor_color_add:
 .. _bpy.types.Brush.cursor_overlay_alpha:
 .. _bpy.types.Brush.use_cursor_overlay:
 .. _bpy.types.Brush.texture_overlay_alpha:
@@ -21,13 +20,18 @@ Cursor
 
    Cursor options.
 
-While painting or sculpting a special cursor is help display information about the brush.
-The cursor is shown as a circle in the 3D Viewport, the radius of the circle match the size of the brush.
+While painting or sculpting a special cursor is shown to display information about the active brush.
+The cursor is shown as a circle in the 3D Viewport, the radius of the circle matches the size of the brush.
 
-The cursor can be disabled by toggling the checkbox in the *Cursor* header.
+The cursor can be disabled by toggling the checkbox in the panel's header.
+
+.. _bpy.types.Brush.cursor_color_add:
 
 Cursor Color
    Set the color of the brush ring while performing an add/positive stroke.
+
+.. _bpy.types.Brush.cursor_color_subtract:
+
 Inverse Color
    In some paint/sculpt modes the brush can be negative and subtract information from the paint target;
    these brushes can be given a separate color.
