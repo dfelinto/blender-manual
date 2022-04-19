@@ -8,9 +8,9 @@ Frame Range
    Frame Range panel.
 
 This panel defines how long an animation will last in terms of frames.
-Frames can be multiplied by the scene's :ref:`Frame Rate <bpy.types.RenderSettings.fps>`
+Frames can be divided by the scene's :ref:`Frame Rate <bpy.types.RenderSettings.fps>`
 to get the animation duration in terms of time.
-For example, a 250 frame animation at a frame rate of 30 will last 125 seconds.
+For example, a 250 frame animation at a frame rate of 30 will last 8.3 seconds.
 
 .. _bpy.types.Scene.frame_start:
 .. _bpy.types.Scene.frame_end:
