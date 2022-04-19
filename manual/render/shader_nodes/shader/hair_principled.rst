@@ -114,7 +114,7 @@ Roughness
       Roughness.
 
 Radial Roughness
-   Specify how much the glints are smoothed in the direction of the hair tangent.
+   Specify how much the glints are smoothed in the direction of the hair normal.
    Too low values will concentrate the glint;
    while setting it too high will spread the light across the width of the strand.
 
