@@ -70,7 +70,7 @@ Creating an Override
    :Mode:      Object Mode
    :Menu:      :menuselection:`3D Viewport --> Header --> Object --> Relations --> Make Override Library`
                :menuselection:`Outliner --> Context Menu --> ID Data --> Make Library Override Hierarchy`
-               :menuselection:`Outliner --> Context Menu --> ID Data --> Make Library Override`Single
+               :menuselection:`Outliner --> Context Menu --> ID Data --> Make Library Override Single`
 
 There are two ways to create an override of a linked data-block.
 
