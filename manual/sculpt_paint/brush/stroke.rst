@@ -117,7 +117,7 @@ Stabilize Stroke
 
 *Stabilize Stroke* makes the stroke lag behind the cursor
 and applies a smoothed curve to the path of the cursor.
-This can be enabled temporary by holding :kbd:`Shift-S` while painting
+This can be enabled temporary by holding :kbd:`Shift` while painting
 or permanently by clicking the checkbox found in the header.
 
 Radius
