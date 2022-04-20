@@ -9,7 +9,7 @@ Mask
    :Tool:      :menuselection:`Toolbar --> Mask`
    :Shortcut:  :kbd:`M`
 
-Lets you select mesh parts to be unaffected by other brushes by painting vertex colors.
+The Mask tool lets you paint a selection on parts of the mesh to be unaffected by other brushes.
 The mask values are shown as gray-scale.
 I.e. the darker a masked area is, the less effect sculpting on it will have.
 See also the options of the :ref:`sculpt-mask-menu` menu.

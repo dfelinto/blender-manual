@@ -84,7 +84,7 @@ Toolbar
    Cleans up geometry by collapsing short edges.
 
 :doc:`/sculpt_paint/sculpting/tools/mask`
-   Lets you select mesh parts to be unaffected by other brushes by painting vertex colors.
+   Paints a selection on parts of the mesh to be unaffected by other brushes.
 
 :doc:`/sculpt_paint/sculpting/tools/multires_displacement_eraser`
    Deletes displacement information applied on a Multiresolution modifier.
