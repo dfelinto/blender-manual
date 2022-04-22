@@ -100,6 +100,22 @@ Smooth Shading
   Automatically sets the shading of the generated geometry as Smooth. If the Component
   object is already set as Smooth, then this option is not necessary.
 
+Components
+  Three different method can be used to assign the components.
+
+  Object
+    Repeat the same object on all the target faces.
+
+  Collection
+    Assign the objects contained in a given Collection.
+    The components can be assigned either randomly or according to a Vertex Group.
+
+  Materials
+    Assign the components according to the name of the materials assigned to each face.
+    If for a given material, there is no an object with the same name, then the face is not used.
+
+    Watch the `Tutorial <https://youtu.be/2Wcu9E0EGEM>`__ (it is based on an old version of Tissue, the procedure is slightly different now)
+
 Thickness
   Scale Mode
     Constant
@@ -112,6 +128,38 @@ Thickness
       control the scaling factor of the components' Thickness
     Offset
       Allows to control the alignment of the components in relation to the Base object surface.
+
+Components Coordinates
+  Strategy used to determine the component's domain for mapping it on the target faces.
+
+  .. figure:: /images/addons_mesh_tissue_tessellate-component-coordinates.jpg
+
+  Bounds (Default)
+    Automatically defines the domain according the *Bounding Box* of the component object.
+
+  Local
+    Defines the domain according to the local coordinates of the component object.
+    The face domain is considered from 0 to 1 in both Local X and Local Y directions.
+    This method allows a customization of the mapping strategies, maintaining the result independent
+    from Location/Rotation/Scale of the component object.
+
+  Global
+    Similar to Local, but based on the Global coordinates of the component. This allows to easily
+    produce animations changing the Location/Rotation/Scale of the component.
+
+    Watch the `Tutorial <https://youtu.be/PRIcB1Q-gK4>`__
+
+  Extend (Local and Global coordinates)
+    Extend the domain of the components with a domain bigger than 0-1.
+
+  Clip (Local and Global coordinates)
+    Truncate the component according to the domain 0-1.
+
+  Cyclic (Local and Global coordinates)
+    Cut and move to the other side the parts of the component that exceed the domain 0-1.
+
+    .. figure:: /images/addons_mesh_tissue_tessellate-bounds-cyclic.jpg
+
 
 Weight and Morphing
   Combine the Vertex Groups of the base object with the Shape Keys from the component,
@@ -126,6 +174,8 @@ Weight and Morphing
     Transfer the Shape Keys from the component object to the generated object.
     If the name of the base's vertex groups and the Shape Keys match, then they
     will be automatically assigned in order to control their morphing behavior.
+
+    Watch the `Tutorial <https://youtu.be/2Wcu9E0EGEM>`__
 
 Iterations
   Automatically repeat the tessellation using as base the result of the previous iteration.
@@ -169,6 +219,10 @@ Convert to Curve
 ----------------
 
 Generate a Curve object from the *Loops*, *Edges* or *Particles* of the active object.
+This is a non-destructive operation, meaning that in any moment it will be possible to reload
+the changes from the base object and change the parameters of the conversion.
+It will be possible to convert specific edges/loops according to different criteria, together
+with the addition of a pattern effect. 
 
 .. figure:: /images/addons_mesh_tissue_convert-to-curve-example.jpg
 
@@ -185,13 +239,15 @@ This operator works on the objects generated through *Tessellate* and *Convert t
 Rotate Faces
 ------------
 
-(To Do)
+Rotate the indexes of the selected faces (in Edit-Mode). This allows to control the rotation of the components
+of Tessellated objects, when using *Default* rotation.
+Once the operator is executed, then the interested Tessellated objects are automatically refreshed.
 
 
 Convert to Dual Mesh
 --------------------
 
-(To Do)
+Destructive version of the Dual-Mesh operator. This directly convert the active object to its Dual-Mesh.
 
 
 Polyhedra Wireframe
@@ -217,13 +273,14 @@ Convert the active UV-map to mesh trying to preserve the original 3D model total
 Random Materials
 ----------------
 
-(To Do)
+Assign random materials to the face's of the active mesh object.
 
 
 Weight to Materials
 -------------------
 
-(To Do)
+Distribute existing materials according to the weight of the active vertex group.
+It is also possible to automatically create new materials.
 
 
 Tissue Render Animation
@@ -317,6 +374,7 @@ Streamlines Curves
 
 (To Do)
 
+
 Contour Curves
 --------------
 
@@ -344,11 +402,17 @@ Trim the mesh according to active Weight.
 Reaction Diffusion
 ------------------
 
-(To Do)
+Tissue implements the Gray-Scott model for the `Reaction-Diffusion <https://en.wikipedia.org/wiki/Reaction%E2%80%93diffusion_system>`__ simulation.
+This allows to simulate through the vertex groups the distribution of the two substances
+that generate the various patterns of many living organisms.
+
+.. figure:: /images/addons_mesh_tissue_weight-reaction-diffusion.jpg
+
+See `this video <https://youtu.be/J-0NzU1TmIY>`__ for an example of the Reaction-Diffusion simulation with Tissue.
 
 
-Random Materials
-----------------
+Radom Materials
+---------------
 
 (To Do)
 
