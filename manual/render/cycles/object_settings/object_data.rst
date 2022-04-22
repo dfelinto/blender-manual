@@ -203,8 +203,6 @@ to selectively speed up caustic rendering of objects in your scene.
    - Only refractive caustics in the shadows of objects work. Caustics from reflections or caustics that
      fall outside shadows are not rendered with this technique.
 
-   - MNEE Caustics are not supported when the microfacet distribution is set to *Multiscatter GGX*.
-
    - :ref:`Filter Glossy <bpy.types.CyclesRenderSettings.blur_glossy>` settings are ignored when using
      MNEE for refractive caustics.
 
@@ -213,7 +211,7 @@ to selectively speed up caustic rendering of objects in your scene.
 
    - MNEE Caustics are treated as direct lighting instead of indirect lighting.
 
-   - MNEE Caustics render best with objects with smooth normals.
+   - MNEE Caustics only work if the caustic caster has smooth normals.
 
    - Volumetric materials can not recieve MNEE caustics.
 
