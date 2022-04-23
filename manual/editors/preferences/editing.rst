@@ -129,7 +129,7 @@ Distance
 Text Editor
 ===========
 
-Auto Close
+Auto Close Character Pairs
    Automatically insert the corresponding character to close an expression
    when typing characters such as quotes, brackets, braces, or parentheses.
 

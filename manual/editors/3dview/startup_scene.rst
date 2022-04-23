@@ -48,7 +48,7 @@ in the :doc:`Viewport Overlays </editors/3dview/display/overlays>` popover.
 View Name
    If the viewport camera is not aligned, the view is named "User" plus
    the perspective of the viewport camera.
-Playback FPS
+Playback Frame Rate (FPS)
    Displays the Frames Per Second screen rate, while playing an animation back.
 Object Info
    Shown in brackets is the current frame. Followed by the path of the :ref:`active object <object-active>`.

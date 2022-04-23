@@ -73,7 +73,7 @@ This becomes especially problematic on dense geometry.
 
 Possible Solutions:
 
-OpenGL Depth Picking (Preferences)
+GPU Depth Picking (Preferences)
    See :menuselection:`Preferences --> Viewport --> Selection`.
 
    This option is enabled by default, disabling it may give a better performance at

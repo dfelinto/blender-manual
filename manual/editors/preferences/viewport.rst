@@ -11,13 +11,13 @@ Viewport
 Display
 =======
 
-Show
+Text Info Overlay
    Object Info
       Display the active Object name and frame number at the top left of the 3D Viewport.
    View Name
       Display the name and type of the current view in the top left corner of the 3D Viewport.
       For example: "User Perspective" or "Top Orthographic".
-   Playback FPS
+   Playback Frame Rate (FPS)
       Show the frames per second screen refresh rate while an animation is played back.
       It appears in the top left of the 3D Viewport, displaying red if the frame rate set cannot be reached.
 
@@ -91,7 +91,7 @@ Image Display Method
 Selection
 =========
 
-OpenGL Depth Picking
+GPU Depth Picking
    This option uses an alternative method of picking which uses depth information to select the front-most elements.
    It is only used for selecting with the cursor (not box select, lasso, circle select, etc.).
 
