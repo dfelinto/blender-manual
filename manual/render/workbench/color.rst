@@ -17,7 +17,7 @@ Object
    Use the color that can be set per object
    in the Viewport Display :ref:`properties-object-viewport-display` panel.
 
-Color
+Attribute
    Display the active Color Attribute of an object. When an object has
    no active Color Attribute it will be rendered in the color set
    in the Viewport Display :ref:`properties-object-viewport-display` panel.
