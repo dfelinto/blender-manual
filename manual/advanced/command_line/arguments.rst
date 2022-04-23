@@ -76,7 +76,7 @@ Format Options
    ``TGA`` ``RAWTGA`` ``JPEG`` ``IRIS`` ``IRIZ`` ``AVIRAW`` ``AVIJPEG`` ``PNG`` ``BMP``
 
    Formats that can be compiled into Blender, not available on all systems:
-   ``HDR`` ``TIFF`` ``OPEN_EXR`` ``OPEN_EXR_MULTILAYER`` ``MPEG`` ``CINEON`` ``DPX`` ``DDS`` ``JP2``
+   ``HDR`` ``TIFF`` ``OPEN_EXR`` ``OPEN_EXR_MULTILAYER`` ``MPEG`` ``CINEON`` ``DPX`` ``DDS`` ``JP2`` ``WEBP``
 ``-x``, ``--use-extension`` ``<bool>``
    Set option to add the file extension to the end of the file.
 
@@ -230,7 +230,9 @@ Debug Options
 ``--debug-depsgraph-uuid``
    Verify validness of session-wide identifiers assigned to ID datablocks.
 ``--debug-ghost``
-   Enable debug messages for event handling.
+   Enable debug messages for Ghost (Linux only).
+``--debug-wintab``
+   Enable debug messages for Wintab.
 ``--debug-gpu``
    Enable GPU debug context and information for OpenGL 4.3+.
 ``--debug-gpu-force-workarounds``
