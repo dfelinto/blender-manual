@@ -83,7 +83,7 @@ Paint
    Paint Surface.
 
 Paint is the basic surface type that outputs color and wetness values.
-In case of vertex surfaces, results are outputted as vertex colors.
+In case of vertex surfaces, results are outputted as Color Attributes.
 
 A wetmap is a black-and-white output that visualizes paint wetness. White being maximum wetness,
 black being completely dry. It is usually used as mask for rendering.

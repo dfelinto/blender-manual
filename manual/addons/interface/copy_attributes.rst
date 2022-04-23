@@ -62,10 +62,10 @@ Mesh Edit Mode
 With a mesh object selected, enter Edit Mode and press :kbd:`Ctrl-C` to copy texture face attributes.
 The following menu appears:
 
-Some of the items may not appear, depending on the number of UV texture or vertex color layers on the mesh.
+Some of the items may not appear, depending on the number of UV textures or Color Attributes on the mesh.
 
 The first group of options copies attributes from the active face to
-all other selected faces in the same UV texture or vertex color layer.
+all other selected faces in the same UV texture or Color Attribute.
 
 Copy Material
    Copy material index to selected faces.
@@ -74,18 +74,18 @@ Copy Image
 Copy UV Coordinates
    Copy UV coordinates to selected faces.
 Copy Vertex Colors
-   Copy Vertex Colors to selected faces.
+   Copy Color Attributes to selected faces.
 
 The second group of options copies attributes to selected faces in
-the active UV texture or vertex color layer from their corresponding faces in
-a different UV texture or vertex color layer.
+the active UV texture or Color Attribute from their corresponding faces in
+a different UV texture or Color Attribute.
 
 Copy Image from Layer
    Copy image assignment from another layer for selected faces.
 Copy UV Coordinates from Layer
    Copy UV coordinates from another layer for selected faces.
 Copy Vertex Colors from Layer
-   Copy Vertex Colors from another layer for selected faces.
+   Copy a Color Attribute from another layer for selected faces.
 
 
 Pose Mode

@@ -298,7 +298,7 @@ However, the attributes might be expected by Blender to have a certain type.
 Custom Attributes
 =================
 
-Vertex groups, UV maps and vertex colors are available as attributes in geometry nodes.
+Vertex groups, UV maps and Color Attributes are available as attributes in geometry nodes.
 They are referred to by their name.
 Naming collisions (e.g. a vertex group and a UV map with the same name) should be avoided.
 If there is a naming collision, only one of the attributes is accessible in geometry nodes.
@@ -336,10 +336,6 @@ Mode
    :Vertex Group:
       Create a :doc:`Vertex Group </modeling/meshes/properties/vertex_groups/index>`
       from the attribute, which corresponds to a float attribute on the point domain.
-   :Vertex Color:
-      Create a :doc:`Vertex Color </sculpt_paint/vertex_paint/index>`
-      from the attribute, which, despite it's name, corresponds to a color attribute on the
-      *face corner* domain.
 
 .. note::
 

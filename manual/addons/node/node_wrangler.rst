@@ -217,7 +217,7 @@ Add Vertex Color Attribute Node
 
    :Menu:      :menuselection:`Header --> Add menu`
 
-Add an Attribute node with the attribute set to vertex color.
+Add an Attribute node with the attribute set to Color Attribute.
 
 
 Shader Viewer

@@ -61,11 +61,11 @@ Color Source
       :Particle Velocity: XYZ velocity mapped to RGB colors.
    Vertex Color Sources
       :Vertex Color:
-         Use a vertex color layer for coloring the point density texture.
+         Use a Color Attribute for coloring the point density texture.
 
          .. note::
 
-            Vertex colors are defined per face corner.
+            Color Attributes are defined per face corner.
             A single vertex can have as many different colors as faces it is part of.
             The actual color of the point density texture is averaged from all vertex corners.
 

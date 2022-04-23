@@ -14,10 +14,10 @@ Material
 Use the stroke/fill base color material.
 
 
-Vertex Color
-============
+Color Attribute
+===============
 
-Use Vertex color.
+Use Color Attribute.
 
 Color Picker
    The color of the brush. See :ref:`ui-color-picker`.

@@ -65,4 +65,4 @@ Usage
 
 Use the operator to import ASCII or binary PLY-files, you can select multiple files at once.
 For exporting, you can choose to enable or disable the modifiers during the export
-and you can choose which data you want to export (UV textures, vertex colors, ...).
+and you can choose which data you want to export (UV textures, Color Attributes, ...).

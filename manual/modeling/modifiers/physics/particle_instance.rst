@@ -133,14 +133,14 @@ Keep Shape
 Layers
 ------
 
-With these fields you can select the vertex color layers,
+With these fields you can select the Color Attribute,
 which will be filled with colors based on the particles information.
-These vertex color layers can be used, for example, in a shader to add variance to a material.
+These Color Attributes can be used, for example, in a shader to add variance to a material.
 
 Index
-   A vertex color layer for values based on the particles index.
+   A Color Attribute for values based on the particles index.
 Value
-   A vertex color layer for random per-particle values.
+   A Color Attribute for random per-particle values.
 
 
 Examples

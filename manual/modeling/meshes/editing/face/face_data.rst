@@ -13,7 +13,7 @@ Rotate Colors
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Face --> Face Data --> Rotate Colors`
 
-Rotates the Vertex Colors inside faces either clockwise or counterclockwise.
+Rotates the Color Attribute's colors inside faces either clockwise or counterclockwise.
 
 
 .. _bpy.ops.mesh.colors_reverse:
@@ -26,7 +26,7 @@ Reverse Colors
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Face --> Face Data --> Reverse Colors`
 
-Flips the direction of Vertex Colors inside the selected faces.
+Flips the direction of Color Attribute's colors inside the selected faces.
 
 
 Rotate UVs

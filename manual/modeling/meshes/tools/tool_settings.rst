@@ -19,7 +19,7 @@ Transform
 
 Correct Face Attributes
    Adjust geometry attributes like :doc:`UVs </modeling/meshes/uv/index>`
-   and :doc:`Vertex Colors </sculpt_paint/vertex_paint/index>` while transforming.
+   and :doc:`Color Attributes </sculpt_paint/vertex_paint/index>` while transforming.
 
 .. _bpy.types.ToolSettings.use_transform_correct_keep_connected:
 

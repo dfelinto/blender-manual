@@ -9,18 +9,18 @@ Tint Tool
    :Mode:      Draw Mode
    :Tool:      :menuselection:`Toolbar --> Tint`
 
-The Tint tool allows you to paint onto strokes point mixing the material base color with a selected vertex color.
+The Tint tool allows you to paint onto strokes point mixing the material base color with a selected color.
 
 
 Brush Settings
 ==============
 
 Mode
-   Defines how vertex color affect to the strokes.
+   Defines how Color Attributes affect to the strokes.
 
-   :Stroke and Fill: Vertex Color affects both the Stroke and Fill materials.
-   :Stroke: Vertex Color affects the Stroke material only.
-   :Fill: Vertex Color affects the Fill material only.
+   :Stroke and Fill: Color Attributes affects both the Stroke and Fill materials.
+   :Stroke: Color Attributes affects the Stroke material only.
+   :Fill: Color Attributes affects the Fill material only.
 
 
 Usage
@@ -35,7 +35,7 @@ You can configure the brush main settings included in the Tool Settings for conv
 For the vertex paint brushes configuration and settings see
 :doc:`Vertex Paint Brush </grease_pencil/modes/vertex_paint/tool_settings/brush>`.
 
-:kbd:`Ctrl-LMB` erase the vertex color.
+:kbd:`Ctrl-LMB` erase the Color Attribute.
 
 
 Painting

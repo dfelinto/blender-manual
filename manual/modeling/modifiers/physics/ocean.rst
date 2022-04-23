@@ -128,7 +128,7 @@ and enables generating foam map image sequences when baking.
 
 Data Layer
    Optional name for the vertex data layer,
-   used by the Ocean Modifier to store foam maps as vertex colors.
+   used by the Ocean Modifier to store foam maps as a Color Attribute.
    This is required for accessing the foam data in the renderer.
 
 Coverage
@@ -138,17 +138,17 @@ Coverage
 .. figure:: /images/modeling_modifiers_physics_ocean_foam-layer-name.png
    :align: center
 
-   Using foam vertex colors with a named data layer.
+   Using foam Color Attributes with a named data layer.
 
 
 Spray
 ^^^^^
 
-Generate map of spray direction as a vertex color channel.
+Generate map of spray direction as a Color Attribute.
 This map can be used to define the velocities for spray particles.
 
 Spray Map
-   Name of the vertex color layer used for the spray direction map.
+   Name of the Color Attribute used for the spray direction map.
 
 Invert
    Inverts the spray direction map.

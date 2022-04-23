@@ -51,7 +51,7 @@ When executing shaders, a special optimization is applied to Mix Shader nodes.
 If Factor evaluates to 0 or 1, any nodes that are only reachable via the unused branch of the mix are not evaluated.
 
 This can substantially reduce the performance cost of combining multiple materials
-in one shader with vertex color, texture, or other input used as a switch.
+in one shader with a Color Attribute, texture, or other input used as a switch.
 
 
 Open Shading Language

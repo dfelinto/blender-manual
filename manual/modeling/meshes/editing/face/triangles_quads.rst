@@ -47,8 +47,8 @@ Max Angle
    relative to the size of the other edges of the triangles.
 Compare UVs
    When enabled, it will prevent the union of triangles that are not also adjacent in the active UV map.
-Compare Vertex Color
-   When enabled, it will prevent the union of triangles that have no matching vertex color.
+Compare VCols
+   When enabled, it will prevent the union of triangles that have no matching Color Attribute color.
 Compare Sharp
    When enabled, it will prevent the union of triangles that share an edge marked as sharp.
 Compare Materials

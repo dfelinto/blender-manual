@@ -6,7 +6,7 @@ Data Transfer Modifier
 **********************
 
 The Data Transfer modifier transfers several types of data from one mesh to another.
-Data types include vertex groups, UV maps, vertex colors, custom normals...
+Data types include vertex groups, UV maps, Color Attributes, custom normals...
 
 Transfer works by generating a mapping between source mesh's elements (vertices, edges, etc.)
 and destination ones, either on a one-to-one basis, or mapping several source elements
@@ -54,7 +54,7 @@ Mix Mode
       note that for Boolean values this option fakes a logical OR.
    Mix, Add, Subtract, Multiply
       Apply that operation, using mix factor to control how much of source or destination value to use.
-      Only available for a few types (vertex groups, vertex colors).
+      Only available for a few types (vertex groups, Color Attributes).
 
 Mix Factor
    How much of the transferred data gets mixed into existing one (not supported by all data types).
@@ -82,7 +82,7 @@ Data Types
    The left column of toggle buttons, to select which data types to transfer.
 
 Multi-layers Data Types Options
-   In those cases (vertex groups, vertex colors, UVs), one can select which source layers to transfer
+   In those cases (vertex groups, Color Attributes, UVs), one can select which source layers to transfer
    (usually, either all of them, or a single specified one), and how to affect destination
    (either by matching names, matching order/position,
    or, if a single source is selected, by specifying manually the destination layer).

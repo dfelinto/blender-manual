@@ -52,7 +52,7 @@ This is different from the face creation operator in three important respects:
 
 #. Holes are detected, so there is no need to manually find and select the edges around the holes.
 #. Holes can have a limit for the number of sides (so only quads or tris are filled in for example).
-#. Mesh data is copied from surrounding geometry (UVs, vertex colors, multi-res, all layers),
+#. Mesh data is copied from surrounding geometry (UVs, Color Attributes, multi-res, all layers),
    since manually creating this data is very time-consuming.
 
 

@@ -16,7 +16,7 @@ By default the 3D Viewport uses Workbench to shade and light objects.
 Shading settings can be tweaked in the 3D Viewport's :doc:`Shading popover </editors/3dview/display/shading>`.
 
 Workbench supports assigning random colors to objects to make each visually distinct.
-Other coloring mechanisms also exist, including; materials, vertex colors, and textures.
+Other coloring mechanisms also exist, including; materials, Color Attributes, and textures.
 
 Workbench also has an X-ray mode to see through objects,
 along with cavity and shadow shading to help display details in objects.

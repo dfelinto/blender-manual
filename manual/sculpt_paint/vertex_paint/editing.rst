@@ -9,7 +9,7 @@ Editing
    :Menu:      :menuselection:`Paint`
 
 Set Vertex Colors :kbd:`Shift-K`
-   Fill the active vertex color layer with the current paint color.
+   Fill the active Color Attribute with the current paint color.
 Smooth Vertex Colors
    Smooth colors across vertices.
 Dirty Vertex Colors
@@ -34,12 +34,12 @@ Dirty Vertex Colors
       objects.
 
 Vertex Color from Weight
-   Converts the active weight into grayscale vertex colors.
+   Converts the active weight into grayscale colors.
 Invert
    Invert RGB values.
 Levels
-   Adjust levels of vertex colors.
+   Adjust the levels oof the selected vertices.
 Hue Saturation Value
-   Adjust vertex color HSV values.
+   Adjust the HSV values of the selected vertices.
 Bright/Contrast
-   Adjust vertex color brightness/contrast.
+   Adjust the brightness/contrast of the selected vertices.

@@ -5,28 +5,28 @@ Editing
 
 .. _bpy.ops.gpencil.vertex_color_set:
 
-Set Vertex Colors
-=================
+Set Color Attribute
+===================
 
 .. reference::
 
    :Mode:      Vertex Paint Mode
-   :Menu:      :menuselection:`Paint --> Set Vertex Colors`
+   :Menu:      :menuselection:`Paint --> Set Color Attribute`
 
 Sets the :ref:`active color <grease-pencil-vertex-paint-brush-color>` to all selected vertices.
 
 
 .. _bpy.ops.gpencil.stroke_reset_vertex_color:
 
-Reset Vertex Colors
-===================
+Reset Vertex Color
+==================
 
 .. reference::
 
    :Mode:      Vertex Paint Mode
-   :Menu:      :menuselection:`Paint --> Reset Vertex Colors`
+   :Menu:      :menuselection:`Paint --> Reset Vertex Color`
 
-Removes vertex color information of the active strokes,
+Removes the Color Attribute information of the active strokes,
 if no strokes are selected, all strokes are reset.
 
 
@@ -53,7 +53,7 @@ Levels
    :Mode:      Vertex Paint Mode
    :Menu:      :menuselection:`Paint --> Levels`
 
-Adjust levels of vertex colors.
+Adjust the levels of Color Attributes.
 
 
 .. _bpy.ops.gpencil.vertex_color_hsv:
@@ -66,7 +66,7 @@ Hue Saturation Value
    :Mode:      Vertex Paint Mode
    :Menu:      :menuselection:`Paint --> Hue Saturation Value`
 
-Adjust vertex color HSV values.
+Adjust the color's HSV values.
 
 
 .. _bpy.ops.gpencil.vertex_color_brightness_contrast:
@@ -79,4 +79,4 @@ Bright/Contrast
    :Mode:      Vertex Paint Mode
    :Menu:      :menuselection:`Paint --> Bright/Contrast`
 
-Adjust vertex color brightness/contrast.
+Adjust the color's brightness/contrast.

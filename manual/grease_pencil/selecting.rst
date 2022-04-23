@@ -107,15 +107,15 @@ Material
 
 .. _bpy.ops.gpencil.select_vertex_color:
 
-Select Vertex Color
-===================
+Select Color Attribute
+======================
 
 .. reference::
 
    :Mode:      Vertex Paint Mode
-   :Menu:      :menuselection:`Select --> Vertex Color`
+   :Menu:      :menuselection:`Select --> Color Attribute`
 
-Selects all points with a similar vertex color as the current selection.
+Selects all points with a similar Color Attribute as the current selection.
 
 Tolerance
    How similar colors are allowed to be; higher values select a wider range of colors.

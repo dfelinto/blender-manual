@@ -126,7 +126,7 @@ Random per Island
 
 Attribute
    Defaults to active UV layer. Only "density", "color", "flame" and "temperature" built-in attributes are supported.
-   UVs and Vertex Color layers are supported.
+   UVs and Color Attributes are supported.
 
 Bevel
    Not supported.

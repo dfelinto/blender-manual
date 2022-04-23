@@ -20,7 +20,7 @@ Plane Point, Plane Normal
    The plane can be numerically adjusted for precise values.
 Fill
    Cuts can optionally fill in the holes created,
-   with materials, UV maps, and vertex colors based on the surrounding geometry.
+   with materials, UV maps, and Color Attributes based on the surrounding geometry.
 Clear Inner, Clear Outer
    Cuts may remove geometry on one side.
 Axis Threshold

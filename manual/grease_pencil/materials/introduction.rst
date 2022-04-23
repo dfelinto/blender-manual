@@ -107,10 +107,10 @@ Lock Unused
    Locks and hides all unused materials.
 
 Convert Materials to Vertex Color
-   Only keeps necessary materials and convert all materials base color to vertex color.
+   Only keeps necessary materials and convert all materials base color to a Color Attribute.
 
 Extract Palette from Vertex Color
-   Add all used vertex color to a new Color Palette. See :ref:`ui-color-palette`.
+   Add all used Color Attributes to a new Color Palette. See :ref:`ui-color-palette`.
 
 Copy Material to Selected
    Copy the active material to the selected Grease Pencil object.

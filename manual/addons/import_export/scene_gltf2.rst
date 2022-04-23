@@ -636,7 +636,7 @@ Normals
 Tangents
    Export vertex tangents with meshes.
 Vertex Colors
-   Export vertex colors with meshes.
+   Export Color Attributes with meshes.
 Loose Edges
    Export loose edges as lines, using the material from the first material slot.
 Loose Points

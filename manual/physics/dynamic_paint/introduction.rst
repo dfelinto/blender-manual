@@ -6,7 +6,7 @@ Introduction
 ************
 
 Dynamic paint is a modifier and physics system that can turn objects into paint canvases
-and brushes, creating vertex colors, image sequences or displacement.
+and brushes, creating Color Attributes, image sequences, or displacement.
 This makes many effects possible like, for example footsteps in the snow,
 raindrops that make the ground wet, paint that sticks to walls, or objects that gradually freeze.
 

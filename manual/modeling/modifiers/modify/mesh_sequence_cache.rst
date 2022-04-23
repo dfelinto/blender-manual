@@ -38,7 +38,7 @@ Object Path
 
 Read Data
    Type of data to read for a mesh object, respectively: vertices,
-   polygons, UV maps and Vertex Color layers.
+   polygons, UV maps, and Color Attributes.
 
    Vertices, Faces, UV, Color
 

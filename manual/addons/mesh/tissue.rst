@@ -308,7 +308,7 @@ Weight from Faces area (Automatic Bounds, Manual Bounds)
 Curvature
 ---------
 
-Weight from Curvature (Based on Dirty Vertex Colors)
+Weight from Curvature (Based on Dirty Color Attributes)
 
 .. figure:: /images/addons_mesh_tissue_weight-curvature.jpg
 
@@ -450,13 +450,13 @@ Convert to Weight
 -----------------
 
 Red Channel
-   Add a vertex group derived to red channel of the active vertex color.
+   Add a vertex group derived to red channel of the active Color Attribute.
 Green Channel
-   Add a vertex group derived to green channel of the active vertex color.
+   Add a vertex group derived to green channel of the active Color Attribute.
 Blue Channel
-   Add a vertex group derived to blue channel of the active vertex color.
+   Add a vertex group derived to blue channel of the active Color Attribute.
 Value Channel
-   Add a vertex group derived to value channel of the active vertex color.
+   Add a vertex group derived to value channel of the active Color Attribute.
 Invert
    Invert the values read from vertex weight.
 

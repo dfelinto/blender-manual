@@ -32,8 +32,6 @@ Type
 
       Most geometry attributes are directly accessible through the various input nodes, except for these:
 
-      Vertex Color Layers
-         These can be retrieved this by their names.
       Ocean Foam
          Gives a scalar defining where foam might appear when using
          an :doc:`Ocean Modifier </modeling/modifiers/physics/ocean>`.

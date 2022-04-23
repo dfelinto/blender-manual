@@ -230,7 +230,7 @@ The importer supports two types of animation:
 - **Animating geometry**: Animating mesh and curve geometry is supported by adding
   a :doc:`Mesh Sequence Cache </modeling/modifiers/modify/mesh_sequence_cache>` modifier to the imported data.
   Geometry attribute (`USD Primvar <https://graphics.pixar.com/usd/docs/USD-Glossary.html#USDGlossary-Primvar>`__)
-  animation is currently supported only for mesh vertex colors and UVs.
+  animation is currently supported only for Color Attributes and UVs.
   Note that USD file sequences (i.e. a unique file per frame) are not yet supported.
 
 
@@ -293,8 +293,8 @@ Scale
 UV Coordinates
    Read mesh UV coordinates.
 
-Vertex Colors
-   Convert the USD mesh ``displayColor`` values to Blender mesh vertex colors.
+Color Attributes
+   Convert the USD mesh ``displayColor`` values to Blender's Color Attributes.
 
 Subdivision
    Create Subdivision Surface modifiers based on the USD ``SubdivisionScheme`` attribute.

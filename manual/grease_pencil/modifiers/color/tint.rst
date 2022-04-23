@@ -24,7 +24,7 @@ Mode
 Strength
    Controls the amount for the color mixing.
 
-   A value of 0 respect the original strokes vertex color,
+   A value of 0 respect the original stroke's color,
    a value of 1.0 totally replace the original color with the tint color.
 
    A shift greater than 1.0 will make the points alpha less transparent than originally (2.0 is fully opaque).
@@ -35,7 +35,7 @@ Tint Type
          Defines the tint color for mixing with the original color.
    Gradient
       Color Ramp
-         Defines the tint gradient color for mixing with the original vertex color.
+         Defines the tint gradient color for mixing with the original color.
          For controls see :ref:`ui-color-ramp-widget`.
       Object
          A :ref:`ui-data-id` to select an object (usually an empty),

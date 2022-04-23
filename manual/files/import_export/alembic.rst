@@ -139,8 +139,8 @@ Normals
    When enabled, an object's :term:`Normals <Normal>` are exported.
    See `Custom Split Normals of Meshes`_ below for more information.
 
-Vertex Colors
-   When enabled, exports vertex colors.
+Color Attributes
+   When enabled, exports Color Attributes.
 
 Face Sets
    Exports the material names per face. The material data is not exported but only material names.

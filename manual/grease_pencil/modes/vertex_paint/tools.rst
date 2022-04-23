@@ -21,7 +21,7 @@ Smear
    This can be imagined as a finger painting tool.
 
 Replace
-   Change the color only to the stroke points that already have vertex color applied.
+   Change the color only to the stroke points that already have a color applied.
 
 :ref:`Annotate <tool-annotate-freehand>`
    Draw free-hand annotation.

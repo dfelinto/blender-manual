@@ -18,7 +18,7 @@ The OBJ format is a popular plain text format, however, it has only basic geomet
 
 .. note::
 
-   There is no support for mesh vertex colors, armatures, animation,
+   There is no support for mesh Color Attributes, armatures, animation,
    lights, cameras, empty objects, parenting, or transformations.
 
 .. note::

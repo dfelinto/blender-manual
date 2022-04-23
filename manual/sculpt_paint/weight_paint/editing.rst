@@ -280,12 +280,12 @@ then we see different results for each of the selected vertices:
 - The middle vertex:
 
   is connected to one unselected vertex with ``weight = 1``.
-  So the average weight is 1.0 in this case, thus the selected vertex color has changed to red.
+  So the average weight is 1.0 in this case, thus the selected vertex has changed to red.
 
 - The right vertex:
 
   is surrounded by three unselected vertices with average weight = :math:`(0 + 0 + 0) / 3 = 0.0`
-  So the average weight is 0, thus the selected vertex color has not changed at all
+  So the average weight is 0, thus the selected vertex has not changed at all
   (it was already blue before Smooth was applied).
 
 .. figure:: /images/sculpt-paint_weight-paint_editing_smooth-example-3.png

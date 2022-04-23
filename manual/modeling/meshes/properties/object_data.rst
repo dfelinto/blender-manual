@@ -32,8 +32,12 @@ UV Maps are used to map a 3D object onto a 2D plane that determines where a text
 Different UV Maps can be used for different textures. For more information see :ref:`uv-maps-panel`.
 
 
-Vertex Colors
-=============
+.. _bpy.ops.geometry.color_attribute_add:
+.. _bpy.ops.geometry.color_attribute_remove:
+.. _bpy.ops.geometry.color_attribute_render_set:
+
+Color Attributes
+================
 
 Color data can be applied directly to an object's vertices rather than using a texture or a material.
 Colors can are painted onto vertices in :doc:`Vertex Paint </sculpt_paint/vertex_paint/index>` mode.
