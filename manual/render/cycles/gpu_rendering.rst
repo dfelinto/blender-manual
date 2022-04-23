@@ -46,9 +46,9 @@ OptiX works best on RTX graphics cards with hardware ray tracing support (e.g. T
 HIP -- AMD
 ----------
 
-:abbr:`HIP (Heterogeneous-compute Interface for Portability)` is supported on Windows and requires a
+:abbr:`HIP (Heterogeneous-compute Interface for Portability)` is supported on Windows and Linux and requires a
 discrete AMD graphics card with the RDNA architecture or newer and AMD Radeon Software 21.12.1
-or AMD Radeon PRO Software 21.Q4 GPU drivers and newer.
+or AMD Radeon PRO Software 21.Q4 GPU drivers and newer on Windows or the 22.10 / ROCm 5.1 driver for Linux.
 
 Support GPUs include:
 
