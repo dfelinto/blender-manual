@@ -131,8 +131,9 @@ Backface Culling
 .. _bpy.types.ToolSettings.use_snap_self:
 
 Project Onto Self
-   Available only in editing mode for Vertices, Edges, Faces and Volume.
    Snaps elements to its own mesh.
+   Available only in editing mode for Vertices, Edges, Faces and Volume.
+   Not available when :doc:`Proportional Editing </editors/3dview/controls/proportional_editing>` is enabled.
 
 .. _bpy.types.ToolSettings.use_snap_align_rotation:
 
