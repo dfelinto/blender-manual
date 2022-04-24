@@ -18,10 +18,10 @@ Image
 See :doc:`/editors/image/image_settings`.
 
 
-UDIM Grid
----------
+UDIM Tiles
+----------
 
-Allows you to control the grid size of :doc:`UDIM </modeling/meshes/uv/workflows/udims>` tiles.
+Allows you to manage :doc:`UDIM Tiles </modeling/meshes/uv/workflows/udims>`.
 
 
 Tool Tab
@@ -66,22 +66,6 @@ Annotations
 -----------
 
 Options for the :doc:`annotation tool </interface/annotate_tool>`.
-
-
-.. _bpy.types.SpaceUVEditor.use_custom_grid:
-
-Custom Grid
------------
-
-Displays a grid that does not depend on the zoom level to determine
-the number of subdivisions. The Custom Grid is useful in combination with
-:ref:`Absolute Grid Snap <bpy.types.ToolSettings.use_snap_uv_grid_absolute>`
-to create precise incremental snapping.
-
-.. _bpy.types.SpaceUVEditor.custom_grid_subdivisions:
-
-Subdivisions
-   The number of grid units in UV that make one UV unit.
 
 
 .. (TODO add) images per type

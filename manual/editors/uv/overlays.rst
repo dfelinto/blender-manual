@@ -10,7 +10,34 @@ The options that are visible in the pop-over depend on the UV Editor mode.
 
 .. seealso::
 
-   Addition :doc:`View Properties </editors/uv/sidebar>` can be configured in the Sidebar.
+   Additional :doc:`View Properties </editors/uv/sidebar>` can be configured in the Sidebar.
+
+
+Guides
+======
+
+.. _bpy.types.SpaceImageOverlay.show_grid_background:
+
+Grid
+   Show the grid background and borders.
+
+.. _bpy.types.SpaceUVEditor.use_custom_grid:
+
+Fixed Subdivisions
+   Displays a grid that does not depend on the zoom level to determine
+   the number of subdivisions. The Custom Grid is useful in combination with
+   :ref:`Absolute Grid Snap <bpy.types.ToolSettings.use_snap_uv_grid_absolute>`
+   to create precise incremental snapping.
+
+   .. _bpy.types.SpaceUVEditor.custom_grid_subdivisions:
+
+   The number of grid units in UV that make one UV unit can be set via the *Dynamic Grid Size*.
+
+.. _bpy.types.SpaceUVEditor.tile_grid_shape:
+
+Tiles X, Y
+   The number of :doc:`UDIM </modeling/meshes/uv/workflows/udims>`
+   tile grids to display in each cardinal direction.
 
 
 UV Editing
