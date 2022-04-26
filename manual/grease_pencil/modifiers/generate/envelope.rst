@@ -33,6 +33,9 @@ Strength
 Material Index
    Defines the material to use on the generated stroke segments.
 
+Skip Segments
+   The Number of generated stroke segments to skip to reduce complexity.
+
 
 Influence Filters
 -----------------
