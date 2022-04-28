@@ -379,6 +379,14 @@ QCD Hotkeys
    Enable 3D Viewport hotkeys in Object Mode.
 QCD Edit Mode Hotkeys
    Enable 3D Viewport hotkeys in Edit Mode.
+QCD 3D Viewport Header Widget
+   Enable the widget containing the QVT menu and a graphical representation of
+   the 20 QCD slots in the right-hand corner of the 3D Viewport header.
+
+   .. note::
+
+      Create All QCD Slots and Enable All QCD Slots Isolated (from the QVT menu)
+      currently don't have hotkeys and are only available through this widget.
 
 QCD Move Widget:
    Tool Theme Overrides
