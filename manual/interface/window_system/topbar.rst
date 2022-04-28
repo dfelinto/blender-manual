@@ -186,8 +186,12 @@ Lock Object Modes
 
    .. note::
 
-      This is useful to enable while animating in pose-mode
-      where failure to select a bone could select background scenery, exiting pose-mode.
+      Locking object modes can help prevent accidental mode changes.
+      For example when animating in pose mode, where failure to select a bone
+      could select the background scenery and thus could exit pose mode. 
+      
+      You may want to disable Lock Object Modes for example when weighting rigged objects
+      or sculpt/painting where you intentionally want to switch between objects in different modes. 
 
 Preferences
    Open the Preferences window.
