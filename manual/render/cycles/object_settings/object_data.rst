@@ -209,8 +209,6 @@ to selectively speed up caustic rendering of objects in your scene.
    - MNEE Caustic rays can pass through up to 6 Caustic Caster surfaces between a Caustic Reciever and a
      Shadow Caustic light before the ray is terminated and caustics are ignored.
 
-   - MNEE Caustics are treated as direct lighting instead of indirect lighting.
-
    - MNEE Caustics only work if the caustic caster has smooth normals.
 
    - Volumetric materials can not recieve MNEE caustics.
