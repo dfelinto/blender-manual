@@ -222,7 +222,13 @@ Asset Previews
    Preview panel in the Asset Browser.
 
 Preview images are typically automatically generated when you
-:ref:`mark a data-block as asset <bpy.ops.asset.mark>`.
+:ref:`mark a data-block as asset <bpy.ops.asset.mark>`. The auto-generated
+preview tries to capture the object from the front. However this only works if
+the geometry is laid out so that it matches what Blender considers to be the
+front. That is, the geometry that should be the front needs to point down the -Y
+axis of the object. The rotation may have to be applied to get the expected
+result. Collection assets use the global -Y  axis as the front (instead of the
+local one, as collections themselves don't have a rotation).
 
 It's also possible to load image files from drive, to replace the auto-generated previews.
 
