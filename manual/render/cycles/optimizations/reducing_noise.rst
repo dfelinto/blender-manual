@@ -243,8 +243,8 @@ enabling this option may take samples away from more important light sources if 
 Glass and Transparent Shadows
 =============================
 
-With caustics disabled, glass will miss shadows,
-and with filter glossy they might be too soft.
+With caustics disabled, glass shadows may appear too dark,
+and with filter glossy the caustics might be too soft.
 We can make a glass shader that will use a Glass BSDF when viewed *directly*,
 and a Transparent BSDF when viewed *indirectly*. The Transparent BSDF can be used for
 transparent shadows to find light sources straight through surfaces,
@@ -256,7 +256,7 @@ The Light Path node is used to determine when to use which of the two shaders.
    Optimized glass shader.
 
 Above we can see the node setup used for the glass transparency trick;
-on the left the render has too much shadow due to missing caustics,
+on the left the render has dark shadows due to missing caustics,
 and on the right the render with the trick.
 
 .. list-table::
