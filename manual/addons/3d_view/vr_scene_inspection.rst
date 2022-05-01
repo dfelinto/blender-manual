@@ -70,6 +70,10 @@ Show
       Requires enabling the `Use Controller Actions <VR Session_>`_ option.
    Custom Overlays
       Set visibility of custom operator drawing (e.g. default teleport beam).
+   Object Extras
+      Set visibility of object extras, including empties, lights, and cameras.
+   Object Type Visibility ``👁``
+      Set visibility of objects by type.
 Controller Style
    Preferred visualization of VR motion controllers.
 Clip Start/End
@@ -101,6 +105,8 @@ Landmark
    Add from Session ``⊕``
       Create a landmark from the viewer pose of the running VR session.
    Landmark Controls ``v``
+      Add Camera and VR Landmark from Session
+         Create a new camera and landmark from the viewer pose of the running VR session.
       Add Landmark from Camera
          Add a new landmark from the active camera object.
       Update Custom Landmark
@@ -140,6 +146,8 @@ Extensions
       Enable bindings for the HP Reverb G2 controllers.
    HTC Vive Cosmos
       Enable bindings for the HTC Vive Cosmos controllers.
+   HTC Vive Focus
+      Enable bindings for the HTC Vive Focus 3 controllers.
    Huawei
       Enable bindings for the Huawei controllers.
 

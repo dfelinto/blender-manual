@@ -142,6 +142,9 @@ This standard is new and therefore support for it is still limited.
    * - `HTC Vive Cosmos`_
      - Windows
      - `Developer Preview <https://forum.vive.com/topic/9046-vive-openxr-support-for-vive-cosmos/>`__
+   * - `HTC Vive Focus 3`_
+     - Windows
+     - `Developer Preview <https://forum.vive.com/topic/9876-focus-3-openxr-support-status/page/3/>`__
    * - `Monado`_
      - GNU/Linux
      - *Not* recommended for general use yet.
@@ -178,6 +181,18 @@ is currently targeted at developers and may lack features found in other platfor
 - Enable the :doc:`VR Scene Inspection add-on </addons/3d_view/vr_scene_inspection>` in Blender.
 
 
+HTC Vive Focus 3
+^^^^^^^^^^^^^^^^
+
+The dedicated platform for
+the `HTC Vive Focus 3 <https://www.vive.com/eu/product/vive-focus3/overview/>`__
+is currently targeted at developers and may lack features found in other platforms.
+
+- Follow the steps from
+  the `Vive Developer Forums <https://forum.vive.com/topic/9876-focus-3-openxr-support-status/page/3/>`__.
+- Enable the :doc:`VR Scene Inspection add-on </addons/3d_view/vr_scene_inspection>` in Blender.
+
+
 Monado
 ^^^^^^
 
@@ -203,7 +218,7 @@ Oculus
 `Oculus <https://www.oculus.com/>`__ provides full support for OpenXR as of the Oculus v31 Software Update.
 
 - Download and install the `Oculus Rift/Oculus Link software <https://www.oculus.com/setup/>`__.
-- Set Oculus as the active OpenXR runtime via the *Beta* tab in the Oculus App Settings.
+- Set Oculus as the active OpenXR runtime via the *General* tab in the Oculus App Settings.
 
 .. figure:: /images/getting-started_configuration_hardware_xr_runtime_oculus.jpg
    :scale: 50 %
