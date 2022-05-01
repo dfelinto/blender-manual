@@ -79,6 +79,8 @@ Vertical/Horizontal Split
    :kbd:`Tab` switches between vertical/horizontal.
 Join Areas
    Shows the join direction overlay.
+Swap Areas
+   Swaps this area with the adjacente one.
 
 
 Swapping Contents
