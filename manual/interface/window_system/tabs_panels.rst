@@ -77,7 +77,8 @@ located in on the right side of the panel header.
 Pinning
 -------
 
-Sometimes it is desirable to view panels from different tabs at the same time.
+Sometimes it is desirable to view panels from different tabs at the same time. 
+Like, for instance, having access to a camera's properties, while other objects are selected.
 This has been solved by making panels pinnable.
 
 A pinned panel remains visible regardless of which tab has been selected.
