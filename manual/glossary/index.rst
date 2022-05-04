@@ -790,6 +790,14 @@ This page lists definitions for terms used in Blender and this manual.
 
       See also :term:`Display Referenced`.
 
+   Blender Session
+   Session
+      The timespan of a Blender instance. The session begins with starting an instance of Blender
+      and ends with closing it.
+
+      In some cases, loading a new file may be considered beginning a new
+      session. If so, the documentation should mention that.
+
    Shading
       Process of altering the color of an object/surface in the 3D scene,
       based on its angle to lights and its distance from lights to create a photorealistic effect.

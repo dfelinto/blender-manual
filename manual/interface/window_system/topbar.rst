@@ -62,7 +62,7 @@ Recover
    Recover Last Session
       This will load a blend-file that Blender automatically saves just before exiting.
       So this option enables you to :doc:`recover </troubleshooting/recover>`
-      your last work session, e.g. if you closed Blender by accident.
+      your last work :term:`session`, e.g. if you closed Blender by accident.
    Recover Auto Save
       This will open an automatically saved file
       to :doc:`recover </troubleshooting/recover>` it.

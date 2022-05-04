@@ -30,7 +30,8 @@ Interactive Region
    Open
       Allows opening an existing blend-file.
    Recover Last Session
-      Blender will try to recover the last session based on temporary files. See :doc:`/troubleshooting/recover`.
+      Blender will try to recover the last :term:`session` based on temporary files. See
+      :doc:`/troubleshooting/recover`.
    Links
       Links to the official web site. The same links can be found in the :ref:`help-menu`
       of the :doc:`Topbar </interface/window_system/topbar>`.

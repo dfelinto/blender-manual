@@ -32,7 +32,8 @@ The following items are available in this menu:
 
 Auto-Save Preferences
    By default changes to preferences are saved on exit,
-   this allows changes to the keymap and Quick Favorites menu to be stored and used between sessions.
+   this allows changes to the keymap and Quick Favorites menu to be stored and used between
+   :term:`sessions`.
 
    When disabled, a *Save Preferences* button is shown to manually perform the operation.
 Revert to Saved Preferences
@@ -43,7 +44,8 @@ Load Factory Preferences
 
    .. note::
 
-      After running *Load Factory Preferences*, auto-save will be disabled for the current session.
+      After running *Load Factory Preferences*, auto-save will be disabled for the current
+      :term:`session`.
 
       This allows you to switch back to the factory settings for testing
       or following tutorials for example, without the risk of accidentally auto-saving

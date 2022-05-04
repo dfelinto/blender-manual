@@ -79,9 +79,9 @@ in the :doc:`Preferences </editors/preferences/index>`.
      - Teleport location at the cross-hair
        (offset by the *Camera Height* value set in the :doc:`Preferences </editors/preferences/index>`).
    * - :kbd:`WheelUp`/:kbd:`NumpadPlus`
-     - Increase the movement speed for this open session.
+     - Increase the movement speed for this open :term:`session`.
    * - :kbd:`WheelDown`/:kbd:`NumpadMinus`
-     - Decrease the movement speed for this open session.
+     - Decrease the movement speed for this open :term:`session`.
    * - :kbd:`Shift`
      - Speed up the movement temporarily.
    * - :kbd:`Alt`

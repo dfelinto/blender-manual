@@ -46,9 +46,9 @@ Last Session
    :Menu:      :menuselection:`File --> Recover --> Last Session`
 
 The *Recover Last Session* will open the ``quit.blend`` file
-that is saved into the :ref:`temp-dir` when you quit Blender under normal operation.
-Note that files in your temporary directory may be deleted when you reboot your computer
-(depending on your system configuration).
+that is saved into the :ref:`temp-dir` when you quit Blender under normal operation (see
+:term:`Blender Session`). Note that files in your temporary directory may be deleted when you reboot
+your computer (depending on your system configuration).
 
 
 Auto Save

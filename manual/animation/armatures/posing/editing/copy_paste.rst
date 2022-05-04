@@ -28,8 +28,9 @@ Paste Pose Flipped
 
 Here are important points:
 
-- This tool works at the Blender session level, which means you can use it across armatures, scenes, and even files.
-  However, the pose buffer is not saved, so you lose it when you close Blender.
+- This tool works at the :term:`Blender session` level, which means you can use it across
+  armatures, scenes, and even files. However, the pose buffer is not saved, so you lose it when you
+  close Blender.
 - There is only one pose buffer.
 - Only the selected bones are taken into account during copying (i.e. you copy only selected bones' pose).
 - During pasting, on the other hand, bone selection has no importance.

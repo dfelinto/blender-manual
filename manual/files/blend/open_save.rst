@@ -85,7 +85,8 @@ Last Session
    :Menu:      :menuselection:`File --> Recover --> Last Session`
 
 This will load the ``quit.blend`` file Blender automatically saved just before exiting.
-This option enables you to recover your last work session if, for example, you closed Blender by accident.
+This option enables you to recover your last work :term:`session` if, for example, you closed
+Blender by accident.
 
 
 .. _bpy.ops.wm.recover_auto_save:
