@@ -64,18 +64,23 @@ Fisheye Lens Polynomial
 -----------------------
 
 Match a real world camera by specifying the coordinates of a 4th degree polynomial.
-A position :math:`(x, y)` on the camera sensor in mm is mapped to a direction with
-spherical coordinates :math:`(1, \theta, \phi)` in radians as follows:
+
+The projection works as follows.
+Pixels in the image are mapped to positions :math:`(x, y)` on the camera sensor in mm.
+A position on the sensor is mapped to a direction with spherical coordinates
+:math:`(1, \theta, \phi)` in radians as follows:
 
 .. math::
   & r = \sqrt{x^2 + y^2}\\
   & \theta = k_0 + k_1 r + k_2 r^2 + k_3 r^3 + k_4 r^4\\
   & \phi = acos(x/r)
 
+Incoming light from this direction is then projected onto the corresponding pixel.
+
 This can be used to model both fisheye and perspective cameras.
 
 Mirror Ball
 -----------
 
-Render is if taking a photo of a reflective mirror ball.
+Render as if taking a photo of a reflective mirror ball.
 This can be useful in rare cases to compare with a similar photo taken to capture an environment.

@@ -90,6 +90,15 @@ Step
    Allows displaying one point for every *n* frames on the path.
    Mostly useful when you enable the frame number display (see below), to avoid cluttering the 3D Viewport.
 
+.. _bpy.types.AnimVizMotionPaths.range:
+
+Calculation Range
+   The method to choose the upper and lower bounds of Motion Paths.
+
+   :Scene Frame Range: Calculates Motion Paths for the entire Scene or Preview frame duration.
+   :Selected Keys: Calculates Motion Paths for the range of the first selected keyframe to the last keyframe.
+   :All Keys: Calculates Motion Paths from the first keyframe to the last keyframe.
+
 .. _bpy.types.MotionPath.frame_start:
 .. _bpy.types.MotionPath.frame_end:
 

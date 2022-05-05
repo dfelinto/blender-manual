@@ -28,10 +28,7 @@ Image
    These include options to control the alpha channel along with addition options for the color space.
    These addition options are documented with the rest of
    :ref:`Common Image Settings <editors-image-image-settings-common>`.
-Color Space
-   Type of data that the image contains, either Color or Non-Color Data.
-   For most color textures the default of Color should be used, but in case of e.g. a bump or alpha map,
-   the pixel values should be interpreted as Non-Color Data, to avoid doing any unwanted color space conversions.
+
 Interpolation
    Method to scale images up or down for rendering.
 
@@ -43,6 +40,7 @@ Interpolation
    :Smart: :guilabel:`Cycles Only`
       Only for Open Shading Language. Use cubic interpolation when scaling up and linear when scaling down,
       for a better performance and sharpness.
+
 Projection
    Projection to use for mapping the textures.
 
@@ -74,6 +72,16 @@ Extension
    :Repeat: Will repeat the image horizontally and vertically giving tiled-looking result.
    :Extend: Will extend the image by repeating pixels on its edges.
    :Clip: Clip to the original image size and set all the exterior pixels values to transparent black.
+
+Color Space
+   Type of data that the image contains, either Color or Non-Color Data.
+   For most color textures the default of Color should be used, but in case of e.g. a bump or alpha map,
+   the pixel values should be interpreted as Non-Color Data, to avoid doing any unwanted color space conversions.
+
+Alpha
+   If the source file has an Alpha (transparency) channel, you can choose how the alpha channel is encoded in the image.
+
+   :term:`Straight Alpha` or :term:`Premultiplied Alpha`
 
 
 Outputs

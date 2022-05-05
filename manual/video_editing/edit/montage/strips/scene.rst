@@ -18,7 +18,7 @@ Options
 =======
 
 Scene
-   A :ref:`ui-data-block` to select the scene to render from.
+   A :ref:`ui-data-block` to select or create the scene to render from.
 
 Input
    Input type to use for the Scene strip.

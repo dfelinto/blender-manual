@@ -6,9 +6,12 @@ Arranging Nodes
 Snapping
 ========
 
+.. _bpy.types.ToolSettings.use_snap_node:
+
 Snap
    Toggle snapping mode for moving nodes around.
-Snap Node Element Selector
+
+Snap Node Element
    This selector provide the following node elements for snap:
 
    :Grid: Snap to grid background.

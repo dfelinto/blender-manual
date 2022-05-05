@@ -1,4 +1,4 @@
-.. _bpy.types.ShaderNodeObjectInfo:
+rB15186f4259a2e0611a64a3aed8db8858e8ca081f.. _bpy.types.ShaderNodeObjectInfo:
 
 ****************
 Object Info Node
@@ -34,6 +34,8 @@ Location
    Location of the object in world space.
 Color
    Object color, same as *Color* in the :menuselection:`Properties --> Object Properties --> Viewport Display`.
+Alpha
+   The :term:`Alpha` component of the object's viewport display color (see the *Color* output for more details).
 Object Index
    Object pass index, same as *Pass Index*
    in the :menuselection:`Properties --> Object Properties --> Relations`.
