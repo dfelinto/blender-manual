@@ -211,7 +211,7 @@ to selectively speed up caustic rendering of objects in your scene.
 
    - MNEE Caustics only work if the caustic caster has smooth normals.
 
-   - Volumetric materials can not recieve MNEE caustics.
+   - Volumetric materials can not considered when calculating MNEE caustics.
 
    - Bump and normal maps are ignored when calculating caustics.
 
