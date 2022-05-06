@@ -184,3 +184,18 @@ Homogeneous
 Step Size
    Distance between volume shader samples for world volume shaders.
    See :doc:`Volume Render Settings </render/cycles/render_settings/volumes>` for more information.
+
+
+Light Group
+-----------
+
+.. _bpy.types.World.lightgroup:
+
+Light Group :guilabel:`Cycles only`
+   Select the :ref:`Light Group <bpy.types.ViewLayer.active_lightgroup_index>` to add the
+   current *World Surface Shader* too.
+   
+   Add Light Group
+      If the name input into the *Light Group* field does not align with an existing
+      Light Group, then pressing this button will create a *Light Group* with that name
+      and assign this *World Shader* to it.  
