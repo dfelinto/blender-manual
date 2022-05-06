@@ -85,6 +85,12 @@ This is the list of image file formats supported internally by Blender:
      - |cross|
      - |tick|
      - ``.tif`` ``.tiff``
+   * - WebP
+     - 8bit
+     - |tick|
+     - |tick|
+     - |tick|
+     - ``.webp``
 
 .. hint::
 
