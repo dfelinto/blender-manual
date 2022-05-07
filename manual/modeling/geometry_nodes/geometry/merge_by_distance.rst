@@ -39,9 +39,10 @@ Properties
 ==========
 
 Mode
+   Method for choosing which vertices are merged.
 
-
-This node has no properties.
+   :All: Merge includes all geometry including loose parts.
+   :Connected: Merge only includes attached geometry i.e. the modifier will not merge loose parts together.
 
 
 Output

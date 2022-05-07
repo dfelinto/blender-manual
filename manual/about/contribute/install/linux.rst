@@ -30,10 +30,6 @@ Arch Linux::
 
       sudo pacman -S python python-pip subversion
 
-.. warning::
-
-   Python 3.10 is not yet support, it is recommended to use Python 3.9 or earlier.
-
 
 Downloading the Repository
 ==========================

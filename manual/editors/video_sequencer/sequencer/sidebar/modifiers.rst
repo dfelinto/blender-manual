@@ -58,6 +58,15 @@ Types
 Currently, the following modifiers are supported:
 
 
+.. index:: Video Sequencer Modifiers; Bright/Contrast Modifier
+.. _bpy.types.BrightContrastModifier:
+
+Bright/Contrast Modifier
+------------------------
+
+Adjusts the brightness and contrast of the modifier input.
+
+
 .. index:: Video Sequencer Modifiers; Color Balance Modifier
 .. _bpy.types.ColorBalanceModifier:
 
@@ -95,6 +104,7 @@ Offset/Power/Slope (ASC-CDL)
    Power
       Over-all exponent :math:`p`, which mainly adjusts the midtones.
 
+
 .. index:: Video Sequencer Modifiers; Curves Modifier
 .. _bpy.types.CurvesModifier:
 
@@ -117,15 +127,6 @@ HSV multi points curves.
 This modifier works the same as the :doc:`Curves Node </compositing/types/color/hue_correct>`.
 
 
-.. index:: Video Sequencer Modifiers; Bright/Contrast Modifier
-.. _bpy.types.BrightContrastModifier:
-
-Bright/Contrast Modifier
-------------------------
-
-Adjusts the brightness and contrast of the modifier input.
-
-
 .. index:: Video Sequencer Modifiers; Mask Modifier
 
 Mask Modifier
@@ -140,15 +141,6 @@ or to use another strip as a mask (the image of this strip must have an alpha ch
 This mask will be applied on all the others modifiers below it in the stack.
 
 
-.. index:: Video Sequencer Modifiers; White Balance Modifier
-.. _bpy.types.WhiteBalanceModifier:
-
-White Balance Modifier
-----------------------
-
-Use it to adjust the white balance by choosing the color that should be white.
-
-
 .. index:: Video Sequencer Modifiers; Tone Map Modifier
 
 Tone Map Modifier
@@ -158,3 +150,12 @@ Used to map one set of colors to another in order to approximate the appearance
 of high dynamic range images in a medium that has a more limited dynamic range.
 
 This modifier works the same as the :doc:`Tone Map Node </compositing/types/color/tone_map>`.
+
+
+.. index:: Video Sequencer Modifiers; White Balance Modifier
+.. _bpy.types.WhiteBalanceModifier:
+
+White Balance Modifier
+----------------------
+
+Use it to adjust the white balance by choosing the color that should be white.
