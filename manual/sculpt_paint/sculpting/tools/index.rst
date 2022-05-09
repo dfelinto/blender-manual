@@ -33,9 +33,11 @@
    cloth.rst
    simplify.rst
    mask.rst
+   draw_facesets.rst
    multires_displacement_eraser.rst
    multires_displacement_smear.rst
-   draw_facesets.rst
+   paint.rst
+   smear.rst
    box_mask.rst
    lasso_mask.rst
    line_mask.rst
@@ -47,4 +49,5 @@
    mesh_filter.rst
    cloth_filter.rst
    edit_face_set.rst
+   mask_by_color.rst
    transforms.rst

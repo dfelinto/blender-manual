@@ -55,6 +55,8 @@ Preserve
       Reprojects the :ref:`paint mask <sculpt-mask-menu>` onto the new mesh.
    Face Sets
       Reprojects :ref:`Face Sets <sculpting-editing-facesets>` onto the new mesh.
+   Color Attributes
+      Reprojects the :ref:`Color Attributes <modeling-meshes-properties-object_data-color-attributes>` onto the new mesh.
 
 Voxel Remesh
    Performs the remeshing operation to create a new manifold mesh based on the volume of the current mesh.

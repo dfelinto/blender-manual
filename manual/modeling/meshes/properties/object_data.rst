@@ -35,12 +35,17 @@ Different UV Maps can be used for different textures. For more information see :
 .. _bpy.ops.geometry.color_attribute_add:
 .. _bpy.ops.geometry.color_attribute_remove:
 .. _bpy.ops.geometry.color_attribute_render_set:
+.. _modeling-meshes-properties-object_data-color-attributes:
 
 Color Attributes
 ================
 
 Color data can be applied directly to an object's vertices rather than using a texture or a material.
-Colors can are painted onto vertices in :doc:`Vertex Paint </sculpt_paint/vertex_paint/index>` mode.
+There are two modes to paint color attributes in.
+Use :doc:`Vertex Paint </sculpt_paint/vertex_paint/index>` mode to paint per face corner
+by enabling the paint mask in the header.
+This is useful to achieve sharp edges in the color attribute on low-poly assets.
+Alternatively use Sculpt mode to paint on a much higher vertex count.
 
 
 .. _bpy.types.FaceMaps:

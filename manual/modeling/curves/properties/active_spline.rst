@@ -101,10 +101,8 @@ Cyclic U
 Bézier U
    Makes the NURBS curve act like a Bézier curve.
    The NURBS control points act like *Free* handles of Bézier curve.
-   Depending on the *Order*, 3 or 4 control points form one curve segment.
-   *Cyclic* and *Endpoint* must be disabled for this option to work.
 Endpoint U
-   Makes the curve contact the end control points. *Cyclic* must be disabled for this option to work.
+   Makes the curve contact the end control points.
 
    .. list-table::
 

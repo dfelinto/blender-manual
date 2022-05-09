@@ -29,11 +29,9 @@ Bézier U
    The control points act like *Free* handles of a Bézier curve.
    Depending on the *Order*, 3 or 4 control points form one spline segment.
    This can be set per interpolation axis.
-   *Cyclic* and *Endpoint* must be disabled for this option to work.
 Endpoint U/V
    Makes the surface contact the end control points.
    This can be set per interpolation axis.
-   *Cyclic* must be disabled for this option to work.
 
    .. figure:: /images/modeling_surfaces_properties_active-spline_endpoint.png
       :align: center
