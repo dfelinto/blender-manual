@@ -207,6 +207,9 @@ to selectively speed up caustic rendering of objects in your scene.
      in many situations. Examples include incorrect brightnesses and the incorrect representation of
      caustics caused by rough or curved surfaces.
 
+   - In complex materials with multiple refractive BSDFs, MNEE will only generate caustics for one of
+     the BSDFs.
+
    - :ref:`Filter Glossy <bpy.types.CyclesRenderSettings.blur_glossy>` settings are ignored when using
      MNEE for refractive caustics.
 
