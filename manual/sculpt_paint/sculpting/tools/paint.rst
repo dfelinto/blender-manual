@@ -11,7 +11,7 @@ Paint
 Paints on the active color attribute.
 
 Brush Settings
-=============
+==============
 
 Color
    Choose a primary and secondary color for painting. See :ref:`ui-color-picker`.
