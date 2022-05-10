@@ -48,6 +48,7 @@
    line_project.rst
    mesh_filter.rst
    cloth_filter.rst
+   color_filter.rst
    edit_face_set.rst
    mask_by_color.rst
    transforms.rst
