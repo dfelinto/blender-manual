@@ -29,6 +29,15 @@ Library overrides supports:
    There are known issues that have to be addressed. See Phabricator `main task of the project
    <https://developer.blender.org/T73318>`__, for more details.
 
+.. warning::
+
+   While in most cases library overrides data is preserved accross a loss of reference linked data
+   (if e.g. the library file becomes unavailable or is relocated), there are some exceptions.
+
+   The main one is probably posed (but not animated) armature objects, when their Aramture obdata
+   itself is not overridden. The Pose bones of an armature object are fully linked to the bones
+   of its Armature obdata, if the later goes missing, the pose bones are definitively lost.
+
 
 Override Hierarchies
 ====================
