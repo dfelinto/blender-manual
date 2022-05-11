@@ -11,8 +11,8 @@ Channel Key Node
 The *Channel Key* node determines background objects from foreground objects by
 the difference in the selected channel's levels.
 
-For example in YUV color space,
-this is useful when compositing stock footage of explosions (very bright)
+For example in the YUV :term:`Color Model`,
+this node is useful when compositing stock footage of explosions (very bright)
 which are normally shot against a solid, dark background.
 
 
@@ -27,7 +27,7 @@ Properties
 ==========
 
 Color Space
-   This button selects what color space the channels will represent.
+   This button selects what color model the channels will represent.
 
    RGB, HSV, YUV, YCbCr
 

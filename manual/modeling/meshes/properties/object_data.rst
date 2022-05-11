@@ -32,7 +32,6 @@ UV Maps are used to map a 3D object onto a 2D plane that determines where a text
 Different UV Maps can be used for different textures. For more information see :ref:`uv-maps-panel`.
 
 
-.. _bpy.ops.geometry.color_attribute_add:
 .. _bpy.ops.geometry.color_attribute_remove:
 .. _bpy.ops.geometry.color_attribute_render_set:
 .. _modeling-meshes-properties-object_data-color-attributes:
@@ -46,6 +45,31 @@ Use :doc:`Vertex Paint </sculpt_paint/vertex_paint/index>` mode to paint per fac
 by enabling the paint mask in the header.
 This is useful to achieve sharp edges in the color attribute on low-poly assets.
 Alternatively use Sculpt mode to paint on a much higher vertex count.
+
+
+.. _bpy.ops.geometry.color_attribute_add:
+
+Creating a New Color Attribute
+------------------------------
+
+To create a new Color Attribute select the plus icon next to the list of attributes.
+This action will open a pop-up with the following information.
+
+Name
+   The name of the Color Attribute which can be referenced elsewhere in Blender.
+Domain
+   The associated part of the geometry that stores the attribute.
+   See :ref:`attribute-domains` for more information.
+
+   :Vertex: Color Attributes are stored per each vertex.
+   :Face Corner: Color Attributes are stored per each corner of a face.
+Data Type
+   The data type to represent colors internally.
+
+   :Color: RGBA color with floating-point precision.
+   :Byte Color: RGBA color with 8-bit precision.
+Color
+   The default color to fill for every element in the domain.
 
 
 .. _bpy.types.FaceMaps:

@@ -78,6 +78,10 @@ Color Space
    For most color textures the default of Color should be used, but in case of e.g. a bump or alpha map,
    the pixel values should be interpreted as Non-Color Data, to avoid doing any unwanted color space conversions.
 
+   The list of color spaces depends on the active :ref:`OCIO config <ocio-config>`.
+   The default supported color spaces are described in detail here:
+   :ref:`Default OpenColorIO Configuration <ocio-config-default-color-spaces>`
+
 Alpha
    If the source file has an Alpha (transparency) channel, you can choose how the alpha channel is encoded in the image.
 

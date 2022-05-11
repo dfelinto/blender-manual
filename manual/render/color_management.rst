@@ -167,6 +167,10 @@ Sequencer
    but it can also be set to work in Linear space like the Compositing nodes, or another color space.
    Different color spaces will give different results for color correction, crossfades, and other operations.
 
+   The list of color spaces depends on the active :ref:`OCIO config <ocio-config>`.
+   The default supported color spaces are described in detail here:
+   :ref:`Default OpenColorIO Configuration <ocio-config-default-color-spaces>`
+
 
 .. _bpy.types.ColorManagedViewSettings.use_curve_mapping:
 
@@ -187,17 +191,11 @@ for example. Such maps do not actually store colors, just data encoded as colors
 Those images should be marked as *Non-Color Data*.
 
 Image data-blocks will always store float buffers in memory in the scene linear color space,
-while a byte buffer in memory and files in a drive are stored in the color space specified with this setting:
+while a byte buffer in memory and files in a drive are stored in the specified
+:ref:`color space <bpy.types.ColorManagedInputColorspaceSettings.name>` setting.
 
-Color Space
-   The color space of the image file on a drive. This depends on the file format,
-   for example, PNG or JPEG images are often stored in sRGB, while OpenEXR images are stored in a linear color space.
-   Some images such as normal, bump or stencil maps do not strictly contain 'colors',
-   and on such values, no color space conversion should ever be applied.
-   For such images, the color space should be set to *Non-Color*.
-
-By default only renders are displayed and saved with the render view transformations applied.
-These are the Render Result and Viewer image data-blocks,
+By default, only renders are displayed and saved with the render *View Transformation* applied.
+These images are the "Render Result" and "Viewer" image data-blocks,
 and the files saved directly to a drive with the Render Animation operator.
 However, when loading a render saved to an intermediate OpenEXR file,
 Blender cannot detect automatically that this is a render
@@ -223,7 +221,7 @@ contains a number of useful display devices and view transforms.
 The reference linear :term:`Color Space` used is the linear color space
 with Rec. 709 chromaticities and D65 white point.
 
-However, OpenColorIO was also designed to give a consistent user experience across
+However, OpenColorIO is also designed to give a consistent user experience across
 `multiple applications <https://opencolorio.org/#supported_apps>`__,
 and for this, a single shared configuration file can be used.
 Blender will use the standard OCIO environment variable to read an OpenColorIO configuration
@@ -257,3 +255,22 @@ However, the ACES gamut is larger than the Rec. 709 gamut, so for best results,
 an ACES specific configuration file should be used. OpenColorIO provides
 an `ACES configuration <https://opencolorio.readthedocs.io/en/latest/configurations/_index.html>`__ file,
 though it may need a few more tweaks to be usable in production.
+
+
+Default OpenColorIO Configuration
+=================================
+
+.. _ocio-config-default-color-spaces:
+
+Color Spaces
+   Blender's OCIO configuration file is equipped by default to read/write files in these color spaces:
+
+   :sRGB: Standard RGB display space using Rec. 709 chromaticities and a D65 white point.
+   :Linear:
+      Blender's native linear space meaning there is no gamma mapping,
+      using Linear Rec. 709 chromaticities and a D65 white point.
+   :Linear ACES: ACES linear space using AP0 RGB primaries and a white point close to D60.
+   :XYZ: Standard linear XYZ space.
+   :Non-Color: Color space used for images which contains non-color data (e.g. normal maps).
+   :Raw: Does not automatically convert to linear; same as Non-Color.
+   :Filmic Log: Intermediate log color space of Filmic view transform.

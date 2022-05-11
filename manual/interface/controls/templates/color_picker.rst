@@ -20,7 +20,7 @@ Color Slider
    It can also be controlled with the :kbd:`Wheel`.
 
 Color Model
-   Selects the :term:`Color Space` for the number fields below.
+   Selects the :term:`Color Model` for the number fields below.
 
    RGB, HSV/HSL, Hex
 

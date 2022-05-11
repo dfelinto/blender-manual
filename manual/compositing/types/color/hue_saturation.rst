@@ -12,7 +12,7 @@ Hue Saturation Value Node
    :align: right
    :alt: Hue Saturation Node.
 
-The *Hue Saturation Value Node* applies a color transformation in the HSV color space.
+The *Hue Saturation Value Node* applies a color transformation in the HSV :term:`Color Model`.
 
 
 Inputs

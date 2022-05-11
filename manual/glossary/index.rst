@@ -218,9 +218,13 @@ This page lists definitions for terms used in Blender and this manual.
       - The :term:`White Point`
       - A transfer function
 
+      The color spaces supported by Blender depend on the active :ref:`OCIO config <ocio-config>`.
+      The default supported color spaces are described in detail here:
+      :ref:`Default OpenColorIO Configuration <ocio-config-default-color-spaces>`
+
       sRGB
-         A color space that uses the Rec .709 :term:`Primaries` and white point but,
-         with a slightly different transfer function.
+         A color space that uses the Rec .709 :term:`Primaries` and a D65 white point,
+         and 2.2 gamma correction value as the transfer function.
 
    Concave Face
       Face in which one vertex is inside a triangle formed by other vertices of the face.

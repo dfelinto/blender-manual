@@ -44,7 +44,7 @@ Specials ``v``
 .. _bpy.types.ColorRamp.color_mode:
 
 Color Mode
-   Selection of the :term:`Color Space` used for interpolation.
+   Selection of the :term:`Color Model` used for interpolation.
 
    :RGB:
       Blends color by mixing each color channel and combining.

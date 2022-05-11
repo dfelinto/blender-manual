@@ -92,4 +92,4 @@ Main View
 =========
 
 When :kbd:`LMB` / :kbd:`RMB` dragging mouse the color under the cursor is shown in the footer as well the cursor
-position and the color values in the RGBA, HSV and Luminance :term:`Color Space`.
+position and the color values in the RGBA, HSV and Luminance :term:`Color Model`.

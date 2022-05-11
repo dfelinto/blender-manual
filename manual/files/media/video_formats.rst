@@ -25,7 +25,7 @@ different operating systems.
 
 .. note::
 
-   Most codecs can only compress the RGB or YUV :term:`Color Space`,
+   Most codecs can only compress the RGB or YUV colors,
    but some support the Alpha channel as well. Codecs that support RGBA include:
 
    - `FFmpeg video codec #1 <https://en.wikipedia.org/wiki/FFV1>`__

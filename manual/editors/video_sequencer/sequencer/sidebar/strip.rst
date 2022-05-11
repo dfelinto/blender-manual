@@ -219,6 +219,10 @@ MPEG Preseek
    based on the specified amount of previous frames (e.g. 15 for MPEG-2 DVD).
 Color Space
    To specify the color space of the source file.
+
+   The list of color spaces depends on the active :ref:`OCIO config <ocio-config>`.
+   The default supported color spaces are described in detail here:
+   :ref:`Default OpenColorIO Configuration <ocio-config-default-color-spaces>`
 Alpha Mode
    If the source file has an Alpha (transparency) channel, you can choose:
 

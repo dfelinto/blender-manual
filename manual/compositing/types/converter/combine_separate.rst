@@ -14,15 +14,15 @@ All of these nodes do essentially the same thing:
 - Combine: Re/combine an image from its composite color channels.
 
 These nodes can be used to manipulate each color channel independently.
-Each type is differentiated in the applied :term:`Color Space`.
+Each type is differentiated in the applied :term:`Color Model`.
 
 In compositing and texture context each node supports the Alpha channel.
-In the texture context only RGB color space is available.
+In the texture context only RGB channels are available.
 In the shading context of Cycles and Eevee, a combine and separate node is added
 for HSV.
 
 The Combine nodes can also be used to input single color values.
-For RGBA and HSVA color spaces it is recommended to use the :doc:`/compositing/types/input/rgb`.
+For RGBA and HSVA color models it is recommended to use the :doc:`/compositing/types/input/rgb`.
 Some common operations could easier be executed with the :doc:`/compositing/types/color/index`.
 
 

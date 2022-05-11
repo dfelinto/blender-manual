@@ -32,6 +32,11 @@ Color Space
    Type of data that the image contains, either Color or Non-Color Data.
    For most color textures the default of Color should be used, but in case of e.g. a bump or alpha map,
    the pixel values should be interpreted as Non-Color Data, to avoid doing any unwanted color space conversions.
+
+   The list of color spaces depends on the active :ref:`OCIO config <ocio-config>`.
+   The default supported color spaces are described in detail here:
+   :ref:`Default OpenColorIO Configuration <ocio-config-default-color-spaces>`
+
 Texture Interpolation
    Interpolation method used for the environment texture. The following interpolations are available:
 

@@ -118,6 +118,10 @@ Extras
       Makes the modifier "real": converts the object's geometry to match the applied modifier's results,
       and deletes the modifier.
 
+      When applying a modifier to an object that shares Object Data between multiple objects,
+      the object must first be made a :ref:`Single User <data-system-datablock-make-single-user>`
+      which can be performed by confirming the pop-up message.
+
       .. warning::
 
          Applying a modifier that is not first in the stack will ignore the stack order
