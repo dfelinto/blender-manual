@@ -235,7 +235,7 @@ Blender currently use the following color space rules:
 ``data``
    Color space for non-color data.
 ``aces_interchange``
-   ACES2065-1 color space. Used to derive chromaticites of the *scene_linear* color space, for
+   ACES2065-1 color space. Used to derive chromaticities of the *scene_linear* color space, for
    effects such as blackbody emission.
 ``color_picking``
    Defines the distribution of colors in color pickers. It is expected to
@@ -269,7 +269,17 @@ Color Spaces
    :Linear:
       Blender's native linear space meaning there is no gamma mapping,
       using Linear Rec. 709 chromaticities and a D65 white point.
-   :Linear ACES: ACES linear space using AP0 RGB primaries and a white point close to D60.
+   :Linear ACES:
+      Also known as ACES2065-1, which is an ACES color space using the AP0 color primaries,
+      a D60 white point and a linear transfer function.
+      This color space is meant to store and transfer data with the most amount of possible color information.
+   :Linear ACEScg:
+      An ACES color space that is designed to be used for rendering and compositing.
+      It uses the AP1 color primaries, a D60 white point, and a linear transfer function.
+      While similar to ACES2065-1, this color space has a smaller color gamut.
+      The smaller gamut allow it to better represent the colors that fit inside the CIE 1931 chromaticities diagram.
+      Colors that lie outside the CIE 1931 chromaticities are generally not important to rendering and compositing
+      because the human stimulus cannot represent these colors.
    :XYZ: Standard linear XYZ space.
    :Non-Color: Color space used for images which contains non-color data (e.g. normal maps).
    :Raw: Does not automatically convert to linear; same as Non-Color.
