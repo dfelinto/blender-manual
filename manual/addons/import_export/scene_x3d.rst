@@ -67,7 +67,8 @@ Geometry
 ^^^^^^^^
 
 Apply Modifiers
-   TODO.
+   Export objects using the evaluated mesh, meaning the resulting mesh after all
+   :doc:`Modifiers </modeling/modifiers/index>` have been calculated.
 Triangulate
    TODO.
 Normals

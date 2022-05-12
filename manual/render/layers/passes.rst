@@ -261,6 +261,9 @@ Data Type
    A *Value* type can be used for any single numerical value.
 
 
+.. _bpy.ops.scene.view_layer_add_lightgroup:
+.. _bpy.ops.scene.view_layer_remove_lightgroup:
+
 Light Groups
 ============
 
@@ -273,9 +276,26 @@ having to re-render the scene.
 .. _bpy.types.ViewLayer.active_lightgroup_index:
 
 Active Light Group Index
-   The name of the render pass. This is the name that is used when adding 
+   The name of the render pass. This is the name that is used when adding
    :ref:`World Shaders <bpy.types.World.lightgroup>`, :ref:`Lights and Objects <bpy.types.Object.lightgroup>`
    to *Light Groups*.
+
+
+Lightgroup Sync
+---------------
+
+These operators are available in the menu to the right of the Light Group list.
+
+.. _bpy.ops.scene.view_layer_add_used_lightgroups:
+
+Add Used Lightgroups
+   Adds all Light Groups  to the View Layer that have been created
+   elsewhere and have lights assigned to them.
+
+.. _bpy.ops.scene.view_layer_remove_unused_lightgroups:
+
+Remove Unused Lightgroups
+   Deletes all Light Groups that do not have any lights assigned to them.
 
 
 Combining

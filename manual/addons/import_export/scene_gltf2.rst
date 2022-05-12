@@ -628,7 +628,8 @@ Geometry
 ^^^^^^^^
 
 Apply Modifiers
-   Apply modifiers (excluding armatures) to mesh objects.
+   Export objects using the evaluated mesh, meaning the resulting mesh after all
+   :doc:`Modifiers </modeling/modifiers/index>` have been calculated.
 UVs
    Export UVs (texture coordinates) with meshes.
 Normals

@@ -23,7 +23,8 @@ Convert to Y-Up
 Export into World Space
    Transform the mesh data into world space.
 Apply Modifiers
-   Whether to apply modifiers before exporting.
+   Export objects using the evaluated mesh, meaning the resulting mesh after all
+   :doc:`Modifiers </modeling/modifiers/index>` have been calculated.
 Start Frame
    First frame to export.
 End Frame

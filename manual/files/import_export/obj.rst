@@ -30,8 +30,8 @@ Exporting
 Properties
 ----------
 
-Animatioon
-^^^^^^^^^^
+Animation
+^^^^^^^^^
 
 Animation
    Exports a numbered OBJ for each frame from the start to the end frame.
@@ -54,6 +54,9 @@ Scale
    Global scale to use on export.
 Selected Only
    Only export the selected objects. Otherwise export all objects in the scene.
+Apply Modifiers
+   Export objects using the evaluated mesh, meaning the resulting mesh after all
+   :doc:`Modifiers </modeling/modifiers/index>` have been calculated.
 Properties
    For properties that have different settings for the viewport/final render pick which is used for output.
    One example where this is important is the :doc:`/modeling/modifiers/generate/subdivision_surface`.

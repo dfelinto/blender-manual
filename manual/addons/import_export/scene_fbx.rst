@@ -201,7 +201,8 @@ Smoothing
 Export Subdivision Surface
    Todo.
 Apply Modifiers
-   When enabled, the mesh will be from the output of the modifiers applied to the mesh.
+   Export objects using the evaluated mesh, meaning the resulting mesh after all
+   :doc:`Modifiers </modeling/modifiers/index>` have been calculated.
 Loose Edges
    TODO.
 Tangent Space

@@ -97,8 +97,8 @@ Triangulate
    the mesh itself is not affected.
 
 Apply Modifiers
-   All :doc:`Modifiers </modeling/modifiers/index>` will be applied in a non-destructive way.
-   That is, the modifiers will be applied to copies of the meshes.
+   Export objects using the evaluated mesh, meaning the resulting mesh after all
+   :doc:`Modifiers </modeling/modifiers/index>` have been calculated.
 
    Resolution
       Controls whether to apply the 3D Viewport resolution or the render resolution
