@@ -35,13 +35,17 @@ Geometry
    Standard geometry input.
 
 Value
-   Float or Vector input to evaluate.
+   The input field to evaluate.
 
 
 Properties
 ==========
 
-This node has no properties.
+Data Type
+   The :ref:`data type <attribute-data-types>` used for the evaluated data.
+
+Domain
+   Which :ref:`attribute domain <attribute-domains>` to store the evaluated data on.
 
 
 Outputs

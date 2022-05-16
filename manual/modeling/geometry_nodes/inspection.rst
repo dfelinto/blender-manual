@@ -35,6 +35,8 @@ connected to the *Group Output* to have a value for inspection. Values are not l
 rendering, to improve performance.
 
 
+.. _geometry-nodes-attribute-search:
+
 Attribute Search
 ================
 
@@ -69,6 +71,8 @@ generated when the node is executed, so a node must be connected to the *Group O
 to have a warning.
 
 
+.. _bpy.types.SpaceNodeOverlay.show_timing:
+
 Node Timings Overlay
 ====================
 
@@ -91,3 +95,24 @@ part of the node's operation. Also, when a node uses multiple CPU cores, the eva
 system might work on other nodes at the same time. It's also important to remember
 that :ref:`field nodes <field-node-types>` generally don't do work by themselves,
 so their execution time is only added to the data-flow nodes they are connected to.
+
+
+.. _bpy.types.SpaceNodeOverlay.show_named_attributes:
+
+Named Attributes Overlay
+========================
+
+The "Named Attributes" overlay allows displaying when a custom named attribute is used
+by a node or a node group. Named attributes can be used by the
+:doc:`/modeling/geometry_nodes/attribute/capture_attribute`, the
+:doc:`/modeling/geometry_nodes/input/named_attribute`, and the
+:doc:`/modeling/geometry_nodes/attribute/remove_named_attribute`,
+and can be written to, read, or removed.
+
+Using named attributes (as opposed to :ref:`anonymous-attributes`) can be problematic
+when the original geometry already has attributes with the specified names. In that case
+a geometry node group might mistakenly overwrite some essential data. The overlay helps
+to make detecting that situation easy.
+
+The same data is also available in the :ref:`geometry-nodes-internal-dependencies` panel
+in the modifier's UI.

@@ -33,8 +33,11 @@ Inputs
    using an attribute on the input geometry. Using an attribute for input means the
    value can be different for every element.
 
+   The attribute name used by default when using the node group in a modifier for the first
+   time is defined in the :doc:`node group inputs panel </interface/controls/nodes/groups>`.
+
    .. note::
-      The :ref:`attribute domain <attribute-domains>` used to access the attribute is defined by the
+      The :ref:`attribute domain <attribute-domains>` and the used to access the attribute is defined by the
       node the input is connected to.
 
 
@@ -46,3 +49,15 @@ you can create custom :doc:`Attributes </modeling/geometry_nodes/attributes_refe
 from a :doc:`Field </modeling/geometry_nodes/fields>` output of any node in the node tree.
 The domain of the attribute must be specified in the group node's output properties.
 Note, this does not work with :doc:`Instanced Data </modeling/geometry_nodes/instances>`.
+
+The attribute name used by default when using the node group in a modifier for the first
+time is defined in the :doc:`node group outputs panel </interface/controls/nodes/groups>`.
+
+.. _geometry-nodes-internal-dependencies:
+
+Internal Dependencies
+---------------------
+
+This panel displays information about all custom named attributes used by the node group.
+More information is available in the
+:ref:`geometry nodes inspection page <bpy.types.SpaceNodeOverlay.show_named_attributes>`.

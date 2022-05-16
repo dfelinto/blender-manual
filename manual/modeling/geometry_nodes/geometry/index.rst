@@ -11,6 +11,7 @@ Nodes that can operate on different geometry types (volume, mesh).
    bounding_box.rst
    convex_hull.rst
    delete_geometry.rst
+   duplicate_elements.rst
    geometry_proximity.rst
    geometry_to_instance.rst
    join_geometry.rst

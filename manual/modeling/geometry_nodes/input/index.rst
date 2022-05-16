@@ -26,6 +26,7 @@ Nodes used mainly as input to other nodes.
    :maxdepth: 1
 
    input_index.rst
+   named_attribute.rst
    normal.rst
    position.rst
    radius.rst
