@@ -20,9 +20,13 @@ Mesh
 
 Level
    The number of subdivisions to apply to the input geometry.
-   
-Crease
+
+Edge Crease
    Controls how smooth edges should be with :ref:`modifiers-generate-subsurf-creases`.
+
+Vertex Crease
+   Controls how much the subdivision surface should be pulled towards the vertex.
+   Similar to edge creases, but allows individual vertices to be creased.
 
 
 Properties
