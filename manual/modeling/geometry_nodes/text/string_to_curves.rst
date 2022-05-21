@@ -41,9 +41,6 @@ Word Spacing
 Line Spacing
    The distance between separate lines in the output. Scaled by the *Size* input.
 
-Max Width
-   Maximum width of the text, applies when the *Overflow* mode is set to *Overflow*.
-
 Text Box Width
    The maximum width of each line, though individual words will not be wrapped.
 
@@ -59,10 +56,9 @@ Font
 
 Overflow
    :Overflow:
-      Allows the text to use more space than the specified height. The width of the output is
-      still constrained by the *Max Width* input though.
+      Wraps the text at the *Text Box Width*.
    :Scale To Fit:
-      Scales the text size to fit the width and height.
+      Scales the text size to fit the *Text Box Width* and *Text Box Height*.
    :Truncate:
       Only outputs text characters that fit within the width and height, based on the *Size* input.
       Any part of the string that did not fit is moved to the *Remainder* output.
