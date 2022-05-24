@@ -80,7 +80,7 @@ Vertical/Horizontal Split
 Join Areas
    Shows the join direction overlay.
 Swap Areas
-   Swaps this area with the adjacente one.
+   Swaps this area with the adjacent one.
 
 
 Swapping Contents

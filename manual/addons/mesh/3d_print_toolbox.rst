@@ -89,7 +89,7 @@ Intersections
 
 	.. figure:: /images/3dprint_intersect.jpg
 
-:Degenerate:
+Degenerate
 	Faces and edges which have 0 area or length, are considered `degenerate`.
 	In this example, the top face of a cube has been scaled down to 0,
 	but have not been merged. A :menuselection:`Merge --> By Distance` would resolve this issue.
@@ -98,7 +98,7 @@ Intersections
 
 		There's a hidden face here.
 
-:Distorted:
+Distorted
 	The vertices of a quad or ngon can be folded in such a way that the face is not flat.
 	In practice, quads are rarely ever flat. When exporting, these faces are converted to triangles.
 	If the surface is excessively deformed, this can result in unexpected shapes.
@@ -124,7 +124,7 @@ Overhang
 
 	.. figure:: /images/3dprint_overhang.jpg
 
-:Check All:
+Check All
 	Performs all of the above checks at once. In this example, Suzanne shows quite a few problems.
 	This is because the eyes are separate parts, and the sockets have holes.
 	This makes the mesh not `Solid` and `Intersecting`. Some of the faces are `Distorted`.

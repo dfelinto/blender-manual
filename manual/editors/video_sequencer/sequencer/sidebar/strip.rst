@@ -50,6 +50,14 @@ Transform
 
    :Panel:     :menuselection:`Sidebar --> Strip --> Transform`
 
+.. _bpy.types.SequenceTransform.filter:
+
+Filter
+   Interpolation Methods.
+
+   :Nearest: No interpolation, uses nearest neighboring pixel.
+   :Bilinear: Simple interpolation between adjacent pixels.
+
 .. _bpy.types.SequenceTransform.offset:
 
 Position X, Y
