@@ -130,9 +130,9 @@ Type
    showing the colors of the respective two atoms which it connects.
 
    Instancing Vertices
-      The sticks of one element are put into one instancing vertice structure and the sticks appear as cylinders.
-      The instancing vertice structure makes the displaying and loading of many sticks relatively fast
-      (see Section `The instancing vertice structure`_ for more info). Options *Unit* is the length of a unit
+      The sticks of one element are put into one instancing vertex structure and the sticks appear as cylinders.
+      The instancing vertex structure makes the displaying and loading of many sticks relatively fast
+      (see Section `The instancing vertex structure`_ for more info). Options *Unit* is the length of a unit
       (a small cylinder): several of such units are put together forming actually the stick (cylinder).
       The longer the unit length is the less is the number of such units and
       thus the faster is the displaying. However, if the unit length is too long the stick becomes
@@ -170,7 +170,7 @@ Frames/Key
 
    **Please, keep in mind**: the number of atoms in a frame has to be the **same** for all frames!
 
-The instancing vertice structure
+The instancing vertex structure
 ================================
 
 .. figure:: /images/addons_import-export_mesh-atomic_dupli_1.png
@@ -183,8 +183,8 @@ It is essential to understand, how the atoms (and sticks) of an atomic structure
 organized inside Blender. This is why we focus a little bit onto this in the following:
 
 When atomic structures are imported via the PDB or XYZ importer, the atoms are put
-into a so-called *instancing vertice structures*, somewhat into 'groups' of elements.
-For instance, all sodium atoms of a NaCl structure form one instancing vertice structure,
+into a so-called *instancing vertex structures*, somewhat into 'groups' of elements.
+For instance, all sodium atoms of a NaCl structure form one instancing vertex structure,
 and the same applies for the chlorine atoms (see figure). In the case of the sodium
 atoms, there is a collection *Sodium* that includes the collection *Sodium_atom*.
 Within the latter, the *Sodium_mesh* is composed of the mesh itself (*Mesh_Sodium*)
@@ -214,8 +214,8 @@ Modifications
 -------------
 
 Displacing an 'individual' atom
-   For this, the respective vertice has to be displaced: go into the *Edit Mode*
-   and select the atom. You can now displace the atom (vertice).
+   For this, the respective vertex has to be displaced: go into the *Edit Mode*
+   and select the atom. You can now displace the atom (vertex).
 
 Changing material properties (of all atoms)
    For this, the material properties of the representative ball must be changed:
@@ -231,18 +231,18 @@ For making the handling of the atomic structures a bit more easy, the utility
 panel can be used, see the next Section.
 
 
-.. hint:: **Converting All Atoms of an Instancing Vertice Structure to Real Independent Objects**
+.. hint:: **Converting All Atoms of an Instancing Vertex Structure to Real Independent Objects**
 
    Do the following: Select the atomic structures
    with the mouse and use :ref:`bpy.ops.object.duplicates_make_real`.
    With this, you produce real independent objects!
-   In the Outliner, delete the remaining instancing vertice structures,
+   In the Outliner, delete the remaining instancing vertex structures,
    named like "Carbon", "Hydrogen", etc.
 
    Note that if the structures represent many hundreds and thousands
    of atoms, Blender can be become quite slow: at once, all these new
    atoms are represented as individual ball objects and Blender has to deal with
-   all of them in several ways. As mentioned above, for each instancing vertice
+   all of them in several ways. As mentioned above, for each instancing vertex
    structure, there is only *one representative ball object*!
 
 
@@ -345,7 +345,7 @@ The scale factor determines, how strong the change of diameter will be.
 By using the *Outliner*, one can apply these operators on only a selection of sticks
 (e.g. only the sticks of the hydrogen atoms). Note that changes only apply
 if the sticks are individual objects, e.g. single cylinders or if the sticks are described
-in instancing vertice structures.
+in instancing vertex structures.
 
 
 Change Atom Shape
@@ -370,7 +370,7 @@ Special
 Button Replace
    After all, push the *Replace* button. The shape and/or material of all
    selected atoms are then changed. This option works for objects and
-   instancing vertice object structures.
+   instancing vertex object structures.
 
 Button Default
    If you want to have the default values (NURBS spheres and specific element
