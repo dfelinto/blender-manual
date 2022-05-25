@@ -33,4 +33,6 @@ The directories are numbered so that they mimic a normal workflow.
 
    Figure 1: Organizing your project.
 
-Blender haven't yet implemented the concept of Bins (virtual directories that only exist within the project). Nor does it have a full-blown asset manager for its video assets. For the moment, you're stuck with the `File Browser <https://docs.blender.org/manual/en/dev/editors/file_browser.html>`_.
+Blender hasn't yet implemented the concept of Bins (virtual directories that only exist within the project).
+Nor does it have a full-blown asset manager for its video assets. For the moment, you're stuck with the
+`File Browser <https://docs.blender.org/manual/en/dev/editors/file_browser.html>`_.

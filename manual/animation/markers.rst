@@ -197,7 +197,7 @@ Rename Marker
 
 Having dozens of markers scattered throughout your scene's time will not help you much unless you
 know what they stand for. You can name a marker by selecting it, pressing :kbd:`F2`,
-typing the name, and press :kbd:`Enter`
+typing the name, and press :kbd:`Return`
 
 
 .. _bpy.ops.marker.move:

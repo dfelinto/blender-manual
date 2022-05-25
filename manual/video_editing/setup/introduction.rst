@@ -9,8 +9,8 @@ In setting up your video project, you have to distinguish between:
 
 - Work Environment related settings and activities:
 
-  These settings apply to all of your projects and are set at "Blender level"; for example the installation of add-ons.
-  In fact, they can also influence your non-video editing projects.
+  These settings apply to all of your projects and are set at "Blender level"; for example the installation
+  of add-ons. In fact, they can also influence your non-video editing projects.
   Most of these settings remain more or less stable throughout your projects and should probably only set once.
 - Project related settings and activities:
 

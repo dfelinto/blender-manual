@@ -5,7 +5,8 @@
 Envelope Modifier
 *****************
 
-The *Envelope* modifier creates a shape known as envelope over the existing strokes connecting all the points that have n points between them.
+The *Envelope* modifier creates a shape known as envelope over the existing strokes
+connecting all the points that have n points between them.
 
 
 Options

@@ -637,7 +637,7 @@ Geometry
 
 Apply Modifiers
    Export objects using the evaluated mesh, meaning the resulting mesh after all
-:doc:`Modifiers </modeling/modifiers/index>` have been calculated.
+   :doc:`Modifiers </modeling/modifiers/index>` have been calculated.
 UVs
    Export UVs (texture coordinates) with meshes.
 Normals

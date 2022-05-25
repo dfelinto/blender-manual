@@ -35,7 +35,8 @@ Location
 Color
    Object color, same as *Color* in the :menuselection:`Properties --> Object Properties --> Viewport Display`.
 Alpha
-   The :term:`Alpha Channel` component of the object's viewport display color (see the *Color* output for more details).
+   The :term:`Alpha Channel` component of the object's viewport display color (see the *Color* output for 
+   more details).
 Object Index
    Object pass index, same as *Pass Index*
    in the :menuselection:`Properties --> Object Properties --> Relations`.

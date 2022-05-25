@@ -83,7 +83,8 @@ Color Space
    :ref:`Default OpenColorIO Configuration <ocio-config-default-color-spaces>`
 
 Alpha
-   If the source file has an Alpha (transparency) channel, you can choose how the alpha channel is encoded in the image.
+   If the source file has an Alpha (transparency) channel, you can choose how the alpha channel is encoded in
+   the image.
 
    :term:`Straight Alpha` or :term:`Premultiplied Alpha`
 

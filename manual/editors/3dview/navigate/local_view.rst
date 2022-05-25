@@ -70,6 +70,6 @@ the local view will be left empty and you will have to exit local view to see an
 .. hint::
 
    This is useful when working with objects in dense scenes where painstakingly selecting objects to include in
-   the local view isn't practical, especially when they intersect or are obscured by objects you don't want to include.
-   In this case it's simpler to select many objects in a region and enter local view,
-   then subtract objects from local view once they're visible.
+   the local view isn't practical, especially when they intersect or are obscured by objects you don't want
+   to include. In this case it's simpler to select many objects in a region and enter local view, then subtract
+   objects from local view once they're visible.

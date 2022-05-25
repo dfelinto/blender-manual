@@ -114,7 +114,8 @@ Components
     Assign the components according to the name of the materials assigned to each face.
     If for a given material, there is no an object with the same name, then the face is not used.
 
-    Watch the `Tutorial <https://youtu.be/2Wcu9E0EGEM>`__ (it is based on an old version of Tissue, the procedure is slightly different now)
+    Watch the `Tutorial <https://youtu.be/2Wcu9E0EGEM>`__ (it is based on an old version of Tissue,
+    the procedure is slightly different now)
 
 Thickness
   Scale Mode
@@ -402,7 +403,8 @@ Trim the mesh according to active Weight.
 Reaction Diffusion
 ------------------
 
-Tissue implements the Gray-Scott model for the `Reaction-Diffusion <https://en.wikipedia.org/wiki/Reaction%E2%80%93diffusion_system>`__ simulation.
+Tissue implements the Gray-Scott model for the
+`Reaction-Diffusion <https://en.wikipedia.org/wiki/Reaction%E2%80%93diffusion_system>`__ simulation.
 This allows to simulate through the vertex groups the distribution of the two substances
 that generate the various patterns of many living organisms.
 

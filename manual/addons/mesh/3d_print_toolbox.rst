@@ -61,7 +61,7 @@ in which ways your mesh might be invalid for use with a Slicer.
 Upon execution of one of the checks, the `Result` field shows which, if any, parts of your mesh are invalid.
 
 When in `Edit Mode`, clicking these results selects these parts of your mesh.
-You can use `View Selected` :kbd:`\`` to focus on these parts.
+You can use `View Selected` :kbd:`Backslash` to focus on these parts.
 
 Although Slicers are becoming increasingly tolerant when it comes to "tidiness"
 of meshes, it is always worth trying to provide as clean a mesh as possible.
