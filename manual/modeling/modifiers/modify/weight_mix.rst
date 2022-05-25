@@ -29,31 +29,30 @@ Options
 
    The Vertex Weight Mix modifier panel.
 
-Vertex Group A/B
-   :A: The vertex group to affect.
-   :B: The second vertex group to mix into the affected one.
-       Leave it empty if you only want to mix in a simple value.
+Vertex Group A, B
+   - **A**: The vertex group to affect.
+   - **B**: The second vertex group to mix into the affected one.
+     Leave it empty if you only want to mix in a simple value.
 
    Invert Weights A/B
       Invert the influence of the vertex group.
 
-Default Weight A/B
-   :A: The default weight to assign to all vertices not in the given vertex group.
-   :B: The default weight to assign to all vertices not in the given second vertex group.
+Default Weight A, B
+   - **A**: The default weight to assign to all vertices not in the given vertex group.
+   - **B**: The default weight to assign to all vertices not in the given second vertex group.
+
+.. container:: lead
+
+   .. clear
 
 Vertex Set
    Choose which vertices will be affected.
 
-   All
-      Affects all vertices, disregarding the vertex groups content.
-   Vertex Group A
-      Affects only vertices belonging to the affected vertex group.
-   Vertex Group B
-      Affects only vertices belonging to the second vertex group.
-   Vertex Group A or B
-      Affects only vertices belonging to at least one of the vertex groups.
-   Vertex Group A and B
-      Affects only vertices belonging to both vertex groups.
+   :All: Affects all vertices, disregarding the vertex groups content.
+   :Vertex Group A: Affects only vertices belonging to the affected vertex group.
+   :Vertex Group B: Affects only vertices belonging to the second vertex group.
+   :Vertex Group A or B: Affects only vertices belonging to at least one of the vertex groups.
+   :Vertex Group A and B: Affects only vertices belonging to both vertex groups.
 
    .. important::
 
@@ -63,20 +62,15 @@ Vertex Set
 Mix Mode
    How the vertex group weights are affected by the other vertex group's weights.
 
-   Replace
-      Replaces affected weights with the second group's weights.
-   Add
-      Adds the values of *Group B* to *Group A*.
-   Subtract
-      Subtracts the values of *Group B* from *Group A*.
-   Multiply
-      Multiplies the values of *Group B* with *Group A*.
-   Divide
-      Divides the values of *Group A* by *Group B*.
-   Difference
-      Subtracts the smaller of the two values from the larger.
-   Average
-      Adds the values together, then divides by 2.
+   :Replace: Replaces affected weights with the second group's weights.
+   :Add: Adds the values of *Group B* to *Group A*.
+   :Subtract: Subtracts the values of *Group B* from *Group A*.
+   :Multiply: Multiplies the values of *Group B* with *Group A*.
+   :Divide: Divides the values of *Group A* by *Group B*.
+   :Difference: Subtracts the smaller of the two values from the larger.
+   :Average: Adds the values together, then divides by 2.
+   :Minimum: Uses the smallest weight value of VGroup A's or VGroup B's weights.
+   :Maximum: Uses the largest weight value of VGroup A's or VGroup B's weights.
 
 Normalize Weights
    Scale the weights in the vertex group to keep the relative weight

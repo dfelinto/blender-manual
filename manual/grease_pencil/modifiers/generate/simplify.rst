@@ -43,6 +43,9 @@ Mode
          Smaller values will require more points to recreate the stroke,
          while larger values will result in fewer points needed to recreate the curve.
 
+      Sharp Threshold
+         Preserve corners that have sharper angle than this threshold.
+
    Merge
       Simplifies the strokes by merging points that are closer than a specified distance to each other.
 

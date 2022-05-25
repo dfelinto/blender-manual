@@ -133,23 +133,21 @@ Deadzone
 Navigation
    Navigation style for the viewport.
 
-   Free
-      Uses the full 6-degrees of freedom.
-   Orbit
-      Orbit about the view center.
+   :Free: Uses the full 6-degrees of freedom.
+   :Orbit: Orbit about the view center.
 
 Rotation
    Rotation style for the viewport.
 
-   Turntable
-      Rotates the view keeping the horizon horizontal.
-   Trackball
-      Is less restrictive, allowing any orientation.
+   :Turntable: Rotates the view keeping the horizon horizontal.
+   :Trackball: Is less restrictive, allowing any orientation.
 
 Show Navigation Guide
    Display the pivot point and axis during rotation.
 Invert Zoom
    Zoom using opposite direction.
+Lock Camera Pan/Zoom
+   Pan/zoom the camera view instead of leaving the camera view when orbiting.
 Swap Y and Z Axes
    Pan using up/down on the NDOF devices instead of forward/backwards.
 Invert Axis Pan

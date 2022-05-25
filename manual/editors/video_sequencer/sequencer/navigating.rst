@@ -36,6 +36,11 @@ Frame All :kbd:`Home`
 Zoom :kbd:`Shift-B`
    Click and drag to draw a rectangle and zoom to this rectangle.
 
+.. _bpy.types.SpaceSequenceEditor.use_clamp_view:
+
+Limit View to Contents
+   Limit the timeline's height to the maximum used channel slot.
+
 Navigation
    Play Animation :kbd:`Spacebar`
       Start or stop playback of animation. This will start playback in all editors.
