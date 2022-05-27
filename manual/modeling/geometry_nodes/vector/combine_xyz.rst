@@ -4,7 +4,7 @@
 Combine XYZ Node
 ****************
 
-.. figure:: /images/compositing_node-types_CompositorNodeSeparateXYZ.webp
+.. figure:: /images/compositing_node-types_CompositorNodeCombineXYZ.webp
    :align: right
    :alt: Combine XYZ Node.
 
