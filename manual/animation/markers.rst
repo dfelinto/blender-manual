@@ -221,6 +221,33 @@ By default, you move the markers in one-frame steps, but if you hold :kbd:`Ctrl`
 the markers will move in steps corresponding to 1 second (according to the scene's *FPS*).
 
 
+Select
+------
+
+.. reference::
+
+   :Mode:      All modes
+   :Menu:      :menuselection:`Marker --> Select`
+
+Convenient operators for selecting Marks; see :ref:`bpy.ops.marker.select` for more information on selecting Markers.
+
+.. _bpy.ops.marker.select_all:
+
+All :kbd:`A`
+   Selects all Markers.
+None :kbd:`Ctrl-A`
+   Un-selects any already selected Markers.
+Invert :kbd:`Ctrl-I`
+   Select all un-selected Markers and unselects all selected Markers.
+
+.. _bpy.ops.marker.select_leftright:
+
+Before Current Frame
+   Selects all Markers to the left of the current frame and the Marker on the current frame if it exists.
+After Current Frame
+   Selects all Markers to the Right of the current frame and the Marker on the current frame if it exists.
+
+
 .. _bpy.types.SpaceDopeSheetEditor.show_pose_markers:
 
 Show Pose Markers

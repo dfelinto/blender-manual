@@ -202,6 +202,13 @@ Append (Reuse Data)
    Since the file now has its own copy of the asset, later changes to
    the asset file will not be reflected in the file it's appended to.
 
+Instancing Collections
+   *Mimics the Instance Collections option when appending*
+
+   Some asset types such as collections can be created as an instanced collection.
+   This is done by selecting the *Instance* option when dragging collection assets into the 3D Viewport.
+   By selecting this option the an empty object is added and creates an instance of the collection.
+
 Note that all regular Blender operations are available after the asset has been added to the current file.
 For example, you could choose to link an object to the scene; this will also link its mesh and its materials.
 Then you can make the object itself local
