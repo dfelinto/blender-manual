@@ -293,7 +293,7 @@ Export & Import
 - Animations of armatures in Object Mode.
 - Fully rigified armature animations (referring to the Rigify add-on). For export of rigified armature animations:
 
-  - Select Bake Action. (Open :doc:`/interface/controls/templates/operator_search` and type "Bake Action".)
+  - Run the :ref:`bpy.ops.nla.bake` operator.
   - If you have only the deform bones selected check *Only Selected*.
     This will give smaller dae. Otherwise uncheck *Only Selected*.
   - Check *Clear Constraints*.

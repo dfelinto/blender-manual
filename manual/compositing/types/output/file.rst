@@ -39,7 +39,7 @@ Base Path
    ``{base path}/{file name}{frame number}.{extension}``.
 
    Besides being split into two settings, in all other respects,
-   this setting is treated the same as the :ref:`render output path <render-tab-output>`.
+   this setting is treated the same as the :ref:`render output path <bpy.types.RenderSettings.filepath>`.
 File Format
    Label that shows the selected file format.
 

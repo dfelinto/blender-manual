@@ -21,6 +21,9 @@ Toolbar :kbd:`T`
 Preview During Transform
    Show a preview of the start or end frame while transforming a strip's start/end handles.
 
+Frame Selected
+   Zoom and position the bounding box of the selected image into the center of the preview.
+
 Fit Preview in Window :kbd:`Home`
    Resize the preview so that it fits in the area.
 Zoom :kbd:`Shift-B`

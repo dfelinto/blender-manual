@@ -1,4 +1,3 @@
-.. _render-tab-output:
 
 ******
 Output
@@ -73,6 +72,26 @@ Image Sequence
    - Start as many machines as you wish rendering to that directory.
 
 
+.. _render-output-color-management-panel:
+
+Color Management
+================
+
+This panel controls how :doc:`/render/color_management` is applied when saving images.
+
+.. _bpy.types.ImageFormatSettings.color_management:
+
+:Follow Scene:
+   Uses the same color management settings defined by the active Scene.
+   These properties are defined in the Render Settings
+:Override:
+   Uses custom color management settings defined by the properties below in the panel;
+   disregarding any color management settings set at the Scene level.
+
+For a detailed description of color management properties,
+see the :ref:`Color Management <render-post-color-management>` page.
+
+
 .. _render-output-video-encoding-panel:
 .. _bpy.types.FFmpegSettings:
 
@@ -98,9 +117,13 @@ In the header, you can use the presets, which choose optimum settings for you fo
    you can see some of the output of the encoding process.
    You will see even more output if you execute Blender as ``blender -d``.
 
+.. _bpy.types.FFmpegSettings.format:
+
 Container
    Video container or file type. For a list of all available options, see
    :doc:`video formats </files/media/video_formats>`.
+
+.. _bpy.types.FFmpegSettings.use_autosplit:
 
 Autosplit Output
    If your video is huge and exceeds 2GiB, enable Autosplit Output.
@@ -109,6 +132,8 @@ Autosplit Output
 
 Video
 -----
+
+.. _bpy.types.FFmpegSettings.codec:
 
 Video Codec
    Chooses the method of compression and encoding.
@@ -122,17 +147,29 @@ Video Codec
    do not work with arbitrary dimensions. So, try to stick with common dimensions
    or research the limitations of the codec you are trying to use.
 
+.. _bpy.types.FFmpegSettings.constant_rate_factor:
+
 Output Quality
    These are preset `Rate`_.
+
+.. _bpy.types.FFmpegSettings.ffmpeg_preset:
+
 Encoding Speed
    Presets to change between a fast encode (bigger file size) and more compression (smaller file size).
+
+.. _bpy.types.FFmpegSettings.gopsize:
 
 Keyframe Interval
    The number of pictures per `Group of Pictures <https://en.wikipedia.org/wiki/Group_of_pictures>`__.
    Set to 0 for "intra_only", which disables `inter-frame <https://en.wikipedia.org/wiki/Inter-frame>`__ video.
    A higher number generally leads to a smaller file but needs a higher-powered device to replay it.
+
+.. _bpy.types.FFmpegSettings.use_max_b_frames:
+
 Max B-frames
    Enables the use of :term:`B‑frames <Frame Types>`.
+
+   .. _bpy.types.FFmpegSettings.max_b_frames:
 
    Interval
       The maximum number of :term:`B‑frames <Frame Types>` between non-B-frames.
@@ -141,28 +178,41 @@ Max B-frames
 Rate
 ^^^^
 
+.. _bpy.types.FFmpegSettings.video_bitrate:
+
 Bitrate
    Sets the average `bit rate <https://en.wikipedia.org/wiki/Bit_rate>`__ (quality),
    which is the count of binary digits per frame.
    See also: `FFmpeg -b:v <https://ffmpeg.org/ffmpeg.html#Description>`__.
-Rate
+
+.. _bpy.types.FFmpegSettings.minrate:
+.. _bpy.types.FFmpegSettings.maxrate:
+
+Minimum / Maximum
    Video files can use what is called variable bit rate (VBR).
    This is used to give some segments of the video less compressing to frames that need more data
    and less to frames with less data. This can be controlled by the *Minimum* and *Maximum* values.
+
+.. _bpy.types.FFmpegSettings.buffersize:
+
 Buffer
    The `decoder bitstream buffer <https://en.wikipedia.org/wiki/Video_buffering_verifier>`__ size.
+
+.. _bpy.types.FFmpegSettings.muxrate:
 
 Mux Rate
    Maximum bit rate of the multiplexed stream.
    `Multiplexing <https://www.afterdawn.com/glossary/term.cfm/multiplexing>`__
    is the process of combining separate video and audio streams into a single file,
    similar to packing a video file and MP3 audio file in a zip-file.
+
+.. _bpy.types.FFmpegSettings.packetsize:
+
 Mux Packet Size
    Reduces data fragmentation or muxer overhead depending on the source.
 
 
 .. _render-output-video-encoding-audio:
-.. _bpy.types.FFmpegSettings.audio:
 
 Audio
 -----
@@ -171,17 +221,31 @@ These settings change how sound is exported while rendering.
 To control how sound is played back from within Blender, see the audio settings
 in the :ref:`Preferences <prefs-system-sound>`.
 
+.. _bpy.types.FFmpegSettings.audio_codec:
+
 Audio Codec
    Audio format to use. For a list of all available options, see
    :doc:`video formats </files/media/video_formats>`.
+
+.. _bpy.types.FFmpegSettings.audio_channels:
+
 Audio Channels
    Sets the audio channel count.
+
+.. _bpy.types.FFmpegSettings.audio_mixrate:
+
 Sample Rate
    Sets the audio `sampling rate <https://en.wikipedia.org/wiki/Sampling_(signal_processing)#Sampling_rate>`__.
+
+.. _bpy.types.FFmpegSettings.audio_bitrate:
+
 Bitrate
    For each codec, you can control the bit rate (quality) of the sound in the movie.
    Higher bit rates are bigger files that stream worse but sound better.
    Use powers of 2 for compatibility.
+
+.. _bpy.types.FFmpegSettings.audio_volume:
+
 Volume
    Sets the output volume of the audio.
 

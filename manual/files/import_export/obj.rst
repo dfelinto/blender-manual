@@ -118,14 +118,48 @@ Bitflag Groups
    Generate Bitflags for smooth Groups.
 
 
+Compatibility
+-------------
+
+NURBS surfaces, text3D and metaballs are converted to meshes at export time.
+
+
+.. _bpy.ops.wm.obj_import:
+
 Importing
 =========
 
-Importing OBJ-files is currently handled by a python importer which is included as an addon.
-It's documentation can be found here: `OBJ Importer </addons/import_export/scene_obj>`.
+Import geometry and curves to the OBJ format.
+
+If there is a matching ``.MTL`` for the OBJ then its materials will be imported too.
+
+.. note::
+
+   Blender now only supports complex node-based shading. OBJ having a fixed pipeline-like support of materials,
+   this add-on uses the :doc:`generic wrapper </addons/import_export/node_shaders_info>`
+   featured by Blender to convert between both.
 
 
-Compatibility
-=============
+Properties
+----------
 
-NURBS surfaces, text3D and metaballs are converted to meshes at export time.
+Transform
+^^^^^^^^^
+
+Clamp Bounding Box
+   OBJ-files often vary greatly in scale, this setting clamps the imported file to a fixed size.
+Axis Forward, Up
+   Since many applications use a different axis for 'Up', these are axis conversion for these settings,
+   Forward and Up axes -- By mapping these to different axes you can convert rotations
+   between applications default up and forward axes.
+
+   Blender uses Y Forward, Z Up (since the front view looks along the +Y direction).
+   For example, it's common for applications to use Y as the up axis, in that case -Z Forward, Y Up is needed.
+
+
+Options
+^^^^^^^
+
+Validate Meshes
+   Checks the imported mesh data for errors and corrects them if needed.
+   This slows down the importing process but can fix glitches in the imported mesh.

@@ -89,7 +89,7 @@ Bake Mesh to Grease Pencil
    :Menu:      :menuselection:`Object --> Animation --> Bake Mesh to Grease Pencil...`
 
 Converts each frame of a mesh animation within a selected frame range to
-a Grease Pencil object keyframed strokes. The *Bake Action* tool computes the final animation of
+a Grease Pencil object keyframed strokes. The *Bake Action* operator computes the final animation of
 the selected objects with all those modifiers, drivers, and constraints applied, and keyframes the result.
 
 Target Object

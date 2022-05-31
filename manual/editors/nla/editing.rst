@@ -17,6 +17,32 @@ Snap
 Todo.
 
 
+.. _bpy.ops.nla.bake:
+
+Bake Action
+===========
+
+.. reference::
+
+   :Editor:    Nonlinear Animation
+   :Menu:      :menuselection:`Edit --> Bake Action`
+
+.. reference::
+
+   :Editor:    3D Viewport
+   :Mode:      Object and Pose Modes
+   :Menu:      :menuselection:`Header --> Object Animation --> Bake Action...`
+
+The final motion of objects or bones depends not only on the keyframed animation,
+but also on any active F-Curve modifiers, drivers, and constraints.
+On each frame of all the scene's frames, the *Bake Action* operator computes
+the final animation of the selected objects or bones with all those
+modifiers, drivers, and constraints applied, and keyframes the result.
+
+This can be useful for adding deviation to a cyclic action like a :term:`Walk Cycle`,
+or to create a keyframe animation created from drivers or constraints.
+
+
 .. _bpy.ops.nla.duplicate:
 
 Duplicate

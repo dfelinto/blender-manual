@@ -93,8 +93,8 @@ that no color space conversion happens on them.
 
 .. _render-post-color-management:
 
-Settings
-========
+Render Settings
+===============
 
 .. reference::
 
@@ -106,6 +106,11 @@ Settings
 
    Color Management properties.
 
+These are color management settings that are used across Blender.
+These color management settings are Scene specific so settings can be customized per Scene.
+Color management can also be overridden when saving images;
+this behavior can be set in the :ref:`Output Color Management Properties <render-output-color-management-panel>`.
+
 .. _bpy.types.ColorManagedDisplaySettings.display_device:
 
 Display Device
@@ -116,8 +121,9 @@ Display Device
    It would typically be changed when viewing the image on another display device connected to the computer,
    or when writing out image files intended to be displayed on another device.
 
-   *Rec709* is commonly used for HDTVs, while *XYZ* and *DCI-P3* are common for digital projectors.
-   Color management can be disabled by setting the device to *None*.
+   :sRGB: Used by most displays.
+   :XYZ: Commonly used by digital projectors.
+   :None: Disables color management.
 
 .. _bpy.types.ColorManagedViewSettings.view_transform:
 
