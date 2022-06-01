@@ -216,6 +216,9 @@ to selectively speed up caustic rendering of objects in your scene.
    - MNEE Caustic rays can pass through up to 6 Caustic Caster surfaces between a Caustic Reciever and a
      Shadow Caustic light before the ray is terminated and caustics are ignored.
 
+   - The :ref:`Ambient Occlusion <bpy.types.ShaderNodeAmbientOcclusion>` node will not produce a valid result
+     while an object is either a Caustic caster or Caustic receiver.
+
    - MNEE Caustics only work if the caustic caster has smooth normals.
 
    - Volumetric materials can not considered when calculating MNEE caustics.
