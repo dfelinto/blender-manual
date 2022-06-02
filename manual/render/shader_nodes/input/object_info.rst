@@ -1,4 +1,4 @@
-rB15186f4259a2e0611a64a3aed8db8858e8ca081f.. _bpy.types.ShaderNodeObjectInfo:
+.. _bpy.types.ShaderNodeObjectInfo:
 
 ****************
 Object Info Node
