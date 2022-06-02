@@ -20,6 +20,15 @@ For that reason, we suggest to mainly use this for baking or
 still frame renders where render time is not as much of an issue.
 The Bevel modifier is a faster option when it works, but sometimes fails on complex or messy geometry.
 
+.. note:: 
+
+   The Bevel node will not produce a valid result on objects that are either a
+   :ref:`Caustic caster <bpy.types.CyclesObjectSettings.is_caustics_caster>` or
+   :ref:`Caustic receiver <bpy.types.CyclesObjectSettings.is_caustics_receiver>` while the scene contains
+   a active :ref:`Caustic caster <bpy.types.CyclesObjectSettings.is_caustics_caster>`,
+   :ref:`Caustic receiver <bpy.types.CyclesObjectSettings.is_caustics_receiver>`, and
+   :ref:`Shadow Caustic Light<bpy.types.CyclesLightSettings.is_caustics_light>`.
+
 
 Inputs
 ======
