@@ -47,6 +47,12 @@ Type
       The cache will be baked with a single tool. All selected settings will be considered during this bake.
       The bake tool for this type can be found in the Cache panel.
 
+   .. important::
+
+      "Replay" only works when the :ref:`Playback Sync mode <bpy.types.Scene.sync_mode>` is set to "Play Every Frame".
+      If you need to use "Frame Dropping" or "Sync to Audio", consider using the "Modular" or "All" options below.
+
+
 .. _bpy.types.FluidDomainSettings.cache_frame_start:
 
 Start

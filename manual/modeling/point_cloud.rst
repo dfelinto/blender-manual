@@ -55,7 +55,7 @@ Attribute Types
      - *Point*
      - The radius of each point.
 
-   * - ``radius``
+   * - ``color``
      - *Color*
      - *Point*
      - The color of each point.

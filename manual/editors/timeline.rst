@@ -112,6 +112,8 @@ Playback Popover
 
 The *Playback* popover contains options controlling the animation playback.
 
+.. _bpy.types.Scene.sync_mode:
+
 Sync
    .. figure:: /images/editors_timeline_red-fps.png
       :figwidth: 109px

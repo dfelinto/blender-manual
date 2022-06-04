@@ -32,6 +32,10 @@ yet modifiers and constraints may depend on object transformation.
    this does **not** apply to their pose location, animation curves or constraints.
    This tool should be used before rigging and animation.
 
+When applying transforms to an object that shares Object Data between multiple objects,
+the object must first be made a :ref:`Single User <data-system-datablock-make-single-user>`
+which can be performed by confirming the pop-up message.
+
 When running *Apply Transform*, the :ref:`bpy.ops.screen.redo_last` panel lets you choose
 the combination of transformations to apply.
 

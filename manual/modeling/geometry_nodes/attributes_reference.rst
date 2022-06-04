@@ -170,7 +170,7 @@ Boolean Domain Interpolation
      - An edge is selected if any connected face was selected.
 
    * - Face
-     - Edge
+     - Corner
      - Each corner's value is simply a copy of the value at its face.
 
    * - ..
@@ -333,7 +333,7 @@ tools must be used with data generated from geometry nodes.
 
 Mode
    :Generic:
-      Inerpolate and convert the attribute between the domains and data types described on this page.
+      Interpolate and convert the attribute between the domains and data types described on this page.
    :UV Map:
       Create a :term:`UV Map` layer, editable in the UV editor. These would otherwise
       be represented by a 2D vector attribute on the face corner domain.

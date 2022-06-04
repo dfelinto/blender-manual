@@ -43,6 +43,11 @@ Library Overrides
       (disabled) library overrides for the object and the collection, resulting in a collection > object > mesh
       library override hierarchy.
 
+      .. _bpy.ops.ed.lib_id_override_editable_toggle:
+
+      This library override view mode has a column on the right side
+      of the editor to toggle if the library is editable or not.
+
 Orphan Data
    Lists :doc:`data-blocks </files/data_blocks>`
    which are unused and/or will be lost when the file is reloaded.
