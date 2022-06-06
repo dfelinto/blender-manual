@@ -1,3 +1,4 @@
+.. _bpy.types.Material:
 .. _bpy.ops.material:
 
 #############

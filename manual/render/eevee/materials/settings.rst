@@ -8,6 +8,8 @@ Material Settings
    :Panel:     :menuselection:`Properties --> Material --> Settings`
 
 
+.. _bpy.types.Material.use_backface_culling:
+
 Backface Culling
 ================
 
@@ -58,6 +60,8 @@ Only per-object sorting is available and is automatically done on all transparen
    Per-object sorting has a performance cost and having thousands of
    these objects in a scene will greatly degrade performance.
 
+.. _bpy.types.Material.show_transparent_back:
+
 Show Backside
    If enabled, all transparent fragments will be rendered.
    If disabled, only the front-most surface fragments will be rendered.
@@ -65,6 +69,9 @@ Show Backside
    When using *Alpha Blending* this option should be disabled because with *Alpha Blending*,
    the order in which triangles are sorted is important.
 
+
+.. _bpy.types.Material.alpha_threshold:
+.. _bpy.types.Material.shadow_method:
 
 Shadow Mode
 ===========
@@ -112,8 +119,12 @@ Surfaces that use Screen Space Refraction will not cast Ambient Occlusion onto o
 If this option is disabled or if the Screen Space Refraction ray tracing fails,
 the refracted ray will use the color of the nearest probe.
 
+.. _bpy.types.Material.use_screen_refraction:
+
 Screen Space Refraction
    Enables screen space refraction.
+
+.. _bpy.types.Material.refraction_depth:
 
 Refraction Depth
    If Refraction Depth is not 0.0, all refraction BSDFs in the shader will act as if
