@@ -18,6 +18,7 @@ Although the Sidebar and Toolbar belong to the Timeline area, they are discussed
    :maxdepth: 2
 
    introduction.rst
+   channels.rst
    navigating.rst
    display.rst
    toolbar/index.rst
