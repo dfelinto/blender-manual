@@ -16,3 +16,4 @@ Types
    :maxdepth: 1
 
    draw.rst
+   pen.rst

@@ -50,6 +50,9 @@ Transform
 :ref:`Draw <bpy.ops.curve.draw>`
    Free-hand drawing of new curves.
 
+:ref:`Curve Pen <bpy.ops.curve.pen>`
+   Construct and edit splines.
+
 :ref:`Extrude <modeling-curves-extrude>`
    Extrude the curve by adding new control points.
 

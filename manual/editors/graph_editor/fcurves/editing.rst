@@ -333,7 +333,7 @@ Breakdown
    :Menu:      :menuselection:`Key --> Slider Operators --> Breakdown`
 
 Moves the selected keyframes to an in between position relative to the adjacent keyframes.
-Drag the mouse left or right to adjust the operator's *Factor* property.
+To use this operator, drag the mouse left or right to adjust the operator's *Factor* property.
 
 Factor
    The amount to favor either the left or the right key. Values less than 0.5 favor the left keyframe,
@@ -351,11 +351,33 @@ Blend to Neighbor
 
 Transitions the current keyframe with the neighboring keyframes in the timeline.
 In order for this operator to work, there must be a keyframe before and after the current frame.
-Drag the mouse left or right to adjust the operator's *Blend* property.
+To use this operator, drag the mouse left or right to adjust the operator's *Blend* property.
 
 Blend
    The amount to favor either the left or the right key. Values less than 0.5 favor the left keyframe,
    values greater than 0.5 favor the right keyframe, a value of 0.5 results in no change.
+
+
+.. _bpy.ops.graph.blend_to_default:
+
+Blend to Default Value
+----------------------
+
+.. reference::
+
+   :Menu:      :menuselection:`Key --> Slider Operators --> Blend to Neighbor`
+
+Transitions the current keyframe towards the property's default value.
+To use this operator, drag the mouse left or right to adjust the operator's *Blend* property.
+
+Blend
+   The amount to favor either the current key or the default value.
+   A value of 0 represents the current key, a value of 1 represents the default value.
+
+.. seealso::
+
+   The :ref:`Reset to Default <bpy.ops.ui.reset_default_button>` operator resets
+   any property to its default value without the need of keyframing.
 
 
 .. _bpy.ops.graph.clean:

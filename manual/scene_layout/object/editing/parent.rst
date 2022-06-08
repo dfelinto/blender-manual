@@ -323,6 +323,11 @@ Make Parent without Inverse
 This sets the parent, and then resets the *Parent Inverse* matrix and the object's local location.
 As a result, the object will move to the location of the parent, but keep its rotation and scale.
 
+Keep Transform
+   The object's current world transform (so its absolute location, rotation and scale in the world) is computed.
+   The new parent is set, and then the *Parent Inverse* matrix is computed such that after setting
+   the new parent the object is still at its previous world transform.
+
 
 .. _bpy.ops.object.parent_clear:
 
@@ -341,10 +346,12 @@ Clear Parent
    If the parent in the group is selected, nothing is done.
    If a child or children are selected, they are disassociated from the parent,
    or freed, and they return to their *original* location, rotation, and size.
+
 Clear and Keep Transformation
    Frees the children from the parent, and *keeps* the location, rotation, and size given to them by the parent.
 
    See `Non-Uniform Scale`_ which may apply here.
+
 Clear Parent Inverse
    Instead of removing the hierarchical parent-child relationship, this clears
    the `Parent Inverse`_ matrix from the selected objects. With an empty matrix,

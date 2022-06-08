@@ -249,6 +249,9 @@ This page lists definitions for terms used in Blender and this manual.
       A type of object defined in terms of a line interpolated between Control Vertices.
       Available types of curves include :term:`Bézier`, :term:`NURBS` and Poly.
 
+   Curve Segment
+      The part of a curve connecting two adjacent control points.
+
    Cyclic
       Often referring to an object being circular. This term is often associated with :term:`Curve`.
 

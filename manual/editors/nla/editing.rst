@@ -214,17 +214,8 @@ It will enter and exit Tweak Mode as usual, but will also make sure that the act
 (by flagging the NLA track that the action strip comes from as being "solo").
 This is useful for editing stashed actions, without the rest of the NLA Stack interfering.
 
-
-Start Tweaking Strips Action
-============================
-
-.. reference::
-
-   :Menu:      :menuselection:`Edit --> Start Tweaking Strips Action`
-   :Shortcut:  :kbd:`Tab`
-
-The contents of Action strips can be edited, but you must be in *Tweak Mode* to do so.
-The keyframes of the action can then be edited in the Dope Sheet.
+When you finished editing the strip, simply go to :menuselection:`Edit --> Stop Editing Stashed Action`
+or press :kbd:`Shift-Tab`.
 
 .. list-table::
 
@@ -238,5 +229,37 @@ The keyframes of the action can then be edited in the Dope Sheet.
 
           Strip in Tweak mode.
 
-When you finished editing the strip, simply go to :menuselection:`Edit --> Tweaking Strips Action`
+
+Start Tweaking Strips Actions (Full Stack)
+==========================================
+
+.. reference::
+
+   :Menu:      :menuselection:`Edit --> Start Tweaking Strips Actions (Full Stack)`
+
+Allows you to edit the contents of the strip without disabling all the tracks above the tweaked strip.
+This allows keyframing to work as expected, and preserves the pose that you visually keyed.
+
+When you finished editing the strip, simply go to :menuselection:`Edit --> Stop Tweaking Strips Actions`
+or press :kbd:`Tab`.
+
+.. note::
+
+   For transitions above the tweaked strip, keyframe remapping will fail
+   for channel values that are affected by the transition.
+   A work around is to tweak the active strip without evaluating the upper NLA stack.
+
+
+Start Tweaking Strips Actions (Lower Stack)
+===========================================
+
+.. reference::
+
+   :Menu:      :menuselection:`Edit --> Start Tweaking Strips Actions (Lower Stack)`
+   :Shortcut:  :kbd:`Tab`
+
+The contents of Action strips can be edited, but you must be in *Tweak Mode* to do so.
+The keyframes of the action can then be edited in the Dope Sheet.
+
+When you finished editing the strip, simply go to :menuselection:`Edit --> Stop Tweaking Strips Actions`
 or press :kbd:`Tab`.

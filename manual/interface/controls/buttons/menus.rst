@@ -119,6 +119,8 @@ Single
 All
    Include all combinations.
 
+.. _bpy.ops.ui.reset_default_button:
+
 Reset to Default Value(s) :kbd:`Backspace`
    Replaces the current value by the default.
 

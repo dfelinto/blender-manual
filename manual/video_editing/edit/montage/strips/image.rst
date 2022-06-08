@@ -65,7 +65,7 @@ End Frame
       Subtract the *Start Frame* from the *End Frame* to get the strip's duration.
 
 Channel
-   The :ref:`Channel <bpy.types.Sequence.channel>` to place the strip.
+   The :doc:`Channel </editors/video_sequencer/sequencer/channels>` to place the strip.
 
 Replace Selection
    Replaces the currently selected strips with the new strip.

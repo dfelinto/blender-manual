@@ -176,3 +176,16 @@ Keep Hierarchy
 
    Simple cases (like an empty instancing a collection containing instances of some other collections)
    will usually work, but more complex cases will fail to fully reproduce the whole instancing hierarchy.
+
+
+.. _bpy.ops.object.parent_inverse_apply:
+
+Parent Inverse
+==============
+
+.. reference::
+
+   :Mode:      Object Mode
+   :Menu:      :menuselection:`Object --> Apply --> Parent Inverse`
+
+Applies the object's :ref:`parent-inverse-matrix` transform to the object data.

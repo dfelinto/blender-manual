@@ -75,7 +75,7 @@ Start Frame
    The :ref:`Start Frame <bpy.types.Sequence.frame_start>` to place the left handle of the strip.
 
 Channel
-   The :ref:`Channel <bpy.types.Sequence.channel>` to place the strip.
+   The :doc:`Channel </editors/video_sequencer/sequencer/channels>` to place the strip.
 
 Replace Selection
    Replaces the currently selected strips with the new strip.
