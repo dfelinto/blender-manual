@@ -24,7 +24,7 @@ Selection
    Boolean field that is true for parts of the geometry to be deleted.
 
 Amount
-   Field indicating now many times each input element should be duplicated.
+   Field indicating how many times each input element should be duplicated.
    If the value is zero for an element, it will not be included in the output at all.
 
 
