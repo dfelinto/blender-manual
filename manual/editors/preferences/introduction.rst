@@ -33,7 +33,7 @@ The following items are available in this menu:
 Auto-Save Preferences
    By default changes to preferences are saved on exit,
    this allows changes to the keymap and Quick Favorites menu to be stored and used between
-   :term:`sessions`.
+   :term:`Blender Sessions <Blender Session>`.
 
    When disabled, a *Save Preferences* button is shown to manually perform the operation.
 Revert to Saved Preferences
