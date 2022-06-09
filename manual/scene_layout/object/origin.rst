@@ -52,5 +52,5 @@ Center
 .. tip::
 
    To transform an object's origin directly, enable
-   :ref:`Origins <bpy.types.ToolSettings.use_transform_data_origin>`
-   in the *Pivot Point* popover.
+   :ref:`Affect Only Origins <bpy.types.ToolSettings.use_transform_data_origin>`
+   in the *Tool Settings Options*.
