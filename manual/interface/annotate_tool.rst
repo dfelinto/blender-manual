@@ -40,7 +40,7 @@ Annotate Polygon
 
 Annotate Eraser
    Click and drag to remove lines.
-   The eraser has a *Radius* setting found in :menuselection:`Tool Settings --> Eraser`.
+   The eraser has a *Radius* setting found in :menuselection:`Tool Settings`.
 
 
 Tool Settings
