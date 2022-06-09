@@ -126,11 +126,6 @@ Include
    Environment
       Disables rendering the *Environment* render pass in the final render.
 
-   .. _bpy.types.ViewLayer.use_ao:
-
-   Ambient Occlusion
-      Disables rendering the *Ambient Occlusion* render pass in the final render.
-
    .. _bpy.types.ViewLayer.use_solid:
 
    Surfaces
