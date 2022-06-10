@@ -47,7 +47,7 @@ Projection
    :Flat: Uses the XY coordinates for mapping.
    :Box:
       Maps the image to the six sides of a virtual box, based on the normal,
-      using XY, YZ and XYZ coordinates depending on the side.
+      using XY, YZ and XZ coordinates depending on the side.
 
       Blend
          For Box mapping, the amount to blend between sides of the box,
