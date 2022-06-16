@@ -203,7 +203,7 @@ to selectively speed up caustic rendering of objects in your scene.
    - Only refractive caustics in the shadows of objects work. Caustics from reflections or caustics that
      fall outside shadows are not rendered with this technique.
 
-   - MNEE Caustics are an approximation of caustics and will product physically inaccurate results
+   - MNEE Caustics are an approximation of caustics and will produce physically inaccurate results
      in many situations. Examples include incorrect brightnesses and the incorrect representation of
      caustics caused by rough or curved surfaces.
 
@@ -223,7 +223,7 @@ to selectively speed up caustic rendering of objects in your scene.
 
    - MNEE Caustics only work if the caustic caster has smooth normals.
 
-   - Volumetric materials can not considered when calculating MNEE caustics.
+   - Volumetric materials are not considered when calculating MNEE caustics.
 
    - Bump and normal maps are ignored when calculating caustics.
 
