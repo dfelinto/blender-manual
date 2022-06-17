@@ -73,12 +73,12 @@ Save As... :kbd:`Shift-Ctrl-S`
 Save Copy...
    :ref:`Saves <bpy.ops.wm.save_mainfile>` a copy of the current file.
 Link...
-   Links data from an external blend-file (library) to the current scene.
+   Links data from an external blend-file (library) to the current one.
    The editing of that data is only possible in the external library.
    *Link* and *Append* are used to load in only selected parts from another file.
    See :doc:`Linked Libraries </files/linked_libraries/index>`.
 Append...
-   Appends data from an external blend-file to the current scene.
+   Appends data from an external blend-file to the current one.
    The new data is copied from the external file, and completely unlinked from it.
 Data Previews
    Tools for managing :doc:`data-block previews </files/blend/previews>`.
@@ -93,7 +93,7 @@ External Data
    External data, like texture images and other resources,
    can be stored inside the blend-file (packed) or as separate files (unpacked).
    Blender keeps track of all unpacked resources via a relative or absolute path.
-   See :ref:`pack or unpack external Data <pack-unpack-data>`.
+   See :ref:`pack or unpack external data <pack-unpack-data>`.
 
    Automatically Pack Into .blend
       This option activates the file packing.
@@ -105,7 +105,7 @@ External Data
    Make All Paths Relative
       Make all paths to external files :ref:`files-blend-relative_paths` to current blend-file.
    Make All Paths Absolute
-      Make all paths to external files absolute. Absolute ones have full path from the system's root.
+      Make all paths to external files absolute (= full path from the system's root).
    Report Missing Files
       This option is useful to check if there are links to unpacked files that no longer exist.
       After selecting this option, a warning message will appear in the Info editor's header.
@@ -160,7 +160,8 @@ Defaults
 
    .. seealso:: :ref:`prefs-menu`.
 Quit :kbd:`Ctrl-Q`
-   Closes Blender and the file is saved into ``quit.blend``.
+   Closes Blender. The current scene is saved to a file called "quit.blend" in Blender's temporary directory
+   (which can be found on the "File Paths" tab of the :doc:`Preferences </editors/preferences/file_paths>`).
 
 
 Edit Menu
@@ -182,16 +183,17 @@ Batch Rename
 .. _bpy.types.ToolSettings.lock_object_mode:
 
 Lock Object Modes
-   Restrict select to the current mode.
+   Prevents selecting objects that are in a different mode than the current one.
 
    .. note::
 
-      Locking object modes can help prevent accidental mode changes.
-      For example when animating in pose mode, where failure to select a bone
-      could select the background scenery and thus could exit pose mode. 
+      This option can prevent accidental mode changes, such as when you're
+      trying to select a bone in Pose Mode to animate it, but instead
+      click a piece of background scenery (which would normally select that
+      piece and switch to Object Mode).
       
-      You may want to disable Lock Object Modes for example when weighting rigged objects
-      or sculpt/painting where you intentionally want to switch between objects in different modes. 
+      You may want to disable *Lock Object Modes* for example when weighting rigged objects
+      or sculpting/painting where you intentionally want to switch between objects in different modes. 
 
 Preferences
    Open the Preferences window.
@@ -211,13 +213,13 @@ Render Animation :kbd:`Ctrl-F12`
 
       - :doc:`Rendering Animations </render/output/animation>` for details.
 Render Audio
-   Mix the scenes audio file to a sound file.
+   Mix the scene's audio to a sound file.
 
    .. seealso::
 
       - :doc:`Rendering audio </render/output/audio/introduction>` for details.
 View Render :kbd:`F11`
-   Toggle show render view.
+   Show the Render window. (Press again to switch back to the main Blender window.)
 
 .. _topbar-render-view_animation:
 
@@ -227,8 +229,8 @@ View Animation :kbd:`Ctrl-F11`
    .. seealso::
 
       - :ref:`Animation player <bpy.ops.render.play_rendered_anim>` for details.
-      - :ref:`Animation player <prefs-file_paths-animation_player>` preferences to select
-        different animation players.
+      - :ref:`Preferences <prefs-file_paths-animation_player>` for selecting a
+        different animation player than the default one.
 Lock Interface
    Lock interface during rendering in favor of giving more memory to the renderer.
 
@@ -265,7 +267,7 @@ Save Screenshot
 
 Save Screenshot (Editor)
    Capture a picture of the selected Editor.
-   Select the Editor by :kbd:`LMB` within its area after running the operator.
+   Select the Editor by clicking :kbd:`LMB` within its area after running the operator.
    A File Browser will open to choose where the screenshot is saved.
 
 
@@ -281,7 +283,7 @@ Workspaces
 .. figure:: /images/interface_window-system_topbar_workspaces.png
    :align: center
 
-These sets of tabs are used to select the current :doc:`Workspace </interface/window_system/workspaces>`;
+This set of tabs is used to switch between :doc:`Workspaces </interface/window_system/workspaces>`,
 which are essentially predefined window layouts.
 
 
@@ -292,4 +294,4 @@ Scenes & Layers
    :align: center
 
 These :ref:`data-block menus <ui-data-block>` are used to select
-the current active :doc:`Scene </scene_layout/scene/index>` and :doc:`View Layer </scene_layout/view_layers/index>`.
+the current :doc:`Scene </scene_layout/scene/index>` and :doc:`View Layer </scene_layout/view_layers/index>`.

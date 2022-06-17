@@ -58,7 +58,7 @@ Context Menu
 
 Show Header
    Toggles the visibility of the header.
-   If a header is hidden it can be made visible again by dragging
+   If a header is hidden, it can be made visible again by clicking or dragging
    the small arrow that appears at the top/bottom right of the editor.
 Show Tool Settings
    Toggles the visibility of the `Tool Settings`_.
@@ -80,27 +80,24 @@ Close Area
 Toolbar
 =======
 
-The *Toolbar* (on the left side of the editor area) contains a set of interactive tools.
-:kbd:`T` toggles the visibility of the Toolbar.
-
-This is further documented here: :ref:`Toolbar <ui-region-toolbar>`.
+The :ref:`Toolbar <ui-region-toolbar>` (on the left side of the editor area)
+contains a set of interactive tools. :kbd:`T` toggles the visibility of the Toolbar.
 
 
 Tool Settings
 =============
 
-The *Tool Settings* (at the top/bottom of the editor area)
-contains as its name suggests the settings of the active tool.
-It's visibility can be toggled with the header's context menu just as its position
-with the *Flip to Bottom/Top* operator.
+A horizontal strip at the top or bottom of the editor (similar to the header)
+containing settings for the currently selected tool. Just like the header,
+it can be hidden and moved through its context menu.
 
 
 Adjust Last Operation
 =====================
 
-The *Adjust Last Operation* is a region that shows options when operators are run.
-
-This is further documented here: :ref:`Adjust Last Operation <bpy.ops.screen.redo_last>`.
+:ref:`Adjust Last Operation <bpy.ops.screen.redo_last>` is a region that allows
+tweaking an operator after running it. For example, if you just added a cube,
+you can use this region to tweak its size.
 
 
 .. _ui-region-sidebar:
@@ -128,12 +125,12 @@ Scrolling
 ---------
 
 A region can be scrolled vertically and/or horizontally by dragging it with the :kbd:`MMB`.
-If the region has no zoom level, it can be scrolled by using the :kbd:`Wheel`,
+If the region has no zoom level, it can also be scrolled by using the :kbd:`Wheel`
 while the mouse hovers over it.
 
 .. _interface_window-system_regions_scroll_range:
 
-Some regions, in particular animation timelines have scrollbars with added control points
+Some regions, in particular animation timelines, have scrollbars with added control points
 to adjust the vertical or horizontal range of the region.
 These special scrollbars will have added widgets at the ends, as shown in the following image:
 
@@ -143,9 +140,8 @@ These special scrollbars will have added widgets at the ends, as shown in the fo
    Scrollbars with zoom widgets.
 
 This can be used to stretch or compress the range to show more or less detail within the available screen space.
-To use these control select the dot and drag it to either increase or decrease the displayed range.
-You can also use the shortcut :kbd:`Ctrl-MMB` and move the mouse left/right to adjust the horizontal range
-and move the mouse up/down to adjust the vertical range.
+Simply drag one of the dots to either increase or decrease the displayed range.
+You can also quickly adjust both the horizontal and vertical range by dragging in the editor with :kbd:`Ctrl-MMB`.
 
 
 Changing the Size and Hiding
@@ -154,7 +150,7 @@ Changing the Size and Hiding
 Resizing regions works by dragging their border, the same way as
 :doc:`/interface/window_system/areas`.
 
-To hide a region resize it down to nothing.
+To hide a region, resize it down to nothing.
 A hidden region leaves a little arrow sign.
 :kbd:`LMB` on this icon to make the region reappear.
 
@@ -163,3 +159,10 @@ A hidden region leaves a little arrow sign.
    * - .. figure:: /images/interface_window-system_regions_sidebar-hide.png
 
      - .. figure:: /images/interface_window-system_regions_sidebar-show.png
+
+Scaling
+-------
+
+The scale of certain regions (such as the Toolbar) can be changed by dragging inside them
+with :kbd:`Ctrl-MMB`, or using :kbd:`NumpadPlus` and :kbd:`NumpadMinus` while hovering the
+mouse cursor over them. Press :kbd:`Home` to reset the scale to the default.

@@ -8,11 +8,16 @@
 
 /* Allow text to flow around right aligned images */
 .align-right {
-   float: right;
-   margin: 0 0 24px 24px;
+  float: right;
+  margin: 0 0 24px 24px;
 }
 
 /* Prevent images from flowing into other headings */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   clear: both;
 }
