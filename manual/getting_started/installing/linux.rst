@@ -60,16 +60,16 @@ See :doc:`Launching from the terminal </advanced/command_line/launch/linux>`.
 Avoiding Alt-Mouse Conflict
 ===========================
 
-Some window-managers default to :kbd:`Alt-LMB` and :kbd:`Alt-RMB` for moving and resizing windows.
+Some window managers default to :kbd:`Alt-LMB` and :kbd:`Alt-RMB` for moving and resizing windows.
 
-Blender uses Alt mouse buttons for various operations, notably:
+Blender uses these for various operations, notably:
 
 - :ref:`Emulate 3 Button Mouse <preferences-input-emulate-mouse>`.
 - :ref:`bpy.ops.mesh.loop_multi_select`.
 - :ref:`Changing multiple properties at once <keymap-common-properties>`.
 
-To access Blender's full feature set you can change the window-manager settings to use the *Meta* key instead
-(also called *Super* or *Windows key*):
+To access Blender's full feature set, you can change the window manager settings to use the *Meta* key instead
+(also called *Super* or *Windows* key):
 
 Gnome
    Enter the following in a command line (effective at next login):
@@ -104,8 +104,7 @@ Many Linux distributions have packages for Blender available, which can be insta
 using the distribution's package manager. After installation,
 Blender can be updated using the same steps as updating any other application.
 
-
 .. seealso::
 
    The Splash screen :doc:`/getting_started/configuration/defaults` page for information
-   about import settings from previous Blender versions and on other quick settings.
+   about importing settings from previous Blender versions and other quick settings.

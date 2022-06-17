@@ -12,23 +12,20 @@ Download the zip-file or Windows Installer File.
 Install from Windows Installer File
 ===================================
 
-The Windows installer when run will let you choose where to place Blender
-and configure Windows to have an entry to the start menu and to open blend-files with Blender.
-Administrator rights are needed to install Blender on your system.
+The Windows installer will let you choose an installation folder,
+and will create an entry in the start menu as well as associate blend-files with Blender.
+It requires administrator rights.
 
 
 Install from Zip
 ================
 
-When choosing the zip-file you have to manually extract Blender to the desired folder,
+When choosing the zip-file, you have to manually extract Blender to the desired folder,
 where you can double-click the executable to run Blender.
 
-There is no installer to place Blender on the menu, but there is also no need for administrator rights.
-With this option, it is possible to have multiple versions of Blender without conflicting,
-as they are not actually installed on the system.
-
-However, if you want a particular version to be registered with your computer then simply run ``blender -r``
-from the :doc:`Command Line </advanced/command_line/arguments>`.
+No start menu item will be created and no blend-file association will be registered,
+but there is also no need for administrator rights. You can register the file association
+manually by running ``blender -r`` from the :doc:`Command Line </advanced/command_line/arguments>`.
 
 .. tip:: How to Make a Portable Installation
 
@@ -67,8 +64,11 @@ Updating from Zip
 
 When an update for Blender is released, it can be downloaded directly
 from the `Blender website <https://www.blender.org/download/>`__
-and extracted to the desired folder, where you can double click the executable to run Blender.
+and extracted to the desired folder, where you can double-click the executable to run Blender.
 For more information on creating a portable version of Blender, see the section `Install from Zip`_.
+
+Note, you do not have to overwrite your existing Blender installation.
+It's perfectly possible to have multiple versions installed side by side.
 
 
 Updating from the Microsoft Store
@@ -77,8 +77,7 @@ Updating from the Microsoft Store
 When an update for Blender is available on the Microsoft Store, it will be downloaded
 and installed automatically.
 
-
 .. seealso::
 
    The Splash screen :doc:`/getting_started/configuration/defaults` page for information
-   about import settings from previous Blender versions and on other quick settings.
+   about importing settings from previous Blender versions and other quick settings.

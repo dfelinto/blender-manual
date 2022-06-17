@@ -114,7 +114,7 @@ Version/Revision Milestones
    Another version full of improvements: object hooks, curve deforms and curve tapers,
    particle duplicators and much more.
 `2.36 <https://archive.blender.org/development/release-logs/blender-236/>`__ -- December 2004:
-   A stabilization version, much work behind the scene, normal and displacement mapping improvements.
+   A stabilization version, much work behind the scenes, normal and displacement mapping improvements.
 `2.37 <https://archive.blender.org/development/release-logs/blender-237a/>`__ -- June 2005:
    Transformation tools and widgets, soft bodies, force fields, deflections,
    incremental subdivision surfaces, transparent shadows, and multi-threaded rendering.
@@ -276,4 +276,4 @@ Version/Revision Milestones
    Cycles Color Attribute baking, APIC fluid simulations, Video Sequencer improvements, and much more.
 `2.93 <https://www.blender.org/download/releases/2-93/>`__ -- June 2021:
    New geometry nodes, sculpting improvements, Grease Pencil Line Art modifier along with other improvements,
-   an improve :abbr:`DOF (Depth Of Field)` for the Eevee render engine, redesigned Cryptomatte workflow, and more.
+   an improved :abbr:`DOF (Depth Of Field)` for the Eevee render engine, redesigned Cryptomatte workflow, and more.

@@ -4,8 +4,8 @@ Introduction
 ************
 
 Here are some preferences that you may wish to set initially.
-The full list and explanation of the Preferences are documented in the section
-:doc:`Preferences </editors/preferences/index>`.
+See the section :doc:`Preferences </editors/preferences/index>`
+for the complete list of available settings.
 
 
 Language
@@ -33,8 +33,8 @@ File and Paths
 ==============
 
 At :menuselection:`Preferences --> File Paths`
-you can set options such as what external *Image Editor* to use,
-such as GIMP or Krita, and the Animation Player.
+you can set options such as what *Image Editor* (GIMP, Krita...)
+and *Animation Player* to use.
 
 The :ref:`temp-dir` sets where to store files such as temporary renders and auto-saves.
 
@@ -50,9 +50,7 @@ Save & Load
 ===========
 
 If you trust the source of your blend-files, you can enable *Auto Run Python Scripts*.
-This option is meant to protect you from malicious Python scripts that someone can include inside a blend-file.
-This would not happen by accident,
-many users leave this option on to automatically run scripts often used in advanced rigs
-(such as "Rigify" that controls the skeleton of a human rig).
+This option is meant to protect you from malicious Python scripts in blend-files that you got from someone else.
+Many users turn this option on, as advanced rigs tend to use scripts of some sort.
 
 See Save & Load :ref:`prefs-auto-execution` Preference.

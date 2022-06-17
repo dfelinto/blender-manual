@@ -26,9 +26,8 @@ Blender supports various types of input devices:
 
 .. note::
 
-   If you are missing an input device such as a mouse or numpad you can change
-   Blender's :doc:`keymap </interface/keymap/blender_default>` to emulate these devices.
-   Settings to enable this can be found in the :doc:`Input Preferences </editors/preferences/input>`.
+   If you don't have a middle mouse button or numpad, you can emulate these
+   in the :doc:`Input Preferences </editors/preferences/input>`.
 
 
 Mouse
@@ -61,9 +60,10 @@ Keyboard
 Numpad Emulation
 ^^^^^^^^^^^^^^^^
 
-If you do not have a numeric Numpad on the side of your keyboard,
-you may want to emulate one (uses the numbers at the top of the keyboard instead,
-however, removes quick access to layer visibility).
+If you do not have a numpad on the side of your keyboard,
+you may want to emulate one. You can then use the number row at the top of the keyboard instead,
+but will no longer have access to these keys' original functions (such as switching between
+vertex/edge/face selection in Edit Mode).
 
 .. seealso::
 
@@ -73,14 +73,13 @@ however, removes quick access to layer visibility).
 Non-English Keyboards
 ^^^^^^^^^^^^^^^^^^^^^
 
-If you use a keyboard with a non-English keyboard layout, you still may benefit from switching
-your computer to the UK or US layout as long as you work with Blender.
+If you use a keyboard with a non-English layout, you may still benefit from switching
+to the UK or US layout while working with Blender.
 
 .. note::
 
-   You can also change the default keymap and
-   default hotkeys from the :doc:`Preferences </editors/preferences/input>`,
-   however, this manual assumes you are using the default keymap.
+   You can also change the keymap from the :doc:`Preferences </editors/preferences/input>`.
+   However, this manual assumes you are using the default keymap.
 
 
 .. _hardware-tablet:
@@ -106,10 +105,9 @@ NDOF (3D Mouse)
 
 3D mice or :abbr:`NDOF (N-Degrees of Freedom)` devices are hardware that you can use to navigate a scene in Blender.
 Currently only devices made by 3Dconnexion are supported.
-These devices allow you to explore a scene, as well as making :ref:`Fly/Walk Navigation <3dview-fly-walk>`
-easier to control. The NDOF device can be configured in the :ref:`Preference <editors_preferences_input_ndof>`.
-These settings can also be accessed using the :kbd:`NDOFMenu` button on the NDOF device
-to open a pop-up menu to adjust the settings directly from the viewport.
+These devices allow you to explore a scene, and make :ref:`Fly/Walk Navigation <3dview-fly-walk>`
+easier to control. The NDOF device can be configured in the :ref:`Preferences <editors_preferences_input_ndof>`.
+These settings can also be accessed directly from the viewport using the :kbd:`NDOFMenu` button on the NDOF device.
 
 .. seealso::
 

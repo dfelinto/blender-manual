@@ -6,7 +6,7 @@ Introduction
 Welcome to Blender! Blender is a free and open-source 3D creation suite.
 
 With Blender, you can create 3D visualizations such as
-still images, 3D animations, VFX shots, and video editing.
+still images, 3D animations and VFX shots. You can also edit videos.
 It is well suited to individuals and small studios who
 benefit from its unified pipeline and responsive development process.
 
@@ -42,7 +42,7 @@ Key Features
 - It is cross platform, with an OpenGL GUI that is uniform on all major platforms
   (and customizable with Python scripts).
 - It has a high-quality 3D architecture, enabling fast and efficient creation workflow.
-- It boasts active community support, see `blender.org/community <https://www.blender.org/community>`__
+- It boasts active community support. See `blender.org/community <https://www.blender.org/community>`__
   for an extensive list of sites.
 - It has a small executable, which is optionally portable.
 
@@ -68,5 +68,5 @@ jargon associated with the underlying technologies.
 Terms like UV maps, materials, shaders, meshes, and "subdivs" are the media of the digital artist,
 and understanding them, even broadly, will help you to use Blender to its best.
 
-So keep reading this manual, learn the great tool that Blender is, keep your mind open to
-other artistic and technological areas and you too can become a great artist.
+So keep reading this manual, learn the great tool that Blender is, and keep your mind open to
+other artistic and technological areas -- and you, too, can become a great artist.

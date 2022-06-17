@@ -49,15 +49,15 @@ Context-Sensitive Manual Access
 
 You may want to access help for a tool or area from within Blender.
 
-Use the key-shortcut, or context menu to visit pages from this reference manual within Blender.
+Use the keyboard shortcut or context menu item to visit pages of this reference manual from within Blender.
 This opens a web page relating to the button under the cursor, supporting both tool and value buttons.
 
 .. note::
 
-   We do not currently have 100% coverage,
-   you may see an alert in the info header if some tools do not have a link to the manual.
+   We do not currently have 100% coverage.
+   You may see an alert in the info header if a tool does not have a link to the manual.
 
-   Other times buttons may link to more general sections of the documentation.
+   Other times, buttons may link to more general sections of the documentation.
 
 
 .. _help-menu:
@@ -68,7 +68,7 @@ Help Menu
 Web Links
 ---------
 
-The first options of this menu provide direct links to Blender-related websites:
+The first options of this menu provide direct links to Blender-related websites.
 The same links can also be found in the :ref:`splash`.
 
 :doc:`Manual </index>`
@@ -101,24 +101,24 @@ The same links can also be found in the :ref:`splash`.
 Save System Info
 ----------------
 
-This extracts system information which can be useful to include in bug reports,
-inspecting the configuration or diagnosing problems.
+This extracts system information which can be useful for including in bug reports,
+inspecting the configuration, or diagnosing problems.
 
-You will be prompted to save a text file ``system-info.txt``.
+You will be prompted to save a text file called ``system-info.txt``.
 
-The text file contains sections:
+It contains the following sections:
 
 Blender
    This section shows you the Blender version, details about the build configuration,
    and the path in which Blender is running.
 Python
-   The Python version you are using, showing the paths of the Python programming language.
+   The version and path of your Python installation.
 Directories
    Paths used for scripts, data files, presets and temporary files.
 
    Those directories are configured using the :doc:`Preferences </editors/preferences/file_paths>` Editor.
 OpenGL
-   This section shows the OpenGL version, the name of the manufacturer,
-   and lists the capabilities of your hardware and driver.
-Enabled Add-Ons:
+   Shows the OpenGL version, the name of the manufacturer,
+   and the capabilities of your hardware and driver.
+Enabled Add-Ons
    Lists add-ons currently in use.
