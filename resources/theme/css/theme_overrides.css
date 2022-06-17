@@ -218,6 +218,9 @@ a.external {color:#656AE0;}
 .rst-content .line-block {margin-left:0px}
 
 /* Applied on main index:sections. */
+
+.global-index-toc {display: none;}
+
 /* Start section description. */
 @media screen and (min-width: 450px){
 	.tocdescr {

@@ -39,6 +39,17 @@ Getting Started
 
          :doc:`/getting_started/help`
 
+.. container:: global-index-toc
+
+   .. toctree::
+      :caption: Getting Started
+      :maxdepth: 1
+
+      getting_started/about/index.rst
+      getting_started/installing/index.rst
+      getting_started/configuration/index.rst
+      getting_started/help.rst
+
 
 Sections
 ========
@@ -173,6 +184,30 @@ Sections
          :ref:`Manual Index <genindex>`
             A list of terms linked to the Glossary.
 
+.. container:: global-index-toc
+
+   .. toctree::
+      :caption: Sections
+      :maxdepth: 2
+
+      interface/index.rst
+      editors/index.rst
+      scene_layout/index.rst
+      modeling/index.rst
+      sculpt_paint/index.rst
+      grease_pencil/index.rst
+      animation/index.rst
+      physics/index.rst
+      render/index.rst
+      compositing/index.rst
+      movie_clip/index.rst
+      video_editing/index.rst
+      files/index.rst
+      addons/index.rst
+      advanced/index.rst
+      troubleshooting/index.rst
+      glossary/index.rst
+
 
 Get Involved
 ============
@@ -182,39 +217,6 @@ This manual is maintained largely by volunteers.
 Please consider to join the effort and :ref:`Contribute to this Manual <about-user-contribute>`.
 
 .. just so this is included in the toc (not user visible).
-
-.. toctree::
-   :caption: Getting Started
-   :maxdepth: 1
-   :hidden:
-
-   getting_started/about/index.rst
-   getting_started/installing/index.rst
-   getting_started/configuration/index.rst
-   getting_started/help.rst
-
-.. toctree::
-   :caption: Sections
-   :maxdepth: 2
-   :hidden:
-
-   interface/index.rst
-   editors/index.rst
-   scene_layout/index.rst
-   modeling/index.rst
-   sculpt_paint/index.rst
-   grease_pencil/index.rst
-   animation/index.rst
-   physics/index.rst
-   render/index.rst
-   compositing/index.rst
-   movie_clip/index.rst
-   video_editing/index.rst
-   files/index.rst
-   addons/index.rst
-   advanced/index.rst
-   troubleshooting/index.rst
-   glossary/index.rst
 
 .. toctree::
    :caption: Get Involved
