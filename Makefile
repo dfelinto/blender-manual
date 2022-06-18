@@ -41,7 +41,7 @@ OS:=$(shell uname -s)
 SPHINXBUILD     ?= sphinx-build
 SPHINXAUTOBUILD	?= sphinx-autobuild
 SOURCEDIR        = ./manual
-BUILDDIR         = build
+BUILDDIR        ?= build
 BF_LANG         ?= en
 SPHINXOPTS      ?= -j auto -D language='$(BF_LANG)'
 LATEXOPTS       ?= "-interaction nonstopmode"
