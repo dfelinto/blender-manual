@@ -31,14 +31,6 @@ Please ask an administrator if you think something should be renamed/moved.
 Release Checklist
 =================
 
-- Increase the ``conf.py: blender_version`` variable.
-- Increase the ``dev`` version in ``resources/versions.json`` and
-  add the former version as a past release.
-- Update the splash image: ``interface_splash_current.png``.
-
-
-Archive Versions
-----------------
-
-- Update ``resources/versions.json`` for the future release *before* building an archive version
-  so that the 404 page gets a static version.
+- Create a release branch (``blender-3.2-release/``)
+- Update the splash image: ``interface_splash_current.png`` in the release branch.
+- Increase the ``conf.py: blender_version`` variable in the trunk version.
