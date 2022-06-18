@@ -108,7 +108,7 @@ Generating the Set of Files for the Target Language
 #. From the ``blender_docs`` directory to generate a set of files for ``fr`` language::
 
       make gettext
-      sphinx-intl update -p build/locale -l fr
+      sphinx-intl update -p build/gettext -l fr
 
    These files are still in English only, with all ``msgstr`` entries blank.
 
