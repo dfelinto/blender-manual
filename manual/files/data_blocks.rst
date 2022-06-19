@@ -432,11 +432,11 @@ Default Value
 Min, Max
    The minimum/maximum value the custom property can take.
 
-Is Library Overridable
+Library Overridable
    Allow the property to be :doc:`overridden </files/linked_libraries/library_overrides>`
    when the data-block is linked.
 
-Use Soft Limits
+Soft Limits
    Enables limits that the *Property Value* slider can be adjusted to
    without having to input the value numerically.
 
