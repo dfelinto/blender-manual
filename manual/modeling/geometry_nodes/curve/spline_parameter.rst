@@ -28,6 +28,10 @@ in the :doc:`Spreadsheet Editor </editors/spreadsheet>`.
    A :doc:`/modeling/geometry_nodes/curve/resample_curve` node can be used to create a poly spline,
    where there is a control point for every evaluated point.
 
+.. note::
+
+   When the *Length* is zero, the *Factor* is arbitrary. In this case the result is
+   exceptionally calculated dividing the index by the total number of control points or curves.
 
 Inputs
 ======
