@@ -30,6 +30,9 @@ If you have several guides in a layer,
 their fields add up to each other (the way you may have learned it in your physics course).
 But you can limit their influence radius by changing the *Minimum Distance* (see below).
 
+A particle follows a *Curve Guide* during its lifetime,
+the velocity depends on its lifetime and the length of the path.
+
 .. note::
 
    The Curve Guide does not affect :doc:`soft bodies </physics/soft_body/index>`.
@@ -43,45 +46,52 @@ Options
 
       UI for a Curve Guide force field.
 
-Minimum Distance
+.. _bpy.types.FieldSettings.guide_free:
+
+Free
+   Fraction of particle life time, that is not used for the curve.
+
+.. _bpy.types.FieldSettings.falloff_power:
+
+Falloff Power
+   This setting governs the strength of the guide between *Min Distance* and *Max Distance*.
+   A falloff of 1 means a linear progression.
+
+.. _bpy.types.FieldSettings.use_guide_path_add:
+
+Additive
+   If you use *Additive*, the speed of the particles is also evaluated depending on the falloff.
+
+.. _bpy.types.FieldSettings.use_guide_path_weight:
+
+Weights
+   Use Curve weights to influence the particle influence along the curve.
+
+.. _bpy.types.FieldSettings.guide_clump_amount:
+
+Clumping Amount
+   The particles come together at the end of the curve (1) or they drift apart (-1).
+
+.. _bpy.types.FieldSettings.guide_clump_shape:
+
+Shape
+   Defines the form in which the particles come together.
+   +0.99: the particles meet at the end of the curve.
+   0: linear progression along the curve. -0.99: the particles meet at the beginning of the curve.
+
+.. _bpy.types.FieldSettings.guide_minimum:
+
+Min Distance
    The distance from the curve, up to where the force field is effective with full strength.
    If you have a falloff of 0, this parameter will have no effect,
    because the field is effective with full strength up to *Max Distance* (or the infinity).
    *Min Distance* is shown with a circle at the endpoints of the curve in the 3D Viewport.
 
-Free
-   Fraction of particle life time, that is not used for the curve.
+.. _bpy.types.FieldSettings.use_max_distance:
+.. _bpy.types.FieldSettings.distance_max:
 
-Falloff
-   This setting governs the strength of the guide between *Min Distance* and *Max Distance*.
-   A falloff of 1 means a linear progression.
-
-
-Path
-----
-
-A particle follows a *Curve Guide* during its lifetime,
-the velocity depends on its lifetime and the length of the path.
-
-Additive
-   If you use *Additive*, the speed of the particles is also evaluated depending on the falloff.
-Weights
-   Use Curve weights to influence the particle influence along the curve.
-Maximum Distance / Use Max
+Max Distance
    The maximum influence radius. Shown by an additional circle around the curve object.
-
-
-Clumping
---------
-
-The other settings govern the form of the force field along the curve.
-
-Clumping Amount
-   The particles come together at the end of the curve (1) or they drift apart (-1).
-Shape
-   Defines the form in which the particles come together.
-   +0.99: the particles meet at the end of the curve.
-   0: linear progression along the curve. -0.99: the particles meet at the beginning of the curve.
 
 
 Kink
@@ -90,6 +100,8 @@ Kink
 .. warning::
 
    This feature is broken in the current version, see T46776.
+
+.. _bpy.types.FieldSettings.guide_kink_type:
 
 Type
    Changes the shape that the particles can take.
@@ -102,22 +114,33 @@ Type
    :Rotation: Todo.
    :Wave: A two-dimensional, standing wave.
 
-It is not so easy to describe the resulting shapes, so have a look at the example below.
+   It is not so easy to describe the resulting shapes, so have a look at the example below.
 
-.. figure:: /images/physics_forces_force-fields_types_curve-guide_kink.jpg
-   :width: 400px
+   .. figure:: /images/physics_forces_force-fields_types_curve-guide_kink.jpg
+      :width: 400px
 
-   Kink options of a curve guide. From left to right: Radial, Wave, Braid, Roll.
-   `Animation <https://vimeo.com/1866538>`__.
+      Kink options of a curve guide. From left to right: Radial, Wave, Braid, Roll.
+      `Animation <https://vimeo.com/1866538>`__.
+
+.. _bpy.types.FieldSettings.guide_kink_axis:
 
 Axis
    Which axis to use for the offset.
+
+.. _bpy.types.FieldSettings.guide_kink_frequency:
+
 Frequency
    The frequency of the offset.
-Amplitude
-   The Amplitude of the offset.
+
+.. _bpy.types.FieldSettings.guide_kink_shape:
+
 Shape
    Adjust the offset to the beginning/end.
+
+.. _bpy.types.FieldSettings.guide_kink_amplitude:
+
+Amplitude
+   The Amplitude of the offset.
 
 
 Examples
