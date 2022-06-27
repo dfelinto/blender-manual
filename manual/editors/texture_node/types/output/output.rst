@@ -19,8 +19,6 @@ Inputs
 
 Color
    The color data that the texture renders.
-Normal
-   The normal map that the texture will output.
 
 
 Properties
