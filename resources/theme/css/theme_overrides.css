@@ -346,15 +346,10 @@ a.external {
 @media screen and (min-width: 450px) {
 	.tocdescr {
 		display: flex;
-		display: -webkit-flex;
 		flex-flow: row wrap;
-		-webkit-flex-flow: row wrap;
 		justify-content: space-between;
-		-webkit-justify-content: space-between;
 		align-items: flex-start;
-		-webkit-align-items: flex-start;
 		align-content: flex-start;
-		-webkit-align-content: flex-start;
 		list-style-type: none;
 		margin-bottom: 10px;
 	}
@@ -363,25 +358,18 @@ a.external {
 	.tocdescr:after {
 		content: "";
 		flex: 1 0 33.3%;
-		-webkit-flex: 1 0 33.3%;
 		margin-left: 45px;
 		align-self: stretch;
-		-webkit-align-self: stretch;
 	}
 }
 
 @media screen and (max-width: 450px) {
 	.tocdescr {
 		display: flex;
-		display: -webkit-flex;
 		flex-flow: column wrap;
-		-webkit-flex-flow: column wrap;
 		justify-content: space-between;
-		-webkit-justify-content: space-between;
 		align-items: flex-start;
-		-webkit-align-items: flex-start;
 		align-content: flex-start;
-		-webkit-align-content: flex-start;
 		list-style-type: none;
 		margin-bottom: 10px;
 	}
@@ -389,13 +377,11 @@ a.external {
 	.tocdescr:after {
 		content: "";
 		flex: none;
-		-webkit-flex: none;
 	}
 }
 
 .descr {
 	flex: 2 0 33.3%;
-	-webkit-flex: 2 0 33.3%;
 	margin: 10px 15px;
 	border-radius: .3em;
 	user-select: none;
