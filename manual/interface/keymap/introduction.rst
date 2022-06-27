@@ -44,11 +44,12 @@ This manual refers to mouse buttons as:
 
 .. note::
 
-   Blender's default key-map has two main interaction modes left-click-select & right-click-select.
+   Blender has two main selection modes: left-click select and right-click select.
    See the :ref:`Select with Mouse Button <keymap-blender_default-prefs-select_with>` preference.
 
-   While :kbd:`LMB` select is default, both are fully supported and there are advantages with :kbd:`RMB` selection,
-   see: `Learn the benefits of right-click-select <https://vimeo.com/76335056>`__.
+   While left-click select is the default as it's the most common in other applications,
+   right-click select does have its advantages.
+   See: `Learn the benefits of right-click select <https://vimeo.com/76335056>`__.
 
 
 Hovering
@@ -95,14 +96,14 @@ Animation
 Python Scripting
 ----------------
 
-- :kbd:`Ctrl-C` -- Over any :ref:`ui-operator-buttons` copies their Python command into the clipboard.
+- :kbd:`Ctrl-C` over any :ref:`ui-operator-buttons` copies their Python command into the clipboard.
 
   This can be used in the Python Console or in the Text editor when writing scripts.
-- :kbd:`Shift-Ctrl-C` -- Over property buttons copies their data path for this property
+- :kbd:`Shift-Ctrl-C` over property buttons copies their data path for this property
   (also available from the context menu).
 
   Useful when writing drivers or scripts.
-- :kbd:`Shift-Ctrl-Alt-C` -- Over property buttons copies their *full* data path for the data-block and property.
+- :kbd:`Shift-Ctrl-Alt-C` over property buttons copies their *full* data path for the data-block and property.
 
   Note that in most cases it is best to access values based on the context, instead of by name.
 

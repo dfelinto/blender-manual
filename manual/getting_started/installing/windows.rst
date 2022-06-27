@@ -25,7 +25,9 @@ where you can double-click the executable to run Blender.
 
 No start menu item will be created and no blend-file association will be registered,
 but there is also no need for administrator rights. You can register the file association
-manually by running ``blender -r`` from the :doc:`Command Line </advanced/command_line/arguments>`.
+manually by clicking *Make Default* on the System tab of the
+:doc:`Preferences </editors/preferences/system>`. Alternatively, you can run ``blender -r``
+from the :doc:`Command Line </advanced/command_line/arguments>`.
 
 .. tip:: How to Make a Portable Installation
 

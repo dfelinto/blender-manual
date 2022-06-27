@@ -51,7 +51,7 @@ Global Keys
    * - :kbd:`Ctrl-Spacebar`
      - Toggle Maximize Area.
    * - :kbd:`Ctrl-Alt-Spacebar`
-     - Toggle Fullscreen Area
+     - Toggle Fullscreen Area.
    * - :kbd:`Ctrl-PageUp` / :kbd:`Ctrl-PageDown`
      - Next/previous Workspace.
    * - :kbd:`Spacebar`
@@ -107,17 +107,23 @@ These keys are shared across editors such as the 3D Viewport, UV and Graph edito
    :widths: 10 90
 
    * - :kbd:`Tab`
-     - Edit-mode toggle.
+     - Toggle Edit mode.
    * - :kbd:`Ctrl-Tab`
-     - Mode switching pie menu (toggles Pose Mode for armatures).
+     - Toggle Pose mode for armatures, or show a mode switching pie menu for others.
    * - :kbd:`1` - :kbd:`3`
-     - Edit mesh vertex/edge/face toggle (:kbd:`Shift` extends, :kbd:`Ctrl` expands & contracts).
+     - In Edit Mode, switch between editing vertices (:kbd:`1`), edges (:kbd:`2`), or faces (:kbd:`3`).
+
+       Hold :kbd:`Shift` to toggle one of these without disabling the others.
+
+       Hold :kbd:`Ctrl` to alter how the selection is transformed from the old mode to the new.
+       
+       See :doc:`Mesh Selection Modes </modeling/meshes/selecting/introduction>` for details.
    * - :kbd:`AccentGrave`
-     - 3D Viewport navigation pie menu.
+     - Show 3D Viewport navigation pie menu.
    * - :kbd:`Ctrl-AccentGrave`
      - Toggle gizmos.
    * - :kbd:`Shift-AccentGrave`
-     - Walk/Fly Navigation.
+     - Start Walk/Fly Navigation.
 
 
 Platform Specific Keys
@@ -146,9 +152,9 @@ Keymap Preferences
 .. _keymap-blender_default-prefs-select_with:
 
 Select with Mouse Button
-   Controls which mouse button, either right or left, is used to select items in Blender.
-   If *Left* is selected the :kbd:`RMB` will be a context sensitive menu,
-   if *Right* is selected the :kbd:`LMB` will place the 3D Cursor.
+   Controls which mouse button, either left or right, is used to select items in Blender.
+   If *Left* is selected, the :kbd:`RMB` will be a context sensitive menu.
+   If *Right* is selected, the :kbd:`LMB` will place the 3D Cursor.
 
 .. _keymap-blender_default-spacebar_action:
 
@@ -157,8 +163,8 @@ Spacebar Action
    These and other shortcuts can be modified in the :doc:`keymap preferences </editors/preferences/keymap>`.
 
    :Play:
-      Starts playing through the :doc:`Timeline </editors/timeline>`,
-      this option is good for animation or video editing work.
+      Starts playing through the :doc:`Timeline </editors/timeline>`.
+      This option is good for animation or video editing work.
    :Tools:
       Opens the Toolbar underneath the cursor to quickly change the active tool.
       This option is good if you are doing a lot of modeling or rigging work.
@@ -171,9 +177,10 @@ Activate Gizmo Event
    This option is only available when Left click *Select with Mouse Button* is chosen.
 
    :Press:
-      Allows immediate activation, preventing click events being passed to the tool.
+      The gizmo's operation gets initiated (and additional options become available in the Status Bar)
+      the moment you press down the mouse button on the gizmo.
    :Drag:
-      Allows click events to pass through to the tool, adding a small delay.
+      The operation only gets initiated once you start dragging the gizmo.
 
 Right Mouse Select Action
    The default action for the right mouse button.
@@ -190,12 +197,14 @@ Tool Keys
 
 Alt Click Tool Prompt
    Tapping :kbd:`Alt` shows a prompt in the status bar prompting a second keystroke to activate the tool.
-   Note this option is not available when using :ref:`Emulate 3 Button Mouse <preferences-input-emulate-mouse>`.
+   Note that this option is not available when using :ref:`Emulate 3 Button Mouse <preferences-input-emulate-mouse>`.
 
 Alt Tool Access
    Hold :kbd:`Alt` to use the :doc:`Active Tool </interface/tool_system>` when the gizmo would normally be required.
-   This option is only available when Left click *Select with Mouse Button* is chosen.
-   Note this option is not available when using :ref:`Emulate 3 Button Mouse <preferences-input-emulate-mouse>`.
+   (For example, with the Move tool selected, you can hold :kbd:`Alt` and drag the mouse anywhere in the viewport
+   to move the selected object, rather than having to drag its gizmo.)
+   This option is only available when *Select with Mouse Button* is set to Left click
+   and :ref:`Emulate 3 Button Mouse <preferences-input-emulate-mouse>` is disabled.
 
 Alt Cursor Access
    Hold :kbd:`Alt-LMB` to place the Cursor (instead of :kbd:`LMB`), allows tools to activate on press
@@ -214,6 +223,9 @@ Grave Accent / Tilde Action
       Navigation pie menu, useful on systems without a numeric keypad.
    :Gizmos:
       Transform gizmos pie menu, useful for quickly switching between transform gizmos.
+      Note that this doesn't apply to tools that force a certain gizmo (Move, Rotate, Scale
+      and Transform); if you have such a tool selected, the gizmo will stay the same
+      no matter what you choose in the pie menu.
 
 Middle Mouse Action
    The action when :kbd:`MMB` dragging in the viewport, this also applies to trackpads.
