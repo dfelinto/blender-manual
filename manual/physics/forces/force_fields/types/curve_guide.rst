@@ -91,19 +91,16 @@ Kink
 
    This feature is broken in the current version, see T46776.
 
-Changes the shape that the particles can take.
-
 Type
-   Curl
-      The radius of the influence depends on the distance of the curve to the emitter.
-   Radial
-      A three-dimensional, standing wave.
-   Wave
-      A two-dimensional, standing wave.
-   Braid
-      Braid.
-   Roll
-      A one-dimensional, standing wave.
+   Changes the shape that the particles can take.
+
+   :None: Todo.
+   :Braid: Braid.
+   :Curl: The radius of the influence depends on the distance of the curve to the emitter.
+   :Radial: A three-dimensional, standing wave.
+   :Roll: A one-dimensional, standing wave.
+   :Rotation: Todo.
+   :Wave: A two-dimensional, standing wave.
 
 It is not so easy to describe the resulting shapes, so have a look at the example below.
 

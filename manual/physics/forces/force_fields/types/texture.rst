@@ -28,30 +28,32 @@ Options
 Texture Mode
    This sets the way a force vector is derived from the texture.
 
-   RGB
-      Uses the color components directly as the force vector components in the color encoded directions.
-      You need an RGB texture for this, e.g. an image or a color ramp.
-      So a *Blend* texture without a color ramp would not suffice.
-   Gradient
-      Calculates the force vector as the 3D gradient of the intensity (grayscale) of the texture.
-      The gradient vector always points to the direction of increasing brightness.
-   Curl
+   :Curl:
       Calculates the force vector from the curl of the 3D-RGB texture (rotation of RGB vectors).
       This also works only with a color texture. It can be used for example to create a nice looking
       turbulence force with a color clouds texture with Perlin noise.
+   :Gradient:
+      Calculates the force vector as the 3D gradient of the intensity (grayscale) of the texture.
+      The gradient vector always points to the direction of increasing brightness.
+   :RGB:
+      Uses the color components directly as the force vector components in the color encoded directions.
+      You need an RGB texture for this, e.g. an image or a color ramp.
+      So a *Blend* texture without a color ramp would not suffice.
 
 Nabla
    It is the offset used to calculate the partial derivatives needed
    for *Gradient* and *Curl* texture modes.
-Use Object Coordinates
+
+Use Coordinates
    Uses the emitter object coordinates (and rotation & scale) as the texture space the particles use.
    Allows for moving force fields, that have their coordinates bound to the location coordinates of an object.
+
 Root Texture Coordinates
    This is useful for hair as it uses the texture force calculated for
    the particle root position for all parts of the hair strand.
+
 2D
-   The *2D* button disregards the particles Z coordinate
-   and only uses particles X & Y as the texture coordinates.
+   Disregards the particles Z coordinate and only uses particles X & Y as the texture coordinates.
 
 Remember that only procedural texture are truly 3D.
 

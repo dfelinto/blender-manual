@@ -21,6 +21,8 @@ Options
 
       UI for a Turbulence force field.
 
+.. _bpy.types.FieldSettings.size:
+
 Size
    Indicates the scale of the noise.
 Global

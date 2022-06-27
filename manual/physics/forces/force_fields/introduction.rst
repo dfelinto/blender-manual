@@ -72,32 +72,33 @@ Most fields have the same settings, even though they act very differently.
 Settings unique to a field type are described below.
 Curve Guide and Texture fields have very different options.
 
+.. _bpy.types.FieldSettings.shape:
+
 Shape
    Sets the direction which is used to calculate the effector force.
    For force fields from an empty object only *Point*, *Line* and *Plane* shapes are available,
    as for a field from a 3D object there are additional *Surface* and *Every Point* options,
    and *Curve* for a field from a curve.
 
-   Point
-      Point with omni-directional influence.
-      Uses the object origin as the effector point.
-   Line
+   :Point: Point with omni-directional influence. Uses the object origin as the effector point.
+   :Line:
       The force only acts in the local XY plane, using the Z axis line as the effector.
-   Plane
+   :Plane:
       The force only acts in the local Z direction, using the XY axis plane as the effector.
-   Surface
+   :Surface:
       The force field acts on a 3D object's surface.
       In this case, the Z axis is the surface normal.
-   Every Point
-      Uses every vertex in the mesh object as an effector point.
-   Curve
-      The force field acts along a curve object.
+   :Every Point: Uses every vertex in the mesh object as an effector point.
+
+.. _bpy.types.FieldSettings.strength:
 
 Strength
    The strength of the field effect.
    This can be positive or negative to change the direction that the force operates in.
    A force field's strength is scaled with the force object's scale,
    allowing you to scale up and down the scene, keeping the same effects.
+
+.. _bpy.types.FieldSettings.flow:
 
 Flow
    If nonzero, this adds a drag force proportional and opposite to the point velocity.
@@ -106,11 +107,8 @@ Flow
    at a certain point defines the velocity of an "air flow" field, and objects are
    encouraged to follow the flow by the resistance caused by the *Flow* drag force.
 
-Noise Amount
-   Adds noise to the strength of the force.
-
-Seed
-   Changes the seed of the random noise.
+.. _bpy.types.FieldSettings.apply_to_location:
+.. _bpy.types.FieldSettings.apply_to_rotation:
 
 Affect
    Location
@@ -121,8 +119,22 @@ Affect
 
    Disabling both options completely deactivates the force field.
 
+.. _bpy.types.FieldSettings.noise:
+
+Noise Amount
+   Adds noise to the strength of the force.
+
+.. _bpy.types.FieldSettings.seed:
+
+Seed
+   Changes the seed of the random noise.
+
+.. _bpy.types.FieldSettings.use_absorption:
+
 Absorption
    Force gets absorbed by collision objects.
+
+.. _bpy.types.FieldSettings.wind_factor:
 
 Wind Factor
    Specifies how much the force is reduced when acting parallel to a surface, e.g. cloth.
@@ -135,18 +147,28 @@ Falloff
 Here you can specify the shape of the force field
 (if the falloff *Power* is greater than 0).
 
+.. _bpy.types.FieldSettings.falloff_type:
+
 Shape
-   Sphere
+   :Cone:
+      The falloff results in a cone-shaped force field. Additional options are the same as those of *Tube* options.
+   :Sphere:
       The falloff is uniform in all directions, as in a sphere.
-   Tube
+   :Tube:
       The falloff results in a tube-shaped force field.
       The field's *Radial Power* can be adjusted,
       as well as the *Minimum* and *Maximum* distances of the field.
-   Cone
-      The falloff results in a cone-shaped force field. Additional options are the same as those of *Tube* options.
+
+.. _bpy.types.FieldSettings.z_direction:
 
 Z Direction
-   The force can be set to apply only in the direction of the positive Z axis, negative Z axis, or both.
+   The direction the force affects on the Z axis.
+
+   :+Z: The force only has an affect on the positive Z axis.
+   :-Z: The force only has an affect on the negative Z axis.
+   :Both Z: The force has an affect on the positive and negative Z axis.
+
+.. _bpy.types.FieldSettings.falloff_power:
 
 Power
    How the power of the force field changes with the distance from the force field.
@@ -154,11 +176,17 @@ Power
    A falloff of 2 changes the force field with 1/(*r* - *min* + 1)\ :sup:`2`,
    which is similar to the falloff of gravitational pull.
 
+.. _bpy.types.FieldSettings.use_min_distance:
+.. _bpy.types.FieldSettings.distance_min:
+
 Min Distance
    The distance from the object's origin, up to where the force field is effective with full strength.
    If you have a falloff of 0, this parameter will have no effect,
    because the field is effective with full strength up to *Max Distance* (or infinite).
    Shown by an additional circle around the object.
+
+.. _bpy.types.FieldSettings.use_max_distance:
+.. _bpy.types.FieldSettings.distance_max:
 
 Max Distance
    Specifies the maximum radius in which the force field affects other objects
