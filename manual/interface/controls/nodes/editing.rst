@@ -11,13 +11,16 @@ Transform
    :Menu:      :menuselection:`Node --> Move, Rotate, Resize`
    :Shortcut:  :kbd:`G`, :kbd:`R`, :kbd:`S`
 
-Move a single node by clicking and dragging it around. A node can be clicked almost anywhere to start dragging.
-Multiple nodes can be moved after pressing :kbd:`G`.
+You can move the selected node(s) by simply clicking and dragging any empty part on them.
+Alternatively, you can press :kbd:`G`, move the mouse, and click :kbd:`LMB` to confirm.
 
 In general it is recommended to arrange your nodes within the view such that the data flows from
 left to right, top to bottom.
 
-A node can be resized by dragging the edges on the left or right side.
+The width of a node can be changed by dragging its left or right border.
+
+Rotating (:kbd:`R`) and scaling (:kbd:`S`) only apply when you have multiple nodes selected
+and only affect the nodes' positions.
 
 
 Connecting Sockets
@@ -26,7 +29,7 @@ Connecting Sockets
 Interactively
 -------------
 
-:kbd:`LMB`-click on a socket and drag. You will see a line coming out of it: This is called a *link*.
+:kbd:`LMB`-click on a socket and drag. You will see a line coming out of it: this is called a *link*.
 Keep dragging and connect the link to an input socket of another node, then release the :kbd:`LMB`.
 While multiple links can route out of an output socket, only a single link can be attached to an input socket.
 
@@ -53,7 +56,7 @@ Disconnecting Sockets
 Interactively
 -------------
 
-Drag the link from an input socket and let it go keeping it unconnected.
+Drag the link away from its input socket and let it go, keeping it unconnected.
 
 
 .. _bpy.ops.node.links_mute:
@@ -66,18 +69,13 @@ Mute Links
    :Menu:      :menuselection:`Node --> Mute Links`
    :Shortcut:  :kbd:`Ctrl-Alt-RMB`
 
-Mute links works as a mute/unmute toggle depending on the existing state of the link.
+Activate the menu item or hold the key combination,
+then draw a line across one or more links to mute/unmute them.
+A muted link acts as though it's no longer there; this also means the input fields
+for specifying fixed values become visible again.
 
-To mute a link between sockets click in an empty area, near the link you want to mute, and drag:
-You will see a little mute icon appearing at your mouse pointer.
-Move it over the link itself, and release.
-
-When muting links connected to a reroute node, links connected to the reroute node will also be muted.
-
-Muting links temporarily disconnects sockets but leaves the link connected.
-The muted link is displayed in red with a bar across.
-The controls for sockets are normally hidden when connected,
-when links are muted the controls are shown.
+When muting links on the input side of a :doc:`reroute node </interface/controls/nodes/reroute>`,
+the links on its output side will be muted too.
 
 .. figure:: /images/interface_controls_nodes_editing_mute_links.png
 
@@ -92,12 +90,16 @@ Cut Links
    :Menu:      :menuselection:`Node --> Cut Links`
    :Shortcut:  :kbd:`Ctrl-RMB`
 
-To break a link between sockets click in an empty area, near the link you want to disconnect, and drag:
-You will see a little cutter icon appearing at your mouse pointer.
-Move it over the link itself, and release.
+Activate the menu item or hold the key combination,
+then draw a line across one or more links to delete them.
+
+.. note::
+   The key combination is normally reserved for :doc:`Lasso Select </interface/selecting>`.
+   In node editors, lasso selection is instead performed with :kbd:`Ctrl-Alt-LMB`.
 
 Detach Links :kbd:`Alt-D`, :kbd:`Alt-LMB` drag
-   Use Detach Links in order to cut all links attached to selected nodes at once.
+   Use Detach Links to cut all the links attached to the selected nodes
+   and move the nodes to a new location.
 
 
 .. _bpy.ops.node.duplicate_move:
@@ -110,8 +112,9 @@ Duplicate
    :Menu:      :menuselection:`Node --> Duplicate`
    :Shortcut:  :kbd:`Shift-D`
 
-Click :kbd:`LMB` or :kbd:`RMB` on the desired node, press :kbd:`Shift-D` and
-move the mouse away to see the duplicate of the selected node appearing under the mouse pointer.
+Select one or more nodes, activate the menu item or press the key combination,
+then move the mouse to a new location and click :kbd:`LMB` (or press :kbd:`Return`)
+to place the duplicated node(s).
 
 .. note::
 
@@ -151,7 +154,8 @@ Delete :kbd:`X`, :kbd:`Delete`
 .. _bpy.ops.node.delete_reconnect:
 
 Delete with Reconnect :kbd:`Ctrl-X`
-   Delete the node(s) without losing the connections.
+   Deletes the selected node(s), then creates new links connecting their former input nodes
+   to their former output nodes.
 
 
 .. _bpy.ops.node.mute_toggle:
@@ -164,8 +168,8 @@ Mute
    :Menu:      :menuselection:`Node --> Toggle Node Mute`
    :Shortcut:  :kbd:`M`
 
-Muting a node removes the contribution of the node to the node tree,
-and makes all links pass through that node without change.
+Muting a node removes its contribution to the node tree,
+and makes all links pass through it without change.
 Links will appear red as an indicator of passing through the muted node.
 
 .. tip::
@@ -180,7 +184,7 @@ Show/Hide
 
 Hide :kbd:`H`
    Collapses the node so only the node header is visible.
-   This can also be toggled by clicking the triangle at the top left of the node header.
+   This can also be toggled by clicking the triangle on the left of the node header.
 
 .. _bpy.ops.node.preview_toggle:
 

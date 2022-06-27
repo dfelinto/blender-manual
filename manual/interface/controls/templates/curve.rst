@@ -9,11 +9,8 @@ Curve Widget
 
    Curve widget.
 
-The purpose of the *Curve Widget* is to allow the user to modify an input
-(such as an image) in an intuitive manner by
-smoothly adjusting the values up and down using the curve.
-
-The input values are mapped to the X axis of the graph, and the output values are mapped to the Y axis.
+The *Curve Widget* allows to intuitively map a range of input values to a set of output values
+by adjusting a curve, where the X axis represents the input and the Y axis the output.
 
 
 Control Points
@@ -55,12 +52,11 @@ Specials ``v``
       It determines the interpolation of the curve segment at the selected control point.
 
       Vector Handle
-         Vector handles create straight lines;
-         breaking the tangent at the curve handle, making it an angle.
+         Vector handles create straight lines and sharp corners.
       Auto Handle
          Automatic handles that create smooth curves.
       Auto Clamped Handle
-         Automatic handles that create smooth curves, which prevents overshoot.
+         Automatic handles that create smooth curves while also preventing overshoot.
       Free Handle
          The handles can be moved completely independently, and thus can result in a sharp change of direction.
       Aligned Free Handles

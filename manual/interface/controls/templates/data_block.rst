@@ -4,9 +4,8 @@
 Data-Block Menu
 ***************
 
-A set of menu buttons used to link :doc:`/files/data_blocks` to
-each other. If data-blocks are linked the data will be updated across
-all of the :term:`data users <Data User>` when edited.
+Lets you select a :doc:`Data-Block </files/data_blocks>` (such as a material)
+in order to link it to something else (such as an object).
 
 .. figure:: /images/interface_controls_templates_data-block_menu.png
    :align: right
@@ -14,32 +13,40 @@ all of the :term:`data users <Data User>` when edited.
    A data-block menu with a search field.
 
 Type
-   Shows an icon indicating the data-block type. It opens up the following pop-up menu.
-   The data-block can be dragged from here e.g. to drag a material onto an object in the 3D Viewport or
-   into a :ref:`ui-data-id` field.
+   Shows an icon indicating the data-block type. Clicking the image or the down arrow opens the popup menu.
+   Dragging the image lets you apply the data-block to something else (for example, you can drag
+   a material onto an object in the 3D Viewport, or onto a :ref:`ui-data-id` field).
 
    List
       A list of data-blocks available in the current blend-file, or a link to select an item from.
       The menu may show a preview besides the items and
       a search field to search the items in the list by name.
 Name
-   Displays the internal name of the linked Data-Block, which can be edited as a regular text field.
-   If a name is already assigned, Blender will add a digit to the name like ".001".
+   Displays, and allows editing of, the name of the selected data-block.
+   If a name is already in use by a different data-block, Blender will append a number like ".001".
 User Count
-   Displays the number of :term:`data users <Data User>` of the data.
-   Clicking on user count button will make it a single-user copy,
-   with it linked only to the active object/object's data.
+   Displays the number of :term:`users <Data User>` of the data (if there's more than one user).
+   Clicking it will create a single-user copy.
+
+   As an example, if three separate objects referenced the same material, the material's user count would be 3.
+   Changing the material would affect all three objects. If you now selected an object and clicked the user count,
+   the object would receive its very own copy of the material, which can be modified independently of the original
+   that's still used by the other two.
+
 Fake User (shield icon)
-   Keeps the data-block saved in the blend-file, even if it has no :term:`Real User`.
-   When activated an "F" will be shown before the name in the list.
-Make Local (chain icon)
-   Todo <2.79.
+   If a data-block has no :term:`real users <Real User>`, it'll normally be cleaned up
+   (deleted) when saving the blend-file. To prevent this, you can give it a fake user;
+   that way, it's guaranteed to "survive." Data-blocks with a fake user have an "F"
+   prefix in the dropdown list.
+   
+   The :doc:`Outliner </editors/outliner/introduction>` can show an overview of all data-blocks
+   without real users in the blend-file. Simply change its Display Mode to Orphan Data.
 New/Add (files icon)
-   Creates a new data-block or duplicates the current data-block and applies it.
+   Creates a new data-block (or duplicates the current one) and selects it.
 Open File (folder icon)
-   Opens the :doc:`File Browser </editors/file_browser>`.
+   Opens the :doc:`File Browser </editors/file_browser>`, for importing an image for example.
 Unpack File (bin icon)
-   :ref:`Unpack <pack-unpack-data>` the file packed into the current blend-file to external ones.
+   :ref:`Unpack <pack-unpack-data>` the file packed into the current blend-file to an external one.
 Unlink Data-block ``X``
    Clears the link. :kbd:`Shift-LMB` to set the users to zero
    allowing the data to be fully deleted from the blend-file.
@@ -58,9 +65,10 @@ Preview
 .. figure:: /images/interface_controls_templates_data-block_preview.png
    :align: right
 
-   The Data-Block menu with preview.
+   A Data-Block menu with preview.
 
-In the Tool Settings is a version of the data-block menu with a bigger preview.
+Some data-block menus have large preview images in their dropdown
+instead of just icons and names.
 
 .. container:: lead
 
@@ -79,20 +87,16 @@ Data ID
 
    A Data ID field.
 
-A Data ID is a text field with an icon on the left, which opens a pop-up.
-Data ID is a unique name for an object. Data ID is used to refer to
-objects, and therefore Blender does not allow any two objects of same
-type to have same ID (same name). If Data ID is already in use,
-Blender will automatically append a number to the end to prevent ID collision
-(for example "Cube.001").
+A Data ID field is similar to a Data Block Menu, but is only for selecting
+(and not for other features like creating new data or managing users).
 
-Menus showing Data IDs can show the following elements:
+It can show the following elements:
 
 Type
    The icon on the left specifies the accepted data-block type.
 Name
    The text field functions as a search field by matching elements in the list.
-   Press :kbd:`Tab` to auto-complete names up to the level a match is found.
+   Press :kbd:`Tab` to auto-complete names up to the level where a match is found.
    If more than one match exists, you have to continue typing.
    If you type an invalid name, the value will remain unchanged.
 List
@@ -101,7 +105,7 @@ Eyedropper
    In some Data IDs there is an :ref:`ui-eyedropper`
    available through the pipette icon on the right side.
 Remove ``X``
-   Click the ``X`` button on the right to remove the reference.
+   Click the ``X`` button on the right to clear the reference.
 
 
 Sub IDs
@@ -115,20 +119,19 @@ depending on the object type.
    Sub ID Example.
 
 Vertex Group
-   If the selected object in the *Name* field is a mesh or a lattice,
+   If the selected object in the *Target* field is a mesh or a lattice,
    an additional field is displayed where a vertex group can be selected.
 Bone
-   If the selected object in the *Name* field is an armature,
-   a new field is displayed offering the choice to specify
-   an individual bone by entering its name in the *Bone* data ID.
+   If the selected object in the *Target* field is an armature,
+   an additional field is displayed where a bone can be selected.
 
    Head/Tail
-      If a Bone is set, a new field is displayed offering
-      the choice of whether the head or tail of a Bone will be pointed at.
-      The slider defines where along this bone the point lies interpolating along the bone axis in a straight line.
-      A value of zero will point at the Head/Root of a Bone,
-      while a value of one will point at the Tail/Tip of a Bone.
+      Once a bone is selected, a numeric field becomes available for specifying a point on the bone.
+      A value of 0 corresponds to the bone's head, while a value of 1 corresponds to its tail.
+      Any values between these will result in linear interpolation (so a value of 0.5 matches
+      the bone's center).
 
       Use B-Bone Shape
-         When the bone is a :doc:`bendy bone </animation/armatures/bones/properties/bendy_bones>`,
-         click on this button to make the point follow the curvature of the B-spline between head and tail.
+         If the bone is a :doc:`bendy bone </animation/armatures/bones/properties/bendy_bones>`,
+         clicking on this button will make the point follow the curvature of the B-spline between head and tail,
+         rather than simply going in a straight line.

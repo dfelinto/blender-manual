@@ -64,7 +64,7 @@ Multi-Value Editing
    Multi-value editing.
 
 You can edit multiple number fields at once by pressing down
-:kbd:`LMB` on the first field, and then drag vertically over
+:kbd:`LMB` on the first field, and then dragging vertically over
 the fields you want to edit. Finally you can either drag left or right to
 adjust value with the mouse, or release the :kbd:`LMB` and type in a value.
 
@@ -103,8 +103,8 @@ Expressions beginning with ``#`` have a special use.
 Instead of evaluating the value and discarding the expression,
 a driver is added to the property with the expression entered.
 
-The expression ``#frame`` is a quick way to access map a value to the current frame,
-but more complex expressions are also supported, ``#fmod(frame, 24) / 24`` for example.
+The expression ``#frame`` is a quick way to map a value to the current frame,
+but more complex expressions like ``#fmod(frame, 24) / 24`` are also supported.
 
 This is simply a convenient shortcut to add drivers which can also be added via the :kbd:`RMB` menu.
 
@@ -146,8 +146,10 @@ Color Fields
 
    Color fields. With and without alpha.
 
-The color field stores a color value shown in its background.
-Clicking :kbd:`LMB` on color fields opens the :doc:`/interface/controls/templates/color_picker`.
-Color fields with an alpha channel are divided in half: on the left the color is shown without an alpha channel and
-on the right the color with an alpha channel shown over a checker pattern.
-Colors can be copied to other color fields by being dragged and dropped to another color field.
+The color field stores a color value.
+Clicking on it with :kbd:`LMB` opens the :doc:`/interface/controls/templates/color_picker`.
+
+Color fields with an alpha channel are divided in half: on the left, the color is shown without an alpha channel,
+and on the right, it's shown with an alpha channel over a checker pattern.
+
+Colors can be copied to other color fields by dragging and dropping.

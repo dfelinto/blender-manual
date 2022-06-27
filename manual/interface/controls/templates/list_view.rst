@@ -10,24 +10,23 @@ List View
 
    List view with expanded Filtering Options panel.
 
-This control is useful to manage lists of items.
-They can be found, for example, in the object data properties.
+This control is useful for managing lists of items.
 In addition to the main list, there is a Filtering panel on the bottom
 (hidden by default) and modification buttons on the right.
 
 Select
-   To select an item, :kbd:`LMB` on it.
+   To select an item, click :kbd:`LMB` on it.
 Rename
    By double-clicking on an item, you can edit its name via a text field.
-   This can also be achieved by pressing :kbd:`Ctrl-LMB` over it.
+   This can also be achieved by clicking it with :kbd:`Ctrl-LMB`.
 Resize
    The list view can be resized to show more or fewer items.
-   Hover the mouse over the handle (::::) then click and drag the handle to expand or shrink the list.
+   Hover the mouse over the handle (::::), then click and drag to expand or shrink the list.
 Filter
-   Click the *Show filtering options* button (triangle on bottom left) to show or hide filter option panel.
+   Click the *Show filtering options* button (triangle on bottom left) to show or hide the filter option panel.
 
    Search :kbd:`Ctrl-F`
-      Type part of a list item's name in the filter text field to filter items by part of their name.
+      Filters the list to only show items containing a certain term.
    Invert ``<->``
       Toggle between including items that match the search term and those that do not contain the search term.
 

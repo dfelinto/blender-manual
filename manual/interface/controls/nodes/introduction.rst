@@ -4,10 +4,9 @@
 Introduction
 ************
 
-The different node editors are used to work with node-based workflows.
-Each node editor type has its own specific purpose.
-Therefore, this section only explains how to work with nodes in general.
-In the list below it shows a list of different types of node trees and where each is documented.
+Blender contains different node-based editors with different purposes,
+so this section only explains how to work with nodes in general.
+The list below shows the different types of nodes and where they're documented.
 
 .. figure:: /images/interface_controls_nodes_introduction_example.jpg
 
@@ -63,7 +62,7 @@ Use Pinned
    When enabled, the editor will retain the material or texture, even when the user selects a different object.
    A node tree can then be edited independent of the object selection in the 3D Viewport.
 Parent Node Tree
-   This button allows you go to parent node tree e.g. leaving a group.
+   Leaves the current :doc:`node group </interface/controls/nodes/groups>` and returns to the parent node group/tree.
 Snapping
    Change options for snapping node positions to achieve a cleaner node tree layout.
 
@@ -84,7 +83,8 @@ Wire Colors
 .. _bpy.types.SpaceNodeOverlay.show_context_path:
 
 Context Path
-   Display breadcrumbs in the upper left for the current node tree's datablock location.
+   Display breadcrumbs in the upper left corner indicating the hierarchy location
+   of the node tree/group that's currently being displayed.
 
 .. _bpy.types.SpaceNodeEditor.show_annotation:
 
@@ -102,7 +102,7 @@ Sidebar
 -------
 
 The :doc:`Sidebar </interface/controls/nodes/sidebar>` region contains properties for
-the current selected node as well as node editor specific settings.
+the currently selected node as well as node editor-specific settings.
 
 
 Navigating
@@ -128,10 +128,10 @@ Adding Nodes
    :Menu:      :menuselection:`Add`
    :Shortcut:  :kbd:`Shift-A`
 
-Nodes are added via the *Add* menu which can be accessed from the Editor's Header or using shortcut.
+Nodes are added via the *Add* menu in the editor's header or using a keyboard shortcut.
 
 Nodes can also be added by dragging a connection from an existing node's input or output socket
-and dropping the connection above an empty space instead connecting to another socket.
+and dropping the connection above an empty space instead of connecting to another socket.
 This action will open a search menu with a list of compatible nodes
 and their sockets that can be added and connected to the existing node.
-Confirming the menu selection will add the node which can be moved and placed in the node tree space.
+Confirming the menu selection will add the node which can then be moved and placed.

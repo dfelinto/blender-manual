@@ -35,10 +35,11 @@ Label
 Color
 ^^^^^
 
-By default, the nodes background color is defined by the user theme.
+By default, the node's background color is defined by the user theme.
 This color can be overridden by selecting a custom color in this panel.
 Custom node colors can be used to provide a visual cue to help distinguish some nodes from others.
-In the panel header, colors can be saved as a preset for reuse in other nodes or other projects.
+The button to the right of the checkbox lets you save colors as presets
+for reusing later on (much like a palette).
 
 .. _bpy.types.Node.color:
 

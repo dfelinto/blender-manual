@@ -8,24 +8,27 @@ Snapping
 
 .. _bpy.types.ToolSettings.use_snap_node:
 
+The snapping options can be found on the rightmost side
+of the node editor's header.
+
 Snap
-   Toggle snapping mode for moving nodes around.
+   Toggle snapping on or off.
 
 Snap Node Element
-   This selector provide the following node elements for snap:
+   What to snap the selected nodes to:
 
-   :Grid: Snap to grid background.
-   :Node X: Snap to left/right node border.
-   :Node Y: Snap to top/bottom node border.
-   :Node X/Y: Snap to any node border.
+   :Grid: Snap to the grid in the background.
+   :Node X: Snap to the X coordinate of another node's vertical border.
+   :Node Y: Snap to the Y coordinate of another node's horizontal border.
+   :Node X/Y: Combination of the above.
 
 Snap Target
-   Which part to snap onto the target.
+   Which part of the selected nodes to snap:
 
    :Closest: Snap closest point onto target.
-   :Center: Snap center onto target.
-   :Median: Snap median onto target.
-   :Active: Snap active onto target.
+   :Center: Snap center of selected nodes onto target.
+   :Median: Snap median of selected nodes onto target.
+   :Active: Snap active node onto target.
 
 
 .. _editors-nodes-usage-auto-offset:
@@ -40,12 +43,12 @@ for the new node.
 
 .. figure:: /images/interface_controls_nodes_arranging_auto-offset.png
 
-Auto-offset is enabled by default, but it can be disabled from the editor's header.
+Auto-offset is enabled by default, but it can be disabled from the editor's View menu.
 
 You can toggle the offset direction while you are moving the node by pressing :kbd:`T`.
 
 The offset margin can be changed using the *Auto-offset Margin*
-setting in the editing section of the Preferences.
+setting in the Editing section of the Preferences.
 
 .. seealso:: Example Video:
 

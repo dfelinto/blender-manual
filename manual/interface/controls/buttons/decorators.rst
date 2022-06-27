@@ -16,12 +16,12 @@ Clicking on the decorator dot icon will add a :doc:`Keyframe </animation/keyfram
 Clicking the rhombus icon again will remove the keyframe.
 A solid rhombus icon indicates there is a keyframe on the current frame,
 while a non-solid rhombus icon indicates that the property has a keyframe on another frame.
-Clicking the non-solid rhombus icon will add a keyframe to the current property value and frame.
+Clicking the non-solid rhombus icon will create a keyframe on the current frame with the current property value.
 
 If a property is being :doc:`driven </animation/drivers/index>`
-by another property then the decorator shows the driver icon.
+by another, the decorator shows the driver icon.
 
-Decorators make it quick and easy to glance over properties and see the state of the property.
+Decorators make it quick and easy to glance over properties and see their state.
 
 .. seealso::
 

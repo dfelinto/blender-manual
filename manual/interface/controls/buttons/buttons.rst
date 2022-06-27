@@ -55,14 +55,14 @@ Radio Buttons
    Radio buttons.
 
 Radio buttons are used to choose one option from a selection of options.
-Active button is indicated by a color on the icon background.
+The active button is indicated by a colored background.
 
 
 Cycling
 -------
 
-Use :kbd:`Ctrl-Wheel`, while hovering with the mouse over radio
-buttons, to cycle between the options.
+Use :kbd:`Ctrl-Wheel` while hovering the mouse over radio
+buttons to cycle between the options.
 
 
 .. _ui-direction-button:
