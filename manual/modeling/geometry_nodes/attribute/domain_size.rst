@@ -35,7 +35,7 @@ Point Count
    The size of the *Point* domain on any supported geometry.
 
 Edge Count
-   The size of the *Point* domain on meshes.
+   The size of the *Edge* domain on meshes.
 
 Face Count
    The size of the *Face* domain on meshes.
