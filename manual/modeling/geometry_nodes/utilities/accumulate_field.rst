@@ -94,7 +94,7 @@ Stacking Boxes
    :align: center
 
 Here, the node is used in combination with the :doc:`/modeling/geometry_nodes/utilities/random_value`
-node to create a stack of randomly scaled boxes. The *Group Index* input is not used, because all boxes
+to create a stack of randomly scaled boxes. The *Group Index* input is not used, because all boxes
 are meant to be in the same stack.
 
 .. figure:: /images/modeling_geometry-nodes_utilities_accumulate-field_box-stack-2.png
