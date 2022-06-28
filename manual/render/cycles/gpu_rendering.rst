@@ -47,14 +47,21 @@ HIP -- AMD
 ----------
 
 :abbr:`HIP (Heterogeneous-compute Interface for Portability)` is supported on Windows and Linux and requires a
-discrete AMD graphics card with the RDNA architecture or newer and AMD Radeon Software 21.12.1
-or AMD Radeon PRO Software 21.Q4 GPU drivers and newer on Windows or the 22.10 / ROCm 5.1 driver for Linux.
+AMD graphics card with the Vega, RDNA or newer architecture or newer. Both discrete GPUs and APUs are supported.
 
-Support GPUs include:
+Supported GPUs include:
 
-- AMD Radeon RX 5000 Series
-- AMD Radeon RX 6000 Series
-- AMD Radeon Pro W6000 Series
+ - Radeon VII
+ - Radeon RX Vega Series
+ - Radeon RX 5000 Series
+ - Radeon RX 6000 Series
+ - Radeon Pro WX 9100
+ - Radeon Pro W6000 Series
+
+Minimum driver versions:
+
+ - Windows: Radeon Software 21.12.1 or Radeon PRO Software 21.Q4
+ - Linux: Radeon Software 22.10 or ROCm 5.1
 
 Please refer to `AMD's website <https://www.amd.com/en/graphics>`__ for more
 information about AMD graphics cards and their architectures.
