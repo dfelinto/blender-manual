@@ -46,7 +46,7 @@ Hierarchy is a very important concept to understand when working with library ov
 In Blender, a real-life asset (a character, a prop, a set, etc.) is almost never made of a
 single data-block, but is rather a group of data-blocks with dependency relationships to each-other.
 E.g. a character sill typically have an armature object, several geometry objects,
-rig-controllers objects, the object data for all of those objects, materials, textures, etc. 
+rig-controllers objects, the object data for all of those objects, materials, textures, etc.
 
 Those relationships can be represented as a tree, with a root data-block 'linking-in' all its
 dependencies, recursively. With library overrides, typically, the root of the hierarchy is also
@@ -57,11 +57,11 @@ when there are several overrides of the same linked data, since it allows to cle
 data-block to one override, leaving no ambiguity to processes that affect the whole hierarchy
 (e.g. resyncing overrides with their linked data). It also allows to share relationships between
 data-blocks of different hierarchies, like a parenting relationships between two different overrides
-of a same character. 
+of a same character.
 
 
 Non-Editable Overrides
-=======================
+======================
 
 For technical reasons (how relationships between data-blocks are stored), Blender needs to create
 overrides of a lot of data-blocks, even when only one or two of them actually needs to be edited

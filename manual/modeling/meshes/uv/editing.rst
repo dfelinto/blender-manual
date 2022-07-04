@@ -323,13 +323,23 @@ Align
    :Menu:      :menuselection:`UV --> Align`
    :Shortcut:  :kbd:`Shift-W`
 
-Straighten
-   Auto, X, Y
-Align
-   Will line up the selected UVs on the X axis, Y axis, or automatically chosen axis.
+The *Align* tool will move the selected UVs to a line, where that line is specified in different ways by *Axis*.
 
-   Auto, X, Y
+The *Straighten* option will calculate a line segment between two endpoints and move all selected UVs onto that line.
 
+The *Align X* and *Align Y* options will axis-align all selected UVs to the midpoint of the current selection.
+
+:Axis:
+   :Straighten: Move UV to closest point on line segment.
+   :Straighten X: Move *U* co-ordinates onto the line.
+   :Straighten Y: Move *V* co-ordinates onto the line.
+   :Align X: Move *U* co-ordinates to the midpoint of the selection.
+   :Align Y: Move *V* co-ordinates to the midpoint of the selection.
+   :Align Auto: Choose between *Align X* or *Align Y* automatically.
+
+
+.. _bpy.ops.uv.hide:
+.. _bpy.ops.uv.reveal:
 
 Show/Hide Faces
 ===============
@@ -341,8 +351,8 @@ Show/Hide Faces
    :Menu:      :menuselection:`UV --> Show/Hide Faces`
 
 - Reveal Hidden :kbd:`Alt-H`
-- Hide Select :kbd:`H`
-- Hide Unselect :kbd:`Shift-H`
+- Hide Selected :kbd:`H`
+- Hide Unselected :kbd:`Shift-H`
 
 
 Export UV Layout
