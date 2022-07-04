@@ -329,7 +329,7 @@ The *Straighten* option will calculate a line segment between two endpoints and 
 
 The *Align X* and *Align Y* options will axis-align all selected UVs to the midpoint of the current selection.
 
-:Axis:
+Axis
    :Straighten: Move UV to closest point on line segment.
    :Straighten X: Move *U* co-ordinates onto the line.
    :Straighten Y: Move *V* co-ordinates onto the line.
