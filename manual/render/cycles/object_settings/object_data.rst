@@ -216,7 +216,7 @@ to selectively speed up caustic rendering of objects in your scene.
    - MNEE Caustic rays can pass through up to 6 Caustic Caster surfaces between a Caustic Reciever and a
      Shadow Caustic light before the ray is terminated and caustics are ignored.
 
-   - The :ref:`Ambient Occlusion <bpy.types.ShaderNodeAmbientOcclusion>` and 
+   - The :ref:`Ambient Occlusion <bpy.types.ShaderNodeAmbientOcclusion>` and
      :ref:`Bevel <bpy.types.ShaderNodeBevel>` nodes will not produce a valid result on objects that are
      a Caustic caster or Caustic receiver while the scene contains a active Caustic caster,
      Caustic receiver, and :ref:`Shadow Caustic Light<bpy.types.CyclesLightSettings.is_caustics_light>`.

@@ -170,8 +170,9 @@ Frames/Key
 
    **Please, keep in mind**: the number of atoms in a frame has to be the **same** for all frames!
 
+
 The instancing vertex structure
-================================
+===============================
 
 .. figure:: /images/addons_import-export_mesh-atomic_dupli_1.png
    :align: right
@@ -209,6 +210,7 @@ structure. Actually, the object as such does not exist.
    :width: 300px
 
    The NaCl structure in the outliner.
+
 
 Modifications
 -------------

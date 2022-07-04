@@ -141,7 +141,7 @@ Blender does not make a distinction between material node groups or composite no
 So it is recommended to use some naming convention that will allow you to distinguish between the two types.
 
 .. tip::
-   
+
    The "Add" menu of each node editor contains an "Output" category with node types such as "Material Output."
    These node types should not be confused with the "Group Output" node found in node groups,
    and should not be used in node groups either (only in the top-level node tree).

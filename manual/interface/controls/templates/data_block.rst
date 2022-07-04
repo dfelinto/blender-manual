@@ -38,7 +38,7 @@ Fake User (shield icon)
    (deleted) when saving the blend-file. To prevent this, you can give it a fake user;
    that way, it's guaranteed to "survive." Data-blocks with a fake user have an "F"
    prefix in the dropdown list.
-   
+
    The :doc:`Outliner </editors/outliner/introduction>` can show an overview of all data-blocks
    without real users in the blend-file. Simply change its Display Mode to Orphan Data.
 New/Add (files icon)

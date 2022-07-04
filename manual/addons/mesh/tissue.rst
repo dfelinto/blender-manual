@@ -223,7 +223,7 @@ Generate a Curve object from the *Loops*, *Edges* or *Particles* of the active o
 This is a non-destructive operation, meaning that in any moment it will be possible to reload
 the changes from the base object and change the parameters of the conversion.
 It will be possible to convert specific edges/loops according to different criteria, together
-with the addition of a pattern effect. 
+with the addition of a pattern effect.
 
 .. figure:: /images/addons_mesh_tissue_convert-to-curve-example.jpg
 

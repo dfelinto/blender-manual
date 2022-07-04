@@ -116,7 +116,7 @@ These keys are shared across editors such as the 3D Viewport, UV and Graph edito
        Hold :kbd:`Shift` to toggle one of these without disabling the others.
 
        Hold :kbd:`Ctrl` to alter how the selection is transformed from the old mode to the new.
-       
+
        See :doc:`Mesh Selection Modes </modeling/meshes/selecting/introduction>` for details.
    * - :kbd:`AccentGrave`
      - Show 3D Viewport navigation pie menu.

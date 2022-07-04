@@ -191,9 +191,9 @@ Lock Object Modes
       trying to select a bone in Pose Mode to animate it, but instead
       click a piece of background scenery (which would normally select that
       piece and switch to Object Mode).
-      
+
       You may want to disable *Lock Object Modes* for example when weighting rigged objects
-      or sculpting/painting where you intentionally want to switch between objects in different modes. 
+      or sculpting/painting where you intentionally want to switch between objects in different modes.
 
 Preferences
    Open the Preferences window.

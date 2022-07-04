@@ -41,7 +41,7 @@ Domain
       Duplicate mesh edges. Faces will not be included in the output.
    :Faces:
       Duplicate mesh faces. Each duplicated face will be separate,
-      in other words they will not share edges with other faces. 
+      in other words they will not share edges with other faces.
    :Spline:
       Individual curves from the input curves component will be duplicated.
    :Instances:

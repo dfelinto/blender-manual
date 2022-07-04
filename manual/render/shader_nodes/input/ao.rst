@@ -15,7 +15,7 @@ For Cycles, this is an expensive shader and can slow down render significantly.
 If render time is a concern, using Pointiness from the Geometry node or baking Ambient Occlusion will result
 in faster renders.
 
-.. note:: 
+.. note::
 
    :guilabel:`Cycles Only`
    The Ambient Occlusion node will not produce a valid result on objects that are either a
