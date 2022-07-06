@@ -4,7 +4,7 @@ Brush Settings
 **************
 
 Painting needs paint brushes and Blender provides a Brush panel within the Toolbar
-when in *Weight Paint Mode*.
+when in *Vertex Paint Mode*.
 
 Brush
    In the :ref:`Data-Block menu <ui-data-block>` you find predefined Brush presets.
