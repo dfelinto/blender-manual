@@ -56,11 +56,7 @@ with the following channels of information:
 - Normal Map (tangent space, +Y up)
 - Emissive
 
-Some additional material properties or types of materials can be expressed using glTF extensions:
-
-- Clearcoat, Clearcoat Roughness, Clearcoat Normal (uses ``KHR_materials_clearcoat``)
-- Transmission (uses ``KHR_materials_transmission``)
-- "Shadeless" materials (uses ``KHR_materials_unlit``)
+Some additional material properties or types of materials can be expressed using glTF extensions. The complete is can be found in _Extensions_ part of this documentation.
 
 .. figure:: /images/addons_import-export_scene-gltf2_material-channels.jpg
 
@@ -76,7 +72,7 @@ The glTF material system is different from Blender's own materials. When a glTF 
 the add-on will construct a set of Blender nodes to replicate each glTF material as closely as possible.
 
 The importer supports Metal/Rough PBR (core glTF), Spec/Gloss PBR (``KHR_materials_pbrSpecularGlossiness``)
-and Shadeless (``KHR_materials_unlit``) materials.
+and some extension materials. The complete is can be found in _Extensions_ part of this documentation.
 
 .. tip::
 
@@ -230,6 +226,8 @@ channels if they are not needed.
    This arrangement is supported for backwards compatibility. It is simpler to use
    the Principled BSDF node directly.
 
+If any component of emissiveFactor is > 1.0, ``KHR_materials_emissive_strength`` extension will be used.
+
 
 Clearcoat
 ^^^^^^^^^
@@ -255,6 +253,59 @@ All Image Texture nodes used for clearcoat shading should have their *Color Spac
    An example of a complex clearcoat application that will export correctly to glTF.
    A much simpler, smooth coating can be applied from just the Principled BSDF node alone.
 
+Sheen
+^^^^^
+
+When the *Velvet BSDF* node is used in addition to Principled BSDF node, the ``KHR_materials_sheen`` glTF 
+extension will be included in the export. The Sheen Color will be exported from Color socket of Vevlet node.
+Sheen Roughness will be exported from Sigma socket.
+
+If a Sheen Rougness Texture is used, glTF requires the values be written to the alpha (``A``) channel.
+
+.. figure:: /images/addons_import-export_scene-gltf2_material-sheen.png
+
+.. tip::
+
+   Velvet BSDF node is only available on Cycles render engine. 
+   You may have to temporary switch to Cycles to add this node, and get back to Eevee.
+
+.. note::
+
+   Because the node tree is adding 2 Shaders (Principled and Sheen), the resulting shader is not fully energy conservative.
+   You may find some difference between Blender render, and glTF render.
+   Sheen models are not fully compatible between Blender and glTF. This trick about adding Velvet Shader is the most accurate 
+   approximation (better that using Sheen Principled sockets).
+
+
+Specular
+^^^^^^^^
+
+When the *Specular* or *Specular Tint* input of Principled BSDF node have a non default value or
+Image Texture node connected, the ``KHR_materials_specular`` glTF extension will be
+included in the export.
+
+.. note::
+
+   Specular models are not fully compatible between Blender and glTF. By default, Blender data are converted to glTF at export, 
+   with a possible loss of information.
+   Some conversion are also performed at import, will a possible loss of information too.
+
+
+At import, a custom node group is created, to store original Specular data, not converted.
+
+.. figure:: /images/addons_import-export_scene-gltf2_material_specular-custom-node.png
+
+At export, by default, Specular data are converted from Principled BSDF node. 
+
+You can export original Specular data, enabling the option at export. If enabled, Principled Specular data are ignored,
+only data from custom node are used.
+
+.. figure:: /images/addons_import-export_scene-gltf2_material_specular-export-option.png
+
+
+.. tip::
+   If you enable Shader Editor Add-ons in preferences, you will be able to add this custom node group from Menu: 
+   Add > Output > glTF PBR Original data
 
 Transmission
 ^^^^^^^^^^^^
@@ -289,6 +340,82 @@ can be used to blur the transmission, like frosted glass.
    Transmission is complex for real-time rendering engines to implement,
    and support for the ``KHR_materials_transmission`` glTF extension is not yet widespread.
 
+IOR
+^^^
+
+At import, there are two different situation:
+
+- if ``KHR_materials_ior`` is not set, IOR value of Principled BSDF node is set to 1.5, that is the glTF default value of IOR.
+- If set, the ``KHR_materials_ior`` is used to set the IOR value of Principled BSDF.
+
+At export, IOR is included in the export only if one of these extensions are also used:
+
+- ``KHR_materials_transmission``
+- ``KHR_materials_volume``
+- ``KHR_materials_specular``
+
+IOR of 1.5 are not included in the export, because this is the default glTF IOR value.
+
+Volume
+^^^^^^
+
+Volume can be exported using a Volume Absorption node, linked to Volume socket of Output node.
+Data will be exported using the ``KHR_materials_volume`` extension.
+
+- For volume to be exported, some *transmission* must be set on Principled BSDF node.
+- Color of Volume Absorption node is used as glTF attenuation color. No texture is allowed for this property.
+- Density of Volume Absorption node is used as inverse of glTF attenuation distance.
+- Thickess can be plugged into the Thickess socket of custom group node ``glTF Settings``.
+- If a texture is used for thickness, it must be plugged on (``G``) Green channel of the image.
+
+.. figure:: /images/addons_import-export_scene-gltf2_material-volume.png
+
+glTF Variants
+^^^^^^^^^^^^^
+
+.. note::
+
+   For a full Variants experience, you have to enable UI in Add-on preferences
+
+There are two location to manage glTF Variants in Blender
+
+- In 3D View, on ``glTF Variants`` tab
+- For advanced settings, in Mesh Material Properties (see Advanced glTF Variant checks)
+
+The main concept to understand for using Variants, is that each material slot will be used as equivalent of a glTF primitive.
+
+glTF Variants switching
+^^^^^^^^^^^^^^^^^^^^^^^
+
+After importing a glTF file including ``KHR_materials_variants`` extension, all variants can be displayed.
+
+.. figure:: /images/addons_import-export_scene-gltf2_material_variants-switch.png
+
+You can switch Variant, by *selecting* the variant you want to display, then clicking on *Display Variant*.
+
+You can switch to default materials (when no Variant are used), by clicking on *Reset to default*.
+
+glTF Variants creation
+^^^^^^^^^^^^^^^^^^^^^^
+
+You can add a new Variant by clicking the ``+`` at right of the Variant list. Then you can change the name by double-clicking.
+
+After changing Materials in Material Slots, you can assign current materials to the active Variant using *Assign to Variant*
+
+You can also set default materials using *Assign as Original*. These materials will be exported as default material in glTF. 
+This are materials that will be displayed by any viewer that don't manage ``KHR_materials_variants`` extension.
+
+Advanced glTF Variant checks
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If you want to check primitive by primitive, what are Variants used, you can go to Mesh Material Properties.
+
+.. figure:: /images/addons_import-export_scene-gltf2_material_variants-detail.png
+
+The *glTF Material Variants* tab refers to the active material Slot and Material used by this slot. 
+You can see every Variants that are using this material for the given Slot/Primitive.
+
+You can also assign material to Variants from this tab, but recommandation is to perform it from 3D View tab.
 
 Double-Sided / Backface Culling
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -404,11 +531,18 @@ are supported directly by this add-on:
 .. rubric:: Import
 
 - ``KHR_materials_pbrSpecularGlossiness``
-- ``KHR_lights_punctual``
-- ``KHR_materials_unlit``
-- ``KHR_texture_transform``
 - ``KHR_materials_clearcoat``
+- ``KHR_materials_transmission``
+- ``KHR_materials_unlit``
+- ``KHR_materials_emissive_strength``
+- ``KHR_materials_volume``
+- ``KHR_materials_sheen``
+- ``KHR_materials_specular``
+- ``KHR_materials_ior``
+- ``KHR_lights_punctual``
+- ``KHR_texture_transform``
 - ``KHR_mesh_quantization``
+
 
 
 .. rubric:: Export
@@ -418,6 +552,11 @@ are supported directly by this add-on:
 - ``KHR_materials_clearcoat``
 - ``KHR_materials_transmission``
 - ``KHR_materials_unlit``
+- ``KHR_materials_emissive_strength``
+- ``KHR_materials_volume``
+- ``KHR_materials_sheen``
+- ``KHR_materials_specular``
+- ``KHR_materials_ior``
 - ``KHR_texture_transform``
 
 
