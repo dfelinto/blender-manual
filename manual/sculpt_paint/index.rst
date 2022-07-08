@@ -24,3 +24,4 @@ Modes
    texture_paint/index.rst
    vertex_paint/index.rst
    weight_paint/index.rst
+   curves_sculpting/index.rst
