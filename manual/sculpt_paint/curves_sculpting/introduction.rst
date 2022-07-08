@@ -8,6 +8,9 @@ It is commonly used for hair grooming, but can be used with all kinds of curves.
 
 Some tools, such as the :doc:`Add Curves</sculpt_paint/curves_sculpting/tools/add_curves>`, require the Surface to be set already.
 
+.. note::
+    Curves Sculpt tools only use the original mesh of the surface object and don't take its modifiers into account.
+
 Surface
 =======
 
