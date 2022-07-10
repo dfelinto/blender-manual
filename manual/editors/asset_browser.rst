@@ -203,11 +203,15 @@ Append (Reuse Data)
    the asset file will not be reflected in the file it's appended to.
 
 Instancing Collections
-   *Mimics the Instance Collections option when appending*
+   *Mimics the Instance Collections option when* :ref:`appending from the file browser <bpy.ops.wm.append>`
 
    Some asset types such as collections can be created as an instanced collection.
-   This is done by selecting the *Instance* option when dragging collection assets into the 3D Viewport.
-   By selecting this option the an empty object is added and creates an instance of the collection.
+   This is done by enabling the *Instance* option after dragging collection assets into the 3D Viewport.
+   By enabling this option an empty object is added that uses an instance of the collection.
+   If this option is disabled then the full collection hierarchy will be added to the scene.
+
+   Collection Assets from the current file will always be instanced.
+   
 
 Note that all regular Blender operations are available after the asset has been added to the current file.
 For example, you could choose to link an object to the scene; this will also link its mesh and its materials.
