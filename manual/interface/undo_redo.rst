@@ -52,9 +52,9 @@ Adjust Last Operation
    :Menu:      :menuselection:`Edit --> Adjust Last Operation...`
    :Shortcut:  :kbd:`F9`
 
-After an operation is complete you can tweak the parameters of :doc:`/interface/operators` afterwards.
+You can tweak the parameters of an :doc:`operator </interface/operators>` after running it.
 In editors that support it, there is a "head-up display" panel in the bottom left
-based on the last performed operation; dependent on mode and context.
+based on the last performed operation.
 Alternatively, you can create a pop-up with :kbd:`F9` which does the same thing.
 
 For example, if your last operation was a rotation in *Object Mode*,
@@ -138,9 +138,8 @@ Repeat Last
 
 The Repeat Last feature will repeat your last action when you press :kbd:`Shift-R`.
 
-In the example images below, we duplicated a *Monkey* mesh,
-and then we moved the object a bit.
-Using repeat :kbd:`Shift-R`, the *Monkey* was also duplicated and moved.
+In the example images below, we duplicated a *Monkey* mesh and moved it a bit.
+Using repeat :kbd:`Shift-R`, the *Monkey* was duplicated and moved a second time.
 
 .. list-table::
 

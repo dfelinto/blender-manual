@@ -3,9 +3,9 @@
 Operators
 *********
 
-Operators execute an action as soon as the operator is started
-which make them different from tools which require some sort of input.
-Operators can be started from a :ref:`ui-operator-buttons`,
+Operators execute an action the moment they're activated,
+which makes them different from tools (which require some sort of input).
+Operators can be started from :ref:`ui-operator-buttons`,
 :ref:`ui-header-menu`, or :ref:`bpy.ops.wm.search_menu`.
 Examples of operators include adding a new object,
 deleting it, or setting its shading to smooth.
@@ -14,29 +14,27 @@ deleting it, or setting its shading to smooth.
 Operator Properties
 ===================
 
-Most operators have properties that can be adjusted to refine the result of the operation.
-To adjust an operators properties, the operator must first be executed.
-This will execute the operation with its default property values.
-These properties can then be adjusted using :ref:`bpy.ops.screen.redo_last`.
+Most operators have properties that can be adjusted to refine their result.
+First run the operator (which will use its default settings),
+then adjust the properties in the :ref:`bpy.ops.screen.redo_last` region.
 
 
 Modal Operators
 ===============
 
-Modal operators exist as concept in between :doc:`Tools </interface/tool_system>`
-and regular described above operators.
-They require some sort of input to interactively control the operator's properties.
+Modal operators exist as a concept in between :doc:`Tools </interface/tool_system>`
+and regular operators.
+They require some sort of interactive input.
 
 
 Slider Operators
 ----------------
 
-Slider operators are a type of modal operator used interactively adjust a factor property.
-Slider operators will display a percentage graphic in the editor's :ref:`ui-region-header`.
-Slider operators can adjust the operator's factor value by moving
-the mouse left or right to decrease or increase the factor property.
+Slider operators are used to interactively adjust a percentage value
+in the editor's :ref:`ui-region-header`.
 
-Values can be snapped to 10% increments by holding :kbd:`Ctrl`
-and changed using precision by holding :kbd:`Shift`.
-Values can extend beyond the 0-100% range by toggling "overshoot" on with :kbd:`E`.
-Note, overshoot is not be available for all slider operators.
+You can adjust the percentage by dragging the slider left or right.
+This can be made coarser (snapping in 10% increments) by holding :kbd:`Ctrl`
+and more precise by holding :kbd:`Shift`.
+For some sliders, you can toggle "overshoot" with :kbd:`E`, which lets
+you go beyond the 0-100% range.

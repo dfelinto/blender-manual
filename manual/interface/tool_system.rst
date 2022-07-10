@@ -7,15 +7,19 @@ Tool System
 
 Tools are accessed from the :ref:`Toolbar <ui-region-toolbar>`.
 
-This is a general introduction to tools, individual tools have their own documentation.
+This is a general introduction to tools. Individual tools have their own documentation.
 
-There can only be one active tool which is stored for each space & mode.
+There can only be one active tool per :doc:`Workspace </interface/window_system/workspaces>`
+and :doc:`mode </editors/3dview/modes>`.
+This tool is remembered: if you're in Edit Mode and have the Extrude tool selected,
+then switch to Object Mode (which has no Extrude tool) and back to Edit Mode,
+the Extrude tool will still be active.
 
-Tools may set their own keys which override other keys
-although typically they use the :kbd:`LMB`, sometimes with modifier keys.
-*Keymaps can be edited from the preferences.*
+Most tools are controlled using just :kbd:`LMB`, though some also have modifier keys
+(shown in the :doc:`Status Bar </interface/window_system/status_bar>` while using the tool).
+This can all be customized in the :doc:`Keymap Preferences </editors/preferences/keymap>`.
 
-Some tools define gizmos (*Shear* and *Spin* for example) to help control the tool.
+Some tools define gizmos (*Shear* and *Spin* for example) to help control them.
 
 
 .. _ui-region-toolbar:
@@ -30,11 +34,12 @@ Toolbar
 .. figure:: /images/interface_tool-system_buttons-popup.png
    :align: right
 
-   Button with pop-up menu indicator.
+   Expanded tool group.
 
-The Toolbar shows buttons for each tool.
-For tool buttons which have a small triangle in their bottom right corner, a pop-up menu will be revealed
-when you :kbd:`LMB` drag so that you can select other tools of the same group.
+The Toolbar contains buttons for the various tools.
+Buttons with a small triangle in their bottom right corner are tool groups
+which can be opened by holding :kbd:`LMB` on them for a moment
+(or dragging :kbd:`LMB` to open them instantly).
 
 Hovering your cursor over a tool for a short time will show its name,
 while hovering longer will show the full tooltip.
@@ -50,16 +55,15 @@ Pop-Up Toolbar
 
    :Shortcut:  :kbd:`Shift-Spacebar`
 
-You can switch tools with a toolbar that will pop up at the location of your cursor
-after pressing :kbd:`Shift-Spacebar`.
+Pressing :kbd:`Shift-Spacebar` will pop up a small toolbar right at
+your cursor for faster access.
 The shortcuts for selecting the tools are displayed on the right.
 
-Alternatively, you can map this action to :kbd:`Spacebar` in the Preferences.
-Then you'll be able use :kbd:`Spacebar`
-like a modifier key (similar to pressing :kbd:`Ctrl` or :kbd:`Shift`).
-
-:kbd:`Spacebar T` for Transform, :kbd:`Spacebar D` for Annotate,
-:kbd:`Spacebar M` for measure, etc.
+Alternatively, you can map this action to :kbd:`Spacebar` in the Keymap Preferences.
+Then you'll be able use :kbd:`Spacebar` like a modifier key
+(similar to holding :kbd:`Ctrl` or :kbd:`Shift`).
+For example, you can press :kbd:`Spacebar T` for Transform,
+:kbd:`Spacebar D` for Annotate, :kbd:`Spacebar M` for Measure and so on.
 See :ref:`Spacebar Action <keymap-blender_default-spacebar_action>`.
 
 
@@ -70,32 +74,34 @@ Quick Favorites
 
    :Shortcut:  :kbd:`Q`
 
-The Quick Favorites menu gather your favorite tools.
-Any tool or menu can be added to this pop-up menu via the context menu of buttons and menus.
+The Quick Favorites menu gathers your favorite tools.
+Any tool or menu item can be added to this pop-up menu via its context menu.
 
 
 Changing Tools
 ==============
 
-Pressing :kbd:`Alt` opens a tool prompt, shown in the :doc:`Status Bar </interface/window_system/status_bar>`,
-for changing the active tool, pressing :kbd:`Alt` again closes the prompt.
-
-Tools can be changed by pressing the appropriate icon or by pressing :kbd:`Alt`
-then pressing the hotkey assigned to the desired tool.
+If you have *Alt Click Tool Prompt* enabled in the Keymap Preferences,
+tapping :kbd:`Alt` will display a tool prompt in the Status Bar.
+You can then press a key to select the corresponding tool, or tap :kbd:`Alt` again to cancel the prompt.
 
 
 Fallback Tool
 -------------
 
-The fallback tool is the default tool in the Toolbar as in the tool at the top of the list.
-To switch to this tool use :kbd:`Alt-W` to open a pie menu to choose what the default drag action does.
+The fallback tool is the one that's selected by default (so the one at the top of the Toolbar).
+You can change it by either holding :kbd:`LMB` on the toolbar button or pressing :kbd:`Alt-W`
+to get a pie menu.
 
 
 Cycling Tools
 -------------
 
 If you bind a key to a tool which is part of a group, you can enable the *Cycle* option in the keymap editor.
-Successive presses will cycle through the tools in that group.
+Successive presses will then cycle through the tools in that group.
+
+This is enabled by default for the selection tools in the 3D Viewport, for example:
+pressing :kbd:`W` will cycle between Select Box, Select Circle and so on.
 
 
 Properties
@@ -103,6 +109,6 @@ Properties
 
 Tools can have their own settings, which are available from multiple places:
 
-- The :menuselection:`Sidebar --> Tools --> Active Tool` panel.
-- The *Active Tool* tab in the Properties.
-- The *Tool Settings* region.
+- The :menuselection:`Tool --> Active Tool` panel in the Sidebar :kbd:`N`.
+- The *Active Tool* tab in the :doc:`Properties editor </editors/properties_editor>`.
+- The *Tool Settings* region below the area header.

@@ -5,6 +5,7 @@ Annotations
 
 The annotation tool is available in multiple editors.
 It can be used to add notes to e.g. 3D objects or node setups.
+The arrow in the screenshot below is an annotation.
 
 .. figure:: /images/interface_annotate-tool_node-editor.png
    :align: center
@@ -17,7 +18,7 @@ It can be used to add notes to e.g. 3D objects or node setups.
 Annotation Tools
 ================
 
-The annotation tool can be activated in the Toolbar and has following sub-tools:
+The annotation tool can be activated in the Toolbar and has the following sub-tools:
 
 .. _tool-annotate-freehand:
 
@@ -33,8 +34,8 @@ Annotate Line
 .. _tool-annotate-polygon:
 
 Annotate Polygon
-   Click multiple times to create multiple connected lines.
-   The current polygon is finished when :kbd:`Esc` is pressed.
+   Click multiple times to create multiple connected lines, then press :kbd:`RMB`,
+   :kbd:`Return` or :kbd:`Esc` to confirm.
 
 .. _tool-annotate-eraser:
 
@@ -62,17 +63,20 @@ Placement
    Determines where the annotations are drawn.
 
    :3D Cursor:
-      Draw annotations on an imaginary plane that goes through
-      the :doc:`/editors/3dview/3d_cursor` and is aligned to your view.
-   :View:
-      Draw annotations in screen space rather than 3D space;
-      meaning the annotations will stay on the same position in the screen,
-      even when the view moves or rotates.
+      Only available in the 3D Viewport. The new annotations become part of the 3D scene;
+      they're drawn on an imaginary plane that goes through the :doc:`/editors/3dview/3d_cursor`
+      and is aligned to your view.
    :Surface:
-      Draw annotations on the surface of the object under the mouse.
+      Only available in the 3D Viewport. The new annotations become part of the 3D scene;
+      they're drawn onto the surface of the object under the mouse. If there is no surface,
+      you get the same behavior as *3D Cursor*.
    :Image:
-      Draw annotations in same space as the image/preview/nodes meaning as you zoom
-      in or out the annotations stay the same size relative to the zoom factor.
+      Only available in 2D editors such as the :doc:`Image Editor </editors/image/introduction>`.
+      The annotations become part of the 2D space, meaning their position and size change as you
+      pan and zoom in the editor.
+   :View:
+      The new annotations are 2D and get stuck to the screen. They keep the same position,
+      rotation and size no matter how you pan, orbit or zoom in the editor.
 
 Stabilize Stroke
    Helps to reduce jitter of the strokes while drawing by delaying and correcting the location of points.

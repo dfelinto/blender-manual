@@ -11,8 +11,8 @@ Blender has several selection tools that can be used across the different editor
 .. note::
 
    Some editors deviate from the keyboard shortcuts shown below. For example, most editors
-   use :kbd:`Shift` to add a single item to the selection, but the
-   :doc:`Outliner </editors/outliner/introduction>` uses :kbd:`Ctrl`.
+   use :kbd:`Shift-LMB` to add a single item to the selection, but the
+   :doc:`Outliner </editors/outliner/introduction>` uses :kbd:`Ctrl-LMB`.
    Similarly, most editors use :kbd:`Ctrl-RMB` for performing a *Lasso Select*,
    but :doc:`node editors </interface/controls/nodes/introduction>` use :kbd:`Ctrl-Alt-LMB`.
 
@@ -106,7 +106,7 @@ Holding :kbd:`Shift` while dragging will add the items to the selection.
 Holding :kbd:`Ctrl` will remove them.
 
 You can change the radius of the circle in the tool settings (which can be found
-in the area header, in the Tool tab of the Sidebar :kbd:`N`, or in the Active Tool tab
+in the area header, the Tool tab of the Sidebar :kbd:`N`, or the Active Tool tab
 of the :doc:`Properties editor </editors/properties_editor>`).
 
 .. note::
