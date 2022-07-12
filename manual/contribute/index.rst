@@ -1,4 +1,4 @@
-:orphan:
+.. _about-user-contribute:
 
 ############################
   Contribute Documentation
@@ -13,6 +13,8 @@ If you find an error in the documentation, please `report the problem
 
 Get involved in discussions through any of the project `Contacts`_.
 
+
+.. _about-getting-started:
 
 Getting Started
 ===============
@@ -51,6 +53,8 @@ Translations
    translations/contribute.rst
    translations/style_guide.rst
 
+
+.. _contribute-contact:
 
 Contacts
 ========

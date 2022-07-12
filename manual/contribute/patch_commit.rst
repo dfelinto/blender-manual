@@ -48,7 +48,7 @@ we cut out the middle man and give you direct access to edit the manual.
 
 .. seealso::
 
-   See :doc:`/about/contribute/release_cycle` for documentation on how to make
+   See :doc:`/contribute/release_cycle` for documentation on how to make
    commits to a specific release branch and how to create merge commits.
 
 

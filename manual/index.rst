@@ -223,4 +223,4 @@ Please consider to join the effort and :ref:`Contribute to this Manual <about-us
    :maxdepth: 1
    :hidden:
 
-   about/index.rst
+   contribute/index.rst

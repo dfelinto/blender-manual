@@ -147,4 +147,4 @@ The updated templates can then be committed to svn.
 
 .. seealso::
 
-   A guide how to add a new language can be found in the :doc:`/about/contribute/translations/add_language`.
+   A guide how to add a new language can be found in the :doc:`/contribute/translations/add_language`.

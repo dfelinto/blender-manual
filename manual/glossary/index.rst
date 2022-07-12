@@ -4,7 +4,7 @@
   Glossary
 ############
 
-.. For writing style guide, see: :doc:`/about/contribute/guides/writing_guide`
+.. For writing style guide, see: :doc:`/contribute/guides/writing_guide`
    If you add new entries, keep the alphabetical sorting!
 
 This page lists definitions for terms used in Blender and this manual.
