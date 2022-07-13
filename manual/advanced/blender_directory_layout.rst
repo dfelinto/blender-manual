@@ -164,6 +164,21 @@ Where ``./config/startup.blend`` could be ``~/.blender/|BLENDER_VERSION|/config/
    Search order: ``LOCAL, SYSTEM``.
 
 
+.. _local-cache-dir:
+
+Local Cache Directory
+=====================
+
+The cache directory is used to store persistent chaches locally. Currently it is only used for the indexing of
+:ref:`Asset Libraries <what-is-asset-library>`. The operating system is not expected to clear this automatically.
+
+The following path will be used:
+
+- :Linux: ``$XDG_CACHE_HOME/blender/`` if ``$XDG_CACHE_HOME`` is set, otherwise ``$HOME/.cache/blender/``
+- :macOS: ``/Library/Chaches/Blender/``
+- :Windows: ``%USERPROFILE%\AppData\Local\Blender Foundation\Blender\Cache\``
+
+
 .. _temp-dir:
 
 Temporary Directory
