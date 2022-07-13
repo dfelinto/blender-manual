@@ -61,10 +61,9 @@ and all those assets will be shown in the Asset Browser.
 
 .. note::
 
-   Note that this scanning process may take a while, depending on the number of blend-files
-   and the number of assets contained within them. Blender 3.1 will
-   add indexing of these assets, greatly improving the speed at which an asset library
-   can be reopened. See `T91406 <https://developer.blender.org/T91406>`__ for more info.
+   Loading an asset library for the first time may take a while, but the next time it is loaded should be significantly
+   faster. Blender generates an index of all assets contained inside an asset library, and keeps it up-to-date as files
+   are modified within it. The indices are stored in the :ref:`local-cache-dir`.
 
 The blend-files can be directly in the top-level directory of the asset library, or in any subdirectory.
 The on-drive organization of asset libraries is all up to you. Regardless of which blend-file contains the assets,
