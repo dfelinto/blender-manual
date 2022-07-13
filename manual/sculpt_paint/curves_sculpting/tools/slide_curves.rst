@@ -8,4 +8,4 @@ Slides the curves along the surface mesh. This tool requires the curve to have a
 
 .. note::
 
-The curves are not rotated to follow the surface normals.
+   The curves are not rotated to follow the surface normals.

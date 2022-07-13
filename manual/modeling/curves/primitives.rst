@@ -65,6 +65,8 @@ Adds an empty high-performance curves object and automatically:
 The curves can be edited via :doc:`sculpting </sculpt_paint/curves_sculpting/introduction>`.
 
 .. note::
+
    Hair curves currently have the following limitations:
-    * No Edit Mode.
-    * Not supported in Wireframe viewport shading.
+
+   * No Edit Mode.
+   * Not supported in Wireframe viewport shading.

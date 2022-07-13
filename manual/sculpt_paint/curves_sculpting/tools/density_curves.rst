@@ -11,6 +11,8 @@ ones that are too close to existing points.
 Brush Settings
 ==============
 
+.. _bpy.types.BrushCurvesSculptSettings.density_mode:
+
 Density Mode
    Determines whether the brush adds or removes curves.
 
@@ -20,6 +22,8 @@ Density Mode
       Add new curves between existing curves, taking the minimum distance into account.
    :Remove:
       Remove curves whose root points are too close.
+
+.. _bpy.types.BrushCurvesSculptSettings.minimum_distance:
 
 Distance Min
    Goal distance between the curve roots.
@@ -32,6 +36,8 @@ Distance Min
 
       The density can be adjusted by moving the mouse cursor closer or farther from the paint cursor.
       The *Distance Min* will be changed once the operator is confirmed.
+
+.. _bpy.types.BrushCurvesSculptSettings.density_add_attempts:
 
 Count Max
    The maximum amount of points that it tries to sample in the surface.

@@ -1,3 +1,5 @@
+.. _bpy.types.BrushCurvesSculptSettings:
+.. _bpy.ops.sculpt_curves:
 
 ####################
   Curves Sculpting
