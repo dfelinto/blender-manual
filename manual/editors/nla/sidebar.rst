@@ -195,7 +195,7 @@ Action
    :Panel:     :menuselection:`Sidebar region --> Animations --> Action`
 
 This panel is identical to the one in Dope Sheet, and allows viewing or changing properties of the
-action used in the Action Clip, i.e. :ref:`Manual Frame Range <actions-frame-range>`.
+action used in the Action Clip, i.e. :ref:`Manual Frame Range <bpy.types.Action.use_frame_range>`.
 
 
 Modifiers

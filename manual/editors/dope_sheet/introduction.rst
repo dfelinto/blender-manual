@@ -95,7 +95,7 @@ On these channels lay the keyframes, which can show different information:
      - Minimum Extreme keyframe (visible if :menuselection:`View --> Show Curve Extremes` are enabled)
 
 A diagonal hash fill in the background is used to display the
-:ref:`Manual Frame Range <actions-frame-range>` of the action the channel belong to.
+:ref:`Manual Frame Range <bpy.types.Action.use_frame_range>` of the action the channel belong to.
 
 
 Selecting Keyframes
@@ -275,4 +275,12 @@ Action Panel
 
 When the editor is in the Action mode, or a channel belonging to an action is selected in
 Dope Sheet mode, this panel allows changing some settings of the selected action, specifically
-the :ref:`Manual Frame Range <actions-frame-range>`.
+the :ref:`Manual Frame Range <bpy.types.Action.use_frame_range>`.
+
+
+Custom Properties
+^^^^^^^^^^^^^^^^^
+
+Create and manage your own properties to store data in the action's data block.
+See the :ref:`Custom Properties <files-data_blocks-custom-properties>` page for more information.
+

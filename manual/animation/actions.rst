@@ -65,10 +65,8 @@ Objects can only use one *Action* at a time for editing.
 The :doc:`NLA Editor </editors/nla/index>` is used to blend multiple actions together.
 
 
-.. _actions-frame-range:
-
-Manual Frame Range
-==================
+Properties
+==========
 
 .. figure:: /images/animation_actions_range.png
    :align: center
@@ -79,8 +77,12 @@ It is possible to manually specify the intended useful frame range of an action 
 available in the :doc:`Dope Sheet </editors/dope_sheet/introduction>` or the :doc:`NLA Editor </editors/nla/sidebar>`
 when a channel or NLA track is selected.
 
+.. _bpy.types.Action.use_frame_range:
+
 Manual Frame Range
-   Specifies if the manual frame range should be used, and the frame values.
+   Manually specify the intended playback frame range for the action
+   (this range is used by some tools, but does not affect animation evaluation).
+   The manual frame range feature can be toggled with the checkbox.
 
    When the range is set, it is used instead of the actual range occupied by key frames
    when adding a new track based on the action to NLA. It can also be used by exporters
@@ -91,13 +93,23 @@ Manual Frame Range
 
    The frame values are most commonly expected to be integers, but can be fractional.
 
+.. _bpy.types.Action.use_cyclic:
+
 Cyclic Animation
    Specifies that the action is intended to be cyclic over the specified range. The first and last
    frames of the range should represent the same pose of the cycle one loop apart, i.e. the range
    should include the duplicated initial key of the loop.
 
    .. note::
+
       This option signifies intent and does **not** make the action cycle on its own. However,
       if :ref:`Cycle-Aware Keying <bpy.types.ToolSettings.use_keyframe_cycle_aware>` is enabled,
       it will automatically enable cyclic extrapolation and set up the loop period for curves
       newly added to the action.
+
+
+Custom Properties
+-----------------
+
+Create and manage your own properties to store data in the action's data block.
+See the :ref:`Custom Properties <files-data_blocks-custom-properties>` page for more information.
