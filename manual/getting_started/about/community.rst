@@ -29,10 +29,10 @@ Blender's community is one of its greatest features, so apart from this user man
 there are many different ways to get support from other users, such as :ref:`blender-chat`
 and `Stack Exchange <https://blender.stackexchange.com/>`__.
 
-There are also more official sources of support,
-such as `Certified Trainers <https://www.blender.org/certification/>`__
-and the `Blender Cloud <https://cloud.blender.org/>`__.
-If you think you have found an issue with Blender, you can easily
+For studios and organizations there is `Enterprise support <https://www.blender.org/support/>`__,
+and for studios looking to add Blender to their pipeline, `Blender Studio <https://studio.blender.org/>`__
+contains documentation and training material around this topic.
+If you think you have found an issue with Blender, please
 `report a bug <https://developer.blender.org/maniphest/task/edit/form/1/>`__.
 
 More details about support can be found on the `support page <https://www.blender.org/support/>`__.
