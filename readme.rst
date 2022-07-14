@@ -10,7 +10,7 @@ Complementary projects are:
 
 - `StackExchange (Q&A) <https://blender.stackexchange.com>`__.
 - `Blender DevTalk <https://devtalk.blender.org>`__.
-- `Blender Cloud <https://cloud.blender.org/>`__.
+- `Blender Studio <https://studio.blender.org/>`__.
 - `Python API reference <https://docs.blender.org/api/current/>`__.
 
 
