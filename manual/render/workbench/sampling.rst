@@ -1,3 +1,5 @@
+.. _bpy.types.SceneDisplay.render_aa:
+.. _bpy.types.SceneDisplay.viewport_aa:
 
 ********
 Sampling

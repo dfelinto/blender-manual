@@ -135,6 +135,8 @@ Or contracting the selection when switching to a lower mode.
           Expanding to Edge mode.
 
 
+.. _bpy.ops.view3d.toggle_xray:
+
 X-Ray
 =====
 
