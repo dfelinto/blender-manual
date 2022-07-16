@@ -40,7 +40,7 @@ Lasso Select
 
    :Mode:      All modes
    :Menu:      :menuselection:`Select --> Lasso Select`
-   :Shortcut:  :kbd:`Ctrl-Alt-LMB`
+   :Shortcut:  :kbd:`Ctrl-Alt-RMB`
 
 See :ref:`tool-select-lasso`.
 
