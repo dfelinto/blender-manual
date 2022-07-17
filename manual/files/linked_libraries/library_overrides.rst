@@ -168,7 +168,7 @@ Make Library Override Editable
    :Mode:      Object Mode
    :Outliner:  :menuselection:`Context Menu --> ID Data --> Make Library Override Editable`
 
-Make the selected library override data-block editable byt the user.
+Make the selected library override data-block editable by the user.
 
 
 .. _bpy.ops.ui.override_type_set_button:
