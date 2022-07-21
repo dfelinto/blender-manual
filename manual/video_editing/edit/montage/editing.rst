@@ -449,9 +449,9 @@ Swaps the first two inputs for the effect strip.
 Lock/Unlock
 ===========
 
-Lock Strips :kbd:`Shift-L`
+Lock Strips :kbd:`Ctrl-H`
    Disables the strip from being transformed.
-Unlock Strips :kbd:`Shift-Alt-L`
+Unlock Strips :kbd:`Ctrl-Alt-H`
    Enables disabled strips allowing them to be transformed.
 
 
@@ -463,7 +463,7 @@ Mute/Unmute
 
 Mute/Unmute Strips :kbd:`H`, :kbd:`Alt-H`
    Mute or unmute the selected strips.
-Mute/Unmute Deselected Strips :kbd:`Shift-H`, :kbd:`Ctrl-Alt-H`
+Mute/Unmute Deselected Strips :kbd:`Shift-H`, :kbd:`Shift-Alt-H`
    Mute or unmute all strips but the selected.
 
 
