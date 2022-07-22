@@ -6,7 +6,7 @@
   Geometry Nodes
 ##################
 
- .. toctree::
+.. toctree::
    :maxdepth: 2
 
    introduction.rst
