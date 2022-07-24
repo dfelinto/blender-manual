@@ -1,7 +1,7 @@
 
-******************************************
-Precision Drawing Tools (PDT) Introduction
-******************************************
+************
+Introduction
+************
 
 .. figure:: /images/addons_pdt_main.png
    :align: left
