@@ -10,15 +10,21 @@ Object Modes
 
    The Mode select menu.
 
-*Modes* are an object-oriented feature, which means that the available modes vary
-depending on the selected active object's type -- most of them only enable
-the default *Object Mode* (like cameras, lights, etc.).
+Modes allow editing different aspects of objects. While Object Mode allows
+you to position/rotate/scale them, Edit Mode allows changing their geometry,
+Pose Mode allows posing them, and so on.
 
-Each mode is designed to edit an aspect of the selected object.
-See Tab. :ref:`tab-view3d-modes` below for details.
+You can change the current mode using the *Mode* selector in the 3D Viewport header.
+Which modes are available depends on the object's type. The complete list
+is shown below.
 
-You set the current mode in the *Mode* selector of 3D Viewport header
-(see Fig. :ref:`fig-view3d-mode-select`).
+Apart from using the selector, you can also press :kbd:`Ctrl-Tab` to bring up
+a pie menu around the cursor for faster access. (If the selected object is an
+:doc:`Armature </animation/armatures/introduction>`, this shortcut will instead
+switch between Object Mode and Pose Mode.)
+
+Pressing :kbd:`Tab` will switch between Object Mode and Edit Mode for objects
+that support it.
 
 .. container:: lead
 
@@ -26,12 +32,14 @@ You set the current mode in the *Mode* selector of 3D Viewport header
 
 Modes can affect many things in Blender:
 
-- They can modify the panels and/or controls available in some Properties tabs.
-- They can modify the behavior of the whole editor, like e.g. the UV Editor and 3D Viewport.
-- They can modify the available header tools (menus and/or menu entries, as well as other controls...).
-  For example, in the 3D Viewport, the *Object* menu in Object Mode changes to a *Mesh* menu in Edit Mode
-  (with an active mesh object!), and a *Paint* menu in Vertex Paint Mode...
-- They can modify the available shortcuts.
+- Each mode changes the header and Toolbar to show its own unique set of menus and tools.
+  This also means it affects the available keyboard shortcuts.
+- Modes can completely change the look of the viewport. For example, Weight Paint mode
+  will shade the object to show its vertex weights, which are not normally visible.
+- Modes can affect other editors. For example, the :doc:`UV Editor </editors/uv/introduction>`
+  can only be used if the 3D Viewport is in Edit Mode. In the
+  :doc:`Properties </editors/properties_editor>` editor, too, certain buttons and panels
+  can only be used in certain modes.
 
 
 Object Mode List
@@ -49,39 +57,39 @@ Object Mode List
      - Details
    * - .. figure:: /images/editors_3dview_modes_icons-object-mode.png
      - :doc:`Object Mode </scene_layout/object/index>`
-     - The default mode, available for all object types,
-       as it is dedicated to *Object* data-block editing (e.g. position, rotation, size).
+     - The default mode, available for all object types.
+       Allows editing position, rotation and scale, duplicating objects, and so on.
    * - .. figure:: /images/editors_3dview_modes_icons-edit-mode.png
      - :doc:`Edit Mode </modeling/index>`
-     - A mode available for all renderable object types,
-       as it is dedicated to their "shape" *Object Data* data-block editing
-       (e.g. vertices/edges/faces for meshes, control points for curves/surfaces,
-       strokes/points for Grease Pencil, etc.).
+     - A mode for editing an object's shape
+       (vertices/edges/faces for meshes, control points for curves/surfaces,
+       points/strokes for Grease Pencil, etc.).
    * - .. figure:: /images/editors_3dview_modes_icons-sculpt-mode.png
      - :doc:`Sculpt Mode </sculpt_paint/sculpting/index>`
-     - A mesh-only mode, that enables Blender's mesh 3D-sculpting tool.
+     - Provides an alternative toolset for editing an object's shape (only for meshes).
    * - .. figure:: /images/editors_3dview_modes_icons-vertex-paint.png
      - :doc:`Vertex Paint Mode </sculpt_paint/vertex_paint/index>`
-     - A mesh-only mode, that allows you to set your mesh's vertices colors (i.e. to "paint" them).
+     - A mesh-only mode that allows you to set your mesh's vertex colors (i.e. to "paint" them).
    * - .. figure:: /images/editors_3dview_modes_icons-weight-paint.png
      - :doc:`Weight Paint Mode </sculpt_paint/weight_paint/index>`
      - A mesh-only mode, dedicated to vertex group weighting.
    * - .. figure:: /images/editors_3dview_modes_icons-texture-paint.png
      - :doc:`Texture Paint Mode </sculpt_paint/texture_paint/index>`
-     - A mesh-only mode, that allows you to paint your mesh's texture directly on the model, in the 3D Viewport.
+     - A mesh-only mode that allows you to paint a texture directly on the model, in the 3D Viewport.
    * - .. figure:: /images/editors_3dview_modes_icons-particle-edit.png
      - :doc:`Particle Edit Mode </physics/particles/mode>`
-     - A mesh-only mode, dedicated to particle systems, useful with editable systems (hair).
+     - A mesh-only mode dedicated to particle systems, useful for editable systems (hair).
    * - .. figure:: /images/editors_3dview_modes_icons-pose-mode.png
      - :doc:`Pose Mode </animation/armatures/posing/index>`
-     - An armature only mode, dedicated to armature posing.
+     - An armature-only mode, dedicated to posing.
    * - .. figure:: /images/editors_3dview_modes_icons-grease-pencil.png
      - :doc:`Draw Mode </grease_pencil/modes/draw/index>`
-     - A Grease Pencil only mode, dedicated to create Grease Pencil strokes.
+     - A Grease Pencil-only mode, dedicated to creating Grease Pencil strokes.
 
 .. note::
 
-   The cursor becomes a brush in :doc:`Paint and Sculpt Modes </sculpt_paint/index>`.
+   The cursor becomes a :doc:`brush </sculpt_paint/brush/introduction>`
+   in :doc:`Paint and Sculpt Modes </sculpt_paint/index>`.
 
 We will not go into any more detail on mode usages here,
 because they are dealt with in their own sections.
@@ -93,36 +101,56 @@ because they are dealt with in their own sections.
    mode for that option to be valid.
 
 
-.. _3dview-multi-object-mode:
-
-Multi-Object Editing
-====================
-
-Edit and Pose Modes support editing of multiple objects at once.
-
-This is convenient if you want to perform the same edits on multiple objects
-or want to animate multiple characters at once.
-
-- To use edit multiple objects at once, simply select multiple objects and enter the mode.
-- The Outliner can also be used to add/remove objects while you are in a mode,
-  by setting or clearing the mode from the context menu, or :kbd:`Ctrl-LMB` clicking on the objects data icon.
-- Only the active object will be used to display properties such as shape keys, UV layers, etc.
-- Selecting any element from an object will set this as the active object.
-- There are limits to the kinds of operations that can run on multiple objects.
-
-  *You can't for example create an edge that has vertices from different objects.*
-
-
 .. _bpy.ops.object.transfer_mode:
 
-Transferring Objects
-====================
+Switching Objects
+=================
 
 .. reference::
 
    :Mode:      All Modes
    :Shortcut:  :kbd:`Alt-Q`
 
-Adds the object under the mouse to the current mode and removes the :term:`Active` object.
-Use this operator to quickly switch between multiple objects without having to first go to Object Mode.
-When accessed from a menu, an :ref:`ui-eyedropper` is used to select the object to add to current mode.
+If you enter a mode such as Weight Paint for an object and then select another
+object, Blender will typically switch back to Object Mode.
+This means that, if you want to weight paint the other object too,
+you have to enter the mode a second time.
+
+There is a way of avoiding this, however. Once you enter a mode, the 
+:doc:`Outliner </editors/outliner/introduction>` will show a dot next
+to other objects that also support it. By clicking such a dot, you can
+switch over to another object without leaving the mode.
+
+Alternatively, you can hover over the other object in the 3D Viewport
+and press :kbd:`Alt-Q`.
+
+.. seealso::
+   :ref:`Lock Object Modes <bpy.types.ToolSettings.lock_object_mode>` for
+   preventing *accidental* mode changes.
+
+
+.. _3dview-multi-object-mode:
+
+Multi-Object Editing
+====================
+
+Edit Mode and Pose Mode let you work with multiple objects even more
+easily than described above, as they can have multiple objects in the mode
+at the same time.
+
+There are two ways of accomplishing this:
+
+- If you're not yet in the mode, you can simply select all the objects
+  and enter it.
+- If you're already in the mode, you can bring other objects into it
+  by clicking :kbd:`Ctrl-LMB` on the dot in the Outliner.
+  Removing objects from the mode works in the same way.
+
+Some points of note:
+
+- The Properties editor will only ever show the details (shape keys,
+  UV maps...) of the active object, not of all the selected ones.
+- Selecting any element from an object will make it the active one.
+- There are limits to the edits you can make.
+  For example, you can't create an edge that connects vertices from
+  different objects.

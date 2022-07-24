@@ -52,15 +52,15 @@ Orbit Around Selection
 
 
 Auto
-   .. _prefs-navigation-auto_depth:
+   .. _prefs-navigation-auto_perspective:
 
    Perspective
-      When enabled, the view switches to perspective when orbiting the view,
-      setting axis views (Top, Side, Front, Back, etc.), sets the view to orthographic.
+      When enabled, the view switches to Perspective when orbiting the view,
+      and to Orthographic when aligning to an axis (Top, Side, Front, Back, etc.).
 
-      When disabled, orthographic/perspective mode needs to be changed manually.
+      When disabled, this switching needs to be done manually.
 
-   .. _prefs-navigation-auto_perspective:
+   .. _prefs-navigation-auto_depth:
 
    Auto Depth
       Use the depth under the mouse to improve view pan, rotate, zoom functionality.

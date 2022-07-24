@@ -3,13 +3,8 @@
 Viewport Render
 ***************
 
-Viewport rendering uses the 3D Viewport rendering for quick *preview* renders.
-
-This allows you to inspect your animatic
-(for object movements, alternate angles, etc.).
-
-This can also be used to preview your animations --
-in the event your scene is too complex for your system to play back in real-time in the 3D Viewport.
+Viewport rendering lets you create quick preview renders from the current viewpoint
+(rather than from the active camera, as would be the case with a regular render).
 
 You can use *Viewport Render* to render both images and animations.
 
@@ -33,39 +28,39 @@ the Cycles Renderer.
 
           Full render.
 
+.. note::
+
+   Viewport rendering only works for the Workbench and Eevee render engines.
+   It's not supported for Cycles.
+
 .. tip::
 
-   Disable overlays to render the viewport without any additional overlays.
-
-   While this option is not specific to Viewport rendering, it's often useful to
-   enable, since it removes data such as rigs and empties that can be a distraction.
+   Disable overlays to get a render without "clutter" like rigs, empties and so on.
 
 
 Settings
 ========
 
 For the most part, *Viewport Render* uses the current viewport settings.
-Some settings are located in the render panel of the render engine
+Some settings are located in the properties of the render engine
 that is used to render the view.
 
 Solid mode uses the render settings of Workbench;
 Material Preview mode uses the render settings of Eevee.
 
-Sampling and Alpha Transparency Mode options can be set in :menuselection:`Properties --> Render --> Sampling`.
-Make sure the Workbench or Eevee render engine is selected to see the appropriate values.
+Additionally, some output settings are used too:
 
-Additionally, some render settings are used too:
-
-- Render Dimensions
-- Render Aspect
-- File Format & Output (file path, format, compression settings, etc.)
+- Resolution
+- Aspect
+- Output path
+- File format
 
 
 Rendering
 =========
 
 Activating *Viewport Render* will render from the current active view.
-This means that if you are not in an active camera view then
+This means that if you are not in an active camera view,
 a virtual camera is used to match the current perspective.
 To get an image from the camera point of view,
 enter the active camera view with :kbd:`Numpad0`.

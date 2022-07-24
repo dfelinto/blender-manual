@@ -7,13 +7,13 @@ Item
 ====
 
 Shows :doc:`Transform </scene_layout/object/editing/transform/introduction>` settings
-of the active objects.
+of the active object.
 
 
 Tool
 ====
 
-Show settings of the active tool and Workspace.
+Shows settings of the active tool and Workspace.
 
 
 View
@@ -22,46 +22,47 @@ View
 View Panel
 ----------
 
-The *View* panel lets you set other settings regarding the 3D Viewport.
-You can show it with the :menuselection:`View --> View Properties...` menu entry.
+The *View* panel lets you change other settings regarding the 3D Viewport.
 
 Focal Length
-   Control the focal length of the 3D Viewport camera in millimeters,
-   unlike a :doc:`rendering camera </render/cameras>`.
+   Control the focal length of the 3D Viewport camera.
 
 .. _3dview-view-clip:
 
 Clip Start/End
-   Adjust the minimum and maximum distances range to limit the visible range to the area
-   between two planes that are orthogonal to the viewing direction of the viewport camera.
-   Objects outside the range will not be shown.
+   Adjust the minimum and maximum distances for geometry to be visible.
+   Geometry closer than *Start* or further away than *End* will not be shown.
 
    .. note::
 
-      The definition of the two planes depends on the kind of view:
-
-      - Perspective view: The planes with distance of start and end from viewport camera.
-
-      - Orthographic view: The planes with distance of negative end and positive end from the focus point,
-        in this case the *Start* is ignored.
+      In Orthographic view, the viewport uses negative *End* instead of *Start*.
 
    .. warning::
 
       A large clipping range will allow you to see both near and far objects,
       but reduces the depth precision resulting in artifacts.
 
-      In some cases, a very large range may cause operations that depend on the depth buffer to become unreliable
+      In some cases, a very large range may cause operations that depend on the depth buffer to become unreliable,
       although this depends on the graphics card and drivers.
 
       See :ref:`Troubleshooting Depth Buffer Glitches <troubleshooting-depth>` for more information.
 
+.. _3dview-local-camera:
+
 Local Camera
-   Use a local camera in this view, selected from the object selector,
-   rather than the scene's (global) active camera.
+   Allow this 3D Viewport to have its own :doc:`active camera </editors/3dview/navigate/camera_view>`,
+   separate from the global active camera that's defined in the scene.
+   The selector next to the checkbox lets you choose this camera.
+
+.. _3dview-sidebar-render-region:
 
 Render Region
-   Use a Render Region when not looking through a camera.
-   Using :kbd:`Ctrl-B` to draw a region will automatically enable this option.
+   Use the :ref:`Render Region <editors-3dview-navigate-render-region>`.
+   Defining the region with :kbd:`Ctrl-B` will automatically enable this option.
+   
+   Note that if you're viewing the scene through the active camera, this option has no effect --
+   in this case, you instead need to use the checkbox :menuselection:`Output Properties --> Format --> Render Region`
+   in the Properties editor. This will affect not just the viewport, but also the final render.
 
 
 .. _bpy.types.SpaceView3D.lock:
@@ -70,25 +71,28 @@ View Lock
 ^^^^^^^^^
 
 Lock to Object
-   A :ref:`ui-data-id` that defines an object as the center of the view.
-   In this case, the view can be rotated around or zoomed towards that central object,
-   but not while you move the object itself
-   (this option is not available in a camera view).
-
-.. _3dview-lock-camera-to-view:
+   Lets you select an object to become the point of interest of the viewpoint.
+   The view will then orbit around, and zoom towards, that object.
+   This option is not available when viewing the scene through the active camera.
 
 Lock
    To 3D Cursor
-      Lock the center of the view to the position of the 3D cursor.
-      It is only available when *Lock to Object* is not active.
+      Makes the 3D Cursor the point of interest of the viewpoint.
+      This option is only available when *Lock to Object* is not active.
+      
+.. _3dview-lock-camera-to-view:
+      
    Camera to View
-      When in camera view, all changes in the view (pans, rotations, zooms) will affect the active camera.
+      When looking through a camera, the camera becomes "glued" to the view
+      and will follow it around as you navigate.
       The camera frame will be outlined with a red dashed line.
 
 .. hint::
 
-   This will move the camera's parent which can be useful with camera rigs.
-   Use the :ref:`Camera Parent Lock <bpy.types.Object.use_camera_lock_parent>` property to change this behavior.
+   If the camera is parented to an object, you can choose to enable
+   :ref:`Camera Parent Lock <bpy.types.Object.use_camera_lock_parent>`
+   in the camera's properties. This will cause viewport navigation to transform
+   the camera's root parent rather than the camera itself.
 
 
 3D Cursor
@@ -101,7 +105,7 @@ Rotation
    The rotation of the 3D Cursor.
 
 Rotation Mode
-   The Rotation mode of the 3D Cursor.
+   The rotation mode of the 3D Cursor.
 
 
 .. _bpy.types.SpaceView3D.use_local_collections:
@@ -109,24 +113,18 @@ Rotation Mode
 Collections
 -----------
 
-The *Collections* panel shows a list of collections
-and can be used to control the visibility of collections in the viewport.
-If a collection contains objects, there is a circle to the left of the collection name.
-If a collection is empty, there is no circle to the left of the collection name.
+The *Collections* panel shows a list of :doc:`collections </scene_layout/collections/index>`
+and can be used to control their visibility.
+If a collection contains objects, there is a circle to the left of its name.
 
 Local Collections
-   Allows the list of visible collections to be controlled per viewport rather than globally.
+   Allows setting collection visibility per viewport rather than globally.
 
 Hide in Viewport (eye icon)
-   Collections can be hidden in the viewport by clicking on the eye icon.
+   Shows or hides the collection.
 
-By clicking directly on the collection names,
-it "isolates" the collection by hiding all other collections,
-and showing the direct parents and all the children of the selected collection.
-
-.. seealso::
-
-   Read more about :doc:`Collections </scene_layout/collections/index>`.
+You can also "isolate" a collection by clicking its name. This will show the collection
+as well as its ancestors and descendants, and hide all other collections.
 
 
 Annotations

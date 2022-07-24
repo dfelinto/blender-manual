@@ -4,28 +4,27 @@
 Selecting
 *********
 
-This page discusses specific selecting tools for the 3D Viewport.
-The 3D Viewport also uses the general select tools used which are described
-in the :doc:`interface section </interface/selecting>`.
+This page discusses selection tools that are specific to the 3D Viewport.
+The generic selection tools are described in the
+:doc:`Interface </interface/selecting>` section.
 
-Center Point :kbd:`Ctrl`
-   Selects the object by its center point rather than its contents.
-Menu :kbd:`Alt`
-   If the objects are overlapping in the view, a menu of objects under the cursor
-   can be used, so you can pick the object by it's name.
+The 3D Viewport has two keys that affect selection:
 
-These can be combined so you can for example toggle the selection from an objects center point.
+Select by Origin :kbd:`Ctrl`
+   Selects objects by their :doc:`origin </scene_layout/object/origin>`
+   rather than their geometry.
+Selection Menu :kbd:`Alt`
+   Shows a menu in case there are multiple objects under the mouse cursor,
+   making it easier to select the one you want.
 
-.. note::
+These keys can be combined to get a selection menu based on object origins.
 
-   Right-click-select (see :ref:`Select With Mouse Button <keymap-blender_default-prefs-select_with>` option)
-   has the advantage that selection is possible without having to switch to the select tool.
-
+The mode-specific selection pages are listed below.
 
 Object Mode
 ===========
 
-:doc:`Object Mode </scene_layout/object/selecting>`
+- :doc:`Object Mode </scene_layout/object/selecting>`
 
 
 .. todo add meta selection page.
@@ -46,10 +45,10 @@ Edit Mode
 Pose Mode
 =========
 
-:doc:`Pose Mode </animation/armatures/posing/selecting>`
+- :doc:`Pose Mode </animation/armatures/posing/selecting>`
 
 
 Particle Edit Mode
 ==================
 
-:ref:`Particle Edit Mode <particle-edit-selecting>`
+- :ref:`Particle Edit Mode <particle-edit-selecting>`
