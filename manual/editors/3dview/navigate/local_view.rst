@@ -14,13 +14,13 @@ Toggle Local View
    :Menu:      :menuselection:`View --> Local View --> Toggle Local View`
    :Shortcut:  :kbd:`NumpadSlash`, :kbd:`Slash`
 
-Global view shows all 3D objects in the scene. Local view isolates the selected object or
-objects, so that they are the only ones visible in the viewport. This is useful for working on
-objects that are obscured by other ones, or to speed up the viewport performance in heavy scenes.
-Local view is contextual meaning that is can be set per 3D Viewport.
+Global view shows all 3D objects in the scene. Local view isolates the selected object(s)
+so that they are the only ones visible in the viewport. This is useful for working on
+objects that are obscured by others, or to speed up the viewport performance in heavy scenes.
+Local view is contextual, meaning that it can be set per 3D Viewport.
 
 You can toggle between *Global* and *Local View* by selecting the option
-from the *View Menu* or using the shortcut :kbd:`NumpadSlash`.
+from the View menu or using the shortcut :kbd:`NumpadSlash`.
 
 .. list-table::
 
@@ -35,20 +35,14 @@ from the *View Menu* or using the shortcut :kbd:`NumpadSlash`.
           Local View.
 
 .. note::
-
-   These notes cover changes in local view which are not immediately obvious.
-
-   3D Cursor
-      In local view the 3D cursor is not locked to the scene.
-      Instead, each view has an independent cursor location.
-   Layers
-      Local view bypasses layers, using only the selected objects when entering local view.
-      Although new objects can be added while in local view.
+   In local view, the 3D cursor is not locked to the scene.
+   Instead, each view has an independent cursor location.
 
 .. tip::
 
    Accidentally pressing :kbd:`NumpadSlash` can happen rather often if you are new to Blender,
-   so if a bunch of the objects in your scene seem to have mysteriously vanished, try turning off local view.
+   so if a bunch of the objects in your scene seem to have mysteriously vanished,
+   try pressing :kbd:`NumpadSlash` again.
 
 
 .. _bpy.ops.view3d.localview_remove_from:
@@ -63,13 +57,12 @@ Remove from Local View
    :Shortcut:  :kbd:`Alt-NumpadSlash`, :kbd:`Alt-Slash`
 
 Objects can be removed from Local View by selecting them and using the *Remove from Local View* operator.
-This will move the selected object back to global view and all other objects will remain in local view.
-If the last remaining object is removed,
-the local view will be left empty and you will have to exit local view to see any objects.
+This will move them back to the global view. If the last remaining object is removed,
+the local view will be left empty and you will have to exit it to see any objects.
 
 .. hint::
 
    This is useful when working with objects in dense scenes where painstakingly selecting objects to include in
    the local view isn't practical, especially when they intersect or are obscured by objects you don't want
-   to include. In this case it's simpler to select many objects in a region and enter local view, then subtract
-   objects from local view once they're visible.
+   to include. In this case it's simpler to select many objects in a region and enter local view, then
+   remove the ones you don't need.

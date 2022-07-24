@@ -10,25 +10,29 @@ Aligning
 These options allow you to align and orient the view.
 
 Align View to Active
-   The options in this menu align your view with specified local axes of the selected active object,
-   bone, or, in *Edit Mode* with the normal of the selected face.
-
-   Hold down :kbd:`Shift` while using the numpad to set the view axis.
+   Aligns the view to a certain local axis of the active object, bone, or (in Edit Mode)
+   the normal of the active face. The view also becomes orthographic.
+   
+   To return to the regular (untilted) perspective view, you can first press :kbd:`Numpad3`
+   to align to the global X axis, then orbit with :kbd:`MMB`.
 
 Align Active Camera to View :kbd:`Ctrl-Alt-Numpad0`
-   Moves and rotates the active camera to the current viewpoint.
+   Moves and rotates the active camera so it matches the current viewpoint.
 
 Align Active Camera to Selected
-   Points the active camera toward the selected object; based on the direction of the current viewpoint.
+   Moves the active camera (without changing its orientation) so that its view
+   frames the selected objects.
 
 Center Cursor and Frame All :kbd:`Shift-C`
-   Moves the cursor back to the origin and zooms in/out so that you can see everything in your scene.
+   Moves the :doc:`3D Cursor </editors/3dview/3d_cursor>` back to the world origin
+   and changes the view so that you can see everything in your scene.
 
 Center View to Cursor
-   Centers view to 3D cursor.
+   Centers the view on the 3D Cursor.
 
 View Lock to Active
-   Centers view to the last selected active object, overriding other view alignment settings.
+   Centers the view on the active object and makes it the point of interest. The view
+   will continue orbiting around it even if you pan to a different location.
 
 View Lock Clear
-   Returns the view alignment to the view align settings before use of *View Lock to Active*.
+   Returns the view to how it was before using *View Lock to Active*.

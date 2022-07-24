@@ -8,19 +8,19 @@ Camera View
 
    Demonstration of camera view.
 
-The Camera view shows the current scene as seen from the currently active camera's view point.
+The Camera view shows the current scene from the active camera's viewpoint.
 
 The Camera view can be used to virtually compose shots and preview how the scene will look when rendered.
-The rendered image will contain everything within the dashed line.
+The rendered image will contain everything within the dashed frame.
 
 .. seealso::
 
-   :doc:`Camera Settings </render/cameras>` for details how camera settings are used for display & rendering.
+   :doc:`Camera Settings </render/cameras>` for details on how camera settings are used for display and rendering.
 
 .. hint::
 
-   The active camera can be selected while in camera view using the camera frame
-   *(assuming the object isn't hidden).*
+   While in camera view, you can select the camera by clicking the dashed frame
+   (assuming the camera object isn't hidden).
 
 
 Viewing the Active Camera
@@ -28,12 +28,11 @@ Viewing the Active Camera
 
 .. reference::
 
-   :Mode:      All modes
-   :Menu:      :menuselection:`View --> Cameras --> Active Camera`
+   :Mode:      All Modes
+   :Menu:      :menuselection:`View --> Cameras --> Active Camera`, :menuselection:`View --> Viewpoint --> Camera`
    :Shortcut:  :kbd:`Numpad0`
 
 This switches the view to the active camera.
-The triangle above the camera will become shaded when active.
 
 
 Setting the Active Camera
@@ -49,25 +48,28 @@ Setting the Active Camera
 
    Active camera (left) displayed with a solid triangle above it.
 
-   This is the camera currently used for rendering and when viewing from the camera.
+This sets the current active object as the active camera and switches to the camera view.
 
-This sets the current active object as the active camera & switches to the camera view.
+The active camera is the one that will be used for rendering,
+and which you'll look through when choosing camera view.
 
-The active camera can also be set in the *Scene* tab of the *Properties*.
+Another way of setting the active camera is through the *Scene* tab of the
+:doc:`Properties </editors/properties_editor>`.
 
 .. note::
 
-   The active camera, as well as the layers, can be specific to a given view,
-   or global (locked) to the whole scene.
-   See :doc:`Local Camera </editors/3dview/sidebar>`.
+   The active camera is normally defined on the scene level, so that it's the same
+   across all 3D Viewports. However, it's also possible to make a camera
+   the active one within one Viewport only.
+   See :ref:`Local Camera <3dview-local-camera>`.
 
 
 Animated Camera Switching
 -------------------------
 
-By default a scene contains one camera. However, a scene can contain more than one camera,
-but only one of them will be used at a time.
-So you will only need to add a new camera if you are making cuts between them.
+While a scene contains only one camera by default, it's possible to have multiple.
+You can then bind the cameras to specific time points in your animation
+to create jump cuts showing different viewpoints.
 See :ref:`Animating Cameras <bpy.ops.marker.camera_bind>`.
 
 
@@ -86,39 +88,48 @@ Centers the camera view inside the 3D Viewport's screen area
 and resizes the view to fit within the area's bounds.
 
 
-Camera Navigation
-=================
+Zoom Camera 1:1
+===============
 
-There are several different ways to navigate and position the camera in your scene,
-some of them are explained below.
+.. reference::
 
-Zooming in and out is possible in this view, but to change the viewpoint,
-you have to move or rotate the camera.
+   :Mode:      All Modes
+   :Menu:      :menuselection:`View --> Navigation --> Zoom Camera 1:1`
+
+Zooms the view so that the camera frame has the exact same size
+as the output resolution. This allows you to preview exactly how large
+objects will be in the rendered image/animation.
+
+Camera Positioning
+==================
+
+There are several different ways to position the camera in your scene.
+Some of them are explained below.
 
 .. hint::
 
-   The active "camera" might be any kind of object.
-   So these actions can be used, for example, to position and aim a light.
+   The active "camera" might be any kind of object,
+   meaning these actions can also be used to position and aim a light for example.
 
 
-Move Active Camera to View
---------------------------
+Align Active Camera to View
+---------------------------
 
 .. reference::
 
    :Mode:      Object Mode
+   :Menu:      :menuselection:`View --> Align View --> Align Active Camera to View`
    :Shortcut:  :kbd:`Ctrl-Alt-Numpad0`
 
-This matches the active camera to a regular (non camera) view,
-for a convenient method of placing the camera without having to move the object directly.
+Moves and rotates the camera so it perfectly matches your current viewport view.
 
 
-Camera View Positioning
------------------------
+Camera Navigation
+-----------------
 
-By enabling :ref:`Lock Camera to View <3dview-lock-camera-to-view>` in the View panel of the Sidebar region,
-while in camera view, you can navigate the 3D Viewport as usual,
-while remaining in camera view. Controls are exactly the same as when normally moving in 3D.
+By enabling :ref:`Lock Camera to View <3dview-lock-camera-to-view>` in
+:menuselection:`Sidebar --> View` and switching to camera view,
+the camera will become "glued" to the view and follow it around as you navigate.
 
 .. seealso::
 
@@ -128,23 +139,22 @@ while remaining in camera view. Controls are exactly the same as when normally m
 Roll, Pan, Dolly, and Track
 ---------------------------
 
-To perform these camera moves, the camera must first be *selected* so transform operations apply to it.
+To perform these camera moves, the camera must first be selected so transform operations apply to it.
 The following actions also assume that you are in camera view.
 Having done so, you can now manipulate the camera using the same tools that are used to transform any object:
 
 Roll
-   Press :kbd:`R` to enter object rotation mode. The default will be to rotate the camera in its local Z axis
+   Press :kbd:`R` to enter object rotation mode. The default will be to rotate the camera along its local Z axis
    (the axis orthogonal to the camera view), which is the definition of a camera "roll".
 Vertical Pan or Pitch
    This is just a rotation along the local X axis. Press :kbd:`R` to enter object rotation mode,
-   then :kbd:`X` twice (the first press selects the *global* axis,
-   pressing the same letter a second time selects the *local* axis -- this works with any axis;
-   see the :doc:`Axis Locking page </scene_layout/object/editing/transform/control/axis_locking>`).
+   then :kbd:`X` twice. (The first press selects the *global* axis, the second the *local* axis.
+   This works with any axis; see :doc:`Axis Locking </scene_layout/object/editing/transform/control/axis_locking>`).
 Horizontal Pan or Yaw
    This corresponds to a rotation around the camera's local Y axis.
-   Press :kbd:`R`, and then :kbd:`Y` twice.
+   Press :kbd:`R`, then :kbd:`Y` twice.
 Dolly
    To dolly the camera, press :kbd:`G` then :kbd:`MMB` (or :kbd:`Z` twice).
 Sideways Tracking
-   Press :kbd:`G` and move the mouse (you can use :kbd:`X` twice or :kbd:`Y`
-   to get pure-horizontal or pure-vertical sideways tracking).
+   Press :kbd:`G` and move the mouse (you can use :kbd:`X` or :kbd:`Y` twice
+   to get purely horizontal or vertical tracking).

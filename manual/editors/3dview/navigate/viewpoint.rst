@@ -4,28 +4,21 @@
 Viewpoint
 *********
 
-Blender uses a right-angled "Cartesian" coordinate system with the Z axis pointing upwards.
-
-:X axis: Left / Right
-:Y axis: Front / Back
-:Z axis: Top / Bottom
-
-You can select the viewing direction for a 3D Viewport with the *View* menu entries,
-:ref:`Navigation Gizmo <navigation-gizmo>`, or by pressing the hotkeys.
-
-These operators change the view to be aligned with the specified global axes:
+The menu :menuselection:`View --> Viewpoint` lets you align the viewing direction to
+a specific axis. This can also be done using the :ref:`Navigation Gizmo <navigation-gizmo>`
+or the following hotkeys:
 
 :Top: :kbd:`Numpad7`
 :Front: :kbd:`Numpad1`
 :Right: :kbd:`Numpad3`
 
-Holding :kbd:`Ctrl` shows the other side of the same axis:
-
 :Bottom: :kbd:`Ctrl-Numpad7`
 :Back: :kbd:`Ctrl-Numpad1`
 :Left: :kbd:`Ctrl-Numpad3`
 
-Holding :kbd:`Shift` aligns the view relative to the active selection.
-So you can for example, view a rotated objects side, or align the view to the active face in mesh Edit Mode.
+The above hotkeys align the view to a global (world) axis. You can also align to a local axis
+of the selected item by additionally holding :kbd:`Shift`. This way, you can for example
+view any mesh face head-on, no matter how it's oriented.
+(To get out of this local viewpoint, simply align to a global axis again.)
 
-The view can also be aligned by holding :kbd:`Alt-MMB` and moving the mouse towards the view to align to.
+The view can also be aligned by holding :kbd:`Alt-MMB` and dragging the mouse in a certain direction.
