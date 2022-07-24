@@ -56,6 +56,11 @@ Main Region
 The main view allows you to view the actual spreadsheet.
 Row indices and column names remain visible when scrolling down or to the side.
 
+.. note::
+
+   Byte color attributes are displayed as scene linear floats.
+   The actual byte values are displayed in a tooltip when hovering over the float values.
+
 
 .. _bpy.types.SpaceSpreadsheet.geometry_component_type:
 .. _bpy.types.SpaceSpreadsheet.attribute_domain:
