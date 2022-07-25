@@ -84,7 +84,7 @@ X-Ray :kbd:`Alt-Z`
    Make the whole scene transparent, allowing you to see and select items that
    would otherwise be occluded.
    This is a shortcut to the X-Ray option inside the
-   :ref:`Viewport Shading  <3dview-shading-xray>` popover.
+   :ref:`Viewport Shading <3dview-shading-xray>` popover.
    
    In Pose Mode, this same button controls a different setting with its own separate on/off state.
    Rather than making the scene transparent, it shows the armature in front of any geometry.
