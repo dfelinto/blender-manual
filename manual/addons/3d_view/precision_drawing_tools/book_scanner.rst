@@ -59,7 +59,7 @@ Copy leftmost of the new vertices 0,0.65,0.14:
 Extrude new vertex -0.04 in Z:
 
 + Set Cartesian Coordinates to 0,0,-0.04 respectively, set operation to ``Extrude Vertices`` and click ``Delta``.
-+ **OR** Key vd,,0.04 into Command Line.
++ **OR** Key vd,,-0.04 into Command Line.
 
 You should now have this:
 
