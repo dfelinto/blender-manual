@@ -87,8 +87,6 @@ Minimum driver versions:
 Please refer to `Intel's website <https://www.intel.com/content/www/us/en/products/details/discrete-gpus.html>`__
 for more information about Intel graphics cards and their architectures.
 
-.. note:: The *Clip* extension mode in the :doc:`/render/shader_nodes/textures/image` is not supported.
-
 
 Metal -- Apple (macOS)
 ----------------------
