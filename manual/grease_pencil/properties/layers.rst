@@ -34,7 +34,7 @@ See :doc:`Modifiers </grease_pencil/modifiers/introduction>` for more informatio
 .. tip::
 
    Sometimes the layers you are not working on can be a distraction.
-   Activate *Fade Layers* in overlays to control the opacity of the non-active layers.
+   Activate *Fade Inactive Layers* in overlays to control the opacity of the non-active layers.
    See :doc:`Overlays </editors/3dview/display/overlays>` for more information.
 
 Next to the layer name there are four icons buttons that control common properties of the layer:

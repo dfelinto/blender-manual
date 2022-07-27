@@ -342,10 +342,10 @@ Canvas
    Display a grid over Grease Pencil drawing plane.
    The opacity of the grid can be controlled with the slider.
    When using the *Canvas X-Ray* option objects are drawn behind the canvas grid.
-Fade Layers
+Fade Inactive Layers
    Decrease the opacity of all the layers in the object other than the active one.
    The opacity factor can be controlled with the slider.
-Fade Objects
+Fade Inactive Objects
    Cover all viewport except the active Grease Pencil object with a full color layer to improve visibility
    while drawing over complex scenes.
 
