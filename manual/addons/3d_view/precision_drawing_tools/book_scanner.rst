@@ -51,10 +51,10 @@ Select both vertices and extrude 0.7 in Z:
 + Set Cartesian Coordinates to 0,0,0.7 respectively, set operation to **Extrude Vertices** and click ``Delta``.
 + **OR** Key vd,,0.7 into Command Line.
 
-Copy leftmost of the new vertices 0,0.65,0.14:
+Copy leftmost of the new vertices 0,0.065,0.14:
 
-+ Set Cartesian Coordinates to 0,0.65,0.14 respectively, set operation to ``Duplicate Geometry`` and click ``Delta``.
-+ **OR** Key dd,0.65,0.14 into Command Line.
++ Set Cartesian Coordinates to 0,0.065,0.14 respectively, set operation to ``Duplicate Geometry`` and click ``Delta``.
++ **OR** Key dd,0.065,0.14 into Command Line.
 
 Extrude new vertex -0.04 in Z:
 
