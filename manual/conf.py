@@ -26,7 +26,7 @@ sys.setrecursionlimit(2000)
 
 # Not used directly by Sphinx, but used by this file and the buildbot.
 
-blender_version = '3.3'
+blender_version = '3.4'
 
 
 # -- Project information -----------------------------------------------------
