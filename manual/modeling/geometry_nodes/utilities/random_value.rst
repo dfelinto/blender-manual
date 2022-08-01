@@ -32,6 +32,12 @@ ID
    as of the :doc:`/modeling/geometry_nodes/input/id`, which is the ``id`` attribute of the context
    geometry if it exists, and otherwise the :doc:`index </modeling/geometry_nodes/input/input_index>`.
 
+   .. tip:: Single Random Value
+
+      By default, the random value node generates a value for each unique index.
+      If a single random value is desired, connect a single value
+      (such as an :doc:`/modeling/geometry_nodes/input/integer` ) to the ID input.
+
 Seed
    A field to :term:`Seed` the random number generator. This can be used to generate
    a different set of random values, even for two nodes with the same *ID* input.

@@ -6,8 +6,9 @@
 .. toctree::
    :maxdepth: 1
 
+   combine_color.rst
    invert.rst
    mix_rgb.rst
    rgb_curves.rst
    hue_saturation.rst
-   combine_separate.rst
+   separate_color.rst

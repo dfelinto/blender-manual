@@ -18,9 +18,12 @@ and :abbr:`HDMI (High Definition Media Interface)` formats.
    alpha_convert.rst
    color_space.rst
    color_ramp.rst
-   combine_separate.rst
+   combine_color.rst
+   combine_xyz.rst
    id_mask.rst
    math.rst
    rgb_to_bw.rst
+   separate_color.rst
+   separate_xyz.rst
    set_alpha.rst
    switch_view.rst

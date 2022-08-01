@@ -99,6 +99,13 @@ Excluded Paths
 File Browser
 ============
 
+Show Locations
+   Recent
+      Hide the *Recent* panel of the :doc:`File Browser </editors/file_browser>`
+      which displays recently accessed folders.
+   System
+      Hide System Bookmarks in the *File Browser*.
+
 Defaults
    Filter Files
       By activating this, the file region in the File Browser will only show appropriate files
@@ -112,8 +119,3 @@ Defaults
 
          Data-blocks beginning with a ``.`` can be selected by typing in the ``.`` characters.
          When explicitly written, the setting to hide these data-blocks is ignored.
-   Show Recent Locations
-      Hide the *Recent* panel of the :doc:`File Browser </editors/file_browser>`
-      which displays recently accessed folders.
-   Show System Locations
-      Hide System Bookmarks in the *File Browser*.

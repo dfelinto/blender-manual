@@ -197,7 +197,7 @@ Keying Sets (Data API)
 Drivers
    Add/Remove :doc:`Drivers </animation/drivers/index>` to the selected item.
 Purge (Orphan Data)
-   Remove all unused data-blocks from the file (cannot be undone).
+   Recursively remove all unused data-blocks from the file (cannot be undone).
 
 
 Main Region

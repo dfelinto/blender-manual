@@ -160,6 +160,8 @@ Axis Forward, Up
 Options
 ^^^^^^^
 
+Vertex Groups
+   Import OBJ groups as vertex groups.
 Validate Meshes
    Checks the imported mesh data for errors and corrects them if needed.
    This slows down the importing process but can fix glitches in the imported mesh.
