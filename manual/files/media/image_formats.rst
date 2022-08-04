@@ -161,6 +161,7 @@ Saving Images
 
 File Format
    Choose what format to save the image as.
+
 Color Mode
    Choose the color format to save the image (or video) to.
    Note that *RGBA* is not available for all image formats, check the list above for details.
@@ -200,6 +201,18 @@ Save As Render
 Copy
    The Copy checkbox will define if the data-block will reference the newly created file
    or the reference will be unchanged, maintaining it with the original one.
+
+Color Space
+   To specify the color space of the source file.
+
+   The list of color spaces depends on the active :ref:`OCIO config <ocio-config>`.
+   The default supported color spaces are described in detail here:
+   :ref:`Default OpenColorIO Configuration <ocio-config-default-color-spaces>`
+
+   .. note::
+
+      Note, *Cineon*, *DPX*, *OpenEXR*, and *Radiance HDR*
+      image types default to being saved in a linear color space.
 
 
 Format Details

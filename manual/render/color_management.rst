@@ -290,3 +290,4 @@ Color Spaces
    :Non-Color: Color space used for images which contains non-color data (e.g. normal maps).
    :Raw: Does not automatically convert to linear; same as Non-Color.
    :Filmic Log: Intermediate log color space of Filmic view transform.
+   :Filmic sRGB: Similar to *sRGB* but uses the Filmic view transform.

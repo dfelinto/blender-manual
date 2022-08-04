@@ -119,7 +119,9 @@ Save As
    :Menu:      :menuselection:`Image --> Save As`
    :Shortcut:  :kbd:`Shift-Alt-S`
 
-Save the (rendered) image in a separate file.
+Save the (rendered) image in a separate file of any type.
+The image output settings can be configured and are the same as the
+:doc:`Render Output Properties </render/output/properties/output>`.
 
 
 Save a Copy

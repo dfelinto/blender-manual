@@ -1,4 +1,5 @@
-.. index:: Geometry Nodes; Separate XYZ
+.. _bpy.types.ShaderNodeSeparateXYZ:
+.. index:: Shader Nodes; Separate XYZ
 
 *****************
 Separate XYZ Node
