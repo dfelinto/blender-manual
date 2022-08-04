@@ -96,7 +96,7 @@ OBJ Export
 ==========
 
 Exporting OBJ-files is built into Blender without the need of an add-on.
-It's documentation can be found here: `OBJ Exporter </files/import_export/obj>`.
+It's documentation can be found here: :doc:`OBJ Exporter </files/import_export/obj>`.
 
 
 Compatibility
