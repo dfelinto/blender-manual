@@ -14,6 +14,10 @@ It is similar to the :doc:`/modeling/geometry_nodes/attribute/transfer_attribute
 mode. The main difference is that this node does not require a geometry input, because the geometry
 from the :ref:`field context <field-context>` is used.
 
+This node is also similar to the :doc:`/modeling/geometry_nodes/utilities/interpolate_domain` node,
+except that the value to retrieve from the specified domain is specified by an index rather than
+an automatic domain interpolation.
+
 
 Inputs
 ======

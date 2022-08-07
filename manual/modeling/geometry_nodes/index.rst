@@ -39,4 +39,5 @@ Node Types
    utilities/index.rst
    vector/index.rst
    volume/index.rst
+   uv/index.rst
    group.rst

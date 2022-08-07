@@ -17,7 +17,7 @@ Density Mode
    Determines whether the brush adds or removes curves.
 
    :Auto:
-      Either add or remove curves depending on the minimum distance of the curves under the cursor.
+      Either add or remove curves depending on the distance between existing curve roots under the cursor.
    :Add:
       Add new curves between existing curves, taking the minimum distance into account.
    :Remove:
@@ -40,4 +40,4 @@ Distance Min
 .. _bpy.types.BrushCurvesSculptSettings.density_add_attempts:
 
 Count Max
-   The maximum amount of points that it tries to sample in the surface.
+   The maximum amount of points that the brush tries to sample in the surface.

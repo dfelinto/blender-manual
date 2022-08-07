@@ -3,12 +3,13 @@
   Point Nodes
 ###############
 
-Nodes that modify the object elements, e.g. vertices.
+Nodes generate or modify point clouds.
 
 .. toctree::
    :maxdepth: 1
 
    distribute_points_on_faces.rst
+   points.rst
    points_to_vertices.rst
    points_to_volume.rst
 

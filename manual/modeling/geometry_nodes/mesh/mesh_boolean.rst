@@ -5,12 +5,13 @@
 Mesh Boolean Node
 *****************
 
-The *Mesh Boolean Node* allows you to cut, subtract, and join the geometry of two inputs.
-This node offers the same operations as the :doc:`Boolean modifier </modeling/modifiers/generate/booleans>`.
 
 .. figure:: /images/node-types_GeometryNodeMeshBoolean.webp
+   :align: right
    :alt: Mesh Boolean node.
 
+The *Mesh Boolean Node* allows you to cut, subtract, and join the geometry of two inputs.
+This node offers the same operations as the :doc:`Boolean modifier </modeling/modifiers/generate/booleans>`.
 
 Inputs
 ======
@@ -46,3 +47,7 @@ Output
 
 Mesh
    Standard geometry output.
+
+Intersecting Edges
+   A boolean attribute field with a selection of the edges that were created where the two inputs
+   meet.

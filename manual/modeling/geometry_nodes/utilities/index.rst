@@ -3,7 +3,7 @@
   Utilities Nodes
 ###################
 
-Nodes with general purpose for modifying data.
+General purpose nodes for modifying data.
 
 .. toctree::
    :maxdepth: 1
@@ -16,6 +16,7 @@ Nodes with general purpose for modifying data.
    field_at_index.rst
    float_curve.rst
    float_to_integer.rst
+   interpolate_domain.rst
    map_range.rst
    math.rst
    random_value.rst

@@ -11,6 +11,7 @@ Nodes that only operate on curves.
    curve_length.rst
    curve_to_mesh.rst
    curve_to_points.rst
+   deform_curves_on_surface.rst
    fill_curve.rst
    fillet_curve.rst
    resample_curve.rst

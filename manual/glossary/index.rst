@@ -903,7 +903,7 @@ This page lists definitions for terms used in Blender and this manual.
 
    Vertex
    Vertices
-      A point in 3D space containing a location. It may also have a defined color.
+      A point in 3D space containing a location.
       Vertices are the terminating points of :term:`Edges <Edge>`.
 
    Vertex Group

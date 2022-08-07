@@ -4,10 +4,10 @@ Add Curves
 **********
 
 Used to distribute new curves on the surface mesh.
-This tool requires the curve to have a :doc:`Surface </sculpt_paint/curves_sculpting/introduction>`,
-commonly used for hair scalp.
+This tool requires the curve to have a :doc:`surface </sculpt_paint/curves_sculpting/introduction>` object set.
 
-The curves follow the Surface normals and can be used to expand existent curve interpolating their characteristics.
+The curves follow the surface normals. Using the interpolation options allows the brush to take the characteristics
+of existing curves.
 
 
 Brush Settings
@@ -20,23 +20,23 @@ Count
 
 .. note::
 
-   Interpolation allows to add hair which is already combed. The new hair is then created
-   following the previously created hair which are in the vicinity.
+   Interpolation allows to add hair which are already combed. The new curves are created
+   following the previously created curves which are in the vicinity.
 
 .. _bpy.types.BrushCurvesSculptSettings.interpolate_length:
 
 Interpolate Length
-   Use length of the curves in close proximity.
+   Use the average length of the curves in close proximity.
 
 .. _bpy.types.BrushCurvesSculptSettings.interpolate_shape:
 
 Interpolate Shape
-   Use shape and the amount of control points of the curves in close proximity.
+   Use the average shape of the curves in close proximity.
 
 .. _bpy.types.BrushCurvesSculptSettings.interpolate_point_count:
 
 Interpolate Point Count
-   Use the amount of control points of the curves in close proximity.
+   Use the average amount of control points of the curves in close proximity.
 
 .. _bpy.types.BrushCurvesSculptSettings.curve_length:
 
@@ -46,4 +46,4 @@ Curve Length
 .. _bpy.types.BrushCurvesSculptSettings.points_per_curve:
 
 Points per Curve
-  Number of Control Points for the new created curves when the shape is not interpolated.
+  Number of Control Points for the new created curves when the point count is not interpolated.

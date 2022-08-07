@@ -17,6 +17,7 @@ Cursor
 
 .. figure:: /images/sculpt-paint_brush_cursor_panel.png
    :align: right
+   :width: 400px
 
    Cursor options.
 

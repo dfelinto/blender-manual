@@ -14,3 +14,11 @@ Nodes that only operate on instances.
    scale_instances.rst
    translate_instances.rst
    realize_instances.rst
+
+----
+
+.. toctree::
+   :maxdepth: 1
+
+   instance_rotation.rst
+   instance_scale.rst
