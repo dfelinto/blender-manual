@@ -7,8 +7,7 @@ Wavefront OBJ
 
    :Menu:      :menuselection:`File --> Import/Export --> Wavefront (.obj)`
 
-OBJ is a widely used de facto standard in the 3D industry.
-The OBJ format is a popular plain text format, however, it has only basic geometry and material support.
+OBJ format is a popular plain text format, however, it has only basic geometry and material support.
 
 .. note::
 
@@ -16,16 +15,12 @@ The OBJ format is a popular plain text format, however, it has only basic geomet
    See `Compatibility`_ for more information.
 
 
-Usage
-=====
-
-Export geometry and curves to the OBJ format.
-
-
 .. _bpy.ops.wm.obj_export:
 
 Exporting
 =========
+
+Export geometry and curves to the OBJ format.
 
 Properties
 ----------
@@ -89,6 +84,9 @@ Normals
 
    Mostly this isn't needed since most applications will calculate their
    own normals but to match Blender's normal map textures you will need to write these too.
+Colors
+   Write out the active vertex colors attribute layer, if present. Colors are exported in
+   "xyzrgb" OBJ extension format.
 Materials
    Write out the MTL-file along with the OBJ. Most importers that support OBJ will also read the MTL-file.
 Triangulated Mesh
@@ -132,12 +130,6 @@ Importing
 Import geometry and curves to the OBJ format.
 
 If there is a matching ``.MTL`` for the OBJ then its materials will be imported too.
-
-.. note::
-
-   Blender now only supports complex node-based shading. OBJ having a fixed pipeline-like support of materials,
-   this add-on uses the :doc:`generic wrapper </addons/import_export/node_shaders_info>`
-   featured by Blender to convert between both.
 
 
 Properties
