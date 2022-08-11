@@ -17,6 +17,7 @@ The following objects can be exported to USD:
 - Cameras (perspective cameras only at the moment, not orthogonal ones).
 - Light (all types except area lights).
 - Hair (exported as curves, and limited to parent strands).
+- Volume (both static and animated volumes).
 
 When exporting an animation, the final, evaluated mesh is written to USD.
 This means that the following meshes can be exported:
@@ -109,9 +110,14 @@ Export Textures
 Overwrite Textures
    Allow overwriting existing texture files when exporting textures.
 
-Relative Texture Paths
-   Make texture asset paths relative to the exported USD file.
 
+File References
+---------------
+
+Relative Paths
+   Use relative paths to reference external files (i.e. textures, volumes) in the exported USD file,
+   otherwise use absolute paths.
+/home/aaron/Documents/projects/blender_foundation/blender/build_linux/bin/blender
 
 Experimental
 ------------
@@ -328,6 +334,12 @@ Create Collection
 
 Light Intensity Scale
    Scale for the intensity of imported lights.
+
+Material Name Collision
+   Behavior when the name of an imported material conflicts with an existing material.
+
+   :Make Unique: Import each USD material as a unique Blender material.
+   :Reference Existing: If a material with the same name already exists, reference that instead of importing.
 
 
 Experimental

@@ -17,19 +17,25 @@ It is also commonly used for loading into 3D printing software.
    and does not handle endianness, there is nothing in the STL specification about it.
 
 
-Properties
-==========
+Importing
+=========
 
-Import
-------
+.. note::
+
+   The STL importer Add-on is deprecated and being replaced with the much faster
+   :ref:`Integrated STL Importer <bpy.ops.wm.stl_import>`.
+
+
+Properties
+----------
 
 Transform
 ^^^^^^^^^
 
 Scale
-   TODO.
+   Value by which to scale the imported objects in relation to the world's origin.
 Scene Unit
-   TODO.
+   Apply current scene's unit (as defined by unit scale) to imported data.
 Forward / Up Axis
    Since many applications use a different axis for pointing upwards, these are axis conversion for these settings,
    Forward and up axes -- By mapping these to different axes you can convert rotations
@@ -43,11 +49,14 @@ Geometry
 ^^^^^^^^
 
 Facet Normals
-   TODO.
+   Use (import) facet normals (note that this will still give flat shading).
 
 
-Export
-------
+Exporting
+=========
+
+Properties
+----------
 
 ASCII
    TODO.
@@ -59,16 +68,18 @@ Include
 ^^^^^^^
 
 Selection Only
-   TODO.
+   When checked, only selected objects are exported.
+   Instanced objects, for example collections that are instanced in the scene,
+   are considered 'selected' when their instancer is selected.
 
 
 Transform
 ^^^^^^^^^
 
 Scale
-   TODO.
+   Value by which to scale the exported objects in relation to the world's origin.
 Scene Unit
-   TODO.
+   Apply current scene's unit (as defined by unit scale) to exported data.
 Forward / Up Axis
    Since many applications use a different axis for 'Up', these are axis conversion for these settings,
    Forward and Up axes -- By mapping these to different axes you can convert rotations

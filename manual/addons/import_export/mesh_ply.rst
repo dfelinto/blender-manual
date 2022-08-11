@@ -29,7 +29,9 @@ Include
 ^^^^^^^
 
 Selection Only
-   Todo.
+   When checked, only selected objects are exported.
+   Instanced objects, for example collections that are instanced in the scene,
+   are considered 'selected' when their instancer is selected.
 
 
 Transform
@@ -44,7 +46,7 @@ Forward / Up
    For example, its common for applications to use Y as the up axis, in that case -Z Forward, Y Up is needed.
 
 Scale
-   TODO.
+   Value by which to scale the exported objects in relation to the world's origin.
 
 
 Geometry

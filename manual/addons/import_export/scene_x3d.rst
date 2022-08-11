@@ -40,7 +40,9 @@ Include
 ^^^^^^^
 
 Selection Only
-   TODO.
+   When checked, only selected objects are exported.
+   Instanced objects, for example collections that are instanced in the scene,
+   are considered 'selected' when their instancer is selected.
 Hierarchy
    TODO.
 Named Decorations
