@@ -33,7 +33,7 @@ Voxel Size
    The voxel size also be adjusted from the 3D Viewport using :kbd:`Shift-R`.
    Using this shortcut shows a grid that has the real size of the resulting voxel size.
    Holding :kbd:`Shift` while adjusting the size allows better pressing
-   while holding :kbd:`Ctrl` adjusts the size linearly.
+   while holding :kbd:`Ctrl` adjusts the size using a relative scale.
 
    Sample Voxel Size
       Used to adjust the *Voxel Size* by picking an area of the mesh

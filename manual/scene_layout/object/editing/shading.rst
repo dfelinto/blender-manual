@@ -25,11 +25,35 @@ giving the illusion of a smooth surface.
 
 Select the *Shade Flat* item in the *Object* menu
 to revert the shading back (normals will be constant)
-to that shown in the first image above.
+to that shown in the first image below.
 
-.. seealso::
+.. list-table:: Example mesh flat (left) and smooth-shaded (right).
+   `Sample blend-file <https://wiki.blender.org/wiki/File:25-manual-meshsmooth-example.blend>`__.
 
-   The :ref:`Auto Smooth <auto-smooth>` mesh property.
+   * - .. figure:: /images/scene-layout_object_editing_shading_example-flat.png
+          :width: 200px
+
+     - .. figure:: /images/scene-layout_object_editing_shading_example-smooth.png
+          :width: 200px
+
+
+Shade Auto Smooth
+=================
+
+.. reference::
+
+   :Mode:      Object Mode
+   :Menu:      :menuselection:`Object --> Shade Smooth`
+
+Automatically applies smooth shading to faces with a defined shallow angle and all other faces are sharp.
+This method works great for objects with both sharp and smooth areas.
+
+Selecting the *Shade Flat* will revert the shading back to flat;
+additionally, pressing *Shade Smooth* will disable all flat normals,
+making the entire object appear smooth again.
+
+When this operator is used it enables the :ref:`Auto Smooth <bpy.types.Mesh.use_auto_smooth>` property.
+See :ref:`modeling_meshes_normals_sharp_edge` for more details.
 
 
 .. _bpy.ops.object.shade_flat:
@@ -48,12 +72,3 @@ are often approximated by polygon meshes. When rendering images,
 you may notice that these polygons appear as a series of small, flat faces.
 Sometimes this is a desirable effect for hard surfaces,
 but for organic surfaces you usually want your objects to look smooth.
-
-.. list-table:: Example mesh flat (left) and smooth-shaded (right).
-   `Sample blend-file <https://wiki.blender.org/wiki/File:25-manual-meshsmooth-example.blend>`__.
-
-   * - .. figure:: /images/scene-layout_object_editing_shading_example-flat.png
-          :width: 200px
-
-     - .. figure:: /images/scene-layout_object_editing_shading_example-smooth.png
-          :width: 200px
