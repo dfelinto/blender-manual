@@ -191,7 +191,7 @@ if the specific bone is the child object of moves.
 
 In Fig. :ref:`fig-view3d-parent-bone-parent` with the 2nd bone being the bone parent of the child object cube.
 The cube is only transformed if the 1st or 2nd bones are.
-Notice altering the 3rd and 4th bones has no effect on the cone.
+Notice altering the 3rd and 4th bones has no effect on the cube.
 
 To use bone parenting, you must first select all the child objects you wish to parent to a specific armature bone,
 then :kbd:`Shift-LMB` select the armature object and switch it into Pose Mode and
