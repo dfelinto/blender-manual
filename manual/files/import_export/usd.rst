@@ -117,7 +117,7 @@ File References
 Relative Paths
    Use relative paths to reference external files (i.e. textures, volumes) in the exported USD file,
    otherwise use absolute paths.
-/home/aaron/Documents/projects/blender_foundation/blender/build_linux/bin/blender
+
 
 Experimental
 ------------

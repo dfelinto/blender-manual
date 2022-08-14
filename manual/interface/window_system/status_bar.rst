@@ -16,8 +16,13 @@ Keymap Information
 ==================
 
 The left side of the Status Bar displays mouse button shortcuts and the keymap of the active tool.
-In editors with a Toolbar, tapping :kbd:`Alt` shows the hotkeys to change to a desired tool
-(if *Alt Click Tool Prompt* is enabled in the :doc:`Keymap Preferences </editors/preferences/keymap>`).
+In editors with a Toolbar, tapping :kbd:`Alt` (or :kbd:`Option` on macOS)
+shows the hotkeys to change to a desired tool.
+
+.. tip::
+
+   This functionality can be disabled with the *Alt Click Tool Prompt*
+   preference in the :doc:`Keymap Preferences </editors/preferences/keymap>`).
 
 .. figure:: /images/interface_window-system_status-bar_ui-left.png
    :align: center

@@ -64,6 +64,17 @@ You can select a face and extrude it inwards or outwards, creating new faces to 
 Note: Also known as *Push/Pull Face*.
 
 
+.. _bpy.ops.mesh.relax:
+
+Relax
+-----
+
+This operation relaxes the selected vertices while retaining the shape as much as possible.
+
+To use this operation, go into Edit Mode and select the vertices you want to relax.
+To execute the script either :menuselection:`Context Menu --> Relax`
+or use :menuselection:`Mesh --> Vertices --> Relax` instead.
+
 .. reference::
 
    :Category:  Mesh

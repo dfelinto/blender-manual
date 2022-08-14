@@ -145,7 +145,7 @@ Extract Face Set
 .. reference::
 
    :Mode:      Sculpt Mode
-   :Menu:      :menuselection:`Face Sets --> Grow/Shrink Face Sets`
+   :Menu:      :menuselection:`Face Sets --> Extract Face Set`
 
 Creates a new mesh based on the selected face set.
 Once the operator is initiated, hover over the face set and :kbd:`LMB` to create the new mesh.

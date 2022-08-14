@@ -36,7 +36,7 @@ Surface UV Map
    .. note::
 
       If the UV from the surface changed,
-      run :ref:`Snap to Nearest Surfaces <Snap to Nearest Surfaces>` to re-attach the curves.
+      run :ref:`Snap to Nearest Surfaces <bpy.ops.curves.snap_curves_to_surface>` to re-attach the curves.
 
 
 Curves Menu

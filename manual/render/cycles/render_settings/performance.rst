@@ -7,13 +7,20 @@ Performance
 
    :Panel:     :menuselection:`Render --> Performance`
 
+Properties that affect render speeds or memory consumption.
+There are several presets available to help choose between different trade offs:
+
+:Default: Balances memory saving and faster rendering settings.
+:Faster Render: Uses settings to render faster at the cost of higher memory consumption.
+:Lower Memory: Uses settings to decrease memory considered at the cost of slower renders.
+
 
 Threads
 =======
 
 .. _bpy.types.RenderSettings.threads_mode:
 
-Mode
+Threads Mode
    Method to determine the maximum number of CPU cores to use while rendering.
 
    :Auto-Detect:

@@ -152,3 +152,12 @@ Step Size :guilabel:`Cycles Only`
 
 Clipping :guilabel:`Cycles Only`
    Value under which voxels are considered empty space to optimize rendering.
+
+.. _bpy.types.VolumeRender.precision:
+
+Precision :guilabel:`Cycles Only`
+   Specifies volume data precision, lower values reduce memory consumption at the cost of detail.
+
+   :Full: Full float (Use 32 bit for all data).
+   :Half: Half float (Use 16 bit for all data).
+   :Variable: Automatically vary the precision and use less precision for less noticeable areas.
