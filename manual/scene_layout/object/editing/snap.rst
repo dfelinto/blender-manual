@@ -28,7 +28,7 @@ Selection to Active
 
 Cursor to Selected
    Places the cursor to the center of the current selection, unless see below.
-Cursor to Center
+Cursor to World Origin
    Places the cursor to the origin of the world (location 0, 0, 0).
 Cursor to Grid
    Places the cursor to the nearest grid point.
