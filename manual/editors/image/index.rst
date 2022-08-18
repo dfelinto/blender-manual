@@ -1,4 +1,4 @@
-.. _editors-image-index:
+.. _bpy.types.SpaceImageEditor:
 
 ################
   Image Editor

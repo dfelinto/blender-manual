@@ -19,6 +19,15 @@ Zooming can be done by scrolling :kbd:`Wheel` up or down.
 Also, as in the 3D Viewport, you can use :kbd:`NumpadPlus` or :kbd:`NumpadMinus` to zoom.
 
 
+.. _editors-image-navigate-gizmos:
+
+Gizmos
+======
+
+Next to the Sidebar region at the top, there are gizmos that allow panning
+and zooming more comfortably when e.g. no mouse wheel is available.
+
+
 View Menu
 =========
 

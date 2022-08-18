@@ -96,7 +96,7 @@ Create Directory :kbd:`I`
 
 .. _bpy.types.FileSelectParams.directory:
 
-File Path
+File Path :kbd:`Ctrl-L`
    Text field for the current folder path.
    :kbd:`Tab` will auto-complete an existing path.
    If you type a nonexistent directory path, you will be prompted to create that new directory.

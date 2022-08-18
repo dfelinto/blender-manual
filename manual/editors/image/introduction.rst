@@ -28,12 +28,9 @@ Header
 ======
 
 Mode
-   View
-      Displays Images.
-   Paint
-      :doc:`/sculpt_paint/texture_paint/index`.
-   Mask
-      :doc:`/movie_clip/masking/index`.
+   :View: Displays Images.
+   :Paint: :doc:`/sculpt_paint/texture_paint/index`.
+   :Mask: :doc:`/movie_clip/masking/index`.
 
 View
    Tools for controlling how the content is displayed in the editor.
@@ -72,19 +69,31 @@ Render Pass
    If you are using :doc:`Render Passes </render/layers/passes>`,
    use this menu to select which pass is displayed.
 
+.. _bpy.types.SpaceImageEditor.show_gizmo:
+
+Viewport Gizmos
+   Selectively show or hide specific gizmo controls that are displayed in the 2D viewport.
+	All gizmos can be hidden or shown at once with the toggle next to the pop-over arrow.
+
+   .. _bpy.types.SpaceImageEditor.show_gizmo_navigate:
+
+   Navigate
+      Enable/disable the gizmos used to pan or zoom the 2D viewport,
+      see :ref:`Navigation Gizmos <editors-image-navigate-gizmos>` for more information.
+
 Display Channels
    Select what color channels are displayed.
 
-   Color and Alpha
+   :Color and Alpha:
       Replaces transparent pixels with background checkerboard, denoting the alpha channel.
-   Color
+   :Color:
       Display the colored image, without alpha channel.
-   Alpha
+   :Alpha:
       Displays the Alpha channel a grayscale image. White areas are opaque, black areas have an alpha of 0.
-   Z-Buffer
+   :Z-Buffer:
       Display the depth from the camera, from Clip Start to Clip End,
       as specified in the :doc:`Camera settings </render/cameras>`.
-   Red, Green, Blue
+   :Red, Green, Blue:
       Single Color Channel visualized as a grayscale image.
 
 
