@@ -9,12 +9,7 @@ This first one may not look too remarkable, except that it is totally accurate t
 not approximately, taken from tracing a reference image.
 
 .. figure:: /images/addons_pdt_examples_1.png
-   :align: left
    :width: 450px
-
-.. container:: lead
-
-   .. clear
 
 The draught angles on this half-casting are exactly 5 degrees,
 the length of sides between the radii are exactly to a dimension.
@@ -43,12 +38,7 @@ This example has been executed from the PDT Command Line section.
 * Extrude 50 at 85 degrees – Command **ei50,85**
 
 .. figure:: /images/addons_pdt_examples_2.png
-   :align: left
    :width: 450px
-
-.. container:: lead
-
-   .. clear
 
 **Stage 2:**
 
@@ -60,12 +50,7 @@ This example has been executed from the PDT Command Line section.
 * Offset Edges 2.5 – Offset Edges Extrude Command.
 
 .. figure:: /images/addons_pdt_examples_3.png
-   :align: left
    :width: 450px
-
-.. container:: lead
-
-   .. clear
 
 **Stage 3:**
 
@@ -76,12 +61,7 @@ This example has been executed from the PDT Command Line section.
 * Complete highlighted faces using standard Blender techniques to get this:
 
 .. figure:: /images/addons_pdt_examples_5.png
-   :align: left
    :width: 450px
-
-.. container:: lead
-
-   .. clear
 
 Then simply extrude the two front face corners level with the cursor
 in X and then selected vertices to make the faces with F key.
@@ -93,12 +73,7 @@ options and ``Command`` buttons instead.
 Optionally, to improve topology, one could rationalise the top faces to this:
 
 .. figure:: /images/addons_pdt_examples_6.png
-   :align: left
    :width: 450px
-
-.. container:: lead
-
-   .. clear
 
 It would depend on what we wanted to do ultimately with the top faces, like maybe cut holes in them.
 
@@ -110,34 +85,19 @@ Take this mesh, we have no idea at what angle the mesh lies,
 since it was drawn to a delta measurement not a directional measurement:
 
 .. figure:: /images/addons_pdt_examples_7.png
-   :align: left
    :width: 450px
-
-.. container:: lead
-
-   .. clear
 
 We now want to make it longer along the angle at which it lies, by a known amount,
 so we first use the ``Set A/S 2D`` tool to set the angle:
 
 .. figure:: /images/addons_pdt_examples_8.png
-   :align: left
    :width: 450px
-
-.. container:: lead
-
-   .. clear
 
 You can see the angle was 9.9935 degrees, we then input the distance we require in the ``Distance`` input box,
 set ``Operation`` to ``Move`` and click the ``Direction`` command to get this:
 
 .. figure:: /images/addons_pdt_examples_9.png
-   :align: left
    :width: 450px
-
-.. container:: lead
-
-   .. clear
 
 You can see the selected vertices have been moved exactly 3000mm at exactly 9.9935 degrees.
 This is one of the main reasons why PDT exists, to do just this type of precise alteration of geometry.

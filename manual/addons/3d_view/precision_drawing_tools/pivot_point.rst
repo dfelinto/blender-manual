@@ -10,12 +10,7 @@ location to the 3D Cursor. It can, however, be placed relative to Object Geometr
 The Menu For Pivot Point
 
 .. figure:: /images/addons_pdt_pivot_1.png
-   :align: left
    :width: 450px
-
-.. container:: lead
-
-   .. clear
 
 Here the pivot point has been placed relative to the selected vertex.
 
@@ -46,12 +41,7 @@ The right button is ``To Origin``, which locates the PP on the selected Object's
 you must have a selected Object.
 
 .. figure:: /images/addons_pdt_pivot_2.png
-   :align: left
    :width: 450px
-
-.. container:: lead
-
-   .. clear
 
 Here the PP has been located on the weighted centre of the selected face.
 
@@ -60,12 +50,7 @@ first set the ``Angle`` and click ``Rotate``. Geometry is rotated about the View
 (an axis normal to your screen).
 
 .. figure:: /images/addons_pdt_pivot_3.png
-   :align: left
    :width: 450px
-
-.. container:: lead
-
-   .. clear
 
 Here the selected geometry has been rotated 30 degrees about the PP.
 
@@ -118,21 +103,11 @@ If the custom property are not there, either because it hasn’t been written,
 or because you have deleted it, an error is displayed.
 
 .. figure:: /images/addons_pdt_pivot_4.png
-   :align: left
    :width: 450px
-
-.. container:: lead
-
-   .. clear
 
 Confirmation is Required for the Write Operation.
 
 .. figure:: /images/addons_pdt_pivot_5.png
-   :align: left
    :width: 300px
-
-.. container:: lead
-
-   .. clear
 
 This is the custom property stored against the Object.

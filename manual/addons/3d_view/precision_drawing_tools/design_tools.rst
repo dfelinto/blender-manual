@@ -6,15 +6,11 @@ Design Tools
 The Menu for PDT Tools:
 
 .. figure:: /images/addons_pdt_design_7.png
-   :align: left
    :width: 400px
-
-.. container:: lead
-
-   .. clear
 
 This section of the menu deals with the Tools, which work with their own variables,
 in some cases, they also use the Working Plane.
+
 
 Set A/D 2D:
 ===========
@@ -44,12 +40,7 @@ the Angle is set to the apparent angle relative to horizontal in the top view, t
 inputs are set to the delta offset between the two vertices in the ``view`` axes.
 
 .. figure:: /images/addons_pdt_design_8.png
-   :align: left
    :width: 400px
-
-.. container:: lead
-
-   .. clear
 
 Parameters set from two Vertices in Front Working Plane.
 
@@ -94,12 +85,7 @@ Selection: Select two vertices by any method.
 If the vertices do form part of the same face you should use the standard Blender ``Join`` command (hotkey j).
 
 .. figure:: /images/addons_pdt_design_9.png
-   :align: left
    :width: 300px
-
-.. container:: lead
-
-   .. clear
 
 The two Vertices have been joined to form, in this case, a Closed Loop, Before on the Left, After on the Right.
 
@@ -142,22 +128,12 @@ and vertices will be moved along the X axis, in View ``Working Plane`` Mode,
 remember these are then ``Local`` axes, not ``Global`` ones.
 
 .. figure:: /images/addons_pdt_design_10.png
-   :align: left
    :width: 400px
-
-.. container:: lead
-
-   .. clear
 
 Before, the face is at 90 degrees to horizontal.
 
 .. figure:: /images/addons_pdt_design_11.png
-   :align: left
    :width: 400px
-
-.. container:: lead
-
-   .. clear
 
 After the face is now at 65 degrees to horizontal.
 
@@ -176,32 +152,17 @@ Selection: Select a set of Edges by any method.
 select required edges, click ``Intersect All`` button.
 
 .. figure:: /images/addons_pdt_design_12.png
-   :align: left
    :width: 400px
-
-.. container:: lead
-
-   .. clear
 
 Selected Edges Before.
 
 .. figure:: /images/addons_pdt_design_13.png
-   :align: left
    :width: 400px
-
-.. container:: lead
-
-   .. clear
 
 Selected Edges After, some have been removed.
 
 .. figure:: /images/addons_pdt_design_14.png
-   :align: left
    :width: 400px
-
-.. container:: lead
-
-   .. clear
 
 Selected Edges After Extrusion.
 
@@ -219,12 +180,7 @@ Selection: Select two Edges by any method.
 **Example 1**: Bisect two edges, select 2 co-planar edges, click ``Bisector`` button.
 
 .. figure:: /images/addons_pdt_design_15.png
-   :align: left
    :width: 400px
-
-.. container:: lead
-
-   .. clear
 
 Bisected Edges, Before on Left, After on Right, you can see both Bisectors have been drawn.
 
@@ -244,12 +200,7 @@ The intersection point need to lie within the area of the face.
 **Example 1**: Extend one edge to a disconnected face, select one edge and one face, click ``Edge To Face``.
 
 .. figure:: /images/addons_pdt_design_16.png
-   :align: left
    :width: 400px
-
-.. container:: lead
-
-   .. clear
 
 Edge Extended, Before on Left, After on Right.
 
@@ -274,23 +225,13 @@ profile 0.5, select corner vertices to be filleted, set ``Radius`` to 0.5,
 set ``Segments`` to 6, set Profile to 0.5, check ``Use Vertices``.
 
 .. figure:: /images/addons_pdt_design_17.png
-   :align: left
    :width: 400px
-
-.. container:: lead
-
-   .. clear
 
 The image shows two Before and Afters, in the bottom set Use Vertices was checked,
 in the top set it was not, this is how to fillet edges.
 
 .. figure:: /images/addons_pdt_design_24.png
-   :align: left
    :width: 400px
-
-.. container:: lead
-
-   .. clear
 
 Another Before and After, you can see the settings used to produce this.
 
@@ -305,11 +246,6 @@ checkbox is ignored in this mode of operation. Should these two edges
 not intersect in the ``Working Plane``, an error is returned.
 
 .. figure:: /images/addons_pdt_design_25.png
-   :align: left
    :width: 400px
-
-.. container:: lead
-
-   .. clear
 
 Two examples of Before on the Left and After on the Right.

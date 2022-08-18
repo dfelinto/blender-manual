@@ -9,12 +9,7 @@ can be entered as keyed text rather than using the buttons and input boxes.
 The Menu For Command Line
 
 .. figure:: /images/addons_pdt_command_1.png
-   :align: left
    :width: 450px
-
-.. container:: lead
-
-   .. clear
 
 Here the Cursor has been set with the command **cd-1.5,,**
 placing the cursor negative 1.5 in X from the selected vertex.
@@ -79,12 +74,7 @@ to the current position of the cursor, or the Active vertex.
 A command of **pi1,135** will place the Pivot Point 1m at 135 degrees from the Active vertex.
 
 .. figure:: /images/addons_pdt_command_6.png
-   :align: left
    :width: 450px
-
-.. container:: lead
-
-   .. clear
 
 **Grab** commands will move selected objects, or vertices by the values input,
 so if ``Plane`` is set to ``View`` and the command is **gi1.5,38.75**
@@ -107,24 +97,14 @@ A command of **ed1,3,2** will extrude the selected geometry 1 in X, 3 in Y and 2
 so for example, if you want to split a Face like this:
 
 .. figure:: /images/addons_pdt_command_2.png
-   :align: left
    :width: 450px
-
-.. container:: lead
-
-   .. clear
 
 Image showing the new vertex inserted 25% of the way along the edge using the command **sp25**.
 
 In this next scenario, we have split an extruded Face, producing an Ngon:
 
 .. figure:: /images/addons_pdt_command_3.png
-   :align: left
    :width: 450px
-
-.. container:: lead
-
-   .. clear
 
 Command was **sd0.2,,** a new edge has been created and topological integrity preserved.
 
@@ -166,32 +146,17 @@ So, in the option quoted above, a command of **mx(1.2*sin(radians(54)))**
 results in the X coord being set to **0.97082**:
 
 .. figure:: /images/addons_pdt_command_4.png
-   :align: left
    :width: 300px
-
-.. container:: lead
-
-   .. clear
 
 Alternatively a command of **md4*sqrt(2)** results in the Distance input being set to **5.65685**:
 
 .. figure:: /images/addons_pdt_command_5.png
-   :align: left
    :width: 300px
-
-.. container:: lead
-
-   .. clear
 
 From Version 1.1.8, Maths Function now can output to the Maths Output field:
 
 .. figure:: /images/addons_pdt_command_7.png
-   :align: left
    :width: 300px
-
-.. container:: lead
-
-   .. clear
 
 Here the command **mosqrt(34)*(2.3**3)** was used, meaning; Maths, Output, Square Root of 34 times 2.3 cubed.
 This value can be copied by floating your mouse over the field and keying CTRL+C, it can then be pasted anywhere.

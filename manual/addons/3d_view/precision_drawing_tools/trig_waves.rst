@@ -6,12 +6,7 @@ PDT Trigonometrical Waves
 The Menu for Trigonometrical Waves
 
 .. figure:: /images/addons_pdt_trig_1.png
-   :align: left
    :width: 300px
-
-.. container:: lead
-
-   .. clear
 
 This section of PDT is used to generate Trigonometrical Waves in a selected Object.
 In order to enable the ``Generate`` button, the use must first select
@@ -37,39 +32,19 @@ There are then a number of parameters that need to be set:
 Here is a "Before" image:
 
 .. figure:: /images/addons_pdt_trig_2.png
-   :align: left
    :width: 450px
-
-.. container:: lead
-
-   .. clear
 
 And here is an "After" image:
 
 .. figure:: /images/addons_pdt_trig_3.png
-   :align: left
    :width: 450px
-
-.. container:: lead
-
-   .. clear
 
 Here is an example of "Absolute" values using a Sine Wave:
 
 .. figure:: /images/addons_pdt_trig_4.png
-   :align: left
    :width: 450px
-
-.. container:: lead
-
-   .. clear
 
 And finally an example of a Tangent Wave limited to a maximum value of 5:
 
 .. figure:: /images/addons_pdt_trig_5.png
-   :align: left
    :width: 450px
-
-.. container:: lead
-
-   .. clear

@@ -4,12 +4,7 @@ Introduction
 ************
 
 .. figure:: /images/addons_pdt_main.png
-   :align: left
    :width: 620px
-
-.. container:: lead
-
-   .. clear
 
 Objects drawn with PDT and Dimensioned with MeasureIt
 

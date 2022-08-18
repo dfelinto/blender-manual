@@ -25,10 +25,6 @@ Activation
    You may need to set the :menuselection:`Preferences --> Keymaps --> Spacebar Action` to *Tools*
    and save your preferences.
 
-.. container:: lead
-
-   .. clear
-
 .. reference::
 
    :Category:  Interface

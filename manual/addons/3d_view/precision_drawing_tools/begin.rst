@@ -30,12 +30,7 @@ The first thing to establish is the ``Working Plane``, here a number of choices 
    X is always view-horizontal, Y is always view-vertical and Z is always view-depth.
 
 .. figure:: /images/addons_pdt_setup_1.png
-   :align: left
    :width: 300px
-
-.. container:: lead
-
-   .. clear
 
 
 Setting the Working Plane.
@@ -52,12 +47,7 @@ input of 1,3,2 will move the cursor relative to itself,
 so it moves this amount every time you activate the command.
 
 .. figure:: /images/addons_pdt_setup_2.png
-   :align: left
    :width: 300px
-
-.. container:: lead
-
-   .. clear
 
 
 Setting the Cursor/Pivot Point Movement Mode.
@@ -76,12 +66,7 @@ these will be discussed on another page. There are a number of Operations, shown
 8) Extrude Geometry.
 
 .. figure:: /images/addons_pdt_setup_3.png
-   :align: left
    :width: 300px
-
-.. container:: lead
-
-   .. clear
 
 
 Setting the Operation Mode.
@@ -94,12 +79,7 @@ set the input values for **X, Y & Z** then click the ``Absolute`` button.
 Below is a table showing which options are available in which Modes, including Edit, or Object Modes in Blender:
 
 .. figure:: /images/addons_pdt_setup_4.png
-   :align: left
    :width: 720px
-
-.. container:: lead
-
-   .. clear
 
 Note! Only Edit and Object Modes are supported by PDT at present,
 Further, only Mesh Objects are supported, not Curves for now.
@@ -109,27 +89,12 @@ with less items per row as the width decreases below a threshold set in the PDT 
 Here are two sample Images:
 
 .. figure:: /images/addons_pdt_op_1.png
-   :align: left
    :width: 250px
 
-.. container:: lead
-
-   .. clear
-
 .. figure:: /images/addons_pdt_op_2.png
-   :align: left
    :width: 300px
-
-.. container:: lead
-
-   .. clear
 
 Note! PDT Add-on Preferences now also sets the Parts Library location and Debug mode.
 
 .. figure:: /images/addons_pdt_op_3.png
-   :align: left
    :width: 420px
-
-.. container:: lead
-
-   .. clear

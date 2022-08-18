@@ -6,12 +6,7 @@ View Control
 The Menu for View Control.
 
 .. figure:: /images/addons_pdt_view_1.png
-   :align: left
    :width: 300px
-
-.. container:: lead
-
-   .. clear
 
 This section deals with the View Control section of PDT, this menu uses its own variables.
 
@@ -73,11 +68,6 @@ degrees about its horizontal axis. In the system this is achieved using an Absol
 **Quaternion(0.8205, 0.4247, -0.1759, -0.3399)**
 
 .. figure:: /images/addons_pdt_view_2.png
-   :align: left
    :width: 500px
-
-.. container:: lead
-
-   .. clear
 
 The Top Plane Axes Appear to be at 30 degrees to the View's Horizontal Axis.

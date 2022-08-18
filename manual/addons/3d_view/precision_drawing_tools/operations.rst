@@ -36,12 +36,7 @@ set Working Plane to ``Front(X-Z)``, set Distance to 0.8, set angle to 34, selec
 click ``Direction`` button.
 
 .. figure:: /images/addons_pdt_design_18.png
-   :align: left
    :width: 400px
-
-.. container:: lead
-
-   .. clear
 
 You can see the geometry Before and After the move.
 
@@ -56,12 +51,7 @@ the new vertex is set selected so it can then be manipulated.
 set Working Plane to ``Front(X-Z)``, select two edges, click ``Intersect`` button.
 
 .. figure:: /images/addons_pdt_design_19.png
-   :align: left
    :width: 400px
-
-.. container:: lead
-
-   .. clear
 
 A new Vertex has been placed at the intersection of the two Edges.
 
@@ -77,12 +67,7 @@ this can also be used to "chase" a single vertex around a path, for example the 
 select the face, set some delta offsets, click ``Delta`` button.
 
 .. figure:: /images/addons_pdt_design_20.png
-   :align: left
    :width: 400px
-
-.. container:: lead
-
-   .. clear
 
 Only the Vertices from the Face have been extruded as edges.
 
@@ -104,12 +89,7 @@ set Operation to ``Split``, set Working Plane to ``Front(X-Z)``, set X to 0.8 & 
 select two edges, click ``Delta`` button.
 
 .. figure:: /images/addons_pdt_design_21.png
-   :align: left
    :width: 400px
-
-.. container:: lead
-
-   .. clear
 
 You can see Before and after of the two examples described above.
 
@@ -124,12 +104,7 @@ set Operation to ``Duplicate Geometry``, set working plane to ``Front(X-Z)``,
 set Distance to 3 & Angle to 78, click ``Direction`` button.
 
 .. figure:: /images/addons_pdt_design_22.png
-   :align: left
    :width: 400px
-
-.. container:: lead
-
-   .. clear
 
 You can see Before and After states of a Duplication.
 
@@ -144,11 +119,6 @@ as with Extrude Vertex, but faces and edges as well.
 set Working Plane to ``Front(X-Z)``, set X, Y & Z to 1,0.5,0.6 respectively, click ``Delta`` button.
 
 .. figure:: /images/addons_pdt_design_23.png
-   :align: left
    :width: 400px
-
-.. container:: lead
-
-   .. clear
 
 You can see the Top Face has been Extruded in all three axes as one operation.

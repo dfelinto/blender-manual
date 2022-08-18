@@ -6,12 +6,7 @@ Worked Example - Building A Book Scanner
 In this page we will show how to make complex parts of this book scanner using PDT.
 
 .. figure:: /images/addons_pdt_scan_1.png
-   :align: left
    :width: 450px
-
-.. container:: lead
-
-   .. clear
 
 This is considered a typical CAD design and consists of many parts
 that can be made by extruding a profile to make the 3D mesh.
@@ -22,14 +17,9 @@ We will start with a component that has a hole in it so that process is explaine
 **Making the End Panels.**
 
 .. figure:: /images/addons_pdt_scan_2.png
-   :align: left
    :width: 450px
 
-.. container:: lead
-
-   .. clear
-
-The End Panel in Edit Mode
+   The End Panel in Edit Mode.
 
 For this we will start with a single vertex object at 0,0,0 (You will need to load the "Extra Objects" Add-on).
 
@@ -64,12 +54,7 @@ Extrude new vertex -0.04 in Z:
 You should now have this:
 
 .. figure:: /images/addons_pdt_scan_3.png
-   :align: left
    :width: 450px
-
-.. container:: lead
-
-   .. clear
 
 I have selected two vertices, join these two together with **Join 2 Verts** Tool.
 
@@ -86,12 +71,7 @@ Extrude 0.16 in Z:
 You should now have this:
 
 .. figure:: /images/addons_pdt_scan_4.png
-   :align: left
    :width: 450px
-
-.. container:: lead
-
-   .. clear
 
 Duplicate the selected vertices to the other side:
 
@@ -100,12 +80,7 @@ Set 3D Cursor, SHIFT+D, CTRL+M Y - standard Blender commands.
 Join the gaps using ``Join 2 Verts`` and you get this:
 
 .. figure:: /images/addons_pdt_scan_5.png
-   :align: left
    :width: 450px
-
-.. container:: lead
-
-   .. clear
 
 Select the vertices shown, they need filleting:
 
@@ -115,12 +90,7 @@ Select the vertices shown, they need filleting:
 This is the result:
 
 .. figure:: /images/addons_pdt_scan_6.png
-   :align: left
    :width: 450px
-
-.. container:: lead
-
-   .. clear
 
 Copy bottom left vertex 0.12 in Y & 0.1 in Z:
 
@@ -144,12 +114,7 @@ Set 3D Cursor, SHIFT+D, CTRL+M Y - standard Blender commands.
 Join the gaps using ``Join 2 Verts`` and you get this:
 
 .. figure:: /images/addons_pdt_scan_7.png
-   :align: left
    :width: 450px
-
-.. container:: lead
-
-   .. clear
 
 Select the vertices shown, they need filleting:
 
@@ -159,42 +124,22 @@ Select the vertices shown, they need filleting:
 You should now have this:
 
 .. figure:: /images/addons_pdt_scan_8.png
-   :align: left
    :width: 450px
-
-.. container:: lead
-
-   .. clear
 
 Join these two vertices each side using ``Join 2 Verts`` Tool giving this:
 
 .. figure:: /images/addons_pdt_scan_9.png
-   :align: left
    :width: 450px
-
-.. container:: lead
-
-   .. clear
 
 Select these vertices and key F - (Blender Face command) to give this:
 
 .. figure:: /images/addons_pdt_scan_10.png
-   :align: left
    :width: 450px
-
-.. container:: lead
-
-   .. clear
 
 Switch selection (CTRL+I), select four vertices across joins and make Face again giving this:
 
 .. figure:: /images/addons_pdt_scan_11.png
-   :align: left
    :width: 450px
-
-.. container:: lead
-
-   .. clear
 
 Duplicate entire geometry -0.02 in X:
 
@@ -204,23 +149,13 @@ Duplicate entire geometry -0.02 in X:
 You should now have this:
 
 .. figure:: /images/addons_pdt_scan_12.png
-   :align: left
    :width: 450px
-
-.. container:: lead
-
-   .. clear
 
 Select both outer edge rings and choose ``Edge`` => ``Bridge Edge Loops``,
 repeat for inner edge loops to get all the faces:
 
 .. figure:: /images/addons_pdt_scan_13.png
-   :align: left
    :width: 450px
-
-.. container:: lead
-
-   .. clear
 
 _hown in Face Mode
 
@@ -236,12 +171,7 @@ Edit new "End-L" Object and mirror all faces about X Axis.
 You should now have two ends like this:
 
 .. figure:: /images/addons_pdt_scan_14.png
-   :align: left
    :width: 450px
-
-.. container:: lead
-
-   .. clear
 
 You should be able to see the advantages of making end profiles,
 then bridging the edge loops to make an extruded shape.

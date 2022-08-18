@@ -6,12 +6,7 @@ PDT Parts Library
 The Menu For Parts library
 
 .. figure:: /images/addons_pdt_library_1.png
-   :align: left
    :width: 300px
-
-.. container:: lead
-
-   .. clear
 
 This module is in its infancy for releases up to and including 1.1.5 and is an attempt
 to organise a collection of parts, as objects, in a central repository.
@@ -42,12 +37,7 @@ where you wanted the part, then call it by name and it would be placed with its 
 PDT Parts Library uses the same method to store, recall and place parts at the cursor location:
 
 .. figure:: /images/addons_pdt_library_2.png
-   :align: left
    :width: 450px
-
-.. container:: lead
-
-   .. clear
 
 This shows the Parts Library Menu and some sample parts brought in by either ``Appending``, or ``Linking``.
 
@@ -59,12 +49,7 @@ The Parts Libraries can be located wherever you want them on your system. The lo
 a normal Blender blend file, is set in the PDT Add-on Preference (User Preferences => Add-ons Tab):
 
 .. figure:: /images/addons_pdt_library_4.png
-   :align: left
    :width: 450px
-
-.. container:: lead
-
-   .. clear
 
 You can either type in the location and name of the file, or click the ``Folder`` icon and use Blender
 file select tools to navigate to your file. The Selectors in PDT are then automatically updated
@@ -120,12 +105,7 @@ trikes and three-wheelers, these have been Appended from the library file to
 a working blend file, then the materials assigned:
 
 .. figure:: /images/addons_pdt_library_3.png
-   :align: left
    :width: 450px
-
-.. container:: lead
-
-   .. clear
 
 Each engine is modelled as a set of individual objects, organised as collections
 in the library blend file. All individual objects in each collection share a common
