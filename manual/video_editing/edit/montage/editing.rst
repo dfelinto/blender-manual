@@ -343,6 +343,9 @@ Delete
 
 Delete the selected strip(s).
 
+Delete Data
+   After removing the Strip, delete the associated data also.
+
 
 Separate Images
 ===============
@@ -486,6 +489,19 @@ Change Path/Files
 
 Swap Data
    Swaps two sequence strips.
+
+
+Change
+======
+
+.. reference::
+
+   :Shortcut:  :kbd:`C`
+
+.. _bpy.ops.sequencer.change_scene:
+
+Change Scene
+   Change the scene assigned to the selected strip.
 
 
 Context Menu

@@ -130,14 +130,16 @@ Sound
 
    :Panel:     :menuselection:`Sidebar --> Strip --> Sound`
 
+.. _bpy.types.SoundSequence.volume:
+
 Volume
    The volume of the sound.
    This value, when animated and with the :menuselection:`View --> Show F-Curves` option activated,
    is drawn on the strip as a dark section that follows the animation curve.
    The value is also reflected in the waveform.
-Pitch
-   Coefficient of playback speed.
-   This value will affect length of the strip, that will not be represented in the timeline.
+
+.. _bpy.types.SoundSequence.pan:
+
 Pan
    Used to pan the audio between speakers in multichannel audio.
    Only works for mono sources. The number of audio channels can be configured in
@@ -180,20 +182,33 @@ Lock (padlock icon)
 Channel
    Changes the channel number, or row, of the strip.
 
+Speed Factor
+   Coefficient of playback speed.
+   This value will affect length of the strip, that will not be represented in the timeline.
+
 .. _bpy.types.Sequence.frame_start:
 
 Start
    Changes the starting frame number of the strip, which is the same as selecting and moving the strip.
+
+.. _bpy.types.Sequence.frame_final_duration:
+
 Duration
    Changes the length, in frames of the strip. This works by changing the end frame,
    which is the same as selecting and moving the strip's right handle.
 End
    Specifies the ending time and ending frame number for the strip.
+
+.. _bpy.types.Sequence.frame_offset_start:
+.. _bpy.types.Sequence.frame_offset_end:
+
 Strip Offset Start/End
    Can be used to either extend the strip beyond the end frame by repeating the last frame.
    Or it can be used to shorten the strip, as if you were cropping the end frame.
    This is the same as adjusting the strip handles.
 
+.. _bpy.types.MovieSequence.animation_offset_start:
+.. _bpy.types.MovieSequence.animation_offset_end:
 .. _sequencer-duration-hard:
 
 Hold Offset Start/End
@@ -267,3 +282,11 @@ Pack
 
 Caching
    Sound file is decoded and loaded into the RAM.
+
+Source Information
+   Displays information about the strip's media.
+
+   Samplerate
+      The number of samples per second the audio is encoded at.
+   Channels
+      The number of audio channels encoded into the audio stream.

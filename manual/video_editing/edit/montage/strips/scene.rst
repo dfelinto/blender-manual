@@ -14,6 +14,32 @@ The strip length will be determined based on the animation settings in that scen
    Scene strips cannot be used to reference the sequence's own scene; a secondary scene must be used instead.
 
 
+Adding Scene Strips
+===================
+
+Existing scenes strips can be added from the :menuselection:`Add --> Scene --> "Scene Name"`.
+New scenes can also be created directly from the add menu with :menuselection:`Add --> Scene --> New Scene`.
+
+.. rubric:: Options
+
+Start Frame
+   The first frame to start the scene strip.
+Channel
+   The channel to place the strip in.
+Replace Selection
+   Replace the active strip with the new scene strip.
+
+When creating a new scene you have the following options:
+
+Type
+   How the new scene is created.
+
+   :New: Add new Strip with a new empty Scene with default settings.
+   :Copy Settings: Add a new Strip, with an empty scene, and copy settings from the current scene.
+   :Linked Copy: Add a Strip and link in the collections from the current scene (shallow copy).
+   :Full Copy: Add a Strip and make a full copy of the current scene.
+
+
 Options
 =======
 

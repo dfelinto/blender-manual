@@ -69,6 +69,9 @@ Set View Transform
    based on the :term:`Color Space` of the imported media. In most cases, the *Standard* should be used;
    using the wrong transform could result in inaccurate colors or degraded rendering performance.
 
+Adjust Playback Rate
+   Automatically adjusts the video's speed to playback at the original speed regardless of the scene's framerate.
+
 Sound
    Add a :doc:`Sound Strip </video_editing/edit/montage/strips/sound>` that contains the movie's audio track.
 
