@@ -11,7 +11,7 @@ Relax
 The Relax brush can be used to distribute UVs more evenly.
 It works by pulling vertices along UV edges to bring the UV unwrap into balance.
 
-The Relax brush can be compared with the :ref:`minimize-stretch` tool which works directly
+The Relax brush can be compared with the :ref:`bpy.ops.uv.minimize_stretch` tool which works directly
 on faces to reduce texture stretching and shearing.
 You may find that sometimes minimize stretch works better, sometimes the unwrap
 tool and other times the relax brush.

@@ -9,7 +9,7 @@
 Vector Rotate Node
 ******************
 
-.. figure:: /images/node-types_ShaderNodeVectorDisplacement.webp
+.. figure:: /images/node-types_ShaderNodeVectorRotate.png
    :align: center
    :alt: Vector Rotate Node.
 

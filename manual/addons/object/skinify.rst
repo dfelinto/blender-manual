@@ -28,7 +28,7 @@ It will work with custom shapes but results may vary.
 .. seealso::
 
    Please see the
-   `old Wiki <https://archive.blender.org/wiki/index.php/Extensions:2.6/Py/Scripts/Modeling/Extra_Tools/>`__
+   `old Wiki <https://archive.blender.org/wiki/index.php/Extensions:2.6/Py/Scripts/Object/Skinify/>`__
    for the archived original docs.
 
 

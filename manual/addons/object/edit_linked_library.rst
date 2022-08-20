@@ -25,9 +25,7 @@ the Edit Linked Library panel will show a button labeled *Edit Linked Library*.
 Click this button to open the blend-file that the active object is linked from.
 
 Once you complete your work to the linked file, return to the Sidebar and
-click the *Return to Original File* button. In addition,
-the :kbd:`Shift-NumpadSlash` hotkey can be used to toggle between the linked file and
-the original (the *Local View* functionality is maintained for non-linked objects).
+click the *Return to Original File* button.
 
 By default, this add-on automatically saves your current file before opening the linked library or
 returning to the original file. This can be disabled using the *Autosave* toggle
