@@ -9,12 +9,18 @@ Track
 
    Track panel.
 
+.. _bpy.types.MovieTrackingTrack.name:
+
 Name
    The track name can be changed with this field.
    Track names are used for linking tracking data to other areas, like a Follow Track constraint.
+
 Enable (eye icon)
    This toggle controls if the marker is enabled.
    If a marker is disabled, its position is not used either by solver nor by constraints.
+
+.. _bpy.types.MovieTrackingTrack.lock:
+
 Lock (padlock icon)
    The toggle controls whether the track is locked. Locked tracks cannot be edited at all.
    This helps to prevent accidental changes to tracks which are "finished"
@@ -43,16 +49,26 @@ preview widget (the area is highlighted with two horizontal lines).
 Further Options
 ===============
 
-Channels
+.. _bpy.types.MovieTrackingTrack.use_red_channel:
+.. _bpy.types.MovieTrackingTrack.use_green_channel:
+.. _bpy.types.MovieTrackingTrack.use_blue_channel:
+
+R, G, B
    Tracking happens in gray-scale space, so a high contrast between the feature and
    its background yields more accurate tracking.
    In such cases disabling some color channels can help.
+
+.. _bpy.types.MovieTrackingTrack.use_grayscale_preview:
+
 Grayscale Preview (B/W)
    Display the preview image as gray-scale even if all channels are enabled.
+
+.. _bpy.types.MovieTrackingTrack.use_alpha_preview:
+
 Mask Preview (black/white icon)
    Applies mask defined by an annotation tool in the preview widget.
 
-.. _clip-tracking-weight:
+.. _bpy.types.MovieTrackingTrack.weight:
 
 Weight
    When several tracks are used for 3D camera reconstruction, it is possible to assign
@@ -68,11 +84,21 @@ Weight
    the tracker settings to zero and use the feature detection to quickly add lots of markers.
    Now track them and solve the scene again. Since their weight is zero
    they will not influence your solution at all, but you will have lots of good reference points in your scene.
+
+.. _bpy.types.MovieTrackingTrack.weight_stab:
+
 Stabilization Weight
    While *Weight* parameter is used for 3D reconstruction,
    the *Stabilization Weight* is used to control 2D stabilization.
-Color Presets
+
+.. _bpy.ops.clip.track_copy_color:
+.. _bpy.types.MovieTrackingTrack.use_custom_color:
+
+Custom Color Presets
    The preset for the *Custom Color*.
+
+.. _bpy.types.MovieTrackingTrack.color:
+
 Custom Color
    This setting overrides the default marker color used in the Clip editor and 3D Viewport,
    and it helps to distinguish different type of features

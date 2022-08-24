@@ -1,4 +1,4 @@
-.. _bpy.types.MovieTrackingCamera:
+::.. _bpy.types.MovieTrackingCamera:
 
 ******
 Camera
@@ -48,14 +48,14 @@ Set Center
 Lens Distortion
    Mathematical function to convert distorted to undistorted coordinates.
 
-   Polynomial
+   :Polynomial:
       Polynomial radial distortion. Uses three distortion coefficients: K1, K2, and K3.
-   Division
+   :Division:
       It defines high distortions, which makes this model suitable much better for cameras with fisheye lenses.
       Use two distortion coefficients: K1, K2.
-   Nuke
+   :Nuke:
       Distortion model used by the Nuke compositor. Use two distortion coefficients K1, K2.
-   Brown
+   :Brown:
       Brown-Conrady is one of most advanced mathematical lens distortion models.
       Used to model both radial and tangential distortion. Can use up to four
       radial distortion coefficients: K1 - K4 and up to two tangential distortion coefficients: P1 and P2.

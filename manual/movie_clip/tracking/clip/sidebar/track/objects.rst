@@ -1,3 +1,6 @@
+.. _bpy.types.MovieTracking.active_object_index:
+.. _bpy.ops.clip.tracking_object_new:
+.. _bpy.ops.clip.tracking_object_remove:
 .. _movie-clip-tracking-properties-object:
 
 *************

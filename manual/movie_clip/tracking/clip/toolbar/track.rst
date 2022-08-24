@@ -98,7 +98,7 @@ Tracking Extra Settings
 -----------------------
 
 Weight
-   See Track :ref:`Weight <clip-tracking-weight>`.
+   See Track :ref:`Weight <bpy.types.MovieTrackingTrack.weight>`.
 
 Correlation
    This value defines the minimal correlation between
