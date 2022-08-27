@@ -1,9 +1,9 @@
 
-################
-    UV Nodes
-################
+############
+  UV Nodes
+############
 
-Nodes for creating or mofifying :term:`UV Maps <UV Map>`.
+Nodes for creating or modifying :term:`UV Maps <UV Map>`.
 
 .. toctree::
    :maxdepth: 1

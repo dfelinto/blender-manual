@@ -61,9 +61,9 @@ and all those assets will be shown in the Asset Browser.
 
 .. note::
 
-   Loading an asset library for the first time may take a while, but the next time it is loaded should be significantly
-   faster. Blender generates an index of all assets contained inside an asset library, and keeps it up-to-date as files
-   are modified within it. The indices are stored in the :ref:`local-cache-dir`.
+   Loading an asset library for the first time may take a while, but the next time it is loaded should be
+   significantly faster. Blender generates an index of all assets contained inside an asset library,
+   and keeps it up-to-date as files are modified within it. The indices are stored in the :ref:`local-cache-dir`.
 
 The blend-files can be directly in the top-level directory of the asset library, or in any subdirectory.
 The on-drive organization of asset libraries is all up to you. Regardless of which blend-file contains the assets,

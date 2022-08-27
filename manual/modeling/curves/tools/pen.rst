@@ -63,11 +63,11 @@ Close Spline Method
       triggered on click and drag.
 
 Toggle Vector
-   :kbd:`Double-LMB` click on a handle to switch handle between *Vector* and *Auto* handle types.
+   Double :kbd:`LMB` click on a handle to switch handle between *Vector* and *Auto* handle types.
    Can be used to easily switch between sharp corners and smooth curves.
 
 Cycle Handle Type
-   :kbd:`Double-LMB` click on the control point to cycle through all handle types.
+   Double :kbd:`LMB` click on the control point to cycle through all handle types.
 
 
 Hotkeys

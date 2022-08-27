@@ -54,7 +54,7 @@ with *Endpoint* knots and the *Curve Path* setting enabled.
 
 
 Empty Hair
-===========
+==========
 
 Adds an empty high-performance curves object and automatically:
 
