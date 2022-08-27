@@ -39,7 +39,7 @@ directives = [
     'moduleauthor', 'opcode', 'pdbcommand', 'productionlist',
     'program', 'role', 'sectionauthor', 'seealso', 'sourcecode', 'staticmethod',
     'tabularcolumns', 'testcode', 'testoutput', 'testsetup', 'toctree', 'todo',
-    'todolist', 'versionadded', 'versionchanged'
+    'todolist', 'versionadded', 'versionchanged',
 ]
 
 all_directives = '(' + '|'.join(directives) + ')'

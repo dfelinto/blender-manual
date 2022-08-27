@@ -98,6 +98,7 @@ def setup_default_preferences(preferences):
 # it's important to postpone so this script can run outside of Blender.
 import bpy
 
+
 # ----------------------------------------------------------------------
 # Blender Timer Wrapper
 

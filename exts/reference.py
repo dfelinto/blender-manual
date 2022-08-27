@@ -7,6 +7,7 @@ from docutils.parsers.rst.directives.admonitions import BaseAdmonition
 from sphinx.locale import _
 from sphinx.util.docutils import SphinxDirective
 
+
 class refbox(nodes.Admonition, nodes.Element):
     pass
 
@@ -49,12 +50,14 @@ class ReferenceDirective(BaseAdmonition, SphinxDirective):
 
 
 def setup(app):
-    app.add_node(refbox,
-                html=(visit_refbox_node, depart_refbox_node),
-                latex=(visit_refbox_node, depart_refbox_node),
-                text=(visit_refbox_node, depart_refbox_node),
-                man=(visit_refbox_node, depart_refbox_node),
-                texinfo=(visit_refbox_node, depart_refbox_node))
+    app.add_node(
+        refbox,
+        html=(visit_refbox_node, depart_refbox_node),
+        latex=(visit_refbox_node, depart_refbox_node),
+        text=(visit_refbox_node, depart_refbox_node),
+        man=(visit_refbox_node, depart_refbox_node),
+        texinfo=(visit_refbox_node, depart_refbox_node),
+    )
 
     app.add_directive('reference', ReferenceDirective)
 

@@ -53,11 +53,11 @@ def print_title(title, underline="="):
 image_regex = re.compile(
     r"\.\.\s+"
     # |SomeID|  (optional)
-    "(?:\|([a-zA-Z0-9\-_]+)\|\s+)?"
+    r"(?:\|([a-zA-Z0-9\-_]+)\|\s+)?"
     # figure/image::
-    "(?:figure|image)\:\:\s+"
+    r"(?:figure|image)\:\:\s+"
     # image path
-    "/images/(.*?\.(?:png|gif|jpg|jpeg|svg|webp))",
+    r"/images/(.*?\.(?:png|gif|jpg|jpeg|svg|webp))",
     re.MULTILINE
 )
 

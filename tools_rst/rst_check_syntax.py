@@ -78,7 +78,7 @@ def warn_long_lines(fn, data_src):
 
 
 def warn_role_kbd(fn, data_src):
-    """
+    r"""
     Report non-conforming uses of the :kbd: role.
 
     kbd editing regex:

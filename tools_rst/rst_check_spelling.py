@@ -133,7 +133,7 @@ def directive_ignore(
     Note this doesn't ignore child nodes.
     """
     text = '\n'.join(content)
-    '''
+    r'''
     if re.match(r'.*\n\s*\n', block_text):
         warning('doctest-ignore on line %d will not be ignored, '
              'because there is\na blank line between ".. doctest-ignore::"'

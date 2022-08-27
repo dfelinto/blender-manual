@@ -9,7 +9,9 @@ import re
 # using primitive regex parsing.
 #
 # e.g:
-# python tools_maintenance/blender_help_extract.py ../blender/source/creator/creator_args.c manual/advanced/command_line/arguments.rst
+# python tools_maintenance/blender_help_extract.py \
+#        ../blender/source/creator/creator_args.c \
+#        manual/advanced/command_line/arguments.rst
 
 
 def text_remove_comments(text):

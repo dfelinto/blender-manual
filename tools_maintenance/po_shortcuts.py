@@ -145,7 +145,7 @@ def main(lang):
             with open(filename, 'w', encoding="utf-8") as f:
                 f.write("".join(text_dst))
 
-            print(filename[filename.find('LC_MESSAGES')+11:] + ':', n_total, 'change(s).')
+            print(filename[filename.find('LC_MESSAGES') + 11:] + ':', n_total, 'change(s).')
 
 
 if __name__ == "__main__":

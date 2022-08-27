@@ -10,18 +10,23 @@ from sphinx.util import logging
 
 logger = logging.getLogger(__name__)
 
+
 def get_size(d, key):
     if key not in d:
         return None
-    m = re.match("(\d+)(|%|px)$", d[key])
+    m = re.match(r"(\d+)(|%|px)$", d[key])
     if not m:
         raise ValueError("invalid size %r" % d[key])
     return int(m.group(1)), m.group(2) or "px"
 
+
 def css(d):
     return "; ".join(sorted("%s: %s" % kv for kv in d.items()))
 
-class peertube(nodes.General, nodes.Element): pass
+
+class peertube(nodes.General, nodes.Element):
+    pass
+
 
 def visit_peertube_node(self, node):
     instance = node["instance"]
@@ -82,8 +87,10 @@ def visit_peertube_node(self, node):
     self.body.append(self.starttag(node, "iframe", **attrs))
     self.body.append("</iframe></div>")
 
+
 def depart_peertube_node(self, node):
     pass
+
 
 def visit_peertube_node_latex(self, node):
     instance = node["instance"]
@@ -95,7 +102,11 @@ def visit_peertube_node_latex(self, node):
     if instance is None:
         instance = self.config.peertube_instance
 
-    self.body.append(r'\begin{quote}\begin{center}\fbox{\url{' + instance + r'videos/watch/%s}}\end{center}\end{quote}'%node['id'])
+    self.body.append(
+        r'\begin{quote}\begin{center}\fbox{\url{' +
+        instance +
+        r'videos/watch/%s}}\end{center}\end{quote}' %
+        node['id'])
 
 
 class PeerTube(Directive):
@@ -114,7 +125,7 @@ class PeerTube(Directive):
         instance = self.options.get("instance")
         if "aspect" in self.options:
             aspect = self.options.get("aspect")
-            m = re.match("(\d+):(\d+)", aspect)
+            m = re.match(r"(\d+):(\d+)", aspect)
             if m is None:
                 raise ValueError("invalid aspect ratio %r" % aspect)
             aspect = tuple(int(x) for x in m.groups())
