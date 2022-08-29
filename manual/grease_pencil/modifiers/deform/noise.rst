@@ -47,8 +47,15 @@ Randomize
 
 When enabled, the noise uses a random value over time.
 
-Step
-   Number of frames before using a new random value.
+Mode
+   Steps
+      New random value at defined steps.
+
+      Step
+         Number of frames before using a new random value.
+
+   keyframes
+      New random value only on keyframes.
 
 
 Influence

@@ -49,3 +49,4 @@ Keyboard Shortcuts
 ==================
 
 - Invert stroke toggle :kbd:`Ctrl`
+- Change active material :kbd:`U`
