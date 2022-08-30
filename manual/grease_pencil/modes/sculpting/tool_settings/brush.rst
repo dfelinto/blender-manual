@@ -54,6 +54,8 @@ Sculpt Strokes
 Direction
    The influence direction of the brush. This can be Add or Subtract.
 
+Advanced
+========
 
 Advanced
 ========
