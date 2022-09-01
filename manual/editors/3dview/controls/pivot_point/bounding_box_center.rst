@@ -10,58 +10,54 @@ Bounding Box Center
    :Header:    |pivot-icon| :menuselection:`Pivot Point --> Bounding Box Center`
    :Shortcut:  :kbd:`Period`
 
-The bounding box is a rectangular box that is wrapped as tightly as possible around the selection.
-It is oriented parallel to the world axes. In this mode the pivot point lies at the center of the bounding box.
-You can set the pivot point to *Bounding Box* with :kbd:`Comma` or via the menu in the editor's header.
-The image below shows how the object's bounding box size is determined by the size of the object.
-
-.. figure:: /images/editors_3dview_controls_pivot-point_bounding-box-center_demo.png
-   :align: center
-
-   Relationship between an object and its bounding box.
+In this mode, the pivot point lies at the center of the bounding box, which is a box that's
+wrapped as tightly as possible around the selection while still being aligned to the world axes.
 
 
 In Object Mode
 ==============
 
-In *Object Mode*, transformation takes place relative to the location of the objects origin
-(indicated by the yellow circle), and the size of objects is not taken into account.
-The image below shows the results of using the *Bounding Box* as the pivot point in some situations.
+The pivot point becomes the center of the bounding box *around the selected objects'
+origin points*, not their geometry.
 
-.. figure:: /images/editors_3dview_controls_pivot-point_individual-origins_rotation-around-center.png
+This means that, if you have a single object selected, the pivot point is the same
+as the object's :doc:`origin point </scene_layout/object/origin>` -- which can be customized
+and doesn't have to be in the center. In the example below, the orange rectangle
+has it in a corner instead.
+
+.. figure:: /images/editors_3dview_controls_pivot-point_bounding-box-center_object-mode_single.png
    :align: center
 
    Single object rotation.
 
-In this example, the orange rectangle has its origin located on the far left of the mesh,
-while the blue rectangle has its origin located in the center of the mesh.
+If you have multiple objects selected, the pivot point becomes the center
+of an imaginary box around their origins.
 
-When a single object is selected, the rotation takes place around its origin.
+The image below shows the difference between Bounding Box Center
+and :doc:`/editors/3dview/controls/pivot_point/median_point`.
+The latter calculates the average position of the origins,
+meaning that the pivot point shifts towards the area with the most objects.
 
-.. figure:: /images/editors_3dview_controls_pivot-point_bounding-box-center_object-mode.png
+.. figure:: /images/editors_3dview_controls_pivot-point_bounding-box-center_object-mode_multiple.png
    :align: center
 
-   Shows the location of the bounding box (right) pivot point compared to the median point (left).
-
-The image above (left) shows that when multiple objects are selected,
-the pivot point is calculated based on the location of all the selected objects.
-More precisely, the centers of objects are taken into account.
+   Difference between "Bounding Box Center" (left) and "Median Point" (right).
 
 
 In Edit Mode
 ============
 
-This time it is the geometry that is enclosed in the bounding box.
-The bounding box in *Edit Mode* takes no account of the object(s) origins,
-only the center of the selected vertices.
+The pivot point becomes the center of the bounding box around the selected mesh elements.
 
 .. figure:: /images/editors_3dview_controls_pivot-point_bounding-box-center_edit-mode-rotation.png
    :align: center
 
-   The effects of rotation in different mesh selection modes when the bounding box is set as the pivot point.
+   The effects of rotation in different mesh selection modes.
    The pivot point is shown by a yellow circle.
+
+Median Point may again give a different result.
 
 .. figure:: /images/editors_3dview_controls_pivot-point_bounding-box-center_median-point.png
    :align: center
 
-   The bounding box center compared to the median point.
+   Difference between "Bounding Box Center" (left) and "Median Point" (right).

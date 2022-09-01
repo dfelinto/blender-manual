@@ -145,6 +145,7 @@ A pop-up menu to move the stroke to a different layer.
 You can choose the layer to move the selected strokes to
 from a list of layers of the current Grease Pencil object.
 You can also add a new layer to move the selected stroke to.
+When creating a new layer, there is another pop-up to type in the name of the new layer.
 
 
 .. _bpy.ops.gpencil.stroke_change_color:

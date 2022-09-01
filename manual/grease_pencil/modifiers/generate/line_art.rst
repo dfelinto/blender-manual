@@ -73,10 +73,6 @@ Custom Camera
    Use custom camera instead of the active camera for calculating strokes.
    Useful when baking multiple shots in different angle as well as for motion graphics effects.
 
-Remove Doubles
-   Perform a "merge by distance" operation when loading geometry into Line Art.
-   The threshold of this operation is internally set to a value that is optimal for Line Art algorithm precision.
-
 Overlapping Edges as Contour
    This option allows overlapping edges (e.g. from an Edge Split modifier or imported geometry where
    two edges occupy the exact same space) to be drawn as contour. Enabling this option will slow down

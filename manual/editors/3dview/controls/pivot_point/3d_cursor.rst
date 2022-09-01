@@ -10,20 +10,18 @@
    :Header:    |pivot-icon| :menuselection:`Pivot Point --> 3D Cursor`
    :Shortcut:  :kbd:`Period`
 
-The 3D cursor is the most intuitive of the pivot points.
-With the 3D cursor selected as the active pivot point
-(from either the *Editor's Header* or via :kbd:`Period`),
-simply position the 3D cursor and then do the required transformation. All rotation and
-scaling transformations will now be done relative to the location of the 3D cursor.
+Places the pivot point at the location of the
+:doc:`3D Cursor </editors/3dview/3d_cursor>`.
 
 
 Example
 =======
 
-The image below shows the difference when rotating an object
-around the median point (right) and around the 3D cursor (left).
+The image below shows the difference between rotating an object
+around the 3D Cursor (left) and rotating it around the
+:doc:`Median Point </editors/3dview/controls/pivot_point/median_point>` (right).
 
 .. figure:: /images/editors_3dview_controls_pivot-point_3d-cursor_example.png
    :align: center
 
-   Rotation around the 3D cursor compared to the median point.
+   Rotation around the 3D Cursor compared to the Median Point.

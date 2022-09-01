@@ -10,20 +10,18 @@ Median Point
    :Header:    |pivot-icon| :menuselection:`Pivot Point --> Median Point`
    :Shortcut:  :kbd:`Period`
 
-The Median Point can be considered to be broadly similar to the concept of
-Center of Gravity (COG). If we assume that every element (object, face, vertex, etc.)
-of the selection has the same mass,
-the median point would sit at the point of equilibrium for the selection (the COG).
+Places the pivot point at the averaged-out position of the selected items.
 
 
 In Object Mode
 ==============
 
-In Object Mode, Blender only considers the object origins when determining the median point.
-This can lead to some counter-intuitive results.
-In the Fig. :ref:`fig-view3d-median-point-object-mode` below,
-you can see that the median point is between the object origins and
-can be nowhere near the objects' mesh (geometric center).
+In Object Mode, the Median Point is the averaged-out position of the
+:doc:`origins </scene_layout/object/origin>` of the selected objects.
+The shape and size of the objects is not taken into account.
+
+Origins can be chosen freely and can even lie outside their object's
+geometry, so that the Median Point is not always what you might expect.
 
 .. _fig-view3d-median-point-object-mode:
 
@@ -36,13 +34,14 @@ can be nowhere near the objects' mesh (geometric center).
 In Edit Mode
 ============
 
-In Edit Mode,
-the median point is determined via the part of the selection that has the most elements.
-For example, in the Fig. :ref:`fig-view3d-median-point-edit-mode`,
-when there are two cubes with an equal number of vertices,
-the median point lies directly between the two cubes.
-But if you subdivide one cube multiple times so that it has many more vertices,
-you can see that the median point has shifted to the region with the most vertices.
+In Edit Mode, the Median Point is the averaged-out position of the
+selected vertices. This means that the pivot point will shift towards
+the area with the densest geometry.
+
+In the example below, the pivot point lies perfectly in the middle
+if both cubes have the same number of vertices, but heavily leans towards
+the side if one cube is subdivided -- even though both cubes still
+have the same size.
 
 .. _fig-view3d-median-point-edit-mode:
 

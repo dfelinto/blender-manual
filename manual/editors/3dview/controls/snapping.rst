@@ -11,15 +11,15 @@ Snapping
    :Header:    :menuselection:`Snap`
    :Shortcut:  :kbd:`Shift-Tab`
 
-The ability to snap objects and mesh element to various types of scene elements during
-a transformation is available by toggling the magnet icon in the 3D Viewport's header buttons.
+Snapping lets you easily align objects and mesh elements to others.
+It can be toggled by clicking the magnet icon in the 3D Viewport's header,
+or more temporarily by holding :kbd:`Ctrl`.
 
 .. figure:: /images/editors_3dview_controls_snapping_header-magnet-icon.png
 
    Magnet icon in the 3D Viewport header (blue when enabled).
 
 .. figure:: /images/editors_3dview_controls_snapping_element-menu.png
-   :align: right
 
    Snap menu.
 
@@ -35,38 +35,42 @@ Snap To
    :Header:    :menuselection:`Snapping --> Snap To`
    :Shortcut:  :kbd:`Shift-Ctrl-Tab`
 
+Determines the target which the selection will be snapped to.
+
 Increment
-   Snap to grid points. When in Orthographic view, the snapping increment changes depending on zoom level.
+   Snaps to grid points. When in Orthographic view, the snapping increment changes depending on the zoom level.
 
    .. note::
 
-      In this context the grid does not mean the visual grid cue displayed.
-      Snapping will use the resolution of the displayed grid,
-      but all transformations are relative to the initial position (before the snap operation).
+      By default, this option won't snap to the grid that's displayed in the viewport,
+      but an imaginary grid with the same resolution that starts at the selection's
+      original location. In other words, it lets you move the selection in "increments" of the
+      grid cell size.
 
+      If you want to snap to the viewport grid instead, you can enable *Absolute Grid Snap*
+      (see below).
 Vertex
-   Snap to vertices of mesh objects.
+   Snaps to the nearest vertex of a mesh object.
 Edge
-   Snap to edges of mesh objects.
+   Snaps to the nearest point on the nearest edge.
 Face
-   Snaps to the surfaces of faces in mesh objects;
+   Snaps to the nearest point on the nearest face.
    This is useful for retopologizing.
 Volume
    Snaps to regions within the volume of the first object found below the mouse cursor.
-   Unlike the other options, this one controls the depth
+   Unlike the other options, this option controls the depth
    (i.e. Z coordinates in current view space) of the transformed element.
-   By toggling the button that appears to the right of the snap target menu (see below),
+   By toggling *Snap Peel Object* (see below),
    target objects will be considered as a whole when determining the volume center.
 Edge Center
-   Snaps to the middle of an edge.
-   This snap element only pertains to mesh objects.
+   Snaps to the centerpoint of the nearest edge.
 Edge Perpendicular
-   Snaps to the nearest vertex in an edge that makes a perpendicular angle.
-   This snap element only pertains to mesh objects.
+   Snaps to a specific point on the nearest edge so that the line from the selection's
+   original location (indicated by a white cross) to its new location is perpendicular to that edge.
 
 .. tip::
 
-   Multiple snapping modes can be enabled at once by :kbd:`Shift-LMB` the different snapping elements.
+   Multiple snapping modes can be enabled at once using :kbd:`Shift-LMB`.
 
 
 .. _bpy.types.ToolSettings.snap_target:
@@ -80,18 +84,21 @@ Snap With
    :Header:    :menuselection:`Snapping --> Snap with`
    :Shortcut:  :kbd:`Shift-Ctrl-Tab`
 
-Snap target options become active when either *Vertex*, *Edge*,
-*Face*, or *Volume* is selected as the snap element.
-These determine what part of the selection snaps to the target objects.
+Determines what part of the selection will coincide with the target.
+(The rest of the selection will follow along.)
 
 Active
-   Moves the active element (vertex in Edit Mode, object in Object Mode) to the target.
+   Snaps using the origin (in Object Mode) or center (in Edit Mode) of the active element.
 Median
-   Moves the median of the selection to the target.
+   Snaps using the median of the selection.
 Center
-   Moves the current transformation center to the target. Can be used with 3D cursor to snap with an offset.
+   Snaps using the current transformation center
+   (another word for the :doc:`pivot point </editors/3dview/controls/pivot_point/index>`).
+   This option is especially useful in combination with the
+   :doc:`3D Cursor </editors/3dview/3d_cursor>` for choosing the snapping
+   point completely manually.
 Closest
-   Moves the closest point of the selection to the target.
+   Snaps using the vertex that's closest to the target.
 
 .. list-table::
 
@@ -113,64 +120,79 @@ Additional Options
 
 .. figure:: /images/editors_3dview_controls_snapping_options.png
 
-As seen by the yellow highlighted areas in the image above, besides the snap target,
+As seen in the yellow highlighted area in the image above, besides the snap target,
 additional controls are available to alter snap behavior. These options vary between mode
-(Object and Edit) as well as Snap Element. The four options available are:
+(Object and Edit) as well as snap target. The available options are:
 
 .. _bpy.types.ToolSettings.use_snap_grid_absolute:
 
 Absolute Grid Snap
-   Available only for the increase option.
-   Snap to grid, instead of snapping in increments relative to the current location.
+   Only available if Snap To Increment is enabled.
+   Snaps to the grid, instead of snapping in increments relative to the current location.
 
 .. _bpy.types.ToolSettings.use_snap_backface_culling:
 
 Backface Culling
-   Exclude back facing geometry from snapping.
+   Exclude back-facing geometry from snapping.
 
 .. _bpy.types.ToolSettings.use_snap_self:
 
 Project Onto Self
-   Snaps elements to its own mesh.
-   Available only in editing mode for Vertices, Edges, Faces and Volume.
-   Not available when :doc:`Proportional Editing </editors/3dview/controls/proportional_editing>` is enabled.
+   Only available in Edit Mode.
+   Allows snapping mesh elements to other elements of the same mesh.
+
+   This checkbox is ignored if
+   :doc:`Proportional Editing </editors/3dview/controls/proportional_editing>`
+   is enabled.
 
 .. _bpy.types.ToolSettings.use_snap_align_rotation:
 
 Align Rotation to Target
-   Available for Vertices, Edges, Faces and Volume.
-   When the Snap Affects Rotation, this align rotation with the snapping target.
+   Rotates the selection so that its Z axis gets aligned to the normal of the target.
 
 .. _bpy.types.ToolSettings.use_snap_project:
 
 Project Individual Elements
-   Available for snap to Faces.
-   Project individual elements on the surface of other objects.
+   Only available if Snap To Face is enabled.
+   Rather than the default behavior where only the "Snap With" point gets snapped
+   to the target and the rest of the selection follows along (maintaining the
+   original shape), this option makes each object (in Object Mode) or vertex
+   (in Edit Mode) snap to a target independently of the others, which
+   may cause the selection's shape to change.
+
+   This can be used for bending a flat sheet so it snugly fits against a curved
+   surface, for example.
+
+   .. seealso::
+
+      :doc:`/modeling/modifiers/deform/shrinkwrap`
 
 .. _bpy.types.ToolSettings.use_snap_peel_object:
 
 Snap Peel Object
-   Available for snap to Volume.
-   Consider objects as whole when finding volume center.
+   Only available if Snap To Volume is enabled.
+   Consider objects as a whole when finding volume center.
 
 .. _bpy.types.ToolSettings.use_snap_translate:
 .. _bpy.types.ToolSettings.use_snap_rotate:
 .. _bpy.types.ToolSettings.use_snap_scale:
 
 Affect
-   Limits the effect of the snap to the transformation type.
+   Specifies which transformations are affected by snapping.
+   By default, snapping only happens while moving something,
+   but you can also enable it for rotating and scaling.
 
 
 Multiple Snap Targets
 ---------------------
 
-Once transforming a selection with Snapping on (not just when holding :kbd:`Ctrl`),
-you can press :kbd:`A` to mark the current snapping point, then proceed to mark as many other
-snapping points as you wish and the selection will be snapped to the average location of all
-the marked points.
+While you're transforming a selection with snapping enabled,
+you can press :kbd:`A` whenever there's a hilighted snap target to
+mark it. With multiple such targets marked, the selection will
+then be snapped to their average location.
 
-Marking a point more than once will give it more weight in the averaged location.
+Marking a target more than once will give it more weight.
 
 .. figure:: /images/editors_3dview_controls_snapping_target-multiple.png
 
-Multiple snapping targets.
+   Multiple snapping targets.

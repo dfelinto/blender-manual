@@ -13,9 +13,20 @@
    :Header:    |pivot-icon| :menuselection:`Pivot Point`
    :Shortcut:  :kbd:`Period`
 
-When rotating or scaling an object or group of vertices, edges, or faces,
-you may want to move the :term:`Pivot Point` to make it easier to manipulate an object.
-Using this selector in the header of any 3D Viewport, you can change the location of the pivot point.
+The *Pivot Point* determines the location of the
+:doc:`Object Gizmo </editors/3dview/display/gizmo>`.
+Changing this location can make it easier to perform
+transformations around the point you want.
+
+.. figure:: /images/editors_3dview_controls_pivot-point_index_demo.png
+   :align: center
+   
+   With the default "Median Point" pivot point (left) it's tricky to
+   bring the second wheel spoke into place, but with "3D Cursor" (right)
+   it's easy.
+
+
+The Pivot Point can be changed using a selector in the 3D Viewport's header:
 
 .. figure:: /images/editors_3dview_controls_pivot-point_index_popover.png
 

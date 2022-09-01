@@ -81,8 +81,8 @@ Supported GPUs include:
 
 Minimum driver versions:
 
- - Windows: Intel Graphics Driver 30.0.101.1660
- - Linux: OpenCL runtime 22.10.22597
+ - Windows: Intel Graphics Driver 30.0.101.3268
+ - Linux: OpenCL runtime 22.10.23570
 
 Please refer to `Intel's website <https://www.intel.com/content/www/us/en/products/details/discrete-gpus.html>`__
 for more information about Intel graphics cards and their architectures.
