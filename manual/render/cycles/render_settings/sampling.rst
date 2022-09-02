@@ -165,19 +165,14 @@ Seed
 
 Pattern
    Random sampling pattern used by the integrator.
-   When :ref:`bpy.types.CyclesRenderSettings.use_adaptive_sampling` is enabled,
-   *Progressive Multi-Jitter* is always used instead of *Sobol*.
 
-   :Sobol:
-      Uses a Sobol pattern to decide the random sampling pattern used by the integrator.
-      See `Sobol sequence <https://en.wikipedia.org/wiki/Sobol_sequence>`__ on Wikipedia for more information.
    :Progressive Multi-Jitter:
-      Uses a progressive multi-jitter pattern to decide the random sampling pattern used by the integrator.
-      Its advantage is to provide a good distribution of samples over iterating sample counts.
-      Because of its good distribution over a range of different sample counts,
-      this sample pattern is used for `Adaptive Sampling`_.
-      See `this Pixar paper <https://graphics.pixar.com/library/ProgressiveMultiJitteredSampling/paper.pdf>`__
-      for more information.
+      Based on `Progressive Multi-Jittered Sample Sequences <https://graphics.pixar.com/library/ProgressiveMultiJitteredSampling/paper.pdf>`__.
+      This is the default pattern and the only one that supports Scrambling Distance.
+
+   :Sobol-Burley:
+      Based on `Practical Hash-based Owen Scrambling <https://jcgt.org/published/0009/04/01/paper.pdf>`__.
+      An alternative pattern with the same quality as Progressive Multi-Jitter.
 
 .. _bpy.types.CyclesRenderSettings.sample_offset:
 
