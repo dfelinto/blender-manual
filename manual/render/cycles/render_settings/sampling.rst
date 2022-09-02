@@ -173,7 +173,7 @@ Pattern
       See `Sobol sequence <https://en.wikipedia.org/wiki/Sobol_sequence>`__ on Wikipedia for more information.
    :Progressive Multi-Jitter:
       Uses a progressive multi-jitter pattern to decide the random sampling pattern used by the integrator.
-      Its advantage is to provide a well distribution of samples over iterating sample counts.
+      Its advantage is to provide a good distribution of samples over iterating sample counts.
       Because of its good distribution over a range of different sample counts,
       this sample pattern is used for `Adaptive Sampling`_.
       See `this Pixar paper <https://graphics.pixar.com/library/ProgressiveMultiJitteredSampling/paper.pdf>`__
