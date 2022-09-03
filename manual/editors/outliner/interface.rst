@@ -134,7 +134,7 @@ Objects
 .. _bpy.types.SpaceOutliner.filter_state:
 
 Object State
-   List the objects based on there state or restrictions.
+   List the objects based on their state or restrictions.
    The results can be inverted using the *Invert* button.
 
    All
