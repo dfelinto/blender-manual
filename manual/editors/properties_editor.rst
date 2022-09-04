@@ -149,4 +149,4 @@ Sync with Outliner
 
    :Always: Always, when possible, change Property editor tabs when clicking an icon in an Outliner.
    :Never: Never change Property editor tabs when clicking an icon in an Outliner.
-   :Auto: Change tabs only when the Property editor editor shares a border with an Outliner.
+   :Auto: Change tabs only when the Property editor shares a border with an Outliner.
