@@ -158,6 +158,6 @@ Fly/Walk
    Settings to control how the NDOF device is used while using :ref:`Walk/Fly Navigation <3dview-fly-walk>`.
 
    Lock Horizon
-      Keeps the horizontal axis level file flying.
+      Keeps the horizontal axis level while flying.
    Helicopter Mode
       Moves the 3D Viewport up or down when moving the NDOF device up/down.
