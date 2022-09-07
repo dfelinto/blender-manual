@@ -7,9 +7,9 @@ Custom Targets
 
 Convenience targets provided for building docs.
 
-- html                 to build the HTML web-site.
+- html (default)       to build the HTML web-site.
 - singlehtml           to build the HTML web-site as a single page.
-- livehtml (default)   to auto build on file changes on host on localhost.
+- livehtml             to auto build on file changes on host on localhost.
 - epubpdf              to convert an epub file to PDF.
 - readme               to make a 'readme.html' file.
 - clean                to delete all old build files.
@@ -39,7 +39,7 @@ OS:=$(shell uname -s)
 # You can set these variables from the command line, and also
 # from the environment for the first two.
 SPHINXBUILD     ?= sphinx-build
-SPHINXAUTOBUILD	?= sphinx-autobuild
+SPHINXAUTOBUILD ?= sphinx-autobuild
 SOURCEDIR        = ./manual
 BUILDDIR        ?= build
 BF_LANG         ?= en
