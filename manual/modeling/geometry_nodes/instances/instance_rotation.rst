@@ -17,7 +17,7 @@ The :doc:`/modeling/geometry_nodes/instances` page contains more information abo
 .. note::
 
    Though rotations are often displayed in units of degrees in the spreadsheet or node editor,
-   they are stored internally in radians, so this node outputs 
+   they are stored internally in radians, so this node outputs radians.
 
 Inputs
 ======
