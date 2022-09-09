@@ -72,10 +72,10 @@ Compare
    :Equal: Select items with the same value as the active item's chosen property.
    :Greater: Select items with a larger value as the active item's chosen property.
    :Less: Select items with a smaller value as the active item's chosen property.
-   
-   Threshold
-      For quantitative properties, this property controls how
-      close the property's values have to be in the comparison.
+
+Threshold
+   For quantitative properties, this property controls how
+   close the property's values have to be in the comparison.
 
 
 .. _bpy.ops.mesh.select_similar_region:
