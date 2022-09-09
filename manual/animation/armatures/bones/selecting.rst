@@ -146,7 +146,7 @@ Less :kbd:`Ctrl-NumpadMinus`
    Contrast the selection, deselect bones at the boundaries of each selection region.
 
 
-.. _bpy.ops.armature.select_linked():
+.. _bpy.ops.armature.select_linked:
 
 Linked
 ======

@@ -1,3 +1,5 @@
+.. _bpy.ops.mesh.select_more:
+.. _bpy.ops.mesh.select_less:
 
 ****************
 Select More/Less
@@ -25,6 +27,9 @@ Face Step
    (From left to right) initial selection, without Face Step,
    with Face Step, and in edge selection mode.
 
+
+.. _bpy.ops.mesh.select_next_item:
+.. _bpy.ops.mesh.select_prev_item:
 
 Select Next/Previous Active
 ===========================

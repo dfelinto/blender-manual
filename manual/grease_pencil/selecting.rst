@@ -1,5 +1,6 @@
 .. _bpy.types.ToolSettings.gpencil_selectmode:
 .. _bpy.ops.gpencil.select:
+.. _bpy.ops.gpencil.selectmode_toggle:
 
 *********
 Selecting
@@ -41,6 +42,8 @@ Box/Circle/All/None/Invert Select
    :doc:`Object Mode </scene_layout/object/selecting>`.
 
 
+.. _bpy.ops.gpencil.select_linked:
+
 Select Linked
 =============
 
@@ -54,6 +57,8 @@ Select Linked
 and all the linked ones, i.e. all points belonging to the same stroke.
 
 
+.. _bpy.ops.gpencil.select_alternate:
+
 Select Alternated
 =================
 
@@ -65,6 +70,8 @@ Select Alternated
 
 Selects alternate points in the selected strokes.
 
+
+.. _bpy.ops.gpencil.select_random:
 
 Select Random
 =============
@@ -89,6 +96,8 @@ Action
 Unselect Ends
    Excludes the selection of stroke end points.
 
+
+.. _bpy.ops.gpencil.select_grouped:
 
 Select Grouped
 ==============
@@ -121,6 +130,9 @@ Tolerance
    How similar colors are allowed to be; higher values select a wider range of colors.
 
 
+.. _bpy.ops.gpencil.select_first:
+.. _bpy.ops.gpencil.select_last:
+
 Select First/Last
 =================
 
@@ -132,6 +144,9 @@ Select First/Last
 These operators will toggle the selection of the first or last point(s) of the stroke(s) in the object.
 This is useful to quickly find the start of a stroke.
 
+
+.. _bpy.ops.gpencil.select_more:
+.. _bpy.ops.gpencil.select_less:
 
 Select More/Less
 ================

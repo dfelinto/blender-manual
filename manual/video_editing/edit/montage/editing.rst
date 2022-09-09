@@ -178,7 +178,7 @@ Insert Gaps
 .. reference::
 
    :Menu:      :menuselection:`Strip --> Transform --> Insert Gaps`
-   :Shortcut:  :kbd:`Equals`
+   :Shortcut:  :kbd:`Shift-Equals`
 
 Insert blank frames between the current frame and the first strips to the right,
 independent of selection or locked state of strips.
@@ -346,6 +346,8 @@ Delete the selected strip(s).
 Delete Data
    After removing the Strip, delete the associated data also.
 
+
+.. _bpy.ops.sequencer.images_separate:
 
 Separate Images
 ===============

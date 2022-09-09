@@ -51,10 +51,11 @@ Duplicate
 .. reference::
 
    :Menu:      :menuselection:`Edit --> Duplicate`
-   :Shortcut:  :kbd:`Shift-D`
 
 Creates a new instance of the selected strips with a copy of the action.
 
+
+.. _bpy.ops.nla.duplicate_linked_move:
 
 Linked Duplicate
 ================

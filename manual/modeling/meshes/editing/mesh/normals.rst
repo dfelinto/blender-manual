@@ -45,7 +45,7 @@ Recalculate
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Normals --> Recalculate Outside` and
                :menuselection:`Mesh --> Normals --> Recalculate Inside`
-   :Shortcut:  :kbd:`Ctrl-N` and :kbd:`Shift-Ctrl-N`
+   :Shortcut:  :kbd:`Shift-N` and :kbd:`Shift-Ctrl-N`
 
 These tools will recalculate the normals of selected faces so that they point outside
 (respectively inside) the volume that the face belongs to.

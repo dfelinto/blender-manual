@@ -65,6 +65,8 @@ Once clipping is deactivated with another :kbd:`Alt-B`,
 all of 3D space will become visible again.
 
 
+.. _bpy.ops.view3d.render_border:
+.. _bpy.ops.view3d.clear_render_border:
 .. _editors-3dview-navigate-render-region:
 
 Render Region

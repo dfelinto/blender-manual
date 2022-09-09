@@ -97,6 +97,7 @@ Hide Value
 
 
 .. _bpy.ops.node.tree_path_parent:
+.. _bpy.ops.node.group_edit:
 
 Edit Group
 ==========

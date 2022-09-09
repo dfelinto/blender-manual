@@ -1,4 +1,5 @@
 .. _tool-mesh-extrude_cursor:
+.. _bpy.ops.mesh.dupli_extrude_cursor:
 
 *****************
 Extrude to Cursor

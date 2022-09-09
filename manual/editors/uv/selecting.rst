@@ -110,6 +110,7 @@ Select Overlap
 
 
 .. _bpy.ops.uv.shortest_path_select:
+.. _bpy.ops.uv.shortest_path_pick:
 
 Shortest Path
 =============
@@ -154,11 +155,11 @@ Select Edge Loops
 .. reference::
 
    :Mode:      Edit Mode
-   :Shortcut:  :kbd:`Alt-LMB`, or :kbd:`Shift-Alt-LMB` for modifying existing selection.
+   :Shortcut:  :kbd:`Ctrl-Alt-LMB`, or :kbd:`Shift-Ctrl-Alt-LMB` for modifying existing selection.
 
-Holding :kbd:`Alt` while selecting a UV component selects a loop of edges that are connected in
+Holding :kbd:`Ctrl-Alt` while selecting a UV component selects a loop of edges that are connected in
 a line end-to-end, passing through the edge under the mouse pointer.
-Holding :kbd:`Shift-Alt` while clicking adds to the current selection.
+Holding :kbd:`Shift-Ctrl-Alt` while clicking adds to the current selection.
 
 .. seealso::
 

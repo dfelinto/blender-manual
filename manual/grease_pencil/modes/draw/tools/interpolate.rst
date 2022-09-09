@@ -1,4 +1,5 @@
 .. _tool-grease-pencil-draw-interpolate:
+.. _bpy.ops.gpencil.interpolate:
 
 ***********
 Interpolate

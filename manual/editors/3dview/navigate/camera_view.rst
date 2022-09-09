@@ -23,6 +23,8 @@ The rendered image will contain everything within the dashed frame.
    (assuming the camera object isn't hidden).
 
 
+.. _bpy.ops.view3d.view_camera:
+
 Viewing the Active Camera
 =========================
 
@@ -34,6 +36,8 @@ Viewing the Active Camera
 
 This switches the view to the active camera.
 
+
+.. _bpy.ops.view3d.object_as_camera:
 
 Setting the Active Camera
 =========================
@@ -88,6 +92,8 @@ Centers the camera view inside the 3D Viewport's screen area
 and resizes the view to fit within the area's bounds.
 
 
+.. _bpy.ops.view3d.zoom_camera_1_to_1:
+
 Zoom Camera 1:1
 ===============
 
@@ -100,6 +106,7 @@ Zooms the view so that the camera frame has the exact same size
 as the output resolution. This allows you to preview exactly how large
 objects will be in the rendered image/animation.
 
+
 Camera Positioning
 ==================
 
@@ -111,6 +118,8 @@ Some of them are explained below.
    The active "camera" might be any kind of object,
    meaning these actions can also be used to position and aim a light for example.
 
+
+.. _bpy.ops.camera_to_view:
 
 Align Active Camera to View
 ---------------------------

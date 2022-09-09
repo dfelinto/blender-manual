@@ -20,6 +20,8 @@ Placement
 There are a few methods to position the 3D Cursor.
 
 
+.. _bpy.ops.view3d.cursor3d:
+
 Direct Placement with the Mouse
 -------------------------------
 

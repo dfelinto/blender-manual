@@ -37,6 +37,7 @@ Python
 
 
 .. _help-manual-access:
+.. _bpy.ops.wm.doc_view_manual_ui_context:
 
 Context-Sensitive Manual Access
 ===============================

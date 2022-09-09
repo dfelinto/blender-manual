@@ -124,8 +124,8 @@ For example, this helps to group channels that relate a part of an armature to k
 
 
 .. _bpy.ops.anim.channels_setting_toggle:
-.. _bpy.ops.anim.channels_enable_toggle:
-.. _bpy.ops.anim.channels_disable_toggle:
+.. _bpy.ops.anim.channels_setting_enable:
+.. _bpy.ops.anim.channels_setting_disable:
 
 Toggle/Enable/Disable Channel Settings
 --------------------------------------

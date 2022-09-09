@@ -68,7 +68,6 @@ Reload Clip
 
    :Mode:      All modes
    :Menu:      :menuselection:`Clip --> Open Clip`
-   :Shortcut:  :kbd:`Alt-O`
 
 Force reload the currently loaded movie clip. Is mainly useful when the clip gets edited outside of Blender.
 

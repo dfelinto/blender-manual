@@ -40,6 +40,8 @@ Scale Feather :kbd:`Alt-S`
    Will scale the feather size.
 
 
+.. _bpy.ops.mask.feather_weight_clear:
+
 Clear Feather Weight
 ====================
 
@@ -50,6 +52,8 @@ Clear Feather Weight
 
 Resets the feather weight to zero.
 
+
+.. _bpy.ops.mask.cyclic_toggle:
 
 Toggle Cyclic
 =============
@@ -64,6 +68,8 @@ Toggle to create a closed curve or open it again.
 Close the mask by joining the last control point to the first.
 
 
+.. _bpy.ops.mask.handle_type_set:
+
 Set Handle Type
 ===============
 
@@ -75,6 +81,8 @@ Set Handle Type
 
 Set handle type for selected spline points.
 
+
+.. _bpy.ops.mask.normals_make_consistent:
 
 Recalculate Handles
 ===================
@@ -88,6 +96,8 @@ Recalculate Handles
 Make normals (handle directions) consistent.
 
 
+.. _bpy.ops.mask.switch_direction:
+
 Switch Direction
 ================
 
@@ -98,6 +108,9 @@ Switch Direction
 
 Switch Direction handle directions in/out.
 
+
+.. _bpy.ops.mask.copy_splines:
+.. _bpy.ops.mask.paste_splines:
 
 Copy Paste
 ==========
@@ -133,6 +146,9 @@ Make Parent
 Parents one or more selected spline points to the active motion tracker.
 
 
+.. _bpy.ops.mask.shape_key_clear:
+.. _bpy.ops.mask.shape_key_insert:
+
 Animation
 =========
 
@@ -158,6 +174,9 @@ Re-Key Points of Selected Shapes
    Re-interpolate selected points on across the range of keys selected in the *Dope Sheet*.
 
 
+.. _bpy.ops.mask.hide_view_clear:
+.. _bpy.ops.mask.hide_view_set:
+
 Show/Hide
 =========
 
@@ -171,6 +190,8 @@ Show/Hide
 - Clear Restricted View :kbd:`Alt-H`
 
 
+.. _bpy.ops.mask.delete:
+
 Delete
 ======
 
@@ -182,6 +203,10 @@ Delete
 
 Removes control points.
 
+
+.. _bpy.ops.mask.slide_spline_curvature:
+.. _bpy.ops.mask.add_vertex_slide:
+.. _bpy.ops.mask.add_feather_vertex_slide:
 
 Miscellaneous
 =============

@@ -1,3 +1,4 @@
+.. _bpy.ops.view3d.navigate:
 
 ##############
   Navigating

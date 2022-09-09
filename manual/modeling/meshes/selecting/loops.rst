@@ -3,6 +3,7 @@
 Select Loops
 ************
 
+.. _bpy.ops.mesh.loop_select:
 .. _bpy.ops.mesh.loop_multi_select:
 
 Select Edge Loops
@@ -84,6 +85,7 @@ the entire face.
 
 
 .. _modeling-meshes-selecting-edge-rings:
+.. _bpy.ops.mesh.select_edge_ring:
 
 Select Edge Rings
 =================

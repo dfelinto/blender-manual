@@ -9,6 +9,7 @@ First we will go through these modes and after that a look is taken at basic sel
 
 
 .. _bpy.types.ToolSettings.mesh_select_mode:
+.. _bpy.ops.mesh.select_mode:
 
 Selection Modes
 ===============

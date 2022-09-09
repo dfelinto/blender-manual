@@ -1,3 +1,4 @@
+.. _bpy.ops.mesh.select_mirror:
 
 *************
 Select Mirror

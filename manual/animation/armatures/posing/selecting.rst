@@ -80,7 +80,7 @@ Linked
 
    :Mode:      Pose Mode
    :Menu:      :menuselection:`Select --> Linked`
-   :Shortcut:  :kbd:`L`
+   :Shortcut:  :kbd:`Ctrl-L`
 
 Selects all the bones in the chain which the active (last selected) bone belongs to.
 

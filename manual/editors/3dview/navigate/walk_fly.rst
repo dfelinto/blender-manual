@@ -40,6 +40,7 @@ Recording camera movement
 
 
 .. _bpy.types.WalkNavigation:
+.. _bpy.ops.view3d.walk:
 
 Walk Navigation
 ===============
@@ -102,13 +103,14 @@ Settings like mouse sensitivity and default speed can be adjusted in the
        not tilted to a side).
 
 
+.. _bpy.ops.view3d.fly:
+
 Fly Navigation
 ==============
 
 .. reference::
 
    :Mode:      All modes
-   :Shortcut:  :kbd:`Shift-AccentGrave`
    :Menu:      :menuselection:`View --> Navigation --> Fly Navigation`
 
 On activation, the cursor is centered inside a rectangle that defines a safe zone.

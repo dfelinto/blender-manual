@@ -10,6 +10,8 @@ After adding drivers, they are usually modified in the :doc:`Drivers editor </ed
 or via a simplified *Edit Driver* popover invoked from the property context menu.
 
 
+.. _bpy.ops.anim.driver_button_add:
+
 Add Driver
 ==========
 
@@ -93,6 +95,8 @@ Some examples:
 - ``#sin(frame)``
 - ``#cos(frame)``
 
+
+.. _bpy.ops.anim.driver_button_remove:
 
 Removing Drivers
 ================

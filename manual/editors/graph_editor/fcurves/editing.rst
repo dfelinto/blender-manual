@@ -122,12 +122,14 @@ Insert Keyframes
 .. reference::
 
    :Menu:      :menuselection:`Key --> Insert Keyframes`
-   :Shortcut:  :kbd:`Ctrl-RMB`, :kbd:`Shift-Ctrl-RMB`
+   :Shortcut:  :kbd:`I`
 
 Inserts a keyframe to the active F-Curve at the mouse position.
 The newly added keyframes will be selected, making it easier to quickly tweak the newly added keyframes.
-All previously selected keyframes are kept selected by using :kbd:`Shift-Ctrl-RMB`.
+All previously selected keyframes are kept selected by using :kbd:`I`.
 
+
+.. _bpy.ops.graph.fmodifier_add:
 
 Add F-Curve Modifier
 ====================

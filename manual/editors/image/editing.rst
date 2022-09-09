@@ -57,7 +57,6 @@ Replace
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Image --> Replace`
-   :Shortcut:  :kbd:`Ctrl-R`
 
 Replaces the current image throughout the blend-file with another image.
 

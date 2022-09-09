@@ -1,15 +1,15 @@
-.. index:: Geometry Nodes; Face is Planar
+.. index:: Geometry Nodes; Is Face Planar
 .. _bpy.types.GeometryNodeInputMeshFaceIsPlanar:
 
 *******************
-Face is Planar Node
+Is Face Planar Node
 *******************
 
 .. figure:: /images/node-types_GeometryNodeInputMeshFaceIsPlanar.png
    :align: right
-   :alt: Face is Planar Node.
+   :alt: Is Face Planar Node.
 
-The *Face is Planar* node outputs whether every triangle of a
+The *Is Face Planar* node outputs whether every triangle of a
 :term:`quads <Quad>` or :term:`N-gons <N-gon>` is on the same plane as all of the others, in
 other words, if they have the same :doc:`normal </modeling/meshes/editing/mesh/normals>`.
 

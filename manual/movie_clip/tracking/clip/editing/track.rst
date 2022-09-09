@@ -428,6 +428,8 @@ Delete Track
 Delete all selected tracks.
 
 
+.. _bpy.ops.clip.delete_marker:
+
 Delete Marker
 =============
 

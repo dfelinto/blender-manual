@@ -26,6 +26,7 @@ This works differently in that it uses the geometry under the cursor instead of 
 
 
 .. _bpy.ops.mesh.shortest_path_select:
+.. _bpy.ops.mesh.shortest_path_pick:
 
 Shortest Path
 =============

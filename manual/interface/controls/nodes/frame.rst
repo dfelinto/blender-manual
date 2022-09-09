@@ -31,6 +31,8 @@ Text
 Editing
 =======
 
+.. _bpy.ops.node.join:
+
 Join in New Frame
 -----------------
 
@@ -41,6 +43,8 @@ Join in New Frame
 
 Make a new frame including the selected nodes.
 
+
+.. _bpy.ops.node.parent_set:
 
 Add to Frame
 ------------
@@ -53,6 +57,8 @@ Once a frame node is placed, nodes can be added by dropping them onto the frame 
 by selecting the node(s) then the frame and using :kbd:`Ctrl-P`.
 This can be thought of as Parenting the selection to the frame.
 
+
+.. _bpy.ops.node.detach:
 
 Remove from Frame
 -----------------

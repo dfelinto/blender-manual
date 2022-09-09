@@ -1,3 +1,4 @@
+.. _bpy.ops.sculpt.dynamic_topology_toggle:
 
 *******
 Dyntopo
@@ -20,6 +21,7 @@ With dynamic topology active, most brushes will subdivide the mesh during the st
 .. _bpy.types.Sculpt.detail_size:
 .. _bpy.types.Sculpt.constant_detail_resolution:
 .. _bpy.types.Sculpt.detail_percent:
+.. _bpy.ops.sculpt.dyntopo_detail_size_edit:
 
 Detail Size/Percentage, Resolution :kbd:`Shift-D`
    Each Detail Type's detail is set here. Depending on the Detail Type being used

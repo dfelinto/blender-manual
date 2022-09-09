@@ -100,7 +100,7 @@ by pressing the following keys while the tool is active:
 - :kbd:`X`, :kbd:`Y`, :kbd:`Z`: to the corresponding axes
 
 
-.. _bpy.ops.pose.blend_to_neighbour:
+.. _bpy.ops.pose.blend_to_neighbor:
 
 Blend to Neighbor
 =================

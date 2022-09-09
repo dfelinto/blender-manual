@@ -32,11 +32,11 @@ Nodes that only operate on meshes.
    edge_neighbors.rst
    edge_vertices.rst
    face_area.rst
-   face_is_planar.rst
    face_neighbors.rst
+   face_is_planar.rst
    is_shade_smooth.rst
-   shortest_edge_paths.rst
    mesh_island.rst
+   shortest_edge_paths.rst
    vertex_neighbors.rst
 
 ----

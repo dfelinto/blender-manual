@@ -1,4 +1,5 @@
 .. _bpy.ops.armature.extrude_move:
+.. _bpy.ops.armature.extrude_forked:
 
 *******
 Extrude
@@ -67,6 +68,8 @@ because extrusion selects the newly created tips, and as explained below the Del
 To get rid of these extruded bones without undoing, you would have to move the tips,
 then select the bones and :ref:`delete <bpy.ops.armature.delete>` them.
 
+
+.. _bpy.ops.armature.click_extrude:
 
 Mouse Clicks
 ============

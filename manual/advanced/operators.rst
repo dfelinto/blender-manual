@@ -34,7 +34,6 @@ Reload Scripts
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Topbar --> Blender --> System --> Reload Scripts`
-   :Shortcut:  :kbd:`Ctrl-Alt-T`
 
 Reloads all scripts found in the scripts data folder;
 any changes that have been made in the Text Editor will be lost!
@@ -68,7 +67,6 @@ Debug Menu
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Topbar --> Blender --> System --> Debug Menu`
-   :Shortcut:  :kbd:`Ctrl-Alt-D`
 
 This operator brings up a menu to set Blender into a certain debug mode.
 
@@ -94,7 +92,6 @@ Redraw Timer
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Topbar --> Blender --> System --> Redraw Timer`
-   :Shortcut:  :kbd:`Ctrl-Alt-T`
 
 This operator brings up a menu with a list of tests
 to benchmark UI render times along with undo/redo functions.

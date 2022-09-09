@@ -103,6 +103,8 @@ F-Curve Grouping
    Keying Set Name, None, Named Group
 
 
+.. _bpy.ops.keyingset_button_add:
+
 Adding Properties
 =================
 
