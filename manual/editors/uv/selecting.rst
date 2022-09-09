@@ -101,6 +101,46 @@ Select Linked
       This works similarly to the tools in 3D Viewport.
    Shortest Path
       Path between two selected elements.
+
+.. _bpy.ops.uv.select_similar:
+
+Select Similar :kbd:`Shift-G`
+   Selects UV vertices that have certain similar properties to the :term:`Active` vertex.
+   The :ref:`bpy.ops.screen.redo_last` panel provides several selection options:
+
+   Type
+      The property to compare against the active vertex.
+      The properties that are shown depend on the :ref:`Selection Mode <bpy.types.ToolSettings.uv_select_mode>`.
+
+      Vertex Selection Mode:
+
+      :Pinned: Selects vertices with the same :ref:`pinned <bpy.ops.uv.pin>` state as the active vertex.
+
+      Edge Selection Mode:
+
+      :Length: Selects edges with a similar length.
+      :Length 3D: Selects edges with a similar length in world space coordinates.
+      :Pinned:
+         Selects edges whose both vertices have the same
+         :ref:`pinned <bpy.ops.uv.pin>` state as the active vertex.
+
+      Face Selection Mode:
+
+      :Area: Selects faces with a similar area.
+      :Area 3D: Selects faces with a similar area in world space coordinates.
+      :Polygon Sides: Selects faces with the same number of edges per face.
+      :Material: Selects faces that have the same :doc:`Material </render/materials/index>`.
+
+   Compare
+      For quantitative properties, this property selects the type of comparison to between the two numerical values.
+
+      :Equal: Select items with the same value as the active item's chosen property.
+      :Greater: Select items with a larger value as the active item's chosen property.
+      :Less: Select items with a smaller value as the active item's chosen property.
+   Threshold
+      For quantitative properties, this property controls how
+      close the property's values have to be in the comparison.
+
 Select Split :kbd:`Y`
    Cuts apart the selected UVs from the map. Only those UVs which belong to
    fully selected faces remain selected. As the name implies, this is particularly useful to

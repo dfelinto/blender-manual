@@ -109,6 +109,8 @@ Cursor to Pixels
    Snaps the cursor to the nearest pixels.
 Cursor to Selected
    Moves the Cursor to the center of the selection.
+Cursor to Origin
+   Places the cursor to the location (0, 0, 0).
 
 
 .. _bpy.ops.uv.weld:

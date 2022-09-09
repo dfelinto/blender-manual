@@ -152,9 +152,14 @@ Type
       Selects control points that have a similar handles direction.
 
 Compare
-   Equal, Greater, Less. (only for Radius, Weight) (ToDo 2.76)
+   For quantitative properties, this property selects the type of comparison to between the two numerical values.
+
+   :Equal: Select items with the same value as the active item's chosen property.
+   :Greater: Select items with a larger value as the active item's chosen property.
+   :Less: Select items with a smaller value as the active item's chosen property.
 Threshold
-   Precision (ToDo 2.76)
+   For quantitative properties, this property controls how
+   close the property's values have to be in the comparison.
 
 
 (De)select First/Last
