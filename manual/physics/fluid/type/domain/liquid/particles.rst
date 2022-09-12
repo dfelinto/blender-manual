@@ -67,15 +67,14 @@ Trapped Air Potential Minimum
 .. _bpy.types.FluidDomainSettings.sndparticle_potential_max_energy:
 
 Kinetic Energy Potential Maximum
-   Upper clamping threshold for marking fluid cells where air is trapped.
-   A higher value results in less marked cells.
+   Upper clamping threshold that indicates the fluid speed where cells start to emit particles.
+   A higher value results in generally less particles.
 
 .. _bpy.types.FluidDomainSettings.sndparticle_potential_min_energy:
 
 Kinetic Energy Potential Minimum
    Lower clamping threshold that indicates the fluid speed where cells start to emit particles.
-   A lower
-   values result in generally more particles.
+   A lower value results in generally more particles.
 
 .. _bpy.types.FluidDomainSettings.sndparticle_potential_radius:
 
