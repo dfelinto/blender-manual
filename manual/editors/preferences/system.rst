@@ -118,7 +118,7 @@ Video Sequencer
 Memory Cache Limit
    Upper limit of the Video Sequencer and Movie Clip Editor memory cache (in megabytes).
    For an optimal Clip editor and Sequencer performance, high values are recommended.
-Use Disk Cache
+Disk Cache
    Writes cached strips to disk which can store a lot more than RAM.
    To use the Disk Cache, this option must be enabled,
    the *Disk Cache Directory* and *Disk Cache Limit* set, then save or reopen the existing blend-file.
