@@ -25,30 +25,20 @@ Export geometry and curves to the OBJ format.
 Properties
 ----------
 
-Animation
-^^^^^^^^^
-
-Animation
-   Exports a numbered OBJ for each frame from the start to the end frame.
-   Please be aware that this can take quite a long time.
-Frame Start, End
-   The first and last frame to export, used to determine the range of exported frames.
-
-
 Object Properties
 ^^^^^^^^^^^^^^^^^
 
-Axis Forward, Up
+Selected Only
+   Only export the selected objects. Otherwise export all objects in the scene.
+Scale
+   Global scale to use on export.
+Forward Axis, Up Axis
    Since many applications use a different axis for 'Up', there are axis conversion settings,
    Forward and Up axis -- By mapping these to different axis you can convert rotations
    between applications default up and forward axis.
 
    Blender uses Y Forward, Z Up (since the front view looks along the +Y direction).
    For example, its common for applications to use Y as the up axis, in that case -Z Forward, Y Up is needed.
-Scale
-   Global scale to use on export.
-Selected Only
-   Only export the selected objects. Otherwise export all objects in the scene.
 Apply Modifiers
    Export objects using the evaluated mesh, meaning the resulting mesh after all
    :doc:`Modifiers </modeling/modifiers/index>` have been calculated.
@@ -74,8 +64,8 @@ Path Mode
    :Copy: Copy the file on exporting and reference it with a relative path.
 
 
-Geometry Export
-^^^^^^^^^^^^^^^
+Geometry
+^^^^^^^^
 
 UV Coordinates
    Write out the active UV layers coordinates from Blender.
@@ -112,8 +102,18 @@ Vertex Groups
    It is approximated by choosing the vertex group with the most members among the vertices of a face.
 Smooth Groups
    Write Blender's sharp edges as smooth groups.
-Bitflag Groups
+Smooth Group Bitflags
    Generate Bitflags for smooth Groups.
+
+
+Animation
+^^^^^^^^^
+
+Animation
+   Exports a numbered OBJ for each frame from the start to the end frame.
+   Please be aware that this can take quite a long time.
+Frame Start, End
+   The first and last frame to export, used to determine the range of exported frames.
 
 
 Compatibility
@@ -140,7 +140,7 @@ Transform
 
 Clamp Bounding Box
    OBJ-files often vary greatly in scale, this setting clamps the imported file to a fixed size.
-Axis Forward, Up
+Forward Axis, Up Axis
    Since many applications use a different axis for 'Up', these are axis conversion for these settings,
    Forward and Up axes -- By mapping these to different axes you can convert rotations
    between applications default up and forward axes.
