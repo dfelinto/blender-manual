@@ -181,11 +181,8 @@ Sample Offset
    This can be used to distribute a render across multiple computers
    then combine the images with `bpy.ops.cycles.merge_images`
 
-.. _bpy.types.CyclesRenderSettings.scrambling_distance:
-
-Scrambling Distance Multiplier
-   Lower values Reduce randomization between pixels to improve GPU rendering performance,
-   at the cost of possible rendering artifacts if set too low.
+Scrambling Distance
+   Note, these options are not applicable when using the Sobol-Burley sample pattern.
 
    .. _bpy.types.CyclesRenderSettings.adaptive_scrambling_distance:
 
@@ -197,6 +194,13 @@ Scrambling Distance Multiplier
    Viewport
       Uses the *Scrambling Distance* value for the viewport rendering.
       This will make the rendering faster but may cause flickering.
+
+   .. _bpy.types.CyclesRenderSettings.scrambling_distance:
+
+   Multiplier
+      Lower values Reduce randomization between pixels to improve GPU rendering performance,
+      at the cost of possible rendering artifacts if set too low.
+
 
 .. _bpy.types.CyclesRenderSettings.min_light_bounces:
 
