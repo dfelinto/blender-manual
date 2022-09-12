@@ -277,3 +277,24 @@ Version/Revision Milestones
 `2.93 <https://www.blender.org/download/releases/2-93/>`__ -- June 2021:
    New geometry nodes, sculpting improvements, Grease Pencil Line Art modifier along with other improvements,
    an improved :abbr:`DOF (Depth Of Field)` for the Eevee render engine, redesigned Cryptomatte workflow, and more.
+
+
+.. rubric:: Blender 3.0 -- Optimizing Performance
+
+`3.0 <https://www.blender.org/download/releases/3-0/>`__ -- December 2021
+   Asset Browser added, Cycles X, Eevee Attributes, New geometry nodes,
+   animation update, Grease Pencil line art improvements, pose library,
+   Open Image Denoising 2-8x faster, additional support for AMD on linux.
+
+`3.1 <https://www.blender.org/download/releases/3-1/>`__ -- March 2022
+   Major point clouds improvements, Cycles Apple Metal GPU support, Subdivision GPU support,
+   image editor handles larger images, Major performance gains for geometry nodes,
+   context aware search for geometry nodes.
+
+`3.2 <https://www.blender.org/download/releases/3-2/>`__ -- June 2022
+   Light groups for Cycles, true Shadow caustics, volume motion blur, GLTF improvements,
+   AMD GPU Rendering on Linux, painting in sculpt mode, WEBp image support.
+
+`3.3 <https://www.blender.org/download/releases/3-3/>`__ -- September 2022
+   New hair object, procedural UV nodes, line art shadow and contour,
+   Intel GPU rendering support via oneAPI, and improvements to library overrides.
