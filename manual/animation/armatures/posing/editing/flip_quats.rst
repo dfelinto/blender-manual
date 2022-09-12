@@ -8,6 +8,7 @@ Flip Quats
 
    :Mode:      Pose Mode
    :Menu:      :menuselection:`Pose --> Flip Quats`
+   :Shortcut:  :kbd:`Alt-F`
 
 Flip quaternion values to achieve desired rotations, while maintaining the same orientations.
 

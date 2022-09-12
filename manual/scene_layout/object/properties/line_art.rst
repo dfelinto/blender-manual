@@ -46,3 +46,10 @@ Override Crease
 
    Crease
       Override crease value for the object.
+
+.. _bpy.types.ObjectLineArt.use_intersection_priority_override:
+.. _bpy.types.ObjectLineArt.intersection_priority:
+
+Intersection Priority
+   Assigns an intersection priority value for this object.
+   The intersection line will be included into the object with the higher intersection priority value.

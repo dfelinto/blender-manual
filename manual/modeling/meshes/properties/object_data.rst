@@ -72,6 +72,17 @@ Color
    The default color to fill for every element in the domain.
 
 
+Color Attribute Specials
+------------------------
+
+These are operators that are available in the menu to the right of the attribute list.
+
+.. _bpy.ops.geometry.color_attribute_duplicate:
+
+Duplicate Color Attribute
+   Creates a copy of the active color attribute in the list.
+
+
 .. _bpy.types.FaceMaps:
 .. _bpy.ops.object.face_map:
 

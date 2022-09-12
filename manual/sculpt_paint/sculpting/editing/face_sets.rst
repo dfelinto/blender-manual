@@ -172,6 +172,7 @@ Show All Face Sets
 
    :Mode:      Sculpt Mode
    :Menu:      :menuselection:`Face Sets --> Show All Face Sets`
+   :Shortcut:  :kbd:`Alt-H`
 
 Shows all hidden geometry that is part of a face set.
 

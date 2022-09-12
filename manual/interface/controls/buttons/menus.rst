@@ -100,6 +100,9 @@ Popover menus are similar to Select Menus, but can show more varied content
 such as a title, buttons, sliders, etc.
 
 
+.. _bpy.ops.buttons.context_menu:
+.. _bpy.ops.screen.region_context_menu:
+
 Context Menu
 ============
 
@@ -121,6 +124,8 @@ All
 
 Reset to Default Value(s) :kbd:`Backspace`
    Replaces the current value by the default.
+
+.. _bpy.ops.ui.copy_data_path_button:
 
 Copy Data Path :kbd:`Shift-Ctrl-C`
    Copies the Python property data path, relative to the data-block.

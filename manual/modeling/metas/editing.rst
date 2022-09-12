@@ -9,6 +9,8 @@ you can also have several meta primitives in a single object (just add some more
 Each will be an element, with its own shape, editing rings (in the viewport), and settings.
 
 
+.. _bpy.ops.mball.delete_metaelems:
+
 Deleting Elements
 =================
 

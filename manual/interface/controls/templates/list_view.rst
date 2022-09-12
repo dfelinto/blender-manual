@@ -22,6 +22,9 @@ Rename
 Resize
    The list view can be resized to show more or fewer items.
    Hover the mouse over the handle (::::), then click and drag to expand or shrink the list.
+
+.. _bpy.ops.ui.list_start_filter:
+
 Filter
    Click the *Show filtering options* button (triangle on bottom left) to show or hide the filter option panel.
 

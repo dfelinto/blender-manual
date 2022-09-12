@@ -16,6 +16,7 @@ multiple Workspaces while working on a project.
 
 
 .. _workspaces-controls:
+.. _bpy.ops.screen.workspace_cycle:
 
 Controls
 ========

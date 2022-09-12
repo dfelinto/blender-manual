@@ -141,6 +141,9 @@ Negative
              Negative influence of a meta ball;
              the first is negative and the second positive.
 
+.. _bpy.ops.mball.hide_metaelems:
+.. _bpy.ops.mball.reveal_metaelems:
+
 Hide
    As in :ref:`object-show-hide` in Object Mode, you can hide the selected meta(s),
    and then reveal what was hidden. This is very handy for cleaning your views up a bit.

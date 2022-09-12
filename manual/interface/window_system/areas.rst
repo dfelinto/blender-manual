@@ -1,5 +1,6 @@
 .. _bpy.types.Area:
 .. _bpy.types.AreaSpaces:
+.. _bpy.ops.screen.actionzone:
 
 *****
 Areas
@@ -32,6 +33,8 @@ which are geared towards particular tasks (modeling, animating and so on).
    to the 3D Viewport.
 
 
+.. _bpy.ops.screen.area_move:
+
 Resizing
 ========
 
@@ -44,6 +47,8 @@ You can resize areas by dragging their borders with :kbd:`LMB`.
 Move your mouse cursor over the border between two areas,
 so that the cursor changes to a double-headed arrow, and then click and drag.
 
+
+.. _bpy.ops.screen.area_split:
 
 Splitting
 =========
@@ -59,6 +64,8 @@ pressing down :kbd:`LMB` will activate splitting or joining.
 Dragging from an area corner **inward** will *split* the area.
 You define the split direction by dragging either horizontally or vertically.
 
+
+.. _bpy.ops.screen.area_join:
 
 Joining
 =======
@@ -85,6 +92,8 @@ the operation will be canceled.
    corner inside one of the areas.
 
 
+.. _bpy.ops.screen.area_options:
+
 Area Options
 ^^^^^^^^^^^^
 
@@ -98,6 +107,8 @@ Join Areas
 Swap Areas
    Swaps this area with the adjacent one.
 
+
+.. _bpy.ops.screen.area_swap:
 
 Swapping Contents
 -----------------

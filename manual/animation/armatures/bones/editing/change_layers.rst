@@ -12,6 +12,7 @@ Change Armature Layers
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Armature --> Change Armature Layers`
+   :Shortcut:  :kbd:`Shift-M`
 
 Each armature has 32 :ref:`Layers <bpy.types.Armature.layers>` to
 organize armatures by "regrouping" them into sets of bones.

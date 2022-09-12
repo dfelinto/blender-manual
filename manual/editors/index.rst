@@ -1,4 +1,5 @@
 .. _bpy.types.Space:
+.. _bpy.ops.screen.space_type_set_or_cycle:
 
 ###########
   Editors

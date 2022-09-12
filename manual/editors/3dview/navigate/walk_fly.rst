@@ -48,7 +48,6 @@ Walk Navigation
 .. reference::
 
    :Mode:      All modes
-   :Shortcut:  :kbd:`Shift-AccentGrave`
    :Menu:      :menuselection:`View --> Navigation --> Walk Navigation`
 
 This navigation method behaves like a typical first person game.

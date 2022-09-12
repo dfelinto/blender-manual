@@ -143,6 +143,8 @@ Simply drag one of the dots to either increase or decrease the displayed range.
 You can also quickly adjust both the horizontal and vertical range by dragging in the editor with :kbd:`Ctrl-MMB`.
 
 
+.. _bpy.ops.screen.region_blend:
+
 Changing the Size and Hiding
 ----------------------------
 
@@ -158,6 +160,9 @@ A hidden region leaves a little arrow sign.
    * - .. figure:: /images/interface_window-system_regions_sidebar-hide.png
 
      - .. figure:: /images/interface_window-system_regions_sidebar-show.png
+
+
+.. _bpy.ops.screen.region_scale:
 
 Scaling
 -------

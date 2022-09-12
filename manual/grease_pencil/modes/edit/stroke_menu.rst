@@ -207,6 +207,8 @@ Send to Back
    Moves to the bottom the selected points/strokes.
 
 
+.. _bpy.ops.gpencil.stroke_cyclical_set:
+
 Close
 =====
 
@@ -232,8 +234,6 @@ Create Geometry
    When enabled, points are added for closing the strokes.
    If disabled, the operator act the same as *Toggle Cyclic*.
 
-
-.. _bpy.ops.gpencil.stroke_cyclical_set:
 
 Toggle Cyclic
 =============

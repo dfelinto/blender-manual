@@ -53,9 +53,13 @@ Vertex
    Snaps to the nearest vertex of a mesh object.
 Edge
    Snaps to the nearest point on the nearest edge.
-Face
-   Snaps to the nearest point on the nearest face.
-   This is useful for retopologizing.
+Face Project
+   Snaps to the face by projecting the current point on the nearest face.
+   This snap mode will snap geometry to both visible and occluded.
+   This snap mode is useful for retopologizing.
+Face Nearest
+   Snaps to the nearest surface in world space.
+   This snap mode will only snap geometry to visible (non occluded) geometry.
 Volume
    Snaps to regions within the volume of the first object found below the mouse cursor.
    Unlike the other options, this option controls the depth
@@ -115,14 +119,39 @@ Closest
           Median.
 
 
-Additional Options
-==================
+Target Selection
+================
 
 .. figure:: /images/editors_3dview_controls_snapping_options.png
 
 As seen in the yellow highlighted area in the image above, besides the snap target,
 additional controls are available to alter snap behavior. These options vary between mode
 (Object and Edit) as well as snap target. The available options are:
+
+.. _bpy.types.ToolSettings.use_snap_self:
+
+Include Active
+   Only available in Edit Mode.
+   Allows snapping mesh elements to other elements of the same mesh.
+
+   This checkbox is ignored if
+   :doc:`Proportional Editing </editors/3dview/controls/proportional_editing>`
+   is enabled.
+
+.. _bpy.types.ToolSettings.use_snap_edit:
+
+Include Edited :guilabel:`Edit Mode`
+   Snap onto non-active objects in Edit Mode.
+
+.. _bpy.types.ToolSettings.use_snap_nonedit:
+
+Include Non-Edited :guilabel:`Edit Mode`
+   Snap onto objects not in Edit Mode.
+
+.. _bpy.types.ToolSettings.use_snap_selectable:
+
+Exclude Non-Selectable
+   Snap only onto objects that are selectable.
 
 .. _bpy.types.ToolSettings.use_snap_grid_absolute:
 
@@ -134,16 +163,6 @@ Absolute Grid Snap
 
 Backface Culling
    Exclude back-facing geometry from snapping.
-
-.. _bpy.types.ToolSettings.use_snap_self:
-
-Project Onto Self
-   Only available in Edit Mode.
-   Allows snapping mesh elements to other elements of the same mesh.
-
-   This checkbox is ignored if
-   :doc:`Proportional Editing </editors/3dview/controls/proportional_editing>`
-   is enabled.
 
 .. _bpy.types.ToolSettings.use_snap_align_rotation:
 
@@ -167,27 +186,41 @@ Project Individual Elements
 
       :doc:`/modeling/modifiers/deform/shrinkwrap`
 
+.. _bpy.types.ToolSettings.use_snap_to_same_target:
+
+Snap to Same Target :guilabel:`Face Nearest`
+   Snap only to target that source was initially near.
+
+.. _bpy.types.ToolSettings.snap_face_nearest_steps:
+
+Face Nearest Steps :guilabel:`Face Nearest`
+   Number of steps to break transformation into for face nearest snapping.
+   This option is only available in Edit mode.
+
 .. _bpy.types.ToolSettings.use_snap_peel_object:
 
 Snap Peel Object
    Only available if Snap To Volume is enabled.
    Consider objects as a whole when finding volume center.
 
+
 .. _bpy.types.ToolSettings.use_snap_translate:
 .. _bpy.types.ToolSettings.use_snap_rotate:
 .. _bpy.types.ToolSettings.use_snap_scale:
 
 Affect
-   Specifies which transformations are affected by snapping.
-   By default, snapping only happens while moving something,
-   but you can also enable it for rotating and scaling.
+======
+
+Specifies which transformations are affected by snapping.
+By default, snapping only happens while moving something,
+but you can also enable it for rotating and scaling.
 
 
 Multiple Snap Targets
 ---------------------
 
 While you're transforming a selection with snapping enabled,
-you can press :kbd:`A` whenever there's a hilighted snap target to
+you can press :kbd:`A` whenever there's a highlighted snap target to
 mark it. With multiple such targets marked, the selection will
 then be snapped to their average location.
 

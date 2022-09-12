@@ -91,7 +91,7 @@ Recalculate Handles
 
    :Mode:      Mask Mode
    :Menu:      :menuselection:`Mask --> Recalculate Handles`
-   :Shortcut:  :kbd:`Ctrl-N`
+   :Shortcut:  :kbd:`Shift-N`
 
 Make normals (handle directions) consistent.
 

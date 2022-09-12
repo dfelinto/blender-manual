@@ -48,6 +48,8 @@ Resizing the Toolbar horizontally will display the icons with two columns.
 Expanding it further will display the icon and its text.
 
 
+.. _bpy.ops.wm.toolbar:
+
 Pop-Up Toolbar
 ==============
 
@@ -85,6 +87,8 @@ If you have *Alt Click Tool Prompt* enabled in the Keymap Preferences,
 tapping :kbd:`Alt` will display a tool prompt in the Status Bar.
 You can then press a key to select the corresponding tool, or tap :kbd:`Alt` again to cancel the prompt.
 
+
+.. _bpy.ops.wm.toolbar_fallback_pie:
 
 Fallback Tool
 -------------

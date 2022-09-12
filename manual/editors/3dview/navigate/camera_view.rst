@@ -119,7 +119,7 @@ Some of them are explained below.
    meaning these actions can also be used to position and aim a light for example.
 
 
-.. _bpy.ops.camera_to_view:
+.. _bpy.ops.view3d.camera_to_view:
 
 Align Active Camera to View
 ---------------------------

@@ -1,4 +1,5 @@
 .. _ui-eyedropper:
+.. _bpy.ops.ui.eyedropper_*:
 
 **********
 Eyedropper
