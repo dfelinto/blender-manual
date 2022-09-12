@@ -157,7 +157,7 @@ repeat for inner edge loops to get all the faces:
 .. figure:: /images/addons_pdt_scan_13.png
    :width: 450px
 
-_hown in Face Mode
+Shown in Face Mode
 
 Exit Edit Mode, name object "End-R" and duplicate Object (SHIFT+D), rename this new object "End-L".
 
