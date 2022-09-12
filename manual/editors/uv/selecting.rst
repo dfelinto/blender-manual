@@ -131,6 +131,12 @@ Select Similar :kbd:`Shift-G`
       :Polygon Sides: Selects faces with the same number of edges per face.
       :Material: Selects faces that have the same :doc:`Material </render/materials/index>`.
 
+      Island Selection Mode:
+
+      :Area: Selects islands with a similar area.
+      :Area 3D: Selects islands with a similar area in world space coordinates.
+      :Amount of Face in Island: Selects islands with a similar number of faces per each island.
+
    Compare
       For quantitative properties, this property selects the type of comparison to between the two numerical values.
 
