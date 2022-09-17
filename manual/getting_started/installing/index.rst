@@ -32,7 +32,7 @@ Each package described below has something just right for everyone.
 
 `Stable Release <https://www.blender.org/download/>`__
    A package that contains the latest features and is considered stable without regressions.
-   A new stable version is available about every four months.
+   A new stable version is available about every three months.
 
 `Long-term Support <https://www.blender.org/download/lts/>`__
    A package designed for long-lasting projects requiring a very stable version of Blender.
