@@ -18,12 +18,12 @@ Complementary projects are:
 Building the Manual
 *******************
 
-- See the `installing </manual/about/contribute/install/>`__
+- See the `installing </manual/contribute/install/>`__
   page for building the manual.
-- See the `contribute </manual/about/contribute/>`__
+- See the `contribute </manual/contribute/>`__
   page for an explanation on the full workflow and other tips.
 
 .. note::
 
-   See ``manual/about/contribute/guides/maintenance_guide.rst``
+   See ``manual/contribute/guides/maintenance_guide.rst``
    for information on releasing new versions of the manual and old revisions.
