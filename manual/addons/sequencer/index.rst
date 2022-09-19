@@ -9,3 +9,4 @@ These add-ons add features to the Video Sequencer.
    :maxdepth: 1
 
    power_sequencer.rst
+   storypencil.rst
