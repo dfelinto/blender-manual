@@ -19,6 +19,7 @@ General purpose nodes for modifying data.
    interpolate_domain.rst
    map_range.rst
    math.rst
+   mix.rst
    random_value.rst
    rotate_euler.rst
    switch.rst

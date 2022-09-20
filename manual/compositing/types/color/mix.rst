@@ -2,6 +2,8 @@
 .. Editors Note: This page gets copied into:
 .. - :doc:`</render/cycles/nodes/types/color/mix>`
 .. - :doc:`</modeling/geometry_nodes/color/mix_rgb>`
+.. - :doc:`</render/shader_nodes/converter/mix>`
+.. - :doc:`</modeling/geometry_nodes/utilities/mix>`
 
 .. --- copy below this line ---
 
@@ -14,8 +16,12 @@ Mix Node
    :alt: Mix Node.
 
 The *Mix Node* mixes images by working on the individual and corresponding pixels
-of the two input images. Called "MixRGB" in the shader, geometry, and texture context.
+of the two input images. Called "Mix Color" in the shader, geometry, and texture context.
 
+  .. important::
+  
+     As of Blender 3.4 this node has been updated in Shader and Geometry node editors.
+     Files saved with the new node are not forward compatible.
 
 Inputs
 ======

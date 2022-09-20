@@ -14,6 +14,7 @@
    float_curve.rst
    map_range.rst
    math.rst
+   mix.rst
    rgb_to_bw.rst
    separate_color.rst
    separate_xyz.rst
