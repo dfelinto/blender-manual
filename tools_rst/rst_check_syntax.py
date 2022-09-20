@@ -112,6 +112,8 @@ def compile_valid_kbd():
 
     # config: allow "Regular key pressed as a modifier"
     regular_as_mod = True
+    # allow modifier pressed as a regular key
+    mod_as_regular = True
 
     pattern_str = ''.join((
         # Keyboard
@@ -135,6 +137,9 @@ def compile_valid_kbd():
             "Esc", "PageUp", "PageDown", "Home", "End",
             "Up", "Down", "Left", "Right", "Menu",
         )), '|',
+        # Individual modifier
+        r"(?:(?:Left|Right)(?:Alt|Ctrl|Shift))|" if mod_as_regular else '',
+
         # Numpad
         r"(?:Numpad(?:[0-9]|Plus|Minus|Delete|Slash|Period|Asterisk))|",
         # Function
