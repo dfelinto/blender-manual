@@ -83,6 +83,13 @@ Windows
 :SYSTEM:
    .. parsed-literal:: %USERPROFILE%\\AppData\\Roaming\\Blender Foundation\\Blender\\\ |BLENDER_VERSION|\\
 
+.. note::
+
+   For installations from the Window's Store, the ``USER`` and ``SYSTEM``
+   directories are inside a special folder resembling:
+   ``%USERPROFILE%\AppData\Local\Packages\BlenderFoundation.Blender<HASH>\LocalCache\Roaming\Blender Foundation\Blender``
+   where "HASH" is a string specific to each instillation.
+
 
 Path Layout
 ===========
