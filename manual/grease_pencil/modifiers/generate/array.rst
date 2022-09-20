@@ -13,6 +13,11 @@ Useful for creating complex repetitive drawings.
 Multiple Array modifiers may be active for an object at the same time
 (e.g. to create complex three-dimensional constructs).
 
+.. seealso::
+
+   This documentation refers to the Array Modifier specific to the Grease Pencil object.
+   For uses with other object types refer to the general :doc:`/modeling/modifiers/generate/array`.
+
 
 Options
 =======
