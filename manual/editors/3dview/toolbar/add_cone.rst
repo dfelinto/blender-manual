@@ -15,96 +15,92 @@ Interactively add a :ref:`cone mesh object <bpy.ops.mesh.primitive_cone_add>`.
 Usage
 =====
 
-The tool works by first defining the base of the object by
-holding :kbd:`LMB` and dragging to define size of the base.
-Next release the :kbd:`LMB` and drag to define the height of the object.
-Finally, press :kbd:`LMB` again to confirm the shape of the object.
+First define the base of the object by dragging with :kbd:`LMB`.
+Next, release :kbd:`LMB` and move the mouse to define the height of the object.
+Finally, click :kbd:`LMB` to confirm the shape of the object.
 
-You can also use the hotkeys below to constrain the object.
+You can use the following hotkeys to temporarily change a setting
+(for as long as the key is held):
 
 .. list-table::
    :widths: 10 90
 
    * - :kbd:`Ctrl`
-     - Toggles snapping on or off.
+     - Toggles snapping.
    * - :kbd:`Alt`
-     - Toggles the *Origin* setting that is not the default.
+     - Toggles the *Origin* setting.
    * - :kbd:`Shift`
-     - Toggles the *Aspect* setting that is not the default.
+     - Toggles the *Aspect* setting.
 
 
 Tool Settings
 =============
 
 Depth
-   The initial depth used when placing the cursor.
+   The initial depth (from the screen into the scene) used when placing the object.
 
-   :Surface: Start placing on the surface, using the 3D cursor as a fallback.
-   :Cursor Plane: Start placement using a point projected onto the orientation axis at the 3D cursor position.
-   :Cursor View: Start placement using a point projected onto the view plane at the 3D cursor position.
+   :Surface: Start placing on the surface under the mouse cursor. If there is no surface, this does the same as *Cursor Plane*.
+   :Cursor Plane: Start placing on a plane that goes through the :doc:`3D Cursor </editors/3dview/3d_cursor>`
+                  and is aligned according to the *Orientation* and *Plane Axis*.
+   :Cursor View: Start placing on a plane that goes through the 3D Cursor and is aligned to the view.
 
 Orientation
-   The alignment of the cursor when placing objects; defines the orientation of the base.
+   The new object's orientation -- a set of three axes, out of which *Plane Axis* chooses one.
 
-   :Surface: Align the object using the surface orientation,
-             using the :doc:`/editors/3dview/controls/orientation` as a fallback.
-   :Default: Align the object using the default :doc:`/editors/3dview/controls/orientation`.
+   :Surface: The object uses the normal orientation of the surface under the mouse cursor.
+             If there is no surface, this does the same as *Default*.
+   :Default: The object uses the default :doc:`/editors/3dview/controls/orientation`.
 
 Snap To
    The target to use while :doc:`/editors/3dview/controls/snapping`.
 
    :Geometry: Snap to all types of geometry (vertices, edges, and faces).
-   :Default: Snap to the snap target defined in the global :doc:`/editors/3dview/controls/snapping` controls.
+   :Default: Snap to the target defined in the global snapping options.
 
 Plane Axis
-   The axis used for placing the base region.
-
-   :X: Use the X axis to place the base region.
-   :Y: Use the Y axis to place the base region.
-   :Z: Use the Z axis to place the base region.
+   Which of the three *Orientation* axes (X, Y or Z) is "up" for the object.
+   The object's base will be perpendicular to this axis.
 
 Auto Axis
-   Select the closest axis when placing objects (surface overrides).
+   Rather than using the *Orientation* axis indicated by *Plane Axis*,
+   use the one that's closest to the viewport's viewing direction
+   (when not hovering over a surface).
 
 
 .. rubric:: Base
 
 Origin
-   The initial position of the base.
+   How the base is defined.
 
-   :Edge: Places the object edge first and define the size of the base
-          as the distance from the first edge to the adjacent edge.
-   :Center: Places the object center first and define the size of the base
-            as the distance from the base center to the perimeter.
+   :Edge: The base is defined from one corner to the opposing corner.
+   :Center: The base is defined from the centerpoint to a corner.
 
 Aspect
-   The initial setting for the aspect of the object's base.
+   Whether the base has a free or fixed aspect ratio.
 
-   :Free: Draws the length and width of the base using an unconstrained aspect.
-   :Fixed: Draws the length and width of the base using a 1:1 aspect.
+   :Free: The width and depth of the base can be chosen independently.
+   :Fixed: The width and depth of the base are forced to be equal.
 
 
 .. rubric:: Height
 
 Origin
-   The initial position of the height.
+   How the height is defined.
 
-   :Edge: Places the object edge first and define the size of the height
-          as the distance from the first edge to the adjacent edge.
-   :Center: Places the object center first and define the size of the height
-            as the distance from the base center to the perimeter.
+   :Edge: The base becomes the bottom, after which you define the top.
+   :Center: The base becomes the center, after which you define the top.
 
 Aspect
-   The initial setting for the aspect of the object's height.
+   Whether the side of the bounding box has a free or fixed aspect ratio.
 
-   :Free: Draws the length and width of the height using an unconstrained aspect.
-   :Fixed: Draws the length and width of the height using a 1:1 aspect.
+   :Free: The height can be chosen independently of the base.
+   :Fixed: The height is forced to be equal to the largest side of the base.
 
 Vertices
-   The number of vertical edges between the circles or tip, used to define the cone or pyramid.
+   The number of vertices in the base.
 
 Base Fill Type
-   Set how the circle will be filled.
+   Set how the circle at the base will be filled.
 
    :Triangle Fan: Fill with triangular faces which share a vertex in the middle.
    :N-gon: Fill with a single :term:`N-gon`.

@@ -16,13 +16,13 @@ Toolbar
    add_icosphere.rst
 
 The Toolbar contains a list of tools.
-Links to each modes Toolbar are listed below.
+Links to each mode's Toolbar are listed below.
 
 
 Object Mode
 ===========
 
-:doc:`Object Mode </scene_layout/object/tools/toolbar>`
+- :doc:`Object Mode </scene_layout/object/tools/toolbar>`
 
 
 Edit Mode

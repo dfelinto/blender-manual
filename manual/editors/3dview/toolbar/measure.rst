@@ -27,36 +27,36 @@ Here are some common steps for using the *Measure* tool:
 #. Activate the *Measure* tool from the Toolbar.
 #. Click and drag in the viewport to define the initial start and end point for the ruler.
    You can add multiple rulers in the viewport.
-#. Click on either end of the ruler to select it and move the endpoints.
+#. Drag either end of the ruler to move it.
 
-   - Holding :kbd:`Ctrl` while moving enables snap to edges and vertices.
-     A small circle appears when the end point is snapped to a vertex or edge.
-     This way you can place the endpoints more accurately.
+   - Holding :kbd:`Ctrl` while moving enables snapping to edges and vertices.
    - Holding :kbd:`Shift` while moving lets you measure the distance between faces.
-     This works well only with parallel faces, e.g. walls.
+     This only works well with parallel faces, e.g. walls.
 
    You can always navigate (pan, zoom, ...)
    or change the view (orthogonal, perspective) in the viewport to have better access to the ruler.
 
 #. Click on the midpoint of a created ruler to convert it to a protractor.
-   Move this midpoint to set the vertex of the angle.
-   Holding down :kbd:`Ctrl` enables snap to edges and vertices.
-   Move the endpoints to change the angle size.
+   The midpoint can then be dragged just like the endpoints.
 #. A selected ruler can be deleted with :kbd:`Delete` or :kbd:`X`.
-   To delete all measurements, make the :menuselection:`Sidebar --> View --> Annotations` panel visible.
-   Delete the "RulerData3D" layer (see image above).
+   To delete all measurements, delete the "RulerData3D" layer in
+   the :menuselection:`Sidebar --> View --> Annotations` panel (see image above).
 
 All measurements are hidden when another tool is selected.
 They are shown when the *Measure* tool is selected again.
-Yet you can do editing operations while the ruler is active.
-For example, you can edit the rotation or dimension of the selected object in the Sidebar.
-The measurement values do not appear in the Render output.
+However, you can do editing operations while the ruler is active.
+For example, you can edit the rotation or scale of the selected object in the Sidebar.
+
+Measurements do not appear in the Render output.
 
 Unit settings and scale from the scene are used for displaying dimensions.
-Changing the units system (metric, imperial), or the units of length (cm, m, ...),
+Changing the unit system (metric, imperial), or the units of length (cm, m, ...)
 or angle (degrees, radians) will update the measurements.
 
 .. tip::
 
-   In Edit Mode only, there is also a *Measurement* setting in the *Viewport Overlays* popover.
-   Edge length, edge angle, face area and face angle can be displayed through this setting.
+   In Edit Mode only, there is also a *Measurement* group in the
+   :doc:`Viewport Overlays </editors/3dview/display/overlays>` popover.
+   Using the settings in this group, you can have the viewport automatically
+   display measurements for selected edges and faces, without the need to
+   manually create a ruler.
