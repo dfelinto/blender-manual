@@ -110,7 +110,7 @@ Cycles has additional options to further control its behavior.
 
 ``--cycles-device CPU``
    Override the device that is used to render frames.
-   Currently supported options are ``CPU``, ``CUDA``, ``OPTIX``, ``HIP``, and ``METAL``.
+   Currently supported options are ``CPU``, ``CUDA``, ``OPTIX``, ``HIP``, ``ONEAPI``, and ``METAL``.
    Additionally, you can append ``+CPU`` to any GPU type for hybrid rendering.
 
 ``--cycles-print-stats``

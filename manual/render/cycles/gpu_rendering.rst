@@ -10,8 +10,8 @@ On the other hand, they also have some limitations in rendering complex scenes, 
 and issues with interactivity when using the same graphics card for display and rendering.
 
 To enable GPU rendering, go into the :menuselection:`Preferences --> System --> Cycles Render Devices`,
-and select either *CUDA*, *OptiX*, *HIP*, or *Metal*. Next, you must configure each scene to use GPU rendering in
-:menuselection:`Properties --> Render --> Device`.
+and select either *CUDA*, *OptiX*, *HIP*, *oneAPI*, or *Metal*. Next, you must configure each scene to
+use GPU rendering in :menuselection:`Properties --> Render --> Device`.
 
 
 Rendering Technologies

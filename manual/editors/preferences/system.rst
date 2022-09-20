@@ -32,6 +32,8 @@ OptiX
    If the system has a compatible Nvidia OptiX device, it will be available as an option for rendering with Cycles.
 HIP
    If the system has a compatible AMD HIP device, it will be available as an option for rendering with Cycles.
+oneAPI
+   If the system has a compatible Intel oneAPI device, it will be available as an option for rendering with Cycles.
 Metal
    If the system has a compatible Apple Metal device, it will be available as an option for rendering with Cycles.
 
