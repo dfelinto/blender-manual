@@ -26,7 +26,7 @@ Offset Even :kbd:`S`, :kbd:`Alt`
    * - .. figure:: /images/modeling_meshes_editing_mesh_transform_shrink-fatten_before.png
           :width: 200px
 
-          Mesh before shrink/flatten.
+          Mesh before shrink/fatten.
 
      - .. figure:: /images/modeling_meshes_editing_mesh_transform_shrink-fatten_inflate-positive.png
           :width: 200px
