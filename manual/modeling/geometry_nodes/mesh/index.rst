@@ -33,6 +33,7 @@ Nodes that only operate on meshes.
    edge_vertices.rst
    face_area.rst
    face_neighbors.rst
+   face_set_boundaries.rst
    face_is_planar.rst
    is_shade_smooth.rst
    mesh_island.rst
