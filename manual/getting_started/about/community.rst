@@ -26,8 +26,8 @@ Getting Support
 ===============
 
 Blender's community is one of its greatest features, so apart from this user manual,
-there are many different ways to get support from other users, such as :ref:`blender-chat`
-and `Stack Exchange <https://blender.stackexchange.com/>`__.
+there are many different ways to get support from other users, such as :ref:`blender-chat`,
+`Stack Exchange <https://blender.stackexchange.com/>`__, and `Reddit <https://reddit.com/r/blender/>`__.
 
 For studios and organizations there is `Enterprise support <https://www.blender.org/support/>`__,
 and for studios looking to add Blender to their pipeline, `Blender Studio <https://studio.blender.org/>`__

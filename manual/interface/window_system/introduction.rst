@@ -13,9 +13,12 @@ the Blender window should look similar to the image below.
 
 Blender's interface is separated into three main parts:
 
-- :doc:`Topbar </interface/window_system/topbar>` at the very top.
-- :doc:`Areas </interface/window_system/areas>` in the middle.
-- :doc:`Status Bar </interface/window_system/status_bar>` at the bottom.
+- The :doc:`Topbar </interface/window_system/topbar>` at the very top, consists of the main menu,
+  which is used for saving, importing and exporting files, configuring settings, and rendering among other functions.
+- :doc:`Areas </interface/window_system/areas>` in the middle, which is the main workspace
+- The :doc:`Status Bar </interface/window_system/status_bar>` at the bottom,
+  which displays shortcut suggestions and relevant statistics.
+
 
 .. figure:: /images/interface_window-system_introduction_default-screen.png
 
@@ -25,8 +28,10 @@ Blender's interface is separated into three main parts:
 Customization
 =============
 
-Blender also makes heavy use of keyboard shortcuts to speed up work.
-These can also be customized in the :ref:`Keymap Editor <prefs-input-keymap-editor>`.
+.. rubric:: Keyboard shortcuts
+
+Blender makes heavy use of keyboard shortcuts to speed up work.
+These can be customized in the :ref:`Keymap Editor <prefs-input-keymap-editor>`.
 
 
 .. rubric:: Theme colors
@@ -36,3 +41,9 @@ If you find that the colors you see on screen do not match those
 in the Manual, it could be that your default theme has been altered.
 Creating a new theme or selecting/altering a pre-existing one can be done by opening
 the :doc:`Preferences </editors/preferences/index>` and clicking on the *Themes* tab.
+
+.. rubric:: Accessibility
+
+Blender has several options for visibility customization,
+including resolution scale, and the ability to load custom fonts.
+These settings can be configured in the :doc:`Interface Preferences </editors/preferences/interface>`.

@@ -21,13 +21,13 @@ Shortcuts
    Presets for the default :doc:`keymap </editors/preferences/keymap>` for Blender.
    Note that this manual assumes that you use the "Blender" keymap.
 
-   Blender
+   :Blender:
       This is the default keymap.
       Read more about this keymap :doc:`here </interface/keymap/blender_default>`.
-   Blender 2.7x
+   :Blender 2.7x:
       This keymap is intended to match an older series of Blender versions
       and is designed for people upgrading who do not want to learn the updated keymap.
-   Industry Compatible
+   :Industry Compatible:
       This keymap is intended to match common creation software
       and is intended for people who use many different such applications.
       Read more about this keymap :doc:`here </interface/keymap/industry_compatible>`.
@@ -38,13 +38,13 @@ Spacebar
    Controls the action of :kbd:`Spacebar`.
    These and other shortcuts can be modified in the :doc:`keymap preferences </editors/preferences/keymap>`.
 
-   Play
+   :Play:
       Starts playing through the :doc:`Timeline </editors/timeline>`.
       This option is good for animation or video editing.
-   Tools
+   :Tools:
       Opens the Toolbar underneath the cursor to quickly change the active tool.
       This option is good if doing a lot of modeling or rigging.
-   Search
+   :Search:
       Opens up the :doc:`Menu Search </interface/controls/templates/operator_search>`.
       This option is good for someone who is new to Blender and is unfamiliar with its menus and shortcuts.
 Theme
