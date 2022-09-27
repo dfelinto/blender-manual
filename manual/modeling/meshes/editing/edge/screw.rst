@@ -157,14 +157,6 @@ Continuous operations without changing the selection will repeat the operation c
 
    Screw tools :ref:`bpy.ops.screen.redo_last` panel (in Edit Mode).
 
-Center
-   These number fields specify the center of the spin. When the tool is called for the first time,
-   it will copy the XYZ location (global coordinates)
-   of the cursor presently in the 3D Viewport to start the operation.
-   You can specify the cursor coordinates using the Transform panel in 3D Viewport,
-   and typing in the 3D Cursor Location coordinates. You can adjust these coordinates interactively and
-   specify another place for the spin center during the interactive session.
-   (See Fig. :ref:`fig-mesh-screw-interactive-panel`.)
 Steps
    This number field specifies how many extrusion(s) will be done for each 360 degree turn.
    The steps are evenly distributed by dividing 360 degree by the number of steps given. The minimum value is 3;
@@ -173,7 +165,15 @@ Turns
    This number field specifies how many turns will be executed.
    Blender will add a new full 360 degree turn for each incremental number specified here.
    The minimum value is 1; the maximum is 256. (See Fig. :ref:`fig-mesh-screw-interactive-panel`.)
-Axis
+Center X, Y, Z
+   These number fields specify the center of the spin. When the tool is called for the first time,
+   it will copy the XYZ location (global coordinates)
+   of the cursor presently in the 3D Viewport to start the operation.
+   You can specify the cursor coordinates using the Transform panel in 3D Viewport,
+   and typing in the 3D Cursor Location coordinates. You can adjust these coordinates interactively and
+   specify another place for the spin center during the interactive session.
+   (See Fig. :ref:`fig-mesh-screw-interactive-panel`.)
+Axis X, Y, Z
    These three number fields vary from (-1.0 to 1.0) and are clamped above those limits.
    These values correspond to angular vectors from (-90 to 90) degrees. Depending on the position where you
    started your cursor location and Object operation in the viewport and its axis positions in Global View space and
@@ -193,12 +193,6 @@ Examples
 The Spring Example
 ------------------
 
-.. _fig-mesh-screw-circle:
-
-.. figure:: /images/modeling_meshes_editing_edge_screw_circle-moved-x-3units.png
-
-   Circle placed at X (-3, 0, 0).
-
 #. Open Blender and delete the default Cube.
 #. Change from perspective to orthographic view using shortcut :kbd:`Numpad5`.
 #. Change the view from *User Orthographic* to *Front Orthographic*, using the shortcut :kbd:`Numpad1`.
@@ -212,7 +206,7 @@ The Spring Example
 #. Move this circle three units on the X axis to the left;
    you can use the shortcut :kbd:`Ctrl` while selecting with the mouse using the standard transform widgets
    (clicking on the red arrow shown with the object and moving while using shortcut :kbd:`Ctrl`
-   until the info in the bottom left corner of the 3D Viewport displays ``D. -3.0000 (3.0000) Global``),
+   until the info in the top left corner of the 3D Viewport displays ``D. -3.0000 (3.0000) Global``),
    or press the shortcut :kbd:`G X Minus 3` and :kbd:`Return`.
    You can use the Transform panel, and type :kbd:`Minus 3` and :kbd:`Return` in the Location too.
    (See the Fig. :ref:`fig-mesh-screw-circle`.)
@@ -220,32 +214,32 @@ The Spring Example
 #. Now enter *Edit Mode* using shortcut :kbd:`Tab`.
 #. Deselect all vertices using the shortcut :kbd:`Alt-A`.
 
+.. _fig-mesh-screw-circle:
+
+.. figure:: /images/modeling_meshes_editing_edge_screw_circle-moved-x-3units.png
+
+   Circle placed at X (-3, 0, 0).
+
+
 The following steps explain how to create a height vector:
+
+#. Select an edge from the circle and duplicate the edge with :kbd:`Shift-D` and move the edge
+   to the right of the circle. This edge will be used as the first height and angle vector of the screw.
+#. With one of the vertices selected, in the Transform panel
+   give the vertex the global position  to the XYZ coordinates of (-2, 0, -1).
+#. Select the other vertex, and again, set its XYZ coordinates to (-2, 0, 1).
+   This will create a straight vertical line with 2 units of height.
+#. Select everything again with the shortcut :kbd:`A`. (See Fig. :ref:`fig-mesh-screw-profile`.)
+#. Again, place the cursor at the center.
+#. At this point, :ref:`Save <bpy.ops.wm.save_as_mainfile>` the blend-file to reuse the spring for another exercise.
+   You can name it e.g. "screw spring example.blend".
+#. Click Screw and adjust the *Steps* and *Turns* as you like to create a nice spring.
 
 .. _fig-mesh-screw-profile:
 
 .. figure:: /images/modeling_meshes_editing_edge_screw_spring-profile-ready.png
 
    Profile and vector created.
-
-#. Press :kbd:`Ctrl` and left-click :kbd:`LMB` near the circle,
-   in more or less at the light gray line of the square above the circle,
-   and, while still pressing :kbd:`Ctrl`, left-click :kbd:`LMB` again in the gray line below the circle.
-   You have created two vertices and an edge, which Blender will use as the first height and angle vector.
-#. Now, in the Transform panel, in the median, clicking in the Global coordinates,
-   for the XYZ coordinates, put (-2, 0, -1).
-#. :kbd:`LMB` click on the other vertex,
-   and again, set its XYZ coordinates to (-2, 0, 1).
-   This will create a straight vertical line with 2 units of height.
-#. Select everything again with the shortcut :kbd:`A`.
-   (See Fig. :ref:`fig-mesh-screw-profile`.)
-#. Again, place the cursor at the center. (Repeat step 2.)
-#. At this point, you can save this blend-file to reuse
-   the Spring for another exercise; :kbd:`LMB` click on *File*,
-   located in the header of the Info editor, (at the top left side), and choose *Save as*.
-   You can name it e.g. "screw spring example.blend".
-#. Click Screw and adjust the *Steps* and *Turns* as you like and you have a nice spring,
-   but now here comes the interesting part!
 
 
 Clockwise & Counterclockwise using the Spring Example
