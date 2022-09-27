@@ -22,8 +22,8 @@ This process follows a few rules, depending on the settings:
   - If the face is a triangle, a new edge is created between the two new vertices,
     subdividing the triangle in a triangle and a quad.
   - If the face is a quad, and the edges are neighbors,
-    we have *three* possible behaviors, depending on the setting of *Corner Cut Type*
-    (the select menu next to the *Subdivide* button, in *Mesh Tools* panel). See below for details.
+    there have *three* possible behaviors to divide the quad,
+    depending on the setting of *Quad Corner Type* (see below for details).
   - If the face is a quad, and the edges are opposite,
     the quad is just subdivided in two quads by the edge linking the two new vertices.
 
@@ -71,8 +71,8 @@ Smoothness
 Quad/Tri Mode
    Forces subdivide to create triangles or quads instead of n-gons (see examples below).
    This mode doesn't allow the use of *Straight Cut* on quad corners.
-Corner Cut Type
-   This select menu controls the way quads with only two adjacent selected edges are subdivided.
+Quad Corner Type
+   Controls the way quads with only two adjacent selected edges are subdivided.
 
    Fan
       The quad is subdivided in a fan of four triangles,
