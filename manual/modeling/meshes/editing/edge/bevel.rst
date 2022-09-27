@@ -165,14 +165,13 @@ Miter Outer :kbd:`O`
    On the side where the angle is greater than 180 degrees, if any, it is called an *outer miter*.
    This option specifies the pattern that Blender uses at an outer miter.
 
-   Sharp
+   :Sharp:
       Edges meet at a sharp point, with no extra vertices introduced on the edges.
-   Patch
+   :Patch:
       Edges meet at a sharp point but in addition, two extra vertices are introduced near the point
       so that the edges and faces at the vertex may be less pinched together than
       what occurs in the *Sharp* case.
-      The *Spread* slider controls how far the new vertices are from the intersection.
-   Arc
+   :Arc:
       Two vertices are introduced near the intersection, and a curved arc joins them together.
       The *Spread* slider controls how far the new vertices are from the intersection.
       The *Profile* slider controls the shape of the arc.
@@ -216,6 +215,7 @@ Inner :kbd:`I`
 
 Spread
    The value used to spread extra vertices apart for *Outer* and *Inner Miters*.
+   This option is available when Miter Inner is set to Arc.
 
 Intersection Type :kbd:`N`
    When more than two beveled edges meet at a vertex, a mesh is created as

@@ -159,16 +159,14 @@ Miter Inner/Outer
    If it is less than 180 degrees, then it is called an *inner miter*.
    The outer and inner miters can each be set to one of these patterns:
 
-   Sharp
+   :Sharp:
       Edges meet at a sharp point, with no extra vertices introduced on the edges.
-   Patch
+   :Patch:
       Edges meet at a sharp point but in addition, two extra vertices are introduced near the point
       so that the edges and faces at the vertex may be less pinched together than
       what occurs in the *Sharp* case.
       This pattern does makes no sense for inner miters, so it behaves like *Arc* for them.
-
-      The *Spread* slider controls how far the new vertices are from the meeting point.
-   Arc
+   :Arc:
       Two vertices are introduced near the meeting point, and a curved arc joins them together.
 
       The *Spread* slider controls how far the new vertices are from the meeting point.
@@ -201,6 +199,7 @@ Miter Inner/Outer
 
 Spread
    The value used to spread extra vertices apart for non-sharp miters.
+   This option is available when Miter Inner is set to Arc.
 
 Intersections
    When more than two beveled edges meet at a vertex, a mesh is created as a way to complete the intersection
