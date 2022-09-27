@@ -612,11 +612,20 @@ This page lists definitions for terms used in Blender and this manual.
 
       See also `OpenGL <https://en.wikipedia.org/wiki/OpenGL>`__ on Wikipedia.
 
+   Operator
+      An executable action that is completed the moment they're initiated.
+      See :doc:`/interface/operators` as described in the user interface section.
+
    Overscan
       The term used to describe the situation.
       when not all of a televised image is present on a viewing screen.
 
       See also `Overscan <https://en.wikipedia.org/wiki/Overscan>`__ on Wikipedia.
+
+   Panel
+      A user interface element that contains buttons.
+      Panels are collapsible to hide there contents and can often be rearranged.
+      See :ref:`bpy.types.Panel` as described in the user interface section.
 
    Parent
       An :term:`Object` that affects its :term:`Child` objects.
