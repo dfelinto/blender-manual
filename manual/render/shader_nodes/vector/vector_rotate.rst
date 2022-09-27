@@ -25,6 +25,16 @@ Vector
 Center
    Point to rotate around.
 
+Axis
+   Axis to rotate around.
+
+Angle
+   Angle to rotate the input vector by.
+
+Rotation
+   When *Type* is set to *Euler*, rotate the input vector
+   by these angles around the X, Y, then Z axes in that order.
+
 
 Properties
 ==========
@@ -32,7 +42,7 @@ Properties
 Type
    The type of angle input.
 
-   :X, Y, Z Axis:
+   :X/Y/Z Axis:
       Rotates the vector around the defined axis and
       the amount of rotation is defined by the *Angle* input.
    :Axis Angle:
