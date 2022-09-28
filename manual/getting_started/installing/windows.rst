@@ -4,7 +4,8 @@ Installing on Windows
 *********************
 
 Check the :doc:`Downloading Blender </getting_started/installing/index>`
-page to find the minimum requirements and where to get Blender (if you have not done so yet).
+page to find the minimum requirements and the different versions that are available 
+for Blender (if you have not done so yet).
 
 Download the zip-file or Windows Installer File.
 
