@@ -30,7 +30,7 @@ You may also adjust the depth of the inset during the modal operation by holding
      - .. figure:: /images/modeling_meshes_editing_face_inset-faces_after.png
           :width: 320px
 
-          Selection with inset.
+          Result of inset with *Select Outer* enabled.
 
 
 Options
