@@ -156,7 +156,7 @@ Light Reference
 .. _bpy.types.LineartGpencilModifier.light_contour_object:
 
 Light Object
-   Use this light object to generate :ref:Light Contour <bpy.types.LineartGpencilModifier.use_light_contour>.
+   Use this light object to generate :ref:`Light Contour <bpy.types.LineartGpencilModifier.use_light_contour>`.
 
 .. _bpy.types.LineartGpencilModifier.shadow_camera_size:
 
