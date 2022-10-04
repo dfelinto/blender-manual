@@ -199,3 +199,16 @@ The temporary directory is selected based on the following priority:
 - User Preference (see :ref:`prefs-file-paths`).
 - Environment variables (``TEMP`` on Windows, ``TMP`` & ``TMP_DIR`` on other platforms).
 - The ``/tmp/`` directory.
+
+
+Overriding Default Directories
+==============================
+
+It's possible to override the default **USER** and **SYSTEM** directories using environment variables.
+
+While this shouldn't be needed for typical usage, some specialized use cases may take advantage of this, such as:
+
+- Using a shared network drives for specific paths.
+- Isolating an instance from the default user files to prevent automated tasks from accessing user configuration.
+
+See :ref:`command-line-args-environment-variables` for details.
