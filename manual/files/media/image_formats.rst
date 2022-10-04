@@ -197,7 +197,9 @@ Quality
    Similar to *Compression* but is used for JPEG based file formats.
    The quality is a percentage, 0% being the maximum amount of compression and 100% is no compression.
 Save As Render
-   Applies :doc:`color transform </render/color_management>` to the saved image.
+   Save image with render :doc:`color management </render/color_management>`.
+   For display image formats like PNG, apply view and display transform.
+   For intermediate image formats like OpenEXR, use the default render output color space.
 Copy
    The Copy checkbox will define if the data-block will reference the newly created file
    or the reference will be unchanged, maintaining it with the original one.
