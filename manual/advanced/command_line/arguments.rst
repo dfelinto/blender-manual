@@ -237,6 +237,8 @@ Debug Options
    Enable GPU debug context and information for OpenGL 4.3+.
 ``--debug-gpu-force-workarounds``
    Enable workarounds for typical GPU issues and disable all GPU extensions.
+``--debug-gpu-disable-ssbo``
+   Disable usage of shader storage buffer objects.
 ``--debug-wm``
    Enable debug messages for the window manager, shows all operators in search, shows keymap errors.
 ``--debug-xr``
@@ -356,12 +358,17 @@ Arguments are executed in the order they are given. eg:
 Environment Variables
 =====================
 
-:BLENDER_USER_CONFIG:      Directory for user configuration files.
-:BLENDER_USER_SCRIPTS:     Directory for user scripts.
-:BLENDER_SYSTEM_SCRIPTS:   Directory for system wide scripts.
-:BLENDER_USER_DATAFILES:   Directory for user data files (icons, translations, ..).
-:BLENDER_SYSTEM_DATAFILES: Directory for system wide data files.
-:BLENDER_SYSTEM_PYTHON:    Directory for system Python libraries.
+:BLENDER_USER_RESOURCES:  Top level directory for user files.
+                           (other ``BLENDER_USER_*`` variables override when set).
+:BLENDER_USER_CONFIG:     Directory for user configuration files.
+:BLENDER_USER_SCRIPTS:    Directory for user scripts.
+:BLENDER_USER_DATAFILES:  Directory for user data files (icons, translations, ..).
+
+:BLENDER_SYSTEM_RESOURCES:  Top level directory for system files.
+                             (other ``BLENDER_SYSTEM_*`` variables override when set).
+:BLENDER_SYSTEM_SCRIPTS:    Directory for system wide scripts.
+:BLENDER_SYSTEM_DATAFILES:  Directory for system wide data files.
+:BLENDER_SYSTEM_PYTHON:     Directory for system Python libraries.
 :OCIO:                     Path to override the OpenColorIO config file.
 :TEMP:                     Store temporary files here.
 :TMP: or $TMPDIR           Store temporary files here.
