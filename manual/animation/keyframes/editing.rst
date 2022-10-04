@@ -3,7 +3,7 @@
 Editing
 *******
 
-.. _bpy.ops.anim.keyframe_insert:
+.. _bpy.ops.anim.keyframe_insert*:
 
 Insert Keyframe
 ===============
@@ -34,7 +34,7 @@ keyframes automatically to the set frame if the value for transform type propert
 See :ref:`Timeline Keyframe Control <bpy.types.ToolSettings.use_keyframe_insert_auto>` for more info.
 
 
-.. _bpy.ops.anim.keyframe_delete:
+.. _bpy.ops.anim.keyframe_delete*:
 
 Delete Keyframes
 ================
@@ -52,7 +52,7 @@ There are several methods of removing keyframes:
 - :kbd:`RMB` a value and choose *Delete Keyframe* from the menu.
 
 
-.. _bpy.ops.anim.keyframe_clear:
+.. _bpy.ops.anim.keyframe_clear*:
 
 Clear Keyframes
 ===============
@@ -61,6 +61,7 @@ Clear Keyframes
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Animation --> Clear Keyframes...`
+   :Shortcut:  :kbd:`Shift-Alt-I`
 
 Removes all keyframes from the selected object.
 

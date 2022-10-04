@@ -74,19 +74,19 @@ Hotkeys
 =======
 
 Free-Align Toggle
-   Hold :kbd:`Left-Shift` while dragging a handle to switch between ``Free`` and ``Align`` handle types.
+   Hold :kbd:`LeftShift` while dragging a handle to switch between ``Free`` and ``Align`` handle types.
    Can be used to create sharp corners along the curve.
 
 Move Adjacent Handle
-   Hold :kbd:`Left-Ctrl` while dragging a handle to move the closer handle of the adjacent control point.
+   Hold :kbd:`LeftCtrl` while dragging a handle to move the closer handle of the adjacent control point.
    Can be helpful to make adjustments to newly created curve segments.
 
 Move Entire
    Hold :kbd:`Spacebar` while dragging a handle to move the entire point.
 
 Link Handles
-   Press :kbd:`Right-Ctrl` while dragging a handle to mirror its movement on the opposite handle of the same point.
+   Press :kbd:`RightCtrl` while dragging a handle to mirror its movement on the opposite handle of the same point.
 
 Lock Handle Angle
-   Hold :kbd:`Left-Alt` while dragging a handle to limit the movement of the handle to its current direction,
+   Hold :kbd:`LeftAlt` while dragging a handle to limit the movement of the handle to its current direction,
    so only its length can be adjusted.

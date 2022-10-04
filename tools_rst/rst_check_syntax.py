@@ -118,17 +118,17 @@ def compile_valid_kbd():
     pattern_str = ''.join((
         # Keyboard
         # Modifier
-        r"^(Shift(?:\-|\Z))?(Ctrl(?:\-|\Z))?(Alt(?:\-|\Z))?((?:Cmd|OSKey)(?:\-|\Z))?(Fn(?:\-|\Z))?",
+        r"\A(", r"(?:-|\Z))?(".join(("Shift", "Ctrl", "Alt", r"(?:Cmd|OSKey)", "Fn")), r"(?:-|\Z))?",
 
         # Note, shifted keys such as '!?:<>"' should not be included.
         r"((?:",
         # Alphanumeric
-        r"[A-Z0-9]|",
+        r"[A-Z0-9]",
         # Symbols
-        r"[=\[\];']|",
+        r"|[=\[\];']",
 
         # Named
-        '|'.join((
+        '|', '|'.join((
             "Comma", "Period", "Slash", "Backslash",
             "Equals", "Minus", "AccentGrave",
             # Editing
@@ -136,39 +136,39 @@ def compile_valid_kbd():
             # Navigation
             "Esc", "PageUp", "PageDown", "Home", "End",
             "Up", "Down", "Left", "Right", "Menu",
-        )), '|',
+        )),
         # Individual modifier
-        r"(?:(?:Left|Right)(?:Alt|Ctrl|Shift))|" if mod_as_regular else '',
-
+        r"|(?:(?:Left|Right)(?:Alt|Ctrl|Shift))" if mod_as_regular else '',
         # Numpad
-        r"(?:Numpad(?:[0-9]|Plus|Minus|Delete|Slash|Period|Asterisk))|",
+        r"|(?:Numpad(?:",
+        '|'.join((r"[0-9]", "Plus", "Minus", "Delete", "Slash", "Period", "Asterisk")), r"))",
         # Function
-        r"(?:F[1-9]|F1[0-2])",
-        r")(?:\-|\Z))",
+        r"|(?:F[1-9]|F1[0-2])",
+        r")(?:-|\Z))",
         r"{0,2}" if regular_as_mod else r"?",
 
         # Pointing Devices
         r"(",
         # Mouse
         # Wheel
-        r"(?:Wheel(Up|Down|In|Out)?)|",
+        r"(?:Wheel(Up|Down|In|Out)?)",
         # Buttons
-        r"(?:(?:L|M|R)MB)|",
+        r"|(?:[LMR]MB)",
         # Stylus
-        r"(?:Pen|Eraser)|",
+        r"|(?:Pen|Eraser)",
         # NDOF
-        r"(?:NDOF(?:",
+        r"|(?:NDOF(?:",
         '|'.join((
             "Menu", "Fit", "Plus", "Minus",
             "Left", "Right", "Top", "Bottom", "Front", "Back",
         )), r"))",
-        r")?$",
+        r")?\Z",
     ))
 
     warn_role_kbd.valid_kbd = re.compile(pattern_str)
 
     # Directly repeated pressed key e.g. A-A or Left-Left.
-    warn_role_kbd.repeat_kbd = re.compile(r"(?:\-|\A)([^ \-]+?)\-\1")
+    warn_role_kbd.repeat_kbd = re.compile(r"(?:-|\A)([^ \-]+?)-\1")
 
 
 def warn_title(fn, data_src):

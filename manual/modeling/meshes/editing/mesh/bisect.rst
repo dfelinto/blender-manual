@@ -30,7 +30,7 @@ Axis Threshold
 Controls
 ========
 
-Move :kbd:`Ctrl-Spacebar`
+Move :kbd:`Spacebar`
    Changes the location of the line.
 Snap :kbd:`Ctrl`
    Constrains the rotation of the line to 15 degree intervals.
