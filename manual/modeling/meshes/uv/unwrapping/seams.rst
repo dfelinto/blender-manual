@@ -3,7 +3,8 @@
 Seams
 *****
 
-For many cases, using the Unwrap calculations of Cube, Cylinder, Sphere, or best fit will produce a good UV layout.
+For many cases, using the Unwrap calculations of Cube, Cylinder, Sphere,
+or the regular "Unwrap" operators will produce a good UV layout.
 But for more complex meshes, especially those with lots of indentations,
 you may want to define a *seam* to limit and guide the :ref:`bpy.ops.uv.unwrap` operator.
 
