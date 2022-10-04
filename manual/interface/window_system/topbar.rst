@@ -55,7 +55,8 @@ New :kbd:`Ctrl-N`
 Open :kbd:`Ctrl-O`
    :ref:`Open <bpy.ops.wm.open_mainfile>` a blend-file.
 Open Recent :kbd:`Shift-Ctrl-O`
-   Displays a list of :ref:`recently <other-file-open-options>` saved blend-files to open.
+   Displays a list of the most :ref:`recently opened <other-file-open-options>` blend-files.
+   Select any of the file names in the list to open that blend-file.
 Revert
    Reopens the current file to its last saved version.
 Recover
