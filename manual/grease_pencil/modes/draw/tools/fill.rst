@@ -80,7 +80,7 @@ Stroke Extension
 
    .. _bpy.types.BrushGpencilSettings.show_fill_extend:
 
-   Show Extend Lines (eye icon)
+   Visual Aids (eye icon)
       Toggle show extended lines helper.
 
 .. _bpy.types.BrushGpencilSettings.fill_leak:
