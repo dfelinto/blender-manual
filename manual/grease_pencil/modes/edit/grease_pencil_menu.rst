@@ -313,6 +313,9 @@ Reprojected Type
    Cursor
       Reproject selected strokes onto 3D cursor rotation.
 
+Surface Offset
+   When Surface Mode is activated controls the stroke offset from the object.
+
 Keep Original
    Maintains the original strokes after applying the tool.
 

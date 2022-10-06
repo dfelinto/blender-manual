@@ -51,6 +51,12 @@ Mode
    Ping Pong
       Loop back and forth animation.
 
+   Chain
+      It allows to combine the different Modes consecutively.
+
+      Repeat
+         Number of cycle repeats
+
 Frame Offset
    The number of frames to offset the original keyframes by.
 

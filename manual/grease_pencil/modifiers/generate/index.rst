@@ -14,5 +14,6 @@
    line_art.rst
    mirror.rst
    multiple_strokes.rst
+   outline.rst
    simplify.rst
    subdivide.rst

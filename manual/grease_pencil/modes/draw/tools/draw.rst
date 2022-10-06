@@ -134,6 +134,15 @@ Simplify
 Trim Strokes End
    Automatically trim intersection strokes ends.
 
+.. _bpy.types.BrushGpencilSettings.use_settings_outline:
+
+Outline
+   Activate the conversion of the newly created stroke to its outline.
+
+   Material
+      Material used for outline stroke.
+   Thickness
+      Thickness used for outline stroke.
 
 .. _bpy.types.BrushGpencilSettings.use_settings_random:
 

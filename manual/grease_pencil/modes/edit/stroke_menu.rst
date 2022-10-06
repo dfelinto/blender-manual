@@ -111,6 +111,30 @@ Trims selected stroke to first loop or intersection.
 
           Result of trim operation.
 
+.. _bpy.ops.gpencil.stroke_trim:
+
+Outline
+=======
+
+.. reference::
+
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Stroke --> Outline`
+
+Converts a stroke to an outline.
+
+.. list-table::
+
+   * - .. figure:: /images/grease-pencil_modes_edit_stroke-menu_outline-1.png
+          :width: 320px
+
+          Original stroke.
+
+     - .. figure:: /images/grease-pencil_modes_edit_stroke-menu_outline-2.png
+          :width: 320px
+
+          Generated stroke after outline operation.
+
 
 .. _bpy.ops.gpencil.stroke_join:
 
@@ -315,16 +339,17 @@ Switch Direction
 Reverse the direction of the points in the selected strokes
 (i.e. the start point will become the end one, and vice versa).
 
+.. _bpy.ops.gpencil.stroke_start_set:
 
-Scale Thickness
+Set Start Point
 ===============
 
 .. reference::
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Stroke --> Scale Thickness`
+   :Menu:      :menuselection:`Stroke --> Set Start Point`
 
-When enabled, scales the stroke thickness during scale transformations.
+Set the start point for cyclic strokes.
 
 
 Normalize Thickness
@@ -360,6 +385,16 @@ Mode
 Value
    Opacity value to use on all points of the stroke.
 
+
+Scale Thickness
+===============
+
+.. reference::
+
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Stroke --> Scale Thickness`
+
+When enabled, scales the stroke thickness during scale transformations.
 
 Reset Fill Transform
 ====================
