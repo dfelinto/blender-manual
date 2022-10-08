@@ -39,6 +39,8 @@ for example, it can (the list is not exhaustive):
 - Eliminate :doc:`Bump </render/shader_nodes/vector/bump>` with constant Height input, using its Normal input or
   Geometry Normal instead. This is useful for implementing node group inputs that default to normal via routing
   through a no-op Bump before doing math.
+- Replace :doc:`Attribute </render/shader_nodes/input/attribute>` nodes of the View Layer type with the
+  evaluated attribute value (it is constant within the whole Render Layer).
 - Combine multiple copies of the same node with the same inputs into only one instance.
 
 Finally, any nodes that end up not connected either directly or indirectly to the Output node are removed.

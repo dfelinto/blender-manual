@@ -49,8 +49,8 @@ Type
       first in the object data-block, followed by the mesh data-block if not found.
       Custom properties have priority over built-in ones.
 
-      The property value must be an integer, float, or a vector of 1 to 4 floats; properties of other types
-      are ignored. If a suitable property is not found, all sockets of the node, including *Alpha*, output 0.
+      The property value must be an integer, float, boolean, or a vector of 1 to 4 floats or ints; properties of other
+      types are ignored. If a suitable property is not found, all sockets of the node, including *Alpha*, output 0.
 
       .. tip::
 
@@ -59,8 +59,27 @@ Type
          the object, unless overridden by a custom property.
    :Instancer:
       Similar to *Object*, but the attribute is looked up in the instancer particle system settings,
-      followed by the instancer object. If the current object is not instanced, or the property is
-      not found, it falls back to the *Object* mode.
+      followed by :doc:`Geometry Node instance </modeling/geometry_nodes/instances>` attributes
+      (searching from the innermost instancing layer to outer ones), and finally in the instancer object.
+      If the current object is not instanced, or the property is not found, it falls back to the *Object* mode.
+      
+      .. warning::
+         Currently only up to 4 layers of Geometry Node instancing are searched.
+   :View Layer:
+      The attribute is looked up in the current :doc:`View Layer </scene_layout/view_layers/introduction>`,
+      :doc:`Scene </scene_layout/scene/introduction>` and :doc:`World </render/lights/world>`, using the same lookup
+      logic as *Object*. Attributes of this type have the same uniform value throughout the whole Render Layer.
+
+      .. tip::
+         This gives access to a number of useful built-in properties, for example:
+
+         ``color`` or ``world.color``
+            Outputs the value of the :ref:`Color <bpy.types.World.color>` field in the Viewport Display
+            panel of the World properties.
+         ``render.resolution_x``, ``render.resolution_y``
+            Outputs the current :doc:`rendering resolution </render/output/properties/format>`.
+         ``camera.data.angle_x``, ``camera.data.angle_y``,
+            Outputs the effective field of view of the active :doc:`Camera </render/cameras>`.
 
 
 Outputs
@@ -75,7 +94,7 @@ Factor
 Alpha
    Alpha channel of the attribute, when available. If the attribute has no alpha channel, generally defaults to 1.
 
-.. note::
+.. warning::
 
-   Currently, attributes are not supported in shaders used for the :doc:`World </render/lights/world>` or
+   Currently, only *View Layer* attributes are supported in shaders used for the :doc:`World </render/lights/world>` or
    :doc:`Light Objects </render/lights/light_object>`.
