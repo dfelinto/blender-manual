@@ -1,28 +1,24 @@
 .. _bpy.types.SpaceView3D.show_object_viewport:
 .. _bpy.types.SpaceView3D.show_object_select:
 
+.. |visibility-icon| image:: /images/editors_3dview_display_visibility.png
+
 **********************
 Object Type Visibility
 **********************
 
-In the Object Type Visibility pop-over the visibility and selectability per type of object can be specified.
-This will limit the visibility and selectability per 3D Viewport.
+.. reference::
 
-The object types that can be changed are:
+   :Mode:      All Modes
+   :Header:    |visibility-icon| :menuselection:`View Object Types`
 
-- Mesh
-- Curve
-- Surface
-- Meta
-- Text
-- Grease Pencil
-- Armature
-- Lattice
-- Empty
-- Light
-- Light Probe
-- Camera
-- Speaker
+This popover lets you control the visibility and selectability of the various object types.
+For example, you can hide all the Lights in the scene with one click.
 
-When visibility is turned off any object of this kind will not be rendered in the 3D Viewport.
-When selectability is turned off any object of this kind will not be selectable via the 3D Viewport.
+The settings only apply to the current 3D Viewport. Object types marked as unselectable
+can still be selected in other viewports and in the
+:doc:`Outliner </editors/outliner/introduction>`, for example.
+
+.. seealso ::
+   Outliner :ref:`Restriction Columns <editors-outliner-interface-restriction_columns>`
+   for making individual objects invisible or unselectable across all viewports.

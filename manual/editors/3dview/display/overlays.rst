@@ -1,20 +1,28 @@
 .. _bpy.types.View3DOverlay:
+.. |overlays-icon| image:: /images/editors_3dview_display_overlays.png
 
 *****************
 Viewport Overlays
 *****************
 
-Using the Viewport Overlays pop-over settings for the overlays can be configured.
-There is a toggle to hide all overlays for the 3D Viewport.
+.. reference::
 
-The options that are visible in the pop-over depend on the mode that the 3D Viewport is in.
+   :Mode:      All Modes
+   :Header:    |overlays-icon| :menuselection:`Overlays`
+
+Clicking the icon toggles all overlays in the 3D Viewport.
+The dropdown button displays a popover with more detailed settings,
+which are described below.
+
+The available options depend on the mode that the 3D Viewport is in.
 
 
 Object Mode
 ===========
 
-The next options are always present, independent the current mode.
-
+The following options are always present, independent of the current mode.
+Some of the overlays can be customized in the
+:doc:`Viewport Preferences </editors/preferences/viewport>`.
 
 Guides
 ------
@@ -22,9 +30,9 @@ Guides
 Grid
    Show grid in orthographic side view.
 Floor
-   Show the ground plane.
+   Show the ground plane in perspective view.
 Axis
-   Show the X, Y and/or Z axis line.
+   Show the X, Y and/or Z axis lines.
 
 Scale
    The distance between lines in the grid/floor.
@@ -32,46 +40,64 @@ Subdivision
    The number of subdivisions between grid lines.
 
 Text Info
-   Shows information such as the :doc:`View Perspective </editors/3dview/navigate/projections>`,
-   playback :abbr:`FPS (Frames Per Second)`, current frame number,
-   and the name of the active :doc:`Collection </scene_layout/collections/index>` and Object.
+   Show various bits of information in the top left corner of the viewport.
+   
+   View Perspective
+      Name of the :doc:`View Perspective </editors/3dview/navigate/projections>`,
+      such as "Top Orthographic" or "User Perspective."
+   Playback Frame Rate (FPS)
+      Displays the Frames Per Second at which the animation is playing.
+      By default, Blender goes through every single frame, which may result in an FPS that's lower than
+      intended (and the animation playing slower than realtime); the FPS turns red in this case.
+      You can change this behavior in the Playback popover of the :doc:`Timeline </editors/timeline>`.
+   Object Info
+      Shows the current frame in parentheses, followed by the names of the selected
+      :doc:`Collection </scene_layout/collections/index>` and the :ref:`active object <object-active>`.
+      When applicable, also shows the selected :doc:`Shape Key </animation/shape_keys/introduction>`
+      and (in angle brackets) the :doc:`Marker </animation/markers>` on the current frame.
+      If the object has a keyframe on the current frame, the Object Info is displayed in yellow.
+   Grid Resolution
+      When the view is aligned to a world axis (see :doc:`/editors/3dview/navigate/viewpoint`),
+      the Text Info additionally shows the smallest distance between two parallel grid lines.
 
 Statistics
    Show information about the amount of objects and geometry.
-   Note the counters that are displayed depends on the current selection.
-   For example selecting a mesh gives info on the number of vertices, edges, and faces,
-   while selecting other object such as lights shows a count of the lights in the scene.
+   Note that the counters depend on the current selection.
+   For example, selecting a mesh gives info on the number of vertices, edges, and faces,
+   while selecting a light shows the number of lights in the scene.
 
    - Objects -- Number of the selected objects and the total count.
    - Geometry -- Displays information about the current scene depending on the mode and object type.
      This can be the number of vertices, faces, triangles, or bones.
 
 HDRI Preview
-   Show two spheres, one glossy and one diffuse,
-   to preview HDRIs used in *Material Preview* and *Rendered* shading modes.
+   Show two spheres, one glossy and one diffuse, to preview the HDRI that's being used for world lighting.
+   While HDRIs can be used in both the *Material Preview* and *Rendered*
+   :doc:`shading modes </editors/3dview/display/shading>`, the HDRI Preview overlay
+   is only available in the former.
 3D Cursor
-   Show the 3D Cursor overlay.
+   Show the :doc:`3D Cursor </editors/3dview/3d_cursor>`.
 Annotations
-   Show the annotation overlay.
+   Show :doc:`annotations </interface/annotate_tool>`.
 
 
 Objects
 -------
 
 Extra
-   Show details of objects including empty wires, cameras and other visual guides.
+   Show objects that don't have geometry (such as empties, cameras and lights).
 Relationship Lines
-   Show dashed lines indicating parents or constraint relationships.
+   Show dashed lines indicating parent or constraint relationships.
 Outline Selected
-   Show an outline highlight around selected objects.
+   Show an outline around selected objects.
 Bones
-   Show Bones. Disable to only show their motion path.
+   Show Bones.
 Motion Paths
-   Show the motion path overlay.
+   Show the :doc:`motion path </animation/motion_paths>` overlay.
 Origin
-   Show the object origin of the active object.
+   Show the :doc:`origins </scene_layout/object/origin>` of the selected objects.
 Origin (All)
-   Show the object origin of all objects.
+   Show the origins of all objects.
 
 
 Geometry
@@ -81,30 +107,30 @@ Geometry
 .. _bpy.types.View3DOverlay.show_wireframes:
 
 Wireframe
-   Displays the mesh's face edges, similar to :ref:`Wireframe Shading <3dview-shading-rendered>`
+   Display mesh edges. Similar to :ref:`Wireframe Shading <3dview-shading-rendered>`,
    but displays edges on top of existing shading.
-   The value slider adjusts which edges to display by only showing wires on prominent edges.
-   Lower values hide edges with angles close to 180 degrees while a value of 1 shows all wires.
+   The value slider adjusts which edges to display:
+   lower values hide edges on surfaces that are almost flat, while a value of 1 shows all edges.
 
    .. _bpy.types.View3DOverlay.wireframe_opacity:
 
    Opacity
-      The transparency of the displayed edges; a value of 1 is fully opaque, a value of 0 is fully transparent.
+      The opacity of the displayed edges, from 0 (invisible) to 1 (fully opaque).
 
 .. _bpy.types.View3DOverlay.fade_inactive_alpha:
 .. _bpy.types.View3DOverlay.show_fade_inactive:
 
 Fade Inactive Geometry
-   Fade inactive geometry using the viewport background color.
-   The value slider controls the factor of the objects are blended with the background.
+   In modes other than Object Mode, fade out objects that you're not working on.
+   The slider controls how much they're faded out.
 
 .. _bpy.types.View3DOverlay.show_face_orientation:
 
 Face Orientation
-   Show the face orientation overlay. In the face orientation overlay
-   all faces where the face normal points towards the camera are colored blue.
-   All faces where the face normal points away from the camera are colored red.
-   With this overlay, it is easy to detect the orientation of the face normals.
+   Show faces whose normal is pointing towards the camera in blue,
+   and faces whose normal is pointing away from the camera in red.
+   This lets you quickly check for faces that are oriented incorrectly:
+   the outside surface of an object should typically be all blue.
 
 
 .. _bpy.types.SpaceView3D.show_reconstruction:
@@ -112,23 +138,16 @@ Face Orientation
 Motion Tracking
 ---------------
 
-Show the motion tracking overlay.
+Show the :doc:`motion tracking </movie_clip/tracking/introduction>` overlay.
 
 Camera Path
-   Show the reconstruction camera path.
+   Show the reconstructed camera path.
 Marker Names
    Show the names for reconstructed track objects.
 
 Tracks
-   Change the display of the reconstructed tracks.
-
-   - Plain Axes
-   - Arrows
-   - Single Arrow
-   - Circle
-   - Cube
-   - Sphere
-   - Cone
+   Change the display of the reconstructed tracks:
+   plain axes, arrows and so on.
 
 Size
    Change the display size of the reconstructed tracks.
@@ -139,31 +158,26 @@ Size
 Mesh Edit Mode
 ==============
 
-The next options are available when in Edit Mesh Mode.
+The following options are available when in Mesh Edit Mode.
 
 Edges
-   Highlighted selected and partially selected edges.
-
-   *Only affects vertex and face select mode (as edges are always highlighted in edge select mode).*
+   Highlight selected and partially selected edges.
+   Only affects vertex and face selection modes, as edges are always highlighted in edge selection mode.
 Faces
-   Highlight faces using a face overlay that applies to both selected and unselected faces.
-
-   *Affects all selection modes.*
+   Highlight selected faces. Affects all selection modes.
 Center
-   Show face center points in solid shading modes.
+   Show face center points in solid shading modes. (They're always shown in wireframe shading mode.)
 
-   *Only affects face select mode.*
+   Only affects face selection mode.
 Creases
    Display edges marked with a crease
    for the :doc:`Subdivision Surface Modifier </modeling/modifiers/generate/subdivision_surface>`.
 Sharp
-   Display sharp edges, used with the Edge Split modifier.
+   Display sharp edges, used with the :doc:`Edge Split modifier </modeling/modifiers/generate/edge_split>`.
 Bevel
    Display weights created for the :doc:`Bevel Modifier </modeling/modifiers/generate/bevel>`.
 Seams
-   Display the UV unwrapping seams.
-Edge Marks and Face Marks
-   Used by Freestyle.
+   Display the :doc:`UV unwrapping seams </modeling/meshes/uv/unwrapping/seams>`.
 
 
 Shading
@@ -181,29 +195,27 @@ Vertex Groups Weights
    Display weights in Edit Mode.
 
    Zero Weights
-      To display unreferenced and zero weighted areas in black.
+      Display unreferenced and zero-weighted areas in black.
       This helps to identify areas with very low weights that have been painted onto.
 
       None
          Vertices are displayed in the usual way.
       Active
-         Show in black vertices with no weights in the active group.
+         Vertices are shown in black if they have no weight in the active vertex group.
       All
-         The vertex is shown in black if it has zero weight in all groups.
+         Vertices are shown in black if they have no weight in any vertex group.
 
 
 Mesh Analysis
 -------------
 
-Show the mesh analysis overlay.
-
-See: :ref:`modeling-mesh-analysis`.
+Show the :ref:`modeling-mesh-analysis` overlay.
 
 
 Measurement
 -----------
 
-Numerical measures of the selected elements on screen as part of the text info overlay.
+Show numerical measures of the selected elements.
 The :ref:`bpy.types.UnitSettings` can be set in the Scene properties.
 
 Edge Length
@@ -222,10 +234,13 @@ Face Angle
 
 .. note::
 
-   These values respect :ref:`Global/Local <modeling-mesh-transform-panel>`.
+   These values respect the :ref:`Transform Space <modeling-mesh-transform-panel>`
+   in the Sidebar. Use *Global* if you want the object's scale to be applied to the measurements.
 
-   Use *Global* if you want the Object's scale to be applied to the measurements.
 
+.. seealso::
+   The :doc:`Measure </editors/3dview/toolbar/measure>` tool for measuring
+   arbitrary distances and angles.
 
 .. _mesh-display-normals:
 
@@ -248,17 +263,23 @@ Size
 Developer
 ---------
 
+These overlays are only available if *Developer Extras* is enabled
+in the :doc:`Interface Preferences </editors/preferences/interface>`.
+
 Indices
-   Display the indices of selected vertices, edges and faces.
+   Display the indices of selected vertices, edges, and faces.
 
 
 Freestyle
 ---------
 
+These settings apply to the :doc:`Freestyle </render/freestyle/introduction>`
+line art renderer.
+
 Edge Marks
-   Display Freestyle edge marks, used with the Freestyle renderer.
+   Display Freestyle edge marks.
 Face Marks
-   Display Freestyle face marks, used with the Freestyle renderer.
+   Display Freestyle face marks.
 
 
 Sculpt Mode
@@ -277,9 +298,9 @@ Vertex Paint
 .. _bpy.types.View3DOverlay.vertex_paint_mode_opacity:
 
 Stencil Mask Opacity
-   Opacity of the stencil mask overlay in Vertex Paint Mode.
+   Does nothing. (Stencil masks are only available for texture painting.)
 Show Wire
-   Use wireframe display in paint modes.
+   Display mesh edges in white (unlike the *Wireframe* overlay which shows them in black).
 
 
 Weight Paint
@@ -288,15 +309,15 @@ Weight Paint
 Opacity
    The opacity of the overlay.
 Zero Weights
-   To display unreferenced and zero weighted areas in black.
+   Display unreferenced and zero-weighted areas in black.
    This helps to identify areas with very low weights that have been painted onto.
 
    None
       Vertices are displayed in the usual way.
    Active
-      Show in black vertices with no weights in the active group.
+      Vertices are shown in black if they have no weight in the active vertex group.
    All
-      The vertex is shown in black if it has zero weight in all groups.
+      Vertices are shown in black if they have no weight in any vertex group.
 
 Show Weight Contours
    Show contour lines formed by points with the same interpolated weight.
@@ -305,7 +326,7 @@ Show Weight Contours
    the smoothness and consistency of gradients, e.g. when using smoothing tools and brushes.
 
 Show Wire
-   Use wireframe display in paint modes.
+   Display mesh edges in white (unlike the *Wireframe* overlay which shows them in black).
 
 
 Texture Paint
@@ -314,7 +335,7 @@ Texture Paint
 .. _bpy.types.View3DOverlay.texture_paint_mode_opacity:
 
 Stencil Mask Opacity
-   The opacity of the stencil mask overlay in Texture Paint Mode.
+   Opacity of the :doc:`stencil mask </sculpt_paint/texture_paint/tool_settings/mask>` overlay.
 
 
 Bones
@@ -323,10 +344,13 @@ Bones
 Fade Geometry
    Show the bones on top and face other geometry to the back.
    The opacity can be controlled with the slider.
+   Only available in Pose Mode.
 
 Bone Wireframe Opacity
-   Specifies the maximum opacity used for bones drawn in the *wireframe* style in Edit, Pose,
-   or Weight Paint modes. This is helpful when it is necessary to reduce clutter and focus on
+   The maximum opacity used for bones drawn in the *Wireframe*
+   :doc:`shading mode </editors/3dview/display/shading>`
+   (or in *Solid* shading mode with X-Ray active).
+   This is helpful when it is necessary to reduce clutter and focus on
    the mesh rather than bones.
 
 
@@ -337,32 +361,40 @@ Grease Pencil
 
 Onion Skin
    Show ghosts of the keyframes before and after the current frame.
-   If Multiframe is enabled Keyframes before and after of the active frame are displayed using onion colors.
+   If :doc:`Multiframe </grease_pencil/multiframe>` is enabled,
+   ghosts of the selected keyframes are shown instead.
+   See :doc:`/grease_pencil/properties/onion_skinning`.
 Canvas
-   Display a grid over Grease Pencil drawing plane.
+   Display a grid over the Grease Pencil drawing plane.
    The opacity of the grid can be controlled with the slider.
-   When using the *Canvas X-Ray* option objects are drawn behind the canvas grid.
+   When using the *Canvas X-Ray* option, objects are drawn behind the canvas grid.
 Fade Inactive Layers
    Decrease the opacity of all the layers in the object other than the active one.
    The opacity factor can be controlled with the slider.
 Fade Inactive Objects
-   Cover all viewport except the active Grease Pencil object with a full color layer to improve visibility
+   Cover all of the viewport except the active Grease Pencil object with a full color layer to improve visibility
    while drawing over complex scenes.
 
    Fade Grease Pencil Objects
       Include or exclude Grease Pencil objects.
 Edit Lines
-   Show edit lines when editing strokes.
+   Show edit lines in Edit Mode.
 Only in Multiframe
-   Show edit lines only when using multiframe edition.
+   When Multiframe is enabled and keyframes other than the current frame are selected,
+   strokes on those keyframes are displayed as just their edit lines -- the strokes themselves are hidden.
+   Note that this does not affect Onion Skinning.
 Stroke Direction
-   Toggles the display of the strokes start point (green) and end point (red) to visualize the line direction.
+   Toggle the display of the selected strokes' start points (green) and end points (red) to visualize their direction.
 Material Name
-   Show material name next to the linked stroke.
+   Show material name next to the selected strokes.
 Vertex Opacity
-   Opacity for edit vertices (points).
+   Opacity for vertices (points) and edit lines in Edit Mode.
 Vertex Paint Opacity
-   The opacity of the overlay.
+   The opacity of the vertex color overlay in Vertex Paint Mode and Draw Mode.
+   Note that in Draw Mode, vertex paint is only visible in the *Material Preview*
+   and *Rendered* shading modes by default. To see it in *Solid* mode, you either
+   need to use Vertex Paint Mode, or set the :doc:`Color </render/workbench/color>`
+   shading setting to *Attribute*.
 
 .. _bpy.types.View3DOverlay.display_handle:
 
@@ -370,6 +402,6 @@ Handles
    When :doc:`Curve Editing </grease_pencil/modes/edit/curve_editing>` is active,
    this option controls how curves are displayed in the 3D Viewport.
 
-   :None: No handles are displayed only the control points.
+   :None: No handles are displayed, only the control points.
    :Selected: Only handles for selected control points are displayed.
    :All: All the handles are displayed.

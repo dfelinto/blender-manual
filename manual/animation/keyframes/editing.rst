@@ -3,7 +3,7 @@
 Editing
 *******
 
-.. _bpy.ops.anim.keyframe_insert*:
+.. _bpy.ops.anim.keyframe_insert:
 
 Insert Keyframe
 ===============

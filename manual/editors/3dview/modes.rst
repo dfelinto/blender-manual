@@ -23,8 +23,7 @@ a pie menu around the cursor for faster access. (If the selected object is an
 :doc:`Armature </animation/armatures/introduction>`, this shortcut will instead
 switch between Object Mode and Pose Mode.)
 
-Pressing :kbd:`Tab` will switch between Object Mode and Edit Mode for objects
-that support it.
+Pressing :kbd:`Tab` will toggle Edit Mode for objects that support it.
 
 .. container:: lead
 

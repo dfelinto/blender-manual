@@ -42,16 +42,5 @@ Grid Floor
 Text Info
 ---------
 
-The visibility and settings of the overlays can be set
-in the :doc:`Viewport Overlays </editors/3dview/display/overlays>` popover.
-
-View Name
-   If the viewport camera is not aligned, the view is named "User" plus
-   the perspective of the viewport camera.
-Playback Frame Rate (FPS)
-   Displays the Frames Per Second screen rate, while playing an animation back.
-Object Info
-   Shown in brackets is the current frame. Followed by the path of the :ref:`active object <object-active>`.
-   And optionally the selected :doc:`shape key </animation/shape_keys/index>` and
-   in brackets (<>) the :doc:`/animation/markers` name on the current frame.
-   The color of the Object Info is set by the :ref:`animation-state-colors` (keyframe only).
+The top left corner of the viewport shows various bits of information --
+see :doc:`Viewport Overlays </editors/3dview/display/overlays>` for details.
