@@ -90,15 +90,18 @@ Ignore Transparent
 Limit to Viewport
    When enabled, fill only visible areas in the viewport.
 
+
 Gap Closure
 ^^^^^^^^^^^
 
 Gap closure lines are automatic temporarily lines that help to close gaps on the strokes.
 
 .. _bpy.types.BrushGpencilSettings.extend_stroke_factor:
-   
+
 Size
    Control the Size of the line extension or the circumference to use to calculate the lines that will close the gaps.
+
+.. _bpy.types.BrushGpencilSettings.fill_extend_mode:
 
 Mode
    Sets the type of Gap closure method to use.
