@@ -41,7 +41,7 @@ Minimum Width
    It does this based on the distance between these vertices compared to the distance between
    the vertices in the original loops. So 50% means that if the distance between two vertices
    that will be newly created is smaller than half the distance between two vertices in the original loop,
-   they will be merged together, resulting in only a single new vertex. This is also demonstrated in the video above.
+   they will be merged together, resulting in only a single new vertex.
 Interpolation
    This can be set to either cubic or linear. Linear is just a flat interpolation,
    while cubic tries to retain the surface tangents, resulting in more fluid curves.
