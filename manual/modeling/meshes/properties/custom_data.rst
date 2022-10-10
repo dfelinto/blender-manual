@@ -3,6 +3,12 @@
 Geometry Data
 *************
 
+This panel is used to manage any generic data attributes that a mesh could have.
+
+.. warning::
+
+   Clearing any data will result in the data loss of these values.
+
 .. _bpy.ops.mesh.customdata_mask_clear:
 
 Clear Sculpt-Mask Data
@@ -22,23 +28,21 @@ Add/Clear Skin Data
 Add/Clear Custom Split Normals Data
    Adds :ref:`Custom Split Normals <modeling_meshes_normals_custom>` data, if none exists yet.
 
+.. _bpy.ops.mesh.customdata_bevel_weight_edge_add:
+.. _bpy.ops.mesh.customdata_bevel_weight_edge_clear:
 
-.. _bpy.types.Mesh.use_customdata_vertex_bevel:
+Add/Clear Edge Bevel Weight
+   Adds a zero :ref:`Edge Bevel Weight <modeling-edges-bevel-weight>` value to all edges of the mesh.
+   If edge bevel data does exist, this operator will delete all that data.
 
-Store
-   Vertex Bevel Weight
-      Save the :ref:`Vertex Bevel Weight <modeling-vertex-bevel-weight>` with the mesh data.
+.. _bpy.ops.mesh.customdata_bevel_weight_vertex_add:
+.. _bpy.ops.mesh.customdata_bevel_weight_vertex_clear:
 
-   .. _bpy.types.Mesh.use_customdata_edge_bevel:
-
-   Edge Bevel Weight
-      Save the :ref:`Edge Bevel Weight <modeling-edges-bevel-weight>` with the mesh data.
+Add/Clear Vertex Bevel Weight
+   Adds a zero :ref:`Vertex Bevel Weight <modeling-vertex-bevel-weight>` value to all edges of the mesh.
+   If edge bevel data does exist, this operator will delete all that data.
 
    .. _bpy.types.Mesh.use_customdata_edge_crease:
-
+Store
    Edge Crease
       Save the :ref:`Edge Crease <modeling-edges-crease-subdivision>` with the mesh data.
-
-   .. warning::
-
-      Disabling any of these properties will result in the data loss of these values.
