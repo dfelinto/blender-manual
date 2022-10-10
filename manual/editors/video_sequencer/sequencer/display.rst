@@ -1,7 +1,13 @@
+.. |overlays-icon| image:: /images/editors_3dview_display_overlays.png
 
 *******
 Display
 *******
+
+.. reference::
+
+   :Mode:      All Modes
+   :Header:    |overlays-icon| :menuselection:`Overlays`
 
 .. _bpy.types.SpaceSequenceEditor.show_strip_overlay:
 .. _bpy.types.SequencerTimelineOverlay:
