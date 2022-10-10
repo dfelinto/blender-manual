@@ -38,7 +38,7 @@ Hide (eye icon)
    Hides the channel(s)/curve (Graph editor only).
 Modifiers (wrench icon)
    Deactivates the F-Curve modifiers of the selected curve or all curves in the channel.
-Mute (speaker icon)
+Mute (checkbox)
    Deactivates the channel/curve.
 Lock (padlock icon) :kbd:`Tab`
    Toggle channel/curve from being editable.

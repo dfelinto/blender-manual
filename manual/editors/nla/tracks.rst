@@ -15,7 +15,7 @@ the bottom layer first, to the top, last.
 Solo (star icon)
    Toggling *Solo Track* causes only the selected tracks effects to be visible when animating.
    This is very useful for debugging complex animations.
-Mute (speaker icon)
+Mute (checkbox)
    Keeps the track from having an effect on the animation. (Mute only applies when *Solo* is not used.)
    All strips in that track are shown as being muted (dashed outline).
 Lock (padlock icon)
