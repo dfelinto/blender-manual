@@ -68,3 +68,6 @@ Mode
 
 Start at Current Frame
    When enabled, start the tracing process at the current image frame.
+
+Trace Frame
+   Used to trace only one frame of the image sequence, set to zero to trace all.

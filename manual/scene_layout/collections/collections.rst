@@ -76,6 +76,7 @@ Usage
       Objects in the collection will only produce intersection lines in
       the scene and their own geometry stay invisible.
    :No Intersection: Include this collection but do not generate intersection lines.
+   :Force Intersection: Generate intersection lines even with objects that disabled intersection.
 
 .. _bpy.types.Collection.lineart_use_intersection_mask:
 

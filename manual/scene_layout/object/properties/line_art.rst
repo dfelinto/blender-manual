@@ -36,6 +36,7 @@ Usage
       The object will not be loaded into line art at all.
    :No Intersection:
       The object will not generate intersection lines on itself or with other objects in scene.
+   :Force Intersection: Generate intersection lines even with objects that disabled intersection.
 
 .. _bpy.types.ObjectLineArt.use_crease_override:
 

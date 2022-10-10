@@ -28,7 +28,7 @@ Properties
 Object Properties
 ^^^^^^^^^^^^^^^^^
 
-Selected Only
+Limit to: Selected Only
    Only export the selected objects. Otherwise export all objects in the scene.
 Scale
    Global scale to use on export.
@@ -39,7 +39,7 @@ Forward Axis, Up Axis
 
    Blender uses Y Forward, Z Up (since the front view looks along the +Y direction).
    For example, its common for applications to use Y as the up axis, in that case -Z Forward, Y Up is needed.
-Apply Modifiers
+Objects: Apply Modifiers
    Export objects using the evaluated mesh, meaning the resulting mesh after all
    :doc:`Modifiers </modeling/modifiers/index>` have been calculated.
 Properties
@@ -64,8 +64,8 @@ Path Mode
    :Copy: Copy the file on exporting and reference it with a relative path.
 
 
-Geometry
-^^^^^^^^
+Geometry Properties
+^^^^^^^^^^^^^^^^^^^
 
 UV Coordinates
    Write out the active UV layers coordinates from Blender.
@@ -85,8 +85,8 @@ Curves as NURBS
    Write out NURBS curves as OBJ NURBS rather than converting to geometry.
 
 
-Grouping
-^^^^^^^^
+Grouping Properties
+^^^^^^^^^^^^^^^^^^^
 
 Object Groups
    Write out each Blender object as an OBJ object.

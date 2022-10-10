@@ -99,6 +99,17 @@ Motion Threshold
       Once the cursor moves past this threshold, selection stops cycling and picks the closest item.
 
 
+Touchpad
+========
+
+.. note::
+
+   This panel is only available on Windows or macOS.
+
+Multitouch Gestures
+   Use multitouch gestures for navigation with touchpad, instead of scroll wheel emulation.
+
+
 Tablet
 ======
 
