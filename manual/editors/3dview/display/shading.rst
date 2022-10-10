@@ -1,7 +1,6 @@
+.. |shading-icon| image:: /images/editors_3dview_display_shading.png
 .. _bpy.types.View3DShading.type:
-.. |shading-icon| image:: /images/editors_3dview_display_shading.png
 .. _view3d-viewport-shading:
-.. |shading-icon| image:: /images/editors_3dview_display_shading.png
 
 ****************
 Viewport Shading

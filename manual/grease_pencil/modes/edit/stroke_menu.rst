@@ -111,7 +111,8 @@ Trims selected stroke to first loop or intersection.
 
           Result of trim operation.
 
-.. _bpy.ops.gpencil.stroke_trim:
+
+.. _bpy.ops.gpencil.stroke_outline:
 
 Outline
 =======
