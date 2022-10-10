@@ -8,6 +8,11 @@ Build Modifier
 The *Build* modifier make strokes appear or disappear in a frame range to
 create the effect of animating lines being drawn or erased.
 
+.. seealso::
+
+   This documentation refers to the Build Modifier specific to the Grease Pencil object.
+   For uses with other object types refer to the general :doc:`/modeling/modifiers/generate/build`.
+
 
 Options
 =======

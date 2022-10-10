@@ -8,6 +8,11 @@ Mirror Modifier
 The *Mirror* modifier mirrors the strokes along its local X, Y and/or Z axes, across the :term:`Object Origin`.
 It can also use another object as the mirror center, then use that object's local axes instead of its own.
 
+.. seealso::
+
+   This documentation refers to the Mirror Modifier specific to the Grease Pencil object.
+   For uses with other object types refer to the general :doc:`/modeling/modifiers/generate/mirror`.
+
 
 Options
 =======

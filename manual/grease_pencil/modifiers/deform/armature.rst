@@ -15,6 +15,11 @@ this object can be deformed accurately so that geometry does not have to be anim
 
    For more details on armatures usage, see the :doc:`armature section </animation/armatures/index>`.
 
+.. seealso::
+
+   This documentation refers to the Armature Modifier specific to the Grease Pencil object.
+   For uses with other object types refer to the general :doc:`/modeling/modifiers/deform/armature`.
+
 
 Options
 =======

@@ -12,6 +12,11 @@ As the hook moves, it pulls points from the strokes with it.
 You can think of it as animated
 :doc:`Proportional Editing </editors/3dview/controls/proportional_editing>`.
 
+.. seealso::
+
+   This documentation refers to the Hook Modifier specific to the Grease Pencil object.
+   For uses with other object types refer to the general :doc:`/modeling/modifiers/deform/hooks`.
+
 
 Options
 =======

@@ -12,6 +12,11 @@ It moves each point of the object being modified to the closest position on the 
 
    :doc:`Shrinkwrap Constraint </animation/constraints/relationship/shrinkwrap>`.
 
+.. seealso::
+
+   This documentation refers to the Shrinkwrap Modifier specific to the Grease Pencil object.
+   For uses with other object types refer to the general :doc:`/modeling/modifiers/deform/shrinkwrap`.
+
 
 Options
 =======

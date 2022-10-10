@@ -14,6 +14,11 @@ the shape of a :doc:`Lattice </animation/lattice>` object.
    then selecting the lattice object last and pressing :kbd:`Ctrl-P` and choosing *Lattice Deform*.
    This will both add Lattice Modifiers to the selected objects and parent them to the lattice.
 
+.. seealso::
+
+   This documentation refers to the Lattice Modifier specific to the Grease Pencil object.
+   For uses with other object types refer to the general :doc:`/modeling/modifiers/deform/lattice`.
+
 
 Options
 =======
