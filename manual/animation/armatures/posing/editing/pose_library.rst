@@ -205,18 +205,7 @@ The **Pose Library panels will appear** when the active object is an armature
 and in Pose Mode. The :doc:`catalog system </files/asset_libraries/catalogs>`
 and the filter bar at the top can be used to search for specific poses.
 
-Apply
-   Applies the pose to the character. If there are any bones selected,
-   the pose will be applied only to those bones. This makes it possible to
-   create a "finger guns" pose by applying a fist pose to the hand,
-   and then an "open hand" pose for only the index finger and thumb.
-   Double-clicking a pose will also apply it.
-
-Interactive Blend
-   Allows you to gradually blend a pose from the library into the character's pose.
-   Click the button, then move the mouse left/right to determine the desired blend.
-   While blending, you can use the Tab key to toggle between the original and the blended pose.
-   As usual in Blender, left-click or press Enter to confirm; right-click or press Escape to cancel the operator.
+.. _bpy.types.WindowManager.poselib_flipped:
 
 Flip Pose
    Will mirror the pose from left to right and vice versa.
@@ -225,7 +214,28 @@ Flip Pose
    This can of course also be applied for asymmetrical facial expressions
    that depend on the camera angle.
 
-Select, Deselect
+The following operators can be accessed by :kbd:`RMB` on a pose:
+
+.. _bpy.ops.poselib.apply_pose_asset:
+
+Apply Pose
+   Applies the pose to the character. If there are any bones selected,
+   the pose will be applied only to those bones. This makes it possible to
+   create a "finger guns" pose by applying a fist pose to the hand,
+   and then an "open hand" pose for only the index finger and thumb.
+   Double-clicking a pose will also apply it.
+
+.. _bpy.ops.poselib.blend_pose_asset:
+
+Blend Pose
+   Allows you to gradually blend a pose from the library into the character's pose.
+   Click the button, then move the mouse left/right to determine the desired blend.
+   While blending, you can use the Tab key to toggle between the original and the blended pose.
+   As usual in Blender, left-click or press Enter to confirm; right-click or press Escape to cancel the operator.
+
+.. _bpy.ops.poselib.pose_asset_select_bones:
+
+Select/Deselect Pose Bones
    Select or deselect the bones that are used in the pose. This can be used to create a selection set,
    or simply show what was part of the pose and what wasn't.
 
