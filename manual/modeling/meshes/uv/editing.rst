@@ -407,15 +407,16 @@ Live Unwrap
    Note, this is different than the :ref:`Live Unwrap <bpy.types.ToolSettings.use_edge_path_live_unwrap>`
    option in the 3D Viewport.
 
-.. _bpy.types.SpaceUVEditor.pixel_snap_mode:
+.. _bpy.types.SpaceUVEditor.pixel_round_mode:
 
-Snap to Pixels
-   Disabled
-      UVs will not be snapped.
-   Corner
-      Will force the UVs to snap to the corners of the nearest pixels of an image if loaded.
-   Center
-      Will force the UVs to snap to the center of the nearest pixels of an image if loaded.
+Round to Pixels
+   Round UVs to pixels while editing.
+
+   :Disabled: UVs will not be rounded.
+   :Corner:
+      Will force the UVs to round to the corners of the nearest pixels of an image if loaded.
+   :Center:
+      Will force the UVs to round to the center of the nearest pixels of an image if loaded.
 
 .. _bpy.types.SpaceUVEditor.lock_bounds:
 
