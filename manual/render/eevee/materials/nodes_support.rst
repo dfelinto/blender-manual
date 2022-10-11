@@ -146,8 +146,7 @@ Light Path
    some of the outputs are supported in particular cases.
    This node makes it possible to tweak indirect lighting in the shader.
 
-   Only a subset of the outputs is supported and the ray depth has not exactly
-   the same meaning:
+   Only a subset of the outputs is supported and the ray depth does not exactly have the same meaning:
 
    - *Is Camera*: Supported.
    - *Is Shadow*: Supported.
@@ -187,17 +186,10 @@ Wireframe
    Pixel size option does not give exactly the same output as Cycles. The width can be a bit different.
 
 
-Other Nodes
------------
+Texture Nodes
+-------------
 
-Light Falloff
-   Not supported.
-
-Bump
-   Imprecision due to less precise derivatives.
-
-Displacement/Vector Displacement
-   Not supported.
+Most texture nodes are supported except for the exceptions listed below:
 
 :abbr:`IES (Illuminating Engineering Society)` Texture
    Not supported.
@@ -210,8 +202,24 @@ Image Texture
    Using Box projection with *Extend type* set to Clip or Extend is not supported.
    Instead, it will always use Repeat.
 
-Material Output
-   Displacement output behavior is broken compared to Cycles.
-
 Point Density
    Not supported.
+
+Sky Texture
+   In Nishita mode, the *Sun Disc* property is not supported.
+
+
+Other Nodes
+-----------
+
+Light Falloff
+   Not supported.
+
+Bump
+   Imprecision due to less precise derivatives.
+
+Displacement/Vector Displacement
+   Not supported.
+
+Material Output
+   Displacement output behavior is broken compared to Cycles.
