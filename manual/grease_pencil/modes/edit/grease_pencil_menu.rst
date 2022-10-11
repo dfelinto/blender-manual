@@ -300,18 +300,12 @@ but they look right from a certain plane or from the camera view.
 You can use Reproject to flatten all the selected strokes from a certain viewpoint.
 
 Reprojected Type
-   Front
-      Reproject selected strokes onto the front plane (XZ).
-   Side
-      Reproject selected strokes onto the side plane (YZ).
-   Top
-      Reproject selected strokes onto the top plane (XY).
-   View
-      Reproject selected strokes onto the current view.
-   Surface
-      Reproject selected strokes onto the mesh surfaces.
-   Cursor
-      Reproject selected strokes onto 3D cursor rotation.
+   :Front: Reproject selected strokes onto the front plane (XZ).
+   :Side: Reproject selected strokes onto the side plane (YZ).
+   :Top: Reproject selected strokes onto the top plane (XY).
+   :View: Reproject selected strokes onto the current view.
+   :Surface: Reproject selected strokes onto the mesh surfaces.
+   :Cursor: Reproject selected strokes onto 3D cursor rotation.
 
 Surface Offset
    When Surface Mode is activated controls the stroke offset from the object.
