@@ -7,7 +7,6 @@ Menus
 =====
 
 .. figure:: /images/interface_window-system_topbar_menus.png
-   :align: left
 
 
 .. _topbar-blender_menu:
@@ -17,30 +16,27 @@ Blender Menu
 
 Splash Screen
    Open the :ref:`splash`.
-About Blender
-   Opens a menu displaying information about Blender.
 
-   Version
-      The Blender version.
-   Date
-      Date when Blender was compiled.
-   Hash
-      The Git Hash of the build. This can be useful to give to
-      support personnel when diagnosing a problem.
-   Branch
-      Optional branch name.
-   Release Notes
-      Open the latest release notes.
-   Credits
-      Open credits website.
-   License
-      Open License website.
-   Blender Website
-      Open main Blender website.
-   Blender Store
-      Open the Blender store.
-   Development Fund
-      Open the developer fund website.
+.. _bpy.ops.wm.splash_about:
+
+About Blender
+   Opens a menu displaying the following information about Blender:
+
+   - **Version**: The Blender version.
+   - **Date**: Date when Blender was compiled.
+   - **Hash**: The Git Hash of the build.
+     This can be useful to give to support personnel when diagnosing a problem.
+   - **Branch**: Optional branch name.
+   - **Windowing Environment**: On Linux, this will show either Wayland or X11 depending
+     on the windowing environment that Blender is running on.
+
+   - **Release Notes**: Open the latest release notes.
+   - **Credits**: Open credits website.
+   - **License**: Open License website.
+   - **Blender Website**: Open main Blender website.
+   - **Blender Store**: Open the Blender store.
+   - **Development Fund**: Open the developer fund website.
+
 Install Application Template
    Install a new :ref:`application template <app_templates>`.
 
