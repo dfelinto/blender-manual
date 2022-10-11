@@ -125,8 +125,10 @@ Random per Island
    Random per Island is not supported.
 
 Attribute
-   Defaults to active UV layer. Only "density", "color", "flame" and "temperature" built-in attributes are supported.
-   UVs and Color Attributes are supported.
+   Defaults to active UV layer. Only "density", "color", "flame" and "temperature" built-in Geometry attributes
+   are supported. UVs and Color Attributes are supported.
+   Only up to 8 Object or Instancer attributes per material (both types share the same limit), and 512 View Layer
+   attributes per scene are supported.
 
 Bevel
    Not supported.
