@@ -103,7 +103,7 @@ Size
 
 .. _bpy.types.BrushGpencilSettings.fill_extend_mode:
 
-Mode
+Mode :kbd:`S`
    Sets the type of Gap closure method to use.
 
    :Radius: Uses the Radius of circumference of opened nearest points to calculate a line that close the gap.
@@ -113,6 +113,7 @@ Mode
 
 Visual Aids
    Toggle show closure lines helper.
+
 
 Usage
 =====
