@@ -138,6 +138,8 @@ Properties
 Transform
 ^^^^^^^^^
 
+Scale
+   Value by which to scale the imported objects in relation to the world's origin.
 Clamp Bounding Box
    OBJ-files often vary greatly in scale, this setting clamps the imported file to a fixed size.
 Forward Axis, Up Axis
