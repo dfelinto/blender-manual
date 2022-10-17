@@ -165,6 +165,8 @@ Invert Visible Face Sets
 Hides all geometry that is part of a face set and makes all hidden geometry that is part of a face set visible.
 
 
+.. _bpy.ops.sculpt.reveal_all:
+
 Show All Face Sets
 ==================
 
