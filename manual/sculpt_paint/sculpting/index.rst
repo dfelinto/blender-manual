@@ -13,5 +13,6 @@
    toolbar.rst
    tools/index.rst
    tool_settings/index.rst
+   controls.rst
    adaptive.rst
    editing/index.rst

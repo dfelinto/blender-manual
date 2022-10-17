@@ -94,34 +94,49 @@ Plane Trim
 Advanced
 ========
 
-Auto-Masking
-   Topology
-      Setting per each brush, affects only vertices connected to the active vertex under the brush.
-      This can be used for isolating disconnected meshes, face sets, masking cavities,
-      mesh boundary edges, or creating topological falloffs.
-   Face Sets
-      Affect only vertices that share face sets with active vertex.
-   Mesh Boundary
-      Does not affect non-manifold boundary edges.
-   Face Sets Boundary
-      Does not affect vertices which belong to a face set boundary.
+.. _bpy.types.Brush.use_automasking_topology:
+
+Topology
+   Setting per each brush, affects only vertices connected to the active vertex under the brush.
+   This can be used for isolating disconnected meshes, face sets, masking cavities,
+   mesh boundary edges, or creating topological falloffs.
+
+.. _bpy.types.Brush.use_automasking_face_sets:
+
+Face Sets
+   Affect only vertices that share face sets with active vertex.
+
+.. _bpy.types.Brush.use_automasking_boundary_edges:
+
+Mesh Boundary
+   Does not affect non-manifold boundary edges.
+
+.. _bpy.types.Brush.use_automasking_boundary_face_sets:
+
+Face Sets Boundary
+   Does not affect vertices which belong to a face set boundary.
 
 Propagation Steps
    The distance where *Mesh Boundary Auto-Masking* is going to protect vertices from the fully masked edge.
+
+.. _bpy.types.Brush.sculpt_plane:
 
 Sculpt Plane
    Use this menu to set the plane in which the sculpting takes place.
    In other words, the primary direction that the vertices will move.
 
-   Area Plane
+   :Area Plane:
       The movement takes place in the direction of average normal for all active vertices within the brush area.
       Essentially, this means that the direction is dependent on the surface beneath the brush.
-   View Plane
+   :View Plane:
       Sculpting in the plane of the current 3D Viewport.
-   X, Y, Z Plane
+   :X, Y, Z Plane:
       The movement takes place in the positive direction of one of the global axes.
 
-Use Original
+.. _bpy.types.Brush.use_original_normal:
+.. _bpy.types.Brush.use_original_plane:
+
+Original
    Normal
       When locked it keeps using the normal of the surface where stroke was initiated,
       instead of the surface normal currently under the cursor.

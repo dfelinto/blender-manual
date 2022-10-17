@@ -18,24 +18,9 @@ Display
       Constructive modifiers (like Subdivision Surface, Mirror and other) get deactivated,
       because they could give inaccurate results.
 
-Auto-Masking
-   These settings automatically mask geometry based on geometric properties of the mesh.
-   Note, these options are applied across all sculpt brushes, however, they can also be configured
-   per brush in the :ref:`Advanced Brush Settings <sculpt-tool-settings-brush-settings-advanced>`.
-   These options can be accessed via a :ref:`bpy.types.UIPieMenu` by pressing :kbd:`Alt-A`.
+   .. seealso::
 
-   Topology
-      Brush affects only vertices connected to the active vertex under the brush.
-   Face Sets
-      Affect only vertices that share face sets with active vertex.
-   Mesh Boundary
-      Does not affect non-manifold boundary edges.
-   Face Sets Boundary
-      Does not affect vertices which belong to a face set boundary.
-
-.. seealso::
-
-   See the :ref:`Display <sculpt-paint-brush-display>` options.
+      See the :ref:`Display <sculpt-paint-brush-display>` options.
 
 
 Gravity
