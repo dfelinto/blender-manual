@@ -111,7 +111,7 @@ Color
    :Random:
       A random color will be selected for every object in the scene.
    :Texture:
-      Display the active texture using the active UV mapping coordinates.
+      Show the texture from the active image texture node using the active UV map coordinates
       When an object has no active texture the object will be rendered with the settings
       in the Viewport Display :ref:`properties-material-viewport-display` panel.
 
