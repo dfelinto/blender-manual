@@ -185,6 +185,9 @@ There is one option for controlling the import units:
 Import Data Options
 -------------------
 
+Custom Normals
+   Use the mesh normals defined in the collada file, if they are defined,
+   otherwise Blender will recompute them during the import process.
 Import Units
    If not enabled the imported data will be rescaled according to the currently used unit system.
    If this option is enabled, then Blender will adjust itself to the unit system as provided by the Collada file.
