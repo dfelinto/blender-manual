@@ -22,6 +22,7 @@ opens a popover with additional options described below.
 Pressing :kbd:`Z` opens a pie menu for changing the shading mode.
 Pressing :kbd:`Shift-Z` switches between the current shading mode and Wireframe.
 
+
 .. _3dview-shading-rendered:
 
 Wireframe
@@ -67,31 +68,125 @@ Options
 Solid
 =====
 
-This mode utilizes the Workbench engine to render the 3D Viewport.
-It shows solid geometry rather than just wireframes,
-but is still highly simplified as it doesn't show materials
-or scene lighting.
+This mode utilizes the :doc:`Workbench Render Engine </render/workbench/introduction>` to render the 3D Viewport.
+It shows solid geometry but uses simplified shading and lighting without the use of shader nodes.
+Solid mode is good for modeling and sculpting, and is really useful with the multitude of
+options to emphasize certain geometric features.
 
 Lighting
-   See :doc:`Workbench Lighting </render/workbench/lighting>`.
+   How lights are computed.
+
+   :Flat:
+      Do not calculate any lighting. The base color of the scene will be rendered.
+   :Studio:
+      Use studio lights to light the objects.
+      The studio lights can be :ref:`configured in the preferences <prefs-lights-studio>`.
+      Studio lights can follow the camera or be fixed. When fixed the angle of the lights can be adjusted.
+
+      World Space Lighting
+         Uses world space lighting so lights do not follow the view camera.
+      Rotation
+         The rotation of the studio lights on the Z axis.
+   :MatCap:
+      Use a material capture to light the objects in the scene.
+      MatCaps can be flipped horizontally by clicking the Flip MatCap button.
+
+      Custom MatCaps can be :ref:`loaded in the preferences <prefs-lights-matcaps>`.
 
 Color
-   See :doc:`Workbench Color </render/workbench/color>`.
+   The source to compute the color for objects in the viewport.
+
+   :Material:
+      Use the color that can be set per material
+      in the Viewport Display :ref:`properties-material-viewport-display` panel.
+   :Object:
+      Use the color that can be set per object
+      in the Viewport Display :ref:`properties-object-viewport-display` panel.
+   :Attribute:
+      Display the active Color Attribute of an object. When an object has
+      no active Color Attribute it will be rendered in the color set
+      in the Viewport Display :ref:`properties-object-viewport-display` panel.
+   :Single:
+      Render the whole scene using a single color. The color can be chosen.
+   :Random:
+      A random color will be selected for every object in the scene.
+   :Texture:
+      Display the active texture using the active UV mapping coordinates.
+      When an object has no active texture the object will be rendered with the settings
+      in the Viewport Display :ref:`properties-material-viewport-display` panel.
 
 Background
    How the background is displayed in the 3D Viewport.
 
-   Theme
+   :Theme:
       Use the background of the theme. This can be configured in the
       :doc:`Themes Preferences </editors/preferences/themes>`
       under :menuselection:`3D Viewport --> Theme Space --> Gradient Colors`.
-   World
+   :World:
       Use the color from the :doc:`World </render/lights/world>`'s Viewport Display options.
-   Viewport
+   :Viewport:
       Select a custom color for the background of the 3D Viewport.
 
+
 Options
-   See :doc:`Workbench Options </render/workbench/options>`.
+-------
+
+Backface Culling
+   Use backface culling to hide backsides of faces.
+
+X-Ray
+   Render the scene transparent. With the slider you can control how
+   transparent the scene should appear.
+
+Shadow
+   Renders a sharp shadow in the scene.
+
+   Darkness
+      Defines how dark the shadow should be rendered. This slider can be adjusted
+      between 0 (shadow not visible) and 1 (shadow is black).
+
+   Light Direction
+      Controls the direction of the light source that casts the shadows.
+
+   Shadow Shift
+      Controls the Shadow termination angle. It can be used to limit self shadowing artifacts.
+
+   Shadow Focus
+      Controls the falloff near the edge of the shadow.
+
+Cavity
+   Highlight ridges and valleys in the scene geometry.
+
+   Type
+      Method how to calculate the cavity.
+
+      :World: More precise but is slower to calculate.
+      :Screen: Fast but does not take the size of the ridges and valleys into account.
+      :Both: Both will use both methods.
+
+   Ridge
+      Control the visibility of ridges.
+
+   Valley
+      Control the visibility of valleys.
+
+Depth of Field
+   Use the Depth of Field settings of the active camera in the viewport.
+   Only visible when looking through the camera.
+
+   The settings are located on :menuselection:`Properties --> Camera --> Depth of Field` panel.
+
+Outline
+   Render the outline of objects in the viewport. The color of the outline can be adjusted.
+
+Specular Highlighting
+   Render specular highlights.
+
+   .. note::
+
+      Only available when Lighting is set to *Studio* lighting or when a MatCap
+      has been selected that contains a specular pass.
+
 
 .. _3dview-material-preview:
 

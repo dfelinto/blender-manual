@@ -5,12 +5,9 @@ Particle Edit Mode
 ******************
 
 Using *Particle Edit Mode* you can edit the keyed points (keyframes)
-and paths of *Baked*
-:doc:`Hair </physics/particles/hair/index>`,
-:doc:`Particle </physics/particles/index>`,
-:doc:`Cloth </physics/cloth/index>`, and
-:doc:`Soft Body </physics/soft_body/index>` simulations.
-(You can also edit and style hair before baking.)
+and paths of :doc:`Hair </physics/particles/hair/index>`,
+:doc:`Particle </physics/particles/index>`, :doc:`Cloth </physics/cloth/index>`, and
+:doc:`Soft Body </physics/soft_body/index>` simulations. (You can also edit and style hair before baking.)
 
 Since working in Particle Edit Mode is pretty easy and very similar
 to working with vertices in the 3D Viewport, we will show how to set up

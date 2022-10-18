@@ -13,7 +13,9 @@ Its primary task is to display a scene in the 3D Viewport when it is being worke
    the Workbench render engine can be selected as the *Render Engine* in the Render properties.
 
 By default the 3D Viewport uses Workbench to shade and light objects.
-Shading settings can be tweaked in the 3D Viewport's :doc:`Shading popover </editors/3dview/display/shading>`.
+Unlike other render engines such as Eevee or Cycles, the Workbench engine does not use shader nodes.
+Instead, shading settings can be tweaked in the 3D Viewport's :doc:`Shading popover </editors/3dview/display/shading>`
+or the render properties when doing final renders.
 
 Workbench supports assigning random colors to objects to make each visually distinct.
 Other coloring mechanisms also exist, including; materials, Color Attributes, and textures.

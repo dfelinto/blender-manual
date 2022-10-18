@@ -10,10 +10,11 @@ The lighting conditions that will be used can be set in the Lighting panel.
 
    :Panel:     :menuselection:`Properties --> Render --> Lighting`
 
-Flat
-   Do not calculate any lighting. The base color of the scene will be rendered.
+.. _bpy.types.View3DShading.light:
 
-Studio
+:Flat:
+   Do not calculate any lighting. The base color of the scene will be rendered.
+:Studio:
    Use studio lights to light the objects.
    The studio lights can be :ref:`configured in the preferences <prefs-lights-studio>`.
    Studio lights can follow the camera or be fixed. When fixed the angle of the lights can be adjusted.
@@ -25,9 +26,8 @@ Studio
 
 .. _render-workbench-matcap:
 
-MatCap
+:MatCap:
    Use a material capture to light the objects in the scene.
+   MatCaps can be flipped horizontally by clicking the Flip MatCap button.
 
    Custom MatCaps can be :ref:`loaded in the preferences <prefs-lights-matcaps>`.
-
-   MatCaps can be flipped horizontally by clicking the Flip MatCap button.
