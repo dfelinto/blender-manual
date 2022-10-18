@@ -113,6 +113,27 @@ Cursor to Origin
    Places the cursor to the location (0, 0, 0).
 
 
+Round to Pixels
+===============
+.. reference::
+
+   :Editor:    UV Editor
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`UV --> Round to Pixels`
+
+During UV transforms, you can use round to pixels to help with matching features in the image
+or ensure your UVs have precise horizontal, vertical or diagonal alignment.
+
+Note that Round to Pixels is applied after any snapping modes.
+
+Disabled
+   Rounding is disabled.
+Corner
+   Round to pixel corners.
+Center
+   Round to pixel centers.
+
+
 .. _bpy.ops.uv.weld:
 
 Merge
