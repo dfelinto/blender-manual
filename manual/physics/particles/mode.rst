@@ -17,6 +17,13 @@ to working with vertices in the 3D Viewport, we will show how to set up
 a particle system and then give a reference of the various functions.
 
 
+.. important::
+
+   Particle Edit Mode, specifically for hair is deprecated;
+   please use the new :ref:`bpy.ops.object.curves_empty_hair_add`
+   object with its associated :doc:`Sculpt Mode </sculpt_paint/curves_sculpting/introduction>` instead.
+
+
 Usage
 =====
 
