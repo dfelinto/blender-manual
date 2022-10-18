@@ -1,15 +1,15 @@
 .. _bpy.ops.gpencil.trace_image:
 
-*****************************
-Trace Images to Grease Pencil
-*****************************
+****************************
+Trace Image to Grease Pencil
+****************************
 
 .. reference::
 
    :Mode:      Object Mode
-   :Menu:      :menuselection:`Object --> Convert --> Trace Images to Grease Pencil`
+   :Menu:      :menuselection:`Object --> Convert --> Trace Image to Grease Pencil`
 
-The *Trace Images to Grease Pencil* tool traces a black and white image and generates Grease Pencil strokes.
+The *Trace Image to Grease Pencil* tool traces a black and white image and generates Grease Pencil strokes.
 If the image is not black and white, it will be internally converted.
 For better results, convert the images manually to black and white.
 Also try to keep the resolution of the image small; high resolutions can produce very dense strokes.
@@ -19,7 +19,7 @@ Usage
 =====
 
 #. Add an :ref:`Image Empty <bpy.types.Object.empty_image>` to the scene.
-#. Run *Trace Images to Grease Pencil*.
+#. Run *Trace Image to Grease Pencil*.
 
 
 Options
