@@ -97,7 +97,7 @@ Snapping in the UV Editor is similar to
 For the snap to pixel options to work an image has to be loaded.
 
 Selected to Pixels
-   Moves selection to nearest pixel. See also *Snap to pixel* above.
+   Moves selection to nearest pixel. See also *Round to Pixels* below.
 Selected to Cursor
    Moves selection to 2D cursor location.
 Selected to Cursor (Offset)
@@ -111,28 +111,6 @@ Cursor to Selected
    Moves the Cursor to the center of the selection.
 Cursor to Origin
    Places the cursor to the location (0, 0, 0).
-
-
-Round to Pixels
-===============
-.. reference::
-
-   :Editor:    UV Editor
-   :Mode:      Edit Mode
-   :Menu:      :menuselection:`UV --> Round to Pixels`
-
-During UV transforms, you can use round to pixels to help with matching features in the image
-or ensure your UVs have precise horizontal, vertical or diagonal alignment.
-
-Note that Round to Pixels is applied after any snapping modes.
-
-Disabled
-   Rounding is disabled.
-Corner
-   Round to pixel corners.
-Center
-   Round to pixel centers.
-
 
 .. _bpy.ops.uv.weld:
 
@@ -431,13 +409,16 @@ Live Unwrap
 .. _bpy.types.SpaceUVEditor.pixel_round_mode:
 
 Round to Pixels
-   Round UVs to pixels while editing.
+   During UV transforms, you can use Round to Pixels to help with matching features in the image
+   or ensure your UVs have precise horizontal, vertical or diagonal alignment.
+
+   Note that Round to Pixels is applied after any snapping modes.
 
    :Disabled: UVs will not be rounded.
    :Corner:
-      Will force the UVs to round to the corners of the nearest pixels of an image if loaded.
+      Will force the UVs to round to the corner of the nearest pixel of an image if loaded.
    :Center:
-      Will force the UVs to round to the center of the nearest pixels of an image if loaded.
+      Will force the UVs to round to the center of the nearest pixel of an image if loaded.
 
 .. _bpy.types.SpaceUVEditor.lock_bounds:
 
