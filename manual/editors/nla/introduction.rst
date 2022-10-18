@@ -16,6 +16,9 @@ Header
 View Menu
 ---------
 
+Adjust Last Operation
+   Displays a pop-up panel to alter properties of the last
+   completed operation. See :ref:`bpy.ops.screen.redo_last`.
 Realtime Updates
    When transforming NLA-strips, the changes to the animation are propagated to other views.
 Show Control F-Curves

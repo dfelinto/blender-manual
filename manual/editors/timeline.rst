@@ -280,6 +280,9 @@ View Menu
 
 The *View Menu* controls what you see, and what it looks like.
 
+Adjust Last Operation
+   Displays a pop-up panel to alter properties of the last
+   completed operation. See :ref:`bpy.ops.screen.redo_last`.
 Show Seconds :kbd:`Ctrl-T`
    Whether to show the time in the X axis and the *Playhead* as
    frames (based on the FPS) or as seconds.

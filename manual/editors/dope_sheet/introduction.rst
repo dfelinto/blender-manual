@@ -163,6 +163,10 @@ a second one concerning the action data-blocks, and a few other tools
 View Menu
 ^^^^^^^^^
 
+Adjust Last Operation
+   Displays a pop-up panel to alter properties of the last
+   completed operation. See :ref:`bpy.ops.screen.redo_last`.
+
 .. figure:: /images/animation_keyframes_introduction_interpolation.png
    :align: right
 
