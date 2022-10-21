@@ -8,6 +8,7 @@ Curves
    :Panel:     :menuselection:`Render --> Curves`
 
 .. _bpy.types.RenderSettings.hair_type:
+.. _bpy.types.RenderSettings.hair_subdiv:
 
 .. Editors Note: This part of this page gets copied into:
 .. - :doc:`</render/cycles/render_settings/hair>`
@@ -21,8 +22,6 @@ Shape
 
    :Strip:
       Render curves as a flat ribbon with rounded normals.
-
-.. _bpy.types.RenderSettings.hair_subdiv:
 
 Additional Subdivisions
    Additional subdivisions to be applied on top of the curve resolution set in the

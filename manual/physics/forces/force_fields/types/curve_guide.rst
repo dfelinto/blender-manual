@@ -51,8 +51,6 @@ Options
 Free
    Fraction of particle life time, that is not used for the curve.
 
-.. _bpy.types.FieldSettings.falloff_power:
-
 Falloff Power
    This setting governs the strength of the guide between *Min Distance* and *Max Distance*.
    A falloff of 1 means a linear progression.
@@ -86,9 +84,6 @@ Min Distance
    If you have a falloff of 0, this parameter will have no effect,
    because the field is effective with full strength up to *Max Distance* (or the infinity).
    *Min Distance* is shown with a circle at the endpoints of the curve in the 3D Viewport.
-
-.. _bpy.types.FieldSettings.use_max_distance:
-.. _bpy.types.FieldSettings.distance_max:
 
 Max Distance
    The maximum influence radius. Shown by an additional circle around the curve object.
