@@ -171,7 +171,7 @@ Miter Inner/Outer
 
       The *Spread* slider controls how far the new vertices are from the meeting point.
 
-      The *Profile* slider controls the shape of the arc.
+      The *Profile* curve widget controls the shape of the arc.
 
    .. list-table:: Diagrams of the miter patterns.
 

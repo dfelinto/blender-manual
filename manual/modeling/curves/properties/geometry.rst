@@ -188,7 +188,7 @@ Profile
 
    The custom profile widget.
 
-This widget allows the creation of a user-defined profile with more complexity than
+This :ref:`ui-curve-widget` allows the creation of a user-defined profile with more complexity than
 with the single profile parameter. The modal tool allows toggling the custom profile,
 but the shape of the profile is only editable in the options panel after the operation is confirmed.
 
@@ -198,7 +198,7 @@ then the path is sampled with the number of segments from the Bevel modifier.
 
 .. note::
 
-   The *Profile* slider stays active when miters are enabled
+   The *Profile* curve widget stays active when miters are enabled
    because it still controls the shape of the miter profiles.
 
 Presets

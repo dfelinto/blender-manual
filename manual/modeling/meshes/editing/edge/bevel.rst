@@ -174,7 +174,7 @@ Miter Outer :kbd:`O`
    :Arc:
       Two vertices are introduced near the intersection, and a curved arc joins them together.
       The *Spread* slider controls how far the new vertices are from the intersection.
-      The *Profile* slider controls the shape of the arc.
+      The *Profile* curve widget controls the shape of the arc.
 
    The current choices are shown in this diagram, where the outer miter is along the horizontal surface.
 
@@ -282,7 +282,7 @@ Profile Type :kbd:`Z`
 
          The custom profile widget.
 
-      This widget allows the creation of a user-defined profile with more complexity than
+      This :ref:`ui-curve-widget` allows the creation of a user-defined profile with more complexity than
       with the single profile parameter. The modal tool allows toggling the custom profile,
       but the shape of the profile is only editable in the options panel after the operation is confirmed.
 
@@ -292,7 +292,7 @@ Profile Type :kbd:`Z`
 
       .. note::
 
-         The *Profile* slider stays active when miters are enabled
+         The *Profile* curve widget stays active when miters are enabled
          because it still controls the shape of the miter profiles.
 
       Presets
