@@ -123,6 +123,7 @@ Use Creases
 
 Use Custom Normals
    Interpolates existing :ref:`modeling_meshes_normals_custom` of the resulting mesh.
+   Otherwise, new faces will have the overall normal orientation of that original face.
 
 
 Keyboard Shortcuts
@@ -184,9 +185,8 @@ Known Limitations
 Non-Contiguous Normals
 ----------------------
 
-Blender's subdivision system produces nice smooth subdivided meshes, but any subdivided face
-(that is, any small face created by the algorithm from a single face of the original mesh),
-shares the overall normal orientation of that original face.
+Abrupt normal changes will prevent portions of the mesh from producing a smooth subdivision.
+Instead, these portions with non-contiguous normals will be subdivided using the "Simple" subdivision method.
 
 .. list-table::
 
@@ -200,11 +200,5 @@ shares the overall normal orientation of that original face.
 
           Side view of image on the left.
 
-Abrupt normal changes can produce ugly black gouges even though
-these flipped normals are not an issue for the shape itself.
-
-A quick way to fix this is to use Blender's
-:doc:`Recalculate Normals </modeling/meshes/editing/mesh/normals>` operation in Edit Mode.
-
-If you still have some ugly black gouges you will have to
-:doc:`manually flip the normals </modeling/meshes/editing/mesh/normals>`.
+A quick way to fix this is to :doc:`Recalculate Normals </modeling/meshes/editing/mesh/normals>`.
+If this does not work you may have to :doc:`manually flip the normals </modeling/meshes/editing/mesh/normals>`.
