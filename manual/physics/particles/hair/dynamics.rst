@@ -28,10 +28,10 @@ Collisions
 
 Quality
    A general setting for how fine and good a simulation you wish.
-   Higher numbers take more time but ensure less tears and penetrations through the cloth.
+   Higher numbers take more time but ensure less tears and penetrations through the hair.
 Distance
-   The distance another object must get to the cloth for
-   the simulation to repel the cloth out of the way.
+   The distance another object must get to the hair for
+   the simulation to repel the hair out of the way.
    Smaller values might cause errors but provide some speed-up while
    larger will give unrealistic results if too large and can be slow.
    It is best to find a good in between value.
@@ -40,7 +40,7 @@ Impulse Clamping
    by restricting the amount of movement after a collision.
 Collision Collection
    Only objects that are a part of this :doc:`Collection </scene_layout/collections/index>`
-   can collide with the cloth. Note that these objects must also have Collision physics enabled.
+   can collide with the hair. Note that these objects must also have Collision physics enabled.
 
 
 Structure
