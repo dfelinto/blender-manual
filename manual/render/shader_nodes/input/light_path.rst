@@ -61,3 +61,35 @@ Transparent Depth :guilabel:`Cycles Only`
 Transmission Depth :guilabel:`Cycles Only`
    Replace a Transmission light path after X bounces with another shader, e.g. a Diffuse one.
    This can be used to avoid black surfaces, due to low amount of max bounces.
+
+
+Eevee Support
+=============
+
+Eevee has no real concept of rays. But in order to ease the workflow between Cycles and Eevee
+some of the outputs are supported in particular cases.
+This node makes it possible to tweak indirect lighting in the shader.
+
+Only a subset of the outputs is supported and the ray depth does not exactly have the same meaning.
+In order for *Is Camera*, *Is Shadow*, *Is Diffuse*, and *Is Glossy* outputs to work the object
+must be inside an :doc:`Irradiance Volume </render/eevee/light_probes/irradiance_volumes>`
+and bake :doc:`/render/eevee/render_settings/indirect_lighting`.
+
+- *Is Camera*: Supported.
+- *Is Shadow*: Supported.
+- *Is Diffuse*: Supported.
+- *Is Glossy*: Supported.
+- *Is Singular*: Not supported. Same as Is Glossy.
+- *Is Reflection*: Not supported. Same as Is Glossy.
+- *Is Transmission*: Not supported. Same as Is Glossy.
+- *Ray Length*: Not supported. Defaults to 1.0.
+- *Ray Depth*: Indicates the current bounce when baking the light cache.
+- *Diffuse Depth*: Same as Ray Depth but only when baking diffuse light.
+- *Glossy Depth*: Same as Ray Depth but only when baking specular light.
+- *Transparent Depth*: Not supported. Defaults to 0.
+- *Transmission Depth*: Not supported. Same as Glossy Depth.
+
+.. note::
+
+   *Is Glossy* does not work with Screen Space Reflections/Refractions
+   but does work with reflection planes (whether used with SSR or not).

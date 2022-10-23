@@ -148,7 +148,10 @@ Light Path
    some of the outputs are supported in particular cases.
    This node makes it possible to tweak indirect lighting in the shader.
 
-   Only a subset of the outputs is supported and the ray depth does not exactly have the same meaning:
+   Only a subset of the outputs is supported and the ray depth does not exactly have the same meaning.
+   In order for *Is Camera*, *Is Shadow*, *Is Diffuse*, and *Is Glossy* outputs to work the object
+   must be inside an :doc:`Irradiance Volume </render/eevee/light_probes/irradiance_volumes>`
+   and bake :doc:`/render/eevee/render_settings/indirect_lighting`.
 
    - *Is Camera*: Supported.
    - *Is Shadow*: Supported.
@@ -166,7 +169,7 @@ Light Path
 
    .. note::
 
-      Is Glossy does not work with Screen Space Reflections/Refractions
+      *Is Glossy* does not work with Screen Space Reflections/Refractions
       but does work with reflection planes (whether used with SSR or not).
 
 Object Info
