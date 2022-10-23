@@ -17,8 +17,8 @@ The colors that the Workbench uses to render objects can be changed.
    Use the color that can be set per object
    in the Viewport Display :ref:`properties-object-viewport-display` panel.
 :Attribute:
-   Display the active Color Attribute of an object. When an object has
-   no active Color Attribute it will be rendered in the color set
+   Display the active :ref:`Color Attribute <modeling-meshes-properties-object_data-color-attributes>`
+   of an object. When an object has no active Color Attribute it will be rendered in the color set
    in the Viewport Display :ref:`properties-object-viewport-display` panel.
 :Single:
    Render the whole scene using a single color. The color can be chosen.
