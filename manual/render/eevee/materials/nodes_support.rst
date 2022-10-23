@@ -145,13 +145,13 @@ Layer Weight
 
 Light Path
    Eevee has no real concept of rays. But in order to ease the workflow between Cycles and Eevee
-   some of the outputs are supported in particular cases.
+   some of the outputs are only supported in particular cases.
    This node makes it possible to tweak indirect lighting in the shader.
 
-   Only a subset of the outputs is supported and the ray depth does not exactly have the same meaning.
-   In order for *Is Camera*, *Is Shadow*, *Is Diffuse*, and *Is Glossy* outputs to work the object
-   must be inside an :doc:`Irradiance Volume </render/eevee/light_probes/irradiance_volumes>`
-   and bake :doc:`/render/eevee/render_settings/indirect_lighting`.
+   Only a subset of the outputs are supported and the ray depth does not exactly have the same meaning.
+   In order for the *Is Camera*, *Is Shadow*, *Is Diffuse*, and *Is Glossy* outputs to work,
+   the object must be inside an :doc:`Irradiance Volume </render/eevee/light_probes/irradiance_volumes>`
+   and :doc:`/render/eevee/render_settings/indirect_lighting` must be baked.
 
    - *Is Camera*: Supported.
    - *Is Shadow*: Supported.
