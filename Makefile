@@ -103,8 +103,14 @@ latexpdf: .SPHINXBUILD_EXISTS
 epubpdf: .SPHINXBUILD_EXISTS
 	@$(SPHINXBUILD) -M epub "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 	@ebook-convert $(BUILDDIR)/epub/*.epub blender_manual.pdf \
-	               --pdf-default-font-size 16 \
-	               --pdf-mono-font-size 14
+		--pdf-default-font-size 16 \
+		--pdf-mono-font-size 14 \
+		--margin-left 0 \
+		--margin-right 0 \
+		--pdf-page-margin-left 50 \
+		--pdf-page-margin-right 50 \
+		--pdf-page-margin-top 50 \
+		--pdf-page-margin-bottom 50 \
 
 readme:
 	@rst2html5 readme.rst > $(BUILDDIR)/readme.html
