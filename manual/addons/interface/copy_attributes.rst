@@ -33,27 +33,29 @@ Copy Scale
    Copies the object scale in world coordinates.
 Copy Draw Options
    Copies display options: for instance wireframe, empty display shape, empty display size, etc.
-Copy Time Offset
-   Copies the animation stack time offset.
 Copy Instancing
    Copies the objects instancing group/vertex/face settings.
 Copy Object Color
-   (Self-explanatory)
-Copy Mass (physics setting)
    (Self-explanatory)
 Copy Protected Transform
    Duplicates the transform locks.
 Copy Object Constraints
    Currently deletes all constraints on the selected objects and
    replaces them with the constraints on the active object.
-Copy Texture Space
-   (Self-explanatory)
 Copy Pass Index
    (Self-explanatory)
 Copy Modifiers
    Currently behaves like constraints, all you original modifiers will be replaced by the ones on the active item.
 Copy Vertex Weights
    (Self-explanatory)
+Collection Links
+   Copy selected into active object's collection.
+Copy Selected Constraints
+   Copy all the selected constraints from the active object to the selected objects.
+Copy Selected Modifiers
+   Copy all the selected modifiers from the active object to the selected objects.
+Copy Selected Custom Properties
+   Copy all the selected custom properties from the active object to the selected objects.
 
 
 Mesh Edit Mode
@@ -80,12 +82,10 @@ The second group of options copies attributes to selected faces in
 the active UV texture or Color Attribute from their corresponding faces in
 a different UV texture or Color Attribute.
 
-Copy Image from Layer
-   Copy image assignment from another layer for selected faces.
 Copy UV Coordinates from Layer
    Copy UV coordinates from another layer for selected faces.
-Copy Vertex Colors from Layer
-   Copy a Color Attribute from another layer for selected faces.
+Vertex Colors from Layer
+   Copy Color Attributes from another layer for selected faces.
 
 
 Pose Mode
