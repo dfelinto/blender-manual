@@ -45,7 +45,7 @@ Data Type
 
 Domain
    The :ref:`attribute domain <attribute-domains>` used for accumulation
-   and for evaluation of the *Value* input. If the
+   and for evaluation of the *Value* input.
 
 
 Output
