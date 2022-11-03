@@ -95,29 +95,16 @@ Advanced
 ========
 
 .. _bpy.types.Brush.use_automasking_topology:
-
-Topology
-   Setting per each brush, affects only vertices connected to the active vertex under the brush.
-   This can be used for isolating disconnected meshes, face sets, masking cavities,
-   mesh boundary edges, or creating topological falloffs.
-
 .. _bpy.types.Brush.use_automasking_face_sets:
-
-Face Sets
-   Affect only vertices that share face sets with active vertex.
-
 .. _bpy.types.Brush.use_automasking_boundary_edges:
-
-Mesh Boundary
-   Does not affect non-manifold boundary edges.
-
 .. _bpy.types.Brush.use_automasking_boundary_face_sets:
 
-Face Sets Boundary
-   Does not affect vertices which belong to a face set boundary.
+Auto-Masking
+   The auto-masking toggles in the brush settings are the same as the sculpt mode auto-masking settings.
+   The difference is that these toggles can be customized per brush to create specific brush behaviors.
 
-Propagation Steps
-   The distance where *Mesh Boundary Auto-Masking* is going to protect vertices from the fully masked edge.
+.. seealso:: Auto-Masking
+   For more information on the Auto-Masking toggles, see :doc:`Auto-Masking </sculpt_paint/sculpting/controls>`.
 
 .. _bpy.types.Brush.sculpt_plane:
 

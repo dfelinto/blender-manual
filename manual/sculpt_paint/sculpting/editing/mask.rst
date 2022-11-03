@@ -25,6 +25,7 @@ Editing
 
    :Mode:      Sculpt Mode
    :Menu:      :menuselection:`Mask`
+   :Shortcut:  :kbd:`A`
 
 Masks can be edited across the entire model.
 Using :kbd:`A` opens a pie menu to choose different operations.
@@ -274,7 +275,7 @@ Slice to New Object
 
 .. _bpy.ops.sculpt.dirty_mask:
 
-Dirty Mask
+Mask From Cavity
 ----------
 
 .. reference::
@@ -282,7 +283,23 @@ Dirty Mask
    :Mode:      Sculpt Mode
    :Menu:      :menuselection:`Mask --> Dirty Mask`
 
-Generates a mask based on the geometry cavity and pointiness.
+Generates a mask based on the cavity of the surface. The settings of the operation can be changed 
+in the :doc:`Adjust Last Operation </interface/undo_redo>` panel.
+
+Mode
+   Choose how the newly created mask is mixed with the existing one. By default it will replace the old mask via "Mix".
+Mix Factor
+   The factor of the mix effect. Choose how strong the new mask is applied on the existing one.
+Automask Settings
+   The same settings as the :doc:`Auto-Masking </sculpt_paint/sculpting/controls>` settings are applied.
+Factor
+   Same as :doc:`Auto-Masking </sculpt_paint/sculpting/controls>`.
+Blur
+   Same as :doc:`Auto-Masking </sculpt_paint/sculpting/controls>`.
+Invert
+   Same as :doc:`Auto-Masking </sculpt_paint/sculpting/controls>`.
+Custom Curve
+   Same as :doc:`Auto-Masking </sculpt_paint/sculpting/controls>`.
 
 
 .. _bpy.ops.sculpt.mask_init:
