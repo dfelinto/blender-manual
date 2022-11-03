@@ -7,10 +7,10 @@ Bevel Vertices
 .. reference::
 
    :Mode:      Edit Mode
+   :Menu:      :menuselection:`Edge --> Bevel Edges`
+   :Shortcut:  :kbd:`Ctrl-B` (Bevel Edges)
    :Menu:      :menuselection:`Vertex --> Bevel Vertices`
-   :Shortcut:  :kbd:`Shift-Ctrl-B`
-   :Menu:      :menuselection:`Vertex --> Bevel Edges` (edge bevel)
-   :Shortcut:  :kbd:`Ctrl-B` (edge bevel)
+   :Shortcut:  :kbd:`Shift-Ctrl-B` (Bevel Vertices)
 
 The *Bevel* tool rounds off edges or corners of a mesh at the point of the selected vertices.
 In "vertex only" mode, the *Bevel Vertices* tool works on selected vertices
