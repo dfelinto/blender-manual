@@ -43,7 +43,7 @@ Offset :kbd:`A`
    like with transform tools.
    The exact meaning of the value depends on the *Amount Type* option (see below).
 
-Amount Type :kbd:`M`
+Width Type :kbd:`M`
    Selects how the *Amount* value controls the size of the bevel. According to the selection, the amount is:
 
    Offset
