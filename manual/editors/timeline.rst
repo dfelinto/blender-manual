@@ -247,7 +247,7 @@ then move an object in the 3D Viewport, or set a new value for a property in the
 When you set a new value for the properties,
 Blender will add keyframes on the current frame for the transform properties.
 Other use cases are :ref:`Fly/Walk Navigation <3dview-fly-walk>` to record the walk/flight path
-and :ref:`Lock Camera to View <3dview-lock-camera-to-view>` to record the navigation in camera view.
+and :ref:`Lock Camera to View <bpy.types.SpaceView3D.lock_camera>` to record the navigation in camera view.
 
 .. note::
 

@@ -1,4 +1,4 @@
-
+#
 ***************
 Viewport Render
 ***************
@@ -82,12 +82,12 @@ Render Keyframes
    For example, when a six-frame animation is rendered, and the selected objects
    have a key on frames 3 and 5, the following frames will be output:
 
-   1. The 1st frame is always rendered.
-   2. The 1st frame is repeated because there is no key on this frame.
-   3. The 3rd frame is rendered.
-   4. The 3rd frame is repeated because there is no key on this frame.
-   5. The 5th frame is rendered.
-   6. The 5th frame is repeated because there is no key on this frame.
+   #. The 1st frame is always rendered.
+   #. The 1st frame is repeated because there is no key on this frame.
+   #. The 3rd frame is rendered.
+   #. The 3rd frame is repeated because there is no key on this frame.
+   #. The 5th frame is rendered.
+   #. The 5th frame is repeated because there is no key on this frame.
 
 .. tip::
 

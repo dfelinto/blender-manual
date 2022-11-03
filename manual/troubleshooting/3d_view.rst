@@ -12,7 +12,7 @@ Rendering
 Depth Buffer Glitches
 ---------------------
 
-Sometimes when setting a large :ref:`clipping range <3dview-view-clip>`
+Sometimes when setting a large :ref:`clipping range <bpy.types.SpaceView3D.clip_start>`
 will allow you to see both near and far objects,
 but reduces the depth precision resulting in artifacts.
 

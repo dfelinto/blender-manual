@@ -77,7 +77,7 @@ Show
 Controller Style
    Preferred visualization of VR motion controllers.
 Clip Start/End
-   Clipping values of the VR view, :ref:`as in the 3D Viewport <3dview-view-clip>`.
+   Clipping values of the VR view, :ref:`as in the 3D Viewport <bpy.types.SpaceView3D.clip_start>`.
 
 
 Landmarks

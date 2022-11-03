@@ -24,10 +24,13 @@ View Panel
 
 The *View* panel lets you change other settings regarding the 3D Viewport.
 
+.. _bpy.types.SpaceView3D.lens:
+
 Focal Length
    Control the focal length of the 3D Viewport camera.
 
-.. _3dview-view-clip:
+.. _bpy.types.SpaceView3D.clip_start:
+.. _bpy.types.SpaceView3D.clip_end:
 
 Clip Start/End
    Adjust the minimum and maximum distances for geometry to be visible.
@@ -47,45 +50,47 @@ Clip Start/End
 
       See :ref:`Troubleshooting Depth Buffer Glitches <troubleshooting-depth>` for more information.
 
-.. _3dview-local-camera:
+.. _bpy.types.SpaceView3D.use_local_camera:
+.. _bpy.types.SpaceView3D.camera:
 
 Local Camera
    Allow this 3D Viewport to have its own :doc:`active camera </editors/3dview/navigate/camera_view>`,
    separate from the global active camera that's defined in the scene.
    The selector next to the checkbox lets you choose this camera.
 
-.. _3dview-sidebar-render-region:
+.. _bpy.types.SpaceView3D.use_render_border:
 
 Render Region
    Use the :ref:`Render Region <editors-3dview-navigate-render-region>`.
    Defining the region with :kbd:`Ctrl-B` will automatically enable this option.
-   
+
    Note that if you're viewing the scene through the active camera, this option has no effect --
    in this case, you instead need to use the checkbox :menuselection:`Output Properties --> Format --> Render Region`
    in the Properties editor. This will affect not just the viewport, but also the final render.
 
 
-.. _bpy.types.SpaceView3D.lock:
-
 View Lock
 ^^^^^^^^^
+
+.. _bpy.types.SpaceView3D.lock_object:
 
 Lock to Object
    Lets you select an object to become the point of interest of the viewpoint.
    The view will then orbit around, and zoom towards, that object.
    This option is not available when viewing the scene through the active camera.
 
-Lock
-   To 3D Cursor
-      Makes the 3D Cursor the point of interest of the viewpoint.
-      This option is only available when *Lock to Object* is not active.
-      
-.. _3dview-lock-camera-to-view:
-      
-   Camera to View
-      When looking through a camera, the camera becomes "glued" to the view
-      and will follow it around as you navigate.
-      The camera frame will be outlined with a red dashed line.
+.. _bpy.types.SpaceView3D.lock_cursor:
+
+Lock: To 3D Cursor
+   Makes the 3D Cursor the point of interest of the viewpoint.
+   This option is only available when *Lock to Object* is not active.
+
+.. _bpy.types.SpaceView3D.lock_camera:
+
+Lock: Camera to View
+   When looking through a camera, the camera becomes "glued" to the view
+   and will follow it around as you navigate.
+   The camera frame will be outlined with a red dashed line.
 
 .. hint::
 

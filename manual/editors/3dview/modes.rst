@@ -1,3 +1,4 @@
+.. _bpy.ops.object.mode_set:
 
 ************
 Object Modes
@@ -115,7 +116,7 @@ object, Blender will typically switch back to Object Mode.
 This means that, if you want to weight paint the other object too,
 you have to enter the mode a second time.
 
-There is a way of avoiding this, however. Once you enter a mode, the 
+There is a way of avoiding this, however. Once you enter a mode, the
 :doc:`Outliner </editors/outliner/introduction>` will show a dot next
 to other objects that also support it. By clicking such a dot, you can
 switch over to another object without leaving the mode.

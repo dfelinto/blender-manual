@@ -86,7 +86,7 @@ you can define a subregion to render just a portion.
 This can be very useful for reducing render times for quick previews on an area of interest.
 
 Apart from clearing the render region, you can also temporarily disable it
-in the :ref:`Sidebar <3dview-sidebar-render-region>` if you're not in
+in the :ref:`Sidebar <bpy.types.SpaceView3D.use_render_border>` if you're not in
 :doc:`Camera View </editors/3dview/navigate/camera_view>`,
 or in the Output tab of the :ref:`Properties <bpy.types.RenderSettings.use_border>`
 editor if you are.
@@ -99,7 +99,7 @@ editor if you are.
      - .. figure:: /images/editors_3dview_navigate_regions_render-border-2.png
 
 .. tip::
-   
+
    If you set a render region while in camera view and have it enabled in
    the Output properties, it will be applied to the final render.
 

@@ -65,7 +65,7 @@ Another way of setting the active camera is through the *Scene* tab of the
    The active camera is normally defined on the scene level, so that it's the same
    across all 3D Viewports. However, it's also possible to make a camera
    the active one within one Viewport only.
-   See :ref:`Local Camera <3dview-local-camera>`.
+   See :ref:`Local Camera <bpy.types.SpaceView3D.use_local_camera>`.
 
 
 Animated Camera Switching
@@ -136,7 +136,7 @@ Moves and rotates the camera so it perfectly matches your current viewport view.
 Camera Navigation
 -----------------
 
-By enabling :ref:`Lock Camera to View <3dview-lock-camera-to-view>` in
+By enabling :ref:`Lock Camera to View <bpy.types.SpaceView3D.lock_camera>` in
 :menuselection:`Sidebar --> View` and switching to camera view,
 the camera will become "glued" to the view and follow it around as you navigate.
 
