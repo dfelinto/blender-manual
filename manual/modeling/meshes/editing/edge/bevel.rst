@@ -81,14 +81,14 @@ Affect :kbd:`V`
 Width Type :kbd:`M`
    Selects how the *Width* value controls the size of the bevel. According to the selection, the width is:
 
-   Offset
+   :Offset:
       The distance from the new edge to the original.
-   Width
+   :Width:
       The distance between the two new edges formed by the bevel
       (or the edges on either side of the bevel if there is more than one segment).
-   Percent
+   :Percent:
       The percentage of the length of adjacent edges that the new edges slide.
-   Absolute
+   :Absolute:
       The exact distance along edges adjacent to the beveled edge. A difference from **Offset** is visible
       when the unbeveled edges attached to beveled edges meet at an angle besides a right angle.
 
@@ -222,12 +222,12 @@ Intersection Type :kbd:`N`
    a way to complete the intersection between the generated geometry.
    This option controls the method used to create that mesh.
 
-   Grid Fill
+   :Grid Fill:
       The default method for building intersections, useful when a smooth continuation of
       the bevel profile is desired. Without *Custom Profile* enabled, the curve of the profile
       continues through the intersection, but with a custom profile it just creates a smooth grid within
       the intersection's boundary.
-   Cutoff
+   :Cutoff:
       Creates a cutoff face at the end of each beveled edge coming into the vertex. This is most
       useful for custom profiles when the new intersection is too complex for a smooth grid fill.
 
@@ -259,23 +259,23 @@ Face Strength
    a :doc:`Weight Normals Modifier </modeling/modifiers/modify/weighted_normal>`
    (with the *Face Influence* option checked).
 
-   None
+   :None:
       Do not set face strength.
-   New
+   :New:
       Set the face strength of new faces along edges to *Medium*,
       and the face strength of new faces at vertices to *Weak*.
-   Affected
+   :Affected:
       In addition to those set for the *New* case,
       also set the faces adjacent to new faces to have strength *Strong*.
-   All
+   :All:
       In addition to those set for the *Affected* option,
       also set all the rest of the faces of the model to have strength *Strong*.
 
 Profile Type :kbd:`Z`
-   Superellipse
+   :Superellipse:
       Creates a bevel with a uniform concave or convex curve.
 
-   Custom
+   :Custom:
       .. figure:: /images/modeling_modifiers_generate_bevel_profile-widget.png
          :align: right
          :width: 300px
@@ -328,7 +328,7 @@ Examples
 
           An example using Profile=0.150.
 
-.. seealso:: Bevel Modifier
+.. seealso::
 
    The :doc:`Bevel Modifier </modeling/modifiers/generate/bevel>`
    is a non-destructive alternative to the Bevel tool.

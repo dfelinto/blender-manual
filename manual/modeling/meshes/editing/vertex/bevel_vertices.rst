@@ -33,9 +33,9 @@ Options
 =======
 
 Affect :kbd:`V`
-   Vertices
+   :Vertices:
       Only the areas near vertices are beveled, the edges remain unchanged.
-   Edges
+   :Edges:
       Bevel the edges, creating intersections at vertices.
 
 Offset :kbd:`A`
@@ -46,16 +46,16 @@ Offset :kbd:`A`
 Width Type :kbd:`M`
    Selects how the *Amount* value controls the size of the bevel. According to the selection, the amount is:
 
-   Offset
+   :Offset:
       The relative distance from the new edge to the original.
-   Width
+   :Width:
       The distance between the two new edges formed by the bevel
       (or the edges on either side of the bevel if there is more than one segment).
-   Depth
+   :Depth:
       The perpendicular distance from the original edge to the bevel face.
-   Percent
+   :Percent:
       The percentage of the length of adjacent edges that the new edges is slided along.
-   Absolute
+   :Absolute:
       The exact distance along edges adjacent to the beveled edge.
       A difference from *Offset* is visible when the unbeveled edges
       attached to beveled edges meet at an angle besides a right angle.
@@ -112,22 +112,22 @@ Face Strength Mode
    a :doc:`Weight Normals Modifier </modeling/modifiers/modify/weighted_normal>`
    (with the *Face Influence* option checked).
 
-   None
+   :None:
       Do not set face strength.
-   New
+   :New:
       Set the face strength of new faces along edges to *Medium*,
       and the face strength of new faces at vertices to *Weak*.
-   Affected
+   :Affected:
       In addition to those set for the *New* case,
       also set the faces adjacent to new faces to have strength *Strong*.
-   All
+   :All:
       In addition to those set for the *Affected* option,
       also set all the rest of the faces of the model to have strength *Strong*.
 
 Profile Type :kbd:`Z`
-   Superellipse
+   :Superellipse:
       Creates a bevel with a uniform concave or convex curve.
-   Custom
+   :Custom:
       .. figure:: /images/modeling_modifiers_generate_bevel_profile-widget.png
          :align: right
          :width: 300px

@@ -5,6 +5,12 @@
 Bevel Modifier
 **************
 
+.. figure:: /images/modeling_modifiers_generate_bevel_panel.png
+   :align: right
+   :width: 250px
+
+   The Bevel modifier.
+
 The *Bevel* modifier bevels the edges of the mesh it is applied to,
 with some control of how and where the bevel is applied to the mesh.
 
@@ -15,53 +21,50 @@ the :doc:`Bevel Operation </modeling/meshes/editing/edge/bevel>` in Edit Mode.
    :align: center
 
    * - .. figure:: /images/modeling_modifiers_generate_bevel_square-not.png
-          :width: 150px
+          :width: 250px
 
           Not beveled.
 
      - .. figure:: /images/modeling_modifiers_generate_bevel_square.png
-          :width: 150px
+          :width: 250px
 
           Beveled.
+
+.. container:: lead
+
+   .. clear
 
 
 Options
 =======
 
-.. figure:: /images/modeling_modifiers_generate_bevel_panel.png
-   :align: right
-   :width: 300px
-
-   The Bevel modifier.
-
 Affect
-   Vertices
+   :Vertices:
       Only the areas near vertices are beveled, the edges remain unchanged.
-   Edges
+   :Edges:
       Bevel the edges, creating intersections at vertices.
 
    .. figure:: /images/modeling_modifiers_generate_bevel_cubes-vertices-only.png
-      :width: 325px
 
       Three cubes with 0.1, 0.3 and 0.5 bevel widths, with *Vertices* option selected.
+
+.. figure:: /images/modeling_modifiers_generate_bevel_width-methods.png
+   :align: right
+   :width: 250px
 
 Width Type
    Defines how *Width* will be interpreted to determine the amount of bevel.
 
-   .. figure:: /images/modeling_modifiers_generate_bevel_width-methods.png
-      :align: center
-      :width: 240
-
-   Offset
+   :Offset:
       The distance from the new edge to the original.
-   Width
+   :Width:
       The distance between the two new edges formed by the bevel
       (or the edges on either side of the bevel if there is more than one segment).
-   Depth
+   :Depth:
       Value is the perpendicular distance from the new bevel face to original edge.
-   Percent
+   :Percent:
       The percentage of the length of adjacent edge length that the new edges slide along.
-   Absolute
+   :Absolute:
       The exact distance along edges adjacent to the beveled edge. A difference from **Offset** is visible
       when the unbeveled edges attached to beveled edges meet at an angle besides a right angle.
 
@@ -69,7 +72,6 @@ Width
    The size of the bevel effect. See *Width Method* below.
 
    .. figure:: /images/modeling_modifiers_generate_bevel_cubes.png
-      :width: 350px
 
       Three Cubes with 0.1, 0.3 and 0.5 bevel widths.
 
@@ -79,16 +81,16 @@ Segments
 Limit Method
    Used to control where a bevel is applied to the mesh.
 
-   None
+   :None:
       No limit, all edges will be beveled.
-   Angle
+   :Angle:
       Only bevels edges whose angle of adjacent face normals plus the defined *Angle* is less than 180 degrees.
       Intended to allow you to bevel only the sharp edges of an object without affecting its smooth surfaces.
-   Weight
+   :Weight:
       Use each edge's bevel weight to determine the width of the bevel.
       When the bevel weight is 0.0, no bevel is applied.
       See :doc:`here </modeling/meshes/editing/edge/edge_data>` about adjusting bevel weights.
-   Vertex Group
+   :Vertex Group:
       Use weights from a vertex group to determine the width of the bevel.
       When the vertex weight is 0.0, no bevel is applied.
       An edge is only beveled if both of its vertices are in the vertex group.
@@ -118,17 +120,9 @@ Custom Profile
 
 .. figure:: /images/modeling_modifiers_generate_bevel_profile-widget.png
    :align: right
-   :width: 300px
+   :width: 250px
 
    The custom profile widget.
-
-Miter Shape
-   The shape of the miter patterns, from concave to convex. It has no effect if *Segments* is less than 2.
-
-   .. note::
-
-      The *Miter Shape* slider stays active when miters are enabled
-      because it still controls the shape of the miter profiles.
 
 This widget allows the creation of a user-defined profile with more complexity than
 with the single profile parameter. The modal tool allows toggling the custom profile,
@@ -137,6 +131,18 @@ but the shape of the profile is only editable in the options panel after the ope
 The profile starts at the bottom right of the widget and ends at the top left, as if it
 were between two edges meeting at a right angle. Control points are created in the widget and
 then the path is sampled with the number of segments from the Bevel modifier.
+
+.. container:: lead
+
+   .. clear
+
+Miter Shape
+   The shape of the miter patterns, from concave to convex. It has no effect if *Segments* is less than 2.
+
+   .. note::
+
+      The *Miter Shape* slider stays active when miters are enabled
+      because it still controls the shape of the miter profiles.
 
 Presets
    The *Support Loops* and *Steps* presets are built dynamically depending on the number of segments in the bevel.
@@ -205,12 +211,12 @@ Intersections
    When more than two beveled edges meet at a vertex, a mesh is created as a way to complete the intersection
    between the generated geometry. This option controls the method used to create that mesh.
 
-   Grid Fill
+   :Grid Fill:
       The default method for building intersections, useful when a smooth continuation of
       the bevel profile is desired. Without *Custom Profile* enabled, the curve of the profile continues through
       the intersection, but with a custom profile it just creates a smooth grid
       within the boundary of the intersection.
-   Cutoff
+   :Cutoff:
       Creates a cutoff face at the end of each beveled edge coming into the vertex.
       This is most useful for custom profiles when the new intersection is too complex for a smooth grid fill.
 
@@ -273,14 +279,14 @@ Face Strength
    :doc:`Weighted Normals </modeling/modifiers/modify/weighted_normal>` modifier
    (with the *Face Influence* option checked).
 
-   None
+   :None:
       Do not set face strength.
-   New
+   :New:
       Set the face strength of new faces along edges to *Medium*,
       and the face strength of new faces at vertices to *Weak*.
-   Affected
+   :Affected:
       In addition to those set for the *New* case,
       also set the faces adjacent to new faces to have strength *Strong*.
-   All
+   :All:
       In addition to those set for the *Affected* case,
       also set all the rest of the faces of the model to have strength *Strong*.
