@@ -276,14 +276,14 @@ Slice to New Object
 .. _bpy.ops.sculpt.dirty_mask:
 
 Mask From Cavity
-----------
+----------------
 
 .. reference::
 
    :Mode:      Sculpt Mode
    :Menu:      :menuselection:`Mask --> Dirty Mask`
 
-Generates a mask based on the cavity of the surface. The settings of the operation can be changed 
+Generates a mask based on the cavity of the surface. The settings of the operation can be changed
 in the :doc:`Adjust Last Operation </interface/undo_redo>` panel.
 
 Mode
