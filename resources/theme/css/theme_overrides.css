@@ -303,9 +303,8 @@ a.external {
 	color: #2980B9;
 }
 
-/* Draws a box around menuselection and kbd role. */
-.menuselection,
-.kbd.docutils.literal {
+/* Draws a box around menuselection role. */
+.menuselection {
 	font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
 	font-size: 90%;
 	font-weight: normal;
@@ -325,10 +324,6 @@ a.external {
 .caption .menuselection {
 	background-color: transparent;
 	border: none;
-}
-
-.caption .kbd {
-	background-color: transparent
 }
 
 /* Remove indent on line break. */
