@@ -7,6 +7,7 @@
    :maxdepth: 2
 
    extrude_vertices.rst
+   extrude_cursor.rst
    bevel_vertices.rst
    make_face_edge.rst
    connect_vertex_path.rst

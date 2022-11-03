@@ -1,8 +1,8 @@
-.. _tool-mesh-extrude_cursor:
+.. _bpy.ops.mesh.dupli_extrude_cursor:
 
-*****************
-Extrude to Cursor
-*****************
+************************
+Extrude to Cursor or Add
+************************
 
 .. reference::
 
@@ -20,10 +20,10 @@ so the new vertex is placed at the depth of the 3D cursor.
 To create interconnected vertices, you can add a vertex and continuously make subsequent :kbd:`Ctrl-RMB`
 operations with the last vertex selected.
 This will link the last selected vertex with the vertex created at the mouse position with an edge
-(see Fig. :ref:`fig-mesh-basics-add-one-tool`),
+(see Fig. :ref:`fig-mesh-basics-add-one`),
 and will continuously create and connect new vertices if you continue repeating this operation.
 
-.. _fig-mesh-basics-add-one-tool:
+.. _fig-mesh-basics-add-one:
 
 .. figure:: /images/modeling_meshes_tools_extrude-cursor_vertex.png
 
