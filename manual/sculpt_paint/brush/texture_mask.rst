@@ -10,20 +10,22 @@ Texture
    In paint modes the texture is used as a color source,
    while for sculpting it is used to determine the strength of the brush.
 
+.. _bpy.types.BrushTextureSlot.mask_map_mode:
+
 Mask Mapping
    Sets the way the texture is applied to the brush stroke.
 
-   View Plane
+   :View Plane:
       If *View Plane* is enabled, the current view angle is used to project the brush texture onto the model.
       I.e. the texture follows the mouse, so it appears that the texture is being dragged across the model.
       In 2D painting, the texture moves with the brush.
-   Tiled
+   :Tiled:
       The *Tile* option tiles the texture across the screen,
       so moving the brush appears to move separately from the texture.
       The *Tile* option is most useful with tileable images, rather than procedural textures.
-   Random
+   :Random:
       Picks a random texture coordinate to sample from for each dab.
-   Stencil
+   :Stencil:
       Stencil mapping works by projecting the paint from the camera space on the mesh or canvas.
       Painting is applied only inside the boundaries of the stencil.
       The stencil is displayed as a screen space overlay on the viewport.
@@ -43,18 +45,7 @@ Mask Mapping
       Reset Transform
          Restores the position of the stencil.
 
-Angle
-   This is the rotation angle of the texture brush.
-   It can be changed interactively via :kbd:`Ctrl-F` in the 3D Viewport.
-   While in the interactive rotation you can enter a value numerically as well.
-
-   Rake
-      Angle follows the direction of the brush stroke.
-   Random
-      Angle is randomized per dab.
-
-      Random Angle
-         Constraints the random deviation to a range.
+.. _bpy.types.Brush.use_pressure_masking:
 
 Pressure Masking
    A mask cut-off function. It allows to clip the mask result based on pressure,
@@ -65,6 +56,15 @@ Pressure Masking
    :Ramp: Distributes the mask effect above the pressure value.
    :Cutoff: Simply selects between zero and one based on stylus pressure.
 
+Angle
+   This is the rotation angle of the texture brush.
+Rake
+   Angle follows the direction of the brush stroke.
+Random
+   Angle is randomized per dab.
+
+   Random Angle
+      Constraints the random deviation to a range.
 Offset X, Y, Z
    Offset the texture map placement in X, Y, and Z axes.
 Size X, Y, Z

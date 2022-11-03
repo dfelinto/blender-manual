@@ -1,9 +1,5 @@
 .. _sculpt-paint-brush-display:
 .. _bpy.types.Paint.show_brush:
-.. _bpy.types.Brush.cursor_overlay_alpha:
-.. _bpy.types.Brush.use_cursor_overlay:
-.. _bpy.types.Brush.texture_overlay_alpha:
-.. _bpy.types.Brush.use_primary_overlay:
 
 ******
 Cursor
@@ -36,6 +32,11 @@ Cursor Color
 Inverse Color
    In some paint/sculpt modes the brush can be negative and subtract information from the paint target;
    these brushes can be given a separate color.
+
+.. _bpy.types.Brush.cursor_overlay_alpha:
+.. _bpy.types.Brush.use_cursor_overlay:
+.. _bpy.types.Brush.texture_overlay_alpha:
+.. _bpy.types.Brush.use_primary_overlay:
 
 Opacity Options
    Depending on the paint or sculpt mode different overlays are shown within the cursor

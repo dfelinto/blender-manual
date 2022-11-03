@@ -213,13 +213,8 @@ Stabilize Stroke
 delaying and correcting the location of points.
 You can toggle the use of *Stabilize Stroke* using the checkbox in the section panel header.
 
-.. _bpy.types.Brush.smooth_stroke_radius:
-
 Radius
    Minimum distance from the last point before the stroke continues.
-
-.. _bpy.types.Brush.smooth_stroke_factor:
-
 Factor
    A smooth factor, where higher values result in smoother strokes but the drawing sensation
    feels like as if you were pulling the stroke.

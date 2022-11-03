@@ -13,8 +13,11 @@ Read more about using the :ref:`ui-curve-widget`.
 
    Brush curve example.
 
+.. _bpy.ops.brush.curve_preset:
+.. _bpy.types.Brush.curve:
+
 Curve Preset
-   Custom
+   :Custom:
       You can choose how the strength of the falloff is determined from the center of the brush
       to the borders by manually manipulating the control points within the curve widget.
       There are also a couple of preset custom curves displayed at the bottom of the curve widget
@@ -46,26 +49,26 @@ Curve Preset
 
                 Constant.
 
-   Smooth
+   :Smooth:
       The center strength, the border strength, and the falloff transition between them are evenly distributed.
-   Smoother
+   :Smoother:
       Similar to *Smooth* but produces a wider center point of the brush before tapering off.
-   Sphere
+   :Sphere:
       The strength of the brush is predominately at its strongest point
       with a steep falloff near the border of the brush.
-   Root
+   :Root:
       Similar to a Sphere but the center is a more concentrated point.
-   Sharp
+   :Sharp:
       The center of the brush is the strongest point
       then exponentially tapers off to a lower strength, creating a fine point.
-   Linear
+   :Linear:
       With the center being the strongest,
       the strength will consistently weaken as it reaches the border of the brush.
-   Sharper
+   :Sharper:
       Similar to *Sharp* but the center point is more condensed.
-   Inverse Square
+   :Inverse Square:
       A hybrid between *Smooth* and *Sphere*.
-   Constant
+   :Constant:
       The strength of the brush remains unified across the entire brush.
       This will create a sharp edge at the border of the brush.
 
@@ -73,6 +76,8 @@ Curve Preset
 
       (From Left to Right) Smooth, Smoother, Sphere, Root,
       Sharp, Linear, Sharper, Inverse square, Constant.
+
+.. _bpy.types.Brush.falloff_shape:
 
 Falloff Shape
    Use projected or spherical falloff.
@@ -85,10 +90,14 @@ Falloff Shape
       It can be used along the outline of a mesh to adjust its silhouette.
 
 
+.. _bpy.types.ImagePaint.use_normal_falloff:
+
 Normal Falloff
 ==============
 
 As faces point away from the view the brush strokes fade away to prevent harsh edges.
+
+.. _bpy.types.ImagePaint.normal_angle:
 
 Angle
    The angle at which the falloff begins.

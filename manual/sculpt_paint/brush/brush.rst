@@ -1,7 +1,5 @@
 .. _bpy.types.Brush:
 .. _bpy.ops.brush:
-.. _bpy.types.Brush.use_custom_icon:
-.. _bpy.types.Brush.icon_filepath:
 .. _bpy.types.UnifiedPaintSettings:
 
 *******
@@ -28,16 +26,19 @@ Brushes
    Add Brush
       When you add a brush, the new brush is a clone of the current one.
 
-   Brush Specials
-      Enabled Modes
-         Todo.
-      Tool Selection
-         Todo.
-      Reset Brush
-         Todo.
+Brush Specials
+   Enabled Modes
+      Todo.
+   Tool Selection
+      Todo.
+   Reset Brush
+      Todo.
 
-      Custom Icon
-         Allows definition of a custom brush icon.
+.. _bpy.types.Brush.use_custom_icon:
+.. _bpy.types.Brush.icon_filepath:
+
+Custom Icon
+   Allows definition of a custom brush icon.
 
    .. note::
 

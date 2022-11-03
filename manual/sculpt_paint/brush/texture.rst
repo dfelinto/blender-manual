@@ -28,24 +28,24 @@ Texture
 Mapping
    Sets the way the texture is applied to the brush stroke.
 
-   View Plane
+   :View Plane:
       If *View Plane* is enabled, the current view angle is used to project the brush texture onto the model.
       I.e. the texture follows the mouse, so it appears that the texture is being dragged across the model.
       In 2D painting, the texture moves with the brush.
-   Area Plane
+   :Area Plane:
       Projects the brush texture along the local surface normal,
       which keeps the texture from stretching when sculpting on a portion of the mesh
       that is at an extreme angle to the viewpoint.
-   Tiled
+   :Tiled:
       The *Tile* option tiles the texture across the screen,
       so moving the brush appears to move separately from the texture.
       The *Tile* option is most useful with tileable images, rather than procedural textures.
-   3D
+   :3D:
       The *3D* option allows the brush to take full advantage of procedural textures.
       This mode uses vertex coordinates rather than the brush location to determine what area of the texture to use.
-   Random
+   :Random:
       Picks a random texture coordinate to sample from for each dab.
-   Stencil
+   :Stencil:
       Stencil mapping works by projecting the paint from the camera space on the mesh or canvas.
       Painting is applied only inside the boundaries of the stencil.
       The stencil is displayed as a screen space overlay on the viewport.
@@ -58,30 +58,52 @@ Mapping
       When using stencil scaling, :kbd:`X` and :kbd:`Y` are used to constrain the scaling to one axis.
       Pressing one of the buttons twice reverts to unconstrained scaling.
 
+      .. _bpy.ops.brush.stencil_fit_image_aspect:
+
       Image Aspect
          Restore the aspect ratio of the original image to reset stretching introduce by scaling,
          (Image textures only.) This operator can use the tiling and scale values of the brush texture
          if the relevant are enabled in :ref:`bpy.ops.screen.redo_last` panel.
+
+      .. _bpy.ops.brush.stencil_reset_transform:
+
       Reset Transform
          Restores the position of the stencil.
+
+.. _bpy.types.BrushTextureSlot.angle:
 
 Angle :kbd:`Ctrl-F`
    This is the rotation angle of the texture brush.
    It can be changed interactively via :kbd:`Ctrl-F` in the 3D Viewport.
    While in the interactive rotation you can enter a value numerically as well.
 
-   Rake :kbd:`R`
-      Angle follows the direction of the brush stroke. Not available with *3D* textures.
-      (Shortcut sculpting only.)
-   Random :kbd:`R`
-      Angle is randomized per dab.
+.. _bpy.types.BrushTextureSlot.use_rake:
 
-      Random Angle
-         Constraints the random deviation to a range.
+Rake :kbd:`R`
+   Angle follows the direction of the brush stroke. Not available with *3D* textures.
+   (Shortcut sculpting only.)
+
+.. _bpy.types.BrushTextureSlot.use_random:
+
+Random :kbd:`R`
+   Angle is randomized per dab.
+
+   .. _bpy.types.BrushTextureSlot.random_angle:
+
+   Random Angle
+      Constraints the random deviation to a range.
+
+.. _bpy.types.TextureSlot.offset:
 
 Offset X, Y, Z
    Offset the texture map placement in X, Y, and Z axes.
+
+.. _bpy.types.TextureSlot.scale:
+
 Size X, Y, Z
    Set the scale of the texture in each axis. Not available for *Drag* sculpting textures.
+
+.. _bpy.types.Brush.texture_sample_bias:
+
 Sample Bias :guilabel:`Sculpt Mode`
    Value added to texture samples.
