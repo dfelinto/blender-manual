@@ -69,3 +69,13 @@ Clamp
 .. figure:: /images/modeling_meshes_editing_mesh_transform_bend_example-usage.png
 
    Bend Transform example.
+
+
+Known Limitations
+=================
+
+
+Adjust Last Operation Unsupported
+---------------------------------
+
+Since the bend tool relies on cursor input, it does not support adjusting the last bend operation.
