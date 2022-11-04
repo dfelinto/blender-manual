@@ -24,7 +24,8 @@ Blender has a wide variety of tools making it suitable for almost any sort of me
 Professionals, hobbyists, and studios around the world use it for creating animations, game assets,
 motion graphics, TV shows, concept art, story-boarding, commercials, and feature films.
 
-Check out the `User Stories page <https://www.blender.org/about/user-stories/>`__ on the Blender website for more examples.
+Check out the `User Stories page <https://www.blender.org/about/user-stories/>`__
+on the Blender website for more examples.
 
 
 Key Features

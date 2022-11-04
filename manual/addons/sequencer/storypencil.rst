@@ -1,7 +1,7 @@
 
-************
+***********
 Storypencil
-************
+***********
 
 Storypencil is an add-on that adds tools to help the storyboarding workflow using the video sequencer.
 It adds many features to help adding, editing and rendering linked scenes.
@@ -16,15 +16,18 @@ Activation
 Description
 ===========
 
-After activating the add-on, it will place buttons on the video sequencer header to control the linked Scenes Strips: Edit, New and Render.
+After activating the add-on, it will place buttons on the video sequencer header to control the linked Scenes Strips:
+Edit, New and Render.
 
 In the video Sequencer sidebar you will find a Storypencil tab with all the Settings for the add-on.
 
 Usage
 =====
 
-With the 2D Animation Template in Draw Mode, you can use the menu located in the :menuselection:`3D Viewport --> Draw --> Setup Storyboard Session` 
-and the add-on will take care to set up all the general settings and create the workspaces and Scenes needed for the storyboard session.
+With the 2D Animation Template in Draw Mode, you can use the menu located in the
+:menuselection:`3D Viewport --> Draw --> Setup Storyboard Session`
+and the add-on will take care to set up all the general settings and create the work-spaces and Scenes needed for the
+storyboard session.
 
 Use the main buttons on the video sequencer header to add, edit and render Scene Strips.
 
@@ -37,26 +40,35 @@ The name of the new Scene Strip will use the prefix and suffix stablished on the
 Edit
 ----
 
-Opens the linked source scene under the timeline cursor in the video sequencer. 
-There are two modes for editing source scenes, you can control the behavior by toggling the checkbox "Open in new window" next to the button.
+Opens the linked source scene under the timeline cursor in the video sequencer.
+There are two modes for editing source scenes, you can control the behavior by toggling the checkbox
+"Open in new window" next to the button.
+
 
 New Window mode
-^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^
+
 Storypencil will open the source scene in a new window keeping their timelines synchronized.
-When you finish editing the source scene you can close the opened window or keep it opened and control the timeline in the video sequencer to change to another scene.
+When you finish editing the source scene you can close the opened window or keep it opened and control the timeline in
+the video sequencer to change to another scene.
 
 This method is best suited when using multiple monitors.
 
+
 Switching mode
-^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^
+
 Storypencil will open the source scene switching to the proper Workspace at the same video sequencer cursor position.
-When you finish editing the source scene you can return to the video Sequencer using the Back button on the Dope Sheet header in the source scene Workspace.
+When you finish editing the source scene you can return to the video Sequencer using the Back button on the Dope Sheet
+header in the source scene Workspace.
 
 This method is best suited when using only one monitor.
 
 .. important::
 
-      There is still a known issue when the Add-on is used together with a scene pinned to a workspace. Synchronization between scenes may fail.
+   There is still a known issue when the Add-on is used together with a scene pinned to a workspace.
+   Synchronization between scenes may fail.
+
 
 Render
 ------
@@ -65,10 +77,10 @@ Render all or only selected scene strips, depending on the Add-on Render Strips 
 
 
 Settings
-=========
+========
 
 New Scenes
------------
+----------
 
 Name Prefix
    Prefix that will be added to the name of new Scene Strips.
@@ -81,17 +93,20 @@ Frames
 
 Base Scene
    The Scene used as base for Scene Strips.
-   In this Base Scene you can setup cameras, Grease Pencil objects, background objects, etc. to avoid start from scratch every time.
+   In this Base Scene you can setup cameras, Grease Pencil objects,
+   background objects, etc. to avoid start from scratch every time.
 
 Render Strips
---------------
+-------------
 
-If the render format is Movie the add-on will render one Movie clip per Scene strip using the video sequencer render settings.
-All rendered Movies will be imported (if Import Rendered Strips setting is enabled) as Movie clips on the selected channel.
+If the render format is Movie the add-on will render one Movie clip per Scene strip using the video sequencer render
+settings. All rendered Movies will be imported (if Import Rendered Strips setting is enabled) as Movie clips on the
+selected channel.
 
-If the render format is Image the add-on will render one image on each keyframe found in the source scene of the Scene strip using the video sequencer render settings.
-All rendered Images will be imported (if Import Rendered Strips setting is enabled) as Image Strips on the selected channel, 
-the length used for the imported Image Clip will correspond to the gap between keyframes.
+If the render format is Image the add-on will render one image on each keyframe found in the source scene of the
+Scene strip using the video sequencer render settings. All rendered Images will be imported (if Import Rendered
+Strips setting is enabled) as Image Strips on the selected channel, the length used for the imported Image Clip will
+correspond to the gap between keyframes.
 
 Output Path
    Directory name where rendered video or images will be saved.

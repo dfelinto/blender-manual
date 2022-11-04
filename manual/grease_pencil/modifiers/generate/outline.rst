@@ -1,9 +1,9 @@
 .. index:: Grease Pencil Modifiers; Outline Modifier
 .. _bpy.types.OutlineGpencilModifier:
 
-*****************
+****************
 Outline Modifier
-*****************
+****************
 
 The *Outline* modifier convert strokes to outline tracing all strokes perimeter with new strokes.
 

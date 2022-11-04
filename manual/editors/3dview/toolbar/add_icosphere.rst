@@ -38,9 +38,12 @@ Tool Settings
 Depth
    The initial depth (from the screen into the scene) used when placing the object.
 
-   :Surface: Start placing on the surface under the mouse cursor. If there is no surface, this does the same as *Cursor Plane*.
-   :Cursor Plane: Start placing on a plane that goes through the :doc:`3D Cursor </editors/3dview/3d_cursor>`
-                  and is aligned according to the *Orientation* and *Plane Axis*.
+   :Surface:
+      Start placing on the surface under the mouse cursor.
+      If there is no surface, this does the same as *Cursor Plane*.
+   :Cursor Plane:
+      Start placing on a plane that goes through the :doc:`3D Cursor </editors/3dview/3d_cursor>`
+      and is aligned according to the *Orientation* and *Plane Axis*.
    :Cursor View: Start placing on a plane that goes through the 3D Cursor and is aligned to the view.
 
 Orientation

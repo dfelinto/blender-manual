@@ -185,8 +185,10 @@ A more automatic way to close gaps in an area that you want fill is using tempor
 There are two method to use "Radius" or "Extend"
 
 *Radius* use temporary auxiliary lines calculated from the radius of nearby open points to close open shapes.
-Set the size more than zero to control the circle size over opened points (the circle will disappear when the line close the gap).
-Click over the area you want to be filled and change the length of the strokes using :kbd:`PageUp` :kbd:`PageDown` or :kbd:`Wheel`.
+Set the size more than zero to control the circle size over opened points
+(the circle will disappear when the line close the gap).
+Click over the area you want to be filled and change the length of the strokes using
+:kbd:`PageUp` :kbd:`PageDown` or :kbd:`Wheel`.
 When you are satisfied with the length and you are sure the temporarily strokes cross each other,
 click again to fill the area.
 
