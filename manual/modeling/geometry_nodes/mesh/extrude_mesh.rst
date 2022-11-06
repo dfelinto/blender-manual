@@ -115,7 +115,7 @@ Generally boolean attributes are propagated with "or", meaning any connected
 "true" value that is mixed in for other types will cause the new value
 to be "true" as well.
 
-The following sectopms descrone
+The following sections describe:
 
 Vertex Mode
 -----------
