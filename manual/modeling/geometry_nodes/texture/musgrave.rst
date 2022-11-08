@@ -140,4 +140,3 @@ Musgrave Types
 .. seealso::
 
    :doc:`Displacement </render/materials/components/displacement>`
-

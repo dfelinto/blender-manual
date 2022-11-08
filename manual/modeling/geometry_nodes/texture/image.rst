@@ -67,5 +67,3 @@ Examples
 .. figure:: /images/modeling_geometry-nodes_texture-nodes_image_texture_node_example.jpg
 
    Image Texture displacing a plane.
-
-

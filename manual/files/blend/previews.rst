@@ -116,4 +116,3 @@ Trusted Blend Files
 Save Backups
    Keep a :ref:`backup version <prefs-save_load-backups>` (``blend1-file``)
    of the files when saving with generated previews.
-

@@ -37,4 +37,3 @@ Radius
 Random
    A random per-point value in the range from 0 to 1.
    It can for example be used in combination with a color ramp, to randomize the point color.
-

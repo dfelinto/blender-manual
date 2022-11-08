@@ -40,5 +40,3 @@ Outputs
 
 Selection
    A boolean field indicating all edges visited when traversing the mesh.
-
-

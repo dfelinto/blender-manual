@@ -61,5 +61,3 @@ Next Vertex Index
 
 Total Cost
    The remaining cost before an end vertex is reached by following the next vertex indices
-
-

@@ -77,4 +77,3 @@ Examples
    :width: 200px
 
    Brick texture: Colors changed, Squash 0.62, Squash Frequency 3.
-

@@ -49,4 +49,3 @@ Signed Angle
    The signed angle in radians between two faces where they meet at an edge. Flat edges
    and Non-manifold edges have an angle of zero. Concave angles are positive and convex
    angles are negative.
-

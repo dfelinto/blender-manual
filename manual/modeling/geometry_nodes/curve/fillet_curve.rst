@@ -65,4 +65,3 @@ Examples
    :align: center
 
    The node can be combined with the curve primitive nodes to make more interesting shapes.
-

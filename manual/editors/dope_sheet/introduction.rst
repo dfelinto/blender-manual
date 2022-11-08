@@ -287,4 +287,3 @@ Custom Properties
 
 Create and manage your own properties to store data in the action's data block.
 See the :ref:`Custom Properties <files-data_blocks-custom-properties>` page for more information.
-

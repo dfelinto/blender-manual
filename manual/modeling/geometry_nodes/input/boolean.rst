@@ -29,4 +29,3 @@ Outputs
 
 Boolean
    Standard Boolean output.
-

@@ -366,4 +366,3 @@ Delete
 
 Remove the whole library override hierarchy, and replace all of these override data-blocks by
 their original linked data-blocks. This fully reverts the *Make* operation.
-

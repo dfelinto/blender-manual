@@ -10,4 +10,3 @@ The Compositor lets you manage nodes for compositing.
    Nodes in the Compositor.
 
 The use of the Compositor is explained in :doc:`/compositing/index`.
-

@@ -26,4 +26,3 @@ Nodes to add textures.
    voronoi.rst
    wave.rst
    white_noise.rst
-

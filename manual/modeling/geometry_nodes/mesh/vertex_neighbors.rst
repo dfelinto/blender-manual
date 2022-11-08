@@ -32,4 +32,3 @@ Vertex Count
 
 Face Count
    The number of faces that contain the vertex.
-

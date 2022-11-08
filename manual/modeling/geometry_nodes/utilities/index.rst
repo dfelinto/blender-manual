@@ -23,4 +23,3 @@ General purpose nodes for modifying data.
    random_value.rst
    rotate_euler.rst
    switch.rst
-

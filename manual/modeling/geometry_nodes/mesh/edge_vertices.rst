@@ -40,4 +40,3 @@ Position 1/2
    The :doc:`position </modeling/geometry_nodes/input/position>` of each of the edge's vertices.
    This output is for convenience, it is the same as using index output to retrieve the position from the
    :doc:`/modeling/geometry_nodes/utilities/field_at_index`.
-

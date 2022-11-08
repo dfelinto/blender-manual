@@ -39,4 +39,3 @@ Island Index
 
 Island Count
    The total number of mesh islands. This is a single value, and does not vary per element.
-

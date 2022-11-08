@@ -58,5 +58,3 @@ Examples
    :width: 200px
 
    Gradient texture using object coordinates.
-
-

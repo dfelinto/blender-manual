@@ -146,5 +146,3 @@ the coordinates by an arbitrary amount.
 .. figure:: /images/render_shader-nodes_textures_noise_solution-banding.png
 
    Mitigating the issue by rotating the coordinates by an arbitrary amount.
-
-

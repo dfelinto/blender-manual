@@ -49,4 +49,3 @@ Spline Count
 Instance Count
    The number of top-level instances in the geometry. :ref:`Nested instances <geometry-nodes_nested-instancing>`
    are not considered.
-

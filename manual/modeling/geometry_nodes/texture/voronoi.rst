@@ -275,4 +275,3 @@ Examples
 .. figure:: /images/render_shader-nodes_textures_voronoi_example-hammered-metal.jpg
 
    Creating a hammered metal shader using the *Voronoi Texture* node.
-
