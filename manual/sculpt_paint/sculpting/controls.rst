@@ -65,7 +65,6 @@ Mesh Boundary
       It is also currently stored per brush.
 
 .. _bpy.types.Sculpt.use_automasking_boundary_face_sets:
-.. _bpy.types.Brush.automasking_boundary_edges_propagation_steps:
 
 Face Sets Boundary
    Vertices that are part of a boundary between face sets are not affected.

@@ -71,14 +71,10 @@ Based on the render engine different options can be set.
 
    Collection/View layer settings.
 
-.. _bpy.ops.outliner.collection_exclude_set:
-
 Disable from View Layer
    Remove this collection from the active view layer. Objects that are only in
    this collection will not be rendered for the active view layer.
    This is useful to sometimes leave out some object influence for a particular view layer.
-
-.. _bpy.ops.outliner.collection_exclude_clear:
 
 Enable in View Layer
    Add this collection to the active view layer. Objects inside the collection

@@ -51,7 +51,5 @@ Stroke Thickness
 Thickness Scale
    Sets a thickness scale factor for all strokes.
 
-.. _bpy.types.GreasePencil.edit_curve_resolution:
-
 Curve Resolution
    See :ref:`Curve Editing <bpy.types.GreasePencil.edit_curve_resolution>` for more information.
