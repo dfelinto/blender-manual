@@ -1,4 +1,4 @@
-(function() {//switch: v1.2
+(function() {//switch: v1.3
 "use strict";
 
 var versionsFileUrl = "https://docs.blender.org/versions.json"
@@ -27,75 +27,67 @@ var all_langs = {
 	"zh-hant": "&#x4E2D;&#x6587;(&#x7E41;&#x9AD4;)",
 };
 
-var Popover=function(){
-function Popover(id){
+class Popover {
+constructor(id) {
 	this.isOpen=false;
 	this.type = (id === "version-popover");
 	this.$btn = $('#' + id);
 	this.$dialog = this.$btn.next();
 	this.$list = this.$dialog.children("ul");
 	this.sel = null;
-	this.beforeInit();
-}
-
-Popover.prototype={
-beforeInit: function() {
-	var that=this;
+	const that = this;
 	this.$btn.on("click", function(e){that.init();e.preventDefault();e.stopPropagation();});
 	this.$btn.on("keydown", function(e) { if(that.btnKeyFilter(e)){that.init();e.preventDefault();e.stopPropagation();} });
-},
-init: function() {
+}
+
+init() {
 	this.$btn.off("click");
 	this.$btn.off("keydown");
 
-	if(all_versions === undefined) {
-		this.$btn.addClass("wait");
-		this.loadVL(this);
-	} else {
-		this.afterLoad();
-	}
-},
-loadVL: function(that) {
-	$.getJSON(versionsFileUrl, function(data) {
-		all_versions = data;
-		that.afterLoad();
-		return true;
+	new Promise((resolve, reject) => {
+		if(all_versions === undefined) {
+			this.$btn.addClass("wait");
+			$.getJSON(versionsFileUrl, function(data) {
+				all_versions = data;
+				resolve();
+			})
+			.fail(() => {
+				console.error("Version Switch Error: versions.json could not be loaded.");
+				this.$btn.addClass("disabled");
+			});
+		} else {
+			resolve();
+		}
 	})
-	.fail( function() {
-		console.log("Version Switch Error: versions.json could not be loaded.");
-		that.$btn.addClass("disabled");
-		return false;
+	.then(() => {
+		let release = DOCUMENTATION_OPTIONS.VERSION;
+		const m = release.match(/\d\.\d+/g);
+		if (m) {release = m[0];}
+		let lang = DOCUMENTATION_OPTIONS.LANGUAGE;
+		if(!lang || lang === "None" || lang === "") {lang = "en";}
+
+		this.warnOld(release, all_versions);
+
+		const version = this.getNamed(release);
+		this.buildList(version, lang);
+
+		this.$list.children(":first-child").remove();
+		const that = this;
+		this.$list.on("keydown", function(e) {that.keyMove(e);});
+
+		this.$btn.removeClass("wait");
+		this.btnOpenHandler();
+		this.$btn.on("mousedown", function(e){that.btnOpenHandler(); e.preventDefault()});
+		this.$btn.on("keydown", function(e){ if(that.btnKeyFilter(e)){that.btnOpenHandler();} });
 	});
-},
-afterLoad: function() {
-	var release = DOCUMENTATION_OPTIONS.VERSION;
-	const m = release.match(/\d\.\d+/g);
-	if (m) {release = m[0];}
-	var lang = DOCUMENTATION_OPTIONS.LANGUAGE;
-	if(!lang || lang === "None" || lang === "") {lang = "en";}
-
-	this.warnOld(release, all_versions);
-
-	var version = this.getNamed(release);
-	var list = this.buildList(version, lang);
-
-	this.$list.children(":first-child").remove();
-	this.$list.append(list);
-	var that = this;
-	this.$list.on("keydown", function(e) {that.keyMove(e);});
-
-	this.$btn.removeClass("wait");
-	this.btnOpenHandler();
-	this.$btn.on("mousedown", function(e){that.btnOpenHandler(); e.preventDefault()});
-	this.$btn.on("keydown", function(e){ if(that.btnKeyFilter(e)){that.btnOpenHandler();} });
-},
-warnOld: function(release, all_versions) {
+}
+warnOld(release, all_versions) {
 	// Note this is effectively disabled now, two issues must fixed:
 	// * versions.js does not contain a current entry, because that leads to
 	//   duplicate version numbers in the menu. These need to be deduplicated.
 	// * It only shows the warning after opening the menu to switch version
 	//   or language, when versions.js is loaded. This is too late to be useful.
-	var current = all_versions.current
+	let current = all_versions.current
 	if (!current) {
 		//console.log("Version Switch Error: no 'current' in version.json.");
 		return;
@@ -103,60 +95,58 @@ warnOld: function(release, all_versions) {
 	const m = current.match(/\d\.\d+/g);
 	if (m) {current = parseFloat(m[0]);}
 	if (release < current) {
-		var currentURL = window.location.pathname.replace(release, current);
-		var warning = $(
-			'<div class="admonition warning"> ' +
-			'<p class="first admonition-title">Note</p> ' +
-			'<p class="last"> ' +
-			'You are not using the most up to date version of the documentation. ' +
-			'<a href="#"></a> is the newest version.' +
-			'</p>' +
-			'</div>');
-
+		const currentURL = window.location.pathname.replace(release, current);
+		const warning = $(document.querySelector("template#version-warning").firstElementChild.cloneNode(true));
 		warning
 			.find('a')
 			.attr('href', currentURL)
 			.text(current);
 
-		var body = $("div.body");
+		let body = $("div.body");
 		if (!body.length) {body = $("div.document");}
 		body.prepend(warning);
 	}
-},
-buildList: function(v, l) {
-	var url = new URL(window.location.href);
+}
+buildList(v, l) {
+	const url = new URL(window.location.href);
 	let pathSplit = ["", "manual", l, v];
 	if (url.pathname.startsWith("/manual/")) {
 		pathSplit.push(url.pathname.split('/').slice(4).join('/'));
 	} else {
 		pathSplit.push(url.pathname.substring(1));
 	}
+	let dyn, cur;
 	if(this.type) {
-		var dyn = all_versions;
-		var cur = v;
+		dyn = all_versions;
+		cur = v;
 	} else {
-		var dyn = all_langs;
-		var cur = l;
+		dyn = all_langs;
+		cur = l;
 	}
-	var buf = [];
-	var that=this;
+	const that = this;
+	const template = document.querySelector("template#version-entry").content;
 	$.each(dyn, function(ix, title) {
-		buf.push("<li");
+		let clone;
 		if (ix === cur) {
-			buf.push(' class="selected" tabindex="-1" role="presentation"><span tabindex="-1" role="menuitem" aria-current="page">' + title + '</spanp></li>');
+			clone = template.querySelector("li.selected").cloneNode(true);
+			clone.querySelector("span").innerHTML = title;
 		} else {
 			pathSplit[2 + that.type] = ix;
-			var href = new URL(url);
+			let href = new URL(url);
 			href.pathname = pathSplit.join('/');
-			buf.push(' tabindex="-1" role="presentation"><a href ="' + href + '" tabindex="-1">' + title + '</a></li>');
+			clone = template.firstElementChild.cloneNode(true);
+			const link = clone.querySelector("a");
+			link.href = href;
+			link.innerHTML = title;
 		}
+		that.$list.append(clone);
 	});
-	return buf.join('');
-},
-getNamed: function(v) {
+	return this.$list;
+}
+getNamed(v) {
 	$.each(all_versions, function(ix, title) {
 		if (ix === "dev" || ix === "latest") {
-			var m = title.match(/\d\.\d[\w\d\.]*/)[0];
+			const m = title.match(/\d\.\d[\w\d\.]*/)[0];
 			if (parseFloat(m) == v) {
 				v = ix;
 				return false;
@@ -164,10 +154,10 @@ getNamed: function(v) {
 		}
 	});
 	return v;
-},
-dialogToggle: function(speed) {
-	var wasClose = !this.isOpen;
-	var that=this;
+}
+dialogToggle(speed) {
+	const wasClose = !this.isOpen;
+	const that = this;
 	if(!this.isOpen) {
 		this.$btn.addClass("version-btn-open");
 		this.$btn.attr("aria-pressed", true);
@@ -196,39 +186,38 @@ dialogToggle: function(speed) {
 	if(wasClose) {
 		if (this.$sel) {this.$sel.attr("tabindex", -1);}
 		if(document.activeElement !== null && document.activeElement !== document && document.activeElement !== document.body) {
-			var $nw = this.listEnter();
+			const $nw = this.listEnter();
 			$nw.attr("tabindex", 0);
 			$nw.focus();
 			this.$sel = $nw;
 		}
 	}
-},
-btnOpenHandler: function() {
+}
+btnOpenHandler() {
 	this.dialogToggle(300);
-},
-focusoutHandler: function() {
-	var list = this.$list;
-	var that = this;
+}
+focusoutHandler() {
+	const list = this.$list;
+	const that = this;
 	setTimeout(function() {
 		if (list.find(":focus").length === 0) {
 			that.dialogToggle(200);
 		}
 	}, 200);
-},
-mouseoutHandler: function() {
+}
+mouseoutHandler() {
 	this.dialogToggle(200);
-},
-btnKeyFilter: function(e) {
+}
+btnKeyFilter(e) {
 	if (e.ctrlKey || e.shiftKey) {return false;}
 	if(e.key === " " || e.key === "Enter" || (e.key === "ArrowDown" && e.altKey) || e.key === "ArrowDown" || e.key === "ArrowUp") {
 		return true;
 	}
 	return false;
-},
-keyMove: function(e) {
+}
+keyMove(e) {
 	if (e.ctrlKey || e.shiftKey) {return true;}
-	var p = true;
-	var $nw = $(e.target);
+	let $nw = $(e.target);
 	switch(e.key) {
 		case "ArrowUp": $nw = this.listPrev($nw); break;
 		case "ArrowDown": $nw = this.listNext($nw); break;
@@ -237,52 +226,49 @@ keyMove: function(e) {
 		case "Escape": $nw = this.listExit(); break;
 		case "ArrowLeft": $nw = this.listExit(); break;
 		case "ArrowRight": $nw = this.listExit(); break;
-		default: p = false;
+		default: return false;
 	}
-	if(p) {
-		$nw.attr("tabindex", 0);
-		$nw.focus();
-		if (this.$sel) {this.$sel.attr("tabindex", -1);}
-		this.$sel = $nw;
-		e.preventDefault();
-		e.stopPropagation();
-	}
-},
-listPrev: function($nw) {
+	$nw.attr("tabindex", 0);
+	$nw.focus();
+	if (this.$sel) {this.$sel.attr("tabindex", -1);}
+	this.$sel = $nw;
+	e.preventDefault();
+	e.stopPropagation();
+}
+listPrev($nw) {
 	if ($nw.parent().prev().length !== 0) {
 		return $nw.parent().prev().children(":first-child");
 	} else {
 		return this.listLast();
 	}
-},
-listNext: function($nw) {
+}
+listNext($nw) {
 	if ($nw.parent().next().length !== 0) {
 		return $nw.parent().next().children(":first-child");
 	} else {
 		return this.listFirst();
 	}
-},
-listFirst: function() {
-	return this.$list.children(":first-child").children(":first-child");
-},
-listLast: function() {
-	return this.$list.children(":last-child").children(":first-child");
-},
-listExit: function() {
-	this.mouseoutHandler();
-	return this.$btn;
-},
-listEnter: function() {
+}
+listFirst() {
 	return this.$list.children(":first-child").children(":first-child");
 }
-};
-return Popover}();
+listLast() {
+	return this.$list.children(":last-child").children(":first-child");
+}
+listExit() {
+	this.mouseoutHandler();
+	return this.$btn;
+}
+listEnter() {
+	return this.$list.children(":first-child").children(":first-child");
+}
+}
 
 $(document).ready(function() {
-	var lang = DOCUMENTATION_OPTIONS.LANGUAGE;
+	let lang = DOCUMENTATION_OPTIONS.LANGUAGE;
 	if(!lang || lang === "None") {lang = "en";}
 	if(all_langs.hasOwnProperty(lang)) {$("#lang-popover").html(all_langs[lang]);}
-	var lng_popover=new Popover("version-popover");
-	var vsn_popover=new Popover("lang-popover");
+	new Popover("version-popover");
+	new Popover("lang-popover");
 });
 })();
