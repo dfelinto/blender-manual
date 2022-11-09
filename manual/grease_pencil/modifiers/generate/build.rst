@@ -38,6 +38,9 @@ Mode
          Align End
             All stroke end at the same time (i.e. shorter strokes start later).
 
+   Additive
+      Builds only new strokes on the frame assuming additive drawings was used when drawing.
+
 Transition
    Determines the animation type to build the strokes.
 
