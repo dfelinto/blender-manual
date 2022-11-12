@@ -153,7 +153,7 @@ Drawing Workspace
 
 .. reference::
 
-   :Category:  Sequencer
+   :Category: Sequencer
    :Description: Storyboard tools.
    :Location: Video Sequencer
    :File: Storypencil folder

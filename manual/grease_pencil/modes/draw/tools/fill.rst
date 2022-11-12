@@ -54,7 +54,7 @@ Boundary
    :Stroke: Use only the thickness of the strokes (ignore edit lines).
    :Line:   Use only the edit lines (ignore strokes).
 
-.. _bpy.types.BrushGpencilSettings.show_fill_boundary:
+   .. _bpy.types.BrushGpencilSettings.show_fill_boundary:
 
    Show Lines (grid icon)
       Toggle show auxiliary lines to see the fill boundary.

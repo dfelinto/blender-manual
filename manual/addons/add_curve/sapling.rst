@@ -159,7 +159,7 @@ Settings include speed, wind strength and leaf animation.
 
 .. reference::
 
-   :Category:  Add Curve
+   :Category: Add Curve
    :Description: Adds a parametric tree.
    :Location: :menuselection:`3D Viewport --> Add --> Curve --> Sapling Tree Gen`
    :File: add_curve_sapling folder

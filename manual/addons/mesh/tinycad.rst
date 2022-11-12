@@ -67,7 +67,7 @@ This is a little bit experimental, but works fine.
 
 .. reference::
 
-   :Category:  Mesh
+   :Category: Mesh
    :Description: Mesh modeling toolkit. Several tools to aid modeling.
    :Location: :menuselection:`3D Viewport Edit Mode --> context menu`
    :File: tiny_cad folder

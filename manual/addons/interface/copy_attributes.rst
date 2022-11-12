@@ -136,7 +136,7 @@ Constraints on the selected bones may prevent this from working (or drivers for 
 
 .. reference::
 
-   :Category:  Interface
+   :Category: Interface
    :Description: Copy Attributes Menu.
    :Location: 3D Viewport :kbd:`Ctrl-C`
    :File: space_view3d_copy_attributes.py

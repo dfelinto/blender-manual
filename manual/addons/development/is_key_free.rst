@@ -30,7 +30,7 @@ List All Shortcuts
 
 .. reference::
 
-   :Category:  Development
+   :Category: Development
    :Description: Find free shortcuts, inform about used and print a key list.
    :Location: :menuselection:`Text Editor --> Sidebar --> Dev tab`
    :File: development_iskeyfree.py

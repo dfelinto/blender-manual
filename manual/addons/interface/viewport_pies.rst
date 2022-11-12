@@ -64,7 +64,7 @@ View Numpad :kbd:`Alt-Q`
 
 .. reference::
 
-   :Category:  Interface
+   :Category: Interface
    :Description: Individual and optional pie menu activation.
    :Location: 3D Viewport
    :File: space_view3d_pie_menus folder

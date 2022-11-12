@@ -52,7 +52,7 @@ I suggest to make small changes and then press *Update Ivy* in the 3D Viewport o
 
 .. reference::
 
-   :Category:  Add Curve
+   :Category: Add Curve
    :Description: Adds generated ivy to a mesh object starting at the 3D Cursor.
    :Location: :menuselection:`Sidebar --> Create tab`
    :File: add_curve_ivygen.py

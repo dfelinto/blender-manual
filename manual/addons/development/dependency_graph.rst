@@ -5,7 +5,7 @@ Dependency Graph Debug
 
 .. reference::
 
-   :Category:  Development
+   :Category: Development
    :Description: Various dependency graph debugging tools.
    :Location: :menuselection:`Properties --> View Layers`
    :File: depsgraph_debug.py

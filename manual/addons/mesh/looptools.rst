@@ -229,7 +229,7 @@ Influence
 
 .. reference::
 
-   :Category:  Mesh
+   :Category: Mesh
    :Description: Mesh modeling toolkit. Several tools to aid modeling.
    :Location: :menuselection:`3D Viewport --> Sidebar --> Edit tab`,
               :menuselection:`3D Viewport Edit Mode --> context menu`

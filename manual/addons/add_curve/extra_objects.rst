@@ -52,7 +52,7 @@ Surface Objects, by Folkert de Vries
 
 .. reference::
 
-   :Category:  Add Curve
+   :Category: Add Curve
    :Description: Add multiple extra curve object types.
    :Location: :menuselection:`3D Viewport --> Add --> Curve`
    :File: add_curve_extra_objects folder

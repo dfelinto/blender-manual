@@ -83,7 +83,7 @@ Category Tools:
 
 .. reference::
 
-   :Category:  Material
+   :Category: Material
    :Description: Materials Library VX system for library creation.
    :Location: :menuselection:`Properties --> Material`
    :File: materials_library_vx folder

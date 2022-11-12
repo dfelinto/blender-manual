@@ -922,7 +922,7 @@ The supplemental documentation (e.g. FAQ) and early release can be found in Magi
 
 .. reference::
 
-   :Category:  UV
+   :Category: UV
    :Description: UV tool set. See add-ons preferences for details.
    :Location: :menuselection:`3D Viewport --> Sidebar -->  Edit` and `UV Editor --> Sidebar ---> Magic UV`
    :File: magic_uv folder

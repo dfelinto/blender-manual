@@ -178,7 +178,7 @@ The preferences for the add-on make some features optional, so you can hide thos
 
 .. reference::
 
-   :Category:  Lighting
+   :Category: Lighting
    :Description: Show Sun position with objects and/or sky texture.
    :Location: :menuselection:`Properties --> World --> Sun Position panel`
    :File: sun_position folder

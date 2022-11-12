@@ -88,7 +88,7 @@ Limitations
 
 .. reference::
 
-   :Category:  System
+   :Category: System
    :Description: Demo Mode lets you select multiple blend-files and loop over them.
    :Location: :menuselection:`File --> Demo menu`
    :File: system_demo_mode folder

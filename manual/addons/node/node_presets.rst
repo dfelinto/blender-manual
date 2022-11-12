@@ -24,7 +24,7 @@ All node editors are supported, you can add compositing, texture and material no
 
 .. reference::
 
-   :Category:  Render
+   :Category: Render
    :Description: Add node presets.
    :Location: :menuselection:`node editors --> Add --> Templates`
    :File: node_presets.py

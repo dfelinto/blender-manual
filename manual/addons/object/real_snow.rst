@@ -54,7 +54,7 @@ Add Snow
 
 .. reference::
 
-   :Category:  Object
+   :Category: Object
    :Description: Generate snow mesh.
    :Location: :menuselection:`3D Viewport --> Properties Panel`
    :File: real_snow.py

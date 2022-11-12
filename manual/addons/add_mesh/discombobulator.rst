@@ -88,7 +88,7 @@ These settings allow you to add materials to the sides and tops of the protrusio
 
 .. reference::
 
-   :Category:  Add Mesh
+   :Category: Add Mesh
    :Description: Add Greeble type effect to a mesh.
    :Location: :menuselection:`3D Viewport --> Add --> Mesh`
    :File: add_mesh_discombobulator folder

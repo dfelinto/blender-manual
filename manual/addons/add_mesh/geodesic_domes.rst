@@ -154,7 +154,7 @@ more complex edit types.
 
 .. reference::
 
-   :Category:  Add Mesh
+   :Category: Add Mesh
    :Description: Create Geodesic object types.
    :Location: :menuselection:`3D Viewport --> Add --> Mesh`
    :File: add_mesh_geodesic_domes folder

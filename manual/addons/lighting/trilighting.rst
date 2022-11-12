@@ -34,7 +34,7 @@ Usage
 
 .. reference::
 
-   :Category:  Lighting
+   :Category: Lighting
    :Description: Add three point lighting to the selected or active object.
    :Location: :menuselection:`3D Viewport --> Add --> Lights`
    :File: lighting_tri_lights.py

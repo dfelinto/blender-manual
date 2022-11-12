@@ -62,7 +62,7 @@ on how to activate the add-on along with basic usage.
 
 .. reference::
 
-   :Category:  Add Curve
+   :Category: Add Curve
    :Description: Assigns one or more Bézier curves as a shape key for another Bézier curve.
    :Location: :menuselection:`Sidebar --> Edit tab`
    :File: curve_assign_shapekey.py

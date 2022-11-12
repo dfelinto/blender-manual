@@ -419,7 +419,7 @@ Simply allows you to select more than one image and adds a node for each.
 
 .. reference::
 
-   :Category:  Node
+   :Category: Node
    :Description: Various tools to enhance and speed up node-based workflow.
    :Location: :menuselection:`Node editor --> Sidebar` or see the hotkeys of individual tools.
    :File: node_wrangler.py

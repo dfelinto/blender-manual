@@ -56,7 +56,7 @@ the next time you use it, the measures will be ready.
 
 .. reference::
 
-   :Category:  3D View
+   :Category: 3D View
    :Description: Tools for measuring objects in the 3D Viewport.
    :Location: :menuselection:`3D Viewport --> Sidebar --> View tab`
    :File: measureit folder

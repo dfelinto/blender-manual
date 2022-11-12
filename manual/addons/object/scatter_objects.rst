@@ -5,7 +5,7 @@ Scatter Objects
 
 .. reference::
 
-   :Category:  Object
+   :Category: Object
    :Description: Distribute object instances on another object.
    :Location: :menuselection:`3D Viewport --> Search`
    :File: object_scatter folder

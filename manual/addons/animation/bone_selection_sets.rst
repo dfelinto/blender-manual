@@ -37,7 +37,7 @@ A bone can belong to more than one selection set.
 
 .. reference::
 
-   :Category:  Animation
+   :Category: Animation
    :Description: List of Bone sets for easy selection while animating.
    :Location: :menuselection:`Properties --> Armature --> Selection Sets`
    :File: bone_selection_sets.py

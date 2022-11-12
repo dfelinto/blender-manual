@@ -43,7 +43,7 @@ Instructions
 
 .. reference::
 
-   :Category:  Lighting
+   :Category: Lighting
    :Description: Creates a Dynamic Sky for Cycles/Eevee.
    :Location: :menuselection:`3D Viewport --> Sidebar --> Create tab`
    :File: lighting_dynamic_sky.py

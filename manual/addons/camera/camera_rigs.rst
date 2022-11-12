@@ -195,7 +195,7 @@ enabled in the Preferences :menuselection:`Preferences --> Save & Load --> Auto 
 
 .. reference::
 
-   :Category:  Camera
+   :Category: Camera
    :Description: Adds a camera rig with a UI.
    :Location: :menuselection:`3D Viewport --> Add --> Camera`
    :File: camera_dolly_crane_rigs.py

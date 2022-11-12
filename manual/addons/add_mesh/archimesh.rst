@@ -38,7 +38,7 @@ Located in the :menuselection:`3D Viewport --> Sidebar --> Create` tab.
 
 .. reference::
 
-   :Category:  Add Mesh
+   :Category: Add Mesh
    :Description: Generate rooms, doors, windows and architecture objects.
    :Location: :menuselection:`Sidebar --> Create tab`
    :File: archimesh folder

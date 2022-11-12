@@ -394,7 +394,7 @@ Usage: Find it in the Output panel, Render properties.
 
 .. reference::
 
-   :Category:  Interface
+   :Category: Interface
    :Description: A collection of tools and settings to improve productivity.
    :Location: Everywhere
    :File: amaranth folder

@@ -47,7 +47,7 @@ Known Limitations
 
 .. reference::
 
-   :Category:  Interface
+   :Category: Interface
    :Description: Modifiers specials show/hide/apply selected.
    :Location: :menuselection:`Properties --> Modifiers`
    :File: space_view3d_modifier_tools folder

@@ -881,7 +881,7 @@ Importing POV-Ray Files
 
 .. reference::
 
-   :Category:  Render
+   :Category: Render
    :Description: POV-Ray 3.7 integration for Blender.
    :Location: :menuselection:`Render --> Engine --> POV-Ray 3.7`
    :File: render_povray folder

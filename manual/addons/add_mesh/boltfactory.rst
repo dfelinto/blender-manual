@@ -31,7 +31,7 @@ To Do
 
 .. reference::
 
-   :Category:  Add Mesh
+   :Category: Add Mesh
    :Description: Add a bolt or nut.
    :Location: :menuselection:`3D Viewport --> Add --> Bolt`
    :File: add_mesh_BoltFactory folder

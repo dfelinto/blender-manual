@@ -35,7 +35,7 @@ Instructions
 
 .. reference::
 
-   :Category:  Development
+   :Category: Development
    :Description: Click an icon to copy its name to the clipboard.
    :Location: :menuselection:`Text Editor --> Dev Tab --> Icon Viewer`
    :File: development_icon_get.py

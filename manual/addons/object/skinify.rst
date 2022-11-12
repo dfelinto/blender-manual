@@ -34,7 +34,7 @@ It will work with custom shapes but results may vary.
 
 .. reference::
 
-   :Category:  Object
+   :Category: Object
    :Description: Creates a mesh object from selected bones.
    :Location: :menuselection:`3D Viewport Pose Mode --> Sidebar --> Create tab`
    :File: object_skinify.py

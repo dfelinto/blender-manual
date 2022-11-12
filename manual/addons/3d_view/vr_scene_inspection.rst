@@ -173,7 +173,7 @@ Mirror VR Session
 
 .. reference::
 
-   :Category:  3D View
+   :Category: 3D View
    :Description: View the viewport with virtual reality glasses (head-mounted displays).
    :Location: :menuselection:`3D Viewport --> Sidebar --> VR tab`
    :File: viewport_vr_preview folder

@@ -433,7 +433,7 @@ RTO Short Forms
 
 .. reference::
 
-   :Category:  Interface
+   :Category: Interface
    :Description: Collection management system.
    :Location: 3D Viewport
    :File: object_collection_manager folder

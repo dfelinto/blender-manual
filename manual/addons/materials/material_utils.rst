@@ -80,7 +80,7 @@ Further comprehensive documentation can be found in the co-author's
 
 .. reference::
 
-   :Category:  Material
+   :Category: Material
    :Description: Menu of material tools (assign, select...) in the 3D Viewport.
    :Location: 3D Viewport :kbd:`Shift-Q`
    :File: materials_utils folder

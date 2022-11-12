@@ -87,7 +87,7 @@ To Do
 
 .. reference::
 
-   :Category:  Add Mesh
+   :Category: Add Mesh
    :Description: Another Noise Tool: Landscape, erosion and displace.
    :Location: :menuselection:`Sidebar --> Create tab`
    :File: ant_landscape folder

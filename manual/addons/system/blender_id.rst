@@ -39,7 +39,7 @@ Description
 
 .. reference::
 
-   :Category:  System
+   :Category: System
    :Description: Stores your Blender ID credentials for usage with other add-ons.
    :Location: :menuselection:`Preferences --> Add-on tab`
    :File: blender_id folder

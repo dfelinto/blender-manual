@@ -176,7 +176,7 @@ Tools for paths.
 
 .. reference::
 
-   :Category:  Add Curve
+   :Category: Add Curve
    :Description: Adds functionality for Bézier/NURBS curve/surface modeling.
    :Location: :menuselection:`Sidebar --> Edit tab`
    :File: curve_tools folder

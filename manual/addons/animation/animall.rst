@@ -27,7 +27,7 @@ on how to activate the add-on along with basic usage.
 
 .. reference::
 
-   :Category:  Animation
+   :Category: Animation
    :Description: Allows animation of mesh, lattice, curve and surface data.
    :Location: :menuselection:`Sidebar --> Animation tab`
    :File: animation_animall.py

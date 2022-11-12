@@ -26,7 +26,7 @@ Description
 
 .. reference::
 
-   :Category:  System
+   :Category: System
    :Description: Show information about the blend-file.
    :Location: :menuselection:`Properties --> Scene --> Blend Info panel`
    :File: system_scene_information.py

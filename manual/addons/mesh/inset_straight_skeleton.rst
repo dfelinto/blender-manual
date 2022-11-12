@@ -69,7 +69,7 @@ One cool thing about this algorithm is that if you move upwards or downwards
 
 .. reference::
 
-   :Category:  Mesh
+   :Category: Mesh
    :Description: Make an inset inside selection using straight skeleton algorithm.
    :Location: 3D Viewport operator
    :File: mesh_inset folder

@@ -32,7 +32,7 @@ this add-on by going to the Add-ons tab in Preferences and expanding the add-on.
 
 .. reference::
 
-   :Category:  Interface
+   :Category: Interface
    :Description: Fast access to brushes & tools in Sculpt and Paint Modes.
    :Location: :kbd:`Spacebar` in Sculpt/Paint Modes
    :File: space_view3d_brush_menus folder

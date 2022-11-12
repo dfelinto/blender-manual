@@ -33,7 +33,7 @@ Todo.
 
 .. reference::
 
-   :Category:  Node
+   :Category: Node
    :Description: Node Tree Arrangement Tools.
    :Location: :menuselection:`node editor --> Sidebar --> Trees`
    :File: node_arrange.py

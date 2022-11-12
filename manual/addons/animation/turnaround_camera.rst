@@ -32,7 +32,7 @@ on how to activate the add-on along with basic usage.
 
 .. reference::
 
-   :Category:  Animation
+   :Category: Animation
    :Description: Add a camera rotation around selected object.
    :Location: :menuselection:`Sidebar --> View tab --> Turnaround Camera`
    :File: camera_turnaround.py

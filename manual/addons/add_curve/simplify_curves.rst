@@ -35,7 +35,7 @@ and using the :ref:`bpy.ops.wm.search_menu` to search for "Simplify F-Curves" in
 
 .. reference::
 
-   :Category:  Add Curve
+   :Category: Add Curve
    :Description: Simplify curves in the 3D Viewport, and Dope Sheet, merge by distance in 3D Viewport.
    :Location: :menuselection:`3D Viewport --> Add --> Curve --> Curve Simplify`,
               :menuselection:`Dope Sheet and Graph editors --> Channel --> Simplify F-Curves`

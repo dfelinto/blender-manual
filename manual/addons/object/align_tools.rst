@@ -42,7 +42,7 @@ Align to Active Object
 
 .. reference::
 
-   :Category:  Interface
+   :Category: Interface
    :Description: Align selected objects to the active object.
    :Location: :menuselection:`3D Viewport --> Sidebar --> Item tab`
    :File: space_view3d_align_tools folder

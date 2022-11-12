@@ -50,7 +50,7 @@ Known Limitations
 
 .. reference::
 
-   :Category:  Animation
+   :Category: Animation
    :Description: Creates a corrective shape key for the current pose.
    :Location: :menuselection:`Properties --> Object Data --> Shape Keys Specials`
    :File: animation_corrective_shape_key.py

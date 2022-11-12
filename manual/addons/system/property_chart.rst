@@ -21,7 +21,7 @@ Description
 
 .. reference::
 
-   :Category:  System
+   :Category: System
    :Description: Edit arbitrary selected properties for objects/sequence strips of the same type.
    :Location: :menuselection:`3D Viewport --> Sidebar --> Item tab`
    :File: system_property_chart.py

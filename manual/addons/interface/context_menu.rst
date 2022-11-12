@@ -27,7 +27,7 @@ Activation
 
 .. reference::
 
-   :Category:  Interface
+   :Category: Interface
    :Description: Object and mode context sensitive pop-up menu.
    :Location: 3D Viewport :kbd:`Spacebar`
    :File: space_view3d_spacebar_menu folder

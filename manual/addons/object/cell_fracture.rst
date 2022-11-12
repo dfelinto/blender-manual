@@ -32,7 +32,7 @@ Usage
 
 .. reference::
 
-   :Category:  Object
+   :Category: Object
    :Description: Tool for the fracturing of objects.
    :Location: :menuselection:`3D Viewport --> Object menu --> Quick Effects`
    :File: object_fracture_cell folder

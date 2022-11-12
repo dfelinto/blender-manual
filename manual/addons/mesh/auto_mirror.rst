@@ -23,7 +23,7 @@ Usage
 
 .. reference::
 
-   :Category:  Mesh
+   :Category: Mesh
    :Description: Super fast cutting and mirroring for mesh.
    :Location: :menuselection:`3D Viewport --> Sidebar --> Edit tab`
    :File: mesh_auto_mirror.py

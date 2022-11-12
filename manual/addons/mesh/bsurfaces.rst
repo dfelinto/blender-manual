@@ -15,7 +15,7 @@ Activation
 
 .. reference::
 
-   :Category:  Mesh
+   :Category: Mesh
    :Description: Modeling and retopology tool.
    :Location: :menuselection:`3D Viewport Edit Mode --> Sidebar --> Edit tab`
    :File: mesh_bsurfaces.py

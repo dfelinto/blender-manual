@@ -66,7 +66,7 @@ Wall Factory by dudecon, jambay
 
 .. reference::
 
-   :Category:  Add Mesh
+   :Category: Add Mesh
    :Description: Create many extra object types.
    :Location: :menuselection:`3D Viewport --> Add --> Mesh`
    :File: add_mesh_extra_objects folder

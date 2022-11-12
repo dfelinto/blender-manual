@@ -470,7 +470,7 @@ See `this video <https://vimeo.com/132720942>`__ for an example of the Tissue ad
 
 .. reference::
 
-   :Category:  Mesh
+   :Category: Mesh
    :Description: Tools for computational design.
    :Location: :menuselection:`Sidebar --> Edit tab`
    :File: mesh_tissue folder

@@ -78,7 +78,7 @@ This is available in Draw Mode in the :ref:`Brushes panel <grease-pencil-draw-co
 
 .. reference::
 
-   :Category:  Object
+   :Category: Object
    :Description: Set of tools for Grease Pencil drawing.
    :Location: :menuselection:`3D Viewport --> Sidebar --> Grease Pencil`
    :File: greasepencil_addon folder

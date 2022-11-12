@@ -66,7 +66,7 @@ the next time you use it, the stored views or point of view will be ready.
 
 .. reference::
 
-   :Category:  3D View
+   :Category: 3D View
    :Description: Save and restore user defined views, :abbr:`POV (Point Of View)` and camera locations.
    :Location: :menuselection:`3D Viewport --> Sidebar --> View tab`
    :File: space_view3d_stored_views.py

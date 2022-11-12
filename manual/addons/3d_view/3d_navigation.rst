@@ -90,7 +90,7 @@ Roll Left/Right
 
 .. reference::
 
-   :Category:  3D View
+   :Category: 3D View
    :Description: Navigate the 3D Viewport and camera from the Sidebar.
    :Location: :menuselection:`3D Viewport --> Sidebar --> View tab`
    :File: space_view3d_3d_navigation.py

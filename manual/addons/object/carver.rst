@@ -108,7 +108,7 @@ Brush Type :kbd:`T`
 
 .. reference::
 
-   :Category:  Object
+   :Category: Object
    :Description: Multiple tools to carve or to create objects.
    :Location: 3D Viewport :kbd:`Shift-Ctrl-X`
    :File: object_carver folder

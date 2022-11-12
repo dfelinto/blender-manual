@@ -21,7 +21,7 @@ See `Blender translation how-to <https://wiki.blender.org/wiki/Dev:Doc/How_to/Tr
 
 .. reference::
 
-   :Category:  System
+   :Category: System
    :Description: Allows managing UI translations directly from within Blender
                  (update main po-files, update scripts' translations, etc.).
    :Location: :menuselection:`Topbar --> File menu`, Text editor, any UI control

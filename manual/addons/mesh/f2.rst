@@ -45,7 +45,7 @@ the mouse cursor (in 2D screen space) is the one which will be created.
 
 .. reference::
 
-   :Category:  Mesh
+   :Category: Mesh
    :Description: Extends the 'Make Edge/Face' functionality.
    :Location: Mesh Edit Mode :kbd:`F`
    :File: mesh_f2.py

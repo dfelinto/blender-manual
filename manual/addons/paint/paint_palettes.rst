@@ -53,7 +53,7 @@ Select the weight value from the eleven values. These can be adjusted with the *
 
 .. reference::
 
-   :Category:  Paint
+   :Category: Paint
    :Description: Palettes for color and weight paint modes.
    :Location: :menuselection:`Image Editor, 3D Viewport Paint Modes --> Color Palette or Weight Palette panel`
    :File: paint_palette.py

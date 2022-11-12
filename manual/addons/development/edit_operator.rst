@@ -35,7 +35,7 @@ To access the previously opened text files, select them from the header data-blo
 
 .. reference::
 
-   :Category:  Development
+   :Category: Development
    :Description: Opens source file of chosen operator or call locations, if source not available.
    :Location: :menuselection:`Text Editor --> Sidebar --> Edit Operator`
    :File: development_edit_operator.py

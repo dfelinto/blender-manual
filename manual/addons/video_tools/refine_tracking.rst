@@ -31,7 +31,7 @@ Usage
 
 .. reference::
 
-   :Category:  Video Tools
+   :Category: Video Tools
    :Description: Refine motion solution by setting track weight according to reprojection error.
    :Location: :menuselection:`Clip Editor --> Tools --> Solve --> Refine Solution`
    :File: space_clip_editor_refine_solution.py

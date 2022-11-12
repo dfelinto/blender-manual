@@ -83,7 +83,7 @@ Options
 
 .. reference::
 
-   :Category:  Mesh
+   :Category: Mesh
    :Description: Tool that allows accurate modeling through its own snapping system
    :Location: :menuselection:`3D Viewport --> Tools --> Line Tool`
    :File: mesh_snap_utilities_line folder

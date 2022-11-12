@@ -68,7 +68,7 @@ Each script has a number of different options which can be used to create some v
 
 .. reference::
 
-   :Category:  Add Curve
+   :Category: Add Curve
    :Description: Tools for converting/animating objects/particles into curves.
    :Location: :menuselection:`Sidebar --> Create tab`
    :File: btrace folder

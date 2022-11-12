@@ -26,7 +26,7 @@ You can find the add-on's full documentation on the author's website:
 
 .. reference::
 
-   :Category:  Sequencer
+   :Category: Sequencer
    :Description: Video editing tools for content creators.
    :Location: Video Sequencer
    :File: power_sequencer folder
