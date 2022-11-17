@@ -8,8 +8,8 @@ Viewer Node
    :align: right
    :alt: Viewer Node.
 
-The *Viewer* node is a temporary, in-process viewer.
-It can be plug in anywhere to inspect an image or value map in your node tree.
+The *Viewer* node allows temporarily visualizing data from inside a node graph.
+It can be plugged in anywhere to inspect an image or value map in your node tree.
 
 Select a view node with :kbd:`LMB` to switch between multiple viewer nodes.
 It is possible to automatically plug any other node into a Viewer node

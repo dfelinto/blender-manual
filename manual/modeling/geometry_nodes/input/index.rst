@@ -16,6 +16,7 @@ Nodes used mainly as input to other nodes.
    material.rst
    object_info.rst
    scene_time.rst
+   self_object.rst
    string.rst
    value.rst
    vector.rst

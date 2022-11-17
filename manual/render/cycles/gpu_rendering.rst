@@ -91,11 +91,11 @@ for more information about Intel graphics cards and their architectures.
 Metal -- Apple (macOS)
 ----------------------
 
-Metal is supported on Apple computers with Apple Silicon or AMD graphics cards. macOS 12.2 is required to use Metal
-with Apple Silicon while macOS 12.3 is required to use Metal with AMD graphics cards.
+Metal is supported on Apple computers with Apple Silicon, AMD and Intel graphics cards.
+macOS 13.0 or newer is required to support all features and graphics cards.
 
-.. note:: :ref:`MNEE caustics <bpy.types.CyclesObjectSettings.is_caustics_caster>` are not supported in Metal
-   when using a version of macOS older than macOS 13.0.
+Apple Silicon and AMD graphics cards also work on macOS 12.3 and newer, however
+without support for :ref:`MNEE caustics <bpy.types.CyclesObjectSettings.is_caustics_caster>`.
 
 
 Frequently Asked Questions

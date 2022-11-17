@@ -53,8 +53,8 @@ the modifier or node execution.
 Viewer Node
 ===========
 
-The Viewer node is used to display intermediate geometry in the Spreadsheet.
-For more information see :doc:`/modeling/geometry_nodes/output/viewer`.
+The Viewer node is used to display intermediate geometry in the :doc:`Spreadsheet Editor </editors/spreadsheet>`
+and the Viewport. For more information see :doc:`/modeling/geometry_nodes/output/viewer`.
 
 
 Node Warnings

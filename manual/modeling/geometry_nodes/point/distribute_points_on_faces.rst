@@ -24,7 +24,7 @@ the :doc:`Random Value </modeling/geometry_nodes/utilities/random_value>` and
 Inputs
 ======
 
-Geometry
+Mesh
    Standard geometry input.
 
    .. note::
