@@ -26,7 +26,7 @@ Inputs
 ======
 
 Curve
-   Standard geometry input, containing a curve.
+   Standard geometry input, containing curves.
 
 Selection
    Whether or not to change the value on each control point. True values mean the value will be changed,

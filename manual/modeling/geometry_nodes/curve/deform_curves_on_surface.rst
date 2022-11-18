@@ -31,6 +31,8 @@ Unlike other geometry nodes, this node has quite a few implicit inputs:
 
 In future development, this node will be generalized so the setup is more flexible.
 
+Parts of the internal operation are similar to the :doc:`/modeling/geometry_nodes/mesh/sample_uv_surface`.
+
 
 Inputs
 ======

@@ -56,10 +56,11 @@ nodes to find attribute data in an input geometry.
 
 Anonymous attributes are still stored on the geometry like other attributes, and they are even
 automatically interpolated when the geometry changes with other nodes, except for a few cases.
-So generally, if the node link is still accessible, the attribute it references will be too.
-However, anonymous attributes cannot be connected to a completely separate geometry
-that was not created from their source. To transfer attributes between separate geometries,
-the :doc:`/modeling/geometry_nodes/attribute/transfer_attribute` can be used.
+So generally, if the node link is still accessible, the attribute it references will be available
+too. However, anonymous attributes cannot be connected to a completely separate geometry
+that was created from a different source. To transfer attributes between separate geometries,
+the :doc:`/modeling/geometry_nodes/geometry/sample_index` or other similar nodes like the
+:doc:`/modeling/geometry_nodes/mesh/sample_nearest_surface` can be used.
 
 .. _attribute-data-types:
 

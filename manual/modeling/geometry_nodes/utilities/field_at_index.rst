@@ -10,8 +10,8 @@ Field at Index Node
    :alt: Field at Index Node.
 
 The *Field at Index* node allows accessing data of other elements in the context geometry.
-It is similar to the :doc:`/modeling/geometry_nodes/attribute/transfer_attribute` in *Index*
-mode. The main difference is that this node does not require a geometry input, because the geometry
+It is similar to the :doc:`/modeling/geometry_nodes/geometry/sample_index`.
+The main difference is that this node does not require a geometry input, because the geometry
 from the :ref:`field context <field-context>` is used.
 
 This node is also similar to the :doc:`/modeling/geometry_nodes/utilities/interpolate_domain` node,

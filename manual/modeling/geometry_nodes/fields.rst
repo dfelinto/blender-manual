@@ -56,9 +56,9 @@ There are three possible socket shapes, each visualizing its "field status":
 
    Often it is desired to extract a single value from a field. While it doesn't
    make sense conceptually to simply change a field into a single value,
-   the :doc:`/modeling/geometry_nodes/attribute/transfer_attribute` in *Index* mode
-   or the :doc:`/modeling/geometry_nodes/attribute/attribute_statistic` can be used
-   to retrieve a single value from a field evaluated on a geometry.
+   the :doc:`/modeling/geometry_nodes/geometry/sample_index` or the
+   :doc:`/modeling/geometry_nodes/attribute/attribute_statistic` can
+   be used to retrieve a single value from a field evaluated on a geometry.
 
 When a connection is made between two node sockets that support
 fields the node connection will be drawn as a dashed line.

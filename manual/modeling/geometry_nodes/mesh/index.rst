@@ -17,6 +17,7 @@ Nodes that only operate on meshes.
    mesh_to_curve.rst
    mesh_to_points.rst
    mesh_to_volume.rst
+   sample_nearest_surface.rst
    scale_elements.rst
    split_edges.rst
    subdivide_mesh.rst

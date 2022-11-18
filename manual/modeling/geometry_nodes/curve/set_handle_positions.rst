@@ -29,7 +29,7 @@ Inputs
 ======
 
 Curve
-   Standard geometry input, containing a curve.
+   Standard geometry input, containing curves.
 
 Selection
    Whether or not to change the handle position on each control point.
