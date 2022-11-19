@@ -16,7 +16,7 @@ of edges (i.e. the selection *must* define a valid loop, see below).
 
 Even :kbd:`E`
    Forces the edge loop to match the shape of the adjacent edge loop.
-   You can flip to the opposite vertex using :kbd:`F`. Use :kbd:`Alt-Wheel` to change the control edge.
+   You can flip to the opposite vertex using :kbd:`F`.
 Flipped :kbd:`F`
    When Even mode is active, this flips between the two adjacent edge loops the active edge loop will match.
 Clamp :kbd:`Alt` or :kbd:`C`
@@ -60,9 +60,6 @@ In *Even* mode, the tool shows the position along the length of the currently se
 which is marked in yellow, from the vertex that has an enlarged red marker.
 Movement of the sliding edge loop is restricted to this length. As you move the mouse
 the length indicator in the header changes showing where along the length of the edge you are.
-
-To change the control edge that determines the position of the edge loop,
-use the :kbd:`Alt-Wheel` to scroll to a different edge.
 
 .. list-table::
 
