@@ -54,5 +54,5 @@ Examples
 
 Anywhere the geometry is a curve, this node can be used to generate a selection of
 only the first and last points of each spline. Here, the *Points* input of
-the :doc:`/modeling/geometry_nodes/point/distribute_points_on_faces` is a curve
+the :doc:`/modeling/geometry_nodes/instances/instance_on_points` is a curve
 consisting of the poly spline shown in Edit Mode.

@@ -44,7 +44,7 @@ nested instances by instancing on the points real geometry and instanced geometr
    :align: center
 
    A node group that creates nested instancing by chaining
-   :doc:`instance on points </modeling/geometry_nodes/instances/instance_on_points>` nodes.
+   :doc:`Instance on Points </modeling/geometry_nodes/instances/instance_on_points>` nodes.
 
 Here, nested instancing is used to distribute geometry that contains both a mesh
 and instances. The output geometry contains a "real" mesh, and a group of instances.
