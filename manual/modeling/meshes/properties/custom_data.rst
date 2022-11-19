@@ -46,12 +46,12 @@ Add/Clear Vertex Bevel Weight
 .. _bpy.ops.mesh.customdata_crease_edge_clear:
 
 Add/Clear Edge Crease
-   Adds a zero `Edge Crease <modeling-edges-crease-subdivision>` value to all edges of the mesh.
+   Adds a zero :ref:`Edge Crease <modeling-edges-crease-subdivision>` value to all edges of the mesh.
    If edge crease data does exist, this operator will delete all that data.
 
 .. _bpy.ops.mesh.customdata_crease_vertex_add:
 .. _bpy.ops.mesh.customdata_crease_vertex_clear:
 
 Add/Clear Vertex Crease
-   Adds a zero `Vertex Crease <modeling-vertex-crease-subdivision>` value to all vertices of the mesh.
+   Adds a zero :ref:`Vertex Crease <modeling-vertex-crease-subdivision>` value to all vertices of the mesh.
    If vertex crease data does exist, this operator will delete all that data.

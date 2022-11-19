@@ -70,4 +70,4 @@ Side
 Bottom
    A boolean attribute field with a selection of the faces on the bottom of the cone. If the *Fill Type*
    property is set to none, then this will be a selection of the bottom edges instead. If *Radius Bottom*
-   is zero, this will be a selection of the top vertex.
+   is zero, this will be a selection of the bottom vertex.

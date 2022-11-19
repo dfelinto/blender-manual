@@ -19,7 +19,6 @@ in the path to the "closest" endpoint.
 
 The node is implemented with `Dijkstra's algorithm <https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm>`__.
 
-
 .. tip::
 
    .. figure:: /images/modeling_geometry-nodes_mesh_shortest-edge-paths_distance.png
@@ -30,7 +29,7 @@ The node is implemented with `Dijkstra's algorithm <https://en.wikipedia.org/wik
    :doc:`/modeling/geometry_nodes/vector/vector_math` set to the *Distance* operation.
 
 .. seealso::
-   
+
    This node can be used with the :doc:`/modeling/geometry_nodes/mesh/edge_paths_to_selection`
    or the :doc:`/modeling/geometry_nodes/mesh/edge_paths_to_curves` to generate new geometry
    based on the paths.
@@ -43,7 +42,7 @@ End Vertex
    A selection of the goal vertices that terminate the edge paths.
 
 Edge Cost
-   The weight for each edge, used to determine the meaing of "shortest."
+   The weight for each edge, used to determine the meaning of "shortest."
 
 
 Properties

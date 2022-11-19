@@ -30,8 +30,8 @@ Scale
 Center
    Origin of the scaling for each element. If multiple elements are connected, their center is averaged.
 
-Direction :guilabel:`Single Axis Mode Only`
-   Direction in which to scale the element. This input is normalized internally, so the length does not matter.
+Axis :guilabel:`Single Axis Mode Only`
+   Axis in which to scale the element. This input is normalized internally, so the length does not matter.
 
 
 Properties
