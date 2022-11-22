@@ -35,6 +35,7 @@ Menu Integration is main tools into the Edit Mode context menu, selection tools 
 - Vertex Chamfer: by Andrew Hale (TrumanBlending)
 - Random Vertices: by Oscurart
 - Select Tools: by dustractor
+- Relax: by Fabian Fricke
 - Thanks to Macouno and CoDEmanX
 
 

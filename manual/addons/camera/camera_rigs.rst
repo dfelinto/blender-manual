@@ -45,7 +45,7 @@ When the Rig is selected, the camera properties will be displayed in the Sidebar
 Root Bone
    This is the parent of the entire rig.
 Control Bone
-   This is the bone (named ``Ctrl``) that will translate the camera around. By default it will track to the aim bone.
+   This is the bone (named ``Camera``) that will translate the camera around. By default it will track to the aim bone.
 Aim Bone
    The camera will point at this bone (named ``Aim``).
    You can also tilt the camera by rotating the aim on the Y axis.
@@ -54,10 +54,9 @@ Aim Bone
 2D Rig
 ======
 
-This rig is mainly designed to function like a rostrum camera (stage camera), aiming at one direction.
-With it, you can frame the action by moving two of the corners of the camera, instead of moving
-and rotating it. It produces smooth movements that would be hard to achieve without it,
-by using complex drivers to calculate the appropriate camera settings.
+This rig is designed to provide fine controls over the framing while aiming at one direction. With it, you can frame the
+action by moving two of the corners of the camera, instead of moving and rotating it. It produces smooth movements that
+would be hard to achieve without it, by using complex drivers to calculate the appropriate camera settings.
 
 .. seealso::
 
@@ -104,7 +103,7 @@ Widgets
 -------
 
 When a rig is built, the add-on will create a collection for all the custom bone shapes
-called (named ``Widgets``). When the custom shapes (widgets) are built
+(named ``Widgets``). When the custom shapes (widgets) are built
 they will use the prefix ``WGT-``. If you have more than one rig in the scene,
 it will use the same widgets in the same collection rather than duplicating them.
 The default collection name and the widget prefix can be set in the preferences of the add-on.
@@ -126,12 +125,9 @@ Panel
 The panel will display the most used camera settings.
 Only the added features will be explain here, for more information refer to the :doc:`/render/cameras` section.
 
-Add DOF Empty
-   The *Add DOF Empty* button will automatically add an empty at the location of the aim bone and
-   make it the depth of field (DOF) object.
-
-   The empty is a child of the aim bone, so you can animate that instead of animating the empty directly.
-   This is a workaround as it only possible to use objects as a target for the DOF and not bones.
+Set DOF Bone
+   The *Set DOF Bone* button will automatically set up the camera so that it uses the camera rig’s Aim bone as a target
+   for the depth of field (DOF).
 
 Focal Distance/F-Stop/Focal Length
    These are custom properties on the camera bone that drive the equivalent setting on the actual camera.
@@ -198,7 +194,7 @@ enabled in the Preferences :menuselection:`Preferences --> Save & Load --> Auto 
    :Category: Camera
    :Description: Adds a camera rig with a UI.
    :Location: :menuselection:`3D Viewport --> Add --> Camera`
-   :File: camera_dolly_crane_rigs.py
+   :File: add_camera_rigs folder
    :Author: Wayne Dixon, Brian Raschko, Kris Wittig, Damien Picard, Flavio Perez
    :Maintainer: to do
    :License: GPL
