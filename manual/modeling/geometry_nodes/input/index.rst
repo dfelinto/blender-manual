@@ -11,6 +11,7 @@ Nodes used mainly as input to other nodes.
    boolean.rst
    collection_info.rst
    color.rst
+   image_info.rst
    integer.rst
    is_viewport.rst
    material.rst
