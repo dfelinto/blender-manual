@@ -102,7 +102,7 @@ Operation
       :Floor: Rounds the input value down to the nearest integer.
       :Ceil: Rounds the input value up to the nearest integer.
       :Truncate: Outputs the integer part of the *value*.
-      :Fraction: `Fraction <https://en.wikipedia.org/wiki/Rational_function>`__.
+      :Fraction: Returns the fractional part of the *value*.
       :Modulo: Outputs the remainder once the first value is divided by the second value.
       :Wrap:
          Outputs a value between *Min* and *Max* based on the absolute difference between

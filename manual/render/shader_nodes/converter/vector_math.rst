@@ -65,15 +65,17 @@ Operation
       :math:`\begin{pmatrix} s \cdot A_x \\ s \cdot A_y \\ s \cdot A_z \end{pmatrix}`
    :Normalize: The result of normalizing A. The result vector points to the same direction as A and
       has a length of 1. If A is (0, 0, 0), the result is (0, 0, 0) as well.
-   :Wrap: `Wrap <https://en.wikipedia.org/wiki/Rounding>`__.
+   :Wrap:
+      The entrywise output of a value between Min and Max based on the absolute difference
+      between the input value and the nearest integer multiple of Max less than the value.
    :Snap: The result of rounding A to the largest integer multiple of B less than or equal A.
-   :Floor: The entrywise floor of A.
-   :Ceil: The entrywise ceiling of A.
+   :Floor: Rounds the input value entrywise down to the nearest integer.
+   :Ceil: Rounds the input value entrywise up to the nearest integer.
    :Modulo: The entrywise modulo of A by B.
-   :Fraction: The fractional part of A.
+   :Fraction: Returns the fractional part of the *value* entrywise.
    :Absolute: The entrywise absolute value of A.
-   :Minimum: The entrywise minimum from A and B.
-   :Maximum: The entrywise maximum from A and B.
+   :Minimum: The entrywise minimum value from A and B.
+   :Maximum: The entrywise maximum value from A and B.
    :Sine: The entrywise `Sine <https://en.wikipedia.org/wiki/Sine>`__ of A.
    :Cosine: The entrywise `Cosine <https://en.wikipedia.org/wiki/Trigonometric_functions>`__ of A.
    :Tangent: The entrywise `Tangent <https://en.wikipedia.org/wiki/Trigonometric_functions>`__ of A.
