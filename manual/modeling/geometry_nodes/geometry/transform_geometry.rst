@@ -1,15 +1,16 @@
-.. index:: Geometry Nodes; Transform
+.. index:: Geometry Nodes; Transform Geometry
 .. _bpy.types.GeometryNodeTransform:
 
-**************
-Transform Node
-**************
+***********************
+Transform Geometry Node
+***********************
 
-.. figure:: /images/node-types_GeometryNodeTransform.webp
+.. figure:: /images/node-types_GeometryNodeTransformGeometry.jpg
    :align: right
-   :alt: Transform node.
+   :alt: Transform Geometry node.
+   :width: 190px
 
-The *Transform Node* allows you to move, rotate or scale the geometry.
+The *Transform Geometry Node* allows you to move, rotate or scale the geometry.
 The transformation is applied to the entire geometry, and not per element.
 The :doc:`/modeling/geometry_nodes/geometry/set_position` is used for moving
 individual points of a geometry. For transforming instances individually, the instance

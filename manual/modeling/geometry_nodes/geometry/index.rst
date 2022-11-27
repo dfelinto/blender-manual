@@ -21,7 +21,7 @@ Nodes that can operate on different geometry types (volume, mesh).
    sample_nearest.rst
    separate_components.rst
    separate_geometry.rst
-   transform.rst
+   transform_geometry.rst
 
 ----
 

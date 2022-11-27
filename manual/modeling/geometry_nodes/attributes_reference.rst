@@ -220,8 +220,8 @@ Built-in attributes always exist, and cannot be removed. Their data type and dom
      - *Point*
      - Built-in attribute describing vertex or point locations, in the local space of a geometry.
        Any node that changes the location of points will adjust this attribute,
-       like the :doc:`Transform </modeling/geometry_nodes/geometry/transform>`
-       and :doc:`Set Position </modeling/geometry_nodes/geometry/set_position>` nodes.
+       like the :doc:`/modeling/geometry_nodes/geometry/transform_geometry`
+       and the :doc:`/modeling/geometry_nodes/geometry/set_position`.
 
    * - ``radius``
      - *Float*
