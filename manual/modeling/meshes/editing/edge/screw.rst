@@ -155,7 +155,7 @@ Continuous operations without changing the selection will repeat the operation c
 
 .. figure:: /images/modeling_meshes_editing_edge_screw_interactive-panel.png
 
-   Screw tools :ref:`bpy.ops.screen.redo_last` panel (in Edit Mode).
+   Screw tools panel (in Edit Mode).
 
 Steps
    This number field specifies how many extrusion(s) will be done for each 360 degree turn.
