@@ -138,9 +138,13 @@ No Video
    Original format of QuickTime videos. Supports an alpha channel.
 `Theora <https://en.wikipedia.org/wiki/Theora>`__
    A free open-standard lossy codec designed together with the :ref:`Ogg container <files-video-containers>`.
-`WEBM / VP9 <https://en.wikipedia.org/wiki/VP9>`__:
+`WEBM / VP9 <https://en.wikipedia.org/wiki/VP9>`__
    A free open-standard lossy video compression format.
    One of the most recent codecs, it is widely used for internet streaming.
+`AV1 <https://en.wikipedia.org/wiki/AV1>`__
+   A free open-standard lossy video compression format, designed as a successor to *VP9*.
+   AV1 offers great compression rates and visual quality,
+   *AV1* produces video files that that are about 30% more space efficient than *VP9*
 
 
 .. _files-audio-codecs:

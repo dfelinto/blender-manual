@@ -5,7 +5,7 @@
 Sample Curve Node
 *****************
 
-.. figure:: /images/node-types_GeometryNodeSampleCurve.webp
+.. figure:: /images/node-types_GeometryNodeSampleCurve.png
    :align: right
    :alt: Sample Curve node.
 
@@ -24,18 +24,30 @@ at each side of the sampled point.
 Inputs
 ======
 
-Curve
+Curves
    Standard geometry input with a curve component.
 
-Factor
+Input
+   A field input to evaluate custom attributes.
+   The evaluation is outputted through the *Value* output.
+
+Factor :guilabel:`Factor mode`
    The portion of the total length used to determine the sample position.
 
-Length
+Length :guilabel:`Length mode`
    A length in distance units used to determine how far along the curve to travel before sampling.
+
+Curve Index
+   An index to only evaluate specific splines, these indices can be specified manually
+   or from the :doc:`/modeling/geometry_nodes/input/input_index`.
+   This input is ignored when the *All Curves* property is enabled.
 
 
 Properties
 ==========
+
+Data Type
+   The :ref:`data type <attribute-data-types>` used for the evaluated data.
 
 Mode
    How to find endpoint positions for the trimmed spline.
@@ -48,9 +60,15 @@ Mode
       Find the endpoint positions using a length from the start of each spline.
       The input values should be between 0 and the length of the splines.
 
+All Curves
+   Sample lengths based on the total length of all curves, rather than using a length inside each selected curve.
+
 
 Outputs
 =======
+
+Value
+   The value of the input *Value* at the sample point.
 
 Position
    The position at the sample along the spline.

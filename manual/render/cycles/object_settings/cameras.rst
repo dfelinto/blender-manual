@@ -8,7 +8,7 @@ Cameras
 Panoramic Cameras
 =================
 
-Cycles supports three types of panoramic cameras; Equirectangular, Fisheye, and Mirror Ball.
+Cycles supports several types of panoramic cameras which are described in detail below.
 Note that these cannot be displayed in non-rendered modes in the viewport,
 i.e. *Solid* mode; they will only work for the final render.
 
@@ -33,6 +33,20 @@ Latitude Min, Max
 
 Longitude Min, Max
    Limits of the horizontal field of view angles.
+
+
+Equiangular Cubemap Face
+------------------------
+
+Improves on *Equirectangular* by providing a more uniform distribution of rendered pixel of the spherical environment.
+This results in an image that has little variation in visual resolution for the entire spherical projection.
+This is in contrast to *Equirectangular* which can lose detail in the poles of the image.
+This is also in contrast to cube map projections which lose detail near the edges of each face.
+
+This panorama type is great for virtual reality use cases
+where providing as much visual detail for a limited resolution is important.
+
+A limitation over *Equirectangular* is that this method does not have longitude or latitude limits.
 
 
 Fisheye
@@ -78,6 +92,7 @@ A position on the sensor is mapped to a direction with spherical coordinates
 Incoming light from this direction is then projected onto the corresponding pixel.
 
 This can be used to model both fisheye and perspective cameras.
+
 
 Mirror Ball
 -----------

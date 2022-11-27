@@ -15,6 +15,7 @@
    separate.rst
    bisect.rst
    knife_project.rst
+   knife_topology_tool.rst
    convex_hull.rst
    symmetrize.rst
    snap_symmetry.rst

@@ -1,14 +1,15 @@
 .. _bpy.ops.mesh.knife:
 .. _tool-mesh-knife:
 
-*****
-Knife
-*****
+*******************
+Knife Topology Tool
+*******************
 
 .. reference::
 
    :Mode:      Edit Mode
    :Tool:      :menuselection:`Toolbar --> Knife`
+   :Menu:      :menuselection:`Mesh --> Knife Topology Tool`
    :Shortcut:  :kbd:`K`
 
 The Knife tool can be used to interactively subdivide (cut up)
