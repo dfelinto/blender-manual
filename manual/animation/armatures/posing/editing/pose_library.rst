@@ -6,12 +6,20 @@ Pose Library
 
 This section describes the pose library, which is based on the :doc:`/editors/asset_browser`.
 For an overview of the asset system, see the :doc:`/files/asset_libraries/index` section.
+The pose library is meant to be used in Pose Mode. In other words, it only works
+when posing an armature, and not for general object animation.
 
 .. note::
 
-   At the moment of writing, the pose library is meant to be used in Pose Mode.
-   In other words, it only works when posing an armature, and not for general object animation.
+   The pose library is implemented as an add-on. This add-on is enabled by
+   default; disabling it will remove the pose library from Blender's user
+   interface.
 
+   The "building blocks" of the pose library are actually implemented in Blender
+   itself. The add-on only contains the user interface and the logic that
+   determines what is stored in a pose asset. This was intentionally put into an
+   add-on, so that artists or studios who want to change the behaviour can do
+   so with an add-on of their own.
 
 What is a Pose Asset?
 =====================
