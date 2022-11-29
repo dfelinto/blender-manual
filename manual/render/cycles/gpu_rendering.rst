@@ -20,8 +20,10 @@ Rendering Technologies
 Blender supports different technologies to render on the GPU depending on the particular GPU manufacturer
 and operating system.
 
-.. note:: With all GPU rendering technologies, :doc:`/render/shader_nodes/osl` is not supported.
+.. note::
 
+   :doc:`/render/shader_nodes/osl` and :ref:`path guiding <bpy.types.CyclesRenderSettings.use_guiding>`
+   are not supported when rendering on the GPU.
 
 CUDA -- NVIDIA
 --------------

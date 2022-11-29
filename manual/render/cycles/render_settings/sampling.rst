@@ -147,6 +147,42 @@ Prefilter
       more detailed results than *Fast* with increased processing time.
 
 
+.. _bpy.types.CyclesRenderSettings.use_guiding:
+
+Path Guiding
+============
+
+Path guiding helps reduce noise in scenes where finding a path to light is difficult for
+regular path tracing, for example when a room is lit through a small door opening.
+Important light directions are learned over time, improving as more samples are taken.
+Guiding is supported for surfaces with diffuse BSDFs and volumes with isotropic
+and anisotropic scattering.
+
+.. note::
+
+   - Path guiding is only available when rendering on a CPU.
+
+   - While path guiding helps render caustics in some scenes, it is not designed for complex caustics
+     as they are harder to learn and guide.
+
+.. _bpy.types.CyclesRenderSettings.guiding_training_samples:
+
+Training Samples
+   The maximum number of samples to use for training. A value of 0 will keep training until
+   the end of the render. Usually 128 to 256 training samples is enough for accurate guiding.
+   Higher values can lead to a minor increases in guiding quality but with increased render times.
+
+.. _bpy.types.CyclesRenderSettings.use_surface_guiding:
+
+Surface
+   Enable path guiding for the diffuse component of surfaces.
+
+.. _bpy.types.CyclesRenderSettings.use_volume_guiding:
+
+Volume
+   Enable path guiding inside volumes.
+
+
 Advanced
 ========
 
