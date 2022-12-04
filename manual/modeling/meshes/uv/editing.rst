@@ -41,6 +41,35 @@ Axis Locking
 Transformations can be locked to an axis by pressing :kbd:`X` or :kbd:`Y` after one of the transform tools.
 Also, holding the :kbd:`MMB` will constrain movement to the X or Y axis.
 
+Randomize
+=========
+
+.. reference::
+
+   :Editor:    UV Editor
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`UV --> Transform --> Randomize`
+
+Randomize the scale, rotation and offset of selected UV islands.
+The *Randomize Transform* tool in the UV editor works
+similar to *Randomize Transform* tool in the 3d view.
+
+Random Seed
+   Changes the random :term:`seed` used by the pseudo-random number generator,
+   producing a different transform result for each seed value.
+
+Location
+   Amount to randomize location.
+
+Rotation
+   Amount to randomize rotation.
+
+Scale Even
+   Apply the same scale to the U coordinate and V coordinate.
+
+Scale
+   Amount to randomize scale in U and V coordinates.
+
 
 Mirror
 ======
