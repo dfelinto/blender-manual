@@ -333,8 +333,20 @@ Minimize Stretch
    :Mode:      Edit Mode
    :Menu:      :menuselection:`UV --> Minimize Stretch`
 
-The *Minimize Stretch* tool, reduces UV stretch by minimizing angles. This essentially relaxes the UVs.
+The *Minimize Stretch* tool, reduces UV stretch by minimizing the difference between
+the angles in 3D and the angles in UV space.
+This tool is similar to the Relax brush sculpt tool with the *Geometry Relaxation Method*,
+but uses a different algorithm.
 
+Fill Holes
+   Just during *minimize stretch*, internal holes will be filled with temporary polygons
+   to prevent stretching and overlaps of the surrounding UVs.
+Blend
+   The fraction between 0 and 1 of the original UVs to blend in once the stretch is minimized.
+   A blend of 0 is the fully minimized stretch. Blend of 0.5 is halfway between the original UVs
+   and the minimize stretch UVs.
+Iterations
+   More iterations result in smoother UVs, but take longer to process.
 
 .. _bpy.ops.uv.stitch:
 
