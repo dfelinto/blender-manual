@@ -283,19 +283,24 @@ Pack Islands
 The *Pack Islands* tool generates an optimized UV layout with non-overlapping islands
 that tries to efficiently fill the :term:`Texture Space`.
 
-First it will uniformly scale the selected island,
-then individually transform each island so that they fill up the UV space as much as possible.
+First it will uniformly scale the selected islands,
+then individually translate each island so that they maximize the usage of the UV space.
 
-Pack To
+ Pack To
    The :doc:`UDIM </modeling/meshes/uv/workflows/udims>` grid to pack UV islands into.
 
-   :Closest UDIM: Pack islands to closest UDIM.
-   :Active UDIM: Pack islands to active UDIM image tile or UDIM grid tile where 2D cursor is located.
-Rotate
-   Allow islands to be rotated to possible get a tighter fit.
-Margin
-   The target empty space between islands.
+   :Closest UDIM: Pack islands to the UDIM closest to the center of the selection.
+   :Active UDIM: Pack islands to active UDIM image tile or, if no image is available, the UDIM grid tile where the 2D cursor is located.
+ Rotate
+   Allow islands to be rotated as well as translated to maximize texture usage.
+ Margin Method
+   The method to use when calculating the empty space between islands.
 
+   :Scaled: Use scale of existing UVs to multiply margin. (The default from Blender 3.3 and later.)
+   :Add: Simple method, just add the margin. (This is the default margin scale from Blender 2.8 and earlier.)
+   :Fraction: Precisely specify the fraction of the UV unit square for margin. (Slower than other two methods.)
+ Margin
+   The scale for the empty space between islands.
 
 .. _bpy.ops.uv.average_islands_scale:
 
