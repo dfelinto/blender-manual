@@ -391,6 +391,47 @@ Axis
    :Align Y: Move *V* co-ordinates to the midpoint of the selection.
    :Align Auto: Choose between *Align X* or *Align Y* automatically.
 
+.. _bpy.ops.uv.align_rotation:
+
+Align Rotation
+==============
+
+.. reference::
+
+   :Editor:    UV Editor
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`UV --> Align Rotation`
+
+The *Align Rotation* tool aligns entire islands to either the U or V axis.
+
+The tool has three different methods of operation.
+The different methods specify the source for the alignment,
+and also whether to align with both the U and V axes,
+or just the V axis alone.
+
+When using the *Auto* method, islands are aligned so that UV edges are aligned
+to either the U axis or the V axis. This method works best with quads
+and meshes representing organic subjects.
+
+When using the *Edge* method, only the selected edges are considered,
+and the islands will be aligned such that the selected edges are aligned
+with the V axis. This method works with the selection, so it works best
+when a particular edge, or edge loop, needs to be aligned in UV coordinates.
+
+When using the *Geometry* method, the geometry is taken into consideration.
+Either the *X* axis, the *Y* axis, or the *Z* axis can be used. Suppose
+the *X* axis is chosen. Using this method, edges which have a positive extent
+in the *X* axis will be rotated in the UV map so that the edge
+extends upwards in the *V* axis.
+This method works best to align multiple islands which share some common
+geometric property, either in the X, Y or Z axis.
+
+Note that in the *Auto* method, edges can end up aligned either up or down or left or right
+depending on the orientation of the island prior to activating the tool.
+In the *Edge* method, the alignment of selected edges can be either up
+or down in the V axis, whatever is closest to the current orientation of the UV island.
+By comparison, in the *Geometry* method, the alignment will always be pointing up in the V axis,
+ignoring any previous orientation.
 
 .. _bpy.ops.uv.hide:
 .. _bpy.ops.uv.reveal:
