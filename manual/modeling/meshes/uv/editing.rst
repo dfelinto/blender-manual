@@ -233,8 +233,13 @@ Some of the UVs on the mirror axis may be shared across the mirrored counterpart
 You could pin the UVs that correspond to the midline, then align them on the X axis,
 and they will stay in that location.
 
-Pinning also work great with the Live Unwrap tool. If you pin two or more UVs,
-with Live Unwrap on, dragging pinned UVs will interactively unwrap the model.
+The sculpting tools, *Pinch* and *Relax*, will not move any pinned UVs. This allows
+you to pin the borders, or around interior holes, and gives even more control to the
+sculpt tools.
+
+Pinning also works great with the *Live Unwrap* tool. If you pin two or more UVs,
+with *Live Unwrap* on, moving or scaling the pinned UVs will interactively unwrap the model.
+You can even use the *Grab* sculpting tool to move the pinned UVs.
 This helps with fitting a UV island to a certain shape or region.
 
 
