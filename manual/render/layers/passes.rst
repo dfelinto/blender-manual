@@ -124,8 +124,6 @@ Other
    Environment
       Emission from the directly visible background. When the film is set to transparent,
       this can be used to get the environment color and composite it back in.
-   Shadow
-      Shadows from light objects. Mostly useful for compositing objects with shadows into existing footage.
    Ambient Occlusion
       Ambient occlusion from directly visible surfaces. BSDF color or AO factor is not included; i.e.
       it gives a 'normalized' value between 0 and 1.
