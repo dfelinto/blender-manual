@@ -12,22 +12,6 @@ Material Settings
 Surface
 =======
 
-.. _bpy.types.CyclesMaterialSettings.sample_as_light:
-
-Multiple Importance Sample
-   By default objects with emitting materials use both direct and indirect light sampling methods.
-   But in some cases it may lead to less noise overall to disable direct light sampling for some materials.
-   This can be done by disabling the *Multiple Importance Sample* option.
-   This is especially useful on large objects that emit little light compared to other light sources.
-
-   This option will only have an influence if the material contains an Emission node; otherwise it will be disabled.
-
-.. _bpy.types.CyclesMaterialSettings.use_transparent_shadow:
-
-Transparent Shadows
-   Use transparent shadows if it contains a :doc:`Transparent BSDF </render/shader_nodes/shader/transparent>`,
-   disabling will render faster but will not give accurate shadows.
-
 .. _bpy.types.CyclesMaterialSettings.displacement:
 
 Displacement Method
@@ -44,6 +28,22 @@ Displacement Method
    :Displacement and Bump:
       Both methods can be combined, to do displacement on a coarser mesh,
       and use bump mapping for the final detail.
+
+.. _bpy.types.CyclesMaterialSettings.sample_as_light:
+
+Multiple Importance Sample
+   By default objects with emitting materials use both direct and indirect light sampling methods.
+   But in some cases it may lead to less noise overall to disable direct light sampling for some materials.
+   This can be done by disabling the *Multiple Importance Sample* option.
+   This is especially useful on large objects that emit little light compared to other light sources.
+
+   This option will only have an influence if the material contains an Emission node; otherwise it will be disabled.
+
+.. _bpy.types.CyclesMaterialSettings.use_transparent_shadow:
+
+Transparent Shadows
+   Use transparent shadows if it contains a :doc:`Transparent BSDF </render/shader_nodes/shader/transparent>`,
+   disabling will render faster but will not give accurate shadows.
 
 
 Volume
