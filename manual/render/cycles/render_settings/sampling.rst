@@ -183,6 +183,21 @@ Volume
    Enable path guiding inside volumes.
 
 
+Lights
+======
+
+.. _bpy.types.CyclesRenderSettings.light_sampling_threshold:
+
+Light Threshold
+   Probabilistically terminates light samples when the light contribution
+   is below this threshold (more noise but faster rendering).
+   Zero disables the test and never ignores lights.
+   This is useful because in large scenes with many light sources,
+   some lights might only contribute a small amount to the final image,
+   and increase render times. Using this setting can decrease the render times
+   needed to calculate the rays which in the end have very little effect on the image.
+
+
 Advanced
 ========
 
@@ -251,17 +266,6 @@ Min Light Bounces
 Min Transparent Bounces
    Minimum number of transparent bounces. Setting this higher reduces noise in the first bounces,
    but can also be less efficient for more complex geometry like hair and volumes.
-
-.. _bpy.types.CyclesRenderSettings.light_sampling_threshold:
-
-Light Threshold
-   Probabilistically terminates light samples when the light contribution
-   is below this threshold (more noise but faster rendering).
-   Zero disables the test and never ignores lights.
-   This is useful because in large scenes with many light sources,
-   some might only contribute a small amount to the final image, and increase render times.
-   Using this setting can decrease the render times needed to calculate
-   the rays which in the end have very little affect on the image.
 
 .. _bpy.types.CyclesRenderSettings.use_layer_samples:
 
