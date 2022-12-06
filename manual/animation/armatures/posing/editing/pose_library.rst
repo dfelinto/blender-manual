@@ -283,30 +283,9 @@ The scrollable area will automatically scroll the search field into view.
 Old Pose Library
 ================
 
-The Asset Browser based pose library, described above, replaces the old pose library.
-This section describes that old pose library, including how to convert poses to the new system.
-
-.. warning::
-
-   The old pose library is deprecated in Blender 3.0, and will be mostly removed Blender 3.1.
-   Only the Python interface will remain a bit longer, and be removed in Blender 3.2.
-   The necessary functionality to convert old pose libraries to pose assets
-   will remain in Blender for the foreseeable future.
-
-.. reference::
-
-   :Mode:      Pose Mode
-   :Menu:      :menuselection:`Pose --> Pose Library`
-
-.. seealso::
-
-   :doc:`Pose Library Properties </animation/armatures/properties/pose_library>`.
-
-.. figure:: /images/animation_armatures_properties_pose-library_panel.png
-   :align: right
-
-   The old Pose Library panel.
-
+In Blender 3.0, the Asset Browser based pose library, described above, replaced
+its predecessor pose library system. This section describes how to convert poses
+from the old pose library to the current system.
 
 .. _pose-library-convert-old:
 .. _bpy.ops.poselib.convert_old_poselib:
@@ -316,9 +295,9 @@ Converting Old Pose Libraries
 
 Old-style pose libraries can be converted to pose assets in the following way:
 
-- In the Armature properties Pose Library panel, select the pose library you want to convert.
+- In the Action Editor, select the Action containing the pose library you want to convert.
 - Make sure the scene camera is set up correctly for rendering preview images.
-- Click the "Convert Old-Style Pose Library" button.
+- In the Action Editor's Pose Library panel, click the "Convert Old-Style Pose Library" button.
 - Open the Asset Browser, and see the poses have been converted.
 - If you're happy with the result, remove the old pose library Action.
 - Save the blend-file.
@@ -330,104 +309,3 @@ in order to use the pose assets from other blend-files.
 
    This conversion does not assign the poses to any catalog, and so they will
    appear in the "Unassigned" section of the "Current File" asset library.
-
-
-.. _bpy.ops.poselib.browse_interactive:
-
-Browse Poses (Old Pose Library)
--------------------------------
-
-.. warning::
-
-   This section describes the deprecated pose library. For the new, Asset
-   Browser based pose library, see :doc:`/animation/armatures/properties/pose_library`.
-
-.. reference::
-
-   :Mode:      Edit Mode
-   :Menu:      :menuselection:`Pose --> Pose Library --> Browse Poses`
-   :Shortcut:  :kbd:`Alt-L`
-
-Interactively browse poses in the 3D Viewport.
-After running the operator, cycle through poses using the :kbd:`Left` and :kbd:`Right` arrow keys.
-The name of the pose being previewed is displayed in the header region.
-After the desired pose is selected using :kbd:`Return` or :kbd:`LMB` to make it the active pose;
-to cancel browsing, use :kbd:`Esc` or :kbd:`RMB`.
-
-Pose
-   Index of the pose to apply (-2 for no change, -1 to use the active pose).
-
-
-.. _bpy.ops.poselib.pose_add:
-
-Add Pose (Old Pose Library)
----------------------------
-
-.. warning::
-
-   This section describes the deprecated pose library. For the new, Asset
-   Browser based pose library, see :doc:`/animation/armatures/properties/pose_library`.
-
-.. reference::
-
-   :Mode:      Edit Mode
-   :Menu:      :menuselection:`Pose --> Pose Library --> Add Pose`
-   :Shortcut:  :kbd:`Shift-L`
-
-If a pose is added, a :ref:`pose marker <marker-pose-add>` is created.
-The :ref:`Whole Character keying set <whole-character-keying-set>` is used to
-determine which bones to key. If any bones are selected, only keyframes for
-those bones are added, otherwise all bones in the keying set are keyed.
-Bones that are ignored by the *Whole Character* keying set are always ignored,
-regardless of their selection state.
-
-Add New
-   Adds a new pose to the active pose library with the current pose of the armature.
-Add New (Current Frame).
-   Will add a pose to the pose library based on the current frame selected in the Timeline.
-   In contrast to *Add New* and *Replace Existing* which automatically allocate a pose to an action frame.
-Replace Existing
-   Replace an existing pose in the active pose library with the current pose of the armature.
-
-
-.. _bpy.ops.poselib.pose_rename:
-
-Rename Pose (Old Pose Library)
-------------------------------
-
-.. warning::
-
-   This section describes the deprecated pose library. For the new, Asset
-   Browser based pose library, see :doc:`/animation/armatures/properties/pose_library`.
-
-.. reference::
-
-   :Mode:      Edit Mode
-   :Menu:      :menuselection:`Pose --> Pose Library --> Rename Pose`
-   :Shortcut:  :kbd:`Shift-Ctrl-L`
-
-Changes the name of the specified pose from the active pose library.
-
-New Pose Name
-   The new name for the pose.
-Pose
-   The pose action to rename.
-
-
-.. _bpy.ops.poselib.pose_remove:
-
-Remove Pose (Old Pose Library)
-------------------------------
-
-.. warning::
-
-   This section describes the deprecated pose library. For the new, Asset
-   Browser based pose library, see :doc:`/animation/armatures/properties/pose_library`.
-
-.. reference::
-
-   :Mode:      Edit Mode
-   :Menu:      :menuselection:`Pose --> Pose Library --> Remove Pose`
-   :Shortcut:  :kbd:`Shift-Alt-L`
-
-Deletes the specified pose from the active pose library.

@@ -215,4 +215,4 @@ which allows you to pose a whole chain just by moving its tip.
 .. note::
 
    This feature is somewhat extended/completed by
-   the :doc:`pose library </animation/armatures/properties/pose_library>` tool.
+   the :doc:`pose library </animation/armatures/posing/editing/pose_library>`.
