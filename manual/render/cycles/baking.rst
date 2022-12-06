@@ -75,6 +75,14 @@ Bake Type
    :Transmission:
       Bakes the transmission pass of a material.
 
+.. _bpy.types.BakeSettings.view_from:
+
+View From
+   Source of reflection ray directions.
+
+   :Above Surface: Cast rays from above the surface.
+   :Active Camera: Use the active camera's position to cast rays.
+
 
 Influence
 ---------

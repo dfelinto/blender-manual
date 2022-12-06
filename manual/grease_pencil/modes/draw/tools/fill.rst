@@ -114,6 +114,16 @@ Mode :kbd:`S`
 Visual Aids
    Toggle show closure lines helper.
 
+.. _bpy.types.BrushGpencilSettings.use_collide_strokes:
+
+Strokes Collision :kbd:`D`
+   Check if extend lines collide with strokes, stopping the extension if a collision is detected.
+
+.. _bpy.types.BrushGpencilSettings.use_collide_only:
+
+Only Collide Lines
+   Use for closing gaps only if the extend strokes collide.
+
 
 Usage
 =====
@@ -211,7 +221,7 @@ click again to fill the area.
 
 *Extend* use temporary auxiliary lines extending the actual strokes ends for closing open shapes.
 Set the size more than zero to use the extended lines, click over the area you want to be filled
-and change the length of the strokes using :kbd:`PageUp` :kbd:`PageDown` or :kbd:`Wheel`.
+and change the length of the strokes using :kbd:`PageUp`/:kbd:`PageDown`, :kbd:`Wheel` or a pen's :kbd:`MMB`.
 When you are satisfied with the length and you are sure the temporarily strokes cross each other,
 click again to fill the area.
 

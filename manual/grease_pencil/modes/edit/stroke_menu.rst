@@ -124,6 +124,30 @@ Outline
 
 Converts a stroke to an outline.
 
+View
+   The projection method to generate the outline
+
+   :View: Use the viewport's view as a projection.
+   :Front: Use the X-Z axes view as a projection.
+   :Side: use the Y-Z axis view as a projection
+   :Top: Use the X-Y axes view as a projection
+   :Camera: Use the view from the active camera as a projection.
+Material Mode
+   How materials are assigned to the outline.
+
+   :Active Material: The stroke outline will be assigned the active material.
+   :Keep Material: The stoke outline will have the same material as before.
+   :New Material: A new material will be created and assigned to the outline.
+Thickness
+   Thickness of the stroke perimeter.
+Keep Shape
+   Try to keep global shape when the stroke thickness change.
+Subdivisions
+   Number of subdivisions for the start and end caps.
+Sample Length
+   The length each resulting segment of the outline.
+   Smaller values create outlines closer to the original shape.
+
 .. list-table::
 
    * - .. figure:: /images/grease-pencil_modes_edit_stroke-menu_outline-1.png

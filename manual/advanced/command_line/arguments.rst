@@ -311,6 +311,8 @@ Other Options
 
 ``--debug-freestyle``
    Enable debug messages for Freestyle.
+``--gpu-backend``
+   Force to use a specific GPU backend. Valid options:
 
 
 .. _command-line-args-argument-parsing:

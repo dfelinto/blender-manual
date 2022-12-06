@@ -150,12 +150,26 @@ Defaults
    Initially this contains the :doc:`startup scene </editors/3dview/startup_scene>` included with Blender.
    This can be replaced by your own customized setup.
 
+   .. _bpy.ops.wm.save_homefile:
+
    Save Startup File
       Saves the current blend-file as the startup file.
+   
+   .. _bpy.ops.wm.read_factory_settings:
+
    Load Factory Settings
       Restores the default startup file and preferences.
 
+   When an :doc:`/advanced/app_templates` is in use the following operators are shown:
+
+   Load Factory Blender Settings
+      Loads the default settings to the original Blender settings without
+      the changes made from the current application template.
+   Load Factory (Application Template Name) Settings
+      Loads the default settings to the original application template.
+
    .. seealso:: :ref:`prefs-menu`.
+
 Quit :kbd:`Ctrl-Q`
    Closes Blender. The current scene is saved to a file called "quit.blend" in Blender's temporary directory
    (which can be found on the "File Paths" tab of the :doc:`Preferences </editors/preferences/file_paths>`).
