@@ -298,3 +298,6 @@ Version/Revision Milestones
 `3.3 <https://www.blender.org/download/releases/3-3/>`__ -- September 2022
    New hair object, procedural UV nodes, line art shadow and contour,
    Intel GPU rendering support via oneAPI, and improvements to library overrides.
+
+`3.4 <https://www.blender.org/download/releases/3-4/>`__ -- December 2022
+   Cycles path guiding, sculpting auto masking improvements, even more geometry nodes, and UV Editing improvements.

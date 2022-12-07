@@ -21,13 +21,25 @@ Guides
 Grid
    Show the grid background and borders.
 
-.. _bpy.types.SpaceUVEditor.use_custom_grid:
+.. _bpy.types.SpaceUVEditor.show_grid_over_image:
 
-Fixed Subdivisions
+Over Image
+   Allows the grid overlay to be shown on top of the image rather than behind it.
+
+.. _bpy.types.SpaceUVEditor.grid_shape_source:
+
+Grid Shape Source
+   How the size/subdivisions of grid cells are determined.
+
+   :Dynamic: The grid subdivisions changes based on the zoom level.
+   :Fixed: The grid subdivisions stays consistent based off the *Fixed Subdivisions* property.
+   :Pixel: The grid aligns with pixels from image so each grid cell represents one pixel.
+
+.. _bpy.types.SpaceUVEditor.custom_grid_subdivisions:
+
+Fixed Subdivisions X, Y
    Displays a grid that does not depend on the zoom level to determine
-   the number of subdivisions. The Custom Grid is useful in combination with
-   :ref:`Absolute Grid Snap <bpy.types.ToolSettings.use_snap_uv_grid_absolute>`
-   to create precise incremental snapping.
+   the number of subdivisions. 
 
    .. _bpy.types.SpaceUVEditor.custom_grid_subdivisions:
 

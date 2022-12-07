@@ -124,6 +124,19 @@ to place the duplicated node(s).
    When in doubt, select a node and move it slightly to see if something is hidden underneath.
 
 
+.. _bpy.ops.node.duplicate_move_linked:
+
+Duplicate Linked
+================
+
+.. reference::
+
+   :Menu:      :menuselection:`Node --> Duplicate Linked`
+   :Shortcut:  :kbd:`Alt-D`
+
+Duplicate selected nodes, but not their node trees (in the case of group nodes), and move them.
+
+
 .. _bpy.ops.node.clipboard_copy:
 .. _bpy.ops.node.clipboard_paste:
 

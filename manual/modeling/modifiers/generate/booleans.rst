@@ -84,6 +84,17 @@ Solver
 Solver Options
 --------------
 
+Materials :guilabel:`Exact Solver`
+   Method for setting materials on the new faces.
+
+   :Index Based:
+      Set the material on new faces based on the order of the material slot lists.
+      If a material doesn't exist on the modifier object,
+      the face will use the same material slot or the first if the object doesn't have enough slots.
+   :Transfer:
+      Transfer materials from non-empty slots to the result mesh, adding new materials as necessary.
+      For empty slots, fall back to using the same material index as the operand mesh.
+
 Self Intersection :guilabel:`Exact Solver`
    Correctly calculates cases when one or both operands have self-intersections,
    this involves more calculations making it slower.

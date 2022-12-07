@@ -48,20 +48,6 @@ Properties
 
    :Viewport: Use viewport properties.
    :Render: Use final render properties.
-Path Mode
-   When referencing paths in exported files you may want some control as to the method used since absolute paths
-   may only be correct on your own system. Relative paths, on the other hand, are more portable
-   but mean that you have to keep your files grouped when moving about on your local file system.
-   In some cases, the path doesn't matter since the target application will search
-   a set of predefined paths anyway so you have the option to strip the path too.
-
-   :Auto: Uses relative paths for files which are in a subdirectory of the exported location,
-          absolute for any directories outside that.
-   :Absolute: Uses full paths.
-   :Relative: Uses relative paths in every case (except when on a different drive on Windows).
-   :Match: Uses relative / absolute paths based on the paths used in Blender.
-   :Strip Path: Only write the filename and omit the path component.
-   :Copy: Copy the file on exporting and reference it with a relative path.
 
 
 Geometry Properties
@@ -77,12 +63,33 @@ Normals
 Colors
    Write out the active vertex colors attribute layer, if present. Colors are exported in
    "xyzrgb" OBJ extension format.
-Materials
-   Write out the MTL-file along with the OBJ. Most importers that support OBJ will also read the MTL-file.
 Triangulated Mesh
    Write out quads as two triangles. Some programs only have very basic OBJ support and only support triangles.
 Curves as NURBS
    Write out NURBS curves as OBJ NURBS rather than converting to geometry.
+
+
+Material Properties
+^^^^^^^^^^^^^^^^^^^
+
+Export
+   Write out the MTL-file along with the OBJ. Most importers that support OBJ will also read the MTL-file.
+PBR Extensions
+   Export MTL library using PBR extensions (roughness, metallic, sheen, clearcoat, anisotropy, transmission).
+Path Mode
+   When referencing paths in exported files you may want some control as to the method used since absolute paths
+   may only be correct on your own system. Relative paths, on the other hand, are more portable
+   but mean that you have to keep your files grouped when moving about on your local file system.
+   In some cases, the path doesn't matter since the target application will search
+   a set of predefined paths anyway so you have the option to strip the path too.
+
+   :Auto: Uses relative paths for files which are in a subdirectory of the exported location,
+          absolute for any directories outside that.
+   :Absolute: Uses full paths.
+   :Relative: Uses relative paths in every case (except when on a different drive on Windows).
+   :Match: Uses relative / absolute paths based on the paths used in Blender.
+   :Strip Path: Only write the filename and omit the path component.
+   :Copy: Copy the file on exporting and reference it with a relative path.
 
 
 Grouping Properties
