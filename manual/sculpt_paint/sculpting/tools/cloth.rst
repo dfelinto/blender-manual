@@ -22,7 +22,7 @@ Brush Settings
 
 Persistent
    Allows the cloth brush to not accumulate deformation after each stroke.
-   This is convenient to always simulate the based on the same initial shape,
+   This is convenient to always simulate the cloth based on the same initial shape,
    but applying different forces to it.
 
    When disabled, deformations accumulate after each stroke.
