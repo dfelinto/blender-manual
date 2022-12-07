@@ -29,11 +29,11 @@ Axis
 
 Bisect
    If the mesh is already on both sides of the mirror plane, it is cut by that plane,
-   and only one side (the "negative" one by default) is kept to perform the mirror process.
+   and only one side (the "positive" one by default) is kept to perform the mirror process.
 
 Flip
    When *Bisect* is enabled on an axis, you can use this setting to switch the side kept and mirrored
-   (i.e. when it is enabled, the "positive" side will be kept, instead of the "negative" one).
+   (i.e. when it is enabled, the "negative" side will be kept, instead of the "positive" one).
 
 Mirror Object
    An :ref:`Object Selector <ui-data-id>` to select an object (usually an empty),
