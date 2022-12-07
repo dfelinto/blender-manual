@@ -24,9 +24,6 @@ Properties
 Iterations
    Controls how may times the image is duplicated to create the blur effect.
    Higher values give smoother results.
-Wrap
-   Wraps the image on the X and Y axis to fill in areas,
-   that become transparent from the blur effect.
 Center X, Y
    Sets the position where the blur center is.
    This makes a difference if the angle, spin, and/or zoom are used.
