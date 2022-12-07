@@ -12,10 +12,18 @@ Sample Index Node
 The *Sample Index* node retrieves values from a source geometry at a specific index.
 
 .. tip::
+
    If the *Geometry* used for the input is the same as the geometry from the :ref:`field context <field-context>`,
    this node is equivalent to the :doc:`/modeling/geometry_nodes/utilities/field_at_index`. Using that node is
-   usually preferrable since avoding the geometry socket makes the whole setup easier to use in other situations
+   usually preferable since avoiding the geometry socket makes the whole setup easier to use in other situations
    and share.
+
+.. tip::
+
+   Different components can have same attribute domain (Points).
+   This node simply uses first component that not empty for such domain,
+   checked in the order of: Mesh, Point Cloud, Curve.
+   The :doc:`/modeling/geometry_nodes/geometry/separate_components` can be used to sample directly from a specific component.
 
 
 Inputs
