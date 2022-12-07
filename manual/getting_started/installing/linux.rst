@@ -4,7 +4,7 @@ Installing on Linux
 *******************
 
 Check the :doc:`Downloading Blender </getting_started/installing/index>`
-page to find the minimum requirements and the different versions that are available 
+page to find the minimum requirements and the different versions that are available
 for Blender (if you have not done so yet).
 
 
@@ -56,6 +56,12 @@ Running from the Terminal
 =========================
 
 See :doc:`Launching from the terminal </advanced/command_line/launch/linux>`.
+
+
+Graphics System (X11 & Wayland)
+===============================
+
+Blender supports both X11 and Wayland, see :ref:`linux-windowing-environment` for details.
 
 
 Avoiding Alt-Mouse Conflict

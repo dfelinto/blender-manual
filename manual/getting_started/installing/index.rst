@@ -72,3 +72,9 @@ Follow the steps for your platform.
    macos.rst
    windows.rst
    steam.rst
+
+.. This is referenced from `linux.rst`, include in a hidden `toctree` to prevent warnings.
+.. toctree::
+   :hidden:
+
+   linux_windowing_environment.rst
