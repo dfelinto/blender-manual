@@ -1,8 +1,8 @@
 .. _linux-windowing-environment:
 
-*********************
-Windowing Environment
-*********************
+***************************
+Linux Windowing Environment
+***************************
 
 On Linux Blender supports both X11 and Wayland for official releases.
 
