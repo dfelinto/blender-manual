@@ -5,9 +5,10 @@
 Collection Info Node
 ********************
 
-.. figure:: /images/node-types_GeometryNodeCollectionInfo.webp
+.. figure:: /images/node-types_GeometryNodeCollectionInfo.jpeg
    :align: right
    :alt: Collection Info node.
+   :width: 190px
 
 The *Collection Info* node gets information from collections.
 This can be useful to control parameters in the geometry node tree with an external collection.
@@ -39,17 +40,17 @@ Properties
 ==========
 
 Transform Space
-   The transformation of the geometry outputs.
+   The transformation of the output instances. The instances are transformed, but not the geometry of the collection in them.
 
    :Original:
-      Output the geometry relative to the collection offset.
+      Output the instances relative to the collection offset.
    :Relative:
-      Join the input collection geometry with the modified object,
+      Join the input collection instances with the modified object as geometry,
       maintaining the relative position between the objects in the scene.
 
 
 Outputs
 =======
 
-Geometry
-   Geometry of the collection in world space with all its modifiers applied.
+Instances
+   Instances of the collection in world space with all modifiers applied and represented as geometry in instances.
