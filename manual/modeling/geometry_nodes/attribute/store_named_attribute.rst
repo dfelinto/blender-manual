@@ -54,6 +54,3 @@ Outputs
 
 Geometry
    Standard geometry output.
-
-Attribute
-   The result of the evaluated field, stored on the geometry.
