@@ -41,8 +41,6 @@ Fixed Subdivisions X, Y
    Displays a grid that does not depend on the zoom level to determine
    the number of subdivisions. 
 
-   .. _bpy.types.SpaceUVEditor.custom_grid_subdivisions:
-
    The number of grid units in UV that make one UV unit can be set via the *Dynamic Grid Size*.
 
 .. _bpy.types.SpaceUVEditor.tile_grid_shape:
