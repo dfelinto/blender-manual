@@ -13,10 +13,8 @@ Mass
 Air Viscosity
    Air has some thickness which slows falling things down.
 Bending Model
-   Linear
-      Cloth model with linear bending springs (old).
-   Angular
-      Cloth model with angular bending springs.
+   :Linear: Cloth model with linear bending springs (old).
+   :Angular: Cloth model with angular bending springs.
 
 
 Stiffness

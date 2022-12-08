@@ -20,9 +20,6 @@ Offset Relative
 Poke Center
    Computes the center of a face.
 
-   Weighted Mean
-      Using the mean average weighted by edge length.
-   Mean
-      Using the mean average.
-   Bounds
-      Uses center of bounding box.
+   :Weighted Mean: Using the mean average weighted by edge length.
+   :Mean: Using the mean average.
+   :Bounds: Uses center of bounding box.

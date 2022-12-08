@@ -35,14 +35,10 @@ Select Modes dependent on the Sync Selection.
 Sync Selection Off
 ------------------
 
-Vertex
-   Select individual vertices.
-Edge
-   Select edges.
-Face
-   Select faces.
-Island
-   Select contiguous groups of faces.
+:Vertex: Select individual vertices.
+:Edge: Select edges.
+:Face: Select faces.
+:Island: Select contiguous groups of faces.
 
 
 Sync Selection On
@@ -51,12 +47,9 @@ Sync Selection On
 When selecting UVs or Edges, it behaves like the *Shared Vertex* option of the *Sticky Selection Mode*.
 When selecting Faces, it behaves like the *Disabled* option of the *Sticky Selection Mode*.
 
-Vertex
-   Select individual vertices.
-Edge
-   Select edges.
-Face
-   Select faces.
+:Vertex: Select individual vertices.
+:Edge: Select edges.
+:Face: Select faces.
 
 
 .. _bpy.types.ToolSettings.uv_sticky_select_mode:
@@ -66,11 +59,11 @@ Sticky Selection Mode
 
 This selector lets you enable automatic additional selection.
 
-Shared Vertex
+:Shared Vertex:
    Selects UVs that share a mesh vertex, even if they are in different UV locations.
-Shared Location
+:Shared Location:
    Selects UVs that are in the same UV location and share a mesh vertex.
-Disabled
+:Disabled:
    Disables Sticky Selection.
    When you move a UV in this mode, each face owns its own UVs, allowing them to be separated.
 

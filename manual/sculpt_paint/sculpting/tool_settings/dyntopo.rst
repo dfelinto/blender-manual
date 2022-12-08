@@ -36,13 +36,13 @@ Detail Size/Percentage, Resolution :kbd:`Shift-D`
 Refine Method
    Setting the option will determine which of the methods will be used when altering the topology.
 
-   Subdivide Edges
+   :Subdivide Edges:
       Just like the Subdivide tool, this method will only subdivide topology
       to match the detail given.
-   Collapse Edges
+   :Collapse Edges:
       When topology is too dense, and is smaller than the detail given, edges will
       be collapsed to fit the detail size appropriately.
-   Subdivide Collapse
+   :Subdivide Collapse:
       This method combines the two methods, subdividing edges smaller than
       the detail size, and collapsing topology.
 
@@ -51,13 +51,13 @@ Refine Method
 Detailing
    Dyntopo uses three different detail methods to create dynamic detail to an object.
 
-   Relative Detail
+   :Relative Detail:
       This method uses a detail size based on the number of pixels, and in turn
       will create topology in that size. Zoom out big details, zoom in small fine details.
-   Constant Detail
+   :Constant Detail:
       To keep detail uniform across the entire object, Constant Detail can be used.
       The Detail is based on the percentage of a single unit.
-   Brush Detail
+   :Brush Detail:
       Giving more control over the topology, with this method you can create topology
       based on the brush size. You can increase and lower topology by resizing the brush itself.
       The detail size is based the size of the brush itself,

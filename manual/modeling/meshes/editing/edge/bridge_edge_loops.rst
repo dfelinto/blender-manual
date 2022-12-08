@@ -13,12 +13,9 @@ Bridge Edge Loops
 *Bridge Edge Loops* connects multiple edge loops with faces.
 
 Connect Loops
-   Open Loop
-      Loops connected with open ends.
-   Closed Loop
-      Tries to connect to a circular loop (where the start and end are merged).
-   Loop Pairs
-      Connects each even count of loops individually.
+   :Open Loop: Loops connected with open ends.
+   :Closed Loop: Tries to connect to a circular loop (where the start and end are merged).
+   :Loop Pairs: Connects each even count of loops individually.
 Merge
    Merges edge loops rather than creating a new face.
 Merge Factor

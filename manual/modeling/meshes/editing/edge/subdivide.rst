@@ -74,19 +74,19 @@ Quad/Tri Mode
 Quad Corner Type
    Controls the way quads with only two adjacent selected edges are subdivided.
 
-   Fan
+   :Fan:
       The quad is subdivided in a fan of four triangles,
       the common vertex being the one opposite to the selected edges.
-   Inner Vertices
+   :Inner Vertices:
       The selected edges are subdivided, then an edge is created between
       the two new vertices, creating a small triangle.
       This edge is also subdivided,
       and the "inner vertex" thus created is linked by another edge to the one opposite
       to the original selected edges. All this results in a quad subdivided in a triangle and two quads.
-   Path
+   :Path:
       First an edge is created between the two opposite ends of the selected edges,
       dividing the quad in two triangles. Then, the same goes for the involved triangle as described above.
-   Straight Cut
+   :Straight Cut:
       The selected edges are subdivided, then an edge is created between
       the two new vertices, creating a small triangle and n-gon.
 

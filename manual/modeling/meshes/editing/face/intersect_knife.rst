@@ -14,23 +14,18 @@ It is a bit like the Boolean tool, but, does not calculate interior/exterior geo
 Faces are split along the intersections, leaving new edges selected.
 
 Source
-   Self Intersect
-      Operate on the overlapping geometry of the mesh.
-   Selected/Unselected
-      Operate between the selected and unselected geometry.
+   :Self Intersect: Operate on the overlapping geometry of the mesh.
+   :Selected/Unselected: Operate between the selected and unselected geometry.
 
 Separate Mode
-   All
-      Splits the geometry at the new edge.
-   Cut
-      Keep each side of the intersection separate without splitting the faces in half.
-   Merge
-      Merge all the geometry from the intersection.
+   :All: Splits the geometry at the new edge.
+   :Cut: Keep each side of the intersection separate without splitting the faces in half.
+   :Merge: Merge all the geometry from the intersection.
 
 Solver
    Algorithm used to calculate the intersections.
 
-   Fast
+   :Fast:
       Uses a mathematically simple solver which offers the best performance;
       however, this solver lacks support for overlapping geometry.
 
@@ -44,7 +39,7 @@ Solver
             A threshold approaching the size of faces may cause very slow calculation,
             in general keep this value small.
 
-   Exact
+   :Exact:
       Uses a mathematically complex solver which offers the best results
       and has full support for overlapping geometry;
       however, this solver is much slower than the *Fast Solver*.
