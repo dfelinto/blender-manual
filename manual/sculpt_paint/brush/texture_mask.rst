@@ -70,4 +70,4 @@ Random
 Offset X, Y, Z
    Offset the texture map placement in X, Y, and Z axes.
 Size X, Y, Z
-   Set the scale of the texture in each axis. Not available for *Drag* sculpting textures.
+   Set the scale of the texture in each axis.

@@ -104,7 +104,7 @@ Offset X, Y, Z
 .. _bpy.types.TextureSlot.scale:
 
 Size X, Y, Z
-   Set the scale of the texture in each axis. Not available for *Drag* sculpting textures.
+   Set the scale of the texture in each axis.
 
 .. _bpy.types.Brush.texture_sample_bias:
 
