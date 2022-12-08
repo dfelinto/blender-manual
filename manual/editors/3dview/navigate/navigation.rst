@@ -18,6 +18,8 @@ Orbit
 Rotate the view around the point of interest by clicking and dragging
 :kbd:`MMB` on the viewport's area.
 
+:kbd:`RMB` cancels the orbit operation.
+
 The :kbd:`Alt` key has several effects on orbiting:
 
 - Clicking a point with :kbd:`Alt-MMB` will make it the point of interest:
@@ -57,6 +59,8 @@ See the :ref:`rotation angle <prefs-navigation-rotation_angle>` preference to co
 To reset the roll, you can first align the view to the global X axis
 using :kbd:`Numpad3`, then orbit to get back to the regular perspective view.
 
+:kbd:`RMB` cancels the roll operation.
+
 .. _bpy.ops.view3d.view_pan:
 
 Pan
@@ -74,6 +78,7 @@ To pan the view, hold down :kbd:`Shift` and drag :kbd:`MMB` in the 3D Viewport.
 For discrete steps, use the hotkeys :kbd:`Ctrl-Numpad8`, :kbd:`Ctrl-Numpad2`,
 :kbd:`Ctrl-Numpad4` and :kbd:`Ctrl-Numpad6` as with orbiting.
 
+:kbd:`RMB` cancels the orbit operation.
 
 .. _bpy.ops.view3d.zoom:
 
@@ -96,6 +101,7 @@ To zoom with discrete steps, use the hotkeys :kbd:`NumpadPlus` and :kbd:`NumpadM
    :ref:`bpy.ops.view3d.view_all` and :ref:`bpy.ops.view3d.view_selected`
    can be used to show the contents of your scene.
 
+:kbd:`RMB` cancels the zoom operation.
 
 .. _bpy.ops.view3d.zoom_border:
 
@@ -129,6 +135,9 @@ However, zooming only gets you up to the point of interest and no further.
 If you hit this point where zooming no longer works, you can instead Dolly
 by holding :kbd:`Shift-Ctrl` and dragging up or down with :kbd:`MMB`.
 This will move the point of interest (and the view along with it).
+
+:kbd:`RMB` cancels the dolly operation.
+
 
 .. NOTE(@campbellbarton): "Frame All" & "Frame Selected" could be documented elsewhere,
    however there doesn't seem to be an ideal location as only items in the View sub-menus have their own files.
