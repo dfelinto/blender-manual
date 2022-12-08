@@ -17,7 +17,7 @@ Increment
    Snap elements along points on a fixed scale.
    These points are defined by the intersection points of the grid
    and the scale of the increments depending on zoom level,
-   unless using :ref:`Fixed Subdivisions <bpy.types.SpaceUVEditor.use_custom_grid>`.
+   unless using :ref:`Fixed Subdivisions <bpy.types.SpaceUVEditor.custom_grid_subdivisions>`.
 
    The Custom Grid can also be used to define a set distance of the scale.
 
