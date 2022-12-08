@@ -433,6 +433,42 @@ or down in the V axis, whatever is closest to the current orientation of the UV 
 By comparison, in the *Geometry* method, the alignment will always be pointing up in the V axis,
 ignoring any previous orientation.
 
+.. _bpy.ops.uv.copy:
+
+Copy UVs
+========
+
+.. reference::
+
+   :Editor:    UV Editor
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`UV --> Copy UVs`
+
+For each selected UV island, the *Copy UVs* tool will copy it's topology and UV coordinates into a temporary clipboard for later use with the *Paste UVs* tool.
+
+.. note::
+
+   The *Copy UVs* tool currently uses an internal clipboard which is not shared between instances of blender.
+
+.. _bpy.ops.uv.paste:
+
+Paste UVs
+=========
+
+.. reference::
+
+   :Editor:    UV Editor
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`UV --> Paste UVs`
+
+For each selected UV island, the *Paste UVs* tool will attempt to match the topology of an island stored in the internal clipboard.
+If a match is found, the UVs stored in the clipboard for the original island will be pasted onto the currently selected island.
+
+For example, if a triangle attached to a quad attached to a quad is in the clipboard, then a different triangle<=>quad<=>quad is selected,
+then the topologies match, and the UVs will be pasted over the current selection.
+
+For best results, you may want to use the Rip tool, or :menuselection:`UV > Split > Selection`, prior to using *Paste UVs*.
+
 .. _bpy.ops.uv.hide:
 .. _bpy.ops.uv.reveal:
 
