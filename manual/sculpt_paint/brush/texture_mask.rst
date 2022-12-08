@@ -60,8 +60,10 @@ Angle
    This is the rotation angle of the texture brush.
 Rake
    Angle follows the direction of the brush stroke.
+   Not available with *3D*, *Tiled*, or *Stencil* Mapping types.
 Random
    Angle is randomized per dab.
+   Not available with *3D*, *Tiled*, or *Stencil* Mapping types.
 
    Random Angle
       Constraints the random deviation to a range.

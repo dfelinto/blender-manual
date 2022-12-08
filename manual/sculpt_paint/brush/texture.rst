@@ -80,13 +80,16 @@ Angle :kbd:`Ctrl-F`
 .. _bpy.types.BrushTextureSlot.use_rake:
 
 Rake :kbd:`R`
-   Angle follows the direction of the brush stroke. Not available with *3D* textures.
-   (Shortcut sculpting only.)
+   Angle follows the direction of the brush stroke.
+   Not available with *3D*, *Tiled*, or *Stencil* Mapping types.
+   The shortcut is not available in Sculpt mode.
 
 .. _bpy.types.BrushTextureSlot.use_random:
 
 Random :kbd:`R`
    Angle is randomized per dab.
+   Not available with *3D*, *Tiled*, or *Stencil* Mapping types.
+   The shortcut is not available in Sculpt mode.
 
    .. _bpy.types.BrushTextureSlot.random_angle:
 
