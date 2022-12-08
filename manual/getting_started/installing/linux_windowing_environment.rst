@@ -95,8 +95,8 @@ Feature Comparison
    * - Reliable Cursor Warping
      - |cross| :sup:`*1`
      - |tick|
-     - | Track-pad and tablet support for
-       | pinch to zoom, pan and orbit.
+     - | Cursor warping is used while transforming
+       | and orbiting the viewport for e.g.
    * - Window Positioning
      - |tick|
      - |cross| :sup:`*2`
