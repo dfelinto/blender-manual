@@ -9,7 +9,7 @@ But for more complex meshes, especially those with lots of indentations,
 you may want to define a *seam* to limit and guide the :ref:`bpy.ops.uv.unwrap` operator.
 
 Just like in sewing, a seam is where the ends of the image/cloth are sewn together.
-In unwrapping, the mesh is unwrapped at the seams.
+In unwrapping, the UV map is discontinuous at the seams.
 Think of this method as peeling an orange or skinning an animal.
 You make a series of cuts in the skin, then peel it off. You could then flatten it out,
 applying some amount of stretching. These cuts are the same as seams.
