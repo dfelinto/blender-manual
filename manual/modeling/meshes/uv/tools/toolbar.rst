@@ -24,7 +24,7 @@ Scale
    Scale tool.
 
 Transform
-   Tool to adjust the UVs translation, rotations and scale.
+   Tool to adjust the UVs translation, rotation and scale.
 
 :ref:`Annotate <tool-annotate-freehand>`
    Draw free-hand annotation.
@@ -40,8 +40,8 @@ Transform
    The Rip tool separates UV faces from each other.
 
 :doc:`Grab </modeling/meshes/uv/tools/grab>`
-   The Grab tool moves UVs around.
+   The Grab tool moves UVs around using a brush.
 :doc:`Relax </modeling/meshes/uv/tools/relax>`
-   The Relax tool makes UVs more evenly distributed.
+   The Relax tool makes UVs more evenly distributed using a brush.
 :doc:`Pinch </modeling/meshes/uv/tools/pinch>`
    The Pinch tool moves UVs toward the brush's center.
