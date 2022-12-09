@@ -103,4 +103,4 @@ Sculpt All Islands
    To edit all islands and not only the island nearest to the brush center
    when the sculpt stroke was started.
 Display Cursor
-   Hides the sculpt cursor.
+   Show or hide the sculpt cursor.

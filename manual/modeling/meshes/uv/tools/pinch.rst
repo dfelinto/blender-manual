@@ -70,9 +70,9 @@ When UV sculpting is activated, the Sidebar shows the brush tool selection and o
 
 Lock Borders
    Locks the boundary of UV islands from being affected by the brush.
-   This is very useful to preserve the shape of UV islands.
+   This is useful to preserve the shape of UV islands.
 Sculpt All Islands
    To edit all islands and not only the island nearest to the brush center
    when the sculpt stroke was started.
 Display Cursor
-   Hides the sculpt cursor.
+   Show or hide the sculpt cursor.
