@@ -8,20 +8,30 @@ UVs & Texture Space
 UV Maps
 =======
 
+.. reference::
+
+   :Mode:      All Modes
+   :Panel:     :menuselection:`Properties --> Object Data --> UV Maps`
+
 .. figure:: /images/modeling_meshes_uv_uv-texture-spaces_uv-maps.png
 
    The UV Maps panel in the Mesh tab.
 
-In the Mesh tab the UV maps panel contains a :ref:`List view <ui-list-view>`
+If you have an active object, inside the Properties Editor, on the Object Data tab,
+the UV maps panel contains a :ref:`List view <ui-list-view>`
 that lists the UV maps created for this mesh.
-The selected map is displayed in the UV Editor.
+
+If you have the UV Editor open, you will see the currently selected UV map.
 
 Active Render
    Click the camera icon to enable that UV texture for rendering.
    If no other map is explicitly specified.
 
 Add ``+``
-   Clicking the *Add* button duplicates the selected UV map.
+   Clicking the *Add* button duplicates the selected UV map or creates a new UV map if the list is empty.
+
+Remove ``-``
+   Clicking the *Remove* button will remove the selected UV map.
 
 .. seealso::
 
