@@ -11,7 +11,7 @@ for the complete list of available settings.
 Language
 ========
 
-Enable :menuselection:`Edit --> Interface --> Translation`,
+Enable :menuselection:`Edit --> Preferences --> Interface --> Translation`,
 and choose the *Language* and what to translate from *Interface*, *Tooltips* and *New Data*.
 
 See :ref:`prefs-interface-translation` for details.
