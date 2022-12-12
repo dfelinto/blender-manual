@@ -56,6 +56,11 @@ Wayland Built-In Logging
 
       WAYLAND_DEBUG=1 blender
 
+Disable Wayland (forcing X11)
+   .. code-block:: sh
+
+      WAYLAND_DISPLAY="" blender
+
 
 Known Limitations
 -----------------
