@@ -186,6 +186,17 @@ Volume
 Lights
 ======
 
+.. _bpy.types.CyclesRenderSettings.use_light_tree:
+
+Light Tree
+   Use a light tree to more effectively sample lights in the scene, taking into account
+   distance and estimated intensity.
+   This can significantly reduce noise, at the cost of a somewhat longer render time per sample.
+
+   Certain lighting properties are not accounted for in the light tree. This include custom
+   fallof, ray visibility, and complex shader node setups including textures.
+   This can result in an increase in noise in some scenes that make use of these features.
+
 .. _bpy.types.CyclesRenderSettings.light_sampling_threshold:
 
 Light Threshold
