@@ -5,7 +5,7 @@ Copy Global Transform
 
 Copy and paste object and bone transforms with ease.
 
-When copying, the global (:term:`World-Space`) transform is placed on the
+When copying, the global (:term:`World Space`) transform is placed on the
 clipboard. This can then be pasted onto any object or bone, at the current frame
 or at another one.
 
@@ -25,7 +25,7 @@ Interface
 
 Located in :menuselection:`3D Viewport --> N-panel --> Animation tab`.
 
-.. figure:: /images/addons_animation_copy-global-transform.webp
+.. figure:: /images/addons_animation_copy-global-transform.png
    :align: right
 
 
