@@ -29,15 +29,25 @@ Displacement Method
       Both methods can be combined, to do displacement on a coarser mesh,
       and use bump mapping for the final detail.
 
-.. _bpy.types.CyclesMaterialSettings.sample_as_light:
+.. _bpy.types.CyclesMaterialSettings.emission_sampling:
 
-Multiple Importance Sample
-   By default objects with emitting materials use both direct and indirect light sampling methods.
-   But in some cases it may lead to less noise overall to disable direct light sampling for some materials.
-   This can be done by disabling the *Multiple Importance Sample* option.
-   This is especially useful on large objects that emit little light compared to other light sources.
+Emission Sampling
+   The method used for sampling the emissive component of the material.
+   This option will only have an influence if the material contains an emissive material node,
+   otherwise it will be ignored.
 
-   This option will only have an influence if the material contains an Emission node; otherwise it will be disabled.
+   :None:
+      Do not use this surface as a light for sampling.
+   :Auto:
+      Automatically determine if the surface should be treated as a light for sampling based on
+      emission intensity.
+   :Front:
+      Treat only the front side of the surface as a light, useful for closed meshes whose interior
+      is not visible.
+   :Back:
+      Treat only the back side of the surface as a light for sampling.
+   :Front and Back:
+      Treat surface as a light for sampling, emitting from both the front and back side.
 
 .. _bpy.types.CyclesMaterialSettings.use_transparent_shadow:
 
