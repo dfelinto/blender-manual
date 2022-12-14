@@ -46,86 +46,88 @@ Source
 
       Paint source panel.
 
+*Paint* source setting lets you define how brush influence/intersection is defined.
 
-Paint Source
-------------
 
-Paint Source setting lets you define how brush influence/intersection is defined.
+.. rubric:: Mesh Volume
 
-Mesh Volume
-   The Brush affects all surface point inside the mesh volume.
+The Brush affects all surface point inside the mesh volume.
 
-   .. figure:: /images/physics_dynamic-paint_brush_source-mesh-volume.png
+.. figure:: /images/physics_dynamic-paint_brush_source-mesh-volume.png
 
-      Source: Mesh Volume.
+   Source: Mesh Volume.
 
-Proximity
-   Only uses defined distance to the closest point on brush mesh surface.
-   Note that inside of the volume is not necessarily affected because it is not close to the surface.
+.. rubric:: Proximity
 
-   .. figure:: /images/physics_dynamic-paint_brush_source-proximity.png
+Only uses defined distance to the closest point on brush mesh surface.
+Note that inside of the volume is not necessarily affected because it is not close to the surface.
 
-      Source: Proximity. Brush affects all canvas pixels around it.
+.. figure:: /images/physics_dynamic-paint_brush_source-proximity.png
 
-Mesh Volume + Proximity
-   Same as volume type, but also has influence over defined distance.
+   Source: Proximity. Brush affects all canvas pixels around it.
 
-   Inner Proximity
-      Applies proximity inside the mesh volume.
-   Negate Volume
-      Negates brush alpha within mesh volume.
+.. rubric:: Mesh Volume + Proximity
 
-   .. list-table::
+Same as volume type, but also has influence over defined distance.
 
-      * - .. figure:: /images/physics_dynamic-paint_brush_source-mesh-volume-proximity-1.png
+Inner Proximity
+   Applies proximity inside the mesh volume.
+Negate Volume
+   Negates brush alpha within mesh volume.
 
-             The Volume + Proximity brush with no additional settings.
+.. list-table::
 
-        - .. figure:: /images/physics_dynamic-paint_brush_source-mesh-volume-proximity-2.png
+   * - .. figure:: /images/physics_dynamic-paint_brush_source-mesh-volume-proximity-1.png
 
-             Inner Proximity. Proximity falloff is now visible inside the volume.
+          The Volume + Proximity brush with no additional settings.
 
-      * - .. figure:: /images/physics_dynamic-paint_brush_source-mesh-volume-proximity-3.png
+     - .. figure:: /images/physics_dynamic-paint_brush_source-mesh-volume-proximity-2.png
 
-             Negate Volume. Inner side of the volume has become completely transparent.
+          Inner Proximity. Proximity falloff is now visible inside the volume.
 
-        - .. figure:: /images/physics_dynamic-paint_brush_source-mesh-volume-proximity-4.png
+   * - .. figure:: /images/physics_dynamic-paint_brush_source-mesh-volume-proximity-3.png
 
-             Inner Proximity and Negate Volume enabled together.
+          Negate Volume. Inner side of the volume has become completely transparent.
 
-Object Center
-   Instead of calculating proximity to the brush object mesh, which can be quite slow in some cases,
-   only distance to only center is calculated. This is much faster and often good enough.
+     - .. figure:: /images/physics_dynamic-paint_brush_source-mesh-volume-proximity-4.png
 
-   .. figure:: /images/physics_dynamic-paint_brush_source-object-center.png
+          Inner Proximity and Negate Volume enabled together.
 
-      Source: Object Center.
+.. rubric:: Object Center
 
-Particle System
-   Brush influence is defined by particles from a selected particle system.
+Instead of calculating proximity to the brush object mesh, which can be quite slow in some cases,
+only distance to only center is calculated. This is much faster and often good enough.
 
-   .. figure:: /images/physics_dynamic-paint_brush_solid-smooth-radius.png
-      :align: right
+.. figure:: /images/physics_dynamic-paint_brush_source-object-center.png
 
-   Effect Solid Radius
-      Defines the distance, inside which paint is solid color.
+   Source: Object Center.
 
-   Use Particle Radius
-      Uses the settings in the particle panel to determine solid radius size.
-      Solid Radius size disabled while Particle Radius enabled.
+.. rubric:: Particle System
 
-   Smooth Radius
-      An additional radius outside Solid Radius to add a smooth falloff.
+Brush influence is defined by particles from a selected particle system.
 
-      If you set "Smooth Radius" to zero, particle will be painted as a solid sphere.
-      If you set "Solid Radius" to zero, it gets painted as a smooth halo.
+.. figure:: /images/physics_dynamic-paint_brush_solid-smooth-radius.png
+   :align: right
 
-      .. figure:: /images/physics_dynamic-paint_brush_solid-smooth-radius-values.jpg
-         :align: center
+Effect Solid Radius
+   Defines the distance, inside which paint is solid color.
 
-      .. figure:: /images/physics_dynamic-paint_brush_source-particle-system.png
+Use Particle Radius
+   Uses the settings in the particle panel to determine solid radius size.
+   Solid Radius size disabled while Particle Radius enabled.
 
-         Source: Particle System.
+Smooth Radius
+   An additional radius outside Solid Radius to add a smooth falloff.
+
+   If you set "Smooth Radius" to zero, particle will be painted as a solid sphere.
+   If you set "Solid Radius" to zero, it gets painted as a smooth halo.
+
+   .. figure:: /images/physics_dynamic-paint_brush_solid-smooth-radius-values.jpg
+      :align: center
+
+   .. figure:: /images/physics_dynamic-paint_brush_source-particle-system.png
+
+      Source: Particle System.
 
 
 Common Options
@@ -143,12 +145,12 @@ Project
       The Project option enabled. See how brush only affects canvas in normal direction.
 
 Falloff
-   Sharp
+   :Sharp:
       Paints solid paint within the defined distance.
-   Smooth
+   :Smooth:
       Makes paint to linearly fade out until becoming completely invisible
       when it reaches the maximum distance.
-   Color Ramp
+   :Color Ramp:
       Allows you to manually make a custom falloff behavior.
 
 
@@ -205,27 +207,35 @@ Waves
 
 This panel is used to adjust brush influence to "Wave" surfaces.
 
+.. _bpy.types.DynamicPaintBrushSettings.wave_type:
+
 Wave Type
    Select what effect the brush creates in the wave simulation.
 
-   Depth Change
+   :Depth Change:
       The brush create waves when the intersection depth with the surface is *changed* on that point.
       If the brush is not moved, it will have no effect.
 
       Using a negative "Factor" with this type can create a nice looking "wake" for moving objects like ships.
-   Obstacle
+   :Obstacle:
       Constantly affects surface whenever intersecting.
       Waves are also reflected off this brush type.
       However, due the nature of wave simulation algorithm this type creates
       an unnatural "dent" in the surface if the brush is not moved.
-   Force
+   :Force:
       Directly affects the velocity of wave motion.
       Therefore the effect is not one-to-one with brush intersection depth, yet the force strength depends on it.
-   Reflect Only
+   :Reflect Only:
       This type has no visible effect on the surface alone but reflects waves that are already on the surface.
+
+.. _bpy.types.DynamicPaintBrushSettings.wave_factor:
+
 Factor
    Adjusts how strongly brush "depth" affects the simulation.
    You can also use negative values to make brush pull water up instead of down.
+
+.. _bpy.types.DynamicPaintBrushSettings.wave_clamp:
+
 Clamp Waves
    In some cases the brush goes very deep inside the surface messing whole simulation up.
    You can use this setting to "limit" influence to only certain depth.

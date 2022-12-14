@@ -11,6 +11,10 @@ Canvas
 
 The Canvas type makes object receive paint from Dynamic Paint brushes.
 
+
+Settings
+========
+
 .. figure:: /images/physics_dynamic-paint_canvas_main-panel.png
    :align: right
 
@@ -31,25 +35,25 @@ Format
    Each surface has a certain format and type.
    Format determines how data is stored and outputted.
 
-   Vertex
+   :Vertex:
       Dynamic Paint operates directly on mesh vertex data.
       Results are stored by point cache and can be displayed in viewports.
       However, using vertex level also requires a highly subdivided mesh to work.
-   Image Sequences
+   :Image Sequences:
       Dynamic Paint generates UV wrapped image files of defined resolution as output.
 
-Quality
-   Resolution
-      You can adjust the output image dimensions for the *Image Sequences* surface type.
-      For example using 256 will lead to 256×256 image output.
-      Doubling the resolution will likely quadruple the baking time and vice versa.
-   Anti-Aliasing
-      :term:`Anti-Aliasing` to smooth paint edges using a 5× multisampling method.
-Frames
-   Start, End
-      Defines surface processing start and end frame.
-   Sub-steps
-      Sub-steps are extra samples between frames. They are usually required when there is a very fast brush.
+      Resolution
+         You can adjust the output image dimensions for the *Image Sequences* surface type.
+         For example using 256 will lead to 256×256 image output.
+         Doubling the resolution will likely quadruple the baking time and vice versa.
+      Anti-Aliasing
+         :term:`Anti-Aliasing` to smooth paint edges using a 5× multisampling method.
+
+Frame Start, End
+   Defines surface processing start and end frame.
+
+Sub-Steps
+   Extra samples between frames. They are usually required when there is a very fast brush.
 
 
 Surface
@@ -190,52 +194,21 @@ Influence Scale, Radius Scale
    For tweaking brush settings individually for each surface.
 
 
-Output
-======
+Cache
+=====
 
 .. reference::
 
    :Type:      Canvas
-   :Panel:     :menuselection:`Physics --> Dynamic Paint --> Output`
+   :Panel:     :menuselection:`Physics --> Dynamic Paint --> Cache`
 
 .. TODO2.8:
-   .. figure:: /images/physics_dynamic-paint_canvas_output-panel.png
+   .. figure:: /images/physics_dynamic-paint_canvas_cache-panel.png
 
-      Canvas Output panel.
+      Canvas cache panel.
 
-From Output panel you can adjust how surface outputs its results.
-
-
-Vertex
-------
-
-For *Vertex* format surfaces, you can select a mesh data layer
-(color/weight depending on surface type) to generate results to.
-You can use the "+"/"-" icons to add/remove a data layers of given name.
-If layer with given name is not found, it is shown as red.
-
-
-Image Sequence
---------------
-
-For *Image Sequence* surfaces,
-you can define used UV maps and output file saving directory, filenames and image format.
-
-
-Initial Color
-=============
-
-.. reference::
-
-   :Type:      Canvas
-   :Panel:     :menuselection:`Physics --> Dynamic Paint --> Initial Color`
-
-Allows you to define the initial color of the canvas. (Todo 2.62)
-
-- None
-- Color
-- UV Texture
-- Vertex Color
+This panel is currently only visible for *Vertex* format surfaces.
+You can use it to adjust and bake point cache.
 
 
 Effects
@@ -269,18 +242,49 @@ For spread and drip effects, only "wet paint" is affected, so as the paint dries
 movement becomes slower until it stops.
 
 
-Cache
-=====
+Initial Color
+=============
 
 .. reference::
 
    :Type:      Canvas
-   :Panel:     :menuselection:`Physics --> Dynamic Paint --> Cache`
+   :Panel:     :menuselection:`Physics --> Dynamic Paint --> Initial Color`
+
+Allows you to define the initial color of the canvas. (Todo 2.62)
+
+- None
+- Color
+- UV Texture
+- Vertex Color
+
+
+Output
+======
+
+.. reference::
+
+   :Type:      Canvas
+   :Panel:     :menuselection:`Physics --> Dynamic Paint --> Output`
 
 .. TODO2.8:
-   .. figure:: /images/physics_dynamic-paint_canvas_cache-panel.png
+   .. figure:: /images/physics_dynamic-paint_canvas_output-panel.png
 
-      Canvas cache panel.
+      Canvas Output panel.
 
-This panel is currently only visible for *Vertex* format surfaces.
-You can use it to adjust and bake point cache.
+From Output panel you can adjust how surface outputs its results.
+
+
+Vertex
+------
+
+For *Vertex* format surfaces, you can select a mesh data layer
+(color/weight depending on surface type) to generate results to.
+You can use the "+"/"-" icons to add/remove a data layers of given name.
+If layer with given name is not found, it is shown as red.
+
+
+Image Sequence
+--------------
+
+For *Image Sequence* surfaces,
+you can define used UV maps and output file saving directory, filenames and image format.
