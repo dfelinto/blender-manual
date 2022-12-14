@@ -1,3 +1,4 @@
+.. index:: Modeling
 .. _bpy.ops.geometry:
 
 ############

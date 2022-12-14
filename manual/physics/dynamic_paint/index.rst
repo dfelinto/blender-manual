@@ -1,6 +1,5 @@
 .. _bpy.types.DynamicPaintModifier:
 .. _bpy.ops.dpaint:
-.. _dynamic-paint-index:
 
 #################
   Dynamic Paint

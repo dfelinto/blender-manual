@@ -1,3 +1,4 @@
+.. index:: Add-ons
 
 ###########
   Add-ons
