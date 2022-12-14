@@ -22,7 +22,7 @@ This makes the voxel remesher great for sculpting has it is possible to
 sculpt at a much higher level of detail than using other features
 like dyntopo which often adds more performance overhead.
 
-Voxel Size
+Voxel Size :kbd:`Shift-R`
    The resolution or the amount of detail the remeshed mesh will have.
    The value is used to define the size, in object space, of the :term:`Voxel`.
    These voxels are assembled around the mesh and are used to determine the new geometry.
@@ -31,9 +31,11 @@ Voxel Size
    Lower values preserve finer details but will result in a mesh with a much more dense topology.
 
    The voxel size also be adjusted from the 3D Viewport using :kbd:`Shift-R`.
-   Using this shortcut shows a grid that has the real size of the resulting voxel size.
-   Holding :kbd:`Shift` while adjusting the size allows better pressing
-   while holding :kbd:`Ctrl` adjusts the size using a relative scale.
+   Using the shortcut displays an interactive grid overlay showing the resulting voxel size.
+   Moving the mouse closer to center of the grid decreases the voxel size
+   while moving away from the center increase the voxel size.
+   Holding :kbd:`Shift`` increases the precision; adjusting the voxel size in small increments.
+   Holding :kbd:`Ctrl` adjusts the voxel size relative to the current voxel size.
 
    Sample Voxel Size
       Used to adjust the *Voxel Size* by picking an area of the mesh
