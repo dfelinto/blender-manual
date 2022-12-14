@@ -207,6 +207,7 @@ Sections
       advanced/index.rst
       troubleshooting/index.rst
       glossary/index.rst
+      Manual Index <genindex.rst>
 
 
 Get Involved
