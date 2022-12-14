@@ -1,3 +1,5 @@
+.. index:: Editors; File Browser
+
 .. _bpy.ops.file:
 .. _bpy.types.FileSelectParams:
 .. _bpy.types.SpaceFileBrowser:

@@ -1,3 +1,4 @@
+.. index:: Editors; Info Editor
 
 ***********
 Info Editor

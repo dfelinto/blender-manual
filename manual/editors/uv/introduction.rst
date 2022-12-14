@@ -1,3 +1,4 @@
+.. index:: Editors; UV Editor
 
 ************
 Introduction

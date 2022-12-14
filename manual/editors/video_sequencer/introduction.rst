@@ -1,3 +1,4 @@
+.. index:: Editors; Video Sequencer
 
 ************
 Introduction

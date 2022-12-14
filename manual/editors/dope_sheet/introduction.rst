@@ -1,3 +1,4 @@
+.. index:: Editors; Dope Sheet
 
 ************
 Introduction

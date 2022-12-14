@@ -1,3 +1,4 @@
+.. index:: Editors; Geometry Node Editor
 
 ********************
 Geometry Node Editor

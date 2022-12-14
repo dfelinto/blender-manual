@@ -1,3 +1,4 @@
+.. index:: Editors; Python Console
 .. _bpy.types.ConsoleLine:
 .. _bpy.types.SpaceConsole:
 .. _bpy.ops.console:

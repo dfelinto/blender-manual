@@ -1,3 +1,4 @@
+.. index:: Editors; 3D Viewport
 
 ************
 Introduction
@@ -27,11 +28,11 @@ Mode :kbd:`Ctrl-Tab`
    used for editing different kinds of data. For example, the default Object Mode
    would let you place a character in the scene, while Pose Mode would allow
    you to pose it.
-   
+
    The shortcut :kbd:`Ctrl-Tab` brings up a pie menu for quick mode switching.
    If you have an :doc:`Armature </animation/armatures/introduction>` selected,
    it'll instead switch between Object Mode and Pose Mode.
-   
+
    Pressing :kbd:`Tab` will switch between Object Mode and Edit Mode for objects
    that support it.
 
@@ -85,10 +86,10 @@ X-Ray :kbd:`Alt-Z`
    would otherwise be occluded.
    This is a shortcut to the X-Ray option inside the
    :ref:`Viewport Shading <3dview-shading-xray>` popover.
-   
+
    In Pose Mode, this same button controls a different setting with its own separate on/off state.
    Rather than making the scene transparent, it shows the armature in front of any geometry.
-   
+
 Viewport Shading
    Change the :doc:`shading </editors/3dview/display/shading>` of the 3D Viewport.
 

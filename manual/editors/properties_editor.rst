@@ -1,3 +1,4 @@
+.. index:: Editors; Properties
 .. _bpy.types.SpaceProperties:
 
 **********

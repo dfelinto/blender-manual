@@ -1,3 +1,5 @@
+.. index:: Editors; Timeline
+
 .. |first| unicode:: U+02759 U+023F4
 .. |last|  unicode:: U+023F5 U+02759
 .. |rewind| unicode:: U+025C0

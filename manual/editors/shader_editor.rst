@@ -1,3 +1,4 @@
+.. index:: Editors; Shader Editor
 
 *************
 Shader Editor

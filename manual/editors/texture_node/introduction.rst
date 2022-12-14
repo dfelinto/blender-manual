@@ -1,3 +1,4 @@
+.. index:: Editors; Texture Node Editor
 .. index:: Nodes; Texture Nodes
 
 ************

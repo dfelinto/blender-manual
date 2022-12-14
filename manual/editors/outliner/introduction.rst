@@ -1,3 +1,4 @@
+.. index:: Editors; Outliner
 
 ************
 Introduction

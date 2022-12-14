@@ -1,3 +1,4 @@
+.. index:: Editors; Graph Editor
 
 ************
 Introduction

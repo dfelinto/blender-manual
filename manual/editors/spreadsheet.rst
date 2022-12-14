@@ -1,3 +1,5 @@
+.. index:: Editors; Spreadsheet
+
 .. _bpy.ops.spreadsheet:
 .. _bpy.types.SpaceSpreadsheet:
 

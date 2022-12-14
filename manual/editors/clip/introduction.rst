@@ -1,3 +1,4 @@
+.. index:: Editors; Movie Clip Editor
 
 ************
 Introduction

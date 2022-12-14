@@ -1,3 +1,5 @@
+.. index:: Editors; Text Editor
+
 .. _bpy.types.SpaceTextEditor:
 .. _bpy.types.Text:
 .. _bpy.ops.text:

@@ -1,4 +1,4 @@
-.. _editors-asset-browser:
+.. index:: Editors; Asset Browser
 
 *************
 Asset Browser
@@ -211,7 +211,7 @@ Instancing Collections
    If this option is disabled then the full collection hierarchy will be added to the scene.
 
    Collection Assets from the current file will always be instanced.
-   
+
 
 Note that all regular Blender operations are available after the asset has been added to the current file.
 For example, you could choose to link an object to the scene; this will also link its mesh and its materials.
