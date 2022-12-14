@@ -4,6 +4,10 @@
 Collisions
 **********
 
+.. reference::
+
+   :Panel:     :menuselection:`Physics --> Cloth --> Collision`
+
 In most cases, a piece of cloth does not just hang there in 3D space,
 it collides with other objects in the environment. To ensure proper simulation,
 there are several items that have to be set up and working together:
@@ -20,25 +24,18 @@ there are several items that have to be set up and working together:
 - You can make adjustments to the environment or deforming objects,
   and then re-run the cloth simulation from the current frame forward.
 
-
-Collision Settings
-==================
-
-.. reference::
-
-   :Panel:     :menuselection:`Physics --> Cloth --> Collision`
-
 .. figure:: /images/physics_cloth_settings_collisions_panel.png
 
    Cloth Collisions panel.
 
-Now you must tell the *Cloth* object that you want it to participate in collisions.
-For the cloth object, locate the *Cloth Collision* panel.
+.. _bpy.types.ClothCollisionSettings.collision_quality:
 
 Quality
    A general setting for how fine and good a simulation you wish.
    Higher numbers take more time but ensure less tears and penetrations through the cloth.
 
+
+.. _bpy.types.ClothCollisionSettings.use_collision:
 
 Object Collisions
 -----------------
@@ -54,22 +51,35 @@ for the collider object (not on the cloth object).
    If your colliding object is not a mesh object, such as a NURBS surface, or a text object,
    you must convert it to a mesh object using :ref:`object-convert-to`.
 
+.. _bpy.types.ClothCollisionSettings.distance_min:
+
 Distance
    The distance another object must get to the cloth for
    the simulation to repel the cloth out of the way.
    Smaller values might give errors but gives some speed-up while
    larger will give unrealistic results if too large and can be slow.
    It is best to find a good in between value.
+
+.. _bpy.types.ClothCollisionSettings.impulse_clamp:
+
 Impulse Clamping
    Prevents explosions in tight and complicated collision situations
    by restricting the amount of movement after a collision.
+
+.. _bpy.types.ClothCollisionSettings.vertex_group_object_collisions:
+
 Vertex Group
    Faces that have all vertices assigned to this
    :doc:`Vertex Group </modeling/meshes/properties/vertex_groups/index>` are excluded from collision with objects.
+
+.. _bpy.types.ClothCollisionSettings.collection:
+
 Collision Collection
    Only objects that are a part of this :doc:`Collection </scene_layout/collections/index>`
    can collide with the cloth. Note that these objects must also have Collision physics enabled.
 
+
+.. _bpy.types.ClothCollisionSettings.use_self_collision:
 
 Self-Collisions
 ---------------
@@ -83,17 +93,28 @@ This adds to the simulation's compute time, but provides more realistic results.
    A flag, viewed from a distance does not need this enabled,
    but a close-up of a cape or blouse on a character should have this enabled.
 
+.. _bpy.types.ClothCollisionSettings.self_friction:
+
 Friction
    A coefficient for how slippery the cloth is when it collides with itself.
    For example, silk has a lower coefficient of friction than cotton.
+
+.. _bpy.types.ClothCollisionSettings.self_distance_min:
+
 Distance
    As cloth at this distance begins to repel away from itself.
    Smaller values might give errors but gives some speed-up while
    larger will give unrealistic results if too large and can be slow.
    It is best to find a good in between value.
+
+.. _bpy.types.ClothCollisionSettings.self_impulse_clamp:
+
 Impulse Clamping
    Prevents explosions in tight and complicated collision situations
    by restricting the amount of movement after a collision.
+
+.. _bpy.types.ClothCollisionSettings.vertex_group_self_collisions:
+
 Vertex Group
    Faces that have all vertices assigned to this
    :doc:`Vertex Group </modeling/meshes/properties/vertex_groups/index>` are excluded from self-collision.
