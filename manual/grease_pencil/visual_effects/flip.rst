@@ -19,8 +19,5 @@ Options
 Axis
    Which axis or axes to flip the object about.
 
-   Horizontal
-      When enabled, shows the object flipped horizontally.
-
-   Vertical
-      When enabled, shows the object flipped vertically.
+   :Horizontal: When enabled, shows the object flipped horizontally.
+   :Vertical: When enabled, shows the object flipped vertically.

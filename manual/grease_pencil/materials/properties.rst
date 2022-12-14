@@ -13,11 +13,8 @@ Surface
 
 
 .. _bpy.types.MaterialGPencilStyle.show_stroke:
-.. _bpy.types.MaterialGPencilStyle.mode:
-.. _bpy.types.MaterialGPencilStyle.stroke_style:
 .. _bpy.types.MaterialGPencilStyle.color:
 .. _bpy.types.MaterialGPencilStyle.use_overlap_strokes:
-.. _bpy.types.MaterialGPencilStyle.alignment_mode:
 
 Stroke
 ------
@@ -25,30 +22,32 @@ Stroke
 When enabled, the shader use the stroke component.
 The *Stroke* component controls how to render the edit lines.
 
+.. _bpy.types.MaterialGPencilStyle.mode:
+
 Line Type
    Defines how to display or distribute the output material over the stroke.
 
-   Line
+   :Line:
       Connects every points in the strokes showing a continuous line.
-
-   Dots
+   :Dots:
       Use a disk shape at each point in the stroke.
       The dots are not connected.
-
-   Squares
+   :Squares:
       Use a square shape at each point in the stroke.
       The squares are not connected.
+
+.. _bpy.types.MaterialGPencilStyle.stroke_style:
 
 Style
    The type of the material.
 
-   Solid
+   :Solid:
       Use a solid color.
 
       Base Color
          The base color of the stroke.
 
-   Texture
+   :Texture:
       Use an image texture.
 
       Base Color
@@ -68,14 +67,16 @@ Style
 Holdout
    Removes the color from strokes underneath the current by using it as a mask.
 
+.. _bpy.types.MaterialGPencilStyle.alignment_mode:
+
 Alignment
    Defines how to align the *Dots* and *Squares* along the drawing path and with the object's rotation.
 
-   Path
+   :Path:
       Aligns to the drawing path and the object's rotation.
-   Object
+   :Object:
       Aligns to the object's rotation; ignoring the drawing path.
-   Fixed
+   :Fixed:
       Aligns to the screen space; ignoring the drawing path and the object's rotation.
 
 Rotation

@@ -17,13 +17,11 @@ Options
    Blur Visual Effect.
 
 Mode
-   Grayscale
+   :Grayscale:
       Converts to a grayscale image.
-
-   Sepia
+   :Sepia:
       Converts to a sepia tone image.
-
-   Duotone
+   :Duotone:
       Converts to a posterize image with high contrast and brightness.
 
       Low Color
@@ -31,11 +29,9 @@ Mode
 
       High Color
          Secondary color.
-
-   Transparent
+   :Transparent:
       Add color transparency.
-
-   Custom
+   :Custom:
       Allows to define a tint custom color.
 
       Color

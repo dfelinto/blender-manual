@@ -58,33 +58,41 @@ Reduce the amount of points in the strokes.
 .. _bpy.ops.gpencil.stroke_simplify_fixed:
 
 Fixed
-   Deletes alternated points in the strokes, except the start and end points.
+-----
 
-   Steps
-      The number of times to repeat the procedure.
+Deletes alternated points in the strokes, except the start and end points.
+
+Steps
+   The number of times to repeat the procedure.
+
 
 .. _bpy.ops.gpencil.stroke_simplify:
 
 Adaptive
-   Uses the RDP algorithm (Ramer-Douglas-Peucker algorithm) for points deletion.
-   The algorithm tries to obtain a similar line shape with fewer points.
+--------
 
-   Factor
-      Controls the amount of recursively simplifications applied by the algorithm.
+Uses the RDP algorithm (Ramer-Douglas-Peucker algorithm) for points deletion.
+The algorithm tries to obtain a similar line shape with fewer points.
+
+Factor
+   Controls the amount of recursively simplifications applied by the algorithm.
+
 
 .. _bpy.ops.gpencil.stroke_sample:
 
 Sample
-   Recreates the stroke geometry with a predefined length between points.
+------
 
-   Length
-      The distance between points on the recreated stroke.
-      Smaller values will require more points to recreate the stroke,
-      while larger values will result in fewer points needed to recreate the curve.
-   Sharp Threshold
-      The maximum angle between points on the recreated stroke.
-      Smaller values will require more points to recreate the stroke,
-      while larger values will result in fewer points needed to recreate the curve.
+Recreates the stroke geometry with a predefined length between points.
+
+Length
+   The distance between points on the recreated stroke.
+   Smaller values will require more points to recreate the stroke,
+   while larger values will result in fewer points needed to recreate the curve.
+Sharp Threshold
+   The maximum angle between points on the recreated stroke.
+   Smaller values will require more points to recreate the stroke,
+   while larger values will result in fewer points needed to recreate the curve.
 
 
 .. _bpy.ops.gpencil.stroke_trim:
