@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Box Mask
 .. _bpy.types.CompositorNodeBoxMask:
 
 *************

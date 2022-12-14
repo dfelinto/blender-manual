@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Map UV
 .. _bpy.types.CompositorNodeMapUV:
 
 ***********

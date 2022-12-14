@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Transform
 .. _bpy.types.CompositorNodeTransform:
 
 **************

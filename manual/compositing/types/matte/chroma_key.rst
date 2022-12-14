@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Chroma Key
 .. _bpy.types.CompositorNodeChromaMatte:
 
 ***************

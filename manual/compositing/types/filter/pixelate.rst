@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Pixelate
 .. _bpy.types.CompositorNodePixelate:
 
 *************

@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Set Alpha
 .. _bpy.types.CompositorNodeSetAlpha:
 
 **************

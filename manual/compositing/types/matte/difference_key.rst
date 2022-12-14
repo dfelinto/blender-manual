@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Difference Key
 .. _bpy.types.CompositorNodeDiffMatte:
 
 *******************

@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; RGB
 .. _bpy.types.CompositorNodeRGB:
 .. Editors Note: This page gets copied into :doc:`</render/cycles/nodes/types/input/rgb>`
 

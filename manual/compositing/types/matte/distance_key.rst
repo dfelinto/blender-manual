@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Distance Key
 .. _bpy.types.CompositorNodeDistanceMatte:
 
 *****************

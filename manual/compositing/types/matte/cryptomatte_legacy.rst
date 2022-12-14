@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Cryptomatte (Legacy)
 .. _bpy.types.CompositorNodeCryptomatte:
 
 *************************

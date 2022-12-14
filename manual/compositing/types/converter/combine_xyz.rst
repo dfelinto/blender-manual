@@ -1,5 +1,5 @@
-.. _bpy.types.CompositorNodeCombineXYZ:
 .. index:: Compositor Nodes; Combine XYZ
+.. _bpy.types.CompositorNodeCombineXYZ:
 
 ****************
 Combine XYZ Node

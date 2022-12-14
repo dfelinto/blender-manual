@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Color Spill
 .. _bpy.types.CompositorNodeColorSpill:
 
 ****************

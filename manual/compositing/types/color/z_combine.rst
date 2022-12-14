@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Z Combine
 .. _bpy.types.CompositorNodeZcombine:
 
 **************

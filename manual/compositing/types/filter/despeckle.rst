@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Despeckle
 .. _bpy.types.CompositorNodeDespeckle:
 
 **************

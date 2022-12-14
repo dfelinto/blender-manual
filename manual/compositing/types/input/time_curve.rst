@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Time Curve
 .. _bpy.types.CompositorNodeTime:
 
 .. --- copy below this line ---

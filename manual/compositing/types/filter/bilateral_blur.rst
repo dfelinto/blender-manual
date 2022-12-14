@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Bilateral Blur
 .. _bpy.types.CompositorNodeBilateralblur:
 
 *******************

@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Exposure
 .. _bpy.types.CompositorNodeExposure:
 
 *************

@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Color Balance
 .. _bpy.types.CompositorNodeColorBalance:
 
 ******************

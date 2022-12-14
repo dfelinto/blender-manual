@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Levels
 .. _bpy.types.CompositorNodeLevels:
 
 ***********

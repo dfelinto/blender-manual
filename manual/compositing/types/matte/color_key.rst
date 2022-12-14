@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Color Key
 .. _bpy.types.CompositorNodeColorMatte:
 
 **************

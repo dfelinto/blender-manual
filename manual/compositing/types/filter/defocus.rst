@@ -1,5 +1,5 @@
+.. index:: Compositor Nodes; Defocus
 .. _bpy.types.CompositorNodeDefocus:
-.. Todo: review examples section
 
 ************
 Defocus Node
@@ -77,6 +77,8 @@ Outputs
 Image
    Standard color output.
 
+
+.. Todo: review examples section
 
 Examples
 ========

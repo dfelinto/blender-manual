@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Sun Beams
 .. _bpy.types.CompositorNodeSunBeams:
 
 **************

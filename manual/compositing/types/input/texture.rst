@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Texture
 .. _bpy.types.CompositorNodeTexture:
 
 ************

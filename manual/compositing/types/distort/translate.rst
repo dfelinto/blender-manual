@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Translate
 .. _bpy.types.CompositorNodeTranslate:
 
 **************

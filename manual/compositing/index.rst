@@ -11,6 +11,7 @@
    introduction.rst
    sidebar.rst
 
+.. index:: Compositor Nodes
 
 Node Types
 ==========

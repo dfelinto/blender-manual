@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Scale
 .. _bpy.types.CompositorNodeScale:
 
 **********

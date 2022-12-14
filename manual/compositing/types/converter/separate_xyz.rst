@@ -1,5 +1,5 @@
-.. _bpy.types.CompositorNodeSeparateXYZ:
 .. index:: Compositor Nodes; Separate XYZ
+.. _bpy.types.CompositorNodeSeparateXYZ:
 
 *****************
 Separate XYZ Node

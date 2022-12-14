@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Filter
 .. _bpy.types.CompositorNodeFilter:
 
 ***********

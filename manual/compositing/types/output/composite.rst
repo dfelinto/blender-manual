@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Composite
 .. _bpy.types.CompositorNodeComposite:
 
 **************

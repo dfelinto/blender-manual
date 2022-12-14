@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Hue Correct
 .. _bpy.types.CompositorNodeHueCorrect:
 
 ****************

@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Alpha Convert
 .. _bpy.types.CompositorNodePremulKey:
 
 ******************

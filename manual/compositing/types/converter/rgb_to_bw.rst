@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; RGB TO BW
 .. _bpy.types.CompositorNodeRGBToBW:
 .. Editors Note: This page gets copied into :doc:`</render/cycles/nodes/types/converter/rgb_to_bw>`
 

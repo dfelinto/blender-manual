@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Keying
 .. _bpy.types.CompositorNodeKeying:
 
 ***********

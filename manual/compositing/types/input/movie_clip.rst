@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Movie Clip
 .. _bpy.types.CompositorNodeMovieClip:
 
 ***************

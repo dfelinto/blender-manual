@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Normal
 .. _bpy.types.CompositorNodeNormal:
 .. Editors Note: This page gets copied into :doc:`</render/cycles/nodes/types/vector/normal>`
 

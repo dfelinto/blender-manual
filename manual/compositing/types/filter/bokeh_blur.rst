@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Bokeh Blur
 .. _bpy.types.CompositorNodeBokehBlur:
 
 ***************

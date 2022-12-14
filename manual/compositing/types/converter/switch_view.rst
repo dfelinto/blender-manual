@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Switch View
 .. _bpy.types.CompositorNodeSwitchView:
 
 ****************

@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Flip
 .. _bpy.types.CompositorNodeFlip:
 
 *********

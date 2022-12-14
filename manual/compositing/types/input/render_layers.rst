@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Render Layers
 .. _bpy.types.CompositorNodeRLayers:
 
 ******************

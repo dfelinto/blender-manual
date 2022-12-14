@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Color Space
 .. _bpy.types.CompositorNodeConvertColorSpace:
 
 ****************

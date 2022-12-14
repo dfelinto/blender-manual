@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Split Viewer
 .. _bpy.types.CompositorNodeSplitViewer:
 
 *****************

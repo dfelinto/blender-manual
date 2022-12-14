@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Lens Distortion
 .. _bpy.types.CompositorNodeLensdist:
 
 ********************

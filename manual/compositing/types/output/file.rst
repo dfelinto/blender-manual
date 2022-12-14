@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; File Output
 .. _bpy.types.CompositorNodeOutputFile:
 .. _bpy.types.NodeOutputFileSlot:
 

@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Channel Key
 .. _bpy.types.CompositorNodeChannelMatte:
 
 ****************

@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Directional Blur
 .. _bpy.types.CompositorNodeDBlur:
 
 *********************

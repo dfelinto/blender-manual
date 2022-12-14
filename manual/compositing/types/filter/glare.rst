@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Glare
 .. _bpy.types.CompositorNodeGlare:
 
 **********

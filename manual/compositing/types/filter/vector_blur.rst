@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Vector Blur
 .. _bpy.types.CompositorNodeVecBlur:
 
 *************************

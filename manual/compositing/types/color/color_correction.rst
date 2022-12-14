@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Color Correction
 .. _bpy.types.CompositorNodeColorCorrection:
 
 *********************

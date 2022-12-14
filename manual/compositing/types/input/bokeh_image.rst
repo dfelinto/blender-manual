@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Bokeh Image
 .. _bpy.types.CompositorNodeBokehImage:
 
 ****************

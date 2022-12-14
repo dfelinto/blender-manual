@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Normalize
 .. _bpy.types.CompositorNodeNormalize:
 
 **************

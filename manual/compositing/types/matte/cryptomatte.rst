@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Cryptomatte
 .. _bpy.types.CompositorNodeCryptomatteV2:
 
 ****************

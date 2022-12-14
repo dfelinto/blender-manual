@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; ID Mask
 .. _bpy.types.CompositorNodeIDMask:
 
 ************

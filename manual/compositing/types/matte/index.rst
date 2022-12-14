@@ -1,4 +1,3 @@
-.. _composite-nodes-matte-index:
 
 ###############
   Matte Nodes

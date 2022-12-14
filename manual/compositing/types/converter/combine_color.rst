@@ -1,6 +1,6 @@
-.. _bpy.types.CompositorNodeCombineColor:
 .. index:: Compositor Nodes; Combine Color
 .. Editors Note: This page gets copied into :doc:`</render/cycles/nodes/types/converter/combine_separate>`
+.. _bpy.types.CompositorNodeCombineColor:
 
 ******************
 Combine Color Node

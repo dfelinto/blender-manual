@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Color Ramp
 .. Editors Note: This page gets copied into:
 .. - :doc:`</render/cycles/nodes/types/converter/color_ramp>`
 .. - :doc:`</modeling/modifiers/nodes/color/color_ramp>`

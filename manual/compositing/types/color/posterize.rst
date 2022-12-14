@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Posterize
 .. _bpy.types.CompositorNodePosterize:
 
 *********

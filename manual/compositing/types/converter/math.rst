@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Math
 .. _bpy.types.CompositorNodeMath:
 
 .. Editors Note: This page gets copied into:

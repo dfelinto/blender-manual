@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Bright/Contrast
 .. _bpy.types.CompositorNodeBrightContrast:
 .. Editors Note: This page gets copied into:
 .. - :doc:`</render/shader_nodes/color/bright_contrast>`

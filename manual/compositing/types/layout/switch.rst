@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Switch
 .. _bpy.types.CompositorNodeSwitch:
 
 ***********

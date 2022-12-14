@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Anti-Aliasing
 .. _bpy.types.CompositorNodeAntiAliasing:
 
 ******************

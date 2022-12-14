@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Alpha Over
 .. _bpy.types.CompositorNodeAlphaOver:
 
 ***************

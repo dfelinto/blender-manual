@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Gamma
 .. _bpy.types.CompositorNodeGamma:
 .. Editors Note: This page gets copied into:
 .. - :doc:`</render/cycles/nodes/types/color/gamma>`

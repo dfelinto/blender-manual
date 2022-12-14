@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Corner Pin
 
 ***************
 Corner Pin Node

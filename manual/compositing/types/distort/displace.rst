@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Displace
 .. _bpy.types.CompositorNodeDisplace:
 
 *************

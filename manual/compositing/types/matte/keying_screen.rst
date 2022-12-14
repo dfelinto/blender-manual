@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Keying Screen
 .. _bpy.types.CompositorNodeKeyingScreen:
 
 ******************

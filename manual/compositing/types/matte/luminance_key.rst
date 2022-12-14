@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Luminance Key
 .. _bpy.types.CompositorNodeLumaMatte:
 
 ******************

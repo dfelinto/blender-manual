@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Mix
 .. _bpy.types.CompositorNodeMixRGB:
 .. Editors Note: This page gets copied into:
 .. - :doc:`</render/cycles/nodes/types/color/mix>`
@@ -19,7 +20,7 @@ The *Mix Node* mixes images by working on the individual and corresponding pixel
 of the two input images. Called "Mix Color" in the shader, geometry, and texture context.
 
   .. important::
-  
+
      As of Blender 3.4 this node has been updated in Shader and Geometry node editors.
      Files saved with the new node are not forward compatible.
 

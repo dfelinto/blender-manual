@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Crop
 .. _bpy.types.CompositorNodeCrop:
 
 *********

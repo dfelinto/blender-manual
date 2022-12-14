@@ -1,3 +1,4 @@
+.. index:: Compositor Nodes; Movie Distortion
 .. _bpy.types.CompositorNodeMovieDistortion:
 
 *********************
