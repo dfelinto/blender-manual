@@ -223,19 +223,6 @@ Seed
       Changes the seed for each frame. It is a good idea to enable this
       when rendering animations because a varying noise pattern is less noticeable.
 
-.. _bpy.types.CyclesRenderSettings.sampling_pattern:
-
-Pattern
-   Random sampling pattern used by the integrator.
-
-   :Progressive Multi-Jitter:
-      Based on `Progressive Multi-Jittered Sample Sequences <https://graphics.pixar.com/library/ProgressiveMultiJitteredSampling/paper.pdf>`__.
-      This is the default pattern and the only one that supports Scrambling Distance.
-
-   :Sobol-Burley:
-      Based on `Practical Hash-based Owen Scrambling <https://jcgt.org/published/0009/04/01/paper.pdf>`__.
-      An alternative pattern with the same quality as Progressive Multi-Jitter.
-
 .. _bpy.types.CyclesRenderSettings.sample_offset:
 
 Sample Offset
@@ -244,7 +231,6 @@ Sample Offset
    then combine the images with `bpy.ops.cycles.merge_images`
 
 Scrambling Distance
-   Note, these options are not applicable when using the Sobol-Burley sample pattern.
 
    .. _bpy.types.CyclesRenderSettings.adaptive_scrambling_distance:
 
