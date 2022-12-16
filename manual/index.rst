@@ -21,21 +21,21 @@ Getting Started
 
 .. only:: builder_html and (not singlehtml)
 
-   .. container:: tocdescr
+   .. container:: toc-cards
 
-      .. container:: descr
+      .. container:: card
 
          :doc:`/getting_started/about/index`
 
-      .. container:: descr
+      .. container:: card
 
          :doc:`/getting_started/installing/index`
 
-      .. container:: descr
+      .. container:: card
 
          :doc:`/getting_started/configuration/index`
 
-      .. container:: descr
+      .. container:: card
 
          :doc:`/getting_started/help`
 
@@ -56,9 +56,9 @@ Sections
 
 .. only:: builder_html and (not singlehtml)
 
-   .. container:: tocdescr
+   .. container:: toc-cards
 
-      .. container:: descr
+      .. container:: card
 
          .. figure:: /images/index_interface.jpg
             :target: interface/index.html
@@ -66,7 +66,7 @@ Sections
          :doc:`/interface/index`
             An introduction to Blender's window system, widgets and tools.
 
-      .. container:: descr
+      .. container:: card
 
          .. figure:: /images/index_editors.jpg
             :target: editors/index.html
@@ -74,7 +74,7 @@ Sections
          :doc:`/editors/index`
             Overview of the interface and functionality of all editors.
 
-      .. container:: descr
+      .. container:: card
 
          .. figure:: /images/index_scene.jpg
             :target: scene_layout/index.html
@@ -82,7 +82,7 @@ Sections
          :doc:`/scene_layout/index`
             Objects and their organization into scenes, view layers and collections.
 
-      .. container:: descr
+      .. container:: card
 
          .. figure:: /images/index_modeling.jpg
             :target: modeling/index.html
@@ -90,7 +90,7 @@ Sections
          :doc:`/modeling/index`
             Meshes, curves, metaballs, text, modeling tools, and modifiers.
 
-      .. container:: descr
+      .. container:: card
 
          .. figure:: /images/index_painting.jpg
             :target: sculpt_paint/index.html
@@ -98,7 +98,7 @@ Sections
          :doc:`/sculpt_paint/index`
             Sculpting, texture painting and vertex painting.
 
-      .. container:: descr
+      .. container:: card
 
          .. figure:: /images/index_grease-pencil.jpg
             :target: grease_pencil/index.html
@@ -106,7 +106,7 @@ Sections
          :doc:`/grease_pencil/index`
             2D drawing and animation with Grease Pencil.
 
-      .. container:: descr
+      .. container:: card
 
          .. figure:: /images/index_animation.jpg
             :target: animation/index.html
@@ -114,7 +114,7 @@ Sections
          :doc:`/animation/index`
             Keyframes, drivers, constraints, armatures and shape keys.
 
-      .. container:: descr
+      .. container:: card
 
          .. figure:: /images/index_physics.jpg
             :target: physics/index.html
@@ -122,7 +122,7 @@ Sections
          :doc:`/physics/index`
             Physics simulations, particle systems and dynamic paint.
 
-      .. container:: descr
+      .. container:: card
 
          .. figure:: /images/index_render.jpg
             :target: render/index.html
@@ -130,7 +130,7 @@ Sections
          :doc:`/render/index`
             Rendering and shading with Eevee, Cycles and Freestyle.
 
-      .. container:: descr
+      .. container:: card
 
          .. figure:: /images/index_compositing.jpg
             :target: compositing/index.html
@@ -138,7 +138,7 @@ Sections
          :doc:`/compositing/index`
             Post-processing with the compositing nodes.
 
-      .. container:: descr
+      .. container:: card
 
          .. figure:: /images/index_movie-clip.jpg
             :target: movie_clip/index.html
@@ -146,7 +146,7 @@ Sections
          :doc:`/movie_clip/index`
             Video motion tracking & masking.
 
-      .. container:: descr
+      .. container:: card
 
          .. figure:: /images/index_sequencer.jpg
             :target: video_editing/index.html
@@ -154,32 +154,32 @@ Sections
          :doc:`/video_editing/index`
             Video editing with the sequencer.
 
-      .. container:: descr
+      .. container:: card
 
          :doc:`/files/index`
             Data-block management and the structure of blend-files.
 
-      .. container:: descr
+      .. container:: card
 
          :doc:`/addons/index`
             Additional functionality available as add-ons.
 
-      .. container:: descr
+      .. container:: card
 
          :doc:`/advanced/index`
             Python scripting, how to write add-ons and a reference for command-line arguments.
 
-      .. container:: descr
+      .. container:: card
 
          :doc:`/troubleshooting/index`
             Solving crashes, graphics issues and Python errors, recovering data and reporting bugs.
 
-      .. container:: descr
+      .. container:: card
 
          :doc:`Glossary </glossary/index>`
             A list of terms and definitions used in Blender and this manual.
 
-      .. container:: descr
+      .. container:: card
 
          :ref:`Manual Index <genindex>`
             A list of terms linked to the Glossary.

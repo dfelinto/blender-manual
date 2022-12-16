@@ -336,101 +336,70 @@ a.external {
 	display: none;
 }
 
-/* Start section description. */
-@media screen and (min-width: 450px) {
-	.tocdescr {
-		display: flex;
-		flex-flow: row wrap;
-		justify-content: space-between;
-		align-items: flex-start;
-		align-content: flex-start;
-		list-style-type: none;
-		margin-bottom: 10px;
-	}
-
-	/* Dan Andreasson on Stack Overflow. */
-	.tocdescr:after {
-		content: "";
-		flex: 1 0 33.3%;
-		margin-left: 45px;
-		align-self: stretch;
-	}
+/* Start section cards. */
+.toc-cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+	grid-gap: 20px;
+	list-style-type: none;
+	margin-bottom: 24px;
 }
 
-@media screen and (max-width: 450px) {
-	.tocdescr {
-		display: flex;
-		flex-flow: column wrap;
-		justify-content: space-between;
-		align-items: flex-start;
-		align-content: flex-start;
-		list-style-type: none;
-		margin-bottom: 10px;
-	}
-
-	.tocdescr:after {
-		content: "";
-		flex: none;
-	}
-}
-
-.descr {
-	flex: 2 0 33.3%;
-	margin: 10px 15px;
+.card {
 	border-radius: .3em;
 	user-select: none;
 }
 
-.descr div.figure,
-.descr figure {
+.card div.figure,
+.card figure {
 	margin-bottom: 0px;
 	display: block;
 }
 
-.descr img {
+.card img {
 	border-top-left-radius: .3em;
 	border-top-right-radius: .3em;
 }
 
-.descr dl {
+.card dl {
 	margin-bottom: 10px
 }
 
-.descr dl dt>a {
+.card dl dt>a {
 	display: block;
 	width: 100%;
 	margin-bottom: 10px;
 }
 
-.descr dl dt a em,
-.descr dl dt a span {
+.card dl dt a em,
+.card dl dt a span {
 	font-weight: bold;
 	font-style: normal;
 	font-size: 1.3em;
 }
 
-.descr dl dt {
+.card dl dt {
 	padding: 18px 15px 0px !important
 }
 
-.descr dl dd {
-	padding: 0px 15px;
+.card dl dd {
+	padding: 0px 15px 5px 15px;
 	font-style: normal;
 	margin: 0px;
 	color: #808080;
 	font-size: 90%;
 }
 
-.descr {
+.card {
 	box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 4px 0px,
 		rgba(211, 216, 223, 0.33) 0px 15px 20px -1px;
 }
 
-#getting-started .descr {
+#getting-started .card {
 	box-shadow: none;
 }
 
-/* End section description. */
+/* End section cards. */
 
 /* Start custom toctree. */
 .toctree-wrapper .toctree-l1>a {
