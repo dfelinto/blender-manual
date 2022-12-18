@@ -21,19 +21,19 @@ in which the newly created strokes are drawn.
 
    Stroke Placement selector on 3D Viewport header.
 
-:Origin:
+Origin
    Strokes are placed at Grease Pencil object origin.
 
-:3D Cursor:
+3D Cursor
    Strokes are placed at 3D cursor.
 
-:Surface:
+Surface
    Strokes will stick on mesh surfaces.
 
    Offset
       Distance from the mesh surface to place the new strokes.
 
-:Stroke:
+Stroke
    Strokes will stick on other strokes.
 
    Target
