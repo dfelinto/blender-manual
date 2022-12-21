@@ -7,10 +7,18 @@ Open Shading Language
 
 It is also possible to create your own nodes using
 `Open Shading Language <https://github.com/AcademySoftwareFoundation/OpenShadingLanguage>`__ (OSL).
-Note that these nodes will only work for CPU rendering;
-there is no support for running OSL code on the GPU.
+These nodes will only work with the CPU and OptiX rendering backend.
 
 To enable it, select *Open Shading Language* as the shading system in the render settings.
+
+.. note::
+   
+   Some OSL features are not available when using the OptiX backend. Examples include: 
+   
+   - Images can not be loaded from inside a OSL script. An :doc:`/render/shader_nodes/textures/image`
+     must be used instead.
+   - Some noise functions are not available. Examples include *Cell*, *Simplex*, and *Gabor*.
+   - The :ref:`trace <render-shader-nodes-osl-trace>` function can't be used.
 
 
 .. _bpy.types.ShaderNodeScript:
@@ -198,15 +206,17 @@ Other attributes are listed below:
 ``particle:angular_velocity``
    Angular velocity of the particle.
 
+.. _render-shader-nodes-osl-trace:
 
 Trace
 =====
 
-We support the ``trace(point pos, vector dir, ...)``
-function, to trace rays from the OSL shader.
-The "shade" parameter is not supported currently,
-but attributes can be retrieved from the object that was hit using the ``getmessage("trace", ..)`` function.
-See the OSL specification for details on how to use this.
+:guilabel:`CPU Only`
+
+We support the ``trace(point pos, vector dir, ...)`` function,
+to trace rays from the OSL shader. The "shade" parameter is not supported currently,
+but attributes can be retrieved from the object that was hit using the
+``getmessage("trace", ..)`` function. See the OSL specification for details on how to use this.
 
 This function cannot be used instead of lighting;
 the main purpose is to allow shaders to "probe" nearby geometry,

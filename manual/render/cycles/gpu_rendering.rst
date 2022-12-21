@@ -22,8 +22,9 @@ and operating system.
 
 .. note::
 
-   :doc:`/render/shader_nodes/osl` and :ref:`path guiding <bpy.types.CyclesRenderSettings.use_guiding>`
-   are not supported when rendering on the GPU.
+   :ref:`Path Guiding <bpy.types.CyclesRenderSettings.use_guiding>` is not supported
+   when rendering on the GPU.
+
 
 CUDA -- NVIDIA
 --------------
@@ -32,6 +33,8 @@ CUDA -- NVIDIA
 Nvidia graphics cards with compute capability 3.0 and higher. To make sure your GPU is supported,
 see the `list of Nvidia graphics cards <https://developer.nvidia.com/cuda-gpus#compute>`__
 with the compute capabilities and supported graphics cards.
+
+.. note:: :doc:`/render/shader_nodes/osl` is not supported.
 
 
 .. _render-cycles-gpu-optix:
@@ -43,6 +46,11 @@ OptiX is supported on Windows and Linux and requires a Nvidia graphics cards wit
 and a driver version of at least 470. To make sure your GPU is supported,
 see the `list of Nvidia graphics cards <https://developer.nvidia.com/cuda-gpus#compute>`__
 OptiX works best on RTX graphics cards with hardware ray tracing support (e.g. Turing and above).
+
+.. note::
+
+   :doc:`/render/shader_nodes/osl` is supported with a few limitations.
+   Refer to the :doc:`/render/shader_nodes/osl` documentation for a list of limitations.
 
 
 HIP -- AMD
@@ -69,7 +77,10 @@ Minimum driver versions:
 Please refer to `AMD's website <https://www.amd.com/en/graphics>`__ for more
 information about AMD graphics cards and their architectures.
 
-.. note:: The *Clip* extension mode in the :doc:`/render/shader_nodes/textures/image` is not supported.
+.. note::
+
+   :doc:`/render/shader_nodes/osl` and the *Clip* extension mode in the
+   :doc:`/render/shader_nodes/textures/image` are not supported.
 
 
 oneAPI -- Intel
@@ -90,6 +101,8 @@ Minimum driver versions:
 Please refer to `Intel's website <https://www.intel.com/content/www/us/en/products/details/discrete-gpus.html>`__
 for more information about Intel graphics cards and their architectures.
 
+.. note:: :doc:`/render/shader_nodes/osl` is not supported.
+
 
 Metal -- Apple (macOS)
 ----------------------
@@ -99,6 +112,8 @@ macOS 13.0 or newer is required to support all features and graphics cards.
 
 Apple Silicon and AMD graphics cards also work on macOS 12.3 and newer, however
 without support for :ref:`MNEE caustics <bpy.types.CyclesObjectSettings.is_caustics_caster>`.
+
+.. note:: :doc:`/render/shader_nodes/osl` is not supported.
 
 
 Frequently Asked Questions
