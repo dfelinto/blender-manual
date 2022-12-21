@@ -42,7 +42,7 @@ Mix
    The Blend modes can be selected in the select menu.
    See :term:`Color Blend Modes` for details on each blending mode.
 
-   Add, Subtract, Multiply, Screen, Divide, Difference,
+   Add, Subtract, Multiply, Screen, Divide, Difference, Exclusion, 
    Darken, Lighten, Overlay, Color Dodge, Color Burn,
    Hue, Saturation, Value, Color, Soft Light, Linear Light
 
