@@ -287,7 +287,8 @@ Generates a mask based on the cavity of the surface. The settings of the operati
 in the :doc:`Adjust Last Operation </interface/undo_redo>` panel.
 
 Mode
-   Choose how the newly created mask is mixed with the existing one. By default it will replace the old mask via "Mix".
+   Choose how the newly created mask is mixed with the existing one. By default it will replace the old mask via
+   "Mix".
 Mix Factor
    The factor of the mix effect. Choose how strong the new mask is applied on the existing one.
 Automask Settings

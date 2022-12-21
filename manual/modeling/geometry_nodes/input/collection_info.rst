@@ -40,7 +40,8 @@ Properties
 ==========
 
 Transform Space
-   The transformation of the output instances. The instances are transformed, but not the geometry of the collection in them.
+   The transformation of the output instances. The instances are transformed, but not the geometry of the
+   collection in them.
 
    :Original:
       Output the instances relative to the collection offset.

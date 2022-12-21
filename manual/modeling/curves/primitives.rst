@@ -103,7 +103,8 @@ Surface
    When adding a new Curves object via the `Add Menu` the active object is automatically set as the surface.
 
    To set a new surface press :kbd:`Ctrl-P` and select *Object (Attach Curves to Surface)*
-   in the *Set Parent To* pop-up menu. This option can be seen as part of the Curves settings in the Properties Editor.
+   in the *Set Parent To* pop-up menu. This option can be seen as part of the Curves settings in the Properties
+   Editor.
 
    .. figure:: /images/sculpt-paint_sculpting_curves-surface.png
 

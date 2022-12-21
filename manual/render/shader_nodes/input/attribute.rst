@@ -96,5 +96,5 @@ Alpha
 
 .. warning::
 
-   Currently, only *View Layer* attributes are supported in shaders used for the :doc:`World </render/lights/world>` or
-   :doc:`Light Objects </render/lights/light_object>`.
+   Currently, only *View Layer* attributes are supported in shaders used for the :doc:`World </render/lights/world>`
+   or :doc:`Light Objects </render/lights/light_object>`.

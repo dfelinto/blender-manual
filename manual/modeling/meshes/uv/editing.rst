@@ -290,7 +290,8 @@ then individually translate each island so that they maximize the usage of the U
    The :doc:`UDIM </modeling/meshes/uv/workflows/udims>` grid to pack UV islands into.
 
    :Closest UDIM: Pack islands to the UDIM closest to the center of the selection.
-   :Active UDIM: Pack islands to active UDIM image tile or, if no image is available, the UDIM grid tile where the 2D cursor is located.
+   :Active UDIM: Pack islands to active UDIM image tile or, if no image is available, the UDIM grid tile where the 2D
+                 cursor is located.
  Rotate
    Allow islands to be rotated as well as translated to maximize texture usage.
  Margin Method
@@ -444,7 +445,8 @@ Copy UVs
    :Mode:      Edit Mode
    :Menu:      :menuselection:`UV --> Copy UVs`
 
-For each selected UV island, the *Copy UVs* tool will copy it's topology and UV coordinates into a temporary clipboard for later use with the *Paste UVs* tool.
+For each selected UV island, the *Copy UVs* tool will copy it's topology and UV coordinates into a temporary clipboard
+for later use with the *Paste UVs* tool.
 
 .. note::
 
@@ -461,13 +463,15 @@ Paste UVs
    :Mode:      Edit Mode
    :Menu:      :menuselection:`UV --> Paste UVs`
 
-For each selected UV island, the *Paste UVs* tool will attempt to match the topology of an island stored in the internal clipboard.
-If a match is found, the UVs stored in the clipboard for the original island will be pasted onto the currently selected island.
+For each selected UV island, the *Paste UVs* tool will attempt to match the topology of an island stored in the
+internal clipboard. If a match is found, the UVs stored in the clipboard for the original island will be pasted
+onto the currently selected island.
 
-For example, if a triangle attached to a quad attached to a quad is in the clipboard, then a different triangle<=>quad<=>quad is selected,
-then the topologies match, and the UVs will be pasted over the current selection.
+For example, if a triangle attached to a quad attached to a quad is in the clipboard, then a different triangle
+<=> quad <=> quad is selected, then the topologies match, and the UVs will be pasted over the current selection.
 
-For best results, you may want to use the Rip tool, or :menuselection:`UV > Split > Selection`, prior to using *Paste UVs*.
+For best results, you may want to use the Rip tool, or :menuselection:`UV > Split > Selection`, prior to using
+*Paste UVs*.
 
 .. _bpy.ops.uv.hide:
 .. _bpy.ops.uv.reveal:

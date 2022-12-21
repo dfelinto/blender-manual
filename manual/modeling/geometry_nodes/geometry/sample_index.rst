@@ -23,7 +23,8 @@ The *Sample Index* node retrieves values from a source geometry at a specific in
    Different components can have same attribute domain (Points).
    This node simply uses first component that not empty for such domain,
    checked in the order of: Mesh, Point Cloud, Curve.
-   The :doc:`/modeling/geometry_nodes/geometry/separate_components` can be used to sample directly from a specific component.
+   The :doc:`/modeling/geometry_nodes/geometry/separate_components` can be used to sample directly from a
+   specific component.
 
 
 Inputs

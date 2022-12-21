@@ -12,7 +12,8 @@ Image Info Node
 
 
 The *Image Info* node gets information from image and animation.
-This can be useful to generate parameters in the geometry node for arbitrary images. Image information can be either general or frame-specific.
+This can be useful to generate parameters in the geometry node for arbitrary images. Image information can be either
+general or frame-specific.
 
 Inputs
 ======
