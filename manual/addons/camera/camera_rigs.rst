@@ -45,7 +45,8 @@ When the Rig is selected, the camera properties will be displayed in the Sidebar
 Root Bone
    This is the parent of the entire rig.
 Control Bone
-   This is the bone (named ``Camera``) that will translate the camera around. By default it will track to the aim bone.
+   This is the bone (named ``Camera``) that will translate the camera around. By default it will track to the aim
+   bone.
 Aim Bone
    The camera will point at this bone (named ``Aim``).
    You can also tilt the camera by rotating the aim on the Y axis.
@@ -54,9 +55,10 @@ Aim Bone
 2D Rig
 ======
 
-This rig is designed to provide fine controls over the framing while aiming at one direction. With it, you can frame the
-action by moving two of the corners of the camera, instead of moving and rotating it. It produces smooth movements that
-would be hard to achieve without it, by using complex drivers to calculate the appropriate camera settings.
+This rig is designed to provide fine controls over the framing while aiming at one direction. With it, you can
+frame the action by moving two of the corners of the camera, instead of moving and rotating it. It produces smooth
+movements that would be hard to achieve without it, by using complex drivers to calculate the appropriate camera
+settings.
 
 .. seealso::
 
@@ -126,8 +128,8 @@ The panel will display the most used camera settings.
 Only the added features will be explain here, for more information refer to the :doc:`/render/cameras` section.
 
 Set DOF Bone
-   The *Set DOF Bone* button will automatically set up the camera so that it uses the camera rig’s Aim bone as a target
-   for the depth of field (DOF).
+   The *Set DOF Bone* button will automatically set up the camera so that it uses the camera rig’s Aim bone as a
+   target for the depth of field (DOF).
 
 Focal Distance/F-Stop/Focal Length
    These are custom properties on the camera bone that drive the equivalent setting on the actual camera.
