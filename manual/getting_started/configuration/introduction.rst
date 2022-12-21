@@ -26,7 +26,7 @@ This gives you the 3D view shortcuts regularly used on the number pad.
 
 If you do not have a middle mouse button, you can enable
 :menuselection:`Preferences --> Input --> Mouse --> Emulate 3 Button Mouse`.
-This allows you to hold the :kbd:`Alt`  or :kbd:`OS` key while dragging with the mouse, to orbit.
+This allows you to hold the :kbd:`Alt`  or :kbd:`OSKey` key while dragging with the mouse, to orbit.
 
 See :doc:`Input Preferences </editors/preferences/input>` for details.
 
