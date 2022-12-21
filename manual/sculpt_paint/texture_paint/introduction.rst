@@ -72,7 +72,8 @@ different tools become available in the Toolbar.
 
 In the Image Editor, you paint on a flat canvas that is wrapped around the mesh using UV coordinates.
 Any changes made in the Image Editor show up immediately in the 3D Viewport, and vice versa.
-To work with the UV layout (for example, to move coordinates) you must go back to View mode.
+
+To work with the UV layout (for example, to move coordinates) you must use the :doc:`/editors/uv/index`.
 
 A full complement of brushes and colors can be selected from the Sidebar region in the Image Editor.
 Brush changes made in either panel are immediately reflected in the other panel.
