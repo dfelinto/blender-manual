@@ -51,3 +51,5 @@ Save All Images
 Add Simple UVs
    The *Add Simple UVs* does a simple cube unwrap followed by a pack operation.
    It's still recommended to make a custom unwrap.
+
+   This operator is available when the object does not already have a UV Map.
