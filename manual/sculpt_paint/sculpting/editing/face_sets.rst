@@ -63,7 +63,7 @@ Mode
 
    By Loose Parts
       Creates a new face set per discontinuous part of the mesh.
-   By Face Set Boundary
+   By Face Set Boundaries
       Creates a face set for each isolated face set.
       This mode is useful for splitting the patterns created by `Expand Face Set by Topology`_
       into individual Face Sets for further editing.
