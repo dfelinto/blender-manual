@@ -61,43 +61,53 @@ Paths Type
    :Around Frame:
       Display paths of points within a fixed number of frames around the current frame.
       When you enable this button, you get paths for a given number of frames before and after the current one
-      (again, as with ghosts).
    :In Range:
       Display paths of points within specified range.
 
       .. _bpy.ops.pose.paths_range_update:
 
-      Update Range from Scene (Clock Icon)
-         Updates the display frame range from the scene frame range.
+.. _bpy.types.AnimVizMotionPaths.range:
+
+Calculation Range
+   The range of the motion path. Only active when *Paths Type* is set to
+   *In Range*. Changing this option only takes effect when updating the path, via
+   the *Update Path* or *Update All Paths* buttons.
+
+   :All Keys:
+      Generate a motion path ranging from the first keyframe to the last. Only
+      the keys of the active object / bone are considered.
+   :Selected Keys:
+      Same as *All Keys* except that it ranges from the first to the last
+      *selected* keyframe.
+   :Scene Frame Range:
+      Use the start & end frames of the scene, or the
+      :ref:`preview range <graph-preview-range>` if active.
+   :Manual Range:
+      Manually set the start and end frame.
 
 .. _bpy.types.AnimVizMotionPaths.frame_start:
 .. _bpy.types.AnimVizMotionPaths.frame_end:
 
 Frame Range Start, End
    Starting and Ending frame of range of paths to display/calculate
-   (not for *Around Current Frame* onion skinning method).
+   (not for the *Around Current Frame* type).
+
+   Although the start and end frame are always editable, updating the motion
+   path will change these according to the *Calculation Range* setting. To
+   ensure your chosen frame range is maintained, choose *Manual Range* there.
 
 .. _bpy.types.AnimVizMotionPaths.frame_before:
 .. _bpy.types.AnimVizMotionPaths.frame_after:
 
 Frame Range Before, After
    Number of frames to show before and after the current frame
-   (only for *Around Current Frame* onion skinning method).
+   (only for the *Around Current Frame* type).
 
 .. _bpy.types.AnimVizMotionPaths.frame_step:
 
 Step
    Allows displaying one point for every *n* frames on the path.
    Mostly useful when you enable the frame number display (see below), to avoid cluttering the 3D Viewport.
-
-.. _bpy.types.AnimVizMotionPaths.range:
-
-Calculation Range
-   The method to choose the upper and lower bounds of Motion Paths.
-
-   :Scene Frame Range: Calculates Motion Paths for the entire Scene or Preview frame duration.
-   :Selected Keys: Calculates Motion Paths for the range of the first selected keyframe to the last keyframe.
-   :All Keys: Calculates Motion Paths from the first keyframe to the last keyframe.
 
 .. _bpy.types.MotionPath.frame_start:
 .. _bpy.types.MotionPath.frame_end:
