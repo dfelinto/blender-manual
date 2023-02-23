@@ -43,3 +43,4 @@ Node Types
    volume/index.rst
    uv/index.rst
    group.rst
+   hair/index.rst
